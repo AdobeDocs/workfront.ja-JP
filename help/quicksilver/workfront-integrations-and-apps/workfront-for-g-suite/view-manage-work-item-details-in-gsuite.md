@@ -2,25 +2,25 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-for-g-suite
-title: G Suite から  [!DNL Adobe Workfront]  オブジェクトの詳細を表示および管理
-description: G Suite を離れることなく、作業アイテムの詳細を表示および管理できます。例えば、タスクの説明を読み取り、その親オブジェクトを表示し、そのステータスを変更し、タスクを完了としてマークすることをすべて  [!DNL Adobe Workfront]  for G Suite 内で行うことができます。
+title: Google Workspaceからのオブジェク  [!DNL Adobe Workfront]  の詳細の表示と管理
+description: Google Workspaceを離れることなく、作業項目の詳細を表示および管理できます。 例えば、Google Workspaceで、タスクの説明を読み取り、親オブジェクトを確認し、ステータスを変更し、完了としてマークするこ  [!DNL Adobe Workfront]  ができます。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
-workflow-type: ht
-source-wordcount: '456'
-ht-degree: 100%
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+workflow-type: tm+mt
+source-wordcount: '446'
+ht-degree: 78%
 
 ---
 
-# [!DNL G Suite] から [!DNL Adobe Workfront] オブジェクトの詳細を表示および管理
+# [!DNL Google Workspace] から [!DNL Adobe Workfront] オブジェクトの詳細を表示および管理
 
 >[!NOTE]
 >
 >Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
 
-[!DNL G Suite] から離れることなく、作業アイテムの詳細を表示および管理できます。例えば、タスクの説明を読み取り、その親オブジェクトを表示し、そのステータスを変更し、タスクを完了としてマークすることをすべて [!DNL Adobe Workfront for G Suite] 内で行うことができます。
+[!DNL Google Workspace] から離れることなく、作業アイテムの詳細を表示および管理できます。例えば、タスクの説明を読み取り、その親オブジェクトを表示し、そのステータスを変更し、タスクを完了としてマークすることをすべて [!DNL Adobe Workfront for Google Workspace] 内で行うことができます。
 
 ## アクセス要件
 
@@ -45,20 +45,20 @@ ht-degree: 100%
 
 ## 前提条件
 
-[!DNL G Suite] で作業アイテムの詳細を表示および管理するには、次のことを行う必要があります。
+[!DNL Google Workspace] で作業アイテムの詳細を表示および管理するには、次のことを行う必要があります。
 
-* [!DNL Workfront for G suite] をインストール\
-   手順については、[ [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md) をインストールを参照してください。
+* [!DNL Workfront for Google Workspace] をインストール\
+   手順については、[ [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md) をインストールを参照してください。
 
-## [!DNL G Suite] で作業アイテムの詳細を表示および管理する
+## [!DNL Google Workspace] で作業アイテムの詳細を表示および管理する
 
-1. [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、ページの右端にある [!DNL G Suite] アドオンサイドバーにある [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
-1. [[!DNL G Suite] の  [!DNL Adobe Workfront] [!UICONTROL  のホーム]コンテンツにアクセス](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)の説明に従って、[!DNL G Suite] 内の [!DNL Workfront] タスクまたはイシューに移動します。
+1. [!UICONTROL Google WorkspaceのWorkfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1.  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) からの [ アクセス  [!DNL Adobe Workfront] [!UICONTROL  ホーム ] コンテンツの説明に従って、[!DNL Google Workspace] 内の [!DNL Workfront] のタスクまたはイシューに移動します。
 
    タスクまたはイシューを選択すると、「**[!UICONTROL 詳細]**」タブが開きます。「**[!UICONTROL 詳細]**」タブの上のエリアには、親オブジェクトの名前、タスクまたはイシューの名前、[!UICONTROL 期日]（タスクの場合）または[!UICONTROL 優先日]（イシューの場合）が表示されます。
 
 
-   [!DNL G Suite] から離れることなく、このタブで次のような様々なタスクを実行できます。
+   [!DNL Google Workspace] から離れることなく、このタブで次のような様々なタスクを実行できます。
 
    * オブジェクトの&#x200B;**[!UICONTROL 説明]**、およびオブジェクトに割り当てられたユーザー、**[!UICONTROL 優先度]**、リクエスター、**[!UICONTROL 予定完了日]**、オブジェクトに添付されたカスタムフィールドやフォームなど、その他の詳細を表示します。
 
@@ -81,5 +81,5 @@ ht-degree: 100%
 
 1. （オプション）**[!UICONTROL [!DNL Workfront]]** で「表示」をクリックして、[!DNL Workfront] の現在の作業アイテムに移動します。
 
-* [!DNL Workfront for G Suite] の「[!UICONTROL 更新]」タブの使用について詳しくは、[[!DNL G Suite] から  [!DNL Adobe Workfront]  オブジェクトを更新](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)を参照してください。
-* [!DNL Workfront for G Suite] の「[!UICONTROL ドキュメント]」タブの使用について詳しくは、[[!DNL G Suite] のドキュメントを表示および管理](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)を参照してください。
+* [!DNL Workfront for Google Workspace] の「[!UICONTROL  更新 ]」タブの使用について詳しくは、[ から  [!DNL Adobe Workfront]  オブジェクトを更新  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md) を参照してください。
+* [!DNL Workfront for Google Workspace] の「[!UICONTROL ドキュメント]」タブの使用について詳しくは、[[!DNL G Suite] のドキュメントを表示および管理](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)を参照してください。

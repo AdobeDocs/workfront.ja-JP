@@ -7,7 +7,7 @@ description: カスタム OAuth クライアントを使用し、 [!DNL Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
-source-git-commit: 7d2b4a9940cb21de1b8b5f2955f53b3d88040e44
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 89%
@@ -25,17 +25,17 @@ ht-degree: 89%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL 作業 ] 以上</p> </td> 
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在：いいえ [!DNL Workfront Fusion] ライセンス要件</p>
+   <p>現在：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
    <p>または</p>
    <p>レガシー：任意 </p>
    </td> 
@@ -43,9 +43,9 @@ ht-degree: 89%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</li></ul>
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織は [!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul>
    <p>または</p>
-   <p>現在：組織による購入が必要です。 [!DNL Adobe Workfront Fusion].</p>
+   <p>現在：[!DNL Adobe Workfront Fusion] を購入する必要があります。</p>
    </td> 
   </tr>
  </tbody> 
@@ -63,17 +63,17 @@ ht-degree: 89%
 
 この連携を作成するには、Google Cloud Platform でプロジェクトを作成して設定し、そのプロジェクトに基づいて Fusion で連携を設定する必要があります。
 
-* [でプロジェクトを作成 [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform)
-* [設定 [!UICONTROL OAuth 同意] 設定](#configure-oauth-consent-settings)
+* [ [!DNL Google Cloud Platform] にプロジェクトを作成します。](#create-a-project-on-google-cloud-platform)
+* [[!UICONTROL OAuth 同意 ] 設定の指定 ](#configure-oauth-consent-settings)
 * [OAuth 資格情報を作成](#create-oauth-credentials)
-* [の接続 [!DNL Google] 。対象： [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion)
+* [ [!DNL Google]  接続  [!DNL Workfront Fusion]](#connect-to-google-in-workfront-fusion)
 
 >[!NOTE]
 >
 >この手順の目的は次のとおりです。
 >
 >* 個人用（[!DNL `@gmail.com`] および [!DNL `@googlemail.com`] ユーザー）
->* 内部使用（カスタム OAuth クライアントの使用を希望する [!DNL G Suite] ユーザー）
+>* 内部使用（カスタム OAuth クライアントの使用を希望する [!DNL Google Workspace] ユーザー）
 
 ### [!DNL Google Cloud Platform] でプロジェクトを作成
 
@@ -239,4 +239,4 @@ ht-degree: 89%
 
 ## 考えられるエラーメッセージ：[!UICONTROL [403] アクセスが設定されていません]
 
-次の場合 [!UICONTROL `403 Access Not Configured`] エラーメッセージが表示されます。Google Cloud Platform で対応する API を有効にする必要があります。 API を有効にするには、この記事の「[ [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) でプロジェクトを作成」の節の手順に従います。
+[!UICONTROL `403 Access Not Configured`] エラーメッセージが表示された場合は、Google Cloud Platform で対応する API を有効にする必要があります。 API を有効にするには、この記事の「[ [!DNL Google Cloud Platform]](#create-a-project-on-google-cloud-platform) でプロジェクトを作成」の節の手順に従います。

@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '758'
-ht-degree: 95%
+ht-degree: 99%
 
 ---
 
@@ -49,11 +49,11 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
  <tbody> 
   <tr> 
    <td role="rowheader">許可する特定の IP アドレスおよびドメイン</td> 
-   <td> <p><a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">ファイアウォールの許可リストを設定</a>の記事には、組織が許可リストに追加する必要がある IP アドレスとドメインのリストが含まれています。 </p> <p>ネットワーク管理者が、「ファイアウォールの設定」の記事にアクセスできな許可リストに加えるい可能性があります。 その場合は、それを提供する必要があります。ハード（紙）コピーは印刷しないことをお勧めします。デジタルコピーを使用すると、ネットワーク管理者はアドレスをコピーして貼り付けることができます。これは、ハードコピーから入力するよりも迅速かつ正確です。</p> </td> 
+   <td> <p><a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">ファイアウォールの許可リストを設定</a>の記事には、組織が許可リストに追加する必要がある IP アドレスとドメインのリストが含まれています。 </p> <p>ネットワーク管理者が「ファイアウォールの許可リストの設定」の記事にアクセスできない可能性があります。その場合は、それを提供する必要があります。ハード（紙）コピーは印刷しないことをお勧めします。デジタルコピーを使用すると、ネットワーク管理者はアドレスをコピーして貼り付けることができます。これは、ハードコピーから入力するよりも迅速かつ正確です。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">クラスター</td> 
-   <td>組織のクラスターを検索するには、 <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">組織のクラスターとWorkfrontプランを表示</a>.</td> 
+   <td>組織のクラスターを検索するには、<a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">組織のクラスターと Workfront プランの表示</a>を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront プラン</td> 
@@ -76,7 +76,7 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
    <td>次のいずれかを使用する場合は、ネットワーク管理者に通知します。
     <ul>
      <li><p>Workfront for Jira</p></li>
-     <li><p>Workfront for G Suite</p></li>
+     <li><p>Google WorkspaceのWorkfront</p></li>
      <li><p>Workfront for Microsoft Teams</p></li>
      <li><p>Workfront for Outlook</p></li>
      <li><p>Workfront for Salesforce</p></li>
@@ -84,7 +84,7 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
   </tr> 
   <tr> 
    <td role="rowheader">その他の機能</td> 
-   <td> <p>次の情報を使用する場合は、ネットワーク管理者に通知します。</p> 
+   <td> <p>以下を使用する場合は、ネットワーク管理者に通知します。</p> 
     <ul> 
      <li> <p>Workfront 体験版</p> </li> 
     </ul> </td>

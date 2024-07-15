@@ -2,19 +2,19 @@
 product-area: workfront-integrations;user-management
 keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-for-g-suite
-title: G Suite 用  [!DNL Adobe Workfront]  にログインおよびログアウトする
-description: この記事では、G Suite 用  [!DNL Adobe Workfront for]  統合にログインまたはログアウトする方法について説明します。
+title: Google Workspaceへのログイ  [!DNL Adobe Workfront]  とログアウト
+description: この記事では、 [!DNL Adobe Workfront for] Google Workspace統合にログインする方法と統合からログアウトする方法について説明します。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
-workflow-type: ht
-source-wordcount: '250'
-ht-degree: 100%
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+workflow-type: tm+mt
+source-wordcount: '247'
+ht-degree: 81%
 
 ---
 
-# [!DNL Adobe Workfront for G Suite] にログインおよびログアウトする
+# [!DNL Adobe Workfront for Google Workspace] にログインおよびログアウトする
 
 >[!NOTE]
 >
@@ -39,36 +39,36 @@ ht-degree: 100%
    </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセスを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-[!DNL Workfront for G Suite] にログインまたはログアウトする前に、以下を行う必要があります
+[!DNL Workfront for Google Workspace] にログインまたはログアウトする前に、以下を行う必要があります
 
-* [!DNL Workfront for G suite] をインストール\
-   手順については、[インストール [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)を参照してください。
+* [!DNL Workfront for Google Workspace] をインストール\
+   手順については、[インストール [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)を参照してください。
 
-## [!DNL Adobe Workfront for G Suite] にログインする
+## [!DNL Adobe Workfront for Google Workspace] にログインする
 
-1. [!DNL Gmail]、[!DNL Google Calendar]、または [!DNL Google Drive] の右端の [!DNL G Suite] アドオンサイドバーにある [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. [!DNL Gmail]、[!DNL Google Calendar]、または [!DNL Google Drive] の右端の [!DNL Google Workspace] アドオンサイドバーにある [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
 
-   [!DNL Workfront for G Suite] アドオンをインストールしたばかりで、このアイコンが表示されない場合は、ブラウザーページを更新してみてください。
+   [!DNL Workfront for Google Workspace] アドオンをインストールしたばかりで、このアイコンが表示されない場合は、ブラウザーページを更新してみてください。
 
-1. [!DNL Workfront for G Suite] アドオンの「**[!UICONTROL ログイン]**」をクリックします。
+1. [!DNL Workfront for Google Workspace] アドオンの「**[!UICONTROL ログイン]**」をクリックします。
 1. [!DNL Workfront] ドメイン アドレス（*companyname.my.workfront.com* など）を入力します。
 1. 画面の指示に従って、[!DNL Workfront] にログインします。
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] と [!DNL G Suite] との接続には OAuth 2.0 を使用します。これはほとんどの web ベースの統合で、ユーザーの認証と承認に使用される安全な規格です。
-   >* [!DNL Workfront] アカウントの[ドメインまたはホスト]を入力するよう求められた場合、*yourCompany&#39;sDomain.my.workfront.com* の形式で入力します。会社のドメインは通常、会社の名前です。
+   >* [!DNL Workfront] と [!DNL Google Workspace] との接続には OAuth 2.0 を使用します。これはほとんどの Web ベースの統合で、ユーザーの認証と承認に使用される安全な規格です。
+   >* [!DNL Workfront] アカウントの [ ドメインまたはホスト ] を入力するよう求められた場合は、*yourCompany&#39;sDomain.my.workfront.com* の形式で入力します。会社のドメインは通常、会社の名前です。
 
 
-## [!DNL Workfront for G Suite] からログアウトする
+## [!DNL Workfront for Google Workspace] からログアウトする
 
-1. [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、ページの右端にある [!DNL G Suite] アドオンサイドバーで [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックしてください。
-1. [!DNL Workfront for G Suite] パネルの上部にある「**[!UICONTROL その他]**」アイコンをクリックします。
+1. [!UICONTROL Google WorkspaceのWorkfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. [!DNL Workfront for Google Workspace] パネルの上部にある「**[!UICONTROL その他]**」アイコンをクリックします。
 
 1. 表示されるメニューで「**[!UICONTROL ログアウト]**」をクリックします。
 
-   これによって、[!DNL G Suite] からログアウトされるわけではありません。
+   これによって、[!DNL Google Workspace] からログアウトされるわけではありません。

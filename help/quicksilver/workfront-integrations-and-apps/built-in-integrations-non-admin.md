@@ -7,9 +7,9 @@ description: ' [!DNL Adobe Workfront]  をサードパーティのアプリケ�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 5ea991185cbf2f925beccce9f46a16c3d8c8447d
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '476'
 ht-degree: 97%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 97%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
-     <p>詳しい情報と手順については、 <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html?lang=ja" class="MCXref xref">をインストールします。  [!DNL Adobe Workfront] プラグイン [!DNL Creative Cloud] アプリ</a>.</p> </td> 
+     <p>詳細情報と手順について詳しくは、<a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html?lang=ja" class="MCXref xref">[!DNL Creative Cloud]アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>ボックス</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -64,7 +64,7 @@ ht-degree: 97%
    <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>G-Suite メールをプロジェクトまたはタスクに追加 </li> 
+     <li>Google Workspace メールをプロジェクトまたはタスクに追加する </li> 
      <li>Gmail で [!DNL Workfront] 通知を表示および管理</li> 
      <li>Gmail 経由でリクエストを送信 </li> 
     </ul> </td> 

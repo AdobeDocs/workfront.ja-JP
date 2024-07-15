@@ -2,19 +2,19 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-for-g-suite
-title: メールコンテンツを使用した G Suite からの [!DNL Adobe Workfront] アイテムの更新
+title: メールコンテンツを使用したGoogle Workspaceからのア  [!DNL Adobe Workfront]  テムの更新
 description: Adobe Workfront 以外のメールに含まれている情報を使用して、既存のプロジェクト、タスクまたはイシューを更新できます。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
-workflow-type: ht
-source-wordcount: '649'
-ht-degree: 100%
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+workflow-type: tm+mt
+source-wordcount: '645'
+ht-degree: 85%
 
 ---
 
-# メールコンテンツを使用した [!DNL G Suite] からの [!DNL Adobe Workfront] アイテムの更新
+# メールコンテンツを使用した [!DNL Google Workspace] からの [!DNL Adobe Workfront] アイテムの更新
 
 >[!NOTE]
 >
@@ -41,19 +41,19 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-[!DNL G Suite] からのメールコンテンツを使用して [!DNL Workfront] アイテムを更新するには、まず以下を行う必要があります。
+[!DNL Google Workspace] からのメールコンテンツを使用して [!DNL Workfront] アイテムを更新するには、まず以下を行う必要があります。
 
-* [!DNL Workfront for G suite] のインストール\
-   手順については、[インストール [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)を参照してください。
+* [!DNL Workfront for Google Workspace] のインストール\
+   手順については、[インストール [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)を参照してください。
 
-## [!DNL G Suite] からのメールコンテンツを使用して [!DNL Workfront] アイテムを更新
+## [!DNL Google Workspace] からのメールコンテンツを使用して [!DNL Workfront] アイテムを更新
 
-1. [!UICONTROL Workfront for G Suite] パネルが表示されていない場合は、ページの右端にある [!DNL G Suite] アドオンサイドバーにある Workfront アイコン ![](assets/wf-lion-icon.png) をクリックします。
-1. メールメッセージを [!DNL G Suite] で開いた状態で、[!DNL G Suite] パネルの「**[!UICONTROL 新しい更新として投稿]**」をクリックします。
+1. [!UICONTROL Google WorkspaceのWorkfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーのWorkfront アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. メールメッセージを [!DNL Google Workspace] で開いた状態で、[!DNL Google Workspace] パネルの「**[!UICONTROL 新しい更新として投稿]**」をクリックします。
 1. 「**[!UICONTROL タイプ]**」でドロップダウン矢印をクリックし、続いて更新を追加するオブジェクトのタイプをクリックします。
 1. 「**[!UICONTROL 検索]**」オプションをクリックし、更新を追加するオブジェクトの名前を入力していき、目的のアイテムが下のリストに表示されたら選択します。
 
@@ -87,11 +87,11 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL 更新]**」をクリックします。
 
-   ブラウザーを更新すると、[!DNL Workfront for G Suite] パネルの下部にリンクが付いたメッセージが表示されて、メールが更新に変換されたことが確認されます。
+   ブラウザーを更新すると、[!DNL Workfront for Google Workspace] パネルの下部にリンクが付いたメッセージが表示されて、メールが更新に変換されたことが確認されます。
 
    このリンクをクリックすると、手順 4 で指定したオブジェクトの、[!DNL Workfront] の「[!UICONTROL 更新]」タブに移動します。
 
-   これらの手順を繰り返して、同じメールを更新、タスクおよびイシューに変換できます（[メールコンテンツを使用した [!DNL G Suite] での Adobe Workfront イシューの作成](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)を参照）。ブラウザーを更新したり、別の時点でメールに戻ったりすると、メールに対して作成したすべてのリンクが [!UICONTROL G Suite for Workfront] パネルの下部にリスト表示されます。
+   これらの手順を繰り返して、同じメールを更新、タスク、問題に変換できます（[ メールコンテンツを使用したAdobe Workfront イシューの作成  [!DNL Google Workspace]  を参照） ](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md) ブラウザーを更新したり、別のタイミングでメールに戻ったりすると、メール用に作成したすべてのリンクが、[!UICONTROL Google WorkspaceのWorkfront] パネルの下部に表示されます。
 
 1. （オプション）以下のいずれかを行って、[!DNL Workfront] アドオンパネルで更新の操作を続けます。
 

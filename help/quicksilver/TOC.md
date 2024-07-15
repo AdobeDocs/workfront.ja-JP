@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 39a6f46d811812ca70e7455fb4353b8d1841586a
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '14441'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -2374,22 +2374,22 @@ ht-degree: 96%
       * [Adobe Workfront と Jira の間で項目をリンク](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [Jira と Adobe Workfront の間でリンクされた項目を更新](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [Jira のアクティビティログの表示](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * G Suite 用 Adobe Workfront {#workfront-for-g-suite}
-      * [Adobe Workfront for G Suite](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
-      * [Adobe Workfront for G Suite のインストール](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
-      * [Workfront for G Suite のプライバシーと権限](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
-      * [Adobe Workfront for G Suite へのログインおよびログアウト](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
-      * [G Suite から Adobe Workfront ホームコンテンツへのアクセス](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
-      * [G Suite からの Adobe Workfront オブジェクトの更新](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
-      * [G Suite からのドキュメントの表示および管理](workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
-      * [G Suite からの Adobe Workfront オブジェクトの詳細の表示および管理](workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-      * [G Suite からの Adobe Workfront オブジェクトの更新の表示](workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
-      * [G Suite からの Adobe Workfront 通知の詳細の管理](workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
-      * [G Suite から Adobe Workfront 更新通知に返信](workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
-      * [G Suite のメールを Adobe Workfront オブジェクトおよび更新に変換](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
-      * [G Suite でメールコンテンツを使用した Adobe Workfront タスクの作成](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
-      * [G Suite でメールコンテンツを使用した Adobe Workfront イシューの作成](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-      * [G Suite からメールコンテンツを使用した Adobe Workfront 項目の更新](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+   * Google Workspace {#workfront-for-g-suite} のAdobe Workfront
+      * [Google WorkspaceのAdobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
+      * [Adobe Workfront for Google Workspaceのインストール](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
+      * [Workfront for Google Workspaceのプライバシーと権限](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
+      * [Google WorkspaceのAdobe Workfrontへのログインとログアウト](workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)
+      * [Google WorkspaceからAdobe Workfrontのホームコンテンツへのアクセス](workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
+      * [Google WorkspaceからのAdobe Workfront オブジェクトの更新](workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
+      * [Google Workspaceからのドキュメントの表示と管理](workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
+      * [Google WorkspaceからのAdobe Workfront オブジェクトの詳細の表示および管理](workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
+      * [Google WorkspaceからのAdobe Workfront オブジェクトの更新の表示](workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+      * [Google WorkspaceからのAdobe Workfront通知の詳細の管理](workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)
+      * [Google WorkspaceからのAdobe Workfront更新通知に返信します](workfront-integrations-and-apps/workfront-for-g-suite/reply-to-wf-update-notification-from-gsuite.md)
+      * [Google WorkspaceのメールをAdobe Workfront オブジェクトとアップデートに変換する](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
+      * [メールコンテンツを使用したGoogle WorkspaceでのAdobe Workfront タスクの作成](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
+      * [メールコンテンツを使用したGoogle WorkspaceでのAdobe Workfrontのイシューの作成](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+      * [メールコンテンツを使用したGoogle WorkspaceからのAdobe Workfront項目の更新](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Outlook 用 Adobe Workfront {#workfront-for-outlook}
       * [Outlook 用 Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Outlook 用 Adobe Workfront の設定](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)

@@ -5,26 +5,26 @@ product-area: workfront-integrations;documents
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Google ドキュメントモジュール
-description: Adobe Workfront Fusion  [!DNL Google Docs]  モジュールを使用すると、 [!DNL Google Docs]  や  [!DNL Google Docs]  （[!DNL G Suite] ユーザー用）のドキュメントを監視、作成、編集、取得できます。
+description: Adobe Workfront Fusion [!DNL Google Docs] module を使用すると、自分の  [!DNL Google Docs]  や  [!DNL Google Docs]  （ユーザー向け）でドキュメントをモニター、作成、編集  [!DNL Google Workspace]  取得できます。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '4090'
-ht-degree: 100%
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+workflow-type: tm+mt
+source-wordcount: '4085'
+ht-degree: 99%
 
 ---
 
 # [!DNL Google Docs] モジュール
 
-[!DNL Adobe Workfront Fusion] [!DNL Google Docs] モジュールを使用すると、[!DNL Google Docs] や [!DNL Google Docs] （[!DNL G Suite] ユーザー用）のドキュメントを監視、作成、編集、取得できます。
+[!DNL Adobe Workfront Fusion] [!DNL Google Docs] モジュールを使用すると、[!DNL Google Docs] や [!DNL Google Docs] （[!DNL Google Workspace] ユーザー用）のドキュメントを監視、作成、編集、取得できます。
 
 [!DNL Google Docs] を [!DNL Adobe Workfront Fusion] で使用するには、[!DNL Google] アカウントが必要です。まだ [!DNL Google] アカウントがない場合は、[!DNL Google] アカウントのヘルプページで作成できます。
 
-シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
+シナリオの作成手順について詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
-モジュールについては、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
+モジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md) のモジュールを参照してください。
 
 ## アクセス要件
 
@@ -53,9 +53,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明する機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr>
  </tbody> 
@@ -113,7 +113,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>作成されたドキュメントまたは変更されたドキュメントの監視するフォルダーを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>作成されたドキュメントまたは変更されたドキュメントの監視するフォルダーを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>監視する共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Shared Drive]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>監視する共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Shared Drive]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -133,7 +133,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Google] アカウントを [!DNL Workfront Fusion] に接続する手順について詳しくは、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事の<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスの [!DNL Workfront Fusion]</a> への接続を参照してください。</p> </td> 
+   <td> <p>[!DNL Google] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でシナリオを作成の記事の<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">[!DNL Workfront Fusion]</a> にモジュールのアプリまたは web サービスを接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
@@ -141,7 +141,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>ドキュメントをリストするフォルダーを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>ドキュメントをリストするフォルダーを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>ドキュメントのリストを表示する共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>ドキュメントのリストを表示する共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -175,7 +175,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>取得するドキュメントを含むフォルダーを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>取得するドキュメントを含むフォルダーを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>取得するドキュメントを含む共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>取得するドキュメントを含む共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -216,7 +216,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>ドキュメントを作成するフォルダーを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>ドキュメントを作成するフォルダーを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>ドキュメントを作成する共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>ドキュメントを作成する共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -256,7 +256,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>テンプレートが配置されているフォルダーを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>テンプレートが配置されているフォルダーを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>テンプレートが配置されている共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>テンプレートが配置されている共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -286,7 +286,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>ドキュメントを作成するフォルダーを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>ドキュメントを作成するフォルダーを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>ドキュメントを作成する共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>ドキュメントを作成する共有ドライブを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -318,7 +318,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>段落を追加するドキュメントが存在するフォルダーを選択し、ドキュメントを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>段落を追加するドキュメントが存在するフォルダーを選択し、ドキュメントを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>段落を追加するドキュメントが存在する共有ドライブを選択し、そのドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>段落を追加するドキュメントが存在する共有ドライブを選択し、そのドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -357,7 +357,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Google] アカウントを [!DNL Workfront Fusion] に接続する手順について詳しくは、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事の<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+   <td> <p>[!DNL Google] アカウントを [!DNL Workfront Fusion] に接続する手順について詳しくは、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事の<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">[!DNL Workfront Fusion]</a> へのモジュールのアプリまたは web サービスの接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Select a Document]</p> </td> 
@@ -373,7 +373,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>画像の追加先のドキュメントが存在するフォルダーを選択し、ドキュメントを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>画像の追加先のドキュメントが存在するフォルダーを選択し、ドキュメントを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>画像の追加先のドキュメントが存在する共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>画像の追加先のドキュメントが存在する共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -412,7 +412,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Google] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でシナリオを作成の記事の<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">モジュールのアプリまたは web サービスを [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+   <td> <p>[!DNL Google] アカウントを [!DNL Workfront Fusion] に接続する手順について詳しくは、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事の<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">[!DNL Workfront Fusion]</a> へのモジュールのアプリまたは web サービスの接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Select a Document]</p> </td> 
@@ -428,7 +428,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>画像を置き換えるドキュメントが存在するフォルダーを選択し、ドキュメントを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>画像を置き換えるドキュメントが存在するフォルダーを選択し、ドキュメントを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみ使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>画像を置き換えるドキュメントが存在する共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみ使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>画像を置き換えるドキュメントが存在する共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -448,7 +448,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Google] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でシナリオを作成の記事の<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">[!DNL Workfront Fusion]</a> にモジュールのアプリまたは web サービスを接続を参照してください。</p> </td> 
+   <td> <p>[!DNL Google] アカウントを [!DNL Workfront Fusion] に接続する手順について詳しくは、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> でのシナリオの作成の記事の<a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">[!DNL Workfront Fusion]</a> へのモジュールのアプリまたは web サービスの接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Select a Document]</p> </td> 
@@ -464,7 +464,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>テキストを追加したい文書が保存されているフォルダーを選択し、ドキュメントを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>テキストを追加したい文書が保存されているフォルダーを選択し、ドキュメントを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみ使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>テキストを追加したいドキュメントが保存されている共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみ使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>テキストを追加したいドキュメントが保存されている共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -496,7 +496,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>ダウンロードするドキュメントが保存されているフォルダーを選択し、そのドキュメントを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>ダウンロードするドキュメントが保存されているフォルダーを選択し、そのドキュメントを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみ使用可能））</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>ダウンロードするドキュメントが保存されている共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで [!DNL Google Docs] オプションを選択し、[!DNL G Suite] ユーザーでない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみ使用可能））</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>ダウンロードするドキュメントが保存されている共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで [!DNL Google Docs] オプションを選択し、[!DNL Google Workspace] ユーザーでない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -524,7 +524,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>削除するドキュメントが保存されているフォルダーを選択し、そのドキュメントを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>削除するドキュメントが保存されているフォルダーを選択し、そのドキュメントを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>削除するドキュメントが存在する共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>削除するドキュメントが存在する共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -561,11 +561,11 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a> での HTTP リクエストメソッドを参照してください。</p> <p> </p> </td> 
+   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> <p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>例えば <code>{"Content-type":"application/json"}</code> のように、標準の JSON オブジェクトの形式でリクエストのヘッダーを追加します。[!DNL Workfront Fusion] は認証ヘッダーを追加します。</p> </td> 
+   <td> <p>標準の JSON オブジェクトの形式でリクエストのヘッダーを追加します（例：<code>{"Content-type":"application/json"}</code>）。認証ヘッダーは [!DNL Workfront Fusion] によって追加されます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
@@ -623,7 +623,7 @@ ht-degree: 100%
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>リンクをクリック可能にするドキュメントが存在するフォルダーを選択し、ドキュメントを選択します。</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>リンクをクリック可能にするドキュメントが存在するフォルダーを選択し、ドキュメントを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL G Suite] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>リンクをクリック可能にするドキュメントが存在する共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL G Suite] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong>（[!DNL Google Workspace] ユーザーのみが使用可能）</p> <p>[!UICONTROL Use Domain Admin Access] するかどうかを選択します。[!UICONTROL Yes] を選択すると、ドメイン管理者としてリクエストが発行され、リクエスターが管理者である共有ドライブがすべて返されます。</p> <p>リンクをクリック可能にするドキュメントが存在する共有ドライブを選択し、ドキュメントを選択します。</p> <p>メモ：このフィールドで「[!DNL Google Docs]」オプションを選択し、[!DNL Google Workspace] ユーザーではない場合、エラー <code>[400] Invalid Value</code> が返されます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

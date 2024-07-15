@@ -8,10 +8,10 @@ description: Google は最近、ユーザーによる API の使用方法に関�
 author: Becky
 feature: Workfront Fusion
 exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '669'
-ht-degree: 100%
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
@@ -44,15 +44,15 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select]または[!UICONTROL Prime]の [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入してください。[!DNL Workfront Fusion] は [!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入してください。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 [!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
@@ -64,19 +64,19 @@ ht-degree: 100%
 
 ## [!DNL Google Services] 制限の例外
 
-評価証明書を持たない未承認のサードパーティサービスが新しい制限に違反することなくデータを送信できるようにする例外措置がいくつかあります。彼らは、[!DNL G Suite] と [!DNL Workfront Fusion] OAuth クライアント、[!DNL G Suite] と別の OAuth クライアント、または [!DNL @gmail.com] と [!DNL @google.mail.com] で異なります。
+評価証明書を持たない未承認のサードパーティサービスが新しい制限に違反することなくデータを送信できるようにする例外措置がいくつかあります。彼らは、[!DNL Google Workspace] と [!DNL Workfront Fusion] OAuth クライアント、[!DNL Google Workspace] と別の OAuth クライアント、または [!DNL @gmail.com] と [!DNL @google.mail.com] で異なります。
 
-* [[!DNL G suite] と  [!DNL Workfront Fusion]  OAuth クライアント](#g-suite-with-workfront-fusion-oauth-client)
-* [[!DNL G suite] と別の OAuth クライアント](#g-suite-with-another-oauth-client)
+* [ [!DNL Workfront Fusion] OAuth クライアントを使用した [!DNL Google Workspace]](#g-suite-with-workfront-fusion-oauth-client)
+* [[!DNL Google Workspace] と別の OAuth クライアント](#g-suite-with-another-oauth-client)
 * [[!DNL @gmail.com] および  [!DNL @googlemail.com]](#gmailcom-and-googlemailcom)
 
-### [!DNL G suite] と [!DNL Workfront Fusion] OAuth クライアント
+### [!DNL Google Workspace] と [!DNL Workfront Fusion] OAuth クライアント
 
-[!DNL Workfront Fusion] は [!UICONTROL ドメイン全体のインストール] の例外を使用します。ドメイン全体のインストールは、[!DNL G Suite] ユーザーに適しており、ユーザーは無制限に未承認のサービスを統合できます。G Suite のユーザーは、追加の手順を実行する必要がなく、未承認のサービスに直接接続することができます。
+[!DNL Workfront Fusion] は [!UICONTROL ドメイン全体のインストール] の例外を使用します。ドメイン全体のインストールは、[!DNL Google Workspace] ユーザーに適しており、ユーザーは無制限に未承認のサービスを統合できます。Google Workspaceのユーザーは、追加の手順を実行する必要がなく、未承認のサービスに直接接続できます。
 
-### [!DNL G suite] と別の OAuth クライアント
+### [!DNL Google Workspace] と別の OAuth クライアント
 
-[!DNL Workfront Fusion] OAuth クライアントを使用する代わりに自分の OAuth クライアントを使用したい [!DNL G Suite] ユーザーは、[!UICONTROL 内部] 使用アプローチ経由で [!DNL Google Services] に接続できます。このオプションは、上級ユーザー向けです。手順について詳しくは、[カスタム OAuth クライアントを使用して  [!DNL Adobe Workfront Fusion]  を  [!DNL Google Services]  に接続](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)を参照してください。
+[!DNL Workfront Fusion] OAuth クライアントを使用する代わりに自分の OAuth クライアントを使用したい [!DNL Google Workspace] ユーザーは、[!UICONTROL 内部] 使用アプローチ経由で [!DNL Google Services] に接続できます。このオプションは、上級ユーザー向けです。手順について詳しくは、[カスタム OAuth クライアントを使用して  [!DNL Adobe Workfront Fusion]  を  [!DNL Google Services]  に接続](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)を参照してください。
 
 ### [!DNL @gmail.com] および [!DNL @googlemail.com] {#gmailcom-and-googlemailcom}
 
@@ -85,23 +85,23 @@ ht-degree: 100%
 ## よくある質問
 
 * [ [!DNL Adobe Workfront Fusion]  のどのアプリが影響を受けますか？](#what-apps-in-adobe-workfront-fusion-are-affected)
-* [私は [!DNL G Suite] アカウントを持っていますか？](#do-i-have-a-g-suite-account)
+* [アカウントを持ってい  [!DNL Google Workspace]  すか。](#do-i-have-a-g-suite-account)
 * [私が  [!DNL @gmail.com]  または  [!DNL @googlemail.com]  ユーザーの場合はどうすればよいですか？](#what-should-i-do-if-im-gmailcom-or-googlemailcom-user)
-* [私が [!DNL G Suite] ユーザーの場合はどうすればよいですか？](#what-should-i-do-if-im-a-g-suite-user)
+* [ユーザーの場合はどうす  [!DNL Google Workspace]  ばよいですか？](#what-should-i-do-if-im-a-g-suite-user)
 
 ### [!DNL Adobe Workfront Fusion] のどのアプリが影響を受けますか？ {#what-apps-in-adobe-workfront-fusion-are-affected}
 
 [!DNL Google Drive]、[!DNL Gmail] およびメール（[!DNL Gmail] アカウントに接続）。
 
-### 私は [!DNL G Suite] アカウントを持っていますか？ {#do-i-have-a-g-suite-account}
+### 私は [!DNL Google Workspace] アカウントを持っていますか？ {#do-i-have-a-g-suite-account}
 
-メールアドレスの末尾が [!DNL @gmail.com] または [!DNL @googlemail.com] の場合、アカウントは [!DNL G Suite] アカウントではありません。[!DNL Google] アカウントが @my-company.com などのカスタムドメインで終わる場合は、[!DNL G Suite] アカウントです。
+メールアドレスの末尾が [!DNL @gmail.com] または [!DNL @googlemail.com] の場合、アカウントは [!DNL Google Workspace] アカウントではありません。[!DNL Google] アカウントが @my-company.com などのカスタムドメインで終わる場合は、[!DNL Google Workspace] アカウントです。
 
 ### 私が [!DNL @gmail.com] または [!DNL @googlemail.com] ユーザーの場合はどうすればよいですか？ {#what-should-i-do-if-im-gmailcom-or-googlemailcom-user}
 
 これらの新しい制限は、[!DNL Google Drive] または [!DNL Gmail] と統合する場合にのみ適用されます。[!DNL Google Drive] または [!DNL Gmail] を使用する場合、以下のことができます。
 
-* [!DNL G Suite] に切り替える
+* [!DNL Google Workspace] に切り替える
 
   または
 
@@ -113,6 +113,6 @@ ht-degree: 100%
 
 他の [!DNL Google Services] を [!DNL Workfront Fusion] に接続する手順については、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でシナリオを作成の記事の、[モジュールのアプリまたはウェブサービスを  [!DNL Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md#connect) に接続を参照してください。
 
-### 私が [!DNL G Suite] ユーザーの場合はどうすればよいですか？ {#what-should-i-do-if-im-a-g-suite-user}
+### 私が [!DNL Google Workspace] ユーザーの場合はどうすればよいですか？ {#what-should-i-do-if-im-a-g-suite-user}
 
 必要なアクションはありません。

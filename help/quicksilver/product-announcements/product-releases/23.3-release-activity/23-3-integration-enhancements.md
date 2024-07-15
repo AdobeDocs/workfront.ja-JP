@@ -5,10 +5,10 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -18,15 +18,15 @@ ht-degree: 100%
 
 23.3 リリースサイクルのこの時点で使用可能なすべての変更点のリストについて詳しくは、[23.3 リリースの概要](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)を参照してください。
 
-## 新しい G Suite 統合が利用可能になりました
+## 新しいGoogle Workspace統合が利用できるようになりました
 
-Google Marketplace で新しい G Suite 統合が利用できるようになりました。新しい統合は OAuth2 を使用して認証され、以前の統合から置き換わります。
+Google Marketplace で新しいGoogle Workspace統合が利用できるようになりました。 新しい統合は OAuth2 を使用して認証され、以前の統合から置き換わります。
 
-以前の G Suite 統合は廃止され、自動的にアンインストールされます。
+以前のGoogle Workspaceの統合は現在廃止されており、自動的にアンインストールされます。
 
-新しい統合のインストール方法については、[インストール [!DNL Adobe Workfront for G Suite]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)を参照してください。
+新しい統合のインストール方法については、[インストール [!DNL Adobe Workfront for Google Workspace]](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)を参照してください。
 
-Workfront for G Suite について詳しくは、[Workfront for G Suite](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)を参照してください。
+Google WorkspaceのWorkfrontについて詳しくは、[Google WorkspaceのWorkfront](/help/quicksilver/workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md) を参照してください。
 
 ## Adobe Creative Cloud 統合で、複数の割り当て済みユーザーをサポートするようになりました。
 

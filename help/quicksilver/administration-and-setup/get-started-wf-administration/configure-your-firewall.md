@@ -8,7 +8,7 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d85898a74991b2c634d8bd33c81c127321617cf9
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '1635'
 ht-degree: 97%
@@ -73,7 +73,7 @@ ht-degree: 97%
 >
 >一部の Workfront 統合は、静的 IP アドレスで設定できないため、許可リストが有効な場合は機能しません。次の統合を使用するには、許可リストを無効にする必要があります。
 >
->* Workfront for G Suite
+>* Google WorkspaceのWorkfront
 >* Workfront for Outlook
 >* Workfront for Salesforce
 

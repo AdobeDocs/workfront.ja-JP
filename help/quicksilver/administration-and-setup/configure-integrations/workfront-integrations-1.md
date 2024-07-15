@@ -4,15 +4,15 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Adobe Workfrontを他のサードパーティアプリケーションと同様に統合できます [!DNL Adobe] 製品。 統合は、Workfrontのユーティリティを拡張し、組織のニーズに合わせてカスタマイズできます。 様々なタイプの統合について詳しくは、この記事を参照してください。
+description: Adobe Workfront はサードパーティのアプリケーションや、他の  [!DNL Adobe]  製品と統合できます。統合により、Workfront のユーティリティを拡張し、組織のニーズに合わせて調整できます。この記事では、様々なタイプの統合について説明します。
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d9a8af627c8d3da4a7625cd5180bfca69da43b3d
+source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
 workflow-type: tm+mt
 source-wordcount: '1139'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -44,15 +44,15 @@ ht-degree: 74%
 
    使用可能な統合の一覧については、[追加のコストなしで利用可能な統合](#integrations-available-at-no-additional-cost)および[追加の購入が必要な統合](#integrations-requiring-an-additional-purchase)を参照してください。
 
-1. **技術管理者を特定する**
+1. **技術管理者の特定**
 
-   統合先のアプリケーションの組織の技術管理者を特定します。 [!DNL Workfront]. 例えば、との統合を選択した場合、 [!DNL Jira]を使用している場合は、会社の [!DNL Jira] 管理者で、プラットフォーム内の設定ニーズに関係なく関与させます。 また、との会話にこの管理者に関与する必要があります。 [!DNL Workfront] カスタマーサポート。
+   [!DNL Workfront] と統合するアプリケーションについて、組織の技術管理者を特定します。例えば、[!DNL Jira] との統合を選択した場合、会社の [!DNL Jira] 管理者に連絡し、プラットフォーム内の設定ニーズに参加してもらいます。[!DNL Workfront] カスタマーサポートと行うすべての会話にも、この管理者を参加させる必要があります。
 
-   管理者が作業を開始するには、その統合に関する具体的な手順を管理者に提供する必要があります。 これらの手順へのリンクについては、[追加のコストなしで利用可能な統合](#integrations-available-at-no-additional-cost)を参照してください。
+   管理者が作業を開始するには、その統合に関する具体的な手順を提供する必要があります。これらの手順へのリンクについては、[追加のコストなしで利用可能な統合](#integrations-available-at-no-additional-cost)を参照してください。
 
 1. **[!DNL Workfront] カスタマーサポート**&#x200B;との連携
 
-   管理者がネイティブ統合設定に関して問題が発生した場合は、 [!DNL Workfront] カスタマーサポートを参照して、ガイドやトラブルシューティングを行ってください。 [!DNL Workfront] が統合を設定することはないため、アドビでは、お客様がご自身で設定を行うために必要なすべてのツールおよびリソースを提供することに尽力しています。カスタマーサポートに直接お問い合わせいただいてもよいですし、統合を簡単に設定するのに役立つ、広範なリソース記事を参照することもできます。
+   管理者にネイティブ統合の設定に関して課題が発生した場合は、[!DNL Workfront] カスタマーサポートと連携して、ガイドやトラブルシューティングを支援してください。[!DNL Workfront] が統合を設定することはないため、アドビでは、お客様がご自身で設定を行うために必要なすべてのツールおよびリソースを提供することに尽力しています。カスタマーサポートに直接お問い合わせいただいてもよいですし、統合を簡単に設定するのに役立つ、広範なリソース記事を参照することもできます。
 
    カスタマーサポートへの連携については、[ カスタマーサポートに連絡](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 
@@ -62,7 +62,7 @@ ht-degree: 74%
 
    >[!NOTE]
    >
-   >サポートケースを提出するには、組織の任命されたサポート担当者である必要があります。ケースを送信した後、他のシステムの技術管理者を会話に追加できます。 直接サポートに連絡することはできません。
+   >サポートケースを提出するには、組織の任命されたサポート担当者である必要があります。ケースが送信された後、他のシステムの技術管理者も会話に追加できます。他のシステムの技術管理者は直接サポートに連絡することはできません。
 
 使用可能な組み込みの（ネイティブ）統合は、会社のニーズのすべては満たしていない可能性があることを、アドビは理解しています。その場合は、アカウント担当者に連絡して、カスタム統合についてご相談ください。
 
@@ -121,23 +121,23 @@ ht-degree: 74%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL G Suite]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
+   <td> <p>[!DNL Google Workspace]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>プロジェクトまたはタスクに [!DNL G-Suite] メールを追加します。 </li> 
+     <li>プロジェクトまたはタスクに [!DNL Google Workspace] メールを追加します。 </li> 
      <li>[!DNL Workfront] 通知を次で表示および管理： [!DNL Gmail]</li> 
      <li>[!DNL Gmail] 経由でリクエストを送信 </li> 
-    </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for G Suite]</a> を参照してください。</p> </td> 
+    </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a> を参照してください。</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL G Suite] ユーザーは [!DNL Workfront] ライセンスが必要です </li> 
+     <li>[!DNL Google Workspace] ユーザーは [!DNL Workfront] ライセンスが必要です </li> 
      <li>[!DNL Workfront] 表示および作業共有の権限は、アクセスレベルごとに設定する必要があります </li> 
-     <li> ユーザーは、POP が有効な電子メールアカウントを持っている必要があります </li> 
+     <li> ユーザーは、POP が有効なメールアカウントを持っている必要があります </li> 
      <li>[!DNL Workfront] リクエスト設定には POP 設定を含める必要があります </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!DNL G Suite] 管理者</li> 
+     <li>[!DNL Google Workspace] 管理者</li> 
      <li>[!DNL Workfront] 管理者 </li> 
     </ul> </td> 
   </tr> 
@@ -160,7 +160,7 @@ ht-degree: 74%
     </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a> を参照してください。</p> </td> 
    <td> 
     <ul> 
-     <li><p>新しいWorkfrontプラン：[!UICONTROL Select] [!DNL Workfront] plan 以上</p><p>現在のWorkfrontプラン： [!UICONTROL Pro] [!DNL Workfront] plan 以上</p> </li> 
+     <li><p>新しい Workfront プラン：[!UICONTROL Select] [!DNL Workfront] プラン以上</p><p>現在の Workfront プラン：[!UICONTROL Pro] [!DNL Workfront] プラン以上</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -217,7 +217,7 @@ ht-degree: 74%
      <li>[!DNL Workfront] プロジェクト、タスクおよびイシューを検索 </li> 
      <li>[!DNL Workfront] 個人タスクを作成 </li> 
      <li>[!DNL Workfront] リクエストを送信 </li> 
-    </ul> <p>詳しくは、 <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]：記事インデックス</a>.</p> </td> 
+    </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]：記事インデックス</a>を参照してください。</p> </td> 
    <td> 
     <ul> 
      <li>複数のチームが使用する場合は、組織の各チームが統合をインストールする必要があります</li> 
@@ -236,7 +236,7 @@ ht-degree: 74%
     </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a> を参照してください。</p> </td> 
    <td> 
     <ul> 
-     <li><p>新しいWorkfrontプラン：[!UICONTROL Select] [!DNL Workfront] plan 以上</p><p>現在のWorkfrontプラン： [!UICONTROL Pro] [!DNL Workfront] plan 以上</p> </li> 
+     <li><p>新しい Workfront プラン：[!UICONTROL Select] [!DNL Workfront] プラン以上</p><p>現在の Workfront プラン：[!UICONTROL Pro] [!DNL Workfront] プラン以上</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
@@ -291,27 +291,28 @@ ht-degree: 74%
 
 * [!DNL Workfront Fusion]
 
-  [!DNL Adobe Workfront Fusion] は、アプリとサービスの間でアクションをリンクし、データを自動的に転送および変換するシナリオを作成します。 多くのアプリに専用のコネクタを備えていますが、公開 API を使用して任意のアプリケーションに接続できます。
+  [!DNL Adobe Workfront Fusion] は、アプリ内やサービス内およびそれらの間でアクションをリンクして、データを自動的に転送および変換するシナリオを作成します。多くのアプリへの専用コネクタを備えていますが、公開 API を使用して任意のアプリケーションに接続できます。
 
   詳しくは、[[!DNL Adobe Workfront Fusion] 概要](../../workfront-fusion/get-started/workfront-fusion-overview.md)を参照してください。
 
 * [!DNL Adobe Experience Manager Assets]
-* [!DNL Anaplan] （が必要です） [!DNL Workfront Fusion])
+* [!DNL Anaplan]（[!DNL Workfront Fusion] が必要）
 
 Workfront と Experience Manager Assets、または Assets Essentials の統合により、組織は作業とデジタルアセット管理を本質的に結び付けることで、コンテンツの速度と市場投入までの時間を改善できます。
 
-詳しくは、 [Adobe Workfront for Experience Manager Assets統合の概要](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+詳しくは、[Adobe Workfront for Experience Manager Assets 統合の概要](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)を参照してください。
 
 ## パートナー統合
 
-[!DNL Workfront] には、 [!DNL Workfront] エクスペリエンス。
+[!DNL Workfront] には、[!DNL Workfront] エクスペリエンスを強化する多くのパートナー統合があります。
 
-既存のパートナー製品の例としては、との統合などがあります。 [!DNL Salesforce.com], [!DNL Oracle Responsys]、および [!DNL Microsoft Visual Studio].
+既存のパートナーサービスの例としては、[!DNL Salesforce.com]、[!DNL Oracle Responsys]、[!DNL Microsoft Visual Studio] との統合などがあります。
 
-これらの統合や他のパートナー統合について詳しくは、 [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+これらをはじめとするパートナー統合について詳しくは、[[!DNL Workfront] マーケットプレイス](https://www.workfront.com/enterprise/marketplace/apps/)を参照してください。
 
 ## [!DNL Workfront] API
 
-[!DNL Workfront] API を使用すると、パブリック API を活用して [!DNL Workfront] エクスペリエンスを拡張し、向上させることができます。アドビのオープン API を使用して、独自の統合を作成できます。
+[!DNL Workfront] API を使用すると、パブリック API を活用して [!DNL Workfront] エクスペリエンスを拡張し、向上させることができます。オープン API を使用して、独自の統合を作成できます。
 
 [!DNL Workfront] API で利用可能なオブジェクトのリストについて詳しくは、[!DNL Workfront] [API エクスプローラー](../../wf-api/general/api-explorer.md)を参照してください。
+

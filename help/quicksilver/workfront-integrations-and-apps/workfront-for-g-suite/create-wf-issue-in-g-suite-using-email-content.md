@@ -2,19 +2,19 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-for-g-suite
-title: G Suite でメールコンテンツを使用して  [!DNL Adobe Workfront]  イシューを作成する
+title: メールコンテンツ  [!DNL Adobe Workfront]  使用したGoogle Workspaceでのイシューの作成
 description: 外部メール（ [!DNL Adobe Workfront)]  以外で生成）を  [!DNL Workfront]  イシューに変換できます。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 4b95828dc3e6a67c4dbefb46f173303c519643a9
-workflow-type: ht
-source-wordcount: '776'
-ht-degree: 100%
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 84%
 
 ---
 
-# [!DNL G Suite] でメールコンテンツを使用して [!DNL Adobe Workfront] イシューを作成する
+# [!DNL Google Workspace] でメールコンテンツを使用して [!DNL Adobe Workfront] イシューを作成する
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 外部メール（[!DNL Adobe Workfront] 以外で生成）を [!DNL Workfront] イシューに変換できます。
 
-また、外部メールを既存のイシューのアップデートに変換することもできます。詳しくは、[メールコンテンツを使用して [!DNL G Suite] から  [!DNL Adobe Workfront]  アイテムを更新する](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)を参照してください。
+また、外部メールを既存のイシューのアップデートに変換することもできます。詳しくは、[ メールコンテンツを使用した  [!DNL Adobe Workfront]  項目の更新  [!DNL Google Workspace]  を参照してください ](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)。
 
-[!DNL G Suite] を使用して [!DNL Workfront] から送信された通知メールを操作する方法については、[[!DNL G Suite] から  [!DNL Adobe Workfront]  通知の詳細を管理する](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)を参照してください。
+[!DNL Google Workspace] を使用して [!DNL Workfront] から送信される通知メールを操作する方法については、[ からの管理  [!DNL Adobe Workfront]  通知の詳細  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md) を参照してください。
 
 ## アクセス要件
 
@@ -45,19 +45,19 @@ ht-degree: 100%
    </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-[!DNL G Suite] からイシューを作成する前に、次を実行する必要があります。
+[!DNL Google Workspace] からイシューを作成する前に、次を実行する必要があります。
 
-* [!DNL Workfront for G suite] のインストール\
-   手順については、[ [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md) のインストールを参照してください。
+* [!DNL Workfront for Google Workspace] のインストール\
+   手順については、[ [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md) のインストールを参照してください。
 
-## メールコンテンツを使用して [!DNL G Suite] で [!DNL Adobe Workfront] イシューを作成する
+## メールコンテンツを使用して [!DNL Google Workspace] で [!DNL Adobe Workfront] イシューを作成する
 
-1. [!UICONTROL Workfront for G Suite] パネルが表示されない場合は、ページの右端にある [!DNL G Suite] アドオンサイドバーで [!DNL Workfront] アイコン![](assets/wf-lion-icon.png)をクリックしてください。
-1. メールメッセージを [!DNL G Suite] で開いたまま、[!DNL Workfront for G Suite] でメールを新しい [!DNL Workfront] イシューに変換するオプションをクリックします。
+1. [!UICONTROL Google WorkspaceのWorkfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. メールメッセージを [!DNL Google Workspace] で開いたまま、[!DNL Workfront for Google Workspace] でメールを新しい [!DNL Workfront] イシューに変換するオプションをクリックします。
 
    ![](assets/convert-email-task-issue-update.png)
 
@@ -97,17 +97,17 @@ ht-degree: 100%
 
 1. **[!UICONTROL イシューを作成]**&#x200B;をクリックします。
 
-   新しいイシューの「**[!UICONTROL 詳細]**」タブが [!DNL Workfront for G Suite] パネルに表示されます。「**[!UICONTROL アップデート]**」をクリックすると、受信ボックスから離れることなく、すぐに共同編集者とのコミュニケーションを開始できます。
+   新しいイシューの「**[!UICONTROL 詳細]**」タブが [!DNL Workfront for Google Workspace] パネルに表示されます。「**[!UICONTROL アップデート]**」をクリックすると、受信ボックスから離れることなく、すぐに共同編集者とのコミュニケーションを開始できます。
 
    「**[!UICONTROL 詳細]**」タブの下部で「**[!UICONTROL Workfront で表示]**」をクリックして、Workfront で新しいイシューに移動することもできます。
 
-   ブラウザーを更新すると、[!UICONTROL Workfront for G Suite] パネルの下部に、メールがイシューに変換されたことを確認する、リンクを含むメッセージが表示されます。
+   ブラウザーを更新すると、[!UICONTROL Google WorkspaceのWorkfront] パネルの下部に、メールが問題に変換されたことを示すリンクが表示されます。
 
-   リンクをクリックすると、[!DNL Workfront for G Suite] パネル内の作成したイシューの詳細ビューに移動できます。
+   リンクをクリックすると、[!DNL Workfront for Google Workspace] パネル内の作成したイシューの詳細ビューに移動できます。
 
-   これらの手順を繰り返して、同じメールを複数のイシューに変換できます。ブラウザーを更新したり、別の時点でメールに戻ったりすると、メールに対して作成したすべてのリンクが [!UICONTROL Workfront for G Suite] パネルの下部に表示されます。
+   これらの手順を繰り返して、同じメールを複数のイシューに変換できます。ブラウザーを更新したり、別のタイミングでメールに戻ったりすると、メール用に作成したすべてのリンクが、[!UICONTROL Google WorkspaceのWorkfront] パネルの下部に表示されます。
 
-1. （オプション）[!DNL Workfront for G Suite] パネルで次のいずれかの操作を行って、イシューでの作業を続行します。
+1. （オプション）[!DNL Workfront for Google Workspace] パネルで次のいずれかの操作を行って、イシューでの作業を続行します。
 
    * 「**[!UICONTROL アップデート]**」タブに更新を追加するには、「**[!UICONTROL 新しい更新を開始]**」をクリックして更新を入力します。
 

@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -93,8 +93,8 @@ OAuth2 または JWT カスタム統合でのクライアントの秘密鍵に�
 
 詳しくは、[Workfront 統合用の OAuth2 アプリケーションを作成](../../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
 
-## Google G Suite の統合で OAuth2 が使用されるようになりました
+## Google Google Workspaceの統合で OAuth2 が使用されるようになりました
 
-セキュリティを強化し、統合全体でより一貫したエクスペリエンスを得るために、Google G Suite 統合を更新し、ユーザーを認証する業界標準の方法である OAuth2 認証を使用するようにしました。ユーザーがログインすると、ユーザーに統合機能でアクセスできる特定のアクションやエリアが表示され、アクセスを許可できるようになりました。その後は、頻繁にログインする必要はありません。
+セキュリティを強化し、統合間のエクスペリエンスの一貫性を高めるために、Google Google Workspace統合を更新して、OAuth2 認証を使用するようにしました。OAuth2 認証は、ユーザーを認証する業界標準の方法です。 ユーザーがログインすると、ユーザーに統合機能でアクセスできる特定のアクションやエリアが表示され、アクセスを許可できるようになりました。その後は、頻繁にログインする必要はありません。
 
-詳しくは、[Adobe Workfront for G Suite へのログインとログアウト](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md)を参照してください。
+詳しくは、[Google WorkspaceのAdobe Workfrontへのログインとログアウト ](../../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md) を参照してください。
