@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4c5a9705cf90498b08b45d85e0b4f571dc2e30f2
+source-git-commit: 706c27e611b1bd1e1c06eb3fd2e59ad0f55a6157
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 51%
+source-wordcount: '1009'
+ht-degree: 50%
 
 ---
 
@@ -30,7 +30,7 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
    * [環境のプロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Workfront API を使用してこのプロセスを実行する手順については、を参照してください。 [間でオブジェクトを移動 [!DNL Workfront] を使用した環境 [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+* Workfront API を使用してこのプロセスを実行する手順については、[API を使用した  [!DNL Workfront]  環境間でのオブジェクトの移動  [!DNL Workfront]  を参照してください ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)。
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -58,7 +58,7 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
 
 | 昇格可能なオブジェクト | 含まれるプロモーション可能なリンクオブジェクト |
 | --- | --- |
-| レイアウトテンプレート（UITMPL） | レイアウトテンプレート<br>ダッシュボード<br>カレンダー<br>カレンダーセクション<br>外部ページ<br>レポート<br>フィルター<br>グループ化<br>表示<br>パラメーター |
+| レイアウトテンプレート（UITMPL） | レイアウト テンプレート <br> ダッシュボード <br> カレンダー <br> カレンダーセクション <br> 外部ページ <br> レポート <br> フィルター <br> グループ化 <br> ビュー <br> パラメーター <br> グループ |
 | ダッシュボード（PTLTAB） | ダッシュボード<br>カレンダー<br>カレンダーセクション<br>外部ページ<br>レポート<br>フィルター<br>グループ化<br>表示<br>パラメーター |
 | カレンダー（CALEND） | カレンダー<br>カレンダーセクション |
 | 外部ページ（EXTSEC） | 外部ページ |
@@ -146,11 +146,11 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
   </tr> 
   <tr> 
    <td>DISABLED</td> 
-   <td><p>このステータスは、以前に使用したプロモーションパッケージのうち、今後どの環境にもインストールされないものを非表示にするために使用されます。</p><p>このステータスのパッケージは、任意の環境にインストールできません。</p><p>パッケージのステータスが DISABLED に設定されている場合、<code>retiredAt</code> の日付はリクエストの現在のタイムスタンプに自動的に設定されます。</p><p>を使用する場合よりも、このステータスを使用することをお勧めします。 <code>DELETE /package</code> エンドポイントは取得可能であり、このパッケージで作成されたすべてのデプロイメントでインストール履歴が保持されます。</p></td> 
+   <td><p>このステータスは、以前に使用したプロモーションパッケージのうち、今後どの環境にもインストールされないものを非表示にするために使用されます。</p><p>このステータスのパッケージは、任意の環境にインストールできません。</p><p>パッケージのステータスが DISABLED に設定されている場合、<code>retiredAt</code> の日付はリクエストの現在のタイムスタンプに自動的に設定されます。</p><p>このステータスは取得でき、インストール履歴はこのパッケージで作成されたすべてのデプロイメントで保持されるので、<code>DELETE /package</code> エンドポイントを使用する場合よりも使用することをお勧めします。</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>ASSEMBLING ステージが失敗すると、プロモーションパッケージは自動的にこのステータスになります。</p><p>パッケージをアセンブリステージに戻すには、アセンブリプロセスを再度トリガーする必要があります。</p><p>パッケージのアセンブリについて詳しくは、の節を参照してください <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">既存のパッケージの編集またはアセンブリ</a> 環境プロモーションパッケージを作成または編集する記事で説明します。</td> 
+   <td><p>ASSEMBLING ステージが失敗すると、プロモーションパッケージは自動的にこのステータスになります。</p><p>パッケージをアセンブリステージに戻すには、アセンブリプロセスを再度トリガーする必要があります。</p><p>パッケージのアセンブリについて詳しくは、環境プロモーションパッケージの作成または編集に関する記事の <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package"> 既存のパッケージの編集またはアセンブリ </a> の節を参照してください。</td> 
   </tr> 
   </tbody> 
 </table>
