@@ -1,16 +1,16 @@
 ---
 product-area: timesheets
 navigation-topic: configure-timesheet-preferences
-title: "タイムシートの作成と管理：記事インデックス"
+title: 「タイムシートの作成と管理：記事の索引」
 description: Adobe Workfront でタイムシートを作成し、作業の完了に費やした時間を追跡できます。タイムシートの作成、編集、管理に関する詳細情報は、以下の記事を参照してください。
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 88%
+source-wordcount: '106'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 88%
 この節では、次の記事を扱います。
 
 * [タイムシートプロファイルを作成、編集、割り当て](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-* [タイムシートの時間タイプと空き時間を定義](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+* [ 時間タイプと可用性の定義 ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 * [単一回使用のタイムシートを作成](../../timesheets/create-and-manage-timesheets/create-tmshts.md)
 * [タイムシート情報を編集](../../timesheets/create-and-manage-timesheets/edit-timesheets.md)
 * [時間のログ記録](../../timesheets/create-and-manage-timesheets/log-time.md)

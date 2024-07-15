@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '3589'
-ht-degree: 94%
+source-wordcount: '3581'
+ht-degree: 92%
 
 ---
 
@@ -201,7 +201,7 @@ Workfront の次の領域で時間を記録できます。
    >   * Windows コンピューターの場合は、Ctrl + Option + +
    >   * Mac コンピューターの場合は、Cmd + Option + +
 
-   時間タイプは、システム、プロジェクト、ユーザーレベルで定義された内容に応じて使用できます。詳しくは、[タイムシートの時間のタイプと空き時間を定義](define-hour-types-and-availability.md)を参照してください。
+   時間タイプは、システム、プロジェクト、ユーザーレベルで定義されている内容に応じて使用できます。詳しくは、[ 時間タイプと空き時間の定義 ](define-hour-types-and-availability.md) を参照してください。
 
    タイムシートを閉じた後は、時間タイプを変更できません。
 
@@ -351,7 +351,7 @@ Workfront の次の領域で時間を記録できます。
 
 1. **ホーム**&#x200B;エリアにアクセスします。
 1. **自分の作業**&#x200B;ウィジェットを自分のホームに追加します。
-1. （オプション）リストでタスク、イシューまたはリクエストを選択し、 **作業をする**
+1. （オプション）リストでタスク、イシューまたはリクエストを選択し、「**作業**」をクリックします
 1. 時間を記録するタスクまたはイシューにポインタを合わせ、タスク情報の右にある&#x200B;**時間を記録**&#x200B;アイコン ![](assets/log-time-icon-in-new-home.png) をクリックします。
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
@@ -368,8 +368,8 @@ Workfront の次の領域で時間を記録できます。
    ![](assets/log-time-home-350x181.png)
 
 1. **時間の入力**&#x200B;ドロップダウンメニューで、適切な時間タイプを選択します。\
-   時間タイプは、システムレベル、プロジェクトレベルおよびユーザーレベルで定義された内容に応じて使用できます。詳しくは、[タイムシートの時間タイプと空き時間の定義](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)を参照してください。
-1. （条件付き）Workfront 管理者またはグループ管理者が「**手動で担当業務を時間エントリに割り当てます**」設定を有効にしている場合は、ドロップダウンメニューから担当業務を選択します。作業アイテムに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。この設定について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
+   時間タイプは、システム、プロジェクト、ユーザーレベルで定義されている内容に応じて使用できます。詳しくは、[ 時間タイプと空き時間の定義 ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
+1. （条件付き）Workfront 管理者またはグループ管理者が&#x200B;**担当業務を時間エントリに手動で割り当て**&#x200B;設定時に、ドロップダウンメニューから担当業務を選択します。作業アイテムに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。この設定について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 1. 記録する時間を指定し、「**時間を記録**」をクリックします。
 
    ログ時間は、オブジェクトの「時間」セクションと、タイムシートに表示されます。
@@ -385,9 +385,9 @@ Workfront の次の領域で時間を記録できます。
 
 プロジェクト、タスク、またはイシューの「更新」セクションで時間を記録するには、以下が必要です。
 
-* の説明に従って、正しいアクセス権と権限 [アクセス要件](#access-requirements) この記事のセクションです。
+* この記事の [ アクセス要件 ](#access-requirements) の節で説明しているように、正しいアクセスと権限です。
 
-* Workfront管理者は、の下にある「プロジェクトに時間を直接記録」設定を有効にする必要があります [!UICONTROL **タイムシートと時間**]> [!UICONTROL **環境設定**] システム領域で、プロジェクトに直接時間を記録する場合。
+* プロジェクトに時間を直接記録するには、Workfront管理者がシステム領域の [!UICONTROL **タイムシートと時間**]>[!UICONTROL **環境設定**] の下にある「プロジェクトに直接時間を記録」設定を有効にする必要があります。
 
   時間数をユーザーが直接プロジェクトに記録できるようにする方法について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
@@ -411,7 +411,7 @@ Workfront の次の領域で時間を記録できます。
 
    * **時間タイプ**：デフォルトで表示されるものと異なる場合は、ドロップダウンメニューから「時間タイプ」を選択します。
 
-     システムで設定されている時間タイプによって、ここで提供されるオプションは異なる場合があります。時間タイプの設定について詳しくは、[タイムシートの時間タイプと空き時間の定義](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)を参照してください。
+     システムで設定されている時間タイプによって、ここで提供されるオプションは異なる場合があります。時間タイプの設定について詳しくは、[ 時間タイプと空き時間の定義 ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
 
    * **担当業務**：（条件付き）Workfront 管理者またはグループ管理者が「**手動で担当業務を時間エントリに割り当てます**」設定を有効にしている場合は、ドロップダウンメニューから「**担当業務**」を選択します。オブジェクトに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。この設定について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
@@ -431,7 +431,7 @@ Workfront の次の領域で時間を記録できます。
 
 * 「タイムシートと時間」への管理アクセス権が付属しているプランライセンス。「タイムシートと時間」への管理アクセス権の付与について詳しくは、[ユーザーへの特定エリアに対する管理アクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 * プロジェクトへの「参加」またはそれ以上の権限と「時間の記録」へのアクセス権。プロジェクトに関する権限の付与について詳しくは、[Adobe Workfront でのプロジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
-* Workfront管理者は、で「プロジェクトに時間を直接記録」設定を有効にする必要があります **タイムシートと時間 > 環境設定** プロジェクトに直接時間を記録する場合は、設定エリアの「」セクション。 時間数をユーザーが直接プロジェクトに記録できるようにする方法について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
+* プロジェクトに時間を直接記録したい場合は、Workfront管理者が「設定」エリアの **タイムシートと時間/環境設定** セクションで「プロジェクトに直接時間を記録」設定を有効にする必要があります。 時間数をユーザーが直接プロジェクトに記録できるようにする方法について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
 プロジェクト、タスクまたはイシューの「時間」セクションで時間を記録するには、次の手順に従います。
 
@@ -448,7 +448,7 @@ Workfront の次の領域で時間を記録できます。
 
    * **時間タイプ**：デフォルトで表示されるものと異なる場合は、ドロップダウンメニューから「時間タイプ」を選択します。
 
-     システムで設定されている時間タイプによって、ここで提供されるオプションは異なる場合があります。時間タイプの設定について詳しくは、[タイムシートの時間タイプと空き時間の定義](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)を参照してください。
+     システムで設定されている時間タイプによって、ここで提供されるオプションは異なる場合があります。時間タイプの設定について詳しくは、[ 時間タイプと空き時間の定義 ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
 
    * **担当業務**：（条件付き）Workfront 管理者またはグループ管理者が「**手動で担当業務を時間エントリに割り当てます**」設定を有効にしている場合は、ドロップダウンメニューから「**担当業務**」を選択します。オブジェクトに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。この設定について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 

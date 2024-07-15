@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '3298'
+source-wordcount: '3296'
 ht-degree: 99%
 
 ---
@@ -202,7 +202,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
        <li>プランライセンスを持ち、ユーザーを編集するアクセス権を持つユーザーは、システムレベルのタイムシートプロファイルのみを表示できます。グループレベルのタイムシートプロファイルについて詳しくは、<a href="../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md" class="MCXref xref">タイムシートプロファイルの作成、編集、割り当て</a>を参照してください。</li>
       </ul></p> </li> 
        <li><b>デフォルトの時間タイプ</b>：ユーザーのデフォルトの時間タイプを選択します。これは、ユーザーが時刻をログに記録する際にデフォルトで使用される時間タイプです。</li> 
-       <li><b>利用可能な時間タイプ</b>：ユーザーが使用できる時間タイプを選択します。これらの時間タイプは、ユーザーが時間を記録できる Workfront のどこにでも表示されます。ユーザーは、プロジェクトレベルおよびユーザーレベルで有効になっている時間タイプのみを表示できます。ユーザーが使用できる時間タイプについて詳しくは、<a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">タイムシートの時間タイプと空き時間を定義</a>を参照してください。</li> 
+       <li><b>利用可能な時間タイプ</b>：ユーザーが使用できる時間タイプを選択します。これらの時間タイプは、ユーザーが時間を記録できる Workfront のどこにでも表示されます。ユーザーは、プロジェクトレベルおよびユーザーレベルで有効になっている時間タイプのみを表示できます。ユーザーが使用できる時間タイプについて詳しくは、<a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref"> 時間タイプと空き時間を定義 </a> を参照してください。</li> 
        <li><b>時間の記録：</b>ユーザーが作業アイテムの時間を時間単位で記録するか、日単位で記録するかを選択します。詳しくは、<a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">時間を時間単位で記録するか日単位で記録するかを設定</a>を参照してください。</li>
 
    <li> <b>FTE</b>：これは、ユーザーのフルタイム換算です。Workfront ではこの数値を使用して、システムレベルの「リソース管理環境設定」が「規定のスケジュール」に設定されている場合にのみ、規定のスケジュールに基づいてユーザーの空き時間が計算されます。

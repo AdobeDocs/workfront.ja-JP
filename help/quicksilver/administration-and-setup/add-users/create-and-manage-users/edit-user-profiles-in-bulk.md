@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
 workflow-type: tm+mt
-source-wordcount: '2247'
-ht-degree: 100%
+source-wordcount: '2245'
+ht-degree: 99%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -185,9 +185,9 @@ ht-degree: 100%
        </ul> </p> </li> 
        <li><b>デフォルトの時間タイプ</b>：ユーザーのデフォルトの時間タイプを選択します。これは、ユーザーが時間をログに記録する際にデフォルトで使用される時間タイプです。</li> 
        <li> <p><b>利用可能な時間タイプ</b>：ユーザーが使用できる時間タイプを選択します。これらの時間タイプは、Workfront でユーザーが時間をログに記録できる場所に表示されます。ユーザーは、プロジェクトレベルおよびユーザーレベルで有効になっている時間タイプのみを表示できます。</p> 
-       <p>ユーザーが使用できる時間タイプについて詳しくは、<a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">タイムシートの時間タイプと空き時間の定義</a>を参照してください。</p> 
+       <p>ユーザーが使用できる時間タイプについて詳しくは、<a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref"> 時間タイプと空き時間を定義 </a> を参照してください。</p> 
        </li> 
-       <li> <b>FTE</b>：これは、フルタイムでのユーザーと同じです。Workfront ではこの数値を使用して、システムレベルの「リソース管理環境設定」が「規定のスケジュール」に設定されている場合にのみ、規定のスケジュールに基づいてユーザーの空き時間が計算されます。
+       <li> <b>FTE</b>：これは、ユーザーのフルタイム換算です。Workfront ではこの数値を使用して、システムレベルの「リソース管理環境設定」が「規定のスケジュール」に設定されている場合にのみ、規定のスケジュールに基づいてユーザーの空き時間が計算されます。
 
    <p>FTE は、ユーザーが作業に費やせる時間を示します。これには、オーバーヘッドや、プロジェクト作業に費やされた時間が含まれます。例えば、ミーティングやトレーニングに費やした時間も FTE に含まれます。</p>
 
