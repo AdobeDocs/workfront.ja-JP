@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: dc14f02afff58b4d6f3b48dc2da5cd706786cbb8
+source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
 workflow-type: tm+mt
-source-wordcount: '6078'
+source-wordcount: '6081'
 ht-degree: 97%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 97%
    * [別のカスタムフォームで既に使用されている既存のフィールドまたはウィジェットの再利用](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [テキストフィールドの追加](#add-text-fields)
    * [計算フィールドの追加](#add-calculated-fields)
-   * [ラジオボタン、チェックボックスグループ、ドロップダウンの追加](#add-radio-buttons-checkboxes-and-dropdowns)
+   * [ラジオボタン、チェックボックスグループおよびドロップダウンの追加](#add-radio-buttons-checkboxes-and-dropdowns)
    * [先行入力フィールドと日付フィールドの追加](#add-typeahead-and-date-fields)
    * [外部ルックアップフィールドの追加](#add-external-lookup-fields)
    * [画像、PDF、ビデオの追加](#add-images-pdfs-and-videos)
@@ -246,16 +246,16 @@ ht-degree: 97%
 
 計算済みフィールドを追加するには、[フォームデザイナーで計算済みフィールドを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
-### ラジオボタン、チェックボックス、ドロップダウンを追加する
+### ラジオボタン、チェックボックスグループおよびドロップダウンの追加
 
-カスタムフォームには、ラジオボタン、チェックボックス、ドロップダウン、複数選択のドロップダウンを追加できます。
+カスタムフォームには、ラジオボタン、チェックボックスグループ、ドロップダウン、複数選択のドロップダウンを追加できます。
 
 +++ **展開して、使用可能なフィールドの説明を確認**
 
 * **ラジオボタン**：ユーザーが 1 つの選択肢のみを選択する必要があります。
 * **チェックボックスグループ**：ユーザーが複数選択できます。
 * **ドロップダウン**：ドロップダウンの選択肢のリストを表示します。
-* **複数選択ドロップダウン**：ユーザーがドロップダウンリストから複数の選択肢を選択できるようにします。
+* **複数選択ドロップダウン**：ユーザーがドロップダウンリストから複数の選択肢を選択できます。
 
 +++
 
@@ -263,7 +263,7 @@ ht-degree: 97%
 >
 >チェックボックスグループや複数選択ドロップダウンなど、複数の選択を許可するフィールドは、レポートでグラフを作成したりグループ化したりするのが困難です。 レポートでのグラフ化とグループ化を容易にするために、各選択肢に対して個別のフィールド（1 行のテキストフィールドなど）を作成できます。
 
-ラジオボタン、チェックボックス、ドロップダウンを追加するには：
+ラジオボタン、チェックボックスグループおよびドロップダウンを追加するには：
 
 1. 画面の左側で、次のいずれかのフィールドを探し、キャンバス上のセクションにドラッグします。
 
@@ -272,7 +272,7 @@ ht-degree: 97%
    * ドロップダウン
    * 複数選択ドロップダウン
 
-   ![フィールドをキャンバスにドラッグします](assets/drag-field-to-section-041524.png)
+   ![ キャンバスにフィールドをドラッグします ](assets/drag-field-to-section-041524.png)
 
 1. 画面の右側で、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 
@@ -658,7 +658,7 @@ The Workfront Mobile app -->
 
 * **画像**：ユーザーが画像ファイルを追加できるようにします。
 * **PDF**：ユーザーが PDF を追加できます。
-* **ビデオ**：ユーザーがビデオファイルを追加できるようにします。
+* **ビデオ**: ユーザーがビデオファイルを追加できるようにします。
 
 +++
 
