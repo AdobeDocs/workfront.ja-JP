@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
-source-git-commit: 3326173517762a62630d6b7285cc8a22873a6712
+source-git-commit: 0dd0230fd0a986276f775a00f1f23332373daf6f
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 17%
+source-wordcount: '440'
+ht-degree: 15%
 
 ---
 
@@ -16,7 +16,15 @@ ht-degree: 17%
 
 このページでは、2024 年第 3 四半期リリースでプレビュー環境に加えられた機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
-2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
+
+## 製品内ガイドのバックエンドの変更
+
+>[!NOTE]
+>
+>すべてのお客様向けの実稼動環境：2024 年 8 月中旬まで段階的に追加
+
+アドビでは、今後数週間で、製品内ガイドのテクノロジーの変更を実装します。 この移行の影響を最小限に抑えようとしましたが、一部のユーザーには、以前に表示されたガイドが表示される場合があります。
 
 ## より多くのWorkfront組織でAdobeの統合エクスペリエンスを利用できるようになりました
 
@@ -55,4 +63,4 @@ Adobe Unified Experience には次の内容が含まれます。
 
 この変更には、チームとユーザーは含まれません。 ユーザーは、引き続きチーム名とユーザー名を表示できます。
 
-詳しくは、セクションを参照してください [オブジェクトへの制限付きアクセス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) が含まれる [!DNL Adobe Workfront] オブジェクトの概要に関する記事
+詳しくは、「オブジェクトの概要」の記事の [ オブジェクトへの制限されたアクセス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) を参照し [!DNL Adobe Workfront] ください。
