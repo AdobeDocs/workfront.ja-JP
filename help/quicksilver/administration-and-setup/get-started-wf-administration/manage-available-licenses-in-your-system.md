@@ -8,10 +8,10 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 834d08d8e9896b80d047d00b2008dd9a002a95da
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 89%
+source-wordcount: '1212'
+ht-degree: 87%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Workfront 管理者は、組織で購入したライセンスの数や現�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> </td> 
+   <td> <p>システム管理者またはグループ管理者である必要があります。 グループ管理者は、ライセンス情報に対する表示が制限されています。</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 6b9d3c2c87dd20da7dd357c108046311bbbb90a2
+source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
 workflow-type: tm+mt
-source-wordcount: '6081'
+source-wordcount: '6091'
 ht-degree: 97%
 
 ---
@@ -540,6 +540,7 @@ ht-degree: 97%
 >
 >* 外部参照機能は、現在、ドキュメントのカスタムフォームではサポートされていません。
 >* カスタムフォームの外部ルックアップフィールドは現在、ダッシュボードではサポートされていません。フィールド値をインラインで編集することはできず、ダッシュボードに正しく表示されない可能性があります。 （外部検索フィールドはキャンバスダッシュボードでサポートされています）。
+>* Outlook プラグインでは、外部検索フィールドはサポートされていません。
 >* 外部検索フィールドは、そのフィールドが別のフィールドに依存している場合を除いて、リストで使用できます。
 
 外部ルックアップを追加するには、次の手順に従います。
