@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 65c7c11762ab82445e6f99a6ddb2c5e995b95380
+source-git-commit: dff543fcd657ba5208e1ef1110502175155d2040
 workflow-type: tm+mt
-source-wordcount: '14439'
+source-wordcount: '14438'
 ht-degree: 95%
 
 ---
@@ -490,6 +490,9 @@ ht-degree: 95%
          * [環境のプロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
          * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [API を使用した環境のプロモーション](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+         * [環境推進に関するよくある質問](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+         * [環境促進のトラブルシューティング](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
    * ユーザー管理{#add-users}
       * [ユーザー管理：記事インデックス](administration-and-setup/add-users/add-users.md)
       * ユーザーの作成と管理 {#create-manage-users}
@@ -2207,7 +2210,6 @@ ht-degree: 95%
       * [Adobe Workfront Fusion のシナリオの概要](workfront-fusion/scenarios/scenario-overview.md)
       * [Adobe Workfront Fusion でシナリオを作成](workfront-fusion/scenarios/create-a-scenario.md)
       * [Adobe Workfront Fusion のシナリオエディター](workfront-fusion/scenarios/scenario-editor.md)
-      * [Adobe Workfront Fusion の基本シナリオ設定](workfront-fusion/scenarios/basic-scenario-settings.md)
       * [Adobe Workfront Fusion のシナリオ設定パネル](workfront-fusion/scenarios/scenario-settings-panel.md)
       * [Adobe Workfront Fusion のシナリオの詳細](workfront-fusion/scenarios/scenario-detail.md)
       * [Adobe Workfront Fusion のシナリオ実行フロー](workfront-fusion/scenarios/scenario-execution-flow.md)

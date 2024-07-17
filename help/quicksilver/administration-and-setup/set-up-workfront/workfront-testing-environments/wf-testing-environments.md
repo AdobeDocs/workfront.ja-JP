@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3d362be8-89c2-4699-a984-59c9234b4a0c
-source-git-commit: d249751b78e9d40fe7a351db14cbf0f3b7c79889
+source-git-commit: 6b46e3ca1273b09b67bc52373b675ac7ad80b429
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 82%
+source-wordcount: '122'
+ht-degree: 78%
 
 ---
 
@@ -28,4 +28,6 @@ ht-degree: 82%
    * [Workfront環境間でのオブジェクトの移動の概要（環境のプロモーション）](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
    * [環境のプロモーションパッケージの作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
-   * [間でオブジェクトを移動 [!DNL Workfront] を使用した環境 [!DNL Workfront] 環境促進 API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+   * [ [!DNL Workfront]  環境プロモーション API を使用した環境間  [!DNL Workfront]  オブジェクトの移動](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+   * [環境推進に関するよくある質問](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+   * [環境促進のトラブルシューティング](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
