@@ -6,14 +6,17 @@ description: Adobe Workfront でプロジェクトを作成すると、そのプ
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 4cdebe4890b775a097469e7d7035a38397b71094
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 95%
 
 ---
 
+
 # プロジェクトの所有者とスポンサーの更新
+
+<!--Audited: 07/2024-->
 
 Adobe Workfront でプロジェクトを作成すると、自動的にそのプロジェクトのプロジェクト所有者として設定されます。このフィールドは別のユーザーに更新できます。また、プロジェクトの「プロジェクトスポンサー」フィールドを更新することもできます。
 
@@ -60,34 +63,35 @@ Adobe Workfront でプロジェクトを作成すると、自動的にそのプ�
 </table>
 -->
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td><p>新規：標準</p> 
+   <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td> <p>プロジェクトへのアクセスを編集</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する権限の編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトに対する権限の編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## プロジェクトのプロジェクト所有者の更新
 
@@ -105,7 +109,7 @@ Adobe Workfront でプロジェクトを作成すると、自動的にそのプ�
 
    プロジェクトヘッダーおよび「プロジェクト詳細」エリアの「プロジェクト所有者」が更新されます。
 
-![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## プロジェクトのプロジェクトスポンサーの更新
 

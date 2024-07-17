@@ -7,16 +7,16 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '908'
-ht-degree: 98%
+source-wordcount: '888'
+ht-degree: 97%
 
 ---
 
 # プロジェクトの削除
 
-<!--Audited: 01/2024-->
+<!--Audited: 07/2024-->
 
 プロジェクトとそのデータが不要になった場合は、プロジェクトを削除できます。
 
@@ -40,9 +40,8 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront プラン*</p> </td> 
-   <td> <p>現在のライセンス：プラン </p> 
-   または
-   <p>新規のライセンス：標準 </p>
+   <td> <p>新規のライセンス：標準 </p>
+   <p>現在のライセンス：プラン </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -56,7 +55,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

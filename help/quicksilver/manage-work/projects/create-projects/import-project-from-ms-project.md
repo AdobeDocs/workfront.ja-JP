@@ -6,10 +6,10 @@ description: Microsoft Project から Adobe Workfront にプロジェクトを�
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 100%
+source-wordcount: '503'
+ht-degree: 90%
 
 ---
 
@@ -25,12 +25,14 @@ Microsoft Project から Adobe Workfront にプロジェクトを読み込み、
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -41,19 +43,19 @@ Microsoft Project から Adobe Workfront にプロジェクトを読み込み、
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。プロジェクトへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセス権の付与</a>を参照してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトを作成すると、プロジェクトに対する管理権限が自動的に付与されます。 </p> <p> プロジェクト権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>を参照してください。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトを作成すると、プロジェクトに対する管理権限が自動的に付与されます。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 <!--old permissions model: 
 
@@ -96,7 +98,7 @@ You must have the following access to perform the steps in this article:
 1. Workfront にログインします。
 1. 次のいずれかの操作を行います。
 
-   * 「**メインメニュー** ![](assets/main-menu-icon.png)」、「**プロジェクト**」の順にクリックして、**新規プロジェクト**&#x200B;を展開します。
+   * Workfrontの右上隅にある **メインメニュー**![](assets/main-menu-icon.png) をクリックするか、左上隅にある **メインメニュー**![](assets/lines-main-menu.png) をクリックします（使用可能な場合）。「**プロジェクト**」をクリックし、**新規プロジェクト** を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。詳しくは、[グループのプロジェクトの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。

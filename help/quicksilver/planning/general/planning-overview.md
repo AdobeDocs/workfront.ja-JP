@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1967'
-ht-degree: 83%
+source-wordcount: '1989'
+ht-degree: 81%
 
 ---
 
@@ -287,13 +287,18 @@ Workfront Planning を検索するには、次の手順に従います。
 
 1. Adobe Workfront にログインします。
 
-1. 右上隅の&#x200B;**メインメニュー**![](assets/main-menu-workfront.png)をクリックするか、左上隅の&#x200B;**メインメニュー**![](assets/main-menu-shell.png)をクリックします（利用可能な場合）。
+{{step1-click-main-menu}}
 
 1. **Planning** ![](assets/planning-icon.png) をクリックします。
 
    Workfront計画のランディングページが開きます。
 
    ![](assets/planning-landing-page-admin.png)
+
+   >[!TIP]
+   >
+   >    Workfront管理者は、レイアウトテンプレートの「ランディングページを選択」オプションに Planning 領域を追加できるので、Workfrontにログインするとすぐに Planning を開くことができます。 詳しくは、[ レイアウトテンプレートを使用したランディングページのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) を参照してください。
+
 
 1. （条件付きおよびオプション）Workfrontの管理者は、次のいずれかのタブをクリックします。
    * **マイワークスペース**：作成したワークスペースが表示されます。

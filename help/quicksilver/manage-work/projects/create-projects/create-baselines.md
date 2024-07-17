@@ -6,10 +6,10 @@ description: ベースラインとは、プロジェクトの初期計画に含�
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 98%
+source-wordcount: '757'
+ht-degree: 96%
 
 ---
 
@@ -57,8 +57,6 @@ drafted for P&P:
 </table>
 -->
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -68,7 +66,7 @@ drafted for P&P:
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
     <td><p>新規：標準</p>
         <p>または</p>
         <p>現在：プラン </p> </td> 
@@ -84,7 +82,7 @@ drafted for P&P:
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

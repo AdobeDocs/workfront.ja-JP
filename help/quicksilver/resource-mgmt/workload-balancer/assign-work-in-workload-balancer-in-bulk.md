@@ -6,10 +6,10 @@ description: Adobe Workfront ワークロードバランサーを使用すると
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 92%
+source-wordcount: '1499'
+ht-degree: 91%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -68,6 +68,8 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## ワークロードバランサーで一括割り当てを行う際の考慮事項
 

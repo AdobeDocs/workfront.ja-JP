@@ -6,10 +6,10 @@ description: プロジェクトは、Adobe Workfront における作業の大き
 author: Courtney
 feature: Work Management
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 14%
+source-wordcount: '1169'
+ht-degree: 13%
 
 ---
 
@@ -26,9 +26,11 @@ Workfront プロジェクトが Frame.io に接続されている場合は、次
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 >[!IMPORTANT]
 >
->この機能は、[!DNL Adobe Admin Console] に登録されている組織のみが利用できます。
+>この機能は、[!DNL Adobe Admin Console] にオンボーディングされた組織でのみ使用できます。
 
 以下が必要です。
 
@@ -56,6 +58,8 @@ Workfront プロジェクトが Frame.io に接続されている場合は、次
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 

@@ -6,9 +6,9 @@ description: Adobe Workfrontには、すぐに使用できるビルトインレ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '2953'
+source-wordcount: '2951'
 ht-degree: 58%
 
 ---
@@ -25,7 +25,7 @@ Workfront 管理者は、組み込みのレポートを非表示にして、ユ�
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,6 +52,8 @@ Workfront 管理者は、組み込みのレポートを非表示にして、ユ�
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 組み込みレポートの概要 {#overview-of-built-in-reports}
 

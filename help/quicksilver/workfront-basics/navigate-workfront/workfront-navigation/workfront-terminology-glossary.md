@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '20304'
+source-wordcount: '20310'
 ht-degree: 97%
 
 ---
@@ -1531,7 +1531,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>[!UICONTROL Planned Completion Date] は、手動で選択した日付に設定できます。[!UICONTROL Planned Completion Date] を設定しない場合、[!DNL Workfront] が自動的に設定します。自動的に設定された場合、[!UICONTROL Planned Completion Date] は [!UICONTROL Planned Start Date] + [!UICONTROL Duration] です。</p> <p>詳しくは、次の記事を参照してください。</p> 
+   <td> <p>タスク、プロジェクトまたは問題の [!UICONTROL 予定完了日 ] は、手動で選択した日付に設定できます。 [!UICONTROL Planned Completion Date] を設定しない場合、[!DNL Workfront] が自動的に設定します。自動的に設定された場合、[!UICONTROL Planned Completion Date] は [!UICONTROL Planned Start Date] + [!UICONTROL Duration] です。</p> <p>詳しくは、次の記事を参照してください。</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">タスクの [!UICONTROL Planned Completion Date] の概要</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">プロジェクト [!UICONTROL Planned Completion Date] の設定</a> </p> </li> 

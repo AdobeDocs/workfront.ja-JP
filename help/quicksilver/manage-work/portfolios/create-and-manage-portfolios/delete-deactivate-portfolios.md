@@ -6,10 +6,10 @@ description: ポートフォリオとは、Adobe Workfront のプロジェクト
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 97%
+source-wordcount: '358'
+ht-degree: 95%
 
 ---
 
@@ -77,14 +77,16 @@ ht-degree: 97%
 >
 >[!DNL Workfront] 管理者またはグループ管理者によるレイアウトテンプレートの設定によっては、[!UICONTROL ポートフォリオ]エリアが[!UICONTROL メインメニュー]に表示されない場合があります。詳細情報については、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックして、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
+{{step1-click-main-menu}}
+
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. ポートフォリオの名前をクリックします。
 1. ポートフォリオ名の右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックし、「**[!UICONTROL ポートフォリオのアクティブ化を解除]**」をクリックします。
 
 ## ポートフォリオの削除
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックして、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
+{{step1-click-main-menu}}
+
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. ポートフォリオを選択し、****[!UICONTROL 削除]アイコン ![](assets/delete.png) をクリックします。
-1. 表示されるボックスで、「**[!UICONTROL はい、削除します]**」をクリックして確定します。
+1. **[!UICONTROL はい、削除します]** をクリックして確認します。
