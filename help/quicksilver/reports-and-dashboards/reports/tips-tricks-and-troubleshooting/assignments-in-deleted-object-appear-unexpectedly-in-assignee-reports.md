@@ -4,7 +4,7 @@ description: 削除されたオブジェクト内の割り当てが、担当者�
 author: Nolan
 draft: Probably
 source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 100%
 

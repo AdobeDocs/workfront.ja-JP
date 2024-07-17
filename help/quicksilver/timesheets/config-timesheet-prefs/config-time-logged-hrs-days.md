@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
 source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

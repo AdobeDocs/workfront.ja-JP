@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

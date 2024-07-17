@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cf4a514a-fe69-4c2f-8e35-5738dfaab24e
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
-workflow-type: ht
-source-wordcount: '431'
+workflow-type: tm+mt
+source-wordcount: '429'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスの種類、またはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 

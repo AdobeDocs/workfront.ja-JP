@@ -6,8 +6,8 @@ author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
 source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
-workflow-type: ht
-source-wordcount: '927'
+workflow-type: tm+mt
+source-wordcount: '929'
 ht-degree: 100%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
 ## 前提条件
 
@@ -103,7 +103,7 @@ ht-degree: 100%
 >[!IMPORTANT]
 >
 >リソースは 15 年の期間にわたって予算計上できます。期間が 15 年を超えるプロジェクトのリソースを予算計上すると、計上する情報が正確でなくなる可能性があります。
-<!--
+><!--
 ><MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">>
 >(is this still accurate for the Scenario Planner?)>
 ></MadCap:conditionalText>>
@@ -136,8 +136,8 @@ ht-degree: 100%
      >
      >   
      >   
-     >* ビジネスケースのリソース予算計上エリア
-     >* プロジェクトにリンクされたイニシアチブの人件費としてのシステムレベルのシナリオプランナ。詳しくは、[シナリオプランナーでイニシアチブを作成および編集](../../../scenario-planner/create-and-edit-initiatives.md)を参照してください。
+     >   * ビジネスケースのリソース予算計上エリア
+     >   * プロジェクトにリンクされたイニシアチブの人件費としてのシステムレベルのシナリオプランナ。詳しくは、[シナリオプランナーでイニシアチブを作成および編集](../../../scenario-planner/create-and-edit-initiatives.md)を参照してください。
      >   
      >
 

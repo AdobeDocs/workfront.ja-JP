@@ -9,8 +9,8 @@ feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
-workflow-type: ht
-source-wordcount: '508'
+workflow-type: tm+mt
+source-wordcount: '554'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Adobe Workfront の管理者は、Workfront で作成したプルーフにアク
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -137,27 +137,27 @@ Adobe Workfront の管理者は、Workfront で作成したプルーフにアク
    <td> <p> </p> </td> 
    <td> </td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>承認者</strong> </p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
    <td> <p>✓</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>レビュアーと承認者</strong> </p> </td> 
@@ -166,14 +166,14 @@ Adobe Workfront の管理者は、Workfront で作成したプルーフにアク
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
+   <td> <p> </p> </td> 
+   <td> </td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
    <td> <p>✓</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>作者</strong> </p> </td> 
@@ -182,13 +182,13 @@ Adobe Workfront の管理者は、Workfront で作成したプルーフにアク
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
    <td>✓</td> 
    <td>✓</td> 
    <td> <p>✓</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -198,7 +198,7 @@ Adobe Workfront の管理者は、Workfront で作成したプルーフにアク
    <td> <p><strong>✓</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>✓</p> <p> </p> </td> 
+   <td> <p>✓</p> <p> </p> </td> 
    <td>✓</td> 
    <td>✓</td> 
    <td> <p>✓</p> </td> 

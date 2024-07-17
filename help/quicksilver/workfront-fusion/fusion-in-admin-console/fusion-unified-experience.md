@@ -84,7 +84,7 @@ Workfront Fusion の組織のインスタンスは、[!DNL Adobe Business Platfo
 
 [!DNL Adobe] ナビゲーションバーの左側にある[!UICONTROL メインメニュー]アイコン ![](assets/main-menu-icon-left-nav.png) を使用して、[!UICONTROL 組織]メニューと[!UICONTROL チーム]メニューを開きます。[!DNL Workfront Fusion] 管理者の場合、[!UICONTROL 管理]メニューもここに表示されます。
 
-チームを切り替えるには、ページ上部のチーム名をクリックし、チームを選択します。チームセレクターは、シナリオビルダーや [!UICONTROL 接続] ページ。
+チームを切り替えるには、ページ上部のチーム名をクリックし、チームを選択します。チームセレクターは、シナリオビルダーや [!UICONTROL  接続 ] ページなど、チーム固有のページにのみ表示されます。
 
 組織を切り替えるには、画面の右上にある組織名をクリックし、組織を選択します。
 

@@ -7,8 +7,8 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
-workflow-type: ht
-source-wordcount: '1512'
+workflow-type: tm+mt
+source-wordcount: '1501'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
    <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
@@ -72,7 +72,7 @@ ht-degree: 100%
 
    * Adobe Workfront から直接リンクをメールで送信するには、以下の操作を実行します。
 
-      1. 「**リンクをメールする**」フィールドで、入力を開始し、受信者の名前を選択します。または、共有する外部ユーザーのメールアドレスを指定します。
+      1. 「**リンクをメールする**」フィールドに入力して、受信者の名前を選択します。または、共有する外部ユーザーのメールアドレスを指定します。
 
          >[!NOTE]
          >
@@ -86,7 +86,7 @@ ht-degree: 100%
           <tbody>
            <tr>
             <td role="rowheader">パブリックリンクを送信</td>
-            <td><p>使用しているプルーフビューア内のプルーフにユーザーを移動させるボタンをメール通知に含め、表示アクセス権を付与します。</p><p>プルーフで「<strong>パブリック URL か埋め込みコードからプルーフに参加</strong>」が無効になっている場合、ユーザーは Workfront のログイン資格情報を使用してログインして、プルーフにコメントを追加できます。このオプションを有効にすると、メールアドレスと名前（パスワードは不要）を入力したユーザーは誰でも、プルーフに署名し、コメントを追加できます。</p></td>
+            <td><p>使用しているプルーフビューア内のプルーフにユーザーを移動させるボタンをメール通知に含め、表示アクセス権を付与します。</p><p>プルーフで「<strong>公開 URL または埋め込みコードでプルーフを登録</strong>」が無効になっている場合、ユーザーは Workfront のログイン資格情報でログインし、プルーフにコメントを追加できます。このオプションを有効にすると、メールアドレスと名前（パスワードは不要）を入力したユーザーは誰でも、プルーフに署名し、コメントを追加できます。</p></td>
            </tr>
            <tr>
             <td role="rowheader">ダウンロードリンクを送信</td>
@@ -181,7 +181,7 @@ ht-degree: 100%
        </tr> 
        <tr data-mc-conditions=""> 
         <td role="rowheader">メールなし</td> 
-        <td>Workfront はメールアラートを送信しません。<br>これは、参照用としてのみプルーフに追加され、変更の通知を必要としないユーザーにとって便利です。<p>システムのデフォルトは、日次の概要（「未設定」とも表示される）です。自分または自分のレビューアが他の変更を加えない場合、すべてのプルーフにこの設定が適用されます。</p></td> 
+        <td>Workfront はメールアラートを送信しません。<br>これは、参照用としてのみプルーフに追加され、変更の通知を必要としないユーザーの役に立ちます。<p>システムのデフォルトは、日次の概要（「未設定」とも表示される）です。自分または自分のレビューアが他の変更を加えない場合、すべてのプルーフにこの設定が適用されます。</p></td> 
        </tr> 
       </tbody> 
      </table>

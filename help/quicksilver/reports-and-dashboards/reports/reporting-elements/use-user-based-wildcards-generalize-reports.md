@@ -9,7 +9,7 @@ exl-id: 216e2869-b4f8-4cc7-9497-a12ebe00fe49
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '499'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 96%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -77,7 +77,7 @@ ht-degree: 96%
 
 1. 「**名前の入力を開始…**」ボックスに、ログインしているユーザーに関する情報を名前に基づいてレポートに表示する場合は、`$$USER.ID` または `$$USER.name` と入力します。ログインしたユーザーのグループ、チーム、会社、その他の情報を参照する他のワイルドカードを挿入できます。
 
-   ユーザーベースのワイルドカードの完全なリストについては、 [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   ユーザーベースのワイルドカードの完全なリストについて詳しくは、[ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 
    ![](assets/user-based-wildcard-in-project-filter-350x74.png)
 

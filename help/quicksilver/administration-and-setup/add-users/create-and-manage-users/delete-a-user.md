@@ -11,7 +11,7 @@ exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
 workflow-type: tm+mt
 source-wordcount: '810'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 97%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -64,7 +64,7 @@ ht-degree: 97%
 
 ユーザーをディアクティベートすると、次のことが発生します。
 
-* Workfront Proof コンポーネントが Workfront アカウントに関連付けられている場合は、Workfront と Workfront Proof の両方に対するユーザーライセンスが削除されます。Workfront Proof について詳しくは、 [Workfront Proof：記事インデックス](../../../workfront-proof/workfront-proof.md).
+* Workfront Proof コンポーネントが Workfront アカウントに関連付けられている場合は、Workfront と Workfront Proof の両方に対するユーザーライセンスが削除されます。Workfront Proof について詳しくは、[Workfront Proof：記事インデックス](../../../workfront-proof/workfront-proof.md)を参照してください。
 * ユーザーに作業を割り当てることができなくなります。
 * ユーザーを更新に追加できなくなります。
 * ユーザーをチームやグループに追加できなくなります。
@@ -87,7 +87,7 @@ ht-degree: 97%
 
 ユーザーを削除すると、次のことが発生します。
 
-* Workfront Proof コンポーネントが Workfront アカウントに関連付けられている場合は、Workfront と Workfront Proof の両方に対するユーザーライセンスが削除されます。Workfront Proof について詳しくは、 [Workfront Proof：記事インデックス](../../../workfront-proof/workfront-proof.md).
+* Workfront Proof コンポーネントが Workfront アカウントに関連付けられている場合は、Workfront と Workfront Proof の両方に対するユーザーライセンスが削除されます。Workfront Proof について詳しくは、[Workfront Proof：記事インデックス](../../../workfront-proof/workfront-proof.md)を参照してください。
 * ユーザーに作業を割り当てることができなくなります。
 * ユーザーを更新に追加できなくなります。
 * ユーザーをチームやグループに追加できなくなります。

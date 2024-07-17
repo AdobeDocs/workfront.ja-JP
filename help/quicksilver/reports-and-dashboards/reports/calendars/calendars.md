@@ -2,8 +2,8 @@
 content-type: reference
 product-area: calendars
 navigation-topic: reports
-title: "カレンダー：記事インデックス"
-description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。プロジェクト、タスクおよびタスクに関する日付情報をカレンダーレポートに表示できます。 Adobe Workfront のカレンダーレポートについて理解するには、以下の記事を参照してください。
+title: 「カレンダー：記事インデックス」
+description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。プロジェクト、タスク、およびイシューのカレンダーレポートに日付情報を表示できます。Adobe Workfront のカレンダーレポートについて理解するには、以下の記事を参照してください。
 author: Lisa
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -11,17 +11,17 @@ exl-id: b46834db-358e-4ee2-9512-f7419351de30
 source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 67%
+ht-degree: 100%
 
 ---
 
-# カレンダー：記事のインデックス
+# カレンダー：記事インデックス
 
 <!--Audited: 01/2024-->
 
-カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。プロジェクト、タスクおよびタスクに関する日付情報をカレンダーレポートに表示できます。
+カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。プロジェクト、タスク、およびイシューのカレンダーレポートに日付情報を表示できます。
 
-Adobe Workfrontのカレンダーレポートについて理解するには、次の記事を参照してください。
+Adobe Workfront のカレンダーレポートについて詳しくは、以下の記事を参照してください。
 
 * [カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
 * [カレンダーレポートでのカスタム日付フィールドの使用](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

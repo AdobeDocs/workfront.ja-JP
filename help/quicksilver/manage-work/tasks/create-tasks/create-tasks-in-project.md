@@ -145,7 +145,7 @@ ht-degree: 97%
 
          これにより、新しいタスクが子タスク、または前のタスクのサブタスクになります。
 
-         子タスクの詳細については、を参照してください。 [サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+         子タスクの詳細については、「[ サブタスクの作成 ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)」を参照してください。
 
       1. （条件付き）「**さらにタスクを追加**」を押した後に「**自動保存**」オプションを無効にした場合は、次の操作を行うことができます。
 

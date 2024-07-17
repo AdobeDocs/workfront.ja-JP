@@ -9,7 +9,7 @@ exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
 source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Microsoft Project から Adobe Workfront にプロジェクトを読み込み、
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>新しいライセンス：標準 </p> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規のライセンス：標準 </p> 
    または
    <p>現在のライセンス：プラン </p>
    </td> 

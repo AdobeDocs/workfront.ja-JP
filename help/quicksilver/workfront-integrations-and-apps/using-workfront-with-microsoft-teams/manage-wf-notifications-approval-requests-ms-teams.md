@@ -9,7 +9,7 @@ exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
 source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
 source-wordcount: '1351'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
+>Adobe Workfront と Microsoft Teams の統合は、現在、Microsoft Teams のクラシックエクスペリエンスでのみサポートされています。
 
 承認が必要な項目、与えられた割り当て、または関連付けられている項目に対するコメントや変更について、[!DNL Adobe Workfront] から通知を受け取ることができます。
 
@@ -55,7 +55,7 @@ ht-degree: 97%
 
 * チーム所有者がチーム用に [!DNL Workfront for Microsoft Teams] をインストールして設定している。
 * [!DNL Microsoft Teams] から [!DNL Workfront] にログインしている。
-* [!DNL Workfront] でインスタント通知を有効にしている。インスタント通知の有効化について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* [!DNL Workfront] でインスタント通知を有効にしている。インスタント通知の有効化について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 [!DNL Workfront for Microsoft Teams] のインストールと [!DNL Workfront from Microsoft Teams] へのログインについては、[ [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
 

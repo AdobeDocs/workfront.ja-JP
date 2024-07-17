@@ -30,7 +30,7 @@ Adobe Workfront 環境が Workfront Proof Premium アカウントと統合され
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 

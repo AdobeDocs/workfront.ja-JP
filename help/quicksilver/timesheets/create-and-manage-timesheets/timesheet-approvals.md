@@ -36,7 +36,7 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
  </tbody> 
@@ -56,7 +56,7 @@ ht-degree: 98%
 
 承認者は、自分を承認者として指定して提出されたタイムシートを承認できます。承認に向けて提出されたタイムシートは、「**ホーム**」ページの&#x200B;**承認**」にリストされます。詳しくは、[作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)を参照してください。
 
-Workfront 管理者がユーザーに対するタイムシートの承認およびユーザーイベントハンドラーに対するタイムシートの却下を有効にしている場合は、タイムシートが承認または却下された後に通知が表示されます。イベント通知の有効化について詳しくは、 [イベント通知タイプ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Workfront 管理者がユーザーに対するタイムシートの承認およびユーザーイベントハンドラーに対するタイムシートの却下を有効にしている場合は、タイムシートが承認または却下された後に通知が表示されます。イベント通知の有効化について詳しくは、[ イベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
 
 タイムシートを承認するには：
 

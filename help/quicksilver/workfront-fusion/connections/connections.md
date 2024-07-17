@@ -12,7 +12,7 @@ exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
 source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 90%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 90%
 * [ [!DNL Adobe Workfront Fusion] での接続の作成](../../workfront-fusion/connections/connection-instruction-toc.md)
 * [ [!DNL Adobe Workfront Fusion]  への接続の作成 - 基本的な手順](../../workfront-fusion/connections/connect-to-fusion-general.md)
 * [任意の web サービスへの  [!DNL Adobe Workfront Fusion]  の接続](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)
-* [の接続メタデータ [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
+* [ [!DNL Adobe Workfront Fusion] での接続メタデータ](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
 * [API トークン認証を使用する web サービスへの  [!DNL Adobe Workfront Fusion]  の接続](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
 * [更新されたセキュリティ対策を使用した  [!DNL Adobe Workfront Fusion]  の  [!DNL Google Services]  への接続](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
 * [カスタム OAuth クライアントを使用した  [!DNL Adobe Workfront Fusion]  の  [!DNL Google Services]  への接続](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)

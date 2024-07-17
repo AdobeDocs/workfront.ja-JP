@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: "Workfront Proof: article index"
-description: スタンドアロン製品のWorkfront Proof の使用方法を説明します。
+title: 「Workfront Proof：記事インデックス」
+description: Workfront Proof スタンドアロン製品の使用方法について説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
 source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
 workflow-type: tm+mt
 source-wordcount: '70'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 68%
 
 このセクションには、次のサブセクションが含まれます。
 
-* [の概要 [!DNL Workfront Proof]：記事インデックス](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
+* [ [!DNL Workfront Proof] の基本を学ぶ：記事インデックス](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
 * [ [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md) で校正とファイルを使用する
 * [[!DNL Workfront Proof] アカウント管理](../workfront-proof/wp-acct-admin/wp-account-admin.md)
 * [[!DNL Workfront Proof] 請求設定](../workfront-proof/wp-billingsettings/wp-billing-settings.md)

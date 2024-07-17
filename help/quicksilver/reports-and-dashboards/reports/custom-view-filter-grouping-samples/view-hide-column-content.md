@@ -8,8 +8,8 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
-source-wordcount: '419'
+workflow-type: tm+mt
+source-wordcount: '423'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
@@ -65,7 +65,7 @@ ht-degree: 100%
 1. 「**列を追加**」をクリックして、「**このカラムに表示**」フィールドに「タスク番号」と入力していき、リストに表示されたら選択します。
 
 1. 「**テキストモードに切り替える**」をクリックします。
-1. テキストモードエリアにポインタを合わせて、「**クリックするとテキストを編集できます**」をクリックします。
+1. テキストモードエリアにポインタを合わせ、「**クリックしてテキストを編集**」をクリックします。
 1. 「**テキストモード**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    <pre><strong>displayname=</strong>linkedname=direct<br>querysort=taskNumber<br>sortOrder=1<br>sortType=asc<br>textmode=true<br><strong>value=</strong>valueformat=int<br><strong>width=0</strong></pre>このコードの重要な変更点は次のとおりで、その結果、列が非表示になります。

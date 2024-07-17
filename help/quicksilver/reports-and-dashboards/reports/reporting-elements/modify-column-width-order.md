@@ -9,7 +9,7 @@ exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
 source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
 source-wordcount: '1066'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Adobe Workfront での列の幅の仕組みに関するガイドラインを以�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>リクエスト以上 </p> </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ Workfront のリストについて詳しくは、[Adobe Workfront のリスト�
 
 >[!NOTE]
 > 
->列の幅は、ブラウザーウィンドウのサイズによって制限されます。ページが更新されると、すべての列が横にスクロールせずにウィンドウに収まるように、列の幅が狭くなります。 列の幅をブラウザーが収まらない幅に保つには、テキストモードで列の幅を設定する必要があります。詳しくは、 [列の幅と順序を恒久的に変更する](#modify-width-and-order-of-columns-permanently) 列の幅を手動で調整する場合は、境界線をドラッグします。
+>列の幅はブラウザーウィンドウのサイズによって制限されます。ページが更新されると、水平スクロールせずにすべての列がウィンドウに収まるまで、列の幅が縮小されます。列の幅をブラウザーに収まる幅よりも強制的に広いままにするには、[列の幅と順序を永続的に変更](#modify-width-and-order-of-columns-permanently)の説明に従って、テキストモードで列の幅を設定する必要があります。境界線をドラッグして列幅を手動で調整することは避けてください。
 >
 
 * 列を並べ替えると、リストから移動するか、ブラウザーページを更新するまで、選択した順序が維持されます。リストから移動したり、ブラウザーページを更新したりすると、列はデフォルトの順序に戻ります。

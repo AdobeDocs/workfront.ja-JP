@@ -9,8 +9,8 @@ author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: ht
-source-wordcount: '260'
+workflow-type: tm+mt
+source-wordcount: '264'
 ht-degree: 100%
 
 ---

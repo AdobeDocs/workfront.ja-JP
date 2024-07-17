@@ -58,7 +58,7 @@ Workfront 管理者がユーザーにレイアウトテンプレートを割り�
    <td rowspan="2"><strong>プロジェクト</strong> </td> 
    <td><strong>プロジェクト</strong> </td> 
    <td>✔<br>（デフォルトのランディング領域）</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>（デフォルトのランディングエリア）</td> 
+   <td><span style="font-weight: 400;"> ✔</span> <br> （デフォルトのランディングエリア）</td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 

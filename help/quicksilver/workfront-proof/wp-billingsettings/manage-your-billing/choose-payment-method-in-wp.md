@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: manage-your-billing-workfront-proof
 title: ' [!DNL Workfront]  プルーフでの支払い方法の選択'
-description: Workfront Proof での支払いについて詳しく説明します。
+description: Workfront Proof での支払いの詳細について説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cc23012f-ea1a-41e6-b101-877b85605775
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '338'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

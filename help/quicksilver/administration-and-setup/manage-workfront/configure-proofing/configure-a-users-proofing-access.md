@@ -9,7 +9,7 @@ feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1244'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Adobe Workfront 管理者または Workfront Proof 管理者は、Workfront と 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 

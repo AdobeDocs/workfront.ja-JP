@@ -10,7 +10,7 @@ exl-id: b0c6df90-3ea8-4c81-abe2-48c2748a4d2b
 source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,11 +30,11 @@ Workfront for Experience Manager 拡張コネクタは、エンドツーエン�
 
 ## 拡張コネクタの新機能 {#what-s-new-in-the-enhanced-connector}
 
-Workfront forExperience Manager拡張コネクタで、次の操作が可能になりました。
+Workfront for Experience Manager の拡張コネクタで、次のことができるようになりました。
 
 * リンクされた Experience Manager フォルダーを Workfront に自動作成し、Workfront のポートフォリオ、プログラム、プロジェクトに基づいてフォルダーを整理します。
 * Workfront プロジェクトメタデータをリンクされた Experience Manager フォルダーと同期します。
-* 新しいバージョンでExperience Managerメタデータの更新を使用します。
+* Experience Manager メタデータが新しいバージョンでアップデートされます。
 * Experience Manager ワークフローを使用して、設定可能な条件に基づいて Workfront オブジェクトのステータスを設定します。
 * アセットを Experience Manager パブリッシュ環境または Brand Portal に公開します。
 
@@ -44,13 +44,13 @@ Workfront forExperience Manager拡張コネクタで、次の操作が可能に�
 * [Adobe Experience Manager as a Cloud Service Assets](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-manager-cloud-service.html)
 * [Adobe Experience Manager 6.5 Assets オンプレミス](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-manager-on-premise.html)
 * [Adobe Experience Manager 6.5 Assets as a Managed Service](https://helpx.adobe.com/jp/legal/product-descriptions/adobe-experience-manager-managed-services.html)
-* Adobe Experience Manager Assetsオンプレミス
+* Adobe Experience Manager Assets オンプレミス
 * Adobe Experience Manager Assets as a Managed Service
 
 ## 基本を学ぶ
 
 1. **コネクタをインストールして設定します**。認定パートナーまたは Adobe Professional Services を使用して、Workfront for Experience Manager 拡張コネクタのインストールおよび設定を行い、プロセスの整理と標準化、ガバナンスの確立、アセットの作成から配信までのライフサイクルの効率化を行います。[Adobe Experience Manager 6.5 でのインストール](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-integrations.html?lang=ja)、または [Adobe Experience Manager as a Cloud Service でのインストール](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/integrations/workfront-connector-install.html?lang=ja)。
-1. **コネクタを使用します**。Experience Manager Assets でのプロジェクトにリンクされたフォルダーの自動生成、Experience Manager Assets とフォルダーにマッピングされた Workfront メタデータ、双方向のメタデータの同期など、拡張コネクタの機能が実際に動作している様子を確認します。詳しくは、 [Workfront forExperience Manager拡張コネクタ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md).
+1. **コネクタを使用します**。Experience Manager Assets でのプロジェクトにリンクされたフォルダーの自動生成、Experience Manager Assets とフォルダーにマッピングされた Workfront メタデータ、双方向のメタデータの同期など、拡張コネクタの機能が実際に動作している様子を確認します。詳しくは、[Workfront for Experience Manager 拡張コネクタ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)を参照してください。
 
 ## その他の関連ヘルプ
 

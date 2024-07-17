@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: ' [!DNL Workfront Proof] でのプルーフの役割の管理'
-description: 配達確認の役割を使用すると、ユーザープロファイルに設定された権限プロファイルで制限されるユーザーに権限を付与できます。
+description: プルーフの役割を使用すると、ユーザープロファイルに設定された権限プロファイルで制限されているユーザーに権限を付与できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
 source-git-commit: 6e24b9c717ecedd6efbdf62ec01e53ac98079cfe
 workflow-type: tm+mt
 source-wordcount: '1306'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -187,7 +187,7 @@ ht-degree: 92%
 
 ### 新規バージョン {#new-versions}
 
-配達確認の新しいバージョンを作成すると、以前のバージョンのレビュー担当者が自動的に表示されます（以前のバージョンと同じ役割を持ちます）。
+プルーフの新規バージョンを作成すると、以前のバージョンのレビュアーが（以前のバージョンと同じ役割で）自動的に表示されます。
 
 新規バージョンの作成時に、レビュアーに適用されたプルーフの役割を編集できます（1）。
 
@@ -195,7 +195,7 @@ ht-degree: 92%
 
 ### 既存プルーフ {#existing-proofs}
 
-既存の配達確認に関する個人の役割を変更する場合は、 [!UICONTROL 配達確認の詳細] ページを作成するには、ワークフローの節 (1) での役割をインライン編集します。
+既存のプルーフに関するユーザーの役割を変更する場合は、[!UICONTROL プルーフの詳細]ページの「ワークフロー」セクション（1）で役割をインライン編集することで変更できます。
 
 ![Proof_Roles_-_Proof_Details_page_2.png](assets/proof-roles---proof-details-page-2-350x131.png)
 
@@ -244,7 +244,7 @@ ht-degree: 92%
 
 [!UICONTROL プルーフの詳細]ページでプルーフの所有者を変更するには、次の手順に従います。
 
-* 所有者にする人の名前の横にある「アクション」メニューをクリックします。
+* 所有者にするユーザーの名前の横にあるアクションメニューをクリックします。
 * ドロップダウンメニューから「[!UICONTROL **オーナーにする**]」を選択します。
 * または、プルーフ画像の横にある「[!UICONTROL **所有者**]」フィールドをクリックし、表示されるドロップダウンから新しい所有者を選択します。
 

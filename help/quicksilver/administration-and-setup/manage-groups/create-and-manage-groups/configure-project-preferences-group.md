@@ -11,7 +11,7 @@ exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '2658'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -47,7 +47,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
@@ -218,7 +218,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 
 ### ビジネスケース {#business-cases}
 
-グループに関連付けられた新しく作成されたプロジェクトのビジネスケースを作成して、プロジェクトリクエストを送信できます。**ビジネスケース**&#x200B;フォーム上でどのエリアを表示するかを指定する環境設定を定義できます。ポートフォリオオプティマイザーなどの他のツールで適切に更新されるように、これらのオプションを有効にすることをお勧めします。各フィールドに何が表示されるかについて詳しくは、 [ビジネスケースの定義：記事インデックス](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+グループに関連付けられた新しく作成されたプロジェクトのビジネスケースを作成して、プロジェクトリクエストを送信できます。**ビジネスケース**&#x200B;フォーム上でどのエリアを表示するかを指定する環境設定を定義できます。ポートフォリオオプティマイザーなどの他のツールで適切に更新されるように、これらのオプションを有効にすることをお勧めします。各フィールドの表示内容について詳しくは、[ビジネスケースの定義：記事の索引](../../../manage-work/projects/define-a-business-case/define-business-case.md)を参照してください。
 
 Workfront 管理者がビジネスケースのセクションを有効にしてから、プロジェクト所有者がプロジェクトレベルでビジネスケースを作成できます。ビジネスケースの作成については、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 

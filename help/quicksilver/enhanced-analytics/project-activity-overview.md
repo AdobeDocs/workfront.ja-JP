@@ -10,7 +10,7 @@ exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,9 +38,9 @@ ht-degree: 96%
    <td> <p>ビジネス以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfrontライセンスの概要</a></td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンス概要</a></td> 
    <td>   <p>新規：</p> 
-   <ul><li>明るいか高い</li></ul>
+   <ul><li>ライト以上</li></ul>
    <p>現在：</p>
    <ul><li>レビュー以上</li></ul>
  </td> 
@@ -56,7 +56,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 

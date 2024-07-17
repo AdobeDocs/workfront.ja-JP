@@ -2,20 +2,20 @@
 content-type: reference
 navigation-topic: notifications
 title: 「通知：コミュニケーション」
-description: 以下の通知は、自分が関係する作業項目に対する更新コメントなど、コミュニケーションに関することを知らせるものです。受信する通知の設定について詳しくは、「独自の電子メール通知を変更する」を参照してください。
+description: 以下の通知は、自分が関係する作業項目に対する更新コメントなど、コミュニケーションに関することを知らせるものです。受信する通知の設定について詳しくは、自身のメール通知の変更を参照してください。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '1530'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 通知：コミュニケーション
 
-以下の通知は、自分が関係する作業項目に対する更新コメントなど、コミュニケーションに関することを知らせるものです。受信する通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+以下の通知は、自分が関係する作業項目に対する更新コメントなど、コミュニケーションに関することを知らせるものです。受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 >[!NOTE]
 >

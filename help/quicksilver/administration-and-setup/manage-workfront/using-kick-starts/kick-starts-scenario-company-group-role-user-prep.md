@@ -10,8 +10,8 @@ feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
-workflow-type: ht
-source-wordcount: '1085'
+workflow-type: tm+mt
+source-wordcount: '1104'
 ht-degree: 100%
 
 ---
@@ -33,12 +33,12 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -121,7 +121,7 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 | **ユーザー名／E メール** | mlewis@foo.com |
 | **パスワード** | updateMe |
 | **アクセス** | ポートフォリオマネージャー |
-| **会社** | &lt;*会社>* |
+| **会社** | &lt;*あなたの会社*> |
 | **ホームグループ** | 財務 |
 | **担当業務** | コントローラー |
 

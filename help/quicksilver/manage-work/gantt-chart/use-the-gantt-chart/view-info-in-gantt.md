@@ -8,7 +8,7 @@ exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '914'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -150,7 +150,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
 * フィルター\
    リストにフィルターを適用すると、[!UICONTROL ガントチャート]に表示される情報を制御できます。\
-   フィルターの適用について詳しくは、  [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   フィルターの適用について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 * グループ化\
    リストに適用したグループ化は、[!UICONTROL ガントチャート]に反映されます。\

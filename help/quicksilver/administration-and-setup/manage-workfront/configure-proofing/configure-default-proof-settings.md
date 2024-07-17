@@ -9,7 +9,7 @@ feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 100%
 

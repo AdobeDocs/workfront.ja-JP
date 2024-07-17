@@ -9,7 +9,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
 workflow-type: tm+mt
 source-wordcount: '997'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 85%
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-ユーザーがフォローしない可能性のあるオブジェクトにユーザーの注意を引きたい場合は、オブジェクトを更新する際にユーザーにタグを付けることができます。
+ユーザーがフォローしない可能性のあるオブジェクトにユーザーの注意を引きたい場合は、オブジェクトをアップデートする際にユーザーにタグを付けることができます。
 
 オブジェクトにユーザー割り当てたり、登録させたりしてオブジェクトに含める代わりに、アップデート時にタグ付けすれば、オブジェクトを共有することができます。タグ付けされたユーザーには、入力した更新に関するWorkfront通知が届きます。 通知設定に応じて、入力した更新に関するメールも送信されます。
 
-## 更新でのユーザーのタグ付けに関する考慮事項
+## アップデートでのユーザーのタグ付けに関する考慮事項
 
-* 更新にタグ付けされたユーザーがメール通知を受信するには、プロファイルで個人通知を有効にしている必要があります。詳しくは、[自分のメール通知を変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
+* アップデートにタグ付けされたユーザーがメール通知を受信するには、プロファイルで個人通知を有効にしている必要があります。詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
   アップデートを Workfront オブジェクトに追加する方法について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
@@ -66,12 +66,12 @@ ht-degree: 85%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>新規：イシューとドキュメントにはコントリビューター以上、その他のすべてのオブジェクトにはライト以上</p>
    <p>現在：イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
    <td> <p>返信を投稿するオブジェクトへの表示以上のアクセス</p> </td> 
   </tr> 
   <tr> 
@@ -81,13 +81,13 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、を参照してください [Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 更新時の他のユーザーのタグ付け
 
 次の方法で、更新で他のユーザーにタグ付けできます。
 
-* **自動**：ユーザーがスレッドを開始したり、コメントを追加したり、返信を追加したりすると、ユーザーは自動的にタグ付けされ、コメントボックスのユーザーまたはチームにタグ付けされます。
+* **自動**：ユーザーがスレッドを開始したり、コメントを追加したり、返信を追加したりすると、ユーザーは自動的にタグ付けされ、コメントボックスの人物またはチームにタグ付け領域に追加されます。
 * **手動**：ユーザーを手動でコメントボックスの「人物またはチームにタグ付け」エリアに追加します。
 
 また、コメントの編集時やコメントへの返信時に誤ってタグ付けされたユーザーを削除することもできます。
@@ -125,7 +125,7 @@ ht-degree: 85%
 
    >[!NOTE]
    >
-   >「人物またはチームにタグ付け」フィールドに一覧表示されるすべてのユーザーとチームメンバーは、更新のアプリ内通知を受け取り、メール通知設定に応じてはメールを受け取る場合があります。コメントや返信で自分にタグ付けしたユーザーは、そのコメントや返信に関する通知を受け取り、スレッドの残りについてはそのスレッドのメンバーとしてリストに名前が表示されますが、自分にタグ付けし直さない限り、別の通知を受け取りません。詳しくは、[自分のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)や[システムのユーザー全員に対するイベント通知の設定](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
+   >「人物またはチームにタグ付け」フィールドに一覧表示されるすべてのユーザーとチームメンバーは、更新のアプリ内通知を受け取り、メール通知設定に応じてはメールを受け取る場合があります。コメントや返信で自分にタグ付けしたユーザーは、そのコメントや返信に関する通知を受け取り、スレッドの残りについてはそのスレッドのメンバーとしてリストに名前が表示されますが、自分にタグ付けし直さない限り、別の通知を受け取りません。詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)や[システムの全ユーザーに対するイベント通知の設定](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
 
 1. 「**送信**」をクリックします。\
    更新に含まれるユーザーには、オブジェクトに対する表示権限が自動的に付与され、オブジェクトに対する更新の表示と応答が可能になります。
@@ -138,7 +138,7 @@ ht-degree: 85%
 
    作業項目の更新時に使用できる追加機能について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション）コメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックしたあと、「**編集**」をクリックします。タグ付けされたユーザーを削除して、 **Submit**.
+1. （オプション）コメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックしたあと、「**編集**」をクリックします。タグ付けされたユーザーを削除して、「**送信**」をクリックします。
 
    >[!IMPORTANT]
    >

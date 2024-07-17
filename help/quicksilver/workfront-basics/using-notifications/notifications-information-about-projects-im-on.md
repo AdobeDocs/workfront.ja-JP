@@ -9,7 +9,7 @@ exl-id: c4cf84eb-8911-4bff-a548-7f0e6d8aa7b5
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '1586'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 次の通知は、作業中のプロジェクトで発生するアクティビティについて警告します。
 
-受信する通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 [イベント通知](../../workfront-basics/using-notifications/event-notifications.md)も参照してください。
 

@@ -11,7 +11,7 @@ exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
 source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
 workflow-type: tm+mt
 source-wordcount: '889'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 96%
 * オブジェクトフィールドでユーザーが行う変更
 * オブジェクトに対してユーザーが実行するアクション
 
-これらのシステム更新には、次の種類の情報が含まれます。
+これらのシステム更新には、次のタイプの情報が含まれています。
 
-* 変更が加えられた
-* 変更を加えたユーザーの名前
-* 変更日時
+* 行われた変更
+* 変更を行ったユーザーの名前
+* 変更の日時
 
 システム更新について詳しくは、[システムで追跡される更新](../system-tracked-update-feeds/system-tracked-update-feeds.md)を参照してください。
 
@@ -43,7 +43,7 @@ ht-degree: 96%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 

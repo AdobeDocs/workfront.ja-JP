@@ -8,7 +8,7 @@ exl-id: a0ca824d-aab8-4da2-97ed-0913a7f76d55
 source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
 source-wordcount: '2701'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -57,7 +57,7 @@ Workfront のすべての Flash ベースのツールを削除する際には、
    * キャパシティプランナー
    * リソース見積り
    * リソースグリッド\
-     詳しくは、 [リソース計画：記事インデックス](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     詳しくは、[リソース計画：記事インデックス](../../../resource-mgmt/resource-planning/resource-planning-overview.md)を参照してください。
 
 * プロジェクトのビジネスケースのレガシーリソースの予測エリア
 
@@ -201,7 +201,7 @@ Workfront のすべての Flash ベースのツールを削除する際には、
     <ul> 
      <li> <p><strong>分析フェーズの場合：</strong> </p> 
       <ul> 
-       <li> <p><strong>ワークロードバランサー</strong>：ワークロードバランサーを使用すると、より詳細なレベルでユーザーのワークロードを表示できます。ワークロードバランサーを使用すると、ワークロード内でタスクを時間通りに完了できるユーザーを確認できます。これには、休暇およびスケジュール例外の詳細が含まれます。 </p> <p>ワークロード・バランサの詳細は、 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">ワークロードバランサーの概要</a>.</p> </li> 
+       <li> <p><strong>ワークロードバランサー</strong>：ワークロードバランサーを使用すると、より詳細なレベルでユーザーのワークロードを表示できます。ワークロードバランサーを使用すると、ワークロード内でタスクを時間通りに完了できるユーザーを確認できます。これには、休暇およびスケジュール例外の詳細が含まれます。 </p> <p>ワークロードバランサーについて詳しくは、<a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">ワークロードバランサーの概要</a>を参照してください。</p> </li> 
        <li> <p><strong>リソースプランナーのユーザービュー</strong><strong>：</strong>リソースプランナーのユーザービューを使用すると、ユーザーが割り当てられるプロジェクトをより高いレベルで把握できます。これにより、ユーザーが何に取り組んでいるか、また、特定の期間での割り当ての超過や不足を確認できます。また、リソースプランナーは、ユーザー全体の全体的な割り当ての視覚化と、ログに記録された実際の時間数の表示を提供するので、作業の進行状況を分析するのに役立ちます。 </p> <p>リソースプランナーでのユーザービューの使用について詳しくは、<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md" class="MCXref xref">リソースプランナーの概要</a>の<a href="../../../resource-mgmt/resource-planning/get-started-resource-planner.md#using" class="MCXref xref">ユーザービューを使用して、使用可能時間、計画時間、実際の時間数または FTE を表示する</a>の節を参照してください。</p> </li> 
       </ul> </li> 
      <li><strong>戦術フェーズの場合：</strong> 
@@ -211,7 +211,7 @@ Workfront のすべての Flash ベースのツールを削除する際には、
          <li>作業をユーザーに割り当てます。</li>
          <li>作業アイテムに対するユーザーの割り当てを管理します。 </li>
          <li>担当者領域を参照できない可能性のある他のユーザーと、ワークロードバランサーを共有できます。共有可能なリンク機能を使用して、ワークロードバランサーへのリンクを共有し、カスタムダッシュボードに埋め込みます。これらのダッシュボードを共有すると、「ユーザーを表示」へのアクセス権を持つすべてのユーザーがこれらのダッシュボードを表示できます。</li>
-        </ul><p>ワークロードバランサーは、担当者領域で使用できます。 </p><p>ワークロード・バランサの詳細は、 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">ワークロードバランサーの概要</a>.</p></li> 
+        </ul><p>ワークロードバランサーは、担当者領域で使用できます。 </p><p>ワークロードバランサーについて詳しくは、<a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref">ワークロードバランサーの概要</a>を参照してください。</p></li> 
       </ul> <!--
        <ul data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
         <li><strong>The Resource Scheduling Areas</strong><strong>:</strong> When assigning your resources to the actual work that must be completed, use the Resource Scheduling areas in the People or Team areas, or at the project level. These areas allow you to visualize and manage the users' workload by day and rectify any problems from one view using the following actions: 

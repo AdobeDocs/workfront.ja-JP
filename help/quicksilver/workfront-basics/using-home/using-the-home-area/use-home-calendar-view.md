@@ -7,8 +7,8 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: 07b33b56-ae57-4ae5-890e-c21feae1c4fd
 source-git-commit: d1babaf52c4035c20bf3990272af5a2f401b7fcb
-workflow-type: ht
-source-wordcount: '1602'
+workflow-type: tm+mt
+source-wordcount: '1603'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p> <p>メモ：アクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者に問い合わせてください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されているか [!DNL Workfront] 管理者に確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 

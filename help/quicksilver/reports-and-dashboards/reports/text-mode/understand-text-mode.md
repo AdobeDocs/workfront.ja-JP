@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモードの概要
-description: レポートまたはリストを構成する要素を作成する際は、標準またはテキストモードのインターフェイスを使用して、Adobe Workfrontでレポートまたはリストを作成できます。
+description: レポートやリストを構成する要素を作成する際に標準またはテキストモードのインターフェイスを使用して、Adobe Workfront でレポートやリストを作成できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '799'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -29,13 +29,13 @@ ht-degree: 86%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This will be linked to the Ninja feature about adding a filter to the User typeahead field (which originally is open only for text mode filters). Update the Context Sensitive sheet at release time) </p>
 -->
 
-レポートまたはリストを構成する要素を作成する際は、標準またはテキストモードのインターフェイスを使用して、Adobe Workfrontでレポートまたはリストを作成できます。
+レポートやリストを構成する要素を作成する際に標準またはテキストモードのインターフェイスを使用して、Adobe Workfront でレポートやリストを作成できます。
 
-標準インターフェイスを使用すると、Workfrontインターフェイスですぐに使用できるフィールドとその属性を参照できます。
+標準インターフェイスでは、Workfront インターフェイスですぐに利用できるフィールドとその属性を参照できます。
 
 テキストモードを使用すると、標準モードでは利用できないかもしれないフィールドや属性を参照できますが、Workfront データベースでは利用可能です。
 
-クラス、ビデオ、チュートリアルなど、テキストモードを使用したレポートの作成について詳しくは、Adobe Experience Leagueサイトの「学習」セクションを参照してください。
+クラス、ビデオ、チュートリアルなど、テキストモードを使用したレポートの作成について詳しくは、Adobe Experience League サイトの学習の節を参照してください。
 
 ## テキストモードを使用する前の考慮事項
 

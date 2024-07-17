@@ -6,8 +6,8 @@ feature: Get Started with Workfront
 author: Lisa
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
-workflow-type: ht
-source-wordcount: '394'
+workflow-type: tm+mt
+source-wordcount: '392'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>リストが表示されているエリアへの[!UICONTROL View]アクセス権</p> <p>例えば、プロジェクトのタスクリストを書き出すには、プロジェクトへの [!UICONTROL View] アクセス権が必要です。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。<br>[!DNL Workfront] 管理者によってアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>リストが表示されているエリアへの[!UICONTROL View]アクセス権</p> <p>例えば、プロジェクトのタスクリストを書き出すには、プロジェクトへの [!UICONTROL View] アクセス権が必要です。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。<br>[!DNL Workfront] 管理者がアクセスレベルを変更する方法に関して詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 

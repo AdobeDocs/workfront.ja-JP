@@ -8,8 +8,8 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: daf44b00-0c55-470e-a52b-2bb21a961699
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
-workflow-type: ht
-source-wordcount: '414'
+workflow-type: tm+mt
+source-wordcount: '401'
 ht-degree: 100%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 100%
    リストでプルーフを選択してリストの上にある「**[!UICONTROL その他]**」ボタンをクリックし、「**[!UICONTROL ダウンロード]**」をクリックします。\
    以下でも、ファイルをダウンロードすることができます。
 
-   * プルーフの詳細ページの表示中。
+   * プルーフの詳細ページの表示中。\
 
      ![Download_btn_in_Proof_Details.png](assets/download-btn-in-proof-details-350x32.png)
 

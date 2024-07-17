@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
 source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '351'
 ht-degree: 100%
 
@@ -69,7 +69,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

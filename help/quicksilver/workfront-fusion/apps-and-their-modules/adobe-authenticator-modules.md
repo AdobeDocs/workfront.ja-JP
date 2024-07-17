@@ -22,7 +22,7 @@ Adobe Authenticator モジュールを使用すると、1 回の接続で、任�
 
 HTTP モジュールより有利な点は、専用のアプリのように接続を作成できることです。
 
-使用可能なAdobeAPI のリストについては、を参照してください。 [ADOBEAPI](https://developer.adobe.com/apis). 割り当てられている API のみを使用できる場合があります。
+使用可能なAdobeAPI の一覧については、[AdobeAPI](https://developer.adobe.com/apis) を参照してください。 割り当てられている API のみを使用できる場合があります。
 
 ## アクセス要件
 
@@ -45,17 +45,17 @@ HTTP モジュールより有利な点は、専用のアプリのように接続
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス</td>
       <td>
-   <p>現在の Fusion ライセンス要件：いいえ [!DNL Workfront Fusion] ライセンス要件</p>
+   <p>現在の Fusion ライセンス要件：[!DNL Workfront Fusion] ライセンス要件はありません。</p>
    <p>または</p>
-   <p>従来の Fusion ライセンス要件：[!UICONTROL [!DNL Workfront Fusion] 作業の自動化と統合のために ] </p>
+   <p>従来の Fusion ライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">製品</td>
       <td>
-   <p>新しいWorkfront プラン：[!UICONTROL Select] または [!UICONTROL Prime] がある場合 [!DNL Adobe Workfront] 計画してください。組織による購入が必要です。 [!DNL Adobe Workfront Fusion] も [!DNL Adobe Workfront] ：この記事で説明されている機能を使用します。 [!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
+   <p>新しいWorkfront プラン：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事に記載されている機能を使用するには、組織で [!DNL Adobe Workfront Fusion] の購入 [!DNL Adobe Workfront] 必要です。 [!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>現在のWorkfront プラン：ご購入が必要です [!DNL Adobe Workfront Fusion] も [!DNL Adobe Workfront] ：この記事で説明されている機能を使用します。</p>
+   <p>現在のWorkfront プラン：この記事に記載されている機能を使用するには、[!DNL Adobe Workfront Fusion] を購入する必要が [!DNL Adobe Workfront] ります。</p>
    </td>
     </tr>
   </tbody>
@@ -72,7 +72,7 @@ HTTP モジュールより有利な点は、専用のアプリのように接続
      または
    * API を既存のプロジェクトに追加します。
 
-  Adobe Developer Consoleを使用した API のプロジェクトへの追加について詳しくは、 [プロジェクトの作成](https://developer.adobe.com/dep/guides/dev-console/create-project/) Adobeドキュメント
+  Adobe Developer Consoleを使用したプロジェクトへの API の作成または追加については、Adobeドキュメントの [ プロジェクトの作成 ](https://developer.adobe.com/dep/guides/dev-console/create-project/) を参照してください。
 
 ## 接続の作成
 
@@ -84,7 +84,7 @@ Adobe Authenticator接続は、Adobe Developer Console上の 1 つのプロジ�
 >
 >Adobe Authenticator コネクタでは、OAuth サーバー間接続を使用するか、サービスアカウント（JWT）接続を使用するかを選択できます。 Adobeでは、JWT 資格情報を廃止しました。この資格情報は 2025 年 1 月 1 日（PT）以降、機能しなくなります。 **したがって、OAuth 接続を作成することを強くお勧めします。**
 >
->これらのタイプの接続の詳細については、を参照してください [サーバーからサーバーへの認証](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) Adobeドキュメントの
+>これらのAdobeの詳細については、接続ドキュメントの [ サーバーからサーバーへの認証 ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) を参照してください
 
 接続を作成するには：
 
@@ -127,7 +127,7 @@ Adobe Authenticator接続は、Adobe Developer Console上の 1 つのプロジ�
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>JWT 接続を選択した場合は、 [!DNL Adobe] 組織 ID。 これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
+        <td>JWT 接続を選択した場合は、[!DNL Adobe] 組織 ID を入力します。 これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Meta Scopes]</td>
@@ -136,7 +136,7 @@ Adobe Authenticator接続は、Adobe Developer Console上の 1 つのプロジ�
       <tr>
         <td role="rowheader">[!UICONTROL Private key]</td>
         <td>
-          <p>JWT 接続を選択した場合は、で資格情報が作成されたときに生成された秘密鍵を [!DNL Adobe Developer Console]. </p>
+          <p>JWT 接続を選択した場合は、資格情報が [!DNL Adobe Developer Console] で作成されたときに生成された秘密鍵を入力します。 </p>
           <p>秘密鍵または証明書を抽出するには：</p>
           <ol>
             <li value="1">
@@ -159,11 +159,11 @@ Adobe Authenticator接続は、Adobe Developer Console上の 1 つのプロジ�
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ベース URL]</td>
-        <td>この認証を許可するベース URL を追加する必要があります。 シナリオの後半で「カスタム API 呼び出しを行う」モジュールを使用する場合、選択した URL への相対パスを追加します。 ここに URL を入力すると、カスタム API 呼び出しを行うモジュールが何に接続できるかを制御でき、セキュリティが強化されます。<p>認証システムに追加するベース URL ごとに、 <b>項目を追加</b> そして、ベース URL を入力します。</td>
+        <td>この認証を許可するベース URL を追加する必要があります。 シナリオの後半で「カスタム API 呼び出しを行う」モジュールを使用する場合、選択した URL への相対パスを追加します。 ここに URL を入力すると、カスタム API 呼び出しを行うモジュールが何に接続できるかを制御でき、セキュリティが強化されます。<p>認証サーバーに追加するベース URL ごとに、「<b> 項目を追加 </b>」をクリックしてベース URL を入力します。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Authentication URL]</td>
-        <td>標準のAdobe IMS認証 URL を使用する場合は、これを空白のままにします。 <code>https://ims-na1.adobelogin.com</code>. 認証にAdobe IMSを使用しない場合は、認証に使用する URL を入力します。</td>
+        <td>標準のAdobe IMS認証 URL <code>https://ims-na1.adobelogin.com</code> を使用する場合は、この値を空白のままにします。 認証にAdobe IMSを使用しない場合は、認証に使用する URL を入力します。</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Environment]</td>
@@ -194,7 +194,7 @@ Adobe Authenticator接続は、Adobe Developer Console上の 1 つのプロジ�
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>Adobe Authenticator モジュールへの接続を作成する手順については、次を参照してください <a href="#create-a-connection" class="MCXref xref" >接続の作成</a> この記事の内容です。</td>
+     <td>Adobe Authenticator モジュールへの接続を作成する手順については、この記事の <a href="#create-a-connection" class="MCXref xref" > 接続の作成 </a> を参照してください。</td>
     </tr>
     <tr>
       <td role="rowheader">

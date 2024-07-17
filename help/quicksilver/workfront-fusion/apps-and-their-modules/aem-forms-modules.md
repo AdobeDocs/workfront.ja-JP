@@ -11,7 +11,7 @@ author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
 source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 100%
 

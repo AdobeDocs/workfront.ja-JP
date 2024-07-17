@@ -9,7 +9,7 @@ exl-id: 690a6030-ee29-4e50-869f-cd014050b364
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '811'
-ht-degree: 87%
+ht-degree: 90%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Workfront Goals の目標をコピーして目標を作成できます。�
   </tr>
  <tr>
  <tr>
- <td role="rowheader">Adobe Workfront ライセンス*</td>
+ <td role="rowheader">Adobe Workfront プラン*</td>
  <td>
  <p>新規ライセンス：コントリビューター以上</p>
  または
@@ -72,7 +72,7 @@ Adobe Workfront Goals の目標をコピーして目標を作成できます。�
  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューに目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>

@@ -12,7 +12,7 @@ exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
 source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
 source-wordcount: '457'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->現在専用のコネクタを持たないAdobe製品に接続する場合は、Adobe Authenticatorモジュールを使用することをお勧めします。
+>現在専用コネクタがないAdobe製品に接続する場合は、Adobe Authenticator モジュールを使用することをお勧めします。
 >
->詳しくは、 [Adobe Authenticatorモジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+>詳しくは、[Adobe Authenticator モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)を参照してください。
 
 ## リクエストモジュール
 

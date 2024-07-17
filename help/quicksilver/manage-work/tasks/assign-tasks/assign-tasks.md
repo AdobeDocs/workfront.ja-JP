@@ -22,7 +22,7 @@ ht-degree: 93%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 ユーザー、担当業務やチームにタスクを割り当てて、タスクの完了担当者を指定できます。一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 
@@ -174,7 +174,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## 単一のタスクを割り当て
 
 1. 割り当てるタスクに移動します。
-1. クリック **割り当て先** が含まれる **割り当て** タスクのヘッダーのフィールド
+1. タスクのヘッダーにある **割り当て** フィールドの **割り当て先** をクリックします
 
    または
 
@@ -183,7 +183,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
    実稼動環境では、次の操作を行います。
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">プレビュー環境で、以下を行います。</span>
+   <span class="preview"> プレビュー環境で：</span>
    ![割り当て](assets/assignments-box-in-task-header.png)
 
 1. 次のいずれかの操作を行います。
@@ -200,7 +200,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">担当業務の割り当てを追加する際に、担当業務や場所を検索できます。担当業務リストから役割を選択して割り当てのデフォルトの請求レートを使用するか、レートカード担当業務を選択してレートカードの請求レートを使用します。 評価カードについて詳しくは、[評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。</span>
 
 
-   * （条件付き）内の名前のいずれかをクリックします <span class="preview">**提案された割り当て**, **ユーザーとチーム**、または **担当業務**、または **評価カードの役割**</span> リストが表示されます。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
+   * （条件付き） <span class="preview">**提案された割り当て**、**ユーザーとチーム**、**担当業務**、または **評価カードの役割**</span> リストのいずれかの名前を表示時にクリックします。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
      タスクに割り当てるユーザー、チーム、担当業務の名前の入力を開始し、リストに表示されたら選択できます。
 

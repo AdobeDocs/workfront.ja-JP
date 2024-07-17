@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 100%
 
@@ -35,7 +35,7 @@ Workfront は、次の値を使用してこれらの値を計算します。
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

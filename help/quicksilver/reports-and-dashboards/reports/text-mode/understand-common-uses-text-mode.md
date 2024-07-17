@@ -9,7 +9,7 @@ exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
 source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 95%
 
 この記事では、テキストモードを使用して Adobe Workfront のレポートや計算カスタムフィールドの機能を拡張する必要があると考えられる、いくつかの一般的な例の概要を説明します。より広範な例のリストについては、以下を参照してください。
 
-* [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [カスタムビュー、フィルター、およびグループ化の例：記事インデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 * [レポート内の計算カスタムデータ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-クラス、ビデオ、チュートリアルなど、テキストモードを使用したレポートの作成について詳しくは、Adobe Experience Leagueサイトの「学習」セクションを参照してください。
+クラス、ビデオ、チュートリアルなど、テキストモードを使用したレポートの作成について詳しくは、Adobe Experience League サイトの学習の節を参照してください。
 
 <!--this link is outdated: 
 

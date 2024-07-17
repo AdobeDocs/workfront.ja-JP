@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: "カスタムビュー、フィルター、およびグループ化のサンプル：記事のインデックス"
-description: この節では、Adobe Workfrontアカウントで使用できるカスタムビュー、フィルター、グループの例を示します。
+title: 「カスタムビュー、フィルター、グループ化の例：記事インデックス」
+description: このセクションでは、Adobe Workfront アカウントで使用できるカスタムビュー、フィルター、グループ化の例を示します。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -11,11 +11,11 @@ exl-id: beac1ea6-a983-4d12-8972-91150914f731
 source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
-# カスタム表示、フィルター、グループ化のサンプル：記事のインデックス
+# カスタムビュー、フィルター、グループ化の例：記事インデックス
 
 <!-- Audited: 12/2023 -->
 

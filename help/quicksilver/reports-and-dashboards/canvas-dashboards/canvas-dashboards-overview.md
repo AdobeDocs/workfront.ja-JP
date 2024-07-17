@@ -16,7 +16,7 @@ ht-degree: 8%
 
 # キャンバスダッシュボードの概要
 
-キャンバスダッシュボードを使用すると、カスタマイズ可能なキャンバスに様々なレポートタイプを追加することで、Adobe Workfront データを簡単に視覚化できます。 キャンバスダッシュボードの使用に関する基本的な手順については、記事から始めます [キャンバスダッシュボードの基本を学ぶ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). それ以外の場合は、特定のトピックについて詳しくは、以下の記事インデックスを参照してください。
+キャンバスダッシュボードを使用すると、カスタマイズ可能なキャンバスに様々なレポートタイプを追加することで、Adobe Workfront データを簡単に視覚化できます。 キャンバスダッシュボードの使用に関する基本的な手順については、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) の記事から始めます。 それ以外の場合は、特定のトピックについて詳しくは、以下の記事インデックスを参照してください。
 
 ## キャンバスダッシュボード：記事のインデックス
 
@@ -26,7 +26,7 @@ ht-degree: 8%
    * [キャンバスダッシュボードの基本を学ぶ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
    * [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
    * [キャンバスダッシュボードの共有](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [キャンバスダッシュボードのレポートタイプ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+* [ キャンバスダッシュボードのレポートタイプ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
    * [キャンバスダッシュボードへの既存のレポートの追加](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
    * [キャンバスダッシュボードでの KPI レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
    * [キャンバスダッシュボードでのグラフレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)

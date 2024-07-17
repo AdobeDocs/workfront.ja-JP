@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
 source-git-commit: 177bf9271dca0310653b73b9100607a82290c326
-workflow-type: ht
-source-wordcount: '451'
+workflow-type: tm+mt
+source-wordcount: '437'
 ht-degree: 100%
 
 ---

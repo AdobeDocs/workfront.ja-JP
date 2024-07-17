@@ -9,7 +9,7 @@ exl-id: a76c468d-6373-4dab-93ff-a0b3734f368c
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '1750'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -108,13 +108,13 @@ Workfront でのリソース管理を使用すると、プロジェクトを完�
 大まかなリソースの使用計画について詳しくは、記事[リソース計画の基本を学ぶ](../../../resource-mgmt/resource-planning/get-started-resource-planning.md)を参照してください。
 
 1 つのプロジェクトの作業分割構造を構築するコンテキストでリソースを管理し、各タスクを正しいリソースに割り当てると、必ず実行する必要のある作業に対してリソースをスケジュールする準備が整います。\
-リソースのスケジュール設定について詳しくは、 [ワークロードバランサー：記事インデックス](../../../resource-mgmt/workload-balancer/workload-balancer.md) 」セクションに入力します。
+リソースのスケジュール設定について詳しくは、[ワークロードバランサー：記事インデックス](../../../resource-mgmt/workload-balancer/workload-balancer.md)の節の記事を参照してください。
 
 ## プロジェクトの財務を見積もる
 
 Workfront は、各タスクの予定コストとプロジェクトの総コストを計算します。タスクの予定コストには、タスクの全費用に加えて、タスクに割り当てられた従業員または役割のコストが含まれます。タスク、役割、従業員の時給は、タスク、役割、ユーザーの作成時に割り当てられます。
 
-プロジェクトの財政状況の詳細については、「 [プロジェクトの財政状況：記事インデックス](../../../manage-work/projects/project-finances/project-finances-overview.md).
+プロジェクトの財務について詳しくは、[プロジェクトの財務：記事インデックス](../../../manage-work/projects/project-finances/project-finances-overview.md)の節を参照してください。
 
 ## プロジェクトの承認ポイントを決定
 

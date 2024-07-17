@@ -47,7 +47,7 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準</p>
    <p>または</p>
    <p>現在：プラン</p></td> 
@@ -91,7 +91,7 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      </tr> 
      <tr> 
       <td role="rowheader">Workfrontのモバイル アプリケーションとWorkfront Outlook アドインを使わせる</td> 
-      <td> <p>ユーザーがモバイルアプリ（iPad 用 Workfront View および携帯電話アプリ）および Workfront Outlook アプリにアクセスできるようにします。</p> <p>このオプションは、デフォルトで有効になっています。 </p> <p>Workfront View について詳しくは、<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront View を使用</a>を参照してください。モバイルアプリについて詳しくは、 <a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront モバイルアプリの使用：記事インデックス</a>.</p> <p>Outlook プラグインについて詳しくは、<a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Adobe Workfront を Outlook 用に設定</a>を参照してください。</p> </td> 
+      <td> <p>ユーザーがモバイルアプリ（iPad 用 Workfront View および携帯電話アプリ）および Workfront Outlook アプリにアクセスできるようにします。</p> <p>このオプションは、デフォルトで有効になっています。 </p> <p>Workfront View について詳しくは、<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront View を使用</a>を参照してください。モバイルアプリについて詳しくは、<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront モバイルアプリの使用：記事インデックス </a> を参照してください。</p> <p>Outlook プラグインについて詳しくは、<a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Adobe Workfront を Outlook 用に設定</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>メールアドレスを使用して、Workfront アカウントを持たないユーザーと共同作業</p> </td> 
@@ -117,11 +117,11 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      </tr> 
      <tr> 
       <td role="rowheader">ヘルプ URL</td> 
-      <td>メインメニューヘルプアイコンの移動先の内部カスタムヘルプサイトを定義できます。 詳しくは、を参照してください <a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md">カスタムヘルプ URL の設定</a>.</p></td> 
+      <td>メインメニューヘルプアイコンの移動先の内部カスタムヘルプサイトを定義できます。 詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md"> カスタムヘルプ URL の設定 </a> を参照してください。</p></td> 
      </tr>
      <tr> 
       <td role="rowheader">システム内のユーザーには、デフォルトで新しいホームエクスペリエンスが表示されます。 </td> 
-      <td>デフォルトでユーザーに新しいホームエクスペリエンスを表示するかどうかを指定できます。有効にした場合、ユーザーにはデフォルトで新しいホームエクスペリエンスが表示されますが、新しいホームを有効または無効にすることを個別に選択できます。無効にした場合、ユーザーには新しいホームに切り替えることができるバナーが表示されません。ただし、インスタンス URL の末尾に <code>/home/workspaces</code> を手動で入力することで、新しいホームページに移動することはできます。この設定は、デフォルトで有効になっています。</td> 
+      <td>デフォルトでユーザーに新しいホームエクスペリエンスを表示するかどうかを指定できます。有効にした場合、ユーザーにはデフォルトで新しいホームエクスペリエンスが表示されますが、個々に新しいホームを有効または無効にすることを選択できます。無効にした場合、ユーザーには新しいホームに切り替えることができるバナーが表示されません。ただし、インスタンス URL の末尾に手動で「<code>/home/workspaces</code>」を入力すると、新しいホームページに移動できます。この設定は、デフォルトで有効になっています。</td> 
      </tr>
      <tr> 
       <td role="rowheader">テスト環境</td> 
@@ -129,6 +129,6 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
     </tbody> 
    </table>
 
-1. 「**保存**」をクリックします。
+1. **保存**&#x200B;をクリックします。
 
    ここで保存した変更は、Workfrontのすべてのユーザーおよび外部ユーザーとしてシステムを操作するすべてのユーザーのエクスペリエンスに影響を与えます。

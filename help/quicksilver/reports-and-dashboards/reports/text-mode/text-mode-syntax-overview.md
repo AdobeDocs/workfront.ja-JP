@@ -10,7 +10,7 @@ exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '1862'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 
 すべてのレポート可能なフィールドとその属性の完全なリストについては、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を参照してください。
 
-クラス、ビデオ、チュートリアルなど、テキストモードを使用したレポートの作成について詳しくは、Adobe Experience Leagueサイトの「学習」セクションを参照してください。
+テキストモードを使用したレポート（クラス、ビデオ、チュートリアルなど）の作成について詳しくは、Adobe Experience League サイトの「学習」セクションを参照してください。
 
 ## テキストモードの構文に関する考慮事項
 
@@ -101,14 +101,14 @@ Workfront フィールドまたはその属性をテキストモードで参照�
 
 ### ビューとグループ化の構文
 
-ビューやグループを作成する際のコードの行は似ています。
+ビューとグループ化を作成する際のコード行は似ています。
 
 ビューおよびグループの作成について詳しくは、以下の記事を参照してください。
 
 * [Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
 * [Adobe Workfront でのグループの概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-ビューまたはグループ化のコードの最も重要な行は、ビューの列またはグループ内で参照されているオブジェクトを識別する行です。 このコード行は、 `valuefield` または `valueexpression` このフィールドがWorkfrontデータベースフィールドへの直接参照か、複数のフィールド間の計算かに基づきます。
+ビューやグループ化の最も重要なコード行は、ビューの列やグループ化で参照されるオブジェクトを識別する行です。このフィールドが Workfront データベースフィールドへの直接参照であるか、複数のフィールド間の計算であるかによって、このコード行は `valuefield` か `valueexpression` で始る可能性があります。
 
 次の表に、ビューやグループ化で最も一般的なコード行を示します。
 
@@ -213,12 +213,12 @@ Workfront フィールドまたはその属性をテキストモードで参照�
 
 * ワイルドカードは、`valueexpression` では使用できますが、`valuefield` 行では使用できません。
 
-  ワイルドカードについて詳しくは、 [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  ワイルドカードについて詳しくは、[ワイルドカードフィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 
 
 #### ビューとグループ化の `Valueformat` の概要
 
-ビューまたはグループ化で 2 番目に重要なコード行は、`valueformat=` 行です。これにより、Workfrontは、 `valuefield` または `valueexpression` 行。 ただし、 `valueformat` 行の数を指定する場合、 `valueexpression`:
+ビューまたはグループ化で 2 番目に重要なコード行は、`valueformat=` 行です。これは、`valuefield` 行または `valueexpression` 行で指定した値をどのような形式で返すかを Workfront に指示します。`valueformat` 行には様々な形式を使用できますが、`valueexpression` を使用する際は常に次の値を使用することをお勧めします。
 
 `valueformat=HTML`
 
@@ -233,7 +233,7 @@ Workfront フィールドまたはその属性をテキストモードで参照�
 
 追加の `usewidths=true` コード行を使用して、列に指定された幅を強制する必要があります。
 
-**例：** 幅が 80 ピクセルの列を表示するには、次の行を使用します。
+**例：**&#x200B;幅が 80 ピクセルの列を表示するには、次の行を使用します。
 
 `width=80`
 
@@ -287,4 +287,4 @@ Workfront フィールドまたはその属性をテキストモードで参照�
      >
      >ステートメントコネクタでは大文字と小文字が区別され、常に大文字が使用されます。「AND」は、テキストモードでは省略できます。
 
-* フィルターをより動的にし、現在の時刻やログインしているユーザーに合わせてカスタマイズするワイルドカード。ワイルドカードについて詳しくは、 [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* フィルターをより動的にし、現在の時刻やログインしているユーザーに合わせてカスタマイズするワイルドカード。ワイルドカードについて詳しくは、[ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。

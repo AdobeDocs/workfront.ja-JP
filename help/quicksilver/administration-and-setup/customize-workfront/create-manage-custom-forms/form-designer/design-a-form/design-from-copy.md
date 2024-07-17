@@ -11,7 +11,7 @@ exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
 source-git-commit: df6b1e4b362807025f3edb5298e8445c0d44ec69
 workflow-type: tm+mt
 source-wordcount: '386'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 91%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -52,7 +52,7 @@ ht-degree: 91%
 {{step-1-to-setup}}
 
 1. 「**カスタムフォーム**」をクリックします。
-1. 新しいカスタムフォームの基礎として使用するカスタムフォームを選択し、をクリックします ![コピーアイコン](assets/copy-icon.png).
+1. 新しいカスタムフォームのベースとして使用するカスタムフォームを選択し、![コピーアイコン](assets/copy-icon.png) をクリックします。
 1. 表示される&#x200B;**カスタム フォーム コピー**&#x200B;ダイアログボックスで、次の情報を入力します。
 
    <table style="table-layout:auto"> 
@@ -79,7 +79,7 @@ ht-degree: 91%
 
    同様に、元のフォームのセクション区切りのアクセスオプションが、新しいフォームに追加するオブジェクトタイプと互換性がない場合は、オプションを調整するように求めるメッセージが表示されます。
 
-1. コピーしたフォームを選択し、 ![編集アイコン](assets/edit-icon.png).
+1. 先ほどコピーしたフォームを選択し、![編集アイコン](assets/edit-icon.png) をクリックします。
 1. [フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の記事の以下の節における説明に従って、フォームに変更を加えます。
 
    * [別のカスタムフォームで既に使用されている既存のフィールドまたはウィジェットの再利用](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)

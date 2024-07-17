@@ -11,8 +11,8 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
 source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
-workflow-type: ht
-source-wordcount: '1447'
+workflow-type: tm+mt
+source-wordcount: '1883'
 ht-degree: 100%
 
 ---
@@ -103,7 +103,7 @@ ht-degree: 100%
 |---|---|---|---|---|---|
 | 作成 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | 編集 | ✓ | ✓ | ✓ | ✓ |   |
-| 削除 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| 削除 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | 共有 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | システム全体で共有 | ✓&#42; |   |   |   |   |
 | 表示 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
@@ -283,8 +283,8 @@ ht-degree: 100%
 | 作成 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | 削除（ドキュメントおよびフォルダー） | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
 | 共有 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| 公開（外部）の共有 | ✓&#42; |   |   |   |   |
-| システム全体で共有 | ✓&#42; | ✓&#42; |   |   |   |
+| 公開（外部）の共有 | ✓&#42; |   |   |   |   |
+| システム全体で共有 | ✓&#42; | ✓&#42; |   |   |   |
 | 表示 | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
 | 詳細の編集 | ✓ | ✓ | ✓ | ✓ |   |
 | ダウンロード | ✓ | ✓ | ✓ | ✓ | ✓ |
@@ -309,7 +309,7 @@ ht-degree: 100%
 
 {style="table-layout:auto"}
 
-&#42;Workfront 管理者はアクセスレベルを使用して、この機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
+&#42; アクセスレベルを使用して、Workfront 管理者はこの機能を無効または有効にできます。詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
 &#42;&#42;ドキュメントフォルダーに対してのみ使用でき、ドキュメントには使用できません。
 

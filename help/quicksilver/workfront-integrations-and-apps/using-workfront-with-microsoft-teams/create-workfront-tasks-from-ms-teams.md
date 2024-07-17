@@ -9,7 +9,7 @@ exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
 source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
 source-wordcount: '364'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
+>Adobe Workfront と Microsoft Teams の統合は、現在、Microsoft Teams のクラシックエクスペリエンスでのみサポートされています。
 
 ## アクセス要件
 

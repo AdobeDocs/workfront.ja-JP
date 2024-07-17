@@ -9,10 +9,10 @@ exl-id: e68f4200-dbcb-4a2f-a2f7-45fb968684cc
 source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
 source-wordcount: '68'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # 作業アイテムの時間を[!UICONTROL ホーム]エリアから記録する
 
-[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]の任意の作業アイテムの時間を記録できます。詳しくは、  [ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md).
+[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]の任意の作業アイテムの時間を記録できます。詳しくは、[時間の記録](../../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。

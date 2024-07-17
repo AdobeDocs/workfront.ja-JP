@@ -10,7 +10,7 @@ exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
 source-wordcount: '2147'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 99%
        </tr> 
        <tr> 
         <td scope="col"><p>フィールド</p></td> 
-        <td scope="col"><p>フィールド</p></td> 
+        <td scope="col"><p>FIELD</p></td> 
        </tr> 
       <tr> 
         <td scope="col"><p>時間</p></td> 
@@ -155,7 +155,7 @@ ht-degree: 99%
        </tr> 
        <tr> 
         <td scope="col"><p>レコード</p></td> 
-        <td scope="col"><p>レコード</p></td> 
+        <td scope="col"><p>RECORD</p></td> 
        </tr> 
        <tr> 
         <td scope="col"><p>レコードタイプ</p></td> 
@@ -441,7 +441,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 >[!IMPORTANT]
 >
-イベント登録のフィルタリングには、次の属性が適用されます
+>イベント登録のフィルタリングには、次の属性が適用されます
 
 * フィルターフィールドに空でない値が含まれる場合、フィルターキーと値を含む **newState** のメッセージだけが購読されたURLに送信されます。
 * オブジェクトの&#x200B;**newState** AND/OR **oldState**&#x200B;に含まれるカスタムデータによってのみフィルタリングできます
@@ -603,7 +603,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 >[!NOTE]
 >
-以下の filters 配列内の `fieldValue` による影響はありません。
+>以下の filters 配列内の `fieldValue` による影響はありません。
 
 ```
 {
@@ -628,8 +628,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 >[!NOTE]
 >
-フィルターが指定された以下の登録では、`oldState`（タスクが更新される前の状態）でタスク名に `again` が含まれているメッセージのみを返します。
-この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
+>指定されたフィルターを含む以下の購読は、タスクの名前にタスクの更新が行われる前の `again` が `oldState` に含まれているメッセージのみを返します。
+>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
 
 ```
 {

@@ -9,7 +9,7 @@ exl-id: 63a6db90-d52c-4147-a442-7904ef9e9d49
 source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
 source-wordcount: '1211'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
@@ -117,7 +117,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
    「フィルターの共有」ボックスが表示されます。
 
-1. で共有するユーザー、チーム、役割、グループまたは会社の名前の入力を開始します **へのアクセス権を付与** フィールドに入力します。
+1. 共有相手となるユーザー、チーム、役割、グループまたは会社の名前を「**アクセス権の付与先**」フィールドに入力していきます。
 
    ![フィルター共有ボックス](assets/new-filters-share-filter.png)
 

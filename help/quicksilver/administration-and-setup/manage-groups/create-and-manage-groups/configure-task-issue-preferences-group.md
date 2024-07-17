@@ -12,7 +12,7 @@ exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
 source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
 workflow-type: tm+mt
 source-wordcount: '1895'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
@@ -99,7 +99,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
      </tr> 
      <tr> 
       <td role="rowheader"> <p>期間タイプ </p> </td> 
-      <td> <p>リソースの数（およびその割り当て率）とタスクの期間または合計作業量との関係を決定します。詳しくは、 <a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">タスクの期間と期間の種類：記事のインデックス</a></p> </td> 
+      <td> <p>リソースの数（およびその割り当て率）とタスクの期間または合計作業量との関係を決定します。詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-duration-type.md" class="MCXref xref">タスク期間と期間タイプ：記事インデックス</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">収益タイプ</td> 

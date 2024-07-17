@@ -6,7 +6,7 @@ description: ' [!DNL Workfront]  の左側のナビゲーションパネルを�
 feature: Get Started with Workfront
 exl-id: 18aae496-b4ec-4056-a7f1-9600b5fb5421
 source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1403'
 ht-degree: 100%
 

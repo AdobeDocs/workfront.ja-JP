@@ -8,7 +8,7 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 4bb4b61a-eafe-41f1-9f5d-20583fb76d81
 source-git-commit: b855f032b24079ff27435fb833cd3ed8a382a77c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 100%
 

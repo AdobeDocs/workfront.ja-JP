@@ -10,7 +10,7 @@ exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
 source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '315'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -38,5 +38,5 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->[ 依存関係の種類 ] の略語は、先行タスク関係を定義するタスクリストで使用されます。 詳しくは、 [タスクリスト内の先行タスクの値の例](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [タスクの先行タスクの概要](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+>依存関係タイプの略語は、先行タスク関係を定義するタスクリストで使用されます。詳しくは、[タスクの先行タスクの概要](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md)の[タスクリストの先行タスク値の例](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list)を参照してください。
 

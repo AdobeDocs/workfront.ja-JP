@@ -10,7 +10,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 384ba60a-d79e-4126-a247-6d67b5154ede
 source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件はありません。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
@@ -47,9 +47,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -118,7 +118,7 @@ SMAP 接続を使用すると、メールボックスにリモートでアクセ
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>メールアカウントを [!UICONTROL Workfront Fusion] に接続する方法について詳しくは、この記事の <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion] にメールを接続</a>を参照してください。</p> </td> 
+   <td> <p>メールアカウントを [!UICONTROL Workfront Fusion] に接続する方法について詳しくは、この記事の <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion] へのメールの接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder] </td> 
@@ -319,7 +319,7 @@ SMAP 接続を使用すると、メールボックスにリモートでアクセ
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL From] </td> 
-   <td> <p>メールの「[!UICONTROL From]」フィールドに表示されるメールアドレス（および必要に応じて名前）を入力またはマッピングします。 </p> <p>重要：正しい構文を使用してください（<code>name@email.com</code> または <code>"Name" name@email.com</code>）。</p> <p>注意：通常は、[!DNL Workfront Fusion] は、接続を作成する際に入力したメールアドレスを送信者のアドレスとして使用します。他のメールアドレスを入力すると、メッセージの送信時にエラーが発生する場合があります。これは、お使いのアカウントに、自身のアドレスとは異なるアドレスからメールを送信する権限がない可能性があるためです。（例：<code>test@mail.com</code> または "<code>John Bush" test@email.com</code>）。</p> </td> 
+   <td> <p>メールの「[!UICONTROL From]」フィールドに表示されるメールアドレス（および必要に応じて名前）を入力またはマッピングします。 </p> <p>重要：正しい構文を使用してください（<code>name@email.com</code> または <code>"Name" name@email.com</code>）。</p> <p>メモ：通常は、[!DNL Workfront Fusion] は、接続を作成する際に入力したメールアドレスを送信者のアドレスとして使用します。他のメールアドレスを入力すると、メッセージの送信時にエラーが発生する場合があります。これは、お使いのアカウントに、自身のアドレスとは異なるアドレスからメールを送信する権限がない可能性があるためです。（例：<code>test@mail.com</code> または "<code>John Bush" test@email.com</code>）。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 

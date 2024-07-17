@@ -9,8 +9,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: d356276d-e5d9-496f-85cd-cb60a8f8f377
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '657'
+workflow-type: tm+mt
+source-wordcount: '658'
 ht-degree: 100%
 
 ---
@@ -40,9 +40,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
    <p>または</p>
-   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 

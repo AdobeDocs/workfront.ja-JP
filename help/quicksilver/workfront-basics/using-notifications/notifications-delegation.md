@@ -9,7 +9,7 @@ exl-id: bd329c5a-4440-4bb7-96f1-30e83c213851
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '300'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 次の通知は、あなたが行った、または他の人が [!DNL Adobe Workfront] で行ったタスクとイシューの委任について知らせます。
 
-受信する通知の設定について詳しくは、 [独自の電子メール通知を変更する](activate-or-deactivate-your-own-event-notifications.md).
+受信する通知の設定について詳しくは、[自身のメール通知の変更](activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 [イベント通知](event-notifications.md)も参照してください。
 

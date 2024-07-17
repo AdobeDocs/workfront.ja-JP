@@ -8,7 +8,7 @@ author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 1fa39be8-c949-4fe5-b62e-94375a80713b
 source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '161'
 ht-degree: 100%
 

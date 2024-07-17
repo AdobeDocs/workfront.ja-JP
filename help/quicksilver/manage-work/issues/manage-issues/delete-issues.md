@@ -9,7 +9,7 @@ exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '728'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -36,14 +36,14 @@ ht-degree: 90%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>新規：寄稿者以上</p>
-   <p>現在：リクエスト以降</p>
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規：Contributor 以上</p>
+   <p>現在：Request 以上</p>
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベルの設定</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p>  <p>アクセスレベルの問題へのアクセスについて詳しくは、 <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">問題へのアクセス権の付与</a>.  </p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>イシューへのアクセス権を編集</p> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p>  <p>自分のアクセスレベルでのイシューへのアクセス権について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセス権の付与</a>を参照してください。  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -52,7 +52,7 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## イシューの削除に関する考慮事項
 
@@ -126,11 +126,11 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. 削除するイシューの名前をクリックします。
-1. 次をクリック： **その他** 問題名の右側にあるメニュー。
+1. イシュー名の右側にある&#x200B;**その他**&#x200B;メニューをクリックします。
 
    ![](assets/qs-issue-more-menu-highlighted-350x469.png)
 
-1. クリック **問題を削除**.
+1. 「**イシューを削除**」をクリックします。
 1. 削除が許可されている場合は、「**はい、削除します**」をクリックします。
 
    時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\

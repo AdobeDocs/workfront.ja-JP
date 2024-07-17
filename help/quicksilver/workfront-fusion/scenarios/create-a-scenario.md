@@ -7,10 +7,10 @@ description: 次のタスクでは、 [!DNL Adobe Workfront Fusion]  シナリ�
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: ee2283ac159ca26ca473cac28ec4bed85d1dea04
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 99%
+source-wordcount: '1406'
+ht-degree: 95%
 
 ---
 
@@ -28,38 +28,49 @@ ht-degree: 99%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">製品</td> 
-   <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
-   <p>または</p>
-   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
-   </td> 
-  </tr> 
- </tbody> 
+  <tbody>  
+    <tr>  
+      <td>Adobe Workfront プラン</td>  
+      <td>任意</td>  
+    </tr>  
+    <tr>  
+      <td>Adobe Workfront プラン</td>  
+      <td>
+        新規：標準 <br>
+        または <br>
+        現在：仕事以上
+      </td>  
+    </tr>  
+    <tr>  
+      <td>Adobe Workfront Fusion ライセンス</td>  
+      <td> 
+        現在：Workfront Fusion ライセンスは必要ありません。<br>
+        または <br>
+        レガシー：任意
+      </td>  
+    </tr>  
+    <tr>  
+      <td>製品</td>  
+      <td> 
+        新規：Workfront プランを選択または登録：Adobe Workfront Fusion を購入する必要があります。<br>
+        Ultimate Workfront プラン：Workfront Fusion が含まれています。<br>
+        または <br>
+        現在：Adobe Workfront Fusion を購入する必要があります。
+      </td>  
+    </tr> 
+  </tbody>  
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 [!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+
++++
 
 ## シナリオの作成を開始
 
@@ -101,7 +112,7 @@ ht-degree: 99%
 
 シナリオでアプリの接続を選択または作成すると、後のモジュールを設定するときに別の接続を選択しない限り、そのアプリの他のモジュールは自動的に同じ接続を使用します。
 
-詳しくは、を参照してください [接続の概要](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+詳しくは、[ 接続の概要 ](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md) を参照してください。
 
 ![](assets/connection-field-350x169.png)
 

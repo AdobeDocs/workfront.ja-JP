@@ -1,13 +1,13 @@
 ---
 title: ' [!DNL Workfront Proof]  モバイルアプリのヒント、テクニックおよびトラブルシューティング'
-description: Workfront Proof Mobile のトラブルシューティングについて説明します。
+description: Workfront Proof モバイルのトラブルシューティングについて説明します。
 hide: true
 hidefromtoc: true
 exl-id: b8384c56-345d-428a-bb86-05fa4001d3ea
 source-git-commit: 6c7d22bea669586c56acfc23d328d7cc815b04be
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 

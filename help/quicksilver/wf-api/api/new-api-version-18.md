@@ -10,7 +10,7 @@ exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
 source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
 workflow-type: tm+mt
 source-wordcount: '1141'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -46,22 +46,22 @@ AccessLevelPermissions オブジェクトは、Workfront オブジェクトに�
             <p>追加された可能な値は次のとおりです。</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> （原価率の表示）</p>
+                <p><code>VIEW_COST_RATES</code> （コスト率を表示）</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> （請求料金の表示）</p>
+                <p><code>VIEW_BILLING_RATES</code> （請求レートを表示）</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務の表示）</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務を表示）</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> （コスト率の編集）</p>
+                <p><code>EDIT_COST_RATES</code> （コスト率を編集）</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> （請求レートの編集）</p>
+                <p><code>EDIT_BILLING_RATES</code> （請求レートを編集）</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> （財務全般の編集）</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> （一般財務を編集）</p>
               </li>
             </ul>
           </li>
@@ -71,22 +71,22 @@ AccessLevelPermissions オブジェクトは、Workfront オブジェクトに�
             <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> （原価率の表示）</p>
+                <p><code>VIEW_COST_RATES</code> （コスト率を表示）</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> （請求料金の表示）</p>
+                <p><code>VIEW_BILLING_RATES</code> （請求レートを表示）</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務の表示）</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務を表示）</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> （コスト率の編集）</p>
+                <p><code>EDIT_COST_RATES</code> （コスト率を編集）</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> （請求レートの編集）</p>
+                <p><code>EDIT_BILLING_RATES</code> （請求レートを編集）</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> （財務全般の編集）</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> （一般財務を編集）</p>
               </li>
             </ul>
          </li>
@@ -96,22 +96,22 @@ AccessLevelPermissions オブジェクトは、Workfront オブジェクトに�
             <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> （原価率の表示）</p>
+                <p><code>VIEW_COST_RATES</code> （コスト率を表示）</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> （請求料金の表示）</p>
+                <p><code>VIEW_BILLING_RATES</code> （請求レートを表示）</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務の表示）</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務を表示）</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> （コスト率の編集）</p>
+                <p><code>EDIT_COST_RATES</code> （コスト率を編集）</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> （請求レートの編集）</p>
+                <p><code>EDIT_BILLING_RATES</code> （請求レートを編集）</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> （財務全般の編集）</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> （一般財務を編集）</p>
               </li>
             </ul>
           </li>
@@ -139,22 +139,22 @@ Workfront のオブジェクトに対する必要なアクセス権をユーザ�
             <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> （原価率の表示）</p>
+                <p><code>VIEW_COST_RATES</code> （コスト率を表示）</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> （請求料金の表示）</p>
+                <p><code>VIEW_BILLING_RATES</code> （請求レートを表示）</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務の表示）</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務を表示）</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> （コスト率の編集）</p>
+                <p><code>EDIT_COST_RATES</code> （コスト率を編集）</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> （請求レートの編集）</p>
+                <p><code>EDIT_BILLING_RATES</code> （請求レートを編集）</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> （財務全般の編集）</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> （一般財務を編集）</p>
               </li>
             </ul>
           </li>
@@ -182,22 +182,22 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
             <p>追加された可能な値は次のとおりです。</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> （原価率の表示）</p>
+                <p><code>VIEW_COST_RATES</code> （コスト率を表示）</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> （請求料金の表示）</p>
+                <p><code>VIEW_BILLING_RATES</code> （請求レートを表示）</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務の表示）</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務を表示）</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> （コスト率の編集）</p>
+                <p><code>EDIT_COST_RATES</code> （コスト率を編集）</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> （請求レートの編集）</p>
+                <p><code>EDIT_BILLING_RATES</code> （請求レートを編集）</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> （財務全般の編集）</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> （一般財務を編集）</p>
               </li>
             </ul>
           </li>
@@ -207,22 +207,22 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
             <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> （原価率の表示）</p>
+                <p><code>VIEW_COST_RATES</code> （コスト率を表示）</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> （請求料金の表示）</p>
+                <p><code>VIEW_BILLING_RATES</code> （請求レートを表示）</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務の表示）</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務を表示）</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> （コスト率の編集）</p>
+                <p><code>EDIT_COST_RATES</code> （コスト率を編集）</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> （請求レートの編集）</p>
+                <p><code>EDIT_BILLING_RATES</code> （請求レートを編集）</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> （財務全般の編集）</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> （一般財務を編集）</p>
               </li>
             </ul>
          </li>
@@ -232,22 +232,22 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
             <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> （原価率の表示）</p>
+                <p><code>VIEW_COST_RATES</code> （コスト率を表示）</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> （請求料金の表示）</p>
+                <p><code>VIEW_BILLING_RATES</code> （請求レートを表示）</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務の表示）</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務を表示）</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> （コスト率の編集）</p>
+                <p><code>EDIT_COST_RATES</code> （コスト率を編集）</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> （請求レートの編集）</p>
+                <p><code>EDIT_BILLING_RATES</code> （請求レートを編集）</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> （財務全般の編集）</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> （一般財務を編集）</p>
               </li>
             </ul>
           </li>
@@ -270,7 +270,7 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
       <td>
         <ul>
           <li>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -297,7 +297,7 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
   </tbody>
 </table>
 
-### 承認待ち（AWAPVL）
+### AwaitingApproval（AWAPVL）
 
 <table>
   <tbody>
@@ -306,7 +306,7 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
       <td>
         <ul>
           <li>
-            <p>次の操作を追加しました。
+            <p>追加された操作は次のとおりです。
             </p>
             <ul>
               <li>
@@ -325,7 +325,7 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
   </tbody>
 </table>
 
-### ベースライン （BLIN）
+### Baseline（BLIN）
 
 ベースラインは、特定の時点でのプロジェクトのパフォーマンスを示すスナップショットです。主要な日付、進捗状況、コスト、売上高など、プロジェクトに関する主要な情報が保存されています。
 
@@ -338,7 +338,7 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
       <td>
         <ul>
           <li>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -365,7 +365,7 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
   </tbody>
 </table>
 
-### ベースライン タスク （BSTSK）
+### BaselineTask（BSTSK）
 
 ベースラインは、特定の時点でのプロジェクトのパフォーマンスを示すスナップショットです。主要な日付、進捗状況、コスト、売上高など、プロジェクトに関する主要な情報が保存されています。ベースラインを作成すると、そのベースラインのベースラインタスクに関するタスク情報も取り込まれます。
 
@@ -378,7 +378,7 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
       <td>
         <ul>
           <li>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -418,12 +418,12 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
       <td>
         <ul>
           <li>
-            <p><b>catObjCode</b>:
+            <p><b>catObjCode</b>：
             </p>
             <p>追加された可能な値は次のとおりです。
             <ul>
               <li>
-                <p><code>NLBRCY</code> （非労務資源の区分）
+                <p><code>NLBRCY</code> （労力以外のリソースカテゴリ）
                 </p>
               </li>
               <li>
@@ -431,19 +431,19 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
                 </p>
               </li>
               <li>
-                <p><code>RTCRD</code> （評価カード）
+                <p><code>RTCRD</code> （レートカード）
                 </p>
               </li>
              </ul>
              </p>
           </li>
           <li>
-            <p><b>objTypes</b>:
+            <p><b>objTypes</b>：
             </p>
             <p>追加された可能な値は次のとおりです。
             <ul>
               <li>
-                <p><code>NLBRCY</code> （非労務資源の区分）
+                <p><code>NLBRCY</code> （労力以外のリソースカテゴリ）
                 </p>
               </li>
               <li>
@@ -451,7 +451,7 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
                 </p>
               </li>
               <li>
-                <p><code>RTCRD</code> （評価カード）
+                <p><code>RTCRD</code> （レートカード）
                 </p>
               </li>
              </ul>
@@ -463,7 +463,7 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
   </tbody>
 </table>
 
-### ドキュメント （DOCU）
+### Document（DOCU）
 
 Document オブジェクトは、ファイル（書かれた資料、画像、その他の形式の情報など）を表します。
 
@@ -476,9 +476,9 @@ Document オブジェクトは、ファイル（書かれた資料、画像、�
       <td>
         <ul>
           <li>
-            <p><b>createLargeDocument</b>:
+            <p><b>createLargeDocument</b>：
             </p>
-            <p>次のパラメーターを追加しました。
+            <p>追加されたパラメーターは次のとおりです。
             <ul>
               <li>
                 <p><code>documentID</code> 
@@ -488,9 +488,9 @@ Document オブジェクトは、ファイル（書かれた資料、画像、�
              </p>
           </li>
           <li>
-            <p><b>moveToFolder</b>:
+            <p><b>moveToFolder</b>：
             </p>
-            <p>追加済み。この新しいアクションでは、次のパラメーターを使用します。
+            <p>追加済み。この新しいアクションは、次のパラメーターを受け取ります。
             <ul>
               <li>
                 <p><code>documentIDs</code>
@@ -513,7 +513,7 @@ Document オブジェクトは、ファイル（書かれた資料、画像、�
   </tbody>
 </table>
 
-### FinancialData （FINDAT）
+### FinancialData（FINDAT）
 
 <table>
   <col/>
@@ -524,7 +524,7 @@ Document オブジェクトは、ファイル（書かれた資料、画像、�
       <td>
         <ul>
           <li>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -553,7 +553,7 @@ Document オブジェクトは、ファイル（書かれた資料、画像、�
       <td>
         <ul>
           <li>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -617,7 +617,7 @@ JournalEntry オブジェクトを設定して、特定のオブジェクトフ�
   </tbody>
 </table>
 
-### OpTask （OPTASK）
+### OpTask（OPTASK）
 
 OpTask オブジェクトは、一般にイシューと呼ばれます。イシューは、通常、タスクまたはプロジェクトを完了できない問題があることを示す作業アイテムです。イシューは、ヘルプデスクへのリクエストである場合もあります。変更指示、リクエスト、バグもイシューです。
 
@@ -630,9 +630,9 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。イシ�
       <td>
         <ul>
           <li>
-            <p><b>convertToProject</b>:
+            <p><b>convertToProject</b>：
             </p>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             <ul>
               <li>
                 <code>copyCategories</code></li><li><code>copyNativeFields</code>
@@ -642,9 +642,9 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。イシ�
              </p>
           </li>
           <li>
-            <p><b>convertToTask</b>:
+            <p><b>convertToTask</b>：
             </p>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             <ul>
               <li>
                 <code>copyCategories</code></li><li><code>copyNativeFields</code>
@@ -672,7 +672,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。イシ�
       <td>
         <ul>
           <li>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -713,7 +713,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。イシ�
 </table>
 
 
-### ProjectUserRole （PTEAM）
+### ProjectUserRole（PTEAM）
 
 <table>
   <tbody>
@@ -722,7 +722,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。イシ�
       <td>
         <ul>
           <li>
-            <p>次のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -739,7 +739,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。イシ�
       <td>
         <ul>
           <li>
-            <p>次のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -772,22 +772,22 @@ QueueDef オブジェクトは、キューを表します。キューは、ユ�
             <p>追加された可能な値は次のとおりです。</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> （原価率の表示）</p>
+                <p><code>VIEW_COST_RATES</code> （コスト率を表示）</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> （請求料金の表示）</p>
+                <p><code>VIEW_BILLING_RATES</code> （請求レートを表示）</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務の表示）</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務を表示）</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> （コスト率の編集）</p>
+                <p><code>EDIT_COST_RATES</code> （コスト率を編集）</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> （請求レートの編集）</p>
+                <p><code>EDIT_BILLING_RATES</code> （請求レートを編集）</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> （財務全般の編集）</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> （一般財務を編集）</p>
               </li>
             </ul>
           </li>
@@ -797,22 +797,22 @@ QueueDef オブジェクトは、キューを表します。キューは、ユ�
             <p>追加された可能な値は次のとおりです。</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> （原価率の表示）</p>
+                <p><code>VIEW_COST_RATES</code> （コスト率を表示）</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> （請求料金の表示）</p>
+                <p><code>VIEW_BILLING_RATES</code> （請求レートを表示）</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務の表示）</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> （一般財務を表示）</p>
               </li>
               <li>
-                <p><code>EDIT_COST_RATES</code> （コスト率の編集）</p>
+                <p><code>EDIT_COST_RATES</code> （コスト率を編集）</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> （請求レートの編集）</p>
+                <p><code>EDIT_BILLING_RATES</code> （請求レートを編集）</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> （財務全般の編集）</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> （一般財務を編集）</p>
               </li>
             </ul>
          </li>
@@ -833,7 +833,7 @@ Rate オブジェクトは、Workfront の請求料金を表します。
       <td>
         <ul>
           <li>
-            <p><b>companyID</b></p><p>次のフラグを追加しました。
+            <p><b>companyID</b></p><p>追加されたフラグは次のとおりです。
             </p>
             <ul>
               <li>
@@ -841,7 +841,7 @@ Rate オブジェクトは、Workfront の請求料金を表します。
                 </p>
               </li>
               <li>
-                <p>動的
+                <p>DYNAMIC
                 </p>
               </li>
              </ul>
@@ -879,7 +879,7 @@ Rate オブジェクトは、Workfront の請求料金を表します。
       <td>
         <ul>
           <li>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -910,7 +910,7 @@ Rate オブジェクトは、Workfront の請求料金を表します。
           <li>
             <p><b>convertToProject</b>
             </p>
-             <p>次のフィールドを追加しました。
+             <p>追加されたフィールドは次のとおりです。
              <ul><li><code>copyCategories</code></li></ul>
             </p>
            </li>
@@ -933,7 +933,7 @@ Rate オブジェクトは、Workfront の請求料金を表します。
       <td>
         <ul>
           <li>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -953,7 +953,7 @@ Rate オブジェクトは、Workfront の請求料金を表します。
 </table>
 
 
-### TemplateTask （TTSK）
+### TemplateTask（TTSK）
 
 TemplateTask オブジェクトは、テンプレートに含まれるタスクを表します。テンプレートタスクは、テンプレートが使用されるプロジェクト内のタスクになります。<table>
 <col/>
@@ -964,7 +964,7 @@ TemplateTask オブジェクトは、テンプレートに含まれるタスク�
       <td>
         <ul>
           <li>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -983,7 +983,7 @@ TemplateTask オブジェクトは、テンプレートに含まれるタスク�
   </tbody>
 </table>
 
-### TemplateUserRole （TTEAM）
+### TemplateUserRole（TTEAM）
 
 <table>
   <tbody>
@@ -992,7 +992,7 @@ TemplateTask オブジェクトは、テンプレートに含まれるタスク�
       <td>
         <ul>
           <li>
-            <p>次のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -1009,7 +1009,7 @@ TemplateTask オブジェクトは、テンプレートに含まれるタスク�
       <td>
         <ul>
           <li>
-            <p>次のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -1035,7 +1035,7 @@ Timesheet オブジェクトは、タスク、プロジェクトおよびオー�
       <td>
         <ul>
           <li>
-            <p>次のフィールドを削除しました。
+            <p>削除されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>
@@ -1099,7 +1099,7 @@ Workfront の作業アイテムを更新して、ユーザーに現在のステ�
   </tbody>
 </table>
 
-### UserPrefValue （USERPF）
+### UserPrefValue（USERPF）
 
 UserPrefValue オブジェクトは、ユーザーの環境設定を表します。
 
@@ -1114,7 +1114,7 @@ UserPrefValue オブジェクトは、ユーザーの環境設定を表します
           <li>
             <p><b>value</b>
             </p>
-            <p>バリデーターを追加しました。 <code>MAX_LENGTH</code></p>
+            <p>バリデーターを追加済み <code>MAX_LENGTH</code></p>
       </td>
     </tr>
   </tbody>
@@ -1133,7 +1133,7 @@ UserPrefValue オブジェクトは、ユーザーの環境設定を表します
       <td>
         <ul>
           <li>
-            <p>以下のフィールドを追加しました。
+            <p>追加されたフィールドは次のとおりです。
             </p>
             <ul>
               <li>

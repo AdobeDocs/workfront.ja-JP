@@ -10,7 +10,7 @@ exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
 source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 95%
    <td>21.2 リリースでサポートを終了しました</td> 
   </tr> 
   <tr> 
-   <td> <p>リソーススケジュール</p> <p>ワークロードバランサーで、リソースをスケジュールする際のエクスペリエンスが向上します。</p> <p>ワークロード・バランサの詳細は、 <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">ワークロードバランサーの概要</a>.</p> </td> 
+   <td> <p>リソーススケジュール</p> <p>ワークロードバランサーで、リソースをスケジュールする際のエクスペリエンスが向上します。</p> <p>ワークロードバランサーについて詳しくは、<a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">ワークロードバランサーの概要</a>を参照してください。</p> </td> 
    <td> </td> 
    <td> <p>2020年11月9日（PT）に（20.4 リリースで）サポートを終了しました</p> <p>--</p> <p>2022 年上半期以降に Workfront プラットフォームから削除されました</p> </td> 
   </tr> 

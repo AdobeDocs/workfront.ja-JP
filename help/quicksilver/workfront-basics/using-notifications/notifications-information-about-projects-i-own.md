@@ -2,20 +2,20 @@
 content-type: reference
 navigation-topic: notifications
 title: 通知：所有するプロジェクトに関する情報
-description: 次の通知は、所有するプロジェクトで行われるアクティビティに関して警告します。受信する通知の設定について詳しくは、「独自の電子メール通知を変更する」を参照してください。
+description: 次の通知は、所有するプロジェクトで行われるアクティビティに関して警告します。受信する通知の設定について詳しくは、自身のメール通知の変更を参照してください。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: cf605849-bcc0-4982-b8fa-f69eef7a4fb6
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '1709'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 通知：所有するプロジェクトに関する情報
 
-次の通知は、所有するプロジェクトで行われるアクティビティに関して警告します。受信する通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+次の通知は、所有するプロジェクトで行われるアクティビティに関して警告します。受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 [イベント通知](../../workfront-basics/using-notifications/event-notifications.md)も参照してください。
 

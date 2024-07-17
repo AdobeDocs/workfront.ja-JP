@@ -19,7 +19,7 @@ ht-degree: 96%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 タスクにユーザーまたはロールを割り当てると、タスクを完了するために一定時間作業するように割り当てられます。タスク期間のタイプが「シンプル」の場合、各ユーザーまたは担当業務がタスクに割り当てられた際に割り当てられる時間数を、手動で変更できます。
 
@@ -36,7 +36,7 @@ ht-degree: 96%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ ht-degree: 96%
    実稼動環境のサンプル画像：
    ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
 
-   <span class="preview">プレビュー環境のサンプル画像：</span>
-   ![割り当てを変更](assets/advanced-assignments-duration-type-allocations.png)
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![ 割り当ての変更 ](assets/advanced-assignments-duration-type-allocations.png)
 
-1. 「**保存**」をクリックします。
+1. **保存**&#x200B;をクリックします。

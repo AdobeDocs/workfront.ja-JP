@@ -9,8 +9,8 @@ feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
 source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
-workflow-type: ht
-source-wordcount: '1953'
+workflow-type: tm+mt
+source-wordcount: '1954'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -85,11 +85,11 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
     <tbody> 
      <tr> 
       <td role="rowheader">承認プロセス名</td> 
-      <td>承認プロセスにわかりやすい名前を入力します。ユーザーがオブジェクトに承認プロセスを適用すると、この名前が表示されます（<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスと作業の関連付け</a>を参照）。</td> 
+      <td>承認プロセスにわかりやすい名前を入力します。ユーザーがオブジェクトに承認プロセスを適用すると、この名前が表示されます（<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスと作業の関連付け</a>参照）。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">説明</td> 
-      <td>承認プロセスの説明を入力します。これは、<b>設定</b>エリアの「<b>承認</b>」セクションの承認プロセス名の横に表示されます。</td> 
+      <td>承認プロセスの説明を入力します。これは、<b>設定</b>エリアの<b>承認</b>セクションの承認プロセス名の横に表示されます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">アクティブ</td> 
@@ -99,9 +99,9 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
       <td role="rowheader">この承認の利用者 </td> 
       <td> <p>特定のグループにのみ属するプロジェクト、タスク、イシュー、テンプレートに対して承認プロセスを使用できるようにするには、グループの名前を入力し始め、表示されたら選択します。</p> 
        <ul> 
-        <li>システム管理者、または承認プロセスへの管理者アクセス権を持っている場合は、名前を入力すると、システム内のすべてのグループが表示されます。<b>すべてのグループ</b>はデフォルトで選択されています。 </li> 
+        <li>システム管理者、または承認プロセスへの管理者アクセス権を持っている場合は、名前を入力すると、システム内のすべてのグループが表示されます。<b>すべてのグループ</b> はデフォルトで選択されています。 </li> 
         <li>承認プロセスへの管理者アクセス権を持たないグループ管理者は、その名前を入力する際に、管理対象のグループに承認プロセスを割り当てることができます。「<b>すべてのグループ</b>」オプションは利用できません。</li> 
-       </ul> <p>このオプションは、1 回限りの承認プロセスには使用できません。</p> <p><b>警告</b>：グループ固有の承認プロセスを変更すると、既に作業項目に関連付けられている既存の承認プロセスが変更される場合があります。これらの変更点について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。</p> <p>グループのページからグループの承認プロセスを一覧表示および管理する方法について詳しくは、<a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">グループレベルの承認プロセス</a>を参照してください。 </p> <p>承認プロセスへの管理者アクセス権について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
+       </ul> <p>このオプションは、1 回限りの承認プロセスには使用できません。</p> <p><b>警告</b>：グループ固有の承認プロセスを変更すると、既に作業アイテムに関連付けられている既存の承認プロセスが変更される場合があります。これらの変更点について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md" class="MCXref xref">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。</p> <p>グループのページからグループの承認プロセスを一覧表示および管理する方法について詳しくは、<a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">グループレベルの承認プロセス</a>を参照してください。 </p> <p>承認プロセスへの管理者アクセス権について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -121,7 +121,7 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
       <li> 次の場合 <b>すべてのグループ</b>を選択した場合、システム全体でロックされたステータスのみを使用できます。<!--Remove "locked" when story about using an unlocked status in approval processes goes to preview-->
       </li> 
       <li> <p>特定のグループを選択した場合、そのグループが使用できるステータスのみが使用可能になります</p> </li> 
-      </ul> <p>承認プロセスとステータスの連携について詳しくは、<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>の記事の<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">承認プロセスがステータスに依存する方法</a>の節を参照してください。</p> </td> 
+      </ul> <p>承認プロセスとステータスの連携について詳しくは、<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md" class="MCXref xref">承認プロセスの概要</a>記事の<a href="../../../review-and-approve-work/manage-approvals/approval-process-in-workfront.md#how2" class="MCXref xref">承認プロセスがステータスに依存する仕組み</a>の節を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ステージ名</td> 
@@ -168,7 +168,7 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
      <tr> 
       <td role="rowheader"> 承認が却下されたときのアクションを選択します</td> 
       <td> <p>パスの任意のステージで作業項目が却下された場合に実行するアクションを選択します。</p> 
-      <ul> <li><strong>イシューの作成</strong>：（プロジェクトおよびタスクの承認プロセスでのみ使用可能）承認プロセスが実行されているプロジェクトまたはタスクにイシューが作成されます。タスクに割り当てられたデフォルトのリソース、またはプロジェクトの所有者がイシューに割り当てられます。デフォルトでは、作成されるイシューの名前は「<strong>承認却下（プロジェクトまたはタスク名）</strong>」となります。却下が発生した承認プロセスに応じて、タスクまたはプロジェクトの下に入力される拒否イシューです。</li> 
+      <ul> <li><strong>イシューを作成</strong>：（プロジェクトおよびタスクの承認プロセスでのみ使用可能）承認プロセスが実行されているプロジェクトまたはタスクにイシューが作成されます。タスクに割り当てられたデフォルトのリソース、またはプロジェクトの所有者がイシューに割り当てられます。デフォルトでは、作成されるイシューの名前は「<strong>承認却下（プロジェクトまたはタスク名）</strong>」となります。却下が発生した承認プロセスに応じて、タスクまたはプロジェクトの下に入力される拒否イシューです。</li> 
       <li> <p><strong>ステータスを次の値に設定</strong>：次のいずれかを選択します。</p> 
       <ul> <li><strong>前のステータス</strong>：却下されたプロジェクト、タスクまたはイシューは、承認プロセスを有効化するステータスの前のステータスに戻ります。</li> 
       <li> <p><strong>リスト内のその他のステータス</strong>：却下されたオブジェクトは、「保留中」など、選択したステータスに移動します。Workfront システムに追加したデフォルトのステータスまたはカスタムステータスの 1 つを選択できます。</p> <p>承認パスの却下ステータスとして、承認プロセスに関連付けられたステータスを選択すると、却下されたオブジェクトは選択したステータスに移動し、「承認待ち」としてマークされます。</p>
@@ -186,5 +186,5 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
 1. （オプション）次のいずれかの操作を行います。
 
    * [新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)で説明されているように、承認プロセスを、システム全体の特定のプロジェクト、タスクまたはイシューに関連付けます。
-   * Workfront 以外では、[新規または既存の承認プロセスを作業と関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)で説明されているように、承認プロセスをプロジェクト、タスク、またはイシューと関連付けることができることをユーザーに通知します。
+   * Workfront 以外では、承認プロセスとプロジェクト、タスクまたはイシューに関連付けられることをユーザーに通知します。詳しくは、[新規または既存の承認プロセスと作業の関連付け](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)を参照してください。
    * この承認プロセスが却下され、項目が別のステータスになった場合、トリガーされる別の承認プロセスを作成します。これにより、承認プロセスを相互にリンクすることができます。

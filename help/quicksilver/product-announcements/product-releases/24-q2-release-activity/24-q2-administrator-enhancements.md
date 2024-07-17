@@ -16,7 +16,7 @@ ht-degree: 100%
 
 このページでは、プレビュー環境の 2024年第 2 四半期リリースで行われた管理者の機能強化について説明します。これらの機能強化は、前述のように本番環境で利用できるようになります。
 
-2024年第 2 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。
+2024年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)を参照してください。
 
 ## 表示ロジックとスキップロジックが、フォームデザイナーのプレビューモードで使用可能
 

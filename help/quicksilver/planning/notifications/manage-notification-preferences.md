@@ -22,7 +22,7 @@ ht-degree: 25%
 >
 >Workfront Planning から通知を受け取るには、会社がAdobeの Unified Experience の顧客である必要があります。
 >
->詳しくは、を参照してください [WorkfrontのAdobe統合エクスペリエンス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
 ## アクセス要件
 
@@ -40,7 +40,7 @@ ht-degree: 25%
    <p> 製品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Workfront Planning からアプリ内通知を受け取り、通知環境設定を管理するには、Adobeの Unified Experience に組織のWorkfront インスタンスをオンボーディングする必要があります。 詳しくは、を参照してください <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス</a>.</p>
+   <p>Workfront Planning からアプリ内通知を受け取り、通知環境設定を管理するには、Adobeの Unified Experience に組織のWorkfront インスタンスをオンボーディングする必要があります。 詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス </a> を参照してください。</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 契約</p></td>
@@ -84,15 +84,15 @@ ht-degree: 25%
 ## 通知設定の管理
 
 1. Adobe Experience Cloudの資格情報を使用してWorkfrontにログインします。
-1. 「」をクリックします **アカウントメニュー** アイコン ![](assets/account-menu-icon-on-experience-cloud.png) 画面の右上にあるをクリックします。 **環境設定**.
-1. の下 **通知** セクションで、をクリック **Workfront**を開き、次の記事の手順に従ってWorkfront Planning の通知設定を管理します。
-   [アカウントの環境設定と通知](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+1. 画面の右上に ![](assets/account-menu-icon-on-experience-cloud.png) る **アカウントメニュー** アイコンをクリックしてから、**環境設定** をクリックします。
+1. 「**通知**」セクションで、**Workfront** をクリックし、次の記事の手順に従ってWorkfront Planning の通知設定を管理します。
+   [ アカウントの環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
 
 Workfrontの計画通知の詳細については、次の記事も参照してください。
 
-* レコードのコメントについては、を参照してください [レコードのコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md).
-* Workfront Planning からのアプリ内通知については、次を参照してください： [Adobe Workfront Planning のアプリ内通知の管理](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* Workfront Planning からの電子メール通知の詳細は、 [Adobe Workfront Planning のメール通知の管理](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md).
+* レコードのコメントの詳細については、「[ レコードのコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md)」を参照してください。
+* Adobe Workfront Planning からのアプリ内通知について詳しくは、[Workfront Planning のアプリ内通知の管理 ](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md) を参照してください。
+* Adobe Workfront Planning からのメール通知については、[Workfront Planning のメール通知の管理 ](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md) を参照してください。
 
 
 

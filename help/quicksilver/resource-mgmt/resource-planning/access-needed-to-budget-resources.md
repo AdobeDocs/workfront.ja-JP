@@ -8,7 +8,7 @@ author: Alina
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
 source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ Workfront の予算計上ツールを使用するための前提条件につい�
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

@@ -6,8 +6,8 @@ author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
-workflow-type: ht
-source-wordcount: '1934'
+workflow-type: tm+mt
+source-wordcount: '1933'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -207,9 +207,9 @@ ht-degree: 100%
 請求記録に固定収益を追加するには、次の手順に従います。
 
 1. 請求記録を含むプロジェクトに移動します。
-1. 左側のパネルで「**請求記録**」をクリックします。
+1. 左側のパネルにある「**請求記録**」をクリックします。
 
-   「**さらに表示**」、次に「**請求記録**」をクリックする必要がある場合があります。
+   「**さらに表示**」、「**請求記録**」の順にクリックする必要が生じることがあります。
 
 1. 請求記録の「**説明**」をクリックして、「**請求記録の詳細**」タブを開きます。
 

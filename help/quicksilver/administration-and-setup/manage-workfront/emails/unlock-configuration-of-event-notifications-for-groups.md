@@ -11,7 +11,7 @@ exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
 source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Workfront の管理者は、管理するトップレベルのグループ�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -63,11 +63,11 @@ Adobe Workfront の管理者は、管理するトップレベルのグループ�
 1. **メール**／**通知**&#x200B;をクリックします。
 
 1. 「**イベント通知**」タブが開くことを確認します。
-1. 通知の右側のアイコンをクリックすると、ロックされたに切り替わります ![ロックアイコン](assets/lock-toggle-button.png) またはロック解除済み ![ロック解除アイコン](assets/unlock-toggle-button.png) 位置。
+1. 通知の右側にあるアイコンをクリックして、ロック ![ロックアイコン](assets/lock-toggle-button.png) またはロックが解除 ![ロック解除アイコン](assets/unlock-toggle-button.png) の位置に切り替えます。
 
    または
 
-   複数の通知を一度にロックまたはロック解除する場合は、通知を選択し、「ロック解除」 ![ロック解除アイコン](assets/unlock-icon-toolbar.png) またはロック ![ロックアイコン](assets/lock-icon-locked-qs.png) ボタンをクリックします。
+   複数の通知を一度にロック解除またはロックしたい場合は、通知を選択し、リストの上のツールバーに表示されるロック解除 ![ロック解除アイコン](assets/unlock-icon-toolbar.png) またはロック ![ロックアイコン](assets/lock-icon-locked-qs.png) のボタンをクリックします。
 
 1. 「**保存**」をクリックします。
 1. （オプション）このタスクをグループの管理者に任せる代わりに、トップレベルのグループに対するイベント通知を設定する場合は、次のいずれかの操作を実行できます。

@@ -17,7 +17,7 @@ ht-degree: 100%
 
 イシューの優先度を定義して、イシューの重要度を示すことができます。
 
-イシューの優先度を変更するには、イシューに対する管理権限が必要です。 [イシューの優先度を更新](#update-the-priority-of-an-issue)。
+イシューの優先度を変更するには、イシューに対する管理権限が必要です。[イシューの優先度を更新](#update-the-priority-of-an-issue)。
 
 ## アクセス要件
 
@@ -32,7 +32,7 @@ ht-degree: 100%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 

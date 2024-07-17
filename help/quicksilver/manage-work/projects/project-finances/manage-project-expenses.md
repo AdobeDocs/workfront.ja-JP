@@ -9,7 +9,7 @@ exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
 source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
 source-wordcount: '579'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 97%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>ワークまたはそれ以上 </p> </td> 
   </tr> 
   <tr> 
@@ -42,7 +42,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>財務を表示または管理する権限を持つプロジェクトに対する権限を付与する</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトに対する参加以上の権限と財務情報を表示または管理する権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>

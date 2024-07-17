@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
 source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 

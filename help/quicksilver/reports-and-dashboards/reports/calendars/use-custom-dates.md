@@ -9,7 +9,7 @@ exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
 source-git-commit: 880e82546ac0ca80be60f03db31b99ad1778c35a
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -101,7 +101,7 @@ ht-degree: 97%
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Custom Dates]</strong></td>
-      <td><p>追跡するオブジェクトに添付するカスタム日付名を入力します。</p><p><strong>注意：</strong> パフォーマンスの問題を回避するため、カスタム日付名の検索結果は 50 件に制限されています。</td>
+      <td><p>追跡するオブジェクトに添付するカスタム日付名を入力します。</p><p><strong>メモ：</strong>パフォーマンスの問題を避けるため、カスタム日付名の検索は 50 件の結果に制限されています。</td>
      </tr>
     </tbody>
    </table>

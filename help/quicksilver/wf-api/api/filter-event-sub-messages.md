@@ -11,7 +11,7 @@ exl-id: 8364c4b9-5604-47ab-8b4b-db6836dcd8ca
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ Java での次の例は、[ProjectGroupFiltering.java:](https://github.com/Workf
    }
    ```
 
-2. handleRequest メソッドの呼び出し時に、リソースの更新済み状態を表すイベント購読メッセージの「newState」属性を取得します。
+2. handleRequest メソッドを呼び出す時に、イベント登録メッセージの「newState」属性を取得します。この属性は、リソースの更新済み状態を表します。
 
    ```
    public String handleRequest(Map<String, Object> webHookPayload, Context context) 
@@ -63,7 +63,7 @@ Java での次の例は、[ProjectGroupFiltering.java:](https://github.com/Workf
 
    newState 形式について詳しくは、[イベント登録用のアウトバウンドメッセージ形式](../../wf-api/api/message-format-event-subs.md)を参照してください。
 
-3. メッセージから「newState」マップを解析した後、オブジェクトのグループ ID が手順 1 で識別したグループ ID と一致していることを確認します。
+3. メッセージから「newState」マップを解析した後、オブジェクトのグループ ID が手順 1 で特定したグループ ID と一致していることを確認します。
 
 4. （条件付き）ID が一致&#x200B;**しない**&#x200B;場合は、空の応答が返されるようにメッセージをドロップします。
 
@@ -140,7 +140,7 @@ Python での次の例は、[projectGroupFiltering.py:](https://github.com/Workf
    event_subscription_message = json.loads(event['body'])
    ```
 
-1. イベント購読メッセージの「newState」属性を取得します。\
+1. イベント登録メッセージの「newState」属性を取得します。\
    newState 属性は、リソースの更新済み状態を表します。
 
    ```
@@ -149,7 +149,7 @@ Python での次の例は、[projectGroupFiltering.py:](https://github.com/Workf
 
    newState 形式について詳しくは、[イベント登録用のアウトバウンドメッセージ形式](../../wf-api/api/message-format-event-subs.md)を参照してください。
 
-1. メッセージから「newState」マップを解析した後、オブジェクトのグループ ID が手順 1 で識別したグループ ID と一致していることを確認します。
+1. メッセージから「newState」マップを解析した後、オブジェクトのグループ ID が手順 1 で特定したグループ ID と一致していることを確認します。
 
 1. （条件付き）ID が一致しない場合、空の応答が返されるようにメッセージをドロップします。
 
@@ -212,7 +212,7 @@ Node.js の次の例は、[projectGroupFiltering.js:](https://github.com/Workfro
    let eventSubscriptionMessage = JSON.parse(event.body);
    ```
 
-3. イベント購読メッセージの「newState」属性から projectGroupID を取得し、手順 1 で識別したグループのグループ ID と照合します。
+3. イベント登録メッセージの「newState」属性から projectGroupID を取得し、手順 1 で特定したグループのグループ ID と照合します。
 
    ```
    let projectGroupId = eventSubscriptionMessage.newState.groupID; 

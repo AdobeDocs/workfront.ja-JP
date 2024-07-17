@@ -3,20 +3,20 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 複数選択カスタムフィールドでレポートのグループ化
-description: Adobe Workfrontレポートの複数選択カスタムフィールドの値でグループ化できるのは、テキストモードを使用する場合のみです。
+description: Adobe Workfront レポートの複数選択カスタムフィールドにおいて値でグループ化できるのは、テキストモードを使用した場合のみです。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
 source-git-commit: b0447fd2ea9419fabcc21a1131910485c18b75d0
 workflow-type: tm+mt
 source-wordcount: '543'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
 # 複数選択カスタムフィールドでレポートのグループ化
 
-Adobe Workfrontレポートの複数選択カスタムフィールドの値でグループ化できるのは、テキストモードを使用する場合のみです。
+Adobe Workfront レポートの複数選択カスタムフィールドにおいて値でグループ化できるのは、テキストモードを使用した場合のみです。
 
 複数選択カスタムフィールドの例は、次のとおりです。
 
@@ -25,14 +25,14 @@ Adobe Workfrontレポートの複数選択カスタムフィールドの値で�
 
 テキストモードの使用について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)の記事を参照してください。
 
-## 複数選択のカスタムフィールドでグループ化する場合の考慮事項
+## 複数選択カスタムフィールドでグループ化する際の考慮事項
 
-* テキストモードのグループ化を使用するレポートのグラフを作成することはできません。 複数選択カスタムフィールドを参照する追加の計算フィールドを作成して、複数選択カスタムフィールドの値を基準にしたレポートのグラフを表示する必要があります。
+* テキストモードのグループ化を使用するレポートのグラフを作成することはできません。複数選択カスタムフィールドを参照する追加の計算フィールドを作成して、複数選択カスタムフィールドの値を基準にしたレポートのグラフを表示する必要があります。
 
   詳しくは、[複数選択できるカスタムフィールドでのレポートのグラフ化](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)を参照してください。
-* 選択したいずれかの選択肢を持つ項目は、1 回だけカウントされます。
+* いずれかの選択肢が選択された項目は、1 回だけカウントされます。
 
-  たとえば、選択肢 1 と選択肢 2 をオプションとして持つチェックボックスカスタムフィールドがあり、フォームをタスクに添付する場合、選択肢 1 と選択肢 2 の両方を選択したタスクは、選択肢 1 と選択肢 2 のみを選択したタスクとは別にグループ化されます。
+  たとえば、あるチェックボックスカスタムフィールドにオプションとして選択肢 1 と選択肢 2 があり、そのフォームをタスクに添付すると、選択肢 1 と選択肢 2 の両方を持つタスクは、選択肢 1 または選択肢 2 のいずれかのみが選択されたタスクとは別にグループ化されます。
 
 
 ## アクセス要件
@@ -48,7 +48,7 @@ Adobe Workfrontレポートの複数選択カスタムフィールドの値で�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>グループ化を変更するためのリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
@@ -88,7 +88,10 @@ Adobe Workfrontレポートの複数選択カスタムフィールドの値で�
 1. 「**レポートのグループ化**」ボックスでテキストを選択して、次のコードに置き換えます。
 
    <pre>
-   group.0.displayname=Multi-select Custom Field Name group.0.valueexpression={DE:Multi-select Custom Field Name} group.0.valueformat=group.0.textmode=true
+   group.0.displayname=Multi-select Custom Field Name
+ group.0.valueexpression={DE:Multi-select Custom Field Name}
+  group.0.valueformat=HTML
+  group.0.textmode=true
    </pre>
 
 1. 「複数選択カスタムフィールド名」を、Workfront に表示される複数選択カスタムフィールドの実際の名前に置き換えます。

@@ -9,7 +9,7 @@ exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
 source-git-commit: 886b5d9084cb1bfb63157152f05fa20128d34903
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 90%
+ht-degree: 92%
 
 ---
 
@@ -55,12 +55,12 @@ ht-degree: 90%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>新規：イシューとドキュメントにはコントリビューター以上、その他のすべてのオブジェクトにはライト以上</p>
    <p>現在：イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
    <td> <p>返信を投稿するオブジェクトへの表示以上のアクセス</p> </td> 
   </tr> 
   <tr> 
@@ -70,7 +70,7 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、を参照してください [Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## メール通知から更新に返信
 

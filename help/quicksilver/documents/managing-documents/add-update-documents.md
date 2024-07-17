@@ -17,7 +17,7 @@ ht-degree: 98%
 
 <!--Audited: April, 2024-->
 
-ドキュメントの更新を追加したり、ドキュメントに返信したりして、共同作業者とやり取りし、監査証跡を作成できます。作業アイテムへの更新の追加について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+ドキュメントの更新を追加したり、ドキュメントに返信したりして、共同作業者とやり取りし、監査証跡を作成できます。作業アイテムへの更新の追加については、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 ## アクセス要件
 
@@ -33,12 +33,12 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>新規：コントリビューター以上</p> 
-   <p>現在：リクエスト以上</p>
+   <td> <p>新規：Contributor 以上</p> 
+   <p>現在：Request 以上</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベルの設定</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>ドキュメントへのアクセスを表示</p> </td> 
   </tr>
 
@@ -49,7 +49,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## ドキュメントの更新を追加または返信
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 1. 必要なドキュメントを検索し、次のいずれかの操作を行います。
 
    * リスト内のドキュメントをクリックし、右上隅にある&#x200B;**概要を開く**&#x200B;アイコン ![](assets/qs-summary-in-new-toolbar-small.png) をクリックし、新しいコメントを追加するか、「**返信**」をクリックして既存のコメントに返信を追加します。概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
-   * ドキュメントの上にポインタを合わせて、「**ドキュメントの詳細**」をクリックし、左パネルの「**更新**」をクリックします。
+   * ドキュメントの上にマウスポインタを合わせて、**ドキュメントの詳細**&#x200B;をクリックし、左パネルの「**更新**」をクリックします。
 オブジェクトへの更新の追加について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
    更新と返信は、ドキュメントに追加され、上位のオブジェクトにも追加されます。詳しくは、[セクションの更新の概要](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)を参照してください。

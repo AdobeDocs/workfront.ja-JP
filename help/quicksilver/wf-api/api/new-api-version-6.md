@@ -10,7 +10,7 @@ exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -66,9 +66,9 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値の変更
+<sup>1</sup> 可能な値に変更
 
-<sup>2</sup> hasFilters 属性が true に変更されました
+<sup>2</sup> hasFilters 属性を true に変更
 
  
 
@@ -84,9 +84,9 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 追加された日付の検証
+<sup>1</sup> 日付の検証を追加
 
-<sup>2</sup> NOT_FILTERABLE フラグが追加されました
+<sup>2</sup> NOT_FILTERABLE フラグを追加
 
  
 
@@ -110,7 +110,7 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値の変更
+<sup>1</sup> 可能な値に変更
 
  
 
@@ -127,13 +127,13 @@ ht-degree: 66%
 | isPrivate |   |   |   |   |   | 検索 |
 | lastUpdateDate |   |   |   |   |   |   |
 | lastUpdateByID |   |   |   |   |   |   |
-| 名前<sup>2</sup> |   |   |   |   |   |   |
+| name<sup>2</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> レポート可能に変更済み
+<sup>1</sup> レポート可能に変更
 
-<sup>2</sup> 最大長バリデーターの追加
+<sup>2</sup> 最大長バリデーターを追加
 
  
 
@@ -146,9 +146,9 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 追加された日付の検証
+<sup>1</sup> 日付の検証を追加
 
-<sup>2</sup> Not_Filterable フラグが追加されました
+<sup>2</sup> Not_Filterable フラグを追加
 
  
 
@@ -172,7 +172,7 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Not_Filterable フラグが追加されました
+<sup>1</sup> Not_Filterable フラグを追加
 
  
 
@@ -184,7 +184,7 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Not_Filterable フラグが追加されました
+<sup>1</sup> Not_Filterable フラグを追加
 
  
 
@@ -196,7 +196,7 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> NO_TIME フィールドフラグを追加しました。
+<sup>1</sup> NO_TIME フィールドフラグを追加
 
 ### バーンダウンイベント
 
@@ -236,7 +236,7 @@ ht-degree: 66%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| `checkedOutByID` | `checkedOutBy`  |   |  isDir |   |   |   |
+| `checkedOutByID` | `checkedOutBy`  |   | isDir |   |   |   |
 | `isDir`  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -247,11 +247,11 @@ ht-degree: 66%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| 評価<sup>1</sup> |   |   |   |   |   |   |
+| rate<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> PRECISION バリデータを 8 から 9 に変更しました。
+<sup>1</sup> PRECISION バリデーターを 8 から 9 に変更
 
  
 
@@ -273,11 +273,11 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値の変更
+<sup>1</sup> 可能な値に変更
 
  
 
-### 商談（問題）<sup>1</sup> 
+### Optask (イシュー)<sup>1</sup> 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
@@ -285,17 +285,17 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 復元可能フラグ付き
+<sup>1</sup> RESTORABLE としてフラグ付け
 
-<sup>2</sup> Not_Filterable フラグが追加されました
+<sup>2</sup> Not_Filterable フラグを追加
 
  
 
-### プロジェクト<sup>1</sup> 
+### Project<sup>1</sup> 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| completedHours |   | `openOpTasks` |  openOpTasks |   |   |   |
+| completedHours |   | `openOpTasks` | openOpTasks |   |   |   |
 | isOriginalPlannedHoursSet |   | resourceManagers | resourceManagerIDs  |   |   |   |
 | originalWorkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
@@ -306,11 +306,11 @@ ht-degree: 66%
 
 <sup>1</sup> RESTORABLE および RESOURCE_MANABLE としてフラグ付け
 
-<sup>2</sup> Not_Filterable フラグが追加されました
+<sup>2</sup> Not_Filterable フラグを追加
 
  
 
-### タスク<sup>1</sup>
+### Task<sup>1</sup>
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
@@ -319,11 +319,11 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 復元可能フラグ付き
+<sup>1</sup> RESTORABLE としてフラグ付け
 
-<sup>2</sup> AT_DATE_YEAR_BEFORE バリデーターが追加されました。
+<sup>2</sup> AT_DATE_YEAR_BEFORE バリデーターを追加
 
-<sup>3</sup> Not_Filterable フラグが追加されました
+<sup>3</sup> Not_Filterable フラグを追加
 
  
 
@@ -331,14 +331,14 @@ ht-degree: 66%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| `myWorkViewID` |  `myWorkView` |   |   |   |   |   |
+| `myWorkViewID` | `myWorkView` |   |   |   |   |   |
 | `requestsViewID`  | `myRequestsView`  |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
  
 
-### テンプレート<sup>1</sup> 
+### Template<sup>1</sup> 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
@@ -346,9 +346,9 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> RESTORABLE および RESOURCE_MANABLE としてフラグ付け
+<sup>1</sup> RESTORABLE および RESOURCE_MANAGEABLE としてフラグ付け
 
-### テンプレートタスク<sup>1</sup> 
+### Template Task<sup>1</sup> 
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
@@ -356,9 +356,9 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 復元可能フラグ付き
+<sup>1</sup> RESTORABLE としてフラグ付け
 
-<sup>2</sup> Not_Filterable フラグが追加されました
+<sup>2</sup> Not_Filterable フラグを追加
 
  
 
@@ -370,7 +370,7 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> MAX_LENGTH 違反者
+<sup>1</sup> MAX_LENGTH バイオレーター
 
  
 
@@ -382,9 +382,9 @@ ht-degree: 66%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値が変更されました
+<sup>1</sup> 可能な値を変更
 
-<sup>2</sup> には次のフィルターが変更されました： `[true]`
+<sup>2</sup> フィルターを `[true]` に変更
 
  
 

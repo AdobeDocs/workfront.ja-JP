@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
 source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '536'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ ht-degree: 100%
    >
    >   
    >   
-   >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 

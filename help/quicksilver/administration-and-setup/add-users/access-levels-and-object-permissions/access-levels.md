@@ -12,7 +12,7 @@ exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
 source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
 workflow-type: tm+mt
 source-wordcount: '162'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
 * アクセスレベルの作成方法について詳しくは、[Adobe Workfront へのアクセスの設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)を参照してください。
 * ユーザーがオブジェクトを相互に共有する方法、およびこれらのオブジェクトに対する表示と編集権限を付与する方法について詳しくは、[オブジェクトに対する権限の付与とリクエスト](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)を参照してください。
-* ドキュメント記事の「アクセス要件」テーブルについて詳しくは、 [アクセスレベルの要件 ( Workfrontドキュメント )](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+* アクセス要件の表について詳しくは、[Workfront ドキュメントのアクセスレベルの要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)の記事を参照してください。

@@ -7,8 +7,8 @@ author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
 source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
-workflow-type: ht
-source-wordcount: '483'
+workflow-type: tm+mt
+source-wordcount: '479'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ポートフォリオへの [!UICONTROL View] アクセス権以上</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオへの [!UICONTROL View] アクセス権以上</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 

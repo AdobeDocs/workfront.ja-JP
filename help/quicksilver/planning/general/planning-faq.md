@@ -20,7 +20,7 @@ ht-degree: 2%
 
 この記事では、Adobe Workfrontの計画に関してよく寄せられる質問のリストを示します。
 
-Workfrontの計画について詳しくは、を参照してください。 [Adobe Workfront計画の概要](/help/quicksilver/planning/general/planning-overview.md).
+Workfront計画の詳細については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 ## Workfrontの計画
 
@@ -32,13 +32,13 @@ Workfront計画モジュールは、レコードのマーケティングシス�
 
 * **計画**:Workfront Planning に含まれる新しい高度な機能。
 
-* **ワークフロー**:Workfrontで現在使用している共同作業管理機能（プロジェクト管理、リソース管理など）
+* **ワークフロー**：現在Workfrontで使用している共同作業管理機能（プロジェクト管理、リソース管理など）
 
 * **自動化と統合**:Workfront Fusion を活用した包括的な統合および自動化機能。
 
 ## Workfront Planning はいつリリースされますか？
 
-最新のWorkfront計画リリースの一般公開は 2024 年 8 月 28 日（PT）に予定されています。 現在リリースされている機能の最新情報については、を参照してください。 [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md).
+最新のWorkfront計画リリースの一般公開は 2024 年 8 月 28 日（PT）に予定されています。 現在リリースされている機能の最新情報については、[Adobe Workfront Planning の現在のリリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
 
 ## Workfront Planning の初期段階が終了した後はどうなりますか？
 
@@ -68,7 +68,7 @@ Workfront Planning のベータ版および初期段階フェーズに参加し�
 
 ## 1 つの組織で許可されるワークスペースの数にソフトリミットまたはハードリミットはありますか？
 
-組織のWorkfront インスタンスには、最大 1,000 個のワークスペースを含めることができます。 制限の詳細については、を参照してください [Adobe Workfront計画の概要](/help/quicksilver/planning/general/planning-overview.md).
+組織のWorkfront インスタンスには、最大 1,000 個のワークスペースを含めることができます。 制限について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 ## Workfrontシステム内の現在のオブジェクトを Planning で使用できますか。それとも、手動で構築する必要がありますか。
 
@@ -125,7 +125,7 @@ Workfront Planning ユーザーはWorkfrontユーザーです。
 
 ## Planning モデルとレコード・タイプで ERD を文書化して共有できますか。
 
-現時点では ERD はありませんが、Workfrontの計画に関するすべての詳細を説明する詳細なドキュメントが用意されています。 詳しくは、を参照してください [Adobe Workfront計画：記事索引](/help/quicksilver/planning/planning-information.md).
+現時点では ERD はありませんが、Workfrontの計画に関するすべての詳細を説明する詳細なドキュメントが用意されています。 詳しくは、[Adobe Workfront計画：記事インデックス ](/help/quicksilver/planning/planning-information.md) を参照してください。
 
 ## Workfront Planning の価格はどのように構成されますか。1 回限りの年会費ですか。 それとも、ユーザーごとに課金されますか？
 
@@ -145,7 +145,7 @@ AI アシスタントは現在ベータ版で利用でき、アカウントマ�
 
 ## API を使用して計画データを取り込むこともできますか？
 
-はい。既に利用可能な Planning API と Fusion コネクタがあります。 詳しくは、を参照してください [Adobe Workfront Planning モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Workfront Planning API のドキュメントは、近日中に利用できるようになります。
+はい。既に利用可能な Planning API と Fusion コネクタがあります。 詳しくは、[Adobe Workfront Planning モジュール ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) を参照してください。 Workfront Planning API のドキュメントは、近日中に利用できるようになります。
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -187,7 +187,7 @@ Public views that are shared are visible  -->
 
 ## ベースの権限以外にも権限をカスタマイズできますか？ 現在、他のWorkfront オブジェクトを使用すると、Contribute/管理/表示権限で実行できる操作をカスタマイズできます。
 
-現時点ではできません。 各権限の権限について詳しくは、を参照してください。 [Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+現時点ではできません。 各権限の権限について詳しくは、[Adobe Workfront Planning での権限の共有の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。
 
 現在、ワークスペースおよび表示レベルの権限のみを持っていますが、レコードタイプまたは個々のレコードレベルの権限は持っていません。 レコードタイプとレコードは、属するワークスペースから権限を継承します。
 
@@ -197,4 +197,4 @@ Public views that are shared are visible  -->
 
 ## Adobeの DAM ではなく独自の DAM を使用するためのカスタマイズ可能な API はありますか？
 
-既に利用可能な Planning API と Fusion コネクタがあります。 詳しくは、を参照してください [Adobe Workfront Planning モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Workfront Planning API のドキュメントは、近日中に利用できるようになります。 API を使用してカスタム統合を作成できます。
+既に利用可能な Planning API と Fusion コネクタがあります。 詳しくは、[Adobe Workfront Planning モジュール ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) を参照してください。 Workfront Planning API のドキュメントは、近日中に利用できるようになります。 API を使用してカスタム統合を作成できます。

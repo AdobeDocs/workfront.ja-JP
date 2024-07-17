@@ -9,7 +9,7 @@ exl-id: a84d88ac-8dd4-4952-b83f-02fafa61e68b
 source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '720'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -40,14 +40,14 @@ ht-degree: 81%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規：標準 </p><p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
    <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 </p> </td>
+それでもアクセスできない場合は、アクセス レベルにその他の制限が設定されていないか Workfront 管理者にお問い合わせください。 </p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -56,7 +56,7 @@ ht-degree: 81%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 アクセス要件について詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。アクセス要件について詳しくは、[Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 先行タスクを作成
 
@@ -72,19 +72,19 @@ ht-degree: 81%
 
    >[!TIP]
    >
-   >プロジェクト間の先行タスクを追加するには、次の手順を実行します。
+   >プロジェクト間先行タスクを追加するには、次の手順を実行します。
    >
-   >1. 次をクリック： **プランモード** アイコンと選択 **自動保存**.
+   >1. **プランモード**&#x200B;アイコンをクリックし、「**自動保存**」を選択します。
    >
-   >1. 先行タスクのプロジェクトの参照番号をコロンとタスクの番号の後に入力します。 例えば、「765021:12」と入力します。 これは、先行プロジェクトの [ 参照番号 ] が765021で、先行プロジェクトの [ タスク番号 12] であることを示します。
+   >1. 先行タスクのプロジェクトの参照番号に続けてコロンとタスクの番号を入力します。例えば、「765021:12」と入力します。これは、先行タスクのプロジェクトの参照番号が 765021 で、プロジェクトにおける先行タスクのタスク番号が 12 であることを示します。
    >
-   >1. この先行タスクの依存タイプを追加します。 詳しくは[プロジェクト間の先行タスクを作成](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)を参照してください。
+   >1. この先行タスクの依存関係タイプを追加します。詳しくは[プロジェクト間の先行タスクを作成](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)を参照してください。
    >
    >**Enter** キーを押します。
    >
    >**重要**
    >
-   >タスクリストが手動保存モードで表示されている場合は、プロジェクト間の先行タスクを追加できません。
+   >タスクリストが手動保存モードで表示されている場合は、プロジェクト間先行タスクを追加できません。
 
    先行タスクが完了とマークされると、先行タスクのアイコンが緑色に変わります。これは、依存タスクの作業準備ができたことを示します。
 

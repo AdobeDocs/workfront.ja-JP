@@ -75,7 +75,7 @@ ht-degree: 98%
 
    リスト内の項目を選択した場合に実行できる操作について詳しくは、次の記事を参照してください。
 
-   * [カスタムフィールド、セクション区切りまたはウィジェットを追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [ カスタムフィールド、セクション区切りまたはウィジェットの追加または編集 ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [カスタムフィールドとウィジェットの共有を設定](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
    * [システムからカスタムフィールドまたはウィジェットを削除](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 

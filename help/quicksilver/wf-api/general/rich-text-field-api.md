@@ -10,7 +10,7 @@ exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '761'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -93,7 +93,7 @@ Adobe Workfront の一部のオブジェクトでは、リッチテキスト形�
 
 Workfront API を使用してリッチテキストフィールドの次の値を保存するには：
 <pre>
-        こんにちは <strong>World</strong>!!!
+        Hello <strong>World</strong>!!!
         This is my first <strong>Rich Text</strong></pre>
 
 1. 取り込もうとするリッチテキストフィールドの値を表す JSON を作成するには、各テキスト行を配列 **blocks** 内のブロック要素に編成します。

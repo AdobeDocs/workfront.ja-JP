@@ -6,7 +6,8 @@ description: キャンバスダッシュボード記事のインデックスの�
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '37'
 ht-degree: 16%

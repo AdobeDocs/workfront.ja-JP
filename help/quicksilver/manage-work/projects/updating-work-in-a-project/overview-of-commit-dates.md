@@ -20,7 +20,7 @@ ht-degree: 81%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 コミット日は、タスクまたはイシューに割り当てられたユーザーがタスクまたはイシューを完了するのにコミットする日付です。
 
@@ -59,8 +59,8 @@ ht-degree: 81%
 Workfrontの次の領域で、タスクと問題のコミット日を確認できます。
 
 * 詳細ページ
-* Workfront管理者またはグループ管理者がレイアウトテンプレートに概要パネルを追加した後。 詳しくは、を参照してください [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の、タスクまたはイシューのヘッダー。 詳しくは、を参照してください [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* Workfront管理者またはグループ管理者がレイアウトテンプレートに概要パネルを追加した後。 詳しくは [ レイアウトテンプレートを使用したホームと概要のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
+* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後のタスクまたはイシューのヘッダー。 詳しくは、[ レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md) を参照してください。</span>
 
 ## コミット日の変更によってトリガーされる通知と更新 {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -90,9 +90,9 @@ Workfrontの次の領域で、タスクと問題のコミット日を確認で�
   >
   >詳しくは、次の記事を参照してください。
   >
-  >* [概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [ 概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
   >* [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-  >* [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+  >* [ レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)。
 
 <!--this is no longer possible: 
 >[!NOTE]

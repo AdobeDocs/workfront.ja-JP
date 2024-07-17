@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: cac75a81-26e8-4713-a6be-453943b431ab
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
-workflow-type: ht
-source-wordcount: '418'
+workflow-type: tm+mt
+source-wordcount: '404'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 100%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] 計画]</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] プラン]</a>*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ ht-degree: 100%
 
 1. [!DNL Slack] がリクエストするアクセス権を確認します。このアクセスに許可する場合は、「**[!UICONTROL アクセスを許可]**」をクリックして、[!DNL Workfront] アプリを認証します。
 
-これで、[!DNL Slack] から [!DNL Workfront] をアクセスできます（[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) で [!DNL Slack][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in Access [!DNL Adobe Workfront] から [!DNL Workfront] へのアクセスを参照）。
+これで、[!DNL Slack] から [!DNL Workfront] をアクセスできます（[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) で [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] から [!DNL Workfront] へのアクセスを参照）。
 
 ### [!DNL Slack] 内に [!DNL Workfront] アプリをインストールする {#install-the-workfront-app-within-slack}
 
@@ -106,4 +106,4 @@ ht-degree: 100%
 1. 「**[!UICONTROL アプリサイトにアクセス]**」をクリックします。
 1. 「**[!UICONTROL [!DNL Slack]]** に追加」をクリックします。
 1. 手順に従って、インストールを完了します。
-1. インストールが完了したら、[!DNL Slack] から [!DNL Workfront] にアクセスできます（[ [!UICONTROL Access [!DNL Workfront] from [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)&rbrack; を参照）。
+1. インストールが完了したら、[!DNL Slack] から [!DNL Workfront] にアクセスできます（[ [!UICONTROL Access [!DNL Workfront] from [!DNL Slack]]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md#viewing-all-available-commands) section in [Access [!DNL Adobe Workfront] from [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) を参照）。

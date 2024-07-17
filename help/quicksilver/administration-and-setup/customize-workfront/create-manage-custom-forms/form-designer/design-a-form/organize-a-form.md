@@ -11,7 +11,7 @@ exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
 workflow-type: tm+mt
 source-wordcount: '1285'
-ht-degree: 88%
+ht-degree: 94%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 88%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>
-   <p>新プラン：標準</p>
+   <p>新規プラン：標準</p>
    <p>または</p>
-   <p>現在のプラン：プラン</p></td> 
+   <p>現在の計画：プラン</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -114,7 +114,7 @@ ht-degree: 88%
      </tr> 
      <tr> 
       <td role="rowheader"><p>ロジックを追加</p></td> 
-      <td><p>表示ロジックを使用して、フォームの入力時に複数選択のカスタムフィールドでユーザーが行った選択に基づいて、フォームにセクションを表示するかどうかを指定します。</p><p><strong>注意：</strong> セクション区切りの下の個々のフィールドのすべてに表示ロジックが適用されており、それらがすべてロジックの結果として非表示になっている場合、セクション全体がカスタムフォームで非表示になります。 この問題は、表示ロジックがセクション区切りに適用されていない場合でも発生します。</p><p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">フォームデザイナーを使用した表示ロジックとスキップロジックの追加</a>を参照してください。</p></td> 
+      <td><p>表示ロジックを使用すると、ユーザーがフォームに入力する際に複数選択カスタムフィールドで行った選択に基づいて、セクションをフォームに表示するかどうかを指定できます。</p><p><strong>メモ：</strong>セクション区切りの下にあるすべての個々のフィールドに表示ロジックが適用され、そのロジックの結果としてフィールドがすべて非表示になっている場合、セクション全体がカスタムフォーム上で非表示になります。セクション区切りに表示ロジックが適用されていない場合でも、このようになります。</p><p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">フォームデザイナーを使用した表示ロジックとスキップロジックの追加</a>を参照してください。</p></td> 
      </tr> 
     </tbody> 
    </table>

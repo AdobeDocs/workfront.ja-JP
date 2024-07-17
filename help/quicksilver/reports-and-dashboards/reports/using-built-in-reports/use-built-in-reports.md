@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: reports
 title: 組み込みレポートを使用する
-description: 組み込みレポートの使用方法を説明します。
+description: 組み込みレポートの使用方法について説明します。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -10,7 +10,7 @@ exl-id: 478747bc-82b4-45c5-bd64-57e370c86567
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 

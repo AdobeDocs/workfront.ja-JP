@@ -1,40 +1,41 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: アカウントの作成 [!DNL Adobe Workfront] 外部ユーザーとして
-description: Workfrontの組織のメンバーではない場合でも、Workfrontでタスクを実行するように要求される場合があります。 Workfrontでアカウントを作成すると、この作業をより簡単におこなうことができます。
+title: 外部ユーザーと  [!DNL Adobe Workfront]  てのアカウントの作成
+description: Workfrontの組織のメンバーでない場合でも、Workfrontでタスクを実行するように求められる場合があります。 Workfrontでアカウントを作成すると、この作業をより簡単に行うことができます。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: a7416559941f826c119438aadc0fb9a04d46d20b
+exl-id: cfe6d7ab-e4c5-41e6-aa93-23133ac543a0
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 0%
 
 ---
 
-# でのアカウントの作成 [!DNL Adobe Workfront] 外部ユーザーとして
+# [!DNL Adobe Workfront] で外部ユーザーとしてアカウントを作成する
 
-での項目の表示または承認を招待できます [!DNL Workfront] たとえあなたが [!DNL Workfront] 組織。 例えば、ドキュメントのレビューや承認を要求される場合があります。 これらの項目をより簡単に表示または承認するには、 [!DNL Workfront].
+[!DNL Workfront] 組織のメンバーでない場合でも、[!DNL Workfront] でアイテムを表示または承認するよう招待されることがあります。 例えば、ドキュメントのレビューや承認を求められる場合があります。 [!DNL Workfront] でアカウントを作成すると、これらの項目をより簡単に表示または承認できます。
 
-ユーザーが [!DNL Workfront] は、ドキュメントを確認または承認するように要求します。 <!--or shares a Workfront object such as a report or Board with you, -->電子メールが届きます。 電子メール内のリンクをクリックすると、自分と共有されていた項目に直接移動します。
+[!DNL Workfront] のユーザーからドキュメントのレビューまたは承認をリクエストされると、<!--or shares a Workfront object such as a report or Board with you, --> メールが届きます。 メールに記載されているリンクをクリックすると、共有されていた項目に直接移動します。
 
-でのアカウントの作成 [!DNL Workfront] を使用すると、自分と共有またはリクエストされたすべての項目を表示できます。 アカウントがない場合は、個々の電子メールリンクからのみこれらの項目にアクセスできます。
+[!DNL Workfront] でアカウントを作成すると、共有されている項目や要求された項目をすべて表示できます。 アカウントがない場合、これらの項目には個々のメールリンクからのみアクセスできます。
 
 ## アカウントの作成
 
-自分と共有されているアセットを表示しながら、アカウントを作成できます。
+共有されているアセットを表示しながら、アカウントを作成できます。
 
-1. アセットページで、 **アカウント設定の完了** 」と入力します。
+1. アセットページで、ドキュメントのヘッダーの **アカウント設定を終了** をクリックします。
 
-1. 次の項目に入力： **パスワード** 」セクションに入力します。
+1. 「**パスワード**」セクションに入力します。
 
-   詳しくは、 [パスワード](#password).
+   詳しくは、[ パスワード ](#password) を参照してください。
 
-1. （オプション） **プロファイル** 」セクションに入力します。
+1. （任意）「**プロファイル**」セクションに入力します。
 
-   詳しくは、 [プロファイル](#profile).
+   詳しくは、[ プロファイル ](#profile) を参照してください。
 
-1. クリック **アカウントを作成**.
+1. **アカウントを作成** をクリックします。
 
 
 アカウントの作成ページが表示されたら、次の情報を入力します。
@@ -43,11 +44,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Workfrontアカウントのユーザー名は、電子メールアドレスです。
+>Workfront アカウントのユーザー名はメールアドレスです。
 
-アカウントの新しいパスワードを作成します
+アカウントの新しいパスワードの作成
 
-パスワードは 8 文字以上で、次の 2 つ以上を含める必要があります。
+パスワードの長さは 8 文字以上とし、次のうち 2 つ以上を含める必要があります。
 
 * 大文字
 * 小文字
@@ -56,17 +57,17 @@ ht-degree: 0%
 
 ### プロファイル
 
-プロファイルの作成はオプションですが、お勧めします。 自分の名前や画像を使用すると、特定のドキュメントの承認を自分に割り当てたか、レビュー担当者の割り当て時にリストで自分を見つけるなど、他のユーザーが簡単に使用できます。
+プロファイルの作成はオプションですが、お勧めします。 名前と画像を使用すると、他のユーザーが見やすくなります。例えば、特定のドキュメントの承認を割り当てたのはあなたであることを確認したり、レビュー担当者を割り当てる際にリスト内で自分を見つけたりすることが容易になります。
 
-## Workfrontにログイン
+## Workfrontにログインします
 
-アカウントを作成したら、Workfrontにログインして、自分と共有または割り当てられている項目を表示できます。
+アカウントを作成したら、Workfrontにログインして、共有されている項目や割り当てられている項目を確認できます。
 
-* Workfrontアカウントのユーザー名は、電子メールアドレスです。
-* Workfrontアカウントのドメインは、要求を送信した組織のドメインです。
+* Workfront アカウントのユーザー名はメールアドレスです。
+* Workfront アカウントのドメインは、リクエストを送信した組織のドメインです。
 
-  E メール内のリンクをクリックし、ドキュメントの URL を確認すると、組織のドメインを見つけることができます。 ドメインは URL の先頭に表示されます。
+  メール内のリンクをクリックし、ドキュメントの URL を確認すると、組織のドメインを見つけることができます。 ドメインが URL の先頭に表示されます。
 
   `https://<Domain is here>.my.workfront.com/...`
 
-手順については、 [Workfrontにログイン](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+手順については、[Workfrontへのログイン ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) を参照してください。

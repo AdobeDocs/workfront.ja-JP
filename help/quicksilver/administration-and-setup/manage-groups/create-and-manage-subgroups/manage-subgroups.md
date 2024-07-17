@@ -10,8 +10,8 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
 source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
-workflow-type: ht
-source-wordcount: '1269'
+workflow-type: tm+mt
+source-wordcount: '1272'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
 
-1. 左側のパネルで、「**グループ** ![](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 

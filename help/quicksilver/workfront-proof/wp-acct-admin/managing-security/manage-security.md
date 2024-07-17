@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: セキュリティの管理
-description: この節では、 [!DNL Workfront Proof].
+description: この節には、 [!DNL Workfront Proof] でのセキュリティ管理に関する記事が含まれています。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 4db4c3b4-14fa-4222-ad52-d29a3ffc9736
 source-git-commit: cb8293350add186743157ee4c60671f7c1ee96f1
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 

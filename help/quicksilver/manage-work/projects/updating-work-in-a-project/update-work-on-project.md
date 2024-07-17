@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "プロジェクトの更新作業：記事インデックス"
+title: 「プロジェクト作業の更新：記事インデックス」
 description: プロジェクトのステータスと進行状況を更新するには、タスクのステータスと進行状況を更新する必要があります。それが最終的にロールアップされて、プロジェクトの進行状況が表示されます。
 author: Alina
 feature: Work Management
@@ -11,11 +11,11 @@ exl-id: 6f7793f4-93e4-46b5-86f4-6ebede289ccb
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '142'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
-# プロジェクトの作業を更新する：記事のインデックス
+# プロジェクトの作業の更新：記事インデックス
 
 <!--Audited: 01/2024-->
 

@@ -7,8 +7,8 @@ author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
 source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
-workflow-type: ht
-source-wordcount: '490'
+workflow-type: tm+mt
+source-wordcount: '492'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
@@ -77,7 +77,7 @@ ht-degree: 100%
 ## [!UICONTROL スクラム]ボードからストーリーまたはイシューを削除
 
 1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**[!UICONTROL ボード]**」の順にクリックします。
-1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックしたあと、ドロップダウンメニューからスクラムチームを選択するか、検索バーでチームを検索します。
+1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューからスクラムチームを選択するか、検索バーでチームを検索します。
 1. 左パネルで、「**[!UICONTROL 反復]**」を選択して特定のイテレーションを選択するか、「**[!UICONTROL 進行中の反復]**」を選択します。
 1. ストーリーまたはイシューの&#x200B;**[!UICONTROL その他]**&#x200B;アイコンをクリックし、「**[!UICONTROL ストーリーを削除]**」または「**[!UICONTROL 問題の削除]**」を選択します。
 

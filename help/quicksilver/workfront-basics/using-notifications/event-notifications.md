@@ -9,7 +9,7 @@ exl-id: 09b70427-691d-437a-b9d2-86f78bd4d6a2
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '554'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 98%
 
   他のユーザーを編集するアクセス権を持つ [!DNL Workfront] 管理者やユーザーは、個々のユーザーのプロファイルで通知をアクティベートまたはディアクティベートすることもできます。
 
-  詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
   >[!NOTE]
   >

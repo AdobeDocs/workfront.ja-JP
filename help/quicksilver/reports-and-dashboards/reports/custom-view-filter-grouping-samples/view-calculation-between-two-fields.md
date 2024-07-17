@@ -10,7 +10,7 @@ exl-id: 303f8824-311a-4de0-9777-cfa11ecad1e1
 source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 例えば、タスクの予定完了日と実際の完了日の差を計算し、結果を列に表示できます。
 
 この計算では、他の 2 つの日付（実際の開始、実際の完了、見込み開始日、見込み完了日など）を使用できます。\
-計算データ式について詳しくは、 [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+計算されたデータ式について詳しくは、[計算されたデータ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
 
 ## アクセス要件
 
@@ -37,7 +37,7 @@ ht-degree: 96%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 

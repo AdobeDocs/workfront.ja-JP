@@ -8,8 +8,8 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 2b0d8e7c-9211-44e5-9d92-c87a2fe4336d
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
-source-wordcount: '331'
+workflow-type: tm+mt
+source-wordcount: '327'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
@@ -61,9 +61,9 @@ ht-degree: 100%
 1. イシューから変換されたタスクのリストに移動します。
 1. **ビュー**&#x200B;ドロップダウンメニューから、「**新規ビュー**」を選択します。
 
-1. **列プレビュー**&#x200B;エリアで、「**列を追加**」をクリックします。
+1. **列のプレビュー**&#x200B;エリアで、「**列を追加**」をクリックします。
 
-1. 残りの列のヘッダーをクリックし、「**テキストモードに切り替え**」を選択します。
+1. 新しい列のヘッダーをクリックし、「**テキスト モードに切り替える**」をクリックします。
 1. テキストモードエリアにポインタを合わせ、「**クリックしてテキストを編集**」をクリックします。
 1. 「**テキストモード**」ボックスにあるテキストを削除し、次のコードに置き換えます。
    <pre>displayname=Resolvables<br>listdelimiter=<br><br>listmethod=nested(resolvables).lists<br>textmode=true<br>type=iterate<br>valuefield=name<br>valueformat=HTML<br></pre>

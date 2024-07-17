@@ -9,8 +9,8 @@ topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
-workflow-type: ht
-source-wordcount: '869'
+workflow-type: tm+mt
+source-wordcount: '870'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 100%
    <td role="rowheader">アクセスレベル設定*</td> 
    <td> <p>イシューへのアクセス権を編集</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 

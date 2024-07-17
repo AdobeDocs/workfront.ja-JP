@@ -105,7 +105,7 @@ ht-degree: 86%
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Connection type]</td>
-        <td>サービスアカウント接続を作成するか、Adobe Target サーバー間接続を作成するかを選択します。<p><b>重要</b>:2024 年 6 月 3 日（PT）以降に作成された接続では、Adobe Target サーバー間接続が必要になります。 既存のサービスアカウント接続は、2025 年 1 月まで引き続き機能します。 サービスアカウント接続は、2024 年 1 月までにAdobe Target サーバー間接続に置き換える必要があります。
+        <td>サービスアカウント接続を作成するか、Adobe Target サーバー間接続を作成するかを選択します。<p><b> 重要 </b>:2024 年 6 月 3 日（PT）以降に作成された接続では、Adobe Target サーバー間接続が必要です。 既存のサービスアカウント接続は、2025 年 1 月まで引き続き機能します。 サービスアカウント接続は、2024 年 1 月までにAdobe Target サーバー間接続に置き換える必要があります。
         </td>
       </tr>
       <tr>
@@ -191,7 +191,7 @@ ht-degree: 86%
 
 * [[!UICONTROL レコードを作成]](#create-a-record)
 
-* [[!UICONTROL カスタム API 呼び出しを実行]](#make-a-custom-api-call)
+* [[!UICONTROL カスタム API 呼び出しの実行]](#make-a-custom-api-call)
 
 * [[!UICONTROL レコードを削除]](#delete-a-record)
 
@@ -218,10 +218,10 @@ ht-degree: 86%
       <p>作成するレコードのタイプを選択します。</p>
       <ul>
         <li>
-        <b>プロパティ</b><p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty">プロパティの作成</a> （Adobe Target API ドキュメント）。</p>
+        <b> プロパティ </b><p>フィールドについて詳しくは、Adobe Target API ドキュメントの <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Properties/operation/createProperty"> プロパティの作成 </a> を参照してください。</p>
         </li>
         <li>
-        <b>オファーの推奨事項</b><p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer">新しい recs オファーを作成</a> （Adobe Target API ドキュメント）。</p>
+        <b> オファーの推奨事項 </b><p>フィールドについて詳しくは、Adobe Target API ドキュメントの <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer"> 新しい recs オファーの作成 </a> を参照してください。</p>
         </li>
         <li>
           <b>[!UICONTROL オファー JSON]</b>
@@ -232,15 +232,15 @@ ht-degree: 86%
           <p><a href="#offer-fields" class="MCXref xref" >オファーフィールド</a>に進みます。</p>
         </li>
         <li>
-        <b>0.5511122</b><p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Environments/operation/createEnvironment">環境を作成</a> （Adobe Target API ドキュメント）。</p>
+        <b> 環境 </b><p>フィールドについて詳しくは、Adobe Target API ドキュメントの <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Environments/operation/createEnvironment"> 環境の作成 </a> を参照してください。</p>
         </li>
         <li>
           <b>[!UICONTROL オーディエンス ]</b>
-          <p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1">オーディエンスを作成</a> （Adobe Target API ドキュメント）。</p>
+          <p>フィールドについて詳しくは、Adobe Target API ドキュメントの <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1"> オーディエンスの作成 </a> を参照してください。</p>
         </li>
         <li>
           <b>[!UICONTROL AB アクティビティ ]</b>
-          <p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">AB アクティビティを作成</a> （Adobe Target API ドキュメント）。</p>
+          <p>フィールドについて詳しくは、Adobe Target API ドキュメントの <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">AB アクティビティを作成 </a> を参照してください。</p>
         </li>
         <li>
           <b>[!UICONTROL XT アクティビティ ]</b>
@@ -248,11 +248,11 @@ ht-degree: 86%
         </li>
         <li>
           <b>[!UICONTROL AP アクティビティ ]</b>
-          <p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">AP アクティビティの作成</a> （Adobe Target API ドキュメント）。</p>
+          <p>フィールドについて詳しくは、Adobe Target API ドキュメントの <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">AP アクティビティの作成 </a> を参照してください。</p>
         </li>
         <li>
           <b>[!UICONTROL 応答トークン ]</b>
-          <p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken">応答トークンの作成</a> （Adobe Target API ドキュメント）。</p>
+          <p>フィールドについて詳しくは、Adobe Target API ドキュメントの <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken"> 応答トークンの作成 </a> を参照してください。</p>
         </li>
       </ul>
     </td>
@@ -740,7 +740,7 @@ ht-degree: 86%
 
 -->
 
-#### [!UICONTROL カスタム API 呼び出しを実行]
+#### [!UICONTROL カスタム API 呼び出しの実行]
 
 このモジュールは、[!DNL Adobe Target] API に対してカスタム API 呼び出しを実行します。
 
@@ -860,7 +860,7 @@ ht-degree: 86%
     <tr>
       <td role="rowheader">[!UICONTROL フィールド名 ]</td>
       <td>更新するフィールドを選択します。 フィールドが下に表示されます。
-          <p>フィールドについて詳しくは、を参照してください。 <a href="https://developer.adobe.com/target/administer/admin-api/">Adobe Target API ドキュメント</a>.</p>
+          <p>フィールドについて詳しくは、<a href="https://developer.adobe.com/target/administer/admin-api/">Adobe Target API ドキュメント </a> を参照してください。</p>
       </td>
     </tr>
   </tbody>

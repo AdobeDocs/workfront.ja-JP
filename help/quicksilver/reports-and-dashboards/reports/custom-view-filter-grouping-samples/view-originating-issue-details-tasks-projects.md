@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「ビュー：タスクとプロジェクトの元のイシューの詳細」
-description: イシューがタスクまたはプロジェクトに変換されると、タスクまたはプロジェクトとイシューの間に解決オブジェクト関係が確立されます。このビューには、タスクまたはプロジェクトが完了したときに自動的に完了する、イシューのフィールドが表示されます。
+description: イシューがタスクまたはプロジェクトに変換されると、タスクまたはプロジェクトとイシューの間に解決オブジェクト関係が確立されます。このビューには、タスクまたはプロジェクトが完了すると自動的に完了するイシューのフィールドが表示されます。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '343'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 95%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 

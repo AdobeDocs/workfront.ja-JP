@@ -2,24 +2,26 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: ワークロードバランサーを使用して一括で作業を割り当てる
-description: Adobe Workfront ワークロードバランサーを使用すると、作業アイテムを手動でユーザーに割り当てることができます。
+description: Adobe Workfront ワークロードバランサーを使用すると、複数のタスクと問題にリソースを一括で割り当てることができます。
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 100%
+source-wordcount: '1501'
+ht-degree: 92%
 
 ---
 
 # ワークロードバランサーを使用して一括で作業を割り当てる
 
+<!--Audited: 07/2024-->
+
 <!--drafted
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 -->
 
-Adobe Workfront ワークロードバランサーを使用すると、作業アイテムを手動でユーザーに割り当てることができます。
+Adobe Workfront ワークロードバランサーを使用すると、複数のタスクと問題にリソースを一括で割り当てることができます。
 
 ワークロードバランサーを使用してユーザーに作業アイテムを割り当てる方法の概要については、[ワークロードバランサーでの作業割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
 
@@ -32,36 +34,40 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>プラン、リソース領域でワークロードバランサーを使用する場合</p>
-   <p>ワーク、チームまたはプロジェクトのワークロードバランサーを使用する場合</p>
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+   <p>新規：標準</p>
+   <p>現在：</p>
+   <ul>
+   <li><p>プラン、リソース領域でワークロードバランサーを使用する場合</p></li>
+   <li><p>ワーク、チームまたはプロジェクトのワークロードバランサーを使用する場合</p></li></ul>
 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
+   <td role="rowheader">アクセスレベル</td> 
    <td> <p>以下の項目についてアクセス権を編集します。</p> 
     <ul> 
      <li> <p>リソース管理</p> </li> 
      <li> <p>プロジェクト</p> </li> 
      <li> <p>タスク</p> </li> 
      <li> <p>イシュー</p> </li> 
-    </ul> <p><b>メモ</b>
+    </ul>
 
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、「<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>」を参照してください。</p> </td>
-</tr> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクト、タスク、イシューに対する参加以上の権限（割り当ての作成を含む）</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクト、タスク、イシューに対する参加以上の権限（割り当ての作成を含む）</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## ワークロードバランサーで一括割り当てを行う際の考慮事項
 
@@ -77,7 +83,7 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
 
 * 複数の新規プロジェクトでユーザーを割り当てる必要があります。プロジェクトは元々テンプレートから作成され、担当業務は既にプロジェクト内の様々なタスクに割り当てられています。現在担当業務に割り当てられているすべてのタスクに、特定のユーザー Jackie Simms を割り当てようとしています。割り当て機能を使用すると、これらのタスクを Jackie Simms に割り当てることができます。
 * 3 つの異なるプロジェクトの 45 のタスクが Jackie Simms に割り当てられています。Jackie は退職したため、別のユーザーにタスクを割り当て直す必要があります。置換機能を使用すると、これらのタスクを新しい担当者に割り当てることができます。
-* 2 つの異なるプロジェクトの 10 個のタスクが、別のユーザー Rick Kuvec に割り当てられます。誤って Rick がこれらのタスクに割り当てられたことが判明しましたが、現時点で誰に割り当てる必要があるかは不明です。Rick のすべてのタスクへの割り当てを同時に解除する必要があります。割り当て解除機能を使用すると、これらのタスクから Rick を削除できます。
+* 2 つの異なるプロジェクトの 10 個のタスクが、別のユーザー Rick Kuvec に割り当てられます。Rick がエラーでこれらのタスクに割り当てられたことに気付きますが、現時点では誰に割り当てる必要があるかわかりません。 Rick のすべてのタスクへの割り当てを同時に解除する必要があります。割り当て解除機能を使用すると、これらのタスクから Rick を削除できます。
 
 ## ワークロードバランサーで一括で作業を割り当てる
 
@@ -195,13 +201,13 @@ Workfront フィルター修飾子については、[フィルターおよび条
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. 「**割り当てるユーザー**」フィールドで、ドロップダウン矢印をクリックして、推奨ユーザーのリストから選択するか、別のユーザー名を入力します。デフォルトでリストに表示されるユーザーは、スマート割り当ての基準に一致します。詳しくは、[スマート割り当ての概要](../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
+1. 「**割り当てるユーザー**」フィールドで、ドロップダウン矢印をクリックして、推奨ユーザーのリストから選択するか、別のユーザー名を入力します。デフォルトで、リストにリストされたユーザーは、スマート割り当ての条件に一致します。 詳しくは、[スマート割り当ての概要](../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
    Workfront に、現在割り当てられているユーザーから 2 番目のユーザーに置き換えられる項目の数と、置き換えられる役割に関するメモが表示されます。
 
    ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
-1. 「**置換**」をクリックします。
+1. **置換** をクリックします。
 
    選択したプロジェクトのすべての作業アイテムで、最初に選択したユーザーが 2 番目のユーザーに置き換えられます。
 
@@ -213,7 +219,7 @@ Workfront フィルター修飾子については、[フィルターおよび条
 
 ワークロードバランサーの一括割り当てを使用して、ユーザーをすべての割り当てから割り当て解除すると、次の処理が行われます。
 
-* 指定したユーザーが、割り当てられているすべての作業アイテムから削除されます。
+* 指定したユーザーは、割り当て先のすべての作業項目から削除されます。
 * 割り当て解除されたユーザーが担当業務に関連付けられている場合、その担当業務は、ユーザーが削除されても作業アイテムに割り当てられたままになります。
 
 * 指定したユーザーが完了した作業アイテムに割り当てられている場合、そのユーザーはそれらの作業アイテムに割り当てられたままになります。
@@ -235,4 +241,4 @@ Workfront フィルター修飾子については、[フィルターおよび条
 1. 「**割り当て解除**」をクリックします。\
    指定したユーザーが削除された作業アイテムの数に関する確認が表示されます。
 
- 
+

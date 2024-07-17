@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 58%
+source-wordcount: '478'
+ht-degree: 40%
 
 ---
 
@@ -49,21 +49,56 @@ hide: yes
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning の概要](/help/quicksilver/planning/general/planning-overview.md)：このソリューションに特有の用語や概念を含む、Adobe Workfront Planning の概要です。ここから Workfront Planning のジャーニーを開始することをお勧めします。
-* [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md):2023 年 5 月 22 日（PT）のAdobe Workfront計画プログラムのローンチ以降にリリースされたすべての機能のリスト。正確なリリース日と各機能の概要が記載されています。
-* [Adobe Workfront計画 AI アシスタントの概要](/help/quicksilver/planning/general/planning-ai-assistant-overview.md):Workfront AI Assistant for Planning を使用すると、コマンドを使用してアシスタントに作業を任せることで、レコードを検索したり、レコードを作成、更新、削除したりできます。
+* [Adobe Workfront Planning の現在のリリース アクティビティ ](/help/quicksilver/planning/general/release-activity.md): 2023 年 5 月 22 日（PT）のAdobe Workfront Planning プログラムのローンチ以降にリリースされたすべての機能の一覧。正確なリリース日と各機能の概要が記載されています。
+* [Adobe Workfront Planning AI Assistant の概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront AI Assistant for Planning を使用すると、レコードを検索したり、コマンドを使用してアシスタントで作業することにより、レコードを作成、更新、および削除したりできます。
 
-  Workfront AI アシスタントは現在、ベータ版の一部のお客様が利用できます。 この新しいサービスを試す資格があるかどうかを確認するには、アカウント担当者にお問い合わせください。
+  >[!NOTE]
+  >
+  >    Workfront AI アシスタントは現在、ベータ版の一部のお客様が利用できます。 この新しいサービスを試す資格があるかどうかを確認するには、アカウント担当者にお問い合わせください。
 
-* [Workfront Fusion 用のAdobe Workfront計画モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Adobe Workfront Planning モジュールを使用すると、Workfront Planning でイベントが発生した場合にシナリオのトリガーを設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
+* [Workfront Fusion のAdobe Workfront Planning モジュール ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
 
 ## Workfront Planning のアーキテクチャと機能
 
 次の節では、Workfront Planning で現在利用できる機能の詳細を説明する記事を含みます。
 
-* [アクセス情報と権限情報：記事インデックス](/help/quicksilver/planning/access/access-information.md):Workfront Planning の使用に必要なアクセス権と権限に関する情報です。
-* [アーキテクチャ：記事インデックス](/help/quicksilver/planning/architecture/architecture-information.md)：Workfront Planning のアーキテクチャに関する詳細な情報およびワークスペースとレコードタイプを作成して管理する方法に関する詳しい手順。
-* [フィールド：記事インデックス](/help/quicksilver/planning/fields/fields-information.md)：レコードタイプ用のカスタムフィールドの作成の詳細な情報および手順。
-* [レコード：記事インデックス](/help/quicksilver/planning/records/records-information.md)：レコードを作成して管理する方法に関する詳細な情報および手順。
-* [ビュー：記事インデックス](/help/quicksilver/planning/views/views-information.md)：レコードビューに関する詳細情報と、レコードタイプページを表示する際の管理方法。
-* [通知：記事インデックス](/help/quicksilver/planning/notifications/notifications-information.md):Workfront Planning のイベントによって生成されるメール通知およびアプリ内通知に関する情報です。
+* [ アクセス情報と権限情報：記事インデックス ](/help/quicksilver/planning/access/access-information.md) には、次の情報が含まれます。
+
+   * Workfront ライセンスと Planning 権限
+   * 共有権限の計画
+   * ビューの共有
+   * ワークスペース （レコードの種類、レコード、およびフィールド）の共有
+
+* [ アーキテクチャ：記事インデックス ](/help/quicksilver/planning/architecture/architecture-information.md) 次の情報が含まれます。
+
+   * ワークスペースの作成、編集、削除
+   * レコードタイプの作成、編集、削除
+   * レコードタイプの接続とレコードタイプの接続例
+   * Workspaceテンプレート
+
+* [ フィールド：記事インデックス ](/help/quicksilver/planning/fields/fields-information.md) 次の情報が含まれます。
+
+   * フィールドの作成、編集、削除
+   * 数式フィールド
+   * プライマリフィールド
+
+* [ レコード：記事インデックス ](/help/quicksilver/planning/records/records-information.md) 次の情報が含まれます。
+
+   * レコードの作成、編集、削除
+   * レコードの接続
+   * レコードへのカバー画像またはサムネールの追加
+   * 「コメントと履歴を記録」セクション
+   * レコードの共有
+   * Workfront オブジェクトのWorkfront計画セクション
+
+* [Views：記事インデックス ](/help/quicksilver/planning/views/views-information.md) には、次の情報が含まれます。
+
+   * レコードビューの作成
+   * テーブル、タイムライン、カレンダーの表示を管理する
+
+* [ 通知：記事インデックス ](/help/quicksilver/planning/notifications/notifications-information.md) には、次の情報が含まれます。
+
+   * 通知設定の管理
+   * アプリ内通知の計画
+   * メール通知の計画
 

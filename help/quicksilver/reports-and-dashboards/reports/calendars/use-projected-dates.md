@@ -7,8 +7,8 @@ author: Lisa
 feature: Reports and Dashboards
 exl-id: 39e16f0b-c10d-429e-9eb5-d4847c7e4ed9
 source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
-workflow-type: ht
-source-wordcount: '655'
+workflow-type: tm+mt
+source-wordcount: '657'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 項目のグループを設定
 
@@ -64,9 +64,9 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >カレンダーレポートを作成するには、アクセスレベルで[!UICONTROL レポート]、[!UICONTROL ダッシュボード]、[!UICONTROL カレンダー]への[!UICONTROL 編集]アクセスが必要です。
+   >カレンダーレポートを作成するには、アクセスレベルで[!UICONTROL レポート]、[!UICONTROL ダッシュボード]、[!UICONTROL カレンダー]への[!UICONTROL 編集]アクセス権が必要です。
 
-1. 左側で、「**[!UICONTROL カレンダーに追加]**」をクリックし、「**[!UICONTROL 詳細項目を追加]**」をクリックします。
+1. 左側で「**[!UICONTROL カレンダーに追加]**」、「**[!UICONTROL 詳細項目を追加]**」の順にクリックします。
 
 1. 以下を指定します。
 
@@ -94,8 +94,8 @@ ht-degree: 100%
       <td role="rowheader"><strong>[!UICONTROL On the calendar, show]</strong></td>
       <td><p>日付の表示方法を選択します。</p>
        <ul>
-        <li><strong>[!UICONTROL Start Date Only]</strong>：カレンダーには単一の日付のオブジェクトが表示されます。</li>
-        <li><strong>[!UICONTROL End Date Only]</strong>：カレンダーには単一の日付のオブジェクトが表示されます。</li>
+        <li><strong>[!UICONTROL Start Date Only]</strong>：カレンダーには、単一の日付のオブジェクトが表示されます。</li>
+        <li><strong>[!UICONTROL End Date Only]</strong>：カレンダーには、単一の日付のオブジェクトが表示されます。</li>
         <li><strong>[!UICONTROL Duration] (Start to End)</strong>：カレンダーには、数日間にわたるオブジェクトが表示されます。</li>
        </ul></td>
      </tr>
@@ -116,7 +116,7 @@ ht-degree: 100%
 
 項目の表示方法を設定した後、カレンダーに表示するオブジェクトをグループに追加する必要があります。
 
-1. **[!UICONTROL カレンダーに何を追加しますか？]** セクション、選択
+1. 「**[!UICONTROL カレンダーに何を追加しますか？]**」セクションで、次を選択します。
 
    * **[!UICONTROL タスク]**
    * **[!UICONTROL プロジェクト]**
@@ -130,10 +130,10 @@ ht-degree: 100%
 
    ![条件文](assets/condition-statement-calendar.png)
 
-   条件の設定については、[フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
+   条件の設定について詳しくは、[フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
 
 1. （オプション）手順 1 ～ 4 を繰り返して、カレンダーのグループ化に使用する追加のオブジェクトを指定します。
-1. Adobe Analytics の「**[!UICONTROL タスク/プロジェクト／イシューのラベルを次の値に設定…]**」フィールドで、このカレンダーグループ内のオブジェクトにカレンダー内でどのようにラベルを付けるかを選択します。
+1. **[!UICONTROL タスク／プロジェクト／イシューのラベルを次の値に設定…]**&#x200B;フィールドで、このカレンダーグループ内のオブジェクトにカレンダー内でどのようにラベルを付けるかを選択します。
 
    >[!NOTE]
    >

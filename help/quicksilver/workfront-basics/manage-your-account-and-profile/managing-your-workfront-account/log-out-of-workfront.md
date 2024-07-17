@@ -7,8 +7,8 @@ author: Nolan
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
 source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
-workflow-type: ht
-source-wordcount: '212'
+workflow-type: tm+mt
+source-wordcount: '216'
 ht-degree: 100%
 
 ---

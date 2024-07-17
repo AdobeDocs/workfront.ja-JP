@@ -3,7 +3,7 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Adobe Workfront 内でのプルーフの確認
-description: Workfrontで配達確認を確認する方法を説明します。
+description: Workfront でプルーフを確認する方法について説明します。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -11,7 +11,7 @@ exl-id: cf62d4ef-1244-4038-a56d-4a325140f93a
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '47'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 

@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: ' [!DNL Workfront Proof] でのプルーフの設定'
-description: 配達確認を作成または編集している場合に、配達確認を設定できます。
+description: プルーフで作成中または編集中のプルーフを設定できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '1055'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

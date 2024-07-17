@@ -8,8 +8,8 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f6d5aef6-573d-4398-a057-ffea2e67288f
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
-workflow-type: ht
-source-wordcount: '719'
+workflow-type: tm+mt
+source-wordcount: '677'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
 
 * ユーザーは [!DNL Basecamp Classic] 内でプルーフをレビューおよび承認できます。
 * ユーザーにはいつでも使用できるレビューツールが用意されます。
-* プロジェクトレビューチームは、レビューと承認のためのミニプルーフのメッセージを [!DNL Basecamp] で受信します。
+* [!DNL Basecamp] で、レビューおよび承認のためのミニプルーフが含まれたメッセージがプロジェクトレビューチームに届きます。
 * ユーザーは、フルページのプルーフに切り替えてレビューや承認を行うことができます。
 * ユーザーは、ミニサイズとフルサイズの両方のプルーフにコメントやマークアップを追加できます。
 

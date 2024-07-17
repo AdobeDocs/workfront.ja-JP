@@ -8,8 +8,8 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
-source-wordcount: '674'
+workflow-type: tm+mt
+source-wordcount: '584'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ sharecol
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
@@ -70,7 +70,7 @@ sharecol
 この表示を適用するには次の操作を行います。
 
 1. 時間のリストに移動します。
-1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
+1. **表示**&#x200B;ドロップダウンメニューから、**新規表示**&#x200B;を選択します。
 
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
 1. 残りの列のヘッダーをクリックし、「**テキストモードに切り替え**」をクリックします。

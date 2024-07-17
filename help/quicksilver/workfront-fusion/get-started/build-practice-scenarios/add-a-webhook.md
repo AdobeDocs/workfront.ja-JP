@@ -6,24 +6,25 @@ title: 基本シナリオへの Webhook の追加
 description: Webhook は、インスタントトリガーとも呼ばれ、特定のスケジュールではなく、変更が行われるたびにトリガーを開始できる特定の種類のシナリオモジュールです。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ea3f932e02ad8a9416747d4b9aefe89d087dd414
+exl-id: 6694b883-6f94-449c-bcfe-5a4053e8655a
+source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
 
 ---
 
-# の基本的なシナリオへの Webhook の追加 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] の基本シナリオへの Webhook の追加
 
 Webhook は、インスタントトリガーとも呼ばれ、特定のスケジュールではなく、変更が行われるたびにトリガーを開始できる特定の種類のシナリオモジュールです。
 
 この例では、特定のキューにリクエストが送信されたらすぐにシナリオを開始する Webhook を追加します。 次に、シナリオはこれらのリクエストをプロジェクトに変換します。
 
-次の使用例は、で作成したシナリオを変更します [基本的なシナリオの作成](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
+この例では、[ 基本シナリオの作成 ](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) で作成したシナリオを変更します。
 
 ## 前提条件
 
-に記載されているシナリオを作成する必要があります。 [基本的なシナリオの作成](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) この手順を実行する前に、
+この手順を実行する前に、[ 基本シナリオの作成 ](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) で説明されているシナリオを作成する必要があります。
 
 ## Webhook の追加と設定
 
@@ -35,16 +36,14 @@ Webhook は、インスタントトリガーとも呼ばれ、特定のスケジ
 ### Webhook モジュールの追加
 
 1. シナリオエディターでシナリオを開きます。
-1. 最初のモジュールを右クリックし、 **モジュールを削除**.
+1. 最初のモジュールを右クリックし、「**モジュールを削除**」を選択します。
 
    モジュールが削除され、空白のプレースホルダーが残ります。
 
-1. 空白のモジュールをクリックし、を選択します。 **Adobe Workfront** アプリのリストから。
-1. を選択 **イベントを見る**.
-1. クリック **追加** Webhook フィールドの隣です。
-1. 「レコードタイプ」フィールドで、 **問題**&#x200B;そのため、モジュールでは問題の変更をトリガーします。
-1. 「状態」フィールドで次を選択します **新しい状態**. これは、フィルターに使用される必須フィールドですが、この例では扱いません。
-1. 「レコードの生成元」フィールドで、 **新しいレコードのみ**. これにより、イシューが更新や削除されたときではなく、イシューが追加されたときにシナリオがトリガーするようになります。
-1. クリック **保存** モジュール設定を保存します。
-
-
+1. 空のモジュールをクリックし、アプリのリストから **0}Adobe Workfront} を選択します。**
+1. **イベントをウォッチ** を選択します。
+1. Webhook フィールドの横にある「**追加**」をクリックします。
+1. 「レコードタイプ」フィールドで「**イシュー**」を選択すると、イシューの変更がトリガーされるようになります。
+1. 「状態」フィールドで「**新しい状態**」を選択します。 これは、フィルターに使用される必須フィールドですが、この例では扱いません。
+1. 「レコード生成元」フィールドで、「**新しいレコードのみ**」を選択します。 これにより、イシューが更新や削除されたときではなく、イシューが追加されたときにシナリオがトリガーするようになります。
+1. 「**保存**」をクリックして、モジュール設定を保存します。

@@ -16,7 +16,7 @@ ht-degree: 6%
 
 このページでは、2024 年第 3 四半期リリースで行われた、プレビュー環境に対するすべてのリソース管理の機能強化について説明します。 これらの機能強化は、2024 年第 3 四半期リリースの実稼動環境で利用できるようになります。
 
-2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
 
 ## ワークロードバランサーに反映された休暇
 

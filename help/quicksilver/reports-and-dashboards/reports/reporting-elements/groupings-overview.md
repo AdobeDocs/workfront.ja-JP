@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
 source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 100%
 

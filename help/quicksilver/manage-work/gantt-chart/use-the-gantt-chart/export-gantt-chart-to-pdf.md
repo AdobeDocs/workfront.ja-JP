@@ -8,7 +8,7 @@ exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '967'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 98%
 
      >[!NOTE]
      >
-     >500 個を超える項目を含む[!UICONTROL ガントチャート]を書き出す必要がある場合は、表示される項目数が 500 個未満またはページ数が 250 ページ未満になるように、リストにフィルターを適用してから、[!UICONTROL ガントチャート]を表示します。フィルターの適用方法について詳しくは、  [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     >500 個を超える項目を含む[!UICONTROL ガントチャート]を書き出す必要がある場合は、表示される項目数が 500 個未満またはページ数が 250 ページ未満になるように、リストにフィルターを適用してから、[!UICONTROL ガントチャート]を表示します。フィルターの適用方法について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
      >
      >
      >次の状況では、ガントチャート全体を書き出すことはできません。

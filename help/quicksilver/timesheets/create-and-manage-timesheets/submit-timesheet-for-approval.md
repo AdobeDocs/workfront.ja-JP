@@ -30,7 +30,7 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
@@ -76,7 +76,7 @@ ht-degree: 98%
 
 タイムシートを送信した後、タイムシートのステータスを表示できます。
 
-Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。イベント通知の有効化について詳しくは、 [イベント通知タイプ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。イベント通知の有効化について詳しくは、[ イベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
 
 これらの通知がない場合、Workfront のタイムシートエリアで、送信したタイムシートのステータスを確認できます。
 

@@ -8,8 +8,8 @@ author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 3c3555df-9c8c-40d9-91d7-1e4b0e34ae1f
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
-workflow-type: ht
-source-wordcount: '228'
+workflow-type: tm+mt
+source-wordcount: '238'
 ht-degree: 100%
 
 ---

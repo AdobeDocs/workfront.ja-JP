@@ -11,7 +11,7 @@ exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
 source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 92%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
@@ -49,7 +49,7 @@ ht-degree: 92%
 >[!NOTE]
 >
 >* 更新で保存された画像は、ドキュメントストレージ制限に考慮されます。詳しくは、[ドキュメントストレージ制限の確認ク](../../../documents/managing-documents/check-document-storage.md)を参照してください。
->* 画像には、 [!UICONTROL 更新] タブをクリックし、 [!UICONTROL ドキュメント] 下の領域 [!UICONTROL メインメニュー].
+>* 画像は、オブジェクト上の[!UICONTROL 更新]タブからアクセスでき、[!UICONTROL メインメニュー]の[!UICONTROL ドキュメント]エリアでも使用できます。
 >
 
 1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、**[!UICONTROL 設定]**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。

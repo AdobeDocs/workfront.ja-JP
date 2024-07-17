@@ -12,7 +12,7 @@ exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
 source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
 source-wordcount: '558'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Workfront 管理者は、任意のグループに対してこの操作を行う�
 
 Workfront 管理者がイベント通知のロックを解除する方法については、[すべてのグループのイベント通知設定のロック解除またはロック](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)を参照してください。
 
-イベントのデフォルトの通知設定について詳しくは、 [イベント通知タイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+イベントのデフォルトの通知設定については、[イベント通知のタイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
 
 ## アクセス要件
 
@@ -43,7 +43,7 @@ Workfront 管理者がイベント通知のロックを解除する方法につ�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 

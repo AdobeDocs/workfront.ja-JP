@@ -12,7 +12,7 @@ exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
 source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 70%
 {{important-admin-console-onboard}}
 
 
-Workfrontは、Workfrontを既存の会社の SSO ソリューションと統合する、一元的に管理されたシングルサインオン (SSO) 設定を提供します。 この設定は、OnDemand と OnPremise の両方のエンタープライズユーザーが利用できます。
+Workfront は、Workfront を既存の会社の SSO ソリューションと統合できる、一元的に管理されたシングルサインオン（SSO）設定を提供します。この設定は、OnDemand と OnPremise の両方のエンタープライズのお客様が利用できます。
 
-Workfrontで SSO 機能を使用するには、組織で SSO アプリケーションを設定する必要があります。 その後、Workfront を設定して、SSO ソリューションと通信できるようにします。
+Workfront で SSO 機能を使用するには、組織で SSO アプリケーションを設定する必要があります。その後、Workfront を設定して、SSO ソリューションと通信できるようにします。
 
 連合型ソリューションを使用すると、ユーザーは、一元化されたログインポータルにユーザー名とパスワードを入力して、すべてのアプリケーションにログインできます。
 
@@ -36,7 +36,7 @@ Workfrontで SSO 機能を使用するには、組織で SSO アプリケーシ�
 
 SSO ソリューションを使用する場合、Workfront は指定されたポートでサーバーへの接続を開始します。
 
-ファイアウォールまたはメールサーバーが特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定のWorkfront IP アドレスをファイアウォールサーバーに追加する必要があり許可リストに加えるます。 詳しくは、[ファイアウォールの許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
+ファイアウォールやメールサーバーが、特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の Workfront IP アドレスをファイアウォールの許可リストに追加する必要があります。詳しくは、[ファイアウォールの許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 
 ## シングルサインオンの設定
 

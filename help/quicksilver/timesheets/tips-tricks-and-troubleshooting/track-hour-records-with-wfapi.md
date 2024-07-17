@@ -8,8 +8,8 @@ author: Alina
 feature: Timesheets
 exl-id: b26f8156-f9dc-43e7-8e0d-8c0905dc7a12
 source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
-workflow-type: ht
-source-wordcount: '386'
+workflow-type: tm+mt
+source-wordcount: '337'
 ht-degree: 100%
 
 ---

@@ -8,8 +8,8 @@ author: Alina
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
 source-git-commit: 1d5de5ff0ebebd84482507c71730cfbd05c513a5
-workflow-type: ht
-source-wordcount: '644'
+workflow-type: tm+mt
+source-wordcount: '649'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ Adobe Workfront は、プロジェクトとタスクの両方について、予�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

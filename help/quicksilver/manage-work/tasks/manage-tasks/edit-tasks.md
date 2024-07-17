@@ -7,18 +7,20 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: f2b6f0fb8a24723fec60c6fc1a99e1b8f9cf39c7
 workflow-type: tm+mt
-source-wordcount: '3727'
-ht-degree: 99%
+source-wordcount: '3664'
+ht-degree: 91%
 
 ---
 
 # タスクの編集
 
+<!--Audited: 07/2024-->
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: some information in this area is repeated in the following articles. If you need to update a fied, update it in both:</p>
+<p>(NOTE: some information in this area is repeated in the following articles. If you need to update a field, update it in both:</p>
 <p>** Task finances in details</p>
 <p>** Task information in overview)</p>
 </div>
@@ -36,19 +38,18 @@ ht-degree: 99%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>ワークまたはそれ以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規：標準</p>
+   <p>現在：ワーク以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、「<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>」を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> 
@@ -63,12 +64,12 @@ ht-degree: 99%
     </ul> 
     <ul> 
      <li> <p>プロジェクトに対する参加以上の権限</p> </li> 
-    </ul> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## タスクの編集に関する制限
 
@@ -105,7 +106,7 @@ ht-degree: 99%
 
 タスクの編集エリアまたはタスクの詳細エリアを使用してタスクを編集できます。次の手順では、「タスクを編集」ボックスでタスクを編集する方法を説明します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-click-main-menu}}
 
 1. **プロジェクト**&#x200B;をクリックし、プロジェクトの名前をクリックして開きます。
 1. 左側のパネルの&#x200B;**タスク**&#x200B;をクリックします。
@@ -183,7 +184,7 @@ ht-degree: 99%
 
    >[!NOTE]
    >
-   >Workfront 管理者またはグループ管理者がレイアウトテンプレートを設定する方法に応じて、タスクを編集ボックスのフィールドが並べ替えられたり、表示されなかったりする場合があります。詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
+   >Workfront管理者またはグループ管理者によるレイアウト テンプレートの設定に応じて、[ タスクの編集 ] ボックスのフィールドの配置が変更されたり、表示されなかったりする場合があります。 詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
 ### タスク名 {#task-name}
 
@@ -218,23 +219,23 @@ ht-degree: 99%
      </tr> 
      <tr> 
       <td role="rowheader">ステータス</td> 
-      <td> <p>タスクが開発のどのような段階にあるかを示す、タスクのステータスを選択します。</p> <p><b>ヒント</b>
+      <td> <p>タスクの開発ステージを示すタスクのステータスを選択します。</p> <p><b>ヒント</b>
 
    タスクのステータスを、タスクのヘッダーでアップデートできます。 </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">優先度</td> 
-      <td> <p>これは、タスクを優先付けするための視覚的なフラグです。 </p> <p>次のオプションから選択します。 </p> 
+      <td> <p>これは、タスクに優先順位を付けることができる視覚的なフラグです。 </p> <p>次のオプションから選択します。 </p> 
        <ul> 
       <li> <p> なし</p> </li> 
       <li> <p> 低 </p> </li> 
       <li> <p>標準 </p> </li> 
       <li> <p>高 </p> </li> 
       <li> <p> 緊急 </p> </li> 
-       </ul> <p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。タスクの優先度について詳しくは、<a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">タスクの優先度をアップデート</a>を参照してください。 </p> </td> 
+       </ul> <p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。タスクの優先度については、<a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">タスクの優先度の更新</a>.を参照してください。 </p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;">「タスクの日付と制約事項」セクション</span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;"> タスクの日付と制約セクション </span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">タスクの制約</td> 
@@ -258,7 +259,7 @@ ht-degree: 99%
      </tr> 
      <tr> 
       <td role="rowheader">コミット日時</td> 
-      <td> <p>これは、タスクに割り当てられたユーザーがそのタスクの完了期限として約束する日付です。これは、予定完了日とは異なる場合があります。担当者のみがこのフィールドを編集できます。Workfront でのコミット日について詳しくは、<a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">コミット日の概要</a>を参照してください。 </p> </td> 
+      <td> <p>これは、タスクに割り当てられたユーザーがそのタスクの完了期限として約束する日付です。この日付は、予定完了日と異なる場合があります。 担当者のみがこのフィールドを編集できます。Workfront でのコミット日について詳しくは、<a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">コミット日の概要</a>を参照してください。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">予定開始日時</td> 
@@ -271,16 +272,16 @@ ht-degree: 99%
      </tr> 
      <tr> 
       <td role="rowheader">予定完了日時</td> 
-      <td> <p>タスクの計画時に予想される完了日。予定完了日は、次のようなさまざまな要因によって設定できます。</p> 
+      <td> <p>タスクの計画時に予想される完了日。Workfrontは、次のいくつかの要因を使用して「予定完了日」を設定します。</p> 
        <ul> 
-      <li>予定完了日は、予定開始日にタスクの期間を加算することによって、予定開始日から計算されます。プロジェクトマネージャーまたは Workfront 管理者がタスクの期間を指定すると、予定完了日の更新がトリガーされます。予定日が変更される原因の多くは、タスクの期間の更新です。</li> 
+      <li>予定完了日は、予定開始日にタスクの期間を加算することによって、予定開始日から計算されます。プロジェクトマネージャーまたは Workfront 管理者がタスクの期間を指定すると、予定完了日の更新がトリガーされます。予定日が変更される場合、多くの場合、タスクの期間が更新されていることが原因です。</li> 
       <li>タスクの制約が「固定日付」か「指定日に終了」のいずれかである場合、プロジェクトマネージャーまたはタスク責任者は、予定完了日を手動で設定できます。タスクの制約について詳しくは、<a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">タスク制約の概要</a>を参照してください。</li> 
       <li>タスクの期間タイプが変更され、同時にタスクのリソース数が変更されると、予定完了日も変更されます。期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">実際の開始日時</td> 
-      <td> <p>タスクの実際の開始日を指定します。タスクのステータスを「進行中」に変更すると、デフォルトは通常、自動的に設定されます。実際の開始日は、プロジェクトマネージャーまたはタスク責任者が手動で変更することもできます。 </p> </td> 
+      <td> <p>タスクの実際の開始日を指定します。デフォルトは、通常、タスクのステータスを「処理中」に変更すると自動的に入力されます。 実際の開始日は、プロジェクトマネージャーまたはタスク責任者が手動で変更することもできます。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">実際の完了日時</td> 
@@ -295,9 +296,9 @@ ht-degree: 99%
 
    <p>タスクの完了に必要な工数。プロジェクトマネージャーは、タスクの完了に必要な作業量を見積もる際に、予定時間数の代わりにこのフィールドを使用することにします。このフィールドは、次の条件を満たした場合にのみ表示されます。</p> 
       <ul> 
-      <li> <p>タスクの期間タイプが「シンプル」である。 </p> <p><b>ヒント</b>
+      <li> <p>タスクの期間タイプはシンプルです。 </p> <p><b>ヒント</b>
 
-   タスクの期間タイプを変更すると、このフィールドは淡色表示になります。 </p> </li>
+   タスク期間の種類を変更すると、このフィールドは淡色表示になります。 </p> </li>
    <li>プロジェクトマネージャーが、プロジェクトの「作業量を使うとタスクの予定時間数を自動的に計算できます」フィールドを有効にしてある。 </li> 
       </ul> 
       <p>次のオプションから選択します。</p> 
@@ -308,7 +309,7 @@ ht-degree: 99%
       </ul> 
       <p><b>メモ</b>
 
-   工数を更新すると、タスクの予定時間数が更新される可能性があります。プロジェクトの更新タイプが「自動」の場合、更新は即時に行われます。プロジェクトの更新タイプが「手動」の場合、更新された予定時間数を確認するにはタイムラインを再計算する必要があります。 </p>
+   工数を更新すると、タスクの予定時間数が更新される可能性があります。プロジェクトの更新タイプが「自動」の場合、更新は即時に行われます。プロジェクトの更新タイプが「手動」の場合は、更新された予定時間数を表示するためにタイムラインを再計算する必要があります。 </p>
 
    <p>予定時間数ではなく作業量を使用してタスク量を見積もる方法について詳しくは、<a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">作業量の概要</a>を参照してください。 </p> 
     </td> 
@@ -354,7 +355,7 @@ ht-degree: 99%
       <li> <p>タスクに割り当てられたリソースの数 </p> </li> 
       <li> <p>タスクの完了に必要な合計作業量 </p> </li> 
       <li> <p> タスクの合計期間。 </p> </li> 
-       </ul> <p>システムまたはグループのタスクについては、Workfront 管理者<span>またはグループ管理者</span>がデフォルトの「期間タイプ」設定を選択します。プロジェクトデフォルトの設定については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
+       </ul> <p>Workfront管理者またはグループ管理者が、システムまたはグループのタスクに対してデフォルトの「期間タイプ」設定を選択します。 プロジェクトデフォルトの設定については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>を参照してください。 </p> <p>期間タイプを使用すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。タスクの期間タイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスク継続期間と期間タイプの概要</a>を参照してください。 </p> <p>次のオプションから選択します。 </p> 
        <ul> 
       <li> <p>予定割り当て時間 </p> </li> 
       <li> <p> 予定作業 </p> </li> 
@@ -401,7 +402,7 @@ ht-degree: 99%
       <td>H</td> 
       </tr> 
       <tr> 
-      <td>日。これがデフォルトです。 </td> 
+      <td>日 これがデフォルトです。 </td> 
       <td>D</td> 
       </tr> 
       <tr> 
@@ -445,7 +446,7 @@ ht-degree: 99%
    </tr> 
    <tr> 
    <td role="rowheader">予定時間数</td> 
-   <td> <p>タスクの予定時間数を時間単位で指定します。タスクの担当者がタスクを完了するのにかかる実際の時間です。タスクの予定時間数を指定できるのは、期間タイプが予定割り当て時間に設定されている場合のみです。期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</p> 
+   <td> <p>タスクの予定時間数を時間単位で指定します。 これは、タスクの担当者が完了するまでにかかる実際の時間です。 タスクの予定時間数を指定できるのは、[ 期間タイプ ] が [ 割り当て計算 ] に設定されている場合のみです。 期間のタイプについて詳しくは、<a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">タスクの期間と期間のタイプの概要</a>を参照してください。</p> 
    <b>メモ</b>
    <p>
    繰り返しタスクを作成する場合、予定時間数はそれぞれの繰り返しタスクの時間です。親タスクの予定時間数は、すべてのタスクからのすべての予定時間数の合計です。繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクを作成</a>を参照してください。
@@ -484,9 +485,9 @@ ht-degree: 99%
 
 1. 「**カスタムフォームを追加**」をクリックし、タスクに関連付けるカスタムフォームまたはフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。
 
-   カスタムフォームの作成について詳しくは、[カスタムフォームを作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。1 つのタスクに最大 10 個のカスタムフォームを追加することができます。
+   カスタムフォームの作成について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。1 つのタスクに最大 10 個のカスタムフォームを追加できます。
 
-1. （条件付き）カスタムフォームをタスクに添付した場合は、フォーム上の任意のフィールドを編集します。タスクを保存する前に、すべての必須フィールドを指定する必要があります。
+1. （条件付き）カスタムフォームをタスクに添付した場合は、フォーム上の任意のフィールドを編集します。タスクを保存する前に、必須フィールドをすべて指定する必要があります。
 
    >[!NOTE]
    >
@@ -567,7 +568,7 @@ ht-degree: 99%
      </tr> 
      <tr> 
       <td role="rowheader">標準化の遅延</td> 
-      <td> <p>平準化の遅延を時間単位で指定します。 </p> <p> 平準化の遅延について詳しくは、<a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">タスクの平準化の遅延をアップデート</a>を参照してください。 </p> </td> 
+      <td> <p>標準化の遅延を時間単位で指定します。 </p> <p> 平準化の遅延について詳しくは、<a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">タスクの平準化の遅延をアップデート</a>を参照してください。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">承認プロセス</td> 
@@ -630,4 +631,4 @@ ht-degree: 99%
 
 リスト内のタスクに加えた変更を自動的に保存する場合は、リスト内のタスクを一括で編集し、そのすべての情報を同時に更新できます。
 
-タスクの一括保存について詳しくは、[リスト内のタスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)の記事で「タスクを一括編集」の節を参照してください。
+タスクの一括保存について詳しくは、「リストでのタスクの編集 [ の「タスクの一括編集」の節を参照してくだ ](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) い。

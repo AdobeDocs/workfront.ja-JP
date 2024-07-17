@@ -9,7 +9,7 @@ exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
 source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -49,7 +49,7 @@ Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つ�
 </td>
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront ライセンス*</td>
+ <td role="rowheader">Adobe Workfront プラン*</td>
  <td>
  <p>新規ライセンス：コントリビューター以上</p>
  または
@@ -80,7 +80,7 @@ Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つ�
  </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューに目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>

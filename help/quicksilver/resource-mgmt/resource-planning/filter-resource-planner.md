@@ -9,7 +9,7 @@ exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
 source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
 source-wordcount: '2415'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上<!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
@@ -45,7 +45,7 @@ ht-degree: 99%
    <td role="rowheader">アクセスレベル設定*</td> 
    <td> <p>プロジェクト、ユーザー、およびリソース管理に対する、表示以上のアクセス権 </p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、「<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>」を参照してください。</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -154,7 +154,7 @@ ht-degree: 99%
 1. （オプション）フィルターおよびフィルターの条件修飾子を選択します。使用可能な修飾子については、[フィルターおよび条件修飾子](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)で説明されています。
 
    ユーザーベースまたは日付ベースのワイルドカードを使用して、ログインしているユーザーに関連する情報をフィルタリングできます。\
-   フィルターでサポートされるワイルドカードについて詳しくは、 [ワイルドカードフィルター変数の概要](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   フィルターでサポートされるワイルドカードについて詳しくは、[ワイルドカードフィルター変数の概要](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 
 1. 「**保存**」をクリックして、フィルタールールを保存します。
 1. （オプション）「**フィルタールールを追加**」をクリックして、別のオブジェクトまたはフィールドに新しいルールを追加します。

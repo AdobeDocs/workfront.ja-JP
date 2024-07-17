@@ -9,7 +9,7 @@ exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 リソースマネージャーは、Adobe Workfront ワークロードバランサーを使用して、まだユーザーに割り当てられていない作業アイテムを表示したり、それらのアイテムをユーザーに割り当てることができます。
 
-ワークロード・バランサの一般情報については、 [ワークロードバランサーの概要](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+ワークロードバランサーに関する一般的な情報については、[ワークロードバランサーの概要](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)を参照してください。
 
 Workfront のその他のエリアにあるユーザーに作業アイテム（タスクとイシュー）を割り当てることができます。ただし、ワークロードバランサーを使用すると、ユーザーの空き時間を簡単に把握し、割り当てられているその他のアイテムをすべて明確に確認してから、さらに作業を割り当てることができます。
 
@@ -47,7 +47,7 @@ Workfront は、次の情報を使用して、ワークロードバランサー�
 
 * ユーザーの休暇。これは、ユーザーが休暇を取る予定の日を示します。
 
-  詳しくは、 [個人の休日を設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  詳しくは、[個人の休暇の設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)を参照してください。
 
 * ユーザーの作業時間。これは、オーバーヘッドを含まずに、実際のプロジェクト関連作業を実行するためにユーザーが使用できる FTE 時間の割合を示します。「作業時間」の値を 1 に設定すると、プロジェクト関連の作業でユーザーがフルタイム相当の時間をすべて使用できることを示します。
 

@@ -8,7 +8,7 @@ exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
 source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
 source-wordcount: '1583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 98%
 >
 >このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
 >
->Adobe Admin Consoleでの完全な管理者アクセス権の付与手順については、 [Adobe Admin Consoleでのシステム管理者の管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Adobe Admin Console で完全な管理者アクセスを付与する手順について詳しくは、[Adobe Admin Console でシステム管理者を管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
@@ -45,7 +45,7 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 

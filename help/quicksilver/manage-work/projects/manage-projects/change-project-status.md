@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-projects
 title: プロジェクトのステータスの変更
-description: 必要に応じて、プロジェクトのステータスを手動で他のステータスに更新できます。 プロジェクトの [ 完了モード ] が [ 手動 ] に設定されている場合にのみ、プロジェクトの [ ステータス ] を [ 完了 ] に設定するステータスに手動で更新できます。
+description: 必要に応じて、プロジェクトのステータスを他の任意のステータスに、手動で更新できます。プロジェクトの「完了モード」が「手動」に設定されている場合にのみ、プロジェクトのステータスを「完了」と同等のステータスに手動で更新できます。
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
 source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
 workflow-type: tm+mt
 source-wordcount: '372'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -17,13 +17,13 @@ ht-degree: 61%
 
 <!--Audited: 02/2024-->
 
-必要に応じて、プロジェクトのステータスを手動で他のステータスに更新できます。
+必要に応じて、プロジェクトのステータスを他の任意のステータスに、手動で更新できます。
 
-プロジェクトの [ 完了モード ] が [ 手動 ] に設定されている場合にのみ、プロジェクトの [ ステータス ] を [ 完了 ] に設定するステータスに手動で更新できます。
+プロジェクトの「完了モード」が「手動」に設定されている場合にのみ、プロジェクトのステータスを「完了」と同等のステータスに手動で更新できます。
 
-それ以外の場合は、プロジェクトのすべてのタスクと問題が完了し、承認されると、Adobe Workfrontは自動的にプロジェクトを完了としてマークします。
+それ以外の場合、プロジェクトのすべてのタスクとイシューが完了して承認されると、Adobe Workfront は自動的にプロジェクトを「完了」としてマークします。
 
-プロジェクトの完了モードの詳細については、 [プロジェクトを編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+プロジェクトの完了モードについて詳しくは、[プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
 ## アクセス要件
 
@@ -38,7 +38,7 @@ ht-degree: 61%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規：標準 </p> 
    または
    <p>現在：プラン </p>
@@ -55,7 +55,7 @@ ht-degree: 61%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者に問い合わせてください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 特定のステータスに更新する際の考慮事項
 

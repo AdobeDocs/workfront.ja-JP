@@ -1,8 +1,8 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: "移動する [!DNL Adobe Workfront]：記事インデックス"
-description: これらの記事を確認して、Adobe Workfrontの操作方法やWorkfrontの用語を学ぶ方法を理解します。
+title: 「 [!DNL Adobe Workfront] の操作：記事インデックス」
+description: Adobe Workfront の操作方法を理解し、Workfront の用語を確認するには、以下の記事を参照してください。
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
@@ -10,15 +10,15 @@ exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
 source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# 移動 [!DNL Adobe Workfront]：記事インデックス
+# [!DNL Adobe Workfront] の操作：記事インデックス
 
 <!-- Audited: 12/2023 -->
 
-これらの記事を確認して、Adobe Workfrontの操作方法やWorkfrontの用語を学ぶ方法を理解します。
+Adobe Workfront の操作方法を理解し、Workfront の用語を確認するには、以下の記事を参照してください。
 
 この節では、以下のサブセクションおよび記事について説明します。
 

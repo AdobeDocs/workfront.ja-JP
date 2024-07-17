@@ -5,7 +5,8 @@ title: キャンバスダッシュボードでのグラフレポートの作成
 description: データを棒グラフ、列グラフ、折れ線グラフまたは円グラフとして視覚化するグラフレポートは、キャンバスダッシュボードに追加できます。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '174'
 ht-degree: 25%
@@ -16,7 +17,7 @@ ht-degree: 25%
 
 データを棒グラフ、列グラフ、折れ線グラフまたは円グラフとして視覚化するグラフレポートは、キャンバスダッシュボードに追加できます。
 
-キャンバスダッシュボードでのレポートの追加および並べ替えに関する一般的な情報については、を参照してください [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+キャンバスダッシュボードでのレポートの追加および配置に関する一般的な情報については、[ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。
 
 ## アクセス要件
 
@@ -31,7 +32,7 @@ ht-degree: 25%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>新規：標準
    <p>または</p>
    <p>現在：プラン</p></td> 
@@ -49,4 +50,4 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->この記事はまだ仕上がっていない。 キャンバスダッシュボードにレポートを追加するための一般的な手順については、記事を参照してください [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>この記事はまだ仕上がっていない。 キャンバスダッシュボードへのレポートの追加に関する一般的な手順については、記事 [ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。

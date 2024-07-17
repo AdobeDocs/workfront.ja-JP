@@ -10,7 +10,7 @@ exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
 source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
 workflow-type: tm+mt
 source-wordcount: '657'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
 
 >[!IMPORTANT]
 >
->予算時間は、通常、Adobe Workfrontデータベースで 1 時間ごとに更新されます（まれに、最大 3 時間かかる場合があります）。 レポートを更新しても、そのレポート内の時間数の情報は必ずしも更新されるわけではありません。前回のアップデート以降の経過時間は、それぞれの予算計上時間数のレポートの右上隅に表示されます。レポートを更新すると、前回のアップデートから 1 時間以上経過した場合にのみ、レポート内の情報がアップデートされます。
+>予算計上時間数は、通常、Adobe Workfront データベースで 1 時間ごとに更新されます（まれに、最大 3 時間かかる場合があります）。レポートを更新しても、そのレポート内の時間数の情報は必ずしも更新されるわけではありません。前回のアップデート以降の経過時間は、それぞれの予算計上時間数のレポートの右上隅に表示されます。レポートを更新すると、前回のアップデートから 1 時間以上経過した場合にのみ、レポート内の情報がアップデートされます。
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
 
@@ -41,7 +41,7 @@ ht-degree: 94%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ ht-degree: 94%
 
    これにより、予算時間数が指定した小数点以下の桁数に丸められます。
 
-   Workfrontで数値を丸める方法について詳しくは、 [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Workfront で数値を四捨五入する方法について詳しくは、[計算済みデータ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)の記事を参照してください。
 
 1. （オプション）「**列を追加**」をクリックして、列を追加します。
 1. （オプション）レポートを読みやすくするために、そのレポートにグループ化を追加することをお勧めします。以下のグループ化をお勧めします。

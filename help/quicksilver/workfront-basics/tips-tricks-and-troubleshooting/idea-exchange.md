@@ -6,7 +6,7 @@ description: '[!UICONTROL イノベーションラボ]を使用すると、認�
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
 source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 100%
 

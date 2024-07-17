@@ -73,11 +73,11 @@ Fusion 開発ツールの概要ビデオとチュートリアルについては�
 * [ [!DNL Adobe Unified Experience] で開発ツールにアクセス](#access-the-devtool-in-the-adobe-unified-experience)
 * [クラシック  [!DNL Fusion]  エクスペリエンスで開発ツールにアクセス](#access-the-devtool-in-the-classic-fusion-experience)
 
-### で開発ツールにアクセスします [!DNL Adobe Unified Experience] または新しい Fusion エクスペリエンス
+### [!DNL Adobe Unified Experience] または新しい Fusion エクスペリエンスの開発ツールにアクセスします。
 
 Adobe統合シェルで Fusion を使用している場合、または新しい Fusion エクスペリエンスに更新した場合は、シナリオエディターから開発ツールにアクセスできます。
 
-1. 「」をクリックします **ヘルパーツール** ![ヘルパーツール](assets/debugger-icon.png) アイコンが画面の下部付近に表示されます。
+1. 画面下部の **ヘルパーツール**![ ヘルパーツール ](assets/debugger-icon.png) アイコンをクリックします。
 
 または：
 

@@ -10,7 +10,7 @@ exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '518'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 

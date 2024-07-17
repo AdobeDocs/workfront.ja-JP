@@ -9,7 +9,7 @@ exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '637'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 91%
       * [!UICONTROL 計画中]
       * [!UICONTROL 承認済み]
       * [!UICONTROL 現在]
-   * **[!UICONTROL リクエスト済み]**：選択したポートフォリオに関連付けられているプロジェクトが含まれ、ステータスは「 **[!UICONTROL リクエスト済み]**.
+   * **[!UICONTROL 要求済み]**：選択したポートフォリオに関連付けられている、ステータスが&#x200B;**[!UICONTROL 要求済み]**&#x200B;のプロジェクトを含みます。
 
      リクエストされたプロジェクトの確認については、[リクエストされたプロジェクトの確認](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)を参照してください。
 
@@ -93,10 +93,10 @@ ht-degree: 91%
      >
      >特定のプロジェクトのみを表示するには、プロジェクトのリストの上部にある&#x200B;**[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューでプロジェクトフィルターを作成して、表示されるプロジェクトの数を減らします。
 
-     フィルターの作成について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+     フィルターの作成について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 
-1. クリック **[!UICONTROL プログラム]** 左側のパネルで、ポートフォリオ内にプログラムを作成したり、既存のプログラムを管理したりします。\
+1. 左パネルの「**[!UICONTROL プログラム]**」をクリックして、ポートフォリオ内にプログラムを作成するか、既存のプログラムを管理します。\
    プログラムについて詳しくは、[プログラムの作成と管理](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)を参照してください。
 
 1. （オプション）**[!UICONTROL ポートフォリオの詳細]**&#x200B;領域を展開して、「**[!UICONTROL 概要]**」または「**[!UICONTROL カスタムフォーム]**」をクリックし、ポートフォリオに関する情報を編集します。
@@ -112,7 +112,7 @@ ht-degree: 91%
    ポートフォリオ最適化の使用について詳しくは、[ポートフォリオ最適化でのプロジェクトの管理](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)を参照してください。
 
 1. （オプション）左側のパネルの「**ドキュメント**」をクリックして、ドキュメントをポートフォリオに添付します。
-1. （オプション）「 **[!UICONTROL 更新]** 左側のパネルで、ポートフォリオの更新ストリームにコメントを追加します。 詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+1. （オプション）左パネルの「**[!UICONTROL 更新]**」をクリックして、ポートフォリオの更新ストリームにコメントを追加します。詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 1. （オプション）**[!UICONTROL その他] メニュー** ![](assets/qs-more-icon-on-an-object.png) をクリックして、次のいずれかの操作を実行します。
 
    * ポートフォリオをディアクティベートします。ポートフォリオをディアクティベートすると、プロジェクトレベルでプロジェクトに関連付けることができなくなります。

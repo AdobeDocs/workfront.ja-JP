@@ -9,8 +9,8 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
 source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
-workflow-type: ht
-source-wordcount: '459'
+workflow-type: tm+mt
+source-wordcount: '460'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -52,7 +52,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 1. （オプション）上位のオブジェクトからのタスクに継承された権限を制限するには、「**追加制限を設定**」をクリックし、「**プロジェクト、タスク、イシューなどからドキュメントへのアクセス権を継承しない**」を選択します。
 
 1. （オプション）作業中のアクセスレベルの他のオブジェクトやエリアのアクセス設定を指定するには、[Adobe Workfront に対するアクセス権の設定](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md)にある記事のうちの 1 つ（[タスクへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)、[財務データへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)など）に従って、作業を続けます。
-1. 完了したら、「**保存**」をクリックします。
+1. 完了したら「**保存**」をクリックします。
 
    作成したアクセスレベルは、ユーザーに割り当てることができます。詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 

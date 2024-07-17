@@ -10,8 +10,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 168e8fce-645d-4108-84b7-46a113c83f41
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '3821'
+workflow-type: tm+mt
+source-wordcount: '3817'
 ht-degree: 100%
 
 ---
@@ -45,15 +45,15 @@ ht-degree: 100%
    <td>
    <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
-   <p>従来のライセンス要件： [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、[!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も組織で購入する必要があります。[!DNL Workfront Fusion] は [!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明されている機能を使用するには、[!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も組織で購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
 ## [!DNL Google Calendar] モジュールとそのフィールド
 
-[!DNL Google Calendar] モジュールを設定する際に、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Google Calendar] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL Google Calendar] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Google Calendar] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
 フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
 
@@ -686,7 +686,7 @@ ht-degree: 100%
     <ul> 
      <li><strong>[!UICONTROL None]</strong>：この役割はアクセス権を提供しません。</li> 
      <li><strong>[!UICONTROL Free Busy Reader]</strong>：ユーザーは空き時間情報を読み取ることができます。 </li> 
-     <li><strong>[!UICONTROL Owner]</strong>：ユーザーはイベントの読み取りと変更を行い、制御リストにアクセスできます。 </li> 
+     <li><strong>[!UICONTROL Owner]</strong>：ユーザーはイベントの読み取りと変更を行い、コントロールリストにアクセスできます。 </li> 
      <li><strong>[!UICONTROL Reader]</strong>：ユーザーはプライベートでないイベントを読み取ることができます。 </li> 
      <li><strong>[!UICONTROL Writer]</strong>：ユーザーはイベントの読み取りと変更を行うことができます。</li> 
     </ul> </td> 
@@ -746,11 +746,11 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Google Calendar] アカウントを [!DNL Workfront Fusion] に接続する手順について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください</p> </td> 
+   <td> <p>[!DNL Google Calendar] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td><code>https://www.googleapis.com/calendar</code> への相対パスを入力します。例： <code>/v3/users/me/calendarList</code></td> 
+   <td><code>https://www.googleapis.com/calendar</code> からの相対パスを入力します。例： <code>/v3/users/me/calendarList</code></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
@@ -758,7 +758,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>例えば <code>{"Content-type":"application/json"}</code> のように、標準の JSON オブジェクトの形式でリクエストのヘッダーを追加します。[!DNL Workfront Fusion] は認証ヘッダーを追加します。</p> </td> 
+   <td> <p>標準の JSON オブジェクトの形式でリクエストのヘッダーを追加します（例：<code>{"Content-type":"application/json"}</code>）。認証ヘッダーは [!DNL Workfront Fusion] によって追加されます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 

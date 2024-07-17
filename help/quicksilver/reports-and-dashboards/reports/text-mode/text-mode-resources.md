@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: "テキストモードのリソース：記事のインデックス"
+title: 「テキストモードのリソース：記事インデックス」
 description: テキストモードのリソース
 author: Nolan
 feature: Reports and Dashboards
@@ -11,11 +11,11 @@ exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
 source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
-# テキストモードのリソース：記事のインデックス
+# テキストモードのリソース：記事インデックス
 
 <!-- Audited: 12/2023 -->
 
@@ -33,7 +33,7 @@ ht-degree: 87%
 * [テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [テキストモードを使用したフィルターの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 * [グループ化でのテキストモードの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
-* [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [カスタムビュー、フィルタ、およびグループ化の例：記事インデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

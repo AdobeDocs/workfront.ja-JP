@@ -8,7 +8,7 @@ feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1002'
 ht-degree: 100%
 
@@ -41,7 +41,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
@@ -143,7 +143,7 @@ When assigning users to work, their availability according to their schedules af
 
    * 個々の割り当て先を削除するには：
 
-      1. 割り当てリストに担当者が表示されている場合、削除する担当者の名前の横にある **X アイコン**&#x200B;をクリックします。
+      1. 割り当てリストに割り当て先が表示されている場合は、削除する割り当て先の名前の横にある **X アイコン**&#x200B;をクリックします。
 
          または
 
@@ -168,7 +168,7 @@ When assigning users to work, their availability according to their schedules af
      >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「シンプル」の場合は、時間を更新できます。期間タイプについて詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
      >
      >
-     このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。
+     >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。
 
    * **タスク責任者**：このオプションを選択すると、担当者が編集中のすべてのタスクの、タスクの所有者になります。
    * **割り当て先の役割**：ドロップダウンリストから役割を選択します。選択しない場合、Adobe Workfront はユーザーのプライマリ役割を自動的に選択します。

@@ -10,7 +10,7 @@ exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
 source-git-commit: c547ff323ad9e43472074964ac365447755e4aa5
 workflow-type: tm+mt
 source-wordcount: '284'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -105,9 +105,9 @@ Listen 443
 
 次のリンクをクリックして、クライアント証明書をダウンロードします。
 
-* [クライアント証明書 — 実稼動環境](assets/event_subscription_nov_2023_production.crt)
-* [クライアント証明書 — 環境のプレビュー](assets/event_subscription_nov_2023_preview.crt)
-* [クライアント証明書 — サンドボックス環境](assets/event_subscription_nov_2023_sandboxes.crt)
+* [クライアント証明書 - 実稼動環境](assets/event_subscription_nov_2023_production.crt)
+* [クライアント証明書 - プレビュー環境](assets/event_subscription_nov_2023_preview.crt)
+* [クライアント証明書 - サンドボックス環境](assets/event_subscription_nov_2023_sandboxes.crt)
 
 >[!NOTE]
 >

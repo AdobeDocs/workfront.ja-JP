@@ -9,7 +9,7 @@ exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '1251'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 フィルターとプロンプトは、両方ともレポートに表示する情報の量を制限するという意味で似ています。
 
-レポートを実行するたびに、レポートに表示される情報を同じ条件でフィルタリングする場合は、フィルターを作成します。フィルターは 1 回だけ作成され、レポートハードコーディングされます。フィルターの作成について詳しくは、「 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+レポートを実行するたびに、レポートに表示される情報を同じ条件でフィルタリングする場合は、フィルターを作成します。フィルターは 1 回だけ作成され、レポートハードコーディングされます。フィルターの作成について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)の記事を参照してください。
 
 プロンプトはオープンフィルターで、レポートを実行するたびに異なる方法でカスタマイズおよび適用できます。
 
@@ -48,7 +48,7 @@ ht-degree: 99%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

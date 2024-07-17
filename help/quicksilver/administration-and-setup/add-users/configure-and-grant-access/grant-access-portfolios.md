@@ -32,7 +32,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 

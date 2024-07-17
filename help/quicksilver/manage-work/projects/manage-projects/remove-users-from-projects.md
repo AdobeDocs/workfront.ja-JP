@@ -9,13 +9,13 @@ exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
 source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
 workflow-type: tm+mt
 source-wordcount: '570'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # プロジェクトからユーザーを削除
 
-プロジェクトの作業の完了に関与しなくなったユーザーを、プロジェクトから削除できます。プロジェクトからユーザーを削除すると、タスクとイシューの割り当て、およびプロジェクトの役割に影響を与えます。削除されたユーザーは、プロジェクトチーム宛ての通知を受信しなくなります。プロジェクトチームへの通知の詳細については、 [イベント通知タイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+プロジェクトの作業の完了に関与しなくなったユーザーを、プロジェクトから削除できます。プロジェクトからユーザーを削除すると、タスクとイシューの割り当て、およびプロジェクトの役割に影響を与えます。削除されたユーザーは、プロジェクトチーム宛ての通知を受信しなくなります。プロジェクトチームへの通知について詳しくは、[イベント通知タイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
 
 プロジェクトに関連付けられているユーザーは、プロジェクトのユーザーエリアにリストされます。プロジェクトチームを表します。プロジェクトチームに関して詳しくは、[プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
 
@@ -32,7 +32,7 @@ ht-degree: 97%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

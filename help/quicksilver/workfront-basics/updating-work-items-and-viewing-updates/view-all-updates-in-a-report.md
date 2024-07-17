@@ -40,7 +40,7 @@ ht-degree: 61%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>新規：標準 </p>
    <p>現在：プラン</p> </td> 
   </tr> 
@@ -60,7 +60,7 @@ ht-degree: 61%
  </tbody> 
 </table>
 
-*詳細については、を参照してください [Adobe Workfrontのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*詳しくは、[Adobe Workfrontのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## メモレポートの作成
 
@@ -78,16 +78,16 @@ ht-degree: 61%
 1. （オプション）複数のプロジェクトを同時にレポートする場合は、「**グループ化**」をクリックし、「**グループ化を追加**」をクリックして、**プロジェクト名**&#x200B;でグループ化します。\
    これにより、メモが各プロジェクトごとにグループ化され、レポートが読みやすくなります。 
 
-1. （任意）クリック **フィルター、** その後 **フィルタールールを追加**.
-1. のフィルターを追加 **注意** > **メモ テキスト** > **が空白ではない**.
+1. （任意）「**フィルター**」をクリックして、「**フィルタールールを追加**」をクリックします。
+1. **メモ**/**メモテキスト**/**空白でない** のフィルターを追加します。
 
    ![](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >
-   >   プロジェクトフィールドが更新されたが、更新時にメモが追加されていない場合、 **メモ テキスト** 更新の表示方法 **（更新にテキストが追加されていません）**.
+   >   プロジェクトフィールドが更新されても、更新時にメモが追加されなかった場合、更新の **メモテキスト** は **（更新にテキストが追加されていません）** と表示されます。
 
 
-1. （任意）に別のフィルターを追加します **プロジェクト** > **名前** > **次と等しい** メモを表示する 1 つまたは複数のプロジェクト名を追加します。
+1. （任意） **プロジェクト**/**名前**/**次と等しい** の別のフィルターを追加し、メモを表示する 1 つまたは複数のプロジェクト名を追加します。
 1. 「**保存して閉じる**」をクリックします。\
    プロジェクトに対して表示以上の権限を持つすべてのユーザーがプロジェクトに入力したすべての更新が、レポートに表示されます。

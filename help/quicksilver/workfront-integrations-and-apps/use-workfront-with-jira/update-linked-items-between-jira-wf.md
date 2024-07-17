@@ -9,7 +9,7 @@ exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
 source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
 workflow-type: tm+mt
 source-wordcount: '1570'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 97%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td><p>新規：任意</p>
        <p>または</p>
-       <p>現在： [!UICONTROL Pro] 以降</p> </td> 
+       <p>現在：[!UICONTROL Pro] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>新規： [!UICONTROL Standard]</p>
+   <td><p>新規：[!UICONTROL Standard]</p>
        <p>または</p>
-       <p>現在： [!UICONTROL プラン ]</p> </td> 
+       <p>現在：[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] アクセス</td> 
@@ -56,11 +56,11 @@ ht-degree: 97%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
-次の間で項目をリンクする前に： [!DNL Workfront] および [!DNL Jira]を使用する場合は、次の操作を行う必要があります。
+[!DNL Workfront] と [!DNL Jira] の間で項目をリンクするには、次のことを行う必要があります。
 
 * [!DNL Workfront for Jira] をインストールする。
 
@@ -251,4 +251,4 @@ ht-degree: 97%
 
    * [!DNL Jira] イシューの「**[!DNL Workfront]**」タブ
    * [!DNL Jira] イシューの「**[!UICONTROL コメント]**」タブ
-   * リンクされた Workfront アイテムの「[**[!UICONTROL 更新]**」タブ
+   * リンクされた Workfront アイテムの「**[!UICONTROL 更新]**」タブ。

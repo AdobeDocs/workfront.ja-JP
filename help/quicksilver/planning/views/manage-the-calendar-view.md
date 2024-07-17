@@ -30,7 +30,7 @@ hide: yes
 
 レコードタイプページから、レコードとそのフィールドをカレンダー表示で表示できます。
 
-Adobe Workfrontのプランニング・ビューとその管理方法については、を参照してください。 [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md).
+Adobe Workfrontのプランニングビューとその管理方法について詳しくは、[ レコードビューの管理 ](/help/quicksilver/planning/views/manage-record-views.md) を参照してください。
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -88,7 +88,7 @@ Adobe Workfrontのプランニング・ビューとその管理方法につい�
  </tbody>
 </table>
 
-*詳細については、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## カレンダー表示の管理 {#manage-a-calendar-view}
 
@@ -108,7 +108,7 @@ Adobe Workfrontのプランニング・ビューとその管理方法につい�
 カレンダー表示を管理するには：
 
 1. カレンダーを表示するレコードタイプ ページに移動します。
-1. 記事の説明に従って、カレンダービューを作成します [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md).
+1. 「レコードビューの管理 [ の記事の説明に従って、カレンダービューを作成 ](/help/quicksilver/planning/views/manage-record-views.md) ます。
 
    ![](assets/calendar-view-example.png)
 
@@ -117,7 +117,7 @@ Adobe Workfrontのプランニング・ビューとその管理方法につい�
 1. カレンダー内を移動するには、次のいずれかの操作を行います。
 
    * 左右のアイコンをクリックするか、水平スクロールを使用してカレンダー内を前後に移動します。
-   * クリック **今日** カレンダーを今日の日付に中央揃えにします。
+   * カレンダーを今日の日付の中央に配置するには、[**今日**] をクリックします。
    * 時間枠ドロップダウンメニューから次のいずれかのオプションを選択して、時間間隔を更新します。
 
       * 月

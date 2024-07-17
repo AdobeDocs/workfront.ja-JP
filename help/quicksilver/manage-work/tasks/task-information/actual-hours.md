@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '796'
 ht-degree: 100%
 
@@ -39,7 +39,7 @@ Adobe Workfront で作業項目に記録した時間は、実際の時間数と�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 

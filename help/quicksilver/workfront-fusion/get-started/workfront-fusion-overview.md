@@ -70,7 +70,7 @@ ht-degree: 95%
 
 ## リソース
 
-Workfront Fusion の使用を開始する際に役立つリソースを以下に示します。
+Workfront Fusion の使用を開始する際には、次のリソースが役に立つ場合があります。
 
 * 利用可能な [!DNL Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 

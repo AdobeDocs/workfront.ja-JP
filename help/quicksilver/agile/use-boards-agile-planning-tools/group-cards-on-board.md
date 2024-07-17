@@ -10,7 +10,7 @@ exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
 source-git-commit: 3cb62cb00bb6c13a0b03203bda1840bce8a4d7a7
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->取り込みカラム内のカードはグループに含まれず、グループが適用されると取り込みカラムは非表示になります。 取り込み列について詳しくは、[ボードに取り込み列を追加](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)を参照してください。
+>取り込み列内のカードはグループには含まれず、グループが適用されると取り込み列は非表示になります。取り込み列について詳しくは、[ボードに取り込み列を追加](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)を参照してください。
 
 ## アクセス要件
 

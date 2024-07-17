@@ -9,7 +9,7 @@ exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Workfront 管理者は、環境にカスタムの状況を作成できま�
    <td><p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>
 
 新しいライセンスの場合：
@@ -57,7 +57,7 @@ Adobe Workfront 管理者は、環境にカスタムの状況を作成できま�
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 状況の自動設定
 
@@ -71,10 +71,10 @@ Adobe Workfront 管理者は、環境にカスタムの状況を作成できま�
 
 ## プロジェクトの状況の手動更新
 
-プロジェクトの条件の種類を進捗状況ステータスではなく手動に設定した場合は、手動でプロジェクトの条件を更新できます。
+プロジェクトの状況タイプを進捗ステータスではなく手動に設定すると、プロジェクトの状況を手動で更新できます。
 
 1. 状況を更新するプロジェクトに移動します。
-1. 次をクリック： **プロジェクトの詳細** 」セクションを使用して、
+1. 左側のパネルで、「**プロジェクト詳細**」セクションをクリックします。
 
 1. 「**状況タイプ**」フィールドが「**手動**」に設定されていることを確認します。
 

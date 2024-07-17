@@ -10,7 +10,7 @@ exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1369'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -173,7 +173,7 @@ ht-degree: 99%
 
 タスクの割り当てについて詳しくは、[タスクを割り当て](../../../../manage-work/tasks/assign-tasks/assign-tasks-1.md)を参照してください。
 
-オフの時間について詳しくは、 [個人の休日を設定](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+休暇について詳しくは、[個人スケジュールの設定](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)を参照してください。
 
 >[!NOTE]
 >

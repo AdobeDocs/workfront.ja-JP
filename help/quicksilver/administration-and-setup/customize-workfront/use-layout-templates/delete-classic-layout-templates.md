@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
 source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Classic レイアウトテンプレートを削除すると、これらの不整
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 

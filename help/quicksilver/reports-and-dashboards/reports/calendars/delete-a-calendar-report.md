@@ -7,7 +7,7 @@ author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
 source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 100%
 

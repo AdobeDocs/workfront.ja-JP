@@ -19,7 +19,7 @@ ht-degree: 96%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 配分率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。タスクの期間中にリソースが配分される、（ユーザーまたはプロジェクトのスケジュールに従った）作業日の割合です。
 
@@ -40,7 +40,7 @@ ht-degree: 96%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
@@ -94,7 +94,7 @@ ht-degree: 96%
    実稼動環境のサンプル画像：
    ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
 
-   <span class="preview">プレビュー環境のサンプル画像：</span>
-   ![配賦率の変更](assets/advanced-assignments-allocation-percentage.png)
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![ 配分率の変更 ](assets/advanced-assignments-allocation-percentage.png)
 
-1. 「**保存**」をクリックします。
+1. **保存**&#x200B;をクリックします。

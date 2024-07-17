@@ -11,7 +11,7 @@ exl-id: 0897b269-c6f3-4b63-8956-b7f9fbe0a553
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '4717'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -300,7 +300,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
    <td> <p><strong>リリース日と環境</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-requests-enhancements.md#improved" class="MCXref xref" xrefformat="{para}">リクエストの検索の改善：特殊文字検索の追加</a> </p> <p>リクエストの送信時にリクエストキューをより迅速かつ簡単に見つけられるように、検索アルゴリズムを改善して、特殊文字を含む可能性のあるキューが見つかるようにしました。</p> <p>例えば、「*Workfront」という名前のリクエストキューを検索するには、「リクエストタイプ」フィールドに「*Workfront」または「Workfront」と入力します。</p> <p>すべての特殊文字がサポートされます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.4-release-activity/21-4-requests-enhancements.md#improved" class="MCXref xref" xrefformat="{para}">リクエストの検索の改善：特殊文字検索の追加</a> </p> <p>リクエストの送信時にリクエストキューをより迅速かつ簡単に見つけられるように、検索アルゴリズムを改善して、特殊文字を含む可能性のあるキューが見つかるようにしました。</p> <p>例えば「リクエストタイプ」フィールドに「*Workfront」または「Workfront」と入力すると、「*Workfront」という名前のリクエストキューを見つけることができます。</p> <p>すべての特殊文字がサポートされます。</p> </td> 
    <td><strong>公開日：</strong> <p>プレビューリリース：2021年9月9日（PT）<br></p> <p>実稼動版リリース： 21.4 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -327,7 +327,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
      <li> <p>ログインが必要なプルーフや、電子署名が必要なプルーフに、レビュアーやリクエスターを追加できます。</p> </li> 
      <li> <p>また、Workfront とプルーフの接続性が向上したことで、すべてのユーザーにメリットがもたらされます。これで、ユーザーを非アクティブ化したり、ユーザーのメールアドレスを更新したりする際に、Workfront での変更時にプルーフに更新が正しく反映されるようになりました。</p> </li> 
     </ul> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年8月5日（PT） <br></p> <p>実稼動版リリース：21.4 リリースを使用<span class="uitext" style="color: #dc143c;">（2021年10月20日（PT）にプレビューおよび実稼動環境から削除されました。当初は、完全統合された EMEA のお客様のみにリリースされていました。この機能は、後ですべてのお客様に再導入されます。)</span></p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年8月5日（PT） <br></p> <p>実稼動版リリース：21.4 リリースを使用<span class="uitext" style="color: #dc143c;">（2021年10月20日（PT）にプレビューおよび実稼動環境から削除されました。当初は、完全統合された EMEA のお客様のみにリリースされていました。この機能は、後ですべてのお客様に再導入されます。）</span></p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>

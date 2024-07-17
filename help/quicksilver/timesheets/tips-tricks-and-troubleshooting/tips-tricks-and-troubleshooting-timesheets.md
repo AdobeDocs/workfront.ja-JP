@@ -2,7 +2,7 @@
 content-type: tips-tricks-troubleshooting;reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: "タイムシートのヒント、テクニック、トラブルシューティング：記事のインデックス"
+title: "タイムシートのヒント、テクニックおよびトラブルシューティング：記事インデックス"
 description: 一般的なタイムシートの動作またはタイムシートの潜在的な問題のトラブルシューティング方法について詳しくは、次の記事を参照してください。
 author: Alina
 feature: Timesheets
@@ -11,11 +11,11 @@ exl-id: cf5f93d1-e517-421e-8740-1b80af2ed127
 source-git-commit: 6d2494f1ccb2f9b222a953ed8bae922bd0f26389
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
-# タイムシートに関するヒント、テクニック、トラブルシューティング：記事のインデックス
+# タイムシートのヒント、テクニックおよびトラブルシューティング：記事インデックス
 
 この節では、次の記事を扱います。
 

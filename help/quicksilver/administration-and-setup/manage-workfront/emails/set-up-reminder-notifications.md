@@ -20,7 +20,7 @@ Workfront管理者は、ユーザーにリマインダー通知を作成し、�
 
 リマインダー通知は、指定された基準に基づいてユーザーに送信されるメールを生成します。 リマインダ通知は、タスク、問題、プロジェクトまたはタイムシートに対して実行する必要のあるアクションをユーザーに通知します。
 
-リマインダー通知を作成した後、ユーザーはリマインダー通知をプロジェクト、タスク、イシュー、タイムシートなどの作業項目に手動で関連付けることができます。 詳しくは、を参照してください [オブジェクトにリマインダ通知を添付する](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md).
+リマインダー通知を作成した後、ユーザーはリマインダー通知をプロジェクト、タスク、イシュー、タイムシートなどの作業項目に手動で関連付けることができます。 詳しくは、[ オブジェクトにリマインダー通知を添付する ](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md) を参照してください。
 
 <!--
 DRAFTED IN FLARE:
@@ -59,7 +59,7 @@ An example of how this can be used would be helpful here and/or in the section <
  </tbody> 
 </table>
 
-*この表の情報の詳細は、 [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

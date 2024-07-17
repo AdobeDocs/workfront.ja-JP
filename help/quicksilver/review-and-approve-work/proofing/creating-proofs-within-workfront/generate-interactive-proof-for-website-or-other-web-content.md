@@ -9,7 +9,7 @@ exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
 source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 95%
    <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
@@ -67,7 +67,7 @@ ht-degree: 95%
 
    1. **新規追加**&#x200B;ドロップダウンで、**バージョン**／**プルーフ**&#x200B;をクリックします。
 
-1. Adobe Analytics の **ファイルを追加** 「 」セクションで、配達確認する Web サイトの URL を入力し、 **入力**.  このプロセスを繰り返して、プルーフする複数の web サイトを追加できます。
+1. 「**ファイルを追加**」セクションで、プルーフする web サイトの URL を入力し、**Enter** キーを押します。このプロセスを繰り返して、プルーフする複数の web サイトを追加できます。
 
    ![proof_website.png](assets/proof-website-350x65.png)
 

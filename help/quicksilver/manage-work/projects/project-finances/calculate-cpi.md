@@ -8,8 +8,8 @@ author: Alina
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
 source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
-workflow-type: ht
-source-wordcount: '635'
+workflow-type: tm+mt
+source-wordcount: '644'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ CPI を使用できるのは、時間入力が必要な組織のみです。さ�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 

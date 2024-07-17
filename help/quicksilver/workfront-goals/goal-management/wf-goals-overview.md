@@ -10,7 +10,7 @@ exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '521'
-ht-degree: 84%
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 84%
 
      または
 
-     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、を参照してください [Adobe Workfrontプラン](https://www.workfront.com/plans).
+     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、[Adobe Workfrontプラン ](https://www.workfront.com/plans) を参照してください。
 
 * 現在のプランおよびライセンス構造の場合：
 
@@ -36,7 +36,7 @@ Workfront Goals ライセンスについては、Workfront のアカウントマ
 
 Adobe Workfront Goals は、戦略を作業の実行と配信に結び付けることで、戦略的な成果を定義、伝達、達成するのに役立ちます。真に重要なことに全員の努力を集中させ、進捗を目に見える形にして、チームが素晴らしい成果を達成できるようにすることができます。ユーザーは自分の貢献が有意義な影響を与えていると知っていれば、最高の仕事をすることができます。
 
-Workfront Goals は、主要な Workfront 作業管理プラットフォームのアドオンモジュールです。これはWorkfrontと連携することを目的としています。アドビは、ユーザー、チーム、グループ、プロジェクトなど、多くの設定要素および設定エンティティを共有します。
+Workfront Goals は、主要な Workfront 作業管理プラットフォームのアドオンモジュールです。これは、Workfront と連携し、ユーザー、チーム、グループ、プロジェクトなど、多くの設定要素や設定エンティティを共有することを目的としています。
 
 Workfront Goals の使用に関するベストプラクティスについて詳しくは、[Adobe Workfront Goals の基本を学ぶ](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)を参照してください。
 
@@ -61,7 +61,7 @@ Workfront Goals の使用に関するベストプラクティスについて詳�
 
   プロジェクトを目標に関連付ける方法について詳しくは、[Adobe Workfront Goals の目標にプロジェクトを追加](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
-* 目標、結果、アクティビティを更新して、完了に向けて目標を順調に進めます。
+* 目標、結果およびアクティビティを更新し、完了に向けて目標を達成できるようにします。
 
   目標の進捗状況の更新について詳しくは、[Adobe Workfront Goals で目標の進捗状況を更新](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md)を参照してください。
 

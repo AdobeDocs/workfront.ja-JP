@@ -9,7 +9,7 @@ exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
 source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
 workflow-type: tm+mt
 source-wordcount: '628'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 97%
 
 1. 「**ユーザーの表示項目のカスタマイ**」ドロップダウンメニューをクリックして、「**ダッシュボード**&#x200B;をクリックします。
 
-1. 下に表示される&#x200B;**左パネル**&#x200B;のリストで、**キャンバスダッシュボード**&#x200B;の横にある ![](assets/delete-secondary-nav-item.png) アイコンをクリックします。アイコンがに変わります。 ![](assets/add-secondary-nav-item.png) をクリックして、ダッシュボードが左側のパネルに表示されたことを示します。
+1. 下に表示される&#x200B;**左パネル**&#x200B;のリストで、**キャンバスダッシュボード**&#x200B;の横にある ![](assets/delete-secondary-nav-item.png) アイコンをクリックします。アイコンが ![](assets/add-secondary-nav-item.png) に変わり、ダッシュボードの左パネルに表示されるようになったことがわかります。
 
 1. ウィンドウの下部にある「**保存**」をクリックします。
 

@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: スパムフィルターを回避
-description: Workfront Proof でスパムフィルターを回避する方法を説明します。
+description: Workfront Proof でスパムフィルターを回避する方法について説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 4b01bb97-33ae-4034-b087-a37feef4b4d9
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 

@@ -7,8 +7,8 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: ht
-source-wordcount: '807'
+workflow-type: tm+mt
+source-wordcount: '808'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 

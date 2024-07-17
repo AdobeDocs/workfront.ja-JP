@@ -138,7 +138,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 
    レコードタイプのページが開きます。
 
-1. （条件付き）のタブをクリック **テーブル表示**.
+1. （条件付き） **テーブル表示** のタブをクリックします。
 
    そのレコードタイプに関連付けられている既存のすべてのレコードが、テーブルビューの行に表示されます。
 1. 編集するフィールドの列ヘッダーにポインタを合わせ、フィールド名の後の下向き矢印をクリックして「**フィールドを編集**」をクリックします。
@@ -149,7 +149,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. フィールドに関する情報を更新し、をクリックします **保存**. <!--insert screen shot when finalized-->
+1. フィールドに関する情報を更新し、「**保存**」をクリックします。<!--insert screen shot when finalized-->
 
    >[!TIP]
    >

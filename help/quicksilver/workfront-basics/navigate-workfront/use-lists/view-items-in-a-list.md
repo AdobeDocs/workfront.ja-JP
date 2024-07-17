@@ -8,7 +8,7 @@ exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '2397'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -279,7 +279,7 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td><strong>[!UICONTROL Filter]</strong></td> 
-   <td> <p>フィルターは、指定した条件に基づいて、不要な情報をリストから除外します。 </p> <p>詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">フィルターの概要</a>.</p> </td> 
+   <td> <p>フィルターは、指定した条件に基づいて、不要な情報をリストから除外します。 </p> <p>詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">フィルターの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>[!UICONTROL View]</strong></td> 

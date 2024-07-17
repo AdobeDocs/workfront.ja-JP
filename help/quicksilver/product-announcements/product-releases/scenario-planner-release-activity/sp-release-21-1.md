@@ -9,8 +9,8 @@ author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 2e507c0c-76e2-4335-9682-df4f1940ff88
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
-workflow-type: ht
-source-wordcount: '295'
+workflow-type: tm+mt
+source-wordcount: '299'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ Adobe Workfront シナリオプランナーは、新しい Adobe Workfront エ�
 >
 >ベータプレビューリリース：2021年1月13日
 >
-実稼動版リリース：21.1 リリース
+>実稼動版リリース：21.1 リリース
 
 ## イニシアチブを一括で管理する新しいメニュー
 

@@ -8,8 +8,8 @@ author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
 source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
-workflow-type: ht
-source-wordcount: '304'
+workflow-type: tm+mt
+source-wordcount: '302'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 

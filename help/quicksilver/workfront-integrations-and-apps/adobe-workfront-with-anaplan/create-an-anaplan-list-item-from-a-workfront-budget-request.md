@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
 source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
-workflow-type: ht
-source-wordcount: '807'
+workflow-type: tm+mt
+source-wordcount: '808'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 100%
    <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion ライセンス**</td> 
+   <td role="rowheader" [!DNL>Adobe Workfront Fusion ライセンス**</td> 
    <td> <p>[!UICONTROL Workfront Fusion for Work Automation and Integration] </p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 このシナリオは、15 分ごとに実行されるようにスケジュールされています。
 
-## 想定される [!DNL Workfront] の設定
+## 想定される [!DNL Workfront] 設定
 
 このシナリオを使用するには、[!DNL Workfront] に以下のものが必要です。
 
@@ -141,22 +141,22 @@ ht-degree: 100%
    </tbody> 
   </table>
 
-  カスタムフォームの作成について詳しくは、[カスタムフォームの作成または編集](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
+  カスタムフォームの作成について詳しくは、[カスタムフォームの作成または編集](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください
 
-## 想定される [!DNL Anaplan] の設定
+## 想定される [!DNL Anaplan] 設定
 
-このシナリオを使用するには、[!DNL Anaplan] に以下のものが必要です。
+このシナリオを使用するには、[!DNL Anaplan] で以下のものが必要です。
 
-* **[!UICONTROL [!DNL Workfront]統合]**&#x200B;という名前の、システム管理者権限が付与されている [!DNL Anaplan] のユーザープロファイル。
-* このシナリオで使用する [!DNL Anaplan] モデル。
+* システム管理者権限が付与された **[!UICONTROL [!DNL Workfront]Anaplan Integration]** という名前の [!DNL Anaplan] のユーザープロファイル。
+* このシナリオに使用する [!DNL Anaplan] モデル。
 * キャンペーン予算を取得する [!DNL Anaplan] モデル内のリスト。
 
   リストのモジュールは、次の属性の受信をサポートする必要があります。
 
-   * [!UICONTROL Workfront プロジェクト GUID]
+   * [!UICONTROL Workfront Project GUID]
    * [!UICONTROL キャンペーン名]
    * [!UICONTROL 要求労働資金]
-   * [!UICONTROL 要求費用資金]
+   * [!UICONTROL 要求費用基金]
    * [!UICONTROL 予算要求タイプ]
    * [!UICONTROL 資金調整の理由]
 
@@ -173,9 +173,9 @@ ht-degree: 100%
 
    | 変数名 | 値を次のように置換します。 |
    |---|---|
-   | [!UICONTROL [!DNL Anaplan] ワークスペース ID] | [!DNL Anaplan] アカウントのワークスペースの ID。 |
-   | [!UICONTROL [!DNL Anaplan] モデル ID] | [!DNL Anaplan] アカウントと選択したワークスペースのモデルの ID。 |
-   | [!UICONTROL [!DNL Anaplan] モジュール名] | 選択した [!DNL Anaplan] リスト内のキャンペーン属性を説明するモジュールの名前。 |
+   | [!UICONTROL [!DNL Anaplan]ワークスペース ID] | [!DNL Anaplan] アカウントのワークスペースの ID。 |
+   | [!UICONTROL [!DNL Anaplan]モデル ID] | [!DNL Anaplan] アカウントと選択したワークスペースのモデルの ID。 |
+   | [!UICONTROL [!DNL Anaplan]モジュール名] | 選択した [!DNL Anaplan] リスト内のキャンペーン属性を説明するモジュールの名前。 |
    | [!UICONTROL キャンペーンリスト名] | [!DNL Anaplan] アカウントのリスト名、および選択したワークスペースとモデル。 |
 
    {style="table-layout:auto"}
@@ -186,7 +186,7 @@ ht-degree: 100%
 1. プロンプトが表示されたら、残りのすべての [!DNL Anaplan] モジュールを [!DNL Anaplan] 接続で更新します。
 1. [!DNL Workfront] 接続プロファイルを選択または追加します。
 
-   テンプレートをデプロイした後、デフォルトで [!DNL Anaplan] にマッピングされたフィールドを変更する場合に、フィールドプロパティの値からカスタムフィールド参照を追加または削除するために更新するモジュールです。
+   テンプレートを導入後、デフォルトのマップされたフィールドを [!DNL Anaplan] に変更する場合、これはフィールドプロパティの値にカスタムフィールド参照を追加または削除するために更新するモジュールです。
 
 1. プロンプトが表示されたら、残りのすべての [!DNL Workfront] モジュールを [!DNL Workfront] 接続で更新します。
 
@@ -198,6 +198,6 @@ ht-degree: 100%
 
 支出を最適化するための追加のシナリオには次のものがあります。
 
-* [[!UICONTROL  [!DNL Adobe Workfront]  プロジェクトの更新を  [!DNL Anaplan]  のリスト項目に送信します]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
-* [[!UICONTROL  [!DNL Adobe Workfront]  の実際の時間の更新を  [!DNL Anaplan]  のリスト項目に送信します]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [[!UICONTROL  [!DNL Adobe Workfront]  の経費を  [!DNL Anaplan]  のリスト項目に送信します] ](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  プロジェクトの更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  の実際の時間数の更新を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  の費用を  [!DNL Anaplan]  リスト項目に送信]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)

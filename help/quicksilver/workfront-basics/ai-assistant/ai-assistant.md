@@ -1,12 +1,13 @@
 ---
-title: 「AI アシスタント：記事索引」
+title: 'AI アシスタント：記事インデックス'
 content-type: reference
 description: Workfrontの AI アシスタントに関して使用可能な記事のリストを確認する
 author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 9948943f802e249a25e81ffc6b5b96ab70f8f930
+exl-id: 3f83dd91-d7de-4050-89b7-f53cbc4389a0
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '46'
 ht-degree: 13%

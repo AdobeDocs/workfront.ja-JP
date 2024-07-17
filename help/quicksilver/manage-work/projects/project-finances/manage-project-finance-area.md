@@ -9,7 +9,7 @@ exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
 source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
 workflow-type: tm+mt
 source-wordcount: '1304'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -34,13 +34,13 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよび財務データへの表示アクセス権またはそれ以上の権限</p> <p>プロジェクトおよび財務データへのアクセスを編集して、プロジェクトの財務情報を編集します</p> <p><b>メモ</b></p>
-   <p> まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、「<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>」を参照してください。</p> </td> 
+   <td> <p>プロジェクトおよび財務データへの表示アクセス権またはそれ以上の権限</p> <p>プロジェクトの財務情報を編集するためのプロジェクトおよび財務データへの編集アクセス権</p> <p><b>メモ</b></p>
+   <p> まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 

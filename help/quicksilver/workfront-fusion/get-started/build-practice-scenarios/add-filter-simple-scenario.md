@@ -6,20 +6,21 @@ title: 基本シナリオへのフィルターの追加
 description: フィルターを使用すると、特定の条件が満たされた場合にのみシナリオを進行させることができます。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 5ba5b2e37e2ce58d96d11f24786feef57f8eb638
+exl-id: b43355ed-9329-4080-8e61-7177eb580994
+source-git-commit: 1a405d38968922388589ddb3f2979b4e59cd50b8
 workflow-type: tm+mt
 source-wordcount: '495'
 ht-degree: 5%
 
 ---
 
-# の基本的なシナリオへのフィルターの追加 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] の基本シナリオへのフィルターの追加
 
 フィルターを使用すると、特定の条件が満たされた場合にのみシナリオを進行させることができます。
 
 この例では、リクエストが特定のリクエストキューに送信された場合にのみリクエストから新しいプロジェクトを作成できるようにするフィルターをシナリオに追加します。
 
-次の使用例は、で作成したシナリオを変更します [基本的なシナリオの作成](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
+この例では、[ 基本シナリオの作成 ](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) で作成したシナリオを変更します。
 
 >[!NOTE]
 >
@@ -27,15 +28,15 @@ ht-degree: 5%
 
 ## 前提条件
 
-に記載されているシナリオを作成する必要があります。 [基本的なシナリオの作成](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) この手順を実行する前に、
+この手順を実行する前に、[ 基本シナリオの作成 ](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) で説明されているシナリオを作成する必要があります。
 
 ## フィルターの追加
 
 ### フィルターの追加準備
 
 1. 最初のシナリオを開きます。
-1. が含まれる **出力** エリア、選択 `Project`.
-これで、次のようになります `ID`, `Name`、および `Project` を選択しました。
+1. **出力** 領域で、「`Project`」を選択します。
+これで、`ID`、`Name`、`Project` が選択されました。
 1. 「OK」をクリックして、モジュール設定を保存します。
 1. Workfrontを開きます。
 1. Workfrontで、Fusion シナリオが使用するリクエストキューを表すプロジェクトを見つけます。
@@ -44,19 +45,19 @@ ht-degree: 5%
 
 1. URL 内のプロジェクト ID をメモします。
 
-   例：https://\&lt;mydomain>.my.workfront.com/project/\&lt;projectid>/tasks
+   例：https://\&lt;MyDomain\>.my.workfront.com/project/\&lt;ProjectID\>/tasks
 
 ### フィルターの追加と設定
 
 1. シナリオエディターでシナリオを開きます。
-1. レンチアイコンをクリックします。 ![レンチアイコン](assets/wrench-icon.png) 最初のモジュールと 2 番目のモジュールの間にあるを選択します。 **フィルターの設定**.
+1. 1 つ目のモジュールと 2 つ目のモジュールの間にあるレンチアイコン ![ レンチアイコン ](assets/wrench-icon.png) をクリックし、「**フィルターを設定** を選択します。
 1. 「ラベル」フィールドに、「リクエストキューのフィルター」などのこのフィルターのラベルを入力します。
-1. が含まれる **条件** 領域の上部フィールドで、 `projectID` 最初のモジュールから。
+1. **条件** 領域の上部フィールドで、最初のモジュールから `projectID` をマッピングします。
 
-   ![プロジェクト ID をマッピング](assets/map-proj-id.png)
-1. を残す **条件** 次と等しい演算子。
-1. の下部のフィールドに **条件** 領域で、メモしたプロジェクト ID を内のプロジェクト URL から貼り付けます。 [フィルターの追加準備](#prepare-to-add-the-filter).
-1. クリック **OK** フィルター設定を保存します。
+   ![ プロジェクト ID をマップ ](assets/map-proj-id.png)
+1. **条件** 演算子は「次と等しい」のままにします。
+1. 「**条件**」領域の下部フィールドに、「[ フィルターを追加する準備 ](#prepare-to-add-the-filter)」のプロジェクト URL からメモしたプロジェクト ID を貼り付けます。
+1. **OK** をクリックして、フィルター設定を保存します。
 
 ### テストしてアクティブ化
 
@@ -65,10 +66,10 @@ ht-degree: 5%
 1. 出力を調べて、シナリオが期待どおりに実行されたことを確認します。
 
    両方のイシューが最初のシナリオの出力に表示されますが、2 番目のシナリオへの入力として表示されるのは、指定されたプロジェクトのイシューのみです。
-1. シナリオが期待どおりに動作していることを確認したら、 **スケジュール** 画面の左下にあるを切り替えて **日付：**.
+1. シナリオが期待どおりに動作していることを確認したら、画面の左下にある **スケジュール** トグルをクリックして **オン** にします。
 
    これにより、シナリオがアクティブになります。
-1. 対象： [!DNL Workfront Fusion]を選択し、 **[!UICONTROL 保存]** 左下隅付近にあるシナリオの進捗を保存します。
+1. [!DNL Workfront Fusion] では、左下隅付近の **[!UICONTROL 保存]** をクリックして、シナリオの進捗を保存します。
 
    >[!IMPORTANT]
    >
@@ -76,5 +77,4 @@ ht-degree: 5%
 
 ## リソース
 
-* フィルターについて詳しくは、 [シナリオへのフィルターの追加](/help/quicksilver/workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
-
+* フィルターについて詳しくは、[ シナリオへのフィルターの追加 ](/help/quicksilver/workfront-fusion/scenarios/add-a-filter-to-a-scenario.md) を参照してください。

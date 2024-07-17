@@ -8,8 +8,8 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
 source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
-workflow-type: ht
-source-wordcount: '717'
+workflow-type: tm+mt
+source-wordcount: '716'
 ht-degree: 100%
 
 ---
@@ -85,11 +85,11 @@ ht-degree: 100%
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   日付範囲フィルターの使用について詳しくは、[拡張分析でフィルターを適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
+   日付範囲フィルターの使用については、[拡張分析でのフィルターの適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
 
 1. （条件付き）プロジェクトデータセットを制限する必要がある場合は、使用するフィルターを選択して適用します。
 
-   拡張分析でのフィルターの追加について詳しくは、[拡張分析でフィルターを適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
+   拡張分析でのフィルターの追加について詳しくは、[拡張分析でのフィルターの適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
 
    フィルターを追加した後、最大 50 個のプロジェクトのデータが表示され、ページを離れたり Workfront からログアウトした後でもフィルターはアクティブの状態が維持されます。
 
@@ -103,7 +103,7 @@ ht-degree: 100%
    >
    >   
    >   
-   >   * [フライトプランビジュアライゼーションを拡張分析で表示](../enhanced-analytics/flight-plan-overview.md)
+   >   * [拡張分析での進行計画ビジュアライゼーションの表示](../enhanced-analytics/flight-plan-overview.md)
    >   * [プロジェクトツリーマップのビジュアライゼーションを拡張分析で表示](../enhanced-analytics/project-treemap-overview.md)
    >   * [バーンダウンのビジュアライゼーションを拡張分析で表示](../enhanced-analytics/burndown-overview.md)
    >   

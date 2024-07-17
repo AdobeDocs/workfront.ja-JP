@@ -80,6 +80,6 @@ Workfront のカスタムフォームに、次のタイプのカスタムフィ�
 
 オブジェクトへのカスタムフォームの添付について詳しくは、[オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
-オブジェクトを変換したときのカスタムフォームの動作については、を参照してください。 [オブジェクトの変換時にカスタムフォームデータを転送する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+オブジェクトを変換するときにユーザー設定フォームに何が起こるかを確認するには、「[ オブジェクトを変換する際にユーザー設定フォーム データを転送する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)」を参照してください。
 
 

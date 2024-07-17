@@ -7,8 +7,8 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 5a408439-9767-4d68-be04-034f0bce275a
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: ht
-source-wordcount: '327'
+workflow-type: tm+mt
+source-wordcount: '339'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,7 @@ ht-degree: 100%
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>0（ゼロ）<br>または<br>Fn + 左矢印<br>または<br>Home キー</p> </td> 
+   <td> <p>0（ゼロ）<br>または<br> Fn + 左矢印<br>または<br>Home</p> </td> 
    <td> <p>ビデオを再開</p> </td> 
    <td> <p> </p> </td> 
   </tr> 

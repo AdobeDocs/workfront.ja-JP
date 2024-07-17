@@ -153,7 +153,7 @@ Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusi
 1. **[!DNL Google Sheets]** ボックスの「**[!UICONTROL 接続]**」で「**[!UICONTROL 追加]**」をクリックし、「Olivia&#39;s Google account」など、接続の名前を入力したら、「**[!UICONTROL 続行]**」をクリックします。
 1. 表示されるウィンドウで接続を認証します。
 
-   接続を認証するプロセスは、アプリ間で少し異なる場合があります。アプリへのログインが必要になる場合があります。通常は、「**[!UICONTROL 許可]**」ボタンをクリックする必要があります。ヘルプが必要な場合は、 [接続の概要](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   接続を認証するプロセスは、アプリ間で少し異なる場合があります。アプリへのログインが必要になる場合があります。通常は、「**[!UICONTROL 許可]**」ボタンをクリックする必要があります。サポートが必要な場合は、[ 接続の概要 ](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md) を参照してください。
 
 ## 最初のモジュールを設定
 

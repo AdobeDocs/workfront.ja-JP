@@ -8,7 +8,7 @@ author: Lisa
 feature: Get Started with Workfront
 exl-id: 120e56f4-9fd5-4c41-890e-981937714db0
 source-git-commit: fdef22d9685d349a6f9492dec98475493ee9c048
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 100%
 
@@ -25,7 +25,7 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 

@@ -7,8 +7,8 @@ author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
 source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
-workflow-type: ht
-source-wordcount: '881'
+workflow-type: tm+mt
+source-wordcount: '882'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>リクエスト以上</p> <p>プロジェクトの「イシュー」セクションでイシューを編集するには、レビュー以上のライセンスが必要です。</p> </td> 
   </tr> 
   <tr> 

@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
 source-git-commit: efae17458f2aa08ca2286ef5e43c68d1f9334b7b
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '503'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 

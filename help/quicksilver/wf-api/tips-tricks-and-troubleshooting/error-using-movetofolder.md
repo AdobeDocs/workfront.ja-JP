@@ -6,19 +6,19 @@ description: Document moveToFolder/フォルダの移動アクションを使用
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 86c0517443537ec5af640036c290b3a495825fdc
+exl-id: 811efabc-e101-4de5-a800-a1447654dc3e
+source-git-commit: 53edc378e000e5b36fe0ce5750b8917fb13cfde1
 workflow-type: tm+mt
 source-wordcount: '121'
 ht-degree: 2%
 
 ---
 
-
 # ドキュメントの moveToFolder アクションが機能しない
 
 ## 問題
 
-Document オブジェクトの使用時 `moveToFolder` アクションを実行すると、422 エラーが返されます。
+Document オブジェクトの `moveToFolder` アクションを使用すると、422 エラーが返されます。
 
 または
 

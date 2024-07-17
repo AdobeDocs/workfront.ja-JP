@@ -9,7 +9,7 @@ feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '295'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ Workfront Proof から送信される通知の設定について詳しくは、[
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 

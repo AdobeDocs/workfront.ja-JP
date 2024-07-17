@@ -7,8 +7,8 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
 source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
-workflow-type: ht
-source-wordcount: '536'
+workflow-type: tm+mt
+source-wordcount: '544'
 ht-degree: 100%
 
 ---
@@ -34,16 +34,16 @@ ht-degree: 100%
    <td>[!UICONTROL Business] 以降</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> ライセンス*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b>ライセンス*</b> </p> </td> 
    <td> <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
   <tr> 
    <td><b>製品</b> </td> 
-   <td> <p>この記事で説明する機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner] の取得について詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> を使用する場合に必要なアクセス権を参照してください。 </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするためには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner]の取得については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a>の使用に必要なアクセス権を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>次に対する[!UICONTROL Edit]以上のアクセス権： [!DNL Scenario Planner]</p> <p>まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>次に対する[!UICONTROL Edit]以上のアクセス権： [!DNL Scenario Planner]</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><strong>オブジェクトの権限</strong> </p> </td> 

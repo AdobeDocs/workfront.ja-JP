@@ -7,8 +7,8 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
-workflow-type: ht
-source-wordcount: '658'
+workflow-type: tm+mt
+source-wordcount: '654'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
    <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
@@ -86,7 +86,7 @@ Workfront では、プルーフビューアーを起動しなくても、プル�
 プルーフのレビュアーは、すべてのコメントを既読としてすばやくマークできます。
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
-1. 必要なプルーフを検索して、「**プルーフを開く**」をクリックします。
+1. 必要なプルーフを見つけて、「**プルーフを開く**」をクリックします。
 
 1. （条件付き）コメントエリアが開いていない場合、右上隅にある「**コメントを表示**」をクリックします。
 
@@ -97,9 +97,9 @@ Workfront では、プルーフビューアーを起動しなくても、プル�
 ## プルーフビューアからのプルーフコメントに返信する
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
-1. 必要なプルーフを検索して、「**プルーフを開く**」をクリックします。
+1. 必要なプルーフを見つけて、「**プルーフを開く**」をクリックします。
 
-1. （条件付き）コメントエリアが開いていない場合、右上隅にある「**コメントを表示**」をクリックします。
+1. （条件付き）コメントエリアが開いていない場合は、右上隅にある「**コメントを表示**」をクリックします。
 1. 任意のコメントをクリックすると、プルーフのコメントマークが表示されます。
 
    >[!TIP]

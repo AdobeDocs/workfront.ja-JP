@@ -5,7 +5,7 @@ content-type: reference
 product-area: system-administration
 keywords: ライセンス, タイプ
 navigation-topic: access-levels
-description: 組織で Adobe Workfront を購入した際に、一定数のライセンスが購入されました。Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 3 種類の新しいWorkfrontライセンスのいずれかを付与します。
+description: 組織で Adobe Workfront を購入した際に、一定数のライセンスが購入されました。Workfront 管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 3 種類の新しい Workfront ライセンスのいずれかを付与します。
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -13,7 +13,7 @@ exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
 source-git-commit: aefa43697ae0d4edd5300acb94a9880b3cd0c94f
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 76%
 
 <!-- Audited: 12/2023 -->
 
-組織で Adobe Workfront を購入した際に、一定数のライセンスが購入されました。Workfront管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 2 種類のWorkfrontライセンスのいずれかを割り当てます。
+組織で Adobe Workfront を購入した際に、一定数のライセンスが購入されました。Workfront 管理者は、ユーザーにアクセスレベルを割り当てる際に、各ユーザーに 2 種類の有料の Workfront ライセンスのいずれかを付与します。
 
 ## 新しい Workfront ライセンスと新しいアクセスレベルを連携させる方法
 
-2 種類の新しいWorkfrontライセンスを使用すると、Workfrontに対するアクセスレベルを変更できます。 各アクセスレベルは、これらのライセンスの 1 つに付属しています。
+2 種類の新しい Workfront ライセンスでは、Workfront に対する様々なアクセスレベルを設定できます。各アクセスレベルは、これらのライセンスの 1 つに付属しています。
 
-ユーザーにライセンスを割り当てる代わりに、そのライセンスに関連付けられたアクセスレベルを割り当てます。
+ライセンスをユーザーに割り当てるのではなく、そのライセンスに関連付けられているアクセスレベルを割り当てます。
 
 次の表と図は、Workfront への主なアクセスレベルを示しています。
 

@@ -1,5 +1,5 @@
 ---
-title: "ユーザーの作成と管理：記事インデックス"
+title: 「ユーザーの作成と管理：記事インデックス」
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
@@ -13,7 +13,7 @@ exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
 source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
 source-wordcount: '104'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -38,4 +38,4 @@ ht-degree: 80%
 * [監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [監査ログを表示および書き出し](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [ユーザーログイン情報を表示](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-* [Adobe Admin Consoleでのシステム管理者の管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Adobe Admin Console でのシステム管理者の管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

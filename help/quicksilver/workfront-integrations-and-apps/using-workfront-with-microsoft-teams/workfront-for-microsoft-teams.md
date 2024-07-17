@@ -11,7 +11,7 @@ exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
 source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 90%
 
 >[!NOTE]
 >
->Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
+>Adobe Workfront と Microsoft Teams の統合は、現在、Microsoft Teams のクラシックエクスペリエンスでのみサポートされています。
 
-チームオーナーとして [!DNL Microsoft Teams]を使用している場合、 [!DNL Adobe Workfront for Microsoft Teams] チームのアプリ。
+[!DNL Microsoft Teams] でのチーム所有者は、チーム用に [!DNL Adobe Workfront for Microsoft Teams] アプリをインストールできます。
 
 [!DNL Workfront] を Microsoft Teams に使用すると、Microsoft Teams から移動せずに、[!DNL Workfront] で様々なアクションを実行できます。
 

@@ -17,9 +17,9 @@ ht-degree: 93%
 
 Workfront から Experience Manager Assets または Assets Essentials にドキュメントを送信できます。Workfront から Assets Essentials にアップロードおよび送信されたドキュメントは、引き続きドキュメントストレージ全体に対してカウントされます。Assets Essentials からリンクされたアセットは、全体のストレージにはカウントされません。
 
-この統合を通じてExperience Managerに送信されるAssetsのサイズ制限は、です **5 GB**.
+この統合を通じてExperience Managerに送信されるAssetsのサイズ制限は **5 GB** です。
 
-プレビュー環境では、この統合を通じてExperience Managerに送信されるAssetsのサイズ制限は次のとおりです **30 GB**.
+プレビュー環境では、この統合を通じてExperience Managerに送信されるAssetsのサイズ制限は **30 GB** です。
 
 Workfront から Experience Manager Assets または Assets Essentials にアセットを送信する際、メタデータフィールドが最初にマッピングされます。親オブジェクトに対してマッピングするように設定されたメタデータも送信されます。メタデータマッピングの設定について詳しくは、[Experience Manager Assets as a Cloud Service 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)または [Experience Manager Assets Essentials 統合の設定](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)を参照してください。
 

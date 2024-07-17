@@ -22,7 +22,7 @@ ht-degree: 95%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 ユーザー、役割、およびチームにイシューを割り当てて、イシューの完了担当者を指定できます。イシューの割り当てについて一般的な情報については、[イシューの割り当ての変更についての概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)を参照してください。
 
@@ -120,7 +120,7 @@ ht-degree: 95%
 
    イシューが既に割り当てられている場合は、現在の割り当ての名前をクリックします。
 
-   ![割り当て先ボタン](assets/assign-to-button-in-header.png)
+   ![ 割り当て先ボタン ](assets/assign-to-button-in-header.png)
 
 1. 次のいずれかの操作を行います。
 
@@ -129,8 +129,8 @@ ht-degree: 95%
      実稼動環境のサンプル画像：
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
-     <span class="preview">プレビュー環境のサンプル画像：</span>
-     <span class="preview">![割り当て検索](assets/smart-assignments-issue-header.png)</span>
+     <span class="preview"> プレビュー環境のサンプル画像：</span>
+     <span class="preview">![ 割り当て検索 ](assets/smart-assignments-issue-header.png)</span>
 
    * （条件付き）使用可能なリストの名前、役割、チームのいずれかをクリックします
    * 「**自分に割り当て**」をクリックして、自分に割り当てる
@@ -152,7 +152,7 @@ ht-degree: 95%
 
 
 1. 「**保存**」をクリックして、イシューの割り当てを完了します。
-1. （任意） **X アイコン** イシューのヘッダーにある「割り当て」領域の割り当て名の横に表示される、割り当てを削除するアイコン。
+1. （任意）イシューのヘッダーにある「割り当て」領域で、割り当ての名前の横にある **X** アイコンをクリックして、割り当てを削除します。
 
 ## リスト内のイシューを割り当てる
 
@@ -180,8 +180,8 @@ ht-degree: 95%
      実稼動環境のサンプル画像：
      ![](assets/assignments-field-task-list-nwe.png)
 
-     <span class="preview">プレビュー環境のサンプル画像：</span>
-     ![割り当てフィールド](assets/assignments-field-task-list-0424.png)
+     <span class="preview"> プレビュー環境のサンプル画像：</span>
+     ![ 割り当てフィールド ](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >

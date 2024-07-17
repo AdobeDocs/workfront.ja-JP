@@ -10,7 +10,7 @@ exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
 source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
 workflow-type: tm+mt
 source-wordcount: '740'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* 組織は、Workfront Goals の正規のライセンスを購入する必要があります。詳しくは、セクションを参照してください [Workfront Goals 組織のアクセス権の取得](#obtain-workfront-goals-organization-access) この記事の内容です。
+* 組織は、Workfront Goals の正規のライセンスを購入する必要があります。詳しくは、この記事の [Workfront Goals 組織のアクセス権の取得 ](#obtain-workfront-goals-organization-access) を参照してください。
 
 * 適切なタイプの Workfront ライセンスが割り当てられます。ライセンスタイプとアクセスレベルの割り当てについては、[ライセンスタイプとアクセスレベルの設定を更新](#update-license-types-and-access-level-settings)の節を参照してください。
 
@@ -35,7 +35,7 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 
   >[!NOTE]
   >
-  >Workfront管理者を含むすべてのユーザーには、メインメニューに目標エリアを含むレイアウトテンプレートを割り当てる必要があります。
+  >Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。
 
   詳しくは、この記事の [Workfron Goals レイアウトテンプレートに追加](#add-workfront-goals-to-a-layout-template)の節を参照してください。
 
@@ -57,7 +57,7 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 
   組織が追加のライセンスを購入すると、Workfront をお使いのアカウントで Workfront Goals が有効になります。Workfront Goals のライセンスの購入について詳しくは、Workfront のアカウントマネージャーにお問い合わせください。
 
-Workfrontのアクセス要件について詳しくは、以下を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## ライセンスタイプとアクセスレベルの設定の更新  {#update-license-types-and-access-level-settings}
 

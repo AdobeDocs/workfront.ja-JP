@@ -13,7 +13,7 @@ exl-id: f8961140-948f-4bea-956b-a8126008b8cb
 source-git-commit: 7a9232f59e4c6f2eac2995be7d7862295b6bab2c
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 87%
 * [レイアウトテンプレートを使用して左のパネルをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
 * [レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
 * [レイアウトテンプレートを使用したホームと概要のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-* [レイアウトテンプレートを使用して新しいホームをカスタマイズする](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
+* [レイアウトテンプレートを使用したホームのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
 * [レイアウトテンプレートを使用してピン留めされたページをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 * [レイアウトテンプレートを使用してフィルター、ビューおよびグループ化をカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 * [レイアウトテンプレートを使用してユーザインターフェイスの用語をカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
@@ -39,4 +39,4 @@ ht-degree: 87%
 * [レイアウトテンプレートの管理アクセス権を付与](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
 * [レイアウトテンプレートにユーザーを割り当て](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 * [レイアウトテンプレートのコピー](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
-* [API 呼び出しを使用したクラシックレイアウトテンプレートの削除](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
+* [API 呼び出しを使用した Classic レイアウトテンプレートの削除](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)

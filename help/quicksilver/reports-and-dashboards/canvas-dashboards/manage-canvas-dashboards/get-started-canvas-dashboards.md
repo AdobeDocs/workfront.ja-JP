@@ -5,10 +5,11 @@ title: キャンバスダッシュボードの基本を学ぶ
 description: キャンバスダッシュボードのリストに移動する方法、キャンバスダッシュボードを作成および編集する方法など、キャンバスダッシュボードの使用に関する基本的な手順。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '586'
-ht-degree: 4%
+ht-degree: 15%
 
 ---
 
@@ -19,47 +20,47 @@ ht-degree: 4%
 ## 前提条件
 
 * キャンバスダッシュボードを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新しいライセンス）が必要です。\
-  Workfrontのライセンスタイプについて詳しくは、を参照してください。 [ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 現在のライセンスの場合 [新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) 新規ライセンスの場合。
+  Workfrontのライセンスタイプについて詳しくは、現在のライセンスの場合は [ ライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)、新しいライセンスの場合は [ 新しいライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
 
 * キャンバスダッシュボードを作成または編集するには、Workfront管理者から、アクセスレベルでダッシュボードを編集するアクセス権を付与されている必要があります。\
-  ダッシュボードの編集アクセス権の付与について詳しくは、以下を参照してください [報告書、ダッシュボード、カレンダーへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  ダッシュボードの編集アクセス権の付与について詳しくは、[ 報告書、ダッシュボード、カレンダーへのアクセスの付与 ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md) を参照してください。
 
 ## キャンバスダッシュボードへの移動
 
-1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **ダッシュボード**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**ダッシュボード**」を選択します。
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. キャンバスダッシュボードのリストは、の下に表示されます **マイダッシュボード** タブ。 キャンバスダッシュボードの名前をクリックして開きます。 また、で共有されたキャンバスダッシュボードも確認できます **共有ダッシュボード** タブに移動し、Adobe Workfront インスタンス上のその他すべてのダッシュボードも **すべてのダッシュボード** タブ。
+1. キャンバスダッシュボードのリストは、「**マイダッシュボード** タブの下に表示されます。 キャンバスダッシュボードの名前をクリックして開きます。 また、「**共有ダッシュボード**」タブに共有されたキャンバスダッシュボードと、「**すべてのダッシュボード**」タブにAdobe Workfront インスタンス上のその他すべてのダッシュボードも表示されます。
 
-1. （オプション）開いているキャンバスダッシュボードからキャンバスダッシュボードのリストに戻るには、次をクリックします **ダッシュボード** ページの左上隅にある
+1. （オプション）開いているキャンバスダッシュボードからキャンバスダッシュボードのリストに戻るには、ページの左上隅にある **ダッシュボード** をクリックします。
 
 ## 新しいキャンバスダッシュボードを作成
 
-1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **ダッシュボード**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**ダッシュボード**」を選択します。
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 
-1. 「」をクリックします **+新規ダッシュボード** ボタンをクリックします。
+1. ページの右上隅にある「**+新しいダッシュボード**」ボタンをクリックします。
 
-1. を入力 **名前** および **説明** 新しいキャンバスダッシュボードで、 **作成**.
+1. 新しいキャンバスダッシュボードに **名前** と **説明** を入力し、「**作成**」をクリックします。
 
-1. が含まれる **レポートを追加** 表示されるウィンドウで、をクリックすると、最初のレポートを新しいキャンバスダッシュボードに追加できます **追加** 追加するレポートのタイプの下にあるボタンです。 ウィンドウを閉じるには、 **キャンセル** レポートの追加を待つ場合は、右上隅にあるボタン。 キャンバスダッシュボードでのレポートのレイアウトの追加、削除、編集について詳しくは、 [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+1. 表示される **レポートを追加** ウィンドウで、追加するレポートのタイプの下にある **追加** ボタンをクリックして、最初のレポートを新しいキャンバスダッシュボードに追加できます。 レポートの追加を待つ場合は、右上隅の **キャンセル** ボタンをクリックしてウィンドウを閉じることもできます。 キャンバスダッシュボードでのレポートのレイアウトの追加、削除、編集について詳しくは、[ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。
 
 ## キャンバスダッシュボードの名前または説明の編集
 
-1. の説明に従って、名前または説明を編集するキャンバス ダッシュボードを開きます [キャンバスダッシュボードへの移動](#navigate-to-a-canvas-dashboard) 上。
+1. 前述の [ キャンバスダッシュボードへの移動 ](#navigate-to-a-canvas-dashboard) の説明に従って、名前または説明を編集するキャンバスダッシュボードを開きます。
 
-1. 「」をクリックします **ダッシュボードのプロパティ** ページの左上隅にあるキャンバスダッシュボード名の横のアイコン。
+1. ページの左上隅にあるキャンバスダッシュボード名の横の **ダッシュボードのプロパティ** アイコンをクリックします。
 
-1. 表示されるウィンドウで、 **名前** および **説明** キャンバスダッシュボードの情報。 終了したら、「**保存**」をクリックします。
+1. 表示されるウィンドウで、キャンバスダッシュボードの **名前** および **説明** 情報を編集できます。 終了したら、「**保存**」をクリックします。
 
 ## キャンバスダッシュボードの削除
 
-1. の説明に従って、削除するキャンバス ダッシュボードを開きます [キャンバスダッシュボードへの移動](#navigate-to-a-canvas-dashboard) 上。
+1. 削除するキャンバスダッシュボードを開きます。詳しくは、上記の [ キャンバスダッシュボードへの移動 ](#navigate-to-a-canvas-dashboard) を参照してください。
 
 1. 表示されるダッシュボードのリストで、削除するキャンバスダッシュボードの名前をクリックします。
 
-1. 「」をクリックします **詳細** ボタンをクリックしてから、をクリックします **ダッシュボードを削除**.
+1. ページの右上隅にある **その他** ボタンをクリックしてから、「**ダッシュボードを削除**」をクリックします。
 
-1. 表示されるウィンドウで、キャンバスダッシュボードの削除を確認するチェックボックスをオンにし、をクリックします **削除**.
+1. 表示されるウィンドウで、キャンバスダッシュボードを削除するチェックボックスをオンにして、「**削除**」をクリックします。

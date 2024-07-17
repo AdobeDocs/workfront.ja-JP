@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
 title: ' [!DNL Workfront Proof] でプルーフを生成'
-description: Workfrontの配達確認を使用すると、ドキュメントや Web サイトから配達確認を作成し、他のユーザーと共有できます。
+description: Workfront Proof を使用すると、ドキュメントまたは web サイトからプルーフを作成し、作成したプルーフを他のユーザーと共有できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '2253'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 99%
      </tr> 
      <tr> 
       <td role="rowheader">すべての必要な決定が行われた時点でプルーフをロックする</td> 
-      <td> <p><strong></strong> この設定を有効にすると、すべての決定が行われた後、プルーフの状態がロックされます。最終承認者が決定を下すと、ステートは自動的にロック解除からロックに変更されます。</p> <p>このオプションはデフォルトでは無効になっています。</p> </td> 
+      <td> <p><strong></strong>この設定を有効にすると、すべての決定が行われた後、プルーフの状態がロックされます。最終承認者が決定を下すと、ステートは自動的にロック解除からロックに変更されます。</p> <p>このオプションはデフォルトでは無効になっています。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">元のファイルをダウンロード</td> 

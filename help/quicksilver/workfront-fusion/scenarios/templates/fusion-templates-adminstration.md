@@ -10,7 +10,7 @@ exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
 source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
 workflow-type: tm+mt
 source-wordcount: '636'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 97%
 
 [!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス ](../../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください
 
-## 表示 [!DNL Workfront Fusion] as a のテンプレート [!DNL Workfront Fusion] 管理者
+## [!DNL Workfront Fusion] 管理者として [!DNL Workfront Fusion] テンプレートを表示する
 
 作成したすべてのテンプレートとそのステータスの表を表示するには、以下を行います。
 
@@ -69,7 +69,7 @@ ht-degree: 97%
 
    >[!NOTE]
    >
-   >「管理」領域は、Workfront Fusion 管理者にのみ表示されます。
+   >管理エリアは、Workfront Fusion 管理者にのみ表示されます。
 
 1. 左側のナビゲーションパネルで「**[!UICONTROL テンプレート]**」をクリックします。
 

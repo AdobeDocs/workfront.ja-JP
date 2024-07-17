@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: プルーフとファイルの共有
-description: Workfront Proof で配達確認とファイルを共有します。
+description: Workfront Proof でのプルーフとファイルの共有
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 6275abbf-0485-4729-b633-015f92aac72b
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '77'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 

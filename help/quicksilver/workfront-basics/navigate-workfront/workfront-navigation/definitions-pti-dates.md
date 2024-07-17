@@ -2,14 +2,14 @@
 content-type: reference
 navigation-topic: workfront-navigation
 title: ' [!DNL Workfront] のプロジェクト、タスクおよびイシューの日付の概要'
-description: この記事では、のプロジェクト、タスク、イシューに関連する最も一般的な日付の定義を説明します [!DNL Adobe Workfront].
+description: この記事では、 [!DNL Adobe Workfront] のプロジェクト、タスクおよびイシューに関連する最も一般的な日付の定義を示します。
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
 source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 78%
+ht-degree: 87%
 
 ---
 
@@ -92,12 +92,12 @@ ht-degree: 78%
 
 [!UICONTROL 実際の完了日]は、ユーザーがプロジェクト、タスクまたはイシューを実際に完了する日付です。[!UICONTROL 実際の完了日]は、プロジェクト、タスクまたはイシューを作成すると、空になります。
 
-タスクまたはイシューの作業が完了したタイミングを手動で指定できます。 [!UICONTROL 実際の終了日] 次のいずれかが発生すると、が自動的に入力されます。
+タスクまたは問題の作業が完了した日時を手動で指定するか、次のいずれかが発生した場合に [!UICONTROL  実際の完了日 ] が自動的に入力されるようにすることができます。
 
 * プロジェクト、タスクまたはイシューのステータスが[!UICONTROL 完了]、[!UICONTROL クローズ]または[!UICONTROL 解決済み]に変更されます。
 * タスクまたはプロジェクトの完了率は 100%です。
 
-この [!UICONTROL 実際の終了日] のプロジェクトは、そのプロジェクトの最後のタスクを完了した日付と一致しています。
+プロジェクトの[!UICONTROL 実際の完了日]は、プロジェクトの最後のタスクが完了した日付と一致します。
 
 >[!TIP]
 >
@@ -109,7 +109,7 @@ ht-degree: 78%
 
 ## [!UICONTROL コミット日]
 
-この [!UICONTROL コミット日] は、ユーザーがタスクまたは問題を完了するとコミットする日付です。 これは[!UICONTROL 予定完了日]とは異なり、作業を担当するユーザーが設定する、より現実的な予定完了日です。詳しくは、[[!UICONTROL コミット日]の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
+[!UICONTROL  コミット日 ] は、タスクまたは問題に割り当てられたユーザーがタスクまたは問題を完了するとコミットする日付です。 これは[!UICONTROL 予定完了日]とは異なり、作業を担当するユーザーが設定する、より現実的な予定完了日です。詳しくは、[[!UICONTROL コミット日]の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 
 >[!NOTE]
 >
@@ -117,7 +117,7 @@ ht-degree: 78%
 
 ## [!UICONTROL 見込み開始日]
 
-この [!UICONTROL 見込開始日] は、プロジェクト、タスク、または問題が開始され、すべての遅延が考慮されるリアルタイムの日付です。 これは[!UICONTROL 予定開始日]よりも正確なプロジェクト、タスクまたはイシューの開始日です。[!UICONTROL 予定開始日]では、遅延や過去の日付は考慮されません。
+[!UICONTROL  予定開始日 ] は、プロジェクト、タスクまたは問題が開始され、すべての遅延が考慮されるリアルタイムの日付です。 これは[!UICONTROL 予定開始日]よりも正確なプロジェクト、タスクまたはイシューの開始日です。[!UICONTROL 予定開始日]では、遅延や過去の日付は考慮されません。
 
 最初にプロジェクトを計画する際は、タスクとプロジェクトのタスクの[!UICONTROL 予定開始日]および[!UICONTROL 見込み開始日]は同じです。遅延が発生したり、タスクが早く完了したりする可能性があるので、[!UICONTROL 見込み開始日]と[!UICONTROL 予定開始日]は異なる場合があります。
 
@@ -131,11 +131,11 @@ ht-degree: 78%
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## [!UICONTROL 見込完了日]
+## [!UICONTROL 見込み完了日]
 
 [!UICONTROL 見込み完了日]は、プロジェクト、タスクまたはイシューが完了する日時を示すリアルタイムの計算指標です。プロジェクト、タスクまたはイシューが「完了」とマークされると、[!UICONTROL 見込み完了日]は[!UICONTROL 実際の完了日]の日付に変更されます。
 
-すべてが計画どおりにスムーズに進む場合、 [!UICONTROL 見込完了日] 次と一致する必要があります [!UICONTROL 予定完了日]. それ以外の場合は、先行タスクの遅延により、 [!UICONTROL 見込完了日] は、と異なる場合があります。 [!UICONTROL 予定完了日].
+すべてが計画通りにスムーズに進む場合、[!UICONTROL  見込み完了日 ] は [!UICONTROL  計画完了日 ] と一致する必要があります。 そうしないと、先行タスクの遅延が原因で、[!UICONTROL  予定完了日 ] が [!UICONTROL  予定完了日 ] と異なる場合があります。
 
 詳しくは、[プロジェクト、タスクおよびイシューの[!UICONTROL 見込み完了日]の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。
 
@@ -145,15 +145,15 @@ ht-degree: 78%
 
 プロジェクト、タスクまたはイシューに費やした実際の時間（時間単位）を表すためにプロジェクト、タスクまたはイシューの時間を記録すると、記録した時間がプロジェクト、タスクまたはイシューの[!UICONTROL 実際の時間]になります。
 
-時間を記録する日付は、 [!UICONTROL 時間エントリ日] 時間エントリのフィールド。 一部の時間リストおよびレポートでは、時間入力日が日付として表示されます。
+時間を記録する日付は、時間エントリの「[!UICONTROL 時間エントリ日]」フィールドです。一部の時間のリストおよびレポートでは、日付に時間エントリ日が表示されます。
 
 >[!TIP]
 >
->この [!UICONTROL 時間エントリ日] 次と異なる [!UICONTROL エントリ日] これは、時間ログを作成した日付ではなく、時間を関連付ける日付です。
+>[!UICONTROL  時間エントリ日 ] は、時間ログが作成された日付ではなく、時間を関連付ける日付であるという点で、[!UICONTROL  エントリ日 ] とは異なります。
 
-Workfrontの次の領域で時間をログに記録し表示できます。
+Workfront の次のエリアで時間を記録および表示できます。
 
-* での時間のログ記録と表示 [!UICONTROL プロジェクト], [!UICONTROL タスク]、または [!UICONTROL 問題更新] セクションまたは内 [!UICONTROL 時間] セクション。 「[!UICONTROL 時間]」セクションでログ時間を記録する際に、「時間エントリ日」とその該当ユーザーを手動で指定できます。
+* [!UICONTROL プロジェクト]、[!UICONTROL タスク]、[!UICONTROL イシューの「更新」]セクションまたは「[!UICONTROL 時間]」セクションに時間を記録および表示します。「[!UICONTROL 時間]」セクションでログ時間を記録する際に、「時間エントリ日」とその該当ユーザーを手動で指定できます。
 
   ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
@@ -163,10 +163,10 @@ Workfrontの次の領域で時間をログに記録し表示できます。
   >
   >親タスクやプロジェクトではなく、作業タスクまたはイシューに関する時間を記録することをお勧めします。作業タスクに記録された時間は、親タスクとプロジェクトに[!UICONTROL 実際の時間]としてロールアップされます。イシューに記録した時間は、プロジェクトの[!UICONTROL 実際の時間数]としてプロジェクトにロールアップされます。
 
-* タスクまたは問題の更新ストリームに時間を記録します。
+* タスクまたはイシューの更新ストリームに時間を記録します。
 
   ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
 
-* を表示する [!UICONTROL 時間エントリ日] 時間レポートおよびリスト。
+* 時間のレポートおよびリストに[!UICONTROL 時間エントリ日]を表示します。
 
   ![](assets/hour-entry-date-in-view-nwe-350x173.png)

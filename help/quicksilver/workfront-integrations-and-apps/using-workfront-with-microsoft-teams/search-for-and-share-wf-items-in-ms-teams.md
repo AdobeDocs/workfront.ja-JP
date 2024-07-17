@@ -9,7 +9,7 @@ exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
 source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 >[!NOTE]
 >
->Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
+>Adobe Workfront と Microsoft Teams の統合は、現在、Microsoft Teams のクラシックエクスペリエンスでのみサポートされています。
 
 [!DNL Microsoft Teams] の任意の [!DNL Adobe Workfront] チャネルで [!DNL Workfront] 項目を検索し、これらの項目をチームのメンバーと共有できます。
 

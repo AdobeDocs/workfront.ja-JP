@@ -9,7 +9,7 @@ exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
 source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
 workflow-type: tm+mt
 source-wordcount: '654'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 98%
 
 ## 前提条件
 
-* をインストールする必要があります [!DNL Adobe Workfront for design and video] 次の場所から配達確認をアップロードする前に： [!DNL Illustrator].
+* [!DNL Illustrator] からプルーフをアップロードする前に、[!DNL Adobe Workfront for design and video] をインストールする必要があります。
 
   手順については、[インストール [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)を参照してください。
 

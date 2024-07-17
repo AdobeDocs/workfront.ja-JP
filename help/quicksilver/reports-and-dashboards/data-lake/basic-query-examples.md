@@ -9,14 +9,15 @@ feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: c82f70c78bc23f69bed2351a67c2e0d0bac9e973
+exl-id: f2da081c-bdce-4012-9797-75be317079ef
+source-git-commit: ede703bcc7fdc4047b44a22580d33fc7e01c5705
 workflow-type: tm+mt
 source-wordcount: '102'
-ht-degree: 0%
+ht-degree: 5%
 
 ---
 
-# 基本的なWorkfront Data Lake のクエリの例
+# 基本的な Workfront Data Lake クエリの例
 
 Workfront Data Lake データの利用を開始するのに役立つように、以下に、クエリに慣れるために使用できる、基本的なクエリの例を示します。
 

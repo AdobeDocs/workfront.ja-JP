@@ -10,7 +10,7 @@ exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 75%
 
 [!DNL Adobe Workfront] [!UICONTROL ボード]は、ボードに追加されたときや、カードが割り当てられたときにメールを送信します。通知はデフォルトでオンになっており、ボードの環境設定で受信するメールを選択できます。
 
-また、メール通知の設定に応じて、接続されたカードでコメントにタグ付けされた場合にも、メールが届きます。 詳しくは、 [独自の電子メール通知を変更する](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 現時点では、アドホックカードでコメントでタグ付けされたユーザーには電子メール通知は送信されません。
+また、メール通知の設定に応じて、接続されたカードでコメントにタグ付けされた場合にもメールが届きます。詳しくは、[自身のメール通知の変更](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。現時点では、アドホックカードのコメントでタグ付けされたユーザーにはメール通知は送信されません。
 
 ## アクセス要件
 

@@ -8,8 +8,8 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
 source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
-workflow-type: ht
-source-wordcount: '862'
+workflow-type: tm+mt
+source-wordcount: '863'
 ht-degree: 100%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 100%
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   日付範囲フィルターの使用について詳しくは、[拡張分析でのフィルターの適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
+   日付範囲フィルターの使用については、[拡張分析でのフィルターの適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
 
 1. （条件付き）プロジェクトデータセットを制限する必要がある場合は、使用するフィルターを選択して適用します。
 
@@ -145,5 +145,5 @@ ht-degree: 100%
 1. その他のプロジェクト情報を表示するには、ビジュアライゼーション上のプロジェクトをクリックして、フライトビジュアライゼーションのバーンダウンとタスクを開きます。
 
    これらのビジュアライゼーションは、プロジェクトがトラックから外れた原因についてより深い洞察を得るのに役立ちます。また、進行中のプロジェクトを簡単にチェックインできます。\
-   バーンダウンのビジュアライゼーションについて詳しくは、[強化機能分析でバーンダウンビジュアライゼーションを表示](../enhanced-analytics/burndown-overview.md)を参照してください。フライトビジュアライゼーションのタスクについて詳しくは、[強化機能分析でのフライトビジュアライゼーションによるタスクを表示](../enhanced-analytics/tasks-in-flight-overview.md)を参照してください。
+   バーンダウンのビジュアライゼーションについて詳しくは、[強化機能分析でバーンダウンビジュアライゼーションを表示](../enhanced-analytics/burndown-overview.md)を参照してください。フライトビジュアライゼーションのタスクについて詳しくは、[拡張分析におけるフライトビジュアライゼーションのタスクの表示](../enhanced-analytics/tasks-in-flight-overview.md)を参照してください。
 

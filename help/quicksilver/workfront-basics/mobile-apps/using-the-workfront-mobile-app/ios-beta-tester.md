@@ -7,8 +7,8 @@ author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: ht
-source-wordcount: '438'
+workflow-type: tm+mt
+source-wordcount: '440'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
 iOS デバイスでベータ版テスターになる前に、[!DNL Workfront] アプリおよび [!DNL TestFlight] アプリが iOS デバイスにインストールされていることが必要です。
 
 1. [!DNL Workfront] モバイルアプリを開きます。
-1. ナビゲーションバー下部の「**[!UICONTROL その他]**」をタップします。
+1. 下部のナビゲーション バーで「**[!UICONTROL その他]**」をタップします。
 1. 名前をタップし、「**[!UICONTROL ベータ版テスターになる]**」をタップします。\
    [!DNL TestFlight] アプリを開くと、[!DNL Workfront] はダウンロード可能なアプリとして一覧表示されます。
 

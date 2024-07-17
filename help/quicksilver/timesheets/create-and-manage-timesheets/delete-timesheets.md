@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 exl-id: c6a86c1b-8580-4896-8933-d4e2818e98ed
 source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '810'
 ht-degree: 100%
 
@@ -46,7 +46,7 @@ Adobe Workfront 管理者またはグループ管理者は、システム内の�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ Adobe Workfront 管理者またはグループ管理者は、システム内の�
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
-   * ページの右上隅にある「**マイタイムシート承認**」を選択して、承認するタイムシートのみを表示する。
+   * ページの右上隅にある「**マイタイムシート承認**」を選択して、承認するタイムシートのみを表示する
 
      または
 
@@ -78,7 +78,7 @@ Adobe Workfront 管理者またはグループ管理者は、システム内の�
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。フィルターの作成または更新については、[Adobe Workfront でのフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。フィルターの作成または更新については、[Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
@@ -86,7 +86,7 @@ Adobe Workfront 管理者またはグループ管理者は、システム内の�
    >
    >   
    >   
-   >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -94,8 +94,8 @@ Adobe Workfront 管理者またはグループ管理者は、システム内の�
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
-   * [Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-   * [Adobe Workfront でのビューの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+   * [Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [Adobe Workfront でビューを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront でのグループ化の作成](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. 削除する 1 つまたは複数のタイムシートを選択し、タイムシートリストの上部にある&#x200B;**削除**&#x200B;アイコン ![](assets/delete.png) をクリックします。

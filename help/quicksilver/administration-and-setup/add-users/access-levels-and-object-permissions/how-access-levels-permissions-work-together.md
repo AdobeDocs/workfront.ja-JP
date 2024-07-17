@@ -13,7 +13,7 @@ exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
 source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 96%
 
 Adobe Workfront 管理者は、各ユーザーが持つ必要のあるアクセスレベルを決定します。このアクセスレベルは、ユーザーがシステム内のオブジェクトタイプやエリアで表示および操作できる内容を定義します。
 
-また、他のユーザーが個々のオブジェクトに対して特定の権限を共有し、付与すると、ユーザーは個々のオブジェクトにアクセスできます。
+ユーザーは、他のユーザーが個々のオブジェクトを共有し、それらに対する特定の権限を付与すると、それらのオブジェクトにアクセスできるようになります。
 
 
 ![](assets/security-model-hierachy.png)
@@ -67,7 +67,7 @@ Workfront へのログインには、Workfront 管理者が各ユーザーに割
 >
 >ユーザーを設定した後で参照できるように、組み込みのアクセスレベルを変更しないことを強くお勧めします。アクセスレベルをカスタマイズするには、デフォルトのアクセスレベルをコピーし、そのコピーを変更します。（システム管理者と外部ユーザーを除くすべてのアクセスレベルで、これを実行できます）。
 
-各デフォルトのアクセスレベルの詳細については、 [組み込みのアクセスレベル](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+各デフォルトのアクセスレベルについて詳しくは、[ビルトインのアクセスレベル](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)を参照してください。
 
 ユーザーにアクセスレベルを割り当てる手順については、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 

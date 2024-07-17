@@ -18,13 +18,13 @@ ht-degree: 0%
 
 新しいアセットのレビューと承認のワークフローは、Workfrontと Frame.io の緊密な統合に基づいて構築されています。 この統合では、各製品の機能を最大限に活用し、それらを組み合わせてエクスペリエンスを作成します。これにより、コンテンツの作成に関与しているすべてのユーザーが選択したツールを使用しながら、コメント、ファイル、ステータスの更新にアクセスできるようになります。これらはすべて、両方のシステム間でリアルタイムに同期されます。
 
-Frame.io の詳細については、を参照してください [Frame.io の基本を学ぶ](https://support.frame.io/en/collections/49298-getting-started).
+Frame.io について詳しくは、[Frame.io の概要 ](https://support.frame.io/en/collections/49298-getting-started) を参照してください。
 
 ## Workfrontでの作業の開始と計画
 
 Workfront管理者は、設定エリアでデフォルトの Frame.io アカウントを設定し、Workfrontで Frame.io ユーザーを指定することで、Workfrontと Frame.io の統合を有効にします。 これにより、コーディネーターはWorkfront プロジェクトと正式なレビューおよび承認ワークフローを使用して、作業を計画および開始できます。
 
-### デフォルトの Frame.io アカウントの設定 [!BADGE 準備中]{type=Informative}
+### デフォルトの Frame.io アカウントを設定 [!BADGE  近日公開 ]{type=Informative}
 
 Workfront管理者は、Workfrontの設定領域にデフォルトの Frame.io アカウントを追加することで、Workfrontと Frame.io の統合を開始します。 デフォルトの Frame.io アカウントが設定されると、Workfrontで作成されたプロジェクトには、Frame.io で作成されたミラープロジェクトが含まれます。
 
@@ -48,9 +48,9 @@ Frame.io を定期的に使用するWorkfront ユーザーは、Frame.io ユー�
 
 * Frame.io のコラボレーターとして追加されます。
 * Frame.io からWorkfrontにアセットを送信して、正式なレビューと承認を受けることができます。
-* Workfrontから一方向の同期フォルダーの情報を表示できます。 [!BADGE 準備中]{type=Informative}
+* Workfrontから一方向の同期フォルダーの情報を表示できます。 [!BADGE  準備中 ]{type=Informative}
 
-詳しくは、を参照してください [の設定 [!DNL Workfront] および [!DNL Frame.io] 統合](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+詳しくは、「[and [!DNL Workfront] integration の設定 ](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md) を参照  [!DNL Frame.io]  てください。
 
 ![](assets/Frame-enabled-user.png)
 
@@ -59,12 +59,12 @@ Frame.io を定期的に使用するWorkfront ユーザーは、Frame.io ユー�
 
 デフォルトの Frame.io アカウントが追加され、Frame.io ユーザーが指定されると、プロジェクトコーディネーターは Frame.io に接続されたWorkfront プロジェクトを作成できます。 接続プロジェクトを作成すると、次の操作を実行できます
 
-* **Frame.io ユーザーのタスクへの割り当て**:Frame.io が有効なユーザーは、Workfront タスクが割り当てられるとメールで通知され、完了する作業があることを示します。
-* **Frame.io ユーザーとのプロジェクトの共有**：プロジェクトが Frame.io 対応のユーザーと共有されると、Workfrontと Frame.io の両方内のプロジェクトにアクセスできます。
-* **Frame.io とのクリエイティブマテリアルの共有**：プロジェクトコーディネーターは、一方向同期プロジェクトフォルダーを使用して、Workfrontから Frame.io のクリエイティブユーザーに直接、指示や資料を送ることができます。 [!BADGE 準備中]{type=Informative}
-* **タスクの進捗の追跡**：クリエイティブ担当者は、完成したアセットを送信し、タスクを完了としてマークすることができます。これらはすべて、Frame.io を離れることなく行えます。
+* **Frame.io ユーザーをタスクに割り当て**:Frame.io が有効なユーザーは、Workfront タスクに割り当てられると、完了すべき作業があることを示すメールで通知されます。
+* **Frame.io ユーザーとプロジェクトを共有**：プロジェクトを Frame.io 対応ユーザーと共有すると、Workfrontと Frame.io の両方の内部のプロジェクトにアクセスできます。
+* **Frame.io でクリエイティブマテリアルを共有**: プロジェクトコーディネーターは、一方向の同期プロジェクトフォルダーを使用して、Workfrontから Frame.io のクリエイティブユーザーに指示やマテリアルを直接送信できます。 [!BADGE  準備中 ]{type=Informative}
+* **タスクの進捗の追跡**：クリエイティブ担当者は、Frame.io を離れることなく、完了したアセットを送信し、タスクを完了としてマークすることができます。
 
-詳しくは、を参照してください [Frame.io に接続したプロジェクトを作成する](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md).
+詳しくは、[Frame.io に接続したプロジェクトの作成 ](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md) を参照してください。
 
 
 ## Frame.io でのコンテンツ作成と共同作業
@@ -77,9 +77,9 @@ Frame.io を定期的に使用するWorkfront ユーザーは、Frame.io ユー�
 * 非公式なピアレビューの実施
 * 完成したアセットをWorkfrontに送信して、正式にレビューおよび承認する
 * タスクの状態の変更または完了のマーク
-* 新しいバージョンをアップロードしてから、承認のために再送信してください <!--do they have to send to frame.io again?-->
+* 新しいバージョンをアップロードしてから、承認 <!--do they have to send to frame.io again?--> に再送信してください
 
-Frame.io の詳細については、を参照してください [プロジェクトでの共同作業に招待されました](https://support.frame.io/ja/articles/11125-i-ve-been-invited-to-collaborate-on-a-project).
+Frame.io の詳細については、[ プロジェクトでの共同作業に招待されました ](https://support.frame.io/ja/articles/11125-i-ve-been-invited-to-collaborate-on-a-project) を参照してください。
 
 ## アセットのレビューと承認
 
@@ -93,23 +93,23 @@ Frame.io の詳細については、を参照してください [プロジェク
 
 プロジェクトコーディネーターは、レビュー担当者、承認者、またはその両方を割り当てるオプションがあります。
 
-* **Reviewers** コメントを追加したり、アセットをマークアップしたりできます。 完了したら、レビューを完了としてマークできます。 アセットを承認プロセスで先に進めるために、レビューを完了とマークする必要はありません。
-* **承認者** コメントを追加したり、アセットをマークアップしたりできます。 承認プロセスを進めるための決定を行う必要があります。
+* **レビュー担当者** は、コメントを追加したり、アセットをマークアップしたりできます。 完了したら、レビューを完了としてマークできます。 アセットを承認プロセスで先に進めるために、レビューを完了とマークする必要はありません。
+* **承認者** は、コメントを追加し、アセットをマークアップできます。 承認プロセスを進めるための決定を行う必要があります。
 
 
 #### レビューおよび承認ワークフローの作成
 
 レビュー担当者と承認者は、1 回限りの承認ワークフローまたは再利用可能な承認テンプレートに追加できます。
 
-* **1 回限りの承認**：プロジェクトコーディネーターは、アセットが存在するプロジェクトまたはタスクでレビュー担当者と承認者を割り当て、完了期限を設定できます。 レビュー担当者と承認者には、期限の 72 時間前と 24 時間前に、および期限自体にメールで通知が送信されます。
+* **1 回限りの承認**：プロジェクトコーディネーターは、アセットが存在するプロジェクトまたはタスクで、レビュー担当者と承認者を割り当て、完了期限を設定できます。 レビュー担当者と承認者には、期限の 72 時間前と 24 時間前に、および期限自体にメールで通知が送信されます。
 
-  詳しくは、*を参照してください。 [Frame.io アセットのレビューリクエストまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
+  詳しくは、* [Frame.io アセットのレビューリクエストまたは承認リクエストの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md) を参照してください。
 
-* **承認テンプレート**:Workfrontの設定領域で、プロジェクトコーディネーターは適切な承認テンプレートを作成できます。 ユーザーはテンプレート内で、レビュー担当者と承認者を追加し、完了期間を指定できます。 承認テンプレートがアセットに適用されると、期限が指定された期間から計算されます。
+* **承認テンプレート**:Workfrontの「設定」エリアで、プロジェクトコーディネーターは作成可能な承認テンプレートを作成できます。 ユーザーはテンプレート内で、レビュー担当者と承認者を追加し、完了期間を指定できます。 承認テンプレートがアセットに適用されると、期限が指定された期間から計算されます。
 
   作成したテンプレートは、Frame.io から送信されるアセットに適用され、Workfrontでの正式なレビューおよび承認プロセスを開始できます。
 
-  詳しくは、を参照してください [承認テンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+  詳しくは、[ 承認テンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください
 
 
 ![](assets/assign-template.png)
@@ -135,13 +135,13 @@ Frame.io ビューアで作成されたすべてのコメントは、「Workfron
 
 すべてのレビューアクティビティが完了したら、承認者は次のいずれかの決定を行う必要があります。
 
-* **承認**：アセットは変更する必要がなく、使用する準備が整っています。
-* **変更して承認**：アセットには変更が必要です。変更が行われると使用できるようになります。 追加の承認は必要ありません。
-* **作業が必要**：アセットに変更が必要ですが、使用する準備ができていません。 指定した変更を行ったら、アセットを新しいバージョンとしてアップロードし、別の承認を行う必要があります。 <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
+* **承認**：アセットは変更する必要がなく、使用できる状態になっています。
+* **変更を加えて承認**：アセットには変更が必要です。変更が行われると使用できるようになります。 追加の承認は必要ありません。
+* **作業が必要**：アセットに変更が必要ですが、使用する準備ができていません。 指定した変更を行ったら、アセットを新しいバージョンとしてアップロードし、別の承認を行う必要があります。<!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
 レビュー担当者は、Frame.io ビューア内でレビューを完了とマークできますが、アセットが承認プロセスを進めるためにレビューを完了する必要はありません。
 
-Workfrontでの決定について詳しくは、以下を参照してください。 [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
+Workfrontの決定について詳しくは、[ 決定ステータスの概要のドキュメント ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md) を参照してください。
 
 ![](assets/frame-viewer-and-decision.png)
 

@@ -8,8 +8,8 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
-source-wordcount: '276'
+workflow-type: tm+mt
+source-wordcount: '263'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>グループ化を変更するためのリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
@@ -57,10 +57,10 @@ ht-degree: 100%
 このグループ化を適用するには、次の操作を行います。
 
 1. タスクのリストに移動します。
-1. **グループ化**&#x200B;ドロップダウンメニューで、「**新規グループ化**」を選択します。
+1. 「**グループ化**」ドロップダウンメニューで「**新規グループ化**」を選択します。
 
 1. 「**テキストモードに切り替える**」をクリックします。
-1. **レポートをグループ化**&#x200B;エリア内のテキストを削除します。
+1. **報告書のグループ化**&#x200B;エリア内のテキストを削除します。
 1. 次のコードでテキストを置き換えます。
    <pre>group.0.linkedname=project<br>group.0.namekey=portfolio<br>group.0.notime=false<br>group.0.valuefield=project:portfolio:name<br>group.0.valueformat=string<br>group.1.linkedname=project<br>group.1.namekey=program<br>group.1.notime=false<br>group.1.valuefield=project:program:name<br>group.1.valueformat=string<br>group.2.name=Project<br>group.2.valuefield=project:name<br>group.2.valueformat=HTML<br>textmode=true<br></pre>
 

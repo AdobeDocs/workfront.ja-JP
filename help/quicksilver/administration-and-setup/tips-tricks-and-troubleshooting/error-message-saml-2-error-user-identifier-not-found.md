@@ -10,8 +10,8 @@ feature: System Setup and Administration
 role: Admin
 exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
-workflow-type: ht
-source-wordcount: '217'
+workflow-type: tm+mt
+source-wordcount: '219'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ADFS サーバーの要求が正しくありません
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 

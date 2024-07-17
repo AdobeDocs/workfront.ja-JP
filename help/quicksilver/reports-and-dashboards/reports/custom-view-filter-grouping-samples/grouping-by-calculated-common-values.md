@@ -8,8 +8,8 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
-source-wordcount: '264'
+workflow-type: tm+mt
+source-wordcount: '282'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>グループ化を変更するためのリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
@@ -55,7 +55,7 @@ ht-degree: 100%
 タスクのリストにこのグループ化を適用するには、次の操作を行います。
 
 1. タスクのリストに移動します。
-1. 「**グループ化**」ドロップダウンメニューで「**新規グループ化**」を選択します。
+1. **グループ化**&#x200B;ドロップダウンメニューで、「**新規グループ化**」を選択します。
 
 1. 「**テキストモードに切り替える**」をクリックします。
 1. 使用可能なスペースに、次のコードを追加します。

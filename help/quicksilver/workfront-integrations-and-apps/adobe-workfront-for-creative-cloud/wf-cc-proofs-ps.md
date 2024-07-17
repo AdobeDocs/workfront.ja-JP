@@ -9,7 +9,7 @@ exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
 source-git-commit: 66186bb8af14e7ce86b3fb5e8bb1b07fe32dca7a
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 87%
 
 ## 前提条件
 
-* をインストールする必要があります [!DNL Adobe Workfront for Photoshop] 次の場所から配達確認をアップロードする前に： [!DNL Adobe Photoshop].
+* [!DNL Adobe Photoshop] からプルーフをアップロードする前に、[!DNL Adobe Workfront for Photoshop] をインストールする必要があります。
 
   手順については、[インストール [!DNL Adobe Workfront for Photoshop]](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)を参照してください。
 
@@ -64,7 +64,7 @@ ht-degree: 87%
 
 1. プルーフをアップロードする作業アイテムに移動します。
 1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
-1. クリック **[!UICONTROL 新規ファイル]** ～の底付近に [!DNL Workfront] パネル。
+1. [!DNL Workfront] パネルの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
 1. （オプション）**[!UICONTROL プルーフ名]**&#x200B;テキストボックスにプルーフ名を入力します。
 1. 「**[!UICONTROL プルーフの承認]**」セクションで、「**[!UICONTROL 基本]**」を選択します。
@@ -79,7 +79,7 @@ ht-degree: 87%
 1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
 
    ![](assets/plugin-files-350x307.png)\
-   ドキュメントが [!UICONTROL ドキュメント] 領域 [!DNL Workfront] パネル内 [!DNL Photoshop] また、 [!DNL Workfront] デスクトップアプリケーション。
+   ドキュメントは、[!DNL Photoshop] の [!DNL Workfront] パネルの[!UICONTROL ドキュメント]エリアと [!DNL Workfront] デスクトップアプリに表示されます。
 
 
 ## 自動プルーフをアップロード
@@ -91,7 +91,7 @@ ht-degree: 87%
 1. プルーフをアップロードする作業アイテムに移動します。
 1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
 
-1. クリック **[!UICONTROL 新規ファイル]** ～の底付近に [!DNL Workfront] パネル。
+1. [!DNL Workfront] パネルの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
 1. （オプション）「**[!UICONTROL プルーフ名]**」テキストボックスにプルーフ名を入力します。
 1. 「**[!UICONTROL プルーフの承認]**」セクションで、「**[!UICONTROL 自動化]**」を選択します。
@@ -111,7 +111,7 @@ ht-degree: 87%
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 1. （オプション）「**[!UICONTROL 外部ファイルを追加]**」を選択して、コンピューターからファイルを追加します。
 1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
-ドキュメントが [!UICONTROL ドキュメント] 領域 [!DNL Workfront] パネル内 [!DNL Photoshop] また、 [!DNL Workfront] デスクトップアプリケーション。
+ドキュメントは、[!DNL Photoshop] の [!DNL Workfront] パネルの[!UICONTROL ドキュメント]エリアと [!DNL Workfront] デスクトップアプリに表示されます。
 
 ## 新しいプルーフのバージョンをアップロード
 
@@ -124,7 +124,7 @@ ht-degree: 87%
 1. ドキュメントのアップロード先の作業アイテムに移動します。
 1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
 
-1. クリック **[!UICONTROL 新しいバージョン]** ～の底付近に [!DNL Workfront] パネル。
+1. [!DNL Workfront] パネルの下部近くにある「**[!UICONTROL 新規バージョン]**」をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;切替スイッチを有効にします。
 
 1. 「*[!UICONTROL プルーフの承認]*」セクションで、「**[!UICONTROL 基本]**」または「**[!UICONTROL 自動化]**」を選択します。
@@ -134,4 +134,4 @@ ht-degree: 87%
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 1. 「**[!UICONTROL アップロード]**」をクリックし、上で選択したアセットタイプに基づいて、必要な書き出しオプションを設定します。
-ドキュメントが [!UICONTROL ドキュメント] 領域 [!DNL Workfront] パネル内 [!DNL Photoshop] また、 [!DNL Workfront] デスクトップアプリケーション。
+ドキュメントは、[!DNL Photoshop] の [!DNL Workfront] パネルの[!UICONTROL ドキュメント]エリアと [!DNL Workfront] デスクトップアプリに表示されます。

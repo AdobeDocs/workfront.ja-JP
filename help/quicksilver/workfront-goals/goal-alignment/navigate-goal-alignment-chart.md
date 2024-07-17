@@ -9,7 +9,7 @@ exl-id: e79ced31-4680-4af7-b083-3d615c747af8
 source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
 workflow-type: tm+mt
 source-wordcount: '921'
-ht-degree: 92%
+ht-degree: 95%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 92%
 </td>
 </tr>
 <tr>
-<td role="rowheader">Adobe Workfront ライセンス*</td>
+<td role="rowheader">Adobe Workfront プラン*</td>
 <td>
 <p>新規ライセンス：コントリビューター以上</p>
 または
@@ -71,7 +71,7 @@ ht-degree: 92%
 </tr>
 <tr>
 <td role="rowheader"><p>レイアウトテンプレート</p></td>
-<td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューに目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+<td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
 </tr>
 </tbody>

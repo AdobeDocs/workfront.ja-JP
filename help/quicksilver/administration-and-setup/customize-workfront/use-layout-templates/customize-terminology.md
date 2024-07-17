@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 100%
 
@@ -56,13 +56,13 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセスできない場合は、Workfront 管理者に問い合わせて、アクセスレベルに制限が追加されていないか確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>

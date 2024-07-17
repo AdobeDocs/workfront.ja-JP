@@ -36,7 +36,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
 * [ビューの作成と編集](#create-or-edit-record-views)
 * [ビューの削除](#delete-views)
-* [ビューの複製](#duplicate-views)
+* [ ビューの複製 ](#duplicate-views)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -100,7 +100,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
  </tbody>
 </table>
 
-*詳細については、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 
 ## レコードビューを使用する際の考慮事項
@@ -109,7 +109,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 * 作成したビューは、自分と、そのビューを共有しているユーザーにのみ表示されます。
 * ビューを変更または削除すると、そのビューに対する権限を持つすべてのユーザーに対して、ビューが変更および削除されます。
 * 各ユーザーは、最大 100 のビューを作成できます。 1 つのレコードタイプに対して 100 を超えるビューを表示できますが、1 人のユーザーが作成できるビューは 100 のみです。
-* 作成したビューは他のユーザーと共有できます。 詳しくは、を参照してください [ビューの共有](/help/quicksilver/planning/access/share-views.md).
+* 作成したビューは他のユーザーと共有できます。 詳しくは、[ ビューの共有 ](/help/quicksilver/planning/access/share-views.md) を参照してください。
 * 次の要素は、レコードビューごとに固有です。
 
    * フィルター

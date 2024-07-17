@@ -9,7 +9,7 @@ exl-id: c6495ce5-fe70-499b-87f5-6a1f2e93a3f4
 source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -30,4 +30,4 @@ Adobe Workfront でプロジェクトの計画を完了する際は、次の手�
    * [リソース計画：記事インデックス](../../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [シナリオプランナーの概要](../../../scenario-planner/get-started-with-scenario-planning.md)
 
-* リソースをスケジュールしたり、タスクやイシューに割り当てたりします。リソースをタスクおよびイシューに割り当てる場合、ユーザー、チームまたは役割を特定の作業アイテムに実際に関連付けて、それらの項目の完了を担当させることができます。詳しくは、 [ワークロードバランサーの概要](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* リソースをスケジュールしたり、タスクやイシューに割り当てたりします。リソースをタスクおよびイシューに割り当てる場合、ユーザー、チームまたは役割を特定の作業アイテムに実際に関連付けて、それらの項目の完了を担当させることができます。詳しくは、[ワークロードバランサーの概要](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)を参照してください。

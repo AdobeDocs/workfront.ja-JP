@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: product-announcements
 title: お知らせ
-description: Workfrontのお知らせを見る
+description: Workfront のお知らせを参照してください。
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,7 +10,7 @@ exl-id: 3fe99aec-1489-4434-b787-cc3f940c9062
 source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
 workflow-type: tm+mt
 source-wordcount: '42'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 

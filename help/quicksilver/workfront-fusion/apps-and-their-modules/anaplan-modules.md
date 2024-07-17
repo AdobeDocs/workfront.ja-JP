@@ -10,7 +10,7 @@ author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 03bcd0a4-c8ec-4f44-b1e1-b57e79595309
 source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1844'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion]ライセンス要件なし。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
@@ -51,17 +51,17 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
@@ -96,9 +96,9 @@ ht-degree: 100%
 
 ## [!DNL Anaplan] モジュールとそのフィールド
 
-[!DNL Anaplan] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらと共に、アプリやサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Anaplan] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL Anaplan] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Anaplan] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) におけるモジュール間の情報のマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -201,7 +201,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>[!DNL Anaplan] への接続を作成する手順については、この記事で <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への [!DNL Anaplan] の接続を参照してください。</td> 
+   <td>[!DNL Anaplan] への接続を作成する手順については、この記事にある<a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!DNL Anaplan] を [!DNL Workfront Fusion]</a> に接続を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -221,7 +221,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p>JSON で <code>if</code> のような条件ステートメントを使用する場合、条件文の外側に引用符を置きます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件ステートメントを JSON で使用する場合は、条件ステートメントの外側に引用符を挿入します。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -239,7 +239,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>[!DNL Anaplan] への接続を作成する手順については、この記事の <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!DNL Anaplan] を [!DNL Workfront Fusion]</a> に接続を参照してください。</td> 
+   <td>[!DNL Anaplan] への接続を作成する手順については、この記事で <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への [!DNL Anaplan] の接続を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID]</td> 
@@ -398,7 +398,7 @@ ht-degree: 100%
 <tbody>
 <tr>
 <td role="rowheader">[!UICONTROL Connection]</td>
-<td>[!DNL Anaplan] への接続を作成する手順については、この記事にある <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!DNL Anaplan] を [!DNL Workfront Fusion]</a> に接続を参照してください。</td>
+<td>[!DNL Anaplan] への接続を作成する手順については、この記事で <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への [!DNL Anaplan] の接続を参照してください。</td>
 </tr>
 <tr>
 <td role="rowheader">[!UICONTROL Workspace ID]</td>

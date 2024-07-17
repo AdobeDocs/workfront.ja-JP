@@ -7,7 +7,7 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
 source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '241'
 ht-degree: 100%
 

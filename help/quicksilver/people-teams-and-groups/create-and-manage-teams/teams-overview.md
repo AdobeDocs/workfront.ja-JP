@@ -10,7 +10,7 @@ exl-id: c62c0789-2aaa-4091-9c45-b9e7801043a9
 source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
 source-wordcount: '236'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
@@ -28,10 +28,10 @@ ht-degree: 80%
 
 ## チームの作成
 
-チームは通常、[!DNL Workfront] 管理者によって作成されますが、適切なアクセス権を持つユーザーもチームを作成できます。チームを作成すると、プロジェクトマネージャは、個人の役割や職務の役割を決める代わりに、チーム全体をタスクに割り当てることができます。 詳しくは、[チームの作成](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md)を参照してください。
+チームは通常、[!DNL Workfront] 管理者によって作成されますが、適切なアクセス権を持つユーザーもチームを作成できます。チームを作成すると、プロジェクトマネージャーは、個人の役割や担当業務を決める代わりに、チーム全体をタスクに割り当てることができます。詳しくは、[チームの作成](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/create-a-team.md)を参照してください。
 
 ## チームの割り当て
 
 プロジェクトマネージャーは、どの個人が割り当てを完了するかを必ずしも把握しているわけではありません。特定の作業単位またはチームが、その特定の性質の作業を完了するだけです。
 
-割り当てられたチームのメンバーは、[!UICONTROL チーム]／[!UICONTROL チーム]リクエストエリアに移動して、チームに割り当てられたタスクを確認することもできます。彼らは、タスクの影響を評価し、それに取り組むボランティアをすることができます。 詳しくは、 [チームリクエストの概要](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+割り当てられたチームのメンバーは、[!UICONTROL チーム]／[!UICONTROL チーム]リクエストエリアに移動して、チームに割り当てられたタスクを確認することもできます。メンバーは、タスクの影響を評価し、自発的に取り組むことができます。詳しくは、[チームリクエストの概要](/help/quicksilver/people-teams-and-groups/work-with-team-requests/team-requests-overview.md)を参照してください。

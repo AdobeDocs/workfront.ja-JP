@@ -77,7 +77,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 <td>製品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Adobe Workfront Planning レコードをExperience Manager Assetsに接続するには、Adobe Experience Manager Assets ライセンスが必要で、組織のWorkfront インスタンスがAdobeの Unified Experience にオンボーディングされている必要があります。 詳しくは、を参照してください <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス</a>.</p>
+   <p>Adobe Workfront Planning レコードをExperience Manager Assetsに接続するには、Adobe Experience Manager Assets ライセンスが必要で、組織のWorkfront インスタンスがAdobeの Unified Experience にオンボーディングされている必要があります。 詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス </a> を参照してください。</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 契約</p></td>
@@ -203,7 +203,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    >[!TIP]
    >
-   >    レコードのページを開き、リンクされたレコードフィールドを見つけて、接続済みフィールド（既に接続されているレコードがある場合）をクリックするか、 **レコードを接続** （フィールドが空の場合）接続されたレコードまたはオブジェクトタイプからレコードを追加します。
+   >    レコードのページを開き、リンクされたレコードのフィールドを検索して接続されたフィールド （既に接続されているレコードがある場合）をクリックするか、**レコードの接続** （フィールドが空の場合）をクリックして接続されたレコードまたはオブジェクト タイプからレコードを追加します。
    >
    >![](assets/connect-records-from-record-page-field.png)
 
@@ -321,7 +321,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 >[!NOTE]
 >
->Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、を参照してください [Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピング設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja).
+>Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja) を参照してください。
 
 
 {{step1-to-planning}}
@@ -385,7 +385,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    * 作成日
    * 変更日時
 
-1. （オプション）Experience ManagerアセットレコードページをExperience Managerで開くには、リンク元のレコードのレコードタイプページに移動し、「リンクされたレコード」フィールドでアセットの名前をクリックしてポップアップウィンドウを開き、 **AEMで開く** アイコン ![](assets/open-asset-icon.png) をクリックしてアセットを開きます。
+1. （オプション）Experience ManagerアセットのレコードページをExperience Managerで開くには、リンク元のレコードのレコードタイプページに移動し、「リンクされたレコード」フィールドでアセットの名前をクリックしてポップアップウィンドウを開き、「**AEMで開く**」アイコンをクリックしてアセットを開き ![](assets/open-asset-icon.png) す。
 
    これにより、Adobe Experience Manager Assets で Experience Manager のアセットが開きます。
 
@@ -407,4 +407,4 @@ Workfront オブジェクトからWorkfront計画レコードを接続するに�
 * レコードとWorkfront オブジェクト間の少なくとも 1 つの接続。
 * Workfront管理者またはグループ管理者は、Planning レコードタイプに接続できるWorkfront オブジェクトタイプに Planning セクションを追加する必要があります。
 
-詳しくは、を参照してください [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+詳しくは、[Adobe Workfront オブジェクトの計画セクションでのレコードの管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。

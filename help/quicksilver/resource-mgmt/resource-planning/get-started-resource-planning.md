@@ -10,7 +10,7 @@ exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
 source-wordcount: '555'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Workfront のリソース管理ツールを使用してリソースの配�
 
 プロジェクトへのユーザーの一般的な割り当てを予算計上しても、実際の作業（タスクとイシュー）には割り当てられません。ワークロードバランサーを使用して、作業するリソースを割り当てる必要があります。
 
-ワークロードバランサーを使用したWorkfrontでのリソースのスケジュール設定の詳細については、 [ワークロードバランサーの概要](../workload-balancer/overview-workload-balancer.md).
+ワークロードバランサーを使用した Workfront でのリソースのスケジュール設定について詳しくは、[ワークロードバランサーの概要](../workload-balancer/overview-workload-balancer.md)を参照してください。
 
 ## Workfront のリソース計画ツール
 

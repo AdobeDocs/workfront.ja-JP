@@ -7,7 +7,7 @@ description: ホームの作業リストに同じ承認が複数表示されま�
 feature: Get Started with Workfront
 exl-id: 01e22849-2601-4c2a-b1cf-193a484bfc0b
 source-git-commit: ecb6928c946203b03a93cf5687fd53abf8e6a8f3
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '127'
 ht-degree: 100%
 

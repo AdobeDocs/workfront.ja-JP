@@ -10,8 +10,8 @@ feature: System Setup and Administration
 role: Admin
 exl-id: d30a67dd-4f91-41cf-b1ba-fefadc4e396a
 source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
-workflow-type: ht
-source-wordcount: '304'
+workflow-type: tm+mt
+source-wordcount: '310'
 ht-degree: 100%
 
 ---
@@ -37,7 +37,7 @@ ADFS への接続が正常に確立できません。
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
@@ -68,10 +68,10 @@ ADFS サーバーから手動で署名証明書を取得します。
 1. 署名証明書の名前をクリックし、「**[!UICONTROL 表示]**」をクリックします。
 1. 「**[!UICONTROL ファイル]**&#x200B;にコピー」をクリックし、「**[!UICONTROL 次へ]**」を選択します。
 
-1. 「**[!UICONTROL Base-64 エンコード x.509（CER）]**」、「**[!UICONTROL 次へ]**」の順にクリックします。
+1. 「**[!UICONTROL Base-64 エンコード x.509 (CER)]**」をクリックし、「**[!UICONTROL 次へ]**」をクリックします。
 
 1. ファイル名を指定し、「**[!UICONTROL 次へ]**」をクリックします。
-1. 「**[!UICONTROL 終了]**」をクリックします。
+1. 「**[!UICONTROL 完了]**」をクリックします。
 1. [!DNL Adobe Workfront] で、**[!UICONTROL 設定]**／**[!UICONTROL システム]**／**[!UICONTROL シングルサインオン(SSO)]** をクリックし、署名証明書を手動でアップロードします。
 
 ## 原因 2：[!DNL Workfront] が RSA 署名を期待している場合に、証明書が DSA を使用して署名されている

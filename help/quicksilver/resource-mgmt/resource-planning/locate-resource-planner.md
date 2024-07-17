@@ -7,7 +7,7 @@ author: Alina
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
 source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '512'
 ht-degree: 100%
 
@@ -34,7 +34,7 @@ ht-degree: 100%
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上<!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)

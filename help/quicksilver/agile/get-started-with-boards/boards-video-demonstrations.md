@@ -3,14 +3,14 @@ filename: boards-video-demonstrations
 content-type: reference
 navigation-topic: boards
 title: Adobe Workfront のボードに関するビデオデモ
-description: これらのビデオでは、Adobe Workfrontで利用可能な様々な種類のボードを紹介し、毎日の作業でボードを使用する方法の例を示します。
+description: これらのビデオでは、Adobe Workfront で使用できる様々なタイプのボードを紹介し、日常業務でボードを使用する方法の例を示します。
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
 source-git-commit: 9ce75ec2daded7f53975857707a39d42a179ba0f
 workflow-type: tm+mt
 source-wordcount: '347'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 83%
 
 <!--Audited: 12/2023-->
 
-これらのビデオでは、Adobe Workfrontで利用可能な様々な種類のボードを紹介し、毎日の作業でボードを使用する方法の例を示します。
+これらのビデオでは、Adobe Workfront で使用できる様々なタイプのボードを紹介し、日常業務でボードを使用する方法の例を示します。
 
 ## ボードのタイプ
 

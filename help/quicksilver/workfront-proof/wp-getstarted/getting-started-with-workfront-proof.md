@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: workfront-proof-navigation-topic
-title: '«はじめに [!DNL Workfront Proof]: article index"'
-description: Workfront Proof の使用を開始する方法を説明します。
+title: 「 [!DNL Workfront Proof] の基本を学ぶ：記事インデックス」
+description: Workfront Proof の使用を開始する方法について説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,11 +12,11 @@ exl-id: 71fe6ed9-62f8-4c08-8883-6c70aa9f7678
 source-git-commit: 6255181469b517fa4e0c487ca372c08b540abadd
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 64%
+ht-degree: 100%
 
 ---
 
-# の概要 [!DNL Workfront Proof]：記事インデックス
+# [!DNL Workfront Proof] の基本を学ぶ：記事インデックス
 
 <!-- Audited: 1/2024 -->
 

@@ -2,14 +2,14 @@
 content-type: tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: カスタマーサポートに連絡
-description: Adobe Workfrontをご利用のお客様は、電話で、またはオンラインでチケットを送信することで、Workfrontカスタマーサポートチームに連絡できます。 この記事では、カスタマーサポートへの問い合わせ、サポートケースの表示と管理に関する手順について説明します。
+description: Adobe Workfront のお客様は、電話またはオンラインでチケットを送信して、Workfront カスタマーサポートチームに問い合わせることができます。この記事では、カスタマーサポートへの問い合わせ方法と、サポートケースの表示と管理の手順について説明します。
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
 source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '430'
-ht-degree: 44%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 44%
 <p>(We need to keep this as a standalone article. It is linked in multiple articles and FAQs.)</p>
 -->
 
-As an [!DNL Adobe Workfront] のお客様の場合、 [!DNL Workfront] 電話またはオンラインでチケットを送信して、カスタマーサポートチームに問い合わせます。
+[!DNL Adobe Workfront] のお客様は、電話またはオンラインでチケットを送信して、[!DNL Workfront] カスタマーサポートチームに問い合わせることができます。
 
 >[!NOTE]
 >
@@ -41,18 +41,18 @@ As an [!DNL Adobe Workfront] のお客様の場合、 [!DNL Workfront] 電話ま
 
 >[!IMPORTANT]
 >
->オンラインサポートチケットを送信できるのは、許可されたサポート連絡先（または権利を持つユーザーをサポート）だけです。
+>オンラインサポートチケットを送信できるのは、承認されたサポート担当者（またはサポート資格のあるユーザー）のみです。
 
 
 1. [[!DNL Experience League]](https://experienceleague.adobe.com) web サイトから、ページの上部の **[!UICONTROL サポート]** をクリックします。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
-   The [!UICONTROL サポート] ページが開きます。
+   [!UICONTROL サポート]ページが開きます。
 
-   次から： [!UICONTROL サポート] ホームページから、オープンなサポートケースに移動し、新しいケースをログに記録して、上部を表示できます。 [!UICONTROL サポート] 記事を参照するか、追加の学習ソースにアクセスします。
+   [!UICONTROL サポート]ホームページから、未解決のサポートケースに移動したり、新しいケースを記録したり、[!UICONTROL サポート]のトップ記事を表示したり、追加の学習ソースにアクセスしたりできます。
 
-1. ケースを送信するには、「 」オプションを選択します。 **[!UICONTROL サポートケースを開く]**&#x200B;を選択し、次に **[!UICONTROL 署名] In**.
+1. ケースを送信するには、「**[!UICONTROL サポートケースを開く]**」オプションを選択し、「**[!UICONTROL サイン]イン**」をクリックします。
 
 1. 左側のサイドバーの「**[!UICONTROL ケースを開く]**」をクリックします。
 
@@ -76,7 +76,7 @@ As an [!DNL Adobe Workfront] のお客様の場合、 [!DNL Workfront] 電話ま
 
 1. 関連するファイルをアップロードし、**[!UICONTROL ケースを送信]** をクリックします。
 
-   事件が提出され、 [!UICONTROL マイケース] ページが表示されます。
+   ケースが送信され、[!UICONTROL マイケース]ページが表示されます。
 
    <!--
    [](assets/all-cases-list-exl-support-portal.png)
@@ -87,17 +87,17 @@ As an [!DNL Adobe Workfront] のお客様の場合、 [!DNL Workfront] 電話ま
 
 ## サポートケースの表示と管理
 
-1. 次に移動： **[!UICONTROL マイケース]** ページに貼り付けます。 このページは、ケースを送信すると開きます。または、 **[!UICONTROL マイケース]** をクリックします。
+1. **[!UICONTROL マイケース]**&#x200B;ページに移動します。このページは、ケースを送信すると開きます。また、左側のナビゲーションで「**[!UICONTROL マイケース]**」をクリックして開くこともできます。
 
-1. （オプション）ページ上部のオプションを使用して、 **製品 ([!DNL Experience Cloud] ソリューション )** またはケース **[!UICONTROL ステータス]** ([!UICONTROL 開く] または Cl（注）。 また、[!UICONTROL 検索]ボックスを使用して、サポートケースに関連するキーワードを検索することもできます。
+1. （オプション）ページ上部のオプションを使用して、**製品（[!DNL Experience Cloud] ソリューション）**&#x200B;またはケースの&#x200B;**[!UICONTROL ステータス]**（[!UICONTROL オープン]またはクローズ）でフィルタリングします。また、[!UICONTROL 検索]ボックスを使用して、サポートケースに関連するキーワードを検索することもできます。
 
-1. （オプション）ケースの詳細を表示するには、 **ケース番号** にアクセスします。
+1. （オプション）ケースの詳細を表示するには、**ケース番号**&#x200B;をクリックしてケースにアクセスします。
 
    ケースビューが開きます。
 
-1. （オプション）ケースビューで、最新のコメントを割り当てられたケース所有者と確認し、追加の添付ファイルや応答を追加します。
+1. （オプション）ケースビューで、担当のケース所有者と一緒に最新のコメントを確認し、追加の添付ファイルや回答があれば追加します。
 
-1. （オプション）ケースをエスカレーションするには、「 **[!UICONTROL 管理にエスカレーション]** **の下のページの右側に[!UICONTROL ケースの詳細].
+1. （オプション）ケースをエスカレーションするには、ページの右側で[!UICONTROL ケースの詳細]の下にある「**[!UICONTROL 管理者にエスカレーション]**」をクリックします。
 
 1. ケースを閉じるには、**[!UICONTROL ケースを閉じる]**&#x200B;ボタンをクリックします。
 

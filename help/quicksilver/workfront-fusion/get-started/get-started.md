@@ -26,11 +26,11 @@ ht-degree: 92%
 
 * [[!DNL Adobe Workfront Fusion] の概要](../../workfront-fusion/get-started/workfront-fusion-overview.md)
 * [ [!DNL Adobe Workfront Fusion] の基本用語](../../workfront-fusion/get-started/basic-terms.md)
-* [でシンプルな練習シナリオを作成します。 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
+* [ [!DNL Adobe Workfront Fusion] の場所でシンプルな練習シナリオを作成します。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
 * [ [!DNL Adobe Workfront Fusion] での練習用オートメーションシナリオの作成](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 * [ [!DNL Adobe Workfront Fusion] での練習用統合シナリオの作成](../../workfront-fusion/get-started/create-a-practice-scenario.md)
 * [[!DNL Adobe Workfront Fusion] パフォーマンスガードレール](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
 * [ [!DNL Adobe Workfront Fusion] にアクセスするための IP アドレス](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 * [ [!DNL Adobe Workfront Fusion] での操作](../../workfront-fusion/get-started/operations-in-workfront-fusion.md)
-* [Adobe Workfront Fusion のビデオの概要](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
+* [Adobe Workfront Fusion のビデオ概要](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)

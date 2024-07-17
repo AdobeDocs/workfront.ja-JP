@@ -14,12 +14,12 @@ ht-degree: 8%
 
 ---
 
-# での練習シナリオの作成 [!DNL Adobe Workfront Fusion]
+# [!DNL Adobe Workfront Fusion] での練習シナリオの作成
 
 この節では、次の記事を扱います。
 
-* [基本的なシナリオの作成： [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
-* [の基本的なシナリオへのトリガーモジュールの追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
-* [関数を使用した、の簡単なシナリオでのプロジェクトの更新 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-* [の基本的なシナリオへのフィルターの追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
-* [の基本的なシナリオへの Webhook の追加 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
+* [ [!DNL Adobe Workfront Fusion] の場所に基本的なシナリオを作成します。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+* [ [!DNL Adobe Workfront Fusion] の基本シナリオにトリガーモジュールを追加します。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+* [関数を使用すると、 [!DNL Adobe Workfront Fusion] の簡単なシナリオでプロジェクトを更新できます。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+* [ [!DNL Adobe Workfront Fusion] の基本シナリオにフィルターを追加します。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+* [ [!DNL Adobe Workfront Fusion] の基本シナリオに Webhook を追加します。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)

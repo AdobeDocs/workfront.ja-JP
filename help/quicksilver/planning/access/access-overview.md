@@ -81,7 +81,7 @@ Adobe Workfront Planning を使用するには、次の設定が必要です。
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、を参照してください <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">レイアウトテンプレートを使用したメインメニューのカスタマイズ</a> および <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">レイアウトテンプレートへのユーザーの割り当て</a>. </p>  
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md"> レイアウトテンプレートを使用したメインメニューのカスタマイズ </a> および <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md"> レイアウトテンプレートへのユーザーの割り当て </a> を参照してください。 </p>  
 </td>
   </tr>
  </tbody>

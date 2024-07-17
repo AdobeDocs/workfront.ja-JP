@@ -4,19 +4,20 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: JWT モジュール
-description: この [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] アプリには、指定されたアルゴリズムに基づいて JWT トークンを作成するモジュールが用意されています。
+description: ' [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] アプリには、指定されたアルゴリズムに基づいて JWT トークンを作成するモジュールが用意されています。'
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 121aef2ee55597fee2e2adc8250dd0651ea86f17
+exl-id: 1c09967e-a236-404f-bf3e-9de66118e77b
+source-git-commit: 2fbf38c3c35761c52416966fb6a4ab032190e04b
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 22%
+ht-degree: 23%
 
 ---
 
 # [!UICONTROL JWT] モジュール
 
-この [!DNL Adobe Workfront Fusion] [!UICONTROL JWT] アプリには、指定されたアルゴリズムに基づいて JWT トークンを作成するモジュールが用意されています。
+[!DNL Adobe Workfront Fusion] [!UICONTROL JWT] アプリには、指定されたアルゴリズムに基づいて JWT トークンを作成するモジュールが用意されています。
 
 ## アクセス要件
 
@@ -70,31 +71,31 @@ ht-degree: 22%
   <tr> 
    <td role="rowheader">[!UICONTROL アルゴリズム ]</td> 
    <td> <p>JWT の生成に使用するアルゴリズムを選択します。</p> <ul>
-   <li><b>HS256</b>:SHA-256 ハッシュアルゴリズムを使用する HMAC</li>
-   <li><b>HS384</b>:SHA-384 ハッシュアルゴリズムを使用する HMAC</li>
-   <li><b>HS512</b>:SHA-512 ハッシュアルゴリズムを使用する HMAC</li>
-   <li><b>RS256</b>:SHA-256 ハッシュアルゴリズムを使用する RSASSA-PKCS1-v1_5</li>
-   <li><b>RS384</b>:SHA-384 ハッシュアルゴリズムを使用する RSASSA-PKCS1-v1_5</li>
-   <li><b>RS512</b>:SHA-512 ハッシュアルゴリズムを使用する RSASSA-PKCS1-v1_5</li>
-   <li><b>PS256</b>:SHA-256 ハッシュアルゴリズムを使用する RSASSA-PSS （^6.12.0 または &gt;=8.0.0 のノードのみ）</li>
-   <li><b>PS384</b>:SHA-384 ハッシュアルゴリズムを使用する RSASSA-PSS （^6.12.0 または &gt;=8.0.0 のノードのみ）</li>
-   <li><b>PS512</b>:SHA-512 ハッシュアルゴリズムを使用する RSASSA-PSS （^6.12.0 または &gt;=8.0.0 のノードのみ）</li>
-   <li><b>ES256</b>:P-256 曲線と SHA-256 ハッシュアルゴリズムを使用した ECDSA</li>
-   <li><b>ES384</b>:P-384 カーブと SHA-384 ハッシュアルゴリズムを使用した ECDSA</li>
-   <li><b>ES512</b>:P-521 曲線と SHA-512 ハッシュアルゴリズムを使用した ECDSA</li>
+   <li><b>HS256</b>: SHA-256 ハッシュ アルゴリズムを使用する HMAC</li>
+   <li><b>HS384</b>: SHA-384 ハッシュ アルゴリズムを使用する HMAC</li>
+   <li><b>HS512</b>: SHA-512 ハッシュ アルゴリズムを使用する HMAC</li>
+   <li><b>RS256</b>: SHA-256 ハッシュ アルゴリズムを使用する RSASSA-PKCS1-v1_5</li>
+   <li><b>RS384</b>: SHA-384 ハッシュアルゴリズムを使用する RSASSA-PKCS1-v1_5</li>
+   <li><b>RS512</b>: SHA-512 ハッシュ アルゴリズムを使用する RSASSA-PKCS1-v1_5</li>
+   <li><b>PS256</b>: SHA-256 ハッシュ アルゴリズムを使用する RSASSA-PSS （ノード ^6.12.0 または &gt;=8.0.0 のみ）</li>
+   <li><b>PS384</b>: SHA-384 ハッシュ アルゴリズムを使用する RSASSA-PSS （ノード ^6.12.0 または &gt;=8.0.0 のみ）</li>
+   <li><b>PS512</b>: SHA-512 ハッシュ アルゴリズムを使用する RSASSA-PSS （ノード ^6.12.0 または &gt;=8.0.0 のみ）</li>
+   <li><b>ES256</b>: P-256 曲線と SHA-256 ハッシュアルゴリズムを使用した ECDSA</li>
+   <li><b>ES384</b>: P-384 曲線と SHA-384 ハッシュアルゴリズムを使用した ECDSA</li>
+   <li><b>ES512</b>: P-521 曲線と SHA-512 ハッシュ アルゴリズムを使用した ECDSA</li>
    </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ペイロード ] </td> 
-   <td> <p>追加するペイロード項目ごとに、 <b>項目を追加</b> 項目のキーと値を入力します。</p> </td> 
+   <td> <p>追加するペイロード項目ごとに、「<b> 項目を追加 </b>」をクリックし、項目のキーと値を入力します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Options] </td> 
-   <td> <p>追加するオプション項目ごとに、 <b>項目を追加</b> 項目のキーと値を入力します。</p> <p>次のキーを使用できます。
+   <td> <p>追加するオプション項目ごとに、<b> 項目を追加 </b> をクリックし、項目のキーと値を入力します。</p> <p>次のキーを使用できます。
    <ul>
-   <li><b>アルゴリズム</b>:（デフォルト：RS256）</li>
-   <li><b>expiresIn</b>：秒単位または時間間隔（2 日、10 時間、7d など）を表す文字列。 数値は秒数として解釈されます。 文字列を使用する場合は、時間単位（日、時間など）を必ず指定します。指定しない場合は、ミリ秒単位がデフォルトで使用されます（120 は 120 ミリ秒に等しくなります）。</li>
-   <li><b>notBefore</b>：秒単位または時間間隔（2 日、10 時間、7d など）を表す文字列。 数値は秒数として解釈されます。 文字列を使用する場合は、時間単位（日、時間など）を必ず指定します。指定しない場合は、ミリ秒単位がデフォルトで使用されます（120 は 120 ミリ秒に等しくなります）。
+   <li><b>algorithm</b>: （デフォルト：RS256）</li>
+   <li><b>expiresIn</b>：秒単位または時間間隔（2 日、10 時間、7d など）を表す文字列で表されます。 数値は秒数として解釈されます。 文字列を使用する場合は、時間単位（日、時間など）を必ず指定します。指定しない場合は、ミリ秒単位がデフォルトで使用されます（120 は 120 ミリ秒に等しくなります）。</li>
+   <li><b>notBefore</b>：秒数または時間間隔（2 日、10 時間、7d など）を表す文字列で表されます。 数値は秒数として解釈されます。 文字列を使用する場合は、時間単位（日、時間など）を必ず指定します。指定しない場合は、ミリ秒単位がデフォルトで使用されます（120 は 120 ミリ秒に等しくなります）。
 </li>
    <li><b>対象読者</b></li>
    <li><b>発行者</b></li>
@@ -103,13 +104,11 @@ ht-degree: 22%
    <li><b>noTimestamp</b></li>
    <li><b>ヘッダー</b></li>
    <li><b>keyid</b></li>
-   <li><b>mutatePayload</b>：次の場合： <code>true</code>:sign 関数は、ペイロードオブジェクトを直接変更します。 これは、クレームが適用された後で、トークンにエンコードされる前に、ペイロードへの生の参照が必要な場合に役立ちます。</li>
-   <li><b>allowInsecureKeySize</b>：次の場合： <code>true</code>を使用すると、2048 年未満の剰余を持つ秘密鍵を RSA に使用できます。</li>
-   <li><b>allowInvalidAsymmetricKeyTypes</b>：次の場合： <code>true</code>は、指定されたアルゴリズムに一致しない非対称キーを許可します。 このオプションは後方互換性のみを目的としているので、使用しないでください。</li>
+   <li><b>mutatePayload</b>:<code>true</code> の場合、sign 関数はペイロードオブジェクトを直接変更します。 これは、クレームが適用された後で、トークンにエンコードされる前に、ペイロードへの生の参照が必要な場合に役立ちます。</li>
+   <li><b>allowInsecureKeySizes</b>:<code>true</code> の場合、モジュラスが 2048 未満の秘密鍵を RSA に使用できます。</li>
+   <li><b>allowInvalidAsymmetricKeyTypes</b>:<code>true</code> の場合は、指定されたアルゴリズムに一致しない非対称キーを許可します。 このオプションは後方互換性のみを目的としているので、使用しないでください。</li>
    </ul>
    </td> 
   </tr> 
  </tbody> 
 </table>
-
-

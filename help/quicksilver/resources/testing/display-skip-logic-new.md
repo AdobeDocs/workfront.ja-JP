@@ -3,8 +3,8 @@ title: カスタムフォームへの表示ロジックとスキップロジッ�
 description: カスタムフォームへの表示ロジックとスキップロジックを追加
 draft: Probably
 source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
-workflow-type: ht
-source-wordcount: '1503'
+workflow-type: tm+mt
+source-wordcount: '1505'
 ht-degree: 100%
 
 ---
@@ -53,12 +53,12 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームへの管理アクセス権</p> <p>Workfront 管理者がこのアクセス権を付与する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
+   <td> <p>カスタムフォームへの管理アクセス権</p> <p>Workfront 管理者がこのアクセス権を付与する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </td> 
   </tr>  
  </tbody> 
 </table>

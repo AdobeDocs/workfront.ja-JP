@@ -65,7 +65,7 @@ Some users, such as executives, need to be able to control which administrators 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規：標準</p>
    <p>現在：プラン</p></td> 
   </tr> 

@@ -28,7 +28,7 @@ ht-degree: 74%
 >     または
 >        
 >   * Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。
->       詳しくは、を参照してください [Adobe Workfrontの価格設定とパッケージ](https://www.workfront.com/plans).
+>       詳しくは、[Adobe Workfrontの価格とパッケージ ](https://www.workfront.com/plans) を参照してください。
 >      
 >* 現在のプランおよびライセンス構造の場合：
 >    

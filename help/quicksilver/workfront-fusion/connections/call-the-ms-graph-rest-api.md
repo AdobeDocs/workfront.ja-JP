@@ -7,7 +7,7 @@ exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
 source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 80%
+ht-degree: 81%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 80%
 
 <!-- Audited: 3/2024-->
 
-多くの [!DNL Microsoft] web サービスは、[!DNL Microsoft Graph API] を通じてアクセスされます。への接続を作成できます [!DNL Microsoft Graph API]を使用する [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL OAuth 2.0 リクエストの作成] モジュール。
+多くの [!DNL Microsoft] web サービスは、[!DNL Microsoft Graph API] を通じてアクセスされます。[!DNL Workfront Fusion] [!DNL HTTP]/[!UICONTROL OAuth 2.0 リクエストを作成 ] モジュールを使用して、[!DNL Microsoft Graph API] への接続を作成できます。
 
 ## アクセス要件
 
@@ -26,17 +26,17 @@ ht-degree: 80%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL 作業 ] 以上</p> </td> 
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在：いいえ [!DNL Workfront Fusion] ライセンス要件</p>
+   <p>現在：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
    <p>または</p>
    <p>レガシー：任意 </p>
    </td> 
@@ -44,9 +44,9 @@ ht-degree: 80%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</li></ul>
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織は [!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul>
    <p>または</p>
-   <p>現在：組織による購入が必要です。 [!DNL Adobe Workfront Fusion].</p>
+   <p>現在：[!DNL Adobe Workfront Fusion] を購入する必要があります。</p>
    </td> 
   </tr>
  </tbody> 
@@ -108,7 +108,7 @@ ht-degree: 80%
         <li> <p><code>offline_access</code> </p> </li> 
         <li> <p><code>openid</code> </p> </li> 
         <li> <p>統合に必要なその他の権限（例：<code>User.Read</code>）</p> </li> 
-       </ul> <p><b>重要</b>：で接続を設定するには、選択した権限が必要です [!DNL Workfront Fusion].</p> </td> 
+       </ul> <p><b> 重要 </b>:[!DNL Workfront Fusion] で接続を設定するには、選択した権限が必要です。</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -117,9 +117,9 @@ ht-degree: 80%
 
 ## [!DNL Workfront Fusion] での [!DNL MS Graph API] 接続の設定
 
-登録後 [!DNL Workfront Fusion] ～で議論されているように [登録 [!DNL Workfront Fusion] が含まれる [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal)：接続の設定は [!UICONTROL HTTP] > [!UICONTROL Oauth 2.0 の作成] リクエストモジュール。
+[ の登録  [!DNL Workfront Fusion]  の  [!DNL Microsoft Application Registration Portal]](#register-workfront-fusion-in-the-microsoft-application-registration-portal) で説明しているように、[!DNL Workfront Fusion] を登録した後、[!UICONTROL HTTP]/[!UICONTROL Oauth 2.0 を作成 ] リクエストモジュールで接続を設定できます。
 
-1. を追加 [!UICONTROL HTTP] > [!UICONTROL OAuth 2.0 呼び出しを行う] モジュールをシナリオに追加します。
+1. [!UICONTROL HTTP]/[!UICONTROL OAuth 2.0 呼び出しを行う ] モジュールをシナリオに追加します。
 1. 「[!UICONTROL 接続]」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. 接続フィールドを次のように設定します。
 
@@ -157,7 +157,7 @@ ht-degree: 80%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client Secret]</td> 
-      <td>の手順 3 で生成した [!UICONTROL アプリケーション秘密鍵 ] を入力します <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref">登録 [!DNL Workfront Fusion] が含まれる [!DNL Microsoft Application Registration Portal]</a>.</td> 
+      <td>手順 3 で [!DNL Microsoft Application Registration Portal]</a> に [!DNL Workfront Fusion] を登録するに生成した [!UICONTROL アプリケーションの秘密鍵 <a href="#register-workfront-fusion-in-the-microsoft-application-registration-portal" class="MCXref xref"> を入力します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Authorize parameters]</td> 

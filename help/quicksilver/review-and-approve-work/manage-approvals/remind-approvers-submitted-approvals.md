@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: approvals
 title: 承認者に送信済みの承認を通知する
-description: Workfrontのオブジェクトの承認待ちを承認者に通知できます。
+description: Workfront でオブジェクトが承認待ちであることを承認者に通知できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '451'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 97%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
@@ -104,5 +104,5 @@ ht-degree: 97%
    ![](assets/document-350x232.png)
 
 1. 右パネルの右上隅にある「**承認を管理**」をクリックします。
-1.  **通知**&#x200B;アイコンをクリックして、承認者に通知を送信します。\
+1. **通知**&#x200B;アイコンをクリックして、承認者に通知を送信します。\
    ![remind.png](assets/remind-350x41.png)

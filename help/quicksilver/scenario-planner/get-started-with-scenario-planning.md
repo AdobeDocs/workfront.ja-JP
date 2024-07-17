@@ -6,7 +6,7 @@ draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
 source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 100%
 

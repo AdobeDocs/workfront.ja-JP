@@ -11,7 +11,7 @@ exl-id: 2fb561d2-0780-4fd6-87b3-5360a02df177
 source-git-commit: c325e16ba0cde4cd48fc3e40358a9ea9ed310659
 workflow-type: tm+mt
 source-wordcount: '131'
-ht-degree: 70%
+ht-degree: 74%
 
 ---
 
@@ -28,17 +28,17 @@ ht-degree: 70%
  <col>  
  <tbody>  
   <tr>  
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td>  
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>  
    <td> <p>任意</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td>  
-   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL 作業 ] 以上</p> </td>  
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Work] 以上</p> </td>  
   </tr>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td>  
    <td> 
-   <p>現在：いいえ [!DNL Workfront Fusion] ライセンス要件</p> 
+   <p>現在：[!DNL Workfront Fusion] ライセンスは必要ありません。</p> 
    <p>または</p> 
    <p>レガシー：任意 </p> 
    </td>  
@@ -46,9 +46,9 @@ ht-degree: 70%
   <tr>  
    <td role="rowheader">製品</td>  
    <td> 
-   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</li></ul> 
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織は [!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul> 
    <p>または</p> 
-   <p>現在：組織による購入が必要です。 [!DNL Adobe Workfront Fusion].</p> 
+   <p>現在：[!DNL Adobe Workfront Fusion] を購入する必要があります。</p> 
    </td>  
   </tr> 
  </tbody>  

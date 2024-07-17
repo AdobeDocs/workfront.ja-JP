@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
 source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー </p> </td> 
   </tr> 
   <tr> 
@@ -62,17 +62,17 @@ ht-degree: 100%
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
-   * ページの右上にある「**マイタイムシート承認**」を選択して、承認するタイムシートのみを表示します。
+   * ページの右上隅にある「**マイタイムシート承認**」を選択して、承認するタイムシートのみを表示する
 
      または
 
-     「**マイタイムシート**」を選択して、自分のタイムシートのみを表示します。
+     「**マイタイムシート**」を選択して、自分のタイムシートのみを表示する。
 
      これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートリストに適用されます。
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン（![](assets/filter-nwepng.png)）をクリックして別のフィルターを適用するか、新しいフィルターを作成します。フィルターの作成または更新については、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。フィルターの作成または更新については、[Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
@@ -80,16 +80,16 @@ ht-degree: 100%
    >
    >   
    >   
-   >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. （オプション）**ビュー**&#x200B;アイコン（![](assets/view-icon.png)）または&#x200B;**グループ化**&#x200B;アイコン（![](assets/grouping.png)）をクリックして、別のビューやグループ化を適用するか、新しいビューやグループ化を作成します。
+1. （オプション）**表示**&#x200B;アイコン ![](assets/view-icon.png) または&#x200B;**グループ化**&#x200B;アイコン ![](assets/grouping.png) をクリックして、別のビューやグループ化を適用するか、新しいビューやグループ化を作成します。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
-   * [Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-   * [Adobe Workfront でのビューの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+   * [Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [Adobe Workfront でビューを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront でのグループ化の作成](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. 各タイムシートの合計時間数は **合計時間数**&#x200B;列に表示されます。

@@ -9,7 +9,7 @@ exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
 source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
 workflow-type: tm+mt
 source-wordcount: '396'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 96%
 
    ユーザーに対してリクエストを行うと、ドキュメントエリアにプレースホルダーが追加されます。ユーザーに通知したり、このプレースホルダーからリクエストをキャンセルしたりできます。ユーザーは、Workfront 通知とリクエストに関するメールを受け取ります。
 
-   この環境設定が有効な場合、ユーザーはメール通知とアプリ内通知を受け取ります。電子メール通知について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   この環境設定が有効な場合、ユーザーはメール通知とアプリ内通知を受け取ります。メール通知について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
    メール通知に含まれるリンクをクリックして、ドキュメントをアップロードできます。また、アプリ内通知をクリックすることもできます。各オプションを選択すると、ユーザープロファイルページに移動し、リクエストしたドキュメントをアップロードできます。
 

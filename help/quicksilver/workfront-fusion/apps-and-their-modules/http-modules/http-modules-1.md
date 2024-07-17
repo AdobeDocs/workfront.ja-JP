@@ -13,7 +13,7 @@ exl-id: 64dc0892-4d05-410b-ab30-aa4b21f759d0
 source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 82%
+ht-degree: 86%
 
 ---
 
@@ -29,9 +29,9 @@ HTTP アプリは、Hypertext Transfer Protocol（HTTP）プロトコルで通�
 
 >[!NOTE]
 >
->現在専用のコネクタを持たないAdobe製品に接続する場合は、Adobe Authenticatorモジュールを使用することをお勧めします。
+>現在専用コネクタがないAdobe製品に接続する場合は、Adobe Authenticator モジュールを使用することをお勧めします。
 >
->詳しくは、 [Adobe Authenticatorモジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+>詳しくは、[Adobe Authenticator モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)を参照してください。
 
 具体的なモジュールの手順については、次の記事を参照してください。
 

@@ -10,7 +10,7 @@ exl-id: 35b329e5-f360-416c-adbb-ec39ab7a50cc
 source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Workfront で高度なアジャイル機能の使用を開始するには、次�
 
 1. アジャイルチームを作成します。
 
-   詳しくは、 [アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) または [既存のチームをアジャイルチームに変換する](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) 記事内 [アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+   詳しくは、[アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)の記事で[アジャイルチームの作成](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1)または[既存チームのアジャイルチームへの変換](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team)の節を参照してください。
 
 1. かんばんまたはスクラムを使用するようにアジャイルチームを設定します。
 

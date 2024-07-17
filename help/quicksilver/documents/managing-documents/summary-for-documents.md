@@ -36,8 +36,8 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>新規：コントリビューター以上</p> 
-   <p>現在：リクエスト以上</p>
+   <td> <p>新規：Contributor 以上</p> 
+   <p>現在：Request 以上</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -51,7 +51,7 @@ ht-degree: 95%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 「概要」ビューを開く
 

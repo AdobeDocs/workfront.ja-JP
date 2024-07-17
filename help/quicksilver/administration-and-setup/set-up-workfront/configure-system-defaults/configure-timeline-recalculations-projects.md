@@ -11,7 +11,7 @@ exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
 source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
 workflow-type: tm+mt
 source-wordcount: '456'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 84%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
@@ -50,13 +50,13 @@ ht-degree: 84%
 
 [!DNL Adobe Workfront] 管理者は、[!DNL Workfront] がプロジェクトタイムラインの自動再計算するタイミングを設定できます。[!DNL Workfront] では、毎晩、またはプロジェクトの範囲が変更されたとき、あるいはその両方に対して、プロジェクトのタイムラインを再計算できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) を右上に配置するか、 [!UICONTROL **メインメニュー**] アイコン ![](assets/lines-main-menu.png) 左上隅に [!DNL Workfront]（使用可能な場合）、「 **[!UICONTROL 設定]** ![](assets/gear-icon-settings.png).
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックするか、[!DNL Workfront] の左上隅の&#x200B;[!UICONTROL **メインメニュー**]&#x200B;アイコン ![](assets/lines-main-menu.png) をクリックして（利用可能な場合）、**[!UICONTROL セットアップ]** ![](assets/gear-icon-settings.png) をクリックします。
 
 1. **[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL プロジェクト]をクリックします。**
 
 1. 「**[!UICONTROL タイムライン]**」セクションで、以下の設定のいずれかまたは両方を有効または無効にします。デフォルトでは、両方の設定が有効になっています。
 
-   * **毎晩：** [!DNL Workfront&#x200B;&#x200B;&#x200B;] ステータスが「 」のプロジェクトの場合のみ、24 時間に 1 回、夜間にタイムラインを再計算します。 [!UICONTROL 現在] そしてそれは過去 3 ヶ月で更新された システム負荷やその他の要因によっては、再計算時間が 24 時間以上遅れる場合があります。
+   * **毎晩：**[!DNL Workfront&#x200B;&#x200B;&#x200B;] は、ステータスが[!UICONTROL 現在]で、過去 3 ヶ月以内に更新されたプロジェクトの場合のみ、24 時間に一度、夜間にタイムラインを再計算します。システム負荷やその他の要因によっては、再計算時間が 24 時間以上遅れる場合があります。
 
      この場合、[!DNL Workfront] は[!UICONTROL 更新タイプ]が[!UICONTROL 自動]または[!UICONTROL 自動および変更時]のすべてのプロジェクトのタイムラインを再計算します。
 

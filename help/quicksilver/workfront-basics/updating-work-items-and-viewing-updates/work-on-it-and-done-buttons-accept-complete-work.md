@@ -9,7 +9,7 @@ feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
 source-git-commit: a634e29df16d401812fb87ea53521d5028f7fd20
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '782'
 ht-degree: 100%
 

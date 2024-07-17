@@ -67,7 +67,7 @@ ht-degree: 92%
 >
 >7 月 15 日の週の今後のリリース（24.7 リリース）では、フォームデザイナーが一般入手可能になり、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスとなる予定です。 従来のフォームビルダーは使用できなくなります。 今すぐフォームデザイナーに切り替えて、その機能を利用することをお勧めします。
 >
->詳しくは、を参照してください [フォームデザイナーでフォームをデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+>詳しくは、[ フォームデザイナーでのフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 >
 >従来のフォームビルダーは、2024 年 6 月 19 日（PT）にプレビュー環境から削除され、7 月に 24.7 リリースで実稼動環境から削除されます。
 
@@ -265,7 +265,7 @@ ht-degree: 92%
    * **マイワークスペース**：作成したワークスペースが表示されます。
    * **その他のワークスペース**：共有されているワークスペースを含む、Workfront Planning 内のすべてのワークスペースが表示されます。
 
-   他のすべてのユーザーについては、作成または共有したすべてのワークスペースがに表示されます。 **ワークスペース** 領域。
+   他のすべてのユーザーについては、作成または共有したすべてのワークスペースが **ワークスペース** 領域に表示されます。
 
 ## Workfront計画の重要な概要 –  {#planning-important-intro}
 

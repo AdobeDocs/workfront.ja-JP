@@ -10,7 +10,7 @@ exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
 source-git-commit: acc7414a9c6eef838147aee675603b6cc2566fb9
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ https://<domainname>.my.workfront.com/attask/api-unsupported/proj/4c70...
 
 >[!NOTE]
 >
->API-Unsupported 呼び出しでは、 `/api` 」セクションに含める必要があります。
+>API-Unsupported 呼び出しでは、URL の `/api` セクションが省略されます。
 
 次の例は、API のバージョン 15.0 を呼び出す URI を示しています。
 

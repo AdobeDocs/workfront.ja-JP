@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 802a2f16-d827-455e-9e49-f58f4c5fc482
 source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
-workflow-type: ht
-source-wordcount: '902'
+workflow-type: tm+mt
+source-wordcount: '906'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 100%
 ## [!DNL Slack] から作業を管理
 
 1. お使いの [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインに関して詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスにある「[!DNL Slack]から [!DNL Workfront] へのログイン」の節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインに関して詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  にアクセスにある「[!DNL Slack]から[!DNL Workfront]へのログイン」の節を参照してください。
 
 1. 任意のチャネルから、メッセージフィールドに次のコマンドを入力します。
 
@@ -153,7 +153,7 @@ ht-degree: 100%
 ## 作業と承認を [!DNL Slack] から管理 {#manage-your-approvals-from-slack}
 
 1. [!DNL Slack] インスタンスにログインして、[!DNL Slack] から [!DNL Workfront] にログインします。\
-   [!DNL Slack] から [!DNL Workfront] へのログインに関して詳しくは、 [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から [ へのアクセス [!DNL Adobe Workfront] にある「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
+   [!DNL Slack] から [!DNL Workfront] へのログインについて詳しくは、[ [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md) から  [!DNL Adobe Workfront]  へのアクセスの「[!DNL Slack] から [!DNL Workfront] へのログイン」の節を参照してください。
 
 1. 任意のチャネルから、メッセージフィールドに次のいずれかのコマンドを入力します。
 

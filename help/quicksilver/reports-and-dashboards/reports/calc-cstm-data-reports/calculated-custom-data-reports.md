@@ -11,15 +11,15 @@ exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
 source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '86'
-ht-degree: 72%
+ht-degree: 100%
 
 ---
 
 # レポート内の計算カスタムデータ
 
-計算済みのカスタムデータを使用して、レポートを作成できます。 次の記事では、次の方法を説明します。
+計算済みカスタムデータを使用してレポートを作成できます。次の記事で方法について説明します。
 
-* [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
+* [計算済みデータ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
 * [計算済みカスタムフィールドと計算済み列の比較](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
 * [計算済みカスタム式の条件演算子](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)
 * [「IF」ステートメントの概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md)

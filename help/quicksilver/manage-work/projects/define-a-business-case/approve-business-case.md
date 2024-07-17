@@ -8,7 +8,7 @@ exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
 source-git-commit: f4ef463ebdc9a4a7a0802e5394d7820ebc447aa9
 workflow-type: tm+mt
 source-wordcount: '731'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -114,7 +114,7 @@ ht-degree: 97%
 
 1. レポート内のプロジェクト名をクリックして開きます。
 1. 左側のパネルで「**ビジネスケース**」をクリックします。
-1. クリック **承認** または **拒否** （「ビジネス・ケース要約」領域）を使用して、ビジネス・ケースを承認または却下します。
+1. ビジネスケースの概要エリアで「**承認**」または「**拒否**」をクリックして、ビジネスケースを承認または却下します。
 
    ![](assets/business-case-summary-with-rp-information--1-.png)
 

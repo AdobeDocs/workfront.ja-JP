@@ -8,7 +8,7 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
 source-git-commit: 5480d6b5e97c4c2e21080bb92ffe255f60ed6f60
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 

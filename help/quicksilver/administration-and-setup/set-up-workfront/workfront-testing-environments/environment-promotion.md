@@ -919,7 +919,7 @@ _空_
 これは 3 段階のプロセスです。
 
 1. 翻訳マップを作成します（「インストールの準備」フェーズに類似しています）。
-1. 生成された翻訳マップの編集、の設定 `action` および `targetId` 上書きする任意のオブジェクトのフィールド。 アクションは次のとおりです `OVERWRITING`、および `targetId` は、上書きするオブジェクトの uuid である必要があります
+1. 生成された翻訳マップを編集し、上書きするオブジェクトの `action` フィールドと `targetId` フィールドを設定します。 アクションは `OVERWRITING`、`targetId` は上書きするオブジェクトの uuid にしてください
 1. インストールを実行します。
 
 * [手順 1 – 翻訳マップの作成](#step-1---create-a-translation-map)
@@ -940,7 +940,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 応答
 
-翻訳マップ（ `202 - OK` ステータス
+翻訳マップ（`202 - OK` ステータス）
 
 ```json
 {
@@ -1017,13 +1017,13 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 この手順にはエンドポイントがありません。
 
-1. に返される翻訳マップ [手順 1 – 翻訳マップの作成](#step-1---create-a-translation-map)をクリックし、インストールするオブジェクトのリストを検査します。
+1. [ 手順 1 – 翻訳マップの作成 ](#step-1---create-a-translation-map) で返された翻訳マップで、インストールするオブジェクトのリストを調べます。
 1. 各オブジェクトのアクションフィールドを目的のインストールアクションに更新します。
-1. を検証 `targetId` 各オブジェクト。 設定アクションが `USEEXISTING` または `OVERWRITING`, `targetId` は、宛先環境のターゲットオブジェクトの UUID に設定する必要があります。 その他のアクションの場合は、targetId を空の文字列にする必要があります。
+1. 各オブジェクトの `targetId` を検証します。 set アクションが `USEEXISTING` または `OVERWRITING` の場合、`targetId` は、ターゲット環境のターゲットオブジェクトの UUID に設定する必要があります。 その他のアクションの場合は、targetId を空の文字列にする必要があります。
 
    >[!NOTE]
    >
-   >この `targetId` 衝突が検出された場合、は既に入力されています。
+   >競合が検出された場合、`targetId` は既に入力されています。
 
 ### **手順 3 - インストール**
 
@@ -1035,7 +1035,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 本文
 
-これは、単一のフィールドを持つオブジェクトです `translationMap`。これは、変更された翻訳マップと等しくなる必要があります。 [手順 2 – 翻訳マップの変更](#step-2---modify-the-translation-map).
+これは、単一のフィールド `translationMap` を持つオブジェクトで、[ 手順 2 – 翻訳マップの変更 ](#step-2---modify-the-translation-map) で変更した翻訳マップと等しくなります。
 
 ```json
 {
@@ -1114,7 +1114,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 応答
 
-応答には次が含まれます `{uuid of the created installation}` および `202 - ACCEPTED` ステータス。
+応答には、`{uuid of the created installation}` と `202 - ACCEPTED` ステータスが含まれます。
 
 例：`b6aa0af8-3520-4b25-aca3-86793dff44a6`
 

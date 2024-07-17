@@ -10,7 +10,7 @@ exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +67,7 @@ R1 で行われたすべての変更のリストについては、[Workfront R1 
 
 「通知」設定の「アクションが必要」エリアで、「日次ダイジェスト配信」オプションを使用できるようになりました。
 
-詳しくは、 [独自の電子メール通知を変更する](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+詳しくは、[自身のメール通知の変更](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 この機能をテストするには、アカウントに関連付けられたメールアドレスを必ず更新してください。これは、プレビューサンドボックスがすべてのユーザーのメールアドレスをクリアするために必要です。
 

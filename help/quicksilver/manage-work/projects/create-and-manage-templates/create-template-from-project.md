@@ -8,8 +8,8 @@ feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
-workflow-type: ht
-source-wordcount: '477'
+workflow-type: tm+mt
+source-wordcount: '478'
 ht-degree: 100%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 100%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +62,7 @@ ht-degree: 100%
 ## プロジェクトからテンプレートを作成
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. **その他**&#x200B;メニュー ![](assets/qs-more-icon-on-an-object.png) をクリックして、「**テンプレートとして保存**」をクリックします。
+1. **その他**&#x200B;メニュー ![](assets/qs-more-icon-on-an-object.png)、「**テンプレートとして保存**」の順にクリックします。
 1. テンプレートに次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -92,17 +92,17 @@ ht-degree: 100%
     </tbody> 
    </table>
 
-1. 「**フォームの管理**」をクリックして、フォームを削除または並べ替えます。テンプレートのカスタムフォームを削除して並べ替える方法について詳しくは、[カスタムフォーム](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)を参照してください。
+1. 「**フォームの管理**」をクリックして、フォームを削除または並べ替えます。テンプレートのカスタムフォームを削除して並べ替える方法については、[カスタムフォーム](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)を参照してください。
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. 「**次のステップ**」をクリックします。
-1. 「**オプション**」セクションで、テンプレートから削除する情報の横にあるチェックボックスを選択します。
+1. 「**次の手順**」をクリックします。
+1. **オプション**&#x200B;セクションで、テンプレートから削除する情報の横にあるチェックボックスを選択します。
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. 「**次のステップ**」をクリックします。
-1. 「**除外**」セクションで、プロジェクトから除外するタスクを選択します。
+1. 「**次の手順**」をクリックします。
+1. **除外**&#x200B;セクションで、プロジェクトから除外するタスクを選択します。
 
    ![](assets/save-as-template-exclude-350x205.png)
 

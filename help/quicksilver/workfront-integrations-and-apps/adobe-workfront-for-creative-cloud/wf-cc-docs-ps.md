@@ -7,7 +7,7 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
 source-git-commit: ab523ea5136b11a3ee1b6fa5746a1165f4b9d397
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 ## [!DNL Adobe Photoshop] にドキュメントをアップロード
 
-1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、次に&#x200B;**[!UICONTROL 作業リスト]**&#x200B;を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/go-back-to-work-list-350x314.png)
 

@@ -8,7 +8,7 @@ exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '1574'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 99%
 
    誰かがイシューにコメントするたびに、アプリ内通知が届きます。有効にしてある機能によっては、メール通知やモバイルアプリのプッシュ通知を受け取る場合もあります。
 
-   購読電子メールについて詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   登録メールについて詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 ## アイテムから登録解除
 

@@ -12,13 +12,13 @@ exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
 source-git-commit: 86be8b6e1c21f3fd5f5b66afa3bf930d6bafbd63
 workflow-type: tm+mt
 source-wordcount: '3208'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
 # [!DNL Dropbox] モジュール
 
-内、 [!DNL Adobe Workfront Fusion] シナリオを使用して、 [!UICONTROL Dropbox] または [!DNL Dropbox Business]複数のサードパーティのアプリケーションおよびサービスに接続できます。これにより、内のファイルおよびフォルダーの監視、検索、取得、リスト、作成、編集などのアクティビティを自動化できます [!UICONTROL Dropbox].
+[!DNL Adobe Workfront Fusion] シナリオでは、[!UICONTROL Dropbox] または [!DNL Dropbox Business] を使用するワークフローを自動化できるほか、複数のサードパーティアプリケーションおよびサービスに接続できます。これにより、[!UICONTROL Dropbox] 内のファイルやフォルダーの監視、検索、取得、一覧表示、作成、編集などのアクティビティを自動化できます。
 
 シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
@@ -69,9 +69,9 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->Dropboxは、50 人を超えるユーザーを持つアプリを承認する必要があります。
+>Dropbox は、ユーザーが 50 人を超えるアプリケーションを承認する必要があります。
 >
->詳しくは、Dropbox開発者ガイドで「実稼動の承認」を検索してください。
+>詳しくは、Dropbox 開発者ガイドの「Production approval」を検索してください。
 
 
 ## [!DNL Dropbox] への接続の作成
@@ -94,8 +94,8 @@ ht-degree: 89%
           <p>この接続の名前を入力します。</p>
         </td>
         <tr>
-        <td role="rowheader">[!UICONTROL 環境 ]</td>
-        <td>この接続を実稼動環境用と非実稼動環境用のどちらにするかを選択します。</td>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>この接続を実稼動環境と非実稼動環境のどちらで使用するかを選択します。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Type]</td>
@@ -104,14 +104,14 @@ ht-degree: 89%
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>[!UICONTROLDropbox] [!UICONTROL クライアント ID] を入力します。 </tr>
+        <td>[!UICONTROL Dropbox] [!UICONTROL Client ID] を入力します。 </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>を入力します。 [!DNL Dropbox] [!UICONTROL クライアント秘密鍵 ]。 </td>
+        <td>[!DNL Dropbox] [!UICONTROL Client Secret] を入力します。 </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL アカウントタイプ ]</td>
-        <td>個人のDropboxアカウントとビジネス (Dropboxビジネス ) アカウントのどちらに接続するかを選択します。</td>
+        <td role="rowheader">[!UICONTROL Account Type]</td>
+        <td>個人用 Dropbox アカウントとビジネス用アカウント（Dropbox Business）のどちらに接続するかを選択します。</td>
         </tr>
       </tbody>
     </table>
@@ -143,7 +143,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -180,7 +180,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Search] </td> 
@@ -229,7 +229,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>ファイルを選択する方法</td> 
@@ -258,7 +258,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>共有フォルダー ID</td> 
@@ -283,7 +283,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>リスト </td> 
@@ -319,7 +319,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>ファイルを選択する方法</td> 
@@ -363,7 +363,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder]</td> 
@@ -396,7 +396,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder Name] </td> 
@@ -429,7 +429,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Select to]</td> 
@@ -462,7 +462,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Way of selecting files]</td> 
@@ -503,7 +503,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Way of selecting files]</td> 
@@ -536,7 +536,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Way of selecting files] </td> 
@@ -581,7 +581,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>ファイルを選択する方法</td> 
@@ -614,7 +614,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Way of selecting files]</td> 
@@ -641,7 +641,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>接続方法については、 [!DNL Dropbox] アカウント [!DNL Workfront Fusion]を参照してください。 <a href="#create-a-connection-to-dropbox" class="MCXref xref">への接続の作成 [!DNL Dropbox]</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL Dropbox] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#create-a-connection-to-dropbox" class="MCXref xref">[!DNL Dropbox]</a> への接続の作成を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL URL]</p> </td> 

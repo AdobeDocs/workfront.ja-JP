@@ -9,7 +9,7 @@ exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
 source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
 source-wordcount: '542'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 82%
    <td> <p>新規：標準</p>
    または
 
-<p>現在： [!UICONTROL Work] 以降</p> </td> 
+<p>現在：[!UICONTROL Work] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
@@ -51,13 +51,13 @@ ht-degree: 82%
  </tbody> 
 </table>
 
-*お持ちのプラン、ライセンスの種類、アクセス権を調べるには、 [!DNL Workfront] 管理者。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*ご利用のプラン、ライセンスタイプまたはアクセス権について詳しくは、[!DNL Workfront] 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 作業アイテムの更新を表示する
 
 [!UICONTROL 作業リスト]内の任意の作業アイテムの更新を表示できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** ![](assets/lines-main-menu.png) 左上隅にある場合は、「 **[!UICONTROL ホーム]**.
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、または可能であれば左上隅の&#x200B;**メインメニュー** ![](assets/lines-main-menu.png) をクリックし、「**[!UICONTROL ホーム]**」をクリックします。
 1. **[!UICONTROL 作業リスト]**&#x200B;エリアで、更新を表示する項目を選択します。\
    更新は、右側のパネルに表示されます。
 
@@ -69,7 +69,7 @@ ht-degree: 82%
 
 [!UICONTROL 作業]リスト内の任意の作業アイテムの更新を提供できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** ![](assets/lines-main-menu.png) 左上隅にある場合は、「 **[!UICONTROL ホーム]**.
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、または可能であれば左上隅の&#x200B;**メインメニュー** ![](assets/lines-main-menu.png) をクリックし、「**[!UICONTROL ホーム]**」をクリックします。
 1. **[!UICONTROL 作業リスト]**&#x200B;エリアで、更新を提供する項目を選択します。
 1. 右側のパネルで、「**[!UICONTROL 更新]**」をクリックして、テキストフィールドを表示します。
 
@@ -88,7 +88,7 @@ ht-degree: 82%
 
 編集にアクセスできる任意の作業アイテムの任意のフィールドを編集できます。
 
-1. 次をクリック： **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) を右上に配置するか、 **メインメニュー** ![](assets/lines-main-menu.png) 左上隅にある場合は、「 **[!UICONTROL ホーム]**.
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、または可能であれば左上隅の&#x200B;**メインメニュー** ![](assets/lines-main-menu.png) をクリックし、「**[!UICONTROL ホーム]**」をクリックします。
 1. **[!UICONTROL 作業リスト]**&#x200B;エリアで、編集する項目を選択します。\
    ビューにアクセスできるすべてのフィールドが右側のパネルに表示されます。
 

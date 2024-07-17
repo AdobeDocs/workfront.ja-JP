@@ -10,13 +10,13 @@ exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
 # プロジェクトの計画：記事インデックス
 
-プロジェクト情報、プロジェクトチーム、およびプロジェクトの計画方法については、次の記事を参照してください。
+プロジェクト情報、プロジェクトチームおよびプロジェクトの計画方法については、次の記事を参照してください。
 
 * [プロジェクトの概要を計画](../../../manage-work/projects/planning-a-project/plan-project.md)
 * [プロジェクト内の作業分割構造を決定](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)

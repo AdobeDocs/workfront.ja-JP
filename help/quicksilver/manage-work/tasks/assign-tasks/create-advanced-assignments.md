@@ -20,7 +20,7 @@ ht-degree: 97%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 高度な割り当てを使用して、タスクまたはイシューの割り当てを管理できます。
 
@@ -62,7 +62,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
@@ -102,8 +102,8 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    実稼動環境のサンプル画像：
    ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">プレビュー環境のサンプル画像：</span>
-   ![「詳細」をクリックします](assets/assignments-box-in-task-header.png)
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![ 「詳細」をクリック ](assets/assignments-box-in-task-header.png)
 
 1. **ユーザー、役割、チームを検索**&#x200B;フィールドに、ユーザー、役割、またはチームの名前を入力し、ドロップダウンリストに表示された名前をクリックします。
 
@@ -164,8 +164,8 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
      実稼動環境のサンプル画像：
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
-     <span class="preview">プレビュー環境のサンプル画像：</span>
-     ![割り当て先の役割](assets/advanced-assignments-select-role.png)
+     <span class="preview"> プレビュー環境のサンプル画像：</span>
+     ![ 割り当て先の役割 ](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
 

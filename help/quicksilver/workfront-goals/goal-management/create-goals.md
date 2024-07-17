@@ -9,7 +9,7 @@ exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
 source-git-commit: 024c612d46848c55529e902a00d481588d261584
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -40,7 +40,7 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
    </td> 
   </tr>
   <tr>
- <td role="rowheader">Adobe Workfront ライセンス*</td>
+ <td role="rowheader">Adobe Workfront プラン*</td>
  <td>
  <p>新規ライセンス：コントリビューター以上</p>
  または
@@ -70,7 +70,7 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
 </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューに目標エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p>  
+   <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
   </tr>
 </tbody>

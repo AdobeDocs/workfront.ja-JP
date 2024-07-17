@@ -10,20 +10,20 @@ exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
 source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
 workflow-type: tm+mt
 source-wordcount: '354'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
 # 他のユーザーにダイレクトメッセージを送信
 
-[!DNL Adobe Workfront] を使用すると、作業アイテムに関係のないメッセージを他の [!DNL Workfront] ユーザーに直接、迅速かつ簡単に送信できます。この節の説明に従って送信されたメッセージは、ユーザーのホームページの「[!UICONTROL アップデート]」タブに表示され、すべてのユーザーに表示されます。更新について詳しくは、 [作業項目を更新し、更新を表示します：記事のインデックス](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] を使用すると、作業アイテムに関係のないメッセージを他の [!DNL Workfront] ユーザーに直接、迅速かつ簡単に送信できます。この節の説明に従って送信されたメッセージは、ユーザーのホームページの「[!UICONTROL アップデート]」タブに表示され、すべてのユーザーに表示されます。更新について詳しくは、[作業アイテムの更新および更新の表示：記事インデックス](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)を参照してください。
 
 この説の説明に従ってメッセージを送信すると、メッセージの送信先のユーザーは、以下のタイプの通知を受け取ります。
 
 * アプリ内通知（[アプリ内通知を表示および管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)で説明）
 * メール通知
 
-  これは、ユーザーが受信するように設定されているメール通知のタイプによって異なります。詳しくは、 [システムの全員に対するイベント通知を設定する](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [グループのイベント通知を表示および設定する](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)、および [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  これは、ユーザーが受信するように設定されているメール通知のタイプによって異なります。詳しくは、[システムの全ユーザーに対するイベント通知の設定](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)、[グループのイベント通知の表示および設定](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 ## アクセス要件
 

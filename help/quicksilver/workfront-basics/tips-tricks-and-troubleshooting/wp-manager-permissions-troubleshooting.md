@@ -8,7 +8,7 @@ description: ' [!DNL Adobe]  Workfront でユーザーをプルーフするた�
 feature: Get Started with Workfront
 exl-id: 913241d0-f5b0-4674-b078-9a1ad3682aff
 source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
 

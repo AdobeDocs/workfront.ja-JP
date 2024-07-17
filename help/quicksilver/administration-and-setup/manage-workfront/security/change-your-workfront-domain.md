@@ -11,7 +11,7 @@ exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
 source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Workfront の管理者であり、認定 Workfront サポート担当者�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Adobe Workfront の管理者であり、認定 Workfront サポート担当者�
 
 ## ドメインの変更をリクエスト
 
-1. Experience Leagueでサポートチケットを作成し始めます。
+1. Experience League でサポートチケットを作成し始めます。
 1. 「**説明**」ボックスに、必要な新しいドメインと、新しいドメインを稼動させる時期を記入します。
 1. サポートケースのボックスへの記入を完了したら、「**送信**」をクリックします。
 

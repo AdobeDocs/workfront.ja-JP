@@ -5,7 +5,8 @@ title: キャンバスダッシュボードへの既存のレポートの追加
 description: Adobe Workfrontのレポート ツールを使用して作成したレポートは、キャンバスダッシュボードに追加できます。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '171'
 ht-degree: 26%
@@ -14,9 +15,9 @@ ht-degree: 26%
 
 # キャンバスダッシュボードへの既存のレポートの追加
 
-Adobe Workfrontのレポート ツールを使用して作成したレポートは、キャンバスダッシュボードに追加できます。 レポート作成の詳細については、を参照してください。 [レポートの基本を学ぶ](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Adobe Workfrontのレポート ツールを使用して作成したレポートは、キャンバスダッシュボードに追加できます。 レポートの作成について詳しくは、[ レポートの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) を参照してください。
 
-キャンバスダッシュボードでのレポートの追加および並べ替えに関する一般的な情報については、を参照してください [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+キャンバスダッシュボードでのレポートの追加および配置に関する一般的な情報については、[ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。
 
 ## アクセス要件
 
@@ -31,7 +32,7 @@ Adobe Workfrontのレポート ツールを使用して作成したレポート�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>新規：標準
    <p>または</p>
    <p>現在：プラン</p></td> 
@@ -49,4 +50,4 @@ Adobe Workfrontのレポート ツールを使用して作成したレポート�
 
 >[!IMPORTANT]
 >
->この記事はまだ仕上がっていない。 キャンバスダッシュボードにレポートを追加するための一般的な手順については、記事を参照してください [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>この記事はまだ仕上がっていない。 キャンバスダッシュボードへのレポートの追加に関する一般的な手順については、記事 [ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。

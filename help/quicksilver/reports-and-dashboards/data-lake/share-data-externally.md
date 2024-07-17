@@ -19,20 +19,20 @@ ht-degree: 1%
 
 Workfront データレイクを使用すると、組織のWorkfront データを business intelligence ツールで使用したり、外部データウェアハウスに保存したりできます。
 
-Workfront Data Lake のデータを外部の商品と結び付けるには、の説明に従ってまず必要な IP を許可リストに追加する必要があります [許可リストに IP を追加](#add-ips-to-the-allowlist) 下。 さらに、ほとんどの製品では、接続を確立するためにデータレイクに関する追加情報が必要になります。
+Workfront Data Lake のデータを外部許可リスト許可リストに加えると結び付けるには、以下の [Add IPs to the](#add-ips-to-the-allowlist) で説明されているように、最初に必要な IP を製品に追加する必要があります。 さらに、ほとんどの製品では、接続を確立するためにデータレイクに関する追加情報が必要になります。
 
 | フィールド名 | 値 |
 |---------------|-------------|
-| サーバー | 接続の URL （を除く） `https://` 部分（見つかった部分） **データアクセス** Workfrontのページ*） |
+| サーバー | `https://` 部分を除いた接続用の URL （Workfront*の **データアクセス** ページにあります） |
 | ポート | `443` |
 | データベース | `WORKFRONT` |
 | ウェアハウス | `READER_WH` |
 | スキーマ | `WF` |
 | 役割 | `READER_ROLE` |
-| ユーザー名 | 接続の作成時に選択したユーザー名（に見つかりました） **データアクセス** Workfrontのページ*） |
+| ユーザー名 | 接続時に選択したユーザー名（Workfront*の **データアクセス** ページで確認できます） |
 | パスワード | 初回Snowflakeログイン時に選択したパスワード* |
 
-*詳細は、 **データアクセス** データレイク接続を含んだページ。を参照してください。 [Snowflake用のリーダー（サービス） アカウントを作成します](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*データレイクSnowflakeが含まれている **データアクセス** ページの場所について詳しくは、[ 接続用のリーダー（サービス）アカウントの作成 ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -43,25 +43,25 @@ Workfront Data Lake のデータを外部の商品と結び付けるには、の
 
 ## 許可リストに IP を追加
 
-1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **設定**.
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
 
-1. 左側のパネルで、 **システム** > **データアクセス**.
+1. 左側のパネルで、**システム**/**データアクセス** をクリックします。
 
-1. 「」をクリック **許可された IP** タブをクリックしてから、 **許可リストに IP アドレスを追加** ボタン。
+1. 「**許可されている IP**」タブをクリックし、「**許可リストに IP アドレスを追加**」ボタンをクリックします。
 
-1. IP アドレスの名前を **IP アドレスの説明** で使用するツールの IP アドレス（または CIDR ブロック）を入力します **IP アドレス**&#x200B;を選択し、 **許可リストに IP を追加**.
+1. 許可リストに加える **IP アドレスの説明** に IP アドレスの名前を入力し、**IP アドレス** で使用するツールの IP アドレス（または CIDR ブロック）を入力してから、「**IP を追加**」をクリックします。
 
-   ![IP アドレスを追加](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
+   ![IP アドレスの追加 ](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
 ## 許可リストから IP アドレスを削除する
 
-1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **設定**.
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
 
-1. 左側のパネルで、 **システム** > **データアクセス**.
+1. 左側のパネルで、**システム**/**データアクセス** をクリックします。
 
-1. 「」をクリック **許可された IP** タブをクリックしてから、ごみ箱アイコンをクリックします ![アイコンを削除](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) 削除する IP アドレスの右側に表示されます。
+1. 「**許可されている IP**」タブをクリックし、削除する IP アドレスの右側にあるごみ箱アイコン ![ 削除アイコン ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) をクリックします。
 
-1. 表示されるウィンドウで、チェックボックスをオンにして確認し、 **削除**.
+1. 表示されるウィンドウで、チェックボックスをオンにして「**削除**」をクリックします。
 
 ## ビジネスインテリジェンスツールとのデータの共有
 
@@ -69,7 +69,7 @@ Workfront Data Lake のデータを外部の商品と結び付けるには、の
 
 * [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
 * [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [ドモ](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* [ ドモ ](https://www.domo.com/appstore/connector/snowflake-connector/overview)
 * SAP HANA
 
 ## 外部データウェアハウスへのデータの保存

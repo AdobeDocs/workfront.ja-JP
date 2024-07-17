@@ -4,8 +4,9 @@ description: 2024年第 1 四半期のボードの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: ht
+exl-id: 8fc47f84-b419-4a0e-8945-cfcac1e87be8
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+workflow-type: tm+mt
 source-wordcount: '218'
 ht-degree: 100%
 

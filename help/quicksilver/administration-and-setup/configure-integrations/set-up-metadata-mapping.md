@@ -9,8 +9,8 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
 source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
-workflow-type: ht
-source-wordcount: '614'
+workflow-type: tm+mt
+source-wordcount: '616'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 

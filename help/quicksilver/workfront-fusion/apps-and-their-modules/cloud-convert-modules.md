@@ -6,8 +6,8 @@ draft: Probably
 feature: Workfront Fusion
 exl-id: e21ef8a0-bec0-43fc-a495-c00b4023a273
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '3041'
+workflow-type: tm+mt
+source-wordcount: '3008'
 ht-degree: 100%
 
 ---
@@ -31,7 +31,7 @@ Adobe Workfront Fusion のシナリオでは、CloudConvert を使用するワ�
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion]ライセンス要件なし。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
@@ -39,7 +39,7 @@ Adobe Workfront Fusion のシナリオでは、CloudConvert を使用するワ�
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を、組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
    <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
    </td> 
@@ -97,7 +97,7 @@ Web サイトの URL と、情報の保存場所などのその他の情報を�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL CloudConvert] アカウントを [!DNL Workfront Fusion] に接続する方法については、この記事の<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">[!DNL CloudConvert] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+   <td> <p>[!DNL CloudConvert] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事内の <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">[!DNL CloudConvert]を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -234,7 +234,7 @@ ZIP、RAR、7Z、TAR、TAR.GZ または TAR.BZ2 アーカイブに 1 つまた�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL CloudConvert] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">[!DNL CloudConvert] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+   <td> <p>[!DNL CloudConvert] アカウントを [!DNL Workfront Fusion] に接続する方法については、この記事の<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">[!DNL CloudConvert] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Input Files]</p> </td> 
@@ -258,7 +258,7 @@ ZIP、RAR、7Z、TAR、TAR.GZ または TAR.BZ2 アーカイブに 1 つまた�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversion and engine specific options] </td> 
-   <td> <p>コンバージョンとエンジン固有のオプションを指定します。使用可能なオプションを表示するには、<code>input_format</code> と <code>output_format</code> に関する <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> ドキュメントを参照してください。</p> </td> 
+   <td> <p>コンバージョンとエンジン固有のオプションを指定します。使用可能なオプションを表示するには、<a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> のドキュメントで <code>input_format</code> および <code>output_format</code> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a File]</td> 
@@ -349,7 +349,7 @@ ZIP、RAR、7Z、TAR、TAR.GZ または TAR.BZ2 アーカイブに 1 つまた�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Conversion and engine specific options]</td> 
-   <td> <p>コンバージョンとエンジン固有のオプションを指定します。使用可能なオプションを表示するには、<code>input_format</code> と <code>output_format</code> に関する <a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> ドキュメントを参照してください。</p> </td> 
+   <td> <p>コンバージョンとエンジン固有のオプションを指定します。使用可能なオプションを表示するには、<a href="https://cloudconvert.com/api/v2/convert#convert-tasks">[!DNL CloudConvert] API</a> のドキュメントで <code>input_format</code> および <code>output_format</code> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Download a file]</td> 
@@ -376,7 +376,7 @@ ZIP、RAR、7Z、TAR、TAR.GZ または TAR.BZ2 アーカイブに 1 つまた�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL CloudConvert] アカウントを [!DNL Workfront Fusion] に接続する手順について詳しくは、この記事にある「<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">[!DNL CloudConvert] を [!DNL Workfront Fusion]</a> に接続」を参照してください。</p> </td> 
+   <td> <p>[!DNL CloudConvert] アカウントを [!DNL Workfront Fusion] に接続する方法については、この記事の<a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">[!DNL CloudConvert] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input Files]</td> 
@@ -601,7 +601,7 @@ ZIP、RAR、7Z、TAR、TAR.GZ または TAR.BZ2 アーカイブに 1 つまた�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL CloudConvert] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事にある <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">[!DNL CloudConvert] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+   <td> <p>[!DNL CloudConvert] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">[!DNL CloudConvert] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -651,7 +651,7 @@ ZIP、RAR、7Z、TAR、TAR.GZ または TAR.BZ2 アーカイブに 1 つまた�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL CloudConvert] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事にある <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">[!DNL CloudConvert] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+   <td> <p>[!DNL CloudConvert] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref">[!DNL CloudConvert] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 

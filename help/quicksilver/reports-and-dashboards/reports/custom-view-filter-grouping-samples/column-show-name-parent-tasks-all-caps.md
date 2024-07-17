@@ -8,8 +8,8 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
-source-wordcount: '300'
+workflow-type: tm+mt
+source-wordcount: '301'
 ht-degree: 100%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 100%
 
 1. **列のプレビュー**&#x200B;エリアで、リストにタスク名が表示される列のヘッダーをクリックします。
 1. 「**テキストモードに切り替え**」をクリックします。
-1. テキストモード領域にカーソルを置き、「**クリックしてテキストを編集**」をクリックします。
+1. テキストモードエリアの上にマウスを移動し、「**クリックしてテキストを編集**」をクリックします。
 1. 「**テキストモード**」ボックスにあるテキストを削除し、次のコードに置き換えます。 <pre>descriptionkey=name<br>displayname=Task Name<br>textmode=true<br>valueexpression=IF({numberOfChildren}>&quot;0&quot;,UPPER({name}),{name})<br>valueformat=HTML<br>width=150<br></pre>
 
 1. 「**ビューを保存**」をクリックします。

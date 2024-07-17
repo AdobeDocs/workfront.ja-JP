@@ -91,13 +91,13 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
  </tbody>
 </table>
 
-*詳細については、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 
 
-## ビューに対する権限の共有 <!--internally-->
+## ビューア <!--internally--> ットに対する権限の共有
 
-作成したビューまたは管理権限を持つビューを共有できます <!--with users or groups in Workfront-->.
+自分が作成したビュー、または自分に管理権限を持つビューを共有で <!--with users or groups in Workfront--> ます。
 
 >[!NOTE]
 >
@@ -120,9 +120,9 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 1. （オプション）次のオプションから選択して、ビューを共有します。
 
    * **招待されたユーザーのみがアクセスできます**：ビューを共有するユーザーまたはグループを指定する必要があります。 これはデフォルトのオプションです。
-   * **ワークスペースの全員が表示できます**：ワークスペースに対する表示以上の権限を持つすべてのユーザーがビューにアクセスできます。
+   * **ワークスペース内の全員が表示できます**：ワークスペースに対する表示以上の権限を持つすべてのユーザーが、ビューにアクセスできます。
 
-1. が含まれる **表示アクセス権の付与先** フィールドに、ユーザーまたはグループの名前の入力を開始し、リストに表示されたらクリックします。  <!--***********replace screen shot below when public sharing is released***********-->
+1. 「**表示アクセスの許可**」フィールドにユーザーまたはグループの名前の入力を開始し、リストに表示されたらクリックします。 <!--***********replace screen shot below when public sharing is released***********-->
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -140,7 +140,7 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
    >[!TIP]
    >
-   >   自分と共有されているビューには、ユーザー情報インジケーターがあります ![](assets/view-shared-with-others-people-icon.png) 表示アイコンの横。 人物インジケーターのないビューは、作成したビューです。
+   >   共有されているビューには、表示アイコンの横に人物インジケーター ![](assets/view-shared-with-others-people-icon.png) 表示されます。 人物インジケーターのないビューは、作成したビューです。
 
 
 
@@ -189,7 +189,7 @@ To share a view publicly in Workfront Planning:
 {{step1-to-planning}}
 
 1. 共有を停止するビューのワークスペースを開き、レコードタイプのカードをクリックします。 レコードタイプページが開きます。
-1. 共有を削除するビューのタブ名にポインタを合わせ、 **詳細** メニュー ![](assets/more-menu.png)を選択し、 **共有**.
+1. 共有を削除するビューのタブ名にポインタを合わせ、[ 詳細 **] メニュー ![](assets/more-menu.png) ージをクリックしてから**[ 共有 **] をクリックし** す。
 1. 削除するユーザーまたはグループを見つけて、ユーザー名またはグループ名の右側にある権限ドロップダウンメニューで「**削除**」をクリックします。
 1. 「**保存**」をクリックします。
 削除されたグループに属するユーザーは、ビューにアクセスできなくなります。ビューへのアクセスから削除されたユーザーに対しては、アクセス権が失われたという通知はありません。

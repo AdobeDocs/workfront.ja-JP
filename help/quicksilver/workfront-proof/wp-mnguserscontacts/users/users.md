@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: ユーザー
-description: Workfrontの配達確認でのユーザーについて説明します。
+description: Workfront Proof のユーザーについて説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -11,7 +11,7 @@ exl-id: ae23ae5f-f6fe-4ecd-8480-b889ad76b512
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '48'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 

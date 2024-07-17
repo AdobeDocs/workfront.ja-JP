@@ -22,9 +22,9 @@ ht-degree: 27%
 >
 >Workfront Planning から通知を受け取るには、会社がAdobeの Unified Experience の顧客である必要があります。
 >
->詳しくは、を参照してください [WorkfrontのAdobe統合エクスペリエンス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
-レコードコメント内の他のタグ付けについて詳しくは、を参照してください [レコードのコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md).
+レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
 
 ## アクセス要件
 
@@ -42,7 +42,7 @@ ht-degree: 27%
    <p> 製品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Workfront Planning から通知を受け取り、通知設定を管理するには、組織のWorkfront インスタンスをAdobeの Unified Experience にオンボーディングする必要があります。 詳しくは、を参照してください <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス</a>.</p></td>
+   <p>Workfront Planning から通知を受け取り、通知設定を管理するには、組織のWorkfront インスタンスをAdobeの Unified Experience にオンボーディングする必要があります。 詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス </a> を参照してください。</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 契約</p></td>
    <td>
@@ -89,9 +89,9 @@ ht-degree: 27%
 
    ![](assets/email-notification-example.png)
 
-1. でメッセージをクリックします **Workfront** ボックス。
+1. 「**Workfront**」ボックスのメッセージをクリックします。
 
    レコードの詳細ページがWorkfrontで開きます。 レコードを更新したり、コメントに返信したりできます。
 
-1. （条件付き）使用可能な場合は、 **すべての通知を表示**. <!--check with Lilit - do non-IMS users have this button??-->
-この **通知** Adobe Experience Cloudでページが開きます。 すべてのAdobe Experience Cloud アプリケーションからのすべての通知が表示されます。
+1. （条件付き）使用可能な場合は、「**すべての通知を表示**」をクリックします。 <!--check with Lilit - do non-IMS users have this button??-->
+**通知** ページがAdobe Experience Cloudで開きます。 すべてのAdobe Experience Cloud アプリケーションからのすべての通知が表示されます。

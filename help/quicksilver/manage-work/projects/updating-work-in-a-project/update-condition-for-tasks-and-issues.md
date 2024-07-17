@@ -19,13 +19,13 @@ ht-degree: 67%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 タスクまたはイシューの状況は、進行状況を示すために配置されたフラグです。これは、作業項目の現在の開発段階を示す作業項目のステータスとは異なります。
 
 タスクまたはイシューの状況は、自動または手動で設定できます。
 
-この記事で参照する条件値は、デフォルトでWorkfrontで使用できます。 の説明に従って、Adobe Workfront管理者は環境のカスタム条件を作成することができます。 [カスタム条件の作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+この記事で参照する条件値は、デフォルトでWorkfrontで使用できます。 [ カスタム条件の作成または編集 ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) で説明されているように、Adobe Workfront管理者が環境のカスタム条件を作成できます。
 
 ## アクセス要件 {#access-requirements}
 
@@ -78,11 +78,11 @@ ht-degree: 67%
 
 タスクとイシューの条件は、Workfrontの次の領域で見つけることができます。
 
-* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の「詳細」ページ。 詳しくは、を参照してください [レイアウトテンプレートを使用した詳細ビューのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の詳細ページ。 詳しくは、[ レイアウトテンプレートを使用した詳細ビューのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) を参照してください。</span>
 
-* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の、タスクまたはイシューのヘッダー。 詳しくは、を参照してください [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後のタスクまたはイシューのヘッダー。 詳しくは、[ レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md) を参照してください。</span>
 
-* Workfront管理者またはグループ管理者がレイアウトテンプレートに概要パネルを追加した後。 詳しくは、を参照してください [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Workfront管理者またはグループ管理者がレイアウトテンプレートに概要パネルを追加した後。 詳しくは [ レイアウトテンプレートを使用したホームと概要のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
 
 * ビューまたはグループ化で「状況」フィールドを表示する場合は、レポートおよびリスト。
 
@@ -114,8 +114,8 @@ ht-degree: 67%
 >
 >詳しくは、次の記事を参照してください。
 >
->* [概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [ 概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [ レイアウトテンプレートを使用してホームと概要をカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
 <!--old Condition update - in the commenting stream: 
@@ -130,7 +130,7 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. タスクまたは問題ヘッダーでタスクまたは問題の条件を更新するには：
 
-   1. （条件付き）Workfrontまたはグループ管理者がレイアウトテンプレートのタスクまたはイシューのヘッダーに「条件」フィールドを追加した場合は、 **条件** フィールドをクリックし、次のいずれかのオプションを選択します。
+   1. （条件付き）Workfrontまたはグループ管理者がレイアウトテンプレートのタスクまたはイシューヘッダーに「条件」フィールドを追加した場合は、ヘッダーの **条件** フィールドをクリックして、次のオプションから選択します。
       * 順調
       * やや心配
       * 深刻な障害
@@ -140,7 +140,7 @@ Updating the Condition of a task or issue differs depending on whether you are a
 
 1. 「タスクまたは問題の詳細」セクションでタスクまたは問題の条件を更新するには：
 
-   1. （条件付き）Workfrontまたはグループ管理者が、レイアウトテンプレートのタスクまたはイシューの「詳細」セクションに「条件」フィールドを追加した場合は、 **詳細** 左側のパネルで、 **タスクの条件** または **問題の条件** 次のいずれかのオプションを選択します。
+   1. （条件付き）Workfrontまたはグループ管理者が、レイアウトテンプレートのタスクまたは問題の「詳細」セクションに「条件」フィールドを追加した場合は、左側のパネルで **「詳細**」をクリックし、**タスク条件** または **問題条件** をクリックして、次のオプションから選択します。
       * 順調
       * やや心配
       * 深刻な障害

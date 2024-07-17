@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 100%
 
@@ -52,7 +52,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 

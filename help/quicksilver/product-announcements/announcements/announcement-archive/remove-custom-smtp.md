@@ -7,8 +7,8 @@ author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
 source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
-workflow-type: ht
-source-wordcount: '279'
+workflow-type: tm+mt
+source-wordcount: '278'
 ht-degree: 100%
 
 ---

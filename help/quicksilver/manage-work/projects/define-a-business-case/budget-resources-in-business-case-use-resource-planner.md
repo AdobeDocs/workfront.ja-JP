@@ -6,8 +6,8 @@ author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
 source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
-workflow-type: ht
-source-wordcount: '1284'
+workflow-type: tm+mt
+source-wordcount: '1280'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト </a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトに対する権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,9 +136,9 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
    >
    >   
    >   
-   >* プロジェクトのリソースプールの 1 つに属している。
-   >* 予算計上時間数が割り当てられている。
-   >* プロジェクトの担当業務の 1 つに関連付けられている。
+   >   * プロジェクトのリソースプールの 1 つに属している。
+   >   * 予算計上時間数が割り当てられている。
+   >   * プロジェクトの担当業務の 1 つに関連付けられている。
    >   
    >
 

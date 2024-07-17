@@ -2,7 +2,7 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 8 のアップデート
-description: API バージョン 8 のアップデートを参照してください。
+description: API バージョン 8 のアップデートを表示します。
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,7 +10,7 @@ exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -28,11 +28,11 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| アクション<sup>1</sup>  |   |   |   |   |   |   |
+| action<sup>1</sup>  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値の変更
+<sup>1</sup> 可能な値に変更
 
 ### AccessRule<sup>1</sup> 
 
@@ -44,8 +44,8 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 削除されたフラグ： REPORTABLE\
-<sup>2</sup> 可能な値の変更
+<sup>1</sup> フラグを削除：REPORTABLE\
+<sup>2</sup> 可能な値に変更
 
 ### 承認
 
@@ -58,8 +58,8 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更\
-<sup>2</sup>追加されたフラグ：DYNAMIC、LAZY_READ、NOT_GROUPABLE
+<sup>1</sup>可能な値に変更\
+<sup>2</sup>フラグを追加：DYNAMIC, LAZY_READ および NOT_GROUPABLE
 
 ### 割り当て
 
@@ -80,17 +80,17 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### CustomerPreferences
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| 名前<sup>1</sup> |   |   |   |   |   |   |
+| name<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### DocumentApproval
 
@@ -100,7 +100,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>追加されたフラグ： NOT_FILTERABLE
+<sup>1</sup>フラグを追加：NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -126,7 +126,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>追加されたフラグ： NOT_FILTERABLE
+<sup>1</sup>フラグが追加：NOT_FILTERABLE
 
 ### イテレーション
 
@@ -152,7 +152,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### OpTask
 
@@ -166,7 +166,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### ポートフォリオ
 
@@ -176,7 +176,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### プログラム
 
@@ -186,7 +186,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### プロジェクト
 
@@ -196,7 +196,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### ProofApproval
 
@@ -209,7 +209,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>追加されたフラグ： NOT_FILTERABLE
+<sup>1</sup>フラグを追加：NOT_FILTERABLE
 
 ### QueueDef
 
@@ -220,7 +220,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### レート
 
@@ -258,7 +258,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### チーム
 
@@ -288,7 +288,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 アップデート
 
@@ -298,7 +298,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### ユーザー
 
@@ -320,7 +320,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更
+<sup>1</sup>可能な値に変更
 
 ### ワーク
 
@@ -333,5 +333,5 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup>可能な値の変更\
-<sup>2</sup>追加されたフラグ：DYNAMIC、LAZY_READ、NOT_GROUPABLE
+<sup>1</sup>可能な値に変更\
+<sup>2</sup>フラグを追加：DYNAMIC, LAZY_READ および NOT_GROUPABLE

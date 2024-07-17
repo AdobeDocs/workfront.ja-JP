@@ -2,20 +2,20 @@
 content-type: reference
 navigation-topic: notifications
 title: 「通知：アクションが必要」
-description: 作業アイテムに対してアクションを実行する必要がある場合は、次の通知が表示されます。受信する通知の設定について詳しくは、「独自の電子メール通知を変更する」を参照してください。
+description: 作業アイテムに対してアクションを実行する必要がある場合は、次の通知が表示されます。受信する通知の設定について詳しくは、自身のメール通知の変更を参照してください。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: dd383bd4-da30-45ea-889e-e6b49416974b
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '2442'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
 # 通知：[!UICONTROL アクションが必要]
 
-作業アイテムに対してアクションを実行する必要がある場合は、次の通知が表示されます。受信する通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+作業アイテムに対してアクションを実行する必要がある場合は、次の通知が表示されます。受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 [イベント通知](../../workfront-basics/using-notifications/event-notifications.md)も参照してください。
 

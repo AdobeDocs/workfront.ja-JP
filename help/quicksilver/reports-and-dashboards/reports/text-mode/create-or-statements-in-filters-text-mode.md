@@ -9,7 +9,7 @@ exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '561'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 96%
 
 ## テキストモードのフィルター演算子
 
-標準フィルターインターフェイスのAdobe Workfrontフィルター演算子について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+標準フィルターインターフェイスの Adobe Workfront フィルター演算子について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 Workfront には、それぞれのフィルターステートメントを結び付ける 2 つのフィルター演算子があります。
 

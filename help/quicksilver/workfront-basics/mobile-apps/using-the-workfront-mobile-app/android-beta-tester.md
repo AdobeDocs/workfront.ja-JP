@@ -7,7 +7,7 @@ author: Nolan
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 
@@ -46,9 +46,9 @@ ht-degree: 100%
 
 ベータ版アプリに関するフィードバックを提供したり、問題を報告したりするには、次の手順を実行します。
 
-1. 下部のナビゲーション バーで「**[!UICONTROL その他]**」をタップします。
-1. 自分の名前をタップし、**[!UICONTROL フィードバックを送信]**&#x200B;します。
-1. アプリに関する一般的なフィードバックを提供するには、「**[!UICONTROL 調査を開始]**」を選択します。\
+1. ナビゲーションバー下部の「**[!UICONTROL その他]**」をタップします。
+1. 名前をタップし、「**[!UICONTROL フィードバックを送信]**」をタップします。
+1. 「**[!UICONTROL 調査を開始]**」を選択して、アプリに関する一般的なフィードバックを提供します。\
    または\
    「**[!UICONTROL 問題を報告]**」を選択して、[!DNL Workfront] カスタマーケアチームにチケットを送信します。
 

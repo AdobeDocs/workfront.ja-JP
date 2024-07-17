@@ -2,25 +2,25 @@
 content-type: overview
 product-area: user-management
 navigation-topic: configure-your-user-profile
-title: 個人の休日を設定
-description: 承認されたオフの発生時期をAdobe Workfrontで指定することが重要です。これは、スケジュールに影響し、割り当てられているタスクの予定完了日に影響を与えるからです。
+title: 個人の休暇の設定
+description: 承認された休暇がいつ発生するかを Adobe Workfront で表示することが重要です。これはスケジュールに影響し、割り当てられているタスクの予定完了日に影響を与えるからです。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
 source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
 workflow-type: tm+mt
 source-wordcount: '394'
-ht-degree: 62%
+ht-degree: 100%
 
 ---
 
-# 個人の休日を設定
+# 個人の休暇の設定
 
 <!-- Audited: 12/2023 -->
 
 [!DNL Adobe Workfront] は、個人の休暇を管理、累積または追跡するために、組織の既存システムを複製または置き換えるようには設計されていません。
 
-ただし、承認されたオフのタイミングを指定することが重要です。これは、スケジュールと [!UICONTROL 計画完了日] 割り当てられているタスクの数を指定します。
+ただし、承認された休暇がいつ発生するかを示すことが重要です。これはスケジュールと割り当てられているタスクの[!UICONTROL 予定完了日]の両方に影響を与えるからです。
 
 例えば、ユーザーが 2 週間かかる予定のタスクに割り当てられていて、その間に 3 日間の休暇を取る予定がある場合、[!DNL Workfront] ではタスクタイムラインに 3 日を追加して、休暇を考慮します。
 
@@ -45,14 +45,14 @@ ht-degree: 62%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：標準（個人のオフ時間を設定）</p>
+   <td> <p>新規：標準（個人の休暇を設定する場合）</p>
         <p>または</p>
-        <p>現在：勤務先以上（個人の休日を設定する場合）</p> </td>
+        <p>現在：ワークまたはそれ以上（個人の休暇を設定する場合）</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -62,7 +62,7 @@ ht-degree: 62%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## [!DNL Workfront] における個人の休暇の設定
 
@@ -75,8 +75,8 @@ ht-degree: 62%
 
 1. 一日中休みを取る場合は、「**[!UICONTROL 一日中]**」を選択します。
 
-   1 日未満の休日を取る場合は、このチェックボックスをオフのままにし、休日の開始時間と終了時間を指定します。
+   休暇が 1 日未満で、休暇の開始時間と終了時間を示す場合は、このチェックボックスをオフのままにします。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-   休暇が、 [!DNL Workfront] システム全体でリソースプランナーやワークロードバランサーなどのリソース管理ツールに表示されるようになりました。この間に作業を割り当てられると、ツールヒントが表示され、予定時間がずれたことがユーザーに通知されます。
+   休暇が、 [!DNL Workfront] システム全体でリソースプランナーやワークロードバランサーなどのリソース管理ツールに表示されるようになりました。この時間に作業が割り当てられると、休暇をスケジュールしたことをユーザーに通知するツールヒントが表示されます。

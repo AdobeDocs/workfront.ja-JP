@@ -8,8 +8,8 @@ description: ' [!DNL Adobe Workfront]  をサードパーティのアプリケ�
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
 source-git-commit: 328d3a8d16ace22100d86efc127874d7edd6cb6d
-workflow-type: ht
-source-wordcount: '946'
+workflow-type: tm+mt
+source-wordcount: '945'
 ht-degree: 100%
 
 ---

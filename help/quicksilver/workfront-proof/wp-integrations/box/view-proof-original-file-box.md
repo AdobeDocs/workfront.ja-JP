@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: box
 title: ボックスでプルーフの元のファイルを表示
-description: Box で配達確認の元のファイルを表示する方法を説明します。
+description: Box でプルーフのオリジナルのファイルを表示する方法を説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c6da023c-4dbe-4770-82dc-3246568c01a2
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '144'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 

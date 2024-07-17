@@ -9,7 +9,7 @@ exl-id: 68774286-da24-409a-bbd8-eb18dfe75063
 source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ ht-degree: 97%
 
 1. **ラグ**&#x200B;の量（日単位）を指定します。
 
-   ラグタイプの詳細については、を参照してくださ&#x200B;い。 [ラグタイプの概要](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   ラグタイプについては、[ラグタイプの概要](../../../manage-work/tasks/use-prdcssrs/lag-types.md)を参照してください。
 
 1. 2 つのタスク間の先行タスクの関係を強制する場合は、「**強制**」を選択します。
 

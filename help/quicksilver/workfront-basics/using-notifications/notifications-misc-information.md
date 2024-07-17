@@ -9,7 +9,7 @@ exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
 source-git-commit: 298b74c2d228a76c02d34470fa8298028605cab4
 workflow-type: tm+mt
 source-wordcount: '971'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 次の通知は、自分がスポンサーしているプロジェクトで発生するアクティビティについて警告します。
 
-受信する通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 [イベント通知](../../workfront-basics/using-notifications/event-notifications.md)も参照してください。
 
@@ -53,7 +53,7 @@ ht-degree: 97%
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>自分が確認すべきエラーが見つかりました</strong> </p> <p>メールでコメントに返信するユーザーは、返信が配信されなかった場合にメール通知を受け取ります。</p> <p>即時通知メールの件名は次のとおりです：<em>[!UICONTROL Failed to Process on] &lt;元のメッセージの件名&gt;</em></p> <p>電子メールを使用してコメントに返信する方法について詳しくは、 <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">電子メール通知に返信</a>.</p> </td>
+   <td> <p><strong>自分が確認すべきエラーが見つかりました</strong> </p> <p>メールでコメントに返信するユーザーは、返信が配信されなかった場合にメール通知を受け取ります。</p> <p>即時通知メールの件名は次のとおりです：<em>[!UICONTROL Failed to Process on] &lt;元のメッセージの件名&gt;</em></p> <p>メールを使用したコメントの返信について詳しくは、<a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">メール通知への返信</a>を参照してください。</p> </td>
    <td> </td> 
    <td><strong>即時</strong> </td> 
   </tr> 

@@ -7,7 +7,7 @@ author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f7e31e20-01e3-462d-9020-005e155f0259
 source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 100%
 

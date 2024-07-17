@@ -9,7 +9,7 @@ exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
 source-git-commit: 78a6cee213887c72aedc14bbb4552f28fc27625d
 workflow-type: tm+mt
 source-wordcount: '458'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 [!DNL Adobe Workfront for XD] プラグインは、Adobe Marketplace からインストールできます。このプラグインでは、次の言語をサポートしています。
 
-* 英語
+* Japanese
 * フランス語
 * ドイツ語
 * イタリア語
@@ -59,13 +59,13 @@ ht-degree: 93%
 
 * Workfront プラグインをインストールする前に、[!DNL Adobe XD] アプリをインストールする必要があります。
 
-## をインストールします。 [!DNL Adobe Workfront for XD] 組織のプラグイン
+## 組織への [!DNL Adobe Workfront for XD] プラグインのインストール
 
 [!DNL Adobe Admin Console] 管理者は、プラグインを [!DNL Creative Cloud] デプロイメントパッケージに含めることができます。詳しくは、[パッケージへのプラグインの追加](https://helpx.adobe.com/jp/enterprise/using/manage-extensions.html)を参照してください。
 
 [こちらからビデオチュートリアルをご覧いただけます](https://www.youtube.com/watch?v=zzvXNLIBzrc){target=_blank}。
 
-[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成することもできます。 詳しくは、 [[!UICONTROL [!DNL Adobe Workfront] 対象： [!DNL Creative Cloud]] ユーザー向けのパッケージを [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+また、[!DNL Adobe Admin Console] 管理者は、ユーザーに配布するプラグイン専用のパッケージを作成できます。詳しくは、「[[!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)の作成」を参照してください
 
 ## [!DNL Adobe Workfront for XD] プラグインの個別インストール
 
@@ -79,7 +79,7 @@ ht-degree: 93%
 
 ## [!DNL Adobe Workfront for XD] プラグインを開きます。
 
-1. 開く [!DNL Adobe XD].
+1. [!DNL Adobe XD] を開きます。.
 
 1. 新規ファイルを作成するか、既存のファイルを開きます。
 

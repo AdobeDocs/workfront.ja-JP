@@ -8,7 +8,7 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: a38c5e86-9789-41ca-a832-2ee5eb0a570b
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
@@ -61,7 +61,7 @@ ht-degree: 100%
 
 1. 「**列を追加**」をクリックします。
 1. 「**テキストモードに切り替える**」をクリックします。
-1. テキストモードエリアにポインタを合わせ、「**クリックするとテキストを編集できます**」をクリックします。
+1. テキストモードエリアにポインタを合わせ、「**クリックしてテキストを編集**」をクリックします。
 1. 「**テキストモード**」ボックスにあるテキストを削除し、次のコードに置き換えます。
 
    ```

@@ -3,14 +3,14 @@ content-type: overview
 product-area: calendars
 navigation-topic: calendars-navigation-topic
 title: カレンダーレポートの概要
-description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。タスク、タスクおよびプロジェクトに関する日付情報をカレンダーレポートに表示できます。
+description: カレンダーレポートは、作業内容を視覚的に表現する動的なレポートです。日付情報は、タスク、イシュー、プロジェクトのカレンダーレポートで表示できます。
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
 source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '387'
-ht-degree: 60%
+ht-degree: 100%
 
 ---
 
@@ -24,27 +24,27 @@ ht-degree: 60%
 * イシュー
 * プロジェクト
 
-でカレンダーレポートにアクセスする機能 [!DNL Adobe Workfront] は、アクセスレベルを通じて決定されます。 カレンダーレポートの表示に必要なアクセスの詳細については、 [レポート、ダッシュボード、カレンダーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+[!DNL Adobe Workfront] のカレンダーレポートにアクセスできる権限は、アクセスレベルを通じて決定されます。カレンダーレポートの表示に必要なアクセス権について詳しくは、[レポート、ダッシュボード、カレンダーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
 
 ## 独自のカレンダーを作成
 
-[!DNL Workfront] 次の場合に、既定の個人用カレンダーを自動的に作成します。
+次の場合に、[!DNL Workfront] は既定の個人用カレンダーを自動的に作成します。
 
-* 他のカレンダーにアクセスできず、初めてカレンダーレポートページにアクセスする新しく作成されたユーザーです
+* その他のカレンダーに対してアクセス権がない新規作成ユーザーが、初めてカレンダーレポートページにアクセスした場合
 
   または
 
-* すべてのカレンダーを手動で削除し、他のカレンダーにアクセスできない
+* すべてのカレンダーを手動で削除してしまい、他のカレンダーにアクセスできない場合
 
 >[!NOTE]
 >
->他のカレンダー（システム全体の共有カレンダーや、自分が特別に共有しているカレンダーなど）にアクセスできる場合、個人用カレンダーは作成されません。
+>システム全体の共有カレンダーや、自分で特別に共有したカレンダーなどの他のカレンダーにアクセスできる場合、個人用カレンダーは作成されません。
 
-さらに、カレンダーを作成し、他のユーザーが自分と共有しているカレンダーにアクセスすることもできます。 でアクセスできるカレンダーの数に制限はありません [!DNL Workfront].
+また、自分でカレンダーを作成したり、他のユーザーが共有しているカレンダーにアクセスしたりすることもできます。[!DNL Workfront] でアクセスできるカレンダーの数に制限はありません。
 
 >[!NOTE]
 >
->カレンダーレポートを作成するには、アクセスレベルに、[!UICONTROL レポート]、[!UICONTROL ダッシュボード]、[!UICONTROL カレンダー]に対する[!UICONTROL 編集]アクセス権が必要です。お問い合わせ [!DNL Workfront] 管理者を参照してください。
+>カレンダーレポートを作成するには、アクセスレベルに、[!UICONTROL レポート]、[!UICONTROL ダッシュボード]、[!UICONTROL カレンダー]に対する[!UICONTROL 編集]アクセス権が必要です。詳しくは、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 日付ごとに項目をグループ化する
 

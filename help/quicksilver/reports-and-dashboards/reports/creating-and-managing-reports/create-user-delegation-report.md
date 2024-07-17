@@ -8,8 +8,8 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: ht
-source-wordcount: '383'
+workflow-type: tm+mt
+source-wordcount: '379'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ Adobe Workfront では、ユーザーがプロジェクト、タスクおよび�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

@@ -7,7 +7,7 @@ author: Nolan
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 100%
 
@@ -56,9 +56,9 @@ ht-degree: 100%
 
 [!DNL iOS] の [!DNL MobileIron] に [!DNL Workfront] を設定するには、次の操作を実行します。
 
-1. [!DNL MobileIron Cloud] インスタンスで、「**[!UICONTROL 設定]**」に移動して、「**[!UICONTROL デフォルト [!DNL iOS] AppConnect 設定]**」をクリックします。
+1. [!DNL MobileIron Cloud] インスタンスで、**[!UICONTROL 設定]**&#x200B;に移動し、次に&#x200B;**[!UICONTROL デフォルト [!DNL iOS] AppConnect 設定]**&#x200B;をクリックします。
 
-1. 「**[!UICONTROL 編集]**」をクリックして、使用するオプションを選択します。
+1. 「**[!UICONTROL 編集]**」をクリックし、使用するオプションを選択します。
 
    <table style="table-layout:auto">
     <tr>

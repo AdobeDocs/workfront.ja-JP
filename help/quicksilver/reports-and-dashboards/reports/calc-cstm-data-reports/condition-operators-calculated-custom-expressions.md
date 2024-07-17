@@ -10,7 +10,7 @@ exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
 source-git-commit: 639a696c19d79cf2415a45ccb9849ec183fb0bb8
 workflow-type: tm+mt
 source-wordcount: '718'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 <!-- Audited: 2/2024 -->
 
-テキストモードの使用時に、Adobe Workfrontで計算済みのカスタムデータを作成する際に、条件演算子または修飾子を使用できます。 Workfrontでのテキストモードの使用について詳しくは、 [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+テキストモードを使用する場合、Adobe Workfront で計算済みのカスタムデータを作成する際に、条件演算子または修飾子を使用できます。Workfront でのテキストモードの使用について詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
 条件演算子または修飾子は、ステートメント内の既存の Workfront フィールドを結合し、新しいフィールドを生成することで、条件ステートメントを作成するのに役立ちます。条件演算子の最も一般的な使用法は、「IF」ステートメントの条件を作成することです。
 
@@ -90,7 +90,7 @@ Workfront では、次の条件修飾子を使用できます。
      <li>IN </li> 
      <li>IFIN </li> 
      <li>ISBLANK </li> 
-    </ul> <p>これらのデータ式について、および完全なリストについては、 <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">計算データ式の概要</a>. </p> </td> 
+    </ul> <p>これらのデータ式および完全なリストについて詳しくは、<a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">計算データ式の概要</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
    <td>または </td> 
@@ -98,7 +98,7 @@ Workfront では、次の条件修飾子を使用できます。
    <td> <p>式がステートメントの最初または 2 番目の値を見つけたときに条件が満たされることを示す場合にこの演算子を使用します。 </p> <p>例えば、次のステートメントを計算済みカスタムフィールドで使用して、現在または予定ステータスのプロジェクトを「アクティブ」としてマークする「IF」ステートメントを作成します。 </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
-   <td> および </td> 
+   <td>および </td> 
    <td>&amp;&amp; </td> 
    <td> <p>式が同時に 2 つの条件を満たす項目を見つけた際に条件が満たされることを示す場合は、この演算子を使用します。 </p> <p>例えば、計算済みカスタムフィールドで次のステートメントを使用して、現在のステータスのプロジェクトを検索し、リスク条件を持ち、それらを「調停が必要」とマークする「IF」ステートメントを作成します。 </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 

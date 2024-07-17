@@ -7,7 +7,7 @@ exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
 source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
 source-wordcount: '1186'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 99%
 
 計算カスタムフィールドをカスタムフォームに追加する手順について詳しくは、[カスタムフォームへの計算データの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
 
-次のような変数について詳しくは、 `$$OBJCODE`を参照してください。 [ワイルドカードフィルター変数の概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+`$$OBJCODE` などの変数について詳しくは、[ワイルドカードフィルター変数の概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 
 ### カスタムフォームからオブジェクトタイプを削除する場合の注意事項
 

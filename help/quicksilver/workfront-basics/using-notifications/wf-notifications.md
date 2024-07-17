@@ -9,7 +9,7 @@ exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
 source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
 workflow-type: tm+mt
 source-wordcount: '1395'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 76%
 
 ## メール通知
 
-[!DNL Workfront] は、Workfrontのアクティビティに関するユーザーに警告を出す電子メール通知を送信し、役に立つ情報やリンクを提供します。
+[!DNL Workfront] は、Workfront のアクティビティについてユーザーに警告するメール通知を多数送信し、役に立つ情報やリンクを提供します。
 
-電子メール通知の環境設定を変更するには、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+メール通知の環境設定を変更する方法について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 >[!NOTE]
 >
@@ -41,17 +41,17 @@ ht-degree: 76%
 
 ### イベント通知
 
-イベント通知は、通常、タスクを割り当てたり、自分がコメントに対して返信を受け取ったりするなど、事前定義された特定のイベントによってトリガーされます。
+イベント通知は、通常、タスクを割り当てたり、自分のコメントに対して返信を受け取ったりするなど、事前定義された特定のイベントに応じてトリガーされます。
 
-イベント通知が [!DNL Workfront] お客様のシステム [!DNL Workfront] 管理者またはグループ管理者は、 [!UICONTROL 通知] 環境設定がユーザープロファイルに表示されます。 また、イベントが発生したときに通知を受信するか、1 日の日次ダイジェストメールに要約されたイベントを受信するかを選択できます。
+[!DNL Workfront] 管理者またはグループ管理者によって [!DNL Workfront] システム内でイベント通知がアクティブ化された後、ユーザープロファイルの[!UICONTROL 通知]の環境設定を編集することで、受信する通知を選択できます。また、イベントが発生したときに通知を受信するか、1 日の日次ダイジェストメールに要約されたイベントを受信するかを選択できます。
 
-設定では、 [!DNL Workfront] 管理者がお客様に対するイベント通知を設定しました [!DNL Workfront] システム。 詳しくは、[システムの全員に対するイベント通知の設定](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
+[!DNL Workfront] 管理者が [!DNL Workfront] システム用にイベント通知を設定した方法によっては、これらの通知のサブセットしか表示されないことがあります。詳しくは、[システムの全員に対するイベント通知の設定](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
 
 デフォルトのステータスは、新しいユーザーを作成する際に、新しいユーザーに対してどの通知（日次、即時、または両方）がデフォルトで有効になっているかを示します。
 
 イベント通知の完全なリスト、およびシステムレベル、グループレベル、ユーザーレベルでのイベント通知の有効化と設定方法について詳しくは、[ [!DNL Adobe Workfront]](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) で使用可能なイベント通知を参照してください。
 
-受信するイベント通知の選択方法について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+受信するイベント通知の選択方法について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ ht-degree: 76%
 
 ### 日次ダイジェスト通知
 
-日別のダイジェスト通知は、電子メールの 24 時間前に受け取った特定のタイプの通知をすべて含む電子メールです。
+日刊ダイジェスト通知は、そのメールの 24 時間以内に受信した特定のタイプの通知をすべて含むメールです。
 
 日次ダイジェストメール配信で有効にされたメール通知の完全なリストと、メール通知のすべてのカテゴリに関する情報については、[イベント通知](../../workfront-basics/using-notifications/event-notifications.md#understanding-instant-and-daily-digest-notifications)を参照してください。
 
@@ -78,7 +78,7 @@ ht-degree: 76%
 
   >[!NOTE]
   >
-  >「通信」カテゴリでは、インスタント配信の場合にのみ個々の通知を選択できます。 日刊ダイジェストで通知を配信するには、すべてを選択する必要があります。
+  >コミュニケーションのカテゴリでは、即時配信のみ個別の通知を選択できます。日刊ダイジェストで通知を配信するには、すべてを選択する必要があります。
 
 * 日次ダイジェストメールには、配信対象として選択された時間の 24 時間前以内に、特定の 1 つのエリア（**所有プロジェクトに関する情報**&#x200B;など）のアクションに関して発生したイベントが一覧表示されます。
 * 日次ダイジェスト配信で選択された時間のタイムゾーンは、ブラウザーで設定されているタイムゾーンと一致します。
@@ -93,15 +93,15 @@ ht-degree: 76%
 
 情報は通信が発生したオブジェクトについて要約され、オブジェクトごとに通信メッセージの総数が表示されます。
 
-Workfrontでコメントに返信または表示するには：
+Workfront でコメントに返信、またはコメントを表示するには、次の手順に従います。
 
-1. 次をクリック： **[!UICONTROL コメント]** 」ボタンをクリックします。
+1. メールの「**[!UICONTROL コメント]**」ボタンをクリックします。
 
-   The [!UICONTROL 更新] オブジェクトの領域が開き、特定のコメントが青で表示されます。
+   オブジェクトの[!UICONTROL 更新]エリアが開き、特定のコメントが青でアウトライン表示されます。
 
    返信ボックスが開き、コメントに返信できます。
 
-毎日のダイジェスト通知の有効化を含め、電子メール通知の設定について詳しくは、 [電子メール通知設定を表示および変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings) in [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+日刊ダイジェスト通知の有効化を含め、メール通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)の[メール通知設定の表示と変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view-and-modify-your-email-notification-settings)を参照してください。
 
 ### 自動リマインダ
 
@@ -130,7 +130,7 @@ Workfrontでコメントに返信または表示するには：
 
 ### リマインダー通知
 
-A [!DNL Workfront] 管理者 ( または [!UICONTROL プランナー] アクセスレベルと管理アクセス（リマインダー通知へのアクセス）は、近づく期限に関するリマインダー通知を設計し、プロジェクト、タスク、問題、およびタイムシートに手動で関連付けることができます。
+[!DNL Workfront] 管理者（または[!UICONTROL 計画担当者]アクセスレベルとリマインダー通知への管理アクセス権を持つユーザー）は、期限が近づいていることに関するリマインダー通知を設計して、プロジェクト、タスク、イシューおよびタイムシートに手動で関連付けることができます。
 
 >[!IMPORTANT]
 >
@@ -140,17 +140,17 @@ A [!DNL Workfront] 管理者 ( または [!UICONTROL プランナー] アクセ�
 
 リマインダー通知の設定と有効化について詳しくは、[リマインダー通知の設定](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md)を参照してください。
 
-必要な管理アクセス権を取得する方法について詳しくは、 [特定の領域に対する管理者アクセス権をユーザーに付与する](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+必要な管理アクセス権を取得する方法については、[ユーザーへの特定の領域に対する管理アクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
 ### ボード通知
 
-[!DNL Adobe Workfront] [!UICONTROL ボード]は、ボードに追加されたときや、カードが割り当てられたときにメールを送信します。ボードの環境設定で受信する電子メールを選択できます。
+[!DNL Adobe Workfront] [!UICONTROL ボード]は、ボードに追加されたときや、カードが割り当てられたときにメールを送信します。受信するメールをボードの環境設定で選択できます。
 
 詳しくは、[ボードのメール通知と環境設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)を参照してください。
 
 ### その他の [!DNL Workfront] メール
 
-他にもメールが届いている可能性があります [!DNL Workfront] 設定できない
+[!DNL Workfront] から他にもメールが届いている可能性がありますが、これらはユーザーが設定できないものです。
 
 次のメールは、これらの条件が満たされた場合、[!DNL Workfront] によって自動的に送信されます。
 

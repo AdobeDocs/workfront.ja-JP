@@ -7,8 +7,8 @@ title: プルーフを自動的に生成するかどうかの設定
 description: 指定したユーザーが Workfront にドキュメントを追加する場合、システムが自動的にプルーフを生成するかどうかを設定できます。この設定は、デフォルトで無効になっています。
 author: Courtney
 source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
-workflow-type: ht
-source-wordcount: '233'
+workflow-type: tm+mt
+source-wordcount: '231'
 ht-degree: 100%
 
 ---

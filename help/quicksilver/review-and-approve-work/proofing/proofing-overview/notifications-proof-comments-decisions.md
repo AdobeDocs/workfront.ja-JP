@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: proofing-overview
 title: プルーフコメントおよび校正判断の通知の概要
-description: コメントに関する電子メール通知や、作業中の配達確認に関する決定を受け取ることができます。
+description: 作業中のプルーフでのコメントおよび決定に関するメール通知は、次のいずれかの方法で受け取ることができます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d6ded72c-a140-4c19-b1e0-60456804fc61
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

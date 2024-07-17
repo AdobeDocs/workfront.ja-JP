@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
 title: Workfront Proof - よくある質問
-description: Workfront Proof に関するよくある質問を参照してください。
+description: Workfront Proof に関するよくある質問を掲載しています。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: e2bbb311-b56a-46aa-8595-420482fa4ed8
 source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
 source-wordcount: '64'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 

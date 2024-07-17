@@ -8,8 +8,8 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: a3f59f69-7f39-4814-bd2f-7734d620081e
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
-source-wordcount: '477'
+workflow-type: tm+mt
+source-wordcount: '449'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
@@ -63,9 +63,9 @@ ht-degree: 100%
 1. プロジェクトのリストに移動します。
 1. **ビュー**&#x200B;ドロップダウンメニューから、「**新規ビュー**」を選択します。
 
-1. **列のプレビュー**&#x200B;エリアで、1 つを除くすべての列を削除します。
+1. 「**カラムのプレビュー**」エリアで、1 以外のすべての列を削除します。
 1. 残りの列のヘッダーをクリックし、「**テキストモードに切り替え**」を選択します。
-1. テキストモードエリアの上にマウスを移動し、「**クリックしてテキストを編集**」をクリックします。
+1. 「テキストモード」エリアにマウスを移動し、「**クリックするとテキストを編集できます**」をクリックします。
 1. 「**テキストモード**」ボックスにあるテキストを削除し、次のコードに置き換えます。
    <pre>column.0.link.valueformat=val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.section=0<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=200<br>column.1.displayname=Project Users<br>column.1.listdelimiter=&lt;br&gt;<br>column.1.listmethod=nested(projectUsers).lists<br>column.1.textmode=true<br>column.1.type=iterate<br>column.1.valueexpression={user}.{name}<br>column.1.valueformat=HTML<br>column.2.displayname=Project Roles<br>column.2.listdelimiter=&lt;br&gt;<br>column.2.listmethod=nested(projectUserRoles).lists<br>column.2.textmode=true<br>column.2.type=iterate<br>column.2.valueexpression={role}.{name}<br>column.2.valueformat=HTML</pre>
 

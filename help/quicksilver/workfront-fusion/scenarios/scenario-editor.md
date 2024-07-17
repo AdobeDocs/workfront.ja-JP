@@ -7,10 +7,10 @@ description: シナリオエディターを使用すると、視覚的なイン�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 28ca9bab8d6a5aed395dc3297eb62912ebb506c7
+source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 97%
+source-wordcount: '1108'
+ht-degree: 90%
 
 ---
 
@@ -163,8 +163,46 @@ ht-degree: 97%
    </tr> 
    <tr> 
      <td role="rowheader">開発ツールを使用したシナリオのデバッグ</td>   
-     <td>詳しくは、 <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">でのシナリオのデバッグ [!DNL Adobe Workfront Fusion] 開発者ツール</a>.
+     <td>詳しくは、<a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] 開発ツールを使用したシナリオのデバッグ</a>を参照してください。
 </td> 
    </tr> 
+<tr>
+<td>シナリオのステータスの確認</td>
+<td>シナリオは、アクティブまたは非アクティブにすることができます。シナリオの詳細で「オン/オフ」ボタンをクリックすると、シナリオのステータスを変更できます。
+
+詳しくは、次の記事を参照してください。
+<ul>
+<li><a href="../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md">Adobe Workfront Fusion でのシナリオのアクティベートまたはディアクティベート</a></li>
+<li><a href="../../workfront-fusion/scenarios/scenario-detail.md">Adobe Workfront Fusion のシナリオの詳細</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>シナリオのスケジュールの変更</td>
+<td>アクティブなシナリオは、スケジュールに従って実行されます。 デフォルトでは、シナリオは 15 分ごとに実行されます。アクティブ化されたシナリオを実行するタイミングと頻度を定義することで、これを変更できます。Fusion シナリオは、5 分ごとに実行するようにスケジュールできます。
+
+詳しくは、<a href="../../workfront-fusion/scenarios/schedule-a-scenario.md">Adobe Workfront Fusion でのシナリオのスケジュール設定 </a> を参照してください。
+</td>
+</tr>
+<tr>
+<td>シナリオ名の変更</td>
+<td>シナリオの名前を変更するには、シナリオを開き、左上隅にあるシナリオの名前をクリックして編集します。Enter キーを押すか、編集されたフィールドの外側をクリックして、シナリオ名を保存します。</td>
+</tr>
+<tr>
+<td>最初のバンドルを選択</td>
+<td>一部のトリガーモジュールでは、バンドルの取得を開始する最初のバンドルを選択できます。
+
+詳しくは、<a href="../../workfront-fusion/modules/choose-where-trigger-module-starts.md">Adobe Workfront Fusion でのトリガーモジュールの開始位置の選択 </a> を参照してください。</td>
+</tr>
+<tr>
+<td>返されるバンドルの数を設定</td>
+<td>デフォルトでは、モジュールは常に 2 つのバンドルのみを返します。これは、「」フィールドのモジュール設定で変更できます [!UICONTROL 返されるバンドルの最大数 ]。</td>
+</tr>
+<tr>
+<td>シナリオの詳細設定</td>
+<td>[!DNL Adobe Workfront Fusion] を使用すると、他の様々な詳細設定を設定できます。
+
+詳しくは、<a href="../../workfront-fusion/scenarios/scenario-settings-panel.md">Adobe Workfront Fusion のシナリオ設定パネル </a> を参照してください。</td>
+</tr>
 </tbody>
 </table>

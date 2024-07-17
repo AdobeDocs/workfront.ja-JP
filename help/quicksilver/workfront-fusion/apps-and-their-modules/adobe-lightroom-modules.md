@@ -4,11 +4,12 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
-title: Adobe Lightroomモジュール
-description: Adobe Lightroomモジュールでは、Adobe Lightroomアカウント内のイベントに基づいて、Adobe Workfront Fusion シナリオを開始できます。
+title: Adobe Lightroom モジュール
+description: Adobe Lightroom モジュールを使用すると、Adobe Lightroom アカウントのイベントに基づいてAdobe Workfront Fusion シナリオを開始できます。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
-source-git-commit: e99bd69c712a7685512eecc7fccc8211013a259d
+exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '2244'
 ht-degree: 23%
@@ -62,7 +63,7 @@ ht-degree: 23%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-&#42;&#42;詳しくは、 [!DNL Adobe Workfront Fusion] ライセンス， 「 [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;[!DNL Adobe Workfront Fusion] ライセンスの詳細については、[!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md) を参照してください
 
 ## 前提条件
 
@@ -74,7 +75,7 @@ ht-degree: 23%
 
 
 
-## Adobe Lightroomモジュールとそのフィールド
+## Adobe Lightroom モジュールとそのフィールド
 
 [!DNL Adobe Lightroom] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Adobe Lightroom] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
@@ -89,11 +90,11 @@ ht-degree: 23%
 ### その他
 
 * [ヘルスチェック](#health-check)
-* [ユーザカタログメタデータの取得](#retrieve-user-catalog-metadata)
+* [ユーザーカタログメタデータの取得](#retrieve-user-catalog-metadata)
 
 #### ヘルスチェック
 
-このアクションモジュールは、Lightroomサーバーのバージョン ID を取得し、Lightroomサービスが現在実行中かどうかを確認します。
+このアクションモジュールは、Lightroom サーバーのバージョン ID を取得し、Lightroom サービスが現在実行中かどうかを示します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -106,13 +107,13 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL Credentials]</td>
       <td>
-        <p>特定のサーバーが実行されていることを確認するために特定の資格情報を指定する場合は、「項目を追加」をクリックし、資格情報を入力します。</p><p>認証ヘッダーは自動的に追加されます。</p>
+        <p>特定のサーバーが実行されるように特定の資格情報を指定する場合は、「項目を追加」をクリックし、資格情報を入力します。</p><p>認証ヘッダーは自動的に追加されます。</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### ユーザカタログメタデータの取得
+#### ユーザーカタログメタデータの取得
 
 <table style="table-layout:auto"> 
   <col/>
@@ -133,16 +134,16 @@ ht-degree: 23%
 
 ### アセット
 
-* [アセットの元のファイルの作成](#create-an-asset-external-xmp-develop-setting-file)
+* [アセットオリジナルファイルの作成](#create-an-asset-external-xmp-develop-setting-file)
 * [アセットの作成](#create-an-asset)
-* [アセットの外部XMP開発設定ファイルの作成](#create-an-asset-external-xmp-develop-setting-file)
-* [元のファイルのレンディションを生成](#generate-renditions-for-an-original-file)
+* [外部XMP開発設定ファイルのアセットを作成します。](#create-an-asset-external-xmp-develop-setting-file)
+* [元のファイルのレンディションの生成](#generate-renditions-for-an-original-file)
 * [カタログアセットの取得](#get-a-catalog-asset)
-* [最新のアセットの外部XMP開発設定の取得](#get-the-latest-asset-external-xmp-develop-setting-file)
-* [最新のアセットレンディションを取得する](#get-the-latest-asset-rendition)
+* [最新の asset external XMP develop 設定の取得](#get-the-latest-asset-external-xmp-develop-setting-file)
+* [最新のアセットレンディションの取得](#get-the-latest-asset-rendition)
 * [アセットの取得](#retrieve-assets)
 
-#### アセットの元のファイルの作成
+#### アセットオリジナルファイルの作成
 
 このアクションモジュールは、アセットの元のファイルを作成し、アップロードします。
 
@@ -164,11 +165,11 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL Asset ID]</td>
       <td>
-        <p>ファイルを作成してアップロードするアセットの ID を入力またはマッピングします。</p>
+        <p>作成してファイルをアップロードするアセットの ID を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL コンテンツの長さ（バイト単位）]</td>
+      <td role="rowheader">[!UICONTROL コンテンツの長さ（バイト単位） ]</td>
       <td>
         <p>コンテンツの長さをバイト単位で入力またはマッピングします。</p>
       </td>
@@ -176,7 +177,7 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL バイト範囲 ]</td>
       <td>
-        <p>RFC 2616 で定義されている最初と最後のバイトおよびエンティティの長さを含む、要求のバイト範囲を入力またはマップします。 1 回の呼び出しでアップロードするデータが大きすぎる場合にのみ含める必要があります。</p>
+        <p>RFC 2616 で定義されている最初と最後のバイトおよびエンティティ長を含む、リクエストのバイト範囲を入力またはマッピングします。 データが大きすぎて 1 回の呼び出しでアップロードできない場合にのみ含める必要があります。</p>
       </td>
     </tr>
     <tr>
@@ -190,7 +191,7 @@ ht-degree: 23%
 
 #### アセットの作成
 
-このアクションモジュールは、最初のメタデータと読み込み情報を持つ新しいアセットを作成します。
+このアクションモジュールは、初期メタデータとインポート情報を含む新しいアセットを作成します。
 
 
 <table style="table-layout:auto"> 
@@ -214,35 +215,35 @@ ht-degree: 23%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL アセットタイプ ]</td>
+      <td role="rowheader">[!UICONTROL アセット タイプ ]</td>
       <td>
-        <p>アセットを画像かビデオかを選択します。</p>
+        <p>アセットが画像かビデオかを選択します。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 作成日時ユーザー ]</td>
+      <td role="rowheader">[!UICONTROL Datetime ユーザーが作成されました ]</td>
       <td>
-        <p>日付を形式で入力またはマッピング <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00</code> という形式で日付を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Datetime ユーザーが更新されました ]</td>
       <td>
-        <p>日付を形式で入力またはマッピング <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00</code> という形式で日付を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 取得日 ]</td>
+      <td role="rowheader">[!UICONTROL キャプチャされた日付 ]</td>
       <td>
-        <p>日付を形式で入力またはマッピング <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00</code> という形式で日付を入力またはマッピングします。</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### アセットの外部XMP開発設定ファイルの作成
+#### 外部XMP開発設定ファイルのアセットを作成します。
 
-このアクションモジュールは、2 つのワークフローをサポートします。 1 つ目のワークフローは、アセットの外部XMP開発設定ファイルをアップロードすることです。 2 つ目のワークフローは、別のアセットの外部 xmp 開発設定ファイルからコピーして、外部XMP開発設定ファイルを作成することです。
+このアクションモジュールは、2 つのワークフローをサポートします。 1 つ目のワークフローでは、アセットの外部XMP開発設定ファイルをアップロードします。 2 つ目のワークフローは、別のアセットの外部 xmp 開発設定ファイルからコピーして、外部XMP開発設定ファイルを作成することです。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -253,13 +254,13 @@ ht-degree: 23%
       <td>[!DNL Adobe Lightroom] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a> への接続を作成を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL コンテンツの長さ（バイト単位）]</td>
+      <td role="rowheader">[!UICONTROL コンテンツの長さ（バイト単位） ]</td>
       <td>
         <p>コンテンツの長さをバイト単位で入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 新規ファイルをアップロードまたはXMP/develop ファイルをコピー ]</td>
+      <td role="rowheader">[!UICONTROL 新しいファイルをアップロードするか、XMP/開発ファイルをコピーする ]</td>
       <td>
         <p>新しいファイルをアップロードするか、既存のアセットからファイルをコピーするかを選択します。</p>
       </td>
@@ -273,21 +274,21 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL Asset ID]</td>
       <td>
-        <p>アップロード先のアセットの ID を入力またはマッピングするか、ファイルをコピーします。</p>
+        <p>アップロード先またはファイルのコピー先のアセットの ID を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL XMP/develop ファイルへのリンク ]</td>
+      <td role="rowheader">[!XMP/develop ファイルへの UICONTROL リンク ]</td>
       <td>
-        <p>アップロードまたはコピーするファイルへのリンクを入力またはマッピングします。</p><p>ファイルをコピーする場合は JSON ファイル、ファイルをアップロードする場合は XML ファイルを指定する必要があります。</p>
+        <p>アップロードまたはコピーするファイルへのリンクを入力またはマッピングします。</p><p>ファイルをコピーする場合、このファイルは JSON である必要があり、ファイルをアップロードする場合は XML である必要があります。</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### 元のファイルのレンディションを生成
+#### 元のファイルのレンディションの生成
 
-このアクションモジュールは、元のファイルのレンディションを非同期的に生成します。
+このアクションモジュールは、元のファイルのレンディションを非同期で生成します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -298,13 +299,13 @@ ht-degree: 23%
       <td>[!DNL Adobe Lightroom] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >[!DNL Adobe Lightroom]</a> への接続を作成を参照してください。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL レンディションの種類（セミコロン区切り）]</td>
+      <td role="rowheader">[!UICONTROL レンディションの種類（セミコロン区切り） ]</td>
       <td>
-        <p>作成するレンディションのレンディションタイプを入力します。 複数のタイプを入力する場合は、セミコロン (;) で区切ります。 <p>選択可能なタイプ：</p><ul><li><code>fullsize</code></li><li><code>2560</code></li></ul></p>
+        <p>作成するレンディションのレンディションタイプを入力します。 複数の型を入力する場合は、セミコロン （;）で区切ります。 <p>可能なタイプ：</p><ul><li><code>fullsize</code></li><li><code>2560</code></li></ul></p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL コンテンツの長さ（バイト単位）]</td>
+      <td role="rowheader">[!UICONTROL コンテンツの長さ（バイト単位） ]</td>
       <td>
         <p>コンテンツの長さをバイト単位で入力またはマッピングします。</p>
       </td>
@@ -326,7 +327,7 @@ ht-degree: 23%
 
 #### カタログアセットの取得
 
-このアクションモジュールは、カタログ内の 1 つのアセットに関する情報を取得します。 カタログは、このモジュールで使用される接続で資格情報が表されるユーザーが所有する必要があります。
+このアクションモジュールは、カタログ内の 1 つのアセットに関する情報を取得します。 カタログは、資格情報がこのモジュールで使用される接続で表されるユーザーが所有している必要があります。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -352,9 +353,9 @@ ht-degree: 23%
 </table>
 
 
-#### 最新のアセットの外部XMP開発設定ファイルを取得します
+#### 最新の asset external XMP develop 設定ファイルの取得
 
-このアクションモジュールは、最新のアセット外部XMP設定ファイルを取得します。
+このアクションモジュールは、最新のアセットの外部XMP設定ファイルを取得します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -379,7 +380,7 @@ ht-degree: 23%
   </tbody>
 </table>
 
-#### 最新のアセットレンディションを取得する
+#### 最新のアセットレンディションの取得
 
 このアクションモジュールは、指定されたタイプの最新のアセットレンディションを取得します。
 
@@ -404,7 +405,7 @@ ht-degree: 23%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL レンディションタイプ ]</td>
+      <td role="rowheader">[!UICONTROL レンディションの種類 ]</td>
       <td>
         <p>取得するレンディションのタイプを選択します。</p>
       </td>
@@ -414,7 +415,7 @@ ht-degree: 23%
 
 #### アセットの取得
 
-このアクションモジュールは、このモジュールで使用される接続に資格情報が表示されるユーザーが所有するアセットを取得します。
+このアクションモジュールは、このモジュールで使用される接続で資格情報が表されるユーザーが所有するアセットを取得します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -433,19 +434,19 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL 開始タイムスタンプ ]</td>
       <td>
-        <p>タイムスタンプを入力またはマッピングします。 モジュールは、このタイムスタンプの後に更新されたレコードを返します。</p>
+        <p>タイムスタンプを入力またはマッピングします。 モジュールは、このタイムスタンプ以降に更新されたレコードを返します。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 以前に取り込んだアセットを返す ]</td>
+      <td role="rowheader">[！以前に取り込んだアセットを UICONTROL で返す ]</td>
       <td>
-        <p>フォーマットを持つ日付を入力 <code>YYYY-MM-DDT00:00:00</code>. このモジュールは、この日付より前にキャプチャされた結果を返します。</p><p> このフィールドは、フィールドと共に使用できません <code>Return assets captured after</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00</code> という形式で日付を入力します。 モジュールは、この日付より前にキャプチャされた結果を返します。</p><p> このフィールドはフィールド <code>Return assets captured after</code> と併用できません。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 返されるアセットの最大数 ]</td>
       <td>
-        <p>アセットの最大数を設定 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。 この数は 100 以下にする必要があります。</p>
+        <p>1 つの実行サイクル中に返 [!DNL Workfront Fusion] アセットの最大数を設定します。 この数は 100 以下にする必要があります。</p>
       </td>
     </tr>
     <tr>
@@ -455,13 +456,13 @@ ht-degree: 23%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL スタック内のアセットを非表示にする？"]</td>
+      <td role="rowheader">[!UICONTROL スタック内のアセットを非表示にする]</td>
       <td>
         <p></p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL アセットサブタイプ値 ]</td>
+      <td role="rowheader">[!UICONTROL アセットのサブタイプ値 ]</td>
       <td>
         <p></p>
       </td>
@@ -473,18 +474,18 @@ ht-degree: 23%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 除外するアセットのタイプ ]</td>
+      <td role="rowheader">[！除外するアセットの UICONTROL タイプ ]</td>
       <td>
-        <p>完全なアセットまたは不完全なアセットを除外する場合に選択します。 すべてのアセットを含める場合は、このフィールドを空白のままにします。</p>
+        <p>完全なアセットまたは不完全なアセットを除外する場合に選択します。 すべてのアセットを含めるには、このフィールドを空白のままにします。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL グループ値 ]</td>
+      <td role="rowheader">[!UICONTROL グループの値 ]</td>
       <td>
         <p></p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 名前の値 ]</td>
+      <td role="rowheader">[!UICONTROL 名の値 ]</td>
       <td>
         <p></p>
       </td>
@@ -511,7 +512,7 @@ ht-degree: 23%
 
 #### アルバムへのアセットの追加
 
-このアクションモジュールは、指定したアルバムに 1 つ以上のアセットを追加します。 1 回の実行サイクルで最大 50 個のアセットを追加できます。
+このアクションモジュールは、指定されたアルバムに 1 つ以上のアセットを追加します。 1 つの実行サイクルに最大 50 個のアセットを追加できます。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -524,7 +525,7 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL カタログ ID]</td>
       <td>
-        <p>アセットを追加するアルバムが含まれるカタログの ID を入力またはマッピングします。</p>
+        <p>アセットを追加するアルバムを含むカタログの ID を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
@@ -536,7 +537,7 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL Assets]</td>
       <td>
-        <p>アルバムに追加するアセットごとに、 <b>項目を追加</b> 次のフィールドを入力します。</p>
+        <p>アルバムに追加するアセットごとに、「<b> アイテムの追加 </b> をクリックし、次のフィールドを入力します。</p>
       </td>
     <tr>
       <td role="rowheader">[!UICONTROL Asset ID]</td>
@@ -544,9 +545,9 @@ ht-degree: 23%
         <p>アルバムに追加するアセットの ID を入力またはマッピングします</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL このアセットはアルバムの表紙ですか？]</td>
+      <td role="rowheader">[!UICONTROL このアセットはアルバムカバーですか？]</td>
       <td>
-        <p>このアセットをアルバムを表す画像として表示するかどうかを選択します。</p>
+        <p>このアセットを、アルバムを表す画像として表示するかどうかを選択します。</p>
       </td>
     <tr>
       <td role="rowheader">[!UICONTROL Order]</td>
@@ -556,7 +557,7 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL Metadata]</td>
       <td>
-        <p>アセットに含めるメタデータを入力またはマッピングします。 最大長が 1 ～ 24 文字の 1 つのテキスト文字列を指定する必要があります。</p>
+        <p>アセットに含めるメタデータを入力またはマッピングします。 これは、最大長が 1～24 文字の単一のテキスト文字列である必要があります。</p>
       </td>
     <tr>
       <td role="rowheader">[!UICONTROL リモート ID]</td>
@@ -569,7 +570,7 @@ ht-degree: 23%
 
 #### アルバムの作成
 
-このアクションモジュールは、Lightroomで新しいアルバムを作成します。
+Lightroomに新しいアルバムを作成します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -588,11 +589,11 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL アルバム ID]</td>
       <td>
-        <p>新しいアルバムの ID を入力またはマッピングします。</p>
+        <p>新しいアルバムの ID を入力またはマップします。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Subtype]</td>
+      <td role="rowheader">[!UICONTROL サブタイプ ]</td>
       <td>
         <p>アルバムのサブタイプを選択します。</p>
       </td>
@@ -602,26 +603,26 @@ ht-degree: 23%
         <p>アルバムを作成するサービスの API キーを入力します。</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL 作成日時ユーザー ]</td>
+      <td role="rowheader">[!UICONTROL Datetime ユーザーが作成されました ]</td>
       <td>
-        <p>日付を形式で入力またはマッピング <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00Z</code> という形式で日付を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Datetime ユーザーが更新されました ]</td>
       <td>
-        <p>日付を形式で入力またはマッピング <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00Z</code> という形式で日付を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL アルバム名 ]</td>
       <td>
-        <p>新しいアルバムの名前を入力またはマッピングします。</p>
+        <p>新しいアルバムの名前を入力またはマップします。</p>
       </td>
     <tr>
       <td role="rowheader">[!UICONTROL カバー ID]</td>
       <td>
-        <p>このアルバムのカバーとして使用するアセットの ID を入力またはマッピングします。</p>
+        <p>このアルバムの表紙として使用するアセットの ID を入力またはマッピングします。</p>
       </td>
     <tr>
       <td role="rowheader">[!UICONTROL リモート ID]</td>
@@ -632,30 +633,30 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL Created date]</td>
       <td>
-        <p>日付を形式で入力またはマッピング <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00Z</code> という形式で日付を入力またはマッピングします。</p>
       </td>
     <tr>
       <td role="rowheader">[!UICONTROL 更新日 ]</td>
       <td>
-        <p>日付を形式で入力またはマッピング <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+        <p><code>YYYY-MM-DDT00:00:00-00:00Z</code> という形式で日付を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL アルバムは削除されますか？]</td>
+      <td role="rowheader">[!UICONTROL アルバムは削除されましたか？]</td>
       <td>
         <p>外部関連コンテンツが削除された場合は、このオプションを有効にします。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 関連コンテンツを編集する場所の URL]</td>
+      <td role="rowheader">[！関連コンテンツを編集する場所の UICONTROL URL]</td>
       <td>
-        <p>ユーザーがこのアルバムのコンテンツを編集できる URL がある場合は、ここに URL を入力します。</p>
+        <p>ユーザーがこのアルバムのコンテンツを編集できる URL がある場合は、ここに URL を入力してください。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 関連コンテンツを表示する場所の URL]</td>
+      <td role="rowheader">[！関連コンテンツを表示する場所の UICONTROL URL]</td>
       <td>
-        <p>ユーザーがこのアルバムのコンテンツを表示できる URL がある場合は、ここに URL を入力します。</p>
+        <p>このアルバムのコンテンツを表示できる URL がある場合は、ここに URL を入力してください。</p>
       </td>
     </tr>
   </tbody>
@@ -663,9 +664,9 @@ ht-degree: 23%
 
 #### アルバムの削除
 
-このアクションモジュールはアルバムを削除します。
+アルバムを削除します。
 
-削除されたアルバムは、削除中のクライアントアプリと同じクライアントアプリで作成されている必要があります。また、サブタイプである必要があります `project` または `project_set`.
+削除されたアルバムは、現在削除中の同じクライアントアプリによって作成されたものであり、サブタイプが `project` または `project_set` である必要があります。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -678,13 +679,13 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL カタログ ID]</td>
       <td>
-        <p>削除するアルバムを含むカタログの ID を入力またはマッピングします。</p>
+        <p>削除するアルバムを含むカタログの ID を入力またはマップします。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL アルバム ID]</td>
       <td>
-        <p>削除するアルバムの ID を入力またはマッピングします。</p>
+        <p>削除するアルバムの ID を入力またはマップします。</p>
       </td>
     </tr>
     <tr>
@@ -698,7 +699,7 @@ ht-degree: 23%
 
 ### アルバムの取得
 
-このアクションモジュールは、指定されたアルバムを取得します
+指定されたアルバムを取得します
 
 <table style="table-layout:auto"> 
   <col/>
@@ -711,7 +712,7 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL カタログ ID]</td>
       <td>
-        <p>取得するアルバムが含まれるカタログの ID を入力またはマッピングします。</p>
+        <p>取得するアルバムを含むカタログの ID を入力またはマップします。</p>
       </td>
     </tr>
     <tr>
@@ -725,13 +726,13 @@ ht-degree: 23%
 
 #### アルバムのアセットのリスト
 
-このアクションモジュールは、指定したアルバム内のアセットのリストを取得します。
+このアクションモジュールは、指定されたアルバム内のアセットのリストを取得します。
 
 
 
 #### アルバムの取得
 
-このアクションモジュールは、指定されたカタログ内のアルバムのリストを取得します。
+このアクションモジュールは、指定したカタログ内のアルバムのリストを取得します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -744,7 +745,7 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL カタログ ID]</td>
       <td>
-        <p>取得するアルバムが含まれるカタログの ID を入力またはマッピングします。</p>
+        <p>取得するアルバムを含むカタログの ID を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
@@ -754,15 +755,15 @@ ht-degree: 23%
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL 現在の結果の前に配置するアルバムの名前 ]</td>
+      <td role="rowheader">[!UICONTROL 現在の結果の前に付けるアルバム名 ]</td>
       <td>
-        <p>結果にページ番号を付ける場合は、前のページの最後のアルバムの名前を入力またはマッピングします。</p>
+        <p>結果をページに分ける場合は、前のページの最後のアルバムの名前を入力またはマップします。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 返されるアルバムの最大数 ]</td>
       <td>
-        <p>アセットの最大数を設定 [!DNL Workfront Fusion] は、1 回の実行サイクルで返されます。 このフィールドのデフォルト値は 100 です。制限の境界にある複数のアルバムが同じである場合、このモジュールはこの制限を超えるアルバムを返す可能性があります <code>name_after</code> の値です。</p>
+        <p>1 つの実行サイクル中に返 [!DNL Workfront Fusion] アセットの最大数を設定します。 このフィールドのデフォルト値は 100 です。このモジュールは、リミット境界にある複数のアルバムが同じ <code>name_after</code> 値を持つ場合、このリミットよりも多くのアルバムを返す可能性があります。</p>
       </td>
     </tr>
   </tbody>
@@ -770,9 +771,9 @@ ht-degree: 23%
 
 #### アルバムを更新
 
-このアクションモジュールは、指定されたアルバムを更新します。
+指定したアルバムを更新します。
 
-更新されたアルバムは、更新中のクライアントアプリと同じクライアントアプリで作成されている必要があり、サブタイプである必要があります `project` または `project_set`.
+更新されたアルバムは、現在更新中の同じクライアントアプリによって作成されており、サブタイプが `project` または `project_set` である必要があります。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -785,30 +786,20 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL カタログ ID]</td>
       <td>
-        <p>更新するアルバムが含まれるカタログの ID を入力またはマッピングします。</p>
+        <p>更新するアルバムを含むカタログの ID を入力またはマップします。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL アルバム ID]</td>
       <td>
-        <p>更新するアルバムの ID を入力またはマッピングします。</p>
+        <p>更新するアルバムの ID を入力またはマップします。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">その他のフィールド</td>
       <td>
-      <td>このモジュールの他のフィールドの説明については、 <a href="#create-an-album" class="MCXref xref" >アルバムの作成</a> 」を参照してください。</td>
+      <td>このモジュールのその他のフィールドについては、この記事の <a href="#create-an-album" class="MCXref xref" > アルバムの作成 </a> を参照してください。</td>
       </td>
     </tr>
   </tbody>
 </table>
-
-
-
-
-
-
-
-
-
-

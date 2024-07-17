@@ -9,8 +9,8 @@ feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
-workflow-type: ht
-source-wordcount: '558'
+workflow-type: tm+mt
+source-wordcount: '562'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -70,11 +70,11 @@ ht-degree: 100%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>ホームアイコンをブランディングします<span style="font-weight: normal;">（ナビゲーション領域上部の左端に表示されます）</span></p> </td> 
-      <td> <p><strong>ナビゲーション領域上部</strong>セクションの<strong>ホームアイコン</strong>の下のボックス内の任意の場所をクリックし、ロゴ画像を探して選択します。または、画像をボックスにドラッグします。</p> <p>画像を切り抜くには、スクロールコントロールを使用し、所定のスペース内の希望の位置に画像をドラッグします。</p> <p>120 x 120 の画像をお勧めします。GIF、JPG、PNG、SVG のいずれかの形式を使用できます。</p> <p>このアイコンは、レポート、リスト、ダッシュボード、およびユーザーが PDF ファイルとして書き出す配信レポートにも表示されます。</p> </td> 
+      <td> <p>Adobe Analytics の <strong>上部ナビゲーションエリア</strong>セクション（<strong>ホームアイコン</strong>の下）で、ボックスの任意の場所をクリックし、ロゴ画像を探して選択します。または、画像をボックスにドラッグします。</p> <p>画像を切り抜くには、スクロールコントロールを使用し、所定のスペース内の希望の位置に画像をドラッグします。</p> <p>120 x 120 の画像をお勧めします。GIF、JPG、PNG、SVG のいずれかの形式を使用できます。</p> <p>このアイコンは、レポート、リスト、ダッシュボード、およびユーザーが PDF ファイルとして書き出す配信レポートにも表示されます。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>メインメニューの <img src="assets/main-menu-icon.png"> ロゴ<span style="font-weight: normal;">のブランディング（メインメニューの右上隅に表示されます）</span></p> </td> 
-      <td> <p> <p> <p><strong>ナビゲーション領域上部</strong>セクションの<strong>メインメニューロゴ</strong>の下のボックス内の任意の場所をクリックし、ロゴ画像を探して選択します。または、画像をボックスにドラッグします。</p> <p>画像を切り抜くには、スクロールコントロールを使用し、所定のスペース内の希望の位置に画像をドラッグします。</p> <p>300 x 120 ピクセルの画像をお勧めします。GIF、JPG、PNG、SVG のいずれかの形式を使用できます。</p> </p> </p> </td> 
+      <td role="rowheader"> <p>メインメニュー <img src="assets/main-menu-icon.png"> ロゴ <span style="font-weight: normal;"> のブランディング（メインメニューの右上隅に表示）</span></p> </td> 
+      <td> <p> <p> <p><strong>ナビゲーションエリア上部</strong>セクションの<strong>メインメニューロゴ</strong>で、ボックス内の任意の場所をクリックし、ロゴ画像を見つけて選択します。または、画像をボックスにドラッグします。</p> <p>画像を切り抜くには、スクロールコントロールを使用し、所定のスペース内の希望の位置に画像をドラッグします。</p> <p>300 x 120 ピクセルの画像をお勧めします。GIF、JPG、PNG、SVG のいずれかの形式を使用できます。</p> </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -83,7 +83,7 @@ ht-degree: 100%
 
    または
 
-   カスタマイズが終了したら、「**保存**」をクリックします。
+   カスタマイズが完了したら、「**保存**」をクリックします。
 
    >[!TIP]
    >

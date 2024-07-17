@@ -10,7 +10,7 @@ exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 source-git-commit: 91d757513792604677d6285baafa795629b4506d
 workflow-type: tm+mt
 source-wordcount: '691'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 77%
 
 >[!TIP]
 >
->タスク間で先行タスク関係を使用する場合は、特定の日付を必要としない制約タイプを使用することを検討します。
+>タスク間で先行タスクの関係を使用する場合は、特定の日付を必要としない制約タイプを使用することを検討します。
 
 次の表に、各制約とその省略形を示します。省略形は、タスクリスト上や、キックスタート読み込みファイルの作成時に使用されます。制約タイプについて詳しくは、各タスク制約のリンクされたタイトルをクリックしてください。
 
@@ -57,7 +57,7 @@ ht-degree: 77%
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">タスク制約の概要：できるだけ遅く</a> </p> </td> 
    <td scope="col"> <p>ALAP</p> </td> 
    <td scope="col"> <p>タスクの完了時間を、できるだけプロジェクトの終了に近づけます。</p> 
-   <p>これは、プロジェクトスケジュールモードが「完了日」からで、タスクの開始日のシステムまたはグループのデフォルトが「プロジェクト計画日に基づく」に設定されている場合のデフォルトの制約です。 </p>
+   <p>これは、プロジェクトのスケジュールモードが「完了日から」、タスク開始日のシステムまたはグループのデフォルトが「プロジェクト予定日に基づく」に設定されている場合のデフォルトの制約です。 </p>
    </td> 
   </tr> 
   <tr> 
@@ -68,7 +68,7 @@ ht-degree: 77%
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">タスク制約の概要：最も遅い空き時間</a> </p> </td> 
    <td scope="col"> <p>LAT</p> </td> 
-   <td scope="col"> <p>プロジェクト内の先行者と後続者の関係を考慮した後に、利用可能な最新の時間にタスクを開始するようにスケジュールを設定します。</p> </td>
+   <td scope="col"> <p>プロジェクト内の先行タスクと後続タスクの関係を考慮した後で、最も遅い空き時間にタスクを開始するようスケジュール設定します。</p> </td>
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">タスク制約の概要：指定日以後に開始</a> </p> </td> 
@@ -80,7 +80,7 @@ ht-degree: 77%
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">タスク制約の概要：指定日までに開始</a> </p> </td> 
    <td scope="col"> <p>SNLT</p> </td> 
    <td scope="col"> <p>指定した日付より前にタスクを開始するようスケジュール設定します。</p> 
-   <p>プロジェクトのスケジュールモードが [ 完了日 ] からで、タスクの [ 開始日 ] が [ 今日 ] に設定されている場合は、既定の制約です。 
+   <p>プロジェクトのスケジュールモードが完了日からで、タスクの開始日のシステムまたはグループのデフォルトが「今日」の場合のデフォルトの制約です。 
    </td> 
   </tr> 
   <tr> 
@@ -106,16 +106,16 @@ ht-degree: 77%
   <tr> 
    <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">タスク制約の概要：固定日付</a> </p> </td> 
    <td> <p>FIXT</p> </td> 
-   <td> <p>特定の日付で開始および終了するタスクをスケジュールします。</p> </td> 
+   <td> <p>指定した各日付にタスクを開始および終了するようスケジュール設定します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## デフォルト制約の概要
+## デフォルトの制約の概要
 
 新規タスクを作成すると、Workfront によってタスクの制約が自動的に選択されます。
 
-Workfrontは、2 つの変数を使用して、新しいタスクに対してデフォルトで選択されるタスク制約を決定します。
+Workfront では、次の 2 つの変数を使用して、新規タスクに対してデフォルトで選択されるタスクの制約を決定します。
 
 * プロジェクトの「**プロジェクトスケジュールの開始日**」フィールド。
 
@@ -123,7 +123,7 @@ Workfrontは、2 つの変数を使用して、新しいタスクに対してデ
 
 * Workfront またはグループ管理者が、**設定**&#x200B;の&#x200B;**タスクとイシュー**&#x200B;エリアで設定した&#x200B;**開始日**&#x200B;環境設定。
 
-  タスクと問題の環境設定について詳しくは、 [新規タスクのデフォルト](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) のセクション [システム全体のタスクと問題の環境設定を構成する](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  タスクとイシューの環境設定について詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)の記事の[新規タスクの初期設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults)の節を参照してください。
 
 次の表に、プロジェクトおよび新規タスクに対して異なる変数を選択する場合のデフォルトのタスクの制約を示します。
 

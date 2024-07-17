@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
-workflow-type: ht
-source-wordcount: '375'
+workflow-type: tm+mt
+source-wordcount: '372'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ Outlook メールから [!DNL Adobe Workfront] リクエストを作成できま
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 

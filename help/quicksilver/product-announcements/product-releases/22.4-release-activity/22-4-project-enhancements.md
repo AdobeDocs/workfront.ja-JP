@@ -9,7 +9,7 @@ exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '965'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -128,6 +128,6 @@ ht-degree: 98%
 
 新しいエクスペリエンスや他の領域の準備が整い次第、引き続きお客様に価値を提供していきたいと考えています。より魅力的なアップデートにご期待ください。
 
-詳しくは、 [フィルターの概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) および [Adobe Workfrontでフィルターを作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+詳しくは、[フィルターの概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)および [Adobe Workfront でのフィルターの作成または編集](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
 [この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3412391/)

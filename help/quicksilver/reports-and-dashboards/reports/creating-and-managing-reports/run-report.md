@@ -7,8 +7,8 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: bd2202a7-040c-4291-ad02-ba8929a37e2b
 source-git-commit: 61fcb4c3646f60fa5f667d874af3320360d5d286
-workflow-type: ht
-source-wordcount: '527'
+workflow-type: tm+mt
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
@@ -39,7 +39,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

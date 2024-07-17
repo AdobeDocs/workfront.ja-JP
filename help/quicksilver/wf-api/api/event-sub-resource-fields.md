@@ -10,7 +10,7 @@ exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
 source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
 workflow-type: tm+mt
 source-wordcount: '711'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 91%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="このフィールドは 2023 年 10 月 26 日に削除されました。"}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip="このフィールドは 2023年10月26日（PT）に削除されました。"}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -771,7 +771,7 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td>フィールド</td> 
-   <td>フィールド</td> 
+   <td>FIELD</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -1836,7 +1836,7 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td>レコード</td> 
-   <td>レコード</td> 
+   <td>RECORD</td> 
    <td>createdAt</td> 
   </tr> 
   <tr> 
@@ -1852,7 +1852,7 @@ ht-degree: 91%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>データ</td> 
+   <td>data</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1902,7 +1902,7 @@ ht-degree: 91%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>データ</td> 
+   <td>data</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1927,7 +1927,7 @@ ht-degree: 91%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>アイコン</td> 
+   <td>icon</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1952,7 +1952,7 @@ ht-degree: 91%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>権限</td> 
+   <td>permission</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2757,7 +2757,7 @@ ht-degree: 91%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>アイコン </td> 
+   <td>icon </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2777,7 +2777,7 @@ ht-degree: 91%
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>権限</td> 
+   <td>permission</td> 
   </tr> 
   <tr> 
    <td> </td> 

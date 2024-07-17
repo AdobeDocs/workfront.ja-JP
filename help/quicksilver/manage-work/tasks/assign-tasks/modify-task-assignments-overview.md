@@ -10,7 +10,7 @@ exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
 source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
 workflow-type: tm+mt
 source-wordcount: '875'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 98%
 * スケジュールエリアの複数のタスクに対する割り当ての変更について詳しくは、「スケジュール用エリアのタスクに対する複数のユーザー割り当ての変更」を参照してください。
 * ワークロードバランサーを使用したタスクの割り当てについて詳しくは、[ワークロードバランサーでの作業割り当ての概要](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
 
-この記事の一部の情報は、イシューへの割り当てにも当てはまります。問題の割り当てとその他の考慮事項について詳しくは、 [問題の割り当ての変更の概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+この記事の一部の情報は、イシューへの割り当てにも当てはまります。イシューの割り当てとその他の考慮事項について詳しくは、[イシューの割り当ての変更の概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)を参照してください。
 
 ## タスクのユーザー割り当てを変更するタイミング
 

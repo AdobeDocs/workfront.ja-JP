@@ -22,9 +22,9 @@ ht-degree: 29%
 >
 >Workfront Planning から通知を受け取るには、会社がAdobeの Unified Experience の顧客である必要があります。
 >
->詳しくは、を参照してください [WorkfrontのAdobe統合エクスペリエンス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
-レコードコメント内の他のタグ付けについて詳しくは、を参照してください [レコードのコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md).
+レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
 
 ## アクセス要件
 
@@ -42,7 +42,7 @@ ht-degree: 29%
    <p> 製品</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>Workfront Planning から通知を受け取るには、組織のWorkfront インスタンスをAdobeの Unified Experience にオンボーディングする必要があります。 詳しくは、を参照してください <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス</a>.</p></td>
+   <p>Workfront Planning から通知を受け取るには、組織のWorkfront インスタンスをAdobeの Unified Experience にオンボーディングする必要があります。 詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス </a> を参照してください。</p></td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront 契約</p></td>
    <td>
@@ -85,7 +85,7 @@ ht-degree: 29%
 
 ## アプリ内通知の管理
 
-1. （条件付き）誰かがレコードのコメントでタグを付けた後、アプリ内に移動します **通知** アイコン ![](assets/experience-cloud-notifications-icon.png) Adobe Experience Cloudで。
+1. （条件付き）レコードのコメントで誰かがタグを付けた後、Adobe Experience Cloudのアプリ内 **通知** アイコン ![](assets/experience-cloud-notifications-icon.png) に移動します。
 
    ![](assets/in-app-notification-example.png)
 
@@ -93,5 +93,5 @@ ht-degree: 29%
 
    Workfront Planning に「レコードの詳細」ページが開きます。 レコードを更新したり、コメントに返信したりできます。
 
-1. （任意）クリック **すべて既読としてマーク** これにより、すべての通知を読み取ったことを示します。
-1. （任意）クリック **すべて表示** に移動します **通知** Adobe Experience Cloudのページ。
+1. （任意） **すべて既読としてマーク** をクリックして、すべての通知を既読にしたことを示します。
+1. （任意）「**すべて表示**」をクリックして、Adobe Experience Cloudの **通知** ページに移動します。

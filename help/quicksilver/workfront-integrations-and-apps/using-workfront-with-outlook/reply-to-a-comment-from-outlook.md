@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
 source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
-workflow-type: ht
-source-wordcount: '245'
+workflow-type: tm+mt
+source-wordcount: '242'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 1. 返信対象のコメントを含む [!DNL Workfront] メール通知を選択します。
 1. メールメッセージの右上隅にある **[!DNL Workfront]** アイコンをクリックして、Workfront アドインを表示します。\
-   メールの右上にある下向き矢印をクリックして [!DNL Workfront] アイコンにアクセスする場合もあります。
+   [!DNL Workfront] アイコンにアクセスするには、メールの右上にある下向き矢印をクリックする必要がある場合があります。
 
 1. **[!UICONTROL メニュー]**&#x200B;アイコン ![o365_addin_menu_icon.png](assets/o365-addin-menu2-icon.png) をクリックして、使用可能な [!DNL Workfront] オプションのリストを表示します。
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL コメントに返信]**」をクリックします。
 1. 提供されたフィールドでコメントを指定します。
 1. （オプション）「**[!UICONTROL 他者を含める]**」をクリックして、更新に含めるユーザーの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。\
-   この手順を繰り返して追加のユーザーを含め、「**[!UICONTROL 完了]**」をクリックします。\
+   この手順を繰り返してさらにユーザーを追加し、「**[!UICONTROL 完了]**」をクリックします。\
    デフォルトでは、返信先のユーザーには、そのユーザーが含まれているかどうかに関係なく、通知が届きます。\
 
 1. 「**[!UICONTROL コメント]**」をクリックします。

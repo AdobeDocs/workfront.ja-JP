@@ -6,8 +6,8 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
 source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
-workflow-type: ht
-source-wordcount: '484'
+workflow-type: tm+mt
+source-wordcount: '486'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Adobe Workfront 管理者は、現在グループおよびそのサブグルー�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
@@ -47,7 +47,7 @@ Adobe Workfront 管理者は、現在グループおよびそのサブグルー�
 
 1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
 
-1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、「**グループ** ![](assets/groups-icon.png)」をクリックします。
 
 1. グループの名前をクリックします。
 1. 表示されるページの右上隅付近のヘッダー領域で、**使用中のライセンス**&#x200B;エリアの、現在使用中の&#x200B;**プラン**&#x200B;および&#x200B;**作業**&#x200B;ライセンスの数を見ます。

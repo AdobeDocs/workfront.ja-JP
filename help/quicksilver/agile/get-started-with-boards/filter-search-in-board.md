@@ -9,7 +9,7 @@ exl-id: 26abce82-dcd9-4865-96f4-c710f7f0a0d8
 source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
 source-wordcount: '683'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 検索は、ボードにある特定のカードを探すのにも役立ちます。
 
-フィルターを適用すると、![ボードにフィルターを適用済み](assets/boards-filterapplied-30x30.png)のインジケーターが表示されます。クリック **[!UICONTROL すべてクリア]** すべてのフィルタをボードから削除するには、折りたたみアイコンをクリックして、フィルタパネルを閉じます。
+フィルターを適用すると、![ボードにフィルターを適用済み](assets/boards-filterapplied-30x30.png)のインジケーターが表示されます。「**[!UICONTROL すべてクリア]**」をクリックしてボードからすべてのフィルターを削除し、折りたたみアイコンをクリックしてフィルターパネルを閉じます。
 
 ![フィルターパネル](assets/boards-all-filters-collapsed-0823.png)
 
@@ -93,7 +93,7 @@ ht-degree: 92%
 1. ボードにアクセスします。
 1. ボードの右側の「[!UICONTROL **設定**]」をクリックして、設定パネルを開きます。
 1. 「[!UICONTROL **カード**]」を展開します。
-1. オンにする [!UICONTROL **ボードにアーカイブしたカードを表示する**].
+1. 「[!UICONTROL **ボードにアーカイブされたカードを表示**]」をオンにします。
 1. 「[!UICONTROL **フィルター**]」をクリックし、「[!UICONTROL アーカイブされたカード]」セクションを展開して、**[!UICONTROL アーカイブされたカード]**&#x200B;を選択してアーカイブされたカードを表示します。
 
    フィルターには、アーカイブされたカードの数が表示されます。
@@ -102,7 +102,7 @@ ht-degree: 92%
 
    >[!NOTE]
    >
-   >The [!UICONTROL アーカイブ済みカード] アーカイブされたカードを表示する設定をオンにしていない場合、セクションはフィルターで使用できません。 詳しくは、[カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)を参照してください。
+   >アーカイブされたカードを表示する設定をオンにしていない場合、「[!UICONTROL アーカイブされたカード]」セクションはフィルターで使用できません。詳しくは、[カードに表示するフィールドのカスタマイズ](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)を参照してください。
 
 1. 「**[!UICONTROL アーカイブされたカード]**」を再び選択し、オプションをクリアして、アクティブなカードのみを表示します。
 

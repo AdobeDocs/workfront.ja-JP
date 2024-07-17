@@ -5,16 +5,17 @@ title: キャンバスダッシュボードでのレポートの追加、削除�
 description: キャンバスダッシュボードを作成したら、様々な形式でAdobe Workfront データを表示するレポートを追加できます。 これらのレポートは、キャンバス上で必要に応じて移動したり、サイズを変更したりできます。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '548'
-ht-degree: 8%
+ht-degree: 25%
 
 ---
 
 # キャンバスダッシュボードでのレポートの追加、削除、配置
 
-キャンバスダッシュボードを作成したら、様々な形式でAdobe Workfront データを表示するレポートを追加できます。 これらのレポートは、キャンバス上で必要に応じて移動したり、サイズを変更したりできます。 キャンバスダッシュボードの作成については、を参照してください。 [キャンバスダッシュボードの基本を学ぶ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+キャンバスダッシュボードを作成したら、様々な形式でAdobe Workfront データを表示するレポートを追加できます。 これらのレポートは、キャンバス上で必要に応じて移動したり、サイズを変更したりできます。 キャンバスダッシュボードの作成について詳しくは、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
 
 ## アクセス要件
 
@@ -29,7 +30,7 @@ ht-degree: 8%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>新規：標準
    <p>または</p>
    <p>現在：プラン</p></td> 
@@ -45,23 +46,23 @@ ht-degree: 8%
 
 ## キャンバスダッシュボードへのレポートの追加
 
-1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **ダッシュボード**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**ダッシュボード**」を選択します。
 
-1. 左側のパネルで、 **キャンバスダッシュボード**&#x200B;次に、レポートを追加するキャンバスダッシュボードの名前をクリックします。
+1. 左側のパネルで **キャンバスダッシュボード** をクリックし、レポートを追加するキャンバスダッシュボードの名前をクリックします。
 
-1. 「」をクリックします **+ レポートを追加** ボタンをクリックします。
+1. ページの右上隅にある「**+ レポートを追加**」ボタンをクリックします。
 
-1. が含まれる **レポートを追加** 表示されるウィンドウで、 **追加** キャンバスダッシュボードに追加するレポートのタイプの下に。
+1. 表示される **レポートを追加** ウィンドウで、キャンバスダッシュボードに追加するレポートのタイプの下の **追加** をクリックします。
 
-1. 選択したレポートのタイプに基づいて、レポートの設定を続行します。 各タイプのレポートの設定の詳細については、を参照してください。 [キャンバスダッシュボードのレポートタイプ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). セットアップを完了する前にウィンドウを閉じても、空のレポートはキャンバスダッシュボードに追加されます。 をクリックすると、後で設定を完了できます。 **設定** 空のレポートの中央にあるボタン。
+1. 選択したレポートのタイプに基づいて、レポートの設定を続行します。 各タイプのレポートの設定について詳しくは、[ キャンバスダッシュボードのレポートタイプ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md) を参照してください。 セットアップを完了する前にウィンドウを閉じても、空のレポートはキャンバスダッシュボードに追加されます。 空のレポートの中央にある「**設定**」ボタンをクリックすると、後で設定を完了できます。
 
 ## キャンバスダッシュボードでのレポートの移動またはサイズ変更
 
-1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **ダッシュボード**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**ダッシュボード**」を選択します。
 
-1. 左側のパネルで、 **キャンバスダッシュボード**&#x200B;次に、編集するキャンバスダッシュボードの名前をクリックします。
+1. 左側のパネルで **キャンバスダッシュボード** をクリックし、編集するキャンバスダッシュボードの名前をクリックします。
 
-1. 「」をクリックします **レイアウトを編集** ボタンをクリックします。
+1. ページの右上隅にある「**レイアウトを編集**」ボタンをクリックします。
 
 1. キャンバスダッシュボードのレポートが、編集可能なボックスに表示されるようになりました。
 
@@ -71,12 +72,12 @@ ht-degree: 8%
 
    レポートのサイズを変更するには、ボックスの右下隅にあるくさびをクリックして、目的のサイズになるまでドラッグします。
 
-1. レポートの調整が完了したら、 **完了** ボタンをクリックし、ページの右上隅にある変更を保存します。
+1. レポートの調整が完了したら、ページの右上隅にある **完了** ボタンをクリックして、変更を保存します。
 
 ## キャンバスダッシュボードからのレポートの削除
 
-1. 「」をクリックします **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) Adobe Workfrontの右上隅、または（利用可能な場合は）をクリックし、 **[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) 左上隅のをクリックし、 **ダッシュボード**.
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**ダッシュボード**」を選択します。
 
-1. 左側のパネルで、 **キャンバスダッシュボード**&#x200B;次に、削除するレポートを含むキャンバスダッシュボードの名前をクリックします。
+1. 左側のパネルで **キャンバスダッシュボード** をクリックし、削除するレポートを含むキャンバスダッシュボードの名前をクリックします。
 
-1. 「」をクリックします **詳細** アイコン ![詳細アイコン](/help/quicksilver/reports-and-dashboards/canvas-dashboards/assets/more-icon.png) 削除するレポートの右上隅のをクリックし、 **削除**.
+1. 削除するレポートの右上隅にある **その他** アイコン ![ その他のアイコン ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/assets/more-icon.png) をクリックし、**削除** をクリックします。

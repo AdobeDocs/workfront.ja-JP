@@ -9,7 +9,7 @@ exl-id: 28fa6455-04dd-4115-9ead-cb3e7c26289e
 source-git-commit: b6a824ac6248c86043f7f21866c8a14a6c97602f
 workflow-type: tm+mt
 source-wordcount: '662'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -97,20 +97,20 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->後でWorkfrontのカスタムフィールドの名前を変更する場合、設定パネルでフィールドラベルを編集して一致させる必要があります。そうしないと、フィールドがカードに表示されません。
+>後で Workfront のカスタムフィールドの名前を変更する場合、設定パネルでフィールドラベルを編集して一致させる必要があります。そうしないと、フィールドがカードに表示されません。
 
-## アーカイブしたカードの表示/非表示を切り替える
+## アーカイブされたカードを表示または非表示にする
 
-アーカイブしたカードをボードに表示するには、構成設定をオンにする必要があります。
+アーカイブされたカードをボードに表示するには、設定をオンにする必要があります。
 
 1. ボードにアクセスし、「[!UICONTROL **設定**]」をクリックして、設定パネルを開きます。
 1. 「[!UICONTROL **カード**]」を展開します。
-1. オンにする [!UICONTROL **ボードにアーカイブしたカードを表示する**].
+1. 「[!UICONTROL **アーカイブされたカードをボードに表示する**]」をオンにします。
 
-   これで、ボードをフィルタリングして、アーカイブされたカードを表示できます。 詳しくは、 [ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+   これで、ボードをフィルタリングして、アーカイブされたカードを表示できます。詳しくは、[ボード内のフィルタリングと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
 
 1. 「[!UICONTROL **設定を非表示**]」をクリックして、設定パネルを閉じます。
 
 ## カードの減少を設定する
 
-一定期間後に自動的にボードからカードを削除するには、 [カードのフォールオフを設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
+一定期間後に自動的にボードからカードを削除するには、[カードのフォールオフを設定](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)を参照してください。

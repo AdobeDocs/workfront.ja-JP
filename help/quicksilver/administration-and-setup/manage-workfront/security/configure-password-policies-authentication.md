@@ -11,7 +11,7 @@ exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
 source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
 workflow-type: tm+mt
 source-wordcount: '724'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Workfront の実装時に認証環境設定を指定し、後で再度アクセ�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -50,7 +50,7 @@ Workfront の実装時に認証環境設定を指定し、後で再度アクセ�
 
 ## 認証を設定（すべての顧客が利用可能） {#configure-authentication-available-for-all-customers}
 
-すべての顧客に対して認証オプションが表示されます。パスワード管理機能の向上は、近日中に提供される予定です。または、組織で既に利用可能になっている可能性もあります (「 [（拡張認証の設定）](#configure-enhanced-authentication-coming-soon) 」を参照してください。
+すべての顧客に対して認証オプションが表示されます。この記事の[拡張認証の設定](#configure-enhanced-authentication-coming-soon)の節で説明されているように、改善されたパスワード管理機能は、近日中に提供される予定です。または、組織で既に利用できる可能性もあります。
 
 認証環境設定を行うには、次の手順に従います。
 

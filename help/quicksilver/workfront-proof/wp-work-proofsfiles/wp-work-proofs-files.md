@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: ' [!DNL Workfront Proof] でのプルーフとファイルの操作'
-description: での配達確認とファイルの操作 [!DNL Workfront Proof].
+description: ' [!DNL Workfront Proof] でのプルーフとファイルの操作'
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 31b97154-e506-4a1c-ab9a-92395156ed47
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '74'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 

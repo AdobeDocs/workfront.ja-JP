@@ -10,7 +10,7 @@ exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -218,7 +218,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> possibleValues の変更
+<sup>1</sup> possibleValues に変更
 
 ### OpTask
 
@@ -228,7 +228,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 型が null から boolean に変更されました
+<sup>1</sup> タイプを null からブール値に変更
 
 ### PortalSection
 
@@ -274,7 +274,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup>バリデーター CURRENCY を追加しました。
+<sup>1</sup>バリデーター CURRENCY を追加
 
 ### タスク
 
@@ -296,7 +296,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> LESS_THAN バリデーターを追加しました。
+<sup>1</sup> バリデーター LESS_THAN を追加
 
 ### TeamAssignment
 
@@ -330,7 +330,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> possibleValues の変更
+<sup>1</sup> possibleValues に変更
 
 ### ユーザー
 
@@ -348,19 +348,19 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> possibleValues の変更
+<sup>1</sup> を possibleValues に変更
 
 ### ワーク
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
+| kanbanFlag |  |  | pendingApproval <sup>1</sup> |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 型が null から boolean に変更されました
+<sup>1</sup> タイプを null からブール値に変更
 
 ## 削除されたリソース {#removed-resources}
 

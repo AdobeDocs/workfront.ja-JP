@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: "通知を使用：記事インデックス"
+title: 「通知を使用：記事インデックス」
 description: Adobe Workfront で通知を使用する方法については、以下の記事を参照してください。
 author: Nolan
 feature: Get Started with Workfront
@@ -10,20 +10,20 @@ exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
 source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
 # 通知の使用：記事インデックス
 
-[!DNL Adobe Workfront] でのアクティビティに関するアラートを送信する電子メール通知、アプリ内通知およびモバイル通知を送信します。 [!DNL Workfront].
+[!DNL Adobe Workfront] では、[!DNL Workfront] でのアクティビティに関して警告するメール通知、アプリ内通知およびモバイル通知が送信されます。
 
 <!-- Audited: 01/2024 -->
 
 この節では、次の記事を扱います。
 
 * [[!DNL Adobe Workfront] の通知](../../workfront-basics/using-notifications/wf-notifications.md)
-* [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+* [自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 * [ [!DNL Adobe Workfront] の項目を購読](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [アプリ内通知の概要](../../workfront-basics/using-notifications/in-app-notifications-overview.md)
 * [アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)

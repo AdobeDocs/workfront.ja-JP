@@ -12,7 +12,7 @@ exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 97%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>プロジェクトを操作する</p> </td> 
-      <td> <p>プロジェクトを選択し、ツールバーボタンを使用して編集 <img src="assets/edit-icon.png">、共有 <img src="assets/share-icon.png">、削除 <img src="assets/delete.png"> を行います。</p> <p>これらのアクティビティについて詳しくは、 <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">プロジェクト管理：記事インデックス</a>.</p> </td> 
+      <td> <p>プロジェクトを選択し、ツールバーボタンを使用して編集 <img src="assets/edit-icon.png">、共有 <img src="assets/share-icon.png">、削除 <img src="assets/delete.png"> を行います。</p> <p>これらのアクティビティについて詳しくは、<a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">プロジェクトの管理：記事インデックス</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>グループの新しいプロジェクトの作成</p> </td> 

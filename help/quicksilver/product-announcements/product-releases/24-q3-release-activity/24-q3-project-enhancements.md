@@ -16,7 +16,7 @@ ht-degree: 45%
 
 このページでは、2024 年第 3 四半期リリースでプレビュー環境に加えられたすべてのプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
-2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
 
 
 ## ヘッダーまたは「詳細」セクションで、タスクと問題のコミット日と条件を編集します
@@ -29,8 +29,8 @@ ht-degree: 45%
 
 コミット日と sCondition の更新について詳しくは、次の記事を参照してください。
 
-* [タスクおよび問題の状態を更新する](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
-* [タスクおよび問題のコミット日の更新](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
+* [ タスクおよび問題の条件を更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
+* [ タスクおよび問題のコミット日の更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
 
 [この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3429471/){target=_blank}
 

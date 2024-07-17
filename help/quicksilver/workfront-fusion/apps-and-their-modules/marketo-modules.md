@@ -12,7 +12,7 @@ exl-id: 7f6dace5-ab50-45da-a926-1a8919057f7b
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '2068'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 [!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL Marketo] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりできます。
 
-Marketoコネクタの紹介ビデオについては、次を参照してください。
+Marketo コネクタの紹介ビデオについては、次を参照してください。
 
 * [Marketo](https://video.tv.adobe.com/v/3427026/){target=_blank}
 

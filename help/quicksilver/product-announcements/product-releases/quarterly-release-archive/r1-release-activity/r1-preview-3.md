@@ -10,7 +10,7 @@ exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1347'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -145,7 +145,7 @@ R1 で行われたすべての変更のリストについては、[R1 リリー�
 
 通知設定の「私が行ったリクエスト」エリアに、「日別ダイジェスト配信」オプションが追加されました。
 
-詳しくは、 [独自の電子メール通知を変更する](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+詳しくは、[自身のメール通知の変更](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 この機能をテストするには、アカウントに関連付けられたメールアドレスを必ず更新してください。これは、プレビューサンドボックスがすべてのユーザーのメールアドレスをクリアするために必要です。
 

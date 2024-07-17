@@ -38,7 +38,7 @@ Adobe Workfront 管理者は、Security Assertion Markup Language（SAML）2.0 �
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 

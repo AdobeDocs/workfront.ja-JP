@@ -10,7 +10,7 @@ exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
 source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
 workflow-type: tm+mt
 source-wordcount: '1722'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 98%
 開始する前の確認事項。
 
 * 計画からイニシアチブを公開する前に、計画を作成して保存する必要があります。
-* 「ユーザーがテンプレートを使用せずにプロジェクトを作成できるようにする」設定は、セットアップの「プロジェクトの環境設定」領域で有効にする必要があります。 詳しくは、[システム全体のプロジェクト環境設定の指定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+* 設定のプロジェクト環境設定エリアで、「ユーザーがテンプレートを使用せずにプロジェクトを作成することを許可」設定を有効にする必要があります。詳しくは、[システム全体のプロジェクト環境設定の指定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
 ## プロジェクトへのイニシアチブの公開に関する考慮事項
 

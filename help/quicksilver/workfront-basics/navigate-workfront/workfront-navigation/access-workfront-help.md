@@ -5,8 +5,8 @@ description: Workfront では、提供されている様々な製品の機能に
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
 source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
-workflow-type: ht
-source-wordcount: '180'
+workflow-type: tm+mt
+source-wordcount: '156'
 ht-degree: 100%
 
 ---

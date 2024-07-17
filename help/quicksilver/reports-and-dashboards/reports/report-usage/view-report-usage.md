@@ -7,8 +7,8 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: ht
-source-wordcount: '997'
+workflow-type: tm+mt
+source-wordcount: '1001'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ ht-degree: 100%
 
    * **ビュー**：次のいずれかの期間内のビューの件数を表示します。
 
-      * **今月／今四半期／今年**
+      * **現在の月／四半期／年を表示**
       * **先月、前四半期、昨年**
       * **すべてのビュー**
 

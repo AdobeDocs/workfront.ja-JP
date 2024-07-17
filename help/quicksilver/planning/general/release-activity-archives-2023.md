@@ -31,7 +31,7 @@ ht-degree: 94%
 
 この記事では、2023 年 5 月 22 日（PT）にAdobe Workfront計画プログラムのローンチ後、2023 年に向けてリリースされた機能の一覧を示します。
 
-2024 年にリリースされた機能について詳しくは、 [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md).
+2024 年にリリースされた機能について詳しくは、[Adobe Workfront Planning の現在のリリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
 
 リリースされた機能は、リリースされた順序で一覧表示され、最新の機能が最初に表示されます。Workfront計画プログラムに参加しているお客様は、実稼動環境のすべての機能にアクセスできます。
 
@@ -95,7 +95,7 @@ Adobe Workfront Fusion を使用して Planning 機能に接続できます。�
 
 * Planning 機能に変更が加えられたときにシナリオをトリガー
 
-詳しくは、を参照してください [Adobe Workfront Planning モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+詳しくは、[Adobe Workfront Planning モジュール ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) を参照してください。
 
 ## 2023年12月11日（PT）の週
 

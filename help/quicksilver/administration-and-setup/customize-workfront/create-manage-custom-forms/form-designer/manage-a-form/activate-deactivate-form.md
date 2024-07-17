@@ -11,7 +11,7 @@ exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
 source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
 source-wordcount: '356'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 75%
 
 >[!NOTE]
 >
->カスタムフォームが非アクティブ化されたが、まだキュートピックまたはリクエストキュー定義の一部である場合、新しいリクエストに添付されます。 フォームをリクエストに含めたくない場合は、リクエストキューから手動で削除する必要があります。
+>カスタムフォームが非アクティブ化されているが、まだキュートピックまたはリクエストキュー定義の一部である場合、新しいリクエストに添付されます。フォームをリクエストに含めない場合は、リクエストキューから手動で削除する必要があります。
 
 ## アクセス要件
 
@@ -36,7 +36,7 @@ ht-degree: 75%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -49,7 +49,7 @@ ht-degree: 75%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## カスタムフォームの非アクティブ化
 
@@ -62,7 +62,7 @@ ht-degree: 75%
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」を選択します。
-1. Adobe Analytics の **Forms** 「 」領域で、非アクティブ化するカスタムフォームを選択します。
+1. 「**フォーム**」タブで、非アクティブ化するカスタムフォームを選択します。
 1. アクティブ列で、**False** を選択して列の外をクリックします。フォームがアクティブではなくなりました。
 
 ## カスタムフォームの再アクティブ化
@@ -72,5 +72,5 @@ ht-degree: 75%
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」を選択します。
-1. Adobe Analytics の **Forms** 「 」領域で、再アクティブ化するカスタムフォームを選択します。
+1. **フォーム**&#x200B;エリアで、再アクティブ化するカスタムフォームを選択します。
 1. アクティブ列で、**True** を選択して列の外をクリックします。フォームがアクティブになりました。

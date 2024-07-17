@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
 source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -64,10 +64,10 @@ ht-degree: 100%
 1. （オプション）次の記事の説明に従って、テンプレートをカスタマイズします。
 
    * [レイアウトテンプレートを使用したメインメニューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
-   * [レイアウトテンプレートを使用した左パネルのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
-   * [レイアウトテンプレートを使用した固定ページのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
-   * [レイアウトテンプレートを使用した詳細ビューのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-   * [レイアウトテンプレートを使用したホームと概要のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   * [レイアウトテンプレートを使用して左のパネルをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
+   * [レイアウトテンプレートを使用してピン留めされたページをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+   * [レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
+   * [レイアウトテンプレートを使用してホームと概要をカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    * [レイアウトテンプレートを使用したランディングページのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-   * [レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    * [レイアウトテンプレートを使用したユーザーインターフェイスの用語のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

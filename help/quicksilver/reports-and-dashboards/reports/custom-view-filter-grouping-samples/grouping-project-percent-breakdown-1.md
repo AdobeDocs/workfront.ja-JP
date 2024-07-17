@@ -8,8 +8,8 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7cdc8e56-3486-4e78-b494-b2ba9389c1f7
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
-source-wordcount: '270'
+workflow-type: tm+mt
+source-wordcount: '280'
 ht-degree: 100%
 
 ---
@@ -22,9 +22,9 @@ ht-degree: 100%
 
 * 0％
 * 1～25%
-* 26～50％
-* 51～75％
-* 76～99％
+* 26～50%
+* 51～75%
+* 76～99%
 * 100％
 
 ![percent_complete_breakdown_custom_project_grouping_25__increments.png](assets/percent-complete-breakdown-custom-350x56.png)
@@ -42,7 +42,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>グループ化を変更するためのリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 

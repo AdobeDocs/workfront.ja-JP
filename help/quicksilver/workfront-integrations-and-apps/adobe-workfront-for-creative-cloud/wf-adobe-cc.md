@@ -11,7 +11,7 @@ exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
 source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 
@@ -46,4 +46,4 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->Adobe Admin Console管理者が組織用のプラグインパッケージを作成している可能性があります。 その場合、管理者はこのパッケージをあなたに配布します。
+>Adobe Admin Console 管理者が組織用のプラグインパッケージを作成している可能性があります。その場合、管理者がこのパッケージをユーザーに配布します。

@@ -7,7 +7,7 @@ author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
 source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 100%
 
@@ -90,10 +90,10 @@ ht-degree: 100%
 1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
 
 1. 「**[!UICONTROL ユーザー]**」をクリックし、次にホームチームに関連付ける 1 人または複数のユーザーを選択します。
-1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。\
+1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。\
    ![](assets/user-settings-nwe-350x291.png)
 
-1. **[!UICONTROL 組織]**&#x200B;セクションで、「**[!UICONTROL ホームチーム]**」フィールドを選択します。設定をユーザーに関連付けるチームの名前を入力します。リストにチームの名前が表示されたら、そのチームの名前をクリックします。
+1. 「**[!UICONTROL 組織]**」セクションで、「**[!UICONTROL ホームチーム]**」フィールドを選択します。設定をユーザーに関連付けるチームの名前を入力します。リストにチームの名前が表示されたら、そのチームの名前をクリックします。
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。\
    選択したユーザーがホームチームに関連付けられます。

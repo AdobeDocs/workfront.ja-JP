@@ -8,8 +8,8 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 13d6230d-51f6-4f68-8697-30f8ce6c8599
-source-git-commit: 59941ea1ce523a0d1036138a83f771b058049b34
-workflow-type: ht
+source-git-commit: 27158301e491d4ff45ce7987a81f841fb4525b2a
+workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
 
@@ -37,7 +37,6 @@ ht-degree: 100%
 >
 >* [!UICONTROL [!DNL Workfront Fusion] for Work Automation]
 >* [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]
->
 
 [!DNL Workfront Fusion] では、[!DNL Workfront] 内で単純または複雑なワークフローを自動化して時間を節約し、プロセスを一貫して実行することができます。
 

@@ -9,7 +9,7 @@ exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
 source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
 workflow-type: tm+mt
 source-wordcount: '517'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->Adobe WorkfrontとMicrosoft Teamsの統合は、現在、クラシックMicrosoft Teamsエクスペリエンスでのみサポートされています。
+>Adobe Workfront と Microsoft Teams の統合は、現在、Microsoft Teams のクラシックエクスペリエンスでのみサポートされています。
 
 チームの所有者が [!DNL Adobe Workfront for Microsoft Teams] をインストールした後、[!DNL Microsoft Teams] アカウントから [!DNL Workfront] リクエストを送信することができます。そのためには、リクエストを送信するためのアクセス権を持つ Workfront アカウントが必要です。[!DNL Workfront for Microsoft Teams] のインストールについて詳しくは、[ [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
 

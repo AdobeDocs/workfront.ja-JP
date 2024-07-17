@@ -10,7 +10,7 @@ exl-id: f7f43e1e-db32-48b8-9a23-ff9fa6195386
 source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '286'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 94%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
@@ -61,7 +61,7 @@ ht-degree: 94%
 
 1. 新しい列で、「**テキストモードに切り替える**」をクリックします。
 1. テキストモードエリアにポインタを合わせて、「**クリックするとテキストを編集できます**」をクリックします。
-1. 検索したテキストを削除します。 `valuefield=` 行を編集し、次のコードに置き換えます。
+1. `valuefield=` 行にあるテキストを削除し、次のコードに置き換えます。
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))

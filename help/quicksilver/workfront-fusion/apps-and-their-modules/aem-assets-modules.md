@@ -13,7 +13,7 @@ exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '1543'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 99%
 
 [!DNL Adobe Workfront Fusion] 用 [!DNL Adobe Experience Manager Assets] コネクタを使用して、[!DNL Adobe Experience Manager Assets] アカウントのイベントを基にシナリオを開始したり、アセットを作成、アップロード、アップデートして、フォルダーやアセットをコピーまたは移動したりできます。
 
-Adobe Experience Manager Assetsコネクタの概要については、以下を参照してください。
+Adobe Experience Manager Assets コネクタの概要については、以下を参照してください。
 
 * [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 
@@ -296,7 +296,7 @@ Adobe Experience Manager Assetsコネクタの概要については、以下を�
  </tbody> 
 </table>
 
-### [!UICONTROL カスタム API 呼び出し]
+### [!UICONTROL カスタム API 呼び出しの実行]
 
 このモジュールは、[!DNL Adobe Experience Manager Assets] API に対してカスタム API 呼び出しを実行します。
 

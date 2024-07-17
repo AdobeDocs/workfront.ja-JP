@@ -2,14 +2,14 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: プルーフ内のコンテンツを検索
-description: 配達確認内のテキストをすばやく見つける方法を説明します。
+description: プルーフ内のテキストを素早く見つける方法を説明します。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 96%
    <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>現在のプラン：レビュー</p> <p>従来のプラン：レビュー</p> </td> 
   </tr> 
   <tr> 

@@ -10,7 +10,7 @@ exl-id: fdfa509c-30c6-431e-89f3-a4bf50261e8a
 source-git-commit: f3f34e807228b299c0570e63bdf329f4e20e0340
 workflow-type: tm+mt
 source-wordcount: '794'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -95,9 +95,9 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->テンプレートを保存すると、すべてのチームメンバーに対して表示されるようになります。テンプレートをチーム外でアクセスできるようにするには、リクエストを送信して承認および公開する必要があります。 リクエストはAdobe Workfrontに対して承認が求められ、承認されると、チーム外の他のユーザーがテンプレートにアクセスできるようになります。
+>テンプレートを保存すると、すべてのチームメンバーに対して表示されるようになります。テンプレートをチーム外でアクセスできるようにするには、リクエストを送信し、承認されて公開される必要があります。リクエストは Adobe Workfront に対して承認が求められ、承認されると、チーム外の他のユーザーがテンプレートにアクセスできるようになります。
 >
->テンプレートの公開について詳しくは、 [公開して共有 [!DNL Adobe Workfront Fusion] テンプレート](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md).
+>テンプレートの公開について詳しくは、[ [!DNL Adobe Workfront Fusion]  テンプレート](/help/quicksilver/workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)の公開と共有を参照してください。
 
 ### シナリオからのテンプレートの作成
 

@@ -12,7 +12,7 @@ exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
 source-git-commit: 3ffb6fdebb54682abc737e55186850458a133f7c
 workflow-type: tm+mt
 source-wordcount: '2131'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -124,7 +124,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    >
    >オブジェクトの名前と属性は、Workfront データベースでサポートされている形式で記述する必要があります。
    >
-   >これらのオブジェクトの意味について詳しくは、 [用語集 [!DNL Adobe Workfront] 用語](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >これらのオブジェクトの意味については、[ [!DNL Adobe Workfront] の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
    >
    >Workfront データベース内のオブジェクトの名前について詳しくは、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を参照してください。
    >

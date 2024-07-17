@@ -9,7 +9,7 @@ exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '1025'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -120,7 +120,7 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 
 1. 「**フィルター**」タブで、**プロジェクト名**&#x200B;のフィルターを追加し、通貨が異なる 2 つのプロジェクトを選択します。
 
-   フィルターの作成方法について詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   フィルターの作成方法について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 1. 「**保存して閉じる**」をクリックします。
 

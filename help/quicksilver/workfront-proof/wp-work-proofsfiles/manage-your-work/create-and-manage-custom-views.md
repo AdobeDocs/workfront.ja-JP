@@ -8,8 +8,8 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
-workflow-type: ht
-source-wordcount: '2457'
+workflow-type: tm+mt
+source-wordcount: '2458'
 ht-degree: 100%
 
 ---
@@ -321,7 +321,7 @@ ht-degree: 100%
 カスタムビューを他のユーザーと共有するには：
 
 1. **[!UICONTROL ビュー]**&#x200B;ページに移動します。\
-   ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理を参照してください。
+   ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
 
 1. 「**[!UICONTROL ビュー]**」ボタンをクリックします。（1）
 1. リストからカスタムビューを選択します。（2）
@@ -339,11 +339,11 @@ ht-degree: 100%
 カスタムビューから CSV ファイルにデータを書き出すには：
 
 1. **[!UICONTROL ビュー]**&#x200B;ページに移動します。\
-   ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理を参照してください。
+   ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
 
 1. 「**[!UICONTROL ビュー]**」ボタンをクリックします。（1）
 1. リストからカスタムビューを選択します。（2）
-1. **[!UICONTROL アクション]**&#x200B;メニューをクリックします。（3）\
+1. 「**[!UICONTROL アクション]**」メニューをクリックします。（3）\
    このボタンは、ビュー内にプルーフ名の列を含める場合にのみ使用できます。
 
 1. [!UICONTROL CSV に書き出し]を選択します。（4）\

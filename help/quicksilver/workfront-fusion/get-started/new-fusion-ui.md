@@ -58,9 +58,9 @@ Workfront Fusion は、Adobe Experience Cloudから Fusion にアクセスしな
 
 ## [!DNL Workfront Fusion] をナビゲートする
 
-この [!UICONTROL 組織] および [!UICONTROL チーム] メニューは、Fusion の左側のナビゲーションパネルにあります。 [!DNL Workfront Fusion] 管理者の場合、[!UICONTROL 管理]メニューもここに表示されます。
+[!UICONTROL  組織 ] メニューと [!UICONTROL  チーム ] メニューは、Fusion の左側のナビゲーションパネルにあります。 [!DNL Workfront Fusion] 管理者の場合、[!UICONTROL 管理]メニューもここに表示されます。
 
-チームを切り替えるには、ページ上部のチーム名をクリックし、チームを選択します。チームセレクターは、シナリオビルダーや [!UICONTROL 接続] ページ。
+チームを切り替えるには、ページ上部のチーム名をクリックし、チームを選択します。チームセレクターは、シナリオビルダーや [!UICONTROL  接続 ] ページなど、チーム固有のページにのみ表示されます。
 
 組織を切り替えるには、画面の右上にある組織名をクリックし、組織を選択します。
 
@@ -70,8 +70,8 @@ Workfront Fusion は、Adobe Experience Cloudから Fusion にアクセスしな
 
 プロファイルでは、次のタブを表示できます。
 
-* **[!UICONTROL 組織]**：所属している Fusion 組織を表示します。
-* **[!UICONTROL タイムゾーンのオプション]**：ここでは、Fusion UI で使用されるタイムゾーンと、個々のシナリオで使用されるタイムゾーンを設定できます。
+* **[!UICONTROL 組織]**：所属する Fusion 組織を表示します。
+* **[!UICONTROL タイムゾーンオプション]**：ここでは、Fusion UI で使用されるタイムゾーンと、個々のシナリオで使用されるタイムゾーンを設定できます。
 * **[!UICONTROL API]**：ここでは、既存の API トークンをコピーしたり、新しいトークンを作成したりできます。
 
 

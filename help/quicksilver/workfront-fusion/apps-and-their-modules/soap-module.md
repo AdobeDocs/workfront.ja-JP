@@ -12,7 +12,7 @@ exl-id: 752e0766-25f2-4d22-bed5-7c931284258d
 source-git-commit: b820fb8d597205da9f2d0e5e6f5aec1056ec9a45
 workflow-type: tm+mt
 source-wordcount: '490'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 88%
 
 [!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## の制限 [!UICONTROL SOAP] モジュール
+## [!UICONTROL SOAP] モジュールの制限事項
 
 >[!NOTE]
 >
@@ -91,7 +91,7 @@ ht-degree: 88%
 ></complexType>
 >```
 >
->この例には、 `soapenc:Array`, `soapenc:arrayType` および `wsdl:arrayType` でサポートされていない参照 [!UICONTROL Workfront Fusion].
+>この例には、[!UICONTROL Workfront Fusion] でまだサポートされていない `soapenc:Array`、`soapenc:arrayType` および `wsdl:arrayType` の参照が含まれています。
 
 ## 回避策
 

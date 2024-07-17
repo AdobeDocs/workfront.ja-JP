@@ -83,7 +83,7 @@ Adobe Workfront Planning で作業する際、ワークスペースを他のユ�
  </tbody>
 </table>
 
-*詳細については、を参照してください [Workfrontのドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## ワークスペースに対する権限の共有
 

@@ -62,7 +62,7 @@ ht-degree: 36%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-&#42;&#42;について [!DNL Adobe Workfront Fusion] ライセンス，「参照」 [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;[!DNL Adobe Workfront Fusion] ライセンスの詳細については、[!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md) を参照してください
 
 ## 前提条件
 
@@ -125,7 +125,7 @@ ht-degree: 36%
               <p>ファイルのパスワードを入力します。</p>
             </li>
             <li value="5">
-              <p>クリック <b>保存</b> ファイルを抽出して [!UICONTROL ]e 接続設定に戻ります。</p>
+              <p><b> 保存 </b> をクリックしてファイルを抽出し、[!UICONTROL ] 接続設定に戻ります。</p>
             </li>
           </ol>
         </td>
@@ -158,7 +158,7 @@ ht-degree: 36%
 
 このアクションモジュールは、オプションのレイヤーを持つ新しいPSDを作成し、レンディションを生成したり、PSDとして保存したりします。
 
-このモジュールに関連するフィールドについては、を参照してください。 [新しいPSDの作成](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) Adobe Photoshopのドキュメントで説明しています。
+このモジュールに関連するフィールドについては、Adobe Photoshop ドキュメントの [ 新しいPSDの作成 ](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) を参照してください。
 
 #### テキストレイヤーを編集
 
@@ -198,7 +198,7 @@ Photoshop ファイルのテキストレイヤーを編集します。
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL レイヤー ]</td>
-   <td> <p>レイヤ オプションの詳細については、を参照してください。 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text">テキストレイヤーを編集</a> Adobe Photoshopのドキュメントで説明しています。</p>  </td>     </tr>
+   <td> <p>レイヤーオプションについて詳しくは、Adobe Photoshop ドキュメントの <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text"> テキストレイヤーの編集 </a> を参照してください。</p>  </td>     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL 出力ファイルの保存場所 ]</td>
       <td>
@@ -277,7 +277,7 @@ Photoshop ファイルのテキストレイヤーを編集します。
     <tr>
       <td role="rowheader">[!UICONTROL Other fields]</td>
       <td>
-        <p>その他のデプス ブラーオプションについては、を参照してください。 <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur">深度ブラーを実行 </a>（Adobe Photoshop API ドキュメント）。</p>
+        <p>その他の深度ブラーオプションについて詳しくは、Adobe Photoshop API ドキュメントの <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur"> 深度ブラーの実行 </a> を参照してください。</p>
       </td>
     </tr>
     <tr>

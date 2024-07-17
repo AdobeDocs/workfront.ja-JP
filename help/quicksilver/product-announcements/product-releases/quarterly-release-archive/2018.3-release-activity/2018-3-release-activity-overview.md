@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: 2018.3 リリースアクティビティの概要
-description: '注意： 2018.3 リリースは、実稼動環境で次の日付 ( 詳細な日時については、trust.workfront.comを参照 ) に公開されました。'
+description: 「メモ：2018.3 リリースは、以下の日付で実稼動環境で使用可能になりました（詳細な日時については trust.workfront.com を参照してください）」
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -10,7 +10,7 @@ exl-id: 55787c1e-45af-4b9f-bdbc-10cfacb326e6
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '1134'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

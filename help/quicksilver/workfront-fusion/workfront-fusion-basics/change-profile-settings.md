@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
 source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 100%
 
@@ -41,9 +41,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront]プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明する機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -67,7 +67,7 @@ ht-degree: 100%
 このメニューでは、次の操作を実行できます。
 
 * [!DNL Adobe Experience Cloud] の&#x200B;**[!UICONTROL ダークテーマ]**&#x200B;の書式を選択します。
-* メイン言語とサブ言語の環境設定を含む、[!DNL Adobe Experience Cloud] の&#x200B;**[!UICONTROL 環境設定]**&#x200B;を指定します。
+* メイン言語とサブ言語の環境設定を含む、[!DNL Adobe Experience Cloud] の&#x200B;**[!UICONTROL 環境設定]**&#x200B;を設定します。
 * **[!UICONTROL [!DNL Workfront]のプロファイル]**&#x200B;にアクセスします。プロファイルを開いたら、「**[!UICONTROL その他]**」メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。プロファイルについて詳しくは、[個人設定の指定](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
 * Adobe Experience Cloud から&#x200B;**[!UICONTROL ログアウト]**&#x200B;します。
 

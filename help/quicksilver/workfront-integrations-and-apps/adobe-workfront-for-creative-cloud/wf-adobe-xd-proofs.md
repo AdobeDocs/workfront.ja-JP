@@ -7,7 +7,7 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
 source-git-commit: d5255968a96452d9501a285408f67be7da10d933
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>[!UICONTROL Documents]の編集権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a> を参照してください。</p> </td> 
+   <td> <p>[!UICONTROL Documents]の編集権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ ht-degree: 100%
       <td role="rowheader">[!UICONTROL Basic]： </td> 
       <td> <p>基本的な承認プロセスはアドホックで、必要に応じて様々なレビュアーを含めることができます。 </p> 
        <ul> 
-        <li> <p>（オプション）「<strong>承認者</strong>」と入力します。</p> </li> 
+        <li> <p>（オプション）ボックスに「<strong>承認者</strong>」と入力します。</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -197,12 +197,12 @@ ht-degree: 100%
 
 新しいバージョンのプルーフをアップロードできます。プラグインは以前のバージョンで設定されたプルーフワークフローを記憶しますが、必要に応じてこれを変更できます。
 
-1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、**[!UICONTROL 作業リスト]**&#x200B;を選択します。メニューを使用して親オブジェクトに移動することもできます。
+1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
    ![](assets/menu-350x440.png)
 
 1. ドキュメントのアップロード先の作業アイテムに移動します。
-1. ナビゲーションバーで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
+1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
 
 1. プラグインの下部近くにある&#x200B;**[!UICONTROL 新しいバージョン]**&#x200B;をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;を有効にします。

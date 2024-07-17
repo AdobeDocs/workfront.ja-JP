@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
 source-git-commit: 93c36a87667097729e89a61f68cc17e9c861d547
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 100%
 
@@ -43,7 +43,7 @@ ht-degree: 100%
    <td role="rowheader">アクセスレベル設定*</td> 
    <td> <p>ポートフォリオ、プログラム、プロジェクトに対する[!UICONTROL Edit]アクセス権</p> <p>プロジェクトを削除するには、プロジェクトに対する[!UICONTROL Delete]アクセス権が必要です。</p> <p><b> メモ</b>
 
-まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
+まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 

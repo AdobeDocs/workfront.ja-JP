@@ -131,7 +131,7 @@ ht-degree: 96%
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>like</strong> </p> </td> 
-   <td> <p>この修飾子は、<strong>contains</strong> と同様の方法で、<i>大文字と小文字を区別する</i>テキスト文字列の一部を検索します。しかし、<strong>like</strong> には、ワイルドカード文字を挿入してテキストを分割する機能があります。</p> <p>たとえば、メモを検索する際に <code>like %Current% %Dead%</code> を使用すると、「Current to Dead」というフレーズを含むメモが返されます。「Dead to Current」を含むメモは含まれません。各値は、リストに表示されている順序で検索されます。% は、テキストの文字やセグメントを置き換えるワイルドカードを表します。 以下に示すように、アンダースコアは 1 つのワイルドカード文字にも使用できます。 <code>like Project_</code> 「Project」と「Projects」の両方を返します。 を使用する予定がある場合 <strong>like</strong> または <strong>類似</strong> フィルターの修飾子で、% または_文字のカスタムデータフィールド名、パラメーターオプション値、またはその他のオブジェクト名は避けることをお勧めします。</p><p>この修飾子は、テキストモードのフィルターでのみ使用できます。フィルターのテキストモードについて詳しくは、<a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">テキストモードを使用したフィルターの編集</a>を参照してください。</p> </td> 
+   <td> <p>この修飾子は、<strong>contains</strong> と同様の方法で、<i>大文字と小文字を区別する</i>テキスト文字列の一部を検索します。しかし、<strong>like</strong> には、ワイルドカード文字を挿入してテキストを分割する機能があります。</p> <p>たとえば、メモを検索する際に <code>like %Current% %Dead%</code> を使用すると、「Current to Dead」というフレーズを含むメモが返されます。「Dead to Current」を含むメモは含まれません。各値は、リストに表示されている順序で検索されます。% は、テキストの文字やセグメントを置き換えるワイルドカードを表します。 アンダースコアは、「Project」と「Projects」の両方を返す <code>like Project_</code> のように、1 つのワイルドカード文字に使用することもできます。 フィルタリングで <strong>like</strong> または <strong>clike</strong> 修飾子を使用する場合は、カスタムデータフィールド名、パラメーターオプション値、またはその他のオブジェクト名では、% または_文字を使用しないことをお勧めします。</p><p>この修飾子は、テキストモードのフィルターでのみ使用できます。フィルターのテキストモードについて詳しくは、<a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">テキストモードを使用したフィルターの編集</a>を参照してください。</p> </td> 
   </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 

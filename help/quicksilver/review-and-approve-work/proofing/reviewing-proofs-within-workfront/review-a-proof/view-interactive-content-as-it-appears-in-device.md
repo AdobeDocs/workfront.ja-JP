@@ -9,7 +9,7 @@ exl-id: 99165790-0c34-4540-92d9-956ae178a874
 source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 94%
    <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
@@ -56,7 +56,7 @@ Adobe Workfront 管理者は、インタラクティブなコンテンツをデ�
 
   >[!NOTE]
   >
-  >Workfrontの管理者は、組織内のユーザーのカスタムデバイスを設定できます。詳しくは、 [配達確認用のカスタムデバイスの設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) 記事内 [組織の配達確認設定を構成します](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
+  >Workfront 管理者は、[組織のプルーフの設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md)の記事の[プルーフ用のカスタムデバイスの設定](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs)で説明しているように、組織内のユーザーのカスタムデバイスを設定できます。
 
 ## プリセットのデバイスまたは解像度設定でプルーフを表示
 

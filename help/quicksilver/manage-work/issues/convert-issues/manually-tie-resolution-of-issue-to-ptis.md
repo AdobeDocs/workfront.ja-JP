@@ -9,7 +9,7 @@ exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '556'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 93%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
@@ -62,8 +62,8 @@ ht-degree: 93%
 
 ## イシューの解決と、別のイシュー、タスクまたはプロジェクトの解決を結び付けている
 
-1. 解決を別の問題の解決に関連付けるか、タスクまたはプロジェクトの解決に関連付ける問題に移動します。
-1. 次をクリック： **問題の詳細** 左のパネルで、を展開します。 **概要** 領域。
+1. 解決策を別のイシューの解決策またはタスクやプロジェクトの解決策に結び付けるイシューに移動します。
+1. 左パネルで「**問題の詳細**」をクリックしてから、**概要**&#x200B;エリアを展開します。
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 

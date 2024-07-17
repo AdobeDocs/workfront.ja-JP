@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 479dfb9d-0e47-4790-a33a-336b415fbf6e
 source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 100%
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 ## アクセス要件
 
-[!DNL Workfront] で会社を管理するには、以下のものが必要です。
+[!DNL Workfront] で会社を管理するには、次が必要です。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -39,15 +39,15 @@ ht-degree: 100%
    <td role="rowheader"><strong>アクセスレベル設定*</strong> </td> 
    <td> <p>次のうちのいずれか：</p> 
     <ul> 
-     <li> <p>システム内の任意の会社を編集できる、[!UICONTROL System Administrator]のアクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。 </p> </li> 
-     <li> <p>システム内の任意の会社を編集できる、会社を管理するための管理者アクセス。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与</a>を参照してください。</p> </li> 
+     <li> <p>システム内の任意の会社を編集できる、[!UICONTROL System Administrator]のアクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。 </p> </li> 
+     <li> <p>システム内の任意の会社を編集できる、会社を管理するための管理者アクセス。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権のユーザーへの付与</a>を参照してください。</p> </li> 
     </ul> <p><b>メモ</b>：  
      <ul> 
       <li> <p>また、自分がグループ管理者として割り当てられている任意のグループに関連する会社を管理することもできます。</p> </li> 
-      <li> <p>[!DNL Workfront] システムからユーザーを追加あるいは削除するには、以下のいずれかが必要です。</p> 
+      <li> <p>[!DNL Workfront] システムでのユーザーの追加および削除を行うには、次のいずれかが必要です。</p> 
        <ul> 
         <li> <p>[!UICONTROL System Administrator] アクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。 </p> </li> 
-        <li> <p>アクセスレベルの [!UICONTROL Users] 設定で、[!UICONTROL Edit] が選択されている必要があります。また、[!UICONTROL Users] 設定には、[!UICONTROL Fine-tune your settings]<img src="assets/gear-icon-in-access-levels.png">の下で、[!UICONTROL Create] オプション、ならびに 2 つの [!UICONTROL User Admin] オプションのうち 1 つ以上を有効にする必要があります。 </p> <p> <img src="assets/access-req-users.png" style="width: 350;height: 101;"> </p> <p>[!UICONTROL User Admin (Group Users)] オプションを使用している場合は、ユーザーがメンバーとなっているグループのグループ管理者である必要があります。</p> </li> 
+        <li> <p>アクセスレベルの [!UICONTROL Users] 設定で、[!UICONTROL Edit] が選択されている必要があります。また、[!UICONTROL Users] 設定の場合は、[!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> 下の [!UICONTROL Create] オプションと、2 つの [!UICONTROL User Admin] オプションのうち少なくとも 1 つを有効にする必要があります。 </p> <p> <img src="assets/access-req-users.png" style="width: 350;height: 101;"> </p> <p>[!UICONTROL User Admin (Group Users)] オプションを使用している場合は、ユーザーがメンバーとなっているグループのグループ管理者である必要があります。</p> </li> 
        </ul> <p>アクセスレベルでのユーザー設定について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>を参照してください。</p> </li> 
      </ul> </p> </td> 
   </tr> 

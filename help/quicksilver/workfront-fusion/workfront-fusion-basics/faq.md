@@ -118,4 +118,4 @@ ht-degree: 99%
 
 接続とは、[!DNL Workfront Fusion] アカウントと、使用するサードパーティのサービスとの間のリンクです。接続は、シナリオの編集時に簡単に作成できます。接続を追加するには、モジュール設定の「**[!UICONTROL 追加]**」ボタンをクリックし、段階的な手順に従います。
 
-詳しくは、を参照してください [接続の概要](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+詳しくは、[ 接続の概要 ](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md) を参照してください。

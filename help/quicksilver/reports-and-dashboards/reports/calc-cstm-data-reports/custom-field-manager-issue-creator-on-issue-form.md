@@ -8,7 +8,7 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
 source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 100%
 
@@ -37,12 +37,12 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td> <p>Adobe Workfront ライセンス*</p> </td> 
+   <td> <p>Adobe Workfront プラン*</p> </td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームへの管理アクセス<br>アクセスレベルから管理アクセス権を付与する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与する</a>を参照してください。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>カスタムフォームへの管理アクセス<br>アクセスレベルから管理アクセス権を付与する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権をユーザーに付与する</a>を参照してください。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>オブジェクト権限</p> </td> 

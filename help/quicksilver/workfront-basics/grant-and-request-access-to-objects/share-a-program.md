@@ -8,8 +8,8 @@ author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
 source-git-commit: e608cf5bdb0227ea5b8d3109db411e98145aaa38
-workflow-type: ht
-source-wordcount: '368'
+workflow-type: tm+mt
+source-wordcount: '383'
 ht-degree: 100%
 
 ---
@@ -59,7 +59,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 | カスタムフィールドの編集 | ✓ |   |
 | プロジェクトの追加または削除&#42; | ✓ |   |
 | プロジェクトを承認 | ✓ |   |
-| ドキュメントフォルダーの追加&#42; | ✓ | ✓ |
+| ドキュメントフォルダーを追加&#42; | ✓ | ✓ |
 | ドキュメントを追加 | ✓ | ✓ |
 | 更新／コメントの追加 | ✓ | ✓ |
 | 共有 | ✓ | ✓ |

@@ -13,17 +13,17 @@ exl-id: a6a6a224-f938-4a19-a708-f00568ca6a88
 source-git-commit: 3b3ba7cc6a975af71205f7f524e1a9a91a9d3810
 workflow-type: tm+mt
 source-wordcount: '95'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
-# 設定 [!DNL Adobe Workfront]：記事インデックス
+# [!DNL Adobe Workfront] の設定：記事インデックス
 
 <!--Audited: 01/2024-->
 
-As an [!DNL Adobe Workfront] 管理者は、組織のシステム既定、タイムシート、スケジュール、ユーザーのシステム内での編成方法、自動システム更新、および [!DNL Workfront] 使用する環境のテスト。
+[!DNL Adobe Workfront] 管理者は、組織のシステムデフォルト、タイムシート、スケジュール、システムにおけるユーザーの編成、自動システム更新および使用する [!DNL Workfront] テスト環境を設定できます。
 
-以下のサブセクションでは、Workfrontインスタンスの設定と、システムの環境設定に関する記事を説明します。
+以下の各項は、Workfront インスタンスの設定とシステムの環境設定に関する記事になります。
 
 * [システムのデフォルトの設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
 * [タイムシートとスケジュールを設定する](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)

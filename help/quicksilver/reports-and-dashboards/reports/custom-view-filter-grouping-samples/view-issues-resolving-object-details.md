@@ -8,8 +8,8 @@ author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7f4c923a-01e4-4896-9f54-1f0c66d64bb5
 source-git-commit: 661f925b4e485069122ef4278b2914d206387974
-workflow-type: ht
-source-wordcount: '645'
+workflow-type: tm+mt
+source-wordcount: '549'
 ht-degree: 100%
 
 ---
@@ -47,7 +47,7 @@ sharecol
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 
@@ -69,7 +69,7 @@ sharecol
 ## イシューと解決オブジェクトの詳細の表示
 
 1. イシューのリストに移動します。
-1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
+1. **表示**&#x200B;ドロップダウンメニューから、**新規表示**&#x200B;を選択します。
 
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
 1. 残りの列のヘッダーをクリックし、「**テキストモードに切り替え**」をクリックします。

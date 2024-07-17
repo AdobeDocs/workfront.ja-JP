@@ -8,8 +8,8 @@ author: Alina
 feature: Work Management
 exl-id: b0522db5-9c68-4b1a-82c8-5a9e613eb2ff
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '775'
+workflow-type: tm+mt
+source-wordcount: '782'
 ht-degree: 100%
 
 ---
@@ -28,8 +28,8 @@ ht-degree: 100%
 >
 >* コミット日は、タスクに割り当てられたユーザーがタスクの完了を手動で見積もった日付です。詳しくは、次の記事を参照してください。
 >
->* [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
->* [コミット日と予定完了日の間のインタラクション](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)。
+>   * [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
+>   * [コミット日と予定完了日の間のインタラクション](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)。
 >
 >* 見込み完了日とは、Workfront によって計算された日付で、タスクの遅延、タスクまたはその先行タスクのタイムライン、その他の要因を考慮して、タスクを現実的に完了できる実際の日付です。詳しくは、[プロジェクト、タスクおよびイシューの見込み完了日の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。
 >
@@ -88,7 +88,7 @@ ht-degree: 100%
 * プロジェクト完了日（プロジェクトが「完了日」からスケジュールされる場合）。
 * タスクのプライマリ担当者の休暇スケジュール。
 
-  「**ユーザーの休暇**」フィールドで「**タスク期間のユーザーの休暇を考慮する**」設定が選択されている場合、タスクの期間中にプライマリ担当者の休暇が予定されていると、タスクの予定日はそれに応じて調整されます。この設定は、新しいプロジェクトではプロジェクトの環境設定領域から継承されますが、設定はプロジェクトレベルで編集できます。
+  プライマリ担当者がタスクの期間中に休暇を取る場合、「**ユーザーの休暇**」フィールドで&#x200B;**タスク期間にユーザーの休暇を考慮**&#x200B;の設定が選択されていると、タスクの予定日がそれに応じて調整されます。この設定は、新しいプロジェクトではプロジェクトの環境設定領域から継承されますが、設定はプロジェクトレベルで編集できます。
 
   例えば、「可能な限り早く」という制約を持つタスクが 6 月 1 日に開始し、6 月 3 日に完了するようにスケジュールされ、プライマリ担当者が 6 月 2 日に「休暇」とマークされている場合、「予定完了日」は 6 月 4 日になります。
 

@@ -4,8 +4,8 @@ description: Adobe Workfront シナリオプランナー 21.4 リリース
 author: Luke
 draft: Probably
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
-workflow-type: ht
-source-wordcount: '106'
+workflow-type: tm+mt
+source-wordcount: '110'
 ht-degree: 100%
 
 ---

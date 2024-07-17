@@ -11,27 +11,27 @@ exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
 source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 56%
+ht-degree: 100%
 
 ---
 
 # プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）
 
-Adobe Workfront管理者の場合、管理上の責任と手順は、組織がAdobeビジネスプラットフォームにオンボーディングされているかどうかによって異なる場合があります。 この記事では、処理方法を説明し、WorkfrontとAdobe Admin Consoleの両方の手順へのリンクを示します。
+Adobe Workfront 管理者の管理上の責任と手順は、組織が Adobe Business Platform にオンボーディングされているかどうかによって異なります。この記事では、別の方法で処理される手順のリストと、Workfront Fusion および Adobe Admin Console の両方の手順へのリンクを示します。
 
 組織が Adobe Business Platform にオンボーディングされている場合、ユーザーは Adobe Business Platform を使用して Adobe Workfront にアクセスします。つまり、次のようになります。
 
-* システム管理者は、 Adobe Admin Consoleを使用して作成されます
-* SAML 証明書の更新は、Adobe Admin Consoleで処理されます。
-* シングルサインオン (SSO) は、Workfrontを通じて処理されるのではなく、Adobeビジネスプラットフォームを通じて処理されます
+* システム管理者は、Adobe Admin Console で作成されます。
+* SAML 証明書の更新は、Adobe Admin Console で処理されます。
+* シングルサインオン（SSO）は、Workfront ではなく、Adobe Business Platform で処理されます。
 
-## Adobe Admin ConsoleでのWorkfrontシステム管理者の作成
+## Adobe Admin Console での Workfront システム管理者の作成
 
 >[!NOTE]
 >
->システム管理者以外のユーザーを直接Workfrontに追加することをお勧めします。 Adobe Admin Consoleでユーザーを追加することはできますが、Workfrontでユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
+>システム管理者以外のユーザーは、直接 Workfront に追加することをお勧めします。Adobe Admin Console でユーザーを追加することもできますが、Workfront にユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
-Workfrontシステム管理者の作成手順については、 [Adobe Admin Consoleでのシステム管理者の管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Workfront システム管理者の作成手順については、[Adobe Admin Console でのシステム管理者の管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
 
 <!--
 <table style="table-layout:auto"> 
@@ -161,7 +161,7 @@ Workfrontシステム管理者の作成手順については、 [Adobe Admin Con
 
 ## SAML 証明書の更新
 
-Adobe Admin Consoleで SAML 証明書を更新する手順については、 [トラブルシューティングFederated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html?lang=jp)
+Adobe Admin Console で SAML 証明書を更新する手順については、[Federated ID のトラブルシューティング](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html?lang=jp)の「SAML 応答のデジタル署名が ID プロバイダーの証明書で検証されませんでした」の節を参照してください。
 
 <!--
 

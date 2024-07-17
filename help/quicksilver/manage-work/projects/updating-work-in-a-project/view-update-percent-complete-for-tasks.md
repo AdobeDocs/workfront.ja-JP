@@ -32,7 +32,7 @@ ht-degree: 88%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規のライセンス：標準</p> 
    または
    <p>現在のライセンス：ワーク以上</p>
@@ -49,7 +49,7 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
 ## タスクの完了率を更新できるエリア
@@ -86,16 +86,16 @@ ht-degree: 88%
 
   詳しくは、[概要について](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください
 
-* **ホーム**：ホーム領域の概要パネルまたはマイ作業ウィジェットから、タスクまたは問題の完了率を更新できます。
+* **ホーム**: ホーム領域の概要パネルまたはマイ作業ウィジェットから、タスクまたは問題の完了率を更新できます。
 
-詳しくは、を参照してください  [新しいホームの概要](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+詳しくは、[ 新しいホームの概要 ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) を参照してください。
 
 ## タスクの完了率を更新する際の考慮事項
 
 * タスクを「100% 完了」とマークすると、タスクのステータスが「完了」に更新されます。
 * 親タスクには、次のシナリオが存在します。
    * プロジェクトの「概要完了モード」が「自動」に設定され、サブタスクが完了していない場合、親タスクの完了率を 100％に更新できません。
-   * プロジェクトの「概要完了モード」が「手動」に設定され、サブタスクが完了または未完了の場合、親タスクの完了率を 100％に更新できます。
+   * プロジェクトの「概要完了モード」が「手動」に設定され、サブタスクが完了または完了していない場合、親タスクの完了率を 100％に更新できます。
 
   詳しくは、[プロジェクトの編集](../manage-projects/edit-projects.md)を参照してください。
 
@@ -113,7 +113,7 @@ ht-degree: 88%
    >  「完了率」フィールドは、常に概要パネルの上部に表示されます。
 
 
-1. 内でクリック **完了率** フィールドに入力し、0 ～ 100 の数字を入力します
+1. **完了率** フィールド内をクリックし、0～100 の数字を入力します
 
    または
 

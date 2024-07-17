@@ -9,7 +9,7 @@ exl-id: b07474c0-ba41-4382-8374-040f633a47ed
 source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
 workflow-type: tm+mt
 source-wordcount: '310'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 96%
 
 {{cc-install-prereq}}
 
-* [!DNL Workfront] でインスタント通知を有効にしている。インスタント通知の有効化について詳しくは、 [独自の電子メール通知を変更する](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* [!DNL Workfront] でインスタント通知を有効にしている。インスタント通知の有効化について詳しくは、[自身のメール通知の変更](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 ## Adobe Creative Cloud で [!DNL Workfront] 通知を表示および管理
 

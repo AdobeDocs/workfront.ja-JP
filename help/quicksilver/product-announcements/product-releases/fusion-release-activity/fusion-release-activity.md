@@ -24,7 +24,7 @@ Workfront Fusion の使用方法については、[Adobe Workfront Fusion](../..
 
 ## 2024年の Fusion リリース
 
-### 2024年7月
+### 2024 年 7 月
 
 * [Workfront Fusion リリースアクティビティ：2024年7月8日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md)
 

@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: "ビジネスケースの定義：記事インデックス"
+title: 「ビジネスケースの定義：記事インデックス」
 description: ビジネスケースを作成することにより、プロジェクトを正式かつ効率的にリクエストすることができます。以下の記事では、プロジェクトのビジネスケースを定義する必要がある情報について説明します。
 author: Alina
 feature: Work Management
@@ -10,7 +10,7 @@ exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '136'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 

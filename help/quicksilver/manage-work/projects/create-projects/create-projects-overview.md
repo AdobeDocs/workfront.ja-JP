@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: "プロジェクトの作成：記事インデックス"
+title: 「プロジェクトの作成：記事インデックス」
 description: プロジェクトの作成について詳しくは、以下の記事を参照してください。
 author: Alina
 feature: Work Management
@@ -11,7 +11,7 @@ exl-id: a49c9157-05d8-41a6-93c3-068d835b52e3
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '44'
-ht-degree: 81%
+ht-degree: 100%
 
 ---
 

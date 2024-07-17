@@ -10,7 +10,7 @@ exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
 source-git-commit: e4de185f172b173dcc3ad966afa69ffb3bc479eb
 workflow-type: tm+mt
 source-wordcount: '706'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 94%
 
 * プロジェクト所有者は、プロジェクトの状況を手動で設定するか、自動で設定するかを決定できます。プロジェクトの状況は、以下の方法で設定できます。
 
-   * プロジェクトの「管理」へのアクセス権を持つユーザー、およびプロジェクトの「条件タイプ」が「手動」に設定されている場合に、手動でおこなう。
-   * プロジェクトの「条件の種類」が「進行状況ステータス」に設定されている場合に、Adobe Workfrontによって自動的に表示されます。 プロジェクトの進捗ステータスは、プロジェクト上のタスクの進捗状況によって決まります。プロジェクトの進捗ステータスについて詳しくは、[プロジェクトの進捗ステータスの概要](../../../manage-work/projects/planning-a-project/project-progress-status.md)を参照してください。
+   * 手動。プロジェクトの管理へのアクセス権を持つユーザー、およびプロジェクトの状況タイプが手動に設定されている場合。
+   * 自動。Adobe Workfront による。プロジェクトの状況タイプが「進捗ステータス」に設定されている場合。プロジェクトの進捗ステータスは、プロジェクト上のタスクの進捗状況によって決まります。プロジェクトの進捗ステータスについて詳しくは、[プロジェクトの進捗ステータスの概要](../../../manage-work/projects/planning-a-project/project-progress-status.md)を参照してください。
 
   プロジェクトの状況タイプをアップデートする方法について詳しくは、[プロジェクトの状況タイプを設定](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md)を参照してください。
 

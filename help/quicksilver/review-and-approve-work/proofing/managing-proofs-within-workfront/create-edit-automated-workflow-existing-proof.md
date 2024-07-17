@@ -7,7 +7,7 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
 
@@ -32,7 +32,7 @@ ht-degree: 100%
    <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
@@ -116,10 +116,10 @@ ht-degree: 100%
        <tbody>
         <tr>
          <td role="rowheader"><strong>期限オプション</strong> </td>
-         <td><p>ステージの期限を設定するには、<strong>期限オプション</strong>ドロップダウンリストでオプションをクリックします。次に、「<strong>期限</strong>」で次のいずれかの操作を行います。</p>
+         <td><p>ステージの期限を設定するには、<strong>期限オプション</strong>ドロップダウンリストでオプションをクリックします。次に、「<strong>期限</strong>」で、次のいずれかの操作を行います。</p>
           <ul>
-           <li>「<strong>特定の日付を設定</strong>」を選択した場合は、期限の日時を選択します。</li>
-           <li>「<strong>ステージがアクティブになった日から計算</strong>」を選択した場合は、ステージのアクティベーション日に追加する営業日数を選択することで期限を決定します。</li>
+           <li>「<strong>特定の日付を設定</strong>」を選択した場合：期限の日時を選択します。</li>
+           <li>「<strong>ステージのアクティベーション日から計算</strong>」を選択した場合：ステージのアクティベーション日に追加する営業日数を選択して、期限を決定します。</li>
           </ul></td>
         </tr>
         <tr>

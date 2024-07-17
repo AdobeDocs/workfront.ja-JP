@@ -7,7 +7,7 @@ title: スタンドアロンの Workfront Proof から Workfront の統合プル
 description: 組織がスタンドアロンバージョンの Workfront Proof から、Workfront Proof Premium と Workfront が統合されている Workfront Pro プランに変更した場合、一部のプルーフ機能は使用できません。
 author: Courtney
 source-git-commit: 49d4de3455fc1156efc8a88e8d2bee329c375279
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 100%
 

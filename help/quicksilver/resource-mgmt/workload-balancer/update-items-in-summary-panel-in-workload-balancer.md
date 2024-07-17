@@ -9,7 +9,7 @@ exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 source-git-commit: d19b817aabf169e1b8f38bf63f6ca5cc3c0de308
 workflow-type: tm+mt
 source-wordcount: '448'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 91%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン、リソース領域でワークロードバランサーを使用する場合</p>
    <p>ワーク、チームまたはプロジェクトのワークロードバランサーを使用する場合</p> 
  </p> </td> 
@@ -47,7 +47,7 @@ ht-degree: 91%
      <li> <p>プロジェクト</p> </li> 
      <li> <p>タスク</p> </li> 
      <li> <p>イシュー</p> </li> 
-    </ul> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、「<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>」を参照してください。</p> </td> 
+    </ul> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -74,7 +74,7 @@ ht-degree: 91%
 
    または
 
-   クリック **概要を開く** アイコン ![](assets/summary-panel-icon.png)をクリックし、タスクまたはイシューのバーをクリックして、サマリパネルを開きます。
+   **概要を開く**&#x200B;アイコン ![](assets/summary-panel-icon.png) をクリックし、タスクまたはイシューのバーをクリックして、概要パネルを開きます。
 
    または
 
@@ -84,12 +84,12 @@ ht-degree: 91%
 
    <div class="preview">
 
-   プレビュー環境の Summary パネルの例：
+   プレビュー環境での概要パネルの例：
    ![概要パネル](assets/summary-panel-task-wb-new-comments.png)
 
    </div>
 
-   実稼動環境の Summary パネルの例：
+   実稼働環境での概要パネルの例：
    ![概要パネル](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. 作業項目の多数のフィールドを変更したり、更新を入力したり、ここから Workfront の他のエリアに移動してドキュメントや他の情報を作業項目に追加したりします。

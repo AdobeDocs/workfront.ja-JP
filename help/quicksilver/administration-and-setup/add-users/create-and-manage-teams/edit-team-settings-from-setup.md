@@ -6,7 +6,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 648a36ce-5793-472f-9fee-9dedf71991ef
 source-git-commit: 7fa4791e19a84d7215e341e8bbde8dd4d4d8ccc6
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 100%
 
@@ -37,7 +37,7 @@ Adobe Workfront の管理者は、設定領域からチームの設定を編集�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 

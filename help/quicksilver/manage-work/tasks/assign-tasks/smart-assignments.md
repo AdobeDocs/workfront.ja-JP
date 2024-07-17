@@ -22,7 +22,7 @@ ht-degree: 95%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 タスクとイシューの割り当てを管理する場合、スマート割り当てを使用すると、作業を完了するのに最適なユーザーを特定できます。スマート割り当ては、作業アイテムをリソースに割り当てる際に、その作業に最も適したリソースを決定するアルゴリズムに基づいて Adobe Workfront が示す提案です。スマート割り当てでは、ユーザー、担当業務、チームを指定できます。
 
@@ -124,7 +124,7 @@ ht-degree: 95%
 
   例えば、Rick が今日早くに類似のタスクに割り当てられ、Jennifer が 2 日前に類似のタスクに割り当てられた場合、Rick が最初に表示されます。
 
-* このフェーズで特定された割り当ては、    **提案された割り当て**  タスクの「割り当て」フィールドのセクション
+* このフェーズで特定された割り当ては、    タスクの「割り当て」フィールドの **提案された割り当て** セクション。
 
 * この計算を使用して一致がない場合、スマート割り当ての第 2 フェーズが開始し、別のアルゴリズムを使用して計算されます。
 
@@ -134,7 +134,7 @@ ht-degree: 95%
 
 詳しくは、この記事の[タスクとイシューのスマート割り当て条件](#smart-assignments-criteria-for-tasks-and-issues)を参照してください。
 
-このフェーズで特定された割り当ては、 **ユーザーとチーム**, **担当業務の割り当て**、および **評価カードの役割**  「割り当て」フィールドのセクション 評価カードについて詳しくは、を参照してください。 [評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+このフェーズで識別された割り当ては、「割り当て」フィールドの **ユーザーとチーム**、**担当業務の割り当て**、および **評価カードの役割** セクションに一覧表示されます。 評価カードについて詳しくは、[ 評価カードの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) を参照してください。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### タスクとイシューのスマート割り当て条件
 

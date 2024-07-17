@@ -18,26 +18,26 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 >[!BEGINTABS]
 
->[!TAB 最新リリース]
+>[!TAB  最新リリース ]
 
 * [2024年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
->[!TAB 2024 年リリース]
+>[!TAB 2024 リリース ]
 
 * [2024 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
 * [2024年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [2024年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
->[!TAB ベタス]
+>[!TAB  ベタス ]
 
 * [キャンバスダッシュボードの概要](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 * [Workfrontと Frame.io の統合](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
->[!TAB 既知の問題]
+>[!TAB  既知の問題 ]
 
-* [既知の問題](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
+* [ 既知の問題 ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/overview)
 
 
 >[!ENDTABS]
@@ -88,15 +88,15 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 ### 目次と検索バーの使用
 
 * **目次**：目次から始めて、使用可能なトピックの概要を取得し、セクションを展開して特定のトピックに絞り込みます。
-* **検索バー**：検索バーを使用してドキュメントを検索します。 イシューまたはトピックに関連する特定の用語を入力します。 「プロジェクト管理」などの一般的な用語の代わりに、「プロジェクトタイムラインの設定」や「タスクの依存関係」を使用します。
+* **検索バー**：検索バーを使用して、ドキュメントを検索します。 イシューまたはトピックに関連する特定の用語を入力します。 「プロジェクト管理」などの一般的な用語の代わりに、「プロジェクトタイムラインの設定」や「タスクの依存関係」を使用します。
 
 ![](assets/exl-site-nav.png)
 
 ### ラーニングとトレーニングのセクションを検索
 
-* **トレーニング資料**：に移動します。 [Workfront トレーニング](https://experienceleague.adobe.com/en/browse/workfront) Workfrontの機能と設定をより深く理解できるように設計されたトレーニングビデオと記事のライブラリのページ。 また、次の URL から有料トレーニング資料にアクセスできます。 [learning.adobe.com](https://learning.adobe.com/).
-* **コース**：検索 [構造化された学習コース](https://experienceleague.adobe.com/home?Solution=Workfront#courses) このガイドに従って、様々なWorkfront機能を論理的な順序で使用できます。
+* **トレーニング資料**: [Workfront トレーニング ](https://experienceleague.adobe.com/en/browse/workfront) ページに移動すると、Workfrontの機能と設定をより深く理解するためのトレーニングビデオと記事のライブラリが表示されます。 また、[learning.adobe.com](https://learning.adobe.com/) で有料のトレーニング資料にアクセスすることもできます。
+* **コース**：様々なWorkfront機能を論理的な順序で使用する方法を説明する [ 構造化されたラーニングコース ](https://experienceleague.adobe.com/home?Solution=Workfront#courses) を見つけます。
 
 ### コミュニティフォーラムで回答を検索
 
-* **質問する**：ドキュメントが質問に答えない場合は、に投稿してみてください [Workfront コミュニティフォーラム](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) 他のユーザーや専門家が支援を提供できる場所。
+* **質問する**: ドキュメントが質問に答えない場合は、[Workfront コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) に投稿してみてください。このフォーラムでは、他のユーザーやエキスパートからサポートを提供しています。

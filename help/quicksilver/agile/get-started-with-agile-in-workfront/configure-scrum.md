@@ -9,26 +9,26 @@ exl-id: 7509608e-96af-4601-80d4-791ee29046da
 source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
 workflow-type: tm+mt
 source-wordcount: '1793'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
 # [!UICONTROL スクラム]の設定
 
-でアジャイルチームを作成できます。 [!DNL Adobe Workfront] の説明に従って、 [アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). 機敏なチームを作成する際に、チームが作業を完了するために使用する方法を選択できます。 次のオプションから選択できます。
+[アジャイルチームの作成](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md)で説明しているように、[!DNL Adobe Workfront] でアジャイルチームを作成できます。アジャイルチームを作成する際に、チームが作業を完了するために使用する方法を選択できます。以下のオプションから選択できます。
 
 * スクラム
 * かんばん
 
-この記事では、スクラムチームの設定を行う方法について説明します。 アジャイルチームを作成し、スクラム手法を選択した後、この記事を参照して、次の設定を更新できます。
+この記事では、スクラムチームの設定を行う方法について説明します。アジャイルチームを作成し、スクラム手法を選択したら、この記事を参照して次の設定を更新できます。
 
-* ストーリーをポイント単位で推定するか、時間単位で推定するか
-* 繰り返しとプロジェクトのアジャイルストーリーボードのステータス列
-* アジャイルストーリーボード上のストーリーカードに表示する追加のフィールド
-* アジャイルストーリーボード上のストーリーにカラーインジケーターを使用する方法
-* 作業項目を反復に追加する際の日付の適用方法
+* ストーリーをポイント単位で見積もるか、時間単位で見積もるか
+* イテレーションとプロジェクトのアジャイルストーリーボードのステータス列
+* アジャイルストーリーボードでストーリーカードに表示するその他のフィールド
+* アジャイルストーリーボードのストーリーにカラーインジケーターを使用する方法
+* 作業アイテムをイテレーションに追加するときに日付を適用する方法
 
-かんばんチームの構成の詳細は、「 [かんばんの構成](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md).
+かんばんチームの設定について詳しくは、[かんばんの設定](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md)を参照してください。
 
 ## アクセス要件
 
@@ -47,14 +47,14 @@ ht-degree: 91%
 
 <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>新規： [!UICONTROL Standard]</p> 
+   <td> <p>新規：[!UICONTROL Standard]</p> 
    または
-   <p>現在： [!UICONTROL Work] 以降</p> </td> 
+   <p>現在：[!UICONTROL Work] 以上</p> </td> 
   </tr>
 
 <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>チームへのアクセスを編集</p>  </td> 
+   <td> <p>チームに対するアクセス権限の編集</p>  </td> 
   </tr>
 
 </tbody> 

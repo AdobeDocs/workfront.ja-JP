@@ -9,8 +9,8 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '443'
+workflow-type: tm+mt
+source-wordcount: '445'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 100%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
@@ -95,7 +95,7 @@ ht-degree: 100%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"> <p>リスト内の情報の表示を変更</p> </td> 
-      <td> <p>リストの上の右上隅にある<strong>フィルター</strong>を使用して、指定した条件に基づいて表示する内容を定義します。<strong>表示</strong>を使用して、列として表示するフィールドを定義します。<strong>グループ化</strong>を使用して、項目をカテゴリにグループ化します。</p> </td> 
+      <td> <p>リストの上の右上隅にある<strong>フィルター</strong>を使用して、指定した条件に基づいて表示する内容を定義します。<strong>ビュー</strong>を使用して、列として表示するフィールドを定義します。<strong>グループ化</strong>を使用して、項目をカテゴリにグループ化します。</p> </td> 
      </tr> 
     </tbody> 
    </table>

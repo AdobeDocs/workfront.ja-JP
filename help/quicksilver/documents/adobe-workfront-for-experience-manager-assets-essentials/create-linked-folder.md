@@ -10,7 +10,7 @@ exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
 source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
 workflow-type: tm+mt
 source-wordcount: '383'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Experience Manager Assets または Assets Essentials にリンクされたフ�
   <tr>
    <td><strong>アクセスレベル設定</strong>
    </td>
-   <td>統合を設定するには、Workfront管理者である必要があります。 設定が完了すると、プランライセンスを持つユーザーは、個々のプロジェクトにリンクされたフォルダを設定できます。
+   <td>Experience Manager 統合を設定するには、Workfront 管理者である必要があります。設定が完了すると、プランライセンスを持つユーザーは、個々のプロジェクトにリンクされたフォルダーを設定できます。
    </td>
   </tr>
 </table>

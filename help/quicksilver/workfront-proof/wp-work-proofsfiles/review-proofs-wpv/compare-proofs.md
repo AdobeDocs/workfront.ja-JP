@@ -8,8 +8,8 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
 source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
-workflow-type: ht
-source-wordcount: '976'
+workflow-type: tm+mt
+source-wordcount: '945'
 ht-degree: 100%
 
 ---
@@ -96,7 +96,7 @@ ht-degree: 100%
 
 1. 次のいずれかの方法でプルーフの比較を開始します。
 
-   * 同じプルーフの 2 つのバージョンを比較する（この記事の[プルーフバージョンを比較](#compare-proof-versions)を参照）
+   * 同じプルーフの 2 つのバージョンを比較する（この記事の[プルーフバージョンの比較](#compare-proof-versions)を参照）。
    * 2 つの別個のプルーフを比較する（この記事の[別個のプルーフの比較](#compare-separate-proofs)を参照）
 
 1. **[!UICONTROL 自動比較]**&#x200B;アイコンをクリックします。

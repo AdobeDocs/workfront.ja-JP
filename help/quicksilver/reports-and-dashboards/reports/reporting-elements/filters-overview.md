@@ -10,7 +10,7 @@ exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
 source-git-commit: 9add9857213bb3eca5fbc3bbe3f4e1bb9b5020fa
 workflow-type: tm+mt
 source-wordcount: '1830'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -51,7 +51,7 @@ Workfront で使用できるフィルターのタイプは以下のとおりで�
 
 ## Workfront の一時的なフィルター
 
-クイックフィルターを使用すると、キーワードを使用して画面上の項目を検索できます。 ページを更新すると、一時的なクイックフィルターがクリアされます。一時的なフィルターを保存して再利用することはできません。
+クイックフィルターでは、キーワードを使用して画面上の項目を検索できます。ページを更新すると、一時的なクイックフィルターがクリアされます。一時的なフィルターを保存して再利用することはできません。
 
 クイックフィルターについて詳しくは、[クイックフィルターをリストに適用](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)を参照してください。
 
@@ -59,7 +59,7 @@ Workfront で使用できるフィルターのタイプは以下のとおりで�
 
 自分、他のユーザー、または Workfront がオブジェクトのリストやレポートで作成した永続的なフィルターを使用できます。
 
-Workfrontのオブジェクトと、レポートの作成対象について詳しくは、 [Adobe Workfrontオブジェクトの概要](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Workfront のオブジェクトと、レポートの作成対象になるオブジェクトについては、[Adobe Workfront のオブジェクトの概要](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
 
 リストとレポートについて詳しくは、次の記事を参照してください。
 
@@ -132,7 +132,7 @@ Workfront の次のエリアで、ビルトインフィルターを使用する�
 
 ## リストとレポートのフィルターの概要
 
-リストやレポートを使用する場合、次のタイプのフィルターを使用して、画面上の情報をフィルタリングできます。
+リストやレポートを操作する場合、次のタイプのフィルターを使用して、画面上の情報をフィルタリングできます。
 
 * 組み込みフィルター
 * 最初から作成した新規フィルター
@@ -144,9 +144,9 @@ Workfront の次のエリアで、ビルトインフィルターを使用する�
 >レポートでフィルターを作成または編集する場合、新しいフィルターをレポートのデフォルトのフィルターにするには、レポートを編集する必要があります。フィルターのみを編集しても、Report Builder 以外では、レポートのデフォルトのフィルターは更新されません。\
 >レポートの編集について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)の記事を参照してください。
 
-Workfrontリストについて詳しくは、 [Adobe Workfrontでのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+Workfront のリストについては、[Adobe Workfront のリストの基本を学ぶ](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)を参照してください。
 
-Workfrontレポートについて詳しくは、 [レポートの概要](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+Workfront のレポートについては、[レポートの基本を学ぶ](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)を参照してください。
 
 リストまたはレポートでフィルターを使用する際は、次の点に注意してください。
 
@@ -156,11 +156,11 @@ Workfrontレポートについて詳しくは、 [レポートの概要](../../.
 
   詳しくは、[フィルター、ビュー、およびグループ化へのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)を参照してください。
 
-* フィルターに対する権限のレベルによって、フィルターの保存方法が決まります。最初にフィルターを作成した場合は、変更を保存できます。 それ以外の場合は、変更するフィルターの新しいバージョンを保存するよう求められます。
+* フィルターに対する権限のレベルによって、フィルターの保存方法が決まります。もともとフィルターを作成してあった場合は、変更を保存できます。そうでない場合は、変更中のフィルターの新しいバージョンを保存するよう求められます。
 
   >[!TIP]
   >
-  >他のユーザーと共有しているフィルターに変更を加えると、その変更は他のユーザーにも影響を与えることに注意してください。
+  >他のユーザーと共有しているフィルターに変更を加えた場合、変更は他のユーザーにも影響することに留意してください。
 
 * 自分と共有されているフィルターは、そのフィルターを共有したユーザーによって管理アクセス権が付与された場合にのみカスタマイズできます。フィルターの共有について詳しくは、[フィルター、ビューまたはグループ化の共有](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)を参照してください。
 
@@ -184,7 +184,7 @@ Workfrontレポートについて詳しくは、 [レポートの概要](../../.
  <tbody> 
   <tr> 
    <td><strong>オブジェクト</strong></td> 
-   <td> <p>フィルターの Workfront データベースオブジェクト。Workfrontでレポート可能なオブジェクトについて詳しくは、 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfrontオブジェクトの概要</a>. </p> <p>例えば、プロジェクト、タスク、タスク、タスク、ユーザー、ドキュメントをフィルターの対象にすることができます。 </p> </td> 
+   <td> <p>フィルターの Workfront データベースオブジェクト。Workfront でレポート可能なオブジェクトについては、<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront のオブジェクトの概要</a>を参照してください。 </p> <p>例えば、プロジェクト、タスク、イシュー、ユーザー、ドキュメントをフィルターのオブジェクトにすることができます。 </p> </td> 
   </tr> 
   <tr> 
    <td><strong>フィールド</strong></td> 
@@ -244,13 +244,13 @@ Workfront には、各フィルターステートメントを結び付ける 2 �
 
 ## テキストモードインターフェイスを使用したフィルターの作成
 
-フィルターは、テキストモードインターフェイスを使用して作成できます。標準またはレガシーのビルダーインターフェイスを使用して、ほとんどのフィルターステートメントを作成し、最後の手順としてのみフィルターのコードを編集することをお勧めします。 テキストモードのインターフェイスだけを使用して、最初からフィルターを作成することはお勧めしません。
+フィルターは、テキストモードインターフェイスを使用して作成できます。標準または従来のビルダーインターフェイスを使用して、ほとんどのフィルターステートメントを作成し、最後の手順としてのみフィルターのコードを編集することをお勧めします。テキストモードのインターフェイスだけを使用して、最初からフィルターを作成することはお勧めしません。
 
 テキストモードのインターフェイスを使用したフィルターの作成について詳しくは、[テキストモードを使用したフィルターの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)を参照してください。
 
 ## 複雑なフィールドのフィルターの作成
 
-複雑なフィールドに対してフィルターを作成できます。例えば、値にコンマが含まれるフィールドや、値が複数選択カスタムフィールドのフィールドなどです。
+値にコンマが含まれるフィールドや、値が複数選択のカスタムフィールドであるフィールドなど、複雑なフィールドのフィルターを作成できます。
 
 ### 値にコンマが含まれるフィールドに対するフィルターの作成 {#create-filters-for-fields-whose-values-contain-commas}
 
@@ -272,13 +272,13 @@ Workfront には、各フィルターステートメントを結び付ける 2 �
 
 `DE:check_Mod=in`
 
-この構文は、値が 1 つのオプションとして同時に読み取られるようにします。スラッシュを省略した場合、Workfrontはコンマを OR として読み取ります。この場合、最初または 2 番目のオプションを持つプロジェクトのみが選択されます。
+この構文は、値が 1 つのオプションとして同時に読み取られるようにします。スラッシュを省略した場合、Workfront はコンマを OR として読み取ります。この場合、1 つ目または 2 つ目のオプションを持つプロジェクトのみが選択されます。
 
 この構文は、プロンプトを構築する際にも適用されます。プロンプトの使用について詳しくは、[レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)を参照してください。
 
 ### 複数選択カスタムフィールドの値を持つフィルターの作成 {#create-filters-for-whose-values-are-a-multi-select-custom-field}
 
-複数選択のカスタムフィールドに関するレポートを作成できます。例えば、チェックボックスのフィールドについてレポートできます。
+複数選択のカスタムフィールドに関するレポートを作成できます。例えば、チェックボックスであるフィールドに関するレポートを作成できます。
 
 ただし、選択したオプションの 1 つのみを含む結果を除外する場合、そのオプションを含むオブジェクトおよびその他のオプションが選択されているオブジェクトがレポートに表示されます。
 

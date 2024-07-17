@@ -26,9 +26,9 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->現在専用のコネクタを持たないAdobe製品に接続する場合は、Adobe Authenticatorモジュールを使用することをお勧めします。
+>現在専用コネクタがないAdobe製品に接続する場合は、Adobe Authenticator モジュールを使用することをお勧めします。
 >
->詳しくは、 [Adobe Authenticatorモジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+>詳しくは、[Adobe Authenticator モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)を参照してください。
 
 ## アクセス要件
 

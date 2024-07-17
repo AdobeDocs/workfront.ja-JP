@@ -9,8 +9,8 @@ feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '1265'
+workflow-type: tm+mt
+source-wordcount: '1262'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ Adobe Workfront 管理者または Workfront プルーフ管理者は、組織�
    <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Premium または選択</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 

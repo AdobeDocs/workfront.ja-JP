@@ -12,7 +12,7 @@ exl-id: 30a41ae9-9755-4c7b-9e3b-d4a8b0ad7ee8
 source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '453'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 86%
 
 ## Workfront のプルーフ
 
-現在、Workfrontでの校正に関する 3 つのプランオプションがあります。
+現在、Workfront でのプルーフに関する 3 つのプランオプションがあります。
 
-* **ニューWorkfrontプラン**：新しいWorkfrontプランのすべてのライセンスに対して、校正が自動的に含まれます。
-* **現在のWorkfront Pro+プラン**:Pro、Business、Enterprise Workfrontの各プランをご利用の場合は、Work and Plan ライセンスに対する校正が自動的に含まれます。
-* **従来のWorkfront Premium プラン**：このオプションは、従来のWorkfrontプラン (Select、Enterprise、Premium) を対象としています。 このプランのライセンスには、プルーフ機能が自動的には含まれません。ユーザープロファイル内の特定のユーザーに、プルーフのアクセス権を付与する必要があります。
+* **新しい Workfront プラン**：新しい Workfront プランのすべてのライセンスには、プルーフが自動的に含まれます。
+* **現在の Workfront Pro とプラン**：Workfront の Pro、Business、または Enterprise の各プランをご利用の場合、ワークおよびプランのライセンスのプルーフが自動的に含まれます。
+* **従来の Workfront Premium プラン**：このオプションは、従来の Workfront プラン（Select、Enterprise、Premium）を対象としています。このプランのライセンスには、プルーフ機能が自動的には含まれません。ユーザープロファイル内の特定のユーザーに、プルーフのアクセス権を付与する必要があります。
 
   Workfront の管理者は、設定／システム／ライセンスに移動して、インスタンスがどのプランにあるかを確認できます。
 

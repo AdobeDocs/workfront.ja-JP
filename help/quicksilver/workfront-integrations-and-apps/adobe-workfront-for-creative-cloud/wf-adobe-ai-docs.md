@@ -9,7 +9,7 @@ exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
 source-git-commit: e3bc8ca88dda16ac792e6de8055296105e6ff0e0
 workflow-type: tm+mt
 source-wordcount: '311'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 
 ## 前提条件
 
-* をインストールする必要があります [!DNL Adobe Workfront for design and video] 次の場所からドキュメントをアップロードする前に [!DNL Illustrator].
+* [!DNL Illustrator] からドキュメントをアップロードするには、まず [!DNL Adobe Workfront for design and video] をインストールする必要があります。
 
   手順については、[インストール [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)を参照してください。
 

@@ -10,7 +10,7 @@ exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
 source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
 workflow-type: tm+mt
 source-wordcount: '340'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,8 +48,8 @@ SPI について詳しくは、[スケジュール効率指数（SPI）の計算
 
 CSI には次の 3 つの値が考えられます。
 
-* 1 =全体的な計画に従う
-* \>1 =予算スケジュールの組み合わせの下
+* 1 = 全体的に計画どおり
+* \>1 = 予算とスケジュールの組み合わせ以内
 * &lt;1 = 予算とスケジュールの組み合わせを超過
 
 ![](assets/csi-highlighted.png)

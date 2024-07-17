@@ -11,7 +11,7 @@ exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '775'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
         <ol> 
          <li value="1"> フィルター、表示、またはグループ化リストの下部にある<strong>フィルターの追加</strong>、<strong>表示の追加</strong>、または<strong>グループ化の追加</strong>をクリックします。表示されるボックスに、組織用に以前に作成した既存のカスタムリストコントロールの名前を入力し、表示されたら名前をクリックします。</li> 
          <li value="2"> 新しいカスタムリストコントロールをレイアウトテンプレートのデフォルトのフィルター、表示、またはグループとして設定する場合は、「<strong>デフォルトとして設定</strong>」をクリックします。 </li> 
-         <li value="3"> <p>完了したら「<strong>追加</strong>」をクリックします。</p> <p><b>メモ</b>: <p>ユーザーは、独自のリストにカスタムリストコントロールを追加できます。Adobe Workfront 管理者がレイアウトテンプレートにカスタムリストコントロールを追加すると、リストコントロールが追加され、ユーザーのリストコントロールはパネルの下部に移動します。置き換えは行われません。</p> <p>カスタムリストコントロールを持つ新しいレイアウトテンプレートにユーザーを割り当てる場合にも、これが当てはまります。 </p> <p>リストコントロールのカスタマイズについて詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">フィルターの概要</a>, <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Adobe Workfrontの概要を表示</a>、および <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Adobe Workfrontでのグループ化の概要</a>.</p> </p> </li> 
+         <li value="3"> <p>完了したら「<strong>追加</strong>」をクリックします。</p> <p><b>メモ</b>: <p>ユーザーは、独自のリストにカスタムリストコントロールを追加できます。Adobe Workfront 管理者がレイアウトテンプレートにカスタムリストコントロールを追加すると、リストコントロールが追加され、ユーザーのリストコントロールはパネルの下部に移動します。置き換えは行われません。</p> <p>カスタムリストコントロールを持つ新しいレイアウトテンプレートにユーザーを割り当てる場合にも、これが当てはまります。 </p> <p>リストコントロールのカスタマイズについて詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">フィルターの概要</a>、<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Adobe Workfront での表示の概要</a>および <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Adobe Workfront でのグループ化の概要</a>を参照してください。</p> </p> </li> 
         </ol> </p> </td> 
      </tr> 
     </tbody> 

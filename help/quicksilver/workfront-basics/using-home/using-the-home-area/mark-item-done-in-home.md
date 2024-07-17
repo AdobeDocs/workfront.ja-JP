@@ -7,7 +7,7 @@ author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
 source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 100%
 

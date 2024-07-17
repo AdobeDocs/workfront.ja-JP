@@ -9,7 +9,7 @@ exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,4 +32,4 @@ ht-degree: 96%
 
 モバイルアプリでボードコレクションもサポートされるようになりました。モバイルユーザーはモバイルボードリストから、デスクトップバージョンでアクセス権のあるコレクションを表示できます。
 
-詳しくは、 [[!DNL Adobe Workfront] [!UICONTROL ボード] モバイル用](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
+詳しくは、モバイル用 [[!DNL Adobe Workfront] [!UICONTROL  ボード]](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md)を参照してください。

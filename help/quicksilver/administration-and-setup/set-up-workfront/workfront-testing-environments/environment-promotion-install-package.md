@@ -21,7 +21,7 @@ ht-degree: 8%
 
 パッケージを作成したら、別の環境にインストールできます。
 
-オブジェクトをコピーする環境にパッケージをインストールする必要があります **対象：**. 例えば、カスタム更新サンドボックス環境でプロジェクトを設定し、実稼動環境に昇格する場合は、パッケージを実稼動環境にインストールする必要があります。
+オブジェクトのコピー先となる環境にパッケージをインストールする必要があります **コピー先**。 例えば、カスタム更新サンドボックス環境でプロジェクトを設定し、実稼動環境に昇格する場合は、パッケージを実稼動環境にインストールする必要があります。
 
 >[!IMPORTANT]
 >
@@ -58,7 +58,7 @@ ht-degree: 8%
 
 環境プロモーションパッケージは、インストールする前に作成する必要があります。
 
-手順については、を参照してください [環境プロモーションパッケージを作成または編集](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
+手順については、[ 環境プロモーションパッケージの作成または編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md) を参照してください。
 
 ## インストールのパッケージステータス
 
@@ -68,29 +68,29 @@ ht-degree: 8%
 
 パッケージのステータスを編集するには：
 
-1. の説明に従って、パッケージを選択します  [既存のパッケージの編集またはアセンブリ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) 環境プロモーションパッケージの作成と編集の記事で説明します。
-1. クリック **パッケージを編集**.
-1. クリック **ステータス**.
+1. 環境プロモーションパッケージの作成と編集の記事の [ 既存のパッケージの編集またはアセンブリ ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) の説明に従って、パッケージを選択します。
+1. **パッケージを編集** をクリックします。
+1. **ステータス** をクリックします。
 1. ドロップダウンリストから目的のステータスを選択します。
 
-ステータスについて詳しくは、以下を参照してください [環境のプロモーションステータス](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) （Workfront環境間でのオブジェクトの移動の概要）の記事で説明します。
+ステータスについて詳しくは、「Workfront環境間でのオブジェクトの移動の概要」の [ 環境のプロモーションステータス ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) を参照してください。
 
 ## パッケージのインストール
 
 >[!NOTE]
 >
->* パッケージをインストールするには、パッケージをインストールする環境にログインする必要があります。 これは、オブジェクトをコピーする環境です **対象：**.
+>* パッケージをインストールするには、パッケージをインストールする環境にログインする必要があります。 これは、オブジェクトのコピー先 **環境** です。
 
 1. パッケージをインストールする環境に移動します。
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
-1. を選択 **システム** 左側のナビゲーションで、を選択します。 **環境促進**.
+1. 左側のナビゲーションで「**システム**」を選択し、「**環境のプロモーション**」を選択します。
 1. 表示されたリストからパッケージを選択します。
 1. 衝突が発生したオブジェクトごとに、衝突を解決する方法を選択します。
 
    競合を解決するには、オブジェクト タイプの横にあるドロップダウン矢印をクリックし、実行するアクションを選択します。
 
-   詳しくは、を参照してください [衝突](#collisions) この記事の
-1. 新しい環境にパッケージをデプロイするには、をクリックします。 **デプロイ** 画面の右上に表示されます。
+   詳細については、この記事の [ 衝突 ](#collisions) を参照してください
+1. パッケージを新しい環境にデプロイするには、画面の右上にある **デプロイ** をクリックします。
 
 ## 衝突
 
@@ -106,18 +106,18 @@ ht-degree: 8%
 
 競合を解決するには、[ 展開アクション ] 列でアクションを選択するか、既に表示されている既定のアクションを使用します。
 
-* **新しい名前で作成**：ターゲット環境で新しいオブジェクトを作成します。 オブジェクトがターゲット環境に存在する場合は、新しい名前で新しいオブジェクトを作成できます。 ターゲット環境にオブジェクトが存在しない場合は、新しい名前、またはオブジェクトのパッケージ内にある名前でオブジェクトを作成できます。
-* **既存のものを使用**：パッケージ内のオブジェクトはインストールされておらず、ターゲット環境に既に存在しているオブジェクトは変更されません。
-* **上書き**：パッケージ内のオブジェクトは、ターゲット環境の既存のオブジェクトを置き換えます。
+* **新しい名前で作成**：ターゲット環境に新しいオブジェクトを作成します。 オブジェクトがターゲット環境に存在する場合は、新しい名前で新しいオブジェクトを作成できます。 ターゲット環境にオブジェクトが存在しない場合は、新しい名前、またはオブジェクトのパッケージ内にある名前でオブジェクトを作成できます。
+* **既存のを使用**: パッケージ内のオブジェクトはインストールされておらず、ターゲット環境に既に存在するオブジェクトは変更されません。
+* **上書き**: パッケージ内のオブジェクトは、ターゲット環境の既存のオブジェクトを置き換えます。
 
   衝突が検出されない場合でも、上書きするオブジェクトを選択することもできます。
 
-  上書きが親オブジェクトと子オブジェクトに与える影響について詳しくは、を参照してください。 [親オブジェクトと子オブジェクトの上書き](#overwriting-parent-and-child-objects) この記事の内容です。
+  上書きが親オブジェクトと子オブジェクトにどのように影響するかについて詳しくは、この記事の [ 親オブジェクトと子オブジェクトの上書き ](#overwriting-parent-and-child-objects) を参照してください。
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
 
-デフォルト値： `Create new` オブジェクトがターゲット環境に存在しない場合、および `Use existing` オブジェクトがターゲット環境に存在する場合。 をクリックすると、デフォルトのマッピングに戻すことができます。 **デフォルトのマッピングにリセット**.
+デフォルト値は、オブジェクトがターゲット環境に存在しない場合は `Create new`、オブジェクトがターゲット環境に存在する場合は `Use existing` です。 「デフォルトのマッピングにリセット **をクリックすると、デフォルトのマッピングに戻すこ** ができます。
 
 ## 親オブジェクトと子オブジェクトの上書き
 
@@ -131,8 +131,8 @@ ht-degree: 8%
 
 | 親オブジェクト | 子オブジェクト |
 |---|---|
-| プロジェクト | タスク<br>QueueDef （キュー定義）<br>RoutingRule |
-| テンプレート | TemplateTask<br>QueueDef （キュー定義）<br>RoutingRule |
+| プロジェクト | Task<br>QueueDef （キュー定義） <br>RoutingRule |
+| テンプレート | TemplateTask<br>QueueDef （キュー定義） <br>RoutingRule |
 | パラメーター（カスタムフォームフィールド） | ParameterOption （カスタムフォームフィールドオプション） |
 | CalendarInfo | CalendarSection |
 | QueueDef （キュー定義） | QueueTopicGroup<br>QueueTopic |

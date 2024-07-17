@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ## ドキュメント概要からのレビューまたは承認リクエストの作成
 
-1. Frame.io が接続されているプロジェクト、タスクまたはイシューに移動し、選択します **ドキュメント**.
+1. Frame.io が接続されているプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 
    >[!TIP]
    >
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
 
 1. （オプション） **バージョン** ドロップダウンメニューで、承認を作成するアセットのバージョンを選択します。 デフォルトでは、最新バージョンが選択されています。
 
-1. にスクロール ダウンします。 **承認** セクションで、 **追加**.
+1. 「**承認**」セクションまでスクロールし、「**追加**」をクリックします。
 
 ![](assets/doc-summary-add-approvers.png)
 
@@ -84,7 +84,7 @@ You must have the following access to perform the steps in this article:
 
 1. ドキュメント名の近くで、承認を作成するドキュメントのバージョンを選択します。 デフォルトでは、最新バージョンが選択されています。
 
-1. 左側のパネルで、 **承認**.
+1. 左側のパネルで、「**承認**」をクリックします。
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 

@@ -9,7 +9,7 @@ exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
 workflow-type: tm+mt
 source-wordcount: '1149'
-ht-degree: 76%
+ht-degree: 78%
 
 ---
 
@@ -34,12 +34,12 @@ ht-degree: 76%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：コントリビューター以上 </p>
+   <td> <p>新規：Contributor 以上 </p>
         <p>または</p> 
         <p>現在：[!UICONTROL Request] 以上 </p></td> 
   </tr> 
@@ -156,7 +156,7 @@ ht-degree: 76%
       * **[!UICONTROL 割り当て先に追加]：**&#x200B;カードをこの列に移動したときに、選択した割り当て先が、カード上の既存の割り当て先リストに追加されます。
       * **[!UICONTROL 割り当て先を上書き]：**&#x200B;カードをこの列に移動したときに、選択した割り当て先が他のすべての割り当て先を上書きし、カード上の唯一の割り当て先になります。
 
-   1. クリック [!UICONTROL **割り当ての追加**] でユーザーを検索します。 検索結果から担当者を選択します。 すべてのWorkfront ユーザーとチームは、次の中から選択できます。
+   1. 「[!UICONTROL **割り当ての追加**]」をクリックして、ユーザーを検索します。検索結果から割り当て先を選択します。すべての Workfront ユーザーおよびチームを選択できます。
 
       ![列の割り当て先](assets/boards-column-assignees.png)
 

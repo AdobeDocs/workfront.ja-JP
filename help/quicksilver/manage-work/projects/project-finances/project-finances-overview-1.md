@@ -10,7 +10,7 @@ exl-id: a5e69dea-d0aa-47cd-9b59-6199cec56fe4
 source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Workfront では、予算、コストおよび収益をキャプチャする多�
 詳しくは、次の記事も参照してください。
 
 * [Adobe Workfront の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
-* [プロジェクトの財政状況：記事インデックス](../../../manage-work/projects/project-finances/project-finances-overview.md)
+* [プロジェクトの財務：記事インデックス](../../../manage-work/projects/project-finances/project-finances-overview.md)
 * [プロジェクトの財務エリアでの情報の管理](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 * [タスクの詳細セクションでのタスクの財政の管理](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
@@ -95,7 +95,7 @@ Workfront のプロジェクトおよびタスクレベルで、財務フィー�
   </tr> 
   <tr> 
    <td>請求レート</td> 
-   <td> <p>ユーザーまたは担当業務の請求レートを設定できます。</p> <p>ユーザーと請求料率の関連付けについて詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。</p> <p>担当業務と請求レートの関連付けについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">担当業務の作成と管理</a>を参照してください。</p> <p>請求レートは、プロジェクトとタスクの収益を計算します。プロジェクトまたは会社に対する担当業務の請求レートを上書きできます。 </p> <p>プロジェクトの請求レートの上書きについて詳しくは、<a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">担当業務に対する請求レートの上書きとプロジェクトにおける収益の計算の概要</a>を参照してください。</p> <p>会社の請求レートの上書きについて詳しくは、<a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">プロジェクトレベルの請求レートを会社レベルの請求レートで上書き</a>を参照してください。</p> </td> 
+   <td> <p>ユーザーまたは担当業務の請求レートを設定できます。</p> <p>ユーザーと請求レートの関連付けについて詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。</p> <p>担当業務と請求レートの関連付けについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">担当業務の作成と管理</a>を参照してください。</p> <p>請求レートは、プロジェクトとタスクの収益を計算します。プロジェクトまたは会社に対する担当業務の請求レートを上書きできます。 </p> <p>プロジェクトの請求レートの上書きについて詳しくは、<a href="../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md" class="MCXref xref">担当業務に対する請求レートの上書きとプロジェクトにおける収益の計算の概要</a>を参照してください。</p> <p>会社の請求レートの上書きについて詳しくは、<a href="../../../manage-work/projects/project-finances/override-project-level-with-company-level-billing-rates.md" class="MCXref xref">プロジェクトレベルの請求レートを会社レベルの請求レートで上書き</a>を参照してください。</p> </td> 
    <td>✔</td> 
    <td>✔</td> 
    <td> </td> 

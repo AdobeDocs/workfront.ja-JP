@@ -63,7 +63,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 ## オブジェクトヘッダーをカスタマイズ
 
 1. [レイアウトテンプレートの作成と管理](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. が含まれる **ユーザーの表示項目をカスタマイズする** ドロップダウンメニューから選択 **プロジェクト**, **タスク**、または **問題**.
+1. **ユーザーに表示する項目をカスタマイズ** ドロップダウンメニューで、**プロジェクト**、**タスク** または **イシュー** を選択します。
 
    <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 

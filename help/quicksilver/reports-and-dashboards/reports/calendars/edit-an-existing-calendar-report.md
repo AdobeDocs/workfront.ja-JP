@@ -7,8 +7,8 @@ author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
 source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
-workflow-type: ht
-source-wordcount: '365'
+workflow-type: tm+mt
+source-wordcount: '366'
 ht-degree: 100%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Reports]、[!UICONTROL Dashboards]、[!UICONTROL Calendars] に対する [!UICONTROL Edit] 権限</p> <p>メモ：アクセス権がない場合は、アクセスレベルに追加の制限が設定されているかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>[!UICONTROL Reports]、[!UICONTROL Dashboards]、[!UICONTROL Calendars] に対する [!UICONTROL Edit] 権限</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
@@ -77,5 +77,5 @@ ht-degree: 100%
    1. アイテムをグループ化する方法を次の中から選択します。
 
       * [カレンダーレポートでの[!UICONTROL 予定日]の使用](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-      * [カレンダーレポートでの[!UICONTROL 見込日]の使用](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [カレンダーレポートで[!UICONTROL 見込み日]を使用](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [カレンダーレポートでのカスタム日付フィールドの使用](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)

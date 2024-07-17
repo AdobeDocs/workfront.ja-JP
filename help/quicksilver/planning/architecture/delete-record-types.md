@@ -33,7 +33,7 @@ hide: yes
 
 ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。詳しくは、この記事で[レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types)の節を参照してください。
 
-レコードタイプについて詳しくは、を参照してください [レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+レコードタイプについて詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -131,11 +131,11 @@ hide: yes
    ワークスペースが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプのカードの上にマウスポインターを置き、「詳細」メニューをクリックして、 **削除**.
-   * 削除するレコードの種類のカードをクリックし、[ レコードの種類 ] ページで **詳細** メニュー ![](assets/more-menu.png) レコードタイプ名の右側にある「」をクリックします。 **削除**.
+   * レコードタイプカードにポインタを合わせ、「詳細」メニューをクリックしてから **削除** をクリックします。
+   * 削除するレコードの種類のカードをクリックし、レコードの種類のページで、レコードの種類名の右側に ![](assets/more-menu.png) る **詳細** メニューをクリックし、[**削除**] をクリックします。
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
-1. タイプ **削除** 確認ボックスで、 **完全に削除**. これは、大文字と小文字を区別しません。
+1. 確認ボックスに **削除** と入力し、「**完全に削除**」をクリックします。 これは、大文字と小文字を区別しません。
 
    選択したレコードタイプが、そのフィールド、関連するレコードおよびビューと共に削除されます。

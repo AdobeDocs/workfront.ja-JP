@@ -8,29 +8,29 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e1f03079-6ccc-4e81-a7f7-184e87d62654
 source-git-commit: 088570f516bbea2e6fd81b1f711151d8941ca71e
-workflow-type: ht
-source-wordcount: '770'
+workflow-type: tm+mt
+source-wordcount: '725'
 ht-degree: 100%
 
 ---
 
-# [!DNL Workfront Proof] を [!DNL Basecamp Classic] と統合
+# [!DNL Workfront Proof] の [!DNL Basecamp Classic] との統合
 
 >[!IMPORTANT]
 >
 >この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-プロジェクト管理用に [!DNL Basecamp] を使用する場合は、[!DNL Workfront Proof] を使用して、プロジェクトチームにより豊富なレビューと承認ツールを提供できます。
+[!DNL Basecamp] をプロジェクト管理に使用している場合は、[!DNL Workfront Proof] を使用することで、プロジェクトチームに、より機能の豊富なレビューツールや承認ツールを提供できます。
 
-## [!DNL Workfront] との [!DNL Basecamp] 統合について
+## [!DNL Basecamp] の [!DNL Workfront] との統合について
 
-[!DNL Basecamp] との統合により、ユーザーは、[!DNL Basecamp] 内でプルーフの表示、レビュー、承認を行うことができます。ユーザーはプルーフを [!DNL Workfront Proof] アカウントに送信し、それらを [!DNL Basecamp] プロジェクトと接続できます。レビュアーは、Basecamp メッセージに埋め込まれたミニプルーフを使用して、[!DNL Basecamp] 経由で[プルーフビューアでプルーフを決定](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)を作成できます。
+[!DNL Basecamp] と統合することで、ユーザーは、[!DNL Basecamp] 内でプルーフをすべて表示、レビュー、承認できるようになります。ユーザーはプルーフを [!DNL Workfront Proof] アカウントに送信し、それらを [!DNL Basecamp] プロジェクトと接続できます。レビュアーは、Basecamp メッセージに埋め込まれたミニプルーフを使用して、[!DNL Basecamp] 経由で[プルーフビューアでプルーフを決定](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)を作成できます。
 
 [!DNL Workfront Proof] と統合されている場合、[!DNL Basecamp] では、ユーザーはプルーフを使用して次の操作を実行できます。
 
-* ユーザーは、[!DNL Basecamp Classic] 内のプルーフをレビューし、承認できます。
+* ユーザーは [!DNL Basecamp Classic] 内でプルーフのレビューと承認を行うことができます。
 * ユーザーにはいつでも使用できるレビューツールが用意されます。
-* プロジェクトレビューチームがレビューと承認用のミニプルーフを使用して [!DNL Basecamp] 内のメッセージを受け取ります。
+* [!DNL Basecamp] で、レビューおよび承認のためのミニプルーフが含まれたメッセージがプロジェクトレビューチームに届きます。
 * ユーザーは、フルページのプルーフに切り替えてレビューや承認を行うことができます。
 * ユーザーは、ミニサイズとフルサイズの両方のプルーフにコメントやマークアップを追加できます。
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 * レビュアーは、他のレビュアーが作成したマークアップに応答できます。
 * 新しいバージョンのプルーフが使用可能になると、ユーザーに警告が表示されます。
-* [!DNL Workfront Proof] ユーザーではないユーザーは、[!DNL Basecamp] でプルーフの作業を行うことができます。
+* [!DNL Workfront Proof] ユーザーでないユーザーは、[!DNL Basecamp] でプルーフの作業を行うことができます。
 
 [!DNL Basecamp] との [!DNL Workfront Proof] の統合は、次の 2 つのレベルで設定する必要があります。
 
@@ -48,7 +48,7 @@ ht-degree: 100%
 * 詳しくは、[ [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) との  [!DNL Basecamp]  統合の有効化を参照してください。
 * [個人設定](https://support.workfront.com/hc/ja-jp/sections/115000921168-Personal-settings)での [!DNL Basecamp] の設定：プルーフ作成者と所有者が自分の [!DNL Basecamp] アカウントに接続し、[!DNL Workfront Proof] アクセスを許可できます。詳しくは、[個人設定の指定](#configuring-personal-settings)を参照してください。
 
-[!DNL Basecamp] または [!DNL Basecamp Classic] のどちらかと [!DNL Workfront] を統合できます。[!DNL Basecamp] の各バージョンは、異なる API を使用しているので、異なる設定手順が必要です。
+[!DNL Workfront] を [!DNL Basecamp] または [!DNL Basecamp Classic] と統合できます。[!DNL Basecamp] の各バージョンは、異なる API を使用しているので、異なる設定手順が必要です。
 
 [!DNL Basecamp Classic] の設定について詳しくは、この記事内の[ [!DNL Workfront Proof]](#enabling-the-basecamp-integration-with-workfront-proof) との  [!DNL Basecamp]  統合の有効化を参照してください。
 

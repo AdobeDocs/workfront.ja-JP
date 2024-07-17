@@ -20,7 +20,7 @@ ht-degree: 57%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリースについて詳しくは、を参照してください。 [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 割り当てられたタスクやイシューのコミット日は手動で更新できます。Adobe Workfront でのコミット日について詳しくは、[コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 
@@ -77,10 +77,10 @@ ht-degree: 57%
 Workfrontの次の領域で、タスクまたはイシューのコミット日を更新できます。
 
 * タスクまたは問題の「詳細」セクション
-* <span class="preview">タスクまたは問題のヘッダー</span>
+* <span class="preview"> タスクまたは問題のヘッダー </span>
 
-  <span class="preview">Workfront管理者またはグループ管理者は、レイアウトテンプレートのタスクまたはイシューヘッダーにコミット日を追加して、タスクまたはイシューページから表示する必要があります。
-詳しくは、を参照してください [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).</span>
+  <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートのタスクまたはイシューヘッダーにコミット日を追加して、タスクまたはイシューページで表示できるようにする必要があります。
+詳しくは、[ レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md) を参照してください。</span>
 
 コミット日の更新は、タスクとイシューで同じです。
 
@@ -90,15 +90,15 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
 >
 >詳しくは、次の記事を参照してください。
 >
->* [概要](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [レイアウトテンプレートを使用してホームと概要をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+>* [ 概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [ レイアウトテンプレートを使用してホームと概要をカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
 1. 自分が&#x200B;**所有者**&#x200B;として割り当てられているタスクまたはイシューに移動します。
 
    タスクやイシューのタスク所有者の確認方法について詳しくは、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)の記事で[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments)の節を参照してください。
 
-1. <span class="preview">（条件付きおよびオプション）Workfrontまたはグループ管理者がコミット日をタスクまたはイシューのヘッダーに追加した場合は、 **コミット日** ヘッダーのフィールドで、カレンダーから日付を選択します。 コミット日がヘッダーにない場合は、次の手順に進みます。 </span>
+1. <span class="preview"> （条件付きおよびオプション）Workfront管理者またはグループ管理者がコミット日をタスクまたは問題ヘッダーに追加した場合は、ヘッダーの **コミット日** フィールドをクリックし、カレンダーから日付を選択します。 コミット日がヘッダーにない場合は、次の手順に進みます。</span>
 
    <span class="preview">![](assets/commit-date-task-header.png)</span>
 

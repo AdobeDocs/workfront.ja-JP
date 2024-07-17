@@ -7,8 +7,8 @@ title: プルーフ作成エラーのトラブルシューティング
 description: プルーフの作成プロセスでは、読み込みとプルーフ生成の両方を行います。プルーフを作成する際に、ファイルの読み込みに失敗したり、ファイルの読み込み後にプルーフの生成に失敗したりする場合があります。
 author: Courtney
 source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
-workflow-type: ht
-source-wordcount: '413'
+workflow-type: tm+mt
+source-wordcount: '415'
 ht-degree: 100%
 
 ---

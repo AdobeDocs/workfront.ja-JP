@@ -10,7 +10,7 @@ exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '477'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,11 +24,11 @@ ht-degree: 90%
 
 ## ポートフォリオの作成に必要なアクセス権
 
-ポートフォリオを作成および管理するには、次のアクセス権が必要です。
+ポートフォリオを作成して管理するには、次のアクセス権が必要です。
 
-* [!UICONTROL 編集] Portfolioを作成および管理するためのアクセスレベルのPortfolioへのアクセス
-* [!UICONTROL 管理] Portfolioに対する権限を編集可能にする
-* [!UICONTROL 表示] Portfolioに対する権限が表示されます。
+* ポートフォリオの作成と管理を行うための、自分のアクセスレベルでポートフォリオを[!UICONTROL 編集]できる権限
+* ポートフォリオを編集するための、ポートフォリオに対する[!UICONTROL 管理]権限
+* ポートフォリオを表示するための、ポートフォリオに対する[!UICONTROL 表示]権限
 
 ポートフォリオに対するアクセスについて詳しくは、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。\
 ポートフォリオに対する権限について詳しくは、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。

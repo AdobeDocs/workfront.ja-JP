@@ -5,8 +5,8 @@ description: パンくずリストには、すべてのオブジェクトタイ�
 feature: Get Started with Workfront
 exl-id: c4103f8e-4c3f-4d4d-a0eb-628c60735ab7
 source-git-commit: 0fea13b0a1d8f14c2d601e0ed0a8d15684a3c4d7
-workflow-type: ht
-source-wordcount: '324'
+workflow-type: tm+mt
+source-wordcount: '326'
 ht-degree: 100%
 
 ---

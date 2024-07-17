@@ -8,8 +8,8 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fbca81fb-97c4-449a-9c64-cfd902ea1e19
 source-git-commit: a6c79166c50af5bfe4c0341d003052179ce78373
-workflow-type: ht
-source-wordcount: '666'
+workflow-type: tm+mt
+source-wordcount: '661'
 ht-degree: 100%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 100%
    1. このプルーフを [!DNL Basecamp] で[!UICONTROL 非公開]にするかどうかを指定します（オプションは新規 [!DNL Basecamp] では使用できません）。
    1. [!DNL Basecamp Classic] プロジェクトを選択します。
    1. [!UICONTROL [!DNL Basecamp Classic] メッセージカテゴリ]を選択します。
-   1. **[!UICONTROL プロジェクトの担当者]**&#x200B;の下で、プルーフに追加する [!DNL Basecamp Classic] アカウント内のレビュアーチェックボックスを選択します。
+   1. **[!UICONTROL プロジェクトの担当者]**&#x200B;の下で、プルーフに追加する [!DNL Basecamp Classic] アカウント内のレビュアーのチェックボックスを選択します。
    1. レビュアーがデフォルトの役割やメールアラートに表示されます。選択されたレビュアーは、このプルーフに関するメッセージを [!DNL Basecamp] で受け取り、また [!DNL Workfront Proof] からのメール通知も受け取ります。
 
       >[!NOTE]

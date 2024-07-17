@@ -8,8 +8,8 @@ author: Lisa
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
 source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
-workflow-type: ht
-source-wordcount: '867'
+workflow-type: tm+mt
+source-wordcount: '878'
 ht-degree: 100%
 
 ---

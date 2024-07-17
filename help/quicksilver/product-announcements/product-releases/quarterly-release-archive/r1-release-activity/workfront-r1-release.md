@@ -10,7 +10,7 @@ exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
 source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -42,7 +42,7 @@ Outlook 365 に統合すると、Outlook 365 から直接 Workfront を更新す
 
 ![](assets/mceclip1-350x169.png)\
 **用語と通知のカスタマイズ**
-カスタムの用語機能を活用して、Workfrontをより関連性の高いものにします。業界に関係なく、「Portfolio」や「プロジェクト」などの用語を好みの言葉に合わせて変更できます。 さらに、各ユーザーはダイジェストの頻度を調整することで、受信する通知のタイプをカスタマイズすることも可能です。
+カスタムの用語機能を活用して、Workfront をチームにより関連性の高いものにします。業界に関係なく、「ポートフォリオ」や「プロジェクト」などの用語を自由に変更できます。さらに、各ユーザーはダイジェストの頻度を調整することで、受信する通知のタイプをカスタマイズすることも可能です。
 
 詳しくは、[R1 プレビュー 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md) を参照してください。
 

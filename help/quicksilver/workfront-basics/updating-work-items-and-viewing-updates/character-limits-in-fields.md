@@ -10,7 +10,7 @@ exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
 source-git-commit: e2a2a8cfe402c1f9f810ca360db4912d804b0a57
 workflow-type: tm+mt
 source-wordcount: '250'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Workfront の特定のフィールドでは、フィールドに入力で�
 
 文字数の上限は、使用しているフィールドによって異なります。以下に示す制限は、ラテン文字（英語など）を使用する言語に適用されます。拡張文字や 2 バイト文字を含んだ言語の場合は、この制限値が小さくなる可能性があります。
 
-Workfrontまたはグループ管理者は、フィールドの文字制限を変更できません。
+Workfront 管理者またはグループ管理者は、フィールドの文字制限を変更できません。
 
 <table style="table-layout:auto"> 
  <col> 

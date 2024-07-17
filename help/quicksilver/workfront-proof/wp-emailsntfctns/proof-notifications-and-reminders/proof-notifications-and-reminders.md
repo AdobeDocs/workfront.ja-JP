@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: プルーフ通知とリマインダー
-description: 配達確認の通知とリマインダーについて説明します。
+description: プルーフ通知とリマインダーについて説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 48afedba-b58a-42db-b0fe-befb09ba8acb
 source-git-commit: 692d0e903c1b92ad539eacf6d26e18e81530a8b0
 workflow-type: tm+mt
 source-wordcount: '50'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 

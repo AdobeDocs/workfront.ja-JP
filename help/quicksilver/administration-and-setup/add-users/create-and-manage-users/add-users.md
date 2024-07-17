@@ -11,7 +11,7 @@ exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 source-git-commit: 198129edd8690393e3214f5041b183b5516617a7
 workflow-type: tm+mt
 source-wordcount: '1207'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->組織がAdobe Admin Consoleにオンボーディングされている場合は、Adobe Admin Consoleを通じてシステム管理者を作成する必要があります。
+>組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でシステム管理者を作成する必要があります。
 >
->Adobe Admin Consoleでシステム管理者を作成する手順については、 [Adobe Admin Consoleでのシステム管理者の管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>Adobe Admin Console でシステム管理者を作成する手順について詳しくは、[Adobe Admin Console でのシステム管理者の管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
 >
->Adobe Admin Consoleにオンボーディングされた組織のグループ管理者は、この手順を使用して、ユーザーを作成し、管理者の承認を得るためにユーザーを送信できます。
+>Adobe Admin Console にオンボーディングされた組織のグループ管理者は、この手順を使用してユーザーを作成し、そのユーザーの承認依頼を管理者に送信できます。
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
@@ -51,7 +51,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準</p><p>または</p><p>現在：プラン</p></td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
@@ -120,15 +120,15 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
    >
    既存のアドビユーザーの場合、Workfront が使用可能になっていることを知らせるメールがユーザーに届く場合と届かない場合があります。これは、製品のアドビ管理者が制御する環境設定です。
 
-1. クリック **この担当者を追加**.
+1. 「**このユーザーを追加**」をクリックします。
 
    または
 
-   クリック **担当者を追加して別の担当者を開始** をクリックして、新しいユーザーを保存し、別のユーザーを追加します。
+   「**担当者ユーザーを追加して別のユーザーを開始**」をクリックして、新規ユーザーを保存し、別のユーザーを追加します。
 
    >[!NOTE]
    >
-   Adobe Admin Consoleにオンボーディングされている組織にユーザーを追加するグループ管理者の場合、この手順のオプションは次のとおりです **管理者の承認用にユーザーを送信** および **承認用に送信し、別の承認を開始**. ユーザーのステータスは、「非アクティブ化済み」および「承認待ち」です。 Workfrontの管理者は、ユーザーを承認する必要があります。承認すると、Workfrontでそのユーザーがアクティベートされ、Adobe Admin Consoleに追加されます。
+   Adobe Admin Console にオンボーディングされている組織にグループ管理者がユーザーを追加する場合、この手順には「**管理者の承認用にユーザーを送信**」と「**承認用に送信して次を開始**」のオプションがあります。ユーザーは「非アクティブ化済み」かつ「承認保留中」のステータスで作成されます。Workfront 管理者は、ユーザーを承認する必要があります。承認すると、Workfront でそのユーザーがアクティブ化され、Adobe Admin Consoleに追加されます。
 
 ## ユーザーのコピーによる新規ユーザーの作成
 
@@ -147,15 +147,15 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックして、「**ユーザー**」![](assets/users-icon-in-main-menu.png)をクリックします。
 1. コピーするユーザーを選択して、コピーアイコン ![](assets/copy-icon.png) をクリックします。
-1. Adobe Analytics の **ユーザーをコピー** 表示されるボックスで、新しいユーザーが使用できるフィールドを編集します。
+1. 表示される「**ユーザーのコピー**」ボックスで、新規ユーザーに使用可能なフィールドを編集します。
 
    ユーザーに関連付けられているすべてのフィールドについて詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
-1. クリック **この担当者を追加**.
+1. 「**このユーザーを追加**」をクリックします。
 
    または
 
-   クリック **担当者を追加して別の担当者を開始** をクリックして、新しいユーザーを保存し、別のユーザーを追加します。
+   「**担当者ユーザーを追加して別のユーザーを開始**」をクリックして、新規ユーザーを保存し、別のユーザーを追加します。
 
 これにより、ユーザーの新しいアカウントが Workfront に作成されます。
 

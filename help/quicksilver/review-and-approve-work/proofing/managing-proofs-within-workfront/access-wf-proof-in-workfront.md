@@ -3,14 +3,14 @@ product-previous: workfront-proof;workfront
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
 title: Adobe Workfront から Workfront Proof にアクセス
-description: Workfront Proof にログインすることなく、Adobe Workfrontインターフェイスから直接Workfront Proof アカウントにすばやくアクセスできます。
+description: Workfront Proof にログインすることなく、Adobe Workfront インターフェイスから直接 Workfront Proof アカウントにすばやくアクセスできます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '266'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 

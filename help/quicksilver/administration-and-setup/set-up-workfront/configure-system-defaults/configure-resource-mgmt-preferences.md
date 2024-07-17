@@ -9,8 +9,8 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
 source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
-workflow-type: ht
-source-wordcount: '700'
+workflow-type: tm+mt
+source-wordcount: '713'
 ht-degree: 100%
 
 ---
@@ -61,7 +61,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 

@@ -9,7 +9,7 @@ exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '651'
-ht-degree: 66%
+ht-degree: 100%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 66%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>新しいライセンス：寄稿者以上</p>
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規ライセンス：コントリビューター以上</p>
    または
    <p>現在のライセンス：リクエスト以上</p>
    </td> 
@@ -49,7 +49,7 @@ ht-degree: 66%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスの種類、アクセス権を確認するには、Workfront管理者にお問い合わせください。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## イシューのステータス
 
@@ -75,19 +75,19 @@ Adobe Workfront 管理者は、組織のイシューに対してカスタムス�
 
 ## イシューのステータスを手動で更新
 
-Workfrontの次の領域で、問題のステータスを更新できます。
+Workfront の次のエリアでイシューのステータスを更新できます。
 
-* タスクページの発行ヘッダーです。
-* イシューの編集時の「イシューの編集」ボックス。
-* 問題ページの「詳細」セクション。
-* イシューリストまたはレポートで、ステータスフィールドがビューに表示されている場合。
-* （問題の Summary パネル）。
+* タスクページのイシューのヘッダー。
+* 「イシューを編集」ボックス（イシューを編集時）。
+* イシューページの「詳細」セクション。
+* イシューリストまたはイシューレポート（「ステータス」フィールドがビューに表示されている場合）
+* イシューの概要パネル
 
-問題ヘッダーで問題ステータスを手動で更新するには：
+イシューのヘッダーでイシューのステータスを手動で更新するには：
 
 1. ステータスを更新するイシューに移動します。
 1. イシューのヘッダーの「**ステータス**」フィールドをクリックし、新しいステータスを選択します。
-1. 問題の完了を視覚的に示すには、下のバブルをドラッグまたはダブルクリックします **完了率** （問題のヘッダー内）
+1. イシューの完了を視覚的に示すには、イシューのヘッダーの&#x200B;**完了率**&#x200B;の下にあるバブルをドラッグまたはダブルクリックします。
 
    または
 
@@ -95,19 +95,19 @@ Workfrontの次の領域で、問題のステータスを更新できます。
 
    ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-1. （オプション）更新に関する追加情報を提供するには、次のいずれかの操作を行います。
+1. （オプション）更新に関する追加情報を指定するには、次のいずれかの操作を行います。
 
-   * 更新に関するメモを追加するには、 **更新** 「 」セクションで、「 」をクリックします。 **新しいコメント**&#x200B;メモを入力します。
+   * 更新に関するメモを追加するには、「**更新**」セクションに移動し、「**新しいコメント**」をクリックして、メモを入力します。
 
      ![](assets/nwe-issue-update-stream-message-box-350x125.png)
 
-   * 更新を特定のユーザーに通知するには、ユーザー名を **担当者またはチームのタグ付け** コメントを入力すると表示されるフィールド。 詳しくは、[更新時の他のユーザーへのタグ付け](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
-   * 問題のコミット日を更新するには、 **問題の詳細**」、「 **コミット日** フィールドに入力します。 詳しくは、 [問題の編集](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).
+   * 特定のユーザーに更新について通知するには、コメントを入力した際に表示される「**人物またはチームにタグ付け**」フィールドにユーザーの名前を入力します。詳しくは、[更新時の他のユーザーへのタグ付け](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
+   * イシューのコミット日を更新するには、「**イシューの詳細**」をクリックし、「**コミット日**」フィールドを編集します。詳しくは、[イシューを編集](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md)を参照してください。
 
 
    >[!IMPORTANT]
    >
-   >  割り当て先がコミット日を更新できるのは、問題の担当者のみです。
+   >  コミット日を更新できるのはイシューの担当者のみです。
 
 
 

@@ -8,8 +8,8 @@ author: Alina
 feature: Work Management
 exl-id: 68b582c9-f72a-4000-9d28-f7dafa23541f
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
-workflow-type: ht
-source-wordcount: '873'
+workflow-type: tm+mt
+source-wordcount: '1108'
 ht-degree: 100%
 
 ---
@@ -44,8 +44,8 @@ EAC メソッド = タスクやサブタスクからのロールアップ
   <tr> 
    <th> <br> <p><strong>タスク</strong> </p> </th> 
    <th> <br> <p><strong>予定時間数</strong> </p> </th> 
-   <th> <br> <p><strong>実時数</strong> </p> </th> 
-   <th> <p><strong>完了率</strong> </p> </th> 
+   <th> <br> <p><strong>実際の時間数</strong> </p> </th> 
+   <th> <p><strong>完了率（％）</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -138,8 +138,8 @@ EAC メソッド = タスクやサブタスクからのロールアップ
   <tr> 
    <th> <br> <p><strong>タスク</strong> </p> </th> 
    <th> <br> <p><strong>予定時間数</strong> </p> </th> 
-   <th> <br> <p><strong>実時数</strong> </p> </th> 
-   <th> <p><strong>完了率</strong> </p> </th> 
+   <th> <br> <p><strong>実際の時間数</strong> </p> </th> 
+   <th> <p><strong>完了率（％）</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -284,7 +284,7 @@ EAC メソッド = タスクやサブタスクからのロールアップ
    <th> <br> <p><strong>予定労力コスト</strong> </p> </th> 
    <th> <br> <p><strong>実時数</strong> </p> </th> 
    <th> <br> <p><strong>実際の労力コスト</strong> </p> </th> 
-   <th> <p><strong>完了率（％）</strong> </p> </th> 
+   <th> <p><strong>完了率</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -462,13 +462,13 @@ EAC メソッド = タスクやサブタスクからのロールアップ
    **タスク 1 の EAC 労力****** = 500.00/.04\
    **タスク 1 の EAC 労力****** = 12,500.00 ドル
 
-   **タスク 1 の EAC 費用****** = OccedsActualExpenseCost + NotOccededPlannedExpense\
-   **タスク 1 の EAC 費用****** = 400.00 ドル + 500.00 ドル\
-   **タスク 1 の EAC 費用****** = 900.00 ドル
+   **タスク 1 の EAC****費用** = OccedsActualExpenseCost + NotOccededPlannedExpense\
+   **タスク 1 の EAC****費用** = $400.00 + $500.00\
+   **タスク 1 の EAC****費用** = $900.00 の場合
 
    **タスク 1 の EAC****** = EAC 労力 + EAC 費用\
-   **タスク 1 の EAC****** = 12,500.00 ドル + 900.00 ドル\
-   **タスク 1 の EAC****** = 13,400.00 ドル
+   **タスク 1 の EAC****** = $12,500.00 + $900.00\
+   **タスク 1 の EAC****** = $13,400.00
 
 1. タスク 2 とタスク 3 の CPI/EAC 値は以下の通りです。\
    タスク 2 = .19 / $8,433.33\

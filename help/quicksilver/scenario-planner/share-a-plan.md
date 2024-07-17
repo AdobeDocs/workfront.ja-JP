@@ -8,8 +8,8 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
 source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
-workflow-type: ht
-source-wordcount: '916'
+workflow-type: tm+mt
+source-wordcount: '927'
 ht-degree: 100%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td><b>製品</b> </td> 
-   <td> <p>この記事で説明されている機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner]の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner]の入手については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a>の使用に必要なアクセス権を参照してください。 </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするためには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner]の取得については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a>の使用に必要なアクセス権を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>アクセスレベル設定*</strong> </td> 

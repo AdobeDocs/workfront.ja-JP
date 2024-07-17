@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 587c6ac7-cc56-480f-852d-f0bd36b3f3cf
 source-git-commit: eeb90d8f80b1680d880d07f41e9d80c0658495fa
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 100%
 
@@ -42,13 +42,13 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 
-[!DNL Slack] から、最近使用した項目とお気に入りにアクセスするには、まず以下が必要です。
+[!DNL Slack] からお気に入りと最近使用した項目にアクセスする前に、以下を行います
 
-* [!DNL Workfront for Slack] の設定\
+* [!DNL Workfront for Slack] を設定\
    [!DNL Workfront for Slack] の設定の手順については、[ [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md) の設定を参照してください。
 
 ## [!DNL Slack] からのプロジェクトへのアクセス

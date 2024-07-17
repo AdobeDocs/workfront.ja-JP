@@ -3,8 +3,8 @@ title: Workfront Fusion 2.0
 description: Workfront Fusion 2.0
 draft: Probably
 source-git-commit: aa9ff6c08a1808bb2bb95b868826e26b1d49b49e
-workflow-type: ht
-source-wordcount: '60'
+workflow-type: tm+mt
+source-wordcount: '63'
 ht-degree: 100%
 
 ---
@@ -22,5 +22,5 @@ ht-degree: 100%
 * [Adobe Workfront Fusion のエラー](../../../workfront-fusion/errors/errors.md)
 * [Adobe Workfront Fusion の組織](../../../workfront-fusion/organizations/organizations.md)
 * [アプリとそのモジュール](../../../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
-* &#x200B; 
+*  
 

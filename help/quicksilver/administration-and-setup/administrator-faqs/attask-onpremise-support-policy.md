@@ -9,8 +9,8 @@ feature: System Setup and Administration
 role: Admin
 exl-id: 37c65360-6587-43b3-8eaf-4f1a9b375c1d
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '247'
+workflow-type: tm+mt
+source-wordcount: '253'
 ht-degree: 100%
 
 ---
@@ -44,7 +44,7 @@ SSL/TSL 設定の手順をダウンロードします。
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 

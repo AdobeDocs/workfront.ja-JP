@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 author: Nolan and Alina
 exl-id: 327564ed-60df-441a-a38b-a17a8c57adb0
 source-git-commit: 114d306d99ae9ba0a18abd63a6137ad0568ab202
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 100%
 
@@ -24,7 +24,7 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 

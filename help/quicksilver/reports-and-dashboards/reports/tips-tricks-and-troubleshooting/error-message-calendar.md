@@ -3,14 +3,14 @@ content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: カレンダーのエラーメッセージ：「このカレンダーには、非アクティブなユーザーの表示権限があります」
-description: 「このカレンダーには、非アクティブなユーザーの表示権限があります」というエラーメッセージについて説明します。
+description: エラーメッセージ「このカレンダーにはアクティブ化を解除したユーザーの表示権限があります」について説明します。
 author: Lisa
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '308'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 89%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン、作業</p> </td> 
   </tr> 
   <tr> 
@@ -51,7 +51,7 @@ ht-degree: 89%
 
 自分と共有されているカレンダーにアクセスすると、以下のエラーが表示されます。
 
-*このカレンダーには、非アクティブなユーザーの表示権限が付与されます。 管理者にカレンダー権限の修正を依頼してください。*
+*このカレンダーにはアクティブ化を解除したユーザーの表示権限があります。管理者にカレンダー権限の修正を依頼してください。*
 
 ## 原因
 

@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 8ae28911-fa18-459a-aa50-cfb347e70e61
 source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
-workflow-type: ht
-source-wordcount: '673'
+workflow-type: tm+mt
+source-wordcount: '674'
 ht-degree: 100%
 
 ---
@@ -49,15 +49,15 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-&#42;&#42;[!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+&#42;&#42;[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## イベントのトリガー
 
 このシナリオは、15 分ごとに実行されるようにスケジュールされています。
 
-## 予期される [!DNL Workfront] 設定
+## 想定される [!DNL Workfront] 設定
 
 このシナリオを使用するには、[!DNL Workfront] に次のものが必要です。
 
@@ -65,11 +65,11 @@ ht-degree: 100%
 
   [!DNL Workfront] でのユーザーの作成について詳しくは、[ユーザーを追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
-## 期待される [!DNL Anaplan] 設定
+## 想定される [!DNL Anaplan] 設定
 
-このシナリオを使用するには、[!DNL Anaplan] に以下のものが必要です。
+このシナリオを使用するには、[!DNL Anaplan] で以下のものが必要です。
 
-* **[!UICONTROL [!DNL Workfront]統合]**&#x200B;という名前の [!DNL Anaplan] のユーザープロファイル。システム管理者権限が付与されています。
+* システム管理者権限が付与された **[!UICONTROL [!DNL Workfront]Anaplan Integration]** という名前の [!DNL Anaplan] のユーザープロファイル。
 * このシナリオに使用する [!DNL Anaplan] モデル。
 * キャンペーン予算を取得する [!DNL Anaplan] モデル内のリスト。
 
@@ -79,7 +79,7 @@ ht-degree: 100%
    * [!UICONTROL [!DNL Workfront] プロジェクト GUID]
    * [!UICONTROL キャンペーン名]
    * [!UICONTROL 要求労働資金]
-   * [!UICONTROL 推定収益]
+   * [!UICONTROL 推定売上高]
    * [!UICONTROL ブランド]
 
   このリストとモジュールには、予算を設定し、予算リスト項目を [!DNL Workfront] に同期する準備ができていることを伝える機能など、[!DNL Anaplan] の通常の機能に必要な追加の詳細を保存する必要があります。
@@ -98,7 +98,7 @@ ht-degree: 100%
 
    5. [!UICONTROL 予算]
 
-   6. [!UICONTROL 推定収益]
+   6. [!UICONTROL 推定売上高]
 
    7. [!UICONTROL ブランド]
 

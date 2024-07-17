@@ -2,14 +2,14 @@
 content-type: reference
 navigation-topic: announcements
 title: お知らせセンターのメッセージの登録解除
-description: お知らせセンターのメッセージとは、Adobe Workfront から Workfront の顧客ベースに送信されるメッセージのことです。Announcement Center のメッセージを配信停止にすることができます。
+description: お知らせセンターのメッセージとは、Adobe Workfront から Workfront の顧客ベースに送信されるメッセージのことです。お知らせセンターのメッセージの受信を登録解除できます。
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '231'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 

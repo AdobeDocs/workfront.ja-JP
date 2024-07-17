@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: トラブルシューティング - Mac のプルーフビューアーでインターフェイスフォントが破損
-description: Macの校正ビューアで、TrobueShoot が破損したインターフェイスフォントを使用しています
+description: Mac のプルーフビューアで破損したインターフェイスフォントのトラブルシューティング
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '660'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

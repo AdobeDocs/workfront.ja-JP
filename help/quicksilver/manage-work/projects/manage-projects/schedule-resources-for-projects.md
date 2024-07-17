@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 exl-id: d59f6083-49d3-4fe6-ac60-656f992363d9
 source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 100%
 
@@ -30,7 +30,7 @@ ht-degree: 100%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

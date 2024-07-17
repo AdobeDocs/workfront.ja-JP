@@ -2,14 +2,14 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: ワークロードバランサーでリソースを管理するために必要なアクセス
-description: 正しいアクセス権または権限がないと、ワークロードバランサーで作業割り当てを表示または管理できない場合があります。
+description: 適切なアクセス権または権限がなければ、ワークロードバランサーで作業の割り当てを表示または管理できない場合があります。
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
 source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '533'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -55,7 +55,7 @@ Workfront のワークロードバランサーの場所について詳しくは�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>リソースエリアにワークロードバランサーを表示するプラン</p>
    <p>チームまたはプロジェクトのワークロードバランサーを表示するワーク</p> </td> 
   </tr> 
@@ -83,7 +83,7 @@ Workfront のワークロードバランサーの場所について詳しくは�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン：リソースエリアのワークロードバランサーで割り当てを管理する</p>
    <p>ワーク：チームまたはプロジェクトのワークロードバランサーで割り当てを管理する</p>
    </td> 

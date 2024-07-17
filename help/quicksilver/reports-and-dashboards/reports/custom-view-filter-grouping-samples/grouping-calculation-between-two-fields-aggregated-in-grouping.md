@@ -11,7 +11,7 @@ exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
 source-git-commit: 32966d4732221d73aa3397771e157b630f7d5760
 workflow-type: tm+mt
 source-wordcount: '590'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 列でテキストモードを使用すると、レポートまたはリストのビューで 2 つのフィールド間の計算を表示できます。各行には、レポートまたはリスト内の各オブジェクトの計算が表示されます。
 
-例えば、タスクレポートの各タスクの実際の時間数と予定時間数の差を、ワークバランスと呼ばれる 3 番目の列に表示できます。計算データ式について詳しくは、 [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+例えば、タスクレポートの各タスクの実際の時間数と予定時間数の差を、ワークバランスと呼ばれる 3 番目の列に表示できます。計算されたデータ式について詳しくは、[計算されたデータ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
 
 複数の計算ビュー項目の集計値をグループ内の同じ列に表示するには、計算値を含む列の `aggregator` 行に計算を追加します。例えば、レポートのグループまたはワークバランス列のリストにあるすべてのタスクのワークバランス時間を集計（合計表示）できます。この記事では、この方法について説明します。
 
@@ -36,7 +36,7 @@ ht-degree: 97%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>グループ化を変更するためのリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 

@@ -8,7 +8,7 @@ exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
 workflow-type: tm+mt
 source-wordcount: '992'
-ht-degree: 79%
+ht-degree: 100%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 79%
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
 
-以下を使用すると、 [!UICONTROL 概要] タスク、問題、ドキュメント、またはの他の領域のリストから直接作業項目情報を確認し、更新するパネル [!DNL Adobe Workfront] タスクと問題を表示する
+[!UICONTROL 概要]パネルを使用すると、タスクやイシュー、ドキュメントのリスト、またはタスクやイシューを表示する [!DNL Adobe Workfront] の他のエリアから直接、作業アイテムの情報を確認および更新できます。
 
-Workfrontまたはグループ管理者は、Summary パネルに表示される領域とフィールドを変更できます。 概要パネルには、最大 16 個のフィールドを追加できます。
+Workfront 管理者またはグループ管理者は、概要パネルに表示されるエリアとフィールドを変更できます。概要パネルに最大 16 個のフィールドを追加できます。
 
 >[!IMPORTANT]
 >
->頻繁に更新する必要のあるフィールドを Summary パネルに追加することをお勧めします。これにより、オブジェクトのメインページにアクセスしなくても、簡単にフィールドにアクセスして更新できます。
+>頻繁に更新する必要があるフィールドを概要パネルに追加することをお勧めします。追加すると、オブジェクトのメインページにアクセスしなくても、簡単にアクセスして更新できます。
 >
->例えば、頻繁に更新される次のフィールドをタスクおよび問題の概要パネルに追加できます。
+>例えば、頻繁に更新される次のフィールドをタスクとイシューの概要パネルに追加できます。
 >
 >* ステータス
 >* 完了率
@@ -57,7 +57,7 @@ Workfrontまたはグループ管理者は、Summary パネルに表示される
    <td>[!UICONTROL Workload Balancer] の [!UICONTROL Unassigned] および[!UICONTROL Assigned] の作業エリアのタスク</td> 
   </tr> 
    <tr> 
-   <td>[!UICONTROL タイムシート ] のタスク</td> 
+   <td>[!UICONTROL Timesheet] のタスク</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><b>イシュー</b></td> 
@@ -78,7 +78,7 @@ Workfrontまたはグループ管理者は、Summary パネルに表示される
   </tr> 
 </tr> 
    <tr> 
-   <td>[!UICONTROL タイムシート ] の問題</td> 
+   <td>[!UICONTROL Timesheet] のイシュー</td> 
   </tr>
 
 <tr data-mc-conditions=""> 
@@ -112,18 +112,18 @@ Workfrontまたはグループ管理者は、Summary パネルに表示される
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>新規：寄稿者以上</p>
+   <td> <p>新規：コントリビューター以上</p>
    または
-   <p>現在：[!UICONTROL リクエスト ] 以降</p> </td> 
+   <p>現在：[!UICONTROL Request] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
-   <td> <p>タスク、イシュー、ドキュメントに対する [!UICONTROL View] またはそれ以上の権限</p> <p>[!UICONTROL View] またはそれ以上のユーザーが、ドキュメントを表示する任意のオブジェクトにアクセスできる [!UICONTROL Summary]</p> </td> 
+   <td> <p>タスク、イシュー、ドキュメントに対する [!UICONTROL View] またはそれ以上の権限</p> <p>ドキュメントの [!UICONTROL Summary] を表示する任意のオブジェクトに対する [!UICONTROL View] またはそれ以上の権限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
@@ -132,7 +132,7 @@ Workfrontまたはグループ管理者は、Summary パネルに表示される
  </tbody> 
 </table>
 
-*お持ちのプラン、ライセンスの種類、アクセス権を調べるには、 [!DNL Workfront] 管理者。 詳しくは、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*ご利用のプラン、ライセンスタイプまたはアクセス権について詳しくは、[!DNL Workfront] 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## タスクまたはイシューのリストで[!UICONTROL 概要]パネルを表示する
 
@@ -191,7 +191,7 @@ Workfrontまたはグループ管理者は、Summary パネルに表示される
 >
 >このセクションに表示されるフィールドは、ホームの右パネルに表示されるフィールドと同じです。これらのフィールドはカスタマイズできます。詳しくは、[レイアウトテンプレートを使用した[!UICONTROL ホーム]と[!UICONTROL 概要]のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)を参照してください。
 
-![Summary パネルの「Details」セクション](assets/summary-details-section.png)
+![概要パネルの「詳細」セクション](assets/summary-details-section.png)
 
 ## [!UICONTROL サブタスク]
 
@@ -209,7 +209,7 @@ Workfrontまたはグループ管理者は、Summary パネルに表示される
 
 タスクやイシューに関する予定[!UICONTROL 時間数]がなく、時間をログに記録した場合は、時間数バーが赤色で表示されます。
 
-![概要パネルの「Hours」セクション](assets/summary-hours-section.png)
+![概要パネルの「時間数」セクション](assets/summary-hours-section.png)
 
 ## 承認
 
@@ -217,4 +217,4 @@ Workfrontまたはグループ管理者は、Summary パネルに表示される
 
 タスクまたはイシューの「[!UICONTROL 承認]」タブに直接移動するには、「**[!UICONTROL 承認]**」タイトルをクリックします。
 
-![Summary パネルの「承認」セクション](assets/summary-approvals-section.png)
+![概要パネルの「承認」セクション](assets/summary-approvals-section.png)

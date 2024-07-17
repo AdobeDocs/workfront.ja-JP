@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: ' [!DNL Workfront Proof] でのコメントの印刷および書き出し'
-description: コメントの概要には、Workfront Proof でアクセスできます。
+description: コメントの概要は、Workfront Proof でアクセスできます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '469'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 

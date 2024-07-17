@@ -3,14 +3,14 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: ワークロードバランサーの概要
-description: プロジェクトマネージャは、タスクを作成してプロジェクトの作業を計画し、リソースマネージャがリソースプランナのプロジェクトにジョブロールリソースを割り当てた後、プロジェクト所有者とチームマネージャは、ワークロードバランサを使用して作業項目をユーザーに割り当てます。
+description: プロジェクトマネージャーがタスクを作成することでプロジェクトの作業を計画し、リソース管理者がリソースプランナーでプロジェクトに担当業務のリソースを割り当てたら、プロジェクト所有者とチームマネージャーはワークロードバランサーを使用して作業アイテムをユーザーに割り当てることができます。
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
 workflow-type: tm+mt
 source-wordcount: '1176'
-ht-degree: 76%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 76%
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-プロジェクトマネージャは、タスクを作成してプロジェクトの作業を計画し、リソースマネージャがリソースプランナのプロジェクトにジョブロールリソースを割り当てた後、プロジェクト所有者とチームマネージャは、ワークロードバランサを使用して作業項目をユーザーに割り当てます。
+プロジェクトマネージャーがタスクを作成することでプロジェクトの作業を計画し、リソース管理者がリソースプランナーでプロジェクトに担当業務のリソースを割り当てたら、プロジェクト所有者とチームマネージャーはワークロードバランサーを使用して作業アイテムをユーザーに割り当てることができます。
 
 >[!IMPORTANT]
 >
@@ -30,7 +30,7 @@ ht-degree: 76%
 
 この記事では、ワークロードバランサーの一般的な目的と、うまく使用できるようにプロジェクトとリソースを設定する方法に関するベストプラクティスを説明します。
 
-ワークロードバランサーのビデオチュートリアルを確認するには、 [WorkfrontTutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja) ページに貼り付けます。 左側のメニューで、 **リソースの管理** > **ワークロードバランサー** チュートリアルを選択します。
+ワークロードバランサーのビデオチュートリアルを確認するには、[Workfront チュートリアル](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)ページに移動します。左側のメニューで、**リソース管理**／**ワークロードバランサー**&#x200B;を選択し、チュートリアルを選択します。
 
 ## ワークロードバランサーの使用場所
 
@@ -55,12 +55,12 @@ ht-degree: 76%
 -->
 
 * すべての関係者に対して透明性の高い、リソースの配分超過および低稼働率の明確なビジュアルマッピングにアクセスできます。
-* 人々の管理者として、あなたは燃え尽きからあなたの人々を守り、より良い焦点、品質、エンゲージメントを持って最善の仕事を行う権限を与えることができます。 すべてのチームで最大限の稼働率の確保、サイロの打破および作業の整合性を実現できます。
+* 人材のマネージャーとして、従業員をバーンアウトから守り、集中力、品質およびエンゲージメントを向上して、最大限に仕事の成果を生み出せるようにすることができます。すべてのチームで最大限の稼働率の確保、サイロの打破および作業の整合性を実現できます。
 * タスクレベルまたはイシューレベルで作業を割り当てると、ユーザーがどの程度忙しいかを把握できません。ワークロードバランサーを使用すると、タスクまたはイシューを時間どおりに完了するためのワークロードの空き時間が、どのユーザーにあるかを確認できます。これには、休暇およびスケジュール例外の詳細が含まれます。
 
   詳しくは、[ワークロードバランサーでの作業割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
 
-  また、複数のプロジェクトにわたって、複数の作業項目を一度に多く配布しやすくする、作業項目を一括で割り当てることもできます。 詳しくは、[ワークロードバランサーを使用した作業の一括割り当て](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)を参照してください。
+  作業アイテムを一括で割り当てることもできるので、複数のプロジェクトに対して一度に多くの作業アイテムを配分しやすくなります。詳しくは、[ワークロードバランサーを使用した作業の一括割り当て](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)を参照してください。
 
 * 経営陣は、組織内の人材がどのように活用されているかを透明化することで、人材配置に関する意思決定をタイムリーに行うことができます。
 * チームメンバーは、同僚社員が何に取り組んでいるかをいつでも確認できるので、コラボレーションの向上によるメリットがあります。ワークロードバランサーでのリソースの表示または管理に必要なアクセス権については、[ワークロードバランサーでのリソース管理に必要なアクセス権](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)を参照してください。
@@ -92,7 +92,7 @@ ht-degree: 76%
 
   ワークロードバランサーでリソースのワークロードを管理する際に必要なアクセス権については、[ワークロードバランサーでのリソース管理に必要なアクセス権](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)を参照してください。
 
-* ワークロードを管理するユーザーが、可用性とスキルに関する情報が正確になるように、次の基準を満たしている必要があります。
+* 管理するワークロードのユーザーは、ユーザーの空き時間とスキルに関する情報が正確になるように、次の基準を満たす必要があります。
 
    * スケジュールと担当業務がプロファイルに関連付けられている。
 
@@ -104,7 +104,7 @@ ht-degree: 76%
 
    * プロファイルの休暇カレンダーを更新します。
 
-     ユーザーのタイムオフカレンダーの更新について詳しくは、 [個人の休日を設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+     ユーザーの休暇カレンダーの更新について詳しくは、[個人の休暇の設定](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)を参照してください。
 
      <!--   
      <div data-mc-conditions="QuicksilverOrClassic.Draft mode">   
@@ -113,7 +113,7 @@ ht-degree: 76%
      </div>   
      -->
 
-* Workfront管理者は、Workfrontによるユーザーの可用性の計算方法を決定する必要があります。 Workfrontが「システムのデフォルト」スケジュールを使用するか、ユーザーのスケジュールを使用して、Workfrontの「設定」領域で「リソース管理」環境設定を調整して、ユーザーが作業できる時間を計算するかを決定できます。
+* Workfront 管理者は、Workfront がユーザーの空き時間をどのように計算するかを決定する必要があります。Workfront の設定エリアで、リソース管理の環境設定を調整して、ユーザーが作業できる時間を計算するのに、Workfront でシステムのデフォルトスケジュールを使用するか、ユーザーのスケジュールを使用するかを決定できます。
 
   詳しくは、[リソース管理の環境設定を設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
 
@@ -121,7 +121,7 @@ ht-degree: 76%
 
 ワークロードバランサーでユーザーに作業を割り当てる前に、次のタスクとイシューの設定があることを確認します。
 
-* 親タスクは、ユーザーや役割には割り当てられません。ワークロードバランサーに親タスクが表示されません。
+* 親タスクは、ユーザーや役割には割り当てられません。親タスクはワークロードバランサーに表示されません。
 * タスクとイシューには、予定時間数の値が 0 より大きい値が設定されます。
 
 * タスクとイシューの期間には 0 より大きい値が設定されます。
@@ -138,7 +138,7 @@ ht-degree: 76%
       * [ワークロードバランサーでの作業割り当ての概要](../workload-balancer/assign-work-in-workload-balancer.md)。
       * [ワークロードバランサーのユーザー割り当てを管理します](../workload-balancer/manage-user-allocations-workload-balancer.md)。
 
-* ワークロードバランサーは、Workfrontの複数の異なる領域を見つけることができます。 ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
+* ワークロードバランサーは、Workfront の複数の異なるエリアにあります。ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
 
 ## ワークロードバランサーの使用に必要なアクセス
 

@@ -37,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 数式フィールドは、レコードタイプの他のフィールドの既存の値と、既存の値の計算方法を示す関数を使用して、新しい値を生成します。
 
-詳しくは、記事の「式」の節を参照してください [フィールドの作成](/help/quicksilver/planning/fields/create-fields.md).
+詳しくは、「フィールドの作成 [ の「式」の節を参照してくだ ](/help/quicksilver/planning/fields/create-fields.md) い。
 
 ## アクセス要件
 

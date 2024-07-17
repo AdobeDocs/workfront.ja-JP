@@ -9,8 +9,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: aacc61f8-ffc3-48db-9f54-188685c52067
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '1931'
+workflow-type: tm+mt
+source-wordcount: '1920'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion]ライセンス要件なし。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
@@ -46,9 +46,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を、組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -56,7 +56,7 @@ ht-degree: 100%
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
@@ -99,7 +99,7 @@ SFTP アカウントを [!DNL Workfront Fusion] に接続するには、ター�
 
 [!UICONTROL SFTP] モジュールを設定すると、[!DNL Workfront Fusion] には以下のフィールドが表示されます。これらと共に、アプリやサービスのアクセスレベルなどの要因に応じて、追加の [!UICONTROL SFTP] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) におけるモジュール間の情報のマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -142,7 +142,7 @@ SFTP アカウントを [!DNL Workfront Fusion] に接続するには、ター�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>SFTP アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への SFTP の接続を参照してください。</p> </td> 
+   <td> <p>SFTP アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事にある <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への SFTP の接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -251,7 +251,7 @@ SFTP アカウントを [!DNL Workfront Fusion] に接続するには、ター�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>SFTP アカウントの [!DNL Workfront Fusion] への接続手順については、この記事の<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への SFTP の接続」を参照してください。</p> </td> 
+   <td> <p>SFTP アカウントの [!DNL Workfront Fusion] への接続手順については、この記事の<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への SFTP の接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Buffer Size [B]]</td> 
@@ -274,7 +274,7 @@ SFTP アカウントを [!DNL Workfront Fusion] に接続するには、ター�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>SFTP アカウントの [!DNL Workfront Fusion] への接続手順については、この記事の<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への SFTPの接続」を参照してください。</p> </td> 
+   <td> <p>SFTP アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事にある <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への SFTP の接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -362,7 +362,7 @@ SFTP アカウントを [!DNL Workfront Fusion] に接続するには、ター�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>SFTP アカウントの [!DNL Workfront Fusion] への接続について詳しくは、この記事の<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への SFTP の接続を参照してください。</p> </td> 
+   <td> <p>SFTP アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への SFTP の接続を参照してください</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File Path]</td> 
@@ -389,7 +389,7 @@ SFTP アカウントを [!DNL Workfront Fusion] に接続するには、ター�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>SFTP アカウントの [!DNL Workfront Fusion] への接続について詳しくは、この記事の<a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への SFTP の接続を参照してください。</p> </td> 
+   <td> <p>SFTP アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事にある <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref">[!DNL Workfront Fusion]</a> への SFTP の接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 

@@ -7,7 +7,7 @@ author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
 source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '229'
 ht-degree: 100%
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![](assets/main-menu-icon.png)を選択し[!DNL Adobe Workfront]、次に「**[!UICONTROL チーム]**」をクリックします。
 
-1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
 1. 左側のパネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選択するか、「**[!UICONTROL 進行中の反復]**」を選択します。
 

@@ -175,7 +175,7 @@ Workfront の他のオブジェクトの名前はカスタマイズできませ�
 | [!UICONTROL タスク] | ![](assets/task-icon-new.png)、![](assets/nwe-tasks-icon.png) | ✔ |
 | [!UICONTROL チーム] | ![](assets/team-icon-nwe.png)、![](assets/team-icon-nwe-color.png)、![](assets/nwe-teams-icon.png) |  |
 | [!UICONTROL テンプレート] | ![](assets/template-icon-nwe.png)、![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL ユーザー] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL ユーザー] | ![](assets/users-icon-gray.png)、![](assets/user-icon-blue.png)、![](assets/user-icon-initials.png)、![](assets/user-avatar.png)、![](assets/user-main-menu-area.png) |  |
 
 ## オブジェクトの参照番号
 
@@ -213,7 +213,7 @@ Workfront の他のオブジェクトの名前はカスタマイズできませ�
 
 オブジェクトへのアクセスは、アクセスレベルまたは特定のオブジェクトの権限で制限できます。
 
-にリストされているすべてのオブジェクトと子オブジェクトに適用されます。 [オブジェクトの相互依存関係と階層](#interdependency-and-hierarchy-of-objects) この記事のセクションです。 これは、チームオブジェクトとユーザーオブジェクトには適用されません。
+これは、この記事の [ オブジェクトの相互依存関係と階層 ](#interdependency-and-hierarchy-of-objects) の節にリストされているすべてのオブジェクトと子オブジェクトに適用されます。 これは、チームオブジェクトとユーザーオブジェクトには適用されません。
 
 ## オブジェクトに関するレポート
 
@@ -295,12 +295,12 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL パラメーターグループ]（または[!UICONTROL セクション区切り]）
 * [!UICONTROL ポートフォリオ]
 * [!UICONTROL プログラム]
-* [!UICONTROL プロジェクト （財務データ）]
-   * 財務情報の入力先 [!UICONTROL プロジェクト （財務データ）] に関連付けられているデータが 5 歳未満の場合にのみレポートします。 例えば、担当業務が 2015年1月（PT）にタスクに割り当てられ、今日が 2021年9月（PT）である場合、その担当業務の [!UICONTROL 配分日] のような財務ファイルは [!UICONTROL  プロジェクト（財務データ）]レポートに入力されません。
+* [!UICONTROL  プロジェクト（財務データ） ]
+   * 財務情報は [!UICONTROL  プロジェクト （財務データ） ] に関連付けられているデータが 5 歳未満の場合にのみ報告されます。 例えば、担当業務が 2015年1月（PT）にタスクに割り当てられ、今日が 2021年9月（PT）である場合、その担当業務の [!UICONTROL 配分日] のような財務ファイルは [!UICONTROL  プロジェクト（財務データ）]レポートに入力されません。
 
   >[!CAUTION]
   >
-  >プロジェクト（財務データ）レポートを実行すると、財務データの再計算が行われます。これにより、以前の財務データが上書きされる可能性があり、かなりの時間がかかる場合があります。 財務データの再計算の結果について詳しくは、次を参照してください [プロジェクトの財務の再計算](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
+  >プロジェクト（財務データ）レポートを実行すると、財務データの再計算が行われます。これにより、以前の財務データが上書きされる可能性があり、かなりの時間がかかる場合があります。 財務データの再計算の結果について詳しくは、[ プロジェクトの財務を再計算する ](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md) を参照してください。
 
 * [!UICONTROL プルーフの承認]
    * 承認のために送信されたプルーフ、[!UICONTROL 承認者] に関する情報、リクエスターに関する情報（リクエスターがライセンスを取得した [!DNL Workfront] ユーザーの場合）バージョン情報、プルーフ ID、プルーフの作成日など、プルーフの承認に関するさまざまな情報を表示できます。\

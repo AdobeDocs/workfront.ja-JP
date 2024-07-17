@@ -52,7 +52,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>シナリオにアプリまたはサービスを追加する場合、選択したデータを取得または送信するために、まず [!DNL Workfront Fusion] とアプリまたはサービスの間に接続を作成する必要があります。詳しくは、を参照してください <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">接続の概要</a>.</p> </td> 
+   <td> <p>シナリオにアプリまたはサービスを追加する場合、選択したデータを取得または送信するために、まず [!DNL Workfront Fusion] とアプリまたはサービスの間に接続を作成する必要があります。詳しくは、<a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref"> 接続の概要 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>サイクル</p> </td> 

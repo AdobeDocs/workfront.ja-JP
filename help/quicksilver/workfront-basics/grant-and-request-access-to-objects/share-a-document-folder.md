@@ -7,8 +7,8 @@ author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
 source-git-commit: bbd64e9deed1b89d720272508b3562c354578704
-workflow-type: ht
-source-wordcount: '901'
+workflow-type: tm+mt
+source-wordcount: '903'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>レビュー以上</p> </td> 
   </tr> 
   <tr> 

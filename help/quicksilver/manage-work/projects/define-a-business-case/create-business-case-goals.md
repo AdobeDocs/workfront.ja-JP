@@ -8,7 +8,7 @@ exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
 source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 96%
    <td> <p>Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -77,10 +77,10 @@ ht-degree: 96%
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. Adobe Analytics の **目標** セクションで、 **目標を編集**.
+1. 「**目標**」セクションで「**目標を編集**」をクリックします。
 
 1. 目標を指定します。
-Adobe Analytics の **重要度** ドロップダウンメニューから、重要度のレベルを選択します。
+「**重要度**」ドロップダウンメニューから、重要度のレベルを選択します。
 
    * 最高
    * 高

@@ -32,7 +32,7 @@ ht-degree: 83%
 >
 >この段階に属している場合は、アカウント担当者から通知されています。
 >
->Workfrontの計画を説明するすべての節と記事の完全なリストについては、以下を参照してください。 [Adobe Workfront計画：記事索引](/help/quicksilver/planning/planning-information.md).
+>Adobe Workfront Planning を説明するすべてのセクションと記事の一覧については、[Workfront Planning：記事一覧 ](/help/quicksilver/planning/planning-information.md) を参照してください。
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
@@ -59,7 +59,7 @@ Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファ
 
 Workfront Planning で使用可能な主な機能と、その使用可能なタイムラインを次の表に示します。このリストには、すべての機能が含まれているわけではありません。
 
-新機能とそのリリース時期について詳しくは、を参照してください。 [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md).
+新機能とそのリリース時期について詳しくは、[Adobe Workfront Planning の現在のリリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
 
 | 機能 | 現在利用可能 | 近日中に利用可能 | 調査中 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -132,7 +132,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   Workfront Planning では、組織のワークフローを満たす任意のレコードタイプを作成できます。後で、レコードタイプを相互に関連付けたり、フォームの依存関係を定義したりできます。
 
-  詳しくは、を参照してください [レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+  詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 
 * **レコード**：レコードタイプのインスタンス。
 
@@ -194,7 +194,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
    * 最終変更者
    * 最終変更日
 
-* **リンクされたレコードタイプ**, **リンクされたレコード**、および **リンクされたレコードフィールド** または **接続されたレコードタイプ**, **接続されたレコード**、および **接続されたフィールド**:Workfront Planning では、次のエンティティ間の接続を作成できます。
+* **リンクされたレコードタイプ**、**リンクされたレコード**、**リンクされたレコードフィールド** または **接続されたレコードタイプ**、**接続されたレコード**、**接続されたフィールド**: Workfront Planning では、次のエンティティ間の接続を作成できます。
 
    * 2 つのレコードタイプ
    * レコードタイプと Workfront のプロジェクト、プログラム、ポートフォリオ、会社またはグループオブジェクトタイプ。
@@ -297,15 +297,15 @@ Workfront Planning を検索するには、次の手順に従います。
 
 1. （条件付きおよびオプション）Workfrontの管理者は、次のいずれかのタブをクリックします。
    * **マイワークスペース**：作成したワークスペースが表示されます。
-   * **その他のワークスペース**：共有されているワークスペースを含む、システム内のその他すべてのワークスペースが表示されます。
+   * **その他のワークスペース**：共有されているワークスペースを含む、システム内のその他すべてのワークスペースを表示します。
 
-   その他のすべてのユーザーについては、ユーザーが作成または共有したすべてのワークスペースがに表示されます。 **ワークスペース** 領域。
+   その他のすべてのユーザーについては、ユーザーが作成したワークスペースまたはユーザーと共有されているすべてのワークスペースが **ワークスペース** 領域に表示されます。
 
 1. （オプションおよび推奨）次のいくつかの操作を続行して、作業構造を構築します。
 
    1. ゼロから、またはテンプレートを使用してワークスペースを作成します。 詳しくは、[ワークスペースの概要](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
-   1. 新しいワークスペースにセクションを追加します。 詳しくは、を参照してください [ワークスペースを編集](/help/quicksilver/planning/architecture/edit-workspaces.md).
+   1. 新しいワークスペースにセクションを追加します。 詳しくは、[ ワークスペースの編集 ](/help/quicksilver/planning/architecture/edit-workspaces.md) を参照してください。
    1. 新しいワークスペースで既存のセクションの名前を変更します。
    1. 新しいワークスペースにレコードタイプを追加します。 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
@@ -322,11 +322,11 @@ Workfront Planning を検索するには、次の手順に従います。
       詳しくは、次の記事を参照してください。
 
       * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
-      * [フィールドの作成](/help/quicksilver/planning/fields/create-fields.md).
+      * [ フィールドを作成 ](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Adobe Workfront Planning リリースアクティビティ
 
 アドビでは、定期的に Workfront Planning の新機能をリリースしています。
 
-リリースされた機能の最新のリストについては、を参照してください。 [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md)
+リリースされた機能の最新の一覧については、[Adobe Workfront Planning の現在のリリース アクティビティを参照してください ](/help/quicksilver/planning/general/release-activity.md)
 

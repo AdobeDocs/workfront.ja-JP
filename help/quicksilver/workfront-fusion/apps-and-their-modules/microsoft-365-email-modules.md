@@ -96,7 +96,7 @@ ht-degree: 79%
 
 ### メッセージ
 
-* [[!UICONTROL メッセージの作成と送信（レガシー）]](#create-and-send-a-message)
+* [[!UICONTROL  メッセージの作成と送信（レガシー） ]](#create-and-send-a-message)
 * [[!UICONTROL メッセージの削除]](#delete-a-message)
 * [[!UICONTROL メッセージの取得]](#get-a-message)
 * [[!UICONTROL メッセージの移動]](#move-a-message)
@@ -105,7 +105,7 @@ ht-degree: 79%
 
 
 
-#### [!UICONTROL メッセージの作成と送信（レガシー）]
+#### [!UICONTROL  メッセージの作成と送信（レガシー） ]
 
 メールメッセージを作成して送信します。
 

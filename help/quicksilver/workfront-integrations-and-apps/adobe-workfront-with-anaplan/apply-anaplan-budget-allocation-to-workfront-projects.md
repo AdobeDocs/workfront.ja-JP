@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 9b8add8f-1978-4ab4-87ac-f1159e7d6cbb
 source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
-workflow-type: ht
-source-wordcount: '677'
+workflow-type: tm+mt
+source-wordcount: '678'
 ht-degree: 100%
 
 ---
@@ -48,7 +48,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 &#42;&#42;[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
@@ -56,19 +56,19 @@ ht-degree: 100%
 
 このシナリオは、15 分ごとに実行されるようにスケジュールされています。
 
-## 期待される [!DNL Workfront] 設定
+## 想定される [!DNL Workfront] 設定
 
-このシナリオを使用するには、[!DNL Workfront] に以下のものが必要です。
+このシナリオを使用するには、[!DNL Workfront] で以下のものが必要です。
 
-* **Anaplan Integration** という名前の [!DNL Workfront] のユーザープロファイル。システム管理者権限が付与されています。
+* システム管理者権限が付与された **Anaplan Integration** という名前の [!DNL Workfront] のユーザープロファイル。
 
   [!DNL Workfront] でのユーザーの作成について詳しくは、[ユーザーを追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
-## 期待される [!DNL Anaplan] 設定
+## 想定される [!DNL Anaplan] 設定
 
-このシナリオを使用するには、[!DNL Anaplan] に以下のものが必要です。
+このシナリオを使用するには、[!DNL Anaplan] で以下のものが必要です。
 
-* **[!DNL Workfront]統合**&#x200B;という名前の [!DNL Anaplan] のユーザープロファイル。システム管理者権限が付与されています。
+* システム管理者権限が付与された **[!DNL Workfront]Anaplan Integration** という名前の [!DNL Anaplan] のユーザープロファイル。
 * このシナリオに使用する [!DNL Anaplan] モデル。
 * キャンペーン予算を取得する [!DNL Anaplan] モデル内のリスト。
 

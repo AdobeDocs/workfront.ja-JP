@@ -7,7 +7,7 @@ author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
 

@@ -1,6 +1,6 @@
 ---
 title: 2024年第 2 四半期リリースの概要
-description: このページでは、2024年第 2 四半期リリースに含まれる機能について説明します。これらの機能強化は、四半期を通じて本番環境で利用できるようになる予定です。
+description: このページでは、2024年第 2 四半期リリースに含まれる機能について説明します。これらの機能強化は、その四半期を通じて実稼動動環境で利用できるようになる予定です。
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -23,13 +23,13 @@ ht-degree: 94%
 
 2024年3月28日（PT）の[エンドツーエンドのキャンペーン計画用のマーケティングカレンダーとツールを公開](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304)では、組織がエンドツーエンドの運用ライフサイクルを管理および視覚化できるように設計された新しい製品機能について説明します。
 
-以下の手順でも可能です [PDFファイルの表示](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} 24.4 リリースのハイライトを含みます。
+また、24.4 リリースのハイライトを含む [PDFファイルを表示 ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} することもできます。
 
-<span class="preview">オフサイクル機能（2024年第 2 四半期のリリース日より前に本番にリリースされるもの）は、黄色でハイライト表示されています。</span>
+<span class="preview">オフサイクル機能（2024年第 2 四半期のリリース日より前に実稼動にリリースされるもの）は、黄色でハイライト表示されています。</span>
 
 >[!IMPORTANT]
 >
->23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。そのため、Workfront ではリリースのナンバリング方式を変更し、月ごとのリリーストラックと四半期ごとのリリーストラックの両方を考慮するようにしました。最初の数字は年、2 番目の数字はリリースの月を表します。例：2024年4月のリリースは 24.4 となります。
+>23.3 リリースには、組織を毎月のリリースに移行するオプションが含まれていました。そのため、Workfront では、月次および四半期次のリリース追跡の両方に対応するように、リリースのナンバリング方式を変更しています。最初の数字は年、2 番目の数字はリリースの月を表します。例：2024年4月のリリースは 24.4 となります。
 >
 >月次リリースと四半期リリースは、特に指定がない限り、毎月第 2 週の木曜日に公開される予定です。
 >
@@ -381,7 +381,7 @@ ht-degree: 94%
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
                         <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
-                        <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスク（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）を割り当てる Workfront のエリアに適用されます。</p>
+                        <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -455,7 +455,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">イテレーションに新しいコメントエクスペリエンスが追加されました</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> イテレーションに新しいコメントエクスペリエンスが追加されました </a></p><p>[!BADGE In production ]{type=Informative}</p>
                         <p>アプリケーション全体で一貫したエクスペリエンスを提供するために、新しいコメント機能をイテレーションに追加しました。 </p>
                     </td>
                     <td><p><b>公開日：</b></p>

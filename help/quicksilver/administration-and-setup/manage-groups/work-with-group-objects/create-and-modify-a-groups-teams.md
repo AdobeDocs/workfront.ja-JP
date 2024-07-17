@@ -11,7 +11,7 @@ exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
 source-git-commit: 6f9eddd46430990e11d5d661ea09f0595a9acebc
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref" data-mc-variable-override="">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref" data-mc-variable-override="">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
@@ -71,7 +71,7 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
        </tr> 
        <tr> 
        <td role="rowheader">グループ</td> 
-       <td> <p> 新しいチームの「グループ」フィールドが、表示しているグループで入力されます。 チームを別のグループに関連付ける場合は、グループの名前を入力し始め、表示されたら名前を選択します。</p> <p>チームに適切なグループが関連付けられていることを確認するには、そのグループにポインタを合わせ、その横に表示される情報アイコン <img src="assets/info-icon.png"> をクリックします。グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p><b>メモ</b>：チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならずにチームを管理することができます。グループ管理者は、メインメニューからチーム領域に移動し、チームを切り替え矢印 <img src="assets/switch-team-icon.png" alt="チームを切り替えアイコン"> をクリックすると、管理するグループに割り当てられているすべてのチームのリストを表示できます。</p> </td> 
+       <td> <p> 新しいチームの「グループ」フィールドに、表示中のグループが入力されます。チームを別のグループに関連付ける場合は、グループの名前を入力し始め、表示されたら名前を選択します。</p> <p>チームに適切なグループが関連付けられていることを確認するには、そのグループにポインタを合わせ、その横に表示される情報アイコン <img src="assets/info-icon.png"> をクリックします。グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p><b>メモ</b>：チームがグループまたはサブグループに割り当てられると、そのグループまたはサブグループのグループ管理者は、チームのメンバーにならずにチームを管理することができます。グループ管理者は、メインメニューからチーム領域に移動し、チームを切り替え矢印 <img src="assets/switch-team-icon.png" alt="チームを切り替えアイコン"> をクリックすると、管理するグループに割り当てられているすべてのチームのリストを表示できます。</p> </td> 
        </tr> 
        <tr> 
        <td role="rowheader">チームメンバー</td> 

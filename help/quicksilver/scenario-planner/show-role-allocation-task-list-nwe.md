@@ -7,7 +7,7 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
 source-git-commit: 82a5102d28700368a094502dcd6026462c149eb1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 100%
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 >[!IMPORTANT]
 >
->プロジェクトのイニシアチブ情報を表示するには、組織は [!DNL Adobe Workfront Scenario Planner] の追加ライセンスを購入する必要があります。[!DNL Workfront Scenario Planner] の取得について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を使用する場合に必要なアクセスを参照してください。
+>プロジェクトのイニシアチブ情報を表示するには、組織は [!DNL Adobe Workfront Scenario Planner] の追加ライセンスを購入する必要があります。[!DNL Workfront Scenario Planner] の取得に関して詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を使用するために必要なアクセスを参照してください。
 
 プロジェクトとイニシアチブを結び付けた後、リソースの割り当てを横に並べ、それらが一致するよう管理できます。これにより、過剰な割り当てや割り当て不足を回避できます。
 
@@ -38,12 +38,12 @@ ht-degree: 100%
    <td>[!UICONTROL Business] 以降</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> ライセンス*</b> </p> </td> 
+   <td> <p>[!DNL Adobe Workfront]<b>ライセンス*</b> </p> </td> 
    <td> <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
   <tr> 
    <td><b>製品</b> </td> 
-   <td> <p>この記事で説明する機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner] の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner] の取得について詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> を使用する場合に必要なアクセス権を参照してください。 </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするためには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner]の取得については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a>の使用に必要なアクセス権を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>アクセスレベル設定*</strong> </td> 
@@ -103,7 +103,7 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Variance]</td> 
-      <td> <p>イニシアチブに必要な時間と、プロジェクトの作業に関連する予定時間数との差。[!DNL Workfront] は、次の式を使用して [!UICONTROL Variance] を計算します。</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>イニシアチブで必要以上の時間リソースが予定されている場合、[!UICONTROL Variance] は負の値となり、赤で表示されます。つまり、リソースの割り当てが超過しています。 </p> </td> 
+      <td> <p>イニシアチブに必要な時間と、プロジェクトの作業に関連する予定時間数との差。[!DNL Workfront] は、以下の式を使用して [!UICONTROL Variance] を計算します。</p> <p><code>Role Allocation Variance = Initiative Hours - Planned Hours</code> </p> <p>イニシアチブで必要以上の時間リソースが予定されている場合、[!UICONTROL Variance] は負の値となり、赤で表示されます。つまり、リソースの割り当てが超過しています。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

@@ -9,7 +9,7 @@ feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
 source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 100%
 
@@ -67,7 +67,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

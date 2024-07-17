@@ -6,7 +6,8 @@ title: 基本シナリオへのトリガーモジュールの追加
 description: トリガーモジュールを追加して、シナリオが定期的に新しいリクエストを検索し、それらをプロジェクトに変換できるようにする方法を説明します。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ea3f932e02ad8a9416747d4b9aefe89d087dd414
+exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
+source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
 workflow-type: tm+mt
 source-wordcount: '486'
 ht-degree: 9%
@@ -21,31 +22,31 @@ ht-degree: 9%
 
 この例では、15 分ごとに実行されるトリガーモジュールを追加し、特定のキューにリクエストが送信された場合にシナリオを開始します。 次に、シナリオはこれらのリクエストをプロジェクトに変換します。
 
-次の使用例は、で作成したシナリオを変更します [基本的なシナリオの作成](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
+この例では、[ 基本シナリオの作成 ](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) で作成したシナリオを変更します。
 
 ## 前提条件
 
-に記載されているシナリオを作成する必要があります。 [基本的なシナリオの作成](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) この手順を実行する前に、
+この手順を実行する前に、[ 基本シナリオの作成 ](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) で説明されているシナリオを作成する必要があります。
 
 ## トリガーモジュールの追加と設定
 
 ### トリガーモジュールを追加
 
 1. シナリオエディターでシナリオを開きます。
-1. 最初の（検索）モジュールを右クリックし、 **モジュールを削除**.
+1. 最初の（検索）モジュールを右クリックし、**モジュールを削除** を選択します。
 
    モジュールが削除され、空白のプレースホルダーが残ります。
 
-1. 空白のモジュールをクリックし、を選択します。 **Adobe Workfront** アプリのリストから。
-1. を選択 **記録を見る**.
+1. 空のモジュールをクリックし、アプリのリストから **0}Adobe Workfront} を選択します。**
+1. **レコードをウォッチ** を選択します。
 1. モジュールで、シナリオ内の残りのモジュールと同じ接続が使用されていることを確認します。
-1. 「フィルター」フィールドで、 **新しいレコードのみ**.
-1. 出力ボックスで、を選択します。 `ID`, `Name`、および `Project ID`.
-1. クリック **OK** モジュール設定を保存します。
+1. 「フィルター」フィールドで、「**新しいレコードのみ**」を選択します。
+1. 「出力」ボックスで、「`ID`」、「`Name`」および「`Project ID`」を選択します。
+1. **OK** をクリックして、モジュール設定を保存します。
 
    [Choose where to start] （開始位置を選択）ウィンドウが開きます。
 
-1. を選択 **今後**.
+1. **今から** を選択します。
 
 ### トリガーモジュールのスケジュール設定
 
@@ -53,7 +54,7 @@ ht-degree: 9%
 
    スケジュール設定ウィンドウが開きます。
 
-1. 「シナリオを実行」フィールドで、次を選択します。 **一定の間隔**.
+1. 「シナリオを実行」フィールドで、「一定の間隔で **を選択し** す。
 
 1. 「**OK**」をクリックします。
 
@@ -71,10 +72,10 @@ ht-degree: 9%
 1. Fusion が接続するWorkfront環境に移動して、問題を追加します。
 1. シナリオエディターの左下隅にある「**[!UICONTROL 1 回実行]**」をクリックします。
 1. 出力を調べて、シナリオが期待どおりに実行されたことを確認します。
-1. シナリオが期待どおりに動作していることを確認したら、 **スケジュール** 画面の左下にあるを切り替えて **日付：**.
+1. シナリオが期待どおりに動作していることを確認したら、画面の左下にある **スケジュール** トグルをクリックして **オン** にします。
 
    これにより、シナリオがアクティブになります。
-1. 対象： [!DNL Workfront Fusion]を選択し、 **[!UICONTROL 保存]** 左下隅付近にあるシナリオの進捗を保存します。
+1. [!DNL Workfront Fusion] では、左下隅付近の **[!UICONTROL 保存]** をクリックして、シナリオの進捗を保存します。
 
    >[!IMPORTANT]
    >
@@ -82,4 +83,4 @@ ht-degree: 9%
 
 ## リソース
 
-* Webhook について詳しくは、 [でのインスタントトリガー（Webhook） [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).
+* Webhook について詳しくは、[ のインスタントトリガー（Webhook）  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md) を参照してください。

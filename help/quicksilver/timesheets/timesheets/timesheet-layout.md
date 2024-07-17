@@ -26,7 +26,7 @@ ht-degree: 100%
 
 この記事では、Adobe Workfront のタイムシートのレイアウトについて説明します。タイムシートをカスタマイズして利用し、時間を記録する方法をより深く理解できます。
 
-「タイムシートおよび時間設定」は、タイムシートに表示される内容を制御します。この記事では、利用可能なすべてのオプションの概要を説明します。オプションの選択について詳しくは、[タイムシートおよび時間設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
+「タイムシートおよび時間設定」は、タイムシートに表示される内容を制御します。この記事では、利用可能なすべてのオプションの概要を説明します。オプションの選択については、[タイムシートおよび時間設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
 タイムシートで時刻を記録する方法については、[時間の記録](../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
 
@@ -81,7 +81,7 @@ ht-degree: 100%
 
 ![タイムシートの作業アイテム](assets/timesheet-object-names-unshimmed-redesign.png)
 
-作業項目は、時間を記録するプロジェクト、タスクおよびイシューです。ヘッダー行の下向き矢印をクリックすると、プロジェクトと、その下に表示されるタスクとイシューが折りたたまれます。プロジェクト名の横にある下向き矢印をクリックすると、そのプロジェクトの作業アイテムを折りたたむことができます。
+作業項目は、時間を記録するプロジェクト、タスクおよびイシューです。ヘッダー行の下向き矢印をクリックすると、プロジェクトと、その下に表示されるタスクとイシューが折りたたまれます。プロジェクト名の横にある下向き矢印をクリックすると、そのプロジェクトの作業アイテムが折りたたまれます。
 
 タイムシート外で時間が記録されるタスク、イシューおよびプロジェクト、またはタイムシートの期間中に予定された項目は、ここに自動的に表示されます。
 
@@ -94,8 +94,8 @@ ht-degree: 100%
 * プロジェクト、タスクまたはイシューを追加できる「**項目を追加**」ボタン。
 * タイムシートのタスクまたはイシューを検索できる、クイックフィルターアイコン。
 * プロジェクト、タスク、またはイシューの時間のエントリに記録された時間コメントの表示と非表示を切り替えられる、「**コメントの表示**」設定。
-* タイムシートをフルスクリーンモードで表示するフルスクリーンアイコン。
-* タスクまたはイシューの追加情報を表示する概要パネルを開くまたは閉じる、「**概要を開く**」または「**概要を閉じる**」ボタン。このボタンは、プロジェクトでは使用できません。
+* タイムシートをフルスクリーンモードで表示するためのフルスクリーンアイコン。
+* タスクまたはイシューの追加情報を確認するための概要パネルを開くまたは閉じることができる、「**概要を開く**」または「**概要を閉じる**」ボタン。このボタンは、プロジェクトでは使用できません。
 
 詳しくは、[時間の記録](../create-and-manage-timesheets/log-time.md)を参照してください。
 
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 ![タイムシートのフッター](assets/timesheet-footer-unshimmed-redesign.png)
 
-このエリアにある「**承認用に送信**」、「**閉じる**」、「**承認**」および「**拒否**」ボタンをクリックして、タイムシートの承認を閉じるか、却下できます。
+このエリアにある「**承認用に送信**」、「**閉じる**」、「**承認**」および「**拒否**」ボタンをクリックして、タイムシートの承認を閉じるか、却下することができます。
 
 この領域には、タイムシートが最後に保存された日時に関する情報も含まれます。タイムシートの情報に加えた変更はすべて自動的に保存されます。
 
@@ -111,7 +111,7 @@ ht-degree: 100%
 
 ![担当業務](assets/timesheet-job-role-area-unshimmed-redesign.png)
 
-時間エントリに関連付ける別の担当業務を選択できます。Workfront 管理者が「**担当業務を時間エントリに割り当てる**」設定を手動で有効にする必要があります。タスクやイシューに割り当てられたときに指定された担当業務がデフォルトで表示されます。タスクやイシューの担当業務が割り当てられていない場合は、主要役割がデフォルトで表示されます。詳しくは、[タイムシートと時間の環境設定を指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
+時間エントリに関連付ける別の担当業務を選択できます。Workfront 管理者が「**手動で担当業務を時間エントリに割り当てます**」設定を有効にする必要があります。タスクやイシューに割り当てられたときに指定された担当業務がデフォルトで表示されます。タスクやイシューの担当業務が割り当てられていない場合は、主要役割がデフォルトで表示されます。詳しくは、[タイムシートと時間の環境設定を指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
 
 別々の役割の同じ作業項目に対して、複数の時間エントリを記録できます。詳しくは、[時間の記録](../create-and-manage-timesheets/log-time.md)を参照してください。
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 
 ![左側のタイムシートパネルの更新エリア](assets/timesheet-updates-with-all-tab.png)
 
-タイムシートの左パネルの「更新」セクションでタイムシートにコメントを付けると、タイムシートの承認者やその他のユーザーとコミュニケーションを取ることができます。
+タイムシートの左パネルの「更新」セクションでタイムシートにコメントを付けると、タイムシートの承認者や他のユーザーとコミュニケーションを取ることができます。
 
 タイムシートに付けられたコメントは、このエリアに表示されます。
 
@@ -149,7 +149,7 @@ ht-degree: 100%
 
 時間枠は 1 週間単位で表示されます。指定したタイムシートの時間枠に含まれない日付は淡色表示になります。タイムシートの時間枠に含まれない日付の時間は記録できません。
 
-詳しくは、[1 回限りのタイムシートの作成](../create-and-manage-timesheets/create-tmshts.md)または[定期タイムシートの作成、編集、割り当て](../create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
+詳しくは、[単一回使用のタイムシートの作成](../create-and-manage-timesheets/create-tmshts.md)または[定期タイムシートの作成、編集、割り当て](../create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
 <!--drafted for the resize columns in timesheets story - make this blurb a TIP when the story is released: 
 You can resize the columns that display different weeks, the time frame, or the work item areas by dragging and dropping the vertical lines that separate them.-->
@@ -172,6 +172,6 @@ You can resize the columns that display different weeks, the time frame, or the 
 
 ## 合計
 
-![タイムシートの合計](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
+![タイムシート合計](assets/timesheet-totals-column-and-header-unshimmed-redesign.png)
 
 タイムシートに入力されたすべての時間の合計を、日別（タイムシートのヘッダー）およびオブジェクト別（最後の列）に確認できます。

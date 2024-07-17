@@ -3,10 +3,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion テンプレートの概要
-description: Workfront Fusion のテンプレート機能を使用すると、既存のテンプレートを作成して使用できます [!DNL Workfront Fusion] シナリオ。
+description: Workfront Fusion のテンプレート機能を使用すると、シナリオの出発点として既存のテンプレートを作成して使用  [!DNL Workfront Fusion]  きます。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: ebc1853906e56b95601c1fe202ddc19d147fa7c2
+exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
+source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 13%
@@ -15,9 +16,9 @@ ht-degree: 13%
 
 # [!DNL Adobe Workfront Fusion] テンプレートの概要
 
-[!DNL Workfront Fusion] テンプレート機能を使用すると、既存のテンプレートを作成して、の出発点として使用できます [!DNL Workfront Fusion] シナリオ。 テンプレートは、組織のニーズや特定のユースケースに合わせて設定および変更できる、一般的なユースケースを表します。
+テンプレート機能 [!DNL Workfront Fusion] 使用すると、既存のテンプレートを作成して、[!DNL Workfront Fusion] のシナリオの出発点として使用できます。 テンプレートは、組織のニーズや特定のユースケースに合わせて設定および変更できる、一般的なユースケースを表します。
 
-現在使用可能な Fusion テンプレートのリストについては、を参照してください。 [現在使用可能なAdobe Workfront Fusion テンプレート](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md).
+現在使用可能な Fusion テンプレートのリストについては、[ 現在使用可能なAdobe Workfront Fusion テンプレート ](/help/quicksilver/workfront-fusion/scenarios/templates/currently-available-fusion-templates.md) を参照してください。
 
 ## アクセス要件
 
@@ -28,7 +29,7 @@ ht-degree: 13%
  <col>  
  <tbody>  
   <tr>  
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td>  
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>  
    <td> <p>任意</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
@@ -38,7 +39,7 @@ ht-degree: 13%
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td>  
    <td> 
-   <p>現在：いいえ [!DNL Workfront Fusion] ライセンス要件</p> 
+   <p>現在：[!DNL Workfront Fusion] ライセンスは必要ありません。</p> 
    <p>または</p> 
    <p>レガシー：任意 </p> 
    </td>  
@@ -46,9 +47,9 @@ ht-degree: 13%
   <tr>  
    <td role="rowheader">製品</td>  
    <td> 
-   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</li></ul> 
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織は [!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul> 
    <p>または</p> 
-   <p>現在：組織による購入が必要です。 [!DNL Adobe Workfront Fusion].</p> 
+   <p>現在：[!DNL Adobe Workfront Fusion] を購入する必要があります。</p> 
    </td>  
   </tr> 
  </tbody>  
@@ -62,7 +63,7 @@ ht-degree: 13%
 
 テンプレート エリアでは、使用可能なテンプレート、テンプレートに含まれるアプリケーションおよびその構造を表示できます。 また、特定のアプリや名前を検索し、ユースケースをフィルタリングすることもできます。
 
-1. クリック **テンプレート** ![テンプレートアイコン](assets/fusion-template-icon.png) 左側のナビゲーションの
+1. 左側のナビゲーションで **テンプレート**![ テンプレートアイコン ](assets/fusion-template-icon.png) をクリックします。
 1. 公開されているテンプレートを表示するには、「公開テンプレート」タブをクリックします。
 
    または
@@ -79,6 +80,6 @@ ht-degree: 13%
 
    テンプレートの図が表示されます。
 
-1. テンプレートからシナリオの作成を開始するには、 **テンプレートから新しいシナリオを作成** 左下隅
+1. テンプレートからシナリオの作成を開始するには、左下隅にある **テンプレートから新しいシナリオを作成** をクリックします。
 
-テンプレートからシナリオを作成する手順については、を参照してください。 [シナリオの作成 [!DNL Adobe Workfront Fusion] templates](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md).
+テンプレートからシナリオを作成する手順については、[ テンプレートを使用したシナリオの作成  [!DNL Adobe Workfront Fusion]  を参照してください ](/help/quicksilver/workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)。

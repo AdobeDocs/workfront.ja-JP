@@ -9,7 +9,7 @@ exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
 source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
 workflow-type: tm+mt
 source-wordcount: '986'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   ただし、プロジェクト所有者がプランナーライセンスを持っていない場合、プロジェクトを管理するためのフルアクセス権は持ちません。プロジェクトを管理する権限を持つのは、プランライセンスを持つユーザーのみです。詳しくは、[アクセスレベルと権限の連携方法](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)を参照してください。
 
 * プロジェクトは個別に共有することも、一度に複数共有することもできます。プロジェクトの共有は、他のオブジェクトを共有する場合と同じです。Workfront でのアイテムの共有について詳しくは、[オブジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
-* プロジェクトに次の権限を付与できます。
+* プロジェクトには、次の権限を付与できます。
 
    * 表示
    * 管理
@@ -46,7 +46,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
   Workfront 管理者は、ドキュメントがユーザーのアクセスレベルの上位のオブジェクトから権限を継承するかどうかを指定できます。ドキュメントに対する継承された権限の制限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
-* 子オブジェクトが継承しないように、継承された権限をプロジェクトから削除できます。 継承された権限をオブジェクトから削除する方法について詳しくは、[オブジェクトからの権限の削除](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)を参照してください。
+* プロジェクトから継承した権限を削除し、子オブジェクトが継承しないようにすることができます。継承された権限をオブジェクトから削除する方法について詳しくは、[オブジェクトからの権限の削除](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)を参照してください。
 
 ## プロジェクトを共有する方法 {#ways-to-share-a-project}
 
@@ -104,7 +104,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 ## 各種ライセンスタイプの制限事項
 
-* Worker ライセンスを持つユーザーには、プロジェクトを管理する権限がありません。 作業者の場合、最も高い共有権限は参加です。
+* 作業者ライセンスを持つユーザーには、プロジェクトを管理する権限がありません。作業者の場合、最も高い共有権限は参加です。
 * リクエストライセンスを持つユーザーはプロジェクト情報を表示できますが、プロジェクトへのアクセスは制限されています。
 * プロジェクトのステータス変更の例外は、表示または参加の権限を持つユーザーが承認プロセスにも含まれている場合に発生します。 プロジェクトを承認すると、プロジェクトのステータスを変更できますが、ステータスは承認または却下の事前定義済みのステータスです。
 * プロジェクトをコピーできるようにするには、ユーザーがアクセスレベルでプロジェクトを作成するアクセス権も持っている必要があります。

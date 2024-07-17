@@ -7,8 +7,8 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
 source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
-workflow-type: ht
-source-wordcount: '409'
+workflow-type: tm+mt
+source-wordcount: '410'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ Web ブラウザーで使用できる印刷オプションを使用して、ダ�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 

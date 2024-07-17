@@ -8,7 +8,7 @@ exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
 source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 90%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -44,22 +44,22 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-この表の情報の詳細については、 [Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 特定のカスタムフィールドまたはウィジェットを使用するレポートのリストの表示
 
 {{step-1-to-setup}}
 
 1. 左側のパネルで、「**カスタムフォーム**」をクリックします。
-1. クリック **フィールド** :Workfrontインスタンス内のすべてのカスタムフィールドとウィジェットを一覧表示するレポートを表示します。
+1. 「**フィールド**」タブをクリックすると、Workfront インスタンス内のすべてのカスタムフィールドとウィジェットをリストしたレポートが表示されます。
 
-1. 次をクリック： **表示** メニューで、リスト内のカスタムビューに **レポート** 列（このタブのデフォルトの列ではありません）。
+1. **ビュー**&#x200B;メニューをクリックし、リスト内に&#x200B;**レポート**&#x200B;列（このタブのデフォルトの列ではない）を含むカスタムビューがないか確認します。
 
    レポート列では、システム内のカスタムフォームに追加された各カスタムフィールドとウィジェットを使用しているレポートを確認できます。**レポート**&#x200B;列を含むビューが既に作成されている可能性があります。
 
 1. **レポート**&#x200B;列を含むビューが表示されない場合、それを含む新しいビューを作成します。
 
-   1. 次をクリック： **表示** メニュー、次に「 **新しいビュー**.
+   1. **ビュー**&#x200B;メニューをクリックして、「**新規ビュー**」をクリックします。
 
    1. 表示された&#x200B;**新規ビュー**&#x200B;ページの左上隅付近のボックスで、「**新規パラメータービュー**」をビューのわかりやすい名前に変えます（例：*フィールドとウィジェット*）。
 

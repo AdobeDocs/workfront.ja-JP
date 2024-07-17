@@ -9,7 +9,7 @@ exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
 source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 * カレンダー
 
-  カレンダーの作成について詳しくは、 [カレンダー：記事のインデックス](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  カレンダーの作成について詳しくは、[カレンダー：記事インデックス](../../../reports-and-dashboards/reports/calendars/calendars.md)を参照してください。
 
 * 外部ページ
 
@@ -48,7 +48,7 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

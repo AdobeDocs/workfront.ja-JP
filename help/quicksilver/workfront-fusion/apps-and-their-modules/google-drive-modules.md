@@ -10,8 +10,8 @@ author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '2956'
+workflow-type: tm+mt
+source-wordcount: '2941'
 ht-degree: 100%
 
 ---
@@ -53,15 +53,15 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明する機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] の管理者にお問い合わせください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 [!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
@@ -77,9 +77,9 @@ OAuth クライアントを作成（および[!UICONTROL クライアント ID] 
 
 ## [!DNL Google Drive] モジュールとそのフィールド
 
-[!DNL Google Drive] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらとともに、アプリやサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Google Drive] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL Google Drive] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL Google Drive] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) におけるモジュール間での情報のマッピングを参照してください。
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) におけるモジュール間の情報のマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
@@ -209,7 +209,7 @@ OAuth クライアントを作成（および[!UICONTROL クライアント ID] 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion] への [!DNL Google Drive] の接続</a>を参照してください。</p> </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Select the folder to be watched]</td> 
@@ -567,7 +567,7 @@ OAuth クライアントを作成（および[!UICONTROL クライアント ID] 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続</a>を参照してください。</p> </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続する</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -602,7 +602,7 @@ Google Drive 内のファイルの共有リンクを取得します。
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion] への [!DNL Google Drive] の接続</a>を参照してください。</p> </td> 
+   <td> <p>[!DNL Google Drive] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref">[!DNL Google Drive] を [!UICONTROL Workfront Fusion] に接続する</a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 

@@ -43,7 +43,7 @@ ht-degree: 35%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在：いいえ [!DNL Workfront Fusion] ライセンス要件</p>
+   <p>現在：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
    <p>または</p>
    <p>レガシー：任意 </p>
    </td> 
@@ -51,9 +51,9 @@ ht-degree: 35%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織による購入が必要です [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン： [!DNL Workfront Fusion] が含まれます。</li></ul>
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織は [!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul>
    <p>または</p>
-   <p>現在：組織による購入が必要です。 [!DNL Adobe Workfront Fusion].</p>
+   <p>現在：[!DNL Adobe Workfront Fusion] を購入する必要があります。</p>
    </td> 
   </tr>
  </tbody> 
@@ -122,7 +122,7 @@ ht-degree: 35%
 
 このアクションモジュールは、FireflyAPI へのカスタム呼び出しを行います。
 
-使用可能な特定の API については、を参照してください。 [ADOBE FIREFLYAPI](https://developer.adobe.com/firefly-services/docs/firefly-api/) Adobe Developerのドキュメントで説明しています。
+使用可能な特定の API については、Adobe Developer ドキュメントの [Adobe FireflyAPI](https://developer.adobe.com/firefly-services/docs/firefly-api/) を参照してください。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -228,12 +228,12 @@ ht-degree: 35%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Image]</td> 
-   <td>  <p> クリック <b>画像を追加</b>. 前のモジュールからソースファイルを選択するか、ソースファイルの画像ファイル名と画像データをマッピングします。</p> </td> 
+   <td>  <p> <b> 画像を追加 </b> をクリックします。 前のモジュールからソースファイルを選択するか、ソースファイルの画像ファイル名と画像データをマッピングします。</p> </td> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL マスク ]</td> 
-   <td>  <p> クリック <b>マスクを追加</b>. 前のモジュールからソースファイルを選択するか、ソースファイルのマスクファイル名とマスクデータをマッピングします。 マスクファイルは、生成されたコンテンツで入力されるカスタムマスクを表します。</p> </td> 
+   <td>  <p> <b> マスクを追加 </b> をクリックします。 前のモジュールからソースファイルを選択するか、ソースファイルのマスクファイル名とマスクデータをマッピングします。 マスクファイルは、生成されたコンテンツで入力されるカスタムマスクを表します。</p> </td> 
 </td> 
   </tr> 
   <tr> 
@@ -242,7 +242,7 @@ ht-degree: 35%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL シード ]</td> 
-   <td>モジュールが生成する各画像に対して、をクリックします <b>項目を追加<b> 整数を入力またはマッピングします。 この同じシードを別の画像を展開モジュールで使用して、異なるスタイルの類似した画像を生成することができます。 追加するシードの数は、「バリエーション数」フィールドと同じ数にする必要があります。</td> 
+   <td>モジュールが生成する各画像に対して、「<b> 項目を追加 <b>」をクリックし、整数を入力またはマッピングします。 この同じシードを別の画像を展開モジュールで使用して、異なるスタイルの類似した画像を生成することができます。 追加するシードの数は、「バリエーション数」フィールドと同じ数にする必要があります。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -278,7 +278,7 @@ ht-degree: 35%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL プリセット ]</td> 
-   <td>プリセットスタイルを使用する場合は、「項目を追加」をクリックし、使用するスタイルを入力またはマップします。<p>プリセットスタイルのリストについては、を参照してください。 <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >画像モデルスタイル</a> （Adobe開発者向けドキュメント）。</td> 
+   <td>プリセットスタイルを使用する場合は、「項目を追加」をクリックし、使用するスタイルを入力またはマップします。<p>プリセットスタイルのリストについては、Adobe開発者ドキュメントの <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" > 画像モデルスタイル </a> を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 負のプロンプト ]</td> 

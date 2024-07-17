@@ -13,7 +13,7 @@ exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 source-git-commit: 32da139d7385e05436a669bdc6f36b71ad83c8d2
 workflow-type: tm+mt
 source-wordcount: '753'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Workfront でスケジュールを操作する際は、次の点に注意して�
 
 * [!DNL Workfront] 管理者は、組織の稼働時間をスケジュールで特定します。
 
-  同様に、グループ管理者は、管理するグループが管理するスケジュールの操作時間を特定できます。 グループ管理者について詳しくは、[グループ管理者](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)を参照してください。
+  同様に、グループ管理者は、管理するグループによって管理されているスケジュールの稼働時間を特定できます。グループ管理者について詳しくは、[グループ管理者](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)を参照してください。
 
   例えば、月曜日から金曜日まで、午前 8 時から午後 5 時まで、昼食に 1 時間の休憩があるようにスケジュールを定義できます。
 
@@ -63,7 +63,7 @@ Workfront でスケジュールを操作する際は、次の点に注意して�
 
 * ユーザーがタスクに割り当てられている場合、[!DNL Workfront] は、ユーザーのスケジュールを使用してタスクのタイムラインを計算します。これには、ユーザーの個人的な時間も含まれます。プロジェクトのスケジュールは無視されます。
 
-  個人の時間について詳しくは、 [個人の休日を設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  個人スケジュールについて詳しくは、[個人休暇の設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)を参照してください。
 
 * 複数のユーザーが 1 つのタスクに割り当てられ、タスクの期間中に異なるスケジュールを持つ場合、[!DNL Workfront] は、[!UICONTROL 設定]の[!UICONTROL プロジェクト環境設定]エリアで定義されている次のスケジュールのいずれかを使用します。
 

@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
 source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 100%
 

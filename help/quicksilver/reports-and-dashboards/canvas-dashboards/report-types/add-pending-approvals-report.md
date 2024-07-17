@@ -5,7 +5,8 @@ title: キャンバスダッシュボードへの承認待ちレポートの追�
 description: 保留中および過去の承認決定に関するデータを含む承認待ちレポートをキャンバスダッシュボードに追加できます。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 25%
@@ -16,7 +17,7 @@ ht-degree: 25%
 
 保留中および過去の承認決定に関するデータを含む承認待ちレポートをキャンバスダッシュボードに追加できます。
 
-キャンバスダッシュボードでのレポートの追加および並べ替えに関する一般的な情報については、を参照してください [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+キャンバスダッシュボードでのレポートの追加および配置に関する一般的な情報については、[ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。
 
 ## アクセス要件
 
@@ -31,7 +32,7 @@ ht-degree: 25%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>新規：標準
    <p>または</p>
    <p>現在：プラン</p></td> 
@@ -49,4 +50,4 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->この記事はまだ仕上がっていない。 キャンバスダッシュボードにレポートを追加するための一般的な手順については、記事を参照してください [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
+>この記事はまだ仕上がっていない。 キャンバスダッシュボードへのレポートの追加に関する一般的な手順については、記事 [ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。

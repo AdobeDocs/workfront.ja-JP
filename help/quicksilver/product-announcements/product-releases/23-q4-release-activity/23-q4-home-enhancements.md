@@ -6,7 +6,7 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f69cbb95-e7fe-4f8f-a7e7-7693c968e76c
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
 

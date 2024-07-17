@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: ' [!DNL Workfront]  Proof のアカウント管理のヒント、テクニック、トラブルシューティング'
-description: Workfront Proof アカウントのトラブルシューティング方法を説明します。
+description: Workfront Proof アカウントのトラブルシューティング方法について説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 1e6bd078-b794-4fac-bbda-3ba125408370
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 

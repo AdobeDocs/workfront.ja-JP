@@ -10,7 +10,7 @@ exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '1509'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 97%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン、作業</p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ Workfront で時間を使用するフィールドは、分単位で保存され�
 
 このエラーは、グラフに最大 618 個の個別の結果が含まれることを意味します。例えば、棒グラフに 618 個を超える棒が含まれる場合などです。表示の問題を解決するには、現在のフィルターとグループ化の選択を変更して、結果を絞り込む必要があります。
 
-フィルターとグループの変更について詳しくは、記事を参照してください [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) および [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+フィルターとグループ化の変更について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)および[Adobe Workfront でのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)の記事を参照してください。
 
 ## 同僚と同じレポート（またはカレンダー）にアクセスし、同僚には同僚のタスクが表示され、私には自分のタスク（またはイシュー）が表示されるのはなぜですか？
 
@@ -92,7 +92,7 @@ Workfront で時間を使用するフィールドは、分単位で保存され�
 レポートまたはカレンダーには、ログインしたユーザーを指すワイルドカードフィルター変数が含まれている場合があります。この場合、レポートには、ログインしたユーザーに基づく情報が表示されます。フィルターを調整して、ログインしたユーザーを指すワイルドカードを削除します。\
 ![](assets/qs--user.id-filter-variable-350x79.png)
 
-ユーザーベースのワイルドカードフィルター変数の完全なリストについては、 [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+ユーザーベースのワイルドカードフィルター変数の完全なリストについて詳しくは、[ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 
 ## レポート内のデータが不完全だと思われるのはなぜですか？
 

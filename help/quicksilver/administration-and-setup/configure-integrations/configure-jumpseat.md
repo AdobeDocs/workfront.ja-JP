@@ -65,7 +65,7 @@ ht-degree: 90%
 
 1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、「**[!UICONTROL 設定]**」をクリックします。
 1. 左パネルで、**[!UICONTROL システム]**／**[!UICONTROL [!DNL JumpSeat]統合]**&#x200B;をクリックします。
-1. を入力 **[!UICONTROL [!DNL JumpSeat]URL]**。拡張機能のアイコンの [!DNL JumpSeat].
+1. **[!UICONTROL [!DNL JumpSeat]URL]** を入力します。この URL は、[!DNL JumpSeat] の拡張機能アイコンにあります。
 
    **例：** [!DNL https]://{mycompanyname}.jumpseat.io
 
@@ -86,4 +86,4 @@ ht-degree: 90%
 
 >[!TIP]
 >
->の設定について詳しくは、 [!DNL JumpSeat] 統合、詳しくは [!DNL JumpSeat] ドキュメント： [JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/).
+>[!DNL JumpSeat] 統合の設定について詳しくは、[JumpSeat+Workfront](https://jumpseat.io/landing-page/jumpseat-workfront/) の [!DNL JumpSeat] ドキュメントを参照してください。

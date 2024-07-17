@@ -8,7 +8,7 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '328'
 ht-degree: 100%
 
@@ -31,7 +31,7 @@ ht-degree: 100%
    <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>現在のプラン：レビュー</p> <p>従来のプラン：レビュー</p> </td> 
   </tr> 
   <tr> 

@@ -10,7 +10,7 @@ exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -226,7 +226,7 @@ ht-degree: 84%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値の変更 
+<sup>1</sup> 可能な値への変更 
 
  
 
@@ -268,7 +268,7 @@ ht-degree: 84%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> レポート可能なフラグが削除されました
+<sup>1</sup> レポート可能なフラグを削除
 
  
 
@@ -282,9 +282,9 @@ ht-degree: 84%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 追加された日付の検証
+<sup>1</sup> 日付の検証を追加
 
-<sup>2</sup> Not_Filterable フラグが追加されました
+<sup>2</sup> Not_Filterable フラグを追加
 
  
 
@@ -292,13 +292,13 @@ ht-degree: 84%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|  workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
+| workPerDayList |   |   |   | assignUserToRoleOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | swapUsersOnProjects<sup>1</sup> |   |   |
 |   |   |   |   | unassignUserFromProjects<sup>1</sup> |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> フィールド includeIssues を追加しました。
+<sup>1</sup> フィールド includeIssues を追加
 
  
 
@@ -310,7 +310,7 @@ ht-degree: 84%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値の変更 
+<sup>1</sup> 可能な値への変更 
 
  
 
@@ -328,7 +328,7 @@ ht-degree: 84%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| checkOutTimestamp |   |   |   |  createProof |   |   |
+| checkOutTimestamp |   |   |   | createProof |   |   |
 
 {style="table-layout:auto"}
 
@@ -338,7 +338,7 @@ ht-degree: 84%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |  getProofingTokens |   |   |
+|   |   |   |   | getProofingTokens |   |   |
 
 {style="table-layout:auto"}
 
@@ -348,12 +348,12 @@ ht-degree: 84%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| isPublic |  layoutTemplate | userGroups  |   |   |   |   |
+| isPublic | layoutTemplate | userGroups  |   |   |   |   |
 | layoutTemplateID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> PRECISION バリデータを 8 から 9 に変更しました。
+<sup>1</sup> PRECISION バリデーターを 8 から 9 に変更
 
  
 
@@ -379,7 +379,7 @@ ht-degree: 84%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値の変更
+<sup>1</sup> 可能な値に変更
 
  
 
@@ -387,7 +387,7 @@ ht-degree: 84%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| approvalCompletionDate |   |   |   |  assignMultiple |   |   |
+| approvalCompletionDate |   |   |   | assignMultiple |   |   |
 | approvalStartDate |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -423,7 +423,7 @@ ht-degree: 84%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |   |  queueTopicID |   |
+|   |   |   |   |   | queueTopicID |   |
 
 {style="table-layout:auto"}
 
@@ -433,7 +433,7 @@ ht-degree: 84%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|   |   |   |   |  updateLastViewedObject |   |   |
+|   |   |   |   | updateLastViewedObject |   |   |
 
 {style="table-layout:auto"}
 
@@ -459,7 +459,7 @@ ht-degree: 84%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 型が整数から倍精度浮動小数点に変更されました 
+<sup>1</sup> タイプを Int から Double に変更
 
  
 
@@ -497,7 +497,7 @@ ht-degree: 84%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
+   <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;scheduleDeactivationDate&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">scheduleDeactivationDate</span></td> 
    <td> </td> 
    <td><span data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;timesheetProfileHourTypes&quot;}" data-sheets-userformat="{&quot;2&quot;:8707,&quot;3&quot;:{&quot;1&quot;:0},&quot;4&quot;:{&quot;1&quot;:2,&quot;2&quot;:14277081},&quot;12&quot;:0,&quot;16&quot;:10}">timesheetProfileHourTypes</span> </td> 
    <td> </td> 
@@ -548,7 +548,7 @@ ht-degree: 84%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-| `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
+| `acknowledgedmentIDs` |   |   |   | unackknowledgeMany |   |   |
 | ackDate |   |   |   |   |   |   |
 | ackType |   |   |   |   |   |   |
 
@@ -562,8 +562,8 @@ ht-degree: 84%
 
 | フィールド | 参照 | コレクション | 検索 | アクション | クエリ | 操作 |
 |---|---|---|---|---|---|---|
-|  name |   |   |   |   |   |   |
+| name |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 可能な値の変更
+<sup>1</sup> 可能な値への変更

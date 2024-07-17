@@ -86,7 +86,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 </tbody>
 </table>
 
-*詳細については、を参照してください [Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*詳しくは、[Workfrontのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -114,7 +114,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
    * テーブル表示で、次の操作を行います。
 
-      * クリック **新しいレコード** テーブルの最終行
+      * テーブルの最後の行にある「**新規レコード**」をクリックします
 
       * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。この場合は、空の行が追加されます。
 
@@ -122,7 +122,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
    * 任意のビューから：
 
-      * クリック **新しいレコード** をページの右上隅に表示します。 レコードのプレビューボックスが開きます。
+      * ページの右上隅にある「**新規レコード**」をクリックします。 レコードのプレビューボックスが開きます。
 
      Workfrontは、新しい各レコードにサムネールとカバー画像を自動アップロードします。 これらの画像は、後で変更できます。 詳しくは、次の記事を参照してください。
 
@@ -133,11 +133,11 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
    >[!NOTE]
    >
-   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクするときにレコードを識別すると便利なので、レコードの主フィールドの情報を追加することをお勧めします。 主フィールドの詳細については、を参照してください。 [テーブル表示の管理](/help/quicksilver/planning/views/manage-the-table-view.md) および [プライマリフィールドの概要](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクするときにレコードを識別すると便利なので、レコードの主フィールドの情報を追加することをお勧めします。 主フィールドについて詳しくは、[ テーブル表示の管理 ](/help/quicksilver/planning/views/manage-the-table-view.md) および [プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 
-1. （条件付き）テーブルにレコードを追加する場合は、引き続き各行に情報を追加し、 **Enter** キーボードで変更を保存します。
+1. （条件付き）テーブルにレコードを追加する場合は、引き続き各行に情報を追加し、キーボードの **Enter** をクリックして変更を保存します。
 
    または
 
@@ -145,10 +145,10 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
    >[!TIP]
    >
-   >にアクセスできます **詳細を開く** 名前フィールドがプライマリフィールドの場合に、レコードの名前フィールドからのみ表示されるアイコン。
+   >**詳細を開く** アイコンにアクセスできるのは、レコードの名前フィールド（名前フィールドがプライマリフィールドの場合）のみです。
 
 1. レコードのプレビューでレコードの情報の編集を開始します。 Workfront では、変更を自動的に保存します。
-1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) レコードのプレビューの右上隅で、レコードのページを新しいタブで開きます。 レコードページでレコードの編集を続行します。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+1. （オプション）レコードのプレビューの右上隅に ![](assets/open-details-in-a-new-tab-icon.png) る **新しいタブで開く** アイコンをクリックして、レコードのページを新しいタブで開きます。 レコードページでレコードの編集を続行します。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 1. （オプション）テーブル表示で新しいレコードやその情報を追加する際に、それらの追加の取り消しまたはやり直しを行うには、次のキーボードショートカットを使用します。
 

@@ -49,7 +49,7 @@ Adobe I/Oイベントモジュールを使用すると、専用のAdobe Workfron
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
-&#42;&#42;Adobe Workfront Fusion ライセンスについては、を参照してください。 [Adobe Workfront Fusion ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Adobe Workfront Fusion ライセンスについては、[Adobe Workfront Fusion ライセンスを参照してください ](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
 ## 前提条件
 
@@ -85,15 +85,15 @@ Adobe I/Oイベントモジュールの接続を作成するには：
       </tr>
       <tr>
         <td role="rowheader">追加範囲</td>
-        <td>スコープを追加するには、 <b>項目を追加</b> スコープを入力します。</td>
+        <td>追加の範囲を追加するには、「<b> 項目を追加 </b>」をクリックして範囲を入力します。</td>
       </tr>
       <tr>
         <td role="rowheader">クライアント ID</td>
-        <td>Adobeクライアント ID を入力します。 これは、Adobe Developer コンソールの「資格情報の詳細」セクションにあります</td>
+        <td>Adobeクライアント ID を入力します。 これは、Adobe Developer Consoleの「資格情報の詳細」セクションにあります</td>
       </tr>
       <tr>
         <td role="rowheader">クライアントシークレット</td>
-        <td>Adobeクライアントの秘密鍵を入力します。 これは、Adobe Developer コンソールの「資格情報の詳細」セクションにあります</td>
+        <td>Adobeクライアントの秘密鍵を入力します。 これは、Adobe Developer Consoleの「資格情報の詳細」セクションにあります</td>
       </tr>
       </tr>
         <tr>
@@ -106,15 +106,15 @@ Adobe I/Oイベントモジュールの接続を作成するには：
       </tr>
       <tr>
         <td role="rowheader">IMS 組織 ID</td>
-        <td>Adobe組織 ID を入力します。 これは、Adobe Developer コンソールの「資格情報の詳細」セクションにあります</td>
+        <td>Adobe組織 ID を入力します。 これは、Adobe Developer Consoleの「資格情報の詳細」セクションにあります</td>
       </tr>
         <tr>
         <td role="rowheader">プロジェクト ID</td>
         <td>プロジェクト ID を入力します。 これは、プロジェクトの資格情報 URL で確認できます。 <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
-        <td role="rowheader">ワークスペース ID</td>
-        <td>プロジェクトの Workspace ID を表示するには、Adobe Developer コンソールのプロジェクトの概要ページからプロジェクトの詳細をダウンロードします。 </td>
+        <td role="rowheader">WORKSPACE ID</td>
+        <td>プロジェクトのWorkspace ID を表示するには、Adobe Developer Consoleのプロジェクトの概要ページからプロジェクトの詳細をダウンロードします。 </td>
       </tr>
     </tbody>
     </table>
@@ -141,7 +141,7 @@ Adobe I/Oイベントモジュールの接続を作成するには：
 
 Webhook を作成するには：
 
-1. クリック **追加** Webhook フィールドの隣です。
+1. Webhook フィールドの横にある「**追加**」をクリックします。
 1. 次のフィールドに入力します。
 
    <table>
@@ -242,7 +242,7 @@ Webhook を作成するには：
 
 #### カスタム API 呼び出しの実行
 
-このアクションモジュールは、に対してカスタム API 呼び出しを行います。 [!DNL Adobe I/O Events] API
+このアクションモジュールは、[!DNL Adobe I/O Events] API に対してカスタム API 呼び出しを行います。
 
 <table>
   <col/>

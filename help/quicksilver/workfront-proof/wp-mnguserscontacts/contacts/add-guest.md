@@ -8,7 +8,7 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 208d719e-a2fc-4080-88be-954c2f87f7ff
 source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 100%
 

@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
 source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
-workflow-type: ht
-source-wordcount: '922'
+workflow-type: tm+mt
+source-wordcount: '921'
 ht-degree: 100%
 
 ---
@@ -48,19 +48,19 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-&#42;&#42;[!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+&#42;&#42;[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## イベントのトリガー
 
 このシナリオは、15 分ごとに実行されるようにスケジュールされています。
 
-## 予期される [!DNL Workfront] 設定
+## 想定される [!DNL Workfront] 設定
 
-このシナリオを使用するには、[!DNL Workfront] に次のものが必要です。
+このシナリオを使用するには、[!DNL Workfront] に以下のものが必要です。
 
-* *[!UICONTROL *[!DNL Anaplan] 統合]** という名前の [!DNL Workfront] のユーザープロファイル。システム管理者権限があります。
+* *[!UICONTROL *[!DNL Anaplan] 統合]**という名前の、システム管理者権限が付与されている [!DNL Workfront] のユーザープロファイル。
 
   [!DNL Workfront] でのユーザーの作成について詳しくは、[ユーザーを追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
@@ -75,11 +75,11 @@ ht-degree: 100%
 
   カスタムフォームの作成について詳しくは、[カスタムフォームを作成または編集](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
-## 予期される [!DNL Anaplan] 設定
+## 想定される [!DNL Anaplan] 設定
 
-このシナリオを使用するには、[!DNL Anaplan] に次のものが必要です。
+このシナリオを使用するには、[!DNL Anaplan] で以下のものが必要です。
 
-* **[!UICONTROL [!DNL Workfront]統合]**&#x200B;という名前の [!DNL Anaplan] のユーザープロファイル。システム管理者権限があります。
+* システム管理者権限が付与された **[!UICONTROL [!DNL Workfront]Anaplan Integration]** という名前の [!DNL Anaplan] のユーザープロファイル。
 * このシナリオで使用する [!DNL Anaplan] モデル。
 * キャンペーン予算を取得する [!DNL Anaplan] モデル内のリスト。
 * 以下の順序で次の列を含む&#x200B;**[!UICONTROL 分析計画実費の読み込み]**&#x200B;ファイル：
@@ -106,9 +106,9 @@ ht-degree: 100%
    1. ファイルを CSV 形式で保存します。
    1. ファイルを [!DNL Anaplan] にアップロードします。
 
-      手順については、ファイルからモジュールにデータを読み込む方法に関する [!DNL Anaplan] ドキュメントを参照してください。
+      手順については、ファイルからモジュールにデータをインポートする方法に関する [!DNL Anaplan] ドキュメントを参照してください。
 
-   1. ファイルに付けた名前をメモしておきます。この名前は、[!UICONTROL Fusion] シナリオテンプレートを展開する際に使用されます。
+   1. ファイルに付けた名前をメモしておきます。この名前は、[!UICONTROL Fusion] シナリオテンプレートをデプロイする際に使用されます。
 
   CSV コンテンツの例
 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
    1. [!UICONTROL [!DNL Workfront] 費用 GUID]
 
-   2. [!UICONTROL [!DNL Workfront] プロジェクト GUID]
+   2. [!UICONTROL [!DNL Workfront]プロジェクト GUID]
 
    3. [!UICONTROL 実際の金額]
 
@@ -141,7 +141,7 @@ ht-degree: 100%
 
       手順については、ファイルからモジュールにデータを読み込む方法に関する [!DNL Anaplan] ドキュメントを参照してください。
 
-   1. ファイルに付けた名前をメモしておきます。この名前は、[!UICONTROL Fusion] シナリオテンプレートを展開する際に使用されます。
+   1. ファイルに付けた名前をメモしておきます。この名前は、[!UICONTROL Fusion] シナリオテンプレートをデプロイする際に使用されます。
 
   CSV コンテンツの例
 
@@ -157,7 +157,7 @@ ht-degree: 100%
 
 これらのアクションの手順については、[!DNL Anaplan] ドキュメントを参照してください。
 
-## [!DNL Fusion] への展開
+## [!DNL Fusion] へのデプロイ
 
 この統合シナリオを [!DNL Fusion] アカウントにデプロイするには、次の手順を実行します。これは、必要な [!DNL Workfront] および [!DNL Anaplan] の設定を完了した後にのみ実行してください。
 
@@ -229,9 +229,9 @@ ht-degree: 100%
 予算リクエストのリンクに関する追加のシナリオ：
 
 * [[!UICONTROL  [!DNL Adobe Workfront]  予算リクエストから  [!DNL Anaplan]  リスト項目を作成]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [[!UICONTROL  [!DNL Anaplan] 予算配分を [!DNL Adobe Workfront] プロジェクトに適用します]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL  [!DNL Anaplan]  予算配分を  [!DNL Adobe Workfront]  プロジェクトに適用]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 キャンペーンリクエストのリンクに関する追加のシナリオ：
 
-* [[!UICONTROL  [!DNL Adobe Workfront] キャンペーンリクエストから [!DNL Anaplan] リスト項目を作成します]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [[!UICONTROL  [!DNL Anaplan] 予算配分を [!DNL Adobe Workfront] キャンペーンリクエストまたはキャンペーンプロジェクトに適用します]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL  [!DNL Adobe Workfront]  キャンペーンリクエストから  [!DNL Anaplan]  リスト項目を作成]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL  [!DNL Anaplan]  予算配分を  [!DNL Adobe Workfront]  キャンペーンリクエストまたはキャンペーンプロジェクトに適用する]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)

@@ -10,7 +10,7 @@ exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '148'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Workfront Goals には、アカウントで有効にできる一連のイ�
 
 Workfront Goals に対して有効にできる通知について詳しくは、[通知：Goals](../../workfront-basics/using-notifications/notifications-goals.md)を参照してください。
 
-Adobe Workfrontでの通知管理について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Adobe Workfront での通知の管理については、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

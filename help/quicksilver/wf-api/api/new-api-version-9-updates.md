@@ -10,7 +10,7 @@ exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -33,8 +33,8 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 削除されたフラグ： REPORTABLE\
-<sup>2</sup> 削除されたフラグ： NOT_GROUPABLE
+<sup>1</sup> フラグが削除されました：REPORTABLE\
+<sup>2</sup> フラグが削除されました：NOT_GROUPABLE
 
 ### 承認
 
@@ -55,7 +55,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 追加されたフィールド： lockToRole
+<sup>1</sup> フィールドが追加されました：lockToRole
 
 ### CustomerPreferences
 
@@ -121,7 +121,7 @@ Adobe Workfront API のこのリリースでは、次の既存のリソースが
 
 {style="table-layout:auto"}
 
-<sup>1</sup> 削除されたフラグ： REPORTABLE
+<sup>1</sup> フラグが削除されました：REPORTABLE
 
 ### スケジュール
 

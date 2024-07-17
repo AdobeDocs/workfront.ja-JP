@@ -47,9 +47,9 @@ ht-degree: 75%
 
 ## 新しいドキュメント承認の使用
 
-ドキュメントの承認の作成や管理を行う場合は、にリストされている記事を参照してください。 [アセットおよびドキュメント承認の設定と管理：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+ドキュメントの承認の作成や管理を行うユーザーについては、[ アセットとドキュメントの承認の設定と管理：記事インデックス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md) に記載されている記事を参照してください。
 
-リクエストを受け取ったドキュメントをレビューまたは承認しようとするユーザーについては、にリストされている記事を参照してください。 [ドキュメントの承認とレビュー：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+リクエストを受け取ったドキュメントをレビューまたは承認しようとするユーザーについては、[ ドキュメントの承認とレビュー：記事インデックス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md) に記載されている記事を参照してください。
 
 >[!IMPORTANT]
 >

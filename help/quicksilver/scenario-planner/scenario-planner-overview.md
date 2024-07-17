@@ -10,7 +10,7 @@ exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
 source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
 workflow-type: tm+mt
 source-wordcount: '539'
-ht-degree: 70%
+ht-degree: 100%
 
 ---
 
@@ -40,27 +40,27 @@ ht-degree: 70%
 
 次の機能は、現在、[!DNL Workfront Scenario Planner] に含まれています。
 
-* ユーザーが [!DNL Workfront Scenario Planner]
+* [!DNL Workfront Scenario Planner] に対してユーザーが持つべきアクセスを指定します。
 
   [!DNL Workfront Scenario Planner] へのアクセス権の付与について詳しくは、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
 
-* 計画を作成して、組織内の主要なイニシアチブを示し、計画に対する人材リソースと予算の供給を定義します
+* プランを作成して、組織内の主要なイニシアチブを示し、プランに対する人的リソースと予算の供給を定義します。
 
   計画の作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) での計画の作成と編集を参照してください。
 
-* プランにイニシアチブを追加して、最終的にプランを達成するための様々なアクティビティを示し、イニシアチブに対する人材リソースとコストの需要を定義します。
+* プランにイニシアチブを追加して、最終的にプランを達成する様々なアクティビティを示し、イニシアチブに対する人的リソースとコストの需要を定義します。
 
   イニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でのイニシアチブの作成および編集を参照してください。
 
-* イニシアチブ間で人または予算の競合が発生した場合は、イニシアチブに関する需要情報の更新、優先度の変更、または計画に関する供給情報の更新によって競合を解決します
+* イニシアチブ間で人材または予算の競合が発生した場合は、イニシアチブに関する需要情報の更新、優先度の変更またはプランに関する供給情報の更新を行うことで競合を解決します。
 
   イニシアチブ間の競合の解決について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) でのイニシアチブの競合の解決を参照してください。
 
-* 計画の複数のシナリオを作成し、それらを比較して、計画を完了するための最適な結果を特定します。
+* プランの複数のシナリオを作成し、それらを比較して、プランを完了するための最良の成果を特定します。
 
   シナリオの作成と比較について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) でのプランシナリオの作成と比較を参照してください。
 
-* 新しいイニシアチブを作成するためのプランにプロジェクトをインポート
+* プロジェクトをプランに読み込んで、新しいイニシアチブを作成します。
 
   次のプロジェクト情報がプランに読み込まれ、イニシアチブ情報になります。
 
@@ -71,14 +71,14 @@ ht-degree: 70%
 
   プランへのプロジェクトの読み込みについて詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) 内のプランへのプロジェクトの読み込みを参照してください。
 
-* シナリオをパブリッシュして、シナリオのイニシアチブにリンクされたプロジェクトを作成または更新します
+* シナリオを公開して、シナリオのイニシアチブにリンクされたプロジェクトを作成または更新します。
 
   シナリオの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) のイニシアチブの公開によるプロジェクトの更新または作成を参照してください。
 
-* 他のユーザーとプランを共有し、コラボレーションを向上
+* 他のユーザーとプランを共有して、共同作業を強化します。
 
   詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) でのプランの共有を参照してください。
 
-* イニシアチブの期間中の各月について、毎月、必要なジョブの役割または固定コスト情報を見積もるか、調整します
+* イニシアチブの期間中の各月について、毎月、必須担当業務または固定コスト情報を見積もるか、調整します。
 
   イニシアチブのリソースの見積もりについて詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) のイニシアチブの競合の解決を参照してください。

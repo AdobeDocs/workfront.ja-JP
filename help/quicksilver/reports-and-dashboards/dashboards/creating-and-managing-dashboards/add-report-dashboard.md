@@ -9,7 +9,7 @@ exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
 source-git-commit: 0564fbf37b98d7c96ed9fccd832e96027562a85f
 workflow-type: tm+mt
 source-wordcount: '367'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->現在、カスタムフォームの外部参照フィールドは、ダッシュボードではサポートされていません。 フィールド値をインラインで編集することはできません。また、ダッシュボードに正しく表示されない場合があります。
+>カスタムフォームの外部ルックアップフィールドは現在、ダッシュボードではサポートされていません。フィールド値をインラインで編集できません。また、ダッシュボードに正しく表示されない場合があります。
 
 ## アクセス要件
 
@@ -34,7 +34,7 @@ ht-degree: 92%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

@@ -12,7 +12,7 @@ exl-id: 373a86f6-fbba-4914-b08d-a3a035ac0ae4
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '2338'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 [!DNL Adobe Workfront Fusion] [!DNL Frame.io] モジュールでは、[!DNL Frame.io] アカウント内のアセットとコメントを監視、作成、更新、取得、削除できます。
 
-Frame.io コネクタのビデオの紹介については、以下を参照してください。
+Frame.io コネクタの紹介ビデオについては、以下を参照してください。
 
 * [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 

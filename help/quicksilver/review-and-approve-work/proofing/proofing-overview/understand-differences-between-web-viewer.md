@@ -3,14 +3,14 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: Web プルーフビューアとデスクトッププルーフビューアの違いの概要
-description: デスクトップ版と Web 版の校正ビューアの違いについて説明します。
+description: デスクトップ版と web 版のプルーフビューアーの違いについて説明します。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '993'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -164,12 +164,12 @@ Adobe Workfront には 2 種類のプルーフビューアが用意されてい�
   <tr> 
    <td> <p>マークアップの色をデフォルトに設定</p> </td> 
    <td>✓</td> 
-   <td> ✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p>コメントを解決</p> </td> 
    <td>✓</td> 
-   <td> ✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td> <p>コメントのロック</p> </td> 
@@ -254,7 +254,7 @@ Adobe Workfront には 2 種類のプルーフビューアが用意されてい�
   </tr> 
   <tr> 
    <td>個別のプルーフの比較</td> 
-   <td> ✓ </td> 
+   <td>✓ </td> 
    <td> <p>✓</p> </td> 
   </tr> 
  </tbody> 
@@ -277,7 +277,7 @@ Adobe Workfront には 2 種類のプルーフビューアが用意されてい�
   <tr> 
    <td>プルーフのバージョンの変更</td> 
    <td>✓</td> 
-   <td> ✓ </td> 
+   <td>✓ </td> 
   </tr> 
   <tr> 
    <td>新しいバージョンを作成</td> 
@@ -342,7 +342,7 @@ Adobe Workfront には 2 種類のプルーフビューアが用意されてい�
   <tr> 
    <td>ブランディング（カスタムロゴ）</td> 
    <td>✓</td> 
-   <td> ✓<br>（ローンチページの Workfront ロゴ） </td> 
+   <td>✓<br>（ローンチページの Workfront ロゴ） </td> 
   </tr> 
   <tr> 
    <td>カスタムリンク（Workfront Proof のみ）</td> 

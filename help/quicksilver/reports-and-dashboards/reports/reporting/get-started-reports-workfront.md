@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: reporting
 navigation-topic: reporting-navigation-topic
-title: レポートの概要
+title: レポートの基本を学ぶ
 description: レポートでは、ユーザーや作業の状況を視覚的に確認できます。レポートを使用して、Adobe Workfront のオブジェクトに関する情報を表示できます。
 author: Nolan
 feature: Reports and Dashboards
@@ -10,17 +10,17 @@ exl-id: 478512af-a47c-4488-878a-581e238e0064
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '3294'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
-# レポートの概要
+# レポートの基本を学ぶ
 
 <!-- Audited: 12/2023 -->
 
 レポートでは、ユーザーや作業の状況を視覚的に確認できます。レポートを使用して、Adobe Workfront のオブジェクトに関する情報を表示できます。
 
-オブジェクトと、Workfrontアプリケーションでのオブジェクトのレポート方法について詳しくは、 [Adobe Workfrontオブジェクトの概要](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+オブジェクトについておよび Workfront アプリケーションでのオブジェクトのレポート方法について詳しくは、[Adobe Workfront のオブジェクトの概要](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
 
 ## レポートの要素
 
@@ -32,32 +32,32 @@ ht-degree: 68%
  <tbody> 
   <tr> 
    <td role="rowheader">ビュー</td> 
-   <td> <li>レポート内の列と、それぞれの列に含めることができる情報を定義します。</li> <li>ビューについて詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Adobe Workfrontの概要を表示</a>.</li> </td> 
+   <td> <li>レポート内の列と、それぞれの列に含めることができる情報を定義します。</li> <li>ビューについて詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Adobe Workfront のビューの概要</a>を参照してください。</li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">グループ化</td> 
-   <td> <li>共通の情報に基づいて情報を分類し、レポートの結果を見出しの下に表示します。</li> <li>グループ化について詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Adobe Workfrontでのグループ化の概要</a>.</li> </td> 
+   <td> <li>共通の情報に基づいて情報を分類し、レポートの結果を見出しの下に一覧表示します。</li> <li>グループ化について詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md" class="MCXref xref">Adobe Workfront のグループ化の概要</a>を参照してください。</li> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">フィルター</td> 
-   <td> <li>レポートに表示する情報の量を制御します。</li> <li>フィルターについて詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">フィルターの概要</a>.</li> <li>フィルター修飾子について詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">フィルターおよび条件修飾子</a>.</li> <li>ワイルドカードを使用してフィルタリングし、フィルターの汎用性を高め、柔軟な使用を促進できます。</li> <li>フィルターでのワイルドカードの使用について詳しくは、 <a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">ワイルドカードフィルター変数</a>.</li> </td> 
+   <td> <li>レポートに表示する情報の量を制御します。</li> <li>フィルターについて詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">フィルターの概要</a>を参照してください。</li> <li>フィルター修飾子について詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">フィルターおよび条件修飾子</a>を参照してください。</li> <li>ワイルドカードを使用してフィルタリングし、フィルターの汎用性を高め、柔軟な使用を促進できます。</li> <li>フィルターでのワイルドカードの使用について詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md" class="MCXref xref">ワイルドカードフィルター変数</a>を参照してください。</li> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!NOTE]
 >
->リストから新しいフィルター、表示またはグループを選択した場合、Workfrontからログアウトしたりブラウザーを閉じても、選択内容は保持されます。
+>新規フィルター、ビューまたはグループ化をリストから選択した場合、Workfront からログアウトしたりブラウザーを閉じたりしても、選択内容は保持されます。
 
-レポート要素について詳しくは、 [レポート要素：フィルター、ビューおよびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+レポート要素について詳しくは、[レポート要素：フィルター、ビューおよびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
 
 レポートの内容をより充実させるために、以下の要素を追加できます。
 
 * グラフ：レポートの結果を視覚的に表したものです。\
-  グラフレポートについて詳しくは、 [レポートにグラフを追加する](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  グラフレポートについて詳しくは、[レポートへのグラフの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)を参照してください。
 
 * マトリックスのグループ化：レポートの情報の集計表形式でまとめます。\
-  マトリックスレポートについて詳しくは、 [マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+  マトリックスレポートについて詳しくは、[マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)を参照してください。
 
 * プロンプト：レポートを実行するたびに、カスタマイズして適用できるオープンフィルターです。\
   プロンプトについて詳しくは、[レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)を参照してください。
@@ -72,7 +72,7 @@ ht-degree: 68%
 Workfront は、デフォルトでシステムに読み込まれる複数のシステムレポートを提供します。\
 システムに情報を入力した後、これらのレポートを使用して、情報を視覚的に表示できます。
 
-システムレポートにアクセスする方法と使用可能なシステムレポートの詳細については、 [Adobe Workfrontの組み込みレポートの使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md).
+システムレポートにアクセスする方法と使用可能なシステムレポートについて詳しくは、[Adobe Workfront の組み込みレポートの使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)を参照してください。
 
 ## レポートを作成
 
@@ -82,17 +82,17 @@ Workfront で提供されるシステムレポートに加えて、組織のニ�
 
 * レポートを最初から作成する。
 * 既存のレポートをコピーする。\
-  他のユーザーが作成したレポートをコピーするには、少なくとも表示権限が必要です。レポートのコピーについて詳しくは、 [レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+  他のユーザーが作成したレポートをコピーするには、少なくとも表示権限が必要です。レポートのコピーについて詳しくは、[レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)を参照してください。
 
-レポートの作成について詳しくは、 [カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+レポートの作成について詳しくは、[カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)を参照してください。
 
 ### レポート作成の前提条件 {#prerequisites-for-creating-reports}
 
 * 独自のレポートを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新しいライセンス）が必要です。\
-  Workfrontのライセンスの種類について詳しくは、 [ライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) 現在のライセンスに関して [新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) 新しいライセンスの場合
+  Workfront ライセンスタイプについて詳しくは、現在のライセンスについては[ライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)を、新しいライセンスについては[新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
 
 * Workfront 管理者が、アクセスレベルでレポートの編集のアクセス権を付与する必要があります。\
-  編集レポートへのアクセス権の付与について詳しくは、 [レポート、ダッシュボード、カレンダーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  レポートを編集するアクセス権の付与について詳しくは、[レポート、ダッシュボード、カレンダーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
 
 * Workfront 管理者が、フィルター、ビューおよびグループ化を編集するためのアクセス権をユーザーにアクセスレベルで付与する必要があります。
 
@@ -104,21 +104,21 @@ Workfront で提供されるシステムレポートに加えて、組織のニ�
 
 Workfront でレポートを作成したユーザーはそのレポートのデフォルトの所有者になり、レポートは「マイ報告書」セクションに表示されます。レポートの所有者は変更できません。
 
-レポートをコピーすると、自動的にコピーされたレポートの所有者になります。
-レポートのコピーについて詳しくは、 [レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+レポートをコピーしたユーザーは、自動的に、コピーしたレポートの所有者になります。
+レポートのコピーについては、[レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)を参照してください。
 
-レポートの所有者を確認するには、 **入力者** フィールドに入力します。
+レポートの所有者は、「**入力者**」フィールドで確認できます。
 
 ![入力者フィールド](assets/nwe-entered-by-350x218.png)
 
 ### ビルダーインターフェイスでのレポートの作成 {#create-reports-in-the-builder-interface}
 
 最初にレポート作成インターフェイスを使用して新規レポートを作成することをお勧めします。このインターフェイスには、ガイドに従い要素を組み合わせて目的のレポートを作成できる、効率化されたツールセットが用意されています。リストから選択してすべてのレポート要素に追加できるオブジェクトとフィールドがあります。\
-レポート作成インターフェイスでのレポートの作成について詳しくは、 [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+レポート作成インターフェイスでのレポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
-レポートできるオブジェクトの一覧については、 [オブジェクトに関するレポート](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects) 記事のセクション [Adobe Workfrontオブジェクトの概要](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+レポートできるオブジェクトのリストについては、[Adobe Workfront オブジェクトの概要](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事の[オブジェクトのレポート](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#report-on-objects)の節を参照してください。
 
-レポートに表示できるフィールドについて詳しくは、 [Adobe Workfrontの用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+レポートで表示できるフィールドについて詳しくは、[Adobe Workfront 用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
 ### テキストモードでのレポートの作成 {#create-reports-in-text-mode}
 
@@ -143,20 +143,20 @@ Workfront のテキストモード構文について詳しくは、[テキスト
 
 ビルダーインターフェイスで使用できないフィールドに関するレポートの他に、テキストモードを使用すると、特定のフィールド間の計算や比較を表示できます。
 
-レポートでテキストモードが最もよく使用される例については、 [テキストモードの一般的な使用例の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+レポートでのテキストモードの最も一般的な使用法のリストについては、[テキストモードの一般的な使用法の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)を参照してください。
 
-レポートに計算済みのカスタムデータを含める方法について詳しくは、 [レポート内の計算済みカスタムデータ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
+レポートに計算済みカスタムデータを含める方法については、[レポートの計算済みカスタムデータ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)を参照してください。
 
-条件付き書式でのフィールドの比較について詳しくは、 [条件付き書式でのフィールドの比較](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md).
+条件付き形式でのフィールドの比較については、[条件付き形式でのフィールドの比較](../../../reports-and-dashboards/reports/text-mode/compare-fields-conditional-formatting.md)を参照してください。
 
 また、レポートでテキストモードを使用して、コレクションフィールドを参照することもできます。\
-テキストモードを使用してレポートにコレクション情報を表示する方法について詳しくは、 [レポート内のコレクションの参照](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+レポートでテキストモードを使用してコレクション情報を表示する方法については、[レポートでのコレクションの参照](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)を参照してください。
 
 #### テキストモードのサンプル {#text-mode-samples}
 
-テキストモードで作成できる、最も使用されているビュー、フィルター、グループのサンプルのライブラリが用意されています。
+テキストモードで作成できる、最もよく使用されているビュー、フィルターおよびグループ化のサンプルを集めたライブラリが用意されています。
 
-このライブラリを参照して、提供されるサンプルの一部を使用するには、次の記事を参照してください。 [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md).
+このライブラリを参照して、提供されるサンプルの一部を使用するには、[カスタムビュー、フィルターおよびグループ化のサンプル：記事インデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)を参照してください。
 
 ## レポートのタブ
 
@@ -179,11 +179,11 @@ Workfront のテキストモード構文について詳しくは、[テキスト
 
 ### 「概要」タブ {#summary-tab}
 
-グループ化を含むレポートには、「概要」タブがあります。
+グループ化が含まれるレポートには、「概要」タブがあります。
 
 「詳細」タブにリスト形式で表示されるのと同じ情報が、「概要」タブのレポートのグループ化に従って要約および集計されます。
 
-グループ化について詳しくは、 [Adobe Workfrontでのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+グループ化について詳しくは、[Adobe Workfront のグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)を参照してください。
 
 ### 「マトリックス」タブ {#matrix-tab}
 
@@ -233,7 +233,7 @@ Workfront のテキストモード構文について詳しくは、[テキスト
 * Excel
 * .TSV
 
-レポート配信のスケジュール設定について詳しくは、 [レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+レポートの配信スケジュールについて詳しくは、[レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)を参照してください。
 
 ### レポートの結果の書き出し {#export-the-results-of-a-report}
 
@@ -243,19 +243,19 @@ Workfront のテキストモード構文について詳しくは、[テキスト
 * Excel（.xls および.xlsx 形式）
 * タブ区切り
 
-レポートの結果のエクスポートについて詳しくは、 [データを書き出し](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+レポートの結果の書き出しの詳細については、[データの書き出し](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)を参照してください。
 
 レポートをこれらの形式のいずれかに書き出した後、添付ファイルとしてメールで送信したり、印刷したりして、他のユーザーと共有できます。
 
 ### ダッシュボードへのレポートを追加 {#add-a-report-to-a-dashboard}
 
-レポートをダッシュボードに追加して、他のユーザーとダッシュボードを共有できます。ダッシュボードへのレポートの追加について詳しくは、 [ダッシュボードへのレポートの追加](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md).
+レポートをダッシュボードに追加して、他のユーザーとダッシュボードを共有できます。ダッシュボードへのレポートの追加について詳しくは、[ダッシュボードにレポートを追加する](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)を参照してください。
 
 ## カレンダーの作成
 
 データをカレンダー形式で表示する場合は、レポートの代わりにカレンダーを作成できます。
 
-カレンダーの作成と使用について詳しくは、 [カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+カレンダーの作成と使用について詳しくは、[カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)を参照してください。
 
 ## レポートの使用
 
@@ -295,7 +295,7 @@ Workfront レポートを参照する際には、次の用語が使用されま�
   </tr> 
   <tr> 
    <td>ビルダーインターフェイスまたは Report Builder</td> 
-   <td>ビルダーインターフェイスは、一連のドロップダウンメニューで、「列（表示） 」、「フィルター」および「グループ化」タブに表示されるフィールドが含まれています。 ビュー内の列、フィルターの基準、グループ化の共通属性を識別するのに役立つ、Bean 関係の直感的なマッピングを提供します。</td> 
+   <td>ビルダーインターフェイスは、一連のドロップダウンメニューで、「列（表示）」、「フィルター」、「グループ化」タブに表示されるフィールドが含まれています。ビュー内の列、フィルターの基準、グループ化の共通属性を識別するのに役立つ、Bean 関係の直感的なマッピングを提供します。</td> 
   </tr> 
   <tr> 
    <td>キャメルケース</td> 
@@ -319,23 +319,23 @@ Workfront レポートを参照する際には、次の用語が使用されま�
   </tr> 
   <tr> 
    <td>式</td> 
-   <td>式とは、テキストモードインターフェイスを使用して検索または表示する情報を伝えるために、テキストモードで記述された数式です。 これは通常、より大きなテキストモード文の中の 1 行です。</td> 
+   <td>「式」は、テキストモードインターフェイスを使用して検索または表示する情報を伝える、テキストモードで記述される式です。これは通常、より大きなテキストモード文の中の 1 行です。</td> 
   </tr> 
   <tr> 
    <td>フィールド</td> 
-   <td> <p>オブジェクトの属性を参照します。例えば、「ステータス」は、プロジェクト、タスク、またはタスクのフィールドです。 「ポートフォリオマネージャー」は、ポートフォリオオブジェクトのフィールドです。</p> <p>また、自分で作成し、カスタムフォームに追加するカスタムフィールドを持つこともできます。<br>カスタムフォームの作成について詳しくは、 <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>.</p> </td> 
+   <td> <p>オブジェクトの属性を参照します。例えば、「ステータス」はプロジェクト、タスク、またはイシューのフィールドです。「ポートフォリオマネージャー」は、ポートフォリオオブジェクトのフィールドです。</p> <p>また、独自に作成してカスタムフォームに追加する、カスタムフィールドを持つこともできます。<br>カスタムフォームの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>の記事を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>フィールド名 </td> 
-   <td>ビューに表示される、またはフィルターの条件で使用される、またはグループ化の共通要素として使用される属性の値。 フィールド名のオプションは、フィールドソースの選択項目によって異なります。</td> 
+   <td>ビューに表示される値、フィルターの条件で使用される値またはグループ化の共通要素として使用される属性の値。フィールド名のオプションは、フィールドソースの選択項目によって異なります。</td> 
   </tr> 
   <tr> 
    <td>フィールドソース </td> 
-   <td>ビューに表示される、またはフィルターの条件で使用される、またはグループ化の共通要素として使用されるオブジェクトの値。 フィールドソースのオプションは、作成する UI 要素のオブジェクトタイプによって異なります。 フィールドソースを使用すると、UI 要素のオブジェクトタイプ以外のオブジェクトから属性を参照できます。</td> 
+   <td>ビューに表示される値、フィルターの条件で使用される値またはグループ化の共通要素として使用されるオブジェクトの値。フィールドソースのオプションは、作成する UI 要素のオブジェクトタイプに応じて異なります。フィールドソースを使用すると、UI 要素のオブジェクトタイプ以外のオブジェクトから属性を参照できます。</td> 
   </tr> 
   <tr> 
    <td>フィルター</td> 
-   <td>レポートに表示する結果を決定するメインレポート要素です。</td> 
+   <td>レポートに表示する結果を決定するメインレポート要素。</td> 
   </tr> 
   <tr> 
    <td>フォーム </td> 
@@ -343,15 +343,15 @@ Workfront レポートを参照する際には、次の用語が使用されま�
   </tr> 
   <tr> 
    <td>グループ化 </td> 
-   <td>結果のリストの編成方法を識別するメインレポート要素。 グループ化により、レポート全体で横棒グラフが作成され、結果を作成時に定義した共通の属性でグループ化します。 グループ化は、データを集計するためにマトリックスレポートで使用され、グラフの軸を決定するためにも使用されます。</td> 
+   <td>結果のリストの編成方法を識別するメインレポート要素。グループ化では、レポート全体に水平方向のバーを作成し、結果の作成時に定義した共通の属性でグループ化します。グループ化は、データを集計するためにマトリックスレポートで使用され、グラフの軸を決定するためにも使用されます。</td> 
   </tr> 
   <tr> 
    <td>オブジェクトまたはオブジェクトタイプ</td> 
-   <td> オブジェクトは、Workfrontのアプリケーション要素です（例えば、プロジェクト、タスク、グループ、会社、フィルター）。 「オブジェクトタイプ」は、新しいレポートの作成、表示、フィルターまたはグループ化の際に使用し、レポートの対象となるオブジェクトを特定します。 レポートで使用できるオブジェクトタイプは 1 つだけです。これはレポートのメインオブジェクトです。<br>親オブジェクトは同じレポート内で参照できます。<br>オブジェクトの階層の詳細については、この記事の「相互依存関係とオブジェクトの階層について」の節を参照してください。 <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfrontオブジェクトの概要</a>.</td> 
+   <td> オブジェクトは、Workfront アプリケーション要素（例えば、プロジェクト、タスク、グループ、会社、フィルター）です。オブジェクトタイプは、新しいレポート、表示、フィルターまたはグループを作成する際に使用し、レポートの対象となるオブジェクトを特定します。レポートで使用できるオブジェクトタイプは 1 つだけです。これはレポートのメインオブジェクトです。<br>親オブジェクトは同じレポート内で参照できます。<br>オブジェクトの階層について詳しくは、<a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront のオブジェクトの概要</a>の記事の「相互依存関係とオブジェクトの階層について」の節を参照してください。</td> 
   </tr> 
   <tr> 
    <td>プロンプト</td> 
-   <td> <p>レポートを実行するたびに異なるフィルターを使用する必要がある場合に、レポートに追加できるオプションのレポート要素です。</p> <p>プロンプトについて詳しくは、<a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">レポートへのプロンプトの追加</a>を参照してください。</p> </td> 
+   <td> <p>レポートの実行時に毎回異なるフィルターを使用する必要がある場合に、レポートに追加できるオプションのレポート要素です。</p> <p>プロンプトについて詳しくは、<a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">レポートへのプロンプトの追加</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>修飾子または条件修飾子</td> 
@@ -359,24 +359,24 @@ Workfront レポートを参照する際には、次の用語が使用されま�
     <ul> 
      <li>「フィルター」タブ</li> 
      <li>「列（表示）」タブ内の列に対する詳細オプション画面。修飾子を定義すると、フィールド名を別のフィールドまたは値と比較できます。</li> 
-     <li> カスタムプロンプトで<br><p>プロンプトについて詳しくは、<a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">レポートへのプロンプトの追加</a>を参照してください。</p>.</li> 
+     <li> カスタムプロンプト内<br><p>プロンプトについて詳しくは、<a href="/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md" class="MCXref xref">レポートへのプロンプトの追加</a>を参照してください。</p>.</li> 
     </ul> <p>例えば、予定完了日が本日のタスクのフィルターを作成する場合、「修飾子」フィールドで「<strong>次と等しい</strong>」を選択し、「日付」フィールドで今日の日付を選択します。</p> <p><em>タスク／予定完了日／次と等しい／（今日の日付）</em> </p> <p>このシナリオでは、修飾子は「<strong>次と等しい</strong>」になります。<br>修飾子について詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md" class="MCXref xref">フィルターおよび条件修飾子</a>の記事を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>レポート </td> 
-   <td>ビュー、フィルター、および（場合によっては）グループ化の組み合わせ。 レポートの目的は、インターフェイス全体で一貫したデータを表示し、情報を配布し、同じ検索やクエリを定期的に実行する必要性をなくすことです。</td> 
+   <td>ビュー、フィルター、およびグループ化（場合による）の組み合わせ。レポートの目的は、インターフェイス全体で一貫したデータを表示し、情報を配布し、同じ検索やクエリを定期的に実行する必要性をなくすことです。</td> 
   </tr> 
   <tr> 
    <td>ステートメント</td> 
-   <td>テキストモードの使用時にレポートに表示する情報を定義するために組み合わされた複数の式で構成されます。レポート内のカスタムプロンプトのビュー、フィルタ、グループ化、またはカスタムプロンプトに対してステートメントを作成できます。</td> 
+   <td>テキストモードの使用時にレポートに表示する情報を定義するために組み合わされた複数の式で構成されます。レポート内のビュー、フィルター、グループ化、またはカスタムプロンプトに対してステートメントを作成できます。</td> 
   </tr> 
   <tr> 
    <td>概要</td> 
-   <td>これは、レポートを保存した後の、レポートのタブの 1 つです。このタブは、レポートのグループ化を定義した場合にのみ作成されます。 レポートの作成時に定義したグループ化に基づく情報の概要を示し、レポートの集計オブジェクトの概要をすばやく確認できます。 レポート内のすべてのオブジェクトが表示されるわけではなく、集計されたオブジェクトのみが表示されます。</td> 
+   <td>これは、レポートを保存した後の、レポートのタブの 1 つです。このタブは、レポートのグループ化を定義した場合にのみ作成されます。レポートの作成時に定義したグループ化に基づく情報の概要を示し、レポートの集計オブジェクトの概要を素早く確認できます。レポート内のすべてのオブジェクトが表示されるのではなく、集計されたオブジェクトのみが表示されます。</td> 
   </tr> 
   <tr> 
    <td>テキストモードインターフェイス</td> 
-   <td>最初にビルダーインターフェイスを使用して作成されたカスタムビュー、フィルター、グループ化、プロンプトのコードを作成または変更する機能を提供します。 高度なビュー、フィルター、グループ化、プロンプトのコーディングを簡単にするために、レポート要素は、最初はビルダーインターフェイスを使用して作成し、保存後にテキストモードに変換することをお勧めします。</td> 
+   <td>ビルダーインターフェイスで最初に作成したカスタムビュー、フィルター、グループ化、およびプロンプトのコードを作成または変更する機能を備えています。レポート要素は、最初にビルダーインターフェイスを使用して作成することをお勧めします。それらを保存した後にテキストモードに変換すると、詳細なビュー、フィルター、グループ化、またはプロンプトのコーディングが容易になります。</td> 
   </tr> 
   <tr> 
    <td>ユーザーインターフェイス（UI）</td> 

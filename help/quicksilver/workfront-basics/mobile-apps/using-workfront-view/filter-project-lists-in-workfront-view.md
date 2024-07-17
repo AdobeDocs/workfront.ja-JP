@@ -8,8 +8,8 @@ description: デフォルトで、 [!DNL Adobe Workfront]  ビューでは  [!DN
 author: Nolan
 exl-id: 78efce1a-f144-4e47-bd7e-c0347e016bea
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: ht
-source-wordcount: '329'
+workflow-type: tm+mt
+source-wordcount: '328'
 ht-degree: 100%
 
 ---

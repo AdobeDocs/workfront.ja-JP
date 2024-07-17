@@ -6,8 +6,8 @@ draft: Probably
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 70e1b54b-2bf9-498a-8a77-9b220543e385
 source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
-workflow-type: ht
-source-wordcount: '316'
+workflow-type: tm+mt
+source-wordcount: '320'
 ht-degree: 100%
 
 ---

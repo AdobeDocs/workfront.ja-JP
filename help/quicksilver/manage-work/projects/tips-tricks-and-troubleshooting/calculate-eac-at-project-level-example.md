@@ -8,8 +8,8 @@ author: Alina
 feature: Work Management
 exl-id: ff88b7e3-2a5b-464f-bed1-6848067840b8
 source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
-workflow-type: ht
-source-wordcount: '1768'
+workflow-type: tm+mt
+source-wordcount: '2194'
 ht-degree: 100%
 
 ---
@@ -518,9 +518,9 @@ EAC メソッド = プロジェクトレベルで計算
    <th> <br> <p><strong>タスク</strong> </p> </th> 
    <th> <br> <p><strong>予定時間数</strong> </p> </th> 
    <th> <br> <p><strong>予定労力コスト</strong> </p> </th> 
-   <th> <br> <p><strong>実際の時間数</strong> </p> </th> 
+   <th> <br> <p><strong>実時数</strong> </p> </th> 
    <th> <br> <p><strong>実際の労力コスト</strong> </p> </th> 
-   <th> <p><strong>完了率（％）</strong> </p> </th> 
+   <th> <p><strong>完了率</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -758,8 +758,8 @@ EAC メソッド = プロジェクトレベルで計算
  <thead> 
   <tr> 
    <th> <p><strong>タスク</strong> </p> </th> 
-   <th> <p><strong>未発生の予定コスト</strong> </p> </th> 
-   <th> <p><strong>発生した予定コスト</strong> </p> </th> 
+   <th> <p><strong>未発生の予定費用</strong> </p> </th> 
+   <th> <p><strong>発生した予定費用</strong> </p> </th> 
    <th> <p><strong>発生した実際の費用</strong> </p> </th> 
   </tr> 
  </thead> 

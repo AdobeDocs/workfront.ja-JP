@@ -10,7 +10,7 @@ exl-id: d4411916-7f58-4174-b9a5-f19cde181d8b
 source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
 workflow-type: tm+mt
 source-wordcount: '868'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ Workfront Professional プラン以上を持つすべてのお客様は、この
 
 >[!NOTE]
 >
->次のビデオで概要を説明する統合の一部のエリアを変更しました。Microsoft Teams向けWorkfrontの最新情報については、 [[!DNL Adobe Workfront for Microsoft Teams]：記事インデックス](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) 」セクションに入力します。
+>次のビデオで概要を説明する統合の一部のエリアを変更しました。Workfront for Microsoft Teams の最新情報について詳しくは、[[!DNL Adobe Workfront for Microsoft Teams]: 記事インデックス](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)のセクションを参照してください。
 
 ## Adobe Creative Cloud 用 Workfront の統合を更新 {#updated-workfront-for-adobe-creative-cloud-integration}
 

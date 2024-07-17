@@ -7,8 +7,8 @@ author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
-workflow-type: ht
-source-wordcount: '594'
+workflow-type: tm+mt
+source-wordcount: '643'
 ht-degree: 100%
 
 ---
@@ -174,8 +174,8 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td scope="row">カスタムフォームを添付</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td scope="row">カスタムフィールドを編集</td> 
@@ -186,7 +186,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td scope="row">承認プロセスを作成</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -198,7 +198,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td scope="row">財務情報を編集*</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -227,8 +227,8 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   </tr> 
   <tr> 
    <td scope="row">システム全体で共有</td> 
-   <td> </td> 
-   <td> </td> 
+   <td> </td> 
+   <td> </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

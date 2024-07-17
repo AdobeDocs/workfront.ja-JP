@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: レポートを作成および管理する
-description: レポートの作成と管理について説明します
+description: レポートの作成および管理を学ぶ
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -11,7 +11,7 @@ exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '127'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

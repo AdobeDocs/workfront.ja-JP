@@ -10,7 +10,7 @@ exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
 source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
 workflow-type: tm+mt
 source-wordcount: '2544'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -95,7 +95,7 @@ To download this page in PDF&nbsp;format, go
 
 >[!NOTE]
 >
->ワークロードバランサーは、2019.4 リリースでベータ版としてリリースされ始めました。2020.2 リリースでは、ワークロードバランサーのすべての機能強化が一般に提供されます。2020.2 リリースで追加された機能強化は次のとおりです。ワークロード・バランサの概要については、 [ワークロードバランサーの概要](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>ワークロードバランサーは、2019.4 リリースでベータ版としてリリースされ始めました。2020.2 リリースでは、ワークロードバランサーのすべての機能強化が一般に提供されます。2020.2 リリースで追加された機能強化は次のとおりです。ワークロードバランサーの概要について詳しくは、[ワークロードバランサーの概要](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md)を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -146,7 +146,7 @@ To download this page in PDF&nbsp;format, go
    <td> <p>ベータ版プレビューリリース：2020年4月10日（PT）</p> <p>実稼動版リリース：2020.2 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス（以前利用可能）</p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md#removing" class="MCXref xref" xrefformat="{para}">ワークロードバランサーから「ベータ」ラベルを削除する </a> </p> <p>2020.2 リリースでは、ワークロードバランサーは、ベータ状態ではなくなり、リソースの割り当てと配分の確認と管理にリソースバランサーを使用できるようになります。プレビュー環境で「ベータ版」ラベルが削除されました。同じ変更は、20.2 実稼動リリースでも行われます。ワークロード・バランサの詳細は、 <a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref" xrefformat="{para}">ワークロードバランサーの概要</a>.</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-resource-management.md#removing" class="MCXref xref" xrefformat="{para}">ワークロードバランサーから「ベータ版」ラベルを削除</a> </p> <p>2020.2 リリースでは、ワークロードバランサーは、ベータ状態ではなくなり、リソースの割り当てと配分の確認と管理にリソースバランサーを使用できるようになります。プレビュー環境で「ベータ版」ラベルが削除されました。同じ変更は、20.2 実稼動リリースでも行われます。ワークロードバランサーのについて詳しくは、<a href="../../../resource-mgmt/workload-balancer/overview-workload-balancer.md" class="MCXref xref" xrefformat="{para}">ワークロードバランサーの概要</a>を参照してください。</p> </td> 
    <td> <p>ベータ版プレビューリリース：2020年5月8日（PT）</p> <p>実稼動版リリース：2020.2 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 

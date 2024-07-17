@@ -8,7 +8,7 @@ exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 source-git-commit: 0483230c5d8b7d33f420c6c5f09c4a5aafe37f37
 workflow-type: tm+mt
 source-wordcount: '1152'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 91%
 
 >[!WARNING]
 >
->指定したリストに正確なタイムゾーンが見つからない場合は、最も近いタイムゾーンを探し、インスタンスに合わせて更新します。
+>提供されているリストに正確なタイムゾーンが見つからない場合は、自身に最も近いタイムゾーンを見つけ、インスタンスに合わせて更新します。
 >
->また、同様のタイムゾーンが完全には一致しない場合があると考えてください。
+>また、同様のタイムゾーンであっても、自身のタイムゾーンと完全には一致しない可能性があることも考慮してください。
 >
->例えば、一部の国や地域では夏時間が守られますが、お住まいの国では守られない場合があります。 必要に応じて、これらの変更に従ってシステムのタイムゾーンを調整する必要が生じる場合があります。
+>例えば、一部の国や地域では夏時間が適用され、お客様の国では適用されていない可能性があります。必要に応じ、これらの変更に従ってシステムのタイムゾーンを調整する必要がある場合があります。
 
 
 ## [!DNL Workfront] のタイムゾーン
@@ -111,7 +111,7 @@ ht-degree: 91%
 
 カスタムフォームで一連の計算カスタムフィールドを使用して、複数の都市の時刻を表示する空港時計の列のように、組織のユーザーの現在時刻を表示できます。ユーザーが作業するタイムゾーンごとにフィールドを作成し、それぞれのタイムゾーンの時刻を各フィールドで計算できます。
 
-詳しくは、 [計算データをカスタムフォームに追加する](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を追加し、セクションを [日付と時刻の計算されたカスタムフィールド](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) 記事内 [計算データ式の概要](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+詳しくは、[計算済みデータをカスタムフォームに追加](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)と、[計算データ式の概要](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)の記事の[日時計算カスタムフィールド](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date)の節を参照してください。
 
 ### カスタムフォームで日付フィールドの代わりにテキストフィールドを使用 {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

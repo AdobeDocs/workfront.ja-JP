@@ -9,8 +9,8 @@ author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
 source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
-workflow-type: ht
-source-wordcount: '1766'
+workflow-type: tm+mt
+source-wordcount: '1764'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 | **自分の項目** |  |  |  |  | **他のユーザーの項目** |  |  | **管理** | **請求** |
 |---|---|---|---|---|---|---|---|---|---|
-|   | **追加** | **表示** | **編集** | **削除** | **表示** | **編集** | **削除** | **編集と削除** | **編集** |
+|   | **追加** | **ビュー** | **編集** | **削除** | **ビュー** | **編集** | **削除** | **編集と削除** | **編集** |
 | 請求管理者 | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |
 | 管理者 | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |
 | スーパーバイザ－ | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |
@@ -118,11 +118,11 @@ ht-degree: 100%
 
 ![](assets/cleaner2.png)アカウント設定ページにアクセスし、アカウントの詳細を編集できます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) でのアカウント設定を参照してください。
 
-![](assets/cleaner2.png)ごみ箱を空にできます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) のごみ箱のアイテムの復元と完全削除を参照してください。
+![](assets/cleaner2.png)ごみ箱を空にできます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
 
-![](assets/cleaner2.png)ユーザーを追加、編集、削除できます。
+![](assets/cleaner2.png)ユーザーを追加、編集および削除できます。
 
-![](assets/cleaner2.png)グループを作成し、連絡先を新規に追加できます。
+![](assets/cleaner2.png)グループを作成し、新しい連絡先を追加できます。
 
 ![](assets/cleaner2.png)連絡先を削除できます。
 
@@ -252,11 +252,11 @@ ht-degree: 100%
 
 ![](assets/no2.png)組織で作成された項目は削除できません。
 
-![](assets/no2.png)請求ページまたはアカウント設定にはアクセスできません。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と [ アカウント設定を参照してください。
+![](assets/no2.png)請求ページまたはアカウント設定にはアクセスできません。詳しくは、[ [!DNL Workfront Proof]  の請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と [ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) でのアカウント設定を参照してください。
 
 ![](assets/no2.png)ドロップゾーンの所有者として設定できません。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でのドロップゾーンの設定を参照してください。
 
-![](assets/no2.png)ごみ箱を空にすることはできません。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
+![](assets/no2.png)ごみ箱を空にすることはできません。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でのごみ箱の復元と削除を参照してください。
 
 ![](assets/no2.png)ユーザーを追加、編集、削除できません。
 

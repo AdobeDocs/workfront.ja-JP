@@ -11,23 +11,23 @@ exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
 source-git-commit: 1b90566477eb57b97f3484ed7f0eeed5c88c495f
 workflow-type: tm+mt
 source-wordcount: '583'
-ht-degree: 77%
+ht-degree: 85%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] ライセンス
 
-[!DNL Workfront Fusion] には、新しい運用ベースのモデルとレガシーコネクタベースのモデルの 2 つのライセンスモデルがあります。
+[!DNL Workfront Fusion] には、新しい操作ベースのモデルおよび従来のコネクタベースのモデルの 2 つのライセンスモデルがあります。
 
-## 運用ベースのライセンスモデル（新規）
+## 操作ベースのライセンスモデル（新規）
 
-新しい [!DNL Workfront Fusion] ライセンスモデルは、組織が使用する操作の数に基づいています。 このモデルでは、すべての組織が同じ機能にアクセスできます。
+新しい [!DNL Workfront Fusion] ライセンスモデルは、組織が使用する操作の数に基づいています。このモデルでは、すべての組織が同じ機能にアクセスできます。
 
 組織がWorkfront Ultimate プランを持っている場合、お使いの Fusion インスタンスはお使いのプランに含まれ、1 か月あたりの Fusion の操作数に制限はありません。 Workfront Prime または Select プランをお持ちの場合、Fusion を購入でき、1 か月に実施した業務回数に基づいて料金が決まります。
 
-新しいライセンスモデルでの操作としてカウントされるものについては、を参照してください。 [の操作 [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
+新しいライセンスモデルでの操作としてカウントされる項目について詳しくは、[ [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md) での操作を参照してください。
 
-## コネクタベースのライセンスモデル（レガシー）
+## コネクタベースのライセンスモデル（従来）
 
 [!DNL Adobe Workfront Fusion] の従来のライセンスモデル、[!DNL Fusion] には、アクセス可能な機能を決定する 2 種類のライセンスが用意されています。[!DNL Workfront Fusion] の購入時に組織がこれらのライセンスの 1 つを選択しました
 
@@ -44,9 +44,9 @@ ht-degree: 77%
 
 #### [!DNL Workfront Fusion for Work Automation] のメリット
 
-[!DNL Workfront Fusion for Work Automation] ライセンスを使用すると、[!DNL Workfront] ワークフローを自動化できます。使用 [!DNL Workfront Fusion for Work Automation]を使用すると、組織固有の作業プロセスを自動化するシナリオを作成できます。
+[!DNL Workfront Fusion for Work Automation] ライセンスを使用すると、[!DNL Workfront] ワークフローを自動化できます。[!DNL Workfront Fusion for Work Automation] を使用すると、組織固有の作業プロセスを自動化するシナリオを作成できます。
 
-を自動化するメリット [!DNL Workfront] プロセスには以下が含まれます。
+[!DNL Workfront] プロセスを自動化するメリットには、次のものがあります。
 
 * 自動処理は迅速で、エラーが発生しにくくなります。
 * 決定を必要としないワークフローや、決定を下すワークフローが if／then などのシンプルなロジックに基づいているワークフローは、自動処理に適しています。
@@ -91,7 +91,7 @@ ht-degree: 77%
 
 [!DNL Workfront Fusion for Work Automation and Integration] ライセンス版を使用すると、[!DNL Workfront Fusion for Work Automation] ライセンス版の機能すべてにアクセスできます。さらに、このライセンスを使用すると、シナリオで他のアプリやサービスを使用できます。例えば、[!DNL Workfront Fusion] を使用して [!DNL Jira] ジョブを読み込むプロセスを自動化し、ジョブを [!DNL Workfront] でタスクに変換できます。また、[!DNL Workfront Fusion] に専用のコネクタがなくても、[!UICONTROL HTTP] または [!UICONTROL SFTP] コネクタを使用して、ほぼすべての web サービスに接続することができます。
 
-の利点 [!DNL Workfront Fusion for Work Automation and Integration] ライセンスには以下が含まれています。
+[!DNL Workfront Fusion for Work Automation and Integration] ライセンスの利点には次のものがあります。
 
 * [!DNL Workfront Fusion for Work Automation and Integration] は [!DNL Workfront Fusion for Work Automation] に関連するすべての利点を含みます。
 * 統合により、ワークフローの完了時に様々なアプリに出入りする必要が減ります。

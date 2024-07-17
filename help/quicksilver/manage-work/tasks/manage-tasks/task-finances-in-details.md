@@ -7,8 +7,8 @@ author: Alina
 feature: Work Management
 exl-id: 54ae48e5-bc8c-4e90-8fa1-0015523df4e6
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '857'
+workflow-type: tm+mt
+source-wordcount: '856'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
@@ -98,7 +98,7 @@ ht-degree: 100%
         <li> <p>ユーザー (毎時) </p> </li> 
         <li> <p>役割（毎時） </p> </li> 
         <li> <p>固定 (毎時) </p> </li> 
-        <li> <p>ユーザー (毎時)（上限付き） </p> </li> 
+        <li> <p>ユーザー (毎時) (キャップ付き) </p> </li> 
         <li> <p>役割（毎時）（上限付き） </p> </li> 
         <li> <p>ユーザー（毎時）+ 固定 </p> </li> 
         <li> <p>役割（毎時）+ 固定 </p> </li> 

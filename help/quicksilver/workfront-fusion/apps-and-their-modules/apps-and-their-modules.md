@@ -42,7 +42,7 @@ ht-degree: 96%
 * [[!DNL Adobe Campaign Classic] モジュール](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
 * [[!DNL Adobe Creative Cloud Libraries] モジュール](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
 * [[!DNL Adobe Experience Manager Assets] モジュール](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
-* [Adobe I/Oイベントモジュール](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
+* [Adobe I/O イベント モジュール ](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
 * [[!DNL Adobe Journey Optimizer] モジュール](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
 * [Adobeプランニング・モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)

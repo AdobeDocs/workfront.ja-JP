@@ -3,7 +3,7 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: プルーフを作成する
-description: Adobe Workfrontでドキュメントの配達確認を作成できます。 Adobe Workfrontでドキュメントの配達確認を作成できます。 ドキュメント、インタラクティブコンテンツおよび Web サイトの配達確認を作成できます。 配達確認の作成方法については、次の記事を参照してください。
+description: Adobe Workfront でドキュメントのプルーフを作成できます。Adobe Workfront でドキュメントのプルーフを作成できます。ドキュメント、インタラクティブコンテンツ、web サイトのプルーフを作成できます。次の記事で、プルーフの作成方法について説明します。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -11,17 +11,17 @@ exl-id: c8cdde5a-75c3-48ae-ad22-0ee4fed591fc
 source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
 workflow-type: tm+mt
 source-wordcount: '133'
-ht-degree: 48%
+ht-degree: 100%
 
 ---
 
-# 配達確認の作成：記事のインデックス
+# プルーフの作成：記事のインデックス
 
 <!--Audited: 01/2024-->
 
-Adobe Workfrontでドキュメントの配達確認を作成できます。 ドキュメント、インタラクティブコンテンツおよび Web サイトの配達確認を作成できます。
+Adobe Workfront でドキュメントのプルーフを作成できます。ドキュメント、インタラクティブコンテンツ、web サイトのプルーフを作成できます。
 
-配達確認の作成方法については、次の記事を参照してください。
+次の記事で、プルーフの作成方法について説明します。
 
 * [基本ワークフローを使用した詳細プルーフの作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
 * [自動ワークフローを使用した詳細プルーフの作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

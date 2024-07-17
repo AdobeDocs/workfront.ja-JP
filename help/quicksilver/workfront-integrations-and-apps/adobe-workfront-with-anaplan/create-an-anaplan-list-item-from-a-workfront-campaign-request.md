@@ -7,8 +7,8 @@ author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
 source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
-workflow-type: ht
-source-wordcount: '730'
+workflow-type: tm+mt
+source-wordcount: '731'
 ht-degree: 100%
 
 ---
@@ -50,17 +50,17 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-&#42;&#42;[!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+&#42;&#42;[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## イベントのトリガー
 
 このシナリオは、15 分ごとに実行されるようにスケジュールされています。
 
-## 予期される [!DNL Workfront] 設定
+## 想定される [!DNL Workfront] 設定
 
-このシナリオを使用するには、[!DNL Workfront] に次のものが必要です。
+このシナリオを使用するには、[!DNL Workfront] で以下のものが必要です。
 
 * システム管理者権限が付与されている、**[!UICONTROL [!DNL Anaplan]統合]**&#x200B;という名前の [!DNL Workfront] でのユーザープロファイル。
 
@@ -118,9 +118,9 @@ ht-degree: 100%
 
 ## 期待される [!DNL Anaplan] 設定
 
-このシナリオを使用するには、[!DNL Anaplan] に以下のものが必要です。
+このシナリオを使用するには、[!DNL Anaplan] で以下のものが必要です。
 
-* **[!UICONTROL [!DNL Workfront]統合]**&#x200B;という名前の [!DNL Anaplan] のユーザープロファイル。システム管理者権限が付与されています。
+* システム管理者権限が付与された **[!UICONTROL [!DNL Workfront]Anaplan Integration]** という名前の [!DNL Anaplan] のユーザープロファイル。
 * このシナリオに使用する [!DNL Anaplan] モデル。
 * キャンペーン予算を取得する [!DNL Anaplan] モデル内のリスト。
 

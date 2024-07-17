@@ -3,21 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: Fusion
 navigation-topic: workfront-fusion-navigation-topic
-title: 統合アクセステーブルテンプレート
-description: 統合アクセステーブルテンプレート
+title: Fusion アクセステーブルテンプレート
+description: Fusion アクセステーブルテンプレート
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: 0815b00da7b75691d1a40c2b32eb2b2c7bd1453c
+exl-id: 511c0831-a23f-4fbd-8c06-e4276c1c140d
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
 workflow-type: tm+mt
 source-wordcount: '13'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
-# 統合アクセステーブルテンプレート
+# Fusion アクセステーブルテンプレート
 
 <!--
 

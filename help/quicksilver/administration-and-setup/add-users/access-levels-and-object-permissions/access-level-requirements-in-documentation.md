@@ -8,8 +8,9 @@ description: Workfront ドキュメントの操作手順記事には、その手
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 77b30626f42adf8153d14ea9b1247da8085dcddf
-workflow-type: ht
+exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+workflow-type: tm+mt
 source-wordcount: '924'
 ht-degree: 100%
 
@@ -99,5 +100,3 @@ Workfront ドキュメントの操作手順記事には、その手順に必要�
   </tr> 
  </tbody> 
 </table>
-
-

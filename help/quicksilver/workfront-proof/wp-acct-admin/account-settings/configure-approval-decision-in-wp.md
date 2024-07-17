@@ -3,14 +3,14 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
 title: ' [!DNL Workfront Proof] での承認決定オプションの設定'
-description: で作成されるすべての配達確認に対して、承認の決定オプションを設定できます [!DNL Workfront Proof] 組織内のユーザー。
+description: 組織内の [!DNL Workfront Proof] ユーザーが作成したすべてのプルーフに対して承認決定オプションを設定できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9e1c2a4e-0641-4334-8ff9-dbb203ccbc82
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 

@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
-title: Adobe Campaign v7/v8 モジュール
+title: Adobe Campaign v7／v8 モジュール
 description: ' [!DNL Adobe Campaign]  モジュールを使用すると、 [!DNL Adobe Campaign]  アカウント内のイベントに基づいて  [!DNL Adobe Workfront Fusion]  シナリオを開始したり、契約書やその他の記録を作成、読み取り、アップデートしたり、設定した条件を使用して記録を検索したり、ドキュメントをアップロードしたりできます。'
 author: Becky
 feature: Workfront Fusion
@@ -12,7 +12,7 @@ exl-id: 84e8fa35-0c3c-46bd-8886-88c6d8d9e1d5
 source-git-commit: 7decc5cbf4bb2c3d4d1802dec1f369ca061f6b48
 workflow-type: tm+mt
 source-wordcount: '1434'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 
@@ -61,18 +61,18 @@ ht-degree: 86%
 
 ## 前提条件
 
-Fusion IP アドレスを次に追加する必要があります： [!DNL Adobe Campaign].
+Fusion IP アドレスを [!DNL Adobe Campaign] に追加する必要があります。
 
-* Campaign アドレスに IP アドレスを追加する手順については、次を参照してく許可リストに加えるださい。 [IP アドレスのへの許可リストに加える追加](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) (Adobe Campaignドキュメント ) を参照してください。
-* に追加する IP アドレスのリストについては、次を参照し許可リストに加えるてください： [Adobe Workfront Fusion にアクセスするための IP アドレス](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
+* Campaign の許可リストに IP アドレスを追加する手順については、Adobe Campaign ドキュメントの[許可リストへの IP アドレスの追加](https://experienceleague.adobe.com/ja/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list)を参照してください。
+* 許可リストに追加する IP アドレスのリストについては、[Adobe Workfront Fusion にアクセスするための IP アドレス](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md)を参照してください。
 
 ## [!DNL Adobe Campaign] を [!DNL Adobe Workfront Fusion] に接続
 
 >[!IMPORTANT]
 >
->サーバー間接続を作成することを強くお勧めします。 Adobe Campaignは、サーバー間接続のみを受け入れるように API を更新しました。 Campaign のバージョン 8 以降に接続する場合は、 **必須** サーバー間接続を作成します。
+>サーバー間接続を作成することを強くお勧めします。Adobe Campaign は、サーバー間接続のみを受け入れるように API をアップデートしました。Campaign バージョン 8 以降に接続する場合、サーバー間接続を作成する&#x200B;**必要**&#x200B;があります。
 >
->Campaign の新しい接続要件について詳しくは、 [Campaign の技術オペレーターのAdobe Developer Console への移行](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) （ Campaign ドキュメント内）を参照してください。
+>Campaign の新しい接続要件について詳しくは、Campaign ドキュメント内の [Campaign テクニカルオペレーターの Adobe Developer Console への移行](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html?lang=ja)を参照してください。
 
 1. 任意の [!DNL Adobe Campaign] モジュールで、「[!UICONTROL 接続]」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. 次のフィールドに入力します。
@@ -100,22 +100,22 @@ Fusion IP アドレスを次に追加する必要があります： [!DNL Adobe 
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Username]</td>
-          <td>基本的な接続を作成する場合は、Adobe Campaignユーザー名を入力します。</td>
+          <td>基本接続を作成する場合は、Adobe Campaign のユーザー名を入力します。</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Password]</td>
-          <td>基本的な接続を作成する場合は、Adobe Campaignのパスワードを入力します。</td>
+          <td>基本接続を作成する場合は、Adobe Campaign のパスワードを入力します。</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>サーバー間接続を作成する場合は、 [!DNL Adobe] [!UICONTROL クライアント ID]。 これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。</td>
+          <td>サーバー間接続を作成する場合は、[!DNL Adobe] [!UICONTROL Client ID] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。</td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>サーバー間接続を作成する場合は、 [!DNL Adobe] [!UICONTROL クライアント秘密鍵 ]。 これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
+          <td>サーバー間接続を作成する場合は、[!DNL Adobe] [!UICONTROL Client Secret] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL 環境 ]</td>
+          <td role="rowheader">[!UICONTROL Environment]</td>
           <td>実稼動環境と非実稼動環境のどちらに接続するかを選択します。
         </tr>
         <tr>
@@ -179,7 +179,7 @@ Fusion IP アドレスを次に追加する必要があります： [!DNL Adobe 
 ### アクション
 
 * [[!UICONTROL レコードを作成]](#create-a-record)
-* [[!UICONTROL カスタム API 呼び出しを実行]](#make-a-custom-api-call)
+* [[!UICONTROL カスタム API 呼び出しの実行]](#make-a-custom-api-call)
 * [[!UICONTROL レコードを削除]](#delete-record)
 * [[!UICONTROL アクションを実行]](#perform-an-action)
 * [[!UICONTROL レコードの読み取り]](#-read-a-record)
@@ -215,7 +215,7 @@ Fusion IP アドレスを次に追加する必要があります： [!DNL Adobe 
 
 #### [!UICONTROL カスタム API 呼び出しの実行]
 
-このモジュールは、[!DNL Adobe Campaign] API に対してカスタム API 呼び出しを実行します。
+このアクションモジュールは、[!DNL Adobe Campaign] API へのカスタム API リクエストをモジュール化します
 
 <table style="table-layout:auto"> 
   <col/>
@@ -240,7 +240,7 @@ Fusion IP アドレスを次に追加する必要があります： [!DNL Adobe 
       <td>
         <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p>
         <p>例えば、 <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion]  が [!UICONTROL x-security] トークンヘッダーを自動的に追加します。</p>
+        <p>[!DNL Workfront Fusion] が [!UICONTROL x-security] トークンヘッダーを自動的に追加します。</p>
       </td>
     </tr>
     <tr>
@@ -273,7 +273,7 @@ Fusion IP アドレスを次に追加する必要があります： [!DNL Adobe 
 </table>
 
 
-#### [!UICONTROL アクションの実行]
+#### [!UICONTROL アクションを実行]
 
 このアクションモジュールは、[!DNL Adobe Campaign] API で、選択されたアクションをオブジェクトに対して実行します。
 

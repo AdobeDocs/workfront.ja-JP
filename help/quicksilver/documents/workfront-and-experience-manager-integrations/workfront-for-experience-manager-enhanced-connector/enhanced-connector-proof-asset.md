@@ -7,7 +7,7 @@ author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d72ac84f-1865-4122-bc77-d8200a4d0f69
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 100%
 
@@ -62,7 +62,7 @@ Experience Manager Assets からアセットをリンクしたら、プルーフ
 
 プルーフを作成するには、以下のように行います。
 
-1. プルーフが必要なプロジェクト、タスク、またはイシューに移動し、「**ドキュメント**」セクションをクリックします。
+1. プルーフが必要なプロジェクト、タスク、またはイシューに移動し、**ドキュメント**&#x200B;セクションをクリックします。
 1. ドキュメントにポインタを合わせて、ドキュメント名の下に表示される&#x200B;**プルーフを作成**&#x200B;リンクをクリックします。
 
    >[!NOTE]
@@ -83,8 +83,8 @@ Experience Manager Assets からアセットをリンクしたら、プルーフ
       <td role="rowheader">高度なプルーフ</td> 
       <td> <p>このオプションを使用すると、基本的または高度なワークフローを設定し、作成するプルーフの設定を変更できます。詳しくは、次を参照してください。 </p> 
        <ul> 
-        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">基本ワークフローを使用した詳細プルーフの作成</a> </p> </li> 
-        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">自動ワークフローを使用した詳細プルーフの作成</a> </p> </li> 
+        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">基本ワークフローを使用した高度なプルーフを作成</a> </p> </li> 
+        <li> <p><a href="../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md" class="MCXref xref">自動ワークフローを使用して高度なプルーフを作成</a> </p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -109,4 +109,4 @@ Experience Manager Assets からアセットをリンクしたら、プルーフ
 * バージョンの比較
 * プルーフの承認または却下
 
-プルーフツールを使用して実行できる操作について詳しくは、[Adobe Workfront 内でプルーフを確認](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。
+プルーフツールを使用して実行できる操作について詳しくは、[Adobe Workfront 内でのプルーフの確認](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)を参照してください。

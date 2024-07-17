@@ -9,7 +9,7 @@ exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
 source-git-commit: 72511f98e05c160e2ca69def8aa3a929ed62bb40
 workflow-type: tm+mt
 source-wordcount: '522'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 92%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -78,9 +78,9 @@ ht-degree: 92%
 1. 「**会社**」をクリックします。
 1. 会社レベルの請求料金の上書きを有効にしたプロジェクトに関連付けられている会社の名前をクリックします。
 1. 左側のパネルで「**請求料金**」をクリックします。
-1. を更新します。 **会社の請求率** 既存のジョブロールの開始日と終了日を入力し、Enter キーを押します。
+1. **会社の請求料**&#x200B;と、既存の担当業務の開始日と終了日を更新し、Enter を押します。
 
-   新しい日付有効な会社の請求率を追加するには、ジョブロールの請求率を選択し、 **編集**. 日付が有効な会社の請求料金について詳しくは、 [会社レベルでの担当業務請求料金の上書き](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)を参照してください。
+   新しい日付の有効な会社の請求料を追加するには、担当業務の請求率を選択して「**編集**」をクリックします。日付が有効な会社の請求料金について詳しくは、 [会社レベルでの担当業務請求料金の上書き](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)を参照してください。
 
 1. 1 つ以上のプロジェクトの会社の料金を更新するには、次のいずれかの操作を行います。
 

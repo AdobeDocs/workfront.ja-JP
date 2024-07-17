@@ -12,7 +12,7 @@ exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
 source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
 workflow-type: tm+mt
 source-wordcount: '462'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>接続方法については、 [!DNL NetSuite] Workfront Fusion へのアカウントについては、 <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">への接続の作成 [!DNL NetSuite] (Workfront Fusion NetSuite モジュール )</a> 」を参照してください。</p> </td> 
+   <td> <p>[!DNL NetSuite] アカウントを Workfront Fusion に接続する手順について詳しくは、この記事の <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Workfront Fusion NetSuite モジュールで [!DNL NetSuite] への接続の作成</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 

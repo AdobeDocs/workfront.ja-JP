@@ -9,7 +9,7 @@ exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
 source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
 source-wordcount: '1569'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 99%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -62,7 +62,7 @@ ht-degree: 99%
 
 * [テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
 * [テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [カスタム表示、フィルター、グループ化のサンプル：記事のインデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [カスタムビュー、フィルター、グループ化の例：記事インデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## グループ化でテキストモードを編集
 
@@ -87,7 +87,7 @@ ht-degree: 99%
 
    >[!TIP]
    >
-   標準のインターフェイスでは、最大 3 つのグループ化を追加できます。4 番目のグループ化を追加するには、テキストモードを使用する必要があります。また、Workfront では 4 つを超えるグループ化レベルを持つことはできません。
+   >標準のインターフェイスでは、最大 3 つのグループ化を追加できます。4 番目のグループ化を追加するには、テキストモードを使用する必要があります。また、Workfront では 4 つを超えるグループ化レベルを持つことはできません。
 
 1. グループ化するフィールドの名前を入力し始めます。
 
@@ -113,7 +113,7 @@ ht-degree: 99%
 
    >[!IMPORTANT]
    >
-   太字の行は必須です。
+   >太字の行は必須です。
 
    <!--
    <div class="example" data-mc-autonum="<b>Example: </b>" data-mc-conditions="QuicksilverOrClassic.Draft mode"> <span class="autonumber"><span><b>Example: </b></span></span>
@@ -149,7 +149,7 @@ ht-degree: 99%
 
    >[!TIP]
    >
-   テキストモードでのグループ化における主要な行は、テキストモードでのビューの作成に必要な行に似ています。
+   >テキストモードでのグループ化における主要な行は、テキストモードでのビューの作成に必要な行に似ています。
 
    <!--
    <note type="tip">  
@@ -230,8 +230,8 @@ ht-degree: 99%
 
    >[!TIP]
    >   
-   * リストを表示しているときにグループ化を手動で調整すると、ログアウトするまで Workfront に手動の設定が記憶されます。再度ログインすると、この設定に従ってリストが表示されます。
-   * グループ化の結果は、グラフ要素からアクセスした後で常に展開表示されます。
+   >* リストを表示しているときにグループ化を手動で調整すると、ログアウトするまで Workfront に手動の設定が記憶されます。再度ログインすると、この設定に従ってリストが表示されます。
+   >* グループ化の結果は、グラフ要素からアクセスした後で常に展開表示されます。
 
 1. 変更を保存しグループ化またはレポートの編集を続行する場合は、「**完了**」をクリックします。
 1. リスト内の「**グループ化の保存**」をクリックするか、「**保存して閉じる**」をクリックして、レポートを保存します。

@@ -9,7 +9,7 @@ exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '840'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Workfront には、リストやレポートを構成する要素がいく�
 * Workfront には、デフォルトで、様々なオブジェクトのフィルターが多数用意されています。
 * 自分が所有または管理するフィルターをカスタマイズできます。
 
-  フィルターについて詳しくは、「 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  フィルターについて詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)の記事を参照してください。
 
 ![フィルターアイコン](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 

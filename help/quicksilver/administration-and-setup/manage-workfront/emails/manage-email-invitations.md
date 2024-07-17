@@ -55,7 +55,7 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 

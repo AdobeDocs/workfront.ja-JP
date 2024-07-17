@@ -11,7 +11,7 @@ exl-id: 1dc9cb88-d1b9-4a67-91fb-be980cc1ccd1
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '1164'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 98%
 
 データストアの作成、編集、トラブルシューティングについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md) のデータストアを参照してください。
 
-Workfront Fusion のデータストアに関するビデオの紹介については、以下を参照してください。
+Workfront Fusion のデータストアの紹介ビデオについては、以下を参照してください。
 
 * [データストア](https://video.tv.adobe.com/v/3427029/){target=_blank}
 

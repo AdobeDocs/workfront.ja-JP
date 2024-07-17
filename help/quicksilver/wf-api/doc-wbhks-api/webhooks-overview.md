@@ -11,7 +11,7 @@ exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '209'
-ht-degree: 74%
+ht-degree: 100%
 
 ---
 
@@ -32,11 +32,11 @@ Web フックベースの統合のユーザーエクスペリエンスは、Goog
 
 **参照実装**
 
-新しい Web フック実装の開発をすぐに開始できるように、Workfrontでは参照実装の例を提供しています。 これらの例は、次の場所にあります。 [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). 例は Java ベースで、Workfrontがネットワークファイルシステム上でドキュメントに接続できるようにします。 
+新しい web フック実装の開発をすぐに開始できるように、Workfront では参照実装の例を提供しています。これらの例は、[https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app) にあります。これらは Java ベースの例で、Workfront からネットワークファイルシステム上のドキュメントに接続できるようにするものです。
 
 >[!NOTE]
 >
->GitHub のリソースは例に過ぎず、実装を実行できません。
+>GitHub で公開しているリソースは例に過ぎず、実装を実行することはできません。
 
 ## バージョン
 

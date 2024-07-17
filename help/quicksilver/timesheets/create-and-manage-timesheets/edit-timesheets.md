@@ -9,7 +9,7 @@ exl-id: e6cffe81-ab45-4c34-aafe-2f947f9a67fd
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 89%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -81,7 +81,7 @@ ht-degree: 89%
    >
    >   
    >   
-   * [レイアウトテンプレートを使用したフィルター、ビュー、およびグループ化をカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [レイアウトテンプレートを使用したフィルター、ビュー、およびグループ化をカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
@@ -114,12 +114,12 @@ ht-degree: 89%
      </tr>
 <tr> 
       <td role="rowheader"><strong>ステータス</strong> </td> 
-      <td> これはタイムシートの状態です。
-      タイムシートの状態に関するオプションとして、次のものが考えられます。 
-      <ul><li><b>開く</b>：タイムシートは開封済みで、時間エントリは編集できます。</li>
+      <td> これがタイムシートのステータスです。
+タイムシートのステータスについて、次のオプションがあります。 
+      <ul><li><b>オープン</b>：タイムシートを開いて、時間エントリを編集できます。</li>
       <li><b>送信済み</b>：指定された承認者にタイムシートが承認用に送信されます。</li>
       <li><b>却下</b>：タイムシートは承認者によって承認されず、ユーザーが時間エントリを編集できるようになりました。</li>
-      <li><b>閉じる</b>：タイムシートは、ユーザーによって閉じられているか、承認者によって承認されているため、閉じられました。 クローズ済みのタイムシートに時間を追加することはできません。</li>
+      <li><b>クローズ</b>：タイムシートは、ユーザーがクローズしたか、承認者が承認したためクローズされました。クローズされたタイムシートに時間を追加することはできません。</li>
    </td> 
      </tr> 
      <tr> 

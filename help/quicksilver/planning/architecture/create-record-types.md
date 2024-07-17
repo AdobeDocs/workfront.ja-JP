@@ -21,7 +21,7 @@ ht-degree: 82%
 
 レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。Workfront Planning では、組織のライフサイクルで必要な作業に関連するアイテムを示すカスタムレコードタイプを作成できます。
 
-レコードタイプについて詳しくは、を参照してください。 [レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+レコードタイプについて詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 
 ## アクセス要件
 
@@ -148,7 +148,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
 1. 次の情報を更新します。
 
-   * 「名称未設定のレコードタイプ」を、今後のレコードタイプの名前に置き換えます。 <!--did they bring back the field label here and did they rename it to "Name"-->
+   * 「名称未設定のレコードタイプ」を、今後のレコードタイプの名前に置き換えます。<!--did they bring back the field label here and did they rename it to "Name"-->
    * **説明**：レコードタイプに関する詳細情報を追加します。
    * レコードタイプに関連付けられたアイコンの色と形状を選択します。 次の操作を実行します。
       * 新しいレコードタイプを識別する色を選択します。これは、レコードタイプアイコンの色です。灰色はデフォルトで選択されています。
@@ -161,7 +161,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    ![](assets/record-type-card-with-description.png)
 
-1. （任意）レコードタイプカードにポインタを合わせ、 **詳細** アイコン ![](assets/more-menu.png) 右上隅のをクリックします。 **編集** レコードタイプに関する情報を変更します。
+1. （オプション）レコードタイプカードにポインタを合わせ、右上隅にある **詳細** アイコン ![](assets/more-menu.png) をクリックしてから、**編集** をクリックして、レコードタイプに関する情報を変更します。
 1. （オプション）レコードタイプカードをクリックして、レコードタイプのページを開きます。
 
    ![](assets/operational-record-type-blank.png)
@@ -184,7 +184,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    または
 
-   「」をクリックします **詳細** アイコン ![](assets/more-menu.png) レコードタイプ名の右側にあるをクリックします。 **編集** 名前を変更するか、情報を変更します。 詳しくは、を参照してください [レコードタイプを編集](/help/quicksilver/planning/architecture/edit-record-types.md).
+   レコードタイプ名の右側に ![](assets/more-menu.png) る **詳細** アイコンをクリックし、**編集** をクリックして名前を変更するか、情報を変更します。 詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
 1. （オプション）「**+ 新規レコード**」をクリックして、選択したレコードタイプのレコードを追加します。詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 1. （オプション）テーブルの右上隅にある「**+**」アイコンをクリックして、レコードタイプにさらにフィールドを追加します。

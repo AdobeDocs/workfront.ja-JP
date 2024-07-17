@@ -7,8 +7,8 @@ feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
-workflow-type: ht
-source-wordcount: '860'
+workflow-type: tm+mt
+source-wordcount: '859'
 ht-degree: 100%
 
 ---

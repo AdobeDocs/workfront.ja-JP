@@ -9,7 +9,7 @@ exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
 source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
 workflow-type: tm+mt
 source-wordcount: '608'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 83%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>プラン</td> 
   </tr> 
   <tr> 
@@ -76,13 +76,13 @@ ht-degree: 83%
 
 一部のイベント通知には、トリガーされるオブジェクトに応じて、複数の件名があります。
 
-例えば、「Somebone included me on a directed update」には 2 つの異なる件名があります。1 つ目はタスク、問題、テンプレートタスク、ドキュメント（「referenceObject」とも呼ばれます）、もう 1 つはポートフォリオ、プログラムなどのコメントを許可するオブジェクト（「topReferenceObject」とも呼ばれます）。
+例えば、「自分が更新を受信する対象者として追加されました」には 2 つの異なる件名行があります。1 つ目はタスク、イシュー、テンプレートタスクおよびドキュメント（「referenceObject」とも呼ばれる）に関するもので、2 つ目はオブジェクト（「topReferenceObject」とも呼ばれる）に関するもので、これはユーザーがポートフォリオ、プログラムなどのコメントを作成できるようにするものです。
 
 ![](assets/Ev-not-mult-subj-lines.png)
 
-タスク、イシュー、テンプレートタスクやドキュメントに関する会話にユーザーが含まれる場合は、最初の件名行を含むメールが生成されます。件名行には「referenceObject:name」が含まれ、システムはオブジェクトを定義し、適切な名前を件名フィールドに表示します。 メールの件名行は、「プロジェクト ABC 上のタスク 123 についてのコメント」のようになります。
+タスク、イシュー、テンプレートタスクやドキュメントに関する会話にユーザーが含まれる場合は、最初の件名行を含むメールが生成されます。件名行には「referenceObject:name」が含まれ、システムはオブジェクトを定義し、適切な名前を件名フィールドに表示します。メールの件名行は、「プロジェクト ABC 上のタスク 123 についてのコメント」のようになります。
 
-プロジェクトの会話に追加すると、2 番目の件名のメールが生成されます。件名行には「topReferenceObject:name」が含まれ、Workfrontは参照されたオブジェクトを識別し、件名内の「topReferenceObject:name」の代わりにそのオブジェクト名を返します。 メールの件名行は、「プロジェクト ABC についてのコメント」のようになります。
+プロジェクトの会話に追加すると、2 番目の件名のメールが生成されます。この場合、件名行には「topReferenceObject:name」が含まれ、Workfront は再び参照されたオブジェクトを識別し、件名内の「topReferenceObject:name」の代わりにそのオブジェクト名を返します。メールの件名行は、「プロジェクト ABC についてのコメント」のようになります。
 
 メールの件名行を編集し、どちらかの件名行にフィールドを追加するには、この記事にある[イベント通知のメール件名行をカスタマイズ](#customize-email-subject-lines-for-event-notifications)を参照してください。
 

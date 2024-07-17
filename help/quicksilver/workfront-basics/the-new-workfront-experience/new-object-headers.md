@@ -8,7 +8,7 @@ exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
 workflow-type: tm+mt
 source-wordcount: '3707'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -739,7 +739,7 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td role="rowheader">承認の [!UICONTROL Decision] エリア</td> 
-   <td> [!UICONTROL 決定 ] 領域は、ドキュメントヘッダーの右上隅に表示されます。この領域は、承認フェーズと、承認者、レビュー担当者、またはその両方によって異なります。 <ul><li> <p>承認者の場合は、次のアイコンを使用してドキュメントの承認を管理できます。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>承認の決定について詳しくは、 <a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">作業の承認</a>.</li><li><p>レビュー担当者の場合は、「レビューを完了」ボタンをクリックして、ドキュメントをレビューしたことを示すことができます。</p><p>ドキュメントのレビューについて詳しくは、 <a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">ドキュメントのレビュー</a>.</p></li><li>それ以外の場合は、この領域にはドキュメントの現在のレビューおよび承認ステータスが表示されます。</li><ul></p> </td> 
+   <td> [!UICONTROL Decisions] エリアは、ドキュメントヘッダーの右上隅に表示されます。このエリアは、承認フェーズと、自分が承認者であるか、レビュアーであるか、そのいずれでもないかによって異なります。 <ul><li> <p>承認者の場合は、次のアイコンを使用してドキュメントの承認を管理できます。</p> <p> <img src="assets/nwe-approvals-approve-16x18.png" style="width: 16;height: 18;"> [!UICONTROL Approve]</p> <p> <img src="assets/nwe-approvals-recall-16x16.png" style="width: 16;height: 16;"> [!UICONTROL Recall]</p> <p> <img src="assets/nwe-approvals-reject-16x19.png" style="width: 16;height: 19;"> [!UICONTROL Reject]</p> <p>承認の決定について詳しくは、<a href="../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">作業の承認</a>を参照してください。</li><li><p>レビュアーは、「レビューを完了」ボタンをクリックして、ドキュメントをレビューしたことを示すことができます。</p><p>ドキュメントのレビューについて詳しくは、<a href="../../review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md" class="MCXref xref">ドキュメントのレビュー</a>を参照してください。</p></li><li>それ以外の場合は、このエリアにはドキュメントの現在のレビューおよび承認のステータスが表示されます。</li><ul></p> </td> 
   </tr> 
  </tbody> 
 </table>

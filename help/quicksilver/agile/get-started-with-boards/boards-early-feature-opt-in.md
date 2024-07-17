@@ -10,13 +10,13 @@ exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
 source-git-commit: 3706921e4705a05d9d1fa18a3d242632b5e0616b
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Workfront] [!UICONTROL Boards] の初期の機能オプトイン
 
-の初期の機能オプトイン [!DNL Adobe Workfront] [!UICONTROL ボード] は 2022 年 7 月に発売されました。
+[!DNL Adobe Workfront] [!UICONTROL Boards] の早期機能オプトインが 2022年7月に開始されました。
 
 [!DNL Adobe Workfront] [!UICONTROL Boards] は、列やカードを含む共有ボードへのアクセスを提供することで、チームの共同作業を可能にする柔軟なツールです。
 
@@ -133,7 +133,7 @@ ht-degree: 92%
    <td>リリース済み</td>
   </tr>
   <tr>
-   <td>カードへのサブタスクの読み込み</td>
+   <td>カードでのサブタスクの読み込み</td>
    <td>リリース済み</td>
   </tr>
   <tr>
@@ -158,7 +158,7 @@ ht-degree: 92%
   </tr>
   <tr>
    <td>従来のかんばんカードのボードへの移行</td>
-   <td>この機能は、2023 年 5 月 18 日に実稼動環境で使用でき、初期の機能オプトインには含まれていません。</td>
+   <td>この機能は、2023年5月18日（PT）に実稼動環境で使用できるようになりました。早期機能オプトインには含まれません。</td>
   </tr>
   <tr>
    <td>ダイナミックボードの作成</td>
@@ -208,7 +208,7 @@ ht-degree: 92%
 
 ### 自社の組織が早期機能をオプトインしたかどうかを確認する方法を教えてください。
 
-お問い合わせ [!DNL Workfront] 管理者に問い合わせて、ボードの初期機能を有効にしているかどうかを確認してください。
+[!DNL Workfront] 管理者に問い合わせて、ボードの早期機能を有効にしているかどうかを確認してください。
 
 ### 早期機能は、特定のユーザーに対してのみ有効にできますか？
 

@@ -11,7 +11,7 @@ exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -50,7 +50,7 @@ POST/any/url
   <tr>
    <td>コード</td>
    <td>依存</td>
-   <td><p>ユーザーが「付与」ボタンをクリックした直後にAdobe Workfrontに送信された認証コード。 これは、grant_type が「authorization_code」の場合にのみ必要です。認証コードは短期間のみ有効で、通常は 10 分以内に期限が切れます。</p></td>
+   <td><p>ユーザーが「付与」ボタンをクリックした直後に Adobe Workfront に送信された認証コード。これは、grant_type が「authorization_code」の場合にのみ必要です。認証コードは短期間のみ有効で、通常は 10 分以内に期限が切れます。</p></td>
   </tr>
   <tr>
    <td>refresh_token</td>

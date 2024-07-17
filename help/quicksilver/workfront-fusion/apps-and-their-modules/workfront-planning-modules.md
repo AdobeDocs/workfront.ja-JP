@@ -5,7 +5,7 @@ product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront Planning モジュール
-description: を使用 [!DNL Adobe Workfront Planning] モジュールを使用する場合は、 [!DNL Adobe Workfront Fusion] シナリオに基づいて [!DNL Adobe] Workfront Planning のアカウント、契約およびその他のレコードの作成、読み取り、更新、設定した条件を使用したレコードの検索、ドキュメントのアップロードを行います。
+description: ' [!DNL Adobe Workfront Planning] modules を使用すると、 [!DNL Adobe Workfront Fusion] 2}Workfront Planning アカウント内のイベントに基づくシナリオの開始、契約書およびその他のレコードの作成、読み取り、更新、設定した条件を使用したレコードの検索、およびドキュメントのアップロードを行うことができます。 [!DNL Adobe] '
 author: Becky
 feature: Workfront Fusion
 hide: true
@@ -14,13 +14,13 @@ exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
 source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
 workflow-type: tm+mt
 source-wordcount: '1116'
-ht-degree: 50%
+ht-degree: 84%
 
 ---
 
 # [!DNL Adobe Workfront Planning] モジュール
 
-を使用 [!DNL Adobe Workfront Planning] モジュールを使用すると、Workfront Planning でトリガーが発生した場合にシナリオを作成できます。 また、レコードの作成、読み取り、更新、削除をおこなったり、 [!DNL Adobe Workfront Planning] アカウント。
+[!DNL Adobe Workfront Planning] モジュールを使用すると、Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 レコードを作成、読み取り、更新、削除したり、[!DNL Adobe Workfront Planning] アカウントへのカスタム API の呼び出しを実行したりできます。
 
 ## アクセス要件
 
@@ -67,15 +67,15 @@ ht-degree: 50%
 
 1. 任意の [!DNL Workfront Planning] モジュールで、「[!UICONTROL 接続]」ボックスの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. この接続の名前を入力します。
-1. 実稼動環境に接続するか、実稼動以外の環境に接続するかを選択します。
+1. 実稼動環境に接続するか、実稼動環境以外に接続するかを選択します。
 1. サービスアカウントと個人アカウントのどちらに接続するかを選択します。
 1. 「**[!UICONTROL SAML ログイン]**」をクリックして接続を作成し、モジュールに戻ります。
 
 ## [!DNL Adobe Workfront Planning] モジュールとそのフィールド
 
-### イベントを見る
+### イベントの監視
 
-このトリガー・モジュールは、Workfront Planning でレコード、レコード・タイプ、またはワークスペースが作成、更新、または削除されたときにシナリオを開始します。
+このトリガーモジュールは、Workfront Planning でレコード、レコードタイプまたはワークスペースが作成、更新または削除されたときにシナリオを開始します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -83,7 +83,7 @@ ht-degree: 50%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Webhook]</td>
-      <td>使用する Webhook を選択するか、「追加」をクリックして新しい Webhook を作成します。</td>
+      <td>使用する web フックを選択するか、「追加」をクリックして新しい web フックを作成します。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
@@ -91,21 +91,21 @@ ht-degree: 50%
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Object type]</td>
-      <td>レコード、レコードの種類、またはワークスペースを監視するかどうかを選択します。</td>
+      <td>レコード、レコードタイプまたはワークスペースを監視するかどうかを選択します。</td>
     </tr>
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL Events filters]</p> </td> 
-      <td> <p>選択した条件を満たすレコードのみを監視するフィルターを設定できます。</p> <p>各フィルターに対して、フィルターを評価するフィールド、演算子、およびフィルターに許可する値を入力します。AND ルールを追加すると、複数のフィルターを使用できます。</p> <p>メモ：既存の [!DNL Workfront] web フックのフィルターは編集できません。[!DNL Workfront] イベントのサブスクリプションに別のフィルターを設定するには、現在の web フックを削除し、新しい web フックを作成します。</p> <p>イベントフィルターについて詳しくは、 <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">のイベント購読フィルター [!DNL Workfront] &gt; [!UICONTROL イベントを監視 ] モジュール</a> ( Workfrontモジュールの記事 ) を参照してください。</p> </td> 
+      <td> <p>選択した条件を満たすレコードのみを監視するフィルターを設定できます。</p> <p>各フィルターに対して、フィルターを評価するフィールド、演算子、およびフィルターに許可する値を入力します。AND ルールを追加すると、複数のフィルターを使用できます。</p> <p>メモ：既存の [!DNL Workfront] web フックのフィルターは編集できません。[!DNL Workfront] イベントのサブスクリプションに別のフィルターを設定するには、現在の web フックを削除し、新しい web フックを作成します。</p> <p>イベントフィルターについて詳しくは、Workfront モジュール記事の <a href="/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref">[!DNL Workfront] &gt; [!UICONTROL Watch Events] モジュールのイベント購読フィルター </a> を参照してください。</p> </td> 
      </tr> 
     <tr>
-      <td role="rowheader">[!UICONTROL 監視するオブジェクト ]</td>
-      <td>新規を監視するかどうかを選択します。 レコードの更新、新規作成、更新、削除。</td>
+      <td role="rowheader">[!UICONTROL Objects to watch]</td>
+      <td>レコードの新規作成、更新、新規作成および更新、削除を監視するかどうかを選択します。</td>
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL この接続による更新を除外 ]</p>
+        <p>[!UICONTROL Exclude updates made by this connection]</p>
       </td>
-      <td>このオプションを有効にすると、このモジュールで使用される接続によって変更が行われた場合にシナリオがトリガーされなくなります。 これにより、このシナリオがトリガーアクションを実行した場合に、シナリオの別のインスタンスがトリガーされるのを防ぎます。</td> 
+      <td>このオプションを有効にすると、このモジュールが使用する接続によって変更が行われた場合にシナリオがトリガーされなくなります。これにより、このシナリオがトリガーアクションを実行した場合に、シナリオの別のインスタンスがトリガーされるのを防ぎます。</td> 
       </tr>
   </tbody>
 </table>
@@ -116,7 +116,7 @@ ht-degree: 50%
 
 >[!WARNING]
 >
->Workfront Planning でレコードタイプを削除すると、レコードタイプテーブル内のすべてのレコードも削除されます。
+>Workfront Planning でレコード・タイプを削除すると、レコード・タイプ・テーブル内のすべてのレコードも削除されます。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -128,14 +128,14 @@ ht-degree: 50%
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL レコードタイプ ID]</p>
+        <p>[!UICONTROL Record type ID]</p>
       </td>
       <td>削除するフィールドの ID を入力またはマッピングします。</td> 
       </tr>
   </tbody>
 </table>
 
-### カスタム API 呼び出しを実行
+### カスタム API 呼び出しの実行
 
 このモジュールは、[!DNL Adobe Workfront Planning] API に対してカスタム API 呼び出しを実行します。
 
@@ -152,7 +152,7 @@ ht-degree: 50%
         <p>[!UICONTROL Path]</p>
       </td>
       <td>
-        <p>https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/に対する相対パスを入力してください</p>
+        <p>https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/ に対する相対パスを入力します。</p>
       </td>
     </tr>
      <tr>
@@ -160,15 +160,15 @@ ht-degree: 50%
         <p>[!UICONTROL API version]</p>
       </td>
       <td>
-        <p>使用する API バージョンを選択します。 バージョンを選択しない場合、デフォルトで最新バージョンが使用されます。</p>
+        <p>使用する API バージョンを選択します。バージョンを選択しない場合、デフォルトで最新バージョンが使用されます。</p>
       </td>
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL API パスの上書き ]</p>
+        <p>[!UICONTROL API Path override]</p>
       </td>
       <td>
-        <p>https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/に対する相対パスを入力してください</p>
+        <p>https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/ に対する相対パスを入力します。</p>
       </td>
     </tr>
     <tr>
@@ -188,7 +188,7 @@ ht-degree: 50%
     <tr>
       <td role="rowheader">[!UICONTROL Query String]  </td>
       <td>
-        <p>クエリ文字列に追加するキーと値のペアごとに、 <b>項目を追加</b> キーと値を入力します。</p>
+        <p>クエリ文字列に追加するキーと値のペアごとに、「<b>項目を追加</b>」をクリックして、キーと値を入力します。</p>
       </td>
     </tr>
     <tr>
@@ -253,7 +253,7 @@ This action module retrieves a single field in Workfront Planning by its ID.
 
 ### レコードを作成
 
-この操作により、Workfront Planning に 1 つのレコードが作成されます。
+この操作を実行すると、Workfront Planning に 1 つのレコードが作成されます。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -265,15 +265,15 @@ This action module retrieves a single field in Workfront Planning by its ID.
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL レコードタイプ ID]</p>
+        <p>[!UICONTROL Record type ID]</p>
       </td>
-      <td>作成するレコードのタイプを入力またはマッピングします。 使用可能なレコードのタイプは、Workfront Planning アカウントに基づいています。</td> 
+      <td>作成するレコードのタイプを入力またはマッピングします。使用可能なレコードタイプは、Workfront Planning アカウントに基づいています。</td> 
       </tr>
      <tr>
       <td role="rowheader">
         <p>その他のフィールド</p>
       </td>
-      <td>これらのフィールドは、選択したレコードタイプに基づいています。</td> 
+      <td>これらのフィールドは、選択したレコードタイプに基づきます。</td> 
       </tr>
      <tr>
   </tbody>
@@ -281,7 +281,7 @@ This action module retrieves a single field in Workfront Planning by its ID.
 
 ### レコードの削除
 
-このアクションモジュールは、Workfront Planning で指定したレコードを削除します。
+このアクションモジュールは、Workfront Planning で指定されたレコードを削除します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -327,7 +327,7 @@ This action module retrieves all records from an [!DNL Adobe Workfront Planning]
 
 ### レコードを取得
 
-このアクションモジュールは、 [!DNL Adobe Workfront Planning]:ID で指定されます。
+このアクションモジュールは、[!DNL Adobe Workfront Planning] から、ID で指定された、1 つのレコードを取得します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -344,7 +344,7 @@ This action module retrieves all records from an [!DNL Adobe Workfront Planning]
   </tbody>
 </table>
 
-### レコードタイプ別にレコードを取得
+### レコードタイプ別にレコードの取得
 
 このアクションモジュールは、指定されたタイプのすべてのレコードを取得します。
 
@@ -374,7 +374,7 @@ This action module retrieves all records from an [!DNL Adobe Workfront Planning]
 
 ### レコードタイプの取得
 
-このアクションモジュールは、 [!DNL Adobe Workfront Planning] アカウント。
+このアクションモジュールは、[!DNL Adobe Workfront Planning] アカウント内のレコードタイプのリストを取得します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -387,9 +387,9 @@ This action module retrieves all records from an [!DNL Adobe Workfront Planning]
   </tbody>
 </table>
 
-### レコードを更新
+### レコードの更新
 
-この操作により、Workfront Planning の 1 つのレコードが更新されます。
+Workfront Planning 内の 1 つのレコードを更新します。
 
 <table style="table-layout:auto"> 
   <col/>
@@ -403,19 +403,19 @@ This action module retrieves all records from an [!DNL Adobe Workfront Planning]
       <td role="rowheader">
         <p>[!UICONTROL Record ID]</p>
       </td>
-      <td>更新するレコードのタイプを入力またはマッピングします。 使用可能なレコードのタイプは、Workfront Planning アカウントに基づいています。</td> 
+      <td>更新するレコードのタイプを入力またはマッピングします。使用可能なレコードタイプは、Workfront Planning アカウントに基づいています。</td> 
       </tr>
      <tr>
       <td role="rowheader">
         <p>その他のフィールド</p>
       </td>
-      <td>これらのフィールドは、選択したレコードタイプに基づいています。</td> 
+      <td>これらのフィールドは、選択したレコードタイプに基づきます。</td> 
       </tr>
      <tr>
   </tbody>
 </table>
 
-### レコードを検索
+### レコードの検索
 
 このアクションモジュールは、指定した条件に基づいてレコードのリストを取得します。
 

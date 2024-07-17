@@ -9,7 +9,7 @@ exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Workfront テスト環境で「レポート配信」オプションを設�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -83,7 +83,7 @@ Adobe Workfront テスト環境で「レポート配信」オプションを設�
 
 配信されたレポートがカスタム更新サンドボックスで生成されるかどうかは、「このテスト環境からEメールを受信する」設定が有効になっているかどうかで異なります。
 
-プレビュー環境からの E メールの有効化について詳しくは、「 [電子メール通知設定を表示および変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) 記事内 [独自の電子メール通知を変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+プレビュー環境からのメールを有効にする方法については、[自身のメール通知の変更](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)の記事の[メール通知設定を表示および変更](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view)の節を参照してください。
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 

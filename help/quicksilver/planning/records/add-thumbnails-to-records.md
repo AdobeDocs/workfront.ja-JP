@@ -82,7 +82,7 @@ ht-degree: 39%
 </tbody>
 </table>
 
-*詳細については、を参照してください [Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*詳しくは、[Workfornt ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## レコードのサムネールに関する考慮事項
 
@@ -124,9 +124,9 @@ ht-degree: 39%
    >
    >   プライマリフィールドは、テーブルビューの最初の列に表示されるフィールドです。プライマリフィールドは常にフリーズされ、非表示や再配置はできません。 プライマリフィールドが式フィールドの場合、「詳細」メニューで「サムネール」オプションを使用できません。
 
-   この **Upload** デフォルトでは、タブは次で開きます **サムネールを記録** ボックス。
+   「**サムネールを記録** ボックスにデフォルトで **アップロード** タブが開きます。
 
-   サムネールのアップロードについて詳しくは、「」を参照してください [詳細ページからのレコードへのサムネールの追加](#add-a-thumbnail-to-a-record-from-the-details-page) この記事では、手順 6 から開始します。 <!--see if this is accurate-->
+   サムネールのアップロードについて詳しくは、この記事の [ 詳細ページからレコードにサムネールを追加する ](#add-a-thumbnail-to-a-record-from-the-details-page) の手順 6 から始まる節を参照してください。<!--see if this is accurate-->
 
 <!--
    ![](assets/record-thumbnail-box-for-upload.png) 
@@ -164,12 +164,12 @@ ht-degree: 39%
 1. 任意のビューで、レコードをクリックして開きます。
 
    詳細プレビューボックスが表示されます。
-1. （任意） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) 右上隅
+1. （オプション）右上隅にある **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) クリックします。
 
    レコードの詳細ページが開きます。
-1. サムネール画像またはアイコンにポインタを合わせる ![](assets/record-thumbnail-icon-on-details-page.png)を選択し、 **詳細** メニュー ![](assets/more-menu.png) > **サムネールを編集**.
+1. サムネール画像またはアイコンの ![](assets/record-thumbnail-icon-on-details-page.png) にマウスポインターを置き、**詳細** メニュー ![](assets/more-menu.png)/**サムネールを編集** をクリックします。
 
-   この **Upload** デフォルトでは、タブは次で開きます **サムネールを記録** ボックス。
+   「**サムネールを記録** ボックスにデフォルトで **アップロード** タブが開きます。
 
    ![](assets/record-thumbnail-box-for-upload.png)
 
@@ -177,25 +177,25 @@ ht-degree: 39%
 
    または
 
-   クリック **画像の参照**&#x200B;を選択してから、追加する画像ファイルを探します。 ファイルはお使いのコンピューターに保存しておく必要があります。
+   **画像を参照**」をクリックして、追加する画像ファイルを参照します。 ファイルはお使いのコンピューターに保存しておく必要があります。
 
-1. （任意）に画像をアップロードした後 **サムネールを記録** ボックスで、サイジングツールを使用して画像を切り抜き、サイズを変更します。
-1. （任意） **新しい画像をアップロード** アイコン ![](assets/upload-new-image-icon.png) 別の画像をアップロードします。
-1. （任意） **ギャラリー** タブをクリックしてから、画像をクリックします。 画像ギャラリーは変更できません。
+1. （任意）「サムネールを記録 **ボックスに画像をアップロードした後**、サイジングツールを使用して画像を切り抜き、サイズを変更します。
+1. （オプション） **新しい画像をアップロード** アイコン ![](assets/upload-new-image-icon.png) をクリックして、別の画像をアップロードします。
+1. （オプション）「**ギャラリー**」タブをクリックして、画像をクリックします。 画像ギャラリーは変更できません。
 
    ![](assets/record-thumbnail-box-for-gallery.png)
 
-1. （オプション）サムネールを保存する前に削除するには、をクリックします **削除** アイコン ![](assets/remove-image-icon.png) 画像の右側。
+1. （オプション）サムネールを保存前に削除するには、画像の右側 ![](assets/remove-image-icon.png) ある **削除** アイコンをクリックします。
 
 1. 「**画像を使用**」をクリックして、画像をサムネールとして追加します。
-これにより、が閉じます **サムネールを記録** ボックス。
+これにより、「サムネールを記録 **ボックスが閉じ** す。
 サムネールは、レコードが表示されるWorkfront Planning の領域に表示されます。
 
    >[!TIP]
    >
    >   このビューにサムネールを表示するには、テーブル表示でサムネール フィールドを有効にする必要があります。 この機能は、デフォルトでは無効になっています。
 
-1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像の上にマウスポインターを置いて「 **詳細** メニュー ![](assets/more-menu.png)> **削除** アイコン ![](assets/remove-image-icon.png). サムネール画像が削除されます。
+1. （オプション）保存後にサムネールを削除するには、任意のビューのレコードをクリックして詳細ページを開き、サムネール画像にカーソルを置いて **詳細** メニュー ![](assets/more-menu.png)/**削除** アイコン ![](assets/remove-image-icon.png) をクリックします。 サムネール画像が削除されます。
 
 
 

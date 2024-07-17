@@ -7,8 +7,8 @@ author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
 source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
-workflow-type: ht
-source-wordcount: '548'
+workflow-type: tm+mt
+source-wordcount: '557'
 ht-degree: 100%
 
 ---

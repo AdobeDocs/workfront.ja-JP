@@ -805,7 +805,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
  </tbody> 
 </table>
 
-## カスタム API 呼び出しを実行
+## カスタム API 呼び出しの実行
 
 これは、PDFサービス API へのカスタム HTTP リクエストをモジュール化します。
 
@@ -827,7 +827,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion は、認証ヘッダーを自動的に追加します。</p> </td> 
+   <td> <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p> <p>例： <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion は認証ヘッダーを自動的に追加します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
@@ -835,7 +835,7 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Fields]</td> 
-   <td> <p>API 呼び出しに追加するフィールドごとに、をクリックします <b>項目を追加</b> とフィールドのキーとオプションの値を入力します。</p> <p>メモ：  <p><code>if</code> などの条件文を JSON で使用する場合は、条件文を引用符で囲みます。</p> 
+   <td> <p>API 呼び出しに追加する各フィールドについて、「<b> 項目を追加 </b> をクリックし、フィールドのキーとオプション値を入力します。</p> <p>メモ：  <p><code>if</code> などの条件文を JSON で使用する場合は、条件文を引用符で囲みます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

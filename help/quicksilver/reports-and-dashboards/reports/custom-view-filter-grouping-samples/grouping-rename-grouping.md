@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「グループ化：グループ化の表示名の編集」
-description: リストやレポートのグループ名を、より身近な名前に変更できます。
+description: リストやレポートのグループ化を、ユーザーにとってよりなじみのある名前に変更できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
 source-git-commit: 138181de2ad8257785773a5296bc5bcfc144a801
 workflow-type: tm+mt
 source-wordcount: '369'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -41,13 +41,13 @@ ht-degree: 73%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>
 
 <p>新規： </p>
    <ul>
-   <li> <p>グループを変更するコントリビューター </p></li>
-   <li><p>レポートを変更するための標準</p></li></ul>
+   <li> <p>グループ化を変更する場合は Contributor </p></li>
+   <li><p>レポートを変更する場合は Standard</p></li></ul>
 
 <p> 現在：</p>
    <ul>  
@@ -74,9 +74,9 @@ ht-degree: 73%
 プロジェクトのグループ化の表示名を変更するには、次の手順に従います。
 
 1. プロジェクトのリストに移動します。
-1. 次から： **グループ化** ドロップダウンメニューで、「 **新しいグループ化**.
+1. **グループ化**&#x200B;ドロップダウンメニューで「**新規グループ化**」を選択します。
 
-1. クリック **グループを追加**&#x200B;をクリックし、「Portfolio名」と入力します。 **最初の基準：** フィールドに値を入力し、リストに表示されるときに選択します。
+1. 「**グループ化を追加**」をクリックし、「**第 1 の基準：**」フィールドに「ポートフォリオ名」と入力していき、リストに表示されたら選択します。
 
 1. 「**テキスト モードに切り替える**」をクリックします。
 1. 次のいずれかの操作を行います。
@@ -101,7 +101,7 @@ ht-degree: 73%
 
      >[!TIP]
      >
-     >また、 `group.0.name=` そして `group.0.displayname=` 行が空白の場合、グループ化にはグループ化の基準となる値が表示されます。
+     >また、`group.0.name=` と `group.0.displayname=` の行を空白にすることもできます。この場合、グループ化にはグループ化の基準となる値が表示されます。
 
 
      ![](assets/grouping-edited-name-no-name-350x162.png)

@@ -7,8 +7,8 @@ author: Alina
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
 source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
-workflow-type: ht
-source-wordcount: '1330'
+workflow-type: tm+mt
+source-wordcount: '1323'
 ht-degree: 100%
 
 ---

@@ -56,9 +56,9 @@ Workfrontのオブジェクト（およびデータレイク内のオブジェ�
 特定のイベントが発生するタイミングに関する情報を提供する日付オブジェクトが多数あります。
 
 * `DL_LOAD_TIMESTAMP`：この日付は内部参照に使用され、データが現在、イベントまたは毎日の履歴テーブルに読み込まれた日時を反映します。 この日付は、データ分析には使用せず、Workfront Data Lake のベータ段階で削除される予定です。
-* `CALENDAR_DATE`：この日付は、毎日の履歴テーブルにのみ表示されます。 この表は、で指定された各日付の、UTC で 11:59 のデータがどのように見えたかを示します。 `CALENDAR_DATE`.
-* `BEGIN_EFFECTIVE_TIMESTAMP`：この日付は、イベント履歴と日別履歴の両方のテーブルに存在し、レコードが変更されたタイミングを正確に記録します _対象：_ 現在の行に含まれる値。
-* `END_EFFECTIVE_TIMESTAMP`：この日付は、イベント履歴と日別履歴の両方のテーブルに存在し、レコードが変更されたタイミングを正確に記録します _から_ 現在の行の値から別の行の値。 でクエリ間を許可するには `BEGIN_EFFECTIVE_TIMESTAMP` および `END_EFFECTIVE_TIMESTAMP` これは、新しい値がない場合でも、null にならない値です。 レコードがまだ有効な場合（つまり、値が変更されていない場合）、 `END_EFFECTIVE_TIMESTAMP` は、2300-01-01 の値を持ちます。
+* `CALENDAR_DATE`：この日付は、「日別の履歴」テーブルにのみ表示されます。 この表は、`CALENDAR_DATE` で指定された各日付に対して、UTC で 11:59 にどのようなデータが表示されたかを示しています。
+* `BEGIN_EFFECTIVE_TIMESTAMP`：この日付は、イベント履歴テーブルと日別履歴テーブルの両方に存在し、現在の行にあるレコードの値が _to_ 変更されたタイミングで正確にレコードされます。
+* `END_EFFECTIVE_TIMESTAMP`：この日付は、イベント履歴テーブルと日別履歴テーブルの両方に表示され、レコードが現在の行の値から別の行の値に _変更された_ ときにそのレコードが正確に表示されます。 `BEGIN_EFFECTIVE_TIMESTAMP` と `END_EFFECTIVE_TIMESTAMP` のクエリ間でを許可するには、新しい値がない場合でも、この値は null ではありません。 レコードがまだ有効な場合（つまり、値が変更されていない場合）、`END_EFFECTIVE_TIMESTAMP` の値は 2300-01-01 になります。
 
 ## 用語テーブル
 
@@ -87,7 +87,7 @@ Workfrontのオブジェクト（およびデータレイク内のオブジェ�
     <td>条件、優先度、重要度、ステータス</td>
     <td>システム | カスタム列挙</td>
     <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
-    <td>レコードのタイプは、「enumClass」プロパティを使用して識別されます。 想定されるタイプは次のとおりです。<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
+    <td>レコードのタイプは、「enumClass」プロパティを使用して識別されます。 必要なタイプは次のとおりです。<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
   </tr>
   <tr>
     <td>ドキュメント</td>
@@ -156,7 +156,7 @@ Workfrontのオブジェクト（およびデータレイク内のオブジェ�
     <td>ポートフォリオ</td>
     <td>ポートフォリオ</td>
     <td>ポート |Portfolio</td>
-    <td>PORTFOLIO_現在<br>PORTFOLIO_DAILY_HISTORY<br>PORTFOLIO_イベント<br><br>PORTFOLIO_カスタム_値_現在<br>PORTFOLIO_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIO_CUSTOM_VALUE_EVENT</td>
+    <td>PORTFOLIO_現在 <br>PORTFOLIO_日別_履歴 <br>PORTFOLIO_イベント <br><br>PORTFOLIO_カスタム_値_現在 <br>PORTFOLIO_カスタム_値_日別_履歴 <br>PORTFOLIO_カスタム_値_イベント</td>
     <td></td>
   </tr>
   <tr>
@@ -170,7 +170,7 @@ Workfrontのオブジェクト（およびデータレイク内のオブジェ�
     <td>プロジェクト</td>
     <td>プロジェクト</td>
     <td>見込み | プロジェクト</td>
-    <td>プロジェクト_現在<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
+    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -191,7 +191,7 @@ Workfrontのオブジェクト（およびデータレイク内のオブジェ�
     <td>タスク</td>
     <td>タスク</td>
     <td>タスク | タスク</td>
-    <td>タスク_現在<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT<br><br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
+    <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT<br><br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY_TASKS<br>CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>

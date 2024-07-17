@@ -4,8 +4,9 @@ description: 2024年第 1 四半期の管理者の機能強化
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
-workflow-type: ht
+exl-id: bff29a53-8453-4157-aa80-4dbe9f1cc88d
+source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+workflow-type: tm+mt
 source-wordcount: '134'
 ht-degree: 100%
 

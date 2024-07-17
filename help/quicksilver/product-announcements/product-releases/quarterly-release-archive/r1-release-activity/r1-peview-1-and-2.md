@@ -10,7 +10,7 @@ exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '1143'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -69,7 +69,7 @@ Workfront でのオブジェクトの復元について詳しくは、[削除し
 
 この変更以前は、選択したメール通知設定が保存され、変更を保存すると、変更されていないその他の通知設定はすべて選択解除されていました。 
 
-詳しくは、 [独自の電子メール通知を変更する](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+詳しくは、[自身のメール通知の変更](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)の「ユーザー通知設定の一括変更」を参照してください。
 
 ## 一部のメール通知のルックアンドフィールの更新
 

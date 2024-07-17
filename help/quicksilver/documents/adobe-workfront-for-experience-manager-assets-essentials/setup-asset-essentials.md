@@ -2,14 +2,14 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Experience Manager Assets Essentials 統合の設定
-description: Experience Manager Assets Essentials のコンテンツと作業内容を接続します。
+description: Experience Manager Assets Essentials で作業とコンテンツを結び付けます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
 source-git-commit: a729c134ce3d9c565fac18fea80ea7c49471182b
 workflow-type: tm+mt
 source-wordcount: '634'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -111,9 +111,9 @@ Workfront オブジェクトデータを、Experience Manager Assets のアセ�
 * [Adobe Workfront と Experience Manager Assets 間のアセットメタデータマッピングの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja)の説明に従って、Experience Manager Assets Essentials のメタデータスキーマを設定します。
 * （オプション）Workfront でカスタムフォームフィールドを設定します。Workfront には、使用できる多くの組み込みのカスタムフィールドがあります。ただし、独自のカスタムフィールドを作成することもできます。詳しくは、[カスタムフォームの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
-## サポートされるWorkfrontおよびExperience Manager Assetsのフィールド
+## サポートされている Workfront および Experience Manager Assets のフィールド
 
-### AEMキーワード
+### AEM キーワード
 
 Workfront でサポートされている任意のフィールドを、Experience Manager Assets Essentials のキーワードにマッピングできます。
 

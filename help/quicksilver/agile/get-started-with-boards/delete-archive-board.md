@@ -10,13 +10,13 @@ exl-id: 214a83f6-ecc1-4e4d-aba5-d6483dcabd27
 source-git-commit: a3e9b758867bdbad6afbc0e6cc5e6c81a54f6030
 workflow-type: tm+mt
 source-wordcount: '328'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
 # ボードを削除またはアーカイブ
 
-[!DNL Workfront] でボードを削除またはアーカイブできます。ボードを削除すると、そのボードは完全に削除されます。 [!DNL Workfront]をアーカイブすると、ボードはすべてのカードを保持し、後で復元できます。
+[!DNL Workfront] でボードを削除またはアーカイブできます。ボードを削除すると、[!DNL Workfront] から完全に削除されますが、ボードをアーカイブするとすべてのカードが保持され、後で復元できます。
 
 ## アクセス要件
 

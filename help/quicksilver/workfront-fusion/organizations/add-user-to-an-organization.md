@@ -10,7 +10,7 @@ exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
 source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
 workflow-type: tm+mt
 source-wordcount: '395'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -105,8 +105,8 @@ ht-degree: 90%
 >[!NOTE]
 >
 >   
->次の項目が表示されない場合、 [!UICONTROL 新しいユーザーの招待] 」ボタンが表示された場合、組織は [!DNL Adobe Business Platform.]
+>「[!UICONTROL 新しいユーザーを招待]」ボタンが表示されない場合、組織は [!DNL Adobe Business Platform.] にオンボーディングされています。
 >
->  を参照してください。 [!DNL Adobe Business Platform]を参照してください。 [ユーザーの追加先 [!DNL Adobe Workfront Fusion] から [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+>  [!DNL Adobe Business Platform] にオンボーディングされている組織にユーザーを追加する手順について詳しくは、[ [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) を介した  [!DNL Adobe Workfront Fusion]  へのユーザーの追加を参照してください。
 
 ユーザーは招待メールを受け取り、招待を承諾することができます。

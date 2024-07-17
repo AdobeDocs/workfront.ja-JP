@@ -7,67 +7,77 @@ description: 項目をマッピングする場合、関数を使用して単純�
 author: Becky
 feature: Workfront Fusion
 exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '532'
-ht-degree: 100%
+source-git-commit: d175a3d43f13338661d8b7e1cb79038a36522ff9
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 68%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] の関数を使用して項目をマッピング
 
-項目をマッピングする場合、関数を使用して単純な数式や複雑な数式を作成できます。
+項目をマッピングする場合、関数を使用して単純な式や複雑な式を作成できます。 [!DNL Adobe Workfront Fusion] で使用できる関数は、Excel の関数や、一部のプログラミング言語の関数に似ています。
 
-[!DNL Adobe Workfront Fusion] で使用できる関数は、Excel の関数や一部のプログラミング言語の関数に似ています。一般的なロジック、数学、テキスト、日付および配列を評価します。条件付きロジックと項目値の変換（テキストの大文字への変換、テキストの切り抜き、日付の別の形式への変換など）を実行できます。詳しくは、[Adobe Workfront Fusion でのモジュール間の情報のマッピング](../../workfront-fusion/mapping/map-information-between-modules.md)を参照してください。
+* 一般的なロジック、数学、テキスト、日付、配列を評価します。
+* テキストの大文字への変換、テキストのトリミング、日付の別の形式への変換など、項目値の条件付きロジックと変換を実行できます。
+
+詳しくは、[Adobe Workfront Fusion でのモジュール間の情報のマッピング](../../workfront-fusion/mapping/map-information-between-modules.md)を参照してください。
+
 
 ## アクセス要件
 
 この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>[!DNL Pro] またはそれ以降</p> </td> 
+
+<col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>  
+   <td> <p>任意</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td>  
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Work] 以上</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td>  
+   <td> 
+   <p>現在：[!DNL Workfront Fusion] ライセンスは必要ありません。</p> 
+   <p>または</p> 
+   <p>レガシー：任意 </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">製品</td>  
+   <td> 
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織は [!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul> 
+   <p>または</p> 
+   <p>現在：[!DNL Adobe Workfront Fusion] を購入する必要があります。</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan]、[!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
-   <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
-   <p>または</p>
-   <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">製品</td> 
-   <td>
-   <p>現在の製品要件：[!UICONTROL Select]または[!UICONTROL Prime]の [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入してください。[!DNL Workfront Fusion] は [!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
-   <p>または</p>
-   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入してください。</p>
-   </td> 
-  </tr> 
- </tbody> 
+ </tbody>  
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 [!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
-## フィールドに関数を挿入
 
-フィールドをクリックすると、[!UICONTROL マッピング]パネルが表示されます。マッピングパネルには、次のようなタブがあります。
+## マッピングタブの概要
 
-![](assets/functions-toolbar-350x189.png)
+フィールドの [!UICONTROL  マッピング ] パネルを開くには：
 
-（パネルを開く際に表示される）最初のタブ ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) は、他のモジュールからマッピングできる項目を表示します。
+1. 左側のパネルで **シナリオ** をクリックします。
+1. シナリオを選択します。
 
-その他のタブには、次のような関数が含まれます。
+![](assets/open-functions-bar.png)
+
+
+### マッピングパネルタブ
+
+マッピングパネルのタブは次のとおりです。
 
 * **一般的な関数** ![](assets/toolbar-icon-general-function.png) - 詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) の一般的な機能を参照してください。
 
@@ -75,12 +85,18 @@ ht-degree: 100%
 
 * **テキスト関数とバイナリ関数** ![](assets/toolbar-icon-text&binary-functions.png) - 詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) の文字列関数を参照してください。
 
-* **日付と時間** ![](assets/toolbar-icon-date&time-functions.png) - 詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) の日付と時間の関数および次の記事を参照してください。
+* **日付と時刻** ![](assets/toolbar-icon-date&time-functions.png) - [ の日付と時刻の関数  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) と、以下の記事を参照してください。
 
    * [ [!DNL Adobe Workfront Fusion] の日付と時刻の形式設定のトークン](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
    * [ [!DNL Adobe Workfront Fusion] の日付と時間の解析用トークン](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
 * **配列操作の関数** ![](assets/toolbar-icon-functions-for-arrays.png) - 詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) の配列関数を参照してください。
+
+* **他の関数をマッピング** ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) には、他のモジュールからマッピングできる項目が表示されます。 このタブは常に使用可能とは限りません。
+
+![](assets/functions-toolbar-350x189.png)
+
+## フィールドに関数を挿入
 
 フィールドに関数を挿入するには、次の手順に従います。
 
@@ -90,13 +106,16 @@ ht-degree: 100%
 
    関数をフィールドにドラッグします。
 
->[!INFO]
->
->**例：**&#x200B;一部のデータタイプでは、ユーザーが一定の文字数以上を入力できないよう設定されています。サブ文字列関数を使用して、値を特定の文字数に制限できます。
->
->この例では、サブ文字列関数は、プロジェクト名を 50 文字に制限します。
->
->![](assets/example-meet-length-restriction-350x184.png)
+
+>[!BEGINSHADEBOX]
+
+**例：**&#x200B;一部のデータタイプでは、ユーザーが一定の文字数以上を入力できないよう設定されています。サブ文字列関数を使用して、値を特定の文字数に制限できます。
+
+この例では、サブ文字列関数は、プロジェクト名を 50 文字に制限します。
+
+![](assets/example-meet-length-restriction-350x184.png)
+
+>[!ENDSHADEBOX]
 
 ## 関数のネスト
 

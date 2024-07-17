@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: ' [!DNL Workfront]  Proof のサテライトアカウントの概要'
-description: Satellite アカウントについて詳しくは、Workfront Proof を参照してください。
+description: Workfront Proof のサテライトアカウントについて説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 51bf041f-91c6-417c-b4cb-b67389a7127f
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '51'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 

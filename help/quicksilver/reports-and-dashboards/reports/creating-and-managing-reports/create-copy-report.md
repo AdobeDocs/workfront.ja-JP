@@ -10,7 +10,7 @@ exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '676'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ ht-degree: 98%
 
    * **列（表示）**：表示のカスタマイズに関して詳しくは、[Adobe Workfront の表示の概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
    * **グループ化**：グループ化のカスタマイズに関して詳しくは、[Adobe Workfront でのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)を参照してください。
-   * **フィルター**：フィルターのカスタマイズについて詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   * **フィルター**：フィルターのカスタマイズについて詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)の記事を参照してください。
    * **チャート**：レポートチャートのカスタマイズについて詳しくは、[レポートにチャートを追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)を参照してください。
 
 1. 右上隅の「**レポート設定**」をクリックします。

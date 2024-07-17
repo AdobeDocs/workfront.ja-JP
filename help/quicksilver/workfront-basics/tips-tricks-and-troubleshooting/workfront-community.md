@@ -8,7 +8,7 @@ exl-id: 1b581917-2e71-4e8a-b38c-775ade578f09
 source-git-commit: 405460158b9a540e427b9f9e5de101823838b17b
 workflow-type: tm+mt
 source-wordcount: '392'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe [!DNL Workfront] コミュニティは、10,000 を超える [!DNL Workfro
 
 ### 認証済みサポートの連絡先 {#authorized-support-contact}
 
-認証済みサポート連絡先 (ASC) の場合、 [!UICONTROL ヘルプデスク]、および [!UICONTROL イノベーションラボ]. 同じ資格情報を使用して [!DNL Workfront] コミュニティにログインできます。この場合、サブドメインは空白のままにします。
+認証済みサポートの連絡先（ASC）の場合、[!UICONTROL ヘルプデスク]と[!UICONTROL イノベーションラボ]のログイン資格情報を持っています。同じ資格情報を使用して [!DNL Workfront] コミュニティにログインできます。この場合、サブドメインは空白のままにします。
 
 ![community_4.png](assets/community-4-350x129.png)
 

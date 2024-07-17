@@ -8,7 +8,7 @@ author: Alina
 feature: Work Management
 exl-id: 09062d46-2b80-4758-946e-d6dec0f7a7c0
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 100%
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
   タスクの移動について詳しくは、[タスクの移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)を参照してください。タスクのコピーについて詳しくは、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)を参照してください。
 
-タスクでタスクの制約を更新する方法については、[タスクの制約の更新](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)を参照してください。
+タスクでタスクの制約を更新する方法については、[タスクでタスクの制約を更新](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md)を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

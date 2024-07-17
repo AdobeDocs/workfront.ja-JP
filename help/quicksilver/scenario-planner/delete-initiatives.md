@@ -7,7 +7,7 @@ author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
 source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '529'
 ht-degree: 100%
 
@@ -33,7 +33,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td><b>製品</b> </td> 
-   <td> <p>この記事で説明する機能にアクセスするためには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。 </p> <p>[!DNL Workfront Scenario Planner]の取得について詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!UICONTROL Scenario Planner] を使用するために必要なアクセス権</a>の記事を参照してください。 </p> </td> 
+   <td> <p>この記事で説明する機能にアクセスするためには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。 </p> <p>[!DNL Workfront Scenario Planner] の取得について詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!UICONTROL Scenario Planner] を使用するために必要なアクセス権</a>を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td><strong>アクセスレベル設定*</strong> </td> 

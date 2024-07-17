@@ -9,7 +9,7 @@ exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
 source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Workfront にアクセスする際は、サポート対象のブラウザーを�
 * あなたに割り当てられた先行タスクを開始する準備ができました
 * 前任者とのチームメール通知が完了しました
 
-プレビュー環境でテスト用に電子メールを有効にするには、プレビューでの電子メールの管理の節を参照してください。 [独自の電子メール通知を変更する](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+プレビュー環境でテスト用にメールを有効にするには、[自身のメール通知の変更](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)で、「プレビューでメールを管理」の節を参照してください。
 
 ## チームへの新しいメール通知
 

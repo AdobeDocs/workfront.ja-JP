@@ -9,7 +9,7 @@ exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
 source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
 workflow-type: tm+mt
 source-wordcount: '805'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ API の観点からすると、各バージョンは個別のプルーフで、�
 
 **チーム/公開**：各プルーフバージョンには、一意のチーム（公開）URL があります。有効にすると、プルーフが読み取り専用モードで開きます。[getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) メソッドを使用してチーム URL を取得できます。
 
-**個人**：個人用 URL は、レビュー担当者およびプルーフバージョンごとに一意です。プルーフセットに 3 つのバージョンが含まれており、レビュー担当者がすべてのバージョンを使用している場合、レビュー担当者は 3 つの一意の個人 URL を持つことになります。個人用 URL を使用すると、レビュー担当者がすでに特定したプルーフバージョンが開くため、この URL は安全に保管し、共有しないでください。個人 URL は、 [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) メソッドを使用し、  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) パラメータ「proof_url」を取得します。
+**個人**：個人用 URL は、レビュー担当者およびプルーフバージョンごとに一意です。プルーフセットに 3 つのバージョンが含まれており、レビュー担当者がすべてのバージョンを使用している場合、レビュー担当者は 3 つの一意の個人 URL を持つことになります。個人用 URL を使用すると、レビュー担当者がすでに特定したプルーフバージョンが開くため、この URL は安全に保管し、共有しないでください。個人用 URL を入手するには、[getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) メソッドを呼び出し、各 [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) を反復処理してパラメーター「proof_url」を取得します。
 
 ## ミニプルーフを開く際にカスタムパラメーターを含めるにはどうすればよいですか。
 

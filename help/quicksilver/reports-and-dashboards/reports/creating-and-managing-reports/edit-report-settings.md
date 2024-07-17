@@ -9,7 +9,7 @@ exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
 source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
 workflow-type: tm+mt
 source-wordcount: '663'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 99%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -122,6 +122,6 @@ ht-degree: 99%
 関連トピック：
 
 <!--outdated: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program) -->
-* [レポートの概要](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [レポートの基本を学ぶ](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 * [Adobe Workfront の組み込みレポートを使用](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
 * [カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)

@@ -10,7 +10,7 @@ exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '933'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,10 +22,10 @@ ht-degree: 98%
 
 サービスが Web フックを提供しない場合は、ポーリングトリガーを使用してサービスを定期的にポーリングする必要があります。
 
-Workfront Fusion の Web フックの紹介ビデオについては、以下を参照してください。
+Workfront Fusion の web フックの概要ビデオについて詳しくは、次を参照してください。
 
 * [Web フックの概要](https://video.tv.adobe.com/v/3427025/){target=_blank}
-* [中間ウェブフック](https://video.tv.adobe.com/v/3427030/){target=_blank}
+* [Web フック（中級）](https://video.tv.adobe.com/v/3427030/){target=_blank}
 
 ## アクセス要件
 

@@ -7,8 +7,8 @@ author: Courtney
 feature: Digital Content and Documents
 exl-id: dae3e083-3ad4-4a59-9e04-b017d078a89b
 source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
-workflow-type: ht
-source-wordcount: '233'
+workflow-type: tm+mt
+source-wordcount: '229'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 100%
    <td> <p>現在のプラン：Pro 以上</p> <p>または</p> <p>従来のプラン：Select または Premium</p> <p>様々なプランでのプルーフ機能へのアクセスについて詳しくは、<a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Workfront のプルーフ機能へのアクセス</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>現在のプラン：ワークまたはプラン</p> <p>従来のプラン：任意（ユーザーのプルーフ機能が有効になっている必要があります）</p> </td> 
   </tr> 
   <tr> 
@@ -54,4 +54,4 @@ ht-degree: 100%
 1. プルーフビューアの左側にあるツールバーで、**ダウンロード**&#x200B;ボタンをクリックします。\
    ![Proofing_Viewer_toolbar_button_-_Download.png](assets/proofing-viewer-toolbar-button---download.png)
 
-1. プルーフのダウンロード先となるファイルシステム上の場所を参照し、「**保存**」をクリックします。
+1. プルーフのダウンロード先とするファイルシステム上の場所を参照し、「**保存**」をクリックします。

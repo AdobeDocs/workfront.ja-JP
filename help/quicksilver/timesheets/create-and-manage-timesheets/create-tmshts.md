@@ -7,7 +7,7 @@ author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
 source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 100%
 
@@ -43,12 +43,12 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タイムシートに対する管理アクセス権が必要です。 </p> <p>詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">ユーザーに対する特定の領域への管理アクセス権の付与</a>を参照してください。</p> <p><b> メモ</b>
+   <td> <p>タイムシートに対する管理アクセス権が必要です。 </p> <p>詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権のユーザーへの付与</a>を参照してください。</p> <p><b> メモ</b>
 
 まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がユーザーのアクセスレベルを変更する方法については、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
@@ -67,7 +67,7 @@ ht-degree: 100%
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
-   * ページの右上隅にある「**マイタイムシート承認**」を選択して、承認するタイムシートのみを表示する。
+   * ページの右上隅にある「**マイタイムシート承認**」を選択して、承認するタイムシートのみを表示する
 
      または
 
@@ -77,7 +77,7 @@ ht-degree: 100%
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。フィルターの作成または更新については、[Adobe Workfront でのフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
@@ -92,8 +92,8 @@ ht-degree: 100%
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 
-   * [Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-   * [Adobe Workfront でビューの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
+   * [Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+   * [Adobe Workfront でビューを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Adobe Workfront でのグループ化の作成](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
 1. タイムシートのリストの上部にある「**新規タイムシート**」をクリックします。
@@ -125,17 +125,17 @@ ht-degree: 100%
 
    <td> <p>承認者がタイムシートの時間を編集できるようにする場合は、このオプションを選択します。</p>
 
-   このオプションは、設定／タイムシートと時間／環境設定エリアの「**タイムシートの編集を所有者と管理者に制限**」設定と連携して機能します。詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定</a>を参照してください。
+   このオプションは、設定／タイムシートと時間／環境設定エリアの「**タイムシートの編集を所有者と管理者に制限**」設定と連携して機能します。詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。
 
    次のシナリオが存在します。
 
    <ul>
-      <li>「<b>タイムシートの編集を所有者と管理者に制限</b>」オプションが有効な場合は、次のようになります。</li>
-   <ul><li>承認者は、「<b>時間を編集可能</b>」が有効か無効かにかかわらず、タイムシートの承認と拒否のみを行えます。 </li>
+      <li>「<b>タイムシートの編集を所有者と管理者に制限</b>」オプションが有効な場合は、以下のようになります。</li>
+   <ul><li>「<b>時間を編集可能</b>」が有効かどうかに関わらず、承認者はタイムシートの承認および拒否できます。 </li>
    <li>タイムシート所有者のマネージャーは、自分のダイレクトレポートのタイムシートのみを表示できます。</li></ul>
-   <li>「<b>タイムシートの編集を所有者と管理者に制限</b>」オプションが無効な場合は、次のようになります。</li>
-   <ul><li>「<b>時間を編集可能</b>」が有効になっている場合、承認者はタイムシートを送信、再度開くまたは閉じることができ、時間を編集できます。</li>
-   <li>「<b>時間を編集可能</b>」が無効になっている場合、承認者はタイムシートを送信、再度開くまたは閉じることができず、時間を編集することもできません。承認者が行えるのは、タイムシートの承認または却下のみです。 </li>
+   <li>「<b>タイムシートの編集を所有者と管理者に制限</b>」オプションが無効である場合は、以下のようになります。</li>
+   <ul><li>「<b>時間を編集可能</b>」が有効になっている場合、承認者はタイムシートの送信、リオープン、またはクローズを行うことが可能で、時間を編集できます。</li>
+   <li>「<b>時間を編集可能</b>」が無効になっている場合、承認者はタイムシートの送信、リオープン、またはクローズを行うことが不可能で、時間を編集できません。承認者が行えるのは、タイムシートの承認または却下のみです。 </li>
    <li>タイムシート所有者のマネージャーは、ダイレクトレポートのタイムシートの提出、取り消し、リオープン、編集を行うことができます。</li></ul>
    </ul>
 

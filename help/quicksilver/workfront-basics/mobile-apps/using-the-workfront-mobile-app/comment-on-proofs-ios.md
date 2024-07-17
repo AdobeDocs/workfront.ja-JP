@@ -7,7 +7,7 @@ author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
 source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '817'
 ht-degree: 100%
 
@@ -78,18 +78,18 @@ ht-degree: 100%
 
    必要なツールが表示されない場合は、ツールバーを右にスクロールします。
 
-1. ツール名の横にある「**[!UICONTROL 設定]**」を選択し、色、不透明度、太さを定義します。星形のアイコンを選択して、これらの選択をツールのデフォルト設定にします。
+1. ツール名の横にある「**[!UICONTROL 設定]**」を選択して、色、不透明度および太さを定義します。星形のアイコンを選択して、これらの選択をツールのデフォルト設定にします。
 
    ![描画ツールの設定](assets/ios-drawingtoolsettings-350x359.png)
 
-1. プルーフドキュメントにシェイプを描画します。**[!UICONTROL 取り消し]**&#x200B;アイコン ![取り消し](assets/android-undo-icon-30x31.png) を選択し、図面を元に戻します。
-1. (条件付き）図形を選択し、「**[!UICONTROL 設定]**」で図形の設定を編集するか、「**[!UICONTROL 削除]**」で図形を削除します。
+1. プルーフドキュメントにシェイプを描画します。**[!UICONTROL 取り消し]**&#x200B;アイコン ![取り消し](assets/android-undo-icon-30x31.png) を選択して、描画を取り消します。
+1. (条件付き）シェイプを選択し、「**[!UICONTROL 設定]**」でシェイプの設定を編集するか、「**[!UICONTROL 削除]**」でシェイプを削除します。
 
    ![描画メニュー](assets/ios-drawing-settingsremove-350x190.png)
 
 1. 「**[!UICONTROL コメントを追加]**」を選択します。
 1. テキストボックスにコメントを入力します。
-1. コメントに連絡先をタグ付けするには、@ 記号を入力するか、「![[!UICONTROL 連絡先のタグ付け]](assets/mobile-tag-user-icon.png)」を選択して @ 記号を追加し、追加する連絡先の名前を入力して、ドロップダウンリストに表示されたら名前をクリックします。
+1. コメントに連絡先をタグ付けするには、@ 記号を入力するか「![[!UICONTROL 連絡先のタグ付け]](assets/mobile-tag-user-icon.png)」を選択して @ 記号を追加し、追加する連絡先の名前を入力していき、ドロップダウンリストに名前が表示されたらクリックします。
 
    プルーフにコメントが追加されると、連絡先にメール通知が届きます。
 

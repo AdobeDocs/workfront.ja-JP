@@ -10,7 +10,7 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
 workflow-type: tm+mt
 source-wordcount: '1167'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ Workfront には、リソースの管理に使用されるツールが数セッ�
 
    * **リソースプランナー**：リソース管理の最初のステージでリソースプランナーを使用して、予定の空き時間に応じて、リソースのプロジェクト時間を計上できます。リソースの計画段階では、リソースプール内でユーザーを編成し、複数のリソースプールをプロジェクトに割り当てることができます。
 
-     リソース計画の詳細は、「 [リソース計画：記事インデックス](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     リソース計画について詳しくは、[リソース計画：記事インデックス](../../resource-mgmt/resource-planning/resource-planning-overview.md)を参照してください。
 
    * **シナリオプランナー**：これはリソースのより高度なレベルの計画で、1 年、3 年、5 年にまたがる計画の複数のイニシアチブにわたってリソースを管理でき、複数のプロジェクトを含めることができます。最適なシナリオを使用して、空き時間と予算を最大限に活用できます。
 
@@ -50,7 +50,7 @@ Workfront には、リソースの管理に使用されるツールが数セッ�
 
    * **ワークロードバランサー**：リソース管理の下位レベルの段階に属しており、完了するために必要な時間数とリソースの空き時間に基づいて、完了する必要がある実際の作業（タスクとイシュー）にリソースを割り当てることができます。ワークロードバランサーを使用して、現在割り当てられていない、または担当業務に割り当てられている実際の作業に、ユーザーを割り当てることができます。
 
-     Workfront Balancer について詳しくは、 [ワークロードバランサー：記事インデックス](../../resource-mgmt/workload-balancer/workload-balancer.md).
+     ワークロードバランサーについては、[ワークロードバランサー：記事インデックス](../../resource-mgmt/workload-balancer/workload-balancer.md)を参照してください。
 
 <!--
 
@@ -167,9 +167,9 @@ Workfront のリソース管理ツールを効率的に使用するには、一�
 
 Workfront の各リソース管理ツールの要件について詳しくは、以下を参照してください。
 
-* セクション [リソース・プランナでの作業の前提条件](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) 記事内 [リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* [リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md)の記事の[リソースプランナーで作業するための前提条件](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner)の節。
   <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* セクション [ワークロードバランサーの使用に関するベストプラクティス](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) 記事内 [ワークロードバランサーの概要](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* [ワークロードバランサーの概要](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)の記事の[ワークロードバランサーの使用に関するベストプラクティス](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)の節。
 * [Adobe Workfront でのリソース予算計上に必要なアクセス](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 * [ワークロードバランサーでリソースを管理するために必要なアクセス](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)。
 

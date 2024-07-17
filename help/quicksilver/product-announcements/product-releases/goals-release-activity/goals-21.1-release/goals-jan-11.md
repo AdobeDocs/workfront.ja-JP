@@ -6,8 +6,8 @@ draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 9898531c-f520-46ed-8943-0878e5193a33
 source-git-commit: 1d221d10e5845e477dff825f853330b9b4df0adf
-workflow-type: ht
-source-wordcount: '589'
+workflow-type: tm+mt
+source-wordcount: '598'
 ht-degree: 100%
 
 ---

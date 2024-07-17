@@ -7,8 +7,8 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 exl-id: abd5a4a2-0be5-46d7-bb66-47138c838063
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '80'
+workflow-type: tm+mt
+source-wordcount: '87'
 ht-degree: 100%
 
 ---

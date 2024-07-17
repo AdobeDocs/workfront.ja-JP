@@ -3,7 +3,7 @@ title: [タスクのタイトル]
 description: [タスクのタイトル]
 draft: Probably
 source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: 149
 ht-degree: 100%
 
@@ -72,11 +72,11 @@ ht-degree: 100%
 
 * [前提条件のリスト]
 
-## [タスクタイトル]
+## [タスクのタイトル]
 
 <!--
 <p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong> <br>Repeat the title of the article if you have only one section. Enter a small intro paragraph if needed; otherwise, proceed with steps. If you have multiple tasks, create a new section for each task. </p>
 -->
 
-1. &#x200B; 
+1.  
 

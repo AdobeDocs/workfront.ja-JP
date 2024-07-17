@@ -12,15 +12,15 @@ exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
 source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
 workflow-type: tm+mt
 source-wordcount: '2740'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
 # [!DNL Salesforce] モジュール
 
- Adobe Workfront Fusion のシナリオでは、[!DNL Salesforce] を使用するワークフローを自動化したり、複数のサードパーティのアプリケーションやサービスに接続したりすることができます。
+Adobe Workfront Fusion のシナリオでは、[!DNL Salesforce] を使用するワークフローを自動化したり、複数のサードパーティのアプリケーションやサービスに接続したりすることができます。
 
-Salesforce コネクタのビデオの紹介については、以下を参照してください。
+Salesforce コネクタの紹介ビデオについては、以下を参照してください。
 
 * [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
 

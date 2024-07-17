@@ -2,7 +2,7 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: "Experience Manager Assets Essentials のAdobe Workfront：記事インデックス"
+title: 「Adobe Workfront for Experience Manager Assets Essentials：記事インデックス」
 description: Adobe Workfront for Experience Manager Assets Essentials
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
@@ -11,7 +11,7 @@ exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
 source-git-commit: c46ea3c15139b190187726eed5ddb49135052e16
 workflow-type: tm+mt
 source-wordcount: '145'
-ht-degree: 82%
+ht-degree: 88%
 
 ---
 
@@ -25,6 +25,6 @@ ht-degree: 82%
 * [Experience Manager Assets や Assets Essentials からリンクされたアセットを表示またはダウンロード](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [Experience Manager Assets または Assets Essentials にリンクされたフォルダーの作成](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
 * [Experience Manager Assets Essentials 統合でのワークフローの使用](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
-* [Experience Manager Assets または Assets Essentials からのアセットおよびフォルダーのリンク解除または削除](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
+* [Experience Manager Assets または Assets Essentials からアセットおよびフォルダーのリンク解除または削除](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
 * [Workfront Fusion を使用して、Workfront イシューをAdobe Experience Manager ワークフローを含むプロジェクトに変換する](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
 * [Adobe Experience Manager 統合のトラブルシューティング](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)

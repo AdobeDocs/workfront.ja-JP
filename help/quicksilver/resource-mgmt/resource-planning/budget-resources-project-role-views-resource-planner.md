@@ -7,8 +7,8 @@ author: Alina
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
 source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
-workflow-type: ht
-source-wordcount: '2160'
+workflow-type: tm+mt
+source-wordcount: '2165'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 100%
    <td role="rowheader">アクセスレベル設定*</td> 
    <td> <p>リソース管理への編集アクセス権（リソースプランナーで優先度や予算計上時間数を編集するためのアクセス権を含む）</p> <p>財務データへの編集アクセス権（リソースの予算をコスト別に計上するため）</p> <p>プロジェクトおよびユーザーへの編集アクセス権</p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、「<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>」を参照してください。</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -118,7 +118,7 @@ ht-degree: 100%
      >   
      >* 役割の予算計上時間数が、プロジェクトの予算計上時間数に追加されます。
      >* ユーザーは、「主要役割」と「その他の役割」（または「セカンダリの役割」）の両方に対して予算を計上できます。
-     >* リソースプランナーで担当業務の利用可能時間数の値を表示するには、ユーザーの役割の **FTE 使用可能時間の割合**&#x200B;に 0% 以外の数値を指定する必要があります。**FTE 使用可能時間の割合**&#x200B;が 0% の役割にユーザーが関連付けられている場合、その担当業務の利用可能時間数の値は 0 になります。この場合、役割はマイナスの&#x200B;**純価**&#x200B;を示す可能性があります。\
+     >* リソースプランナーで担当業務の利用可能時間数の値を表示するには、ユーザーの役割の **FTE 使用可能時間の割合**&#x200B;に 0% 以外の数値を指定する必要があります。**FTE 使用可能時間の割合**&#x200B;が 0% の役割にユーザーが関連付けられている場合、その担当業務の利用可能時間数の値は 0 になります。この場合、役割はマイナスの **純価**&#x200B;を示す可能性があります。\
      >担当業務の **FTE 使用可能時間の割合**&#x200B;について詳しくは、[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の記事を参照してください。
 
    * **BDG** 列で、プロジェクトの予算計上時間数、FTE、またはコストを手動で指定します。プロジェクトの予算計上時間数が、プロジェクト内のそれぞれの役割に配分されます。次のシナリオが存在します。

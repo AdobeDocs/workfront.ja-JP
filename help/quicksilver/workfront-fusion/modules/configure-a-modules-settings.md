@@ -71,7 +71,7 @@ ht-degree: 93%
 
    シナリオエディターでモジュールのアイコンをクリックします。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)でシナリオを作成を参照してください。
 
-1. モジュールで必要な場合、 **[!UICONTROL 接続]** に示すように、そのサービスに対して登録済みのユーザーアカウントにアクセスします。 [接続の概要](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. モジュールで必要な場合は、**[!UICONTROL 接続の概要]** に記載されているように、指定したサービスに登録済みのユーザーアカウントに [ 接続 ](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md) を作成します。
 1. 各フィールドに、適切なテキストを入力します。
 
    または

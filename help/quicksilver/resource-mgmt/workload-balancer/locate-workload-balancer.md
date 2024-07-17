@@ -10,7 +10,7 @@ exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
 workflow-type: tm+mt
 source-wordcount: '764'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 ワークロードバランサーには、以下の方法でアクセスできます。
 
 * Adobe Workfront によって事前に定義されたいくつかの領域からアクセス
-* カスタムセクションに追加する
+* カスタムセクションに追加してアクセス
 
 この記事では、ワークロードバランサーにアクセスできるエリアについて説明します。
 
@@ -51,7 +51,7 @@ ht-degree: 98%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン、リソース領域でワークロードバランサーを使用する場合</p>
    <p>ワーク、チームまたはプロジェクトのワークロードバランサーを使用する場合</p>
  </td> 
@@ -66,7 +66,7 @@ ht-degree: 98%
      <li> <p>イシュー</p> </li> 
     </ul> <p><b> メモ</b>
 
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、「<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>」を参照してください。</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 

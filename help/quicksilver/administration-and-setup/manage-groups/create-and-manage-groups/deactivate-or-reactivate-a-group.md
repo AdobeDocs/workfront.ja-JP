@@ -11,7 +11,7 @@ exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -36,7 +36,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
@@ -83,7 +83,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 * 設定のグループエリアに移動すると、アクティブがデフォルトのフィルター ![](assets/filter-nwepng.png) なので、リストにはアクティブなグループのみが表示されます。非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
 
-  リスト内のフィルターについて詳しくは、 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  リスト内のフィルターについて詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 * グループを非アクティブ化しても、次は変更されません。
 

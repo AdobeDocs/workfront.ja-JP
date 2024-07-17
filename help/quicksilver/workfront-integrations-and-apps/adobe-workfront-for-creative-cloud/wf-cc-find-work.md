@@ -7,8 +7,8 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4abb3257-5f6a-45f6-933b-f3bfb3728f1c
 source-git-commit: fc3eb30cef2e17524b5cbd50219861f293a2ea9d
-workflow-type: ht
-source-wordcount: '383'
+workflow-type: tm+mt
+source-wordcount: '384'
 ht-degree: 100%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセスを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 ## 前提条件
 

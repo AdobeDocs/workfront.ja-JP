@@ -10,7 +10,7 @@ exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 source-git-commit: 23b5ba9564b514e11c1ca9d5cca276238ef11066
 workflow-type: tm+mt
 source-wordcount: '925'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 87%
    * グループ化
    * 計算済みカスタムフィールド
 
-* フィルターに対して「IF」ステートメントを作成することはできません。その結果、Workfrontで「Whoops」エラーが発生します。
+* フィルターに対して「IF」ステートメントを作成することはできません。これにより、Workfront で「Whoops（おっと）」エラーが発生します。
 * サポートチームは、カスタムデータの作成を支援しません。カスタムフィールドまたは列を作成した後で、希望する結果が表示されない場合は、サポートチームに連絡してください。式の作成に関するヘルプが必要な場合は、アカウント担当者にお問い合わせいただき、当社のコンサルティングオプションをご確認ください。
 * これらの式は、Sublime や Visual Studio Code などのテキストエディターで最初に記述することをお勧めします。これは、Workfront で表示されるよりもデータをより明確に表示するのに役立つからです。
 
@@ -46,10 +46,10 @@ ht-degree: 87%
 次の形式を使用して、Workfront で「IF」ステートメントを作成できます。
 <pre>IF(Condition,True Expression,False Expression)</pre>「IF」ステートメントの構成要素は次のとおりです。
 
-* **IF** =これは、Workfrontの「関数」の計算データ式です。 SUM 式や PROD 式と同様に、この式は最初に、関数を「IF」ステートメントとして理解するようにシステムに指示します。このステートメントの「IF」には必ず大文字を使用してください。\
-  すべての計算データ式のリストについては、 [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+* **IF** = これは Workfront の「関数」の計算済みデータ式です。SUM 式や PROD 式と同様に、この式は最初に、関数を「IF」ステートメントとして理解するようにシステムに指示します。このステートメントの「IF」には必ず大文字を使用してください。\
+  計算済みデータ式の一覧について詳しくは、[計算済みデータ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
 
-* **条件** =これはWorkfront変数が満たす必要がある条件で、この式の基礎です。 式で後から指定できるものはすべて、条件によって異なります。いくつかの参照、比較、数式を使用して、数式を開始できます。条件の例を次に示します。
+* **Condition** = これは Workfront 変数が満たす必要がある条件であり、この式の基礎となります。式で後から指定できるものはすべて、条件によって異なります。いくつかの参照、比較、数式を使用して、数式を開始できます。条件の例を次に示します。
 
    * 指定したオブジェクトの日付が別の日付よりも大きくなっています。
    * ステータスは、指定したオブジェクトで使用可能なステータスの 1 つに等しくなります。
@@ -57,9 +57,9 @@ ht-degree: 87%
 
 * **Condition Operator** = これは、「IF」ステートメントの条件の作成に役立つ演算子です。例えば、「is equal to」または「is greater than」は条件演算子です。ステートメントで使用できる条件演算子のリストについては、[計算されたカスタム式の条件演算子](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md)を参照してください。
 
-* **True****Expression** =これは「True」変数で、条件の条件が満たされた場合にどの指標を表示するか（真の指標）を数式に示します。
+* **True****Expression** = これは「True」変数であり、条件の基準が満たされた場合（真のインジケーター）にどのインジケーターを表示するかを式に指示します。
 
-* **False 式** =これは「False」変数で、条件の条件が満たされない場合にどの指標を表示するかを式に示します（偽の指標）。
+* **False Expression** = これは「False」変数であり、条件の基準が満たされない場合（偽のインジケーター）にどのインジケーターを表示するかを式に指示します。
 
 次の例では、元のステートメントの形式を使用して、「IF」ステートメントの単純なデータ式を記述します。この式は、Workfront の 2 つの異なる日付フィールドを比較し、その後に True/False の結果をデータ文字列として返します。
 
@@ -123,4 +123,4 @@ valueexpression=IF({"projectedCompletionDate"}>{"plannedCompletionDate"},"Off Tr
 
 これを習得する最善の方法は、様々なフィールドやシナリオを試すことです。また、API エクスプローラーに慣れれば、使用可能なフィールド名が簡単にわかるようになります。API エクスプローラーについては、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を参照してください。
 
-計算データ式のWorkfront構文について詳しくは、 [計算データ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Workfront の計算済みデータ式の構文について詳しくは、[計算済みデータ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。

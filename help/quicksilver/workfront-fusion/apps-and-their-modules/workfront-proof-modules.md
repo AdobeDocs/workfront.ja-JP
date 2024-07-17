@@ -12,7 +12,7 @@ exl-id: f5c6fb08-880d-4432-aef1-57db13b3ecdb
 source-git-commit: 614fd206ea2c5fe103beb5be8f5ff99c8a45a502
 workflow-type: tm+mt
 source-wordcount: '3099'
-ht-degree: 96%
+ht-degree: 99%
 
 ---
 
@@ -87,30 +87,30 @@ ht-degree: 96%
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL connections.environmentType]</td>
-                <td>この環境を実稼動環境にするか、プレビューやサンドボックスなどの実稼動以外の環境にするかを選択します。</td>
+                <td>これが実稼動環境であるか、プレビューやサンドボックスなどの非実稼動環境であるかを選択します。</td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL connections.authenticationType]</td>
-                <td>これがサービスアカウントか個人アカウントかを選択します。</td>
+                <td>これがサービスアカウントであるか、個人アカウントであるかを選択します。</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL 電子メール/ユーザー名 ]</td>
-                <td>ユーザー名を入力 [!DNL Workfront Proof] アカウント。</td>
+                <td  role="rowheader">[!UICONTROL Email / Username]</td>
+                <td>[!DNL Workfront Proof] アカウントのユーザー名を入力します。</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Password]</td>
-                <td>のパスワードを入力します。 [!DNL Workfront Proof] アカウント。</td>
+                <td>[!DNL Workfront Proof] アカウントのパスワードを入力します。</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL テナント ID]</td>
-                <td><strong>注意</strong>:BYOK を使用しないお客様は、このフィールドを空白のままにする必要があります。 <p>このアカウントのテナント ID を入力します。 テナント ID の検索について不明な点がある場合は、Workfrontカスタマーサポートにお問い合わせください。</p></td>
+                <td><strong>メモ</strong>：BYOK を使用しないお客様は、このフィールドを空白のままにしておく必要があります。 <p>このアカウントのテナント ID を入力します。テナント ID の検索について不明な点がある場合は、Workfront カスタマーサポートにお問い合わせください。</p></td>
             </tr>
             <tr>
                 <td role="rowheader">[!UICONTROL Domain Extension]</td>
-                <td>アカウントへのアクセスに使用する URL の拡張を入力します。 <p>例： <code>com</code> または <code>eu</code></p></td>
+                <td>自分のアカウントへのアクセスに使用する URL の拡張子を入力します。 <p>例：<code>com</code> または <code>eu</code></p></td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL 実稼動、プレビューまたはカスタム環境 ]</td>
+                <td  role="rowheader">[!UICONTROL Production, Preview, or Custom Environment]</td>
                 <td>実稼動、プレビュー、またはカスタム環境への接続を選択します。</td>
             </tr>
         </tbody>

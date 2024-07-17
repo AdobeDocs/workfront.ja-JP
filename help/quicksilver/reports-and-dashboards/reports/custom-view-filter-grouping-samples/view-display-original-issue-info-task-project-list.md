@@ -3,14 +3,14 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「ビュー：タスクとプロジェクトリストに元のイシュー情報を表示」
-description: 問題をリスト内のタスクとプロジェクトに変換した後、タスクとプロジェクトリストのビューに元の問題の情報を表示できます。
+description: イシューをリスト内のタスクとプロジェクトに変換した後、タスクリストとプロジェクトリストのビューに元のイシューからの情報を表示できます。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
 source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 77%
+ht-degree: 100%
 
 ---
 

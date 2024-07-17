@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
 source-git-commit: 8611c7bf8be6405f8ec8462ff2fd0f5998e8a995
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1083'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -119,7 +119,7 @@ ht-degree: 100%
 
    または
 
-   &lbrack;**新しいリスク**&#x200B;ダイアログボックスで情報を編集する場合は、「**保存**」をクリックします。
+   **新しいリスク**&#x200B;ダイアログボックスで情報を編集する場合は、「**保存**」をクリックします。
 
 1. （オプション）リスクのリストに&#x200B;**標準**&#x200B;ビューを適用する場合、**ステータス**&#x200B;ドロップダウンメニューで、リスクの別の「**ステータス**」を選択します。
 

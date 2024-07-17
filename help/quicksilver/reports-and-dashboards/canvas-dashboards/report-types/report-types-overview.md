@@ -6,7 +6,8 @@ description: Workfront ダッシュボードには、様々な方法でキャン
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
+source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 3%
@@ -23,7 +24,7 @@ Workfront ダッシュボードには、様々な方法でキャンバスデー�
 * テーブルレポート
 * 承認待ちレポート
 
-キャンバスダッシュボードでのレポートの追加および並べ替えに関する一般的な情報については、を参照してください [キャンバスダッシュボードでのレポートの追加、削除、配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md). 特定のレポートタイプの追加とフォーマットについて詳しくは、以下の記事インデックスを参照してください。
+キャンバスダッシュボードでのレポートの追加および配置に関する一般的な情報については、[ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。 特定のレポートタイプの追加とフォーマットについて詳しくは、以下の記事インデックスを参照してください。
 
 ## キャンバスダッシュボードのレポートタイプ：記事インデックス
 

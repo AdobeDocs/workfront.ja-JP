@@ -9,7 +9,7 @@ exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
 source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
 workflow-type: tm+mt
 source-wordcount: '680'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 96%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 
@@ -90,7 +90,7 @@ ht-degree: 96%
 1. （オプション）レポートの実行日以降の期間内に発生する情報を表示する場合、次の週の情報を表示するには `$$TODAY+1w` と入力し、次の 2 か月の情報を表示には `$$TODAY+2m` と入力します。四半期、時間、日または年の期間を指定することもできます。
 1. （オプション）レポートの実行日より前の期間内に発生した事象に関する情報を表示する場合、前の週の情報を表示するには `$$TODAY-1w` と入力し、前の 2 か月の情報を表示するには `$$TODAY-2m` と入力します。四半期、時間、日または年の期間を指定することもできます。
 
-   日付ベースのワイルドカードで使用できる属性、修飾子および演算子の完全なリストについては、「 [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   日付ベースのワイルドカードで使用できる属性、修飾子および演算子の完全なリストについては、[ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)の記事を参照してください。
 
    ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
@@ -102,6 +102,6 @@ ht-degree: 96%
 
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
-* [Adobe Workfront でのフィルターの作成または編集](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
+* [Adobe Workfront でフィルターを作成または編集](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
 * [レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [ビューでの条件付き形式の使用](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

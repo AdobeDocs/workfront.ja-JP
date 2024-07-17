@@ -16,17 +16,17 @@ ht-degree: 20%
 
 ---
 
-# [!DNL Adobe Workfront] ボードモジュール
+# [!DNL Adobe Workfront] Boards モジュール
 
 >[!NOTE]
 >
->このコネクタは現在ベータ版です。
+>このコネクタは現在Betaにあります。
 
 Adobe Workfront ボードは、列やカードを含む共有ボードへのアクセスを提供することで、チームの共同作業を可能にする柔軟なツールです。
 
 Adobe Workfront ボード モジュールを使用すると、レコードの読み取りや更新、Workfront ボード API への API 呼び出しを行ったり、ボードでアクションが発生した場合のシナリオのトリガーを設定したりできます。
 
-Workfront ボードの一般的な情報については、を参照してください。 [ボードの概要](/help/quicksilver/agile/boards-overview.md).
+Workfront ボードの一般的な情報については、[ ボードの概要 ](/help/quicksilver/agile/boards-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -37,7 +37,7 @@ Workfront ボードの一般的な情報については、を参照してくだ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
   <td> <p>任意</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
@@ -126,7 +126,7 @@ Workfront ボード接続を作成するには：
 
 ## Adobe Workfront Boards モジュールとそのフィールド
 
-Workfront ボードモジュールを設定する場合、 [!DNL Workfront Fusion] 以下に示すフィールドを表示します。 これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加のWorkfront ボードフィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
+Workfront ボードモジュールを設定すると、以下に示 [!DNL Workfront Fusion] フィールドが表示されます。 これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加のWorkfront ボードフィールドが表示される場合があります。 モジュール内の太字のタイトルは、必須フィールドを示します。
 
 フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
 
@@ -203,7 +203,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -226,7 +226,7 @@ After the webhook is created, you can view the address of the endpoint that even
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL 親カード ID]</td> 
@@ -253,7 +253,7 @@ Workfrontのボード上に新しいカードを作成します。
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -280,7 +280,7 @@ Workfrontのボード上に新しいカードを作成します。
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -311,7 +311,7 @@ Workfrontのボード上に新しいカードを作成します。
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -330,7 +330,7 @@ Workfrontのボード上に新しいカードを作成します。
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -366,7 +366,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ボード名 ]</td> 
@@ -389,7 +389,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -414,7 +414,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -445,7 +445,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -468,7 +468,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -496,7 +496,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -523,7 +523,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -555,7 +555,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -578,7 +578,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -593,7 +593,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
 
 ### その他
 
-#### カスタム API 呼び出しを実行
+#### カスタム API 呼び出しの実行
 
 このアクションモジュールは、Workfront Boards API へのカスタム呼び出しを行います。
 
@@ -603,7 +603,7 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>接続の手順については、 [!DNL Workfront] アプリ先 [!DNL Workfront Fusion]を参照してください <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront Boards への接続の作成</a> この記事の内容です。</p> </td> 
+      <td> <p>既存のWorkfront接続を使用してWorkfront Boards に接続することも、特定のWorkfront Boards 接続を使用することもできます。 </p><p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する手順については、こちらの <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Workfront ボードへの接続の作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -623,11 +623,11 @@ Workfrontにボードを作成します。 作成するボードのタイプを�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>API 呼び出しの本文コンテンツを JSON 埋め込み Graphql の形式で追加します </p> <p>例：</p><p>次の使用例は、列名を更新します。 次を含めることができます <code>boardId</code> および <code>columnId</code> として、ハードコードされた、または以前のモジュールからマッピングされた。<p><pre>{
+   <td> <p>API 呼び出しの本文コンテンツを JSON 埋め込み Graphql の形式で追加します </p> <p>例：</p><p>次の使用例は、列名を更新します。 <code>boardId</code> と <code>columnId</code> を、ハードコードされた GUID または以前のモジュールからマッピングされた GUID として含めることができます。<p><pre>{
 
   &quot;query&quot;: &quot;mutation { updateColumn （boardId: \&quot;\&quot;, columnId: \&quot;\&quot;, updateColumnInput: { name: \&quot;\&quot; }） { id name }}&quot;
 
-}</pre><p>メモ：  <p>条件文（など）を使用する場合 <code>もし</code> json で、条件文の外に引用符を付けます。</p>
+}</pre><p>メモ：  <p><code>if などの条件文を使用する場合</code> json で、条件文の外に引用符を付けます。</p>
 <div class="example" data-mc-autonum="<b>Example: </b>">
 <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p>
 </div> </p> </td>

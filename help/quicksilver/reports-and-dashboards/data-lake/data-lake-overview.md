@@ -11,7 +11,7 @@ exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
 source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -29,8 +29,8 @@ Workfront データレイクは、Snowflakeテクノロジーを使用してWork
 
 Workfront Data Lake について詳しくは、次の記事を参照してください。
 
-* [Workfront data lake ベータ版に関する情報](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+* [Workfront Data Lake（ベータ版）に関する情報](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * [Snowflake用のリーダー（サービス） アカウントを作成します](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Workfront Data Lake への接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
-* [Workfront Data Lake のデータディクショナリ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
+* [Workfront Data Lake データ辞書](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 <!-- * [Basic Workfront data lake query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) -->

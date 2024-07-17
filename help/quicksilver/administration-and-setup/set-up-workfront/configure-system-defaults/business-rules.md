@@ -65,20 +65,20 @@ ht-degree: 6%
 
 ビジネス・ルールのフォーマットは、「定義した条件が満たされると、ユーザーはオブジェクトに対するアクションを実行できなくなり、メッセージが表示されます。」です。
 
-ビジネス ルールのプロパティやその他の関数の構文は、カスタム フォームの計算フィールドの構文と同じです。 構文について詳しくは、を参照してください。 [計算フィールドをフォームデザイナーで追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+ビジネス ルールのプロパティやその他の関数の構文は、カスタム フォームの計算フィールドの構文と同じです。 この構文について詳しくは、[ 計算フィールドのフォームデザイナーへの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
-IF ステートメントの詳細については、を参照してください [「IF」ステートメントの概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) および [計算されたカスタムフィールドの条件演算子](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+IF ステートメントについて詳しくは、[ 「IF」ステートメントの概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) および [ 計算カスタムフィールドの条件演算子 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md) を参照してください。
 
-ユーザーベースのワイルドカードについては、を参照してください。 [ユーザーベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
+ユーザーベースのワイルドカードについて詳しくは、[ ユーザーベースのワイルドカードを使用してレポートを一般化する ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) を参照してください。
 
-日付ベースのワイルドカードについては、を参照してください。 [日付ベースのワイルドカードを使用してレポートを一般化する](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+日付ベースのワイルドカードについて詳しくは、[ 日付ベースのワイルドカードを使用してレポートを一般化する ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) を参照してください。
 
-API ワイルドカードは、ビジネス・ルールでも使用できます。 次を使用できます `$$ISAPI` UI または API でのみルールをトリガーします。
+API ワイルドカードは、ビジネス・ルールでも使用できます。 `$$ISAPI` を使用して、UI または API でのみルールをトリガーできます。
 
 簡単なビジネス・ルールのシナリオには、次のものがあります。
 
-* ユーザーが 2 月の最後の週に新しい費用を追加することはできません。 この式は次のように表すことができます。 `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* ユーザーは、「完了」ステータスのプロジェクトを編集できません。 この式は次のように表すことができます。 `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* ユーザーが 2 月の最後の週に新しい費用を追加することはできません。 この式は次のように表すことができます。`IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* ユーザーは、「完了」ステータスのプロジェクトを編集できません。 この式は次のように表すことができます。`IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 ネストされた IF ステートメントを含むシナリオは次のとおりです。
 
@@ -98,24 +98,24 @@ IF(
 
 {{step-1-to-setup}}
 
-1. クリック **ビジネス ルール** 左側のパネルで次の操作を行います。
-1. クリック **新規ビジネス ルール**.
-1. ビジネス・ルールを割り当てるオブジェクト・タイプを選択し、 **続行**.
+1. 左側のパネルで **ビジネスルール** をクリックします。
+1. 「**新規ビジネス・ルール**」をクリックします。
+1. ビジネス・ルールを割り当てるオブジェクト・タイプを選択し、「**続行**」をクリックします。
 
-   ![オブジェクトを選択](assets/object-for-business-rule2.png)
+   ![ オブジェクトを選択 ](assets/object-for-business-rule2.png)
 
-1. を入力 **名前** ビジネス・ルール用。
-1. が含まれる **アクティブ** フィールドで、ルールを保存する際にルールをアクティブにするかどうかを選択します。
+1. ビジネス ルールの **名前** を入力します。
+1. **アクティブ** フィールドで、ルールを保存する際にアクティブにする必要があるかどうかを選択します。
 
-   を選択する場合 **不可**&#x200B;の場合、ルールは非アクティブとして保存され、後でアクティブ化できます。
+   **いいえ** を選択した場合、ルールは非アクティブとして保存され、後でアクティブにすることができます。
 
-1. を選択 **トリガー** ビジネス・ルール用。 オプションは次のとおりです。
+1. ビジネス ルールの **0}トリガー} を選択します。**&#x200B;オプションは次のとおりです。
 
-   * **オブジェクトの作成時：** このルールは、ユーザーがオブジェクトを作成しようとしたときに適用されます。
-   * **オブジェクトの編集時：** このルールは、ユーザーがオブジェクトを編集しようとしたときに適用されます。
-   * **オブジェクト削除時：** ルールは、ユーザーがオブジェクトを削除しようとすると適用されます。
+   * **オブジェクトの作成時：** このルールは、ユーザーがオブジェクトを作成しようとすると適用されます。
+   * **オブジェクト編集時：** このルールは、ユーザーがオブジェクトを編集しようとした場合に適用されます。
+   * **オブジェクト削除時：** このルールは、ユーザーがオブジェクトを削除しようとすると適用されます。
 
-1. （任意） a と入力します **説明** ビジネス・ルールとその適用時の処理
+1. （オプション）ビジネス・ルールの **説明** と適用時の処理を入力します。
 1. ビジネス・ルール・ダイアログの中央にある式エディタで式を作成します。
 
    ビジネス・ルールのフォーマットは、「定義した条件が満たされると、ユーザーはオブジェクトに対するアクションを実行できなくなり、メッセージが表示されます。」です。
@@ -127,19 +127,19 @@ IF(
    * オブジェクトとアクションは既に定義されているので、式には含めません。
    * カスタム・エラー・メッセージは、ビジネス・ルールをトリガーしたときに表示されます。 問題の原因と修正方法に関する明確な説明が必要です。
 
-   ![ビジネス・ルールの追加ダイアログ](assets/add-business-rule-dialog-no-ai-button.png)
+   ![ ビジネス・ルールの追加ダイアログ ](assets/add-business-rule-dialog-no-ai-button.png)
 
    この例は、費用のビジネスルールです。 今月が 6 月の場合、ユーザーは新しい費用を作成することは許可されておらず、メッセージがこれを説明しています。
 
-   ビジネス・ルールのその他の例は、次を参照してください [ビジネス・ルールのシナリオ](#scenarios-for-business-rules) この記事の内容です。
+   ビジネス・ルールのその他の例については、この記事の [ ビジネス・ルールのシナリオ ](#scenarios-for-business-rules) を参照してください。
 
-1. （任意）式の使用 **式** および **フィールド** ルールの作成を支援する右側のパネルで行います。
+1. （オプション）右側のパネルで式 **式** および **フィールド** を使用して、ルールの作成を支援します。
 
    式またはフィールドを検索して、使用可能な項目のリストを絞り込みます。
 
    使用可能なフィールドのリストは、ビジネス・ルールのオブジェクト・タイプに関連するフィールドに限定されます。
 
-1. クリック **保存** ビジネス・ルールの構築が終了したとき。
+1. ビジネス・ルールの構築が完了したら、「**保存**」をクリックします。
 
 >[!NOTE]
 >
@@ -152,5 +152,5 @@ IF(
 ビジネス・ルールをアクティブ化するには、次の手順に従います。
 
 1. ルールのリストからビジネス・ルールを選択し、「編集」アイコンをクリックします。
-1. を選択 **はい** （用） **アクティブ** ビジネス・ルール・ダイアログで、次の操作を行います。
+1. ビジネス・ルール・ダイアログで **アクティブ** について **「はい**」を選択します。
 1. **保存**&#x200B;をクリックします。

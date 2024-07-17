@@ -11,8 +11,8 @@ author: Becky
 feature: Workfront Fusion
 exl-id: bf6c1d82-7926-4bf9-8424-e658650ee6b1
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
-source-wordcount: '4485'
+workflow-type: tm+mt
+source-wordcount: '4070'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
@@ -59,9 +59,9 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を組織で購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>レガシー製品要件：この記事で説明する機能を使用するには、組織で [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -101,7 +101,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
 
 ## [!DNL GitLab] モジュールとそのフィールド
 
-[!DNL GitLab]モジュールを設定すると、[!DNL Workfront Fusion]には以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL GitLab] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL GitLab] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL GitLab] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
 フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) におけるモジュール間の情報のマッピングを参照してください。
 
@@ -153,7 +153,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある <b>[!UICONTROL Add]</b> をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでコミットを監視するプロジェクト</li></ul></li><li><b>[!UICONTROL Save]</b> をクリックして web フックを保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでコミットを監視するプロジェクト</li></ul></li><li><b>[!UICONTROL Save]</b> をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -170,7 +170,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでイシューコメントを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでイシューコメントを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -187,7 +187,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでイシューを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フック を保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでイシューを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フック を保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -209,7 +209,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックで結合リクエストを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックで結合リクエストを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -226,7 +226,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックで結合リクエストのコメントを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックで結合リクエストのコメントを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -243,7 +243,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでパイプラインステータスの変更を監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでパイプラインステータスの変更を監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -302,7 +302,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでタグを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでタグを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -319,7 +319,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでコメントを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックでコメントを監視するプロジェクト</li></ul></li><li>「<b>[!UICONTROL Save]</b>」をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -344,7 +344,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>[!UICONTROL webhook] フィールドの横にある <b>[!UICONTROL Add]</b> をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックで Wiki ページを監視するプロジェクト</li></ul></li><li><b>[!UICONTROL Save]</b>をクリックして web フックを保存し、モジュールに戻ります。 </td> 
+   <td><p>このトリガーで使用する web フックを選択するか、新しい web フックを追加します。 </p><p>新しい web フックを追加するには、次の手順に従います。 <ol><li>「[!UICONTROL webhook]」フィールドの横にある「<b>[!UICONTROL Add]</b>」をクリックします。</li><li>以下の情報を入力します。 <ul><li>Web フックの名前</li><li>この web フックに使用する接続</li><li>Web フックで Wiki ページを監視するプロジェクト</li></ul></li><li><b>[!UICONTROL Save]</b>をクリックして web フックを保存し、モジュールに戻ります。 </td> 
    </tr> 
    </tbody> 
 </table>
@@ -1022,7 +1022,7 @@ Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンス�
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>新しい接続を作成するには、この記事の <a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] to Workfront Fusion]</a>を参照してください。</td> 
+   <td>新しい接続を作成するには、この記事の<a href="#connect-gitlab-to-workfront-fusion" class="MCXref xref">[!UICONTROL Connect [!DNL GitLab] to Workfront Fusion]</a>を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 

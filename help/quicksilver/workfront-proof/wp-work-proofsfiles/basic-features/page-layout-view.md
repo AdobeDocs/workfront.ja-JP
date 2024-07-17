@@ -4,14 +4,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Workfront Proof の「ビュー」タブのページレイアウト
-description: '[ ビュー ] タブでページのレイアウトを調整できます。 '
+description: 「ビュー」タブでページのレイアウトを調整できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '213'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

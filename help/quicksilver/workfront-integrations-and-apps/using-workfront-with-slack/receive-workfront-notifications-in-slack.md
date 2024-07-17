@@ -9,7 +9,7 @@ exl-id: bc1ce4ea-58be-4cd7-ab59-7dddb82949b9
 source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 97%
 [!DNL Slack] から [!DNL Workfront] 通知を受信したり応答したりできます。
 
 [!DNL Slack] で有効にした通知用のメール通知を無効にすることで、通知を重複して受け取らないようにすることができます。\
-電子メール通知の設定について詳しくは、 [独自の電子メール通知を変更する](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+メール通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 
 [!DNL Slack] で [!DNL Workfront] 通知を有効または無効にしても、[!DNL Workfront] インターフェイス内で受信する通知に影響はありません。\
 [!DNL Workfront] 内部の通知インターフェイスを無効にすることはできません。

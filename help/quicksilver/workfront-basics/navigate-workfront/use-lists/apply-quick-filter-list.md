@@ -8,7 +8,7 @@ exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '880'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 98%
 >項目が画面上に物理的に表示されているか、ページの一番下までスクロールした後に表示されるかに関係なく、クイックフィルターを使用して検索ワードを含む項目を見つけることができます。ブラウザーの検索機能を使用すると、画面に物理的に表示される項目のみを検索できます。リストに複数のページが含まれる場合、クイックフィルターは、表示されないページ上の項目を見つけられません。
 
 クイックフィルターを保存する場合は、代わりに、リストの永続的なフィルターを作成することをお勧めします。\
-でフィルターを作成する方法について詳しくは、 [!DNL Adobe Workfront]（記事を参照）。 [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+[!DNL Adobe Workfront] でフィルターを作成する方法については、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)の記事を参照してください。
 
 現在、クイックフィルターは次のエリアで使用できます
 

@@ -9,7 +9,7 @@ exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 source-git-commit: c3cb97a36c29b90bbc9d8438d8811cc23266d894
 workflow-type: tm+mt
 source-wordcount: '2496'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -28,9 +28,9 @@ ht-degree: 96%
 >
 >作業アイテムを効率的に検索し、管理するユーザーやアイテムに焦点を当てるには、ワークロードバランサーでフィルターを使用することを強くお勧めします。これにより、リソースの割り当てを管理する前に、正しい情報を表示できます。
 >
->新しいフィルタを保存して適用し、ワークロード・バランサから移動すると、ログオフして再度ログオンした後も、フィルタは保持されます。
+>新しいフィルターを保存して適用し、ワークロードバランサーから移動した場合、ログオフして再度ログオンした後もフィルターは保持されます。
 
-この記事では、ワークロードバランサーのフィルターについて説明します。Workfrontのフィルターについて詳しくは、 [フィルターの概要](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+この記事では、ワークロードバランサーのフィルターについて説明します。Workfront のフィルターについて詳しくは、[フィルターの概要](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -47,7 +47,7 @@ ht-degree: 96%
    <td> <p>任意のプラン</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン、リソース領域でワークロードバランサーを使用する場合</p>
    <p>ワーク、チームまたはプロジェクトのワークロードバランサーを使用する場合</p>
  </td> 
@@ -63,7 +63,7 @@ ht-degree: 96%
      <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>フィルター、ビュー、グループ化</p> </li> 
     </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>フィルターの作成または編集時に、フィルター、ビュー、グループ化への編集アクセス権</span> </p> <p><b>メモ</b>
 
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、「<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>」を参照してください。</p> </td>
+まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -208,7 +208,7 @@ ht-degree: 96%
 
       >[!NOTE]
       >
-      >ステータスが「保留中」のプロジェクトを除外するには、「プロジェクト：ステータスが保留中と等しくない」フィルタを適用する必要があります。 これにより、保留中のプロジェクトの作業項目がワークロードバランサーに表示されなくなります。
+      >保留中ステータスのプロジェクトを除外するには、「プロジェクト：ステータスが保留中と等しくない」フィルターを適用する必要があります。これにより、保留中プロジェクトの作業アイテムがワークロードバランサーに表示されなくなります。
 
    1. （オプション）**削除** アイコン ![](assets/delete.png) をクリックして、フィルター条件を削除します。
 

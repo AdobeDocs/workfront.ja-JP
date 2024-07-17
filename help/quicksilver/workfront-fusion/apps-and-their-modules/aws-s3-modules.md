@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '1429'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1373'
+ht-degree: 99%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件はありません。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件なし。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
@@ -47,9 +47,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
 
 ## 前提条件
 
@@ -84,7 +84,7 @@ ht-degree: 100%
 
 ## [!DNL AWS S3] モジュールとそのフィールド
 
-[!DNL AWS S3]モジュールを設定すると、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL AWS S3] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
+[!DNL AWS S3] モジュールを設定する際、[!DNL Workfront Fusion] に以下のフィールドが表示されます。これらに加えて、アプリまたはサービスのアクセスレベルなどの要因に応じて、追加の [!DNL AWS S3] フィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
 フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
 
@@ -131,11 +131,11 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>[!DNL AWS] アカウントを [!DNL Workfront Fusion] に接続する方法については、この記事内の<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!DNL AWS] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+   <td> <p>[!DNL AWS] アカウントを [!DNL Workfront Fusion] に接続する方法については、この記事の<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!DNL AWS] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>地域のエンドポイントを選択します。詳しくは、[!DNL AWS] ドキュメント内の<a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">地域エンドポイント</a>の説明を参照してください。</p> </td> 
+   <td> <p>地域のエンドポイントを選択します。詳しくは、[!DNL AWS] ドキュメントで<a href="https://docs.aws.amazon.com/general/latest/gr/rande.html">地域エンドポイント</a>についての説明を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bucket] </td> 
@@ -156,7 +156,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>[!DNL AWS] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事内の<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!DNL AWS] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+   <td> <p>[!DNL AWS] アカウントを [!DNL Workfront Fusion] に接続する方法については、この記事の<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!DNL AWS] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
@@ -179,7 +179,7 @@ ht-degree: 100%
 
 #### [!UICONTROL API 呼び出しを実行]
 
-[!DNL Amazon S3] API の詳細な説明については、[[!DNL Amazon S3] [!UICONTROL REST]  API の概要](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html)を参照してください。
+[!DNL Amazon S3] API について詳しくは、「[[!DNL Amazon S3] [!UICONTROL REST] API の概要 ](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html)」を参照してください。
 
 <table style="table-layout:auto">
  <col> 
@@ -187,7 +187,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>[!DNL AWS] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事内の<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!DNL AWS] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+   <td> <p>[!DNL AWS] アカウントを [!DNL Workfront Fusion] に接続する方法については、この記事の<a href="#connect-aws-to-workfront-fusion" class="MCXref xref">[!DNL AWS] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Region] </td> 

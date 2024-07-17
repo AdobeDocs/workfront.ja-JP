@@ -8,10 +8,10 @@ description: この記事では、シナリオの実行方法とシナリオ内�
 author: Becky
 feature: Workfront Fusion
 exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
-workflow-type: ht
-source-wordcount: '797'
-ht-degree: 100%
+source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+workflow-type: tm+mt
+source-wordcount: '799'
+ht-degree: 98%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] ライセンス**</td> 
    <td>
-   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
+   <p>現在のライセンス要件：[!DNL Workfront Fusion] ライセンス要件は不要。</p>
    <p>または</p>
    <p>従来のライセンス要件：[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]、[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
@@ -46,9 +46,9 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。[!DNL Workfront Fusion] は、[!UICONTROL Ultimate] [!DNL Workfront] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
-   <p>従来の製品要件：この記事で説明する機能を使用するには、組織は [!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront] を購入する必要があります。</p>
+   <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
   </tr> 
  </tbody> 
@@ -66,7 +66,7 @@ ht-degree: 100%
 
 すべてのモジュールでバンドルが正しく処理された場合、シナリオの詳細エリアでシナリオが成功とマークされます（[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md) でのシナリオの詳細を参照）。
 
-* シナリオの設定について詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/basic-scenario-settings.md) での基本的なシナリオ設定を参照してください。
+* シナリオの設定について詳しくは、[ のシナリオエディター  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md) を参照してください。
 * シナリオのアクティブ化について詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md) でのシナリオのアクティブ化または非アクティブ化を参照してください。
 * シナリオのスケジュールについて詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md) でのシナリオのスケジュールを参照してください。
 * モジュールについて詳しくは、[モジュールのタイプ](../../workfront-fusion/modules/module-types.md)を参照してください。

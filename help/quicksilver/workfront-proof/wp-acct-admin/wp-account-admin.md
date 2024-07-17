@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof アカウントの管理
-description: Workfront Proof アカウント管理の詳細を説明します。
+description: Workfront Proof アカウント管理について詳しく説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 451b9f13-edeb-4e4b-9cee-d1a053bea17c
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '54'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 

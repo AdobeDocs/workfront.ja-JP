@@ -58,7 +58,7 @@ ht-degree: 96%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>  <p>新規：標準 </p> <p>または </p><p>現在：プラン </p>   </td> 
   </tr> 
   <tr> 

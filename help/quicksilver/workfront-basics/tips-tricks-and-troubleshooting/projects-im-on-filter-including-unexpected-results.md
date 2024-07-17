@@ -9,7 +9,7 @@ exl-id: 4701464a-4cf5-4be1-bcc0-0892019986ec
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 94%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -52,4 +52,4 @@ ht-degree: 94%
 
 1. [!UICONTROL **所有プロジェクト**]&#x200B;など、自分に特別に割り当てられたプロジェクトのみを含む類似のフィルターを使用してみてください。
 
-でのフィルターの使用について詳しくは、 [!DNL Workfront]を参照してください。 [フィルターの概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+[!DNL Workfront] でのフィルターの使用について詳しくは、[フィルターの概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。

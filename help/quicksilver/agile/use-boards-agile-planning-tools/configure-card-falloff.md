@@ -8,8 +8,8 @@ author: Lisa
 feature: Agile
 exl-id: 0e4f6b3c-75aa-4314-9cb0-737e5a9d3bda
 source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
-workflow-type: ht
-source-wordcount: '243'
+workflow-type: tm+mt
+source-wordcount: '245'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 100%
 ## カードの減少を設定する
 
 1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![ メインメニュー ](assets/main-menu-icon.png) をクリックして、「**[!UICONTROL ボード]**」をクリックします。
-1. ボードにアクセスします。詳しくは、[ボードを作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
+1. ボードにアクセスします。詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. ボードの右側の「**[!UICONTROL 設定]**」をクリックして、設定パネルを開きます。
 1. 「**[!UICONTROL カード]**」を展開します。
 1. **[!UICONTROL ボードからカードを自動的にアーカイブ]**&#x200B;オンにします。

@@ -12,13 +12,13 @@ exl-id: 9b230142-de71-4577-8e67-35e8a6b9b932
 source-git-commit: 210690d230f7e791aa5887098181f3d0bd1cc75e
 workflow-type: tm+mt
 source-wordcount: '26'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
 # 管理者向け FAQ
 
-管理者向けに、次の FAQ 記事を利用できます。
+管理者向けに、次の FAQ 記事が用意されています。
 
 * [AtTask OnPremise サポートポリシー](../../administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
 

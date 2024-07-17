@@ -2,14 +2,14 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Adobe Photoshop での作業結果の更新
-description: Adobe Workfrontプラグインを使用して作業内容を更新できます。
+description: Adobe Workfront プラグインを使用して作業を更新できます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '207'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 

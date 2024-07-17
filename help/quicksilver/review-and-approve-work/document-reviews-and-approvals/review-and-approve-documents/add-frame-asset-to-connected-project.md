@@ -55,7 +55,7 @@ ht-degree: 93%
 
 ## 前提条件
 
-* Workfrontと Frame.io の統合を設定する必要があります。 詳しくは、を参照してください [Workfrontと Frame.io の統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
+* Workfrontと Frame.io の統合を設定する必要があります。 詳しくは、[Workfrontと Frame.io の統合の設定 ](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md) を参照してください。
 
 ## 接続された Workfront プロジェクトへの Frame.io アセットの追加
 

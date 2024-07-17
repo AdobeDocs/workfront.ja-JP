@@ -11,7 +11,7 @@ exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
 source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
 workflow-type: tm+mt
 source-wordcount: '820'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 99%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
@@ -139,5 +139,5 @@ ht-degree: 99%
 1. フィルター、ビューまたはグループ化の設定について詳しくは、次のいずれかの記事を参照してください。
 
    * [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-   * [表示の概要 ( [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+   * [ [!DNL Adobe Workfront] でのビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [ [!DNL Adobe Workfront] でのグループ化の概要](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)

@@ -96,7 +96,7 @@ ht-degree: 100%
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>承認者</strong> </p> </td> 
@@ -112,7 +112,7 @@ ht-degree: 100%
    <td>✓</td> 
    <td> </td> 
    <td> <p>✓</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>レビュアーと承認者</strong> </p> </td> 
@@ -128,7 +128,7 @@ ht-degree: 100%
    <td>✓</td> 
    <td> </td> 
    <td> <p>✓</p> </td> 
-   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>作者</strong> </p> </td> 

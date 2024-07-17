@@ -7,8 +7,8 @@ author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
 source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
-workflow-type: ht
-source-wordcount: '461'
+workflow-type: tm+mt
+source-wordcount: '460'
 ht-degree: 100%
 
 ---
@@ -34,7 +34,7 @@ Adobe Workfront を通じて、プロジェクトチームのメンバーと簡�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 

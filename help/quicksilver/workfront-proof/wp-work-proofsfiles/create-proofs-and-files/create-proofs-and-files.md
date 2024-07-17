@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: プルーフとファイルの作成
-description: Workfront Proof で配達確認とファイルを作成する方法を説明します。
+description: Workfront Proof でプルーフとファイルを作成する方法を説明します。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 3515170a-534a-4631-942d-ba55270cdb64
 source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
 workflow-type: tm+mt
 source-wordcount: '58'
-ht-degree: 82%
+ht-degree: 100%
 
 ---
 

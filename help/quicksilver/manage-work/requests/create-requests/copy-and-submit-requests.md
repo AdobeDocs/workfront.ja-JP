@@ -9,7 +9,7 @@ exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 source-git-commit: 3a2745437e00ac968f2a4590be2637dbc01594ad
 workflow-type: tm+mt
 source-wordcount: '1381'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -61,14 +61,14 @@ ht-degree: 95%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
    <td> <p>イシューへのアクセス権を編集</p> <p><b>メモ</b>
 
-アクセス権がない場合は、Workfront管理者に、アクセスレベルに追加の制限を設定しているかどうかを問い合わせてください。 Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
+アクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -123,7 +123,7 @@ ht-degree: 95%
 
    >[!TIP]
    >
-   >   Workfrontまたはグループ管理者がレイアウトテンプレートをカスタマイズし、環境のメインメニューまたは左パネルから領域を削除する場合があります。 この場合、これらは使用できない可能性があります。
+   >   Workfront 管理者またはグループ管理者がレイアウトテンプレートをカスタマイズし、環境のメインメニューまたは左パネルからエリアを削除する場合があります。この場合、これらは使用できない可能性があります。
 
 1. 新規としてコピーして送信するリクエストを検索し、次のいずれかの操作を行います。
 
@@ -223,7 +223,7 @@ ht-degree: 95%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>ステータス</strong> </td> 
-      <td>新しいリクエストのデフォルトのステータスは「新規」です。Workfront管理者がこのステータスの名前を変更している可能性があります。 このドロップダウンメニューからステータスを別のものに変更することもできます。</td> 
+      <td>新しいリクエストのデフォルトのステータスは「新規」です。Workfront 管理者がこのステータスの名前を変更している可能性があります。このドロップダウンメニューからステータスを別のものに変更することもできます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>ドキュメント</strong> </td> 

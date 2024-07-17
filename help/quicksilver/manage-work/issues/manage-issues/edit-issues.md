@@ -34,7 +34,7 @@ ht-degree: 100%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>リクエスト以上</p> <p>タスクまたはプロジェクトの「イシュー」セクションでイシューを編集する場合は、レビュー以上のライセンスが必要です。</p> </td> 
   </tr> 
   <tr> 

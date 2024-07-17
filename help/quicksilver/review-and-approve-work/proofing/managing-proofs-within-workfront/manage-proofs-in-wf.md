@@ -3,7 +3,7 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Adobe Workfront 内でプルーフを管理
-description: Adobe Workfrontで配達確認を管理する方法を説明します。
+description: Adobe Workfront でプルーフを管理する方法を説明します。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -11,7 +11,7 @@ exl-id: dcd049e4-2e9f-49b9-adac-8b8e67187a3b
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '41'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 

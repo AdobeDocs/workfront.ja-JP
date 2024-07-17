@@ -2,14 +2,14 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: プロジェクトテンプレートを削除
-description: 時間の経過と共にプロジェクトの履歴情報を保持できるように、テンプレートを削除する代わりに、使用しなくなったテンプレートを非アクティブ化することをお勧めします。
+description: プロジェクトに関する履歴情報を長期にわたって保持できるように、使用しなくなったテンプレートは削除するのではなく、非アクティブ化することをお勧めします。
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
 source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 93%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>プラン </p> </td> 
   </tr> 
   <tr> 

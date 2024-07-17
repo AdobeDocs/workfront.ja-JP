@@ -37,7 +37,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 ## [!DNL Adobe Workfront Scenario Planner] の表示や使用に必要なアクセス権
 
-にアクセスするには、次の条件をすべて満たしている必要があります [!DNL Workfront Scenario Planner]:
+[!DNL Workfront Scenario Planner] にアクセスするには、次の条件がすべて満たされていることを確認する必要があります。
 
 1. 所属する組織で、以下に説明するWorkfront プランのいずれかが必要です。
 
@@ -45,11 +45,11 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    * 新しいプランの場合、組織には次のいずれかが必要です。
 
-      * この [!UICONTROL 究極の] [!DNL Workfront] 計画。 シナリオプランナーは Ultimate 計画に含まれています。
+      * [!UICONTROL Ultimate][!DNL Workfront] プラン。 シナリオプランナーは Ultimate 計画に含まれています。
 
         または
 
-      * この [!UICONTROL を選択] または [!UICONTROL Prime] [!DNL Workfront] 個別の購入に加えて、計画を立てる [!DNL Scenario Planner] ライセンス。
+      * [!UICONTROL Select] または [!UICONTROL Prime][!DNL Workfront] プランで、別途 [!DNL Scenario Planner] ライセンスを購入します。
 
    * 現在のWorkfront プランでは、組織に次の両方が必要です。
 
@@ -59,7 +59,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 1. 以下に説明するWorkfront ライセンスが 1 つ必要です。
 
-   新しいライセンスを使用するか現在のライセンスを使用するかによって、 [!DNL Workfront] 管理者は、次のいずれかのタイプのライセンスを割り当てる必要があります。
+   新しいライセンスと現在のライセンスのどちらを使用するかに応じて、[!DNL Workfront] 管理者は次のいずれかのタイプのライセンスを割り当てる必要があります。
 
    * 新しいライセンスの場合：
       * [!UICONTROL 標準]
@@ -73,7 +73,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    >[!NOTE]
    > 
-   >* 新しいライセンスを使用する場合、 [!UICONTROL 投稿者] または [!UICONTROL 外部] ライセンスの種類はにアクセスできません [!DNL Scenario Planner].
+   >* 新しいライセンスを使用する際、[!UICONTROL  コントリビューター ] または [!UICONTROL  外部 ] ライセンスタイプを持つユーザーは、[!DNL Scenario Planner] にアクセスできません。
    >
    >* 現在のライセンスを使用する場合、リクエストまたは外部ライセンスタイプを持つユーザーは、シナリオプランナーにアクセスできません。
 

@@ -7,8 +7,8 @@ author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
 source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
-workflow-type: ht
-source-wordcount: '1048'
+workflow-type: tm+mt
+source-wordcount: '1058'
 ht-degree: 100%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
@@ -84,7 +84,7 @@ ht-degree: 100%
      >
      >この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。
      >   
-     >   * [イシューへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+     >   * [イシューへのアクセスの許可](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
      >   * [イシューの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
      >   
      >

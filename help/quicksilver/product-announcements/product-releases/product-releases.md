@@ -35,7 +35,7 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
     <ul> 
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2024年第 1 四半期リリースの概要</a> </p> </li>
       <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">2024年第 2 四半期リリースの概要</a> </p> </li>
-      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">2024 年第 3 四半期リリースの概要</a> </p> </li>
+      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md" class="MCXref xref" xrefformat="{para}">2024 年第 3 四半期リリースの概要 </a> </p> </li>
    <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion リリースアクティビティ</a> </p> </li> </ul>   </td> 
   <tr data-mc-conditions=""> 
    <td> <p>2023年リリース</p> 

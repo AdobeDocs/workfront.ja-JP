@@ -10,7 +10,7 @@ exl-id: ad6205cd-7534-49e5-b142-09f90bf672ce
 source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
 workflow-type: tm+mt
 source-wordcount: '472'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 96%
 Adobe Workfront では、超過作業時間はデフォルトでは計算されませんが、超過作業時間を計算するタイムシートレポートを作成できます。
 
 ユーザーがプロファイルの「1 時間当たりのコスト」レートに関連付けられている場合は、そのユーザーの超過作業時間のコストの量も計算できます。\
-ユーザーと 1 時間当たりのコストの関連付けについては、「[個人設定の指定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)」を参照してください。
+ユーザーと 1 時間当たりのコストの関連付けについては、[個人設定の指定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
 
 >[!NOTE]
 >
->リストまたはレポートのタイムシートビューに追加できる「超過作業時間」フィールドには、タイムシートの「超過作業時間」フィールドの情報が表示されます。この情報は、タイムシートを変更するアクセス権を持つユーザーが手動で更新します。タイムシートの [ 超過作業時間 ] フィールドの詳細については、「 [タイムシートレイアウトの概要](../../../timesheets/timesheets/timesheet-layout.md).
+>リストまたはレポートのタイムシートビューに追加できる「超過作業時間」フィールドには、タイムシートの「超過作業時間」フィールドの情報が表示されます。この情報は、タイムシートを変更するアクセス権を持つユーザーが手動で更新します。タイムシートの「超過作業時間」フィールドについて詳しくは、[タイムシートのレイアウトの概要](../../../timesheets/timesheets/timesheet-layout.md)を参照してください。
 
 ## アクセス要件
 
@@ -38,7 +38,7 @@ Adobe Workfront では、超過作業時間はデフォルトでは計算され�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>表示の変更をリクエスト </p>
    <p>レポートを変更するためのプラン</p> </td> 
   </tr> 

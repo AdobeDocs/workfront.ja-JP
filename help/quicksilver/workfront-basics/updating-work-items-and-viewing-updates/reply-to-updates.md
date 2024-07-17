@@ -11,7 +11,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
 workflow-type: tm+mt
 source-wordcount: '725'
-ht-degree: 77%
+ht-degree: 78%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 77%
 >
 >「システムアクティビティ」タブでシステムの更新に返信することはできません。 2024 年 4 月 11 日（PT）より前の従来のコメントエクスペリエンスで行われたシステム更新への返信は、読み取り専用として表示されます。
 
-この記事では、Workfront内のほとんどのオブジェクトからのコメントに返信する方法を説明します。 様々なオブジェクトの更新セクションの違いについては、を参照してください [更新セクションの概要](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+この記事では、Workfront内のほとんどのオブジェクトからのコメントに返信する方法を説明します。 様々なオブジェクトの更新セクションの違いについては、[ 更新セクションの概要 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -64,12 +64,12 @@ ht-degree: 77%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront ライセンス*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> <p>新規：イシューとドキュメントにはコントリビューター以上、その他のすべてのオブジェクトにはライト以上</p> 
    <p>現在：イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベルの設定</strong></td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
    <td> <p>更新先のオブジェクトに対する表示または編集アクセス権</p> </td> 
   </tr> 
   <tr> 
@@ -79,7 +79,7 @@ ht-degree: 77%
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、を参照してください [Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## Workfront での更新または返信に対する返信
 
@@ -94,24 +94,24 @@ ht-degree: 77%
 
    または
 
-   「」をクリックします **すべて** tab キーを押してから、 **コメントで返信** 「コメント」タブでコメントを開いて返信します。 「すべて」タブでは返信できません。
+   [**すべて**] タブをクリックし、[**コメントで返信**] をクリックして、[ コメント ] タブでコメントを開き、返信します。 「すべて」タブでは返信できません。
 
-1. （オプション）以前の更新のテキストを返信に含めるには、返信するコメントの右上隅にある&#x200B;**その他**&#x200B;メニューをクリックし、「**引用返信**」をクリックします。以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
+1. （オプション）以前の更新のテキストを返信に含めるには、返信したいコメントの右上隅にある&#x200B;**その他**&#x200B;メニューをクリックしたあと、「**引用返信**」をクリックします。以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
 1. 「**返信**」をクリックします。
 
    ![](assets/reply-to-update-empty-box.png)
 
-   会話に積極的に参加しているユーザーが「**返信を追加...**」ボックスの下部に表示されます。さらにユーザーを追加したり、関係なくなったユーザーを削除したりできます。これらのユーザー、およびオブジェクトを購読しているユーザーは、オブジェクトに対して更新や返信が行われるたびに通知を受け取ります。さらに多くのユーザーをタグ付けして、返信に含めることもできます。さらに多くのユーザーをタグ付けするには、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
+   会話に積極的に参加しているユーザーが「**返信を追加...**」ボックスの下部に表示されます。さらに追加したり、関係なくなったものを削除したりできます。これらのユーザー、およびオブジェクトを購読しているユーザーは、オブジェクトに対して更新や返信が行われるたびに通知を受け取ります。さらに多くのユーザーをタグ付けして、返信に含めることもできます。さらに多くのユーザーをタグ付けするには、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
 
    >[!TIP]
    >
-   >   既存の返信にさらに返信を追加するには、「**返信を追加...**」ボックスに入力するか、元のコメントで「**返信**」をクリックします。返信はスレッドの最後に追加されます。
+   >   既存の返信にさらに返信を追加するには、「**返信を追加...**」ボックスに入力していくか、元のコメントで「**返信**」をクリックします。返信はスレッドの最後に追加されます。
 
 1. 返信の入力を開始し、リッチテキストツールバーの追加のオプションを使用します。リッチテキストなどの更新機能の使用について詳しくは、[作業を更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 1. 「**送信**」をクリックして返信を保存します。
 
-1. （オプション）返信するコメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックすると、返信を管理するオプションがさらに表示されます。詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+1. （オプション）返信したいコメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックすると、返信を管理するためのオプションがさらに表示されます。詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
