@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 100%
+source-wordcount: '615'
+ht-degree: 97%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 100%
 
 様々な [!DNL Workfront DAM] のメタデータフィールドに同じ [!DNL Workfront] フィールドをマッピングできますが、複数の [!DNL Workfront] メタデータフィールドに対しては、そのアプリケーションのどれでも、メタデータフィールドを使用することはできません。
 
-複数の [!DNL Workfront] フィールドを構成して [!DNL Workfront] アプリケーションの 1 つのメタデータフィールドに書き出すには、最初に [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、計算 [!DNL Workfront] フィールドを [!DNL Workfront] アプリケーションのメタフィールドにマッピングします。計算カスタムフィールドについて詳しくは、[カスタムフォームに計算データを追加](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
+複数の [!DNL Workfront] フィールドを構成して [!DNL Workfront] アプリケーションの 1 つのメタデータフィールドに書き出すには、最初に [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、計算 [!DNL Workfront] フィールドを [!DNL Workfront] アプリケーションのメタフィールドにマッピングします。計算カスタムフィールドについて詳しくは、「[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
 
 メタデータマッピングプロセスのフィールドをマッピングする前に、[!DNL Workfront] でアプリケーションを有効にする必要があります。詳しくは、[ドキュメント統合を設定](../../administration-and-setup/configure-integrations/configure-document-integrations.md)を参照してください。
 

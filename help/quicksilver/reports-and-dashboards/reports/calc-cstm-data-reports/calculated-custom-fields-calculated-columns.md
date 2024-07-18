@@ -7,10 +7,10 @@ description: Adobe Workfront で複数のフィールドを集計し、その集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: c49b545938a78716084296ef1b4e7c0fc075ef95
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 100%
+source-wordcount: '815'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 Adobe Workfront で複数のフィールドを集計し、その集計値を新しいフィールドに表示するには、次のように作成します。
 
 * カスタムフォームの計算済みカスタムフィールド\
-  計算済みカスタムフィールドをカスタムフォームに追加する方法について詳しくは、[計算済みデータをカスタムフォームに追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)の記事の[計算済みフィールドをカスタムフォームに追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form)の節を参照してください。
+  計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、[ 計算フィールドをフォームに追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 * ビューの計算済み列\
   ビューで計算を使用する方法について詳しくは、[テキストモードの一般的な使用例の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)の記事の[ビューでテキストモードを使用](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views)の節を参照してください。

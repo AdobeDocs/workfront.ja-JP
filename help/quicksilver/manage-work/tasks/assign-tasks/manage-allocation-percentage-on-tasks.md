@@ -6,20 +6,14 @@ description: 配分率は、割り当てられたリソースが 1 日に 1 回�
 author: Alina
 feature: Work Management
 exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 96%
+source-wordcount: '487'
+ht-degree: 99%
 
 ---
 
 # タスクに対するユーザーまたは役割の配分率の管理
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
-<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 配分率は、割り当てられたリソースが 1 日に 1 回のタスクで作業する予定の時間を表します。タスクの期間中にリソースが配分される、（ユーザーまたはプロジェクトのスケジュールに従った）作業日の割合です。
 
@@ -91,10 +85,6 @@ ht-degree: 96%
 
    タスクに割り当てられたチームの配分率は変更できません。
 
-   実稼動環境のサンプル画像：
-   ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![ 配分率の変更 ](assets/advanced-assignments-allocation-percentage.png)
 
 1. **保存**&#x200B;をクリックします。

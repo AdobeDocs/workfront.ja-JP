@@ -4,9 +4,9 @@ description: 22.2 リリースで、カスタムフォームの管理に関す�
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1106'
 ht-degree: 100%
 
 ---
@@ -38,8 +38,6 @@ ht-degree: 100%
 * 新しい Adobe Workfront エクスペリエンスのルックアンドフィール（「費用の編集」など）がない場合は、そのオブジェクトの「編集」ボックス。
 * Workfront Mobile アプリ
 
-カスタムフォームへのウィジェットの追加について詳しくは、[カスタムフォームでの画像や他のアセットウィジェットの追加と編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)を参照してください。
-
 ## カスタムフォームの複数のオブジェクトタイプへの関連付け
 
 複数のオブジェクトタイプをあらゆる新しいカスタムフォームに関連付けることができます。
@@ -68,8 +66,6 @@ ht-degree: 100%
 >
 >変換処理が実行される場合、カスタムフォームは、変換先のオブジェクトタイプに既に関連付けられている必要があります。
 
-カスタムフォームへのアセットウィジェットの追加について詳しくは、[カスタムフォームでの画像や他のアセットウィジェットの追加と編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)を参照してください。
-
 複数オブジェクトのカスタムフォームを作成または編集する際は、次の点に注意してください。
 
 * [セクション区切りの権限オプション](#permission-options-for-section-breaks)
@@ -89,8 +85,6 @@ ht-degree: 100%
 これらの両方のグループのオブジェクトタイプに関連付けられたカスタムフォームでは、すべてのオブジェクトタイプに対して機能する、共通のセクション区切り権限のセットが使用されます。特に、制限付き編集の権限オプションを使用する代わりに、この共通セットでは制限付き編集の権限オプションが編集の権限オプションに置き換えられます。編集オプションは、すべてのオブジェクトタイプと互換性があります。
 
 カスタムフォームに既に存在する他のオブジェクトタイプとは異なる権限オプションを使用するオブジェクトタイプを関連付けると、メッセージが表示され、フォームで使用される共通の権限オプションのセットに切り替えることができます。この変更は、セクション区切りの下にない場合でも、すべてのフィールドに適用されます。
-
-詳しくは、[カスタムフォームへのセクション区切りの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)を参照してください。
 
 ### 計算されたカスタムフィールドの互換性
 
@@ -125,7 +119,6 @@ ht-degree: 100%
 >
 >  フィールド名の前にオブジェクトタイプを追加すると、そのオブジェクトの親オブジェクトが参照されるので、`{project}.{name}` はプロジェクトと共には使用できませんが、タスクと共に使用できます。
 
-計算カスタムフィールドをカスタムフォームに追加する手順について詳しくは、[カスタムフォームへの計算データの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
 
 `$$OBJCODE` などの変数について詳しくは、[ワイルドカードフィルター変数の概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 

@@ -7,20 +7,14 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 0d525df9beacc989ec3c1c695a7757dff0ad77b3
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1265'
-ht-degree: 97%
+source-wordcount: '1168'
+ht-degree: 99%
 
 ---
 
 # 高度な割り当てを作成
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
-<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 高度な割り当てを使用して、タスクまたはイシューの割り当てを管理できます。
 
@@ -99,10 +93,6 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
 1. 「**詳細**」をクリックします。
 
-   実稼動環境のサンプル画像：
-   ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![ 「詳細」をクリック ](assets/assignments-box-in-task-header.png)
 
 1. **ユーザー、役割、チームを検索**&#x200B;フィールドに、ユーザー、役割、またはチームの名前を入力し、ドロップダウンリストに表示された名前をクリックします。
@@ -161,10 +151,6 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    * **割り当て先の役割：**&#x200B;この割り当てを実行する際にユーザーが使用する役割を選択します。デフォルトでは、ユーザーの主要役割が表示されます。「割り当て先の役割」ボックスをクリックして、別の役割を選択します。最初にタスクやイシューを役割に割り当て、次にその役割を実行できるユーザーを 2 番目の割り当てとして追加すると、ユーザー候補のリストは、タスクやイシューに既に割り当てられている役割を実行できるユーザーに絞り込まれます。
 
-     実稼動環境のサンプル画像：
-     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
-
-     <span class="preview"> プレビュー環境のサンプル画像：</span>
      ![ 割り当て先の役割 ](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -183,14 +169,6 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    * **予定時間数**：期間タイプが「予定割り当て時間」または「シンプル」の場合は、予定時間数の数値を更新します。その結果、それぞれのリソースの配分率または時間数が均等に配分されます。Workfront では、期間タイプが「予定作業」または「残存作業時間の優先」の場合は、予定時間数を計算します。詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
 
-     実稼動環境のサンプル画像：
-     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-
-     <div class="preview">
-
-     プレビュー環境のサンプル画像：
      ![高度な割り当て](assets/advanced-assignments-duration-type-allocations.png)
-
-     </div>
 
 1. 「**保存**」をクリックします。

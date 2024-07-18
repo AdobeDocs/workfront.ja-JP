@@ -7,10 +7,10 @@ description: データ式を使用して、Adobe Workfront で計算済みのカ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2166'
-ht-degree: 100%
+source-wordcount: '2165'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 * カスタムフォームの計算済みカスタムフィールド
 
-  Workfront のカスタムフォームで計算済みカスタムデータフィールドを作成する方法について詳しくは、[計算済みデータをカスタムフォームに追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
+  Workfrontのカスタムフォーム上に計算カスタムフィールドを作成する方法について詳しくは、[ 計算フィールドをフォームに追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 * テキストモードを使用する場合の、レポートまたはリスト内の計算済みカスタム列
 

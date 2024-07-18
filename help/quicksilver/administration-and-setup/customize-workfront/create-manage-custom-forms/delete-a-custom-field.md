@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '552'
+ht-degree: 96%
 
 ---
 
@@ -75,8 +75,7 @@ ht-degree: 100%
 
    1. 元のカスタムフォームから削除する新しいフォームにカスタムフィールドを追加します。
 
-      * カスタムフォームビルダーを使用している場合は、[カスタムフォームでのカスタムフィールドまたはウィジェットの再利用](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)を参照してください。
-      * フォームデザイナーを使用している場合は、[新規または既存のフィールドのカスタムフォームへの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form)を参照してください。
+      詳しくは、「[ フォームデザイナーでフォームをデザインする [ の「カスタムフォームへの新しいフィールドまたは既存のフィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) を参照してください ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)。
 
    1. 新規カスタムフォームを保存します。
 

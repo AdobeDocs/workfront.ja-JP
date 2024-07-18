@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: be398d7f-7bc3-4a27-bc17-ffa4054d81ac
-source-git-commit: c2513beb50867fe1e1d065037a068a846f96d50b
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 100%
+source-wordcount: '238'
+ht-degree: 95%
 
 ---
 
@@ -34,4 +34,4 @@ ht-degree: 100%
 
 設定／カスタムフォームエリアの「フォーム」タブ、「フィールド」タブおよび「セクション」タブを、Workfront のその他のエリアと一貫性のある、より現代的なデザインに更新しました。左側のナビゲーションメニューから、これら 3 つのエリアにアクセスできるようになりました。リストに対して、フィルター、ビューおよびグループ化を引き続き使用できます。新しいフォームデザイナーと従来のフォームビルダーの両方で作成されたカスタムフォーム、フィールドおよびセクションに、更新されたデザインが適用されます。
 
-詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)と[従来のフォームビルダーを使用したカスタムフォームの作成と編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
+詳しくは、[ フォームデザイナーでのフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。

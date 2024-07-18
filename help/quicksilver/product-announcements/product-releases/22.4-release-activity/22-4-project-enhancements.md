@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '948'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,6 @@ ht-degree: 100%
 
 * Adobe XD ファイルを追加して、カスタムフォームをより視覚的で有益なものにします。フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーは、フォーム内から XD ファイルの表示と操作を行うことができます。
 
-  詳しくは、[カスタムフォームでの画像や他のアセットウィジェットの追加または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)を参照してください。
 
 * クイックフィルターを使用すると、最新化されたカスタムフォームやフィールドリストで項目を簡単に見つけることができます。また、フォームやフィールドの管理時のルックアンドフィールが改善されました。
 

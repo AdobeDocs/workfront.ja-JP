@@ -1,5 +1,5 @@
 ---
-title: フォームデザイナーでカスタムフォームの名前を変更する
+title: カスタムフォームの名前変更
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
-source-git-commit: c19583b5524e2a2e4756920686ff8852032765a6
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '194'
+ht-degree: 95%
 
 ---
 
-# フォームデザイナーでカスタムフォームの名前を変更する
+# カスタムフォームの名前変更
 
 カスタムフォームの名前は、フォームデザイナーで作成された後でいつでも変更できます。
 

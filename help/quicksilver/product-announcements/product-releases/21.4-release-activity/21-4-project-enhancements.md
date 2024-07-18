@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '911'
 ht-degree: 100%
 
 ---
@@ -96,6 +96,4 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 これは、カスタムフォームでのフィールドの配置によって異なります。チェックボックスやラジオボタンのフィールドを使用して同じ行に別のフィールドを配置した場合、1 列で表示するのに十分な水平スペースのみが表示されます。
 
 カスタムフォームへの入力について詳しくは、[カスタムフォームフィールドの情報を編集](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)を参照してください。
-
-カスタムフォームでのチェックボックスまたはラジオボタンフィールドの作成について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)の記事の[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)および[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur)の節を参照してください。
 

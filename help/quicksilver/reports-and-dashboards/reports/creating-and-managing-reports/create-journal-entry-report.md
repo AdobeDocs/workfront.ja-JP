@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2776'
+source-wordcount: '2758'
 ht-degree: 99%
 
 ---
@@ -71,8 +71,6 @@ ht-degree: 99%
   Workfront で追跡するフィールドの追加方法については、[システム更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
 * レポートの対象となるすべてのカスタムフィールドで「**更新フィードにフィールド変更を表示**」の設定が有効になっていること。
-
-  カスタムフィールドでこの設定を有効にする方法については、[カスタムフォームの作成と編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#)を参照してください。
 
 ## ジャーナルエントリレポートの概要
 

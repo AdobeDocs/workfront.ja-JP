@@ -6,10 +6,10 @@ description: レポートやリストを構成する要素を作成する際に�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 100%
+source-wordcount: '798'
+ht-degree: 98%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 >[!TIP]
 >
->カスタムフィールドのテキストモードのバージョンを使用することによって、計算カスタムフィールドの機能を拡張することもできます。計算カスタムフィールドを作成するための構文とルールは、レポートやリストで使用するものとは異なります。計算カスタムフィールドの追加については、[カスタムフォームに計算データを追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
+>カスタムフィールドのテキストモードのバージョンを使用することによって、計算カスタムフィールドの機能を拡張することもできます。計算カスタムフィールドを作成するための構文とルールは、レポートやリストで使用するものとは異なります。計算カスタムフィールドの追加について詳しくは、[ 計算フィールドのフォームへの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 * レポートでテキストモードを使い始める前に、弊社の上級レポートクラスを受講し、テキストモード言語への理解を深めることを強くお勧めします。<!--outdated: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
 * Workfront ソフトウェアのアップデート後も作成したレポートがそのまま残るように、標準モードを使用することをお勧めします。テキストモードでは、より複雑な表示、フィルター、グループ化を作成できますが、メンテナンスがより複雑になるため、Workfront ソフトウェアの更新時に保証されません。
@@ -254,7 +254,6 @@ ht-degree: 100%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If you want to use a custom field in a <code>valueexpression</code> line you must precede the name of the field by <code>DE:</code> to indicate that it is a custom field. The name of the field is spelled as it appears in the interface. </p>
    <note type="important">
    <span>When you use a custom field that is placed in a custom form section that has restricted permissions for some users, the calculation of the valueexpression is blank when those users view this calculation in a report. For information about adjusting permissions on custom form sections, see</span>
-   <span href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md"><a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a></span>.
    </note>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For example, if you have a custom field labeled "Developer Name" and you want to display this field in upper case in a column, you can use the following <code>valueexpression</code> to indicate this:</p>
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>valueexpression=UPPER({DE:Developer Name}</code>) </p>

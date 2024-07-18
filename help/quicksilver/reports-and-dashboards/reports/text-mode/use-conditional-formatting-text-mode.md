@@ -6,10 +6,10 @@ description: テキストモードでの条件付き書式の使用
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1699'
-ht-degree: 99%
+source-wordcount: '1698'
+ht-degree: 98%
 
 ---
 
@@ -510,7 +510,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 `valueexpression` コード行を含む列を条件付きで書式設定することはできません。代わりに、計算カスタムフィールドをカスタムフォームに追加し、そのフィールドをレポートに表示するオブジェクトに関連付けることができます。その後、このフィールドを表示する列を条件付きで書式設定できます。
 
-計算カスタムフィールドの詳細については、[カスタムフォームへの計算データの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
+計算カスタムフィールドについて詳しくは、「[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 ## 「テキストモード」列への集計値の追加
 

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: acde4cf2-a755-4e77-9469-f5152991dd34
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '924'
 ht-degree: 100%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 100%
 システム管理者がカスタムフォームで書式設定されたフィールドを作成すると、Workfront 全体のリストなど、よく使用するフィールドのテキストを書式設定できるようになりました。詳細エリアに移動してカスタムフォームのテキストを書式設定しなくても、リストのフィールドをクリックしてテキストに太字、斜体、下線を適用できます。
 
 この機能は、更新されたリストでのみ使用できます。更新されたリストについて詳しくは、[Adobe Workfront のリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)を参照してください。
-
-Workfront 管理者が書式付きのテキストフィールドを作成する方法について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
 ## 複数のグローバルヘッダーのルックアンドフィールを更新
 
@@ -113,5 +111,4 @@ Workfront 管理者が書式付きのテキストフィールドを作成する�
 
 以前は、ラベルは、ユーザー向けのフィールドと識別でシステムが使用するフィールドの両方に表示されていました。これにより、ユーザー向けのラベルを変更すると、システムが識別できなくなったため、どこのフィールドでも正常に動作しなくなりました。
 
-詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 

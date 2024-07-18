@@ -7,9 +7,9 @@ description: フィルターでワイルドカードを使用すると、特定�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: d6094d944b7955db8a97b5e1ce0af8cb85f82a9e
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1466'
+source-wordcount: '1440'
 ht-degree: 100%
 
 ---
@@ -222,7 +222,6 @@ ht-degree: 100%
      <p>$$OBJCODE 変数は、オブジェクトのタイプを指します。 </p> 
      <p>カスタムフォームでは、フォームの選択したオブジェクトタイプが計算カスタムフィールドで参照されているフィールドと互換性がない場合は、このワイルドカードを使用して、そのようなオブジェクトタイプへの重複したフォームの作成を避けることができます。</p> 
      <p>計算カスタムフィールドでこれを行うには、IF 式にワイルドカードを含めることで、フォームのオブジェクトタイプごとに異なる値を計算で出力できるようにします。 </p> 
-     <p>その詳細と例については、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">カスタムフォームへの計算データの追加</a>の記事で<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">複数オブジェクトのカスタムフォームにおける計算カスタムフィールド</a>の節を参照してください。</p> 
     </div> </td> 
   </tr> 
  </tbody> 

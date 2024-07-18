@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront]  内のオブジェクトのリストを�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2398'
 ht-degree: 100%
 
 ---
@@ -628,7 +628,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td>リッチテキスト形式のカスタムフィールドをインライン編集することはできません。</td> 
-   <td> <p>書式設定機能付きのカスタムフィールドのテキストは、太字、斜体、下線、箇条書き、段落番号、ハイパーリンク、ブロック引用符を使用できるように設定できます。</p> <p>詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。</p> </td> 
+   <td> <p>書式設定機能付きのカスタムフィールドのテキストは、太字、斜体、下線、箇条書き、段落番号、ハイパーリンク、ブロック引用符を使用できるように設定できます。</p> <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">フォームデザイナーを使用したフォームのデザイン</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>条件付き書式により、リスト内のリンクのテキストカラーを変更可能</td> 

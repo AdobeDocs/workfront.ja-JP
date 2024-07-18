@@ -6,10 +6,10 @@ description: イシューの送信後、イシューを完了するために必�
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 44f01128ef4e6581dc8eaca318a999f2e7274f2a
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 99%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 100%
    >[!TIP]
    >
    >* イシューに添付された複数のオブジェクトのカスタムフォームをイシューとタスクの両方で使用するように設定すると、イシューとタスクのカスタムフォームの両方にフィールドが存在する場合、フォームに保存されたすべての情報が変換時に保持されます。
-   >* 計算フィールドを持つ複数のオブジェクトのカスタムフォームがイシューおよびタスクに添付されている場合、イシューおよびタスクには、フォームの計算カスタムフィールドで参照されているすべてのフィールドとの互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、[レガシーフォームビルダーを使用した計算データのカスタムフォームへの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)の「マルチオブジェクトカスタムフォームの計算カスタムフィールド」を参照してください。
+   >* 計算フィールドを持つ複数のオブジェクトのカスタムフォームがイシューおよびタスクに添付されている場合、イシューおよびタスクには、フォームの計算カスタムフィールドで参照されているすべてのフィールドとの互換性が必要です。互換性がない場合は、調整を行うように警告するメッセージが表示されます。詳しくは、[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
    >* 宛先プロジェクトのタスクデフォルトカスタムフォームフィールドにデフォルトフォームが定義されている場合、プロジェクトの編集時に、それらのタスクフォームも新しいタスクに追加されます。元のイシューとデフォルトのタスクフォームのフィールドに共通するカスタムフィールドには、イシューフィールドの情報が事前に入力されます。
 
 

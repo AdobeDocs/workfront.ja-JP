@@ -6,10 +6,10 @@ description: この統合シナリオは、 [!DNL Adobe Workfront]  プロジェ
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: f9198017-9bbb-4776-86aa-3f78705dbb22
-source-git-commit: 4ab731b14dc5435386fd0d887501788fa37223a2
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 100%
+source-wordcount: '922'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
   | [!UICONTROL 最終送信日] | 日付 |
   | [!UICONTROL 統合に関するメモ] | 段落テキストフィールド |
 
-  カスタムフォームの作成について詳しくは、[カスタムフォームを作成または編集](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
+  カスタムフォームの作成について詳しくは、[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## 想定される [!DNL Anaplan] 設定
 

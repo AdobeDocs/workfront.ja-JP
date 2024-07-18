@@ -5,10 +5,10 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '378'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -44,4 +44,4 @@ ht-degree: 100%
 
 既存のロジックの編集とカスタムフォームへの新しいロジックの追加は、フォームデザイナーのベータ版ではまだ利用できませんが、今後利用可能になる予定です。
 
-詳しくは、[フォームデザイナーの概要](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)を参照してください。
+詳しくは、[ カスタムフォームの概要 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md) を参照してください。

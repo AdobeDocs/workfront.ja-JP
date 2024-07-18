@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1474'
 ht-degree: 100%
 
 ---
@@ -26,8 +26,6 @@ ht-degree: 100%
 これまでは、カスタムフィールドを作成した場合、システムのすべてのユーザーがそれを編集できました。カスタムフィールドは、デフォルトの状態ではやはりそうなっていますが、カスタムフィールドの共有を特定のユーザー、役割、チーム、グループおよび会社に限定できるようになりました。また、カスタムフィールドを受信者が管理できるようにするか、表示のみ可能にするかを指定できます。
 
 また、これをなじみのあるエクスペリエンスにするために、この機能のユーザーインターフェイスを、Workfront 全体で共有される他のオブジェクト領域と同様のものになるように設計しました。
-
-詳しくは、[カスタムフィールドとウィジェットの共有を設定](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)を参照してください。
 
 ## 管理者向けの新機能：標準化されたカスタムフォームを共有
 

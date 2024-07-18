@@ -1,5 +1,5 @@
 ---
-title: フォームデザイナーを使用したフォームの整理とプレビュー
+title: フォームの整理とプレビュー
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 28961cda48ce4eec84ed272e660be6ba938be370
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1277'
 ht-degree: 94%
 
 ---
 
-# フォームデザイナーを使用したフォームの整理とプレビュー
+# フォームの整理とプレビュー
 
 フォームデザイナーでカスタムフォームを整理し、プレビューして、正しく設定されていることを確認できます。
 
@@ -79,10 +79,6 @@ ht-degree: 94%
       <td role="rowheader">説明</td> 
       <td>ユーザーにセクションの目的を説明する場合は、テキストを入力します。このテキストは、カスタムフォームのセクションのラベルの下に表示されます。</td> 
      </tr> 
-     <!--<tr> 
-      <td role="rowheader">Add Logic</td> 
-      <td>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
-     </tr> -->
      <tr> 
       <td role="rowheader"> <p>アクセスを許可</p> </td> 
       <td> <p> このセクションを表示し、そのフィールド値を編集するために、カスタムフォームが添付されるオブジェクトに対してユーザーが必要とする権限を選択します。 
@@ -149,19 +145,10 @@ ht-degree: 94%
 
 1. カスタムフィールドとウィジェットを同じ行に配置するには、その間に行が表示されるまで、隣り合わせにドラッグします。
 
-<!--
-Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
-   You can drag multiple items. Press the following keys while you select the items, then drag the items together to the new row:
-   * Mac: Command+Shift [Courtney, double-check these commands]
-   * Windows: Ctrl+Shift
-
-   When you drop the custom field or widget, a gray box displays around the two items to indicate that they share a row.
--->
-
->[!NOTE]
->
->* 右上隅にある「**プレビュー**」ボタンを使用して、カスタムフィールドとウィジェットがフォームでどのように表示されるかを確認できます。
->* ユーザーが表示しているときに使用可能な画面スペースの量に応じて、カスタムフィールドとウィジェットがフォームで同じように表示されない場合があります。例えば、水平方向のスペースが限られている場合、フィールドの行の 3 番目のフィールドが次のフィールドの行に折り返されることがあります。
+   >[!NOTE]
+   >
+   >* 右上隅にある「**プレビュー**」ボタンを使用して、カスタムフィールドとウィジェットがフォームでどのように表示されるかを確認できます。
+   >* ユーザーが表示しているときに使用可能な画面スペースの量に応じて、カスタムフィールドとウィジェットがフォームで同じように表示されない場合があります。例えば、水平方向のスペースが限られている場合、フィールドの行の 3 番目のフィールドが次のフィールドの行に折り返されることがあります。
 
 1. （オプション）カスタムフィールドまたはウィジェットを別のフィールドの上または下に配置するには、項目の間に青い水平線が表示されるまで、上または下にドラッグします。
 

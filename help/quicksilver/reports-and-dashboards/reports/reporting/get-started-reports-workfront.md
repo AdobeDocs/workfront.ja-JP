@@ -7,10 +7,10 @@ description: レポートでは、ユーザーや作業の状況を視覚的に�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '3294'
-ht-degree: 100%
+source-wordcount: '3295'
+ht-degree: 99%
 
 ---
 
@@ -323,7 +323,7 @@ Workfront レポートを参照する際には、次の用語が使用されま�
   </tr> 
   <tr> 
    <td>フィールド</td> 
-   <td> <p>オブジェクトの属性を参照します。例えば、「ステータス」はプロジェクト、タスク、またはイシューのフィールドです。「ポートフォリオマネージャー」は、ポートフォリオオブジェクトのフィールドです。</p> <p>また、独自に作成してカスタムフォームに追加する、カスタムフィールドを持つこともできます。<br>カスタムフォームの作成について詳しくは、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>の記事を参照してください。</p> </td> 
+   <td> <p>オブジェクトの属性を参照します。例えば、「ステータス」はプロジェクト、タスク、またはイシューのフィールドです。「ポートフォリオマネージャー」は、ポートフォリオオブジェクトのフィールドです。</p> <p>また、独自に作成してカスタムフォームに追加する、カスタムフィールドを持つこともできます。<br> カスタム フォームの作成方法については、「<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> フォーム デザイナでフォームをデザインする </a>」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>フィールド名 </td> 

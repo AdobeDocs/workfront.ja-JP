@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 100%
+source-wordcount: '927'
+ht-degree: 97%
 
 ---
 
@@ -33,13 +33,11 @@ in January 2022
 
 この機能は、Workfront システムで以前に作成されたすべてのカスタムフォームで機能します。例えば、「タスク」オブジェクトタイプ用に作成されたカスタムフォームが既にある場合、「プロジェクト」や「イシュー」などの他のオブジェクトタイプとも連携するように設定できます。
 
-詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)の記事の[カスタムフォームの作成の開始](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start)の節を参照してください。
-
 >[!NOTE]
 >
->* この機能の最初のプレビューリリースの時点では、複数オブジェクトカスタムフォームをコピーする機能を一時的に無効にしました。この機能は3月24日（PT）に有効になりました。カスタムフォームのコピーについては、[カスタムフォームのコピーによる新規フォームの作成](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)を参照してください。
->* 計算カスタムフィールドでは、参照する一部のフィールドは、フォーム用に設定されたオブジェクトタイプと互換性がない場合があります。このような場合は、ワイルドカードが解決策になります。ワイルドカードを使用すると、フォームの添付先となるオブジェクトに応じて、異なる値を計算で出力できるようになります。ワイルドカード機能は 3月24日（PT）に追加されました。その使用方法については、[カスタムフォームへの計算データの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)の記事で[複数オブジェクトカスタムフォームの計算カスタムフィールド](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat)の節を参照してください。
->* カスタムフォームのセクション区切りについて、フォームに設定できるすべてのオブジェクトタイプに対して機能する共通の表示および編集権限のセットが作成されました。あるシナリオでは、これらの権限の 1 つである制限付き編集権限が原因で、フォームでエラーが発生する可能性があることがわかりました。この問題は 3月24日（PT）に修正されました。セクション区切りについて詳しくは、[カスタムフォームへのセクション区切りの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)を参照してください。
+>* この機能の最初のプレビューリリースの時点では、複数オブジェクトカスタムフォームをコピーする機能を一時的に無効にしました。その機能は 3 月 24 日に有効になりました。
+>* 計算カスタムフィールドでは、参照する一部のフィールドは、フォーム用に設定されたオブジェクトタイプと互換性がない場合があります。このような場合は、ワイルドカードが解決策になります。ワイルドカードを使用すると、フォームの添付先となるオブジェクトに応じて、異なる値を計算で出力できるようになります。3 月 24 日にワイルドカードを追加しました。
+>* カスタムフォームのセクション区切りについて、フォームに設定できるすべてのオブジェクトタイプに対して機能する共通の表示および編集権限のセットが作成されました。あるシナリオでは、これらの権限の 1 つである制限付き編集権限が原因で、フォームでエラーが発生する可能性があることがわかりました。これは 3 月 24 日に修正されました。
 >
 
 ## ブループリントカタログがすべてのユーザーで使用できるようになり、管理者がリクエストを許可可能に
@@ -60,7 +58,6 @@ in January 2022
 >
 >項目を一括編集するときに表示されるボックスなど、新しい Adobe Workfront エクスペリエンス のまだ最新化されていないエリアでは、カスタムフォーム画像は表示されません。これらのエリアが更新されるにつれて、それらの画像が表示されるようになります。
 
-詳しくは、[カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)を参照してください。
 
 ## 新しいデフォルトのアクセスレベル設定
 

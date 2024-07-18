@@ -5,10 +5,10 @@ description: 収益および追跡の費用を設定することに加えて、�
 author: Alina
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 100%
+source-wordcount: '1934'
+ht-degree: 99%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 100%
 
 1. （オプション）「**カスタムフォーム**」の下で、請求記録に追加する請求記録カスタムフォームを選択します。
 
-   ここで選択する前に、自分で（またはカスタムフォームへのアクセス権を持つその他のユーザーが）請求記録のカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
+   ここで選択する前に、自分で（またはカスタムフォームへのアクセス権を持つその他のユーザーが）請求記録のカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
    この手順を繰り返して、請求記録に必要な他のカスタムフォームを追加できます。
 

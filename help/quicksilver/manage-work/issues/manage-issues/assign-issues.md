@@ -7,22 +7,16 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 95%
+source-wordcount: '1468'
+ht-degree: 96%
 
 ---
 
 # イシューの割り当て
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
-<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
 
 ユーザー、役割、およびチームにイシューを割り当てて、イシューの完了担当者を指定できます。イシューの割り当てについて一般的な情報については、[イシューの割り当ての変更についての概要](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)を参照してください。
 
@@ -47,7 +41,7 @@ ht-degree: 95%
 
 1 つまたは複数のリソースに個々のイシューレベルでイシューを割り当てたり、複数のリソースを複数のイシューに一度に割り当てたりできます。
 
-イシューとタスクの割り当ては、Adobe Workfront でも同様です。タスクの割り当てに関する一般情報については、[タスクの割り当て変更の概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)を参照してください。
+問題とタスクの割り当ては、Adobe Workfrontと似ています。 タスクの割り当てに関する一般情報については、[タスクの割り当て変更の概要](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)を参照してください。
 
 ## アクセス要件
 
@@ -126,11 +120,7 @@ ht-degree: 95%
 
    * 割り当てるユーザー、役割、またはチームの名前を入力し、リストに表示されたらクリックします。
 
-     実稼動環境のサンプル画像：
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-     <span class="preview"> プレビュー環境のサンプル画像：</span>
-     <span class="preview">![ 割り当て検索 ](assets/smart-assignments-issue-header.png)</span>
+     ![ 割り当て検索 ](assets/smart-assignments-issue-header.png)
 
    * （条件付き）使用可能なリストの名前、役割、チームのいずれかをクリックします
    * 「**自分に割り当て**」をクリックして、自分に割り当てる
@@ -177,10 +167,6 @@ ht-degree: 95%
 
    * 「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、またはアクティブなチームの名前の入力を開始し、リストに表示されたらクリックします。
 
-     実稼動環境のサンプル画像：
-     ![](assets/assignments-field-task-list-nwe.png)
-
-     <span class="preview"> プレビュー環境のサンプル画像：</span>
      ![ 割り当てフィールド ](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
