@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '2569'
-ht-degree: 79%
+source-wordcount: '2598'
+ht-degree: 78%
 
 ---
 
@@ -93,6 +93,12 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
+## テーブル表示を使用したレコードの編集
+
+レコード情報は、テーブル表示でのみ編集できます。
+
+テーブル ビューでレコードを編集する方法の詳細については、「[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md)」を参照してください。
 
 ## テーブルビューの管理 {#manage-a-table-view}
 

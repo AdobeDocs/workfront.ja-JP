@@ -6,21 +6,23 @@ description: 割り当てられたタスクやイシューのコミット日は�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 57%
+source-wordcount: '552'
+ht-degree: 54%
 
 ---
 
 
 # タスクやイシューのコミット日の更新
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 割り当てられたタスクやイシューのコミット日は手動で更新できます。Adobe Workfront でのコミット日について詳しくは、[コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)を参照してください。
 
@@ -28,7 +30,7 @@ ht-degree: 57%
 
 <!--Audited: 01/2024-->
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,12 +43,12 @@ ht-degree: 57%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
-   新しいライセンスの場合：
+   新規：
    <ul>
    <li><p>タスクの標準</p> </li>
    <li><p>イシューの場合は Contributor 以上</p></li>
    </ul>
-   現在のライセンスの場合：
+   現在：
 <ul>
    <li><p>タスクの場合はワーク以上</p></li> 
    <li><p>イシューの場合はリクエスト以上</p></li>
@@ -65,7 +67,9 @@ ht-degree: 57%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+* 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -77,10 +81,10 @@ ht-degree: 57%
 Workfrontの次の領域で、タスクまたはイシューのコミット日を更新できます。
 
 * タスクまたは問題の「詳細」セクション
-* <span class="preview"> タスクまたは問題のヘッダー </span>
+* タスクまたはイシューのヘッダー
 
-  <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートのタスクまたはイシューヘッダーにコミット日を追加して、タスクまたはイシューページで表示できるようにする必要があります。
-詳しくは、[ レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md) を参照してください。</span>
+  Workfront管理者またはグループ管理者は、レイアウトテンプレートのタスクまたはイシューヘッダーにコミット日を追加して、タスクまたはイシューページから表示する必要があります。
+詳しくは、[レイアウトテンプレートを使用してオブジェクトヘッダーをカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
 コミット日の更新は、タスクとイシューで同じです。
 
@@ -98,9 +102,9 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
 
    タスクやイシューのタスク所有者の確認方法について詳しくは、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)の記事で[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments)の節を参照してください。
 
-1. <span class="preview"> （条件付きおよびオプション）Workfront管理者またはグループ管理者がコミット日をタスクまたは問題ヘッダーに追加した場合は、ヘッダーの **コミット日** フィールドをクリックし、カレンダーから日付を選択します。 コミット日がヘッダーにない場合は、次の手順に進みます。</span>
+1. （条件付きおよびオプション）Workfront管理者またはグループ管理者がコミット日をタスクまたは問題ヘッダーに追加した場合は、ヘッダーの **コミット日** フィールドをクリックし、カレンダーから日付を選択します。 コミット日がヘッダーにない場合は、次の手順に進みます。
 
-   <span class="preview">![](assets/commit-date-task-header.png)</span>
+   ![](assets/commit-date-task-header.png)
 
 1. 左側のパネルで「**タスクの詳細**」または「**イシューの詳細**」をクリックします。
 1. 「**概要**」をクリックして展開します。

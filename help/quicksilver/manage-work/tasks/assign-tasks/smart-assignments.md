@@ -7,10 +7,10 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 02a47566acd0fff151656fe2c5b59a6679748b15
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 95%
+source-wordcount: '1269'
+ht-degree: 90%
 
 ---
 
@@ -49,13 +49,13 @@ ht-degree: 95%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview">割り当て列のタスクのリストまたはレポート</span>
+* 割り当て列のタスク リストまたはレポート
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">「割り当て」フィールドのタスクヘッダー</span>
+* 「割り当て」フィールドのタスクヘッダー
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 「割り当て」フィールドのイシューヘッダー
 
@@ -63,24 +63,24 @@ ht-degree: 95%
 
 * 割り当てエリアのタスクまたはイシューの概要パネル
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">プロジェクトにタスクを追加する際の新規タスクボックスの割り当てフィールド</span>
+* タスクをプロジェクトに追加するときは、[ 新しいタスク ] ボックスの [ 割り当て ] フィールド
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
-* タスクやイシューを開いた際のホームエリアに一覧表示される項目の割り当てフィールド
+<!--this is not possible in the new home  - we have Summary there: 
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * タスクまたはイシューを割り当てる際のこの割り当て先エリアのワークロードバランサー
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## スマート割り当て条件
-
-<div class="preview">
 
 スマート割り当ては、タスクに対する場合とイシューに対する場合とで異なります。
 
@@ -134,17 +134,16 @@ ht-degree: 95%
 
 詳しくは、この記事の[タスクとイシューのスマート割り当て条件](#smart-assignments-criteria-for-tasks-and-issues)を参照してください。
 
-このフェーズで識別された割り当ては、「割り当て」フィールドの **ユーザーとチーム**、**担当業務の割り当て**、および **評価カードの役割** セクションに一覧表示されます。 評価カードについて詳しくは、[ 評価カードの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md) を参照してください。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+このフェーズで識別された割り当ては、「割り当て」フィールドの **ユーザーとチーム**、**担当業務の割り当て**、および <span class="preview">**評価カードの役割**</span> セクションに一覧表示されます。 <span class="preview"> 評価カードについて詳しくは、[ 評価カードの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span> を参照してください。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### タスクとイシューのスマート割り当て条件
 
-</div>
 
 >[!NOTE]
 >
-><span class="preview">次の条件は、タスクのスマート割り当ての計算の第 1 フェーズで一致が見つからなかった場合にのみ、タスクに適用されます。詳しくは、[タスクのスマート割り当て計算の第 1 フェーズ](#first-phase-of-smart-assignment-calculation-for-tasks)を参照してください。デフォルトでは、常に次の条件がイシューに適用されます。</span>
+>次の条件は、タスクのスマート割り当て計算の最初のフェーズで一致するものが見つからなかった場合にのみ、タスクに適用されます。 詳しくは、[タスクのスマート割り当て計算の第 1 フェーズ](#first-phase-of-smart-assignment-calculation-for-tasks)を参照してください。次の条件は、デフォルトで常にイシューに適用されます。
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 次の条件の組み合わせに基づいて、スマート割り当てドロップダウンリストでユーザー候補が提示されます（最も重要候補から最も重要でない候補の順に表示されます）。
 

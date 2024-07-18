@@ -6,20 +6,22 @@ description: タスクまたはイシューの状況は、進行状況を示す�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: ac5e56a2881d589c9a737d5e7115d82ee5c11ea6
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1095'
-ht-degree: 67%
+source-wordcount: '1020'
+ht-degree: 65%
 
 ---
 
 # タスクおよびイシューの条件の更新
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+<!--Audited: 07/2024-->
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 タスクまたはイシューの状況は、進行状況を示すために配置されたフラグです。これは、作業項目の現在の開発段階を示す作業項目のステータスとは異なります。
 
@@ -29,7 +31,7 @@ ht-degree: 67%
 
 ## アクセス要件 {#access-requirements}
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,15 +43,12 @@ ht-degree: 67%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td>
-
-新しいライセンスの場合：
-<ul><li><p>タスクの標準</p></li>
+   <td> 
+   新規：
+   <ul><li><p>タスクの標準</p></li>
    <li><p>イシューの場合は Contributor 以上</p></li></ul>
-
-
-現在のライセンスの場合：
-<ul><li><p>タスクの場合はワーク以上</p></li>
+   現在：
+   <ul><li><p>タスクの場合はワーク以上</p></li>
    <li><p>イシューの場合はリクエスト以上</p></li></ul>
     </td> 
   </tr> 
@@ -66,7 +65,9 @@ ht-degree: 67%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 前提条件
 
@@ -78,9 +79,9 @@ ht-degree: 67%
 
 タスクとイシューの条件は、Workfrontの次の領域で見つけることができます。
 
-* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の詳細ページ。 詳しくは、[ レイアウトテンプレートを使用した詳細ビューのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) を参照してください。</span>
+* Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の「詳細」ページ。 詳しくは、[レイアウトテンプレートを使用した詳細表示のカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
-* <span class="preview">Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後のタスクまたはイシューのヘッダー。 詳しくは、[ レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md) を参照してください。</span>
+* Workfront管理者またはグループ管理者がレイアウトテンプレートに追加した後の、タスクまたはイシューのヘッダー。 詳しくは、[レイアウトテンプレートを使用してオブジェクトヘッダーをカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
 * Workfront管理者またはグループ管理者がレイアウトテンプレートに概要パネルを追加した後。 詳しくは [ レイアウトテンプレートを使用したホームと概要のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
 
@@ -110,7 +111,7 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->システム管理者またはグループ管理者に依頼して、概要パネルに条件フィールドを追加してもらい、Workfrontの様々な領域で更新しやすくすることができます。
+>システム管理者またはグループ管理者に依頼して、概要パネル、タスクまたは問題のヘッダーまたは詳細ページに「条件」フィールドを追加できます。
 >
 >詳しくは、次の記事を参照してください。
 >
@@ -124,31 +125,27 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-タスクまたは問題の条件を手動で更新するには、次のいずれかを行います。
+Workfrontの様々な領域で、タスクとイシューの条件を手動で更新できます。 次の節では、タスクとイシューの条件を手動で更新する方法について説明します。
 
-<div class="preview">
+### タスクまたは問題のヘッダーでタスクまたは問題の状態を更新する
 
-1. タスクまたは問題ヘッダーでタスクまたは問題の条件を更新するには：
+1. （条件付き）Workfrontまたはグループ管理者がレイアウトテンプレートのタスクまたはイシューヘッダーに「条件」フィールドを追加した場合は、ヘッダーの **条件** フィールドをクリックして、次のオプションから選択します。
+   * 順調
+   * やや心配
+   * 深刻な障害
 
-   1. （条件付き）Workfrontまたはグループ管理者がレイアウトテンプレートのタスクまたはイシューヘッダーに「条件」フィールドを追加した場合は、ヘッダーの **条件** フィールドをクリックして、次のオプションから選択します。
-      * 順調
-      * やや心配
-      * 深刻な障害
+   ![](assets/condition-in-task-header.png)
+1. 「Enter」をクリックして、条件を保存します。
 
-      ![](assets/condition-in-task-header.png)
-   1. 「Enter」をクリックして、条件を保存します。
+### 「タスクまたは問題の詳細」セクションでタスクまたは問題の条件を更新します
 
-1. 「タスクまたは問題の詳細」セクションでタスクまたは問題の条件を更新するには：
-
-   1. （条件付き）Workfrontまたはグループ管理者が、レイアウトテンプレートのタスクまたは問題の「詳細」セクションに「条件」フィールドを追加した場合は、左側のパネルで **「詳細**」をクリックし、**タスク条件** または **問題条件** をクリックして、次のオプションから選択します。
-      * 順調
-      * やや心配
-      * 深刻な障害
+1. （条件付き）Workfrontまたはグループ管理者が、レイアウトテンプレートのタスクまたは問題の「詳細」セクションに「条件」フィールドを追加した場合は、左側のパネルで **「詳細**」をクリックし、**タスク条件** または **問題条件** をクリックして、次のオプションから選択します。
+   * 順調
+   * やや心配
+   * 深刻な障害
 1. 「**変更を保存**」をクリックします。タスクまたは問題の条件が更新されます。
 
-</div>
-
-レポートまたはリスト内のタスクまたは問題の条件を更新するには：
+### レポートまたはリスト内のタスクまたは問題の状態を更新する
 
 1. 管理権限のあるタスクまたはイシューのリストに移動します。「**条件**」フィールドがリストのビューに表示されていることを確認します。
 

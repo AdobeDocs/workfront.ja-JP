@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
 workflow-type: tm+mt
-source-wordcount: '1997'
-ht-degree: 93%
+source-wordcount: '1985'
+ht-degree: 91%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 93%
 
 <!--Audited: 07/2024-->
 
-<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
 
@@ -146,12 +146,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    または
 
-   タスクまたはイシューが既に割り当てられている場合は、割り当ての名前をクリックします。
+   タスクが既に割り当てられている場合は、割り当ての名前をクリックします。
 
-   実稼動環境では、次の操作を行います。
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview"> プレビュー環境で：</span>
    ![割り当て](assets/assignments-box-in-task-header.png)
 
 1. 次のいずれかの操作を行います。
@@ -168,7 +164,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">担当業務の割り当てを追加する際に、担当業務や場所を検索できます。担当業務リストから役割を選択して割り当てのデフォルトの請求レートを使用するか、レートカード担当業務を選択してレートカードの請求レートを使用します。 評価カードについて詳しくは、[評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。</span>
 
 
-   * （条件付き） <span class="preview">**提案された割り当て**、**ユーザーとチーム**、**担当業務**、または **評価カードの役割**</span> リストのいずれかの名前を表示時にクリックします。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
+   * （条件付き） **提案された割り当て**、**ユーザーとチーム**、**担当業務**、または <span class="preview">**評価カードの役割**</span> リストのいずれかの名前を表示時にクリックします。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
      タスクに割り当てるユーザー、チーム、担当業務の名前の入力を開始し、リストに表示されたら選択できます。
 
@@ -215,7 +211,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      >
      >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
      >
-     ><span class="preview">担当業務の割り当てを追加する際に、担当業務または場所を検索できます。割り当てにデフォルトの請求レートを使用する場合は、システム／デフォルトの担当業務を選択し、料金カードから請求レートを使用する場合は、料金カードの担当業務を選択します。評価カードについて詳しくは、[評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。</span>
+     ><span class="preview">担当業務の割り当てを追加する際に、担当業務または場所を検索できます。担当業務を選択して割り当てのデフォルトの請求レートを使用するか、レートカードの担当業務を選択してレートカードの請求レートを使用します。 評価カードについて詳しくは、[評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。</span>
 
 
 1. （条件付き）**割り当て**&#x200B;フィールドで、割り当てボックスの右上隅にある&#x200B;**人物**&#x200B;アイコンをクリックして、**詳細な割り当て**&#x200B;ボックスを開き、詳細な割り当てを作成します。
