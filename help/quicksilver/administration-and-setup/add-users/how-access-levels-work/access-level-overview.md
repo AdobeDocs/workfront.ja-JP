@@ -10,10 +10,10 @@ author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: 2da3c687b33d808ec4bf19d380bc82759d19bf99
+source-git-commit: 528c264f613c0deb88c1cf52adb885ad4ead098b
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 99%
+source-wordcount: '1745'
+ht-degree: 97%
 
 ---
 
@@ -281,8 +281,8 @@ Workfront には、5 つの新しいアクセスレベルが組み込まれて�
 | プロジェクト |   | ✓ |   |
 | タスク |   | ✓ |   |
 | イシュー |   |   | ✓ |
-| ポートフォリオ | ✓ |   |   |
-| プログラム | ✓ |   |   |
+| ポートフォリオ |   | ✓ |   |
+| プログラム |   | ✓ |   |
 | レポート（ダッシュボードとカレンダーレポートを含む） |   | ✓（「詳細」タブのみ） |   |
 | フィルター、ビュー、グループ化 |   |   | ✓ |
 | ドキュメント |   |   | ✓ |
@@ -297,6 +297,13 @@ Workfront には、5 つの新しいアクセスレベルが組み込まれて�
 | Goals |   |   | ✓ |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>24.7 リリース以降、投稿者は、デフォルトでプログラムとPortfolioに表示アクセスできます。
+>
+> 
+>24.7 リリースより前にオンボーディングされた投稿者は、デフォルトで引き続きプログラムとPortfolioにアクセスできません。 必要に応じて、表示へのアクセス権を手動で更新できます。
 
 ### 外部ユーザーのアクセスレベル
 
