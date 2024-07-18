@@ -6,10 +6,10 @@ description: ドキュメントは、Adobe Workfront から個別または一括
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 100%
+source-wordcount: '286'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ドキュメントは、Adobe Workfront から個別または一括でダウンロードできます。ドキュメントは、Workfront のドキュメントを含むどのエリアからでもダウンロードできます。 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## 個々のドキュメントをダウンロード
 

@@ -6,10 +6,10 @@ description: アップロードしたドキュメントを削除できます。�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '234'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 アップロードしたドキュメントを削除できます。特定のドキュメントに対する管理アクセス権を与えられている場合は、それらも削除できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ドキュメントを削除するには：
 

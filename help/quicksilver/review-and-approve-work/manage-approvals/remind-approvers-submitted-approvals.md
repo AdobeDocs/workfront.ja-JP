@@ -6,10 +6,10 @@ description: Workfront でオブジェクトが承認待ちであることを承
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 97%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 * ドキュメント
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -47,7 +49,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## アクセスリクエスト
 

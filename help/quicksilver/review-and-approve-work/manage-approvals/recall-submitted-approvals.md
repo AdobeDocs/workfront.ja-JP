@@ -6,10 +6,10 @@ description: 承認のために送信した以下のオブジェクトを取り�
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1194'
-ht-degree: 100%
+source-wordcount: '1205'
+ht-degree: 99%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 * アクセスリクエスト
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -51,7 +53,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## プロジェクト
 

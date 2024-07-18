@@ -6,10 +6,10 @@ description: 任意のサービスからドキュメントを初めてアップ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fce8e8aa-fc48-49e1-a71d-c3933a179cf5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 ドキュメントサービスは Workfront へのリンク権限を許可するものなので、Workfront ではドキュメントサービスから付与された権限を削除できません。ドキュメントサービスアプリケーション内から権限を削除するか、サポートチームに連絡して、サーバーからこのリンクを削除する必要があります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## Workfront と Dropbox 間のリンクを削除する
 

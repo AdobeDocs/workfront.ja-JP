@@ -6,10 +6,10 @@ description: ドキュメントをチェックアウトすると、他のユー�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 100%
+source-wordcount: '684'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ドキュメントをチェックアウトすると、他のユーザーがドキュメントを削除したり、新しいバージョンのドキュメントをアップロードしたりするのを防ぐことができます。一度に 1 人のユーザーだけがドキュメントをチェックアウトできます。Adobe Workfront にアップロードされたドキュメントだけでなく、サードパーティのドキュメントプロバイダー（Box、Dropbox、Google Drive、Webdam、Workfront DAM、SharePoint、その他のカスタムプロバイダー）にリンクされているドキュメントをチェックアウトできます。 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## チェックアウトしたドキュメントで可能なアクション
 

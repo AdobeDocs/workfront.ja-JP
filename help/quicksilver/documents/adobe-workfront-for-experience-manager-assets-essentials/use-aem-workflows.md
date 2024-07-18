@@ -6,10 +6,10 @@ description: Experience Manager Assets Essentials 統合でのワークフロー
 author: Courtney, Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
-source-git-commit: 821e31b8c6023a9ec4e017cc5548bb9fd930983c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 100%
+source-wordcount: '1053'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 100%
 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -62,6 +64,8 @@ ht-degree: 100%
    </td>
   </tr>
 </table>
+
++++
 
 ## 前提条件
 
@@ -145,7 +149,6 @@ ht-degree: 100%
 >リンクされているフォルダーはプロジェクトの作成時に作成されるので、既存のプロジェクトでリンクされているフォルダーのワークフローを編集しても効果はありません。プロジェクトの作成時にこれらの値を編集すると、期待どおりに機能します。
 
 リンクされているフォルダーのワークフローを編集するには：
-
 
 1. 必要に応じて、**[!UICONTROL リンクされたフォルダーを作成]**&#x200B;をオンまたはオフに切り替えます。オンにすると、リンクされているフォルダーの設定を編集できます。
 

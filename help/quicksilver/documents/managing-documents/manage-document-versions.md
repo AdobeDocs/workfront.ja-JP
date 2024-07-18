@@ -6,10 +6,10 @@ description: Workfront では、複数のバージョンのドキュメントを
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 100%
+source-wordcount: '528'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 Workfront では、複数のバージョンのドキュメントを管理できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -45,6 +47,8 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## 前提条件
 

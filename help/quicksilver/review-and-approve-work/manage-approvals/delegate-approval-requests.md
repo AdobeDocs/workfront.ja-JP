@@ -6,10 +6,10 @@ description: 承認リクエストを委任すると、休暇でオフィスを�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 45c0af640daa7bf0c4cb342e55a88a98a745cfc3
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 100%
+source-wordcount: '1262'
+ht-degree: 97%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプランまたはライセンスタイプを確認するには、Workfront 管理者にお問い合わせください。
+お持ちのプランやライセンスの種類を確認するには、Workfront管理者にお問い合わせください。
+
++++
 
 ## デリゲートされた承認のユーザーのアクセス権について
 
@@ -79,9 +83,7 @@ ht-degree: 100%
 
 ## ホームエリアでの承認リクエストをデリゲート
 
-* [別のユーザーに承認をデリゲート](#delegate-your-approvals-to-another-user)
-* [承認デリゲートの更新または停止](#update-or-stop-an-approval-delegation)
-* [委任された承認の表示](#view-delegated-approvals)
+ホームエリアから承認リクエストを委任できます。
 
 ### 別のユーザーに承認をデリゲート {#delegate-your-approvals-to-another-user}
 

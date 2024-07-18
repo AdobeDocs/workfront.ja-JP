@@ -6,10 +6,10 @@ description: Adobe Workfront のドキュメントに対して、管理者また
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: 9a32fcc876efd5d5250b515c1c285f5375615510
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 100%
+source-wordcount: '580'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 Adobe Workfront のドキュメントに対して、管理者または他のユーザーの承認をリクエストできます。Workfront 管理者がこの機能を有効にしている場合は、[システムセキュリティの環境設定の指定](../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)の説明にあるように、Workfront アカウントを持たないユーザーからドキュメントの承認をリクエストすることもできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -44,7 +46,9 @@ Adobe Workfront のドキュメントに対して、管理者または他のユ�
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## ドキュメントの承認をリクエスト
 

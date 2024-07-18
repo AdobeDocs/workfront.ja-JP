@@ -6,10 +6,10 @@ description: ユーザーが Workfront インスタンスにアップロード�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 75c490ca4a85197f79ff59024725a51b19238496
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 84%
+source-wordcount: '257'
+ht-degree: 79%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 84%
 ユーザーが Workfront インスタンスにアップロードできる個々のファイルの種類とサイズに制限はありませんが、Workfront プランには、Workfront インスタンスが使用するストレージの合計量に関する制限があります。Adobe Workfront 管理者は、インスタンスのドキュメントストレージを「設定」エリアでモニタリングします。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -38,9 +40,12 @@ ht-degree: 84%
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
++++
+
 ## ドキュメントストレージのチェック
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
+
 1. 左側のパネルで、**システム**／**顧客情報**&#x200B;をクリックします。
 1. 「**基本情報**」セクションで「**ストレージ割当**」を探します。ここで、現在使用しているストレージの量と、利用中の Workfront プランに含まれているストレージの合計量を確認できます。
 

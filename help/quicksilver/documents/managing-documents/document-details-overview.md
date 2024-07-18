@@ -7,9 +7,9 @@ description: ドキュメントの詳細ページでは、Adobe Workfront オブ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '203'
 ht-degree: 100%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## ドキュメントの詳細ページを開きます。
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**ドキュメント**」をクリックします。
+{{step1-to-documents}}
 
 1. ドキュメントにポインタを合わせ、「**ドキュメントの詳細**」をクリックします。
 

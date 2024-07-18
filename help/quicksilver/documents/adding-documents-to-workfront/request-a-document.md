@@ -6,10 +6,10 @@ description: ドキュメントをサポートする任意のオブジェクト�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 228b53ba-4a87-4edd-b478-501b216c4a1d
-source-git-commit: 73e6a62e4c4103d0a4dc7e3f58ddd68cbd145b8c
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 100%
+source-wordcount: '407'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,9 @@ ht-degree: 100%
 ドキュメントをサポートする任意のオブジェクトに関するドキュメントをリクエストできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 
 以下が必要です。
 
@@ -41,6 +44,8 @@ ht-degree: 100%
 </table>
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## ドキュメントをリクエスト
 

@@ -6,10 +6,10 @@ description: 任意の Workfront オブジェクトに含まれるすべての�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f8f83f44-7001-4774-9a35-359cd21124d9
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 100%
+source-wordcount: '249'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 以下の [!DNL Workfront] オブジェクトのいずれかに含まれる任意のドキュメントフォルダーへの直接リンクをコピーできます：[!UICONTROL プログラム]、[!UICONTROL ポートフォリオ]、[!UICONTROL プロジェクト]、[!UICONTROL タスク]、[!UICONTROL イシュー]。[!UICONTROL ドキュメント]エリアに含まれるどのフォルダーへのリンクも、メインメニューからはコピーできません。これらのフォルダーはユーザープロファイルに直接リンクされており、他のユーザーと共有できないためです。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -42,6 +44,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## ドキュメントフォルダーへのリンクをコピーして共有する
 

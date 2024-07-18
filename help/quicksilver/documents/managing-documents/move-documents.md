@@ -6,10 +6,10 @@ description: ドキュメントに対する管理権限を持つユーザーは�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '266'
+ht-degree: 91%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 100%
 * ドキュメントの承認
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -54,6 +56,8 @@ ht-degree: 100%
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
++++
+
 ## ドキュメントを移動する
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
@@ -66,4 +70,4 @@ ht-degree: 100%
 
 1. 「**完了**」をクリックします。
 
-ドキュメントの詳細ページからドキュメントを移動することもできます。詳しくは、記事を参照してください。
+ドキュメントの詳細ページからドキュメントを移動することもできます。

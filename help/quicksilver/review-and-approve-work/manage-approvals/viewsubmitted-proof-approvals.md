@@ -6,10 +6,10 @@ description: Adobe Workfront 環境が Workfront Proof Premium アカウント�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 3f012b1d-69a8-4426-8894-3dafb1e6b837
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 100%
+source-wordcount: '356'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 Adobe Workfront 環境が Workfront Proof Premium アカウントと統合されている場合にのみ、プルーフの承認がホームエリアに表示されます。ここで説明したようにプルーフを使用できない場合は、Workfront 管理者にお問い合わせください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -44,7 +46,9 @@ Adobe Workfront 環境が Workfront Proof Premium アカウントと統合され
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## 送信済みのプルーフ承認を表示する
 

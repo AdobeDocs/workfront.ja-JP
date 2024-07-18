@@ -6,10 +6,10 @@ description: ドキュメントエリアからドキュメントをプレビュ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 100%
+source-wordcount: '202'
+ht-degree: 94%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ドキュメントエリアからドキュメントをプレビューできます。これは、特に画像に役立ちます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -47,6 +49,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## ドキュメントをプレビュー
 

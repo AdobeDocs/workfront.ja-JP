@@ -6,10 +6,10 @@ description: Experience Manager Assets Essentials からアセットをリンク
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abd641a1-081b-4b86-95ee-f0ed030d704c
-source-git-commit: 3b063899c5c7992aad71d1eb8c8fafff7fda84c3
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 Experience Manager Assets Essentials からアセットをリンクしたら、プルーフを作成し、アセットをレビューしてコメントを追加するようにユーザーを割り当てます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -50,7 +52,9 @@ Experience Manager Assets Essentials からアセットをリンクしたら、�
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## 前提条件
 

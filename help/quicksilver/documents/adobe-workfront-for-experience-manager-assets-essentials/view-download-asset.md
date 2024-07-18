@@ -6,10 +6,10 @@ description: Experience Manager Assets や Assets Essentials からリンクさ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: 3b063899c5c7992aad71d1eb8c8fafff7fda84c3
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 Experience Manager Assets や Assets Essentials からリンクされているアセットを Adobe Workfront で表示またはダウンロードできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -49,6 +51,8 @@ Experience Manager Assets や Assets Essentials からリンクされている�
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## 前提条件
 

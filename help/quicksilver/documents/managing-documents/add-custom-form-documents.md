@@ -6,10 +6,10 @@ description: カスタムフォームをドキュメントまたはドキュメ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 94%
+source-wordcount: '330'
+ht-degree: 91%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 94%
 カスタムフォームをドキュメントまたはドキュメントバージョンに追加して、アセットに固有の追加情報やメタデータをキャプチャすることができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 94%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## 前提条件
 

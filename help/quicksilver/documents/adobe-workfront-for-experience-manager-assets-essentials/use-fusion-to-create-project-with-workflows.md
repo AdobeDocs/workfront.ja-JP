@@ -6,9 +6,9 @@ description: Workfront Fusion でプロジェクトを作成していて、そ�
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: 012aa4c15bcdb26a3e30f8c143599a7e90c9a0f3
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '894'
 ht-degree: 18%
 
 ---
@@ -23,6 +23,8 @@ Workfront Fusion でプロジェクトを作成していて、そのプロジェ
 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -71,6 +73,8 @@ Workfront Fusion でプロジェクトを作成していて、そのプロジェ
    </td>
   </tr>
 </table>
+
++++
 
 ## 前提条件
 

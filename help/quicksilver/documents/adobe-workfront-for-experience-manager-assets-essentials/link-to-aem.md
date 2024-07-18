@@ -6,10 +6,10 @@ description: Experience Manager Assets または Assets Essentials からアセ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: 8ecbca4d5d09b1f696f489148e960e0eeba2119e
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 100%
+source-wordcount: '681'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,8 @@ Experience Manager Assets または Assets Essentials からアセットまた�
 Workfront から Experience Manager Assets または Assets Essentials にアセットを送信する際、メタデータフィールドが最初にマッピングされます。Workfront 管理者がオブジェクトメタデータの同期を有効にしている場合、どちらかのアプリケーションで変更されたフィールドは最新の状態に保たれます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -55,6 +57,8 @@ Workfront から Experience Manager Assets または Assets Essentials にアセ
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## 前提条件
 

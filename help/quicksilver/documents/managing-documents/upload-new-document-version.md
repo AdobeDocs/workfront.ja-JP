@@ -6,10 +6,10 @@ description: 以前に Adobe Workfront にアップロードしたドキュメ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '401'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 外部アプリケーションから Workfront にリンクされた新しいバージョンのドキュメントを追加する方法について詳しくは、[外部アプリケーションからドキュメントをリンク](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)の[リンクされたドキュメントの新しいバージョンを追加](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#add)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -53,6 +55,8 @@ ht-degree: 100%
 </table>
 
 &#42;自分のプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## ドラッグ＆ドロップを使用して新しいバージョンを追加する
 

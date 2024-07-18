@@ -6,10 +6,10 @@ description: ホームエリアから直接、ドキュメント承認に承認�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ホームエリアから直接、ドキュメント承認に承認者を追加できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -44,7 +46,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## 送信されたドキュメント承認に追加の承認者を追加
 

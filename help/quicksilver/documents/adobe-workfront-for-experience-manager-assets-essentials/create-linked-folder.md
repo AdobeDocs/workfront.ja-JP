@@ -7,10 +7,10 @@ description: Experience Manager Assets または Assets Essentials にリンク�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 1744e6f2b78c64ba2fa4856d9c6a0611404e4458
+source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ Experience Manager Assets または Assets Essentials にリンクされたフ�
 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -59,6 +61,7 @@ Experience Manager Assets または Assets Essentials にリンクされたフ�
 
 *保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
++++
 
 ## 前提条件
 
@@ -74,8 +77,6 @@ Experience Manager Assets または Assets Essentials にリンクされたフ�
 リンクされたフォルダーの名前は、関連付けられているポートフォリオ、プログラムおよびプロジェクトに基づいて自動的に作成され、変更することはできません。プロジェクトがポートフォリオまたはプログラムに関連付けられていない場合、リンクされたフォルダーにはプロジェクト名と作成日が表示されます。
 
 リンクされたフォルダーを作成するには、次の手順に従います。
-
-
 
 1. フォルダーを配置するプロジェクトに移動します。
 1. 「**新規追加**」を選択したあと、管理者が設定した Experience Manager 統合に移動します。
