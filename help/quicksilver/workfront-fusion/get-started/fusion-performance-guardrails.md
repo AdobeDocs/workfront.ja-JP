@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 8c25835525cc58db0dbe9b22d4f286330e3cb001
+source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 94%
+source-wordcount: '601'
+ht-degree: 89%
 
 ---
 
@@ -72,6 +72,7 @@ ht-degree: 94%
 ## 実行履歴
 
 * 実行履歴ログのサイズは **100 MB** までに制限されます。実行履歴がこのサイズを超える場合は、最初の 100 MB のみが表示されます。
+* シナリオに複数の同時実行がある場合。 シナリオの詳細ページの「実行」領域に表示される実行は 5 つだけです。 これは、5 つ以上の実行が実行中の場合でも当てはまります。
 
 ## 不完全な実行
 
