@@ -74,7 +74,7 @@ Linked to Converting Issues.-->
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">作業する</a> </li>
-  --&gt;
+  -->
 
 * [[!UICONTROL アクセス]](#access)
 
@@ -118,7 +118,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader" [!UICONTROL>イシューをタスクに変換する場合]</td> 
+    <td role="rowheader">[!UICONTROL イシューをタスクに変換する場合]</td> 
     <td> <p>このセクションの設定で、イシューからタスクへ変換するプロセスで起こることを定めます。</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>：イシューを変換する場合、タスクが完了するまで、イシューはイシューとして表示され続けます。タスクが完了すると、イシューのステータスは自動的に [!UICONTROL Closed] に変わります。選択を解除すると、イシューは削除されます。</p> <p><b>メモ</b>：  <p>この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。</p> 
