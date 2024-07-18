@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '715'
 ht-degree: 100%
 
 ---
@@ -93,8 +93,6 @@ ht-degree: 100%
 個々のユーザー、チーム、役割、グループまたは会社にアクセス権を付与することで、カスタムフォームへのアクセス権を持つユーザーを制御できるようになりました。 
 
 この変更を行う前は、グループに対してのみアクセス権を付与することができました。
-
-詳しくは、[カスタムフォームの作成または編集](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
 ## Adobe Creative Cloud との統合
 

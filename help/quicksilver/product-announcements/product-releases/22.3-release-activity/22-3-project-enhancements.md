@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1538'
 ht-degree: 100%
 
 ---
@@ -73,8 +73,6 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 ## カスタムフィールドの計算に関する新しい構文
 
 カスタムフォームに計算を追加する際に役立つ今後の機能強化に備えて、計算に追加する参照フィールドの構文を標準化しました。この新しい構文は、フィールド名の入力を開始して選択するときに入力されるので、簡単に使用できます。
-
-詳しくは、[計算データをカスタムフォームに追加の記事](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)の「計算カスタムフィールドの計算を作成」の節を参照してください。
 
 ## 共通の役割を持つ 2 人のユーザーが承認プロセスに関与する場合は、正確な情報を保持
 

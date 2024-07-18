@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
-source-git-commit: e1bf5fbc7dc25bf8ce472b21b9a0906530f82cf0
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '587'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,6 @@ ht-degree: 100%
      <strong>カスタムフォームの先行入力フィールドで使用できるオブジェクトタイプを追加</strong> 
      <p>先行入力のカスタムフィールドを作成する際に、ユーザー、会社、グループ、担当業務、ポートフォリオ、プログラム、プロジェクト、テンプレートの各オブジェクトタイプをフィールドに関連付けることができるようになりました。</p> 
      <p>以前は、ユーザーのオブジェクトタイプのみを先行入力カスタムフィールドに関連付けることができました。</p> 
-     <p>詳しくは、<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">カスタムフォームの作成または編集</a>の記事の<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">カスタムフォームの作成または編集</a>の節を参照してください。</p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -75,7 +74,6 @@ ht-degree: 100%
      <p>例えば、「チェックボックス」フィールドを作成した場合は、そのフィールドを「ドロップダウン」フィールドまたは「ラジオボタン」フィールドに変更できます。これらの 3 つのフィールド表示タイプは相互に入れ替えることができます。</p> 
      <p>また、1 行のテキストフィールドを作成した場合は、そのフィールドを段落テキストフィールドに変更できます。これら 2 つのフィールド表示タイプは交換可能です。</p> 
      <p>以前は、カスタムフィールドの表示タイプを変更するには、新しいフィールドを作成し、古いフィールドを削除する必要がありました。これにはデータの転送が必要でしたが、多くの場合は時間がかかりました。</p> 
-     <p>詳しくは、<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">カスタムフォームの作成または編集</a>の記事の<a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">カスタムフォームの作成または編集</a>を参照してください。</p> 
     </div> </td> 
   </tr> 
   <tr> 

@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 63ff1334-aebe-4df4-a855-10011707808b
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1452'
 ht-degree: 100%
 
 ---
@@ -57,8 +57,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 カスタムフォームエリアのルックアンドフィールが、新しい Workfront エクスペリエンスの他の多くのエリアと同様に新しくなりました。
 
-カスタムフォームの作成について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
-
 ## 計算カスタムフィールドを作成するための多くの機能強化
 
 これらの機能強化が新しい計算エディターに追加され、計算カスタムフィールドをより簡単に作成できるようになりました。
@@ -70,8 +68,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 * 計算エディターを離れることなく、既存のオブジェクトを使用して計算結果をプレビューできます。
 
 また、カスタマイズ可能な「説明」で、計算カスタムフィールドのテキストにカーソルを合わせると、フィールドの数式の表示と非表示を切り替えることができます。これは、カスタムフォームに入力するユーザーがその情報を必要としないと思う場合に役立ちます。
-
-計算カスタムフィールドの作成についての詳細は、[カスタムフォームへの計算データの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
 
 ## ステータスと会社に関する監査ログ情報の表示
 
@@ -108,8 +104,6 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 カスタムフォームで計算フィールドを簡単に作成できるように、引き続き改善を行っています。最大化をクリックして新しい計算エディターを開くと、必要な式やフィールドを検索して選択できます。
 
-詳しくは、[計算データのカスタムフォームへの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
-
 ## グループで独自のタイムシートと時間環境設定を指定できます。
 
 >[!NOTE]
@@ -144,8 +138,6 @@ Workfront 管理者がタイムシートおよび時間環境設定のロック�
 ## 計算フィールドを作成するためのエリアを拡大
 
 カスタムフォームで複雑な計算フィールドを簡単に作成できるようになりました。新しい「最大化」ボタンをクリックすると、計算を作成するための大きな編集ウィンドウが開きます。完了したら、最小化をクリックして、カスタムフォームの作業を続行します。
-
-詳しくは、[計算データのカスタムフォームへの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
 
 ## カスタムフォームをグループに追加
 

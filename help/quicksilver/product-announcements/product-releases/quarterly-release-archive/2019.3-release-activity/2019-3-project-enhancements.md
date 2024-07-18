@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 127d695c-74e4-45f9-b5f6-55c1d05935cf
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1340'
 ht-degree: 100%
 
 ---
@@ -29,8 +29,6 @@ ht-degree: 100%
 また、1 行のテキストフィールドを作成した場合は、そのフィールドを段落テキストフィールドに変更できます。これら 2 つのフィールド表示タイプは交換可能です。
 
 以前は、カスタムフィールドの表示タイプを変更するには、新しいフィールドを作成し、古いフィールドを削除する必要がありました。これにはデータの転送が必要でしたが、多くの場合は時間がかかりました。
-
-詳しくは、[カスタムフォームの作成または編集](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)の記事で[カスタムフォームの作成または編集](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)を参照してください。
 
 >[!NOTE]
 >
@@ -186,8 +184,6 @@ ht-degree: 100%
 Typeahead という新しいフィールドタイプがカスタムフォームビルダーで作成されました。このフィールドを使用すると、オブジェクトを表すフィールドをカスタムフォームに追加できます。現在、User オブジェクトは Typeahead で有効になっており、その他のオブジェクトは今後有効になる予定です。
 
 以前は、管理者は、カスタムフォームのドロップダウンメニューでユーザーを個別のオプションとして手動で管理する必要がありました。
-
-詳しくは、[カスタムフォームの作成または編集](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
 >[!NOTE]
 >

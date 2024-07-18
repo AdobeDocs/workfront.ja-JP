@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1521'
 ht-degree: 100%
 
 ---
@@ -173,6 +173,4 @@ Workfront 全体で最新化されたリストについて詳しくは、[リス
 ## 管理者向けの新機能：カスタムフォームフィールドで使用できるその他のテキスト形式オプション
 
 形式設定が可能なカスタムフォームフィールドに入力すると、太字、斜体、下線に加えて、箇条書き、段落番号、ハイパーリンク、ブロック引用符を使用してテキストを整理できるようになりました。
-
-詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 

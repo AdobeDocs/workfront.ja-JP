@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 99%
+source-wordcount: '1473'
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 99%
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] セクション</td> 
-      <td> <p>会社に追加するフィールドが [!DNL Workfront] にない場合、カスタムフォームを作成して会社に関連付けることができます。 </p> <p>このフォームは、ドロップダウンメニューから選択して会社に添付できます。アクティブなカスタムフォームのみが、メニューに表示されます。</p> <p><strong>メモ：</strong>外部ルックアップフィールドや Workfront ネイティブフィールドなどの高度なカスタムフォーム機能は、会社を編集ダイアログではなく、詳細ページで会社レコードを開いた場合にのみ使用できます（会社のリストで、会社名をクリックすると詳細が開きます）。</p> <p> カスタムフォームの作成については、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。 </p> </td>
+      <td> <p>会社に追加するフィールドが [!DNL Workfront] にない場合、カスタムフォームを作成して会社に関連付けることができます。 </p> <p>このフォームは、ドロップダウンメニューから選択して会社に添付できます。アクティブなカスタムフォームのみが、メニューに表示されます。</p> <p><strong>メモ：</strong>外部ルックアップフィールドや Workfront ネイティブフィールドなどの高度なカスタムフォーム機能は、会社を編集ダイアログではなく、詳細ページで会社レコードを開いた場合にのみ使用できます（会社のリストで、会社名をクリックすると詳細が開きます）。</p> <p> カスタムフォームの作成について詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> フォームデザイナーを使用したフォームのデザイン </a> を参照してください。 </p> </td>
      </tr> 
     </tbody> 
    </table>

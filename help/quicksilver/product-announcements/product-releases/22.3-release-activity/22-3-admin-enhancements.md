@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '767'
 ht-degree: 100%
 
 ---
@@ -54,8 +54,6 @@ Workfront の設定エリアで、次のプルーフ設定を編集できるよ�
 
 画像や動画などの新しいアセットウィジェットを追加することで、より視覚的で役に立つカスタムフォームを作成できるようになります。カスタムフォームに PDF ファイルへのリンクを追加できるようになりました。フォームがオブジェクトに添付されていると、オブジェクトを操作するユーザーは、フォーム内から PDF の表示と操作を行うことができます。
 
-詳しくは、[カスタムフォームでの画像や他のアセットウィジェットの追加と編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)を参照してください。
-
 ## カスタムフォームフィールドの計算エディターにエラー情報を表示
 
 >[!NOTE]
@@ -63,8 +61,6 @@ Workfront の設定エリアで、次のプルーフ設定を編集できるよ�
 >この機能は一時的に利用できません。このページは、この機能が使用可能になれば更新されます。
 
 カスタムフィールドの計算を簡単に編集できるようになり、役に立つエラー情報が計算に直接表示されるようになりました。カスタムフォームで計算フィールドを作成しているとき、エラーがピンク色で強調表示されます。強調表示された部分にカーソルを合わせると、問題の内容を説明したツールヒントが表示されます。
-
-詳しくは、[計算データのカスタムフォームへの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
 
 ## プロジェクトヘッダーのカスタマイズ
 
@@ -111,6 +107,4 @@ Workfront 管理者またはグループ管理者は、レイアウトテンプ�
 ビデオを追加することで、新しい情報、視覚的な興味および創造性をカスタムフォームに提供できます。フォームがオブジェクトに添付されている場合、オブジェクトを操作するユーザーはいつでもビデオを再生できます。
 
 以前は、カスタムフォームに追加できるのはテキストベースのフィールドと画像だけでした。
-
-詳しくは、[カスタムフォームでの画像またはビデオアセットウィジェットの追加または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)を参照してください。
 

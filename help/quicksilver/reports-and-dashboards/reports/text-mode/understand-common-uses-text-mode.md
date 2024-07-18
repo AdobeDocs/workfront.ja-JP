@@ -6,10 +6,10 @@ description: テキストモードの一般的な使用例の概要
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 111c776af19fbc2982c14cc9d3b3778d37bc0be3
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '765'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -58,9 +58,9 @@ Report Builder と List Builder を使用して、ビュー、フィルターお
 
 テキストモードを使用して、計算カスタムフィールドをカスタムフォームに追加できます。
 
-計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
+計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、「[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
-テキストモードでの計算カスタムフィールドの作成について詳しくは、[計算データをカスタムフォームに追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
+テキストモードで計算カスタムフィールドを作成する方法について詳しくは、[ 計算フィールドをフォームに追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 例えば、項目が作業中とマークされた時点の日時スタンプを表示する計算カスタムフィールドを追加できます。この計算を他のステータスに使用できます。
 

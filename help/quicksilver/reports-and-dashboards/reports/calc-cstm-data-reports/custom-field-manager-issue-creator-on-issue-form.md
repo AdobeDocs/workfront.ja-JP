@@ -7,10 +7,10 @@ description: 計算済みカスタムフィールドを使用すると、イシ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f501ce1a-7a80-458b-9b30-2292426c9262
-source-git-commit: 888c938e5d649557df69374a55d4e4ecc2da6f55
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
 source-wordcount: '413'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -61,8 +61,8 @@ ht-degree: 100%
 
    カスタムフォームの作成方法とカスタムフォームに計算済みフィールドを追加する方法について詳しくは、次の記事を参照してください。
 
-   * [カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-   * [計算済みデータをカスタムフォームに追加する](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
+   * [フォームデザイナーでフォームをデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [計算フィールドをフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
 1. 次のテキストモードコードをカスタムフォームの&#x200B;**計算**&#x200B;フィールドにコピーして貼り付けます：
 

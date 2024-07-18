@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9232e204-6813-40ec-b1ad-ae2c0b9e8cdc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '180'
 ht-degree: 100%
 
 ---
@@ -26,8 +26,6 @@ Workfront モバイルアプリにパンくずリストナビゲーションが�
 ## Workfront アプリ上のカスタムフォームでリッチテキストをサポート
 
 Workfront モバイルアプリのカスタムフォームテキストフィールドでリッチテキスト書式を使用できるようになりました。
-
-テキストフィールドを含んだカスタムフォームの作成方法について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
 
 ## SSO ユーザーは、顔認証またはフィンガープリント技術を使用して、Workfront アプリに再ログインできるようになりました。
 

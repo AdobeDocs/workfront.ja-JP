@@ -3,24 +3,24 @@ user-type: administrator
 product-area: system-administration
 keywords: アクセス、共有、カスタム、フォーム
 navigation-topic: create-and-manage-custom-forms
-title: 使用する共有カスタムフィールドへのアクセス
+title: 共有カスタムフィールドへのアクセス
 description: ユーザーが表示または管理アクセス権を持つカスタムフィールドを共有した場合、他の複数の設定を行って、そのアクセス権をさらに詳細に定義できます。フィールドの受信者の場合、これらの設定は、フィールドの操作に影響します。フィールドを表示すると、次のように表示されます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 100%
+source-wordcount: '395'
+ht-degree: 90%
 
 ---
 
-# 使用する共有カスタムフィールドへのアクセス
+# 共有カスタムフィールドへのアクセス
 
 ユーザーが表示または管理アクセス権を持つカスタムフィールドを共有した場合、他の複数の設定を行って、そのアクセス権をさらに詳細に定義できます。フィールドの受信者の場合、これらの設定は、フィールドの操作に影響します。フィールドを表示すると、次のように表示されます。
 
-カスタムフォームを共有する場合、ユーザーが共有設定を指定する方法について詳しくは、[カスタムフィールドとウィジェットの共有を設定](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)を参照してください。
+ユーザーがカスタムフォームを共有する際に共有設定を設定する方法について詳しくは、[ フォーム内のカスタムフィールドとウィジェットの共有の設定 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md) を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 

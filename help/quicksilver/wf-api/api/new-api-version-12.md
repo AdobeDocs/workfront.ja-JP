@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '2475'
+source-wordcount: '2422'
 ht-degree: 100%
 
 ---
@@ -176,8 +176,8 @@ AccessLevelPermissions オブジェクトは、Workfront オブジェクトに�
      <li> <p><strong>coreAction</strong> </p> <p>次の possibleValues が追加されました。</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTERING </p> <p>この権限を含むアクセスレベルを持つユーザーは、ワークロードバランサーで予定時間を更新できます。</p> <p>詳しくは、<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">ワークロードバランサーでのユーザー割り当ての管理</a>の<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">ユーザー割り当て管理時にタスク予定時間数を更新</a>を参照してください。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>この権限を含むアクセスレベルのユーザーは、カスタムフォームにフィールドを追加できます。</p> <p>詳しくは、<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>の<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>を参照してください。</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>この権限を含むアクセスレベルを持つユーザーは、ユーザーフィールドをシステム全体で削除アクセス権と共有できます。</p> <p>詳しくは、<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">カスタムフィールドとウィジェットの共有の設定</a>を参照してください。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>この権限を含むアクセスレベルのユーザーは、カスタムフォームにフィールドを追加できます。</p> <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>この権限を含むアクセスレベルを持つユーザーは、ユーザーフィールドをシステム全体で削除アクセス権と共有できます。</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>次の possibleValues が追加されました。</p> 
       <ul> 
@@ -247,8 +247,8 @@ Workfront のオブジェクトに対する必要なアクセス権をユーザ�
      <li> <p style="font-weight: bold;">アクション</p> <p>次の possibleValues が追加されました。</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTERING </p> <p>この権限を含むアクセスレベルを持つユーザーは、ワークロードバランサーで予定時間を更新できます。</p> <p>詳しくは、<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">ワークロードバランサーでのユーザー割り当ての管理</a>の<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">ユーザー割り当て管理時にタスク予定時間数を更新</a>を参照してください。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>この権限を含むアクセスレベルのユーザーは、カスタムフォームにフィールドを追加できます。</p> <p>詳しくは、<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>の<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>を参照してください。</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>この権限を含むアクセスレベルを持つユーザーは、ユーザーフィールドをシステム全体で削除アクセス権と共有できます。</p> <p>詳しくは、<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">カスタムフィールドとウィジェットの共有の設定</a>を参照してください。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>この権限を含むアクセスレベルのユーザーは、カスタムフォームにフィールドを追加できます。</p> <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>この権限を含むアクセスレベルを持つユーザーは、ユーザーフィールドをシステム全体で削除アクセス権と共有できます。</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -270,8 +270,8 @@ AccessRule オブジェクトは、作成したプロジェクトをユーザー
      <li><strong>coreAction</strong> <p>次の possibleValues が追加されました。</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTERING </p> <p>この権限を含むアクセスレベルを持つユーザーは、ワークロードバランサーで予定時間を更新できます。</p> <p>詳しくは、<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">ワークロードバランサーでのユーザー割り当ての管理</a>の<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">ユーザー割り当て管理時にタスク予定時間数を更新</a>を参照してください。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>この権限を含むアクセスレベルのユーザーは、カスタムフォームにフィールドを追加できます。</p> <p>詳しくは、<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>の<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>を参照してください。</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>この権限を含むアクセスレベルを持つユーザーは、ユーザーフィールドをシステム全体で削除アクセス権と共有できます。</p> <p>詳しくは、<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">カスタムフィールドとウィジェットの共有の設定</a>を参照してください。</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>この権限を含むアクセスレベルのユーザーは、カスタムフォームにフィールドを追加できます。</p> <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>この権限を含むアクセスレベルを持つユーザーは、ユーザーフィールドをシステム全体で削除アクセス権と共有できます。</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>次の possibleValues が追加されました。</p> 
       <ul> 
@@ -618,7 +618,7 @@ OpTask オブジェクトは、一般にイシューと呼ばれます。イシ�
 
 パラメーターリソースにより、フラグ SHARABLE が追加されました。
 
-カスタムフィールドについて詳しくは、[カスタムフォームの作成または編集](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)で[カスタムフォームの作成または編集](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create)を参照してください。
+カスタムフィールドについて詳しくは、[カスタムフォームの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)で[カスタムフォームの作成または編集](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)を参照してください。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -725,9 +725,8 @@ QueueDef オブジェクトは、キューを表します。キューは、ユ�
      <li><strong>requestorCoreAction</strong> <p>次の possibleValues が追加されました。</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTERING </p> <p>この権限を含むアクセスレベルを持つユーザーは、ワークロードバランサーで予定時間を更新できます。</p> <p>詳しくは、<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">ワークロードバランサーでのユーザー割り当ての管理</a>の<a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">ユーザー割り当て管理時にタスク予定時間数を更新</a>を参照してください。</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>この権限を含むアクセスレベルのユーザーは、カスタムフォームにフィールドを追加できます。</p> <p>詳しくは、<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">カスタムフォームの作成または編集</a>の<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a>を参照してください。</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>この権限を含むアクセスレベルを持つユーザーは、ユーザーフィールドをシステム全体で削除アクセス権と共有できます。</p> <p>詳しくは、<a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">カスタムフィールドとウィジェットの共有を設定</a>を参照してください。</p> </li> 
-      </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>次の possibleValues が追加されました。</p> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>この権限を含むアクセスレベルのユーザーは、カスタムフォームにフィールドを追加できます。</p> <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">カスタムフォームの作成または編集</a>を参照してください。</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>この権限を含むアクセスレベルを持つユーザーは、ユーザーフィールドをシステム全体で削除アクセス権と共有できます。</p> </li>
        <ul> 
         <li> <p>PLANNED_HOURS_CONTERING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 

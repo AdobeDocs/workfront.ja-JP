@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 0876d4d47aad701d5ffadc88868217ebae7e4790
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '869'
 ht-degree: 100%
 
 ---
@@ -102,8 +102,6 @@ Workfront 管理者のみが初期の機能をオプトインできます。管�
 >この機能は、22.3 リリース期間中にプレビュー環境に最初に導入されました。22.4 リリースで実稼動環境にリリースされます。
 
 カスタムフィールドの計算を簡単に編集できるようになり、役に立つエラー情報が計算に直接表示されるようになりました。カスタムフォームで計算フィールドを作成しているとき、エラーがピンク色で強調表示されます。強調表示された部分にカーソルを合わせると、問題の内容を説明したツールヒントが表示されます。
-
-詳しくは、[計算データをカスタムフォームに追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)を参照してください。
 
 [この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3412387/){target=_blank}
 

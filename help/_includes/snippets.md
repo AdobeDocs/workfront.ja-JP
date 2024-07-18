@@ -1,8 +1,8 @@
 ---
-source-git-commit: d0940962d0e64079dadc8c93f5503a01afd9fb8b
+source-git-commit: 56fdec48612520012e606e0906cf3ac05fa27e37
 workflow-type: tm+mt
-source-wordcount: '2510'
-ht-degree: 92%
+source-wordcount: '2457'
+ht-degree: 94%
 
 ---
 # スニペット
@@ -65,11 +65,9 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->7 月 15 日の週の今後のリリース（24.7 リリース）では、フォームデザイナーが一般入手可能になり、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスとなる予定です。 従来のフォームビルダーは使用できなくなります。 今すぐフォームデザイナーに切り替えて、その機能を利用することをお勧めします。
+>2024 年 7 月 18 日（PT）の 24.7 リリース以降、レガシーフォームビルダーは使用できなくなりました。 フォームデザイナーは、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスになりました。
 >
 >詳しくは、[ フォームデザイナーでのフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
->
->従来のフォームビルダーは、2024 年 6 月 19 日（PT）にプレビュー環境から削除され、7 月に 24.7 リリースで実稼動環境から削除されます。
 
 ## 適切なグループをチームに関連付ける {#right-group-team}
 

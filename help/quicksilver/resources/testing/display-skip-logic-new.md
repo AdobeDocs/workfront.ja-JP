@@ -2,9 +2,9 @@
 title: カスタムフォームへの表示ロジックとスキップロジックを追加
 description: カスタムフォームへの表示ロジックとスキップロジックを追加
 draft: Probably
-source-git-commit: c0722924d6621b382050a10e9aac549fc1204d72
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1475'
 ht-degree: 100%
 
 ---
@@ -38,7 +38,6 @@ ht-degree: 100%
   これは、このユーザーに対して表示する必要のないロゴ、web サイトのアップデート、パンフレットに関する他のフィールドを多数追加する場合に特に便利です。
 スキップロジックルールを適用できるのは、ウィジェットやセクションではなく、カスタムフィールドのみです。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[カスタムフォームにカスタムフィールドを追加](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)および[カスタムフォームでアセットウィジェットを追加または編集](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)を参照してください。
 
 ## アクセス要件
 

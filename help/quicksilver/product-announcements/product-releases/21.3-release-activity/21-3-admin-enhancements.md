@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '334'
 ht-degree: 100%
 
 ---
@@ -48,8 +48,3 @@ Workfront 管理者は、（すべてのグループに）これらの操作も�
 ## 管理者向けの新機能：請求記録のカスタムフォームを作成
 
 請求記録のカスタムフォームを作成することで、ユーザーが請求情報を取得する方法を改善できます。ユーザーは、請求記録にカスタムフォームを添付し、記入して、フォーム内の情報を含むレポートを実行できます。
-
-カスタムフォームの作成について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
-
-請求レコードのカスタムフォームをプロジェクトに添付する方法について詳しくは、[オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
-

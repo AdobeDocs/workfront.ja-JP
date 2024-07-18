@@ -6,10 +6,10 @@ description: 費用の作成と管理のプロセスは、プロジェクト関�
 author: Alina
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 647788221b4acff1cfd5e0ce14d5b99cf90ceee0
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 100%
+source-wordcount: '580'
+ht-degree: 97%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 100%
    * **請求可能：**&#x200B;この費用を請求する場合は、このオプションを選択します。請求レコードを作成する際は、費用を請求可能として分類することが重要です。
    * **払い戻し可能：**&#x200B;費用を償還する必要がある場合は、このオプションを選択します。その後、費用が償還された後に、その費用を償還済みとしてマークすることができます。
 
-1. **カスタムフォーム**&#x200B;を選択し、必要な追加情報を指定します。費用に関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、[カスタムフォームの作成または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)を参照してください。
+1. **カスタムフォーム**&#x200B;を選択し、必要な追加情報を指定します。費用に関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタム フォームの作成方法については、「[ フォーム デザイナでフォームをデザインする ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. 「**変更を保存**」をクリックします。
 

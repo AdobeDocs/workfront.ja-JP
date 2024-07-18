@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 96653b1375afd49c09ea91cf3816107a302640d2
+source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
 workflow-type: tm+mt
-source-wordcount: '6091'
+source-wordcount: '6101'
 ht-degree: 97%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 97%
    >
    >カスタムフォームを削除すると、フォームに関連付けられたオブジェクト上のすべてのカスタムデータも削除されます。削除したデータは復元できません。代わりに、カスタムフォームの非アクティブ化を検討してください。使用しなくなったカスタムフォームを非アクティブ化すると、関連するすべての履歴データが保持されます。
    >
-   >詳しくは、[カスタムフォームのオブジェクトタイプを削除](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)を参照してください。
+   >詳しくは、[ 既存のカスタムフォームに対するオブジェクトタイプの追加または削除 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) および [ カスタムフォームのディアクティベートまたは再アクティベート ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md) を参照してください。
 
 
 1. 次に、カスタムフォームへのフィールドの追加を開始できます。次の節を参照してください。

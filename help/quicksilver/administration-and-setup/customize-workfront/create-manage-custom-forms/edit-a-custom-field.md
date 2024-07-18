@@ -8,22 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 55b659dc4d24856d835f901b22b937e5bcbfe657
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 52%
+source-wordcount: '294'
+ht-degree: 57%
 
 ---
 
 # カスタムフィールド、セクション区切りまたはウィジェットを追加または編集
 
-{{highlighted-preview}}
-
-<span class="preview"> カスタムフォームを開いてフィールドを作成することなく、Workfrontの「フィールド」領域から直接新しいカスタムフィールドまたはウィジェットを追加できます。</span>
+Workfrontのフィールド エリアから直接新しいカスタムフィールドまたはウィジェットを追加できます。カスタムフォームを開いてフィールドを作成する必要はありません。
 
 また、カスタムフォームで使用するカスタムフィールド、セクション区切り、ウィジェットのプロパティを編集することもできます。 これには、項目のラベル、名前、説明などが含まれます。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)、[ カスタムフォームへのカスタムフィールドの追加 ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)、および [ カスタムフォームでのアセットウィジェットの追加または編集 ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md) を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[フォームデザイナーを使用してフォームをデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
 
@@ -53,8 +51,6 @@ ht-degree: 52%
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-<div class="preview">
-
 ## カスタムフィールドまたはウィジェットの追加
 
 {{step-1-to-setup}}
@@ -64,13 +60,9 @@ ht-degree: 52%
 1. **新規カスタムフィールド** をクリックします。
 1. 表示されるボックスに、追加する項目の必須情報とオプション情報を入力します。
 
-   これらのオプションの詳細については、以下を参照してください。
-   * フォームデザイナーを使用する場合は、[ フォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
-   * カスタムフォームビルダーを使用している場合は、[カスタムフォームにカスタムフィールドの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)または[カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)を参照してください。
+   詳しくは、「[ フォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. 「**作成**」をクリックします。
-
-</div>
 
 ## カスタムフォームで使用するカスタムフィールド、セクション区切りまたはウィジェットの編集
 
@@ -81,8 +73,6 @@ ht-degree: 52%
 1. カスタムフィールド、セクション区切りまたはウィジェットを選択し、![編集アイコン](assets/edit-icon.png) をクリックします。
 1. 表示されるボックスで、編集中の項目に対して使用可能なオプションを変更します。
 
-   これらのオプションの詳細については、以下を参照してください。
-   * フォームデザイナーを使用する場合は、[ フォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
-   * カスタムフォームビルダーを使用している場合は、[カスタムフォームにカスタムフィールドの追加](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)または[カスタムフォームでのアセットウィジェットの追加または編集](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)を参照してください。
+   詳しくは、「[ フォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. 完了したら、「**編集**」をクリックします。

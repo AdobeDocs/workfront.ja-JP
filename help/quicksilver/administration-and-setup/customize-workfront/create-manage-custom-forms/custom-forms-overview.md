@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 286a5b40baced3bfd3e06a2b3f1c143839808018
+source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 94%
+source-wordcount: '366'
+ht-degree: 80%
 
 ---
 
@@ -29,10 +29,11 @@ Adobe Workfront オブジェクトに添付できるカスタムフォームを�
 
 ## カスタムフォームの作成方法
 
-[!DNL Workfront] でカスタムフォームを作成する方法は 2 つあります。レガシーカスタムフォームビルダーまたは新しいフォームデザイナーを使用できます。
+フォームデザイナーは、フィールド、キャンバス、フィールド設定をすべて同時に表示できるキャンバススタイルのワークスペースを持っています。 また、フォームをデザインする際に、セクション内でフィールドをドラッグ&amp;ドロップすることもできます。
 
-* [レガシーカスタムフォームビルダー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [フォームデザイナー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+
+![サンプルフォームデザイナー](assets/form-designer-example.png)
 
 ## カスタムフィールドとウィジェット
 
@@ -42,15 +43,17 @@ Workfront は、各オブジェクトタイプに対して多数の組み込み�
 
 Workfront のカスタムフォームに、次のタイプのカスタムフィールドを追加できます。
 
-* 1 行のテキストフィールド、またはフォームデザイナーの 1 行のテキスト
-* 段落テキストフィールド、またはフォームデザイナーの段落テキスト
-* 書式付きテキストフィールド、またはフォームデザイナーの書式付きテキスト
+* 1 行テキスト
+* 段落テキスト
+* 書式付きテキスト
 * ドロップダウン
-* 外部参照 - フォームデザイナーでのみ使用可能
+* 複数選択ドロップダウン
+* 外部ルックアップ
+* ネイティブフィールド
 * 先行入力
 * 計算済み
-* 日付、またはフォームデザイナーの日付フィールド
-* チェックボックス
+* 日付フィールド
+* チェックボックスグループ
 * ラジオボタン
 * 説明テキスト
 * セクション区切り
@@ -58,6 +61,10 @@ Workfront のカスタムフォームに、次のタイプのカスタムフィ�
 * 画像
 * PDF
 * ビデオ
+
+>[!NOTE]
+>
+>更新フィードでフィールドの変更を追跡するには、設定/インターフェイス/フィードを更新に移動します。 詳しくは、[システム更新の設定](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
 ## ユーザーがカスタムフォームを添付できるオブジェクト
 
@@ -81,5 +88,4 @@ Workfront のカスタムフォームに、次のタイプのカスタムフィ�
 オブジェクトへのカスタムフォームの添付について詳しくは、[オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
 オブジェクトを変換するときにユーザー設定フォームに何が起こるかを確認するには、「[ オブジェクトを変換する際にユーザー設定フォーム データを転送する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)」を参照してください。
-
 
