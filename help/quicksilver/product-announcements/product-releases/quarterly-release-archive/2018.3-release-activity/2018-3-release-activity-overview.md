@@ -24,7 +24,7 @@ ht-degree: 100%
 * *クラスタ 2 およびクラスタ 4 のWorkfront 実稼動環境*
 * *クラスタ 1、クラスタ 3、クラスタ 5 のWorkfront 実稼動環境*
 
-2018. リリースには、Workfront 管理者およびその他のユーザー向けの機能強化が含まれています。
+&#x200B;2018. リリースには、Workfront 管理者およびその他のユーザー向けの機能強化が含まれています。
 
 * [管理者向けの機能強化](#enhancements-for-administrators)
 * [すべてのユーザー向けの機能強化](#enhancements-for-all-users)

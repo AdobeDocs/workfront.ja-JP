@@ -194,7 +194,7 @@ ht-degree: 100%
    <td>費用のリスト</td> 
    <td> 
     <ul> 
-     <li> <p>[!UICONTROL Projects]／[!UICONTROL select a project／[!UICONTROL Expenses]</p> </li> 
+     <li> <p>[!UICONTROL Projects]／&lbrack;!UICONTROL select a project／[!UICONTROL Expenses]</p> </li> 
      <li> <p>[!UICONTROL Projects]／[!UICONTROL select a project]／[!UICONTROL Tasks]／[!UICONTROL select a task]／[!UICONTROL Expenses]</p> </li> 
     </ul> </td> 
   </tr> 

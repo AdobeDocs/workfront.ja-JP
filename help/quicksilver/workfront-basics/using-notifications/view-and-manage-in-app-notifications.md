@@ -55,7 +55,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Web アプリケーションとモバイルアプリケーションの両方から、すべてのアプリ内通知を表示できます。これらの通知の一部のみが、モバイルアプリケーションでプッシュ通知として送信されます。モバイルアプリでの通知について詳しくは、iOS 用の ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)[[!DNL Adobe Workfront]  または Android 用の [[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) を参照してください。
+>Web アプリケーションとモバイルアプリケーションの両方から、すべてのアプリ内通知を表示できます。これらの通知の一部のみが、モバイルアプリケーションでプッシュ通知として送信されます。モバイルアプリでの通知について詳しくは、iOS 用の [&#128279;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)[!DNL Adobe Workfront]  または Android 用の [[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) を参照してください。
 
 1. [!DNL Workfront] の右上隅で番号付きアイコン ![](assets/notifications-icon-jewel.jpg) をクリックし、通知のリストを開きます。
 

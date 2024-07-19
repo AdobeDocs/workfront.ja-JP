@@ -83,7 +83,7 @@ Adobe Experience Manager Assets コネクタの概要については、以下を
 
      この設定には、[!DNL Adobe Admin Console] からの情報が必要です。
 
-   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
+   * **[!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])**
 
      この設定には、ユーザー名とパスワードが必要です。
 
