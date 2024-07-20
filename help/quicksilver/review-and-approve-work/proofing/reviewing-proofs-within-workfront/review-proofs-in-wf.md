@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: Adobe Workfront 内でのプルーフの確認
+title: 「Adobe Workfront内でのプルーフのレビュー：記事インデックス」
 description: Workfront でプルーフを確認する方法について説明します。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cf62d4ef-1244-4038-a56d-4a325140f93a
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '47'
-ht-degree: 100%
+source-wordcount: '51'
+ht-degree: 72%
 
 ---
 
-# Adobe Workfront 内でのプルーフの確認
+# Adobe Workfront内でプルーフを確認する：記事インデックス
 
 この節では、次の記事を扱います。
 

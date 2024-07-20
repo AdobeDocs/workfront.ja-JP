@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: プルーフを管理する
+title: 「プルーフの管理：記事インデックス」
 description: プルーフの設定を編集
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ed1719ff-27e3-4fc0-b5bf-b3f20ffe98f0
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '43'
-ht-degree: 100%
+source-wordcount: '47'
+ht-degree: 82%
 
 ---
 
-# プルーフを管理する
+# プルーフの管理：記事インデックス
 
 * [プルーフの設定を編集](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
 * [Adobe Workfront 内でプルーフの概要を印刷](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)

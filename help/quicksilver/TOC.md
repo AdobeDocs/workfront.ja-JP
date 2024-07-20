@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '14266'
+source-wordcount: '14298'
 ht-degree: 94%
 
 ---
@@ -1823,7 +1823,7 @@ ht-degree: 94%
    * プルーフ {#proofing}
       * [プルーフ：記事インデックス](review-and-approve-work/proofing/proofing.md)
       * プルーフの概要 {#proofing-overview}
-         * [プルーフの概要](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [プルーフの概要：記事インデックス](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [プルーフ権限プロファイルの概要](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [プルーフの役割の概要](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動ワークフローの概要](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1836,7 +1836,7 @@ ht-degree: 94%
          * [プルーフの進行状況とステータスの概要](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Web プルーフビューアとデスクトッププルーフビューアの違いの概要](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
       * プルーフを作成 {#create-proofs}
-         * [プルーフを作成する](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+         * [プルーフの作成：記事のインデックス](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [個人用プルーフのデフォルトを設定する](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [複数ページのプルーフを作成する](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
          * [Web サイトまたはその他の web コンテンツ用のインタラクティブなプルーフを作成する](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1846,9 +1846,9 @@ ht-degree: 94%
          * [基本ワークフローを使用した高度なプルーフの作成](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [自動ワークフローを使用した高度なプルーフの作成](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
       * Adobe Workfront でプルーフを管理 {#manage-proofs-in-workfront}
-         * [Adobe Workfront 内でプルーフを管理](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+         * [Adobe Workfront内のプルーフの管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
          * プルーフを管理 {#manage-proofs}
-            * [プルーフを管理する](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+            * [プルーフの管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [プルーフの設定を編集](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Adobe Workfront 内でプルーフの概要を印刷](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
             * [プルーフの削除](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1857,27 +1857,27 @@ ht-degree: 94%
             * [プルーフの承認レポートを使用する](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
             * [Adobe Workfront から Workfront Proof にアクセス](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
          * プルーフのバージョンの管理 {#manage-proof-versions}
-            * [プルーフのバージョンの管理](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+            * [プルーフのバージョンの管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
             * [プルーフの新しいバージョンの作成](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
             * [プルーフのバージョンの表示](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [プルーフバージョンの詳細を表示および管理](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [プルーフのバージョンのダウンロード](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
          * プルーフレビュアーを管理 {#manage-proof-reviewers}
-            * [プルーフレビュアーを管理する](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+            * [プルーフレビュー担当者の管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [プルーフのアクセスおよびサブスクリプション設定を行う](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Adobe Workfront 内でプルーフを共有する](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [プルーフのレビュアーにメールメッセージを送信する](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
          * プルーフ通知の管理 {#manage-proof-notifications}
-            * [プルーフ通知の通知](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+            * [プルーフ通知の管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [プルーフのコメントおよび校正判断に関する通知を管理](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
          * プルーフの期限の管理 {#manage-proof-deadlines}
-            * [プルーフの期限を管理](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+            * [プルーフ期限の管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [既存の基本プルーフの締め切りを設定](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [ステージの期限を追加、編集、削除](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
             * [個々のレビュアーの期限を設定](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
             * [各レビュー担当者の期限を削除](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
          * 自動プルーフの管理 {#manage-automated-proofs}
-            * [自動プルーフの管理](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+            * [自動プルーフの管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
             * [プルーフの自動ワークフローステージの表示](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
             * [プルーフのアクティブなステージの表示](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
             * [既存のプルーフ用自動ワークフローの作成または編集](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1885,16 +1885,16 @@ ht-degree: 94%
             * [プルーフの基本ワークフローから自動化ワークフローへの変換](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
             * [プルーフの自動ワークフローにステージとユーザーを追加](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
       * デスクトッププルーフビューアーの使用 {#use-the-desktop-proofing-viewer}
-         * [デスクトッププルーフビューアーの使用](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+         * [デスクトッププルーフビューアの記事インデックスの使用](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
          * [デスクトッププルーフビューアのインストール](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
          * [デスクトッププルーフビューアの更新](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
          * [デスクトッププルーフビューアでプルーフを開く](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [デスクトッププルーフビューアでの非インタラクティブコンテンツのレビュー](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [FAQ - デスクトッププルーフビューアー](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
       * Adobe Workfront でのプルーフのレビュー {#review-proofs-in-workfront}
-         * [Adobe Workfront 内でのプルーフの確認](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+         * [Adobe Workfront内でプルーフを確認する：記事インデックス](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * プルーフのレビュー {#review-a-proof}
-            * [プルーフのレビュー](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+            * [プルーフの確認：記事インデックス](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
             * [プルーフのコンテンツを表示](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
             * [プルーフ内のエリアを測定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
             * [ビデオプルーフのタイムラインの測定単位を変更](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1911,7 +1911,7 @@ ht-degree: 94%
             * [プルーフビューアーでのインタラクティブなプルーフの解像度の変更](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [プルーフビューア設定の指定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
          * プルーフに対するコメント {#comment-on-a-proof}
-            * [プルーフに対するコメント](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+            * [プルーフに関するコメント：記事インデックス](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [プルーフに対するコメント](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
             * [プルーフのコメントを表示して返信する](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
             * [プルーフのコメントの検索、フィルタリングおよび並べ替え](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1921,12 +1921,12 @@ ht-degree: 94%
             * [プルーフのコメントに対するアクションの使用](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [プルーフを共有するようユーザーにタグを付ける](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
          * プルーフに関する意思決定 {#make-decision-on-proof}
-            * [プルーフについて決定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+            * [プルーフに関する決定を行う：記事インデックス](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [プルーフを承認](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [プルーフビューアでのプルーフに関する意思決定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [プルーフに関する既存の決定の変更](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
       * Adobe Workfront でのプルーフに関するヒント、テクニックおよびトラブルシューティング {#ttt-proofing-in-workfront}
-         * [Adobe Workfront でのプルーフに関するヒント、テクニックおよびトラブルシューティング](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+         * [Adobe Workfront内でのプルーフのヒント、テクニック、トラブルシューティング：記事索引](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Adobe Workfront のプルーフライセンスを持つユーザーの一覧](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [プルーフ権限プロファイルフィールドの一括編集](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
          * [公開 URL または埋め込みコードでのプルーフの共有の無効化](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1934,7 +1934,7 @@ ht-degree: 94%
          * [アップロード後にドキュメント名が変更され、無効な文字が含まれています](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [埋め込みビデオを使用した PowerPoint の校正](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
    * 承認に関するヒント、テクニックおよびトラブルシューティング {#ttt-approvals}
-      * [承認に関するヒント、テクニックおよびトラブルシューティング](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+      * [承認に関するヒント、テクニック、トラブルシューティング：記事索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [すべてのユーザーに対するプルーフおよびドキュメントの決定の数を表示](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * タイムシート {#timesheets}
    * [タイムシート：記事インデックス](timesheets/timesheets-all.md)

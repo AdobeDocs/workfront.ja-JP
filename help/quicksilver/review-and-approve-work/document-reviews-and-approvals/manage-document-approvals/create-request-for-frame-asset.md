@@ -6,7 +6,7 @@ title: "Frame.io アセットのレビューまたは承認リクエストの作
 description: Frame.io connected assets のレビューまたは承認リクエストを作成できます。
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 33%
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 1. 「**承認**」セクションまでスクロールし、「**追加**」をクリックします。
 
-![](assets/doc-summary-add-approvers.png)
+   ![](assets/doc-summary-add-approvers.png)
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 

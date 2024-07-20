@@ -6,10 +6,10 @@ description: クリエイティブ作成者は、レビューが必要なアセ�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
-source-git-commit: a343b8822523d48ca717c87f9ca4c51ca76abc57
+source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 93%
+source-wordcount: '309'
+ht-degree: 90%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 93%
 クリエイティブ作成者は、レビューが必要なアセットを Frame.io に追加し、Workfront に送信して正式なレビューと承認を受けることができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -52,6 +54,8 @@ ht-degree: 93%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 

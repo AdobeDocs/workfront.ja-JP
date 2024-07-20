@@ -6,16 +6,14 @@ description: 承認テンプレートを作成すると、承認プロセスを�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 04e81c6f3b2e34c9951203b6a9b3c06ed1977f54
+source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 93%
+source-wordcount: '226'
+ht-degree: 88%
 
 ---
 
 # アセットおよびドキュメント用の承認テンプレートの作成
-
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 Workfront の設定エリアで、標準ライセンスを持つユーザーは、再利用可能な承認テンプレートを作成できます。作成した承認テンプレートは、プロジェクト、タスクまたはイシューのドキュメントエリアにあるアセットに適用できます。
 
@@ -24,6 +22,8 @@ Workfront の設定エリアで、標準ライセンスを持つユーザーは�
 >この記事では、特定のアカウントでのみ利用できる更新済みのドキュメントの承認機能について説明します。標準の承認プロセスについて詳しくは、[作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)にリストされている記事を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -46,6 +46,8 @@ Workfront の設定エリアで、標準ライセンスを持つユーザーは�
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 承認テンプレートの作成
 

@@ -6,10 +6,10 @@ description: Adobe Workfront のドキュメントに対して、他のユーザ
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 66f3b53a06147d531e5e700857ca88219c2d4109
+source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 84%
+source-wordcount: '489'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,9 @@ Adobe Workfrontのドキュメントに対して、他のユーザーやチー�
 >この記事では、特定のアカウントでのみ利用できる更新済みのドキュメントの承認機能について説明します。標準の承認プロセスについて詳しくは、[作業承認](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md)にリストされている記事を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -49,6 +52,8 @@ Adobe Workfrontのドキュメントに対して、他のユーザーやチー�
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## ドキュメントページからのドキュメントレビューまたは承認リクエストの作成
 

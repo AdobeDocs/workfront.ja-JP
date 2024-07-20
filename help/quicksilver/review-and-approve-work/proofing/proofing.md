@@ -8,10 +8,10 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: 8321138e6bc2c789a3f4f0fc97fb4fb01ad429ae
+source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 100%
+source-wordcount: '117'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 このセクションには、次のサブセクションが含まれます。
 
-* [プルーフの概要](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+* [ プルーフの概要：記事インデックス ](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
 * [プルーフを作成](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
 * [Adobe Workfront 内でプルーフを管理](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
 * [Adobe Workfront 内でプルーフをレビュー](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
