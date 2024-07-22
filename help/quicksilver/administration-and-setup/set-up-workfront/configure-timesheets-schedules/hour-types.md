@@ -5,18 +5,20 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 時間タイプを管理
 description: 時間タイプを時間エントリに関連付けることができます。時間タイプは、時間エントリの定義に使用するラベルです。
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 96%
+source-wordcount: '754'
+ht-degree: 93%
 
 ---
 
 # 時間タイプを管理
+
+<!--Audited: 07/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
@@ -45,7 +47,7 @@ ht-degree: 96%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,15 +58,20 @@ ht-degree: 96%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td> <p>新規：[!UICONTROL Standard]</p>
+   <p>現在：[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront]管理者がアクセスレベルを変更する方法については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>[!DNL Workfront] 管理者であることが必要です。</p> <p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 組み込みの時間タイプ
 
@@ -85,7 +92,7 @@ Workfront には、一連の組み込みの時間タイプが付属していま�
 
 新しい時間タイプを作成するには、以下のように行います。
 
-1. [!DNL Adobe] Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. **[!UICONTROL タイムシートと時間]**／**[!UICONTROL 時間タイプ]**&#x200B;をクリックします。
 
@@ -131,7 +138,7 @@ Workfront には、一連の組み込みの時間タイプが付属していま�
 
 時間タイプを非アクティブ化するには、次の手順に従います。
 
-1. グローバルナビゲーションバーで [!DNL Adobe Workfront] の右上隅付近にある「**[!UICONTROL 設定]**」をクリックします。
+{{step-1-to-setup}}
 
 1. **[!UICONTROL タイムシートおよび時間設定]**&#x200B;を展開し、「**[!UICONTROL 時間タイプ]**」をクリックします。
 

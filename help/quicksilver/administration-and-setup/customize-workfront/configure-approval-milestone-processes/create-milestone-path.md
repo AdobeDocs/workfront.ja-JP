@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '516'
 ht-degree: 97%
 
 ---
 
 # マイルストーンパスを作成
+
+<!--Audited: 07/2024-->
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -62,7 +64,7 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
 
 ## マイルストーンパスを作成
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**設定** ![](assets/gear-icon-settings.png)」の順にクリックします。
+{{step-1-to-setup}}
 
 1. **プロセス**／**マイルストーンパス**&#x200B;をクリックします。
 1. **新しいマイルストーンパス**&#x200B;をクリックします。

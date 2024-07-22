@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 84%
+source-wordcount: '436'
+ht-degree: 82%
 
 ---
 
@@ -23,7 +23,9 @@ Adobe Workfront Planning を使用するには、ライセンスと共有権限�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+<!--update the Workfront plan below at GA to Ultimate and it is not available in the current plans-->
+
++++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
 <table style="table-layout:auto">
  <col>
@@ -52,20 +54,20 @@ Adobe Workfront Planning を使用するには、ライセンスと共有権限�
   <tr>
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>任意</p>
+   <p>すべて（Workfrontの計画情報を表示する場合）</p>
    <p>ワークスペースを作成するには、次のライセンスが必要です。</p>
    <ul>
    <li>
    新規：標準
    </li>
    <li>
-   現在：Worker 以上
+   現在：プラン
    </li>
    </ul>
   </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>アクセスレベル設定</p></td>
+   <td role="rowheader"><p>アクセスレベルの設定</p></td>
    <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>  
 </td>
   </tr>
@@ -118,7 +120,7 @@ Workfront Planning に対するアクセス制御はありません。
 
 任意のタイプのライセンスを持つユーザーは、Workfront Planning にアクセスできます。
 
-オブジェクトへのアクセス権の付与について詳しくは、[カスタムアクセスレベルの作成と変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+<!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## 権限の付与
 

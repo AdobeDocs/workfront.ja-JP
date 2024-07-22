@@ -7,9 +7,9 @@ description: ラグとは、強制的な先行タスクの完了後、依存タ�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: ed179058cfec1332384ef76cb04598278109291b
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1462'
 ht-degree: 98%
 
 ---
@@ -26,36 +26,6 @@ ht-degree: 98%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -71,7 +41,7 @@ ht-degree: 98%
        <p>現在：プラン </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td role="rowheader">アクセスレベル</td> 
    <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
@@ -84,57 +54,6 @@ ht-degree: 98%
 *このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
-
-## タスクのラグとラグタイプを指定
-
-タスクと先行タスクの関係を定義する際に、タスクのラグタイプを指定できます。
-
-### タスクの「先行タスク」セクションにラグタイプを指定 {#indicate-lag-types-in-the-predecessors-section-of-a-task}
-
-1. 先行タスクとラグタイプを定義するタスクに移動します。
-1. 左側のパネルで「**先行タスク**」をクリックします。「**さらに表示**」、「**先行タスク**」の順にクリックする場合もあります。
-1. 「**先行タスクの追加**」をクリックします。
-1. （オプション）プロジェクト間先行タスクを追加する場合は、**親プロジェクト**&#x200B;の名前を別のプロジェクトの名前に置き換えます。
-1. 先行タスクの名前を入力し、一覧に表示されたら選択します。
-1. 「**依存関係タイプ**」を選択します。
-
-   先行タスクの依存関係タイプについて詳しくは、[タスク依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)を参照してください。
-
-1. **ラグ**&#x200B;の日数を数値でを指定します。負の値を指定すれば、負の値のラグを示すことができます。
-1. 次のオプションから、先行タスクに指定するラグのタイプ選択します。
-
-   * **日数**
-   * **カレンダーの日数**
-   * **パーセント**
-   * **曜日**
-   * **曜日（ゼロ以外）**
-
-     これらのラグタイプとその計算方法について詳しくは、この記事の[ラグタイプの概要](#lag-types)の節を参照してください。
-
-1. 「**保存**」をクリックします。
-
-### タスクリストでラグタイプを指定  {#indicate-lag-types-in-a-task-list}
-
-1. タスクリストに移動し、**標準**&#x200B;ビューを選択します。
-
-1. 先行タスクとラグの量を指定するタスクに対応した「**先行タスク**」列内をクリックします。
-1. スペースを含めずに、次のように入力します。
-
-   * 選択したタスクの先行タスクとして指定するタスクの数
-   * タスク間の依存関係タイプを示す略語
-
-     依存関係タイプの略語について詳しくは、[タスク依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)を参照してください。
-
-   * 正のラグには **+**、負のラグには **-**
-
-   * ラグの量
-   * 使用するラグタイプの略称
-
-     ラグタイプの略称について詳しくは、この記事の[ラグタイプ](#lag-types)の節を参照してください。
-
-   例えば、あるタスクに先行タスクがあり、2 日間の正のラグがあることを示すには、先行タスクの列に `1fs+2d` を入力します。
-
-1. キーボードの Enter キーを押して、タスクの変更を保存します。
 
 ## ラグタイプ {#lag-types}
 
@@ -215,3 +134,54 @@ ht-degree: 98%
 
    * タスク間に「終了 - 終了」先行タスク関係を設定します。
    * 後続タスクの期間は、タスク間のラグ日数以上でなければなりません。
+
+## タスクのラグとラグタイプを指定
+
+タスクと先行タスクの関係を定義する際に、タスクのラグタイプを指定できます。
+
+### タスクの「先行タスク」セクションにラグタイプを指定 {#indicate-lag-types-in-the-predecessors-section-of-a-task}
+
+1. 先行タスクとラグタイプを定義するタスクに移動します。
+1. 左側のパネルで「**先行タスク**」をクリックします。「**さらに表示**」、「**先行タスク**」の順にクリックする場合もあります。
+1. 「**先行タスクの追加**」をクリックします。
+1. （オプション）プロジェクト間先行タスクを追加する場合は、**親プロジェクト**&#x200B;の名前を別のプロジェクトの名前に置き換えます。
+1. 先行タスクの名前を入力し、一覧に表示されたら選択します。
+1. 「**依存関係タイプ**」を選択します。
+
+   先行タスクの依存関係タイプについて詳しくは、[タスク依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)を参照してください。
+
+1. **ラグ**&#x200B;の日数を数値でを指定します。負の値を指定すれば、負の値のラグを示すことができます。
+1. 次のオプションから、先行タスクに指定するラグのタイプ選択します。
+
+   * **日数**
+   * **カレンダーの日数**
+   * **パーセント**
+   * **曜日**
+   * **曜日（ゼロ以外）**
+
+     これらのラグタイプとその計算方法について詳しくは、この記事の[ラグタイプの概要](#lag-types)の節を参照してください。
+
+1. 「**保存**」をクリックします。
+
+### タスクリストでラグタイプを指定  {#indicate-lag-types-in-a-task-list}
+
+1. タスクリストに移動し、**標準**&#x200B;ビューを選択します。
+
+1. 先行タスクとラグの量を指定するタスクに対応した「**先行タスク**」列内をクリックします。
+1. スペースを含めずに、次のように入力します。
+
+   * 選択したタスクの先行タスクとして指定するタスクの数
+   * タスク間の依存関係タイプを示す略語
+
+     依存関係タイプの略語について詳しくは、[タスク依存関係タイプの概要](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)を参照してください。
+
+   * 正のラグには **+**、負のラグには **-**
+
+   * ラグの量
+   * 使用するラグタイプの略称
+
+     ラグタイプの略称について詳しくは、この記事の[ラグタイプ](#lag-types)の節を参照してください。
+
+   例えば、あるタスクに先行タスクがあり、2 日間の正のラグがあることを示すには、先行タスクの列に `1fs+2d` を入力します。
+
+1. キーボードの Enter キーを押して、タスクの変更を保存します。
