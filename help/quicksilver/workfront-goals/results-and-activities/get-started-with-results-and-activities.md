@@ -7,31 +7,31 @@ description: 目標をアクティブ化するには、結果、アクティビ�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 95%
+source-wordcount: '853'
+ht-degree: 97%
 
 ---
 
 # Adobe Workfront Goals の結果とアクティビティについての基本を学ぶ
 
-この記事で説明している機能を使用するには、組織に以下が必要です。
-
-* 新しいプランとライセンス構造の場合：
-
-   * 究極の計画
-
-     または
-
-     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、[Adobe Workfrontプラン ](https://www.workfront.com/plans) を参照してください。
-
-* 現在のプランおよびライセンス構造の場合：
-
-   * プロまたはそれ以上
-   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
-
-Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>[!IMPORTANT]
+>
+>この記事で説明している機能を使用するには、組織に以下が必要です。
+>
+>* 新しいプランとライセンス構造の場合：
+>
+>   * 究極のWorkfrontプラン
+>    
+>* 現在のプランおよびライセンス構造の場合：
+>
+>   * Pro 以上のWorkfront プラン
+>   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>
+>Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+> 
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 目標を作成すると、その目標のステータスは「ドラフト」になります。目標の作成について詳しくは、[Adobe Workfront Goals での目標の作成](../../workfront-goals/goal-management/create-goals.md)を参照してください。
 

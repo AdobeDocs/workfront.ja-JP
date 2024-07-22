@@ -7,33 +7,28 @@ description: 目標を関連付けることにより、各自の目標を互い�
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 94%
+source-wordcount: '776'
+ht-degree: 96%
 
 ---
 
 # Adobe Workfront Goals での目標の関連付けの概要
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >この記事で説明している機能を使用するには、組織に以下が必要です。
-> 
+>
 >* 新しいプランとライセンス構造の場合：
+>
+>   * 究極のWorkfrontプラン
 >    
->   * 究極の計画
->        
->     または
->        
->   * Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。
->       詳しくは、[Adobe Workfrontの価格とパッケージ ](https://www.workfront.com/plans) を参照してください。
->      
 >* 現在のプランおよびライセンス構造の場合：
->    
->   * Pro 以上の [Adobe Workfront プラン ]
+>
+>   * Pro 以上のWorkfront プラン
 >   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
->    
+>
 >Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 > 
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。

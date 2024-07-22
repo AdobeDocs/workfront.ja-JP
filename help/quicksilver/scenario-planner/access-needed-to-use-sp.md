@@ -7,33 +7,24 @@ description: シナリオプランナーには、Adobe Workfront ライセンス
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 99711cef67750a04f7a971538a978eff3656ff85
 workflow-type: tm+mt
-source-wordcount: '952'
-ht-degree: 79%
+source-wordcount: '895'
+ht-degree: 74%
 
 ---
 
 # [!DNL Scenario Planner] の使用に必要なアクセス権
 
-[!DNL Scenario Planner] には、追加のライセンスが必要です。[!DNL Workfront Scenario Planner] について詳しくは、[ [!DNL Scenario Planner]  の概要](../scenario-planner/scenario-planner-overview.md)を参照してください。
+<!--Audited: 04/2024-->
+
+[!DNL Scenario Planner] には、追加のライセンス要件があります。 [!DNL Workfront Scenario Planner] について詳しくは、[ [!DNL Scenario Planner]  の概要](../scenario-planner/scenario-planner-overview.md)を参照してください。
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
 正しいアクセス権や権限がないと、[!DNL  Adobe Workfront] の[!UICONTROL シナリオ]エリアの表示や、組織のプランとイニシアチブの管理ができない場合があります。プランとイニシアチブの管理には、プランとイニシアチブの作成、編集、削除も含まれます。
-
->[!IMPORTANT]
->
->[!UICONTROL シナリオ]へのアクセス時は、自分が作成したプランの表示と管理のみが可能です。自分が作成したプランの表示や管理を他のユーザーに許可する場合は、次の手順を実行する必要があります。
->
->* プランへのリンクを他のユーザーに送信
->* プランを他のユーザーと共有
->
->  プランの共有について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) でのプランの共有を参照してください。
->
->ユーザーが非アクティブ化されると、そのユーザーのプランの所有者が存在しなくなり、それまでにリンクによって共有されていない限りアクセスできなくなります。
 
 ## [!DNL Adobe Workfront Scenario Planner] の表示や使用に必要なアクセス権
 
@@ -43,13 +34,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    新しいWorkfrontプランと現在の Workfront プランのどちらを使用するかに応じて、組織には次のいずれかが必要です。
 
-   * 新しいプランの場合、組織には次のいずれかが必要です。
-
-      * [!UICONTROL Ultimate][!DNL Workfront] プラン。 シナリオプランナーは Ultimate 計画に含まれています。
-
-        または
-
-      * [!UICONTROL Select] または [!UICONTROL Prime][!DNL Workfront] プランで、別途 [!DNL Scenario Planner] ライセンスを購入します。
+   * 新しいプランでは、組織に [!UICONTROL Ultimate][!DNL Workfront] プランが必要です。 シナリオプランナーは [!UICONTROL Ultimate] プランにのみ含まれています。
 
    * 現在のWorkfront プランでは、組織に次の両方が必要です。
 
@@ -133,7 +118,20 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 アクセスレベルは、[!DNL Workfront] を使用して、自分が作成しなかった計画やイニシアチブを目で見ることができます。[!DNL Scenario Planner] にアクセスするための適切なアクセスレベルを持っていることに加え、これらのプランの作成者でない場合、表示または管理する計画に対して適切な権限を持っている必要があります。
 
-デフォルトでは、自分が作成した計画にのみアクセスできます。他のユーザーが作成した計画を表示するには、自分の計画を自分と共有する必要があります。計画の共有について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) での計画の共有を参照してください。
+システム管理者を含むすべてのユーザーは、自分が作成したプランにのみアクセスできます。
 
-計画を共有せずに計画へのリンクを共有した場合は、計画に対する権限をリクエストできます。プランに対する権限のリクエストについては、[ 内の計画へのアクセスのリクエスト [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)を参照してください。
+他のユーザーが作成したプランを表示するには、次の方法でプランを共有する必要があります。
+
+* 計画を共有する
+
+  計画の共有について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) での計画の共有を参照してください。
+
+* 作成したプランへのリンクの送信
+
+  計画を共有せずに計画へのリンクを共有した場合は、計画に対する権限をリクエストできます。プランに対する権限のリクエストについては、[ 内の計画へのアクセスのリクエスト [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)を参照してください。
+
+>[!NOTE]
+>
+>ユーザーが非アクティブ化されると、そのユーザーのプランの所有者が存在しなくなり、それまでにリンクによって共有されていない限りアクセスできなくなります。
+
 

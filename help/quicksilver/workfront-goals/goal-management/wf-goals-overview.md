@@ -7,31 +7,29 @@ description: Adobe Workfront Goals は、戦略を作業の実行と配信に結
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 91%
+source-wordcount: '501'
+ht-degree: 95%
 
 ---
 
 # Adobe Workfront Goals の概要
 
-この記事で説明している機能を使用するには、組織に以下が必要です。
-
-* 新しいプランとライセンス構造の場合：
-
-   * 究極の計画
-
-     または
-
-     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、[Adobe Workfrontプラン ](https://www.workfront.com/plans) を参照してください。
-
-* 現在のプランおよびライセンス構造の場合：
-
-   * プロまたはそれ以上
-   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
-
-Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>[!IMPORTANT]
+>
+>この記事で説明している機能を使用するには、組織に以下が必要です。
+>
+>* 新しいプランとライセンス構造の場合：
+>
+>   * 究極のWorkfrontプラン
+>    
+>* 現在のプランおよびライセンス構造の場合：
+>
+>   * Pro 以上のWorkfront プラン
+>   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>
+>Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 
 
 Adobe Workfront Goals は、戦略を作業の実行と配信に結び付けることで、戦略的な成果を定義、伝達、達成するのに役立ちます。真に重要なことに全員の努力を集中させ、進捗を目に見える形にして、チームが素晴らしい成果を達成できるようにすることができます。ユーザーは自分の貢献が有意義な影響を与えていると知っていれば、最高の仕事をすることができます。

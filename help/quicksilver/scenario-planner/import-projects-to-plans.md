@@ -6,10 +6,10 @@ description: 既存のプロジェクトをプランに読み込むことがで�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: 844dddec944b6cfb0957eecf09c2980e9d0577cc
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1710'
-ht-degree: 100%
+source-wordcount: '1670'
+ht-degree: 97%
 
 ---
 
@@ -27,36 +27,43 @@ ht-degree: 100%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> プラン*</b> </p> </td> 
-   <td>[!UICONTROL Business] 以降</td> 
+   <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
+   <td> <p>現在：[!UICONTROL Business] 以上</p>
+   <p>新規：Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b>ライセンス*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
+   <td> <p>新規：ライト以上</p> 
+   <p>現在：[!UICONTROL Review] 以上</p> </td> 
   </tr> 
   <tr> 
-   <td><b>製品</b> </td> 
-   <td> <p>この記事で説明する機能にアクセスするためには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner]の取得については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a>の使用に必要なアクセス権を参照してください。 </p> </td> 
+   <td>製品* </td> 
+   <td> 
+   <p>現在のWorkfront プランの場合： </p>
+   <p>この記事で説明されている機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner]の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner] のアクセスおよび権限については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> の使用に必要なアクセス権」を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>次に対する[!UICONTROL Edit]以上のアクセス権： [!DNL Scenario Planner]</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。</p> </td> 
+   <td>アクセスレベル </td> 
+   <td> <p>[!UICONTROL Edit]アクセス権 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
-   <td> <p>プランに対する[!UICONTROL Manage]権限</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">シナリオプランナーのプランへのアクセス権をリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>オブジェクト権限 </p> </td> 
+   <td> <p>プランに対する[!UICONTROL Manage]権限</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのプランへの利用申請を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## プロジェクトを新規イニシアチブとしてプランへのの読み込む際の考慮事項
 
@@ -126,8 +133,6 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-
-
 ## プロジェクトをプランにインポート
 
 >[!IMPORTANT]
@@ -147,7 +152,7 @@ ht-degree: 100%
 >  イニシアティブの公開がリンクされたプロジェクトにどのような影響を与えるかについては、「[シナリオプランナーでイニシアチブを公開して、プロジェクトをアップデートまたは作成](../scenario-planner/publish-scenarios-update-projects.md)」を参照してください。
 >
 
-1. [!DNL Workfront] の右上隅で&#x200B;**[!UICONTROL メインメニュー]**![](assets/main-menu-icon.png)をクリックし、[!DNL Scenarios] をクリックして [!DNL Scenario Planner] にアクセスします。
+{{step1-to-scenario-planner}}
 
 1. プロジェクトを読み込むプランの名前をクリックします。
 1. 「**[!UICONTROL 新規イニシアチブ]**」をクリックしてから、「**[!UICONTROL プロジェクトをインポート]**」をクリックします。

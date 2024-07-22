@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '122'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 * [タスクのトラッキングモードの設定](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
 * [タスクの標準化遅延の更新](../../../manage-work/tasks/task-information/task-leveling-delay.md)
 * [タスクのコストタイプを更新](../../../manage-work/tasks/task-information/update-task-cost-type.md)
-* [見込日と推測日の区別](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+* [ 見込日及び見込日の概要 ](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
 * [タスクの元の期間と元の予定時間数の概要](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [タスクの予定期間と期間の違い](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 

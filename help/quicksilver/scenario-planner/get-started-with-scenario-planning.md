@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Workfront Scenario Planner
 exl-id: a6afe39f-1663-493d-a582-0a396ce138c2
-source-git-commit: 6c5be4dccff46abbed104f1f1b3c958aaf74d629
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '790'
 ht-degree: 100%
 
 ---
@@ -43,15 +43,15 @@ ht-degree: 100%
 
 ## Workfront で [!DNL Workfront Scenario Planner] を見つける
 
-1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に&#x200B;**[!UICONTROL シナリオ]**&#x200B;を選択します。
+{{step1-to-scenario-planner}}
 
-   <!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
+<!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
 
-   [!DNL Workfront Scenario Planner] が表示されます。
+[!DNL Workfront Scenario Planner] が表示されます。
 
-   >[!IMPORTANT]
-   >
-   >[!DNL Workfront Scenario Planner] には、作成した計画が含まれます。別のユーザーの計画を表示する必要がある場合は、その計画の URL を共有されている必要があります。
+>[!IMPORTANT]
+>
+>[!DNL Workfront Scenario Planner] には、作成した計画が含まれます。別のユーザーの計画を表示する必要がある場合は、その計画の URL を共有されている必要があります。
 
 1. （オプション）計画の名前をクリックして開き、詳細を確認します。
 

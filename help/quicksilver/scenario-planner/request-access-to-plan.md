@@ -7,10 +7,10 @@ description: プランへのリンクが共有されたら、Adobe Workfront Sce
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: e152c20e7b987f4bef7ffd6ee534c059f7b9bf45
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 100%
+source-wordcount: '493'
+ht-degree: 89%
 
 ---
 
@@ -20,32 +20,39 @@ ht-degree: 100%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> プラン*</b> </p> </td> 
-   <td>[!UICONTROL Business] 以降</td> 
+   <td> <p> [!UICONTROL Adobe Workfront] プラン*</p> </td> 
+   <td> <p>現在：[!UICONTROL Business] 以上</p>
+   <p>新規：Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b>ライセンス*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review]、[!UICONTROL Work]、または [!UICONTROL Plan]</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
+   <td> <p>新規：ライト以上</p> 
+   <p>現在：[!UICONTROL Review] 以上</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>製品*</strong> </td> 
-   <td> <p>この記事で説明されている機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner]の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner] の取得について詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!UICONTROL Scenario Planner] を使用するために必要なアクセス権</a>を参照してください。 </p> </td> 
+   <td>製品* </td> 
+   <td> 
+   <p>現在のWorkfront プランの場合： </p>
+   <p>この記事で説明されている機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner]の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner] のアクセスおよび権限については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> の使用に必要なアクセス権」を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>次に対する表示以上のアクセス権： [!DNL Scenario Planner]</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限を設定しているかどうかを [!DNL Workfront] 管理者に確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>アクセスレベル </td> 
+   <td> <p>[!UICONTROL View] へのアクセス [!DNL Scenario Planner]</p> </td> 
   </tr> 
- </tbody> 
+   </tbody> 
 </table>
 
-&#42;所有しているプラン、ライセンスタイプ、アクセス権を確認する、または会社が [!DNL Workfront Scenario Planner] を購入しているかどうかを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 前提条件
 

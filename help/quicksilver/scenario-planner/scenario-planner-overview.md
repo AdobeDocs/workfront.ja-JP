@@ -7,10 +7,10 @@ description: シナリオプランナーには、Adobe Workfront ライセンス
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
-source-git-commit: 8764de907f49260908911ca393c1173b66dbb065
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 100%
+source-wordcount: '565'
+ht-degree: 90%
 
 ---
 
@@ -18,12 +18,16 @@ ht-degree: 100%
 
 <!-- Audited: 1/2024 -->
 
-[!DNL Adobe Workfront] ライセンスに加えて、[!DNL Scenario Planner] は別のライセンスが必要です。
-[!DNL Workfront Scenario Planner] を使用するために必要なアクセスについて詳しくは、[ [!DNL Scenario Planner]](access-needed-to-use-sp.md) を使用するために必要なアクセスを参照してください。
+[!DNL Workfront Scenario Planner] の目的は、組織レベルのプランを迅速に実行し、ビジネスに予測可能で望ましい結果をもたらす重要な意思決定を支援することです。
+
+[!DNL Workfront Scenario Planner] にアクセスするには、次の [!DNL Workfront] プランが必要です。
+
+* 新しいWorkfront プランの場合：[!UICONTROL Ultimate] プラン。
+* 現在の [!DNL Workfront] プランの場合：[!DNL Scenario Planner] ライセンスを購入する以外に、Business 以上のプランが必要です。
+
+[!DNL Workfront Scenario Planner] の使用に必要なアクセス権について詳しくは、[ の使用に必要なアクセス  [!DNL Scenario Planner]](access-needed-to-use-sp.md) を参照してください。
 
 ## [!DNL Scenario Planner] の概要
-
-[!DNL Workfront Scenario Planner] の目的は、組織レベルのプランを迅速に実行し、ビジネスに予測可能で望ましい結果をもたらす重要な意思決定を支援することです。
 
 [!DNL Workfront Scenario Planner] を使用すると、企業全体の戦略的な成果を示す企業レベルのプランを構築できます。計画に対して複数のイニシアチブを定義し、それらをさまざまなシナリオに配置して、計画を実行するための最適なソリューションを見つけることができます。
 

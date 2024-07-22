@@ -7,57 +7,66 @@ description: 企業の長期戦略を計画する際、初期段階には持っ�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: 296de69a1c444659c60bcf767bdacdd9e6e36830
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '966'
-ht-degree: 98%
+source-wordcount: '942'
+ht-degree: 92%
 
 ---
 
 # [!DNL Scenario Planner] でプランシナリオを作成および比較
 
+<!--Audited: 07/2024-->
+
 企業の長期戦略を計画する際、初期段階には持っていない、または考えてもみない情報は多くあります。関係者が受け入れられる最終的な戦略に到達するには、時間と実験が必要です。「what if」分析を実施して計画の複数のシナリオを作成すると、潜在的な状況を正確に予測および評価し、最終的に可能な限り最適な計画を策定するのに役立ちます。
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> プラン*</b> </p> </td> 
-   <td>[!UICONTROL Business] 以降</td> 
+   <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
+   <td> <p>現在：[!UICONTROL Business] 以上</p>
+   <p>新規：Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b>ライセンス*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
+   <td> <p>新規：ライト以上</p> 
+   <p>現在：[!UICONTROL Review] 以上</p> </td> 
   </tr> 
   <tr> 
-   <td><b>製品</b> </td> 
-   <td> <p>この記事で説明する機能にアクセスするためには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner]の取得については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a>の使用に必要なアクセス権を参照してください。 </p> </td> 
+   <td>製品* </td> 
+   <td> 
+   <p>現在のWorkfront プランの場合： </p>
+   <p>この記事で説明されている機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner]の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner] のアクセスおよび権限については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> の使用に必要なアクセス権」を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>アクセスレベル設定*</strong> </td> 
-   <td> <p>編集以上のアクセス権 [!DNL Scenario Planner]</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>アクセスレベル </td> 
+   <td> <p>[!UICONTROL Edit]アクセス権 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>オブジェクトの権限</strong> </p> </td> 
-   <td> <p>プランに対する[!UICONTROL Manage]権限</p> <p>計画への追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> の計画へのアクセスをリクエストを参照してください。</p> </td> 
+   <td> <p>オブジェクト権限 </p> </td> 
+   <td> <p>プランに対する[!UICONTROL Manage]権限</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのプランへの利用申請を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## シナリオの作成
 
 シナリオは計画のコピーです。シナリオは必要な数だけ作成できます。ただし、簡単に比較できるように、シナリオの数を最小限に抑えることをお勧めします。
 
-1. **[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、[!UICONTROL シナリオ]の順にクリックします。
+{{step1-to-scenario-planner}}
 
-1. 計画を作成します。
+1. プランを作成するか、既存のプランの名前をクリックします。
 
    計画の作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) で計画を作成および編集を参照してください。
 

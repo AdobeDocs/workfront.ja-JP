@@ -5,34 +5,31 @@ author: Alina
 draft: Probably
 feature: Workfront Goals
 exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1395'
-ht-degree: 96%
+source-wordcount: '1374'
+ht-degree: 98%
 
 ---
 
 # Adobe Workfront Goals の基本を学ぶ
 
-この記事で説明している機能を使用するには、組織に以下が必要です。
-
-* 新しいプランとライセンス構造の場合：
-
-   * 究極の計画
-
-     または
-
-     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、[Adobe Workfront プラン ](https://www.workfront.com/plans) を参照してください。
-
-* 現在のプランおよびライセンス構造の場合：
-
-   * プロまたはそれ以上
-   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
-
-
-Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
-
-Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+>[!IMPORTANT]
+>
+>この記事で説明している機能を使用するには、組織に以下が必要です。
+>
+>* 新しいプランとライセンス構造の場合：
+>
+>   * 究極のWorkfrontプラン
+>    
+>* 現在のプランおよびライセンス構造の場合：
+>
+>   * Pro 以上のWorkfront プラン
+>   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>
+>Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+> 
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 すべての組織は、チームの生産性、集中力、エンゲージメントを維持するために、明確な目標を設定し、伝達する必要があります。作業が戦略にどれくらい合っているかを真に知ることが成功の鍵です。しかし、戦略と目標を組織内の作業と結び付ける記録システムがなければ、整合させることは非常に難しくなります。
 

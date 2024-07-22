@@ -7,10 +7,10 @@ description: 既存のイニシアチブからプロジェクトを作成した�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: 9babe17ad862925440e555f881bf753fb443b67d
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1722'
-ht-degree: 100%
+source-wordcount: '1663'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,40 +31,38 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
-   <td>[!UICONTROL Business] 以降</td> 
+   <td> <p>現在：[!UICONTROL Business] 以上</p>
+   <p>新規：Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
+   <td> <p>新規：ライト以上</p> 
+   <p>現在：[!UICONTROL Review] 以上</p> </td> 
   </tr> 
   <tr> 
-   <td>製品 </td> 
-   <td> <p>この記事で説明する機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner] の取得について詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> を使用する場合に必要なアクセス権を参照してください。 </p> </td> 
+   <td>製品* </td> 
+   <td> 
+   <p>現在のWorkfront プランの場合： </p>
+   <p>この記事で説明されている機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner]の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner] のアクセスおよび権限については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> の使用に必要なアクセス権」を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p></p> <p>アクセスレベル*</p> </td> 
-   <td> 
-    <ul> 
-    <li>[!DNL Scenario Planner] およびプロジェクト用の[!UICONTROL Edit]アクセス権</li></ul>
-
-<p><b>メモ</b>
-
-まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td>アクセスレベル </td> 
+   <td> <p>[!DNL Scenario Planner] および [!UICONTROL プロジェクト ] の [!UICONTROL 編集 ] アクセス</p> </td> 
+  </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>オブジェクト権限</p> </td> 
-   <td> 
-    <ul> 
+   <td> <p>オブジェクト権限 </p> </td> 
+   <td> <ul> 
      <li>プランに対する[!UICONTROL Manage]権限 </li> 
      <li>公開済みプロジェクトに対する[!UICONTROL Manage]権限</li> 
-    </ul> <p>プロジェクトへの追加アクセス権のリクエストについて詳しくは、<a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトの利用申請</a>を参照してください。</p> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのプランへの利用申請を参照してください。</p> </td> 
+    </ul> <p>プランへの追加アクセス権のリクエストについて詳しくは、<a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">[!DNL Scenario Planner]</a> でのプランへの利用申請を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-[!DNL Workfront Scenario Planner]への追加アクセス権について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md) を使用するために必要なアクセス権を参照してください。
++++
 
 ## 前提条件
 
@@ -101,7 +99,8 @@ ht-degree: 100%
 >
 >プラン上のイニシアチブに変更（競合の解決を含む）を加えた場合、新しい情報をプロジェクトに表示するには、イニシアチブを再公開する必要があります。この情報は、対応するイニシアチブを公開する場合にのみ、イニシアチブにリンクされたプロジェクトに表示されます。イニシアチブ間の競合の解決方法について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) でのイニシアチブの競合の解決を参照してください。
 
-1. Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**[!UICONTROL シナリオ]**」をクリックします。
+{{step1-to-scenario-planner}}
+
 1. （オプションおよび条件付き）既存の計画から公開する場合は、計画の右上隅にある&#x200B;**[!UICONTROL フィルター]**&#x200B;アイコン ![](assets/filter-nwepng.png) をクリックし、次のオプションのいずれかを選択します。
 
    <table style="table-layout:auto"> 

@@ -6,20 +6,22 @@ description: Adobe Workfront Scenario Planner を使用すると、自分が作�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: 2ff32ba11f9ef214f16b11323386223792b0877e
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 100%
+source-wordcount: '1618'
+ht-degree: 97%
 
 ---
 
 # [!DNL Scenario Planner] でイニシアチブを作成および編集
 
+<!--Audited: 07/2024-->
+
 [!UICONTROL Adobe Workfront Scenario Planner] を使用すると、自分が作成した計画や共有された計画にイニシアチブを作成できます。イニシアチブを作成することで、小さな組織単位が計画の完成にどのように貢献するかを確認することができます。例えば、組織が新しい市場に拡大するための今後 3 年間のプランがある場合、このプラン内で各部門のイニシアチブを作成し、この計画を達成するために各部門で必要な人員と予算を見積もることができます。
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,19 +29,24 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
-   <td>[!UICONTROL Business] 以降</td> 
+   <td> <p>現在：[!UICONTROL Business] 以上</p>
+   <p>新規：Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] ライセンス* </p> </td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
+   <td> <p>新規：ライト以上</p> 
+   <p>現在：[!UICONTROL Review] 以上</p> </td> 
   </tr> 
   <tr> 
-   <td>製品 </td> 
-   <td> <p>この記事で説明する機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner] 用の追加ライセンスを購入する必要があります。 </p> <p>[!DNL Workfront Scenario Planner] の取得について詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> を使用する場合に必要なアクセス権を参照してください。 </p> </td> 
+   <td>製品*</td> 
+   <td> 
+   <p>現在のWorkfront プランの場合： </p>
+   <p>この記事で説明されている機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner]の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner] のアクセスおよび権限については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> の使用に必要なアクセス権」を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>アクセスレベル設定* </td> 
-   <td> <p>次に対する[!UICONTROL Edit]以上のアクセス権： [!DNL Scenario Planner]</p> <p>まだアクセス権を持っていない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限事項が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。</p> </td> 
+   <td>アクセスレベル </td> 
+   <td> <p>[!UICONTROL Edit]アクセス権 [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>オブジェクト権限 </p> </td> 
@@ -48,7 +55,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 前提条件
 
@@ -71,7 +80,7 @@ ht-degree: 100%
 
 イニシアチブを最初から作成するには、以下のように行います。
 
-1. **[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、[!UICONTROL シナリオ]の順にクリックします。
+{{step1-to-scenario-planner}}
 
 1. イニシアチブを作成するプランの名前をクリックします。
 1. **[!UICONTROL 新しいイニシアチブ]**&#x200B;の左にある **+ アイコン**&#x200B;をクリックします。

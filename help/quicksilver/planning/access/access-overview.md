@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 160bcc8796666c9615ebe8ead18813b96be26a71
+source-git-commit: c0ef343e30dd87c0638f7f34161975b46de445b1
 workflow-type: tm+mt
 source-wordcount: '450'
-ht-degree: 86%
+ht-degree: 84%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Workfront Planning を使用するには、ライセンスと共有権限�
 
 ## アクセス要件
 
-Adobe Workfront Planning を使用するには、次の設定が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto">
  <col>
@@ -88,6 +88,8 @@ Adobe Workfront Planning を使用するには、次の設定が必要です。
 </table>
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 
 ## メインメニューの Planning エリアを他のユーザーと共有

@@ -7,10 +7,10 @@ description: Adobe Workfront Goals にアクセスする前に、Adobe Workfront
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 76%
+source-wordcount: '725'
+ht-degree: 78%
 
 ---
 
@@ -48,10 +48,7 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 
 会社が現在利用しているWorkfront プランに応じて、次のようなシナリオが考えられます。
 
-* 会社が新しいWorkfront プランを持っている場合、次のいずれかがある必要があります。
-
-   * 究極のWorkfrontプラン。 このプランにはWorkfrontの目標が含まれています。
-   * Select 以上のWorkfront プランと個別のWorkfront Goals ライセンス。
+* 会社が新しいWorkfront プランを持っている場合は、Ultimate Workfront プランが必要です。 Workfront Goals はこのプランにのみ含まれています。
 
 * 会社が現在のWorkfront プランを持っている場合、ユーザーがWorkfront Goals にアクセスできるようにするには、Workfront ライセンスに加えて、追加のライセンスを購入する必要があります。
 

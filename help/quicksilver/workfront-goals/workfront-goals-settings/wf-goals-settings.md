@@ -8,31 +8,31 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 70%
+source-wordcount: '137'
+ht-degree: 82%
 
 ---
 
 # Adobe Workfront Goals の設定
 
-この記事で説明している機能を使用するには、組織に以下が必要です。
-
-* 新しいプランとライセンス構造の場合：
-
-   * 究極の計画
-
-     または
-
-     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、[Adobe Workfrontプラン ](https://www.workfront.com/plans) を参照してください。
-
-* 現在のプランおよびライセンス構造の場合：
-
-   * プロまたはそれ以上
-   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
-
-Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>[!IMPORTANT]
+>
+>この記事で説明している機能を使用するには、組織に以下が必要です。
+>
+>* 新しいプランとライセンス構造の場合：
+>
+>   * 究極のWorkfrontプラン
+>    
+>* 現在のプランおよびライセンス構造の場合：
+>
+>   * Pro 以上のWorkfront プラン
+>   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>
+>Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+> 
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 

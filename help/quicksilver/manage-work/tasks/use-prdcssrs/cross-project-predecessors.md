@@ -6,10 +6,10 @@ description: プロジェクト間の先行タスクとは、別のプロジェ�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 98%
+source-wordcount: '725'
+ht-degree: 96%
 
 ---
 
@@ -48,14 +48,14 @@ Adobe Workfront を使用すると、1 つのプロジェクト内の先行タ�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規：標準 </p> 
    または
    <p>現在：プラン </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル</td> 
    <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
@@ -65,10 +65,9 @@ Adobe Workfront を使用すると、1 つのプロジェクト内の先行タ�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
-
 
 ## プロジェクト間先行タスクを作成
 

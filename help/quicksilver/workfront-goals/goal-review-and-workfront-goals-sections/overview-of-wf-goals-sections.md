@@ -7,31 +7,31 @@ description: 目標のリストまたは個々の目標にアクセスし、Adob
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 93%
+source-wordcount: '692'
+ht-degree: 96%
 
 ---
 
 # Adobe Workfront Goals セクションの概要
 
-この記事で説明している機能を使用するには、組織に以下が必要です。
-
-* 新しいプランとライセンス構造の場合：
-
-   * 究極の計画
-
-     または
-
-     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、[Adobe Workfrontプラン ](https://www.workfront.com/plans) を参照してください。
-
-* 現在のプランおよびライセンス構造の場合：
-
-   * プロまたはそれ以上
-   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
-
-Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>[!IMPORTANT]
+>
+>この記事で説明している機能を使用するには、組織に以下が必要です。
+>
+>* 新しいプランとライセンス構造の場合：
+>
+>   * 究極のWorkfrontプラン
+>    
+>* 現在のプランおよびライセンス構造の場合：
+>
+>   * Pro 以上のWorkfront プラン
+>   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>
+>Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+> 
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、自分または組織内の他のユーザーが作成した目標を Workfront Goals エリアで表示できます。
 

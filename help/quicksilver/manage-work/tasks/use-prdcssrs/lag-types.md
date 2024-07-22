@@ -7,10 +7,10 @@ description: ラグとは、強制的な先行タスクの完了後、依存タ�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 99%
+source-wordcount: '1463'
+ht-degree: 98%
 
 ---
 
@@ -56,8 +56,6 @@ ht-degree: 99%
 
 -->
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -67,7 +65,7 @@ ht-degree: 99%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td><p>新規：標準</p>
        <p>または</p>
        <p>現在：プラン </p> </td>
@@ -83,7 +81,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

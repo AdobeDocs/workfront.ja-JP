@@ -7,10 +7,10 @@ description: Adobe Workfront は、タスクのタイムライン全体でのタ
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
-source-git-commit: 70d173ca3781d8d143a66ce7e963dcaf66bece19
+source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
 workflow-type: tm+mt
 source-wordcount: '777'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -52,7 +52,7 @@ Adobe Workfront は、タスクのタイムライン全体でのタスクの進�
   </tr> 
   <tr> 
    <td> <p><strong>遅れ</strong> </p> </td> 
-   <td> <p>推定完了日が予定完了日より後で、見込み完了日より後の場合、タスクは<strong>遅れ</strong>と見なされます。</p> <p>見込み完了日は、前の進捗状況に基づいてタスクが完了するタイミングをリアルタイムで表示します。タスクは遅れて開始されましたが、予定完了日と見込み完了日は未来の日付であり、タスクは予定通りに完了する可能性があるので、まだ遅れているとは見なされません。</p> <p>メモ：<strong>遅れ</strong>および<strong>リスク</strong>の進捗ステータスは、ほぼ同じです。しかし、<strong>リスク</strong>はいずれか、または両方の予定日に、強制的にタスクの制約（指定日に終了、指定日に開始、固定日付）が設定されていることを示します。タスクに強制制約がない場合、予測日は推定日と同じになり、現在のタスクの進捗状況に基づく完了日のシステム計算が反映されます。予定完了日と見込み完了日は未来の日付のままであり、タスクは予定通りに完了する可能性があるので、まだ遅延と見なされません。<br>見込み日および推定日について詳しくは、<a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">見込み日と推定日の区別</a>を参照してください。</p> </td> 
+   <td> <p>推定完了日が予定完了日より後で、見込み完了日より後の場合、タスクは<strong>遅れ</strong>と見なされます。</p> <p>見込み完了日は、前の進捗状況に基づいてタスクが完了するタイミングをリアルタイムで表示します。タスクは遅れて開始されましたが、予定完了日と見込み完了日は未来の日付であり、タスクは予定通りに完了する可能性があるので、まだ遅れているとは見なされません。</p> <p>メモ：<strong>遅れ</strong>および<strong>リスク</strong>の進捗ステータスは、ほぼ同じです。しかし、<strong>リスク</strong>はいずれか、または両方の予定日に、強制的にタスクの制約（指定日に終了、指定日に開始、固定日付）が設定されていることを示します。タスクに強制制約がない場合、予測日は推定日と同じになり、現在のタスクの進捗状況に基づく完了日のシステム計算が反映されます。予定完了日と見込み完了日は未来の日付のままであり、タスクは予定通りに完了する可能性があるので、まだ遅延と見なされません。<br> 見込み日と見込日について詳しくは、<a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref"> 見込み日と見込日の概要 </a> を参照してください。</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>遅れ</strong> </p> </td> 
