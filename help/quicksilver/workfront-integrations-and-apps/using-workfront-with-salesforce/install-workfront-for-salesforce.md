@@ -6,10 +6,10 @@ description: ' [!DNL Salesforce]  AppExchange で利用可能になる前にア�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4fea9d8f-7729-4fee-86d3-1a986be29f74
-source-git-commit: c0e7340e2bf650b6f9931ae12aee07c5f7d5292b
+source-git-commit: b088c305cbd16aea1b6b79a9f3a9c5ac326cd0b8
 workflow-type: tm+mt
-source-wordcount: '941'
-ht-degree: 98%
+source-wordcount: '1026'
+ht-degree: 91%
 
 ---
 
@@ -197,3 +197,39 @@ ht-degree: 98%
 
    [!UICONTROL Salesforce] ユーザーは、「[!DNL Workfront]」セクションを[!UICONTROL 商談]ページレイアウトまたは [!UICONTROL アカウント]ページレイアウトに追加すると [!DNL Workfront] アプリを使用できます。\
    ユーザーに対する「[!DNL Workfront]」セクションの設定について詳しくは、[ [!DNL Salesforce]  ユーザーに対する  [!DNL Adobe Workfront]  セクションの設定](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)を参照してください。
+
+## Workfront for Salesforce 統合の権限の設定
+
+### `workfront_business` の権限
+
+1. **設定**/**セキュリティ**/**信頼できる URL** に移動します。
+1. リストから「`workfront_business`」を選択します。
+1. 「**編集**」をクリックします。
+1. 「CSP 指令」で、次のオプションを確認します。
+
+   * connect-src （スクリプト）
+   * font-src （fonts）
+   * frame-src （iframe コンテンツ）
+   * img-src （images）
+   * media-src （オーディオおよびビデオ）
+   * style-src （スタイルシート）
+
+1. **保存**&#x200B;をクリックします。
+
+
+### Workfront_session の権限
+
+1. **設定**/**セキュリティ**/**信頼できる URL** に移動します。
+1. リストから「`workfront_session`」を選択します。
+1. 「**編集**」をクリックします。
+1. 「CSP 指令」で、次のオプションを確認します。
+
+   * connect-src （スクリプト）
+   * font-src （fonts）
+   * frame-src （iframe コンテンツ）
+   * img-src （images）
+   * media-src （オーディオおよびビデオ）
+   * style-src （スタイルシート）
+
+1. **保存**&#x200B;をクリックします。
+
