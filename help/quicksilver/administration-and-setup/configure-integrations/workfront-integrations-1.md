@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: d07ccec3a11fbbee49fc55a86d44fa88e252700f
+source-git-commit: 5691d6253871efc8e61fa06fe904edc4a5953d62
 workflow-type: tm+mt
-source-wordcount: '1139'
-ht-degree: 100%
+source-wordcount: '1154'
+ht-degree: 96%
 
 ---
 
@@ -306,9 +306,9 @@ Workfront と Experience Manager Assets、または Assets Essentials の統合�
 
 [!DNL Workfront] には、[!DNL Workfront] エクスペリエンスを強化する多くのパートナー統合があります。
 
-既存のパートナーサービスの例としては、[!DNL Salesforce.com]、[!DNL Oracle Responsys]、[!DNL Microsoft Visual Studio] との統合などがあります。
+Workfrontには、Workfrontのエクスペリエンスを強化する多くのパートナー統合があります。 既存のパートナー製品の例としては、Claravine との統合、RWS Group などが挙げられます。
 
-これらをはじめとするパートナー統合について詳しくは、[[!DNL Workfront] マーケットプレイス](https://www.workfront.com/enterprise/marketplace/apps/)を参照してください。
+これらの統合およびその他のパートナー統合について詳しくは、[Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&amp;partnerLevel=All&amp;product=WRKFRNT&amp;sort=RELEVANCE) を参照してください。
 
 ## [!DNL Workfront] API
 
