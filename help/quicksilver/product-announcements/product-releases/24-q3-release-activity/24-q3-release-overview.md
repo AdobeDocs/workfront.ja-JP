@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: f9ef12c5a91391dea4d25ceaa1cf648ae4baebf6
+source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
 workflow-type: tm+mt
-source-wordcount: '1813'
-ht-degree: 45%
+source-wordcount: '1849'
+ht-degree: 44%
 
 ---
 
@@ -278,6 +278,7 @@ ht-degree: 45%
                                 <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
                             </li>
                         </ul>
+                        <p><span class="preview">この機能は、迅速リリーススケジュールに含まれていないお客様の実稼動環境から一時的に削除されました。</span></p>
                     </td>
                  </tr>
                    <tr>
@@ -298,6 +299,7 @@ ht-degree: 45%
                                 <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
                             </li>
                         </ul>
+                        <p><span class="preview"> この機能は、迅速リリーススケジュールに従っていないお客様の実稼動環境から一時的に削除されました。</span>&lt;/
                     </td>
                  </tr>
                  <tr>
