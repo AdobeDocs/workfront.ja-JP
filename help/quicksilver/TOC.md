@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 238a1d8e7e1dd80f74a60b2b31301f082e377332
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '14320'
+source-wordcount: '14277'
 ht-degree: 94%
 
 ---
@@ -792,7 +792,6 @@ ht-degree: 94%
       * [Workfront 統合用の OAuth2 アプリケーションの作成](administration-and-setup/configure-integrations/create-oauth-application.md)
       * [カスタム OAuth2 アプリケーションの表示と管理](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
       * [JumpSeat 統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
-      * [Adobe Workfront DAM のヘルプへのアクセス](administration-and-setup/configure-integrations/access-help-workfront-dam.md)
    * ブループリント {#blueprints}
       * [ブループリント](administration-and-setup/blueprints/blueprints.md)
       * [ブループリントの概要](administration-and-setup/blueprints/blueprints-overview.md)
@@ -1132,12 +1131,6 @@ ht-degree: 94%
       * [ドキュメントの整理](documents/organizing-documents/organize-documents.md)
       * [ドキュメントフォルダーを作成](documents/organizing-documents/create-documents-folder.md)
       * [スマートフォルダーの作成と管理](documents/organizing-documents/create-manage-smart-folders.md)
-   * Adobe Workfront 内の Workfront DAM {#wf-dam-within-workfront}
-      * [Adobe Workfront 内の Workfront DAM](documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
-      * [Adobe Workfront DAM の有効化](documents/workfront-dam-within-workfront/enable-wf-dam.md)
-      * [Adobe Workfront DAM によるドキュメントの管理](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
-      * [Adobe Workfront ライセンスの役割タイプと Adobe Workfront DAM の役割タイプの比較](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-      * [Adobe Workfront DAM のヘルプへのアクセス](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
    * Workfront と Experience Manager Assets の統合 {#wf-aem-integrations}
       * [Workfront と Experience Manager Assets の統合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
       * Workfront for Experience Manager 拡張コネクタ {#wf-aem-enhanced-connector}

@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e2aef53f0ab8e76fb2c33aa91281fae0c4fece75
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 97%
+source-wordcount: '1087'
+ht-degree: 95%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 97%
 
   この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://www.workfront.com/plans)を参照してください。
 
-さらに、[!DNL Workfront] ドキュメントのエクスペリエンスを、ネイティブのデジタルアセット管理（DAM）システムまたはサードパーティの DAM 統合で強化することもできます。ユーザーがサービスを自分の [!DNL Workfront] アカウントにリンクするために、管理者がこれらの機能を有効にする必要があります。Workfront DAM について詳しくは、[ [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md) を使用したドキュメントの管理を参照してください。
+さらに、サードパーティの DAM 統合を使用して、[!DNL Workfront] ドキュメントのエクスペリエンスを向上させることができます。 ユーザーがサービスを [!DNL Workfront] アカウントにリンクするには、管理者がこれらの機能を有効にする必要があります。
 
 ## ドキュメントを管理するための統合の設定
 
@@ -197,8 +197,6 @@ ht-degree: 97%
 1. 「**[!UICONTROL 保存]**」をクリックして統合を作成します。
 
 ## ドキュメント統合を使用
-
-[!DNL Workfront DAM] の使用法については、[ [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)を使用したドキュメントの管理を参照してください。
 
 プルーフの使用法については、[プルーフを作成](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)を参照してください。
 
