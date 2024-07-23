@@ -6,10 +6,10 @@ description: 作成するすべての新規プルーフに適用される個別�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 278bff89-0305-407b-9def-d06820d908de
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 100%
+source-wordcount: '537'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 作成するすべての新規プルーフに適用される個別のプルーフデフォルト設定を指定できます。これらのデフォルトは、Workfront で初回のプルーフを生成するか新しいプルーフバージョンをアップロードするたびに適用されます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -42,9 +44,11 @@ ht-degree: 100%
 
 &#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront 管理者または Workfront Proof 管理者にお問い合わせください。
 
++++
+
 ## 個人用プルーフのデフォルトを設定する
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**プルーフ**」の順にクリックします。
+{{step1-to-proofing}}
 
 1. 右上隅で、自分のアバターをクリックし、「**個人設定**」を選択します。
 1. 「**プルーフの既定値** 」タブを選択して、次の情報を指定します。

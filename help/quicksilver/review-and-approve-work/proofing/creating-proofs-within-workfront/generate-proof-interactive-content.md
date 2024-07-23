@@ -6,10 +6,10 @@ description: ZIP ファイルに保存された web サイト以外のインタ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ab00d17-a3a3-4417-a958-ac3d95cb8fc8
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 100%
+source-wordcount: '486'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ZIP ファイルに保存された web サイト以外のインタラクティブコンテンツのプルーフを生成できます。このタイプの web コンテンツの例には、ストリーミングビデオまたはオーディオを含む広告、HTML アニメーション、インタラクティブバナーなどがあります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ ZIP ファイルに保存された web サイト以外のインタラクティ�
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## ZIP ファイル内のインタラクティブコンテンツのプルーフを作成
 

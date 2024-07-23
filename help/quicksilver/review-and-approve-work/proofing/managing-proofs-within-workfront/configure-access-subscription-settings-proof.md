@@ -6,10 +6,10 @@ description: ユーザーにログインを要求するかどうか、ユーザ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f242887b-d768-4d56-b530-a1ac6294b2d4
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 100%
+source-wordcount: '960'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 ユーザーにログインを要求するかどうか、ユーザーにプルーフのサブスクリプションを許可するかどうかなど、個々のプルーフの特定のアクセスおよびサブスクリプション設定を行うことができます。プルーフのアクセスおよびサブスクリプション設定は、作成時に行うことも、Workfront に既に存在するプルーフに行うこともできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## プルーフの作成時にアクセスおよびサブスクリプション設定を行う
 

@@ -7,20 +7,20 @@ description: Workfront Proof にログインすることなく、Adobe Workfront
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 72%
 
 ---
 
 # Adobe Workfront から Workfront Proof にアクセス
 
-次の条件が満たされている場合、Workfront Proof にログインすることなく、Adobe Workfront インターフェースから直接 Workfront Proof アカウントにすばやくアクセスできます。
+次の条件を満たした場合は、Workfront Proofにログインしなくても、Adobe Workfront インターフェイスから直接Workfront Proof アカウントにすばやくアクセスできます。
 
-* Workfront 環境は、Workfront Proof プレミアムアカウントと統合されています。Workfront Proof Premium アカウントでのみ利用できる機能について詳しくは、次を参照してください。
+* Workfront環境はWorkfront Proof Premium アカウントと統合されています。 Workfront Proof Premium アカウントでのみ使用できる機能について詳しくは、を参照してください。
 
-  Workfront Proof ライセンスを持っている。(ユーザーは Workfront Proof 管理者である必要はありません。)
+  Workfront Proof ライセンスがあります。 （Workfront Proof管理者である必要はありません）。
 
 * Workfront の管理者権限があり、Workfront ユーザーアカウントでプルーフが有効になっている。
 
@@ -34,11 +34,11 @@ ht-degree: 100%
 
 ## Workfront から Workfront Proof にアクセス {#access-workfront-proof-from-workfront}
 
-デフォルトでは、このセクションで説明するように、Workfront 内の管理者権限を持つユーザーのみが Workfront Proof にアクセスできます。 
+デフォルトでは、このセクションで説明するように、Workfront 内の管理者権限を持つユーザーのみが Workfront Proof にアクセスできます。
 
-1. メインメニュー ![](assets/main-menu-icon.png) でプルーフ ![](assets/proofing-main-menu.png) をクリックします。
+{{step1-to-proofing}}
 
-   Workfront Proof プレミアムアカウントに自動的にログインされます。
+Workfront Proof プレミアムアカウントに自動的にログインされます。
 
 Workfront Proof プレミアムアカウントにログインした後に利用できる機能については、[Workfront ヘルプサイト](https://support.workfront.com)を参照してください。
 

@@ -6,10 +6,10 @@ description: 自動ワークフローを使用すると、プロセスが複雑�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 100%
+source-wordcount: '1236'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 新しいプルーフの自動ワークフローの作成について詳しくは、[自動ワークフローを使用した詳細なプルーフの作成](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -47,6 +49,8 @@ ht-degree: 100%
 </table>
 
 &#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront または Workfront Proof 管理者にお問い合わせください。
+
++++
 
 ## 既存のプルーフ用自動ワークフローの作成または編集
 

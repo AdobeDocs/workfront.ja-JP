@@ -7,10 +7,10 @@ description: 基本プルーフの作成後に、1 回だけ締め切りを設�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 100%
+source-wordcount: '229'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 基本プルーフの作成後に、1 回だけ締め切りを設定することができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -50,6 +52,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## 既存の基本プルーフの締め切りを設定
 

@@ -6,10 +6,10 @@ description: 新しい静的プルーフを生成するか、web コンテンツ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 Web サイトまたは他の web コンテンツ用の静的プルーフを作成する際は、次の点を考慮します。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -47,6 +49,8 @@ Web サイトまたは他の web コンテンツ用の静的プルーフを作�
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## Web サイトまたはその他の web コンテンツ用の静的プルーフの作成
 

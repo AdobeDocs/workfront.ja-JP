@@ -7,10 +7,10 @@ description: 自分が作成または所有するプルーフの期限を調整�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 23010732-dab7-461d-876a-56f9928a2a23
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 100%
+source-wordcount: '299'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 自分が作成または所有するプルーフの期限を調整できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -50,6 +52,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## ステージの期限を追加、編集、削除
 

@@ -6,10 +6,10 @@ description: プルーフの承認レポートを使用して、環境内のプ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 100%
+source-wordcount: '296'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 プルーフの承認レポートを使用して、環境内のプルーフに関する情報を表示できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -46,9 +48,12 @@ ht-degree: 100%
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
++++
+
 ## プルーフの承認レポートを使用する
 
-1. Adobe Workfront の右上にある&#x200B;**メインメニュー**&#x200B;アイコン（![](assets/main-menu-icon.png)）をクリックし、次に「**レポート**」をクリックします。
+{{step1-to-reports}}
+
 1. 「**新規レポート**」をクリックしてスクロールし、「**プルーフの承認**」を選択します。
 
    ![](assets/proof-approval-report.png)

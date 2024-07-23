@@ -6,10 +6,10 @@ description: 新しいインタラクティブなプルーフを生成するか�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: 35d76d3cb06c9e9b449844f304f1443e24a221d4
+source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 98%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 >レビュー担当者は、web サイトまたはインタラクティブコンテンツにアクセスできることを確認してください。インターネット上でもアクセスできる場合に限り、プルーフプロセスでアクセスできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -51,6 +53,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## Web サイトまたはその他の web コンテンツ用のインタラクティブなプルーフを作成する
 

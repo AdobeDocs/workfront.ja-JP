@@ -6,10 +6,10 @@ description: プルーフを操作する際に、Adobe Workfront ユーザーで
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 100%
+source-wordcount: '989'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 >これらの通知は、レビュアー間のプルーフのフローに関して受け取るメールアラートとは異なります。また、Workfront で設定できるメールアラート設定とは異なります。 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -49,6 +51,8 @@ ht-degree: 100%
 </table>
 
 &#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront または Workfront Proof 管理者にお問い合わせください。
+
++++
 
 ## プルーフのコメントおよび校正判断に関する通知を管理
 

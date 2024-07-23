@@ -8,10 +8,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
-source-git-commit: d01a26eaa43b264d11faa88c750f48f0ef1272c4
+source-git-commit: 4f54504cc0efdee532df49aacaf7c651178847e6
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 25%
+source-wordcount: '66'
+ht-degree: 24%
 
 ---
 
@@ -22,6 +22,6 @@ ht-degree: 25%
 * [新規ドキュメント承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
 * [ドキュメント決定ステータス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
 * [Frame.io を使用したアセットのレビューと承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
-* [アセットとドキュメントの承認の設定と管理](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
-* [アセットとドキュメントのレビューと承認](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+* [アセットおよびドキュメント承認の設定と管理：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+* [アセットとドキュメントのレビューと承認：記事インデックス](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
 

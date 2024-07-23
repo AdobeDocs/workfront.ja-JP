@@ -6,10 +6,10 @@ description: プルーフは、連続して 60 日間開かれなかった場合
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '209'
+ht-degree: 94%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 プルーフは、連続して 60 日間開かれなかった場合に自動的にアーカイブされます。アーカイブされたプルーフは、アーカイブ前と同じ方法でドキュメントリストに表示されます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -38,6 +40,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有するプランまたはプルーフへのアクセス権を確認するには、Workfront または Workfront のプルーフ管理者に問い合わせてください。
+
++++
 
 ## アーカイブされたプルーフを復元
 

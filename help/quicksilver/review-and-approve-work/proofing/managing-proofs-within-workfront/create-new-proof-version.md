@@ -6,10 +6,10 @@ description: 個々の作業のいくつものバージョンや改訂にわた�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 100%
+source-wordcount: '1734'
+ht-degree: 98%
 
 ---
 
@@ -31,6 +31,8 @@ ht-degree: 100%
 >Adobe Workfront 内でプルーフを作成した場合は、そのプルーフ用に新しく作成したバージョンも Workfront 内で作成する必要があります。Workfront 内で作成されたプルーフの場合、Workfront Proof で新しいバージョンのプルーフを作成することはできません。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -58,6 +60,8 @@ ht-degree: 100%
 </table>
 
 &#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront 管理者または Workfront Proof 管理者にお問い合わせください。
+
++++
 
 ## Workfront でのプルーフの新しいバージョンの作成
 
@@ -228,7 +232,7 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 
   >[!NOTE]
   >
-  >個人設定に保存されているデフォルトのカスタム件名／メッセージの影響は受けません。
+  >これは、個人設定に保存されたデフォルトのカスタム件名/メッセージの影響を受けません。
 
 個人設定にデフォルトの件名とメッセージが保存されている場合は、新しいバージョンページにデフォルトで表示されるメッセージに影響します。
 

@@ -6,10 +6,10 @@ description: 自動ワークフローを含むプルーフで現在アクティ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: db32ca28-d475-4050-b04f-c7c82f79918a
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 100%
+source-wordcount: '188'
+ht-degree: 94%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 自動ワークフローを含むプルーフで現在アクティブなステージを表示できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## プルーフのアクティブなステージの表示
 

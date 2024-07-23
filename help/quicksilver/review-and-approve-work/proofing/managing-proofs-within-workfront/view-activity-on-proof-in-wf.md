@@ -6,10 +6,10 @@ description: プルーフで発生したアクティビティを表示できま�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 74907330-4507-4ea6-ac28-8a760723f46b
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 100%
+source-wordcount: '233'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 プルーフで発生したアクティビティを表示できます。アクティビティには、アクティビティの日付と説明およびアクションを実行したユーザーなど、プルーフに対して行われた最近の変更が含まれます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## Adobe Workfront 内でのプルーフのアクティビティの表示
 

@@ -7,10 +7,10 @@ description: 作成済みのプルーフに対して、レビュアーごとに�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8da49c52-295b-402e-b8cb-f4d1cff57aba
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 100%
+source-wordcount: '276'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 作成済みのプルーフに対して、レビュアーごとに異なる期限を設定できます。個々の期限を設定するレビュアーごとに個別のステージを作成する必要があります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -50,6 +52,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## 個々のレビュアーの期限を設定
 
