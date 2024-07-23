@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: efcffadba5dba15d7e521524865e5e5ac3836baa
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 80%
+source-wordcount: '383'
+ht-degree: 76%
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Workfront オブジェクトに添付できるカスタムフォームを�
 
 ## カスタムフォームの作成方法
 
-フォームデザイナーは、フィールド、キャンバス、フィールド設定をすべて同時に表示できるキャンバススタイルのワークスペースを持っています。 また、フォームをデザインする際に、セクション内でフィールドをドラッグ&amp;ドロップすることもできます。
+フォームデザイナーは、フィールド、キャンバス、フィールド設定をすべて同時に表示できるキャンバススタイルのワークスペースを持っています。 また、フォームをデザインする際に、セクション内でフィールドをドラッグ&amp;ドロップすることもできます。 画面の右側のサイズを変更して、フィールドオプションのスペースを広げることができます。
 
 詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
