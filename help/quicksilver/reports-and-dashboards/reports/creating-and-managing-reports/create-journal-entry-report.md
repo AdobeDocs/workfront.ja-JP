@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '2758'
+source-wordcount: '2742'
 ht-degree: 99%
 
 ---
@@ -66,11 +66,9 @@ ht-degree: 99%
 
 この記事で説明している操作を実行する前に、次の点を確認する必要があります。
 
-* レポートの対象となるフィールドはすべて Workfront で追跡されていること。追跡されている更新エリアのデータのみをレポートできます。
+* レポート対象のすべてのフィールド（カスタムフィールドを含む）は、Workfrontで追跡されます。 追跡されている更新エリアのデータのみをレポートできます。
 
   Workfront で追跡するフィールドの追加方法については、[システム更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
-
-* レポートの対象となるすべてのカスタムフィールドで「**更新フィードにフィールド変更を表示**」の設定が有効になっていること。
 
 ## ジャーナルエントリレポートの概要
 

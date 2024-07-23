@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 260e629d-361b-4022-8be0-7d2e7d66770f
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 100%
+ht-degree: 91%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->プレビューリリース：2023年12月21日（PT）。実稼動版（迅速リリース用）：24.3 リリース（2024年3月）に伴う。実稼動版（すべてのお客様向け）：24.4 リリース（2024年4月）に伴う
+>プレビューリリース：2023 年 12 月 21 日（PT）、高速リリースの実稼動：24.3 リリース（2024 年 3 月）の場合、すべてのお客様向けの実稼動：24.10 リリース（2024 年 10 月）の場合
 
 Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。
 

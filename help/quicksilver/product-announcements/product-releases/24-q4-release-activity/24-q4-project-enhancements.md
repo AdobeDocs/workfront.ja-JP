@@ -1,38 +1,21 @@
 ---
-title: 2024 年第 3 四半期プロジェクトの強化
-description: 2024 年第 3 四半期プロジェクトの強化
+title: 2024年第 4 四半期のプロジェクトの機能強化
+description: 2024年第 4 四半期のプロジェクトの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 27d479d1-338a-429c-9703-8e72ed8d5c95
 source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 48%
+source-wordcount: '329'
+ht-degree: 86%
 
 ---
 
-# 2024 年第 3 四半期プロジェクトの強化
+# 2024年第 4 四半期のプロジェクトの機能強化
 
-このページでは、2024 年第 3 四半期リリースでプレビュー環境に加えられたすべてのプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
+このページでは、2024年第 4 四半期リリースでプレビュー環境に対して行われたすべてのプロジェクトの機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
-2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
-
-
-## ヘッダーまたは「詳細」セクションで、タスクと問題のコミット日と条件を編集します
-
->[!NOTE]
->
->プレビューリリース：2024 年 5 月 30 日（PT）、実稼動環境での迅速リリース：24.6 リリース（2024 年 6 月 13 日（PT））、すべてのお客様向けの実稼動リリース：24.7 リリース（2024 年 7 月 18 日（PT））で。
-
-タスクとイシューを簡単に更新できるように、レイアウトテンプレートのタスクとイシューのヘッダーと詳細セクションに追加するオプションとして、「コミット日」フィールドと「条件」フィールドが追加されるようになりました。 ユーザーは、変更されたレイアウトテンプレートに割り当てられたときに、ページのヘッダーまたは詳細セクションからこれらのフィールドを更新できるようになりました。 この機能強化が行われるまで、ヘッダーをカスタマイズする際に、タスクおよび問題の条件およびコミット日を追加することはできませんでした。
-
-コミット日および条件の更新について詳しくは、次の記事を参照してください。
-
-* [ タスクおよび問題の条件を更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
-* [ タスクおよび問題のコミット日の更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md)。
-
-[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3429471/){target=_blank}
+2024年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
 
 ## より関連性の高い割り当てが、新規タスクワークフローに追加されました。
 
