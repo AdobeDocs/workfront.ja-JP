@@ -7,7 +7,7 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 758dae749d324326857a330c8a23954764e68fd1
 workflow-type: tm+mt
 source-wordcount: '1247'
 ht-degree: 82%
@@ -51,13 +51,13 @@ ht-degree: 82%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* 割り当て列のタスク リストまたはレポート
+* <span class="preview"> 「割り当て」列のタスクリストまたはレポート </span>
 
-  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+  ![](assets/smart-assignments-task-list.png)
 
-* 「割り当て」フィールドのタスクヘッダー
+* <span class="preview">「割り当て」フィールドのタスクヘッダー</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 「割り当て」フィールドのイシューヘッダー
 
@@ -67,9 +67,9 @@ ht-degree: 82%
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* タスクをプロジェクトに追加するときは、[ 新しいタスク ] ボックスの [ 割り当て ] フィールド
+* <span class="preview">プロジェクトにタスクを追加する際の新規タスクボックスの割り当てフィールド</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,9 +77,9 @@ ht-degree: 82%
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* タスクまたはイシューを割り当てる際のこの割り当て先エリアのワークロードバランサー
+* <span class="preview"> タスクまたは問題を割り当てる際に、「この割り当て先」領域にあるワークロードバランサー </span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## スマート割り当て条件
