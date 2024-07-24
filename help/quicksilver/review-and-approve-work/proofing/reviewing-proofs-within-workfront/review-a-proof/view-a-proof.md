@@ -6,16 +6,25 @@ description: プルーフのコンテンツを表示する方法について説�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 100%
+source-wordcount: '897'
+ht-degree: 95%
 
 ---
 
 # プルーフのコンテンツを表示
 
+プルーフビューアを使用して、Workfrontにファイルとマークアップファイルを表示できます。
+
+>[!NOTE]
+>
+>Workfront インスタンスが統合エクスペリエンス上にある場合、プルーフビューアは新しいタブで開きます。
+
+
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,6 +52,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## プルーフの表示を変更
 

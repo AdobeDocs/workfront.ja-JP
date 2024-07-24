@@ -6,10 +6,10 @@ description: ' [!DNL Workfront]  および Adobe Experience Cloud の間には�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 019a1b61cd97d5d61f9a4fbf3f98eccab50809a8
+source-git-commit: 0cdd29a0fd58427197f1b9a4b4907089d3d86115
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 74%
+source-wordcount: '1302'
+ht-degree: 73%
 
 ---
 
@@ -32,6 +32,7 @@ ht-degree: 74%
 | 「組織の切り替え」の使用で [!DNL Workfront] 組織と環境間を移動可能 | 「組織の切り替え」は使用できません。 |
 | ナビゲーションには、[!DNL Workfront] ナビゲーションバーに加えて、[!DNL Adobe] 製品、[!DNL Adobe] 通知、ヘルプおよびユーザープロファイルの最上位ナビゲーションエリアを含みます。 | ナビゲーションは [!DNL Workfront] ナビゲーションバーのみを含みます |
 | ヘルプは、[!UICONTROL メインメニュー]および上部ナビゲーションエリアを介してアクセスします | ヘルプは、[!UICONTROL メインメニュー]および [!DNL Workfront] ナビゲーションバーを介してアクセスします |
+| プルーフビューアが新しいタブで開きます | プルーフビューアがWorkfront内で開きます |
 
 {style="table-layout:auto"}
 
