@@ -9,7 +9,7 @@ description: Adobe Photoshop モジュールを使用すると、Adobe Photoshop
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 1de5018a13f1fbe4383ce9655bc3fe29612b1411
+source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
 workflow-type: tm+mt
 source-wordcount: '3966'
 ht-degree: 23%
@@ -25,9 +25,9 @@ ht-degree: 23%
 
 モジュールについては、[モジュール： [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)を参照してください。
 
-+++**展開すると、この記事の機能のアクセス要件が表示されます。**
-
 ## アクセス要件
+
++++**展開すると、この記事の機能のアクセス要件が表示されます。**
 
 この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
