@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks, Resource Management
 role: User
 exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '946'
-ht-degree: 97%
+ht-degree: 92%
 
 ---
 
@@ -77,8 +77,8 @@ When assigning users to work, their availability according to their schedules af
 </ul>
 <p><strong>How removing assignees affects task hours and allocation percentages</strong></p>
 <p>(NOTE: move to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm) </p>
-<p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration&nbsp;Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
-<p>When you delete a user from a task with the following Duration&nbsp;Types:</p>
+<p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
+<p>When you delete a user from a task with the following Duration Types:</p>
 <ul>
 <li> <p><strong>Simple:</strong> The planned hours assigned to that user are subtracted from the task's total planned hours.</p> <note type="important">
 <span class="s1">This could negatively affect your project plan because it changes the total planned hours for the task and the project.</span>
@@ -156,9 +156,9 @@ When assigning users to work, their availability according to their schedules af
 
    * 既存の割り当て先をすべて削除するには：
 
-      1. 「**既存の割り当て先をすべて削除**」をクリックし、「**はい、すべての割り当て先を削除します**」をクリックします。
+      1. 「**既存の担当者をすべて削除**」をクリックし、「**はい、担当者をすべて削除します**」をクリックします。
 
-         これにより、共通の割り当て先（編集ダイアログボックスに表示される割り当て先）だけでなく、選択したすべてのタスクに関わる割り当て先もすべて削除されます。
+         これにより、共通の担当者（編集ダイアログボックスに表示される担当者）だけでなく、選択したすべてのタスクのすべての担当者も削除されます。
 
      ユーザーをタスクから削除すると、タスクの時間や配分率に影響を与える可能性があります。
 
@@ -170,7 +170,7 @@ When assigning users to work, their availability according to their schedules af
 
      >[!NOTE]
      >
-     >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「シンプル」の場合は、時間を更新できます。期間タイプについて詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
+     >このオプションは、編集中のすべてのタスクで期間タイプが同じである場合にのみ変更できます。「期間タイプ」が「予定作業」または「残存作業時間の優先」の場合、配分率を更新できます。期間タイプが「単純」の場合は、時間を更新できます。 期間タイプについて詳しくは、[ タスク期間と期間タイプの概要 ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) を参照してください。
      >
      >
      >このフィールドが空白の場合、値はタスク間で異なりますが、変更は可能です。

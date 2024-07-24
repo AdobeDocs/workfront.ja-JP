@@ -7,14 +7,22 @@ author: Alina
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 97%
+source-wordcount: '1171'
+ht-degree: 98%
 
 ---
 
 # 高度な割り当てを作成
+
+<!-- Audited: 07/2024-->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリースについて詳しくは、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。</span>
 
 高度な割り当てを使用して、タスクまたはイシューの割り当てを管理できます。
 
@@ -94,7 +102,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
 1. 「**詳細**」をクリックします。
 
-   ![ 「詳細」をクリック ](assets/assignments-box-in-task-header.png)
+   <span class="preview">![ 「詳細」をクリック ](assets/assignments-box-in-task-header.png)</span>
 
 1. **ユーザー、役割、チームを検索**&#x200B;フィールドに、ユーザー、役割、またはチームの名前を入力し、ドロップダウンリストに表示された名前をクリックします。
 
@@ -140,15 +148,10 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * タスクの割り当ての配分を手動で変更すると、タスクの予定時間数がそれに応じて更新される場合があります。詳しくは、[予定時間数の概要](../../../manage-work/tasks/task-information/planned-hours.md)の記事の「ユーザーの配分を管理する際のタスクの予定時間数を更新」の節を参照してください。
      >   * イシューに対する割り当ての配分を手動で変更することはできません。
      >   * タスクに割り当てられたチームの配分を手動で変更することはできません。
-     >   
-     >
 
    * **割り当て先の役割：**&#x200B;この割り当てを実行する際にユーザーが使用する役割を選択します。デフォルトでは、ユーザーの主要役割が表示されます。「割り当て先の役割」ボックスをクリックして、別の役割を選択します。最初にタスクやイシューを役割に割り当て、次にその役割を実行できるユーザーを 2 番目の割り当てとして追加すると、ユーザー候補のリストは、タスクやイシューに既に割り当てられている役割を実行できるユーザーに絞り込まれます。
 

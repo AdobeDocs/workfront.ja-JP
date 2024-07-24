@@ -6,10 +6,10 @@ description: プロジェクトの開始時に、プロジェクトをポート�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 94%
+source-wordcount: '378'
+ht-degree: 92%
 
 ---
 
@@ -34,7 +34,8 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>新規：任意</p>
+   <p>現在：[!UICONTROL Business] 以上</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
@@ -42,12 +43,12 @@ ht-degree: 94%
    <p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ポートフォリオ以上への [!UICONTROL View] アクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>[!UICONTROL 編集 ] アクセスPortfolio</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオへの [!UICONTROL View] 権限</p> <p>プロジェクトへの [!UICONTROL Manage] 権限</p>  </td> 
+   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>プロジェクトへの [!UICONTROL Manage] 権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>

@@ -7,14 +7,16 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 90%
+source-wordcount: '1247'
+ht-degree: 82%
 
 ---
 
 # スマート割り当ての概要
+
+<!--Audited: 07/2024-->
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
@@ -22,7 +24,7 @@ ht-degree: 90%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
+<span class="preview">現在のリリースについて詳しくは、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。</span>
 
 タスクとイシューの割り当てを管理する場合、スマート割り当てを使用すると、作業を完了するのに最適なユーザーを特定できます。スマート割り当ては、作業アイテムをリソースに割り当てる際に、その作業に最も適したリソースを決定するアルゴリズムに基づいて Adobe Workfront が示す提案です。スマート割り当てでは、ユーザー、担当業務、チームを指定できます。
 
@@ -36,10 +38,10 @@ ht-degree: 90%
 
 スマート割り当てを使用する際は、次の点を考慮してください。
 
-* このアルゴリズムは、タスクとイシューに対して独立して機能します。つまり、Workfront はイシューとタスクに対して基準に従った個別のリストを作成するので、イシューに対して候補に挙げられたユーザーのリストは、タスクに対して候補に挙げられたユーザーのリストと異なる場合があります。
-* スマート割り当てでは、担当業務やチームの提案はしません。代わりに、タスクやイシューを完了するのに最適なユーザーの候補を提案します。
-* 提案された割り当ては、常にアクティブなユーザーとなります。
-* 最初にリストされたユーザーは、タスクに最も適した候補である必要があります。
+* <span class="preview"> アルゴリズムは、タスクと問題に対して独立して機能します。 つまり、Workfrontは、イシューとタスクに個別に関連する条件に従ってリストを作成するので、イシューの推奨ユーザーのリストとタスクの推奨ユーザーのリストが異なる場合があります。</span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* 推奨される割り当ては、常にアクティブユーザー、担当業務またはチームです。
+* 最初にリストされるリソースは、そのタスクに最も一致するリソースである必要があります。
 
 ## スマート割り当て候補の検索
 
@@ -51,11 +53,11 @@ ht-degree: 90%
 
 * 割り当て列のタスク リストまたはレポート
 
-  ![](assets/smart-assignments-task-list.png)
+  <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * 「割り当て」フィールドのタスクヘッダー
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * 「割り当て」フィールドのイシューヘッダー
 
@@ -67,7 +69,7 @@ ht-degree: 90%
 
 * タスクをプロジェクトに追加するときは、[ 新しいタスク ] ボックスの [ 割り当て ] フィールド
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,7 +79,7 @@ ht-degree: 90%
 
 * タスクまたはイシューを割り当てる際のこの割り当て先エリアのワークロードバランサー
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## スマート割り当て条件
@@ -86,11 +88,13 @@ ht-degree: 90%
 
 ### タスクに対するスマート割り当て条件
 
-タスクのスマート割り当ての計算は、2 つの異なるアルゴリズムを使用する 2 つのフェーズで行われます。
+タスクのスマート割り当ての計算は、<span class="preview">2 つの異なるアルゴリズムを使用する 2 つのフェーズ </span> で機能します。
 
-スマート割り当てが見つかったアルゴリズムに応じて、「割り当て」フィールドの 2 つの異なるセクションに割り当てが一覧表示されます。詳しくは、[スマート割り当ての実行](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md)を参照してください。
+<span class="preview"> スマート割り当てを見つけたアルゴリズムに応じて、割り当ては「割り当て」フィールドの 2 つの異なるセクションに表示されます。</span> 詳しくは、[ スマート割り当てを行う ](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md) を参照してください。
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### タスクに対するスマート割り当て計算の第 1 フェーズ
 
@@ -127,6 +131,8 @@ ht-degree: 90%
 * このフェーズで特定された割り当ては、    タスクの「割り当て」フィールドの **提案された割り当て** セクション。
 
 * この計算を使用して一致がない場合、スマート割り当ての第 2 フェーズが開始し、別のアルゴリズムを使用して計算されます。
+
+</div>
 
 #### タスクのスマート割り当て計算の第 2 フェーズ
 

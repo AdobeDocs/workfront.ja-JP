@@ -6,7 +6,7 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '547'
 ht-degree: 76%
@@ -23,15 +23,15 @@ ht-degree: 76%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
+<span class="preview">現在のリリースについて詳しくは、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。</span>
 
 スマート割り当てを使用して、作業の完了に最適なユーザーを特定できます。
 
 スマート割り当ては、作業アイテムをリソースに割り当てる際に Adobe Workfront に表示される、ユーザー、役割またはチームに関する提案です。Workfront は、業務に最も適したリソースを決定するアルゴリズムに基づいて提案します。
 
-Workfrontには、タスクとイシューに異なる機能を持つスマート割り当てを計算する 2 つの異なるアルゴリズムがあります。
+<span class="preview">Workfrontには、タスクとイシューに異なる機能を持つスマート割り当てを計算する 2 つのアルゴリズムがあります。</span>
 
-スマート割り当ての決定に使用される基準について詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
+スマート割り当ての決定に使用される基準について詳しくは、[スマート割り当ての概要](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
 ## アクセス要件
 
@@ -75,7 +75,7 @@ Workfrontには、タスクとイシューに異なる機能を持つスマー�
    * タスクまたはイシューのリストやレポート
    * タスクまたはイシューのヘッダー
    * タスクまたはイシューの概要パネル
-   * プロジェクトに新しいタスクまたはイシューを追加する際の、新しいタスクまたは新しいイシューボックス
+   * <span class="preview"> 新規タスク </span> またはイシューをプロジェクトに追加する際の <span class="preview"> 新規タスク </span> または新規イシューボックス
    * ホームエリアにリストされた項目の「割り当て」フィールド
    * ワークロードバランサーのタスクまたはイシュー
 
@@ -90,14 +90,14 @@ Workfrontには、タスクとイシューに異なる機能を持つスマー�
 
    タスクについては、割り当てが特定されたアルゴリズムの計算のフェーズに応じて、スマート割り当てが次のセクションに表示されます。
 
-   * **提案された割り当て**：タスクスマート割り当てアルゴリズムの最初のフェーズで識別された割り当てを表示します。
+   * <span class="preview">**提案された割り当て**：タスクスマート割り当てアルゴリズムの最初のフェーズで識別された割り当てを表示します。</span>
    * **ユーザーとチーム**、**担当業務** または <span class="preview">**評価カードの担当業務**</span>：タスクスマート割り当てのアルゴリズム計算の第 2 段階で特定された割り当て。
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
    詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
-1. レコメンデーションリストでユーザー名をクリックして、ユーザーを選択します。
+1. 名前をクリックして、レコメンデーションリストのリソースを選択します。
 
 1. （オプション）「**自分に割り当て**」をクリックして、作業アイテムを自分に割り当てます。
 

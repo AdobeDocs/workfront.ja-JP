@@ -6,14 +6,16 @@ description: プロジェクトをポートフォリオから削除して別の�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 100%
+source-wordcount: '233'
+ht-degree: 79%
 
 ---
 
 # ポートフォリオからのプロジェクトの削除
+
+<!--Audited: 7/2024-->
 
 プロジェクトをポートフォリオから削除して別のポートフォリオに関連付けることも、プロジェクトとポートフォリオの関連付けを完全に削除することもできます。
 
@@ -21,7 +23,7 @@ ht-degree: 100%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,24 +31,29 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>[!UICONTROL Business] 以降</p> </td> 
+   <td> <p>新規：任意</p>
+   <p>現在：[!UICONTROL Business] 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>新規：標準</p>
+   <p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> <p>ポートフォリオ以上への [!UICONTROL View] アクセス</p> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> <p>ポートフォリオへの[!UICONTROL Edit]アクセス権</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトを削除するポートフォリオに対する[!UICONTROL Manage] 権限 <br>[!UICONTROL Manage] 権限と、プロジェクトをポートフォリオから削除するためのプロジェクトへの [!UICONTROL Delete] アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオおよびプロジェクトを削除するプロジェクトに対する [!UICONTROL 管理 ] 権限</p>
+   <p>プロジェクトへの [!UICONTROL Delete] アクセス権を持つ [!UICONTROL 管理 ] 権限を持ち、ポートフォリオから削除できます</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## ポートフォリオからのプロジェクトの削除
 

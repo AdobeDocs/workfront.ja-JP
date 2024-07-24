@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
+source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
 workflow-type: tm+mt
-source-wordcount: '7473'
-ht-degree: 99%
+source-wordcount: '7513'
+ht-degree: 98%
 
 ---
 
@@ -242,11 +242,17 @@ ht-degree: 99%
       </tr> 
       <tr> 
          <td role="rowheader"><strong>ポートフォリオ</strong></td> 
-         <td>プロジェクトが属するポートフォリオを示します。ドロップダウンリストに表示される前に、まずポートフォリオを作成する必要があります。プロジェクトに関連付けることができるのは、アクティブなポートフォリオのみです。ポートフォリオの作成について詳しくは、<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">ポートフォリオの作成</a>を参照してください。</td> 
+         <td>プロジェクトが属するポートフォリオを示します。ドロップダウンリストに表示される前に、まずポートフォリオを作成する必要があります。プロジェクトに関連付けることができるのは、アクティブなポートフォリオのみです。ポートフォリオの作成について詳しくは、<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">ポートフォリオの作成</a>を参照してください。
+         <p><b>メモ</b></p>
+         <p>プロジェクトにポートフォリオを追加または削除するには、そのポートフォリオに対する管理権限が必要です。</p>
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>プログラム</strong></td> 
-         <td> <p>プロジェクトのポートフォリオを選択した場合は、プロジェクトのプログラムを指定します。一部のポートフォリオにはプログラムがない可能性があります。このドロップダウンリストに表示される前に、最初にプログラムを作成する必要があります。プロジェクトに関連付けることができるのは、アクティブなプログラムのみです。 </p> <p>プログラムの作成について詳しくは、<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">プログラムの作成</a>を参照してください。</p> </td> 
+         <td> <p>プロジェクトのポートフォリオを選択した場合は、プロジェクトのプログラムを指定します。一部のポートフォリオにはプログラムがない可能性があります。このドロップダウンリストに表示される前に、最初にプログラムを作成する必要があります。プロジェクトに関連付けることができるのは、アクティブなプログラムのみです。 </p> <p>プログラムの作成について詳しくは、<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">プログラムの作成</a>を参照してください。</p> 
+      <p><b>メモ</b></p>
+         <p>プログラムをプロジェクトに追加または削除するには、プログラムの管理権限が必要です。</p>   
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>グループ</strong></td> 

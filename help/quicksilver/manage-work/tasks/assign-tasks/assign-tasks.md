@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
 source-wordcount: '1985'
-ht-degree: 91%
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 91%
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview"> 現在のリリースについて詳しくは、[2024 年第 3 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。</span>
+<span class="preview">現在のリリースについて詳しくは、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。</span>
 
 ユーザー、担当業務やチームにタスクを割り当てて、タスクの完了担当者を指定できます。一度に複数のリソースに対して 1 つのタスクを割り当てることができます。
 
@@ -55,6 +55,8 @@ ht-degree: 91%
 * [ワークロードバランサーでの作業割り当ての概要](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## アクセス要件
+
+<!-- Audited: 07/2024-->
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -164,7 +166,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      ><span class="preview">担当業務の割り当てを追加する際に、担当業務や場所を検索できます。担当業務リストから役割を選択して割り当てのデフォルトの請求レートを使用するか、レートカード担当業務を選択してレートカードの請求レートを使用します。 評価カードについて詳しくは、[評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。</span>
 
 
-   * （条件付き） **提案された割り当て**、**ユーザーとチーム**、**担当業務**、または <span class="preview">**評価カードの役割**</span> リストのいずれかの名前を表示時にクリックします。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
+   * （条件付き） <span class="preview">**提案された割り当て**</span>、**ユーザーとチーム**、**担当業務**、または <span class="preview">**評価カードの役割**</span> リストのいずれかの名前を表示時にクリックします。 詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
      タスクに割り当てるユーザー、チーム、担当業務の名前の入力を開始し、リストに表示されたら選択できます。
 

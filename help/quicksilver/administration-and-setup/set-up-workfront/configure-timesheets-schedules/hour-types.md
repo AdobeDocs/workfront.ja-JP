@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 93%
+source-wordcount: '759'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +43,9 @@ ht-degree: 93%
   >
   >[!DNL Workfront] システムでプロジェクト固有の時間タイプを有効にする場合は、システム内の各プロジェクトで、1 つ以上のプロジェクト固有の時間タイプを有効にする必要があります。システムレベルでは、プロジェクト固有の時間タイプを有効にすることはできません。また、プロジェクトレベルでは、プロジェクト固有の時間タイプを使用できません。
 
-* **一般的な時間タイプ**：一般的な時間数はプロジェクト、タスク、やイシューに関連付けることができず、タイムシートに直接記録されます。時間の記録について詳しくは、[時間を記録](../../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
+* **一般的な時間タイプ**：一般的な時間は、プロジェクト、タスク、または問題に関連付けることはできず、タイムシートに直接記録されます。
+
+時間の記録および時間タイプとの関連付けについて詳しくは、[ 時間の記録 ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
 
 ## アクセス要件
 

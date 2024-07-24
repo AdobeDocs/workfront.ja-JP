@@ -6,10 +6,10 @@ description: 自分が作成したポートフォリオや、他のユーザー�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 98%
+source-wordcount: '997'
+ht-degree: 93%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,29 +29,35 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>新規：任意</p>
+   <p>現在：[!UICONTROL Business] 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] ライセンスの概要*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe[!DNL Workfront] ライセンス*</td> 
+   <td> <p>新規：標準</p>
+   <p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>ポートフォリオへの[!UICONTROL Edit]アクセス権</p> <p>メモ：アクセス権がない場合は、アクセスレベルに追加の制限が設定されているかどうかを [!DNL Workfront] 管理者に確認してください。アクセスレベルでのポートフォリオへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md" class="MCXref xref">ポートフォリオへのアクセス権を付与</a>を参照してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルを作成または変更</a>を参照してください。 </p> </td> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>ポートフォリオへの[!UICONTROL Edit]アクセス権</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオに対する [!UICONTROL Manage] 権限</p> <p> ポートフォリオに対する権限の付与について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md" class="MCXref xref">ポートフォリオを共有 </a>を参照してください。 </p> <p>追加の権限のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトの利用申請</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオに対する [!UICONTROL Manage] 権限</p>
+   <p> ポートフォリオ内のプロジェクトに対する権限を管理して、プロジェクトをポートフォリオに追加またはポートフォリオから削除します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## ポートフォリオを編集する
 
-1. **[!UICONTROL メインメニュー]**&#x200B;に移動します。
-1. 「**[!UICONTROL ポートフォリオ]**」をクリックし、ポートフォリオの名前をクリックして開きます。
+{{step1-to-portfolios}}
+
+1. ポートフォリオの名前をクリックして開きます。
 1. （オプション）ポートフォリオに関する限定的な情報を編集するには、左側のパネルで&#x200B;**[!UICONTROL ポートフォリオの詳細]**&#x200B;をクリックします。
 
    ![](assets/portfolio-details-tab-nwe-350x163.png)

@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
 workflow-type: tm+mt
-source-wordcount: '3553'
-ht-degree: 92%
+source-wordcount: '3775'
+ht-degree: 87%
 
 ---
 
@@ -473,3 +473,36 @@ Workfront ボードの接続カードで時間を記録できます。これは�
 
 Workfront モバイルアプリで時間を記録できます。
 詳しくは、[Android 用 Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) または [iOS 用 Adobe Workfront](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) を参照してください。
+
+## リストおよびレポートのログ時間を編集する
+
+次の領域でログ時間を編集できます。
+
+* オープン タイムシートを含む、時間を追加したすべての領域
+* 時間リストおよびレポート。
+
+リストまたはレポートの時間エントリを編集する場合、次の時間項目の要素を編集できます。
+
+* 時間数
+* 時間タイプ
+* 時間エントリに関連付けられた担当業務
+
+編集する時間エントリのタイプに応じて、次のフィールドを編集できます。
+
+* プロジェクト固有の時間を編集する場合：
+
+   * 時間数を編集できます。
+   * 時間タイプは、プロジェクト固有のタイプにのみ変更できます。
+   * 時間の担当業務の割り当ては、設定で有効にした場合にのみ変更できます。 詳しくは、[ タイムシートおよび時間環境設定の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) を参照してください。
+
+* 一般的な時間を編集する場合：
+
+   * 時間数を編集できます。
+   * 「時間タイプ」は、「一般」タイプにのみ変更できます。
+   * 一般的な時間を役割に関連付けることはできないので、時間の担当業務の割り当てを変更することはできません。
+
+* 一般時間とプロジェクト固有の時間を一括して編集する場合：
+
+   * 時間数を編集できます。
+   * 時間タイプは変更できません。これは、一般的な時間タイプをプロジェクト固有のタイプに変更したり、プロジェクト固有の時間タイプを一般的なタイプに変更したりできないためです。
+   * 一般的な時間を役割に関連付けることはできないので、担当業務の割り当ては変更できません。
