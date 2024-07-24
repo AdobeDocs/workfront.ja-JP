@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 7f747a61c22a8927b0cd58c3c85e79143e432b98
+source-git-commit: cbfd30bb64be6a70b27a34068b93d566515434be
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1056'
 ht-degree: 6%
 
 ---
 
 # ビジネス・ルールの作成と編集
+
+>[!IMPORTANT]
+>
+>ビジネス・ルールは一時的に使用できません。
 
 ビジネス・ルールを使用すると、Workfrontオブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ビジネスルールは、データの整合性を損なう可能性のあるアクションを防ぐことで、データ品質と運用効率の向上に役立ちます。
 
