@@ -8,10 +8,10 @@ description: パブリック URL でプルーフを共有する機能や、プ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 パブリック URL でプルーフを共有する機能や、プルーフごとまたは個々のユーザーごとにプルーフにコードを埋め込む機能を無効にできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,6 +45,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## プルーフごとに無効化
 

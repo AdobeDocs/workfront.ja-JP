@@ -6,10 +6,10 @@ description: Web プルーフビューアーとデスクトッププルーフビ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 100%
+source-wordcount: '1417'
+ht-degree: 99%
 
 ---
 
@@ -42,6 +42,8 @@ Web プルーフビューアーとデスクトッププルーフビューアー�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -68,6 +70,8 @@ Web プルーフビューアーとデスクトッププルーフビューアー�
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## プルーフビューア設定の指定
 

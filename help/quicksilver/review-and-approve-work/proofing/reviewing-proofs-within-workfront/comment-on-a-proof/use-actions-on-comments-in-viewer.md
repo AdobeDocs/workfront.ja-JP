@@ -6,10 +6,10 @@ description: アクションを使用して、プルーフの各コメントス�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '438'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 Workfront 管理者によるアクションの有効化と設定の方法について詳しくは、次を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -51,6 +53,8 @@ Workfront 管理者によるアクションの有効化と設定の方法につ�
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## コメントに対するアクションの使用
 

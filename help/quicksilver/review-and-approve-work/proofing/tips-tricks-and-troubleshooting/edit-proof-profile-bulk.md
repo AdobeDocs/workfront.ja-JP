@@ -7,16 +7,18 @@ description: プルーフ権限プロファイルを一括で編集する方法�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 100%
+source-wordcount: '256'
+ht-degree: 95%
 
 ---
 
 # プルーフ権限プロファイルフィールドの一括編集
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,9 +47,11 @@ ht-degree: 100%
 
 &#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront または Workfront Proof 管理者にお問い合わせください。
 
++++
+
 ## プルーフ権限プロファイルフィールドの一括編集
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**ユーザー** ![](assets/users-icon-in-main-menu.png) の順にクリックします。
+{{step-1-to-users}}
 
 1. ユーザーを&#x200B;**アクセスレベル**&#x200B;で並べ替えます。「**プルーフ権限プロファイル**」フィールドが確実に表示されるように、アクセスレベルごとにバッチ編集することをお勧めします。
 

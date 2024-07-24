@@ -7,10 +7,10 @@ description: Adobe Workfront のどのユーザーが現在「プルーフユー
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4d45ecd9-4348-43a4-9fa7-090b996b4695
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 Adobe Workfront のどのユーザーが現在「プルーフユーザー」オプションを有効にしているかは、次のいずれかの方法で表示できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -46,6 +48,8 @@ Adobe Workfront のどのユーザーが現在「プルーフユーザー」オ�
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## ユーザーレポートの作成
 

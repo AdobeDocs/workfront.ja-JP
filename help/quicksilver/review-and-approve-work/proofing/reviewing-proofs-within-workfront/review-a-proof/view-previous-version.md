@@ -6,10 +6,10 @@ description: プルーフの以前のバージョンが存在する場合は表�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 9416a3ee-2812-4a25-af38-2c5daeaeef07
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 100%
+source-wordcount: '322'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 >この記事で説明する情報は、web プルーフビューアを使用する場合にのみ、そしてビデオまたは静的プルーフをレビューする場合にのみ使用できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -49,6 +51,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## プルーフビューアーでの以前のプルーフバージョンの表示
 

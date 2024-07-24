@@ -6,10 +6,10 @@ description: コメントに対処したら、コメントに解決済みのマ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 100%
+source-wordcount: '366'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 コメントに対処したら、コメントに解決済みのマークを付けることができます。自分または他のレビュアーが解決したコメントを、再度開くことができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -49,6 +51,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## コメントの解決
 

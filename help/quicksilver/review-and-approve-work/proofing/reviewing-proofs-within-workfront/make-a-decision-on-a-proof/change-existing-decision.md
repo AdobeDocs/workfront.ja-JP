@@ -6,10 +6,10 @@ description: プルーフがアクティブ（ロックまたはアーカイブ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 07825eeb-9dbd-4ad8-9dca-d3b5345012f8
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 100%
+source-wordcount: '236'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 プルーフがアクティブ（ロックまたはアーカイブされていない）である限り、いつでも決定を変更できます。 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -49,6 +51,8 @@ ht-degree: 100%
 </table>
 
 &#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront または Workfront Proof 管理者にお問い合わせください。
+
++++
 
 ## プルーフに関する既存の決定の変更
 

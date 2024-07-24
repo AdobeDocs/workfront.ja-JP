@@ -6,10 +6,10 @@ description: プルーフに関する決定をプルーフビューアで直接�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: cf74ac54-b8c1-4404-b35f-2aa94831ecad
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 プルーフに関する決定をプルーフビューアで直接下すことができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -49,6 +51,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## プルーフビューアでのプルーフに関する意思決定
 

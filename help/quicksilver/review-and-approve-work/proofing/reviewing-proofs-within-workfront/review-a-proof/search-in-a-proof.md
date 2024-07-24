@@ -6,10 +6,10 @@ description: プルーフ内のテキストを素早く見つける方法を説�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '230'
+ht-degree: 95%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 100%
 >2017年4月27日（PT）より前に作成されたプルーフは検索できない場合があります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -53,6 +55,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## プルーフ内のコンテンツを検索
 

@@ -6,10 +6,10 @@ description: コメントまたはコメントに対する返信は、それに�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a558cd5c-0341-48bf-b00a-d6db232bda14
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 96%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 コメントまたはコメントに対する返信は、それに対して誰も返信していない場合は削除できます。通常、コメントは削除するよりも解決することをお勧めします。詳しくは、[プルーフのコメントを解決](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/resolve-proof-comments.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -49,6 +51,8 @@ ht-degree: 100%
 </table>
 
 &#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront または Workfront Proof 管理者にお問い合わせください。
+
++++
 
 ## プルーフのコメントを削除
 

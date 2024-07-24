@@ -6,10 +6,10 @@ description: 以下の説明に従ってもプルーフを開けない場合は�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 69b1677835ea783aa9baf5026e782440395013f0
+source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 95%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 以下の説明に従ってもプルーフを開けない場合は、Adobe Workfront 管理者または Workfront Proof 管理者にお問い合わせください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,6 +45,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 {{latest-version}}
 

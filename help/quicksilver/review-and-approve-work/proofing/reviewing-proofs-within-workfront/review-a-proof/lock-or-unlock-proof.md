@@ -6,10 +6,10 @@ description: レビュープロセスでは、いつでも手動でプルーフ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: a90c11699a8c057248ec226a4b25fb7d526ab16a
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 100%
+source-wordcount: '382'
+ht-degree: 97%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 レビュープロセスでは、いつでも手動でプルーフをロックおよびロック解除できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 100%
 </table>
 
 &#42;ご利用のプラン、役割またはプルーフ権限プロファイルを確認するには、Workfront 管理者または Workfront Proof 管理者にお問い合わせください。
+
++++
 
 ## プルーフのロック
 

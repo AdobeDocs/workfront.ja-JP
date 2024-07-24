@@ -6,10 +6,10 @@ description: プルーフビューアーでプルーフにコメントを付け�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 49950895440fec8cebdf12ec81191c6e890383cf
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 100%
+source-wordcount: '721'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 100%
 * 外部ユーザーとしてプルーフに追加され、異なるプルーフアカウントを持つ別の環境のメンバーである場合、元の環境からのユーザーのみにタグ付けできます。<!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## アクセス要件 {#access-requirements}
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -54,6 +56,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、プルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフ管理者に問い合わせてください。
+
++++
 
 ## プルーフを共有するようユーザーにタグを付ける
 

@@ -6,10 +6,10 @@ description: 様々なデバイスでのインタラクティブなプルーフ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 99165790-0c34-4540-92d9-956ae178a874
-source-git-commit: d4fa663e22daf25fec77be79a452eb207857bdda
+source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '587'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 様々なデバイスでのインタラクティブなプルーフの外観をプレビューし、様々な解像度に基づいてコンテンツが表示され、応答する様子を確認できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
+
++++
 
 ## デスクトッププルーフビューアーと web プルーフビューアーのデバイスと解像度の表示
 
