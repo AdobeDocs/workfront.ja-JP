@@ -6,10 +6,10 @@ description: 重複している、または誤って作成された可能性の�
 author: Alina
 feature: Work Management
 exl-id: aee5c293-e5fa-413e-9d9b-c62528941be7
-source-git-commit: 7c373707f6e5ec1431e38cc0e103e25cd8cf2309
+source-git-commit: 463fc65db6adb5cae6ecffb2e165155c89a63d6d
 workflow-type: tm+mt
-source-wordcount: '855'
-ht-degree: 100%
+source-wordcount: '851'
+ht-degree: 98%
 
 ---
 
@@ -118,7 +118,7 @@ Workfront インスタンスのタイムシートおよび時間設定で、Work
    1. （条件付き）**自動保存**&#x200B;の切り替えが有効な場合：
 
       1. 削除するタスクを選択し、「**その他**」をクリックします。
-      1. 「**削除**」をクリックし、「**はい、削除します**」をクリックして削除を確定します。
+      1. **削除** をクリックし、**削除** をクリックして削除を確定します。
 
          タスクが削除されます。
 
@@ -149,7 +149,7 @@ Workfront インスタンスのタイムシートおよび時間設定で、Work
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. 「**タスクを削除**」をクリックします。
-1. 削除が許可されている場合は、「**はい、削除します**」をクリックします。
+1. 削除が許可されている場合は、「**削除**」をクリックします。
 
    Workfront 管理者またはグループ管理者は、時間がログに記録されたタスクの削除を許可していない場合があります。
 
