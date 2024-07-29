@@ -6,10 +6,10 @@ description: ' [!DNL Jira]  のイシューを、 [!DNL Adobe Workfront]  のタ
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f22a67cd3235a3111f7b874637ec05f8299de271
+source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
 workflow-type: tm+mt
-source-wordcount: '1158'
-ht-degree: 100%
+source-wordcount: '1229'
+ht-degree: 90%
 
 ---
 
@@ -136,18 +136,24 @@ Jira のイシューを自動作成するトリガーの定義について詳し
 手動で [!DNL Jira] イシューを [!DNL Workfront] 項目にリンクするには、次の手順に従います。
 
 1. （条件付き）[!DNL Workfront] にログインし、[!DNL Jira] イシューにリンクするイシューまたはタスクを検索します。
-1. （条件付き）項目のアドレスバーから、Workfront の項目の **URL** をコピーします。
+1. （条件付き） [!UICONTROL  詳細 ] 領域から、Workfrontの項目の **[!UICONTROL 参照番号]** をコピーします。
 
    または
 
-   [!UICONTROL 詳細]エリアから、Workfront の項目の&#x200B;**[!UICONTROL 参照番号]**&#x200B;をコピーします。
+   項目のアドレスバーから、Workfront内の項目の **URL** をコピーします。
+
+   >[!IMPORTANT]
+   >
+   >組織がAdobeの統合エクスペリエンスにオンボーディングされた場合、Workfront項目を Jira にリンクするには **参照番号** を使用する必要があります。 （「URL」オプションを使用できますが、使用するとエラーが返されます。） 統合エクスペリエンスについて詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+   >
+   >Adobeの統合エクスペリエンスを利用していない組織の場合、URL は変わる可能性があるので、「URL」オプションを使用することはお勧めしません。
 
    >[!NOTE]
    >
    >[!DNL Workfront] にログインするには、[!DNL Workfront] ライセンスが必要です。それ以外の場合は、[!DNL Workfront] ユーザーからこの情報の提供を受ける必要があります。
 
 1. [!DNL Jira] で、手動で [!DNL Workfront] 項目にリンクするイシューに移動します。
-1. [!DNL Workfront] の右側のパネルで、**URL** またはリンクする [!DNL Workfront] 項目の&#x200B;**[!UICONTROL 参照番号]**&#x200B;をペーストします。
+1. 右 [!DNL Workfront] のパネルに、リンクする [!DNL Workfront] の項目の **[!UICONTROL 参照番号]** または **URL** を貼り付けます。
 
 1. 「**[!UICONTROL リンク]**」をクリックします。
 
