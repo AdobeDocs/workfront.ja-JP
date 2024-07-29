@@ -6,10 +6,10 @@ description: Adobe Workfront プラグインを使用して作業を更新でき
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '207'
-ht-degree: 100%
+source-wordcount: '218'
+ht-degree: 94%
 
 ---
 
@@ -19,8 +19,9 @@ ht-degree: 100%
 
 {{cc-app-list}}
 
-
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -50,6 +51,8 @@ ht-degree: 100%
 </table>
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+
++++
 
 ## 前提条件
 

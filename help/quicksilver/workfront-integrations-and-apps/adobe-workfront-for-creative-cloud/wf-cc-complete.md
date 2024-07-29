@@ -6,10 +6,10 @@ description: Adobe Workfront での作業をシームレスに完了し、Adobe 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d94a2b10-51d5-4995-b7b3-793d7911fca9
-source-git-commit: 38b1b69dd76bef9fb116519dd6c45adc053e0d3f
+source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 {{cc-app-list}}
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -47,6 +49,8 @@ ht-degree: 100%
 </table>
 
 ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+
++++
 
 ## 前提条件
 
