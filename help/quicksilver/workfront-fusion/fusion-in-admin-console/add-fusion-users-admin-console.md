@@ -8,10 +8,10 @@ description: ユーザーを Adobe Admin Console に追加して Adobe Workfront
 author: Becky
 feature: Workfront Fusion
 exl-id: c8924e00-1154-4cf8-84e8-472251b5fc28
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: b7ceec2750ded516cae20d12b991b8fec94c6029
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 100%
+source-wordcount: '638'
+ht-degree: 93%
 
 ---
 
@@ -143,6 +143,6 @@ ht-degree: 100%
 
 ## [!DNL Adobe Admin Console] の既存ユーザーの [!DNL Workfront Fusion] への割り当て
 
-1. [!DNL Adobe Admin Console] ドキュメントの[ユーザーを個別に管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)の記事にある「ユーザーの詳細の編集」セクションの説明に従って、ユーザーの編集を開始します。
+Fusion で既存のユーザーをチームに追加できます。 これは Fusion 内で処理されます。
 
-1. ユーザーに割り当てられている製品に **[!DNL Adobe Workfront Fusion]** を追加します。
+手順については、Adobe Workfront Fusion での組織またはチームへのユーザーの追加の記事の [ チームにユーザーを追加する ](/help/quicksilver/workfront-fusion/organizations/add-user-to-an-organization.md#add-a-user-to-a-team) を参照してください。

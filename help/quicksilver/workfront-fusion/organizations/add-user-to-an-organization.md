@@ -7,20 +7,20 @@ description: Adobe Workfront Fusion で組織にユーザーを追加できま�
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 447ab70566d5f9de3bc368933c9efdb94d2b9e7e
+source-git-commit: 1b4a6d2b2ad57ddf1afd5dadf8b1fed358f95b61
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 100%
+source-wordcount: '623'
+ht-degree: 55%
 
 ---
 
-# Adobe Workfront Fusion で組織にユーザーを追加する
+# Adobe Workfront Fusion での組織またはチームへのユーザーの追加
 
 >[!IMPORTANT]
 >
 >このページで説明する手順は、[!DNL Adobe Admin Console] にまだ登録されていない組織にのみ適用されます。組織が [!DNL Adobe Admin Console] に登録されている場合は、[!DNL Adobe Admin Console] を通じてこのアクションを実行してください。
 >
->[!DNL  Adobe Admin Console] にユーザーを追加する手順については、[ユーザーを個別に管理する](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)の記事のユーザーの詳細の編集の節を参照するか、[!UICONTROL Adobe Admin Console] の管理者にお問い合わせください。
+>組織が [!DNL  Adobe Admin Console] およびAdobe統合エクスペリエンスに移動された後のユーザーの追加については、[ へのユーザーの追加  [!DNL Adobe Workfront Fusion] through [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) を参照してください。
 >
 >組織が Adobe Admin Console に登録されているかどうかによって手順が異なり、その手順のリストについては、[プラットフォームによる管理の違い（Adobe Workfront Fusion、Adobe Business Platform）](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md)を参照してください。
 
@@ -100,13 +100,65 @@ ht-degree: 100%
 
 1. メニューの&#x200B;**[!UICONTROL 組織]**&#x200B;に移動し、ユーザーを追加する組織を選択します。
 1. ダッシュボードの「**[!UICONTROL ユーザー]**」タブを開きます。
-1. 「**[!UICONTROL 新しいユーザーを招待]**」をクリックしてフォーム（メール、メッセージ、役割）に記入し、「**[!UICONTROL 送信]**」をクリックして招待を送信します。
+1. **[!UICONTROL 新しいユーザーを招待]** をクリックし、**[!UICONTROL 送信]** をクリックして招待を送信します。
 
->[!NOTE]
->
->   
->「[!UICONTROL 新しいユーザーを招待]」ボタンが表示されない場合、組織は [!DNL Adobe Business Platform.] にオンボーディングされています。
->
->  [!DNL Adobe Business Platform] にオンボーディングされている組織にユーザーを追加する手順について詳しくは、[ [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) を介した  [!DNL Adobe Workfront Fusion]  へのユーザーの追加を参照してください。
+   >[!NOTE]
+   >
+   >   
+   >「[!UICONTROL 新しいユーザーを招待]」ボタンが表示されない場合、組織は [!DNL Adobe Business Platform.] にオンボーディングされています。
+   >
+   >  [!DNL Adobe Business Platform] にオンボーディングされている組織にユーザーを追加する手順について詳しくは、[ [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) を介した  [!DNL Adobe Workfront Fusion]  へのユーザーの追加を参照してください。
+
+1. フォームに入力します。
+
+   <table style="table-layout:auto">
+<col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Email address]</td>
+      <td>
+        ユーザーのメールアドレスを入力します
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Name]</td>
+      <td>
+        <p>ユーザーのフルネームを入力します</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Role] </td>
+      <td>ユーザーの役割を選択します。 役割については、「組織とチームの役割 <a href="/help/quicksilver/workfront-fusion/organizations/organization-roles.md"> を参照してください </a>。</p>
+   </td>
+    </tr>
+    <tr>
+      <td role="rowheader">チーム</td>
+      <td>ユーザーを属させるチームをすべて選択します。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">メモ</td>
+      <td>ユーザーのメモを入力します。 このメモは、ユーザーの招待メールに表示されます。</td>
+    </tr>
+  </tbody>
+</table>
 
 ユーザーは招待メールを受け取り、招待を承諾することができます。
+
+## チームにユーザーを追加する
+
+ユーザーは、チームを作成するとチームに割り当てられます。 既存のユーザーをチームに追加する必要がある場合は、チームのユーザーページで追加できます。
+
+チームへのユーザーの追加は、そのチームのページから処理されます。
+
+1. ユーザーを追加するチームに移動するには、左側のパネルで **組織** を選択し、組織ページの「**チーム**」タブをクリックして、チームを選択します。
+
+   または
+
+   別のチームのページを表示している場合は、ページ上部のチームドロップダウンをクリックします。
+
+1. （ページ上部にチーム名が表示される） チームのページで、「**ユーザー**」タブを選択します。
+1. ページ上でユーザーを見つけます。 組織内のユーザーは、チームのメンバーでなくても、このページに表示されます。
+1. ユーザーの名前の右側にある「**なし** をクリックし、チームに対してユーザーに持たせる役割を選択します。
+
+ユーザーがチームに追加されます。
