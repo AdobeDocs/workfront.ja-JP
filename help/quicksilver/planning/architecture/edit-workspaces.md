@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 8a4da96562b18977f56567f0fc5f72b369078432
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 55%
+source-wordcount: '546'
+ht-degree: 53%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
 <table style="table-layout:auto">
  <col>
@@ -85,6 +85,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 アクセス要件については、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
 
 ## ワークスペースの編集
 

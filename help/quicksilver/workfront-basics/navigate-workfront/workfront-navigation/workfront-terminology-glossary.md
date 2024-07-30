@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '20310'
+source-wordcount: '20384'
 ht-degree: 97%
 
 ---
@@ -303,7 +303,7 @@ ht-degree: 97%
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>これは非推奨のフィールドです。このフィールドに表示される情報はすべて、[!DNL Workfront]が削除した機能に関連しています。このフィールドは更新できません。 </p>
-   <p> このフィールドは、[!UICONTROL project] および [!UICONTROL tasks] のレポートとリストに引き続き表示されます。</p>  </td> 
+   <p> このフィールドは、[!UICONTROL プロジェクト ] のレポートおよびリストに引き続き表示されます。</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Cost]</td>
@@ -443,7 +443,7 @@ ht-degree: 97%
    <td>[!UICONTROL Budgeted Start Date]</td> 
   <td> <p>これは非推奨のフィールドです。このフィールドに表示される情報はすべて、[!DNL Workfront]が削除した機能に関連しています。このフィールドは更新できません。</p>
   <p>これらのエリアは[!DNL Workfront]から削除されました。 </p> 
-  <p>このフィールドは、[!UICONTROL project] および [!UICONTROL task] のレポートとリストに引き続き表示されます。</p>
+  <p>[!UICONTROL プロジェクト ] のレポートおよびリストには、フィールドが引き続き表示されます。</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1540,6 +1540,19 @@ Workfront では、時間エントリには次のいずれかのステータス�
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
    <td> <p>プロジェクトの [!UICONTROL Planned Labor Cost] と [!UICONTROL Planned Expense Cost] の合計。これには、プロジェクトに [!UICONTROL Planned Risk Cost] は含まれません。  </p> </td> 
+  </tr>
+
+
+
+<tr> 
+   <td>[!UICONTROL 予定日整合性 ]</td> 
+   <td> <p>これは、Workfrontがプロジェクト、タスクおよび問題を割り当て、予定完了日に対していつアイテムが完了するかを示す自動インジケーターです。 </p>
+   <p>予定日整合性インジケーターには、次の値が使用できます。 </p>
+<ul>
+<li>計画完了日に完了します</li>
+<li>計画完了日よりも前に完了します</li>
+<li>計画完了日以降に完了します</li></ul>
+<p>予定日付の整合性は、プロジェクト、タスク、問題のリストおよびレポートに表示されます。 </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 

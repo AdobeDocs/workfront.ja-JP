@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 60%
+source-wordcount: '635'
+ht-degree: 58%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -93,7 +93,7 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
 *詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-
++++
 
 ## ビューア <!--internally--> ットに対する権限の共有
 
@@ -141,8 +141,6 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
    >[!TIP]
    >
    >   共有されているビューには、表示アイコンの横に人物インジケーター ![](assets/view-shared-with-others-people-icon.png) 表示されます。 人物インジケーターのないビューは、作成したビューです。
-
-
 
 <!--
 ## Share permissions to a view publicly

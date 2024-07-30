@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 278d740303b0fa2f1d1b10801634ce76ce0f5739
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 29%
+source-wordcount: '280'
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 29%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
 <table style="table-layout:auto">
  <col>
@@ -82,6 +82,7 @@ ht-degree: 29%
  </tbody>
 </table>
 
++++
 
 ## アプリ内通知の管理
 

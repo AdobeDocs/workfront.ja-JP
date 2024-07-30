@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 86%
+source-wordcount: '347'
+ht-degree: 81%
 
 ---
 
@@ -48,7 +48,7 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
 <table style="table-layout:auto">
  <col>
@@ -75,9 +75,10 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>任意</p> 
+   <p>新規：標準</p>
+   <p>現在：プラン</p> 
   </td>
   </tr>
 
@@ -100,7 +101,9 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
  </tbody>
 </table>
 
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
++++
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
 workflow-type: tm+mt
-source-wordcount: '2515'
-ht-degree: 62%
+source-wordcount: '2510'
+ht-degree: 61%
 
 ---
 
@@ -47,7 +47,7 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
 <table style="table-layout:auto">
  <col>
@@ -102,6 +102,8 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
 *詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
++++
+
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -115,6 +117,8 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
 
 ## レコードタイプの連結に関する考慮事項
+
+<!--move this to the Connect record types overview article (new)-->
 
 * Workfront Planning では、次のエンティティを接続できます。
 

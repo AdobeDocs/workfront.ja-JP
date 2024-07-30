@@ -4,10 +4,10 @@ description: マーケティング業務のリーダーとして、Adobe Workfro
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 2%
+source-wordcount: '1672'
+ht-degree: 4%
 
 ---
 
@@ -145,7 +145,12 @@ AI アシスタントは現在ベータ版で利用でき、アカウントマ�
 
 ## API を使用して計画データを取り込むこともできますか？
 
-はい。既に利用可能な Planning API と Fusion コネクタがあります。 詳しくは、[Adobe Workfront Planning モジュール ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) を参照してください。 Workfront Planning API のドキュメントは、近日中に利用できるようになります。
+はい。既に利用可能な Planning API と Fusion コネクタがあります。
+
+詳しくは、次の記事を参照してください。
+
+* [Adobe Workfront Planning モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobe Workfront計画 API の基本](/help/quicksilver/planning/general/planning-api-basics.md)
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -197,4 +202,9 @@ Public views that are shared are visible  -->
 
 ## Adobeの DAM ではなく独自の DAM を使用するためのカスタマイズ可能な API はありますか？
 
-既に利用可能な Planning API と Fusion コネクタがあります。 詳しくは、[Adobe Workfront Planning モジュール ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) を参照してください。 Workfront Planning API のドキュメントは、近日中に利用できるようになります。 API を使用してカスタム統合を作成できます。
+はい。Workfront Planning のパブリック API と Fusion コネクタを使用できます。 API を使用してカスタム統合を作成できます。
+
+詳しくは、次の記事を参照してください。
+
+* [Adobe Workfront Planning モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobe Workfront計画 API の基本](/help/quicksilver/planning/general/planning-api-basics.md)
