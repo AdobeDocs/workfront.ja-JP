@@ -6,10 +6,10 @@ description: ブラウザーの言語設定と Workfront 内のデフォルト�
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 3d2e1dd5121b2495f984bed1ec1b9939de89f175
+source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
 workflow-type: tm+mt
-source-wordcount: '859'
-ht-degree: 100%
+source-wordcount: '1022'
+ht-degree: 79%
 
 ---
 
@@ -32,7 +32,7 @@ Workfront は、次の言語をサポートしています。
 * 中国語 - 簡体字（zh-CN）
 *   中国語 - 繁体字（zh-TW）
 
-ブラウザーで Workfront を表示する際に使用する言語は、ブラウザーの言語設定で制御します。サポート対象の言語の一覧に表示されているブラウザーの言語を選択していることを確認します。
+ブラウザーでWorkfrontを表示する際に使用する言語は、組織が IMS に準拠していない場合はブラウザーの言語設定によって、組織が IMS に準拠していない場合はAdobe Experience Cloud プロファイル言語によって制御されます。 どちらの場合も、「サポートされる言語」リストに表示されている言語を選択していることを確認してください。
 
 サポートされている言語のいずれかで送信メールを表示するには、Workfront のユーザーのメールロケールまたは顧客情報の設定を変更します。\
 顧客情報の設定を変更するには、Workfront 管理者である必要があります。\
@@ -97,22 +97,34 @@ Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](.
 
 以下の設定を変更することで、Workfront を表示する言語と送信メールの言語を変更できます。
 
-* ブラウザーの言語
+* ブラウザーの言語（IMS 以外のユーザー用）
+* AEM プロファイルのプライマリおよびセカンダリ言語（IMS 上のユーザー用）
 * Workfront アカウントの「顧客情報」および「ユーザーメールのロケール」設定。
 
 選択した言語で使用可能なすべての翻訳を表示するには、Workfront のロケールとブラウザーのロケールの両方を同じ言語に設定する必要があります。
 
 * [ブラウザーの言語の変更](#change-the-browser-language)
+* [Adobe Experience Cloudの言語の変更](#change-the-adobe-experience-cloud-language)
 * [Workfront とユーザーのメールロケールの変更](#change-the-workfront-and-user-locales)
 
 ### ブラウザーの言語の変更 {#change-the-browser-language}
 
-ブラウザーの言語を変更すると、Workfront インターフェイスはその言語で表示されます。\
+組織が IMS 上にない場合、ブラウザーの言語を変更すると、Workfront インターフェイスはその言語で表示されます。\
 Workfront でサポートされている言語について詳しくは、[Adobe Workfront でサポートされている言語](#supported-languages)を参照してください。
 
 ブラウザーの言語は、個々のユーザー単位で変更する必要があります。
 
 ブラウザーの言語を変更する方法について詳しくは、ブラウザーの「ヘルプ」メニューを参照してください。
+
+## Adobe Experience Cloudの言語の変更
+
+組織が IMS 上にある場合、Workfrontに表示される言語はAdobe Experience Cloud プロファイル言語によって決まります。
+
+1. Adobe Experience Cloud ツールバーの右端にあるプロフィール写真をクリックし、「環境設定 **をクリックし** す。 Adobe Experience Cloud ツールバーは、メインのWorkfront ツールバーのすぐ上にあります。
+
+1. **プロファイル** の下の自分の名前とメールアドレスの下で、現在選択されている言語の名前をクリックします。
+
+1. ドロップダウンで優先言語 **第 1 言語** と **第 2 言語** を選択します。 第 1 言語はデフォルトの言語の選択ですが、第 2 言語は、第 1 言語が特定のアプリケーションでサポートされていない場合にのみ表示されます。
 
 ### Workfront とユーザーのメールロケールの変更 {#change-the-workfront-and-user-locales}
 
