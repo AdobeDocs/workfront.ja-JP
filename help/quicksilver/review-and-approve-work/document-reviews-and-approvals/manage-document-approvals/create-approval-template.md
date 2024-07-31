@@ -6,7 +6,7 @@ description: 承認テンプレートを作成すると、承認プロセスを�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 88%
@@ -61,6 +61,7 @@ Workfront の設定エリアで、標準ライセンスを持つユーザーは�
    |----------------------------|---|
    | **（オプション）期間** | 期間を日数で入力します。テンプレートがアセットに適用されると、承認期限がこのフィールドから計算されます。 |
    | **承認者またはレビュアーの追加** | ユーザーまたはチームの名前を入力していき、それらをレビュアーまたは承認者として指定します。 |
+
 1. 「**保存**」をクリックします。
 
 
