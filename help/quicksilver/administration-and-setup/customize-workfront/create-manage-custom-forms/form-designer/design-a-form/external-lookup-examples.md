@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 94957250387012738f2ef4c80864d51bdc2d792f
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 98%
+source-wordcount: '1046'
+ht-degree: 90%
 
 ---
 
@@ -21,11 +21,13 @@ ht-degree: 98%
 
 この記事では、「外部ルックアップ」フィールドを使用して Workfront またはパブリック API の同じインスタンスを呼び出す例を示します。また、外部ルックアップを使用して、Jira、Salesforce または ServiceNow などの外部システムと通信することもできます。
 
-外部参照フィールドは、新しいフォームデザイナーでのみ使用でき、従来のフォームビルダーでは使用できません。 カスタムフォームに「外部ルックアップ」フィールドを追加する方法と、外部ルックアップコンポーネントの追加定義について詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームに「外部ルックアップ」フィールドを追加する方法と、外部ルックアップコンポーネントの追加定義について詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## Workfront の同じインスタンスに対して「外部ルックアップ」フィールドを設定
 
 外部ルックアップを使用して、Workfront インスタンスからカスタムフォームにデータを取り込むことができます。
+
+### 外部検索でのネイティブのWorkfront フィールド値の使用
 
 この例では、Workfront API を呼び出して、既存の「ステータスクエリ」フィールドから「外部ルックアップ」フィールドにデータを取り込む方法を示します。
 
@@ -69,6 +71,43 @@ ht-degree: 98%
    ![「外部ルックアップ」フィールドを含むカスタムフォーム](assets/external-lookup-project-status-example1.png)
 
    ![ステータスに基づく「外部ルックアップ」オプション](assets/external-lookup-project-status-example2.png)
+
+### 外部参照でのカスタムフィールド値の使用
+
+この例では、Workfront API を呼び出し、カスタムフィールドから外部参照フィールドにデータを取り込む方法を示しています。 例えば、カスタムフィールドは「Custom Colors」と呼ばれます。
+
+1. カスタムフォームを開きます。
+1. 画面の左側で、「**外部ルックアップ**」を見つけて、キャンバス上のセクションにドラッグします。
+1. フィールドの&#x200B;**ラベル**&#x200B;と&#x200B;**名前**&#x200B;を入力します。
+1. フィールドの&#x200B;**形式**&#x200B;を選択します。
+1. API の URL 呼び出しを「**ベース API の URL**」フィールドに入力します。
+
+   **例**
+   `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
+
+1. このルックアップフィールドが API で参照しているフィールドの&#x200B;**依存関係**&#x200B;を確認します。
+
+   「依存関係」フィールドには、オブジェクトの詳細ページに存在する任意のカスタムフィールドまたはネイティブフィールドを使用できます。
+
+1. 「**HTTP メソッド**」を選択します。
+
+   これは、ほとんどの場合、**Get** になります。
+
+1. **JSON パス**&#x200B;を入力して、API 呼び出しの結果を取得します。
+
+   **例**
+   `$.data[*].parameterValues.["DE:Combo Colors"]`
+
+   * 「parameterValues」は、操作しているオブジェクトのWorkfront内のカスタムフィールドを指します。
+   * 例えば、「DE:Combo Colors」は、取得する値を含む特定のカスタムフィールドです。
+
+   >[!NOTE]
+   >
+   >同じ Workfront インスタンスに対して呼び出しを行う場合は、**ヘッダー**&#x200B;の情報は必要ありません。
+
+1. 「**適用**」をクリックします。
+
+   カスタムフォームがWorkfront オブジェクトに追加されると、「コンボカラー」フィールドのすべての値が外部検索フィールドドロップダウンに表示されます。
 
 ## パブリック API 用の「外部ルックアップ」フィールドの設定
 
