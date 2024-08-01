@@ -4,10 +4,11 @@ description: 2024年第 4 四半期のリリース期間中のルックアンド
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 76b44f3d5ff7d7747da801a051a457157e08ea4a
+exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 57%
+source-wordcount: '336'
+ht-degree: 27%
 
 ---
 
@@ -16,6 +17,37 @@ ht-degree: 57%
 このページでは、2024年第 4 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模なアップデートについて説明しています。
 
 2024年第 4 四半期リリースで利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
+
+## 「ユーザーを削除」および「ユーザーを非アクティブ化」メッセージのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 8 月 1 日（PT）、高速リリースの実稼動：24.8 リリース（2024 年 8 月）の実稼動、四半期リリースの実稼動：24.10 リリース（2024 年 10 月）の実稼動
+
+ユーザーを削除または非アクティブ化する際に表示される「ユーザーを削除」および「ユーザーを非アクティブ化」の確認メッセージが更新され、Workfrontの他の領域と一致する、より現代的なデザインに変更されました。
+
+ユーザーの削除と無効化について詳しくは、[ ユーザーの削除 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) および [ ユーザーの無効化または再アクティブ化 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) を参照してください。
+
+## 削除タスクメッセージのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024年7月26日（PT）、すべての顧客向けの実稼動版リリース：2024年8月8日（PT）
+
+タスクを削除する際に表示される「タスクを削除」の確認メッセージが更新され、Workfrontの他の領域と一致する、より現代的なデザインに変更されました。
+
+タスクの削除について詳しくは、[ タスクの削除 ](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md) を参照してください。
+
+
+## リソースプールページのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 7 月 25 日（PT）、高速リリースの実稼動：24.8 リリース（2024 年 8 月）の場合、四半期リリースの実稼動：24.10 リリース（2024 年 10 月）の場合
+
+リソースプールページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
+
+詳しくは、[ リソースプールの作成 ](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) を参照してください。
 
 ## 通知ページのルックアンドフィールの更新
 

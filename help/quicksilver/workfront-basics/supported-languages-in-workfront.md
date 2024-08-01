@@ -6,16 +6,16 @@ description: ブラウザーの言語設定と Workfront 内のデフォルト�
 feature: Get Started with Workfront
 author: Caroline
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 02e1160cc56d92053c36d2aa19a8fc290467dd71
+source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 79%
+source-wordcount: '1037'
+ht-degree: 75%
 
 ---
 
 # Adobe Workfront でサポートされている言語
 
-ブラウザーの言語設定と Workfront 内のデフォルトのメールロケールを調整することで、Adobe Workfront とWorkfront からのメールを表示する言語を変更できます。
+ブラウザー（IMS 上にない場合）またはAdobe Experience Cloud プロファイルの言語環境設定（IMS 上にある場合）およびWorkfront内のデフォルトのメールのロケールを調整することで、WorkfrontおよびAdobe Workfrontからのメールを表示する言語を変更できます。
 
 Workfront の用語は、Workfront が更新されるたびに、サポート対象の言語に合わせて更新されます。
 
