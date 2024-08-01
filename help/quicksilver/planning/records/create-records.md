@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 64%
+source-wordcount: '930'
+ht-degree: 57%
 
 ---
 
@@ -22,8 +22,9 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 次のいずれかを行うことで、レコードを作成できます。
 
-* レコードタイプに対応するレコード手動で作成します。
-* 外部リストから情報をコピー＆ペーストして、レコードを作成します。
+* レコードタイプページから追加します
+* 外部リストからのレコードのリストのコピー&amp;ペースト
+* 複製
 
 この記事では、レコードの作成方法について説明します。テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
 
@@ -95,7 +96,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## レコードタイプにレコードを手動で追加してレコードを作成 <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## レコードタイプ <!--in a record type table (I don't think you can create them elsewhere right now)--> に追加してレコードを作成
 
 レコードタイプのページのテーブルビューでレコードを作成できます。
 
@@ -118,7 +119,8 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
       * テーブルの最後の行にある「**新規レコード**」をクリックします
 
-      * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。この場合は、空の行が追加されます。
+      * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。これにより、開始レコードの下に空の行が追加されます。
+      * レコードの主フィールドにポインタを合わせ、フィールドの右側にある **詳細** メニュー ![](assets/more-menu.png) をクリックして、「**上にレコードを挿入**」または **下にレコードを挿入** をクリックします。
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -179,7 +181,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## 外部リストから情報をコピー＆ペーストしてレコードを作成する
+## 外部リストからレコードをコピー&amp;ペーストして作成
 
 1. この記事の[レコードタイプにレコードを手動で追加してレコードを作成](#create-records-by-manually-adding-them-to-a-record-type)の節の説明に従って、テーブルビューでレコードの作成を開始します。
 
@@ -207,3 +209,8 @@ You can import records from other applications by linking them to existing recor
 
    * 行には新しいレコードが含まれています
    * 列には、レコードのフィールドに関する情報が入力されます。
+
+
+## レコードを複製して作成
+
+レコードの複製について詳しくは、「[ レコードの複製 ](/help/quicksilver/planning/records/copy-or-duplicate-records.md)」を参照してください。

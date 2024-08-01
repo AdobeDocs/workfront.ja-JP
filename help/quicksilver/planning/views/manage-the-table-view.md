@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '2598'
-ht-degree: 78%
+source-wordcount: '2630'
+ht-degree: 75%
 
 ---
 
@@ -135,9 +135,8 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 テーブルビューには最大 500 個のフィールド（または列）を追加できます。
 
-1. レコードタイプのページに移動し、ビュードロップダウンメニューから&#x200B;**テーブル**&#x200B;ビューを選択します。
+1. レコードタイプページに移動してテーブルビュータブをクリックするか、**+ ビュー** をクリックして新しいビューを追加してから、**テーブル** を選択します。
 
-   <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. [フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)の記事の説明に従って、フィールド（または列）の追加を開始します。
 
    追加した列は、レコードタイプにアクセスするすべてのユーザーに表示され、レコードのページに新しいフィールドとして追加されます。
@@ -213,9 +212,8 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 1 つのレコードタイプに対して最大 50,000 個のレコード（または行）を指定できます。
 
-1. レコードタイプページに移動し、ビュードロップダウンメニューから「**テーブル**」ビューを選択します。
+1. レコードタイプページに移動してテーブルビュータブをクリックするか、**+ ビュー** をクリックして新しいビューを追加してから、**テーブル** を選択します。
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. [レコードの作成](/help/quicksilver/planning/records/create-records.md)の記事の説明に従って、レコード（または行）の追加を開始します。
 
    テーブルビューで追加したレコードはすぐに保存され、ワークスペースに対する表示以上の権限を持つすべてのユーザーに表示されます。
@@ -229,13 +227,8 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
    >[!NOTE]
    >
    >テーブルビューに少なくとも 1 つの並べ替えが適用されていると、行の並べ替えを行うことができません。
-
-   <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+   >
+   >行順序に加えた変更は、レコードタイプにアクセスするすべてのユーザーに表示されます
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -243,7 +236,8 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 フィルターを使用すると、画面に表示される情報の量を減らすことができます。
 
-テーブルビューでフィルターを使用する場合は、次の点を考慮してください。
+テーブル表示でフィルターを使用する場合は、次の点に注意してください。
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * テーブルビュー用に作成したフィルターは、同じレコードタイプに適用された場合、タイムラインビューのフィルターとは独立して機能します。

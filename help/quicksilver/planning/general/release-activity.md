@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '5528'
-ht-degree: 48%
+source-wordcount: '5654'
+ht-degree: 47%
 
 ---
 
@@ -39,24 +39,12 @@ Workfront計画プログラムは、2023 年 5 月 22 日（PT）から開始さ
 
 Workfront Planning は、2024 年 1 月以降、プレビュー環境とサンドボックス環境から一時的に削除されています。 この記事で説明されている機能はすべて、現在、実稼動環境で使用できます。
 
-## 2024年7月29日（PT）の週
-
-### Adobe Workfront Planning パブリック API が利用できるようになりました
-
-実稼動：2024 年 7 月 30 日（PT）
-
-プレビュー：未決定
-
-Adobe Workfront Planning パブリック API が利用できるようになりました。
-
-詳しくは、[Adobe Workfront計画 API の基本 ](/help/quicksilver/planning/general/planning-api-basics.md) を参照してください。
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -71,6 +59,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## 2024年7月29日（PT）の週
+
+### Adobe Workfront Planning パブリック API が利用できるようになりました
+
+実稼動：2024 年 7 月 30 日（PT）
+
+プレビュー：未決定
+
+Adobe Workfront Planning パブリック API が利用できるようになりました。
+
+詳しくは、[Adobe Workfront計画 API の基本 ](/help/quicksilver/planning/general/planning-api-basics.md) を参照してください。
+
+### テーブル表示でのレコードの挿入と複製
+
+実稼動版：2024年8月1日（PT）
+プレビュー版：未定
+
+テーブルビューでレコードを操作する際には、次の機能が導入されました。
+
+* レコードの複製：既存のレコードを複製することで、レコードをすばやく作成できます。  同一のレコードが作成されます。 この機能は、テーブル表示でのみ使用できます。
+
+* テーブル ビューで、新しいレコードを既存のレコードの上または下に挿入できます。 この機能強化の前は、テーブルビューの下部にあるレコードのみを追加していました。
+
+次の領域から新しい機能を実行できます。
+
+* レコードの詳細メニュー
+
+* テーブルビューのレコードページの下部に追加された新しいツールバー
+
+詳しくは、[ レコードの作成 ](/help/quicksilver/planning/records/create-records.md) を参照してください
+
 
 ## 2024年7月8日（PT）の週
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
 workflow-type: tm+mt
-source-wordcount: '110'
-ht-degree: 89%
+source-wordcount: '112'
+ht-degree: 87%
 
 ---
 
@@ -37,6 +37,7 @@ Adobe Workfront Planning でレコードタイプを作成した後、それら�
 * [レコードの削除](/help/quicksilver/planning/records/delete-records.md)
 * [レコードの共有](/help/quicksilver/planning/records/share-records.md)
 * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
+* [重複レコード](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
 * [レコードのコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)
 * [履歴セクションの概要](/help/quicksilver/planning/records/history-section-overview.md)
 * [レコードにサムネールを追加する](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
