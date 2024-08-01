@@ -2,14 +2,14 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: リソースプールとユーザーを関連付ける
-description: リソースプールとユーザーを関連付ける
-author: Alina
+description: リソース プールをユーザーに関連付けるには、事前に作成する必要があります。 リソースプールを作成すると、ユーザーをリソースプールに関連付けることができます。
+author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 100%
+source-wordcount: '512'
+ht-degree: 97%
 
 ---
 

@@ -3,17 +3,19 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: リソースプールからのユーザーの削除
 description: リソースプールに含めることのできるユーザー数に制限はありませんが、ユーザーのリストには最初の 2000 ユーザーのみが、アルファベット順に表示されます。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 00afc0cbc58fce34059302dfeb8847cfacb9c7e4
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '401'
+ht-degree: 91%
 
 ---
 
 # リソースプールからのユーザーの削除
+
+{{highlighted-preview}}
 
 リソースプールに含めることのできるユーザー数に制限はありませんが、ユーザーのリストには最初の 2000 ユーザーのみが、アルファベット順に表示されます。
 
@@ -22,6 +24,8 @@ ht-degree: 100%
 リソースプールについて詳しくは、[ リソースプールの概要](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -51,23 +55,30 @@ ht-degree: 100%
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
++++
+
 ## リソースプールからユーザーを削除
 
 ユーザーがリソースプールで不要になった場合は、そのユーザーをリソースプールから削除できます。
 
 リソースプールからユーザーを削除するには、次の手順に従います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-resourcing}}
 
-1. 「**リソース**」をクリックします。
 1. 左側のパネルで「**リソースプール**」をクリックします。
-1. リソースプールを選択し、「**編集」をクリックします。**または\
+1. リソースプールを選択し、「**編集**」をクリックします。
+または\
    リソースプールの名前をクリックします。
 
 1. 削除するユーザーの名前を「**このリソースプール内を検索**」フィールドに入力します。\
    または\
-   エンティティに関連付けられているすべてのユーザーを削除する場合は、会社、担当業務、チーム、またはグループの名前を入力します。\
-   ![search_inside_NEW_resource_pool.png](assets/search-inside-new-resource-pool-350x314.png)
+   エンティティに関連付けられているすべてのユーザーを削除する場合は、会社、担当業務、チーム、またはグループの名前を入力します。
+
+   <span class="preview"> プレビュー環境のサンプル画像：<span>
+   <span class="preview">![ リソース プールからユーザーを削除 ](assets/remove-users-from-resource-pool.png)<span>
+
+   実稼動環境のサンプル画像：
+   ![ リソース プール内の検索 ](assets/search-inside-new-resource-pool-350x314.png)
 
 1. ユーザーレベルで「x」アイコンをクリックして、リソースプールからユーザーを削除します。 それらは、表示されるすべてのリストから削除されます。\
    または\

@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: business rules
 title: ビジネス・ルールの作成と編集
-description: 新しい Workfront 機能を毎月受け取るか、四半期ごとに受け取るかを選択できます。
+description: ビジネス・ルールを使用すると、Workfrontオブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ビジネスルールは、データの整合性を損なう可能性のあるアクションを防ぐことで、データ品質と運用効率の向上に役立ちます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: cbfd30bb64be6a70b27a34068b93d566515434be
+source-git-commit: 49126ecec4a90c32139b49ee3dc37ce6671bb1d1
 workflow-type: tm+mt
-source-wordcount: '1056'
-ht-degree: 6%
+source-wordcount: '1083'
+ht-degree: 4%
 
 ---
 

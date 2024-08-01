@@ -3,10 +3,10 @@ product-area: resource-management
 navigation-topic: resource-pools
 title: リソースプールとプロジェクトおよびテンプレートを関連付ける
 description: リソースプールは、Adobe Workfront でのリソースの管理に役立つ、ユーザーのコレクションです。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: 171ccfe5d2bc9825c9cdb195df1a97a32e515646
+source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 100%
