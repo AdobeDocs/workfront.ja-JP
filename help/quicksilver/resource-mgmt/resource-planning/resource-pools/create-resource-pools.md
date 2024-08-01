@@ -6,10 +6,10 @@ description: リソースプールは、Adobe Workfrontでリソースをより�
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: ca882fbb8b29fc728d9c688c6c671cfdf677c2cb
+source-git-commit: beec2ea4cdfcb89bf8f786a7ab2edeb804a6fbad
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 77%
+source-wordcount: '602'
+ht-degree: 81%
 
 ---
 
@@ -93,14 +93,14 @@ ht-degree: 77%
     </tbody>
    </table>
 
-1. （オプション） **取り消し** リンクを使用して、グループ、チーム、会社、担当業務を通じて追加されたユーザーを削除します。 <span class="preview"> （プレビュー環境では、取り消し機能は一時的に使用できません） </span>
+1. （オプション）グループ、チーム、会社、または担当業務を通じて追加されたユーザーを削除するための&#x200B;**取り消し**&#x200B;リンクを使用します。
 
    >[!NOTE]
    >
    >リソースプール内のユーザー数に制限はありません。ただし、リソース管理が課題になる可能性があるので、リソースプールに多くのユーザーを追加しすぎないようにすることをお勧めします。ユーザーのリストには、リソースプール内の最初の 2,000 人のユーザーがアルファベット順で表示されます。
 
    <span class="preview"> プレビュー環境のサンプル画像：</span>
-   <span class="preview">![ リソース プールに追加されたユーザー ](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![ リソース プールに追加されたユーザー ](assets/users-in-resource-pool2.png)</span>
 
    実稼動環境のサンプル画像：
    ![ リソース プールに追加されたユーザー ](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
