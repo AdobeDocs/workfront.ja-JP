@@ -7,10 +7,10 @@ description: 現在、Adobe Workfront Fusion では、次のパブリックテ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: e569469c2b5e0ba40569ef86043294acae7a6aa8
+source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 98%
+source-wordcount: '1257'
+ht-degree: 92%
 
 ---
 
@@ -29,6 +29,12 @@ ht-degree: 98%
 ### [!BADGE 新規]{type=Informative}
 
 この Fusion テンプレートは、特定のボードで特定の列に時間をかけて入力するすべてのカードの標準チェックリストを作成します。
+
+### [!BADGE 新規]{type=Informative}
+
+<!--new Aug 1. 2024-->
+
+このシナリオは、新しいプロジェクトが作成されることでトリガーされます。 このシナリオでは、プロジェクトにちなんで名前の付いたボードを作成し、必要に応じて列の名前を変更または作成し、カスタムタグを作成し、取り込み列フィルターを元のプロジェクトに関連付けることができます。  何千もの変更を加えることができますが、ここから始めて、組織のボード標準化の出発点を作成する可能性を確認できます。
 
 ### Workfront - CSV からのプロジェクト作成
 
