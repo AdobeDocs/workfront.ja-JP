@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 27%
@@ -28,6 +28,16 @@ ht-degree: 27%
 
 ユーザーの削除と無効化について詳しくは、[ ユーザーの削除 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) および [ ユーザーの無効化または再アクティブ化 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) を参照してください。
 
+## リソースプールページのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 8 月 1 日（PT）、高速リリースの実稼動：24.8 リリース（2024 年 8 月）の実稼動、四半期リリースの実稼動：24.10 リリース（2024 年 10 月）の実稼動
+
+リソースプールページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
+
+詳しくは、[ リソースプールの作成 ](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) を参照してください。
+
 ## 削除タスクメッセージのルックアンドフィールの更新
 
 >[!NOTE]
@@ -37,17 +47,6 @@ ht-degree: 27%
 タスクを削除する際に表示される「タスクを削除」の確認メッセージが更新され、Workfrontの他の領域と一致する、より現代的なデザインに変更されました。
 
 タスクの削除について詳しくは、[ タスクの削除 ](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md) を参照してください。
-
-
-## リソースプールページのルックアンドフィールの更新
-
->[!NOTE]
->
->プレビューリリース：2024 年 7 月 25 日（PT）、高速リリースの実稼動：24.8 リリース（2024 年 8 月）の場合、四半期リリースの実稼動：24.10 リリース（2024 年 10 月）の場合
-
-リソースプールページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
-
-詳しくは、[ リソースプールの作成 ](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) を参照してください。
 
 ## 通知ページのルックアンドフィールの更新
 
