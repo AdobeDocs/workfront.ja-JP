@@ -6,10 +6,10 @@ hide: true
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 65%
+source-wordcount: '800'
+ht-degree: 52%
 
 ---
 
@@ -37,15 +37,17 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 
 * ワークスペース
 
-  ワークスペースを共有すると、ワークスペースに関連付けられているすべてのレコードタイプ、レコード、フィールドも共有されます。ビューは共有されません。
+   * 組織内のユーザーとワークスペースを共有できます。
+   * ワークスペースを共有すると、ワークスペースに関連付けられているすべてのレコードタイプ、レコード、フィールドも共有されます。ビューは共有されません。
 
 * ビュー
 
-   * ワークスペースへのアクセス権限とは別に、ビューへのアクセス権限をユーザー（システム管理者を含む）に付与する必要があります。 詳しくは、[ ビューの共有 ](/help/quicksilver/planning/access/share-views.md) を参照してください。
-     <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-     <!--move the link above to the end of this section-->
+   * ワークスペースへのアクセス権限とは別に、ビューへのアクセス権限をユーザー（システム管理者を含む）に付与する必要があります。
+   * ビューに公開リンクを生成すると、組織外のユーザーとビューを公開で共有できます。公開リンクからレコードページにアクセスしたユーザーは、接続されたレコードやフィールドを含むすべてのレコードとそのフィールドを表示できます。
 
-ワークスペースまたはビューは次のエンティティと共有できます。
+  詳しくは、[ ビューの共有 ](/help/quicksilver/planning/access/share-views.md) を参照してください。
+
+内部的には、次のWorkfront エンティティとワークスペースまたはビューを共有できます。
 
 * ユーザー
 * グループ
@@ -59,15 +61,12 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 * システム管理者を含む他のユーザーは、自分が作成したビューまたは自分と共有されているビューにのみアクセスできます。システム管理者には、ビューの管理権限のみを付与できます。
 * ワークスペースまたはビューへのリンクを他のユーザーと共有できます。
 
-  リンクを受け取ったユーザーが、選択したビューに表示されるワークスペースまたはレコードタイプのページにアクセスできるようにするには、そのユーザーはアクティブユーザーであり、Workfront にログインする必要があります。
+  次のシナリオが存在します。
+   * ワークスペースへのリンクを受け取ったユーザーは、アクティブユーザーであり、ワークスペースにアクセスするためにWorkfrontにログインする必要があります。
+   * ビューへのリンクを受け取ったユーザーは、次の方法でビューにアクセスできます。
 
-  <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
-    The following scenarios exist:
-        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
-        * Users who receive the link to a view can access the view in the following ways: 
-        
-            * Must be active users and log in to Workfront
-            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
+      * ビューへのリンクが内部的に共有されている場合、アクティブユーザーで、Workfrontにログインする必要があります。
+      * Workfrontの外部ユーザーであり、Workfrontにログインすることなく、公開共有リンクからビューにアクセスできる。
 
 ## Adobe Workfront Planning オブジェクトに対する権限の共有
 
@@ -156,37 +155,25 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 * 行の高さ
 * 設定
 
-
-<!--You can share views internally or publicly. -->
+ビューは、内部または公開で共有できます。
 
 ビューおよびビュー要素のアクセス許可のレベルは次のとおりです。
 
-|        | 管理（招待されたユーザーのみがアクセスできます） | 表示（招待されたユーザーのみがアクセスできます） | ワークスペース内の全員が表示* |
+| 内部共有 | 管理（招待されたユーザーのみがアクセスできます） | 表示（招待されたユーザーのみがアクセスできます） | ワークスペース内の全員が表示* |
 |--------|--------|-------|------------------------------|
 | 編集 | ✓ |       |                            |
 | 削除 | ✓ |       |                            |
 | 共有 | ✓ |       |                           |
 | 表示 | ✓ | ✓ | ✓ |
-| ビューへのアクセス | ✓ | ✓ | ✓ |
-| 一時的なフィルター、グループ化、並べ替えの適用 | ✓ | ✓ | ✓ |
+| 適用 | ✓ | ✓ | ✓ |
+
+| パブリック共有 | 表示 |
+|--------|-------|
+| 表示 | ✓ |
+| 適用 | ✓ |
 
 *この表示アクセス権を取得するには、ユーザーはワークスペースに対する表示以上の権限を持っている必要があります。
 
-<!--Replace the table above with the following when public sharing releases: 
-
-|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
-|--------|--------|-------|------------------------------|
-| Edit   | ✓      |       |                            |
-| Delete | ✓      |       |                            |
-| Share  | ✓       |       |                           |
-| View   | ✓      | ✓     | ✓                         |
-| Apply  | ✓      | ✓     | ✓                          |
-
-|   Public sharing      | View  |
-|--------|-------|
-| View   | ✓     |
-| Apply  | ✓     |
--->
 
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
@@ -196,5 +183,15 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |    
+| Apply  | ✓      | ✓     |  
+
+
+|        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Access the view  | ✓      | ✓     | ✓                          |
+| Apply temporary filters, groupings, sort  | ✓      | ✓     | ✓                          |
 -->

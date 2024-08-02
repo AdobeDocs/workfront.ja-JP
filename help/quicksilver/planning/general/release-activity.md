@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
 workflow-type: tm+mt
-source-wordcount: '5654'
-ht-degree: 47%
+source-wordcount: '5786'
+ht-degree: 46%
 
 ---
 
@@ -38,27 +38,6 @@ Workfront計画プログラムは、2023 年 5 月 22 日（PT）から開始さ
 リリースされた機能は、リリースされた順序で一覧表示され、最新の機能が最初に表示されます。Workfront計画プログラムに参加しているお客様は、実稼動環境のすべての機能にアクセスできます。
 
 Workfront Planning は、2024 年 1 月以降、プレビュー環境とサンドボックス環境から一時的に削除されています。 この記事で説明されている機能はすべて、現在、実稼動環境で使用できます。
-
-<!--
-### Share Workfront Planning views publicly
-
-(***************ensure this is available for *********ALL************** the views and not just the table---***********)
-
-Production: <date>
-
-Preview: To be determined 
-
-To work seamlessly with external stakeholders, you can now share record views with others from outside your organization. You can share a public link to the view you want others to have access to.  
-
-The following capabilities are included with this update: 
-
-* Share the view of a record type page with a public link that would expire on a specific date. 
-
-* The shared link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
-
-* People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
-
-For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
 
 ## 2024年7月29日（PT）の週
 
@@ -91,6 +70,23 @@ Adobe Workfront Planning パブリック API が利用できるようになり�
 
 詳しくは、[ レコードの作成 ](/help/quicksilver/planning/records/create-records.md) を参照してください
 
+### Workfrontの計画ビューの一般公開
+
+実稼動：2024 年 8 月 2 日（PT）
+
+プレビュー：未決定
+
+外部の関係者とシームレスに連携するために、組織外の他のユーザーとレコードビューを共有できるようになりました。 他のユーザーがアクセスできるようにするビューへの公開リンクを共有できます。
+
+この更新には、次の機能が含まれています。
+
+* 特定の日付に期限が切れる公開リンクで、レコードタイプのページのビューを共有します。
+
+* 共有リンクには、会社外のユーザーが期間限定でアクセスできます（有効期限で示される）。 共有ビューを表示するためにログインする必要はありません。
+
+* 公開リンクからビューにアクセスするユーザーは、他のビューの作成、共有ビューの編集、レコード情報の追加、削除、編集を行うことはできません。
+
+詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
 ## 2024年7月8日（PT）の週
 

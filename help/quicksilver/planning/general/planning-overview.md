@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: eac37369a79303c1477d95aeb9f560aa0089da75
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '1994'
-ht-degree: 81%
+source-wordcount: '2001'
+ht-degree: 80%
 
 ---
 
@@ -87,6 +87,7 @@ Workfront Planning で使用可能な主な機能と、その使用可能なタ�
 | レコードのページのレイアウトを更新 | ✓ |                                 |                  |
 | ワークスペースの共有 | ✓ | |  |
 | ビューの共有 | ✓ | |  |
+| 外部リソースと公開でビューを共有 | ✓ | |  |
 | ビューを複製 | ✓ | |  |
 | リクエストの送信 |                               |                                  | ✓ |
 | クリエイティブ概要 |                               |                                  | ✓ |

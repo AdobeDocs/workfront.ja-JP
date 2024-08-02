@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: 1ffd8a3dbb31154186dc37132c7e77c35de42ac3
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 58%
+source-wordcount: '1020'
+ht-degree: 39%
 
 ---
 
@@ -27,10 +27,8 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
 次のエンティティでビューを共有できます。
 
-* Workfront ユーザー
-* Workfront グループ
-<!--* Publicly, with users outside Workfront
--->
+* 内部的には、Workfrontのユーザーとグループを使用
+* 公開（Workfront以外のユーザーを使用）
 
 ## アクセス要件
 
@@ -95,9 +93,21 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
 +++
 
-## ビューア <!--internally--> ットに対する権限の共有
+## ビューを共有する際の考慮事項
 
-自分が作成したビュー、または自分に管理権限を持つビューを共有で <!--with users or groups in Workfront--> ます。
+* ビューに対する表示権限または管理権限を、Workfrontの内部ユーザーに付与できます。
+
+* 管理権限を持つユーザーは、表示設定の変更、共有、複製、削除を行うことができます。
+
+* パブリック リンクを使用して、組織外のユーザーとビューを共有できます。
+
+* ビューを公開して共有した場合、リンクには、会社外のユーザーが限られた期間（有効期限が示す）アクセスできます。 共有テーブルビューを表示するためにログインは必要ありません。
+
+* ビューへのアクセス権を持つ組織外のユーザーは、他のビューの作成、共有ビューの編集、テーブルのレコード情報の追加、削除、編集を行うことはできません。
+
+## ビューへの権限を内部的に共有
+
+自分が作成したビューや、管理権限を持つビューを、Workfrontのユーザーまたはグループと共有できます。
 
 >[!NOTE]
 >
@@ -115,14 +125,14 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   <!--The Internal sharing tab should be selected by default.-->
+   「**内部共有**」タブは、デフォルトで選択されている必要があります。
 
-1. （オプション）次のオプションから選択して、ビューを共有します。
+1. （オプション） **アクセスできるユーザー** 領域で、次のオプションから選択します。
 
    * **招待されたユーザーのみがアクセスできます**：ビューを共有するユーザーまたはグループを指定する必要があります。 これはデフォルトのオプションです。
    * **ワークスペース内の全員が表示できます**：ワークスペースに対する表示以上の権限を持つすべてのユーザーが、ビューにアクセスできます。
 
-1. 「**表示アクセスの許可**」フィールドにユーザーまたはグループの名前の入力を開始し、リストに表示されたらクリックします。 <!--***********replace screen shot below when public sharing is released***********-->
+1. 「**次に対する表示アクセス権を付与**」フィールドにユーザーまたはグループの名前を入力していき、リストに表示されたらクリックします。
 
    ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -142,45 +152,41 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
    >
    >   共有されているビューには、表示アイコンの横に人物インジケーター ![](assets/view-shared-with-others-people-icon.png) 表示されます。 人物インジケーターのないビューは、作成したビューです。
 
-<!--
-## Share permissions to a view publicly
+## ビューに対する権限のパブリックへの共有
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+自分が作成したビューや、管理権限を持つビューを、Workfront ライセンスを持たず、組織外の可能性があるユーザーと共有できます。
 
-Consider the following when publicly sharing a Workfront Planning view: 
-
-* You can share a public link to a record type page that displays in the view you are sharing.
-* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
-* The shared public link must have an expiration date after which the link is no longer accessible. 
-
-To share a view publicly in Workfront Planning: 
+Workfront Planning でビューをパブリックに共有するには、次の手順に従います。
 
 {{step1-to-planning}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
+1. 共有するビューのワークスペースを開き、レコードタイプカードをクリックします。
 
-   This opens the record type page.
+   レコードタイプページが開きます。
 
-1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. ビュータブで、共有するビューにポインタを合わせ、ビュー名の右にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックしたあと、「**共有**」をクリックします。
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. Click **Public sharing**.
+1. **公開共有** をクリックします。
 
-1. Enable the **Create public link** setting.
+   ![](assets/public-sharing-tab-for-views.png)
 
-   A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
+1. **公開リンクを作成** 設定を有効にします。
 
-1. Click the **Copy link** icon ![](assets/copy-link-view.png) to copy the link to your clipboard. 
+   リンクが使用可能になります。 これは公開リンクです。 共有すると、組織外のユーザーを含め、リンクを持つすべてのユーザーがレコードタイプページにアクセスし、ページ上のレコードとフィールドを表示できます。
 
-1. Manually enter a date, or use the calendar in the **Link expiration date** field to select an expiration date for the public link. The record page view will not be accessible after the selected date. 
+1. **リンクをコピー** アイコン ![](assets/copy-link-view.png) をクリックして、リンクをクリップボードにコピーします。
 
-1. Click **Save**.
+1. 手動で日付を入力するか、「**有効期限をリンク**」フィールドのカレンダーを使用して、公開リンクの有効期限を選択します。 選択した日付を過ぎるとレコードページビューにアクセスできなくなります。
 
-1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+1. **保存**&#x200B;をクリックします。
 
--->
+   ビューのアイコンが更新され、ビューが公開されていることを示します。
 
+   ![](assets/public-shared-view-icon-highlighted.png)
+
+1. （任意）コピーしたリンクを、メール、チャットメッセージ、ドキュメントまたはWorkfrontのコメントに貼り付けて、他のユーザーと共有します。
 
 ## ビューに対する権限を削除
 
@@ -188,26 +194,16 @@ To share a view publicly in Workfront Planning:
 
 1. 共有を停止するビューのワークスペースを開き、レコードタイプのカードをクリックします。 レコードタイプページが開きます。
 1. 共有を削除するビューのタブ名にポインタを合わせ、[ 詳細 **] メニュー ![](assets/more-menu.png) ージをクリックしてから**[ 共有 **] をクリックし** す。
-1. 削除するユーザーまたはグループを見つけて、ユーザー名またはグループ名の右側にある権限ドロップダウンメニューで「**削除**」をクリックします。
-1. 「**保存**」をクリックします。
-削除されたグループに属するユーザーは、ビューにアクセスできなくなります。ビューへのアクセスから削除されたユーザーに対しては、アクセス権が失われたという通知はありません。
+1. ビューの内部共有を削除するには、次の操作を行います。
 
-<!--Replace the above instructions with the following when public sharing is released: 
+   1. 「**内部共有**」タブが選択されていることを確認します。
+   1. 削除するユーザーまたはグループを見つけ、そのユーザーまたはグループの名前の右側にある権限ドロップダウンメニューを展開して、「**削除**」をクリックします。
 
-{{step1-to-planning}}
+1. ビューの公開共有を削除するには、次の手順を実行します。
 
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
-1. To remove the internal sharing of a view, do the following: 
+   1. 「**公開共有**」タブをクリックします。
+   1. 「**公開リンクを作成**」オプションの選択を解除します。
 
-   1. Ensure the **Internal sharing** tab is selected.
-   1. Find the user or group what you want to remove, expand the permissions drop-down menu to the right of the user's or group's name, then click **Remove**.
+1. **保存**&#x200B;をクリックします。
 
-1. To remove the public sharing of a view, do the following: 
-
-   1. Click the **Public sharing** tab.
-   1. Deselect the **Create public link** option. 
-
-1. Click **Save**.
-   
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->
+   ユーザーは、ビューにアクセスできなくなります。 ビューへのアクセスを削除されたユーザーに対しては、アクセス権がなくなったことを示す通知はありません。
