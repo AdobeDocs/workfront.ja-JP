@@ -6,10 +6,10 @@ description: プルーフ内のエリアを測定できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 96%
+source-wordcount: '353'
+ht-degree: 90%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ この記事の機能に対するアクセス要件表示拡張。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -80,3 +80,7 @@ ht-degree: 96%
 1. （オプション）測定領域を正確なサイズにする必要がある場合は、**選択サイズ**&#x200B;値を入力します。
 1. （オプション）領域内の特定の割合を測定する必要がある場合は、「割合を計算」ボックスをオンにします。新規ボックスが表示され、調整することができます\
    ![](assets/calculate-percentage-350x230.png)
+
+1. 校正閲覧者の上部にある **領域を計測** アイコンをクリックして、終了時にツールを閉じます。
+
+   ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
