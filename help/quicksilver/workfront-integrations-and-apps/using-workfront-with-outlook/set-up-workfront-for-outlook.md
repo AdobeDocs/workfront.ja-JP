@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] アドインを使用する
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 98%
+source-wordcount: '684'
+ht-degree: 93%
 
 ---
 
@@ -140,12 +140,13 @@ Outlook 用 Workfront アドインは、[Microsoft ストア](https://appsource.
 ## [!DNL Outlook] から [!DNL Workfront] へのログイン
 
 1. [!DNL Outlook] では、メールメッセージを選択し、メールヘッダー内の **[!DNL Workfront]** アイコンをクリックします。
-1. 画面の指示に従って、拡張認証、OAuth 2.0、または Security Assertion Markup Language（SAML）URL を使用し、[!DNL Workfront] にログインします。
+1. ログインページで、「**Workfrontにログイン**」をクリックします。
+1. 画面の指示に従い、OAuth 2.0 を使用して [!DNL Workfront] にログインします。<!--Enhanced Authentication or your Security Assertion Markup Language (SAML) URL.-->
 
-   ユーザーが SAML を使用した [!DNL Workfront] アドインにログインする前に、[!DNL Workfront] 管理者は SAML 2.0 ソリューションを使用して認証するための [!DNL Office 365] アドインを最初に有効にする必要があります。詳しくは、[SAML 2.0 による  [!DNL Adobe Workfront]  の設定](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)記事で [SAML 2.0 による  [!DNL Adobe Workfront]  の設定](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365)の節を参照してください。
+   <!--Before users can log in to the [!DNL Workfront] add-in using SAML, a [!DNL Workfront] administrator must first enable [!DNL Office 365] add-ins to authenticate using a SAML 2.0 solution. For more information, see the section [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in the article [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).-->
 
    >[!NOTE]
    >
-   >* [!DNL Workfront] アカウントのドメインの入力を求められたら、「*yourCompany&#39;sDomain.my.workfront.com*」の形式で入力します。会社のドメインは通常、会社の名前です。
-   >* [!DNL Workfront] 管理者がこの統合に対して有効にするまで、拡張認証は利用できません。
+   >* [!DNL Workfront] アカウントのドメインを入力するプロンプトが表示されたら、次の形式で入力します：*yourCompany&#39;sDomain.my.workfront.com*。 会社のドメインは通常、会社の名前です。
 
+<!--ADDITIONAL BULLET REMOVED FROM NOTE BOX: Enhanced Authentication is not available until a Workfront administrator enables it for this integration.-->
