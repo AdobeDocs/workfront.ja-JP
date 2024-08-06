@@ -10,10 +10,10 @@ description: ' [!DNL Adobe Workfront Fusion], you can start a scenario based on 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
 workflow-type: tm+mt
-source-wordcount: '1543'
-ht-degree: 100%
+source-wordcount: '1609'
+ht-degree: 95%
 
 ---
 
@@ -70,6 +70,9 @@ Adobe Experience Manager Assets コネクタの概要については、以下を
 * [!UICONTROL サーバー間]のフローを [!DNL Adobe Developer console] に設定する必要があります。
 
   [!UICONTROL サーバー間]のフローを [!DNL Adobe Developer console] で設定する手順については、[サーバー側 API のアクセストークンの生成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)を参照してください。
+* Adobe Experience Manager テクニカルアカウントには、書き込み権限が必要です。
+
+  Adobe Experience Manager テクニカルアカウントに書き込み権限を追加する手順については、Adobe Experience Manager ドキュメントの [ サービス資格情報 ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) を参照してください。
 
 ## [!DNL Adobe Experience Manager Assets] を [!DNL Workfront Fusion] に接続 {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
@@ -83,7 +86,7 @@ Adobe Experience Manager Assets コネクタの概要については、以下を
 
      この設定には、[!DNL Adobe Admin Console] からの情報が必要です。
 
-   * **[!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])**
+   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
 
      この設定には、ユーザー名とパスワードが必要です。
 
@@ -100,9 +103,13 @@ Adobe Experience Manager Assets コネクタの概要については、以下を
 
 >[!NOTE]
 >
->これらのフィールドの情報は、[!DNL Adobe Developer Console] で[!UICONTROL サーバー間]のフローを設定の一環として生成されます。これらの値は、設定の一環として生成されるサービス資格情報 JSON ファイルに含まれています。
+>* これらのフィールドの情報は、[!DNL Adobe Developer Console] で[!UICONTROL サーバー間]のフローを設定の一環として生成されます。これらの値は、設定の一環として生成されるサービス資格情報 JSON ファイルに含まれています。
 >
->[!UICONTROL サーバー間]のフローを [!UICONTROL Adobe Developer Console] で設定する手順については、[サーバー側 API のアクセストークンの生成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)参照してください。
+>   [!UICONTROL サーバー間]のフローを [!UICONTROL Adobe Developer Console] で設定する手順については、[サーバー側 API のアクセストークンの生成](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow)参照してください。
+>
+>* Adobe Experience Manager テクニカルアカウントには、書き込み権限が必要です。
+>
+>   Adobe Experience Manager テクニカルアカウントに書き込み権限を追加する手順については、Adobe Experience Manager ドキュメントの [ サービス資格情報 ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) を参照してください。
 
 
 <table style="table-layout:auto"> 
