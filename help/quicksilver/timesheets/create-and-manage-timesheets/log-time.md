@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '3775'
-ht-degree: 87%
+source-wordcount: '3856'
+ht-degree: 85%
 
 ---
 
@@ -47,12 +47,9 @@ Workfront にログインできる時間の種類について詳しくは、[時
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規： 
-   <ul><li>タイムシートに一般的な時間を記録するには Light 以上</li>
-   <li>標準 – プロジェクト、タスク、または問題の時間を記録します</li></ul>
-
-
-<p>現在： 
+   <td> <p>新規： </p>
+   <p>プロジェクト、タスク、問題、またはタイムシートの一般時間を記録するには Light 以上</p>
+   <p>現在： 
    <ul><li>タイムシートの一般的な時間数を記録するには、確認またはそれ以上</li>
    <li>プロジェクト、タスク、またはイシューの時間を記録をするにはワーク以上</li></ul> </td> 
   </tr> 
@@ -476,6 +473,13 @@ Workfront モバイルアプリで時間を記録できます。
 
 ## リストおよびレポートのログ時間を編集する
 
+>[!CAUTION]
+>
+>* クローズしたタイムシートに属する時間エントリは変更できません。 最初にタイムシートを再度開いてから、時間エントリ情報を変更する必要があります。
+>* 時間タイプを収益としてカウントしないタイプから収益としてカウントする別のタイプに変更すると、プロジェクトの財務の変更も発生します。 時間タイプを収益としてカウントするタイプから収益としてカウントしないタイプに変更すると、プロジェクトの財務も更新されます。
+>
+>詳しくは、[ 時間タイプの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) を参照してください。
+>
 次の領域でログ時間を編集できます。
 
 * オープン タイムシートを含む、時間を追加したすべての領域

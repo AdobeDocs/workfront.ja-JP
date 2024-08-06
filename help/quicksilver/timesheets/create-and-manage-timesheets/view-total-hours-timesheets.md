@@ -6,20 +6,24 @@ description: タイムシートの合計時間数を表示できます。この�
 author: Alina
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
-source-git-commit: 210ca2e82286ff904bc7defb7b8c9c2559489d66
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 100%
+source-wordcount: '489'
+ht-degree: 84%
 
 ---
 
 # タイムシートの合計時間の表示
+
+<!--Audited: 8/2024-->
 
 タイムシートの合計時間数を表示できます。この時間数には、プロジェクト、タスク、イシューに関して記録された時間とすべての一般的な時間が含まれます。
 
 合計時間数には、タイムシート、「更新」エリア、またはプロジェクト、タスク、イシューの「時間」エリアで提出された時間が反映されます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -28,25 +32,28 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー </p> </td> 
+   <td> <p>新規：ライト以上 </p>
+   <p>現在：レビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクとイシューへの閲覧またはそれ以上のアクセス権</p> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>タスクおよび問題への表示以上のアクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクとイシューに対する表示またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>タスクとイシューに対する表示またはそれ以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*ご利用のプランやライセンスタイプは、Workfront 管理者にお問い合わせください。
+*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## タイムシートヘッダーのタイムシートの合計時間数の表示
 
@@ -56,9 +63,11 @@ ht-degree: 100%
 
 ## タイムシートリストでのタイムシート合計時間数の表示
 
-1. Adobe Workfront の右上で&#x200B;**メインメニュー**&#x200B;アイコン（![](assets/main-menu-icon.png)）をクリックし、「**タイムシート**」をクリックします。「**すべて**」フィルターがデフォルトで選択されており、表示アクセス権のあるすべてのタイムシートが表示されます。
+{{step1-to-timesheets}}
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+**タイムシート** エリアが開きます。
+
+![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -68,15 +77,15 @@ ht-degree: 100%
 
      「**マイタイムシート**」を選択して、自分のタイムシートのみを表示する。
 
-     これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートリストに適用されます。
+     これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。フィルターの作成または更新については、[Adobe Workfront でフィルターを作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
-   >Workfront 管理者またはグループ管理者が、設定領域の「リスト制御」またはレイアウトテンプレートから「マイタイムシート承認」フィルターと「マイタイムシート」フィルターを削除した場合、「マイタイムシート承認」オプションと「マイタイムシート」オプションは、タイムシートリストの上部またはフィルターリストには表示されません。詳しくは、次の記事を参照してください。
+   >Workfront 管理者またはグループ管理者が、設定エリアのリスト制御またはレイアウトテンプレートから、「マイタイムシート承認」と「マイタイムシート」のフィルターを削除した場合、「マイタイムシート承認」と「マイタイムシート」のオプションは、タイムシート一覧の先頭にもフィルター一覧にも表示されません。詳しくは、次の記事を参照してください。
    >
    >   
    >   
@@ -98,4 +107,4 @@ ht-degree: 100%
 
    >[!TIP]
    >
-   >タイムシートリストの標準ビューでは、タイムシートの項目に対して記録された時間がタイムシートの時間枠の時間数を超えると、合計時間数が赤で表示されます。詳しくは、[Adobe Workfront の用語集](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)で「合計時間数」の項目を参照してください。
+   >タイムシートのリストで標準ビューを使用するとき、タイムシートの項目に記録された時間がタイムシートの時間枠の時間数を超えると、「合計時間」列が赤で表示されます。 詳しくは、[Adobe Workfront用語の用語集 ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) の「合計時間数」フィールドを参照してください。

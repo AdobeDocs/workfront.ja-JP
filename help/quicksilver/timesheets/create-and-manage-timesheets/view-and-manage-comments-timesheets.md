@@ -6,10 +6,10 @@ description: タイムシート、タイムシートに含まれる作業項目�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 100%
+source-wordcount: '848'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 * タスクやイシューなど、個々の項目
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -42,7 +44,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タスクとイシューへの閲覧またはそれ以上のアクセス権</p> </td> 
+   <td> <p>タスクおよび問題への表示以上のアクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -53,6 +55,8 @@ ht-degree: 100%
 
 *ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
+
 ## タイムシートの時間エントリコメントを表示 {#view-hour-entry-comments-on-a-timesheet}
 
 個々の時間エントリに対するコメントをタイムシートに表示するように設定できます。コメントの表示と非表示を切り替えるオプションは、タイムシート全体に対するコメントや、個々の項目に対するコメントには影響しません。詳しくは、[タイムシートにコメントする](#make-comments-on-a-timesheet)を参照してください。
@@ -61,9 +65,10 @@ ht-degree: 100%
 
 タイムシートにコメントを表示するには、次の手順を実行します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-timesheets}}
 
-1. 「**タイムシート**」をクリックします。
+**タイムシート** エリアが開きます。
+
 1. コメントを表示するタイムシートを開きます。
 1. タイムシートの右上隅にある「**コメントの表示**」をクリックします。
 時間エントリとコメントが記録された項目の下にコメントが表示されます。

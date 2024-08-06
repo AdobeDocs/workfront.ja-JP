@@ -6,18 +6,22 @@ description: 承認のためタイムシートを提出すると、マネージ�
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 98%
+source-wordcount: '860'
+ht-degree: 85%
 
 ---
 
 # 承認用のタイムシートを送信
 
+<!--Audited: 8/2024-->
+
 承認のためタイムシートを提出すると、マネージャーはあなたの労働時間を把握できるようになります。承認者は、記録されたすべての時間が正しい領域に割り当てられていること、およびその期間に十分な時間が記録されていることを確認できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -26,25 +30,28 @@ ht-degree: 98%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>新規：ライト以上 </p>
+   <p>現在：レビュー以上 </p>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクとイシューへの閲覧またはそれ以上のアクセス権</p> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>タスクとイシューに対する表示またはそれ以上のアクセス権限 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクとイシューに対する表示またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>タイムシートに対する表示以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 承認用のタイムシートを送信
 
@@ -53,22 +60,22 @@ ht-degree: 98%
 
 ### 承認用のタイムシートを送信
 
-タイムシート承認者を設定した後（[タイムシートを承認](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)の記事の[タイムシート承認者を指定](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver)の節で説明されているように）、タイムシートの下部にある「**閉じる**」ボタンが「**承認用に送信**」ボタンに変わります。
+タイムシート承認者が設定されると（「タイムシート承認者の指定 [ の記事 ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) タイムシートの承認 [ の説明に従って ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)、タイムシートの下部にある「**閉じる**」ボタンが **承認用に送信** ボタンに変わります。
 
 承認用のタイムシートを送信するには、次の手順に従います。
 
 1. 承認者が設定されているタイムシートに移動します。
 1. [時間を記録](../../timesheets/create-and-manage-timesheets/log-time.md)で説明されている時間を記録します。
-1. 「**承認用に送信**」をクリックして、タイムシートの承認プロセスを開始します。
+1. 「**承認用に送信**」をクリックして、タイムシート承認プロセスを開始します。
 
    ![](assets/submit-for-approval-button-on-timesheet-nwe.png)
 
-   「**承認用に送信**」ボタンは、「**承認**」、「**拒否**」、「**リコール**」ボタンに置き換えられます。タイムシートのステータスが&#x200B;**送信済み**&#x200B;に変わります。
+   **承認用に送信** ボタンは、**承認**、**却下**、**リコール** ボタンに置き換えられます。 タイムシートのステータスが&#x200B;**送信済み**&#x200B;に変わります。
 
    タイムシートが承認用に送信されると、承認者の&#x200B;**ホーム**&#x200B;ページの&#x200B;**承認**&#x200B;エリアにリストされたタイムシートが表示されます。次のようなことが起こる可能性があります。
 
    * 承認された場合、「**リコール**」ボタンが「**再度開く**」に変わり、タイムシートのステータスが&#x200B;**開く**&#x200B;に更新されます。
-   * 拒否された場合、「**承認用に送信**」ボタンが「**リコール**」ボタンに代わり、タイムシートのステータスが&#x200B;**拒否**&#x200B;に更新されます。
+   * 拒否すると、「**承認用に送信**」ボタンが **撤回** ボタンに置き換わり、タイムシートのステータスが **却下** に更新されます。
 
 1. （オプション）タイムシートを再度開いて時間を更新する必要がある場合は、「**リコール**」をクリックします。詳しくは、この記事の[タイムシートをリコール](#recall-a-timesheet)の節を参照してください。
 
@@ -95,7 +102,7 @@ Workfront 管理者がユーザーへのタイムシート承認イベントハ�
 
      「**マイタイムシート**」を選択して、自分のタイムシートのみを表示する。
 
-     これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートリストに適用されます。
+     これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -111,7 +118,7 @@ Workfront 管理者がユーザーへのタイムシート承認イベントハ�
    >   
    >
 
-1. （条件付き）**マイタイムシート**&#x200B;を選択した場合は、**標準**&#x200B;ビューが適用されていることを確認し、**ステータス**&#x200B;列に注目してください。
+1. （条件付き） **マイタイムシート** を選択した場合は、**標準** ビューが適用され、**ステータス** 列に注目してください。
 
    タイムシートには次のようなステータスがあります。
 

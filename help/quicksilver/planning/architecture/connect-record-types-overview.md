@@ -4,7 +4,7 @@ description: 個々のレコードタイプが互いにどのように関連し�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '1021'
 ht-degree: 36%
@@ -13,9 +13,11 @@ ht-degree: 36%
 
 
 <!--update metadata at GA-->
-<!--add to TOC and mini TOC when live-->
+<!--add mini TOC when live, already added to big TOC to get the link-->
 
 # レコードタイプの接続：概要
+
+<!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 
 個々のレコードタイプを相互に関連付けたり、他のアプリケーションのオブジェクトに接続して関連付けることができます。
 

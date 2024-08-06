@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
 workflow-type: tm+mt
 source-wordcount: '2510'
 ht-degree: 61%
@@ -118,7 +118,7 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
 ## レコードタイプの連結に関する考慮事項
 
-<!--move this to the Connect record types overview article (new)-->
+<!--DELETE THE CONTENT BELOW WHEN YOU MAKE "CONNECT RECORD TYPE OVERVIEW" ARTICLE PUBLIC-->
 
 * Workfront Planning では、次のエンティティを接続できます。
 
