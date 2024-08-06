@@ -11,9 +11,9 @@ feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: true
 hidefromtoc: true
-source-git-commit: 4c1b784442d000d189be076903c4c65fca42e68f
+source-git-commit: 357e8e5bb3c81790e503538d96e444fb4f1e0ad5
 workflow-type: tm+mt
-source-wordcount: '3659'
+source-wordcount: '3673'
 ht-degree: 30%
 
 ---
@@ -120,6 +120,10 @@ ht-degree: 30%
         <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
         <td>[!DNL Adobe] [!UICONTROL Organization ID] を入力します。これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL サンドボックス名 ]</td>
+        <td>この接続で使用するサンドボックスの名前を入力します。</td>
         </tr>
       </tbody>
     </table>
