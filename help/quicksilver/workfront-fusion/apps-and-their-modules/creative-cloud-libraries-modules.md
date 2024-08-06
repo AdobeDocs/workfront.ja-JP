@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion Adobe Creative Cloud]  ライブラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 100%
+source-wordcount: '1338'
+ht-degree: 84%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 100%
 シナリオの作成手順が必要な場合は、[](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
 モジュールについては、[モジュール： [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)を参照してください。
+
+>[!IMPORTANT]
+>
+>現在、Creative Cloud Libraries コネクタでは接続を作成できません。 既存の接続は期待どおりに動作します。
 
 ## アクセス要件
 
@@ -113,7 +117,7 @@ ht-degree: 100%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
+      <td>既存のCreative Cloud Libraries接続を選択します。 現在、Creative Cloud Libraries コネクタでは接続を作成できません。 既存の接続は期待どおりに動作します。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -136,7 +140,7 @@ ht-degree: 100%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
+      <td>既存のCreative Cloud Libraries接続を選択します。 現在、Creative Cloud Libraries コネクタでは接続を作成できません。 既存の接続は期待どおりに動作します。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -182,7 +186,7 @@ ht-degree: 100%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
+      <td>既存のCreative Cloud Libraries接続を選択します。 現在、Creative Cloud Libraries コネクタでは接続を作成できません。 既存の接続は期待どおりに動作します。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -236,7 +240,7 @@ ht-degree: 100%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
+      <td>既存のCreative Cloud Libraries接続を選択します。 現在、Creative Cloud Libraries コネクタでは接続を作成できません。 既存の接続は期待どおりに動作します。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -287,7 +291,7 @@ ht-degree: 100%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
+      <td>既存のCreative Cloud Libraries接続を選択します。 現在、Creative Cloud Libraries コネクタでは接続を作成できません。 既存の接続は期待どおりに動作します。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -311,7 +315,7 @@ ht-degree: 100%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
+      <td>既存のCreative Cloud Libraries接続を選択します。 現在、Creative Cloud Libraries コネクタでは接続を作成できません。 既存の接続は期待どおりに動作します。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -341,7 +345,7 @@ ht-degree: 100%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
+      <td>既存のCreative Cloud Libraries接続を選択します。 現在、Creative Cloud Libraries コネクタでは接続を作成できません。 既存の接続は期待どおりに動作します。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
@@ -360,7 +364,7 @@ ht-degree: 100%
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Creative Cloud] アカウントを [!DNL Workfront Fusion] に接続する方法について詳しくは、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion] への接続の作成 - 基本手順を参照してください。</td>
+      <td>既存のCreative Cloud Libraries接続を選択します。 現在、Creative Cloud Libraries コネクタでは接続を作成できません。 既存の接続は期待どおりに動作します。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
