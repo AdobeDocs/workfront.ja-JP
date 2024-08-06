@@ -7,10 +7,10 @@ description: 一部のトリガーモジュールでは、バンドルの取得�
 author: Becky
 feature: Workfront Fusion
 exl-id: 5ab7cac4-8d50-4be0-b26b-b832544f18f7
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 489ed23fe0d7945753b59810ff9da084bd3e92e4
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 100%
 トリガーモジュールについて詳しくは、[モジュールの種類](../../workfront-fusion/modules/module-types.md)の記事で[トリガーモジュール](../../workfront-fusion/modules/module-types.md#triggers)の節を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
@@ -60,6 +62,8 @@ ht-degree: 100%
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 [!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+
++++
 
 ## トリガーモジュールの開始場所を選択
 

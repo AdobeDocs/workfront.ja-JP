@@ -8,16 +8,18 @@ description: このドキュメントでは、想定したデータ形式と想�
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: d09174b874ff59676a28881de02ae4e7196d0f80
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 98%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] での型強制
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事で説明している機能を使用するには、次のアクセス権が必要です。
 
@@ -55,6 +57,8 @@ ht-degree: 100%
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 [!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+
++++
 
 ### 型強制
 
