@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 35ec37253655d05a8ce24a5c928b1d5377f7abef
+source-git-commit: 992a4b2c220664b660e871b3d464350d8f6f1a53
 workflow-type: tm+mt
-source-wordcount: '14301'
+source-wordcount: '14306'
 ht-degree: 94%
 
 ---
@@ -2113,6 +2113,7 @@ ht-degree: 94%
          * [ [!DNL Adobe Workfront Fusion] の基本シナリオに Webhook を追加します。](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
       * [Adobe Workfront Fusion で練習用自動化シナリオを作成](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
       * [Adobe Workfront Fusion で練習用統合シナリオを作成](workfront-fusion/get-started/create-a-practice-scenario.md)
+      * [Workfront Fusion の AI アシスタント](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
       * [Adobe Workfront Fusion パフォーマンスガードレール](workfront-fusion/get-started/fusion-performance-guardrails.md)
       * [Adobe Workfront Fusion アクセス用の IP アドレス](workfront-fusion/get-started/ip-addresses-for-fusion.md)
       * [Adobe Workfront Fusion ライセンス](workfront-fusion/get-started/license-automation-vs-integration.md)
