@@ -6,10 +6,10 @@ description: 管理者はタイムシートの承認プロセスで、直属の�
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 76%
+source-wordcount: '540'
+ht-degree: 71%
 
 ---
 
@@ -42,7 +42,13 @@ ht-degree: 76%
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
    <td> <p>新規：標準</p>
-   <p>現在：プラン </p> </td> 
+   <p>現在：プラン </p> 
+   <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>タイムシートおよび時間への管理アクセス </p> </td> 
+  </tr>
+
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,7 +59,7 @@ ht-degree: 76%
 
 ## タイムシートの承認者の指定
 
-通常、タイムシートは、部門マネージャーまたは人事担当者によって承認されます（通常はプロジェクトマネージャーによって承認されません）。
+通常、タイムシートは、部門マネージャーまたは人事担当者によって承認されますタイムシートは通常、プロジェクトマネージャーに承認されません。 プロジェクトマネージャーはプロジェクトに記録された時間を承認できますが、チームマネージャーまたは人事マネージャーはタイムシートを承認する必要があります。
 
 タイムシート承認者は、タイムシート プロファイルの作成時に定義されます。 承認者として指定するにはプラン ライセンスが必要です。
 
