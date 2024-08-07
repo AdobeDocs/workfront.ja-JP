@@ -9,9 +9,7 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Ado
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-hide: true
-hidefromtoc: true
-source-git-commit: 357e8e5bb3c81790e503538d96e444fb4f1e0ad5
+source-git-commit: a2b9722f3964fccab6e30f2cd79e5ac63f736ba4
 workflow-type: tm+mt
 source-wordcount: '3673'
 ht-degree: 30%
