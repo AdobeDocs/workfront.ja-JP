@@ -9,10 +9,10 @@ description: Adobe Photoshop モジュールを使用すると、Adobe Photoshop
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 5b2de063836c2cf668e14edfbc5a12f9321d26ca
+source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
 workflow-type: tm+mt
-source-wordcount: '3966'
-ht-degree: 23%
+source-wordcount: '4308'
+ht-degree: 21%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 23%
 
 ![](assets/map-toggle-350x74.png)
 
-* [Photoshopの編集の適用](#apply-psd-edits)
+* [PSDの編集を適用](#apply-psd-edits)
 * [画像の自動カラー補正](#auto-color-correct-an-image)
 * [画像形式を変換](#convert-image-format)
 * [マスクの作成](#create-a-mask)
@@ -263,14 +263,14 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL （出力） ストレージ ]</td>
       <td>
-        <p>新しいファイルを保存するファイルサービスを選択します。</p>
+        <p>新しいファイルを保存するファイルサービスを選択します。</p><p>Fusion の内部ストレージを選択すると、後のモジュールでファイルを使用できるようになりますが、シナリオ外でファイルを使用できるわけではありません。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL （出力） ファイルの場所 ]</p>
       </td>
-   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。 </td> 
+   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。 これは、出力ストレージに Fusion 内部ストレージを選択していない場合にのみ必要です。</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -322,14 +322,14 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL （出力） ストレージ ]</td>
       <td>
-        <p>新しいファイルを保存するファイルサービスを選択します。</p>
+        <p>新しいファイルを保存するファイルサービスを選択します。</p><p>Fusion の内部ストレージを選択すると、後のモジュールでファイルを使用できるようになりますが、シナリオ外でファイルを使用できるわけではありません。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL （出力） ファイルの場所 ]</p>
       </td>
-   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。 </td> 
+   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。 これは、出力ストレージに Fusion 内部ストレージを選択していない場合にのみ必要です。</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -386,14 +386,14 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL （出力） ストレージ ]</td>
       <td>
-        <p>新しいファイルを保存するファイルサービスを選択します。</p>
+        <p>新しいファイルを保存するファイルサービスを選択します。</p><p>Fusion の内部ストレージを選択すると、後のモジュールでファイルを使用できるようになりますが、シナリオ外でファイルを使用できるわけではありません。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL （出力） ファイルの場所 ]</p>
       </td>
-   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。 </td> 
+   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。 これは、出力ストレージに Fusion 内部ストレージを選択していない場合にのみ必要です。 </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -445,14 +445,14 @@ ht-degree: 23%
     <tr>
       <td role="rowheader">[!UICONTROL （出力） ストレージ ]</td>
       <td>
-        <p>マスクファイルを格納するファイルサービスを選択します。</p>
+        <p>マスクファイルを格納するファイルサービスを選択します。</p><p>Fusion の内部ストレージを選択すると、後のモジュールでファイルを使用できるようになりますが、シナリオ外でファイルを使用できるわけではありません。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL （出力） ファイルの場所 ]</p>
       </td>
-   <td> マスク ファイルを格納する場所の URL またはパスを入力またはマップします。 </td> 
+   <td> マスク ファイルを格納する場所の URL またはパスを入力またはマップします。 これは、出力ストレージに Fusion 内部ストレージを選択していない場合にのみ必要です。</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -575,6 +575,119 @@ Photoshop ファイルのテキストレイヤーを編集します。
    <td> 出力ファイルの圧縮レベルを選択します。 </td> 
     </tr>
   </tbody>
+</table>
+
+
+
+### Photoshop アクション （JSON）の実行
+
+このアクションモジュールは、JSON コマンドを使用してPhotoshopのアクションを実行します。
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>[!DNL Adobe Photoshop] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a> への接続を作成を参照してください。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL （入力） ストレージ ]</td>
+      <td>
+        <p>編集するファイルが格納されているファイルサービスを選択します。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL （入力） ファイルの場所 ]</p>
+      </td>
+   <td> 編集するファイルの URL またはパスを入力またはマップします。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL アクション JSON]</td>
+      <td>
+        <p>実行するアクションの JSON コマンドを入力します。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL フォント / パターン / ブラシ /追加の画像 ]</td>
+      <td>
+        <p>このアクションで使用するフォント、パターン、ブラシ、または追加の画像ごとに、[ アイテムの追加 ] をクリックし、アイテムの保存場所とファイルの場所を入力します。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL フォント / パターン / ブラシ ファイルの URL]</p>
+      </td>
+   <td> 使用するファイルの URL またはパスを入力またはマップします。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL はファイル ストレージを出力します ]</td>
+      <td>
+        <p>編集したファイルを保存するファイルサービスを選択します。</p><p>Fusion の内部ストレージを選択すると、後のモジュールでファイルを使用できるようになりますが、シナリオ外でファイルを使用できるわけではありません。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 出力ファイル URL]</p>
+      </td>
+   <td> 編集したファイルを保存する場所の URL またはパスを入力またはマップします。  これは、出力ストレージに Fusion 内部ストレージを選択していない場合にのみ必要です。</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 出力ファイルの種類 ]</p>
+      </td>
+   <td> 編集するファイルのファイル タイプを選択します。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>既に存在する出力ファイルを新しく編集したファイルで上書きするかどうかを選択します。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL 圧縮 ]</p>
+      </td>
+   <td> 出力ファイルの圧縮レベルを選択します。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
+      <td>
+        <p>作成する変換後のファイルごとに、[ アイテムの追加 ] をクリックし、この表に示されているストレージ、場所、およびタイプを入力します。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL （出力） ストレージ ]</td>
+      <td>
+        <p>新しいファイルを保存するファイルサービスを選択します。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL （出力） ファイルの場所 ]</p>
+      </td>
+   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL （出力） タイプ ]</p>
+      </td>
+   <td>ファイルの変換先となるファイルタイプを選択します。 </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL （出力）上書き ]</td>
+      <td>
+        <p>既に存在する出力ファイルを新しく編集したファイルで上書きするかどうかを選択します。 これは、Adobeストレージ内のファイルにのみ適用されます。</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned results]</p>
+      </td>
+   <td>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</td> 
+    </tr>
+      </tbody>
 </table>
 
 ### 深度ブラーを実行
@@ -725,117 +838,6 @@ Photoshop ファイルのテキストレイヤーを編集します。
    <td> 出力ファイルの圧縮レベルを選択します。 </td> 
     </tr>
   </tbody>
-</table>
-
-### Photoshop アクション （JSON）の実行
-
-このアクションモジュールは、JSON コマンドを使用してPhotoshopのアクションを実行します。
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>[!DNL Adobe Photoshop] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >[!DNL Adobe Photoshop]</a> への接続を作成を参照してください。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL （入力） ストレージ ]</td>
-      <td>
-        <p>編集するファイルが格納されているファイルサービスを選択します。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL （入力） ファイルの場所 ]</p>
-      </td>
-   <td> 編集するファイルの URL またはパスを入力またはマップします。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL アクション JSON]</td>
-      <td>
-        <p>実行するアクションの JSON コマンドを入力します。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL フォント / パターン / ブラシ /追加の画像 ]</td>
-      <td>
-        <p>このアクションで使用するフォント、パターン、ブラシ、または追加の画像ごとに、[ アイテムの追加 ] をクリックし、アイテムの保存場所とファイルの場所を入力します。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL フォント / パターン / ブラシ ファイルの URL]</p>
-      </td>
-   <td> 使用するファイルの URL またはパスを入力またはマップします。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL はファイル ストレージを出力します ]</td>
-      <td>
-        <p>編集したファイルを保存するファイルサービスを選択します。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL 出力ファイル URL]</p>
-      </td>
-   <td> 編集したファイルを保存する場所の URL またはパスを入力またはマップします。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL 出力ファイルの種類 ]</p>
-      </td>
-   <td> 編集するファイルのファイル タイプを選択します。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Overwrite]</td>
-      <td>
-        <p>既に存在する出力ファイルを新しく編集したファイルで上書きするかどうかを選択します。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL 圧縮 ]</p>
-      </td>
-   <td> 出力ファイルの圧縮レベルを選択します。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Outputs]</td>
-      <td>
-        <p>作成する変換後のファイルごとに、[ アイテムの追加 ] をクリックし、この表に示されているストレージ、場所、およびタイプを入力します。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL （出力） ストレージ ]</td>
-      <td>
-        <p>新しいファイルを保存するファイルサービスを選択します。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL （出力） ファイルの場所 ]</p>
-      </td>
-   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL （出力） タイプ ]</p>
-      </td>
-   <td>ファイルの変換先となるファイルタイプを選択します。 </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL （出力）上書き ]</td>
-      <td>
-        <p>既に存在する出力ファイルを新しく編集したファイルで上書きするかどうかを選択します。 これは、Adobeストレージ内のファイルにのみ適用されます。</p>
-      </td>
-    </tr>
-        <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Maximum number of returned results]</p>
-      </td>
-   <td>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</td> 
-    </tr>
-      </tbody>
 </table>
 
 ### 製品の切り抜きを実行
@@ -1020,14 +1022,14 @@ Photoshop ファイルのテキストレイヤーを編集します。
     <tr>
       <td role="rowheader">[!UICONTROL （出力） ストレージ ]</td>
       <td>
-        <p>新しいファイルを保存するファイルサービスを選択します。</p>
+        <p>新しいファイルを保存するファイルサービスを選択します。</p><p>Fusion の内部ストレージを選択すると、後のモジュールでファイルを使用できるようになりますが、シナリオ外でファイルを使用できるわけではありません。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL （出力） ファイルの場所 ]</p>
       </td>
-   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。 </td> 
+   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。  これは、出力ストレージに Fusion 内部ストレージを選択していない場合にのみ必要です。</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -1115,14 +1117,14 @@ PSDレイヤー内のスマートオブジェクトの代わりとなり、新�
     <tr>
       <td role="rowheader">[!UICONTROL （出力） ストレージ ]</td>
       <td>
-        <p>新しいファイルを保存するファイルサービスを選択します。</p>
+        <p>新しいファイルを保存するファイルサービスを選択します。</p><p>Fusion の内部ストレージを選択すると、後のモジュールでファイルを使用できるようになりますが、シナリオ外でファイルを使用できるわけではありません。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL （出力） ファイルの場所 ]</p>
       </td>
-   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。 </td> 
+   <td> 新しいファイルが格納される URL またはパスを入力するか、またはマップします。  これは、出力ストレージに Fusion 内部ストレージを選択していない場合にのみ必要です。</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1162,14 +1164,14 @@ PSDレイヤー内のスマートオブジェクトの代わりとなり、新�
     <tr>
       <td role="rowheader">[!UICONTROL ストレージ ]</td>
       <td>
-        <p>サイズを変更するファイルが格納されているファイルサービスを選択します。</p>
+        <p>サイズを変更するファイルが格納されているファイルサービスを選択します。</p><p>Fusion の内部ストレージを選択すると、後のモジュールでファイルを使用できるようになりますが、シナリオ外でファイルを使用できるわけではありません。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL ファイルの場所 ]</p>
       </td>
-   <td> サイズを変更するファイルの URL またはパスを入力またはマップします。 </td> 
+   <td> サイズを変更するファイルの URL またはパスを入力またはマップします。  これは、出力ストレージに Fusion 内部ストレージを選択していない場合にのみ必要です。</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Outputs]</td>
@@ -1269,18 +1271,17 @@ PSDレイヤー内のスマートオブジェクトの代わりとなり、新�
       </td>
    <td> 透かしにする画像の上部からの距離をピクセル単位で入力またはマッピングします。</td> 
     </tr>  
-    </tr>  
     <tr>
       <td role="rowheader">[!UICONTROL （出力） ストレージ ]</td>
       <td>
-        <p>透かし付けファイルを保存するファイルサービスを選択します。</p>
+        <p>透かし付けファイルを保存するファイルサービスを選択します。</p><p>Fusion の内部ストレージを選択すると、後のモジュールでファイルを使用できるようになりますが、シナリオ外でファイルを使用できるわけではありません。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL （出力） ファイルの場所 ]</p>
       </td>
-   <td> 透かし付きファイルが格納される URL またはパスを入力またはマッピングします。 </td> 
+   <td> 透かし付きファイルが格納される URL またはパスを入力またはマッピングします。 これは、出力ストレージに Fusion 内部ストレージを選択していない場合にのみ必要です。</td> 
     </tr>
     <tr>
       <td role="rowheader">
