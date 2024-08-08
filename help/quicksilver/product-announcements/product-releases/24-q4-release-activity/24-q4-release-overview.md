@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 80%
+source-wordcount: '835'
+ht-degree: 75%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 80%
 ## Adobe Workfront の機能強化
 
 * [プロジェクトの強化](#project-enhancements)
+* [統合の機能強化](#integration-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### プロジェクトの強化
@@ -95,6 +96,42 @@ ht-degree: 80%
                 </tr>
            </tbody>
         </table>
+
+### 統合の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook 統合のログインエクスペリエンスの強化 </a></p>
+                        <p>Outlook 統合のログインエクスペリエンスが効率化され、IMS が有効になっているかどうかに関わらず、すべてのお客様にWorkfrontへのログインに同じボタンが表示されるようになりました。 以降のログイン手順は、IMS インスタンスと非 IMS インスタンスでは異なりますが、初期ページはすべてのユーザーで同じです。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年8月6日（PT）</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 8 月 6 日（PT）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 
 ### その他の機能強化
 

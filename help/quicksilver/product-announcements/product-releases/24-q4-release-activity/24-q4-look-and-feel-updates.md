@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 8c8094dd34f90d51362b43820e1c6fa41ae5b7cd
+source-git-commit: 32229f433268d173979e7dba06a9aee3d56181d1
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 27%
+source-wordcount: '391'
+ht-degree: 23%
 
 ---
 
@@ -17,6 +17,16 @@ ht-degree: 27%
 このページでは、2024年第 4 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模なアップデートについて説明しています。
 
 2024年第 4 四半期リリースで利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
+
+## システム環境設定ページのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 7 月 18 日（PT）、高速リリースの実稼動：24.9 リリースを含む（2024 年 9 月）、四半期リリースの実稼動：24.10 リリースを含む（2024 年 10 月）
+
+設定/ システム /環境設定ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
+
+詳しくは、[ システム環境設定の指定 ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) を参照してください。
 
 ## 「ユーザーを削除」および「ユーザーを非アクティブ化」メッセージのルックアンドフィールの更新
 
