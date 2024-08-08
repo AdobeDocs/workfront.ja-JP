@@ -1,5 +1,5 @@
 ---
-title: 別のユーザーとしてのログイン
+title: 別のユーザーとしてログイン
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 107b397cc103c8ef93996d9017390d301305a4f3
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 95%
+source-wordcount: '759'
+ht-degree: 93%
 
 ---
 
@@ -48,6 +48,8 @@ Some users, such as executives, need to be able to control which administrators 
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -73,6 +75,8 @@ Some users, such as executives, need to be able to control which administrators 
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ログインし、別のユーザーとしてアクションを実行する
 

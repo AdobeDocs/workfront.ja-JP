@@ -1,5 +1,5 @@
 ---
-title: ユーザーの非アクティブ化または再アクティブ化
+title: ユーザーのディアクティベートまたは再アクティベート
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: ece0275518169fd67708dce903b8bf46a9ee7b1b
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 96%
+source-wordcount: '1088'
+ht-degree: 94%
 
 ---
 
@@ -47,6 +47,8 @@ ht-degree: 96%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -72,6 +74,8 @@ ht-degree: 96%
  </tbody> 
 </table>
 
++++
+
 ## 前提条件
 
 Workfront 管理者、スタンダードライセンスユーザーやプランライセンスユーザーのアクティブ化を解除する前に、オブジェクトとアクティビティを別のユーザーに関連付ける必要があります。
@@ -90,7 +94,7 @@ Workfront 管理者、スタンダードライセンスユーザーやプラン�
 
 ユーザーをディアクティベートするには：
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックして、「**ユーザー**」![](assets/users-icon-in-main-menu.png)をクリックします。
+{{step-1-to-users}}
 
 1. ユーザーを選択し、**その他**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、更に「**非アクティブ化**」をクリックします。
 
@@ -104,7 +108,7 @@ Workfront 管理者とプランライセンスユーザーは、ユーザープ�
 
 ユーザーの非アクティブ化をスケジュールするには、次の手順に従います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックして、「**ユーザー**」![](assets/users-icon-in-main-menu.png)をクリックします。
+{{step-1-to-users}}
 
 1. ユーザー名を選択します。
 
@@ -131,7 +135,7 @@ Workfront 管理者とプランライセンスユーザーは、ユーザープ�
 
 ## ユーザーを再度アクティブ化
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックして、「**ユーザー**」![](assets/users-icon-in-main-menu.png)をクリックします。
+{{step-1-to-users}}
 
 1. ユーザーを選択し、その他アイコン ![](assets/more-icon.png)、**アクティブ化**&#x200B;の順にクリックします。
 

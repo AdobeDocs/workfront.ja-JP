@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: 自動プロビジョニングされたユーザーのパスワードを変更
-description: 新しいユーザーが一時パスワードを変更しようとする際、メールアドレスを入力すると、ユーザー名が間違っているというエラーが表示されることがよくあります。システムによって割り当てられたユーザー名（グローバル一意識別子（GUID））を入力する必要があります。GUID を記憶するのは困難なので、新しいユーザーのユーザー名を Workfront のメールアドレスに変更し、ユーザーが各自パスワードを変更できるようにすることをお勧めします。
-author: Caroline
+title: 自動プロビジョニングされたユーザーのパスワードの変更
+description: 新しいユーザーのユーザー名をWorkfrontのメールアドレスに変更してから、パスワードを変更できるようにすることをお勧めします。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 100%
+source-wordcount: '487'
+ht-degree: 91%
 
 ---
 
@@ -41,6 +41,8 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 自動プロビジョニングされたユーザーのパスワードを変更
 

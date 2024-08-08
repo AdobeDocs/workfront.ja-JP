@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: e52881a03f69d7c4d6a62dcdc9c6044f6f5dd016
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '2246'
-ht-degree: 98%
+source-wordcount: '2242'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,8 @@ ht-degree: 98%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -63,9 +65,11 @@ ht-degree: 98%
  </tbody> 
 </table>
 
++++
+
 ## ユーザーアカウントを一括編集する
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**ユーザー** ![](assets/users-icon-in-main-menu.png) をクリックします。
+{{step-1-to-users}}
 
 1. 複数のユーザーを選択して、編集アイコン ![](assets/edit-icon.png) をクリックします。
 

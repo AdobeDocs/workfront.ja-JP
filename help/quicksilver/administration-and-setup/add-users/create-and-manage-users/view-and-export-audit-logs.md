@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。監査ログはエクスポートすることもできます。監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '306'
+ht-degree: 94%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 100%
 すべての監査ログのタイプとその生成内容については、[監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -46,9 +48,11 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## 監査ログの表示
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン![](assets/main-menu-icon.png)、**設定**![](assets/gear-icon-settings.png)の順にをクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**システム／監査ログ**&#x200B;をクリックします。
 1. 「**ログタイプ**」ドロップダウンメニューで、表示する監査ログのタイプを選択します。
@@ -70,7 +74,7 @@ ht-degree: 100%
 
 ## 監査ログのエクスポート
 
-1. Adobe Workfront の右上にある&#x200B;**メインメニュー**&#x200B;アイコン（![](assets/main-menu-icon.png)）をクリックし、**設定**&#x200B;アイコン（![](assets/gear-icon-settings.png)）をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**システム／監査ログ**&#x200B;をクリックします。
 

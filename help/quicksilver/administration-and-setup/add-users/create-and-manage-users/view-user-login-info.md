@@ -1,17 +1,17 @@
 ---
-title: ユーザーログイン情報を表示
+title: ユーザーログイン情報の表示
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: ユーザーのリストのビューまたはユーザーのレポートにこの情報を含めることを指定すると、ユーザーが Workfront にログインする頻度と最終ログイン時刻を確認できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 ユーザーのリストのビューまたはユーザーのレポートにこの情報を含めることを指定すると、ユーザーが Adobe Workfront にログインする頻度と最後にログインした時刻を確認できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -45,6 +47,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Workfront によるログイン情報の記録方法
 

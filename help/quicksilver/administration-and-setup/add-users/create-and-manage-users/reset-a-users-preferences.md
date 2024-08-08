@@ -1,5 +1,5 @@
 ---
-title: ユーザーの環境設定をリセット
+title: ユーザーの環境設定のリセット
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
 source-wordcount: '346'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 

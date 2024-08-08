@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: b3717fc89e45983b80471fdd629c79b82086c6ff
+source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 100%
+source-wordcount: '807'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,8 @@ ht-degree: 100%
 -->
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -59,6 +61,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## ユーザーの削除とディアクティベートの違い
 
@@ -118,9 +122,8 @@ ht-degree: 100%
 
 ## 1 人以上のユーザーを削除
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step-1-to-users}}
 
-1. 「**ユーザー**」をクリックします。
 1. 削除するユーザーを少なくとも 1 人選択し、その他メニュー ![](assets/more-icon.png) をクリックします。次に「**削除**」をクリックします。
 1. 表示されるボックスで、「**削除**」をクリックして削除を確定します。
 
