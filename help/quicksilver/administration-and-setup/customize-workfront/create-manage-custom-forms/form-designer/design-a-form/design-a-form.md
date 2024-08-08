@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b2c5990c1ec1656c44c0621e854adf54b6bc19a3
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '5529'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
 
@@ -552,7 +552,7 @@ ht-degree: 91%
 
 外部ルックアップフィールドは、外部 API を呼び出し、値をドロップダウンフィールドのオプションとして返します。カスタムフォームが添付されているオブジェクトを使用するユーザーは、ドロップダウンからこれらのオプションを 1 つ以上選択できます。外部ルックアップフィールドは、リストやレポートでも使用できます。
 
-外部ルックアップフィールドを使用して Workfront やパブリック API の同じインスタンスを呼び出す例について詳しくは、[カスタムフォームの外部ルックアップフィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)を参照してください。
+外部検索フィールドを使用して同じWorkfront インスタンスまたはパブリック API を呼び出す例については、[ カスタムフォームでの外部検索フィールドの例 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md) を参照してください。
 
 >[!NOTE]
 >
@@ -598,7 +598,7 @@ ht-degree: 91%
       <li><p>$$QUERY - これはエンドユーザーがフィールドに入力する検索テキストを表し、エンドユーザーに対するクエリフィルタリングを実装できます。（ユーザーはドロップダウン内で値を検索します）。</p>
       <p>参照している API で許可されている場合は、検索クエリに修飾子を入れて、検索の仕組みを識別することもできます。例えば、次のようにベース API の URL として使用すると、特定のテキストを含む任意の Workfront プロジェクトをユーザーが検索できるようになります。<code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code></p><p>Workfront の検索修飾子について詳しくは、<a href="/help/quicksilver/wf-api/general/api-basics.md">API の基本</a>を参照してください。</p>
       <p><strong>メモ：</strong>$$QUERY を使用せず、ユーザーが検索ボックスにテキストを入力した場合は、既存の選択項目が絞り込まれます。ただし、$$QUERY を使用し、ユーザーが何かを入力した場合は、API へのネットワーク呼び出しが新たに実行されます。したがって、API に 2,000 個を超える値があり、API がクエリをサポートしている場合、$$QUERY を活用して、既存の 2,000 個の値から検索するだけでなく、絞り込まれたオプションを持つ元の API からも検索できます。</p></li>
-      <li><p>{fieldName} - fieldName が Workfront の任意のカスタムフィールドまたはネイティブフィールドである場所。こうして、既に選択されているフィールドの値を外部ルックアップフィールドに渡してオプションをフィルターダウンする際に、カスケードドロップダウンオプションフィルターを実装できます。（例えば、地域フィールドが既にフォーム上に存在し、API から国のリストを特定の地域に属する国に絞り込みます）。</p>
+      <li><p>{fieldName} - fieldName が Workfront の任意のカスタムフィールドまたはネイティブフィールドである場所。この方法では、既に選択されているフィールドの値を外部参照フィールドに渡してオプションをフィルタリングする際に、カスケードドロップダウンオプションフィルターを実装できます。 （例えば、地域フィールドが既にフォーム上に存在し、API から国のリストを特定の地域に属する国に絞り込みます）。</p>
       <p>他のフィールド（{fieldName} 構文を使用）に依存関係を持つ外部ルックアップフィールドの場合、API から返されるオプションは、他のフィールドに入力された文字列や値と一致するものに制限されます。（この機能は、リストとレポートではサポートされていません）。</p></li>
       <li>{referenceObject}.{fieldName} - フィールドがオブジェクトの一部になります。この構文はカスタム式に似ています。（例えば、portfolioID={project}.{portfolioID}）</li></ul>
       <p><strong>メモ：</strong>定義できる特定のクエリについて詳しくは、使用している API のドキュメントを確認してください。</p></td>

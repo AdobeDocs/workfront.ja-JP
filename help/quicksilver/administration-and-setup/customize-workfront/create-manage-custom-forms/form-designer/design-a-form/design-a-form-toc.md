@@ -10,10 +10,10 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 091edfd8-8b69-4a56-9dae-ec73828a3f64
-source-git-commit: 78b24eef63dabcd5f5dcb53e217ced00da915eff
+source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
 workflow-type: tm+mt
 source-wordcount: '91'
-ht-degree: 60%
+ht-degree: 49%
 
 ---
 
@@ -25,5 +25,5 @@ ht-degree: 60%
 * [コピーからのフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
 * [計算フィールドをフォームに追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 * [フォームに表示ロジックとスキップロジックを追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
-* [カスタムフォームの「外部ルックアップ」フィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+* [カスタムフォームの外部検索フィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
 * [フォームの整理とプレビュー](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)

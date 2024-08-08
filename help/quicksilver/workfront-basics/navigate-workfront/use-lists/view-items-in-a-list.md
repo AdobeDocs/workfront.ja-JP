@@ -5,18 +5,14 @@ description: ' [!DNL Adobe Workfront]  内のオブジェクトのリストを�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7d43486ca566ae044fac1bbe20874bb45f833ef7
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2388'
 ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Workfront] のリストの概要
-
-<!--
-{{highlighted-preview}}
--->
 
 [!DNL Adobe Workfront] 内のオブジェクトのリストを表示して、オブジェクトの開始日と期限、オブジェクトに割り当てられたユーザー、オブジェクトに関連付けられている他のオブジェクトなどの情報を取得できます。
 
@@ -208,12 +204,10 @@ ht-degree: 100%
     </ul> </td> 
   </tr>
   <tr> 
-   <td class="preview">カスタムフォームのリスト</td> 
+   <td>カスタムフォームのリスト</td> 
    <td> 
     <ul> 
-     <li class="preview"> <p>[!UICONTROL Setup]／[!UICONTROL Custom Forms]</p>
-     <!--Remove the following note box when this goes to Production. Or do this when the Preview highlighting becomes available.-->
-     <p><b>メモ</b>：現在、プレビュー環境でのみ使用できます。</p> </li> 
+     <li>[!UICONTROL Setup]／[!UICONTROL Custom Forms] </li> 
     </ul> </td> 
   </tr> 
   <tr> 
