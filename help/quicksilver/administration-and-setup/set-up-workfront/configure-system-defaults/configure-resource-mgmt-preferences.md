@@ -4,14 +4,14 @@ product-area: system-administration;setup
 navigation-topic: configure-system-defaults
 title: リソース管理環境設定の指定
 description: ' [!DNL Adobe Workfront] 管理者は、システムのリソース管理環境設定を指定できます。これらのリソース管理環境設定は、ユーザーの空き時間またはキャパシティおよび FTE が [!DNL Workfront] リソースのスケジュールおよび計画ツールでどのように計算されるかを決定します。'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
-source-git-commit: 921749caf6a61fa4f0efae9357c6e05c581421c5
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 100%
+source-wordcount: '711'
+ht-degree: 97%
 
 ---
 
@@ -54,6 +54,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 </table>
 -->
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -77,6 +79,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
  </tbody> 
 </table>
 
++++
+
 ## ユーザーのキャパシティを計算する際に考慮される情報
 
 ユーザーのキャパシティを計算する際に、Workfront では次の情報を考慮に入れます。
@@ -97,7 +101,8 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 >
 >これはグローバル設定なので、この選択は、すべてのリソース管理ツールで、すべてのユーザーに対して、システム全体のすべての計算に影響を及ぼします。
 
-1. [!DNL Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) に続いて、**[!UICONTROL 設定]**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
+
 1. 「**[!UICONTROL リソース管理]**」をクリックします。
 1. 次のいずれかの方法を選択して、[!DNL Workfront] でのユーザーの空き時間を計算します。
 

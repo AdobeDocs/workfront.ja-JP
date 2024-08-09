@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: デフォルトのイシュータイプをカスタマイズ
+title: デフォルトのイシュータイプのカスタマイズ
 description: デフォルトのイシュータイプごとにラベルをカスタマイズして、組織で使用される用語に合わせることができます。イシュータイプは、イシューステータスのカスタマイズやリクエストキューの作成に役立ちます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '449'
+ht-degree: 96%
 
 ---
 
@@ -25,6 +25,8 @@ ht-degree: 100%
 デフォルトのイシュータイプごとにラベルをカスタマイズして、組織で使用される用語に合わせることができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -46,6 +48,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## デフォルトのイシュータイプ
 
@@ -70,7 +74,7 @@ ht-degree: 100%
 
 イシュータイプをカスタマイズするには：
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL ステータス]**&#x200B;をクリックします。
 

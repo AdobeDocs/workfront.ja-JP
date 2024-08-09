@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: システム全体のタスクとイシューの環境設定を指定
+title: システム全体のタスクおよびイシューの環境設定を行う
 description: タスクとイシューに関するシステム全体の環境設定を指定できます。これらの環境設定は、Workfront でのユーザーによるタスクおよびイシューの作成方法に影響します。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '2074'
 ht-degree: 99%
@@ -74,7 +74,7 @@ Linked to Converting Issues.-->
 
    <!--
 <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">作業する</a> </li>
-  -->
+  --&gt;
 
 * [[!UICONTROL アクセス]](#access)
 
@@ -118,7 +118,7 @@ Linked to Converting Issues.-->
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader">[!UICONTROL イシューをタスクに変換する場合]</td> 
+    <td role="rowheader" [!UICONTROL>イシューをタスクに変換する場合]</td> 
     <td> <p>このセクションの設定で、イシューからタスクへ変換するプロセスで起こることを定めます。</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>：イシューを変換する場合、タスクが完了するまで、イシューはイシューとして表示され続けます。タスクが完了すると、イシューのステータスは自動的に [!UICONTROL Closed] に変わります。選択を解除すると、イシューは削除されます。</p> <p><b>メモ</b>：  <p>この設定のステータスに関係なく、イシューを削除するアクセス権や権限を持たないユーザーは、イシューを変換する際にイシューを削除できません。イシューに対するアクセス権および権限について詳しくは、次を参照してください。</p> 

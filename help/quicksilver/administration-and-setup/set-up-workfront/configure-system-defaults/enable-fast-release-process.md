@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: 組織の高速リリースを有効化または無効化
+title: 組織の迅速リリースを有効または無効にする
 description: 新しい Workfront 機能を毎月受け取るか、四半期ごとに受け取るかを選択できます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 71ef7a50-7a9f-43c4-b67c-8d9fc722569f
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 100%
+source-wordcount: '368'
+ht-degree: 97%
 
 ---
 
@@ -47,7 +47,8 @@ Adobe Workfront には、新機能と更新をリリースするためのモデ�
 
 迅速リリースプロセスを有効または無効にするには、次の手順に従います。
 
-1. **メインメニューアイコン**&#x200B;をクリックし、「**設定**」をクリックします。
+{{step-1-to-setup}}
+
 1. 左側のナビゲーションで「**システム**」を展開し、「**環境設定**」をクリックします。
 1. 迅速リリースを有効にするには、「**迅速リリースプロセスを有効にする**」チェックボックスをオンにします。
 

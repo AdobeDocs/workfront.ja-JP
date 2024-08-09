@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
-title: 場所を設定
+title: 場所の設定
 description: Adobe Workfront 管理者は、評価カードで担当業務の割り当てに使用できるデフォルトの場所を設定できます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 100%
+source-wordcount: '232'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 評価カードを使用すると、組織でプロジェクトの請求レートを簡単に管理できます。詳しくは、[評価カードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。[!DNL Adobe] [!DNL Workfront] 管理者は、評価カードで担当業務の割り当てに使用できるデフォルトの場所を設定できます。これにより、評価カードが各場所の市場評価を正確に反映します。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -44,6 +46,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 組織全体の場所を設定
 

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects;setup
 navigation-topic: configure-system-defaults
-title: プロジェクトのタイムライン再計算を設定
+title: プロジェクトのタイムラインの再計算を構成する
 description: タイムラインを再計算すると、管理者は、プロジェクトの外部の力がプロジェクトのタイムラインに与える影響を確認できます。プロジェクトのタイムラインとは、プロジェクトの予定日と見込み日のことです。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: 4705c3fc76c1544f8c71e70a773432f164282abb
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 100%
+source-wordcount: '443'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 この記事では、[!DNL Workfront] 管理者として、[!UICONTROL 設定]エリアでプロジェクトの環境設定を行うことで、[!DNL Workfront] プロジェクトのタイムラインを自動計算する方法とタイミングの決定方法について説明します。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -46,11 +48,13 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## 自動再計算の設定
 
 [!DNL Adobe Workfront] 管理者は、[!DNL Workfront] がプロジェクトタイムラインの自動再計算するタイミングを設定できます。[!DNL Workfront] では、毎晩、またはプロジェクトの範囲が変更されたとき、あるいはその両方に対して、プロジェクトのタイムラインを再計算できます。
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックするか、[!DNL Workfront] の左上隅の&#x200B;[!UICONTROL **メインメニュー**]&#x200B;アイコン ![](assets/lines-main-menu.png) をクリックして（利用可能な場合）、**[!UICONTROL セットアップ]** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL プロジェクト]をクリックします。**
 

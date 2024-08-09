@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: manage-rate-cards
-title: 評価カードを管理
+title: 評価カードの管理
 description: レートカードを使用すると、場所に基づいて、役割ごとに複数の請求レートを定義できます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
-source-git-commit: a61635022da9eed7c2fc61bad1cbca0f7f23d7ec
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 100%
+source-wordcount: '691'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 レートカードを使用すると、場所に基づいて、役割ごとに複数の請求レートを定義できます。例えば、パリを拠点とするデザイナーとニューヨークを拠点とする別のデザイナーの 2 つの担当業務を持ち、それぞれに異なる請求レートで設定できます。ただし、レートカードの担当業務に場所は必要ありません。レートカードの担当業務（場所が含まれる場合もあります）の請求レートには、有効日付を含めることもできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -50,6 +52,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## レートカードを追加
 

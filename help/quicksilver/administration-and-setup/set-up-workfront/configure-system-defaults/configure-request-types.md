@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
-title: リクエストタイプを設定
+title: リクエストタイプの設定
 description: プロジェクトに取り組んでいると、予期しないイベントが発生することがあります。これらの予期しないイベントは、特定のプロジェクトやタスクに対するイシューとして記録できます。リクエストを送信することもできます。リクエストは、リクエストキューとして指定されたプロジェクトのイシューとして記録されます。Adobe Workfront では、イシューとリクエストは互換性があると見なします。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '484'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 [!DNL Workfront] でのイシューの作成については、[イシューの作成](../../../manage-work/issues/manage-issues/create-issues.md)を参照してください。[!DNL Workfront] でのリクエストの作成については、[ [!DNL Adobe Workfront] リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。リクエストタイプとプロジェクトの関連付けについては、[プロジェクトのリクエストタイプの定義](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,6 +45,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 <!--
 THIS IS DRAFTED IN FLARE
@@ -77,7 +81,7 @@ You must have at least one request type selected. You can select multiple reques
 
 リクエストタイプ名をカスタマイズするには：
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL ステータス]**&#x200B;をクリックします。
 

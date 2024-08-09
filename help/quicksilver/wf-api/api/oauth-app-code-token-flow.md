@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: 6f041459caf040846ffdec5bc75e9d74c99e318b
+source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 100%
+source-wordcount: '717'
+ht-degree: 95%
 
 ---
 
@@ -44,9 +44,9 @@ OAuth2 アプリケーションの作成手順について詳しくは、[Workfr
   ```
 
 
-* `client_id`：これは、Workfront で OAuth2 アプリの作成時に生成されるクライアント ID です。
+* `client_id`：これは、Workfrontで OAuth2 アプリを作成したときに生成されたクライアント ID です。
 
-* `redirect_uri`：アプリの作成時に入力したリダイレクト URL です。ユーザーは、アカウントでアプリを認証した後、このページに誘導されます。
+* `redirect_uri`：この URL は、OAuth2 アプリの作成時にWorkfrontに入力したリダイレクト URL と同じである必要があります。 ユーザーは、アカウントでアプリを認証した後、このページに誘導されます。
 
 * `response_type`：`code` の値を持つ必要があります。
 

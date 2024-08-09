@@ -5,13 +5,13 @@ product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
 title: ファイアウォールの概要
 description: Adobe Workfront は組織のネットワークと通信するので、組織のファイアウォールがその通信を許可するように設定されている必要があります。ファイアウォールは、組織のネットワークをインターネットから分離することによって機能する、非常に効果的なセキュリティ対策です。これにより、選択したデータとネットワークトラフィックのみが組織のネットワークに出入りできるようになります。ファイアウォールは、データの送受信を行うサイトに基づいて、データを許可またはブロックします。Adobe Workfront 管理者は、Workfront との間で送信されるデータが組織のファイアウォールを通過できることを確認する必要があります。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5f8df2cc919b2e2d8f2a4b9373a63ccf3cbec506
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '726'
 ht-degree: 98%
 
 ---
@@ -98,7 +98,7 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
 
 ### 組織のクラスターと Workfront プランを表示する {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**システム**」をクリックします。
 1. クラスターを表示するには、「**顧客情報**」を選択します。

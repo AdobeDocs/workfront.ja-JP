@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: デフォルトのフィルター、ビュー、グループ化を作成、編集および共有
+title: デフォルトのフィルター、ビュー、グループ化を作成、編集、共有します。
 description: デフォルトのフィルター、ビューおよびグループ化を作成すると、組織内のユーザーが使用できるようなります。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '820'
-ht-degree: 100%
+source-wordcount: '831'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 100%
 この記事で説明するように、デフォルトのフィルター、ビューおよびグループ化を作成すると、共有相手のユーザーは、リストを表示する際にそれらを活用できます。ユーザーは、作成されたフィルター、ビューおよびグループに基づいて独自のフィルター、ビューおよびグループ化を作成できますが、他のユーザーに作成されたフィルター、ビューおよびグループ化を直接変更することはできません。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -47,6 +49,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## デフォルトのフィルター、ビューまたはグループ化の作成
 

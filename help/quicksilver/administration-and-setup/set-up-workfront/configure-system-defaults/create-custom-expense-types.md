@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: カスタム費用タイプを作成
+title: カスタム費用タイプの作成
 description: ' [!DNL Adobe Workfront]  管理者は、カスタム費用タイプを作成して、タスクやプロジェクトに関連する費用を定義および追跡できます。費用は、タスクやプロジェクトに関連付けることができる労力以外のコストです。'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 作成した費用タイプは、編集や削除することができます。組み込みの [!DNL Workfront] 費用タイプは、削除したり編集したりすることができません。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -46,6 +48,8 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## デフォルトの費用タイプ
 
 デフォルトで [!DNL Workfront] に含まれる費用タイプは、次の項目を含み、削除したり編集したりすることができません。
@@ -59,7 +63,8 @@ ht-degree: 100%
 
 ## カスタム費用タイプを作成
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step-1-to-setup}}
+
 1. 「**[!UICONTROL 費用タイプ]**」をクリックします。
 1. 「**[!UICONTROL 新規費用タイプ]**」をクリックします。
 1. 表示される「**[!UICONTROL 新規費用タイプ]**」ボックスで、次の情報を指定します。
@@ -101,7 +106,8 @@ ht-degree: 100%
 
 ## カスタム費用タイプを変更
 
-1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step-1-to-setup}}
+
 1. 「**[!UICONTROL 費用タイプ]**」をクリックします。
 1. 変更する費用タイプを選択してから、「**[!UICONTROL 編集]**」をクリックします。
 

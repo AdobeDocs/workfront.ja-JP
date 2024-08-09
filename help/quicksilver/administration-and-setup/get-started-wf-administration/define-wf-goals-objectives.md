@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
-title: Adobe Workfront 実装における目標定義の概要
+title: Adobe Workfront実装の目標の定義の概要
 description: Adobe Workfront を実装する場合、達成基準の原則を特定することが重要です。まず、現在のプロセス、組織構造、ワークフローを文書化し、Workfront が組織にどのように適合するかに関する全体的な目的を定義することをお勧めします。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

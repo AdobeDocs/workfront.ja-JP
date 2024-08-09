@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: ファイアウォールの許可リストの設定
+title: ファイアウォールの許可リスト
 description: ファイアウォールやメールサーバーが、特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをその許可リストに追加する必要があります。これにより、環境と Adobe Workfront サーバー間の通信が開き、ユーザーは Workfront からメッセージを送信し、Active Directory または LDAP で SSO を使用することが可能になります。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 97%
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -59,7 +59,8 @@ ht-degree: 97%
 
 組織のクラスターを検索するには、次の手順に従います。
 
-1. Workfront 管理者が、**メインメニュー**&#x200B;アイコン ![メインメニュー](assets/main-menu-icon.png) をクリックし、次に&#x200B;**設定**&#x200B;をクリックします。
+{{step-1-to-setup}}
+
 1. 左側のナビゲーションで、**システム**&#x200B;をクリックし、次に&#x200B;**顧客情報**&#x200B;を選択します。
 1. ページの右上隅の「**クラスターの設定**」フィールドの場所を特定します。組織のクラスターがここに一覧表示されます。
 

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）
+title: プラットフォームベースの管理の違い（Adobe Workfront/Adobeビジネスプラットフォーム）
 description: 組織が Adobe Business Platform にオンボーディングされている場合、ユーザーは Adobe Business Platform を使用して Adobe Workfront にアクセスします。つまり、ユーザー管理は主に Adobe Admin Console を通じて行われ、シングルサインオン（SSO）は Workfront を通じてではなく Adobe Business Platform を通じて処理されます。Adobe Workfront 管理者の管理上の責任と手順は、組織が Adobe Business Platform にオンボーディングされているかどうかで異なります。この記事では、別々の方法で処理する必要がある手順と、Workfront と Adobe Admin Console の両方の手順へのリンクを示します。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

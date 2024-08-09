@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: リスクタイプを編集および作成
+title: 危険タイプの編集および作成
 description: 計画段階では、すべての作業の承認前に、潜在的な障害物を特定するためのリスクがプロジェクトに追加されます。リスクとは、プロジェクトを期限内または予算内で完了することを妨げる可能性のあるイベントです。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 2fd772ffc667c4f32c6a7b0de9c87676ee6dd65b
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '444'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 計画段階では、すべての作業の承認前に、潜在的な障害物を特定するためのリスクがプロジェクトに追加されます。リスクとは、プロジェクトを期限内または予算内で完了することを妨げる可能性のあるイベントです。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -44,6 +46,8 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## リスクタイプ
 
 リスクタイプは、レポート目的でリスクを分類するために使用できるラベルです。リスクタイプは、[!DNL Adobe Workfront] 管理者が&#x200B;**[!UICONTROL 設定]**&#x200B;エリアで作成します。**[!UICONTROL 設定]**&#x200B;エリアでリスクタイプが確立されると、リスクタイプはシステムに共通になります。すべてのプロジェクト所有者は、プロジェクトに同じリスクタイプを使用できます。
@@ -57,7 +61,7 @@ ht-degree: 100%
 
 ### 既存のリスクタイプを編集 {#edit-existing-risk-types}
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 「**[!UICONTROL リスクタイプ]**」をクリックします。
 1. 編集するリスクタイプを選択します。
@@ -74,7 +78,7 @@ ht-degree: 100%
 
 リスクタイプを新規作成。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 「**[!UICONTROL リスクタイプ]**」をクリックします。
 1. 「**[!UICONTROL 新しいリスクタイプ]**」をクリックします。

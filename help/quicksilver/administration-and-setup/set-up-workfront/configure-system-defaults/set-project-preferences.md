@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: システム全体のプロジェクト環境設定を指定
+title: システム全体のプロジェクト環境設定の指定
 description: ' [!DNL Adobe Workfront]  管理者は、システム全体で作成されるすべてのプロジェクトに対して、デフォルトの環境設定を指定できます。これらの環境設定は、プロジェクト、タスクおよびイシューの動作に影響を与えます。'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 93a2630ec5c21f03643a29a8730046c8458c795f
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '2561'
 ht-degree: 96%

@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: start-with-workfront-administration
 title: お知らせの送信
 description: Adobe Workfront 管理者は、お知らせページを使用してユーザーにお知らせを送信できます。
-author: Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '616'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ Workfront からのお知らせメッセージには通常、新機能とリリ�
 お知らせの表示については、[アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ Workfront からのお知らせメッセージには通常、新機能とリリ�
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## ユーザーへのお知らせの送信
 

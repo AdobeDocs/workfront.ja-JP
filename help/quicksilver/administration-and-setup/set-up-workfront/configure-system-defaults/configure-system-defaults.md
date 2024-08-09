@@ -5,15 +5,15 @@ product-area: system-administration;setup
 navigation-topic: set-up-workfront
 title: システムのデフォルトの設定
 description: ' [!DNL Adobe Workfront]  管理者は、ユーザーが作成するすべてのプロジェクトの環境設定など、システムのデフォルトを設定できます。'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
 source-wordcount: '108'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

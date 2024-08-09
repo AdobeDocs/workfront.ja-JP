@@ -2,22 +2,22 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: メール許可リストの設定
+title: メールの設定許可リスト
 description: 組織が Workfront エンタープライズプランを使用する場合は、Workfront メール許可リストを作成して、どのメールドメインが Workfront からのメールの受け入れを許可するか、そしてユーザーがユーザープロファイルで指定するメールアドレスにどのメールドメインを含めることができるかを制御できます。これは、組織のセキュリティポリシーにより、ユーザーが Workfront に保存されているデータを外部のメールアドレスに送信できないように制限されている場合に便利です。会社の内部ドメインのみを許可リストに含めることにより、このポリシーが確実に遵守されます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 100%
+source-wordcount: '508'
+ht-degree: 93%
 
 ---
 
 # メール許可リストの設定
 
-組織で Workfront エンタープライズプランを使用している場合、Workfront メール許可リストを作成すると、以下の項目を制御できます。
+Workfront エンタープライズプランを使用している場合は、以下を管理するWorkfront メール許可リストを作成できます。
 
 * Workfront からのメールを受け入れることが許可されているメールドメイン。
 * ユーザープロファイルでユーザーが指定したメールアドレスに含めることができるメールドメイン。
@@ -31,13 +31,13 @@ ht-degree: 100%
 >Workfront からのメールは、メール配信の成功率を高め、メールのなりすましを排除するために、すべてそのアドレスから送信されます。これには、自動アラートとユーザー間通信の両方が含まれます。
 >
 >例えば、Joan Harris という名前のユーザーから受け取った Workfront メールの送信者行は次のようになります。
->```
->Joan Harris <notifications@my.workfront.com>
->```
+>`Joan Harris <notifications@my.workfront.com>`
 
 ご使用の環境と Adobe Workfront サーバー間の通信を開くための組織のファイアウォールの設定について詳しくは、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -60,6 +60,8 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## その他の許可リスト
 
 組織にエンタープライズプランがある場合は、Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 45 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。詳しくは、[IP アドレスによる Adobe Workfront へのアクセスの制限](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)を参照してください。
@@ -68,12 +70,10 @@ ht-degree: 100%
 
 ## メール許可リストの設定
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **システム**／**顧客情報**&#x200B;をクリックします。
-
 1. 「**メールの許可リスト**」セクションで、「**ドメインの許可リストを有効にする**」を選択し、次に「**ドメインを追加**」をクリックします。
 1. 表示されるボックスに、許可するドメイン（例：`ourcompany.com`）を入力し、次に「**ドメインを追加**」をクリックします。
-
 1. 上記の手順を繰り返して、許可する他のドメインを追加します。
 1. 完了したら、「**保存**」をクリックします。
