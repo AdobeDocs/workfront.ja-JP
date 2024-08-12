@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
 workflow-type: tm+mt
-source-wordcount: '14310'
+source-wordcount: '14317'
 ht-degree: 93%
 
 ---
@@ -1817,6 +1817,7 @@ ht-degree: 93%
          * [アセットまたはドキュメントからの承認者またはレビュー担当者の削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [アセットおよびドキュメント用の承認テンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
          * [接続された Workfront プロジェクトへの Frame.io アセットの追加](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+         * [新しいドキュメント承認とプルーフの併用](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * アセットとドキュメントのレビューと承認 {#review-and-approve-documents}
          * [ドキュメントの確認と承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [ドキュメントのレビュー](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
