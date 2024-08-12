@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion Adobe Workfront コネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: f8abe5240f163693c30dc1bd6cf77e4cad5ea476
+source-git-commit: 7c00ea85b4a03346cdb39c937a1cef970d409ef0
 workflow-type: tm+mt
-source-wordcount: '6259'
-ht-degree: 99%
+source-wordcount: '6280'
+ht-degree: 98%
 
 ---
 
@@ -147,7 +147,8 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->Workfront モジュールに最新のフィールドが表示されない場合は、キャッシュの問題が原因である可能性があります。1 時間待ってから、もう一度試してください。
+>* Workfront モジュールに最新のフィールドが表示されない場合は、キャッシュの問題が原因である可能性があります。1 時間待ってから、もう一度試してください。
+>* Adobe Workfrontの HTTP 429 ステータスコードは、アクティベート解除の原因ではなく、代わりに、シナリオで短い実行の一時停止をトリガーにする必要があります。
 
 ![](assets/map-toggle-350x74.png)
 
