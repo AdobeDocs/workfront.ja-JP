@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 4fbeeffc48d47e04c00d9695b346cbed2633748e
+source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14309'
 ht-degree: 93%
 
 ---
@@ -804,9 +804,6 @@ ht-degree: 93%
       * [ブループリントを設定する](administration-and-setup/blueprints/configure-template-package.md)
       * [ブループリントのインストール後に実行するアクション](administration-and-setup/blueprints/best-next-actions-after-install.md)
       * [使用可能なブループリントのリスト](administration-and-setup/blueprints/list-of-available-blueprints.md)
-   * 管理者に関する FAQ {#admin-faq}
-      * [管理者向け FAQ](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
-      * [AtTask OnPremise サポートポリシー](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
    * Adobe Admin Consoleでの管理 {#admin-in-admin-console}
       * [Adobe Admin Console での Workfront 管理](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
       * [Adobe Admin Console の準備](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
