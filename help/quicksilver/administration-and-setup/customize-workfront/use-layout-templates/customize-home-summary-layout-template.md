@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: abaabf12d63ea1e279d14ad8467ac239e6c211b1
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 100%
+source-wordcount: '1006'
+ht-degree: 98%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## レイアウトテンプレートを使用したホームと概要のカスタマイズ
 

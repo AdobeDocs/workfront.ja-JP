@@ -1,5 +1,5 @@
 ---
-title: レイアウトテンプレートを使用してランディングページをカスタマイズ
+title: レイアウトテンプレートを使用したランディングページのカスタマイズ
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 87%
+source-wordcount: '387'
+ht-degree: 83%
 
 ---
 
@@ -30,6 +30,8 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
 >リクエストがランディングページとして設定されている場合、レイアウトテンプレートに割り当てられた投稿者または依頼者ユーザーには、代わりにホームページがランディングページとして表示されます。 投稿者または依頼者ユーザー向けのレイアウトテンプレートの場合は、リクエスト以外のランディングページを選択することをお勧めします。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -52,6 +54,8 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## ランディングページのカスタマイズ
 

@@ -1,5 +1,5 @@
 ---
-title: デフォルトの Adobe Workfront レイアウトについて
+title: デフォルトのAdobe Workfrontのレイアウトについて
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: bd1ebbedecff63fcc9165bd6e409ca1b3b632b3d
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
 source-wordcount: '309'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 

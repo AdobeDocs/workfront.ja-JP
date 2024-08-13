@@ -1,5 +1,5 @@
 ---
-title: レイアウトテンプレートを使用したフィルター、表示およびグループ化のカスタマイズ
+title: レイアウトテンプレートを使用したフィルター、ビュー、グループ化のカスタマイズ
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 100%
+source-wordcount: '786'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,8 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
 レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -50,6 +52,8 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## フィルター、表示およびグループ化のリストコントロールをカスタマイズ：
 

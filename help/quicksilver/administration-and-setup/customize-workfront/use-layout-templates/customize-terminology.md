@@ -1,5 +1,5 @@
 ---
-title: レイアウトテンプレートを使用したユーザーインターフェイスの用語のカスタマイズ
+title: レイアウトテンプレートを使用したユーザーインターフェイス用語のカスタマイズ
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 100%
+source-wordcount: '666'
+ht-degree: 97%
 
 ---
 
@@ -45,6 +45,8 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -66,6 +68,8 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## ユーザーインターフェイスの用語のカスタマイズ
 

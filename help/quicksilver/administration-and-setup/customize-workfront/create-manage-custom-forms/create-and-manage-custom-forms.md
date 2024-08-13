@@ -1,5 +1,5 @@
 ---
-title: 「カスタムフォーム：記事インデックス」
+title: "Custom Forms:Article Index"
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -10,7 +10,7 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: a732344d-aca5-4825-b360-a4b49076b4d0
-source-git-commit: e15b2866d8dd93d9d8cbc37b204da51d748523c8
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 93%

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,8 @@ Classic Workfront エクスペリエンスのレイアウトテンプレート�
 Classic レイアウトテンプレートを削除すると、これらの不整合を解決できます。これらは Workfront のインターフェイスでは使用できないので、Workfront API を使用して削除する必要があります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,6 +45,8 @@ Classic レイアウトテンプレートを削除すると、これらの不整
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## API 呼び出しを使用した Classic レイアウトテンプレートの削除
 

@@ -1,5 +1,5 @@
 ---
-title: レイアウトテンプレートを使用した Adobe Workfront のブランディング
+title: レイアウトテンプレートを使用した Brand Adobe Workfront
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '573'
+ht-degree: 96%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## レイアウトテンプレートを使用した Adobe Workfront のブランディング
 

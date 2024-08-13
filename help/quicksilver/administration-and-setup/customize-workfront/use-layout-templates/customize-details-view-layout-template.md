@@ -1,5 +1,5 @@
 ---
-title: レイアウトテンプレートを使用して詳細ビューをカスタマイズする
+title: レイアウトテンプレートを使用した詳細ビューのカスタマイズ
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 7c624eff8931d206285b6c4d91083f4bf09a88b0
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 96%
 
 ---
 
@@ -67,6 +67,8 @@ or billing record
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -88,6 +90,8 @@ or billing record
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 詳細ビューでユーザーに表示する項目をカスタマイズする
 

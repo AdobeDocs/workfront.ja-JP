@@ -1,5 +1,5 @@
 ---
-title: レイアウトテンプレートを使用した新しいホームのカスタマイズ
+title: レイアウトテンプレートを使用して新しいホームをカスタマイズ
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: c915c282c6258300b01600dd5b6247e96bf45185
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 97%
+source-wordcount: '840'
+ht-degree: 95%
 
 ---
 
@@ -41,6 +41,8 @@ ht-degree: 97%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -62,6 +64,8 @@ ht-degree: 97%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## レイアウトテンプレートを使用した新しいホームのカスタマイズ
 

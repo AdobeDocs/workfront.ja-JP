@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: 34b1bf4e776a1f5b4a413ab9f78bed63c4b64f45
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 97%
+source-wordcount: '523'
+ht-degree: 94%
 
 ---
 
@@ -32,6 +32,8 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -59,6 +61,8 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 </table>
 
 まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+
++++
 
 ## オブジェクトヘッダーをカスタマイズ
 

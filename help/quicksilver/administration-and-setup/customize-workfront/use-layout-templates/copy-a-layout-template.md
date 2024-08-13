@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: fec77b37-3968-4e0e-8034-63a816a7a3d5
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '343'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -47,9 +49,11 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## レイアウトテンプレートのコピー
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**インターフェイス**／**レイアウトテンプレート**&#x200B;をクリックします。
 

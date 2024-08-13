@@ -1,5 +1,5 @@
 ---
-title: レイアウトテンプレートを使用した固定されたページのカスタマイズ
+title: レイアウトテンプレートを使用したピン留めページのカスタマイズ
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 100%
+source-wordcount: '485'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 100%
 レイアウトテンプレートを設定した後、変更を他のユーザーに表示するために、ユーザーに割り当てる必要があります。レイアウトテンプレートのユーザーへの割り当てについて詳しくは、[ユーザーのレイアウトテンプレートへの割り当て](../use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -52,6 +54,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## レイアウトテンプレートを使用してページをピン留め
 
