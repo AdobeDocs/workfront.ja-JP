@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront Goals へのユーザーのアクセス権を定義できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 Adobe Workfront 管理者は、アクセスレベルを使用し、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)の説明に従って、Adobe Workfront Goals へのユーザーのアクセス権を定義できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 ユーザーに Workfront Goals へのアクセス権を付与するには、以下が必要です。
 
@@ -49,6 +51,8 @@ Adobe Workfront 管理者は、アクセスレベルを使用し、[アクセス
 &#42;ご利用のプラン、ライセンスタイプやアクセスレベルを確認するには、Workfront 管理者にお問い合わせください。
 
 Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+
++++
 
 ## カスタムアクセスレベルを使用した、ユーザーへの Workfront Goals へのアクセス権の付与
 

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: タイムシートおよび時間の環境設定の指定
+title: タイムシートおよび時間設定の構成
 description: ' [!DNL Adobe Workfront]  管理者は、 [!DNL Workfront]  でタイムシートと時間の環境設定を指定して、タイムシートに事前入力できる項目とユーザーが時間を記録できる項目を定義できます。'
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 66e6c96ca51a159f6e9a16178f06dd016217c7d8
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 100%
+source-wordcount: '1420'
+ht-degree: 98%
 
 ---
 
@@ -33,11 +33,11 @@ ht-degree: 100%
 >
 >詳しくは、[ログ時間](../../../timesheets/create-and-manage-timesheets/log-time.md)と[タイムシートの概要](/help/quicksilver/timesheets/timesheets/timesheets-overview.md)を参照してください。
 
-
-
 タイムシートに加えた変更は、今後作成されるすべてのタイムシートに影響します。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -64,6 +64,8 @@ ht-degree: 100%
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## タイムシートおよび時間の環境設定の指定
 

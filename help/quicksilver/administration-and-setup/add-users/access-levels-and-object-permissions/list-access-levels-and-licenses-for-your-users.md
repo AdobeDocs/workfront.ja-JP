@@ -1,19 +1,19 @@
 ---
-title: ユーザーのアクセスレベルとライセンスの一覧を表示
+title: ユーザーのアクセスレベルとライセンスのリスト
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: アクセス、レベル、ライセンス
 navigation-topic: access-levels
 description: ユーザーリストまたはレポートで、各ユーザーに割り当てられているアクセスレベルとライセンスを確認できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 100%
+source-wordcount: '311'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 ユーザーリストまたはレポートで、各ユーザーに割り当てられているアクセスレベルとライセンスを確認できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -46,11 +48,13 @@ ht-degree: 100%
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
++++
+
 ## ユーザーのアクセスレベルとライセンスの一覧を表示
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**レポート**」の順にクリックします。
+{{step-1-to-users}}
 
-   デフォルトでは、アクティブと設定されたすべてのユーザーがリストに表示されます。
+デフォルトでは、アクティブと設定されたすべてのユーザーがリストに表示されます。
 
 1. **表示**&#x200B;ドロップダウンメニューで、「**ライセンス**」を選択します。
 

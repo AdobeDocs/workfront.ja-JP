@@ -5,15 +5,15 @@ content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: 条件とは、プロジェクト、タスク、イシューの進行状況を視覚的に表したものです。Adobe Workfront 管理者は、Workfront で作成した条件をプロジェクト、タスク、イシューで使用したり、組織のニーズにより近いカスタム条件を作成したりできます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bbe6f0a0-18bf-4229-a50a-aa7286b82626
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 

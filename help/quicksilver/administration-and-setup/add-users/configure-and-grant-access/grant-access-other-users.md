@@ -1,14 +1,14 @@
 ---
-title: ユーザーへのアクセスを許可
+title: ユーザーへのアクセスの許可
 description: Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront の他のユーザーに対するユーザーのアクセス権を定義できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 100%
+source-wordcount: '779'
+ht-degree: 98%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 Adobe Workfront 管理者は、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)の説明に従って、アクセスレベルを使用して、Workfront の他のユーザーに対するユーザーのアクセス権を定義できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -39,6 +41,8 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## ユーザーへのアクセスの設定
 

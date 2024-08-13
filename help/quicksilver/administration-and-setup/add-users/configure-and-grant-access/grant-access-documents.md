@@ -1,17 +1,17 @@
 ---
-title: ドキュメントに対するアクセス権の付与
+title: ドキュメントへのアクセス権の付与
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront でユーザーのドキュメントへのアクセスを定義できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba1d9a9b-7a1f-498b-a6e5-c548a11ac87c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 100%
+source-wordcount: '605'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、[アクセ
 カスタムアクセスレベルを使用して、Workfront の他のオブジェクトタイプへのユーザーのアクセスを管理する方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、[アクセ
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## カスタムアクセスレベルを使用したドキュメントへのユーザーアクセスの設定
 

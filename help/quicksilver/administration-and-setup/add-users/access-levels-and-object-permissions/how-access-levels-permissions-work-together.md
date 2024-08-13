@@ -1,19 +1,19 @@
 ---
-title: アクセスレベルと権限の連携の仕組み
+title: アクセスレベルと権限の連携方法
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: アクセス, モデル, ファネル, ダイアグラム, レベル, 権限
 navigation-topic: access-levels
 description: Adobe Workfront 管理者は、各ユーザーが持つ必要のあるアクセスレベルを決定します。このアクセスレベルは、ユーザーがシステム内のオブジェクトタイプやエリアで表示および操作できる内容を定義します。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 09afa5808fd4078def16da7a9ccf393c99f47d03
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

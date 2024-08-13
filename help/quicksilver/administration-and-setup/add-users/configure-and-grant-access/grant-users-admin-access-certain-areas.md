@@ -1,14 +1,14 @@
 ---
-title: 特定の領域に対する管理アクセス権をユーザーに付与
+title: 特定の領域への管理者アクセス権をユーザーに付与する
 description: Adobe Workfront 管理者は、アクセスレベルを使用して、プランライセンスを持つユーザーに、システムの特定の領域への管理アクセス権を付与できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
-source-git-commit: 253a116e04e0b3a729331f5d0a29405e82808390
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 100%
+source-wordcount: '843'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、プラン�
 >これは、[ユーザーに完全な管理アクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)で説明されている、Workfront に対する完全な管理アクセス権をユーザーに付与することとは異なります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,13 +47,15 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、プラン�
  </tbody> 
 </table>
 
++++
+
 ## Workfront の特定の領域に対する管理アクセス権をプランユーザーに付与
 
 >[!IMPORTANT]
 >
 >ユーザーを設定した後で参照できるように、組み込みのアクセスレベルを変更しないことを強くお勧めします。アクセスレベルをカスタマイズするには、デフォルトのアクセスレベルをコピーし、そのコピーを変更します。（システム管理者と外部ユーザーを除くすべてのアクセスレベルで、これを実行できます）。
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**設定** ![](assets/gear-icon-settings.png)」の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**アクセスレベル**」をクリックします。
 1. Workfront の特定の領域への管理アクセス権をユーザーに付与するために使用する、アクセスレベルの名前をクリックします。

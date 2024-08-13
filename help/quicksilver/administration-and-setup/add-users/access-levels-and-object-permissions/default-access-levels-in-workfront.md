@@ -4,16 +4,16 @@ content-type: reference
 product-area: system-administration
 keywords: アクセス, モデル, ファネル, ダイアグラム, レベル, 権限
 navigation-topic: access-levels
-title: 組み込みアクセスレベル
+title: 組み込みのアクセスレベル
 description: 現在の 6 つの組み込みアクセスレベルは、システム管理者、計画担当者、作業者、レビュアー、要求者、外部ユーザーなど、特定の種類のユーザーに対して設計されています。これらのアクセスレベルを使用すると、ユーザーがシステムで編集および表示できる内容を制御できます。カスタムのアクセスレベルが必要な場合は、組み込みのアクセスレベルをコピーし、様々な Workfront オブジェクトのタイプに許可するアクセス権に応じて変更できます。
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 9d2165cdc9399273a4f79b90d4049f50097cadee
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '1685'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

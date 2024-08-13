@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
-title: ADFS を使用した Adobe Workfront と SAML 2.0 の連携の設定
+title: ADFS を使用した SAML 2.0 でのAdobe Workfrontの設定
 description: SAML 2.0 で Workfront に対する認証を有効にできます。
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 100%
+source-wordcount: '878'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ Adobe Workfront の管理者は、Active Directory Federation Services（ADFS）
 このガイドでは、自動プロビジョニングまたは属性マッピングを使用しない ADFS の設定に焦点を当てています。自動プロビジョニングを設定する前に、設定を完了してテストすることをお勧めします。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -46,6 +48,8 @@ Adobe Workfront の管理者は、Active Directory Federation Services（ADFS）
  </tbody> 
 </table>
 
++++
+
 ## SAML 2.0 と連携する Workfront に対する認証の有効化
 
 SAML 2.0 を使用してWorkfront web アプリケーションと Workfront モバイルアプリケーションに対する認証を有効にするには、次の節を完了します。
@@ -57,7 +61,8 @@ SAML 2.0 を使用してWorkfront web アプリケーションと Workfront モ�
 
 ### Workfront SSO メタデータファイルの取得 {#retrieve-the-workfront-sso-metadata-file}
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
+
 1. 左側のパネルで、**システム**／**シングルサインオン（SSO）**&#x200B;をクリックします。
 1. **タイプ**&#x200B;ドロップダウンメニューで「**SAML 2.0**」をクリックすると、追加の情報とオプションが表示されます。
 1. **メタデータ URL** の後に表示される URL をコピーします。

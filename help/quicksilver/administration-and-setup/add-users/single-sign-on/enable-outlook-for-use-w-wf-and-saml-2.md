@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Workfront と SAML 2.0 での Outlook の使用を有効化
+title: Outlook をWorkfrontおよび SAML 2.0 で使用できるようにする
 description: SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報を使用して Microsoft Outlook から Workfront にログインできるようにする場合は、Office アドインで SAML 2.0 を有効にして認証を行う必要があります。
-author: Caroline, Becky
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 93%
 
 ---
 
@@ -28,6 +28,8 @@ SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報�
 >詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -50,9 +52,12 @@ SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報�
  </tbody> 
 </table>
 
++++
+
 ## Workfront と SAML 2.0 での Outlook の使用を有効化
 
-1. グローバルナビゲーションバーの Adobe Workfront の右上隅付近で「**設定**」をクリックします。
+{{step-1-to-setup}}
+
 1. **システム**／**環境設定**&#x200B;をクリックします。
 
 1. 「**セキュリティ**」セクションで、「**Office 365 アドインで SAML 2.0 Authentication を許可**」が有効になっていることを確認します。

@@ -1,17 +1,17 @@
 ---
-title: 条件の表示順を変更する
+title: 条件の表示順序の変更
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: ユーザーがプロジェクトを編集したとき、またはタスクやイシューの条件を変更したときに、条件が表示される順序を変更できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 100%
+source-wordcount: '187'
+ht-degree: 90%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 100%
   ![](assets/change-conditions-list-dropdown-only.png)
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -50,9 +52,11 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## 条件の表示順を変更する
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. **プロジェクト環境設定**／**条件**&#x200B;をクリックします。
 

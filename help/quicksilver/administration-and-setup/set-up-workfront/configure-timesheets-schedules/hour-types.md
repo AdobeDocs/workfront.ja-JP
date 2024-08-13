@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: 時間タイプを管理
+title: 時間タイプの管理
 description: 時間タイプを時間エントリに関連付けることができます。時間タイプは、時間エントリの定義に使用するラベルです。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 212dda4289e4d29dbfbff0dbdc55315215b5ad91
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '759'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 

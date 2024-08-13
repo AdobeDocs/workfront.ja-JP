@@ -1,19 +1,19 @@
 ---
-title: Adobe Workfront へのアクセス権の設定
+title: Adobe Workfrontへのアクセスの設定
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: add-users-to-workfront
 description: Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当てて、オブジェクトの表示や編集のアクセス権を付与できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

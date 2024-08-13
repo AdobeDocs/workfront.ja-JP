@@ -1,17 +1,17 @@
 ---
-title: ポートフォリオへのアクセス権の付与
+title: Portfolioーへのアクセス付与
 user-type: administrator
 product-area: system-administration;portfolios
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront でユーザーのポートフォリオへのアクセス権を定義できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '442'
-ht-degree: 100%
+source-wordcount: '453'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 Adobe Workfront 管理者は、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)で説明されているように、アクセスレベルを使用してユーザーのポートフォリオへのアクセス権を定義できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -41,6 +43,8 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## カスタムアクセスレベルを使用してポートフォリオへのユーザーのアクセス権を設定
 

@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Adobe Workfront でのシングルサインオンを無効にする
+title: Adobe Workfrontでシングルサインオンをディアクティベート
 description: Workfront でのシングルサインオンを無効にすることができます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d661da6-dc7b-4dea-a56c-28e296acd980
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '161'
+ht-degree: 89%
 
 ---
 
@@ -23,6 +23,8 @@ Adobe Workfront でのシングルサインオン（SSO）を無効にすると�
 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,9 +47,11 @@ Adobe Workfront でのシングルサインオン（SSO）を無効にすると�
  </tbody> 
 </table>
 
++++
+
 ## SSO を非アクティブ化する
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**設定** ![](assets/gear-icon-settings.png)」の順にクリックします。
+{{step-1-to-setup}}
 
 1. **システム**／**シングルサインオン（SSO）**&#x200B;をクリックします。
 

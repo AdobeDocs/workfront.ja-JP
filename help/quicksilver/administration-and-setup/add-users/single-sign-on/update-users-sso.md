@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: single-sign-on-in-workfront
-title: シングルサインオンに対応するためのユーザーの更新
+title: シングルサインオンのユーザーの更新
 description: Workfront でのシングルサインオン用にユーザーを更新できます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 98%
+source-wordcount: '802'
+ht-degree: 97%
 
 ---
 
@@ -120,9 +120,9 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
 
 SSO 向けにユーザーを更新するプロセスでは、SSO ユーザー名フィールドが存在しない場合は Workfront ユーザーに追加し、既にユーザーに関連付けられている値がある場合はそのフィールドの値を更新します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして、「**設定**」![](assets/gear-icon-settings.png)を選択します。
+{{step-1-to-setup}}
 
-1. 「**システム**」をクリックし、「**SSO ユーザーの更新**」を選択します。
+1. **システム** をクリックし、「**SSO のユーザーを更新**」を選択します。
 
 1. 「**ファイルを選択**」をクリックして、準備したファイルを選択します。
 

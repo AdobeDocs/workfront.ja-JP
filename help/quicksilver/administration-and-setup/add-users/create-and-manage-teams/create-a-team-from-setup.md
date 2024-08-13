@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-teams-admin
 description: Adobe Workfront 管理者は、設定エリアからチームを作成できます。
-author: Caroline, Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 29a84e52-0bd3-45c2-a8b8-80bfec894196
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '563'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,8 @@ Adobe Workfront 管理者は、設定エリアからチームを作成できま�
 >
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -48,9 +50,11 @@ Adobe Workfront 管理者は、設定エリアからチームを作成できま�
  </tbody> 
 </table>
 
++++
+
 ## チームの作成
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 「**チーム**」を選択し、次に「**新規チーム**」をクリックします。
 

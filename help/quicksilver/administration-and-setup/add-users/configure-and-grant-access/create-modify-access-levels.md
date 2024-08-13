@@ -1,5 +1,5 @@
 ---
-title: カスタムアクセスレベルの作成と変更
+title: カスタム アクセス レベルの作成および変更
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
 source-wordcount: '1463'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 

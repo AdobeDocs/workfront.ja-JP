@@ -1,17 +1,17 @@
 ---
-title: フィルター、ビュー、グループ化に対するアクセス権を付与
+title: フィルター、ビュー、グループ化へのアクセス権の付与
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 管理者は、アクセスレベルを使用して、リストおよびレポートのフィルター、ビュー、グループ化コントロールに対するユーザーのアクセス権を定義できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 100%
+source-wordcount: '422'
+ht-degree: 95%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 フィルター、ビュー、グループ化コントロールについて詳しくは、[レポート要素：フィルター、ビューおよびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,6 +45,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## カスタムアクセスレベルを使用して、フィルター、ビュー、グループ化に対するユーザーアクセスを設定
 

@@ -1,14 +1,14 @@
 ---
-title: チームに対するアクセスの許可
+title: チームへのアクセス権の付与
 description: Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront のチームへのユーザーのアクセス権を定義できます
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 915d1520-f5c4-4e33-b645-cb219289383c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 100%
+source-wordcount: '696'
+ht-degree: 97%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 100%
 Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront のチームへのユーザーのアクセス権を定義できます。詳しくは、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -38,6 +40,8 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront 
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## カスタムのアクセスレベルを使用して、ユーザーを編集するユーザーのアクセス権を設定
 

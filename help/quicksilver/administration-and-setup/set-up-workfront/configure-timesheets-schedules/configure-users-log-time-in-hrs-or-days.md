@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: ユーザーが時間単位または日単位で時間を記録するように設定
+title: 時間を時間または日数で記録するようにユーザーを設定する
 description: プランナーライセンスを持つユーザーは、 [!DNL Adobe Workfront]  に時間を時間単位または日単位で記録するように設定できます。Workfront 管理者は、個々のユーザーまたは組織内の複数のユーザー全体に対してこの設定を指定できます。デフォルトでは、ユーザーは時間単位で記録します。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cc1991e-293b-4619-b542-bfff4b558faa
-source-git-commit: 9f7f8a50bb805b1d6845df79ecffaa329d5abc26
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '123'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 

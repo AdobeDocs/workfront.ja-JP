@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: Workfront 管理者は、ログイン画面、上部のナビゲーションエリア、メインメニューで、Workfront のロゴを使用してブランディングできます。また、ログイン画面の背景画像やカラーを変更することもできます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 7b5b0fd95e39f37153e36abb4e3b8e738ac26d21
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '916'
-ht-degree: 100%
+source-wordcount: '912'
+ht-degree: 98%
 
 ---
 
@@ -57,6 +57,8 @@ Workfront の管理者は、次の場所でロゴを使用して Workfront の�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -78,9 +80,11 @@ Workfront の管理者は、次の場所でロゴを使用して Workfront の�
  </tbody> 
 </table>
 
++++
+
 ## ログイン画面のブランディング
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **システム**／**ブランディング**&#x200B;をクリックします。
 

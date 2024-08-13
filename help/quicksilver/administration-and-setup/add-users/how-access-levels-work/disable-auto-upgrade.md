@@ -1,19 +1,19 @@
 ---
-title: 新しいライセンスプランの有料ユーザーに対して自動アップグレードオプションを無効にする
+title: 新しいライセンスプランで無料ユーザーの自動アップグレードオプションを無効にする
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: アクセス、レベル、システム、管理者、標準、ライト、コントリビューター
 navigation-topic: access-levels
 description: Workfront にログインして作業するためのアクセスレベルがすべてのユーザーに必要です。アクセスレベルを使用して、Workfront の特定のオブジェクトや領域でユーザーが表示したり実行したりする項目を制御できます。
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
-source-git-commit: 7467e75cf468fa6a1dd14dbc0f4fdcda87de1b1e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 100%
+source-wordcount: '216'
+ht-degree: 89%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 100%
 >無効にすると、割り当てられた決定数を超えた無償ユーザーが自動的にアップグレードされなくなります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -51,6 +53,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 無償ユーザーの自動アップグレードを無効にする
 

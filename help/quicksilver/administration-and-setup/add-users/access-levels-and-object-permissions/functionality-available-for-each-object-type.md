@@ -4,16 +4,16 @@ content-type: reference
 product-area: system-administration
 keywords: アクセス, モデル, ファネル, ダイアグラム, レベル, 権限
 navigation-topic: access-levels
-title: 様々なアクセスレベルで各オブジェクトタイプで使用可能な機能
+title: 様々なアクセスレベルのオブジェクトタイプごとに使用可能な機能
 description: 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
-source-wordcount: '1883'
-ht-degree: 100%
+source-wordcount: '1891'
+ht-degree: 99%
 
 ---
 
@@ -519,7 +519,7 @@ ht-degree: 100%
 |---|---|---|---|---|---|
 | プランナー内の優先度と予算計上時間数を編集します | ✓&#42; |   |   |   |   |
 | リソースプールの作成、編集、削除&#42;&#42; | ✓&#42; |   |   |   |   |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | `✓*` |   |   |   |   |
+| ワークロードバランサーの予定時間数を更新する &#42;&#42;&#42; | ✓* |   |   |   |   |
 | リソースプランナーでのプロジェクトの優先度の表示 | ✓&#42; |   |   |   |   |
 | リソース計画ツールでのリソース配分の表示 | ✓&#42; | ✓&#42; | ✓&#42; |   |   |
 | リソースプールの表示 | ✓&#42; | ✓&#42; | ✓&#42; |   |   |

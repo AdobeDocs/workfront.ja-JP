@@ -1,17 +1,17 @@
 ---
-title: イシューへのアクセスを許可
+title: イシューへのアクセスの許可
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
 description: Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront でユーザーのイシューへのアクセスを定義できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3c15f90f-ce87-484d-93a7-9eeb2963a798
-source-git-commit: d0ab54670d1767e2fa2a9cdf2e7eda1ce8940c7f
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 100%
+source-wordcount: '471'
+ht-degree: 96%
 
 ---
 
@@ -22,6 +22,8 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 カスタムアクセスレベルを使用して、Workfront の他のオブジェクトタイプへのユーザーのアクセスを管理する方法について詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,6 +45,8 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## カスタムアクセスレベルを使用して、ユーザーにイシューへのアクセス権を付与
 

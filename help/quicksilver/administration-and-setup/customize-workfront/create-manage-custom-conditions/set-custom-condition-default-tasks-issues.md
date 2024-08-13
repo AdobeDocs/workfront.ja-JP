@@ -1,17 +1,17 @@
 ---
-title: タスクとイシューのデフォルトとしてカスタム状況を設定
+title: タスクおよび問題の既定としてカスタム条件を設定する
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: ユーザーが「作業」をクリックしたとき、または割り当てられた新規タスクにアップデートコメントを追加したとき（タスクの状況を手動で設定せずに）、Adobe Workfront に（「設定」で指定された）タスクのデフォルトの条件が表示されます。同じことがイシューにも当てはまります。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 40b426f4-0a9c-49a6-91c7-b5f8aa48bd37
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 100%
+source-wordcount: '403'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 Workfront は、組み込みの状況「順調」をタスクのデフォルトの状況として使用し、別途、イシューのデフォルト条件として使用します。Workfront の管理者は、これらの両方のオブジェクトタイプのデフォルトの条件を、作成したカスタム条件に変更できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -44,9 +46,11 @@ Workfront は、組み込みの状況「順調」をタスクのデフォルト�
  </tbody> 
 </table>
 
++++
+
 ## カスタム状況をタスクとイシューのデフォルト状況として設定します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. **プロジェクト環境設定**／**条件**&#x200B;をクリックします。
 

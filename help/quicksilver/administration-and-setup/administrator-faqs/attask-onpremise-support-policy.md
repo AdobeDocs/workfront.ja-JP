@@ -1,5 +1,5 @@
 ---
-title: AtTask OnPremise サポートポリシー
+title: AtTask オンプレミスサポートポリシー
 user-type: administrator
 content-type: faq
 product-area: system-administration
@@ -8,10 +8,10 @@ description: Adobe Workfront は、100% Software-As-A-Service モデルに移行
 feature: System Setup and Administration
 role: Admin
 exl-id: 37c65360-6587-43b3-8eaf-4f1a9b375c1d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

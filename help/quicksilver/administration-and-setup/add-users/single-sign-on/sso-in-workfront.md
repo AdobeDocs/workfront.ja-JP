@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Adobe Workfront でのシングルサインオンの概要
+title: Adobe Workfrontのシングルサインオンの概要
 description: Workfront は、Workfront を既存の会社の SSO ソリューションと簡単に統合できる、一元的に管理されたシングルサインオン（SSO）設定を提供します。この設定は、簡単に設定および管理でき、OnDemand と OnPremise の両方のエンタープライズユーザーが利用できます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

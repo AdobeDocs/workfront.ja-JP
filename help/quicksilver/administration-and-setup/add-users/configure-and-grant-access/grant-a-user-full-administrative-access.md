@@ -1,14 +1,14 @@
 ---
-title: ユーザーへの完全な管理アクセス権の付与
+title: ユーザーに完全な管理アクセスを付与する
 description: ユーザーに Workfront への完全な管理アクセス権を付与できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 5d4434d090c4b6cdefc9c313fecccf6d6e9a510b
+source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 100%
+source-wordcount: '1579'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,8 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
  </tbody> 
 </table>
 
++++
+
 ## 1 人のユーザーにシステム管理者の完全アクセス権を付与
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**ユーザー** ![](assets/users-icon-in-main-menu.png) をクリックします。
+{{step-1-to-users}}
 
 1. 管理者権限を付与するユーザーの名前をクリックします。
 1. 「その他」メニュー ![](assets/more-icon.png) をクリックして、「**編集**」をクリックします。
