@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: タスクの編集
-description: 自分で作成したタスクに関する情報、または Contribute または Manage 権限を持っているタスクに関する情報を編集できます。
+description: 作成したタスクに関する情報、またはContributeや管理権限を持つタスクに関する情報を編集できます。 この記事では、権限がある場合にタスクの検索、検索、編集方法を説明します。
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 70750dbd382ac1207c3aca1d34694e3adc695393
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '3663'
-ht-degree: 90%
+source-wordcount: '3684'
+ht-degree: 89%
 
 ---
 

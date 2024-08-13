@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
 source-wordcount: '428'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -40,6 +40,17 @@ Workfront Planning のオブジェクトに対する権限について詳しく�
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
+<!--Replace the table above with the following at GA:
+
+
+| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
+|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|Standard                     | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
+| Light or Contributor  | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
+
+*Workfront Planning is not available for legacy Workfront licenses. 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+
 ### ライセンスタイプとワークスペース権限
 
 Standard （または Plan）ライセンスを持つユーザーのみが、ワークスペースに対するContribute権限または管理権限を持つことができます。 他のすべてのライセンスタイプを持つユーザーは、自分と共有されているワークスペースに対する表示権限を持つことができます。
@@ -56,6 +67,26 @@ Standard （または Plan）ライセンスを持つユーザーのみが、ワ
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
+
+<!--Replace all the content in the section above with the following at Planning GA
+
+
+Only users with a Standard license can have Contribute or Manage permissions to workspaces. Users with all other license types can have View permissions to workspaces shared with them. 
+
+System administrators can view all workspaces in the system, even the ones they did not create. 
+
+>[!INFO]
+>
+>**EXAMPLE:** 
+>
+>Contributors or Light-license users cannot contribute to or manage workspaces and their objects. 
+>
+>There is an indication in the sharing box that users cannot be granted permissions to contribute to or manage a workspace when they hold a lower-level license, as these permissions levels are dimmed. 
+>
+>![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+-->
+
+
 ### ライセンスタイプと表示権限
 
 標準（またはプラン）ライセンスを持つユーザーのみが、ビューに対する管理権限を持つことができます。 他のすべてのライセンスタイプを持つユーザーは、自分と共有されたビューに対する表示権限を持つことができます。
@@ -64,11 +95,40 @@ Standard （または Plan）ライセンスを持つユーザーのみが、ワ
 >
 >**例：**
 >
->共同作業者（または依頼者とレビュー担当者）は、ビューを管理できません。 アクセス可能なビューに一時的なフィルター、並べ替え、グループ化を適用できます。
+>コントリビューター（またはリクエスターとレビュアー）はビューを管理できません。 アクセス可能なビューに一時的なフィルター、並べ替え、グループ化を適用できます。
 >
 >共有ボックスには、下位レベルのライセンスを持つユーザーにビューを管理する権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
 >
 >![](assets/permissions-grayed-out-for-reviewer-user-on-a-view.png)
+
+
+<!--Replace all of the above in this section with the following at GA:
+
+Only users with a Standard license can have Manage permissions to views. Users with all other license types can have View permissions to views shared with them. 
+
+>[!INFO]
+>
+>**EXAMPLE:** 
+>
+>Contributors or Light-license users cannot manage views. They can apply temporary filters, sorts, or groupings to views they can access. 
+>
+>There is an indication in the sharing box that users cannot be granted permissions to manage a view when they hold a lower-level license, as these permissions levels are dimmed. 
+>
+>![](assets/permissions-grayed-out-for-light-user.png)-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 <!--Replace all of the above with this:

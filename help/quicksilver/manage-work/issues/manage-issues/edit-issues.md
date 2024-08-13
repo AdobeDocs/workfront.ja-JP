@@ -2,16 +2,16 @@
 product-area: projects
 navigation-topic: manage-issues
 title: イシューを編集
-description: 自分が作成したイシューに関する情報や、他のユーザーとイシューを共有した場合は他のユーザーが作成したイシューに関する情報を編集できます。
+description: 自分が作成したイシューに関する情報を編集したり、他のユーザーがイシューを共有している場合は、そのユーザーが作成したイシューに関する情報を編集したりできます。 この記事では、権限があれば、イシューを検索、検索、編集する方法について説明します。
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '2508'
-ht-degree: 98%
+source-wordcount: '2529'
+ht-degree: 96%
 
 ---
 

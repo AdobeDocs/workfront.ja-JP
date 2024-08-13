@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-projects
 title: プロジェクトの編集
-description: 必要に応じて、Adobe Workfront でプロジェクトを編集できます。プロジェクトが計画ステータスの場合は、プロジェクトを編集するのが理想的です。
+description: 必要に応じて、Adobe Workfront でプロジェクトを編集できます。プロジェクトが計画ステータスの場合は、プロジェクトを編集するのが理想的です。この記事では、権限がある場合にプロジェクトの検索、検索、編集方法を説明します。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '7513'
+source-wordcount: '7534'
 ht-degree: 98%
 
 ---

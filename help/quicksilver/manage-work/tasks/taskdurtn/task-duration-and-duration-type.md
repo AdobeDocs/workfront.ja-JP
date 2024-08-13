@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: d98bb6b6bb8ff3bff6f367f1376948d5104887e5
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 100%
+source-wordcount: '1383'
+ht-degree: 99%
 
 ---
 
@@ -61,7 +61,7 @@ Adobe Workfront で期間を計算する場合、次の 2 つのシナリオが�
 | 時間 | H |
 | 日。これがデフォルトです。 | D |
 | 週 | W |
-| か月 | T |
+| か月 | 月・木 |
 | 経過時間数 (分) | EM |
 | 経過時間数 | EH |
 | 経過日数 | ED |

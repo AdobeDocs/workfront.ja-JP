@@ -1,15 +1,15 @@
 ---
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
-title: ポートフォリオを編集する
-description: 自分が作成したポートフォリオや、他のユーザーが自分と共有した場合にはそのユーザーが作成したポートフォリオに関する情報を編集できます。
+title: ポートフォリオの編集
+description: 自分が作成したポートフォリオに関する情報を編集したり、他のユーザーが自分と共有している場合は、そのユーザーが作成したポートフォリオに関する情報を編集できます。 この記事では、権限がある場合にポートフォリオを検索、検索、編集する方法について説明します。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 93%
+source-wordcount: '1018'
+ht-degree: 89%
 
 ---
 
