@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 37%
+source-wordcount: '535'
+ht-degree: 33%
 
 ---
 
@@ -40,15 +40,16 @@ hide: yes
 >
 >以下の節で参照するドキュメントは、機能が本番にリリースされてからしばらく後に利用できるようになります。
 
-## Adobe Workfront Planning の概要
+## Adobe Workfrontの計画に関する一般情報
 
-次の記事にアクセスして、新しい Workfront Planning の概要を確認します。
+新しいWorkfront計画の概要については、次の記事を参照してください。
 
 <!--update the video when we have something better, especially after early access - remove it-->
 
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning の概要](/help/quicksilver/planning/general/planning-overview.md)：このソリューションに特有の用語や概念を含む、Adobe Workfront Planning の概要です。ここから Workfront Planning のジャーニーを開始することをお勧めします。
+* [Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md): Workfront Planning で作成できるオブジェクト数に関する制限事項の一覧です。
 * [Adobe Workfront Planning の現在のリリース アクティビティ ](/help/quicksilver/planning/general/release-activity.md): 2023 年 5 月 22 日（PT）のAdobe Workfront Planning プログラムのローンチ以降にリリースされたすべての機能の一覧。正確なリリース日と各機能の概要が記載されています。
 * [Adobe Workfront Planning AI Assistant の概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront AI Assistant for Planning を使用すると、レコードを検索したり、コマンドを使用してアシスタントで作業することにより、レコードを作成、更新、および削除したりできます。
 
@@ -76,7 +77,7 @@ hide: yes
    * ワークスペースの作成、編集、削除
    * レコードタイプの作成、編集、削除
    * レコードタイプの接続とレコードタイプの接続例
-   * Workspaceテンプレート
+   * Workspace テンプレート
 
 * [ フィールド：記事インデックス ](/help/quicksilver/planning/fields/fields-information.md) 次の情報が含まれます。
 

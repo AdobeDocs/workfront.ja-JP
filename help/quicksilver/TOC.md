@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 9714e1cd0d9ed4c315ab4004deb4585422b85094
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '14309'
+source-wordcount: '14317'
 ht-degree: 93%
 
 ---
@@ -465,7 +465,7 @@ ht-degree: 93%
          * [プロジェクトタイムラインの再計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
          * [プロジェクトのカスタム四半期](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [組織の高速リリースを有効化または無効化](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
-         * [ビジネス・ルールの作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
+         * [ビジネスルールを作成および編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [場所を設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
          * [評価カードを管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
       * スケジュールとタイムシートの環境設定の指定 {#configure-timesheets-schedules}
@@ -2039,11 +2039,13 @@ ht-degree: 93%
       * [Adobe Workfront計画一般情報：記事索引](planning/general/planning-general-article-index.md)
       * [Adobe Workfront Planning の概要](planning/general/planning-overview.md)
       * [Adobe Workfront計画 API の基本](planning/general/planning-api-basics.md)
+      * [Adobe Workfront Planning オブジェクトの制限事項の概要](planning/general/limitations-overview.md)
       * [Adobe Workfront計画 AI アシスタントの概要](planning/general/planning-ai-assistant-overview.md)
       * [Adobe Workfrontの現在のリリースアクティビティの計画](planning/general/release-activity.md)
       * [2023 年のAdobe Workfront計画リリースアクティビティアーカイブ](planning/general/release-activity-archives-2023.md)
    * Adobe Workfront Planning のアーキテクチャ {#adobe-workfront-planning-architecture}
       * [アーキテクチャ：記事インデックス](planning/architecture/architecture-information.md)
+      * [ワークスペースの概要](planning/architecture/workspaces-overview.md)
       * [ワークスペースの作成](planning/architecture/create-workspaces.md)
       * [レコードタイプの概要](planning/architecture/overview-of-record-types.md)
       * [レコードタイプの作成](planning/architecture/create-record-types.md)

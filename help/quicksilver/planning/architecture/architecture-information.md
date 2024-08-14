@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 98%
+source-wordcount: '185'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,8 @@ Workfront Planning を使用すると、組織が使用するオブジェクト�
 
 次の節の記事では、Adobe Workfront Planning ワークスペースの設定方法、ワークスペースの構成要素であるレコードタイプの定義方法およびその機能の使用開始方法について説明します。
 
-* [ワークスペースを作成](/help/quicksilver/planning/architecture/create-workspaces.md)
+* [ワークスペースの概要](/help/quicksilver/planning/architecture/workspaces-overview.md)
+* [ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [ワークスペーステンプレートのリスト](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)

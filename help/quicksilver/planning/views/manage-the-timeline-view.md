@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 402fb9d279fec258390535100e8f3d2c3c1b913b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 85%
+source-wordcount: '1888'
+ht-degree: 84%
 
 ---
 
@@ -128,7 +128,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
 1. タイムラインを移動するには、次のいずれかを行います。
 
-   * 左右のアイコンをクリックするか、水平スクロールを使用してタイムライン内を前後に移動します。
+   * 左右のアイコンをクリックするか、水平スクロールを使用してタイムラインを前後に移動します。 ページを更新すると、選択した時間枠が保持されます。
    * 「**今日**」をクリックして、今日の日付をタイムラインの中心に置きます。
    * 時間枠ドロップダウンメニューから次のいずれかのオプションを選択して、時間間隔を更新します。
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 66%
+source-wordcount: '415'
+ht-degree: 62%
 
 ---
 
@@ -136,11 +136,11 @@ hide: yes
    ワークスペースが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプカードにポインタを合わせ、「詳細」メニューをクリックしてから **削除** をクリックします。
+   * レコードタイプカードにポインタを合わせ、「**詳細**」メニューをクリックしてから **削除** をクリックします。
    * 削除するレコードの種類のカードをクリックし、レコードの種類のページで、レコードの種類名の右側に ![](assets/more-menu.png) る **詳細** メニューをクリックし、[**削除**] をクリックします。
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
 1. 確認ボックスに **削除** と入力し、「**完全に削除**」をクリックします。 これは、大文字と小文字を区別しません。
 
-   選択したレコードタイプが、そのフィールド、関連するレコードおよびビューと共に削除されます。
+   選択したレコードタイプは、フィールド、関連レコード、ビューと共に削除され、復元できません。

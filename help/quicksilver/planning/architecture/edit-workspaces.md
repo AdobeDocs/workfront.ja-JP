@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '575'
 ht-degree: 50%
 
 ---
@@ -91,27 +91,32 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 {{step1-to-planning}}
 
-1. （条件付き）Workfront管理者の場合は、「**マイワークスペース** **」をクリックして作成したワークスペースにアクセスするか、「その他のワークスペース** をクリックして自分と共有されている他のワークスペースにアクセスします。<!--change it to Workspaces I'm on-->
+1. （条件付き）Workfront管理者の場合は、「**マイワークスペース** **」をクリックして作成したワークスペースにアクセスするか、「その他のワークスペース** をクリックして自分と共有されている他のワークスペースにアクセスします。<!--replace My workspaces with **Workspaces I'm on**-->
 
-1. ワークスペースカードをクリックして、ワークスペースを開きます。
+<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******
 
-<!--***********Replace the first step with this:*******
-
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have workspaces that display on more than two rows.
+1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To edit a workspace, do one of the following:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card, then click **Edit**. 
-   * Click a workspace card to open the workspace. 
-   
-   ***********Add (Conditional) If you clicked a workspace card,**********-->
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
+      Or
+   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
+1. Click **Edit**.
+
+   ![](assets/edit-workspace-box.png)
+   -->
+
+1. ワークスペースカードをクリックして、ワークスペースを開きます。
+
+   ワークスペースページが開きます。
 
 1. 新しいワークスペースのヘッダーでワークスペースの名前内をクリックして名前を変更し、**Enter** キーを押します。
 1. ヘッダーのワークスペース名の右 ![](assets/more-menu.png) にある **その他** メニューをクリックし、**編集** をクリックします。
 
    ![](assets/edit-workspace-box.png)
 
-   「**ワークスペースを編集** ボックスで次の情報を更新します。
+1. 「**ワークスペースを編集** ボックスで次の情報を更新します。
 
    * ワークスペースの名前を追加します。<!--did they add a label for this field?-->
    * **説明**：ワークスペースに関する情報を追加します。

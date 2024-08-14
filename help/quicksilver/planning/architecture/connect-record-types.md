@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2507'
 ht-degree: 61%
 
 ---
@@ -38,6 +38,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 ここでは、2 つのWorkfront Planning レコードタイプをWorkfront Planning レコードタイプと別のアプリケーションのオブジェクトに関連付ける方法について説明します。
 
 レコード間またはオブジェクト タイプ間の関連付けを確立した後、個々のレコードを相互に関連付けて、Workfront Planning レコードにリンクされたレコードまたはオブジェクト タイプのフィールドを表示することができます。
+
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connection record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
 
 Workfront Planning レコードを別のアプリケーションのオブジェクトに接続する方法については、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
@@ -194,7 +196,9 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
 
 1. 「**レコードタイプ**」フィールドでレコードタイプを検索するか、次のいずれかを選択します。
 
-   * 選択したワークスペースのセクションにある別のレコードタイプ
+   * 選択したワークスペースの別のレコードタイプ
+
+     <!--replace screen shot below-->
 
      ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -204,7 +208,15 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
      > 
      >選択したワークスペースに他のレコードタイプがない場合、ワークスペースセクションは表示されません。
 
+     <!--remove the first sentence in the tip above at GA-->
+
+     <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
+        [!TIP]
+         If there are no record types that are configured to connect from other workspace, the workspace section does not display.-->
+
    * 「**Workfront オブジェクトタイプ**」セクションの&#x200B;**プロジェクト、ポートフォリオ、プログラム、会社**&#x200B;または&#x200B;**グループ**。
+
+     <!--replace screen shot below-->
 
      ![](assets/workfront-project-connection-selection.png)
 
@@ -221,7 +233,14 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
    >同じレコードまたはオブジェクトタイプへの複数の接続を持つことができます。 連結フィールド名を編集しない場合、Workfrontでは、連結されたレコードの名前の後に数字が追加され、連結されたレコードの種類の数が同じ名前で示されます。
 
    * **説明**：接続されたレコードのフィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
-   * **複数のレコードを許可**：リンクされたレコードタイプのフィールドが元のレコードに表示される場合に、ユーザーが複数のレコードを追加できるようにするには、このオプションを選択します。これはデフォルトで選択されています。
+   * **複数のレコードを許可**：リンクされたレコードタイプのフィールドが元のレコードに表示される場合に、ユーザーが複数のレコードを追加できるようにするには、このオプションを選択します。これはデフォルトで選択されています。<!--This option is available only when connecting records from two different workspaces or a record and an AEM asset object type.-->
+   <!--* **Connection type**: This option is available only when connecting records from the same workspace or a record and a Workfront object type. Choose from the following connection types:
+        * One to one
+        * One to many
+        * Many to one
+        * Many to many
+        
+        For information about connection types, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
    * **ルックアップフィールドを選択**：選択したレコードタイプからフィールドを追加するには、このオプションを選択します。ルックアップフィールドは、リンク先のレコードタイプまたはオブジェクトタイプに関連付けられたフィールドです。このフィールドをリンクすると、リンク先のレコードまたはオブジェクトの情報がリンク元のレコードに表示されます。これはデフォルトで選択されています。
 
      >[!TIP]
@@ -245,7 +264,7 @@ Workfront Planning レコードを別のアプリケーションのオブジェ�
    >
    >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja) を参照してください。
 
-1. （条件付き）Experience Manager AssetsまたはWorkfront Planning のレコードタイプに接続することを選択した場合、接続されたレコードやアセットのタイトルをリンクされたフィールドに表示したくない場合は、**レコードの外観** 領域の **タイトル** トグルを無効にします。 無効にすると、リンクされたフィールドにレコードのサムネールのみが表示されます。 サムネール画像のないレコードには、代わりに画像アイコンが表示されます。 この切替スイッチはデフォルトで有効になっています。 接続されたレコードの表示方法の例は、**レコードの外観** 領域に表示されます。
+1. （条件付き）Experience Manager AssetsまたはWorkfront Planning のレコードタイプに接続することを選択した場合、接続されたレコードまたはアセットのタイトルをリンクされたフィールドに表示したくない場合は、**レコードの外観** 領域で **タイトル** 切替スイッチの選択を解除します。 選択を解除すると、リンクされたフィールドにレコードのサムネールのみが表示されます。 サムネール画像のないレコードには、代わりに画像アイコンが表示されます。 この切り替えはデフォルトで選択されています。 接続されたレコードの表示方法の例は、**レコードの外観** 領域に表示されます。
 
    >[!TIP]
    >

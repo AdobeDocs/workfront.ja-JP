@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
 source-wordcount: '2495'
 ht-degree: 72%
@@ -147,7 +147,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 * Workfront Planning へのアクセス権と、ワークスペースへの表示以上の権限を持つユーザーは誰でも、レコード間に、またはレコードと他のアプリケーションのオブジェクトの間に作成する接続を表示できます。そのようなユーザーは、接続先のアプリケーションの権限に関係なく、接続されたレコードとオブジェクトを表示できます。
 * 接続されているレコードが存在するワークスペースに対する管理権限を持っている場合は、他のすべてのユーザーの接続を表示および編集できます。
 * 1 つのレコードを、別のアプリケーションの 1 つまたは複数のオブジェクトに接続できます。
-
 * 次の領域で、WorkfrontからWorkfrontの計画レコードにオブジェクトを関連付けることができます。
    * Workfront Planning の計画レコードから。
    * Workfront オブジェクトの「計画」セクションから。

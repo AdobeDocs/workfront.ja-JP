@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 78e9c4d4ddee8f44d6fafe218c6a9b8c2cb28bf5
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '5786'
+source-wordcount: '5851'
 ht-degree: 46%
 
 ---
@@ -38,6 +38,55 @@ Workfront計画プログラムは、2023 年 5 月 22 日（PT）から開始さ
 リリースされた機能は、リリースされた順序で一覧表示され、最新の機能が最初に表示されます。Workfront計画プログラムに参加しているお客様は、実稼動環境のすべての機能にアクセスできます。
 
 Workfront Planning は、2024 年 1 月以降、プレビュー環境とサンドボックス環境から一時的に削除されています。 この記事で説明されている機能はすべて、現在、実稼動環境で使用できます。
+
+<!--
+
+### Landing page improvements
+
+Production: <date> 
+
+Preview: To be determined 
+
+We have made the following improvements to the Planning area's main page: 
+
+* "Workfront Planning" displays in the landing page header, to make it clear for users what area of the application they are accessing. (*******************)--not seeing this anywhere – omit this!*************????)
+
+* We added a "More" menu for each workspace card to make it easier to edit or delete the workspace from the main page. 
+
+* We added "Show all" and "Show less" links to display more or fewer workspaces in case there are more than two rows of workspace cards listed on the main page.  
+
+* For system administrators, the workspaces that they did not create have been moved from the "Other workspaces" tab to the "Workspaces I'm on" tab. The "My workspaces" tab has been removed. 
+
+For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+
+### Connect record types across multiple workspaces
+
+ Production: <date>  
+
+ Preview: To be determined  
+
+ You can now connect record types that belong to different workspaces.  
+
+ System administrators can now configure record types to be connected from other workspaces. After this, a workspace manager can connect to these record types.  
+
+Prior to this enhancement, you could only connect record types that belonged to the same workspace, along with object types from other applications.   
+
+ For information, see Edit record types (help/quicksilver/planning/architecture/edit-record-types.md). 
+
+-->
+
+## 2024年8月12日（PT）の週
+
+### タイムラインビューで最後に表示された時間枠を保持
+
+実稼動：2024 年 8 月 14 日（PT）
+
+プレビュー：未決定
+
+タイムラインビューを開き、過去または未来の日付までスクロールしても、選択した日付はページを更新した後も保持されるようになりました。 この機能強化の前は、ページには今日の日付が表示されていました。
+
+詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
 ## 2024年7月29日（PT）の週
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 56%
+source-wordcount: '521'
+ht-degree: 52%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 56%
 Adobe Workfront Planning では、ワークスペースは、チームが作業を計画する一元的な場所です。
 
 ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
+
+ワークスペースの一般的な情報については、[ ワークスペースの概要 ](/help/quicksilver/planning/architecture/workspaces-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -95,27 +97,6 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
-## ワークスペースに関する考慮事項
-
-* 各部署の固有の仕事の仕方に合わせて、組織内の特定の部署単位でワークスペースを作成できます。
-* Workfront ライセンスに応じて、ワークスペースは計画領域の次のタブに表示されます。
-
-   * システム管理者の場合、ワークスペースは次のタブに表示されます。
-
-      * **マイワークスペース**：作成したワークスペースが表示されます。<!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-      * **その他のワークスペース**：共有されているワークスペースを含む、システム内のその他すべてのワークスペースを表示します。 &lt;! – 置換後：その他のワークスペース：システム内のその他すべてのワークスペースを表示します。>
-
-   * その他のすべてのユーザーについては、作成したワークスペースと、共有している他のユーザーのワークスペースが「ワークスペース」領域に表示されます。
-
-* ワークスペースに含まれるレコードタイプは、組織の部署単位の作業のライフサイクルを反映する必要があります。
-* あるユーザーがワークスペースを作成した場合、そのユーザーだけがワークスペースにアクセスし、管理する権限を有します。他のユーザーと同じスペースで共同作業を行うには、他のユーザーとワークスペースを共有する必要があります。詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。システム管理者は、自分が作成していないワークスペースも含め、すべてのワークスペースを管理できます。
-* 管理できるのは次のとおりです。
-
-   * 1 つのワークスペースに最大 50 セクション。
-   * 1 つのワークスペースのすべてのセクションから合計で最大 1,000 のレコードタイプ。すべてのレコードタイプは、各ワークスペースに固有です。<!--this might change-->
-   * 組織の Workfront インスタンスに最大 1,000 のワークスペース。
-
-
 ## ワークスペースの作成
 
 ワークスペースを作成し、それにレコードタイプを追加して、Workfront Planning でオブジェクトを整理できます。 ワークスペースの編集について詳しくは、[ ワークスペースの編集 ](/help/quicksilver/planning/architecture/edit-workspaces.md) を参照してください。
@@ -153,7 +134,7 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
    * ワークスペースをゼロから作成する際にレコードタイプの手動追加を開始できる **名称未設定Workspace** という空のワークスペース。
    * サンプルレコードタイプが入力される、選択したテンプレートにちなんで名前が付けられたワークスペース。 レコードタイプとワークスペースをさらにカスタマイズできます。
 
-   Workfront管理者の場合、新しいワークスペースが「**マイワークスペース**」タブに表示されます。<!--replace this with: Workspaces I'm on tab-->
+   Workfront管理者の場合、新しいワークスペースが「**マイワークスペース**」タブに表示されます。<!--replace this with: **Workspaces I'm on** tab-->
 1. 新しいワークスペースのヘッダーでワークスペースの名前の内側をクリックして名前を変更し、Enter キーを押します。
 
 1. （オプションおよび条件付き）ワークスペースをテンプレートから作成した場合は、「**運用中のレコードタイプ**」または「**分類**」セクションの名前内をクリックします。
