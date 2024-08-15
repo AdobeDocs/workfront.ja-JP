@@ -7,10 +7,10 @@ description: この記事では、 [!DNL Adobe Workfront Fusion]  シナリオ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 4d9832d0870c3fccf847c3932ad4f985a62b9672
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '1097'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -132,10 +132,7 @@ ht-degree: 100%
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->[!UICONTROL Dropbox]／[!UICONTROL ファイルを監視]モジュールで[!UICONTROL 返されるファイルの最大数]は、`10` に設定されます。
->
->![](assets/max-number-cycles-10-350x175.png)
->
+>[!UICONTROL 2}Workfront] >[!UICONTROL  レコードを監視 ] モジュールの { 返されるファイルの最大数 ] が `10` に設定されています。[!UICONTROL 
 >100 件のリクエストが [!DNL Workfront] に送信され、「[!UICONTROL 制限]」フィールドが 10 に設定されている場合、1 回のシナリオ実行後に 90 件のファイルが未処理のまま残ります。次の 10 個のファイルは、スケジュールされた次のシナリオの実行で処理されます。
 >
 >### サイクルの最大数を 10 に設定

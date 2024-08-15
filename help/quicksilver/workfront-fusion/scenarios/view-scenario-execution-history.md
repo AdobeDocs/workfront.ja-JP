@@ -7,7 +7,7 @@ description: あるシナリオのすべての実行に関する情報を表示�
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 100%
@@ -70,8 +70,6 @@ ht-degree: 100%
    シナリオエディターでシナリオを操作している場合は、ウィンドウの左上隅付近にある左向き矢印 ![](assets/exit-editing-arrow.png) をクリックします。
 
 1. 右側のリストで情報を表示します。
-
-   ![](assets/open-history-tab-350x202.png)
 
    また、クリックすると、この情報を全ページ表示で見ることができます。全ページ表示では、履歴をフィルタリングして、特定の実行を表示できます。
 

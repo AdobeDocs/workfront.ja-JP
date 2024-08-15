@@ -7,10 +7,10 @@ description: 「[!UICONTROL 未完了の実行]」フォルダーには、エラ
 author: Becky
 feature: Workfront Fusion
 exl-id: 60fcda91-b725-4ada-a42c-5c05720d68c2
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 53582d36ef2256f6073705ce3eabe8cd61c9b2cc
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -65,9 +65,13 @@ ht-degree: 100%
 
 ## 未完了の実行を表示
 
-モジュールの処理中にエラーが発生した場合、新しい未完了の実行が「未完了の実行」フォルダーに追加されます。未完了の実行にはそれぞれ、シナリオのブループリントと、失敗したモジュールにマッピングできるすべてのバンドルが含まれます。未完了の実行のリストを開くには、シナリオの詳細ページで「[!UICONTROL 未完了の実行]」タブをクリックします。
+モジュールの処理中にエラーが発生した場合、新しい未完了の実行が「未完了の実行」フォルダーに追加されます。未完了の実行にはそれぞれ、シナリオのブループリントと、失敗したモジュールにマッピングできるすべてのバンドルが含まれます。不完全な実行のリストを開くには、シナリオの詳細ページの「[!UICONTROL  不完全な実行 ]」タブをクリックします。
+
+<!--
 
 ![](assets/incomplete-executions-tab-350x102.png)
+
+-->
 
 詳しくは、[未完了の実行になるエラー](#errors-resulting-into-incomplete-executions)を参照してください。
 

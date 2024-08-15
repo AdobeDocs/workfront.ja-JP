@@ -7,10 +7,10 @@ description: ' [!DNL Adobe Workfront Fusion] のシナリオの詳細'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: ae57c38149bf6db3bbbb471fad8f3567b7d712a7
+source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 100%
+source-wordcount: '603'
+ht-degree: 96%
 
 ---
 
@@ -74,6 +74,10 @@ ht-degree: 100%
      <tr> 
       <td role="rowheader">[!UICONTROL Modules diagram] </td> 
       <td>このタブには、シナリオが視覚的に表示されます。図はシナリオエディターで表示されるものと同じです。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL レポート ] （タブ） </td> 
+      <td> <p>このタブを開いて、過去 30 日間にこのシナリオで実行された操作数のグラフを表示します。</p>  </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL History]（タブ） </td> 

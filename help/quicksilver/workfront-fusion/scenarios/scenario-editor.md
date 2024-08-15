@@ -7,7 +7,7 @@ description: シナリオエディターを使用すると、視覚的なイン�
 author: Becky
 feature: Workfront Fusion
 exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
 workflow-type: tm+mt
 source-wordcount: '1108'
 ht-degree: 90%
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 シナリオエディターを使用すると、視覚的なインターフェイスでシナリオを作成および編集できます。
 
-![](assets/scenario-editor-350x228.jpg)
+![](assets/scenario-editor.jpg)
 
 ## アクセス要件
 
