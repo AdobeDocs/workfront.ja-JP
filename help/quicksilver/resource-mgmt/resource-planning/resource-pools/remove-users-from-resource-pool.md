@@ -6,7 +6,7 @@ description: リソースプールに含めることのできるユーザー数�
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: dfafeaeeca5805c84ff646d8a7a98120d34d44d9
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
 source-wordcount: '401'
 ht-degree: 91%
@@ -15,7 +15,7 @@ ht-degree: 91%
 
 # リソースプールからのユーザーの削除
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 リソースプールに含めることのできるユーザー数に制限はありませんが、ユーザーのリストには最初の 2000 ユーザーのみが、アルファベット順に表示されます。
 
@@ -75,6 +75,7 @@ ht-degree: 91%
    エンティティに関連付けられているすべてのユーザーを削除する場合は、会社、担当業務、チーム、またはグループの名前を入力します。
 
    <span class="preview"> プレビュー環境のサンプル画像：<span>
+
    ![ リソース プールからユーザーを削除 ](assets/remove-users-from-resource-pool.png)
 
    実稼動環境のサンプル画像：

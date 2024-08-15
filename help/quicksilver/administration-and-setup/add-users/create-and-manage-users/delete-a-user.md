@@ -8,14 +8,20 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 98%
+source-wordcount: '875'
+ht-degree: 94%
 
 ---
 
 # ユーザーの削除
+
+>[!IMPORTANT]
+>
+>ここで説明する手順は、まだAdobeBusiness Platform にオンボーディングされていない組織にのみ適用されます。 Adobeビジネスプラットフォームにオンボーディングされた場合は、Adobe Admin Consoleでユーザーを削除する必要があります。
+>
+>組織が Adobe Business Platform に登録されているかどうかによって異なる手順のリストについては、[プラットフォームによる管理の違い（Adobe Workfront Fusion／Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
 組織を離れたユーザーは、Adobe Workfront から削除することができます。
 

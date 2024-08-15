@@ -1,7 +1,7 @@
 ---
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: f18bf59202ba524173774a0215f4071bd6e77432
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2524'
 ht-degree: 94%
 
 ---
@@ -18,6 +18,14 @@ ht-degree: 94%
 ## 記事全体を対象としたハイライト表示されたプレビュー {#highlighted-preview-article-level}
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
+
+## 2024年第 4 四半期のプレビューと迅速リリース {#preview-and-fast-release-Q424}
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリースについて詳しくは、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。</span>
 
 ## 2023年第 4 四半期のプレビューと迅速リリース {#preview-and-fast-release}
 
