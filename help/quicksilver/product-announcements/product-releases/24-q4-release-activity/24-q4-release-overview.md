@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 7fc250f40860e52e49a333e3ccf120f35438e14c
+source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
 workflow-type: tm+mt
-source-wordcount: '835'
-ht-degree: 75%
+source-wordcount: '1072'
+ht-degree: 61%
 
 ---
 
@@ -34,9 +34,49 @@ ht-degree: 75%
 
 ## Adobe Workfront の機能強化
 
+* [管理者機能の強化]
 * [プロジェクトの強化](#project-enhancements)
 * [統合の機能強化](#integration-enhancements)
 * [その他の機能強化](#other-enhancements)
+
+### 管理者機能の強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> カスタムフォームデザイナーのレイアウトボタンでは、2 列または 3 列を使用できます </a></p>
+                        <p>カスタムフォームデザイナーの「レイアウト」ボタンを使用すると、2 列または 3 列の作業領域から選択できます。 元のフォームデザイナーでは 3 つの列を使用し、フィールド設定は右端の列に表示されます。 2 つの列を選択すると、左端の列のフィールド ライブラリの横にフィールド設定が表示されます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年8月12日（PT）</p>
+                            </li>
+                            <li>
+                                <p>迅速リリースの実稼働：24.9 リリースの場合（2024 年 9 月）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動リリース：未定</p>
+                            </li>
+                        </ul>
+                        <p><i>この機能は段階的リリースの一部であり、9 月に限られた数のお客様が利用できるようになります。</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### プロジェクトの強化
 
@@ -77,7 +117,7 @@ ht-degree: 75%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
-                        [!BADGE In Production for Fast Release ]{type=Positive}
+                        [!BADGE In production ]{type=Informative}
                         <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -154,7 +194,29 @@ ht-degree: 75%
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfrontで利用できるAdobeAI アシスタント </a></p>
+                        <p>作業を簡単に完了できるように、WorkfrontにAdobeの AI アシスタントを追加しました。 AI アシスタントは、次の方法で役立ちます。</p>
+                        <ul>
+                            <li>作業項目とドキュメントを要約すると、タスク、プロジェクト、アセットの一般的な理解をすばやく得ることができます。</li>
+                            <li>Experience Leagueドキュメントの情報を提供し、手順と参照資料をWorkfrontに取り込むと同時に、より詳細なドキュメントにリンクします。</li>
+                            <li>計算カスタムフォームフィールドの数式の作成と調整、テキストプロンプトからの数式の生成、既存の数式のエラーの検出を行います。</li>
+                            </ul>
+                            <p>Workfront管理者は、組織の AI アシスタントを有効または無効にできます。 AI アシスタントは、Select、Prime および Ultimate プランのインスタンスで使用できます。</p>
+                        </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年8月28日（PT）</p>
+                            </li>
+                            <li>
+                                <p class="preview">実稼動版リリース：2024年8月28日（PT）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                            
            </tbody>
         </table>
 
