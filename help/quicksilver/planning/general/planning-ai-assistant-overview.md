@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '660'
 ht-degree: 7%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
-><span class="preview">AI アシスタントは一時的に削除されており、後日戻ります。</span>
+><span class="preview">Workfront AI アシスタントは一時的に削除されており、後日利用できるようになります。</span>
 >この記事では、Adobe Workfront Planning と、Adobe Workfrontの新機能であるWorkfront AI アシスタント（ベータ版）について説明します。
 >
 >現在、Workfrontの計画はアーリーアクセス段階にあり、Workfront AI アシスタントはベータ段階にあります。

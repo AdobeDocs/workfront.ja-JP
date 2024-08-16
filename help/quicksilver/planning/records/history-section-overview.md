@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: c593eab154a0942995b1f913e7189450913faac0
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 93%
+source-wordcount: '462'
+ht-degree: 90%
 
 ---
 
@@ -42,8 +42,7 @@ ht-degree: 93%
 1. レコードタイプのカードをクリックします。
 レコードタイプのページが開き、そのタイプのすべてのレコードが表示されます。
 
-1. 「**表示**」ドロップダウンメニューからテーブルビューを選択します。
-1. テーブルビューでレコードの名前をクリックします。
+1. 任意のビューで、レコードの名前をクリックします。
 
    レコードのページが開きます。コメントエリアがデフォルトで右パネルに開きます。
 1. **履歴を表示**&#x200B;アイコン ![](assets/show-history-icon.png) をクリックします。レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。

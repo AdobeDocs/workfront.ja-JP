@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
+source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1874'
 ht-degree: 77%
 
 ---
@@ -89,8 +89,9 @@ Workfront Planning で使用可能な主な機能と、その使用可能なタ�
 | ビューの共有 | ✓ | |  |
 | 外部リソースと公開でビューを共有 | ✓ | |  |
 | ビューを複製 | ✓ | |  |
-| リクエストの送信 |                               |                                  | ✓ |
-| クリエイティブ概要 |                               |                                  | ✓ |
+| リクエストの送信 |                               | ✓ |                 |
+| レコードの詳細を Word にエクスポート |                               | ✓ |                 |
+| レコードの詳細をPDFに書き出し |                               |                                  | ✓ |
 | レコードの色とアイコンのカスタマイズ | ✓ |                                  |                 |
 | レコードへのコメントの追加 | ✓ |                                  |                 |
 | アプリ内通知を受信 | ✓ |                                  |                 |
@@ -104,8 +105,9 @@ Workfront Planning で使用可能な主な機能と、その使用可能なタ�
 | Workfront オブジェクトから Planning レコードを接続する | ✓ |                                  |                 |
 | Workfront計画パブリック API | ✓ |                                  |                 |
 | Workfront計画 AI アシスタント* | ✓ |                                  |                 |
+| Workfrontの計画情報に関するレポート（キャンバスダッシュボード） |                               | ✓ |                 |
 
-*AI アシスタントは一時的に削除されており、後日戻ります。
+*AI アシスタントは一時的に削除されており、後日利用できるようになります。
 
 ## Workfront インスタンスのユーザーに対して Adobe Workfront Planning を有効にする
 
