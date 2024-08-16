@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: bda3dc43828032fd5a8862b12d851c56cf9b6cbd
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '112'
-ht-degree: 87%
+source-wordcount: '115'
+ht-degree: 85%
 
 ---
 
@@ -36,6 +36,7 @@ Adobe Workfront Planning でレコードタイプを作成した後、それら�
 * [レコードの編集](/help/quicksilver/planning/records/edit-records.md)
 * [レコードの削除](/help/quicksilver/planning/records/delete-records.md)
 * [レコードの共有](/help/quicksilver/planning/records/share-records.md)
+* [接続されたレコードの概要](/help/quicksilver/planning/records/connected-records-overview.md)
 * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
 * [重複レコード](/help/quicksilver/planning/records/copy-or-duplicate-records.md)
 * [レコードのコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)

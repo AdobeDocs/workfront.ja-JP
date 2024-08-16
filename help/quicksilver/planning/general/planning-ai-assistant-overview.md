@@ -1,23 +1,24 @@
 ---
-title: 'Adobe Workfront Planning AI Assistant の概要'
+title: Adobe Workfront計画 AI アシスタントの概要
 description: AI アシスタントを使用して、現在のページコンテキストとレコード構造に基づいてレコードを生成、更新または削除できます。 ユーザーのコマンドと AI によるコマンドの実行を連携させることで、AI によって行われた変更が環境に正確に反映されるようになります。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: e1e3b8b9f5497af47e14c0f54dfae8f2134b5159
+exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
+source-git-commit: 98ba6e1c1624639ba45ccf2cc3fd8e29bc716f89
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 6%
+source-wordcount: '657'
+ht-degree: 7%
 
 ---
 
-
 # Adobe Workfront計画 AI アシスタントの概要
 
-<!-- update TOC and miniTOC when making this live-->
+<!-- update metadata above at GA-->
 
 >[!IMPORTANT]
 >
+><span class="preview">AI アシスタントは一時的に削除されており、後日戻ります。</span>
 >この記事では、Adobe Workfront Planning と、Adobe Workfrontの新機能であるWorkfront AI アシスタント（ベータ版）について説明します。
 >
 >現在、Workfrontの計画はアーリーアクセス段階にあり、Workfront AI アシスタントはベータ段階にあります。
@@ -36,7 +37,7 @@ AI アシスタントを使用して、現在のページコンテキストと�
 
 ## AI アシスタントに関する考慮事項
 
-* AI アシスタントは、Workfront管理者がデフォルトで使用できます。
+* AI アシスタントは、デフォルトでメインのWorkfront管理者が使用できます。 詳しくは、[システムの基本情報を設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 
 * Workfront管理者は、他のすべてのユーザーに対して AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 

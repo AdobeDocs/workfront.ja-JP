@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 14%
+source-wordcount: '1054'
+ht-degree: 13%
 
 ---
 
@@ -145,11 +145,11 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 1. （オプション）レコードプレビューの右上隅に ![](assets/open-details-in-a-new-tab-icon.png) る **新しいタブで開く** アイコンをクリックして、レコードのページを新しいタブで開きます。
 
-   レコードページが開きます。
+   レコードページが開きます。<!--The Details tab opens by default. -->
 
    ![](assets/details-page.png)
 
-1. レコードのプレビューまたはページで、フィールドの左側の空白にマウスポインターを置き、「**セクションを追加**」アイコンをクリックして、セクションを追加し ![](assets/add-section-icon.png) す。
+1. <!--**Details** tab of the--> レコードのプレビューまたはページで、フィールドの左側の空白にマウスポインターを置き、「**セクションを追加**」アイコンをクリックして、セクションを追加し ![](assets/add-section-icon.png) す。
 1. セクション名の内側をクリックして **名称未設定セクション** を名前に置き換え、Enter キーを押します。 セクションの下に表示されるフィールドは、自動的に新しいセクションの一部になります。
 1. この記事の「レコードのプレビューまたは詳細ページのフィールドの並べ替え [ の節で説明しているように、新しいセクションへのフィールドのドラッグ&amp;ドロップを開始し ](#rearrange-fields-in-the-record-preview-or-details-page) す。
 
@@ -182,7 +182,13 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    セクションとフィールドの順序に対するすべての変更は、自動的に保存されます。
 
-## レコードのプレビューまたは詳細ページでのフィールドの並べ替え
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## レコードのプレビューまたはページ内のフィールドを並べ替える
 
 {{step1-to-planning}}
 

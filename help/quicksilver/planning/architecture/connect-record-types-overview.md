@@ -1,10 +1,10 @@
 ---
-title: 接続レコードタイプの概要
+title: 接続されたレコードタイプの概要
 description: 個々のレコードタイプが互いにどのように関連しているかは、レコードタイプを連結するとよくわかります。また、Workfront Planning のレコードタイプを他のアプリケーションのオブジェクトタイプに接続して、ユーザーのエクスペリエンスを向上させ、ユーザーが 1 つのアプリケーションに集中できるようにすることもできます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
 workflow-type: tm+mt
 source-wordcount: '1086'
 ht-degree: 31%
@@ -15,7 +15,7 @@ ht-degree: 31%
 <!--update metadata at GA-->
 <!--add mini TOC when live, already added to big TOC to get the link-->
 
-# レコードタイプの接続：概要
+# 接続されたレコードタイプの概要
 
 <!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 
