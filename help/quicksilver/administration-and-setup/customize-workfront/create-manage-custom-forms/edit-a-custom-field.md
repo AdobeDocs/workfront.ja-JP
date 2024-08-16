@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: カスタムフィールド、セクション区切りまたはウィジェットを追加または編集
+title: カスタムフィールド、セクション区切りまたはウィジェットの追加または編集
 description: Adobe Workfront インスタンスでカスタムフォームで使用されるカスタムフィールド、セクション区切りまたはウィジェットのプロパティを編集できます。これには、項目のラベル、名前、説明などが含まれます。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 57%
+source-wordcount: '305'
+ht-degree: 55%
 
 ---
 
@@ -24,6 +24,8 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
 カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[フォームデザイナーを使用してフォームをデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -50,6 +52,8 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## カスタムフィールドまたはウィジェットの追加
 

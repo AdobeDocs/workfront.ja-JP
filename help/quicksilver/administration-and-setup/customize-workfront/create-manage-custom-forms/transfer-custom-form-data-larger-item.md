@@ -1,5 +1,5 @@
 ---
-title: オブジェクトの変換時におけるカスタムフォームデータの転送
+title: オブジェクトの変換時にカスタムフォームデータを転送
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 95%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 100%
 詳しくは、[Adobe Workfront でのイシュー変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)または [Adobe Workfront でのイシュー変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -53,6 +55,8 @@ ht-degree: 100%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 1. カスタムフォームにオブジェクトを追加
 

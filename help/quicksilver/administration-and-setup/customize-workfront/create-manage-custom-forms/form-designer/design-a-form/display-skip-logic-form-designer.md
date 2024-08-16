@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 98%
+source-wordcount: '1279'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 98%
 >ロジックは 1 つのフォーム内でしか適用できず、別のフォームからの選択に基づくことはできません。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -50,6 +52,8 @@ ht-degree: 98%
 </table>
 
 この表の情報の詳細については、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 論理アイコンを表示およびスキップ
 

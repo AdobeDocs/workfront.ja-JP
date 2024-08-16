@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 95%
+source-wordcount: '477'
+ht-degree: 93%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 95%
 フォームデザイナーを使用して、既存のカスタムフォームに対してオブジェクトタイプを追加または削除できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -46,6 +48,8 @@ ht-degree: 95%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 既存のカスタムフォームにオブジェクトタイプを追加する
 

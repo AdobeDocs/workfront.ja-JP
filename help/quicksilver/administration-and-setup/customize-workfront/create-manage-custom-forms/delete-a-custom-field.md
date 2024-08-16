@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: システムからカスタムフィールドまたはウィジェットを削除
+title: カスタムフィールドまたはウィジェットのシステムからの削除
 description: システムのパフォーマンスを向上させ、ユーザーにとってフォームを使いやすくするには、カスタムフィールドとウィジェットが使用されなくなった場合、システムからカスタムフィールドとウィジェットを削除します。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 96%
+source-wordcount: '563'
+ht-degree: 92%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 96%
 >また、使用されなくなったフィールドのデータの損失を防ぐために使用できる回避策について詳しくは、[ユーザーが入力したデータ損失なしでのカスタムフィールドの削除](#remove-a-custom-field-without-losing-data-that-users-have-entered)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -54,6 +56,8 @@ ht-degree: 96%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## システムからカスタムフィールドまたはウィジェットを削除
 

@@ -1,5 +1,5 @@
 ---
-title: 「カスタムフォームとフィールドの管理：記事インデックス」
+title: 「カスタムFormsとフィールドの管理：Article Index」
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b15e5a75-1675-48d2-9c88-e7def24ac550
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
 source-wordcount: '131'
 ht-degree: 58%

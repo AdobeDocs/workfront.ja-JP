@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: 特定のカスタムフィールドまたはウィジェットを使用するすべてのカスタムフォームを表示
+title: 特定のカスタムフィールドまたはウィジェットを使用するすべてのカスタムFormsを表示します
 description: 変更または削除するカスタムフィールドまたはウィジェットを使用しているカスタムフォームを確認できます。これらのカスタムフォームが正常に動作し続けるために調整が必要かどうか、またはフィールドやウィジェットを変更または削除した後も有用であり続けるために必要かどうかを評価することが重要です。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 40722f2b-f8b2-4dc5-805e-2b434a0d46c3
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[フォームデザイナーを使用してフォームをデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -48,6 +50,8 @@ ht-degree: 100%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 特定のカスタムフィールドまたはウィジェットを使用するカスタムフォームを確認
 

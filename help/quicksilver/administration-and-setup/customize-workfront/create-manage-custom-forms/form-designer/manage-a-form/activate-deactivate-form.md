@@ -1,5 +1,5 @@
 ---
-title: カスタムフォームの非アクティブ化または再アクティブ化
+title: カスタムフォームのディアクティベートまたは再アクティベート
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: 35de4535970d5cd15fcd68f79bf849803f94a77e
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 100%
+source-wordcount: '367'
+ht-degree: 95%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 >カスタムフォームが非アクティブ化されているが、まだキュートピックまたはリクエストキュー定義の一部である場合、新しいリクエストに添付されます。フォームをリクエストに含めない場合は、リクエストキューから手動で削除する必要があります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -50,6 +52,8 @@ ht-degree: 100%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## カスタムフォームの非アクティブ化
 

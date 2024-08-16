@@ -1,5 +1,5 @@
 ---
-title: カスタムフォームを共有
+title: カスタムフォームの共有
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 6c43d836c24f893d1b7d7d01c1dd0b1cc3fba357
+source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
 workflow-type: tm+mt
-source-wordcount: '1408'
-ht-degree: 77%
+source-wordcount: '1419'
+ht-degree: 76%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 77%
 カスタムフォームへのアクセスを設定して、フォームの表示、共有、編集を行えるユーザー／役割／グループ／チーム／会社を制御できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -46,6 +48,8 @@ ht-degree: 77%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## カスタムフォームへのアクセス {#access-to-custom-forms}
 
