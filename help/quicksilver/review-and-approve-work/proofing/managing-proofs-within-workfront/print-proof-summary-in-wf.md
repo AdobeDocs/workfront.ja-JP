@@ -6,10 +6,10 @@ description: プルーフの概要を印刷したり、PDF として保存した
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 1b85267e811f5832480316be5322ee819abaf190
+source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
 workflow-type: tm+mt
-source-wordcount: '758'
-ht-degree: 98%
+source-wordcount: '765'
+ht-degree: 97%
 
 ---
 
@@ -56,7 +56,8 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->ドキュメントリストから複数のプルーフの概要を同時に印刷することはできません。
+>* 1 GB を超えるサマリーはサポートされていません。
+>* ドキュメントリストから複数のプルーフの概要を同時に印刷することはできません。
 
 1. プルーフを含むドキュメントリストから、ドキュメントを含む行の上にポインタを合わせて、「**概要の印刷**」をクリックします。
 
