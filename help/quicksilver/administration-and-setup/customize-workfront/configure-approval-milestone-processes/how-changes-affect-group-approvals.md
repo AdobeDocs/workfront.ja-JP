@@ -1,18 +1,18 @@
 ---
-title: グループと承認プロセスの変更が、割り当てられた承認プロセスに及ぼす影響
+title: グループと承認プロセスの変更が割り当てられた承認プロセスに与える影響
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: この記事では、Workfront 管理者（または承認プロセスへの管理アクセス権を持つユーザー）がグループとの関連付けを変更する際に承認プロセスが既に使用されている場合に何が起こるかを説明します。
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 77b2dce2-1523-4262-a659-0d301059a54c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '1495'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

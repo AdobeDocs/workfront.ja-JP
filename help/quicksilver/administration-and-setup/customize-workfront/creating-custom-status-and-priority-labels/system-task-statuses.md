@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: システムタスクステータス
+title: システム タスク状態
 description: Workfront の 3 つの組み込みのシステムタスクステータスは必須です。つまり、ロック解除、名前変更および並べ替えはできますが、非表示や削除はできません。組織のニーズに合わせて新しいシステムタスクステータスを追加することもできます。タスクステータスの変更は通常は手動のプロセスですが、システムで発生している他の要因によっては、タスクのステータスが自動的に変更される場合もあります。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b8c751c3-aed3-4836-a888-f3f8a5f08421
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
 source-wordcount: '406'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

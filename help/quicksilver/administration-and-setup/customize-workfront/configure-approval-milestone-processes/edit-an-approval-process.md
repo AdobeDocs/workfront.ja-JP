@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: 4041d61ada0be7195b3af3260d419a686e1ada4a
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 100%
+source-wordcount: '1950'
+ht-degree: 99%
 
 ---
 
@@ -34,6 +34,8 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
 >* 現在のステージの前に承認者を追加
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -58,9 +60,12 @@ Adobe Workfront 管理者、または承認プロセスへの管理者アクセ�
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
++++
+
 ## 既存の承認プロセスを編集
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
+
 1. （条件付き）システムレベルの承認プロセスを編集する場合、左パネルで&#x200B;**プロセス**／**承認**&#x200B;をクリックします。
 
    または

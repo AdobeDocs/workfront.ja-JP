@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: カスタムステータスをデフォルトのステータスとして使用
+title: カスタムステータスをデフォルトステータスとして使用
 description: カスタムステータスがデフォルトステータスとして設定されている場合、新しいデフォルトステータスは、様々な方法でシステム全体で使用されます。使用方法は、デフォルトのシステムレベルのステータスとして設定されているか、デフォルトのグループレベルのステータスとして設定されているかによって異なります。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 100%
+source-wordcount: '830'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 カスタムステータスがデフォルトステータスとして設定されている場合、新しいデフォルトステータスは、様々な方法でシステム全体で使用されます。使用方法は、デフォルトのシステムレベルのステータスとして設定されているか、デフォルトのグループレベルのステータスとして設定されているかによって異なります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -41,6 +43,8 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## カスタムのデフォルトシステムレベルステータス
 
@@ -76,7 +80,8 @@ ht-degree: 100%
 
 ## カスタムステータスをデフォルトのステータスとして設定
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
+
 1. 左側のパネルで、**プロジェクト環境設定**／**ステータス**&#x200B;をクリックします。
 1. （条件付き）グループにデフォルトのステータスを設定する場合は、右上隅のメニューにグループの名前を入力し、表示されたら選択します。
 1. デフォルトのステータスとして設定するステータスのタイプに応じて、「**プロジェクト**」、「**タスク**」、または「**イシュー**」タブを開きます。

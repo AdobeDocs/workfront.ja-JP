@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
 title: カスタムステータスの削除
 description: カスタムシステムステータスが組織にとって不要になった場合は、削除できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '482'
+ht-degree: 96%
 
 ---
 
@@ -41,6 +41,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -62,9 +64,11 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## カスタムシステムステータスを削除
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**プロジェクト環境設定**／**ステータス**&#x200B;をクリックします。
 

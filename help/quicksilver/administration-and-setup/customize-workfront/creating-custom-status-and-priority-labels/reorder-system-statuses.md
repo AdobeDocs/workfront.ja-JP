@@ -4,14 +4,14 @@ product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: システムレベルとグループのステータスの並べ替え
 description: Workfront 管理者は、システム内の全員または 1 つのグループの全員に対して、プロジェクト、タスクおよびイシューのステータスの順序を変更できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '516'
+ht-degree: 96%
 
 ---
 
@@ -35,6 +35,8 @@ Workfront 管理者は、システム内の全員または 1 つのグループ�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ Workfront 管理者は、システム内の全員または 1 つのグループ�
 </table>
 
 &#42;保有するプランまたはライセンスの種類を確認する必要がある場合は、Workfront 管理者にお問い合わせください。
+
++++
 
 ## デフォルトのステータス順序
 
@@ -108,7 +112,7 @@ Workfront 管理者は、システム内の全員または 1 つのグループ�
 
 ## タスクやプロジェクトのステータスをシステム全体またはグループ全体で並べ替える
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**プロジェクト環境設定／ステータス**&#x200B;をクリックします。
 1. （条件付き）グループのステータスを並べ替える場合は、右上隅のボックスにグループの名前を入力し、表示される名前をクリックします。

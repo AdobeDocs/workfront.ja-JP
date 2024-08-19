@@ -5,15 +5,15 @@ content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: ユーザーが作業項目、ドキュメントやプルーフに添付できる承認プロセスを作成できます。また、システム内の任意のプロジェクトに適用できるマイルストーンパスを作成することもできます。
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 5719f8ce-0b30-42a1-9b88-1466630401f2
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 

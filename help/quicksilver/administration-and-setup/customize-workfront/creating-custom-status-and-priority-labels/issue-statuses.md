@@ -1,18 +1,18 @@
 ---
-title: システムのイシューステータスのリストへのアクセス
+title: システムイシューステータスのリストへのアクセス
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: イシューのステータスを使用して、システム内のユーザーに、イシューが特定の時点で、開発のどの段階にあるかを示すことができます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '1471'
-ht-degree: 100%
+source-wordcount: '1467'
+ht-degree: 98%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 イシューのステータスを使用して、システム内のユーザーに、イシューが特定の時点で、開発のどの段階にあるかを示すことができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,13 +45,15 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## イシューステータスへのアクセス
 
 システムレベルのイシューステータスにアクセスして変更できます。デフォルトのシステムステータスに関する情報を編集したり、新しいカスタムステータスを作成したりすることができます。カスタムステータスの作成やシステムステータスの編集について詳しくは、[ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
 
 システムレベルのイシューステータスにアクセスするには、以下のように行います。
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**設定** ![](assets/gear-icon-settings.png)」の順にクリックします。
+{{step-1-to-setup}}
 
 1. **プロジェクトの環境設定**／**ステータス**&#x200B;をクリックします。
 

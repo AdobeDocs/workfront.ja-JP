@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Adobe Workfront の管理者は、Workfront での承認プロセスのグローバル設定を決定できます。これらの設定は、システム内のすべての作業項目の承認プロセスに影響します。
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: a3cb3d9d340d377e301c98480324bfe8bf507382
+source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 100%
+source-wordcount: '897'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 Adobe Workfront の管理者は、Workfront での承認プロセスのグローバル設定を決定できます。これらの設定は、システム内のすべての作業項目の承認プロセスに影響します。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -44,12 +46,13 @@ Adobe Workfront の管理者は、Workfront での承認プロセスのグロー
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
++++
+
 ## グローバル承認設定の指定
 
-1. Workfront 管理者として Workfront にログインします。
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
-1. **プロセス**／**承認**&#x200B;をクリックします。
+1. **プロセス**/**承認** をクリックします。
 
 1. **承認**&#x200B;のエリア名の隣にある&#x200B;**設定**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
 

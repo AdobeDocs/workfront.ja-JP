@@ -1,17 +1,17 @@
 ---
-title: イシューの重大度を作成またはカスタマイズ
+title: イシューの重要度の作成またはカスタマイズ
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: ユーザーは重要度を使用して、イシューの重要度を定義できます。Adobe Workfront の 5 つのデフォルトの重要度のいずれかをカスタマイズしたり、ユーザーに対して新しい重要度を作成したりできます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0331be3c-a2d8-4788-a41a-5e971fb4bbe1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 100%
+source-wordcount: '588'
+ht-degree: 97%
 
 ---
 
@@ -30,6 +30,8 @@ Linked to Understanding Issue Severity.
 >タスクとプロジェクトには重要度はありません。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -51,6 +53,8 @@ Linked to Understanding Issue Severity.
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## 組み込みのイシュー重要度
 
@@ -85,7 +89,7 @@ Workfront のイシューには 5 つの重要度が組み込まれています�
 
 Workfront の管理者は、ユーザー要件に合わせてイシューの重要度を作成および編集できます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**プロジェクト環境設定**／**重要度**&#x200B;をクリックします。
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '955'
 ht-degree: 98%
 
 ---
@@ -66,7 +66,7 @@ Adobe Workfront の管理者は、プロジェクト、タスクおよびイシ�
 
 組織全体のカスタムステータスを作成すると、システム内のすべてのグループが編集なしで使用できるカスタムステータスを設定できます。または、グループ管理者が自分のグループ用に変更できるように設定することもできます。詳しくは、[グループステータスの作成または編集](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)を参照してください。
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**プロジェクト環境設定**／**ステータス**&#x200B;をクリックします。
 

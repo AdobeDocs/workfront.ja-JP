@@ -5,14 +5,14 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: タスクのステータスを使用して、タスクが特定の時点で開発のどのステージにあるかユーザーに示すことができます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '303'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 タスクのステータスを使用して、タスクが特定の時点で開発のどのステージにあるかユーザーに示すことができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,11 +45,13 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## タスクステータスへのアクセス
 
 システムステータスの編集または新しいカスタムステータスの作成について詳しくは、[ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**設定** ![](assets/gear-icon-settings.png)」の順にクリックします。
+{{step-1-to-setup}}
 
 1. **プロジェクトの環境設定**／**ステータス**&#x200B;をクリックします。
 
