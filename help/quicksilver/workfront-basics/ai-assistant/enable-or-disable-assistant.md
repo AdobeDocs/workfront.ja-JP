@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 132c701d8a00897ed7cd1704d8da2e6a24400393
+source-git-commit: 592041f8d53004a6261fd743ea65ea323624df69
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 29%
+source-wordcount: '265'
+ht-degree: 32%
 
 ---
 
@@ -27,19 +27,25 @@ ht-degree: 29%
 
 Workfront管理者は、組織内で AI アシスタントを有効にしているユーザーを制御できます。 これはアクセスレベルで管理します。
 
+## アクセス要件
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td><p>新規：任意</p>
+       <p>または</p>
+       <p>現在：使用できません</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準</p>
        <p>または</p>
-       <p>現在：プラン</p></td>
+       <p>現在：使用できません</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
