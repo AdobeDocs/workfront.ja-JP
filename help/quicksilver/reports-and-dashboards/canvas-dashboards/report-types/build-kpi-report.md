@@ -6,14 +6,18 @@ description: 単一の集計 KPI を目立つように表示する KPI レポー
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 27%
+source-wordcount: '189'
+ht-degree: 23%
 
 ---
 
 # キャンバスダッシュボードでの KPI レポートの作成
+
+>[!IMPORTANT]
+>
+>このページでは、キャンバスダッシュボードのクローズドベータ版に登録したユーザーのみが使用できる機能について説明します。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 単一の集計 KPI を目立つように表示する KPI レポートをキャンバスダッシュボードに追加できます。
 

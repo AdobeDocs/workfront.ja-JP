@@ -6,14 +6,18 @@ description: 保留中および過去の承認決定に関するデータを含�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 25%
+source-wordcount: '200'
+ht-degree: 22%
 
 ---
 
 # キャンバスダッシュボードへの承認待ちレポートの追加
+
+>[!IMPORTANT]
+>
+>このページでは、キャンバスダッシュボードのクローズドベータ版に登録したユーザーのみが使用できる機能について説明します。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 保留中および過去の承認決定に関するデータを含む承認待ちレポートをキャンバスダッシュボードに追加できます。
 

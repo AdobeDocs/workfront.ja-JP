@@ -6,14 +6,18 @@ description: キャンバスダッシュボードは、他のAdobe Workfront ユ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 23%
+source-wordcount: '343'
+ht-degree: 22%
 
 ---
 
 # キャンバスダッシュボードの共有
+
+>[!IMPORTANT]
+>
+>このページでは、キャンバスダッシュボードのクローズドベータ版に登録したユーザーのみが使用できる機能について説明します。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 キャンバスダッシュボードは、他のAdobe Workfront ユーザーと共有して、ユーザーが表示したり編集したりできるようにします。
 

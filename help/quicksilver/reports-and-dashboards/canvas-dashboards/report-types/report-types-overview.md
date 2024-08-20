@@ -7,14 +7,18 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 3%
+source-wordcount: '205'
+ht-degree: 2%
 
 ---
 
 # キャンバスダッシュボードのレポートタイプの概要
+
+>[!IMPORTANT]
+>
+>このページでは、キャンバスダッシュボードのクローズドベータ版に登録したユーザーのみが使用できる機能について説明します。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 Workfront ダッシュボードには、様々な方法でキャンバスデータを視覚化する様々なレポートが多数用意されています。 キャンバスダッシュボードには、次のタイプのレポートを追加できます。
 

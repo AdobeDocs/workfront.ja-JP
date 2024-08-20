@@ -6,14 +6,18 @@ description: キャンバスダッシュボードを作成したら、様々な�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 25%
+source-wordcount: '573'
+ht-degree: 24%
 
 ---
 
 # キャンバスダッシュボードでのレポートの追加、削除、配置
+
+>[!IMPORTANT]
+>
+>このページでは、キャンバスダッシュボードのクローズドベータ版に登録したユーザーのみが使用できる機能について説明します。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 キャンバスダッシュボードを作成したら、様々な形式でAdobe Workfront データを表示するレポートを追加できます。 これらのレポートは、キャンバス上で必要に応じて移動したり、サイズを変更したりできます。 キャンバスダッシュボードの作成について詳しくは、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
 

@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '432'
 ht-degree: 20%
 
 ---
@@ -21,11 +21,9 @@ ht-degree: 20%
 キャンバスダッシュボードの使用に関する基本的な情報については、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
 キャンバスダッシュボードのドキュメントの一覧については、[ キャンバスダッシュボードの概要 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
 
-**Beta スケジュール：**
+**Betaの状態**
 
-* クローズドベータ開始日 – TBA
-* オープンベータ開始日 – TBA
-* 予定リリース日 – TBA
+キャンバスダッシュボードは現在、クローズドベータテスト段階にあり、特定の顧客への招待によってのみ利用できます。
 
 ## Beta に参加する
 

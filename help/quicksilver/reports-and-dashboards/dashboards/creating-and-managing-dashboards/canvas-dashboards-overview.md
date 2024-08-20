@@ -5,8 +5,10 @@ title: キャンバスダッシュボードの概要
 description: レポートキャンバスのビジュアライゼーションと従来のレポートを統合し、新しいレイアウトオプションを備えたキャンバスダッシュボードを作成できます。
 author: Nolan
 feature: Reports and Dashboards
+hidefromtoc: true
+hide: true
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%

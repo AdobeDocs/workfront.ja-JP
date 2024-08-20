@@ -6,14 +6,18 @@ description: データを棒グラフ、列グラフ、折れ線グラフまた�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 25%
+source-wordcount: '199'
+ht-degree: 22%
 
 ---
 
 # キャンバスダッシュボードでのグラフレポートの作成
+
+>[!IMPORTANT]
+>
+>このページでは、キャンバスダッシュボードのクローズドベータ版に登録したユーザーのみが使用できる機能について説明します。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 データを棒グラフ、列グラフ、折れ線グラフまたは円グラフとして視覚化するグラフレポートは、キャンバスダッシュボードに追加できます。
 

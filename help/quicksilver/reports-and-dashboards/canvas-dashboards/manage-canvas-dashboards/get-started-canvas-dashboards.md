@@ -6,14 +6,18 @@ description: キャンバスダッシュボードのリストに移動する方�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 893f41011159ff14410edf50bf1b3d24d787a85a
+source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
 workflow-type: tm+mt
-source-wordcount: '586'
-ht-degree: 15%
+source-wordcount: '611'
+ht-degree: 14%
 
 ---
 
 # キャンバスダッシュボードの基本を学ぶ
+
+>[!IMPORTANT]
+>
+>このページでは、キャンバスダッシュボードのクローズドベータ版に登録したユーザーのみが使用できる機能について説明します。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 キャンバスダッシュボードを使用すると、カスタマイズ可能なキャンバスに様々なレポートタイプを追加することで、Adobe Workfront データを簡単に視覚化できます。 このページでは、キャンバスダッシュボードのリストに移動する方法やキャンバスダッシュボードを作成および編集する方法など、キャンバスダッシュボードを使用するための基本的な手順を説明します。
 
