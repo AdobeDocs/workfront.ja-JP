@@ -6,11 +6,12 @@ title: 為替レートの設定
 description: Adobe Workfront 管理者は、Workfront で為替レートを設定できます。
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: b0cf0a5ec6b932267c8714b966638d8da93331b8
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '556'
+ht-degree: 97%
 
 ---
 
@@ -41,6 +42,8 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -62,9 +65,11 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
  </tbody> 
 </table>
 
++++
+
 ## 為替レートの設定
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **プロジェクト環境設定**／**為替レート**&#x200B;をクリックします。
 

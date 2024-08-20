@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: 自動リマインダーを設定
-description: 自動リマインダーを設定
+title: 自動リマインダーの設定
+description: すべてのタスクまたはイシューが期限、遅延または予定完了日近くになった場合に、メール通知でトリガーに通知するための自動リマインダーを設定できます。
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '611'
-ht-degree: 100%
+source-wordcount: '627'
+ht-degree: 93%
 
 ---
 
@@ -35,6 +35,8 @@ Adobe Workfront 管理者は、すべてのタスクやイシューが期日に�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -56,11 +58,13 @@ Adobe Workfront 管理者は、すべてのタスクやイシューが期日に�
  </tbody> 
 </table>
 
++++
+
 ## 自動リマインダーを設定
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
-1. **電子メール**／**自動リマインダー**&#x200B;をクリックします。
+1. **メール**/**自動リマインダー** をクリックします。
 
 1. **遅延通知の送信先**&#x200B;領域で、次のいずれかのオプションを選択します。
 
@@ -85,7 +89,7 @@ Adobe Workfront 管理者は、すべてのタスクやイシューが期日に�
         <td>（<b>締切リマインダの送信先</b>領域内）タスクまたはイシューに割り当てられたユーザーに、期限が近づいている作業項目に関する通知を送信する場合は、このオプションを選択します。</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. 作業項目の期日の前後の時間を選択して、自動リマインダーを送信する時間を設定します。
 

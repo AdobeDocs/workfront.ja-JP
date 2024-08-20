@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: デフォルトのプルーフメール通知設定の指定
+title: デフォルトのプルーフメール通知設定を指定
 description: プルーフに関するコメントや決定がなされた場合、Adobe Workfront のプルーフユーザーは、Workfront と Workfront Proof の両方からメール通知を受け取ることができます。ユーザーがすでに Workfront Proof からメール通知を受信している場合は、通知メールの重複を避けるために、Workfront から送信される通知を無効にすることをお勧めします。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: ed97b8a6-54db-42f8-afee-d76c2df53a94
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 96%
+source-wordcount: '291'
+ht-degree: 94%
 
 ---
 
@@ -54,7 +54,7 @@ Workfront Proof から送信される通知の設定について詳しくは、[
 
 Workfront から送信されるプルーフのメール通知を設定するには、次の手順に従います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **メール**&#x200B;を展開し、「**レビューと承認**」をクリックします。
 

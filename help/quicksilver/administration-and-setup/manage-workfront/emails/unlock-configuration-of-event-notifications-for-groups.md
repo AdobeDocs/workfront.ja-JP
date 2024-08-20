@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: すべてのグループのイベント通知の設定をロック解除またはロックします。
+title: すべてのグループのイベント通知の設定のロック解除またはロック
 description: Adobe Workfront の管理者は、管理するトップレベルのグループに対してグループ管理者がイベント通知を設定できるようにロック解除または再ロックできます。イベント通知の設定は、その設定の有効化と無効化で構成されます。
 author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 100%
+source-wordcount: '544'
+ht-degree: 96%
 
 ---
 
@@ -30,6 +30,8 @@ Adobe Workfront の管理者は、管理するトップレベルのグループ�
 >
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -52,13 +54,15 @@ Adobe Workfront の管理者は、管理するトップレベルのグループ�
  </tbody> 
 </table>
 
++++
+
 ## イベント通知を設定する機能のロックを解除または再度ロック
 
 >[!IMPORTANT]
 >
 >通知を再度ロックすると、システム内のすべてのグループが、設定した通知を正確に継承します。これは、グループ管理者がグループに対して行った変更を上書きするので、最初にグループ管理者に相談することをお勧めします。
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン![](assets/main-menu-icon.png)、**設定**![](assets/gear-icon-settings.png)の順にをクリックします。
+{{step-1-to-setup}}
 
 1. **メール**／**通知**&#x200B;をクリックします。
 

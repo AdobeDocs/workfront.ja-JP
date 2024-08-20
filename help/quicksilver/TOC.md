@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a06df1c4006b06e4fe5c730c1894fcc5122f68f5
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
 source-wordcount: '14334'
 ht-degree: 93%
@@ -406,13 +406,13 @@ ht-degree: 93%
             * [R1 リリースウェビナー](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
    * お知らせ {#announcements}
       * [お知らせ](product-announcements/announcements/announcements.md)
-      * [カスタムフォームの機能強化](product-announcements/announcements/custom-form-enhancements.md)
       * [機能のスケジュールがサポートされなくなりました](product-announcements/announcements/feature-removal-timeline.md)
       * [メンテナンスウィンドウに関する FAQ](product-announcements/announcements/maintenance-window-faq.md)
       * [許可リストにプルーフを追加する必要のある変更](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [新しい Adobe Workfront エクスペリエンスでのお知らせセンターメッセージの登録解除](product-announcements/announcements/unsubscribe-from-ac-messages.md)
       * お知らせのアーカイブ {#announcement-archive}
          * [お知らせのアーカイブ](product-announcements/announcements/announcement-archive/announcement-archive.md)
+         * [カスタムフォームの機能強化](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
          * [iOS および Android 用のモバイルアプリを更新しました（2017年8月初旬）](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
          * [Adobe Workfront で必要な TLS 1.2](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
          * [Outlook 365 アドインが利用可能になりました](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)

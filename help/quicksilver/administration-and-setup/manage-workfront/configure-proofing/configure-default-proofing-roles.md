@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: デフォルトのプルーフの役割の設定
+title: デフォルトのプルーフの役割を設定
 description: Adobe Workfront の管理者は、Workfront で作成したプルーフにアクセスするユーザーおよびゲストユーザーに対して、デフォルトのプルーフの役割を設定できます。プルーフにユーザーを追加するどんな担当者でも、そのユーザーのこれらの役割を調整できます。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: d64213bf-f270-404f-a45a-6f94c7b7cb91
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 100%
+source-wordcount: '550'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 Adobe Workfront の管理者は、Workfront で作成したプルーフにアクセスするユーザーおよびゲストユーザーに対して、デフォルトのプルーフの役割を設定できます。プルーフにユーザーを追加するどんな担当者でも、そのユーザーのこれらの役割を調整できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -44,11 +46,13 @@ Adobe Workfront の管理者は、Workfront で作成したプルーフにアク
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
++++
+
 ## デフォルトのプルーフの役割の設定
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
-   <!--
+<!--
    <li In the left panel, click Proofs Proof roles.
    -->
 

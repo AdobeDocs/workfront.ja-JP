@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: 組織のプルーフ設定の指定
+title: 組織のプルーフ設定を指定する
 description: Adobe Workfront 管理者または Workfront プルーフ管理者は、組織のデフォルトのプルーフ設定をカスタマイズできます。これらの設定には、デフォルトの共有オプションやブランディングなどが含まれます。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 100%
+source-wordcount: '1221'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 Adobe Workfront 管理者または Workfront プルーフ管理者は、組織のデフォルトのプルーフ設定をカスタマイズできます。これらの設定には、デフォルトの共有オプションやブランディングなどが含まれます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -44,6 +46,8 @@ Adobe Workfront 管理者または Workfront プルーフ管理者は、組織�
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
++++
+
 ## アクションの設定
 
 プルーフビューアーでのアクション使用について詳しくは、[プルーフコメントへのアクションの使用](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)を参照してください。
@@ -56,7 +60,7 @@ Adobe Workfront 管理者または Workfront プルーフ管理者は、組織�
 
 ### アクションの追加または名前変更 {#add-or-rename-an-action}
 
-1. Workfront でメインメニュー ![](assets/main-menu-icon.png) をクリックし、プルーフ ![](assets/proofing-in-main-menu.png) をクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
 
 1. Workfront Proof の右上隅にある **設定**／**アカウント設定**&#x200B;をクリックし、「**設定**」タブを選択します。
 
@@ -73,7 +77,7 @@ Adobe Workfront 管理者または Workfront プルーフ管理者は、組織�
 
 ### アクションの非アクティブ化または再アクティブ化 {#deactivate-or-reactivate-an-action}
 
-1. Workfront でメインメニュー ![](assets/main-menu-icon.png) をクリックし、プルーフ ![](assets/proofing-in-main-menu.png) をクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
 
 1. Workfront Proof の右上隅にある **設定**／**アカウント設定**&#x200B;をクリックし、「**設定**」タブを選択します。
 
@@ -82,7 +86,7 @@ Adobe Workfront 管理者または Workfront プルーフ管理者は、組織�
 
 ### アクションの並べ替え {#reorder-actions}
 
-1. Workfront でメインメニュー ![](assets/main-menu-icon.png) をクリックし、プルーフ ![](assets/proofing-in-main-menu.png) をクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
 
 1. Workfront Proof の右上隅にある **設定**／**アカウント設定**&#x200B;をクリックし、「**設定**」タブを選択します。
 
@@ -98,7 +102,7 @@ Adobe Workfront 管理者または Workfront プルーフ管理者は、組織�
 
 カスタムデバイスを追加するには：
 
-1. Workfront でメインメニュー ![](assets/main-menu-icon.png) をクリックし、「プルーフ」![](assets/proofing-in-main-menu.png) をクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
 
 1. Workfront Proof インターフェイスの右上隅で&#x200B;**設定**／**アカウント設定**&#x200B;をクリックし、「**設定**」タブをクリックします。
 

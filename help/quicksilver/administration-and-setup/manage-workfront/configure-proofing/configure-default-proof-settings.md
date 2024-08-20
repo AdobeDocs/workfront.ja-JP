@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: デフォルトプルーフの設定
+title: デフォルトのプルーフ設定を指定
 description: これらの設定を使用すると、ユーザーが作成するすべての新しいプルーフに適用されるデフォルト値を設定できます。ただし、プルーフの作成時に、ユーザーがこれらの設定のほとんどを上書きできます。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
+source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 98%
+source-wordcount: '557'
+ht-degree: 97%
 
 ---
 
@@ -53,7 +53,8 @@ ht-degree: 98%
 
 ## 新しいプルーフのデフォルト設定を指定する
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、「**設定**」をクリックします。
+{{step-1-to-setup}}
+
 1. 左側のパネルで、**プルーフ**／**プルーフの設定**&#x200B;をクリックします。
 1. 「**新しいプルーフのデフォルト**」セクションで、次の設定を行います。
 
@@ -113,7 +114,8 @@ ht-degree: 98%
 
 プルーフの決定を設定するには、以下の手順を実行します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」をクリックします。
+{{step-1-to-setup}}
+
 1. 左側のパネルで、**プルーフ**／**プルーフの設定**&#x200B;をクリックします。
 1. 「**決定**」セクションで、以下の操作を実行できます。
 

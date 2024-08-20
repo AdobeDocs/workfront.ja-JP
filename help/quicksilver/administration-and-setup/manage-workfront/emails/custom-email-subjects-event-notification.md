@@ -1,15 +1,15 @@
 ---
 navigation-topic: notifications
-title: イベント通知のメールの件名をカスタマイズ
+title: イベント通知用のメール件名のカスタマイズ
 description: イベント通知でトリガーされるメールの件名行をカスタマイズできます。
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 100%
+source-wordcount: '604'
+ht-degree: 97%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 100%
 >
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -58,9 +60,11 @@ ht-degree: 100%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
++++
+
 ## イベント通知のメールの件名行をカスタマイズ {#customize-email-subject-lines-for-event-notifications}
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**メール**／**通知**&#x200B;をクリックします。
 

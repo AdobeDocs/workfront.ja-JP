@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: 組織でデスクトッププルーフビューアをインストール
+title: 組織のデスクトッププルーフビューアのインストール
 description: デスクトッププルーフビューアは、インタラクティブコンテンツのプルーフを主目的として設計されています。このビューアは、各ユーザーのローカルマシンにインストールする必要があるアプリケーションです。Adobe Workfront 管理者または Workfront Proof 管理者が、このインストールを実行できます。
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
-source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 86%
+source-wordcount: '569'
+ht-degree: 82%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 86%
 デスクトッププルーフビューアは、インタラクティブコンテンツのプルーフを主目的として設計されています。このビューアは、各ユーザーのローカルマシンにインストールする必要があるアプリケーションです。Adobe Workfront 管理者または Workfront Proof 管理者が、このインストールを実行できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -45,6 +47,8 @@ ht-degree: 86%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 必要システム構成
 

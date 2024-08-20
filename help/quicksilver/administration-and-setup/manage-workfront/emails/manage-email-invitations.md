@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: 新規ユーザーへのメール招待の管理
+title: 新規ユーザーへの E メール招待状の管理
 description: Adobe Workfront 管理者は、招待メールを使用してユーザーを Workfront に追加し、追加されたことをユーザーに通知することができます。
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 1c0a656f2603c5decabd2bb4e88da1b9530f9e1c
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 100%
+source-wordcount: '929'
+ht-degree: 98%
 
 ---
 
@@ -44,6 +44,8 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -65,6 +67,8 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
  </tbody> 
 </table>
 
++++
+
 ## メールの招待状を生成 {#generate-email-invitations}
 
 メールの招待状は、以下のシナリオで生成されます。
@@ -80,7 +84,8 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
 
 既存の未登録ユーザーへのメール招待状を手動で生成するには、以下のように行います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**ユーザー** ![](assets/users-icon-in-main-menu.png) の順にクリックします。
+{{step-1-to-users}}
+
 1. 名前の後に「**未登録**」ラベルが表示されているユーザーを選択します。
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -101,7 +106,7 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
 
 Workfront 管理者は、新規ユーザーへの招待メールに含めるメッセージを設定できます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のリストで、**メール**／**招待状**&#x200B;とクリックします。
 

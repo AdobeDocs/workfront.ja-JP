@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: イベント通知のタイプ
-description: 運用イベント通知は、プロジェクト、タスク、イシューなどのオブジェクトに関する様々なタイプのイベントによってトリガーされるメールです。この記事では、利用可能なイベント通知の種類を一覧にして説明します。
+title: イベント通知タイプ
+description: イベント通知は、プロジェクト、タスク、イシューなどのオブジェクトに関する様々なタイプのイベントによってトリガーされるメールです。この記事では、利用可能なイベント通知の種類を一覧にして説明します。
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 97%

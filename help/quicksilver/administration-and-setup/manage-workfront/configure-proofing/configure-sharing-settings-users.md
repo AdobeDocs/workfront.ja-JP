@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 505c183b-6252-4367-898f-2429824860be
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 100%
+source-wordcount: '579'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 Adobe Workfront 管理者または Workfront Proof 管理者は、プルーフを共有できるユーザーアカウント、ユーザーがプルーフのすべてのバージョンを表示できるかどうか、およびユーザーが共有アイテムにアクセスできるタイミングを設定できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -44,9 +46,11 @@ Adobe Workfront 管理者または Workfront Proof 管理者は、プルーフ�
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
++++
+
 ## 他のアカウントとの共有の設定
 
-1. Workfront で、メインメニュー ![](assets/main-menu-icon.png) をクリックし、プルーフ ![](assets/proofing-in-main-menu.png) をクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
 
 1. **設定**／**アカウント設定**&#x200B;をクリックし、「**設定**」タブをクリックします。
 
@@ -57,7 +61,7 @@ Adobe Workfront 管理者または Workfront Proof 管理者は、プルーフ�
 
 ## 共有プルーフのすべてのバージョンの表示の設定
 
-1. Workfront で、メインメニュー ![](assets/main-menu-icon.png) をクリックし、プルーフ ![](assets/proofing-in-main-menu.png) をクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
 
 1. **設定**／**アカウント設定**&#x200B;をクリックし、「**設定**」タブをクリックします。
 
@@ -75,7 +79,7 @@ Adobe Workfront 管理者または Workfront Proof 管理者は、プルーフ�
 
 自動ワークフローを使用したプルーフをユーザーに表示するタイミングを設定するには：
 
-1. Workfront で、メインメニュー ![](assets/main-menu-icon.png) をクリックし、プルーフ ![](assets/proofing-in-main-menu.png) をクリックして Workfront Proof にアクセスします。
+{{step1-to-proofing}}
 
 1. **設定**／**アカウント設定**&#x200B;をクリックし、「**設定**」タブをクリックします。
 

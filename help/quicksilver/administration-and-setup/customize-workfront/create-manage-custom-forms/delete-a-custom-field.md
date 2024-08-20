@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c22a7ced-da81-40b5-bb4d-69d59b855add
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 92%
+source-wordcount: '581'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 
 >[!CAUTION]
 >
->また、カスタムフィールドを削除すると、オブジェクトに添付されたカスタムフォームに入力したユーザーがフィールドに入力したすべてのカスタムデータも削除されます。その削除されたデータは復元できません。
+>また、カスタムフィールドを削除すると、オブジェクトに添付されたカスタムフォームに入力したユーザーがフィールドに入力したすべてのカスタムデータも削除されます。その削除されたデータは復元できません。 また、そのカスタムフォームを使用しているユーザーに対して、削除されたことを警告する通知システムはありません。
 >
 >削除するカスタムフィールドを使用するすべてのカスタムフォームおよびレポートを表示して、その影響を評価できます。詳しくは、[特定のカスタムフィールドまたはウィジェットを使用するすべてのカスタムフォームの表示](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)および[特定のカスタムフィールドまたはウィジェットを使用するすべてのレポートの表示](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)を参照してください。
 >

@@ -7,15 +7,16 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '117'
 ht-degree: 100%
 
 ---
 
 # お知らせのアーカイブ
 
+* [カスタムフォームの機能強化](custom-form-enhancements.md)
 * [iOS および Android 用のモバイルアプリを更新しました（2017年8月初旬）](updated-mobile-app.md)
 * [Adobe Workfront で必要な TLS 1.2](tls-1-disabled.md)
 * [Outlook 365 アドインが利用可能になりました](../../outlook-365-add-in/outlook-365-add-in-now-available.md)

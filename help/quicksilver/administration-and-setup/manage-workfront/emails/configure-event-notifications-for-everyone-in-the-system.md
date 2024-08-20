@@ -1,14 +1,14 @@
 ---
-title: システムの全員へのイベント通知を設定
+title: システム内の全員に対するイベント通知の設定
 description: イベント通知は、特定のイベントが発生したときにユーザーにメールを送信します。Adobe Workfront 管理者またはプランナーのアクセスレベルを持つユーザーは、システム内のすべてのユーザーに対するイベント通知を設定できます。イベント通知の設定は、その設定の有効化と無効化で構成されます。
 author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
 source-wordcount: '584'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 

@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 100%
+source-wordcount: '1240'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,8 @@ Adobe Workfront 管理者または Workfront Proof 管理者は、Workfront と 
 基本プルーフと統合プルーフで利用可能なプルーフ機能について詳しくは、[Workfront でのプルーフ機能へのアクセス](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -46,6 +48,8 @@ Adobe Workfront 管理者または Workfront Proof 管理者は、Workfront と 
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
 
++++
+
 ## ユーザーのプルーフ機能を有効または無効にする（従来プランのみ） {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 従来の Select または Premium の Workfront プランを使用している場合は、Workfront 管理者として、ユーザーのプルーフ機能を有効または無効にできます。
@@ -63,7 +67,8 @@ Adobe Workfront 管理者または Workfront Proof 管理者は、Workfront と 
 
 選択した権限プロファイルは、組織内に存在する各プルーフユーザーに付与されます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**ユーザー**![](assets/users-icon-in-main-menu.png)をクリックします。
+{{step-1-to-users}}
+
 1. 1 人または複数のユーザーを選択し、「**編集**」をクリックします。
 
 1. 「**アクセス**」セクションで、**プルーフ権限プロファイル**&#x200B;ドロップダウンメニューで次のいずれかの Workfront Proof 権限オプションをクリックします。
