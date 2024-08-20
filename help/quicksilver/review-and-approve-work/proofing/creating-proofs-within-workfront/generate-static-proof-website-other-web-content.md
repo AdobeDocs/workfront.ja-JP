@@ -6,7 +6,7 @@ description: 新しい静的プルーフを生成するか、web コンテンツ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 98%
@@ -75,7 +75,7 @@ Web サイトまたは他の web コンテンツ用の静的プルーフを作�
 
    >[!NOTE]
    >
-   > URL は 1,000 文字未満にする必要があります。
+   > URL は 2,000 文字未満にする必要があります。
 
 1. 追加した URL をクリックします。
 

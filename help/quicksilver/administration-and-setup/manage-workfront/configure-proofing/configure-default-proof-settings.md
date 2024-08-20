@@ -8,16 +8,48 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f391f43e96add70f8a5aeed259eee1259ed786a3
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 100%
+source-wordcount: '587'
+ht-degree: 98%
 
 ---
 
 # デフォルトプルーフの設定
 
 これらの設定を使用すると、ユーザーが作成するすべての新しいプルーフに適用されるデフォルト値を設定できます。ただし、プルーフの作成時に、ユーザーがこれらの設定のほとんどを上書きできます。
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td>
+   <p>新規：標準</p>
+   または
+   <p>現在：プラン</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定*</td> 
+   <td> <p>Workfront 管理者である必要があります。Workfront 管理者について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## 新しいプルーフのデフォルト設定を指定する
 
