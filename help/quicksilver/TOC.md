@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
 workflow-type: tm+mt
-source-wordcount: '14334'
+source-wordcount: '14337'
 ht-degree: 93%
 
 ---
@@ -895,6 +895,7 @@ ht-degree: 93%
          * [マイ更新エリアの使用](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
    * AI アシスタント {#ai-assistant}
       * [AI アシスタント](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+      * [AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [AI アシスタントを使用して要約する](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [AI アシスタントからヘルプを入手](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [AI アシスタントで計算フィールドの数式を修正する](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
