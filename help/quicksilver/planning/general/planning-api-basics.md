@@ -1,16 +1,16 @@
 ---
-title: 'Adobe Workfront計画 API の基本'
+title: Adobe Workfront計画 API の基本
 description: Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。 このドキュメントは、REST 応答と JSON 応答に精通していることを前提としており、Planning API によるアプローチについて説明しています。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: ebdcb8ee2a6efe96c77f863e85f8911d20ab1dd4
+exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
+source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 13%
 
 ---
-
 
 # Adobe Workfront計画 API の基本
 
@@ -98,13 +98,13 @@ Workfront Planning では、次の検索修飾子をサポートしています�
         <td>$greaterThanOrEqual </td>
         <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
         <td>フィールドの値がフィルターよりも大きいか等しいレコードを返します  </td>
-        <td><ul><li>10</li><li>20</li><ul><li>25</li> </td>
+        <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
     </tr>
     <tr>
         <td>$lessThan </td>
         <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
         <td>フィールド値がフィルターよりも小さいレコードを返します  </td>
-        <td><ul><li>5</li><li>9</li><ul> </td>
+        <td><ul><li>5</li><li>9</li></td></ul> 
     </tr>
     <tr>
         <td>$lessThanOrEqual </td>
@@ -355,6 +355,3 @@ API 呼び出しに以下を追加すると、任意のフィールド別に結�
 結果が正しくページ分割されるようにするには、並べ替えパラメーターを使用します。これにより、結果が同じ順序で返されるので、ページネーションで結果が繰り返されたりスキップされたりすることはありません。
 
 並べ替えについて詳しくは、この記事の [API でのクエリ結果の並べ替え ](#sorting-query-results-in-the-api) を参照してください。
-
-
-
