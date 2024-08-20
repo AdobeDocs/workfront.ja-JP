@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 55%
+source-wordcount: '628'
+ht-degree: 38%
 
 ---
 
@@ -35,8 +35,6 @@ hide: yes
 ## アクセス要件
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
-
-<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
 
 <table style="table-layout:auto">
  <col>
@@ -79,7 +77,8 @@ hide: yes
 <tr>
    <td role="rowheader"><p>権限</p></td>
    <td> <p>ワークスペースへの権限の管理</a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
+   <p>システム管理者のみが、レコードタイプを他のワークスペースから接続できます</p>
 </td>
   </tr>
 <tr>
@@ -115,60 +114,34 @@ hide: yes
 
    ![](assets/more-menu-options-from-record-type-card.png)
 
-   <!--replace everything below with the commented out text below-->
+1. **レコードタイプを編集** ボックスで、「**外観** タブがデフォルトで開きます。
 
-1. **レコードタイプを編集** ボックスで、次の情報を更新します。
+   ![](assets/edit-record-type-box-appearance-tab.png)
 
-   * 必要に応じて、レコードタイプ名を編集します。<!--did they add a field label for this? -->
+   「**外観**」タブで次の情報を更新します。
+
+   * 必要に応じて、レコードタイプ名を編集します。<!--did they add a field label for this?-->
    * **説明**：詳しい情報を含むレコードタイプの説明を編集または追加します。
    * レコードタイプに関連付けられたアイコンの色と形状を編集します。 次の操作を実行します。
-      * レコードタイプを識別するための色を選択します。これは、レコードタイプアイコンの色です。灰色はデフォルトで選択されています。
+      * レコードタイプを識別するための色を選択します。これは、レコードタイプアイコンの色です。
       * リストからアイコンを選択するか、アイコンの名前を入力して何を表しているか説明し、表示されたら選択します。これは、レコードタイプのアイコンです。ファイルのアイコンはデフォルトで選択されています。
 
-     ![](assets/update-record-type-box.png)
-
-1. **保存**&#x200B;をクリックします。
-1. （オプション）ワークスペースエリアでレコードタイプカードをクリックして、レコードタイプのページを開きます。
-1. レコードタイプ名の右側にある **詳細** メニューをクリックし、**編集** をクリックして、レコードタイプに関する情報を更新します。
-
-   >[!TIP]
-   >
-   >   ヘッダーでレコードタイプの名前を変更できます。
-
-   ![](assets/more-menu-options-from-record-type-page.png)
-
-   <!--check this screen shot - not sure this is valid ???-->
-
-1. （オプション）別のレコードの種類を編集するには、レコードの種類名の右側にある下向き矢印を展開し、レコードの種類を検索してから、一覧に表示されたら選択します。
-
-<!--*******************For GA - replace the above with this:
-
-1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
-
-    * Edit the record type name, if needed. (*****did they add a field label for this?******)
-    * **Description**: Edit or add a description for the record type with more information about it. 
-    * Edit the color and shape of the icon associated with the record type. Do the following: 
-        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
-
-        ![](assets/update-record-type-box.png)
-
-1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
-
-   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
-   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
-   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+1. （条件付き）システム管理者の場合は、「**レコードタイプを編集** ボックスの「**詳細設定**」タブをクリックします。
 
    ![](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+1. （条件付き）システム管理者が、「**詳細設定**」タブで次の情報を更新します。
 
+   * **他のワークスペースから接続**：ユーザーが他のワークスペースからこのレコードタイプに接続できるようにするには、この切替スイッチを選択します。 デフォルトでは、このオプションは選択されていません。
+   * **システム全体**：ユーザーがシステム内のすべてのワークスペースからこのレコードに接続できるようにするには、このオプションを選択します。
+   * **特定のワークスペース**：このオプションを選択して、ユーザーがこのレコードタイプに接続できるワークスペースを制限し、ドロップダウンメニューを展開して、ユーザーがこのレコードタイプに接続するワークスペースを選択します。 ワークスペースの名前の入力を開始し、リストに表示されたら選択できます。
 
-1. Click **Save**.
-1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+1. **保存**&#x200B;をクリックします。
 
-1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+   ワークスペースのレコードタイプカードで、右上隅に接続アイコン ![](assets/connect-from-other-workspaces-icon.png) が表示され、他のワークスペースからレコードにアクセスできるようになったことを示します。
+
+1. （オプション）ワークスペース領域からレコードタイプカードをクリックしてレコードタイプのページを開き、ヘッダーでレコードタイプの名前を変更します。
+
+1. （オプション）別のレコードの種類を編集するには、レコードの種類のページで、レコードの種類名の右側にある下向き矢印を展開し、レコードの種類を検索してから、一覧に表示されるときにその種類を選択します。
 
    ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
-
-   -->

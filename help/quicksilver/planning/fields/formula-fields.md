@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 5c7b60ac5b78bd065ffc270588ec72ab3eb2f41d
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 82%
@@ -110,6 +110,17 @@ recommendations: noDisplay, noCatalog
 * 式フィールドを保存した後で、そのフィールド タイプを変更することはできません。
 * 数式フィールドを保存した後でその計算を更新すると、同じタイプのすべてのレコードに対して、計算結果を自動的に更新できます。
 * Workfront Planning インターフェイスに表示される数式で参照するフィールドを追加する必要があります。
+<!--* You can format the result of a formula calculation by choosing from the following options:
+
+   * Text
+   * Number
+   * Percent
+   * Currency
+   * Tags
+   * Date
+
+   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
+
 
 ## サポートされる数式
 

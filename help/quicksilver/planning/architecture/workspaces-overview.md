@@ -4,9 +4,9 @@ description: ワークスペースは、チームが使用するレコードタ�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 25%
 
 ---
@@ -40,8 +40,8 @@ ht-degree: 25%
 
    * システム管理者の場合、ワークスペースは次のタブに表示されます。
 
-      * **マイワークスペース**：作成したワークスペースが表示されます。<!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **その他のワークスペース**：共有されているワークスペースを含む、システム内のその他すべてのワークスペースを表示します。<!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **自分が参加しているワークスペース**：自分が作成したワークスペースまたは自分と共有されているワークスペースが表示されます。
+      * **その他のワークスペース**：システム内のその他すべてのワークスペースを表示します。
 
    * その他のすべてのユーザーについては、作成したワークスペースと、共有している他のユーザーのワークスペースが「ワークスペース」領域に表示されます。
 
@@ -55,6 +55,7 @@ ht-degree: 25%
   システム管理者は、自分が作成していないワークスペースも含め、すべてのワークスペースを管理できます。
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * Workfront Planning のインスタンスで作成できるワークスペース・オブジェクトの数には制限があります。 詳しくは、[Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
 
 

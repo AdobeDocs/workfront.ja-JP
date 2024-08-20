@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1874'
-ht-degree: 77%
+source-wordcount: '1880'
+ht-degree: 76%
 
 ---
 
@@ -78,11 +78,11 @@ Workfront Planning で使用可能な主な機能と、その使用可能なタ�
 | タイムラインビューでのレコードの並べ替え |                               | ✓ |                  |
 | テーブルビューでのグループ化の並べ替え |                               | ✓ |                  |
 | タイムラインビューでのグループ化の並べ替え |                               | ✓ |                  |
-| ワークスペースの接続 |                               | ✓ |                  |
 | テーブルビューでのレコードの検索 | ✓ |   |
 | タイムラインビューでのレコードの検索 | ✓ |   |
 | Workfront Planning レコードを Workfront のプロジェクト、プログラム、ポートフォリオ、会社、グループに接続 | ✓ |                                 |                  |
 | Workfront Planning レコードを Adobe Experience Manager のアセットに接続 | ✓ |                                  |                 |
+| 異なるワークスペースの Planning レコードを接続します | ✓ |                                  |                 |
 | 詳細情報を含むレコードページ | ✓ |                                  |                  |
 | レコードのページのレイアウトを更新 | ✓ |                                 |                  |
 | ワークスペースの共有 | ✓ | |  |
@@ -282,10 +282,10 @@ Workfront Planning を検索するには、次の手順に従います。
 
 
 1. （条件付きおよびオプション）Workfrontの管理者は、次のいずれかのタブをクリックします。
-   * **マイワークスペース**：作成したワークスペースが表示されます。<!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-   * **その他のワークスペース**：共有されているワークスペースを含む、システム内のその他すべてのワークスペースを表示します。<!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+   * **自分が参加しているワークスペース**：自分が作成したワークスペースまたは自分と共有されているワークスペースが表示されます。
+   * **その他のワークスペース**：システム内のその他すべてのワークスペースを表示します。
 
-   その他のすべてのユーザーについては、ユーザーが作成したワークスペースまたはユーザーと共有されているすべてのワークスペースが **ワークスペース** 領域に表示されます。
+   その他のすべてのユーザーの場合、ユーザーが作成したワークスペースと共有されているワークスペースの両方が **ワークスペース** 領域に表示されます。
 
 1. （オプションおよび推奨）次のいくつかの操作を続行して、作業構造を構築します。
 

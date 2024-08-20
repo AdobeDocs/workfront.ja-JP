@@ -4,10 +4,10 @@ description: 個々のレコードタイプが互いにどのように関連し�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 31%
+source-wordcount: '818'
+ht-degree: 39%
 
 ---
 
@@ -27,11 +27,18 @@ ht-degree: 31%
 
 ## レコードタイプの連結に関する考慮事項
 
+Workfront Planning で接続するには、次の 2 つの手順があります。
+
+1. まず、2 つのレコードタイプまたはレコードタイプとオブジェクトタイプ間の接続を別のアプリケーションから確立する必要があります。 レコードタイプの接続方法について詳しくは、[ レコードタイプの接続 ](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
+1. 次に、2 つのレコードタイプが接続された後で、1 つのタイプの個々のレコードを別のタイプのレコードに接続できます。 レコードの接続について詳しくは、「[ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md)」を参照してください。
+
+レコードタイプの接続については、次の点に注意してください。
+
 * Workfront Planning では、次のエンティティを接続できます。
 
    * 2 つのレコードタイプ
 
-     デフォルトでは、同じワークスペースから 2 つのレコードタイプを接続できます。 また、レコードタイプを設定して、他のワークスペースのレコードタイプに接続することもできます。
+     デフォルトでは、同じワークスペースから 2 つのレコードタイプを接続できます。 また、レコードタイプを設定して、他のワークスペースのレコードタイプに接続することもできます。 詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
    * 1 つのレコードタイプと、別のアプリケーションの 1 つのオブジェクトタイプ
 
 * Workfrontの計画レコードタイプを次のアプリケーションの次のオブジェクトタイプと結び付けることができます。
@@ -82,73 +89,79 @@ ht-degree: 31%
 
      >[!IMPORTANT]
      >
-     >ワークスペースに対するビュー以上のアクセス権を持つすべてのユーザーは、リンク オブジェクトの種類 <!--or their permissions in other workspaces--> のアプリケーションにおけるアクセス権またはアクセス レベルに関係なく、ルックアップ フィールドに情報を表示できます。
+     >ワークスペースに対する表示以上のアクセス権を持つすべてのユーザーは、リンク オブジェクトの種類のアプリケーションでのアクセス権またはアクセス レベル、または他のワークスペースでのアクセス権に関係なく、ルックアップ フィールドの情報を表示することができます。
 
-<!--see the commented out text above for the release of cross-workspace connections-->
+     リンクされたレコードフィールドの前には関係アイコン ![](assets/relationship-field-icon.png) が付きます。
 
-* リンクされたレコードフィールドの前には関係アイコン ![](assets/relationship-field-icon.png) が付きます。
+     リンクされたフィールドの前には、フィールドタイプを識別するアイコンが付きます。例えば、リンクされた（または参照）フィールドの前には、フィールドが数値、段落、または日付であることを示すアイコンが付きます。
 
-  リンクされたフィールドの前には、フィールドタイプを識別するアイコンが付きます。例えば、リンクされた（または参照）フィールドの前には、フィールドが数値、段落、または日付であることを示すアイコンが付きます。
+<!--## Connection types
 
+After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
 
-## 接続タイプ
+Depending on how many records you can add to a connected record field, the following are the connection types you can choose from when connecting record types: 
 
-2 つのレコードタイプ間、または別のアプリケーションのレコードとオブジェクトタイプ間の接続を確立した後、接続されたレコードフィールドにレコードを追加できます。
-
-接続レコード フィールドに追加できるレコード数に応じて、レコードの種類を接続するときに選択できる接続の種類は次のとおりです。
-
-* [一対多](#one-to-many-connection-type)
-* [一対一](#many-to-one-connection-type)
-* [多対 1](#many-to-one-connection-type)
-* [多対多](#many-to-many-connection-type)
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
 
 >[!WARNING]
 >
->以下を接続する場合、これらのオプションは使用できません。
->* 異なるワークスペースの 2 つのレコード
+>These options are not available when connecting the following: 
+>* Two records from different workspaces
 >
->* レコードタイプとAEM アセット
+>* A record type and AEM assets
 
-
-<!-- add screen shots for each type of connection below-->
-
-### 1 対多接続タイプ
-
-![](assets/one-to-many-connection-picker.png)
-
-レコードタイプ間で 1 対多の接続タイプを選択した場合、後で 1 つのレコードを複数の接続先レコードに接続できます。
-
-例えば、キャンペーンをプロジェクトと接続する場合は、1 つのキャンペーンを複数のプロジェクトと接続できます。 ただし、1 つのプロジェクトを 1 つのキャンペーンにのみ接続できます。
-
-この接続タイプを選択した場合は、後で多対多の接続タイプにのみ変更できます。
-
-### 1 対 1 の接続タイプ
-
-![](assets/one-to-one-connection-picker.png)
-
-レコードタイプ間で 1 対 1 の接続タイプを選択した場合、後で 1 つのレコードを接続先の他の 1 つのレコードに接続できます。
-
-例えば、キャンペーンをプロジェクトと結び付ける場合、1 つのキャンペーンを 1 つのプロジェクトと結び付けることができます。 1 つのプロジェクトを 1 つのキャンペーンにのみ接続できます。
-
-この接続の種類を選択すると、後で他の接続の種類に変更できます。
-
-### 多対 1 接続タイプ
-
-![](assets/many-to-one-connection-picker.png)
-
-レコードタイプ間で多対 1 の接続タイプを選択した場合、後で接続先のレコードが 1 つだけの多数のレコードを接続できます。
-
-例えば、キャンペーンをプロジェクトに接続する場合、複数のキャンペーンを 1 つのプロジェクトに接続できます。 1 つのプロジェクトを複数のキャンペーンに接続できます。
-
-この接続タイプを選択した場合は、後で多対多の接続タイプにのみ変更できます。
-
-### 多対多接続タイプ
+### Many-to-many connection type
 
 ![](assets/many-to-many-connection-picker.png)
 
-レコードタイプ間で多対多の接続タイプを選択した場合、後で、接続先の複数のレコードを持つ多くのレコードを接続できます。
+When you select the many-to-many connection type between record types, you can later connect many records with multiple records you're connecting to. 
 
-例えば、キャンペーンをプロジェクトに接続する場合、複数のキャンペーンを複数のプロジェクトに接続できます。 また、複数のプロジェクトを複数のキャンペーンに接続することもできます。
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect several campaigns with multiple projects. You can also connect the same projects you are connecting to the campaigns to more than one campaign. 
 
-この接続の種類を選択すると、保存した後で接続の種類を変更することはできません。
+A real-life example of a many-to-many relationship type is the relationship between customers and products: customers can purchase multiple products; and those products can also be purchased by many other customers. 
+
+When you select this connection type, you cannot change the connection type after you save it. 
+
+### One-to-many connection type
+
+![](assets/one-to-many-connection-picker.png)
+
+When you select the one-to-many connection type between record types, you can later connect one record with multiple records you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with multiple projects. But one of the projects you're connecting to the campaigns can be connected only to one campaign at a time. 
+
+A real-life example of a one-to-many relationship type is the relationship between libraries and books: a library has many books in its inventory; but one particular book can only be in one library at a given point in time. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type. 
+ 
+### Many-to-one connection type
+
+![](assets/many-to-one-connection-picker.png)
+
+When you select the many-to-one connection type between record types, you can later connect many records with only one record you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can add only one project to a campaign. But you can add multiple campaigns to one project. 
+
+A real-life example of a many-to-one relationship type is the relationship between many movies and one actor: one actor can be in many movies, but each movie can only have a specific actor once in its cast. 
+
+When you select this connection type, you can later change it only to a many-to-many connection type.
+
+### One-to-one connection type
+
+![](assets/one-to-one-connection-picker.png)
+
+When you select the one-to-one connection type between record types, you can later connect one record with one other record that you're connecting to. 
+
+For example, if you connect campaigns with projects and you choose this type of connection, you can connect one campaign with one project. One project can be connected only to one campaign. 
+
+A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
+
+When you select this connection type, you can later change it to any other connection type. 
+
+-->
+
+
 

@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 74%
+source-wordcount: '360'
+ht-degree: 58%
 
 ---
 
@@ -100,27 +100,16 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 {{step1-to-planning}}
 
-1. （条件付き）Workfront管理者の場合は、「**マイワークスペース** **」をクリックして作成したワークスペースにアクセスするか、「その他のワークスペース** をクリックして自分と共有されている他のワークスペースにアクセスします。<!--change it to Workspaces I'm on-->
+1. （条件付き）Workfront管理者の場合は、「**自分が参加しているワークスペース** **」をクリックして作成したワークスペースにアクセスしたり、「その他のワークスペース** をクリックして自分と共有されている他のワークスペースにアクセスしたりします。
 
-1. 削除するワークスペースのカードをクリックします。
+1. （任意）「**すべて表示**」をクリックして、追加のワークスペースを表示します。 **すべてを表示** リンクは、ワークスペースカードが 3 行を超える場合にのみ表示されます。
+1. （任意） ClicK **表示を減らす** を使用して、画面に表示するワークスペースの数を制限します。
+1. ワークスペースを削除するには、次のいずれかの操作を行います。
 
-   Workspace ページが表示されます。
-
-<!--***********Replace the steps from the next below till the "Type "delete" in the space ... " (but keep this last step)*******
-
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
-1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
-1. To delete a workspace, do one of the following:
-
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
-      Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
-1. Click **Delete**.
-
-   ![](assets/permanently-delete-workspace-confirmation.png)
-   -->
-
-1. ワークスペース名の横にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし「**削除**」を選択します。
+   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **詳細** メニュー ![](assets/more-menu.png) ージをクリックします
+または
+   * ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右 ![](assets/more-menu.png) にある **詳細** メニューをクリックします。
+1. 「**削除**」をクリックします。
 
    ![](assets/permanently-delete-workspace-confirmation.png)
 

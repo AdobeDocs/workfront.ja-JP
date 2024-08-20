@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
 workflow-type: tm+mt
-source-wordcount: '2292'
+source-wordcount: '2281'
 ht-degree: 71%
 
 ---
@@ -428,7 +428,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 Workfront オブジェクトからWorkfront計画レコードを接続するには、次のものが必要です。
 
 * Workfront Planning で確立されたレコード・タイプと Workfront オブジェクト・タイプ間の関連付け。
-* レコードとWorkfront オブジェクト間の少なくとも 1 つの接続。
 * Workfrontまたはグループ管理者は、レイアウトテンプレート内の Planning レコードタイプに接続できるWorkfront オブジェクトタイプに Planning セクションを追加する必要があります。
 
 詳しくは、[Adobe Workfront オブジェクトの計画セクションでのレコードの管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。

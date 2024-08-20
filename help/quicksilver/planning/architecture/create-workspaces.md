@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 52%
+source-wordcount: '538'
+ht-degree: 51%
 
 ---
 
@@ -134,7 +134,10 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
    * ワークスペースをゼロから作成する際にレコードタイプの手動追加を開始できる **名称未設定Workspace** という空のワークスペース。
    * サンプルレコードタイプが入力される、選択したテンプレートにちなんで名前が付けられたワークスペース。 レコードタイプとワークスペースをさらにカスタマイズできます。
 
-   Workfront管理者の場合、新しいワークスペースが「**マイワークスペース**」タブに表示されます。<!--replace this with: **Workspaces I'm on** tab-->
+   Workfront管理者の場合、新しいワークスペースが **現在のワークスペース** タブに表示されます。
+
+   ワークスペースを作成できるその他すべてのユーザーには、新しいワークスペースが **ワークスペース** 領域に表示されます。
+
 1. 新しいワークスペースのヘッダーでワークスペースの名前の内側をクリックして名前を変更し、Enter キーを押します。
 
 1. （オプションおよび条件付き）ワークスペースをテンプレートから作成した場合は、「**運用中のレコードタイプ**」または「**分類**」セクションの名前内をクリックします。
