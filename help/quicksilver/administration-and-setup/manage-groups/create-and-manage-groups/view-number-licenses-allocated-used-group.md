@@ -1,14 +1,14 @@
 ---
-title: グループで割り当てられて使用されているライセンス数を表示
+title: グループに割り当てられ使用されているライセンスの数を表示します
 description: Adobe Workfront 管理者は、現在グループおよびそのサブグループで使用されている個々のタイプのライセンスの数を表示できます。これは、ライセンスを再配布すべきかどうかを評価する必要がある場合に役立ちます。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: 0e8f8973ad4c1310b973bae4e6fe3578c05db204
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 100%
+source-wordcount: '482'
+ht-degree: 95%
 
 ---
 
@@ -23,6 +23,8 @@ Adobe Workfront 管理者は、現在グループおよびそのサブグルー�
 >ユーザーのライセンスは、そのグループがユーザーのホームグループである場合にのみ、特定のグループでカウントされます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -43,9 +45,11 @@ Adobe Workfront 管理者は、現在グループおよびそのサブグルー�
 
 &#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## グループで使用されているライセンス数を表示
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**グループ** ![](assets/groups-icon.png)」をクリックします。
 

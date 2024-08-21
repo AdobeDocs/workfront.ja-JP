@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: グループステータスの削除
 description: グループ管理者は、自分が管理するグループのステータスが、システムレベルまたは階層内の上位グループで必須ステータスまたはロックステータスとして設定されていない場合、そのステータスを削除できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 100%
+source-wordcount: '569'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,8 @@ ht-degree: 100%
 >* グループに関連付けられた 1 つ以上のオブジェクトまたはそのサブグループの 1 つに対して、承認待ち状態のステータス。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -49,9 +51,11 @@ ht-degree: 100%
 
 &#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## グループステータスの削除
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**グループ**」をクリックします。
 1. 最上位グループの名前をクリックします。

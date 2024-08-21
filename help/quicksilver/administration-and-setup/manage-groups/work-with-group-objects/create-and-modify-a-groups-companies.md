@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: グループの会社を作成および変更
+title: グループ会社の作成および変更
 description: グループエリアで管理するグループを表示している場合、グループとそのサブグループに関連付けられている会社を表示して操作できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '756'
-ht-degree: 94%
+source-wordcount: '752'
+ht-degree: 91%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 94%
 グループの上にグループがある場合は、その管理者がグループに対してこれらの操作を実行することもできます。Workfront 管理者（すべてのグループ）も同様です。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -42,9 +44,11 @@ ht-degree: 94%
 
 &#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## グループエリアからグループの会社を表示、操作および作成
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
 

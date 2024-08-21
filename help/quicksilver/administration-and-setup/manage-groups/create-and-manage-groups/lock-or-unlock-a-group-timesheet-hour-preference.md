@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: グループのタイムシートと時間の優先順位をロックまたはロック解除
+title: グループ タイムシートおよび時間設定のロックまたはロック解除
 description: グループ管理者の場合は、Workfront 管理者がシステムレベルでロックを解除した後、グループのタイムシートと時間設定を構成してロックできます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 100%
+source-wordcount: '625'
+ht-degree: 96%
 
 ---
 
@@ -43,9 +43,10 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 >* ロックが解除された環境設定を持つグループの下にグループを移動した場合、移動されたグループはその環境設定の影響を与えません。
 >
 >  移動されたグループの設定が移動時にロックされている場合、その設定はロックされたままになりますが、親グループではロックが解除されているため、グループ管理者はここでロックを解除できます。
->
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -66,13 +67,15 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 &#42;ご利用のプラン、ライセンスの種類を確認するには、Workfront 管理者にお問い合わせください。
 
++++
+
 ## グループのタイムシートと時間の優先順位をロックまたはロック解除
 
 >[!TIP]
 >
 >Workfront 管理者は、設定／タイムシートと時間／環境設定に移動して、ページ上部のボックスでグループの名前を検索することで、手順 1～4 をスキップできます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**グループ**」をクリックします。
 1. タイムシートと時間設定をロックまたはロック解除するグループの名前をクリックします。

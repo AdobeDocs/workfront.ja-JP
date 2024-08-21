@@ -5,14 +5,14 @@ keywords: 管理、サブグループ、編集
 navigation-topic: create-and-manage-subgroups
 title: サブグループの管理
 description: サブグループのグループ管理者は、サブグループの作成、移動、表示、編集、コピー、名前変更、書き出し、削除を行うことができます。また、親グループからサブグループを削除して、そのサブグループを最上位グループにすることもできます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: 02191d80ea58f80de2e7be2ff55f43663e415e31
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1272'
-ht-degree: 100%
+source-wordcount: '1253'
+ht-degree: 98%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 100%
 サブグループについて詳しくは、[サブグループの概要](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -47,9 +49,11 @@ ht-degree: 100%
 
 &#42;保有するプランまたはライセンスの種類を確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## サブグループの作成、移動、表示、編集、コピー、名前変更、書き出し、削除
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
 
@@ -125,9 +129,7 @@ ht-degree: 100%
 >
 >Workfront では、このマーケティング部門はマーケティングというグループで表され、フィールドマーケティング、プロダクト マーケティング、デジタルマーケティングという 3 つのサブグループがあります。マーケティング部門全体（4 つのグループすべて）に属するプロジェクトをリストするには、次のフィルタールールを使用してプロジェクト領域のフィルターを作成できます。
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >「上位の親名」フィールドを使用して、最上位のグループに関連付けられたデータを識別することもできますが、ビューのみで使用され、フィルターやグループ化では使用できません。
 
@@ -141,7 +143,7 @@ ht-degree: 100%
 >
 >グループを非アクティブ化および再アクティブ化する手順については、[グループの詳細の表示と管理](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md)の記事の、[グループの詳細の表示と管理](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view)および[グループの詳細の表示と管理](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive)を参照してください。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**グループ** ![](assets/groups-icon.png)をクリックします。
 
@@ -159,8 +161,6 @@ ht-degree: 100%
 
 * コピーするサブグループに独自のサブグループがある場合、それらもコピーに含まれ、その名前の形式は次のようになります。
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * 公開グループに属するサブグループもパブリックであるため、グループ内外にかかわらず、ユーザー編集アクセス権を持つユーザーは誰でもサブグループにユーザーを追加できます。

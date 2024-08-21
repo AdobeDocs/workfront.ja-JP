@@ -1,17 +1,17 @@
 ---
-title: ユーザーをグループ管理者として割り当て
+title: ユーザーをグループ管理者として割り当てる
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: グループのグループ管理者は、他のユーザーをそのグループのグループ管理者として割り当てることができます。Adobe Workfront 管理者もこれを行えます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 100%
+source-wordcount: '252'
+ht-degree: 92%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 100%
 グループの一般的な情報については、[グループの概要](../../../administration-and-setup/manage-groups/groups-overview/groups.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -44,9 +46,11 @@ ht-degree: 100%
 
 &#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## ユーザーをグループ管理者として割り当て
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
 

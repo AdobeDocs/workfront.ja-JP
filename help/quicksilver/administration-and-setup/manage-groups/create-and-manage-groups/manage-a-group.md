@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: 0afd578ebaa55d911c04a1d08fbcadddc1d05bbc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1319'
-ht-degree: 98%
+source-wordcount: '1315'
+ht-degree: 97%
 
 ---
 
@@ -29,6 +29,8 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 >グループの管理者として割り当てられた場合、そのグループの下にあるすべてのサブグループのグループ管理者の役割を継承します。サブグループを管理できるユーザーは、その上位グループのグループ管理者と、そのサブグループに割り当てられているグループ管理者のみです。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -48,6 +50,8 @@ Though this might not seem that helpful because it is more of a catalog/TOC, it'
 </table>
 
 &#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
+
++++
 
 ## グループのメンバーシップの管理
 
@@ -71,7 +75,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
 表示しているグループのメインページを離れることなく、グループをすばやく編集、コピー、または削除できます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 「**グループ**」をクリックします。
 

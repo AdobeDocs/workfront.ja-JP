@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: 削除した項目を復元
-description: Workfront の管理者は、過去 30 日間に削除されているプロジェクト、タスク、イシュー、ドキュメントおよびテンプレートを Adobe Workfront で復元できます。30 日が経過すると、これらの項目は完全に削除され、復元できなくなります。オブジェクトを復元すると、その子オブジェクトとフィールドもすべて復元されます。例えば、プロジェクトを復元すると、そのプロジェクト内のすべてのタスク、イシュー、ドキュメント、時間、メモ、割り当て、カスタムデータも復元されます。
+title: 削除された項目を復元
+description: Workfront の管理者は、過去 30 日間に削除されているプロジェクト、タスク、イシュー、ドキュメントおよびテンプレートを Adobe Workfront で復元できます。30 日が経過すると、これらの項目は完全に削除され、復元できなくなります。
 feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1082'
+source-wordcount: '1044'
 ht-degree: 98%
 
 ---

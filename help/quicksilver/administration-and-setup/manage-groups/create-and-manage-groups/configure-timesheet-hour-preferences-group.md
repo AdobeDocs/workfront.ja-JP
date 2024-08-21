@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: グループ,環境設定,タスク,グループ,イシュー,ロック解除
 navigation-topic: create-and-manage-groups
-title: グループのタイムシートおよび時間環境設定の指定
+title: グループのタイムシートおよび時間設定を構成する
 description: Adobe Workfront 管理者は、タイムシートおよび時間設定の「一般的な環境設定」セクションと「タイムシートに事前入力」セクションをシステムレベルでロック解除できます。これにより、グループ管理者がこれらのセクションのオプションを自分のグループに対して個別に設定できるようになります。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 1ee9343e-9452-4e41-a9ff-a6c865d4813b
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1379'
-ht-degree: 99%
+source-wordcount: '1364'
+ht-degree: 98%
 
 ---
 
@@ -81,7 +81,7 @@ Workfront 管理者がタイムシートおよび時間環境設定のロック�
 >
 >Workfront 管理者は、設定／タイムシートと時間／環境設定に移動して、ページ上部のボックスでグループの名前を検索することで、手順 1～4 をスキップできます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、**設定**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左パネルで、**グループ**&#x200B;アイコン ![](assets/groups-icon.png) をクリックします。
 

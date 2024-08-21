@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: 移動またはコピーされたタスクまたはイシューに対するカスタムステータス
+title: 移動またはコピーされたタスクまたは問題のカスタム状態
 description: タスクまたはイシューを別のプロジェクトに移動またはコピーすると、タスクまたはイシューの一部のステータスが、移動先のプロジェクトのグループで使用されているステータスに合わせて更新される場合があります。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4bd9b89d-9c66-4af7-97bf-f9518ad55d7c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '211'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 

@@ -5,14 +5,14 @@ product-area: system-administration;user-management;setup
 keywords: グループ、環境設定、タスク、イシュー、ロック解除
 navigation-topic: create-and-manage-groups
 description: 組織内のグループが、システムレベルでの設定方法とは別に、タスクまたはイシューの環境設定を行う必要がある場合、Adobe Workfront の管理者が環境設定をロック解除できます。その後、グループ管理者はグループの環境設定を実施することができ、これはグループに関連するすべてのタスクやイシューに影響を与えます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 4a9936b6bc034f2176167fc3939d647ee679a888
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '1895'
-ht-degree: 100%
+source-wordcount: '1891'
+ht-degree: 98%
 
 ---
 
@@ -39,6 +39,8 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -58,13 +60,15 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 
 &#42;保有するプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## トップレベルグループのロックが解除されたタスクとイシューの環境設定を指定
 
 >[!TIP]
 >
 >Workfront の管理者は、設定／プロジェクトの環境設定／タスクとイシューに移動して、ページの上部にあるボックスでグループの名前を検索することにより、手順 1 から 4 をスキップできます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、**設定**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左パネルで、**グループ**&#x200B;アイコン ![](assets/groups-icon.png) をクリックします。
 

@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-groups
 title: グループの移動
 description: 管理対象の別のグループの下にグループを移動できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 管理対象の別のグループの下にグループを移動できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -40,6 +42,8 @@ ht-degree: 100%
 
 &#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## グループを別のグループの下に移動する
 
 >[!NOTE]
@@ -50,7 +54,7 @@ ht-degree: 100%
 >
 >グループのステータスについて詳しくは、[ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)および[グループのステータスの作成または編集](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)を参照してください。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左パネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
 

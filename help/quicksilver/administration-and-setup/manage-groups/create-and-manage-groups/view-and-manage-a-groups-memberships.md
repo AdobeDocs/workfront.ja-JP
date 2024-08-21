@@ -5,14 +5,14 @@ keywords: 追加、ユーザー、グループ、追加、別の、割り当て�
 navigation-topic: create-and-manage-groups
 title: グループのメンバーシップの表示と管理
 description: Adobe Workfront 管理者は、管理対象の任意のグループのメンバーの表示、追加、削除、書き出し、アクティブ化、非アクティブ化を行うことができます。また、グループメンバーのプロファイルの編集や更新を行い、グループの追加のグループ管理者としてグループメンバーを割り当てることもできます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -23,6 +23,8 @@ Adobe Workfront 管理者は、管理対象の任意のグループのメンバ�
 グループの上にグループがある場合は、その管理者がグループに対してこれらの操作を実行することもできます。Workfront 管理者（すべてのグループ）も同様です。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -43,9 +45,11 @@ Adobe Workfront 管理者は、管理対象の任意のグループのメンバ�
 
 &#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## グループのメンバーシップの表示と管理
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**グループ**」をクリックします。
 

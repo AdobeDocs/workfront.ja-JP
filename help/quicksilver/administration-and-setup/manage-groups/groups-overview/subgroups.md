@@ -5,14 +5,14 @@ product-area: system-administration;user-management
 navigation-topic: groups-overview
 title: サブグループの概要
 description: 1 つのグループの下に、最大 14 レベルのサブグループを作成できます。これらのレベルのいずれかで、並列サブグループを無制限に作成できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a4280498-6719-4911-a69a-b715a5438eed
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '639'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

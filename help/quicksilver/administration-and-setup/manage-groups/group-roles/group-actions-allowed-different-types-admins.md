@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: 様々なタイプの管理者に許可されるアクション
+title: グループ管理者に許可されたアクション
 description: この表は、Workfront システムを管理する Adobe Workfront 管理者、上位のグループを管理するグループ管理者、サブグループを管理するグループ管理者が使用できる管理アクティビティを比較しています。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: 9dcd8dbe0474bdbb1fd50bb1f2525e03cd350559
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 71%
+source-wordcount: '537'
+ht-degree: 70%
 
 ---
 

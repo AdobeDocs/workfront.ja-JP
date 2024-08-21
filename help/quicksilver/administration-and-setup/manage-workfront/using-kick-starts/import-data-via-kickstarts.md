@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: キックスタートテンプレートを使用した Adobe Workfront へのデータの読み込み
+title: キックスタートテンプレートを使用したWorkfrontへのデータの読み込み
 description: キックスタートは、Workfront に読み込むデータを入力できる特別な形式の Excel ワークブックです。「キックスタートデータインポーター」で説明されているように、Adobe Workfront には、そのためのキックスタートテンプレートが用意されています。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2755'
+source-wordcount: '2753'
 ht-degree: 98%
 
 ---
 
-# キックスタートテンプレートを使用した Adobe Workfront へのデータの読み込み
+# キックスタートテンプレートを使用したWorkfrontへのデータの読み込み
 
 <!--Audited: 12/2023-->
 

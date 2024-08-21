@@ -3,20 +3,20 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: キックスタートを介した Adobe Workfront からのデータの書き出し
+title: キックスタートを使用したWorkfrontからのデータの書き出し
 description: Adobe Workfront 管理者は、キックスタートのデータエクスポーターを使用して Workfront からデータを書き出すことができます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 8e076e9c89ad208aa94ddefead4b8c6105992542
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 96%
+source-wordcount: '1011'
+ht-degree: 94%
 
 ---
 
-# キックスタートを介した Adobe Workfront からのデータの書き出し
+# キックスタートを使用したWorkfrontからのデータのエクスポート
 
 <!-- Audited: 2/2024 -->
 

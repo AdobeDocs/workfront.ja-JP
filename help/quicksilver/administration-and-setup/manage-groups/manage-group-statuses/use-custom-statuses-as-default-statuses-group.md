@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: カスタムステータスをグループのデフォルトのステータスとして使用
-description: グループ管理者は、管理するグループまたはサブグループのデフォルトのステータスとしてカスタムステータスを設定できます。これは、Workfront のステータスをプロジェクト、タスクまたはイシューに自動的に割り当てる必要がある場合に役立ちます。プロジェクト、タスクまたはイシューには、デフォルトのステータスとして設定したカスタムステータスが常に表示されます。それに相当する Workfront のステータスは表示されなくなります。
-author: Caroline
+title: カスタムステータスをグループのデフォルトステータスとして使用
+description: グループ管理者は、管理するグループまたはサブグループのデフォルトステータスとしてカスタムステータスを設定できます。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 100%
+source-wordcount: '678'
+ht-degree: 93%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 100%
 >タスクが 100％に達したときにタスクが完了ステータスに変わると、ステータスは「完了」ではなく「終了」と表示されます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -50,6 +52,8 @@ ht-degree: 100%
 
 &#42;保有するプランまたはライセンスの種類を確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## イシューのステータス
 
 カスタムステータスが「イシュー」ステータスの場合は、4 つのイシュータイプ（バグレポート、変更依頼、イシュー、リクエスト）をすべて有効にする必要があります。例えば、以下に示すイシューステータスでは、「再オープン」には変更依頼のイシュータイプが選択されていないので、デフォルトのステータスとして使用することはきません。
@@ -58,7 +62,8 @@ ht-degree: 100%
 
 ## カスタムステータスをグループのデフォルトのステータスとして設定
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
+
 1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックし、ステータスを作成またはカスタマイズするグループの名前をクリックします。
 1. 左側のパネルで、**ステータス** ![](assets/gear-icon-settings.png) をクリックします。
 1. デフォルトのステータスとして設定するステータスのタイプに応じて、「**プロジェクト**」、「**タスク**」、または「**イシュー**」タブを開きます。

@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
 title: 移動または削除されたグループのカスタムステータス
 description: この記事では、グループを移動または削除した場合に、カスタムステータスをグループ化するとどうなるかを説明します。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

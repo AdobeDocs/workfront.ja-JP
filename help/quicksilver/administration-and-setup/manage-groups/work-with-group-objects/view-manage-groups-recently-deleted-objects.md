@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: 最近削除されたグループの項目の表示と管理
+title: グループの最近削除されたアイテムの表示と管理
 description: グループエリアで管理しているグループを表示している場合、最近削除された作業アイテム、ドキュメント、テンプレートを表示、フィルター、復元、および書き出すことができます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 95%
 
 ---
 
@@ -28,6 +28,8 @@ ht-degree: 100%
 削除された項目について詳しくは、[削除された項目を管理](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -54,9 +56,11 @@ ht-degree: 100%
 
 &#42;保有するプランまたはライセンスの種類を確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## 最近削除されたグループの項目の表示と管理
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**グループ** ![](assets/groups-icon.png)」をクリックします。
 

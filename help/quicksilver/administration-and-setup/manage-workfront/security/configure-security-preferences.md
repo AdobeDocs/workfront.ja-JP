@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: システム環境設定を指定
+title: システム環境設定の指定
 description: Adobe Workfront管理者は、セキュリティの環境設定など、Workfront システムの環境設定を指定できます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 5cc1acffff12d78e48228f3ae223514c0ff379ef
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 85%
+source-wordcount: '877'
+ht-degree: 84%
 
 ---
 
@@ -35,6 +35,8 @@ Adobe Workfront管理者は、次のようなWorkfront システムの環境設�
 Workfront の実装中にシステム環境設定を指定し、後で再度アクセスすることをお勧めします。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -60,6 +62,8 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## システム環境設定を指定
 

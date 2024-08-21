@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 38f103eea19fa85104f40fa368b975673fc74d9d
+source-git-commit: b61879975732bd8e9b6c94143c2134bfe023f7ea
 workflow-type: tm+mt
 source-wordcount: '14337'
 ht-degree: 93%
@@ -707,8 +707,8 @@ ht-degree: 93%
       * 削除された項目の管理 {#manage-deleted-items}
          * [削除された項目の管理](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [削除した項目を復元](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-         * [復元したアイテムの表示](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-         * [削除したオブジェクトがオブジェクトに与える影響](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+         * [復元したアイテムを表示](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+         * [削除されたオブジェクトが時間に与える影響](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [個々の子オブジェクトの復元](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
       * 診断 {#diagnostics}
          * [診断](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)

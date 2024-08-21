@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: ロックおよびロック解除されたグループステータス
-description: グループのカスタムステータスをロックすると、グループ内のユーザーとそのサブグループが作業のフローで同じプロセスを使用できます。グループステータスがロックされると、グループ内および下位グループのすべてのユーザーがそのステータスを使用できます。自分（または Workfront 管理者）は、ロックしたステータスを編集または削除できますが、下のサブグループの管理者は、それらのグループに対して編集または削除を行うことができません。逆に、グループのカスタムステータスをロック解除すると、下位サブグループの管理者は、ワークフローを柔軟に管理できます。自分のグループに対しては、ロック解除済みのステータスの属性を変更したり、削除したりできます。
-author: Caroline
+title: ロック済みおよびロック解除されたグループのステータス
+description: グループのカスタムステータスをロックすると、グループ内のユーザーとそのサブグループが作業のフローで同じプロセスを使用できます。グループのステータスがロックされると、グループ内および下位グループのすべてのユーザーが使用できます。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d
-source-git-commit: d67de32fcbe4706cf8a1fc6f5bb8ec9d08b07119
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 100%
+source-wordcount: '286'
+ht-degree: 91%
 
 ---
 

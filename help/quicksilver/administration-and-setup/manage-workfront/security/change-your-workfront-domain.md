@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: Adobe Workfront ドメインを変更
+title: Adobe Workfront ドメインの変更
 description: Adobe Workfront の管理者であり、認定 Workfront サポート担当者である場合は、組織の Workfront ドメインを変更するために、Workfront サポートチームにヘルプをリクエストできます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
-source-git-commit: 22ea9b623d7bc7b216511538cf88e4d020529bd3
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '421'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 100%
 Adobe Workfront の管理者であり、認定 Workfront サポート担当者である場合は、組織の Workfront ドメインを変更するために、Workfront サポートチームにヘルプをリクエストできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -48,6 +50,8 @@ Adobe Workfront の管理者であり、認定 Workfront サポート担当者�
  </tbody> 
 </table>
 
++++
+
 ## ドメインの変更をリクエスト
 
 1. Experience League でサポートチケットを作成し始めます。
@@ -64,7 +68,7 @@ Adobe Workfront の管理者であり、認定 Workfront サポート担当者�
 >
 >組織の Workfront インスタンスが Adobe IMS によって有効化されている場合は使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のサイドバーで、**システム**／**顧客情報**&#x200B;をクリックし、お客様のドメインが顧客情報ページで更新されていることを確認します。
 

@@ -1,23 +1,27 @@
 ---
-title: グループを管理する
+title: グループの管理
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: administration-and-setup
-description: Workfront 管理者は、部門の構造と一致するユーザーのグループを作成できます。グループは、チームや会社に似ていますが、異なります。Workfront 管理者は、作業およびコミュニケーションが必要な Workfront エリアへのアクセス権をグループに付与します。各グループは、ユーザー、テンプレート、カスタムフォームなどの Workfront の情報やプロジェクトを他の部門のものと分けて別に管理できます。
-author: Caroline
+description: グループは、チームや会社に似ていますが、異なります。Workfront管理者は、グループが作業とコミュニケーションを行う必要があるWorkfront領域へのアクセス権をグループに付与します。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: bda8d47c-5ec7-4654-b7bd-c6fb854c3084
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 100%
+source-wordcount: '123'
+ht-degree: 83%
 
 ---
 
 # グループを管理する
+
+Workfront 管理者は、部門の構造と一致するユーザーのグループを作成できます。グループは、チームや会社に似ていますが、異なります。
+
+Workfront 管理者は、作業およびコミュニケーションが必要な Workfront エリアへのアクセス権をグループに付与します。各グループは、ユーザー、テンプレート、カスタムフォームなどの Workfront の情報やプロジェクトを他の部門のものと分けて別に管理できます。
 
 このセクションには、次のサブセクションが含まれます。
 

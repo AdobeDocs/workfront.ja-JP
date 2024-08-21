@@ -2,23 +2,25 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: オブジェクトが削除および復元された場合の時間数に対する動作の設定
+title: オブジェクトが削除および復元された際の時間への影響を設定
 description: 時間数を記録する対象となるプロジェクト、タスク、またはイシューが削除されたときの時間数に対する動作を設定できます。選択したオプションによって、プロジェクト、タスク、またはイシューが後で復元された場合の時間数に対する動作も設定できます。（Workfront での項目の復元について詳しくは、「削除した項目の復元」を参照してください）。
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '408'
+ht-degree: 91%
 
 ---
 
-# オブジェクトが削除および復元された場合の時間数に対する動作の設定
+# オブジェクトが削除および復元された場合の時間への影響を設定する
 
 時間数を記録する対象となるプロジェクト、タスク、またはイシューが削除されたときの時間数に対する動作を設定できます。選択したオプションによって、プロジェクト、タスク、またはイシューが後で復元された場合の時間数に対する動作も設定できます。（Workfront での項目の復元について詳しくは、[削除した項目の復元](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)を参照してください）。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -41,9 +43,11 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## 項目が削除および復元された場合の時間数の管理方法の設定
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**設定** ![](assets/gear-icon-settings.png)」の順にクリックします。
+{{step-1-to-setup}}
 
 1. 「**タイムシートと時間**」を展開し、「**環境設定**」をクリックします。
 

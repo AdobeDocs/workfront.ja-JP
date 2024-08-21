@@ -1,14 +1,14 @@
 ---
 title: グループの詳細の表示と管理
 description: 管理対象のグループまたはサブグループについて、グループの詳細ページを表示して編集することができます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '633'
+ht-degree: 97%
 
 ---
 
@@ -42,6 +42,8 @@ Delete this paragraph when Callisto adds the
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -61,9 +63,11 @@ Delete this paragraph when Callisto adds the
 
 &#42;ご利用のプラン、ライセンスの種類を確認するには、Workfront 管理者にお問い合わせください。
 
++++
+
 ## グループの詳細の表示と管理
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 「**グループ**」をクリックします。
 

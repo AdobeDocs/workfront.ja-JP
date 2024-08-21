@@ -3,26 +3,26 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: キックスタートのシナリオ - シンプルなプロジェクトとタスクの読み込みの準備
+title: 「キックスタートシナリオ：簡単なプロジェクトとタスクの読み込みの準備」
 description: キックスタートのメソッドを使用して、基本的なプロジェクトとタスクの読み込みに使用できる設定とコントロールについて詳しく説明します。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 101a5a80d00a8113ce31222b92f77300a5b0ce8a
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 99%
+source-wordcount: '1475'
+ht-degree: 95%
 
 ---
 
 # キックスタートのシナリオ：シンプルなプロジェクトおよびタスクの読み込みの準備
 
-キックスタートのメソッドを使用して、基本的なプロジェクトとタスクの読み込みに使用できる設定とコントロールについて詳しく説明します。
+Kick-Start メソッドを使用した基本的なプロジェクトとタスクの読み込みで使用できる設定およびコントロールについて詳しく説明します。
 
 ## シナリオ
 
-実装チームは、アクティブなプロジェクトのプロジェクトおよびタスクの情報を、システムに手動で入力するのではなく、読み込みを実行します。
+実装チームは、このデータをシステムに手動で入力する代わりに、アクティブなプロジェクトのプロジェクトおよびタスク情報を読み込みます。
 
 * [プロジェクト](#projects)
 * [タスクリスト](#task-list)

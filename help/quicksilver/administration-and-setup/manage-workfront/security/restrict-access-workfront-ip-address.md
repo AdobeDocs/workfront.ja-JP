@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: IP アドレスで Adobe Workfront へのアクセスを制限
+title: Adobe Workfrontへのアクセスを IP Dddress で制限
 description: Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 45 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 7bd3d2252b124a07a112aaa2b7798063087e7cab
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '447'
+ht-degree: 95%
 
 ---
 
@@ -22,6 +22,8 @@ Adobe Workfront IP 許可リストを設定して、Workfront へのアクセス
 これらの IP アドレスまたは IP アドレス範囲は、ネットワーク管理者によって提供される必要があります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -44,6 +46,8 @@ Adobe Workfront IP 許可リストを設定して、Workfront へのアクセス
  </tbody> 
 </table>
 
++++
+
 ## その他の許可リスト
 
 ファイアウォールやメールサーバーが、特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをその許可リストに追加する必要があります。これにより、環境と Adobe Workfront サーバー間の通信が開始されます。詳しくは、[ファイアウォールの許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
@@ -54,7 +58,7 @@ Adobe Workfront IP 許可リストを設定して、Workfront へのアクセス
 
 IP アドレスを Workfront 許可リストに追加すると、それらの IP アドレスのみが Workfront へのアクセスに使用できるようになります。ユーザーが別の IP アドレスから Workfront にアクセスしようとすると、IP アドレスがブロックされていることを示すエラーメッセージが表示されます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **システム**／**顧客情報**&#x200B;をクリックします。
 

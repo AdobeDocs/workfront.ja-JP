@@ -4,16 +4,16 @@ content-type: faq
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: キックスタートに関するよくある質問
+title: キックスタートに関するよくある質問（Faq）
 description: 詳しくは、キックスタートを使用した Workfront データの読み込みおよび書き出しに関するよくある質問に対する回答を参照してください。
-author: Caroline
+author: LIsa
 feature: System Setup and Administration
 role: Admin
 exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8
-source-git-commit: 1ebdb3797e30a7e06f4dfd4a7e0e5f540351c126
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

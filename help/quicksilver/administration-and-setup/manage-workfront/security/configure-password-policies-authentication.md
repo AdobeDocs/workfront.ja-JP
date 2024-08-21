@@ -4,14 +4,14 @@ product-area: system-administration;user-management;setup
 navigation-topic: security
 title: 認証用のパスワードポリシーの設定
 description: Adobe Workfront 管理者は、パスワードポリシーオプションを設定すると、Workfront システムの認証操作をカスタマイズできます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: 970cc86b00dc1afe0473ac3a387e7ce47e4a2433
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 98%
 
 ---
 
@@ -26,6 +26,8 @@ Workfront の実装時に認証環境設定を指定し、後で再度アクセ�
 改善されたパスワード管理機能は、近日中に提供される予定です。または、組織で既にご利用いただける可能性もあります。組織が新しい認証操作にアクセスできるかどうかに応じて、次の節のいずれかを使用してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -48,13 +50,15 @@ Workfront の実装時に認証環境設定を指定し、後で再度アクセ�
  </tbody> 
 </table>
 
++++
+
 ## 認証を設定（すべての顧客が利用可能） {#configure-authentication-available-for-all-customers}
 
 すべての顧客に対して認証オプションが表示されます。この記事の[拡張認証の設定](#configure-enhanced-authentication-coming-soon)の節で説明されているように、改善されたパスワード管理機能は、近日中に提供される予定です。または、組織で既に利用できる可能性もあります。
 
 認証環境設定を行うには、次の手順に従います。
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**設定** ![](assets/gear-icon-settings.png)」の順にクリックします。
+{{step-1-to-setup}}
 
 1. **システム**／**認証**&#x200B;をクリックします。
 
@@ -97,7 +101,7 @@ Workfront の実装時に認証環境設定を指定し、後で再度アクセ�
 
 拡張認証環境設定を行うには、次の手順に従います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. **システム**／**拡張認証**&#x200B;をクリックします。
 1. 「**パスワードの長さ**」ボックスに、有効なパスワードに必要な最小文字数を入力します。

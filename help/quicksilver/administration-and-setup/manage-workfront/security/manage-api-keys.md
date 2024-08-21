@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: security
 title: API キーの管理
 description: API セキュリティ脆弱性を最小限に抑えるために、Adobe Workfront 管理者は、アプリケーションがユーザーに代わって Workfront へのアクセスに使用される API キーを管理できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: cbbc743cfd69aaf0e5e7468980bef730a1c8fbf5
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '1386'
-ht-degree: 96%
+source-wordcount: '1322'
+ht-degree: 94%
 
 ---
 
@@ -35,6 +35,8 @@ Workfront API を活用するアプリケーションの例を次に示します
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ Workfront API を活用するアプリケーションの例を次に示します
  </tbody> 
 </table>
 
++++
+
 ## Workfront API キー
 
 Workfront のそれぞれのユーザーが、一意の API キーを持っています。このキーは、ユーザーが Workfront API（Workfront モバイルアプリやドキュメント統合など）を活用する統合にアクセスする際に、ユーザーごとに生成されます。
@@ -74,7 +78,7 @@ Workfront 管理者には一意の API キーが割り当てられています�
 >
 >API を使用して API キーを生成することもできます。詳しくは、[イベント登録 API](../../../wf-api/general/event-subs-api.md) にある[イベント登録 API](../../../wf-api/general/event-subs-api.md) の節を参照してください。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **システム**／**顧客情報**&#x200B;をクリックします。
 1. （条件付き）次のアクションのいずれかを実行します。
@@ -98,7 +102,7 @@ Workfront 管理者以外の役割を持つユーザーの API キーを生成�
 
 1. （条件付き）組織がシングルサインオン（SSO）アクセス管理を使用している場合、SSO 認証を必要とするオプションを一時的に無効にします。
 
-   1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+   {{step-1-to-setup}}
 
    1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。
    1. **タイプ** フィールドで、組織が使用する SSO のタイプを選択します。
@@ -115,7 +119,7 @@ Workfront 管理者以外の役割を持つユーザーの API キーを生成�
 
 1. （条件付き）手順 1 で SSO 認証を要求するオプションを無効にした場合は、これを有効にします。
 
-   1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+   {{step-1-to-setup}}
 
    1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。
 
@@ -126,7 +130,7 @@ Workfront 管理者以外の役割を持つユーザーの API キーを生成�
 
 API キーは、システム内のすべてのユーザーの有効期限が切れるように設定できます。ユーザーの API キーの有効期限が切れると、ユーザーは Workfront API を使用して Workfront にアクセスするアプリケーションに対して再認証する必要があります。API キーの有効期限が切れる頻度を変更できます。ユーザーのパスワードの有効期限が切れた場合に、API キーを期限切れにするかどうかを設定することもできます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、**設定**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **システム**／**顧客情報**&#x200B;をクリックします。
 1. **API キー設定**&#x200B;エリア内の、**作成後**&#x200B;の&#x200B;**API キーの有効期限：**&#x200B;ドロップダウンリストから、API キーを期限切れにする時間枠を選択します。
@@ -151,7 +155,7 @@ Workfront システムに関する特定のセキュリティ違反を懸念す�
 >
 >すべてのユーザーの API キーを削除すると、システム内のすべてのユーザーの API キーがすべて無効になります。このアクションにより、Workfront で新しい API キーを生成して統合をすべてアップデートするまで、Workfront でのすべての統合が失敗します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **システム**&#x200B;を展開して、「**顧客情報**」をクリックします。
 

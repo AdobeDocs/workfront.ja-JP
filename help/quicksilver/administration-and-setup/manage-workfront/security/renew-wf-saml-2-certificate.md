@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 98%
+source-wordcount: '654'
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ You must take action to update the metadata in your identity provider with the i
 
 警告メッセージを精査し、ID プロバイダーでの SAML 2.0 メタデータの更新を確認するには、次の手順に従います。
 
-1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**設定** ![](assets/gear-icon-settings.png)」の順にクリックします。
+{{step-1-to-setup}}
 
 1. **システム**／**シングル サインオン**&#x200B;をクリックします。
 

@@ -2,19 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: 復元したアイテムの表示
+title: 復元された項目を表示
 description: Adobe Workfront 管理者またはプランライセンスを持つユーザーは、過去 7 日間にどのプロジェクト、タスク、イシュー、ドキュメントが復元されたかを表示できます。
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: fe399743ee495334face9d4d632686d9472bc8ef
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 100%
+source-wordcount: '192'
+ht-degree: 92%
 
 ---
 
-# 復元したアイテムの表示
+# 復元したアイテムを表示
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -25,6 +26,8 @@ Adobe Workfront 管理者またはプランライセンスを持つユーザー�
 プロジェクト、タスク、イシュー、ドキュメントを削除した後に復元する方法について詳しくは、[削除したアイテムの復元](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -45,9 +48,11 @@ Adobe Workfront 管理者またはプランライセンスを持つユーザー�
 
 &#42;ご利用のプランまたはライセンスタイプを確認するには、Workfront 管理者にお問い合わせください。
 
++++
+
 ## 最近削除したアイテムを表示
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+{{step-1-to-setup}}
 
 1. **ごみ箱**&#x200B;を展開し、「**最近復元したアイテム**」をクリックします。
 

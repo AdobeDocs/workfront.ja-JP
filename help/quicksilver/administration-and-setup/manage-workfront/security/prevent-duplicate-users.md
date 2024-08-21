@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: メールアドレスの重複を防止
+title: 重複ユーザーの防止
 description: Adobe Workfront で新規ユーザーを作成する場合、大文字と小文字でメールアドレスが異なる場合でも（例えば、JohnDoe@example.com と johndoe@example.com など）、別のユーザーがすでに使用しているメールアドレスを使用できません。さらに、将来の認証強化に備えて、すべてのユーザーが Workfront インスタンスで一意のメールアドレスを持っていることを確認してください。
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 Adobe Workfront で新規ユーザーを作成する場合、大文字と小文字でメールアドレスが異なる場合でも（例えば、JohnDoe@example.com と johndoe@example.com など）、別のユーザーがすでに使用しているメールアドレスを使用できません。さらに、将来の認証強化に備えて、すべてのユーザーが Workfront インスタンスで一意のメールアドレスを持っていることを確認してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -42,6 +44,8 @@ Adobe Workfront で新規ユーザーを作成する場合、大文字と小文�
  </tbody> 
 </table>
 
++++
+
 ## 一意のメールアドレスを持つユーザーを作成
 
 2019.4 リリース以降、Workfront で新規ユーザーを作成する場合、大文字と小文字でメールアドレスが異なる場合でも、別のユーザーがすでに使用しているメールアドレスを使用できません。例えば、別のユーザーが johndoe@example.com というメールアドレスを持っている場合、JohnDoe@example.com というメールアドレスを持つユーザーを作成することはできません。
@@ -53,7 +57,7 @@ Workfront インスタンス内の重複したメールアドレスを修正す�
 
 1. 重複したユーザーを調べて、どのユーザーが不要になったかを判断します。
 
-   1. Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**ユーザー** を選択します。![](assets/users-icon-in-main-menu.png)
+   {{step-1-to-users}}
 
    1. **フィルター**&#x200B;メニューで、「**すべて**」を選択します。
 

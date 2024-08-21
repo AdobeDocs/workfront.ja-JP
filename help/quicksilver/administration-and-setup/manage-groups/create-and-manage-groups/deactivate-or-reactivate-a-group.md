@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: グループの非アクティブ化または再アクティブ化
+title: グループのディアクティベートまたは再アクティベート
 description: 管理対象の使用しなくなったグループを非アクティブ化できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 100%
+source-wordcount: '772'
+ht-degree: 97%
 
 ---
 
@@ -24,6 +24,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 管理対象の使用しなくなったグループを非アクティブ化できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -44,6 +46,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 &#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## グループの非アクティブ化または再アクティブ化
 
 >[!IMPORTANT]
@@ -55,9 +59,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 >* 親グループから削除します。詳しくは、[サブグループの管理](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)の記事にある[親グループからサブグループを削除し、最上位グループにする](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)を参照してください。
 >
 >* アクティブなグループの下に移動します。詳しくは、[サブグループを管理](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)の記事にある[サブグループの作成、移動、表示、編集、コピー、名前変更、書き出しまたは削除](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create)を参照してください。
->
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左のパネルで、「**グループ**」を選択します。
 

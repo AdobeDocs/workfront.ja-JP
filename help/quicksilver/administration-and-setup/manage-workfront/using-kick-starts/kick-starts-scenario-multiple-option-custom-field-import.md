@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: 「キックスタートのシナリオ：複数オプションのカスタムフィールドを Workfront に読み込み」
+title: 「キックスタートシナリオ：複数オプションのカスタムフィールドのWorkfrontへの読み込み」
 description: キックスタート機能を使用して、Adobe Workfront で複数のオプションを持つカスタムフィールドを読み込むことができます。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '2128'
-ht-degree: 99%
+source-wordcount: '2096'
+ht-degree: 97%
 
 ---
 
@@ -51,8 +51,9 @@ Workfront データベースのオブジェクトと構造について十分に�
 
 Workfront から既存のデータを書き出すには、以下を実行します。
 
-1. Workfront インターフェイスの右上隅で&#x200B;**メインメニュー／設定**&#x200B;をクリックします。
-1. 左側の&#x200B;**システム**&#x200B;メニューを展開し、「**データを書き出し（キックスタート）**」をクリックします。
+{{step-1-to-setup}}
+
+1. 左側のメニューで **システム** を展開し、「**データのエクスポート （キックスタート）**」をクリックします。
 
    ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -88,9 +89,9 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 システム内の既存のカスタムフィールドに関する情報をスキャンした後、読み込みに使う新しいキックスタートテンプレートをダウンロードします。
 
-1. Workfront インターフェイスの右上隅で&#x200B;**メインメニュー／設定**&#x200B;をクリックします。
+{{step-1-to-setup}}
 
-1. 左側の&#x200B;**システム**&#x200B;メニューを展開します。
+1. 左側のメニューで **システム** を展開します。
 
 1. 「**データを読み込み（キックスタート）**」をクリックします。
 
@@ -129,9 +130,6 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    >Workfront データベース内のオブジェクトの名前について詳しくは、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を参照してください。
    >
    >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
-
-
-
 
 
 1. 次の情報が正しくフォーマットされていることを確認します。
@@ -245,7 +243,9 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
 前の項で説明した手順を実行した後、次の手順に従って、新しいフィールドおよびフォームを Workfront にアップロードします。
 
-1. **メインメニュー／設定／システム**&#x200B;で、「**データのインポート** **（キックスタート）**」をクリックします。
+{{step-1-to-setup}}
+
+1. **システム/データの読み込み（キックスタート）** をクリックします。
 
 1. 「**Kick-Start スプレッドシートでデータをアップロードする**」セクションで、「**ファイルを選択**」をクリックします。
 

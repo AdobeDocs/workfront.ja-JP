@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: ビュー,グループ,イベント,通知,設定,有効にする,無効にする
 navigation-topic: create-and-manage-groups
-title: グループのイベント通知を表示および設定
+title: グループのイベント通知の表示と設定
 description: グループ管理者は、管理対象のグループに対してアクティブ化されているイベント通知を表示できます。また、Adobe Workfront 管理者がイベント通知のロックを解除した場合は、管理対象の最上位グループに対してイベント通知を設定できます。イベント通知の設定は、その設定の有効化と無効化で構成されます。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: a815aeb1-3403-4491-a8ad-7e47c519905c
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 100%
+source-wordcount: '551'
+ht-degree: 86%
 
 ---
 
@@ -31,6 +31,8 @@ Workfront 管理者がイベント通知のロックを解除する方法につ�
 イベントのデフォルトの通知設定については、[イベント通知のタイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -51,10 +53,15 @@ Workfront 管理者がイベント通知のロックを解除する方法につ�
 
 &#42;ご利用のプラン、ライセンスの種類を確認するには、Workfront 管理者にお問い合わせください。
 
++++
+
 ## グループのイベント通知の表示と設定
 
-1. （条件付きおよびオプション）自分が Workfront 管理者で、既にメール通知ページ（設定／メール／通知）が表示されている場合は、次の操作を行ったあと、手順 6 までスキップできます。リストの上にあるテキストボックスで&#x200B;**システムイベント通知**&#x200B;を削除し、ボックスにグループの名前を入力していき、グループ名が表示されたらクリックします。
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+>[!TIP]
+>
+>Workfrontの管理者で、「Email Notifications」ページ（設定/メール/通知）を開いている場合は、以下の操作を行ってから、手順 6.に進みます。削除 **システムイベント通知** リスト上部のボックスに、グループの名前をボックスに入力し始め、表示されたらクリックします。
+
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
 

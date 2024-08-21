@@ -6,11 +6,12 @@ title: 個々の子オブジェクトの復元
 description: このドキュメントでは、過去 30 日以内に Adobe Workfront の実稼動環境またはプレビュー環境から削除された個々の子オブジェクトを復元する方法について説明します。
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 8bcc2859b3b6ce7a264c8f234536a93b7761ab6b
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

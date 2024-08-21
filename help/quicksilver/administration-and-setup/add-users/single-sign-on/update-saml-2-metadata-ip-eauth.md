@@ -1,14 +1,14 @@
 ---
-title: 拡張認証を使用する際の IDP の SAML 2.0 メタデータの更新
+title: 拡張認証を使用する場合は、IDP の SAML 2.0 メタデータを更新します
 description: Adobe Workfront 管理者は、Security Assertion Markup Language（SAML）2.0 プロトコルをサポートする任意の ID プロバイダーを Workfront シングルサインオン（SSO）で統合できます。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 55d7d8a8-0dfe-45bc-a23a-47111347e9ca
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 100%
+source-wordcount: '938'
+ht-degree: 97%
 
 ---
 
@@ -26,6 +26,8 @@ Adobe Workfront 管理者は、Security Assertion Markup Language（SAML）2.0 �
 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -47,6 +49,8 @@ Adobe Workfront 管理者は、Security Assertion Markup Language（SAML）2.0 �
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Okta を ID プロバイダーとして使用する
 
@@ -120,7 +124,8 @@ Okta は、SAML 2.0 をサポートしている ID プロバイダーの 1 つ�
    1. ブラウザーの URL フィールドに表示されている URL をコピーします。
 
 1. Workfront 管理者として Workfront にログインします。
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリック。
+
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**システム**／**シングルサインオン（SSO）**&#x200B;をクリックします。
 

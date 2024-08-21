@@ -1,17 +1,17 @@
 ---
-title: ホームグループの概要
+title: ホーム グループの概要
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: ユーザーのプロファイルではホームグループが割り当てられています。すべてのユーザーにはホームグループが必要です。1 人のユーザーは複数のグループに属することができますが、ホームグループは1 つのみ持つことができます。システム内の既存のグループをユーザーのホームグループとして割り当てることもできますが、より大きな組織単位を表す新しいグループを作成して割り当てることをお勧めします。ホームグループを確立する際は、組織が Adobe Workfront ユーザーをどのように分割するかを検討します。
-author: Caroline
+description: ユーザーのプロファイルではホームグループが割り当てられています。すべてのユーザーにホームグループが必要です。
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '333'
+ht-degree: 96%
 
 ---
 

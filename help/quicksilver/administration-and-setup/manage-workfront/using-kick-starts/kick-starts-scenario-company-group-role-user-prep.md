@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: キックスタートのシナリオ：会社、グループ、役割およびユーザーのキックスタートの準備
+title: 「キックスタートのシナリオ：会社、グループ、役割およびユーザーのキックスタートの準備」
 description: Adobe Workfront の実装を開始する際に、データを手動で入力する代わりに、顧客リスト、内部部門、担当業務、ユーザー情報を読み込むことができます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 100%
+source-wordcount: '1100'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 Adobe Workfront の実装を開始する際に、データを手動で入力する代わりに、顧客リスト、内部部門、担当業務、ユーザー情報を読み込むことができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,9 +45,11 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
  </tbody> 
 </table>
 
++++
+
 ## 読み込みできるもの
 
-次の表に、読み込む会社、グループ、役割を示します。
+インポートする会社、グループ、役割を次の表に示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -67,7 +71,7 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
  </tbody> 
 </table>
 
-役割名は一意である必要があります。既存の担当業務は読み込みできません。
+役割名は一意である必要があります。 既存の担当業務はインポートできません。
 
 次の表に、読み込むユーザーと、それぞれの複数のユーザー属性を示します。
 
@@ -157,7 +161,7 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 ## キックスタートテンプレートのダウンロード
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン![](assets/main-menu-icon.png)をクリックし、次に&#x200B;**設定**![](assets/gear-icon-settings.png)をクリックします。
+{{step-1-to-setup}}
 
 1. **システム**／**キックスタート**／**データを読み込み**&#x200B;をクリックします。
 
@@ -299,4 +303,4 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 1. 必要に応じて、その他のユーザーの詳細を入力し、ファイルを保存します。
 1. Excel ファイルを読み込みます。
 
-   この記事の&#x200B;**キックスタートファイルを読み込み**&#x200B;の節で示されている手順に従います。
+   [キックスタートテンプレートを使用した Adobe Workfront へのデータの読み込み](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)で示されている手順に従います。

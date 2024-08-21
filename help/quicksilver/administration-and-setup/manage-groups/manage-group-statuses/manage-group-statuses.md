@@ -3,17 +3,17 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
-title: グループステータスを管理する
+title: グループ状態の管理
 description: グループ管理者は、管理するグループに対してカスタムステータスを作成できます。これにより、会社全体の多くのカスタムステータスを不要にし、グループの階層でより自律性を高めることができます。Workfront 管理者がステータスのロックを解除した場合、管理対象のグループのシステムレベルのステータスを編集できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98512e42-5199-4bfc-9252-7ae0d7f7d614
-source-git-commit: 86a0a9ddf5be1515ed8f5c2a537b0e2ccd5a1b63
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
 source-wordcount: '134'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 

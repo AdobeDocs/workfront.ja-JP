@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: グループのステータスの並べ替え
+title: グループ状態の並べ替え
 description: グループ管理者は、管理するグループのプロジェクト、タスク、課題ステータスの順序を変更できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
-source-git-commit: 5d36c2c959dbfd00920eaf0a16409102b99de042
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '487'
+ht-degree: 97%
 
 ---
 
@@ -38,6 +38,8 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ The system version of this snippet mentions a single group because a sysadmin ca
 </table>
 
 &#42;保有するプランまたはライセンスの種類を確認する必要がある場合は、Workfront 管理者にお問い合わせください。
+
++++
 
 ## デフォルトのステータス順序
 
@@ -108,7 +112,7 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ## 管理するグループ内のタスクとプロジェクトのステータスを並べ替える
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**グループ**&#x200B;をクリックし、グループの名前を選択します。
 1. 左側のパネルで、**ステータス**&#x200B;をクリックします。
@@ -122,7 +126,7 @@ The system version of this snippet mentions a single group because a sysadmin ca
 
 ## イシューのステータスを並べ替える
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**設定**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**グループ**&#x200B;をクリックし、グループの名前を選択します。
 1. 左側のパネルで、**ステータス**&#x200B;をクリックします。

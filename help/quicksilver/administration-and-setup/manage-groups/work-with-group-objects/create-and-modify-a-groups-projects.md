@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: グループ、プロジェクト
 navigation-topic: work-with-a-groups-objects
-title: グループのプロジェクトを作成および変更する
+title: グループのプロジェクトの作成と変更
 description: グループエリアで管理しているグループを表示しているときは、グループのプロジェクトを作成、編集、書き出し、コピー、削除できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 100%
+source-wordcount: '478'
+ht-degree: 96%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 100%
 グループの上にグループがある場合は、その管理者がグループに対してこれらの操作を実行することもできます。Workfront 管理者（すべてのグループ）も同様です。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -54,9 +56,11 @@ ht-degree: 100%
 
 &#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
 
++++
+
 ## グループエリアで、グループのプロジェクトを表示、操作、作成します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**設定** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、「**グループ**」![](assets/groups-icon.png)をクリックします。
 
