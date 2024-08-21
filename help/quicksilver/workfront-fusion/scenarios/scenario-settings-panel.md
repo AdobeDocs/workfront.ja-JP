@@ -7,10 +7,10 @@ description: この記事では、 [!DNL Adobe Workfront Fusion]  シナリオ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: 1b729960a23e43252bda16d9bfb7ca9656a115a1
+source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 98%
+source-wordcount: '1206'
+ht-degree: 85%
 
 ---
 
@@ -70,7 +70,30 @@ ht-degree: 98%
 
 ## [!UICONTROL 順番に処理]
 
-このオプションでは、エラーが発生し、シナリオの実行が「[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md) での不完全な実行を表示して解決」に移行したときの、[!DNL Workfront Fusion] での処理方法を指定します。「[!UICONTROL 順番に処理]」オプションを有効にすると、Workfront Fusion ではすべての不完全な実行が解決されるまでタスクシーケンスの処理を完全に停止します。「[!UICONTROL 順番に処理]」オプションが無効の場合、未完了の実行を繰り返し再実行すると同時に、シナリオはスケジュールに従って引き続き実行されます。
+このオプションは、すべての実行を順番に実行します。主に Webhook と不完全な実行に関連しています。
+
+順次処理が有効な場合、シナリオの並列実行は無効になります。
+
+### Instant Webhook
+
+Webhook トリガーが `instant` として設定され、「順次処理」が有効になっている場合、すべてのインスタント Webhook ペイロードはキューに入り、届いた順に処理されます。 これは、外部システムからのイベントを正確な順序で処理する場合に役立ちます。
+
+>[!NOTE]
+>
+>次のペイロードが開始される前に各ペイロードが処理されるので、自動処理の遅延が発生します。
+
+### 不完全な実行
+
+「不完全な実行」も有効になっている場合、シナリオの実行中にエラーが発生すると、シナリオは一時停止します。 次のいずれかの処理が行われます。
+
+* 「順次処理」オプションが **有効** になっている場合、Workfront Fusion は、すべての不完全な実行が解決されるまで既存のシーケンスの処理を停止します。
+* 「順次処理」オプションが **無効** の場合、シナリオはスケジュールに従って引き続き実行され、不完全な実行は繰り返し再試行されます。
+
+不完全な実行について詳しくは、[Adobe Workfront Fusion での不完全な実行の表示と解決](/help/quicksilver/workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)を参照してください。
+
+<!--
+
+This option determines how [!DNL Workfront Fusion] proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the [!UICONTROL Sequential processing] option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the [!UICONTROL Sequential processing] option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.-->
 
 >[!NOTE]
 >
