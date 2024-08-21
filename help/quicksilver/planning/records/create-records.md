@@ -1,14 +1,14 @@
 ---
 title: レコードの作成
-description: Adobe Workfront Planning を使用する場合、レコードはレコードタイプのインスタンスです。
+description: Adobe Workfront Planning を使用する場合、レコードはレコードタイプのインスタンスです。 Workfront Planning で各レコード・タイプに一意のレコードを作成するには、レコードを手動でテーブル・ビューに追加するか、リストからインポートするか、複製するか、または他のレコードに接続する際に作成します。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '930'
-ht-degree: 57%
+source-wordcount: '971'
+ht-degree: 53%
 
 ---
 
@@ -22,10 +22,10 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 次のいずれかを行うことで、レコードを作成できます。
 
-* レコードタイプページから追加します
+* テーブル表示のレコードタイプページから追加
 * 外部リストからのレコードのリストのコピー&amp;ペースト
 * 複製
-  <!--* Add them as you connect them from other records-->
+  <!--* Create them as you connect them from other records-->
 
 この記事では、レコードの作成方法について説明します。テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
 
@@ -92,10 +92,13 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 +++
 
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+<!--For the release of in-context record creation - add this to the table above for permissions and access:
+
+* Manage permissions to the workspace you want to add records to. 
+* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
+* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
+
 
 ## レコードタイプ <!--in a record type table (I don't think you can create them elsewhere right now)--> に追加してレコードを作成
 
@@ -219,12 +222,17 @@ You can import records from other applications by linking them to existing recor
 
 ## Create records as you connect them
 
-You can create records as you connect them from other records. 
+You can create records or Workfront objects as you connect them from other records. 
 
-You must have the following before you can add new records by connecting them from existing records:
+You must have the following before you can add new records or Workfront objects by connecting them from existing records:
 
 * Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+
+>[!NOTE]
+>
+>Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
 
 To create records as you are connecting them from other records: 
 

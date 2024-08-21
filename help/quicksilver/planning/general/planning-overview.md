@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '1880'
 ht-degree: 76%
@@ -61,12 +61,12 @@ Workfront Planning で使用可能な主な機能と、その使用可能なタ�
 
 新機能とそのリリース時期について詳しくは、[Adobe Workfront Planning の現在のリリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
 
-| 機能 | 現在利用可能 | 近日中に利用可能 | 調査中 |
+| 機能 | 現在利用可能 | 準備中です | 調査中 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 | ワークスペースの作成 | ✓ |                                  |                  |
 | レコードタイプの作成 | ✓ |                                  |                  |
 | レコードのカスタムフィールドの作成 | ✓ |                                  |                  |
-| Excel または CSV ファイルを使用したレコードタイプとフィールドを読み込む* | ✓ |                                  |                  |
+| Excel または CSV ファイルを使用したレコードタイプとフィールドの読み込み |                              | ✓ |                  |
 | レコードのリンク | ✓ |                                  |                  |
 | テーブル内のレコードの表示 | ✓ |                                  |                  |
 | タイムラインでのレコードの表示 | ✓ |                                  |                  |

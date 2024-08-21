@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
-source-wordcount: '3390'
+source-wordcount: '3361'
 ht-degree: 82%
 
 ---
@@ -43,9 +43,9 @@ Workfront Planning では、次の方法でフィールドを作成できます�
 
 * 最初から
 * レコードタイプの接続による
-* Excel または CSV ファイルを使用してレコードタイプを読み込む
 * レコードタイプの作成による
 * テンプレートからのワークスペースの作成による
+  <!--* By importing record types using an Excel or CSV file-->
 
 Workfrontの計画フィールドについて詳しくは、[ フィールドの概要 ](/help/quicksilver/planning/fields/fields-overview.md) を参照してください。
 
@@ -401,7 +401,13 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
     * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
     * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
     * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    
+        >[!TIP]
+        >
+        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+
     * **Date**: The result of the formula field displays as a date. 
+
 
         A preview of what the result will look like displays under the **Format** field. 
 
@@ -545,9 +551,9 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 Workfront Planning レコードタイプの接続について詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-## Excel または CSV ファイルを使用してレコードタイプを読み込むことによるフィールドの作成
+<!--## Create fields by importing record types using an Excel or CSV file
 
-詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## レコードタイプを作成してフィールドを作成する
 

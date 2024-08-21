@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
 workflow-type: tm+mt
 source-wordcount: '6116'
 ht-degree: 44%
@@ -75,6 +75,24 @@ Workfront Planning は、2024 年 1 月以降、プレビュー環境とサン�
 
 <!--
 
+### Break down connected records in the timeline view
+
+Production: <date> 
+
+Preview: To be determined 
+
+As a Timeline view manager, you can now view the relationships between connected records by breaking down records into visual hierarchies in the timeline view.  
+
+For example, when you are viewing Campaigns in the timeline view which are linked to Products, and Products have associations with Projects, you can now break down the campaigns visually by Products first, and further break down Products by Projects.  
+
+This allows you to seamlessly navigate through multiple levels of relationships, all within the same timeline view.  
+
+This is not an actual hierarchy (no object is higher than another). It is a visual hierarchy that displays connected record types in one timeline view.  
+
+You can display up to 5 levels of record types in the same timeline for one record.  
+
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+
 ### New Connections tab in the record details area
 
 Production: <date> 
@@ -121,7 +139,7 @@ Production: August 28, 2024
 
 Preview: To be determined 
 
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with canvas dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
 ### Define format for formula field values
 
@@ -842,13 +860,13 @@ Adobe Workfront Planning の概要について詳しくは、[Adobe Workfront Pl
 
 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
-### レコードタイプの Excel 読み込みを一時的に無効化
+### レコードタイプの Excel のインポートは一時的に削除されます
 
 実稼動版：2024年3月21日（PT）
 
 プレビュー：未決定
 
-Excel または CSV ファイルを使用したレコードタイプの読み込みは、一時的に無効化されています。この機能は、後日使用できるようになります。
+Excel または CSV ファイルを使用して、レコードタイプを一時的に読み込みを削除しています。 この機能は、後日使用できるようになります。
 
 ## 2024年3月11日（PT）の週
 
