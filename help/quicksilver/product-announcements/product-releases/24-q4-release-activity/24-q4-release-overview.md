@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
 workflow-type: tm+mt
-source-wordcount: '1072'
-ht-degree: 61%
+source-wordcount: '1121'
+ht-degree: 59%
 
 ---
 
@@ -34,9 +34,10 @@ ht-degree: 61%
 
 ## Adobe Workfront の機能強化
 
-* [管理者機能の強化]
-* [プロジェクトの強化](#project-enhancements)
+* [管理者機能の強化](#administrator-enhancements)
 * [統合の機能強化](#integration-enhancements)
+* [プロジェクトの強化](#project-enhancements)
+* [プルーフ機能の強化](#proofing-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者機能の強化
@@ -73,6 +74,41 @@ ht-degree: 61%
                             </li>
                         </ul>
                         <p><i>この機能は段階的リリースの一部であり、9 月に限られた数のお客様が利用できるようになります。</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### 統合の機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook 統合のログインエクスペリエンスの強化 </a></p>
+                        <p>Outlook 統合のログインエクスペリエンスが効率化され、IMS が有効になっているかどうかに関わらず、すべてのお客様にWorkfrontへのログインに同じボタンが表示されるようになりました。 以降のログイン手順は、IMS インスタンスと非 IMS インスタンスでは異なりますが、初期ページはすべてのユーザーで同じです。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年8月6日（PT）</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 8 月 6 日（PT）</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
@@ -137,7 +173,7 @@ ht-degree: 61%
            </tbody>
         </table>
 
-### 統合の機能強化
+### プルーフ機能の強化
 
 <table>
             <col style="width: 50%;" />
@@ -155,23 +191,22 @@ ht-degree: 61%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook 統合のログインエクスペリエンスの強化 </a></p>
-                        <p>Outlook 統合のログインエクスペリエンスが効率化され、IMS が有効になっているかどうかに関わらず、すべてのお客様にWorkfrontへのログインに同じボタンが表示されるようになりました。 以降のログイン手順は、IMS インスタンスと非 IMS インスタンスでは異なりますが、初期ページはすべてのユーザーで同じです。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアの Chromium 更新 </a></p>
+                        <p>デスクトッププルーフビューアは、インタラクティブプルーフの UI 要素の問題を解決する Chromium 126.0.6478.127 をサポートするようにアップグレードされています。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024年8月6日（PT）</p>
+                                <p>プレビューリリース：2024年8月29日（PT）</p>
                             </li>
                             <li>
-                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 8 月 6 日（PT）</span></p>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 8 月 29 日（PT）</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
         </table>
-
 
 ### その他の機能強化
 
