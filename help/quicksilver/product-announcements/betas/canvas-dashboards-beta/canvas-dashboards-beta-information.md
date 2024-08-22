@@ -7,9 +7,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 9f975b2128e4ead84ccef8cda30dcb9f29f96e25
+source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '440'
 ht-degree: 20%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 20%
 
 **Betaの状態**
 
-キャンバスダッシュボードは現在、クローズドベータテスト段階にあり、特定の顧客への招待によってのみ利用できます。
+キャンバスダッシュボードは現在、パブリックベータ版のテスト段階にあり、頻繁に変更される可能性があります。 ベータ版への登録方法については、以下を参照してください。
 
 ## Beta に参加する
 
