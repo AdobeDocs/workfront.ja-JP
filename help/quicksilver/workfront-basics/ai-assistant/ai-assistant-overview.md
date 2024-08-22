@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: 2a6de1325895bc36527ab83b1d0b47910636b9b9
+source-git-commit: b61f021fe52e5a15afc4bc7e1b9545da97fb03d2
 workflow-type: tm+mt
-source-wordcount: '392'
+source-wordcount: '419'
 ht-degree: 10%
 
 ---
@@ -64,6 +64,10 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
   詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
+* Workfront Planning AI Assistant には、Workfront AI Assistant とは異なる機能があります。
+
+  Adobe Workfront計画の AI アシスタントについて詳しくは、[Workfront計画 AI アシスタントの概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) を参照してください。
+
 
 ## AI アシスタントで使用可能な機能
 
@@ -85,7 +89,7 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
   詳細については、[AI アシスタントを使用して計算フィールドの数式を生成または変更する ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) を参照してください。
 
-## ## AI アシスタントへのアクセス
+## AI アシスタントにアクセス
 
 1. Workfrontページの上部にある AI アシスタント アイコン ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) をクリックします。
 1. 質問を入力するか、画面の右側にあるパネルにプロンプトを表示します。
