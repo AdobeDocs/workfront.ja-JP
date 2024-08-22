@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
-source-git-commit: d56a4721353f8b7db856eab5a3ae3b53396bd079
+source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
 workflow-type: tm+mt
-source-wordcount: '115'
-ht-degree: 85%
+source-wordcount: '119'
+ht-degree: 82%
 
 ---
 
@@ -44,3 +44,4 @@ Adobe Workfront Planning でレコードタイプを作成した後、それら�
 * [レコードにサムネールを追加する](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 * [レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [レコードページレイアウトの管理](/help/quicksilver/planning/records/manage-the-record-page.md)
+* [レコードの詳細のエクスポート](/help/quicksilver/planning/records/export-the-record-page.md)

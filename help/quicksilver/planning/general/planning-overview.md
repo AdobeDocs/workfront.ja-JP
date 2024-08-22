@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '1880'
-ht-degree: 76%
+source-wordcount: '1900'
+ht-degree: 74%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 76%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
-
-<!-- remove the references to closed beta from the entire article-->
-
-<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
 
 >[!IMPORTANT]
 >
@@ -34,7 +30,6 @@ ht-degree: 76%
 >
 >Adobe Workfront Planning を説明するすべてのセクションと記事の一覧については、[Workfront Planning：記事一覧 ](/help/quicksilver/planning/planning-information.md) を参照してください。
 
-<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Adobe Workfront Planning の概要
 
@@ -56,6 +51,8 @@ Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファ
 * 他のシステムからオブジェクトタイプにリンクし、すべてのプロセスに対して一貫性のあるフレームワークを作成します。
 
 ## 現在利用可能な Adobe Workfront Planning の機能
+
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
 
 Workfront Planning で使用可能な主な機能と、その使用可能なタイムラインを次の表に示します。このリストには、すべての機能が含まれているわけではありません。
 
@@ -90,7 +87,7 @@ Workfront Planning で使用可能な主な機能と、その使用可能なタ�
 | 外部リソースと公開でビューを共有 | ✓ | |  |
 | ビューを複製 | ✓ | |  |
 | リクエストの送信 |                               | ✓ |                 |
-| レコードの詳細を Word にエクスポート |                               | ✓ |                 |
+| レコードの詳細を Word にエクスポート | ✓ |                                  |                 |
 | レコードの詳細をPDFに書き出し |                               |                                  | ✓ |
 | レコードの色とアイコンのカスタマイズ | ✓ |                                  |                 |
 | レコードへのコメントの追加 | ✓ |                                  |                 |
@@ -203,9 +200,9 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
    * 最終変更者
    * 最終変更日
 
-* **リンクされたレコードタイプ**、**リンクされたレコード**、**リンクされたレコードフィールド** または **接続されたレコードタイプ**、**接続されたレコード**、**接続されたフィールド**: Workfront Planning では、次のエンティティ間の接続を作成できます。
+* **接続されたレコードタイプ**、**接続されたレコード** および **接続されたフィールド**:Workfront Planning では、次のエンティティ間の接続を作成できます。
 
-   * 2 つのレコードタイプ
+   * 2 つのWorkfront Planning レコードタイプ。
    * レコードタイプと Workfront のプロジェクト、プログラム、ポートフォリオ、会社またはグループオブジェクトタイプ。
    * レコードタイプと Adobe Experience Manager のアセットまたはフォルダー。
 
@@ -224,7 +221,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   >[!TIP]
   >
-  > 次のフィールドタイプを参照フィールドとして追加することはできません。
+  > 次のフィールド タイプは、接続されたレコード タイプまたはオブジェクト タイプのルックアップ フィールドとして追加することはできません。
   >
   >* ユーザー
   >* 作成者
@@ -246,11 +243,11 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   レコードタイプページに適用できるビュータイプは次のとおりです。
 
-   * **テーブルビュー**：レコードとそのフィールドを表形式で表示します。テーブルの行は個々のレコードであり、列はレコードのフィールドです。これはデフォルトのビューです。
+   * **テーブル表示**：接続されたフィールドやルックアップフィールドを含む、レコードとそのフィールドをテーブル形式で表示します。 テーブルの行は個々のレコードであり、列はレコードのフィールドです。これはデフォルトのビューです。
 
      ![](assets/table-view-example.png)
 
-   * **タイムラインビュー**：少なくとも 2 つの日付タイプフィールドを持つレコードを時系列で表示します。
+   * **タイムライン表示**：少なくとも 2 つの日付タイプフィールドがあるレコードを時系列タイムラインで表示します。 タイムラインビューには、接続されたレコードタイプとそのレコードを最大 5 つ表示できます。
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -279,7 +276,6 @@ Workfront Planning を検索するには、次の手順に従います。
    >[!TIP]
    >
    >    Workfront管理者は、レイアウトテンプレートの「ランディングページを選択」オプションに Planning 領域を追加できるので、Workfrontにログインするとすぐに Planning を開くことができます。 詳しくは、[ レイアウトテンプレートを使用したランディングページのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) を参照してください。
-
 
 1. （条件付きおよびオプション）Workfrontの管理者は、次のいずれかのタブをクリックします。
    * **自分が参加しているワークスペース**：自分が作成したワークスペースまたは自分と共有されているワークスペースが表示されます。

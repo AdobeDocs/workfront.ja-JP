@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 30%
+source-wordcount: '163'
+ht-degree: 29%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 30%
 * [Adobe Workfront Planning オブジェクトの制限事項の概要](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfrontの現在のリリースアクティビティの計画](/help/quicksilver/planning/general/release-activity.md)
 * [2023 年のAdobe Workfront計画リリースアクティビティアーカイブ](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Adobe Workfront Planning オブジェクトの制限事項の概要](/help/quicksilver/planning/general/limitations-overview.md)
 
 
 
