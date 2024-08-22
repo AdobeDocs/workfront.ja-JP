@@ -5,8 +5,10 @@ title: Frame.io に接続したプロジェクトを作成する
 description: プロジェクトは、Adobe Workfront における作業の大きな単位です。プロジェクトは最初から作成するだけでなく、テンプレートを使用したり、イシューやタスクからプロジェクトに変換したりすることもできます。
 author: Courtney
 feature: Work Management
+hide: true
+hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '1169'
 ht-degree: 13%

@@ -2,17 +2,19 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Frame.io アセットのレビューまたは承認リクエストの作成"
+title: Frame.io アセットのレビューリクエストまたは承認リクエストの作成
 description: Frame.io connected assets のレビューまたは承認リクエストを作成できます。
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
+hide: true
+hidefromtoc: true
+exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
+source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 33%
 
 ---
-
 
 # Frame.io アセットのレビューリクエストまたは承認リクエストの作成
 

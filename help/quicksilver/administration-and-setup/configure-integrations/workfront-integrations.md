@@ -9,10 +9,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
 workflow-type: tm+mt
-source-wordcount: '81'
-ht-degree: 92%
+source-wordcount: '77'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 92%
 この節では、次の記事を扱います。
 
 * [[!DNL Adobe Workfront] 統合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [ [!DNL Workfront] and [!DNL Frame.io]  統合の設定](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [ [!DNL Experience Manager Assets as a Cloud Service]  統合を設定](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [ [!DNL Experience Manager Assets Essentials]  統合を設定](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront]  と  [!DNL Experience Manager Assets]  の統合](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

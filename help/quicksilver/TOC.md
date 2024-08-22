@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: e2a930c1ba45c14965d124d98e17025f3a03a23a
+source-git-commit: 21411f9d68b0142c13f8ff92c4f55ad6fe0bb457
 workflow-type: tm+mt
-source-wordcount: '14345'
+source-wordcount: '14295'
 ht-degree: 93%
 
 ---
@@ -434,8 +434,6 @@ ht-degree: 93%
          * [新しいコメントエクスペリエンス](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新しいコメントエクスペリエンスのリリースアクティビティ](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [新しいコメントエクスペリエンスに関する FAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfrontと Frame.io の統合ベータ版 {#frame-io-wf-integration-beta}
-         * [Adobe Workfrontと Frame.io のネイティブ統合ベータ版](review-and-approve-work/Documents/wf-frame-alpha.md)
       * Workfront Data Lake（ベータ版）{#data-lake-beta}
          * [Workfront Data Lake（ベータ版）に関する情報](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 管理と設定 {#administration-and-setup}
@@ -785,7 +783,6 @@ ht-degree: 93%
    * 統合の設定 {#configure-integrations}
       * [統合の設定](administration-and-setup/configure-integrations/workfront-integrations.md)
       * [Adobe Workfront 統合](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-      * [ [!DNL Workfront] and [!DNL Frame.io]  統合の設定](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
       * [Experience Manager Assets as a Cloud Service 統合の設定](administration-and-setup/configure-integrations/configure-aacs-integration.md)
       * [Experience Manager Assets Essentials 統合の設定](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
       * [Adobe Experience Manager レガシーコネクターを使った Workfront の設定](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -1198,7 +1195,6 @@ ht-degree: 93%
          * [テンプレートを使用したプロジェクトの作成](manage-work/projects/create-projects/create-project-from-template.md)
          * [Microsoft Project からプロジェクトを読み込む](manage-work/projects/create-projects/import-project-from-ms-project.md)
          * [プロジェクトのベースラインを作成](manage-work/projects/create-projects/create-baselines.md)
-         * [Frame.io に接続したプロジェクトを作成する](manage-work/projects/create-projects/create-frame-connected-project.md)
       * プロジェクトの作業の更新 {#update-work-on-a-project}
          * [プロジェクトの作業の更新：記事インデックス](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
          * [グループに関連付けられた作業へのステータスの適用](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1809,15 +1805,12 @@ ht-degree: 93%
       * [アセットとドキュメントのレビューと承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [ドキュメントの承認の概要](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * [Frame.io を使用したアセットのレビューと承認の概要](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
       * でのアセットとドキュメントの承認の設定 {#manage-asset-review-and-approval} 管理
          * [アセットおよびドキュメント承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-         * [Frame.io アセットのレビューリクエストまたは承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
          * [アセットまたはドキュメントへのレビュー担当者または承認者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [アセットまたはドキュメントからの承認者またはレビュー担当者の削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
          * [アセットおよびドキュメント用の承認テンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [接続された Workfront プロジェクトへの Frame.io アセットの追加](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
          * [新しいドキュメント承認とプルーフの併用](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
       * アセットとドキュメントのレビューと承認 {#review-and-approve-documents}
          * [ドキュメントの確認と承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
