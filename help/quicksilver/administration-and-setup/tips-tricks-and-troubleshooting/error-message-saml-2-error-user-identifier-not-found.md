@@ -5,14 +5,14 @@ product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 「エラーメッセージ：SAML 2.0 エラー：ユーザー識別子が見つかりません」
 description: ADFS への接続が正常に確立できません。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '215'
+ht-degree: 87%
 
 ---
 
@@ -30,9 +30,13 @@ ADFS への接続が正常に確立できません。
 
 ## 原因：
 
-ADFS サーバーの要求が正しくありません
+ADFS サーバーの要求が正しくありません。
 
 ## アクセス要件
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -46,14 +50,21 @@ ADFS サーバーの要求が正しくありません
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>プラン</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ソリューション
 

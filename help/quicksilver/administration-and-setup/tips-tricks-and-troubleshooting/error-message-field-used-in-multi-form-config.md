@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「エラーメッセージ：若干の問題が発生しました。このフィールドは、マルチフォームの設定で使用されます。」
+title: 「エラーメッセージ：若干の問題があります。 このフィールドは複数フォーム設定で使用されます」
 description: カスタムフォームの計算カスタムフィールドの計算を変更し、エラーメッセージが表示されて、そのフィールドがマルチフォームの設定で使用されていることが示された場合は、使用する計算を含む新しいフィールドで置き換える必要があります。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 100%
+source-wordcount: '1239'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 ## カスタムフォームが添付されるオブジェクトを見つけます。 {#find-the-object-where-the-custom-forms-are-attached}
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ユーザー]** ![](assets/users-icon-in-main-menu.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **[!UICONTROL カスタムフォーム]**／**[!UICONTROL フィールド]**&#x200B;をクリックします。
 1. **[!UICONTROL フィールドリスト]**&#x200B;ビューを適用して、変更しようとしている計算フィールドを見つけ、それが使用されているすべてのカスタムフォーム（フォーム 1、フォーム 2、フォーム 3 など）をメモします。

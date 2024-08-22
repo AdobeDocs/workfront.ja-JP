@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: ADFS ログアウト URL が機能しません
+title: ADFS ログアウト URL が機能しない
 description: このページで説明する手順は、まだ Adobe Admin Console にオンボーディングされていない組織にのみ適用されます。
-author: Becky
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '252'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 

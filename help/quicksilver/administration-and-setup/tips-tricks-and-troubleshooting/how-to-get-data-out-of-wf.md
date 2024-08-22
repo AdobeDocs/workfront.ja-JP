@@ -3,30 +3,32 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「Adobe Workfront からの履歴データの書き出し：長所と短所」
+title: 「Adobe Workfrontからの履歴データのエクスポート：長所と短所」
 description: この記事では、Workfront からの履歴データの書き出しに使用できる 4 つのオプションの長所と短所について説明します。
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 72%
 
 ---
 
 # [!DNL Adobe Workfron]t からの履歴データの書き出し：長所と短所
 
-この記事では、[!DNL Workfront] からの履歴データの書き出しに使用できる 4 つのオプションの長所と短所について説明します。
+この記事では、[!DNL Workfront] から履歴データを書き出すために使用できる 4 つのオプションの長所と短所を説明します。
 
 ## いずれかのパートナーの利用
 
-[!DNL Workfront] 認定パートナーである [!DNL AtAppStore] には、データをダウンロードできる使いやすいアプリがあります。また、このアプリには、データを簡単に表示できるビューアも含まれています。
+[!DNL AtAppStore] （[www.atappstore.com](https://www.atappstore.com)）には、データを自分でダウンロードできる使いやすいアプリ（その [Workfront Snapshot](https://store.atappstore.com/product/workfront-snapshot/) ソリューション）があります。 オプションのビューア（[Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/) ソリューション）を使用すると、データをオフラインで簡単に表示できます。
 
-* **長所**：カスタムフィールドを含むすべての [!DNL Workfront] オブジェクトが書き出されます。ビューアのインターフェイスは使いやすく、見やすく、[!DNL MS Access] データベースに簡単に読み込めます。
+* **長所：** カスタムフィールドやメモを含むすべてのコア [!DNL Workfront] オブジェクトが書き出され、すべてのオブジェクトは簡単にアクセス可能な [!DNL MS Access] データベースに保存されます。 ビューアのインターフェイスは使いやすく、読みやすいです。 ドキュメントの抽出はサービスとして個別に利用することもでき、出力は各ドキュメント（およびオプションで以前のバージョン）にマッピングされる論理フォルダー構造に整理されます。
 
-* **短所**：ドキュメントは書き出されません。個別にダウンロードする必要があります。詳しくは、[http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx](https://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx) を参照してください。
+* **短所：** 2GB のデータには技術的な制限がありますが、AtAppStore では必要なもののみを購入できます。
+
+* **料金：** 詳しくは、[https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/) を参照してください。
 
 ## データベースチームへの [!DNL Postgres] データダンプファイルの依頼
 
@@ -35,6 +37,7 @@ ht-degree: 100%
 * **長所**：カスタムフィールドや、システムに保存されているドキュメントを含め、データロード全体を取得します。
 
 * **短所**：データベースファイルは読み取りが困難です。このファイルを [!DNL Postgres] データベースにアップロードしてテーブル間の関係を再確立しない限り、読み取ることはできません。ドキュメントは、別のファイルサーバーに保存され、AOS チームによる別のプロセスを使用して別途抽出する必要があります。この場合、ドキュメントは組織化されておらず、すべて GUID で参照されます。
+
 * **コスト**：チームがファイルを作成するのにかかる時間に応じて、このダウンロードに関連するコストが発生します。詳しくは、またはこのプロセスを開始するには、AE または CAE に確認してください。
 
 ## [!UICONTROL キックスタート]を使用した書き出し

@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: ドメインの DMARC ポリシーにより認証済みのメールが受け入れられない場合
+title: ドメインの DMARC ポリシーにより、認証されていないメールは受け入れられません
 description: ' [!DNL Workfront] システムから送信されたメールがドメインの DMARC ポリシーにより受け入れられない場合、メール管理者は workfront.com からのすべてのメールを許可するようにメールシステムを設定することで、問題を修正できます。'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2443267a-dcc0-485b-be29-17539fb54188
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '166'
+ht-degree: 93%
 
 ---
 

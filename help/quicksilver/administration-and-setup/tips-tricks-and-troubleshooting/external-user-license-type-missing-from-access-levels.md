@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 外部ユーザー指定ライセンスの種類がアクセスレベルにありません
+title: 外部ユーザーのライセンスの種類がアクセス レベルにありません
 description: 設定のアクセスレベルに外部ユーザー指定ライセンスの種類が表示されなくなりました。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fcc876d9-0512-424a-a731-6bbacd55af3f
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 100%
+source-wordcount: '157'
+ht-degree: 87%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 100%
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -36,14 +40,21 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>プラン</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ソリューション
 

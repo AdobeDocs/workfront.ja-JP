@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「ログインエラー：次のフィールドは無効です：emailAddr を null にすることはできません」
+title: 「ログインエラー：次のフィールドが無効です：emailAddr を null にすることはできません」
 description: ドメインの URLで  [!DNL Adobe Workfront]  にログインしようとすると、SAML ログインポータルにリダイレクトされ、 [!DNL Workfront]  にリダイレクトされて、emailAddr フィールドを null にすることはできないというエラーが表示されます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 15b702cf-61b8-41dc-8253-77cadc69bd80
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 

@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Adobe Workfront ユーザー資格情報と  [!DNL SAML]  ユーザーの資格情報
-description: ユーザーの作成後、ユーザーを編集し、「SAML 2.0 認証のみを許可」を有効にすると、ユーザーとパスワードを SAML システムで制御することができます。このオプションを有効にすると、ユーザーには SAML 経由でのログインのみが許可されます。 [!DNL Workfront]  URL にアクセスすると、自動的に SAML システムにリダイレクトされ、SAML ユーザー名とパスワードの入力を求められます。
-author: Caroline
+title: Adobe Workfront ユーザー資格情報と SAML ユーザー資格情報の比較
+description: ユーザーの作成後、ユーザーを編集し、「SAML 2.0 認証のみを許可」を有効にすると、ユーザーとパスワードを SAML システムで制御することができます。このオプションを有効にすると、ユーザーは SAML 経由でのみログインできます。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: faa55b09-10c3-48e6-8b39-33f9feb0a335
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '234'
+ht-degree: 90%
 
 ---
 

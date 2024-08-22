@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「エラー：様々なエラーのため、SSO ユーザーは  [!DNL Adobe Workfront]  にログインできません」
-description: 連合型シングルサインオンに関するログインエラーを受信した場合、ユーザー名とパスワードの組み合わせ、または  [!DNL Workfront], the problem might be that your [!DNL Workfront]  インスタンスへのアクセスに SSO が使用されており、間違った URL を使用してログインしようとしています。「.com」の後に何も付けずに正しい URL を使用してログインしていることを確認してください。
-author: Caroline
+title: 「エラー：「様々なエラーが原因で  [!DNL Adobe Workfront] SSO ユーザーがログインできません」
+description: フェデレーテッド シングル サインオン、ユーザー名とパスワードの組み合わせ、または  [!DNL Workfront], the problem might be that your [!DNL Workfront]  インスタンスへのアクセスで SSO を使用していることについてログイン エラーが表示された場合、誤った URL を使用してログインしようとしています。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 92936761-cda3-41ab-88b1-ec1cac3900d4
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '166'
+ht-degree: 72%
 
 ---
 

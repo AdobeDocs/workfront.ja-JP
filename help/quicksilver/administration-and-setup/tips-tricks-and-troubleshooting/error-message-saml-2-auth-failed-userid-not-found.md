@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「エラーメッセージ：SAML 2.0 認証失敗：ユーザーの識別子が見つかりません」
-description: SAML 2.0 を使用している場合、「SAML 2.0 認証失敗：ユーザーの識別子が見つかりません」というエラーは、UID または名前 ID が ADFS 要求ルールから渡されないことを意味します。ADFS では、証明書利用者の信頼には、UID または名前 ID 値を渡す要求ルールが必要です。 [!DNL Workfront]  テスト接続を実行すると、成功した場合は、次のように表示されます。
-author: Caroline
+title: 「エラーメッセージ：SAML 2.0 認証に失敗しました：ユーザー識別子が見つかりません」
+description: SAML 2.0 を使用している場合、「SAML 2.0 Authentication Failed-User Identifier Not Found」というエラーは、UID ID または名前 ID が ADFS 要求規則から渡されないことを意味します。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9467cdff-7965-49ba-ac13-ed79c496a725
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '260'
+ht-degree: 80%
 
 ---
 
@@ -32,6 +32,10 @@ ADFS では、**証明書利用者の信頼**&#x200B;には、**UID** または&
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -42,14 +46,21 @@ ADFS では、**証明書利用者の信頼**&#x200B;には、**UID** または&
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>プラン</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ソリューション
 

@@ -4,15 +4,15 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 「エラーメッセージ：無効なパラメーター：コンバージョン値」
-description: '「既存のカスタムフォームのカスタムフィールドの形式を変更しようとすると、次のエラーメッセージが表示されます。''無効なパラメーター : コンバージョン値 `<...>`''」'
-author: Caroline
+description: 「既存のカスタムフォームでカスタムフィールドの形式を変更しようとすると、「無効なパラメーター：コンバージョン値'&lt;...&gt;」というエラーメッセージが表示されます」
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4f7aac95-4afb-422d-877b-0fa49ef43883
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 100%
+source-wordcount: '334'
+ht-degree: 85%
 
 ---
 
@@ -29,28 +29,41 @@ ht-degree: 100%
 
 例えば、テキスト形式のカスタムフィールドがあるとします。次に、カスタムフィールドの形式を通貨に変更するとします。Adobe Workfront インスタンスのどこかで、このフィールドは既にオブジェクトに関連付けられており、その中で既に指定されている情報が含まれています。少なくとも 1 つのフィールドの既存の情報は、既にテキスト形式で書式設定されています。したがって、フィールドの形式を通貨に変更することはできません。
 
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront プラン</a>*</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">ライセンスの概要</a>*</p> </td> 
-   <td>プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>アクセスレベル*</strong> </td> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次へのアクセスを編集：</p> 
     <ul> 
      <li> <p>レポート、ダッシュボードおよびカレンダーの作成</p> </li> 
      <li> <p>フィルター、ビュー、グループ化を作成</p> </li> 
-    </ul> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+    </ul>
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ソリューション
 

@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: アクティブなオブジェクトとディアクティベートされたオブジェクト
+title: アクティブおよび非アクティブ化されたオブジェクト
 description: ' [!DNL Adobe Workfront]  管理者は、システム内のオブジェクトをアクティブ化または非アクティブ化できます。非アクティブ化できるオブジェクトは削除しないことをお勧めします。オブジェクトを後で使用しないようにし、他のオブジェクトのドロップダウンメニューから削除するには、単にそのオブジェクトを非アクティブ化します。'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 96%

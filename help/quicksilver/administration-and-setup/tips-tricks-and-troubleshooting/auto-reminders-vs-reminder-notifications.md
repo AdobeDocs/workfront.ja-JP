@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 自動リマインダーとリマインダーの通知
-description: この記事では、自動リマインダーとリマインダー通知の違いについて説明し、それぞれのシナリオを示します。すべての  [!DNL Adobe Workfront]  通知について詳しくは、「Adobe  [!DNL Workfront]  通知」を参照してください。
-author: Caroline
+title: 自動リマインダーとリマインダー通知
+description: この記事では、自動リマインダーとリマインダー通知の違いについて説明し、それぞれのシナリオを示します。
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 26c6fa2c-5c3a-4f53-bd7e-e49a623ff60d
-source-git-commit: c2bf6441e4ac8520a56d4005b3e87c48370dc065
+source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 100%
+source-wordcount: '247'
+ht-degree: 91%
 
 ---
 
