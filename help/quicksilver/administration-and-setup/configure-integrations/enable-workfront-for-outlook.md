@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: ユーザーが Outlook 用  [!DNL Adobe Workfront]  の使用を開始するには、まずシステムでそれを有効にする必要があります。
-author: Becky
+author: Lisa, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: be523b27-191f-46ca-9a87-d512f9a15a1e
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '201'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 [!DNL Workfront for Outlook] を有効にした後の使用方法について詳しくは、[[!DNL Adobe Workfront for Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -46,10 +48,13 @@ ht-degree: 100%
 
 &#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
++++
+
 ## [!DNL Workfront] [!DNL Outlook] アドインを有効化
 
 1. [!DNL Workfront] に管理者としてログインします。
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) の順にクリックします。
+
+{{step-1-to-setup}}
 
 1. **[!UICONTROL システム]**&#x200B;を展開し、続いて「**[!UICONTROL 環境設定]**」をクリックします。
 

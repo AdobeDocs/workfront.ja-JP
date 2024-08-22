@@ -1,18 +1,18 @@
 ---
-title: ユーザーに対してモバイルアプリケーションにアクセスを有効にする
+title: ユーザーがモバイルアプリケーションにアクセスできるようにする
 product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: ' [!DNL Adobe Workfront]  モバイルアプリへのアクセスを有効に、または無効にすることができます。'
-author: Lisa
+author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
-source-git-commit: f7e3182776e6b62103cd755b2fbd5057efc95394
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '211'
-ht-degree: 100%
+source-wordcount: '209'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 [!DNL Adobe Workfront] モバイルアプリへのアクセスを有効に、または無効にすることができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,9 +45,11 @@ ht-degree: 100%
  </tbody> 
 </table>
 
++++
+
 ## ユーザーに対してモバイルアプリケーションにアクセスを有効にする
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**[!UICONTROL 設定]**」![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. ページの右上隅にある&#x200B;**[!UICONTROL 設定]** をクリックします。
 

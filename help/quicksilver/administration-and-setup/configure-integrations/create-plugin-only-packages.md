@@ -1,16 +1,17 @@
 ---
-title: Adobe Admin Console でのユーザー用のプラグイン専用パッケージの作成
+title: Adobe Admin Consoleでユーザー用のプラグイン専用パッケージを作成する
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Adobe Admin Console 管理者は、軽量のプラグイン専用パッケージを作成できます。この事前設定済みパッケージを配布すると、ユーザーは管理者にプラグインを見つけてもらわなくても、自身でプラグインを入手できるようになります。この軽量プラグインを使用して、Creative Cloud 用 Adobe Workfront プラグインを組織内のユーザーに配布することをお勧めします。
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+author: Becky
 exl-id: 99c40201-815e-447d-b791-dd026af55ec1
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
 source-wordcount: '205'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 

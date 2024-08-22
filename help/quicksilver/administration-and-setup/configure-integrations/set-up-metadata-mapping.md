@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: メタデータは、ドキュメントに関連付けられた記述的情報です。 [!DNL Workfront]  アプリケーションに送信するドキュメントにメタデータが入るように  [!DNL Adobe Workfront]  を設定することができます。
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 97%
+source-wordcount: '600'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 97%
 メタデータは、ドキュメントに関連付けられた記述的情報です。[!DNL Workfront] アプリケーションに送信するドキュメントにメタデータが入るように [!DNL Adobe Workfront] を設定することができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -41,6 +43,8 @@ ht-degree: 97%
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## [!DNL Workfront] メタデータについて
 
@@ -64,7 +68,7 @@ ht-degree: 97%
 
 ## メタデータを送信するように [!DNL Workfront] を設定
 
-1. [!DNL Adobe Workfront] の右上にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン（![](assets/main-menu-icon.png)）をクリックし、**[!UICONTROL 設定]**&#x200B;アイコン（![](assets/gear-icon-settings.png)）をクリックします。
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**[!UICONTROL ドキュメント]**／**[!UICONTROL メタデータ マッピング]**&#x200B;をクリックします。
 
@@ -82,7 +86,8 @@ ht-degree: 97%
 ## マッピングされたフィールドを削除
 
 1. [!DNL Workfront] に管理者としてログインします。
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
+
+{{step-1-to-setup}}
 
 1. 左側のパネルで、**[!UICONTROL ドキュメント]**／**[!UICONTROL メタデータ マッピング]**&#x200B;をクリックします。
 

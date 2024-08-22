@@ -3,16 +3,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: ブループリントをインストール
+title: ブループリントのインストール
 description: ブループリントは、実稼動環境またはサンドボックス環境にインストールできます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 546e19ab-dc50-4d23-b5f6-31bde1c82b6a
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 100%
+source-wordcount: '487'
+ht-degree: 97%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -29,19 +31,26 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
-   <td> <p> 任意</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] ライセンス</strong></td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
+
+この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ブループリントはどこにインストールすればよいですか？ {#where-should-i-install-a-blueprint}
 
@@ -73,7 +82,8 @@ ht-degree: 100%
 
 ## ブループリントのインストール
 
-1. [!DNL Adobe] Workfront 右上隅の **[!UICONTROL メインメニュー]** アイコン ![](assets/main-menu-icon.png) をクリックし、「**[!UICONTROL ブループリント]**」をクリックします。
+{{step1-to-blueprints}}
+
 1. インストールするブループリントを見つけます。右側では、ユースケース、成熟度レベル、インストールステータス、タイプでフィルタリングできます。
 1. （オプション）ブループリントの動作の仕組みを学ぶには、「**[!UICONTROL 詳細]**」をクリックします。
 1. 「**[!UICONTROL インストール]**」をクリックします。

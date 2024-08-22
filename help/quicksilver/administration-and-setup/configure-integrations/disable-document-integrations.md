@@ -6,11 +6,12 @@ navigation-topic: administrator-integrations
 description: ' [!DNL anAdobe] [!DNL Workfront] 管理者は、Workfront とサードパーティのドキュメントプロバイダーとの接続を無効にすることができます。'
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
+author: Courtney, Becky
 exl-id: 78281bca-1fa1-4e78-96e5-70be12142bbd
-source-git-commit: ceda437684f565b91dbb8b02f6b03cbe8d27a70a
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '297'
+ht-degree: 95%
 
 ---
 
@@ -21,6 +22,8 @@ ht-degree: 100%
 [!DNL Workfront] とドキュメントプロバイダーの間の接続を無効にすると、ドキュメントへのリンクが [!DNL Workfront] で非表示になります。ユーザーはリンクされたドキュメントを表示できなくなり、[!DNL Workfront] リンクを使用してドキュメントに変更を加えることはできず、そのプロバイダーに他のドキュメントを追加することもできません。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、以下を保有している必要があります。
 
@@ -45,12 +48,15 @@ ht-degree: 100%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
++++
+
 ## クラウドプロバイダー統合を無効にする
 
 [!UICONTROL Workfront DAM]、[!DNL Box]、[!DNL Dropbox]、[!DNL Google Drive]、[!DNL Microsoft OneDrive]、[!DNL WebDAM] のドキュメント統合を無効にするには：
 
 1. [!DNL Workfront] 管理者として [!DNL Workfront] にログインします。
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
+
+{{step-1-to-setup}}
 
 1. **[!UICONTROL ドキュメント]**／**[!UICONTROL クラウドプロバイダー]**&#x200B;をクリックします。
 
@@ -62,7 +68,8 @@ ht-degree: 100%
 ## [!DNL SharePoint] 統合を無効にする
 
 1. [!DNL Workfront] 管理者として [!DNL Workfront] にログインします。
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
+
+{{step-1-to-setup}}
 
 1. 「**[!UICONTROL ドキュメント]**」を展開し、「**[!UICONTROL [!DNL SharePoint]統合]**」をクリックします。
 1. 無効にする [!DNL SharePoint] 統合を選択します。
@@ -72,7 +79,8 @@ ht-degree: 100%
 ## カスタム統合を無効にする
 
 1. [!DNL Workfront] に管理者としてログインします。
-1. [!DNL Adobe Workfront] の右上にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン（![](assets/main-menu-icon.png)）、**[!UICONTROL 設定]**&#x200B;アイコン（![](assets/gear-icon-settings.png)）の順にクリックします。
+
+{{step-1-to-setup}}
 
 1. **[!UICONTROL ドキュメント]**／**[!UICONTROL カスタム統合]**&#x200B;をクリックします。
 1. 無効にするカスタム統合を選択します。

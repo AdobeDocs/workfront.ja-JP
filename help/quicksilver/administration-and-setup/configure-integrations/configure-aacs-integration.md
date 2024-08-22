@@ -1,15 +1,15 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: '[!UICONTROL Experience Manager Assets as a Cloud Service] 統合の設定'
+title: '[!UICONTROL Experience Manager Assetsのas a Cloud Service] 統合の設定'
 description: 自分の作業と  [!DNL Experience Manager Assets] のコンテンツを結び付けることができます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '1679'
-ht-degree: 98%
+source-wordcount: '1687'
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 >[!IMPORTANT]
 >
->この機能は、[!DNL Adobe Admin Console] に登録されている組織のみが利用できます。
+>この機能は、[!DNL Adobe Admin Console] にオンボーディングされた組織でのみ使用できます。
 
 [!DNL Experience Manager Assets] のコンテンツと作業内容を連携できます。
 
@@ -39,38 +39,37 @@ ht-degree: 98%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] プラン</strong>
+   <td>[!DNL Adobe Workfront] プラン*
    </td>
    <td>任意
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] ライセンス</strong>
+   <td>[!DNL Adobe Workfront] ライセンス
    </td>
-   <td>現在：[!UICONTROL Plan] <br>
- 新規：[!UICONTROL Standard]
-   </td>
+   <td><p>現在：[!UICONTROL Plan]</p>
+   <p>新規：[!UICONTROL Standard]</p></td>
   </tr>
   <tr>
-   <td><strong>[!DNL Experience Manager] ライセンス</strong>
+   <td>[!DNL Experience Manager] ライセンス
    </td>
    <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>製品</strong>
+   <td>製品
    </td>
    <td>[!DNL Experience Manager Assets as a Cloud Service] があり、製品にユーザーとして追加されている必要があります。
    </td>
   </tr>
   <tr>
-   <td>アクセスレベル設定*
+   <td>アクセスレベル設定
    </td>
-   <td>[!DNL Workfront] 管理者であることが必要です。
+   <td>[!DNL Workfront] 管理者である必要があります。
    </td>
   </tr>
 </table>
@@ -78,7 +77,6 @@ ht-degree: 98%
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
-
 
 ## 前提条件
 

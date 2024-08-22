@@ -2,15 +2,15 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: templates-navigation-topic
-title: ブループリントカタログの参照とブループリントのインストールのリクエスト
+title: ブループリントカタログを参照し、ブループリントのインストールをリクエストします
 description: ブループリントは、ビジネスと共に成長する作業管理システムを構築するために役立つ基本的な構成要素を提供します。すべての  [!DNL Adobe Workfront]  ユーザーはブループリントのカタログを参照できます。 [!DNL Workfront]  管理者がブループリントリクエストを有効にしている場合、管理者に特定のブループリントをインストールするようリクエストすることもできます。
-author: Lisa
+author: Becky, Lisa
 feature: System Setup and Administration, Work Management
 exl-id: 932072e4-4d52-4b4b-a045-0cd38cb882d3
-source-git-commit: d46eb98c443a421f340b1021972ddb89eda1966b
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -29,21 +31,29 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
-   <td> <p> 任意</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] ライセンス</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td>
+   <p>新規：Contributor 以上</p>
+   <p>または</p>
+   <p>現在：Request 以上</p></td> 
   </tr>
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ブループリントカタログを参照
 
 カタログには、組織で利用可能なすべてのブループリントが表示されます。ブループリントのタイプや成熟度レベルなどのブループリントについて詳しくは、[ブループリントの概要](../../administration-and-setup/blueprints/blueprints-overview.md)を参照してください。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に&#x200B;**[!UICONTROL ブループリント]**&#x200B;を選択します。
+{{step1-to-blueprints}}
+
 1. ブループリントのカタログを参照します。
 1. 右側のフィルターパネルを使用して、次のオプションでカタログをフィルターします。
 
@@ -62,7 +72,8 @@ ht-degree: 100%
 
 ブループリントのインストールをリスエストすると、そのリスエストはシステム管理者に送信されます。通知環境設定に従って、リクエストが完了すると通知が届きます。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に&#x200B;**[!UICONTROL ブループリント]**&#x200B;を選択します。
+{{step1-to-blueprints}}
+
 1. インストールするブループリントを見つけます。右側のパネルのフィルターを使用して、ユースケース、成熟度レベル、インストール状況、タイプごとにフィルターをかけることができます。
 1. ブループリントで&#x200B;**[!UICONTROL リクエスト]**&#x200B;をクリックします。
 

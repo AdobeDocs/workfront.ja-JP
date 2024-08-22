@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 0d737bc410f3db4eeff52fa8954acdb8a0eb1a6e
+source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 24%
+source-wordcount: '428'
+ht-degree: 25%
 
 ---
 
@@ -26,27 +26,25 @@ Workfront管理者は、設定エリアでデフォルトの Frame.io アカウ�
 >
 >この機能は、[!DNL Adobe Admin Console] に登録されている組織のみが利用できます。
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] プラン</strong>
-   </td>
-   <td>任意
-   </td>
+   <td>[!DNL Adobe Workfront] プラン*</td>
+   <td>任意</td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] ライセンス</strong>
+   <td>[!DNL Adobe Workfront] ライセンス
    </td>
-   <td>現在：[!UICONTROL Plan] <br>
- 新規：[!UICONTROL Standard]
-   </td>
+   <td><p>現在：[!UICONTROL Plan]</p>
+   <p>新規：[!UICONTROL Standard]</p></td>
   </tr>
-
-<tr>
-   <td><strong>アクセスレベル設定</strong>
+  <tr>
+   <td>アクセスレベル設定
    </td>
-   <td>[!DNL Workfront] 管理者であることが必要です。
+   <td>[!DNL Workfront] 管理者である必要があります。
    </td>
   </tr>
 
@@ -54,6 +52,7 @@ Workfront管理者は、設定エリアでデフォルトの Frame.io アカウ�
 
 この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
 
 ## デフォルトの [!DNL Frame.io] アカウントを設定 [!BADGE  近日公開 ]{type=Informative}
 
