@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: ルーティングルールの作成
 description: ルーティングルールは、イシューがリクエストキューに送信される際に、Adobe Workfront がイシューに対して行う処理を制御します。リクエストキューの作成について詳しくは、リクエストキューの作成を参照してください。
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 97%
@@ -75,12 +75,12 @@ ht-degree: 97%
     <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td role="rowheader">アクセスレベル設定</td>
    <td> <p>プロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p> プロジェクトの管理権限</p> </td> 
+   <td> <p> プロジェクトの管理権限</p> </td>
   </tr> 
  </tbody> 
 </table>

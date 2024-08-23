@@ -1,15 +1,15 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: プロジェクトのリクエストタイプの定義
+title: プロジェクトのリクエストタイプを定義
 description: Adobe Workfront に記録されるイシューやリクエストの種類を、リクエストタイプごとに整理できます。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 9b6552fe496a1602786cdc6b6050d02cd367a531
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 100%
+source-wordcount: '376'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,8 @@ Adobe Workfront に記録されるイシューやリクエストの種類を、�
 
 ## アクセス要件
 
++++
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -28,27 +30,30 @@ Adobe Workfront に記録されるイシューやリクエストの種類を、�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront プラン</a>*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">ライセンスの概要</a>*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+    <p>新規：標準</p>
+    <p>または</p>
+    <p>現在：プラン</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対して権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトに対して権限を管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -66,7 +71,7 @@ Adobe Workfront に記録されるイシューやリクエストの種類を、�
 
 ## プロジェクトのイシュータイプまたはリクエストタイプを定義
 
-1. メインメニュー ![](assets/main-menu-icon.png) で「**プロジェクト**」をクリックします。
+{{step1-to-projects}}
 
 1. プロジェクトの名前をクリックして開きます。
 1. 左側のパネルで、「**キューの詳細**」をクリックします。
@@ -89,4 +94,4 @@ Adobe Workfront に記録されるイシューやリクエストの種類を、�
 
 1. 「**保存**」をクリックします。
 
-   プロジェクトがリクエストキューとして有効になっている場合、タスクやプロジェクトに新しいイシューを入力するとき、またはプロジェクトに新しいリクエストを送信するときに、指定したリクエストタイプを選択できるようになります。
+   指定した要求タイプは、タスクまたはプロジェクトに新しい問題を入力するとき、またはプロジェクトが要求キューとして有効になっている場合はプロジェクトに新しい要求を送信するときに選択できます。

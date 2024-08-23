@@ -4,16 +4,16 @@ product-area: requests
 navigation-topic: requests-navigation-topic
 title: リクエストキューの作成と管理
 description: Adobe Workfront でリクエストキューを作成して、組織内の予定外の作業を取り込むことができます。以下の記事では、リクエストキューとして機能するようにプロジェクトを設定する方法について説明します。
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0aaa54e2-c887-425e-bdd6-6bbc60d21319
-source-git-commit: b08377e539b04e896e84d17f46d2c941b0f66731
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '69'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 

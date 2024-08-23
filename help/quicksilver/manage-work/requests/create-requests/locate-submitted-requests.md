@@ -1,17 +1,17 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: 送信されたリクエストを見つける
+title: 送信されたリクエストの検索
 description: 自分または他のユーザーが送信したリクエストや、未送信でドラフトとして保存されていたリクエストを検索できる Adobe Workfront のエリアについて説明します。
-author: Alina
+author: Lisa
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '870'
-ht-degree: 100%
+source-wordcount: '825'
+ht-degree: 97%
 
 ---
 
@@ -30,40 +30,46 @@ ht-degree: 100%
 
 ## アクセス要件
 
-この記事の手順を実行するには、以下を保有している必要があります。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンスの概要*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>新規：Contributor 以上</p>
+   または
+   <p>現在：Request 以上</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
-  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td><p>イシューへのアクセス権を編集</p></td> 
+  </tr>
+  <tr>
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>リクエストに対する表示権限またはそれ以上</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td><p>リクエストに対する権限以上を表示</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 送信されたリクエストを見つける
 
 自分または他のユーザーが送信したリクエストを検索するには、次の手順に従います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-requests}}
+
 1. 左パネルの「**送信済み**」をクリックして、送信されたすべてのリクエストを表示します。
 
    最大 2,000 件のリクエストを表示でき、リクエストは複数のページにわたって表示される可能性があります。

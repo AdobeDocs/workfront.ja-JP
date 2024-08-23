@@ -1,19 +1,19 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Adobe Workfront リクエストの作成と送信
+title: リクエストの作成と送信
 description: 予定作業は、Adobe Workfront ではプロジェクトとタスクで表されます。ただし、予定外の作業が（ランダムなリクエストの形で）いつでも発生する可能性がある環境で作業する場合もあります。Workfront には、リクエストキューを使用してこのタイプの環境に対応するワークフローが用意されています。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '2339'
+source-wordcount: '2303'
 ht-degree: 98%
 
 ---
 
-# Adobe Workfront リクエストの作成と送信
+# リクエストの作成と送信
 
 <!--Audited: 12/2023-->
 
@@ -47,18 +47,18 @@ ht-degree: 98%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：Contributor 以上</p>
    または
    <p>現在：Request 以上</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>イシューへのアクセス権を編集</p>  </td> 
   </tr> 
  </tbody> 
@@ -110,14 +110,9 @@ Workfront web アプリでリクエストを作成すると、Workfront はリ�
 
 Workfront web アプリでリクエストを作成するには：
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックして、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックします。
+{{step1-to-requests}}
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   </MadCap:conditionalText>
-   -->
-
-1. 「**リクエスト**」をクリックし、ページの右上隅にある「**新しいリクエスト**」を選択します。
+1. ページの右上隅にある「**新規リクエスト**」をクリックします。
 
    >[!TIP]
    >
@@ -331,7 +326,7 @@ Outlook クライアントを使用してリクエストを送信できます。
 
 Outlook クライアントを使用してリクエストを送信する方法について詳しくは、[Outlook メールから Adobe Workfront リクエストを作成](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)の記事を参照してください。
 
-## Workfront モバイルアプリを使用してリクエストを作成する
+## Workfront モバイルアプリを使用したリクエストの作成
 
 スマートフォンのモバイルアプリを使用してリクエストを送信できます。新しいリクエストを作成し、web アプリケーションで表示するためのアクセス権があるリクエストキューに送信できます。
 

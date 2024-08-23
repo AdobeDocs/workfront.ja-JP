@@ -1,15 +1,15 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: ドラフトからリクエストを作成
+title: ドラフトからのリクエストの作成
 description: 新しいリクエストを入力する際に Workfront が提案する利用可能なドラフトを使用する以外に、「ドラフト」セクションからドラフトリクエストにアクセスし、そこから送信を完了することもできます。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 0f30ff23ef828d32c406cc2d9733c23b095014c9
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 100%
+source-wordcount: '583'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -26,21 +28,26 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>新規：Contributor 以上</p>
+   または
+   <p>現在：Request 以上</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>イシューへのアクセス権を編集</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ドラフトからリクエストを作成するための前提条件
 
@@ -52,8 +59,9 @@ ht-degree: 100%
 
 ## ドラフトからリクエストを作成
 
-1. Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
-1. **リクエスト**／**ドラフト**&#x200B;の順にクリックします。
+{{step1-to-requests}}
+
+1. 左側のパネルで「**ドラフト**」を選択します。
 
    それぞれのリクエストキューのそれぞれのキュートピックのドラフトがこのリストに表示されます。
 

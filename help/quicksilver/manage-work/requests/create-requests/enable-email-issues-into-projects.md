@@ -2,14 +2,14 @@
 product-area: requests
 navigation-topic: create-requests
 title: ユーザーが問題をリクエストキュープロジェクトにメールで送信できるようにする
-description: ユーザーが問題をリクエストキュープロジェクトにメールで送信できるようにする
-author: Alina
+description: ユーザーがメールでイシューをプロジェクトに追加できるように、プロジェクトを設定できます。
+author: LIsa
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 9cda6fd41ba7fcb9b9f412a7c2b7ffd39f3fe189
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 96%
+source-wordcount: '799'
+ht-degree: 88%
 
 ---
 
@@ -19,41 +19,39 @@ ht-degree: 96%
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-ユーザーがメールでプロジェクトにイシューを追加できるようにプロジェクトを設定できます。プロジェクトがリクエストキューとして指定されている場合にのみ、プロジェクトにイシューをメールで送信できます。リクエストキュープロジェクトの作成について詳しくは、[リクエストキューを作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
+ユーザーがメールでプロジェクトにイシューを追加できるようにプロジェクトを設定できます。プロジェクトがリクエストキューとして指定されている場合にのみ、イシューをプロジェクトにメールで送信できます。 リクエストキュープロジェクトの作成について詳しくは、[リクエストキューを作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>新規：Contributor 以上</p>
+   または
+   <p>現在：Request 以上</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>To configure the request queue, you must have Manage permissions to the project.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.<br></p> </td> 
-   </tr>
-  --> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>イシューへのアクセス権を編集</p>  </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 

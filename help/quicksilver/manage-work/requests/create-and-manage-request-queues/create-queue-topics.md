@@ -3,11 +3,11 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: キュートピックを作成
 description: キューのトピックは、ルーティングルールと連携して、作業依頼をユーザー、担当業務、チームにを自動的に割り当てたり、プロジェクトに配置したりします。キューのトピックでは、ルーティングルールを実装するために必要な条件を定義します。
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
 workflow-type: tm+mt
 source-wordcount: '848'
 ht-degree: 97%
