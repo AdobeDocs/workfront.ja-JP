@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1900'
-ht-degree: 74%
+source-wordcount: '1909'
+ht-degree: 73%
 
 ---
 
@@ -22,14 +22,13 @@ ht-degree: 74%
 >
 >この記事の情報は、Adobe Workfront からの新しいオファーである Adobe Workfront Planning を説明するものです。
 >
->現在、Workfrontプランニングは、限られた数のお客様に提供される早期アクセス段階にあります。
+>Worfront Planning の機能にアクセスするには、Workfrontのお客様で、お客様の組織がAdobe WorkfrontプランとWorkfrontプランを購入する必要があります。<!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
+>Workfront Planning へのアクセス権の取得について詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 >
->これらの機能を使用するには、Workfront の顧客である必要があります。
->
->この段階に属している場合は、アカウント担当者から通知されています。
->
->Adobe Workfront Planning を説明するすべてのセクションと記事の一覧については、[Workfront Planning：記事一覧 ](/help/quicksilver/planning/planning-information.md) を参照してください。
 
+この記事には、Workfrontの計画に関する一般情報が含まれます。
+
+Adobe Workfront Planning のドキュメントが含まれているアーティクルの一覧については、[Workfront Planning：アーティクル インデックス ](/help/quicksilver/planning/planning-information.md) を参照してください。
 
 ## Adobe Workfront Planning の概要
 
@@ -52,11 +51,16 @@ Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファ
 
 ## 現在利用可能な Adobe Workfront Planning の機能
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
 
 Workfront Planning で使用可能な主な機能と、その使用可能なタイムラインを次の表に示します。このリストには、すべての機能が含まれているわけではありません。
 
+<!--at GA: update the link below to the new place for release notes-->
+
 新機能とそのリリース時期について詳しくは、[Adobe Workfront Planning の現在のリリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
+
+<!-- at GA: remove the table below, and instead make a bullet list with the available features in Planning-->
+
 
 | 機能 | 現在利用可能 | 準備中です | 調査中 |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|

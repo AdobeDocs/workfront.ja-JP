@@ -1,13 +1,13 @@
 ---
 title: Adobe Workfront オブジェクトの計画セクションでのレコードの管理
-description: 左側のパネルでは、Adobe Workfront オブジェクトの「計画」セクションで、Workfront オブジェクトに接続されているレコードを表示できます。
+description: 左側のパネルにあるWorkfront オブジェクトの「計画」セクションに、Adobe Workfront オブジェクトに接続されたWorkfront計画レコードを表示できます。
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: a2062658110792689c0a15dd1c616c58ebf7e07a
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '644'
+source-wordcount: '756'
 ht-degree: 10%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 {{planning-important-intro}}
 
-左側のパネルでは、Adobe Workfront オブジェクトの「計画」セクションで、Workfront オブジェクトに接続されているレコードを表示できます。
+左側のパネルにあるWorkfront オブジェクトの「計画」セクションに、Adobe Workfront オブジェクトに接続されたWorkfront計画レコードを表示できます。
 
 「計画」セクションは、次のWorkfront オブジェクトで使用できます。
 
@@ -35,7 +35,11 @@ ht-degree: 10%
 
 ## アクセス要件
 
+<!--Updated for GA-->
+
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
+
+Workfront Planning にアクセスするには、次のものが必要です：
 
 <table style="table-layout:auto">
  <col>
@@ -48,50 +52,64 @@ ht-degree: 10%
 <td>
    <p> 製品</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfrontの計画<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront 契約</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
+<p>次のいずれかのWorkfront プラン：</p>
+<ul><li>選択</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront計画*</p></td>
    <td>
 <p>任意</p>
+<p>各Workfront Planning プランに含まれる内容の詳細については、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。 </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p>
+<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p>
+   </td>
+
+</tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td>
-   <p>新規：標準</p>
-   または
-   <p>現在：プラン</p> 
+   <p>標準</p>
+   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p>
   </td>
   </tr>
-
-<tr>
+  <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
    <td> <p>プロジェクト、プログラム、Portfolioへの表示以上のアクセス</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>権限</p></td>
-   <td> <p>Workfrontで、プロジェクト、ポートフォリオまたはプログラムに対する表示以上の権限 </a> </p> 
+   <td role="rowheader"><p>オブジェクト権限</p></td>
+   <td>
+   <p>Workfrontで、プロジェクト、ポートフォリオまたはプログラムに対する表示以上の権限 </a> </p> 
    <p>Workfront Planning で、Contribute以上の作業領域への権限 </a> </p>  
-   <p>システム管理者には、未作成のワークスペースを含むすべてのWorkfront Planning ワークスペースに対する権限があります</p>
-</td>
+   <p>システム管理者には、未作成のワークスペースを含むすべてのWorkfront Planning ワークスペースに対する権限があります</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者またはグループ管理者が、メインメニューのプランニング エリアと左側のパネルのプランニング セクションをレイアウトテンプレートに追加する必要があります。 詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューの計画領域と、プロジェクト、ポートフォリオおよびプログラムの計画領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> 詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md"> アクセスの概要 </a> を参照してください。 </p>  </p>  
 </td>
   </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -135,6 +153,7 @@ Workfrontにオブジェクトのページが開きます。
 
    ![](assets/planning-section-on-project.png)
 
+1. （省略可能） [**すべての接続を表示**] をクリックすると、接続されたすべてのレコードの種類（接続されていないレコードを含む）が表示されます。 既定では、レコードが接続されていないレコード タイプは表示されません。
 1. レコードカードをクリックすると、レコードに関する詳細情報が表示されます。 レコードのプレビューボックスが表示されます。
 1. （オプション）レコードのプレビューボックスのフィールドの変更を開始します。 変更内容は自動的に保存されます。
 1. （オプション）プレビューボックスの右上隅に ![](assets/open-details-in-a-new-tab-icon.png) る **新しいタブで開く** アイコンをクリックして、レコードの詳細ページを開きます。 Workfront Planning にレコードの詳細ページが開きます。
@@ -143,16 +162,12 @@ Workfrontにオブジェクトのページが開きます。
    * レコードがWorkfront オブジェクトに接続されなくなりました。
    * Workfront オブジェクトも、Workfront Planning からレコードの接続されたフィールドから削除されます。
    * 計画レコードに接続されているWorkfront参照フィールドの値も削除されます。
-1. 追加のレコードを接続するには、「**接続**」をクリックします。
+1. 「**接続**」をクリックすると、接続されたレコードタイプのその他のレコードを接続できます。 詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 
-   >[!NOTE]
-   >
-   >   「接続」ボタンは、Contributeの権限を持つワークスペースに対してのみ表示されます。<!--they might replace this with one button at the top of the page. Rephrase-->
-
-1. 接続するレコードをクリックします。 次のことが発生します。
+   次のことが発生します。
 
    * レコードは直ちにWorkfront オブジェクトに接続され、計画セクションに表示されます。
    * Workfront オブジェクトが、Workfront計画レコードの接続されたフィールドに追加されます。
    * 計画レコードに接続されたWorkfront参照フィールドの値は、Workfront Planning に入力されます。
 
-<!--add more steps here for what happens after clicking Connect-->
+

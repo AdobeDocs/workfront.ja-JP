@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 60%
+source-wordcount: '1833'
+ht-degree: 57%
 
 ---
 
@@ -30,7 +30,77 @@ ht-degree: 60%
 
 ## アクセス要件
 
+<!--Updated for GA-->
+
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
+
+Workfront Planning にアクセスするには、次のものが必要です：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 製品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> 
+<p>次のいずれかのWorkfront プラン：</p> 
+<ul><li>選択</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td> 
+<p>任意 </p> 
+<p>各Workfront Planning プランに含まれる内容の詳細については、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> <p>標準</p> 
+   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>  <p>ワークスペースに対する参加以上の権限</a> </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--Old:
 
 <table style="table-layout:auto">
  <col>
@@ -41,53 +111,51 @@ ht-degree: 60%
     <tr>
 <tr>
 <td>
-   <p> 製品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront 契約</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任意</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新規：標準</p>
-   または
-   <p>現在：プラン</p> 
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan</p> 
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Adobe Workfront Planning に対するアクセス制御はありません</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する参加以上の権限</a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
-</td>
-  </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 ## レコードの編集に関する考慮事項
 
@@ -233,7 +301,7 @@ ht-degree: 60%
 
    Workfront では、変更を自動的に保存します。
 
-   <!--1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).-->
+1. （任意）「**書き出し**」アイコンの ![](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細を書き出します。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 1. （オプション）レコードのプレビューの右上隅に <!--check the icon; they are changing it--> る **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを新しいタブで開きます。 この記事の[レコードのページからレコードを編集](#edit-a-record-from-the-records-page)の節の説明に従って、レコードを引き続き編集します。
 
@@ -288,7 +356,7 @@ ht-degree: 60%
 
    Workfront では、変更を自動的に保存します。
 
-   <!--1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).-->
+1. （任意）「**書き出し**」アイコンの ![](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細を書き出します。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 
 ## 計画セクションのWorkfrontオブジェクトからレコードを編集する

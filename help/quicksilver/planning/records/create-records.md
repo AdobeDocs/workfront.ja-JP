@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 53%
+source-wordcount: '1336'
+ht-degree: 38%
 
 ---
 
@@ -25,16 +25,89 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 * テーブル表示のレコードタイプページから追加
 * 外部リストからのレコードのリストのコピー&amp;ペースト
 * 複製
-  <!--* Create them as you connect them from other records-->
+* 他のレコードから接続する場合と同様に作成します
 
-この記事では、レコードの作成方法について説明します。テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
+この記事では、レコードの作成方法について説明します。
+
+テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
 
 * [テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## アクセス要件
 
+<!--Updated for GA-->
+
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
+
+Workfront Planning にアクセスするには、次のものが必要です：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 製品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> 
+<p>次のいずれかのWorkfront プラン：</p> 
+<ul><li>選択</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td> 
+<p>任意 </p> 
+<p>各Workfront Planning プランに含まれる内容の詳細については、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> 標準
+   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p> 
+   <p>レコードをレコードに関連付ける際に、作成するオブジェクトタイプ（プロジェクトとポートフォリオ）のWorkfrontでのアクセス権を編集します。 </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td> <p>レコードの追加先となるワークスペースに対する権限を管理します。 </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
+   <p>子オブジェクト（プロジェクト）を追加するためのWorkfront オブジェクト（ポートフォリオ）への権限を管理します。</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
+   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューに計画エリアを含むレイアウトテンプレートを割り当てる必要があります </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+<!--OLD info: 
 
 <table style="table-layout:auto">
  <col>
@@ -45,59 +118,52 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
     <tr>
 <tr>
 <td>
-   <p> 製品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront 契約</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任意</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新規：標準</p>
-   <p>現在：プラン</p>  
+   <p>New: Standard</p>
+   <p>Current: Plan</p>  
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Adobe Workfront Planning に対するアクセス制御はありません </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する参加以上の権限</a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
-</td>
-  </tr>
-
-</tbody>
+ </tbody>
 </table>
 
-*詳しくは、[Workfrontのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
-
-
-<!--For the release of in-context record creation - add this to the table above for permissions and access:
-
-* Manage permissions to the workspace you want to add records to. 
-* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
-* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
 
 
 ## レコードタイプ <!--in a record type table (I don't think you can create them elsewhere right now)--> に追加してレコードを作成
@@ -218,31 +284,30 @@ You can import records from other applications by linking them to existing recor
 
 レコードの複製について詳しくは、「[ レコードの複製 ](/help/quicksilver/planning/records/copy-or-duplicate-records.md)」を参照してください。
 
-<!--check the steps with the release of in-context record types epic: 
+## 接続するレコードの作成
 
-## Create records as you connect them
+他のレコードから関連付ける際に、レコードまたはWorkfront オブジェクトを作成できます。
 
-You can create records or Workfront objects as you connect them from other records. 
+既存のレコードから新しいレコードまたはWorkfront オブジェクトを接続して追加するには、次のものが必要です。
 
-You must have the following before you can add new records or Workfront objects by connecting them from existing records:
-
-* Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
-* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+* 接続されたレコードタイプ。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+* 接続されたレコード。 詳しくは、[レコードを接続する](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+* この記事の [ アクセス要件 ](#access-requirements) の節で説明しているように、Workfront Planning およびWorkfrontでの正しいアクセス権と権限。
 
 >[!NOTE]
 >
->Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
+>Workfront プロジェクトおよびポートフォリオをWorkfront Planning レコードに関連付けて作成することは、Planning レコードを他のレコードから関連付けて作成することと似ています。
 
-To create records as you are connecting them from other records: 
+他のレコードとの接続時にレコードを作成するには、次の手順に従います。
 
-1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting from. 
+1. [ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、Workfront Planning レコードの接続を開始します。
+1. （条件付き）別のレコードの「接続済みレコード」フィールドから追加しようとしてレコードが見つからない場合は、レコードを検索して、「**+追加**」をクリックします。 「**+追加**」ボタンの後に、接続元のレコードタイプの名前が続きます。
 
-    ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
-    The record is created and added to the connected record field. 
-1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
-1. (Optional) Start adding information for the new record in the table view, or click its name to open the details page and add information there. 
+   レコードが作成され、接続されたレコードフィールドに追加されます。
+1. （オプション）作成したレコードを持つレコードタイプのテーブル表示に移動します。 新しいレコードがビューの最後の行に表示されます。
+1. （オプション）テーブル表示で新しいレコードの情報の追加を開始します
+または
+名前をクリックして詳細ページを開き、情報を追加します。
 
--->
