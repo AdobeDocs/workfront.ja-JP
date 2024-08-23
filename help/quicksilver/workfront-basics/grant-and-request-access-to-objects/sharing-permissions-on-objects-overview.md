@@ -6,9 +6,9 @@ description: 自分が作成したオブジェクトや自分と共有された�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 7f59cc0a7a10bb8405acad2fa2300e653e5ad78c
+source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
 workflow-type: tm+mt
-source-wordcount: '1182'
+source-wordcount: '1181'
 ht-degree: 97%
 
 ---
@@ -140,7 +140,7 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
   </tr> 
   <tr> 
    <td role="rowheader"><strong>システム全体で表示できるようにします。</strong></td> 
-   <td> <p>オブジェクトは検索で見つけることができ、Workfront アカウントを持つユーザーが表示できます。</p><p><b>メモ &gt;/b&gt;：投稿者またはリクエスターのライセンスを持つユーザーは、この設定が有効になっている場合でも、プロジェクトを表示できません。 </td> 
+   <td> <p>オブジェクトは検索で見つけることができ、Workfront アカウントを持つユーザーが表示できます。</p><p><b> 注意 </b>：この設定が有効になっている場合でも、コントリビューターまたはリクエスターのライセンスを持つユーザーはプロジェクトを表示できません。 </td> 
   </tr> 
  </tbody> 
 </table>
