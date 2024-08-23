@@ -6,9 +6,9 @@ author: Becky
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 1517f7480bbe481bc918876441d1b70b09963a97
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '620'
 ht-degree: 6%
 
 ---
@@ -56,6 +56,8 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 * Adobe統合エクスペリエンスを有効にする必要があります
 * 組織には Select、Prime または Ultimate Workfront プランが必要です
 * Adobeは、ファイルに署名済みのAdobe生成 AI 契約が必要
+
+  契約の署名について詳しくは、この記事の [Adobe生成 AI 契約への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
 
 ## AI アシスタントに関する考慮事項
 
