@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1127'
 ht-degree: 59%
 
 ---
@@ -295,4 +295,4 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 #### 24.10 での従来のホームエクスペリエンスの廃止
 
-24.10 リリースでは、従来のホームエクスペリエンスが正式に廃止される予定です。 新しいホームの使用を開始することをお勧めします。このホームは、廃止前に、引き続き追加機能を備えて強化されます。 ユーザーや管理者が準備のためにできることなど、移行に関する詳細情報が間もなく提供されます。
+24.10 リリースでは、従来のホームエクスペリエンスが正式に廃止される予定です。 新しいホームの使用を開始することをお勧めします。このホームは、廃止前に、引き続き追加機能を備えて強化されます。 ユーザーや管理者が準備に実行できる操作に関するアドバイスなど、移行について詳しくは、[ 従来のホームの廃止ガイド ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md) を参照してください。
