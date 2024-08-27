@@ -7,10 +7,10 @@ description: Adobe Workfront ボードは、列やカードを含む共有ボー
 author: Lisa
 feature: Agile
 exl-id: 7382e338-3e4c-4a93-a0d4-87ef52f69f36
-source-git-commit: e2db904bc5b4e3682421677b30b0187a6fff46d9
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
 source-wordcount: '222'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

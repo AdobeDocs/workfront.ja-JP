@@ -9,10 +9,10 @@ description: Adobe Workfront Boards コネクタを使用すると、Workfront B
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 7003ea4b6daba68957ef0ec501ecfd4a8d750d4c
+source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
 workflow-type: tm+mt
-source-wordcount: '2591'
-ht-degree: 20%
+source-wordcount: '2631'
+ht-degree: 19%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->このコネクタは現在Betaにあります。
+>Boards Fusion コネクタはベータ版ステータスです。 その結果、このコネクタのサポートは制限され、今後のボードの開発により変更される可能性があります。 また、Fusion コネクタプロセスに影響を与える可能性があるGraphQL API が、予告なく変更される場合があります。
 
 Adobe Workfront ボードは、列やカードを含む共有ボードへのアクセスを提供することで、チームの共同作業を可能にする柔軟なツールです。
 

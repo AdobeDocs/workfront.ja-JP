@@ -6,10 +6,10 @@ description: アドホックカードをボードにすばやく追加して、�
 author: Lisa
 feature: Agile
 exl-id: 9bc1f92a-85b0-44fd-b5de-09a69af6def5
-source-git-commit: 61eb51d458caebbb144112ad697f98f019f54918
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 97%
+source-wordcount: '892'
+ht-degree: 95%
 
 ---
 
@@ -23,32 +23,39 @@ ht-degree: 97%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> 
+   <p>新規：[!UICONTROL Contributor]以上</p> 
+   <p>または</p>
+   <p>現在：[!UICONTROL Request] 以上</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセスを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 詳細を含んだアドホックカードの追加
 
 アドホックカードは [!DNL Adobe Workfront] の作業アイテムには接続されていません。
 
-1. [!DNL Adobe] Workfront の右上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、「**[!UICONTROL ボード]**」をクリックします。
+{{step1-to-boards}}
+
 1. ボードにアクセスします。詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. **[!UICONTROL カードを追加]／[!UICONTROL 新規カード]**&#x200B;をクリックします。
 

@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: 既存のタスクまたはイシューを Adobe Workfront ボードまたはワークストリームに追加
+title: Workfront ボードへの既存のタスクまたは問題の追加
 description: リスト表示またはレポート表示からAdobe Workfront のボードに任意のタスクまたはイシューを追加できます。
 author: Lisa
 feature: Agile
 exl-id: 5e6fd681-8068-4091-9f42-0364b17e0465
-source-git-commit: 4e5bff5ad62dce8766072e04e3a2b89371a90f03
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 100%
+source-wordcount: '600'
+ht-degree: 93%
 
 ---
 
-# 既存のタスクまたはイシューを [!DNL Adobe Workfront] ボードまたはワークストリームに追加
+# [!DNL Workfront] ボードへの既存のタスクまたは問題の追加
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
@@ -30,26 +32,33 @@ ht-degree: 100%
  <col>
  <tbody>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td>
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
    <td> <p>任意</p> </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td>
-   <td> <p>[!UICONTROL Work] 以上</p> </td>
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td>
+   <td>
+   <p>新規：[!UICONTROL Standard]</p> 
+   <p>または</p>
+   <p>現在：[!UICONTROL Work] 以上</p>
+   </td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>オブジェクト権限</strong></td>
-   <td> <p>タスクまたはイシューに対する[!UICONTROL View]以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td>
+   <td role="rowheader">オブジェクト権限</td>
+   <td>タスクまたはイシューに対する[!UICONTROL View]以上の権限 </td>
   </tr>
  </tbody>
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## リストのボードまたはワークストリームに既存のタスクまたはイシューを追加
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
-1. **[!UICONTROL プロジェクト]**、**[!UICONTROL レポート]**&#x200B;または&#x200B;**[!UICONTROL ダッシュボード]**&#x200B;のいずれかを選択します。
+{{step1-click-main-menu}}
+
+1. **[!UICONTROL プロジェクト]**、**[!UICONTROL レポート]**、**[!UICONTROL ダッシュボード]** のいずれかを選択します。
 1. ボードまたはワークストリームに追加するタスクまたはイシューが含まれるプロジェクト、レポート、またはダッシュボードに移動します。
 1. 1 つ以上のタスクまたはイシューを選択します。
 
@@ -70,7 +79,8 @@ ht-degree: 100%
 
 ## オブジェクトの詳細からボードまたはワークストリームに既存のタスクまたはイシューを追加
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-click-main-menu}}
+
 1. [!UICONTROL **プロジェクト**]&#x200B;をクリックし、プロジェクトの名前をクリックして開きます。
 1. 左パネルの「[!UICONTROL **タスク**]」または「[!UICONTROL **イシュー**]」をクリックします。
 1. ボードまたはワークストリームに追加するタスク、サブタスクまたはイシューをクリックします。

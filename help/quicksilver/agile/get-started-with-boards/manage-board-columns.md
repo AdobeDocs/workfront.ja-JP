@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: ボードの列の管理
+title: ボード列の管理
 description: 新しいボードには、デフォルトで 3 つの列が含まれています。さらに列を追加したり、列の順序を変更したり、列の名前を変更したり、不要な列を削除したりできます。 列ポリシーを定義することもできます。
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 78%
+source-wordcount: '1160'
+ht-degree: 77%
 
 ---
 
@@ -24,6 +24,8 @@ ht-degree: 78%
 列でのカードの並べ替えについて詳しくは、[ボード内でのフィルターと検索](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -47,6 +49,8 @@ ht-degree: 78%
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ボードに列を追加
 

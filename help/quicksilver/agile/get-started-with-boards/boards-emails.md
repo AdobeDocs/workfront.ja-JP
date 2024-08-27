@@ -2,15 +2,15 @@
 filename: boards-emails
 content-type: reference
 navigation-topic: boards
-title: ボードのメール通知と環境設定
+title: ボードのメール通知および環境設定
 description: Adobe Workfront ボードは、ボードに追加されたときや、カードが割り当てられたときに、メールを送信します。
 author: Lisa
 feature: Agile
 exl-id: 7ec9f9cc-274c-4253-8441-d7ffe9afd78d
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '220'
+ht-degree: 92%
 
 ---
 
@@ -22,26 +22,32 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> 
+   <p>新規：[!UICONTROL Contributor]以上</p> 
+   <p>または</p>
+   <p>現在：[!UICONTROL Request] 以上</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセスを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ボードメールの環境設定を指定する
 

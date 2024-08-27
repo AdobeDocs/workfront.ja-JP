@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: ボードへのメンバーの追加または削除
+title: ボードからのメンバーの追加または削除
 description: ユーザーがボードを表示したりカードに割り当てられたりする前に、ボードにメンバーとして追加する必要があります。
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 0208beb1f45377b151a526738b6d182880c37774
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 94%
 
 ---
 
@@ -19,30 +19,37 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> 
+   <p>新規：[!UICONTROL Contributor]以上</p> 
+   <p>または</p>
+   <p>現在：[!UICONTROL Request] 以上</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ボードへのメンバーの追加
 
-1. [!DNL Adobe] Workfront 右上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ボード]**&#x200B;をクリックします。
+{{step1-to-boards}}
+
 1. 新しいボードを作成するか、既存のボードを編集します。詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. **[!UICONTROL メンバーを追加]**&#x200B;アイコン ![メンバーを追加](assets/boards-addmember-spectrum-25x25.png) をクリックします。
 1. 「**[!UICONTROL メンバーを追加]**」ボックスに名前を入力し、リストに表示されたら選択します。
@@ -58,7 +65,8 @@ ht-degree: 100%
 
 ## ボードからのメンバーの削除
 
-1. [!DNL Adobe] Workfront 右上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ボード]**&#x200B;をクリックします。
+{{step1-to-boards}}
+
 1. 新しいボードを作成するか、既存のボードを編集します。詳しくは、[ボードの作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. **[!UICONTROL メンバーを追加]**&#x200B;アイコン ![メンバーを追加](assets/boards-addmember-spectrum-25x25.png) をクリックします。
 1. 「**[!UICONTROL メンバーを追加]**」ボックスで、個人名またはチーム名の横にある「X」をクリックして、ボードから削除します。

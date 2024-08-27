@@ -1,15 +1,15 @@
 ---
 content-type: reference
 navigation-topic: boards
-title: アジャイルチームのかんばんカードの Workfront ボードへの移行
+title: Agile Team のかんばんカードのWorkfront ボードへの移行
 description: 作業アイテムをアジャイルチームかんばんボードから新規または既存の Workfront ボードに移行できます。
 author: Lisa
 feature: Agile
 exl-id: 72e3902b-af9a-497c-817f-63630c4fb73b
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '380'
+ht-degree: 95%
 
 ---
 
@@ -23,26 +23,32 @@ Workfront ボードでのカードの配置は、列ポリシーに基づいて�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td>
-   <td> <p>任意</p> </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td>
-   <td> <p>[!UICONTROL Request] 以降</p> </td>
-  </tr>
- </tbody>
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> 
+   <p>新規：[!UICONTROL Contributor]以上</p> 
+   <p>または</p>
+   <p>現在：[!UICONTROL Request] 以上</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセスを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## かんばんカードを新しいボードに移行する
 

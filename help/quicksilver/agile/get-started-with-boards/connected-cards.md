@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: ボードでの接続済みカードの使用
+title: ボードでのコネクテッドカードの使用
 description: Workfront の既存のタスクやイシューに接続するカードをボードに追加できます。
 author: Lisa
 feature: Agile
 exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
-source-git-commit: 5c093edc97afdbd1d88824376ce4b019f71e099f
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1461'
 ht-degree: 94%
 
 ---
@@ -72,7 +72,8 @@ ht-degree: 94%
 
 ## 接続されているカードを追加する
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)をクリックして、「**[!UICONTROL ボード]**」をクリックします。
+{{step1-to-boards}}
+
 1. ボードにアクセスします。詳しくは、[ボードを作成または編集](../../agile/get-started-with-boards/create-edit-board.md)を参照してください。
 1. **[!UICONTROL カードを追加]／[!UICONTROL 接続されているカード]**&#x200B;をクリックします。
 1. プロジェクトを選択し、ボードにカードとして追加するタスクまたはイシューを選択します。

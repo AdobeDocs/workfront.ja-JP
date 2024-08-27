@@ -1,14 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: ボードのダッシュボードの使用
+title: ボードダッシュボードの使用
 description: '[!UICONTROL ボード]ダッシュボードには、自分が作成したボードや追加したボードなど、アクセス権のあるボードのリストが表示されます。'
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '828'
 ht-degree: 98%
 
 ---
@@ -44,11 +44,11 @@ ht-degree: 98%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td> 
    <p>新規：[!UICONTROL Contributor]以上</p> 
    <p>または</p>
