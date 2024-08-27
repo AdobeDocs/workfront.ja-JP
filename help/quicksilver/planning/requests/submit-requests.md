@@ -1,19 +1,18 @@
 ---
 title: Adobe Workfront計画リクエストの発行
 description: Adobe Workfront Planning の「レコードタイプ」ページでユーザーがリクエストフォームへのリンクを共有すると、リクエストを追加して、リクエストフォームに関連付けられた「レコードタイプ」のレコードを作成できます。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 18183b53c783366f467e7330159923372b51deb6
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '659'
 ht-degree: 10%
 
 ---
 
 # レコードを作成するためのAdobe Workfront Planning 要求の発行
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -22,6 +21,10 @@ ht-degree: 10%
 Adobe Workfront Planning の「レコードタイプ」ページでユーザーがリクエストフォームへのリンクを共有すると、リクエストを追加して、リクエストフォームに関連付けられた「レコードタイプ」のレコードを作成できます。
 
 Workfront ユーザーと外部ユーザーは、Planning レコードタイプに対してリクエストを送信し、レコードを作成できます。<!--double check on the external users-->
+
+この記事では、新しいレコードをレコードタイプに追加するリクエストを送信する方法について説明します。
+
+ワークスペースマネージャーがリクエストフォームを作成し、レコードタイプに関連付ける方法について詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## アクセス要件
 
@@ -57,7 +60,6 @@ Workfront Planning にアクセスするには、次のものが必要です：
    <td>
 <p>任意 </p>  
 <p>各Workfront Planning プランに含まれる内容の詳細については、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。 </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
@@ -110,7 +112,7 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 * リクエストフォームは、アクセスできる方法でリンクと共有する必要があります。 次のシナリオが存在します。
 
    * Workfront アカウントをお持ちの場合、リンクは社内ユーザーとのみ共有され、自身も Workspace にアクセスできます。 Workfront外のユーザーは、社内で共有されているリンクにアクセスできません。
-   * Workfront アカウントがない場合、リンクは外部のユーザーと共有されています。 Workfrontのユーザーは、外部のユーザーと共有されているリンクを使用することもできます。
+   * Workfront アカウントがない場合、リンクは外部のユーザーと共有されています。 また、Workfront ユーザーは、外部のユーザーと共有されているリンクにアクセスすることもできます。
 
 * フォームへのリンクは期限切れにできません。
 

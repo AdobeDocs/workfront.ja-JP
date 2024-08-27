@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 26%
+source-wordcount: '431'
+ht-degree: 22%
 
 ---
 
@@ -18,7 +18,11 @@ ht-degree: 26%
 
 {{planning-important-intro}}
 
-レコードページのコメントに他のユーザーが追加すると、アプリ内と、コメントに関するメール通知が届きます。
+Workfront Planning で次のアクションが発生した場合、アプリ内通知またはメール通知を受け取ることがあります。
+
+* レコード ページのコメントに追加された人がいます
+* ビューまたはワークスペースにアクセスする権限を要求するユーザーがいます
+* 他のユーザーが、ビューまたはワークスペース <!--test this - could not test before GA--> ージへのアクセス権限を付与または拒否します
 
 ## アクセス要件
 
@@ -90,6 +94,12 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
 +++
 
+
+Workfrontの計画通知の詳細については、次の記事も参照してください。
+
+* レコードのコメントの詳細については、「[ レコードのコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md)」を参照してください。
+* Adobe Workfront Planning からのアプリ内通知について詳しくは、[Workfront Planning のアプリ内通知の管理 ](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md) を参照してください。
+* Adobe Workfront Planning からのメール通知については、[Workfront Planning のメール通知の管理 ](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md) を参照してください。
 <!--
 
 OLD: 
@@ -152,16 +162,18 @@ OLD:
 
 1. Adobe Experience Cloudの資格情報を使用してWorkfrontにログインします。
 1. 画面の右上に ![](assets/account-menu-icon-on-experience-cloud.png) る **アカウントメニュー** アイコンをクリックしてから、**環境設定** をクリックします。
-1. 「**通知**」セクションで、**Workfront** をクリックし、次の記事の手順に従ってWorkfront Planning の通知設定を管理します。
-   [ アカウントの環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences)。
+1. 「**通知**」セクションで、「**Workfront**」をクリックします。
+1. 受信する通知を選択します。
+または
+受信停止する通知の選択を解除します。
 
-Workfrontの計画通知の詳細については、次の記事も参照してください。
+   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+1. Workfrontでは、次の通知を利用できます。
 
-* レコードのコメントの詳細については、「[ レコードのコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md)」を参照してください。
-* Adobe Workfront Planning からのアプリ内通知について詳しくは、[Workfront Planning のアプリ内通知の管理 ](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md) を参照してください。
-* Adobe Workfront Planning からのメール通知については、[Workfront Planning のメール通知の管理 ](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md) を参照してください。
+   * **メンション**:Workfront Planning で誰かがコメントであなたをタグ付けすると、通知が届きます
+   * **リクエスト**:Workfront Planning オブジェクトへのアクセス権をリクエストしたときに通知が届きます
 
-
+   通知の管理について詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) を参照してください。
 
 <!--OLD: notifications are not available to non-IMS customers: 
 

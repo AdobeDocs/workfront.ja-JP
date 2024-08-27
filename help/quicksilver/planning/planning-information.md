@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 3fe348250dae1af6cbb74c3704bc396d90ac378a
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 30%
+source-wordcount: '594'
+ht-degree: 28%
 
 ---
 
@@ -83,12 +83,10 @@ ht-degree: 30%
    * レコードの共有
    * Workfront オブジェクトのWorkfront計画セクション
 
-<!--
-* [Adobe Workfront Planning Requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) contains the following information:
+* [Adobe Workfront計画リクエスト：記事インデックス ](/help/quicksilver/planning/requests/requests-article-index.md) には、次の情報が含まれます。
 
-    * How to create a request form for a record type.
-    * How users can submit a request to a record type request form and create records. 
--->
+   * レコードタイプのリクエストフォームを作成する方法。
+   * ユーザーがレコードタイプのリクエストフォームにリクエストを送信し、レコードを作成する方法。
 
 * [Views：記事インデックス ](/help/quicksilver/planning/views/views-information.md) には、次の情報が含まれます。
 

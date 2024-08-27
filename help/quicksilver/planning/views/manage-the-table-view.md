@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '2708'
-ht-degree: 73%
+source-wordcount: '2786'
+ht-degree: 71%
 
 ---
 
@@ -180,6 +180,7 @@ OLD:
    * [フィルター](#add-filters)
    * [グループ化](#add-groupings)
    * [並べ替え](#add-a-sort)
+   * [リアルタイムプレゼンスインジケーターの有効化](#enable-the-real-time-presence-indicator)
 
 
 ### 列（またはフィールド）の追加 {#add-columns}
@@ -523,3 +524,11 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+### リアルタイムプレゼンスインジケーターの有効化
+
+デフォルトでは、すべてのレコードビューの右上隅に表示される、レコード情報を同時に編集している他のユーザーのアバターです。
+
+テーブルビューを表示すると、レコードの表示中に別のユーザーが編集しているフィールドを表示することもできます。
+
+詳しくは、「レコードの表示の管理 [ の「リアルタイムプレゼンスインジケーターの有効化」の節を参照し ](/help/quicksilver/planning/views/manage-record-views.md) ください。

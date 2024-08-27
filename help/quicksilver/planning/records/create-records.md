@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 38%
+source-wordcount: '1450'
+ht-degree: 35%
 
 ---
 
@@ -23,11 +23,11 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 次のいずれかを行うことで、レコードを作成できます。
 
-* テーブル表示のレコードタイプページから追加
+* テーブル表示のレコードタイプページからレコードを追加
 * 外部リストからのレコードのリストのコピー&amp;ペースト
-* 複製
-* 他のレコードから接続する場合と同様に作成します
-  <!--* Create them by submitting a request form-->
+* テーブルビューからレコードを複製
+* 他のレコードから接続する際のレコードの作成
+* リクエストフォームをレコードタイプに送信して作成します
 
 この記事では、レコードの作成方法について説明します。
 
@@ -165,8 +165,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
 +++
 
-
-## レコードタイプ <!--in a record type table (I don't think you can create them elsewhere right now)--> に追加してレコードを作成
+## レコードをレコードタイプ テーブルのレコードタイプに追加してレコードを作成する
 
 レコードタイプのページのテーブルビューでレコードを作成できます。
 
@@ -311,13 +310,12 @@ You can import records from other applications by linking them to existing recor
 または
 名前をクリックして詳細ページを開き、情報を追加します。
 
-<!--
-## Create records by submitting a request form
+## リクエストフォームをレコードタイプに送信してレコードを作成
 
-After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+レコードタイプのリクエストフォームが作成され、リンクが共有されたら、そのレコードタイプのレコードを作成するリクエストを送信できます。
 
-For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
-Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+Workfront ユーザーと組織外のユーザーの両方が、リクエストフォームへのリンクがある場合、Planning レコードタイプにリクエストを送信し、レコードを作成できます。
 
-For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->
+詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。

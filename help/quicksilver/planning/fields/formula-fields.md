@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 63%
+source-wordcount: '590'
+ht-degree: 60%
 
 ---
 
@@ -162,17 +162,16 @@ OLD:
 * 数式フィールドを保存した後でその計算を更新すると、同じタイプのすべてのレコードに対して、計算結果を自動的に更新できます。
 * Workfront Planning インターフェイスに表示される数式で参照するフィールドを追加する必要があります。
 * レコードタイプのテーブル表示またはレコードの詳細ページに表示されるフィールドのみを参照できます。
-<!--* You can format the result of a formula calculation by choosing from the following options:
+* 次のフォーマット・オプションから選択して、式の計算の値のフォーマットを定義できます：
 
-   * Text
-   * Number
-   * Percent
-   * Currency
-   * Tags
-   * Date
+   * テキスト
+   * 数値
+   * パーセント
+   * 通貨
+   * タグ
+   * 日付
 
-   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
-
+  詳しくは、「フィールドの作成 [ の「式」の節を参照してくだ ](/help/quicksilver/planning/fields/create-fields.md) い。
 
 ## サポートされる数式
 

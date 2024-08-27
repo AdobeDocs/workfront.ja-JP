@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '1986'
 ht-degree: 59%
@@ -377,5 +377,5 @@ Workfront Planning を検索するには、次の手順に従います。
 
 * [Adobe Workfront Planning API の基礎 ](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
 
-* Workfront Planning のレポート機能：Workfront Canvas Dashboard を使用して、WorkfrontのレポートでWorkfront Planning 情報を表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
+* **Workfront Planning のレポート機能**: Workfront キャンバス ダッシュボードを使用して、WorkfrontのレポートでWorkfront Planning の情報を表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
 

@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 27%
+source-wordcount: '413'
+ht-degree: 23%
 
 ---
 
@@ -17,15 +17,14 @@ ht-degree: 27%
 
 {{planning-important-intro}}
 
-レコードのコメントでタグが付けられると、そのタグに関するアプリ内通知が届く場合があります。
+次のシナリオが発生した場合は、Workfront Planning からアプリ内通知を受け取ることができます。
 
->[!IMPORTANT]
->
->Workfront Planning から通知を受け取るには、会社がAdobeの Unified Experience の顧客である必要があります。
->
->詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+* 誰かがレコードのコメントであなたをタグ付けします
 
-レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
+  レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
+* 他のユーザーから、ビューまたはワークスペースにアクセスする許可を要求されています
+* ビューまたはワークスペース <!--verify this--> ーバーへのアクセスが許可されたことを確認するメッセージが表示されます
+* ビューまたはワークスペースへのアクセスが他のユーザーによって拒否されました。<!--verify this-->
 
 ## アクセス要件
 
@@ -158,7 +157,7 @@ OLD:
 +++
 -->
 
-## アプリ内通知の管理
+## コメントで誰かがあなたをタグ付けしたとき、アプリ内通知を管理します
 
 1. （条件付き）レコードのコメントで誰かがタグを付けた後、Adobe Experience Cloudのアプリ内 **通知** アイコン ![](assets/experience-cloud-notifications-icon.png) に移動します。
 
@@ -170,3 +169,8 @@ OLD:
 
 1. （任意） **すべて既読としてマーク** をクリックして、すべての通知を既読にしたことを示します。
 1. （任意）「**すべて表示**」をクリックして、Adobe Experience Cloudの **通知** ページに移動します。
+
+
+## ビューまたはワークスペースに対する権限をリクエスト、許可または拒否する際に、アプリ内通知を管理します
+
+ビューまたはワークスペースに対する権限の要求、付与、または拒否の詳細については、[ ビューまたはワークスペースに対する権限の要求 ](/help/quicksilver/planning/access/request-permissions.md) を参照してください。

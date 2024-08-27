@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 80%
+source-wordcount: '668'
+ht-degree: 59%
 
 ---
 
@@ -186,29 +186,27 @@ OLD:
 1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーがそのワークスペースにアクセスするには、アクティブユーザーであり、かつ Workfront にログインする必要があります。
 1. 「**保存**」をクリックします。
 
-<!--
-## Grant permissions to a workspace from a permission request
+## 権限リクエストからのワークスペースに対する権限の付与
 
-Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 
+権限のないワークスペースへのリンクにアクセスするユーザーは、ワークスペースに対する権限をリクエストできます。 ワークスペースに対する管理権限を持つすべてのユーザーは、権限リクエストを受け取り、権限を付与または拒否できます。
 
-1. (Conditional) If you are are the manager of a workspace, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request.png)
-   * An email notification
-      ![](assets/email-notification-for-access-request.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. （条件付き）ワークスペースの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
-   The **Pending access requests** box displays. 
+   * アプリ内通知
+     ![](assets/in-app-notification-for-access-request.png)
+   * メール通知
+     ![](assets/email-notification-for-access-request.png)
+1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
+または
+メール通知で「**すべての通知を表示**」をクリックし、リスト内の通知をクリックします。
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   **保留中のアクセスリクエスト** ボックスが表示されます。
 
-   If you approved the request, the users are added to the sharing box of the workspace. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. 権限を承認または拒否するユーザーを選択し、「**すべて承認**」または「**すべて拒否** をクリックします。
+1. **保留中のアクセスリクエスト** の左側にある左向き矢印をクリックし、「**保存**」をクリックします。
+
+   リクエストを承認すると、ユーザーはワークスペースの共有ボックスに追加されます。 権限をリクエストするユーザーに、リクエストが承認されたことを示すメールが届きます。<!--will they also get an in-app notification??-->
 
 
 ## ワークスペースに対する権限の削除

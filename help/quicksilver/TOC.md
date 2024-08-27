@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: bcabc57ace3c10f471139ebfb23be472758750be
+source-git-commit: d049d3c3f6d48b2c9d778740905d76a40620c8e0
 workflow-type: tm+mt
-source-wordcount: '14317'
+source-wordcount: '14353'
 ht-degree: 93%
 
 ---
@@ -2073,6 +2073,7 @@ ht-degree: 93%
       * [Adobe Workfront Planning 使用時のライセンスタイプの概要](planning/access/license-type-overview.md)
       * [ワークスペースの共有](planning/access/share-workspaces.md)
       * [ビューの共有](planning/access/share-views.md)
+      * [ビューまたはワークスペースに対する権限のリクエスト](planning/access/request-permissions.md)
    * Adobe Workfront計画レコード {#adobe-workfront-planning-records}
       * [レコード：記事インデックス](planning/records/records-information.md)
       * [レコードの作成](planning/records/create-records.md)
@@ -2089,6 +2090,10 @@ ht-degree: 93%
       * [レコードページレイアウトの管理](planning/records/manage-the-record-page.md)
       * [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](planning/records/manage-records-in-planning-section.md)
       * [レコードの詳細のエクスポート](/help/quicksilver/planning/records/export-the-record-page.md)
+   * Adobe Workfront計画リクエスト {#adobe-workfront-planning-requests}
+      * [Adobe Workfront計画リクエスト：記事索引](planning/requests/requests-article-index.md)
+      * [Adobe Workfront Planning でのリクエストフォームの作成と管理](planning/requests/create-request-form.md)
+      * [レコードを作成するためのAdobe Workfront Planning 要求の発行](planning/requests/submit-requests.md)
    * Adobe Workfront計画ビュー {#adobe-workfront-planning-views}
       * [ビュー：記事インデックス](planning/views/views-information.md)
       * [レコードビューの管理](planning/views/manage-record-views.md)

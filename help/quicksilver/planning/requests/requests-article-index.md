@@ -1,10 +1,11 @@
 ---
 title: 「Adobe Workfront計画リクエスト：記事索引」
 description: レコードタイプごとにリクエストフォームを作成し、ユーザーと共有できます。ユーザーはフォームに入力して送信することで、新しいレコードを追加できます。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 7%
@@ -14,8 +15,6 @@ ht-degree: 7%
 # Adobe Workfront計画リクエスト：記事索引
 
 レコードタイプごとにリクエストフォームを作成し、ユーザーと共有できます。ユーザーはフォームに入力して送信することで、新しいレコードを追加できます。
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 この節では、次の記事を扱います。
 

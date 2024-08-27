@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 26%
+source-wordcount: '418'
+ht-degree: 22%
 
 ---
 
@@ -21,19 +21,11 @@ ht-degree: 26%
 次の状況が発生した場合は、Workfront Planning からメール通知を受信できます。
 
 * 誰かがレコードのコメントであなたをタグ付けします
-<!--
-* Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace
-* Someone has denied your access for a view or a workspace. -->
 
-
->[!IMPORTANT]
->
->Workfront Planning から通知を受け取るには、会社がAdobeの Unified Experience の顧客である必要があります。
->
->詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
-
-レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
+  レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
+* 他のユーザーから、ビューまたはワークスペースにアクセスする許可を要求されています
+* ビューまたはワークスペース <!--verify this--> ーバーへのアクセスが許可されたことを確認するメッセージが表示されます
+* ビューまたはワークスペースへのアクセスが他のユーザーによって拒否されました。<!--verify this-->
 
 ## アクセス要件
 
@@ -160,7 +152,7 @@ OLD:
 -->
 
 
-## でのメール通知 <!--when someone tags you in a comment--> 管理
+## コメントで誰かがあなたをタグ付けしたときのメール通知を管理します
 
 1. （条件付き）誰かがレコードのコメントでタグを付けた後、タグとコメントを通知するメール通知に移動します。 メールの送信者はAdobe Experience Cloudです。
 
@@ -173,8 +165,6 @@ OLD:
 1. （条件付き）使用可能な場合は、「**すべての通知を表示**」をクリックします。 <!--check with Lilit - do non-IMS users have this button??-->
 **通知** ページがAdobe Experience Cloudで開きます。 すべてのAdobe Experience Cloud アプリケーションからのすべての通知が表示されます。
 
-<!--
-## Manage email notifications when requesting, granting, or denying permissions to a view or a workspace
+## ビューまたはワークスペースに対する権限をリクエスト、許可または拒否する際のメール通知の管理
 
-For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
--->
+ビューまたはワークスペースに対する権限の要求、付与、または拒否の詳細については、[ ビューまたはワークスペースに対する権限の要求 ](/help/quicksilver/planning/access/request-permissions.md) を参照してください。

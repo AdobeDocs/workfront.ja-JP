@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: c497276579c5d70c29fe961e43356e1ae603262d
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1200'
-ht-degree: 34%
+source-wordcount: '1378'
+ht-degree: 30%
 
 ---
 
@@ -273,29 +273,27 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 
 1. （任意）コピーしたリンクを、メール、チャットメッセージ、ドキュメントまたはWorkfrontのコメントに貼り付けて、他のユーザーと共有します。
 
-<!--
-## Grant permissions to a view from a permission request
+## 権限リクエストからビューに権限を付与する
 
-Users who access a link to a view to which they do not have permissions can request permissions to the view. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
+アクセス権のないビューへのリンクにアクセスするユーザーは、ビューに対する権限をリクエストできます。 ビューに対する管理権限を持つすべてのユーザーは、権限リクエストを受け取り、権限を付与または拒否できます。
 
-1. (Conditional) If you are are the manager of a view, you might receive a request from another user to access the view in the following areas:
-   
-   * An in-app notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
-   * An email notification
-      ![](assets/in-app-notification-for-access-request-for-view.png)
-1. (Conditional) From the notification area in Workfront, click the in-app notification
-   Or
-   From the email notification, click **View all notifications**, then click the notification in the list.
+1. （条件付き）ビューの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
-   The **Pending access requests** box displays. 
+   * アプリ内通知
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+   * メール通知
+     ![](assets/in-app-notification-for-access-request-for-view.png)
+1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
+または
+メール通知で「**すべての通知を表示**」をクリックし、リスト内の通知をクリックします。
 
-      ![](assets/notifications-list-approval-box.png)
-1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
-1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
+   **保留中のアクセスリクエスト** ボックスが表示されます。
 
-   If you approved the request, the users are added to the sharing box of the view. 
--->
+   ![](assets/notifications-list-approval-box.png)
+1. 権限を承認または拒否するユーザーを選択し、「**すべて承認**」または「**すべて拒否** をクリックします。
+1. **保留中のアクセスリクエスト** の左側にある左向き矢印をクリックし、「**保存**」をクリックします。
+
+   要求を承認すると、ユーザーはビューの共有ボックスに追加されます。 権限をリクエストするユーザーに、リクエストが承認されたことを示すメールが届きます。<!--will they also get an in-app notification??-->
 
 ## ビューに対する権限を削除
 

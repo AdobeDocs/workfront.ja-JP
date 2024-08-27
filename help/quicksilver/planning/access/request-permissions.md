@@ -1,11 +1,13 @@
 ---
 title: ビューまたはWorkspaceに対する権限のリクエスト
 description: 以前に共有されたことがないリンクを他のユーザーから送信されたビューまたはワークスペースに対する権限をリクエストできます。
-hidefrontoc: true
-hide: true
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '506'
 ht-degree: 16%
 
 ---
@@ -130,6 +132,6 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    * [ビューの共有](/help/quicksilver/planning/access/share-views.md)
    * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
-1. （条件付き）ビューまたはワークスペースマネージャーからビューまたはワークスペースに対する権限が付与されると、権限が付与または拒否されたことを確認するメール通知が届きます。<!--check this - I was not able to test this-->
+1. （条件付き）ビューまたはワークスペースマネージャーからビューまたはワークスペースに対する権限を付与されると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this-->
 
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '3451'
-ht-degree: 81%
+source-wordcount: '3609'
+ht-degree: 77%
 
 ---
 
@@ -449,34 +449,31 @@ OLD:
    >
    >* 現在のレコードタイプから最大 4 レベル離れたフィールドを参照できます。 例えば、アクティビティ レコードタイプの数式フィールドを作成し、アクティビティが、Workfront プロジェクトに接続されたキャンペーンレコードタイプに接続された製品レコードタイプに接続されている場合、アクティビティ レコードタイプに対して作成している数式でプロジェクトの予算を参照できます。
 
-<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+1. 「**フォーマット**」フィールドで、式タイプ・フィールドに表示される結果のフォーマットを次の中から選択します。
 
-    * **Text**: The result of the formula field displays as plain text. 
-    * **Number**: The result of the formula field displays as a number. 
-    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
-    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
-    * **Tags**: The result of the formula field displays as a tag with the object's name. 
-    
-        >[!TIP]
-        >
-        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+   * **テキスト**：式フィールドの結果は、プレーンテキストで表示されます。
+   * **数値**：式フィールドの結果は数値として表示されます。
+   * **割合**：式フィールドの結果は、数値の後にパーセント記号を付けて表示されます。
+   * **通貨**：式フィールドの結果は、通貨記号の前後に数字で表示されます。
+   * **タグ**：式フィールドの結果は、オブジェクトの名前を持つタグとして表示されます。
 
-    * **Date**: The result of the formula field displays as a date. 
+     >[!TIP]
+     >
+     >配列を表示するフィールドには、タグを使用することをお勧めします。 この場合、各配列メンバーは個別のタグとして表示されます。
 
+     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
-        A preview of what the result will look like displays under the **Format** field. 
+   * **日付**：式フィールドの結果は日付として表示されます。
 
-        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     結果がどのようなものになるかのプレビューが「**形式**」フィールドの下に表示されます。
 
-        >[!WARNING]
-        >
-        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+     >[!WARNING]
+     >
+     >式の結果が選択した形式と一致しない場合、フィールドにはエラーメッセージが表示されます。
 
--->
 1. 「**作成**」をクリックします。
 
    新しい式フィールドが列としてレコードタイプに追加され、その値をレコードに関連付けることができます。
-
 
 ### ユーザー
 

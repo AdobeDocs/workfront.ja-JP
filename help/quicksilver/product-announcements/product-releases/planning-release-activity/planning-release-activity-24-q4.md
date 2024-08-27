@@ -4,11 +4,12 @@ title: 「24.10 リリースのAdobe Workfront計画リリースアクティビ�
 description: これは、2024 年第 4 四半期のAdobe Workfront Planning 製品のリリースアクティビティです。
 author: Alina
 feature: Product Announcements
+role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 8%
+source-wordcount: '291'
+ht-degree: 19%
 
 ---
 
@@ -40,6 +41,16 @@ ht-degree: 8%
 >
 >プレビューおよび実稼動リリース：2024 年 8 月 28 日（PT）
 
-Workfront Planning は、Workfrontライセンスに加えて、Workfront Planning ライセンスを購入したすべてのユーザーが利用できます。 Workfrontの計画について詳しくは、アカウント担当者にお問い合わせください。
+Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファーです。Workfront Planning の目的は、組織の運用上の詳細に関する包括的な可視性を解き放ち、作業管理ライフサイクルの各段階で重要なビジネス上の質問に答えることです。
+
+Adobe Workfront Planning の主な機能の一部を次に示します。
+
+* すべてのステージにわたる、作業プロセスに参加するすべての関係者の計画作業の問題を解決します。
+
+* 組織が使用するオブジェクトタイプ（またはレコードタイプ）の決定から、これらのオブジェクトの接続方法の設定に至るまで、ワークフローを完全にカスタマイズします。
+
+* 他のシステムのオブジェクトタイプに接続し、すべてのプロセスで一貫したフレームワークを作成します。
 
 Workfront計画の詳細については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+
+このローンチに先立ってWorkfront Planning にリリースされた機能について詳しくは、[2024 年のAdobe Workfront Planning リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) も参照してください。

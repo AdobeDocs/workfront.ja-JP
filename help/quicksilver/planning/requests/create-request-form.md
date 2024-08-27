@@ -1,13 +1,14 @@
 ---
 title: Adobe Workfront Planning でのリクエストフォームの作成と管理
 description: Adobe Workfront計画エリアでレコードタイプを選択した後、リクエストフォームを作成し、そのレコードタイプに関連付けることができます。 その後、リンクを他の社内ユーザーや外部ユーザーと共有できます。 フォームへのリンクを持つユーザーは、フォームにフィールド値を入力でき、フォームを送信すると、フォームに関連付けられたレコードタイプに新しいレコードを追加できます。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 15%
+source-wordcount: '1138'
+ht-degree: 14%
 
 ---
 
@@ -17,9 +18,13 @@ ht-degree: 15%
 
 {{planning-important-intro}}
 
-Adobe Workfront計画エリアでレコードタイプを選択した後、リクエストフォームを作成し、そのレコードタイプに関連付けることができます。 その後、リンクを他の社内ユーザーや外部ユーザーと共有できます。<!--double-check on the external part of it-->
+リクエストフォームを作成し、Adobe Workfront Planning でレコードタイプに関連付けることができます。 その後、リンクを他の社内ユーザーや外部ユーザーと共有できます。
 
-フォームへのリンクを持つユーザーは、フォームにフィールド値を入力でき、フォームを送信すると、フォームに関連付けられたレコードタイプに新しいレコードを追加できます。
+フォームへのリンクを持つユーザーは、そのフォームにフィールド値を更新し、フォームを送信して新しいレコードを追加できます。
+
+この記事では、ワークスペースマネージャーがレコードタイプに関連付けられたリクエストフォームを作成する方法について説明します。
+
+レコードを作成するレコード・タイプにリクエストを発行する方法は、「レコードを作成するためのAdobe Workfront Planning リクエストの発行 [ を参照してください ](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## アクセス要件
 
@@ -170,9 +175,11 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    >[!IMPORTANT]
    >
-   >リンクを持つユーザーを選択すると、Workfront アカウントを持たない社外のユーザーでも、誰でもフォームにアクセスして新しいレコードを送信できます。
+   >**リンクを持つすべてのユーザー** を選択すると、組織外のユーザーであっても、Workfront アカウントを持たないユーザーであっても、誰でもフォームにアクセスして、新しいレコードを送信できます。
 
-1. （条件付き）前の手順で「**リンクを持つすべてのユーザー**」を選択した場合は、使用可能なカレンダーから **有効期限をリンク** を選択します。 リンクの有効期限が切れるとエラーが表示されるので、フォームに再度アクセスするにはリンクの日付を更新する必要があります。 <!--add info here about how long the expiration date should be; logged bug-->
+1. （条件付き）前の手順で「**リンクを持つすべてのユーザー**」を選択した場合は、使用可能なカレンダーから **有効期限をリンク** を選択します。 リンクの有効期限が切れるとエラーが表示されるので、フォームに再度アクセスするにはリンクの日付を更新する必要があります。
+
+   現在の日付から 180 日以内の将来の日付を選択できます。
 
 1. **リンクを保存してコピー** をクリックして、フォームの共有の詳細を保存します。
 
@@ -191,6 +198,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
    >[!TIP]
    >
    >その場合には、リンクが公開されている表示があります。
+   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
 
 
 

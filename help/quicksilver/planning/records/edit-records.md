@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
 workflow-type: tm+mt
-source-wordcount: '1833'
-ht-degree: 57%
+source-wordcount: '1868'
+ht-degree: 56%
 
 ---
 
@@ -187,6 +187,10 @@ Workfront Planning にアクセスするには、次のものが必要です：
 * [「計画」セクションのWorkfrontオブジェクトから](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### レコードタイプのテーブルビューでレコードをインラインで編集
+
+テーブルビューからレコードを編集すると、レコードの表示時に他のユーザーによって編集されているフィールドが示されます。
+
+詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
 {{step1-to-planning}}
 
