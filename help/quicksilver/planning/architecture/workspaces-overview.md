@@ -1,17 +1,16 @@
 ---
 title: ワークスペースの概要
 description: ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。組織単位のワークフローに合わせて、Adobe Workfront Planning のワークスペースを完全にカスタマイズできます。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 25%
 
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # ワークスペースの概要
 
@@ -19,7 +18,6 @@ ht-degree: 25%
 
 ワークスペースは、組織単位で使用されるレコードタイプのコレクションであり、単位の作業ライフサイクルとプロセスを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
-<!--replace shot below with new tab name for Workspaces I'm on-->
 
 ![](assets/workspaces-landing-page-admin-account.png)
 

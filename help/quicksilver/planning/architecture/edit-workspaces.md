@@ -1,18 +1,17 @@
 ---
 title: ワークスペースを編集
 description: 名前の変更など、既存のワークスペースの情報を編集できます。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 46%
+source-wordcount: '710'
+ht-degree: 43%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # ワークスペースの編集
 
@@ -30,6 +29,73 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
+Workfront Planning にアクセスするには、次のものが必要です：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 製品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> 
+<p>次のいずれかのWorkfront プラン：</p> 
+<ul><li>選択</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td> 
+<p>任意 </p> 
+<p>各Workfront Planning プランに含まれる内容の詳細については、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td><p> 標準</p>
+   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>  <p>ワークスペースに対する管理権限 </p>   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--OLD
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -39,53 +105,53 @@ Adobe Workfront Planning では、ワークスペースは、チームが作業�
     <tr>
 <tr>
 <td>
-   <p> 製品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront 契約</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任意</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新規：標準</p>
-   <p>現在：プラン</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>アクセスレベルの設定</p></td>
-   <td> <p>Workfront Planning に対するアクセスレベルのコントロールはありません</p>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Workfront Planning</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースに対する管理権限 </p>  
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to the workspace </p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Planning エリアをレイアウトテンプレートに追加する必要があります。詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>You must add the Planning area to your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
-</tbody>
+ </tbody>
 </table>
 
-アクセス要件については、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
+-->
 
 ## ワークスペースの編集
 

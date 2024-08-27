@@ -1,11 +1,12 @@
 ---
 title: レコードの編集
 description: レコードの情報は、Adobe Workfront Planning で編集できます。レコードの作成と編集を開始する前に、レコードタイプを作成する必要があります。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1833'
 ht-degree: 57%
@@ -29,8 +30,6 @@ ht-degree: 57%
 &lt;!-- ここでは、詳細ビューのフィールドがテーブルビューのフィールドと同じであることに言及しています。この記事は、この情報を参照するためのレコードを管理ビューからリンクされています-->
 
 ## アクセス要件
-
-<!--Updated for GA-->
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 

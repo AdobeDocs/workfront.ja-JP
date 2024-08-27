@@ -1,11 +1,12 @@
 ---
-title: レコードの作成
+title: レコードを作成
 description: Adobe Workfront Planning を使用する場合、レコードはレコードタイプのインスタンスです。 Workfront Planning で各レコード・タイプに一意のレコードを作成するには、レコードを手動でテーブル・ビューに追加するか、リストからインポートするか、複製するか、または他のレコードに接続する際に作成します。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1336'
 ht-degree: 38%
@@ -36,8 +37,6 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 * [タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## アクセス要件
-
-<!--Updated for GA-->
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 

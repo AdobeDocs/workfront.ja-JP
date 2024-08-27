@@ -1,30 +1,19 @@
 ---
 title: タイムラインビューの管理
 description: Adobe Workfront計画レコードタイプページのタイムラインビューでレコードにアクセスして編集します。 フィルター、グループ化、設定を使用してタイムラインをカスタマイズします。 分類機能を使用して、接続されたレコードを表示します。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '2636'
-ht-degree: 61%
+source-wordcount: '2621'
+ht-degree: 60%
 
 ---
 
 # タイムラインビューの管理
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -34,11 +23,9 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
 ## アクセス要件
 
-<!--Updated for GA-->
++++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
+Workfront Planning にアクセスするには、次のものが必要です：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +66,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <ul><li><p>すべて（Workfront計画情報を表示する場合）</p></li>
-   <li><p>標準、ワークスペースを作成するには</p></li></ul>
+   <td><p> 標準 </p>
    <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
   </td> 
   </tr> 
@@ -92,7 +78,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
-   <p>ビュー設定を一時的に変更するためのビューまたはそれ以上のアクセス許可</p> </td> 
+   <p>ビュー設定を一時的に変更するためのビューへのアクセス許可を表示します</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>レイアウトテンプレート</p></td> 
@@ -102,6 +88,8 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 </table>
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 <!--OLD: 
 
@@ -161,7 +149,6 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## タイムラインビューの管理 {#manage-a-timeline-view}
 

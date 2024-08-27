@@ -1,18 +1,18 @@
 ---
-title: レコードページレイアウトの管理
+title: レコードのページレイアウトの管理
 description: Adobe Workfront Planning でレコードのプレビューとページのレイアウトを編集できます。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 10%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # レコードページレイアウトの管理
 
@@ -35,8 +35,6 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
 
 ## アクセス要件
-
-<!--Updated for GA-->
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 

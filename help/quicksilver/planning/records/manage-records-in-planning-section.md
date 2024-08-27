@@ -1,23 +1,20 @@
 ---
 title: Adobe Workfront オブジェクトの計画セクションでのレコードの管理
 description: 左側のパネルにあるWorkfront オブジェクトの「計画」セクションに、Adobe Workfront オブジェクトに接続されたWorkfront計画レコードを表示できます。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 10%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
-
-<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
-
 
 # Adobe Workfront オブジェクトの計画セクションでのレコードの管理
 
@@ -34,8 +31,6 @@ ht-degree: 10%
 * Company-->
 
 ## アクセス要件
-
-<!--Updated for GA-->
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 

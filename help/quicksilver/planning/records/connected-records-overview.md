@@ -1,18 +1,17 @@
 ---
 title: 接続されたレコードの概要
 description: レコードタイプ間の接続を作成したら、個々のレコードを相互に接続できます。 この記事では、Adobe Workfront Planning でレコードを接続する際に考慮する必要がある考慮事項について説明します。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 29%
 
 ---
 
-
-<!--update metadata at GA-->
 
 # 接続されたレコードの概要
 

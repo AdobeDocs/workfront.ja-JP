@@ -1,29 +1,17 @@
 ---
-title: レコードタイプの削除
+title: レコードタイプを削除
 description: 関係がなくなったレコードタイプは削除できます。レコードタイプを削除すると、レコード、フィールド、ビューなど、レコードタイプに関連付けられているすべての情報も削除されます。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: f252140e4fec01c7bb8092804532d79954cef618
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 62%
+source-wordcount: '504'
+ht-degree: 55%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav:
----
-title: Delete record types
-description: You can delete record types when they are no longer relevant. 
-author: Alina
-feature: Work Management
-topic: Architecture
-role: User
-hidefromtoc: yes
-hide: yes
----
--->
 
 # レコードタイプの削除
 
@@ -41,6 +29,76 @@ hide: yes
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
+Workfront Planning にアクセスするには、次のものが必要です：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 製品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> 
+<p>次のいずれかのWorkfront プラン：</p> 
+<ul><li>選択</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td> 
+<p>任意 </p> 
+<p>各Workfront Planning プランに含まれる内容の詳細については、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td><p> 標準</p>
+   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースへの権限の管理</a> </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p></td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
+
+<!--
+
+OLD: 
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -50,64 +108,54 @@ hide: yes
     <tr>
 <tr>
 <td>
-   <p> 製品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront 契約</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任意</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新規：標準</p>
-   <p>現在：プラン</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
-
-<tr>
-   <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>  
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 
-<tr>
-   <td role="rowheader"><p>権限</p></td>
-   <td> <p>ワークスペースへの権限の管理</a> </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront 管理者やグループ管理者は、レイアウトテンプレートに Planning エリアを追加する必要があります。詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
-</tbody>
+ </tbody>
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-+++
+-->
 
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## レコードタイプを削除する際の考慮事項
 

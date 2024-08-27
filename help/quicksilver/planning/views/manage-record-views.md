@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1194'
 ht-degree: 75%
 
 ---
@@ -42,9 +42,9 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+Workfront Planning にアクセスするには、次のものが必要です：
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,8 +85,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <ul><li><p>標準、ライト、またはコントリビューター：Workfrontのプランニング情報を表示します</p></li>
-   <li><p>標準、ワークスペースを作成するには</p></li></ul>
+   <td><p> 標準 </p>
    <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
   </td> 
   </tr> 
@@ -98,7 +97,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
-   <p>ビュー設定を一時的に変更するためのビューまたはそれ以上のアクセス許可</p> </td> 
+   <p>ビュー設定を一時的に変更するためのビューへのアクセス許可を表示します</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>レイアウトテンプレート</p></td> 

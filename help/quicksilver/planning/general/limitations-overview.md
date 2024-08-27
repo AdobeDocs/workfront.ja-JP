@@ -5,10 +5,10 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 46%
+source-wordcount: '309'
+ht-degree: 47%
 
 ---
 
@@ -30,8 +30,8 @@ Workfront Planning で作成できるオブジェクトの数の制限を次の�
 | 1 つのワークスペースのセクションの数 | 50 |
 | 1 つのワークスペースに対するレコードタイプの数 | 1,000（すべてのセクションのレコードタイプと、ワークスペーステンプレートを使用して作成されたレコードタイプを含みます） |
 | 1 つのレコードタイプに対するレコード数 | 25,000 |
-| 1 つのワークスペースのレコード数 | 計画プランを使用しているお客様の場合は 25,000<br> 計画プラスを使用しているお客様の場合は 500,000 |
-| Workfront Planning タイプの 1 つのインスタンスの合計レコード数 | Planning Plus プランのお客様の場合は 500,000<br>Planning Plus プランのお客様の場合は 200 万 |
+| 1 つのワークスペースのレコード数 | Planning を使用しているお客様の場合は 25,000<br>Planning Plus を使用しているお客様の場合は 500,000 |
+| Workfront Planning の 1 つのインスタンスの合計レコード数 | Planning Plan を利用するお客様は 500,000 <br> Planning Plus を利用するお客様は 200 万 |
 | 1 つのレコードタイプまたは分類のフィールド数 | 500 |
 | テキストフィールドの文字数 | 1,000 文字 |
 | レコードタイプのテーブルに貼り付けることができるファイルのサイズ | 1 MB |

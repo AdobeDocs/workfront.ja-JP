@@ -1,18 +1,18 @@
 ---
 title: プライマリフィールドの概要
 description: Adobe Workfront Planning のレコード・タイプのテーブル・ビューで、1 行のテキスト、数値または式フィールドをプライマリ・フィールドとして指定できます。 プライマリフィールドは、そのタイプのレコードのタイトルになります。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 9a9a756e2b7e30ce3c0139e5e166b65c7e64bffd
+source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 11%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # プライマリフィールドの概要
 

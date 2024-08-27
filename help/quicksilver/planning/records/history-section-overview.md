@@ -1,11 +1,12 @@
 ---
 title: 履歴セクションの概要
 description: Adobe Workfront Planning のレコードの右パネルで、レコードに対して行われ、システムによって記録された変更を確認できます。
-hidefromtoc: true
-hide: true
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 90%
@@ -16,13 +17,7 @@ ht-degree: 90%
 
 {{planning-important-intro}}
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Workfront Planning records" should be there-->
-
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 レコードの右側のパネルにコメントや返信を追加することで、Adobe Workfront Planning レコードに関する共同作業を行うことができます。また、レコードに加えられた他の変更やシステムにより記録された他の変更を、このエリアに表示することもできます。
 
