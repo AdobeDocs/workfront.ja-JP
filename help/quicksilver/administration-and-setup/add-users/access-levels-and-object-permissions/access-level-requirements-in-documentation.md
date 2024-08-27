@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85e27a1e7979eadf2731be9aaca9279a82587bbf
 workflow-type: tm+mt
-source-wordcount: '924'
-ht-degree: 99%
+source-wordcount: '939'
+ht-degree: 97%
 
 ---
 
@@ -38,7 +38,7 @@ Workfront ドキュメントの操作手順記事には、その手順に必要�
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> Adobe Workfront プランとは、組織が購入した機能のセットを指します。Workfront のほとんどの機能は、いくつかの例外を除き、すべてのプランで使用できます。例外は、主に戦略的計画立案やエンタープライズ管理に関連しています。 
    <ul><li>新規パッケージモデルと既存パッケージモデルのどちらを使用しているかなど、ご自分の組織が使用している Adobe Workfront プランを確認するには、Workfront 管理者にお問い合わせください。</li>
-   <li>Workfront 管理者が組織の Workfront プランを確認する方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">組織のクラスターと Workfront プランの表示</a>を参照してください。</li></ul> </td> 
+   <li>Workfront 管理者が組織の Workfront プランを確認する方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">組織のクラスターと Workfront プランの表示</a>を参照してください。</li><li>新しいWorkfront プランについて詳しくは、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
