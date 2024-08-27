@@ -1,16 +1,18 @@
 ---
-title: 'Adobe Workfront計画の通知：記事インデックス'
+title: 'Adobe Workfront計画通知：記事インデックス'
 description: レコードのコメントで誰かがタグ付けすると、そのタグに関するメールまたはアプリ内通知が届く場合があります。 受け取る通知のタイプは、会社がAdobeの Unified Experience のお客様であるかどうかによって異なります。 以下の記事では、受信するWorkfront Planning 通知のタイプと、環境設定の管理方法について説明します。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
-source-git-commit: 502ab27759749ed428f8adbf486e39165d61fcf0
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 0%
 
 ---
+
 
 # Adobe Workfront Planning の通知：記事索引
 

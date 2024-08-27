@@ -1,32 +1,17 @@
 ---
-title: 「Adobe Workfront計画リリースアクティビティ：記事索引」
-description: Adobe Workfrontプランニング製品のリリースアクティビティについて説明している記事のリストです。
-recommendations: noDisplay, noCatalog
-hidefromtoc: true
-hide: true
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
-workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 13%
-
----
-
-
-
-<!--update metadata:
----
 content-type: release-notes
-title: "Adobe Workfront Planning Release Activity: Article Index"
-description: This is the release activity for the Adobe Workfront Planning product. 
+title: 「Adobe Workfront計画リリースアクティビティ：記事索引」
+description: これは、Adobe Workfront Planning 製品のリリース アクティビティです。
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
----
- -->
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+workflow-type: tm+mt
+source-wordcount: '145'
+ht-degree: 11%
 
-<!--add to TOC and miniTOC-->
+---
+
 
 # Adobe Workfront計画リリースアクティビティ：記事索引
 
@@ -42,6 +27,13 @@ hide: yes
 >Workfront計画の概要については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 >
 
-この記事では、Adobe Workfront Planning 製品のリリースアクティビティノートのリストを示します。
+この記事には、Adobe Workfront Planning 製品に関するリリースアクティビティ記事のリストが含まれています。
 
 * [Adobe Workfront Planning の 2024 年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+
+<!-- remove this after 25.1 and consider removing the pages too-->
+
+2024 年 8 月 28 日（PT）の一般提供リリースより前にリリースされたすべての機能のリストについては、次の記事を参照してください。
+
+* [2024 年のAdobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md)
+* [2023 年のAdobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity-archives-2023.md)

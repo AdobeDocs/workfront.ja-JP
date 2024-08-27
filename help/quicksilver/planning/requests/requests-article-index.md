@@ -4,9 +4,9 @@ description: レコードタイプごとにリクエストフォームを作成�
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: 80d9fc7f8cf28de8dbb8f1c53835940142681906
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '85'
 ht-degree: 7%
 
 ---
@@ -19,5 +19,5 @@ ht-degree: 7%
 
 この節では、次の記事を扱います。
 
-* [Adobe Workfront Planning でのリクエストフォームの作成](/help/quicksilver/planning/requests/create-request-form.md)
+* [Adobe Workfront Planning でのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)
 * [Adobe Workfront計画リクエストの発行](/help/quicksilver/planning/requests/submit-requests.md)

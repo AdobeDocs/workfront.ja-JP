@@ -1,30 +1,19 @@
 ---
 title: フィールドの概要
 description: 組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。フィールドは、レコードタイプの属性です。
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 1ad86cd55459d92650ac7a24c41765e579f8bb94
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '420'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
+
 # フィールドの概要
-
-<!--
-title: Field overview
-description: You can add new fields in Adobe Workfront Planning that reflect your organization's lifecycle. Fields are attributes of record types. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management (***************WE NEED A NEW ONE HERE***********)
-role: User, Admin
-hide: yes
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 

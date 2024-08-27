@@ -1,14 +1,15 @@
 ---
-title: Adobe Workfront Planning の概要
+title: Adobe Workfront計画の概要
 description: Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファーです。完全にカスタマイズ可能なワークスペースを作成して、企業の各組織単位のニーズを満たすワークフローを定義できます。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '1909'
-ht-degree: 73%
+source-wordcount: '1986'
+ht-degree: 59%
 
 ---
 
@@ -16,15 +17,20 @@ ht-degree: 73%
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--do not use the snippet for IMPORTANT as it links to this article-->
 
 >[!IMPORTANT]
 >
 >この記事の情報は、Adobe Workfront からの新しいオファーである Adobe Workfront Planning を説明するものです。
 >
->Worfront Planning の機能にアクセスするには、Workfrontのお客様で、お客様の組織がAdobe WorkfrontプランとWorkfrontプランを購入する必要があります。<!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
->Workfront Planning へのアクセス権の取得について詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+>Workfront Planning にアクセスするには、次のものが必要です。
 >
+>* 新しいWorkfront プランおよびライセンス。 Workfront Planning は、従来のWorkfront プランまたはライセンスでは利用できません。
+>* Workfront Planning の追加ライセンス。
+>* 組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。
+>
+> Workfront Planning へのアクセス要件の完全なリストについては、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+> 
 
 この記事には、Workfrontの計画に関する一般情報が含まれます。
 
@@ -49,74 +55,114 @@ Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファ
 * 組織で使用するオブジェクトタイプ（またはレコードタイプ）を決定することから、それらのオブジェクトを相互にリンクする方法を設定することまで、ワークフローを完全にカスタマイズします。
 * 他のシステムからオブジェクトタイプにリンクし、すべてのプロセスに対して一貫性のあるフレームワークを作成します。
 
-## 現在利用可能な Adobe Workfront Planning の機能
+## 現在使用可能なWorkfront Planning の機能
 
 <!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
 
-Workfront Planning で使用可能な主な機能と、その使用可能なタイムラインを次の表に示します。このリストには、すべての機能が含まれているわけではありません。
-
 <!--at GA: update the link below to the new place for release notes-->
 
-新機能とそのリリース時期について詳しくは、[Adobe Workfront Planning の現在のリリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
+新機能とそのリリース時期について詳しくは、[2024 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
 
-<!-- at GA: remove the table below, and instead make a bullet list with the available features in Planning-->
+現在、Workfront Planning で使用できる機能は次のとおりです。
 
+* ワークスペースの作成
+* レコードタイプの作成
+* レコードのカスタムフィールドの作成\
+  <!--* Import record types and fields using an Excel or CSV file-->
 
-| 機能 | 現在利用可能 | 準備中です | 調査中 |
+* テーブル表示でのレコードの表示
+* タイムラインビューでのレコードの表示
+* カレンダー表示でのレコードの表示
+* テーブルビューでのレコードのフィルタリング、並べ替え、グループ化
+* タイムラインビューでレコードをフィルタリング、グループ化、カラー表示します
+* カレンダー表示でのレコードのフィルタリング
+* テーブルビューとタイムラインビューでレコードを検索
+* 同じワークスペースに属するレコードの接続
+* 異なるワークスペースに属するレコードを接続します
+* Workfront Planning レコードを Workfront のプロジェクト、プログラム、ポートフォリオ、会社、グループに接続
+* Workfront Planning レコードを Adobe Experience Manager のアセットに接続
+* 「詳細」タブでのレコード情報の表示
+* 「接続」タブでのレコード接続の表示
+* レコードのページのレイアウトのカスタマイズ
+* ワークスペースの共有
+* ビューの共有
+* 外部リソースと公開でビューを共有
+* ビューを複製
+* レコードを作成するためのリクエストの送信
+* レコードの詳細を Word にエクスポート\
+  <!--* Export record details to PDF-->
+* レコードへのコメントの追加
+* アプリ内通知を受信
+* メール通知を受信
+* レコードへのサムネールと表紙の追加
+* レコードの変更履歴の表示
+* 段落フィールドのリッチテキスト書式設定
+* Workfrontオブジェクトからの Planning レコードへのアクセス
+* Workfront オブジェクトから Planning レコードを接続する
+* 要求フォームを送信して計画レコードを作成します
+* Workfront計画パブリック API
+* Adobe Workfront Fusion 用 Adobe Workfront Planning モジュール
+* Workfront計画 AI アシスタント
+* Workfrontの計画情報に関するレポート（キャンバスダッシュボード）
+
+<!--OLD: 
+
+|       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-| ワークスペースの作成 | ✓ |                                  |                  |
-| レコードタイプの作成 | ✓ |                                  |                  |
-| レコードのカスタムフィールドの作成 | ✓ |                                  |                  |
-| Excel または CSV ファイルを使用したレコードタイプとフィールドの読み込み |                              | ✓ |                  |
-| レコードのリンク | ✓ |                                  |                  |
-| テーブル内のレコードの表示 | ✓ |                                  |                  |
-| タイムラインでのレコードの表示 | ✓ |                                  |                  |
-| カレンダーでレコードを表示 | ✓ |                                  |                  |
-| レコードのフィルタリング | ✓ |                                  |                  |
-| タイムラインビューでのレコードのグループ化 | ✓ |                                  |                  |
-| テーブルビューでのレコードのグループ化 | ✓ |                                 |                  |
-| テーブルビューでのレコードの並べ替え | ✓ |                                 |                  |
-| タイムラインビューでのレコードの並べ替え |                               | ✓ |                  |
-| テーブルビューでのグループ化の並べ替え |                               | ✓ |                  |
-| タイムラインビューでのグループ化の並べ替え |                               | ✓ |                  |
-| テーブルビューでのレコードの検索 | ✓ |   |
-| タイムラインビューでのレコードの検索 | ✓ |   |
-| Workfront Planning レコードを Workfront のプロジェクト、プログラム、ポートフォリオ、会社、グループに接続 | ✓ |                                 |                  |
-| Workfront Planning レコードを Adobe Experience Manager のアセットに接続 | ✓ |                                  |                 |
-| 異なるワークスペースの Planning レコードを接続します | ✓ |                                  |                 |
-| 詳細情報を含むレコードページ | ✓ |                                  |                  |
-| レコードのページのレイアウトを更新 | ✓ |                                 |                  |
-| ワークスペースの共有 | ✓ | |  |
-| ビューの共有 | ✓ | |  |
-| 外部リソースと公開でビューを共有 | ✓ | |  |
-| ビューを複製 | ✓ | |  |
-| リクエストの送信 |                               | ✓ |                 |
-| レコードの詳細を Word にエクスポート | ✓ |                                  |                 |
-| レコードの詳細をPDFに書き出し |                               |                                  | ✓ |
-| レコードの色とアイコンのカスタマイズ | ✓ |                                  |                 |
-| レコードへのコメントの追加 | ✓ |                                  |                 |
-| アプリ内通知を受信 | ✓ |                                  |                 |
-| メール通知を受信 | ✓ |                                  |                 |
-| レコードにサムネールを追加 | ✓ |                                  |                 |
-| レコードの変更履歴の表示 | ✓ |                                  |                 |
-| 段落フィールドのリッチテキスト書式設定 | ✓ |                                  |                 |
-| Adobe Workfront Fusion 用 Adobe Workfront Planning モジュール | ✓ |                                  |                 |
-| あるフィールドから別のフィールドへの情報のコピーと貼り付け | ✓ |                                  |                 |
-| Workfrontオブジェクトからの Planning レコードへのアクセス | ✓ |                                  |                 |
-| Workfront オブジェクトから Planning レコードを接続する | ✓ |                                  |                 |
-| Workfront計画パブリック API | ✓ |                                  |                 |
-| Workfront計画 AI アシスタント* | ✓ |                                  |                 |
-| Workfrontの計画情報に関するレポート（キャンバスダッシュボード） |                               | ✓ |                 |
+|     Create workspaces                              |   ✓                           |                                  |                  |
+|     Create record types                |   ✓                           |                                  |                  |
+|     Create record custom fields                    |   ✓                           |                                  |                  |
+|     Import record types and fields using an Excel  or CSV file                              |                              |           ✓                       |                  |
+|     Link records                                   |   ✓                           |                                  |                  |
+|     View records in a table                        |   ✓                           |                                  |                  |
+|     View records in a timeline                     |   ✓                           |                                  |                  |
+|     View records in a calendar                     |   ✓                           |                                  |                  |
+|     Filter records                                 |   ✓                           |                                  |                  |
+|     Group records in the timeline view             |   ✓                           |                                  |                  |
+|     Group records in the table view                | ✓                              |                                 |                  |
+|     Sort records in the table view                                 |  ✓                             |                                 |                  |
+|     Sort records in the timeline view                                 |                               |   ✓                              |                  |
+|     Sort groupings in the table view                                 |                               |   ✓                              |                  |
+|     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
+|   Search for records in the table view    | ✓    |   |
+|   Search for records in the timeline view    | ✓    |   |
+|     Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
+|     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 |
+|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 | 
+|     Record page with detailed information                            |   ✓                           |                                  |                  |
+|     Update the layout of the record's page              |    ✓                           |                                 |                  |
+|  Share workspaces | ✓| |  |
+|  Share views |✓ | |  |
+|  Share views publicly with external resources |✓ | |  |
+|  Duplicate views |✓ | |  |
+|     Submit requests                                |                               |          ✓                        |                 |
+|     Export record details to Word                                 |    ✓                           |                                  |                 |
+|     Export record details to PDF                                 |                               |                                  |       ✓          |
+|     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
+|     Add comments to records                                 | ✓                              |                                  |                 |
+|     Receive in-app notifications                                 | ✓                              |                                  |                 |
+|     Receive email notifications                                 | ✓                              |                                  |                 |
+|     Add thumbnails to records                                 | ✓                              |                                  |                 |
+|     View history of changes on a record                                 | ✓                              |                                  |                 |
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
+|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
+|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
+|     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
+|     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
+|     Workfront Planning public API                                 |      ✓                         |                                  |                 |
+|     Workfront Planning AI Assistant*                                 |      ✓                         |                                  |                 |
+|     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
+-->
 
-*AI アシスタントは一時的に削除されており、後日利用できるようになります。
 
-## Workfront インスタンスのユーザーに対して Adobe Workfront Planning を有効にする
+
+## Workfront インスタンスのユーザーに対してWorkfront Planning を有効にします
 
 機能にアクセスするには、組織がAdobe Workfront計画プログラムに登録する必要があります。 条件を満たす場合、アカウント担当者からこのプログラムへの登録に関する情報が提供されています。
 
 他のユーザーが Workfront Planning を使用できるようにアクセス権を付与して有効にする方法について詳しくは、[アクセス権の概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
-## Adobe Workfront Planning の用語
+## Workfront Planning の用語
 
 Workfront Planning は Workfront の一部ですが、独自の概念と用語を備えています。Workfront Planning を組織で設定する前に、新しい概念をよく理解してください。
 
@@ -310,9 +356,26 @@ Workfront Planning を検索するには、次の手順に従います。
       * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
       * [ フィールドを作成 ](/help/quicksilver/planning/fields/create-fields.md).
 
-## Adobe Workfront Planning リリースアクティビティ
+## Workfront計画リリースアクティビティ
+
+<!--update this with the new release activity page - the article index for all Planning releases-->
 
 アドビでは、定期的に Workfront Planning の新機能をリリースしています。
 
-リリースされた機能の最新の一覧については、[Adobe Workfront Planning の現在のリリース アクティビティを参照してください ](/help/quicksilver/planning/general/release-activity.md)
+リリースされている機能の最新の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## Workfront Planning のその他のリソース
+
+* [Adobe Workfront Planning：記事インデックス ](/help/quicksilver/planning/planning-information.md):Workfront Planning に関するドキュメントを含むすべての記事が記載されているインデックスで、目標領域別にグループ化されています。
+* [Adobe Workfront Planning AI Assistant の概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront AI Assistant for Planning を使用すると、レコードを検索したり、コマンドを使用してアシスタントで作業することにより、レコードを作成、更新、および削除したりできます。
+  <!--
+    >[!NOTE]
+    >
+    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
+
+* [Workfront Fusion のAdobe Workfront Planning モジュール ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
+
+* [Adobe Workfront Planning API の基礎 ](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
+
+* Workfront Planning のレポート機能：Workfront Canvas Dashboard を使用して、WorkfrontのレポートでWorkfront Planning 情報を表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
 

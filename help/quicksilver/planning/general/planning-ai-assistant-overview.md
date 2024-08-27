@@ -1,35 +1,22 @@
 ---
 title: Adobe Workfront計画 AI アシスタントの概要
 description: AI アシスタントを使用して、現在のページコンテキストとレコード構造に基づいてレコードを生成、更新または削除できます。 ユーザーのコマンドと AI によるコマンドの実行を連携させることで、AI によって行われた変更が環境に正確に反映されるようになります。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 57e0fe65180cec3fab5cb10b3afbc0ac0a1dbb55
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 7%
+source-wordcount: '588'
+ht-degree: 5%
 
 ---
 
+
 # Adobe Workfront計画 AI アシスタントの概要
 
-<!-- update metadata above at GA-->
-
->[!IMPORTANT]
->
-><span class="preview">Workfront AI アシスタントは一時的に削除されており、後日利用できるようになります。</span>
->この記事では、Adobe Workfront Planning と、Adobe Workfrontの新機能であるWorkfront AI アシスタント（ベータ版）について説明します。
->
->現在、Workfrontの計画はアーリーアクセス段階にあり、Workfront AI アシスタントはベータ段階にあります。
->
->Workfront プランニングおよび AI アシスタント（ベータ版）は、一部のお客様のみご利用いただけます。
->
->これらの機能を使用するには、Workfront の顧客である必要があります。
->
->このステージに参加している場合は、アカウント担当者からお知らせします。
->
->詳しくは、[Adobe Workfront Planning の概要](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
+{{planning-important-intro}}
 
 AI アシスタントを使用して、現在のページコンテキストとレコード構造に基づいてレコードを生成、更新または削除できます。
 
@@ -37,7 +24,8 @@ AI アシスタントを使用して、現在のページコンテキストと�
 
 ## AI アシスタントに関する考慮事項
 
-* AI アシスタントは、デフォルトでメインのWorkfront管理者が使用できます。 詳しくは、[システムの基本情報を設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
+* 会社のユーザーが AI アシスタントを使用できるようにするには、組織で AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントの概要 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) を参照してください。
+* Workfrontで組織の AI アシスタントが有効になると、メインのWorkfront管理者が使用できるようになります。 詳しくは、[システムの基本情報を設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 
 * Workfront管理者は、他のすべてのユーザーに対して AI アシスタントを有効にする必要があります。 詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
@@ -71,7 +59,7 @@ AI アシスタントを使用して、現在のページコンテキストと�
 * レコードの削除
 * 削除したばかりのレコードを復元します
 
-## AI アシスタントへのアクセス
+## 計画エリアで AI アシスタントにアクセスする
 
 1. Workfrontにログインし、**計画** エリアに移動します。
 

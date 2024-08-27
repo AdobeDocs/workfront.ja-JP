@@ -1,20 +1,20 @@
 ---
-title: レコードビューの管理
+title: レコード表示の管理
 description: Adobe Workfront Planning を使用する際に、テーブル、タイムラインまたはカレンダービューでレコードを表示できます。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1212'
 ht-degree: 75%
 
 ---
 
-# レコードビューの管理
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# レコードビューの管理
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
 
 ## アクセス要件
-
-<!--Updated for GA-->
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -87,7 +85,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> <ul><li><p>すべて（Workfront計画情報を表示する場合）</p></li>
+   <td> <ul><li><p>標準、ライト、またはコントリビューター：Workfrontのプランニング情報を表示します</p></li>
    <li><p>標準、ワークスペースを作成するには</p></li></ul>
    <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
   </td> 

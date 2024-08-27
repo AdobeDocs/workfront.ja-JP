@@ -1,30 +1,17 @@
 ---
-title: 「アーキテクチャ：記事インデックス」
+title: 「アーキテクチャ：記事索引」
 description: 次の記事では、Adobe Workfront Planning のアーキテクチャを設定する方法について説明します。この設定の一環として、Workfront Planning で管理するワークフローをマッピングするワークスペース、レコードタイプおよびカスタムフィールドの作成方法について説明します。
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: ded6db27fa3fba9195e2133134f60bcadb0f897a
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
-<!--
----
-title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User, Admin
-hide: yes
----
--->
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # アーキテクチャ：記事インデックス
 

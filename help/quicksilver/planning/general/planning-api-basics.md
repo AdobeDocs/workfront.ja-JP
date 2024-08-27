@@ -1,18 +1,22 @@
 ---
 title: Adobe Workfront計画 API の基本
 description: Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。 このドキュメントは、REST 応答と JSON 応答に精通していることを前提としており、Planning API によるアプローチについて説明しています。
-hidefromtoc: true
-hide: true
+author: Becky
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 83ea00f63f597731f808673d45b6103522995fb1
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
 source-wordcount: '939'
 ht-degree: 13%
 
 ---
 
+
 # Adobe Workfront計画 API の基本
+
+{{planning-important-intro}}
 
 Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。 このドキュメントは、REST 応答と JSON 応答に精通していることを前提としており、Planning API によるアプローチについて説明しています。
 

@@ -1,78 +1,73 @@
 ---
-title: Adobe Workfrontの現在のリリースアクティビティの計画
-description: Adobe Workfront Planning は現在、Workfront の一部のお客様にご利用いただけます。Planning 機能用に最近リリースされた機能について詳しくは、この記事を頻繁に確認してください。
-hidefromtoc: true
-hide: true
+title: 2024 年のAdobe Workfront計画リリースアクティビティ
+description: Adobe Workfront Planning の機能は、現在すべてのお客様が利用できます。 これらの機能にアクセスするには、Workfront ライセンスに加えてWorkfront Planning ライセンスを購入する必要があります。
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 61cad7dc76ba04ea84ff0bd5052182f040f7b4d9
+source-git-commit: 18183b53c783366f467e7330159923372b51deb6
 workflow-type: tm+mt
-source-wordcount: '6694'
-ht-degree: 41%
+source-wordcount: '6729'
+ht-degree: 40%
 
 ---
 
 
-# Adobe Workfrontの現在のリリースアクティビティの計画
+# 2024 年のAdobe Workfront計画リリースアクティビティ
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
-
-<!--
-At GA release, replace the Important below and all the text that follows before the weekly releases with this:
-
-(***********At GA - change the title to: Adobe Workfront Planning early access release activity during 2024*******)
-
-Also update the metadata: 
-
-Adobe Workfront Planning capabilities are currently available to all customers. You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access these capabilities.
-
-
->[!IMPORTANT]
->
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
->
->You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
->
->For more information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
->-->
 
 >[!IMPORTANT]
 >
 >この記事の情報は、Adobe Workfront からの新しいオファーである Adobe Workfront Planning を説明するものです。
 >
->現在、Workfrontプランニングは、限られた数のお客様に提供される早期アクセス段階にあります。
+>Workfront Planning 機能にアクセスして使用するには、Workfront プランに加えて、Workfront Planning プランを購入する必要があります。
 >
->これらの機能を使用するには、Workfront の顧客である必要があります。
+>Workfront Planning へのアクセス要件の完全なリストについては、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+>Workfront計画の概要については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 >
->このステージに参加している場合は、アカウント担当者からお知らせします。
->
->詳しくは、[Adobe Workfront Planning の概要](/help/quicksilver/planning/general/planning-overview.md)を参照してください。
->
->場合によっては、ドキュメントに記載されている機能が実稼動環境にリリースされた後、以下の節で参照するドキュメントが利用可能になることがあります。
 
-<!--Not sure if we should enable this - Richard: 
+<!--[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
+>
+>You must be a Workfront customer to use these capabilities. 
+>
+>Your account representative will inform you if you are part of this stage.
+>
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>
+>In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. -->
 
-## Workfront Planning release timeline
+ここでは、2024 年の早期アクセス期間中にWorkfront Planning にリリースされた機能の一覧を示します。
 
-| Time               | Release                                 |
+リリースされた機能は、リリースされた順序で一覧表示され、最新の機能が最初に表示されます。Workfront計画プログラムに参加しているお客様は、実稼動環境のすべての機能にアクセスできます。
+
+また、Workfront Planning でリリースされたその他の機能については、次の記事も参照してください。
+
+* [2023 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity-archives-2023.md) では、2023 年のベータ版リリース中にリリースされた機能を紹介します。
+* [Adobe Workfront Planning リリース アクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) には、2024 年 8 月 28 日（PT）に一般公開された後にWorkfront Planning に現在リリースされた機能が一覧表示されます。
+
+## Workfront Planning のリリース タイムライン
+
+次の表は、2023 年のベータ版の提供から始まる、Workfront Planning のリリースのタイムラインを示しています。
+
+| 時間 | リリース |
 |--------------------|-----------------------------------------|
-| August - December 2023               | Workfront Planning beta release         |
-| January - August 2024 | Workfront Planning early release        |
-| August 28, 2024    | Workfront Planning general availability |-->
+| 2023 年 8 月～12 月 | Workfront Planning ベータ版リリース* |
+| 2024 年 1 月～8 月 | Workfront早期リリースの計画* |
+| 2024年8月28日（PT） | Workfront Planning の一般公開 |
 
-次の記事では、Workfront Planning のリリース中にリリースされた機能について説明します。
+*ベータ版および早期リリース版のフェーズは、一部のお客様のみご利用いただけます。
 
-* [2023 年のAdobe Workfront計画リリースアクティビティアーカイブ ](/help/quicksilver/planning/general/release-activity-archives-2023.md) には、2023 年のベータ版リリース中にリリースされた機能の一覧が記載されています。
-* ここでは、2024 年の早期アクセス期間中にWorkfront Planning にリリースされた機能の一覧を示します。
-
-  リリースされた機能は、リリースされた順序で一覧表示され、最新の機能が最初に表示されます。Workfront計画プログラムに参加しているお客様は、実稼動環境のすべての機能にアクセスできます。
-
-<!--* See the current release overview documentation for features that were released after the general availability release on August 28, 2024. 
--->
-
-Workfront Planning は、2024 年 1 月以降、プレビュー環境とサンドボックス環境から一時的に削除されています。 この記事で説明されている機能はすべて、現在、実稼動環境で使用できます。
+<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  -->
 
 <!--
+
+## Week of August 26, 2024
 
 ### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
@@ -98,6 +93,38 @@ As a workspace manager, you can now define the format for the values displayed i
 * Tags
 
 For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+### AI Assistant has been re-enabled
+
+Production and Preview: August 28, 2024
+
+The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+
+For more information about the AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
+### New Settings menu in the Calendar view
+
+Preview and Production: August 28, 2024 
+
+There is a new Settings option with which you can personalize the look and feel of the record bars in the Calendar view. You can do the following: 
+
+* Update the date and time of the records  
+
+* Update the bar style 
+
+* Change the color of the record bars or their groupings to match one of the following:  
+
+    * The color of the record type 
+
+    * The color of a field that you select 
+
+    * The color of the grouping 
+
+    * No color (the default) 
+
+ When matching colors to a certain field, you can select only fields with color-coded options. 
+
+ For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
 
 -->
 
@@ -185,7 +212,7 @@ For information, see the "Formula" section of the article [Create fields](/help/
 
 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
-## レコードの詳細を Word にエクスポート
+### レコードの詳細を Word にエクスポート
 
 実稼動：2024 年 8 月 22 日（PT）
 

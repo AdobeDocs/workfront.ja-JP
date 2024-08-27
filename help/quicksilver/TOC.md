@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 716db8e2d6411495d1809dd320c9c3cca86e2659
+source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
 workflow-type: tm+mt
-source-wordcount: '14299'
+source-wordcount: '14318'
 ht-degree: 93%
 
 ---
@@ -250,6 +250,9 @@ ht-degree: 93%
          * [Workfront Fusion リリースアクティビティ：2020年11月16日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
          * [Workfront Fusion リリースアクティビティ：2020年11月30日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
          * [Workfront Fusion リリースアクティビティ：2020年9月21日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+      * Adobe Workfront計画リリースアクティビティ {#planning-release-activity}
+         * [Adobe Workfront Planning リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront Planning の 2024 年第 4 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront シナリオプランナーのリリースアクティビティ {#scenario-planner-release}
          * [Adobe Workfront シナリオプランナーのリリースアクティビティ](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
          * [21.3 リリースに伴う Adobe Workfront シナリオプランナー](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -2038,8 +2041,8 @@ ht-degree: 93%
       * [Adobe Workfront Planning の概要](planning/general/planning-overview.md)
       * [Adobe Workfront計画 API の基本](planning/general/planning-api-basics.md)
       * [Adobe Workfront計画 AI アシスタントの概要](planning/general/planning-ai-assistant-overview.md)
-      * [Adobe Workfrontの現在のリリースアクティビティの計画](planning/general/release-activity.md)
-      * [2023 年のAdobe Workfront計画リリースアクティビティアーカイブ](planning/general/release-activity-archives-2023.md)
+      * [2024 年のAdobe Workfront計画リリースアクティビティ](planning/general/release-activity.md)
+      * [2023 年のAdobe Workfront計画リリースアクティビティ](planning/general/release-activity-archives-2023.md)
       * [Adobe Workfront Planning オブジェクトの制限事項の概要](planning/general/limitations-overview.md)
    * Adobe Workfront Planning のアーキテクチャ {#adobe-workfront-planning-architecture}
       * [アーキテクチャ：記事インデックス](planning/architecture/architecture-information.md)

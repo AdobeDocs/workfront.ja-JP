@@ -1,18 +1,19 @@
 ---
-title: ビューを共有
+title: ビューの共有
 description: Adobe Workfront Planning を使用する際に、他のユーザーとビューを共有して、共同作業を確実に行えます。
-hidefromtoc: true
-hide: true
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
 workflow-type: tm+mt
-source-wordcount: '1117'
-ht-degree: 35%
+source-wordcount: '1200'
+ht-degree: 34%
 
 ---
 
-<!--update the metadata and description when we turn this article live-->
+
 
 # ビューを共有
 
@@ -34,11 +35,80 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 * 内部的には、Workfrontのユーザーとグループを使用
 * 公開（Workfront以外のユーザーを使用）
 
+<!--
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+
 ## アクセス要件
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+<!--at GA, check that the Workfront plans article linked below has Planning info-->
+
+Workfront Planning にアクセスするには、次のものが必要です：
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 製品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> 
+<p>次のいずれかのWorkfront プラン：</p> 
+<ul><li>選択</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td> 
+<p>任意 </p> 
+<p>各Workfront Planning プランに含まれる内容の詳細については、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td><p> 標準</p>
+   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>  <p>ビューに対する権限を管理</p>  
+   <p>ビューを公開して共有できるのは、ワークスペースに対する管理権限を持つユーザーのみです。</p></td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+<!--OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -49,52 +119,52 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
     <tr>
 <tr>
 <td>
-   <p> 製品</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront 契約</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Workfront Planning の早期アクセス段階に登録されている必要があります </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
-<p>任意</p>
+<p>Any</p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>新規：標準</p>
-   または
-   <p>現在：プラン </p> 
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
 
-<tr>
-   <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> Adobe Workfront Planning に対するアクセス制御はありません</p>  
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a view</p>  
+   <p>Only users with Manage permissions to a workspace can share a view publicly.</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader"><p>権限</p></td>
-   <td> <p>ビューに対する権限を管理</p>  
-   <p>ビューを公開して共有できるのは、ワークスペースに対する管理権限を持つユーザーのみです。</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> <p>詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">アクセス権の概要</a>を参照してください。 </p> 
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 +++
 
@@ -155,9 +225,9 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
    ビューが人物アイコン ![](assets/view-shared-with-others-people-icon.png) で更新され、ビューが他のユーザーと共有されたことを示します。
 
    >>
-   >[!TIP]
+   [!TIP]
    >>
-   >ユーザーまたはグローバル アイコンのないビューは、ユーザーが作成したビューであり、他のユーザーと共有されていません。 非共有ビューは、自分にのみ表示されます。
+   ユーザーまたはグローバル アイコンのないビューは、ユーザーが作成したビューであり、他のユーザーと共有されていません。 非共有ビューは、自分にのみ表示されます。
 
 1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーが、レコードタイプのページにアクセスして、選択したビューで表示するには、ユーザーがアクティブユーザーであり、Workfront にログインしている必要があります。
 
@@ -167,7 +237,7 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
 >[!IMPORTANT]
 >
->ワークスペースのビューを公開して共有できるのは、ワークスペースに対する管理権限を持つユーザーのみです。
+ワークスペースのビューを公開して共有できるのは、ワークスペースに対する管理権限を持つユーザーのみです。
 
 
 Workfront Planning でビューをパブリックに共有するには、次の手順に従います。
@@ -199,7 +269,7 @@ Workfront Planning でビューをパブリックに共有するには、次の�
    ビューが更新され、グローバルアイコン ![](assets/public-shared-view-icon-highlighted.png) が表示されます。これは、ビューが公開されて共有されていることを示します。
 
    >>
-   >[!TIP]
+   [!TIP]
    >
    >ユーザーまたはグローバル アイコンのないビューは、ユーザーが作成したビューであり、他のユーザーと共有されていません。 非共有ビューは、自分にのみ表示されます。
 

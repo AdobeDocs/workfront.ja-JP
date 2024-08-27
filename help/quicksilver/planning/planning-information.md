@@ -1,36 +1,27 @@
 ---
-title: 「Adobe Workfront Planning 情報：記事インデックス」
+title: 「Adobe Workfront計画情報 – 記事索引」
 description: マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。この節の記事では、Planning 機能を設定する方法およびキャンペーン管理業務の一環として Planning 機能の使用を開始する方法について説明します。
-hidefromtoc: true
-hide: true
-recommendations: noDisplay, noCatalog
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
-source-git-commit: 2742594d4f835bb2b81b314075ab374f22074d87
+source-git-commit: 3fe348250dae1af6cbb74c3704bc396d90ac378a
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 33%
+source-wordcount: '559'
+ht-degree: 30%
 
 ---
 
 # Adobe Workfront Planning：記事インデックス
 
-<!--
-title: "Adobe Workfront Planning information: article index" 
-description: As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure the planning capabilities and how you can start using them as part of your campaign management operations. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User, Admin
-hide: yes
--->
-
-<!--update the metadata with real information when making this available to GA-->
 
 {{planning-important-intro}}
 
 このページは、Adobe Workfront Planning に関連するすべてのドキュメントの出発点として使用できます。
 
 以下の節の記事では、Workfront Planning を設定し、使用を開始する方法について説明します。
+
+<!--consider removing the IMPORTANT below after GA-->
 
 >[!IMPORTANT]
 >
@@ -42,9 +33,13 @@ hide: yes
 
 * [Adobe Workfront Planning の概要](/help/quicksilver/planning/general/planning-overview.md)：このソリューションに特有の用語や概念を含む、Adobe Workfront Planning の概要です。ここから Workfront Planning のジャーニーを開始することをお勧めします。
 * [Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md): Workfront Planning で作成できるオブジェクト数に関する制限事項の一覧です。
-* [Adobe Workfront Planning の現在のリリース アクティビティ ](/help/quicksilver/planning/general/release-activity.md): 2023 年 5 月 22 日（PT）のAdobe Workfront Planning プログラムのローンチ以降にリリースされたすべての機能の一覧。正確なリリース日と各機能の概要が記載されています。
+* [2024 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md): 2024 年のWorkfront計画の初期段階でリリースされたすべての機能のリストです。 これには、2023 年 5 月 22 日（PT）にAdobe Workfront Planning ベータプログラムがローンチされて以降に発生した以前のリリースへのリンクが含まれています。
 
 ## Workfrontの計画で利用できるその他の機能
+
+* [Adobe Workfront Planning API の基礎 ](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
+
+* [Workfront Fusion のAdobe Workfront Planning モジュール ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
 
 * [Adobe Workfront Planning AI Assistant の概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront AI Assistant for Planning を使用すると、レコードを検索したり、コマンドを使用してアシスタントで作業することにより、レコードを作成、更新、および削除したりできます。
 
@@ -52,11 +47,7 @@ hide: yes
   >
   >    Workfront AI アシスタントは一時的に削除されており、後日利用できるようになります。
 
-* [Workfront Fusion のAdobe Workfront Planning モジュール ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
-
-* [Adobe Workfront Planning API の基礎 ](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
-
-<!--* Workfront Planning reporting capabilities: You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).-->
+* **Workfront Planning のレポート機能**: Workfront キャンバス ダッシュボードを使用して、Workfront Planning の情報をレポートで表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
 
 ## Workfront Planning のアーキテクチャと機能
 
@@ -91,6 +82,13 @@ hide: yes
    * 「コメントと履歴を記録」セクション
    * レコードの共有
    * Workfront オブジェクトのWorkfront計画セクション
+
+<!--
+* [Adobe Workfront Planning Requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) contains the following information:
+
+    * How to create a request form for a record type.
+    * How users can submit a request to a record type request form and create records. 
+-->
 
 * [Views：記事インデックス ](/help/quicksilver/planning/views/views-information.md) には、次の情報が含まれます。
 
