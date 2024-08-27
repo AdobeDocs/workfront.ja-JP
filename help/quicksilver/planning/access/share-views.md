@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 4c675fc5cbe82c27182b8f442bec9a6c2d9634fa
 workflow-type: tm+mt
 source-wordcount: '1200'
 ht-degree: 34%
@@ -226,7 +226,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    >[!TIP]
    >
-   ユーザーまたはグローバル アイコンのないビューは、ユーザーが作成したビューであり、他のユーザーと共有されていません。 非共有ビューは、自分にのみ表示されます。
+   >ユーザーまたはグローバル アイコンのないビューは、ユーザーが作成したビューであり、他のユーザーと共有されていません。 非共有ビューは、自分にのみ表示されます。
 
 1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーが、レコードタイプのページにアクセスして、選択したビューで表示するには、ユーザーがアクティブユーザーであり、Workfront にログインしている必要があります。
 
@@ -236,7 +236,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
 >[!IMPORTANT]
 >
-ワークスペースのビューを公開して共有できるのは、ワークスペースに対する管理権限を持つユーザーのみです。
+>ワークスペースのビューを公開して共有できるのは、ワークスペースに対する管理権限を持つユーザーのみです。
 
 
 Workfront Planning でビューをパブリックに共有するには、次の手順に従います。

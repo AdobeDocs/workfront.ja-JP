@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] アドインを使用する
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: e4f722bab4c4024ca796af8413e7d6b69f6a89a7
+source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 93%
+source-wordcount: '682'
+ht-degree: 89%
 
 ---
 
@@ -78,8 +78,8 @@ ht-degree: 93%
 
 Workfront は、[!DNL Outlook] の次のバージョンをサポートしています。
 
-* [!DNL Outlook 2013] 以降（[!DNL Windows]）
-*[!DNL  Outlook 2016] 以降（[!DNL Windows]）
+* [!DNL Windows] で [!DNL Outlook 2013] 以降
+* [!DNL Windows] で [!DNL Outlook 2016] 以降
 * [!DNL Mac] 版 [!DNL Outlook]（[!DNL Microsoft 365]）
 * [!DNL Windows] 版 [!DNL Outlook]（[!DNL Microsoft 365]）
 * Web 版 [!DNL Outlook]
@@ -90,7 +90,7 @@ Workfront は、[!DNL Outlook] の次のバージョンをサポートしてい�
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com]****&#x200B;クライアントが POP3 または IMAP に接続するように設定されている場合、[!DNL Workfront] アドインが読み込まれません。
+* [!DNL Outlook.com] クライアントが POP3 または IMAP で接続するように設定されている場合、[!DNL Workfront] アドインは読み込まれません。
 
 ### メールサーバー要件 {#mail-server-requirements}
 

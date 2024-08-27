@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: 517c080ed4e6096ac0a2028125d62d33b2db2359
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,7 +48,6 @@ Workfront のユーザーに、プルーフライセンスを持っているか�
 詳しくは、次を参照してください。
 
 * [プルーフの役割の概要](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
-* &#x200B; 
 
 ## プルーフの電子サインの強化
 

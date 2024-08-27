@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  Figma では、コメント、フ�
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 [!DNL Adobe Workfront Fusion] [!DNL Figma] モジュールを使用して、コメント、ファイル、ファイルバージョン、またはプロジェクトの一覧を取得できます。また、コメントを投稿したり、[!DNL Figma] API を呼び出したりすることもできます。
 
-シナリオの作成手順が必要な場合は、[&#128279;](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
+シナリオの作成手順が必要な場合は、[](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 
 モジュールについては、[モジュール： [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md)を参照してください。
 
@@ -363,7 +363,7 @@ ht-degree: 100%
       <td>JSON を返す元となるファイルを選択します。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ノード ID]</td>
+      <td role="rowheader">[!UICONTROL Node IDs]</td>
       <td>
         <p>モジュールがレンダリングするノードを入力します。</p>
         <p>レンダリングするノードごとに、「<b>[!UICONTROL Add]</b>」をクリックしてノードのテキストを入力します。</p>

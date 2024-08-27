@@ -6,9 +6,9 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1954'
 ht-degree: 72%
 
 ---
@@ -99,7 +99,7 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
 1. 「**オブジェクト名 > へのアクセス権を付与**」ボックスに、オブジェクトを共有するユーザー、チーム、役割、グループまたは会社の名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
-   ![](assets/new-share-button-add-people.png) {width=&quot;350&quot; }
+   ![](assets/new-share-button-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -132,7 +132,8 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   表示、管理および参加の詳細設定オプションは、選択したオブジェクトに応じて異なります。\
+   表示、管理および参加の詳細設定オプションは、選択したオブジェクトに応じて異なります。
+
    アクセス許可レベルの詳細については、「[ オブジェクトに対する共有権限の概要 ](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)」を参照してください。
 
 1. （オプション）このオブジェクトをシステム内のすべてのユーザーが使用できるようにするには、**アクセスできるユーザー** の下のドロップダウン メニューをクリックし、ドロップダウン メニューの **システム内の全員が表示** をクリックします。
@@ -187,7 +188,7 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
 1. 「**オブジェクト名 > へのアクセス権を付与**」ボックスに、オブジェクトを共有するユーザー、チーム、役割、グループまたは会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -234,7 +235,7 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
    >
    >このオプションは、一部のオブジェクトでは利用できません。
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. （条件付き）オブジェクトを外部ユーザーに対して公開した場合は、「**リンクをコピー**」をクリックし、外部ユーザーにリンクを配布します。
 
@@ -254,11 +255,11 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
 1. 共有するオブジェクトの横にあるチェックボックスをクリックし、ページ上部の **共有アイコン**![](assets/share-icon.png) をクリックします。
 
-   ![](assets/list-share-object-select.png) {width=&quot;350&quot; }
+   ![](assets/list-share-object-select.png){width="350"}
 
 1. **&lt; オブジェクト > アクセス** ウィンドウが表示されたら、オブジェクトを共有するユーザー、チーム、役割、グループまたは会社の名前を **編集 &lt; オブジェクト名 > アクセス** ボックスに入力し始め、ドロップダウンリストに表示されたら名前をクリックします。
 
-   ![](assets/list-share-add-people.png) {width=&quot;350&quot; }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -286,10 +287,10 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
      >
      >参加権限は、以下のオブジェクトに対してのみ付与できます。
      >
-     >   * プロジェクト
-     >   * タスク
-     >   * イシュー
-     >  
+     >* プロジェクト
+     >* タスク
+     >* イシュー
+     >
 
    * **管理：**&#x200B;ユーザーは、管理権限（アクセスレベルで付与）がなくても、オブジェクトのすべてにアクセスできます。また、すべての表示権限および参加権限も持っています。
 
@@ -328,7 +329,7 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
    >
    >このオプションは、一部のオブジェクトでは利用できません。
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width=&quot;350&quot; }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. （条件付き）オブジェクトを外部ユーザーに対して公開した場合は、「**リンクをコピー**」をクリックして、リンクを外部ユーザーに配布します。
 
