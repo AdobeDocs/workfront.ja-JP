@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 55%
+source-wordcount: '1308'
+ht-degree: 52%
 
 ---
 
@@ -108,6 +108,16 @@ ht-degree: 55%
 1. 「**適用**」をクリックします。
 
    カスタムフォームがWorkfront オブジェクトに追加されると、「コンボカラー」フィールドのすべての値が外部検索フィールドドロップダウンに表示されます。
+
+## Workfront Planning API 用の外部参照フィールドの設定
+
+[Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md) のエンドポイントを使用して、Get メソッドを介してレコードタイプ ID でレコードを検索できます。 このエンドポイントを使用して、外部参照フィールドで Planning レコードを参照できます。
+
+* **ベース API の URL:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
+* **HTTP メソッド：** Get
+* **JSON パス：** `$.records[*].data.{fieldID}`
+
+  **{fieldID}** は、エンドユーザーのカスタムフォーム上で外部検索の検索結果に表示するフィールドです。
 
 ## パブリック API 用の外部参照フィールドの設定
 
