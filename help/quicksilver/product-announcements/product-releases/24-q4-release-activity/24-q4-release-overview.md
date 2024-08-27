@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 3f1882b555658b2095d99258900f3bba28246c3f
+source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 59%
+source-wordcount: '1216'
+ht-degree: 55%
 
 ---
 
@@ -216,16 +216,14 @@ ht-degree: 59%
             <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024 年第 4 四半期の期間におけるルックアンドフィールの更新</a></p>
-                        <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対するマイナーアップデートは、2024 年第 4 四半期の期間内に行われます。特定のリリース日については、個々のリリースノートを確認してください。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontプランニングの一般提供 </a></p>
+                        <p>Workfront Planning は、Workfrontライセンスに加えて、Workfront Planning ライセンスを購入したすべてのユーザーが利用できます。 Workfrontの計画について詳しくは、アカウント担当者にお問い合わせください。</p>
+                        <p>各四半期の最新のWorkfront Planning リリース情報については、以下の <a href="#workfront-planning-enhancements">Workfront Planning の機能強化 </a> の節を参照してください。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p>プレビューリリース：2024 年第 4 四半期のリリース期間中</p>
-                            </li>
-                            <li>
-                                <p><span class="preview">実稼動版リリース：リリースノートで日付を確認してください。</span></p>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 8 月 28 日（PT）</span></p>
                             </li>
                         </ul>
                     </td>
@@ -251,6 +249,22 @@ ht-degree: 59%
                             </li>
                         </ul>
                     </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024 年第 4 四半期の期間におけるルックアンドフィールの更新</a></p>
+                        <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対するマイナーアップデートは、2024 年第 4 四半期の期間内に行われます。特定のリリース日については、個々のリリースノートを確認してください。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024 年第 4 四半期のリリース期間中</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">実稼動版リリース：リリースノートで日付を確認してください。</span></p>
+                            </li>
+                        </ul>
+                    </td>
                 </tr>                            
            </tbody>
         </table>
@@ -260,6 +274,10 @@ ht-degree: 59%
 ### Workfront Fusion の機能強化
 
 Workfront Fusion の新機能は、2024 年第 4 四半期のリリーススケジュールから外れたタイミングで、実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
+
+### Workfront計画の機能強化
+
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfrontプランニング 2024 年第 4 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md) を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
