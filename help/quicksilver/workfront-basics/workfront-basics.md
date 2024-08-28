@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
-source-wordcount: '82'
-ht-degree: 90%
+source-wordcount: '86'
+ht-degree: 86%
 
 ---
 
@@ -29,4 +29,5 @@ ht-degree: 90%
 * [オブジェクトに対する権限の付与とリクエスト](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
 * [アカウントとプロファイルを管理](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
 * [モバイルアプリ](../workfront-basics/mobile-apps/mobile-apps.md)
+* [Workfrontの AI アシスタント](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Adobe Workfront Basics のヒント、テクニック、およびトラブルシューティング](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

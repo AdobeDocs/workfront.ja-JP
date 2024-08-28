@@ -4,10 +4,8 @@ content-type: reference
 description: 「要約」機能を使用すると、作業項目とドキュメントをすばやく要約できます。
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 16%

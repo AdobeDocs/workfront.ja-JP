@@ -4,10 +4,8 @@ content-type: reference
 description: AI アシスタントにアクセスできる、組織内のアクセスレベルを制御できます。
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 592041f8d53004a6261fd743ea65ea323624df69
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '265'
 ht-degree: 32%

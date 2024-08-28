@@ -4,10 +4,8 @@ content-type: reference
 description: AI アシスタントを使用して、計算フィールドの無効なカスタム式に含まれるエラーを解決できます。
 author: Becky
 feature: Get Started with Workfront
-hide: true
-hidefromtoc: true
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 513d33c653901394f35c342d8dbf89906017fb3f
+source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 14%
