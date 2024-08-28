@@ -1,31 +1,31 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: Data Lake データディクショナリ
-description: このページでは、Workfront Data Lake のデータの構造と内容について説明します。
+navigation-topic: data connect
+title: Workfront Data Connect データディクショナリ
+description: ここでは、Workfront Data Connect のデータの構造と内容について説明します。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 81f8477dd26b828c4255c678b36d98789cd81ff8
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '726'
 ht-degree: 6%
 
 ---
 
-# Workfront Data Lake データ辞書
+# Workfront Data Connect データディクショナリ
 
-このページでは、Workfront Data Lake のデータの構造と内容について説明します。
+ここでは、Workfront Data Connect のデータの構造と内容について説明します。
 
 >[!NOTE]
 >
->Workfront Data Lake のデータは 4 時間ごとに更新されるので、最近の変更が直ちに反映されない場合があります。
+>データ接続のデータは 4 時間ごとに更新されるので、最近の変更がすぐには反映されない場合があります。
 
 ## テーブルタイプ
 
-最も多くのインサイトを提供する方法でWorkfront データを表示するために使用できるテーブルタイプは多数あります。
+データ接続で使用して、最もインサイトを得られる方法でWorkfront データを表示できるテーブルタイプは多数あります。
 
 * **現在のテーブル**
 
@@ -43,9 +43,9 @@ ht-degree: 6%
 
 ## エンティティ関係図
 
-Workfrontのオブジェクト（およびデータレイク内のオブジェクト）は、個々の値だけでなく、他のオブジェクトとの関係によって定義されます。 次のエンティティ関係図は、Workfront データレイク内のオブジェクトの関係の大まかなマッピングを提供します。 この図は、次のリンクを使用して表示およびダウンロードできます。
+Workfront（およびデータ接続データレイク）のオブジェクトは、個々の値だけでなく、他のオブジェクトとの関係によって定義されます。 以下のエンティティ関係図は、データ接続のオブジェクト関係の高度なマッピングを提供します。 この図は、次のリンクを使用して表示およびダウンロードできます。
 
-[Workfront Data Lake のエンティティ関係の図](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+[データ接続エンティティ関係図](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
 
 >[!IMPORTANT]
 >
@@ -62,7 +62,7 @@ Workfrontのオブジェクト（およびデータレイク内のオブジェ�
 
 ## 用語テーブル
 
-次の表は、Workfrontのオブジェクト名（およびインターフェイスと API のオブジェクト名）と、データレイクの同等の名前を関連付けます。
+次の表は、Workfrontのオブジェクト名（およびインターフェイスと API のオブジェクト名）と、Data Connect の同等の名前を関連付けています。
 
 <table>
 <thead>

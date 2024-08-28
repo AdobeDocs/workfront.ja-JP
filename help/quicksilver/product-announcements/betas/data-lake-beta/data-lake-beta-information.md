@@ -1,23 +1,23 @@
 ---
-navigation-topic: data-lake-beta
-title: Workfront Data Lake（ベータ版）に関する情報
-description: Workfront Data Lake ベータ版に関する一般情報
+navigation-topic: data-connect-beta
+title: Workfront Data Connect ベータ版情報
+description: Workfront Data Connect ベータ版に関する一般情報
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 16%
+source-wordcount: '383'
+ht-degree: 13%
 
 ---
 
-# Workfront Data Lake（ベータ版）に関する情報
+# Workfront Data Connect ベータ版情報
 
-Workfront Data Lake は、現在開発中の新しいツールです。一般的なビジネスアナリストツールで使用するデータを取り込んだり、外部データウェアハウスに保存したりするための専用のインターフェイスを提供します。複雑な API や Fusion ソリューションは必要ありません。 このページには、進行中のベータ版でテストしてこのツールに関するフィードバックを提供することで、お客様がどのように当社を支援できるかに関する情報が含まれています。
+Workfront Data Connect は、現在開発中の新しいツールで、一般的なビジネスアナリストツールで使用するデータを取り込んだり、外部データウェアハウスに保存したりするための専用のインターフェイスを提供します。複雑な API や Fusion ソリューションは必要ありません。 このページには、進行中のベータ版でテストしてこのツールに関するフィードバックを提供することで、お客様がどのように当社を支援できるかに関する情報が含まれています。
 
-Workfront Data Lake の使用について詳しくは、[Workfront Data Lake の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
+Workfront Data Connect の使用方法については、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
 
 **Beta スケジュール：**
 
@@ -30,11 +30,11 @@ Workfront Data Lake の使用について詳しくは、[Workfront Data Lake の
 
 >[!IMPORTANT]
 >
->Workfront data lake ベータ版に登録するには、Workfront システム管理者である必要があります。
+>Data Connect ベータ版に登録するには、Workfront システム管理者である必要があります。
 
 ベータ版に組織を登録するには、次のリンクのフォームに入力して送信してください。
 
-[Workfront data lake ベータ版の登録 ](https://adobe.ly/workfrontdatalake)
+[Workfront Data Connect ベータ版 enrollment](https://adobe.ly/workfrontdatalake)
 
 ### フィードバックを提供
 
@@ -48,7 +48,7 @@ Workfront Data Lake の使用について詳しくは、[Workfront Data Lake の
 
 ## 予定されている機能
 
-ベータ版で現在サポートされているオブジェクト、ベータ版の間にサポートを追加する予定のオブジェクト、Workfront Data Lake の今後のロードマップに含まれる機能のリストは以下のとおりです。
+ベータ版で現在サポートされているオブジェクト、ベータ版の間にサポートを追加する予定のオブジェクト、Data Connect の今後のロードマップに含まれる機能のリストを以下に示します。
 
 ### 現在使用可能なオブジェクト
 

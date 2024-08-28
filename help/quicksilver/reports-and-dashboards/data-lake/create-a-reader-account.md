@@ -1,25 +1,25 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Snowflake用のリーダー（サービス） アカウントを作成します
-description: Workfront Data Lake のデータにアクセスするには、まずSnowflake用のリーダーアカウントを作成する必要があります。
+description: Data Connect データにアクセスするには、まずSnowflakeリーダーアカウントを作成する必要があります。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: e5bd25315062ad15ccd3448e008dfe94f1b616da
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '464'
 ht-degree: 10%
 
 ---
 
 # Snowflake用のリーダー（サービス） アカウントを作成します
 
-Workfront Data Lake のデータにアクセスするには、新しい接続ごとにSnowflakeリーダー（またはサービス）アカウントを作成する必要があります。 接続を作成したら、「既存の接続 **」タブの** データアクセス **ページ（** メインメニュー **/** 設定 **/** システム **/** データアクセス ****）で接続をクリックすると、関連する URL とユーザー名が表示されます。
+Data Connect データにアクセスするには、新しい接続ごとにSnowflakeリーダー（またはサービス）アカウントを作成する必要があります。 接続を作成したら、「既存の接続 **」タブの** データアクセス **ページ（** メインメニュー **/** 設定 **/** システム **/** データアクセス ****）で接続をクリックすると、関連する URL とユーザー名が表示されます。
 
-外部の商品と新しく作成した接続の使用について詳しくは、[Workfront Data Lake への接続の確立 ](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md) を参照してください。
+新しく作成した外部データとの接続の使用について詳しくは、[Workfront Data Connect への接続の確立 ](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md) を参照してください。
 
 ## アクセス要件
 
@@ -68,7 +68,7 @@ Workfront Data Lake のデータにアクセスするには、新しい接続ご
 
    ![Snowflakeパスワードのリセット ](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. これで、ユーザー名と新しいパスワードを使用して、Snowflakeまたは選択したビジネスビジュアライゼーションツールでWorkfront Data Lake にアクセスできるようになりました。
+1. ユーザー名と新しいパスワードを使用して、Snowflakeまたは選択したビジネスビジュアライゼーションツールの Data Connect Data Lake にアクセスできるようになりました。
 
 ## リーダーアカウントの取り消し
 

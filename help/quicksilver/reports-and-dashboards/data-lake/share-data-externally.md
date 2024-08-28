@@ -1,25 +1,25 @@
 ---
 content-type: overview;reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Workfront Data Lake への接続の確立
 description: Workfront データレイクを使用すると、組織のWorkfront データを一般的なビジネスインテリジェンスツールで使用したり、外部データウェアハウスに保存したりできます。
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 91371c862be6f3b99f0450ff359f601dc913dc0c
+source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 1%
 
 ---
 
-# Workfront Data Lake への接続の確立
+# Workfront Data Connect への接続の確立
 
-Workfront データレイクを使用すると、組織のWorkfront データを business intelligence ツールで使用したり、外部データウェアハウスに保存したりできます。
+Workfront Data Connect を使用すると、組織のWorkfront データをビジネスインテリジェンスツールで使用したり、外部データウェアハウスに保存したりできます。
 
-Workfront Data Lake のデータを外部許可リスト許可リストに加えると結び付けるには、以下の [Add IPs to the](#add-ips-to-the-allowlist) で説明されているように、最初に必要な IP を製品に追加する必要があります。 さらに、ほとんどの製品では、接続を確立するためにデータレイクに関する追加情報が必要になります。
+Data Connect Data Lake を外部許可リスト許可リストに加えるに接続するには、以下の [Add IPs to the](#add-ips-to-the-allowlist) で説明されているように、最初に必要な IP を製品に追加する必要があります。 さらに、ほとんどの製品では、接続を確立するためにデータレイクに関する追加情報が必要になります。
 
 | フィールド名 | 値 |
 |---------------|-------------|
@@ -32,14 +32,13 @@ Workfront Data Lake のデータを外部許可リスト許可リストに加え
 | ユーザー名 | 接続時に選択したユーザー名（Workfront*の **データアクセス** ページで確認できます） |
 | パスワード | 初回Snowflakeログイン時に選択したパスワード* |
 
-*データレイクSnowflakeが含まれている **データアクセス** ページの場所について詳しくは、[ 接続用のリーダー（サービス）アカウントの作成 ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) を参照してください。
+*Data ConnectSnowflakeを含む **データアクセス** ページの場所については、[ 接続用のリーダー（サービス）アカウントの作成 ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) を参照してください。
 
 >[!IMPORTANT]
 >
 >IP許可リストに 1 つのエントリが追加されると、その他の IP アドレスはすべて許可されなくなります。 ツールを使用する前に、ビジュアライゼーションツールの作成と読み取りの両方で必要な IP アドレスをすべて入力してあることを確認します。 そうでない場合、無効な資格情報に関してエラーが発生する可能性があります。
 >
 >許可リストに IP アドレスが含まれていなくても、BI ツールへの接続に問題がある場合は、BI ツールのプロキシサーバー設定を確認します。
-
 
 ## 許可リストに IP を追加
 
