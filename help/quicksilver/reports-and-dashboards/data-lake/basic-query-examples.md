@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
-source-wordcount: '250'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ ht-degree: 0%
 
 ### シナリオ：
 
-組織の PeopleSoft は、Finance Integration という名前のカスタムフォームを使用します。 このフォームは、すべてのプロジェクトに添付され、次のフィールドが含まれています。
+財務統合という名前のカスタムフォームを利用する組織。 このフォームは、すべてのプロジェクトに添付され、次のフィールドが含まれています。
 
-* **PeopleSoft ビジネスユニット** – 文字列を含むカスタムフィールド。
-* **PeopleSoft ProjectID** – 数値の文字列を含むカスタムフィールド。
-* **拡張プロジェクト名** - PeopleSoft ビジネスユニット、PeopleSoft プロジェクト ID およびネイティブのWorkfront プロジェクト名の値を 1 つの文字列に連結する計算カスタムデータフィールド。
+* **ビジネスユニット** – 文字列を含むカスタムフィールド。
+* **ProjectID** – 数値の文字列を含むカスタムフィールド。
+* **拡張プロジェクト名** - ビジネスユニット、プロジェクト ID およびネイティブのWorkfront プロジェクト名の値を 1 つの文字列に連結する計算カスタムデータフィールド。
 
 Data Connect に対するクエリの応答にこの情報を含める必要があります。 データレイク内のレコードのカスタムデータ値は、`parameterValues` という名前の列に含まれています。 この列は JSON オブジェクトとして保存されます。
 
@@ -40,8 +40,8 @@ SELECT
     projectid,
     parametervalues,
     name,
-    parametervalues:"DE:PeopleSoft Business Unit" :: int as PeopleSoftBusinessUnit,
-    parametervalues:"DE:PeopleSoft Project ID" :: int as PeopleSoftProjectID,
+    parametervalues:"DE:Business Unit" :: int as BusinessUnit,
+    parametervalues:"DE:Project ID" :: int as ProjectID,
     parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
 FROM PROJECTS_CURRENT
 WHERE ExpandedProjectName is not null
@@ -54,8 +54,8 @@ WHERE ExpandedProjectName is not null
 * `projectid` - ネイティブ Workfront プロジェクト ID
 * `parametervalues` - JSON オブジェクトを格納する列
 * `name` - Workfrontのネイティブ プロジェクト名。
-* `PeopleSoft Business Unit` - `parametervalues` オブジェクトに含まれるカスタムデータ値
-* `PeopleSoft Project ID` - `parametervalues` オブジェクトに含まれるカスタムデータ値
+* `Business Unit` - `parametervalues` オブジェクトに含まれるカスタムデータ値
+* `Project ID` - `parametervalues` オブジェクトに含まれるカスタムデータ値
 * `Expanded Project Name` - `parametervalues` オブジェクトに含まれるカスタムデータ値
 
 <!--## Task query 

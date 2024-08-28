@@ -2,22 +2,22 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Workfront Data Lake の概要
-description: Workfront Data Lake 機能の概要
+title: Workfront Data Connect の概要
+description: Workfront Data Connect の概要
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
 workflow-type: tm+mt
 source-wordcount: '159'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
-# データ接続の概要
+# Workfront Data Connect の概要
 
-Data Connect は、Snowflakeテクノロジを使用してWorkfrontデータにこれまでにない方法でアクセスし、ビジネスクリティカルな質問に回答し、プロセスの価値を測定できるようにします。 この機能を使用すると、大規模法人のお客様は、Workfront データレイクから直接データビジュアライゼーションツールを使用してデータを調査したり、Workfront データを所有するデータウェアハウスに書き出したりできます。
+Workfront Data Connect は、Snowflakeテクノロジを使用してWorkfront データにこれまでにない方法でアクセスできるため、ビジネスクリティカルな質問に回答し、プロセスの価値を測定することができます。 この機能を使用すると、大規模法人のお客様は、Workfront データレイクから直接データビジュアライゼーションツールを使用してデータを調査したり、Workfront データを所有するデータウェアハウスに書き出したりできます。
 
 購読者は、任意のビジネスインテリジェンスツール（Tableau、Power BI、Domo、Looker など）を連携させることができます。 データ接続を使用して、次のタイプのデータでデータビジュアライゼーションを作成します。
 

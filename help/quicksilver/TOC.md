@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 816d45225f2d9c7fa91df901a945457c46af7945
+source-git-commit: 41fe217aee733e8382416366542845d90c1b10fd
 workflow-type: tm+mt
-source-wordcount: '14359'
+source-wordcount: '14358'
 ht-degree: 93%
 
 ---
@@ -438,8 +438,8 @@ ht-degree: 93%
          * [新しいコメントエクスペリエンス](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新しいコメントエクスペリエンスのリリースアクティビティ](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
          * [新しいコメントエクスペリエンスに関する FAQ](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-      * Workfront Data Lake（ベータ版）{#data-lake-beta}
-         * [Workfront Data Lake（ベータ版）に関する情報](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+      * Workfront Data Connect ベータ版 {#data-lake-beta}
+         * [Workfront Data Connect ベータ版情報](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * 管理と設定 {#administration-and-setup}
    * [管理と設定：記事インデックス](administration-and-setup/administration-and-setup.md)
    * 管理の概要 {#get-started-administration}
@@ -1734,12 +1734,12 @@ ht-degree: 93%
       * [拡張分析でプロジェクトアクティビティビジュアライゼーションを表示](enhanced-analytics/project-activity-overview.md)
       * [強化機能分析でプロジェクトツリーマップビジュアライゼーションを表示](enhanced-analytics/project-treemap-overview.md)
       * [拡張分析でチームごとのアクティビティのビジュアライゼーションを表示する](enhanced-analytics/activity-by-team-overview.md)
-   * Workfront Data Lake {#data-lake}
-      * [Workfront Data Lake の概要](reports-and-dashboards/data-lake/data-lake-overview.md)
+   * Workfront Data Connect {#data-lake}
+      * [Workfront Data Connect の概要](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [リーダーアカウントの作成](reports-and-dashboards/data-lake/create-a-reader-account.md)
-      * [Workfront Data Lake への接続の確立](reports-and-dashboards/data-lake/share-data-externally.md)
-      * [Workfront Data Lake データ辞書](reports-and-dashboards/data-lake/data-dictionary.md)
-      * [基本的な Workfront Data Lake クエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Workfront Data Connect への接続の確立](reports-and-dashboards/data-lake/share-data-externally.md)
+      * [Workfront Data Connect データディクショナリ](reports-and-dashboards/data-lake/data-dictionary.md)
+      * [Workfront Data Connect クエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
 * リソースの管理 {#manage-resources}
    * [リソースの管理](resource-mgmt/manage-resources.md)
    * リソース管理 {#resource-management}
