@@ -1,48 +1,55 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: use-kanban-in-an-agile-team
-title: ユーザーのかんばんボード上のストーリーへの割り当て
-description: ユーザーをかんばんボード上のストーリーに割り当てる方法について詳しくは、この記事を参照してください。
+title: かんばんボード上のストーリーへのユーザーの割り当て
+description: かんばんボード上でストーリーに直接ユーザーを割り当てることができます。
 author: Lisa
 feature: Agile
 exl-id: ed727302-68c7-4e00-b05c-a5ed238bcc2d
-source-git-commit: 9da0c8234f563a0202cd15017b37a341476f7406
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '228'
+ht-degree: 81%
 
 ---
 
-# ユーザーの[!UICONTROL かんばん]ボード上のストーリーへの割り当て
+# ユーザーを[!UICONTROL かんばん]ボード上のストーリーに割り当てる
+
+かんばんボード上でストーリーに直接ユーザーを割り当てることができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront]管理者によってアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：[!UICONTROL Standard]</p> 
+   または
+   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-## ユーザーの[!UICONTROL かんばん]ボード上のストーリーへの割り当て
++++
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**[!UICONTROL チーム]**」をクリックします。
+## ユーザーを[!UICONTROL かんばん]ボード上のストーリーに割り当てる
+
+{{step1-to-team}}
+
 1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックして、ドロップダウンメニューから新しいかんばんチームを選択するか、検索バーでチームを検索します。
 
 1. ユーザーを割り当てるアジャイル[!UICONTROL かんばん]ボードに移動します。

@@ -6,10 +6,10 @@ description: バーンダウンチャートのサイズを変更したり折り�
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: 094a9d453476418cbe1b065930eb3a179e4cf73a
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 89%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -30,31 +32,35 @@ ht-degree: 100%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：[!UICONTROL ライト ] 以上</p> 
+   または
+   <p>現在：[!UICONTROL Review] 以上</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## バーンダウンチャートのサイズ変更
 
-1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![](assets/main-menu-icon.png)を選択し[!DNL Adobe Workfront]、次に「**[!UICONTROL チーム]**」をクリックします。
+{{step1-to-team}}
 
 1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しい[!UICONTROL スクラム]チームを選択するか、検索バーでチームを検索します。
 
 1. サイズを変更するバーンダウンチャートを含むイテレーションに移動します。
-1. バーンダウンチャートの下線にポインタを合わせ、チャートを希望のサイズにドラッグします。\
+1. バーンダウンチャートの下線にポインタを合わせ、チャートを希望のサイズにドラッグします。
    ![](assets/burndown-resize.png)
 
 ## バーンダウンチャートの折りたたみ
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![](assets/main-menu-icon.png)をクリックし、次に「**[!UICONTROL チーム]**」をクリックします。
+{{step1-to-team}}
 
 1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しい[!UICONTROL スクラム]チームを選択するか、検索バーでチームを検索します。
 

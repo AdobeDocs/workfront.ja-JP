@@ -2,14 +2,14 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: かんばんの設定
-description: ' [!DNL Adobe Workfront] でかんばんまたはスクラムのアジャイルチームを作成します。 '
+description: チームの作成中または作成後に、かんばんアジャイルチームに対して以下のオプションを設定できます。
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 99%
+source-wordcount: '1498'
+ht-degree: 97%
 
 ---
 
@@ -51,21 +51,21 @@ ht-degree: 99%
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td> <p>新規：[!UICONTROL Standard]</p> 
    または
    <p>現在：[!UICONTROL Work] 以上</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">アクセスレベル</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>チームに対するアクセス権限の編集</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*ご利用のプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -148,7 +148,7 @@ ht-degree: 99%
 1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
-1. **[!UICONTROL その他]**&#x200B;メニューをクリックし、「**[!UICONTROL 編集]**」を選択します。
+1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
@@ -179,9 +179,9 @@ ht-degree: 99%
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクション内の&#x200B;**[!UICONTROL 方式]**&#x200B;セクションで、かんばんが選択されていることを確認します。
 
-1. 「**[!UICONTROL ストーリーボード]**」セクションの「**[!UICONTROL WIP 制限]**」フィールドで、[!UICONTROL かんばん]アジャイルストーリーボードの各列に許可される項目の最大数を指定します。各列に異なる制限を設定できます。各列に設定できる最大値は 100 です。\
-   WIP 制限が設定されている場合は、ストーリーボード上のいずれかの列で制限値を超えた場合、[!UICONTROL かんばん]アジャイルストーリーボードに警告メッセージが表示されます。この警告メッセージは、WIP の上限を初めて超えたときにのみ表示されます。この警告メッセージは、ステータスが[!UICONTROL 完了]である列には表示されません。\
-   WIP 制限は単に視覚的な警告であり、1 つの列に設定した制限値を超える数の項目を、チームが持つことを制約しません。
+1. 「**[!UICONTROL ストーリーボード]**」セクションの「**[!UICONTROL WIP 制限]**」フィールドで、[!UICONTROL かんばん]アジャイルストーリーボードの各列に許可される項目の最大数を指定します。各列に異なる制限を設定できます。各列に設定できる上限は 100 です。
+WIP 制限が設定されている場合は、ストーリーボード上のいずれかの列で制限値を超えた場合、[!UICONTROL かんばん]アジャイルストーリーボードに警告メッセージが表示されます。この警告メッセージは、WIP の上限を初めて超えたときにのみ表示されます。この警告メッセージは、ステータスが [!UICONTROL  完了 ] に等しい列には表示されません。
+WIP 制限は単に視覚的な警告であり、1 つの列に設定した制限値を超える数の項目を、チームが持つことを制約しません。
 
    ![WIP の制限](assets/wip-limit-350x193.png)
 

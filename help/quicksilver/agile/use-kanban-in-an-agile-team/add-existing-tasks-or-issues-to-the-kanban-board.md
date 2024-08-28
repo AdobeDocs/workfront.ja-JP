@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: 既存のタスクまたはイシューのかんばんボードへの追加
+title: 既存のタスクまたは問題をかんばんボードに追加
 description: プロジェクトへの管理アクセス権がある場合は、任意のタスクまたはイシューをかんばんボードに追加できます。
 author: Lisa
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 1b41124ce48826ac3e77915d8d41e71e59a5003e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 100%
+source-wordcount: '288'
+ht-degree: 87%
 
 ---
 
@@ -22,36 +22,40 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront]管理者によってアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：[!UICONTROL Standard]</p> 
+   または
+   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 既存のタスクまたはイシューのかんばんボードへの追加
 
 タスクまたはイシューを[!UICONTROL かんばん]ボードに追加するには次の手順に従ってください。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-click-main-menu}}
 
-1. **[!UICONTROL プロジェクト]**、**[!UICONTROL レポート]**&#x200B;または&#x200B;**[!UICONTROL ダッシュボード]**&#x200B;のいずれかを選択します。
+1. **[!UICONTROL プロジェクト]**、**[!UICONTROL レポート]**、**[!UICONTROL ダッシュボード]** のいずれかを選択します。
 
 1. かんばんボードに追加するタスクまたはイシューを含むプロジェクト、レポートまたはダッシュボードに移動します。
 1. 1 つ以上のタスクまたはイシューを選択します。
@@ -60,7 +64,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >複数のチームを追加する場合、タスクまたはイシューは 1 つのチームの [!DNL kanban] ボードにのみ表示されます。これは、手順 5 で選択したボードです。
+   >複数のチームを追加する場合、タスクまたはイシューは 1 つのチームの [!DNL kanban] ボードにのみ表示されます。これがあなたが先ほど選んだボードです。
 
 1. タスクを追加する場合は、**[!UICONTROL ストーリーを追加]**をクリックします。
 または、

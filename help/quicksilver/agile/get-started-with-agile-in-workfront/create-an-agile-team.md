@@ -6,10 +6,10 @@ description: Adobe Workfront を使用すると、アジャイルチームが漸
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 98%
+source-wordcount: '1001'
+ht-degree: 90%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 98%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>新規：Standard</p>
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：標準</p>
    現在： 
    <ul><li><p>[!UICONTROL Plan]：新しいアジャイルチームを作成する場合</p></li> 
    <li><p>[!UICONTROL Work] 以上：チームをアジャイルチームに変換する場合</p></li></ul> </td> 
@@ -53,7 +53,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-ご利用のプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -71,14 +71,14 @@ ht-degree: 98%
 
 以下の機能が、この方法論をサポートします。
 
-* [!DNL Kanban] アジャイルストーリーボードにバックログを表示。\
-   詳しくは、[バックログを[!UICONTROL かんばん]ボードに追加](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)を参照してください。
+* [!DNL Kanban] アジャイル ストーリーボードにバックログを表示します。
+詳しくは、[バックログを[!UICONTROL かんばん]ボードに追加](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)を参照してください。
 
-* 他の項目が完了に等しいステータスに移動された場合に、バックログの項目が自動的に[!UICONTROL かんばん]アジャイルストーリーボードに追加されるように設定します。\
-   詳しくは、[かんばんを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)の記事にある[バックログから自動的に追加されるようにストーリーを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)の節を参照してください。
+* 他の項目が完了に等しいステータスに移動されると、アジャイルストーリーボード ] かんばん [!UICONTROL  に自動的に追加されるように、バックログの項目を設定します。
+詳しくは、[かんばんを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)の記事にある[バックログから自動的に追加されるようにストーリーを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)の節を参照してください。
 
-* [!UICONTROL かんばん]アジャイルストーリーボードに表示されるように作業中（WIP）制限を設定します。\
-   詳しくは、[かんばんボードでの作業中（WIP）の制限を管理](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)を参照してください。
+* アジャイルストーリーボード（かんばん [!UICONTROL  に表示される進行中の作業 ]WIP）の制限を設定します。
+詳しくは、[かんばんボードでの作業中（WIP）の制限を管理](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)を参照してください。
 
 ### [!DNL Workfront] でスクラムを使用するメリット
 
@@ -89,8 +89,8 @@ ht-degree: 98%
 * [!UICONTROL スクラム]ストーリーボードにイシューを含めます。
 * アジャイルチームのバックログに関するイシューを含める
 * サブタスクは、[!UICONTROL スクラム]ストーリーボードに表示可能
-* バーンダウンチャートを表示して、イテレーション中のストーリーに対する進行状況を確認します\
-   詳しくは、[アジャイルバーンダウンチャートの概要](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)を参照してください。
+* バーンダウンチャートを表示して、イテレーション中のストーリーに対する進行状況を確認
+詳しくは、[ アジャイルバーンダウンチャートの概要 ](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md) を参照してください。
 
 ## アジャイルチームの作成
 
@@ -150,12 +150,14 @@ ht-degree: 98%
 
 既存のチームをアジャイルチームに変換できます。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**[!UICONTROL ボード]**」の順にクリックします。
+{{step1-to-team}}
+
 1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. アジャイルチームに変換するチームを選択します。
-1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。\
-   このオプションは、[!UICONTROL Plan] または [!UICONTROL Work] ライセンスを持つチームメンバーのみに表示されます。\
+1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
+
+   [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  ワーク ] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
    ![](assets/edit-team-settings-350x205.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションで、「**[!UICONTROL アジャイルチームです]**」を選択します。

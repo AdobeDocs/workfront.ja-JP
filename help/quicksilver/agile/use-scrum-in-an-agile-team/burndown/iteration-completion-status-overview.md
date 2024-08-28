@@ -7,10 +7,10 @@ description: この記事で説明している完了情報は、バーンダウ�
 author: Lisa
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: 373f2522b85196d6395f189ae6cfe03449cac61a
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '646'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

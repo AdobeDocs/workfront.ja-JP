@@ -6,10 +6,10 @@ description: スクラムアジャイルチームの作成中または作成後�
 author: Lisa
 feature: Agile
 exl-id: 7509608e-96af-4601-80d4-791ee29046da
-source-git-commit: 3c5bcb85080a882a8b69bffcd01563a0479f98a5
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1793'
-ht-degree: 100%
+source-wordcount: '1739'
+ht-degree: 95%
 
 ---
 
@@ -32,6 +32,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -46,21 +48,23 @@ ht-degree: 100%
   </tr>
 
 <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td> <p>新規：[!UICONTROL Standard]</p> 
    または
    <p>現在：[!UICONTROL Work] 以上</p> </td> 
   </tr>
 
 <tr> 
-   <td role="rowheader">アクセスレベル</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>チームに対するアクセス権限の編集</p>  </td> 
   </tr>
 
 </tbody> 
 </table>
 
-*ご利用のプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ストーリーをポイント単位で見積もるか、時間単位で見積もるかを設定
 
@@ -72,13 +76,13 @@ ht-degree: 100%
 
 アジャイルチーム向けにストーリーを見積もる方法を設定するには、次の手順を実行します。
 
-1. [!UICONTROL Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、**[!UICONTROL チーム]**&#x200B;の順にクリック。
+{{step1-to-team}}
 
-1. **[!UICONTROL チームを切り替え]**&#x200B;アイコンをクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
+1. **[!UICONTROL チームを切り替え]**&#x200B;アイコンをクリックし、さらにドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   このオプションは、[!UICONTROL プラン]または[!UICONTROL ワーク]ライセンスを持つチームメンバーのみに表示されます。\
+   [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  ワーク ] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションの&#x200B;**[!UICONTROL ストーリーを見積もり]**&#x200B;エリアで、ストーリーのサイズ（作業負荷）の見積もりにポイントと時間を使用するかどうかを選択します。ポイントを選択した場合は、1 ポイントが何時間に相当するかを指定します。（デフォルトは 1 ポイント= 8 時間です。）これは、ストーリーに追加される予定時間数です。
@@ -100,9 +104,9 @@ ht-degree: 100%
 
 アジャイルチームに関連付けられたストーリーボードで使用できるステータスを定義するには、次の手順を実行します。
 
-1. [!DNL Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、**[!UICONTROL チーム]**&#x200B;の順にクリックします。
+{{step1-to-team}}
 
-1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、さらにドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
+1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
@@ -158,13 +162,13 @@ ht-degree: 100%
 
 アジャイルチームに割り当てられたストーリーカードを設定して、追加のフィールドを表示するには、次の手順を実行します。
 
-1. [!UICONTROL Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**[!UICONTROL チーム]**」をクリックします。
+{{step1-to-team}}
 
 1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
-1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。\
-   このオプションは、[!UICONTROL プラン]または[!UICONTROL ワーク]ライセンスを持つチームメンバーのみに表示されます。
+1. **[!UICONTROL 詳細]** メニューをクリックしてから、「**[!UICONTROL 編集]**」を選択します。
+このオプションは、[!UICONTROL プラン]または[!UICONTROL ワーク]ライセンスを持つチームメンバーのみに表示されます。
 
    ![チームを編集](assets/edit-team-settings-350x205.png)
 
@@ -182,9 +186,9 @@ ht-degree: 100%
 
 アジャイルチームのストーリーにカラーを割り当てる方法の動作を変更するには、次の手順を実行します。
 
-1. [!DNL Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**[!UICONTROL チーム]**」をクリックします。
+{{step1-to-team}}
 
-1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、さらにドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
+1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
 1. 管理するアジャイルチームを選択します。
 1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
@@ -201,7 +205,7 @@ ht-degree: 100%
 
       * 高 = 赤色
       * 中 = 黄色
-      * 低 = 緑色
+      * 低=緑
 
         お客様の [!DNL Workfront] システムのカスタム優先度をシステム管理者が設定している場合、最も高いのは赤色、2 番目に高いのは黄色、3 番目に高いのは緑色になります。
    * **[!UICONTROL タスク所有者]**：同じ主担当者を持つストーリーはすべて同じカラーです。主担当者は、最初にタスクに割り当てられたユーザーです。
@@ -213,15 +217,16 @@ ht-degree: 100%
 
 デフォルトでは、スクラムイテレーションに作業アイテムを追加すると、作業アイテムの予定開始日と予定完了日がイテレーションの開始日と終了日と一致するように変更されます。チームのすべての作業アイテムで元の日付を保持することを選択できます。
 
-1. [!DNL Adobe]Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![](assets/main-menu-icon.png)、**[!UICONTROL チーム]**&#x200B;の順にクリックします。
-1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
-1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。\
-   このオプションは、[!UICONTROL プラン]または[!UICONTROL ワーク]ライセンスを持つチームメンバーのみに表示されます。
+{{step1-to-team}}
+
+1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
+1. **[!UICONTROL 詳細]** メニューをクリックしてから、「**[!UICONTROL 編集]**」を選択します。
+このオプションは、[!UICONTROL プラン]または[!UICONTROL ワーク]ライセンスを持つチームメンバーのみに表示されます。
 1. 「[!UICONTROL アジャイル]」セクションの[!UICONTROL 作業アイテムがイテレーションに追加されるとき]エリアで、次のオプションから選択します。
 
-   * **[!UICONTROL イテレーションの開始日と終了日に一致するように予定開始日と予定完了日を変更]**：作業項目がイテレーションに追加されると、作業項目の日付がイテレーションの日付に変更されます。
+   * **[!UICONTROL 反復の開始日と終了日に一致するように計画開始日と計画完了日を変更]**：作業項目が反復に追加されると、作業項目の日付が反復日付に変更されます。
 
-     日付の変更方法の詳細については、[既存のイテレーションへのストーリーの追加](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)の記事の、[ストーリーの追加がタスクの日付に与える影響について](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understa)の節を参照してください。
+     日付の変更方法の詳細については、[既存のイテレーションへのストーリーの追加](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)の記事の、[ストーリーの追加がタスクの日付に与える影響について](../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md#understand-how-adding-stories-affects-task-dates)の節を参照してください。
    * **[!UICONTROL イテレーションの開始日と終了日に一致するように予定開始日と予定完了日を変更しない]**：作業項目がイテレーションに追加されると、作業項目は元の日付を保持します。
 
    日付オプションを変更した場合、既にイテレーション中の作業アイテムの日付は調整されません。

@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: かんばんボードでの進行中の作業（WIP）の上限の管理
+title: かんばんボード上の進行中の作業（WIP）制限の管理
 description: かんばんボードの各列に対して、進行中の作業（WIP）の上限を設定できます。WIP の上限は視覚的に警告が表示されるだけで、各ステータス列の項目が設定した上限より多くならないよう制限するものではありません。
 author: Lisa
 feature: Agile
 exl-id: 540880ad-46af-416b-8e0b-5df869555424
-source-git-commit: 33daf0633701a1c271552e796ffe22a58645c561
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 86%
 
 ---
 
@@ -21,41 +21,45 @@ WIP の上限は視覚的に警告が表示されるだけで、各ステータ�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront]管理者によってアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：[!UICONTROL Standard]</p> 
+   または
+   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!UICONTROL かんばん]ボードで[!UICONTROL 進行中の作業]（WIP）の上限を表示
 
 アジャイルチームに WIP の上限を設定すると、かんばんボードの各列（[!UICONTROL 完了]」列以外）の右上隅に WIP の上限が表示されます。
 
-[!UICONTROL かんばん]ボードのいずれかの列で上限を超えた場合は常に、上限が赤でハイライト表示され、メッセージが表示されます。\
+[!UICONTROL  かんばん ] ボード上のいずれかの列の上限を超えると、上限が赤でハイライト表示され、メッセージが表示されます。
 ![WIP の上限](assets/kanban-wip.png)
 
 ## [!UICONTROL かんばん]ボードで[!UICONTROL 進行中の作業]（WIP）の上限を更新
 
 [!UICONTROL 編集]権限を持つチームメンバーは、[!UICONTROL かんばん]ボードで直接、各ステータス列の WIP の上限を更新できます。あるいは、[かんばんの設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)の記事の説明に従って WIP の上限を更新することもできます。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**[!UICONTROL チーム]**」の順にクリックします。
+{{step1-to-team}}
 
 1. （オプション）**[!UICONTROL チームを切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、新しい[!UICONTROL かんばん]チームをドロップダウンメニューから選択するか、検索バーでチームを検索します。
 

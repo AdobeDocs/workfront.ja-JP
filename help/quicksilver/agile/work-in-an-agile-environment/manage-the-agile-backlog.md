@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: アジャイルバックログを管理
+title: アジャイルバックログの管理
 description: タスクとイシューは、チームが使用しているアジャイル方法論に応じて、アジャイルチームに割り当てて、そのチームのバックログにストーリーとして追加できます。
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 99%
+source-wordcount: '1360'
+ht-degree: 93%
 
 ---
 
@@ -39,20 +39,18 @@ ht-degree: 99%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
-   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Work] 以上</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：[!UICONTROL Standard]</p> 
+   または
+   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
-   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：[!UICONTROL Worker] 以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>ストーリーが存在するプロジェクトへの[!UICONTROL Manage]アクセス権</p>  </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td>ストーリーが存在するプロジェクトへの[!UICONTROL Manage]アクセス権 </td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,7 +76,7 @@ ht-degree: 99%
    >
    >タスクまたはイシューにアジャイルチームが割り当てられており、プロジェクトのステータスが「現在」と等しくない場合は、バックログに表示されません。ただし、注文列のバックログ数には影響します。
 
-1. 1 つ以上のストーリーを選択し、バックログに表示する順にドラッグします。\
+1. 1 つ以上のストーリーを選択し、バックログに表示する順にドラッグします。
    ![バックログ項目のドラッグ＆ドロップ](assets/agile-backlog-drag-and-drop.png)
 
 ### ストーリーの分類 {#break-down-stories}
@@ -96,8 +94,8 @@ ht-degree: 99%
 ストーリーを分類するには：
 
 1. 分類するストーリーが含まれているバックログに移動します。
-1. 分類するストーリーを選択し、「**[!UICONTROL ストーリーを分析]**」をクリックします。\
-   [!UICONTROL ストーリーを分析]ダイアログボックスが表示されます。\
+1. 分類するストーリーを選択し、「ストーリーを分類 **[!UICONTROL をクリックし]** す。
+[!UICONTROL ストーリーを分析]ダイアログボックスが表示されます。
    ![ストーリーを分析ダイアログ](assets/backlog-breakdown-dialog.png)
 
 1. ストーリーの名前と見積りを指定し、ストーリーの準備ができたかどうかを選択します。
@@ -186,12 +184,10 @@ ht-degree: 99%
 1. （オプション）既存の担当者を削除します。
 1. 「**[!UICONTROL 割り当て先を追加]**」をクリックします。
 1. タスクまたはイシューに割り当てるアジャイルチームの名前の入力を開始し、ドロップダウンリストに表示されたらチーム名をクリックします。
-1. 「**[!UICONTROL 変更を保存]**」をクリックします。\
-   タスクまたはイシューがチームのバックログで利用できるようになりました。
+1. 「**[!UICONTROL 変更を保存]**」をクリックします。
+タスクまたはイシューがチームのバックログで利用できるようになりました。
 
-## バックログへの、またはバックログからのストーリーの移動
-
-{#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+## バックログ内にストーリーを移動またはバックログからストーリーを移動
 
 * [バックログからイテレーションまたは + ボードにストーリーを移動する](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [既存のストーリーをバックログに移動する](#move-existing-stories-to-the-backlog)
@@ -200,9 +196,9 @@ ht-degree: 99%
 ### バックログからイテレーションまたは + ボードにストーリーを移動する
 
 1. アジャイルチームのバックログに移動します。
-1. イテレーションまたはかんばんボードに移動するストーリーを選択し、**[!UICONTROL その他]**／**[!UICONTROL 指定の場所に移動]**&#x200B;をクリックします。\
-   ストーリーを[!UICONTROL かんばん]ボードに移動すると、[!UICONTROL ストーリーをかんばんに移動]ボードが表示されます。\
-   ストーリーをある反復に移動させる場合、[!UICONTROL ストーリーを反復に移動]ダイアログボックスが表示されます。\
+1. 反復またはかんばんボードに移動するストーリーを選択し、**[!UICONTROL 詳細]**/**[!UICONTROL 移動先]** をクリックします。
+ストーリーを [!UICONTROL  かんばん ] ボードに移動すると、「[!UICONTROL  ストーリーをかんばん ] ボードに移動」が表示されます。
+ストーリーをある反復に移動させる場合、[!UICONTROL ストーリーを反復に移動]ダイアログボックスが表示されます。
    ![ストーリーを移動ダイアログ](assets/agile-backlog-addtoiteration.png)
 
 1. 次のいずれかの操作を行います。

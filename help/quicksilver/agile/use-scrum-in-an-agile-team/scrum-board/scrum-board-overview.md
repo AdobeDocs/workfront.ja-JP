@@ -7,10 +7,10 @@ description: スクラムアジャイルストーリーボードは、完了ス�
 author: Lisa
 feature: Agile
 exl-id: 584288bb-2d98-4b69-8deb-d3b8e54d328c
-source-git-commit: 6f817ca39c7489b85673ff601faf440fe51ab72c
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
 source-wordcount: '878'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

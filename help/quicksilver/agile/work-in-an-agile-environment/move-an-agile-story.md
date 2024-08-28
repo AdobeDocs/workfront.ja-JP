@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
-title: アジャイルストーリーの移動
+title: アジャイル ストーリーを移動
 description: アジャイルストーリーは、別のイテレーション（スクラムチームの場合）またはバックログ（かんばんチームとスクラムチームの場合）に移動できます。
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 11009f24cd482e83319ed9f1ecf3f7a2f4e79d52
+source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
 workflow-type: tm+mt
-source-wordcount: '389'
-ht-degree: 100%
+source-wordcount: '350'
+ht-degree: 92%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 アジャイルストーリーは、別のイテレーション（スクラムチームの場合）またはバックログ（かんばんチームとスクラムチームの場合）に移動できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -28,25 +30,25 @@ ht-degree: 100%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以上</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：[!UICONTROL Standard]</p> 
+   または
+   <p>現在：[!UICONTROL Work] 以上</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>[!UICONTROL Worker] 以上</p> <p>メモ：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>ストーリーに対する[!UICONTROL Manage]アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td>ストーリーに対する[!UICONTROL Manage]アクセス権</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## イテレーションまたはかんばんボードからバックログにストーリーを移動
 
@@ -59,8 +61,8 @@ ht-degree: 100%
 
    ![ストーリーを移動ダイアログ](assets/iteration-story-move.png)
 
-1. *team_name* のバックログを選択します。\
-   上記の例では、チーム名は「**マーケティング**」です。
+1. **team_name のバックログ** を選択します。
+上記の例では、チーム名は **マーケティング** です。
 
 1. 「**[!UICONTROL ストーリーを移動]**」をクリックします。
 
@@ -85,6 +87,6 @@ Scrum チームの別のイテレーションにストーリーを移動でき�
 
    >[!NOTE]
    >
-   >作業アイテムの[!UICONTROL 予定開始日]と[!UICONTROL 予定完了日]は、[!UICONTROL チームの編集]ページの設定に影響されます。詳しくは、[[!UICONTROL 設定]作業アイテムをイテレーションに追加する際に日付を適用する方法](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)記事の、[スクラムの設定](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)を参照してください。
+   >作業アイテムの[!UICONTROL 予定開始日]と[!UICONTROL 予定完了日]は、[!UICONTROL チームの編集]ページの設定に影響されます。詳しくは、[[!UICONTROL 設定]作業アイテムをイテレーションに追加する際に日付を適用する方法](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)記事の、[スクラムの設定](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)を参照してください。
 
 1. 「**[!UICONTROL ストーリーを移動]**」をクリックします。

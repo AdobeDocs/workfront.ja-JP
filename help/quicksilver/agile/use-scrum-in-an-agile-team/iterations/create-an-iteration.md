@@ -6,10 +6,10 @@ description: イテレーションは、スクラムアジャイルチームが�
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: ddff70b61a2c3b3479e278bb3bb8628ac83f5c97
+source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 100%
+source-wordcount: '1051'
+ht-degree: 94%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 イテレーションは、スクラムアジャイルチームが作業処理能力を計画する際の主要なコンポーネントです。[!DNL Adobe Workfront] を使ってチームのニーズに合わせて複数のイテレーションを作成することで、スクラムアジャイルチームが作業を管理できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -28,27 +30,31 @@ ht-degree: 100%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：[!UICONTROL ライト ] 以上</p> 
+   または
+   <p>現在：[!UICONTROL Review] 以上</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## イテレーションを追加
 
 [!UICONTROL イテレーションを追加]機能を使用してイテレーションをすばやく作成し、後にタスクとイシューを追加します。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**[!UICONTROL チーム]**」の順にクリックします。
+{{step1-to-team}}
 
 1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
-1. 「**[!UICONTROL イテレーション]**」タブで、「**[!UICONTROL イテレーションを追加]**」をクリックします。\
+1. 「**[!UICONTROL イテレーション]**」タブで、「**[!UICONTROL イテレーションを追加]**」をクリックします。
    ![](assets/add-iteration-adobe-350x275.png)
 
 1. 以下を指定します。
@@ -90,7 +96,7 @@ ht-degree: 100%
 
 [!UICONTROL イテレーションを計画]機能を使用し、バックログのタスクを使用してイテレーションを作成します。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**[!UICONTROL チーム]**」の順にクリックします。
+{{step1-to-team}}
 
 1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
@@ -129,8 +135,8 @@ ht-degree: 100%
     </tbody> 
    </table>
 
-1. （オプション）ストーリーを選択して今すぐイテレーションに追加するか、この手順をスキップして、後でイテレーションにストーリーを追加できます。バックログの先頭のストーリーの方が高い優先度を持ちます。ストーリーは、キャパシティに収まっている場合は緑色、そうでない場合は赤でハイライト表示されます。\
-   タスクとイシューの両方を 1 つのイテレーションに追加できます。
+1. （オプション）ストーリーを選択して今すぐイテレーションに追加するか、この手順をスキップして、後でイテレーションにストーリーを追加できます。バックログの先頭のストーリーの方が高い優先度を持ちます。ストーリーは、処理能力に収まると緑色でハイライト表示されます。収まらないと赤色でハイライト表示されます。
+タスクとイシューの両方を 1 つのイテレーションに追加できます。
 
    * **タスクをイテレーションに追加するには：**「**[!UICONTROL バックログ]**」タブで、「**[!UICONTROL ストーリー]**」タブが選択されていることを確認します（バックログを表示する場合は、このタブがデフォルトで選択されています）。イテレーションに追加するストーリーを選択します。
 
@@ -151,4 +157,4 @@ ht-degree: 100%
 
 プロジェクトの開始日がイテレーション開始日より後、プロジェクト終了日がイテレーション終了日より後である場合は、[!UICONTROL プロジェクト終了日]が代わりに使用されます。
 
-個々のスクラムチームが、デフォルトではイテレーション日付よりも、プロジェクト日付を使用するように設定できます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[作業アイテムをイテレーションに追加する際に日付を適用する方法を設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5)を参照してください。
+個々のスクラムチームが、デフォルトではイテレーション日付よりも、プロジェクト日付を使用するように設定できます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[作業アイテムをイテレーションに追加する際に日付を適用する方法を設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)を参照してください。
