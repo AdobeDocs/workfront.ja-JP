@@ -8,8 +8,8 @@ description: 環境の昇格に関する一般的な問題のトラブルシュ�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: 6eab0af720852fd74182e371ca08aa40157ec2af
+exl-id: 830dd573-d954-4ba2-a1d3-d1645b3fbac8
+source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 0%

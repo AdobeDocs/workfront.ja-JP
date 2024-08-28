@@ -8,9 +8,8 @@ description: 環境プロモーション機能の目的は、設定関連オブ�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: b26f20b13a18c6e727fcf9e267ba9c53e5b566dc
+source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
 workflow-type: tm+mt
 source-wordcount: '912'
 ht-degree: 8%

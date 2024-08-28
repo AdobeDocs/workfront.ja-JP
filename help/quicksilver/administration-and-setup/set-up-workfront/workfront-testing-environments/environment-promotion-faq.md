@@ -8,10 +8,10 @@ description: Workfront環境のプロモーションに関するよくある質�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
-source-git-commit: e2150f344ddc8626389afaaccc7c394f61c2dbc9
+exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
+source-git-commit: 2bbfd449d913a5134c9c36b1ee10567973c56eaa
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '301'
 ht-degree: 16%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 16%
 
 ### 回答
 
-いいえ。環境のプロモーションは、IMS 対応インスタンスと非 IMSWorkfront インスタンスの両方で利用できます。
+いいえ。環境のプロモーションは、IMS 対応Workfront インスタンスと非 IMS AEM Forms インスタンスの両方で利用できます。
 
 ## Workfront インスタンスが Prime または Ultimate ライセンス上にあるかどうかを確認するにはどうすればよいですか？
 
@@ -73,4 +73,3 @@ ht-degree: 16%
 * 「既存を使用」は、ターゲット環境内の既存のオブジェクトにマッピングされ、変更を行わないため、「スキップ」またはデプロイメントを無視するのと同じです。
 * オブジェクトをスキップするには、を削除することをお勧めします。
 プロモーションパッケージから、またはソース環境から直接インストールしたくないオブジェクト。 オブジェクトを削除した後、パッケージを再アセンブリします。
-
