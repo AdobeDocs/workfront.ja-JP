@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '2950'
+source-wordcount: '2951'
 ht-degree: 94%
 
 ---
@@ -28,13 +28,13 @@ ht-degree: 94%
 >Workfront計画の概要については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 >
 
-ここでは、2023 年 5 月 22 日（PT）にAdobe Workfront Planning プログラムが開始された後、2023 年にリリースされた機能の一覧を示します。
+この記事では、2023 年 5 月 22 日（PT）にAdobe Workfront Planning ベータプログラムが開始された後、2023 年にリリースされた機能の一覧を示します。
 
 リリースアクティビティの情報について詳しくは、次の記事も参照してください。
 
-* [Adobe Workfront計画のリリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md): Workfront計画の現在のリリース アクティビティの詳細。
+* [Adobe Workfront計画の現在のリリース アクティビティについて詳しくは、Workfront計画のリリース アクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
-* [2024 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md): 2024 年 8 月 28 日（PT）の GA 以前に 2024 年にリリースされた機能について
+* [2024 年 8 月 28 日（PT）に一般リリースされる前の ](/help/quicksilver/planning/general/release-activity.md)2024 年にリリースされた機能に関する情報については、2024 年のAdobe Workfront計画リリースアクティビティ } を参照してください。
 
 リリースされた機能は、最新の機能が先頭に、リリース順に表示されます。
 

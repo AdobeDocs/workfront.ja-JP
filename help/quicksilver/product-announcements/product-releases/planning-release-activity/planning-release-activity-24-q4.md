@@ -6,9 +6,9 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '286'
 ht-degree: 19%
 
 ---
@@ -29,6 +29,9 @@ ht-degree: 19%
 >
 
 この記事では、2024 年第 4 四半期リリースでWorkfront Planning にリリースされる機能について説明します。
+
+このリリースに含まれる機能について詳しくは、[2024 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
+
 
 <!--keep the sentence below for all future quarterly release pages-->
 <!--remove the general activity mention after fourth quarter 2024 is released-->
@@ -53,4 +56,3 @@ Adobe Workfront Planning の主な機能の一部を次に示します。
 
 Workfront計画の詳細については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
-このローンチに先立ってWorkfront Planning にリリースされた機能について詳しくは、[2024 年のAdobe Workfront Planning リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) も参照してください。

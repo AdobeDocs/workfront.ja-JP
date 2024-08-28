@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
 workflow-type: tm+mt
-source-wordcount: '7338'
+source-wordcount: '7432'
 ht-degree: 37%
 
 ---
@@ -28,28 +28,14 @@ ht-degree: 37%
 >Workfront計画の概要については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 >
 
-<!--[!IMPORTANT]
->
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
->
->Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
->
->You must be a Workfront customer to use these capabilities. 
->
->Your account representative will inform you if you are part of this stage.
->
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
->
->In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. -->
-
 ここでは、2024 年の早期アクセス期間中にWorkfront Planning にリリースされた機能の一覧を示します。
 
-リリースされた機能は、リリースされた順序で一覧表示され、最新の機能が最初に表示されます。Workfront計画プログラムに参加しているお客様は、実稼動環境のすべての機能にアクセスできます。
+リリースされた機能は、最新の機能が先頭に、リリース順に表示されます。
 
 また、Workfront Planning でリリースされたその他の機能については、次の記事も参照してください。
 
-* [2023 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity-archives-2023.md) では、2023 年のベータ版リリース中にリリースされた機能を紹介します。
-* [Adobe Workfront Planning リリース アクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) には、2024 年 8 月 28 日（PT）に一般公開された後にWorkfront Planning に現在リリースされた機能が一覧表示されます。
+* 2023 年のベータ版リリース中にリリースされた機能に対する ](/help/quicksilver/planning/general/release-activity-archives-2023.md)0}2023 年のAdobe Workfront計画リリースアクティビティ。[
+* [Adobe Workfront Planning リリース アクティビティ：記事インデックス ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) 2024 年 8 月 28 日（PT）に一般公開された後、現在Workfront Planning にリリースされている機能に関する情報です。
 
 ## Workfront Planning のリリース タイムライン
 
@@ -59,15 +45,15 @@ ht-degree: 37%
 |--------------------|-----------------------------------------|
 | 2023 年 8 月～12 月 | Workfront Planning ベータ版リリース* |
 | 2024 年 1 月～8 月 | Workfront早期リリースの計画* |
-| 2024年8月28日（PT） | Workfront Planning の一般公開 |
+| 2024年8月28日（PT） | ワークフロント計画の一般提供 |
 
-*ベータ版および早期リリース版のフェーズは、一部のお客様のみご利用いただけます。
+*ベータフェーズと早期リリースフェーズは、限られたグループのお客様に提供されていました。
 
 <!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production. -->
 
 ## 2024年8月26日（PT）の週
 
-### Adobe Workfront Planning の一般提供
+### Adobe Systemsワークフロントプランニングの可用性一般
 
 プレビューおよび実稼動リリース：2024 年 8 月 28 日（PT）
 
@@ -130,14 +116,6 @@ Workfrontの計画オブジェクトに対して、次の 2 つのパッケー�
 
 詳しくは、「フィールドの作成 [ の「式」の節を参照してください ](/help/quicksilver/planning/fields/create-fields.md)。
 
-### アクセスリクエストに対してWorkfront Planning 通知を有効にする
-
-プレビューおよび実稼動環境：2024年8月28日（PT）
-
-ワークスペースへのアクセスをリクエストすると、アクセスをリクエストしたユーザーに、リクエストに関するメール通知が届きます。 リクエストが許可されると、リクエストの確認または却下を記載したメール通知が届きます。 権限が付与されると、メール通知からビューまたはワークスペースにアクセスできます。
-
-詳しくは、[ ビューまたはワークスペースへの権限のリクエスト ](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
-
 ### レコードビューでのリアルタイムプレゼンス指標
 
 プレビューおよび実稼動環境：2024年8月28日（PT）
@@ -175,48 +153,43 @@ Workfront Planning のパブリック API のリリースにより、Workfront�
 * [ カスタムフォームの外部検索フィールドの例 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
 * [Adobe Workfront計画 API の基本](/help/quicksilver/planning/general/planning-api-basics.md)
 
-<!--
-### New Settings menu in the Calendar view
+### カレンダー表示の新しい設定メニュー
 
-Preview and Production: August 28, 2024 
+プレビューおよび実稼動環境：2024年8月28日（PT）
 
-There is a new Settings option with which you can personalize the look and feel of the record bars in the Calendar view. You can do the following: 
+カレンダー表示のレコードバーのルックアンドフィールをパーソナライズできる新しい設定オプションがあります。 次の操作を実行できます。
 
-* Update the date and time of the records  
+* レコードの日付と時刻を更新する
 
-* Update the bar style 
+* バーのスタイルを更新する
 
-* Change the color of the record bars or their groupings to match one of the following:  
+* レコード バーまたはそのグループの色変更、次のいずれかに一致させます。
 
-    * The color of the record type 
+   * レコードタイプのカラー
 
-    * The color of a field that you select 
+   * 選択したフィールドのカラー
 
-    * The color of the grouping 
+   * グループ化のカラー
 
-    * No color (the default) 
+   * 色なし（デフォルト）
 
- When matching colors to a certain field, you can select only fields with color-coded options. 
+カラーを特定のフィールドに一致させる場合、色分けオプションを含むフィールドのみを選択できます。
 
- For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-calendar-view.md)を参照してください。
 
+### Workfront Planning で AI アシスタントが再度有効になりました
 
-### The AI Assistant has been re-enabled for Workfront Planning
+実稼動とプレビュー：2024 年 8 月 28 日（PT）
 
-Production and Preview: August 28, 2024
+Workfront Planning 領域でWorkfront AI アシスタントが再び有効になりました。
 
-The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+Workfront Planning AI Assistant の詳細については、[Adobe Workfront Planning AI Assistant の概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) を参照してください。
 
-For more information about the Workfront Planning AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
- 
+### キャンバスダッシュボードを使用したWorkfront Planning のレポート機能
 
-### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
+実稼動：2024 年 8 月 28 日（Pt）
 
-Production and Production: August 28, 2024 
-
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-
--->
+Workfront キャンバスダッシュボードを使用して、Workfront Planning の情報をレポートに表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
 
 ## 2024年8月19日（PT）の週
 
@@ -292,13 +265,13 @@ You can now view Workfront Planning information in a report using the Workfront 
 
 例えば、Workfront Planning キャンペーンをWorkfront プロジェクトと結び付け、特定のプロジェクトが存在しないと判断した場合は、「連結レコード」フィールドに新しいプロジェクトとして追加できます。 次に、プロジェクトがWorkfrontに追加されます。 新しく追加されたレコードは、テーブル表示のそれぞれのレコードタイプページに追加されます。
 
-現時点では、レコードを接続する際に、次の項目を作成できます。
+このとき、レコードを接続するときに次のものを作成できます。
 
-* Workfront計画レコード
-* テンプレートを使用しないWorkfront プロジェクト
-* WorkfrontPortfolio
+* ワークフロント計画レコード
+* テンプレートのないワークフロントプロジェクト
+* ワークフロントポートフォリオ
 
-他の Connected Workfront オブジェクトやExperience Managerアセットをレコードに接続する場合は、作成できません。
+レコードに接続するときに、接続された他の Workfront オブジェクトまたはExperience Manager アセットを作成することはできません。
 
 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
@@ -577,15 +550,15 @@ Workfront Planning のワークスペーステンプレートカードのルッ�
 
 プレビュー：未決定
 
-接続されたフィールドでの接続されたレコードの表示方法を決定できるようになりました。 レコードタイプへの新しい接続を追加する際に、接続されたレコードのタイトルとサムネール、またはサムネールのみを表示するオプションが追加されました。
+接続されたレコードを接続された項目に表示する方法を決定できるようになりました。 レコードタイプに新しい接続を追加するときに、接続されたレコードのタイトルとサムネイルを表示するか、サムネイルのみを表示するかを選択できるようになりました。
 
-レコードのタイトルは、レコードの名前か、レコードタイプのテーブルビューでプライマリフィールドとして設定されているフィールドです。
+レコードのタイトルは、レコードの名前、またはレコードの種類のテーブル 表示のプライマリ フィールドとして設定されている任意のフィールドのいずれかです。
 
-この機能強化は、Workfront Planning から接続されたレコードと、Adobe Experience Managerから接続されたアセットで利用できます。
+この拡張は、ワークフロント計画から接続されたレコード、およびAdobe Experience Managerから接続されたアセットで使用できます。
 
 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-### ワークスペース（タイトル）に対する管理権限を持つことができるのは、標準ライセンスまたはプランライセンスのユーザーのみです
+### 標準または プラン ライセンス ユーザーのみがワークスペースに対する管理アクセス許可を持つことができます (タイトル)
 
 実稼動：2024年6月21日（PT）
 
@@ -691,9 +664,9 @@ UNIQUE 演算子は、次のフィールド以外のすべてのタイプで使�
 
 プレビュー：未決定
 
-メインメニューの計画エリアのアイコンの外観を更新しました。 詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+メインメニューの計画範囲のアイコンの外観を更新しました。 詳細については、「 [Adobe Systemsワークフロント計画の概要」を参照してください](/help/quicksilver/planning/general/planning-overview.md)。
 
-### Workfront計画プログラム名の変更
+### ワークフロント計画プログラムの名前変更
 
 2024 年 5 月 30 日（PT）より、Adobe Workfront計画プログラムは、ベータ版の段階から早期アクセス段階に移行します。 この変更は、ドキュメントの用語で確認できます。
 
@@ -798,13 +771,13 @@ Workfront Planning 以外のオブジェクト・タイプへの接続を作成�
 
 >[!WARNING]
 >
->数式が変更されたり、選択タイプ フィールドにオプションが追加または削除されたりすると、設定が変更されたフィールドに既に情報が保存されているレコードのデータが失われます。
+>数式が変更されたり、選択型フィールドにオプションが追加または削除されたりすると、構成が変更されたフィールドに既に情報が格納されているレコードのデータが失われます。
 >
->フィールドの設定を変更した場合、このデータ損失が発生する可能性があることを示す警告や表示はありません。
+>フィールドの設定を変更した場合に、このデータ損失が発生する可能性があるという警告や表示はありません。
 >
->フィールドの設定が変更されたという通知は他のユーザーには送信されません。
+>フィールド設定が変更されたことを他のユーザーに通知することはできません。
 
-詳しくは、[ フィールド設定の編集 ](/help/quicksilver/planning/fields/edit-fields.md) を参照してください。
+詳細については、 [編集フィールド設定を参照してください](/help/quicksilver/planning/fields/edit-fields.md)。
 
 ## 2024年5月6日（PT）の週
 
