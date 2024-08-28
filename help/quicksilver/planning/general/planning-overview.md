@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 59%
+source-wordcount: '1989'
+ht-degree: 56%
 
 ---
 
@@ -174,8 +174,6 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 * **ワークスペース**：特定の組織の運用ライフサイクルを定義するレコードタイプのコレクション。ワークスペースは、組織単位の作業フレームです。
 
-  1 つの Workfront インスタンスに最大 1,000 個のワークスペースを設定できます。
-
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
@@ -204,9 +202,15 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-  Adobe Workfront Planning には、セールス、マーケティング、製品管理それぞれのワークスペーステンプレートが付属しています。
+  Adobe Workfront Planning には、次のテンプレートが含まれています：
 
-  詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+   * 基本：マーケティング管理
+   * 詳細：マーケティング管理
+   * エンタープライズ：マーケティング管理
+   * 営業管理
+   * 製品管理
+
+  詳しくは、[ ワークスペーステンプレートのリスト ](/help/quicksilver/planning/architecture/workspace-templates.md) を参照してください。
 
 * **フィールド**：フィールドは、レコードタイプに追加できる属性です。フィールドには、レコードタイプに関する情報が含まれます。<!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -216,7 +220,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
    * レコードタイプに追加したフィールドは、自動的にそのタイプのすべてのレコードに関連付けられ、それらのレコードに関するデータの取り込みに使用できます。
 
-   * レコードタイプのページに適用されたテーブルビューでは、フィールドが列として表示されます。また、レコードのページにも表示されます。
+   * フィールドは、レコードタイプページに適用されるテーブル表示の列として表示されます。 また、レコードのページにも表示されます。
 
    * フィールドはレコードタイプに固有で、レコードタイプ間では転送されません。
 
@@ -293,7 +297,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   レコードタイプページに適用できるビュータイプは次のとおりです。
 
-   * **テーブル表示**：接続されたフィールドやルックアップフィールドを含む、レコードとそのフィールドをテーブル形式で表示します。 テーブルの行は個々のレコードであり、列はレコードのフィールドです。これはデフォルトのビューです。
+   * **テーブル表示**：接続されたフィールドやルックアップフィールドを含む、レコードとそのフィールドをテーブル形式で表示します。 テーブルの行は個々のレコードであり、列はレコードのフィールドです。テーブル表示がデフォルトの表示です。
 
      ![](assets/table-view-example.png)
 
@@ -328,7 +332,7 @@ Workfront Planning を検索するには、次の手順に従います。
    >    Workfront管理者は、レイアウトテンプレートの「ランディングページを選択」オプションに Planning 領域を追加できるので、Workfrontにログインするとすぐに Planning を開くことができます。 詳しくは、[ レイアウトテンプレートを使用したランディングページのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) を参照してください。
 
 1. （条件付きおよびオプション）Workfrontの管理者は、次のいずれかのタブをクリックします。
-   * **自分が参加しているワークスペース**：自分が作成したワークスペースまたは自分と共有されているワークスペースが表示されます。
+   * **自分が参加しているワークスペース**：作成したワークスペースまたは共有されているワークスペースが表示されます。
    * **その他のワークスペース**：システム内のその他すべてのワークスペースを表示します。
 
    その他のすべてのユーザーの場合、ユーザーが作成したワークスペースと共有されているワークスペースの両方が **ワークスペース** 領域に表示されます。

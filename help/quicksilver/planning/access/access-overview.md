@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 40%
+source-wordcount: '661'
+ht-degree: 36%
 
 ---
 
@@ -102,7 +102,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
    <ul>
    <li><p>自分が作成していないワークスペースおよびビューとそのオブジェクトにアクセスするための表示以上の権限。</p></li>
    <li><p>自分が作成していないワークスペースに対するContribute以上のアクセス許可で、ワークスペースを編集し、レコードの種類とレコードを作成、編集、または削除します。</p></li>
-   <li><p>自分が作成していないビューに対するContribute以上の権限（ビューの編集、削除、共有を行う）</p>
+   <li><p>自分が作成していないビューに対するContribute以上のアクセス権。ビューの編集、削除、共有が可能。</p>
    </li>
     <li><p>システム管理者は、自分が作成していないワークスペースを管理できます。 </p></li>
     <li><p>システム管理者は、自分が作成していないビューにアクセスすることはできません。 </p></li></ul>
@@ -221,11 +221,11 @@ Workfront Planning には、Workfrontのアクセス制御はありません。
 
 ## 権限の付与
 
-ユーザーがアクセスするには、作成したWorkfront Planning のワークスペースとビューに対する権限をユーザーに付与する必要があります。
+ユーザーがWorkfront Planning のワークスペースおよびビューにアクセスするための権限をユーザーに付与する必要があります。
 
 詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
 
-Adobe Workfront ライセンスタイプは Workfront Planning の権限と連携して機能し、Workfront Planning オブジェクトの表示、投稿、管理へのアクセス権を付与します。
+Adobe WorkfrontのライセンスタイプはWorkfront Planning 権限と連携し、Workfront Planning オブジェクトの表示、投稿、管理に対するアクセス権を付与します。
 
 ライセンスタイプが Workfront Planning オブジェクトの権限レベルに与える影響については、[Adobe Workfront Planning 使用時のライセンスタイプの概要](/help/quicksilver/planning/access/license-type-overview.md)を参照してください。
 

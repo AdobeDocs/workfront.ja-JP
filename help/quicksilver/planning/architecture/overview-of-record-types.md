@@ -5,10 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 77%
+source-wordcount: '260'
+ht-degree: 67%
 
 ---
 
@@ -35,7 +35,7 @@ Workfront Planning では、組織のニーズに合ったカスタムレコー�
 * 最初から作成したワークスペースにレコードタイプを作成する際、ワークスペース内に作成した任意のセクションにレコードタイプを配置できます。
 * レコードタイプの作成時、自分とワークスペースへのアクセス権を付与したユーザーのみが、このレコードタイプを表示できます。
 * ワークスペースのレコードタイプを作成する前に、ワークスペースを作成する必要があります。
-* ワークスペースに含まれるセクションの数に関係なく、1 つのワークスペースに合計 1,000 のレコードタイプを含めることができます。この合計には、最初から作成したレコードタイプや、テンプレートの使用時に作成されたレコードタイプが含まれます。
+* 1 つのワークスペースまたはWorkfront インスタンスに含めることができるレコードタイプの数の制限については、[Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
 
 
 <!--

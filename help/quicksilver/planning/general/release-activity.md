@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
 workflow-type: tm+mt
 source-wordcount: '7432'
 ht-degree: 37%
@@ -45,15 +45,15 @@ ht-degree: 37%
 |--------------------|-----------------------------------------|
 | 2023 年 8 月～12 月 | Workfront Planning ベータ版リリース* |
 | 2024 年 1 月～8 月 | Workfront早期リリースの計画* |
-| 2024年8月28日（PT） | ワークフロント計画の一般提供 |
+| 2024年8月28日（PT） | Workfront Planning の一般公開 |
 
-*ベータフェーズと早期リリースフェーズは、限られたグループのお客様に提供されていました。
+*ベータ版および早期リリース版のフェーズは、一部のお客様のみご利用いただけます。
 
 <!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production. -->
 
 ## 2024年8月26日（PT）の週
 
-### Adobe Systemsワークフロントプランニングの可用性一般
+### Adobe Workfront Planning の一般提供
 
 プレビューおよび実稼動リリース：2024 年 8 月 28 日（PT）
 
@@ -157,13 +157,13 @@ Workfront Planning のパブリック API のリリースにより、Workfront�
 
 プレビューおよび実稼動環境：2024年8月28日（PT）
 
-カレンダー表示のレコードバーのルックアンドフィールをパーソナライズできる新しい設定オプションがあります。 次の操作を実行できます。
+カレンダー表示のレコードバーのルックアンドフィールをパーソナライズできる新しい「設定」オプションが追加されました。 次の操作を実行できます。
 
-* レコードの日付と時刻を更新する
+* レコードの日時を更新
 
-* バーのスタイルを更新する
+* バーのスタイルの更新
 
-* レコード バーまたはそのグループの色変更、次のいずれかに一致させます。
+* 次のいずれかに一致するように、レコードバーまたはそのグループ化の色を変更します。
 
    * レコードタイプのカラー
 
@@ -179,7 +179,7 @@ Workfront Planning のパブリック API のリリースにより、Workfront�
 
 ### Workfront Planning で AI アシスタントが再度有効になりました
 
-実稼動とプレビュー：2024 年 8 月 28 日（PT）
+プレビューおよび実稼動環境：2024年8月28日（PT）
 
 Workfront Planning 領域でWorkfront AI アシスタントが再び有効になりました。
 
@@ -187,7 +187,7 @@ Workfront Planning AI Assistant の詳細については、[Adobe Workfront Plan
 
 ### キャンバスダッシュボードを使用したWorkfront Planning のレポート機能
 
-実稼動：2024 年 8 月 28 日（Pt）
+プレビューおよび実稼動環境：2024年8月28日（PT）
 
 Workfront キャンバスダッシュボードを使用して、Workfront Planning の情報をレポートに表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
 
@@ -265,13 +265,13 @@ Workfront キャンバスダッシュボードを使用して、Workfront Planni
 
 例えば、Workfront Planning キャンペーンをWorkfront プロジェクトと結び付け、特定のプロジェクトが存在しないと判断した場合は、「連結レコード」フィールドに新しいプロジェクトとして追加できます。 次に、プロジェクトがWorkfrontに追加されます。 新しく追加されたレコードは、テーブル表示のそれぞれのレコードタイプページに追加されます。
 
-このとき、レコードを接続するときに次のものを作成できます。
+現時点では、レコードを接続する際に、次の項目を作成できます。
 
-* ワークフロント計画レコード
-* テンプレートのないワークフロントプロジェクト
-* ワークフロントポートフォリオ
+* Workfront計画レコード
+* テンプレートを使用しないWorkfront プロジェクト
+* WorkfrontPortfolio
 
-レコードに接続するときに、接続された他の Workfront オブジェクトまたはExperience Manager アセットを作成することはできません。
+他の Connected Workfront オブジェクトやExperience Managerアセットをレコードに接続する場合は、作成できません。
 
 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
@@ -550,15 +550,15 @@ Workfront Planning のワークスペーステンプレートカードのルッ�
 
 プレビュー：未決定
 
-接続されたレコードを接続された項目に表示する方法を決定できるようになりました。 レコードタイプに新しい接続を追加するときに、接続されたレコードのタイトルとサムネイルを表示するか、サムネイルのみを表示するかを選択できるようになりました。
+接続されたフィールドでの接続されたレコードの表示方法を決定できるようになりました。 レコードタイプへの新しい接続を追加する際に、接続されたレコードのタイトルとサムネール、またはサムネールのみを表示するオプションが追加されました。
 
-レコードのタイトルは、レコードの名前、またはレコードの種類のテーブル 表示のプライマリ フィールドとして設定されている任意のフィールドのいずれかです。
+レコードのタイトルは、レコードの名前か、レコードタイプのテーブルビューでプライマリフィールドとして設定されているフィールドです。
 
-この拡張は、ワークフロント計画から接続されたレコード、およびAdobe Experience Managerから接続されたアセットで使用できます。
+この機能強化は、Workfront Planning から接続されたレコードと、Adobe Experience Managerから接続されたアセットで利用できます。
 
 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-### 標準または プラン ライセンス ユーザーのみがワークスペースに対する管理アクセス許可を持つことができます (タイトル)
+### ワークスペース（タイトル）に対する管理権限を持つことができるのは、標準ライセンスまたはプランライセンスのユーザーのみです
 
 実稼動：2024年6月21日（PT）
 
@@ -664,9 +664,9 @@ UNIQUE 演算子は、次のフィールド以外のすべてのタイプで使�
 
 プレビュー：未決定
 
-メインメニューの計画範囲のアイコンの外観を更新しました。 詳細については、「 [Adobe Systemsワークフロント計画の概要」を参照してください](/help/quicksilver/planning/general/planning-overview.md)。
+メインメニューの計画エリアのアイコンの外観を更新しました。 詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
-### ワークフロント計画プログラムの名前変更
+### Workfront計画プログラム名の変更
 
 2024 年 5 月 30 日（PT）より、Adobe Workfront計画プログラムは、ベータ版の段階から早期アクセス段階に移行します。 この変更は、ドキュメントの用語で確認できます。
 
@@ -771,13 +771,13 @@ Workfront Planning 以外のオブジェクト・タイプへの接続を作成�
 
 >[!WARNING]
 >
->数式が変更されたり、選択型フィールドにオプションが追加または削除されたりすると、構成が変更されたフィールドに既に情報が格納されているレコードのデータが失われます。
+>数式が変更されたり、選択タイプ フィールドにオプションが追加または削除されたりすると、設定が変更されたフィールドに既に情報が保存されているレコードのデータが失われます。
 >
->フィールドの設定を変更した場合に、このデータ損失が発生する可能性があるという警告や表示はありません。
+>フィールドの設定を変更した場合、このデータ損失が発生する可能性があることを示す警告や表示はありません。
 >
->フィールド設定が変更されたことを他のユーザーに通知することはできません。
+>フィールドの設定が変更されたという通知は他のユーザーには送信されません。
 
-詳細については、 [編集フィールド設定を参照してください](/help/quicksilver/planning/fields/edit-fields.md)。
+詳しくは、[ フィールド設定の編集 ](/help/quicksilver/planning/fields/edit-fields.md) を参照してください。
 
 ## 2024年5月6日（PT）の週
 
