@@ -5,7 +5,7 @@ description: Workfrontの AI アシスタントに関して使用可能な記事
 author: Becky
 feature: Get Started with Workfront
 exl-id: 3f83dd91-d7de-4050-89b7-f53cbc4389a0
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '49'
 ht-degree: 12%
@@ -21,3 +21,4 @@ ht-degree: 12%
 * [AI アシスタントからヘルプを入手](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
 * [AI アシスタントで計算フィールドの数式を修正する](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
 * [AI アシスタントを有効または無効にする](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
+

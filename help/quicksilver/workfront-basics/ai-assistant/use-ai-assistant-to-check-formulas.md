@@ -5,7 +5,7 @@ description: AI アシスタントを使用して、計算フィールドの無�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 14%
@@ -68,3 +68,4 @@ AI アシスタントは、数式を有効な計算フィールド式に修正�
 >計算フィールドをテストして、期待される結果が取得されることを確認することをお勧めします。
 
 Workfrontの計算フィールドについて詳しくは、「[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
+

@@ -5,7 +5,7 @@ description: 「要約」機能を使用すると、作業項目とドキュメ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 16%
@@ -55,3 +55,4 @@ AI アシスタントを使用してWorkfront ドキュメントから情報や�
 1. 応答を AI アシスタント パネルに表示します。
 1. （オプション）応答に必要な情報が含まれていない場合は、応答を調整して再試行してください。
 1. （オプションおよび条件付き）応答にAdobe Experience League記事へのリンクが含まれている場合は、リンクをクリックして新しいウィンドウで記事を開きます。
+
