@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
 workflow-type: tm+mt
-source-wordcount: '3297'
-ht-degree: 97%
+source-wordcount: '3336'
+ht-degree: 96%
 
 ---
 
@@ -111,8 +111,10 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
       <td role="rowheader">環境設定 </td> 
       <td> 
        <ul> 
-      <li> <p><b>タイムゾーン：</b>ユーザーのタイムゾーン。</p> <p>ユーザーが Workfront でタイムゾーンをまたいで共同作業できるようにスケジュールを使用する方法について詳しくは、<a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">タイムゾーンをまたいだ作業</a>を参照してください。</p> </li> 
-       <li><b>メールのロケール</b>：ユーザーが希望するメールのロケール。これは、Workfront からこのユーザーに送信されるメール内の数値と日付の形式に影響します。</li>
+      <li> <p><b>タイムゾーン：</b>ユーザーのタイムゾーン。</p> <p>ユーザーが Workfront でタイムゾーンをまたいで共同作業できるようにスケジュールを使用する方法について詳しくは、<a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">タイムゾーンをまたいだ作業</a>を参照してください。</p> </li>
+
+   <li><p><b>メールのロケール</b>：ユーザーが希望するメールのロケール。これは、Workfront からこのユーザーに送信されるメール内の数値と日付の形式に影響します。</p>
+      <p><b> メモ：</b> 組織がAdobeの統合エクスペリエンスを使用している場合、ユーザーの言語環境設定はAdobeプロファイルに保存され、メールのロケールは使用されません。 これらの環境設定へのアクセスについて詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">WorkfrontのAdobe統合エクスペリエンス </a> を参照してください。</p></li>
 
    <li><b>このテスト環境からメールを受信</b>：現在ログインしている環境からメール通知を受け取る場合は、このオプションを選択します。
       <p><b>メモ</b></p>

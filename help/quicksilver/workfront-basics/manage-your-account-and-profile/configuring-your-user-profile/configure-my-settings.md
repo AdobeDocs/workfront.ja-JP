@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  プロファイルには、自分に関�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 99%
+source-wordcount: '3319'
+ht-degree: 97%
 
 ---
 
@@ -339,7 +339,8 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
-   <td>ここで目的の言語を指定します。これは、送信メールメッセージで使用される言語、日付、数値の形式を制御します。</td> 
+   <td><p>ここで目的の言語を指定します。これは、送信メールメッセージで使用される言語、日付、数値の形式を制御します。</p>
+   <p><strong> メモ：</strong> 組織がAdobe統合エクスペリエンスに参加している場合、言語環境設定はAdobeプロファイルに保存され、メールのロケールは使用されません。 詳しくは、「Adobe Experience Cloudでサポートされている言語 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> の <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Workfrontの言語を変更する </a> を参照してくだ </a> い。</p></td> 
   </tr>
 
 <tr> 

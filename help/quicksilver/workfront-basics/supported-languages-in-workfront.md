@@ -4,12 +4,12 @@ navigation-topic: get-started-with-workfront
 title: Adobe Workfront でサポートされている言語
 description: ブラウザーの言語設定と Workfront 内のデフォルトのメールロケールを調整することで、Adobe Workfront とWorkfront からのメールを表示する言語を変更できます。
 feature: Get Started with Workfront
-author: Caroline
+author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 2d2eac23d08b5dddfd1a3620f20f5a70b5c2821b
+source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 75%
+source-wordcount: '1071'
+ht-degree: 72%
 
 ---
 
@@ -116,7 +116,7 @@ Workfront でサポートされている言語について詳しくは、[Adobe 
 
 ブラウザーの言語を変更する方法について詳しくは、ブラウザーの「ヘルプ」メニューを参照してください。
 
-## Adobe Experience Cloudの言語の変更
+### Adobe Experience Cloudの言語の変更
 
 組織が IMS 上にある場合、Workfrontに表示される言語はAdobe Experience Cloud プロファイル言語によって決まります。
 
@@ -149,6 +149,10 @@ Workfront でサポートされている言語について詳しくは、[Adobe 
 ### ユーザーのメールロケールを変更 {#change-the-user-locale}
 
 ユーザーのメールロケールを変更する場合は、送信メッセージで使用される言語、日付、数値の形式を変更します。これらの設定は、「設定」の「顧客情報」エリアで選択したシステム設定を上書きします。
+
+>[!NOTE]
+>
+>組織がAdobe統合エクスペリエンスを使用している場合、言語環境設定はAdobeプロファイルに保存され、メールのロケールは使用されません。 この記事の [Adobe Experience Cloud言語の変更 ](#change-the-adobe-experience-cloud-language) を参照してください。
 
 ユーザーのメールロケールを変更するには：
 
