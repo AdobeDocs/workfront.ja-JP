@@ -7,10 +7,10 @@ description: Adobe Workfront Goals は、戦略を作業の実行と配信に結
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 95%
+source-wordcount: '512'
+ht-degree: 93%
 
 ---
 
@@ -30,7 +30,8 @@ ht-degree: 95%
 >   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 >
 >Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
-
+> 
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 Adobe Workfront Goals は、戦略を作業の実行と配信に結び付けることで、戦略的な成果を定義、伝達、達成するのに役立ちます。真に重要なことに全員の努力を集中させ、進捗を目に見える形にして、チームが素晴らしい成果を達成できるようにすることができます。ユーザーは自分の貢献が有意義な影響を与えていると知っていれば、最高の仕事をすることができます。
 
@@ -42,9 +43,9 @@ Workfront Goals の使用に関するベストプラクティスについて詳�
 >
 >Workfront Goalsを使用して管理する戦略目標は、プロジェクトのビジネスケースの一部であるプロジェクトレベルの目標と混同しないでください。プロジェクトレベルの目標について詳しくは、[ビジネスケース目標を作成](../../manage-work/projects/define-a-business-case/create-business-case-goals.md)を参照してください。
 
-## Workfront Goals に含まれる機能
+## Workfront Goals の機能
 
-現在、Workfront Goals には次の機能が含まれています。
+Workfront Goals には、次の機能が含まれています。
 
 * 四半期または年別の目標を作成し、ユーザー、チーム、グループ、または組織に割り当てます。また、目標タイムラインをカスタマイズすることもできます。
 

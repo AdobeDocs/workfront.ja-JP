@@ -8,29 +8,30 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: 514c4ea3eb603bb7a614e4b37abec4272a5febc7
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 85%
+source-wordcount: '273'
+ht-degree: 89%
 
 ---
 
 # Adobe Workfront Goals での目標の調整
 
-この記事で説明している機能を使用するには、組織に以下が必要です。
-
-* 新しいプランとライセンス構造の場合：
-
-   * 究極の計画
-
-     または
-
-     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、[Adobe Workfrontプラン ](https://www.workfront.com/plans) を参照してください。
-
-* 現在のプランおよびライセンス構造の場合：
-
-   * プロまたはそれ以上
-   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>[!IMPORTANT]
+>
+>この記事で説明している機能を使用するには、組織に以下が必要です。
+>
+>* 新しいプランとライセンス構造については、以下を参照してください*。
+>
+>   * 究極の計画
+>    
+>* 現在のプランおよびライセンス構造の場合：
+>
+>   * プロまたはそれ以上
+>   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>
+>*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+>
 
 Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 

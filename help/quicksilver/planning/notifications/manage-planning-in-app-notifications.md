@@ -3,11 +3,12 @@ title: Adobe Workfront Planning のアプリ内通知の管理
 description: レコードのコメントでタグが付けられると、そのタグに関するメール通知が届きます。
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '416'
 ht-degree: 23%
 
 ---
@@ -23,8 +24,7 @@ ht-degree: 23%
 
   レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
 * 他のユーザーから、ビューまたはワークスペースにアクセスする許可を要求されています
-* ビューまたはワークスペース <!--verify this--> ーバーへのアクセスが許可されたことを確認するメッセージが表示されます
-* ビューまたはワークスペースへのアクセスが他のユーザーによって拒否されました。<!--verify this-->
+* ビューまたはワークスペース <!--Isk confirmed there is no notification for denying permissions - did not test--> ーバーへのアクセスが許可されたことを確認するメッセージが表示されます
 
 ## アクセス要件
 
@@ -64,7 +64,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -170,7 +170,10 @@ OLD:
 1. （任意） **すべて既読としてマーク** をクリックして、すべての通知を既読にしたことを示します。
 1. （任意）「**すべて表示**」をクリックして、Adobe Experience Cloudの **通知** ページに移動します。
 
+## 権限をリクエストおよび付与する際のアプリ内通知の管理
 
-## ビューまたはワークスペースに対する権限をリクエスト、許可または拒否する際に、アプリ内通知を管理します
+ビューやワークスペースに対する権限を要求または付与された場合、アプリ内通知を受け取ります。
 
 ビューまたはワークスペースに対する権限の要求、付与、または拒否の詳細については、[ ビューまたはワークスペースに対する権限の要求 ](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
+
+Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 ](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。

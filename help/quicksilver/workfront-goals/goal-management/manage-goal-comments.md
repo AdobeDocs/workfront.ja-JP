@@ -6,10 +6,10 @@ description: Adobe Workfront Goals で表示できるすべての目標にコメ
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 52e8ce6dd5146d72f698583b531b3db6bc5dbf25
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 93%
+source-wordcount: '311'
+ht-degree: 84%
 
 ---
 
@@ -46,9 +46,8 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li>
-  または
-  <li>Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 </li></ul> </p>
+  <ul><li>究極の計画 </li></ul>
+   </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
   <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
@@ -89,95 +88,90 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-## 前提条件
-
-開始するには、まず以下が必要です。
-
-* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
-
 ## 目標コメントの管理
 
 目標に対するコメントは、目標のページの「更新」セクションで追加できます。
-
-このエリアに追加したコメントに対して、自分または他のユーザーが返信したり、「いいね！」をしたりできます。
 
 1. 右上隅の&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、または可能であれば左上隅の&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/lines-main-menu.png) をクリックし、「**目標**」をクリックします。
 これにより、目標リストが開きます。
 1. コメントを追加する目標を探し、その名前をクリックして目標ページを開きます。
 1. 左側のパネルの「**更新**」をクリックします。
-1. （オプション）既存のコメントを見つけるには、「**コメント**」タブの右上隅にある「**検索**」ボックスにキーワード <!--or a user's name--> を入力し始めます。
 
+   Workfront オブジェクトへのコメントの管理について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+
+<!--   
+1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 
+   
    ![](assets/search-field-in-updates-tab-goals.png)
 
-   検索したキーワード <!--or user--> がハイライト表示され、それを含むコメントが「更新」セクションの上部に表示されます。
+   The keyword (****or user****) you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
-   <!--change the NOTE below when functionality changes-->
 
-   >[!NOTE]
-   >
-   >コメントまたは返信に含まれる単語を検索する必要があります。タグ付けされたユーザーやチームは検索できません。
+      >[!NOTE]
+      >
+      >You must search for a word included in a comment or reply. You cannot search for a tagged user or team.
+   
+   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-   詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
-
-1. 検索フィールドの **x** アイコンをクリックすると、検索結果がクリアされ、完全な更新に戻ります。
-1. 更新エリアの左上隅にある「**コメント**」タブをクリックします。
-1. 「**新規コメント**」ボックスにコメントを入力し始めます。
-
+1. Click the **x** icon in the search field to clear the search results and return to the complete update.
+1. Click the **Comments** tab in the upper-left corner of the Updates area.
+1. Start entering a comment in the **New comment** box.
+         
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >コメント入力を完了して送信する前に更新セクションから移動すると、ログオフしてログオンし直した後でも、ページ上のコメントがドラフトモードのままになっています。ドラフトは 7 日間保存され、その後は破棄され、復元できません。下書きのコメントは、入力したユーザーのみに表示されます。
+   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
-1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
-   * Ctrl + Z（Mac の場合は ⌘+z）で、変更を元に戻します
-   * Ctrl + Y（Mac の場合は ⌘+y）で、変更をやり直します
-1. （オプション）更新、ハイパーリンク、絵文字にリッチテキスト形式を追加するには、リッチテキストツールバーまたはその横にあるアイコンのオプションを使用します。 詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
-1. （オプション）**担当者またはチームのタグ付け**&#x200B;エリアで、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
-1. コメントが社内の担当者にのみ表示されるようにするには、「**社外秘**」切り替えスイッチを選択します。
+1. (Optional) To undo or redo a change, use the following shortcut keys:
+      * CTRL + Z (⌘+z for Mac) to undo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change 
+1. (Optional) To add rich-text formatting to your update, a hyperlink, or an emoji, use any options on the Rich Text toolbar or the icons adjacent to it. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
+1. Select the **Private to my company** toggle to make the comment visible only to people in your company. 
 
-   >[!TIP]
-   >
-   >このオプションを更新エリアで使用するには、プロファイルで「会社」を指定する必要があります。
+      >[!TIP]
+      >
+      >You must have a Company specified in your profile to have this option available in the Updates area. 
 
-1. 「**送信**」をクリックします。
+1. Click **Submit**. 
 
-   >[!TIP]
-   >
-   >あなたが更新している同じ項目に別のユーザーがコメントを送信すると、新しいコメントを知らせる「新規」指標が付いた赤い線が表示され、画面の下部に 新しいコメントの数を示す青い通知が表示されます。
-   >
-   >指標は、コメントが項目に送信された後にのみ表示され、コメントの構成中には表示されません。
-   >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
-
-1. （オプション）コメントを編集するには、「いいね！」アイコンの右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png) 、「**編集**」の順にクリックします。
-1. コメント内の情報を編集するか、タグ付けされたユーザーを削除します。
-コメントは送信後 15 分間は編集できます。コメントが更新された際に表示される日付スタンプの左側に、「編集済み」のインジケーターが追加されます。
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
+      >
+      >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
+      
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
+1. Edit the information in the comment or remove any of the tagged users. 
+   You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
-   > * 元の更新を送信した場合にのみ、ユーザーに更新を通知するメールが生成されます。更新を編集した後は、メールは生成されません。
+   > * An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
    >
-   > * 日付スタンプは、最新の更新日ではなく、元のコメントの日付です。
+   > * The date stamp is the date of the original comment and not the date of the latest update. 
 
-1. （オプション）**その他**&#x200B;メニュー![](assets/more-icon.png)をクリックして、次のオプションのいずれかをクリックして、コメントからクリップボードまたは新規返信に情報をコピーします。
+1. (Optional) Click the **More** menu ![](assets/more-icon.png), then click any of the following options to copy information from a comment to the clipboard or into a new reply:
 
-   * **リンクをコピー**：返信を含めずに、更新のリンクをコピーします。
-   * **本文をコピー**：更新のテキストをコピーします。
-   * **引用返信**：新規コメントボックスを開くと、元のコメントが新規返信で引用され、ブロック引用としてマークされます。
+      * **Copy link** to copy the link of an update, without the replies.
+      * **Copy body text** to copy the text of an update. 
+      * **Quote reply** to open a new comment box where the original comment is quoted in a new reply and is marked as a block quote.
 
-     詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+         For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-1. コメントの右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png)、「**削除**」の順にクリックして追加したコメントを削除します。詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
-1. （オプション）「**返信**」をクリックして既存のコメントに返信し、上記の手順 5～9 に従います。更新情報の返信について詳しくは、[更新情報に返信する](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)を参照してください。<!--insure this stays accurate-->
-1. （条件付きおよびオプション）「更新」セクションの表示エリアの外側に表示されるコメントを他のユーザーが追加した場合は、画面下部の青い「**新しいコメントバナー**」内の「**表示**」をクリックして、これらのコメントを表示します。
-
+1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). (**********insure this stays accurate*********)
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
+   
    ![](assets/blue-new-comments-banner-with-view-button.png)
+   
+   Additional comments display at the bottom of the screen.
+1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
-   追加のコメントが画面の下部に表示されます。
-1. （オプション）**次に類似**&#x200B;アイコン ![](assets/like-icon.png) をクリックして、他のユーザー追加したコメントに「いいね！」します。アイコンは「いいね！」の数に応じて更新されます。
-
-1. （オプション）「**システムアクティビティ**」タブをクリックして、システムによって記録された更新を表示します。目標が更新されると、Workfront はその更新に関するメモを生成し、「システムアクティビティ」タブに表示します。Workfront は、結果、アクティビティ、またはプロジェクトが目標に追加されたときや、結果が更新されたときに、システムアップデートも記録します。<!--ensure the casing on the tab has not changed-->
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
 
 

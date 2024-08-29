@@ -6,10 +6,10 @@ description: CEO、マネージャー、または個人の投稿者であって�
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 88%
+source-wordcount: '711'
+ht-degree: 90%
 
 ---
 
@@ -31,9 +31,8 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li>
-  または
-  <li>Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 </li></ul> </p>
+  <ul><li>究極の計画 </li></ul>
+   </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
   <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>

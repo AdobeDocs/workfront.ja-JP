@@ -3,8 +3,9 @@ title: ワークスペースの概要
 description: ワークスペースは、チームが使用するレコードタイプのコレクションで、チームの作業ライフサイクルを表します。組織単位のワークフローに合わせて、Adobe Workfront Planning のワークスペースを完全にカスタマイズできます。
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 25%

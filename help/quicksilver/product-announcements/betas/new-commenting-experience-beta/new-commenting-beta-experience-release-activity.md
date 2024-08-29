@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 96%
@@ -33,9 +33,9 @@ ht-degree: 96%
 >
 >新しいコメント機能のベータ版プログラムは 2023 年 4 月に開始し、2023 年 10 月に終了して、2023 年 10 月リリースを迎えました。
 > 
+>新しいコメントエクスペリエンスに含まれているすべての機能は、2024 年 4 月 11 日（PT）以降、実稼動環境のすべての顧客が使用できるようになりました。
 >詳しくは、[新しいコメントエクスペリエンス](../../betas/new-commenting-experience-beta/unified-commenting-experience.md)を参照してください。
 >
->新しいコメントエクスペリエンスに含まれているすべての機能は、2024 年 4 月 11 日（PT）以降、実稼動環境のすべての顧客が使用できるようになりました。
 
 ## 新しいコメントエクスペリエンスの場所とリリースタイムライン
 

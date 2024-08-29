@@ -6,10 +6,10 @@ description: 目標の進捗は、アクティビティ、結果、子目標な�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 95%
+source-wordcount: '834'
+ht-degree: 94%
 
 ---
 
@@ -35,12 +35,6 @@ Workfront Goals ライセンスについては、Workfront のアカウントマ
 Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 Adobe Workfront は、進捗状況インジケーターの進捗に基づいて、目標の進捗状況を自動的に計算します。
-
-## 前提条件
-
-開始するには、まず以下が必要です。
-
-* メインメニューの Workfront Goals 領域を含んだレイアウトテンプレート。
 
 ## 目標の進捗としきい値の概要
 

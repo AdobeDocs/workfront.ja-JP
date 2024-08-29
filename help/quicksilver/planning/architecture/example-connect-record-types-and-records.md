@@ -3,9 +3,10 @@ title: レコードタイプとレコードの接続の例
 description: ここでは、Adobe Workfront Planning レコードタイプとWorkfront プロジェクトオブジェクトタイプの間の関連付けを作成する方法の例について説明します。 また、Workfront Planning レコードを個々のプロジェクトに接続する方法についても説明します。
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 425c3d3afb892ac83a10bbd36efb4c7d9712c4dc
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 74%

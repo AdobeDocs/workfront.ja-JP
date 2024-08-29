@@ -1,15 +1,15 @@
 ---
 title: 「Adobe Workfront Planning のアクセス情報：記事索引」
-description: Workfront 管理者は、Adobe Workfront Planning を使用するユーザーにアクセス権を付与する必要があります。次の記事には、ユーザーが Workfront Planning を使用するのに必要なアクセス権に関する情報が含まれています。
+description: Workfront 管理者は、Adobe Workfront Planning を使用するユーザーにアクセス権を付与する必要があります。次の記事では、Workfront Planning を使用するために必要なアクセス権と、アクセス権がない場合に権限をリクエストおよび付与する方法について説明します。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 79%
+source-wordcount: '121'
+ht-degree: 57%
 
 ---
 

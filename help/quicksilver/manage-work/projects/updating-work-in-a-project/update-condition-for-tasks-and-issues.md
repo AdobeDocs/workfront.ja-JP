@@ -6,10 +6,10 @@ description: タスクまたはイシューの状況は、進行状況を示す�
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
 source-wordcount: '1020'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 65%
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>状況を表示するための、タスクおよびイシューに対する表示以上の権限</p>
-   <p>状況を更新するための、タスクおよびイシューに対する管理権限</p>
+   <p>条件を更新するタスクおよび問題に関するContribute権限</p>
   </td> 
   </tr> 
  </tbody> 

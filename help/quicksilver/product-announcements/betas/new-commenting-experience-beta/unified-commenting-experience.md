@@ -9,10 +9,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: 3bb0baa2e8831827f32156b1772fa9ee33694950
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 89%
+source-wordcount: '1091'
+ht-degree: 88%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->この記事では、新しいコメントエクスペリエンスにリリースされた機能について説明します。
+>この記事の情報では、新しいコメントエクスペリエンスにリリースされた機能について説明しています。
 >
 >新しいコメント機能のベータ版プログラムは 2023 年 4 月に開始し、2023 年 10 月に終了して、2023 年 10 月リリースを迎えました。
 >

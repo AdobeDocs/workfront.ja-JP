@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '2984'
-ht-degree: 95%
+source-wordcount: '3007'
+ht-degree: 92%
 
 ---
 
@@ -378,7 +378,7 @@ You can add updates to the following objects:
    1. リンクを挿入するアップデート内をクリックします。
    1. **リッチテキスト**&#x200B;ツールバーで、**ハイパーリンク**&#x200B;アイコン ![](assets/link-icon.png) をクリックします。
 
-   1. **URL** の下に表示される&#x200B;**リンクを作成**&#x200B;ボックスに、リンク先のソースの URL を入力またはペーストします。
+   1. **リンクを作成** ボックスの **URL** に、リンク先のソースの URL を入力または貼り付けます。
 
    1. **表示するテキスト**&#x200B;で、リンクテキストを入力またはペーストします。
    1. 「**保存**」をクリックします。
@@ -386,7 +386,7 @@ You can add updates to the following objects:
 1. （オプション）更新に画像を添付するには、次のいずれかの操作を実行します。
 
    * コンピューター上に画像を保存し、新しいコメントエリアにドラッグアンドドロップします。
-   * お使いのコンピューターからスクリーンショットをコピーし、コメントに貼り付けます。<!-- This is not available in the legacy commenting experience.-->
+   * コンピューターからスクリーンショットをコピーし、コメントに貼り付けます。
    * **画像を追加**&#x200B;アイコン ![](assets/add-image-mountain-with-plus-icon.png) をクリックし、お使いのコンピューター上で画像を参照します。
 
 
@@ -399,7 +399,8 @@ You can add updates to the following objects:
    >* 画像アイコンや、添付ファイルを追加アイコンを表示するには、Workfront 管理者が、画像の追加を Workfront インターフェイスエリアの「フィードの環境設定を更新」セクションで有効にする必要があります。詳しくは、[ユーザーの更新用に環境設定を指定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)を参照してください。
    >* 画像ファイルの最大サイズは 7 MB です。サポートされる画像ファイルタイプは、.jpg、.gif および .png です。
    >* 画像はオブジェクトの「更新」セクション、およびメインメニューの「ドキュメント」エリアからアクセスできます。
-   >* 画像を貼り付けるには、新しいコメントを右クリックするか、Windows の場合は Ctrl + V（Mac の場合は ⌘ + V）キーを押します。
+   >キーボードの組み合わせを使用して、コンピューターからスクリーンショットをコピーできます。例えば、Windows コンピューターの場合は Print Screen 機能をコピーできます。
+   >* 画像を貼り付けるには、新しいコメントを右クリックして **貼り付け** をクリックするか、キーボードの Windows の場合は Ctrl + V キー、Macの場合は⌘ + V キーを押します。
    >* 画像は含むがテキストを含まないアップデートを送信できます。
    >* 画像を含むコメントを削除すると、その画像は「更新」セクションおよびドキュメントエリアから削除されます。コメントを編集して画像を削除すると、その画像もドキュメントエリアから削除されます。
    >* コメントに添付された画像をドキュメントエリアから削除すると、その画像はコメントからも削除されます。

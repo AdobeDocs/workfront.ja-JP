@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '421'
 ht-degree: 22%
 
 ---
@@ -22,7 +22,7 @@ Workfront Planning で次のアクションが発生した場合、アプリ内�
 
 * レコード ページのコメントに追加された人がいます
 * ビューまたはワークスペースにアクセスする権限を要求するユーザーがいます
-* 他のユーザーが、ビューまたはワークスペース <!--test this - could not test before GA--> ージへのアクセス権限を付与または拒否します
+* 他のユーザーからビューまたはワークスペース <!--I could not test this but Isk confirmed--> へのアクセス権が付与されている
 
 ## アクセス要件
 
@@ -62,7 +62,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -171,7 +171,7 @@ OLD:
 1. Workfrontでは、次の通知を利用できます。
 
    * **メンション**:Workfront Planning で誰かがコメントであなたをタグ付けすると、通知が届きます
-   * **リクエスト**:Workfront Planning オブジェクトへのアクセス権をリクエストしたときに通知が届きます
+   * **リクエスト**:Workfront Planning オブジェクトへのアクセス権が要求または付与されると、通知が届きます
 
    通知の管理について詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) を参照してください。
 

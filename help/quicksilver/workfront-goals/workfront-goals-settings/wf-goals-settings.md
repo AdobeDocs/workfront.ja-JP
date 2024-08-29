@@ -8,10 +8,10 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: 7cdef9d5-e37b-4f1f-9293-39c79781590a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 82%
+source-wordcount: '123'
+ht-degree: 80%
 
 ---
 
@@ -33,8 +33,6 @@ ht-degree: 82%
 >Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
 > 
 >Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
-
-Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 この節では、次の記事を扱います。
 

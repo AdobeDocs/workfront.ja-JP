@@ -1,42 +1,35 @@
 ---
 title: ビューまたはWorkspaceに対する権限のリクエスト
-description: 以前に共有されたことがないリンクを他のユーザーから送信されたビューまたはワークスペースに対する権限をリクエストできます。
+description: アクセス権のないビューまたはワークスペースへのリンクが他のユーザーと共有されている場合、そのビューまたはワークスペースを開くためのアクセス許可を要求できます。 この記事では、開くことができない共有リンクが発生した場合に、ビューまたはワークスペースへのアクセスをリクエストする手順について説明します。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 16%
+source-wordcount: '562'
+ht-degree: 14%
 
 ---
 
-
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
 
 # ビューまたはワークスペースに対する権限のリクエスト
 
-以前に共有されたことがないリンクを他のユーザーから送信されたビューまたはワークスペースに対する権限をリクエストできます。
+アクセス権がないビューまたはワークスペースへのリンクが他のユーザーによって共有されている場合、そのビューまたはワークスペースに対する権限をリクエストできます。
 
 ビューに対する権限のリクエストは、ワークスペースに対する権限のリクエストと似ています。
+
+この記事では、他のユーザーがリンクを共有していて、共有ページにアクセスできない場合に、ビューまたはワークスペースへのアクセスをリクエストする方法について説明します。
+
+ビューとワークスペースに対する権限の付与については、次の記事を参照してください。
+
+* [ビューの共有](/help/quicksilver/planning/access/share-views.md)
+* [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## アクセス要件
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 Workfront Planning にアクセスするには、次のものが必要です：
 
@@ -128,10 +121,6 @@ Workfront Planning にアクセスするには、次のものが必要です：
    * メール通知
      ![](assets/email-notification-for-access-request.png)
 
-   ビューとワークスペースに対する権限の付与については、次の記事を参照してください。
-
-   * [ビューの共有](/help/quicksilver/planning/access/share-views.md)
-   * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
-1. （条件付き）ビューまたはワークスペースマネージャーからビューまたはワークスペースに対する権限を付与されると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this-->
+1. （条件付き）ビューまたはワークスペースマネージャーからビューまたはワークスペースに対する権限を付与されると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this, but Isk confirmed.-->
 
 
