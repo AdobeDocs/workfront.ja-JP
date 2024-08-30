@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 35bc6db1bc9244db6b21a175cee8e02f8188312e
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
 source-wordcount: '14363'
 ht-degree: 93%
@@ -1512,7 +1512,7 @@ ht-degree: 93%
       * [チームリクエストの概要](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
       * [作業とチームのリクエストの管理](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
    * チームとグループに関するヒント、テクニックおよびトラブルシューティング {#tips-tricks-people-teams-groups}
-      * [チームとグループに関するヒント、テクニックおよびトラブルシューティング](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
+      * [チームおよびグループ向けのヒント、テクニック、トラブルシューティング](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [ユーザー名は既に使用されています](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * レポート {#reporting}
    * [レポートとダッシュボード：記事インデックス](reports-and-dashboards/reports-and-dashboards-overview.md)

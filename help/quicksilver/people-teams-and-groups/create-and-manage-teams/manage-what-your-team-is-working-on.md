@@ -6,10 +6,10 @@ description: チームが現在作業しているタスクとイシューのカ�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bdec4b9-18b0-4981-a067-f47e259bc708
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
 source-wordcount: '101'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 

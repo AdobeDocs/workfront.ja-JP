@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 1a2f6e95b5b229f9b749290fcb1767ff794ddd6d
+source-git-commit: ad5d49baddcacaf59c0194fcd3335e71448ae5f7
 workflow-type: tm+mt
 source-wordcount: '5546'
 ht-degree: 89%
@@ -304,7 +304,7 @@ ht-degree: 89%
    * ドロップダウン
    * 複数選択ドロップダウン
 
-   ![ キャンバスにフィールドをドラッグします ](assets/drag-field-to-section-041524.png)
+   ![ キャンバスにフィールドをドラッグします ](assets/drag-field-to-section.png)
 
 1. 画面の右側で、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 
@@ -579,7 +579,7 @@ ht-degree: 89%
      </tr> 
      <tr> 
       <td role="rowheader">名前</td> 
-      <td> <p>（必須）この名前は、システムによるフィールドの識別方法です。初めてウィジェットを設定してラベルを入力すると、それに一致するように、名前フィールドが自動的に入力されます。ただし、ラベルフィールドと名前フィールドは同期されません。これにより、システムで表示される名前を変更することなく、ユーザーに表示されるラベルを自由に変更できます。</p> 
+      <td> <p>（必須）この名前は、システムによるフィールドの識別方法です。初めてウィジェットを設定してラベルを入力すると、それに一致するように、名前フィールドが自動的に入力されます。ただし、ラベルフィールドと名前フィールドは同期されません。これにより、システムで表示される名前を変更することなく、ユーザーに表示されるラベルを自由に変更できます。</p>
       <p>詳しくは、<a href="design-a-form.md#notes-on-field-names-and-labels"> フィールド名とラベルに関するメモ </a> を参照してください。</p> </td>
      </tr> 
       <td role="rowheader">手順</td> 

@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: 「作業をする」ボタンを「開始」ボタンに置き換えます
+title: '[ 作業をする ] ボタンを [ 開始 ] ボタンに置き換える'
 description: Adobe Workfront のデフォルト設定には、割り当てられた項目に対して表示されるタスクとイシューの「作業をする」ボタンが含まれています。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: 24bb9b5c0836196a1c6e15f828eb47bbd489ef25
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 100%
+source-wordcount: '793'
+ht-degree: 95%
 
 ---
 
@@ -25,26 +25,31 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
-   <td> <p>任意</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>プラン</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプランやライセンスの種類を確認するには、[!DNL Workfront] 管理者に連絡してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 「[!UICONTROL 開始]」ボタンを設定
 
@@ -66,7 +71,7 @@ ht-degree: 100%
 
 「開始」ボタンを設定するには、以下のように行います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![](assets/main-menu-icon.png)をクリックし、次に「**[!UICONTROL チーム]**」をクリックします。
+{{step1-to-team}}
 
 1. **[!UICONTROL チーム]**&#x200B;ドロップダウンメニューで、チームを選択します。\
    または\
@@ -87,9 +92,9 @@ ht-degree: 100%
 
 ユーザーをホームチームに関連付けるには、次の操作を実行します。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step-1-to-users}}
 
-1. 「**[!UICONTROL ユーザー]**」をクリックし、次にホームチームに関連付ける 1 人または複数のユーザーを選択します。
+1. ホームチームに関連付ける 1 人または複数のユーザーを選択します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。\
    ![](assets/user-settings-nwe-350x291.png)
 

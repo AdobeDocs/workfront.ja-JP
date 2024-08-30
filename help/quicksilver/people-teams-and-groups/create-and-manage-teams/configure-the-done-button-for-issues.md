@@ -1,15 +1,15 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
-title: イシューに「完了」ボタンを設定
+title: 問題の「完了」ボタンの設定
 description: 「完了」ボタンは、タスクまたはイシューのステータスを自動的に設定できます。デフォルトで、担当者がワーク項目で「完了」をクリックすると、Adobe Workfront はイシューを解決済みとしてマークします。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: 1f749ba9a54ce75a917e4b1e95713ac7abeaa66b
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 100%
+source-wordcount: '1170'
+ht-degree: 97%
 
 ---
 
@@ -28,36 +28,41 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
-   <td> <p>任意</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td>[!UICONTROL Resolved] ステータスが削除された場合に [!UICONTROL Done] ボタンを設定するには、システム管理者のアクセス権が必要です</td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>解決済みステータスが削除された場合、「完了」ボタンを設定するには、システム管理者アクセス権が必要です</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-## チームの[!UICONTROL 完了]ボタンを設定する
++++
+
+## チームの「[!UICONTROL 完了]」ボタンの設定
 
 「[!UICONTROL 完了]」ボタンを使用して、作業アイテムに適用されるステータスを変更できます。また、複数のステータスを設定し、ユーザーが適切なステータスを選択できるようにすることもできます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、「**[!UICONTROL チーム]**」をクリックします。
+{{step1-to-team}}
 
 1. **[!UICONTROL チームを切り替える]**&#x200B;アイコンをクリックしたあと、ドロップダウンメニューから新規チームを選択するか、検索バーでチームを検索します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックし、次に「**[!UICONTROL 編集]**」をクリックします。

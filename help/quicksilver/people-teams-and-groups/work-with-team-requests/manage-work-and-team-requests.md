@@ -2,15 +2,15 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: 作業とチームのリクエストの管理
+title: 作業およびチーム要求の管理
 description: リクエストは、保留中のタスクまたはイシューの割り当てを表します。ワークリクエストは個人に対して行われ、チームリクエストはチームに対して行われます。
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 91%
 
 ---
 
@@ -24,26 +24,36 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
-   <td> <p>任意</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>リクエストの割り当てまたは作業には「レビュー」以上、リクエストの再割り当てには「ワーク」以上を選択します。</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+   <p>リクエストの割り当てまたは作業を行うには：
+   <p>新規：Light 以上 </br>
+    または </br>
+   現在：レビューまたはそれ以上</p>
+   <p>リクエストを再割り当てするには：
+   <p>新規：標準 </br>
+    または </br>
+   現在：仕事以上</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスの種類を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## チームにリクエストを割り当てる {#assign-a-request-to-a-team}
 
@@ -64,7 +74,7 @@ ht-degree: 100%
 
 チームページからチームにリクエストを手動で割り当てるには、次の手順に従います。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**[!UICONTROL チーム]**」をクリックします。
+{{step1-to-team}}
 
 1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 
@@ -80,7 +90,8 @@ ht-degree: 100%
 
 チームに割り当てられたリクエストを再割り当てすることができます。
 
-1. [!DNL Adobe Workfront]の右上隅で&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**[!UICONTROL チーム]**」の順にクリックします。
+{{step1-to-team}}
+
 1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン![チームを切り替えアイコン](assets/switch-team-icon.png)をクリックして、次にドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 1. 左側のナビゲーションパネルで、「**[!UICONTROL チームリクエスト]**」を選択します。
 1. **[!UICONTROL 再割り当て]**&#x200B;アイコンをクリックします。

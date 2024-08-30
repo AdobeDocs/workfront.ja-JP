@@ -2,15 +2,15 @@
 content-type: reference
 product-area: user-management
 navigation-topic: people-teams-and-groups
-title: 他のユーザーにダイレクトメッセージを送信
+title: 他のユーザーへのダイレクトメッセージの送信
 description: Adobe Workfront を使用すると、作業アイテムに関係のないメッセージを他の Workfront ユーザーに直接、迅速かつ簡単に送信できます。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 4f63bca8634663c4106be0175851af0b982d3408
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '354'
-ht-degree: 100%
+source-wordcount: '411'
+ht-degree: 95%
 
 ---
 
@@ -46,7 +46,35 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプランやライセンスのタイプを確認するには、[!DNL Workfront] 管理者に連絡してください。
+&#42;保有するプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+   <p>新規：ライト以上</p>
+   <p>または</p>
+   <p>現在：レビュー以上</p></td>
+  </tr> 
+ </tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 作業アイテムとは関係のないメッセージを別のユーザーに送信
 

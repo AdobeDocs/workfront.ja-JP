@@ -1,15 +1,15 @@
 ---
 product-area: user-management
 navigation-topic: collaboration
-title: 組織図の表示
+title: 組織図を表示する
 description: 組織図機能を使用すると、特定の Adobe Workfront ユーザーに関連付けられた組織図を表示できます。組織図は、特定の部門の構造を視覚化する優れた方法です。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: 9693ac3792fec3eca6218a228f2067519ed433ac
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 100%
+source-wordcount: '143'
+ht-degree: 89%
 
 ---
 
@@ -19,30 +19,35 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
-   <td> <p>任意</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+   <p>新規：ライト以上</p>
+   <p>または</p>
+   <p>現在：レビュー以上</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ユーザーの組織図の検索
 
-1. [!DNL Adobe Workfront] の右上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)、プロファイル画像の横にあるユーザー名の順にクリックします。
+{{step1-click-profile-pic}}
 
 1. 左側のパネルで、「**[!UICONTROL 組織図]**」をクリックします。\
    ![組織図](assets/org-chart.png)

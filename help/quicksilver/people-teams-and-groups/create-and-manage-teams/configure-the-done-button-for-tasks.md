@@ -6,10 +6,10 @@ description: 「完了」ボタンは、タスクまたはイシューのステ�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
-source-git-commit: 62db557f6347004836fac1ea37e55d557dcc6b87
+source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '758'
+ht-degree: 97%
 
 ---
 
@@ -27,32 +27,37 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] プラン*</strong></p></td> 
-   <td> <p>任意</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong><p>[!DNL Adobe Workfront] ライセンス*</strong></p></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## チームの「[!UICONTROL 完了]」ボタンの設定
 
 「[!UICONTROL 完了]」ボタンを使用して、作業アイテムに適用されるステータスを変更できます。また、複数のステータスを設定し、ユーザーが適切なステータスを選択できるようにすることもできます。
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、「**[!UICONTROL チーム]**」をクリックします。
+{{step1-to-team}}
 
 1. **[!UICONTROL チームを切り替える]**&#x200B;アイコンをクリックしたあと、ドロップダウンメニューから新規チームを選択するか、検索バーでチームを検索します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックし、次に「**[!UICONTROL 編集]**」をクリックします。
