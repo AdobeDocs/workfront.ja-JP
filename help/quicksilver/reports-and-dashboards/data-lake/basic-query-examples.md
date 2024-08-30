@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '245'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 0%
 
 ### シナリオ：
 
-財務統合という名前のカスタムフォームを利用する組織。 このフォームは、すべてのプロジェクトに添付され、次のフィールドが含まれています。
+組織は、財務統合という名前のカスタムフォームを使用します。 このフォームは、すべてのプロジェクトに添付され、次のフィールドが含まれています。
 
 * **ビジネスユニット** – 文字列を含むカスタムフィールド。
 * **ProjectID** – 数値の文字列を含むカスタムフィールド。

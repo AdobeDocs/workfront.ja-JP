@@ -4,10 +4,10 @@ description: 2024年第 4 四半期の管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 34%
+source-wordcount: '290'
+ht-degree: 23%
 
 ---
 
@@ -17,11 +17,24 @@ ht-degree: 34%
 
 2024年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
 
+## 環境プロモーションパッケージのロールバック
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 8 月 29 日（PT）、高速リリースの実稼動：24.9 リリースを含む（2024 年 9 月 12 日（PT））、四半期リリースの実稼動：24.10 リリースを含む（2024 年 10 月）
+>
+
+環境のプロモーションをより柔軟かつ使いやすくするために、ロールバック機能を有効にしました。 現在は、24 時間以内にパッケージをロールバックでき、環境昇格パッケージの影響を受けた以前の設定をより簡単に復元できます。
+
+以前は、設定は手動で、または別の環境プロモーションパッケージを通じて復元されていました。
+
+環境プロモーションパッケージのロールバックについて詳しくは、[ 環境プロモーションパッケージのロールバック ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md) を参照してください。
+
 ## カスタムフォームデザイナーのレイアウトボタンでは、2 列または 3 列を使用できます
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 8 月 12 日（PT）、24.9 リリースを含む高速リリースの実稼動（2024 年 9 月）、四半期リリースの実稼動：未定
+>プレビューリリース：2024 年 8 月 12 日（PT）、高速リリースの実稼動：24.9 リリースを含む（2024 年 9 月 12 日（PT））、四半期リリースの実稼動：未定
 >
 >_この機能は段階的リリースの一部であり、9 月に限られた数のお客様が使用できるようになります。 フィードバックを収集している間、長い間プレビュー環境に残ります。_
 

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 55%
+source-wordcount: '1300'
+ht-degree: 54%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 55%
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>24.8 （2024 年 8 月）</li><li>24.9 （2024 年 9 月）</li><li>24.10 （2024 年 10 月）</li></ul> | <ul><li>24.10 （2024 年 10 月）</li></ul> |
+>| <ul><li>24.8 （2024 年 8 月 15 日（Pt））</li><li>24.9（2024年9月12日（PT））</li><li>24.10 （2024 年 10 月）</li></ul> | <ul><li>24.10 （2024 年 10 月）</li></ul> |
 >
 >各四半期の最終リリース（今四半期は 24.10）では、迅速リリーススケジュールのユーザーに対して、1 日早くリリースが届きます。
 >
@@ -58,6 +58,25 @@ ht-degree: 55%
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> 環境プロモーションパッケージのロールバック </a></p>
+                        <p>環境のプロモーションをより柔軟かつ使いやすくするために、ロールバック機能を有効にしました。 現在は、24 時間以内にパッケージをロールバックでき、環境昇格パッケージの影響を受けた以前の設定をより簡単に復元できます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年8月29日（PT）</p>
+                            </li>
+                            <li>
+                                <p>迅速リリースの実稼動：24.9 リリースの場合（2024 年 9 月 12 日（PT））</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動リリース：24.10 リリース（2024年10月）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> カスタムフォームデザイナーのレイアウトボタンでは、2 列または 3 列を使用できます </a></p>
                         <p>カスタムフォームデザイナーの「レイアウト」ボタンを使用すると、2 列または 3 列の作業領域から選択できます。 元のフォームデザイナーでは 3 つの列を使用し、フィールド設定は右端の列に表示されます。 2 つの列を選択すると、左端の列のフィールド ライブラリの横にフィールド設定が表示されます。</p>
                     </td>
@@ -67,7 +86,7 @@ ht-degree: 55%
                                 <p>プレビューリリース：2024年8月12日（PT）</p>
                             </li>
                             <li>
-                                <p>迅速リリースの実稼働：24.9 リリースの場合（2024 年 9 月）</p>
+                                <p>迅速リリースの実稼動：24.9 リリースの場合（2024 年 9 月 12 日（PT））</p>
                             </li>
                             <li>
                                 <p>すべてのお客様向けの実稼動リリース：未定</p>
@@ -192,6 +211,7 @@ ht-degree: 55%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアの Chromium 更新 </a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>デスクトッププルーフビューアは、インタラクティブプルーフの UI 要素の問題を解決する Chromium 126.0.6478.127 をサポートするようにアップグレードされています。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -217,6 +237,7 @@ ht-degree: 55%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontプランニングの一般提供 </a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Workfront Planning は、Workfrontライセンスに加えて、Workfront Planning ライセンスを購入したすべてのユーザーが利用できます。 Workfrontの計画について詳しくは、アカウント担当者にお問い合わせください。</p>
                         <p>各四半期の最新のWorkfront Planning リリース情報については、以下の <a href="#workfront-planning-enhancements">Workfront Planning の機能強化 </a> の節を参照してください。</p>
                     </td>
@@ -231,6 +252,7 @@ ht-degree: 55%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfrontで利用できるAdobeAI アシスタント </a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>作業を簡単に完了できるように、WorkfrontにAdobeの AI アシスタントを追加しました。 AI アシスタントは、次の方法で役立ちます。</p>
                         <ul>
                             <li>作業項目とドキュメントを要約すると、タスク、プロジェクト、アセットの一般的な理解をすばやく得ることができます。</li>
