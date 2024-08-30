@@ -7,9 +7,9 @@ description: ファイルの作成に使用するソフトウェア（Photoshop 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1052'
 ht-degree: 100%
 
 ---
@@ -181,11 +181,8 @@ Workfront には次の制限があります。
 > * PPSX - Microsoft PowerPoint スライドショー
 > * XLT - Microsoft Excel テンプレート
 > * XLTX - Microsoft Excel テンプレート
-
->[!WARNING]
-> セキュリティ上の問題が原因で、次の静的ファイルタイプは一時的にサポートされません。
->
 > * EPS - Encapsulated PostScript
+
 
 * AI - Adobe Illustrator Artwork
 * AIT - Adobe Illustrator Template
