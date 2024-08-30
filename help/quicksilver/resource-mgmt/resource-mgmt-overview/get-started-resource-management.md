@@ -2,15 +2,15 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-management-overview
-title: リソース管理 の概要
+title: リソース管理の基本を学ぶ
 description: リソース管理を使用すると、リソースの空き時間に基づいてリソースの使用状況を正確に予測し、完了すべき作業を時間どおり、かつ予算どおりに完了するようにシステムを設定できます。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
-source-git-commit: c80d9b0b7eb2a638af9e0a11ca3038ed99ecf1ee
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '1167'
-ht-degree: 100%
+source-wordcount: '1173'
+ht-degree: 96%
 
 ---
 
@@ -137,11 +137,11 @@ Workfront でのリソース管理プロセスには、以下の段階があり�
 リソース管理ツールにアクセスするには、次のいずれかのユーザーであり、次のアクセス権と権限を持っている必要があります。
 
 * システム管理者。
-* プランライセンスを持つユーザー。
+* Standard または Plan のライセンスを持つユーザー。
 
   ワークライセンスを持つユーザーは、プロジェクトのワークロードバランサーを使用して、割り当てと配分を管理できます。
 
-  特定のリソース管理ツールを使用するには、ワーク以上のライセンスに加え、次のアクセス権が必要です。
+  特定のリソース管理ツールを使用するには、ワーク以上のライセンス（または標準ライセンス）に加えて、次のものが必要です。
 
    * リソース管理に対する編集アクセス権（ワークロードバランサーで割り当てを行う場合は不要）
    * リソースプランナーでコスト情報を表示するための、財務データに対する編集アクセス権
@@ -168,7 +168,6 @@ Workfront のリソース管理ツールを効率的に使用するには、一�
 Workfront の各リソース管理ツールの要件について詳しくは、以下を参照してください。
 
 * [リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md)の記事の[リソースプランナーで作業するための前提条件](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner)の節。
-  <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * [ワークロードバランサーの概要](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)の記事の[ワークロードバランサーの使用に関するベストプラクティス](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer)の節。
 * [Adobe Workfront でのリソース予算計上に必要なアクセス](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)。
 * [ワークロードバランサーでリソースを管理するために必要なアクセス](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)。

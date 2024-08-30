@@ -7,16 +7,16 @@ author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: aaf8e6ab-2958-44ad-96ca-0f3d842dd800
-source-git-commit: 36599722aafadcbbc630650a94005fd73b3e517e
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
 source-wordcount: '72'
-ht-degree: 100%
+ht-degree: 80%
 
 ---
 
 # リソースプール
 
-リソースプールは、Adobe Workfront でのリソースの管理に役立つ、ユーザーのコレクションです。
+リソースプールは、Adobe Workfrontでのリソースの管理に役立つユーザーの集まりです。
 
 次の記事では、リソースプールを使用して Adobe Workfront でプロジェクトを管理する場合の機能について説明します。
 

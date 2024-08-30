@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 20cb940de1d42057ed11e4e7d59f1875cdba38bb
+source-git-commit: a9d507bfcc0a602e71bcdd3142d63cc40175ebf4
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 95%
+source-wordcount: '407'
+ht-degree: 85%
 
 ---
 
@@ -110,13 +110,25 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 1. 「**別のユーザーとしてログイン**」を選択します。
 1. 環境設定をリセットするユーザーの名前を入力し始め、ドロップダウンリストに表示されたら名前をクリックします。
 1. 「**ログイン**」を選択します。
-1. Web ブラウザーの上部にある「URL」フィールドで、`workfront.com` の後に `/resetUser` を追加します。
+1. 組織がAdobeの統合エクスペリエンスにオンボーディングされていない場合は、次の手順に従います。
 
-   >[!NOTE]
-   >
-   >大文字と小文字が区別されます。U 文字は大文字で、残りの文字は小文字にする必要があります。例：
-   >
-   >`https://company_domain.my.workfront.com/resetUser`
+   * Web ブラウザーの上部にある「URL」フィールドで、`workfront.com` の後に `/resetUser` を追加します。
+
+     >[!NOTE]
+     >
+     >大文字と小文字が区別されます。U 文字は大文字で、残りの文字は小文字にする必要があります。例：
+     >
+     >`https://company_domain.my.workfront.com/resetUser`
+
+1. 組織がAdobeの統合エクスペリエンスにオンボーディングされた場合は、次の手順に従います。
+
+   * Web ブラウザーの上部にある URL フィールドで、`workfront` の後に `/resetUser` を追加します。
+
+     >[!NOTE]
+     >
+     >大文字と小文字が区別されます。U 文字は大文字で、残りの文字は小文字にする必要があります。例：
+     >
+     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. **Enter** キーを押します。
 1. すべてのユーザー環境設定をリセットするには、「**リセット**」を選択します。
