@@ -6,10 +6,10 @@ description: 自分または他のユーザーが Adobe Workfront Goals に追�
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 024c612d46848c55529e902a00d481588d261584
+source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 94%
+source-wordcount: '1366'
+ht-degree: 95%
 
 ---
 
@@ -31,9 +31,8 @@ ht-degree: 94%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li>
-  または
-  <li>Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 </li></ul> </p>
+  <ul><li>究極の計画 </li> </ul>
+
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
   <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
