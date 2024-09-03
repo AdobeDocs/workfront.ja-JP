@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '7432'
+source-wordcount: '7462'
 ht-degree: 37%
 
 ---
@@ -98,6 +98,11 @@ Workfrontの計画オブジェクトに対して、次の 2 つのパッケー�
 ワークスペースまたはビューへのアクセスをリクエストすると、アクセスをリクエストしたユーザーに、リクエストに関するメール通知が届きます。 リクエストが許可されると、リクエストが承認されたことを確認するメール通知が届きます。
 
 権限が付与されると、メール通知からビューまたはワークスペースにアクセスできます。 <!--see if they also get an in-app notification-->
+
+>[!NOTE]
+>
+>権限リクエストからビューやワークスペースに対する権限をリクエストおよび付与できるようにするには、組織がAdobeの Unified Experience にオンボーディングされている必要があります。
+
 
 詳しくは、[ ビューまたはワークスペースへの権限のリクエスト ](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
 

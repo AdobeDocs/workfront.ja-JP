@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '3609'
+source-wordcount: '3622'
 ht-degree: 77%
 
 ---
@@ -225,7 +225,7 @@ OLD:
 
 ### 1 行テキスト {#single-line-text}
 
-1 行テキストフィールドは、限られた英数字の情報を取り込みます。例えば、所有者、関係者、チームまたは組織単位の情報を 1 行テキストフィールドに取り込むことができます。1 行テキストフィールドのコンテンツは、250 文字までです。<!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+1 行テキストフィールドは、限られた英数字の情報を取り込みます。例えば、所有者、関係者、チームまたは組織単位の情報を 1 行テキストフィールドに取り込むことができます。1 行テキストフィールドのコンテンツは、1,000 文字までです。<!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**1 行テキスト**&#x200B;フィールドタイプを選択します。
 
@@ -245,9 +245,12 @@ OLD:
 
 >[!TIP]
 >
->* 段落フィールドのコンテンツは、1,000 文字まで可能です。
+>* 1 つのレコードタイプに対して最大 20 個の段落フィールドを持つことができます。
 >
+>* 段落フィールドのコンテンツは、100,000 文字までです。
 >* リッチテキスト形式を使用して、テーブルビューやレコードの詳細ページに表示される際に、段落フィールドの内容を向上させることができます。詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+>
+
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**段落**&#x200B;フィールドタイプを選択します。
 

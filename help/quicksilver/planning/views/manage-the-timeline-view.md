@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2622'
 ht-degree: 60%
 
 ---
@@ -403,7 +403,7 @@ this is not possible right now; if this is the same functionality as the table v
 * タイムラインビューで、選択したレコードタイプのレコードの下に、接続されたレコードまたはオブジェクトを表示できます。
 * 分類機能を使用すると、タイムラインビューに以下を表示できます。
    * 選択したレコードタイプに接続されたWorkfront Planning レコード。
-   * 選択されたレコードタイプに接続されたWorkfront（************* またはAEM Assets *************）オブジェクトタイプ。
+   * 選択したレコードタイプに接続されたWorkfront オブジェクトタイプまたはExperience Managerアセット。
    * 選択したレコードタイプに接続されたレコードに接続されている、他のアプリケーションのWorkfront Planning レコードまたはオブジェクト。
 
      例えば、キャンペーンをポートフォリオに接続できます。 さらに、別のレコードタイプである製品をプロジェクトやキャンペーンと関連付けることができます。 キャンペーンタイムライン表示を作成する場合、ポートフォリオ、製品およびプロジェクトごとにキャンペーンを分類できます。

@@ -5,15 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 04b0ada9b97445b9b05602b39a6d7ebce7d0cee9
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '615'
 ht-degree: 14%
 
 ---
 
 
 # ビューまたはワークスペースに対する権限のリクエスト
+
+>[!IMPORTANT]
+>
+>この記事で説明されている機能は、組織がAdobeの統合エクスペリエンスにオンボーディングされた場合にのみ使用できます。
+>
+>詳しくは、[Workfront の Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+
 
 アクセス権がないビューまたはワークスペースへのリンクが他のユーザーによって共有されている場合、そのビューまたはワークスペースに対する権限をリクエストできます。
 
@@ -66,6 +73,8 @@ Workfront Planning にアクセスするには、次のものが必要です：
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p><b>重要</b></p>
+<p>組織内のユーザーは、組織がAdobeの Unified Experience にオンボーディングされている場合にのみ、ビューとワークスペースに対する権限をリクエストできます。 </p>
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 

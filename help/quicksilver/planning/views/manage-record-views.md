@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: 1e62d5c7eff86432b4914793d75cdf4f835f3d5d
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 66%
+source-wordcount: '1392'
+ht-degree: 64%
 
 ---
 
@@ -356,10 +356,12 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    ![](assets/show-collaborators-toggle-selected.png)
 
-1. （条件付き）テーブルビューを開くと、他のユーザーが編集しているフィールドは、テーブルビューでのアバターの概要に対応するカラーで描画されます。
+1. （条件付き）テーブルビューを開くと、他のユーザーがアクティブに編集しているフィールドが、テーブルビューでのアバターの概要に対応する色でハイライト表示されます。
+
+   アバターのハイライト色がグレーの場合、ユーザーは 30 秒以上前にレコードのアクティブな編集を停止しました。
 
    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >
-   >任意の表示から「**共同作業者を表示**」切り替えスイッチを選択できます。 編集したフィールドは、テーブルビューでのみ外枠が表示されます。
+   >任意の表示から「**共同作業者を表示**」切り替えスイッチを選択できます。 他のユーザーが現在編集しているフィールドの輪郭は、テーブルビューでのみ表示されます。
