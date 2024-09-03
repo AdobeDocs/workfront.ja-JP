@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion マッピングパネルでは、次の一�
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: a5130e551ad73717796bfac206d99799efc7987d
+source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 96%
+source-wordcount: '364'
+ht-degree: 75%
 
 ---
 
@@ -73,6 +73,12 @@ ht-degree: 96%
 
 式が true に評価される場合は、`value1` を返します。それ以外の場合は `value2` を返します。
 
+2 つ以上の式が true と評価された場合にのみ値を返す if ステートメントを作成するには、`and` キーワードを使用します。
+
+`if` ステートメントを組み合わせるには、`and` 演算子と `or` 演算子を使用します。
+
+![and 演算子 ](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+
 >[!INFO]
 >
 >**例：**
@@ -81,9 +87,14 @@ ht-degree: 96%
 >
 >    戻り値 A
 >
->* `if( = 2 ; A ; B )`
+>* `if( 1 = 2 ; A ; B )`
 >
 >   戻り値 B
+>
+>* `if( 1 = 2 and 1 = 2 ; A ; B )`
+>
+>    戻り値 B
+>   
 
 ## [!UICONTROL ifempty (value1; value2)]
 
@@ -107,7 +118,7 @@ ht-degree: 96%
 
 ## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-1 つの値（式と呼ばれます）を値のリストに対して評価し、最初に一致した値に対応する結果を返します。
+（式と呼ばれる） 1 つの値を値のリストと照合して評価します。最初に一致した値に対応する結果が返されます。 `else` 値を含めるには、最終的な式または値の後に追加します。
 
 >[!INFO]
 >
@@ -123,7 +134,9 @@ ht-degree: 96%
 >
 >* `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 >
->  戻り値 4
+>   戻り値 4
+>   
+>   この関数では、4 は式が適用されない場合に返される値（`else` 値）です。
 
 ## [!UICONTROL omit(object; key1; [key2; ...])]
 
