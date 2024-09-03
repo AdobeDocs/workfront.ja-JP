@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 54%
+source-wordcount: '1361'
+ht-degree: 53%
 
 ---
 
@@ -206,6 +206,24 @@ ht-degree: 54%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアの Windows ユーザーの空白の画面の修正 </a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>新しい 2.1.36 デスクトッププルーフビューアバージョンで、一部の Windows ユーザーがビューアを開いた後に空白の画面が表示される問題を修正しました。 </p>
+                        <p>Windows ユーザー用の新しいバージョン：2.1.37</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年8月30日（PT）</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 8 月 30 日（PT）</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
