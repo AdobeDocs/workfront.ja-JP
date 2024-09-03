@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 96%
+source-wordcount: '604'
+ht-degree: 87%
 
 ---
 
@@ -104,11 +104,13 @@ or billing record
 1. 「**詳細**」セクションで、次のいずれかの操作を行って、詳細ビューに表示する項目をカスタマイズします。
 
    * 任意のセクションヘッダー ![](assets/move-icon---dots.png) をドラッグして、順序を変更します。
-   * **概要**&#x200B;および&#x200B;**カスタムフォーム**&#x200B;でオプションを有効または無効にして、それらを表示または非表示にします。
+   * 様々な領域（「概要」 **、「財務**、「カスタムForms **** など **の下にあるオプションを有効または無効にして、表示と非表示を切り替** ます。
 
      これらのセクションの 1 つですべてのフィールドを非表示にした場合、セクション全体が非表示になります。
 
-     すべてのフィールドは、デフォルトで有効になっています。
+     すべてのフィールドは、デフォルトで有効になっています。 ある領域の **すべてを選択** チェックボックスをオンまたはオフにして、その領域のすべてのフィールドを表示または非表示にすることができます。
+
+   ![ レイアウトテンプレートの詳細ビュー ](assets/layout-template-details-view.png)
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 
