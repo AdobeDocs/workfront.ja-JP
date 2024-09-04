@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Adobe Workfront リソースプランナーを使用してリソースの可用性と割り当てをレビューする
+title: Adobe Workfront リソースプランナーを使用して、リソースの空き時間と割り当てを確認する
 description: リソースプランナーでは、リソースの空き時間と、プロジェクトの予定作業や予算計上作業の量を表示できます。これらの値は、時間、FTE（フルタイム換算）やコストの金額で表示され、列に編成されます。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -26,39 +28,37 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>Pro 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：任意</p>
+       <p>または</p>
+       <p>現在：Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー以上 </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：ライト以上</p>
+       <p>または</p>
+       <p>現在：レビュー以上</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次の項目に対する表示以上のアクセス権：</p> 
     <ul> 
      <li> <p>リソース管理</p> </li> 
      <li> <p>財務データ</p> </li> 
      <li> <p>ユーザー</p> </li> 
      <li> <p>プロジェクト</p> </li> 
-    </ul> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>リソースプランナーで表示するプロジェクトに対する表示権限以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>リソースプランナーで表示するプロジェクトに対する表示権限以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-<!--note from the table about the license: Review or higher: 
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-       (waiting on Vazgen to confirm - working differenly in classic)
-      </MadCap:conditionalText>
-     -->
++++
 
 ## 前提条件
 
@@ -173,9 +173,7 @@ ht-degree: 100%
 
    このオプションを選択すると、次の式を使って純価が計算されます。
 
-   ```
-   Net = Available - Planned
-   ```
+   `Net = Available - Planned`
 
    >[!TIP]
    >

@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: プロジェクトビューや役割ビューを使用したリソースプランナーでのリソース予算の計上
+title: プロジェクト ビューと役割ビューを使用したリソース プランナ内のリソースの予算計上
 description: プロジェクトビューや役割ビューを使用して、Adobe Workfront リソースプランナーでリソースの予算を計上できます。リソースプランナーのユーザービューを使用してリソースの予算を計上することはできません。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '2165'
-ht-degree: 100%
+source-wordcount: '2121'
+ht-degree: 97%
 
 ---
 
@@ -33,6 +33,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -40,27 +42,31 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>Pro 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+    <td><p>新規：任意</p>
+       <p>または</p>
+       <p>現在：Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>リソース管理への編集アクセス権（リソースプランナーで優先度や予算計上時間数を編集するためのアクセス権を含む）</p> <p>財務データへの編集アクセス権（リソースの予算をコスト別に計上するため）</p> <p>プロジェクトおよびユーザーへの編集アクセス権</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>リソースプランナーの優先度と予算計上時間数の編集へのアクセスを含むリソース管理へのアクセスを編集</p> <p>財務データへのアクセスを編集してリソースの予算をコスト別に作成</p> <p>プロジェクトおよびユーザーへの編集アクセス権</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>情報予算の計上対象となるプロジェクトの管理権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>情報予算の計上対象となるプロジェクトの管理権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;自分のプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## リソースプランナーでのリソース予算の計上
 
@@ -74,9 +80,8 @@ ht-degree: 100%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this section is linked to the Budgeting Project Resources in the Business Case article)</p>
 -->
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-resourcing}}
 
-1. 「**リソース**」をクリックします。
 1. **計画担当者**&#x200B;がデフォルトで表示されます。
 1. （条件付き）**プロジェクト別に表示**&#x200B;ビューを選択します。
 1. プロジェクトと担当業務を展開して、プロジェクト、担当業務またはユーザーの割り振りを管理します。
@@ -87,9 +92,7 @@ ht-degree: 100%
    * ユーザーの担当業務の&#x200B;**その他**&#x200B;メニューをクリックし、「**ユーザーの予定時間数を予算計上値として設定する**」をクリックします。\
      各ユーザーの予算計上時間数は、次の式を使用して計算されます。
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. 担当業務の予算配分を行うには、次のいずれかを実行します。
 
@@ -102,17 +105,13 @@ ht-degree: 100%
    * （条件付き）ユーザーの予算計上時間数がある場合は、担当業務の&#x200B;**その他**&#x200B;メニューをクリックし、「**役割について予算計上したユーザーの時間数合計**」をクリックします。\
      役割ごとの予算計上時間数は、次の式を使用して計算されます。
 
-     ```
-     Role Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(User Budgeted Hours)`
 
    * プロジェクトの&#x200B;**その他**&#x200B;メニューをクリックし、「**役割の予定時間数を予算計上値として設定する**」をクリックします。\
      役割ごとの予算計上時間数は、次の式を使用して計算されます。\
      *
 
-     ```
-     Role Budgeted Hours = Role Planned Hours
-     ```
+     `Role Budgeted Hours = Role Planned Hours`
 
      >[!NOTE]
      >   
@@ -132,9 +131,7 @@ ht-degree: 100%
    * 手順 7 の説明に従って、プロジェクト内の役割の予算を計上します。\
      プロジェクトの予算計上時間は、次の式で計算されます。
 
-     ```
-     Project Budgeted Hours = SUM(Role Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(Role Budgeted Hours)`
 
    * **BDG** 列で、プロジェクトの予算計上時間数、FTE、またはコストを手動で指定します。\
      手順 7 で説明したとおり、役割の予算計上時間が更新されます。\
@@ -175,9 +172,7 @@ ht-degree: 100%
    * プロジェクトの「**その他**」メニューをクリックし、「**ユーザーの予定時間数を予算計上値として設定**」をクリックします。\
      各ユーザーの予算計上時間数は、次の式を使用して計算されます。
 
-     ```
-     User Budgeted Hours = User Planned Hours
-     ```
+     `User Budgeted Hours = User Planned Hours`
 
 1. 担当業務の予算配分を行うには、次のいずれかを実行します。
 
@@ -187,15 +182,11 @@ ht-degree: 100%
    * 担当業務の「**その他**」メニューをクリックし、「プロジェクトの予定時間数を予算計上値として設定」をクリックします。**役割の予算計上時間数は、次の式を使用して計算されます。\
      *
 
-     ```
-     Role Budgeted Hours = SUM(Project Budgeted Hours)
-     ```
+     `Role Budgeted Hours = SUM(Project Budgeted Hours)`
 
      *プロジェクトの予算計上時間数は、次の式を使用して計算されます。
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
    * **BDG** 列で、担当業務の下にリストされているプロジェクトの予算時間数、FTE、またはコストを手動で指定します。\
      これにより、プロジェクトの予算計上時間数が役割に追加されます。
@@ -213,24 +204,20 @@ ht-degree: 100%
    * 担当業務の&#x200B;**その他**&#x200B;メニューをクリックし、「**プロジェクトの予定時間数を予算に設定**」を選択します。\
      プロジェクトの予算計上時間は、次の式で計算されます。
 
-     ```
-     Project Budgeted Hours = Project Planned Hours
-     ```
+     `Project Budgeted Hours = Project Planned Hours`
 
      プロジェクトの予算計上時間は役割の予算計上時間に追加されます。
 
    * （条件付き）ユーザーの予算計上時間を立てている場合は、プロジェクトの&#x200B;**その他**&#x200B;メニューをクリックし、**プロジェクトのユーザーの合計予算計上時間** を選択します。\
      プロジェクトの予算計上時間は、次の式で計算されます。
 
-     ```
-     Project Budgeted Hours = SUM(User Budgeted Hours)
-     ```
+     `Project Budgeted Hours = SUM(User Budgeted Hours)`
 
      ![budget_by_role.png](assets/budget-by-role-350x181.png)
 
 1. 「**保存**」をクリックします。\
-   リソースプランナーでリソースの予算を計上すると、リソースの予算計上時間とそれに関連するコストが、すべてのプロジェクトのビジネスケースにリストアップされます。\
-   ビジネスケースのリソース予算計上エリアについて詳しくは、記事[ビジネスケースの予算リソース](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
+   リソースプランナーでリソースの予算を立てた後、リソースの予算計上時間数と関連コストが、すべてのプロジェクトのビジネスケースに一覧表示されます。
+ビジネスケースのリソース予算計上エリアについて詳しくは、記事[ビジネスケースの予算リソース](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
 
 1. （オプション）**ユーザー別表示**&#x200B;ビューを選択して、各ユーザーの利用可能時間と予定時間数の間のユーザー割り当て超過または稼働率不足を確認します。予算計上時間は、ユーザー別表示ビューには表示されません。
 

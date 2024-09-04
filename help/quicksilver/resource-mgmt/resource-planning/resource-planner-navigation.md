@@ -4,13 +4,13 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: リソースプランナーのナビゲーションの概要
 description: Adobe Workfront リソースプランナーを使用すると、リソースの空き時間と、プロジェクトでの作業を完了するのに必要な予定時間数を簡単に把握できます。その後、ユーザーが割り当てられているプロジェクトでのユーザーとその担当業務の割り当てを管理できます。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2621'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

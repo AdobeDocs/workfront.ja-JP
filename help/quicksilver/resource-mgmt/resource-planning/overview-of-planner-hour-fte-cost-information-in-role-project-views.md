@@ -2,19 +2,19 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: リソースプランナーのプロジェクトビューと役割ビューの時間数、FTE およびコスト情報の概要
+title: リソースプランナーのプロジェクト ビューおよび役割ビューにおける時間、FTE、およびコスト情報の概要
 description: リソースプランナーのプロジェクトビューと役割ビューの時間数、FTE およびコスト情報の概要
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 3486a2523a038bdd83c3c2001001a119fd0508ad
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2977'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
-# リソースプランナーのプロジェクトビューと役割ビューの時間、FTE、コスト情報の概要
+# リソースプランナーのプロジェクトビューと役割ビューの時間数、FTE およびコスト情報の概要
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this came from the budget-resources-project-role-views-resource-planner article)</p>

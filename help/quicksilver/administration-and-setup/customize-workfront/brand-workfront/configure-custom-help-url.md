@@ -3,29 +3,27 @@ title: カスタムヘルプ URL の設定
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: 組織での Workfront の使用状況に関する情報を含んだカスタムの内部ヘルプサイトを作成した場合は、そのサイトに移動するようにメインメニューのヘルプアイコンを設定できます。これは、メインメニューのメインヘルプリンクや、Workfront ヘルプサイトにユーザーを誘導する Workfront 全体のコンテキスト依存ヘルプリンクには影響しません。
+description: Workfrontの使用方法に関する情報を含んだカスタムの内部ヘルプサイトを作成する場合は、メインメニューヘルプ アイコンをクリックして、そのサイトに移動できます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 94%
+source-wordcount: '297'
+ht-degree: 51%
 
 ---
 
 # カスタムヘルプ URL の設定
 
-組織での Workfront の使用状況に関する情報を含んだカスタムの内部ヘルプサイトを作成した場合は、そのサイトに移動するようにメインメニューのヘルプアイコンを設定できます。
+Workfrontの使用方法に関する情報を含んだカスタムの内部ヘルプサイトを作成する場合は、メインメニューヘルプ アイコンをクリックして、そのサイトに移動できます。
 
 ![](assets/custom-help-button.png)
 
-これは、メインメニューのメインヘルプリンクや、Workfront ヘルプサイトにユーザーを誘導する Workfront 全体のコンテキスト依存ヘルプリンクには影響しません。
+このことは、Workfront全体でコンテキストに沿ったヘルプリンク（Workfrontのヘルプサイトにアクセスできる）には影響しません。
 
-![](assets/custom-help-url.png)
-
-Workfront で設定したカスタムのヘルプ URL と標準の Workfront ヘルプサイトの両方にユーザーがアクセスする方法については、[新バージョンの Adobe Workfront での Workfront ヘルプへのアクセス](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)を参照してください。
+Workfrontで設定するカスタムヘルプ URL と通常のAdobe Workfront ヘルプサイトの両方にユーザーがアクセスする方法について詳しくは、[Workfront ヘルプへのアクセス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md) を参照してください。
 
 ## アクセス要件
 
@@ -64,3 +62,5 @@ Workfront で設定したカスタムのヘルプ URL と標準の Workfront ヘ
    カスタムヘルプの場所でログイン資格情報が必要な場合は、ユーザーが Workfront からサイトにアクセスする際に、それらの資格情報が必要になります。シングルサインオン（SSO）を使用していない場合は、カスタムヘルプサイトへの資格情報を Workfront の資格情報とは別に管理する必要が生じる場合があります。
 
 1. 「**保存**」をクリックします。
+
+   カスタムヘルプ URL を保存したら、カスタム URL を削除して「**保存** をクリックすると、デフォルトのWorkfront ヘルプサイトに戻ることができます。

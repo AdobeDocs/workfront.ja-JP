@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '14363'
+source-wordcount: '14362'
 ht-degree: 93%
 
 ---
@@ -1756,7 +1756,7 @@ ht-degree: 93%
          * [リソースプールとユーザーを関連付ける](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
          * [リソースプールからのユーザーの削除](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
       * [リソース計画の概要](resource-mgmt/resource-planning/get-started-resource-planning.md)
-      * [Adobe Workfront でのリソース予算計上に必要なアクセス](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+      * [Workfrontでのリソースの予算計上に必要なアクセス](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [リソースプランナーの概要](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [リソースプランナーを配置](resource-mgmt/resource-planning/locate-resource-planner.md)
       * [リソースプランナーのナビゲーションの概要](resource-mgmt/resource-planning/resource-planner-navigation.md)

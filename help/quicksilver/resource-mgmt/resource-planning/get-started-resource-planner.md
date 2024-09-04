@@ -4,13 +4,13 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: リソースプランナーの概要
 description: リソースプランナーを使用すると、リソースが割り当てられているプロジェクトへのリソースの割り当てを見積もって予算を計上し、将来の作業に使用できるリソースを予測できます。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: 1c8d9a62f5582b0dbc3c72b5881bb5d8f0b790ba
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
 source-wordcount: '2075'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

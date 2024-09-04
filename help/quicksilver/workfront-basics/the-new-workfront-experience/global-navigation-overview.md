@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront]  の画面の上部に表示されるト�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: dda00a43c5122a233ce2849d828d2e5e4555d2d9
+source-git-commit: 692f3be1d7d3c3099e822440872ebdf3af3e04d1
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '698'
 ht-degree: 100%
 
 ---
@@ -32,11 +32,13 @@ Workfront 管理者は、レイアウトテンプレートを作成して割り�
 
 頻繁にアクセスするページを固定して、上部のナビゲーションバー内に表示されるようにすることができます。固定ページの詳細については、[ページを固定してワークスペースをカスタマイズ](../../workfront-basics/the-new-workfront-experience/pin-pages.md)を参照してください。
 
-## [!UICONTROL ヘルプ]メニュー
+<!--
+## [!UICONTROL Help] menu
 
-**[!UICONTROL ヘルプ]**&#x200B;メニューを使用すると、特定のタスクに関するヘルプを検索したり、[!DNL Workfront] の使用に関する詳細情報を検索したり、現在表示しているページに関連するコンテンツを表示したり、エクスペリエンスに関するフィードバックを送信したりできます。
+The **[!UICONTROL Help]** menu allows you to search for help with a specific task, find more information on using [!DNL Workfront], view content related to the page you are currently on, or submit feedback about your experience.
 
-「ヘルプ」メニューの詳細については、](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)ヘルプへの[アクセス [!DNL Adobe Workfront] を参照してください。
+To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+-->
 
 ## [!UICONTROL 通知] メニュー
 

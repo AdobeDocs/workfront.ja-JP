@@ -2,19 +2,19 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: Adobe Workfront でのリソース予算計上に必要なアクセス
+title: Workfrontでのリソースの予算計上に必要なアクセス
 description: 特定のアクセスレベル設定と、作業項目、ユーザー、担当業務、およびチームに対する権限を持っている場合に、表示アクセスを持つプロジェクトのリソース計画に関する情報を表示および管理できます。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: d2bfc411-188a-4f8b-8180-0e984f01b5ab
-source-git-commit: d3172a681ef6ac8b7bde44c680ad7febc3f26121
+source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '346'
+ht-degree: 83%
 
 ---
 
-# Adobe Workfront でのリソース予算計上に必要なアクセス
+# Workfrontでのリソースの予算計上に必要なアクセス
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -37,33 +37,34 @@ Workfront の予算計上ツールを使用するための前提条件につい�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>Pro 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：任意</p>
+       <p>または</p>
+       <p>現在：Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：プラン</p></td>
+  </tr>  
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> 
     <ul> 
-     <li> <p>次の項目を含むアクセスレベルで、リソース管理へのアクセスを編集します。</p> 
+     <li> <p>次を含むアクセスレベルでリソース管理へのアクセスを編集します。</p> 
       <ul> 
        <li> <p>プロジェクトの優先度と予算計上時間数を編集するためのアクセス権。 </p> </li> 
-       <li> <p>リソースプールを管理する必要がある場合は、リソースプールを管理するためのアクセス権。</p> </li> 
+       <li> <p>リソース プールを管理する必要がある場合は、リソース プールを管理するためのアクセス権。</p> </li> 
       </ul> <p>リソース管理のアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">リソース管理へのアクセス権の付与</a>の記事を参照してください。</p> </li> 
      <li> <p>プロジェクトおよびユーザーへのアクセスを編集します。 </p> </li> 
-     <li> <p> コスト別に情報を表示または管理する必要がある場合は、ご自身のアクセスレベルで財務データへのアクセスを編集します。</p> <p>財務データのアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">財務データへのアクセス権の付与</a>の記事を参照してください。</p> </li> 
-    </ul>
-
-<p><b>メモ</b> </p>
-
-<p> まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+     <li> <p> コスト別に情報を表示または管理する必要がある場合は、アクセス レベルで財務データへのアクセスを編集します。</p> <p>財務データのアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md" class="MCXref xref">財務データへのアクセス権の付与</a>の記事を参照してください。</p> </li> 
+    </ul> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>財務の管理権限を含む、プロジェクトの権限を管理します。</p> <p>プロジェクトの権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p> <p>プロジェクトに対する財務権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">オブジェクトに対する財務権限の共有</a></a>の記事を参照してください。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p>
+   <td> <p>財務の管理権限を含む、プロジェクトの権限を管理します。</p> <p>プロジェクトの権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p> <p>プロジェクトに対する財務権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md"><a href="../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md" class="MCXref xref">オブジェクトに対する財務権限の共有</a></a>の記事を参照してください。</p>
 
 <p><b>メモ</b>
 
@@ -72,4 +73,4 @@ Workfront の予算計上ツールを使用するための前提条件につい�
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
