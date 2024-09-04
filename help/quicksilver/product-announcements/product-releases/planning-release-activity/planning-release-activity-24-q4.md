@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: d4aa6bee72ac1f17884ae38d24bd094c0b62336a
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 19%
+source-wordcount: '356'
+ht-degree: 18%
 
 ---
 
@@ -38,11 +38,23 @@ ht-degree: 19%
 
 2024 年 8 月 28 日（PT）の一般リリース後にAdobe Workfront Planning でリリースされたすべての機能のリストについては、[Adobe Workfront Planning リリースアクティビティ：記事索引 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
+## レコードの詳細をPDFに書き出し
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 9 月 3 日（PT）、高速リリースの実稼動：24.9 リリースを含む（2024 年 9 月 12 日（PT））、四半期リリースの実稼動：24.10 リリースを含む（2024 年 10 月）
+
+レコードの詳細ページまたはプレビューをPDFドキュメントに書き出せるようになりました。
+
+この機能強化の前は、レコードの「詳細」タブを Word （.docx）ファイルにのみ書き出すことができました。
+
+詳しくは、[ レコードの詳細のエクスポート ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+
 ## Adobe Workfront Planning の一般提供
 
 >[!NOTE]
 >
->プレビューおよび実稼動リリース：2024 年 8 月 28 日（PT）
+>プレビューリリース：2024年8月28日（PT）、すべての顧客向けの実稼動版リリース：2024年8月28日（PT）
 
 Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファーです。Workfront Planning の目的は、組織の運用上の詳細に関する包括的な可視性を解き放ち、作業管理ライフサイクルの各段階で重要なビジネス上の質問に答えることです。
 

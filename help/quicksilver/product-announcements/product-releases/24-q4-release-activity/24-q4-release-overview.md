@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 53%
+source-wordcount: '1447'
+ht-degree: 51%
 
 ---
 
@@ -54,6 +54,23 @@ ht-degree: 53%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> レイアウトテンプレートで「すべてを選択」オプションが使用できるようになりました </a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>レイアウトテンプレートでフィールドをより簡単に表示または非表示にするために、レイアウトテンプレートの詳細ビューの概要エリアと財務エリアに、「すべてを選択」チェックボックスを追加しました。 このオプションは、「ユーザーの表示内容のカスタマイズ」でプロジェクト、タスク、イシュー、Portfolio、またはプログラムを選択した場合に使用できます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年8月29日（PT）</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 8 月 6 日（PT）</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,6 +134,7 @@ ht-degree: 53%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook 統合のログインエクスペリエンスの強化 </a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Outlook 統合のログインエクスペリエンスが効率化され、IMS が有効になっているかどうかに関わらず、すべてのお客様にWorkfrontへのログインに同じボタンが表示されるようになりました。 以降のログイン手順は、IMS インスタンスと非 IMS インスタンスでは異なりますが、初期ページはすべてのユーザーで同じです。</p>
                     </td>
                     <td><p><b>公開日：</b></p>

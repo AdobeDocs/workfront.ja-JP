@@ -4,10 +4,10 @@ description: 2024年第 4 四半期の管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: ffa599ff0e25ba960ce01f3f492482ee2e747122
+source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 23%
+source-wordcount: '395'
+ht-degree: 19%
 
 ---
 
@@ -17,12 +17,21 @@ ht-degree: 23%
 
 2024年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
 
+## レイアウトテンプレートで「すべてを選択」オプションが使用できるようになりました
+
+>[!NOTE]
+>
+>プレビューリリース：2024年8月29日（PT）、すべての顧客向けの実稼動版リリース：2024年8月29日（PT）
+
+レイアウトテンプレートでフィールドをより簡単に表示または非表示にするために、レイアウトテンプレートの詳細ビューの概要エリアと財務エリアに **すべてを選択** チェックボックスが追加されました。 このオプションは、「**ユーザーに表示されるものをカスタマイズ** の下でプロジェクト、タスク、イシュー、Portfolio、またはプログラムを選択した場合に使用できます。 すべてのオブジェクトに「財務」エリアが表示されるわけではなく、各エリアのフィールドはオブジェクトによって異なります。
+
+詳しくは、[ レイアウトテンプレートを使用して詳細ビューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) を参照してください。
+
 ## 環境プロモーションパッケージのロールバック
 
 >[!NOTE]
 >
 >プレビューリリース：2024 年 8 月 29 日（PT）、高速リリースの実稼動：24.9 リリースを含む（2024 年 9 月 12 日（PT））、四半期リリースの実稼動：24.10 リリースを含む（2024 年 10 月）
->
 
 環境のプロモーションをより柔軟かつ使いやすくするために、ロールバック機能を有効にしました。 現在は、24 時間以内にパッケージをロールバックでき、環境昇格パッケージの影響を受けた以前の設定をより簡単に復元できます。
 
