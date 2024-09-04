@@ -6,10 +6,10 @@ description: プロジェクトマネージャーは、プロジェクトの状�
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
 workflow-type: tm+mt
 source-wordcount: '380'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -41,8 +41,8 @@ ht-degree: 100%
    <td role="rowheader">オブジェクト権限</td> 
    <td> 
     <ul> 
-     <li> <p>プロジェクトに参加権限でプロジェクト詳細エリアで状況タイプを編集 </p> </li> 
-     <li> <p>プロジェクトに対する権限を管理して、「プロジェクトを編集」ボックスで状況タイプを編集します</p> </li> 
+     <li> <p>プロジェクトの詳細領域で状態タイプを編集するためのプロジェクトに対するContribute権限 </p> </li> 
+     <li> <p>プロジェクトに対する権限を管理し、「プロジェクトを編集」ボックスで条件タイプを編集します</p> </li> 
     </ul> <p> プロジェクト権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>を参照してください。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
@@ -53,7 +53,7 @@ ht-degree: 100%
 ## プロジェクトの状況タイプの設定
 
 1. 状況タイプを更新するプロジェクトに移動します。
-1. 次のいずれかの操作を実行します。
+1. 次のいずれかの操作を行います。
 
    * プロジェクト名の右にある&#x200B;**その他**&#x200B;メニュー ![](assets/qs-more-menu.png)、「**編集**」の順にクリックします。
    * 左側のパネルにある「**プロジェクト詳細**」をクリックします。
@@ -68,8 +68,8 @@ ht-degree: 100%
 
    * **進捗ステータス：** Workfront は、プロジェクトの進捗ステータスに基づいて状況を設定します。進捗ステータスの計算方法について詳しくは、[プロジェクトの進捗ステータスの概要](../../../manage-work/projects/planning-a-project/project-progress-status.md)を参照してください。
 
-1. 「プロジェクトを編集」ボックスの状況タイプを変更する場合は「**保存**」をクリックします。
+1. 「プロジェクトを編集」ボックスで条件タイプを修正したら、「**保存**」をクリックします。
 
-   「プロジェクト詳細」セクションで状況タイプを変更する場合は「**変更を保存**」をクリックします。
+   「プロジェクト詳細」セクションで条件タイプを変更したら、「**変更を保存**」をクリックします。
 
- 
+
