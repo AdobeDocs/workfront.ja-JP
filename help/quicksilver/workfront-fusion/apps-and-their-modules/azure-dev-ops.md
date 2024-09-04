@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Azu
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 100%
+source-wordcount: '1776'
+ht-degree: 99%
 
 ---
 
@@ -127,13 +127,13 @@ ht-degree: 100%
 
 ### アクション
 
-* [カスタム API 呼び出し](#custom-api-call)
-* [レコードの読み取り](#read-record)
 * [レコードを作成](#create-a-record)
+* [カスタム API 呼び出し](#custom-api-call)
+* [添付ファイルのダウンロード](#download-an-attachment)
+* [作業項目をリンク](#link-work-items)
+* [レコードの読み取り](#read-record)
 * [作業項目の更新](#update-a-work-item)
 * [[!UICONTROL 添付ファイルのアップロード]](#upload-an-attachment)
-* [添付ファイルのダウンロード](#download-an-attachment)
-* [作業項目のリンク]（[!UICONTROL #link-work-items]）
 
 #### [!UICONTROL カスタム API 呼び出し]
 
@@ -175,47 +175,10 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p>JSON で <code>if</code> のような条件文を使用する場合は、条件文を引用符で囲みます。</p> 
+   <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件文を JSON で使用する場合は、条件文を引用符で囲みます。</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL レコードの読み取り]
-
-このアクションモジュールは、[!DNL Azure DevOps] の単一レコードからデータを読み取ります。
-
-レコードの ID を指定します。
-
-このモジュールは、レコードの ID および関連するフィールドと共に、接続を介してアクセスされるカスタムフィールドとその値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
-
-このモジュールを設定する際には、次のフィールドが表示されます。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Azure DevOps] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion] への [!DNL Azure DevOps] の接続</a>を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Record type]</td> 
-   <td> <p>プロジェクトを読み取るか作業アイテムを読み取るかを選択</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Project]</strong>：読み取るプロジェクトを選択します。</p> </li> 
-     <li> <p><strong>[!UICONTROL Work item]</strong>：読み取る作業アイテムを含むプロジェクトを選択し、作業アイテムのタイプを選択します。</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Outputs]</td> 
-   <td>このモジュールの出力バンドルに含める情報を選択します。使用可能なフィールドは、作業アイテムのタイプによって異なります。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>読み取るレコードの ID を入力またはマッピングします。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -253,6 +216,99 @@ ht-degree: 100%
        <li> <p><strong>[!UICONTROL Other fields]</strong>：これらのフィールドには、特定のプロパティに対して作業アイテムに含める値を入力します。使用可能なフィールドは、作業アイテムのタイプによって異なります。</p> </li> 
       </ul> </li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 添付ファイルのダウンロード]
+
+このアクションモジュールは、添付ファイルをダウンロードします。
+
+このモジュールは、添付ファイルのファイルコンテンツを返します。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>[!DNL Azure DevOps] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!DNL Azure DevOps] を [!UICONTROL Workfront Fusion] に接続</a>を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Attachment URL]</td> 
+   <td> <p>ダウンロードする添付ファイルの URL を入力またはマッピングします。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL 作業アイテムをリンク]
+
+このアクションモジュールは、2 つの作業アイテムをリンクし、それらの間の関係を定義します。
+
+このモジュールは、主な作業アイテムの ID と関連するフィールドのほか、接続でアクセスするカスタムフィールドと値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
+
+このモジュールを設定する際には、次のフィールドが表示されます。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>[!DNL Azure DevOps] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!DNL Azure DevOps] を [!UICONTROL Workfront Fusion] に接続</a>を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Work item ID]</td> 
+   <td>別の作業アイテムをリンクするメイン作業アイテムの ID を入力またはマッピングします。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Linked work item ID]</td> 
+   <td>メインの作業アイテムにリンクする作業アイテムの ID を入力またはマッピングします。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Link Type]</td> 
+   <td> <p>リンクする作業アイテム間の関係を定義します。</p> <p>詳しくは、[!UICONTROL Azure DevOps]ドキュメントの<a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">リンクタイプの参照</a>を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Comment]</td> 
+   <td>コメントのテキストを入力またはマッピングします。これは、リンクの根拠や意図を説明するのに役立ちます。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL レコードの読み取り]
+
+このアクションモジュールは、[!DNL Azure DevOps] の単一レコードからデータを読み取ります。
+
+レコードの ID を指定します。
+
+このモジュールは、レコードの ID および関連するフィールドと共に、接続を介してアクセスされるカスタムフィールドとその値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
+
+このモジュールを設定する際には、次のフィールドが表示されます。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>[!DNL Azure DevOps] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!UICONTROL Workfront Fusion] への [!DNL Azure DevOps] の接続</a>を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
+   <td> <p>プロジェクトを読み取るか作業アイテムを読み取るかを選択</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Project]</strong>：読み取るプロジェクトを選択します。</p> </li> 
+     <li> <p><strong>[!UICONTROL Work item]</strong>：読み取る作業アイテムを含むプロジェクトを選択し、作業アイテムのタイプを選択します。</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
+   <td>このモジュールの出力バンドルに含める情報を選択します。使用可能なフィールドは、作業アイテムのタイプによって異なります。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>読み取るレコードの ID を入力またはマッピングします。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -319,62 +375,6 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!UICONTROL Source file] </td> 
    <td>前のモジュールからソースファイルを選択するか、ソースファイルの名前と内容を入力またはマッピングします。</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 添付ファイルのダウンロード]
-
-このアクションモジュールは、添付ファイルをダウンロードします。
-
-このモジュールは、添付ファイルのファイルコンテンツを返します。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Azure DevOps] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!DNL Azure DevOps] を [!UICONTROL Workfront Fusion] に接続</a>を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Attachment URL]</td> 
-   <td> <p>ダウンロードする添付ファイルの URL を入力またはマッピングします。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL 作業アイテムをリンク]
-
-このアクションモジュールは、2 つの作業アイテムをリンクし、それらの間の関係を定義します。
-
-このモジュールは、主な作業アイテムの ID と関連するフィールドのほか、接続でアクセスするカスタムフィールドと値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
-
-このモジュールを設定する際には、次のフィールドが表示されます。
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL Azure DevOps] アカウントを [!DNL Workfront Fusion] に接続する手順については、この記事の <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">[!DNL Azure DevOps] を [!UICONTROL Workfront Fusion] に接続</a>を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Work item ID]</td> 
-   <td>別の作業アイテムをリンクするメイン作業アイテムの ID を入力またはマッピングします。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Linked work item ID]</td> 
-   <td>メインの作業アイテムにリンクする作業アイテムの ID を入力またはマッピングします。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Link Type]</td> 
-   <td> <p>リンクする作業アイテム間の関係を定義します。</p> <p>詳しくは、[!UICONTROL Azure DevOps]ドキュメントの<a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">リンクタイプの参照</a>を参照してください。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Comment]</td> 
-   <td>コメントのテキストを入力またはマッピングします。これは、リンクの根拠や意図を説明するのに役立ちます。</td> 
   </tr> 
  </tbody> 
 </table>

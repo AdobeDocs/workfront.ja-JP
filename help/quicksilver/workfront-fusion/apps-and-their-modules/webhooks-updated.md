@@ -8,10 +8,10 @@ description: Web フックは、イベントによってトリガーされる HT
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 100%
+source-wordcount: '1449'
+ht-degree: 99%
 
 ---
 
@@ -134,7 +134,7 @@ Web フックを作成すると、一意の URL が表示されます。これ�
 
    これで、web フックの項目がマッピングパネルに表示され、シナリオの後続モジュールで使用できるようになりました。
 
-## キュー
+## Webhook キュー
 
 Web フックがデータを受け取り、そのデータを期待するアクティブなシナリオがない場合、データはキューに格納されます。シナリオをアクティベートすると、キューで待機しているすべてのバンドルが順番に処理されます。
 

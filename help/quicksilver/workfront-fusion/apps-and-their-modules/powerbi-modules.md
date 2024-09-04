@@ -10,10 +10,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 01405f5f-6821-4c38-b34c-373922f63004
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 8dbb29b297d4f8840d5ecb81f819e89b5325f62c
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 100%
+source-wordcount: '2471'
+ht-degree: 97%
 
 ---
 
@@ -73,11 +73,23 @@ ht-degree: 100%
 
 ![](assets/map-toggle-350x74.png)
 
+* [ダッシュボード](#dashboards)
+* [レポート](#reports)
+* [データセット](#dataset)
+* [アプリ](#apps)
+* [その他](#other)
+
 ### ダッシュボード
 
-#### [!UICONTROL ダッシュボードのリスト]
+* [ダッシュボードの作成](#create-a-dashboard)
+* [ダッシュボードの取得](#get-a-dashboard)
+* [ダッシュボードタイルの取得](#get-a-dashboard-tile)
+* [ダッシュボードタイルの一覧表示](#list-dashboard-tiles)
+* [ダッシュボードのリスト](#list-dashboards)
 
-この検索モジュールは、ダッシュボードのリストを取得します。
+#### [!UICONTROL ダッシュボードを作成]
+
+このアクションモジュールは、新しいダッシュボードを作成します。
 
 <table>
   <col/>
@@ -88,55 +100,14 @@ ht-degree: 100%
    <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>
-        <p>リストするダッシュボードを所有するグループの ID を選択またはマッピングします。</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+      <td>ダッシュボードの名前を入力またはマッピングします。</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>新しいダッシュボードを所有するグループの ID を選択またはマッピングします。</td>
     </tr>
   </tbody>
-</table>
-
-#### [!UICONTROL ダッシュボードタイルのリスト]
-
-この検索モジュールは、ダッシュボードタイルのリストを取得します。
-
-<table>
-<col/>
-<col/>
-<tbody>
-  <tr>
-    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
-    <td>
-      <p>オプションを選択またはマッピングして、タイルをリストするダッシュボードを選択します。</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Dashboard ID]</td>
-    <td>
-      <p>リストするタイルが含まれるダッシュボードの ID を入力またはマッピングします。</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Group ID]  </td>
-    <td>リストするタイルを含むダッシュボードを所有するグループの ID を選択またはマッピングします。</td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Limit]  </td>
-    <td>
-      <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p>
-    </td>
-  </tr>
-</tbody>
 </table>
 
 #### [!UICONTROL ダッシュボードを取得]
@@ -205,34 +176,46 @@ ht-degree: 100%
   </tbody>
 </table>
 
-#### [!UICONTROL ダッシュボードを作成]
+#### [!UICONTROL ダッシュボードタイルのリスト]
 
-このアクションモジュールは、新しいダッシュボードを作成します。
+この検索モジュールは、ダッシュボードタイルのリストを取得します。
 
 <table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+<col/>
+<col/>
+<tbody>
+  <tr>
+    <td role="rowheader">[!UICONTROL Connection]</td>
    <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-      <td>ダッシュボードの名前を入力またはマッピングします。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>新しいダッシュボードを所有するグループの ID を選択またはマッピングします。</td>
-    </tr>
-  </tbody>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
+    <td>
+      <p>オプションを選択またはマッピングして、タイルをリストするダッシュボードを選択します。</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Dashboard ID]</td>
+    <td>
+      <p>リストするタイルが含まれるダッシュボードの ID を入力またはマッピングします。</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Group ID]  </td>
+    <td>リストするタイルを含むダッシュボードを所有するグループの ID を選択またはマッピングします。</td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Limit]  </td>
+    <td>
+      <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p>
+    </td>
+  </tr>
+</tbody>
 </table>
 
-### レポート
+#### [!UICONTROL ダッシュボードのリスト]
 
-#### [!UICONTROL レポートをリスト]
-
-この検索モジュールは、レポートのリストを取得します。
+この検索モジュールは、ダッシュボードのリストを取得します。
 
 <table>
   <col/>
@@ -245,7 +228,7 @@ ht-degree: 100%
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
       <td>
-        <p>リストするレポートを所有するグループの ID を選択またはマッピングします。</p>
+        <p>リストするダッシュボードを所有するグループの ID を選択またはマッピングします。</p>
       </td>
     </tr>
     <tr>
@@ -257,36 +240,12 @@ ht-degree: 100%
   </tbody>
 </table>
 
-#### [!UICONTROL レポートを取得]
+### レポート
 
-このアクションモジュールは、指定されたレポートのメタデータを取得します。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
-      <td>
-        <p>メタデータを取得するレポートを選択するオプションを選択またはマッピングします。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>メタデータを取得するレポートの ID を入力またはマッピングします。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>メタデータを取得するレポートを所有するグループの ID を選択またはマッピングします。</td>
-    </tr>
-  </tbody>
-</table>
+* [レポートのコピー](#copy-a-report)
+* [レポートの削除](#delete-a-report)
+* [レポートの取得](#get-a-report)
+* [List Reports](#list-reports)
 
 #### [!UICONTROL レポートをコピー]
 
@@ -354,36 +313,9 @@ ht-degree: 100%
   </tbody>
 </table>
 
-### データセット
+#### [!UICONTROL レポートを取得]
 
-#### [!UICONTROL データセットをリスト]
-
-この検索モジュールは、データセットのリストを取得します。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>メタデータを取得するレポートを所有するグループの ID を選択またはマッピングします。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limit]</td>
-      <td>
-        <p>各シナリオ実行サイクルでモジュールに実行させる「アクション」の対象となるレコードの最大数を入力またはマッピングします。</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL データセットを取得]
-
-このアクションモジュールは、指定したデータセットのメタデータを取得します。
+このアクションモジュールは、指定されたレポートのメタデータを取得します。
 
 <table>
   <col/>
@@ -402,12 +334,132 @@ ht-degree: 100%
     <tr>
       <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>メタデータを取得するデータセットの ID を入力またはマッピングします。</p>
+        <p>メタデータを取得するレポートの ID を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>メタデータを取得するデータセットを所有するグループの ID を選択またはマッピングします。</td>
+      <td>メタデータを取得するレポートを所有するグループの ID を選択またはマッピングします。</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL レポートをリスト]
+
+この検索モジュールは、レポートのリストを取得します。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>
+        <p>リストするレポートを所有するグループの ID を選択またはマッピングします。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
+      <td>
+        <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### データセット
+
+* [データセットテーブルの行の追加/削除](#add-or-delete-rows-in-a-dataset-table)
+* [データセットの作成](#create-a-dataset)
+* [データセットの削除](#delete-a-dataset)
+* [データセットの取得](#get-a-dataset)
+* [リストデータセット](#list-datasets)
+* [データセットを更新](#refresh-a-dataset)
+
+#### [!UICONTROL データセットテーブルの行の追加または削除]
+
+このアクションモジュールは、指定したプッシュデータセットテーブルの行を追加または削除します。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Enter a table]</td>
+      <td>調整するテーブルが含まれるデータセットを選択するオプションを選択またはマッピングします。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Dataset ID]</td>
+      <td>追加または削除する行が含まれるデータセットの ID を入力またはマッピングします。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Table Name]  </td>
+      <td>
+        <p>追加または削除する行を含むテーブルの名前を入力またはマッピングします。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>データセットを所有するグループの ID を入力またはマッピングします。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Select the Action]</td>
+      <td>
+        <p>実行するアクションを選択またはマッピングします。</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Add rows]</p>
+          </li>
+          <li>
+            <p>[!UICONTROL Delete All Rows]</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td>
+        <p>行フィールドを追加します。</p>
+        <ul>
+          <li>
+            <p><b>[!UICONTROL Key]</b>
+            </p>
+            <p>キー名を入力またはマッピングします。</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Field Type]</b>
+            </p>
+            <p>フィールドタイプを選択またはマッピングします。</p>
+            <ul>
+              <li>
+                <p>ブール値</p>
+              </li>
+              <li>
+                <p>日付</p>
+              </li>
+              <li>
+                <p>テキスト</p>
+              </li>
+              <li>
+                <p>数値</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>[!UICONTROL Value]</p>
+            <p>キー値を入力またはマッピングします。</p>
+          </li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -583,9 +635,9 @@ ht-degree: 100%
   </tbody>
 </table>
 
-#### [!UICONTROL データセットテーブルの行の追加または削除]
+#### [!UICONTROL データセットの削除]
 
-このアクションモジュールは、指定したプッシュデータセットテーブルの行を追加または削除します。
+このアクションモジュールでは、データセットを削除します。
 
 <table>
   <col/>
@@ -596,71 +648,75 @@ ht-degree: 100%
    <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Enter a table]</td>
-      <td>調整するテーブルが含まれるデータセットを選択するオプションを選択またはマッピングします。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Dataset ID]</td>
-      <td>追加または削除する行が含まれるデータセットの ID を入力またはマッピングします。</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Table Name]  </td>
+      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
       <td>
-        <p>追加または削除する行を含むテーブルの名前を入力またはマッピングします。</p>
+        <p>削除するデータセットを選択するオプションを選択するか、マッピングします。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>削除するデータセットの ID を入力またはマッピングします。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>データセットを所有するグループの ID を入力またはマッピングします。</td>
+      <td>削除するデータセットを所有するグループの ID を選択またはマッピングします。</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL データセットを取得]
+
+このアクションモジュールは、指定したデータセットのメタデータを取得します。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Select the Action]</td>
+      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
       <td>
-        <p>実行するアクションを選択またはマッピングします。</p>
-        <ul>
-          <li>
-            <p>[!UICONTROL Add rows]</p>
-          </li>
-          <li>
-            <p>[!UICONTROL Delete All Rows]</p>
-          </li>
-        </ul>
+        <p>メタデータを取得するレポートを選択するオプションを選択またはマッピングします。</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>行フィールドを追加します。</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL Key]</b>
-            </p>
-            <p>キー名を入力またはマッピングします。</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Field Type]</b>
-            </p>
-            <p>フィールドタイプを選択またはマッピングします。</p>
-            <ul>
-              <li>
-                <p>ブール値</p>
-              </li>
-              <li>
-                <p>日付</p>
-              </li>
-              <li>
-                <p>テキスト</p>
-              </li>
-              <li>
-                <p>数値</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>[!UICONTROL Value]</p>
-            <p>キー値を入力またはマッピングします。</p>
-          </li>
-        </ul>
+        <p>メタデータを取得するデータセットの ID を入力またはマッピングします。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>メタデータを取得するデータセットを所有するグループの ID を選択またはマッピングします。</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL データセットをリスト]
+
+この検索モジュールは、データセットのリストを取得します。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>メタデータを取得するレポートを所有するグループの ID を選択またはマッピングします。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]</td>
+      <td>
+        <p>各シナリオ実行サイクルでモジュールに実行させる「アクション」の対象となるレコードの最大数を入力またはマッピングします。</p>
       </td>
     </tr>
   </tbody>
@@ -716,9 +772,19 @@ ht-degree: 100%
   </tbody>
 </table>
 
-#### [!UICONTROL データセットの削除]
+### アプリ
 
-このアクションモジュールでは、データセットを削除します。
+* [アプリの取得](#get-an-app)
+* [アプリのダッシュボードの取得](#get-an-apps-dashboard)
+* [アプリのレポートの取得](#get-an-apps-report)
+* [アプリのダッシュボードの一覧表示](#list-apps-dashboards)
+* [アプリのレポートのリスト](#list-apps-reports)
+* [アプリのリスト](#list-apps)
+* [アプリを見る](#watch-apps)
+
+#### [!UICONTROL アプリの入手]
+
+このアクションモジュールでは、指定されたアプリのメタデータを取得します。
 
 <table>
   <col/>
@@ -729,29 +795,44 @@ ht-degree: 100%
    <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
       <td>
-        <p>削除するデータセットを選択するオプションを選択するか、マッピングします。</p>
+        <p>取得するアプリの ID を選択またはマッピングします。</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL アプリのダッシュボードの取得]
+
+このアクションモジュールでは、指定したアプリのダッシュボードのメタデータを取得します。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td>
+        <p>取得するダッシュボードを含むアプリの ID を選択またはマッピングします。</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>削除するデータセットの ID を入力またはマッピングします。</p>
+        <p>  取得するダッシュボードの ID を選択またはマッピングします。</p>
       </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>削除するデータセットを所有するグループの ID を選択またはマッピングします。</td>
     </tr>
   </tbody>
 </table>
 
-### アプリ
+#### [!UICONTROL アプリのレポートの取得]
 
-#### [!UICONTROL アプリの監視]
-
-このトリガーモジュールでは、アプリが更新された時点でシナリオを開始します。
+このアクションモジュールでは、指定したアプリのレポートのメタデータを取得します。
 
 <table>
   <col/>
@@ -762,9 +843,15 @@ ht-degree: 100%
    <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
       <td>
-        <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p>
+        <p>取得するレポートを含むアプリの ID を選択またはマッピングします。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>  取得するレポートの ID を選択またはマッピングします。</p>
       </td>
     </tr>
   </tbody>
@@ -781,31 +868,6 @@ ht-degree: 100%
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
    <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL アプリのレポートのリスト]
-
-この検索モジュールでは、指定したアプリからすべてのレポートのリストを取得します。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL App ID]</td>
-      <td>レポートのリスト元となるアプリの ID を選択またはマッピングします。</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
@@ -841,9 +903,9 @@ ht-degree: 100%
   </tbody>
 </table>
 
-#### [!UICONTROL アプリの入手]
+#### [!UICONTROL アプリのレポートのリスト]
 
-このアクションモジュールでは、指定されたアプリのメタデータを取得します。
+この検索モジュールでは、指定したアプリからすべてのレポートのリストを取得します。
 
 <table>
   <col/>
@@ -854,44 +916,21 @@ ht-degree: 100%
    <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td role="rowheader">[!UICONTROL App ID]</td>
+      <td>レポートのリスト元となるアプリの ID を選択またはマッピングします。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>取得するアプリの ID を選択またはマッピングします。</p>
+        <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL アプリのレポートの取得]
+#### [!UICONTROL アプリの監視]
 
-このアクションモジュールでは、指定したアプリのレポートのメタデータを取得します。
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
-      <td>
-        <p>取得するレポートを含むアプリの ID を選択またはマッピングします。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>  取得するレポートの ID を選択またはマッピングします。</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL アプリのダッシュボードの取得]
-
-このアクションモジュールでは、指定したアプリのダッシュボードのメタデータを取得します。
+このトリガーモジュールでは、アプリが更新された時点でシナリオを開始します。
 
 <table>
   <col/>
@@ -902,15 +941,9 @@ ht-degree: 100%
    <td> <p>[!DNL Power BI] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Adobe [!DNL Workfront Fusion] への接続の作成 - 基本手順</a>を参照してください。</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>取得するダッシュボードを含むアプリの ID を選択またはマッピングします。</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>  取得するダッシュボードの ID を選択またはマッピングします。</p>
+        <p>各シナリオの実行サイクル中に、モジュールが返すレコードの最大数を入力またはマッピングします。</p>
       </td>
     </tr>
   </tbody>

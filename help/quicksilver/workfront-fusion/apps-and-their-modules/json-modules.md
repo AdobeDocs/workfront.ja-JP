@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion JSON アプリは、Adobe Workfront Fusion �
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 0290772c26ca82af31f14d101b4dde99377d6ce4
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1214'
+ht-degree: 100%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ JSON 文字列フィールドに配列 `[ ... ]` が含まれている場合、�
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -125,13 +125,14 @@ JSON 文字列フィールドに配列 `[ ... ]` が含まれている場合、�
 
 ![](assets/map-toggle-350x74.png)
 
-* [JSON に集計](#aggregate-to-json)
 * [JSON を XML に変換](#convert-json-to-xml)
 * [JSON を解析](#parse-json)
 * [JSON を作成](#create-json)
 * [JSON を変換](#transform-json)
 
-### [!UICONTROL JSON に集計]
+### アグリゲーター
+
+#### [!UICONTROL JSON に集計]
 
 この集約モジュールは、以前のモジュールからの出力を JSON に集計します。
 
@@ -162,7 +163,14 @@ JSON 文字列フィールドに配列 `[ ... ]` が含まれている場合、�
  </tbody> 
 </table>
 
-### [!UICONTROL JSON を XML に変換]
+### 変換サービス
+
+* [JSON を XML に変換](#convert-json-to-xml)
+* [JSON を作成](#create-json)
+* [JSON を解析](#parse-json)
+* [JSON を変換](#transform-json)
+
+#### [!UICONTROL JSON を XML に変換]
 
 このアクションモジュールは、JSON 文字列を XML に変換します。
 
@@ -177,7 +185,22 @@ JSON 文字列フィールドに配列 `[ ... ]` が含まれている場合、�
  </tbody> 
 </table>
 
-### [!UICONTROL JSON を解析]
+#### [!UICONTROL JSON を作成]
+
+このアクションモジュールは、データ構造から JSON を作成します。
+
+<table style="table-layout:auto"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">データ構造</td> 
+   <td> <p>JSON の作成に使用するデータ構造を選択します。詳しくは、この記事の<a href="#data-structure" class="MCXref xref">データ構造</a>を参照してください。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL JSON を解析]
 
 このアクションモジュールは、JSON 文字列を解析してデータ構造にし、JSON 文字列内のデータにアクセスできるようにします。
 
@@ -196,22 +219,7 @@ JSON 文字列フィールドに配列 `[ ... ]` が含まれている場合、�
  </tbody> 
 </table>
 
-### [!UICONTROL JSON を作成]
-
-このアクションモジュールは、データ構造から JSON を作成します。
-
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">データ構造</td> 
-   <td> <p>JSON の作成に使用するデータ構造を選択します。詳しくは、この記事の<a href="#data-structure" class="MCXref xref">データ構造</a>を参照してください。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL JSON を変換]
+#### [!UICONTROL JSON を変換]
 
 このアクションモジュールは、オブジェクトを json 文字列に変換します。
 
@@ -238,28 +246,27 @@ JSON 文字列フィールドに配列 `[ ... ]` が含まれている場合、�
 >
 1. [!UICONTROL 配列アグリゲーター]モジュールの後に [!UICONTROL JSON]／[!UICONTROL JSON を作成]モジュールを接続します。モジュールの設定には、JSON 形式を記述したデータ構造が必要です。「**[!UICONTROL 追加]**」をクリックして、データ構造の設定を開きます。このデータ構造を作成する最も簡単な方法は、JSON サンプルから自動的に生成することです。「**[!UICONTROL ジェネレーター]**」をクリックし、JSON サンプルを「**[!UICONTROL サンプルデータ]**」フィールドに貼り付けます。
 >
->     **例：**
+**例：**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
 1. 「**[!UICONTROL 保存]**」をクリックします。これで、データ構造の「[!UICONTROL 仕様]」フィールドに、生成された構造が含まれます。
 1. データ構造の名前をより具体的なものに変更し、「**[!UICONTROL 保存]**」をクリックします。ルート配列属性に対応するフィールドは、JSON モジュールの設定で、マッピング可能なフィールドとして表示されます。

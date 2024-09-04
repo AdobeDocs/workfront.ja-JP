@@ -10,10 +10,10 @@ description: ' [!DNL Adobe Workfront Fusion], you can start a scenario based on 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: e06ca7c05867c12940df487fe4bc4e34744e2f1f
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 95%
+source-wordcount: '1647'
+ht-degree: 92%
 
 ---
 
@@ -190,9 +190,18 @@ Adobe Experience Manager Assets コネクタの概要については、以下を
 
 ![](assets/map-toggle-350x74.png)
 
+* [フォルダーまたはアセットのコピー](#copy-a-folder-or-asset)
+* [レコードを作成](#create-a-record)
+* [フォルダー、アセットまたはレンディションの削除](#delete-a-folder-asset-or-rendition)
+* [フォルダーリストの取得](#get-a-folder-listing)
+* [カスタム API 呼び出しの実行](#make-a-custom-api-call)
+* [フォルダーまたはアセットの移動](#move-a-folder-or-asset)
+* [レコードの更新](#update-a-record)
+* [アセットのアップロード](#upload-an-asset)
+
 ### [!UICONTROL フォルダーまたはアセットのコピー]
 
-このアクションモジュールでは、Adobe Experience Manager Assets アカウント内の別の場所にフォルダーまたはアセットをコピーします。
+このアクションモジュールは、フォルダーまたはアセットをAdobe Experience Manager Assets アカウントの別の場所にコピーします。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -260,7 +269,7 @@ Adobe Experience Manager Assets コネクタの概要については、以下を
  </tbody> 
 </table>
 
-### [!UICONTROL レコードを削除]
+### [!UICONTROL  フォルダー、アセットまたはレンディションの削除 ]
 
 このアクションモジュールは、フォルダー、アセットまたはレンディションを削除します。
 

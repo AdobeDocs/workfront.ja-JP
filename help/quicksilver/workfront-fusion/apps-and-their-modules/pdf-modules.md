@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: ba161761acfc57e271f8593f534a5f7510187559
+source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
 workflow-type: tm+mt
 source-wordcount: '3719'
 ht-degree: 98%
@@ -146,12 +146,10 @@ OAuth サーバー間 API を作成するには、Adobe Developers Console に A
 
 [!DNL PDF Services] を設定すると、[!DNL Workfront Fusion] には以下のフィールドが表示されます。これらと共に、アプリやサービスのアクセスレベルなどの要因に応じて、追加のフィールドが表示される場合があります。モジュール内の太字のタイトルは、必須フィールドを示します。
 
-フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) におけるモジュール間での情報のマッピングを参照してください。
+フィールドまたは関数の上にマップボタンが表示されている場合は、このボタンを使用すると、そのフィールドの変数や関数を設定できます。詳しくは、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md) でモジュールから別のモジュールに情報をマッピングを参照してください。
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL ドキュメントの生成]](#generate-document)
-* [[!UICONTROL テキスト／テーブルの抽出]](#extract-text--table)
 * [[!UICONTROL PDF ファイルの結合]](#combine-pdf-files)
 * [[!UICONTROL PDF ファイルの圧縮]](#compress-pdf-files)
 * [[!UICONTROL PDF ファイルへのドキュメントの変換]](#convert-document-to-pdf-file)
@@ -159,6 +157,8 @@ OAuth サーバー間 API を作成するには、Adobe Developers Console に A
 * [[!UICONTROL PDF ファイルへの画像の変換]](#convert-image-to-pdf-file)
 * [[!UICONTROL ドキュメントへの PDF の変換]](#convert-pdf-to-document)
 * [[!UICONTROL 画像への PDF の変換]](#convert-pdf-to-image)
+* [[!UICONTROL テキスト／テーブルの抽出]](#extract-text--table)
+* [[!UICONTROL ドキュメントの生成]](#generate-document)
 * [[!UICONTROL PDF ファイルの線形化]](#linearize-a-pdf-file)
 * [[!UICONTROL PDF ファイルの OCR]](#ocr-for-pdf-file)
 * [[!UICONTROL ページ操作]](#page-manipulation)
@@ -167,127 +167,6 @@ OAuth サーバー間 API を作成するには、Adobe Developers Console に A
 * [[!UICONTROL PDF ファイルの保護]](#protect-pdf-file)
 * [[!UICONTROL PDF ファイルの保護の解除]](#remove-protection-of-a-pdf-file)
 * [PDF ファイルの分割](#split-a-pdf-file)
-
-### [!UICONTROL ドキュメントの生成]
-
-[!UICONTROL ドキュメントの生成]モジュールは、選択したデータを含む PDF を作成する強力な方法です。[!DNL Microsoft Word] テンプレートを使用するか、JSON 形式でデータを指定することで、形式設定できます。
-
-[!UICONTROL [!DNL Adobe PDF Services]ドキュメントの生成]機能について詳しくは、[!DNL Adobe Document Services] ドキュメントの[ドキュメント生成の概要](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html)を参照してください。
-
-* [ [!DNL Microsoft Word]  テンプレートで[!UICONTROL ドキュメントの生成]モジュールの使用](#use-the-generate-document-module-with-a-microsoft-word-template)
-* [JSON で[!UICONTROL ドキュメントの生成]モジュールの使用](#use-the-generate-document-module-with-json)
-
-#### [!DNL Microsoft Word] テンプレートで[!UICONTROL ドキュメントの生成]モジュールの使用
-
-<!--
->[!NOTE]
->
->For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
->
->You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
--->
-
-[!UICONTROL Microsoft Word] テンプレートで[!UICONTROL ドキュメントの生成]モジュールを使用するには、まずテンプレートを作成する必要があります。手順については、[!DNL Microsoft Office] ドキュメントで「テンプレートの作成」を検索してください。
-
-[!UICONTROL ドキュメントの生成]モジュールのフィールドに次のように入力します。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source File]</td> 
-   <td> <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p> <p>このソースファイルは、モジュールが新しい PDF の生成に使用する [!DNL Microsoft Word ] テンプレートです。</p> <p>[!DNL Workfront Fusion] で使用する [!DNL Microsoft Word] テンプレート用に [!DNL Workfront] にプロジェクトを作成することをお勧めします。その後、[!DNL Workfront]／[!UICONTROL Download document] モジュールを使用して、適切なテンプレートをシナリオに取り込みます。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Output Format]</td> 
-   <td> <p>生成するドキュメントの形式を選択します。</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Data for merge]</td> 
-   <td> <p>テキストに置き換えるテンプレートの値タグごとに、次のように入力します。</p> 
-    <ul> 
-     <li> <p>[!UICONTROL Key]</p> <p>キーを入力します。テンプレートでは、キーは値タグに表示されるテキストです。例えば、値タグ <code>&#123;&#123;name&#125;&#125;</code> にテキストを配置する場合は、キーフィールドに <code>name </code> と入力します。</p> </li> 
-     <li> <p>値のタイプ</p> <p>値フィールド内のデータを、値、オブジェクトまたはオブジェクトの配列のどれにするかを選択します。</p> </li> 
-     <li> <p>[!UICONTROL Value]</p> <p>生成されたドキュメントに、値タグの代わりに表示するテキストを入力またはマッピングします。</p> </li> 
-    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### JSON で[!UICONTROL ドキュメントの生成]モジュールの使用
-
-JSON で[!UICONTROL ドキュメントの生成]モジュールを使用するには、次のようにフィールドに入力します。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source File]</td> 
-   <td> <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Output Format]</td> 
-   <td> <p>生成するドキュメントの形式を選択します。</p> 
-    <ul> 
-     <li> <p>PDF</p> </li> 
-     <li> <p>DOCX</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Data for merge]</td> 
-   <td> <p>このモジュールで JSON を使用するには、このフィールドでマッピングを有効にする必要があります。</p> <p>ドキュメントを生成する JSON を入力またはマッピングします。 </p> <p>このフィールドに JSON を直接入力するか、JSON モジュールから JSON 出力をマッピングできます。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL テキスト／テーブルの抽出]
-
-このアクションモジュールを使用すると、データを PDF ファイルから抽出できます。このモジュールは、段落やテーブルの単一セル内のテキストなど、個々のテキスト要素を出力します。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Elements that should be extracted as JSON]</td> 
-   <td> 
-    <ul> 
-     <li> <p>[!UICONTROL Text]</p> </li> 
-     <li> <p>[!UICONTROL Tables]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Extract Bounding boxes?]</td> 
-   <td>テキストのバウンディングボックスに関するデータを抽出するには、このオプションを有効にします。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Include styling information for output?]</td> 
-   <td>出力 JSON にスタイル情報を追加するには、このオプションを有効にします。</td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### [!UICONTROL PDF ファイルの結合]
 
@@ -545,6 +424,127 @@ JSON で[!UICONTROL ドキュメントの生成]モジュールを使用する�
      <li>PNG</li> 
      <li>JPEG</li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL テキスト／テーブルの抽出]
+
+このアクションモジュールを使用すると、データを PDF ファイルから抽出できます。このモジュールは、段落やテーブルの単一セル内のテキストなど、個々のテキスト要素を出力します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Elements that should be extracted as JSON]</td> 
+   <td> 
+    <ul> 
+     <li> <p>[!UICONTROL Text]</p> </li> 
+     <li> <p>[!UICONTROL Tables]</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Extract Bounding boxes?]</td> 
+   <td>テキストのバウンディングボックスに関するデータを抽出するには、このオプションを有効にします。</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Include styling information for output?]</td> 
+   <td>出力 JSON にスタイル情報を追加するには、このオプションを有効にします。</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL ドキュメントの生成]
+
+[!UICONTROL ドキュメントの生成]モジュールは、選択したデータを含む PDF を作成する強力な方法です。[!DNL Microsoft Word] テンプレートを使用するか、JSON 形式でデータを指定することで、形式設定できます。
+
+[!UICONTROL [!DNL Adobe PDF Services]ドキュメントの生成]機能について詳しくは、[!DNL Adobe Document Services] ドキュメントの[ドキュメント生成の概要](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html)を参照してください。
+
+* [ [!DNL Microsoft Word]  テンプレートで[!UICONTROL ドキュメントの生成]モジュールの使用](#use-the-generate-document-module-with-a-microsoft-word-template)
+* [JSON で[!UICONTROL ドキュメントの生成]モジュールの使用](#use-the-generate-document-module-with-json)
+
+#### [!DNL Microsoft Word] テンプレートで[!UICONTROL ドキュメントの生成]モジュールの使用
+
+<!--
+>[!NOTE]
+>
+>For a discussion of Microsoft Word templates, see [Microsoft Word Template modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md). 
+>
+>You do not need to use Microsoft Word template modules to use a Microsoft Word template with the PDF Services Generate document module.
+-->
+
+[!UICONTROL Microsoft Word] テンプレートで[!UICONTROL ドキュメントの生成]モジュールを使用するには、まずテンプレートを作成する必要があります。手順については、[!DNL Microsoft Office] ドキュメントで「テンプレートの作成」を検索してください。
+
+[!UICONTROL ドキュメントの生成]モジュールのフィールドに次のように入力します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source File]</td> 
+   <td> <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p> <p>このソースファイルは、モジュールが新しい PDF の生成に使用する [!DNL Microsoft Word ] テンプレートです。</p> <p>[!DNL Workfront Fusion] で使用する [!DNL Microsoft Word] テンプレート用に [!DNL Workfront] にプロジェクトを作成することをお勧めします。その後、[!DNL Workfront]／[!UICONTROL Download document] モジュールを使用して、適切なテンプレートをシナリオに取り込みます。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Output Format]</td> 
+   <td> <p>生成するドキュメントの形式を選択します。</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data for merge]</td> 
+   <td> <p>テキストに置き換えるテンプレートの値タグごとに、次のように入力します。</p> 
+    <ul> 
+     <li> <p>[!UICONTROL Key]</p> <p>キーを入力します。テンプレートでは、キーは値タグに表示されるテキストです。例えば、値タグ <code>&#123;&#123;name&#125;&#125;</code> にテキストを配置する場合は、キーフィールドに <code>name </code> と入力します。</p> </li> 
+     <li> <p>値のタイプ</p> <p>値フィールド内のデータを、値、オブジェクトまたはオブジェクトの配列のどれにするかを選択します。</p> </li> 
+     <li> <p>[!UICONTROL Value]</p> <p>生成されたドキュメントに、値タグの代わりに表示するテキストを入力またはマッピングします。</p> </li> 
+    </ul> <p> <img src="assets/generate-with-template-350x241.png" style="width: 350;height: 241;"> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### JSON で[!UICONTROL ドキュメントの生成]モジュールの使用
+
+JSON で[!UICONTROL ドキュメントの生成]モジュールを使用するには、次のようにフィールドに入力します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>このモジュールに使用する接続を選択します。</p> [!DNL Adobe PDF Services] への接続を作成する手順については、この記事の<a href="#create-a-connection-to-adobe-pdf-services" class="MCXref xref" >[!DNL Adobe PDF Services]</a> への接続の作成を参照してください。 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source File]</td> 
+   <td> <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Output Format]</td> 
+   <td> <p>生成するドキュメントの形式を選択します。</p> 
+    <ul> 
+     <li> <p>PDF</p> </li> 
+     <li> <p>DOCX</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Data for merge]</td> 
+   <td> <p>このモジュールで JSON を使用するには、このフィールドでマッピングを有効にする必要があります。</p> <p>ドキュメントを生成する JSON を入力またはマッピングします。 </p> <p>このフィールドに JSON を直接入力するか、JSON モジュールから JSON 出力をマッピングできます。</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
 source-wordcount: '2072'
 ht-degree: 100%
@@ -282,8 +282,8 @@ ht-degree: 100%
 ### アクション
 
 * [[!UICONTROL スプリントへのイシューの追加]](#add-issue-to-sprint)
+* [[!UICONTROL レコードを作成]](#create-a-record)
 * [[!UICONTROL カスタム API 呼び出し]](#custom-api-call)
-* [[!UICONTROL レコードの作成]](#create-a-record)
 * [[!UICONTROL レコードの削除]](#delete-a-record)
 * [[!UICONTROL 添付ファイルのダウンロード]](#download-an-attachment)
 * [[!UICONTROL レコードの読み取り]](#read-a-record)

@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  シナリオでは、SharePoint �
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d49031-06d2-4c86-bac4-f58cd9b2f1f5
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
 workflow-type: tm+mt
-source-wordcount: '2850'
-ht-degree: 100%
+source-wordcount: '2859'
+ht-degree: 99%
 
 ---
 
@@ -217,7 +217,7 @@ ht-degree: 100%
 
 ### 項目
 
-* [[!UICONTROL 項目のコピー]](#copy-an-item)
+* [[!UICONTROL  項目をコピー ]](#copy-an-item)
 * [[!UICONTROL 項目の作成]](#create-an-item)
 * [[!UICONTROL 項目の削除]](#delete-an-item)
 * [[!UICONTROL 項目の取得]](#get-an-item)
@@ -651,6 +651,10 @@ ht-degree: 100%
 </table>
 
 ### その他
+
+* [変更を取得](#get-changes)
+* [API 呼び出しを実行](#make-an-api-call)
+* [イベントの監視](#watch-events)
 
 #### 変更を取得
 
