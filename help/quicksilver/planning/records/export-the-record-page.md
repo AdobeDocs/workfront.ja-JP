@@ -5,21 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 24%
+source-wordcount: '437'
+ht-degree: 22%
 
 ---
 
 
 # レコードの詳細のエクスポート
 
-Workfront アカウントを持っていない他のユーザーとのより効率的な共同作業を行うために、レコードの詳細を Word ドキュメントに書き出して共有できます。
-
-<!--replace the above with this, when we release export to PDF:
-
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them.-->
+Workfront アカウントを持っていない他のユーザーとのより効率的な共同作業を行うために、レコードの詳細をファイルに書き出して共有できます。
 
 ## アクセス要件
 
@@ -54,7 +50,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
    <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
    <td> 
 <p>任意 </p> 
-<p>各Workfront Planning プランに含まれる内容の詳細については、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。 </p> 
+<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
@@ -150,16 +146,12 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
 ## レコードの詳細の書き出しに関する考慮事項：
 
-* レコードの詳細を Word ドキュメントにエクスポートできます。
+* レコードの詳細を次のファイル形式で書き出すことができます。
 
-<!--replace the first bullet with this, when it's possible:
+   * .docx Word
+   * .pdf
 
-* You can export a record's details to the following file formats:
-
-    * Word
-    * PDF -->
-
-* レコードのページの詳細ページを書き出すことができます。 「接続」タブは書き出せません。
+* レコードのページの「詳細」タブを書き出すことができます。 「接続」タブは書き出せません。
 
 * 書き出されたファイルには、サムネールやカバー画像を含むレコードページのレイアウトが保持されます。
 
@@ -182,10 +174,15 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
 1. 「**詳細**」タブを選択します。 「詳細」タブは、デフォルトで開きます。
 
-1. プレビューまたはレコードのページ ![](assets/export-icon-in-record-details-page.png) ある **書き出し** アイコンをクリックします。
+1. プレビューまたはレコードのページ ![](assets/export-icon-in-record-details-page.png) ある **エクスポート** アイコンをクリックし、次のいずれかをクリックします。
 
-   Word ファイル （.docx）がダウンロードされ、コンピューターに保存されます。
+   * **Microsoft Word**
+   * **Adobe PDF**
+
+   Word （.docx）または PDF ファイルがダウンロードされ、コンピュータに保存されます。
+
+   書き出されるファイルの名前は、レコードのプライマリフィールドです。
 
    ![](assets/exported-word-file.png)
 
-1. （任意）ダウンロードしたファイルに移動し、ファイルを開いて編集するか、他のユーザーと共有します。
+1. （オプション）ダウンロードしたファイルに移動して、ファイルを開いて編集するか（Word ファイルの場合）、他のユーザーと共有します。
