@@ -7,10 +7,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 20%
+source-wordcount: '524'
+ht-degree: 16%
 
 ---
 
@@ -23,9 +23,15 @@ ht-degree: 20%
 
 **Betaの状態**
 
-キャンバスダッシュボードは現在、パブリックベータ版のテスト段階にあり、頻繁に変更される可能性があります。 ベータ版への登録方法については、以下を参照してください。
+キャンバスダッシュボードは現在、クローズドベータテスト段階にあり、頻繁に変更される可能性があります。 ベータ版への登録方法については、以下を参照してください。
 
 ## Beta に参加する
+
+>[!IMPORTANT]
+>
+>キャンバスダッシュボードは現在クローズドベータ版なので、特定の組織のみが使用できます。 関心を示した組織のキャンセル待ちから、ベータ版に組織を直接招待し続けています。 [ このAdobeフィードバックプログラムフォーム ](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta) を送信して、組織をキャンセル待ちに追加できます。 さらに、パッケージの一部としてWorkfront Planning を購入した組織は、製品間レポート機能をテストするためにベータ版のアクセス権が付与されています。
+>
+>最終的には、オープンベータ版に移行し、その時点で、登録プロセスがすべての組織で利用できるようになります。
 
 ### Enroll
 
@@ -33,11 +39,7 @@ ht-degree: 20%
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**ダッシュボード**」を選択します。
 
-1. ページの右上隅にある「**キャンバスダッシュボードベータ版に参加** ベータ版」ボタンをクリックします。
-
-   >[!NOTE]
-   >
-   >このボタンは、組織がクローズドベータ版に受け入れられた場合にのみ使用できます。 オープンベータ版が開始されると、これはすべての組織で利用できるようになります。
+1. ページの右上隅にある「**キャンバスダッシュボードベータ版に参加** ベータ版」ボタンをクリックします。 このボタンは、組織がクローズドベータ版に招待されている場合にのみ使用できます。
 
 1. 条件を読み、「同意する **をクリックし** す。 現在ベータ版に登録されています。ただし、Workfront データが Canvas ダッシュボードで完全にアクセスできるようになるまで数分かかります。
 

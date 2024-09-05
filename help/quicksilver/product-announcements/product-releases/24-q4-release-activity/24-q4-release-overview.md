@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
 workflow-type: tm+mt
 source-wordcount: '1447'
 ht-degree: 51%
@@ -68,7 +68,7 @@ ht-degree: 51%
                                 <p>プレビューリリース：2024年8月29日（PT）</p>
                             </li>
                             <li>
-                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 8 月 6 日（PT）</span></p>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 8 月 29 日（PT）</span></p>
                             </li>
                         </ul>
                     </td>
