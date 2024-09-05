@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
 workflow-type: tm+mt
-source-wordcount: '2072'
-ht-degree: 100%
+source-wordcount: '2087'
+ht-degree: 99%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 100%
 1. [!DNL Workfront Fusion] で、[!DNL Jira] モジュールをシナリオに追加して、「**[!UICONTROL 接続を作成]**」ボックスを開きます。
 1. 次の情報を指定します。
 
-   * **[!UICONTROL サービス URL]**
+   * **[!UICONTROL サービス URL]:** これは、Jira アカウントへのアクセスに使用するベース URL です。 例：`yourorganization.atlassian.net`
    * **[!UICONTROL ユーザー名]**
    * **[!UICONTROL API トークン]：** これは、この記事の [ [!DNL Jira]](#create-an-api-token-in-jira) での API トークンの作成の節で作成した API トークンです。
 
@@ -231,12 +231,12 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>[!DNL Jira] インスタンス URLを入力します。 </td> 
+      <td>[!DNL Jira] インスタンス URL を入力します。 例： <code>yourorganization.atlassian.net</code></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 「**[!UICONTROL 続行]**」をクリックして接続を作成し、モジュールに戻ります。
+1. 「**[!UICONTROL 続行]**」をクリックし、接続を作成して、モジュールに戻ります。
 
 ## [!DNL Jira Software] モジュールとそのフィールド
 
@@ -378,9 +378,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>標準の JSON オブジェクトの形式で、API 呼び出しの本文の内容を追加します。</p> <p>メモ：  <p><code>if</code> などの条件ステートメントを JSON で使用する場合は、条件ステートメントの外側に引用符を挿入します。</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
+     <img src="assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
  </tbody> 
 </table>
