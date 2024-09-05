@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
 workflow-type: tm+mt
-source-wordcount: '1891'
-ht-degree: 99%
+source-wordcount: '1919'
+ht-degree: 97%
 
 ---
 
@@ -357,7 +357,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td>任意のユーザーの編集、削除、非アクティブ化、ログイン、またはパスワードのリセット</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b> 注意 </b>：システム管理者のユーザーとしてログインすることはできません。</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
@@ -365,7 +365,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td>管理グループ内のユーザーの編集、削除、非アクティブ化、ログイン、またはパスワードのリセット</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b> 注意 </b>：システム管理者のユーザーとしてログインすることはできません。</p></td> 
    <td> </td> 
    <td> </td> 
    <td> </td> 
