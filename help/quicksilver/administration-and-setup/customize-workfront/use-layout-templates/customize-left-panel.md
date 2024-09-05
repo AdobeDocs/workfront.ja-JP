@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 98%
+source-wordcount: '1077'
+ht-degree: 87%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 98%
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>プロジェクト名</td> 
-      <td>[!UICONTROL Tasks]、[!UICONTROL Project Details]、[!UICONTROL Business Case]、[!UICONTROL Updates]、[!UICONTROL Documents]、[!UICONTROL Issues]、[!UICONTROL Risks]、[!UICONTROL Approvals]、[!UICONTROL Baselines]、[!UICONTROL Billing Rates]、[!UICONTROL Billing Records]、[!UICONTROL Expenses]、[!UICONTROL Hours]、[!UICONTROL Workload Balancer]、[!UICONTROL People]、[!UICONTROL Utilization]、[!UICONTROL Queue Details]、[!UICONTROL Routing Rules]、[!UICONTROL Queue Topic]、[!UICONTROL Topic Group]、[!UICONTROL Metrics]</td> 
+      <td>[!UICONTROL タスク ]、[!UICONTROL プロジェクトの詳細 ]、[!UICONTROL ビジネスケース ]、[!UICONTROL の更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL の問題 ]、[!UICONTROL リスク ]、[!UICONTROL 承認 ]、[!UICONTROL ベースライン ]、[!UICONTROL 請求レート ]、[!UICONTROL 請求レコード ]、[!UICONTROL 費用 ]、[!UICONTROL 時間 ]、[!UICONTROL ワークロードバランサー ]、[!UICONTROL 人物 ]、[!UICONTROL 使用率 ]、[!UICONTROL キューの詳細 ]、[!UICONTROL ルーティング規則 ]、[!UICONTROL キュートピック ]、[!UICONTROL トピック グループ ]、[!UICONTROL 指標 ]、[!UICONTROL l プランニング ]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -104,12 +104,12 @@ ht-degree: 98%
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>ポートフォリオ名</td> 
-      <td>[!UICONTROL Projects]、[!UICONTROL Programs]、[!UICONTROL Portfolio Details]、[!UICONTROL Portfolio]、[!UICONTROL Optimization]、[!UICONTROL Documents]、[!UICONTROL Updates]</td> 
+      <td>[!UICONTROL プロジェクト ]、[!UICONTROL プログラム ]、[!UICONTROLPortfolioの詳細 ]、[!UICONTROLPortfolio]、[!UICONTROL 最適化 ]、[!UICONTROL ドキュメント ]、[!UICONTROL 更新 ]、[!UICONTROL 計画 ]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Program]</td> 
       <td>プログラム名</td> 
-      <td>[!UICONTROL Projects]、[!UICONTROL Program Details]、[!UICONTROL Updates]、[!UICONTROL Documents]</td> 
+      <td>[!UICONTROL プロジェクト ]、[!UICONTROL プログラムの詳細 ]、[!UICONTROL 更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL 計画 ]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -198,6 +198,8 @@ ht-degree: 98%
      --> 
     </tbody> 
    </table>
+
+   *プロジェクト、ポートフォリオ、プログラムの左側のパネルにこの領域を追加するには、Workfront Planning のライセンスを追加購入する必要があります。 詳しくは、[Adobe Workfront計画の概要を参照してください ](/help/quicksilver/planning/general/planning-overview.md)
 
    >[!NOTE]
    >

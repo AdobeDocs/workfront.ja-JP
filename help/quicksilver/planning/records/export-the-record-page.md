@@ -5,15 +5,17 @@ feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 22%
+source-wordcount: '499'
+ht-degree: 23%
 
 ---
 
-
 # レコードの詳細のエクスポート
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 Workfront アカウントを持っていない他のユーザーとのより効率的な共同作業を行うために、レコードの詳細をファイルに書き出して共有できます。
 
@@ -149,7 +151,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 * レコードの詳細を次のファイル形式で書き出すことができます。
 
    * .docx Word
-   * .pdf
+   * <span class="preview">.pdf</span>
 
 * レコードのページの「詳細」タブを書き出すことができます。 「接続」タブは書き出せません。
 
@@ -177,12 +179,18 @@ Workfront Planning にアクセスするには、次のものが必要です：
 1. プレビューまたはレコードのページ ![](assets/export-icon-in-record-details-page.png) ある **エクスポート** アイコンをクリックし、次のいずれかをクリックします。
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-   Word （.docx）または PDF ファイルがダウンロードされ、コンピュータに保存されます。
+   Word （.docx） <span class="preview"> またはPDF</span> ファイルがダウンロードされ、コンピューターに保存されます。
 
    書き出されるファイルの名前は、レコードのプライマリフィールドです。
 
    ![](assets/exported-word-file.png)
 
+   >[!NOTE]
+   >
+   >    ページに表示されず、「詳細」タブで「詳細を表示」をクリックした後にのみ表示される追加情報は、エクスポートされたPDFファイルには表示されません。 ページに表示される情報のみが書き出されたファイルに表示されます。
+
+
 1. （オプション）ダウンロードしたファイルに移動して、ファイルを開いて編集するか（Word ファイルの場合）、他のユーザーと共有します。
+

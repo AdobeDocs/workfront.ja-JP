@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 36%
+source-wordcount: '666'
+ht-degree: 33%
 
 ---
 
@@ -22,15 +22,15 @@ ht-degree: 36%
 >
 >この記事の情報は、Adobe Workfront からの新しいオファーである Adobe Workfront Planning を説明するものです。
 >
->Workfront Planning にアクセスするには、次のものが必要です。
+>Workfront Planning が機能にアクセスするには、会社がライセンスを追加購入する必要があります。
 >
->* 新しいWorkfront プランおよびライセンス。 Workfront Planning は、従来のWorkfront プランまたはライセンスでは利用できません。
->* Workfront Planning の追加ライセンス。
->* 組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。
+>詳しくは、アカウントマネージャーにお問い合わせください
 >
 >Workfront計画の詳細については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 Adobe Workfront Planning を使用するには、ライセンスと共有権限の制約があります。
+
+ここでは、Workfront Planning の機能を使用するために必要なアクセス権と設定について説明します。
 
 ## アクセス要件
 
@@ -112,7 +112,12 @@ Workfront Planning にアクセスするには、次のものが必要です：
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者を含むすべてのユーザーに、レイアウトテンプレート（メインメニューの計画エリアと、Workfront Planning に接続できるオブジェクト（プロジェクト、ポートフォリオおよびプログラム）の計画エリアを割り当てる必要があります。 </p> <p>詳しくは、<a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md"> レイアウトテンプレートを使用したメインメニューのカスタマイズ </a> および <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md"> レイアウトテンプレートへのユーザーの割り当て </a> を参照してください。 </p>  
+   <td> <p>Workfront管理者を含むすべてのユーザーには、次の領域の「プランニング」オプションを含むレイアウトテンプレートを割り当てる必要があります。</p>
+   <ul><li>メインメニュー</li>
+   <li>プロジェクト、ポートフォリオおよびプログラムの左側のパネル</li>
+   <li>ランディングページ</li>
+   <li>ピン留め</li></ul>
+   <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">レイアウトテンプレートを作成および管理</a>を参照してください。</p> 
 </td>
   </tr>
  </tbody>
@@ -189,19 +194,24 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-
-
-## メインメニューの Planning エリアを他のユーザーと共有
+## レイアウトテンプレートを使用した計画エリアの共有
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.-->
 
-Workfront Planning プログラムに登録した後、レイアウト・テンプレートを使用して、すべてのユーザーのメイン・メニューに Planning エリアを追加できます。
+Workfront Planning ライセンスの追加購入後、システム管理者はユーザーを変更してレイアウト・テンプレートに割り当てることにより、次の領域に Planning オプションを追加できます。
+
+* メインメニュー
+* ランディングページ
+* プロジェクト、ポートフォリオおよびプログラムの左側のパネル
+* ピン留め
+
+Workfront Planning 領域をWorkfrontインスタンスに追加するには、次の手順に従います。
 
 1. Workfront 管理者として **Workfront** にログインします。
 
-1. **レイアウトテンプレート**&#x200B;を使用して、**Planning** アイコン ![](assets/planning-icon.png) を&#x200B;**メインメニュー**&#x200B;に追加します。
+1. **メインメニュー**/**設定**/**インターフェイス**/**レイアウトテンプレート** に移動して、レイアウトテンプレートを開くか作成します。
 
-   詳しくは、[レイアウトテンプレートを使用したメインメニューのカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
+   レイアウトテンプレートのカスタマイズについて詳しくは、[ レイアウトテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
 
 1. Workfront Planning へのアクセス権を付与するユーザーにレイアウトテンプレートを割り当てます。
 

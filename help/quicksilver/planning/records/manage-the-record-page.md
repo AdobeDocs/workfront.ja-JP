@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1357'
 ht-degree: 10%
 
 ---
@@ -216,7 +216,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
    * Workfront オブジェクトも、Workfront Planning からレコードの接続されたフィールドから削除されます。
    * 計画レコードに接続されているWorkfront参照フィールドの値も削除されます。
 
-## レコードのプレビューまたはページ内のフィールドを並べ替える
+## レコードの「詳細」タブでフィールドを並べ替える
 
 {{step1-to-planning}}
 
@@ -240,11 +240,11 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
 1. （オプション）レコードプレビューの右上隅に <!--check the icon; they are changing it--> る **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを新しいタブで開きます。
 
-   レコードページが開きます。
+   レコードの **詳細** タブは、デフォルトで開きます。
 
    ![](assets/details-page.png)
 
-1. レコードのプレビューまたはページで、フィールド名の左側に ![](assets/grab-icon.png) る **grab** アイコンをクリックし、目的の場所にドラッグ&amp;ドロップします。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. レコード **詳細** タブで、フィールド名の左側に ![](assets/grab-icon.png) る **grab** アイコンをクリックし、目的の場所にドラッグ&amp;ドロップします。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
    レコードを表示しているすべてのユーザーについて、同じタイプのすべてのレコードのプレビューとページの両方でフィールドの新しい位置が更新されます。
 

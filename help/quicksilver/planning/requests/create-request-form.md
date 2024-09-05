@@ -5,9 +5,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
+source-git-commit: 3823afdc14aaf5646d8edc60f5ad633e48336af7
 workflow-type: tm+mt
-source-wordcount: '1136'
+source-wordcount: '1159'
 ht-degree: 14%
 
 ---
@@ -130,7 +131,17 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    リクエストフォームには、デフォルトで次の情報が含まれています。
 
-   * 選択したレコードタイプのテーブル表示で使用可能なすべてのレコードフィールド。
+   * 選択したレコードタイプのテーブル表示で使用可能なレコードフィールド。<!--they are working on removing the limitation below-->
+
+     >[!IMPORTANT]
+     >
+     >   次のタイプのフィールドは、リクエストフォームに表示されません。
+     >
+     >    * ユーザー
+     >    * 接続されたフィールド（Experience Managerアセットとの接続を含む）
+     >    * 接続された参照フィールド
+     >    * 式
+
    * **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。
    * **件名** フィールド：Workfrontでリクエストを識別するフィールド。 この機能は、まだ利用できません。
    * レコードタイプに関連付けられているすべてのフィールド。
@@ -199,6 +210,3 @@ Workfront Planning にアクセスするには、次のものが必要です：
    >
    >その場合には、リンクが公開されている表示があります。
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-
-
-

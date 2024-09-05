@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '7446'
+source-wordcount: '7484'
 ht-degree: 37%
 
 ---
@@ -144,6 +144,13 @@ Workfrontの計画オブジェクトに対して、次の 2 つのパッケー�
 * ワークスペースマネージャーは、リクエストフォームを作成し、レコードタイプに関連付けることができます。 外部ユーザーを含む他のユーザーと、このフォームへのリンクを共有できます。
 
 * ユーザーがフォームにアクセスし、フォームに入力してリクエストを送信すると、リクエストフォームに関連付けられたレコードタイプのレコードが作成されます。
+
+* 設定に応じて、リクエストフォームには、次のタイプのフィールドを除く、レコードタイプのすべてのフィールドが表示される場合があります。
+
+   * ユーザー
+   * 接続されたフィールド（Experience Managerアセットとの接続を含む）
+   * 接続された参照フィールド
+   * 式
 
 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 

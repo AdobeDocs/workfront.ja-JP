@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: a3006a05b7003e638596c2754b77e914083a5643
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 56%
+source-wordcount: '2039'
+ht-degree: 55%
 
 ---
 
@@ -154,13 +154,13 @@ Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファ
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
 -->
 
-
-
 ## Workfront インスタンスのユーザーに対してWorkfront Planning を有効にします
 
-機能にアクセスするには、組織がAdobe Workfront計画プログラムに登録する必要があります。 条件を満たす場合、アカウント担当者からこのプログラムへの登録に関する情報が提供されています。
+Workfront Planning のライセンスを購入した後、Workfront Planning にアクセスするには、次の条件を満たす必要があります。
 
-他のユーザーが Workfront Planning を使用できるようにアクセス権を付与して有効にする方法について詳しくは、[アクセス権の概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+* Workfront管理者は、メインメニューに Planning が含まれるレイアウトテンプレートにあなたを割り当てる必要があります。 詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [ レイアウトテンプレートにユーザーを割り当てる ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) を参照してください。
+
+* Workfront管理者は、Workfront ライセンスと、Workfront Planning でオブジェクトを表示または作成するためのWorkfront Planning 権限をユーザーに割り当てる必要があります。 他のユーザーが Workfront Planning を使用できるようにアクセス権を付与して有効にする方法について詳しくは、[アクセス権の概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
 ## Workfront Planning の用語
 

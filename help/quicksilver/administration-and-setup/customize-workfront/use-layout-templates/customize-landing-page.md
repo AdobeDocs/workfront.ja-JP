@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 57a1046a-434a-4453-a101-c5f0a16e079e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '387'
-ht-degree: 83%
+source-wordcount: '442'
+ht-degree: 75%
 
 ---
 
@@ -19,7 +19,12 @@ ht-degree: 83%
 
 Adobe Workfront 管理者は、レイアウトテンプレートを使用して、ユーザーが Workfront にログインしたときに表示するエリアを指定できます。
 
-レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
+ユーザーは、次のいずれかを開くことができます。
+
+* Workfront指定地域
+* カスタムダッシュボード。
+
+レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
 グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
@@ -62,9 +67,38 @@ Adobe Workfront 管理者は、レイアウトテンプレートを使用して�
 1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
 1. Adobe Analytics の **ナビゲーション領域上部**&#x200B;で、「**ランディングページを選択**」をクリックし、ユーザーがログインしたときに表示するエリアを選択します。
 
+   次の領域から選択するか、カスタムダッシュボードを追加します。
+
+   * 分析
+   * カレンダー
+   * ダッシュボード
+   * ドキュメント
+   * Goals
+   * ホーム
+   * マイ更新
+   * ポートフォリオ
+   * プログラム
+   * プロジェクト
+   * レポート
+   * リクエスト
+   * リソース
+   * シナリオ
+   * チーム
+   * テンプレート
+   * タイムシート
+   * ユーザー
+   * ブループリント
+   * プラン
+
    >[!IMPORTANT]
    >
-   >「シナリオ」および「目標」エリアを表示するには、追加のライセンスが必要です。Workfront Goals について詳しくは [Adobe Workfront Goals の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)、Workfront シナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
+   >シナリオ、目標および計画領域を表示するには、追加のライセンスが必要です。
+   >
+   >* Workfront Goals について詳しくは、[Adobe Workfront Goals の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。
+   >
+   >* Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
+   >
+   >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 

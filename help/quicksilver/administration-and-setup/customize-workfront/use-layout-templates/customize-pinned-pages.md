@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 96%
+source-wordcount: '516'
+ht-degree: 91%
 
 ---
 
@@ -64,11 +64,38 @@ ht-degree: 96%
 
 1. 表示されるドロップダウンメニューで、以下のいずれかを行います。
 
-   * メインメニューの項目をクリックします。
+   * 次の領域から選択します。
 
-     >[!IMPORTANT]
-     >
-     >「シナリオ」および「目標」エリアを表示するには、追加のライセンスが必要です。Workfront Goals について詳しくは、[Adobe Workfront Goals の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を、Workfront シナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
+      * 分析
+      * カレンダー
+      * ダッシュボード
+      * ドキュメント
+      * Goals
+      * ホーム
+      * マイ更新
+      * ポートフォリオ
+      * プログラム
+      * プロジェクト
+      * レポート
+      * リクエスト
+      * リソース
+      * シナリオ
+      * チーム
+      * テンプレート
+      * タイムシート
+      * ユーザー
+      * ブループリント
+      * プラン
+
+   >[!IMPORTANT]
+   >
+   >シナリオ、目標および計画領域を表示するには、追加のライセンスが必要です。
+   >
+   >* Workfront Goals について詳しくは、[Adobe Workfront Goals の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。
+   >
+   >* Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
+   >
+   >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
    * **ダッシュボードを追加**&#x200B;をクリックし、次に、説明的な&#x200B;**カスタムセクションのタイトル**&#x200B;を入力し、ダッシュボードを追加します。
 
