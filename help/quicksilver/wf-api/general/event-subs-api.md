@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: c08bd3311892d24a9bd40af138169957f5ea2ca4
+source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
 workflow-type: tm+mt
-source-wordcount: '2147'
+source-wordcount: '2157'
 ht-degree: 98%
 
 ---
@@ -452,6 +452,12 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 * 1 つの登録に複数のフィルターを適用する方法は、**AND** 論理演算子を使用する場合と同等です。
 * 1 つ以上のイベント登録フィールドパラメーターがイベント登録ごとに異なる限り、複数のイベント登録を 1 つのオブジェクトに適用できます。
 * 1 つのオブジェクトに複数のイベント登録が割り当てられている場合、そのオブジェクトに関連付けられているすべてのイベント登録を 1 つのエンドポイントに返すことができます。この方法は、フィルターパラメーターを使用する場合には設定できない論理演算子 **OR** の同等の代替手段として使用できます。
+* 次のフィールドはフィルタリングできません。
+
+   * DOCU.groups
+   * RECORD.data
+   * RECORD_TYPE.data
+   * RECORD_TYPE.fields
 
 ### 比較演算子の使用
 
