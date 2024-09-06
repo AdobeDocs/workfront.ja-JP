@@ -7,10 +7,10 @@ description: この記事では、異なる状況でアクティブなシナリ�
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: 0f6d02733f091d7e548db6005eebb3a24087799a
+source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 95%
+source-wordcount: '290'
+ht-degree: 91%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 95%
 
 * 非アクティブなシナリオは、手動で実行した場合にのみ実行されます。
 
-  これは、特定の時間にのみシナリオを実行する場合に役立ちます。
+  これは、シナリオを毎回手動で実行する場合に便利です。
 
 シナリオの使用方法に応じて、いつでもシナリオをアクティブ化または非アクティブ化できます。
 
