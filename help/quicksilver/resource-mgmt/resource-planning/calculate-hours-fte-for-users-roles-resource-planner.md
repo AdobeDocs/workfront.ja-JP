@@ -2,15 +2,15 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-planning
-title: リソースプランナーでのユーザーと役割に対する時間と FTE の計算の概要
+title: リソースプランナーでのユーザーと役割の時間数と FTE の計算の概要
 description: リソースプランナーでのユーザーと役割に対する時間と FTE の計算の概要
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 10b0e507-658e-4d12-994a-e38da6111f5d
-source-git-commit: de015496d4cb960b10368e4dfa0f7abec1b7d989
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '1392'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 

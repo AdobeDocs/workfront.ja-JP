@@ -8,14 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1152'
 ht-degree: 4%
 
 ---
 
-# ビジネス・ルールの作成と編集
+# ビジネスルールを作成および編集
 
 ビジネス・ルールを使用すると、Workfrontオブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ビジネスルールは、データの整合性を損なう可能性のあるアクションを防ぐことで、データ品質と運用効率の向上に役立ちます。
 
@@ -74,10 +74,17 @@ IF ステートメントについて詳しくは、[ 「IF」ステートメン�
 
 API ワイルドカードは、ビジネス・ルールでも使用できます。 `$$ISAPI` を使用して、UI または API でのみルールをトリガーできます。
 
+`$$BEFORE_STATE` と `$$AFTER_STATE` のワイルドカードは、編集の前後でオブジェクトのフィールド値にアクセスするための式で使用されます。
+
+* これらのワイルドカードは、両方とも編集トリガーで使用できます。 編集トリガーのデフォルトのステート（ステートが式に含まれていない場合）は `$$AFTER_STATE` です。
+* オブジェクト作成トリガーでは、before ステートが存在しないので、`$$AFTER_STATE` のみが許可されます。
+* 後のステートが存在しないので、オブジェクト `$$BEFORE_STATE` 除トリガーでは削除のみを許可します。
+
+
 簡単なビジネス・ルールのシナリオには、次のものがあります。
 
 * ユーザーが 2 月の最後の週に新しい費用を追加することはできません。 この式は次のように表すことができます。`IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* ユーザーは、「完了」ステータスのプロジェクトを編集できません。 この式は次のように表すことができます。`IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* ユーザーが「完了」ステータスのプロジェクトのプロジェクト名を編集できない。 この式は次のように表すことができます。`IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 ネストされた IF ステートメントを含むシナリオは次のとおりです。
 

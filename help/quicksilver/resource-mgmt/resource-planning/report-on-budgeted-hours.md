@@ -3,10 +3,10 @@ product-area: resource-management;reporting
 navigation-topic: resource-planning
 title: リソースプランナーの予算時間に関するレポート
 description: リソースプランナーを使用して、プロジェクトのリソースを予算計上できます。Adobe Workfront リソースプランナーを使用したリソースの予算計上について詳しくは、プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上の記事を参照してください。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 6adf11a4-3c33-484f-80cc-c5d96a7c7112
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 100%

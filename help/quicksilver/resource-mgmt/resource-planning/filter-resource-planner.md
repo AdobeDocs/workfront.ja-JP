@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: リソースプランナーで情報をフィルタリング
-description: 「（AL：*この記事を反復：カスタムデータによるフィルタリング。その他の機能強化には何がありますか？特殊文字が変更される可能性があります - 時期についてはストーリーをフォローしてください。当初はベータ 3 17.3 で導入されました。）」
-author: Alina
+title: リソースプランナーでの情報のフィルタリング
+description: フィルターを使用すると、システムに保存されているすべての情報から、リソースプランナーに表示される情報を変更できます。
+author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 99%
+source-wordcount: '2374'
+ht-degree: 97%
 
 ---
 
@@ -23,38 +23,40 @@ ht-degree: 99%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>Pro 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：任意</p>
+       <p>または</p>
+       <p>現在：Pro 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー以上<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：ライト以上</p>
+       <p>または</p>
+       <p>現在：レビュー以上</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクト、ユーザー、およびリソース管理に対する、表示以上のアクセス権 </p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクト、ユーザー、およびリソース管理へのアクセスを表示する（またはそれ以上）</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する、表示以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトに対する、表示以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## リソースプランナーのフィルターの概要
 
@@ -117,18 +119,16 @@ ht-degree: 99%
 
 リソースプランナーでフィルターを作成する手順は、次の通りです。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-resourcing}}
 
-1. 「**リソース**」をクリックします。
+「**計画担当者**」がデフォルトで表示されます。
 
-   「**計画担当者**」がデフォルトで表示されます。
+デフォルトでは、リソースプランナーに初めてアクセスすると、<strong>デフォルトのフィルター</strong>が適用されます。<br>デフォルトのフィルターについて詳しくは、記事内の<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">リソースプランナーのデフォルトフィルターの概要</a>の節を参照してください。
 
-   デフォルトでは、リソースプランナーに初めてアクセスすると、<strong>デフォルトのフィルター</strong>が適用されます。<br>デフォルトのフィルターについて詳しくは、記事内の<a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">リソースプランナーのデフォルトフィルターの概要</a>の節を参照してください。
-
-1. の左上隅で、**フィルター**&#x200B;アイコンをクリックします。\
-   ![filter_icon.png](assets/filter-icon.png)\
-   または\
-   **フィルター**&#x200B;ドロップダウンメニューを展開し、「**新規フィルターを追加**」をクリックします。\
+1. の左上隅で、**フィルター**アイコンをクリックします。
+   ![filter_icon.png](assets/filter-icon.png)
+または
+**フィルター** ドロップダウンメニューを展開して、「**新しいフィルターを追加**」をクリックします。
    ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. ビルトインの条件を使用してフィルターを作成するには、次のいずれかのフィールドを指定します。

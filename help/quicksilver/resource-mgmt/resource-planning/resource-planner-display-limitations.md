@@ -4,13 +4,13 @@ product-area: resource-management
 navigation-topic: resource-planning
 title: リソースプランナーの表示制限
 description: パフォーマンスを向上させるため、Adobe Workfront では表示できる情報の量と、リソースプランナーから書き出せる情報の量を制限しています。
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 12f56f11-59fb-4318-b43a-5ac695ca1e7e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
 workflow-type: tm+mt
 source-wordcount: '948'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
