@@ -6,16 +6,16 @@ description: 適切なアクセス権または権限がなければ、ワーク�
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 100%
+source-wordcount: '462'
+ht-degree: 80%
 
 ---
 
 # ワークロードバランサーでリソースを管理するために必要なアクセス
 
-正しいアクセス権または権限がないと、ワークロードバランサーで作業割り当てを表示または管理できない場合があります。
+適切なアクセス権または権限がなければ、ワークロードバランサーで作業の割り当てを表示または管理できない場合があります。
 
 ワークロードバランサーでワークロードを表示または管理したいユーザーを表示するアクセス権が必要です。これに加えて、作業が関連付けられているプロジェクトに対する正しいアクセスレベルと正しい権限が必要です。
 
@@ -28,7 +28,7 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p><b>Workfront プラン</b></p></td> 
+   <td role="rowheader"><p><b>Workfrontプラン（最新）</b></p></td> 
    <td> <p><b>ワークロードバランサーにアクセスできるエリア</b></p> </td> 
   </tr> 
   <tr> 
@@ -38,6 +38,14 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">Pro 以上</td> 
    <td>複数のプロジェクト用のワークロードバランサー（システムレベル）</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p><b>Workfrontプラン（新規）</b></p></td> 
+   <td> <p><b>ワークロードバランサーにアクセスできるエリア</b></p> </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">任意 </td> 
+   <td>Workfrontの任意の場所でワークロードバランサーにアクセスする</td> 
   </tr> 
  </tbody> 
 </table>
@@ -53,26 +61,26 @@ Workfront のワークロードバランサーの場所について詳しくは�
 <table style="table-layout:auto"> 
  <col> 
  <col> 
- <tbody> 
+ <tbody>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リソースエリアにワークロードバランサーを表示するプラン</p>
-   <p>チームまたはプロジェクトのワークロードバランサーを表示するワーク</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：計画して、リソース領域にワークロードバランサーを表示します；</br>
+       作業（チームまたはプロジェクトのワークロードバランサーを表示する）</p></td>
+  </tr>  
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>リソース管理への表示以上のアクセス</p> <p>リソース管理のアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">リソース管理へのアクセス権の付与</a>の記事を参照してください。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>リソース管理に対する表示以上のアクセス権</p> <p>リソース管理のアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">リソース管理へのアクセス権の付与</a>の記事を参照してください。</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
-  <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>割り当てを表示したいプロジェクトに対する表示権限があります。 </p> <p>プロジェクト権限の詳細については、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>を参照してください。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>割り当てを表示するプロジェクトの表示権限が必要です。 </p> <p>プロジェクトの権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;自分のプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## ワークロードバランサーで割り当てを管理するために必要なアクセス
 
@@ -81,29 +89,27 @@ Workfront のワークロードバランサーの場所について詳しくは�
 <table style="table-layout:auto"> 
  <col> 
  <col> 
- <tbody> 
+ <tbody>
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン：リソースエリアのワークロードバランサーで割り当てを管理する</p>
-   <p>ワーク：チームまたはプロジェクトのワークロードバランサーで割り当てを管理する</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：リソース領域のワークロードバランサーで割り当てを管理するために計画します；</br>
+       チームまたはプロジェクトのワークロードバランサーで割り当てを管理する</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>リソース管理へのアクセスを編集</p> 
-     <p>リソース管理のアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">リソース管理へのアクセス権の付与</a>の記事を参照してください。</p>
-     <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+     <p>リソース管理のアクセスレベルについて詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">リソース管理へのアクセス権の付与</a>の記事を参照してください。</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p> 割り当てを行う権限を含む、割り当てを管理したいプロジェクトに対する参加以上の権限。 </p> <p>プロジェクトの権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p> 割り当てを行う権限を含む、割り当てを管理したいプロジェクトに対する参加以上の権限。 </p> <p>プロジェクトの権限について詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    

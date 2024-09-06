@@ -1,27 +1,27 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: ドラッグ＆ドロップによるワークロードバランサーでの作業の割り当て
+title: ワークロードバランサーでドラッグ&ドロップして作業を割り当てる
 description: Adobe Workfront ワークロードバランサーを使用して作業アイテムを正しいユーザーにドラッグ＆ドロップすることで、作業アイテムを割り当てることができます。
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 100%
+source-wordcount: '867'
+ht-degree: 94%
 
 ---
 
 # ドラッグ＆ドロップによるワークロードバランサーでの作業の割り当て
-
-<!--remove production and preview preferences at release-->
 
 Adobe Workfront ワークロードバランサーを使用して作業アイテムを正しいユーザーにドラッグ＆ドロップすることで、作業アイテムを割り当てることができます。
 
 ワークロードバランサーを使用してユーザーに作業アイテムを割り当てる方法の概要については、[ワークロードバランサーでの作業割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -30,35 +30,37 @@ Adobe Workfront ワークロードバランサーを使用して作業アイテ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>プラン（リソースエリアのワークロードバランサーでワークを割り当てます）</p>
-   <p>ワーク（チームまたはプロジェクトのワークロードバランサーでワークを割り当てます）</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：計画、リソース領域のワークロードバランサーで作業を割り当て；</br>
+       作業、チームまたはプロジェクトのワークロードバランサーで作業を割り当てる</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>以下の項目についてアクセス権を編集します。</p> 
     <ul> 
-     <li> <p>リソース管理</p> </li> 
-     <li> <p>プロジェクト</p> </li> 
-     <li> <p>タスク</p> </li> 
-     <li> <p>イシュー</p> </li> 
-    </ul> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+     <li>リソース管理</li> 
+     <li>プロジェクト</li> 
+     <li>タスク</li> 
+     <li>イシュー</li> 
+    </ul>
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクト、タスク、イシューに対する参加以上の権限（割り当ての作成を含む）</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td>プロジェクト、タスク、イシューに対する参加以上の権限（割り当ての作成を含む）</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ドラッグ＆ドロップによるアイテムの割り当て
 

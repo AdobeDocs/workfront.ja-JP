@@ -6,10 +6,10 @@ description: 作業アイテムを効率的に検索し、管理するユーザ�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
 workflow-type: tm+mt
-source-wordcount: '2497'
-ht-degree: 99%
+source-wordcount: '2470'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,9 @@ ht-degree: 99%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,38 +45,40 @@ ht-degree: 99%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意のプラン</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン、リソース領域でワークロードバランサーを使用する場合</p>
-   <p>ワーク、チームまたはプロジェクトのワークロードバランサーを使用する場合</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
+       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次の項目に対する表示以上のアクセス権：</p> 
     <ul> 
-     <li> <p>リソース管理</p> </li> 
-     <li> <p>プロジェクト</p> </li> 
-     <li> <p>タスク</p> </li> 
-     <li> <p>イシュー</p> </li> 
-     <li data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <p>フィルター、ビュー、グループ化</p> </li> 
-    </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"><span>フィルターの作成または編集時に、フィルター、ビュー、グループ化への編集アクセス権</span> </p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+     <li>リソース管理</li> 
+     <li>プロジェクト</li> 
+     <li>タスク</li> 
+     <li>イシュー</li>
+     <li>フィルター、ビュー、グループ化</li>
+    </ul>
+    <p>フィルターを作成または編集する際に、フィルター、ビュー、グループへのアクセスを編集します </p> </td>
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>プロジェクト、タスク、イシューに対する表示またはそれ以上の権限</p>
    <p>編集または削除するフィルターに対する管理権限</p>
-     </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ワークロードバランサーのフィルターの概要
 

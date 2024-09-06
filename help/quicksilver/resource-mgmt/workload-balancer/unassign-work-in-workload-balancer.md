@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: ワークロードバランサーで作業を割り当て解除する
+title: ワークロードバランサーでの作業の割り当て解除
 description: Adobe Workfront ワークロードバランサーの割り当て済み作業エリアの作業アイテムから、ユーザーの割り当てを解除したり、他のユーザー、役割、またはチームに再割り当てしたりできます。
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '400'
+ht-degree: 90%
 
 ---
 
@@ -25,6 +25,8 @@ Adobe Workfront ワークロードバランサーの割り当て済み作業エ�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -32,36 +34,36 @@ Adobe Workfront ワークロードバランサーの割り当て済み作業エ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
+       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン、リソース領域でワークロードバランサーを使用する場合</p>
-   <p>ワーク、チームまたはプロジェクトのワークロードバランサーを使用する場合</p>
-
-</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>以下の項目についてアクセス権を編集します。</p> 
     <ul> 
-     <li> <p>リソース管理</p> </li> 
-     <li> <p>プロジェクト</p> </li> 
-     <li> <p>タスク</p> </li> 
-     <li> <p>イシュー</p> </li> 
-    </ul> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+     <li>リソース管理</li> 
+     <li>プロジェクト</li> 
+     <li>タスク</li> 
+     <li>イシュー</li> 
+    </ul></td>
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクト、タスク、イシューに対する参加以上の権限（割り当ての作成を含む）</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td>プロジェクト、タスク、イシューに対する参加以上の権限（割り当ての作成を含む）</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
- 
++++
 
 ## ワークロードバランサーで作業アイテムを割り当て解除する
 

@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: ワークロードバランサーでの作業割り当ての概要
+title: ワークロードバランサーでの作業の割り当ての概要
 description: リソースマネージャーは、Adobe Workfront ワークロードバランサーを使用して、まだユーザーに割り当てられていない作業アイテムを表示したり、それらのアイテムをユーザーに割り当てることができます。
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '1033'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

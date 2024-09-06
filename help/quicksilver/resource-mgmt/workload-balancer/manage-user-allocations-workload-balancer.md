@@ -1,15 +1,15 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: ワークロードバランサーでユーザー割り当ての管理する
+title: ワークロードバランサーでのユーザー割り当ての管理
 description: リソースマネージャーとして、作業をユーザーに割り当て、ワークロードバランサーから日、週、月単位の割り当てを管理できます。
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: dd015fc356f65cc3d00a1c88ca0a8f2268283606
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,26 +35,21 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-   <p>リソースエリアでワークロードバランサーを使用する場合は、以下が必要です。</p>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：プラン</p>
-   <p>チームまたはプロジェクトのワークロードバランサーを使用する場合は、以下が必要です。</p>
-   <p>新規：標準</p>
-   <p>または</p>
-   <p>現在：ワーク</p>
- </td> 
-  </tr> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
+       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
+  </tr>
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>以下の項目についてアクセス権を編集します。</p> 
     <ul> 
-     <li> <p>リソース管理</p> </li> 
-     <li> <p>プロジェクト</p> </li> 
-     <li> <p>タスク</p> </li> 
-     <li> <p>イシュー</p> </li> 
-    </ul> </td> 
+     <li>リソース管理</li> 
+     <li>プロジェクト</li> 
+     <li>タスク</li> 
+     <li>イシュー</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 

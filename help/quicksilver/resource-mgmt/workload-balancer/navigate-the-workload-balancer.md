@@ -6,10 +6,10 @@ description: ワークロードバランサーを使用して、リソースの�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '4146'
-ht-degree: 100%
+source-wordcount: '4068'
+ht-degree: 99%
 
 ---
 
@@ -21,47 +21,9 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=ja)を参照してください。
 
-
 ## アクセス要件
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -70,33 +32,37 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン、リソース領域でワークロードバランサーを使用する場合</p>
-   <p>ワーク、チームまたはプロジェクトのワークロードバランサーを使用する場合</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
+       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次の項目に対する表示以上のアクセス権：</p> 
     <ul> 
-     <li> <p>リソース管理</p> </li> 
-     <li> <p>プロジェクト</p> </li> 
-     <li> <p>タスク</p> </li> 
-     <li> <p>イシュー</p> </li> 
-    </ul> <p>まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+     <li>リソース管理</li> 
+     <li>プロジェクト</li> 
+     <li>タスク</li> 
+     <li>イシュー</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクト、タスク、イシューに対する表示またはそれ以上の権限 </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td>プロジェクト、タスク、イシューに対する表示またはそれ以上の権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ワークロードバランサーでの項目の表示に関する考慮事項
 
@@ -156,8 +122,9 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 複数のプロジェクトを対象とするワークロードバランサーをナビゲートするには、次の手順に従います。
 
-1. Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、「**リソース**」をクリックします。
-1. 左パネルの「**ワークロードバランサー**」をクリックします。
+{{step1-to-resourcing}}
+
+1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
    ![ワークロードバランサー](assets/nwe-balancer-global.png)
 
@@ -433,9 +400,11 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 チームのワークロードバランサーの操作は、複数のプロジェクトに対するワークロードバランサーの操作方法と似ています。詳しくは、この記事の[複数のプロジェクトに対するワークロードバランサーの操作](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)の節を参照してください。
 
-1. **メインメニュー**&#x200B;アイコン ![メインメニュー](assets/main-menu-icon.png)、「**チーム**」の順にクリックします。
+{{step1-to-team}}
+
 ホームチームのページがデフォルトで表示されます。
-1. 左側のパネルの「**ワークロードバランサー**」をクリックします。チームのワークロードバランサーは、デフォルトで表示される必要があります。
+
+1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
    ![チームのワークロードバランサー](assets/nwe-balancer-team-350x172.png)
 
@@ -448,7 +417,8 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 ## 単一プロジェクトのワークロードバランサーのナビゲーション
 
-1. **メインメニュー**&#x200B;アイコン ![メインメニュー](assets/main-menu-icon.png)、「**プロジェクト**」の順にクリックします。
+{{step1-to-projects}}
+
 1. プロジェクトの名前をクリックして、プロジェクトページを開きます。
 1. 左側のパネルの&#x200B;**ワークロードバランサー**&#x200B;をクリックします。「**さらに表示**」をクリックしてから&#x200B;**ワークロードバランサー**&#x200B;をクリックする必要がある場合があります。
 

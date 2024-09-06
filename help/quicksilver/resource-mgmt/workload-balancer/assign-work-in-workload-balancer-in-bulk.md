@@ -1,25 +1,21 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: ワークロードバランサーを使用して一括で作業を割り当てる
+title: ワークロードバランサーを使用した一括での作業の割り当て
 description: Adobe Workfront ワークロードバランサーを使用すると、複数のタスクと問題にリソースを一括で割り当てることができます。
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '1499'
-ht-degree: 91%
+source-wordcount: '1521'
+ht-degree: 90%
 
 ---
 
 # ワークロードバランサーを使用して一括で作業を割り当てる
 
 <!--Audited: 07/2024-->
-
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
 
 Adobe Workfront ワークロードバランサーを使用すると、複数のタスクと問題にリソースを一括で割り当てることができます。
 
@@ -28,6 +24,8 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,36 +36,31 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> 
-   <p>新規：標準</p>
-   <p>現在：</p>
-   <ul>
-   <li><p>プラン、リソース領域でワークロードバランサーを使用する場合</p></li>
-   <li><p>ワーク、チームまたはプロジェクトのワークロードバランサーを使用する場合</p></li></ul>
-
-</td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
+       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">アクセスレベル</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>以下の項目についてアクセス権を編集します。</p> 
     <ul> 
-     <li> <p>リソース管理</p> </li> 
-     <li> <p>プロジェクト</p> </li> 
-     <li> <p>タスク</p> </li> 
-     <li> <p>イシュー</p> </li> 
+     <li>リソース管理</li> 
+     <li>プロジェクト</li> 
+     <li>タスク</li> 
+     <li>イシュー</li> 
     </ul>
-
-</td> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクト、タスク、イシューに対する参加以上の権限（割り当ての作成を含む）</p> </td> 
+   <td>プロジェクト、タスク、イシューに対する参加以上の権限（割り当ての作成を含む）</td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -100,27 +93,27 @@ Adobe Workfront ワークロードバランサーを使用すると、複数の�
 
 1. （条件付き）リソースエリアからワークロードバランサーにアクセスする場合や、チームのワークロードバランサーにアクセスする場合は、**プロジェクト: 名前**&#x200B;ドロップダウンメニューを展開し、フィルター修飾子を使用して、割り当ての対象となる任意の数のプロジェクトを選択します。プロジェクトは、名前（これがデフォルトのオプション）またはステータスを基準に選択できます。
 
-Workfront フィルター修飾子については、[フィルターおよび条件修飾子](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
+   Workfront フィルター修飾子については、[フィルターおよび条件修飾子](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
 
->[!NOTE]
->
->プロジェクトのワークロードバランサーにアクセスする場合は、プロジェクト名がデフォルトで選択されています。
+   >[!NOTE]
+   >
+   >プロジェクトのワークロードバランサーにアクセスする場合は、プロジェクト名がデフォルトで選択されています。
 
-![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. （オプション）「**プロジェクトタスクを選択**」をクリックして、割り当ての対象となる任意の数のタスクを選択したあと、**タスク: 名前**&#x200B;ドロップダウンメニューで名前（これがデフォルトのオプション）またはステータスを基準にタスクを選択し、フィルター修飾子を使用して特定のタスクを検索します。
 
-Workfront フィルター修飾子については、[フィルターおよび条件修飾子](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
+   Workfront フィルター修飾子については、[フィルターおよび条件修飾子](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
 
->[!NOTE]
->
->完了ステータスのタスクは選択できません。
+   >[!NOTE]
+   >
+   >完了ステータスのタスクは選択できません。
 
-![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
->[!TIP]
->
->イシューやタスクの一括割り当てを行う場合は、この選択を空白のままにします。
+   >[!TIP]
+   >
+   >イシューやタスクの一括割り当てを行う場合は、この選択を空白のままにします。
 
 1. （オプション）選択した条件の横にある&#x200B;**削除**&#x200B;アイコン ![](assets/delete.png) をクリックします。
 

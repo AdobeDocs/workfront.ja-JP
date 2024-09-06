@@ -7,15 +7,14 @@ description: ワークロードバランサーを使用して、作業用のリ�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 2c4fe48ef969741ba792e37c28adba86ffdcba9a
+source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 100%
+source-wordcount: '708'
+ht-degree: 85%
 
 ---
 
 # ワークロードバランサーの使用場所
-
 
 ワークロードバランサーを使用して、作業用のリソースをスケジュールリングしたり、リソースの空き時間と現在の割り当てをレビューしたりすることができます。
 
@@ -36,9 +35,10 @@ ht-degree: 100%
 >* [ワークロードバランサーの操作](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 >* [ワークロードバランサーでの作業割り当ての概要](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 >* [ワークロードバランサーでのユーザー割り当ての管理](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
->
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -47,35 +47,35 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン、リソース領域でワークロードバランサーを使用する場合</p>
-   <p>ワーク、チームまたはプロジェクトのワークロードバランサーを使用する場合</p>
- </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
+       チームまたはプロジェクトのワークロードバランサーを使用する場合の作業</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次の項目に対する表示以上のアクセス権：</p> 
     <ul> 
-     <li> <p>リソース管理</p> </li> 
-     <li> <p>プロジェクト</p> </li> 
-     <li> <p>タスク</p> </li> 
-     <li> <p>イシュー</p> </li> 
-    </ul> <p><b> メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+     <li>リソース管理</li> 
+     <li>プロジェクト</li> 
+     <li>タスク</li> 
+     <li>イシュー</li> 
+    </ul> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクト、タスク、イシューの表示またはそれ以上の権限 </p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td>プロジェクト、タスク、イシューの表示またはそれ以上の権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 事前定義済みのエリアでワークロードバランサーにアクセス
 
@@ -83,7 +83,8 @@ ht-degree: 100%
 
 ### リソース領域での複数のプロジェクトを対象とするワークロードバランサーへのアクセス
 
-1. **メインメニュー**&#x200B;アイコン![](assets/main-menu-icon.png)、**レポート**&#x200B;の順にクリックします。
+{{step1-to-resourcing}}
+
 1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
    ![](assets/nwe-balancer-global.png)
@@ -97,27 +98,27 @@ ht-degree: 100%
 
 ### チームのワークロードバランサーへのアクセス
 
-1. **メインメニュー**&#x200B;アイコン![](assets/main-menu-icon.png)をクリックし、次にチームをクリックします。
+{{step1-to-team}}
+
 ホームチームのページが表示されます。
 
-   チームのワークロードバランサーがデフォルトで表示されます。
-
-   ![](assets/nwe-balancer-team-350x172.png)
-
-   チームのワークロードバランサーには、デフォルトで次の情報が表示されます。
-
-   * **未割り当ての作業**：チームに割り当てられ、ユーザーには割り当てられていない項目。
-   * **割り当てられた作業**：チームのメンバー全員とすべての割り当て。
-
-     >[!TIP]
-     >
-     >チームメンバーには、チームに割り当てられている作業と、他のチームや役割に割り当てられている作業に割り当てられる場合があります。
-
-
+左側のパネルで     **ワークロードバランサー**をクリックします。
+    
+    ![] （assets/nwe-balancer-team-350x172.png） 
+    
+     チームのワークロードバランサーには、デフォルトで次の情報が表示されます。
+    
+    * **未割り当ての作業**：チームに割り当てられ、ユーザーに割り当てられていない項目。
+    * **割り当てられた作業**：チームのすべてのメンバーと、すべての割り当て。
+    
+    >[!TIP]
+    >
+    > チーム メンバーは、チームに割り当てられている作業または他のチームや役割に割り当てられている作業に割り当てられている可能性があります。
 
 ### プロジェクトのワークロードバランサーへのアクセス
 
-1. **メインメニュー**&#x200B;アイコン![](assets/main-menu-icon.png)をクリックし、次に&#x200B;**プロジェクト**&#x200B;をクリックします。
+{{step1-to-projects}}
+
 1. プロジェクトの名前をクリックして、プロジェクトページを開きます。
 1. 左側のパネルの&#x200B;**ワークロードバランサー**&#x200B;をクリックします。「**さらに表示**」をクリックしてから&#x200B;**ワークロードバランサー**&#x200B;をクリックする必要がある場合があります。
 
