@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 6437fe98-2c2b-4b49-97e2-f94b23da93fd
-source-git-commit: 3abfa92e6ad33243a1cdd19de25bbe04a8e81425
+source-git-commit: 9c76e216cf66f230a12023c349093c45ba2c04a7
 workflow-type: tm+mt
 source-wordcount: '2087'
 ht-degree: 99%
@@ -210,6 +210,7 @@ ht-degree: 99%
 >[!NOTE]
 >
 >[!DNL Jira Server] アプリで [!DNL Jira Server] または [!DNL Jira Data Center] に接続します。
+
 1. [!DNL Workfront Fusion] で任意の [!DNL Jira Server] モジュールで、「[!UICONTROL 接続]」フィールドの横にある「**[!UICONTROL 追加]**」をクリックします。
 1. [!UICONTROL 接続の作成]パネルで、次のフィールドに入力します。
 
