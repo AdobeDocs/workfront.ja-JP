@@ -9,10 +9,10 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 35ec37253655d05a8ce24a5c928b1d5377f7abef
+source-git-commit: 6912878642008bb56b9265db2348b7c38b674bcd
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 99%
+source-wordcount: '749'
+ht-degree: 98%
 
 ---
 
@@ -24,8 +24,9 @@ Workfront Fusion の使用方法については、[Adobe Workfront Fusion](../..
 
 ## 2024年の Fusion リリース
 
-### 2024年8月
+### 2024 年 8 月
 
+* [Workfront Fusion リリースアクティビティ：2024年8月19日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
 * [Workfront Fusion リリースアクティビティ：2024年8月5日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
 
 ### 2024 年 7 月
