@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '2174'
-ht-degree: 99%
+source-wordcount: '2180'
+ht-degree: 97%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 99%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,14 +56,14 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規プラン：標準 </p>
+   <td> <p>新規：標準 </p>
  <p>または</p> 
-<p>現在の計画：プラン </p> 
+<p>現在：プラン </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>Workfront 管理者である場合や、承認プロセスに対する管理者アクセス権を持っている場合は、システムレベルの承認プロセスを作成することも、特定のグループに対してグループレベルの承認プロセスを作成することもできます。</p> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>システム管理者または承認プロセスへの管理者アクセス権を持つユーザーは、特定のグループに対してシステムレベルの承認プロセスまたはグループレベルの承認プロセスを作成できます。</p> 
    <p>グループ管理者である場合は、管理するグループに対してグループレベルの承認プロセスを作成できます。</p> </td> 
   </tr> 
  </tbody> 

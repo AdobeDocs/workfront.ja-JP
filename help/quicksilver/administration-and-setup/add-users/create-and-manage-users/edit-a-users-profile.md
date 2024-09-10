@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 1e70620514f180d547c61970c0dd49d281377ce5
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '3336'
+source-wordcount: '3298'
 ht-degree: 96%
 
 ---
@@ -48,26 +48,20 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準</p>
-   または
-   <p>現在：プラン</p></td> 
+   <td><p>新規：標準</p><p>または</p><p>現在：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次のいずれかが必要です。</p> 
     <ul> 
-     <li> <p>システム管理者のアクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。 </p> </li> 
-     <li> <p>アクセスレベルで<b>編集</b>アクセス権のある<b>ユーザー</b>オブジェクト。ただし、<b>設定の微調整</b> <img src="assets/gear-icon-in-access-levels.png"> で、「<b>作成</b>」オプションと、以下の 2 つの「<b>ユーザー管理</b>」オプションのうち少なくとも 1 つが有効になっている必要があります。 </p> 
-     <ul><li> ユーザー管理者（すべてのユーザー）</li>
-     <li>ユーザー管理者（グループユーザー）</li></ul>
-     <p>「<b>ユーザー管理者 (グループ ユーザー)</b>」が有効になっている場合、ユーザーを編集するには、そのユーザーがメンバーとして含まれるグループのグループ管理者である必要があります。</p> 
-     <p>アクセスレベルでの<b>ユーザー</b>設定について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセスを許可</a>を参照してください。</p> </li> 
+     <li> <p>システム管理者のアクセス レベルです。 </li> 
+     <li> <p><b>編集</b>アクセスに設定されたアクセスレベルでの<b>ユーザー</b>設定には、<b>作成</b>および<b>設定を微調整</b> <img src="assets/gear-icon-in-access-levels.png">の下で有効となる少なくとも 2 つのうち 1 つの<b>ユーザー管理者</b>オプションがあります。 </p> <p>この 2 つのオプションのうち、ユーザー<b>管理者（グループユーザー）</b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

@@ -8,16 +8,53 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
-source-git-commit: c3bfaf666fb0ceb43bcabda13949b27b567b5d08
+source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 88%
+source-wordcount: '523'
+ht-degree: 87%
 
 ---
 
 # 特定のステータスを使用して、承認待ちのプロセスを持つオブジェクトをリストします
 
 ステータスを削除しようとすると、システム内の少なくとも 1 つの保留中の承認プロセスにあるので、削除できないことを示すエラーメッセージが表示される場合があります。レポートを実行して、承認待ちプロセスのオブジェクトのリストを表示し、各オブジェクトに対して何を実行する必要があるかを決定できます。
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+     <p>新規：標準</p>
+     <p>または</p>
+     <p>現在：プラン</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td><p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p><p>フィルター、ビュー、グループへのアクセスを編集</p></td>
+  </tr>
+  <tr> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td>作成したレポートに対する管理権限を取得します。</td>
+  </tr>
+ </tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 標準モード
 
