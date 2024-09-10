@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 96%
+source-wordcount: '1260'
+ht-degree: 92%
 
 ---
 
@@ -101,6 +101,18 @@ ht-degree: 96%
      <p>詳しい情報と手順については、<a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html?lang=ja" class="MCXref xref">[!DNL Creative Cloud] アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> 
      </td>  <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager AssetsとAssets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>WorkfrontとAdobe Experience Managerの間でリンクされたフォルダーを自動的に作成 
+      <li>既存のリンクされたアセットのメタデータの同期</p></li>
+      <li>Workfrontで変更された場合、ポートフォリオ、プログラム、プロジェクト、タスク、問題、ドキュメントのメタデータを自動的に更新します。</li>
+      <li>複数の Experience Manager Assets リポジトリを 1 つの Workfront 環境に、または複数の Workfront 環境を組織 ID をまたいで 1 つの Experience Manager Assets リポジトリにスムーズに接続できます。</li></ul>
+     <p>詳細と手順については、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets統合の概要 </a> を参照してください</p> 
+     </td>
+   <td><ul><li>Workfront は、割り当てられた組織 ID を持つ Admin Console に属している必要があります。</li><li>Workfront および Experience Manager Assets または Assets Essentials は、統合を設定するユーザーに製品として割り当てる必要があります。</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 

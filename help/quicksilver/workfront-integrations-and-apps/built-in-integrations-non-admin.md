@@ -7,10 +7,10 @@ description: ' [!DNL Adobe Workfront]  をサードパーティのアプリケ�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 97%
+source-wordcount: '550'
+ht-degree: 89%
 
 ---
 
@@ -45,6 +45,17 @@ ht-degree: 97%
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
      <p>詳細情報と手順について詳しくは、<a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html?lang=ja" class="MCXref xref">[!DNL Creative Cloud]アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager AssetsとAssets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>WorkfrontとAdobe Experience Managerの間でリンクされたフォルダーを自動的に作成 
+      <li>既存のリンクされたアセットのメタデータの同期</p></li>
+      <li>Workfrontで変更された場合、ポートフォリオ、プログラム、プロジェクト、タスク、問題、ドキュメントのメタデータを自動的に更新します。</li>
+      <li>複数の Experience Manager Assets リポジトリを 1 つの Workfront 環境に、または複数の Workfront 環境を組織 ID をまたいで 1 つの Experience Manager Assets リポジトリにスムーズに接続できます。</li></ul>
+     <p>詳細と手順については、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets統合の概要 </a> を参照してください</p> 
+     </td>
   </tr> 
   <tr> 
    <td role="rowheader"> <p>ボックス</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
