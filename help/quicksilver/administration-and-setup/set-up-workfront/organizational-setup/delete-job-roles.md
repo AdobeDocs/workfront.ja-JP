@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: 担当業務の削除
+title: 担当業務を削除
 description: 組織で使用されなくなった担当業務を削除できます。担当業務が過去に作業アイテムに関連付けられていた場合は、削除しないことをお勧めします。作業の割り当てに関する履歴情報をすべて保持するには、役割が不要になった場合は、削除するのではなく、非アクティブ化することをお勧めします。役割の非アクティブ化について詳しくは、担当業務の非アクティブ化を参照してください。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b0e81d76-5227-4fda-9a58-68fbce3f5b94
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '373'
+ht-degree: 95%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 100%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,17 +36,22 @@ ht-degree: 100%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td>
+   <p>新規：[!UICONTROL Standard]</p>
+   <p>または</p>
+   <p>現在：[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>担当業務の管理アクセス権</p> <p><b>メモ</b>：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>担当業務への管理アクセス</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 担当業務を削除する
 
@@ -52,7 +59,7 @@ ht-degree: 100%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this moved from create and manage job roles)</p>
 -->
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 「**[!UICONTROL 担当業務]」をクリックします。**
 1. 削除する担当業務を選択し、「**[!UICONTROL 削除]」をクリックします。**

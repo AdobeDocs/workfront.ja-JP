@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
-title: 会社メンバーシップの管理
+title: 会社のメンバーシップの管理
 description: 設定の[!UICONTROL 会社]エリアで、会社のメンバーを追加および削除できます。また、ユーザープロファイルを編集して、ユーザーに  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront]  システムで登録を促すこともできます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 100%
+source-wordcount: '872'
+ht-degree: 94%
 
 ---
 
@@ -23,44 +23,53 @@ ht-degree: 100%
 
 ## アクセス要件
 
-[!DNL Workfront] で会社を管理するには、次が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto">
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Workfront] プラン*</p> </td> 
-   <td>[!UICONTROL Team] 以上</td> 
+   <td><p>現在：[!UICONTROL Team] 以上</p>
+   <p>または</p>
+   <p>新規：任意</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] ライセンス</p> </td> 
+   <td><p>現在：[!UICONTROL Plan]</p>
+   <p>または</p>
+   <p>新規：[!UICONTROL Standard]</p>
+   </td> 
+  </tr>
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong> </td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong> </td> 
    <td> <p>次のうちのいずれか：</p> 
     <ul> 
-     <li> <p>システム内の任意の会社を編集できる、[!UICONTROL System Administrator]のアクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。 </p> </li> 
-     <li> <p>システム内の任意の会社を編集できる、会社を管理するための管理者アクセス。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">特定のエリアに対する管理者アクセス権のユーザーへの付与</a>を参照してください。</p> </li> 
+     <li> <p>[!UICONTROL システム管理者 ] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
+     <li> <p>会社を管理するための管理者アクセス。システム内の任意の会社を編集できます。</p> </li> 
     </ul> <p><b>メモ</b>：  
      <ul> 
       <li> <p>また、自分がグループ管理者として割り当てられている任意のグループに関連する会社を管理することもできます。</p> </li> 
       <li> <p>[!DNL Workfront] システムでのユーザーの追加および削除を行うには、次のいずれかが必要です。</p> 
        <ul> 
-        <li> <p>[!UICONTROL System Administrator] アクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。 </p> </li> 
+        <li> <p>[!UICONTROL System Administrator] アクセスレベル。</p> </li> 
         <li> <p>アクセスレベルの [!UICONTROL Users] 設定で、[!UICONTROL Edit] が選択されている必要があります。また、[!UICONTROL Users] 設定の場合は、[!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> 下の [!UICONTROL Create] オプションと、2 つの [!UICONTROL User Admin] オプションのうち少なくとも 1 つを有効にする必要があります。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>[!UICONTROL User Admin (Group Users)] オプションを使用している場合は、ユーザーがメンバーとなっているグループのグループ管理者である必要があります。</p> </li> 
-       </ul> <p>アクセスレベルでのユーザー設定について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>を参照してください。</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセスレベルの設定を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 会社メンバーシップの管理
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に&#x200B;**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 「**[!UICONTROL 会社]**」をクリックします。
 1. 会社の名前をクリックします。

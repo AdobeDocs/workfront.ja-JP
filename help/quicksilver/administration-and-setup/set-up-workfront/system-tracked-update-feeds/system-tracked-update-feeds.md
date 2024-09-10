@@ -3,13 +3,13 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: システムで追跡される更新
+title: システムが追跡する更新
 description: Adobe Workfront は、オブジェクトの[!UICONTROL 更新]エリアのステータス情報をログに記録することで、特定のオブジェクトに対して行われるアクティビティを記録します。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 58%

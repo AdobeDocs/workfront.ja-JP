@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
-title: システム更新の設定
+title: システム更新の構成
 description: Workfront は、オブジェクトの[!UICONTROL 更新]エリアで自動システム更新を生成し、ユーザーがオブジェクトに対して実行した変更を記録します。 [!DNL Workfront]  管理者は、 [!DNL Workfront]  がどのオブジェクトフィールドおよびアクションを追跡するかを設定して、システム更新を記録できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: c2c09486756db021b6edaf380c5a54d531ffa723
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 100%
+source-wordcount: '881'
+ht-degree: 98%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -48,14 +50,21 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
+   <td><p>新規：[!UICONTROL Standard]</p>
+   または
+   <p>現在：[!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!DNL Workfront] がオブジェクトタイプのどのフィールドを追跡するかを決定
 

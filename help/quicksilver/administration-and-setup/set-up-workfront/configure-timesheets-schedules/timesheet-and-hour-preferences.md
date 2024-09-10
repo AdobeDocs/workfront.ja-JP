@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1420'
+source-wordcount: '1424'
 ht-degree: 98%
 
 ---
@@ -58,12 +58,12 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。</p>  </td>
+   <td>[!UICONTROL System Administrator]</td>
 </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

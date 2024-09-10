@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 担当業務の概要
 description: 担当業務は、ユーザーが満たせる可能性のある機能的能力またはスキルセットを表します。この記事では、Adobe Workfront での担当業務の様々な使用方法について説明します。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dead6081-dfd2-4b1a-8be2-32a0ba813bc3
-source-git-commit: b6f6964bb80f172849434c669df2b0ecd735a590
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

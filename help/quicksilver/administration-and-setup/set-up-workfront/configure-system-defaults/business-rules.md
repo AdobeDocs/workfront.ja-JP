@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
 source-wordcount: '1152'
 ht-degree: 4%
@@ -80,7 +80,6 @@ API ワイルドカードは、ビジネス・ルールでも使用できます�
 * オブジェクト作成トリガーでは、before ステートが存在しないので、`$$AFTER_STATE` のみが許可されます。
 * 後のステートが存在しないので、オブジェクト `$$BEFORE_STATE` 除トリガーでは削除のみを許可します。
 
-
 簡単なビジネス・ルールのシナリオには、次のものがあります。
 
 * ユーザーが 2 月の最後の週に新しい費用を追加することはできません。 この式は次のように表すことができます。`IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -92,7 +91,7 @@ API ワイルドカードは、ビジネス・ルールでも使用できます�
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

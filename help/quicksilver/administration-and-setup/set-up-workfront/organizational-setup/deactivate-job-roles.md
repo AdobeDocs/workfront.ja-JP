@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: 担当業務の非アクティブ化
+title: 担当業務を解除
 description: ' [!DNL Adobe Workfront] 管理者または担当業務への管理アクセス権を持つユーザーは、システム内で古くなった担当業務を非アクティブ化できます。担当業務を削除するのではなく非アクティブ化すると、その担当業務に関連付けられている履歴情報を保持できます。'
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 9c0160dc5e43f36b65d9f2d4a3498a9c5f39f6f1
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 100%
+source-wordcount: '661'
+ht-degree: 97%
 
 ---
 
@@ -23,28 +23,35 @@ ht-degree: 100%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront] プラン*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront] ライセンス*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td>
+   <p>新規：[!UICONTROL Standard]</p>
+   <p>または</p>
+   <p>現在：[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>担当業務の管理アクセス権</p> <p><b>メモ</b>：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>担当業務への管理アクセス</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 担当業務を非アクティブ化した場合の影響
 
@@ -100,7 +107,7 @@ ht-degree: 100%
 
 ## 担当業務の非アクティブ化
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしてから、**[!UICONTROL 設定]**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. 左パネルで「**[!UICONTROL 担当業務]」をクリックします。**
 1. （オプション）**[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューで、「**[!UICONTROL アクティブ]**」を選択して、アクティブの担当業務のみを表示します。

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 99%
+source-wordcount: '1162'
+ht-degree: 98%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 99%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-以下が必要です。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,17 +40,18 @@ ht-degree: 99%
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td>
-   <p>新規：標準</p>
+   <p>新規：[!UICONTROL Standard]</p>
+   <p>または</p>
    <p>現在：[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>担当業務の管理アクセス権</p> </td> 
+   <td>担当業務への管理アクセス</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

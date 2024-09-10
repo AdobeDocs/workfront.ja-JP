@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 94%
+source-wordcount: '206'
+ht-degree: 93%
 
 ---
 
@@ -37,15 +37,19 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>レガシープラン：[!UICONTROL Plan]</p>
-       <p>現在のプラン：[!UICONTROL Standard]</p></td> 
-  </tr> 
+   <td><p>新規：[!UICONTROL Standard]</p>
+   または
+   <p>現在：[!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL Financial Data] への編集アクセス権</p> <p><b>メモ</b>：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

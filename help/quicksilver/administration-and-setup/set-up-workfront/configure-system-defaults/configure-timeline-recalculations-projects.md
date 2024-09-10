@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '426'
 ht-degree: 96%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、以下を保有している必要があります。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,14 +39,19 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>新規：[!UICONTROL Standard]</p>
+   または
+   <p>現在：[!UICONTROL Plan]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>システム管理者のアクセスレベル</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がユーザーのアクセスレベルを変更する方法については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

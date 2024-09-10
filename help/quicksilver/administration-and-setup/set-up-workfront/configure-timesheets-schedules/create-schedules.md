@@ -8,9 +8,9 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: f7347ba6-68bf-45d8-b5d2-6136f3e696c9
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '817'
 ht-degree: 98%
 
 ---
@@ -57,7 +57,7 @@ Linked to Editing Users, Editing Projects, Creating and managing groups
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
+   <td>[!UICONTROL System Administrator]</td>  
   </tr> 
  </tbody> 
 </table>

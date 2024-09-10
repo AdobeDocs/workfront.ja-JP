@@ -3,15 +3,15 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: ' [!DNL Adobe Workfront]  カスタム更新サンドボックス環境'
+title: ' [!DNL Adobe Workfront] Custom Refresh サンドボックス環境'
 description: カスタム更新サンドボックスは、実稼動環境のデータを使用してテストし作業できる環境です。トレーニングの実行、セットアップ機能の決定に最適です。
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1639'
 ht-degree: 99%
 
 ---
@@ -31,19 +31,18 @@ ht-degree: 99%
 >
 >  プレビューサンドボックスについて詳しくは、[ [!DNL Adobe Workfront]  プレビューサンドボックス環境](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
 
-
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、以下を保有している必要があります。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] プラン</td> 
+   <td role="rowheader">[!DNL Workfront] プラン*</td> 
    <td> <p>[!UICONTROL Business] 以降</p> </td> 
   </tr> 
   <tr> 
@@ -56,6 +55,8 @@ ht-degree: 99%
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

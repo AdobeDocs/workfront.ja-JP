@@ -5,14 +5,14 @@ product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 時間タイプの管理
 description: 時間タイプを時間エントリに関連付けることができます。時間タイプは、時間エントリの定義に使用するラベルです。
-author: Alina
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 88%
+source-wordcount: '777'
+ht-degree: 90%
 
 ---
 
@@ -51,6 +51,8 @@ ht-degree: 88%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
+この記事の手順を実行するには、次のアクセス権が必要です。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -60,18 +62,18 @@ ht-degree: 88%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td> <p>新規：[!UICONTROL Standard]</p>
    <p>現在：[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>[!DNL Workfront] 管理者であることが必要です。</p> <p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

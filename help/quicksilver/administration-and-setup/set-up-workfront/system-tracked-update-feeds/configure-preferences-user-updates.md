@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
-title: ユーザー更新の環境設定の指定
+title: ユーザーアップデートの環境設定を行う
 description: ユーザーがオブジェクトの[!UICONTROL 更新]領域にコメントを追加する際に特定の機能にアクセスできるようにする設定を指定できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: fd876089c964d57224452023b4656cd6df40b5a3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '283'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 ユーザーがオブジェクトの[!UICONTROL 更新]領域にコメントを追加する際に特定の機能にアクセスできるようにする環境設定を指定できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -33,14 +35,21 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td>[!UICONTROL Plan]</td> 
-  </tr> 
+   <td><p>新規：[!UICONTROL Standard]</p>
+   または
+   <p>現在：[!UICONTROL Plan]</p>
+   </td> 
+  </tr>  
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、[!UICONTROL System Administrator]のアクセスレベルが必要です。</p><p>グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td><p>これらの手順をシステムレベルで実行するには、[!UICONTROL System Administrator]のアクセスレベルが必要です。</p><p>グループに対して実行するには、そのグループの管理者である必要があります。</p></td>
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ユーザーが更新で画像を追加できるようにする
 

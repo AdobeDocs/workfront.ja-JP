@@ -5,13 +5,13 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: ' [!DNL Adobe Workfront] プレビューサンドボックス環境'
 description: プレビューサンドボックスは、ライブ環境のレプリカとして機能するテスト環境です。Workfront によって毎週末に更新されます。金曜日にライブ環境に追加されたデータは、次の月曜日までにプレビューサンドボックスに表示されます。すべてのサポートパッケージが、このサンドボックスにアクセスできます。
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: ca4da5302198d8fffc8b706baa3b3aeaa1f738e3
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1176'
 ht-degree: 100%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 100%
 
 プレビューサンドボックスにアクセスするには、次の手順に従います。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、**[!UICONTROL 設定]**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
+{{step-1-to-setup}}
 
 1. **[!UICONTROL システム]**／**[!UICONTROL 環境設定]**&#x200B;をクリックします。
 

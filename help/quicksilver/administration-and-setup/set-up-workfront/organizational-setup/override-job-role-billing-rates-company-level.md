@@ -4,14 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: 会社レベルでの担当業務請求率の上書き
 description: 担当業務を作成する際に、その役割の時間単位の請求率を選択するオプションがあります。会社に固有の時間単位の請求率を作成できます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ee60987e-78b5-4853-9a4f-e44aa7a81c05
-source-git-commit: f66a6c340d8789db447c860d995d9836a30eeeb0
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,9 @@ ht-degree: 100%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,21 +36,27 @@ ht-degree: 100%
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td>プラン</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td>
+   <p>新規：[!UICONTROL Standard]</p>
+   <p>または</p>
+   <p>現在：[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>システム管理者でない場合の会社への管理者アクセス</p> <p>財務データへの [!UICONTROL Edit] アクセス</p> <p><b>メモ</b>：まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>システム管理者でない場合の会社への管理者アクセス</p>
+   <p>財務データへのアクセスの編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 特定の担当業務に使用される確定済みの請求率を上書きまたは変更する
 
-1. [!DNL Adobe] Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![](assets/main-menu-icon.png)をクリックし、次に「**[!UICONTROL 設定]**」![](assets/gear-icon-settings.png)をクリックします。
+{{step-1-to-setup}}
 
 1. 「**[!UICONTROL 会社]**」をクリックします。
 1. 担当業務が割り当てられている会社を見つけます。

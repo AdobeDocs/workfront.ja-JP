@@ -2,16 +2,16 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: organization-setup
-title: 会社の作成と編集
+title: 会社の作成および編集
 description: 会社を  [!DNL Adobe Workfront]  に追加して、財務計画、レポートの目的、オブジェクトに関する権限の定義、情報の機密保持に使用することができます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: 1b3e0ab2d8ee37b7583d0b8fb0472b2fc9623da0
+source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
 workflow-type: tm+mt
-source-wordcount: '1473'
-ht-degree: 96%
+source-wordcount: '1419'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-[!DNL Workfront] で会社を管理するには、次が必要です。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -38,9 +38,9 @@ ht-degree: 96%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront] ライセンス</p> </td> 
    <td><p>現在：[!UICONTROL Plan]</p>
-   または
+   <p>または</p>
    <p>新規：[!UICONTROL Standard]</p>
    </td> 
   </tr> 
@@ -48,22 +48,23 @@ ht-degree: 96%
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次のうちのいずれか：</p> 
     <ul> 
-     <li> <p>システム内の任意の会社を編集できる、[!UICONTROL System Administrator]のアクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。 </p> </li> 
-     <li> <p>システム内の任意の会社を編集できる、会社を管理するための管理者アクセス。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md">特定のエリアに対する管理者アクセス権のユーザーへの付与</a>を参照してください。</p> </li> 
+     <li> <p>[!UICONTROL システム管理者 ] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
+     <li> <p>会社を管理するための管理者アクセス。システム内の任意の会社を編集できます。</p> </li> 
     </ul> <p><b>メモ</b>：  
      <ul> 
       <li> <p>また、自分がグループ管理者として割り当てられている任意のグループに関連する会社を管理することもできます。</p> </li> 
       <li> <p>[!DNL Workfront] システムでのユーザーの追加および削除を行うには、次のいずれかが必要です。</p> 
        <ul> 
-        <li> <p>[!UICONTROL System Administrator] アクセスレベル。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。 </p> </li> 
+        <li> <p>[!UICONTROL System Administrator] アクセスレベル。 </p> </li> 
         <li> <p>アクセスレベルの [!UICONTROL Users] 設定で、[!UICONTROL Edit] が選択されている必要があります。また、[!UICONTROL Users] 設定の場合は、[!UICONTROL Fine-tune your settings] <img src="assets/gear-icon-in-access-levels.png"> 下の [!UICONTROL Create] オプションと、2 つの [!UICONTROL User Admin] オプションのうち少なくとも 1 つを有効にする必要があります。 </p> <p> <img src="assets/access-req-users.png"> </p> <p>[!UICONTROL User Admin (Group Users)] オプションを使用している場合は、ユーザーがメンバーとなっているグループのグループ管理者である必要があります。</p> </li> 
-       </ul> <p>アクセスレベルでのユーザー設定について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">ユーザーへのアクセス権の付与</a>を参照してください。</p> </li> 
+       </ul>
+       </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセスレベルの設定を確認するには、[!DNL Workfront] 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -91,11 +92,12 @@ ht-degree: 96%
 
 会社を追加または編集するには、以下のように行います。
 
-{#step-1-to-setup}
+{{step-1-to-setup}}
 
 1. 「**[!UICONTROL 会社]**」をクリックします。
 
    会社のリストが表示されます。
+
 1. 会社を追加する場合は、「**[!UICONTROL 新規会社]**」をクリックします。
 
    または
