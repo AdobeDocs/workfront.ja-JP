@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
 source-wordcount: '3620'
 ht-degree: 77%
@@ -247,7 +247,7 @@ OLD:
 >
 >* 1 つのレコードタイプに対して最大 20 個の段落フィールドを持つことができます。
 >
->* 段落フィールドのコンテンツは、100,000 文字までです。
+>* 段落フィールドのコンテンツは、10,000 文字までです。
 >* リッチテキスト形式を使用して、テーブルビューやレコードの詳細ページに表示される際に、段落フィールドの内容を向上させることができます。詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 >
 

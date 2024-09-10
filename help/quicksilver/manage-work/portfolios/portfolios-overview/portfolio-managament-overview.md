@@ -1,25 +1,29 @@
 ---
-title: ポートフォリオ管理の概要
+title: Portfolio管理の概要
 product-area: portfolios
 navigation-topic: portfolios-overview
 description: ポートフォリオまたはプロジェクトポートフォリオ管理（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストに優先順位を付けて管理するプロセスです。ポートフォリオとは、共通のビジネス目標を持つプロジェクトの集まりです。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: cf044c8cff6b1172ec460ae232cd07c9b7c808b7
+source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 100%
+source-wordcount: '646'
+ht-degree: 86%
 
 ---
 
 # ポートフォリオ管理の概要
 
-<!--Audited: 12/2023-->
+<!--Audited: 09/2024-->
 
 ## プロジェクトポートフォリオ管理（PPM）の概要
 
-ポートフォリオまたはプロジェクトポートフォリオ管理（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストに優先順位を付けて管理するプロセスです。したがって、ポートフォリオは、共通のビジネス目標を持つプロジェクトの集まりです。効果的な PPM 手法の結果、経営陣は次のことが可能になります。
+PortfolioまたはプロジェクトPortfolio管理（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストを優先順位付けして管理するプロセスです。
+
+この記事では、ポートフォリオ管理の一般的な概念について説明します。 Adobe Workfrontでのポートフォリオの管理に関する一般的な情報については、[Adobe WorkfrontでのPortfolioの概要 ](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md) を参照してください。
+
+ポートフォリオは、共通のビジネス目標を持つプロジェクトのコレクションです。 効果的な PPM 手法の結果、経営陣は次のことが可能になります。
 
 * ポートフォリオ内のすべてのプロジェクトを特定できます。
 * リソース、コスト、売上高に対する各プロジェクトの影響を把握できます。
@@ -40,12 +44,12 @@ ht-degree: 100%
 
 次の図は、[!DNL Workfront] の PPM プロセスの概要を示しています。
 
-![](assets/pm1-350x88.png)
+![](assets/project-portfolio-management-process-diagram.png)
 
 * [プロジェクト要求](#project-request)
 * [プロジェクトのレビュー](#project-review)
 * [ポートフォリオの最適化](#portfolio-optimization)
-* [リソース計画](#resource-planning)
+* [リソース管理](#resource-management)
 * [プロジェクトの実行](#project-execution)
 * [プロジェクトの事後分析](#project-postmortem)
 
@@ -59,7 +63,7 @@ ht-degree: 100%
 
 プロジェクト要求を送信すると、ポートフォリオマネージャーまたはエグゼクティブチームがそのリクエストをレビューし、プロジェクトを承認するかどうかを決定します。プロジェクトが承認されると、そのプロジェクトは会社のプロジェクトポートフォリオに選択されます。
 
-ポートフォリオについて詳しくは、[ [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) のポートフォリオの概要を参照してください。ビジネスケースの承認について詳しくは、[ビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)を参照してください。
+ポートフォリオの詳細については、[ のPortfolioの概要  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) を参照してください。 ビジネスケースの承認について詳しくは、[ ビジネスケースの承認 ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) を参照してください。
 
 ### ポートフォリオの最適化 {#portfolio-optimization}
 
@@ -67,7 +71,7 @@ ht-degree: 100%
 
 ポートフォリオの最適化について詳しくは、[ポートフォリオオプティマイザーでプロジェクトを最適化](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)を参照してください。
 
-### リソース計画 {#resource-planning}
+### リソース管理 {#resource-management}
 
 リソース管理者は、ポートフォリオのパフォーマンスの最適化とプロジェクトの優先順位付けに加えて、適切なリソースがプロジェクトに割り当てられるようにします。[!DNL Workfront] で利用可能なリソース管理ツールを使用して、リソースの空き時間と割り当てを評価します。
 
@@ -79,7 +83,8 @@ ht-degree: 100%
 
 ポートフォリオマネージャーからプロジェクトの承認を受け、リソースマネージャーからリソースの検証を受け取った後、プロジェクト所有者は、プロジェクトを「[!UICONTROL 現在]」のステータスにし、ユーザーは作業を開始してプロジェクトを完了できます。このフェーズでは、プロジェクトのベースラインを捕捉し、プロジェクトの基準点を元の状態に保つことをお勧めします。
 
-[!DNL Workfront] でのプロジェクト管理について詳しくは、[プロジェクト管理：記事インデックス](../../../manage-work/projects/manage-projects/manage-projects-overview.md)を参照してください。\
+[!DNL Workfront] でのプロジェクト管理について詳しくは、[プロジェクト管理：記事インデックス](../../../manage-work/projects/manage-projects/manage-projects-overview.md)を参照してください。
+
 プロジェクトでのベースラインの作成について詳しくは、[プロジェクトのベースラインを作成](../../../manage-work/projects/create-projects/create-baselines.md)を参照してください。
 
 ### プロジェクトの事後分析 {#project-postmortem}

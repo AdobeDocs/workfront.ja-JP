@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: d43bc45ca400846307958fc15e04e16ef37eff11
 workflow-type: tm+mt
-source-wordcount: '14362'
+source-wordcount: '14372'
 ht-degree: 93%
 
 ---
@@ -172,6 +172,7 @@ ht-degree: 93%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion リリースアクティビティ {#fusion-release}
          * [Adobe Workfront Fusion リリースアクティビティ](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion リリースアクティビティ：2024年8月19日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
          * [Workfront Fusion リリースアクティビティ：2024年8月5日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
          * [Workfront Fusion リリースアクティビティ：2024年7月29日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
          * [Workfront Fusion リリースアクティビティ：2024年7月22日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
@@ -1450,6 +1451,7 @@ ht-degree: 93%
          * [ポートフォリオからのプロジェクトの削除](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [リクエストされたプロジェクトの確認](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * プログラムを作成および管理 {#create-and-manage-programs}
+         * [プログラムの概要  [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [プログラムの作成と管理](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [プログラムを作成](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [プログラムの編集](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
