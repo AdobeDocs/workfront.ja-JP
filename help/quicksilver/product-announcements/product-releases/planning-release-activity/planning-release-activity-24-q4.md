@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: 「24.10 リリースのAdobe Workfront計画リリースアクティビティ」
+title: 24.10 リリースのAdobe Workfront計画リリースアクティビティ
 description: これは、2024 年第 4 四半期のAdobe Workfront Planning 製品のリリースアクティビティです。
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
+source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 18%
+source-wordcount: '450'
+ht-degree: 16%
 
 ---
-
 
 # Adobe Workfront Planning の 2024 年第 4 四半期リリースアクティビティ
 
@@ -37,6 +37,22 @@ ht-degree: 18%
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
 2024 年 8 月 28 日（PT）の一般リリース後にAdobe Workfront Planning でリリースされたすべての機能のリストについては、[Adobe Workfront Planning リリースアクティビティ：記事索引 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## 接続されたレコードの表示オプション
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 9 月 9 日（PT）、すべてのお客様向けの実稼動リリース：24.10 リリースの場合（2024 年 10 月）
+
+レコードタイプを接続する際の「レコードの外観」領域のデザインを一新しました。 接続されたフィールドで、接続されたレコードがどのように表示されるかを決定する際に、次のオプションから選択できるようになりました。
+
+* 名前
+* 名前と画像
+* 画像
+
+この機能強化の前は、「タイトル」切替スイッチを選択または選択解除して、レコードの名前を表示したり、アイコンまたはサムネールのみを表示したりできます。 「タイトル」切替スイッチが削除されました。
+
+詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 ## レコードの詳細をPDFに書き出し
 
@@ -67,4 +83,3 @@ Adobe Workfront Planning の主な機能の一部を次に示します。
 * 他のシステムのオブジェクトタイプに接続し、すべてのプロセスで一貫したフレームワークを作成します。
 
 Workfront計画の詳細については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
-
