@@ -5,18 +5,26 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 100%
+source-wordcount: '582'
+ht-degree: 94%
 
 ---
+
 
 # 拡張コネクターを使用したアセットおよびフォルダーのリンク
 
 ドキュメントをサポートする任意の Workfront オブジェクトに Experience Manager Assets からアセットまたはフォルダーをリンクできます。Experience Manager Assets から送信されたアセットは、Workfront のドキュメントストレージ全体にはカウントされません。Workfront から Experience Manager Assets にアップロードおよび送信されたドキュメントは、全体的なストレージにカウントされます。
 
+
+>[!NOTE]
+>
+>拡張コネクタを介してリンクされた Excel ファイルは、Workfrontでプレビューできません。 ファイルにアクセスするには、ファイルをダウンロードする必要があります。
+
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -30,7 +38,9 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td> <p>現在：Request 以上</p> 
+   または
+   <p>新規：Contributor 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
@@ -48,6 +58,7 @@ ht-degree: 100%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
++++
 
 ## 前提条件
 
