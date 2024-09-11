@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 0c37044aaffbe6ebb22af3877c93d5c65d40de98
+source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
 workflow-type: tm+mt
-source-wordcount: '1447'
-ht-degree: 51%
+source-wordcount: '1588'
+ht-degree: 47%
 
 ---
 
@@ -38,7 +38,9 @@ ht-degree: 51%
 * [統合の機能強化](#integration-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [プルーフ機能の強化](#proofing-enhancements)
+* [レポートとダッシュボードの機能強化](#report-and-dashboard-enhancements)
 * [その他の機能強化](#other-enhancements)
+
 
 ### 管理者機能の強化
 
@@ -259,6 +261,39 @@ ht-degree: 51%
                                 <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 8 月 29 日（PT）</span></p>
                             </li>
                         </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### レポートとダッシュボードの機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}"> 新しいプランではWorkfront Data Connect を利用できます </a></p>
+                        <p>Workfront Data Connect は、新しいWorkfront プランの 1 つに参加する組織が利用できるようになります。 Data Connect を使用すると、組織は安全でスケーラブルなデータレイクとしてデータにアクセスできます。このデータレイクは、ビジネスインテリジェンスツールを使用して分析および視覚化したり、外部に保存したりできます。 さらに、組織は Data Connect を使用して、時間ベースのトレンド分析、変数マッピング、Workfront データと組み合わせた外部システムデータの分析など、以前は利用できなかったデータ分析を表示できます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース：24.10 リリース（2024年10月）</span></p>
+                            </li>
+                        </ul>
+                        <p><i>新しいAdobe Workfront プランの 1 つに加入している組織のみが利用できます。 Data Connect は Ultimate プランに含まれているか、Prime プランおよび Select プランのアドオンとして購入できます。</i></p>
                     </td>
                 </tr>
            </tbody>
