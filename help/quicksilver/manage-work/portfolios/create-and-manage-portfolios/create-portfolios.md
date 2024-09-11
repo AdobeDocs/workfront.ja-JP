@@ -6,10 +6,10 @@ description: ポートフォリオとは、同じリソース、予算および�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 95%
+source-wordcount: '668'
+ht-degree: 79%
 
 ---
 
@@ -31,8 +31,7 @@ ht-degree: 95%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>新規：任意</p>
-   <p>現在：[!UICONTROL Business] 以上</p> </td> 
+   <td> <p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
@@ -53,6 +52,27 @@ ht-degree: 95%
 *詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+## ポートフォリオの作成方法
+
+Workfrontでポートフォリオを作成するには、次のいずれかの方法を使用します。
+
+* メインメニューのポートフォリオ領域からゼロからPortfolioを作成します。 この記事では、ポートフォリオをゼロから作成する方法について説明します。
+
+* キックスタートを使用したポートフォリオの読み込み。
+
+  Workfrontの管理者は、キックスタートを使用してポートフォリオを読み込むことができます。
+
+  Workfront でのキックスタートを使用したデータの読み込みについて詳しくは、[キックスタートテンプレートを使用して Adobe Workfront にデータを読み込む](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)を参照してください。
+
+* Workfront Planning のレコードタイプからポートフォリオを接続する際に、ポートフォリオを追加します。
+
+  Workfront Planning 用に新しいWorkfront ライセンスと追加のWorkfront Planning ライセンスが必要です。
+
+  Workfront Planning へのアクセスについて詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+
+  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [ に関する記事の「接続時にレコードを作成する」を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
+
 
 ## ポートフォリオを作成
 

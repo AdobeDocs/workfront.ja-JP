@@ -6,10 +6,10 @@ description: 自分が作成したプログラムに関する情報を編集で�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1074'
-ht-degree: 94%
+source-wordcount: '1010'
+ht-degree: 91%
 
 ---
 
@@ -20,6 +20,9 @@ ht-degree: 94%
 プログラムページでプログラムを編集することも、リスト内のプログラムを編集することもできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -33,20 +36,22 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>新規：[!UICONTROL Standard] </p><p>または </p><p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>プログラムへの[!UICONTROL Edit]アクセス権</p> <p>メモ：アクセス権がない場合は、アクセスレベルに追加の制限が設定されているかを [!DNL Workfront] 管理者にお問い合わせください。アクセスレベルでのプログラムへのアクセスについては、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md" class="MCXref xref">プログラムへのアクセス権の付与</a>を参照してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> </td> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>プログラムへの[!UICONTROL Edit]アクセス権</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プログラムの[!UICONTROL Manage]権限</p> <p> プログラムの権限の付与については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md" class="MCXref xref">プログラムの共有</a>を参照してください。 </p> <p>追加の権限の申請については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトの利用申請</a>を参照してください。</p> </td> 
+   <td> <p>プログラムの[!UICONTROL Manage]権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## プログラムの編集
 

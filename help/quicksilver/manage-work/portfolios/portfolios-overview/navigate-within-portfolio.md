@@ -6,10 +6,10 @@ description: ポートフォリオ内での移動
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '637'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 88%
 
 ---
 
@@ -25,6 +25,9 @@ ht-degree: 100%
 
 ## アクセス要件
 
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -37,20 +40,23 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>新規：[!UICONTROL Standard] </p>
+   <p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよびポートフォリオへのアクセスの [!UICONTROL Edit]</p> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトおよびポートフォリオへのアクセスの [!UICONTROL Edit]</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>プロジェクトへの表示権限またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>プロジェクトへの表示権限またはそれ以上の権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## ポートフォリオ内での移動
 
@@ -60,15 +66,15 @@ ht-degree: 100%
 1. **[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューから、次の項目を選択します。
 
    * **[!UICONTROL 所有ポートフォリオ]**：[!UICONTROL ポートフォリオ管理者]に指定されたポートフォリオのリストを含みます。
-   * **[!UICONTROL すべて]**：少なくとも表示アクセス権のあるすべてのポートフォリオを含みます。
+   * **[!UICONTROL すべて]**：少なくとも表示へのアクセス権を持つすべてのポートフォリオが含まれます。
 
-     ポートフォリオへのアクセス権について詳しくは、[アクセスレベルの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)を参照してください。\
-      ポートフォリオに対する権限について詳しくは、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。
+     Portfolioへのアクセスの詳細については、[ アクセスレベルの概要 ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+ポートフォリオに対する権限について詳しくは、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。
 
      新しいポートフォリオを追加するには、[ポートフォリオの作成](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください。
 
-1. ポートフォリオの名前をクリックしてアクセスします。\
-   次のポートフォリオパフォーマンス指標は、ポートフォリオ内の[!UICONTROL ポートフォリオの詳細]領域に表示されます。
+1. ポートフォリオ名をクリックしてアクセスします。
+次のポートフォリオパフォーマンス指標は、ポートフォリオ内の[!UICONTROL ポートフォリオの詳細]領域に表示されます。
 
    * ポートフォリオが[!UICONTROL 予定通り]かどうか
    * ポートフォリオが[!UICONTROL 予算通り]かどうか
@@ -96,8 +102,8 @@ ht-degree: 100%
      フィルターの作成について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 
-1. 左パネルの「**[!UICONTROL プログラム]**」をクリックして、ポートフォリオ内にプログラムを作成するか、既存のプログラムを管理します。\
-   プログラムについて詳しくは、[プログラムの作成と管理](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)を参照してください。
+1. 左側のパネルで **[!UICONTROL プログラム]** をクリックして、ポートフォリオ内のプログラムを作成するか、既存のプログラムを管理します。
+プログラムについて詳しくは、[プログラムの作成と管理](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)を参照してください。
 
 1. （オプション）**[!UICONTROL ポートフォリオの詳細]**&#x200B;領域を展開して、「**[!UICONTROL 概要]**」または「**[!UICONTROL カスタムフォーム]**」をクリックし、ポートフォリオに関する情報を編集します。
 

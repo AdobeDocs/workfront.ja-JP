@@ -6,10 +6,10 @@ description: プロジェクトは、Adobe Workfront における作業の大き
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 97%
+source-wordcount: '1299'
+ht-degree: 89%
 
 ---
 
@@ -112,7 +112,22 @@ Workfront でプロジェクトを作成するには、次のような方法が�
 
   キックスタートを使用したプロジェクトの読み込みについて詳しくは、[キックスタートシナリオ：シンプルなプロジェクトおよびタスクの読み込みの準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)を参照してください。
 
-* Adobe Workfront シナリオプランナのシナリオからイニシアチブを公開します。シナリオプランナには、追加のライセンスが必要です。Workfront シナリオプランナについては、[シナリオプランナの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。公開したイニシアチブからプロジェクトを作成する方法について詳しくは、[シナリオプランナでイニシアチブを公開してプロジェクトを更新または作成する](../../../scenario-planner/publish-scenarios-update-projects.md)を参照してください。
+* Adobe Workfront シナリオプランナーのシナリオからイニシアチブをPublishします。
+
+  シナリオプランナーには、次のいずれかが必要です。
+
+   * 現在のWorkfront ライセンス構造の追加ライセンス。
+   * 新しいWorkfront ライセンス構造の Ultimate ライセンス。
+
+  Workfront シナリオプランナについては、[シナリオプランナの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。公開したイニシアチブからプロジェクトを作成する方法について詳しくは、[シナリオプランナでイニシアチブを公開してプロジェクトを更新または作成する](../../../scenario-planner/publish-scenarios-update-projects.md)を参照してください。
+
+* Workfront Planning のレコードタイプからプロジェクトを接続するときに追加します。 Workfront Planning から作成できるのは、テンプレートのないプロジェクトのみです。
+
+  Workfront Planning 用に新しいWorkfront ライセンスと追加のWorkfront Planning ライセンスが必要です。
+
+  Workfront Planning へのアクセスについて詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+
+  レコードにプロジェクトを追加して作成する方法については、「レコードの作成 [ の「レコードの接続時にレコードを作成する」を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
 
 ## 前提条件
 

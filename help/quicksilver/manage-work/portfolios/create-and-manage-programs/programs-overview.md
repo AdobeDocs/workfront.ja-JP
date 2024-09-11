@@ -6,10 +6,10 @@ title: プログラムの概要  [!DNL Adobe Workfront]
 description: プログラムは、統一的な特性を持つプロジェクトのコレクションです。 これらのプロジェクトは通常、同じリソース、予算または時間枠を得るために競い合うことになります。プログラムは、ポートフォリオのサブグループです。 プロジェクトをポートフォリオに追加する前に、プログラムに関連付けることができます。
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 15%
+ht-degree: 16%
 
 ---
 

@@ -6,10 +6,10 @@ description: '[!UICONTROL ポートフォリオオプティマイザー]は、�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 100%
+source-wordcount: '141'
+ht-degree: 86%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -27,26 +29,27 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>[!UICONTROL Business] 以降</p> </td> 
+   <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>新規：標準</p>
+   <p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ポートフォリオとプロジェクトへの[!UICONTROL Edit]アクセス権</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、[!DNL Workfront] 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
+   <td> <p>ポートフォリオとプロジェクトへの[!UICONTROL Edit]アクセス権</p>  </td>
 </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## [!UICONTROL ポートフォリオオプティマイザー]を探す
 

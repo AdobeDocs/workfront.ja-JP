@@ -6,15 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 969f7c609afcc0029fa9ba054de113904a10917b
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 53%
+source-wordcount: '2197'
+ht-degree: 52%
 
 ---
 
 
 # レコードタイプを接続
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 {{planning-important-intro}}
 
@@ -183,8 +185,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    * 選択したワークスペースの別のレコードタイプ
 
-     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
      >[!TIP]
      >
      > 
@@ -193,7 +194,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    * 他のワークスペースから接続するように設定された、別のワークスペースからのレコードタイプ。 詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
-     ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
      >[!TIP]
      >
@@ -206,7 +207,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    * 「**Adobe アプリケーション**」セクションからの **Experience Manager Assets**。
 
-     ![](assets/aem-assets-connection-selection.png)
+     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. 次の情報を更新します。
 
@@ -221,7 +222,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
      このオプションは、2 つの異なるワークスペース、またはレコードとAdobe Experience Manager アセットオブジェクトからレコードを接続する場合にのみ使用できます。
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
    * **接続タイプ**：次のいずれかのオプションを選択して、接続先および接続先のレコードの数を指定します。
 
@@ -232,7 +233,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
      このオプションは、同じワークスペースのレコードまたはレコードとWorkfront オブジェクトタイプを接続する場合にのみ使用できます。
 
-     ![](assets/many-to-many-connection-picker.png)
+     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
 
      接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
@@ -259,13 +260,21 @@ Workfront Planning にアクセスするには、次のものが必要です：
    >
    >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja) を参照してください。
 
-1. （条件付き）Experience Manager AssetsまたはWorkfront Planning のレコードタイプに接続することを選択した場合、接続されたレコードまたはアセットのタイトルをリンクされたフィールドに表示したくない場合は、**レコードの外観** 領域で **タイトル** 切替スイッチの選択を解除します。 選択を解除すると、リンクされたフィールドにレコードのサムネールのみが表示されます。 サムネール画像のないレコードには、代わりに画像アイコンが表示されます。 この切り替えはデフォルトで選択されています。 接続されたレコードの表示方法の例は、**レコードの外観** 領域に表示されます。
+1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプへの接続を選択した場合は、「レコードの外観 **領域で次のいずれかのオプションを選択し** す。
+
+   * <span class="preview">**名前と画像**：接続されたレコードの名前とサムネールまたはアイコンの両方が「接続されたレコード」フィールドに表示されます。 これはデフォルトのオプションです。</span>
+   * <span class="preview">**名前**：接続されたレコードの名前のみが、接続されたレコードフィールドに表示されます。</span>
+   * <span class="preview">**画像**：接続されたレコードのサムネールまたはアイコンのみが、接続されたレコードフィールドに表示されます。</span>
+
+   サムネール画像のないレコードには、代わりにレコードタイプアイコンが表示されます。 接続されたレコードの表示方法の例は、**レコードの外観** 領域に表示されます。
 
    >[!TIP]
    >
    >    複数のレコードをリンクできるようにすると、サムネールのみを表示して、レコードビューなどの小さな領域のスペースを節約できる場合があります。
    >
-   >レコードのタイトルは、レコードのプライマリフィールドです。 詳しくは、[プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
+   >レコードの名前は、レコードのプライマリフィールドです。 詳しくは、[プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
+   >
+   >Workfront オブジェクトタイプを選択する場合、レコードの外観は使用できません。
 
 1. 「**作成**」をクリックします。
 
@@ -286,7 +295,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
    >    ワークスペースに対する表示権限以上の権限を持つユーザーは、リンクされたオブジェクトタイプのアプリケーションでの権限やアクセスレベルに関係なく、リンクされたフィールドの情報を表示できます。
 
 
-1. （省略可能）リンク レコードまたはオブジェクト タイプからのフィールドの追加をスキップするには、[**スキップ**] をクリックします。 リンクされたレコードの **名前** または **タイトル** は、接続元のレコードタイプのテーブル表示に表示されるフィールドの中で唯一です。
+1. （省略可能）リンク レコードまたはオブジェクト タイプからのフィールドの追加をスキップするには、[**スキップ**] をクリックします。 リンクされたレコードの名前またはプライマリフィールドは、リンク元のレコードの種類のテーブル ビューに表示される唯一のフィールドです。
 
 1. （オプションおよび条件付き）数値、通貨、パーセンテージまたは日付タイプのフィールドをリンクすることを選択した場合は、アグリゲータ値も選択して複数の値を集計します。 ユーザーがリンクされたレコードフィールドで複数のリンクされたレコードを選択すると、リンクフィールドの値がコンマで区切られているか、選択したアグリゲータに従った集計値として表示されます。
 

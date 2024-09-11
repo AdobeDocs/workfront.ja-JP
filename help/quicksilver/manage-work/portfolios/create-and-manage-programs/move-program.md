@@ -6,10 +6,10 @@ description: 既存のプログラムをポートフォリオに追加できま�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 91%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 100%
 既存のプログラムをポートフォリオに追加できます。プログラムは 2 つの異なるポートフォリオに存在できないので、既存のプログラムを追加すると、そのプログラムは 1 つのポートフォリオから別のポートフォリオに永続的に移動されます。 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -31,20 +33,22 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>新規：[!UICONTROL Standard] </p><p>または </p><p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ポートフォリオとプログラムに対する[!UICONTROL Edit]アクセス権 </p> <p>メモ：アクセス権がない場合は、アクセスレベルに追加の制限が設定されているかを [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ポートフォリオとプログラムに対する[!UICONTROL Edit]アクセス権 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオおよびプログラムに対する [!UICONTROL Manage] 権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオおよびプログラムに対する [!UICONTROL Manage] 権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## ポートフォリオに既存プログラムの追加
 

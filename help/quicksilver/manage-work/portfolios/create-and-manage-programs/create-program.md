@@ -6,10 +6,10 @@ description: プログラムとは、プロジェクトの境界を越えて共�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1143'
-ht-degree: 86%
+source-wordcount: '1228'
+ht-degree: 81%
 
 ---
 
@@ -57,6 +57,18 @@ ht-degree: 86%
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+## プログラムの作成方法
+
+Workfrontでプログラムを作成するには、次のいずれかの方法を使用します。
+
+* メインメニューのプログラム領域、またはポートフォリオのプログラムセクションから開始して、プログラムを最初から作成します。 この記事では、プログラムをゼロから作成する方法について説明します。
+
+* キックスタートを使用してプログラムを読み込みます。
+
+  Workfront管理者は、キックスタートを使用してプログラムを読み込むことができます。
+
+  Workfront でのキックスタートを使用したデータの読み込みについて詳しくは、[キックスタートテンプレートを使用して Adobe Workfront にデータを読み込む](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)を参照してください。
 
 ## プログラムを作成
 

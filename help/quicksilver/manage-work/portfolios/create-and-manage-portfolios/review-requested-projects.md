@@ -6,10 +6,10 @@ description: プロジェクトのリクエストは、Adobe Workfront でステ
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: cf3466759a7263c446525b97dd2748ad17d0f7a6
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '433'
+ht-degree: 95%
 
 ---
 
@@ -30,6 +30,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -38,24 +40,26 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>[!UICONTROL Business] 以降</p> </td> 
+   <td><p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
    <td> <p>[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>ポートフォリオへの [!UICONTROL View] アクセス権以上</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>ポートフォリオへの [!UICONTROL View] アクセス権以上</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオへの [!UICONTROL View] 以上の権限</p> <p>ステータスを更新するためにプロジェクトへの [!UICONTROL Manage] 権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオへの [!UICONTROL View] 以上の権限</p> <p>ステータスを更新するためにプロジェクトへの [!UICONTROL Manage] 権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## プロジェクトレポートでリクエストされたプロジェクトをレビュー
 

@@ -6,10 +6,10 @@ description: 自分が作成したポートフォリオに関する情報を編�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 89%
+source-wordcount: '1012'
+ht-degree: 90%
 
 ---
 
@@ -29,8 +29,7 @@ ht-degree: 89%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>新規：任意</p>
-   <p>現在：[!UICONTROL Business] 以上</p> </td> 
+   <td> <p>任意</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe[!DNL Workfront] ライセンス*</td> 
