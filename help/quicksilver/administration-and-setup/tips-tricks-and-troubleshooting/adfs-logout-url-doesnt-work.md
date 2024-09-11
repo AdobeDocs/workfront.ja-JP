@@ -9,9 +9,9 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '241'
 ht-degree: 93%
 
 ---
@@ -50,11 +50,12 @@ ADFS ログアウト URL（https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1
    <td role="rowheader">Adobe [!DNL Workfront] ライセンス</td> 
    <td> 
    <p>新規：標準</p>
+   または
    <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!DNL Workfront] 管理者である必要があります。詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーに完全な管理アクセス権を付与</a>を参照してください。</p>  </td> 
+   <td>[!UICONTROL System Administrator]</td>  
   </tr> 
  </tbody> 
 </table>

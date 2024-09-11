@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: fcc876d9-0512-424a-a731-6bbacd55af3f
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 87%
+source-wordcount: '142'
+ht-degree: 86%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 87%
 設定のアクセスレベルに外部ユーザー指定ライセンスの種類が表示されなくなりました。
 
 ## アクセス要件
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -47,7 +45,7 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>

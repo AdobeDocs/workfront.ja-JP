@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2155'
 ht-degree: 97%
 
 ---
@@ -38,6 +38,37 @@ ht-degree: 97%
 >1. キックスタートの Excel スプレッドシートにデータを入力
 >1. Excel スプレッドシートを Workfront にアップロード
 
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+   <p> 新規：標準</p>
+   または
+   <p>現在：プラン</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## Workfront から既存のカスタムデータを書き出し（オプションの手順）
 

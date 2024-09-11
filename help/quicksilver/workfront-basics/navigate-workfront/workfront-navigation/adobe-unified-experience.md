@@ -6,9 +6,9 @@ description: Adobe Experience Cloud 経由で  [!DNL Workfront]  にアクセス
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: ca74ef02b83a76fad92d2bc8b1a9afc3927693ec
+source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '538'
 ht-degree: 91%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 91%
 
 [!DNL Adobe Experience Cloud] を介して [!DNL Workfront] にアクセスすると、すべての [!DNL Adobe] アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。単一の Identity Managemen により、複数の URL やログイン ID を必要とせずに、1 つの場所でログインできます。
 
-組織がAdobeの統合エクスペリエンス上にいるかどうかを判断するには、Workfrontへのアクセスに使用する URL を調べます。
+組織がAdobe統合エクスペリエンス上にある場合、Workfrontへのアクセスに使用する URL は `experience.adobe.com` から始まります。
 
 | URL | Adobe Experience |
 |------------|------------|
@@ -109,3 +109,4 @@ ht-degree: 91%
 [パスワードの変更については、この記事を参照ください。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 パスワードの変更について詳しくは、管理者にお問い合わせください。
+

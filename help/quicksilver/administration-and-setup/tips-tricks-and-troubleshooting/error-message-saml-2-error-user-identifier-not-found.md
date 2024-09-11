@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c4c70532-de4f-4264-b661-2d30cefd403c
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 87%
+source-wordcount: '200'
+ht-degree: 86%
 
 ---
 
@@ -33,8 +33,6 @@ ADFS への接続が正常に確立できません。
 ADFS サーバーの要求が正しくありません。
 
 ## アクセス要件
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -57,7 +55,7 @@ ADFS サーバーの要求が正しくありません。
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>

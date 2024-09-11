@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '214'
-ht-degree: 93%
+source-wordcount: '191'
+ht-degree: 92%
 
 ---
 
@@ -34,15 +34,21 @@ Adobe Workfront には、ユーザーがアクセスして表示できる、デ�
    <td>任意</td> 
   </tr> 
   <tr> 
+  <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：プラン</p></td>
+  </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

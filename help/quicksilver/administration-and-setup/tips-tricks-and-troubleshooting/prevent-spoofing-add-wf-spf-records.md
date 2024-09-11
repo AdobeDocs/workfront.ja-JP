@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e93e3334-d72a-4f7b-9379-358f498c873b
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 94%
+source-wordcount: '278'
+ht-degree: 93%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 94%
 ユーザーが [!DNL Adobe Workfront] メール通知を受け取らなかった場合は、ファイアウォールに [!DNL Workfront] SPF レコードを追加する必要があります。SPF レコードを追加するには、IT チームと協力する必要があります。
 
 ## アクセス要件
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -47,7 +45,7 @@ ht-degree: 94%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>

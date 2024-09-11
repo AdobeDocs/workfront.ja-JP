@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 92%
+source-wordcount: '204'
+ht-degree: 93%
 
 ---
 
@@ -29,24 +29,32 @@ Adobe Workfront 管理者またはプランライセンスを持つユーザー�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、以下を保有している必要があります。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td>プラン</td> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：プラン</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプランまたはライセンスタイプを確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

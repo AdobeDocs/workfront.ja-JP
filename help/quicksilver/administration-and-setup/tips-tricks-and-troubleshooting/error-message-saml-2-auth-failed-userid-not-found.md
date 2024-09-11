@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9467cdff-7965-49ba-ac13-ed79c496a725
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '258'
 ht-degree: 80%
 
 ---
@@ -53,7 +53,7 @@ ADFS では、**証明書利用者の信頼**&#x200B;には、**UID** または&
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!DNL Workfront] 管理者である必要があります。 </td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>

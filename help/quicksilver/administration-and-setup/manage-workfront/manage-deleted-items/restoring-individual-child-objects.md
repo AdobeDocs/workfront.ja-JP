@@ -3,21 +3,21 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: 個々の子オブジェクトの復元
-description: このドキュメントでは、過去 30 日以内に Adobe Workfront の実稼動環境またはプレビュー環境から削除された個々の子オブジェクトを復元する方法について説明します。
+description: ここでは、Adobe Workfrontの実稼動環境またはプレビュー環境から削除されてから 30 日未満である個々の子オブジェクトを復元する方法について説明します。
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: e2e4fbb7-5433-4d88-8e36-d82f4cc8a194
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 99%
+source-wordcount: '641'
+ht-degree: 88%
 
 ---
 
 # 個々の子オブジェクトの復元
 
-このドキュメントでは、過去 30 日以内に Adobe Workfront の実稼動環境またはプレビュー環境から削除された個々の子オブジェクトを復元する方法について説明します。
+ここでは、Adobe Workfrontの実稼動環境またはプレビュー環境から削除されてから 30 日未満である個々の子オブジェクトを復元する方法について説明します。
 
 Workfront 管理者は、各 Workfront インスタンスでプロジェクト、タスク、イシューおよびドキュメントを復元できます。詳しくは、[削除した項目を復元](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)を参照してください。ただし、タスク、イシュー、ドキュメント、カスタムフォーム、時間、メモなどのオブジェクトを、親オブジェクトから独立して復元できるのは、Workfront データベースチームだけです。
 
@@ -42,6 +42,39 @@ Workfront からのデータの書き出しについて詳しくは、[データ
 >[!IMPORTANT]
 >
 >ドキュメントは、このような復元方法の例外となります。プレビュー環境から手動でダウンロードし、実稼動環境に再度アップロードすることができます。ドキュメントを一括でダウンロードおよびアップロードする場合は、Workfront からのデータの復元をリクエストする必要があります。
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：プラン</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>[!UICONTROL System Administrator]</td>
+  </tr> 
+ </tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## データの復元に必要な情報
 

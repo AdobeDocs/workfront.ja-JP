@@ -5,10 +5,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 97%
+source-wordcount: '627'
+ht-degree: 95%
 
 ---
 
@@ -44,24 +44,32 @@ Delete this paragraph when Callisto adds the
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、以下を保有している必要があります。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：プラン</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
 workflow-type: tm+mt
 source-wordcount: '738'
-ht-degree: 84%
+ht-degree: 80%
 
 ---
 
@@ -69,7 +69,7 @@ Some users, such as executives, need to be able to control which administrators 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>システム管理者のアクセスレベルを使用すると、任意のユーザーとしてログインできます。</p> <p>「Standard」または「Planner」のアクセスレベルでは、アクセスレベルの <b> ユーザー </b> 設定が「編集 <b></b> アクセスに設定され、「<b> 作成 </b>」に加え、「<b> 設定を微調整 </b>」 <img src="assets/gear-icon-in-access-levels.png"> の 2 つの「<b> ユーザー管理者 </b>」オプションのうち少なくとも 1 つが有効になっている場合、下位のライセンスレベルでユーザーとしてログインすることができます。 </p> 
-   <p><b>メモ</b>：これら 2 つのオプションのうち、ユーザー<b>管理者（グループユーザー）</b>が有効になっている場合は、ユーザーがメンバーであるグループのグループ管理者である必要があります。</p></td> 
+   <p><b> 注意 </b>：これら 2 つのオプションのうち、<b> ユーザー管理（グループユーザー） </b> が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p></td>
   </tr> 
  </tbody> 
 </table>
