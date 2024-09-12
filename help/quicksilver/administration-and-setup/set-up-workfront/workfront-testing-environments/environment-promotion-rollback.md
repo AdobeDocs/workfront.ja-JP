@@ -9,16 +9,17 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 84a72ab4547a582707351948052fdd59cc57a9d5
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
+source-git-commit: 7e15301dae4b761d19c85a3581bfdb4540ed40fd
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 22%
+source-wordcount: '397'
+ht-degree: 17%
 
 ---
 
 # 環境プロモーションパッケージのロールバック
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
+
 
 パッケージをインストールしたら、ロールバックできます。 これにより、ターゲット環境でパッケージに加えられた変更が削除され、影響を受けたオブジェクトが以前の設定に戻ります。
 
@@ -86,10 +87,3 @@ ht-degree: 22%
 
 1. （オプション） ロールバックプレビュー領域で、デプロイメントがロールバックされたときに発生する変更を表示します。
 1. 画面の右上隅にある「**ロールバック**」をクリックします。
-
-
-
-
-
-
-
