@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '464'
+source-wordcount: '496'
 ht-degree: 10%
 
 ---
@@ -23,6 +23,8 @@ Data Connect データにアクセスするには、新しい接続ごとにSnow
 
 ## アクセス要件
 
++++ 展開すると、アクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -31,7 +33,17 @@ Data Connect データにアクセスするには、新しい接続ごとにSnow
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>未定</td> 
+   <td><p>次のプランに含まれる：</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>次のプランのアドオンとして購入できます。</p> 
+    <ul>
+        <li>選択</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect は、従来のWorkfront プランでは使用できません。</p> 
+   </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
@@ -45,6 +57,8 @@ Data Connect データにアクセスするには、新しい接続ごとにSnow
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## リーダーアカウントの作成
 

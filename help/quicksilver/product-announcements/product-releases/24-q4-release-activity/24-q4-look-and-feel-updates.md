@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 5138321543175cac3e51cc21c8309cbefd8bc1e8
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 21%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 7 月 18 日（PT）、高速リリースの実稼動：24.9 リリースを含む（2024 年 9 月）、四半期リリースの実稼動：24.10 リリースを含む（2024 年 10 月）
+>プレビューリリース：2024 年 7 月 18 日（PT）、高速リリースの実稼動：24.9 リリースを含む（2024 年 9 月 12 日（PT））、四半期リリースの実稼動：24.10 リリースを含む（2024 年 10 月）
 
 設定/ システム /環境設定ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
 

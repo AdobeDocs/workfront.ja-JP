@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 57c08a06a57bebfaa81035e4fe801f3077e6a829
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '1588'
+source-wordcount: '1606'
 ht-degree: 47%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 47%
 * [プルーフ機能の強化](#proofing-enhancements)
 * [レポートとダッシュボードの機能強化](#report-and-dashboard-enhancements)
 * [その他の機能強化](#other-enhancements)
-
+* [Workfront から近日中に削除される機能](#functionality-soon-to-be-removed-from-workfront)
 
 ### 管理者機能の強化
 
@@ -78,6 +78,7 @@ ht-degree: 47%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> 環境プロモーションパッケージのロールバック </a></p>
+                        [!BADGE In Production for Fast Release ]{type=Positive}
                         <p>環境のプロモーションをより柔軟かつ使いやすくするために、ロールバック機能を有効にしました。 現在は、24 時間以内にパッケージをロールバックでき、環境昇格パッケージの影響を受けた以前の設定をより簡単に復元できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -192,7 +193,7 @@ ht-degree: 47%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In Production for Fast Release ]{type=Positive}
                         <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -362,6 +363,14 @@ ht-degree: 47%
            </tbody>
         </table>
 
+### Workfront から近日中に削除される機能
+
+次の機能は、近日中に Workfront から削除されます。
+
+#### 24.10 での従来のホームエクスペリエンスの廃止
+
+24.10 リリースでは、従来のホームエクスペリエンスが正式に廃止される予定です。 新しいホームの使用を開始することをお勧めします。このホームは、廃止前に、引き続き追加機能を備えて強化されます。 ユーザーや管理者が準備に実行できる操作に関するアドバイスなど、移行について詳しくは、[ 従来のホームの廃止ガイド ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md) を参照してください。
+
 ## お知らせ
 
 ### Workfront Fusion の機能強化
@@ -399,11 +408,3 @@ API バージョンの詳細については、[API のバージョン管理と�
 ### トレーニングの更新
 
 各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)の「新機能」の節を参照してください。
-
-### Workfront から近日中に削除される機能
-
-次の機能は、近日中に Workfront から削除されます。
-
-#### 24.10 での従来のホームエクスペリエンスの廃止
-
-24.10 リリースでは、従来のホームエクスペリエンスが正式に廃止される予定です。 新しいホームの使用を開始することをお勧めします。このホームは、廃止前に、引き続き追加機能を備えて強化されます。 ユーザーや管理者が準備に実行できる操作に関するアドバイスなど、移行について詳しくは、[ 従来のホームの廃止ガイド ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md) を参照してください。

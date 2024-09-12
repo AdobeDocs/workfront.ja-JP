@@ -4,10 +4,11 @@ description: 2024年第 4 四半期の管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 95726a46a0f18353cfee67b69cc94d39d85f111f
+exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
+source-git-commit: c3e18716aa74ed91e21e542437a017586a58d0b3
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 19%
+source-wordcount: '402'
+ht-degree: 20%
 
 ---
 
@@ -38,6 +39,8 @@ ht-degree: 19%
 以前は、設定は手動で、または別の環境プロモーションパッケージを通じて復元されていました。
 
 環境プロモーションパッケージのロールバックについて詳しくは、[ 環境プロモーションパッケージのロールバック ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md) を参照してください。
+
+[この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
 ## カスタムフォームデザイナーのレイアウトボタンでは、2 列または 3 列を使用できます
 
