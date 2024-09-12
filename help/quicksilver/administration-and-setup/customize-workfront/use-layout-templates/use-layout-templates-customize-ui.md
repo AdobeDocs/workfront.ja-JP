@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
 source-wordcount: '160'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 * [レイアウトテンプレートを使用してフィルター、ビューおよびグループ化をカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 * [レイアウトテンプレートを使用してユーザインターフェイスの用語をカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 * [レイアウトテンプレートを使用してランディングページをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [新しいレイアウトテンプレートをテスト](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+* [ 新しいレイアウトテンプレートのテスト ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
 * [レイアウトテンプレートの管理アクセス権を付与](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
 * [レイアウトテンプレートにユーザーを割り当て](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 * [レイアウトテンプレートのコピー](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)

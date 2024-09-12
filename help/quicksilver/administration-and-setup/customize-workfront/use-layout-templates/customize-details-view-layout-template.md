@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: 21c873d617187518bdbfe54a7a1ee5f1119ed8fd
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 87%
+source-wordcount: '577'
+ht-degree: 85%
 
 ---
 
@@ -51,7 +51,7 @@ or billing record
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* タスクとイシューのリストの概要 ![](assets/summary-panel-icon.png) パネル
+* タスクおよび問題のリストの概要パネル ![](assets/summary-panel-icon.png)
 
   ![](assets/summary-area.png)
 
@@ -80,16 +80,20 @@ or billing record
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td><p>新規：標準</p>
+  <p> 現在：プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

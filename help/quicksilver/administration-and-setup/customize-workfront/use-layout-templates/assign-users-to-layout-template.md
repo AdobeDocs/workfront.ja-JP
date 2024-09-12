@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 98%
+source-wordcount: '917'
+ht-degree: 95%
 
 ---
 
@@ -44,16 +44,20 @@ ht-degree: 98%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td><p>新規：標準</p>
+  <p> 現在：プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -63,7 +67,7 @@ ht-degree: 98%
 
    >[!TIP]
    >
-   >レイアウトテンプレートに問題がない場合は、[新しいレイアウトテンプレートのテスト](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)に説明されている通りにテストをすることをお勧めします。
+   >レイアウトテンプレートに問題がなければ、[ 新しいレイアウトテンプレートのテスト ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md) の説明に従ってテストすることをお勧めします。
 
 1. ページの上位のセクションで「**割り当て先:**」をクリックします。
 1. 表示されるボックスで、「**ユーザー、担当業務、チーム、またはグループを追加する**」をクリックし、ユーザー、担当業務、チームまたはグループの名前の入力を開始し、ドロップダウンに表示されたら名前をクリックします。

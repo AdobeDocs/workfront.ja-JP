@@ -1,15 +1,15 @@
 ---
 title: カレンダービューの管理
-description: レコードとそのフィールドをカレンダーに表示できます。
+description: レコードとそのフィールドをカレンダーに表示できます。 この記事では、カレンダービューを作成し、既存のカレンダービューを編集または削除する方法について説明します。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 27%
+source-wordcount: '712'
+ht-degree: 26%
 
 ---
 

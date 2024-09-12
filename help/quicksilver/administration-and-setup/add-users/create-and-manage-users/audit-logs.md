@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: Adobe Workfront 管理者は、監査ログを使用して、過去 90 日間にシステムでトリガーされたユーザーの変更を追跡できます。
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 98%
+source-wordcount: '1530'
+ht-degree: 95%
 
 ---
 
@@ -65,6 +65,7 @@ Adobe Workfront 管理者は、以下に説明する監査ログを使用して�
 ## 監査ログのタイプと、それらをトリガーするアクション
 
 * [アクセスレベル](#access-level)
+* [ビジネスルール](#business-rules)
 * [会社](#company)
 * [状況](#condition)
 * [カスタムフィールド](#custom-field)
@@ -97,6 +98,21 @@ Adobe Workfront 管理者は、以下に説明する監査ログを使用して�
      >財務データに対する権限の変更、または表示と編集のアクセスタイプ内での権限の変更は記録されません。
      >
      >例えば、ユーザーが計画担当者のアクセスタイプを表示から編集に変更した場合、「設定の微調整」ドロップダウンメニューに含まれる情報は表示されません。
+
+### ビジネスルール
+
+Business Rules は、Ultimate Workfrontプランを購入したお客様のみが利用できます。 詳細は、[ ビジネス・ルールの作成および編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
+
+ユーザーが次のいずれかの操作を行うと、ビジネス・ルール監査ログ・エントリが生成されます。
+
+* ビジネス・ルールを作成します
+* ビジネス・ルールを編集します。
+
+   * 名前の変更
+   * 式を追加または削除します
+   * トリガーを変更します
+
+* ビジネス・ルールを削除します
 
 ### 会社 {#company}
 
@@ -160,7 +176,7 @@ Adobe Workfront 管理者は、以下に説明する監査ログを使用して�
 * カスタムフィールドの削除
 * カスタムフィールドの共有
 
-### カスタムフォーム {#custom-forms}
+### カスタムフォーム {#custom-form}
 
 ユーザーが次のいずれかのアクションを実行すると、カスタムフォーム監査ログエントリが生成されます。
 

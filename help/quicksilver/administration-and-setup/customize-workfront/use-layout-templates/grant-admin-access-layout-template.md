@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 066a55ef-1904-4678-8866-c59428f78bc1
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '437'
 ht-degree: 95%
 
 ---
@@ -40,15 +40,20 @@ Adobe Workfront 管理者は、特定のグループのグループ管理者に�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td><p>新規：標準</p>
+  <p> 現在：プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td><p>システム管理者のアクセスレベル</p><p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
+グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -66,4 +71,4 @@ Adobe Workfront 管理者は、特定のグループのグループ管理者に�
    >   
    >* 特定のグループ内のグループ管理者に管理アクセス権を付与しない場合、ユーザーアカウントを編集できるすべてのユーザーが、レイアウトテンプレートに対する管理アクセス権を持ちます。Workfront 管理者によっては、レイアウトテンプレートをシステムレベルのレイアウトテンプレートにするために、レイアウトテンプレートに対する管理アクセス権を付与しないことを意図的に選択している場合があります。
 
-1. いつでも「保存」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
+1. いつでも「**保存**」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。

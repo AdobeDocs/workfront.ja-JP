@@ -1,14 +1,14 @@
 ---
 title: タイムラインビューの管理
-description: Adobe Workfront計画レコードタイプページのタイムラインビューでレコードにアクセスして編集します。 フィルター、グループ化、設定を使用してタイムラインをカスタマイズします。 分類機能を使用して、接続されたレコードを表示します。
+description: Adobe Workfront計画レコードタイプページのタイムラインビューでレコードにアクセスして編集します。 この記事では、タイムラインビューを作成し、既存のタイムラインビューを編集または削除する方法について説明します。 フィルター、グループ化、設定を使用してタイムラインをカスタマイズします。 分類機能を使用して、接続されたレコードを表示します。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2620'
+source-wordcount: '2637'
 ht-degree: 60%
 
 ---

@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8786648a-3630-4aa9-8e85-9df47a9e4609
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 96%
+source-wordcount: '165'
+ht-degree: 81%
 
 ---
 
-# 新しいレイアウトテンプレートのテスト
+# 新しいレイアウトテンプレートをテスト
 
-新しいテンプレートまたはレイアウトテンプレートは、ユーザーに割り当てる前にテストすることが重要です。
+新しく作成したレイアウトテンプレートは、ユーザーに割り当てる前にテストすることが重要です。
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 

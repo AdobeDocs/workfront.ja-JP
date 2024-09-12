@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 96%
+source-wordcount: '502'
+ht-degree: 95%
 
 ---
 
@@ -52,20 +52,20 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td><p>新規：標準</p>
-   または
-   <p>現在：プラン</p></td> 
+  <p> 現在：プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。</p>
-<p>グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：</p> <p>アクセスできない場合は、アクセスレベルにその他の制限が設定されていないか Workfront 管理者にお問い合わせください。
-
-Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
+グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -108,7 +108,7 @@ Workfront 管理者がアクセスレベルを変更する方法について詳�
 
 1. 次の記事で説明するように、引き続きレイアウトテンプレートをテストし、ユーザーが使用できるようにします。
 
-   * [新しいレイアウトテンプレートのテスト](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
+   * [ 新しいレイアウトテンプレートのテスト ](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md)
    * [レイアウトテンプレートの管理アクセス権を付与](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md)
    * [レイアウトテンプレートにユーザーを割り当て](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 

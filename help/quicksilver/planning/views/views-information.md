@@ -1,15 +1,15 @@
 ---
 title: "Views：記事インデックス"
-description: テーブルビュー、タイムラインビューまたはカレンダービューに Adobe Workfront Planning レコードを表示できます。次の記事では、Adobe Workfront Planning レコードビューを作成および管理する方法について説明します。
+description: テーブルビュー、タイムラインビューまたはカレンダービューに Adobe Workfront Planning レコードを表示できます。この記事には、ビューの作成、既存のビューの編集または削除の方法を説明する記事へのリンクが含まれています。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 96%
+source-wordcount: '84'
+ht-degree: 73%
 
 ---
 

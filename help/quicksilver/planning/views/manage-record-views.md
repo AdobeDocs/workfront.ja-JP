@@ -1,15 +1,15 @@
 ---
 title: レコード表示の管理
-description: Adobe Workfront Planning を使用する際に、テーブル、タイムラインまたはカレンダービューでレコードを表示できます。
+description: Adobe Workfront Planning を使用する場合、レコードをテーブル、タイムラインまたはカレンダ・ビューで表示できます。 この記事では、ビューを作成し、既存のビューを編集または削除する方法について説明します。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 64%
+source-wordcount: '1406'
+ht-degree: 63%
 
 ---
 

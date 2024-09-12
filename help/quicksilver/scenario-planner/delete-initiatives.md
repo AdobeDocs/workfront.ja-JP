@@ -6,10 +6,10 @@ description: 自分が作成した計画や、誰かが自分と共有した計�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: ed179058cfec1332384ef76cb04598278109291b
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 91%
+source-wordcount: '512'
+ht-degree: 88%
 
 ---
 
@@ -27,8 +27,10 @@ ht-degree: 91%
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
-   <td> <p>現在：[!UICONTROL Business] 以上</p>
-   <p>新規：Ultimate </p>
+   <td> <ul></li>
+   <li><p>新規：Ultimate </p></li>
+   <p>シナリオプランナーは、新しいWorkfront Select またはWorkfront プランでは使用できません。 </p>
+   <li><p>現在：[!UICONTROL Business] 以上</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -38,9 +40,11 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td>製品* </td> 
-   <td> 
-   <p>現在のWorkfront プランの場合： </p>
-   <p>この記事で説明されている機能にアクセスするには、[!DNL Adobe Workfront Scenario Planner]の追加ライセンスを購入する必要があります。</p> <p>[!DNL Workfront Scenario Planner] のアクセスおよび権限については、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> の使用に必要なアクセス権」を参照してください。 </p> </td> 
+   <td> <ul><li><p>新しいWorkfrontプランの場合：</p><p> Adobe Workfront</li></p>
+   <li><p>現在のWorkfront プランの場合： </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront シナリオプランナー</p></li></ul>
+
+<p>詳しくは、<a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">[!DNL Scenario Planner]</a> ールの使用に必要なアクセス権」を参照してください。 </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>アクセスレベル </td> 

@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '1006'
-ht-degree: 98%
+source-wordcount: '977'
+ht-degree: 92%
 
 ---
 
@@ -49,16 +49,20 @@ ht-degree: 98%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td><p>新規：標準</p>
+  <p> 現在：プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>これらの手順をシステムレベルで実行するには、システム管理者のアクセスレベルが必要です。
-グループに対して実行するには、そのグループの管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+グループに対して実行するには、そのグループの管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -68,7 +72,7 @@ ht-degree: 98%
 
 1. 「**ユーザーの表示項目をカスタマイズする**」の下にある下向き矢印 ![](assets/dropdown-arrow.png)、「**ホームと概要**」の順にクリックします。
 
-1. 左側に表示されるリストから「ホームと概要」でカスタマイズするオブジェクトタイプ（**タスク**、**イシュー**、**プロジェクト**、**ドキュメント**&#x200B;または&#x200B;**ドキュメントのバージョン**）をクリックします。
+1. 左側の一覧で、ホームおよび概要でカスタマイズするオブジェクトの種類（**タスク**、**問題**、**プロジェクト**、**ドキュメント**、または **ドキュメント バージョン**）をクリックします。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -139,7 +143,7 @@ ht-degree: 98%
         <li>予定完了日</li>
         <li>コミット日</li>
         <li>送信日</li>
-       </ul><p><b>メモ</b>：このオプションを有効にすると、期限が過ぎた作業アイテムは、時間ではなく、日付に基づいてホームワークリストの遅延グループに移動されます。</p></td> 
+       </ul><p><b>メモ</b>：</p> <p> このオプションを有効にすると、期限切れになった作業項目は、時間ではなく日付のみに基づいてホームの作業リストの遅延グループ化に移動されます。</p></td> 
      </tr> 
     </tbody> 
    </table>

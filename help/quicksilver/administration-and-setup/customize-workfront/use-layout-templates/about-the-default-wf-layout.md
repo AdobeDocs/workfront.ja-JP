@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: a8214d9e10363881afbc2bd71f78f46cb6a25880
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 96%
+source-wordcount: '307'
+ht-degree: 78%
 
 ---
 
 # デフォルトの Adobe Workfront レイアウトについて
 
-デフォルトのレイアウトでは、Adobe Workfront 管理者がレイアウトテンプレートを使用して変更を行う前に、メインメニュー![](assets/main-menu-icon.png)、左側のパネル、表示、グループ化およびフィルターが配置されています。
+デフォルトのレイアウトは、Adobe Workfront管理者がレイアウトテンプレートを使用して変更を加える前に、メインメニュー ![](assets/main-menu-icon.png) またはメインメニュー ![](assets/lines-main-menu.png) （使用可能な場合）の左側のパネル、ビュー、グループ化およびフィルターを配置することです。
 
 Workfront 管理者がユーザーにレイアウトテンプレートを割り当ててユーザーのデフォルトレイアウトを変更する方法について詳しくは、[レイアウトテンプレートにユーザーを割り当て](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 
@@ -30,7 +30,7 @@ Workfront 管理者がユーザーにレイアウトテンプレートを割り�
 
 各ユーザーのデフォルトのレイアウトは、アクセスレベルに応じて異なります。割り当てられているアクセスレベルによっては、メインメニューまたは特定の左側のパネル項目に特定の領域が表示されない場合があります。
 
-次の表では、デフォルトで各アクセスレベルに対して表示される左側のパネル項目の内容が示されます。各アクセスレベルのデフォルトのランディング領域も示されます。
+次の表に、デフォルトのランディング領域と、各アクセスレベルに表示される左側のパネル項目を示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -45,8 +45,8 @@ Workfront 管理者がユーザーにレイアウトテンプレートを割り�
   <tr> 
    <th>エリア</th> 
    <th> 左側のパネル項目 </th> 
-   <th> <p>システム管理者</p> </th> 
-   <th> <p>プランナー</p> </th> 
+   <th> システム管理者</th> 
+   <th> プランナー </th> 
    <th>作業者</th> 
    <th>レビュアー</th> 
    <th>依頼者</th> 
@@ -150,7 +150,7 @@ Workfront 管理者がユーザーにレイアウトテンプレートを割り�
   </tr> 
   <tr> 
    <td rowspan="3"><strong>要求</strong> </td> 
-   <td><strong>新しい要求</strong> </td> 
+   <td>新しいリクエスト </td> 
    <td>✔ </td> 
    <td>✔ </td> 
    <td>✔ </td> 

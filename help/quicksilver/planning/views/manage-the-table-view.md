@@ -1,15 +1,15 @@
 ---
 title: テーブル表示の管理
-description: Adobe Workfront Planning のレコードタイプのページにアクセスすると、レコードとそのフィールドをテーブルビューで表示できます。
+description: Adobe Workfront Planning の「レコードタイプ」ページにアクセスすると、レコードとそのフィールドをテーブル・ビューに表示できます。 この記事では、テーブルビューを作成し、既存のテーブルビューを編集または削除する方法について説明します。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
 workflow-type: tm+mt
-source-wordcount: '2784'
-ht-degree: 71%
+source-wordcount: '2801'
+ht-degree: 70%
 
 ---
 
