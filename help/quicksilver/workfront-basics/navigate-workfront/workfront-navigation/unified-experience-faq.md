@@ -6,10 +6,10 @@ description: ' [!DNL Workfront]  および Adobe Experience Cloud の間には�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b3837dc83c56cb3d7796b8bee39e8bab78e35415
+source-git-commit: b4c1f9c29dd6ad1e07acc741ab52e95a7bae7f67
 workflow-type: tm+mt
-source-wordcount: '1314'
-ht-degree: 72%
+source-wordcount: '1352'
+ht-degree: 70%
 
 ---
 
@@ -34,6 +34,7 @@ ht-degree: 72%
 | ヘルプは、[!UICONTROL メインメニュー]および上部ナビゲーションエリアを介してアクセスします | ヘルプは、[!UICONTROL メインメニュー]および [!DNL Workfront] ナビゲーションバーを介してアクセスします |
 | プルーフビューアが新しいタブで開きます | プルーフビューアがWorkfront内で開きます |
 | Workfrontにアクセスするための URL は `experience.adobe.com` です | Workfrontにアクセスするための URL は `(CompanyName).my.workfront.com` です |
+| 日付形式（MM/DD/YYYY など）は、ブラウザーの環境設定に基づいています | 日付形式（MM/DD/YYYY など）は、統合エクスペリエンス言語設定に基づいています。 ユーザーが言語設定を更新していない場合は、`en-US` の設定が使用されます。 |
 
 {style="table-layout:auto"}
 

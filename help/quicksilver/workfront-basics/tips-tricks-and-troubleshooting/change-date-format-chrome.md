@@ -6,16 +6,21 @@ title: ' [!DNL Adobe Workfront] で日付の形式を変更する'
 description: ' [!DNL Adobe Workfront]  で日付の形式を変更するには、ブラウザーの言語設定を変更する必要があります。'
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: e9a96b6952ca3f128cc723df68787f40c8dcf604
+source-git-commit: ba67bb2a77247a1cbface139e3ec0afeced65aa3
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 100%
+source-wordcount: '416'
+ht-degree: 86%
 
 ---
 
 # [!DNL Adobe Workfront] で日付の形式を変更する
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
+
+>[!IMPORTANT]
+>
+> この記事の情報は、まだAdobeの Unified Experience にオンボーディングされていない組織にのみ適用されます。
+> 組織がAdobeの統合エクスペリエンスにオンボーディングされた場合、日付の環境設定は、Adobeの統合シェルで設定された言語の環境設定によって制御されます。 デフォルトの言語設定（デフォルトの日付設定）は `en-US` です。
 
 [!DNL Adobe Workfront] で[!UICONTROL 予定完了日]、[!UICONTROL 実際の完了日]または [!UICONTROL 見込み完了日]などの日付形式を変更できます。
 
