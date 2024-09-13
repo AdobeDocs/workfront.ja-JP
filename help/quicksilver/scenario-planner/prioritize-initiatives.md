@@ -6,10 +6,10 @@ description: イニシアチブは、計画にリストされている順序で�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 89%
+source-wordcount: '539'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 89%
    <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
    <td> <ul></li>
    <li><p>新規：Ultimate </p></li>
-   <p>シナリオプランナーは、新しいWorkfront Select またはWorkfront プランでは使用できません。 </p>
+   <p>シナリオプランナーは、新しいWorkfront Select プランまたはWorkfront Prime プランでは使用できません。 </p>
    <li><p>現在：[!UICONTROL Business] 以上</p></ul>
    </td> 
   </tr> 

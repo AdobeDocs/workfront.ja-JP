@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '2039'
-ht-degree: 55%
+source-wordcount: '2102'
+ht-degree: 56%
 
 ---
 
@@ -18,6 +18,12 @@ ht-degree: 55%
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+<span class="preview">現在のリリースについて詳しくは、[2023年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)を参照してください。</span>
 
 >[!IMPORTANT]
 >
@@ -89,8 +95,7 @@ Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファ
 * 外部リソースと公開でビューを共有
 * ビューを複製
 * レコードを作成するためのリクエストの送信
-* レコードの詳細を Word にエクスポート\
-  <!--* Export record details to PDF-->
+* レコードの詳細を Word <span class="preview"> およびPDF</span> に書き出す
 * レコードへのコメントの追加
 * アプリ内通知を受信
 * メール通知を受信

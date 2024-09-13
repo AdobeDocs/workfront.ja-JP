@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 28%
+source-wordcount: '612'
+ht-degree: 27%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 28%
 * [Adobe Workfront Planning の概要](/help/quicksilver/planning/general/planning-overview.md)：このソリューションに特有の用語や概念を含む、Adobe Workfront Planning の概要です。ここから Workfront Planning のジャーニーを開始することをお勧めします。
 * [Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md): Workfront Planning で作成できるオブジェクト数に関する制限事項の一覧です。
 * [2024 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md): 2024 年のWorkfront計画の初期段階でリリースされたすべての機能のリストです。 これには、2023 年 5 月 22 日（PT）にAdobe Workfront Planning ベータプログラムがローンチされて以降に発生した以前のリリースへのリンクが含まれています。
+* [Adobe Workfront Planning のベストプラクティス ](/help/quicksilver/planning/general/planning-best-practices.md): Workfront Planning に関するよくある質問とよくある質問を使用するためのベストプラクティスのコレクションです。
 
 ## Workfrontの計画で利用できるその他の機能
 

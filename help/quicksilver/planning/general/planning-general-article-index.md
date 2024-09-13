@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 29%
+source-wordcount: '168'
+ht-degree: 28%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 29%
 * [2024 年のAdobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity.md)
 * [2023 年のAdobe Workfront計画リリースアクティビティ](/help/quicksilver/planning/general/release-activity-archives-2023.md)
 * [Adobe Workfront Planning オブジェクトの制限事項の概要](/help/quicksilver/planning/general/limitations-overview.md)
+* [Adobe Workfrontの計画のベストプラクティス](/help/quicksilver/planning/general/planning-best-practices.md)
 
 
 

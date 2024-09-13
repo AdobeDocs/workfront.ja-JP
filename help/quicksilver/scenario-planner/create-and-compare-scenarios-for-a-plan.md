@@ -7,9 +7,9 @@ description: 企業の長期戦略を計画する際、初期段階には持っ�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '950'
 ht-degree: 90%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 90%
    <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
    <td> <ul></li>
    <li><p>新規：Ultimate </p></li>
-   <p>シナリオプランナーは、新しいWorkfront Select またはWorkfront プランでは使用できません。 </p>
+   <p>シナリオプランナーは、新しいWorkfront Select プランまたはWorkfront Prime プランでは使用できません。 </p>
    <li><p>現在：[!UICONTROL Business] 以上</p></ul>
    </td> 
   </tr> 

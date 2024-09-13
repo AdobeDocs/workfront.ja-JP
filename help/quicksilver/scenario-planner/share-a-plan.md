@@ -7,10 +7,10 @@ description: Adobe Workfront シナリオプランナーで作成したプラン
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 92%
+source-wordcount: '911'
+ht-degree: 91%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 92%
    <td> <p>[!DNL Adobe Workfront] プラン*</p> </td> 
    <td> <ul></li>
    <li><p>新規：Ultimate </p></li>
-   <p>シナリオプランナーは、新しいWorkfront Select またはWorkfront プランでは使用できません。 </p>
+   <p>シナリオプランナーは、新しいWorkfront Select プランまたはWorkfront Prime プランでは使用できません。 </p>
    <li><p>現在：[!UICONTROL Business] 以上</p></ul>
    </td> 
   </tr> 
