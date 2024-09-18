@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 541b2048800b53b6f2302eaafe0598761a1f619b
+source-git-commit: 6d32b7c7427f1f8f9d1858724574cdd13b89fa1f
 workflow-type: tm+mt
-source-wordcount: '14390'
+source-wordcount: '14398'
 ht-degree: 93%
 
 ---
@@ -1017,6 +1017,7 @@ ht-degree: 93%
       * [ホームの作業リストに表示される承認プロセスの重複](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
       * [ページヘッダーにフィルターボタンが表示されない](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [予期しない結果を含む、自分が参加しているプロジェクトフィルター](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
+      * [複数のブラウザータブが原因で、Workfrontがログアウトする](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * アジャイル {#agile}
    * [アジャイル](agile/agile.md)
    * [ボードの概要](agile/boards-overview.md)

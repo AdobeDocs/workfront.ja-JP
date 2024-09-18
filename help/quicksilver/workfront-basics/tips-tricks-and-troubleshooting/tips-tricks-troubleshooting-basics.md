@@ -5,10 +5,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 89a1ac84-123b-487e-8c91-615a36e246c3
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 7375a6ed1d0bdea3e6df3ef564c325e0cef65f98
 workflow-type: tm+mt
-source-wordcount: '80'
-ht-degree: 100%
+source-wordcount: '88'
+ht-degree: 90%
 
 ---
 
@@ -27,3 +27,4 @@ ht-degree: 100%
 * [ページヘッダーにフィルターボタンが表示されない](../../workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
 * [ [!DNL Adobe Workfront] での日付の形式の変更](../tips-tricks-and-troubleshooting/change-date-format-chrome.md)
 * [予期しない結果を含む、自分が参加しているプロジェクトフィルター](../tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
+* [複数のブラウザータブが原因で、Workfrontがログアウトする](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
