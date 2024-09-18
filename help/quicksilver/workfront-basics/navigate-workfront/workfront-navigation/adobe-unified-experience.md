@@ -6,10 +6,10 @@ description: Adobe Experience Cloud 経由で  [!DNL Workfront]  にアクセス
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 84b63191d2f288b2c280a2634d551d89d594a9f6
+source-git-commit: ef85b267b3417dddd0c9cc4a2b916b83dc416e14
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 91%
+source-wordcount: '574'
+ht-degree: 85%
 
 ---
 
@@ -57,6 +57,10 @@ ht-degree: 91%
 1. [!UICONTROL ログイン]画面で、メールアドレスを入力して、「**[!UICONTROL 続行]**」をクリックします。
 
    ![[!DNL Adobe Experience Cloud]](assets/aec-login-page.png)にログインする
+
+>[!NOTE]
+>
+>Workfrontを開いているページでブラウザータブセッションの有効期限が切れ、別のブラウザータブでWorkfront セッションがアクティブになっている場合は、有効期限が切れたタブを再読み込みして、Workfront ページを再度開くことができます。
 
 ## [!DNL Workfront] にアクセス
 
