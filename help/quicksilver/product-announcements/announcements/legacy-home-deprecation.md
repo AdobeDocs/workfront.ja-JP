@@ -5,9 +5,10 @@ title: レガシーホームの非推奨ガイド
 description: このページには、レガシーホームの今後の廃止に関する情報が含まれています。
 author: Nolan
 feature: Product Announcements
-source-git-commit: 84f7f80314e4acafb0414b806f7b1e1e4b2845fc
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
+source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -79,6 +80,10 @@ Adobe Workfrontの皆さまにお知らせいたします。まもなく、従�
 * 現在、オブジェクトの期限のタイムスタンプを表示することはできません。
 
 * 現在、更新フィード内にコミット日を表示することはできません。 ただし、利用可能な回避策があります。レイアウトテンプレートのカスタマイズを使用して、ヘッダーにコミット日を表示します。
+* 自分が送信した承認は、現在、新しいホームではサポートされていません。 この機能が必要な場合は、次のコミュニティ投稿でアップ投票するか、ここにコメントを投稿してください。
+   * [ 新しいホームに「自分が送信した承認」ウィジェットを追加 ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+   * [ 新しいホームに「送信済みの承認」を追加する ](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++新しいホームでユーザーがアクセスできるウィジェットを規制するにはどうすればよいですか？

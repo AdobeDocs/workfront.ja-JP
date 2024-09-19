@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 2f731d1ee8381df6a9d0d767743dc8b5b52f4a1b
+source-git-commit: d996e2777060ccd7d264af7f61261737b36a616b
 workflow-type: tm+mt
 source-wordcount: '14404'
 ht-degree: 93%
@@ -414,10 +414,10 @@ ht-degree: 93%
    * お知らせ {#announcements}
       * [お知らせ](product-announcements/announcements/announcements.md)
       * [機能のスケジュールがサポートされなくなりました](product-announcements/announcements/feature-removal-timeline.md)
+      * [レガシーホームの非推奨ガイド](product-announcements/announcements/legacy-home-deprecation.md)
       * [メンテナンスウィンドウに関する FAQ](product-announcements/announcements/maintenance-window-faq.md)
       * [許可リストにプルーフを追加する必要のある変更](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [新しい Adobe Workfront エクスペリエンスでのお知らせセンターメッセージの登録解除](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-      * [レガシーホームの非推奨ガイド](product-announcements/announcements/legacy-home-deprecation.md)
       * お知らせのアーカイブ {#announcement-archive}
          * [お知らせのアーカイブ](product-announcements/announcements/announcement-archive/announcement-archive.md)
          * [カスタムフォームの機能強化](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
