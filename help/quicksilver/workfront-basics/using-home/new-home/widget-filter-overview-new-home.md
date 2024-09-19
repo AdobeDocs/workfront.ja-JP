@@ -5,10 +5,11 @@ title: 新しいホームウィジェットフィルターの概要
 description: 多数のウィジェットから選択して、ホームページに表示されるコンテンツをカスタマイズできます。これらのウィジェットは、ホームページ上でサイズ変更や配置が可能です。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: a1fcaaa9695fb059ffa9dc670ae4fe3e5609aa23
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
+source-git-commit: 6fe37148bbb242f3a954a4fd26284fd7e70a5cdf
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 18%
+source-wordcount: '742'
+ht-degree: 17%
 
 ---
 
@@ -19,6 +20,7 @@ ht-degree: 18%
 * [マイプロジェクト](#my-projects)
 * [マイタスク](#my-tasks)
 * [マイイシュー](#my-issues)
+* [担当作業]
 
 ## マイプロジェクト
 
@@ -229,4 +231,52 @@ ht-degree: 18%
     <td>マイ役割で未割り当て</td>
     <td>プライマリユーザーが割り当てられていないが、役割が割り当てられている問題をすべて表示します </td>
   </tr>
+</table>
+
+## 担当作業
+
+自分の作業ウィジェットでは次のフィルターを使用できます。
+
+<table>
+  <tbody>
+    <tr>
+      <td>作業中</td>
+      <td>現在作業中の項目を表示します</td>
+    </tr>
+    <tr>
+      <td>開始準備完了</td>
+      <td>項目を次で表示 
+      <ul>
+      <li>未完了の先行タスクまたはタスク制約はありません</li>
+      <li>予定開始日が過去または最大 2 週間以内です</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>準備未完了</td>
+      <td>次を持つ項目を表示
+       <ul>
+      <li>不完全な先行タスクまたはタスクの制約により、このアイテムは作業できません</li>
+      または
+      <li>予定開始日が 2 週間以上先の日付です</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>リクエスト日</td>
+      <td>作業を開始していない問題を表示します</td>
+    </tr>
+    <tr>
+      <td>私が委任済み</td>
+      <td>他のユーザーに委任した項目を表示します</td>
+    </tr>
+    <tr>
+      <td>私に委任済み</td>
+      <td>ユーザーがあなたに委任した項目を表示します</td>
+    </tr>
+    <tr>
+      <td>完了</td>
+      <td>過去 2 週間以内に完了した作業を表示します。 このフィルターオプションには、承認は含まれません。</td>
+    </tr>
+  </tbody>
 </table>

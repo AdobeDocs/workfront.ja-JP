@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: d996e2777060ccd7d264af7f61261737b36a616b
+source-git-commit: fd60ba9ec0643748da48171a6f5a9f6849c71b47
 workflow-type: tm+mt
-source-wordcount: '14404'
-ht-degree: 93%
+source-wordcount: '14412'
+ht-degree: 92%
 
 ---
 
@@ -884,6 +884,7 @@ ht-degree: 93%
          * [新しいホームの基本を学ぶ](workfront-basics/using-home/new-home/get-started-with-new-home.md)
          * [新しいホームでのウィジェットの追加、編集または削除](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
          * [新しいホームウィジェットフィルターの概要](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
+         * [担当作業ウィジェットを使用した作業の管理](workfront-basics/using-home/new-home/my-work-widget.md)
       * ホームエリアの使用 {#use-home-area}
          * [ホームエリアの使用](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [ホームの基本を学ぶ](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
