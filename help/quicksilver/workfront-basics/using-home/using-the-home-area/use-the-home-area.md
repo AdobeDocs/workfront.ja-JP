@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
 workflow-type: tm+mt
-source-wordcount: '120'
-ht-degree: 100%
+source-wordcount: '127'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 この節では、次の記事を扱います。
 
 * [[!UICONTROL ホーム]の概要](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+* [従来のホームから新しいホームへの移動](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
 * [[!UICONTROL マイ更新]エリアの使用](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]に項目を表示](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [[!UICONTROL ホーム]エリアの作業の優先度設定](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)

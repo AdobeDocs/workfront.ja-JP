@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 255bdf57-f145-43e9-999b-e4d0d9acf0cd
-source-git-commit: 19fa39c174037a01c879eea1b33b8534eda2eed2
+source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
 workflow-type: tm+mt
-source-wordcount: '50'
-ht-degree: 74%
+source-wordcount: '57'
+ht-degree: 64%
 
 ---
 
@@ -22,3 +22,4 @@ ht-degree: 74%
 * [新しいホームでのウィジェットの追加、編集または削除](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 * [新しいホームウィジェットフィルターの概要](/help/quicksilver/workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
 * [担当作業ウィジェットを使用した作業の管理](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md)
+* [従来のホームから新しいホームへの移動](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
