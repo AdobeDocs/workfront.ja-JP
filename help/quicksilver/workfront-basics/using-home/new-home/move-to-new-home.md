@@ -5,10 +5,10 @@ title: 従来のホームから新しいホームへの移動
 description: 従来のホームは、第 4 四半期のリリースで 10 月 17 日にWorkfrontから削除されます。 この記事では、新しいホームで使用できる機能に関する情報と、ユーザーを新しいホームエクスペリエンスに移行するための推奨事項を提供します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
+source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
 workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 29%
+source-wordcount: '1632'
+ht-degree: 28%
 
 ---
 
@@ -185,7 +185,7 @@ Workfront管理者は、レイアウトテンプレートを使用して、新�
 
 +++
 
-  ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### 各ライセンスタイプで使用可能なウィジェットを表示します
 
@@ -262,3 +262,17 @@ Workfront管理者は、レイアウトテンプレートを使用して、新�
 1. 残りのユーザーを新しいホームページのレイアウトに再割り当てします。
 
 これはできるだけ早く行うことで、ユーザーが新しいエクスペリエンスに適応し、個々のニーズに最適に新しいホームページをカスタマイズする時間を確保できます。 ユーザーが新しいホームページでウィジェットをカスタマイズする方法については、[ 新しいホームでのウィジェットの削除、追加、並べ替え ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) を参照してください。
+
+### エンドユーザー向けリソース
+
+**ヘルプ記事**
+
+* [担当作業ウィジェットを使用した作業の管理](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**トレーニング**
+
+* [Adobe Workfrontの労働者の基本事項 ](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>これは無料コースですが、アクセスするにはログインして登録する必要があります。
