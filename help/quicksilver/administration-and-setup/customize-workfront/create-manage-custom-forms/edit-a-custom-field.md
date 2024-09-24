@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: aee8673337b7e5294331bc2d571a6bee57114df5
+source-git-commit: 2e526059e240c45ca333bb52cd57e61f87a032f2
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 55%
+source-wordcount: '313'
+ht-degree: 60%
 
 ---
 
@@ -64,7 +64,7 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
 1. **新規カスタムフィールド** をクリックします。
 1. 表示されるボックスに、追加する項目の必須情報とオプション情報を入力します。
 
-   詳しくは、「[ フォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 「**作成**」をクリックします。
 
@@ -77,6 +77,6 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
 1. カスタムフィールド、セクション区切りまたはウィジェットを選択し、![編集アイコン](assets/edit-icon.png) をクリックします。
 1. 表示されるボックスで、編集中の項目に対して使用可能なオプションを変更します。
 
-   詳しくは、「[ フォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 1. 完了したら、「**編集**」をクリックします。

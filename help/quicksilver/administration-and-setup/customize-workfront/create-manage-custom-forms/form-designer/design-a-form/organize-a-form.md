@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 3f7f4557c18bbb91ece850f910350d926a9e84bf
+source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 93%
+source-wordcount: '1300'
+ht-degree: 88%
 
 ---
 
@@ -61,13 +61,13 @@ ht-degree: 93%
 
 オブジェクトに対する権限について詳しくは、[オブジェクトに対する共有権限の概要](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[フォームデザイナーを使用してフォームをデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ### カスタムフォームのセクションにアクセス権を作成および設定する
 
-1. [フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の説明に従って、カスタムフォームの作成または編集を開始し、フィールドを追加します。
+1. [ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集を開始し、フィールドを追加します。
 
-1. 「**セクション区切り**」をクリックし、キャンバス上の目的の位置にドラッグします。
+1. **セクション区切り** をクリックして、キャンバス上の目的の位置にドラッグします。
 
 1. 右側のパネルで、セクションに必要なオプションを設定します。
 
@@ -147,7 +147,7 @@ ht-degree: 93%
 ## カスタムフォーム内にカスタムフィールドおよびウィジェットを配置する
 
 
-1. [フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の説明に従って、カスタムフォームの作成または編集を開始します。
+1. [ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集を開始します。
 
 1. カスタムフィールドとウィジェットを同じ行に配置するには、その間に行が表示されるまで、隣り合わせにドラッグします。
 
@@ -166,7 +166,7 @@ ht-degree: 93%
 
 ## カスタムフォームのプレビュー
 
-1. [フォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)の説明に従って、カスタムフォームの作成または編集を開始し、フィールドを追加します。
+1. [ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) の説明に従って、カスタムフォームの作成または編集を開始し、フィールドを追加します。
 
 1. 左上隅にある「**プレビュー**」をクリックして、フォームが使用されたときにどのように表示されるかを確認するには、「**プレビューを閉じる**」をクリックして、フォームの編集に戻ります。
 
