@@ -7,10 +7,10 @@ description: オプションで、タスクとイシューが Workfront に追�
 author: Lisa
 feature: Agile
 exl-id: 4991f4f7-6f3d-4e15-ae8d-96433ed46557
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 0c0c1f538cfd12e18c504fcb42ee424789d1cde8
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 88%
+source-wordcount: '1126'
+ht-degree: 86%
 
 ---
 
@@ -41,6 +41,8 @@ ht-degree: 88%
 >[!IMPORTANT]
 >
 >複数のユーザーがボードで同時に作業している場合は、ボードを頻繁に更新することをお勧めします。 ページを更新すると、ボード上の視覚的な変更を最新の状態に保つことができ、重複カードが取り込み列からボードに移動されるなどの問題を防ぐことができます。
+>
+>Workfrontと同期し、新しいタスクや問題をボードまたは取り込み列に追加するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL  詳細メニュー ]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続済み項目を同期]** を選択します。
 
 列について詳しくは、[ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)を参照してください。接続されたカードについて詳しくは、[ボードで接続済みカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
