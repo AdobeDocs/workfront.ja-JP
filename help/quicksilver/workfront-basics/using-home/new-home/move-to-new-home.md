@@ -5,7 +5,7 @@ title: 従来のホームから新しいホームへの移動
 description: 従来のホームは、第 4 四半期のリリースで 10 月 17 日にWorkfrontから削除されます。 この記事では、新しいホームで使用できる機能に関する情報と、ユーザーを新しいホームエクスペリエンスに移行するための推奨事項を提供します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: b34de7dc66d69b030e313ee891a7404e1d5470e8
+source-git-commit: 69b264ac060a7c76a151536df622011b5eeb7953
 workflow-type: tm+mt
 source-wordcount: '1596'
 ht-degree: 29%
