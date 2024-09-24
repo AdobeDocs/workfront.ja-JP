@@ -9,10 +9,10 @@ description: ' [!DNL Google Sheets]  を  [!DNL Adobe Workfront Fusion],you need
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 6f4e5042054f3936fa0e387bfbebaa1775d16573
+source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
 workflow-type: tm+mt
 source-wordcount: '4000'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -505,7 +505,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[Fusion App] アカウントを [!DNL Workfront Fusion] に接続する方法については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">接続の作成[!DNL Adobe Workfront Fusion] - 基本手順</a>を参照してください。</p> </td> 
+   <td> <p>[Fusion App] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] への接続の作成 – 基本手順 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -550,7 +550,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>[Fusion App] アカウントを [!DNL Workfront Fusion] に接続する方法については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">接続の作成[!DNL Adobe Workfront Fusion] - 基本手順</a>を参照してください。</p> </td> 
+   <td> <p>[Fusion App] アカウントを [!DNL Workfront Fusion] に接続する手順については、<a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] への接続の作成 – 基本手順 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 
