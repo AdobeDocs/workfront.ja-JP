@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: 8d9a9d8356f195d1e1fcbf0ae6c9b08f20ba4bbf
+source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 62%
@@ -92,4 +92,5 @@ Workfront のカスタムフォームに、次のタイプのカスタムフィ�
 オブジェクトへのカスタムフォームの添付について詳しくは、[オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
 オブジェクトを変換するときにユーザー設定フォームに何が起こるかを確認するには、「[ オブジェクトを変換する際にユーザー設定フォーム データを転送する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)」を参照してください。
+
 
