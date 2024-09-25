@@ -6,10 +6,10 @@ description: レポートの自動配信のスケジュール設定
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 100%
+source-wordcount: '1172'
+ht-degree: 95%
 
 ---
 
@@ -130,7 +130,7 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader"> <p>時間</p> </td> 
-      <td> <p>配信を送信する時刻を選択します。</p> <p>ヒント：システムの負荷はレポートの配信時間に影響を与える可能性があるので、スケジュールされた時間と実際の配信時間の間に遅延が生じる場合があります。特定の時間までに配信するレポートが必要な場合は、必要な時間の前に配信をスケジュールすることをお勧めします。例えば、配信が必要な日の前日に配信をスケジュールすることをお勧めします。</p> </td> 
+      <td> <p>配信を送信する時刻を選択します。</p> <p>ヒント：システムの読み込みはレポートの配信時間に影響を与える可能性があるので、スケジュールされた時間と実際の配信時間の間に最大 24 時間の遅延が生じる場合があります。 特定の時間までに配信するレポートが必要な場合は、必要な時間の前に配信をスケジュールすることをお勧めします。通常は、配信のスケジュールは、必要な日の 1 日前までに設定することをお勧めします。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>曜日</p> </td> 

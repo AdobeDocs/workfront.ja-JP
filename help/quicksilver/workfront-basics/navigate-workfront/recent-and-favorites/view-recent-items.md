@@ -6,16 +6,16 @@ description: '[!UICONTROL 最近]のメニューは上部のナビゲーショ�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 100%
+source-wordcount: '210'
+ht-degree: 82%
 
 ---
 
 # 最近のアイテムの表示
 
-[!UICONTROL 最近]のメニューは上部のナビゲーションバーにあります。このメニューには、最近表示されたプロジェクト、レポート、ダッシュボード、タスク、イシューなどが表示されます。
+[!UICONTROL 最近]のメニューは上部のナビゲーションバーにあります。このメニューには、最近表示したプロジェクト、レポート、ダッシュボード、タスク、イシューなどが表示されます。 過去 2 週間以内に表示されたオブジェクトのみが含まれ、オブジェクト タイプごとに最大 20 個が含まれ、最新の表示順に表示されます。
 
 ## アクセス要件
 

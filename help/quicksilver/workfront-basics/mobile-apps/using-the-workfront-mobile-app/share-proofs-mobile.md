@@ -6,10 +6,10 @@ description: モバイルアプリから直接、社内外の受信者とプル�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: a97ddd1e-1cae-49a8-b3a4-7c9850169179
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 100%
+source-wordcount: '597'
+ht-degree: 95%
 
 ---
 
@@ -77,8 +77,8 @@ ht-degree: 100%
 
 ## プルーフをダウンロード
 
-プルーフドキュメントのコピーをモバイルデバイスにダウンロードできます。
+プルーフドキュメントのコピーをモバイルデバイスにダウンロードできます。 ビデオファイルはプレビューできませんが、ダウンロードすることはできます。
 
-1. ドキュメントのプルーフを開き、ドキュメントの右上の&#x200B;**[!UICONTROL 詳細]**&#x200B;メニュー／![詳細メニュー](assets/mobile-verticalmoremenu-20x33.png)を選択します。次に、「**[!UICONTROL 詳細]**」を選択します。
+1. ドキュメントプルーフを開き、ドキュメントの右上の&#x200B;**[!UICONTROL その他]**&#x200B;メニューアイコン ![その他メニュー](assets/mobile-verticalmoremenu-20x33.png) を選択します。次に、「**[!UICONTROL 詳細]**」を選択します。
 1. 「**[!UICONTROL ダウンロード]**」を選択します。
 1. デバイスの指示に従ってダウンロードを完了し、ドキュメントファイルを開きます。
