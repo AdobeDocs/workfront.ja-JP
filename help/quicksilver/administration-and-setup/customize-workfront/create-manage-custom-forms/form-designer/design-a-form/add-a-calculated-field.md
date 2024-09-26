@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 0e7651389a8762a2b09b0bcf87bf08c7be72adee
 workflow-type: tm+mt
-source-wordcount: '2319'
-ht-degree: 97%
+source-wordcount: '2353'
+ht-degree: 96%
 
 ---
 
@@ -279,6 +279,8 @@ ht-degree: 97%
 +++
 
    1. 大きいテキストボックスをクリックし、計算に追加できる&#x200B;**式**&#x200B;および&#x200B;**フィールド**&#x200B;をクリックします。
+
+      **Fields** の下のオブジェクト名を展開すると、そのオブジェクトで使用可能なすべてのフィールドが表示されます。 リストは 200 項目に制限されています。 フィールド名がわかっている場合は、検索できます。
 
       また、大きいテキストボックスに式やフィールドを入力し、表示されたときに選択することもできます。各項目には、フィールドには「F」、式には「E」が表示されます。
 
