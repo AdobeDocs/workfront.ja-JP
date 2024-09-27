@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 60e56dce7c4d0da07ba2d463766c8309e8aca23d
+source-git-commit: 56f59e901e4c20159cd8b40cea0cbbe24271099b
 workflow-type: tm+mt
-source-wordcount: '1612'
-ht-degree: 98%
+source-wordcount: '1646'
+ht-degree: 96%
 
 ---
 
@@ -24,6 +24,11 @@ ht-degree: 98%
 次の表に、各オブジェクトタイプに対して様々なアクセスレベルで使用できる機能を示します。
 
 また、Workfront 管理者がアクセスレベルを使用して無効または有効にできるアクションも示します。
+
+>[!NOTE]
+>
+>この記事では、現在のWorkfront プランモデルのアクセスレベルで使用できる機能について説明します。 新しいプランモデルで使用可能な機能を確認するには、[ 各種アクセスレベルの各オブジェクトタイプで使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
+
 
 ## プロジェクト
 
