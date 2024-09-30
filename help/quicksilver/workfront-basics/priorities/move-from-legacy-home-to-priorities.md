@@ -5,9 +5,9 @@ description: 従来のホームは、第 4 四半期のリリースで 10 月 17
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b530431ea9db318e03ac1f348e40cfbdedefc01
+source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 6%
 
 ---
@@ -49,9 +49,7 @@ ht-degree: 6%
 
 #### 作業の委任
 
-現在、ユーザーは優先度で委任された作業を委任または表示できません。
-
-ユーザーは、次のウィジェットで新しいホームから作業を引き続き委任できます。
+現在、ユーザーは優先度で委任された作業を委任または表示できません。 ただし、ユーザーは次のウィジェットで新しいホームから作業を委任できます。
 
 * 担当作業
 * マイタスク

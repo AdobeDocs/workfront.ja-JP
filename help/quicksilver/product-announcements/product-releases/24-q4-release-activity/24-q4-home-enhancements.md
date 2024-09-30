@@ -4,9 +4,9 @@ description: 2024年第 4 四半期のホームの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: d07aea784f69d7b2d499b9bc7f9bce3dbbb4444c
+source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '174'
 ht-degree: 42%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 42%
 
 ## 優先度の高いタスク所有者のWorkfront操作を簡素化する
 
-優先度の導入：タスクオーナー向けの、よりシンプルで合理化された直感的なWorkfront エクスペリエンスです。
+優先度の導入：タスクオーナー向けの、よりシンプルで合理化された、より直感的なWorkfront エクスペリエンス。
 
 優先事項を設定することで焦点と生産性が高まり、顧客がより短時間でより多くのことを達成できるようになります。
 
