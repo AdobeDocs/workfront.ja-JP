@@ -8,16 +8,23 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: d380f495c098e45897ca58627571dfc7dfdcb0f7
+source-git-commit: 630467ca64281df0b257dae8cc5c6edc55ae56ad
 workflow-type: tm+mt
-source-wordcount: '127'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
 
 # Adobe Workfront Fusion での大きなファイルの操作
 
-現在、Workfrontおよび HTTP コネクタでは大きなファイルがサポートされています。
+一部の Fusion コネクタでは、1 GB の上限を超えるサイズのファイルをサポートしています。
+
+## 大きなファイルをサポートするコネクタ
+
+現在、次のコネクタで大きなファイルがサポートされています。
+
+* Workfront
+* HTTP
 
 ## シナリオの実行時間に対するファイルサイズの大きな影響
 
