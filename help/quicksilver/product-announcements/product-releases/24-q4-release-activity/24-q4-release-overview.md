@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: d3df6dca10054970feca493d27639cb8235ca5f5
+source-git-commit: 0ef7c526b06fc4f040a41e12e2eeec08c486137e
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 48%
+source-wordcount: '1731'
+ht-degree: 45%
 
 ---
 
@@ -36,6 +36,7 @@ ht-degree: 48%
 
 * [管理者機能の強化](#administrator-enhancements)
 * [統合の機能強化](#integration-enhancements)
+* [ホームの機能強化](#home-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [プルーフ機能の強化](#proofing-enhancements)
 * [レポートとダッシュボードの機能強化](#report-and-dashboard-enhancements)
@@ -154,6 +155,48 @@ ht-degree: 48%
            </tbody>
         </table>
 
+### ホームの機能強化
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> 優先事項の導入：タスクオーナーによる、よりシンプルで合理化された直感的なWorkfrontのエクスペリエンス </a></p>
+                        <p>優先事項を設定することで焦点と生産性が高まり、顧客がより短時間でより多くのことを達成できるようになります。</p>
+                        <p>優先度を使用すると、次の利点が得られます。</p>
+                        <ul>
+                        <li>毎日のタスクの管理と優先順位付け：統合されたナビゲーションで日や週を整理し、わかりやすくします</li>
+                        <li>生産性の向上：プロジェクトコンテキストにアクセスし、クリック数を減らしてタスクを迅速に実行します</li>
+                        <li>パーソナライズされた機能：タスクの所有者向けに独自に設計された機能を活用できます</li>
+                        </ul>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年10月3日（PT）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動リリース：2024 年 10 月 17 日（PT）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### プロジェクトの強化
 
 <table>
@@ -227,6 +270,23 @@ ht-degree: 48%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアのコピー/貼り付けの問題の修正 </a></p>
+                        <p>デスクトッププルーフビューアの「更新」セクションで、コンテンツが正しく貼り付けられない問題を修正しました。</p>
+                        <p>新しいバージョン：2.1.39</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年10月2日（PT）</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 10 月 2 日（PT）</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

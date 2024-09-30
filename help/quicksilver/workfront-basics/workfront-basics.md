@@ -7,10 +7,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: d261fd9eb9b8b649ebe413e35161543db1db8412
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 86%
+source-wordcount: '89'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,7 @@ ht-degree: 86%
 * [Adobe Workfront ブラウザー要件](../workfront-basics/workfront-browser-requirements.md)
 * [Adobe Workfront でサポートされている言語](../workfront-basics/supported-languages-in-workfront.md)
 * [Adobe Workfront の操作：記事インデックス](../workfront-basics/navigate-workfront/navigate-workfront.md)
+* [優先度：記事索引](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [ホーム](../workfront-basics/using-home/home.md)
 * [ 作業項目を更新して更新を表示：記事のインデックス ](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [カスタムフォームを使用](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)

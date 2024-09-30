@@ -4,10 +4,11 @@ description: 2024 年第 4 四半期プルーフの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 621e208a17a3a285dda0dc97cbe83638af2de1a5
+exl-id: 337fca96-9773-4683-a82c-f6d2f5f261a0
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 26%
+source-wordcount: '195'
+ht-degree: 24%
 
 ---
 
@@ -16,6 +17,12 @@ ht-degree: 26%
 このページでは、2024 年第 4 四半期リリースで行われた、プレビュー環境に対するすべてのプルーフの機能強化について説明します。 この機能強化は、2024年第 4 四半期のリリースにおいて実稼動環境で利用できるようになります。
 
 2024年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
+
+## デスクトッププルーフビューアの問題の修正をコピー/貼り付け
+
+デスクトッププルーフビューアの「更新」セクションで、コンテンツが正しく貼り付けられない問題を修正しました。
+
+新しいバージョン：2.1.39
 
 ## デスクトッププルーフビューアの Windows ユーザーに対する空白画面の修正
 
@@ -37,5 +44,3 @@ Windows ユーザー用の新しいバージョン：2.1.37
 デスクトッププルーフビューアは、インタラクティブプルーフの UI 要素の問題を解決する Chromium 126.0.6478.127 をサポートするようにアップグレードされています。
 
 新しいバージョン：2.1.36
-
-

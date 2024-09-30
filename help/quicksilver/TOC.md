@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b9a01dd8b46a4af195c00858ed91ad3b4995d51b
+source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
 workflow-type: tm+mt
-source-wordcount: '14419'
+source-wordcount: '14437'
 ht-degree: 92%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 92%
          * [2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024年第 4 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [2024年第 4 四半期の統合の機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+         * [2024年第 4 四半期のホームの機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
          * [2024年第 4 四半期のプロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [2024 年第 4 四半期プルーフの機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
          * [2024 年第 4 四半期のレポートとダッシュボードの機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
@@ -877,6 +878,9 @@ ht-degree: 92%
       * [ワークライセンスユーザー向けのナビゲーションについて](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
       * [レビューライセンスを持つユーザーのナビゲーションについて](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
       * [Workfrontのプロジェクト、タスク、問題の日付の概要](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+   * 優先度 {#priorities}
+      * [優先度：記事索引](workfront-basics/priorities/priorities-toc.md)
+      * [優先度の概要](workfront-basics/priorities/get-started-with-priorities.md)
    * ホーム {#home}
       * [ホーム](workfront-basics/using-home/home.md)
       * 新しいホーム {#new-home}
@@ -888,6 +892,7 @@ ht-degree: 92%
       * ホームエリアの使用 {#use-home-area}
          * [ホームエリアの使用](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [従来のホームから新しいホームへの移動](workfront-basics/using-home/new-home/move-to-new-home.md)
+         * [従来のホームから優先度への移動](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [ホームの基本を学ぶ](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [ホームエリアの作業リストにおけるアイテムの表示](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
          * [ホームエリアの作業を優先する](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)

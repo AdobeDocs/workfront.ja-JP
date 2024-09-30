@@ -4,8 +4,7 @@ description: 2024年第 1 四半期のホームの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 100%
