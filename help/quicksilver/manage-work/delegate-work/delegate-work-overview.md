@@ -7,10 +7,10 @@ description: 短期間オフィスを離れる予定がある場合は、自分�
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 70e20df7c9738f33496e37b31b6e11caf0ac2f0f
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 100%
 
 * 自分に割り当てられたタスク
 * 自分に割り当てられたイシュー
-* 自分に割り当てられたプロジェクト、タスク、イシュー、ドキュメントの承認。
+* 自分に割り当てられたプロジェクト、タスクまたは問題の承認。
 
 この記事では、タスクとイシューの委任に関する一般事項を説明します。
 
-プロジェクト、タスク、イシューおよびドキュメントの承認の委任については、[承認リクエストの委任](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)を参照してください。
+プロジェクト、タスクおよび問題の承認の委任について詳しくは、「[ 承認要求を委任 ](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)」を参照してください。
 
-タスクとイシューの委任方法については、[タスクとイシューの委任](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
+タスクおよびイシューの委任方法について詳しくは、[ タスクおよびイシューを委任 ](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
 
 ## 作業の委任の概要
 
@@ -43,6 +43,7 @@ ht-degree: 100%
 * 自分の作業を他のユーザーに委任するには、まず、[!DNL Workfront] 管理者またはグループ管理者が、[!UICONTROL 設定]エリアで「委任」環境設定を有効にする必要があります。
 
   詳しくは、[システム全体のタスクとイシューの環境設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+
 * タスクとイシューの委任は、[!UICONTROL ホーム]エリアのみから実行できます。
 * 次のライセンスタイプには例外事項が存在します。
 
