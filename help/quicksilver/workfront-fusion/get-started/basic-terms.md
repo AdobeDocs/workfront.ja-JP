@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: eb39c26b076e89acb8bc4eef1a459b6ef8cd389b
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 99%
+source-wordcount: '858'
+ht-degree: 95%
 
 ---
 
@@ -101,6 +101,10 @@ ht-degree: 99%
   <tr> 
    <td role="rowheader"> <p>シナリオ</p> </td> 
    <td> <p>ユーザーが作成した一連の自動化された手順で、それぞれがモジュールによって表され、実行されます。シナリオの目的は、データの移動と操作です。</p> <p> <img src="assets/scenario-350x178.jpg" style="width: 350;height: 178;"> </p> <p> 詳しくは、<a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">[!UICONTROL Adobe Workfront Fusio] でのシナリオの作成</a>を参照してください。</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>シナリオセグメント</p> </td> 
+   <td> <p> 同じアプリケーションに接続する一連のモジュールで構成される、シナリオのセクション。 シナリオセグメントは、多くの場合、アプリケーションの短いワークフローを表します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>トランザクション</p> </td> 
