@@ -9,22 +9,22 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: fe096ba36da9b56e0e38f6061481b66cfbeee5c6
+source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 5%
+source-wordcount: '408'
+ht-degree: 3%
 
 ---
 
-# AI を使用したモジュールの生成
+# AI を使用したシナリオセグメントの生成
 
 <!--DO NOT DELETE - linked through CSH-->
 
 >[!IMPORTANT]
 >
->この機能は開発の初期段階にあるので、Workfrontの内部ユーザーのみが使用できます。
+>この機能はBetaで使用できるので、一部のWorkfront ユーザーのみが使用できます。
 
-AI を使用すると、モジュールで必要な作業を説明するテキストプロンプトを入力できます。 次に、Fusion は、目的の API の正しいエンドポイントに接続する HTTP モジュールを生成します。
+AI を使用すると、シナリオの一部で必要な作業を説明するテキストプロンプトを入力できます。 Fusion は、シナリオで使用できるこれらのアクションを実行するモジュールを生成します。
 
 AI から生成されるものと同様に、生成されたモジュールを再確認およびテストして、意図したとおりに実行されていることを確認することをお勧めします。
 
@@ -50,43 +50,54 @@ Fusion AI は、現在、次のアプリケーションに接続するモジュ�
 * OpenAI
 * Slack
 
-## モジュールを生成
+## モジュールの生成
 
-1. モジュールを追加し、アプリケーションのリストから **AI を使用して生成** を選択します。
+1. モジュールの追加を開始し、アプリケーションのリストから **AI を使用して生成** を選択します。
 
    または
 
-   シナリオエディターの空白領域を右クリックし、「**AI を使用して生成**」を選択します。
+   シナリオエディターページの下部付近にある「AI で生成 ![ アイコン ](assets/generate-with-ai-icon-beta.png)AI で生成）をクリックします。
+
+   その AI アシスタント パネルが開きます。
 1. ボックスにテキストプロンプトを入力します。
 
    プロンプトのヒントについては、この記事の [ テキストプロンプトの作成のヒント ](#tips-for-creating-text-prompts) を参照してください。
-1. アプリケーションの API トークンをモジュールに追加します。
-1. モジュールを調べ、適切なアプリケーションとアクションに合わせて設定されているように表示されることを確認します。
-1. （条件付き）モジュールがシナリオに添付されていない場合は、適切な場所にドラッグします。
 
-モジュールをテストし、生成されたモジュールが意図したとおりに実行されていることを確認することをお勧めします。
+   モジュールまたはモジュールのセットが生成されます。
+1. （条件付き）必要に応じて、アプリケーションの API トークンをモジュールに追加します。
+1. モジュールを調べ、適切なアプリケーションとアクションに合わせて設定されていることを確認します。
+1. （条件付き）生成されたシナリオセクションがシナリオに添付されていない場合は、適切な場所にドラッグします。
+
+モジュールのテストを実施し、モジュールが意図したとおりに動作していることを確認することをお勧めします。
 
 ## テキストプロンプトの作成に関するヒント
 
 テキストプロンプトには、少なくとも次の情報を含める必要があります。
 
 * 接続先のアプリケーション
-* 実行するアクション
+* 実行する 1 つ以上のアクション
+
+>[!IMPORTANT]
+>
+>一度に複数のモジュールを生成できますが、一度に生成できるモジュールは 1 つのアプリケーションのみです。
 
 >[!INFO]
 >
 >**例**:
 >
->* `Retrieve a list of my calendars from Google Calendar`
+>* `Delete the records 'xyz-123', 'xyz-456', 'xyz-789' from Adobe Workfront Planning`
+>これには、アプリケーション `Workfront Planning` とアクション `delete records` が含まれます。 このプロンプトは、削除されるレコードごとに 1 つずつ、3 つのモジュールを作成します。
+>* `Change campaign summary of the record 'xyz-123' from Adobe Workfront Planning`
+>これには、アプリケーション `Workfront Planning` とアクション `change campaign summary` が含まれます。
+>* `Get all field details in the record type with ID 'test-record' from Adobe Workfront Planning`
+>これには、アプリケーション `Workfront Planning` とアクション `get field details` が含まれます。
 >
->   これには、アプリケーション `Google Calendar` とアクション `Retrieve a list of my calendars` が含まれます。
+>次の例は正しくありません。
+>* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
->* `Retrieve popular songs from Spotify`
->
->   これには、アプリケーション `Spotify` とアクション `Retrieve popular songs` が含まれます。
+>    この例には複数のアプリケーションが含まれているので、正しくありません
 
 テキストプロンプトを作成する場合は、次の点に注意してください。
 
-* Fusion モジュールごとに 1 つのアクションが実行されるので、テキストプロンプトでは、1 つの特定のアクションを記述する必要があります。
 * 直接的でシンプルな言語を使用します。
 * モジュールを確認およびテストします。 期待どおりに実行されない場合は、プロンプトを調整して再試行してください。
