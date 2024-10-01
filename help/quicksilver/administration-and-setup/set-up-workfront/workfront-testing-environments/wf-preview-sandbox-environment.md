@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 100%
+source-wordcount: '1282'
+ht-degree: 94%
 
 ---
 
@@ -168,6 +168,16 @@ SSO を使用している場合はカスタマーサポートチームと協力�
 プレビューサンドボックスでシングルサインオンを設定する手順は、実稼動環境での手順と同様です。
 
 [!DNL Workfront] でのシングルサインオンの設定について詳しくは、[Adobe Workfront でのシングルサインオンの概要](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)を参照してください。
+
+## プロジェクトタイムラインの自動再計算
+
+タイムラインを再計算すると、管理者は、プロジェクトの外部の力がプロジェクトのタイムラインに与える影響を確認できます。プロジェクトのタイムラインとは、プロジェクトの予定日と見込み日のことです。
+
+Workfront管理者は、Workfrontがプロジェクトのタイムラインを自動再計算するタイミングを設定できます。 Workfrontは、毎晩、プロジェクトのスコープが変更されたとき、またはその両方で、プロジェクトのタイムラインを再計算できます。
+
+詳しくは、[ プロジェクトのタイムラインの再計算の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) を参照してください。
+
+プレビュー環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的には再計算されません。 プレビュー環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 
 ## プレビュー環境のパフォーマンスと可用性
 

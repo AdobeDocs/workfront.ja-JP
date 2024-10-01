@@ -6,10 +6,10 @@ description: タイムラインの再計算を使用すると、管理者は、�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 100%
+source-wordcount: '1058'
+ht-degree: 92%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 100%
 
 ## 自動再計算
 
-デフォルトでは、プロジェクトの範囲が変更された時、または毎晩、プロジェクトのタイムラインは自動的に毎日再計算されます。Workfront の管理者は、設定のプロジェクト環境設定エリアの「タイムライン」設定を管理することで、毎晩、または範囲の変更ごとに、タイムラインを自動的に計算するかどうかを決定します。詳しくは、[プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
+デフォルトでは、プロジェクトの範囲が変更された時、または毎晩、プロジェクトのタイムラインは自動的に毎日再計算されます。Workfront管理者は、「設定」の「プロジェクト環境設定」領域でタイムライン設定を管理して、毎晩またはスコープの変更ごとにタイムラインを自動計算するかどうかを決定します。 詳しくは、[プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
 
 >[!NOTE]
 >
@@ -95,12 +95,17 @@ ht-degree: 100%
 * [プロジェクトタイムラインの自動再計算](#automatic-recalculation-of-project-timelines)
 * [プロジェクトタイムラインの自動再計算を引き起こすアクション](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
+
+>[!IMPORTANT]
+>
+>プレビューおよびカスタム更新サンドボックス環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的には再計算されません。 プレビューおよびカスタム更新サンドボックス環境のプロジェクトタイムラインを手動で再計算する必要があります。
+
 ### プロジェクトタイムラインの自動再計算 {#automatic-recalculation-of-project-timelines}
 
 Adobe Workfrontでは、次の条件がすべて満たされたプロジェクトのタイムラインが毎日再計算されます。
 
 * ステータスが「現在」であること
-* プロジェクトの「更新タイプ」が「自動」または「自動と変更時」に設定されている
+* プロジェクトの更新の種類が [ 自動 ] または [ 自動および変更時 ] に設定されています
 
   プロジェクトの更新タイプについて詳しくは、[プロジェクト更新タイプの概要](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)を参照してください。
 

@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 99%
+source-wordcount: '1749'
+ht-degree: 95%
 
 ---
 
@@ -199,6 +199,16 @@ URL を使用してカスタム更新サンドボックスにアクセスする�
 >[!NOTE]
 >
 >組織の [!DNL Workfront] インスタンスが Adobe IMS によって有効化されている場合は使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
+
+## プロジェクトタイムラインの自動再計算
+
+タイムラインを再計算すると、管理者は、プロジェクトの外部の力がプロジェクトのタイムラインに与える影響を確認できます。プロジェクトのタイムラインとは、プロジェクトの予定日と見込み日のことです。
+
+Workfront管理者は、Workfrontがプロジェクトのタイムラインを自動再計算するタイミングを設定できます。 Workfrontは、毎晩、プロジェクトのスコープが変更されたとき、またはその両方で、プロジェクトのタイムラインを再計算できます。
+
+詳しくは、[ プロジェクトのタイムラインの再計算の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md) を参照してください。
+
+カスタム更新サンドボックス環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的には再計算されません。 カスタム更新サンドボックス環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 
 ## 使用目的と可用性
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 67028988-6ac3-48d4-957e-1b5202d33c48
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 96%
+source-wordcount: '469'
+ht-degree: 88%
 
 ---
 
@@ -77,6 +77,11 @@ ht-degree: 96%
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
    システム内のすべてのプロジェクトのタイムラインは、各プロジェクトの「更新の種類」に基づいて自動的に再計算されます。
+
+>[!IMPORTANT]
+>
+>プレビューおよびカスタム更新サンドボックス環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的には再計算されません。 プレビューおよびカスタム更新サンドボックス環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
+
 
 ## [!DNL Workfront] インスタンス全体のタイムラインの再計算
 
