@@ -2,17 +2,17 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: AI を使用したモジュールの生成
+title: AI を使用したシナリオセグメントの生成
 description: テキストプロンプトを入力して、プロンプトに設定された HTTP モジュールを作成できます。
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 67e1d158b09ca339d25473ebedf8851155b2c1c0
+source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 3%
+source-wordcount: '409'
+ht-degree: 1%
 
 ---
 
@@ -93,6 +93,7 @@ Fusion AI は、現在、次のアプリケーションに接続するモジュ�
 >これには、アプリケーション `Workfront Planning` とアクション `get field details` が含まれます。
 >
 >次の例は正しくありません。
+>
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
 >    この例には複数のアプリケーションが含まれているので、正しくありません

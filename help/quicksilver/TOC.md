@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: fe7ed0282a857fb8b7e0c2cfefb2accd17d88def
+source-git-commit: 7013c8a88f047c5c8e769a4d7b71f2033c767b4a
 workflow-type: tm+mt
-source-wordcount: '14437'
+source-wordcount: '14438'
 ht-degree: 92%
 
 ---
@@ -2229,7 +2229,7 @@ ht-degree: 92%
       * [Adobe Workfront Fusion でのシナリオのアクティベートまたはディアクティベート](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
       * [Adobe Workfront Fusion のシナリオへのフィルターの追加](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
       * [Adobe Workfront Fusion 開発ツールを使用したシナリオのデバッグ](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
-      * [AI を使用したモジュールの生成](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
+      * [AI を使用したシナリオセグメントの生成](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * Adobe Workfront Fusion のシナリオテンプレート {#fusion-scenario-templates}
          * [シナリオのテンプレート](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] テンプレートの概要](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
