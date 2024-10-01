@@ -8,20 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
-source-git-commit: db7b5213fb58e219fdabbacfa5bddac7b9da0b00
+source-git-commit: a9cc21d182051410c87e1b6a4fbe8fd8cbe2a178
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 62%
+source-wordcount: '383'
+ht-degree: 75%
 
 ---
 
 # カスタムフォームの概要
 
 <!--Audited: 12/2023-->
-
-{{highlighted-preview}}
-
-{{form-designer-default}}
 
 Adobe Workfront オブジェクトに添付できるカスタムフォームを作成できます。オブジェクトの操作を行うユーザーは、カスタムフォームに入力して、オブジェクトに関する情報を提供できます。
 
@@ -32,8 +28,6 @@ Adobe Workfront オブジェクトに添付できるカスタムフォームを�
 ## カスタムフォームの作成方法
 
 フォームデザイナーは、フィールド、キャンバス、フィールド設定をすべて同時に表示できるキャンバススタイルのワークスペースを持っています。 また、フォームをデザインする際に、セクション内でフィールドをドラッグ&amp;ドロップすることもできます。 画面の右側のサイズを変更して、フィールドオプションのスペースを広げることができます。
-
-<span class="preview"> レイアウトボタン（この画像には表示されていません）を使用すると、2 列または 3 列の作業領域から選択できます。 ボタンは、現在選択されているレイアウトを示します。 3 列レイアウトでは、右端の列にフィールド設定が表示されます。 2 列レイアウトの場合、フィールド設定は、左端の列のフィールド ライブラリの横に表示されます。</span>
 
 詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
@@ -52,8 +46,8 @@ Workfront のカスタムフォームに、次のタイプのカスタムフィ�
 * 書式付きテキスト
 * 単一選択ドロップダウン
 * 複数選択ドロップダウン
-* 外部参照
-* ネイティブフィールドの参照
+* 外部ルックアップ
+* ネイティブフィールド参照
 * 先行入力
 * 計算済み
 * 日付
