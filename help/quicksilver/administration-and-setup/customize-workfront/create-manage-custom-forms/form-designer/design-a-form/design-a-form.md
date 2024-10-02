@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 9a8498adb51f5bc18747667865ebf4b248e57bb5
+source-git-commit: eee683edc36b33b74d67a9ffbcab9697826e3a86
 workflow-type: tm+mt
-source-wordcount: '5541'
+source-wordcount: '5575'
 ht-degree: 86%
 
 ---
 
 # フォームデザイナーでフォームをデザイン
+
+{{highlighted-preview}}
 
 フォームデザイナーを使用してカスタムフォームをデザインできます。カスタムフォームを様々な Workfront オブジェクトに添付して、これらのオブジェクトに関するデータを取り込むことができます。
 
@@ -89,6 +91,8 @@ ht-degree: 86%
 ## 新規または既存のフィールドをカスタムフォームに追加する
 
 カスタムフォームのデザイン時に、新規フィールドまたは既存のフィールドを使用できます。
+
+<span class="preview"> カスタムフォームのフィールドは 500 個に制限されています。 左下のカウンターには、フォームで使用されているフィールドの数が表示され、フォームデザイナー内でスクロールすると常に表示されます。</span>
 
 ### 別のカスタムフォームで既に使用されている既存のフィールドまたはウィジェットの再利用
 
