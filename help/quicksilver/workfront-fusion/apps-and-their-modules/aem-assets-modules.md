@@ -10,10 +10,10 @@ description: ' [!DNL Adobe Workfront Fusion], you can start a scenario based on 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 993d10a93eca28573aaa38e4ce76e5a1b30ec42e
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 92%
+source-wordcount: '1706'
+ht-degree: 87%
 
 ---
 
@@ -127,20 +127,28 @@ Adobe Experience Manager Assets コネクタの概要については、以下を
                   <td>[!DNL Adobe Experience Manager] インスタンスの URL を入力します。URL の末尾にスラッシュ <code>/</code> を含めないでください。</td>
               </tr>
               <tr>
+                  <td role="rowheader">[!UICONTROL アカウントの詳細入力オプション ]</td>
+                  <td>アカウントの詳細を説明する JSON を提供するか、詳細を手動で入力するかを選択します。</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[!UICONTROL テクニカルアカウントの詳細（JSON 形式） ]</td>
+                  <td>JSON を指定する場合は、アカウントの詳細を説明する JSON を入力または貼り付けます。</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[!UICONTROL Client ID]</td>
-                  <td>[!UICONTROL Server-to-server] 設定で生成したクライアント ID を入力します。</td>
+                  <td>詳細を手動で入力する場合は、[!UICONTROL サーバー間 ] 設定で生成されたクライアント ID を入力します。</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client Secret]</td>
-                  <td>[!UICONTROL Server-to-server] 設定で生成したクライアントシークレットを入力します。</td>
+                  <td>詳細を手動で入力する場合は、[!UICONTROL サーバー間 ] 設定で生成されたクライアントの秘密鍵を入力します。</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Technical account ID]</td>
-                  <td>テクニカルアカウントの ID を入力します。これは、クライアント資格情報 JSON ファイルの「[!UICONTROL id]」フィールドです。</td>
+                  <td>詳細を手動で入力する場合は、テクニカルアカウントの ID を入力します。 これは、クライアント資格情報 JSON ファイルの「[!UICONTROL id]」フィールドです。</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Org ID]</td>
-                  <td class="">組織の ID を入力します。これは、クライアント資格情報 JSON ファイルの「[!UICONTROL org]」フィールドです。</td>
+                  <td class="">詳細を手動で入力する場合は、組織の ID を入力します。 これは、クライアント資格情報 JSON ファイルの「[!UICONTROL org]」フィールドです。</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
