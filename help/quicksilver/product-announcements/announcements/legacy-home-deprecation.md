@@ -6,9 +6,9 @@ description: このページには、レガシーホームの今後の廃止に�
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 629fc09ded495e9add5f24144c4fdffc31e40552
+source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '890'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,13 @@ Adobe Workfrontの皆さまにお知らせいたします。まもなく、従�
 1. 残りのユーザーを新しいホームページレイアウトに再割り当てします。
 
 これはできるだけ早く行うことで、ユーザーが新しいエクスペリエンスに適応し、個々のニーズに最適に新しいホームページをカスタマイズする時間を確保できます。 ユーザーが新しいホームページでウィジェットをカスタマイズする方法については、[ 新しいホームでのウィジェットの削除、追加、並べ替え ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) を参照してください。
+
+### 新しいホームで利用可能なものと優先度について説明します
+
+以下の記事では、新しいホームで使用できる機能と優先度について説明します。
+
+* [従来のホームから新しいホームへの移動](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+* [従来のホームから優先事項への移行](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### ホームエクスペリエンスの開発時にそのエクスペリエンスに従う
 
