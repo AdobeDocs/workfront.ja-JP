@@ -7,9 +7,9 @@ description: カレンダーレポートは、作業内容を視覚的に表現�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '387'
+source-wordcount: '352'
 ht-degree: 100%
 
 ---
@@ -57,7 +57,3 @@ ht-degree: 100%
 >[!NOTE]
 >
 >カレンダーレポートの実行時に 504 エラーが発生した場合は、レポートで使用しているフィルターが多すぎる可能性があります。フィルターの数を減らすと、レポートを実行できます。
-
-## ダッシュボードにカレンダーを追加
-
-ダッシュボードに表示すると、カレンダーレポートに素早くアクセスできるようになります。ダッシュボードにカレンダーを追加する方法については、[ダッシュボードの編集](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)を参照してください。

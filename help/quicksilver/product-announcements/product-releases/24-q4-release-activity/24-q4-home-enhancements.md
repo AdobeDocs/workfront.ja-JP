@@ -4,10 +4,10 @@ description: 2024年第 4 四半期のホームの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: c32d08a0b32c6695a29ef45400a7eb1e10e665fd
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '174'
-ht-degree: 42%
+source-wordcount: '187'
+ht-degree: 39%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 42%
 2024年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
 
 ## 優先度の高いタスク所有者のWorkfront操作を簡素化する
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 10 月 3 日（PT）。すべてのお客様向けの実稼動リリース：24.10 リリースで（2024 年 10 月 17 日（PT））。
 
 優先度の導入：タスクオーナー向けの、よりシンプルで合理化された、より直感的なWorkfront エクスペリエンス。
 

@@ -4,10 +4,10 @@ description: 2024 年第 4 四半期のレポートとダッシュボードの�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 19%
+source-wordcount: '230'
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->すべてのお客様向けの実稼動リリース：24.10 リリース（2024年10月）
+>すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））
 >
 >_新しいAdobe Workfront プランのいずれかに加入している組織のみが利用できます。 Data Connect は Ultimate プランに含まれているか、Prime プランおよび Select プランのアドオンとして購入できます。_
 

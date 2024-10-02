@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 16809b2d1801dd7aa4ab1f452e4687601fc1ac59
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 1%
+source-wordcount: '611'
+ht-degree: 9%
 
 ---
 
@@ -39,6 +39,45 @@ Data Connect Data Lake を外部許可リスト許可リストに加えるに接
 >IP許可リストに 1 つのエントリが追加されると、その他の IP アドレスはすべて許可されなくなります。 ツールを使用する前に、ビジュアライゼーションツールの作成と読み取りの両方で必要な IP アドレスをすべて入力してあることを確認します。 そうでない場合、無効な資格情報に関してエラーが発生する可能性があります。
 >
 >許可リストに IP アドレスが含まれていなくても、BI ツールへの接続に問題がある場合は、BI ツールのプロキシサーバー設定を確認します。
+
+## アクセス要件
+
++++ 展開すると、アクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>次のプランに含まれる：</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>次のプランのアドオンとして購入できます。</p> 
+    <ul>
+        <li>選択</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect は、従来のWorkfront プランでは使用できません。</p> 
+   </td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>プラン</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>Workfront 管理者である必要があります。</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 許可リストに IP を追加
 

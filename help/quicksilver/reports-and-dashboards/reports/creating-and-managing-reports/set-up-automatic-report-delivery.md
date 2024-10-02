@@ -6,10 +6,10 @@ description: レポートの自動配信のスケジュール設定
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 4bd88c0e4a3d27e30580fefea993224fe5446e32
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '1172'
-ht-degree: 95%
+source-wordcount: '1272'
+ht-degree: 88%
 
 ---
 
@@ -160,6 +160,12 @@ ht-degree: 95%
    レポートは「**繰り返し配信**」セクション（「**レポートの送信**」ダイアログボックス内）に表示され、スケジュールされた時間に送信されます。
 
    レポートの配信に影響を与える可能性のあるサイズ制限について詳しくは、[レポートの配信制限](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits)および[書き出し制限](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export)を参照してください。
+
+>[!IMPORTANT]
+>
+>予定レポートの配信が処理される際には、内部の制限時間が生じる可能性があります。 レポートの送信時間が送信される制限を超えた場合、通知が届き、スケジュールされた残りの配信に関係なくレポートは配信されなくなります。 レポートの送信を続行するには、まずフィルターと表示を使用してレポートのサイズを小さくし、次に、新しいスケジュール済み配信を作成します。
+>
+>スケジュールされたレポート配信を使用して BI ツールでWorkfront データを分析する場合は、代わりにWorkfront Data Connect を使用することをお勧めします。 詳しくは、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
 
 1. （オプション）スケジュールされている配信を削除するには：
 

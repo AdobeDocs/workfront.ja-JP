@@ -6,10 +6,10 @@ description: Adobe Workfront で作成または共有したカレンダーレポ
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: e5a3024b1657942cd7abdfff76a7a6795127a4f5
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
 source-wordcount: '709'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -54,14 +54,14 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
 
    アクセスレベルに応じて、次のカレンダーが表示される場合があります。
 
-   * デフォルトの [!DNL Adobe Workfront] カレンダー
+   * 既定の [!DNL Adobe Workfront] カレンダー
 
      Workfront は、自分に割り当てられているプロジェクト、タスクおよびイシューに基づいて、または自分が割り当てられているチーム、グループまたは役割に基づいて、ユーザー用のカレンダーを作成します。
    * 作成したカレンダー
 
      カレンダーの作成について詳しくは、[カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)を参照してください。
 
-   * 他のユーザーが共有したカレンダー
+   * 他のユーザーが共有しているカレンダー
 
      カレンダーの共有については、[[!UICONTROL カレンダーの共有]レポート](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)を参照してください。
 

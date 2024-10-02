@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: b0b56dfb8d50fbbd40e2a1de82f95352c182615a
+source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 21%
+source-wordcount: '380'
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 8 月 29 日（PT）、高速リリースの実稼動：24.9 リリースを含む（2024 年 9 月 12 日（PT））、四半期リリースの実稼動：24.10 リリースを含む（2024 年 10 月）
+>プレビューリリース：2024年8月29日（PT）。迅速リリース用の実稼動版：24.9 リリース（2024年9月12日（PT））。四半期リリース用の実稼動版：24.10 リリース（2024年10月17日（PT））
 
 環境のプロモーションをより柔軟かつ使いやすくするために、ロールバック機能を有効にしました。 現在は、24 時間以内にパッケージをロールバックでき、環境昇格パッケージの影響を受けた以前の設定をより簡単に復元できます。
 
