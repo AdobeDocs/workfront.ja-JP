@@ -5,9 +5,9 @@ description: 優先度は、タスクの所有者に合わせて調整された�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: fa7bb26215caba62edfbe8eabc15526427abd0b8
+source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '832'
 ht-degree: 6%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 6%
 
 ## 考慮事項
 
+* Workfront管理者は、現時点では、レイアウトテンプレートを使用して優先度をカスタマイズできません。
 * 優先度のタスクへのアクセスはタブ間で行われます。 今後、ドキュメント、サブタスク、承認などのタブを追加する予定です。 「フィードバックを送信 **ボタンを使用してフィードバックを送信することにより、これらの項目が必要であることをお知らせくだ** い。
 
 

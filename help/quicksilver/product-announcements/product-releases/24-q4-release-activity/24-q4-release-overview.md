@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 43%
@@ -173,7 +173,7 @@ ht-degree: 43%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> 優先事項の導入：タスクオーナーによる、よりシンプルで合理化された直感的なWorkfrontのエクスペリエンス </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> 優先事項の導入：タスクオーナー向けの、よりシンプルで合理化された直感的なWorkfrontエクスペリエンス </a></p>
                         <p>優先事項を設定することで焦点と生産性が高まり、顧客がより短時間でより多くのことを達成できるようになります。</p>
                         <p>優先度を使用すると、次の利点が得られます。</p>
                         <ul>
