@@ -5,14 +5,14 @@ title: AI アシスタントでプロジェクトを要約
 description: プロジェクトヘッダーには、AI アシスタントを使用してプロジェクトをまとめるボタンが含まれています。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: df10444228de70dd460c4df72c4ba7dba6455f15
 workflow-type: tm+mt
 source-wordcount: '389'
 ht-degree: 18%
 
 ---
 
-# AI アシスタントで更新プログラムの要約を作成する
+# AI アシスタントでプロジェクトを要約
 
 Workfrontの AI アシスタントでは、プロジェクトを要約して、プロジェクトの目的やステータスなどのプロジェクト情報をすばやく把握することができます。また、完了したタスクと保留中のタスクの例を示し、追加の詳細とメモを提供します。
 
