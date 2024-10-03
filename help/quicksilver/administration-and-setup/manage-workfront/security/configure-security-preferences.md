@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 84%
+source-wordcount: '905'
+ht-degree: 81%
 
 ---
 
@@ -128,8 +128,12 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
       <td>デフォルトでユーザーに新しいホームエクスペリエンスを表示するかどうかを指定できます。有効にした場合、ユーザーにはデフォルトで新しいホームエクスペリエンスが表示されますが、個々に新しいホームを有効または無効にすることを選択できます。無効にした場合、ユーザーには新しいホームに切り替えることができるバナーが表示されません。ただし、インスタンス URL の末尾に手動で「<code>/home/workspaces</code>」を入力すると、新しいホームページに移動できます。この設定は、デフォルトで有効になっています。</td> 
      </tr>
      <tr> 
+      <td role="rowheader">優先度ワークリストの有効化 </td> 
+      <td>ユーザーの優先度ワークリストのエクスペリエンスを有効または無効にすることを選択できます。 <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> 優先度の詳細については、「<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> 優先度の概要 </a> を参照してください。</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">テスト環境</td> 
-      <td>Workfront テスト環境にアクセスできます。 詳しくは、<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Adobe Workfront のプレビューサンドボックス環境</a>を参照してください。</p></td> 
+      <td>Workfront テスト環境にアクセスできます。 詳しくは、<a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Adobe Workfront のプレビューサンドボックス環境</a>を参照してください。</p></td> 
     </tbody> 
    </table>
 

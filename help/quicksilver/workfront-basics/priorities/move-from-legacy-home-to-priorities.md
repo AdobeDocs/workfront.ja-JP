@@ -5,17 +5,15 @@ description: 従来のホームは、第 4 四半期のリリースで 10 月 17
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e0eeb62dc1e29849258fa7b111ccce6480767812
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '556'
 ht-degree: 6%
 
 ---
 
 
 # 従来のホームから優先事項への移行
-
-<span class="preview"> 優先事項は、2024 年 10 月 3 日のプレビューで入手できます </span>
 
 従来のホームは、第 4 四半期のリリースで 10 月 17 日にWorkfrontから削除されます。 この記事では、優先度で利用できる機能に関する情報と、ユーザーを優先度に移行させるWorkfront管理者のための推奨事項を提供します。
 

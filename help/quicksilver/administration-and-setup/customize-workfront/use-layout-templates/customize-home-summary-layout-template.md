@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 115757a829b92c13cb684369120e26602b9a1782
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 92%
+source-wordcount: '1006'
+ht-degree: 89%
 
 ---
 
 # レイアウトテンプレートを使用したホームと概要のカスタマイズ
+
+<span class="preview">10 月 17 日（PT）第 4 四半期（PT）リリースで従来のホームがWorkfrontから削除されると、この記事の名前は「レイアウトテンプレートを使用した概要パネルのカスタマイズ」に変更されます。 2024.</span>
 
 レイアウトテンプレートを使用して、「ホーム」および「概要」でタスクやイシューをクリックした際にユーザーに表示する内容を設定できます。以下の手順を使用して行った各設定は、「ホーム」および「概要」パネルにも反映されます。ただし、これらのカスタマイズは「ドキュメントの概要」パネルには適用されません。
 

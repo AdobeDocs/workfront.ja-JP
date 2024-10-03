@@ -5,17 +5,15 @@ description: 優先度は、タスクの所有者に合わせて調整された�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 08221eb867a052187138be5c51a8720bb095f31b
+source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 6%
+source-wordcount: '883'
+ht-degree: 8%
 
 ---
 
 
 # 優先度の概要
-
-<span class="preview"> 優先事項は、2024 年 10 月 3 日のプレビューで入手できます </span>
 
 優先度は、タスクの所有者に合わせて調整された、合理化された直感的なエクスペリエンスです。 優先度は、ワークリストから始めて、段階的にロールアウトされます。
 
@@ -118,6 +116,16 @@ ht-degree: 6%
 ## タスクとイシューの操作
 
 優先度では、作業項目を更新して作業項目の詳細を最新の状態に保ったり、時間を記録して作業時間を正確に追跡したり、アセットをアップロードしてプロジェクトに移動しなくても済んだり、クイックリンクを追加して頻繁に使用するリソースに簡単にアクセスしたりできます。
+
+>[!NOTE]
+>
+>ライト、レビュー、コントリビューター、リクエスターのライセンスでは、優先度へのアクセスが制限されています。 これらのライセンス タイプがタスクや問題とどのようにやり取りするかについての詳細は、を参照してください。
+>
+>* [ 新規ライセンスのためのオブジェクトおよび領域へのアクセス ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [ 新しいアクセスレベル用にオブジェクトタイプごとに使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [ライセンスタイプ別のオブジェクトやエリアへのアクセス](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
+>* [各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+
 
 ### 更新の追加と表示
 

@@ -4,10 +4,10 @@ description: 2024年第 4 四半期のホームの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 0d2bb434b1b52ea175ad912c554b4aa07d5d2f7d
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 39%
+source-wordcount: '319'
+ht-degree: 23%
 
 ---
 
@@ -38,3 +38,15 @@ ht-degree: 39%
 詳しくは、[ 優先事項の概要 ](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md) を参照してください
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3434848/){target=_blank}
+
+## 24.10 での従来のホームエクスペリエンスの廃止
+
+24.10 リリースでは、従来のホームエクスペリエンスが正式に廃止される予定です。
+
+この変更により、レイアウトテンプレートの _ホームと概要_ 領域の名前が _概要パネル_ に変更されます。 この領域のカスタマイズは、新しいホームの概要パネルにも引き続き適用されます。 詳しくは、[ レイアウトテンプレートを使用してホームと概要をカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
+
+新しいホームの使用を開始することをお勧めします。このホームは、廃止前に、引き続き追加機能を備えて強化されます。 ユーザーや管理者が準備に実行できる操作に関するアドバイスなど、移行について詳しくは、[ 従来のホームの廃止ガイド ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md) を参照してください。
+
+>[!NOTE]
+>
+>従来のホームが廃止されると、_新しいホーム_ はWorkfrontでは _ホーム_ と呼ばれます。 すべての _新規ホーム_ ドキュメントの名前は _ホーム_ に変更されます。
