@@ -1,12 +1,12 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: タスクおよびイシューの条件の更新
+title: タスクおよび問題の状態を更新する
 description: タスクまたはイシューの状況は、進行状況を示すために配置されたフラグです。これは、作業項目の現在の開発段階を示す作業項目のステータスとは異なります。
 author: Alina
 feature: Work Management
 exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 64%

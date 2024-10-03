@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: 更新時の他のユーザーのタグ付け
+title: 更新で他のユーザーにタグ付け
 description: Adobe Workfront オブジェクトにアップデートコメントを付けると、プロジェクトのすべてのユーザーが、送信された情報が表示することができます。プロジェクトに参加していないユーザーにもこの情報を表示するメリットがある場合があります。プロジェクトに参加していないユーザーをプロジェクトに含める代わりに、アップデート時にそうしたユーザーにタグ付けすれば、プロジェクトを共有することができます。タグ付けしたユーザーは、イベント通知を受け取ります。
 author: Alina
 feature: Get Started with Workfront
 exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
-source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 86%
+source-wordcount: '1008'
+ht-degree: 85%
 
 ---
 
@@ -55,6 +55,8 @@ ht-degree: 86%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
@@ -82,6 +84,8 @@ ht-degree: 86%
 </table>
 
 *ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 更新時の他のユーザーのタグ付け
 

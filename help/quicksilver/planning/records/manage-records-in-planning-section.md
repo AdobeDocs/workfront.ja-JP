@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 10%
+source-wordcount: '797'
+ht-degree: 9%
 
 ---
 
@@ -110,14 +110,16 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
 ## Workfront オブジェクトのプランニング セクションに関する考慮事項
 
-* Workfront Planning レコードタイプは、Workfront オブジェクトタイプに接続されている必要があります。
+Workfront オブジェクトの「計画」セクションからWorkfront Planning レコードを表示する場合は、次の点に注意してください。
+
+* Workfront Planning レコードタイプは、まずWorkfront オブジェクトタイプに接続する必要があります。
 
   詳しくは、次の記事を参照してください。
 
    * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
-* Workfront オブジェクトにはレコードが関連付けられていない場合でも、Workfront オブジェクトの「プランニング」セクションを表示できます。
-* 1 つ以上のレコードがWorkfront オブジェクトに接続されている場合は、「計画」セクションのWorkfrontのWorkfront オブジェクトに計画レコードを関連付けることができます。
+* Workfrontオブジェクトに関連付けられたレコードがない場合でも、Workfrontオブジェクトから「プランニング」セクションを表示できます。
+* Workfrontの「計画」エリアのWorkfrontオブジェクトを接続する以外に、「計画」セクションのWorkfrontのWorkfrontオブジェクトと計画レコードを接続できます。
 
 ## 計画セクションのレコードの管理
 
@@ -130,13 +132,17 @@ Workfront Planning にアクセスするには、次のものが必要です：
 1. Workfront プロジェクト、ポートフォリオ、またはプログラムに接続されているレコードタイプのカードをクリックします。
 1. テーブル ビューまたはレコードの詳細ページから、Workfront オブジェクトに接続されている [ 接続済みレコード ] フィールドに移動します。 詳しくは、[レコードを接続する](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 1. 「接続されたレコード」フィールドでWorkfront オブジェクトの名前をクリックします。
-Workfrontにオブジェクトのページが開きます。
+Workfrontでオブジェクトのページが開きます。
+
+   >[!NOTE]
+   >
+   >  Planning レコードに既に接続されているWorkfront オブジェクトがわかっている場合は、Workfront オブジェクトから Planning セクションに移動できます。
 
 1. 左側のパネルで「**計画**」をクリックします。
 
    >[!NOTE]
    >
-   >   Workfront のプロジェクト、ポートフォリオ、またはプログラムに表示する前に、Workfront管理者またはグループ管理者がレイアウトテンプレートに「プランニング」セクションを追加する必要があります。
+   >   Workfrontまたはグループの管理者は、Workfrontのプロジェクト、ポートフォリオまたはプログラムに表示される前に、計画セクションをレイアウトテンプレートに追加する必要があります。
 
    「計画」セクションには、次の情報が表示されます。
 
@@ -152,7 +158,7 @@ Workfrontにオブジェクトのページが開きます。
 1. レコードカードをクリックすると、レコードに関する詳細情報が表示されます。 レコードのプレビューボックスが表示されます。
 1. （オプション）レコードのプレビューボックスのフィールドの変更を開始します。 変更内容は自動的に保存されます。
 1. （オプション）プレビューボックスの右上隅に ![](assets/open-details-in-a-new-tab-icon.png) る **新しいタブで開く** アイコンをクリックして、レコードの詳細ページを開きます。 Workfront Planning にレコードの詳細ページが開きます。
-1. レコードカードにポインタを合わせ、「レコードを切断」アイコン（**-**）をクリックしてから、「**切断**」をクリックします。
+1. （オプション）レコードカードの上にマウスポインターを置き、「レコードを切断」アイコン（**-**）をクリックしてから「**切断**」をクリックします。
 次のことが発生します。
    * レコードがWorkfront オブジェクトに接続されなくなりました。
    * Workfront オブジェクトも、Workfront Planning からレコードの接続されたフィールドから削除されます。

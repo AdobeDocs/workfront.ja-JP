@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '3007'
-ht-degree: 92%
+source-wordcount: '3037'
+ht-degree: 91%
 
 ---
 
@@ -130,12 +130,19 @@ Adobe Workfront オブジェクトに更新を追加して、オブジェクト�
 
    * 「更新」セクションの Workfront オブジェクトから（プロジェクト、タスクおよびイシューの場合）
    * ホームエリアから（タスクおよびイシューの場合）
+
+     詳しくは、[ 自分の作業ウィジェットを使用した作業の管理 ](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md) を参照してください。
    * 次の領域の概要パネルから（タスク、イシュー、ドキュメントの場合）:
 
       * オブジェクトのリスト
       * タイムシート
       * ホーム
       * ワークロードバランサー
+
+     詳しくは、次の記事を参照してください。
+
+      * [概要パネルについて](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+      * [概要を使用してワークロードバランサーの作業アイテムを更新](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 

@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 78%
+source-wordcount: '736'
+ht-degree: 76%
 
 ---
 
@@ -53,6 +53,8 @@ ht-degree: 78%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -80,6 +82,8 @@ ht-degree: 78%
 </table>
 
 *ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## Workfront での更新または返信に対する返信
 

@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: コミット日と予定完了日の間のやり取り
+title: コミット日と予定完了日の間のインタラクション
 description: 予定完了日とコミット日の両方は、タスクを完了すべきタイミングを示します。しかし、これらの日付は誰が設定するかによって異なります。
 author: Alina
 feature: Work Management
 exl-id: 1709c60c-ac75-48eb-9226-ec2cf556ebf0
-source-git-commit: 78c28a1a5a850d13729113fa9f9819635ceb5d13
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '421'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 

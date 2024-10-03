@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: タスクの完了率の表示と更新
+title: タスクの完了率を表示および更新します
 description: タスクの完了率を更新して、完了に向けたタスクの進捗状況を示すことができます。
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 88%
+source-wordcount: '555'
+ht-degree: 84%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 88%
 タスクの完了率を更新して、完了に向けたタスクの進捗状況を示すことができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 タスクを手動で更新するには、次のアクセス権が必要です。
 
@@ -49,8 +51,9 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
++++
 
 ## タスクの完了率を更新できるエリア
 

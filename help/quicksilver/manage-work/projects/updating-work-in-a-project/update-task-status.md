@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: タスクステータスの更新
+title: タスク状態の更新
 description: タスクステータスを更新して、タスク（およびプロジェクト全体）の進行状況を他のユーザーに知らせることができます。
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 100%
+source-wordcount: '648'
+ht-degree: 98%
 
 ---
 
 # タスクステータスの更新
+
+<!--Audited: 10/2024-->
 
 タスクステータスを更新して、タスク（およびプロジェクト全体）の進行状況を他のユーザーに知らせることができます。
 
@@ -22,6 +24,8 @@ ht-degree: 100%
 タスクのステータスは、手動で更新することも、特定のアクションが実行されたときに Workfront で自動的に更新することもできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 タスクを手動で更新するには、次のアクセス権が必要です。
 
@@ -51,7 +55,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## タスクのステータスの更新に関する考慮事項
 

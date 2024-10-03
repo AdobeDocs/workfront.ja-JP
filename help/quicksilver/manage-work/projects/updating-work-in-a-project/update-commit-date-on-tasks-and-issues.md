@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: タスクやイシューのコミット日の更新
+title: タスクおよび問題のコミット日の更新
 description: 割り当てられたタスクやイシューのコミット日は手動で更新できます。Adobe Workfront でのコミット日について詳しくは、「コミット日の概要」を参照してください。
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
 source-wordcount: '552'
-ht-degree: 54%
+ht-degree: 53%
 
 ---
 

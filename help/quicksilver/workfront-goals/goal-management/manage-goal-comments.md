@@ -6,10 +6,10 @@ description: Adobe Workfront Goals で表示できるすべての目標にコメ
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '311'
-ht-degree: 84%
+source-wordcount: '322'
+ht-degree: 81%
 
 ---
 
@@ -33,6 +33,8 @@ After the monthly releases to Production, the same features are also available i
 Adobe Workfront Goals で表示できるすべての目標にコメントを追加できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事で説明する操作を実行するには、次のアクセス権が必要です。
 
@@ -87,6 +89,8 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 目標コメントの管理
 

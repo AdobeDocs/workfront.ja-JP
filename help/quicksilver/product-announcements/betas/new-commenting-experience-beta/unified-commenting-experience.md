@@ -9,10 +9,10 @@ role: User
 hide: true
 hidefromtoc: true
 exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 88%
+source-wordcount: '1071'
+ht-degree: 62%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 88%
 >新しいコメント機能のベータ版プログラムは 2023 年 4 月に開始し、2023 年 10 月に終了して、2023 年 10 月リリースを迎えました。
 >
 >2024 年 4 月 11 日（PT）以降、新しいコメント機能は、すべてのお客様の実稼動環境で利用できるようになりました。
+>
+> 以前のコメント機能がWorkfrontから削除されました。
 
 ## 機能
 
@@ -47,7 +49,7 @@ ht-degree: 88%
 * オブジェクトに新しいコメントが追加されたときのリアルタイムインジケーター
 * コメントの送信後の編集
 
-次の機能は、新しいエクスペリエンスから削除されるか、非推奨になりました。
+次の機能が新しいエクスペリエンスから削除されました。
 
 * システム更新に対するコメント。過去にシステム更新に追加されたコメントが、新しい「システムアクティビティ」タブに読み取り専用コメントとして読み込まれました。
 * タスクとイシューに関するコメントを作成中に、ステータス、条件、コミット日、完了率を編集できる機能。
@@ -81,17 +83,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   <tr>
    <td><strong>機能</strong>
    </td>
-   <td><strong>以前のコメントエクスペリエンスに存在</strong>
+   <td><strong> 古いコメント体験に存在する </strong>
    </td>
    <td><strong>新しいコメントエクスペリエンスに存在</strong>
    </td>
-   <td><strong>新しいコメントエクスペリエンスで導入予定</strong>
+
+<td><strong> 新しいコメント体験 </strong> ージで導入
    </td>
-   <td><strong>新しいコメントエクスペリエンスでの導入時期</strong>
-   </td>
-   <td><strong>調査中</strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>コメントの作成／読み取り／返信／削除 
    </td>
@@ -99,13 +98,11 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
   </td>
    <td>✓ 
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>リッチテキスト（引用と絵文字を除く）
    </td>
@@ -113,12 +110,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓
    </td>
-   <td> 
+
+<td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   &gt;
   </tr>
 
 <tr>
@@ -130,11 +125,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>リッチテキスト（ブロック引用）
@@ -143,13 +135,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓
    </td>
-   <td> 
+    <td> 2023年第 2 四半期
    </td>
-   <td> 2023年第 2 四半期
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
 <tr>
    <td> コメントの引用
@@ -158,13 +147,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td> 2023年第 2 四半期
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>コメントへの反応（「いいね！」） 
    </td>
@@ -174,11 +160,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>コメントに画像を添付 
    </td>
@@ -186,13 +169,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓ 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>コメント内で人物にタグ付け 
    </td>
@@ -202,11 +182,8 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
   <tr>
    <td>スレッド参加者を削除
    </td>
@@ -216,23 +193,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
-<tr>
+  <tr>
    <td>スレッドのすべての参加者に自動的にタグを付ける
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -247,10 +214,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>コメントの投稿を取り消す 
@@ -259,11 +222,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>編集コメントに置き換え 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -275,11 +234,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>コメントを編集 
    </td>
@@ -289,11 +244,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>ページから移動する際にコメントのドラフトを保存 
    </td>
@@ -303,21 +254,13 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>新しいコメントをリアルタイムで表示（コメントが削除された際の表示を含む）
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -331,10 +274,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>スレッド リンクをコピー 
@@ -343,11 +282,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 「リンクをコピー」に置き換え
    </td>
-   <td> 
-   </td>
    <td>2023年第 2 四半期 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -359,11 +294,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>コメントテキストを引用 
    </td>
@@ -371,13 +302,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td>✓
    </td>
-   <td> 
+  <td>2023年第 2 四半期 
    </td>
-   <td>2023年第 2 四半期 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>本文をコピー 
    </td>
@@ -385,13 +312,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>コメント内を検索 
    </td>
@@ -399,13 +322,10 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>2024年第 1 四半期 
    </td>
-   <td> 
-   </td>
-  </tr>
+
+</tr>
 
 <tr>
    <td>コメント内の画像をコピーして貼り付ける
@@ -414,13 +334,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>2024年第 1 四半期 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>コメント内の画像をドラッグしてドロップする
@@ -429,22 +345,14 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>2024年第 1 四半期 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>カスタムフォームを編集 
    </td>
    <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -460,10 +368,6 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>システム更新に返信 
@@ -472,11 +376,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -486,11 +386,7 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -499,13 +395,9 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
    </td>
    <td> ✓
    </td>
-   <td> 後日リリースされる可能性があります
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓
+   <td> 
    </td>
   </tr>
 </table>
@@ -519,41 +411,41 @@ For more information, see the [New commenting experience FAQs](../../betas/new-c
 >Workfront オブジェクトの更新の管理について詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 
-新しいコメントエクスペリエンスを実稼動環境にリリースする予定のタイムラインを、主要なマイルストーンとともに以下に示します。以下のマイルストーンに加えて、小さな機能強化も継続して行いコメントエクスペリエンスを改善し続けます。
+次の情報は、実稼動環境への新しいコメント機能エクスペリエンスのリリースの主要なマイルストーンとタイムラインの説明です。 以下のマイルストーンに加えて、小さな機能強化も継続して行いコメントエクスペリエンスを改善し続けます。
 
-ベータ期間が終了した後に新しいコメントエクスペリエンスにリリースされた機能について詳しくは、最新のリリースの概要ページを参照してください。
+ベータ版期間終了後に新しいコメントエクスペリエンス用にリリースされた機能については、現在のリリースの概要ページを参照してください。 詳しくは、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
-次に、新しいコメントエクスペリエンスをリリースする予定のタイムラインを示します。
+次に、新しいコメントエクスペリエンスのリリースの予定タイムラインを示します。
 
 * 23.2 リリース（2023年4月6日（PT））：
-   * イシューのベータ版コメントエクスペリエンスのローンチ
-   * 目標に対する新しいコメントエクスペリエンスのリリース（唯一のエクスペリエンスとして）
+   * イシューに関するコメント機能のBetaを立ち上げました
+   * 目標に関する新しいコメント機能を（唯一のエクスペリエンスとして）リリースしました
 * 23.3 リリース（2023年7月20日（PT））：
-   * プロジェクト、タスク、ドキュメントのベータ版コメントエクスペリエンスのローンチ。
-   * ボードエリアのカードの新しいコメントエクスペリエンスのリリース（唯一のエクスペリエンスとして）
+   * プロジェクト、タスク、ドキュメントへのコメント機能のBetaを立ち上げました。
+   * ボード領域のカードの新しいコメント機能を（唯一のエクスペリエンスとして）リリースしました
 * 2023年第 4 四半期リリース（早期リリースを選択したお客様のみが利用できる限定リリース）：
-   * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシートの新しいコメントエクスペリエンスのリリース（唯一のエクスペリエンスとして）
-   * プロジェクト、タスク、イシュー、ドキュメントのベータ版コメントエクスペリエンスがデフォルトのオプションになり、「ベータ版」というラベルは削除されました。
+   * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザーおよびタイムシートの新しいコメント機能エクスペリエンス（唯一のエクスペリエンス）がリリースされました
+   * プロジェクト、タスク、イシューおよびドキュメントのコメント機能のBetaがデフォルトのオプションに更新されました。 「Beta」ラベルが削除されました。
 * 2023年第 4 四半期（23.10）リリース（2023年10月26日）
-   * テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザー、タイムシートの新しいコメントエクスペリエンスをすべてのお客様にリリース（唯一のエクスペリエンスとして）
-   * プロジェクト、タスク、イシュー、ドキュメントの新しいコメントエクスペリエンスがデフォルトのオプションになりました。
+   * すべての顧客に（唯一のエクスペリエンスとして）テンプレート、テンプレートタスク、プログラム、ポートフォリオ、チーム、ユーザーおよびタイムシートの新しいコメント機能エクスペリエンスをリリースしました。
+   * プロジェクト、タスク、イシュー、ドキュメントの新しいコメント機能がデフォルトオプションになりました。
 
   >[!IMPORTANT]
   >
-  >    これにより、新しいコメントエクスペリエンスのベータステージが終了します。
+  >    これにより、新しいコメント体験のBeta段階が終了しました。
 
-   * この日以降、新しいコメントエクスペリエンス用にリリースされるすべての機能は、通常の月次および四半期リリースに含まれます。
+   * 現在の通常の月次および四半期リリースのこの日付部分から始めて、新しいコメントエクスペリエンス用にリリースされたすべての機能を追加しました。
 * 2023年末：
-   * 従来のコメントエクスペリエンスは、プロジェクト、タスク、イシュー、ドキュメントの各オブジェクトの第 2 のオプションとして引き続き使用できます。新しいコメントエクスペリエンスは、すべてのユーザーに対して、これらのオブジェクトのデフォルトのオプションになります。
-   * 他のすべてのオブジェクトについては、新しいコメントエクスペリエンスが唯一のエクスペリエンスになります。
-
-  >[!NOTE]
-  >
-  >    イテレーションでは、従来のコメントエクスペリエンスを引き続き使用します。新しいコメントエクスペリエンスは、イテレーションでは使用できません。
+   * 従来のコメント機能を、プロジェクト、タスク、イシュー、ドキュメントなどのオブジェクトの補助的なオプションとして維持しました。 新しいコメントエクスペリエンスは、すべてのユーザーに対して、これらのオブジェクトのデフォルトのオプションになります。
+   * 新しいコメント機能が、他のすべてのオブジェクトで唯一のエクスペリエンスになりました。
 
 * 2024年第 2 四半期リリース（2024年4月11日（PT））：
 
-  オプションを削除して、従来のコメントストリームに戻り、新しいコメントストリームをすべてのオブジェクトで唯一のエクスペリエンスにします。
+  従来のコメントストリームに戻り、新しいコメントストリームをすべてのオブジェクトで唯一のエクスペリエンスにするオプションを削除しました。
+
+* 2024 年 10 月 3 日（PT）:
+
+  「更新」領域の「フィードバックを残す」ボタンを削除しました。
 
 ## 新しいコメントエクスペリエンスを検索
 

@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: イシューのステータスの更新
+title: 問題状態の更新
 description: イシューのステータスを更新して、イシューの発生場所と進行状況を他の人に知らせることができます。
 author: Alina
 feature: Work Management
 exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 100%
+source-wordcount: '645'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 イシューのステータスを更新して、イシューの発生場所と進行状況を他の人に知らせることができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -33,9 +35,9 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規ライセンス：コントリビューター以上</p>
+   <td> <p>新規：Contributor 以上</p>
    または
-   <p>現在のライセンス：リクエスト以上</p>
+   <p>現在：Request 以上</p>
    </td> 
   </tr> 
   <tr> 
@@ -49,7 +51,9 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## イシューのステータス
 
