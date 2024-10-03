@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ada8aa9f72b57d6008473c6d9dcc17765d8656c4
+source-git-commit: a2810eae52a0392107a214967e50a662239e1e5f
 workflow-type: tm+mt
-source-wordcount: '14445'
+source-wordcount: '14455'
 ht-degree: 92%
 
 ---
@@ -925,6 +925,7 @@ ht-degree: 92%
       * [更新時の他のユーザーのタグ付け](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
       * [メモレポートでのすべての更新の表示](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
       * [「作業開始」と「完了」ボタンの概要](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+      * [AI アシスタントで更新プログラムの要約を作成する](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
    * カスタムフォームの使用 {#work-with-custom-forms}
       * [カスタムフォームの使用](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
       * [カスタムフォームのオブジェクトへの追加](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1246,6 +1247,7 @@ ht-degree: 92%
          * [アジャイルビューでのプロジェクトの管理](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
          * [プロジェクト指標の概要](manage-work/projects/manage-projects/project-metrics.md)
          * [プロジェクト制限の概要](manage-work/projects/manage-projects/project-maximums.md)
+         * [AI アシスタントで更新プログラムの要約を作成する](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
       * プロジェクトテンプレートの作成と管理 {#create-and-manage-project-templates}
          * [プロジェクトテンプレートの作成と管理：記事インデックス](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
          * [プロジェクトテンプレートの概要](manage-work/projects/create-and-manage-templates/project-template-overview.md)

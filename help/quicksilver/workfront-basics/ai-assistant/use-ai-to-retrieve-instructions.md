@@ -5,10 +5,10 @@ description: 「要約」機能を使用すると、作業項目とドキュメ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 16%
+source-wordcount: '297'
+ht-degree: 14%
 
 ---
 
@@ -42,6 +42,15 @@ AI アシスタントは、Workfrontのドキュメントから情報を見つ�
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+## 前提条件
+
+* Workfront管理者が組織の AI アシスタントを有効にしている必要があります。
+
+  詳しくは、「AI アシスタントの概要」の記事の [AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+* Workfront管理者が、アクセスレベルに対して AI アシスタントを有効にしている必要があります。
+
+  詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
 ## AI アシスタントから情報を取得
 

@@ -1,31 +1,24 @@
 ---
-title: AI アシスタントを使用して要約する
-content-type: reference
-description: 「要約」機能を使用すると、作業項目とドキュメントをすばやく要約できます。
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: AI アシスタントで更新プログラムの要約を作成する
+description: '[ 更新 ] は、AI アシスタントを使用して更新を要約するボタンを含むオブジェクトです。'
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 15%
+source-wordcount: '401'
+ht-degree: 16%
 
 ---
 
-# AI アシスタントを使用して要約する
+# AI アシスタントで更新プログラムの要約を作成する
+
+Workfrontの AI アシスタントは、更新ストリームのコンテンツを要約できるので、Workfront オブジェクトに関するコメントやディスカッションをすばやく理解できます。
+
+[ コンテンツの要約 ] ボタンを使用して要約を生成するか、AI アシスタントにプロンプトを入力します。
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
-
-Workfrontの AI アシスタントは、いくつかのオブジェクトをまとめ、オブジェクトの意図や詳細の概要を表示できます。
-
-例えば、AI アシスタントにプロジェクトの要約を依頼すると、プロジェクトの目的とステータスの簡単な説明が返され、完了したタスクとまだ保留中のタスクの例が示され、追加の詳細とメモが提供されます。
-
-AI アシスタントでは、次のオブジェクトをまとめることができます。
-
-* プロジェクト
-* タスク
-* イシュー
-* ドキュメント
 
 >[!NOTE]
 >
@@ -65,22 +58,16 @@ AI アシスタントでは、次のオブジェクトをまとめることが�
   詳しくは、「AI アシスタントの概要」の記事の [AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 * Workfront管理者が、アクセスレベルに対して AI アシスタントを有効にしている必要があります。
 
-  詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+  詳しくは、[AI アシスタントの有効化または無効化 ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
 <div class="preview">
 
-## 要約ボタンを使用した要約
+## 「コンテンツの要約」ボタンを使用した要約
 
-次の領域には、AI アシスタントを使用して要約を生成するボタンがあります。
+1. 要約する更新ストリームにナビゲートします。
+1. **コンテンツの要約** ボタンをクリックします。
 
-* プロジェクトヘッダー：プロジェクトの概要
-* [ 更新 ] 領域：[ コンテンツの要約 ]
-
-[ プロジェクトの概要 ] または [ プロジェクトの内容の要約 ] ボタンを使用するには：
-
-1. ボタンをクリックします。
-
-   AI アシスタントが開き、プロジェクトの概要または更新ストリームに対する過去 7 日間のコメントの概要を確認するプロンプトが表示されます。
+   AI アシスタントが開き、更新ストリームに対する過去 7 日間のコメントの概要を確認するプロンプトが表示されます。
 
    AI アシスタントは、オブジェクトの大きさや複雑さに応じて、概要の生成に数分かかることがあります。
 

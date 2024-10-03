@@ -5,10 +5,10 @@ description: AI アシスタントを使用して、計算フィールドの無�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+source-git-commit: bec1318d83938964697d76b83062ef11745802e3
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 14%
+source-wordcount: '340'
+ht-degree: 12%
 
 ---
 
@@ -41,7 +41,16 @@ AI アシスタントを使用して、指定したプロンプトに基づい�
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-## 計算フィールドの式の生成
+## 前提条件
+
+* Workfront管理者が組織の AI アシスタントを有効にしている必要があります。
+
+  詳しくは、「AI アシスタントの概要」の記事の [AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+* Workfront管理者が、アクセスレベルに対して AI アシスタントを有効にしている必要があります。
+
+  詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+
+<!--## Generate a calculated field expression-->
 
 ## 計算フィールドの式の変更
 
