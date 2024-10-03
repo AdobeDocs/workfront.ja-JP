@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 27%
+source-wordcount: '480'
+ht-degree: 23%
 
 ---
 
@@ -17,6 +17,18 @@ ht-degree: 27%
 このページでは、プレビュー環境に対すして 2024年第 4 四半期に行われた管理者向けのすべての機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2024年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
+
+## カスタムフォームのカウンターにフィールド数が表示されます
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 10 月 1 日（PT）、すべてのお客様向けの実稼動リリース：24.10 リリース付き（2024 年 10 月 17 日（PT））
+
+カスタムフォームのフィールドは 500 個に制限されています。 長いフォームの場合、フォーム上のフィールド数と、上限に近づいているかどうかを把握するのは難しい場合があります。
+
+左下のカスタムフォームにカウンターが追加されました。 カウンターは、フォームで使用されているフィールドの数を表示し、フォームデザイナー内でスクロールすると、常に表示されます。
+
+詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
 
 ## レイアウトテンプレートで「すべてを選択」オプションが使用できるようになりました
 

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: a3b172a40dc539504da356f37377d2332edad4dc
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
-source-wordcount: '1729'
-ht-degree: 43%
+source-wordcount: '2017'
+ht-degree: 40%
 
 ---
 
@@ -35,6 +35,7 @@ ht-degree: 43%
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
+* [ドキュメント管理の機能強化](#document-management-enhancements)
 * [統合の機能強化](#integration-enhancements)
 * [ホームの機能強化](#home-enhancements)
 * [プロジェクトの強化](#project-enhancements)
@@ -46,8 +47,8 @@ ht-degree: 43%
 ### 管理者機能の強化
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -57,6 +58,22 @@ ht-degree: 43%
                     <td>
                         <p><span class="bold">リリース日</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> カスタムフォームのカウンターに表示されるフィールド数 </a></p>
+                        <p>カスタムフォームのフィールドは 500 個に制限されています。 長いフォームの場合、フォーム上のフィールド数と、上限に近づいているかどうかを把握するのは難しい場合があります。 左下のカスタムフォームにカウンターが追加されました。 カウンターは、フォームで使用されているフィールドの数を表示し、フォームデザイナー内でスクロールすると、常に表示されます。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年10月1日（PT）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -117,13 +134,68 @@ ht-degree: 43%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### ドキュメント管理の機能強化
+
+>[!IMPORTANT]
+>
+>**ドキュメント管理の機能強化**&#x200B;に記載されている機能は段階的リリースの一部で、特定の顧客のみが利用できます。
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> ドキュメントリストでドキュメント決定ステータスを直接表示 </a></p>
+                        <p>ドキュメントの決定ステータスをドキュメントリストで直接表示できるようになりました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年10月3日（PT）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> 以前のレビュー担当者と承認者を新しいドキュメントバージョンにすばやく追加する </a></p>
+                        <p>以前のドキュメントバージョンからレビュー担当者や承認者をすばやく追加できるようになりました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年10月3日（PT）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
 
 ### 統合の機能強化
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -153,13 +225,13 @@ ht-degree: 43%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### ホームの機能強化
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -194,14 +266,14 @@ ht-degree: 43%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 
 ### プロジェクトの強化
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -254,13 +326,13 @@ ht-degree: 43%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### プルーフ機能の強化
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -275,6 +347,7 @@ ht-degree: 43%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアのコピー/貼り付けの問題の修正 </a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>デスクトッププルーフビューアの「更新」セクションで、コンテンツが正しく貼り付けられない問題を修正しました。</p>
                         <p>新しいバージョン：2.1.39</p>
                     </td>
@@ -325,13 +398,13 @@ ht-degree: 43%
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### レポートとダッシュボードの機能強化
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -351,21 +424,37 @@ ht-degree: 43%
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））</span></p>
+                                <p>すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））</p>
                             </li>
                         </ul>
                         <p><i>新しいAdobe Workfront プランの 1 つに加入している組織のみが利用できます。 Data Connect は Ultimate プランに含まれているか、Prime プランおよび Select プランのアドオンとして購入できます。</i></p>
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### その他の機能強化
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> ワンクリックでプロジェクトまたは更新を要約 </a></p>
+                        <p>プロジェクトのハイライトや更新ストリームをすばやく見やすくするために、Workfrontのそれらの領域に「要約」ボタンを追加しました。 ボタンをクリックして、AI アシスタントに概要を生成できるようになりました。</p><p>以前は、ユーザーは AI アシスタントを開き、プロンプトに入力してプロジェクトの概要を作成したり、ストリームを更新したりすることができました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年10月3日（PT）</p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">Adobe Workfrontプランニングの一般提供 </a></p>
@@ -421,7 +510,7 @@ ht-degree: 43%
                     </td>
                 </tr>                            
            </tbody>
-        </table>
+</table>
 
 ### Workfront から近日中に削除される機能
 

@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
 workflow-type: tm+mt
 source-wordcount: '476'
 ht-degree: 35%
@@ -22,11 +22,28 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 9 月 19 日（PT）、すべてのお客様向けの実稼動リリース：24.10 リリースの場合（2024 年 10 月 17 日（PT））
+>プレビューリリース：2024 年 9 月 26 日（PT）、すべてのお客様向けの実稼動リリース：24.10 リリースの場合（2024 年 10 月 17 日（PT））
 
-Workfrontの他の領域のデザインと一致するように、ダッシュボードインターフェイスに様々な更新を行いました。 これらの変更には、ダッシュボードの印刷時の新しい印刷プレビュー画面や、ダッシュボードにカレンダーを配置する機能の削除が含まれます。 代わりに、ダッシュボード上の既存のカレンダーには、カレンダーへのリンクが表示されます。
+ダッシュボードの印刷時の印刷プレビュー画面の改善など、Workfrontの他の領域のデザインと一致するように、ダッシュボードインターフェイスに対して様々な更新を行いました。
+
+これらの変更により、カレンダーをダッシュボードに配置できなくなりました。 代わりに、ダッシュボード上の既存のカレンダーには、カレンダーへのリンクが表示されます。
 
 ダッシュボードについて詳しくは、[ ダッシュボードの作成と管理 ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md) を参照してください。 カレンダーの詳細については、「[ カレンダーレポートの概要 ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md)」を参照してください。
+
+<!--
+
+## Look and feel updates for reports
+
+>[!NOTE]
+>
+>Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+
+* changes to existing reports that improve their use in Canvas Dashboards
+* an expanded color palette for conditional formatting rules in reports
+
+For more information about -->
 
 ## システム環境設定ページのルックアンドフィールの更新
 
