@@ -6,10 +6,10 @@ description: 既に承認待ちのドキュメントに、追加の承認者ま�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 85%
+source-wordcount: '500'
+ht-degree: 82%
 
 ---
 
@@ -75,6 +75,10 @@ ht-degree: 85%
 1. 既存の承認者とレビュアーの全員が表示されるドキュメントの概要パネル内&#x200B;**承認**&#x200B;のセクションまで下にスクロールします。承認者を追加するには、「**承認者**」チェックボックスをオンにして、「**レビュアー**」テキストボックスで入力を開始することを確認します。Workfront ユーザーまたはチームは、名前で追加できます。レビュアーを追加する場合は、入力を行う前に「**承認者**」チェックボックスをオフにします。
 
 1. 以前の手順を繰り返して、承認者またはレビュアーを追加します。
+
+## 以前のバージョンから追加のレビューおよび承認者を追加します
+
+新しいドキュメントバージョンに対する承認が必要な場合は、以下を簡単に追加できます
 
 <!--
 ## Add additional approvers or reviewers from Home

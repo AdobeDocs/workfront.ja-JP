@@ -6,16 +6,16 @@ description: Adobe Workfront のドキュメントに対して、他のユーザ
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 796955fb073905337755fc04e9fb43dbc85b6450
+source-git-commit: a1a5c2bb9395748c4e0103d10dcf66624238032b
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
 # ドキュメントのレビューおよび承認リクエストの作成
 
-Adobe Workfrontのドキュメントに対して、他のユーザーやチームに承認をリクエストしたり、承認する必要なくドキュメントをレビューしてもらうことができます。
+Adobe Workfront のドキュメントに対して、他のユーザーやチームの承認をリクエストしたり、ドキュメントを承認する必要なく、ドキュメントのレビューをリクエストしたりできます。
 
 >[!IMPORTANT]
 >
@@ -75,7 +75,7 @@ Adobe Workfrontのドキュメントに対して、他のユーザーやチー�
 
 1. 以前の手順を繰り返して、承認者またはレビュアーを追加します。
 
-## ドキュメントの概要ウィンドウからドキュメントのレビューまたは承認リクエストを作成
+## ドキュメントの概要パネルからのドキュメントレビューまたは承認リクエストの作成
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 
@@ -96,6 +96,10 @@ Adobe Workfrontのドキュメントに対して、他のユーザーやチー�
    ![](assets/add-approver-and-deadline.png)
 
 1. 以前の手順を繰り返して、承認者またはレビュアーを追加します。
+
+
+
+
 
 <!--
 ## Resubmit an approval on a new version
