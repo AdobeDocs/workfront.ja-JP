@@ -6,10 +6,10 @@ description: ボードからカードを削除すると、そのカードは完�
 author: Lisa
 feature: Agile
 exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: 81e87793905fd925db00c7a0ac107150263a1365
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 70%
+source-wordcount: '529'
+ht-degree: 67%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 70%
 取り込み列を持つ他のボードタイプから接続されたカードを削除すると、接続されたタスクまたは問題がまだ完了とマークされていない場合、ボードを更新したときにカードが取り込み列に再び表示されます。 取り込み列について詳しくは、[ ボードへの取り込み列の追加 ](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md) を参照してください。
 
 カードをアーカイブすると、アーカイブに送信され、後でボードに復元できます。
+
+アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、カードは再び同期されます。
 
 ## アクセス要件
 
@@ -71,7 +73,7 @@ ht-degree: 70%
 
 1. アーカイブしたカードを復元するには、**[!UICONTROL その他]**&#x200B;メニュー ![ その他のメニュー ](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL 復元]**」を選択します。
 
-## ボードをフィルタリングしてアーカイブされたカードを表示する {#filter-a-board-to-show-archived-cards}
+## ボードをフィルタリングしてアーカイブされたカードを表示する
 
 デフォルトでは、アクティブなカードのみがボードに表示されます。ボードをフィルタリングして、アーカイブしたカードも表示できます。
 
