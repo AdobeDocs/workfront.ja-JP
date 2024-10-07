@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
 workflow-type: tm+mt
-source-wordcount: '1696'
-ht-degree: 99%
+source-wordcount: '1729'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,11 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->新しい [!DNL SharePoint] 統合は、22.3 リリース（2022年7月）で実稼動環境にリリースされました。ユーザーは引き続き、従来の [!DNL SharePoint] 統合を通じてリンクされたドキュメントにアクセスできますが、SharePoint からドキュメントをリンクするには、新しい [!DNL SharePoint] 統合を使用する必要があります。
+>新しい [!DNL SharePoint] 統合は、22.3 リリース（2022 年 7 月）で実稼動環境にリリースされました。
+>
+>* ユーザーは、従来の [!DNL SharePoint] 統合を通じてリンクされたドキュメントに引き続きアクセスできますが、それを通じてドキュメントをリンクすることはできません。 SharePointからドキュメントをリンクするには、新しい [!DNL SharePoint] 統合を使用する必要があります。
+>
+>* 従来のSharePoint統合が設定されていない場合は、追加できません。 ドキュメントをSharePointにリンクするには、新しいSharePoint統合を使用する必要があります。
 >
 >* 新しい SharePoint 統合は管理者による設定を必要せず、個々のユーザーで設定できる場合があります。ただし、新しい SharePoint 統合にスムーズに移行できるように、Workfront 管理者は、Workfront の設定領域で設定を小規模に変更する必要があります。
 >

@@ -6,10 +6,10 @@ description: Adobe Workfront のお客様は、電話またはオンラインで
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 6d2144732e5f47b670c2281d042a2dc950a2928f
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '416'
+ht-degree: 84%
 
 ---
 
@@ -52,19 +52,14 @@ ht-degree: 100%
 
    [!UICONTROL サポート]ホームページから、未解決のサポートケースに移動したり、新しいケースを記録したり、[!UICONTROL サポート]のトップ記事を表示したり、追加の学習ソースにアクセスしたりできます。
 
-1. ケースを送信するには、「**[!UICONTROL サポートケースを開く]**」オプションを選択し、「**[!UICONTROL サイン]イン**」をクリックします。
+<!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. 左側のサイドバーの「**[!UICONTROL ケースを開く]**」をクリックします。
-
-<!--
-   ![](assets/left-nav-bar-for-exl-support-portal.png)
--->
-
+1. 左側のサイドバーで **[!UICONTROL チケットを開く]** をクリックします。
 [!UICONTROL ケース作成]ページが開き、製品名（[!DNL Adobe Workfront]、[!DNL Adobe Workfront Fusion] など）、ケースのタイトル、ケースの説明を入力できます。
 
->[!TIP]
->
->トラブルシューティングプロセスを迅速に進めるために、直面している問題をできるだけ具体的に説明してください。
+   >[!TIP]
+   >
+   >トラブルシューティングプロセスを迅速に進めるために、直面している問題をできるだけ具体的に説明してください。
 
 
 1. より具体的な詳細を提供するには、次のフィールドに情報を入力してください。
@@ -87,7 +82,7 @@ ht-degree: 100%
 
 ## サポートケースの表示と管理
 
-1. **[!UICONTROL マイケース]**&#x200B;ページに移動します。このページは、ケースを送信すると開きます。また、左側のナビゲーションで「**[!UICONTROL マイケース]**」をクリックして開くこともできます。
+1. **[!UICONTROL マイケース]** ページに移動します。 このページは、ケースを送信すると開きます。または、左側のナビゲーションで **[!UICONTROL マイケース]** をクリックして開くこともできます。
 
 1. （オプション）ページ上部のオプションを使用して、**製品（[!DNL Experience Cloud] ソリューション）**&#x200B;またはケースの&#x200B;**[!UICONTROL ステータス]**（[!UICONTROL オープン]またはクローズ）でフィルタリングします。また、[!UICONTROL 検索]ボックスを使用して、サポートケースに関連するキーワードを検索することもできます。
 
@@ -97,9 +92,9 @@ ht-degree: 100%
 
 1. （オプション）ケースビューで、担当のケース所有者と一緒に最新のコメントを確認し、追加の添付ファイルや回答があれば追加します。
 
-1. （オプション）ケースをエスカレーションするには、ページの右側で[!UICONTROL ケースの詳細]の下にある「**[!UICONTROL 管理者にエスカレーション]**」をクリックします。
+1. （オプション）ケースをエスカレートするには、ページの右側にある **[!UICONTROL ケースの詳細]** の下の **[!UICONTROL 管理にエスカレート]** をクリックします。
 
-1. ケースを閉じるには、**[!UICONTROL ケースを閉じる]**&#x200B;ボタンをクリックします。
+1. （オプション）ケースを閉じるには、「**[!UICONTROL ケースを閉じる]**」ボタンをクリックします。
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

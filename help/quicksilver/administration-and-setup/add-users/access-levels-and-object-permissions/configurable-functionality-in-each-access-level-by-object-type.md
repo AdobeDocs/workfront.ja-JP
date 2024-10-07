@@ -5,16 +5,20 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 94e0b205-140c-41c9-bb5a-f89b4c3aaea0
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
-source-wordcount: '3436'
-ht-degree: 99%
+source-wordcount: '3485'
+ht-degree: 97%
 
 ---
 
 # オブジェクトの種類ごとに機能へのアクセスを設定します。
 
-この記事では、各アクセスレベルで、各オブジェクトタイプの Adobe Workfront 管理者として何が可能かについて説明します。また、アクセスレベルの各タイプのデフォルト設定についても説明します。
+組織のアクセスレベルを設定する際に、アクセスレベルで使用できる特定のアクションを決定できます。
+
+この記事では、Adobe Workfront管理者がオブジェクトタイプごとに、各アクセスレベルで選択できるオプションについて説明します。 また、アクセスレベルの各タイプのデフォルト設定についても説明します。
+
+例えば、Workfront管理者が特定のアクセスレベルのプロジェクトに対して「表示」を選択した場合、そのアクセスレベルを持つユーザーは、プロジェクトを表示できますが、編集することはできません。
 
 各アクセスレベルのオブジェクトタイプで使用可能なすべての機能について詳しくは、[各オブジェクトタイプで使用できる機能](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)を参照してください。
 

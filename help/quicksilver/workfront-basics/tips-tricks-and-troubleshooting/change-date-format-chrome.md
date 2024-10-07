@@ -6,10 +6,10 @@ title: ' [!DNL Adobe Workfront] で日付の形式を変更する'
 description: ' [!DNL Adobe Workfront]  で日付の形式を変更するには、ブラウザーの言語設定を変更する必要があります。'
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: ba67bb2a77247a1cbface139e3ec0afeced65aa3
+source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
 workflow-type: tm+mt
 source-wordcount: '416'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -34,7 +34,7 @@ Workfront では、表示する変更と変更を表示する場所に応じて�
   例えば、ブラウザーのデフォルト言語が&#x200B;*[!UICONTROL 英語（米国）]*&#x200B;の場合、日付は次の形式で表示されます。
 
    * MM/DD/YYYY
-   * Mon DD, YYY
+   * YYYY 年 DD 月
 
   [!DNL Chrome] またはその他のブラウザーで言語設定を変更するには、そのブラウザーの設定を変更する必要があります。ブラウザーの設定を変更する手順は、ブラウザーによって異なります。ブラウザーの[!UICONTROL ヘルプ]、[!UICONTROL 環境設定]または[!UICONTROL 設定]エリアを参照し、設定の変更方法を確認してください。
 
