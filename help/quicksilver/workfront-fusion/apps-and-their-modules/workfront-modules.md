@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion Adobe Workfront コネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
 workflow-type: tm+mt
-source-wordcount: '6280'
-ht-degree: 98%
+source-wordcount: '6518'
+ht-degree: 97%
 
 ---
 
@@ -744,7 +744,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
 
 +++ **[!UICONTROL ドキュメントをアップロード]**
 
-このアクションモジュールは、プロジェクト、タスク、イシューなどの [!DNL Workfront] オブジェクトにドキュメントをアップロードします。
+このアクションモジュールは、プロジェクト、タスク、イシューなど、[!DNL Workfront] オブジェクトにドキュメントをアップロードします。 このモジュールは、ドキュメントをチャンク単位でアップロードするので、Workfrontのアップロードプロセスがスムーズになります。
 
 ドキュメントの場所、アップロードするファイル、およびオプションで新しいファイル名を指定します。
 
@@ -767,6 +767,51 @@ Web フックを作成した後、イベントの送信先エンドポイント�
   <tr> 
    <td>[!UICONTROL Related Record Type]</td> 
    <td>モジュールでドキュメントをアップロードする [!DNL Workfront] レコードのタイプを選択します。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder ID]</td> 
+   <td>関連レコードのタイプに応じて、フォルダー ID の入力またはマッピングが必要になる場合があります。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>以前のモジュールで使用したソースファイルを選択するか、ソースファイルの名前とデータをマッピングします。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
+
++++
+
++++ **[!UICONTROL ドキュメントのアップロード（レガシー）]**
+
+このアクションモジュールは、プロジェクト、タスク、イシューなど、[!DNL Workfront] オブジェクトにドキュメントをアップロードします。 ドキュメント全体を一度にアップロードします。
+
+ドキュメントの場所、アップロードするファイル、およびオプションで新しいファイル名を指定します。
+
+このモジュールは、ドキュメントの ID や関連するフィールドのほか、接続を介してアクセスされるカスタムフィールドと値を返します。この情報は、シナリオ内の後続のモジュールにマッピングできます。
+
+このモジュールを設定する際には、次のフィールドが表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>[!DNL Workfront] アプリを [!DNL Workfront Fusion] に接続する方法について詳しくは、この記事にある <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">[!DNL Workfront] を [!DNL Workfront Fusion]</a> に接続を参照してください。</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Related Record ID]</td> 
+   <td>ドキュメントをアップロードするレコードの一意の [!DNL Workfront] ID を入力します。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Related Record Type]</td> 
+   <td>モジュールでドキュメントをアップロードする [!DNL Workfront] レコードのタイプを選択します。</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder ID]</td> 
+   <td>関連レコードのタイプに応じて、フォルダー ID の入力またはマッピングが必要になる場合があります。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
