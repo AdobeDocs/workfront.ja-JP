@@ -5,9 +5,9 @@ title: 従来のホームから新しいホームへの移動
 description: 従来のホームは、第 4 四半期のリリースで 10 月 17 日にWorkfrontから削除されます。 この記事では、新しいホームで使用できる機能に関する情報と、ユーザーを新しいホームエクスペリエンスに移行するための推奨事項を提供します。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 8666870341227f2bdcd08ad77753a28748ed9847
+source-git-commit: 9a71080c732363bf346b18d3bf61353c6c3859f7
 workflow-type: tm+mt
-source-wordcount: '1632'
+source-wordcount: '1641'
 ht-degree: 28%
 
 ---
@@ -271,6 +271,7 @@ Workfront管理者は、レイアウトテンプレートを使用して、新�
 
 **トレーニング**
 
+* [ ホームチュートリアルのウィジェットの削除、追加、並べ替え ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Adobe Workfrontの労働者の基本事項 ](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

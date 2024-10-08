@@ -6,9 +6,9 @@ description: '[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]に�
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
 workflow-type: tm+mt
-source-wordcount: '1837'
+source-wordcount: '1843'
 ht-degree: 99%
 
 ---
@@ -94,6 +94,7 @@ ht-degree: 99%
         <p>開始する準備が整ったタスクのみを表示します。以下の条件の両方が成り立つ必要があります。</p> 
         <ul> 
          <li> <p>タスクとその親には、作業を妨げる先行タスクやタスク制約がない。</p> </li> 
+         <li> <p>すべての先行タスクが完了しました。</p> </li> 
          <li> <p>タスクの[!UICONTROL Planned Start Date]が過去の日付か、最大 2 週間後になっている。</p> </li> 
         </ul> 
        </div> </td> 
