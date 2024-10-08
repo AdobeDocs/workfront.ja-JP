@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 310935c7ad1cc97a7d26fc2ff40d2d68d192bb39
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1954'
-ht-degree: 72%
+source-wordcount: '1971'
+ht-degree: 69%
 
 ---
 
@@ -51,11 +51,22 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 * ドキュメントフォルダーについては、[ドキュメントフォルダーの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)を参照してください。
 * プランについては、[シナリオプランナーでのプランの共有](../../scenario-planner/share-a-plan.md)を参照してください。
 
-  追加のライセンスが必要です。
+  Workfront シナリオプランナーには、追加のライセンスが必要になる場合があります。
 
-* 目標については、[Workfront Goals での目標の共有](../../workfront-goals/workfront-goals-settings/share-a-goal.md)を参照してください。追加のライセンスが必要です。
+* 目標については、[Workfront Goals で目標を共有する ](../../workfront-goals/workfront-goals-settings/share-a-goal.md) を参照してください。
+
+  Workfront Goals には、追加のライセンスが必要になる場合があります。
+
+* Workfront Planning オブジェクトについては、次の記事を参照してください：
+
+   * [ビューの共有](/help/quicksilver/planning/access/share-views.md)
+   * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
+
+  Workfront Planning へのアクセスには追加ライセンスが必要です。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 オブジェクトを共有するには、次の条件を満たしている必要があります。
 
@@ -85,7 +96,9 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## プロジェクト、タスクまたはイシューをそのページから共有する
 
@@ -176,7 +189,7 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
    オブジェクト名の横にある「**共有**」ボタンをクリックします。
 
-   ![](assets/new-share-button.png)
+   ![](assets/new-share-button-on-portfolio.png)
 
    または
 
@@ -186,20 +199,15 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
    ![](assets/share-a-document-350x160.png)
 
-1. 「**オブジェクト名 > へのアクセス権を付与**」ボックスに、オブジェクトを共有するユーザー、チーム、役割、グループまたは会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
+1. **オブジェクト名 > へのアクセス権を付与** フィールドに、オブジェクトを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
-   ![](assets/list-share-add-people.png){width="350"}
-
-   >[!TIP]
-   >
-   >オブジェクトを共有できるのは、アクティブなユーザー、チーム、役割、または会社のみです。
-
-
+   ![](assets/portfolio-access-box.png)
 
    >[!TIP]
    >
-   >同様の名前を持つ複数のエンティティが存在する場合は、それらすべてがタイプの下に表示されます。エンティティの名前はアルファベット順に表示されます。ただし、エンティティタイプが表示される順序はランダムです。
+   >* 同様の名前を持つ複数のエンティティが存在する場合は、それらすべてがタイプの下に表示されます。エンティティの名前はアルファベット順に表示されます。ただし、エンティティタイプが表示される順序はランダムです。
    >
+   >* オブジェクトを共有できるのは、アクティブなユーザー、チーム、役割、または会社のみです。
 
 1. （オプション）オブジェクトへのアクセスを許可するユーザー、チーム、役割またはグループごとに、手順 3 を繰り返します。
 
@@ -216,14 +224,12 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
      >
      >Workfront 管理者またはオブジェクト作成者は、これらのエンティティから権限を削除できます。
 
-     ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
+     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
 
 1. （任意）「**詳細設定**」をクリックして、オブジェクトに対する特定の権限を設定します。
 
-   表示、管理および参加の詳細設定オプションは、選択したオブジェクトに応じて異なります。\
+   表示および管理権限には、選択したオブジェクトに応じて異なる詳細オプションがあります。\
    権限レベルについて詳しくは、[オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. （オプション）このオブジェクトをシステム内のすべてのユーザーが使用できるようにするには、**歯車** アイコン ![](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、ドロップダウンメニューで **このオブジェクトをシステム全体で表示する** をクリックします。
 
@@ -255,19 +261,20 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
 1. 共有するオブジェクトの横にあるチェックボックスをクリックし、ページ上部の **共有アイコン**![](assets/share-icon.png) をクリックします。
 
+   「**&lt; オブジェクト > アクセス**」ボックスが開きます。
+
    ![](assets/list-share-object-select.png){width="350"}
 
-1. **&lt; オブジェクト > アクセス** ウィンドウが表示されたら、オブジェクトを共有するユーザー、チーム、役割、グループまたは会社の名前を **編集 &lt; オブジェクト名 > アクセス** ボックスに入力し始め、ドロップダウンリストに表示されたら名前をクリックします。
+1. **編集 &lt; オブジェクト名 > アクセス** ボックスに、オブジェクトを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
    ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
-   >オブジェクトを共有できるのは、アクティブなユーザー、チーム、役割、または会社のみです。
-
-   >[!TIP]
+   >* オブジェクトを共有できるのは、アクティブなユーザー、チーム、役割、または会社のみです。
    >
-   >同様の名前を持つ複数のエンティティが存在する場合は、それらすべてがタイプの下に表示されます。エンティティの名前はアルファベット順に表示されます。ただし、エンティティタイプが表示される順序はランダムです。
+   >
+   >* 同様の名前を持つ複数のエンティティが存在する場合は、それらすべてがタイプの下に表示されます。エンティティの名前はアルファベット順に表示されます。ただし、エンティティタイプが表示される順序はランダムです。
    >
 
 1. （オプション） オブジェクトへのアクセス権を付与するユーザー、チーム、役割またはグループごとに手順 3 を繰り返します。

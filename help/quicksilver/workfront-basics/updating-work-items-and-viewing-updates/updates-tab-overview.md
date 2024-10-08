@@ -7,10 +7,10 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 86%
+source-wordcount: '1088'
+ht-degree: 73%
 
 ---
 
@@ -75,8 +75,12 @@ ht-degree: 86%
 * タイムシート
 * チーム
 * Goals
-* ボードエリアのカード
 * イテレーション
+
+次のオブジェクトには、コメントを追加したり、システムの更新を確認できる領域があります。
+
+* ボード上のカード
+* Workfront Planning のレコード
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -120,20 +124,24 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### 「更新」セクションの概要
+### セクション タブの更新：概要
 
 ![「更新」セクション](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 * 「更新」セクションの次のタブに情報が表示されます。
 
    * **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。オブジェクトの更新については、[ 作業の更新 ](../updating-work-items-and-viewing-updates/update-work.md) を参照してください。
-   * **システムアクティビティ**：オブジェクトに関する特定のイベントを記録するために Workfront が作成する情報メッセージである、システム更新を表示します。例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込むことができます。Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。従来のコメントエクスペリエンスのシステムアクティビティレコードに対して行われた返信は、「システムアクティビティ」タブに読み取り専用として入力されます。詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
+   * **システムアクティビティ**：システムの更新を表示します。これは、オブジェクト上の特定のイベントを記録するためにWorkfrontが作成する情報メッセージです。 例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込むことができます。Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。従来のコメント機能でシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに入力されます。 詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
    * **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。これは表示専用のタブです。「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。オブジェクトの更新については、[ 作業の更新 ](../updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 
      >[!NOTE]
      >
      >「コメント」タブと「システムアクティビティ」タブがリアルタイムで更新されます。 最新の更新を表示するには、[ すべて ] タブを更新する必要があります。
 
+
+### 異なるオブジェクトの更新領域の類似点と相違点
+
+異なるオブジェクトのコメントや更新の表示方法には違いがあります。
 
 * 次のオブジェクトは、「更新」セクションの 3 つのタブすべてで同様のエクスペリエンスを持っています。
 
@@ -152,10 +160,23 @@ Depending on what objects you access the commenting experience for, you might fi
    * テンプレートタスク
 
 * 次のオブジェクトには「システムアクティビティ」タブや「すべて」タブがなく、「コメント」タブのエクスペリエンスが他のすべてのオブジェクトとは異なります。
+
    * イテレーション
-   * アドホックカード
+   * ボード エリアのアドホックカード
 
      カードの更新について詳しくは、[ボードへのアドホックカードの追加](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)を参照してください。
+
+* 次のオブジェクトには「システムアクティビティ」タブがあり、「すべて」タブはありません。
+
+   * ボード領域の接続されたカード
+
+     詳しくは、[ ボードでのコネクテッドカードの使用 ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) を参照してください。
+
+* 次のオブジェクトには、「システム」アクティビティタブに代わる「履歴」タブがあります。
+
+   * Workfront Planning のレコード
+
+     詳しくは、[ 履歴セクションの概要 ](/help/quicksilver/planning/records/history-section-overview.md) を参照してください。
 
 * 次のオブジェクトには「すべて」のタブがなく、「コメント」タブのエクスペリエンスはほとんどのオブジェクトと一致します。
 

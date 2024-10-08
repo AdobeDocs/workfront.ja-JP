@@ -6,10 +6,10 @@ description: Adobe Workfront でのオブジェクトの表示は、そのタイ
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1429'
-ht-degree: 100%
+source-wordcount: '1416'
+ht-degree: 95%
 
 ---
 
@@ -19,7 +19,12 @@ Adobe Workfront でのオブジェクトの表示は、そのタイプのオブ�
 
 >[!NOTE]
 >
->この記事では、Adobe Workfront Scenario Planner の計画を除くすべてのオブジェクトに対して、権限をリクエストする方法について説明します。プランへのアクセスをリクエストについて詳しくは、[シナリオプランナーでのプランへのアクセスをリクエスト](../../scenario-planner/request-access-to-plan.md)を参照してください。追加のライセンスが必要です。
+>この記事では、次のオブジェクトを除くすべてのオブジェクトに対する権限をリクエストする方法について説明します。
+>
+>* Adobe Workfront シナリオプランナー内のシナリオプランナープラン。 詳しくは、[ シナリオプランナーでのプランへのアクセス権のリクエスト ](../../scenario-planner/request-access-to-plan.md) を参照してください。 追加のライセンスが必要です。
+>
+>* Workfront Planning のビューとワークスペース。 詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
+
 
 Workfront 管理者は、アクセスレベルの特定のタイプのオブジェクトにアクセス権を設定します。詳しくは、[アクセスレベルと権限の連携方法](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)を参照してください。
 
@@ -31,33 +36,7 @@ Workfront 内の特定のオブジェクトに権限が必要な場合は、そ�
 
 ## アクセス要件
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you request permissions to</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 オブジェクトを共有するには、次の条件を満たしている必要があります。
 
@@ -66,23 +45,25 @@ Workfront 内の特定のオブジェクトに権限が必要な場合は、そ�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>ワークまたはそれ以上</p> </td> 
+   <td> <p>新規：標準</p> 
+   <p>現在：ワーク以上</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>権限をリクエストするオブジェクトに対する表示アクセス以上の権限</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>権限をリクエストするオブジェクトに対する表示アクセス以上の権限</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 標準の共有ルールについて
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
 workflow-type: tm+mt
-source-wordcount: '1267'
-ht-degree: 88%
+source-wordcount: '980'
+ht-degree: 70%
 
 ---
 
@@ -96,60 +96,6 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
 +++
 
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls in Workfront Planning. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
--->
-
 ## レコードへのコメントに関する考慮事項
 
 * レコードの「コメント」セクションで、Workfront Planning のレコードにコメントや返信を追加できます。
@@ -166,16 +112,11 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
 * ユーザーにタグ付けして、更新に注意を向けさせることができます。タグ付きユーザーには、更新に関するアプリ内通知およびメールが届きません。<!--this might change??-->
 
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
+* ユーザーにタグ付けして、更新に注意を向けさせることができます。タグ付けされたユーザーには、アプリ内通知または更新に関するメール通知が届きます。
 
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
+  >[!NOTE]
+  >
+  >   Adobeの統合エクスペリエンスにオンボーディングした顧客のユーザーのみが、アプリ内通知とメール通知の両方を受け取ります。 会社がAdobe統合エクスペリエンスを使用しているかどうかを判断するには、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
 * Workfront Planning の次のエリアから、レコードに更新を追加したり、変更履歴を確認したりできます。
 
@@ -211,54 +152,58 @@ Workfront Planning にアクセスするには、次のものが必要です：
 1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
    * Ctrl + Z（Mac の場合は ⌘+z）で、変更を元に戻します
    * Ctrl + Y（Mac の場合は ⌘+y）で、変更をやり直します
-1. （オプション）**@** をユーザーの名前の後に追加して、更新時に誰かにタグを付けます。
+1. （オプションおよび条件付き）Workfront インスタンスがAdobe統合エクスペリエンスの一部である場合は、**@** に続けて、更新でユーザーをタグ付けするユーザー名を追加します。 詳細については、この記事の [ レコードにコメントする場合の考慮事項 ](#considerations-about-commenting-on-a-record) を参照してください。
 
-   <!--Adobe Unified Experience users can receive an in-app and an email notification when they are tagged. All other users receive an email when they are tagged. For more information, see the section [Considerations about commenting on a record](#considerations-about-commenting-on-a-record) in this article. -->
+1. （オプション） リッチテキストツールバーのオプションを使用して、テキストの書式設定や、更新への絵文字、リンクまたは画像の追加を行い、コンテンツを充実させます。
 
-1. （オプション）リッチテキストツールバーのオプションを使用すると、テキストの書式設定、絵文字やリンク、画像の更新への追加を行い、コンテンツを拡充できます。詳しくは、[更新作業](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)の記事の「Workfront の更新でのリッチテキストの使用」の節を参照してください。
+1. 引き続きレコードにコメントを追加します。
 
-   >[!TIP]
-   >
-   >別のユーザーが、更新しようとしている同じ項目にコメントを送信すると、赤い線に「新規」インジケーターが表示され、新しいコメントが通知されます。
-   >
-   >インジケーターは、コメントが項目に送信された後にのみ表示され、コメントがまだ構成されている場合は表示されません。
-   >
-   >![](assets/new-line-indicator-comments.png)
+   Workfront Planning レコードを含むオブジェクトの更新の詳細は、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 
-1. 「**送信**」をクリックして、レコードに更新を追加します。
-1. （オプション）コメントを編集するには、コメントの右上隅にある&#x200B;**その他**&#x200B;メニュー![](assets/more-menu.png)をクリックして、「**編集**」をクリックします。
+<!--
+      >[!TIP]
+      >
+      >If another user submits a comment to the same item you are updating, there is a red line with a "New" indicator to inform you of the newer comments. 
+      >
+      >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
+      >
+      >![](assets/new-line-indicator-comments.png)
+
+1. Click **Submit** to add the update to the record. 
+1. (Optional) To edit a comment, click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
 
    >[!IMPORTANT]
    >
-   >コメントは送信後の 15 分間のみ編集できます。
+   >You can edit your comment only within 15 minutes from submitting it.  
 
-1. コメント内の情報の編集、画像の追加や削除、タグ付きユーザーの削除を行います。コメントの左側に「編集済み」のインジケーターが追加されます。
+1. Edit the information in the comment, add or remove images or remove any of the tagged users. An "edited" indicator is added to the left of the comment.
+   
+      >[!TIP]
+      >
+      >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 
-   >[!TIP]
-   >
-   >当年からのコメントでは、日付スタンプに年は表示されません。タイムスタンプにポインタを合わせると、年を含む完全な日付が表示されます。
-
-1. （オプションおよび条件付き）既存のコメントを検索するには、**コメント**&#x200B;エリアの右上隅にある検索ボックスでキーワードの入力を開始します。
+1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
 
    ![](assets/search-box-for-comments-area.png)
+     
+1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. (**************accurate??***********)
 
-1. （オプション）「**返信**」をクリックするか、**返信を追加...** エリアでコメントの入力を開始して既存のコメントに返信し、上記の手順 4～8 に従います。<!--(**************accurate??***********)-->
+1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Comments section while you were adding your comments, click **View** inside the **new comments banner** at the bottom of the screen  to display these comments.
 
-1. （条件付きおよびオプション）「コメント」セクションで表示エリアの外側に表示されるコメントを他のユーザーが追加した場合、画面の下部にある「**新しいコメントバナー**」内の「**表示**」をクリックして、これらのコメントを表示します。
+    ![](assets/new-comments-banner-on-record.png)
 
-   ![](assets/new-comments-banner-on-record.png)
+    Additional comments display at the bottom of the screen.
+  
+1. (Optional) Click the **Like** icon to like an update or acknowledge that you read it. The icon updates with the number of likes.
+1. (Conditional and optional) If you included additional people in your comment, click the avatars of the users included in the update to display a list of users that the comment is shared with. 
+1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
 
-   追加のコメントが画面の下部に表示されます。
+    * **Copy link**: This copies a link to the comment to your clipboard.
+    * **Copy body text**: This copies the text of the comment to your clipboard.
+    * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
-1. （オプション）**いいね！**&#x200B;アイコンをクリックして、更新に「いいね！」したり、自分が読んだことを確認したりします。アイコンは「いいね！」の数に応じて更新されます。
-1. （条件付きおよびオプション）コメントに追加のユーザーを含める場合は、更新に含まれるメンバーの数をクリックして、入力したコメントが共有されているユーザーのリストを表示します。
-1. （オプション）コメントの右上隅で&#x200B;**その他**&#x200B;アイコン![](assets/more-menu.png)をクリックし、次のいずれかのオプションをクリックして、コメントから情報をコピーします。
+    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
 
-   * **リンクのコピー**：コメントへのリンクをクリップボードにコピーします。
-   * **本文をコピー**：コメントのテキストをクリップボードにコピーします。
-   * **引用返信**：コメントの内容を新しい返信にコピーします。コピーされた返信に画像は含まれません。
-
-   詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 1. （オプション）コメントの右上隅にある&#x200B;**その他**&#x200B;アイコン![](assets/more-menu.png)をクリックし、「**削除**」をクリックしてコメントを削除します。
 1. （オプション）**コメントの非表示**&#x200B;アイコン![](assets/hide-comments-icon.png)をクリックして、右側のパネルを閉じます。
 
