@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion Adobe Workfront コネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 3eb7f8988f441cfa5b353274526450510810b156
+source-git-commit: 3fde10cfa0428971b289a9de57cf49e24a15a0e8
 workflow-type: tm+mt
-source-wordcount: '6518'
+source-wordcount: '6558'
 ht-degree: 97%
 
 ---
@@ -324,6 +324,10 @@ Web フックを作成した後、イベントの送信先エンドポイント�
 * イシューをタスクに変換
 * タスクをプロジェクトに変換
 
+>[!NOTE]
+>
+>2024 年 7 月から、オブジェクトの変換時にカスタムフォームを含めることができます。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -603,6 +607,10 @@ Web フックを作成した後、イベントの送信先エンドポイント�
 +++ **[!UICONTROL その他のアクション]**
 
 このアクションモジュールを使用すると、API に対してアクションを実行できます。
+
+>[!NOTE]
+>
+>2024 年 7 月現在、`convertToProject` のアクションにはフィールド `copyCategories` が含まれています。 `TRUE` に設定すると、すべてのカスタムフォームは、イシューが変換されるプロジェクトに含まれます。
 
 このモジュールを設定する際には、次のフィールドが表示されます。
 
