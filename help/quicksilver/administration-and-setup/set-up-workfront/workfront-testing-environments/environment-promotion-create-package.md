@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2801c18cebbc7e1338c29652bc87303029a2e289
+source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 17%
+source-wordcount: '726'
+ht-degree: 16%
 
 ---
 
@@ -91,7 +91,9 @@ ht-degree: 17%
 
 ## 既存のパッケージの編集またはアセンブリ
 
-1. パッケージを作成する環境に移動します。 これは、オブジェクトをコピーする **コピー元の環境** す。
+パッケージを編集するには `DRAFT` ステータスである必要があります。
+
+1. パッケージを編集する環境に移動します。 これは、パッケージが最初に作成された環境です。
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
 1. 左側のナビゲーションで「**システム**」を選択し、「**環境のプロモーション**」を選択します。
 1. 表示されたリストからパッケージを選択します。
@@ -99,6 +101,7 @@ ht-degree: 17%
 1. （オプション）すべてのオブジェクトとそのサブオブジェクトを含むコンテンツを表示するには、[**コンテンツ**] セクションのオブジェクト タイプの横にあるドロップダウン矢印をクリックします。
 1. （任意）このパッケージの以前のインストールおよびインストール試行を表示するには、**展開** をクリックします。
 1. （オプション）パッケージを編集するには、画面の右上にある **パッケージを編集** をクリックします。
+パッケージを編集するには `DRAFT` ステータスである必要があります。 パッケージを `DRAFT` のステータスに移動するには、「**ステータス**」フィールドで「`Draft`」を選択します。 その後、パッケージの編集を続行できます。
 1. パッケージをインストールするには、画面の右上にある **インストール** をクリックします。
 
    パッケージのインストール手順については、[ 環境プロモーションパッケージのインストール ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md) を参照してください。
