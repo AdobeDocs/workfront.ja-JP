@@ -6,14 +6,19 @@ description: リソースプールは、Adobe Workfrontでリソースをより�
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 76%
+source-wordcount: '606'
+ht-degree: 72%
 
 ---
 
-# リソースプールを作成する
+# リソースプールを作成する {#create-resource-pools}
+
+>[!CONTEXTUALHELP]
+>id="wf_resource_pools"
+>title="リソース プール"
+>abstract="リソースプールは、プロジェクトの完了に同時に必要なユーザーの集まりです。 リソースプールを作成したら、それをプロジェクトとテンプレートに関連付けることができます。"
 
 {{preview-and-fast-release-Q424}}
 
