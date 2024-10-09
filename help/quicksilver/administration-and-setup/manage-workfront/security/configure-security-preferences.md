@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 21c8c8d6aed7620dc2d7b99fd01c6be41f918eeb
+source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 81%
+source-wordcount: '923'
+ht-degree: 80%
 
 ---
 
@@ -129,7 +129,7 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      </tr>
      <tr> 
       <td role="rowheader">優先度ワークリストの有効化 </td> 
-      <td>ユーザーの優先度ワークリストのエクスペリエンスを有効または無効にすることを選択できます。 <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> 優先度の詳細については、「<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> 優先度の概要 </a> を参照してください。</td> 
+      <td>ユーザーの優先度ワークリストのエクスペリエンスを有効または無効にすることを選択できます。 Workfrontには引き続き「優先度」アイコンが表示されますが、機能にはアクセスできません。 優先度の詳細については、「<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> 優先度の概要 </a> を参照してください。</td> 
      </tr>
      <tr> 
       <td role="rowheader">テスト環境</td> 

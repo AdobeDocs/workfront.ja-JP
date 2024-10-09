@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 21e81e6395680e3ea7ffd05424217e5352fff0f6
+source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '827'
 ht-degree: 80%
 
 ---
@@ -145,7 +145,6 @@ ht-degree: 80%
 
    カスタマイズが終了したら、左下隅の「**保存**」をクリックします。
 
-
->[!NOTE]
+>[!IMPORTANT]
 >
->管理者が独自のレイアウトテンプレートをカスタマイズする場合、変更を表示するにはページを更新する必要があります。
+>レイアウト テンプレートをカスタマイズするには、新しいホーム ページを更新する必要があります。
