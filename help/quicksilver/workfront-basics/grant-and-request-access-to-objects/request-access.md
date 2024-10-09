@@ -6,9 +6,9 @@ description: Adobe Workfront でのオブジェクトの表示は、そのタイ
 author: Alina
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '1416'
+source-wordcount: '1421'
 ht-degree: 95%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfront でのオブジェクトの表示は、そのタイプのオブ�
 >
 >* Adobe Workfront シナリオプランナー内のシナリオプランナープラン。 詳しくは、[ シナリオプランナーでのプランへのアクセス権のリクエスト ](../../scenario-planner/request-access-to-plan.md) を参照してください。 追加のライセンスが必要です。
 >
->* Workfront Planning のビューとワークスペース。 詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
+>* Workfront Planning のビューとワークスペース。 詳しくは、[Adobe Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。 追加のライセンスが必要です。
 
 
 Workfront 管理者は、アクセスレベルの特定のタイプのオブジェクトにアクセス権を設定します。詳しくは、[アクセスレベルと権限の連携方法](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)を参照してください。

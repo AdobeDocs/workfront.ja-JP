@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
 source-wordcount: '2102'
-ht-degree: 56%
+ht-degree: 55%
 
 ---
 
@@ -183,7 +183,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
-* **レコードタイプ**：オブジェクトタイプまたは Workfront Planning。
+* **レコードタイプ**:Workfront Planning のオブジェクトタイプ。
 
   オブジェクトタイプが事前に定義されている Workfront とは異なり、Workfront Planning では独自のオブジェクトタイプを作成できます。
 
@@ -199,7 +199,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   レコードタイプをワークスペースに追加した後、そのタイプのレコードをレコードタイプのページに追加することができます。
 
-  例えば、「キャンペーン」はレコードタイプにでき、「EMEA 向け夏のキャンペーン」はキャンペーンレコードタイプのレコードです。
+  例えば、「キャンペーン」はレコードタイプであり、「EMEA 夏物キャンペーン」はキャンペーンレコードタイプのレコードです。
 
   詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 

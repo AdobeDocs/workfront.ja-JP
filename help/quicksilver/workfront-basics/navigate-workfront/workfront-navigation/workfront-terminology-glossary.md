@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
 workflow-type: tm+mt
-source-wordcount: '20384'
-ht-degree: 97%
+source-wordcount: '20938'
+ht-degree: 95%
 
 ---
 
@@ -629,8 +629,37 @@ ht-degree: 97%
   <tr> 
    <td>[!UICONTROL Condition Update]</td> 
    <td> <p>このフィールドには、タスク、プロジェクト、イシューの現在の状態が表示されます。このオプションは、タスク、プロジェクト、イシューの所有者が [!UICONTROL Update Status] フィールドに提供した最新のアップデートと、新しい条件が表示されます。</p> <p>条件のアップデートに対しておこなわれたコメントは、[!UICONTROL Condition Update] 列には表示されません。メインのアップデートのみが表示されます。</p> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL 接続されたレコードタイプ ]</td> 
+   <td> <p>Workfront Planning では、次のいずれかの方法で接続を作成できます。 </p>
+   <ul>
+   <li>2 つのレコードタイプ</li>
+   <li>レコードタイプとWorkfront オブジェクトタイプ</li>
+   <li>レコードタイプとAdobe Experience Manager アセット</li></ul>
+   <p>レコードタイプを接続すると、あるレコードまたはオブジェクトタイプの情報を別のレコードタイプに表示できます。</p>
+   <p>詳しくは、<a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md"> 接続されたレコードタイプの概要 </a> を参照してください。  </p>
+  <p>Workfront Planning には追加ライセンスが必要です。 </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL 接続レコード ]</td> 
+   <td> <p>Workfront Planning では、2 つのレコード・タイプを関連付けた後、それらのタイプの 2 つの個々のレコードを相互に関連付けることができます。  </p>
+   <p>レコードを接続すると、あるレコードまたはオブジェクトの情報を、別のレコード上の別のアプリケーションから表示できます。</p>
+   <p>詳しくは、<a href="/help/quicksilver/planning/records/connected-records-overview.md"> 接続されたレコードの概要 </a> を参照してください。 </p>
+
+<p>Workfront Planning には追加ライセンスが必要です。 </p>
+ </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL 接続 ]</td> 
+   <td> <p>Workfront Planning では、接続は、接続されたレコードタイプまたは接続されたレコードを指す場合があります。 Workfront Planning には追加ライセンスが必要です。</p> </td> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL Constraint Date]</td> 
    <td> <p>[!UICONTROL Must Start On] など、特定の日付に結び付けられた [!UICONTROL Task Constraint] を使用している場合、その特定の日付はタスクの [!UICONTROL Constraint Date] になります。</p> <p>以下のタスクの制約で [!UICONTROL Constraint Date] フィールドがアップデートされます。</p> 
     <ul> 
@@ -882,11 +911,11 @@ ht-degree: 97%
 
 <p>詳しくは、<a href="../../../wf-api/general/api-explorer.md">API エクスプローラー</a>および<a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">テキストモードの概要</a>を参照してください。</p>
 
-<p>デフォルトでは、Workfront には、オブジェクトとその情報の両方を定義する一連のフィールドが用意されています。カスタムフィールドを作成してオブジェクトを定義することもできますが、カスタムオブジェクトを作成することはできません。</p> 
-   </td> 
-  </tr>
+<p>デフォルトでは、Workfront には、オブジェクトとその情報の両方を定義する一連のフィールドが用意されています。カスタムフィールドを作成してオブジェクトを定義することもできますが、カスタムオブジェクトを作成することはできません。</p>
 
-<tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+<p>Workfront Planning では、すべてのレコードタイプのカスタムフィールドを作成できます。 Workfront レコードタイプに使用できるフィールドの数は非常に限られています。 すべてのフィールドを最初から作成し、レコードタイプに関連付ける必要があります。 詳しくは、<a href="/help/quicksilver/planning/fields/fields-overview.md"> フィールドの概要 </a> を参照してください。 </p> <p>Workfront Planning には追加ライセンスが必要です。 </p>   
+  </tr>
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>画面に表示される情報を定義する、レポート要素またはリスト要素を構成する主要な部品の 1 つです。レポート要素について詳しくは、<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">レポート要素：フィルター、ビューおよびグループ化</a>を参照してください。</p> <p>フィルターは、プロジェクト、タスク、イシューなど、レポートまたは [!DNL Workfront] パネルのリストに表示される結果を決定します。</p> </td> 
   </tr> 
@@ -1032,7 +1061,6 @@ Workfront では、時間エントリには次のいずれかのステータス�
    <li><b>請求済みおよび承認済み</b>：時間がログに記録され、プロジェクト所有者が承認し、請求記録のステータスが請求済みとマークされます。</li>
    </ul>
 
-
 <p>時間が請求記録に含まれる場合、時間ステータスは、時間が承認されたかまたはその時間が属する請求記録が請求済みにされたかを示します。時間の入力時の時間ステータスは、時間リストまたはレポートにのみ表示されます。 </p>
 
 <p>請求記録に時間を追加する方法について詳しくは、<a href="../../../manage-work/projects/project-finances/create-billing-records.md" >請求記録を作成</a>の記事の「請求記録への時間の追加」の節を参照してください。</p>
@@ -1043,8 +1071,6 @@ Workfront では、時間エントリには次のいずれかのステータス�
 
 <p>作業アイテムに直接ログインしていない一般的な時間には、時間ステータスは表示されません。 </p> </td> 
   </tr>
-
-
 
 <tr> 
    <td>[!UICONTROL Hour Type]</td> 
@@ -1248,6 +1274,14 @@ Workfront では、時間エントリには次のいずれかのステータス�
   <tr> 
    <td>[!UICONTROL List Controls]</td> 
    <td> <p>[!UICONTROL Interface Setup] の一部で、カスタムフィルター、ビューおよびグループ化を個々のユーザーにまたはすべてのユーザーにグローバルにリンクできます。</p> </td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL 参照フィールド ]</td> 
+   <td> <p>Workfront Planning では、2 つのレコードタイプ間の関連付けを確立し、個々のレコードをリンクした後、リンク先のレコード上でリンクされたレコードのフィールドを参照できます。</p>
+   <p>例えば、キャンペーンレコードタイプをWorkfront プロジェクト オブジェクトタイプに関連付けると、キャンペーンレコードで、接続されたプロジェクトの「予算」フィールドを表示できます。 「予算プロジェクト」フィールドは、キャンペーン上のプロジェクトのルックアップフィールドです。</p> <p>ルックアップフィールドの値は、接続元のレコードに自動的に入力されます。</p>
+   <p>詳しくは、<a href="/help/quicksilver/planning/records/connected-records-overview.md"> 接続されたレコードの概要 </a> を参照してください。</p>
+   <p>Workfront Planning には追加ライセンスが必要です。</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1798,8 +1832,26 @@ Workfront では、時間エントリには次のいずれかのステータス�
   <tr> 
    <td>[!UICONTROL Ready]</td> 
    <td> <p>タスクレポートのこのフィールドは、バックログで [!UICONTROL Agile] タスクが [!UICONTROL Ready] とマークされたかどうかを示します。このフラグは、[!UICONTROL Agile] タスク（[!UICONTROL Agile] チームに割り当てられたタスク）にのみ適用されます。 </p> </td> 
-  </tr> 
-  <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Record]</td> 
+   <td> <p>Workfront Planning では、レコードはレコードタイプの一意のインスタンスです。</p>
+<p>レコードタイプをワークスペースに追加した後、そのタイプのレコードをレコードタイプのページに追加できます。</p>
+<p>例えば、「キャンペーン」はレコードタイプであり、「EMEA 夏物キャンペーン」はキャンペーンレコードタイプのレコードです。</p>
+<p>レコードの作成について詳しくは、<a href="/help/quicksilver/planning/records/create-records.md">レコードの作成</a>を参照してください。 </p> <p>Workfront Planning には追加ライセンスが必要です。 </p></td> 
+  </tr>
+
+
+<tr> 
+   <td>[!UICONTROL Record type]</td> 
+   <td> <p>Workfront Planning のオブジェクトタイプ。</p>
+<p>オブジェクト型が事前定義されているWorkfrontとは異なり、Workfront Planning では独自のオブジェクト型を作成できます。Workfront Planning のオブジェクト型は、レコード型と呼ばれます。</p>
+<p>例えば、Workfront では、プログラム、ポートフォリオ、プロジェクト、タスクやイシューのオブジェクトタイプがあらかじめ作成されています。</p>
+<p>Workfront Planning では、組織のワークフローを満たす任意のレコードタイプを作成できます。後で、レコードタイプを相互に関連付けたり、フォームの依存関係を定義したりできます。</p> レコードタイプの作成について詳しくは、<a href="/help/quicksilver/planning/architecture/create-record-types.md"> レコードタイプの作成 </a> を参照してください。 </p> <p>Workfront Planning には追加ライセンスが必要です。 </p></td> 
+  </tr>
+
+<tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Recurrence Frequency]</td> 
    <td> <p>繰り返しタスクの親の [!UICONTROL Task Details] ボックスまたは [!UICONTROL Edit Task] ボックスに表示されるフィールドです。これは、繰り返しの中のタスクが発生する頻度です。繰り返しタスクの作成について詳しくは、<a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">繰り返しタスクを作成</a>を参照してください。 </p> </td> 
   </tr> 
@@ -2340,7 +2392,14 @@ Workfront では、時間エントリには次のいずれかのステータス�
   <tr> 
    <td>[!UICONTROL View]</td> 
    <td> <p>ユーザーがプロジェクト、タスクまたはイシューのステータスを変更すると、メモが生成されます。</p> 
-   <p> ビューは、オブジェクトのアクセスレベルに応じて、またはそのオブジェクトの権限共有レベルで、そのオブジェクトの情報のみを表示するユーザーの権利を指します。</p> </td> 
+   <p> ビューは、オブジェクトのアクセスレベルに応じて、またはそのオブジェクトの権限共有レベルで、そのオブジェクトの情報のみを表示するユーザーの権利を指します。</p> 
+   <p>Workfront Planning では、レコードは次のいずれかのビュー・タイプのレコード・タイプ・ページに表示されます。</p>
+   <ul><li>テーブル</li>
+   <li>タイムライン</li>
+   <li>カレンダー</li></ul>
+   <p>Workfront Planning のビューには、フィルター、グループ化、並べ替えなど、画面上のレコードに適用される設定が含まれます。</p> <p>詳しくは、<a href="/help/quicksilver/planning/views/manage-record-views.md">レコードビューの管理</a>を参照してください。</p>   
+   <p>Workfront Planning には追加ライセンスが必要です。</p>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL View Icons]</td> 
@@ -2481,6 +2540,15 @@ Workfront では、時間エントリには次のいずれかのステータス�
    <p>valueformat=HTML</p>
    </code>
     <p>テキストモードの使用については、<a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">テキストモードの構文の概要</a>を参照してください。 </p> </td> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Workspace] </td> 
+   <td> <p>Workfront Planning では、ワークスペースは、特定の組織のオペレーション ライフサイクルを定義するレコード タイプのコレクションです。 ワークスペースは、組織単位の作業フレームです。</p>
+   <p>Workfront Planning には追加ライセンスが必要です。 </p>
+   <p>詳しくは、<a href="/help/quicksilver/planning/architecture/create-workspaces.md">ワークスペースの概要</a>を参照してください。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+
