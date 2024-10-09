@@ -1,8 +1,8 @@
 ---
-source-git-commit: 385dbe63d0db9b13692fb6f5c78ed56bd0d823c4
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '2550'
-ht-degree: 92%
+source-wordcount: '2586'
+ht-degree: 91%
 
 ---
 # スニペット
@@ -154,6 +154,10 @@ ht-degree: 92%
 >* 組織を説明するようにカスタマイズされた画像に置き換える。この場合、アイコンはこの記事に示すものとは異なる外観になります。
 >* リンクされたページを別のページに置き換える。この場合、ページの右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または（使用可能な場合は）左上隅で&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、「**[!UICONTROL ホーム]**」をクリックします。
 >
+
+## 手順 1 – 優先事項の把握 –  {#step1-to-priorities}
+
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は左上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**[!UICONTROL 優先度]** をクリックします。
 
 <!-- Integrations -->
 

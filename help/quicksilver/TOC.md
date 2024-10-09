@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 1944c21c8234755ac5bc1c6caaed10b817ef409e
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '14476'
+source-wordcount: '14482'
 ht-degree: 92%
 
 ---
@@ -1758,6 +1758,7 @@ ht-degree: 92%
       * [Workfront Data Connect への接続の確立](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect データディクショナリ](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect クエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
+      * [Workfront Data Connect の使用状況指標の表示](reports-and-dashboards/data-lake/view-usage-metrics.md)
 * リソースの管理 {#manage-resources}
    * [リソースの管理](resource-mgmt/manage-resources.md)
    * リソース管理 {#resource-management}

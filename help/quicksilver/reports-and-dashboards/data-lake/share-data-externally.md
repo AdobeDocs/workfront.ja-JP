@@ -2,15 +2,14 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Workfront Data Lake への接続の確立
-description: Workfront データレイクを使用すると、組織のWorkfront データを一般的なビジネスインテリジェンスツールで使用したり、外部データウェアハウスに保存したりできます。
+title: Workfront Data Connect への接続の確立
+description: Workfront Data Connect を使用すると、組織のWorkfront データをビジネスインテリジェンスツールで使用したり、外部データウェアハウスに保存したりできます。
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '591'
 ht-degree: 9%
 
 ---
@@ -103,16 +102,16 @@ Data Connect Data Lake を外部許可リスト許可リストに加えるに接
 
 ## ビジネスインテリジェンスツールとのデータの共有
 
-一般的なビジネスインテリジェンスツールの多くを以下に示します。リンクをクリックすると、サービスのドキュメントサイトに移動し、データレイクへの接続について詳しく確認できます。
+以下に、一般的なビジネスインテリジェンスツールの一覧を示します。データレイクへの接続について詳しくは、ドキュメントサイトを参照してください。
 
-* [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [ ドモ ](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* Tableau
+* Power BI
+* ドモ
 * SAP HANA
 
 ## 外部データウェアハウスへのデータの保存
 
-以下に、一般的なデータウェアハウスの数を示します。リンクをクリックすると、各サービスのドキュメントサイトが表示され、データレイクへの接続について詳しく確認できます。
+以下に、一般的なデータウェアハウスの数を示します。データレイクへの接続について詳しくは、ドキュメントサイトを参照してください。
 
-* [Databricks](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* Databricks
+* AWS Redshift
