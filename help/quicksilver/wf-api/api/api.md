@@ -9,9 +9,9 @@ feature: Workfront API
 recommendations: noDisplay, noCatalog
 role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
-source-git-commit: caaa704bb31b20f209552274aa9db261afea112c
+source-git-commit: b5e83e4dd091798086061e425816152aef588e8c
 workflow-type: tm+mt
-source-wordcount: '177'
+source-wordcount: '183'
 ht-degree: 100%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 100%
 * [認証コードフローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-code-token-flow.md)
 * [JWT フローを使用した組織のカスタム OAuth 2 アプリケーションの設定と使用](../../wf-api/api/oauth-app-jwt-flow.md)
 * [PKCE フローを使用した、組織のカスタム OAuth 2 アプリケーションの設定と使用](../../wf-api/api/oauth-app-pkce-flow.md)
+* [API バージョン 19 の新機能](../../wf-api/api/new-api-version-19.md)
 * [API バージョン 18 の新機能](../../wf-api/api/new-api-version-18.md)
 * [API バージョン 17 の新機能](../../wf-api/api/new-api-version-17.md)
 * [API バージョン 16 の新機能](../../wf-api/api/new-api-version-16.md)

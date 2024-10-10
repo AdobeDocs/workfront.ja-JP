@@ -2,12 +2,12 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 18 の新機能
-description: Adobe Workfront は、2022年4月6日（PT）に API バージョン 18 をリリースしました。API バージョン 18 では、バージョン 15 から次の変更が行われました。
+description: Adobe Workfront は、2022年4月6日（PT）に API バージョン 18 をリリースしました。API バージョン 18 では、バージョン 17 から次の変更が行われました。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d0675dc1-b2d9-4d80-8c12-f26284cfb4cf
-source-git-commit: c2ce6776ceebe3c1d3915e3791fc84eb0245ba4d
+source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
 workflow-type: tm+mt
 source-wordcount: '1141'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # API バージョン 18 の新機能
 
-Adobe Workfront は、2024年4月8日（PT）に API バージョン 18 をリリースしました。API バージョン 18 では、バージョン 15 から次の変更が行われました。
+Adobe Workfront は、2024年4月8日（PT）に API バージョン 18 をリリースしました。API バージョン 18 では、バージョン 17 から次の変更が行われました。
 
 ## 追加されたリソース
 

@@ -2,15 +2,15 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: API バージョン 17 の新機能
-description: Adobe Workfront は、2022年4月6日（PT）に API バージョン 17 をリリースしました。API バージョン 17 では、バージョン 15 から次の変更が行われました。
+description: Adobe Workfront は、2022年4月6日（PT）に API バージョン 17 をリリースしました。API バージョン 17 では、バージョン 16 から次の変更が行われました。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 08e90754-5505-424c-ae67-015cc987b5df
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 842b26177a11225049ef42f779ca77dd81926b74
 workflow-type: tm+mt
 source-wordcount: '1353'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -297,7 +297,7 @@ DocumentVersion オブジェクトは、ファイルの特定のバージョン�
 
 ### ExchangeRate（EXRATE）
 
-ExchangeRate オブジェクトは、Workfront で設定される為替レートを表します。ExchangeRate オブジェクトは動的ではありません。
+ExchangeRate オブジェクトは、Workfrontで設定された通貨の為替レートを表します。 ExchangeRate オブジェクトは動的ではありません。
 
 <table>
   <col/>
