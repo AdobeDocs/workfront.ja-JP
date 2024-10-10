@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 09f7e854c2df1291feb150d2169fa6ccd5cdb1d6
 workflow-type: tm+mt
-source-wordcount: '1957'
-ht-degree: 99%
+source-wordcount: '1981'
+ht-degree: 97%
 
 ---
 
@@ -177,6 +177,14 @@ OAuth2 アプリケーションを作成する場合、統合のニーズに最�
 ユーザー資格情報を使用して OAuth2 アプリケーションを設定および使用する手順（認証コードフロー）については、[JWT フローを使用した組織のカスタム OAuth 2 アプリケーションの設定および使用](../../wf-api/api/oauth-app-jwt-flow.md)を参照してください。
 
 ### ユーザー資格情報を使用した OAuth2 アプリケーションの作成（認証コードフロー） {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
+
+>[!NOTE]
+>
+>Workfront Fusion に接続するアプリケーションを作成する場合は、次のいずれかのリダイレクト URL を使用します。
+>
+>* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront`
+>* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` （EU データセンター）
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` （Azure データセンター）
 
 {{step-1-to-setup}}
 
