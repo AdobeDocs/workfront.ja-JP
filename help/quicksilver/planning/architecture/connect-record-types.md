@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
 workflow-type: tm+mt
-source-wordcount: '2196'
-ht-degree: 44%
+source-wordcount: '2222'
+ht-degree: 43%
 
 ---
 
@@ -268,13 +268,15 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    サムネール画像のないレコードには、代わりにレコードタイプアイコンが表示されます。 接続されたレコードの表示方法の例は、**レコードの外観** 領域に表示されます。
 
-   >[!TIP]
+   >[!NOTE]
    >
-   >    複数のレコードをリンクできるようにすると、サムネールのみを表示して、レコードビューなどの小さな領域のスペースを節約できる場合があります。
+   >* 複数のレコードをリンクできるようにすると、サムネールのみを表示して、レコードビューなどの小さな領域のスペースを節約できる場合があります。
    >
-   >レコードの名前は、レコードのプライマリフィールドです。 詳しくは、[プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
+   >* レコードの名前は、レコードのプライマリフィールドです。 詳しくは、[プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
    >
-   >Workfront オブジェクトタイプを選択する場合、レコードの外観は使用できません。
+   >* Workfront オブジェクトタイプを選択する場合、レコードの外観は使用できません。
+   >
+   >* 「レコードの外観」領域で選択した内容によって、すべてのビューおよび詳細ページを含む、システム内のすべての接続でのレコードの表示方法が決まります。
 
 1. 「**作成**」をクリックします。
 
