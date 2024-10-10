@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion マッピングパネルでは、次の一�
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
-source-git-commit: 4cca9738ad9537247234faa0b1c441163d4e315f
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 75%
+source-wordcount: '395'
+ht-degree: 69%
 
 ---
 
@@ -161,3 +161,8 @@ ht-degree: 75%
 >`pick(` ユーザー `;` パスワード `;` メール `)`
 >
 >ユーザーのパスワードとメールアドレスのみのコレクションを返します。
+
+## mergeCollections （collection1 ; collection2）
+
+2 つのコレクションのキーと値のペアを組み合わせて、それらのコレクションを結合します。 両方のコレクションに同じキーが含まれている場合、2 番目のコレクションの値が最初のコレクションの値を上書きします。
+

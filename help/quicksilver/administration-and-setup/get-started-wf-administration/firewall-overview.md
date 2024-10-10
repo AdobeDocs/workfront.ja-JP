@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 98%
+source-wordcount: '724'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Workfront は組織のネットワークと通信するので、組織の�
 これは、基本的に、ファイアウォールを介したデータの送受信が「許可」されているサイトの「リスト」である許可リストを通じて実現されます。サイトは、次の 2 つの方法のいずれかで識別できます。
 
 * **IP アドレス**：52.31.132.175 などの一連の数値
-* **ドメイン**：URL の一部（www.thisdomain.com の「thisdomain」など）
+* **ドメイン**:URL の一部（`www.thisdomain.com` の `thisdomain` など）。
 
 Workfront は、web 通信に特定の IP アドレスおよびドメインを使用します。組織で Workfront を使用するには、これらを組織の許可リストに追加する必要があります。
 
