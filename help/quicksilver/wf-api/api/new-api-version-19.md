@@ -6,10 +6,10 @@ description: Adobe Workfront は、2022年4月6日（PT）に API バージョ�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e3f50efa03a43c44e9defd0a724b0516504b0e83
+source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 53%
+source-wordcount: '970'
+ht-degree: 50%
 
 ---
 
@@ -384,7 +384,7 @@ JournalEntry オブジェクトを設定して、特定のオブジェクトフ�
             </ul>
           </li>
           <li>
-            <p><b>displayType</b></p><p>追加された可能な値は次のとおりです。
+            <p><b>displayType</b></p><p>より使いやすい柔軟なシステムを作成するために、<b>Widget （WIDGET） </b> フィールドタイプは非推奨（廃止予定）になり、次のフィールドタイプに分割されました。
             <ul>
             <li>Adobe XD （ADOBEXD）</li>
             <li>画像（IMAGE）</li>
@@ -444,7 +444,7 @@ ScoreCardQuestion オブジェクトは、スコアカードに追加された�
     <tr>
       <td role="rowheader">直接フィールド</td>
       <td>
-            <p><b>displayType</b></p><p>追加された可能な値は次のとおりです。
+            <p><b>displayType</b></p><p>より使いやすい柔軟なシステムを作成するために、<b>Widget （WIDGET） </b> フィールドタイプは非推奨（廃止予定）になり、次のフィールドタイプに分割されました。
             <ul>
             <li>Adobe XD （ADOBEXD）</li>
             <li>画像（IMAGE）</li>
