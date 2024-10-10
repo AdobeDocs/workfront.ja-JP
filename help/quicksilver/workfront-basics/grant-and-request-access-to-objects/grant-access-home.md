@@ -6,10 +6,10 @@ description: ユーザーは、Adobe Workfront 内のオブジェクトへのア
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '585'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 97%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 100%
 
 1. （条件付き）新しいホームエリアで、次の操作を実行します。
 
-   1. **マイ承認待ち**&#x200B;ウィジェットに移動し、アクセス追加のリクエストを見つけて、「**アクセスを許可**」をクリックします。
+   1. **自分の承認** ウィジェットに移動して、さらにアクセスするためのリクエストを見つけ、「**アクセスの許可**」をクリックします。
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 

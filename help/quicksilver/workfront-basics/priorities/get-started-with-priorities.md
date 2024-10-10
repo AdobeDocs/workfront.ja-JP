@@ -5,9 +5,9 @@ description: 優先度は、タスクの所有者に合わせて調整された�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '882'
 ht-degree: 8%
 
 ---
@@ -176,7 +176,7 @@ ht-degree: 8%
 
 アセットの確認と承認は、優先度ロードマップに記載されています。
 
-現時点では、新しいホームで「承認待ち」ウィジェットと「すべての承認」ウィジェットを使用することをお勧めします。
+現時点では、新しいホームでマイ承認ウィジェットと全承認ウィジェットを使用することをお勧めします。
 
 詳しくは、[ 新しいホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) を参照してください。
 

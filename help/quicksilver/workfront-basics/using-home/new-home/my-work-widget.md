@@ -5,9 +5,9 @@ title: 担当作業ウィジェットを使用した作業の管理
 description: 自分の作業ウィジェットには、割り当てられたすべてのタスク、イシュー、リクエストが 1 か所で表示されます。 ここでは、作業のフィルタリングと整理、時間の記録、更新の実行、作業項目の完了のマークを行うことができます。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: 20791e9f2cc0716b9b0ddd8f98c31ae0bea7ff45
+source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '703'
 ht-degree: 13%
 
 ---
@@ -185,7 +185,7 @@ Workfront管理者は、レイアウトテンプレートの概要に表示す�
 
 承認とチームリクエストがマイ作業ウィジェットに表示されません。 定期的に承認やチームのリクエストに取り組む場合、新しいホームページには次のウィジェットを追加することをお勧めします。
 
-* マイ承認待ち
+* マイ承認
 * すべての承認
 * チームのリクエスト
 

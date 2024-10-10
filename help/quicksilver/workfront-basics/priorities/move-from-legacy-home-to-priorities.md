@@ -5,10 +5,10 @@ description: 従来のホームは、第 4 四半期のリリースで 10 月 17
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 4e2b59a93137e6b4cbe9dab0d4e6c1467bc0cc4b
+source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 6%
+source-wordcount: '564'
+ht-degree: 5%
 
 ---
 
@@ -80,13 +80,13 @@ ht-degree: 6%
 
 #### 送信済みの承認を表示する
 
-ユーザーが優先度で送信した承認を表示することはできません。 回避策として、ユーザーは承認レポートを作成してこの情報を表示できます。
+ユーザーが優先度で送信した承認を表示することはできません。 回避策として、ユーザーは「ホームの自分の承認」ウィジェットで「自分が送信した承認」フィルターオプションを使用して、この情報を表示できます。
 
 ### 承認およびチーム要求の表示
 
 ユーザーは、優先度で承認やチームリクエストを操作することはできません。 ただし、次のウィジェットを使用して、新しいホームの承認およびチームリクエストを管理できます。
 
-* マイ承認待ち
+* マイ承認
 * すべての承認
 * チームのリクエスト
 
