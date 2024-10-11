@@ -4,10 +4,10 @@ description: 2024年第 4 四半期のホームの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 9de54aafb07d5c5858494c51356ae9322e1a0f79
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '334'
-ht-degree: 22%
+source-wordcount: '407'
+ht-degree: 20%
 
 ---
 
@@ -16,6 +16,19 @@ ht-degree: 22%
 このページでは、2024年第 4 四半期のリリースでプレビュー環境に対して行われたすべてのホーム機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2024年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
+
+## 新しいホームの承認待ちウィジェットの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 10 月 10 日（PT）、すべてのお客様向けの実稼動リリース：2024 年 10 月 10 日（PT）。
+
+承認待ちウィジェットに次の変更を加えました：
+
+* **ウィジェットの名前を変更**：このウィジェットの名前は「自分の承認」になりました。
+* **フィルターオプションとして送信した承認を追加**：このウィジェットを使用して、新しいホームで送信した承認を表示できるようになりました。
+
+詳しくは、[新しいホームの基本を学ぶ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。
 
 ## 優先度の高いタスク所有者のWorkfront操作を簡素化する
 

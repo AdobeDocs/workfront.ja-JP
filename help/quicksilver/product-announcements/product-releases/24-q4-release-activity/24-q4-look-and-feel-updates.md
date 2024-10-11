@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: 2d5cfabe17e4bc0f82c412e9144488160f13c717
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 35%
+source-wordcount: '599'
+ht-degree: 28%
 
 ---
 
@@ -22,28 +22,29 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 9 月 26 日（PT）、すべてのお客様向けの実稼動リリース：24.10 リリースの場合（2024 年 10 月 17 日（PT））
+>プレビューリリース：10 月 15 日（PT）、すべてのお客様向けの実稼動リリース：24.10 リリースの場合（2024 年 10 月 17 日（PT））
 
 ダッシュボードの印刷時の印刷プレビュー画面の改善など、Workfrontの他の領域のデザインと一致するように、ダッシュボードインターフェイスに対して様々な更新を行いました。
 
-これらの変更により、カレンダーをダッシュボードに配置できなくなりました。 代わりに、ダッシュボード上の既存のカレンダーには、カレンダーへのリンクが表示されます。
-
 ダッシュボードについて詳しくは、[ ダッシュボードの作成と管理 ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md) を参照してください。 カレンダーの詳細については、「[ カレンダーレポートの概要 ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md)」を参照してください。
 
-<!--
-
-## Look and feel updates for reports
+## レポートの更新のルックアンドフィール
 
 >[!NOTE]
 >
->Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+>プレビューリリース：2024 年 9 月 12 日（PT）以降、すべてのお客様向けの実稼動リリース：様々で、すべてのアップデートは 2024 年 11 月 8 日（PT）までに利用可能になります
 
-We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+Workfrontの他の領域のデザインと一致するように、レポートインターフェイスに対して様々な更新を行いました。 これらの更新には、次のような様々なレポート機能に対するいくつかの追加変更が含まれています。
 
-* changes to existing reports that improve their use in Canvas Dashboards
-* an expanded color palette for conditional formatting rules in reports
+* レポート列の編集時にテキストモードに入る新しいボタン
+* 相対的な日付のワイルドカードとワイルドカードショートカットの機能に対する小さな変更
+* 条件付きルールを作成する際に、「完了」ボタンをクリックする必要がなくなりました
+* レポートの条件付き書式ルール用に拡張されたカラーパレット
+* キャンバスダッシュボードでの使用を改善する既存レポートへの変更
 
-For more information about -->
+これらの更新は、2024 年 9 月 12 日（PT）以降、プレビューと実稼動で個別に実装されます。 すべてのアップデートは、2024 年 11 月 8 日（PT）までにすべてのお客様の実稼動環境に完全に実装されます。
+
+Workfrontのレポートについて詳しくは、[ レポートの概要 ](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) を参照してください。
 
 ## システム環境設定ページのルックアンドフィールの更新
 

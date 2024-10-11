@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 4f7e664123785235179418faa2a630e3c4c1c4d0
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '2017'
-ht-degree: 40%
+source-wordcount: '2098'
+ht-degree: 39%
 
 ---
 
@@ -36,8 +36,8 @@ ht-degree: 40%
 
 * [管理者機能の強化](#administrator-enhancements)
 * [ドキュメント管理の機能強化](#document-management-enhancements)
-* [統合の機能強化](#integration-enhancements)
 * [ホームの機能強化](#home-enhancements)
+* [統合の機能強化](#integration-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [プルーフ機能の強化](#proofing-enhancements)
 * [レポートとダッシュボードの機能強化](#report-and-dashboard-enhancements)
@@ -164,6 +164,23 @@ ht-degree: 40%
                     <td><p><b>公開日：</b></p>
                         <ul>
                             <li>
+                                <p><s>プレビューリリース：2024年10月3日（PT）</s></p>
+                            </li>
+                            <li>
+                                <p>すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））</p>
+                            </li>
+                            <p><i>この機能は、プレビューから一時的に削除されました。</i></p>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> 以前のレビュー担当者と承認者を新しいドキュメントバージョンにすばやく追加する </a></p>
+                        <p>以前のドキュメントバージョンからレビュー担当者や承認者をすばやく追加できるようになりました。</p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
                                 <p>プレビューリリース：2024年10月3日（PT）</p>
                             </li>
                             <li>
@@ -172,10 +189,56 @@ ht-degree: 40%
                         </ul>
                     </td>
                 </tr>
+           </tbody>
+</table>
+
+### ホームの機能強化
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md"> 以前のレビュー担当者と承認者を新しいドキュメントバージョンにすばやく追加する </a></p>
-                        <p>以前のドキュメントバージョンからレビュー担当者や承認者をすばやく追加できるようになりました。</p>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> 新しいホームの承認待ちウィジェットに対する更新 </a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>承認待ちウィジェットに次の変更を加えました：</p>
+                            <ul>
+                                <li>ウィジェットの名前を変更：このウィジェットの名前は「自分の承認」になりました。</li>
+                                <li>フィルターオプションとして送信した承認を追加：このウィジェットを使用して、新しいホームで送信した承認を表示できるようになりました。</li>
+                            </ul>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2024年10月10日（PT）</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 10 月 10 日（PT）</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> 優先事項の導入：タスクオーナー向けの、よりシンプルで合理化された直感的なWorkfrontエクスペリエンス </a></p>
+                        <p>優先事項を設定することで焦点と生産性が高まり、顧客がより短時間でより多くのことを達成できるようになります。</p>
+                        <p>優先度を使用すると、次の利点が得られます。</p>
+                            <ul>
+                                <li>毎日のタスクの管理と優先順位付け：統合されたナビゲーションで日や週を整理し、わかりやすくします。</li>
+                                <li>生産性の向上：プロジェクトコンテキストにアクセスし、クリック数を減らしてタスクを迅速に実行します。</li>
+                                <li>パーソナライズされた機能：タスクの所有者向けに独自に設計された機能を活用します。</li>
+                            </ul>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -226,48 +289,6 @@ ht-degree: 40%
                 </tr>
            </tbody>
 </table>
-
-### ホームの機能強化
-
-<table>
-        <col style="width: 50%;" />
-        <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">機能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">リリース日</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md"> 優先事項の導入：タスクオーナー向けの、よりシンプルで合理化された直感的なWorkfrontエクスペリエンス </a></p>
-                        <p>優先事項を設定することで焦点と生産性が高まり、顧客がより短時間でより多くのことを達成できるようになります。</p>
-                        <p>優先度を使用すると、次の利点が得られます。</p>
-                        <ul>
-                        <li>毎日のタスクの管理と優先順位付け：統合されたナビゲーションで日や週を整理し、わかりやすくします</li>
-                        <li>生産性の向上：プロジェクトコンテキストにアクセスし、クリック数を減らしてタスクを迅速に実行します</li>
-                        <li>パーソナライズされた機能：タスクの所有者向けに独自に設計された機能を活用できます</li>
-                        </ul>
-                    </td>
-                    <td><p><b>公開日：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース：2024年10月3日（PT）</p>
-                            </li>
-                            <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-</table>
-
 
 ### プロジェクトの強化
 
@@ -542,11 +563,11 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 
 リリースの現時点では、Workfront Goals の更新はありません。このエリアは、アップデートが利用可能になると更新されます。
 
-### API バージョン 18
+### API バージョン 19
 
-API バージョン 18 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
+API バージョン 19 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
 
-新機能と更新内容については、[API バージョン 18 の新機能](/help/quicksilver/wf-api/api/new-api-version-18.md)を参照してください。
+新機能と更新内容については、[API バージョン 19 の新機能](/help/quicksilver/wf-api/api/new-api-version-19.md)を参照してください。
 
 API バージョンの詳細については、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 

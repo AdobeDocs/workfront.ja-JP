@@ -4,10 +4,10 @@ description: 2024 年第 4 四半期のドキュメント管理の強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 66180a048f47cb9d3daf67882d41084ad4873eef
+source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 34%
+source-wordcount: '178'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +25,9 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 10 月 3 日（PT）、すべてのお客様向けの実稼動：24.10 リリースの場合（2024 年 10 月 17 日（PT））
+>~~プレビューリリース：2024 年 10 月 3 日（PT）~~、すべてのお客様向けの実稼動環境：24.10 リリースで（2024 年 10 月 17 日（PT））
+>
+>_この機能は、プレビューから一時的に削除されました。_
 
 ドキュメントの決定ステータスをドキュメントリストで直接表示できるようになりました。
 
