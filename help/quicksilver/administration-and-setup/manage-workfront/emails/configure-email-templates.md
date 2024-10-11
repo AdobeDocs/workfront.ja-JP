@@ -8,14 +8,18 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 98%
 
 ---
 
+
 # メールテンプレートの設定
+
+<!--Audited: 10/2024-->
+
 
 Adobe Workfront 管理者は、リマインダー通知をサポートするようにメールテンプレートを設定できます。
 
@@ -40,9 +44,10 @@ Adobe Workfront 管理者は、リマインダー通知をサポートするよ�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td><p>現在：プラン</p>
+   <td><p>新規：標準</p>
    または
-   <p>新規：標準</p></td> 
+   <p>現在：プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 60%
+source-wordcount: '591'
+ht-degree: 58%
 
 ---
 
@@ -175,7 +175,7 @@ OLD:
 
 ## サポートされる数式
 
-Adobe Workfront Planning の数式フィールドは、Workfront の計算フィールドのすべての式をサポートします。詳しくは、[計算データ数式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
+Adobe Workfront Planning の数式フィールドは、Workfront の計算フィールドのすべての式をサポートします。Workfront式のリストについては、[ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
 
 また、Workfront Planning 数式フィールドでは、次の式も使用できます。
 

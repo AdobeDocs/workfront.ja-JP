@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: 1768c0610eb459148ff3e51ed08c115053c7d8f7
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '7484'
 ht-degree: 37%
@@ -22,7 +22,7 @@ ht-degree: 37%
 >
 ><span class="preview"> この記事では、2024 年 8 月 28 日（PT）の一般リリースに先立って、2024 年のWorkfront計画の初期フェーズでリリースされた機能の一覧を示します。</span>
 >
->この記事の情報は、Adobe Workfront からの新しいオファーである Adobe Workfront Planning を説明するものです。
+>この記事では、Adobe Workfrontの追加機能であるAdobe Workfront Planning について説明します。
 >
 >Workfront Planning 機能にアクセスして使用するには、Workfront プランに加えて、Workfront Planning プランを購入する必要があります。
 >

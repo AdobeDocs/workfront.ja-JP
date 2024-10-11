@@ -1,15 +1,15 @@
 ---
 title: Adobe Workfront計画の概要
-description: Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファーです。完全にカスタマイズ可能なワークスペースを作成して、企業の各組織単位のニーズを満たすワークフローを定義できます。
+description: Adobe Workfront Planning は、Adobe Workfrontの追加機能です。 完全にカスタマイズ可能なワークスペースを作成して、企業の各組織単位のニーズを満たすワークフローを定義できます。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 55%
+source-wordcount: '2116'
+ht-degree: 50%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 55%
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe Workfront からの新しいオファーである Adobe Workfront Planning を説明するものです。
+>この記事では、Adobe Workfrontの追加機能であるAdobe Workfront Planning について説明します。
 >
 >Workfront Planning にアクセスするには、次のものが必要です。
 >
@@ -44,9 +44,9 @@ Adobe Workfront Planning のドキュメントが含まれているアーティ�
 
 ## Adobe Workfront Planning の概要
 
-Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファーです。Workfront Planning の目的は、組織の運用上の詳細に関する包括的な可視性を解き放ち、作業管理ライフサイクルの各段階で重要なビジネス上の質問に答えることです。
+Adobe Workfront Planning は、Adobe Workfrontの追加機能です。 Workfront Planning の目的は、組織の運用上の詳細に関する包括的な可視性を解き放ち、作業管理ライフサイクルの各段階で重要なビジネス上の質問に答えることです。
 
-チームやリーダーは、次のような質問に対する明確な答えを必要としています。
+Workfront Planning では、次のような質問に回答できます。
 
 * 第 4 四半期に EMEA で実行しているキャンペーンの数は？
 * 同時開催のキャンペーンでオーディエンスが重複していないか？
@@ -69,7 +69,7 @@ Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファ
 
 新機能とそのリリース時期について詳しくは、[2024 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
 
-現在、Workfront Planning で使用できる機能は次のとおりです。
+現在、Workfront Planning では次の機能を使用できます。
 
 * ワークスペースの作成
 * レコードタイプの作成
@@ -92,7 +92,7 @@ Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファ
 * レコードのページのレイアウトのカスタマイズ
 * ワークスペースの共有
 * ビューの共有
-* 外部リソースと公開でビューを共有
+* 任意の外部リソース（Workfront ユーザーでないユーザーを含む）とビューを公開する
 * ビューを複製
 * レコードを作成するためのリクエストの送信
 * レコードの詳細を Word <span class="preview"> およびPDF</span> に書き出す
@@ -161,11 +161,11 @@ Adobe Workfront Planning は、Adobe Workfront が提供する新しいオファ
 
 ## Workfront インスタンスのユーザーに対してWorkfront Planning を有効にします
 
-Workfront Planning のライセンスを購入した後、Workfront Planning にアクセスするには、次の条件を満たす必要があります。
+Workfront Planning のライセンスを購入した後、Workfront Planning にアクセスするには、Workfront管理者として次の点を確認する必要があります。
 
-* Workfront管理者は、メインメニューに Planning が含まれるレイアウトテンプレートにあなたを割り当てる必要があります。 詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [ レイアウトテンプレートにユーザーを割り当てる ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) を参照してください。
+* メインメニューに Planning が含まれるレイアウトテンプレートを Planning にアクセスする必要があるユーザーを割り当てます。 詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [ レイアウトテンプレートにユーザーを割り当てる ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) を参照してください。
 
-* Workfront管理者は、Workfront ライセンスと、Workfront Planning でオブジェクトを表示または作成するためのWorkfront Planning 権限をユーザーに割り当てる必要があります。 他のユーザーが Workfront Planning を使用できるようにアクセス権を付与して有効にする方法について詳しくは、[アクセス権の概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+* ユーザーにWorkfront ライセンスを割り当て、Workfront Planning で 5554hview またはオブジェクトを作成できるようにするWorkfront Planning 権限を割り当てます。 他のユーザーが Workfront Planning を使用できるようにアクセス権を付与して有効にする方法について詳しくは、[アクセス権の概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
 ## Workfront Planning の用語
 
@@ -183,7 +183,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
-* **レコードタイプ**:Workfront Planning のオブジェクトタイプ。
+* **レコードタイプ**:Workfront Planning のオブジェクトタイプの名前。
 
   オブジェクトタイプが事前に定義されている Workfront とは異なり、Workfront Planning では独自のオブジェクトタイプを作成できます。
 
@@ -298,7 +298,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
-  ビューには、フィールド（列）のリスト、レコード（行）のリスト、レコードの順序（並べ替え）、適用済みまたは適用可能なフィルターとグループ化など、特定のビュータイプのパーソナライズされた設定が含まれています。
+  ビューには、フィールドのリスト（列）、レコードのリスト（行）、その順序（並べ替え）、適用または適用可能なフィルター、グループ化など、特定のビュータイプのパーソナライズされた設定が含まれます。
 
   レコードタイプページに適用できるビュータイプは次のとおりです。
 
@@ -318,7 +318,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 ## Adobe Workfront Planning の検索
 
-組織に Workfront Planning へのアクセス権が付与されており、システム管理者またはグループ管理者が Planning エリアをメインメニューに追加してあることを確認します。詳しくは、[アクセス権の概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+Adobe計画を検索するには、Workfront Planning へのアクセス権が組織に付与されていること、およびシステム管理者またはグループ管理者が計画エリアをメイン・メニューに追加していることを確認します。 詳しくは、[アクセス権の概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
 
 Workfront Planning を検索するには、次の手順に従います。
 

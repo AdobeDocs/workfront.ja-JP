@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 3232676a77c8e9fcb58e97374a4e7686620136da
+source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
 workflow-type: tm+mt
 source-wordcount: '666'
-ht-degree: 33%
+ht-degree: 30%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
->この記事の情報は、Adobe Workfront からの新しいオファーである Adobe Workfront Planning を説明するものです。
+>この記事では、Adobe Workfrontの追加機能であるAdobe Workfront Planning について説明します。
 >
 >Workfront Planning が機能にアクセスするには、会社がライセンスを追加購入する必要があります。
 >
