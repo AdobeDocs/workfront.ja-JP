@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '3856'
+source-wordcount: '3830'
 ht-degree: 85%
 
 ---
@@ -335,10 +335,8 @@ Workfront の次の領域で時間を記録できます。
 
 ホームでは、プロジェクト固有の時間を記録できます。
 
-ホームエリアの使用に関する一般的な情報については、次の節を参照してください。
+ホームエリアの使用の概要については、[ホームエリアの使用](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)を参照してください。
 
-* 従来のホームエリアの使用について詳しくは、[ホームエリアの使用](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)を参照してください。
-* 新しいホームエリアの使用について詳しくは、[新しいホームの基本を学ぶ](../../workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。
 
 #### 新しいホームエリアからの作業アイテムの時間の記録
 

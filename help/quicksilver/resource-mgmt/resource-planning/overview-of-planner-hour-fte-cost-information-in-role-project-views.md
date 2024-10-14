@@ -7,10 +7,10 @@ description: リソースプランナーのプロジェクトビューと役割�
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
 source-wordcount: '2977'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -329,7 +329,7 @@ ht-degree: 99%
 
 >[!NOTE]
 >
->**正味時間、FTE、またはコストが赤で表示される場合、予算をカバーするのに十分な使用可能な時間または予算** または作業に関連する予定時間またはコストがありません。この場合、リソースは割り当て超過になります。
+>NET Hours、FTE または Cost が赤で表示される場合、作業に関連する予算計上時間または予定時間またはコストをカバーするのに十分な利用可能な時間または予算がありません。 この場合、リソースは割り当て超過になります。
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>

@@ -7,10 +7,10 @@ description: コメントの概要は、Workfront Proof でアクセスできま
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 100%
+source-wordcount: '465'
+ht-degree: 88%
 
 ---
 
@@ -30,13 +30,13 @@ ht-degree: 100%
 
 ### プルーフビューア {#the-proof-viewer}
 
-プルーフのサムネールやフルビュー画像を含む、プルーフのコメントの概要を、プルーフビューアで&#x200B;**[!UICONTROL 印刷]**&#x200B;アイコンをクリックすることで印刷できます。（1）
+プルーフビューアで **[!UICONTROL 印刷]** アイコンをクリックすると、プルーフのサムネールやフルビューの画像を含むプルーフのコメントの概要を印刷できます。
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### プルーフの詳細ページ {#the-proof-details-page}
 
-プルーフのコメントの概要を印刷するには、プルーフの詳細ページの&#x200B;**[!UICONTROL 印刷]**&#x200B;アイコンをクリックします。（2）
+プルーフのコメントの概要を印刷するには、プルーフの詳細ページの **[!UICONTROL 印刷]** アイコンをクリックします。
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
@@ -46,17 +46,18 @@ ht-degree: 100%
 
 リスト表示から[!UICONTROL コメントの概要]ページにアクセスするには、次の手順に従います。
 
-1. **[!UICONTROL アクション]**&#x200B;メニューをクリックします。（3）
-1. 「**[!UICONTROL コメントを印刷]**」を選択します。（4）
+1. **[!UICONTROL アクション]** メニューをクリックします。
+1. 「**[!UICONTROL コメントを印刷]**」を選択します。
 
-![List_view.png](assets/list-view-350x155.png)\
-コメントの概要ページでは、次の印刷オプションから選択できます。
+   ![List_view.png](assets/list-view-350x155.png)
 
-* サムネール表示 (1)
-* 全ページ表示 (2)
-* ページを印刷する (3)
-* コメント付きのプルーフを PDF ファイルに書き出す (4)
-* プルーフのコメントを [!DNL Excel] ファイルに書き出す (5)
+   コメントの概要ページでは、次の印刷オプションから選択できます。
+
+   * サムネール表示 (1)
+   * 全ページ表示 (2)
+   * ページを印刷する (3)
+   * コメント付きのプルーフを PDF ファイルに書き出す (4)
+   * プルーフのコメントを [!DNL Excel] ファイルに書き出す (5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -89,7 +90,8 @@ ht-degree: 100%
 プルーフの詳細ページから [!DNL Excel] 概要をダウンロードするには、次の手順に従います。
 
 1. **[!DNL Excel]** に書き出しアイコンをクリックします。（2）
-1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+
+   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## PDF への書き出し
 

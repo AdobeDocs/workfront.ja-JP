@@ -6,14 +6,16 @@ description: Adobe Experience Cloud 経由で  [!DNL Workfront]  にアクセス
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: e6688408c3316a3f99fdb051adeb306f359057d1
+source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '588'
+ht-degree: 82%
 
 ---
 
 # [!DNL Workfront] 向け [!DNL Adobe Unified Experience]
+
+<!--Audited: 10/2024-->
 
 [!DNL Adobe Experience Cloud] を介して [!DNL Workfront] にアクセスすると、すべての [!DNL Adobe] アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。単一の Identity Managemen により、複数の URL やログイン ID を必要とせずに、1 つの場所でログインできます。
 
@@ -25,6 +27,8 @@ ht-degree: 0%
 | experience.adobe.com | Adobeの統合エクスペリエンス |
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -38,23 +42,26 @@ ht-degree: 0%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td> <p>新規：[!UICONTROL Contributor]以上</p> 
+   <p>現在：[!UICONTROL Request] 以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
-組織の [!DNL Workfront] インスタンスは、[!DNL Adobe Business Platform] や [!DNL Adobe Admin Console] にオンボードされる必要があります。
+組織の [!DNL Workfront] のインスタンスは、[!DNL Adobe Business Platform] または [!DNL Adobe Admin Console] にオンボードする必要があります。
 
 [!DNL Adobe Admin Console] のオンボーディングに関するご質問がある場合は、[[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/) を参照してください。
 
 ## [!DNL Adobe Experience Cloud] にログインする
 
 1. ブラウザーウィンドウを開き、<https://experience.adobe.com> に移動します。
-1. [!UICONTROL ログイン]画面で、メールアドレスを入力して、「**[!UICONTROL 続行]**」をクリックします。
+1. [!UICONTROL **ログイン**]&#x200B;画面で、メールアドレスを入力して、「**[!UICONTROL 続行]**」をクリックします。
 
    ![[!DNL Adobe Experience Cloud]](assets/aec-login-page.png)にログインする
 
