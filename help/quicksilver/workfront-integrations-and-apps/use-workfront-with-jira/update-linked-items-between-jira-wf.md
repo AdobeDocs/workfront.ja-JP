@@ -6,10 +6,10 @@ description: ' [!DNL Jira]  のイシューを  [!DNL Adobe Workfront]  のタ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: e01f5eaf3133fa1bdaedf4dad56e9a8175b70667
+source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 100%
+source-wordcount: '1576'
+ht-degree: 99%
 
 ---
 
@@ -122,12 +122,12 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td>[!UICONTROL Comments]</td> 
-   <td> <p>[!DNL Jira] のイシューの「<strong>[!DNL Workfront]</strong>」タブにコメントが追加されました。[!DNL Jira] のイシューの「<strong>[!UICONTROL Comments]</strong>」タブには追加されません。</p> <p>メモ：2 つの既存のアイテムを手動でリンクすると、[!DNL Jira] にリンクする前に [!DNL Workfront] アイテムに追加されたコメントは [!DNL Jira] のイシューと同期しません。</p> </td> 
+   <td> <p>[!DNL Jira] のイシューの「<strong>[!DNL Workfront]</strong>」タブにコメントが追加されました。[!DNL Jira] のイシューの「<strong>[!UICONTROL Comments]</strong>」タブには追加されません。</p> <p>メモ：2 つの既存のアイテムを手動でリンクすると、[!DNL Jira] にリンクする前に [!DNL Workfront] アイテムに追加されたコメントは [!DNL Jira] のイシューと同期しません。</p> <p>Jira コメントはWorkfrontと同期されます。</td> 
   </tr> 
  </tbody> 
 </table>
 
-## [!DNL Jira] のリンクされたアイテムの更新
+## [!DNL Jira] 内のリンクされた項目を更新する。
 
 主に [!DNL Jira] で作業している場合は、[!DNL Jira] の作業アイテムを更新すると、[!DNL Workfront] の対応する作業アイテムも更新されます。[!DNL Jira] で行っている更新を受け取るために、[!DNL Jira] のイシューにリンクされている [!DNL Workfront] アイテムの [!DNL Workfront] ライセンスを保有している必要はありません。
 
