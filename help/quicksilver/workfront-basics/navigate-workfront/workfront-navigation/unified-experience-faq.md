@@ -6,9 +6,9 @@ description: ' [!DNL Workfront]  および Adobe Experience Cloud の間には�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: be60ec38495a7c25d88e325cf4ba96decf083ea3
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1363'
 ht-degree: 70%
 
 ---
@@ -35,6 +35,7 @@ ht-degree: 70%
 | プルーフビューアが新しいタブで開きます | プルーフビューアがWorkfront内で開きます |
 | Workfrontにアクセスするための URL は `experience.adobe.com` です | Workfrontにアクセスするための URL は `(CompanyName).my.workfront.com` です |
 | 日付形式（MM/DD/YYYY など）は、統合エクスペリエンス言語設定に基づいています。 ユーザーが言語設定を更新していない場合は、`en-US` の設定が使用されます。 | 日付形式（MM/DD/YYYY など）は、ブラウザーの環境設定に基づいています |
+| JumpSeat 統合はサポートされていません | Jumpseat 統合はサポートされています |
 
 {style="table-layout:auto"}
 

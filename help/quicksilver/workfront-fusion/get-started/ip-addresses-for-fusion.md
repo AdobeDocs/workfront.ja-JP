@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 55a4fda46f6d314c71d9ef98864b21b84f946b09
+source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '254'
+ht-degree: 70%
 
 ---
 
@@ -22,6 +22,28 @@ ht-degree: 100%
 >[!DNL Adobe Workfront Fusion] には、[!DNL Adobe Workfront license] に加えて [!DNL Adobe Workfront Fusion] ライセンスが必要です。
 
 ファイアウォールやメールサーバーが、特定のベンダーへのアクセスのみを許可するように設定されている場合には、環境と [!DNL Adobe Workfront Fusion] の間でオープンな通信を許可するために、特定の IP アドレスを許可リストに追加する必要があります。
+
+## データセンターの特定
+
+IP アドレスは、データが格納されている場所によって異なります。
+
+URL を使用して Fusion にアクセスすると、URL を調べてデータセンターを見つけることができます。
+
+| URL | データセンター |
+| --- | --- |
+| `https://app.workfrontfusion.com/` | US データセンター |
+| `https://app-eu.workfrontfusion.com/` | EU データセンター |
+| `https://app-az.workfrontfusion.com/` | Azure データセンター |
+
+experience.adobe.comから Fusion にアクセスする場合は、ブラウザーの「ネットワーク」タブを確認して、データセンターを特定できます。
+
+| URL | データセンター |
+| --- | --- |
+| `https://fusion.adobe.com` への呼び出し | US データセンター |
+| `https://eu.fusion.adobe.com` への呼び出し | EU データセンター |
+| `https://az.fusion.adobe.com` への呼び出し | Azure データセンター |
+
+## Workfront Fusion の IP アドレス
 
 以下の IP アドレスを許可リストに追加して、[!DNL Workfront Fusion] がシステムにアクセスできるようにします。
 
