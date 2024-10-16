@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 14%
+source-wordcount: '614'
+ht-degree: 16%
 
 ---
-
 
 # ビューまたはワークスペースに対する権限のリクエスト
 
@@ -38,7 +38,7 @@ ht-degree: 14%
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
-Workfront Planning にアクセスするには、次のものが必要です：
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -131,5 +131,3 @@ Workfront Planning にアクセスするには、次のものが必要です：
      ![](assets/email-notification-for-access-request.png)
 
 1. （条件付き）ビューまたはワークスペースマネージャーからビューまたはワークスペースに対する権限を付与されると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this, but Isk confirmed.-->
-
-

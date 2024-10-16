@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2116'
-ht-degree: 50%
+source-wordcount: '2100'
+ht-degree: 47%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 50%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">現在のリリースについて詳しくは、[2023年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)を参照してください。</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 >[!IMPORTANT]
 >
@@ -86,7 +86,9 @@ Workfront Planning では、次のような質問に回答できます。
 * 同じワークスペースに属するレコードの接続
 * 異なるワークスペースに属するレコードを接続します
 * Workfront Planning レコードを Workfront のプロジェクト、プログラム、ポートフォリオ、会社、グループに接続
-* Workfront Planning レコードを Adobe Experience Manager のアセットに接続
+* Workfront Planning レコードを Adobe Experience Manager のアセットに接続\
+  Adobe Experience Manager Assets ライセンスと、AEM AssetsとWorkfrontの統合が必要です。
+詳しくは、[Experience Manager AssetsおよびAssets EssentialsのAdobe Workfront：記事インデックス ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) を参照してください。
 * 「詳細」タブでのレコード情報の表示
 * 「接続」タブでのレコード接続の表示
 * レコードのページのレイアウトのカスタマイズ
@@ -95,7 +97,7 @@ Workfront Planning では、次のような質問に回答できます。
 * 任意の外部リソース（Workfront ユーザーでないユーザーを含む）とビューを公開する
 * ビューを複製
 * レコードを作成するためのリクエストの送信
-* レコードの詳細を Word <span class="preview"> およびPDF</span> に書き出す
+* レコードの詳細を Word およびPDFにエクスポートします。
 * レコードへのコメントの追加
 * アプリ内通知を受信
 * メール通知を受信
@@ -108,7 +110,8 @@ Workfront Planning では、次のような質問に回答できます。
 * Workfront計画パブリック API
 * Adobe Workfront Fusion 用 Adobe Workfront Planning モジュール
 * Workfront計画 AI アシスタント
-* Workfrontの計画情報に関するレポート（キャンバスダッシュボード）
+* Workfrontの計画情報のレポート
+キャンバス・ダッシュボードを使用して、Planning 情報についてレポートできます。 詳しくは、[ キャンバスダッシュボードの概要 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
 
 <!--OLD: 
 
@@ -375,7 +378,7 @@ Workfront Planning を検索するには、次の手順に従います。
 
 ## Workfront Planning のその他のリソース
 
-* [Adobe Workfront Planning：記事インデックス ](/help/quicksilver/planning/planning-information.md):Workfront Planning に関するドキュメントを含むすべての記事が記載されているインデックスで、目標領域別にグループ化されています。
+* [Adobe Workfront Planning：記事インデックス ](/help/quicksilver/planning/planning-information.md):Workfront Planning に関するドキュメントを含むすべての記事のインデックスで、目標領域別にグループ化されています。
 * [Adobe Workfront Planning AI Assistant の概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront AI Assistant for Planning を使用すると、レコードを検索したり、コマンドを使用してアシスタントで作業することにより、レコードを作成、更新、および削除したりできます。
   <!--
     >[!NOTE]

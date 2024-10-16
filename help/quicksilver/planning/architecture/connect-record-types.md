@@ -6,17 +6,17 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 7b5441b2aa17b22f0fd54cfe4921aa5dab2e0461
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2222'
-ht-degree: 43%
+source-wordcount: '2248'
+ht-degree: 42%
 
 ---
 
 
 # レコードタイプを接続
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 {{planning-important-intro}}
 
@@ -41,7 +41,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
-Workfront Planning にアクセスするには、次のものが必要です：
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -55,7 +55,12 @@ Workfront Planning にアクセスするには、次のものが必要です：
    <p> 製品</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfrontの計画<p></li>
+   <li><p> Adobe Experience Manager Assets（AEM assets を Planning レコード・タイプに関連付ける場合）<p>
+   <p>Adobe Experience Manager Assets ライセンスと、AEM AssetsとWorkfrontの統合が必要です。
+    詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets EssentialsのAdobe Workfront：記事インデックス </a> を参照してください。 </p>
+   </li>
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
@@ -185,7 +190,8 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    * 現在のワークスペースの別のレコードタイプ
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
+
      >[!TIP]
      >
      > 
@@ -194,7 +200,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    * 他のワークスペースから接続するように設定された、別のワークスペースからのレコードタイプ。 詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
      >[!TIP]
      >
@@ -207,7 +213,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    * 「**Adobe アプリケーション**」セクションからの **Experience Manager Assets**。
 
-     <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
+     ![](assets/aem-assets-connection-selection.png)
 
 1. 次の情報を更新します。
 
@@ -222,7 +228,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
      このオプションは、2 つの異なるワークスペース、またはレコードとAdobe Experience Manager アセットオブジェクトからレコードを接続する場合にのみ使用できます。
 
-     <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * **接続タイプ**：次のいずれかのオプションを選択して、接続先および接続先のレコードの数を指定します。
 
@@ -233,7 +239,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
      このオプションは、同じワークスペースのレコードまたはレコードとWorkfront オブジェクトタイプを接続する場合にのみ使用できます。
 
-     <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+     ![](assets/many-to-many-connection-picker.png)
 
      接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
@@ -262,9 +268,9 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
 1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプへの接続を選択した場合は、「レコードの外観 **領域で次のいずれかのオプションを選択し** す。
 
-   * <span class="preview">**名前と画像**：接続されたレコードの名前とサムネールまたはアイコンの両方が「接続されたレコード」フィールドに表示されます。 これはデフォルトのオプションです。</span>
-   * <span class="preview">**名前**：接続されたレコードの名前のみが、接続されたレコードフィールドに表示されます。</span>
-   * <span class="preview">**画像**：接続されたレコードのサムネールまたはアイコンのみが、接続されたレコードフィールドに表示されます。</span>
+   * **名前と画像**：接続されたレコードの名前とサムネールまたはアイコンの両方が「接続されたレコード」フィールドに表示されます。 これはデフォルトのオプションです。
+   * **名前**：接続されたレコードの名前のみが、「接続されたレコード」フィールドに表示されます。
+   * **画像**：接続されたレコードのサムネールまたはアイコンのみが「接続されたレコード」フィールドに表示されます。
 
    サムネール画像のないレコードには、代わりにレコードタイプアイコンが表示されます。 接続されたレコードの表示方法の例は、**レコードの外観** 領域に表示されます。
 

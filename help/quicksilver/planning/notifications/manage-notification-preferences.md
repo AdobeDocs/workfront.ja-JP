@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 21%
+source-wordcount: '441'
+ht-degree: 24%
 
 ---
 
@@ -28,7 +28,7 @@ Workfront Planning で次のアクションが発生した場合、アプリ内�
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
-Workfront Planning にアクセスするには、次のものが必要です：
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 

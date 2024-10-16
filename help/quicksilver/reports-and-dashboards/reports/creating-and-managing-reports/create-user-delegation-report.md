@@ -2,19 +2,21 @@
 product-area: reporting
 keywords: ユーザー,デリゲーション,レポート,デリゲート,承認
 navigation-topic: create-and-manage-reports
-title: ユーザーのデリゲーションレポートの作成
+title: ユーザー委任レポートの作成
 description: ユーザーのデリゲーションレポートの作成
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 100%
+source-wordcount: '383'
+ht-degree: 95%
 
 ---
 
 # ユーザーのデリゲーションレポートの作成
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider moving this to the Custom&nbsp;View, Filter, Grouping Samples section as an example of a report)</p>
@@ -39,6 +41,8 @@ Adobe Workfront では、ユーザーがプロジェクト、タスクおよび�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -46,12 +50,13 @@ Adobe Workfront では、ユーザーがプロジェクト、タスクおよび�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td> <p>新規：標準 </p>
+   <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -64,7 +69,8 @@ Adobe Workfront では、ユーザーがプロジェクト、タスクおよび�
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
++++
 
 ## ユーザーのデリゲーションレポートの作成
 
@@ -79,14 +85,14 @@ Adobe Workfront では、ユーザーがプロジェクト、タスクおよび�
    |---|---|
    | **デリゲート元ユーザー** | タスク、イシューおよびプロジェクトの承認を別のユーザーにデリゲートするユーザーです。 |
    | **デリゲート先ユーザー** | タスク、イシューおよびプロジェクト承認がデリゲートされたユーザーです。 |
-   | **開始** | デリゲーションを行ったユーザーの不在時間の開始時です。 |
-   | **終了** | デリゲーションを行ったユーザーの不在時間の終了時です。 |
+   | **開始日** | デリゲーションを行ったユーザーの不在時間の開始時です。 |
+   | **終了日** | デリゲーションを行ったユーザーの不在時間の終了時です。 |
 
    {style="table-layout:auto"}
 
 1. （オプション）Report Builder で、次の変更を行います。
 
-   * 列
+   * カラム（表示）
    * グループ化
    * フィルター
    * グラフ
@@ -94,7 +100,5 @@ Adobe Workfront では、ユーザーがプロジェクト、タスクおよび�
    これらの機能について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 1. レポートの作成が完了したら、「**保存して閉じる**」をクリックします。
-
-1. 新しい名前を「**レポート名**」フィールドで入力し、「**レポートを保存**」をクリックします。
 
    レポートが表示されます。

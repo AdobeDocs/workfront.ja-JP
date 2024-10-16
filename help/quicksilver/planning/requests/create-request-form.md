@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 14%
+source-wordcount: '1237'
+ht-degree: 15%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 14%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-Workfront Planning にアクセスするには、次のものが必要です：
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col>

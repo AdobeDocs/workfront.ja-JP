@@ -6,10 +6,10 @@ description: ワークロードバランサーを使用して、リソースの�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '4068'
-ht-degree: 99%
+source-wordcount: '4067'
+ht-degree: 98%
 
 ---
 
@@ -323,7 +323,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
      >[!TIP]
      >
-     >お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。作業の委任について詳しくは、[タスクとイシューの委任を管理](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
+     >お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。作業の委任について詳しくは、[ タスクとイシューを委任 ](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
 
    * 「**割り当てを編集する**」。そのユーザーの日次または週次の割り当てを編集します。ユーザー割り当ての管理について詳しくは、[ワークロードバランサーでのユーザー割り当ての管理](../workload-balancer/manage-user-allocations-workload-balancer.md)を参照してください。
 

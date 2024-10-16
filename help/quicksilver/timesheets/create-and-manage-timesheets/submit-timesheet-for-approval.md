@@ -1,15 +1,15 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: 承認用のタイムシートを送信
+title: 承認用タイムシートを送信
 description: 承認のためタイムシートを提出すると、マネージャーはあなたの労働時間を把握できるようになります。承認者は、記録されたすべての時間が正しい領域に割り当てられていること、およびその期間に十分な時間が記録されていることを確認できます。
 author: Alina
 feature: Timesheets
 exl-id: 253e20c8-58f8-4b23-a769-b0e36557066a
-source-git-commit: d5d517a0c9a1292c37e66db07f7ed17d0a9a59e1
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 85%
+source-wordcount: '855'
+ht-degree: 82%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 85%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規：ライト以上 </p>
    <p>現在：レビュー以上 </p>
   </tr> 
@@ -49,7 +49,7 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -72,7 +72,7 @@ ht-degree: 85%
 
    **承認用に送信** ボタンは、**承認**、**却下**、**リコール** ボタンに置き換えられます。 タイムシートのステータスが&#x200B;**送信済み**&#x200B;に変わります。
 
-   タイムシートが承認用に送信されると、承認者の&#x200B;**ホーム**&#x200B;ページの&#x200B;**承認**&#x200B;エリアにリストされたタイムシートが表示されます。次のようなことが起こる可能性があります。
+   タイムシートが承認用に送信されると、承認者には、「ホーム **エリアの「マイ承認** ウィジェットにリストされたタイムシートが **示さ** ます。 次のようなことが起こる可能性があります。
 
    * 承認された場合、「**リコール**」ボタンが「**再度開く**」に変わり、タイムシートのステータスが&#x200B;**開く**&#x200B;に更新されます。
    * 拒否すると、「**承認用に送信**」ボタンが **撤回** ボタンに置き換わり、タイムシートのステータスが **却下** に更新されます。

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2073'
-ht-degree: 98%
+source-wordcount: '2110'
+ht-degree: 96%
 
 ---
 
@@ -193,15 +193,22 @@ Linked to Converting Issues.-->
 
 この設定を有効にすると、次の情報が表示されます。
 
-* 「[!UICONTROL ホーム]」エリアの「[!UICONTROL 委任]」リンク。ここから承認、またはタスクおよびイシューの割り当てを委任できます。
+* [!UICONTROL **ホーム**] エリアにある [!UICONTROL  マイ作業 ]、[!UICONTROL  マイタスク ] または [!UICONTROL  マイイシュー ] ウィジェットの [!UICONTROL  委任 ] リンク。 ここからタスクとイシューの割り当てを委任できます。
+
+  >[!NOTE]
+  >
+  >  「[!UICONTROL **承認を委任**]」リンクは、「[!UICONTROL  ホーム ] 領域で常に有効になっています。
+
 * タスクまたはイシューのヘッダー内の「[!UICONTROL 割り当てと委任]」エリアで、タスクまたはイシューが別のユーザーに委任されたことを示すメッセージ。
+* タスクまたはイシューが [!UICONTROL  ホーム ] の [!UICONTROL  担当作業 ] ウィジェットで別のユーザーに委任されていることを示します。
 
   「[!UICONTROL ユーザーが自分のタスクおよびイシューを委任するのを許可]」設定を無効にすると、現在スケジュールされている委任は停止され、委任されたユーザーは、委任が停止されたことを示すメール通知を受け取ります。
 
 他のユーザーへの作業の委任について詳しくは、次の記事を参照してください。
 
 * [作業の委任の概要](../../../manage-work/delegate-work/delegate-work-overview.md)
-* [タスクとイシューの委任の管理](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [タスクおよびイシューのデリゲート](../../../manage-work/delegate-work/how-to-delegate-work.md)
+
 
 <!--
 <p><strong>Work On It</strong></p>

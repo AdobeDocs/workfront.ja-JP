@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '2713'
-ht-degree: 50%
+source-wordcount: '2793'
+ht-degree: 49%
 
 ---
 
@@ -56,7 +56,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
-Workfront Planning にアクセスするには、次のものが必要です：
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,7 +70,12 @@ Workfront Planning にアクセスするには、次のものが必要です：
    <p> 製品</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+   <li><p> Adobe Workfrontの計画<p></li>
+   <li><p>Adobe Experience Manager Assets（AEM assets と Planning レコードを連携する場合）<p>
+   <p>Adobe Experience Manager Assets ライセンスと、AEM AssetsとWorkfrontの統合が必要です。
+    詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets EssentialsのAdobe Workfront：記事インデックス </a> を参照してください。 </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
@@ -146,7 +151,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 * 「詳細」タブの、接続されたレコードフィールドでのレコードのプレビューまたはページ。
 * [ 接続 ] タブのレコードのプレビューまたはページ。
 
-### テーブルビューまたはレコードページの「詳細」タブから、Adobe Workfront Planning レコードを接続します
+### テーブル表示または詳細領域からAdobe Workfront Planning レコードを接続します
 
 {{step1-to-planning}}
 
@@ -164,6 +169,11 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    * リストから接続されているレコードの名前をクリックして、選択したレコードに追加します。レコードは自動的に追加されます。
    * レコードの名前の入力を開始し、リストに名前が表示されたら選択します。レコードは自動的に追加されます。
+
+   >[!TIP]
+   >
+   >    レコードタイプが接続されたときにレコードの画像のみを表示するように選択した場合、接続されたフィールドにはサムネールまたはレコードのアイコンのみが表示されます。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+
 
 1. （オプション）接続するレコードまたはオブジェクトが見つからず、追加する場合は、「**+追加**」をクリックして新しいレコードを追加します。 詳細については、「レコードを作成する」の「接続するレコードの作成 [ の節を参照してくだ ](/help/quicksilver/planning/records/create-records.md) い。
 

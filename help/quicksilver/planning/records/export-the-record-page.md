@@ -6,20 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 29%
+source-wordcount: '480'
+ht-degree: 22%
 
 ---
 
 # レコードの詳細のエクスポート
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">現在のリリースについて詳しくは、[2023年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)を参照してください。</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 
 Workfront アカウントを持っていない他のユーザーとのより効率的な共同作業を行うために、レコードの詳細をファイルに書き出して共有できます。
@@ -28,7 +28,7 @@ Workfront アカウントを持っていない他のユーザーとのより効�
 
 +++ 展開すると、Workfront Planning のアクセス要件が表示されます。
 
-Workfront Planning にアクセスするには、次のものが必要です：
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -156,7 +156,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 * レコードの詳細を次のファイル形式で書き出すことができます。
 
    * .docx Word
-   * <span class="preview">.pdf</span>
+   * .pdf
 
 * レコードのページの「詳細」タブを書き出すことができます。 「接続」タブは書き出せません。
 
@@ -184,9 +184,9 @@ Workfront Planning にアクセスするには、次のものが必要です：
 1. プレビューまたはレコードのページ ![](assets/export-icon-in-record-details-page.png) ある **エクスポート** アイコンをクリックし、次のいずれかをクリックします。
 
    * **Microsoft Word**
-   * <span class="preview">**Adobe PDF**</span>
+   * **Adobe PDF**
 
-   Word （.docx） <span class="preview"> またはPDF</span> ファイルがダウンロードされ、コンピューターに保存されます。
+   Word （.docx）またはPDF ファイルがダウンロードされ、コンピュータに保存されます。
 
    書き出されるファイルの名前は、レコードのプライマリフィールドです。
 
@@ -194,7 +194,7 @@ Workfront Planning にアクセスするには、次のものが必要です：
 
    >[!NOTE]
    >
-   >    ページに表示されず、「詳細」タブで「詳細を表示」をクリックした後にのみ表示される追加情報は、エクスポートされたPDFファイルには表示されません。 ページに表示される情報のみが書き出されたファイルに表示されます。
+   >    ページに表示されず、レコードの詳細領域の「詳細を表示」をクリックした後にのみ表示される追加情報は、書き出されたPDFファイルには表示されません。 ページに表示される情報のみが書き出されたファイルに表示されます。
 
 
 1. （オプション）ダウンロードしたファイルに移動して、ファイルを開いて編集するか（Word ファイルの場合）、他のユーザーと共有します。

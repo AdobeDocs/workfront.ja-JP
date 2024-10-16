@@ -6,10 +6,10 @@ description: '[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]に�
 author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: d614d5cbded1de6fd899a47495a6e058f9eaf3cf
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 99%
+source-wordcount: '1840'
+ht-degree: 98%
 
 ---
 
@@ -141,7 +141,7 @@ ht-degree: 99%
       <td> 
        <div> 
         <p>別のユーザーに委任した作業アイテムのみを表示します。</p> 
-        <p>タスクの委任について詳しくは、<a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">別のユーザーへのタスクとイシューの委任</a>を参照してください。
+        <p>タスクの委任について詳しくは、<a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref"> タスクおよびイシューを委任 </a> を参照してください。
        </div> </td> 
      </tr> 
      <tr> 

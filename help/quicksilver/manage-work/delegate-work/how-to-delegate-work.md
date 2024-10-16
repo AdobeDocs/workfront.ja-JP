@@ -1,21 +1,21 @@
 ---
 filename: how-to-delegate-work
 navigation-topic: delegate-work
-title: タスクおよびイシューのデリゲート
+title: タスクおよび問題を委任
 description: 不在時に割り当てられた作業を、一時的にデリゲートできます。この記事では、タスクとイシューの割り当てをデリゲートする方法について説明します。
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 99%
+source-wordcount: '1518'
+ht-degree: 81%
 
 ---
 
-# タスクとイシューの委任の管理
+# タスクおよびイシューのデリゲート
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
 
 <!--
@@ -59,8 +59,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：Contributor 以上</p><p>または</p><p>現在：Review 以上</p>
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td> <p>新規：コントリビューター以上</p><p>または</p><p>現在：Review 以上</p>
 
 >[!NOTE]
 >
@@ -80,7 +80,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -92,7 +92,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 この記事で説明するアクティビティを実行する前に、次の点を確認する必要があります。
 
-* [!DNL Workfront] またはグループ管理者によって、[!DNL Workfront] インスタンスの[!UICONTROL 設定]領域で「[!UICONTROL ユーザーにログ時間のあるタスクとイシューの削除を許可する]」設定が有効化されている。
+* [!DNL Workfront] またはグループの管理者が、[!DNL Workfront] ーザーインスタンスの [!UICONTROL **設定**] 領域の [!UICONTROL  タスクとイシューの環境設定 ] セクションで [!UICONTROL  ユーザーがタスクとイシューを委任することを許可 ] 設定を有効にしました。
 
   詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
@@ -104,11 +104,16 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 タスクやイシューを他のユーザーにデリゲートするには、次の手順に従います。
 
-1. [!UICONTROL **ホーム**]&#x200B;領域に移動して、[!UICONTROL **作業リスト**]&#x200B;の上部にある「[!UICONTROL **デリゲート**]」をクリックします。
+1. [!UICONTROL **ホーム**] エリアに移動します。
+1. [!UICONTROL **マイ作業**]、[!UICONTROL **マイタスク**] または [!UICONTROL **マイイシュー**] ウィジェットが [!UICONTROL **ホーム**] に追加されていることを確認します。
 
-   ![](assets/delegate-button-in-home.png)
+   詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
-1. 「[!UICONTROL **タスクおよびイシューをデリゲート**]」タブで、次の内容を更新します。
+1. [!UICONTROL **マイ作業**]、[!UICONTROL **マイタスク**] または [!UICONTROL **マイイシュー[!UICONTROL ** ウィジェットの左上隅にある **]委任**] をクリックします。
+
+   ![](assets/delegate-button-on-my-work-widget.png)
+
+1. 次を更新します。
 
    * [!UICONTROL **タスクおよびイシューのデリゲート先**]：タスクおよびイシューをデリゲートするユーザーの名前を入力し、リストに表示されたら選択します。選択できるユーザーは 1 名のみです。
 
@@ -129,6 +134,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      >「終了日」フィールドを空のままにし、「終了日なし」オプションを選択していない場合、デリゲーションは現在の日に対してのみ設定されます。
 
      ![](assets/delegate-box-expanded-in-home.png)
+     <!--check screen shot - submitted bug for casing-->
 
 1. 「[!UICONTROL **保存**]」をクリックします。
 
@@ -141,18 +147,18 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      >   デリゲーションの時間枠内に日付が設定された完了済みの作業項目は、デリゲートされません。
 
 
-   * 画面の右上隅に、別のユーザーへの作業のデリゲーションを有効にしたことを確認するメッセージが表示されます。デリゲートされたユーザーの名前が確認メッセージに表示されます。
+   * 画面の下部に、別のユーザーへの作業の委任が有効になったことを確認するメッセージが表示されます。デリゲートされたユーザーの名前が確認メッセージに表示されます。
 
    * [!DNL Workfront] で割り当てが表示できるほとんどの領域で、タスクとイシューが他のユーザーにデリゲートされたことを示すメッセージが表示されます。委任者の名前が含まれていないエリアについて詳しくは、[作業のデリゲートの概要](delegate-work-overview.md)を参照してください。
 
-   * [!UICONTROL ホーム]領域の「[!UICONTROL **デリゲート**]」ボタンが「[!UICONTROL **デリゲーションを編集**]」に変更されます。これは、デリゲーションが実行されていることを示します。
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
-   </MadCap:conditionalText>
-   -->
+   * [!UICONTROL **ホーム**]&#x200B;領域の「[!UICONTROL **デリゲート**]」ボタンが「[!UICONTROL **デリゲーションを編集**]」に変更されます。これは、デリゲーションが実行されていることを示します。
+     <!--
+      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
+      (NOTE: is this shot correct?&nbsp;See UI - this is a mock)
+      </MadCap:conditionalText>
+      -->
 
-   ![](assets/work-delegated-button-in-home.png)
+     ![](assets/edit-delegation-button-on-my-work-widget.png)
 
    * イベント通知と個人通知が有効になっている場合は、デリゲーションの確認メールも送信されます。
 
@@ -164,8 +170,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 終了日を選択した場合は、デリゲーションの有効期限を指定するか、手動で停止することができます。また、デリゲーションの日付が変更された場合は、デリゲーションの時間枠を変更することもできます。
 
-1. [!UICONTROL ホーム]領域に移動し、作業リストの右上隅にある「[!UICONTROL デリゲーションを編集]」をクリックします。
-1. 「[!UICONTROL タスクおよびイシューをデリゲート]」タブで、次のいずれかの操作を実行します。
+1. [!UICONTROL **ホーム**] 領域に移動して、次のいずれかのウィジェットで [!UICONTROL **委任を編集**]**をクリックします。自分の作業**、**自分のタスク**、または **自分の問題**。
+1. [!UICONTROL  タスクおよび問題の委任を停止 ] ボックスで、次のいずれかの操作を行います。
    * 「[!UICONTROL **開始日**]」または「[!UICONTROL **終了日**]」を変更します
    * 「[!UICONTROL **デリゲーションを停止**]」をクリックします
 
@@ -173,7 +179,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    >
    >    デリゲーションが既に開始している場合は、デリゲーションの「終了日」のみを編集できます。
 
-   ![](assets/stop-delegation-screen-in-home.png)
+   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. （条件付き）「[!UICONTROL **保存**]」をクリックして新しいデリゲーション日を保存します
 
@@ -182,7 +188,6 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    確認ボックスの「[!UICONTROL **デリゲーションを停止**]」をクリックして、デリゲーションの停止を確定します。
 
    これで、デリゲーションの日付が更新されたか、デリゲーションが停止し、デリゲートされたユーザーがタスクとイシューから削除されました。タスクおよびイシューに対する権限は、そのまま残ります。
-
 
 ## デリゲートされた作業と委任者情報を検索
 
@@ -229,24 +234,31 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 ### [!UICONTROL ホーム]でデリゲートされた作業を検索
 
-1. [!UICONTROL **ホーム**]&#x200B;領域に移動し、フィルタードロップダウンメニューをクリックして、次のオプションを 1 つ以上選択します。
+1. [!UICONTROL **担当作業**] ウィジェットの [!UICONTROL **ホーム**] エリアに移動します。
+1. 「フィルター」ドロップダウンメニューをクリックし、次のオプションを 1 つ以上選択します。
    * [!UICONTROL **デリゲート済み**]：自分にデリゲートされた、または自分がデリゲートしたタスクやイシューを表示します。
    * [!UICONTROL **自分にデリゲート済み**]：別のユーザーが自分にデリゲートしたタスクとイシューを表示します。
    * [!UICONTROL **自分がデリゲート済み**]：自分が他のユーザーにデリゲートしたタスクとイシューを表示します。
 
-   ![](assets/delegated-to-me-or-by-me-filters-in-home.png)
+     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
 
-1. [!UICONTROL 並べ替え]ドロップダウンメニューをクリックして、次の基準でリストを並べ替えます。
-   * [!UICONTROL 完了予定日]：これはデフォルトの並べ替えオプションです。
-   * [!UICONTROL 開始予定日]
-   * [!UICONTROL コミット日]
+1. （オプション） [!UICONTROL **並べ替え**] ドロップダウンメニューをクリックして、次の条件でリストを並べ替えます。
+   * [!UICONTROL  期限 ]. これはデフォルトの並べ替えオプションです。
+   * [!UICONTROL 名前]
+   * [!UICONTROL 完了率]
+   * [!UICONTROL ステータス]
+1. （オプション） [!UICONTROL **マイ作業**] ウィジェットの右上にあるグループ化ドロップダウンメニューを展開し、次のいずれかの条件でグループ化します。
+   * なし。 これはデフォルトのグループ化オプションです。
    * [!UICONTROL プロジェクト]
-   * [!UICONTROL マイ優先度]
-1. [!UICONTROL **作業リスト**]&#x200B;でグループを展開し、デリゲートされた作業項目を表示します。次のシナリオが存在します。
-   * 他のユーザーにデリゲートした項目は、委任者の名前が&#x200B;[!UICONTROL **作業リスト**]&#x200B;および右側の「[!UICONTROL **割り当てとデリゲーション**]」フィールドに表示されます。
+   * [!UICONTROL ステータス]
+   * [!UICONTROL  期限日 ]
 
-   * 自分にデリゲートされた項目は、担当者の名前が&#x200B;[!UICONTROL **作業リスト**]&#x200B;および右側の「**[!UICONTROL 割り当てとデリゲーション]**」フィールドに表示されます。
+1. 委任した項目または委任された項目を表示するには、次のいずれかを表示します。
 
-   >[!TIP]
-   >
-   >    デリゲーションが今日以降の日付に開始するように設定されている場合は、デリゲーションの開始日も[!UICONTROL 作業リスト]に表示されます。委任された項目は、グループのタイプに応じて、[!UICONTROL 作業リスト]に対して選択したグループ化に表示されます。例えば、[!UICONTROL 予定完了日]によってグループ化した場合、委任された項目は予定完了日と一致するグループ化に表示されます。
+   * 他のユーザーに委任した項目については、タスクまたは問題のステータスで [!UICONTROL **委任先**] の後に委任名を見つけます。
+
+   * 自分に委任された項目の場合は、タスクまたは問題のステータスの [!UICONTROL **委任者**] の後に、担当者の名前を見つけます。
+
+     >[!TIP]
+     >
+     >    デリゲーションが今日以降の日付に開始するように設定されている場合は、デリゲーションの開始日も[!UICONTROL 作業リスト]に表示されます。委任された項目は、グループのタイプに応じて、[!UICONTROL 作業リスト]に対して選択したグループ化に表示されます。例えば、[!UICONTROL 予定完了日]によってグループ化した場合、委任された項目は予定完了日と一致するグループ化に表示されます。

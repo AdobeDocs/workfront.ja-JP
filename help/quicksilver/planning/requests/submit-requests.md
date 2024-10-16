@@ -5,10 +5,11 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bd202821687453288c96147933331c8a7a6b3acb
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 10%
+source-wordcount: '658'
+ht-degree: 12%
 
 ---
 
@@ -30,7 +31,7 @@ Workfront ユーザーと外部ユーザーは、Planning レコードタイプ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-Workfront Planning にアクセスするには、次のものが必要です：
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col>
@@ -136,8 +137,3 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 1. 「**送信**」をクリックします。
 
    フォームが送信され、新しいレコードがフォームに関連付けられたレコードタイプに追加されます。
-
-
-
-
-

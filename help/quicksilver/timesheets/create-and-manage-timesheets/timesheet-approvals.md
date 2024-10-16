@@ -1,15 +1,15 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: タイムシートの承認
+title: タイムシートを承認
 description: 管理者はタイムシートの承認プロセスで、直属の部下の作業時間を表示できます。承認者は、記録されたすべての時間が正しいエリアに割り当てられ、その期間に対して十分な時間数が記録されていることを確認できます。
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
-source-git-commit: 1a46fa3a8e87a5f345558cef57a4d66171320c9b
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 71%
+source-wordcount: '686'
+ht-degree: 50%
 
 ---
 
@@ -67,15 +67,20 @@ ht-degree: 71%
 
 ## タイムシートの承認
 
-承認者は、自分を承認者として指定して提出されたタイムシートを承認できます。タイムシートが承認用に送信されると、タイムシートは **ホーム** ページの **承認** 領域にリストされます。 詳しくは、[作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)を参照してください。
+承認者は、自分を承認者として指定して提出されたタイムシートを承認できます。タイムシートが承認用に送信されると、そのタイムシートが **ホーム** 領域の **マイ承認** ウィジェットにリストされます。 詳しくは、[作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)を参照してください。
 
-Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。イベント通知の有効化について詳しくは、[ イベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
+次の通知設定が行われている場合、タイムシートを承認用に送信したユーザーには、タイムシートが承認された後にメールが届きます。
 
-タイムシートを承認するには：
+* Workfront管理者がユーザーに対してタイムシート承認を、ユーザーイベントハンドラーに対してタイムシート拒否を有効にしました。 イベント通知の有効化について詳しくは、[ イベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
+* ユーザーのプロファイル ページで、マイ タイムシートが承認された個人通知が有効になっています。 詳しくは、[自身のメール通知の変更](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
+
+### 「タイムシート」領域からタイムシートを承認
 
 {{step1-to-timesheets}}
 
 **タイムシート** エリアが開きます。
+
+1. （条件付き）最後にアクセスした時間が開いた場合は、画面の左上隅にある **タイムシートに戻る** をクリックします。
 
 1. ページの右上にある「**マイタイムシート承認**」を選択し、承認するタイムシートを表示します。
 
@@ -87,11 +92,9 @@ Workfront 管理者がユーザーへのタイムシート承認イベントハ�
 
    >[!NOTE]
    >
-   >Workfront管理者またはグループ管理者が、「設定」エリアのリストコントロールまたはレイアウトテンプレートから「タイムシート承認」フィルターを削除した場合、「自分のタイムシート承認」オプションは、タイムシートリストの上部またはフィルターのリストに表示されません。 詳しくは、次の記事を参照してください。
+   >Workfront管理者またはグループ管理者が、「設定」エリアのリストコントロールまたはレイアウトテンプレートから「タイムシート承認」フィルターを削除した場合、「自分のタイムシート承認」オプションは、タイムシートリストの上部またはフィルターのリストに表示されません。
    >
-   >   
-   >   
-   >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >詳しくは [ レイアウトテンプレートを使用したフィルター、ビュー、グループのカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) を参照してください。
    >   
    >
 
@@ -112,3 +115,21 @@ Workfront 管理者がユーザーへのタイムシート承認イベントハ�
    タイムシートが承認されると、タイムシートのステータスが「**クローズ**」に変わります。
 
    却下された場合は、ステータスが「**拒否**」に変わります。
+
+### ホームエリアからのタイムシートの承認
+
+{{step1-to-home}}
+
+ホームエリアが開きます。
+
+1. **マイ承認** ウィジェットがホームエリアに追加されていることを確認します。 詳しくは、[ 新しいホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) を参照してください。
+1. 自分の承認ウィジェットでタイムシート承認を検索します。
+1. （オプション）「承認」または「却下」ボタンの右側にあるドロップダウンメニューを展開して、決定に関するコメントを追加し、「**追加** をクリックします。
+1. 次のいずれかのボタンをクリックして、承認を決定します。
+
+   * 承認
+   * 拒否
+
+   承認が **自分の承認** ウィジェットから削除されます。
+
+

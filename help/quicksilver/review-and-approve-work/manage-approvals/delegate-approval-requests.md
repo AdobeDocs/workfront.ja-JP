@@ -6,16 +6,16 @@ description: 承認リクエストを委任すると、休暇でオフィスを�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 97%
+source-wordcount: '1261'
+ht-degree: 96%
 
 ---
 
 # 承認リクエストをデリゲート
 
-不在時に割り当てられた作業を、一時的にデリゲートできます。タスクやイシューの割り当てをデリゲートしたり、承認リクエストを委任したりすることができます。この記事では、承認リクエストをデリゲートする方法について説明します。タスクとイシューの割り当てのデリゲートについて詳しくは、[タスクとイシューのデリゲートの管理](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
+不在時に割り当てられた作業を、一時的にデリゲートできます。タスクやイシューの割り当てをデリゲートしたり、承認リクエストを委任したりすることができます。この記事では、承認リクエストをデリゲートする方法について説明します。タスクとイシューの割り当ての委任については、[ タスクとイシューの委任 ](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
 
 承認の割り当て方法（直接自分に割り当てられたか、自分が所属するチームに割り当てられたか、自分の担当業務に割り当てられたか）に関係なく、以下のタイプの承認をデリゲートできます。
 

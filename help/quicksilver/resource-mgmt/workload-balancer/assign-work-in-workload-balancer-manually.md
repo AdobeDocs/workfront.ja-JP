@@ -7,10 +7,10 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 94%
+source-wordcount: '721'
+ht-degree: 93%
 
 ---
 
@@ -105,7 +105,7 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
 
    >[!TIP]
    >
-   > お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。作業アイテムにデリゲートされたユーザーを表示するには、「デリゲーション」タブを使用します。作業のデリゲーションについて詳しくは、[タスクとイシューのデリゲーションの管理](../../manage-work/delegate-work/how-to-delegate-work.md)を参照してください。
+   > お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。作業アイテムにデリゲートされたユーザーを表示するには、「デリゲーション」タブを使用します。作業の委任について詳しくは、[ タスクとイシューを委任 ](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
 
 
    これにより、指定された担当者に作業アイテムが割り当てられるか、再割り当てされます。

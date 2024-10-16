@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
 workflow-type: tm+mt
-source-wordcount: '3830'
+source-wordcount: '3650'
 ht-degree: 85%
 
 ---
@@ -46,9 +46,8 @@ Workfront にログインできる時間の種類について詳しくは、[時
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規： </p>
-   <p>プロジェクト、タスク、問題、またはタイムシートの一般時間を記録するには Light 以上</p>
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規：プロジェクト、タスク、問題、またはタイムシートの一般時間を記録するには Light 以上</p>
    <p>現在： 
    <ul><li>タイムシートの一般的な時間数を記録するには、確認またはそれ以上</li>
    <li>プロジェクト、タスク、またはイシューの時間を記録をするにはワーク以上</li></ul> </td> 
@@ -64,7 +63,7 @@ Workfront にログインできる時間の種類について詳しくは、[時
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -338,15 +337,15 @@ Workfront の次の領域で時間を記録できます。
 ホームエリアの使用の概要については、[ホームエリアの使用](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)を参照してください。
 
 
-#### 新しいホームエリアからの作業アイテムの時間の記録
+<!--#### Log time on a work item from the new Home area-->
 
 ホーム領域の概要パネルを使用して、任意のウィジェットのタスクや問題に時間を記録できます。 詳しくは、この記事の[概要パネル](#summary-panel)の節を参照してください。
 
 さらに、自分の作業ウィジェットでアイテムの時間を記録するには、次の手順に従います。
 
-1. **ホーム**&#x200B;エリアにアクセスします。
+1. **ホーム** エリアに移動します。
 1. **自分の作業**&#x200B;ウィジェットを自分のホームに追加します。
-1. （オプション）リストでタスク、イシューまたはリクエストを選択し、「**作業**」をクリックします
+1. （オプション）リストでタスク、イシューまたはリクエストを選択し、「**作業**」をクリックします。
 1. 時間を記録するタスクまたはイシューにポインタを合わせ、タスク情報の右にある&#x200B;**時間を記録**&#x200B;アイコン ![](assets/log-time-icon-in-new-home.png) をクリックします。
 
    ![](assets/log-time-ui-for-task-from-new-home.png)
@@ -355,19 +354,19 @@ Workfront の次の領域で時間を記録できます。
 
    ログ時間は、オブジェクトの「時間」セクションと、タイムシートに表示されます。
 
-#### 従来のホームエリアからの作業アイテムの時間の記録
+<!--#### Log time on a work item from the legacy Home area
 
-1. **作業リスト**&#x200B;エリアで、時間を記録するアイテムを選択します。
-1. 右パネルで、「**時間を記録**」をクリックします。
+1. In the **Work List** area, select the item where you want to log time.
+1. In the right panel, click **Log Time**.  
+  
+   ![](assets/log-time-home-350x181.png)  
 
-   ![](assets/log-time-home-350x181.png)
+1. In the **Enter Hours** drop-down menu, select the appropriate hour type.  
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+1. Specify the time you want to log, then click **Log Time**.
 
-1. **時間の入力**&#x200B;ドロップダウンメニューで、適切な時間タイプを選択します。\
-   時間タイプは、システム、プロジェクト、ユーザーレベルで定義されている内容に応じて使用できます。詳しくは、[ 時間タイプと空き時間の定義 ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
-1. （条件付き）Workfront 管理者またはグループ管理者が&#x200B;**担当業務を時間エントリに手動で割り当て**&#x200B;設定時に、ドロップダウンメニューから担当業務を選択します。作業アイテムに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。この設定について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
-1. 記録する時間を指定し、「**時間を記録**」をクリックします。
-
-   ログ時間は、オブジェクトの「時間」セクションと、タイムシートに表示されます。
+   The logged time displays in the object's Hours section, nad in your timesheet. -->
 
 ### プロジェクト、タスクまたはイシュー {#project-task-or-issue}
 

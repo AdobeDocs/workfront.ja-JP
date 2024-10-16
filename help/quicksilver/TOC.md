@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
+source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
 workflow-type: tm+mt
-source-wordcount: '14530'
+source-wordcount: '14529'
 ht-degree: 92%
 
 ---
@@ -1511,7 +1511,7 @@ ht-degree: 92%
    * 作業のデリゲート {#delegate-work}
       * [作業の委任](manage-work/delegate-work/delegate-work.md)
       * [タスクおよびイシューのデリゲートの概要](manage-work/delegate-work/delegate-work-overview.md)
-      * [タスクとイシューの委任の管理](manage-work/delegate-work/how-to-delegate-work.md)
+      * [タスクおよびイシューのデリゲート](manage-work/delegate-work/how-to-delegate-work.md)
 * チームとグループ {#teams-groups}
    * [チームとグループ](people-teams-and-groups/people-teams-and-groups.md)
    * チームの作成と管理 {#create-manage-teams}

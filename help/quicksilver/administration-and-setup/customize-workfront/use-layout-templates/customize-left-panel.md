@@ -8,14 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 87%
+source-wordcount: '1091'
+ht-degree: 65%
 
 ---
 
 # レイアウトテンプレートを使用した左パネルのカスタマイズ
+
+<!--Audited: 10/2024-->
 
 [!DNL Adobe Workfront] 全体を通して左パネルエリアに表示される内容をレイアウトテンプレートでカスタマイズできます。
 
@@ -68,26 +70,19 @@ ht-degree: 87%
 ## [!DNL Workfront] でエリアの左パネルをカスタマイズ
 
 1. [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. **[!UICONTROL ユーザーの表示項目をカスタマイズする]**&#x200B;の下にある下向き矢印 ![](assets/dropdown-arrow.png) をクリックし、カスタマイズする左パネルをクリックします。
+1. **[!UICONTROL ユーザーに表示する項目をカスタマイズ]** の下にある下向き矢印 ![](assets/dropdown-arrow.png) をクリックし、カスタマイズするオブジェクト タイプまたは [!DNL Workfront] 領域の名前をクリックします。
 
-   >[!NOTE]
-   >
-   >ドロップダウンリストの「[!UICONTROL ホーム]」オプションについては、[レイアウトテンプレートを使用した[!UICONTROL ホーム]と[!UICONTROL 概要]のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)を参照してください。「リスト」オプションについては、[レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
+   左側のパネルをカスタマイズできるオブジェクトタイプと [!DNL Workfront] 領域を次の表に示します。
 
-1. **[!UICONTROL 左パネル]**&#x200B;リストで、次のいずれかを行って、ユーザーが選択したオプション（[!DNL Workfront] エリアまたはオブジェクトタイプ）の左パネルに何を表示するかを決定します。
-
-   * 項目を表示するか（![](assets/add-secondary-nav-item.png) をクリック）非表示にするか（![](assets/delete-secondary-nav-item.png) をクリック）を選択します。![](assets/add-secondary-nav-item.png) や ![](assets/delete-secondary-nav-item.png) が付いていない項目は非表示にできません。
-
-   * 項目の ![](assets/move-icon---dots.png) をドラッグして、左パネルでの順序を変更します。
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <col> 
     <thead> 
      <tr> 
-      <th>オプション</th> 
+      <th>オブジェクトタイプまたは [!DNL Workfront] 領域</th> 
       <th>ユーザーが次をクリックすると...</th> 
-      <th>次の中から選択した左パネル項目が表示される</th> 
+      <th>左側のパネルのセクションで、レイアウトテンプレートに表示した後にユーザーに表示されるものは、次のとおりです。</th> 
      </tr> 
     </thead> 
     <tbody> 
@@ -206,31 +201,45 @@ ht-degree: 87%
 
    *プロジェクト、ポートフォリオ、プログラムの左側のパネルにこの領域を追加するには、Workfront Planning のライセンスを追加購入する必要があります。 詳しくは、[Adobe Workfront計画の概要を参照してください ](/help/quicksilver/planning/general/planning-overview.md)
 
+
+1. **[!UICONTROL 左側のパネル]** リストで、次のいずれかの操作を行って、選択した [!DNL Workfront] 領域またはオブジェクトタイプの左側のパネルに表示される内容を決定します。
+
+   * 左側のパネルのセクションを表示または非表示にするには、「**表示** ![](assets/add-secondary-nav-item.png)」または「**非表示**」 ![](assets/delete-secondary-nav-item.png) イコンをクリックします。 **表示** または **非表示** アイコンのない項目は非表示にできません。
+
+   * 項目の ![](assets/move-icon---dots.png) をドラッグして、左パネルでの順序を変更します。
+
    >[!NOTE]
    >
-   >「**[!UICONTROL ユーザーの表示項目をカスタマイズする]**」ドロップダウンリストの最後の 3 つの項目（[!UICONTROL リスト]、[!UICONTROL ホームと概要]、および[!UICONTROL ブランディング]）は、左側のパネル以外のエリアを設定するためのものです。詳しくは、次の記事を参照してください。
+   >**[!UICONTROL ユーザーに表示する項目をカスタマイズ]** ドロップダウンリストの次の項目は、左側のパネル以外の領域を参照します。
+   >* [!UICONTROL リスト]
+   >* [!UICONTROL 概要パネル]
+   >* [!UICONTROL ホーム]
+   >* [!UICONTROL ブランディング]
+   > 
+   >その他の領域のカスタマイズ方法について詳しくは、次の記事を参照してください。
    >
-   >* [レイアウトテンプレートを使用したフィルター、ビュー、およびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [レイアウトテンプレートを使用して、[!UICONTROL ホーム]と[!UICONTROL 概要]をカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [ レイアウトテンプレートを使用した [!UICONTROL  概要パネル ] のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [ レイアウトテンプレートを使用したホームのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [レイアウトテンプレートを使用して Adobe  [!DNL Workfront]  をブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
 1. （オプション）組織のダッシュボードの 1 つにリンクする左側のパネル項目を追加する場合は、「**[!UICONTROL カスタムセクションを追加]**」をクリックし、項目の「**[!UICONTROL カスタムセクションのタイトル]**」を入力して、ダッシュボードを追加します。
 
-   左側のパネルの下部にダッシュボード項目が表示されます。ユーザーが左側のパネルにポインタを合わせると、ダッシュボード項目の横に入力したカスタムセクションのタイトルが表示されます。
+   左側のパネルの下部にダッシュボード項目が表示されます。左側のパネルでダッシュボード項目にカーソルを合わせると、その項目の横に入力したカスタムセクションのタイトルが表示されます。
 
    >[!NOTE]
    >
-   >ユーザーは、カスタムダッシュボードの項目を独自の左側のパネルに追加できます。レイアウトテンプレートにカスタムダッシュボード項目を追加すると、上書きやリセットなく、自分の項目がその項目と結合されます。これは、ユーザーをカスタムのダッシュボード項目を含む新しいレイアウトテンプレートに割り当てる場合にも当てはまります。ユーザーが左側のパネルをカスタマイズする方法について詳しくは、[カスタムタブまたはセクションを作成](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)を参照してください。
-
-   ダッシュボードについて詳しくは、[ダッシュボード](../../../reports-and-dashboards/dashboards/dashboards-overview.md)を参照してください。
+   >ユーザーは、カスタムダッシュボードの項目を独自の左側のパネルに追加できます。レイアウトテンプレートにカスタムダッシュボード項目を追加すると、追加した項目に加えて項目が表示され、上書きまたはリセットされることはありません。 これは、ユーザーをカスタムのダッシュボード項目を含む新しいレイアウトテンプレートに割り当てる場合にも当てはまります。ユーザーが左側のパネルをカスタマイズする方法について詳しくは、[カスタムタブまたはセクションを作成](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)を参照してください。
+   >
+   >ダッシュボードについて詳しくは、[ダッシュボード](../../../reports-and-dashboards/dashboards/dashboards-overview.md)を参照してください。
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 
    または
 
-   カスタマイズが終了したら、「**[!UICONTROL 保存]**」をクリックします。
+   カスタマイズが完了したら、「**[!UICONTROL 保存]**」をクリックします。
 
    >[!TIP]
    >
-   >いつでも「[!UICONTROL 保存]」をクリックして進行状況を保存して、後でテンプレートの変更を続行できます。
+   >「[!UICONTROL **保存**]」をクリックすると、いつでも進行状況を保存できます。これによりレイアウトテンプレートエディターが閉じるので、後でテンプレートの変更を続行できます。
