@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 70cbeaa132127d1fc879b04fb6b5eb339945ff78
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '4395'
-ht-degree: 98%
+source-wordcount: '4419'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +55,11 @@ Workfront API を呼び出すために使用する URL について詳しくは�
 
 オブジェクトタイプは大文字と小文字が区別されず、省略形の ObjCode（proj など）、または代替オブジェクト名（project など）を指定できます。
 
-有効な ObjCode のリストについては、[API エクスプローラー](../../wf-api/general/api-explorer.md)を参照してください。
+オブジェクト、有効な ObjCodes、およびオブジェクト フィールドの一覧については、を参照してください  [API エクスプローラー ](../../wf-api/general/api-explorer.md)。
+
+>[!NOTE]
+>
+>Workfront API のコンテキストでは、カスタムフォームは `Category` オブジェクトであり、カスタムフィールドは `Parameter` オブジェクトです。
 
 ### 操作
 

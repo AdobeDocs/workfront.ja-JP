@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: bcc0054f761101ac19d1ced241329fce95be4e99
+source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 52%
+source-wordcount: '1314'
+ht-degree: 49%
 
 ---
 
@@ -35,10 +35,10 @@ ht-degree: 52%
 1. 画面の左側で、「**外部ルックアップ**」を見つけて、キャンバス上のセクションにドラッグします。
 1. フィールドの&#x200B;**ラベル**&#x200B;と&#x200B;**名前**&#x200B;を入力します。
 1. フィールドの&#x200B;**形式**&#x200B;を選択します。
-1. API の URL 呼び出しを「**ベース API の URL**」フィールドに入力します。
+1. API 呼び出しを「**ベース API URL**」フィールドに入力します。
 
-   * $$HOST を追加すると、同じインスタンスを参照できます。
-   * $$QUERY を追加すると、別のフィールドのクエリに基づいて結果をフィルタリングできます。
+   * カスタムフォームと同じWorkfrontのインスタンスを参照するには、URL に$$HOST を使用します。
+   * 別のフィールドに対するクエリに基づいて結果をフィルタリングするには、$$QUERY を追加します。
 
    **例**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
