@@ -5,15 +5,15 @@ description: 優先度は、タスクの所有者に合わせて調整された�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '955'
 ht-degree: 8%
 
 ---
 
 
-# 優先度の概要
+# [!DNL Priorities] の基本を学ぶ
 
 優先度は、タスクの所有者に合わせて調整された、合理化された直感的なエクスペリエンスです。 優先度は、ワークリストから始めて、段階的にロールアウトされます。
 
@@ -80,6 +80,10 @@ ht-degree: 8%
     <td>ステータス</td>
     <td>タスクまたは問題の状態（新規、進行中、完了）を表示します。</td>
     </tr>
+     <tr>
+    <td>マイフォーカス</td>
+    <td>フォーカスレベルが割り当てられている内のタスクまたは問題を表示します。 フォーカスレベルの割り当てと管理は、個々のユーザーが行います。</td>
+    </tr>
   </tbody>
 </table>
 
@@ -88,11 +92,12 @@ ht-degree: 8%
 作業をフィルターした後は、以下に基づいて項目をグループ化できます
 
 * なし
+* マイフォーカス
 * 期限の週
 * ステータス
 * プロジェクト
 
-<!--For more information, see [Find and organize your work in Priorities]().-->
+詳しくは、[ 優先度での作業のフィルタリングとグループ化 ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) を参照してください。
 
 ### 重要な作業アイテムの優先順位付けに自分をフォーカス
 
@@ -105,7 +110,7 @@ ht-degree: 8%
 
 作業アイテムにフォーカスレベルを割り当てたら、列を並べ替えて、ワークリストの上部に緊急のアイテムを表示できます。
 
-<!--For more information, see [Prioritize important work items with My Focus]().-->
+詳しくは、[ 重要な作業項目の優先順位の設定 ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
 
 ![](assets/my-focus-column.png)
 
@@ -133,7 +138,7 @@ ht-degree: 8%
 
 「更新」セクションには、システムの更新と、過去 90 日間にユーザーが行った最新の更新が最大 200 件表示されます。
 
-<!--For more information, see [Add and view updates in Priorities]().-->
+詳しくは、[ 優先度でのコメントの追加と表示 ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md) を参照してください。
 
 ![](assets/new-update.png)
 
@@ -141,7 +146,7 @@ ht-degree: 8%
 
 作業アイテムの時間をログに記録して、そのアイテムに費やした時間数を示すことができます。 休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。記録した時刻がタイムシートに表示されます。
 
-<!--For more information, see [Log time in Priorities]().-->
+詳しくは、「[ 優先度で時間を記録する ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md) を参照してください。
 
 ![](assets/log-time.png)
 
@@ -154,7 +159,7 @@ ht-degree: 8%
 * 追加ファイル
 * 接続されたドキュメント統合からのファイルの読み込み
 
-<!--For more information, see [Upload files in Priorities]().-->
+詳しくは、[ 優先度でのファイルのアップロード ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) を参照してください。
 
 ![](assets/upload-file.png)
 
@@ -170,7 +175,7 @@ ht-degree: 8%
 
 ![](assets/quick-links.png)
 
-<!--For more information, see [Add and manage quick links in Priorities]().-->
+詳しくは、[ 優先度でクイックリンクを追加および管理 ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md) を参照してください。
 
 ### アセットのレビューと承認 [!BADGE  近日公開 ]{type=Informative}
 
@@ -181,9 +186,9 @@ ht-degree: 8%
 詳しくは、[ 新しいホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
 
-## あなたが逃した [!BADGE  近日公開予定 ] を見るために私を追いつきを使用してください{type=Informative}
+## [!DNL Catch me up] を使用して、見逃したもの [!BADGE  近日公開予定 ] を確認します{type=Informative}
 
-追いつく機能を使用して、見逃した内容を確認します。 キャッチアップでは、24 時間、3 日、7 日以内に、プロジェクトに関する更新、アップロードされたドキュメント、承認、その他の注目すべき変更点をまとめます。
+[!DNL Catch me up] 機能を使用して、見逃した内容を確認します。 キャッチアップでは、24 時間、3 日、7 日以内に、プロジェクトに関する更新、アップロードされたドキュメント、承認、その他の注目すべき変更点をまとめます。
 
 
 ![](assets/catch-me-up.png)

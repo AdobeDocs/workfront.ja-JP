@@ -5,9 +5,9 @@ description: 従来のホームは、第 4 四半期のリリースで 10 月 17
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: e63180a5d2b542f98c96ec5a2bd2fb0df078bb11
+source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '568'
 ht-degree: 5%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 5%
 
 | **フィルター** | **グループ化** |
 |------------|-----------|
-| - <br> 作業中 – 開始準備完了 <br> – 準備未完了 <br> - リクエスト <br> – 完了 <br> - プロジェクト <br> – 期日 <br> - ステータス |  – なし <br> – 期限 <br> 週 – ステータス <br> - プロジェクト |
+| - <br> 作業中 – 開始準備完了 <br> – 準備未完了 <br> - リクエスト済み <br> – 完了 <br> - プロジェクト <br> – 期日 <br> - ステータス <br> - マイフォーカス |  – なし <br> - マイ フォーカス <br> – 期限 <br> 週 – ステータス <br> - プロジェクト |
 
 
 **従来のホームフィルターおよびグループ化オプションを優先度で使用できない**
