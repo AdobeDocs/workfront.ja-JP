@@ -1,21 +1,19 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: リソースプールからのユーザーの削除
+title: リソース プールからユーザーを削除
 description: リソースプールに含めることのできるユーザー数に制限はありませんが、ユーザーのリストには最初の 2000 ユーザーのみが、アルファベット順に表示されます。
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # リソースプールからのユーザーの削除
-
-{{preview-and-fast-release-Q424}}
 
 リソースプールに含めることのできるユーザー数に制限はありませんが、ユーザーのリストには最初の 2000 ユーザーのみが、アルファベット順に表示されます。
 
@@ -73,15 +71,10 @@ ht-degree: 88%
    または\
    エンティティに関連付けられているすべてのユーザーを削除する場合は、会社、担当業務、チーム、またはグループの名前を入力します。
 
-   <span class="preview"> プレビュー環境のサンプル画像：<span>
-
    ![ リソース プールからユーザーを削除 ](assets/remove-users-from-resource-pool.png)
 
-   実稼動環境のサンプル画像：
-   ![ リソース プール内の検索 ](assets/search-inside-new-resource-pool-350x314.png)
+1. 「X」アイコンをユーザーレベルでクリックして、リソースプールからユーザーを削除します。 それらは、表示されるすべてのリストから削除されます。
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
-1. ユーザーレベルで「x」アイコンをクリックして、リソースプールからユーザーを削除します。 それらは、表示されるすべてのリストから削除されます。\
-   または\
-   担当業務、グループ、チーム、または会社に関連付けられているすべてのユーザーを削除するには、担当業務、グループ、チームレベル、または会社レベルで「**削除**」をクリックします。これにより、その担当業務、グループ、チーム、または会社に関連付けられているすべてのユーザーが、リソースプールから削除されます。
-
-1. 「**保存**」をクリックします。
+1. **保存**&#x200B;をクリックします。

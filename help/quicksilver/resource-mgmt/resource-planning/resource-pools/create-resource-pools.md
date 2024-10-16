@@ -6,10 +6,10 @@ description: リソースプールは、Adobe Workfrontでリソースをより�
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
-source-git-commit: 2f5e0b8ba4ec4f32ae0457a6a901a43d03389773
+source-git-commit: 854197fcb8c4d3a87e4d93fe2ae9e968a3254027
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 72%
+source-wordcount: '575'
+ht-degree: 74%
 
 ---
 
@@ -19,8 +19,6 @@ ht-degree: 72%
 >id="wf_resource_pools"
 >title="リソース プール"
 >abstract="リソースプールは、プロジェクトの完了に同時に必要なユーザーの集まりです。 リソースプールを作成したら、それをプロジェクトとテンプレートに関連付けることができます。"
-
-{{preview-and-fast-release-Q424}}
 
 リソースプールは、Adobe Workfront でリソースをより簡単に管理するのに役立つユーザーのコレクションです。リソースプールについて詳しくは、[ リソースプールの概要](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)を参照してください。
 
@@ -66,14 +64,10 @@ ht-degree: 72%
 {{step1-to-resourcing}}
 
 1. 左側のパネルで「**リソースプール**」をクリックします。
-
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
-   <span class="preview">![リソースプール](assets/list-of-resource-pools.png)</span>
-
-   実稼動環境のサンプル画像：
-   ![リソースプール](assets/resource-pools-tab-350x198.png)
-
 1. 「**新しいリソースプール**」をクリックします。
+
+   ![リソースプール](assets/list-of-resource-pools.png)
+
 1. 以下を指定します。
 
    <table style="table-layout:auto">
@@ -108,11 +102,7 @@ ht-degree: 72%
    >
    >リソースプール内のユーザー数に制限はありません。ただし、リソース管理が課題になる可能性があるので、リソースプールに多くのユーザーを追加しすぎないようにすることをお勧めします。ユーザーのリストには、リソースプール内の最初の 2,000 人のユーザーがアルファベット順で表示されます。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
-   <span class="preview">![ リソース プールに追加されたユーザー ](assets/users-in-resource-pool2.png)</span>
-
-   実稼動環境のサンプル画像：
-   ![ リソース プールに追加されたユーザー ](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
+   ![ リソース プールに追加されたユーザー ](assets/users-in-resource-pool2.png)
 
 1. （オプション）ユーザーを削除するには、ユーザー名の右側にある「X」アイコンをクリックします。 リソース プールからユーザーを削除する方法の詳細については、「[ リソース プールからユーザーを削除する ](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)」を参照してください。
 1. （オプション）「**検索**」オプションを使用して、リソースプール内のユーザーを検索します。
