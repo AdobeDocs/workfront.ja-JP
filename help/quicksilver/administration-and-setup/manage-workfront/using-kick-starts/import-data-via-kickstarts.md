@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 98%
       <td scope="col"> <p>パラメーター</p> <p>説明テキスト</p><p>パラメーターオプション</p> <p>パラメーターグループ</p> <p>カテゴリパラメーター</p> <p>カテゴリ</p> <p>レポート</p> <p>ポータルのタブセクション</p> <p>ダッシュボード</p> <p>環境設定</p> </td> 
      </tr> 
      <tr> 
-      <td scope="col"> <p>レポート</p> <p>システム内のすべてのレポートを書き出すことができます。1 回の書き出しで、最大 100 個の特定のレポートを選択できます。</p> <p>キックスタートは、テキストモードフィルターをサポートしていません。 書き出しを成功させるには、レポートフィルターを標準モードに切り替える必要があります。</p> </td> 
+      <td scope="col"> <p>レポート</p> <p>システム内のすべてのレポートを書き出すことができます。1 回の書き出しで、最大 100 個の特定のレポートを選択できます。</p> <p>キックスタートは、テキストモードのフィルターやグループ化をサポートしていません。 正常に書き出すには、レポートフィルターとグループ化を標準モードに切り替える必要があります。</p> </td> 
       <td scope="col">ZIP ファイルとして書き出し </td> 
       <td scope="col"> <p scope="col">パラメーター</p> <p scope="col">説明テキスト</p> <p scope="col">パラメーターオプション</p> <p scope="col">パラメーターグループ</p> <p scope="col">カテゴリパラメーター</p> <p scope="col">カテゴリ</p> <p scope="col">レポート</p> <p scope="col">環境設定</p> </td> 
      </tr> 
