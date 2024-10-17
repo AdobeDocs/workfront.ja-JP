@@ -4,10 +4,10 @@ description: 2024年第 4 四半期のホームの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 20%
+source-wordcount: '433'
+ht-degree: 19%
 
 ---
 
@@ -27,6 +27,7 @@ ht-degree: 20%
 
 * **ウィジェットの名前を変更**：このウィジェットの名前は「自分の承認」になりました。
 * **フィルターオプションとして送信した承認を追加**：このウィジェットを使用して、新しいホームで送信した承認を表示できるようになりました。
+* **期限**：プルーフの期限が設定されている場合、その期限が表示されるようになりました。 期限が設定されていない場合、期限はデフォルトで作成日になります。
 
 詳しくは、[新しいホームの基本を学ぶ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。
 

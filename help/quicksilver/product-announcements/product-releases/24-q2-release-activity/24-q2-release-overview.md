@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '2246'
-ht-degree: 95%
+source-wordcount: '2240'
+ht-degree: 94%
 
 ---
 
@@ -372,7 +372,7 @@ ht-degree: 95%
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.10 リリース（2024年10月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：準備中</p>
                             </li>
                         </ul>
                     </td>
@@ -392,7 +392,7 @@ ht-degree: 95%
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.10 リリース（2024年10月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：準備中</p>
                             </li>
                         </ul>
                     </td>

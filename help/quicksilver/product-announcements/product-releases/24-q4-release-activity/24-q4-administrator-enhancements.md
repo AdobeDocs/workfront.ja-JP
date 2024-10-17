@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: e48ef14cc3d0377a6d95f68b502f952ffe4880c4
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 23%
+source-wordcount: '567'
+ht-degree: 20%
 
 ---
 
@@ -17,6 +17,18 @@ ht-degree: 23%
 このページでは、プレビュー環境に対すして 2024年第 4 四半期に行われた管理者向けのすべての機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2024年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。
+
+## 環境の昇格でアクセスレベルを使用できるようになりました
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 10 月 17 日（PT）、すべてのお客様向けの実稼動リリース：24.10 リリースで（2024 年 10 月 17 日（PT））
+
+環境プロモーション機能の機能を拡張するために、アクセスレベルを含める機能を追加しました。 これで、サンドボックス環境でアクセスレベルを設定し、そのアクセスレベルを実稼動環境に昇格させることができます。
+
+以前は、環境のプロモーションにアクセスレベルを使用できませんでした。
+
+環境のプロモーションに使用できるオブジェクトの詳細については、「環境のプロモーションの概要」の [ 環境のプロモーションでサポートされているオブジェクト ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) を参照してください。
 
 ## カスタムフォームのカウンターにフィールド数が表示されます
 

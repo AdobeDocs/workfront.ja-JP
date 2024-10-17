@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、ユーザーにアクセスレベル
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 100%
+source-wordcount: '817'
+ht-degree: 89%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
      >[!NOTE]
      >
-     >レポートにプロンプトがあり、それを公開共有する場合、レポートを実行するユーザーがプロンプトを使用してレポートを実行できるようにするには、Workfront にログインする必要があります。Workfront にログインできない場合は、プロンプトが適用されないレポートが表示されます。プロンプトを使用したレポートの共有に関する制限について詳しくは、[レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)の記事にある[プロンプトレポートの共有に関する制限](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports)を参照してください。
+     >報告書にプロンプトがあり、それを公開で共有する場合、公開共有リンクを介して報告書を実行しているユーザーは、プロンプトを使用して報告書を実行できません。 Workfrontにログインして、公開共有リンクを使用せずにレポートにアクセスしない限り、レポートはプロンプトの適用なしで表示されます。 プロンプトを使用したレポートの共有制限の詳細については、「[ プロンプトをレポートに追加する ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) の記事の [ プロンプト レポートの共有制限 ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) を参照してください。
 
    * **これをシステム全体で表示：**&#x200B;レポートへのアクセス権を持つ Workfront 内の全員がレポートを表示できるようにするには、このオプションを選択します。
 

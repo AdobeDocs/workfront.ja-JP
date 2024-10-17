@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 634b4dc9a75b306c46168848807faff80ab2eced
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 45%
+source-wordcount: '1824'
+ht-degree: 44%
 
 ---
 
@@ -296,7 +296,7 @@ ht-degree: 45%
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.10 リリース（2024年10月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：準備中</p>
                             </li>
                         </ul>
                     </td>
@@ -316,7 +316,7 @@ ht-degree: 45%
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                             <li>
-                                <p>すべてのお客様向けの実稼動リリース：24.10 リリース（2024年10月）</p>
+                                <p>すべてのお客様向けの実稼動リリース：準備中</p>
                             </li>
                         </ul>
                     </td>

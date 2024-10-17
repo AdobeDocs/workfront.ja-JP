@@ -6,10 +6,10 @@ description: 特定のレポート要素を作成するときに、特定の情�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 100%
+source-wordcount: '687'
+ht-degree: 95%
 
 ---
 
@@ -68,7 +68,6 @@ ht-degree: 100%
 
 1. 日付ベースのワイルドカードを挿入するレポートに移動します。
 1. 「**報告書アクション**」をクリックし、次に「**編集**」を選択します。
-
 1. 「**フィルター**」タブをクリックします。
 1. 「**フィルター規則の追加**」をクリックします。
 1. フィルタリングの条件に使用するフィールドの名前を入力していきます。\
@@ -79,7 +78,7 @@ ht-degree: 100%
    >
    >Adobe Workfront でワイルドカードを使用する場合は、常に&#x200B;**が次に等しい**&#x200B;フィルター変数を選択する必要があります。
 
-1. レポートの実行日と同じ日に発生する事象に関する情報を表示する場合は、「**名前を入力...**」テキストボックスに `$$TODAY` と入力します。
+1. **相対的な日付を設定** トグルをクリックし、表示されるテキストボックスで「`$$TODAY`」と入力します（レポートが実行されるのと同じ日に発生した事象に関する情報を表示する場合）。
 
    または
 
@@ -91,8 +90,6 @@ ht-degree: 100%
 1. （オプション）レポートの実行日より前の期間内に発生した事象に関する情報を表示する場合、前の週の情報を表示するには `$$TODAY-1w` と入力し、前の 2 か月の情報を表示するには `$$TODAY-2m` と入力します。四半期、時間、日または年の期間を指定することもできます。
 
    日付ベースのワイルドカードで使用できる属性、修飾子および演算子の完全なリストについては、[ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)の記事を参照してください。
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. 「**保存して閉じる**」をクリックします。
 

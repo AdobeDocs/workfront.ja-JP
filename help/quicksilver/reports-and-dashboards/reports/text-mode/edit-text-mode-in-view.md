@@ -6,10 +6,10 @@ description: 「メモ：この記事に節を追加します： /Content/Report
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 97%
+source-wordcount: '482'
+ht-degree: 94%
 
 ---
 
@@ -97,13 +97,11 @@ ht-degree: 97%
    >
    >テキストモードを使用してビューを編集するには、一度に 1 列ずつ編集する必要があります。
 
-1. ビルダーの右上隅にある「**テキストモードに切り替える**」をクリックします。
+1. ビルダーの右上隅にある「**テキストモードに切り替え**」をクリックしてから、「**テキストモードを編集**」をクリックします。
 
    >[!NOTE]
    >
    >テキストモードで列を編集すると、Workfront はコードの `textmode=true` 行を列に追加します。これは、列がテキストモードで変更されたことを示します。
-
-   ![](assets/switch-to-text-mode-in-view-nwe-highlighted-350x447.png)
 
    次の表に、テキストモードビューでの主な行の概要を示します。
 

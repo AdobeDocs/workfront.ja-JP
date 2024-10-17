@@ -6,10 +6,10 @@ description: レポートを Adobe Workfront の他のユーザーと共有す�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
 workflow-type: tm+mt
-source-wordcount: '1220'
-ht-degree: 99%
+source-wordcount: '1218'
+ht-degree: 96%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 99%
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>テキストの色</strong></td> 
-      <td> <p>テキストを表示する色を選択します。 色は 8 色あります。</p> <p><b>メモ</b></p> <p> フィールドにハイパーリンクが含まれている場合、テキストの色の選択はこのフィールドには適用されません。</p> </td> 
+      <td> <p>カラーセレクターを使用して、テキストの表示カラーを選択します。</p> <p><b>メモ</b></p> <p> フィールドにハイパーリンクが含まれている場合、テキストの色の選択はこのフィールドには適用されません。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>テキスト形式</strong></td> 
@@ -151,7 +151,7 @@ ht-degree: 99%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>背景</strong></td> 
-      <td>テキストの背景の色を選択します。 色は 8 色あります。</td> 
+      <td>カラーセレクターを使用して、テキストの背景色を選択します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>アイコンを表示</strong></td> 
@@ -189,6 +189,6 @@ ht-degree: 99%
    * 遅れているプロジェクトで赤色の背景に対して、列の規則を再度追加します。
    * 規則とビューを保存すると、キャンセルされたプロジェクトには赤色の背景が適用されません。
 
-1. 「**完了**」をクリックします。
+1. 「**保存**」をクリックします。
 1. 「**保存して閉じる**」をクリックします。\
    レポートでは、指定した条件が満たされた場合に、形式に対する変更が表示されます。
