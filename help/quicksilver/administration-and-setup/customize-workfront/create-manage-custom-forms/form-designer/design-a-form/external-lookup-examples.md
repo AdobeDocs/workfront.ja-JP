@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1314'
+source-wordcount: '1321'
 ht-degree: 49%
 
 ---
@@ -111,13 +111,15 @@ ht-degree: 49%
 
 ## Workfront Planning API 用の外部参照フィールドの設定
 
-[Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md) のエンドポイントを使用して、Get メソッドを介してレコードタイプ ID でレコードを検索できます。 このエンドポイントを使用して、外部参照フィールドで Planning レコードを参照できます。
+Workfront Planning API では、Get メソッドを使用してレコードタイプ ID でレコードを検索するためのエンドポイントを使用できます。 このエンドポイントを使用して、外部参照フィールドで Planning レコードを参照できます。
 
 * **ベース API の URL:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
 * **HTTP メソッド：** Get
 * **JSON パス：** `$.records[*].data.{fieldID}`
 
   **{fieldID}** は、エンドユーザーのカスタムフォーム上で外部検索の検索結果に表示するフィールドです。
+
+詳しくは、[Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md) を参照してください。
 
 ## パブリック API 用の外部参照フィールドの設定
 

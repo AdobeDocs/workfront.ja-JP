@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 15%
+source-wordcount: '1262'
+ht-degree: 14%
 
 ---
 
@@ -175,11 +175,12 @@ ht-degree: 15%
    カスタムフォームの作成について詳しくは、「[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. （オプション） **プレビュー** をクリックして、他のユーザーが新しいレコードを送信する際にフォームを使用する際のフォームの表示方法を表示します。
+1. （オプション）ヘッダーのフォーム名の右 ![](assets/more-menu.png) にある **詳細** メニューをクリックしてから、**編集** をクリックしてフォームの名前を更新します。
 1. **Publish** をクリックしてフォームを公開し、フォームの一意のリンクを取得します。
 
    次のことが発生します。
 
-   * 「Publish」ボタンが削除されます。
+   * 「**Publish**」ボタンが削除されました。
    * **非公開** ボタンがフォームに追加されます。 クリックすると、フォームにアクセスできなくなります。
    * 「**共有** ボタンがフォームに追加されます。
 

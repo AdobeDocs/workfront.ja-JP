@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
 source-wordcount: '1867'
 ht-degree: 57%
@@ -304,7 +304,7 @@ ht-degree: 57%
 
    Workfront では、変更を自動的に保存します。
 
-1. （任意）「**書き出し**」アイコンの ![](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細を書き出します。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+1. （任意） **書き出し** メニューフ ![](assets/export-icon-in-record-details-page.png) ールドをクリックして、レコードの詳細を書き出します。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 1. （オプション）レコードのプレビューの右上隅に <!--check the icon; they are changing it--> る **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを新しいタブで開きます。 この記事の[レコードのページからレコードを編集](#edit-a-record-from-the-records-page)の節の説明に従って、レコードを引き続き編集します。
 
@@ -359,7 +359,7 @@ ht-degree: 57%
 
    Workfront では、変更を自動的に保存します。
 
-1. （任意）「**書き出し**」アイコンの ![](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細を書き出します。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+1. （任意） **書き出し** メニューフ ![](assets/export-icon-in-record-details-page.png) ールドをクリックして、レコードの詳細を書き出します。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 
 ## 計画セクションのWorkfrontオブジェクトからレコードを編集する

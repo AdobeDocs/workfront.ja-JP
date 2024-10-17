@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
 workflow-type: tm+mt
-source-wordcount: '1358'
+source-wordcount: '1361'
 ht-degree: 11%
 
 ---
@@ -198,7 +198,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    セクションとフィールドの順序に対するすべての変更は、自動的に保存されます。
 
-1. （オプション）「**エクスポート**」アイコンをクリックして、「詳細」タブを Word ファイルにエクスポー ![](assets/export-icon-in-record-details-page.png) します。 詳しくは、[ レコードの詳細のエクスポート ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+1. （オプション） **エクスポート** メニューフ ![](assets/export-icon-in-record-details-page.png) ルダーをクリックして、「詳細」タブを Word またはPDFファイルにエクスポートします。 詳しくは、[ レコードの詳細のエクスポート ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 1. （オプション）「**詳細**」タブの横にある「**接続**」タブをクリックします。 場合によっては、[**接続**] タブをクリックする前に **詳細** をクリックする必要があります。
 
