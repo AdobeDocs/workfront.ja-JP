@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion のシナリオでは、 [!DNL NetSuite] を
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: 57a9667edea9067f14a6c40a75f6cf56a00d5e7d
+source-git-commit: ff66cacc86532092e7a6805b7bf3c26d4437d9e9
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 88%
 
 ---
 
@@ -67,7 +67,45 @@ ht-degree: 100%
 
 [!DNL NetSuite] モジュールを使用するには、[!DNL NetSuite] アカウントが必要です。
 
+## NetSuite への接続の作成
 
+[!DNL NetSuite] モジュールへの接続を作成するには、以下を実行します。
+
+1. [!DNL NetSuite] モジュールで、「接続」ボックスの横にある **[!UICONTROL 追加]** をクリックします。
+
+1. 次のフィールドに入力します。
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>この接続の名前を入力します。</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type] </td>
+          <td>サービスアカウントと個人アカウントのどちらに接続するかを選択します。</p>
+        </tr>
+       <tr>
+          <td role="rowheader">[!UICONTROL アカウント ID] </td>
+          <td>NetSuite アカウントの ID を入力します。</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>NetSuite アカウントのクライアント ID を入力します。 これは、NetSuite クライアント認証情報にあります。</p></td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>NetSuite アカウントのクライアントの秘密鍵を入力します。</p>
+        </tr>
+        </tbody>
+    </table>
+1. 「**[!UICONTROL 続行]**」をクリックして接続を保存し、モジュールに戻ります。
 
 ## [!DNL NetSuite] モジュールとそのフィールド
 
@@ -92,7 +130,7 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>[!DNL NetSuite] アカウントを Workfront Fusion に接続する手順について詳しくは、この記事の <a href="#create-a-connection-to-netsuite-in-a-workfront-fusion-netsuite-module" class="MCXref xref">Workfront Fusion NetSuite モジュールで [!DNL NetSuite] への接続の作成</a>を参照してください。</p> </td> 
+   <td> <p>[!DNL NetSuite] アカウントをWorkfront Fusion に接続する手順については、この記事の <a href="#create-a-connection-to-netsuite" class="MCXref xref">[!DNL NetSuite]</a> への接続の作成」を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
