@@ -5,16 +5,14 @@ description: 「要約」機能を使用すると、作業項目とドキュメ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
-source-git-commit: bbe4ad6a8528e7d0e3a5f6f2b669c1b5d8d2e313
+source-git-commit: 59c74b6530df09cb664e146b611d246465cf0116
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 15%
+source-wordcount: '415'
+ht-degree: 11%
 
 ---
 
 # AI アシスタントを使用して要約する
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 Workfrontの AI アシスタントは、いくつかのオブジェクトをまとめ、オブジェクトの意図や詳細の概要を表示できます。
 
@@ -67,8 +65,6 @@ AI アシスタントでは、次のオブジェクトをまとめることが�
 
   詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
-<div class="preview">
-
 ## 要約ボタンを使用した要約
 
 次の領域には、AI アシスタントを使用して要約を生成するボタンがあります。
@@ -88,8 +84,6 @@ AI アシスタントでは、次のオブジェクトをまとめることが�
 1. （オプション）プロンプトを調整して、必要な情報が提供されるようにします。
 
    たとえば、Summarize Contents プロンプトを改良して、過去 7 日間ではなく過去 14 日間のコメントを要約することができます。
-
-   </div>
 
 ## AI アシスタントでのオブジェクトの要約
 
