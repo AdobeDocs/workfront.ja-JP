@@ -2,176 +2,225 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: '[!UICONTROL ホーム]の概要'
-description: '[!UICONTROL ホーム]エリアは、割り当てられたタスク、イシュー、および承認を検索するためのワンストップショップです。[!UICONTROL ホーム]エリアで自分の作業を表示するには、[!UICONTROL 作業リスト]または[!UICONTROL カレンダー]からの 2 つの方法があります。'
-author: Nolan
+description: ホームは、作業を管理するのに役立ちます。 この柔軟なスペースは、ユーザーにとって最も重要な作業を強調し、タスク、イシュー、リクエスト、承認の管理を合理化するためにカスタマイズできます。
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 100%
+source-wordcount: '1190'
+ht-degree: 76%
 
 ---
 
-# [!UICONTROL ホーム]の概要
+# ホームの基本を学ぶ
 
 <!--Audited: 12/2023-->
 
-この記事では、[!DNL Adobe Workfront] の現在の[!UICONTROL ホーム]エリアの概要について説明します。新しい[!UICONTROL ホーム]での作業について詳しくは、[新しいホームの基本を学ぶ](../new-home/get-started-with-new-home.md)を参照してください。
-
-現在の[!UICONTROL ホーム]エリアで作業を表示するには 2 つの方法があります。
-
-* [!UICONTROL 作業リスト]から
-* [!UICONTROL カレンダー]から
-
-## [!UICONTROL 作業リスト]
-
-割り当てられたすべての作業は、[!UICONTROL 作業リスト]に 1 か所で表示できます。
-
-![[!UICONTROL 作業リスト]パネル](assets/worklist-and-right-panel-home.png)
-
-上の画像でハイライト表示されているように、現在の[!UICONTROL ホーム]エリアにある次のセクションを確認します。
-
-* **A**：左パネルを使用して、自分に割り当てられた作業をフィルタリング、並べ替え、選択します。
-
-* **B**：左パネルで作業アイテムを選択した後、右パネルを使用してカスタムフィールドを操作し、更新を行い、時間を記録します。
-
-[!UICONTROL ホーム作業リスト]の使用について詳しくは、次の記事を参照してください。
-
-* [[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]に項目を表示する](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
-* [[!UICONTROL ホーム]エリアから作業アイテムを作成する](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
-
-## [!UICONTROL カレンダー]
-
-作業アイテムの期限を表示することで作業を視覚化し、[!UICONTROL ホーム]エリアの[!UICONTROL カレンダー]で作業を確認することで、作業を完了する時間を確保できます。
-
-![](assets/calendar-home-nwe-350x114.png)
-
-上の画像でハイライト表示されているように、現在の[!UICONTROL ホーム]エリアにある次のセクションを確認します。
-
-* **A**：[!UICONTROL カレンダー]ビューを使用して、完了する必要がある作業の視覚的なマップを作成します。作業アイテムをクリックして[!UICONTROL 作業リスト]から[!UICONTROL カレンダー]にドラッグするだけで、作業時間をブロックできます。
-
-* **B**：[!UICONTROL カレンダー]の同期オプションを使用して、[!DNL Outlook] カレンダーと同期します。会議を管理し、すべてを 1 か所で作業します。
-
-* **C**：「[!UICONTROL 詳細]」ボタンを使用して新しい右パネルを開き、作業アイテムに関する詳細情報を表示します。
-
-* **D**：期限バーを使用して、自分に割り当てられた作業の期限を追跡します。
-
-ホームのカレンダーの使用方法について詳しくは、[[!UICONTROL ホームのカレンダー]ビューを使用](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)を参照してください。
-
-## 担当作業の検索
-
-[!UICONTROL ホーム]エリアは、割り当てられたタスク、イシュー、および承認を検索するためのワンストップショップです。フィルター、グループ化および並べ替えのオプションは連携して、自分の目的に合わせて作業アイテムを整理できるようにサポートします。グループ化を使用して項目をグループ化し、フィルターを使用して完了する必要のある作業に焦点を当て、最後に並べ替えを使用して項目をグループ化の昇順または降順でリストすることができます。
-
->[!NOTE]
+>[!IMPORTANT]
 >
->フィルターおよび並べ替えのオプションは、ブラウザーに保存されます。同じコンピューターで一貫して同じブラウザーを使用している（サイトのデータをクリアしない）場合、フィルターと並べ替えは変更されませんが、ブラウザーやコンピューターを切り替えると、フィルターと並べ替えが異なります。
+>この記事のコンテンツは、新しいホームで始めるの記事のコンテンツに置き換えられました。 新しいホームは、ホームと呼ばれるようになりました。
 
-### 類似した作業アイテムのグループ化
+Adobe Workfront の新しいホームエクスペリエンスは、現在のホームエクスペリエンスを改善すると共に、適切な作業に集中できるより柔軟な方法を提供することを目的としています。
 
-グループ化を使用すると、作業リストの共通ヘッダーの下に、同様の項目を表示できます。次の項目でグループ化できます。
+新しいホームは、作業を管理するための強力な新機能です。この柔軟なスペースは、ユーザーにとって最も重要な作業を強調し、タスク、イシュー、リクエスト、承認の管理を合理化するためにカスタマイズできます。
 
-* [!UICONTROL 予定完了日]
-* [!UICONTROL 予定開始日]
-* [!UICONTROL コミット日]
-* [!UICONTROL プロジェクト]
-* [!UICONTROL マイ優先度]
+## 新しいホームのカスタマイズ
 
-グループ化の使用方法について詳しくは、[[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]に項目を表示](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)を参照してください。
+新しいホームは、高度にカスタマイズ可能な設計になっており、最も重要な作業を追跡するウィジェットを選択したり、期限に応じてその作業の範囲をフィルタリングしたり、さらには色のスプラッシュを追加したりもできます。
 
-![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
+### ウィジェット
 
-### フィルターでフォーカスを絞り込む
+ウィジェットは、新しいホームの基礎です。ウィジェットをホームページに追加することで、作業のニーズに最も合うように表示する情報のタイプを選択できます。一部のウィジェットは、特定のライセンスの種類に対してのみ使用できます。それらのウィジェットが追跡するオブジェクトは、それらのライセンスに対してのみ使用できるからです。
 
-[!UICONTROL 作業リスト]フィルターを使用すると、特定の作業アイテムに焦点を絞り込むことができます。
+ウィジェットの追加、移動、サイズ変更、削除について詳しくは、[新しいホームでウィジェットを追加、編集、または削除](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)を参照してください。
 
-次に、ホームで表示した項目をフィルタリングする方法の例を示します。
+以下は、現在選択可能な 11 のウィジェットと、表示される情報の概要です。
 
-* 項目のタイプと状態でフィルタリングします。
+* **担当作業**\
+    このウィジェットは、様々な作業を管理するための開始点として最適で、割り当てられたすべてのタスク、イシュー、リクエストが 1 か所に表示されます。「作業対象」ボタンをクリックして項目の作業を開始するか、「完了」ボタンをクリックして完了をマークできます。 タスクと問題に関する情報（ステータス、条件、完了率）を更新したり、時間を記録したり、担当作業ウィジェットから更新を追加したりすることもできます。
 
-  例えば、すべてのタスクを表示する場合は、[!UICONTROL タスク]フィルターを選択できます。これよりも具体的に、作業を開始する準備ができているタスクのみを表示したい場合は、[!UICONTROL タスク]フィルターの下にある[!UICONTROL 開始準備完了]フィルターを選択します。
+* **ボード**\
+    作成したボードや使用を招待されたボードが表示されます。 基本ボード、かんばんボード、レトロボード、動的ボードなどのテンプレートに基づいて、新しいボードを作成することもできます
 
-* 項目タイプのみでフィルタリングします。
+* **マイプロジェクト**\
+    所有しているプロジェクトまたは参加中のプロジェクトをリストに表示します。既存のフィルター、ビュー、グループ化を使用してリストをカスタマイズすることも、ウィジェットから直接プロジェクトを作成することもできます。
 
-  例えば、[!UICONTROL イシュー]を選択してすべての状態のすべてのイシューを表示するか（[!UICONTROL 作業中]または[!UICONTROL リクエスト済み]）、[!UICONTROL 承認]を選択してすべての作業アイテム、アクセス権のリクエスト、タイムシート、ドキュメント、およびプルーフの承認を表示できます。
+* **マイタスク**\
+    自分に割り当てられたタスクをリストに表示します。既存のフィルター、ビュー、グループ化を使用してリストをカスタマイズすることも、ウィジェットから直接タスクを作成することもできます。また、オフィスを離れている間にタスクを委任することもできます。
 
-フィルターの使用方法について詳しくは、[[!UICONTROL ホーム]エリアの[!UICONTROL 作業リスト]に項目を表示](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)を参照してください。
+* **マイイシュー**\
+    自分に割り当てられたイシューをリストに表示します。既存のフィルター、ビュー、グループ化を使用してリストをカスタマイズすることも、ウィジェットから直接イシューを作成することもできます。このウィジェットには、関連するプロジェクトが現在に設定され、完了したプロジェクトが含まれていないイシューのみが含まれます。 また、オフィスを離れている間にイシューを委任することもできます。
 
-![](assets/displaying-work-items-filters-nwe-350x401.png)
+* **マイリクエスト**\
+    送信したすべてのリクエスト、開いているリクエストのみを表示するフィルター、リクエストの概要パネルを開くボタンを表示します。
 
-### チームに割り当てられた作業にアクセスする
+* **チームリクエスト**\
+    自分が所属しているチームのすべての保留中のリクエストをチームごとに並べ替えて表示します。また、リクエストをユーザーに直接割り当てるか、自分で作業するためのボタンも表示します。
 
-[!UICONTROL ホーム]エリアには、チームに割り当てられたタスクとイシューを表示する永続的なグループ（[!UICONTROL チームリクエスト]）があります。チームはこのセクションに表示されます。チームの名前をクリックすると、そのチームのチームリクエストページが開きます。
+* **マイ承認**\
+    承認待ち、割り当て、委任、送信済みのすべての承認、承認を委任するボタン、ウィジェット内で直接承認に関する決定を行うボタンが表示されます。
 
->[!NOTE]
->
->フィルターと並べ替えのオプションは、[!UICONTROL チームリクエスト]のグループ化には影響しません。このグループ化は、チームに作業が割り当てられている限り表示されます。
+* **すべての承認**\
+        平均承認時間と決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリストビューを表示します。 <span style="color: #ff0000;">この機能は段階的リリースの一部で、現在は特定のお客様のみが利用できます。</span>
 
-チームリクエストへのアクセスについて詳しくは、[[!UICONTROL [!UICONTROL ホーム]エリアで作業とチームのリクエストを管理]](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)の記事を参照してください。
+* **メンション**\
+    マイアップデート ページと同様に、Workfront全体からの最近のコメントスレッドを表示します。 返信ボタンを使用して、ウィジェット内で返信を作成できます。このウィジェットには、タスクまたはイシューが過去 30 日間に更新されている限り、自分が割り当てられている、他のユーザーに割り当てられている、自分が所有している、自分がプライマリ連絡先である、または自分が作成したタスクとイシューに関して作成されたコメントも表示されます。
 
-![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
-
-### 送信した作業を監視する
-
-承認のために送信した作業を[!UICONTROL 作業リスト]から直接追跡します。[!UICONTROL 作業リスト]で[!UICONTROL 承認]を表示することを選択すると、[!UICONTROL 送信済みの承認]が永続的にグループ化されます。承認が必要な作業を承認者に通知することができます。必要に応じて、承認を取り消すこともできます。
-
->[!NOTE]
->
->フィルターと並べ替えは、[!UICONTROL 送信済みの承認]のグループ化には影響しません。承認待ちの作業がある限り、このグループ化は表示されます。
->
->「[!UICONTROL 承認]」フィルターの承認数には、承認のために送信した項目の数は表示されません。「[!UICONTROL 承認]」フィルターには、承認待ちの項目のみが表示されます。
-
-![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
-
-## 重要な項目を優先する
-
-[!UICONTROL 作業リスト]では、[!UICONTROL マイ優先度]グループを使用して、自分にとって重要な作業を表示し、優先順位を付けることができます。最大 20 個の作業を[!UICONTROL マイ優先度]リストに追加できます。
-
->[!NOTE]
->
->[!UICONTROL マイ優先度]に追加された作業アイテムは自分にのみ表示され、他のユーザーが代わりに作業の優先順位を付けることはできません。
-
-[!UICONTROL マイ優先度]の使用方法について詳しくは、[[!UICONTROL ホーム]エリアでの作業の優先付け](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)を参照してください。
-
-![](assets/prioritizing-in-home-group-by-drop-down-nwe-350x412.png)
-
-## 完了
-
-[!UICONTROL 作業リスト]の項目名をクリックした後、[!UICONTROL ホーム]の右パネルを使用して作業を更新して完了します。
-
-### カスタマイズされたスペースでの作業
-
-[!DNL Workfront] 管理者は、[!UICONTROL 作業リスト]内の項目に最大 16 個のカスタムフィールドを追加して、必要な情報の検索と更新を容易にすることができます。ほとんどのフィールドは編集可能なので、作業アイテムに移動する必要はありません。
-
-このエリアのフィールドを更新するには、フィールドをクリックするだけです。フィールドが編集可能な場合は、右パネルで変更できます。
-
->[!NOTE]
->
->このフィールドがレイアウトテンプレートから作業アイテムに追加された場合、[!UICONTROL コミット日]を更新することはできません。
-
-![](assets/16-fields-home-350x137.png)
-
-### 他のメンバーに重要な最新情報を伝える
-
-[!UICONTROL ホーム]エリアから、他のメンバーと迅速かつ効率的にコミュニケーションできます。作業アイテムのコメントエリアを使用すると、[!UICONTROL ホーム]エリアから質問したり、他の人に最近の更新を通知したり、直接コメントに返信したりできます。さらに、次の方法で進捗状況の最新情報を他のユーザーに知らせることもできます。
-
-* コメントエリアの[!UICONTROL コミット日]の更新
+* **To Do**\
+    この独自のウィジェットを使用すると、自由に編集できる個人用チェックリストに項目を追加できます。To-Do は個人プロジェクトのタスクとして追跡され、完了後最大 2 週間保持されます。
 
   >[!NOTE]
   >
-  >   ホームでコミット日を更新できるのはここだけです。
+  >To Do ウィジェットで To Do を作成するには、タスクを作成する権限が必要です。現在のユーザーが入力した個人タスクのみがウィジェットに表示されます。
 
-* コメントを追加したり項目の[!UICONTROL 状況]を更新して、進捗に関する感想を報告
-* 完了率バーの更新
+デフォルトでは、ホームページには、ライセンスの種類に基づいて、いくつかの特定のウィジェットが入力されます。次の表は、各ライセンスタイプのユーザーが最初に新しいホームに移動したときに表示されるウィジェットの概要を示しています。
 
-[!UICONTROL ホーム]エリアでのコミュニケーションについて詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>新しいライセンスタイプ</b></td>
+        <td><b>デフォルトのウィジェット</b></td>
+    </tr>
+    <tr>
+        <td>標準</td>
+        <td>マイプロジェクト、担当作業、メンション、To-Do</td>
+    </tr>
+    <tr>
+        <td>ライト</td>
+        <td>担当作業、承認</td>
+    </tr>
+    <tr>
+        <td>コントリビューター</td>
+        <td>マイ要求，メンション，承認，ボード</td>
+    </tr>
+    <tr>
+        <td>外部</td>
+        <td>マイ承認</td>
+    </tr>
+</table>
 
-![](assets/updates-home-350x198.png)
+<table border="1" class="inlineTable">
+    <tr>
+        <td><b>現在のライセンスタイプ</b></td>
+        <td><b>デフォルトのウィジェット</b></td>
+    </tr>
+    <tr>
+        <td>プラン</td>
+        <td>マイプロジェクト、メンション、To-Do</td>
+    </tr>
+    <tr>
+        <td>ワーク</td>
+        <td>担当作業、メンション、To-Do</td>
+    </tr>
+    <tr>
+        <td>レビュー</td>
+        <td>担当作業、メンション</td>
+    </tr>
+    <tr>
+        <td>リクエスト</td>
+        <td>マイ プロジェクト、マイ承認</td>
+    </tr>
+    <tr>
+        <td>参加</td>
+        <td>担当作業、メンション</td>
+    </tr>
+    <tr>
+        <td>外部</td>
+        <td>マイ承認</td>
+    </tr>
+</table>
 
-### 時間の記録
+### バックグラウンドのカスタマイズ
 
-個々の作業アイテムに費やした時間を追跡します。[!UICONTROL タスク時間]などの一般的な時間タイプを選択することも、[!DNL Workfront] 管理者が設定したプロジェクト固有の時間タイプを選択することもできます。
+ページの上部のカラフルなバナーを選択することで、ホームページに個人用のフレアを少し追加できます。
 
-[!UICONTROL ホーム]エリアで時間を記録する方法について詳しくは、[時間の記録](../../../timesheets/create-and-manage-timesheets/log-time.md)の記事で[ホーム](../../../timesheets/create-and-manage-timesheets/log-time.md#home)の節を参照してください。
+**ホームの背景の色を変更するには：**
 
-![](assets/log-time-home-350x181.png)
+1. 次のいずれかの操作を行って、ホームページに移動します。
+
+   * ホームがランディングページとして設定されている場合は、画面の左上隅にある **Adobe Workfront** アイコン ![Adobe Workfront アイコン](assets/home-icon-30x29.png) をクリックします。
+   * 画面の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコンをクリックするか、利用可能であれば左上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![メインメニューアイコン](assets/main-menu-icon.png) をクリックし、「**ホーム**」を選択します。
+
+1. 画面の右上隅にある「**カスタマイズ**」をクリックします。
+
+   ![カスタマイズボタン](assets/customize-button.png)
+
+   カスタマイズパネルが開きます。
+
+1. **カスタマイズ**&#x200B;パネルの「**背景**」セクションで、ホームの背景に選択する色をクリックします。また、「**なし**」をクリックして背景を削除します。
+
+## 現在のホームエクスペリエンスに戻す
+
+既存のホームエクスペリエンスの方が良い場合は、新しいホームエクスペリエンスをオフに切り替えることができます。
+
+現在のホームエクスペリエンスに戻るには：
+
+1. 次のいずれかの操作を行って、ホームページに移動します。
+
+   * ホームがランディングページとして設定されている場合は、画面の左上隅にある **Adobe Workfront** アイコン ![Adobe Workfront アイコン](assets/home-icon-30x29.png) をクリックします。
+   * 画面の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコンをクリックするか、利用可能であれば左上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![メインメニューアイコン](assets/main-menu-icon.png) をクリックし、「**ホーム**」を選択します。
+
+1. ページの右下隅にある「**現在のホームに戻る**」ボタンをクリックします。
+
+   ![現在のホームに戻るボタン](assets/customize-button.png)
+
+   確認ウィンドウが表示されます。
+
+1. 新しいホームでのエクスペリエンスに関する簡単な調査を行うか、「**現在のホームに戻る**」をクリックして、現在のホームエクスペリエンスに戻します。
+
+>[!NOTE]
+>
+> システム管理者は、新しいホームをユーザーのデフォルトとするのを無効にできます。システム全体でユーザーのデフォルトのホームのエクスペリエンスを変更する方法について詳しくは、[システム環境の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+Home helps you manage your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
+
+## Customize Home
+
+Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, and even add a splash of color.
+
+### Background customization
+
+You can add a bit of personal flare to your Home page by selecting a colorful banner for the top of the page.
+
+**To change the color of your Home background:**
+
+1. Go to your Home page, by doing one of the following: 
+
+    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) in the upper-left corner of your screen.
+    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) in the upper-left corner, if available, then click **Home**.
+
+1. Click **Customize** at the upper-right corner of the screen.
+
+    ![Customize Button](../new-home/assets/customize-button.png)
+
+    The Customize panel opens. 
+
+1. In the **Background** section of the **Customize** panel, click the color you would like to select for your Home background. You can also click **None** to remove the background.
+
+## Manage you work
+
+### Add Widgets
+
+Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
+
+For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+
+-->

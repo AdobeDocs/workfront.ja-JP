@@ -5,9 +5,9 @@ description: 優先度は、タスクの所有者に合わせて調整された�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 00a1876e005f0f0c47bdebaab77bbcfe42318612
+source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
 workflow-type: tm+mt
-source-wordcount: '955'
+source-wordcount: '954'
 ht-degree: 8%
 
 ---
@@ -183,7 +183,7 @@ ht-degree: 8%
 
 現時点では、新しいホームでマイ承認ウィジェットと全承認ウィジェットを使用することをお勧めします。
 
-詳しくは、[ 新しいホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) を参照してください。
+詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
 
 ## [!DNL Catch me up] を使用して、見逃したもの [!BADGE  近日公開予定 ] を確認します{type=Informative}

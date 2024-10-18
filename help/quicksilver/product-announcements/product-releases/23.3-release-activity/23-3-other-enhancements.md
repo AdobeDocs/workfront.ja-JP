@@ -5,9 +5,9 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '439'
 ht-degree: 100%
 
 ---
@@ -30,7 +30,6 @@ ht-degree: 100%
 
 新しいホームは、リリースと同時にすべてのユーザーのデフォルトエクスペリエンスになります。ただし、その機能は引き続き開発中であるため、既存のホームエクスペリエンスに戻すことも選択できます。
 
-詳しくは、[Adobe Workfront の新しいホームの概要](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3420969/){target=_blank}
 

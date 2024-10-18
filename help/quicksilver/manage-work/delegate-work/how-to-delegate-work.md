@@ -6,7 +6,7 @@ description: 不在時に割り当てられた作業を、一時的にデリゲ�
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
 workflow-type: tm+mt
 source-wordcount: '1518'
 ht-degree: 81%
@@ -107,7 +107,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 1. [!UICONTROL **ホーム**] エリアに移動します。
 1. [!UICONTROL **マイ作業**]、[!UICONTROL **マイタスク**] または [!UICONTROL **マイイシュー**] ウィジェットが [!UICONTROL **ホーム**] に追加されていることを確認します。
 
-   詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) を参照してください。
+   詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
 1. [!UICONTROL **マイ作業**]、[!UICONTROL **マイタスク**] または [!UICONTROL **マイイシュー[!UICONTROL ** ウィジェットの左上隅にある **]委任**] をクリックします。
 

@@ -4,9 +4,9 @@ description: 2024年第 1 四半期のホームの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 54bbcc0a86516f4e4b561a7fae8c73c3979e59a4
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '298'
 ht-degree: 100%
 
 ---
@@ -21,7 +21,6 @@ ht-degree: 100%
 
 自身が所有するプロジェクトの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。ここでは、自身が所有するプロジェクトでドキュメントの承認またはレビューに割り当てられたユーザーのリスト、レビューまたは承認のステータス、レビュアーと承認者にレビューまたは承認の完了を促すリストを表示できます。
 
-ホームウィジェットについて詳しくは、[新しいホームの基本を学ぶ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。
 
 ## レイアウトテンプレートを使用した新しいホームの管理者コントロール
 
@@ -34,5 +33,3 @@ ht-degree: 100%
 ## 自分の作業のクイックアクションボタンを、マウスオーバー時にのみ表示されるように変更
 
 パフォーマンス向上のために、自分の作業ウィジェットで使用できるクイックアクションボタンが、作業アイテムをマウスで移動したときにのみ表示されるようになりました。
-
-自分の作業ウィジェットで使用できるクイックアクションボタンについて詳しくは、[新しいホームの基本を学ぶ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。

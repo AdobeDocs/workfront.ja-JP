@@ -7,83 +7,90 @@ description: '[!UICONTROL ホーム]領域の [!UICONTROL Home Calendar] ビュ�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 174bf68f-bbb7-4777-aeeb-53a0b3a8b1f7
-source-git-commit: 644e2487dae0d3b2f7931660fb8e6ed68e6b8b93
+source-git-commit: 1131c2329d194f0c9181b6a5cbd39f19a5247ef0
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 100%
+source-wordcount: '73'
+ht-degree: 84%
 
 ---
 
-# [!UICONTROL Home Calendar] ビュー
+# [!UICONTROL ホームのカレンダー]ビュー
+
+>[!IMPORTANT]
+>
+>この機能は、2014 年 10 月 17 日（PT）のレガシーホームの廃止で削除されました。
+
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">Updated for QS except for section about expanding a work item in the list--this isn't working yet in QS.</p>
--->
 
-[!UICONTROL ホーム]領域の [!UICONTROL Home Calendar] ビューを使用して、自分だけが表示できる個人の作業カレンダーで、作業週や作業の割り当てを表示および管理できます。これを使用して、作業の実行をスケジュール設定できます。また、[!UICONTROL Microsoft Outlook] カレンダーなどの外部のカレンダーと統合できます。
+
+
+The [!UICONTROL Home Calendar] view in the [!UICONTROL Home] area allows you to view and manage your work week and work assignments on a personal work calendar visible only to you. You can use it to schedule when you want to do your work. And you can integrate it with outside calendars such as a [!UICONTROL Microsoft Outlook] calendar. 
 
 >[!NOTE]
 >
->[!UICONTROL Home Calendar] ビューは、[!UICONTROL カレンダー]レポートとは異なります。[!UICONTROL カレンダー]レポートについて詳しくは、[[!UICONTROL カレンダー]レポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)を参照してください。
+>The [!UICONTROL Home Calendar] view is different from [!UICONTROL Calendar] reports. For more information about [!UICONTROL Calendar] reports, see [[!UICONTROL Calendar] reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-[!UICONTROL Home Calendar] の設定手順について詳しくは、[[!UICONTROL Home Calendar] ビューの設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)を参照してください。
+If you need instructions on setting up your [!UICONTROL Home Calendar], see [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-[!UICONTROL Home Calendar] ビューにアクセスする方法について詳しくは、[[!UICONTROL Home Calendar ビューの表示]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md)を参照してください。
+For information about accessing the [!UICONTROL Home Calendar] view, see [View the [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/view-home-calendar.md).
 
-[!UICONTROL Home Calendar] と外部カレンダーの統合について詳しくは、[[!UICONTROL [!UICONTROL Home Calendar]] ビューの設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)を参照してください。
+For information integrating your [!UICONTROL Home Calendar] with an outside calendar, see [[!UICONTROL Configure your [!UICONTROL Home Calendar]] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-この記事の以下の節では、[!UICONTROL Home Calendar] ビューのセクションと機能について詳しく説明します。
+The remaining sections in this article explain sections and functions of the [!UICONTROL Home Calendar] View in more detail.
 
-## [!UICONTROL Home Calendar] の作業リスト
+## Work list on the [!UICONTROL Home Calendar] 
 
-自分、自分のグループ、自分のチーム、自分の役割に割り当てられた作業項目（タスク、イシュー、リクエスト、承認）が、[!UICONTROL ホーム]領域のカレンダーの左側にある[!UICONTROL 作業リスト]に表示されます。
+Work items (Tasks, Issues, Requests, and Approvals) assigned to you, your groups, your teams, and your roles display in the [!UICONTROL work list] on the left of the Calendar in the [!UICONTROL Home] area.
 
 ![](assets/calview-qs-350x185.png)
 
-作業項目を[!UICONTROL 作業リスト]から [!UICONTROL Home Calendar] にドラッグして、作業のスケジュールを設定します。作業のスケジュールについて詳しくは、[[!UICONTROL Home Calendar] ビューの使用](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)を参照してください。
+You can drag your work items from the [!UICONTROL work list] to your [!UICONTROL Home Calendar] to schedule when you want to work on them. To learn more about scheduling your work, see [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-リスト内の作業項目をクリックすると、その作業項目の進捗を表示および更新できます。
+You can click a work item in the list to view and update your progress on it.
 
 ![](assets/work-item-cl-350x126.png)
 
-作業リストで選択した項目に応じて、その項目の情報が、カレンダーの左側に次のように表示されます。
+Depending on the item, the following information might display on the left of the calendar, for the item that you select in the work list:
 
-* **[!UICONTROL プロジェクト名]**：作業項目の左上に表示されます。これは、項目が関連付けられているプロジェクトです。上記の例では、プロジェクトのタイトルは「Fall in 2020 campaign」です。
-* **[!UICONTROL 作業項目名]**：プロジェクト名の下に表示されます。上記の例では、作業項目のタイトルは「September 15 issue」です。
-* **[!UICONTROL 完了]**：作業割り当てのステータスを「[!UICONTROL 完了]」に変更するには、このボタンをクリックします。このボタンは、自分がタスクまたはイシューに割り当てられている場合にのみ表示されます。
-* **[!UICONTROL 担当部分は完了]**：「[!UICONTROL 担当部分は完了]」ボタンをクリックして、作業割り当てのステータスを「[!UICONTROL 完了]」に変更します。
-* **[!UICONTROL 予定]**：リソースマネージャーが、該当する項目に対して作業を完了するために割り当てた時間数を表示します。予定時間数について詳しくは、[予定時間数の概要](../../../manage-work/tasks/task-information/planned-hours.md)を参照してください。
+* **[!UICONTROL Project name]**: Displays in the top left of the work item. This is the project to which the item is associated. In the example above, the project title is "Fall in 2020 campaign."
+* **[!UICONTROL Work item name]**: Displays beneath the project name. In the example above, the title of the work item is "September 15 issue."
+* **[!UICONTROL Done]**: Click this button to change the status of your work assignment to [!UICONTROL Done]. This button only displays when you are assigned to the task or issue.
+* **[!UICONTROL Done with my part]**: Click the [!UICONTROL Done with my part] button to change the status of your work assignment to [!UICONTROL Done].
+* **[!UICONTROL Planned]**: Displays the hours a resource manager has allocated for work to be completed on the item. To learn more about planned hours, see [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
 
-* **[!UICONTROL 記録済み]**：作業項目について、タイムシートまたはその項目の「[!UICONTROL 更新]」タブで記録した時間数を表示します。詳しくは、[[!UICONTROL ホーム]領域から作業項目の時間の記録](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)を参照してください。
+* **[!UICONTROL Logged]**: Displays the hours you have logged on the work item in either a timesheet or the [!UICONTROL Updates] tab for the item. To learn more, see [Log time on a work item from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 
-* **[!UICONTROL スケジュール済み]**：[!UICONTROL カレンダー]ビューで作業項目についてスケジュール設定した時間数を表示します。[!UICONTROL カレンダー]ビューへの作業項目の移動について詳しくは、[[!UICONTROL Home Calendar] ビューの使用](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)の [[!UICONTROL Home Calendar で作業項目をスケジュール]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar)を参照してください。
+* **[!UICONTROL Scheduled]**: Displays the hours you have scheduled for the work item in the [!UICONTROL Calendar] view. To learn more about moving work items to your [!UICONTROL Calendar] view, see [Schedule work items in your [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) in [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-* **[!UICONTROL 詳細]**：[!UICONTROL カレンダー]ビューの右側のパネルに作業項目の詳細を表示するには、このボタンをクリックします。
-* **[!UICONTROL 作業する]**：項目の作業の割り当てを承認するには、このボタンをクリックします。
+* **[!UICONTROL Details]**: Click this button to display the details of the work item in the right panel of the [!UICONTROL Calendar] view.
+* **[!UICONTROL Work On It]**: Click this button to accept the assignment to work on the item.
 
-## 配分バー
+## Allocation bar
 
-[!UICONTROL Home Calendar] を設定する際に、通常の 1 週間の作業時間数を指定します（[[!UICONTROL Home Calendar] ビューの設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)を参照してください）。[!DNL Adobe Workfront] はこの数値を使用して、配分可能な作業時間数の合計を決定します。
+When you set up your [!UICONTROL Home Calendar], you specify the number of hours you typically work in a week (see [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)). [!DNL Adobe Workfront] uses this number to determine your total allocable work hours. 
 
-[!UICONTROL 配分]バーは、作業週の時間数と、その配分状況を視覚的に表したものです。
+The [!UICONTROL Allocation] bar is a visual representation of the number of hours in your work week and how you are using them.
 
 ![](assets/allocation-bar-qs-350x181.png)
 
-[!UICONTROL 配分]バーの色は、次の情報を示します。
+The colors in the [!UICONTROL Allocation] bar indicate the following information:
 
-* **グレー**：統合されたカレンダーでイベントに対してスケジュール設定した時間数。カレンダーの統合について詳しくは、[[!UICONTROL Home Calendar] ビューの設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)の[[!UICONTROL Home Calendar] ビューを設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md#configuring-your-home-calendar-view)の節を参照してください。
+* **Grey**: Number of hours scheduled for events from integrated calendars. For more information about integrating calendars, see the section [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md#configuring-your-home-calendar-view) in [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
 
-* **青**：割り当てられた [!DNL Workfront] 作業項目に対してスケジュール設定した時間数。作業スケジュールを設定するには、[!UICONTROL 作業リスト]からカレンダーに項目をドラッグ＆ドロップします。作業のスケジュール設定について詳しくは、[[!UICONTROL Home Calendar] ビューの使用](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)の [[!UICONTROL Home Calendar で作業項目をスケジュール]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar)の節を参照してください。
+* **Blue**: Number of hours you have scheduled for [!DNL Workfront] work items assigned to you. You can schedule work by dragging items from the [!UICONTROL Work List] and dropping them into your calendar. For more information about scheduling work, see the [Schedule work items in your [!UICONTROL Home Calendar]](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md#scheduling-work-items-in-home-calendar) section in [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-* **薄い青**：配分可能な空き時間数。
-* **赤**（上記には表示なし）：その週の配分可能な時間数を超えた予定イベントおよび作業項目。
+* **Light Blue**: The number of free hours available for allocation.
+* **Red**(not shown above): Scheduled events and work items that have exceeded the number of hours you have available for the week.
 
-## [!UICONTROL 期限]バー
+## [!UICONTROL Due] bar
 
-[!UICONTROL Home Calendar] の[!UICONTROL 期限]バーは、現在表示されている週に期限のある項目を、その項目の[!UICONTROL 予定完了日]に基づいて表示します。
+The [!UICONTROL Due] bar on your [!UICONTROL Home Calendar] displays the items that are due for the week currently displayed, according to their [!UICONTROL Planned Completion Date].
 
 ![](assets/duebar-qs-350x140.png)
 
 >[!NOTE]
 >
->Microsoft カレンダーを [!DNL Workfront] カレンダーに統合している場合、[!UICONTROL 期限]バーの項目は、作業リストから [!DNL Workfront] カレンダーにドラッグしていない限り、Microsoft カレンダーに表示されません。詳しくは、上記の [[!UICONTROL Home Calendar の作業リスト]](#work-list-on-the-home-calendar)の節と、[[!UICONTROL Home Calendar] ビューの設定](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md)の記事を参照してください。
+>If you have integrated your Microsoft calendar with your [!DNL Workfront] calendar, items in the [!UICONTROL Due] bar do not appear on your Microsoft calendar unless you have dragged them from the Work List to your [!DNL Workfront] Calendar. For more information, see the section  [Work list on the [!UICONTROL Home Calendar]](#work-list-on-the-home-calendar) above and the article  [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+
+-->

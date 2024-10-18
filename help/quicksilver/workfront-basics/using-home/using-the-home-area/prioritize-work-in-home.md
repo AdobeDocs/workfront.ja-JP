@@ -6,20 +6,27 @@ description: ホームの作業リストの項目を優先させることがで�
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 8647df70-c9cc-47fb-a7f7-a83d0fd061b4
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 100%
+source-wordcount: '73'
+ht-degree: 84%
 
 ---
 
 # [!UICONTROL ホーム]エリアで作業に優先度を付ける
 
-[!UICONTROL ホーム]の[!UICONTROL 作業リスト]で、項目に優先順位を付けることができます。[!UICONTROL マイ優先度]に追加した項目は、自分のみに対する優先度です。他のユーザーに対する優先度ではなく、他のユーザーによって優先順位が変えられることはありません。最大 20 個の項目を[!UICONTROL マイ優先度]の[!UICONTROL 並べ替え]オプションに追加できます。
+>[!IMPORTANT]
+>
+>この機能は、2014 年 10 月 17 日（PT）のレガシーホームの廃止で削除されました。
 
-## アクセス要件
+<!--You can prioritize your work in the new Priorities area. See []().
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+
+You can prioritize items from your [!UICONTROL Work List] in [!UICONTROL Home]. Items you add to [!UICONTROL My Priority] are priorities for you only. They are not prioritized for anyone else, and no one can prioritize them for you. You can add up to 20 items under the [!UICONTROL My Priority] [!UICONTROL Sort By] option.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,63 +36,64 @@ ht-degree: 100%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
-   <td> <p>任意</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Work] 以上</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>タスクとイシューに対する[!UICONTROL Edit]アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されているか [!DNL Workfront] 管理者に確認してください。[!DNL Workfront] 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL Edit] access to Tasks and Issues</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>優先度を設定するタスクとイシューに対する参加以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues you want to prioritize</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## [!UICONTROL マイ優先度]に項目を追加する
+## Add items to [!UICONTROL My Priority] 
 
-[!UICONTROL 作業リスト]で自分に割り当てられた任意の項目を[!UICONTROL マイ優先度]に追加できます。リストの下部に新しい項目が追加されます。
+You can add any item assigned to you in your [!UICONTROL Work List] to [!UICONTROL My Priority]. New items are added at the bottom of the list.
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
-1. 左側のパネルで、**[!UICONTROL グループ化]** ドロップダウンメニューが次のいずれかのオプションで並べ替えられていることを確認します。
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the left panel, ensure the **[!UICONTROL Group by]** drop-down menu is sorting by one of the following options:
 
-   * [!UICONTROL 完了予定]
-   * [!UICONTROL 予定開始日]
-   * [!UICONTROL コミット日]
-   * [!UICONTROL プロジェクト]
+   * [!UICONTROL Planned Completion]
+   * [!UICONTROL Planned Start]
+   * [!UICONTROL Commit Date]
+   * [!UICONTROL Project]
 
-1. 作業アイテムの上にポインタを合わせて、**[!UICONTROL その他]**&#x200B;アイコン ![](assets/more-icon.png) をクリックします。
+1. Hover over a work item, and click on the **[!UICONTROL More]** icon ![](assets/more-icon.png).
 
-1. 「**[!UICONTROL マイ優先度に追加]**」を選択します。
+1. Select **[!UICONTROL Add to My Priority]**.
 
    ![](assets/getting-started-my-priority-group-by-drop-down-nwe-350x405.png)
 
-## [!UICONTROL マイ優先度]のグループ化を使用して項目に優先度を付ける
+## Prioritize items using the [!UICONTROL My Priority] grouping
 
-グループ化ドロップダウンメニューで「[!UICONTROL マイ優先度]」を選択した後に作業に優先度を付けることができ、最も重要な項目をリストの先頭に配置します。設定した優先度は、自分にのみ表示されます。他のユーザーによって自分の作業に優先度を付けられることはありません。
+You can prioritize your work after you select [!UICONTROL My Priority] in your grouping drop-down menu, placing the most important items at the top of the list. Priorities you set are visible only to you. No one else can prioritize work for you.
 
-優先度付けを開始する前に、[!UICONTROL マイ優先度]に作業アイテムを追加する必要があります。
+You must add work items to [!UICONTROL My Priority] before you can begin prioritizing.
 
-詳しくは、この記事の[[!UICONTROL マイ優先度]](#add-items-to-my-priority)への項目の追加の節を参照してください。
+For more information, see the section [Add items to [!UICONTROL My Priority]](#add-items-to-my-priority) in this article.
 
-1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
-1. 左側のパネルで、**[!UICONTROL グループ化]**&#x200B;ドロップダウンメニューをクリックして、「**[!UICONTROL マイ優先度]**」を選択します。
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the left panel, click the **[!UICONTROL Group by]** drop-down menu, then select **[!UICONTROL My Priority]**.
 
-1. 作業アイテムを選択し、適切な場所にドラッグ＆ドロップして、リスト内で優先度を付けます。
+1. Select a work item and drag and drop it in the right place to prioritize it in your list.
 
    ![](assets/drag-drop-my-priority-with-group-by-menu-nwe-350x426.png)
 
-## [!UICONTROL マイ優先度]から項目を削除
+## Remove items from [!UICONTROL My Priority]
 
-作業アイテムを完了させるかまたは[!UICONTROL その他]アイコンを使用して手動で項目を削除することで、[!UICONTROL マイ優先度]からアイテムを削除できます。作業アイテムから割り当てが解除された場合は、その作業アイテムも[!UICONTROL マイ優先度]から削除されます。
+You can remove items from [!UICONTROL My Priority] by completing the work item or manually removing it using the [!UICONTROL More] icon. If you are unassigned from a work item, it is also removed from [!UICONTROL My Priority].
 
-1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、「**[!UICONTROL ホーム]**」の順にクリックします。
-1. 左側のパネルで、**[!UICONTROL その他]**&#x200B;アイコンをクリックし、「**[!UICONTROL マイ優先度から削除]**」を選択します。
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. In the left panel, click the **[!UICONTROL More]** icon, then select **[!UICONTROL Remove from My Priority]**.
 
-   ![[!UICONTROL [!UICONTROL マイ優先度から削除]]](assets/getting-started-remove-from-priority-nwe-350x395.png)
+   ![[!UICONTROL Remove from [!UICONTROL My Priority]]](assets/getting-started-remove-from-priority-nwe-350x395.png)
+-->

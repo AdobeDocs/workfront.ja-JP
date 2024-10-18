@@ -3,13 +3,13 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: ホームエリアで項目を完了としてマーク
 description: タスクまたはイシューの担当者である場合は、タスクまたはイシューを完了としてマークできます。タスクまたはイシューを完了としてマークすると、タスクまたはイシューのステータスが完了に変わります。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 100%
+source-wordcount: '846'
+ht-degree: 82%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 100%
 >[!NOTE]
 >
 >タスクまたはイシューに割り当てられたリソースの 1 つでない限り、「[!UICONTROL 完了]」ボタンは表示されません。
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 ## アクセス要件
 
@@ -50,20 +52,29 @@ ht-degree: 100%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-## タスクまたはイシューを[!UICONTROL 完了]としてマーク
++++
 
-タスクまたはイシューに割り当てられたユーザーのみが、タスクまたはイシューを[!UICONTROL 完了]としてマークできます。
+## 担当作業ウィジェットで作業項目を完了としてマークします
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) をクリックして、「**[!UICONTROL ホーム]**」をクリックします。
-1. **[!UICONTROL 作業リスト]**&#x200B;で、作業待ちの項目を探します。
-1. 次のいずれかの操作を行います。
+1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. （条件付き） **カスタマイズ** をクリックして **担当作業** ウィジェットを追加します。
+1. 作業項目を見つけ、作業項目の「**[!UICONTROL 完了としてマーク]**」をクリックします。
+このボタンの表示方法について詳しくは、[「[!UICONTROL 完了]」ボタンのオプションについて](#understand-the-options-of-the-done-button)を参照してください。
+   ![](assets/my-work-done.png)
 
-* 作業アイテムの「**[!UICONTROL 完了]**」をクリックします。\
-   このボタンの表示方法について詳しくは、[「[!UICONTROL 完了]」ボタンのオプションについて](#understand-the-options-of-the-done-button)を参照してください。
 
-* 完了としてマークする項目を選択し、右側のパネルで「**[!UICONTROL 更新状態]**」をクリックして、項目のステータスを[!UICONTROL 完了]または[!UICONTROL クローズ]に等しいステータスに変更します。
+## 概要パネルでの作業項目の完了のマーク
+
+概要パネルを使用して、マイタスクおよびマイ問題ウィジェットで作業項目を完了としてマークできます。
+
+1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. （任意） **カスタマイズ** をクリックして、**マイタスク** または **マイイシュー** ウィジェットを追加します。
+1. 作業項目の上にマウスポインターを置き、「**概要** アイコンをクリックします。
+   ![](assets/open-summary-new-home.png)
+1. 概要パネルの上部にある「**完了としてマーク**」をクリックします。
+
 
 ## 「[!UICONTROL 完了]」ボタンのオプションについて
 
@@ -81,7 +92,7 @@ ht-degree: 100%
 
 「[!UICONTROL 完了]」ボタンが 1 つのステータスに関連付けられ、作業アイテムが割り当てられている場合、ボタンは&#x200B;**[!UICONTROL 完了]**&#x200B;と表示されます。クリックすると、タスクまたはイシューのステータスは、[!UICONTROL 完了]」ボタンに関連付けされたステータスに変更されます。
 
-![「完了」ボタン](assets/Done.png)
+![「完了」ボタン](assets/done-button-status.png)
 
 どのステータスが「[!UICONTROL 完了]」ボタンと関連付けされているかを確認するには、[チーム設定の編集](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)で説明されるように、「[!UICONTROL 完了ボタン]」セクションのホームチームの[!UICONTROL チーム設定]を確認します。
 
@@ -93,17 +104,14 @@ ht-degree: 100%
 
 複数のステータスに「[!UICONTROL 完了]」ボタンを関連付けする方法について詳しくは、[タスクの「[!UICONTROL 完了]」ボタンの設定](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)および[イシューの「[!UICONTROL 完了]」ボタンの設定](../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)を参照してください。
 
-<!--
-<img src="assets/marking-an-item-done-multiple-statuses-350x171.png" style="width: 350;height: 171;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
--->
-
 ### 複数のリソースに割り当てられた項目の「[!UICONTROL 完了]」ボタン
 
-タスクまたはイシューが複数のリソースに割り当てられている場合、ドロップダウンメニューのボタンに&#x200B;**[!UICONTROL 完了]**&#x200B;と表示されます。ドロップダウンメニューで、「**[!UICONTROL 担当部分は完了]**」（これにより、チームメンバーは、お客様のタスクの一部が完了したことを知ることができます）、または「[!UICONTROL 完了]」ボタン（項目を完了する）に関連するステータスのどちらかを選択できます。「**[!UICONTROL 担当部分は完了]**」を選択した後に、作業アイテムは作業リストから削除されますが、作業アイテムに割り当てられている作業アイテムの作業リストには残ります。\
+タスクまたはイシューが複数のリソースに割り当てられている場合、ドロップダウンメニューのボタンに&#x200B;**[!UICONTROL 完了]**&#x200B;と表示されます。ドロップダウンメニューでは、**[!UICONTROL 自分の部品で完了]** （チームメンバーに、タスクのどの部分でも完了したことを知らせる）または [!UICONTROL  完了 ] ボタン（項目を完了する）に関連付けられたステータスを選択できます。 「**[!UICONTROL 担当部分は完了]**」を選択した後に、作業アイテムは作業リストから削除されますが、作業アイテムに割り当てられている作業アイテムの作業リストには残ります。\
 「完了」ボタンが複数のステータスに関連付けられている場合は、そのステータスが「**担当部分は完了**」の下に表示されます。
 
 >[!NOTE]
 >
 >複数の担当者がいるタスクまたはイシューの場合、各ユーザーには、タスクまたはイシューに対する自分の割り当てが実際に完了したことを示す責任があります。この理由から、各担当者は「[!UICONTROL 完了]」をクリックし、項目に割り当てられた作業が完了したことを示す必要があります。
 
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
+![](assets/done-with-my-part.png)
+

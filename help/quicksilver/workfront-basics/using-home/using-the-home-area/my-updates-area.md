@@ -3,21 +3,18 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: マイ更新エリアの使用
 description: '[!UICONTROL マイ更新]エリアを使用して、決定を待っている承認や、参加している会話をすぐにレビューできます。'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 4c17466705873b06e7ea7bb08bb78a7e68078f8b
+source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 92%
+source-wordcount: '778'
+ht-degree: 91%
 
 ---
 
 # [!UICONTROL マイ更新]エリアの使用
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
 
 [!UICONTROL マイ更新]エリアを使用して、決定を待っている承認や、参加している会話をすぐにレビューできます。
 
@@ -28,6 +25,8 @@ ht-degree: 92%
 レビューとは異なるライセンスタイプを持つ場合、[!DNL Workfront] またはグループ管理者は、[!UICONTROL マイ更新]エリアをレイアウトテンプレートに追加して、メインメニューに表示する必要があります。詳しくは、[レイアウトテンプレートを使用した[!UICONTROL メインメニュー]のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -57,6 +56,8 @@ ht-degree: 92%
 </table>
 
 *ご利用のプラン、ライセンスタイプまたはアクセス権について詳しくは、[!DNL Workfront] 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 

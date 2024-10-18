@@ -6,9 +6,9 @@ description: このページには、レガシーホームの今後の廃止に�
 author: Nolan
 feature: Product Announcements
 exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
-source-git-commit: 695674b1f89aa116e592081d72403b4be568f931
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Adobe Workfrontの皆さまにお知らせいたします。まもなく、従�
 
 **代わりに使用できるものは何ですか？**
 
-* 新しいホームは既に代替手段として利用可能です。 新しいホームの使用について詳しくは、[ 新しいホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) を参照してください。 パーソナライゼーションオプションを使用したユーザーと、レイアウトテンプレートを使用した管理者の両方がカスタマイズできます。
+* 新しいホームは既に代替手段として利用可能です。 新しいホームの使用について詳しくは、[ 新しいホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。 パーソナライゼーションオプションを使用したユーザーと、レイアウトテンプレートを使用した管理者の両方がカスタマイズできます。
 
 * 優先事項は開発中であり、Adobe Workfrontでの効率的な作業管理エクスペリエンスのもう 1 つの要素として機能します。
 
@@ -54,13 +54,13 @@ Adobe Workfrontの皆さまにお知らせいたします。まもなく、従�
 
 1. 残りのユーザーを新しいホームページレイアウトに再割り当てします。
 
-これはできるだけ早く行うことで、ユーザーが新しいエクスペリエンスに適応し、個々のニーズに最適に新しいホームページをカスタマイズする時間を確保できます。 ユーザーが新しいホームページでウィジェットをカスタマイズする方法については、[ 新しいホームでのウィジェットの削除、追加、並べ替え ](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) を参照してください。
+これはできるだけ早く行うことで、ユーザーが新しいエクスペリエンスに適応し、個々のニーズに最適に新しいホームページをカスタマイズする時間を確保できます。 ユーザーが新しいホームページでウィジェットをカスタマイズする方法については、[ 新しいホームでのウィジェットの削除、追加、並べ替え ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
 ### 新しいホームで利用可能なものと優先度について説明します
 
 以下の記事では、新しいホームで使用できる機能と優先度について説明します。
 
-* [従来のホームから新しいホームへの移動](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [従来のホームから優先事項への移行](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### ホームエクスペリエンスの開発時にそのエクスペリエンスに従う

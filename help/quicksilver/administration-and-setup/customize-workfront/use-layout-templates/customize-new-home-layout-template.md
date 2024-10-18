@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 7bae31a9454c88bd0e5525f4b4d11cd9e76ccd39
+source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 80%
+source-wordcount: '824'
+ht-degree: 73%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 80%
 
 
 
-新しいホームについて詳しくは、[新しいホームの基本を学ぶ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。
+新しいホームについては、[ ホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -91,8 +91,8 @@ ht-degree: 80%
       <td role="rowheader">デザインとレイアウト</td> 
       <td>
       <p>ユーザーのワークスペースにどのウィジェットを表示するか、その位置、背景を選択します。ユーザーは選択したウィジェットを削除できませんが、自由にウィジェットを移動してサイズを変更したり、他のウィジェットを追加したりできます。</p>
-      <p>このタブは、基本的に、小さな新しいホームワークスペースとして機能します。そのため、<a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">新しいホームでのウィジェットの追加、編集または削除</a>で説明される手順に従ってカスタマイズできます。ウィジェットを選択し、ユーザーに対して表示するようにワークスペースを配置します。</p>
-      <p>背景を変更するには、<a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">新しいホームの基本を学ぶ</a>の<b>背景のカスタマイズ</b>の手順に従います。</p>
+      <p>このタブは、基本的に小さな新しいホームワークスペースとして機能します。そのため、<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref"> ホームでのウィジェットの追加、編集、削除 </a> で説明されている手順に従ってカスタマイズできます。 ウィジェットを選択し、ユーザーに対して表示するようにワークスペースを配置します。</p>
+      <p>背景を変更するには、<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref"> ホームの概要 </a> の <b> 背景のカスタマイズ </b> の手順に従います。</p>
       <p>
 
 >[!NOTE]

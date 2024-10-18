@@ -9,10 +9,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 75%
+source-wordcount: '969'
+ht-degree: 74%
 
 ---
 
@@ -96,7 +96,6 @@ Workfront にアセットを追加するためのメニュー項目が更新さ�
 
 上記のカテゴリにドリルダウンすると、より詳細なビューを表示できます。すべての承認ウィジェットは、新しいホームダッシュボードとキャンバスダッシュボードで使用できます。
 
-詳しくは、[新しいホームの基本を学ぶ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。
 
 ### 全体的な決定を行った後のレビューと承認のロック
 

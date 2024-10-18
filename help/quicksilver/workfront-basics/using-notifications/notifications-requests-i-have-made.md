@@ -6,10 +6,10 @@ description: 次の通知で、Adobe Workfront で行われたリクエストに
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 42771f71-dbf8-4e73-9a0e-8efea612af4a
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 9f351a16c2a741b922e8ee51efb3ea3d7d2d18e1
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 100%
+source-wordcount: '1429'
+ht-degree: 98%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 100%
    <td><strong>即時</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>誰かに割り当てたパーソナルタスクが完了しました</strong> </p> <p>アドホックタスクを他の誰かに割り当てたユーザーに対し、そのタスクの完了時に通知が送信されます。 </p> <p>アドホックタスクに関して詳しくは、<a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">[!UICONTROL Home] エリアから作業アイテムを作成する</a>を参照してください。</p> <p>インスタント通知メールの件名：<em>タスク完了：&lt;Task Name&gt;</em></p> <p> <p>メモ：この通知を日刊ダイジェストメールに設定することはできません。</p> </p> </td> 
+   <td> <p><strong>誰かに割り当てたパーソナルタスクが完了しました</strong> </p> <p>アドホックタスクを他の誰かに割り当てたユーザーに対し、そのタスクの完了時に通知が送信されます。 </p> <p>アドホックタスクについて詳しくは、<a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">[!UICONTROL ホーム ] 領域から作業項目とプロジェクトを作成する </a> を参照してください。</p> <p>インスタント通知メールの件名：<em>タスク完了：&lt;Task Name&gt;</em></p> <p> <p>メモ：この通知を日刊ダイジェストメールに設定することはできません。</p> </p> </td> 
    <td> タスク名<br>デフォルトのプロジェクト名（個人用タスクを受け取ったユーザーの個人用プロジェクト）<br>タスク参照番号<br>タスク所有者名<br>新規タスクステータス<br>タスクが完了した日時<br>タスクの前のステータス「<br><strong>[!UICONTROL See More Details]</strong>」ボタン<br><br><br></td> 
    <td><strong>即時</strong> </td> 
   </tr> 

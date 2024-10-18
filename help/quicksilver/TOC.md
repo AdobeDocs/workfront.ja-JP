@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 426b7f7d556933dea26d27c82aa2082738d39767
+source-git-commit: c243aafc5d62fdd5ed2f209fe963e92f2548965c
 workflow-type: tm+mt
-source-wordcount: '14529'
+source-wordcount: '14514'
 ht-degree: 92%
 
 ---
@@ -894,22 +894,18 @@ ht-degree: 92%
       * [優先度でクイックリンクを追加および管理](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
    * ホーム {#home}
       * [ホーム](workfront-basics/using-home/home.md)
-      * 新しいホーム {#new-home}
-         * [新しいホーム](workfront-basics/using-home/new-home/new-home.md)
-         * [新しいホームの基本を学ぶ](workfront-basics/using-home/new-home/get-started-with-new-home.md)
-         * [新しいホームでのウィジェットの追加、編集または削除](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
-         * [新しいホームウィジェットフィルターの概要](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
-         * [担当作業ウィジェットを使用した作業の管理](workfront-basics/using-home/new-home/my-work-widget.md)
       * ホームエリアの使用 {#use-home-area}
          * [ホームエリアの使用](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-         * [従来のホームから新しいホームへの移動](workfront-basics/using-home/new-home/move-to-new-home.md)
          * [従来のホームから優先度への移動](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
          * [ホームの基本を学ぶ](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+         * [新しいホームでのウィジェットの追加、編集または削除](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [ホームエリアの作業リストにおけるアイテムの表示](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+         * [ホームウィジェットフィルターの概要](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+         * [担当作業ウィジェットを使用した作業の管理](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
          * [ホームエリアの作業を優先する](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
          * [ホームエリアでの作業リクエストとチームリクエストの管理](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [ホームエリアでの作業アイテムの更新または編集](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-         * [ホームエリアからの作業アイテムの作成](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [ホームエリアからの作業項目とプロジェクトの作成](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
          * [作業アイテムの時間をホームエリアから記録する](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [ホームエリアで項目を完了としてマーク](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [ホームカレンダービュー](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)

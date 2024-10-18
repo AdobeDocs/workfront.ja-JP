@@ -6,7 +6,7 @@ description: タスクの完了率を更新して、完了に向けたタスク�
 author: Alina
 feature: Work Management
 exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
 workflow-type: tm+mt
 source-wordcount: '555'
 ht-degree: 84%
@@ -91,7 +91,7 @@ ht-degree: 84%
 
 * **ホーム**: ホーム領域の概要パネルまたはマイ作業ウィジェットから、タスクまたは問題の完了率を更新できます。
 
-詳しくは、[ 新しいホームの概要 ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) を参照してください。
+詳しくは、[ 新しいホームの概要 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
 
 ## タスクの完了率を更新する際の考慮事項
 

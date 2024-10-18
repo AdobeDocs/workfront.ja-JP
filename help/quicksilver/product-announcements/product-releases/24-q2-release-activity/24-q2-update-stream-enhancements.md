@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
-source-git-commit: fcd3e565c10a952bd78b4f628b071c6718c92747
+source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
 workflow-type: tm+mt
-source-wordcount: '710'
+source-wordcount: '700'
 ht-degree: 95%
 
 ---
@@ -44,7 +44,6 @@ ht-degree: 95%
 
 新しいホームの担当作業、マイプロジェクト、マイタスクおよびマイイシューウィジェットの&#x200B;**新しい更新を追加**&#x200B;クイックアクションボタンに新しいコメント機能を追加しました。
 
-詳しくは、[新しいホームの基本を学ぶ](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)を参照してください。
 
 ## 新しいコメントエクスペリエンスで、コメントした人に関する追加の情報が利用可能
 

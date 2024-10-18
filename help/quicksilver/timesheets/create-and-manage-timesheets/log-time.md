@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 114fb6282924cde478f17a1b754157b6e47a7e3b
 workflow-type: tm+mt
-source-wordcount: '3650'
+source-wordcount: '3652'
 ht-degree: 85%
 
 ---
@@ -79,7 +79,7 @@ Workfront にログインできる時間の種類について詳しくは、[時
 * タイムシートには、すべてのログに記録された日付の合計時間が含まれます。タイムラインの計算で除外するように設定されている場合でも、（[システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)で説明されているように）週末を常に含みます。
 * タイムシートに表示される項目の最大数は 45 です。タイムシートの時間枠に一致する日付を持つ 45 項目を超える場合は、最も新しく更新された項目のみが表示されます。
 * 請求済み請求記録に含まれる時間エントリは灰色表示になり、タイムシートで編集できません。詳しくは、[請求記録の作成](../../manage-work/projects/project-finances/create-billing-records.md)を参照してください。
-* デフォルトでは、個人タスクはタイムシートに表示されません。個人タスクは、タイムシートに時間が記録された場合にのみ表示されます。個人タスクの時間を記録した後、タスクをタイムシートに固定すると、そのタスクは固定されたままタイムシートに残ります。詳しくは、[ホームエリアからの作業アイテムの作成](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)を参照してください。
+* デフォルトでは、個人タスクはタイムシートに表示されません。個人タスクは、タイムシートに時間が記録された場合にのみ表示されます。個人タスクの時間を記録した後、タスクをタイムシートに固定すると、そのタスクは固定されたままタイムシートに残ります。詳しくは、[ ホームエリアからの作業項目とプロジェクトの作成 ](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
 
 ## 時間を記録 {#log-time-section}
 
@@ -335,7 +335,6 @@ Workfront の次の領域で時間を記録できます。
 ホームでは、プロジェクト固有の時間を記録できます。
 
 ホームエリアの使用の概要については、[ホームエリアの使用](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)を参照してください。
-
 
 <!--#### Log time on a work item from the new Home area-->
 
