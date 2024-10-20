@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 1713a5855b8798d888866447338291975ff69cb7
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '160'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,6 @@ Workfront Data Connect は、Snowflakeテクノロジを使用してWorkfront �
 
 データ接続の詳細については、次の記事を参照してください。
 
-* [Workfront Data Connect ベータ版情報](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * [Snowflake用のリーダー（サービス） アカウントを作成します](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Workfront Data Connect への接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Connect データディクショナリ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)

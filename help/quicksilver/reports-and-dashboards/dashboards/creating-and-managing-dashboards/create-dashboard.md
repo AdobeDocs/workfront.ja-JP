@@ -6,10 +6,10 @@ description: ダッシュボードを作成して、Adobe Workfrontの情報に�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 97%
+source-wordcount: '496'
+ht-degree: 90%
 
 ---
 
@@ -102,13 +102,13 @@ ht-degree: 97%
    Consider adding the information from this article above here, at some point, instead of linking to it.)
    -->
 
-1. 既存のレポート、カレンダー、外部ページを追加するには、「**名前またはタイプで検索...**」フィールドで検索したあと、リストに表示されたら、レイアウトパネルにドラッグします。
+1. [**利用可能な報告書とカレンダー**] セクションで、検索バーに報告書、カレンダー、または外部ページの名前を入力し始め、レイアウト ウィンドウで、右側に報告書、カレンダー、または外部ページをドラッグ アンド ドロップします。
 
    >[!NOTE]
    >
    >項目を検索すると、最近作成された 2,000 個のレポートから検索結果が返されます。Unicode 文字を含んだレポート名は、検索結果には含まれません。ベストプラクティスとしては、Workfront でオブジェクトに名前を付ける際に、名前を別のソースからコピー＆ペーストするのではなく手入力することで、Unicode 文字が含まれないようにします。
 
-   ![レポートの検索](assets/qs-new-dashboard-ui-0722.png)
+   ![レポートの検索](assets/unshimmed-dashboard-ui.png)
 
 1. （オプション）「**外部ページを追加**」をクリックして、ダッシュボードに外部ページを追加します。
 
