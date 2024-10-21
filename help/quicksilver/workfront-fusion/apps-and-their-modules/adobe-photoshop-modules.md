@@ -9,7 +9,7 @@ description: Adobe Photoshop モジュールを使用すると、Adobe Photoshop
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: cfd13f8eb422401644f7a1abf54e909218b2e8bf
+source-git-commit: c3187e3dc21b4705a0e249ed8cc6df66575ef06b
 workflow-type: tm+mt
 source-wordcount: '4308'
 ht-degree: 21%
