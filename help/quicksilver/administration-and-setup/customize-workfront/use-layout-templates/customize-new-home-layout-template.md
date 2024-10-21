@@ -3,21 +3,21 @@ title: レイアウトテンプレートを使用して新しいホームをカ�
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: レイアウトテンプレートを使用すると、新しいホームを開いたときにユーザーに表示する内容を設定できます。
+description: レイアウトテンプレートを使用すると、ユーザーがホームを開いたときに表示される内容を設定できます。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 0a19683e2311b1acc57423f5cb5a7dd141c8b79c
 workflow-type: tm+mt
-source-wordcount: '824'
-ht-degree: 73%
+source-wordcount: '841'
+ht-degree: 65%
 
 ---
 
-# レイアウトテンプレートを使用して新しいホームをカスタマイズ
+# レイアウトテンプレートを使用したホームのカスタマイズ
 
-レイアウトテンプレートを使用すると、ユーザーが最初に新しいホームを開いたときに表示される内容を設定できます。
+レイアウトテンプレートを使用すると、ユーザーが最初にホームを開いたときに表示される内容を設定できます。
 
 以下を設定できます。
 
@@ -33,7 +33,7 @@ ht-degree: 73%
 
 
 
-新しいホームについては、[ ホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
+ホームについては、[ ホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
 
 レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -73,9 +73,9 @@ ht-degree: 73%
 
 +++
 
-## レイアウトテンプレートを使用して新しいホームをカスタマイズ
+## レイアウトテンプレートを使用したホームのカスタマイズ
 
-レイアウトテンプレートを使用して新しいホームをカスタマイズするには：
+レイアウトテンプレートを使用してホームをカスタマイズするには：
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
 
@@ -91,13 +91,13 @@ ht-degree: 73%
       <td role="rowheader">デザインとレイアウト</td> 
       <td>
       <p>ユーザーのワークスペースにどのウィジェットを表示するか、その位置、背景を選択します。ユーザーは選択したウィジェットを削除できませんが、自由にウィジェットを移動してサイズを変更したり、他のウィジェットを追加したりできます。</p>
-      <p>このタブは、基本的に小さな新しいホームワークスペースとして機能します。そのため、<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref"> ホームでのウィジェットの追加、編集、削除 </a> で説明されている手順に従ってカスタマイズできます。 ウィジェットを選択し、ユーザーに対して表示するようにワークスペースを配置します。</p>
+      <p>このタブは、基本的に小さなホームワークスペースとして機能するので、<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref"> ホームでのウィジェットの追加、編集、削除 </a> で説明されている手順に従ってカスタマイズできます。 ウィジェットを選択し、ユーザーに対して表示するようにワークスペースを配置します。</p>
       <p>背景を変更するには、<a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref"> ホームの概要 </a> の <b> 背景のカスタマイズ </b> の手順に従います。</p>
       <p>
 
 >[!NOTE]
 >
->レイアウトテンプレート内のウィジェットの移動またはサイズ変更のみでは、ユーザーの新しいホームページのレイアウトが更新されません。ただし、ウィジェットを追加または削除すると、ユーザーのページが更新されます。
+>レイアウトテンプレート内のウィジェットを移動またはサイズ変更しても、ユーザーのホームページにはレイアウトの更新がトリガーされません。 ただし、ウィジェットを追加または削除すると、ユーザーのページが更新されます。
 
 </p>
      </td> 
@@ -119,7 +119,8 @@ ht-degree: 73%
 
 >[!IMPORTANT]
 >
->管理者の列設定を新しいホームページに適切に適用するには、ユーザーは少なくともビューに対する作成アクセス権を持っている必要があります。
+>* [ フィルタ ]、[ 列 ]、および [ グループ ] オプションは、レイアウト テンプレートのリスト カスタマイズ オプションにリンクされています。 ここで行った変更は、これらの設定にも適用されます。
+>* 管理者カラムの構成をホーム ページに適切に適用するには、ユーザーに少なくともビューへの作成アクセス権が必要です。
 
 </p>
       <li><p><b>ウィジェットのデフォルトのフィルターまたはグループを設定します。</b></p>
@@ -147,4 +148,4 @@ ht-degree: 73%
 
 >[!IMPORTANT]
 >
->レイアウト テンプレートをカスタマイズするには、新しいホーム ページを更新する必要があります。
+>レイアウト テンプレートからカスタマイズを表示するには、ホーム ページを更新する必要があります。

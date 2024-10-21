@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: b2135fb5f29ebc794763ab6d3fb1c539de6125b4
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1644'
 ht-degree: 96%
 
 ---
@@ -113,7 +113,7 @@ ht-degree: 96%
 | カスタムフォームの添付 | ✓ | ✓ | ✓ |   |
 | カスタムフィールドを編集 | ✓ | ✓ | ✓ |   |
 | イシューの承認 | ✓ | ✓ | ✓ |   |
-| 承認プロセスを追加 | ✓ | ✓ | ✓ |   |
+| 承認プロセスを追加 | ✓ |   |   |   |
 | ドキュメントを追加 | ✓ | ✓ | ✓ |   |
 | イシューのコピー | ✓ | ✓ | ✓ |   |
 | イシューを移動 | ✓ | ✓ | ✓ |   |

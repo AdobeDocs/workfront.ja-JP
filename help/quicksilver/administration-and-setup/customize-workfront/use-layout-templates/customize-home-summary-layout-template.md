@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 507145d1afb1f497dc34072d455ee443263361fe
+source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
 workflow-type: tm+mt
-source-wordcount: '940'
-ht-degree: 69%
+source-wordcount: '905'
+ht-degree: 58%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 69%
 
 1. **ユーザーに表示する内容をカスタマイズ** の下の下向き矢印 ![](assets/dropdown-arrow.png) をクリックし、**概要パネル** をクリックします。
 
-1. 左側の一覧で、ホームおよび概要でカスタマイズするオブジェクトの種類（**タスク**、**問題**、**プロジェクト**、**ドキュメント**、または **ドキュメント バージョン**）をクリックします。
+1. 左側の一覧で、概要パネルでカスタマイズするオブジェクトの種類（**タスク**、**問題**、**プロジェクト**、**ドキュメント**、または **ドキュメント バージョン**）をクリックします。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,7 +115,7 @@ ht-degree: 69%
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. （条件付き）「**「プライマリアクションボタンを設定します**」ドロップダウンメニューが表示される場合、（左側のリストの「**タスク**」または「**イシュー**」を選択した場合）、タスクまたはイシューを表示する際に、ユーザーが「ホーム」エリアおよび「概要」パネルで使用できるプライマリアクション（「**完了**」または「**ステータス**」）をクリックします。
+1. （条件付き） **プライマリアクションを設定** ボタン ドロップダウンメニューが表示された場合（左側のリストで **タスク** または **イシュー** を選択した場合）、ユーザーがタスクまたはイシューを表示したときに概要パネルで使用できるプライマリアクション（**完了** または **ステータス**）をクリックします。
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -124,7 +124,7 @@ ht-degree: 69%
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 手順 3～6 を繰り返し、他のオブジェクトタイプの概要パネルをカスタマイズします。
-1. 左下隅付近にある「**グローバル設定**」をクリックして、ホームと概要で Adobe Workfront オブジェクトに関連する次のオプションを有効または無効にします。
+1. 左下隅付近の **グローバル設定** をクリックし、概要のAdobe Workfront オブジェクトに関連する次のオプションのいずれかを有効または無効にします。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,7 +132,7 @@ ht-degree: 69%
     <tbody> 
      <tr> 
       <td role="rowheader">作業の更新を表示</td> 
-      <td>選択したタスクまたはイシューに対して行われた更新をホームまたは概要に表示します。これには、システム更新とユーザーによる更新の両方が含まれます。ユーザーは、システムの更新をフィルターして除外できます（<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">作業を更新</a>の<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">システムアップデートを有効化または無効化</a>の節を参照）。</td> 
+      <td>選択したタスクまたは問題に対して行われた更新を概要パネルに表示します。 これには、システム更新とユーザーによる更新の両方が含まれます。ユーザーは、システムの更新をフィルターして除外できます（<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">作業を更新</a>の<a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">システムアップデートを有効化または無効化</a>の節を参照）。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">作業に対する時間を記録する</td> 
@@ -140,16 +140,16 @@ ht-degree: 69%
      </tr> 
      <tr> 
       <td role="rowheader">作業に関連付けられたドキュメントを表示</td> 
-      <td>タスクまたはイシューを選択すると、ホームおよび概要にドキュメント領域が表示され、タスクまたはイシューに添付されているドキュメントがリストされます。ユーザーは、ドキュメントをクリックして、プレビューウィンドウに表示できます。</td> 
+      <td>タスクまたは問題が選択されると、概要パネルにドキュメント領域が表示され、タスクまたは問題に添付されたすべてのドキュメントが一覧表示されます。 ユーザーは、ドキュメントをクリックして、プレビューウィンドウに表示できます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">タイムスタンプを非表示</td> 
-      <td>ホームおよび概要の次の日付フィールドのタイムスタンプを非表示にします。
+      <td>概要パネル内の次の日付フィールドのタイムスタンプを非表示にします。
        <ul>
         <li>予定完了日</li>
         <li>コミット日</li>
         <li>送信日</li>
-       </ul><p><b>メモ</b>：</p> <p> このオプションを有効にすると、期限切れになった作業項目は、時間ではなく日付のみに基づいてホームの作業リストの遅延グループ化に移動されます。</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>
