@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d7565c00c7c81110e1292d8a1d6057d75036dd43
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 96%
+source-wordcount: '1623'
+ht-degree: 95%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 96%
 
 ### クラスター 1、2、3、5、7、8、9 に対して許可する IP アドレス {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-実稼動環境がクラスター 1、2、3、5、または 7 上にある場合は、次の IP アドレスを許可する必要があります。
+実稼動環境がクラスター 1、2、3、5、7、8、9 にある場合、次の IP アドレスを許可する必要があります。
 
 <table style="table-layout:auto"> 
  <col> 
