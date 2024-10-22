@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 393405424c0ce3334304643c9474369e12417406
+source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
 workflow-type: tm+mt
-source-wordcount: '14505'
+source-wordcount: '14507'
 ht-degree: 92%
 
 ---
@@ -1515,7 +1515,7 @@ ht-degree: 92%
       * [アジャイルチームの作成と管理](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
       * [チーム設定を編集](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
       * [チームの作業内容の管理](people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-      * [チームの非アクティブ化](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+      * [チームのディアクティベートまたは削除](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
       * [タスクの「完了」ボタンの設定](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
       * [イシューに「完了」ボタンを設定](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
       * [「作業をする」ボタンを「開始」ボタンに置き換えます](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

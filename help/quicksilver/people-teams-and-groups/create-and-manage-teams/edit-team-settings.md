@@ -6,10 +6,10 @@ description: Workfront 管理者、またはプランライセンスもしくは
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 93%
+source-wordcount: '495'
+ht-degree: 90%
 
 ---
 
@@ -55,11 +55,11 @@ ht-degree: 93%
 
 1. **[!UICONTROL その他]**&#x200B;メニュー（![](assets/more-icon.png)）をクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   このオプションは、[!UICONTROL プラン]ライセンスまたは[!UICONTROL ワーク]ライセンスを持つチームメンバーのみに表示されます。
+   [!UICONTROL  標準 ]、[!UICONTROL  プラン ]、または [!UICONTROL  ワーク ] ライセンスのいずれかを持つチームメンバーのみがこのオプションを表示します。
 
    「[!UICONTROL 編集]」オプションがあるべきなのに表示されない場合は、[!UICONTROL スクラムチーム]、[!UICONTROL かんばんチーム]、または[!UICONTROL ウォーターフォールチーム]に対してレイアウトテンプレートで「[!UICONTROL チーム設定]」が表示されていることを確認するよう Workfront 管理者に依頼してください。
 
-   ![](assets/edit-team-settings-1.png)
+   ![](assets/edit-team-settings.png)
 
 1. チーム設定では、次のような変更を行うことができます。
 

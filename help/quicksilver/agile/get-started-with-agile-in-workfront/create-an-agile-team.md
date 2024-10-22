@@ -6,10 +6,10 @@ description: Adobe Workfront を使用すると、アジャイルチームが漸
 author: Lisa
 feature: Agile
 exl-id: 3afd16db-7829-4c9c-a981-461990c9dbc8
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 90%
+source-wordcount: '1003'
+ht-degree: 89%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 90%
 
 1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) を選択し、「**[!UICONTROL 新規チームを作成]**」をクリックします。
 
-   ![「新規チームを作成」を選択します。](assets/create-new-team-350x198.png)
+   ![ 新規チームを作成を選択 ](assets/create-new-team.png)
 
    「新規チーム」ボックスが表示されます。
 
@@ -158,7 +158,7 @@ ht-degree: 90%
 1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
    [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  ワーク ] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
-   ![](assets/edit-team-settings-350x205.png)
+   ![ 編集を選択 ](assets/edit-team-settings.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションで、「**[!UICONTROL アジャイルチームです]**」を選択します。
 

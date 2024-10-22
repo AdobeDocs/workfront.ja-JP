@@ -6,9 +6,9 @@ description: Adobe Workfront のデフォルト設定には、割り当てられ
 author: Lisa
 feature: People Teams and Groups
 exl-id: 9387c5ae-2835-4d8f-80ec-22fcd16c5b6e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '793'
+source-wordcount: '794'
 ht-degree: 95%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 95%
 
 1. **[!UICONTROL チーム]**&#x200B;ドロップダウンメニューで、チームを選択します。\
    または\
-   「**[!UICONTROL チームを作成]**」をクリックします。
+   **[!UICONTROL 新規チームを作成]** をクリックします。
 
 1. **[!UICONTROL その他]**&#x200B;アイコン ![](assets/more-icon.png)、「**[!UICONTROL 編集]**」の順にクリックします。
 

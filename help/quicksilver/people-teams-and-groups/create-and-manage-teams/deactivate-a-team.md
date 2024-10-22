@@ -1,19 +1,19 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: チームの非アクティブ化
+title: チームのディアクティベートまたは削除
 description: 関連する履歴データを保持したまま、使用しなくなったチームを非アクティブ化できます。Adobe Workfront 管理者は、設定のチームエリアからいつでもチームを再アクティブ化できます。
 author: Lisa
 feature: People Teams and Groups
 exl-id: 634e4c0f-aa1d-4197-92e3-54f414344ac0
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 79da9f7ed5149ca33f6eaeac347188149f410695
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 95%
+source-wordcount: '460'
+ht-degree: 74%
 
 ---
 
-# チームの非アクティブ化
+# チームのディアクティベートまたは削除
 
 関連する履歴データを保持したまま、使用しなくなったチームを非アクティブ化できます。[!DNL Adobe Workfront] 管理者は、設定のチームエリアからいつでもチームを再アクティブ化できます。チームを非アクティブ化すると、チームは以下のエリアに表示されなくなります。
 
@@ -53,7 +53,7 @@ ht-degree: 95%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront プラン</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
@@ -62,7 +62,12 @@ ht-degree: 95%
    <p>新規：標準</p>
    <p>または</p>
    <p>現在：プラン</p></td>
-  </tr> 
+  </tr>
+  <tr>
+   <td>アクセスレベル設定</td>
+   <td><p>チームをディアクティベートするには、設定は不要です。</p>
+   <p>チームを削除するには、システム管理者である必要があります。</p></td>
+  </tr>
  </tbody> 
 </table>
 
@@ -85,13 +90,28 @@ ht-degree: 95%
 1. **[!DNL Switch team]** アイコンをクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
 1. **[!UICONTROL その他]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   ![](assets/edit-team-settings-350x205.png)
+   ![](assets/edit-team-settings.png)
 
-1. 「**[!UICONTROL アクティブ]**」チェックボックスをオフにします。
+1. チーム設定の「**[!UICONTROL アクティブ]**」チェックボックスをオフにします。
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
-## 既知の制限事項
+## チームを非アクティブ化するための既知の制限
 
 非アクティブ化されたチームは、以下のエリアに表示されます。
 
 * [!DNL Workfront Goals] の所有者フィールドこれには、追加の [!DNL Adobe Workfront Goals] ライセンスが必要です。詳しくは、[概要 [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)を参照してください。
+
+## チームの削除
+
+システム管理者のみがチームを削除できます。 チームの所有者（管理者ではない）がチームを削除しようとすると、エラーメッセージが表示されます。
+
+チームを削除するには：
+
+{{step1-to-team}}
+
+1. **[!DNL Switch team]** アイコンをクリックし、ドロップダウンメニューから新しいチームを選択するか、検索バーでチームを検索します。
+1. **[!UICONTROL その他]** メニューをクリックし、「**[!UICONTROL 削除]**」を選択します。
+
+   ![](assets/edit-team-settings.png)
+
+1. チームを完全に削除するには、確認メッセージで「[!UICONTROL **確認**]」をクリックします。 削除したチームは復元できません。
