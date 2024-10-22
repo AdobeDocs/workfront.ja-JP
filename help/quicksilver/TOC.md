@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 5180bbad9ae2767ebc540127bc92fb688431b5d1
+source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
 workflow-type: tm+mt
-source-wordcount: '14507'
+source-wordcount: '14512'
 ht-degree: 92%
 
 ---
@@ -1342,7 +1342,7 @@ ht-degree: 92%
          * [タスクの元の期間と元の予定時間数の概要](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [タスクの予定期間と期間の違い](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
       * タスクの作成 {#create-tasks}
-         * [タスクを作成](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+         * [タスクを作成：記事インデックス](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [タスクの概要の作成](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [プロジェクトでのタスクの作成](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [サブタスクを作成](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -2092,7 +2092,7 @@ ht-degree: 92%
       * [プライマリフィールドの概要](planning/fields/primary-field-overview.md)
    * Adobe Workfront Planning のアクセス {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning のアクセス情報：記事索引](planning/access/access-information.md)
-      * [アクセス権の概要](planning/access/access-overview.md)
+      * [Adobe Workfront Planning のアクセスの概要](planning/access/access-overview.md)
       * [Adobe Workfront Planning での共有権限の概要](planning/access/sharing-permissions-overview.md)
       * [Adobe Workfront Planning 使用時のライセンスタイプの概要](planning/access/license-type-overview.md)
       * [ワークスペースの共有](planning/access/share-workspaces.md)

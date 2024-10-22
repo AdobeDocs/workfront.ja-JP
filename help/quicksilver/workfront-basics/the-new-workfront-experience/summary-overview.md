@@ -5,9 +5,9 @@ description: 概要パネルを使用すると、タスクやイシュー、ド�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 5d6e9788ccbae7a8970cff56558233a57ceee1ab
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '992'
+source-wordcount: '960'
 ht-degree: 100%
 
 ---
@@ -187,9 +187,7 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 [!UICONTROL 概要]の「[!UICONTROL 詳細]」セクションを使用すると、作業項目の概要レベルの詳細を表示したり、割り当てを行ったり、開始日を追加したりできます。「**[!UICONTROL すべて表示]**」をクリックすると、タスクまたはイシューの「[!UICONTROL 詳細]」タブに直接移動できます。
 
->[!NOTE]
->
->このセクションに表示されるフィールドは、ホームの右パネルに表示されるフィールドと同じです。これらのフィールドはカスタマイズできます。詳しくは、[レイアウトテンプレートを使用した[!UICONTROL ホーム]と[!UICONTROL 概要]のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)を参照してください。
+
 
 ![概要パネルの「詳細」セクション](assets/summary-details-section.png)
 

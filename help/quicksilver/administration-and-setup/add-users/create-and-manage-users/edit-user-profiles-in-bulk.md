@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 96%
+source-wordcount: '2213'
+ht-degree: 95%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 96%
        <ul> 
         <li><b>タイムゾーン：</b>ユーザーのタイムゾーン。</li> 
         <li><b>ロケール</b>：ユーザーの優先ロケール。これは、Workfront から送信されるメールの数値や日付の形式に影響します。</li> 
-        <li><b>自分に割り当てた作業を「作業中」タブに送信</b>：ユーザーが自分に割り当てたすべてのものを、ユーザーの「作業中」タブに直接表示する場合は、このオプションを選択します。デフォルトでは、ユーザーに割り当てられたすべての項目が「作業リクエスト」タブに一覧表示されます。</li> 
+        <li><b> 自分に割り当てた作業を自分の「作業割り当て」タブに送信する </b>：この設定は、Workfrontから削除された非推奨（廃止予定）の機能を参照します。</li> 
        </ul> </td> 
      </tr> 
      <tr> 

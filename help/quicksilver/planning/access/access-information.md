@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 57%
+source-wordcount: '123'
+ht-degree: 55%
 
 ---
 
@@ -22,7 +22,7 @@ Workfront 管理者は、Adobe Workfront Planning を使用するユーザーに
 
 次の記事には、ユーザーが Workfront Planning 機能を使用するのに必要なアクセス権に関する情報が含まれています。
 
-* [アクセス権の概要](/help/quicksilver/planning/access/access-overview.md)
+* [Adobe計画のアクセスの概要](/help/quicksilver/planning/access/access-overview.md)
 * [Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)
 * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
 * [ビューの共有](/help/quicksilver/planning/access/share-views.md)

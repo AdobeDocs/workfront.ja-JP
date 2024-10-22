@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '20938'
-ht-degree: 95%
+source-wordcount: '20901'
+ht-degree: 94%
 
 ---
 
@@ -471,7 +471,9 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
-   <td> <p>[!DNL Workfront] には 2 つのタイプのカレンダーがあります。[!UICONTROL Home Calendar] およびカレンダーレポートです。</p> <p>[!UICONTROL Home Calendar] は、ユーザーが[!DNL Workfront]の空き時間に対して、自分の作業負荷を管理できる個人用カレンダーです。ユーザーは、[!UICONTROL Home Calendar] を [!DNL Outlook] と統合することもできます（[!DNL Google] と [!DNL Microsoft] は統合される予定です）。 </p> <p>[!UICONTROL Home Calendar] について詳しくは、<a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] のビュー</a>を参照してください。</p> <p>カレンダーレポートは、ユーザーが期日、作業ステータス、イベントが割り当てられているユーザーなど、イベントの日付やその他の重要な詳細を表示できる動的なレポートです。</p> <p> カレンダーレポートについて詳しくは、<a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">カレンダーレポートの概要</a>を参照してください。</p> </td> 
+   <td> <p>Workfrontでは、カレンダーレポートは、期日、作業のステータス、イベントの割り当て先ユーザーなど、イベントの日付やその他の重要な詳細を表示できる動的レポートです。</p> <p> カレンダーレポートについて詳しくは、<a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">カレンダーレポートの概要</a>を参照してください。</p>
+   <p> Workfront Planning では、カレンダ・ビューは、カレンダにレコードを表示するレコード・タイプのビューのタイプです。 Workfront Planning にアクセスするには、追加ライセンスが必要です。 </p>
+    </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
@@ -1644,7 +1646,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Profile]</td> 
-   <td>管理者が定義した、タブおよびポータルセクションのコレクションで、[!DNL Workfront] アプリケーション[!UICONTROL Home]やその他のダッシュボードに表示されるものです。</td> 
+   <td>[!DNL Workfront] に表示されるタブとセクションの管理者定義のコレクションです。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Portal Section]</td> 

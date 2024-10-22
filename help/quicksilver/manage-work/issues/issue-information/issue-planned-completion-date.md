@@ -6,10 +6,10 @@ description: イシューの予定完了日とは、イシューが完了する�
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '589'
-ht-degree: 100%
+ht-degree: 54%
 
 ---
 
@@ -17,15 +17,15 @@ ht-degree: 100%
 
 イシューの予定完了日とは、イシューが完了する予定の日付です。
 
-イシューの予定完了日を指定することも、Workfront に任せて、特定の基準に基づいて計算することもできます。 
+イシューの予定完了日を指定することも、Workfront に任せて、特定の基準に基づいて計算することもできます。
 
-イシューの予定完了日は、プロジェクトの予定完了日には影響しません。タスクの予定完了日のみが、プロジェクトの予定完了日に影響を与えます。プロジェクトの予定完了日について詳しくは、[プロジェクトの予定完了日の設定](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)を参照してください。
+問題の予定完了日は、プロジェクトの予定完了日には影響しません。 タスクの予定完了日のみが、プロジェクトの予定完了日に影響を与えます。 プロジェクト予定完了日の詳細については、「[ プロジェクト予定完了日の設定 ](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)」を参照してください。
 
 >[!NOTE]
 >
 >イシューの予定完了日は、次の方法で、イシューのコミット日またはイシューの見込み完了日と異なります。
 >
->* コミット日は、イシューに割り当てられたユーザーがイシューの完了を手動で推定した日付です。詳しくは、次の記事を参照してください。
+>* コミット日は、イシューに割り当てられたユーザーが手動でイシューを完了したと推定する日付です。 詳しくは、次の記事を参照してください。
 >
 >   * [コミット日の概要](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md)
 >   * [コミット日と予定完了日の間のインタラクション](../../../manage-work/projects/updating-work-in-a-project/interactions-between-commit-and-planned-completion-dates.md)。
@@ -37,9 +37,9 @@ ht-degree: 100%
 
 イシューの予定完了日を更新できるようにするには、イシューに対する編集権限と管理権限が必要です。
 
-イシューの予定完了日は、Workfront の次のエリアで手動で設定できます。
+Workfrontの次の領域で、イシューの予定完了日を手動で設定できます。
 
-* イシューを作成または編集するときに、「タスクの編集」ボックスまたはイシューの詳細エリアを使用。詳しくは、[イシューを編集](../../../manage-work/issues/manage-issues/edit-issues.md)を参照してください。
+* イシューを作成または編集する際に、「イシューを編集」ボックスまたは「イシューの詳細」領域で確認する。 詳しくは、[イシューを編集](../../../manage-work/issues/manage-issues/edit-issues.md)を参照してください。
 * ホームエリアで、イシューの表示時に予定完了日が表示される場合。詳しくは、[ホームエリアの作業アイテムを更新または編集](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)を参照してください。
 * イシューのヘッダー内。詳しくは、[新しいオブジェクトヘッダー](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)を参照してください。
 * イシューリストまたはレポートで、「予定完了日」フィールドがビューに表示される場合。
@@ -48,33 +48,33 @@ ht-degree: 100%
 
 ## Workfront でイシューの予定完了日が自動的に計算される方法
 
-Workfront がイシューの予定完了日を自動的に計算する場合、次のことが日付に影響を与える可能性があります。
+Workfrontがイシューの予定完了日を自動的に計算する場合、日付に影響する可能性があるのは、次の点です。
 
 * 予定開始日
 
-  イシューを最初に作成したときのイシューのエントリ日と予定開始日が一致する必要があります。
+  エントリ日と予定開始日は、最初に問題を作成する際に問題と一致する必要があります。
 
-* プロジェクトの「キューの詳細」セクションで設定されたデフォルトの期間。詳しくは、[リクエストキューを作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
+* プロジェクトの「キューの詳細」セクションで設定されているデフォルトの期間。 詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
-  デフォルト期間が 0 日の場合、予定完了日はイシューの予定開始日と一致します。
+  デフォルトの期間が 0 日の場合、「予定完了日」はイシューの「予定開始日」と一致します。
 
 * プロジェクトスケジュール
 
-自動的に設定された場合、予定完了日は次の計算に基づいて決定されます。
+自動的に設定された場合、「予定完了日」は次の計算に基づいて決定されます。
 
 ```
 Planned Completion Date = Planned Start Date (or Entry Date + Default Duration
 ```
 
-**例：**&#x200B;例えば、タスクの開始日が 1月14日金曜日で、デフォルト期間が 5 日の場合、プロジェクトスケジュールが月曜日から金曜日で 1 日 8 時間とすると、予定完了日は 1月21日金曜日になります。
+**例：** 例えば、タスクの開始日が 1 月 14 日金曜日で、デフォルト期間が 5 日の場合、プロジェクトのスケジュールが 1 日 8 時間の月曜日から金曜日であれば、予定完了日は 1 月 21 日金曜日になります。
 
 次の状況が存在します。
 
 * プロジェクトにスケジュールがない場合、Workfront システムのデフォルトスケジュールが考慮されます。詳しくは、[スケジュールの概要](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md)を参照してください。
-* スケジュールが月曜日から金曜日の午前 9 時から午後 1 時（1 日あたり 4 時間）で、Workfront システムの 1 日あたりの標準労働時間が 8 時間の場合、予定完了日は 1月27日になります。
+* スケジュールが月曜から金曜の午前 9 時から午後 1 時（1 日 4 時間）で、Workfront システムの営業日あたりの標準的な時間数が 8 時間の場合、予定完了日は 1 月 27 日です。
 
 >[!TIP]
 >
->Workfront では、予定完了日を計算する場合に、休日や週末などスケジュールの例外が考慮されます。
+>Workfrontでは、予定完了日を計算する際に、休日や週末などのスケジュール例外が考慮されます。
 
- 
+

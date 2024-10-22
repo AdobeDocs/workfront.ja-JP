@@ -6,10 +6,10 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 76%
+source-wordcount: '536'
+ht-degree: 75%
 
 ---
 
@@ -76,7 +76,6 @@ ht-degree: 76%
    * タスクまたはイシューのヘッダー
    * タスクまたはイシューの概要パネル
    * <span class="preview"> 新規タスク </span> またはイシューをプロジェクトに追加する際の <span class="preview"> 新規タスク </span> または新規イシューボックス
-   * ホームエリアにリストされた項目の「割り当て」フィールド
    * ワークロードバランサーのタスクまたはイシュー
 
 1. 「割り当て」フィールドにカーソルを置き、2 秒間待ちます。

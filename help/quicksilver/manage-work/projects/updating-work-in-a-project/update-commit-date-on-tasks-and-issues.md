@@ -6,7 +6,7 @@ description: 割り当てられたタスクやイシューのコミット日は�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
 source-wordcount: '552'
 ht-degree: 53%
@@ -95,7 +95,7 @@ Workfrontの次の領域で、タスクまたはイシューのコミット日�
 >詳しくは、次の記事を参照してください。
 >
 >* [ 概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
->* [ レイアウトテンプレートを使用してホームと概要をカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
+>* [ レイアウトテンプレートを使用して概要パネルをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)。
 
 
 1. 自分が&#x200B;**所有者**&#x200B;として割り当てられているタスクまたはイシューに移動します。

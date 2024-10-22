@@ -1,14 +1,14 @@
 ---
 content-type: overview
-title: 上部のナビゲーションバーの概要
+title: 上部ナビゲーションバーの概要
 description: ' [!DNL Adobe Workfront]  の画面の上部に表示されるトップナビゲーションバーを使用すると、プラットフォームの他のエリアを簡単に見つけて移動できます。'
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 0a50e3aef47720d78e798f6111ee503389dde984
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '698'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

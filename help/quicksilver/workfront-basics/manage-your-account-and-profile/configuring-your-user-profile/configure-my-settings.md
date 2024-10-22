@@ -3,12 +3,12 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 「個人設定」の指定
 description: ' [!DNL Adobe Workfront]  プロファイルには、自分に関する情報（名前、メールアドレス、住所、電話番号、役職など）が含まれます。また、 [!DNL Workfront]  および社内の他のユーザーとのインタラクションに関する情報も含まれます。'
-author: Nolan
+author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: ecf0aba451d530fa3be258d954f827e7cfc6b198
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3319'
+source-wordcount: '3306'
 ht-degree: 97%
 
 ---
@@ -345,7 +345,7 @@ ht-degree: 97%
 
 <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
-   <td>このフィールドを選択して、自分に直接割り当てている作業を「[!UICONTROL Work Requests]」タブではなく「[!UICONTROL Working On]」タブで表示します。</td> 
+   <td>このフィールドは、[!DNL Workfront] から削除された非推奨（廃止予定）の機能を参照しています。</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>（条件付き）Automatically generate proofs when uploading documents</strong></td> 

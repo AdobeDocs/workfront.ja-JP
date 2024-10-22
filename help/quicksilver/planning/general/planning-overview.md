@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 47%
+source-wordcount: '2106'
+ht-degree: 46%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 47%
 >* Workfront Planning の追加ライセンス。
 >* 組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。
 >
-> Workfront Planning へのアクセス要件の完全なリストについては、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+> Workfront Planning へのアクセス要件の一覧については、[Adobe計画へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
 
 この記事には、Workfrontの計画に関する一般情報が含まれます。
@@ -168,7 +168,7 @@ Workfront Planning のライセンスを購入した後、Workfront Planning に
 
 * メインメニューに Planning が含まれるレイアウトテンプレートを Planning にアクセスする必要があるユーザーを割り当てます。 詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [ レイアウトテンプレートにユーザーを割り当てる ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) を参照してください。
 
-* ユーザーにWorkfront ライセンスを割り当て、Workfront Planning で 5554hview またはオブジェクトを作成できるようにするWorkfront Planning 権限を割り当てます。 他のユーザーが Workfront Planning を使用できるようにアクセス権を付与して有効にする方法について詳しくは、[アクセス権の概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+* ユーザーにWorkfront ライセンスを割り当て、Workfront Planning で 5554hview またはオブジェクトを作成できるようにするWorkfront Planning 権限を割り当てます。 へのアクセス権の付与と、他のユーザーがWorkfront Planning を使用できるようにする方法の詳細については、[Adobe計画のアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
 ## Workfront Planning の用語
 
@@ -321,7 +321,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 ## Adobe Workfront Planning の検索
 
-Adobe計画を検索するには、Workfront Planning へのアクセス権が組織に付与されていること、およびシステム管理者またはグループ管理者が計画エリアをメイン・メニューに追加していることを確認します。 詳しくは、[アクセス権の概要](/help/quicksilver/planning/access/access-overview.md)を参照してください。
+Adobe計画を検索するには、Workfront Planning へのアクセス権が組織に付与されていること、およびシステム管理者またはグループ管理者が計画エリアをメイン・メニューに追加していることを確認します。 詳しくは、[Adobe計画アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
 Workfront Planning を検索するには、次の手順に従います。
 

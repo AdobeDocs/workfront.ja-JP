@@ -7,10 +7,10 @@ description: 短期間オフィスを離れる予定がある場合は、自分�
 author: Lisa
 feature: Work Management
 exl-id: aec2ce78-278f-48d2-af8c-e4e5b31ac856
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 92%
+source-wordcount: '902'
+ht-degree: 91%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 92%
   詳しくは、[システム全体のタスクとイシューの環境設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
 * タスクとイシューの委任は、[!UICONTROL ホーム]エリアのみから実行できます。
-* 次のライセンスタイプには例外事項が存在します。
+* 作業を委任する場合、次のライセンスタイプには例外があります。
 
    * 作業をレビュアーや要求者に委任することはできますが、[!DNL Workfront] ではそれをお勧めしません。
    * レビュアーは作業を他のユーザーに委任できます。自分の[!UICONTROL ホーム]エリアには作業アイテムを表示できません。承認のみを表示できます。

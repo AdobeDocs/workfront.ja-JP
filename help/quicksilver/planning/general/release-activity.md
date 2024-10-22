@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '7484'
+source-wordcount: '7488'
 ht-degree: 37%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 37%
 >
 >Workfront Planning 機能にアクセスして使用するには、Workfront プランに加えて、Workfront Planning プランを購入する必要があります。
 >
->Workfront Planning へのアクセス要件の完全なリストについては、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+>Workfront Planning へのアクセス要件の一覧については、[Adobe計画へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 >Workfront計画の概要については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 >
 
@@ -1259,7 +1259,7 @@ Adobe Workfront Planning 機能は、プレビュー環境とサンドボック�
 * 表示：ユーザーは、レコードタイプのページの表示ドロップダウンメニューから表示を選択できます。
 * 管理：ユーザーは、ビューを編集、共有、削除できます。
 
-詳しくは、[アクセスの概要](/help/quicksilver/planning/access/access-overview.md)および [Adobe Workfront Planning 機能での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
+詳しくは、[Adobeプランニングのアクセス権限の概要 ](/help/quicksilver/planning/access/access-overview.md) および [Adobe Workfrontプランニング機能における共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。
 
 ### 新しい数式フィールドのタイプ
 

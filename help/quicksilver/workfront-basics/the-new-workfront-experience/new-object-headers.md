@@ -4,11 +4,12 @@ navigation-topic: the-new-workfront-experience
 title: オブジェクトヘッダーの概要
 description: ' [!DNL Adobe Workfront] 内のオブジェクトのヘッダーを確認すると、そのオブジェクトに関する情報が一目でわかります。ヘッダー内の情報には、オブジェクトの所有者、ステータスまたは完了率を含めることができます。'
 feature: Get Started with Workfront
+author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 58dffc8a84c2bcaaf09dfc65c6555d57f0b2eeb4
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '3707'
-ht-degree: 100%
+source-wordcount: '3697'
+ht-degree: 95%
 
 ---
 
@@ -31,12 +32,12 @@ ht-degree: 100%
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL ホーム]ヘッダーの概要
+<!--## [!UICONTROL Home] header overview 
 
-ホームでは、次のヘッダーを使用できます。
+The following headers are available in Home:
 
-* タスク：このヘッダーの使用方法について詳しくは、この記事の[タスクヘッダーの概要](#task-header-overview)を参照してください。
-* イシュー：このヘッダーの使用方法について詳しくは、この記事の[イシューヘッダーの概要](#issue-header-overview)を参照してください。
+* Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
 
 ## カスタマイズ可能なヘッダー
 
@@ -80,8 +81,8 @@ ht-degree: 100%
    <td> <p>「[!UICONTROL PROJECT]」というテキストが、ヘッダーのプロジェクト名の上に表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">タスクのアクション領域</td> 
-   <td> <p>アクション領域はプロジェクト名の横に表示されます。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td role="rowheader">プロジェクトの「アクション」領域</td> 
+   <td> <p>プロジェクト名の横のアクション エリアに「<b> 共有 </b>」オプションを含む内容が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -144,7 +145,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">タスクのアクション領域</td> 
-   <td> <p>タスク名の横に、[!UICONTROL actions]エリアが表示されます。</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>「依存関係」アイコンが表示された場合は、アイコンをクリックして、タスクの先行タスクまたは後続タスクを表示できます。</p> </td> 
+   <td> <p>タスク名の横のアクション領域に「<b> 共有 </b>」オプションを含む内容が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>「依存関係」アイコンが表示された場合は、アイコンをクリックして、タスクの先行タスクまたは後続タスクを表示できます。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -207,7 +208,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">イシューのアクションエリア</td> 
-   <td> <p>イシューの名前の横に、[!UICONTROL actions]エリアが表示されます。</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>[!UICONTROL Dependency] アイコンが表示された場合は、アイコンをクリックして、イシューの先行タスクまたは後続タスクを表示できます。</p>  </td> 
+   <td> <p>イシュー名の横のアクション領域に、「<b> 共有 </b>」オプションを含む内容が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>[!UICONTROL Dependency] アイコンが表示された場合は、アイコンをクリックして、イシューの先行タスクまたは後続タスクを表示できます。</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -274,7 +275,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">プログラムのアクションエリア</td> 
-   <td> <p>プログラム名の横に、[!UICONTROL actions] エリアが表示されます。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>プログラム名の横のアクション領域に、「<b> 共有 </b>」オプションを含む内容が表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -328,8 +329,8 @@ ht-degree: 100%
    <td> <p>ポートフォリオが非アクティブ化されている場合、ヘッダーのポートフォリオ名の上に「[!UICONTROL PORTFOLIO DEACTIVATED]」というテキストが表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">ポートフォリオの[!UICONTROL actions]エリア</td> 
-   <td> <p>ポートフォリオ名の横に、[!UICONTROL actions]エリアが表示されます。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">ポートフォリオの「アクション」エリア</td> 
+   <td> <p>ポートフォリオ名の横に、[!UICONTROL actions]エリアが表示されます。</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
@@ -392,7 +393,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">テンプレートのアクションエリア</td> 
-   <td> <p>テンプレート名の横に、アクションエリアが表示されます。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>テンプレート名の横に、アクションエリアが表示されます。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Template Owner]</td> 
@@ -439,7 +440,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">テンプレートのタスクのアクションエリア</td> 
-   <td> <p>アクションエリアはテンプレートのタスクの名前の横に表示されます。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>アクションエリアはテンプレートのタスクの名前の横に表示されます。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assignments]</td> 
@@ -485,12 +486,15 @@ ht-degree: 100%
    <td> <p>「[!UICONTROL BILLING RECORD]」というテキストが、ヘッダー内の請求記録の名前の上に表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">請求記録のアクションエリア</td> 
+   <td role="rowheader">請求記録の詳細メニュー</td> 
    <td> <p>請求記録の名前の横に [!UICONTROL More] メニュー <img src="assets/more-menu.png"> が表示され、次のオプションを選択できます。</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
-     <li> <p> </p> </li> 
-    </ul> </td> 
+     <li> <p> 削除 </p> </li> 
+    </ul>
+    <p><b>メモ</b></p>
+    <p>ステータスが「請求済み」の請求記録には、「詳細」メニューは表示されません。 請求済みレコードは編集または削除できません。</p>
+     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Billing Record Total]</td> 
@@ -542,7 +546,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">ユーザーのアクションエリア</td> 
-   <td> <p>ユーザーの名前の横に、アクションエリアが表示されます。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>ユーザーの名前の横に、アクションエリアが表示されます。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">メールアドレス</td> 
@@ -589,7 +593,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">チームのアクションエリア</td> 
-   <td> <p>チーム名の横に、[!UICONTROL actions] エリアが表示されます。</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>チーム名の横に、アクション エリアが表示されます。</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">チームメンバーのプロファイル画像</td> 
@@ -632,8 +636,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">イテレーションのアクションエリア</td> 
-   <td> <p>ヘッダーの右上隅に、アクションエリアが表示されます。</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
-  </tr> 
+   <td> <p>イテレーション名の横に、「アクション」領域が表示されます。</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">所有者</td> 
    <td>これは、イテレーションの [!UICONTROL Owner] です。ヘッダーの [!UICONTROL Owner] は編集できません。</td> 
@@ -735,7 +738,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">ドキュメントのアクションエリア</td> 
-   <td> <p>ドキュメント名の横に、アクションエリアが表示されます。</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td> <p>ドキュメント名の横に、アクションエリアが表示されます。</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">承認の [!UICONTROL Decision] エリア</td> 
@@ -773,7 +776,7 @@ ht-degree: 100%
    <td> <p>「[!UICONTROL COMPANY]」というテキストが、ヘッダーの会社名の上に表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">会社のアクションエリア</td> 
+   <td role="rowheader">会社の詳細メニュー</td> 
    <td> <p>会社の名前の横に [!UICONTROL More] メニュー <img src="assets/more-menu.png"> が表示され、次のオプションを選択できます。</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
@@ -819,7 +822,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">プランのアクションエリア</td> 
-   <td> <p>プランの名前の横に、アクションエリアが表示されます。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>プランの名前の横に、アクションエリアが表示されます。</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">追加のプラン領域</td> 
@@ -885,9 +888,9 @@ ht-degree: 100%
    <td> <p>ヘッダーの目標名の上に、「[!UICONTROL GOAL]」というテキストが表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">目標のアクションエリア</td> 
-   <td> <p>目標の名前の横に、アクションエリアが表示されます。</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
-   目標のアクションエリアで、次のアクションを実行できます。
+   <td role="rowheader">目標の「その他」メニュー</td> 
+   <td> <p>目標の名前の横に、「詳細」メニュー <img src="assets/more-icon.png"> ージが表示されます。</p> </p>
+   目標の「その他」メニューから、次のアクションを実行できます。
    <ul><li>[!UICONTROL Edit]</li>
    <li>[!UICONTROL Copy goal]</li>
    <li>[!UICONTROL Delete goal]</li>

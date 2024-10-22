@@ -1,20 +1,20 @@
 ---
-title: アクセスの概要
+title: Adobe Workfront Planning のアクセスの概要
 description: Adobe Workfront Planning を使用する際、組織内のすべてのユーザーが同じアクセス権と権限を持っているわけではありません。 ここでは、Adobe Workfront Planning の機能を使用するために必要になるアクセス権およびアクセス権について説明します。
 author: Alina
 feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 32%
+source-wordcount: '673'
+ht-degree: 31%
 
 ---
 
 
-# アクセス権の概要
+# Adobe Workfront Planning のアクセスの概要
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 

@@ -8,10 +8,10 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: f5632af0fb87739fc41c4e2f41dc8ebab0f8be8b
+source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 74%
+source-wordcount: '776'
+ht-degree: 61%
 
 ---
 
@@ -38,19 +38,20 @@ Workfrontのどの領域からタスクまたはイシューにアクセスす�
   >
   >「作業開始」ボタンを「開始」ボタンに置き換えることができます。「作業開始」ボタンを「開始」ボタンに置き換える方法について詳しくは、[「作業開始」ボタンを「開始」ボタンに置き換える](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)を参照してください。
 
-* 「作業対象として承認」をクリックすると、Workfront内でタスクまたはイシューにアクセスした場所に応じて、ボタンが完了としてマークまたは完了に変わります。 「作業開始」ボタンにアクセスできる場所について詳しくは、この記事の[「作業開始」と「完了」ボタンを検索する](#locate-the-work-on-it-and-done-button)の節を参照してください。
+* 「作業対象」をクリックして確定すると、ボタンが「完了としてマーク」に変わります。 「作業開始」ボタンにアクセスできる場所について詳しくは、この記事の[「作業開始」と「完了」ボタンを検索する](#locate-the-work-on-it-and-done-button)の節を参照してください。
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
-* そのタスクまたはイシューに割り当てられたユーザーが他にもいて、ホームエリアの作業リストから自身の作業アイテムにアクセスする場合、ボタンは「自分の担当箇所で完了」に変わります。
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)
+<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-## 作業対象と完了ボタンを見つけます {#locate-the-work-on-it-and-done-button}
+  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-Workfrontの次の領域に「作業対象」ボタンと「完了」ボタンがあります。
+## 作業対象を見つけて、「完了としてマーク」ボタンをクリックします {#locate-the-work-on-it-and-done-button}
 
-* ホームエリア、（作業リストまたは「詳細」パネル内）
+Workfrontの次の領域で「作業対象」ボタンと「完了としてマーク」ボタンを見つけることができます。
+
+* 担当作業ウィジェットの「ホーム」エリア
 
   ホームエリアで項目を「完了」とマークする方法について詳しくは、[ホームエリアで項目を「完了」とマークする](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)を参照してください。
 
@@ -58,13 +59,13 @@ Workfrontの次の領域に「作業対象」ボタンと「完了」ボタン�
 
   オブジェクトヘッダーについて詳しくは、[新しいオブジェクトヘッダー](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)を参照してください。
 
-* リスト内またはワークロードバランサー内のタスクまたはイシューの概要パネル
+* タスクまたは問題の概要パネルで
 
   概要パネルの使用について詳しくは、[概要](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
-## 「作業開始」ボタンと「完了」ボタンをクリックすると自動的に更新されるフィールドの概要
+## 「作業対象」ボタンと「完了としてマーク」ボタンをクリックすると自動的に更新されるフィールドの概要
 
-「作業開始」ボタンと「完了」ボタンを使用する利点は、Workfront が割り当てられた作業アイテムに関する情報を自動的に更新できることです。
+「作業対象」ボタンと「完了としてマーク」ボタンを使用する利点は、割り当てられた作業項目に関する情報をWorkfrontが自動的に更新できることです。
 
 * [「作業開始」ボタン](#work-on-it-button)
 * [「開始」ボタン](#start-button)
@@ -111,7 +112,11 @@ Workfrontの次の領域に「作業対象」ボタンと「完了」ボタン�
 
 ### 「完了」ボタン {#the-done-button}
 
-チームの編集アクセス権を持っている場合、項目を完了としてマークするとチームの「完了」ボタンを設定して、タスクまたはイシューのステータスを更新できます。 そのチームをホームチームとして持つユーザーが項目の「完了」ボタンをクリックすると、次のフィールドでは、タスクまたはイシューに関する情報も自動的に更新されます。
+>[!NOTE]
+>
+>「完了」ボタンは、Workfrontのすべての領域で完了としてマークと表示されます。
+
+チームの編集アクセス権を持っている場合、項目を完了としてマークするとチームの「完了」ボタンを設定して、タスクまたはイシューのステータスを更新できます。 そのチームをホームチームとして持つユーザーが、項目の「完了としてマーク」ボタンをクリックすると、次のフィールドがタスクまたは問題について自動的に更新されます。
 
 * ステータス
 * 割り当て状態が [ 作業中 ] から [ 完了 ] に更新されます

@@ -7,10 +7,10 @@ description: メインメニューは、 [!DNL Adobe Workfront] 管理者に割�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 次のエリアは、[!UICONTROL 作業者]のデフォルトレイアウトに含まれています。
 
-* **[!UICONTROL ホーム]**：割り当てられたタスクやイシューはここに表示されます。これは、作業者のデフォルトのランディングページですが、Workfront 管理者がレイアウトテンプレートに追加しない限り、[!UICONTROL メインメニュー]には表示されません。詳しくは、[[!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)の基本を学ぶを参照してください。
+* **[!UICONTROL ホーム]**：割り当てられたタスクやイシューはここに表示されます。これはワーカーのデフォルトのランディングページですが、Workfront管理者がレイアウトテンプレートに追加しない限り、[!UICONTROL  メインメニュー ] には表示されません。  詳しくは、[[!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)の基本を学ぶを参照してください。
 
 * **[!UICONTROL プロジェクト]**：自分と共有されているプロジェクトはここに表示されます。詳しくは、[プロジェクト：記事インデックス](../../../manage-work/projects/projects-overview.md)を参照してください。
 

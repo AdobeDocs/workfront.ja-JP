@@ -7,9 +7,9 @@ description: Adobe Workfront でフィルターを使用すると、リスト、
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
-source-git-commit: 9add9857213bb3eca5fbc3bbe3f4e1bb9b5020fa
+source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
 workflow-type: tm+mt
-source-wordcount: '1830'
+source-wordcount: '1807'
 ht-degree: 100%
 
 ---
@@ -71,8 +71,8 @@ Workfront のオブジェクトと、レポートの作成対象になるオブ�
 
 Workfront の次のエリアで、ビルトインフィルターを使用するか、カスタムフィルターを作成できます。
 
-* ホーム\
-  詳しくは、[ホームエリアの作業リストに項目を表示する](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)の記事の[作業リストのフィルタリング](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) の節を参照してください。
+<!--* Home   
+  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).-->
 * リクエストエリア。リクエストエリアでは、フィルターをカスタマイズできません。
 
   詳しくは、[送信済みリクエストを見つける](../../../manage-work/requests/create-requests/locate-submitted-requests.md)を参照してください。
