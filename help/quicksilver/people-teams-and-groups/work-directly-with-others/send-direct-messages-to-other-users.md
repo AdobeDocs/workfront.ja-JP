@@ -7,14 +7,16 @@ description: Adobe Workfront を使用すると、作業アイテムに関係の
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 2375cf5d7ae817340ce9552994d87cb5af9a054b
+source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '505'
+ht-degree: 52%
 
 ---
 
 # 他のユーザーにダイレクトメッセージを送信
+
+{{highlighted-preview}}
 
 [!DNL Adobe Workfront] を使用すると、作業アイテムに関係のないメッセージを他の [!DNL Workfront] ユーザーに直接、迅速かつ簡単に送信できます。この節で説明するように送信されたメッセージは、ユーザーのプロファイルページの「[!UICONTROL  更新 ]」タブに表示され、すべてのユーザーに表示されます。 更新について詳しくは、[作業アイテムの更新および更新の表示：記事インデックス](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)を参照してください。
 
@@ -72,17 +74,18 @@ ht-degree: 0%
 1. 「**[!UICONTROL アップデート]」をクリックします。**
 メッセージは、ユーザーのプロファイルページの「**[!UICONTROL 更新]**」タブのメッセージリストの上部に投稿されます。
 
-<!--
-## Send a message to one or more users from the User list
+## ユーザーリストから 1 人以上のユーザーにメッセージを送信
 
-This option is only available if you have a Standard, Plan, or Work license.
+このオプションは、標準、プラン、またはワーク ライセンスがある場合にのみ使用できます。
 
 {{step-1-to-users}}
 
-1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
-1. Type your message in the [!UICONTROL Send update to user] window.
-1. (Optional) Search for any additional users you want to tag on the message. You do not need to tag the users you already selected in the user list.
-1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
-1. Click [!UICONTROL **Send**].
-   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each user's profile page.
--->
+1. メッセージを送信する 1 人または複数のユーザーを選択し、「[!UICONTROL **ユーザーに更新を送信**]」をクリックします。
+1. [!UICONTROL  ユーザーに更新を送信 ] ウィンドウにメッセージを入力します。
+
+   <span class="preview">![ ユーザーに更新を送信ウィンドウのメッセージユーザー ](assets/send-message-to-user-dialog-from-user-list.png)</span>
+
+1. （任意）メッセージ上でタグ付けしたい追加ユーザーを検索します。 ユーザーリストで既に選択しているユーザーにタグを付ける必要はありません。
+1. （オプション）「**[!UICONTROL 社外秘]**」を選択して、このメッセージを社内の他のユーザーにのみ表示します。
+1. [!UICONTROL **送信**] をクリックします。
+メッセージは、各ユーザーのプロファイルページの「**[!UICONTROL 更新]**」タブのメッセージリストの上部に投稿されます。
