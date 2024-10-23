@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1394'
 ht-degree: 98%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 98%
   Workfront で追跡する更新の定義について詳しくは、[システムで追跡される更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)を参照してください。
 
 * Workfront に保存するフィールドがない、追跡する必要がある情報はありますか。はいの場合は、この情報を保存できるプロジェクトまたはタスク用のカスタムフォームを作成します。\
-  カスタム フォームの作成の詳細については、「[ フォーム デザイナでフォームをデザインする ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+  カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * プロジェクトの作業を続行する前に承認する必要がある承認チェックポイントはありますか。はいの場合は、プロジェクトの作成時に使用できるプロジェクトまたはタスクの承認プロセスを作成します。\
   承認プロセスについて詳しくは、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。

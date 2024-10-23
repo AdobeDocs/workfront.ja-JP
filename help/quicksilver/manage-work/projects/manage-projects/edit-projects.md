@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '7534'
+source-wordcount: '7528'
 ht-degree: 98%
 
 ---
@@ -340,7 +340,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのプロジェクトには、最大 10 個のカスタムフォームを追加できます。
+   >このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのプロジェクトには、最大 10 個のカスタムフォームを追加できます。
 
 
 1. （条件付き）カスタムフォームをプロジェクトに添付した場合は、フォーム上の任意のフィールドを編集します。プロジェクトを保存する前に、すべての必須フィールドを指定する必要があります。
@@ -562,7 +562,7 @@ ht-degree: 98%
    * 同じグループから複数のプロジェクトを選択すると、システムレベルとグループ固有の両方のタスク承認プロセスがこのフィールドに表示されます。
    * 異なるグループから複数のプロジェクトを選択すると、このフィールドにはシステムレベルのタスク承認プロセスのみが表示されます。
 
-1. すべての新しいタスクをプロジェクトに追加する際に、それらに関連付けるカスタムフォーム（複数可）を、「**タスク既定のカスタム フォーム**」フィールドで選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
+1. すべての新しいタスクをプロジェクトに追加する際に、それらに関連付けるカスタムフォーム（複数可）を、「**タスク既定のカスタム フォーム**」フィールドで選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのタスクに最大 10 個のカスタムフォームを関連付けることができます。
 1. （オプション）予定時間数ではなく作業量を使用したタスク作業量の管理を有効にする場合は、「**作業量を使うとタスクの予定時間数を自動的に計算できます**」を選択します。
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)

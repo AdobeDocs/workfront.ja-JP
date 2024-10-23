@@ -6,9 +6,9 @@ description: この統合シナリオでは、 [!DNL Adobe Workfront]  プロジ
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: daf6a18d-a3df-497d-a612-8a4645b1a8c9
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '732'
+source-wordcount: '729'
 ht-degree: 98%
 
 ---
@@ -112,7 +112,7 @@ ht-degree: 98%
    </tbody> 
   </table>
 
-  カスタムフォームの作成について詳しくは、[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * 新しいキャンペーンリクエストをキャプチャするためのリクエストキューとして設定されたプロジェクト。[!UICONTROL キャンペーンの概要]フォームを、これらのリクエストに添付する必要があります。
 

@@ -6,9 +6,9 @@ description: オブジェクトのカスタムフォームは、そのオブジ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '994'
 ht-degree: 96%
 
 ---
@@ -52,7 +52,7 @@ ht-degree: 96%
 
 カスタムフォームをレポートで参照するには、その前にカスタムフォームが存在する必要があります。
 
-カスタムフォームの作成について詳しくは、「[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 ## カスタムフォームのコンテンツの参照
 
@@ -61,7 +61,7 @@ ht-degree: 96%
 >[!NOTE]
 >
 >複数のオプションを持つフィールドの場合、非表示のものも含め、レポートのフィルターとプロンプトですべてのオプションを使用できます。\
->複数のオプションを持つユーザー設定フィールドで選択肢を非表示にする方法の詳細については、「[ フォーム デザイナでフォームをデザインする ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+>複数のオプションを持つカスタム フィールドで選択肢を非表示にする方法の詳細については、「[ カスタム フォームを作成する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 レポートを作成する場合は、フォームのオブジェクトタイプをフィールドソースとして使用し、カスタムフィールドの名前をフィールド名として使用します。
 

@@ -6,10 +6,10 @@ description: この統合シナリオは、 [!DNL Adobe Workfront]  プロジェ
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: 51b8e474cefe63b4db8c42e480990ca0ba431a4d
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 96%
+source-wordcount: '801'
+ht-degree: 97%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 96%
    </tbody> 
   </table>
 
-  カスタムフォームの作成について詳しくは、[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * [!UICONTROL 予算リクエスト]キューのトピックで設定された、資金調達を必要とするキャンペーンやその他のプロジェクトを表すプロジェクトテンプレート。[!UICONTROL 予算リクエスト]キュートのピックは、[!UICONTROL 予算リクエスト]カスタムフォームを使用するように割り当てられています。
 * プロジェクトオブジェクトの&#x200B;**[!UICONTROL キャンペーンの概要]**&#x200B;フォーム。
@@ -141,7 +141,7 @@ ht-degree: 96%
    </tbody> 
   </table>
 
-  カスタムフォームの作成について詳しくは、[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## 想定される [!DNL Anaplan] 設定
 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
-source-git-commit: a1386652f5181d4aa94ddab8e4f9714ef1c08b73
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '797'
-ht-degree: 100%
+source-wordcount: '791'
+ht-degree: 97%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 100%
 
 カスタムフォームを会社またはユーザーに添付すると、外部参照フィールドや Workfront ネイティブフィールドなどの高度なカスタムフォーム機能が使用できるようになりました。高度な機能は、会社を編集ダイアログやユーザーを編集ダイアログではなく、会社の詳細ページとユーザーの詳細ページで使用できます。これらのフィールドタイプを使用するには、新しいフォームデザイナーでカスタムフォームを作成する必要があります。
 
-カスタムフォームフィールドについて詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームフィールドについて詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 ## JumpSeat 統合が、新しいパッケージタイプで使用可能
 
@@ -64,7 +64,7 @@ Workfront にネイティブなフィールドをカスタムフォームに追�
 
 この機能は、フォームデザイナーのベータ版でのみ使用でき、従来のフォームビルダーでは使用できません。
 
-詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 [この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

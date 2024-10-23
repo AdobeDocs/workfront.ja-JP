@@ -6,9 +6,9 @@ description: 作業アイテムを効率的に検索し、管理するユーザ�
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: b255a3140629a488d24d1df980ba81faa1064d16
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2467'
 ht-degree: 97%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 97%
 
       >[!IMPORTANT]
       >
-      >カスタムフィールドを参照する場合は、フィールドラベルではなくフィールド名を入力する必要があります。フィールドラベルは、オブジェクトに添付されたカスタムフォームに表示されます。ラベルとカスタムフィールドの名前の違いについて詳しくは、「[ フォームデザイナーでのフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+      >カスタムフィールドを参照する場合は、フィールドラベルではなくフィールド名を入力する必要があります。フィールドラベルは、オブジェクトに添付されたカスタムフォームに表示されます。ラベルとカスタムフィールドの名前の違いについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
    1. （条件付き）「**フィールドを参照**」をクリックした場合は、**検索**&#x200B;フィールドにフィールドの名前を入力し、リストに表示されたらそれを選択します。
 

@@ -7,10 +7,10 @@ description: 複数選択カスタムフィールドで選択した選択肢を�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 96%
+source-wordcount: '1018'
+ht-degree: 97%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 96%
 複数選択カスタムフィールドを参照する計算フィールドを作成するには、以下の前提条件が満たされている必要があります。
 
 * カスタムフォームの複数選択カスタムフィールド\
-  ユーザー設定フォームを作成し、ユーザー設定フィールドを追加する方法については、「[ フォーム デザイナでフォームをデザインする ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+  カスタムフォームの作成と、カスタムフォームへのカスタムフィールドの追加について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * 複数選択カスタムフィールドがオブジェクトに添付されたカスタムフォーム。
 * 各オブジェクトの複数選択カスタムフィールドの値。
@@ -95,7 +95,7 @@ ht-degree: 96%
 
 1. カスタムフォームを作成するか、既存のフォームを編集します。
 
-   カスタムフォームの作成について詳しくは、[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. カスタムフォームで使用する 1 つ以上のオブジェクトを選択します。
 1. **フィールドを追加**／**計算**&#x200B;をクリックして、複数選択カスタムフィールドをフォームに追加します。

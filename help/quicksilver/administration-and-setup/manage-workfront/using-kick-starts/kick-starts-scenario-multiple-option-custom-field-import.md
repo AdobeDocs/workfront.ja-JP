@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '2155'
-ht-degree: 97%
+source-wordcount: '2146'
+ht-degree: 96%
 
 ---
 
@@ -210,7 +210,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    フィールドの値は、例えばレポートに表示される名前ですが、オブジェクトに添付されたカスタムフォームには名前が表示されます。
 
-   詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
    ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -231,7 +231,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    * **`setParameterID`** = 「_ブランド_」カスタムフィールドに対応するオプションの **`setParameterID`** は 1 で、「_メディア_」に対応するオプションの **`setParameterID`** は 2 です。`PARAM` および `POPT` シートは相互に参照され、どのオプションがどのカスタムフィールドに属しているかを示します。
    * **`setDisplayOrder`**= 表示順列は、カスタムフィールドでオプションが表示される順序を示します。どのフィールドに属するかに関係なく、1 から始めて、すべてのオプションを昇順で続行できます。ここで重要なのは、各オプションに一意の数字を設定することです。
-   * 「**`setLabel`**」および「`**setValue`**」列には通常同じ情報が含まれ、Workfront UI で必要な名前が反映されている必要があります。オプションの値は、例えばレポートに表示される名前です。ラベルはオブジェクトへの添付時にカスタムフォームに表示されます。詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+   * 「**`setLabel`**」および「`**setValue`**」列には通常同じ情報が含まれ、Workfront UI で必要な名前が反映されている必要があります。オプションの値は、例えばレポートに表示される名前です。ラベルはオブジェクトへの添付時にカスタムフォームに表示されます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
    * **`setIsHidden`** には、いずれかのオプションを非表示にする場合、「`TRUE`」を入力します。
 
    ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -296,7 +296,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    >新しいフォームとインポートしたフィールドは、まだ接続されていません。フォームのインポートに、カスタムフィールドは含まれません。カスタムフィールドは、新しいカスタムフォームまたは別の既存のカスタムフォームに手動で追加する必要があります。
 
 
-   カスタムフォームにフィールドを追加する方法については、「[ フォームデザイナーを使用してフォームをデザインする ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   カスタムフォームにフィールドを追加する方法について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. （条件付き）インポートが成功しなかった場合は、問題を示すエラーメッセージが表示されます。問題が発生したフィールド、シートおよび行番号を特定し、Excel ファイルの情報を修正してから、もう一度ファイルを読み込んでみてください。
 

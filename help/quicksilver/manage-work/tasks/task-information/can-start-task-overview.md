@@ -7,7 +7,7 @@ description: タスクを開始する準備が整ったら、Adobe Workfront は
 author: Alina
 feature: Work Management
 exl-id: 158f8370-9717-4c61-99fa-e3b76a9e61cb
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 78%
@@ -26,7 +26,7 @@ Workfront は、タスクの「開始可能」フィールドを True に設定�
 
 * タスクに親がある場合、親の値が True に設定された場合に開始できるかどうかを示します。 親の値が False の場合、すべてのサブタスクの「開始可能」値は False に設定されます。
 * タスクの先行タスクとその親の先行タスクが完了しているかどうか。 タスクが完了している場合、タスクの「開始可能」値は True に設定されます。タスクの先行タスクまたはその親の先行タスクのいずれかが完了していない場合、またはステータスが「承認待ち」の場合、タスクの「開始可能」の値は False に設定されます。
-* タスクの依存関係の種類が [ 開始 – 開始 ] または [ 開始 – 終了 ] のいずれであるか。 依存関係の種類が [ 開始 – 開始 ] または [ 開始 – 終了 ] の場合、親タスクの進行中（または親タスクの達成率が 1% を超えた後）に、依存タスクの [ 開始できる ] フラグが True に設定されます。<!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
+* タスクの依存関係の種類が [ 開始 – 開始 ] または [ 開始 – 終了 ] のいずれであるか。 依存関係の種類が [ 開始日 – 開始 ] または [ 開始日 – 終了 ] の場合、先行タスクの進行中（または先行タスクの達成率が 1% より大きい場合）は、先行タスクの [ 開始可能 ] フラグが True に設定されます。
 
   先行タスクについて詳しくは、[先行タスクの概要](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md)を参照してください。
 

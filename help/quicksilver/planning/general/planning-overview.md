@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '2106'
+source-wordcount: '2108'
 ht-degree: 46%
 
 ---
@@ -105,7 +105,7 @@ Workfront Planning では、次のような質問に回答できます。
 * レコードの変更履歴の表示
 * 段落フィールドのリッチテキスト書式設定
 * Workfrontオブジェクトからの Planning レコードへのアクセス
-* Workfront オブジェクトから Planning レコードを接続する
+* Planning レコードとWorkfrontオブジェクトとの接続および切断
 * 要求フォームを送信して計画レコードを作成します
 * Workfront計画パブリック API
 * Adobe Workfront Fusion 用 Adobe Workfront Planning モジュール

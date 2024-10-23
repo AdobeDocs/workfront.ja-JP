@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 8b087b69a671852d7a71e1bb3fa4491bbac1b770
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '611'
+ht-degree: 27%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 0%
    * レコードページのレイアウトの管理
    * 「コメントと履歴を記録」セクション
    * レコードの共有
-   * Workfront オブジェクトのWorkfront計画セクション
+   * WorkfrontからのWorkfront計画レコードの管理
 
 * [Adobe Workfront計画リクエスト：記事インデックス ](/help/quicksilver/planning/requests/requests-article-index.md) には、次の情報が含まれます。
 

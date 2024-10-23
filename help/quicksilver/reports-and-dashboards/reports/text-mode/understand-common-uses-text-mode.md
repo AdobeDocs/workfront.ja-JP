@@ -6,10 +6,10 @@ description: テキストモードの一般的な使用例の概要
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 94%
+source-wordcount: '762'
+ht-degree: 95%
 
 ---
 
@@ -58,7 +58,7 @@ Report Builder と List Builder を使用して、ビュー、フィルターお
 
 テキストモードを使用して、計算カスタムフィールドをカスタムフォームに追加できます。
 
-計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、「[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+計算カスタムフィールドをカスタムフォームに追加する方法について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 テキストモードで計算カスタムフィールドを作成する方法について詳しくは、[ 計算フィールドをフォームに追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 

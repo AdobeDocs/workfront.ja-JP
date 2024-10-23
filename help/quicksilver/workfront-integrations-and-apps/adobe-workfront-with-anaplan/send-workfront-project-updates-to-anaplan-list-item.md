@@ -6,9 +6,9 @@ description: この統合シナリオは、 [!DNL Anaplan]  予算リスト項�
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '909'
 ht-degree: 98%
 
 ---
@@ -101,7 +101,7 @@ ht-degree: 98%
    </tbody> 
   </table>
 
-  カスタムフォームの作成について詳しくは、[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 <!--
 <note type="note">  

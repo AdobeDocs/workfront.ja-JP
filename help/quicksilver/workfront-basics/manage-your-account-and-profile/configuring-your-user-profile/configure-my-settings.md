@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront]  プロファイルには、自分に関�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3303'
 ht-degree: 97%
 
 ---
@@ -524,7 +524,7 @@ ht-degree: 97%
 
 すべてのユーザーが、プロファイルに関連付けられたカスタムフォームを表示できます。
 
-ユーザープロファイルにカスタムフォームを添付できるようにするには、[!DNL Workfront] 管理者がユーザーオブジェクトのカスタムフォームを設定する必要があります。カスタムフォームの作成について詳しくは、「[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+ユーザープロファイルにカスタムフォームを添付できるようにするには、[!DNL Workfront] 管理者がユーザーオブジェクトのカスタムフォームを設定する必要があります。カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 ### [!UICONTROL コメント]
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '1321'
+source-wordcount: '1318'
 ht-degree: 49%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 49%
 
 この記事では、外部検索フィールドを使用して、同じWorkfront インスタンスまたはパブリック API を呼び出す例を示します。 また、外部参照を使用して、Jira、Salesforce、ServiceNow などの外部システムと通信することもできます。
 
-外部検索フィールドをカスタムフォームに追加する方法と、外部検索コンポーネントをさらに定義する方法について詳しくは、[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+外部検索フィールドをカスタムフォームに追加する方法と、外部検索コンポーネントのその他の定義について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## Workfrontの同じインスタンスに対して外部検索フィールドを設定する
 

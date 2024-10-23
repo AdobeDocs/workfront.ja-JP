@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 5183c9ce50c043dd3053826d4942960ebcf7efbd
+source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
 workflow-type: tm+mt
-source-wordcount: '14521'
+source-wordcount: '14518'
 ht-degree: 92%
 
 ---
@@ -614,7 +614,7 @@ ht-degree: 92%
          * [カスタムフォームの概要](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
          * カスタムフォームのデザイン {#design-a-form}
             * [フォームのデザイン：記事インデックス](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-            * [フォームデザイナーでフォームをデザイン](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+            * [カスタムフォームを作成](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [コピーからのフォームのデザイン](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [計算フィールドをフォームに追加する](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [フォームに表示ロジックとスキップロジックを追加する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)

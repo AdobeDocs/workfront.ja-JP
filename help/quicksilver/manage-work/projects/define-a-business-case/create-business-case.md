@@ -5,9 +5,9 @@ description: ビジネスケースを使用して、プロジェクトをリク�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '828'
 ht-degree: 98%
 
 ---
@@ -106,7 +106,7 @@ ht-degree: 98%
 
    プロジェクトに添付する前に、カスタムフォームを作成する必要があります。
 
-   カスタム Formsの詳細については、「[ フォーム デザイナでフォームをデザインする ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+   カスタム Formsの詳細については、「[ カスタム フォームを作成する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. 「**送信**」をクリックします。
 

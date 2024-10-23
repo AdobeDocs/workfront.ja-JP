@@ -6,10 +6,10 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 hidefromtoc: true
 hide: true
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 92%
+source-wordcount: '539'
+ht-degree: 89%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 92%
 
 組織のカスタムフォームと、それらに追加されたカスタムフィールドおよびウィジェットのリストを表示する場合、ツールバーのオプションを使用して、プロパティの編集、プロパティの共有者の制限、コピー、削除を行うことができます。また、各カスタムフォームに関連付けられているオブジェクトタイプなど、表示される列のその他の情報を表示することもできます。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[フォームデザイナーを使用してフォームをデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## アクセス要件
 
@@ -55,7 +55,7 @@ ht-degree: 92%
 
    リストでカスタムフォームを選択する際に実行できる操作について詳しくは、次の記事を参照してください。
 
-   * [フォームデザイナーでフォームをデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [カスタムフォームを作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [カスタムフォームを共有](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
    * [カスタムフォームをコピーして新しいフォームを作成](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [カスタムフォームを削除または非アクティブ化](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)

@@ -6,14 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 64a8d2ff8546874cf829738dcea03b2946c360cb
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '474'
 ht-degree: 29%
 
 ---
 
 # 接続されたレコードの概要
+
+<!--for the Planning connection field, see commented out below; also add preview tags-->
 
 {{planning-important-intro}}
 
@@ -54,3 +56,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 * 次の領域で、Workfront オブジェクトをWorkfront Planning レコードに関連付けることができます。
 
    * Workfront オブジェクトの「計画」セクションから。
+  <!--* From a Planning connection field on a Workfront object's custom form. -->
+
+  詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。

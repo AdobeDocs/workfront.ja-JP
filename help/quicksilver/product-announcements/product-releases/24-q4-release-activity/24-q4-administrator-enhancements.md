@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4f4694dd-a6cb-46b7-b2cf-fe24ed9419f5
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 20%
+source-wordcount: '564'
+ht-degree: 18%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 20%
 
 左下のカスタムフォームにカウンターが追加されました。 カウンターは、フォームで使用されているフィールドの数を表示し、フォームデザイナー内でスクロールすると、常に表示されます。
 
-詳しくは、[フォームデザイナーを使用したフォームのデザイン](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)を参照してください。
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## レイアウトテンプレートで「すべてを選択」オプションが使用できるようになりました
 

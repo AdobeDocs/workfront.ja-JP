@@ -7,10 +7,10 @@ description: Adobe Workfront レポートの複数選択カスタムフィール
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 95%
+source-wordcount: '541'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Workfront レポートの複数選択カスタムフィールドにおい�
 複数選択のカスタムフィールドでグループ化するには、次の前提条件が満たされている必要があります。
 
 * カスタムフォームに複数選択カスタムフィールドを作成します。\
-  ユーザー設定フォームを作成し、ユーザー設定フィールドを追加する方法については、「[ フォーム デザイナでフォームをデザインする ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+  カスタムフォームの作成と、カスタムフォームへのカスタムフィールドの追加について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * カスタムフォームをオブジェクトに添付します。
 * 複数選択カスタムフィールドに、各オブジェクトの値を入力します。 

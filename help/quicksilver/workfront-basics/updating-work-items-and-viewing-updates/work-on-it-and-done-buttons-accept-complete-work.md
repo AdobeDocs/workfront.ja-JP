@@ -8,10 +8,10 @@ author: Lisa and Alina
 feature: Get Started with Workfront
 role: User
 exl-id: cfda6702-1a9a-4645-b031-8b2f201ac0af
-source-git-commit: 7b5018f546d4c654832298e85c10504375f380b4
+source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 61%
+source-wordcount: '768'
+ht-degree: 65%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 61%
 
 * 標準ライセンス（新規）、プラン ライセンスまたはワーク ライセンス（現行）
 * タスクまたは問題に対する制限付き編集アクセスまたはそれ以上
+
+>[!NOTE]
+>
+>「完了」ボタンは、Workfrontのすべての領域で完了としてマークと表示されます。
 
 ## 「作業開始」と「完了」ボタン名
 
@@ -47,9 +51,9 @@ Workfrontのどの領域からタスクまたはイシューにアクセスす�
 
   ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-## 作業対象を見つけて、「完了としてマーク」ボタンをクリックします {#locate-the-work-on-it-and-done-button}
+## 作業対象と完了ボタンを見つけます {#locate-the-work-on-it-and-done-button}
 
-Workfrontの次の領域で「作業対象」ボタンと「完了としてマーク」ボタンを見つけることができます。
+Workfrontの次の領域に「作業対象」ボタンと「完了」ボタンがあります。
 
 * 担当作業ウィジェットの「ホーム」エリア
 
@@ -63,9 +67,9 @@ Workfrontの次の領域で「作業対象」ボタンと「完了としてマ�
 
   概要パネルの使用について詳しくは、[概要](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
-## 「作業対象」ボタンと「完了としてマーク」ボタンをクリックすると自動的に更新されるフィールドの概要
+## 「作業対象」または「完了」ボタンをクリックすると自動的に更新されるフィールドの概要
 
-「作業対象」ボタンと「完了としてマーク」ボタンを使用する利点は、割り当てられた作業項目に関する情報をWorkfrontが自動的に更新できることです。
+「作業開始」ボタンと「完了」ボタンを使用する利点は、Workfront が割り当てられた作業アイテムに関する情報を自動的に更新できることです。
 
 * [「作業開始」ボタン](#work-on-it-button)
 * [「開始」ボタン](#start-button)
@@ -111,10 +115,6 @@ Workfrontの次の領域で「作業対象」ボタンと「完了としてマ�
 >
 
 ### 「完了」ボタン {#the-done-button}
-
->[!NOTE]
->
->「完了」ボタンは、Workfrontのすべての領域で完了としてマークと表示されます。
 
 チームの編集アクセス権を持っている場合、項目を完了としてマークするとチームの「完了」ボタンを設定して、タスクまたはイシューのステータスを更新できます。 そのチームをホームチームとして持つユーザーが、項目の「完了としてマーク」ボタンをクリックすると、次のフィールドがタスクまたは問題について自動的に更新されます。
 

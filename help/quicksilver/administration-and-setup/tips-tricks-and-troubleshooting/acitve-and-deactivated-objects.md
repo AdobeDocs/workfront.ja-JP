@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: 307bfb397555c7f9d424e429785dae36c639756a
+source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '747'
 ht-degree: 96%
 
 ---
@@ -82,7 +82,7 @@ ht-degree: 96%
 
 カスタムフォームの編集時に、カスタムフォームをアクティブにすることができます。
 
-カスタムフォームの編集と、カスタムフォームに関連付けることができるオブジェクトのリストについて詳しくは、[ フォームデザイナーを使用したフォームのデザイン ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームの編集と、カスタムフォームを関連付けることができるオブジェクトのリストについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## 会社
 
