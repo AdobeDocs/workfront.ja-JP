@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: fc321f099c2c6903d0a1cebdd041115ca8a716ff
+source-git-commit: 5183c9ce50c043dd3053826d4942960ebcf7efbd
 workflow-type: tm+mt
-source-wordcount: '14512'
+source-wordcount: '14521'
 ht-degree: 92%
 
 ---
@@ -1933,6 +1933,7 @@ ht-degree: 92%
             * [プルーフビューアーでの以前のプルーフバージョンの表示](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-previous-version.md)
             * [プルーフビューアーでのインタラクティブなプルーフの解像度の変更](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
             * [プルーフビューア設定の指定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+            * [Adobe Workfront レビューツールを使用したインタラクティブコンテンツのレビュー](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md)
          * プルーフに対するコメント {#comment-on-a-proof}
             * [プルーフに関するコメント：記事インデックス](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
             * [プルーフに対するコメント](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)

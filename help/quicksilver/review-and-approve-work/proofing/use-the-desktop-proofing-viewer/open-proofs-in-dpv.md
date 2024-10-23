@@ -6,7 +6,7 @@ description: 以下の説明に従ってもプルーフを開けない場合は�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
-source-git-commit: 21d4fb3bd2a6c08b390338d28e357a80f4befeae
+source-git-commit: 4311e93964c7161b7de5d5aa680e3a822c67012a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 95%
@@ -67,7 +67,3 @@ ht-degree: 95%
    >デスクトッププルーフビューアは、ログインを必要とする web サイトをサポートしていません。
 
 1. 表示される画面で「**プルーフを開く**」をクリックします。
-
- 
-
- 
