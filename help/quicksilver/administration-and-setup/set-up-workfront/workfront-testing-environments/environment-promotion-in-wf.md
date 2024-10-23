@@ -9,14 +9,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: a46c6d1f8a0ae58e07f0fb9d14ecdd06a856223f
+source-git-commit: bff394325882dae7b447c319db9cad8c196340d3
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 50%
+source-wordcount: '1041'
+ht-degree: 51%
 
 ---
 
 # Workfront環境間でのオブジェクトの移動の概要（環境のプロモーション）
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 環境のプロモーション機能を使用すると、オブジェクトをWorkfront環境から別の環境に移動できます。 例えば、テストが組織の実際のデータに影響を与えないことを知りながら、テンプレートを作成してサンドボックス環境で設定できます。 テンプレートを設定およびテストしたら、使用できる状態で実稼動環境に移動できます。
 
@@ -98,7 +100,7 @@ Workfrontでこのプロセスを実行するには、移動するオブジェ�
 | Risk Type（RSKTYP） | リスクタイプ |
 | Resource Pool（RSPL） | リソースプール |
 | アクセス レベル （ACSLVL） | アクセスレベル |
-| 評価カード（RTCRD） | レートカード |
+| <span class="preview"> 評価カード（RTCRD） </span> | <span class="preview"> 評価カード </span> |
 
 \* 現在は利用できません
 
