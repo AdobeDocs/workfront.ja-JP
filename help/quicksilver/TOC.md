@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
+source-git-commit: d3151a23f18ec91420f7f9b53f84386d8adc2bb1
 workflow-type: tm+mt
-source-wordcount: '14549'
+source-wordcount: '14559'
 ht-degree: 92%
 
 ---
@@ -423,6 +423,7 @@ ht-degree: 92%
    * お知らせ {#announcements}
       * [お知らせ](product-announcements/announcements/announcements.md)
       * [機能のスケジュールがサポートされなくなりました](product-announcements/announcements/feature-removal-timeline.md)
+      * [Enhanced Analytics 廃止ガイド](product-announcements/announcements/enhanced-analytics-deprecation.md)
       * [レガシーホームの非推奨ガイド](product-announcements/announcements/legacy-home-deprecation.md)
       * [メンテナンスウィンドウに関する FAQ](product-announcements/announcements/maintenance-window-faq.md)
       * [許可リストにプルーフを追加する必要のある変更](product-announcements/announcements/proofhq-domain-change-workfront.md)
@@ -929,6 +930,7 @@ ht-degree: 92%
       * [「更新」セクションの概要](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
       * [作業の更新](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
       * [フィールドの文字数制限](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+      * [個人用タスクを作成する](workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)
       * [更新に返信する](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
       * [メール通知への返信](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
       * [更新時の他のユーザーのタグ付け](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
@@ -1619,6 +1621,7 @@ ht-degree: 92%
          * [カスタムビュー、フィルター、グループ化の例：記事インデックス](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
          * [レポートまたはリスト：オブジェクトに関連付けられたユーザーを表示する](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
          * [フィルター：不完全なプロジェクト間の先行タスクを表示する](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+         * [フィルター：個人用タスク](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
          * [フィルター：不完全なプロジェクト間の後続タスクを表示する](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
          * [フィルター：承認保留の現在のプロジェクトを表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
          * [フィルター：承認ステータスの項目のみを表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)

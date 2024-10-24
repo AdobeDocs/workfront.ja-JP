@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
 workflow-type: tm+mt
-source-wordcount: '1085'
-ht-degree: 15%
+source-wordcount: '1192'
+ht-degree: 14%
 
 ---
 
@@ -28,10 +28,12 @@ Workfrontの他の領域のデザインと一致するようにレポートイ�
 
 * レポートの条件付き書式ルール用に拡張されたカラーパレットを追加しました。 条件付き書式について詳しくは、[ ビューで条件付き書式を使用する ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md) を参照してください。
 * Report Builder で列を編集する際にテキストモードに入るための新しい「テキストモードを編集」ボタンを追加しました。 テキスト モードでのレポート ビューの編集の詳細については、「[ テキスト モードを使用してビューを編集する ](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)」を参照してください。
+* レポートのタイトルをクリックして編集することはできなくなりました。 引き続き、レポート アクション /編集をクリックしてタイトルを変更することで、レポートのタイトルを編集できます。 レポートの編集について詳しくは、[ レポート設定の編集 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md) を参照してください。
+* グループ化ビルダーで列名をクリックしても、グループ化を作成できなくなりました。 [ グループ化：フィールド ] ボックスの一覧で対応するフィールドを選択することにより、レポート内の既存の列に基づいてグループ化を作成することもできます。 グループ化の作成について詳しくは、[Adobe Workfrontでのグループ化の作成 ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md) を参照してください。
 * 日付フィールドでフィルタリングする場合に、カレンダー日付セレクターと、相対的な日付のワイルドカードテキストフィールドを切り替える新しい切替スイッチがレポートフィルターインターフェイスに追加されました。 さらに、レポートフィルターインターフェイスで相対的な日付のワイルドカードショートカットを選択すると、選択内容に基づいて関連するワイルドカードフィールドが自動的に入力されるようになりました。 レポートフィルターで相対日付のワイルドカードを使用する方法について詳しくは、[ 日付ベースのワイルドカードを使用してレポートを一般化する ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) を参照してください。
 * レポートフィルターのユーザーベースのワイルドカードで、選択したフィールドタイプに基づいてオートコンプリートに関連するワイルドカードが提案されるようになりました。 レポートフィルターでのユーザーベースのワイルドカードの詳細については、[ ユーザーベースのワイルドカードを使用してレポートを一般化する ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md) を参照してください。
 * 公開されて共有されるプロンプトを含む報告書は、公開共有リンクを通じてアクセスするすべてのユーザーに対してプロンプトが適用されずに表示されるようになりました。 レポートに直接アクセスしたログインユーザーは、引き続きプロンプトを適用できます。 報告書プロンプトの詳細については、[ 報告書にプロンプトを追加する ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) を参照してください。
-* キャンバスダッシュボードとの互換性を改善する既存レポートの変更。
+* キャンバスダッシュボードとの互換性を向上させるために、既存のレポートに変更を加えました。
 
 _これらのアップデートは、2024 年 10 月 17 日（PT）の 24.10 リリース以降、実稼動環境に増分的に実装されています。 変更内容は、最初は少数のお客様のみが利用でき、2024 年 11 月 8 日（PT）までにすべての顧客が完全に利用できるようになるまで、時間の経過と共にますます利用できるようになります。_
 
@@ -58,9 +60,9 @@ _これらのアップデートは、2024 年 10 月 17 日（PT）の 24.10 リ
 
 リストのビュー、グループ化、従来のフィルターインターフェイスを、Workfrontの他の領域のデザインと一致するように更新しました。 これらの更新には、リストのビュー、グループ化および従来のフィルターに対する追加の変更が含まれます。
 
-* レポートの条件付き書式ルール用に拡張されたカラーパレット。 条件付き書式について詳しくは、[ ビューで条件付き書式を使用する ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md) を参照してください。
-* 新しいビューの作成時に列を編集する際にテキストモードに入る新しい「テキストモードを編集」ボタン。 テキストモードでのビューの編集について詳しくは、「[ テキストモードを使用したビューの編集 ](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)」を参照してください。
-* 日付フィールドでフィルタリングする際に、カレンダー日付セレクターと、相対的な日付のワイルドカードテキストフィールドを切り替える、従来のフィルターインターフェイスへの新しい切り替え。 さらに、レポートフィルターインターフェイスで相対的な日付のワイルドカードショートカットを選択すると、選択内容に基づいて関連するワイルドカードフィールドが自動的に入力されるようになりました。
+* レポートの条件付き書式ルール用に拡張されたカラーパレットを追加しました。 条件付き書式について詳しくは、[ ビューで条件付き書式を使用する ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md) を参照してください。
+* 新しいビューの作成時に列を編集する際に、テキストモードに入る新しい「テキストモードを編集」ボタンを追加しました。 テキストモードでのビューの編集について詳しくは、「[ テキストモードを使用したビューの編集 ](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)」を参照してください。
+* 日付フィールドでフィルタリングする場合に、カレンダー日付セレクターと、相対的な日付のワイルドカードテキストフィールドを切り替える新しい切替スイッチをレガシーフィルターインターフェイスに追加しました。 さらに、レポートフィルターインターフェイスで相対的な日付のワイルドカードショートカットを選択すると、選択内容に基づいて関連するワイルドカードフィールドが自動的に入力されるようになりました。
 * 従来のフィルターのユーザーベースのワイルドカードで、選択したフィールドタイプに基づいてオートコンプリートに関連するワイルドカードが提案されるようになりました。 従来のフィルターの使用について詳しくは、[Adobe Workfrontでのフィルターの作成または編集 ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md) を参照してください。
 
 _これらのアップデートは、2024 年 10 月 17 日（PT）の 24.10 リリース以降、実稼動環境に増分的に実装されています。 変更内容は、最初は少数のお客様のみが利用でき、2024 年 11 月 8 日（PT）までにすべての顧客が完全に利用できるようになるまで、時間の経過と共にますます利用できるようになります。_
