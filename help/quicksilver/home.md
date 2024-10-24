@@ -3,10 +3,10 @@ title: 「[!DNL Adobe Workfront] ドキュメント」
 description: ' [!DNL Adobe Workfront] のドキュメント。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 32107381545777cbe7a6696f7a384287ef781a1a
+source-git-commit: cafb8aa532647f878bc66d983023141e0c2faeba
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 18%
+source-wordcount: '372'
+ht-degree: 19%
 
 ---
 
@@ -20,10 +20,16 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 >[!TAB  最新リリース ]
 
+* [2025 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
 * [2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [2024年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-* [Adobe Workfront Planning 2024 年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+* [Adobe Workfront計画の 2025 年第 1 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+
+>[!TAB 2025 リリース ]
+
+* [2025 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+* [Adobe Workfront計画の 2025 年第 1 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+
 
 >[!TAB 2024 リリース ]
 
@@ -32,6 +38,7 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 * [2024年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
 * [2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Adobe Workfront Fusion リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+* [Adobe Workfrontの 2025 年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 >[!TAB  ベタス ]
 

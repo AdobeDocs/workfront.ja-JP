@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: e3e12718441c030c24a7a0625d3c1d1b63ddf974
+source-git-commit: 2b1a066bb769b46d50c45f087ccd668266b4639c
 workflow-type: tm+mt
-source-wordcount: '14518'
+source-wordcount: '14549'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 92%
       * [製品リリースの概要](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront のリリーススケジュールとプロセス](product-announcements/product-releases/workfront-release-schedule.md)
       * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
+      * 2025年第 1 四半期リリース{#release-25-q1}
+         * [2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+         * [2025 年第 1 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * 2024年第 4 四半期リリース {#release-24-q4}
          * [2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024年第 4 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
@@ -175,6 +178,7 @@ ht-degree: 92%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion リリースアクティビティ {#fusion-release}
          * [Adobe Workfront Fusion リリースアクティビティ](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion リリースアクティビティ：2024年10月21日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
          * [Workfront Fusion リリースアクティビティ：2024年10月7日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
          * [Workfront Fusion リリースアクティビティ：2024年9月30日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)
          * [Workfront Fusion リリースアクティビティ：2024年9月9日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-9.md)
@@ -259,6 +263,7 @@ ht-degree: 92%
          * [Workfront Fusion リリースアクティビティ：2020年9月21日（PT）の週](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
       * Adobe Workfront計画リリースアクティビティ {#planning-release-activity}
          * [Adobe Workfront Planning リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront Planning の 2025 年第 1 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning の 2024 年第 4 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront シナリオプランナーのリリースアクティビティ {#scenario-planner-release}
          * [Adobe Workfront シナリオプランナーのリリースアクティビティ](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)

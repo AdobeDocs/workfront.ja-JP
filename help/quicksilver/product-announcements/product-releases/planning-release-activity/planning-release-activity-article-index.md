@@ -1,18 +1,18 @@
 ---
 content-type: release-notes
-title: 「Adobe Workfront計画リリースアクティビティ：記事索引」
+title: 'Adobe Workfront計画リリースアクティビティ：記事インデックス'
 description: これは、Adobe Workfront Planning 製品のリリース アクティビティです。
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: eeebc09c16c2c0d5a624dc57ae8603fb525d29c1
+exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
+source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 11%
+source-wordcount: '154'
+ht-degree: 10%
 
 ---
-
 
 # Adobe Workfront計画リリースアクティビティ：記事索引
 
@@ -30,6 +30,7 @@ ht-degree: 11%
 
 この記事には、Adobe Workfront Planning 製品に関するリリースアクティビティ記事のリストが含まれています。
 
+* [Adobe Workfront Planning の 2025 年第 1 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 * [Adobe Workfront Planning の 2024 年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 <!-- remove this after 25.1 and consider removing the pages too-->
