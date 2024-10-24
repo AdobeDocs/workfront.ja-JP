@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 2b2c15f53602fd250ef490fd06a032fa80ccdcd7
+source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 12%
+source-wordcount: '305'
+ht-degree: 14%
 
 ---
 
@@ -53,4 +53,6 @@ Workfront オブジェクトを引き続きWorkfront Planning レコードにブ
 Workfront オブジェクトの Planning 接続フィールドの一括編集はまだ使用できません。
 
 詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+
+[この機能のデモビデオを見る](https://video.tv.adobe.com/v/3435633/){target=_blank}
 
