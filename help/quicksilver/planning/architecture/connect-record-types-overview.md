@@ -6,16 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '1438'
-ht-degree: 20%
+source-wordcount: '1522'
+ht-degree: 21%
 
 ---
 
 # 接続されたレコードタイプの概要
 
-<!--see the commented out markers below for the Planning connection field, might not display in green; also add Preview tags for the article-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 個々のレコードタイプを相互に関連付けたり、他のアプリケーションのオブジェクトに接続して関連付けることができます。
 
@@ -73,7 +75,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
       * リンクされたレコードフィールドは、接続元のレコードタイプで作成されます。 他のアプリケーションのオブジェクトタイプには、リンクされたレコードフィールドが自動的に作成されません。
       * 計画レコードフィールドには、Workfront オブジェクトからアクセスできません。
       * 計画レコードは、Workfront オブジェクトの「計画」タブに表示されます。 詳しくは、[Adobe Workfront オブジェクトの計画セクションでのレコードの管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
-     <!--* Planning records are visible from a Workfront object's custom form when you add the Planning connection field type to the form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). -->
+      * <span class="preview">Planning 接続のカスタムフィールドを作成して、Workfront オブジェクトのカスタムフォームに添付できます。 詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。</span>
       * Workfront管理者がWorkfrontとAdobe Experience Manager Assetsの統合を通じてメタデータマッピングを設定すると、Experience Managerのアセットから計画レコードフィールドにアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja) を参照してください。
 
 

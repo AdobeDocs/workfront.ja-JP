@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 11%
+source-wordcount: '1493'
+ht-degree: 9%
 
 ---
 
@@ -18,27 +18,16 @@ ht-degree: 11%
 
 # Workfront オブジェクトからのレコード接続の管理
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 {{planning-important-intro}}
 
-左側のパネルにあるWorkfront オブジェクトの「計画」セクションに、Adobe Workfront オブジェクトに接続されたWorkfront計画レコードを表示できます。
+Workfrontの次の領域に、Workfrontの計画レコードと、Adobe Workfront オブジェクトに接続されたそれぞれのレコードを表示できます。
 
-<!--replace above with this: 
-
-You can display Workfront Planning records and their respective records connected to Adobe Workfront objects in the following areas in Workfront:
-
-* The Planning section of a Workfront object: Displays all record types connected to an object and their respective connected records. 
-* A Planning connection custom field: Displays one record type and its respective connected records .-->
-
-「計画」セクションは、次のWorkfront オブジェクトで使用できます。
-
-* プロジェクト
-* ポートフォリオ
-* プログラム
-<!--* Group
-* Company-->
-
-<!--move the above to a lower place below when releasing Planning connection custom field-->
-
+* Workfront オブジェクトの「プランニング」セクション：オブジェクトに接続されているすべてのレコードタイプと、接続されたそれぞれのレコードを表示します。
+* <span class="preview">Planning 接続のカスタム フィールド：1 つのレコード タイプとそれぞれの接続されたレコードが表示されます。</span>
 
 ## アクセス要件
 
@@ -102,13 +91,13 @@ You can display Workfront Planning records and their respective records connecte
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
    <p>Workfrontで、プロジェクト、ポートフォリオまたはプログラムに対する表示以上の権限 </a> </p> 
-   <p>Workfront Planning で、Contribute以上の作業領域への権限 </a> </p>  
+   <p>Workfront Planning で、ワークスペースへのアクセス権を表示して接続レコードを表示するか、またはContribute以上のワークスペースへのアクセス権を表示してレコードを接続または切断 </a> ます。 </p>  
    <p>システム管理者には、未作成のワークスペースを含むすべてのWorkfront Planning ワークスペースに対する権限があります</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューの計画領域と、プロジェクト、ポートフォリオおよびプログラムの計画領域を含むレイアウトテンプレートを割り当てる必要があります。 </p> 詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">Adobe計画のアクセスの概要 </a> を参照してください。 </p>  </p>  
+   <td> <p>Workfrontオブジェクトのプランニング・エリアまたはプランニング・セクションを表示するには、メイン・メニューのプランニング・エリアとプロジェクト、ポートフォリオおよびプログラムのプランニング・エリアを含むすべてのユーザー（Workfront管理者を含む）にレイアウト・テンプレートを割り当てる必要があります。 </p> 詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">Adobe計画のアクセスの概要 </a> を参照してください。 </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -121,8 +110,13 @@ You can display Workfront Planning records and their respective records connecte
 ## 計画セクションのレコードの管理
 
 Workfront オブジェクトの「プランニング」セクションを使用すると、Workfront オブジェクトに接続されているすべてのレコードタイプとそれぞれのレコードを表示できます。
+「計画」セクションは、次のWorkfront オブジェクトで使用できます。
 
-<!--move the section above starting with "The Planning section is available ..." here-->
+* プロジェクト
+* ポートフォリオ
+* プログラム
+<!--* Group
+* Company-->
 
 ### Workfront オブジェクトのプランニング セクションに関する考慮事項
 
@@ -165,7 +159,7 @@ Workfrontでオブジェクトのページが開きます。
       * レコードの名前
       * レコードのサムネール
       * Workfront Planning に表示される、接続されたレコードフィールドの名前。
-   * レコードは、それぞれのワークスペースの下に表示されます。
+   * レコードは、それぞれのワークスペースとレコードタイプの下に表示されます。
 
    ![](assets/planning-section-on-project.png)
 
@@ -186,82 +180,79 @@ Workfrontでオブジェクトのページが開きます。
    * Workfront オブジェクトが、Workfront計画レコードの接続されたフィールドに追加されます。
    * 計画レコードに接続されたWorkfront参照フィールドの値は、Workfront Planning に入力されます。
 
-<!--
+<div class="preview">
 
-## Manage records in the Planning connection field type
+## Planning 接続フィールド タイプのレコードの管理
 
-You can use a Planning connection custom field on a Workfront object to view one record type and its respective records connected to the Workfront object. 
+Workfront オブジェクトに対して Planning 接続のカスタムフィールドを使用すると、1 つのレコードタイプと、Workfront オブジェクトに接続されたそれぞれのレコードを表示できます。
 
-You can control which Planning records display for the Workfront object when you create Planning connection custom fields. 
+Planning 接続のカスタム・フィールドを作成するときに、Workfrontオブジェクトに表示する Planning レコード・タイプを制御できます。
 
-* The Planning connection field can be populated with Planning records when it is attached to forms for the following Workfront objects:
+* 「計画接続」フィールドには、接続が確立された後、および次のWorkfront オブジェクトのフォームにフィールドが添付されている場合に、計画レコードが表示されます。
 
-   * Project
-   * Portfolio
-   * Program
-   * Group
-   * Company
+   * プロジェクト
+   * ポートフォリオ
+   * プログラム
+   * グループ
+   * 会社
 
-For more information, see [Create a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
+詳しくは、[ フォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
-### Considerations about the Planning connection field type
+### Planning 接続フィールド・タイプに関する考慮事項
 
-Consider the following when you view Workfront Planning records from a Planning connection field of a Workfront object: 
+Workfrontオブジェクトの「Planning 接続」フィールドからWorkfront Planning レコードを表示する場合は、次の点に注意してください。
 
-* You can associate only one record type with one Planning connection field.
-* Your Workfront or group administrator must add a Planning connection field on a Workfront custom form.
-* You must attach the custom form to a Workfront object that can be connected from Workfront Planning, if you have the correct access.
-* Workfront Planning record types must first be connected to Workfront object types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
-* You can connect or disconnect records from the Planning connection field of a Workfront object only for objects that can have Workfront Planning connections.
-* You must have Contribute permissions for a workspace in Workfront Planning to be able to connect or disconnect records from the Planning connection field of a Workfront object.
-* You can view a Planning connection field for a Workfront object, even when there are no records connected to the object yet. 
-* You cannot edit a Planning connection field when editing Workfront objects in bulk. 
+* 1 つの Planning 接続フィールドに関連付けることができるレコード・タイプは 1 つだけです。
+* 正しいアクセス権がある場合は、Planning 接続カスタムフィールドを含むカスタムフォームを、Workfront Planning から接続できるWorkfront オブジェクトに添付する必要があります。
+* Workfront Planning レコードタイプは、まずWorkfront オブジェクトタイプに接続する必要があります。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+* Workfront オブジェクトの Planning 接続フィールドに対するレコードの接続または切断は、Workfront Planning 接続を持つことができるオブジェクトに対してのみ行うことができます。
+* Workfront オブジェクトの Planning 接続フィールドにレコードを接続または接続解除するには、Workfront Planning のワークスペースのContribute権限が必要です。
+* Workfrontオブジェクトを一括編集する場合は、Planning 接続フィールドを編集できません。
 
-### Manage record connections from the Planning connection field type
+### 計画接続フィールドタイプからのレコード接続の管理
 
-1. Go to one of the following object types that has been connected with a Workfront Planning record type: 
+1. Workfront Planning レコード タイプに接続されている次のオブジェクト タイプのいずれかに移動します：
 
-   * Project
-   * Portfolio
-   * Program
-   * Company
-   * Group
+   * プロジェクト
+   * ポートフォリオ
+   * プログラム
+   * 会社
+   * グループ
 
-1. Click **< Object > Details** in the left panel.
-1. (Conditional) Add a custom form with at least one Planning connection field for the object you selected, if one is not present. 
+1. 左側のパネルで **&lt; オブジェクト /詳細** をクリックします。
+1. （条件付き）選択したオブジェクトに対して 1 つ以上の Planning 接続フィールドを持つカスタムフォームを追加します（存在しない場合）。
 
    >[!NOTE]
    >
-   >Your Workfront or group administrator must first create the form and add a Planning connection field on it before you can add it to an object. 
+   >オブジェクトに追加する前に、Workfrontまたはグループ管理者が最初にフォームを作成し、そのフォームに Planning 接続フィールドを追加する必要があります。
 
 
-1. Click inside the field to add connected records.
-1. Click the downward-pointing arrow inside the field, to select records from the list. 
+1. フィールド内をクリックして接続レコードを追加し、フィールド内の下向き矢印をクリックして、リストからレコードを選択します。
 
    ![](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
-   >   You cannot add records to Planning connection fields that are associated with Workfront objects other than the object you selected. 
+   >フィールドの設定時に選択したオブジェクト以外のWorkfront オブジェクトに関連付けられている Planning 接続フィールドにレコードを追加することはできません。
    >
-   >For example, you cannot add records to a Planning connection field created for a Portfolio connection from a Project's custom form. 
+   >例えば、プロジェクトのカスタムフォームからPortfolio用に作成された Planning 連携フィールドにレコードを追加することはできません。
    >
-   >There is an indication that the object of the field and the object you selected don't match.  
+   >フィールドのオブジェクトと選択したオブジェクトが一致しない場合があります。
    >
    >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
-1. Click outside the list to close it. 
+1. リストの外側をクリックして閉じます。
 
-   The following things occur:
+   次のことが発生します。
 
-   * The records are immediately connected to the Workfront object and they display in the Planning connection field as well as the Planning section of the Workfront object. 
-   * The Workfront object is added to the Workfront Planning record's connected field. 
-   * The values for the Workfront lookup fields connected to the Planning record are populated in Workfront Planning. 
-1. (Optional) Click the name of a record in the Planning connection field to open it in Workfront Planning. 
-   The record details tab opens in Workfront Planning. 
-   You can review information about the record, or navigate to the record type page. 
+   * レコードは直ちにWorkfront オブジェクトに接続され、Planning 接続フィールドとWorkfront オブジェクトの Planning セクションに表示されます。
+   * Workfront オブジェクトが、Workfront計画レコードの接続されたフィールドに追加されます。
+   * 計画レコードに接続されたWorkfront参照フィールドの値は、Workfront Planning に入力されます。
+1. （オプション）「Planning 接続」フィールドのレコード名をクリックして、Workfront Planning で開きます。
+Workfront Planning で「レコードの詳細」タブが開きます。
+レコードに関する情報を確認するか、レコードタイプページに移動できます。
 
-1. (Optional) From the custom form in Workfront, click the **Remove** icon ![](assets/remove-icon.png) on a record to remove it from the Planning connection field and disconnect it from the Workfront object. 
-   The Workfront object is disconnected from the Planning record, and any lookup information from Workfront is removed from the record. 
+1. （オプション）Workfrontのカスタムフォームで、レコードの ![](assets/remove-icon.png) にある **削除** アイコンをクリックして、Planning 接続フィールドから削除し、Workfront オブジェクトから切断します。
+Workfront オブジェクトは計画レコードから切断され、Workfrontからのルックアップ情報はレコードから削除されます。
 
--->
+</div>

@@ -8,14 +8,18 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '5537'
-ht-degree: 87%
+source-wordcount: '6294'
+ht-degree: 79%
 
 ---
 
 # カスタムフォームを作成
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 Adobe Workfrontのフォームデザイナーを使用してカスタムフォームをデザインできます。 カスタムフォームを様々な Workfront オブジェクトに添付して、これらのオブジェクトに関するデータを取り込むことができます。
 
@@ -84,8 +88,8 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
    * [外部ルックアップフィールドの追加](#add-external-lookup-fields)
    * [画像、PDF、ビデオの追加](#add-images-pdfs-and-videos)
    * [Workfront ネイティブフィールドの追加](#add-workfront-native-fields)
-   * [Adobe XD ファイルの追加 ](#add-adobe-xd-files)
-     <!--* [Add Planning connection fields](#add-planning-connection-fields)-->
+   * [Adobe XD ファイルの追加](#add-adobe-xd-files)
+   * <span class="preview">[Planning 接続フィールドの追加 ](#add-planning-connection-fields)</span>
 
 ## 新規または既存のフィールドをカスタムフォームに追加する
 
@@ -903,102 +907,102 @@ Adobe XD ファイルを追加するには、以下のように行います。
 
    「**保存して閉じる**」をクリックします。
 
-<!--
-### Add Planning connection fields
+<div class="preview">
+
+### Planning 接続フィールドの追加
 
 >[!IMPORTANT]
 >
->The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>この節では、Adobe Workfrontの追加機能であるAdobe Workfront Planning について説明します。
 >
->You must have the following to access Workfront Planning:
+>Workfront Planning にアクセスするには、次のものが必要です。
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>* 新しいWorkfront プランおよびライセンス。 Workfront Planning は、従来のWorkfront プランまたはライセンスでは利用できません。
+>* Workfront Planning の追加ライセンス。
+>* 組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。
 >
-> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> Workfront Planning へのアクセス要件の完全な一覧については、[Adobe Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>Workfront計画の詳細については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
-You can view records connected from Workfront Planning in a custom field on a Workfront object by adding a  Planning connection custom field to an object's custom form. 
+Workfront Planning から接続されたレコードは、Planning 接続のカスタムフィールドをオブジェクトのカスタムフォームに追加することで、Workfrontオブジェクトのカスタムフィールドで表示できます。
 
-You can add the Planning connection field to all objects' custom forms. However, you can display connected records only on the custom forms associated with Workfront objects that can be connected from Workfront Planning. 
+すべてのオブジェクトのカスタムフォームに「計画接続」フィールドを追加できます。 ただし、接続されたレコードを表示できるのは、Workfront Planning から接続できる、Workfrontオブジェクトに関連付けられたカスタムフォームのみです。
 
 >[!NOTE]
 >
->Users viewing information in the custom field must have access to Workfront Planning and to the workspaces that contain the record types connected to Workfront objects.
+>カスタムフィールドで情報を表示するユーザーは、Workfront Planning と、Workfront オブジェクトに接続されたレコードタイプを含むワークスペースにアクセスできる必要があります。
 
+Planning 接続フィールドを追加する手順は、次のとおりです：
 
-To add a Planning connection field:
-
-1. On the left side of the screen, find **Planning connection** and drag it to a section on the canvas. 
-1. On the right side of the screen, configure the options for the custom field:
+1. 画面の左側で、**Planning 接続** を見つけて、キャンバス上のセクションにドラッグします。
+1. 画面の右側で、カスタムフィールドのオプションを設定します。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>:</p> <p>Avoid using special characters in this label.</p> 
-      <p>We recommend that you choose a label by which you can easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
+      <td role="rowheader">ラベル</td> 
+      <td> <p>（必須）カスタムフィールドの上に表示する説明ラベルを入力します。ラベルはいつでも変更できます。</p> <p><b>重要</b>：</p> <p>このラベルでは特殊文字を使用しないでください。</p> 
+      <p>プランニングレコードの取得元を簡単に識別できるラベルを選択することをお勧めします。 ワークスペース名やレコードタイプ名などの情報を追加します。 </p>   </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td>
-      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p></td> 
+      <td role="rowheader">名前</td>
+      <td> <p>（必須）「名前」は、システムがフィールドを識別する方法です。 初めてフィールドを設定してラベルを入力すると、それに一致するように名前フィールドが自動的に入力されます。ただし、ラベルフィールドと名前フィールドは同期されません。これにより、システムで表示される名前を変更することなく、ユーザーに表示されるラベルを自由に変更できます。</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Instructions</td> 
-      <td> <p>(Recommended) Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p>
-      <p>Here, you can add explicit information about the record and the objects you are connecting. </p>
+      <td role="rowheader">手順</td> 
+      <td> <p>（推奨） フィールドに関する追加情報を入力します。 ユーザーがカスタムフォームに入力する際に、疑問符アイコンの上にポインタを合わせると、ここに入力した情報を含むツールヒントが表示されます。</p>
+      <p>ここでは、接続するレコードとオブジェクトに関する明示的な情報を追加できます。 </p>
       </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Object type</td> 
-      <td><p>(Required) Select a Workfront object type that is connected to a record type in Workfront Planning.</p>
-      You may select from the following object types:
-      <ul><li> Project</li>
-      <li> Portfolio</li><li> Program</li><li> Company</li><li> Group</li></ul>
-       <p>Only Workfront object types for the form's object types are available.</p> <p> For example, if the Object Types list at the top of the form designer shows Project, you can only select Project in this field, and you cannot select Portfolios, although portfolios can also be connected to record types.</p>
+      <td role="rowheader">オブジェクトタイプ</td> 
+      <td><p>（必須） Workfront Planning のレコードの種類に接続されたWorkfront オブジェクトの種類を選択します。</p>
+      次のオブジェクトタイプから選択できます。
+      <ul><li> プロジェクト</li>
+      <li> ポートフォリオ</li><li> プログラム</li><li> 会社</li><li> グループ</li></ul>
+       <p>フォームのオブジェクトタイプ用のWorkfront オブジェクトタイプのみを使用できます。</p> <p> たとえば、フォーム デザイナの上部にある [ オブジェクトの種類 ] ボックスの一覧に [ プロジェクト ] と表示されている場合は、このフィールドで [ プロジェクト ] しか選択できず、Portfolioを選択することもできませんが、ポートフォリオをレコードの種類に接続することもできます。</p>
       </td>
      </tr>
      <tr> 
-      <td role="rowheader">Workspace</td> 
-      <td> <p>(Required) Select the workspace where the records you want to display in Workfront come from in Workfront Planning.</p> <p> Only workspaces that are connected to the object types you selected in the I=Object type field display. </td> 
+      <td role="rowheader">ワークスペース</td> 
+      <td> <p>（必須） Workfrontに表示するレコードの元となる Planning ワークスペースを選択します。</p> <p> 「オブジェクトタイプ」 フィールドで選択したオブジェクトタイプに接続されているワークスペースのみが表示されます。 </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Record Type</td> 
-      <td><p>(Required) Select the Workfornt Planning record type whose records are connected to the Workfront object associated with this form.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
+      <td role="rowheader">レコードタイプ</td> 
+      <td><p>（必須） Workfront オブジェクトタイプと関連付けられているWorkfront Planning レコードタイプを選択します。</p><p>「オブジェクトタイプ」フィールドで選択したオブジェクトタイプに接続するレコードタイプのみが表示されます。 </p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Connection field</td> 
-      <td><p>(Required) Select the Workfront Planning connection field that displays the Workfront objects that are associated with this form.</p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types.</p>  </td> 
+      <td role="rowheader">接続フィールド</td> 
+      <td><p>（必須）Workfrontオブジェクトに表示する選択した計画レコードタイプとWorkfrontオブジェクトタイプの間の接続フィールドを選択します。 </p> <p> <b>メモ</b></p><p>同じオブジェクトタイプとレコードタイプの間に複数の接続フィールドを持つことができますが、選択できるフィールドは 1 つだけです。</p>  </td> 
      </tr>
     </tbody> 
    </table>
 
-1. (Optional) Repeat the previous steps to add any other fields. 
+1. （オプション）前の手順を繰り返して、他のフィールドを追加します。
 
-    or
+   または
 
-    To copy a field, hover over a field, and click the copy icon.
+   フィールドをコピーするには、フィールドの上にポインタを合わせて、コピーアイコンをクリックします。
 
-    ![copy icon](assets/copy-field.png)
+   ![アイコンをコピー](assets/copy-field.png)
 
-1. To save your changes, click **Apply** and move on to another section to continue building your form.
+1. 変更を保存するには、「**適用**」をクリックし、別のセクションに移動してフォームの作成を続けます。
 
-    or
+   または
 
-    Click **Save and Close**.
+   「**保存して閉じる**」をクリックします。
 
-    You can now attach the form to an object connected from Workfront Planning and do one of the following:
+   これで、Workfront Planning から接続されたオブジェクトにフォームを添付して、次のいずれかの操作を行うことができます。
 
-    * View Workfront Planning record types connected to the Workfront object
-    * Connect or disconnect records from the Workfront object associated with the form. 
+   * Workfrontオブジェクトに接続されたWorkfront Planning レコードタイプがある場合は、それを表示します。
+   * Workfront オブジェクトからレコードを接続または切断します。
 
-    For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+   詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください
 
--->
+</div>
 
 ## フォームデザイナーを使用したフォームの整理とプレビュー
 

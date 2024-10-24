@@ -6,16 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 29%
+source-wordcount: '545'
+ht-degree: 30%
 
 ---
 
 # 接続されたレコードの概要
 
-<!--for the Planning connection field, see commented out below; also add preview tags-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -56,6 +58,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 * 次の領域で、Workfront オブジェクトをWorkfront Planning レコードに関連付けることができます。
 
    * Workfront オブジェクトの「計画」セクションから。
-  <!--* From a Planning connection field on a Workfront object's custom form. -->
+   * <span class="preview">Workfront オブジェクトのカスタムフォームの Planning 接続フィールドから。</span>
 
   詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
