@@ -6,17 +6,17 @@ description: レポートを作成することで、Adobe Workfront 内で組織
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
 source-wordcount: '1828'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
 
 # カスタムレポートの作成
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 レポートを作成することで、Adobe Workfront 内で組織が必要とする情報へのアクセス権を付与できます。Workfront で利用可能なビルトインレポートを使用することも、カスタムレポートを最初から作成することもできます。
 
@@ -126,7 +126,7 @@ ht-degree: 99%
 
    または
 
-   既存の列を変更するには、列をクリックし、レポートビルダーの左上隅にある「**この列フィールドに表示**」ボックスの現在のフィールドの左側にある「**削除**」アイコン ![](assets/x-icon-circled.png) をクリックして、新しいフィールドの入力を開始し、リストに表示されたらそれをクリックします。
+   既存の列を変更するには、その列をクリックし、Report Builder の左上隅にある **この列フィールドに表示** エリアの現在のフィールドの右側に ![](assets/remove-column-icon.png) る **削除** アイコンをクリックして新しいフィールドの入力を開始し、リストに表示されたらクリックします。
 
    列に表示されるフィールドについて詳しくは、[Adobe Workfront の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
@@ -196,7 +196,7 @@ ht-degree: 99%
 
 1. この記事の[レポートを作成](#create-a-report)の節の説明に従って、レポートの作成を開始します。
 1. Report Builder で、「**グループ化**」タブを使用して、レポート内の項目をグループ化する方法を指定します。
-1. 「**グループ化を追加**」をクリックし、新しいグループ化を追加します。
+1. 「**グループ化を追加**」をクリックして、新しいグループ化を追加します。
 
    または
 

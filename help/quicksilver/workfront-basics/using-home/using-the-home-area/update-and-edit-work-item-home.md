@@ -6,10 +6,10 @@ description: Adobe Workfront の [!UICONTROL ホーム]エリア内の作業ア�
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 3786f62c16c7d295de3b19fd6b7ea5ec21fc8ce6
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 52%
+source-wordcount: '678'
+ht-degree: 53%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 52%
 
 [!UICONTROL 作業]リスト内の任意の作業アイテムの更新を提供できます。
 
-1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) をクリックして、「**[!UICONTROL ホーム]**」をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、または可能であれば左上隅の&#x200B;**メインメニュー** ![](assets/lines-main-menu.png) をクリックし、「**[!UICONTROL ホーム]**」をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして、次のいずれかのウィジェットを追加します。
 
    | ウィジェット | 説明 |
@@ -102,7 +102,7 @@ ht-degree: 52%
 
 編集にアクセスできる任意の作業アイテムの任意のフィールドを編集できます。
 
-1. 右上隅にある&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png) をクリックして、「**[!UICONTROL ホーム]**」をクリックします。
+1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、または可能であれば左上隅の&#x200B;**メインメニュー** ![](assets/lines-main-menu.png) をクリックし、「**[!UICONTROL ホーム]**」をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして、次のいずれかのウィジェットを追加します。
 
    | ウィジェット | 説明 |

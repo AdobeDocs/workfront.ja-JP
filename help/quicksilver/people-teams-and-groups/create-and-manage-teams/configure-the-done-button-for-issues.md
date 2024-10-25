@@ -6,16 +6,20 @@ description: 「完了」ボタンは、タスクまたはイシューのステ�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
 workflow-type: tm+mt
-source-wordcount: '1170'
-ht-degree: 97%
+source-wordcount: '1183'
+ht-degree: 96%
 
 ---
 
 # イシューに[!UICONTROL 完了]ボタンを設定する
 
 「[!UICONTROL 完了]」ボタンを使用すると、タスクまたはイシューのステータスを自動的に設定できます。デフォルトで、担当者がワーク項目で「[!UICONTROL 完了]」をクリックすると、[!DNL Adobe Workfront] はイシューを[!UICONTROL 解決済み]としてマークします。
+
+>[!NOTE]
+>
+>「完了」ボタンは、Workfrontのすべての領域で完了としてマークと表示されます。
 
 ## 概要
 

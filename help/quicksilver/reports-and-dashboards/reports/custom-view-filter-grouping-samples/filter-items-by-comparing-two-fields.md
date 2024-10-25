@@ -7,18 +7,22 @@ description: 2 つのフィールドを比較することで、リストから�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 4532e08bddf993426e9d4eed6f7f8bd638663188
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '248'
+ht-degree: 75%
 
 ---
 
 # フィルター：2 つのフィールドを比較して、リスト内の項目を除外する
 
+<!--Audited: 10/2024-->
+
 2 つのフィールドを比較することで、リストから項目をフィルタリングできます。例えば、タスクの実際の完了日が予定完了日よりも後のタスクのみを表示できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -27,45 +31,49 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>フィルターを変更する場合は「要求」 </p>
-   <p>レポートを変更するためのプラン</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+    <p>新規：</p>
+   <ul><li><p>フィルターを変更するコントリビューター </p></li>
+   <li><p>レポートを変更する場合は Standard</p></li> </ul>
+
+<p>現在：</p>
+   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
+   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルターを変更する場合は、フィルター、ビュー、グループ化への編集アクセス権</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr>
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルターを変更する場合は、フィルター、ビュー、グループ化への編集アクセス権</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 2 つのフィールドの比較による項目のフィルタリング
 
 1. タスクのリストに移動します。
-1. **フィルター**&#x200B;ドロップダウンメニューから、「**新規フィルター**」を選択します。
+1. **フィルター** ドロップダウンメニューから「**新しいフィルター**」を選択します。
 
-1. 「**フィルタールールを追加**」をクリックし、**実際の完了日**／**より大きい**／**日付を選択**&#x200B;を追加します。
+1. **タスク：実際の完了日**/**次の日以降**/**日付を選択** のフィルターを追加します。
 
    >[!TIP]
    >
    >選択したフィールドに使用するフィルター修飾子を選択します（使用可能な場合）。
 
-1. 「**テキストモードに切り替え**」をクリックします。
-1. **レポートのフィルタールールを設定**&#x200B;領域に次のコードをペーストします。
+1. **テキストモード** をクリックします。
+1. 表示された領域で、次のコードを追加します。
 
-   ```
-   actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt
-   ```
+   `actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt`
 
-1. 「**完了**」をクリックして、「**フィルターを保存**」をクリックします。
+1. **適用**/**新規保存** をクリックします。
