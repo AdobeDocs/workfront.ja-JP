@@ -6,10 +6,10 @@ description: '[!UICONTROL  ホーム ] エリアから作業項目およびプ�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 5ff0fabb60cb9e7c2a7b3506693efdb6c5d8e956
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 26%
+source-wordcount: '761'
+ht-degree: 22%
 
 ---
 
@@ -54,16 +54,20 @@ ht-degree: 26%
 
 ## 個人の To Do アイテムを作成する
 
-[!UICONTROL  ホーム ] エリアで自分だけが使用できる個人用 To Do アイテムを作成できます。
+[!UICONTROL  ホーム ] エリアに個人の To Do アイテムを作成できます。 To Do アイテムは、自分で作成する個人用タスクです。
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
-1. （条件付き） To Do ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**To-Do** を検索します。
+自分および他のユーザーは、自分の個人タスクを個人タスクレポートで表示できます。 必要に応じて、そこからプロジェクトに追加できます。
+
+To Do 項目を作成するには：
+
+1. 右上隅の **[!UICONTROL メインメニュー]**![](assets/main-menu-icon.png) または左上隅の **メインメニュー** をクリック ![](assets/lines-main-menu.png)、可能な場合は **[!UICONTROL ホーム]** をクリックします。
+1. （条件付き） **カスタマイズ** をクリックし、**To Do** をクリックして、To Do ウィジェットをホーム画面に追加します。
 1. **To Do** ウィジェットに移動し、「**To Do を追加** をクリックします。
-1. を入力
+1. 個人の To Do アイテムの名前を入力し、[Enter] をクリックします。
 1. （任意）「**日付**」アイコンをクリックして、項目の期限を追加 ![](assets/date-icon.png) ます。
    ![](assets/my-work-to-dos.png)
-
-
+1. （任意）個人用タスクレポートまたはフィルターを作成します。 個人用タスク フィルタの作成については、「[ フィルタ：個人用タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)」を参照してください。
+個人タスクレポートには、自分の To Do 項目と他のユーザーの To Do 項目を表示できます。
 
 ## プロジェクトへのタスクの追加
 

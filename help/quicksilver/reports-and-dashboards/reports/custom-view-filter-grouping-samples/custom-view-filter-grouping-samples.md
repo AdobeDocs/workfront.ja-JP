@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 100%
+source-wordcount: '708'
+ht-degree: 99%
 
 ---
 
@@ -95,6 +95,7 @@ ht-degree: 100%
 
 * [フィルター：不完全なプロジェクト間の先行タスクを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
 * [フィルター：不完全なプロジェクト間の後続タスクを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
+* [フィルター：個人用タスク](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
 * [フィルター：承認待ちの現在のプロジェクトを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
 * [フィルター：承認ステータスの項目のみを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)
 * [フィルター：2 つのフィールドを比較して、リスト内の項目を除外](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md)

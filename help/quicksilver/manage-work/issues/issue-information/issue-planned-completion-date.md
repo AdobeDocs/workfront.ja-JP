@@ -6,10 +6,10 @@ description: イシューの予定完了日とは、イシューが完了する�
 author: Alina
 feature: Work Management
 exl-id: bdb206dc-18f8-4f8a-862b-e881408a8408
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 54%
+source-wordcount: '592'
+ht-degree: 51%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 54%
 Workfrontの次の領域で、イシューの予定完了日を手動で設定できます。
 
 * イシューを作成または編集する際に、「イシューを編集」ボックスまたは「イシューの詳細」領域で確認する。 詳しくは、[イシューを編集](../../../manage-work/issues/manage-issues/edit-issues.md)を参照してください。
-* ホームエリアで、イシューの表示時に予定完了日が表示される場合。詳しくは、[ホームエリアの作業アイテムを更新または編集](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)を参照してください。
+* ホーム エリア（問題の概要パネルに予定完了日が表示されている場合） 詳しくは、[ホームエリアの作業アイテムを更新または編集](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)を参照してください。
 * イシューのヘッダー内。詳しくは、[新しいオブジェクトヘッダー](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)を参照してください。
 * イシューリストまたはレポートで、「予定完了日」フィールドがビューに表示される場合。
 

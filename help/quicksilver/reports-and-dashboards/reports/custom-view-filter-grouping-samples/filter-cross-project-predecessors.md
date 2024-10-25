@@ -7,10 +7,10 @@ description: このタスクフィルターは、不完全なプロジェクト�
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7ee2432c-1d82-454e-a73a-f1f6b6a5c10d
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 100%
+source-wordcount: '247'
+ht-degree: 68%
 
 ---
 
@@ -54,11 +54,11 @@ ht-degree: 100%
 
 このフィルターを適用するには、次の手順に従います。
 
-1. タスクのリストに移動します。
-1. **フィルター**&#x200B;ドロップダウンメニューで、「**新しいフィルター**」を選択します。
+1. タスクの一覧またはタスク報告書に移動します。
+1. **フィルター** ドロップダウンメニューから「**新しいフィルター**」を選択します。
 
-1. 「**テキストモードに切り替え**」をクリックします。
-1. 「**レポートのフィルタールールを設定**」エリアに次のコードをペーストします。
+1. （条件付き）リストからフィルターにアクセスした場合は **テキストモード** をクリックし、レポートからフィルターにアクセスした場合は **テキストモードに切り替え** をクリックします。
+1. 新しい領域に、次のコードを貼り付けます。
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. 「**フィルターの保存**」をクリックします。
+1. （条件付き）レポートからフィルターにアクセスした場合は **[ フィルターの保存 ]**、タスク リストからフィルターにアクセスした場合は **[ 適用 ]**、**[ 新規として保存** をクリックします。
