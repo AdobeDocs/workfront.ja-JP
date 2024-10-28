@@ -2,23 +2,27 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「フィルター：配信予定のレポートを表示」
+title: 「フィルター：配信がスケジュールされたレポートの表示」
 description: このレポートフィルターには、Adobe Workfront で自動的に配信されるようにスケジュールされたすべてのレポートが表示されます。標準ビューを使用することが最適です。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 100%
+source-wordcount: '193'
+ht-degree: 76%
 
 ---
 
 # フィルター：配信予定のレポートを表示
 
+<!--Audited: 10/2024-->
+
 このレポートフィルターには、Adobe Workfront で自動的に配信されるようにスケジュールされたすべてのレポートが表示されます。標準ビューを使用することが最適です。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -27,41 +31,42 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>フィルターを変更する場合は「要求」 </p>
-   <p>レポートを変更するためのプラン</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+    <p>新規：</p>
+   <ul><li><p>フィルターを変更するコントリビューター </p></li>
+   <li><p>レポートを変更する場合は Standard</p></li> </ul>
+
+<p>現在：</p>
+   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
+   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルターを変更する場合は、フィルター、ビュー、グループ化への編集アクセス権</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルターを変更する場合は、フィルター、ビュー、グループ化への編集アクセス権</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## レポート配信フィルター
 
 このフィルターを適用するには、次の手順に従います。
 
 1. レポートのリストに移動します。
-1. **フィルター**&#x200B;ドロップダウンメニューで、「**新しいフィルター**」を選択します。
+1. **フィルター**&#x200B;ドロップダウンメニューから、「**新規フィルター**」を選択します。
 
 1. 「**テキストモードに切り替え**」をクリックします。
-1. **レポートのフィルタールールを設定**&#x200B;エリアに次のコードを追加します。
-
-   ```
-   scheduledReportID=0<br>scheduledReportID_Mod=notnull
-   ```
-
-1. 「**フィルターを保存**」をクリックします。
+1. 「**レポートのフィルタールールを設定**」領域で、次のコードをコピーして貼り付けます。`scheduledReportID=0<br>scheduledReportID_Mod=notnull`
+1. 「**フィルターの保存**」をクリックします。

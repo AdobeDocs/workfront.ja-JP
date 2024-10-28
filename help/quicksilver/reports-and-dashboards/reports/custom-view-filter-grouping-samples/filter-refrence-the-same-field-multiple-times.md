@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「フィルター：同じフィールドを参照する複数のフィルタールール（「AND」ステートメント）を作成する」
+title: 「フィルター：同じフィールド（「AND」ステートメント）を参照する複数のフィルタールールを作成する」
 description: 標準モードのインターフェイスでは、同じフィールドを参照する複数のフィルターを（AND 修飾子を使用して）作成しようとした場合、レポートを保存して Report Builder を終了すると、フィルターの 1 つが削除されます。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: fb167e9f-c8bd-43f6-84c9-9a87e80c3eb2
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 100%
+source-wordcount: '395'
+ht-degree: 86%
 
 ---
 
 # フィルター：同じフィールドを参照する複数のフィルタールール（「AND」ステートメント）を作成する
+
+<!--Audited: 10/2024-->
 
 標準モードのインターフェイスでは、同じフィールドを参照する複数のフィルターを（AND 修飾子を使用して）作成しようとした場合、レポートを保存して Report Builder を終了すると、フィルターの 1 つが削除されます。
 
@@ -27,6 +29,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -34,36 +38,41 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>フィルターを変更する場合は「要求」 </p>
-   <p>レポートを変更するためのプラン</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+    <p>新規：</p>
+   <ul><li><p>フィルターを変更するコントリビューター </p></li>
+   <li><p>レポートを変更する場合は Standard</p></li> </ul>
+
+<p>現在：</p>
+   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
+   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルターを変更する場合は、フィルター、ビュー、グループ化への編集アクセス権</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルターを変更する場合は、フィルター、ビュー、グループ化への編集アクセス権</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 同じフィールドを参照する複数のフィルタールールの作成
 
 1. タスクのリストに移動します。
 1. **フィルター**&#x200B;ドロップダウンメニューから、「**新規フィルター**」を選択します。
-1. 「**テキスト モードに切り替える**」をクリックします。
-1. テキストモード領域にポインタを合わせ、「**クリックするとテキストを編集できます**」をクリックします。
-1. 「報告書のフィルター ルールを設定してください」領域に、次のコードを追加します。
+1. **テキストモード** をクリックします。
+1. 表示されたボックスに、次のコードを追加します。
 
    ```
    name=green
@@ -89,4 +98,4 @@ ht-degree: 100%
    >   
    >これらのステートメントでは大文字と小文字が区別されます。
 
-1. 「**完了**」をクリックして、「**フィルターの保存**」を選択します。
+1. **適用** をクリックしてから、**新規保存** をクリックします。
