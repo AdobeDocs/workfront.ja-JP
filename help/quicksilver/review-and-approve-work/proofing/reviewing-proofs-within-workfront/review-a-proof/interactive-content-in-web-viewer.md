@@ -6,14 +6,19 @@ description: デスクトッププルーフビューアを使用して、すべ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
-source-git-commit: f783e3033a67b4702e4e2d80214cbb0c4591b922
+source-git-commit: eeaf2f2cec65fae9e4b898ed43d8c9b781b29d9e
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 100%
+source-wordcount: '402'
+ht-degree: 93%
 
 ---
 
 # Web プルーフビューアでのインタラクティブコンテンツのプルーフの設定
+
+>[!IMPORTANT]
+>
+>これは従来のブラウザー拡張機能で、サポートされなくなりました。 現在ベータ版である [Adobe Workfront レビューツール ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) に、新しいブラウザー拡張機能をインストールすることをお勧めします。
+
 
 デスクトッププルーフビューアを使用して、すべてのインタラクティブコンテンツをレビューすることをお勧めします。ただし、組織のポリシーによってこの問題が回避されている場合は、Workfront 管理者が、インタラクティブプルーフ用の web プルーフビューアを使用するようにシステムを設定できます。これら 2 つのビューアの比較情報について詳しくは、[web プルーフビューアとデスクトッププルーフビューアの違いの概要](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)を参照してください。
 
@@ -47,5 +52,3 @@ Web プルーフビューアには次の制限があります。
 1. Web プルーフビューアで、「**プルーフを再読み込み**」をクリックします。
 
 拡張機能がブラウザーにインストールされている場合、プルーフビューアは、「**コメントを追加**」をクリックするたびにコンテンツの静的スクリーンショットを取得します。このスクリーンショットでは、マークアップを含むコメントを追加できます。
-
- 
