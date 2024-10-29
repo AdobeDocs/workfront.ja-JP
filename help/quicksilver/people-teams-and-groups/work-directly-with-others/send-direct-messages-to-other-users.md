@@ -7,10 +7,10 @@ description: Adobe Workfront を使用すると、作業アイテムに関係の
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 8dd932fe0203fb4a0391f1cbc2d6b8b58a87a00a
+source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 52%
+source-wordcount: '511'
+ht-degree: 51%
 
 ---
 
@@ -82,6 +82,8 @@ ht-degree: 52%
 
 1. メッセージを送信する 1 人または複数のユーザーを選択し、「[!UICONTROL **ユーザーに更新を送信**]」をクリックします。
 1. [!UICONTROL  ユーザーに更新を送信 ] ウィンドウにメッセージを入力します。
+
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
 
    <span class="preview">![ ユーザーに更新を送信ウィンドウのメッセージユーザー ](assets/send-message-to-user-dialog-from-user-list.png)</span>
 
