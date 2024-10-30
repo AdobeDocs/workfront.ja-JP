@@ -6,17 +6,20 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2248'
-ht-degree: 42%
+source-wordcount: '2363'
+ht-degree: 41%
 
 ---
 
 
 # レコードタイプを接続
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -242,6 +245,10 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      ![](assets/many-to-many-connection-picker.png)
 
      接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+
+     >[!NOTE]
+     >
+     ><span class="preview"> 接続の種類に [ 一対多 ] または [ 一対一 ] を選択した後で他の場所に既に接続されているレコードまたはオブジェクトを接続しようとすると、再度接続すると元の接続から削除されるという警告が表示されます。 削除を許可するか、別のレコードを選択できます。</span>
 
    * **ルックアップフィールドを選択**：選択したレコードタイプからフィールドを追加するには、このオプションを選択します。ルックアップフィールドは、リンク先のレコードタイプまたはオブジェクトタイプに関連付けられたフィールドです。リンクすると、リンク元のレコード上のリンク先のレコードまたはオブジェクトの情報が表示されます。 これはデフォルトで選択されています。
 

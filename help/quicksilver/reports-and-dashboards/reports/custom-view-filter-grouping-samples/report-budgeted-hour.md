@@ -4,17 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「レポート：予算計上時間数」
 description: 「レポート：予算計上時間数」
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 72%
 
 ---
 
 # レポート：予算計上時間数
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
@@ -26,9 +28,11 @@ ht-degree: 100%
 >
 >予算計上時間数は、通常、Adobe Workfront データベースで 1 時間ごとに更新されます（まれに、最大 3 時間かかる場合があります）。レポートを更新しても、そのレポート内の時間数の情報は必ずしも更新されるわけではありません。前回のアップデート以降の経過時間は、それぞれの予算計上時間数のレポートの右上隅に表示されます。レポートを更新すると、前回のアップデートから 1 時間以上経過した場合にのみ、レポート内の情報がアップデートされます。
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)>
+>![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -37,65 +41,62 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td> 
+    <p>新規：</p>
+   <ul><li><p>フィルターを変更するコントリビューター </p></li>
+   <li><p>レポートを変更する場合は Standard</p></li> </ul>
+
+<p>現在：</p>
+   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
+   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルターを変更する場合は、フィルター、ビュー、グループ化への編集アクセス権</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 予算計上時間数のレポートを作成
 
-1. 右上隅にある&#x200B;**メインメニュー** ![](assets/main-menu-icon.png) をクリックし、「**レポート**」をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![](assets/main-menu-icon.png) をクリックするか、または左上隅の **メインメニュー** アイコン ![](assets/lines-main-menu.png) がある場合はクリック **レポート** をクリックします。
 
-1. **新規レポート／予算時間**&#x200B;の順にクリックします。
+1. **新規レポート**/**詳細**/**予算計上時間数** をクリックします。
 
    デフォルトのビューがレポートに適用されます。
 
-1. （オプション）レポートを読みやすくするには、**予算計上時間数**&#x200B;の列、「**テキストモードに切り替え**」の順にクリックし、続けて次の行を
-
-   ```
-   valuefield
-   ```
-
-   下記のように変更し
-
-   ```
-   valueexpreesion
-   ```
-
-   丸め式を入力します。
+1. （オプション）レポートを読みやすくするには、**Bud をクリックします。 「時間**」列、「**テキストモードに切り替える**」の順にクリックし、「**テキストモードを編集** をクリックします。
+1. `valuefield` 行を `valueexpreesion` に変更し、丸め式を入力します。
 
    これにより、予算時間数が指定した小数点以下の桁数に丸められます。
 
    Workfront で数値を四捨五入する方法について詳しくは、[計算済みデータ式の概要](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)の記事を参照してください。
 
-1. （オプション）「**列を追加**」をクリックして、列を追加します。
+1. 「**完了**」をクリックします。
+1. （任意）「**列の追加**」をクリックして、列を追加します。
 1. （オプション）レポートを読みやすくするために、そのレポートにグループ化を追加することをお勧めします。以下のグループ化をお勧めします。
 
    「**グループ化**」タブをクリックし、次の操作のいずれかを行います。
 
-   1. 「**グループ化を追加**」をクリックして、「プロジェクト名」を入力し、リストに表示されたら選択します。
-   1. 「**グループ化を追加**」をクリックして、「担当業務名」を入力し、リストに表示されたら選択します。
-   1. 「**グループを追加**」をクリックして、「**配分日**」を入力し、リストに表示されたら選択します。さらに、「**日付をグループ化**」フィールドからグループ化する期間を選択します。
+   * **グループ化を追加** をクリックして「プロジェクト名」の入力を開始し、リストに表示されたら選択します。
+   * **グループ化を追加** をクリックして「担当業務名」の入力を開始し、リストに表示されたら選択します。
+   * **グループ化を追加** をクリックして「配分日」の入力を開始し、リストに表示されたら選択し、**グループ化の基準** フィールドからグループ化する期間を選択します。
 
-1. （オプション）「**フィルター**」をクリックして、レポートにフィルターを追加します。
-1. （オプション）「**グラフ**」をクリックして、レポートにグラフを追加します。
+1. （任意） **フィルター** をクリックして、レポートにフィルターを追加します。
+1. （任意） **グラフ** をクリックして、レポートにグラフを追加します。
 1. 「**保存して閉じる**」をクリックします。
 
 ## 予算計上時間数のレポートを確認

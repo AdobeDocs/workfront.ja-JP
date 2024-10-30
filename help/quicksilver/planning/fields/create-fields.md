@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 95f21f064c5298dc6d2e1c24872ee049f77c3fac
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '3612'
-ht-degree: 75%
+source-wordcount: '3689'
+ht-degree: 73%
 
 ---
 
@@ -21,6 +21,11 @@ ht-degree: 75%
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # フィールドの作成
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -233,7 +238,7 @@ OLD:
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列ヘッダーにポインタを合わせると表示されます。
+   * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールドの列ヘッダーにポインタを合わせるか、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックすると <span class="preview"> に表示されます。</span>
 1. 「**作成**」をクリックします。
 
    新しい単一行フィールドが列としてレコードタイプに追加され、その値をレコードに関連付けることができます。
@@ -366,19 +371,33 @@ OLD:
 
 パーセンテージフィールドタイプでは、パーセント記号が後ろに付いた数値書式の情報を取り込みます。
 
-1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
+1. この記事の「最初からフィールドを作成 [ の説明に従ってフィールドの作成を開始し ](#create-fields-from-scratch) から、「**パーセンテージ**」フィールドタイプを選択します。<!--change screen shot for preview-->
 
    ![](assets/percentage-field-type.png)
 
-1. 次の情報を「**新規フィールド**」タブに追加します。
+1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
    * **精度**：フィールドに記録する小数点以下の桁数です。 小数点以下 6 桁まで表示できます。
    * **負の数を許可**：このフィールドで負の割合の値を許可する場合は、このオプションを選択します。このオプションは、デフォルトで無効になっています。
 
-   >[!NOTE]
-   >
-   >    「負の数を許可」を選択し、フィールドが関連付けられているレコードに負の値が格納されている場合、今後この設定の選択は解除できなくなります。
+     >[!NOTE]
+     >
+     >    「負の数を許可」を選択し、フィールドが関連付けられているレコードに負の値が格納されている場合、今後この設定の選択は解除できなくなります。
+
+   <!--<div class="preview">  
+
+    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
+        * **Number**: The percent value displays as a number followed by the percentage sign. 
+        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
+        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+
+    >[!NOTE]
+    >
+    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
+    >* You can change the Show as selection when editing the field later. 
+    </div>-->
+
 
 1. 「**作成**」をクリックします。
 

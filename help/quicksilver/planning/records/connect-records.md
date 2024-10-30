@@ -1,24 +1,28 @@
 ---
 title: レコードを接続
-description: レコードタイプ間の接続を作成した後、個々のレコードを相互に接続できます。
+description: レコードタイプ間の接続を作成したら、個々のレコードを相互に接続できます。 あるレコードの情報を別のレコードに接続すると、それらのレコードの情報を表示できます。
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
 workflow-type: tm+mt
-source-wordcount: '2793'
-ht-degree: 49%
+source-wordcount: '2988'
+ht-degree: 46%
 
 ---
 
 
 # レコードの接続
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 {{planning-important-intro}}
 
-Adobe Workfront Planning レコードを相互に接続したり、他のアプリケーションのオブジェクトに接続したりできます。
+Adobe Workfront Planning レコードを相互に接続したり、他のアプリケーションのオブジェクトに接続したりできます。 あるレコードの情報を別のレコードに接続すると、それらのレコードの情報を表示できます。
 
 この記事では、レコードを接続する方法について説明します。 レコードの接続に関する一般的な情報については、[ 接続されたレコードの概要 ](/help/quicksilver/planning/records/connected-records-overview.md) を参照してください。
 
@@ -129,11 +133,11 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 +++
 
-## レコードを接続するための前提条件
+## レコードを接続する際の考慮事項
 
-レコードを他のレコードまたはオブジェクトと接続するには、次の条件を満たす必要があります。
+* レコードを他のレコードまたはオブジェクトと接続するには、次の条件を満たす必要があります。
 
-* 少なくとも 1 つのワークスペース、レコードタイプおよびレコード。
+   * 少なくとも 1 つのワークスペース、レコードタイプおよびレコード。
 
   詳しくは、次の記事を参照してください。
 
@@ -141,7 +145,9 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    * [レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)
    * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
 
-* レコードタイプ間の接続や、レコードタイプと他のアプリケーションからのオブジェクト間の接続。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+   * レコードタイプ間の接続や、レコードタイプと他のアプリケーションからのオブジェクト間の接続。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+
+* 1 つまたは複数のレコードまたはオブジェクトを相互に接続できます。 これは、レコードまたはオブジェクトの種類を接続するときに選択した接続の種類によって異なります。 詳しくは、[ レコードタイプの接続の概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
 ## Workfront Planning からレコードを接続
 
@@ -172,9 +178,10 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    >[!TIP]
    >
-   >    レコードタイプが接続されたときにレコードの画像のみを表示するように選択した場合、接続されたフィールドにはサムネールまたはレコードのアイコンのみが表示されます。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+   >レコードタイプが接続されたときにレコードの画像のみを表示するように選択した場合、接続されたフィールドにはサムネールまたはレコードのアイコンのみが表示されます。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+   >
 
-
+1. <span class="preview"> （条件付き） レコードタイプを接続した際に、接続タイプとして「1 対多」または「1 対 1」を選択した場合、他の場所で既に接続されているレコードまたはオブジェクトを接続しようとすると、再度接続すると元の接続から削除されるという警告が表示されます。 **接続** をクリックして削除を許可してレコードを接続するか、**キャンセル** をクリックしてフィールドに戻って別のレコードを選択します。</span>
 1. （オプション）接続するレコードまたはオブジェクトが見つからず、追加する場合は、「**+追加**」をクリックして新しいレコードを追加します。 詳細については、「レコードを作成する」の「接続するレコードの作成 [ の節を参照してくだ ](/help/quicksilver/planning/records/create-records.md) い。
 
    >[!TIP]

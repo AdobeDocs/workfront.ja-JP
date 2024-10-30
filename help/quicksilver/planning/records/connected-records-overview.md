@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 30%
+source-wordcount: '558'
+ht-degree: 29%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 * Workfront Planning へのアクセス権と、ワークスペースへの表示以上の権限を持つユーザーは誰でも、レコード間に、またはレコードと他のアプリケーションのオブジェクトの間に作成する接続を表示できます。そのようなユーザーは、接続先のアプリケーションの権限に関係なく、接続されたレコードとオブジェクトを表示できます。
 * 接続されているレコードが存在するワークスペースに対する管理権限を持っている場合は、他のすべてのユーザーの接続を表示および編集できます。
-* 1 つのレコードを別のアプリケーションの 1 つまたは複数のオブジェクトに接続できます。 詳しくは、「接続されたレコードタイプの概要 [ の「接続タイプ」の節を参照してください ](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
+* 1 つのレコードを別のアプリケーションの 1 つまたは複数のオブジェクトに接続できます。これは、レコードタイプの接続時に選択した接続タイプによって異なります。 詳しくは、「接続されたレコードタイプの概要 [ の「接続タイプ」の節を参照してください ](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
 ## レコードを接続できる領域
 
