@@ -9,10 +9,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
 workflow-type: tm+mt
-source-wordcount: '146'
-ht-degree: 96%
+source-wordcount: '151'
+ht-degree: 93%
 
 ---
 
@@ -25,6 +25,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 * [新しいライセンスによるオブジェクトやエリアへのアクセス](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 * [各オブジェクトタイプで使用できる機能](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 * [新しいライセンスプランの有料ユーザーに対して自動アップグレードオプションを無効にする](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+* [ライセンスモデル間での機能の比較](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/comparing-old-and-new-license-models.md)
 
 ## 関連トピック
 
