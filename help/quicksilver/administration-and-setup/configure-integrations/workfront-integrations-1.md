@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -186,7 +186,7 @@ ht-degree: 92%
     <ul> 
      <li> <p>クラウドでホストされている [!DNL Office 365] または [!DNL Outlook Live.] の web ベースバージョンの [!DNL Outlook] と統合 </p> </li> 
      <li> <p>[!DNL Outlook] カレンダーおよび選択した関連カレンダー（誕生日や祝日のカレンダーなど）からのすべてのイベントを [!UICONTROL Home Calendar] に表示します。</p> </li> 
-    </ul> <p><b>メモ</b>：[!UICONTROL Outlook] のカレンダー設定は、[!DNL Outlook] アドイン（[!DNL Outlook] 統合または [!DNL Workfront for Outlook]）から完全に分離しています。カレンダーの設定に必要なインストールはありません。</p> <p>詳しくは、<a href="../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] ビューの設定</a>を参照してください。</p> </td> 
+    </ul> <p><b>メモ</b>：[!UICONTROL Outlook] のカレンダー設定は、[!DNL Outlook] アドイン（[!DNL Outlook] 統合または [!DNL Workfront for Outlook]）から完全に分離しています。カレンダーの設定に必要なインストールはありません。</p></td> 
    <td> </td> 
    <td> </td> 
   </tr> 

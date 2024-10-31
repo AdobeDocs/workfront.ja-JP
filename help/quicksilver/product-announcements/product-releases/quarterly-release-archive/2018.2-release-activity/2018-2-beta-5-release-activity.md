@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '3165'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -59,8 +59,6 @@ Workfront ホームカレンダービューを使用して、個人の作業タ�
 * 割り当てられたタスクを更新する
 
 Outlook でカレンダーを使用する場合は、カレンダーを統合して、Outlook イベントをホームのカレンダービューに表示できます。
-
-詳しくは、[ホームのカレンダービュー](../../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)を参照してください。
 
 ## ホームの作業リスト（左側のパネル）の追加更新 {#additional-updates-to-the-work-list-left-panel-in-home}
 

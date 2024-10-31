@@ -6,10 +6,10 @@ description: プルーフの所有者または作成者が共有を有効にし�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
 workflow-type: tm+mt
-source-wordcount: '1512'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -134,7 +134,7 @@ ht-degree: 99%
 デフォルトでは、プルーフに追加するユーザーは次のようになります。
 
 * プルーフへのリンクを含むメール通知を受け取ります。
-* 「ホーム」または「担当作業」のエリアからプルーフについて承認を下すことができます。詳しくは、[作業の承認](../../../../review-and-approve-work/manage-approvals/approving-work.md)を参照してください。
+* [ 作業の承認 ](../../../../review-and-approve-work/manage-approvals/approving-work.md) に説明されているように、ホーム エリアからプルーフに対して承認の決定を行うことができる。
 * プルーフをレビューするために、プルーフを有効にする必要はありません。
 
 自動ワークフローを有効にし、Workfront でプルーフを有効にしていないユーザーをプルーフに追加すると、自動ワークフロー内に新しいステージが作成されます。追加するユーザーが、プルーフを初めて表示する際に、自動的にこの新しいステージに追加されます。詳しくは、[自動ワークフローの概要](../../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)を参照してください。

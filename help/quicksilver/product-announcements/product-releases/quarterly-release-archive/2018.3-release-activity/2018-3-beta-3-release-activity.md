@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 452fc235-ff90-4451-b48b-354671227f6f
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
 workflow-type: tm+mt
-source-wordcount: '567'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,8 +49,6 @@ ht-degree: 100%
 優先度の並べ替えオプションを使用すると、作業リスト内の重要な作業アイテムを優先順位付けできるようになりました。
 
 以前は、自分の作業エリアで優先順位を付けられるのはタスクとイシューのみでした。
-
-詳しくは、[ホームエリアの作業の優先順位付け](../../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)を参照してください。
 
 ## グループ管理者としてのユーザープロファイルの役割のアップデート {#update-roles-in-the-user-profile-as-a-group-administrator}
 
