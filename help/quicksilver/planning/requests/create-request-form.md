@@ -6,21 +6,22 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
 workflow-type: tm+mt
-source-wordcount: '1259'
-ht-degree: 14%
+source-wordcount: '1375'
+ht-degree: 15%
 
 ---
 
 # Adobe Workfront Planning でのリクエストフォームの作成と管理
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -140,33 +141,19 @@ ht-degree: 14%
 
      >[!IMPORTANT]
      >
-     >   次のタイプのフィールドは、リクエストフォームに表示されません。
+     > リクエストフォームを作成する環境に応じて、次のようなシナリオが存在します。
+     >
+     >* 次のタイプのフィールドは、リクエストフォーム <span class="preview"> プレビュー </span> ードまたは実稼動環境）に表示されません。
      >
      >    * ユーザー（作成者と最終変更者を含む）
-     >    * 接続されたフィールド（Workfrontとの接続およびExperience Managerアセットを含む）
-     >    * 接続された参照フィールド
      >    * 式
      >    * 作成日
      >    * 最終変更日
+     >    * Workfront オブジェクトの接続されたフィールドまたは参照フィールド
+     >    * Workfront Planning レコードの接続された参照フィールド
+     >* 次のタイプのフィールドは、実稼動環境のリクエストフォームに表示されません。 <span class="preview"> プレビュー環境に表示されます。</span>
+     >    * Workfront Planning レコード <span class="preview"> 接続されたフィールド （Workfrontとの接続、Experience Managerアセットを含む） </span>
 
-     <!--replace the above with this: 
-
-            >[!IMPORTANT]
-            >
-            > Depending on what environment you use to create a request form, the following scenarios exist:
-            >
-            >* Fields of the following types do not display in the request form in the Preview or Production environments: 
-            >
-            >    * People (includes Created by and Last modified by)
-            >    * Formula
-            >    * Created date
-            >    * Last modified date
-            >    * Workfront object connected fields
-            >    * Workfront objects connected lookup fields
-            >* <span class="preview">Fields of the following types do not display in the request form in the Production environment. They display in the Preview environment:</span>
-            >    * <span class="preview">Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
-            >    * <span class="preview">Planning records' connected lookup fields</span>
-      -->
 
    * **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。
    * **件名** フィールド：Workfrontでリクエストを識別するフィールド。 この機能は、まだ利用できません。 「件名」フィールドの設定と値は編集できません。
