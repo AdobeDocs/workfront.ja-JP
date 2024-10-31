@@ -6,9 +6,9 @@ draft: Probably
 feature: Workfront API, Workfront Proof
 role: Developer
 exl-id: fcf89bd6-0e07-42a7-9ae3-9a1309e51946
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 79b6370ec3283922a16435e8eb8069f7f9560c55
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '776'
 ht-degree: 100%
 
 ---
@@ -51,7 +51,7 @@ API の観点からすると、各バージョンは個別のプルーフで、�
 
 ## 呼び出しの前に新しいセッション ID を取得する必要がありますか？
 
-すべてのセッション ID は基本的にアクションを実行するユーザーであると示すことが重要です。 
+すべてのセッション ID は基本的にアクションを実行するユーザーであると示すことが重要です。
 
 新しいセッション ID をAPI の呼び出しのたび取得する必要はありません。この ID は 24 時間有効なままになります。有効期限は、API を呼び出すたびにリセットされます。
 
@@ -69,7 +69,4 @@ API の観点からすると、各バージョンは個別のプルーフで、�
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` は 
 `https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=` のようにエンコードする必要があります。
 
-## Java web サービスクライアントを作成するにはどうすればよいですか。
-
-[このビデオ](https://screencast.com/t/xsSNrqs5b)では、Eclipse と Workfront Proof WSDL 定義を使用して Java web サービス クライアントを作成する方法を説明します。
 
