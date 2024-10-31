@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 88ddadb8ea00d5c45ec414837bf10aa63d11200e
+source-git-commit: 0a7d92d4a869e048ba11b84d5f78df06392d5f94
 workflow-type: tm+mt
-source-wordcount: '14564'
-ht-degree: 92%
+source-wordcount: '14574'
+ht-degree: 91%
 
 ---
 
@@ -30,17 +30,17 @@ ht-degree: 92%
          * [2024年第 4 四半期のホームの機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
          * [2024年第 4 四半期のプロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
          * [2024 年第 4 四半期プルーフの機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
-         * [2024 年第 4 四半期の レポート とダッシュボードの機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
-         * [2024 年第 4 四半期リリース期間中のその他機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
+         * [2024 年第 4 四半期のレポートとダッシュボードの機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
+         * [2024 年第 4 四半期のリリース期間中のその他の機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [2024年第 4 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
       * 2024年第 3 四半期リリース {#release-24-q3}
          * [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
          * [2024 年第 3 四半期管理者の機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
-         * [2024年第3四半期の財務管理の強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
-         * [2024 年第 3 四半期の統合の機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md)
-         * [2024 年第 3 四半期 プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
-         * [2024 年第 3 四半期校正の機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md)
-         * [2024 年第 3 四半期 リソース管理の機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
+         * [2024 年第 3 四半期の Financial Management の機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
+         * [2024 年第 3 四半期の統合の強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md)
+         * [2024 年第 3 四半期プロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
+         * [2024 年第 3 四半期プルーフの機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md)
+         * [2024 年第 3 四半期のリソース管理の強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
          * [2024 年第 3 四半期のリリース期間中のその他の機能強化](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [2024年第 3 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
       * 2024年第 2 四半期リリース{#release-24-q2}
@@ -515,8 +515,8 @@ ht-degree: 92%
          * [環境のプロモーションパッケージのインストール](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
          * [環境プロモーションパッケージのロールバック](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
          * [API を使用した環境のプロモーション](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-         * [環境 プロモーション FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
-         * [環境プロモーションのトラブルシューティング](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+         * [環境推進に関するよくある質問](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+         * [環境促進のトラブルシューティング](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
    * ユーザー管理{#add-users}
       * [ユーザー管理：記事インデックス](administration-and-setup/add-users/add-users.md)
@@ -577,7 +577,7 @@ ht-degree: 92%
          * [シナリオプランナーへのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [リソース管理に対するアクセスの許可](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Workfront Goals へのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Workfront でのシングルサインオン {#sso}
+      * Workfront {#sso} でのシングルサインオン
          * [シングルサインオン：記事インデックス](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [シングルサインオンの概要](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [シングルサインオンに対応するためのユーザーの更新](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
@@ -639,7 +639,7 @@ ht-degree: 92%
             * [カスタムフィールドまたはウィジェットを使用するレポートの表示](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
             * [カスタムフィールドまたはウィジェットを使用するカスタムフォームの表示](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md)
             * [オブジェクトの変換時におけるカスタムフォームデータの転送](administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)
-            * [カスタムフィールド、セクション区切り、またはウィジェット追加または編集する](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+            * [カスタムフィールド、セクション区切りまたはウィジェットを追加または編集](administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
             * [システムからカスタムフィールドまたはウィジェットを削除](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
             * [カスタムフォームの削除](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
             * [API のリッチテキストフィールドストレージ](administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md)
@@ -919,12 +919,13 @@ ht-degree: 92%
          * [ホームカレンダービューの使用](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
          * [ホームのカレンダーの表示](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
          * [マイ更新エリアの使用](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-   * AIアシスタント {#ai-assistant}
+   * AI アシスタント {#ai-assistant}
       * [AI アシスタント](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [AI アシスタントを使用して要約する](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [AI アシスタントからヘルプを入手](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
       * [AI アシスタントで計算フィールドの数式を修正する](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+      * [AI アシスタントを使用して、プロジェクト、タスク、問題を操作します](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [AI アシスタントを有効または無効にする](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
    * 作業アイテムの更新および更新の表示 {#update-work-items-view-updates}
       * [作業アイテムの更新および更新の表示：記事インデックス](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
@@ -1185,7 +1186,7 @@ ht-degree: 92%
          * [Experience Manager Assets または Assets Essentials にリンクされたフォルダーの作成](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
          * [Experience Manager Assets または Assets Essentials からアセットおよびフォルダーのリンク解除または削除](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
          * [Experience Manager Assets Essentials 統合でのワークフローの使用](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
-         * [Workfront Fusionを使用して、Adobe Experience Managerワークフローを含むプロジェクトにワークフロントの課題変換する](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
+         * [Workfront Fusion を使用して、Workfront イシューをAdobe Experience Manager ワークフローを含むプロジェクトに変換する](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Adobe Experience Manager 統合のトラブルシューティング](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
    * 従来のコネクターまたは強化されたコネクターからの移行 {#migrate-from-legacy-enhanced-connectors}
       * [従来のコネクタまたは強化機能コネクタからの移行](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
@@ -1785,7 +1786,7 @@ ht-degree: 92%
          * [リソースプールとユーザーを関連付ける](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
          * [リソースプールからのユーザーの削除](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
       * [リソース計画の概要](resource-mgmt/resource-planning/get-started-resource-planning.md)
-      * [Workfront の予算リソースへのアクセス](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+      * [Workfrontでのリソースの予算計上に必要なアクセス](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
       * [リソースプランナーの概要](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [リソースプランナーを配置](resource-mgmt/resource-planning/locate-resource-planner.md)
       * [リソースプランナーのナビゲーションの概要](resource-mgmt/resource-planning/resource-planner-navigation.md)
@@ -1845,9 +1846,9 @@ ht-degree: 92%
          * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [アセットまたはドキュメントへのレビュー担当者または承認者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [アセットまたはドキュメントからの承認者またはレビュー担当者の削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-         * [アセットおよびドキュメントの承認テンプレート作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-         * [新しいドキュメント承認と校正を併用する](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
-         * [新しいバージョンのドキュメントのアップロードと承認リクエスト](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
+         * [アセットおよびドキュメント用の承認テンプレートの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+         * [新しいドキュメント承認とプルーフの併用](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+         * [新しいドキュメント バージョンをアップロードし、承認を要求する](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
       * アセットとドキュメントのレビューと承認 {#review-and-approve-documents}
          * [ドキュメントの確認と承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
          * [ドキュメントのレビュー](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -1855,7 +1856,7 @@ ht-degree: 92%
    * プルーフ {#proofing}
       * [プルーフ：記事インデックス](review-and-approve-work/proofing/proofing.md)
       * プルーフの概要 {#proofing-overview}
-         * [校正の概要: 記事のインデックス](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+         * [プルーフの概要：記事インデックス](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
          * [プルーフ権限プロファイルの概要](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
          * [プルーフの役割の概要](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
          * [自動ワークフローの概要](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -2274,8 +2275,8 @@ ht-degree: 92%
       * [Adobe Campaign Classic モジュール](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
       * [Adobe Experience Manager Assets モジュール](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
       * [Adobe Experience Manager Forms モジュール](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)
-      * [Adobe Systems ホタルモジュール](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
-      * [Adobe Systems I/O イベントモジュール](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
+      * [Adobe Fireflyモジュール](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
+      * [Adobe I/Oイベントモジュール](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
       * [Adobe Journey Optimizer モジュール](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
       * [Adobe Lightroom モジュール](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
       * [Adobe PDF サービスモジュール](workfront-fusion/apps-and-their-modules/pdf-modules.md)
