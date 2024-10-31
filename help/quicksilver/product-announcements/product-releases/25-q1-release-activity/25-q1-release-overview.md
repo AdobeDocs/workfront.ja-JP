@@ -4,10 +4,10 @@ description: このページでは、2025 年第 1 四半期リリースに含�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e2db8c095acca049be72ad26ec090867f9590c04
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 81%
+source-wordcount: '715'
+ht-degree: 64%
 
 ---
 
@@ -33,12 +33,49 @@ ht-degree: 81%
 
 ## Adobe Workfront の機能強化
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [管理者機能の強化](#administrator-enhancements)
+  <!--* [Boards enhancements](#boards-enhancements)-->
 * [その他の機能強化](#other-enhancements)
 
-<!--
+### 管理者機能の強化
 
-### Administrator enhancements
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+        <tbody>
+            <tr>
+                <td>
+                    <p><span class="bold">機能</span>
+                    </p>
+                </td>
+                <td>
+                    <p><span class="bold">リリース日</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> カスタムフィールドに「移動先」アイコンが追加されました </a></p>
+                    <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
+                </td>
+                <td><p><b>公開日：</b></p>
+                    <ul>
+                        <li>
+                            <p>プレビューリリース：2024年10月29日（PT）</p>
+                        </li>
+                        <li>
+                            <p>迅速リリースの実稼動：24.11 リリースの場合（2024 年 11 月 14 日（PT））</p>
+                        </li>
+                        <li>
+                            <p>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</p>
+                        </li>
+                   </ul>
+                </td>
+            </tr>
+        </tbody>
+</table>
+
+<!--### Boards enhancements
 
 <table>
     <col style="width: 50%;" />
@@ -56,13 +93,13 @@ ht-degree: 81%
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">"Move to" icon added to custom fields</a></p>
-                    <p>When a custom form contains multiple sections with many fields, it can be difficult to move a field from one section to another by dragging and dropping. A "move to" icon has been added to each field, allowing you to select the section that the field is placed in.</p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
+                    <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
                 </td>
                 <td><p><b>Available on these dates:</b></p>
                     <ul>
                         <li>
-                            <p>Preview release: October 24, 2024</p>
+                            <p>Preview release: October 31, 2024</p>
                         </li>
                         <li>
                             <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
@@ -74,9 +111,7 @@ ht-degree: 81%
                 </td>
             </tr>
         </tbody>
-</table> 
-
--->
+</table>-->
 
 ### その他の機能強化
 
@@ -84,7 +119,26 @@ ht-degree: 81%
     <col style="width: 50%;" />
     <col style="width: 50%;" />
         <tbody>
-             <tr>
+            <tr>
+                <td>
+                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI アシスタントで、プロジェクト、タスク、イシューを操作できるようになりました </a></p>
+                    <p>Workfrontで作業項目を管理しやすくするために、AI アシスタントが更新されて、プロジェクト、タスク、イシューを操作できるようになりました。 これで、AI アシスタントは、「期限が今週の自分のタスクを検索」など、指定した条件に基づいて、プロジェクト、タスク、問題を検索できます。</p>
+                </td>
+                <td><p><b>公開日：</b></p>
+                    <ul>
+                        <li>
+                            <p>プレビューリリース：2024年10月31日（PT）</p>
+                        </li>
+                        <li>
+                            <p>迅速リリースの実稼動：24.11 リリースの場合（2024 年 11 月 14 日（PT））</p>
+                        </li>
+                        <li>
+                            <p>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</p>
+                        </li>
+                   </ul>
+                </td>
+            </tr>
+            <tr>
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025 年第 1 四半期のルックアンドフィールの更新 </a></p>
                     <p>Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対する小規模な更新が、2025 年第 1 四半期内に行われています。 特定のリリース日については、個々のリリースノートを確認してください。</p>
@@ -108,7 +162,6 @@ ht-degree: 81%
 
 The following functionality is soon to be removed from Workfront:
 -->
-
 
 ## お知らせ
 

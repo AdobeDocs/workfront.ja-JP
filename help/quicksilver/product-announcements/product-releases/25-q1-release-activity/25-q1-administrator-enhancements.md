@@ -4,10 +4,10 @@ description: 2025年第 1 四半期の管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 57%
+source-wordcount: '154'
+ht-degree: 43%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 57%
 
 >[!NOTE]
 >
->プレビューリリース：2024年10月24日（PT）。迅速リリース用の実稼動版：24.11 リリース（2024年11月14日（PT））。四半期リリース用の実稼動版：25.1 リリース（2024年1月16日（PT））
+>プレビューリリース：2024 年 10 月 29 日（PT）、高速リリースの実稼動：24.11 リリースの実稼動（2024 年 11 月 14 日（PT））、四半期リリースの実稼動：25.1 リリースの実稼動（2025 年 1 月）
 
 カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。
 

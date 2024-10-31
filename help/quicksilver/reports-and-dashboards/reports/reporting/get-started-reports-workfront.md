@@ -7,10 +7,10 @@ description: レポートでは、ユーザーや作業の状況を視覚的に�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 478512af-a47c-4488-878a-581e238e0064
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '3295'
-ht-degree: 99%
+source-wordcount: '3296'
+ht-degree: 98%
 
 ---
 
@@ -64,8 +64,7 @@ ht-degree: 99%
 
 レポートを作成する際は、Report Builder でこれらの要素を個別に変更できます。
 
-レポートに含まれる情報の関連性を高めるもう 1 つの方法は、ビューに条件付き書式を適用することです。\
-条件付き書式の使用について詳しくは、[ビューでの条件付き書式の使用](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)を参照してください。
+レポートに含まれる情報の関連性を高めるもう 1 つの方法は、ビューに条件付き書式を適用することです。 条件付き書式の使用について詳しくは、[ビューでの条件付き書式の使用](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)を参照してください。
 
 ## システムレポート
 
@@ -81,17 +80,20 @@ Workfront で提供されるシステムレポートに加えて、組織のニ�
 レポートを作成するには、以下の操作のいずれかを実行します。
 
 * レポートを最初から作成する。
-* 既存のレポートをコピーする。\
+* 既存のレポートをコピーする。
+
   他のユーザーが作成したレポートをコピーするには、少なくとも表示権限が必要です。レポートのコピーについて詳しくは、[レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)を参照してください。
 
-レポートの作成について詳しくは、[カレンダーレポートの概要](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)を参照してください。
+レポートの作成について詳しくは、[カスタムレポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
 ### レポート作成の前提条件 {#prerequisites-for-creating-reports}
 
-* 独自のレポートを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新しいライセンス）が必要です。\
+* 独自のレポートを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新しいライセンス）が必要です。
+
   Workfront ライセンスタイプについて詳しくは、現在のライセンスについては[ライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)を、新しいライセンスについては[新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
 
-* Workfront 管理者が、アクセスレベルでレポートの編集のアクセス権を付与する必要があります。\
+* Workfront 管理者が、アクセスレベルでレポートの編集のアクセス権を付与する必要があります。
+
   レポートを編集するアクセス権の付与について詳しくは、[レポート、ダッシュボード、カレンダーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)を参照してください。
 
 * Workfront 管理者が、フィルター、ビューおよびグループ化を編集するためのアクセス権をユーザーにアクセスレベルで付与する必要があります。
@@ -109,7 +111,7 @@ Workfront でレポートを作成したユーザーはそのレポートのデ�
 
 レポートの所有者は、「**入力者**」フィールドで確認できます。
 
-![入力者フィールド](assets/nwe-entered-by-350x218.png)
+![入力者フィールド](assets/unshimmed-entered-by.png)
 
 ### ビルダーインターフェイスでのレポートの作成 {#create-reports-in-the-builder-interface}
 

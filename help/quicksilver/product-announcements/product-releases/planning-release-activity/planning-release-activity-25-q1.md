@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: df5f37e741f5bd771f91383f9b782ffab8e6160f
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 14%
+source-wordcount: '601'
+ht-degree: 4%
 
 ---
 
@@ -34,13 +34,45 @@ ht-degree: 14%
 
 2024 年 8 月 28 日（PT）の一般リリース後にAdobe Workfront Planning でリリースされたすべての機能のリストについては、[Adobe Workfront Planning リリースアクティビティ：記事索引 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
+## リクエストフォームで接続フィールドがサポートされるようになりました
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 10 月 31 日（PT）、高速リリースの実稼動：24.11 リリースの実稼動（2024 年 11 月 14 日（PT））、四半期リリースの実稼動：25.1 リリースの実稼動（2025 年 1 月）
+
+レコードタイプのリクエストフォームに、Workfront Planning レコードの接続されたフィールドを追加できるようになりました。
+
+リクエストフォームに、接続検索フィールドやWorkfront オブジェクトの接続フィールドを追加することはできません。
+
+この機能強化が行われるまで、これらのタイプのフィールドは、Workfront Planning のリクエストフォームに追加できませんでした。
+
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+
+## 他のレコードに既にリンクされているレコードを接続する場合の接続警告
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 10 月 31 日（PT）、高速リリースの実稼動：24.11 リリースの実稼動（2024 年 11 月 14 日（PT））、四半期リリースの実稼動：25.1 リリースの実稼動（2025 年 1 月）
+
+別の場所で既に接続されていて、[ 一対多 ] または [ 一対一 ] 接続タイプを介して接続されたレコード タイプに属するレコードを接続しようとすると、レコードが既に接続されているという警告が表示されるようになりました。 接続を続行することを確認すると、選択したレコードが元のレコードから削除され、現在編集中のレコードに追加されます。
+
+接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+
+## 新しい情報アイコンと、レコードの詳細ページのフィールドの説明
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 10 月 30 日（PT）、高速リリースの実稼動：24.11 リリースの実稼動（2024 年 11 月 14 日（PT））、四半期リリースの実稼動：25.1 リリースの実稼動（2025 年 1 月）
+
+レコードページのフィールド名の右側に情報アイコンを追加しました。 説明が存在する場合、情報アイコンをクリックすると、フィールドの説明が表示されます。 この機能強化の前は、フィールド名にカーソルを合わせると、フィールドの説明が表示されていました。
+
+詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+
 ## Planning 接続用の新しいWorkfront フィールド タイプ
 
 >[!NOTE]
 >
->プレビューリリース：2024年10月24日（PT）。迅速リリース用の実稼動版：24.11 リリース（2024年11月14日（PT））。四半期リリース用の実稼動版：25.1 リリース（2024年1月16日（PT））
-
-
+>プレビューリリース：2024 年 10 月 24 日（PT）、高速リリースの実稼動：24.11 リリースの実稼動（2024 年 11 月 14 日（PT））、四半期リリースの実稼動：25.1 リリースの実稼動（2025 年 1 月）
 
 Workfront オブジェクトを引き続きWorkfront Planning レコードにブリッジするために、Workfront カスタムフォームに新しいフィールドタイプを追加しました。このフィールドタイプは「Planning connection」です。 このフィールドタイプをWorkfrontのカスタムフォームに追加し、最終的にWorkfront オブジェクトに追加すると、次の操作を実行できるようになります。
 
@@ -55,4 +87,3 @@ Workfront オブジェクトの Planning 接続フィールドの一括編集は
 詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3435633/){target=_blank}
-

@@ -4,9 +4,9 @@ description: 2025 年第 1 四半期のリリース期間中のルックアン�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0736b1913a8b5a58c88da19fefd55558eb7014eb
+source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '233'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,16 @@ ht-degree: 0%
 ここでは、2025 年第 1 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対するマイナーな更新について説明します。
 
 2025 年第 1 四半期リリースで使用可能なすべての変更のリストについては、[2025 年第 1 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md) を参照してください。
+
+## Workfront ナビゲーションバーのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>すべてのお客様向けの実稼動リリース：24.11 リリース以前（2024 年 11 月 14 日（PT））
+
+Workfrontのナビゲーションバーをアップグレードして、パフォーマンスを向上しました。 ルックアンドフィールの変更は最小限です。
+
+最も顕著な変更は、「お気に入りと最近使用したもの」ドロップダウン画面に「閉じる」ボタンが表示されなくなったことです。 画面の外側をクリックするか、キーボードの Esc キーを押すだけで閉じることができます。
 
 ## ユーザーに更新を送信ウィンドウのルックアンドフィールの更新
 
@@ -28,4 +38,3 @@ ht-degree: 0%
 Standard、Plan、または Work ライセンスを持つユーザーは、[ ユーザー ] リストに移動して 1 人以上のユーザーを選択し、[**ユーザーに更新を送信**] をクリックすると、この機能を使用できます。
 
 詳しくは、[ 他のユーザーへのダイレクトメッセージの送信 ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) を参照してください。
-
