@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 0a7d92d4a869e048ba11b84d5f78df06392d5f94
+source-git-commit: 30b4db53220c67a3fa8fe8865329f74a80cd7343
 workflow-type: tm+mt
-source-wordcount: '14574'
-ht-degree: 91%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -888,6 +888,7 @@ ht-degree: 91%
       * [Workfrontのプロジェクト、タスク、問題の日付の概要](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
    * 優先度 {#priorities}
       * [優先度：記事索引](workfront-basics/priorities/priorities-toc.md)
+      * [優先度：今後のリリース](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [優先度の概要](workfront-basics/priorities/get-started-with-priorities.md)
       * [優先度での作業のフィルタリングとグループ化](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [ワークリスト列のカスタマイズ](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)

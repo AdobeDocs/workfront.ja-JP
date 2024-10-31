@@ -5,10 +5,10 @@ description: これらの領域を確認して、Adobe Workfrontの優先度領�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: b27df0431a958774b0933b8c7ea967cf34153fad
+source-git-commit: f6cd525e061ef3e33d8c8b000596aa15897b62f5
 workflow-type: tm+mt
-source-wordcount: '70'
-ht-degree: 10%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,7 @@ ht-degree: 10%
 
 このセクションには、次のサブセクションが含まれます。
 
+* [優先度：今後のリリース](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [優先度の概要](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [優先度での作業のフィルタリングとグループ化](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [優先度ワークリストの列のカスタマイズ](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
