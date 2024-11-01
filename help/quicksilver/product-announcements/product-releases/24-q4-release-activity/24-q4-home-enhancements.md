@@ -4,10 +4,10 @@ description: 2024年第 4 四半期のホームの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: e68972f7334a93f7fbd3db29919a2f2746ce64fe
+source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 17%
+source-wordcount: '460'
+ht-degree: 16%
 
 ---
 
@@ -57,10 +57,16 @@ ht-degree: 17%
 
 24.10 リリースでは、従来のホームエクスペリエンスが正式に廃止される予定です。
 
-この変更により、レイアウトテンプレートの次の領域の名前が変更されます。
+この変更により、次の領域が影響を受けます。
+
+**レイアウトテンプレート**
 
 * _ホームワークスペース_ エリアの名前は _ホーム_ に変更されます。
 * _ホームと概要_ エリアの名前は _概要パネル_ に変更されます。 この領域のカスタマイズは、新しいホームの概要パネルにも引き続き適用されます。 詳しくは、[ レイアウトテンプレートを使用してホームと概要をカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
+
+**承認の管理**
+
+* ホーム エリアで送信済み承認からユーザーをリコール、リマインダー、削除することができなくなります。 代わりに、承認自体でこれを管理できます。
 
 新しいホームの使用を開始することをお勧めします。このホームは、廃止前に、引き続き追加機能を備えて強化されます。 ユーザーや管理者が準備に実行できる操作に関するアドバイスなど、移行について詳しくは、[ 従来のホームの廃止ガイド ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md) を参照してください。
 

@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Nolan, Becky
 exl-id: 23edb48b-8cad-47be-8ace-5238a5869677
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: 01b7eb79028eb3fe47f988a31cb62ace31bba3f1
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 85%
+source-wordcount: '274'
+ht-degree: 79%
 
 ---
 
@@ -58,6 +58,12 @@ ht-degree: 85%
 
 * [!DNL JumpSeat] に [!DNL Workfront] をアプリケーションとして追加し、アクティブ化します。詳しくは、[アプリケーションを追加または削除する方法](https://support.jumpseat.io/article/how-to-add-an-application/)を参照してください。
 
+>[!IMPORTANT]
+>
+>Adobe統合エクスペリエンスを使用している場合は、次のアプリケーション URL を使用する必要があります。`.workfront.adobe.com`
+
+
+
 ## [!DNL JumpSeat] 統合の設定
 
 プレビュー環境と実稼動環境の両方で、[!DNL JumpSeat] 統合を設定することをお勧めします。
@@ -73,7 +79,15 @@ ht-degree: 85%
 1. 左パネルで、**[!UICONTROL システム]**／**[!UICONTROL [!DNL JumpSeat]統合]**&#x200B;をクリックします。
 1. **[!UICONTROL [!DNL JumpSeat]URL]** を入力します。この URL は、[!DNL JumpSeat] の拡張機能アイコンにあります。
 
-   **例：** [!DNL https]://{mycompanyname}.jumpseat.io
+>[!BEGINSHADEBOX]
+
+**例：**
+
+https://{mycompanyname}.jumpseat.io
+
+>>
+
+>[!ENDSHADEBOX]
 
 1. **[!UICONTROL [!DNL JumpSeat]統合トークン]**&#x200B;を入力します。これは、[!DNL JumpSeat] の&#x200B;**[!UICONTROL 設定]**&#x200B;ページで確認できます。
 

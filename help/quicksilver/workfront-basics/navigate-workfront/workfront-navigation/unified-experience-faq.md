@@ -6,10 +6,10 @@ description: ' [!DNL Workfront]  および Adobe Experience Cloud の間には�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: d4ae54f14c2328888ce80902275b0d390fb4fbb7
+source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 70%
+source-wordcount: '1385'
+ht-degree: 69%
 
 ---
 
@@ -35,7 +35,6 @@ ht-degree: 70%
 | プルーフビューアが新しいタブで開きます | プルーフビューアがWorkfront内で開きます |
 | Workfrontにアクセスするための URL は `experience.adobe.com` です | Workfrontにアクセスするための URL は `(CompanyName).my.workfront.com` です |
 | 日付形式（MM/DD/YYYY など）は、統合エクスペリエンス言語設定に基づいています。 ユーザーが言語設定を更新していない場合は、`en-US` の設定が使用されます。 | 日付形式（MM/DD/YYYY など）は、ブラウザーの環境設定に基づいています |
-| JumpSeat 統合はサポートされていません | Jumpseat 統合はサポートされています |
 
 {style="table-layout:auto"}
 
@@ -145,3 +144,7 @@ IMS は SSO の代わるもので、ほとんど同じ機能です。すべて�
 ### [!DNL Workfront] のモバイルユーザーのログインは変更されますか？
 
 [!DNL Workfront] モバイル ユーザーは [!DNL Adobe Unified Experience] への移行による影響を受けません。
+
+### JumpSeat が [!DNL Adobe Unified Experience] で動作しません。これを解決するにはどうすればよいですか？
+
+JumpSeat は [!DNL Adobe Unified Experience] で動作しますが、設定の更新が必要です。 JumpSeat 管理パネルを使用して、アプリケーション URL を `.workfront.adobe.com` で `workfront.com` から最後に変更します
