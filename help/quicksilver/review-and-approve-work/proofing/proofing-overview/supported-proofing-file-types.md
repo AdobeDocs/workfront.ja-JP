@@ -7,7 +7,7 @@ description: ファイルの作成に使用するソフトウェア（Photoshop 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 0a9bc92df7360565318d7776dae73b414c054fc2
+source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 100%
@@ -49,6 +49,7 @@ Workfront には次の制限があります。
 > * PPSX - Microsoft PowerPoint スライドショー
 > * XLT - Microsoft Excel テンプレート
 > * XLTX - Microsoft Excel テンプレート
+> * EPS - Encapsulated PostScript
 
 * ABC - リードの高度なモノクロ圧縮
 * ABIC - アダプティブなモノクロ画像の圧縮
@@ -181,7 +182,6 @@ Workfront には次の制限があります。
 > * PPSX - Microsoft PowerPoint スライドショー
 > * XLT - Microsoft Excel テンプレート
 > * XLTX - Microsoft Excel テンプレート
-> * EPS - Encapsulated PostScript
 
 
 * AI - Adobe Illustrator Artwork
