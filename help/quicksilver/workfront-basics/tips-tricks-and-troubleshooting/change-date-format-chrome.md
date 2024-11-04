@@ -6,7 +6,7 @@ title: ' [!DNL Adobe Workfront] で日付の形式を変更する'
 description: ' [!DNL Adobe Workfront]  で日付の形式を変更するには、ブラウザーの言語設定を変更する必要があります。'
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 5d924e510ad94098b9f417494f9fc6e8696c90d6
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 85%

@@ -7,9 +7,9 @@ description: トリガーモジュールを追加して、シナリオが定期�
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
 workflow-type: tm+mt
-source-wordcount: '486'
+source-wordcount: '493'
 ht-degree: 9%
 
 ---
@@ -41,6 +41,7 @@ ht-degree: 9%
 1. **レコードをウォッチ** を選択します。
 1. モジュールで、シナリオ内の残りのモジュールと同じ接続が使用されていることを確認します。
 1. 「フィルター」フィールドで、「**新しいレコードのみ**」を選択します。
+1. レコードタイプ フィールドで、「**イシュー**」を選択します。
 1. 「出力」ボックスで、「`ID`」、「`Name`」および「`Project ID`」を選択します。
 1. **OK** をクリックして、モジュール設定を保存します。
 
