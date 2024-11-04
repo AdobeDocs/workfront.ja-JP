@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 94%
+source-wordcount: '1028'
+ht-degree: 91%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 94%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
+
+{{highlighted-preview}}
 
 Adobe Workfront 管理者は、キックスタートのデータエクスポーターを使用して Workfront からデータを書き出すことができます。書き出し後に他のアプリケーションで使用できます。
 
@@ -334,11 +336,15 @@ Workfront 内でデータを書き出すには、次の 2 つの方法があり�
 
    マトリックスレポートを書き出すことはできません。マトリックスレポートについて詳しくは、[マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)を参照してください。
 
-   キックスタートは、テキストモードフィルターをサポートしていません。 書き出しを成功させるには、レポートフィルターを標準モードに切り替える必要があります。
+   キックスタートは、テキストモードのフィルターやグループ化をサポートしていません。 正常に書き出すには、レポートフィルターとグループ化を標準モードに切り替える必要があります。
 
-   1 回の書き出しで、最大 100 個のダッシュボードと 100 個のレポートを選択できます。
+   1 回の書き出しで最大 100 個のダッシュボードと 100 個のレポートを選択できます。
 
-   ![](assets/kickstart-export-350x381.png)
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![Kickstart エクスポート ](assets/kickstart-export-spreadsheet-options.png)
+
+   実稼動環境のサンプル画像：
+   ![Kickstart エクスポート ](assets/kickstart-export-350x381.png)
 
    一度に複数のオブジェクトを書き出すことができます。
 
@@ -346,4 +352,3 @@ Workfront 内でデータを書き出すには、次の 2 つの方法があり�
 
    大規模な書き出しの場合、Workfront はバックグラウンドで Excel ファイルを生成し、遅延に関する警告メッセージを表示します。ダウンロードが完了すると、キックスタートファイルがメールで送信されます。
 
-   ![](assets/large-kick-start-file-warning-350x65.png)

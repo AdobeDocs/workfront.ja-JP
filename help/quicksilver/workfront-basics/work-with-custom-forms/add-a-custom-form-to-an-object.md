@@ -7,9 +7,9 @@ description: 既存のカスタムフォームを、以下にリストされて�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '821'
 ht-degree: 97%
 
 ---
@@ -30,6 +30,7 @@ ht-degree: 97%
 * プログラム
 * ドキュメント
 * ユーザー
+* グループ
 * 反復
 * 費用
 * 請求記録

@@ -9,14 +9,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 96%
+source-wordcount: '2175'
+ht-degree: 93%
 
 ---
 
 # キックスタートのシナリオ：複数オプションのカスタムフィールドを Workfront に読み込み
+
+{{highlighted-preview}}
 
 キックスタート機能を使用して、Adobe Workfront で複数のオプションを持つカスタムフィールドを読み込むことができます。
 
@@ -86,23 +88,23 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 1. 左側のメニューで **システム** を展開し、「**データのエクスポート （キックスタート）**」をクリックします。
 
-   ![](assets/export-data-kick-starts-link-in-setup.png)
-
 1. 「**含める内容**」セクションで、「**カスタムデータ**」を選択します。
 
-   ![](assets/existing-custom-data-box-checked-kick-starts.png)
+   プレビュー環境のサンプル画像：
+   ![ カスタム データの選択 ](assets/kickstarts-select-existing-data.png)
+
+   実稼動環境のサンプル画像：
+   ![ カスタム データの選択 ](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. 「**ダウンロード形式**」セクションで、「**.xlsx ファイル**」を選択します。
 
    >[!TIP]
    >
-   >    システム内のカスタムデータの量によっては、この処理に長い時間がかかる場合があります。
+   >システム内のカスタムデータの量によっては、この処理に長い時間がかかる場合があります。
 
-   ![](assets/download-button-for-kick-starts.png)
+1. 「**ダウンロード**」をクリックします。.xlsx ファイルがお使いのコンピューターにダウンロードされます。ファイルに移動し、開きます。
 
-1. 「**ダウンロード**」をクリックします。.xlsx ファイルがお使いのコンピューターにダウンロードされます。ファイルに移動して開きます。
-
-   ![](assets/existing-data-excel-parameter-sheet.png)
+   ![Excel でのエクスポート済みデータ ](assets/existing-data-excel-parameter-sheet.png)
 
 1. ダウンロードしたファイルを確認し、次の詳細をメモしておきます。
 
@@ -126,9 +128,10 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 1. 「**データを読み込み（キックスタート）**」をクリックします。
 
-   ![](assets/import-data-kick-starts-link-in-setup.png)
+1. **空の Kick-Start スプレッドシートをダウンロードする** 領域で、「**カスタムデータ**」チェックボックスを選択し、**ダウンロード** をクリックします。
 
-1. **空白のキックスタートスプレッドシートをダウンロードする**&#x200B;エリアで「**カスタムデータ**」チェックボックスをオンにして、「**ダウンロード**」をクリックします。
+   プレビュー環境のサンプル画像：
+   ![ カスタム データの選択 ](assets/kickstarts-select-existing-data.png)
 
    ![](assets/blank-custom-data-option-checked-kick-starts.png)
 
@@ -280,7 +283,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
 1. 「**Kick-Start スプレッドシートでデータをアップロードする**」セクションで、「**ファイルを選択**」をクリックします。
 
-1. 作成した Excel スプレッドシートをコンピューター上で参照し、見つかったら選択します。Workfront がファイルを認識されると、「アップロード」ボタンが青に変わります。
+1. 作成した Excel スプレッドシートをコンピューターで参照し、見つかったら選択します。 Workfrontがファイルを認識すると、「アップロード」ボタンが青に変わります。
 1. 「**アップロード**」をクリックします。
 
    ![](assets/kick-start-file-selected-and-upload-blue-button.png)
