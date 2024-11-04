@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
 workflow-type: tm+mt
-source-wordcount: '2175'
-ht-degree: 93%
+source-wordcount: '2184'
+ht-degree: 92%
 
 ---
 
@@ -90,7 +90,7 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 1. 「**含める内容**」セクションで、「**カスタムデータ**」を選択します。
 
-   プレビュー環境のサンプル画像：
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![ カスタム データの選択 ](assets/kickstarts-select-existing-data.png)
 
    実稼動環境のサンプル画像：
@@ -130,10 +130,11 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 1. **空の Kick-Start スプレッドシートをダウンロードする** 領域で、「**カスタムデータ**」チェックボックスを選択し、**ダウンロード** をクリックします。
 
-   プレビュー環境のサンプル画像：
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![ カスタム データの選択 ](assets/kickstarts-select-existing-data.png)
 
-   ![](assets/blank-custom-data-option-checked-kick-starts.png)
+   実稼動環境のサンプル画像：
+   ![ カスタム データの選択 ](assets/blank-custom-data-option-checked-kick-starts.png)
 
    空のキックスタートファイルがお使いのコンピューターにダウンロードされます。
 
@@ -143,7 +144,7 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 ## キックスタートの Excel スプレッドシートにデータを入力
 
-Excel スプレッドシートにデータを入力する前に、上記の節で説明されているようにキックスタートテンプレートをダウンロードします。
+Excel スプレッドシートに入力する前に、前述の節で説明したようにキックスタートテンプレートをダウンロードします。
 
 >[!IMPORTANT]
 >
@@ -182,7 +183,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
      >[!TIP]
      >
-     >    行が既に Workfront にある既存のフィールドを表す場合は、**`isNew`** = **`FALSE`** を入力します。
+     >行が既に Workfront にある既存のフィールドを表す場合は、**`isNew`** = **`FALSE`** を入力します。
 
    * **`ID`** = は、新しいフィールドを表す各行の一意の数値である必要があります。各新しいフィールドに一意の番号が含まれている限り、1 から始まる任意の数字を使用できます。
    * **`setDataType`** = は、新しいフィールドを表す各行に対する設定で、フィールドがサポートするデータタイプを入力します。データタイプは、データベースに表示されるとおりに入力する必要があります。次のデータタイプから選択します。
