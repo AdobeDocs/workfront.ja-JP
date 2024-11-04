@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '1375'
+source-wordcount: '1367'
 ht-degree: 15%
 
 ---
@@ -139,20 +139,20 @@ ht-degree: 15%
 
    * 選択したレコードタイプのテーブル表示で使用可能なレコードフィールド。<!--they are working on removing the limitation below-->
 
-     >[!IMPORTANT]
-     >
-     > リクエストフォームを作成する環境に応じて、次のようなシナリオが存在します。
-     >
-     >* 次のタイプのフィールドは、リクエストフォーム <span class="preview"> プレビュー </span> ードまたは実稼動環境）に表示されません。
-     >
-     >    * ユーザー（作成者と最終変更者を含む）
-     >    * 式
-     >    * 作成日
-     >    * 最終変更日
-     >    * Workfront オブジェクトの接続されたフィールドまたは参照フィールド
-     >    * Workfront Planning レコードの接続された参照フィールド
-     >* 次のタイプのフィールドは、実稼動環境のリクエストフォームに表示されません。 <span class="preview"> プレビュー環境に表示されます。</span>
-     >    * Workfront Planning レコード <span class="preview"> 接続されたフィールド （Workfrontとの接続、Experience Managerアセットを含む） </span>
+   >[!IMPORTANT]
+   >
+   > リクエストフォームを作成する環境に応じて、次のようなシナリオが存在します。
+   >
+   >* 次のタイプのフィールドは、リクエストフォーム <span class="preview"> プレビュー </span> ードまたは実稼動環境）に表示されません。
+   >
+   >    * ユーザー（作成者と最終変更者を含む）
+   >    * 式
+   >    * 作成日
+   >    * 最終変更日
+   >    * Workfront オブジェクトの接続されたフィールドまたは参照フィールド
+   >    * Workfront Planning レコードの接続された参照フィールド
+   >* 次のタイプのフィールドは、実稼動環境のリクエストフォームに表示されません。 <span class="preview"> プレビュー環境に表示されます。</span>
+   >    * Workfront Planning レコード <span class="preview"> 接続されているフィールド </span>
 
 
    * **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。

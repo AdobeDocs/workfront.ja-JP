@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 8facde17caa9054354c3a632ea3a3ab2ba112a5e
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
 source-wordcount: '14547'
 ht-degree: 91%
@@ -1654,7 +1654,7 @@ ht-degree: 91%
          * [表示：時間と日付の差異の計算](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculate-time-and-date-differences.md)
          * [ビュー：列の 2 つのフィールド間で計算結果を表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-calculation-between-two-fields.md)
          * [ビュー：後続タスクのリストを列に追加](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-list-successors.md)
-         * [ビューおよびグループ化：グループ化内の平均によって集計されたプロジェクトの実際の期間を表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
+         * [表示とグループ化：グループ化の平均で集計したプロジェクトの実際の期間を表示します](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-column-project-average-actual-duration-aggregated-grouping.md)
          * [ビュー：時間リスト内の結合したタスクとイシューの詳細](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
          * [表示：列に文字列ではなく画像を表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [ビュー：標準インターフェイスに含まれていないオブジェクトを表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)

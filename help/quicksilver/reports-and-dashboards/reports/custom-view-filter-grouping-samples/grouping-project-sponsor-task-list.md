@@ -4,17 +4,19 @@ product-area: reporting;projects;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「グループ化：タスクリストのプロジェクトスポンサー」
 description: このタスクグループ化によって、プロジェクトスポンサー別にタスクをグループ化できます。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d8f85ea-492e-4b08-82f5-726170acc7d5
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
 source-wordcount: '187'
-ht-degree: 74%
+ht-degree: 71%
 
 ---
 
 # グループ化：タスクリストのプロジェクトスポンサー
+
+<!--Audited: 11/2024-->
 
 このタスクグループ化によって、プロジェクトスポンサー別にタスクをグループ化できます。
 
@@ -71,7 +73,11 @@ ht-degree: 74%
 1. 「**テキスト モードに切り替える**」をクリックします。
 1. 表示される領域のテキストを削除し、以下のコードに置き換えます。
 
-   `group.0.name=Project Sponsor<br>group.0.valuefield=project:sponsor:name<br>group.0.valueformat=string`
+   ```
+   group.0.name=Project Sponsor
+   group.0.valuefield=project:sponsor:name
+   group.0.valueformat=string
+   ```
 
 1. 「**完了**」をクリックします。
 1. グループ化名を更新し、「**グループ化を保存**」をクリックします。

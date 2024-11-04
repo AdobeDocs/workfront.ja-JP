@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「表示：時間と日付の差異の計算」
+title: '表示：日時の違いを計算'
 description: 時間と日付の差異の計算について説明します。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 98%
+source-wordcount: '613'
+ht-degree: 91%
 
 ---
 
 # 表示：時間と日付の差異の計算
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 >[!IMPORTANT]
 >
@@ -109,10 +109,8 @@ ht-degree: 98%
 
 1. 「**列を追加**」をクリックし、さらに「**この列に表示**」フィールドに「予定完了日」を入力し始めるとリストに表示されるので、それを選択します。
 
-1. 「**列を追加**」をクリックし、次に「**テキストモードに切り替え**」をクリックします。
-
-1. テキストモードエリアにポインタを合わせ、「**クリックしてテキストを編集**」をクリックします。
-1. 「**テキストモード**」ボックスにあるテキストを削除し、次のコードに置き換えます。
+1. **列を追加** をクリックし、**テキストモードに切り替え**>**テキストモードを編集** をクリックします。
+1. **テキスト モードの編集** ボックスで検索したテキストを削除し、次のいずれかのコードに置き換えます。
 
    * プロジェクトの計画完了日とタスクの計画完了日の差を表示するには、以下のように行います。
 
@@ -131,4 +129,4 @@ ht-degree: 98%
       displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
-1. 「**保存**」をクリックし、次に「**表示を保存**」をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
