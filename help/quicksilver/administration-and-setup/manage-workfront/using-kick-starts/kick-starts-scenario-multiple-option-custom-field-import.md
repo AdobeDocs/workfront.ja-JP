@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 7512f3e79b3a6af4917cebf631c3f8405baafa2b
+source-git-commit: 310333b71d2a92d71a0d8caf73ee8609ed6edd83
 workflow-type: tm+mt
-source-wordcount: '2184'
+source-wordcount: '2185'
 ht-degree: 92%
 
 ---
@@ -128,7 +128,7 @@ Workfront から既存のデータを書き出すには、以下を実行しま�
 
 1. 「**データを読み込み（キックスタート）**」をクリックします。
 
-1. **空の Kick-Start スプレッドシートをダウンロードする** 領域で、「**カスタムデータ**」チェックボックスを選択し、**ダウンロード** をクリックします。
+1. **空白の Kick-Start スプレッドシートをダウンロードする** 領域で、「**カスタムデータ**」チェックボックスを選択し、**ダウンロード** をクリックします。
 
    <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![ カスタム データの選択 ](assets/kickstarts-select-existing-data.png)
