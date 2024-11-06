@@ -2,21 +2,21 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「ビュー：列の幅を恒久的に編集」
+title: 「表示：列の幅を永続的に編集」
 description: 余白をドラッグ＆ドロップして、目的の幅に合わせて一時的に列の幅を変更できます。詳しくは、列の幅と順序を変更を参照してください。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 42633036-8e42-4cec-876c-f20a5ece2478
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 71c0bf664af66bec7122651c1b62dd1c28022565
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 97%
+source-wordcount: '403'
+ht-degree: 92%
 
 ---
 
 # ビュー：列の幅を永続的に編集
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 余白をドラッグ＆ドロップして、目的の幅に合わせて一時的に列の幅を変更できます。詳しくは、[列の幅と順序を変更](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)を参照してください。
 
@@ -73,7 +73,7 @@ ht-degree: 97%
    既存の列の列ヘッダーをクリックします。
 
 1. 「**テキストモードに切り替え**」をクリックします。
-1. テキストモード領域にポインタを合わせ、「**クリックするとテキストを編集できます**」をクリックします。
+1. **テキストモードを編集**.T をクリックします
 1. 列のテキストモードに次のコードを追加します。
 
    ```
@@ -83,6 +83,6 @@ ht-degree: 97%
 
    **幅**&#x200B;の行で、ビューで表示する列の幅を表す任意の数値（ピクセル単位）を指定します。
 
-1. 「**保存**」をクリックし、次に「**ビューを保存**」をクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
 
 

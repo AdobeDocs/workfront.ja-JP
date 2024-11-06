@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d6bb889c-a057-453f-8f80-761cfb1ad4a1
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '1676'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -151,7 +151,7 @@ Workfront は、稼動可能なユーザー全体の現在の作業割り当て�
 
 この変更以前は、この情報をレポートできませんでした。
 
-元のイシューから情報を取り込むカスタムテキストモードビューの作成について詳しくは、[ビュー：タスクとプロジェクトリストに元のイシューの情報を表示](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)を参照してください。
+元のイシューから情報を取得するカスタムテキストモードのビューの作成について詳しくは、[ 表示：タスクまたはプロジェクトリストに元のイシューの情報を表示する ](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) を参照してください。
 
 ## 更新ストリーム内のフィルターシステムの更新が、オブジェクト間で保持されるようになりました {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 

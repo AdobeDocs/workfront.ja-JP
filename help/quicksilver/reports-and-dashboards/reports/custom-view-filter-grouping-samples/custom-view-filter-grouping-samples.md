@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '708'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 97%
 * [ビュー：時間リスト内のタスクの詳細とイシューの詳細の組み合わせ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
 * [ビュー：列に文字列ではなく画像を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
 * [ビュー：標準インタフェースに含まれていないオブジェクトを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-* [ビュー：タスクとプロジェクトのリストに元のイシューの情報を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+* [ 表示：タスクまたはプロジェクトリストに元のイシューの情報を表示する ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
 * [ビュー：タスクビューにプログラムとポートフォリオの情報を表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
 * [ビュー：タスクリストにタスクのインデントを表示](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
 * [ビュー：プルーフへのリンクを含むドキュメントレポート](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-document-report-with-proof-link.md)

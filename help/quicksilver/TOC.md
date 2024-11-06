@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
 workflow-type: tm+mt
 source-wordcount: '14547'
 ht-degree: 91%
@@ -1658,7 +1658,7 @@ ht-degree: 91%
          * [ビュー：時間リスト内の結合したタスクとイシューの詳細](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-combined-task-issue-details-hour-list.md)
          * [表示：列に文字列ではなく画像を表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-image-in-view.md)
          * [ビュー：標準インターフェイスに含まれていないオブジェクトを表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-objects-not-in-standard-interface.md)
-         * [ビュー：タスクとプロジェクトのリストに関する元のイシュー情報を表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
+         * [表示：タスクまたはプロジェクトリストに元のイシューの情報を表示する](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md)
          * [表示：タスクビューでのプログラムとポートフォリオに関する情報の表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-program-portfolio-info-task-view.md)
          * [ビュー：タスクリストでのタスクのインデントの表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-task-identations.md)
          * [ビュー：タスクをンデントしてタスク内の親子関係を表示](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-parent-child-relationship-by-indenting-tasks-with-custom-view.md)

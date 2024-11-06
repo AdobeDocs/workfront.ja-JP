@@ -4,19 +4,19 @@ product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「表示：複数の列の情報を 1 つの共有列に結合」
 description: 複数の異なる列に表示される情報を結合し、1 つの共有列に表示できます。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 98%
+source-wordcount: '1076'
+ht-degree: 80%
 
 ---
 
 # 表示：複数の列の情報を 1 つの共有列に結合
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 複数の異なる列に表示される情報を結合し、1 つの共有列に表示できます。
 
@@ -94,7 +94,10 @@ ht-degree: 98%
 
 改行なしで 2 列のデータを結合するには：
 
-1. ビューのテキストモードを使用して、結合する最初の列に次のテキストを追加します。
+1. オブジェクトのリストに移動します。
+1. **ビュー** ドロップダウンからビューを選択し、「**編集**」アイコンをクリックしてビューを編集し ![](assets/edit-icon.png) す。
+1. 結合する最初の列に移動し、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
+1. 結合する最初の列に次のテキストを追加します。
 
    `sharecol=true`
 
@@ -104,32 +107,31 @@ ht-degree: 98%
 
    複数の列を共有する場合は、各列の共有情報を含むコード行に列番号を必ず追加してください。
 
-   **例：**&#x200B;次に、リストの 2 列目から始まる、異なる3 列を含む結合された列のテキストモードコードを示します。結合された値は、プロジェクト名、予定開始日およびプロジェクト所有者の名前で、次の 3 つの値の間に区切りはありません。
 
-   `column.1.valuefield=name`
+   **例：** 次に示すのは、リストの 2 番目の列から始まる 3 つの個別の列を含む結合された列のテキスト モード コードです。 結合された値は、「プロジェクト名」、「予定開始日」、「プロジェクト所有者」の名前であり、次の 3 つの値の間に区切りはありません。
 
-   `column.1.valueformat=HTML`
+   ```
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.sharecol=true
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.sharecol=true
+   column.3.valuefield=owner:name
+   column.3.valueformat=HTML
+   ```
 
-   `column.1.sharecol=true`
+   ![](assets/shared-column-no-line-breaks-350x142.png)
 
-   `column.2.valuefield=plannedStartDate`
 
-   `column.2.valueformat=atDate`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=owner:name`
-
-   `column.3.valueformat=HTML`
-
-![](assets/shared-column-no-line-breaks-350x142.png)
-
-1. 「**保存**」、「**ビューを保存**」の順にクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
 
 ## 改行付きの 2 列のデータを結合
 
 複数の列のデータを結合して、1 つの共通列に表示し、各列の値を改行するには、次の手順を実行します。
 
+1. オブジェクトのリストに移動します。
+1. **ビュー** ドロップダウンからビューを選択し、「**編集**」アイコンをクリックしてビューを編集し ![](assets/edit-icon.png) す。
 1. 結合する 2 列の間に 3 つ目の列を追加します。
 
    >[!TIP]
@@ -137,18 +139,16 @@ ht-degree: 98%
    >* 結合する列は、互いに隣接している必要があります。
    >* 結合する最初の列をクリックする必要があります。
 
-1. 「**テキスト モードに切り替える**」をクリックして、手順 1 で追加した中央の列に次のコードを追加します。
+1. **テキストモードに切り替え**/**テキストモードを編集** をクリックし、手順 1 で追加した中央の列に次のコードを追加します。
 
-   `value=<br>`
+   ```
+   value=<br>
+   valueformat=HTML
+   width=1
+   sharecol=true
+   ```
 
-   `valueformat=HTML`
-
-   `width=1`
-
-   `sharecol=true`
-
-
-1. 最初の列をクリックし、「**テキストモードに切り替える**」を選択し、列に次のテキストを追加します。
+1. 最初の列をクリックし、**テキストモードに切り替え**/**テキストモードを編集** をクリックして、次のテキストを列に追加します。
 
    `sharecol=true`
 
@@ -158,49 +158,30 @@ ht-degree: 98%
 
    複数の列を共有する場合は、共有情報を含むコード行に列番号を必ず追加してください。
 
-   **例：**&#x200B;次に、プロジェクト名、予定開始日および改行付きのプロジェクト所有者名を含む共有列のテキストモードコードを示します。共有列は、プロジェクトビューの 2 番目の列です。
+   **例：** 次に、プロジェクト名、予定開始日、およびプロジェクト所有者名が改行で含まれている共有列のテキスト モード コードを示します。 共有列は、プロジェクトビューの 2 番目の列です。
 
-
-   `column.1.displayname=Project_StartDate_Owner`
-
-   `column.1.sharecol=true`
-
-   `column.1.textmode=true`
-
-   `column.1.valuefield=name`
-
-   `column.1.valueformat=HTML`
-
-   `column.2.value=<br>`
-
-   `column.2.width=1`
-
-   `column.2.valueformat=HTML`
-
-   `column.2.sharecol=true`
-
-   `column.3.valuefield=plannedStartDate`
-
-   `column.3.valueformat=atDate`
-
-   `column.3.sharecol=true`
-
-   `column.4.value=<br>`
-
-   `column.4.width=1`
-
-   `column.4.valueformat=HTML`
-
-   `column.4.sharecol=true`
-
-   `column.5.textmode=true`
-
-   `column.5.valuefield=owner:name`
-
-   `column.5.valueformat=HTML`
-
+   ```
+   column.1.displayname=Project_StartDate_Owner
+   column.1.sharecol=true
+   column.1.textmode=true
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.2.value=<br>
+   column.2.width=1
+   column.2.valueformat=HTML
+   column.2.sharecol=true
+   column.3.valuefield=plannedStartDate
+   column.3.valueformat=atDate
+   column.3.sharecol=true
+   column.4.value=<br>
+   column.4.width=1
+   column.4.valueformat=HTML
+   column.4.sharecol=true
+   column.5.textmode=true
+   column.5.valuefield=owner:name
+   column.5.valueformat=HTML 
+   ```
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-
-1. 「**保存**」、「**ビューを保存**」の順にクリックします。
+1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
