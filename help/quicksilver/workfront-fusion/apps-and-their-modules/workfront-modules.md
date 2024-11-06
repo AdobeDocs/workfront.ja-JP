@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion Adobe Workfront コネクタを使用する�
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 38b6fef43157f47c93dcd9cf543f1001142d86dd
+source-git-commit: d14ea876ef58c190a38f1b3b1bfc205df5681bca
 workflow-type: tm+mt
-source-wordcount: '6621'
-ht-degree: 96%
+source-wordcount: '6797'
+ht-degree: 93%
 
 ---
 
@@ -282,7 +282,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>（<strong>フィルター</strong>を選択後に表示されます）モジュールで監視する [!DNL Workfront] レコードのタイプを選択します。</p> <p>例えば、新しいプロジェクトが作成されるたびにシナリオを開始するには、「[!UICONTROL Project]」を選択します。</p> </td> 
+   <td> <p>（<strong> フィルター </strong> を選択した後に表示されます）。モジュールで監視 [!DNL Workfront] るレコードのタイプを選択します。</p> <p>例えば、新しいプロジェクトが作成されるたびにシナリオを開始するには、「[!UICONTROL Project]」を選択します。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
@@ -631,7 +631,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>モジュールで実行するアクションを選択します。</p> <p>選択した [!UICONTROL Record Type] と [!UICONTROL Action] に応じて、追加のフィールドに入力する必要がある場合があります。この 2 つの設定の組み合わせによっては、レコード ID しか必要ないものもあれば、追加情報（オブジェクト ID やテンプレート ID など）を必要とするもの（<strong>[!UICONTROL Record Type]</strong> のプロジェクトや <strong>[!UICONTROL Action]</strong> の [!UICONTROL Attach Template] など）もあります。</p> <p>個々のフィールドについて詳しくは、<a href="http://developer.workfront.com/">Workfront 開発者ドキュメント</a>を参照してください。 <p><strong>メモ</strong>：開発者ドキュメントサイトには、API バージョン 14 を通じた情報のみが含まれていますが、API 呼び出しに関する有用な情報がまだ含まれています。 </p> 
+   <td> <p>モジュールで実行するアクションを選択します。</p> <p>選択した [!UICONTROL Record Type] と [!UICONTROL Action] に応じて、追加のフィールドに入力する必要がある場合があります。この 2 つの設定の組み合わせによっては、レコード ID しか必要ないものもあれば、追加情報（オブジェクト ID やテンプレート ID など）を必要とするもの（<strong>[!UICONTROL Record Type]</strong> のプロジェクトや <strong>[!UICONTROL Action]</strong> の [!UICONTROL Attach Template] など）もあります。</p><p>一部のアクションで使用できるオプションについては、この記事の <a href="#misc-action-options" class="MCXref xref"> その他のアクションオプション </a> を参照してください。</p> <p>個々のフィールドについて詳しくは、<a href="http://developer.workfront.com/">Workfront 開発者ドキュメント</a>を参照してください。 <p><strong>メモ</strong>：開発者ドキュメントサイトには、API バージョン 14 を通じた情報のみが含まれていますが、API 呼び出しに関する有用な情報がまだ含まれています。 </p> 
     <ol> 
      <li value="1"> <p>[!DNL Workfront] 開発者ドキュメントページの左側のナビゲーションからレコードタイプを選択します。以下のタイプには、独自のページがあります。</p> 
       <ul> 
@@ -653,6 +653,156 @@ Web フックを作成した後、イベントの送信先エンドポイント�
 </table>
 
 このモジュールを使用できる [!DNL Workfront] オブジェクトタイプのリストは、各  [!DNL Workfront]  モジュール](#workfront-object-types-available-for-each-workfront-module)で使用可能な [[!DNL Workfront]  オブジェクトタイプを参照してください。
+
+#### その他のアクションオプション
+
+##### タスク
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>アクション</th> 
+   <th>オプション</th> 
+  </tr> 
+  <tr> 
+   <td>コピー</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearConstraints</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>財務データを消去します</p></li>
+   <li>clearPermission</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>リマインダ通知をクリアします</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>移動</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearDocuments</li>
+   <li>clearConstraints</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>財務データを消去します</p></li>
+   <li>clearPermission</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>リマインダ通知をクリアします</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### イシュー
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>アクション</th> 
+   <th>オプション</th> 
+  </tr> 
+  <tr> 
+   <td>コピー</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearPermission</li>
+   <li>clearProgress</li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>タスクに変換</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>元の問題を保持し、その解決策をこのタスクに関連付ける</p></li>
+   <li>preservePrimaryContact<p>問題のプライマリ連絡先にこのタスクへのアクセスを許可する</p></li>
+   <li>preserveCompletionDate<p>問題の予定完了日を変更しない</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>プロジェクトに変換</td> 
+   <td>
+   <ul>
+   <li>preserveIssue<p>元の問題を保持し、その解決策をこのタスクに関連付ける</p></li>
+   <li>preservePrimaryContact<p>問題のプライマリ連絡先にこのタスクへのアクセスを許可する</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+##### プロジェクト
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <th>アクション</th> 
+   <th>オプション</th> 
+  </tr> 
+  <tr> 
+   <td>コピー</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearCustomData</li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>財務データを消去します</p></li>
+   <li>clearPermission</li>
+   <li>clearPredecessors</li>
+   <li>clearProgress</li>
+   <li>clearTimedNotifications<p>リマインダ通知をクリアします</p></li>
+   </ul>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>テンプレートを添付/テンプレートとして保存</td> 
+   <td>
+   <ul>
+   <li>clearApprovers</li>
+   <li>clearAssignments</li>
+   <li>clearBillingRates</li>
+   <li>clearConstraints</li>
+   <li>clearDeliverables<p>目標をクリア</p></li>
+   <li>clearDocuments</li>
+   <li>clearExpenses</li>
+   <li>clearFinancials<p>財務データを消去します</p></li>
+   <li>clearHourTypes</li>
+   <li>clearIssueSetup<p>キューのプロパティと問題の設定をクリアします</p></li>
+   <li>clearPredecessors</li>
+   <li>clearRisks</li>
+   <li>clearSharingOptions</li>
+   <li>clearTimedNotifications<p>リマインダ通知をクリアします</p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 +++
 
@@ -929,6 +1079,7 @@ Web フックを作成した後、イベントの送信先エンドポイント�
   </tr> 
  </tbody> 
 </table>
+
 +++
 
 +++ **[!UICONTROL 検索（レガシー）]**
