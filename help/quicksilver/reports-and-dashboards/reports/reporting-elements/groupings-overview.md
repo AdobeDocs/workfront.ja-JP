@@ -7,18 +7,18 @@ description: グループ化を追加して、レポートやリストの情報�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '848'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 98%
 
 ---
 
 # Adobe Workfront でのグループの概要
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This article was supposed to be replaced by "Groupings overview", but decided to keep this here because this is linked in too many places. "Create groupings" and "Edit existing groupings" have been added also (with videos) to replace portions of the old content here.)-->
 
 グループ化を追加して、レポートやリストの情報のレイアウトを管理できます。
 
@@ -32,13 +32,13 @@ ht-degree: 100%
 
   最初からグループ化を作成する方法について詳しくは、[Adobe Workfront でグループ化を作成](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)を参照してください。
 
-デフォルトでは、グループ化は、レポートまたはリストでグレーまたはブルーのハイライトで表示されます。レポートまたはリストの結果は、個々のグループの下に、ハイライトなしで表示されます。
+デフォルトでは、レポートまたはリストでグループ化がグレーのハイライトで表示されます。 レポートまたはリストの結果は、個々のグループの下に、ハイライトなしで表示されます。
+
+![ グループ化の例 ](assets/grouping-example-blue.png)
 
 1 つのレポートには、最大 3 つのグループを追加できます。マトリックスレポートを作成すると、最大 4 つのグループに分けて情報を整理できます。マトリックスレポートについて詳しくは、[マトリックスレポートを作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)を参照してください。
 
-標準のグループ化レポートでは、最初のグループは濃い色で、2 番目と 3 番目のグループは明るい色です。グループ化のハイライトの色や、グループ名のフォントはカスタマイズできません。グループ名の後の括弧内の数は、そのグループ化の下の結果数を表します。レポートが複数のページにわたる場合、レポートまたはリストに&#x200B;*すべて*&#x200B;の結果を表示し、各グループの結果の正確なカウントを取得します。
-
-![サンプルのグループ化](assets/grouping-example-blue.png)
+グループ名の後の括弧内の数は、そのグループ化の下の結果数を表します。レポートが複数のページにわたる場合、レポートまたはリストに&#x200B;*すべて*&#x200B;の結果を表示し、各グループの結果の正確なカウントを取得します。
 
 グループ化を使用する際は、次の点に注意してください。
 

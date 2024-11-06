@@ -6,14 +6,16 @@ description: ビューを使用して、画面に表示する情報のタイプ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 99%
+source-wordcount: '1718'
+ht-degree: 94%
 
 ---
 
 # Adobe Workfront でのビューの作成または編集
+
+<!-- Audited: 11/2024 -->
 
 ビューを使用して、画面に表示する情報のタイプをカスタマイズできます。Adobe Workfront では、複数のタイプのビューを使用できます。
 
@@ -30,25 +32,36 @@ ht-degree: 99%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>投稿者以上</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>リクエスト以上</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポートのビューを作成するために、レポート、ダッシュボード、カレンダーへの編集アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポートのビューを作成するために、レポート、ダッシュボード、カレンダーへの編集アクセス権</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>レポートのビューを作成または編集するために、レポートに対する管理権限</p> <p>編集するために、ビューに対する管理権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>オブジェクトの権限*</strong></td> 
+   <td> <p>レポートのビューを作成または編集するために、レポートに対する管理権限</p> <p>編集するために、ビューに対する管理権限</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -64,10 +77,11 @@ ht-degree: 99%
 標準ビューを新規作成するか、以前作成した既存の標準ビューをカスタマイズすることができます。
 
 1. ビューを作成またはカスタマイズするリストの&#x200B;**表示**&#x200B;ドロップダウンメニューをクリックします。
-1. （オプション）既存のビューをカスタマイズするには、カスタマイズする標準ビューを選択します。\
-   標準ビューは、レポート、プロジェクトリスト、タスクリストなど、Workfront のあらゆるタイプのリストで使用できます。
-1. **表示**&#x200B;ドロップダウンメニューをクリックし、続いて「**ビューをカスタマイズ**」または「**新規ビュー**」をクリックします。\
-   **ビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。
+
+1. 「**+新規ビュー**」ボタンをクリックして、新規ビューを作成します。
+または
+編集する既存のビューの右側にマウスポインターを置くと表示される **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+**ビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。
 
 1. 「**列のプレビュー**」セクションで、以下のいずれかを行います。
 
@@ -121,7 +135,7 @@ ht-degree: 99%
           </tr> 
           <tr> 
            <td role="rowheader"><strong>カラムのルール</strong></td> 
-           <td><p>「<strong>この列にルールを追加</strong>」をクリックして、列のルールを定義します。ルールを追加した後、そのルールに一致するフィールドの表示方法について、フィールドとテキストのスタイルを定義できます。ルールの定義が完了したら、「<strong>ルールを追加</strong>」をクリックします。</p></td> 
+           <td><p>「<strong>+この列にルールを追加」をクリックして </strong> 列のルールを定義します。 ルールを追加した後、そのルールに一致するフィールドの表示方法について、フィールドとテキストのスタイルを定義できます。ルールの定義が完了したら、「<strong>ルールを追加</strong>」をクリックします。</p></td> 
           </tr> 
          </tbody> 
         </table>
@@ -234,7 +248,7 @@ ht-degree: 99%
     </tbody> 
    </table>
 
-1. 「**アジャイル**」セクション内の&#x200B;**追加のフィールド**&#x200B;エリアで、「**フィールドを追加**」をクリックし、続いてストーリーカードに追加するフィールドを選択します。（これらは、ビューのカスタマイズ作成時やレポートの列の作成時に追加できるフィールドと同じです。）\
+1. **追加フィールド** 領域で **フィールドの追加** をクリックし、ストーリーカードに追加するフィールドを選択します。 （これらは、ビューのカスタマイズ作成時やレポートの列の作成時に追加できるフィールドと同じです。）\
    このプロセスを繰り返して、ストーリーカードに最大 3 つのフィールドを追加します。\
    フィールドをストーリーカードに追加すると、フィールドは表示専用となり、フィールドにデータが入力されている場合にのみ表示されます。
 

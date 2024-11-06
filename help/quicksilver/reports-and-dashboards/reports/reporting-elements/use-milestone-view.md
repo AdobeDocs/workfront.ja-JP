@@ -6,7 +6,7 @@ description: マイルストーンビューは、プロジェクトのリスト�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
 source-wordcount: '1302'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # マイルストーンビューの使用
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 11/2024 -->
 
 マイルストーンビューは、プロジェクトのリストやレポートに適用できます。
 
@@ -42,8 +42,15 @@ ht-degree: 99%
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> 
-   <p>新規：標準</p>
-   <p>現在：ワーク以上 </p> </td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>ワークまたはそれ以上</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 

@@ -6,24 +6,26 @@ description: カスタムグループを最初から作成することも、既�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 100%
+source-wordcount: '458'
+ht-degree: 90%
 
 ---
 
 # Adobe Workfront でのグループ化の作成
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
 レポートまたはリストの結果は、グループ化を使用して整理できます。グループ化では、特定の情報に基づいて情報が分類されます。
 
 カスタムグループを最初から作成することも、既存のグループ化をカスタマイズすることもできます。最初からグループ化を作成するには、次の手順に従います。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -37,20 +39,31 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>リクエスト以上 </p> </td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>投稿者以上</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>リクエスト以上</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへの編集アクセス権（レポートでグループ化を作成するため）</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへの編集アクセス権（レポートでグループ化を作成するため）</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>レポートへの管理権限でレポート内のグループ化を編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td><p>レポートへの管理権限でレポート内のグループ化を編集</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## グループ化を作成
 
@@ -59,10 +72,10 @@ ht-degree: 100%
 
    ![新規グループ化の選択](assets/newgrouping-nwe-standard-350x304.png)
 
-1. 「**新規グループ化**」をクリックします。
+1. 「**+新規グループ化**」をクリックします。
 グループ化を作成するためのインターフェイスビルダーが起動します。
 
-1. 「**グループ化のプレビュー**」セクションで、「**グループ化の追加**」をクリックして、レポート内の情報の整理方法を定義します。レポート内のグループ化の表示についてプレビューを次に示します。
+1. **グループ化プレビュー** 領域で **グループ化を追加** をクリックして、レポートの情報を整理する方法を定義します。 レポート内のグループ化の表示についてプレビューを次に示します。
 
 1. レポート内の情報を整理する方法を表すフィールドの名前を入力し、ドロップダウンリストに表示されたらクリックします。
 1. （オプションおよび条件付き）更新されたリストでグループ化を作成する場合、グループ化の結果を展開された状態ではなく折りたたまれた状態で表示するには、「**既定としてこのグループ化を折りたたむ**」を選択します。この設定はデフォルトでは無効になっており、グループ化の結果は常に展開されたリストで表示されます。

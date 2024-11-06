@@ -6,16 +6,16 @@ description: レポートを Adobe Workfront の他のユーザーと共有す�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 0ea65b3f-fbcf-40f4-a4d1-4dd91619c349
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1162'
 ht-degree: 96%
 
 ---
 
 # ビューでの条件付き形式の使用
 
-<!--Audited: 01/2024-->
+<!-- Audited: 11/2024 -->
 
 レポートを Adobe Workfront の他のユーザーと共有する際は、レポートの表示をカスタマイズし、特定の情報を読みやすく、または目立つようにすることを検討します。
 
@@ -54,24 +54,23 @@ ht-degree: 96%
    <td> <p>新規：</p> 
    <ul><li>レポートビューの場合は Standard</li>
   <li> リストビューの場合は Contributor 以上</li></ul>
-
-<p>現在：</p>
+   <p>現在：</p>
    <ul>
     <li> レポートビューの場合はプラン </li>
     <li> リストビューの場合はリクエスト以上 </li> </ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集とレポートのビューの編集</p> <p><b>メモ</b></p> <p>アクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集とレポートのビューの編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>レポートのビューを作成または編集するために、レポートに対する管理権限</p> <p>ビューに対する権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートのビューを作成または編集するために、レポートに対する管理権限</p> <p>ビューに対する権限を管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

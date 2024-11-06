@@ -6,24 +6,22 @@ description: Workfront のすべてのリストとレポートに必要な主な
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '840'
+source-wordcount: '838'
 ht-degree: 100%
 
 ---
 
 # レポート要素：フィルター、ビューおよびグループ化
 
-<!--
-<div style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
+<!-- Audited: 11/2024 -->
+
+<!--AL: Add information here about all the different kinds of FVGs: in reports, in lists, beta, etc // OR: this article should be a high-level overview of reporting elements. Then, each type of element should have:</p>
 <p>- overview for Filters</p>
 <p>- create a filter</p>
 <p>- share a filter</p>
-<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well</p>
-</div>
--->
+<p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
 Adobe Workfront には、リストやレポートを構成する要素がいくつかあります。すべてのリストとレポートに必要な主な要素は、フィルター、ビューおよびグループ化です。各要素は、どのレポート内でも様々な情報を提供します。
 
@@ -56,11 +54,10 @@ Adobe Workfront には、リストやレポートを構成する要素がいく�
 
   フィルターについて詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)の記事を参照してください。
 
-![フィルターアイコン](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
-
 ## ビュー
 
-レポートのビューを定義することで、レポートに含める情報を定義します。すべてのレポート要素と同様に、ビューも 1 つのオブジェクトタイプに基づいています。\
+レポートのビューを定義することで、レポートに含める情報を定義します。すべてのレポート要素と同様に、ビューも 1 つのオブジェクトタイプに基づいています。
+
 例えば、タスクレポートのビューでは、期日を表示したり、コストなどの主要な財務詳細を含めたり、割り当てと納期の詳細を表示するために使用したりできます。ビューを使用して、レポート内のデータに関する様々な詳細を提供できます。
 
 ビューの主な属性は次のとおりです。

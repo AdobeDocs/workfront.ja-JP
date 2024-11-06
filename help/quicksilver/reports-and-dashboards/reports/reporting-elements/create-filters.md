@@ -6,16 +6,16 @@ description: フィルターを使用して項目リストの画面に表示す�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '2461'
-ht-degree: 99%
+source-wordcount: '2419'
+ht-degree: 96%
 
 ---
 
 # Adobe Workfront でフィルターを作成または編集する
 
-<!--Audited: 12/2023-->
+<!-- Audited: 11/2024 -->
 
 フィルターを使用して項目リストの画面に表示する情報の量を制限できます。特定の基準を、オブジェクトに関する特定の情報に基づいて定義し、その基準を満たすオブジェクトのみを表示できます。
 
@@ -47,42 +47,36 @@ Adobe Workfront では、次のタイプのフィルターを適用できます�
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>新規：Contributor 以上</p>
-
-または
-
-<p>現在：Request 以上</p>
-
-<p><b>メモ：</b></p>
-
-レポートのフィルターを編集するには、次のライセンスが必要です。
-
-<p>新規：標準</p>
-
-または
-
-<p>現在：プラン</p>
-
-</td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>フィルターを変更するコントリビューター</p></li>
+         <li><p>レポートのフィルターを変更する標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>フィルターを変更する場合は「要求」</p></li>
+         <li><p>レポートのフィルターの変更を計画します</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
    <td> <ul><li><p>フィルター、ビュー、グループ化の編集アクセス権</p></li></ul>
-    <p><b>メモ：</b></p>
-   レポートでフィルターを編集するには、フィルター、ビュー、グループに対する編集アクセスに加えて、次のアクセスレベル設定が必要です。
 
-<ul><li><p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></li></ul>
+レポートでフィルターを編集するには、フィルター、ビュー、グループに対する編集アクセスに加えて、次のアクセスレベル設定が必要です。
 
-<p><b>メモ：</b></p> <p> アクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+<ul><li><p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></li></ul>   
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>フィルターに対する権限を管理する</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>オブジェクトの権限*</strong></td> 
+   <td> <p>フィルターに対する権限を管理する</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -369,19 +363,17 @@ Workfront オブジェクトについて詳しくは、[Adobe Workfront のオ�
 フィルターの作成に使用する方法に関係なく、フィルターを最初から作成することも、既存のフィルターから作成することも同様です。
 
 1. カスタマイズするフィルターを含むリストまたはレポートに移動します。
-1. **フィルター**&#x200B;アイコン ![フィルターアイコン](assets/filter-nwepng.png) をクリックします。
+1. **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックしてから、**詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックして、**従来のフィルターに戻る** をクリックします。
 
    >[!TIP]
    >
    >レポート作成者は、レポートでフィルタードロップダウンリストを表示するには、フィルターの編集を許可する必要があります。レポートのデフォルトフィルターは、デフォルトでレポートに適用されます。レポートのデフォルトフィルターは、レポートを編集するときにのみカスタマイズできます。
 
-   ![フィルタードロップダウン](assets/filter-drop-down-expanded-nwe.png)
-
-1. フィルターのリストの上部にある「**新規フィルター**」をクリックします。
+1. フィルターのリストの上部にある「**+新規フィルター**」をクリックします。
 
    または
 
-   変更するフィルターにポインタを合わせて、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+   変更するフィルターの上にマウスポインターを置き、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    フィルター起動をカスタマイズするためのビルダー。
 
@@ -423,7 +415,7 @@ Workfront オブジェクトについて詳しくは、[Adobe Workfront のオ�
 
    または
 
-   「**新規フィルターとして保存**」をクリックして、選択したフィルターからフィルターを作成します。
+   「**新しいフィルターとして保存**」をクリックして、選択したフィルターから新しいフィルターを作成します。
 
    新しいフィルターがフィルターのリストに表示され、選択したリストまたはレポートに自動的に適用されます。
 

@@ -6,14 +6,16 @@ description: この記事では、列の幅のガイドラインと、Workfront 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 332c744ab9b760268620461ed2cb2551caf383cf
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 100%
+source-wordcount: '1010'
+ht-degree: 95%
 
 ---
 
 # 列の幅と順序の変更
+
+<!-- Audited: 11/2024 -->
 
 Adobe Workfront での列の幅の仕組みに関するガイドラインを以下に示します。
 
@@ -36,6 +38,8 @@ Adobe Workfront での列の幅の仕組みに関するガイドラインを以�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -48,20 +52,31 @@ Adobe Workfront での列の幅の仕組みに関するガイドラインを以�
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>リクエスト以上 </p> </td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>投稿者以上</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>リクエスト以上</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートのビューを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートのビューを編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>レポートに対する権限を管理して、レポートのビューを編集する</p> <p>編集するために、ビューに対する管理権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理して、レポートのビューを編集する</p> <p>編集するために、ビューに対する管理権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 列の幅と順序の変更
 
@@ -113,17 +128,13 @@ Workfront のリストについて詳しくは、[Adobe Workfront のリスト�
 #### 列のサイズを一時的に変更する {#resize-columns-temporarily}
 
 1. 変更するリストに移動します。
-1. 列の境界線をドラッグして、目的のサイズにします。\
+1. 列が目的のサイズになるまで、列ヘッダーの境界線をドラッグします。\
    ![](assets/column-resize-350x124.png)
 
 #### 列を一時的に並べ替える {#reorder-columns-temporarily}
 
 1. 変更するリストに移動します。
-1. 別の場所に移動する列をクリックして選択します。
-1. 列を正しい位置にドラッグします。
-1. 列をその位置にドロップして移動します。
-
-   ![](assets/column-reorder-350x118.png)
+1. 移動する列ヘッダーをクリックして目的の場所にドラッグします。
 
 >[!TIP]
 >

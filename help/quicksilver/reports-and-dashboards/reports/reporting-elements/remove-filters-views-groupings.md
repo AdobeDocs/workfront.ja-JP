@@ -6,20 +6,24 @@ description: リストやレポートを作成した場合、または共有さ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 302771f4d64b386149623f87a3436d0c40f421d5
+source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 100%
+source-wordcount: '809'
+ht-degree: 97%
 
 ---
 
 # フィルター、ビュー、グループを削除
 
+<!-- Audited: 11/2024 -->
+
 リストやレポートを作成した場合、または共有されている場合は、リストやレポートからフィルター、ビュー、またはグループ化を削除できます。デフォルトのフィルター、ビュー、グループ化は削除できません。
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,20 +37,32 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>リクエスト以上</p> </td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>投稿者以上</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>リクエスト以上</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループ化に対する表示またはそれ以上のアクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td><p>フィルター、ビュー、グループ化に対する表示またはそれ以上のアクセス権</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>削除するフィルター、ビュー、またはグループ化に対する共有アクセス限を持つ表示権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td><p>削除するフィルター、ビュー、またはグループ化に対する共有アクセス限を持つ表示権限</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 標準ビルダーを使用してフィルターを削除する
 
@@ -69,9 +85,6 @@ ht-degree: 100%
 1. プロジェクト、タスク、イシュー、ポートフォリオ、プログラム、ユーザー、テンプレート、またはグループのリストに移動します。
 1. **フィルター**&#x200B;アイコン ![フィルターアイコン](assets/filter-nwepng.png) をクリックします。
 1. **自分と共有**&#x200B;の下のフィルターにポインタを合わせて、**その他**&#x200B;メニュー ![その他アイコン](assets/more-icon-spectrum.png) をクリックして、「**削除**」をクリックします。
-
-   ![フィルターを削除](assets/new-filters-more-menu-remove-filter.png)
-
 1. 確認メッセージで「**削除**」を選択すると、フィルターが完全に削除されます。
 
 ### 標準ビルダーを使用してフィルターを削除する
