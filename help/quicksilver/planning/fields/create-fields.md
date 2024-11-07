@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
 workflow-type: tm+mt
-source-wordcount: '3689'
-ht-degree: 73%
+source-wordcount: '3847'
+ht-degree: 70%
 
 ---
 
@@ -383,21 +383,20 @@ OLD:
 
      >[!NOTE]
      >
-     >    「負の数を許可」を選択し、フィールドが関連付けられているレコードに負の値が格納されている場合、今後この設定の選択は解除できなくなります。
+     >「負の数を許可」を選択し、フィールドが関連付けられているレコードに負の値が格納されている場合、今後この設定の選択は解除できなくなります。
 
-   <!--<div class="preview">  
+   <div class="preview">
 
-    * **Show as**: From the drop-down menu, choose how you want the percentage values to display in the table view. Select from the following options:
-        * **Number**: The percent value displays as a number followed by the percentage sign. 
-        * **Bar**: The percent value displays as a bar next to the percentage number. The fill color of the bar indicates the percent value. 
-        * **Circle**: The percent value displays as the outline of a circle next to the percentage number. The fill color of the circle's outline indicates the percent value.
+   * **表示方法**：ドロップダウンメニューから、テーブルビューでのパーセンテージ値の表示方法を選択します。 次のオプションから選択します。
+      * **数値**：パーセント値は、数値の後にパーセント記号を付けて表示されます。
+      * **棒グラフ**：割合の値は、割合の数値の横に棒グラフとして表示されます。 バーの塗りつぶしの色は、パーセント値を示します。
+      * **円**：割合の値は、割合の横に円のアウトラインとして表示されます。 円のアウトラインの塗りつぶしの色は、パーセント値を示します。
 
-    >[!NOTE]
-    >
-    >* The selection you make in the Show as field only applies to the percentage value visible in the table view. The percent value of the field displays as a number followed by the percentage sign everywhere else in Workfront Planning. This also applies to the percentage-type field when it displays as a lookup field in other records' table views.
-    >* You can change the Show as selection when editing the field later. 
-    </div>-->
-
+   >[!NOTE]
+   >
+   >* 「表示形式」フィールドでの選択は、テーブルビューに表示されるパーセンテージの値にのみ適用されます。 Workfront Planning の他の場所では、フィールドのパーセント値は、数値の後にパーセント記号が付いたように表示されます。 これは、他のレコードのテーブル ビューのルックアップ フィールドとして表示されるパーセンテージ タイプ フィールドにも適用されます。
+   >* 後でフィールドを編集するときに、「別名で表示」の選択を変更できます。
+   </div>
 
 1. 「**作成**」をクリックします。
 
