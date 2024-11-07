@@ -6,16 +6,16 @@ description: Adobe Workfrontには、すぐに使用できるビルトインレ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '2951'
+source-wordcount: '2964'
 ht-degree: 58%
 
 ---
 
 # Adobe Workfront の組み込みレポートを使用する
 
-<!--Audited: 07/2024-->
+<!--Audited: 11/2024-->
 
 Adobe Workfront には、ユーザーが使用できる組み込みレポートの大量のリストが用意されています。
 
@@ -27,6 +27,8 @@ Workfront 管理者は、組み込みのレポートを非表示にして、ユ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
+この記事の手順を実行するには、次のアクセス権が必要です。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -37,8 +39,16 @@ Workfront 管理者は、組み込みのレポートを非表示にして、ユ�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：Contributor 以上</p>  
-   <p>現在：Request 以上</p> </td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>投稿者以上</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>リクエスト以上</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 

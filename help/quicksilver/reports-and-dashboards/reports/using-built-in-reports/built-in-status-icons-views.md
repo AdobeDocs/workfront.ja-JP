@@ -6,18 +6,18 @@ description: 組み込みの「状態アイコン」フィールドをビュー�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7831d5c1-e982-4780-a5a8-54dc6decb3a1
-source-git-commit: 7ee96045e5673c51c3ce348f395226857686a923
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 100%
+source-wordcount: '1213'
+ht-degree: 96%
 
 ---
 
 # ビュー内のビルトインステータスアイコン
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.) </p>
--->
+<!-- Audited: 11/2024 -->
+
+<!--(NOTE: ALina: ***Link this from the Understanding Fields in Lists and Reports.)-->
 
 組み込みの「状態アイコン」フィールドをビューの列として追加し、オブジェクトの主要ポイントをより明確に表示できます。状態アイコンを使用すると、次の条件が存在する場合に一目で確認できます。
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 * オブジェクトに追加のメモが関連付けられている
 * 費用は請求可能または払い戻し可能
 * タスクがクリティカルパス上にある
-* ユーザーが会社またはチームに属しているか、別のタイムゾーンにいる
+* ユーザーが会社またはチームに属しているか、個人のタイムゾーンが異なります
 
 次の点に注意してください。
 
@@ -45,6 +45,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -57,24 +59,31 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リクエスト以上</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> </td> 
-   <td> </td> 
-  </tr> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>投稿者以上</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>リクエスト以上</p></li>
+         </ul>
+   </td>
+  </tr>
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートに列を追加</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポート、ダッシュボード、カレンダーへのアクセスを編集して、レポートに列を追加</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>既存のビューに対する権限を管理</p> <p>レポートに列を追加する権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>既存のビューに対する権限を管理</p> <p>レポートに列を追加する権限を管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## ビューにステータスアイコンフィールドを追加
 

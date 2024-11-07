@@ -4,10 +4,10 @@ description: このページでは、2025 年第 1 四半期リリースに含�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '715'
-ht-degree: 64%
+source-wordcount: '928'
+ht-degree: 54%
 
 ---
 
@@ -33,128 +33,243 @@ ht-degree: 64%
 
 ## Adobe Workfront の機能強化
 
-* [管理者機能の強化](#administrator-enhancements)
-  <!--* [Boards enhancements](#boards-enhancements)-->
+* [管理者機能の強化](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
+* [ドキュメント管理の機能強化](#document-management-enhancements)
+* [ホームの機能強化](#home-enhancements)
+* [プルーフ機能の強化](#proofing-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者機能の強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <p><span class="bold">機能</span>
-                    </p>
-                </td>
-                <td>
-                    <p><span class="bold">リリース日</span>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> カスタムフィールドに「移動先」アイコンが追加されました </a></p>
-                    <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
-                </td>
-                <td><p><b>公開日：</b></p>
-                    <ul>
-                        <li>
-                            <p>プレビューリリース：2024年10月29日（PT）</p>
-                        </li>
-                        <li>
-                            <p>迅速リリースの実稼動：24.11 リリースの場合（2024 年 11 月 14 日（PT））</p>
-                        </li>
-                        <li>
-                            <p>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">機能</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">リリース日</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> カスタムフィールドに「移動先」アイコンが追加されました </a></p>
+                <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
+            </td>
+            <td><p><b>公開日：</b></p>
+                <ul>
+                    <li>
+                        <p>プレビューリリース：2024年10月29日（PT）</p>
+                    </li>
+                    <li>
+                        <p>迅速リリースの実稼動：24.11 リリースの場合（2024 年 11 月 14 日（PT））</p>
+                    </li>
+                    <li>
+                        <p>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
 </table>
 
 <!--### Boards enhancements
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <p><span class="bold">Feature</span>
-                    </p>
-                </td>
-                <td>
-                    <p><span class="bold">Release dates</span>
-                    </p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
-                    <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
-                </td>
-                <td><p><b>Available on these dates:</b></p>
-                    <ul>
-                        <li>
-                            <p>Preview release: October 31, 2024</p>
-                        </li>
-                        <li>
-                            <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
-                        </li>
-                        <li>
-                            <p>Production release for all customers: With the 25.1 release (January 2025)</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">Feature</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">Release dates</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Change the owner of a board</a></p>
+                <p>The creator of a board is the owner by default. The board owner is the only person who can delete that board or update its filters in the Configure panel. Functionality has been added to allow Workfront system administrators to change the owner of a board. The current owner of a board can also change the owner of that specific board.</p>
+            </td>
+            <td><p><b>Available on these dates:</b></p>
+                <ul>
+                    <li>
+                        <p>Preview release: October 31, 2024</p>
+                    </li>
+                    <li>
+                        <p>Production for fast release: With the 24.11 release (November 14, 2024)</p>
+                    </li>
+                    <li>
+                        <p>Production release for all customers: With the 25.1 release (January 2025)</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
 </table>-->
+
+### ドキュメント管理の機能強化
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">機能</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">リリース日</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> ドキュメントバージョン承認で新しい撤回ステータスが使用可能になりました </a></p>
+                <p>承認が未処理のドキュメントに新しいバージョンが追加されると、以前のバージョンの承認に撤回済みと表示されるようになりました。 一部の参加者がまだ決定を行っていない場合でも、前回の承認プロセスが終了します。</p>
+            </td>
+            <td><p><b>公開日：</b></p>
+                <ul>
+                    <li>
+                        <p>プレビューリリース：2024年11月7日（PT）</p>
+                    </li>
+                    <li>
+                        <p>迅速リリースの実稼動：24.11 リリースの場合（2024 年 11 月 14 日（PT））</p>
+                    </li>
+                    <li>
+                        <p>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+### ホームの機能強化
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">機能</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">リリース日</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> プロジェクトの詳細を優先度で表示 </a></p>
+                <p>優先度の作業リストからプロジェクトの詳細とコメントを表示できるようになりました。</p>
+            </td>
+            <td><p><b>公開日：</b></p>
+                <ul>
+                    <li>
+                        <p>プレビューリリース：2024年11月6日（PT）</p>
+                    </li>
+                    <li>
+                        <p>迅速リリースの実稼動：24.11 リリースの場合（2024 年 11 月 14 日（PT））</p>
+                    </li>
+                    <li>
+                        <p>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+## プルーフ機能の強化
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <p><span class="bold">機能</span>
+                </p>
+            </td>
+            <td>
+                <p><span class="bold">リリース日</span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> インタラクティブレビューの新しいブラウザー拡張機能がベータ版で利用可能になりました </a></p>
+                [!BADGE In production ]{type=Informative}
+                <p>インタラクティブな ZIP コンテンツをレビューするための従来のブラウザー拡張機能に代わる、新しいブラウザー拡張機能であるAdobe Workfront レビューツールを導入します。 新しいAdobe Workfront レビューツールは、すべての一般的なブラウザーで ZIP コンテンツのレビューをサポートしています。</p>
+                <p>従来のブラウザー拡張機能は、2025 年 2 月 28 日（PT）に削除されます。</p>
+            </td>
+            <td><p><b>公開日：</b></p>
+                <ul>
+                    <li>
+                        <p>プレビューリリース：2024年11月7日（PT）</p>
+                    </li>
+                    <li>
+                        <p class="preview">すべてのお客様向けの実稼動リリース：2024 年 11 月 7 日（PT）</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>
 
 ### その他の機能強化
 
 <table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-        <tbody>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI アシスタントで、プロジェクト、タスク、イシューを操作できるようになりました </a></p>
-                    <p>Workfrontで作業項目を管理しやすくするために、AI アシスタントが更新されて、プロジェクト、タスク、イシューを操作できるようになりました。 これで、AI アシスタントは、「期限が今週の自分のタスクを検索」など、指定した条件に基づいて、プロジェクト、タスク、問題を検索できます。</p>
-                </td>
-                <td><p><b>公開日：</b></p>
-                    <ul>
-                        <li>
-                            <p>プレビューリリース：2024年10月31日（PT）</p>
-                        </li>
-                        <li>
-                            <p>迅速リリースの実稼動：24.11 リリースの場合（2024 年 11 月 14 日（PT））</p>
-                        </li>
-                        <li>
-                            <p>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</p>
-                        </li>
-                   </ul>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025 年第 1 四半期のルックアンドフィールの更新 </a></p>
-                    <p>Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対する小規模な更新が、2025 年第 1 四半期内に行われています。 特定のリリース日については、個々のリリースノートを確認してください。</p>
-                </td>
-                <td><p><b>公開日：</b></p>
-                    <ul>
-                        <li>
-                            <p>プレビューリリース：2025 年第 1 四半期のリリース期間中</p>
-                        </li>
-                        <li>
-                            <p><span class="preview">実稼動版リリース：リリースノートで日付を確認してください。</span></p>
-                        </li>
-                    </ul>
-                </td>
-            </tr>                            
-        </tbody>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+    <tbody>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI アシスタントで、プロジェクト、タスク、イシューを操作できるようになりました </a></p>
+                <p>Workfrontで作業項目を管理しやすくするために、AI アシスタントが更新されて、プロジェクト、タスク、イシューを操作できるようになりました。 これで、AI アシスタントは、「期限が今週の自分のタスクを検索」など、指定した条件に基づいて、プロジェクト、タスク、問題を検索できます。</p>
+            </td>
+            <td><p><b>公開日：</b></p>
+                <ul>
+                    <li>
+                        <p>プレビューリリース：2024年10月31日（PT）</p>
+                    </li>
+                    <li>
+                        <p>迅速リリースの実稼動：24.11 リリースの場合（2024 年 11 月 14 日（PT））</p>
+                    </li>
+                    <li>
+                        <p>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</p>
+                    </li>
+                </ul>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025 年第 1 四半期のルックアンドフィールの更新 </a></p>
+                <p>Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対する小規模な更新が、2025 年第 1 四半期内に行われています。 特定のリリース日については、個々のリリースノートを確認してください。</p>
+            </td>
+            <td><p><b>公開日：</b></p>
+                <ul>
+                    <li>
+                        <p>プレビューリリース：2025 年第 1 四半期のリリース期間中</p>
+                    </li>
+                    <li>
+                        <p><span class="preview">実稼動版リリース：リリースノートで日付を確認してください。</span></p>
+                    </li>
+                </ul>
+            </td>
+        </tr>                            
+    </tbody>
 </table>
 
 <!--

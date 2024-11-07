@@ -7,7 +7,7 @@ description: 稼働率レポートでは、1 つ以上のプロジェクトの�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c85b880a-c4a7-49ed-8118-ef9942a47bc3
-source-git-commit: a55041ad5a6cd41cd11ec3ade27bf5227ae0ac47
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
 source-wordcount: '104'
 ht-degree: 100%
@@ -16,6 +16,8 @@ ht-degree: 100%
 
 
 # リソース稼動率レポートの概要
+
+<!--Audited: 11/2024-->
 
 <!--CONTEXT SENSITIVE HELP - this is linked to the product. It is about a Resource reporting built-in report, so we need to keep it in both areas.-->
 

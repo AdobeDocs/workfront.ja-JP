@@ -6,10 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 4%
+source-wordcount: '695'
+ht-degree: 5%
 
 ---
 
@@ -25,7 +25,6 @@ ht-degree: 4%
 >
 >Workfront Planning へのアクセス要件の完全なリストについては、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 >Workfront計画の概要については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
->
 
 この記事では、2025 年第 1 四半期のリリースでWorkfront Planning でリリースされる機能について説明します。
 
@@ -33,6 +32,24 @@ ht-degree: 4%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 2024 年 8 月 28 日（PT）の一般リリース後にAdobe Workfront Planning でリリースされたすべての機能のリストについては、[Adobe Workfront Planning リリースアクティビティ：記事索引 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## テーブル表示でのパーセンテージタイプのフィールドの新しい表示タイプ
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 11 月 7 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月）の場合、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の場合
+
+テーブルビューで数値を読みやすくするために、以下の選択肢から選択して、テーブルビューでのパーセンテージタイプのフィールドの表示方法を変更できるようになりました。
+
+* 数値
+* 棒グラフ
+* 円
+
+この表示タイプは、テーブル表示でのみサポートされます。
+
+この機能強化の前は、パーセンテージ値を数値としてのみ表示できていました。
+
+詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
 
 ## リクエストフォームで接続フィールドがサポートされるようになりました
 
