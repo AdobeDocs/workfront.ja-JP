@@ -5,10 +5,10 @@ title: 新しいドキュメント バージョンをアップロードし、承
 description: 新しいドキュメントバージョンをアップロードし、Adobe Workfrontの他のユーザーの承認をリクエストできます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 66aa4c29743c031b1aff3b67364ff95f2b810ef8
+source-git-commit: cf2a6353df0ea0e3e1c473092dab5f263a98a2fd
 workflow-type: tm+mt
-source-wordcount: '396'
-ht-degree: 61%
+source-wordcount: '432'
+ht-degree: 56%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 61%
 以前のレビューで「作業が必要」とマークされたドキュメントの場合、新しいバージョンを元のドキュメントにアップロードし、別の承認を開始することができます。
 
 新しいバージョンのファイル名が以前のバージョンのファイル名と異なる場合、Workfront は新しいファイル名を持つドキュメントを表示します。
+
+承認が未処理のドキュメントに新しいバージョンが追加されると、以前のバージョンの承認は「取り消し」と表示されます。 一部の参加者がまだ決定を行っていない場合でも、前回の承認プロセスが終了します。
 
 ## アクセス要件
 
