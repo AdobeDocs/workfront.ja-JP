@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
+source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '921'
 ht-degree: 55%
 
 ---
@@ -135,7 +135,7 @@ ht-degree: 55%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> ドキュメントバージョン承認で新しい撤回ステータスが使用可能になりました </a></p>
-                <p>承認が未処理のドキュメントに新しいバージョンが追加されると、以前のバージョンの承認に撤回済みと表示されるようになりました。 一部の参加者がまだ決定を行っていない場合でも、前回の承認プロセスが終了します。</p>
+                <p>承認待ちのドキュメントに新しいバージョンが追加されると、以前のバージョンの承認が「取り消し済み」と表示され、新しいバージョンが追加されているので以前の承認プロセスがクローズされたことを示します。</p>
             </td>
             <td><p><b>公開日：</b></p>
                 <ul>
