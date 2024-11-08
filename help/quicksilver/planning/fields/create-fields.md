@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 092c94219e77ba3cef316f581646cb0b4488c5cd
+source-git-commit: 667b930290c6e2126c5dc7fa95e279ad3405901c
 workflow-type: tm+mt
 source-wordcount: '3847'
 ht-degree: 70%
@@ -334,7 +334,7 @@ OLD:
       * **長い形式**：例：2023年5月16日
       * **ヨーロッパ式**：例：16/05/2023
       * **ISO**：例：2023-05-16
-   * **時間フィールドを含める**：タイムスタンプを含める場合はこのオプションを選択します。このオプションは、デフォルトでは選択されていません。<!--update this setting name - submitted bug for it to be changed-->
+      * **時間フィールドを含める**：タイムスタンプを含める場合はこのオプションを選択します。このオプションは、デフォルトでは選択されていません。<!--update this setting name - submitted bug for it to be changed-->
 
      次のオプションから選択します。
 
@@ -610,6 +610,7 @@ OLD:
       * **長い形式**：例：2023年5月16日
       * **ヨーロッパ式**：例：16/05/2023
       * **ISO**：例：2023-05-16
+
    * **時間フィールドを含める**：タイムスタンプを含める場合はこのオプションを選択します。このオプションは、デフォルトでは選択されていません。<!--submitted a UI text change for this - check the UI-->
 
      次のオプションから選択します。
