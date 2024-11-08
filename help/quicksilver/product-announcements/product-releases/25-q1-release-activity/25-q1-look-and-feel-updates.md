@@ -4,10 +4,11 @@ description: 2025 年第 1 四半期のリリース期間中のルックアン�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
+source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,19 +50,6 @@ Workfrontの設定エリアで新しいリストフォーマットを導入し�
 設定エリアのデータの書き出し（キックスタート）ページを、Workfrontの他のエリアと一致する、より現代的なデザインに更新しました。
 
 詳しくは、[ キックスタートを使用したWorkfrontからのデータのエクスポート ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md) を参照してください。
-
-## Workfront ナビゲーションバーのルックアンドフィールの更新
-
->[!NOTE]
->
->すべてのお客様向けの実稼動リリース：24.11 リリース以前（2024 年 11 月 14 日（PT））
-
-Workfrontのナビゲーションバーをアップグレードして、パフォーマンスを向上しました。 ルックアンドフィールの変更は最小限です。
-
-最も顕著な変更は次のとおりです。
-
-* 「お気に入りと最近使用したもの」ドロップダウン画面にクローズボタンが表示されなくなりました。 画面の外側をクリックするか、キーボードの Esc キーを押すだけで閉じることができます。
-* ピン留めされたページをドラッグ&amp;ドロップして配置できなくなりました。 代わりに、ボタンを使用してピン留めしたページを移動できるドロップダウンメニューがあります。
 
 ## ユーザーに更新を送信ウィンドウのルックアンドフィールの更新
 
