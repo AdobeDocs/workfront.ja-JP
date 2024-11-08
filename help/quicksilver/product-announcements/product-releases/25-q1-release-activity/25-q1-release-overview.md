@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
+source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '919'
 ht-degree: 55%
 
 ---
@@ -238,7 +238,7 @@ ht-degree: 55%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI アシスタントで、プロジェクト、タスク、イシューを操作できるようになりました </a></p>
-                <p>Workfrontで作業項目を管理しやすくするために、AI アシスタントが更新されて、プロジェクト、タスク、イシューを操作できるようになりました。 指定した条件に基づいて、AI アシスタントがプロジェクト、タスク、イシューを検索または作成できるようになりました。</p>
+                <p>Workfrontで作業項目を管理しやすくするために、AI アシスタントが更新されて、プロジェクト、タスク、イシューを操作できるようになりました。 指定した条件に基づいて、AI アシスタントがプロジェクト、タスク、問題を見つけられるようになりました。</p>
             </td>
             <td><p><b>公開日：</b></p>
                 <ul>
