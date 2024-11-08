@@ -4,10 +4,11 @@ description: このページでは、2025 年第 1 四半期リリースに含�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
+source-git-commit: afcb79d0fe3274f2748da535e82f2248578805e7
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 54%
+source-wordcount: '920'
+ht-degree: 55%
 
 ---
 
@@ -237,7 +238,7 @@ ht-degree: 54%
         <tr>
             <td>
                 <a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">AI アシスタントで、プロジェクト、タスク、イシューを操作できるようになりました </a></p>
-                <p>Workfrontで作業項目を管理しやすくするために、AI アシスタントが更新されて、プロジェクト、タスク、イシューを操作できるようになりました。 これで、AI アシスタントは、「期限が今週の自分のタスクを検索」など、指定した条件に基づいて、プロジェクト、タスク、問題を検索できます。</p>
+                <p>Workfrontで作業項目を管理しやすくするために、AI アシスタントが更新されて、プロジェクト、タスク、イシューを操作できるようになりました。 指定した条件に基づいて、AI アシスタントがプロジェクト、タスク、イシューを検索または作成できるようになりました。</p>
             </td>
             <td><p><b>公開日：</b></p>
                 <ul>
