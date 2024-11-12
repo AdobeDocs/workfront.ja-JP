@@ -5,7 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: bac3ed2a169e070b541192ab312d4fc1a1b467d1
+source-git-commit: d8631e16234486479aa70233aa3770b28ea0d218
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 1%
@@ -64,3 +64,4 @@ Workfront Planning を使用してWorkfront オブジェクトを作成する前
 >[!NOTE]
 >
 >オブジェクトが作成され、期待どおりに接続されたことを確認することをお勧めします。
+
