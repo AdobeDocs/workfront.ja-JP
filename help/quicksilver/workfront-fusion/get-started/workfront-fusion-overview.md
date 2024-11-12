@@ -8,7 +8,7 @@ description: ' [!DNL Adobe Workfront Fusion]  の役割は、同じタスクを�
 author: Becky
 feature: Workfront Fusion
 exl-id: f1633a93-8f4e-4db0-8618-3ce7d8ba84b1
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 6c55cb0ad06e25f9ab3b7c483aada91c701f56f1
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 51%
@@ -78,7 +78,9 @@ Workfront Fusion の使用を開始する際には、次のリソースが役に
 
 * Workfront Fusion トレーニングリソースについては、[Workfront Fusion トレーニングの概要 ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy) を参照してください。
 
+
 * シナリオについて詳しくは、[ シナリオの概要 ](/help/quicksilver/workfront-fusion/scenarios/scenario-overview.md) を参照してください。
+
 
 * 練習シナリオの作成を開始するには、[ 練習シナリオの作成 ](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md) を参照してください。
 
