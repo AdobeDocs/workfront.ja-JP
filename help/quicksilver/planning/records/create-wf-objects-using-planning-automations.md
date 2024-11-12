@@ -5,19 +5,19 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: d8631e16234486479aa70233aa3770b28ea0d218
+source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '383'
 ht-degree: 1%
 
 ---
 
 
-# Workfront計画レコードの自動作成を使用したWorkfront オブジェクトの作成
+# Workfrontの計画レコードの自動作成を使用したオブジェクトの作成
 
-Workfront Planning で自動化を構成し、アクティブ化するとWorkfrontにオブジェクトを作成できます。
+Workfront Planning でオートメーションを構成して、アクティブ化するとWorkfrontまたはWorkfront Planning にオブジェクトを作成できます。
 
-レコードの自動処理をアクティブ化します。 Workfrontのオブジェクトは、自動処理をアクティブ化した計画レコードに接続されています。
+レコードの自動処理をアクティブ化します。 作成されたオブジェクトは、自動処理をアクティブ化した計画レコードに接続されます。
 
 例えば、Workfront Planning キャンペーンを受け取り、Workfrontでプロジェクトを作成して、そのキャンペーンの進行状況を追跡する自動処理を作成できます。 プロジェクトは、Workfront Planning キャンペーンに接続されます。
 
@@ -26,7 +26,7 @@ Workfront Planning で自動化を構成し、アクティブ化するとWorkfro
 
 ## Workfront Planning での自動処理の設定
 
-Workfront Planning を使用してWorkfront オブジェクトを作成する前に、自動処理を設定する必要があります。
+Workfront Planning を使用してオブジェクトを作成する前に、自動処理を設定する必要があります。
 
 1. **その他** メニュー ![](assets/more-menu.png) をクリックし、**Automations** を選択します。
 
@@ -44,14 +44,14 @@ Workfront Planning を使用してWorkfront オブジェクトを作成する前
    * プログラム
    * グループ
 
-1. **プロジェクト名で使用するフィールドを選択** フィールドで、レコードフィールドを選択します。 Workfrontの新しいプロジェクトには、このフィールドの内容が名前として含まれます。
-1. **作成したプロジェクトをリンクするフィールドを選択** フィールドで、レコードフィールドを選択します。 Workfront Planning でレコードを表示すると、Workfrontの新しいプロジェクトがこのフィールドに表示されます。
+1. **プロジェクト名で使用するフィールドを選択** フィールドで、レコードフィールドを選択します。 新しいオブジェクトには、このフィールドの内容が名前として設定されます。
+1. **作成したプロジェクトをリンクするフィールドを選択** フィールドで、レコードフィールドを選択します。 Workfront Planning でレコードを表示すると、新規オブジェクトがこのフィールドに表示されます。
 1. 作成するオブジェクトのタイプに使用できるその他のオプションを選択します。
 1. **作成** をクリックします。
 
 自動処理は自動処理のリストに表示され、レコードで使用できます。
 
-## Workfront Planning 自動処理を使用したWorkfrontオブジェクトの作成
+## Workfront Planning 自動処理を使用したオブジェクトの作成
 
 1. Workfront Planning で、Workfrontオブジェクトの作成に使用するレコードを含む「レコード・タイプ」ページを開きます。
 1. 1 つ以上のレコードを選択します。
