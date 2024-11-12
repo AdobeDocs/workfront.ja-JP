@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 91%
+source-wordcount: '749'
+ht-degree: 92%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 91%
      </tr>
      <tr> 
       <td role="rowheader">「カスタムフォーム」セクション</td> 
-      <td> <p>Workfrontで使用できない、会社に追加するフィールドがある場合は、カスタムフォームを作成して会社に関連付けることができます。 このフォームは、ドロップダウンメニューから選択して会社に添付できます。アクティブな会社のみがドロップダウンメニューに表示されます。カスタムフォームの作成について詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> フォームデザイナーを使用したフォームのデザイン </a> を参照してください。 </p> </td> 
+      <td> <p>Workfrontで使用できない、会社に追加するフィールドがある場合は、カスタムフォームを作成して会社に関連付けることができます。 このフォームは、ドロップダウンメニューから選択して会社に添付できます。アクティブな会社のみがドロップダウンメニューに表示されます。カスタムフォームの作成について詳しくは、「<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成 </a>」を参照してください。 </p> </td> 
      </tr> 
     </tbody> 
    </table>

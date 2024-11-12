@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '2213'
+source-wordcount: '2210'
 ht-degree: 95%
 
 ---
@@ -215,7 +215,7 @@ ht-degree: 95%
        <p>リソースプールについて詳しくは、<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">リソースプールの概要</a>を参照してください。</p> </li> 
        <li><b>1 時間当たりのコスト</b>：ユーザーの 1 時間当たりのコストの額です。 </li> 
        <li><b>1 時間当たりの請求</b>：ユーザーの 1 時間当たりの請求額です。</li> 
-       <li><b>カスタムフォーム</b>：既存のユーザーカスタムフォームをユーザーに関連付けます。カスタムフォームをユーザーに関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> フォームデザイナーを使用したフォームのデザイン </a> を参照してください。</li> 
+       <li><b>カスタムフォーム</b>：既存のユーザーカスタムフォームをユーザーに関連付けます。カスタムフォームをユーザーに関連付けるには、カスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成 </a>」を参照してください。</li> 
        <li><b>コメント</b>：提供されたフィールドにコメントを入力します。選択したすべてのユーザーに、アプリ内通知と、コメントが記載されたメール通知が送信されます。コメントは、ユーザーのプロファイルの「アップデート」タブに表示されます。</li> 
        </ul> </td> 
      </tr> 

@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '842'
 ht-degree: 97%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 97%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>カスタムフォーム</strong> </td> 
-      <td>キューのトピックに関連付けるカスタムフォームを選択します。イシューをキューのトピックに関連付ける前に、イシューのカスタムフォームを作成する必要があります。カスタムフォームの作成について詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> フォームデザイナーを使用したフォームのデザイン </a> を参照してください。</td> 
+      <td>キューのトピックに関連付けるカスタムフォームを選択します。イシューをキューのトピックに関連付ける前に、イシューのカスタムフォームを作成する必要があります。カスタムフォームの作成について詳しくは、「<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成 </a>」を参照してください。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>デフォルトの承認</strong></td> 

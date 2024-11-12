@@ -6,10 +6,10 @@ description: 「メモ：すべての FVG 記事をテキストモードでの�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 98%
+source-wordcount: '1567'
+ht-degree: 99%
 
 ---
 
@@ -195,7 +195,7 @@ ht-degree: 98%
       <td> <p>複数のフィールド間の計算でリストをグループ化する場合は、この行を追加して <code>valuefield</code> を置換します。</p> <p>オブジェクトの <code>valuefield</code> を <code>valueexpression</code> で使用する場合は、必ず中括弧で囲む必要があります。</p> <p>次のシナリオが存在します。</p> 
        <ol> 
         <li value="1"> <p>グループ化の名前を大文字で表示する場合は、次のように使用します。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span><code>group.0.valueexpression=UPPER({valuefield})</code> </p> <p>オブジェクトの <code>valuefield</code> は、API エクスプローラーで表示される通りのスペルになります。</p> </li> 
-        <li value="2">複数の <code>valuefields</code> を<code>valueexpression </code> 行にまとめて追加する場合は、それらをピリオドで区切る必要があります。<p>例えば、ポートフォリオの名前をタスクリストに大文字で表示する場合、<code>valueexpression</code> 行で以下のコードを使用します。</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p><code>valueexpression</code> 行でカスタムフィールドを使用する場合は、フィールド名の前に <code>DE:</code> を付けて、それがカスタムフィールドであることを示す必要があります。フィールドの名前は、インターフェイスでの表示どおりに綴られます。</p><p>重要：<span>一部のユーザーに対して権限が制限されているカスタムフォームセクションに配置されたカスタムフィールドを使用する場合、それらのユーザーがレポートに <code>valueexpression </code>の計算を表示すると、その計算は空白になります。カスタムフォームセクションの権限の調整について詳しくは、</span><span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> フォームデザイナーを使用したフォームのデザイン </a></span> を参照してください。</p><p>例えば、「開発者名」というラベルの付いたカスタムフィールドがあり、このフィールドでグループ化して大文字で表示する場合は、次の <code>valueexpression</code> を使用してそれを指定できます。</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>先行入力タイプのカスタムフィールドを参照する場合は、次の式を使用して、「開発者名」というラベルの付いたフィールドで選択されたオブジェクトの名前を参照します。</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
+        <li value="2">複数の <code>valuefields</code> を<code>valueexpression </code> 行にまとめて追加する場合は、それらをピリオドで区切る必要があります。<p>例えば、ポートフォリオの名前をタスクリストに大文字で表示する場合、<code>valueexpression</code> 行で以下のコードを使用します。</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例： </b></span></span><code>group.0.valueexpression=UPPER({project}.{portfolio}.{name})</code></p><p><code>valueexpression</code> 行でカスタムフィールドを使用する場合は、フィールド名の前に <code>DE:</code> を付けて、それがカスタムフィールドであることを示す必要があります。フィールドの名前は、インターフェイスでの表示どおりに綴られます。</p><p>重要：<span>一部のユーザーに対して権限が制限されているカスタムフォームセクションに配置されたカスタムフィールドを使用する場合、それらのユーザーがレポートに <code>valueexpression </code>の計算を表示すると、その計算は空白になります。カスタムフォームセクションの権限の調整について詳しくは、「<span href="help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"><a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成 </a></span> を参照してください </span>。</p><p>例えば、「開発者名」というラベルの付いたカスタムフィールドがあり、このフィールドでグループ化して大文字で表示する場合は、次の <code>valueexpression</code> を使用してそれを指定できます。</p><p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span><code>group.0.valueexpression=UPPER({DE:Developer Name}</code>)</p><p>先行入力タイプのカスタムフィールドを参照する場合は、次の式を使用して、「開発者名」というラベルの付いたフィールドで選択されたオブジェクトの名前を参照します。</p><p><code>valueexpression=UPPER({DE:Developer Name:name})</code></p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
