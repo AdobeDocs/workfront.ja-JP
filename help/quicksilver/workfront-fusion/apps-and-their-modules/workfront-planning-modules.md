@@ -11,10 +11,10 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: e067c5ff34c31060ca6fd392289d845f53a5ef3a
+source-git-commit: 8cb79a06f46c9a379f7394a6bef14f97d4ff7f98
 workflow-type: tm+mt
-source-wordcount: '1116'
-ht-degree: 84%
+source-wordcount: '1143'
+ht-degree: 81%
 
 ---
 
@@ -65,15 +65,55 @@ ht-degree: 84%
 
 [!DNL Workfront Planning] アカウントへの接続を、[!DNL Workfront Fusion] モジュール内から直接作成できます。
 
-1. 任意の [!DNL Workfront Planning] モジュールで、「[!UICONTROL 接続]」ボックスの横にある「**[!UICONTROL 追加]**」をクリックします。
-1. この接続の名前を入力します。
-1. 実稼動環境に接続するか、実稼動環境以外に接続するかを選択します。
-1. サービスアカウントと個人アカウントのどちらに接続するかを選択します。
-1. 「**[!UICONTROL SAML ログイン]**」をクリックして接続を作成し、モジュールに戻ります。
+1. 任意の [!DNL Adobe Workfront Planning] モジュールで、「接続」ボックスの横にある「**[!UICONTROL 追加]**」をクリックします。
+
+1. 次のフィールドに入力します。
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>この接続の名前を入力します。</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Environment]</td>
+          <td>実稼動環境と非実稼動環境のどちらに接続するかを選択します。</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type]</td>
+          <td>サービスアカウントに接続するか、個人アカウントに接続するかを選択します。</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]<p>（オプション）</p></td>
+          <td>[!DNL Adobe] [!UICONTROL Client ID] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]<p>（オプション）</p></td>
+          <td>[!DNL Adobe] [!UICONTROL Client Secret] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL Credentials details] セクションで確認できます。
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Authentication URL]<p>（オプション）</p></td>
+          <td>Workfrontのインスタンスで、この接続の認証に使用する URL を入力します。 <p>デフォルト値は <code>https://oauth.my.workfront.com/integrations/oauth2</code> です。</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Host prefix]</td>
+          <td>ホストのプレフィックスを入力します。<p>デフォルト値は <code>origin-</code> です。</p>
+        </tr>
+      </tbody>
+    </table>
+1. 「**[!UICONTROL 続行]**」をクリックして接続を保存し、モジュールに戻ります。
 
 ## [!DNL Adobe Workfront Planning] モジュールとそのフィールド
 
-### イベントの監視
+### トリガー
+
+#### イベントの監視
 
 このトリガーモジュールは、Workfront Planning でレコード、レコードタイプまたはワークスペースが作成、更新または削除されたときにシナリオを開始します。
 
@@ -110,7 +150,12 @@ ht-degree: 84%
   </tbody>
 </table>
 
-### レコードタイプの削除
+### アクション
+
+* [レコードタイプの削除](#delete-a-record-type)
+* [カスタム AI 呼び出しの実行](#make-a-custom-api-call)
+
+#### レコードタイプの削除
 
 このアクションモジュールは、Workfront Planning 内の 1 つのレコードタイプを ID で削除します。
 
@@ -135,7 +180,7 @@ ht-degree: 84%
   </tbody>
 </table>
 
-### カスタム API 呼び出しの実行
+#### カスタム API 呼び出しの実行
 
 このモジュールは、[!DNL Adobe Workfront Planning] API に対してカスタム API 呼び出しを実行します。
 
@@ -149,26 +194,10 @@ ht-degree: 84%
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Path]</p>
+        <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/ に対する相対パスを入力します。</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API version]</p>
-      </td>
-      <td>
-        <p>使用する API バージョンを選択します。バージョンを選択しない場合、デフォルトで最新バージョンが使用されます。</p>
-      </td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL API Path override]</p>
-      </td>
-      <td>
-        <p>https://&amp;ltWORKFRONT_DOMAIN&gt;/attask/api/&amp;ltAPI_VERSION&gt;/ に対する相対パスを入力します。</p>
+        <p>相対パスを入力します <code>https://(YOUR_WORKFRONT_DOMAIN)/maestro/api/</code></p>
       </td>
     </tr>
     <tr>
@@ -201,57 +230,18 @@ ht-degree: 84%
 </table>
 
 <!--
+### Searches
 
-### Delete a field
+#### Search records
 
-This action module deletes a single field in Workfront Planning by its ID.
-
->[!WARNING]
->
->Deleting a field in Workfront Planning deletes it and any data in it from every object of that record type in Workfront Planning.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the record type you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
-
-### Get a field 
-
-
-This action module retrieves a single field in Workfront Planning by its ID.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Field ID]</p>
-      </td>
-      <td>Enter or map the ID of the field you want to delete.</td> 
-      </tr>
-  </tbody>
-</table>
+This action module retrieves a list of records based on criteria you specify.
 
 -->
 
-### レコードを作成
+### 未分類
+
+
+#### レコードを作成
 
 この操作を実行すると、Workfront Planning に 1 つのレコードが作成されます。
 
@@ -414,11 +404,3 @@ Workfront Planning 内の 1 つのレコードを更新します。
      <tr>
   </tbody>
 </table>
-
-### レコードの検索
-
-このアクションモジュールは、指定した条件に基づいてレコードのリストを取得します。
-
->[!NOTE]
->
->このモジュールは作成中です。
