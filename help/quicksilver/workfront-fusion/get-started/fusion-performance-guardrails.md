@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: ec5ed146456c2f75926820f5421bf4feee121399
+source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 89%
+source-wordcount: '705'
+ht-degree: 76%
 
 ---
 
@@ -50,6 +50,10 @@ ht-degree: 89%
 ## ファイル
 
 * Fusion のファイルの総処理能力は、**1 GB** です。この制限は、メモリコストの合計に基づいています。すべての操作がそのコストに影響します。400 MB のファイルを 1 つダウンロードしてアップロードした場合、ファイルの処理能力の合計コストは 800 MB になります。
+* Workfront Ultimate プランを利用している組織は、1 GB を超えるファイル処理の増加にアクセスできます。 Fusion プラットフォームは、1 回のアクション（ファイルのアップロードなど）で最大 15 GB の個々のファイルをサポートできますが、データ転送に影響を与える他の要因があります。 単一アクションのファイルサイズの上限は、Fusion が接続する web サービスによって異なります。 データ転送は、1 回の実行に対する合計の処理です。 つまり、1 回の実行で複数のアクションが合計データ転送に貢献します。 Fusion は、40 分の実行制限に達するまでファイルを処理します。
+
+  詳しくは、[Adobe Workfront Fusion での大きなファイルの操作 ](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md) を参照してください。
+
 
 ## サーバーのメモリ使用量
 
