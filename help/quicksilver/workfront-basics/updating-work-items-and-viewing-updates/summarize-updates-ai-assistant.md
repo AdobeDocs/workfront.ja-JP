@@ -5,10 +5,11 @@ title: AI アシスタントで更新プログラムの要約を作成する
 description: '[ 更新 ] は、AI アシスタントを使用して更新を要約するボタンを含むオブジェクトです。'
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 11e7a376719e52db3f5e98afff44cb4b4d07db01
+exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
+source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 16%
+source-wordcount: '379'
+ht-degree: 11%
 
 ---
 
@@ -17,8 +18,6 @@ ht-degree: 16%
 Workfrontの AI アシスタントは、更新ストリームのコンテンツを要約できるので、Workfront オブジェクトに関するコメントやディスカッションをすばやく理解できます。
 
 [ コンテンツの要約 ] ボタンを使用して要約を生成するか、AI アシスタントにプロンプトを入力します。
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 >[!NOTE]
 >
@@ -60,8 +59,6 @@ Workfrontの AI アシスタントは、更新ストリームのコンテンツ�
 
   詳しくは、[AI アシスタントの有効化または無効化 ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
-<div class="preview">
-
 ## 「コンテンツの要約」ボタンを使用した要約
 
 1. 要約する更新ストリームにナビゲートします。
@@ -75,8 +72,6 @@ Workfrontの AI アシスタントは、更新ストリームのコンテンツ�
 1. （オプション）プロンプトを調整して、必要な情報が提供されるようにします。
 
    たとえば、Summarize Contents プロンプトを改良して、過去 7 日間ではなく過去 14 日間のコメントを要約することができます。
-
-   </div>
 
 ## AI アシスタントでのオブジェクトの要約
 
@@ -92,4 +87,3 @@ Workfrontの AI アシスタントは、更新ストリームのコンテンツ�
    AI アシスタントは、オブジェクトの大きさや複雑さに応じて、概要の生成に数分かかることがあります。
 
 1. AI アシスタント パネルで AI の概要を表示します。
-
