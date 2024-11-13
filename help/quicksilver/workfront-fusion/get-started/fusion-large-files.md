@@ -6,18 +6,21 @@ title: Adobe Workfront Fusion での大きなファイルの操作
 description: 現在、Workfrontおよび HTTP コネクタでは大きなファイルがサポートされています。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d9f7f1b9a97faf767965abce4f64c62cb9aad8d2
+exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
+source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
 workflow-type: tm+mt
-source-wordcount: '1068'
+source-wordcount: '1089'
 ht-degree: 4%
 
 ---
 
 # Adobe Workfront Fusion での大きなファイルの操作
 
-Workfront Fusion で強化されたデータ転送機能が使用できるようになり、シナリオで大幅に大きなファイルを処理できるようになりました。
+>[!IMPORTANT]
+>
+>大容量ファイル機能は、Workfront Ultimate のお客様のみが利用でき、段階的なロールアウトです。 Workfront Ultimate プランを使用するすべての Fusion 組織は、2025 年 1 月までに大容量ファイルを使用できるようになります。
 
-大容量ファイル機能は、Workfront Ultimate のお客様のみが利用できます。
+Workfront Fusion で強化されたデータ転送機能が使用できるようになり、シナリオで大幅に大きなファイルを処理できるようになりました。
 
 大きなファイルを処理するには、シナリオを更新する必要があります。
 
@@ -240,7 +243,3 @@ If a file is not on this list, it does not support large files. For these connec
 This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
 
 -->
-
-
-
-
