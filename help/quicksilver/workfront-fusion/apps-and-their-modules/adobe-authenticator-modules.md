@@ -9,9 +9,9 @@ description: Adobe Authenticator モジュールを使用すると、1 回の接
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 443bdb5caee4b8a7ba9df95b0befff27b7aaabc2
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1209'
 ht-degree: 34%
 
 ---
@@ -180,13 +180,14 @@ Adobe Authenticator接続は、Adobe Developer Console上の 1 つのプロジ�
 
 ## モジュール
 
+* [カスタム API 呼び出しの実行](#make-a-custom-api-call)
+* [カスタム API 呼び出しの実行（レガシー）](#make-a-custom-api-call-legacy)
+
 ### カスタム API 呼び出しの実行
 
-このアクションモジュールを使用すると、任意のAdobe API を呼び出すことができます。
+このアクションモジュールを使用すると、任意のAdobe API を呼び出すことができます。 テキストのみの本文ではなく、大きなファイルをサポートします。
 
->[!TIP]
->
->接続先の API の URL 全体を入力する必要があります。 このモジュールは相対 URL を受け付けません。
+このモジュールは、2024 年 11 月 14 日（PT）に使用可能になりました。 この日付より前に設定されたAdobe Authenticator/カスタム API 呼び出しを行では、大きなファイルを処理せず、カスタム API 呼び出しを行う（レガシー） モジュールと見なされるようになりました。
 
 <table>
   <col/>
@@ -198,10 +199,83 @@ Adobe Authenticator接続は、Adobe Developer Console上の 1 つのプロジ�
     </tr>
     <tr>
       <td role="rowheader">
+        <p>[!UICONTROL Base URL]</p>
+      </td>
+      <td>
+        <p>接続先の API ポイントのベース URL を入力します。</p>
+      </td>
+    <tr>
+      <td role="rowheader">
         <p>[!UICONTROL URL]</p>
       </td>
       <td>
-        <p>接続先の API ポイントの URL 全体を入力します。</p>
+        <p>ベース URL に対する相対パスを入力します。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Method]</p>
+   <td> <p>API 呼び出しの設定に必要な HTTP リクエストメソッドを選択します。詳しくは、<a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">[!DNL Adobe Workfront Fusion]</a>での HTTP リクエストメソッドを参照してください。</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>リクエストのヘッダーを標準 JSON オブジェクトの形式で追加します。</p>
+        <p>例： <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion は、認証ヘッダーを自動的に追加します。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
+      <td>
+        <p>リクエストクエリ文字列を入力します。</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body Type]</td>
+   <td> この API リクエストの本文タイプを選択：
+   <ul>
+   <li>application/x-www-form-urlencoded</li>
+   <li>生</li>
+   <li>multipart/form-data</li>
+   </ul>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Fields]  </td>
+      <td>
+        <p>APU 要求に追加するファイルごとに、<b> アイテムを追加 </b> をクリックしてファイルのテキストを入力するか（生データの場合）、キー <code>uploadedFile</code> を入力してファイルのデータをマッピングします。</p>
+      </td>
+    </tr>
+    </tr>
+  </tbody>
+</table>
+
+### カスタム API 呼び出しの実行（レガシー）
+
+このアクションモジュールを使用すると、任意のAdobe API を呼び出すことができます。
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>Adobe Authenticator モジュールへの接続を作成する手順については、この記事の <a href="#create-a-connection" class="MCXref xref" > 接続の作成 </a> を参照してください。</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Base URL]</p>
+      </td>
+      <td>
+        <p>接続先の API ポイントのベース URL を入力します。</p>
+      </td>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>ベース URL に対する相対パスを入力します。</p>
       </td>
     </tr>
     <tr>

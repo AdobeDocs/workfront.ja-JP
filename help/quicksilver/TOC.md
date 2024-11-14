@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: cfaacc4137ebfa7f2ed057522d43bd82715011df
+source-git-commit: 7f9e9a255e6abefe20ebf018cff82ccc3e4cbe20
 workflow-type: tm+mt
-source-wordcount: '14583'
+source-wordcount: '14590'
 ht-degree: 91%
 
 ---
@@ -183,7 +183,8 @@ ht-degree: 91%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion リリースアクティビティ {#fusion-release}
          * [Adobe Workfront Fusion リリースアクティビティ](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-         * [Workfront Fusion リリースアクティビティ：2024年11月5日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
+         * [Workfront Fusion リリースアクティビティ：2024年11月11日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
+         * [Workfront Fusion リリースアクティビティ：2024年11月4日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
          * [Workfront Fusion リリースアクティビティ：2024年10月21日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
          * [Workfront Fusion リリースアクティビティ：2024年10月7日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
          * [Workfront Fusion リリースアクティビティ：2024年9月30日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)

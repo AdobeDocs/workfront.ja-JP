@@ -7,9 +7,9 @@ description: 現在、Workfrontおよび HTTP コネクタでは大きなファ�
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 5e32c0dd3378fc49f8687668f11daa5dc838c587
+source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1100'
 ht-degree: 4%
 
 ---
@@ -72,6 +72,8 @@ Workfront Fusion で強化されたデータ転送機能が使用できるよう
 
 * Workfront / ドキュメントをアップロード
 * Adobe Experience Manager Assets / ドキュメントをアップロード
+* Workfront Proof / ファイルをアップロード
+* Adobe Authenticator / カスタム API 呼び出しを行う
 * HTTP
 
 その他のコネクタは、今後のリリースでサポートされる予定です。
