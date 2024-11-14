@@ -7,10 +7,10 @@ description: Adobe Workfront を使用すると、作業アイテムに関係の
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 51%
+source-wordcount: '541'
+ht-degree: 46%
 
 ---
 
@@ -44,10 +44,14 @@ ht-degree: 51%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：ライト以上</p>
-   <p>または</p>
-   <p>現在：レビュー以上</p>
-   </td>
+   <p>ユーザーのプロファイルページからメッセージを送信するには、<br> が必要です。
+   新規：Light 以上 <br>
+   または <br>
+   現在：レビューまたはそれ以上</p>
+   <p>ユーザーリストからメッセージを送信するには、次が必要です。<br>
+   新規：標準 <br>
+   または <br>
+   現在：仕事以上</p></td>
   </tr> 
  </tbody> 
 </table>
