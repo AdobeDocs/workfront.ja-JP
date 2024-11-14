@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8fa0c5573008a625ae10af051eeabfb6a8519a01
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '563'
+ht-degree: 3%
 
 ---
 
@@ -17,6 +17,24 @@ ht-degree: 0%
 ここでは、2025 年第 1 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対するマイナーな更新について説明します。
 
 2025 年第 1 四半期リリースで使用可能なすべての変更のリストについては、[2025 年第 1 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md) を参照してください。
+
+## ドキュメント統合のルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024年11月14日（PT）、実稼動版リリース（すべてのお客様向け）：2024年11月14日（PT）
+
+カスタム統合を設定する設定（設定/ドキュメント/カスタム統合）の領域に対してパフォーマンスのアップグレードを行いました。 このアップグレードでは、領域にわずかな視覚的な変更が加えられます。 機能は変更されていません。
+
+## 会社のメンバーページと会社の請求料率ページのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 11 月 4 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月）の実稼動、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の実稼動
+
+「会社のメンバー」ページと「会社の請求レート」ページを、Workfrontの他のエリアと一致する、より現代的なデザインに更新しました。 会社のメンバーシップにアクセスするには、設定/会社/会社名を選択/会社メンバーを左パネルで選択します。 会社の請求レートには、設定/会社/会社名を選択/左パネルで「請求レート」を選択してアクセスします。
+
+詳しくは、[ 会社の作成と編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) および [ 会社のメンバーシップの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md) を参照してください。
 
 ## メインナビゲーションエリアとセカンダリナビゲーションエリアのルックアンドフィールの更新
 

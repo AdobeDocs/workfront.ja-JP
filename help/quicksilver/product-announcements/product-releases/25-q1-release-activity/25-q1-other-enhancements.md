@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: e02fd7dc6f1655b69c0433465a51f4c53d486570
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 16%
+source-wordcount: '303'
+ht-degree: 11%
 
 ---
 
@@ -17,6 +17,16 @@ ht-degree: 16%
 このページでは、2025 年第 1 四半期リリースでプレビュー環境に加えられた機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
+
+## カスタムフォーム内のセクションが折りたたみ可能および展開可能になりました
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 11 月 11 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月）の場合、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の場合
+
+複数のセクションを持つカスタムフォームをオブジェクトに添付する場合、フォームの上部にあるデフォルトセクションを除くすべてのセクションを折りたたんだり展開したりできるようになりました。 管理者は、フォームデザイナーでフォームをプレビューする際にも、この機能を確認できます。
+
+カスタム・フォームへのセクションの追加の詳細は、[ フォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
 
 ## AI アシスタントが、プロジェクト、タスク、問題を操作できるようになりました
 

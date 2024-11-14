@@ -4,10 +4,11 @@ description: 2025年第 1 四半期のホームの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 2517e07cacf9563ca3927db0ba3415f81ab41526
+exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
+source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 46%
+source-wordcount: '190'
+ht-degree: 33%
 
 ---
 
@@ -17,6 +18,21 @@ ht-degree: 46%
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
 
+## 優先度のマイフォーカス列のオプションを更新しました
+
+>[!NOTE]
+>
+>プレビューリリース：2024年11月14日（PT）、実稼動版リリース（すべてのお客様向け）：2024年11月14日（PT）
+
+マイフォーカス列のオプションを更新して、より直感的に作業の優先順位を付け、並べ替えられるようにしました。 新しいラベルには、以下が含まれます
+
+* 緊急
+* 高
+* 標準
+* 低
+
+この変更により、緊急度に基づいて作業を表示および整理しやすくなります。 詳しくは、[ 重要な作業項目の優先順位の設定 ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
+
 ## プロジェクトの詳細を優先度で表示する
 
 >[!NOTE]
@@ -25,4 +41,4 @@ ht-degree: 46%
 
 優先度の作業リストからプロジェクトの詳細とコメントを表示できるようになりました。
 
-<!--For more information, see [View project and task details in the Priorities worklist](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).-->
+詳しくは、[ プロジェクトとタスクの詳細の表示：優先度ワークリスト ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md) を参照してください。
