@@ -7,7 +7,7 @@ description: Adobe Workfront を使用すると、作業アイテムに関係の
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 019701abe441169f1f898df6b5cb1a6f743753f3
+source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 51%
@@ -16,7 +16,7 @@ ht-degree: 51%
 
 # 他のユーザーにダイレクトメッセージを送信
 
-{{highlighted-preview}}
+{{preview-fast-release-general}}
 
 [!DNL Adobe Workfront] を使用すると、作業アイテムに関係のないメッセージを他の [!DNL Workfront] ユーザーに直接、迅速かつ簡単に送信できます。この節で説明するように送信されたメッセージは、ユーザーのプロファイルページの「[!UICONTROL  更新 ]」タブに表示され、すべてのユーザーに表示されます。 更新について詳しくは、[作業アイテムの更新および更新の表示：記事インデックス](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)を参照してください。
 
