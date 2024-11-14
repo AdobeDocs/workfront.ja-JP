@@ -6,10 +6,10 @@ description: Workfront と Experience Manager Assets、または Assets Essentia
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
-source-git-commit: 63bcf5391dc982b53634dccd7150205a7d09f308
+source-git-commit: 68692d49420fe3f3a1f8294d77fe8b335845acc7
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 95%
+source-wordcount: '281'
+ht-degree: 94%
 
 ---
 
@@ -45,7 +45,7 @@ Workfront と Experience Manager Assets、または Assets Essentials の統合�
 * Adobe Experience Manager Assets as a Cloud Service
 * Adobe Experience Manager Assets Essentials
 
-## サポートされるクラウドサービスプロバイダー
+## Workfrontでサポートされるクラウドサービスプロバイダー
 
 * AWS（Amazon Web Services）
 * Azure

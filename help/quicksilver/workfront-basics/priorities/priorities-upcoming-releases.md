@@ -5,13 +5,13 @@ description: 今後の優先度リリースに関する情報の表示
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 5e103da5f938fabf01fead5161263c4324e1c703
+exl-id: 749f4da8-6ffb-4b23-bf3e-18f195df80c9
+source-git-commit: a6ab22e62fa15c6922d7f749b2df7350f6d7b5a6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '152'
 ht-degree: 0%
 
 ---
-
 
 # 優先度：今後のリリース
 
@@ -21,8 +21,8 @@ ht-degree: 0%
   <tr>
     <td><strong> 予定 </strong>
     <ul>
-    <li><strong> 作業リストからプロジェクト詳細にアクセス </strong>:「プロジェクト詳細」タブには、プロジェクトの詳細、コメント、ドキュメントが表示されます。</li>
-   <li><strong> 「ドキュメント」タブでのドキュメントの表示 </strong>:「ドキュメント」タブでは、タスクおよびイシューにアップロードされたドキュメントを表示できます。 ドキュメントのプレビューを表示し、コメントを残すことができます。 </li>
+
+<li><strong> 「ドキュメント」タブでのドキュメントの表示 </strong>:「ドキュメント」タブでは、タスクおよびイシューにアップロードされたドキュメントを表示できます。 ドキュメントのプレビューを表示し、コメントを残すことができます。 </li>
     </ul>
     </td>
   </tr>
