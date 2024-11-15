@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: use-lists
-title: ' [!DNL Adobe Workfront] のリスト内のインライン編集項目'
+title: ' [!DNL Adobe Workfront] のリスト内の項目のインライン編集'
 description: オブジェクトがリストまたはレポートに表示されるときは、オブジェクトをインラインで編集できます。リストまたはレポートに表示されるオブジェクトの情報を編集すると、オブジェクトは直ちに更新されます。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 96%
+source-wordcount: '709'
+ht-degree: 92%
 
 ---
 
 # [!DNL Adobe Workfront] のリスト内のインライン編集項目
+
+<!--Audited: 11/2024-->
 
 オブジェクトがリストまたはレポートに表示されるときは、オブジェクトをインラインで編集できます。リストまたはレポートに表示されるオブジェクトの情報を編集すると、オブジェクトは直ちに更新されます。
 
@@ -24,14 +26,18 @@ ht-degree: 96%
 [!DNL Adobe Workfront] ではリストまたはレポートに表示されるほとんどのオブジェクトはインラインで編集できますが、次のような制限があります。
 
 * 計算されたフィールドや計算である [!DNL Workfront] ビルトインフィールドは編集できません。
-* リスト内のオブジェクトに直接関連付けられているフィールドのみを編集できます。リスト内のオブジェクトに関連付けられたオブジェクトに属するフィールドは編集できません。\
-   例えば、タスクレポートでタスクのステータスは編集できますが、同じレポートでタスクが関連付けられているプロジェクトの名前は編集できません。プロジェクトの名前は、プロジェクトレポートでのみ編集できます。
-* リストのビューにデフォルトの通貨が表示されていない場合、フィールドはインライン編集できません。\
-   デフォルトの通貨の表示については、[独自の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)記事の[独自の通貨を使用したレポートの編集](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)節を参照してください。
+* リスト内のオブジェクトに直接関連付けられているフィールドのみを編集できます。リスト内のオブジェクトに関連付けられたオブジェクトに属するフィールドは編集できません。
+
+  例えば、タスクレポートでタスクのステータスは編集できますが、同じレポートでタスクが関連付けられているプロジェクトの名前は編集できません。プロジェクトの名前は、プロジェクトレポートでのみ編集できます。
+* リストのビューにデフォルトの通貨が表示されていない場合、フィールドはインライン編集できません。
+
+  デフォルトの通貨の表示については、[独自の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)記事の[独自の通貨を使用したレポートの編集](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies)節を参照してください。
 * リストに表示されるフラグとアイコンは編集できません。
 * 他のレポートから取得されたレポートフィールドをインライン編集することはできません。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -40,25 +46,34 @@ ht-degree: 96%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Review] 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+    <p>新規：</p>
+   <ul><li><p>投稿者以上 </p></li>
+   </ul>
+
+<p>現在：</p>
+   <ul><li><p>リクエスト以上</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>リストが含まれるエリアへの [!UICONTROL Edit] アクセス権</p> <p>例えば、プロジェクト内のタスクをインライン編集するには、プロジェクトへの [!UICONTROL Edit] アクセス権が必要です。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されているか [!DNL Workfront] 管理者に確認してください。<br>[!DNL Workfront] 管理者がアクセスレベルを変更する方法に関して詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>リストが含まれるエリアへの [!UICONTROL Edit] アクセス権</p> <p>例えば、プロジェクト内のタスクをインライン編集するには、プロジェクトへの [!UICONTROL Edit] アクセス権が必要です。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>[!UICONTROL Manage]</p> <p>また、カスタムフィールド、ステータスなど、特定のフィールドを編集する権限が必要です。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>[!UICONTROL Manage]</p> <p>また、カスタムフィールド、ステータスなど、特定のフィールドを編集する権限が必要です。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## オブジェクトをインラインで編集
 
@@ -72,13 +87,10 @@ ht-degree: 96%
    >
    >複数のページがある場合は、次を使用してオブジェクトを特定できます。
    >
-   >   
-   >   
-   >   * **ページネーション**：戻る矢印と進む矢印をクリックして、ページ間を移動します。\
+   >   * **ページネーション**：戻る矢印と進む矢印をクリックして、ページ間を移動します。
    >     リストの右下隅にある[!UICONTROL ページネーション]リストをスクロールすると、エリアは固定状態のままになります。
-   >   * **クイックフィルター**：フィルターアイコンをクリックするか、Alt + F キーを押してクイックフィルターを開き、テキストを入力して、入力したテキストを含む項目のみを表示します。\
+   >   * **クイックフィルター**：フィルターアイコンをクリックするか、Alt + F キーを押してクイックフィルターを開き、テキストを入力して、入力したテキストを含む項目のみを表示します。
    >     クイックフィルターはリストツールバーにあります。詳しくは、[クイックフィルターのリストへの適用](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)を参照してください。
-
 
    フィールドが編集可能な場合は、リストに表示されるフィールドとその他すべてのフィールドが編集可能なセルに変わります。
 

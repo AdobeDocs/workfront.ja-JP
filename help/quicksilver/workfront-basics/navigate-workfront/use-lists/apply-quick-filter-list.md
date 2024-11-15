@@ -1,22 +1,20 @@
 ---
 navigation-topic: use-lists
-title: クイックフィルターをリストに適用
+title: リストへのクイックフィルターの適用
 description: オブジェクトのリストでクイックフィルターを使用すると、重要な項目だけを見つけるのに役立つので、簡単にレビュー、更新、他のユーザーとの共有を行うことができます。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 100%
+source-wordcount: '838'
+ht-degree: 89%
 
 ---
 
 # クイックフィルターをリストに適用
 
-<!--
-{{highlighted-preview}}
--->
+<!--Audited:11/2024-->
 
 オブジェクトのリストでクイックフィルターを使用すると、重要な項目だけを見つけるのに役立つので、簡単にレビュー、更新、他のユーザーとの共有を行うことができます。
 
@@ -35,6 +33,7 @@ ht-degree: 100%
 * [!UICONTROL レポート]エリア
 * ドキュメントのリストとレポート
 * 複数の[!UICONTROL 設定]エリア
+
   >[!NOTE]
   >
   >クイックフィルターは、次の設定エリアで使用できます。[!UICONTROL グループ]、[!UICONTROL チーム]、[!UICONTROL 会社]、[!UICONTROL スケジュール]、[!UICONTROL レイアウトテンプレート]、および[!UICONTROL カスタムフォーム]。
@@ -52,6 +51,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -59,25 +60,35 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] プラン*</b></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>[!DNL Adobe Workfront] ライセンス*</b></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+    <p>新規：</p>
+   <ul><li><p>投稿者以上 </p></li>
+   </ul>
+
+<p>現在：</p>
+   <ul><li><p>リクエスト以上</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>アクセスレベル設定*</b></td> 
-   <td> <p>リストが存在するエリアへの表示アクセス権</p> <p>例えば、プロジェクトにクイックフィルターを適用するには、プロジェクトへの [!UICONTROL View] アクセス権が必要です。</p> <p>まだアクセス権がない場合は、[!DNL Workfront]管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。<br>[!DNL Workfront] 管理者がアクセスレベルを変更する方法に関して詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>リストが存在するエリアへの表示アクセス権</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><b>オブジェクト権限</b></td> 
-   <td> <p>[!UICONTROL View]</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>リストが含まれるオブジェクトに対する [!UICONTROL ビュー ] アクセス許可</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプ、またはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
+
 
 ## クイックフィルターをリストに適用する
 
@@ -109,7 +120,7 @@ ht-degree: 100%
    1. リスト内の項目をすべて選択するか、複数選択して、「**[!UICONTROL 編集]**」をクリックして、項目を一括編集します。
    1. 編集が完了したら、「**[!UICONTROL 変更を保存]**」をクリックします。
 
-1. （オプション）クイックフィルターで見つかった項目を書き出すには、リスト内の項目のすべてまたは複数を選択して、「**[!UICONTROL 書き出し]**」をクリックします。
+1. （オプション）クイックフィルターで見つかった項目を書き出すには、リスト内のすべての項目または複数の項目を選択して、「**[!UICONTROL 書き出し]**」アイコンをクリックし ![](assets/export.png) す。
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
@@ -118,6 +129,6 @@ ht-degree: 100%
    >クイックフィルター検索で見つかった項目のみが、選択したファイルに書き出されます。リストを書き出す前に項目を選択しない場合、完全なフィルターなしリストが書き出されます。\
    >詳しくは、[リストを書き出す](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)を参照してください。
 
-1. （オプション）フィルターを適用した結果を消去するには、ウィンドウの右上隅にある「**[!UICONTROL クイックフィルター]**」アイコンをクリックします。\
-   または\
-   ページを更新します。
+1. （オプション）フィルターされた結果をクリアするには、ウィンドウの右上隅にある **[!UICONTROL クイックフィルター]** アイコンをクリックします。
+または
+ページを更新します。

@@ -3,16 +3,18 @@ navigation-topic: use-lists
 title: ' [!DNL Adobe Workfront] のリストの概要'
 description: ' [!DNL Adobe Workfront]  内のオブジェクトのリストを表示して、オブジェクトの開始日と期限、オブジェクトに割り当てられたユーザー、オブジェクトに関連付けられている他のオブジェクトなどの情報を取得できます。'
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 99%
+source-wordcount: '2284'
+ht-degree: 93%
 
 ---
 
 # [!DNL Adobe Workfront] のリストの概要
+
+<!--Audited: 11/2024-->
 
 [!DNL Adobe Workfront] 内のオブジェクトのリストを表示して、オブジェクトの開始日と期限、オブジェクトに割り当てられたユーザー、オブジェクトに関連付けられている他のオブジェクトなどの情報を取得できます。
 
@@ -29,6 +31,8 @@ ht-degree: 99%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -36,25 +40,64 @@ ht-degree: 99%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+    <p>新規：</p>
+   <ul><li><p>投稿者以上 </p></li>
+   </ul>
+
+<p>現在：</p>
+   <ul><li><p>リクエスト以上</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>フィルター、ビュー、グループに対する [!UICONTROL View] 以上のアクセス権</p> <P>[!UICONTROL Setup] エリアの項目の場合、項目の管理アクセス権、または [!UICONTROL System Administrator] のアクセスレベルが必要です。</P> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されているか [!DNL Workfront] 管理者に確認してください。<br>[!DNL Workfront] 管理者がアクセスレベルを変更する方法に関して詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>共有のアクセス権を持つ [!UICONTROL View] 以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td>
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>共有へのアクセス権を持つフィルター、表示、グループ化への表示以上の権限 </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスの種類、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
+
+<!--Old access: 
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td> <p>[!UICONTROL View] or higher access to filters, views, groupings</p> <P>For items in the [!UICONTROL Setup] area, you need administrative access for the item or the [!UICONTROL System Administrator] access level.</P> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level.<br>For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>[!UICONTROL View] or higher permissions with access to share</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td>
+  </tr> 
+ </tbody> 
+</table>
+
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+-->
 
 ## オブジェクトリスト
 
@@ -315,19 +358,23 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td><strong>インライン編集</strong> </td> 
-   <td> <p>リスト内のオブジェクトとその情報を直接編集します。</p> <p>詳しくは、<a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">[!DNL Adobe Workfront]</a> のリスト内の項目のインライン編集を参照してください。</p> </td> 
+   <td> <p>リスト内のオブジェクトとその情報を直接編集します。</p> <p>詳しくは、<a href="../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md" class="MCXref xref">[!DNL Adobe Workfront]</a> のリスト内の項目のインライン編集を参照してください。</p> 
+   <p><b>メモ：</b></p>
+   <p>グループ化では、インライン編集はできません。</p>
+
+</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td><strong>[!UICONTROL Summary] を使用した更新</strong> </td> 
-   <td> <p>[!UICONTROL Summary] パネルを使用して、プロジェクトレベルのタスクとイシューを更新します。</p> <p>ヒント：概要は一部のオブジェクトには使用できません。また、タスクやイシューのレポートでは使用できません。</p> <p>詳しくは、<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">概要について</a>を参照してください。</p> </td> 
+   <td> <p>[!UICONTROL Summary] パネルを使用して、プロジェクトレベルのタスクとイシューを更新します。</p> <p><b>ヒント：</b></p> <p>概要は、一部のオブジェクトでは使用できず、タスクまたは問題のレポートでも使用できません。</p> <p>詳しくは、<a href="../../../workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">概要について</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>リスト表示をカスタマイズ</strong> </td> 
-   <td> <p>リストの外観、列の配置、項目の並べ替え順、表示する項目の数をカスタマイズします。</p> <p>メモ：ページに表示する項目数についての変更は、[!DNL Workfront] からログアウトしたときや、ブラウザーを閉じたときに元に戻ります。また、8 時間の期間が経過すると、変更が元に戻る場合もあります。</p> <p>詳しくは、<a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">リストの表示方法の変更</a>を参照してください。</p> </td> 
+   <td> <p>リストの外観、列の配置、項目の並べ替え順、表示する項目の数をカスタマイズします。</p> <p><b>メモ：</b></p> <p>ページに表示する項目数に加えた変更は、[!DNL Workfront] からログアウトした場合やブラウザーを閉じた場合に元に戻ります。 また、8 時間の期間が経過すると、変更が元に戻る場合もあります。</p> <p>詳しくは、<a href="../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md" class="MCXref xref">リストの表示方法の変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>クイックフィルター</strong> </td> 
-   <td> <p>クイックフィルターを適用すると、重要な項目だけを検索して、簡単にレビューや更新、他のユーザーとの共有を行うことができます。</p> <p>重要：クイックフィルターを使用して検索語を含む項目を検索するとき、画面に表示されている項目か、ページの下までスクロールした後に表示される項目かを指定できます。ブラウザーの検索機能を使用すると、既に画面に表示されている項目のみを検索できます。リストに複数のページがある場合、クイックフィルターは現在のページの項目のみを検索します。</p> <p>詳しくは、<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">クイックフィルターのリストへの適用</a>を参照してください。</p> </td> 
+   <td> <p>クイックフィルターを適用すると、重要な項目だけを検索して、簡単にレビューや更新、他のユーザーとの共有を行うことができます。</p> <p><b>重要：</b></p> <p> クイックフィルターを使用すると、検索語を含む項目を検索できます。その項目は、画面に表示されるか、ページの下部までスクロールした後に表示されます。 ブラウザーの検索機能を使用すると、既に画面に表示されている項目のみを検索できます。リストに複数のページがある場合、クイックフィルターは現在のページの項目のみを検索します。</p> <p>詳しくは、<a href="../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md" class="MCXref xref">クイックフィルターのリストへの適用</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td><strong>書き出し</strong> </td> 
@@ -443,7 +490,7 @@ ht-degree: 99%
   <tr> 
    <td> <img src="assets/summary-panel-icon.png"> </td> 
    <td>[!UICONTROL Summary]</td> 
-   <td> <p>選択した項目の [!UICONTROL Summary] ボックスの表示と非表示を切り替えます。</p> <p>これは、タスクとイシューに対してのみ使用できます。</p> <p>新しい [!DNL Adobe Workfront] エクスペリエンスの [!UICONTROL Summary] パネルについて詳しくは、<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref">概要の概要</a>を参照してください。</p> </td> 
+   <td> <p>選択した項目の [!UICONTROL Summary] ボックスの表示と非表示を切り替えます。</p> <p>これは、タスクとイシューに対してのみ使用できます。</p> <p>[!UICONTROL の概要 ] パネルについては、<a href="/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md" class="MCXref xref"> 概要の概要 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/remove-icon---x-in-circle.png"> </td> 
@@ -583,13 +630,6 @@ ht-degree: 99%
 
   ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
-[!DNL Adobe Workfront] では両方のタイプのリストが使用されます。
-
-[!DNL Adobe Workfront] のリストとレポートは、次のもの以外はすべて、更新されたリストです。
-
-* [!UICONTROL 設定]エリアのリスト
-* [!UICONTROL レポート]エリアのリスト
-
 次の表に、[!DNL Workfront] の従来のリストと更新されたリストの相違点をいくつか示します。
 
 <!--
@@ -604,16 +644,7 @@ ht-degree: 99%
    <td><b>従来のリスト</b></td> 
    <td><b>更新されたリスト</b></td> 
   </tr> 
-  <tr> 
-   <td> <p>従来のフォント、列ヘッダー、青系統のカラースキーム</p> </td> 
-   <td> <p>更新されたフォント、列ヘッダー、グレー系統のカラースキーム</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>インライン編集に時間がかかる</p> </td> 
-   <td> <p>インライン編集が高速化</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>デフォルトで <strong>100 個</strong>の項目を表示</p> </td> 
+  <td> <p>デフォルトで <strong>100 個</strong>の項目を表示</p> </td> 
    <td> <p>デフォルトで<strong>すべて</strong>の項目または最大で <strong>2000 個</strong>の項目を表示</p> </td> 
   </tr> 
   <tr> 
@@ -622,7 +653,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td>リッチテキスト形式のカスタムフィールドをインライン編集することはできません。</td> 
-   <td> <p>書式設定機能付きのカスタムフィールドのテキストは、太字、斜体、下線、箇条書き、段落番号、ハイパーリンク、ブロック引用符を使用できるように設定できます。</p> <p>詳しくは、「<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成/a&gt;」を参照してください。</p> </td> 
+   <td> <p>書式設定機能付きのカスタムフィールドのテキストは、太字、斜体、下線、箇条書き、段落番号、ハイパーリンク、ブロック引用符を使用できるように設定できます。</p> <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md"> カスタムフォームの作成 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>条件付き書式により、リスト内のリンクのテキストカラーを変更可能</td> 

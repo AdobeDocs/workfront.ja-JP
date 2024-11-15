@@ -1,24 +1,28 @@
 ---
 navigation-topic: use-lists
-title: リストの書き出し
+title: リストのエクスポート
 description: オブジェクトのリストを Adobe Workfront から書き出すことができます。Workfront のオブジェクトのリストに 2,000 個を超える項目が含まれている場合、リストを書き出すことが、1 ページでリスト内のすべての項目をレビューする唯一の方法です。
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '351'
+ht-degree: 81%
 
 ---
 
 # リストの書き出し
+
+<!--Audited: 11/2024-->
 
 [!DNL Adobe Workfront] からオブジェクトのリストを書き出すことができます。[!DNL Workfront] のオブジェクトのリストに 2,000 個を超える項目が含まれている場合、リストを書き出すことが、1 ページでリスト内のすべての項目をレビューする唯一の方法です。
 
 書き出し形式と制限について詳しくは、[データの書き出し](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -27,31 +31,40 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+    <p>新規：</p>
+   <ul><li><p>投稿者以上 </p></li>
+   </ul>
+
+<p>現在：</p>
+   <ul><li><p>リクエスト以上</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>リストが表示されているエリアへの[!UICONTROL View]アクセス権</p> <p>例えば、プロジェクトのタスクリストを書き出すには、プロジェクトへの [!UICONTROL View] アクセス権が必要です。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか [!DNL Workfront] 管理者にお問い合わせください。<br>[!DNL Workfront] 管理者がアクセスレベルを変更する方法に関して詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>リストが存在するエリアへの表示アクセス権</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>[!UICONTROL View]</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>リストが含まれるオブジェクトに対する [!UICONTROL ビュー ] アクセス許可</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## リストの書き出し
 
 1. オブジェクトのリストに移動します。
-1. （オプション）書き出しの前にリストに適用するフィルター、表示、およびグループ化を選択します。\
-   フィルター、ビュー、グループ化について詳しくは、[レポート要素：フィルター、ビュー、およびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
+1. （オプション）書き出す前にリストに適用するフィルター、ビュー、グループ化を選択します。
+フィルター、ビュー、グループ化について詳しくは、[レポート要素：フィルター、ビュー、およびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
 
 1. （オプション）リスト内の特定の項目のみを書き出すには、書き出したファイルに含めるリスト内のすべての項目を選択します。
 
@@ -69,7 +82,7 @@ ht-degree: 100%
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. **[!UICONTROL 書き出し]** ![書き出し](assets/export.png) をクリックします。
+1. **[!UICONTROL エクスポート]** アイコン ![ エクスポート ](assets/export.png) をクリックします。
 
 1. 次の形式から選択します。
 
@@ -80,5 +93,5 @@ ht-degree: 100%
 
      これにより、リストのコピーがこれらの形式のいずれかに書き出され、コンピューターに保存されます。
 
-1. （オプション）適切なアプリケーションを使用して、書き出されたリストを開きます。\
-   リスト内のすべての項目は、web アプリケーションの画面に表示されるかどうかに関わらず、書き出されたファイルに表示されます。
+1. （オプション）適切なアプリケーションを使用して、書き出されたリストを開きます。
+リスト内のすべての項目は、web アプリケーションの画面に表示されるかどうかに関わらず、書き出されたファイルに表示されます。

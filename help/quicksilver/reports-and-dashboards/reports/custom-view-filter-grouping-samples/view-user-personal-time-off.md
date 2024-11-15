@@ -3,18 +3,20 @@ content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「表示：ユーザーの個人の休暇」
-description: 「表示：ユーザーの個人の休暇」
-author: Lisa and Nolan
+description: '表示：ユーザーの個人的な休暇'
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 661f925b4e485069122ef4278b2914d206387974
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 100%
+source-wordcount: '257'
+ht-degree: 88%
 
 ---
 
 # 表示：ユーザーの個人の休暇
+
+<!--Audited: 11/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
@@ -24,6 +26,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -31,33 +35,43 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>表示の変更をリクエスト </p>
-   <p>レポートを変更するためのプラン</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p> 現在： 
+   <ul>
+   <li>表示の変更をリクエスト</li> 
+   <li>レポートを変更するためのプラン</li>
+   </ul>
+     </p>
+     <p> 新規： 
+   <ul>
+   <li>ビューを変更する場合は Contributor</li> 
+   <li>レポートを変更する場合は Standard</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr>  
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ユーザーの個人の休暇を表示
 
-1. 右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**レポート／新規レポート**&#x200B;をクリックします。
-
+1. 右上隅の **メインメニュー** アイコン ![](assets/main-menu-icon.png) をクリックし、**レポート /新しいレポート** をクリックします。
 1. ドロップダウンメニューから、「**休暇**」を選択します。
 1. 「**保存して閉じる**」をクリックします。
 

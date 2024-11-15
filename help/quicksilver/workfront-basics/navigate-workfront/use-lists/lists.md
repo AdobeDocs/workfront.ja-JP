@@ -1,21 +1,25 @@
 ---
 navigation-topic: navigate-workfront
 title: ' [!DNL Adobe Workfront] のリスト'
-description: Adobe Workfront でリストを使用する方法については、以下の記事を参照してください。
+description: Adobe Workfrontのオブジェクトはリストで表示できます。 リストにフィルター、ビュー、グループ化を適用して、表示される情報を変更できます。 このセクションには、リストに関する次の記事が含まれます
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 recommendations: noDisplay, noCatalog
 exl-id: 71819834-2e2d-4bdd-8c82-a01d2849355e
-source-git-commit: 34ce6492e14399926aed910bf9ed4d8688904341
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 100%
+source-wordcount: '95'
+ht-degree: 32%
 
 ---
 
 # [!DNL Adobe Workfront] のリスト
 
-この節では、次の記事を扱います。
+<!--Audited: 11/2024-->
+
+Adobe Workfrontのオブジェクトはリストで表示できます。 リストにフィルター、ビュー、グループ化を適用して、表示される情報を変更できます。
+
+この節では、リストに関する次の記事を紹介します。
 
 * [ [!DNL Adobe Workfront] のリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
 * [クイックフィルターをリストに適用](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)

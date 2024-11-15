@@ -4,17 +4,19 @@ product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 「表示：カスタムデータフィールドを使用した外部 URL」
 description: タスクビューで「カスタム URL」という名前の計算済みカスタムフィールドを使用して、内部カスタム URL へのリンクを表示できます。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 97%
+source-wordcount: '544'
+ht-degree: 80%
 
 ---
 
 # ビュー：カスタムデータフィールドを使用する外部 URL
+
+<!--Audited: 11/2024-->
 
 **タスクビュー**&#x200B;で「カスタム URL」という名前の&#x200B;**計算済みカスタムフィールド**&#x200B;を使用して、内部カスタム URL へのリンクを表示できます。
 
@@ -28,6 +30,8 @@ ht-degree: 97%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -35,28 +39,39 @@ ht-degree: 97%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>表示の変更をリクエスト </p>
-   <p>レポートを変更するためのプラン</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p> 現在： 
+   <ul>
+   <li>表示の変更をリクエスト</li> 
+   <li>レポートを変更するためのプラン</li>
+   </ul>
+     </p>
+     <p> 新規： 
+   <ul>
+   <li>ビューを変更する場合は Contributor</li> 
+   <li>レポートを変更する場合は Standard</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr>  
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 「カスタム URL」計算済みカスタムフィールドの作成
 
@@ -69,15 +84,7 @@ ht-degree: 97%
 
    CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com&quot;,&quot;/&quot;,&quot;task/&quot;,ID,&quot;/overview&#39;&#39;)
 
-1. 「`<domain>`」を括弧を除いた実際のドメイン名と置き換えます。
-
-   この
-
-   ```
-   /overview
-   ```
-
-   URL の一部は、タスクの左側のパネルの「**概要**」セクションに直接リンクします。
+1. 「`<domain>`」を実際のドメイン名（角括弧を除く）に置き換えます。 この URL の `/overview` の部分では、タスクの左側のパネルにある **概要** セクションへのリンクが示されます。
 
 1. **計算済みカスタムフィールド**&#x200B;の作成後、このフィールドと&#x200B;**カスタムフォーム**&#x200B;を新しいビューに表示する Adobe Workfront の複数のタスクに添付します。
 
@@ -94,10 +101,51 @@ ht-degree: 97%
 1. 「**ビューをカスタマイズ**」をクリックします。
 1. 最初の列を除くビュー内のすべての列を削除します。
 1. 最初の列のヘッダーをクリックします。
-1. インターフェイスの上右隅にある「**テキストモードに切り替え**」をクリックします。
-1. 「**クリックするとテキストを編集できます**」をクリックします。
-1. 以下のテキストモードを 1 つの列に貼り付けます。\
-   この例では、「column.1」です。タスクの&#x200B;**概要**&#x200B;へのリンクとして「カスタム URL」フィールドが表示されます。「列 2」タスクの **URL フィールド**&#x200B;に保存された値が表示されます。
-   <pre>column.0.descriptionkey=name<br>column.0.link.linkproperty.0.name=ID<br>column.0.link.linkproperty.0.valuefield=ID<br>column.0.link.linkproperty.0.valueformat= int<br>column.0.link.lookup=link.view<br>column.0.link.valuefield= objCode<br>column.0.link.valueformat= val<br>column.0.linkedname=direct<br>column.0.listsort=string(name)<br>column.0.namekey=name.abbr<br>column.0.querysort=name<br>column.0.shortview=false<br>column.0.stretch=100<br>column.0.valuefield=name<br>column.0.valueformat=HTML<br>column.0.width=150<br>column.1.description=Custom URL<br>column.1.link.isnewwindow=true<br>column.1.link.url=customDataLabelsAsString(Custom URL)<br>column.1.linkedname=direct<br>column.1.listsort=customDataLabelsAsString(Custom URL)<br>column.1.name=Custom URL<br>column.1.querysort=URL<br>column.1.shortview=false<br>column.1.stretch=0<br>column.1.valuefield=Custom URL<br>column.1.valueformat=customDataLabelsAsString<br>column.1.width=150<br>column.2.descriptionkey=url<br>column.2.linkedname=direct<br>column.2.listsort=string(URL)<br>column.2.namekey=url.abbr<br>column.2.querysort=URL<br>column.2.shortview=false<br>column.2.stretch=0<br>column.2.valuefield=URL<br>column.2.valueformat=HTML<br>column.2.width=150</pre>
+1. **テキストモードに切り替え**/**テキストモードを編集** をクリックします。
+1. 「**テキストモードを編集**」ボックスのテキストを削除して、以下のコードに置き換えます。
 
-1. 「**ビューを保存**」をクリックします。
+
+   ```
+   column.0.descriptionkey=name
+   column.0.link.linkproperty.0.name=ID
+   column.0.link.linkproperty.0.valuefield=ID
+   column.0.link.linkproperty.0.valueformat= int
+   column.0.link.lookup=link.view
+   column.0.link.valuefield= objCode
+   column.0.link.valueformat= val
+   column.0.linkedname=direct
+   column.0.listsort=string(name)
+   column.0.namekey=name.abbr
+   column.0.querysort=name
+   column.0.shortview=false
+   column.0.stretch=100
+   column.0.valuefield=name
+   column.0.valueformat=HTML
+   column.0.width=150
+   column.1.description=Custom URL
+   column.1.link.isnewwindow=true
+   column.1.link.url=customDataLabelsAsString(Custom URL)
+   column.1.linkedname=direct
+   column.1.listsort=customDataLabelsAsString(Custom URL)
+   column.1.name=Custom URL
+   column.1.querysort=URL
+   column.1.shortview=false
+   column.1.stretch=0
+   column.1.valuefield=Custom URL
+   column.1.valueformat=customDataLabelsAsString
+   column.1.width=150
+   column.2.descriptionkey=url
+   column.2.linkedname=direct
+   column.2.listsort=string(URL)
+   column.2.namekey=url.abbr
+   column.2.querysort=URL
+   column.2.shortview=false
+   column.2.stretch=0
+   column.2.valuefield=URL
+   column.2.valueformat=HTML
+   column.2.width=150
+   ```
+
+   この例では、「column.1」です。行では、「カスタム URL」フィールドの値が、タスクの **概要** セクションへのリンクとして、「列。2」として表示されます。 タスクの **URL フィールド**&#x200B;に保存された値が表示されます。
+
+1. **完了**/**ビューを保存** をクリックします。

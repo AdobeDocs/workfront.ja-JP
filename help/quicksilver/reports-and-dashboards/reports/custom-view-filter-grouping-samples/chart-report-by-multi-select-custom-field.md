@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 複数選択カスタムフィールドを使用したレポートのチャート化
+title: 複数選択のカスタムフィールドによるレポートのグラフ化
 description: 複数選択カスタムフィールドで選択した選択肢を取り込む追加の計算フィールドを作成した後でのみ、複数選択カスタムフィールドでレポートのグラフを作成できます。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 97%
+source-wordcount: '1004'
+ht-degree: 86%
 
 ---
 
 # 複数選択カスタムフィールドを使用したレポートのチャート化
+
+<!--Audited: 11/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -39,6 +41,8 @@ ht-degree: 97%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -46,25 +50,34 @@ ht-degree: 97%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td> 
+    <p>新規：</p>
+   <ul><li><p>フィルターを変更するコントリビューター </p></li>
+   <li><p>レポートを変更する場合は Standard</p></li> </ul>
+
+<p>現在：</p>
+   <ul><li><p>フィルターを変更する場合は「要求」 </p></li>
+   <li><p>レポートを変更するためのプラン</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルターを変更する場合は、フィルター、ビュー、グループ化への編集アクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 前提条件
 
@@ -102,7 +115,7 @@ ht-degree: 97%
 
 1. 「**ラベル**」ボックスで、新しい計算フィールドに名前を付け、複数選択カスタムフィールドを参照することを示します。
 
-   例：「計算された複数選択フィールド」。
+   例：「計算複数選択フィールド」
 
 1. 「**計算**」ボックスに、以下のコードを入力します。
 
@@ -114,11 +127,11 @@ ht-degree: 97%
 
    ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
-1. （オプション）複数選択カスタムフィールドが既にこのフォームに存在し、このフォームが既にオブジェクトに添付されている場合は、「**以前の計算式を更新します（バックグラウンドで）**」のオプションを有効にします。
+1. （オプション）複数選択のカスタムフィールドがこのフォームに既に存在し、このフォームが既にオブジェクトに添付されている場合は、「**既存の計算に適用**」オプションを有効にします。
 
    これにより新しい計算フィールドには、既にオブジェクトに添付されているフォームに追加された複数選択カスタムフィールドの値がそのまま自動的に入力されるようになります。
 
-1. 「**完了**」をクリックします。
+1. 「**適用**」をクリックします。
 1. 「**保存して閉じる**」をクリックします。
 
    計算済みカスタムフィールドがカスタムフォームに追加されます。現在フォームがオブジェクトに添付されている場合は、複数選択カスタムフィールドの情報がフィールドに入力されます。
@@ -137,14 +150,14 @@ ht-degree: 97%
 1. 「**レポートアクション**」、「**編集**」の順にクリックします。
 
 1. 「<strong>グループ化</strong>」タブを選択して、「<strong>グループを追加</strong>」をクリックします。
-1. グループ化として作成した<strong>計算済み複数選択フィールド</strong>を追加します。
+1. グループ化として作成した <strong> 計算複数選択フィールド </strong> を追加します。
 1. 「<strong>グラフ</strong>」タブを選択し、レポートにグラフを追加します。
 
    例えば、**列**のグラフを選択します。
    <br>レポートへのグラフの追加について詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">カスタムレポートの作成</a>の記事の<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">レポートへのグラフの追加</a>の節を参照してください。
-1. 「**下（X）軸**」フィールドで、グラフに表示する<strong>計算済み複数選択フィールド</strong>を選択します。
+1. **下（X）軸** フィールドで、グラフに表示する <strong> 計算複数選択フィールド </strong> を選択します。
 1. 「<strong>保存して閉じる</strong>」をクリックします。
 
-   レポートには、計算済み複数選択フィールドでグループ化された結果がグラフに表示されます。
+   レポートは、複数選択の計算フィールドでグループ化された結果をグラフで表示します。
 
    ![](assets/chart-multi-select-field-column-chart-example.png)

@@ -1,18 +1,20 @@
 ---
 navigation-topic: use-lists
-title: リストの表示方法を変更
+title: リストの表示方法の変更
 description: ' [!DNL Adobe Workfront] では、リストの表示方法をカスタマイズできます。対象のリストを表示している他のユーザーには、変更は反映されません。'
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 100%
+source-wordcount: '717'
+ht-degree: 95%
 
 ---
 
 # リストの表示方法を変更
+
+<!--Audited: 11/2024-->
 
 [!DNL Adobe Workfront] では、リストの表示方法をカスタマイズできます。対象のリストを表示している他のユーザーには、変更は反映されません。
 
@@ -32,6 +34,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -39,27 +43,36 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> 
+    <p>新規：</p>
+   <ul><li><p>投稿者以上 </p></li>
+   </ul>
+
+<p>現在：</p>
+   <ul><li><p>リクエスト以上</p></li>
+    </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>リストが表示されているエリアへの[!UICONTROL View]アクセス権</p> <p>例えば、プロジェクトのビューを変更するには、プロジェクトへの[!UICONTROL View]アクセス権が必要です。</p> <p>メモ：それでもアクセスできない場合は、アクセスレベルに追加の制限が設定されていないかどうかを [!DNL Workfront] 管理者にお問い合わせください。<br>[!DNL Workfront] 管理者がアクセスレベルを変更する方法に関して詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>リストが表示されているエリアへの[!UICONTROL View]アクセス権</p> <p>例えば、プロジェクトのビューを変更するには、プロジェクトへの[!UICONTROL View]アクセス権が必要です。</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>リストに適用されるビューに対する[!UICONTROL View]権限またはそれ以上</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>リストに適用されるビューに対する[!UICONTROL View]権限またはそれ以上</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-## リストの表示方法を変更
++++
+
+## リストの変更
 
 1. 変更する [!DNL Workfront] のリストに移動します。
 
@@ -101,7 +114,8 @@ ht-degree: 100%
 
 1. リスト内の列を並べ替えるには、列ヘッダーにポインタを合わせて手のひらツールを表示したあと、クリックして目的の表示位置まで列をドラッグします。
 
-   列の位置は、ページを更新するまで保存されます。\
+   列の位置は、ページを更新するまで保存されます。
+
    リスト内の列の幅と順序のカスタマイズについて詳しくは、[列の幅と順序の変更](../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)の記事を参照してください。
 
 1. リストの並べ替え順序を調整するには、列ヘッダーをクリックして選択し、キーボードの Command キー（[!DNL Mac] の場合）または Ctrl キー（[!DNL Windows] の場合）を押したまま、追加の列ヘッダーを最大 2 つ選択して、それらの列で並べ替えます。

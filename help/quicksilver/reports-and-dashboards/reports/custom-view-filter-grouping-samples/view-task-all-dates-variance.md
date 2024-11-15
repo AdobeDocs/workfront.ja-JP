@@ -2,19 +2,21 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: ビュー：すべての日付の差異を含むタスク
+title: 「表示：すべての日付差異を持つタスク」
 description: このタスクビューは、Adobe Workfront アカウントで提供される「すべての日付」ビューに似ています。このビューには、2 つの日付の間の日数の差を計算する、差異列が含まれています。
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
 workflow-type: tm+mt
-source-wordcount: '810'
-ht-degree: 100%
+source-wordcount: '330'
+ht-degree: 83%
 
 ---
 
 # ビュー：「すべての日付」の差異を含むタスク
+
+<!--Audited: 11/2024-->
 
 このタスクビューは、Adobe Workfront アカウントで提供される「すべての日付」ビューに似ています。このビューには、次の日付の間の日数の差を計算する&#x200B;*差異*&#x200B;列が含まれています。
 
@@ -27,9 +29,11 @@ ht-degree: 100%
 
 ビューでの計算の使用について詳しくは、[テキストモードの一般的な使用の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)の[テキストモードの一般的な使用の概要](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)を参照してください。
 
-![Screen_Shot_2017-04-24_at_11.35.33_AM.png](assets/screen-shot-2017-04-24-at-11.35.33-am-350x95.png)
+![](assets/view-task-with-all-dates-variance.png)
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -38,28 +42,39 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>表示の変更をリクエスト </p>
-   <p>レポートを変更するためのプラン</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p> 現在： 
+   <ul>
+   <li>表示の変更をリクエスト</li> 
+   <li>レポートを変更するためのプラン</li>
+   </ul>
+     </p>
+     <p> 新規： 
+   <ul>
+   <li>ビューを変更する場合は Contributor</li> 
+   <li>レポートを変更する場合は Standard</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr>   
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集して、レポートを変更できるようにします。</p> <p>フィルター、表示、グループ化へのアクセス権を編集して、表示を変更できるようにします。</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;自分のプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## すべての日付の差異を含むタスクの表示
 
@@ -67,9 +82,217 @@ ht-degree: 100%
 1. **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 
 1. **列のプレビュー**&#x200B;領域で、1 つを除くすべての列を削除します。
-1. 残りの列のヘッダーをクリックし、「**テキストモードに切り替え**」をクリックします。
-1. テキストモード領域にカーソルを置き、「**クリックしてテキストを編集**」をクリックします。
-1. 「**テキストモード**」ボックスにあるテキストを削除し、次のコードに置き換えます。
-   <pre>column.1.descriptionkey=name<br>column.1.link.linkproperty.0.name=ID<br>column.1.link.linkproperty.0.valuefield=ID<br>column.1.link.linkproperty.0.valueformat=int<br>column.1.link.lookup=link.view<br>column.1.link.valuefield=objCode<br>column.1.link.valueformat=val<br>column.1.linkedname=direct<br>column.1.listsort=string(name)<br>column.1.namekey=name.abbr<br>column.1.querysort=name<br>column.1.shortview=false<br>column.1.stretch=95<br>column.1.styledef.case.0.comparison.attribute=css<br>column.1.styledef.case.0.comparison.isrowcase=true<br>column.1.styledef.case.0.comparison.leftmethod=intAsInt(numberOfChildren)<br>column.1.styledef.case.0.comparison.lefttext=numberOfChildren<br>column.1.styledef.case.0.comparison.operator=gt<br>column.1.styledef.case.0.comparison.operatortype=int<br>column.1.styledef.case.0.comparison.righttext=0<br>column.1.styledef.case.0.comparison.trueproperty.0.name=fontstyle<br>column.1.styledef.case.0.comparison.trueproperty.0.value=bold<br>column.1.styledef.case.0.comparison.truetext=<br>column.1.styledef.case.0.comparison.usefield=false<br>column.1.valuefield=name<br>column.1.valueformat=HTML<br>column.1.width=150<br>column.2.descriptionkey=plannedstartdate<br>column.2.linkedname=direct<br>column.2.listsort=atDateAsAtDate(plannedStartDate)<br>column.2.namekey=plannedstartdate.abbr<br>column.2.querysort=plannedStartDate<br>column.2.shortview=false<br>column.2.stretch=0<br>column.2.valuefield=plannedStartDate<br>column.2.valueformat=atDate<br>column.2.width=75<br>column.3.descriptionkey=projectedstartdate<br>column.3.linkedname=direct<br>column.3.listsort=atDateAsAtDate(projectedStartDate)<br>column.3.namekey=projectedstartdate.abbr<br>column.3.querysort=projectedStartDate<br>column.3.shortview=false<br>column.3.stretch=0<br>column.3.valuefield=projectedStartDate<br>column.3.valueformat=atDate<br>column.3.width=75<br>column.4.descriptionkey=plannedstartdate<br>column.4.displayname=Projected Start Variance<br>column.4.linkedname=direct<br>column.4.listsort=atDateAsAtDate(plannedStartDate)<br>column.4.namekey=plannedstartdate.abbr<br>column.4.querysort=plannedStartDate<br>column.4.shortview=false<br>column.4.stretch=0<br>column.4.styledef.case.0.comparison.attribute=css<br>column.4.styledef.case.0.comparison.isrowcase=false<br>column.4.styledef.case.0.comparison.leftmethod=atDateAsAtDate(plannedStartDate)<br>column.4.styledef.case.0.comparison.lefttext=plannedStartDate<br>column.4.styledef.case.0.comparison.operator=notnull<br>column.4.styledef.case.0.comparison.operatortype=date<br>column.4.styledef.case.0.comparison.righttext=<br>column.4.styledef.case.0.comparison.trueproperty.0.name=bgcolor<br>column.4.styledef.case.0.comparison.trueproperty.0.value=E1E1E1<br>column.4.styledef.case.0.comparison.truetext=<br>column.4.styledef.case.0.comparison.usefield=false<br>column.4.valueexpression=ROUND(DATEDIFF({projectedStartDate},{plannedStartDate}))<br>column.4.valueformat=HTML<br>column.4.width=75<br>column.5.descriptionkey=plannedstartdate<br>column.5.linkedname=direct<br>column.5.listsort=atDateAsAtDate(plannedStartDate)<br>column.5.namekey=plannedstartdate.abbr<br>column.5.querysort=plannedStartDate<br>column.5.shortview=false<br>column.5.stretch=0<br>column.5.valuefield=plannedStartDate<br>column.5.valueformat=atDate<br>column.5.width=75<br>column.6.descriptionkey=actualstartdate<br>column.6.linkedname=direct<br>column.6.listsort=atDateAsAtDate(actualStartDate)<br>column.6.namekey=actualstartdate.abbr<br>column.6.querysort=actualStartDate<br>column.6.shortview=false<br>column.6.stretch=0<br>column.6.valuefield=actualStartDate<br>column.6.valueformat=atDate<br>column.6.width=75<br>column.7.descriptionkey=plannedstartdate<br>column.7.displayname=Actual Start Variance<br>column.7.linkedname=direct<br>column.7.listsort=atDateAsAtDate(plannedStartDate)<br>column.7.namekey=plannedstartdate.abbr<br>column.7.querysort=plannedStartDate<br>column.7.shortview=false<br>column.7.stretch=0<br>column.7.styledef.case.0.comparison.attribute=css<br>column.7.styledef.case.0.comparison.isrowcase=false<br>column.7.styledef.case.0.comparison.leftmethod=atDateAsAtDate(plannedStartDate)<br>column.7.styledef.case.0.comparison.lefttext=plannedStartDate<br>column.7.styledef.case.0.comparison.operator=notnull<br>column.7.styledef.case.0.comparison.operatortype=date<br>column.7.styledef.case.0.comparison.righttext=<br>column.7.styledef.case.0.comparison.trueproperty.0.name=bgcolor<br>column.7.styledef.case.0.comparison.trueproperty.0.value=E1E1E1<br>column.7.styledef.case.0.comparison.truetext=<br>column.7.styledef.case.0.comparison.usefield=false<br>column.7.valueexpression=ROUND(DATEDIFF({actualStartDate},{plannedStartDate}))<br>column.7.valueformat=HTML<br>column.7.width=75<br>column.8.descriptionkey=plannedcompletiondate<br>column.8.linkedname=direct<br>column.8.listsort=atDateAsAtDate(plannedCompletionDate)<br>column.8.namekey=plannedcompletiondate.abbr<br>column.8.querysort=plannedCompletionDate<br>column.8.shortview=false<br>column.8.stretch=0<br>column.8.valuefield=plannedCompletionDate<br>column.8.valueformat=atDate<br>column.8.width=75<br>column.9.descriptionkey=projectedcompletiondate<br>column.9.linkedname=direct<br>column.9.listsort=atDateAsAtDate(projectedCompletionDate)<br>column.9.namekey=projectedcompletiondate.abbr<br>column.9.querysort=projectedCompletionDate<br>column.9.shortview=false<br>column.9.stretch=0<br>column.9.valuefield=projectedCompletionDate<br>column.9.valueformat=atDate<br>column.9.width=75<br>column.10.descriptionkey=plannedcompletiondate<br>column.10.displayname=Projected Completion Variance<br>column.10.linkedname=direct<br>column.10.listsort=atDateAsAtDate(plannedCompletionDate)<br>column.10.namekey=plannedcompletiondate.abbr<br>column.10.querysort=plannedCompletionDate<br>column.10.shortview=false<br>column.10.stretch=0<br>column.10.styledef.case.0.comparison.attribute=css<br>column.10.styledef.case.0.comparison.isrowcase=false<br>column.10.styledef.case.0.comparison.leftmethod=atDateAsAtDate(plannedCompletionDate)<br>column.10.styledef.case.0.comparison.lefttext=plannedCompletionDate<br>column.10.styledef.case.0.comparison.operator=notnull<br>column.10.styledef.case.0.comparison.operatortype=date<br>column.10.styledef.case.0.comparison.righttext=<br>column.10.styledef.case.0.comparison.trueproperty.0.name=bgcolor<br>column.10.styledef.case.0.comparison.trueproperty.0.value=E1E1E1<br>column.10.styledef.case.0.comparison.truetext=<br>column.10.styledef.case.0.comparison.usefield=false<br>column.10.valueexpression=ROUND(DATEDIFF({projectedCompletionDate},{plannedCompletionDate}))<br>column.10.valueformat=HTML<br>column.10.width=75<br>column.11.descriptionkey=plannedcompletiondate<br>column.11.linkedname=direct<br>column.11.listsort=atDateAsAtDate(plannedCompletionDate)<br>column.11.namekey=plannedcompletiondate.abbr<br>column.11.querysort=plannedCompletionDate<br>column.11.shortview=false<br>column.11.stretch=0<br>column.11.valuefield=plannedCompletionDate<br>column.11.valueformat=atDate<br>column.11.width=75<br>column.12.descriptionkey=actualcompletiondate<br>column.12.linkedname=direct<br>column.12.listsort=atDateAsAtDate(actualCompletionDate)<br>column.12.namekey=actualcompletiondate.abbr<br>column.12.querysort=actualCompletionDate<br>column.12.shortview=false<br>column.12.stretch=0<br>column.12.valuefield=actualCompletionDate<br>column.12.valueformat=atDate<br>column.12.width=75<br>column.13.descriptionkey=plannedcompletiondate<br>column.13.displayname=Actual Completion Variance<br>column.13.linkedname=direct<br>column.13.listsort=atDateAsAtDate(plannedCompletionDate)<br>column.13.namekey=plannedcompletiondate.abbr<br>column.13.querysort=plannedCompletionDate<br>column.13.shortview=false<br>column.13.stretch=0<br>column.13.styledef.case.0.comparison.attribute=css<br>column.13.styledef.case.0.comparison.isrowcase=false<br>column.13.styledef.case.0.comparison.leftmethod=atDateAsAtDate(plannedCompletionDate)<br>column.13.styledef.case.0.comparison.lefttext=plannedCompletionDate<br>column.13.styledef.case.0.comparison.operator=notnull<br>column.13.styledef.case.0.comparison.operatortype=date<br>column.13.styledef.case.0.comparison.righttext=<br>column.13.styledef.case.0.comparison.trueproperty.0.name=bgcolor<br>column.13.styledef.case.0.comparison.trueproperty.0.value=E1E1E1<br>column.13.styledef.case.0.comparison.truetext=<br>column.13.styledef.case.0.comparison.usefield=false<br>column.13.valueexpression=ROUND(DATEDIFF({actualCompletionDate},{plannedCompletionDate}))<br>column.13.valueformat=HTML<br>column.13.width=75<br>row.0.styledef.applyallcases=true<br>row.0.styledef.case.0.comparison.attribute=css<br>row.0.styledef.case.0.comparison.isrowcase=true<br>row.0.styledef.case.0.comparison.leftmethod=intAsInt(numberOfChildren)<br>row.0.styledef.case.0.comparison.lefttext=numberOfChildren<br>row.0.styledef.case.0.comparison.operator=gt<br>row.0.styledef.case.0.comparison.operatortype=int<br>row.0.styledef.case.0.comparison.righttext=0<br>row.0.styledef.case.0.comparison.trueproperty.0.name=fontstyle<br>row.0.styledef.case.0.comparison.trueproperty.0.value=bold<br>row.0.styledef.case.0.comparison.truetext=<br>row.0.styledef.case.0.comparison.usefield=false</pre>
+1. 残りの列のヘッダーをクリックし、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
+1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
 
-1. 「**ビューの保存**」をクリックします。
+   ```
+   column.1.descriptionkey=name
+   column.1.link.linkproperty.0.name=ID
+   column.1.link.linkproperty.0.valuefield=ID
+   column.1.link.linkproperty.0.valueformat=int
+   column.1.link.lookup=link.view
+   column.1.link.valuefield=objCode
+   column.1.link.valueformat=val
+   column.1.linkedname=direct
+   column.1.listsort=string(name)
+   column.1.namekey=name.abbr
+   column.1.querysort=name
+   column.1.shortview=false
+   column.1.stretch=95
+   column.1.styledef.case.0.comparison.attribute=css
+   column.1.styledef.case.0.comparison.isrowcase=true
+   column.1.styledef.case.0.comparison.leftmethod=intAsInt(numberOfChildren)
+   column.1.styledef.case.0.comparison.lefttext=numberOfChildren
+   column.1.styledef.case.0.comparison.operator=gt
+   column.1.styledef.case.0.comparison.operatortype=int
+   column.1.styledef.case.0.comparison.righttext=0
+   column.1.styledef.case.0.comparison.trueproperty.0.name=fontstyle
+   column.1.styledef.case.0.comparison.trueproperty.0.value=bold
+   column.1.styledef.case.0.comparison.truetext=
+   column.1.styledef.case.0.comparison.usefield=false
+   column.1.valuefield=name
+   column.1.valueformat=HTML
+   column.1.width=150
+   column.2.descriptionkey=plannedstartdate
+   column.2.linkedname=direct
+   column.2.listsort=atDateAsAtDate(plannedStartDate)
+   column.2.namekey=plannedstartdate.abbr
+   column.2.querysort=plannedStartDate
+   column.2.shortview=false
+   column.2.stretch=0
+   column.2.valuefield=plannedStartDate
+   column.2.valueformat=atDate
+   column.2.width=75
+   column.3.descriptionkey=projectedstartdate
+   column.3.linkedname=direct
+   column.3.listsort=atDateAsAtDate(projectedStartDate)
+   column.3.namekey=projectedstartdate.abbr
+   column.3.querysort=projectedStartDate
+   column.3.shortview=false
+   column.3.stretch=0
+   column.3.valuefield=projectedStartDate
+   column.3.valueformat=atDate
+   column.3.width=75
+   column.4.descriptionkey=plannedstartdate
+   column.4.displayname=Projected Start Variance
+   column.4.linkedname=direct
+   column.4.listsort=atDateAsAtDate(plannedStartDate)
+   column.4.namekey=plannedstartdate.abbr
+   column.4.querysort=plannedStartDate
+   column.4.shortview=false
+   column.4.stretch=0
+   column.4.styledef.case.0.comparison.attribute=css
+   column.4.styledef.case.0.comparison.isrowcase=false
+   column.4.styledef.case.0.comparison.leftmethod=atDateAsAtDate(plannedStartDate)
+   column.4.styledef.case.0.comparison.lefttext=plannedStartDate
+   column.4.styledef.case.0.comparison.operator=notnull
+   column.4.styledef.case.0.comparison.operatortype=date
+   column.4.styledef.case.0.comparison.righttext=
+   column.4.styledef.case.0.comparison.trueproperty.0.name=bgcolor
+   column.4.styledef.case.0.comparison.trueproperty.0.value=E1E1E1
+   column.4.styledef.case.0.comparison.truetext=
+   column.4.styledef.case.0.comparison.usefield=false
+   column.4.valueexpression=ROUND(DATEDIFF({projectedStartDate},{plannedStartDate}))
+   column.4.valueformat=HTML
+   column.4.width=75
+   column.5.descriptionkey=plannedstartdate
+   column.5.linkedname=direct
+   column.5.listsort=atDateAsAtDate(plannedStartDate)
+   column.5.namekey=plannedstartdate.abbr
+   column.5.querysort=plannedStartDate
+   column.5.shortview=false
+   column.5.stretch=0
+   column.5.valuefield=plannedStartDate
+   column.5.valueformat=atDate
+   column.5.width=75
+   column.6.descriptionkey=actualstartdate
+   column.6.linkedname=direct
+   column.6.listsort=atDateAsAtDate(actualStartDate)
+   column.6.namekey=actualstartdate.abbr
+   column.6.querysort=actualStartDate
+   column.6.shortview=false
+   column.6.stretch=0
+   column.6.valuefield=actualStartDate
+   column.6.valueformat=atDate
+   column.6.width=75
+   column.7.descriptionkey=plannedstartdate
+   column.7.displayname=Actual Start Variance
+   column.7.linkedname=direct
+   column.7.listsort=atDateAsAtDate(plannedStartDate)
+   column.7.namekey=plannedstartdate.abbr
+   column.7.querysort=plannedStartDate
+   column.7.shortview=false
+   column.7.stretch=0
+   column.7.styledef.case.0.comparison.attribute=css
+   column.7.styledef.case.0.comparison.isrowcase=false
+   column.7.styledef.case.0.comparison.leftmethod=atDateAsAtDate(plannedStartDate)
+   column.7.styledef.case.0.comparison.lefttext=plannedStartDate
+   column.7.styledef.case.0.comparison.operator=notnull
+   column.7.styledef.case.0.comparison.operatortype=date
+   column.7.styledef.case.0.comparison.righttext=
+   column.7.styledef.case.0.comparison.trueproperty.0.name=bgcolor
+   column.7.styledef.case.0.comparison.trueproperty.0.value=E1E1E1
+   column.7.styledef.case.0.comparison.truetext=
+   column.7.styledef.case.0.comparison.usefield=false
+   column.7.valueexpression=ROUND(DATEDIFF({actualStartDate},{plannedStartDate}))
+   column.7.valueformat=HTML
+   column.7.width=75
+   column.8.descriptionkey=plannedcompletiondate
+   column.8.linkedname=direct
+   column.8.listsort=atDateAsAtDate(plannedCompletionDate)
+   column.8.namekey=plannedcompletiondate.abbr
+   column.8.querysort=plannedCompletionDate
+   column.8.shortview=false
+   column.8.stretch=0
+   column.8.valuefield=plannedCompletionDate
+   column.8.valueformat=atDate
+   column.8.width=75
+   column.9.descriptionkey=projectedcompletiondate
+   column.9.linkedname=direct
+   column.9.listsort=atDateAsAtDate(projectedCompletionDate)
+   column.9.namekey=projectedcompletiondate.abbr
+   column.9.querysort=projectedCompletionDate
+   column.9.shortview=false
+   column.9.stretch=0
+   column.9.valuefield=projectedCompletionDate
+   column.9.valueformat=atDate
+   column.9.width=75
+   column.10.descriptionkey=plannedcompletiondate
+   column.10.displayname=Projected Completion Variance
+   column.10.linkedname=direct
+   column.10.listsort=atDateAsAtDate(plannedCompletionDate)
+   column.10.namekey=plannedcompletiondate.abbr
+   column.10.querysort=plannedCompletionDate
+   column.10.shortview=false
+   column.10.stretch=0
+   column.10.styledef.case.0.comparison.attribute=css
+   column.10.styledef.case.0.comparison.isrowcase=false
+   column.10.styledef.case.0.comparison.leftmethod=atDateAsAtDate(plannedCompletionDate)
+   column.10.styledef.case.0.comparison.lefttext=plannedCompletionDate
+   column.10.styledef.case.0.comparison.operator=notnull
+   column.10.styledef.case.0.comparison.operatortype=date
+   column.10.styledef.case.0.comparison.righttext=
+   column.10.styledef.case.0.comparison.trueproperty.0.name=bgcolor
+   column.10.styledef.case.0.comparison.trueproperty.0.value=E1E1E1
+   column.10.styledef.case.0.comparison.truetext=
+   column.10.styledef.case.0.comparison.usefield=false
+   column.10.valueexpression=ROUND(DATEDIFF({projectedCompletionDate},{plannedCompletionDate}))
+   column.10.valueformat=HTML
+   column.10.width=75
+   column.11.descriptionkey=plannedcompletiondate
+   column.11.linkedname=direct
+   column.11.listsort=atDateAsAtDate(plannedCompletionDate)
+   column.11.namekey=plannedcompletiondate.abbr
+   column.11.querysort=plannedCompletionDate
+   column.11.shortview=false
+   column.11.stretch=0
+   column.11.valuefield=plannedCompletionDate
+   column.11.valueformat=atDate
+   column.11.width=75
+   column.12.descriptionkey=actualcompletiondate
+   column.12.linkedname=direct
+   column.12.listsort=atDateAsAtDate(actualCompletionDate)
+   column.12.namekey=actualcompletiondate.abbr
+   column.12.querysort=actualCompletionDate
+   column.12.shortview=false
+   column.12.stretch=0
+   column.12.valuefield=actualCompletionDate
+   column.12.valueformat=atDate
+   column.12.width=75
+   column.13.descriptionkey=plannedcompletiondate
+   column.13.displayname=Actual Completion Variance
+   column.13.linkedname=direct
+   column.13.listsort=atDateAsAtDate(plannedCompletionDate)
+   column.13.namekey=plannedcompletiondate.abbr
+   column.13.querysort=plannedCompletionDate
+   column.13.shortview=false
+   column.13.stretch=0
+   column.13.styledef.case.0.comparison.attribute=css
+   column.13.styledef.case.0.comparison.isrowcase=false
+   column.13.styledef.case.0.comparison.leftmethod=atDateAsAtDate(plannedCompletionDate)
+   column.13.styledef.case.0.comparison.lefttext=plannedCompletionDate
+   column.13.styledef.case.0.comparison.operator=notnull
+   column.13.styledef.case.0.comparison.operatortype=date
+   column.13.styledef.case.0.comparison.righttext=
+   column.13.styledef.case.0.comparison.trueproperty.0.name=bgcolor
+   column.13.styledef.case.0.comparison.trueproperty.0.value=E1E1E1
+   column.13.styledef.case.0.comparison.truetext=
+   column.13.styledef.case.0.comparison.usefield=false
+   column.13.valueexpression=ROUND(DATEDIFF({actualCompletionDate},{plannedCompletionDate}))
+   column.13.valueformat=HTML
+   column.13.width=75
+   row.0.styledef.applyallcases=true
+   row.0.styledef.case.0.comparison.attribute=css
+   row.0.styledef.case.0.comparison.isrowcase=true
+   row.0.styledef.case.0.comparison.leftmethod=intAsInt(numberOfChildren)
+   row.0.styledef.case.0.comparison.lefttext=numberOfChildren
+   row.0.styledef.case.0.comparison.operator=gt
+   row.0.styledef.case.0.comparison.operatortype=int
+   row.0.styledef.case.0.comparison.righttext=0
+   row.0.styledef.case.0.comparison.trueproperty.0.name=fontstyle
+   row.0.styledef.case.0.comparison.trueproperty.0.value=bold
+   row.0.styledef.case.0.comparison.truetext=
+   row.0.styledef.case.0.comparison.usefield=false
+   ```
+
+1. **完了**/**ビューを保存** をクリックします。
