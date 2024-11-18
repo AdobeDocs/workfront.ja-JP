@@ -6,10 +6,10 @@ description: ポートフォリオオプティマイザーでは、プロジェ�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 96%
+source-wordcount: '534'
+ht-degree: 92%
 
 ---
 
@@ -55,7 +55,9 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>プロジェクトへの参加権限かそれ以上の権限</p>  </td> 
+   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>プロジェクトへの参加権限かそれ以上の権限</p> 
+   <p><b> プロジェクトの優先度を設定 </b> を使用するには、リスト内のすべてのプロジェクトに対する管理権限が必要です。</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

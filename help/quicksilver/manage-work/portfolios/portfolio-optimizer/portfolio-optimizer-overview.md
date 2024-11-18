@@ -7,10 +7,10 @@ description: '[!UICONTROL ポートフォリオオプティマイザー]は、�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '1629'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -168,7 +168,9 @@ ht-degree: 100%
   <tr> 
    <td> <img src="assets/nwe-set-priority-icon.png"> </td> 
    <td>[!UICONTROL Set project priority]</td> 
-   <td>優先度に基づいてプロジェクトの順序を保存する場合は、このアイコンを使用します。 </td> 
+   <td><p>優先度に基づいてプロジェクトの順序を保存する場合は、このアイコンを使用します。</p>
+   <p><b> プロジェクト優先度の設定 </b> を使用するには、リスト内のすべてのプロジェクトに対する管理権限が必要です。</p>.
+    </td> 
   </tr> 
   <tr> 
    <td> <img src="assets/nwe-optimize-icon-in-optimizer.png"> </td> 

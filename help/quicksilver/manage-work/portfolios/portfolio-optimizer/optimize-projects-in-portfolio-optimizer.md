@@ -6,10 +6,10 @@ description: '[!UICONTROL ポートフォリオオプティマイザー]を使�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 95%
+source-wordcount: '488'
+ht-degree: 85%
 
 ---
 
@@ -42,7 +42,9 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>プロジェクトへの参加権限かそれ以上の権限</p>  </td> 
+   <td> <p>ポートフォリオへの権限の [!UICONTROL Manage]</p> <p>プロジェクトへの参加権限かそれ以上の権限</p> 
+   <p><b> プロジェクトの優先度を設定 </b> を使用するには、リスト内のすべてのプロジェクトに対する管理権限が必要です。</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +61,8 @@ ht-degree: 95%
 
 1. **[!UICONTROL 最適化]**&#x200B;アイコンをクリックします。
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)\
+   ![](assets/optimize-icon-portfolio-optimizer.png)
+
    プロジェクトのスコア付けに使用できるカテゴリが、[!UICONTROL 最適化]アイコンの左側に表示されます。
 
 1. スライドする円を使用して、次のいずれかのカテゴリの最適化を変更します。
@@ -78,9 +81,14 @@ ht-degree: 95%
 
 1. **[!UICONTROL スコア]**&#x200B;列に正しい重みを設定したら、**[!UICONTROL スコア]**&#x200B;列のヘッダーをクリックして、この列で並べ替えます。最もスコアの高いプロジェクトがリストの先頭に表示されます。
 
-1. （オプション）優先度に従ってプロジェクトをドラッグ＆ドロップします。\
-   これにより、[!UICONTROL ポートフォリオオプティマイザー]内のプロジェクトの順序が変更されます。
-1. （オプション）**[!UICONTROL 優先度の設定]**&#x200B;をクリックして、プロジェクトの新しい優先度を保存します。\
+1. （任意）プロジェクトを優先度順にドラッグ&amp;ドロップします。
+これにより、[!UICONTROL ポートフォリオオプティマイザー]内のプロジェクトの順序が変更されます。
+1. （オプション）**[!UICONTROL 優先度の設定]**&#x200B;をクリックして、プロジェクトの新しい優先度を保存します。
+
+   >[!NOTE]
+   >
+   >   **プロジェクトの優先度を設定** を使用するには、リスト内のすべてのプロジェクトに対する管理権限が必要です。
+
    [!UICONTROL ポートフォリオオプティマイザー]でのプロジェクトの優先順位付けの詳細については、[[!UICONTROL ポートフォリオオプティマイザーでのプロジェクトの優先順位付け]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)を参照してください。
 
 1. **[!UICONTROL 保存]**&#x200B;をクリックして、[!UICONTROL ポートフォリオオプティマイザー]を保存します。
