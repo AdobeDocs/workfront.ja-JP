@@ -1,17 +1,22 @@
 ---
-title: 'AI アシスタントの概要'
+title: AI アシスタントの概要
 content-type: reference
 description: AI アシスタントの概要
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: 09c05db7c6a5db7db74dd95ca323415f4318489d
+exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
+source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
 workflow-type: tm+mt
-source-wordcount: '607'
-ht-degree: 6%
+source-wordcount: '711'
+ht-degree: 10%
 
 ---
 
 # AI アシスタントの概要
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのユーザーの場合はプレビュー環境で、月次リリースを有効にしているお客様の場合は実稼動環境で利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 Workfrontの AI アシスタントを使用すると、アプリ内の情報やおすすめを自然言語で提供できるので、作業を遂行できます。 AI アシスタントを使用すると、次の操作をよりスムーズに行うことができます
 
@@ -79,13 +84,35 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
   詳細については、「[AI アシスタントからヘルプを表示する ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)」を参照してください。
 
-* 計算されたカスタム フィールドの数式を生成または調整します。
+<div class="preview">
+
+* Workfront内の特定の項目を検索する。
+
+  詳しくは、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。
+
+</div>
+
+* 計算されたカスタム フィールドの数式を生成または調整しています。
 
   >[!NOTE]
   >
   >この機能は、Prime または Ultimate Workfront プランを利用している組織のみが利用できます。
 
   詳細については、[AI アシスタントを使用して計算フィールドの数式を生成または変更する ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) を参照してください。
+
+## AI アシスタントで使用可能なオブジェクトタイプ
+
+ユーザーがWorkfrontで有効な権限を持っている場合、AI アシスタントは次のオブジェクトタイプに関連付けられたデータをクエリできます。
+
+* ポートフォリオ
+* プログラム
+* プロジェクト
+* タスク
+* イシュー
+* カスタムフォーム
+* ユーザー
+* Workfront計画レコード
+
 
 ## AI アシスタントにアクセス
 
@@ -113,5 +140,3 @@ Adobe生成 AI 契約をリクエストするには：
 1. Adobe生成 AI 契約に署名する組織内の個人の名前とメールアドレスを入力します。
 
    契約書はこのユーザーに送信され、署名が行われます。 署名して返されると、組織で AI アシスタントが有効になります。
-
-
