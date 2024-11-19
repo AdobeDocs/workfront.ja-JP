@@ -8,7 +8,7 @@ description: Web フックは、イベントによってトリガーされる HT
 author: Becky
 feature: Workfront Fusion
 exl-id: 987544a4-5840-40d4-9438-41a000aa22ee
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 34d7edb6a3f9cb1e818f6c234a8dda88d01c5fc4
 workflow-type: tm+mt
 source-wordcount: '1449'
 ht-degree: 99%
@@ -16,6 +16,10 @@ ht-degree: 99%
 ---
 
 # Web フック
+
+
+
+<!--This information moved to the webhooks article in the create scenarios folders in the new repo-->
 
 Web フックは、イベントによってトリガーされる HTTP 呼び出しです。Web フックを使用して、インスタントトリガーモジュールをアクティベートできます。インターネットに接続しており、HTTP リクエストを許可するアプリケーションは、Adobe Workfront Fusion に web フックを送信できます。
 
