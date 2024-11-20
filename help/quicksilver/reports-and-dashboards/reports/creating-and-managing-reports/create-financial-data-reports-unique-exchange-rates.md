@@ -6,14 +6,16 @@ description: Adobe Workfront で複数の為替レートが設定されている
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 100%
+source-wordcount: '978'
+ht-degree: 97%
 
 ---
 
 # 独自の為替レートを使用した財務データレポートの作成
+
+<!-- Audited: 11/2024 -->
 
 Adobe Workfront で複数の為替レートが設定されている場合、レポートおよびリストの財務値をデフォルトの通貨以外の通貨で表示するように設定できます。
 
@@ -27,6 +29,8 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -39,20 +43,31 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">オブジェクトの権限*</td> 
+   <td> <p>レポートに対する権限を管理します。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 前提条件
 
@@ -125,8 +140,6 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 1. 「**保存して閉じる**」をクリックします。
 
    **実際のコスト**&#x200B;の合計は、レポート内のプロジェクトの通貨に関係なく、システムのデフォルト通貨を使用してグループ化に表示されます。
-
-   ![グループ化で表示された通貨](assets/qs-currency-displayed-in-groupings-2022-350x292.png)
 
    2 つのプロジェクトの通貨が異なる場合、システムのデフォルト通貨もレポートのグループ化に表示されます。
 

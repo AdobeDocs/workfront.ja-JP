@@ -6,7 +6,7 @@ description: レポートの所有者は変更できません。ただし、レ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8089cbeb-4258-48b8-b13a-dfbd739c526a
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
 source-wordcount: '176'
 ht-degree: 100%
@@ -14,6 +14,8 @@ ht-degree: 100%
 ---
 
 # レポートの所有者の変更
+
+<!-- Audited: 11/2024 -->
 
 レポートの所有者は変更できません。ただし、レポートをコピーすると、コピーしたレポートの所有者に自動的になります。
 

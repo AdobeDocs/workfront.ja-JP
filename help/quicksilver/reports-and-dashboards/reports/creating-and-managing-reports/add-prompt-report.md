@@ -6,14 +6,16 @@ description: フィルターとプロンプトは、両方ともレポートに�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
 workflow-type: tm+mt
-source-wordcount: '1301'
-ht-degree: 84%
+source-wordcount: '1258'
+ht-degree: 82%
 
 ---
 
 # レポートへのプロンプトの追加
+
+<!-- Audited: 11/2024 -->
 
 ## プロンプトとフィルターの違い
 
@@ -37,6 +39,8 @@ ht-degree: 84%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -49,20 +53,31 @@ ht-degree: 84%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+    <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader">オブジェクトの権限*</td> 
+   <td> <p>レポートに対する権限を管理します。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 前提条件
 
