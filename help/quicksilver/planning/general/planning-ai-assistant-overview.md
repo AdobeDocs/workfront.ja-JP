@@ -6,15 +6,21 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: f9abcd9ff4c80376bed229a1d65e0efcbfc332b0
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '612'
 ht-degree: 5%
 
 ---
 
 
 # Adobe Workfront計画 AI アシスタントの概要
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
+-->
 
 {{planning-important-intro}}
 
@@ -59,9 +65,21 @@ AI アシスタントを使用して、現在のページコンテキストと�
 * レコードの削除
 * 削除したばかりのレコードを復元します
 
+
+<!-- ## Locate the AI Assistant in Workfront Planning
+
+You can locate the AI Assistant in the following areas of Workfront Planning:
+
+* The main navigation bar, in the upper-right corner of the screen.
+* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
+
+-->
+
 ## 計画エリアで AI アシスタントにアクセスする
 
-1. Workfrontにログインし、**計画** エリアに移動します。
+1. Workfrontにログインし、画面の右上隅に ![](assets/dots-main-menu.png) る **メインメニュー** アイコンをクリックするか、左上隅に ![](assets/lines-main-menu.png) る **メインメニュー** アイコンをクリックします（使用可能な場合）。
+
+.**計画** をクリックします。 計画エリアが開きます。
 
 1. **ワークスペースカード** をクリックします。
 
@@ -69,7 +87,7 @@ AI アシスタントを使用して、現在のページコンテキストと�
 
 1. （任意） **レコード** をクリックして、レコードの **詳細** ページを開きます。
 
-1. グローバルナビゲーションバーの画面の右上隅にある **AI アシスタント** アイコンをクリックします。
+1. 画面の右上隅にある **AI アシスタント** アイコン（グローバルナビゲーションバー）をクリッ <!--or in the upper-right corner of the record's preview or page.--> します
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
@@ -87,3 +105,6 @@ AI アシスタントを使用して、現在のページコンテキストと�
    AI Assistant がコマンドを処理している間に視覚的なインジケータが表示され、応答時間の期待値が設定されます。
 
    応答が成功したら、提供されたリンクに従うか、左側の変更に注目してください。
+
+
+

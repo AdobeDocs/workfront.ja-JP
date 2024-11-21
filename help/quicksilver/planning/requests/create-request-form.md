@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 15%
@@ -64,7 +64,7 @@ ht-degree: 15%
    </td>
 
 <tr>
-   <td role="rowheader"><p>Adobe Workfront計画*</p></td>
+   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td>
    <td>
 <p>任意 </p>  
 <p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </td>
@@ -205,7 +205,8 @@ ht-degree: 15%
    * ワークスペースへの参加またはそれ以上のアクセス権を持つすべてのユーザー
    * リンクを知っているすべてのユーザー
 
-   >[!IMPORTANT]
+   >[!WARNING]
+   >
    >
    >**リンクを持つすべてのユーザー** を選択すると、組織外のユーザーであっても、Workfront アカウントを持たないユーザーであっても、誰でもフォームにアクセスして、新しいレコードを送信できます。
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: ecafbd693237427d727b15dd22afd485b4e59c72
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2106'
 ht-degree: 46%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 46%
 >
 >Workfront Planning にアクセスするには、次のものが必要です。
 >
->* 新しいWorkfront プランおよびライセンス。 Workfront Planning は、従来のWorkfront プランまたはライセンスでは利用できません。
->* Workfront Planning の追加ライセンス。
+>* 新しいWorkfront パッケージおよびライセンス。 Workfront Planning は、従来のWorkfront パッケージまたはライセンスでは使用できません。
+>* Workfront Planning パッケージ。
 >* 組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。
 >
 > Workfront Planning へのアクセス要件の一覧については、[Adobe計画へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。

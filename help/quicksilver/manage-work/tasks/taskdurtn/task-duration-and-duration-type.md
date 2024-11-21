@@ -8,16 +8,23 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: f3641e2207563f3fc9d9ed059d889ab6c22f05b1
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1383'
-ht-degree: 99%
+source-wordcount: '1402'
+ht-degree: 94%
 
 ---
 
 # タスクの期間と期間のタイプの概要
 
 <!-- Audited: 12/2023 -->
+
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+-->
 
 タスクの期間は、タスクの予定完了日と予定開始日の差です。期間は、タスクを完了するために使用できる時間枠を示します。
 
@@ -29,9 +36,32 @@ ht-degree: 99%
 
 **例：**&#x200B;午前 9 時に開始し、午後 12 時に終了するスケジュールと、午後 2 時に開始し、午後 4 時に終了するようにスケジュールされているタスクがある場合、タスクの期間は 0 になります。
 
-Adobe Workfront で期間を計算する場合、次の 2 つのシナリオがあります。
+Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオがあります。
 
-* タスクがユーザーに割り当てられている場合、Workfront は次のいずれかのスケジュールをこの順序で使用して期間を計算します。
+<!--
+<div class="preview">
+* If the task is assigned to one user, the following scenarios exist based on what environment you use: 
+
+  * In the Production environment, Workfront uses one of the following schedules, in this exact order to calculate Duration:
+
+   1. Workfront takes into account the user's schedule. 
+   1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
+   1. If the project is not associated with a schedule, Workfront takes into account the Default Schedule of your system. For information about schedules, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
+   * In the Preview environment:
+
+      1. Workfront takes into account either the schedule of the project or that of the primary assignee.
+
+          Your Workfront or group administrator determines which schedule Workfront uses when a task is assigned to one  user. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+
+      1. If the user or the project don't have a schedule, Workfront uses the system Default schedule. 
+
+      The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
+
+</div>
+-->
+
+* タスクがユーザーに割り当てられている場合、Workfrontでは、この順序で次のいずれかのスケジュールを使用して期間が計算されます。
 
    1. Workfront がユーザーのスケジュールを考慮します。
    1. ユーザーがスケジュールに関連付けられていない場合、Workfront はプロジェクトのスケジュールを考慮します。
@@ -41,7 +71,9 @@ Adobe Workfront で期間を計算する場合、次の 2 つのシナリオが�
 
    1. Workfront は、プロジェクトのスケジュールまたはプライマリ担当者のスケジュールを考慮します。
 
-  タスクが複数のユーザーに割り当てられている場合、Workfront が使用するスケジュールは、Workfront 管理者が決定します。詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+      タスクが複数のユーザーに割り当てられる場合にWorkfrontが使用するスケジュールは、Workfront管理者またはグループ管理者が決定します。 詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+
+   1. プライマリ担当者またはプロジェクトにスケジュールがない場合、Workfrontはシステムのデフォルトのスケジュールを使用します。
 
   手順は、Workfront が期間の計算に使用するスケジュールを理解した後の最初のシナリオと同様です。
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '2988'
 ht-degree: 46%
@@ -91,7 +91,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 <p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
    <td> 
 <p>任意 </p> 
 <p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 

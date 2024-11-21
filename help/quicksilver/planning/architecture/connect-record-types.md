@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '2363'
 ht-degree: 41%
@@ -75,7 +75,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 <p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
    <td> 
 <p>任意 </p> 
 <p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 

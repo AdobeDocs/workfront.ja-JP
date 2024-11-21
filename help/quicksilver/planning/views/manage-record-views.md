@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 63%
@@ -71,7 +71,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 <p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
    <td> 
 <p>任意 </p> 
 <p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 

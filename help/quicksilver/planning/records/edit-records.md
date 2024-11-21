@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 82633fcb858273dee360fc44b031fec5a5cdff54
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1948'
 ht-degree: 56%
@@ -63,7 +63,7 @@ ht-degree: 56%
 <p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
    <td> 
 <p>任意 </p> 
 <p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 

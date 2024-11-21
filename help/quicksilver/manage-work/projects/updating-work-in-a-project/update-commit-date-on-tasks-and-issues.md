@@ -6,10 +6,10 @@ description: 割り当てられたタスクやイシューのコミット日は�
 author: Alina
 feature: Work Management
 exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 53%
+source-wordcount: '566'
+ht-degree: 51%
 
 ---
 
@@ -62,7 +62,9 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクまたはイシューの管理権限</p> </td> 
+   <td> <p>タスクまたはイシューの管理権限</p>
+   <p> コミット日を更新するには、タスクまたは問題に割り当てられている必要があります </p>
+    </td> 
   </tr> 
  </tbody> 
 </table>

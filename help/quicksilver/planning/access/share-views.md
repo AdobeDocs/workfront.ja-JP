@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 9debb7c6d9df0f9f4962f3e66f146e5f605d20f0
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
 source-wordcount: '1433'
 ht-degree: 30%
@@ -69,7 +69,7 @@ This article describes how you can share a view with others. For information abo
 <p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
    <td> 
 <p>任意 </p> 
 <p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 

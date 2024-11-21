@@ -1,5 +1,5 @@
 ---
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 89%
@@ -276,7 +276,7 @@ ht-degree: 89%
 
    Workfront計画のランディングページが開きます。
 
-1. （オプションおよび条件付き）Workfrontの管理者は、次のタブをクリックします。
+1. （オプションおよび条件付き）Workfrontの管理者は、次のいずれかのタブをクリックします。
 
    * **マイワークスペース**：作成したワークスペースが表示されます。
    * **その他のワークスペース**：共有されているワークスペースを含む、Workfront Planning 内のすべてのワークスペースが表示されます。
@@ -291,8 +291,8 @@ ht-degree: 89%
 >
 >Workfront Planning にアクセスするには、次のものが必要です。
 >
->* 新しいWorkfront プランおよびライセンス。 Workfront Planning は、従来のWorkfront プランまたはライセンスでは利用できません。
->* Workfront Planning の追加ライセンス。
+>* 新しいWorkfront パッケージおよびライセンス。 Workfront Planning は、従来のWorkfront パッケージまたはライセンスでは使用できません。
+>* Workfront Planning パッケージ。
 >* 組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。
 >
 > Workfront Planning へのアクセス要件の完全なリストについては、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。

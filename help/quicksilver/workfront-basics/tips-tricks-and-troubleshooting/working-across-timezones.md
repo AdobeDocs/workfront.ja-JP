@@ -5,16 +5,23 @@ title: タイムゾーンをまたいでの作業
 description: ' [!DNL Adobe Workfront]  では、タイムゾーンを使用して、オブジェクトの時間フィールドやメールなどの他のエリアの時間を計算する方法を理解すると役立ちます。'
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 96%
+source-wordcount: '1149'
+ht-degree: 93%
 
 ---
 
 # タイムゾーンをまたいでの作業
 
 <!-- Audited: 2/2024 -->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+
+-->
 
 [!DNL Adobe Workfront] では、タイムゾーンを使用して次の計算を行う方法を理解すると役立ちます。
 
@@ -91,20 +98,37 @@ ht-degree: 96%
 
   このスケジュールは、プロジェクトスケジュールとは異なる場合があります。例えば、誰かがプロジェクト内にタスクを作成し、まだ誰にも割り当てていない場合、そのタスクはプロジェクトスケジュールを使用します。ユーザーがタスクに割り当てられると、そのタスクはそのユーザーのスケジュールを使用します。
 
-  複数のユーザーがタスクに割り当てられている場合、システム全体のプロジェクト環境設定で設定した、次のいずれかが使用されます。
+  複数のユーザーが 1 つのタスクに割り当てられている場合、システムは、システム全体またはグループ全体のプロジェクト環境設定で設定されているように、次のいずれかを使用します。
 
    * タスクのプライマリ所有者のスケジュールのタイムゾーン
    * プロジェクトのスケジュールのタイムゾーン。
 
-  これにより、タスクの日付が変更される場合があります。
+<!--
+   <div class="preview">
 
-  **例：** EST ユーザーは、EST の正午である PST の午前 9:00 に開始するようにスケジュールされた 1 日限りのタスクに割り当てられます。EST ユーザーは、その日の残り作業時間が 2 時間に過ぎないので、タスク完了日は次の作業日まで約 6 時間延長されます。
+   If one user is assigned to a task, the system uses one of the following, as configured in the system- or group-wide project preferences: 
 
-  [!UICONTROL 設定]の[!UICONTROL プロジェクト環境設定]エリアについては、[システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+   * The time zone for the schedule of the task's assignee
+   * The time zone for the schedule of the project.
 
-  プロジェクトまたはユーザーにスケジュールを割り当てる手順については、[スケジュールを作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
+   </div>
+-->
 
-  スケジュールで設定されたタイムゾーンが[!UICONTROL ワークロードバランサー]での[!UICONTROL 予定時間数]の配分に与える影響については、[[!UICONTROL ワークロードバランサー]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)でのユーザー割り当ての管理を参照してください。
+これにより、タスクの日付が変更される場合があります。
+
+>[!BEGINSHADEBOX]
+
+**例：**
+EST ユーザーは、午前 9:00 PST （正午の EST）に開始されるようにスケジュールされた 1 日のタスクに割り当てられます。 EST ユーザーは、その日の残り作業時間が 2 時間に過ぎないので、タスク完了日は次の作業日まで約 6 時間延長されます。
+
+
+>[!ENDSHADEBOX]
+
+[!UICONTROL 設定]の[!UICONTROL プロジェクト環境設定]エリアについては、[システム全体のプロジェクト環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+
+プロジェクトまたはユーザーにスケジュールを割り当てる手順については、[スケジュールを作成](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
+
+スケジュールで設定されたタイムゾーンが[!UICONTROL ワークロードバランサー]での[!UICONTROL 予定時間数]の配分に与える影響については、[[!UICONTROL ワークロードバランサー]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)でのユーザー割り当ての管理を参照してください。
 
 
 ### カスタムフォームでの計算時間フィールドの使用 {#use-calculated-time-fields-in-a-custom-form}

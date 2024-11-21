@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
 workflow-type: tm+mt
-source-wordcount: '4106'
-ht-degree: 61%
+source-wordcount: '4129'
+ht-degree: 60%
 
 ---
 
@@ -73,7 +73,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 <p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
    </td> 
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront計画*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
    <td> 
 <p>任意 </p> 
 <p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
@@ -206,6 +206,9 @@ OLD:
    任意の列のヘッダーにポインタを合わせ、フィールド名の後の下向き矢印をクリックしてから、「**左に挿入** または **右に挿入** をクリックして新しいフィールドを追加します。
 1. 「**新しいフィールド**」タブで、「**フィールドタイプ**」ボックスからフィールドタイプを検索するか、次のフィールドタイプの中から選択します。
 
+   「**新規フィールド**」タブで、「**フィールドタイプ**」ボックス <!--using any related keyword--> ックスでフィールドタイプを検索するか、以下に示すフィールドタイプから選択します。
+
+
    * [1 行テキスト](#single-line-text)
    * [段落](#paragraph)
    * [複数選択](#multi-select)
@@ -225,6 +228,9 @@ OLD:
    >[!IMPORTANT]
    >
    >    フィールドのフィールドタイプは、保存すると変更できません。
+
+   <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
+    * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
 1. 以下の節の説明に従って、各フィールドの追加に進みます。
 
