@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 6bebe5fa42e50f7aa68b4a87069d47b6ef3323b9
+source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 4%
@@ -136,11 +136,11 @@ IF(
 
      <span class="preview"> エラーメッセージに静的 URL を含めることができます。この URL は、ルールの制約内でのアクションを変更する方法をユーザーに示す、ドキュメントまたはその他の役に立つページへのリンクです。</span>
 
-     <span class="preview"> この例では、「詳細情報」が URL にリンクします。 `"You are not allowed to add a new expense in June.[Learn more](http://url)"` URL はかっこで囲む必要がありますが、角括弧内のリンクテキストは必要ありません。 完全な URL を表示すると、クリック可能なリンクになります。</span>
+     <span class="preview"> この例では、「詳細情報」が URL にリンクします。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL はかっこで囲む必要がありますが、角括弧内のリンクテキストは必要ありません。 完全な URL を表示すると、クリック可能なリンクになります。</span>
 
    ![ ビジネス・ルールの追加ダイアログ ](assets/add-business-rule-dialog-no-ai-button.png)
 
-   この例は、費用のビジネスルールです。 今月が 6 月の場合、ユーザーは新しい費用を作成することは許可されておらず、メッセージがこれを説明しています。
+   この例は、プロジェクトのビジネスルールです。 今月が 11 月の場合、ユーザーは新しいプロジェクトを作成することは許可されておらず、メッセージがこれを説明します。
 
    ビジネス・ルールのその他の例については、この記事の [ ビジネス・ルールのシナリオ ](#scenarios-for-business-rules) を参照してください。
 
