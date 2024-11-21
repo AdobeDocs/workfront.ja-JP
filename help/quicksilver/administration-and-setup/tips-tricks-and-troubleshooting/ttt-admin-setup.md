@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e72018b7-5de2-4661-b27d-6da6ece5cc48
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 806a4c4835e47da4fbbdb28ec0c35c990f70239e
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 95%
+source-wordcount: '206'
+ht-degree: 92%
 
 ---
 
@@ -43,3 +43,4 @@ ht-degree: 95%
 * [メールヘッダーファイルの保存](../../administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
 * [共有すると複数の権限が表示される](../../administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
 * [ドメインの DMARC ポリシーにより、認証されていないメールが受け入れられない](../../administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+* [Workfront:ZScalar 設定を使用すると、パフォーマンスが低下する場合があります](../../administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
