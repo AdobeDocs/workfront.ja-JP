@@ -8,9 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
-source-git-commit: 1713a5855b8798d888866447338291975ff69cb7
+source-git-commit: fec9f895113600ff6ccc795a94019a473793a226
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '161'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Workfront Data Connect は、Snowflakeテクノロジを使用してWorkfront データにこれまでにない方法でアクセスできるため、ビジネスクリティカルな質問に回答し、プロセスの価値を測定することができます。 この機能を使用すると、大規模法人のお客様は、Workfront データレイクから直接データビジュアライゼーションツールを使用してデータを調査したり、Workfront データを所有するデータウェアハウスに書き出したりできます。
 
-購読者は、任意のビジネスインテリジェンスツール（Tableau、Power BI、Domo、Looker など）を連携させることができます。 データ接続を使用して、次のタイプのデータでデータビジュアライゼーションを作成します。
+購読者は、任意のビジネスインテリジェンスツール（Tableau、データ、Domo、Looker など）を Data Connect に接続して、次のタイプのPower BIでデータビジュアライゼーションを作成できます。
 
 * 低遅延、現在の状態データ
 * 特定の時点での比較のためのイベントレコードの変更
@@ -29,7 +29,7 @@ Workfront Data Connect は、Snowflakeテクノロジを使用してWorkfront �
 
 データ接続の詳細については、次の記事を参照してください。
 
-* [Snowflake用のリーダー（サービス） アカウントを作成します](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Snowflake用のリーダーアカウントまたは接続を作成](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
 * [Workfront Data Connect への接続の確立](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Connect データディクショナリ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Workfront Data Connect クエリの例](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)

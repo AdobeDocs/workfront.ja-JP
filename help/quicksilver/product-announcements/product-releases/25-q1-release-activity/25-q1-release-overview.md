@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: cea70727aaaa867b55ce999f68a675c453840d41
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 48%
+source-wordcount: '1635'
+ht-degree: 35%
 
 ---
 
@@ -38,6 +38,7 @@ ht-degree: 48%
 * [ドキュメント管理の機能強化](#document-management-enhancements)
 * [ホームの機能強化](#home-enhancements)
 * [プルーフ機能の強化](#proofing-enhancements)
+* [レポートとダッシュボードの機能強化](#report-and-dashboard-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者機能の強化
@@ -52,6 +53,54 @@ ht-degree: 48%
         </td>
         <td>
             <p><span class="bold">リリース日</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            単一割り当てタスクにプロジェクトまたはユーザースケジュールを使用するための環境設定</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>1 人のユーザーをタスクに割り当て、プロジェクトとユーザーの両方がスケジュールに関連付けられている場合に、Workfrontがプロジェクトのスケジュールを使用してプロジェクトのタイムラインを計算するかどうかを示す新しい環境設定が追加されました。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2024年11月21日（PT）</li>
+                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月）</li>
+                <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
+            </ul>
+        </td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            ビジネスルールでハイパーリンクがサポートされるようになりました</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>ビジネス ルールのカスタム エラーメッセージにハイパーリンクを含めて、ルールの制約内でアクションを変更する方法をユーザーに示すことができるようになりました。 静的 URL は、ユーザーに役立つドキュメントやその他のページにリンクできます。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2024年11月21日（PT）</li>
+                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月）</li>
+                <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
+            </ul>
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            ネイティブの先行入力フィールドのフィルタリングが利用できるようになりました</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>カスタムフォームにネイティブフィールド参照を追加し、先行入力フィールド（Portfolio、会社、所有者など）を参照する場合、フィルターオプションを使用できるようになりました。 フィルターを使用すると、ユーザーがフィールドを使用する際に選択できるオブジェクトを制限できます。 このカスタムフィルターは、カスタム先行入力フィールドに対するフィルターと同じように機能し、テキストモードを使用してフィルターを定義します。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2024年11月21日（PT）</li>
+                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月）</li>
+                <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -122,6 +171,22 @@ ht-degree: 48%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            複数のドキュメントを一度に編集</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2024年11月21日（PT）</li>
+                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月）</li>
+                <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
+            </ul>
+        </td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             ドキュメントのバージョン承認に使用できる、新しい取り消し済みステータス</a></p>
             [!BADGE In Production for Fast Release ]{type=Positive}
             <p>承認待ちのドキュメントに新しいバージョンが追加されると、以前のバージョンの承認が「取り消し済み」と表示され、新しいバージョンが追加されているので以前の承認プロセスがクローズされたことを示します。</p>
@@ -133,6 +198,7 @@ ht-degree: 48%
                 <li>迅速リリースの実稼動：24.11 リリースの場合（2024 年 11 月 14 日（PT））</li>
                 <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
             </ul>
+            <p><i>この機能は段階的なリリースの一部であり、特定のお客様のみが使用できます。</i></p>
         </td>
     </tr>
 </tbody>
@@ -225,12 +291,62 @@ ht-degree: 48%
 </tbody>
 </table>
 
+## レポートとダッシュボードの機能強化
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">機能</span></p>
+        </td>
+        <td>
+            <p><span class="bold">リリース日</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            データ接続の初回リーダーアカウント作成ボタン</a></p>
+            <p>Data Connect に初めてアクセスする管理者には、1 回クリックして新しいSnowflakeリーダーアカウントを作成するオプションが表示されるようになりました。 このプロセスが完了するまでに数分かかりますが、それ以上のアクションは必要ありません。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2024年11月14日（PT）</li>
+                <li><span class="preview">すべてのお客様向けの実稼動リリース：2024 年 11 月 14 日（PT）</span></li>
+            </ul>
+        </td>
+    </tr>
+</tbody>
+</table>
+
 ### その他の機能強化
 
 <table>
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            リンクされたフォルダー内の移動または削除されたアセットの管理方法に関する更新</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>Experience Manager AssetsとAssets EssentialsのAdobe Workfront統合を使用する際の、移動されたアセットや削除されたアセットの処理方法を変更しました。</p>
+            <ul>
+                <li>削除されたアセット：AssetsまたはAssets Essentialsのリンクされたフォルダー内でアセットを削除すると、削除されたアセットはプロジェクトドキュメント領域に保持されます。</li>
+                <li>移動されたアセット：アセットがAssetsまたはAssets essentials のリンク先フォルダー以外の場所に移動された場合、移動されたアセットはプロジェクトのドキュメント エリアに保持されます。</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2024年11月21日（PT）</li>
+                <li><span class="preview">すべてのお客様向けの本番リリース： 2024年12月5日（PT）</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">

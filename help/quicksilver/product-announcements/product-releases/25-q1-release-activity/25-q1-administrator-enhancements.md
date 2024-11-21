@@ -4,10 +4,11 @@ description: 2025年第 1 四半期の管理者の機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f30bed961b339e20c0693a8b5e485f872375b688
+exl-id: fa24040d-0403-4799-b690-c3d172797115
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 43%
+source-wordcount: '454'
+ht-degree: 16%
 
 ---
 
@@ -16,6 +17,36 @@ ht-degree: 43%
 このページでは、2025年第 1 四半期にプレビュー環境にリリースされた管理者の機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
+
+## 単一割り当てタスクにプロジェクトまたはユーザースケジュールを使用するための環境設定
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 11 月 21 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月）の場合、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の場合
+
+1 人のユーザーをタスクに割り当て、プロジェクトとユーザーの両方がスケジュールに関連付けられている場合に、Workfrontがプロジェクトのスケジュールを使用してプロジェクトのタイムラインを計算するかどうかを示す新しい環境設定が追加されました。 この機能強化が行われる前は、この設定は複数ユーザーの割り当てに対して存在していました。 設定を、タスクへのシングルユーザー割り当てに使用できるようになりました。
+
+詳しくは、[システム全体のプロジェクト環境の設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+
+## ビジネスルールでハイパーリンクがサポートされるようになりました
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 11 月 21 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月）の場合、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の場合
+
+ビジネス ルールのカスタム エラーメッセージにハイパーリンクを含めて、ルールの制約内でアクションを変更する方法をユーザーに示すことができるようになりました。 静的 URL は、ユーザーに役立つドキュメントやその他のページにリンクできます。
+
+詳細は、[ ビジネス・ルールの作成および編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
+
+## ネイティブの先行入力フィールドのフィルタリングが利用できるようになりました
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 11 月 21 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月）の場合、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の場合
+
+カスタムフォームにネイティブフィールド参照を追加し、先行入力フィールド（Portfolio、会社、所有者など）を参照する場合、フィルターオプションを使用できるようになりました。 フィルターを使用すると、ユーザーがフィールドを使用する際に選択できるオブジェクトを制限できます。 このカスタムフィルターは、カスタム先行入力フィールドに対するフィルターと同じように機能し、テキストモードを使用してフィルターを定義します。
+
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## カスタムフィールドに「移動先」アイコンが追加されました
 
@@ -26,4 +57,3 @@ ht-degree: 43%
 カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。
 
 詳しくは、[ フォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
-

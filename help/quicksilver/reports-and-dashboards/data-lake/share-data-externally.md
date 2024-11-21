@@ -7,9 +7,9 @@ description: Workfront Data Connect を使用すると、組織のWorkfront デ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '607'
 ht-degree: 9%
 
 ---
@@ -18,20 +18,22 @@ ht-degree: 9%
 
 Workfront Data Connect を使用すると、組織のWorkfront データをビジネスインテリジェンスツールで使用したり、外部データウェアハウスに保存したりできます。
 
-Data Connect Data Lake を外部許可リスト許可リストに加えるに接続するには、以下の [Add IPs to the](#add-ips-to-the-allowlist) で説明されているように、最初に必要な IP を製品に追加する必要があります。 さらに、ほとんどの製品では、接続を確立するためにデータレイクに関する追加情報が必要になります。
+Data Connect Data Lake を外部Snowflakeと接続するには、まず「製品のリーダーアカウントまたは接続の作成 [ の説明に従って接続を作成する必要があり ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) す。 次に、以下の [許可リスト許可リストに加えるへの IP の追加 ](#add-ips-to-the-allowlist) で説明するように、必要な IP をページに追加する必要があります。
+
+ほとんどの製品では、接続を確立するために、データレイクに関する次の情報が必要です。
 
 | フィールド名 | 値 |
 |---------------|-------------|
-| サーバー | `https://` 部分を除いた接続用の URL （Workfront*の **データアクセス** ページにあります） |
+| サーバー | `https://` 部分を除いた接続用の URL （Workfront*の **Data Connect** ページにあります） |
 | ポート | `443` |
 | データベース | `WORKFRONT` |
 | ウェアハウス | `READER_WH` |
 | スキーマ | `WF` |
 | 役割 | `READER_ROLE` |
-| ユーザー名 | 接続時に選択したユーザー名（Workfront*の **データアクセス** ページで確認できます） |
+| ユーザー名 | 接続の作成時に選択したユーザー名（Workfront*の **Data Connect** ページにあります） |
 | パスワード | 初回Snowflakeログイン時に選択したパスワード* |
 
-*Data ConnectSnowflakeを含む **データアクセス** ページの場所については、[ 接続用のリーダー（サービス）アカウントの作成 ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) を参照してください。
+*Snowflakeを含む **Data Connect** ページの見つけ方については、[Create a reader account or connection for connection](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -82,7 +84,7 @@ Data Connect Data Lake を外部許可リスト許可リストに加えるに接
 
 1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
 
-1. 左側のパネルで、**システム**/**データアクセス** をクリックします。
+1. 左側のパネルで、**システム**/**データ接続** をクリックします。
 
 1. 「**許可されている IP**」タブをクリックし、「**許可リストに IP アドレスを追加**」ボタンをクリックします。
 
@@ -94,7 +96,7 @@ Data Connect Data Lake を外部許可リスト許可リストに加えるに接
 
 1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
 
-1. 左側のパネルで、**システム**/**データアクセス** をクリックします。
+1. 左側のパネルで、**システム**/**データ接続** をクリックします。
 
 1. 「**許可されている IP**」タブをクリックし、削除する IP アドレスの右側にあるごみ箱アイコン ![ 削除アイコン ](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) をクリックします。
 

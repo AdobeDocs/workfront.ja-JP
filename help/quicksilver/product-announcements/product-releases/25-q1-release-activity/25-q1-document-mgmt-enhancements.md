@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: 7ed4b36ef9297560ce9df6aa750b2ac24ac4a129
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 53%
+source-wordcount: '218'
+ht-degree: 34%
 
 ---
 
@@ -18,9 +18,19 @@ ht-degree: 53%
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
 
+## 複数のドキュメントを一度に編集
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 11 月 21 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月）の場合、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の場合
+
+複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。
+
+<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
+
 >[!IMPORTANT]
 >
->このページに記載されている機能は、段階的なリリースの一部で、特定のお客様のみが利用できます。
+>以下に示す機能は段階的リリースの一部であり、特定のお客様のみが使用できます。
 
 ## ドキュメントのバージョン承認に使用できる、新しい取り消し済みステータス
 

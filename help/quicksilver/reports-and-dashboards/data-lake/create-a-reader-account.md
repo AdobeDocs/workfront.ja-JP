@@ -2,21 +2,23 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Snowflake用のリーダー（サービス） アカウントを作成します
+title: Snowflake用のリーダーアカウントを作成します
 description: Data Connect データにアクセスするには、まずSnowflakeリーダーアカウントを作成する必要があります。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 10%
+source-wordcount: '666'
+ht-degree: 8%
 
 ---
 
-# Snowflake用のリーダー（サービス） アカウントを作成します
+# Snowflake用のリーダーアカウントまたは接続を作成
 
-Data Connect データにアクセスするには、新しい接続ごとにSnowflakeリーダー（またはサービス）アカウントを作成する必要があります。 接続を作成したら、「既存の接続 **」タブの** データアクセス **ページ（** メインメニュー **/** 設定 **/** システム **/** データアクセス ****）で接続をクリックすると、関連する URL とユーザー名が表示されます。
+Data Connect のデータにアクセスするには、まずSnowflakeリーダー（またはサービス）のアカウントを作成する必要があります。次に、Data Connect にアクセスするユーザーまたはツールごとに新しい接続を作成します。
+
+接続を作成したら、**既存の接続** タブの **データ接続** ページ（**メインメニュー**/**設定**/**システム**/**データ接続**）で接続する URL とユーザー名をクリックすると、関連付けられている URL を確認できます。
 
 新しく作成した外部データとの接続の使用について詳しくは、[Workfront Data Connect への接続の確立 ](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md) を参照してください。
 
@@ -61,15 +63,35 @@ Data Connect データにアクセスするには、新しい接続ごとにSnow
 
 ## リーダーアカウントの作成
 
+接続の作成を開始するには、組織の新しいSnowflake リーダーアカウントを作成する必要があります。
+
+>[!IMPORTANT]
+>
+>このプロセスは、組織ごとに 1 回だけ完了する必要があります。 以下に説明する場所に「**Readerアカウントを作成**」ボタンがない場合、リーダーアカウントは既に作成されています。
+
+リーダーアカウントを作成するには：
+
 1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
 
-1. 左側のパネルで、**システム**/**データアクセス** をクリックします。
+1. 左側のパネルで、**システム**/**データ接続** をクリックします。
+
+1. 「**Readerアカウントを作成**」ボタンをクリックして、組織のリーダーアカウントの作成を開始します。 この処理は自動的に行われますが、完了するまでに数分かかる場合があります。
+
+1. 完了すると、リーダーアカウントがアクティブになったことを説明するダイアログウィンドウが表示されます。 ブラウザーページを更新して、「**新しい接続を作成**」ボタンにアクセスできるようにします。
+
+![Readerアカウント作成ダイアログ ](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+
+## 接続の作成
+
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon.png) をクリックするか、可能な場合は）右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックしてから、**設定** をクリックします。
+
+1. 左側のパネルで、**システム**/**データ接続** をクリックします。
 
 1. **新しい接続を作成** をクリックします。
 
 1. 表示されたウィンドウで、「**接続参照の説明**」に接続の名前を、「**接続ユーザー**」にユーザー名を入力し、「**接続を生成**」をクリックします。
 
-   ![ リーダーアカウントの作成 ](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
+   ![ 新しい接続の作成 ](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
 1. **デフォルトのパスワード** と、Snowflakeを使用してデータを表示できる URL が生成されます。 Snowflakeへの初めてのログイン時に選択したユーザー名とパスワードを使用する必要があるので、URL と同様にパスワードも記録しておいてください。 完了したことを示すボックスをオンにし、「**閉じる**」をクリックします。
 

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 11%
+source-wordcount: '403'
+ht-degree: 10%
 
 ---
 
@@ -17,6 +17,17 @@ ht-degree: 11%
 このページでは、2025 年第 1 四半期リリースでプレビュー環境に加えられた機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
+
+## リンクされたフォルダー内の移動または削除されたアセットの管理方法に関する更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024年11月21日（PT）、実稼動版リリース（すべてのお客様向け）：2024年12月5日（PT）
+
+Experience Manager AssetsとAssets EssentialsのAdobe Workfront統合を使用する際の、移動されたアセットや削除されたアセットの処理方法を変更しました。
+
+* 削除されたアセット：AssetsまたはAssets Essentialsのリンクされたフォルダー内でアセットを削除すると、削除されたアセットはプロジェクトドキュメント領域に保持されます。
+* 移動されたアセット：アセットがAssetsまたはAssets essentials のリンク先フォルダー以外の場所に移動された場合、移動されたアセットはプロジェクトのドキュメント エリアに保持されます。
 
 ## カスタムフォーム内のセクションが折りたたみ可能および展開可能になりました
 

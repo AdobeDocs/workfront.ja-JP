@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: f69c974a620d5f39bc4ea18b455476c90cd4908e
+source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
 workflow-type: tm+mt
-source-wordcount: '14597'
+source-wordcount: '14607'
 ht-degree: 91%
 
 ---
@@ -25,6 +25,7 @@ ht-degree: 91%
          * [2025年第 1 四半期のドキュメント管理の機能強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md)
          * [2025年第 1 四半期のホームの機能強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md)
          * [2025 年第 1 四半期のプルーフの強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-proofing-enhancements.md)
+         * [2025 年第 1 四半期のレポートとダッシュボードの機能強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md)
          * [2025 年第 1 四半期のリリース期間中のその他の機能強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [2025 年第 1 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
       * 2024年第 4 四半期リリース {#release-24-q4}
@@ -1768,7 +1769,7 @@ ht-degree: 91%
       * [拡張分析でチームごとのアクティビティのビジュアライゼーションを表示する](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Workfront Data Connect の概要](reports-and-dashboards/data-lake/data-lake-overview.md)
-      * [リーダーアカウントの作成](reports-and-dashboards/data-lake/create-a-reader-account.md)
+      * [Snowflake用のリーダーアカウントまたは接続を作成](reports-and-dashboards/data-lake/create-a-reader-account.md)
       * [Workfront Data Connect への接続の確立](reports-and-dashboards/data-lake/share-data-externally.md)
       * [Workfront Data Connect データディクショナリ](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Workfront Data Connect クエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
