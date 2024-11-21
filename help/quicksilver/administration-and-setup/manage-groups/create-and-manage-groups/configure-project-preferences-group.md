@@ -8,20 +8,19 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 98%
+source-wordcount: '2825'
+ht-degree: 94%
 
 ---
 
 # グループのプロジェクト環境設定の指定
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 Adobe Workfront 管理者がシステム内のすべてのグループのプロジェクト環境設定のロックを解除している場合は、グループ管理者は、グループが作成する後続のすべてのプロジェクトに影響を与えるように、グループのその環境設定を指定することができます。
 
@@ -210,12 +209,22 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>複数のユーザーがタスクに割り当てられた時は、以下のスケジュールを使用する</strong> </p> </td> 
+   <td role="rowheader"> <p><strong> 複数のユーザーが 1 つのタスクに割り当てられている場合は、のスケジュールを使用する…</strong> </p> </td> 
    <td> <p>プロジェクトにスケジュールが割り当てられていない場合や、タスクに割り当てられたユーザーにスケジュールが割り当てられていない場合、Workfront では、システムのデフォルトのスケジュールを使用して、タスクのタイムラインを計算します。</p> <p>プロジェクトの同じタスクに複数のユーザーを割り当て、そのタスクに割り当てられているユーザーにもスケジュールが割り当てられている場合、Workfront では以下のスケジュールを使用します。</p> 
     <ul> 
      <li><strong>プライマリ割り当て</strong>：Workfront では、タスクに対するプライマリ割り当てのスケジュールを使用して、タイムラインを計算します。</li> 
      <li><strong>プロジェクト</strong>：Workfront では、プロジェクトのスケジュールを使用して、各タスクのタイムラインを計算します。</li> 
     </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p> </td> 
+  </tr> 
+ <tr> 
+   <td role="rowheader"> <p><span class="preview"><strong>1 人のユーザーが 1 つのタスクに割り当てられた場合、以下のスケジュールを使用する…</strong></span> </p> </td> 
+   <td> <div class="preview"><p>プロジェクトにスケジュールが割り当てられていない場合や、タスクに割り当てられたユーザーにスケジュールが割り当てられていない場合、[!DNL Workfront] では、システムのデフォルトのスケジュールを使用して、タスクのタイムラインを計算します。</p>
+
+<p>1 人のユーザーをプロジェクトのタスクに割り当て、プロジェクトとユーザーの両方にスケジュールを関連付けると、[!UICONTROL Workfront] では次のスケジュールが使用されます。</p> 
+    <ul> 
+     <li><strong>[!UICONTROL User]</strong>：タイムラインを計算するタスクに割り当てられたユーザーのスケジュール。</li> 
+     <li><strong>[!UICONTROL プロジェクト ]</strong>: タスクのタイムラインを計算するプロジェクトのスケジュール。</li> 
+    </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p></div></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>タイムラインの計算 </p> </td> 
@@ -233,19 +242,6 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
   </tr> 
  </tbody> 
 </table>
-
-<!--Add this to the table (under the "When multiple users are assigned ..." setting):
-
-When one user is assigned to a task, use the schedule of the...
-
-
-<p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign one user to a task in a project and the project has an assigned schedule and the user assigned to the tasks also has a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL User]</strong>: The schedule of the assigned user on the task to calculate timelines.</li> 
-     <li><strong>[!UICONTROL Project]</strong>: The schedule of the project to calculate the timeline of the task.</li> 
-    </ul> <p>For more information about schedules, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Create a schedule</a>.</p>
-
--->
 
 ### ビジネスケース {#business-cases}
 

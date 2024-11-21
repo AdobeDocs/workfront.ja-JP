@@ -10,10 +10,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 99%
+source-wordcount: '864'
+ht-degree: 87%
 
 ---
 
@@ -21,12 +21,9 @@ ht-degree: 99%
 
 <!-- Audited: 1/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  
-
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 スケジュールを使用して週の作業時間を定義し、スケジュールをユーザーまたはプロジェクトに関連付けることができます。これにより、[!DNL Adobe Workfront] がタイムラインとユーザーの空き時間を計算できるようになります。手順については、[スケジュールを作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
 
@@ -68,23 +65,17 @@ Workfront でスケジュールを操作する際は、次の点に注意して�
 
 複数のスケジュールが存在する場合に、システムでスケジュールが使用される順序は次のとおりです。
 
-<!--Replace the first bullet below with this when the setting releases: 
-* When one user is assigned to a task, the following scenarios exist, depending on what environment you use: 
 
-   * In the Production environment, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
+* 1 人のユーザーをタスクに割り当てると、使用する環境に応じて、次のようなシナリオが発生します。
 
-      For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   * 実稼動環境では、[!DNL Workfront] はユーザーのスケジュールを使用してタスクのタイムラインを計算します。 これには、ユーザーの個人的な時間も含まれます。プロジェクトのスケジュールは無視されます。
 
-   * <span class="preview">In the Preview environment, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:</span>
+     個人スケジュールについて詳しくは、[個人休暇の設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)を参照してください。
 
-      * <span class="preview">The schedule of the user who is assigned to the task </span>
-      * <span class="preview">The schedule associated with the project.</span>
+   * <span class="preview"> プレビュー環境では、[!DNL Workfront] の [!UICONTROL  設定 ] の [!UICONTROL  プロジェクト環境設定 ] 領域で定義された次のいずれかのスケジュールを使用します。</span>
 
--->
-
-* ユーザーがタスクに割り当てられている場合、[!DNL Workfront] は、ユーザーのスケジュールを使用してタスクのタイムラインを計算します。これには、ユーザーの個人的な時間も含まれます。プロジェクトのスケジュールは無視されます。
-
-  個人スケジュールについて詳しくは、[個人休暇の設定](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)を参照してください。
+      * <span class="preview"> タスク </span> に割り当てられたユーザーのスケジュール
+      * <span class="preview"> プロジェクトに関連付けられたスケジュール。</span>
 
 * 複数のユーザーが 1 つのタスクに割り当てられ、タスクの期間中に異なるスケジュールを持つ場合、[!DNL Workfront] は、[!UICONTROL 設定]の[!UICONTROL プロジェクト環境設定]エリアで定義されている次のスケジュールのいずれかを使用します。
 

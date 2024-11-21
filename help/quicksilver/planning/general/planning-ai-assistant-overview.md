@@ -6,21 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 170edee352f1219986057dbb7d77228f84d855b1
+source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 5%
+source-wordcount: '736'
+ht-degree: 8%
 
 ---
 
 
 # Adobe Workfront計画 AI アシスタントの概要
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -66,14 +65,12 @@ AI アシスタントを使用して、現在のページコンテキストと�
 * 削除したばかりのレコードを復元します
 
 
-<!-- ## Locate the AI Assistant in Workfront Planning
+## Workfront Planning で AI アシスタントを見つけます
 
-You can locate the AI Assistant in the following areas of Workfront Planning:
+AI アシスタントは、Workfront計画の次の領域に配置できます。
 
-* The main navigation bar, in the upper-right corner of the screen.
-* Inside the details area of a record, after you opened the record in the preview or after you opened the record's page. 
-
--->
+* 画面の右上隅にあるメインナビゲーションバー。
+* <span class="preview"> プレビューでレコードを開いた後、またはレコードのページを開いた後、レコードの詳細領域内。</span>
 
 ## 計画エリアで AI アシスタントにアクセスする
 
@@ -87,7 +84,7 @@ You can locate the AI Assistant in the following areas of Workfront Planning:
 
 1. （任意） **レコード** をクリックして、レコードの **詳細** ページを開きます。
 
-1. 画面の右上隅にある **AI アシスタント** アイコン（グローバルナビゲーションバー）をクリッ <!--or in the upper-right corner of the record's preview or page.--> します
+1. グローバルナビゲーションバー <span class="preview"> の画面の右上隅にある **AI アシスタント** アイコン、またはレコードのプレビューまたはページの右上隅にある </span>AI アシスタント」アイコンをクリックします。
 
    ![](assets/ai-assistant-icon-highlighted.png)
 
