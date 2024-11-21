@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 347c1484ce24b8aeb3d1e12c35a19afbb937803c
+source-git-commit: f69c974a620d5f39bc4ea18b455476c90cd4908e
 workflow-type: tm+mt
 source-wordcount: '14597'
 ht-degree: 91%
@@ -854,8 +854,8 @@ ht-degree: 91%
       * [スプーフィングの防止と SPF レコードの追加](administration-and-setup/tips-tricks-and-troubleshooting/prevent-spoofing-add-wf-spf-records.md)
       * [メールヘッダーファイルを保存](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [共有すると複数の権限が表示される](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
-      * [ 認証されていないメールは受け付けられません ](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-        [Workfront: ZScalar 設定により、パフォーマンスが低下する可能性があります ](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+      * [未認証のメールが受け入れられない](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
+      * [Workfront:ZScalar 設定を使用すると、パフォーマンスが低下する場合があります](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
       * [ユーザー資格情報と SAML 資格情報](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [アクセスレベルの自動アップグレードオプションの更新](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront の基本 {#basics}
