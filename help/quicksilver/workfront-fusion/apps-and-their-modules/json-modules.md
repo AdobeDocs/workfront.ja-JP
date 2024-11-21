@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion JSON アプリは、Adobe Workfront Fusion �
 author: Becky
 feature: Workfront Fusion
 exl-id: 60540608-9d2e-4e10-9fb2-5388dda64784
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
 workflow-type: tm+mt
 source-wordcount: '1214'
-ht-degree: 100%
+ht-degree: 97%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランをご利用の場合、この記事で説明されている機能を使用するには、組織は [!DNL Adobe Workfront] に加えて [!DNL Adobe Workfront Fusion] も購入する必要があります。[!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには、組織で [!DNL Adobe Workfront Fusion] の購入 [!DNL Adobe Workfront] 必要です。 [!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
    <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
@@ -88,7 +88,7 @@ ht-degree: 100%
 >       "name" : "Peter",
 >
 >    
->   "ID" : 1
+   "ID" : 1
 >}
 >```
 >
@@ -108,7 +108,7 @@ JSON 文字列フィールドに配列 `[ ... ]` が含まれている場合、�
 >   },
 >
 >  
-> {
+ {
 >       "name" : "Mike",
 >       "ID" : 2
 >   }
@@ -242,49 +242,48 @@ JSON 文字列フィールドに配列 `[ ... ]` が含まれている場合、�
 >
 >1. データを取得するには、シナリオに [!DNL Google Sheets]／[!UICONTROL 行を選択]モジュールを配置します。[!DNL Google] スプレッドシートから行を取得するモジュールを設定します。「**[!UICONTROL 返される行の最大数]**」を小さい数に設定しますが、テスト用に 1 より大きい値（例：3）に設定します。[!DNL Google Sheets] モジュールを右クリックし、「**[!UICONTROL このモジュールのみを実行]**」を選択して実行します。モジュールの出力を確認します。
 >
->1. [!DNL Google Sheets] モジュールの後に、[!UICONTROL 配列アグリゲーター]モジュールを接続します。モジュール設定で、「**[!UICONTROL ソースノード]**」フィールドから [!DNL Google Sheets] モジュール を選択します。その他のフィールドは、現時点ではそのままにしておきます。
+1. [!DNL Google Sheets] モジュールの後に、[!UICONTROL 配列アグリゲーター]モジュールを接続します。モジュール設定で、「**[!UICONTROL ソースノード]**」フィールドから [!DNL Google Sheets] モジュール を選択します。その他のフィールドは、現時点ではそのままにしておきます。
 >
->1. [!UICONTROL 配列アグリゲーター]モジュールの後に [!UICONTROL JSON]／[!UICONTROL JSON を作成]モジュールを接続します。モジュールの設定には、JSON 形式を記述したデータ構造が必要です。「**[!UICONTROL 追加]**」をクリックして、データ構造の設定を開きます。このデータ構造を作成する最も簡単な方法は、JSON サンプルから自動的に生成することです。「**[!UICONTROL ジェネレーター]**」をクリックし、JSON サンプルを「**[!UICONTROL サンプルデータ]**」フィールドに貼り付けます。
+1. [!UICONTROL 配列アグリゲーター]モジュールの後に [!UICONTROL JSON]／[!UICONTROL JSON を作成]モジュールを接続します。モジュールの設定には、JSON 形式を記述したデータ構造が必要です。「**[!UICONTROL 追加]**」をクリックして、データ構造の設定を開きます。このデータ構造を作成する最も簡単な方法は、JSON サンプルから自動的に生成することです。「**[!UICONTROL ジェネレーター]**」をクリックし、JSON サンプルを「**[!UICONTROL サンプルデータ]**」フィールドに貼り付けます。
 >
->**例：**
+**例：**
 >
->     ```
->     {
->     
->     "books": [
->     
->     {
->     
->     "id": "ID",
->     
->     "title": "Title",
->     
->     "author": "Author"
->     
->     }
->     
->     ]
->     
->     }
->     
->     ```
+```
+{
+
+"books": [
+
+{
+
+"id": "ID",
+
+"title": "Title",
+
+"author": "Author"
+
+}
+
+]
+
+}
+```
 >
->1. 「**[!UICONTROL 保存]**」をクリックします。これで、データ構造の「[!UICONTROL 仕様]」フィールドに、生成された構造が含まれます。
->1. データ構造の名前をより具体的なものに変更し、「**[!UICONTROL 保存]**」をクリックします。ルート配列属性に対応するフィールドは、JSON モジュールの設定で、マッピング可能なフィールドとして表示されます。
+1. 「**[!UICONTROL 保存]**」をクリックします。これで、データ構造の「[!UICONTROL 仕様]」フィールドに、生成された構造が含まれます。
+1. データ構造の名前をより具体的なものに変更し、「**[!UICONTROL 保存]**」をクリックします。ルート配列属性に対応するフィールドは、JSON モジュールの設定で、マッピング可能なフィールドとして表示されます。
 >
->1. フィールドの横にある「**[!UICONTROL マップ]**」ボタンをクリックし、Array aggregator から出力された `Array[]` 項目をマッピングします。
+1. フィールドの横にある「**[!UICONTROL マップ]**」ボタンをクリックし、Array aggregator から出力された `Array[]` 項目をマッピングします。
 >
->1. 「**[!UICONTROL OK]**」をクリックして、[!UICONTROL JSON] モジュールの設定を閉じます。
+1. 「**[!UICONTROL OK]**」をクリックして、[!UICONTROL JSON] モジュールの設定を閉じます。
 >
->1. [!UICONTROL Array Aggregator] モジュールの設定を開きます。**[!UICONTROL ターゲット構造]**&#x200B;を[!UICONTROL カスタム]から、ルート配列属性に対応する [!UICONTROL JSON] モジュールのフィールドに変更します。[!DNL Google Sheets] モジュールの項目を適切なフィールドにマッピングします。
+1. [!UICONTROL Array Aggregator] モジュールの設定を開きます。**[!UICONTROL ターゲット構造]**&#x200B;を[!UICONTROL カスタム]から、ルート配列属性に対応する [!UICONTROL JSON] モジュールのフィールドに変更します。[!DNL Google Sheets] モジュールの項目を適切なフィールドにマッピングします。
 >
->1. 「**[!UICONTROL OK]**」をクリックして、[!UICONTROL Array Aggregator] モジュールの設定を閉じます。
+1. 「**[!UICONTROL OK]**」をクリックして、[!UICONTROL Array Aggregator] モジュールの設定を閉じます。
 >
->1. シナリオを実行します。
+1. シナリオを実行します。
 >
->[!UICONTROL JSON] モジュールは正しい JSON 形式を出力します。
+[!UICONTROL JSON] モジュールは正しい JSON 形式を出力します。
 >
->1. [!DNL Google Sheets] モジュールの設定を開き、「[!UICONTROL 返される行の最大数]」の数値を増やしてスプレッドシートの行数よりも大きくなるようにし、すべてのデータを処理できるようにします。
+1. [!DNL Google Sheets] モジュールの設定を開き、「[!UICONTROL 返される行の最大数]」の数値を増やしてスプレッドシートの行数よりも大きくなるようにし、すべてのデータを処理できるようにします。
 
 ## トラブルシューティング
 
@@ -298,6 +297,6 @@ JSON コンテンツが [!UICONTROL JSON を解析]モジュールに適切に�
 
 >[!INFO]
 >
->**例：**
+**例：**
 >
->![](assets/quotes-in-json-350x120.png)
+![](assets/quotes-in-json-350x120.png)
