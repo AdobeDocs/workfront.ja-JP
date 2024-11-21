@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 558ca6a1935d33e2c3c7ea3f4c1bd90a493ef8ff
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '3719'
+source-wordcount: '3738'
 ht-degree: 98%
 
 ---
@@ -88,6 +88,25 @@ Although [!DNL Workfront Fusion] does not require an [!DNL Adobe] account to use
 OAuth サーバー間 API を作成するには、Adobe Developers Console に Adobe PDF Services API を追加する必要があります。API を追加する場合は、OAuth サーバー間オプションを選択します。
 
 手順については、アドビデベロッパー向けドキュメントで [OAuth を使用したプロジェクトへの API の追加](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/)を参照してください。
+
+## Adobe PDF サービス API に関する情報
+
+Adobe PDF サービスコネクタは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td>https://pdf-services-stage.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v2.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Adobe PDF Services] への接続の作成
 

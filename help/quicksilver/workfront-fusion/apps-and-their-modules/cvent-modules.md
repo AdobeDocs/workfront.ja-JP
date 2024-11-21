@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  シナリオでは、Cvent を使�
 author: Becky
 feature: Workfront Fusion
 exl-id: c95b9764-29a5-4d8c-8e6d-68a3969129e0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 100%
+source-wordcount: '1059'
+ht-degree: 98%
 
 ---
 
@@ -66,6 +66,25 @@ ht-degree: 100%
 ## 前提条件
 
 [!DNL Cvent] モジュールを使用するには、[!DNL Cvent] アカウントが必要です。
+
+## Cvent API 情報
+
+Cvent コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> V200611.ASMX </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.7.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Adobe Workfront Fusion] に [!DNL Cvent] を接続 {#connect-cvent-to-adobe-workfront-fusion}
 

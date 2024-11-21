@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion AWS]  S3 モジュールを使用す
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 99%
+source-wordcount: '1392'
+ht-degree: 97%
 
 ---
 
@@ -62,6 +62,25 @@ ht-degree: 99%
 ## 前提条件
 
 [!UICONTROL AWS S3] モジュールを使用するには [!DNL Amazon Web Service] アカウントが必要です。
+
+## AWS S3 API の情報
+
+AWS S3 コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td>https://s3。{{parameters.region}}.amazonaws.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.5.21</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL AWS] を [!DNL Workfront Fusion] に接続 {#connect-aws-to-workfront-fusion}
 

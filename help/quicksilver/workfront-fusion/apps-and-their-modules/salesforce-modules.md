@@ -9,9 +9,9 @@ description: Adobe Workfront Fusion のシナリオでは、Salesforce を使用
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2740'
+source-wordcount: '2758'
 ht-degree: 94%
 
 ---
@@ -76,6 +76,29 @@ Salesforce コネクタの紹介ビデオについては、以下を参照して
 ## 前提条件
 
 [!DNL Salesforce] モジュールを使用するには、[!DNL Salesforce] アカウントが必要です。
+
+## Salesforce API の情報
+
+Salesforce コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td> {{connection.instanceUrl}}</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v46.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.15.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Salesforce] オブジェクトの検索について
 

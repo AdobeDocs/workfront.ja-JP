@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  シナリオでは、Datadog を�
 author: Becky
 feature: Workfront Fusion
 exl-id: a0b4352d-a1ce-4459-a58e-71de860b8a90
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 100%
+source-wordcount: '864'
+ht-degree: 98%
 
 ---
 
@@ -66,6 +66,21 @@ ht-degree: 100%
 ## 前提条件
 
 [!DNL Datadog] モジュールを使用するには、[!DNL Datadog] アカウントが必要です。
+
+## Datadog API 情報
+
+Datadog コネクタは以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>1.0.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Datadog] を [!DNL Workfront Fusion] に接続する {#connect-datadog-to-workfront-fusion}
 

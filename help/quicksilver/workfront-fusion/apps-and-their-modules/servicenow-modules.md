@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Ser
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 100%
+source-wordcount: '1621'
+ht-degree: 98%
 
 ---
 
@@ -66,6 +66,25 @@ ht-degree: 100%
 ## 前提条件
 
 [!DNL ServiceNow] モジュールを使用するには、[!DNL ServiceNow] アカウントが必要です。
+
+## ServiceNow API 情報
+
+ServiceNow コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td>https://{{connection.instance}}/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.5.13</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL ServiceNow] を [!DNL Workfront Fusion] に接続
 

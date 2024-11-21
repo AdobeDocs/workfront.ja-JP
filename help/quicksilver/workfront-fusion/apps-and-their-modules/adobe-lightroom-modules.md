@@ -9,9 +9,9 @@ description: Adobe Lightroom モジュールを使用すると、Adobe Lightroom
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2244'
+source-wordcount: '2255'
 ht-degree: 23%
 
 ---
@@ -71,7 +71,26 @@ ht-degree: 23%
 
 * アクティブな [!DNL Adobe Lightroom] アカウントが必要です。
 
-## Adobe Lightroomへの接続の作成
+## Adobe Lightroom API の情報
+
+Adobe Lightroom コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td>https://lr.adobe.io</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.17.128</td> 
+  </tr>
+ </tbody> 
+ </table>
+
+<!--## Create a connection to Adobe Lightroom-->
 
 
 

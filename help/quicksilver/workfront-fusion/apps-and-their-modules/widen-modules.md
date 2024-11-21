@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: d46935bc-4f6c-4502-bd2f-3927f33241e1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1582'
-ht-degree: 100%
+source-wordcount: '1597'
+ht-degree: 99%
 
 ---
 
@@ -62,6 +62,25 @@ ht-degree: 100%
 ## 前提条件
 
 [!UICONTROL Widen] モジュールを使用するには、[!UICONTROL Widen] アカウントが必要です。
+
+## API 情報の拡張
+
+Widen コネクタでは、次の機能を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.10.11</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Widen] を [!DNL Workfront Fusion] に接続 {#connect-widen-to-workfront-fusion}
 

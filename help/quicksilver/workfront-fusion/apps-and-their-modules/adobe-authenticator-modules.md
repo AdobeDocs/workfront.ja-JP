@@ -9,10 +9,10 @@ description: Adobe Authenticator モジュールを使用すると、1 回の接
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 34%
+source-wordcount: '1223'
+ht-degree: 33%
 
 ---
 
@@ -73,6 +73,21 @@ HTTP モジュールより有利な点は、専用のアプリのように接続
    * API を既存のプロジェクトに追加します。
 
   Adobe Developer Consoleを使用したプロジェクトへの API の作成または追加については、Adobeドキュメントの [ プロジェクトの作成 ](https://developer.adobe.com/dep/guides/dev-console/create-project/) を参照してください。
+
+## Adobe Authenticator API の情報
+
+Adobe Authenticator コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.1.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## 接続の作成
 

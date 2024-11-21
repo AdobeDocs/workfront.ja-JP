@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion のシナリオでは、OpenAI（ChatGPT）�
 author: Becky
 feature: Workfront Fusion
 exl-id: 3a747013-5fb6-4416-8d95-d656dfeeb7db
-source-git-commit: 0a01acd56b3ea10d1cccc31a21e434da55b1ec13
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 99%
+source-wordcount: '1339'
+ht-degree: 98%
 
 ---
 
@@ -58,6 +58,25 @@ ht-degree: 99%
 ## 前提条件
 
 [!DNL OpenAI (ChatGPT & DALL-E)] モジュールを使用するには、API キーと組織 ID を含む [!DNL OpenAI] アカウントが必要です。
+
+## OpenAI （ChatGPT &amp; DALL-E） API 情報
+
+OpenAI （ChatGPT および DALL-E）コネクタは、次を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.11.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL OpenAI (ChatGPT & DALL-E)] を [!DNL Workfront Fusion] に接続
 
@@ -330,6 +349,7 @@ This action module makes edits or creates variations of existing images.
     <li><p><b>モデルの取得 </b></p><p>取得するモデルの ID を入力またはマッピングします。 </p></li>
    </ul>
  </td> 
+  </tr>
  </tbody> 
 </table>
 

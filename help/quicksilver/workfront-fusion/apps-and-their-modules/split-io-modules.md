@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Spl
 author: Becky
 feature: Workfront Fusion
 exl-id: 4576a2e4-b495-430e-a9de-4e1ec7379ab8
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1801'
-ht-degree: 100%
+source-wordcount: '1819'
+ht-degree: 99%
 
 ---
 
@@ -66,6 +66,29 @@ ht-degree: 100%
 ## 前提条件
 
 [!DNL Split.io] モジュールを使用するには、[!DNL Split.io] アカウントが必要です。
+
+## Split.io API 情報
+
+Split.io コネクタは以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td> https://api.split.io/internal/api</td>
+   </tr> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v2 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.34.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Split.io] を [!DNL Workfront Fusion] に接続 {#connect-split-io-to-workfront-fusion}
 

@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion Google Drive]  モジュールを使
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '2941'
-ht-degree: 100%
+source-wordcount: '2958'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,30 @@ ht-degree: 100%
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] のライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion]  のライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+
+## Google Drive API に関する情報
+
+Google ドライブコネクタは以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td> https://www.googleapis.com/drive/v3</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v4.1.22</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 
@@ -867,13 +890,13 @@ Google Drive 内のファイルの共有リンクを取得します。
   <pre>fullText contains '"hello world"'fullText contains '"hello_world"'</pre>
 * クエリに「\」文字を含むファイルを検索する（例：「\authors」）
   <pre>fullText contains '\\authors'</pre>
-* ユーザー「test@example.org」が書き込み可能なファイルを検索する
+* ユーザー `test@example.org` によって書き込み可能なファイルを検索します。
   <pre>'test@example.org' in [!DNL writers]</pre>
 * `parents` コレクションで ID `1234567` を検索する。これにより、ID が `1234567` のフォルダーの直下にあるすべてのファイルとフォルダーを検索されます。
   <pre>'1234567' in [!UICONTROL parents]</pre>
 * `parents` コレクションでエイリアス ID `appDataFolder` を検索する。これにより、[Application Data フォルダー](https://developers.google.com/drive/api/v2/appdata)の直下にあるすべてのファイルとフォルダーが検索されます。
   <pre>'appDataFolder' in parents</pre>
-* ユーザー「test@example.org」と「test2@example.org」が書き込み可能なファイルを検索する
+* ユーザー `test@example.org` および `test2@example.org` によって書き込み可能なファイルを検索します。
   <pre>'test@example.org' in writers and 'test2@example.org' in writers</pre>
 * ごみ箱に入っている、「important」というテキストを含むファイルを検索する
   <pre>fullText contains 'important' and trashed = true</pre>

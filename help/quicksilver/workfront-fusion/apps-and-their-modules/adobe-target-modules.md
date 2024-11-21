@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion] シナリオ内で、 [!DNL Adobe T
 author: Becky
 feature: Workfront Fusion
 exl-id: 9597806b-d4bf-4627-b27d-30e24a1e6776
-source-git-commit: 43bd30c2db6219cd4e68380c1d9c0d1421f51592
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2235'
+source-wordcount: '2249'
 ht-degree: 86%
 
 ---
@@ -75,6 +75,21 @@ ht-degree: 86%
 [!DNL Adobe Target] コネクタを使用する前に、次の前提条件が満たされていることを確認する必要があります。
 
 * アクティブな [!DNL Adobe Target] アカウントが必要です。
+
+## Adobe Target API の情報
+
+Adobe Target コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.7.33</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Adobe Target] への接続の作成
 

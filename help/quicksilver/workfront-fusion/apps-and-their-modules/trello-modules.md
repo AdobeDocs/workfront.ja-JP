@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  シナリオ内では、Trello を
 author: Becky
 feature: Workfront Fusion
 exl-id: 60630b23-e057-4ecf-a014-6e63b6d69b48
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '5095'
-ht-degree: 91%
+source-wordcount: '5113'
+ht-degree: 90%
 
 ---
 
@@ -66,6 +66,29 @@ ht-degree: 91%
 ## 前提条件
 
 [!DNL Trello] モジュールを使用するには、[!UICONTROL Trello] アカウントが必要です。
+
+## Trello API 情報
+
+Trello コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td> https://api.trello.com/1</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v4.12.37</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Trello] を [!DNL Workfront Fusion] に接続
 

@@ -9,10 +9,10 @@ description: ' [!DNL Google Sheets]  を  [!DNL Adobe Workfront Fusion],you need
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 11d62222-df34-472d-93d7-f0d53eb95c9b
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '4000'
-ht-degree: 99%
+source-wordcount: '4023'
+ht-degree: 98%
 
 ---
 
@@ -64,6 +64,29 @@ ht-degree: 99%
 ## 前提条件
 
 [!UICONTROL Google スプレッドシート]モジュールを使用するには、[!UICONTROL Google] アカウントが必要です。
+
+## Google Sheets API 情報
+
+Google シートコネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td> https://sheets.googleapis.com/v4</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v4 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v2.5.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## トリガー
 
@@ -720,7 +743,7 @@ ht-degree: 99%
    * 関数の名前は、手順 9 で指定した名前に対応している必要があります。
    * この URL を、手順 2 でコピーした web フックの URL に置き換えます。
 
-     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch("<webhook you copied>");</pre><pre>}</pre>
+     <pre>function runScenario() {</pre><pre>UrlFetchApp.fetch （"&lt;webhook you copied&gt;"）;</pre><pre>}</pre>
 
 1. **[!UICONTROL Ctrl + S]** を押してスクリプトファイルを保存し、プロジェクト名を入力して「**[!UICONTROL OK]**」をクリックします。
 

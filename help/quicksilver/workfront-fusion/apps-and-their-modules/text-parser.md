@@ -8,10 +8,10 @@ description: テキストパーサーツールを使用すると、他の [!DNL 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 100%
+source-wordcount: '1048'
+ht-degree: 96%
 
 ---
 
@@ -56,7 +56,22 @@ ht-degree: 100%
 
 ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-[!DNL Adobe Workfront Fusion] ライセンスについては、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+
+## テキストパーサー API 情報
+
+テキストパーサーコネクターでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v2</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL テキストパーサー]モジュールとそのフィールド
 
@@ -180,7 +195,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>ピリオド（.）が改行文字（<code>\n</code>）と一致するようにするには、このオプションを有効にします。</td> 
+   <td>このオプションを有効にすると、ピリオド （.）が改行文字（<code>\n</code>）と一致します。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
@@ -223,7 +238,7 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td>[!UICONTROL Singleline]</td> 
-   <td>ピリオド（.）が改行文字（<code>\n</code>）に一致します。</td> 
+   <td>このオプションを有効にすると、ピリオド （.）が改行文字（<code>\n</code>）と一致します。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Text] </td> 

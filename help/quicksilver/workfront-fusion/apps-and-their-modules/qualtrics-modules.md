@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion] シナリオでは、Qualtrics を�
 author: Becky
 feature: Workfront Fusion
 exl-id: 146802cd-b863-4c93-b767-50e05892c4de
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '313'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 93%
 
 ---
 
@@ -66,6 +66,29 @@ ht-degree: 100%
 ## 前提条件
 
 [!DNL Qualtrics] モジュールを使用するには、[!UICONTROL Qualtrics] アカウントが必要です。
+
+## Qualtrics API 情報
+
+Qualtrics コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td> https://{{connection.dataCenterCode}}.qualtrics.com/API/v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v3 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.1.1</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Qualtrics] と [!DNL Workfront Fusion] の接続
 

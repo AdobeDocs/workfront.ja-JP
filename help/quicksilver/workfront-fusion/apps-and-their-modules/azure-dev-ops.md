@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Azu
 author: Becky
 feature: Workfront Fusion
 exl-id: ecaa93c9-47bb-4fe1-87b4-d2e117cc68ae
-source-git-commit: ed7ea1d3409c39caea5fe8b107b7b2907dc87d76
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1776'
-ht-degree: 99%
+source-wordcount: '1791'
+ht-degree: 98%
 
 ---
 
@@ -66,6 +66,25 @@ ht-degree: 99%
 ## 前提条件
 
 [!DNL Azure DevOps] モジュールを使用するには、[!DNL Azure] DevOps アカウントが必要です。
+
+## [!DNL Azure DevOps] API 情報
+
+Azure DevOps コネクタでは、次を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v5.1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.29.33</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## [!DNL Workfront Fusion] を [!DNL Azure DevOps] に接続 {#connect-azure-devops-to-workfront-fusion}
 

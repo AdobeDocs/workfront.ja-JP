@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  シナリオでは、Allocadia を
 author: Becky
 feature: Workfront Fusion
 exl-id: f1edefd1-9fe0-48fc-bea2-c3f9facf7363
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 100%
+source-wordcount: '1415'
+ht-degree: 99%
 
 ---
 
@@ -66,6 +66,25 @@ ht-degree: 100%
 ## 前提条件
 
 [!DNL Allocadia] モジュールを使用するには、[!DNL Allocadia] アカウントが必要です。
+
+## [!DNL Allocadia] API 情報
+
+Allocadia コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.7.6</td> 
+  </tr>
+ </tbody> 
+</table>
 
 ## [!DNL Allocadia] を [!DNL Workfront Fusion] に接続
 

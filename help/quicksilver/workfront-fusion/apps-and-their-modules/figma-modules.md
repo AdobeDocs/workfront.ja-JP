@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion]  Figma では、コメント、フ�
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: df4ac2c7fdf319fd8e2e8383cd395e8826e19df0
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2331'
+ht-degree: 99%
 
 ---
 
@@ -71,6 +71,29 @@ ht-degree: 0%
 ## 前提条件
 
 [!DNL Figma] モジュールを使用するには、[!DNL Figma] アカウントが必要です。
+
+## Figma API 情報
+
+Figma コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td> https://api.figma.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.8.25</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Figma] モジュールとそのフィールド
 

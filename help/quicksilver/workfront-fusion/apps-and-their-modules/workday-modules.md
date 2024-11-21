@@ -10,10 +10,10 @@ description: Adobe Workfront Fusion のシナリオでは、 [!DNL Workday] を�
 author: Becky
 feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
-source-git-commit: 50fa63474cfd40706e74507c3e4c231c1d97d463
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1013'
-ht-degree: 100%
+source-wordcount: '1030'
+ht-degree: 98%
 
 ---
 
@@ -71,6 +71,25 @@ ht-degree: 100%
 * [!DNL Workday] アカウントが必要です。
 
 * [!DNL Workday] で OAuth アプリケーションを作成する必要があります。手順については、[!DNL Workday] のドキュメントを参照してください。
+
+## Workday API の情報
+
+Workday コネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td>https://{{connection.servicesUrl}}/api</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.6.4</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Workday] を [!DNL Workfront Fusion] に接続
 

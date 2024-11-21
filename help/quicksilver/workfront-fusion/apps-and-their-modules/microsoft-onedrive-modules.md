@@ -9,9 +9,9 @@ description: ' [!DNL Adobe Workfront Fusion]  シナリオでは、OneDrive を�
 author: Becky
 feature: Workfront Fusion
 exl-id: 13a25c6c-bdf1-467d-bd90-ebd763c59235
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '4073'
+source-wordcount: '4091'
 ht-degree: 97%
 
 ---
@@ -68,6 +68,29 @@ ht-degree: 97%
 [!DNL OneDrive] モジュールを使用するには、[!DNL Microsoft OneDrive] アカウントが必要です。
 
 
+
+## OneDrive API 情報
+
+OneDrive コネクタでは、次の機能を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td> https://graph.microsoft.com/v1.0 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v2.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 
 ## [!DNL OneDrive] サービスを [!DNL Workfront Fusion] に接続

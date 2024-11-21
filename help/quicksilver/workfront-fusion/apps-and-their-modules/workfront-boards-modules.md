@@ -9,9 +9,9 @@ description: Adobe Workfront Boards コネクタを使用すると、Workfront B
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 0b7b63df57c9e99fb782c59af55d1165283dd634
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2647'
 ht-degree: 19%
 
 ---
@@ -71,6 +71,21 @@ Workfront ボードの一般的な情報については、[ ボードの概要 ]
 ## 前提条件
 
 ボードに接続するには、Adobe Workfrontでボードを設定しておく必要があります。
+
+## Adobe Workfront ボード API 情報
+
+Adobe Workfront ボードコネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.23.6</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## Workfront Boards への接続の作成
 

@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Workfront Fusion] HubSpot CRM モジュールを使�
 author: Becky
 feature: Workfront Fusion
 exl-id: d58e0c12-a798-495c-8f88-fbf2a532f8a4
-source-git-commit: d550ba76a5a6c1d241d1dc73e63e49ef4c22a40d
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '6394'
+source-wordcount: '6411'
 ht-degree: 41%
 
 ---
@@ -57,6 +57,25 @@ ht-degree: 41%
 ## 前提条件
 
 [!DNL HubSpot CRM] モジュールを使用するには、[!DNL HubSpot CRM] アカウントが必要です。
+
+## HubSpot CRM API 情報
+
+HubSpot CRM コネクタは以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td>https://api.hubapi.com</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v2.0.14</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Adobe Workfront Fusion] を [!DNL HubSpot CRM] に接続
 
@@ -949,7 +968,7 @@ ht-degree: 41%
    <td>通話の詳細またはメモを入力またはマップします。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">外部ID</td> 
+   <td role="rowheader">外部 ID</td> 
    <td>このフィールドは、HubSpot で行われた呼び出しの内部 ID を表します。 アクションは必要ありません。</td> 
   </tr> 
   <tr> 

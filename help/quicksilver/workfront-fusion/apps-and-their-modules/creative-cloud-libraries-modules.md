@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion Adobe Creative Cloud]  ライブラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
-source-git-commit: 103a4a7b58048678739d6125c042503458ae3722
+source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
 workflow-type: tm+mt
-source-wordcount: '1338'
-ht-degree: 84%
+source-wordcount: '1359'
+ht-degree: 83%
 
 ---
 
@@ -75,6 +75,25 @@ ht-degree: 84%
 ## 前提条件
 
 [!DNL Adobe Creative Cloud Libraries] モジュールを使用するには、[!UICONTROL Adobe Creative Cloud] アカウントが必要です。
+
+## Adobe Creative Cloud ライブラリ API の情報
+
+Adobe Creative Cloud ライブラリコネクタでは、以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td>https://cc-libraries.adobe.io/api/v1</td> 
+  </tr>
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.1.7</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!UICONTROL Adobe Creative Cloud ライブラリ]モジュールおよびそのフィールド
 

@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion Google Slides モジュールを使用する
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 680a5328-1d50-4434-beda-7a4670a6e458
-source-git-commit: 16cd5dee183153540bcccea8ce469a461d0e8562
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '1618'
-ht-degree: 91%
+source-wordcount: '1638'
+ht-degree: 90%
 
 ---
 
@@ -66,6 +66,29 @@ ht-degree: 91%
 ## 前提条件
 
 [!DNL Google Slides] モジュールを使用するには、[!DNL Google] アカウントが必要です。
+
+## Google スライド API 情報
+
+Google スライド コネクタでは、次を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">ベース URL</td> 
+   <td> https://slides.googleapis.com/v1</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.5.9</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## [!DNL Google Slides] モジュールとそのフィールド
 
@@ -249,7 +272,7 @@ ht-degree: 91%
    <td> <p>次の値を追加します。</p> 
     <ul> 
      <li><strong>[!UICONTROL Tag]</strong>：プレゼンテーションで置き換えるタグを入力します。例： <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Replaced Value]</strong>：既存のタグを置き換える値を入力します。例えば、文字列の場合 <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name}}</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>[!UICONTROL Replaced Value]</strong>：既存のタグを置き換える値を入力します。例えば、文字列の場合 <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name&#125;&#125;</code> will be replaced by <code>Sample</code>.</li> 
     </ul> </td> 
   </tr> 
    

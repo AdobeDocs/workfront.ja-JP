@@ -9,10 +9,10 @@ description: Adobe Workfront Fusion のシナリオでは、 [!DNL NetSuite] を
 author: Becky
 feature: Workfront Fusion
 exl-id: 66d2e59e-0945-4a6b-a0fe-5c313051ad4e
-source-git-commit: ff66cacc86532092e7a6805b7bf3c26d4437d9e9
+source-git-commit: 2e91e9a4c691430f3c98e3cbddb30706ea57f84a
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 88%
+source-wordcount: '574'
+ht-degree: 85%
 
 ---
 
@@ -66,6 +66,25 @@ ht-degree: 88%
 ## 前提条件
 
 [!DNL NetSuite] モジュールを使用するには、[!DNL NetSuite] アカウントが必要です。
+
+## NetSuite API 情報
+
+NetSuite コネクタは以下を使用します。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">API バージョン</td> 
+   <td> v1 </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">API タグ</td> 
+   <td>v1.0.10</td> 
+  </tr>
+ </tbody> 
+ </table>
 
 ## NetSuite への接続の作成
 
