@@ -8,17 +8,23 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 43cf88c533b80324266f0660648c6a1ab13ca8fc
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
-source-wordcount: '905'
-ht-degree: 58%
+source-wordcount: '1027'
+ht-degree: 53%
 
 ---
 
 # レイアウトテンプレートを使用した概要パネルのカスタマイズ
 
+<!--Audited: 11/2024-->
 
-レイアウトテンプレートを使用すると、ユーザーが概要でタスクまたはイシューをクリックしたときに表示される内容を設定できます。 以下の手順を使用して行う各設定は、概要パネルに影響します。 ただし、これらのカスタマイズは「ドキュメントの概要」パネルには適用されません。
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+
+レイアウトテンプレートを使用すると、ユーザーがタスクまたは問題をクリックしたときに概要パネルに表示される内容を設定できます。 以下の手順を使用して行う各設定は、概要パネルに影響します。 ただし、これらのカスタマイズは「ドキュメントの概要」パネルには適用されません。
 
 以下を設定できます。
 
@@ -73,7 +79,9 @@ ht-degree: 58%
 
 1. **ユーザーに表示する内容をカスタマイズ** の下の下向き矢印 ![](assets/dropdown-arrow.png) をクリックし、**概要パネル** をクリックします。
 
-1. 左側の一覧で、概要パネルでカスタマイズするオブジェクトの種類（**タスク**、**問題**、**プロジェクト**、**ドキュメント**、または **ドキュメント バージョン**）をクリックします。
+1. 下に表示されるリストで、概要パネルをカスタマイズするオブジェクトタイプをクリックします。
+
+   次の表に、各オブジェクトに対してカスタマイズできる内容を示します
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,7 +89,9 @@ ht-degree: 58%
     <tbody> 
      <tr> 
       <td role="rowheader">タスク</td> 
-      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td> <p>タスクのリストでは、この設定は、ユーザーがタスクを選択して「概要を開く」アイコンを <img src="assets/summary-panel-icon.png"> リックするとページの右側に表示される概要パネルに影響します。</p>
+
+   <p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">イシュー</td> 
@@ -89,19 +99,24 @@ ht-degree: 58%
      </tr> 
      <tr> 
       <td role="rowheader">プロジェクト</td> 
-      <td><p>「ホーム」でこの設定は、ユーザーが自分に割り当てられたプロジェクト承認をクリックした際に、承認の右側のエリアに反映されます。</p>
-      <p>重要：これは非推奨（廃止予定）の機能です。 この領域に加える変更は、Workfrontによって削除された機能に関連しています。 このオプションは、後のメンテナンス更新でWorkfrontから削除されます。</p></td> 
+      <td><ul><li><p>「ホーム」でこの設定は、ユーザーが自分に割り当てられたプロジェクト承認をクリックした際に、承認の右側のエリアに反映されます。</p>
+      <p><b> 重要：</b> </p><p>これは非推奨（廃止予定）の機能です。 この領域に加える変更は、Workfrontによって削除された機能に関連しています。 このオプションは、後のメンテナンス更新でWorkfrontから削除されます。</p></li>
+      <li><span class="preview"><p>この領域はプレビュー環境から削除されました。</p></li></span></ul> 
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ドキュメント</td> 
-      <td><p>「ホーム」でこの設定は、ユーザーが自分に割り当てられたドキュメントの承認をクリックした際に、承認の右側のエリアに反映されます。</p>
-      <p>重要：これは非推奨（廃止予定）の機能です。 この領域に加える変更は、Workfrontによって削除された機能に関連しています。 このオプションは、後のメンテナンス更新でWorkfrontから削除されます。</p>
+      <td>
+     <ul><li><p>「ホーム」でこの設定は、ユーザーが自分に割り当てられたドキュメントの承認をクリックした際に、承認の右側のエリアに反映されます。</p>
+      <p><b> 重要：</b> </p><p> これは非推奨（廃止予定）の機能です。 この領域に加える変更は、Workfrontによって削除された機能に関連しています。 このオプションは、後のメンテナンス更新でWorkfrontから削除されます。</p></li>
+      <li><span class="preview"><p>この領域はプレビュー環境から削除されました。</p></li></span></ul>
       </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ドキュメントバージョン</td> 
-      <td><p>「ホーム」でこの設定は、ユーザーが特定のバージョンのドキュメントの自分に割り当てられた承認をクリックした際に、承認の右側のエリアに反映されます。</p>
-      <p>重要：これは非推奨（廃止予定）の機能です。 この領域に加える変更は、Workfrontによって削除された機能に関連しています。 このオプションは、後のメンテナンス更新でWorkfrontから削除されます。</p>
+      <td><ul><li><p>「ホーム」でこの設定は、ユーザーが特定のバージョンのドキュメントの自分に割り当てられた承認をクリックした際に、承認の右側のエリアに反映されます。</p>
+      <p><p><b>重要：</b></p> これは非推奨（廃止予定）の機能です。 この領域に加える変更は、Workfrontによって削除された機能に関連しています。 このオプションは、後のメンテナンス更新でWorkfrontから削除されます。</p></li>
+      <li><span class="preview"><p>この領域はプレビュー環境から削除されました。</p></li></span></ul>
       </td> 
      </tr> 
     </tbody> 
@@ -113,15 +128,15 @@ ht-degree: 58%
 
 1. （条件付き）前の手順で「タスク」または「イシュー」をクリックした場合は、カスタマイズするタスクまたはイシューのカテゴリを選択します。
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   <span class="preview">![](assets/choose-cat-cstmz-nwe-adobe-branding.png)</span>
 
 1. （条件付き） **プライマリアクションを設定** ボタン ドロップダウンメニューが表示された場合（左側のリストで **タスク** または **イシュー** を選択した場合）、ユーザーがタスクまたはイシューを表示したときに概要パネルで使用できるプライマリアクション（**完了** または **ステータス**）をクリックします。
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   <span class="preview">![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)</span>
 
 1. 選択したオブジェクトタイプでフィールドを追加 ![](assets/add-item-plus-in-circle-blue.png) 非表示 ![](assets/close-or-hide---x.png) にします。
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   <span class="preview">![](assets/lt-home-add-hide-fields-adobe-branding.png)</span>
 
 1. 手順 3～6 を繰り返し、他のオブジェクトタイプの概要パネルをカスタマイズします。
 1. 左下隅付近の **グローバル設定** をクリックし、概要のAdobe Workfront オブジェクトに関連する次のオプションのいずれかを有効または無効にします。

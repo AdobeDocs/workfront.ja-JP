@@ -5,13 +5,13 @@ title: 担当作業ウィジェットを使用した作業の管理
 description: 自分の作業ウィジェットには、割り当てられたすべてのタスク、イシュー、リクエストが 1 か所で表示されます。 ここでは、作業のフィルタリングと整理、時間の記録、更新の実行、作業項目の完了のマークを行うことができます。
 author: Courtney
 feature: Get Started with Workfront
-source-git-commit: de782d54a5ab6370b91e7447ed33e5d7511cc50d
+exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
+source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 13%
 
 ---
-
 
 # 担当作業ウィジェットを使用した作業の管理
 
@@ -157,7 +157,7 @@ ht-degree: 13%
 * 更新を追加
 * ドキュメント エリアに移動して、ドキュメントをアップロードします
 * 作業項目の詳細の表示とカスタムフィールドの更新
-Workfront管理者は、レイアウトテンプレートの概要に表示するフィールドをカスタマイズできます。 詳しくは、[ レイアウトテンプレートを使用してホームと概要をカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
+Workfront管理者は、レイアウトテンプレートの概要に表示するフィールドをカスタマイズできます。 詳しくは、[ レイアウトテンプレートを使用した概要パネルのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
 * 作業項目の状態の変更
 * サブタスクの表示
 * 時間を記録
@@ -190,7 +190,3 @@ Workfront管理者は、レイアウトテンプレートの概要に表示す�
 * チームのリクエスト
 
 新しいホームページへのウィジェットの追加について詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
-
-
-
-

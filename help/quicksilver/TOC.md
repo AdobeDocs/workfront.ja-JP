@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 7d3d3e5ab8a0ee6dd3995ff417fb08d0d64d9a60
+source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
 workflow-type: tm+mt
-source-wordcount: '14607'
+source-wordcount: '14611'
 ht-degree: 91%
 
 ---
@@ -612,7 +612,7 @@ ht-degree: 91%
          * [レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)
          * [左側のパネルのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
          * [詳細ビューのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
-         * [ホームと概要のカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+         * [レイアウトテンプレートを使用した概要パネルのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
          * [新しいホームのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
          * [ピン留めされたページのカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
          * [フィルター、表示、グループ化のカスタマイズ](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
