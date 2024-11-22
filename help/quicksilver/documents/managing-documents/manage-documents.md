@@ -8,10 +8,10 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 985e4d3d-f07e-46df-b0e3-dd4b0ff59660
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 100%
+source-wordcount: '107'
+ht-degree: 92%
 
 ---
 
@@ -32,8 +32,9 @@ Workfront のドキュメントエリアでドキュメントを整理して管�
 * [ドキュメントの新しいバージョンをアップロード](../../documents/managing-documents/upload-new-document-version.md)
 * [ドキュメントバージョンを管理](../../documents/managing-documents/manage-document-versions.md)
 * [ドキュメントをチェックアウト](../../documents/managing-documents/check-out-documents.md)
-* [ドキュメントをダウンロード](../../documents/managing-documents/download-documents.md)
+* [ ドキュメントのダウンロード ](../../documents/managing-documents/download-documents.md)
 * [ドキュメントを移動](../../documents/managing-documents/move-documents.md)
 * [ドキュメントのストレージ制限を確認](../../documents/managing-documents/check-document-storage.md)
-* [ドキュメントを削除](../../documents/managing-documents/delete-documents.md)
+* [ ドキュメントの削除 ](../../documents/managing-documents/delete-documents.md)
 * [クリップボードから画像を貼り付けます。](../../documents/managing-documents/paste-image-clipboard.md)
+* [ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)

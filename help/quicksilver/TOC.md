@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: c34b1573b3a2dce344fcdd60ce5b3114cc095d11
+source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
 workflow-type: tm+mt
 source-wordcount: '14611'
 ht-degree: 91%
@@ -432,7 +432,6 @@ ht-degree: 91%
       * [お知らせ](product-announcements/announcements/announcements.md)
       * [機能のスケジュールがサポートされなくなりました](product-announcements/announcements/feature-removal-timeline.md)
       * [Enhanced Analytics 廃止ガイド](product-announcements/announcements/enhanced-analytics-deprecation.md)
-      * [レガシーホームの非推奨ガイド](product-announcements/announcements/legacy-home-deprecation.md)
       * [メンテナンスウィンドウに関する FAQ](product-announcements/announcements/maintenance-window-faq.md)
       * [許可リストにプルーフを追加する必要のある変更](product-announcements/announcements/proofhq-domain-change-workfront.md)
       * [新しい Adobe Workfront エクスペリエンスでのお知らせセンターメッセージの登録解除](product-announcements/announcements/unsubscribe-from-ac-messages.md)
@@ -1163,6 +1162,7 @@ ht-degree: 91%
       * [ドキュメントのストレージ制限のチェック](documents/managing-documents/check-document-storage.md)
       * [ドキュメントの削除](documents/managing-documents/delete-documents.md)
       * [クリップボードから画像を貼り付けます。](documents/managing-documents/paste-image-clipboard.md)
+      * [ドキュメントの一括編集](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md)
       * [Workfront ドキュメントの詳細内の AddBuilder](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
    * ドキュメントの整理 {#organize-documents}
       * [ドキュメントの整理](documents/organizing-documents/organize-documents.md)

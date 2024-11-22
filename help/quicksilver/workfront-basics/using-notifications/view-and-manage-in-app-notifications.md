@@ -5,10 +5,10 @@ description: アプリ内通知では、お知らせ通知と作業項目通知�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 100%
+source-wordcount: '947'
+ht-degree: 98%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Web アプリケーションとモバイルアプリケーションの両方から、すべてのアプリ内通知を表示できます。これらの通知の一部のみが、モバイルアプリケーションでプッシュ通知として送信されます。モバイルアプリでの通知について詳しくは、iOS 用の [&#128279;](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)[!DNL Adobe Workfront]  または Android 用の [[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) を参照してください。
+>Web アプリケーションとモバイルアプリケーションの両方から、すべてのアプリ内通知を表示できます。これらの通知の一部のみが、モバイルアプリケーションでプッシュ通知として送信されます。モバイルアプリでの通知について詳しくは、iOS 用の [[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) または Android 用の [[!DNL Adobe Workfront] ](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) を参照してください。
 
 1. [!DNL Workfront] の右上隅で番号付きアイコン ![](assets/notifications-icon-jewel.jpg) をクリックし、通知のリストを開きます。
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 
    ![最近の未読の通知](assets/qs-notifications-350x330.png)
 
-   スクロール可能なリストには、最大 80 件の通知が表示されます。さらに多くの情報を見るには、リストの一番下にある「**[!UICONTROL すべての通知]**」をクリックすると、最大 100 件の通知が表示されます。通知は、30 日後に自動的に削除されます。
+   数値アイコンは、最大 80 件の通知を含むスクロール可能なリストを表示します。 さらに多くの情報を見るには、リストの一番下にある「**[!UICONTROL すべての通知]**」をクリックすると、最大 500 件の通知が表示されます。通知は、30 日後に自動的に削除されます。
 
    各通知の下部に、[!UICONTROL 通知タイプ]と対応する識別アイコンが表示されます。これらは、明記された [!DNL Workfront] の項目に何が起こったかを特定するのに役立ち、アクション項目がある場合は、警告が表示されます。
 

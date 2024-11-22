@@ -4,10 +4,11 @@ description: 2024年第 4 四半期のホームの機能強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 4b92c4ede61690211dad2cb908c502dbb63d7c34
+exl-id: 9b8ec3eb-5327-4b5b-b7a9-80205b46b5e3
+source-git-commit: 01ea4c72e61cbc808ed76cb18e3f67d893bacf69
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 16%
+source-wordcount: '478'
+ht-degree: 17%
 
 ---
 
@@ -63,12 +64,18 @@ ht-degree: 16%
 
 * _ホームワークスペース_ エリアの名前は _ホーム_ に変更されます。
 * _ホームと概要_ エリアの名前は _概要パネル_ に変更されます。 この領域のカスタマイズは、新しいホームの概要パネルにも引き続き適用されます。 詳しくは、[ レイアウトテンプレートを使用してホームと概要をカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
+* ホームおよび概要パネルから次のタブを削除します。
+   * プロジェクト
+   * ドキュメント
+   * ドキュメントバージョン
+
+注意：ドキュメントおよびドキュメントのバージョンは、従来のホームにのみ適用されます。 「ドキュメント」エリアで概要をカスタマイズすることはできませんでした。
 
 **承認の管理**
 
 * ホーム エリアで送信済み承認からユーザーをリコール、リマインダー、削除することができなくなります。 代わりに、承認自体でこれを管理できます。
 
-新しいホームの使用を開始することをお勧めします。このホームは、廃止前に、引き続き追加機能を備えて強化されます。 ユーザーや管理者が準備に実行できる操作に関するアドバイスなど、移行について詳しくは、[ 従来のホームの廃止ガイド ](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md) を参照してください。
+新しいホームの使用を開始することをお勧めします。このホームは、廃止前に、引き続き追加機能を備えて強化されます。
 
 >[!NOTE]
 >
