@@ -1,24 +1,30 @@
 ---
 title: レコードを削除
-description: 自分または別のユーザーが作成したレコードを削除できます。削除したレコードは復元できません。
+description: 自分または別のユーザーが作成したレコードを削除できます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
 workflow-type: tm+mt
-source-wordcount: '598'
-ht-degree: 79%
+source-wordcount: '764'
+ht-degree: 52%
 
 ---
 
 
 # レコードの削除
 
+<!--take Preview and Production references out at release-->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 {{planning-important-intro}}
 
-Adobe Workfront Planning で関係がなくなったレコードを削除できます。
+Adobe Workfront Planning 内で関係がなくなったレコードを削除できます。 <span class="preview"> 削除されたレコードは、削除後 30 日間復元できます。 削除されたレコードのリカバリの詳細については、「[ 削除されたレコードのリカバリ ](/help/quicksilver/planning/records/restore-deleted-records.md)」を参照してください。</span>
 
 ## アクセス要件
 
@@ -156,10 +162,9 @@ OLD
 ## レコードの削除に関する考慮事項
 
 * 自分または別のユーザーが作成したレコードを削除できます。
-* 削除したレコードは復元できません。<!--the above statements (and in the metadata description) will change with access levels and recycle bin??-->
+* 実稼動環境では、削除したレコードを復元できません。 <span class="preview"> 削除されたレコードは、プレビュー環境で復元できます。</span>
 * 削除したレコードが別のレコードにリンクされている場合、リンクされているレコードは削除されませんが、削除したレコードの情報は削除されます。
-* レコードを一括で削除することはできません。<!--this will probably change-->
-* タイムラインビューからレコードを削除できません。
+* タイムラインビューやカレンダービューからレコードを削除することはできません。
 
 ## レコードの削除
 
@@ -192,7 +197,10 @@ OLD
 1. レコード名の右側にある「**詳細**」メニュー ![](assets/more-menu.png) をクリックし、「**削除**」をクリックします。再度「**削除**」をクリックして確認します。
 
    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
-レコードは削除され、復元できません。
+レコードが削除されます。
+1. （オプションおよび条件付き）プレビュー環境でレコードを削除した場合は、レコードページのテーブルビューに移動して、ビューの右上隅にある **取り消し** アイコン ![](assets/undo-icon.png) をクリックし、**最近削除されたレコード** をクリックして復元します。
+
+削除されたレコードのリカバリの詳細については、「[ 削除されたレコードのリカバリ ](/help/quicksilver/planning/records/restore-deleted-records.md)」を参照してください。
 
 ### レコードタイプのテーブルビューからレコードを削除する
 
@@ -211,15 +219,22 @@ OLD
 1. 次のいずれかの操作を行います。
 
    * レコード行を右クリックし、「**削除**」をクリックします。
-   * レコード名の右側にある&#x200B;**詳細**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、「**削除**」をクリックします。
+   * レコード名の右側 ![](assets/more-menu.png) ある **その他** メニューをクリックし、「**削除**」をクリックします。
 
      ![](assets/contextual-menu-for-record-row.png)
 
    * **詳細を開く**&#x200B;アイコン ![](assets/open-details-icon-in-table-name-field.png) をクリックしてレコードの詳細情報を含むボックスを開き、レコード名の右側にある「**詳細**」![](assets/more-menu.png) をクリックして、「**削除**」をクリックします。
 
-   レコードが削除されました。これは復元できません。
+   レコードが削除されます。
 
-1. （オプション）次のキーボードショートカットを使用すると、レコードの削除の取り消しまたはやり直しを実行できます。
+1. （オプション）レコードの削除を取り消すまたはやり直すには、次のいずれかの操作を行います。
 
-   * Ctrl + Z（Mac の場合は ⌘ + z）で、変更を取り消します
-   * Ctrl + Shift + Z（Mac の場合は  ⌘ + Shift + Z）で、変更を元に戻します
+   * <span class="preview">**取り消し** アイコン ![](assets/undo-icon.png) をクリックしてから、**最近削除された項目** をクリックすると、削除されたレコードを復元できます。 削除されたレコードのリカバリの詳細については、「[ 削除されたレコードのリカバリ ](/help/quicksilver/planning/records/restore-deleted-records.md)」を参照してください。</span>
+   * レコードの削除の取り消しまたはやり直しには、次のキーボードショートカットを使用します。
+
+      * レコードの削除を元に戻すには CTRL + Z （Macの場合は⌘ + Z）
+      * レコードの削除をやり直すには、Ctrl + Shift + Z （Macの場合は⌘ + Shift + Z）
+
+
+
+

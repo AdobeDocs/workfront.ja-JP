@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 6f91c7c75c4565d5e91264481924daf50d3807ec
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '1010'
 ht-degree: 4%
 
 ---
@@ -33,6 +33,21 @@ ht-degree: 4%
 <!--remove the general activity mention after First Quarter 2025 is released-->
 
 2024 年 8 月 28 日（PT）の一般リリース後にAdobe Workfront Planning でリリースされたすべての機能のリストについては、[Adobe Workfront Planning リリースアクティビティ：記事索引 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+
+## 削除されたレコードを復元
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 11 月 22 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月）の場合、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の場合
+
+レコードが削除された後、30 日間一時的に「最近削除された項目」 bin に移動されるようになりました。 最近削除された bin には、レコードタイプのページからアクセスでき、特定のタイプのレコードのみが含まれます。
+
+Workspace管理者は、レコードが削除されてから最大 30 日間、ごみ箱からレコードを復元できます。 接続されたレコードとそのフィールド情報も復元されます。
+
+この機能強化が行われるまで、削除されたレコードは復元できませんでした。
+
+詳しくは、「[ 削除されたレコードの復元 ](/help/quicksilver/planning/records/records-information.md)」を参照してください。
 
 ## レコードの詳細領域で使用できるAdobeAI アシスタント
 

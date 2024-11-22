@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 06b5d8d7e3f2f3d0ff7ef614861a8898dd9df4eb
+source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
 workflow-type: tm+mt
-source-wordcount: '1557'
-ht-degree: 88%
+source-wordcount: '1647'
+ht-degree: 83%
 
 ---
 
@@ -31,7 +31,13 @@ ht-degree: 88%
 
 タスクの実際の開始日と実際の完了日が、プロジェクトとプライマリ担当者のスケジュール、またはデフォルトのスケジュールの範囲外である場合、タスクの期間は 0 になります。
 
-**例：**&#x200B;午前 9 時に開始し、午後 12 時に終了するスケジュールと、午後 2 時に開始し、午後 4 時に終了するようにスケジュールされているタスクがある場合、タスクの期間は 0 になります。
+>[!BEGINSHADEBOX]
+
+**例**
+スケジュールが午前 9:00 に開始して午後 12:00 に終了し、タスクが午後 2:00 に開始して午後 4:00 に終了するようにスケジュールされている場合、タスクの期間はゼロになります。
+
+
+>[!ENDSHADEBOX]
 
 Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオがあります。
 
@@ -71,9 +77,17 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 >
 >プロジェクトにおけるプライマリ担当者の休暇を考慮すると、タスクの予定日は調整される場合がありますが、タスクの期間は変わりません。プロジェクトを計画する際にプライマリ担当者の休暇を考慮する方法について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
+## 親タスクの元の期間
+
+タスクの元の期間は、親タスクになる前にタスクが持っていた期間（分単位）です。
+
+タスクが親タスクになると、最も早い子タスクの予定開始日から最も遅い子タスクの予定完了日までの期間が親タスクにロールアップされ、親タスクの期間になります。これにより、元のタスクの期間が置き換えられます。
+
+詳しくは、[ タスクの元の期間と元の予定時間数の概要 ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
+
 ## タスク期間の時間の単位
 
-タスクの期間は、通常時間と、予定開始日から予定完了日までの経過時間の両方で指定できます。
+予定開始日から予定完了日までの通常の時間と経過時間の両方でタスク期間を指定できます。
 
 リスト内でタスクの期間を更新する場合は、Workfront の時間の単位を示すために以下の略語を使用できます。
 

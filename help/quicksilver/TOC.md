@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 6a881c1d2f7076f1b7f8f98706657851dc6ab454
+source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
 workflow-type: tm+mt
-source-wordcount: '14611'
+source-wordcount: '14614'
 ht-degree: 91%
 
 ---
@@ -2119,6 +2119,7 @@ ht-degree: 91%
       * [レコードの接続](planning/records/connect-records.md)
       * [レコードの編集](planning/records/edit-records.md)
       * [レコードの削除](planning/records/delete-records.md)
+      * [削除されたレコードを復元](planning/records/restore-deleted-records.md)
       * [レコードの共有](planning/records/share-records.md)
       * [重複レコード](planning/records/copy-or-duplicate-records.md)
       * [レコードのコメントの管理](planning/records/manage-record-comments.md)
