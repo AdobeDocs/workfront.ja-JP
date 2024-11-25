@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2a5040c6a9430dc404097c9836ea38bd8b1c648
 workflow-type: tm+mt
-source-wordcount: '2180'
+source-wordcount: '2189'
 ht-degree: 97%
 
 ---
@@ -52,7 +52,8 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td><p>システムおよび作業項目レベル：すべて</p>
+   <p>グループレベル：Prime または Ultimate</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
