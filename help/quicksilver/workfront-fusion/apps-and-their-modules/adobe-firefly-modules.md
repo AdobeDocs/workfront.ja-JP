@@ -9,7 +9,7 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Ado
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: a4c9f4cd4f28c28222826187a68ca4122eec1a8f
 workflow-type: tm+mt
 source-wordcount: '1315'
 ht-degree: 34%
@@ -293,7 +293,7 @@ Adobe Campaign コネクタでは、以下を使用します。
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL プリセット ]</td> 
-   <td>プリセットスタイルを使用する場合は、「項目を追加」をクリックし、使用するスタイルを入力またはマップします。<p>プリセットスタイルのリストについては、Adobe開発者ドキュメントの <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" > 画像モデルスタイル </a> を参照してください。</td> 
+   <td>プリセットスタイルを使用する場合は、「項目を追加」をクリックし、使用するスタイルを入力またはマップします。<p>プリセットスタイルのリストについては、Adobe開発者ドキュメントの <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" > 画像モデルスタイル </a> を参照してください。</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL 負のプロンプト ]</td> 
