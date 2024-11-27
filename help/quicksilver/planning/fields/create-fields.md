@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
 source-wordcount: '4287'
 ht-degree: 58%
@@ -668,7 +668,9 @@ CSV または Excel ファイルを使用してレコードタイプを読み込
 
 ## Workfrontから読み込んでフィールドを作成する
 
-既存のWorkfront フィールドのコピーを読み込むことができます。 Workfrontからフィールドを読み込むと、Workfront Planning レコードタイプの各フィールドのコピーが作成されます。
+既存のWorkfront フィールドのコピーを読み込むことができます。
+
+Workfrontからフィールドを読み込むと、Workfront Planning レコードタイプの各フィールドのコピーが作成されます。
 
 フィールドをコピーした後、フィールドは互いに独立しており、情報を交換しません。
 

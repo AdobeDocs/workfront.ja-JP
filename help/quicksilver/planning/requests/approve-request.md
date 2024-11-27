@@ -3,10 +3,10 @@ title: リクエストを承認
 description: Adobe Workfront Planning で、ユーザーが承認に関連付けられた要求フォームに要求を送信すると、承認者に承認保留中の承認に関する通知と電子メールが届きます。 Workfront Planning がオブジェクトを作成する前に、顧客がリクエストを承認する必要があります。
 hide: true
 hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 20%
+source-wordcount: '783'
+ht-degree: 19%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 送信されたリクエストは、Workfrontの「リクエスト」領域の「送信済み」セクションの「計画」タブに、次のいずれかのリクエストステータスで表示されます。
 
 * **レビュー保留中**：このステータスは、どの承認者もリクエストオブジェクトを開いていない場合に表示されます。
-* **レビュー中**：少なくとも 1 人の承認者がリクエストオブジェクトを開くと、ステータスは **レビュー中** に変わります。
+* **レビュー中**：少なくとも 1 人の承認者がリクエストオブジェクトを開くと、ステータスは **レビュー中** に変わります。 すべての承認者がリクエストを承認するまで、リクエストのステータスは **レビュー中** のままです。
 * **承認済み**：承認者がリクエストオブジェクトを承認すると、個々のステータスが
 * **承認済み** ですが、リクエストオブジェクトの全体的なステータスは、すべての承認者が決定するまで **レビュー中** のままです。
 * **完了**：すべての承認者が要求オブジェクトを承認すると、その状態は **完了** に変わります。または、要求に承認が必要なかった場合も同様です。
@@ -152,7 +152,13 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 
 1. 次のいずれかの操作を行います。
 
-   * 画面の右上隅にあるWorkfront **メインメニュー**![](assets/dots-menu.png)、または左上隅にある **メインメニュー**![](assets/lines-menu.png) が使用可能な場合は、**リクエスト**/**送信済み**/**計画** をクリックし、ステータスが **レビュー中** のリクエストをクリックします。<!--did they change this to Pending approval; logged  a bug-->
+   * Workfront Planning へのアクセス権がある場合は、画面の右上隅にある **メインメニュー**![](assets/dots-menu.png) または **メインメニュー**![](assets/lines-menu.png) 左上隅にある **要求**/**送信済み**/**計画** をクリックし、ステータスが **レビュー中** の要求をクリックします。<!--did they change this to Pending approval; logged  a bug-->
+
+     >[!TIP]
+     >
+     >    Workfront Planning へのアクセス権がない場合は、通知を使用して承認するリクエストにのみアクセスできます。
+
+
    * 画面の右上隅の **通知** 領域に移動し、承認待ちのリクエストに関する通知をクリックしてリクエストを開きます。
    * 承認待ちのリクエストを通知するメール内のメール通知に移動し、クリックしてリクエストを開きます。<!--add the name of the button here, from the email-->
 
@@ -163,4 +169,4 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 1. 「**レビューして承認**」をクリックして、次のいずれかを選択します。<!--did they fix the button and removed the &??-->
 
    * **承認**：リクエストを承認します。 リクエストフォームに関連付けられたレコードタイプに対して、レコードが直ちに作成されます。
-   * **却下**：リクエストを却下します。 リクエストフォームに関連付けられたレコードタイプのレコードは作成されません。<!--check to see if there is a notification sent to the requestor about it being rejected OR approved??-->
+   * **却下**：リクエストを却下します。 リクエストフォームに関連付けられたレコードタイプのレコードは作成されません。<!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->

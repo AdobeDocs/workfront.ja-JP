@@ -6,21 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: fedea99941b6ecb2114d8236d54ce1af70cec6e4
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 98%
+source-wordcount: '511'
+ht-degree: 86%
 
 ---
 
 
 # フィールドの概要
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> 
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -54,10 +53,12 @@ ht-degree: 98%
 
         レコードタイプの接続について詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-     <!--* By importing existing fields from Workfront. 
-            For information, see [Import fields from Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).-->
+      * <span class="preview">Workfrontから既存のフィールドを読み込む方法</span>
+        <span class="preview"> 詳しくは、[Adobe Workfrontからのフィールドの読み込み ](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。</span>
 
-     <!--* By importing record types using an Excel or CSV file. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). -->
+      * <span class="preview">Excel または CSV ファイルを使用してレコードタイプを読み込む方法</span>
+
+        <span class="preview"> 詳しくは、[ レコードタイプの作成 ](/help/quicksilver/planning/architecture/create-record-types.md) を参照してください。</span>
 
    * 自動：
 

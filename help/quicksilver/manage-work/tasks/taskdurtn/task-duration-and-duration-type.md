@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 83%
+source-wordcount: '1677'
+ht-degree: 74%
 
 ---
 
@@ -106,7 +106,14 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 
 {style="table-layout:auto"}
 
-**例：**&#x200B;タスクの期間が 3 経過日数であることを示す場合は、タスクリストの「期間」フィールドに「3 ED」と入力します。また、タスクの編集時や「タスクの詳細」セクションで、使用可能なドロップダウンメニューから、期間単位を選択することもできます。タスクの編集について詳しくは、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
+>[!BEGINSHADEBOX]
+
+**例**
+
+タスクの期間を 3 経過日とする場合は、タスク リストの [ 期間 ] フィールドに「3 ED」と入力します。  また、タスクの編集時に使用可能なドロップダウンメニューから、または「タスクの詳細」セクションで、期間の単位に適したオプションを選択することもできます。 タスクの編集について詳しくは、[タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
+
+
+>[!ENDSHADEBOX]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: stays QS only forever; for the pictures below: make the first one classic at preview time and the second one stays QS always. The second one is yellow >> take out at 21.2 production!!)</p>
@@ -117,9 +124,9 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 タスクの期間を指定する際は、次の点に注意してください。
 
 * 経過時間は、タスクの期間の時間単位です。タスクの予定開始日から予定完了日までの時間で、休日、週末および休暇を含みます。つまり、経過時間はカレンダーの日数の経過です。
-* 通常の時間は、休日、週末および休暇を考慮し、これらをタスクの期間から除外します。
-
-* タスクの期間を週単位で指定すると、Workfront は、Workfront 管理者が「設定」のプロジェクト環境エリアで設定した「1 週間の標準的な稼働日数」と「稼働日の標準的な時間数」の設定に基づいて、期間を日単位と時間単位で計算します。
+* 日は、システムで定義された営業日を表し、設定エリアで設定できます。 ほとんどの場合、1 日は 8 時間で構成されています。
+* 定期的な時間（日または営業日）を考慮に入れて休日、週末、および休暇とそれらを除外からタスクの期間。
+* タスクの期間を週単位で指定すると、Workfrontでは、「設定」の「プロジェクト環境設定」領域でWorkfront管理者が設定した 1 週間の標準的な作業日数と 1 日の標準的な時間数の設定に基づいて、期間（日と時間）が計算されます。
 * Workfront では、期間を月単位で計算する際、1 か月にはデフォルトの 4 週間の期間を使用します。
 
 ## タスクの期間タイプの概要
