@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: e91423d1520cc5fbfa6cd5085c3d0c7315d88463
+source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
 workflow-type: tm+mt
 source-wordcount: '14647'
 ht-degree: 91%
@@ -856,7 +856,7 @@ ht-degree: 91%
       * [メールヘッダーファイルを保存](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [共有すると複数の権限が表示される](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [未認証のメールが受け入れられない](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront:ZScalar 設定を使用すると、パフォーマンスが低下する場合があります](administration-and-setup/tips-tricks-and-troubleshooting/zscalar-affects-performance.md)
+      * [Workfront:ZScaler 設定によってパフォーマンスが低下する場合があります](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [ユーザー資格情報と SAML 資格情報](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [アクセスレベルの自動アップグレードオプションの更新](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront の基本 {#basics}
