@@ -6,15 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1631'
 ht-degree: 11%
 
 ---
 
 
 # レコードページレイアウトの管理
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -249,4 +253,52 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
    レコードを表示しているすべてのユーザーについて、同じタイプのすべてのレコードのプレビューとページの両方でフィールドの新しい位置が更新されます。
 
    レコードのプレビューまたはページのレイアウトに対するすべての変更が、自動的に保存されます。
+
+<span class="preview">
+
+## 接続済みビューページのレコードのページへの追加
+
+接続済みビューページをレコードのページに追加できます。
+
+接続済みビューページをレコードのプレビュー領域に追加することはできません。
+
+接続されたビューページには、接続された 1 つのレコードページがテーブルビューに表示されます。 テーブル表示は読み取り専用です。
+
+接続されているレコードタイプごとに、接続されているビューページを 1 つ追加できます。 <!--edit this when we can remove fields from this page-->
+
+接続済みビューページを追加するには：
+
+1. レコードページビューで、レコードの名前をクリックして開き、プレビューページの右上隅に ![](assets/open-details-in-a-new-tab-icon.png) る「新しいタブで開く」アイコンをクリックします。
+1. **ページを追加**/**接続されたビュー** をクリックします。
+1. **ページ名** を追加し、「**作成**」をクリックします。
+
+   新しいタブのレコードのページにページが追加されます。
+1. リスト内の接続済みレコードまたはオブジェクト タイプの名前を検索またはクリックします。
+選択したレコードタイプのテーブルビューが表示され、接続されたレコードがテーブルビューに表示されます。
+テーブル表示は読み取り専用です。
+
+   ![](assets/audience-connected-table-view-under-campaign-details-page.png)
+1. （オプション）タブの名前をダブルクリックします
+
+   または
+
+   タブの名前にポインタを合わせて、「**詳細**」 ![](assets/more-menu.png) クリックしてから「名前を変更 **をクリックして、新しい「接続されたビュー」タブに名前を変更します。**
+1. （オプション）ツールバーのビュー要素を使用して、テーブルビューを管理します。 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+
+</span>
+
+<!--
+## Add a Brief page to a record's page
+
+You can add a Brief page to the record's preview or pages. 
+
+Brief pages contain the same information as the Details tab, in a read-only format. <!--edit this when we can remove fields from this page-->
+
+<!--
+1. From a record's page view, click the name of a record to open its preview or page.
+1. Click **Add page** > **Brief**. 
+1. Add the **Page name**, then click **Create**. 
+-->
+
+
 

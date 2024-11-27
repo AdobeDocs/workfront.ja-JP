@@ -6,15 +6,20 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 63%
+source-wordcount: '1485'
+ht-degree: 62%
 
 ---
 
 
 # レコードビューの管理
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 
 {{planning-important-intro}}
 
@@ -218,6 +223,9 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 | 特定のレコードを検索 | ✓ | ✓ |
 | 他のユーザーとのビューの共有 | ✓ | ✓ | ✓ |
 | ビューからレコードのページを開く | ✓ | ✓ |    |
+| レコードを年および四半期別に表示 |           | ✓ |    |
+| 月別にレコードを表示 |           | ✓ | ✓ |
+| <span class="preview"> レコードを週別に表示 </span> |           |               | ✓ |
 
 
 ## ビューを作成または編集 {#create-or-edit-views}

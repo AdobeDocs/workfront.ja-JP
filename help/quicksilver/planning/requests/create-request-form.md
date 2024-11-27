@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 15%
 
 ---
@@ -145,14 +145,18 @@ ht-degree: 15%
    >
    >* 次のタイプのフィールドは、リクエストフォーム <span class="preview"> プレビュー </span> ードまたは実稼動環境）に表示されません。
    >
-   >    * ユーザー（作成者と最終変更者を含む）
+   >    * 作成者と最終変更者
    >    * 式
-   >    * 作成日
-   >    * 最終変更日
-   >    * Workfront オブジェクトの接続されたフィールドまたは参照フィールド
-   >    * Workfront Planning レコードの接続された参照フィールド
+   >    * 作成日と最終変更日
+   >    * Workfront オブジェクトの参照フィールド
+   >    * Workfront Planning 接続レコードの参照フィールド
+   >    * AEM Assets接続フィールド
    >* 次のタイプのフィールドは、実稼動環境のリクエストフォームに表示されません。 <span class="preview"> プレビュー環境に表示されます。</span>
    >    * Workfront Planning レコード <span class="preview"> 接続されているフィールド </span>
+   >    * <span class="preview">People </span>
+   >    * <span class="preview">Workfront オブジェクトの接続されたフィールド </span>
+   >    * <span class="preview">AEM Assets接続フィールド </span>
+
 
 
    * **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。
@@ -208,7 +212,15 @@ ht-degree: 15%
    >[!WARNING]
    >
    >
-   >**リンクを持つすべてのユーザー** を選択すると、組織外のユーザーであっても、Workfront アカウントを持たないユーザーであっても、誰でもフォームにアクセスして、新しいレコードを送信できます。
+   >* **リンクを持つすべてのユーザー** を選択すると、組織外のユーザーであっても、Workfront アカウントを持たないユーザーであっても、誰でもフォームにアクセスして、新しいレコードを送信できます。
+   >
+   > * <span class="preview"> 次のフィールドタイプを含むフォームは、公開して共有できません。</span>
+   >
+   >     * <span class="preview"> 数式 </span>
+   >     * <span class="preview">WorkfrontまたはAEM Assets Connections</span>
+   >     * <span class="preview"> 参照フィールド </span>
+   >     * <span class="preview">ユーザー</span>
+   >
 
 1. （条件付き）前の手順で「**リンクを持つすべてのユーザー**」を選択した場合は、使用可能なカレンダーから **有効期限をリンク** を選択します。 リンクの有効期限が切れるとエラーが表示されるので、フォームに再度アクセスするにはリンクの日付を更新する必要があります。
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 88c921b00fcde7dd530e999031e0227201a7cb1a
 workflow-type: tm+mt
-source-wordcount: '4129'
-ht-degree: 60%
+source-wordcount: '4287'
+ht-degree: 58%
 
 ---
 
@@ -39,7 +39,9 @@ Workfront Planning では、次の方法でフィールドを作成できます�
 * レコードタイプの接続による
 * レコードタイプの作成による
 * テンプレートからのワークスペースの作成による
-  <!--* By importing record types using an Excel or CSV file-->
+* <span class="preview">Excel または CSV ファイルを使用してレコードタイプを読み込む </span>
+* <span class="preview"> 既存のWorkfront フィールドのコピーを読み込む方法 </span>
+
 
 Workfrontの計画フィールドについて詳しくは、[ フィールドの概要 ](/help/quicksilver/planning/fields/fields-overview.md) を参照してください。
 
@@ -178,6 +180,8 @@ OLD:
 ## フィールドを最初から作成 {#create-fields-from-scratch}
 
 <!--in a table (not sure if this can be done elsewhere?!-->
+
+<!--the first 3 steps are the same as in Import fields from Workfron-->
 
 {{step1-to-planning}}
 
@@ -340,7 +344,7 @@ OLD:
       * **長い形式**：例：2023年5月16日
       * **ヨーロッパ式**：例：16/05/2023
       * **ISO**：例：2023-05-16
-      * **時間フィールドを含める**：タイムスタンプを含める場合はこのオプションを選択します。このオプションは、デフォルトでは選択されていません。<!--update this setting name - submitted bug for it to be changed-->
+      * **時間を含める**：タイムスタンプを含める場合は、このオプションを選択します。 デフォルトでは選択されていません。 フィールドを安全にした後に時間を含めることはできません。
 
      次のオプションから選択します。
 
@@ -467,6 +471,12 @@ OLD:
    ![](assets/description-of-formula-expression.png)
 
    サポートされている式について詳しくは、[ 式フィールドの概要 ](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
+
+
+   >[!TIP]
+   >
+   ><span class="preview"> 数式フィールドを編集または作成すると、そのフィールドまたは共有フィールドへの循環参照が発生する可能性がある警告メッセージが表示されます。 自身を参照する数式フィールド、または計算内で参照されている項目を参照する数式フィールドを保存することはできません。 </span>
+
 
 1. フィールド名をWorkfront Planning に表示されるとおりに追加して、式で参照します。
 
@@ -647,3 +657,21 @@ For more information, see [Create record types](/help/quicksilver/planning/archi
 テンプレートからワークスペースを作成する際に、Adobe Workfront Planning はレコードタイプ用のフィールドを作成します。
 
 詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+
+<div class="preview">
+
+## レコードタイプを CSV または Excel ファイルから読み込む際のフィールドの作成
+
+CSV または Excel ファイルを使用してレコードタイプを読み込む際に、フィールドを読み込むことができます。
+
+詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+
+## Workfrontから読み込んでフィールドを作成する
+
+既存のWorkfront フィールドのコピーを読み込むことができます。 Workfrontからフィールドを読み込むと、Workfront Planning レコードタイプの各フィールドのコピーが作成されます。
+
+フィールドをコピーした後、フィールドは互いに独立しており、情報を交換しません。
+
+詳しくは、[Workfrontからのフィールドの読み込み ](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
+
+</div>

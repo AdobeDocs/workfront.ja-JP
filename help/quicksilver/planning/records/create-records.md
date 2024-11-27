@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1617'
 ht-degree: 34%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 34%
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # レコードの作成
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -28,6 +32,8 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 * [テーブルビューからレコードを複製](#create-records-by-duplicating-them)
 * [他のレコードから接続する際のレコードの作成](#create-records-as-you-connect-them)
 * [リクエストフォームをレコードタイプに送信して作成します](#create-records-by-submitting-a-request-form-to-a-record-type)
+* <span class="preview">[ レコードタイプを CSV または Excel ファイルから読み込む際のレコードの作成 ](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+
 
 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
 
@@ -270,3 +276,13 @@ You can import records from other applications by linking them to existing recor
 Workfront ユーザーと組織外のユーザーの両方が、リクエストフォームへのリンクがある場合、Planning レコードタイプにリクエストを送信し、レコードを作成できます。
 
 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+
+<div class="preview">
+
+## レコードタイプを CSV または Excel ファイルから読み込む際のレコードの作成
+
+CSV または Excel ファイルを使用してレコードタイプを読み込む場合、レコードを読み込むことができます。
+
+詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+
+</div>

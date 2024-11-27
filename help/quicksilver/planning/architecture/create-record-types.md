@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 71%
+source-wordcount: '1453'
+ht-degree: 64%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 71%
 <!--this is linked to the UI in an empty workspace screen-->
 
 # レコードタイプの作成
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -95,64 +99,6 @@ ht-degree: 71%
 +++
 
 
-<!--
-OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td> Adobe Workfront
-   </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>Current: Plan</p>
-   Or
-   <p>New: Standard </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
 ## レコードタイプの作成に関する考慮事項
 
 * 以下の方法で、ワークスペースでレコードタイプを作成できます。
@@ -162,15 +108,12 @@ OLD:
 
         詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
-     <!--* When you import them using an Excel or CSV file. 
+      * <span class="preview">Excel または CSV ファイルを使用して読み込む場合。</span>
 
-            >[!IMPORTANT]
-            >
-            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
+     >[!TIP]
+     >
+     ><span class="preview"> レコードタイプを Excel または CSV ファイルから読み込む場合、レコードやフィールドも読み込まれる場合があります。</span>
 
-     <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
-        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
-        For information about connecting objects with records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
    * 手動：
 
       * 最初から。
@@ -204,7 +147,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
 1. （任意）「**セクションを追加**」をクリックし、新規セクションをワークスペースに追加します。
-1. 「**レコードタイプを追加**」をクリックします。
+1. **レコードタイプを追加** をクリックし、<span class="preview">**新規**</span> をクリックします。
 
    レコードタイプを追加ボックスが開きます。
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -232,8 +175,6 @@ Workfront Planning テンプレートを使用してワークスペースを作�
    ![](assets/operational-record-type-blank.png)
 
    デフォルトでは、レコードタイプページがテーブルビューに表示されます。テーブルの列は、新しいレコードタイプに関連付けられたフィールドです。各行は、追加する必要がある一意のレコードです。
-
-   <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
    デフォルトでは、次のフィールドが、運用中のレコードタイプのテーブルビュー列に表示されます。
 
@@ -267,69 +208,76 @@ Workfront Planning テンプレートを使用してワークスペースを作�
    * [レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)
 
-<!--
-## Create record types by importing an Excel or CSV file
+<div class="preview">
 
->[!IMPORTANT]
->
->This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
+## Excel または CSV ファイルをインポートしてレコードタイプを作成
 
-Consider the following when importing record types using an Excel or CSV file: 
+Excel ファイルや CSV ファイルを使用してレコードタイプを読み込む際は、次の点を考慮してください。
 
-* Each sheet of the Excel file becomes a record type. 
-* The columns of each sheet become the fields associated with each record type. 
-* Fields are unique for their respective record types. 
-* Each row in each sheet becomes a unique record associated with its respective record type. 
-* Each sheet of the Excel file should not exceed the following: 
-    * 50,000 rows
-    * 500 columns
-* The Excel file should not be larger than 5MB.
-* Empty sheets are not supported. 
+* Excel ファイルの各シートがレコードタイプになります。 シートの名前がレコードタイプの名前になります。
+* シートが 1 つだけの場合、または CSV ファイルを読み込む場合、ファイルの名前がレコードタイプの名前になります。
+* 各シートの列ヘッダーは、各レコードタイプに関連付けられたフィールドになります。
+* フィールドは、それぞれのレコードタイプについて一意です。
+* 各シートの各行は、各レコードタイプに関連付けられた一意のレコードになります。
+* Excel ファイルの各シートの上限は次のとおりです：
+   * 10,000 行
+   * 500 列
+* Excel ファイルのサイズは 5 MB 以下にする必要があります。
+* 空のシートはサポートされていません。
 
-To import record types using an Excel file: 
+Excel または CSV ファイルを使用してレコードタイプを読み込むには：
 
 {{step1-to-planning}}
 
-1. Click the workspace where you want to create record types, 
+1. レコードタイプを作成するワークスペースをクリックします。
 
-    Or
+   または
 
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
-1. Click **Add record type**. 
-1. Click **Excel/CSV**.
-1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
-1. Click **Review your data**.
-    
-    The Preview and edit box displays with the following information: 
+   ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
+1. 「**レコードタイプを追加**」をクリックします。
+1. **ファイルから** をクリックします。
+1. コンピューターに保存済みの Excel ファイルまたは CSV ファイルをドラッグアンドドロップするか、「**CSV ファイルまたは Excel ファイルを選択**」をクリックして参照します。
+1. **プレビューと編集** をクリックします。
 
-    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
-    * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
-    * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
+   **プレビューと編集** ボックスが表示され、次の情報が表示されます。
 
-    ![](assets/preview-and-edit-box.png)
+   * 左パネルに、シートまたは将来のレコードタイプの名前が表示されます。Workfront Planning により、新しいレコードタイプごとにデフォルトでアイコンとカラーが選択されます。
+   * 最初のシートまたはレコードタイプが選択され、関連付けられたフィールド名が列ヘッダーとして表示されます。各フィールドのタイプは、デフォルトで選択されています。
+   * 各行は新しいレコードを表します。「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
 
-1. (Optional) Click the name of each sheet in the left panel to review the information it contains. 
+   ![](assets/preview-and-edit-box.png)
 
-    >[!NOTE]
-    >
-    >    Sheets that are empty are not supported and are dimmed. 
+1. （オプション）左パネルの各シート名をクリックすると、シートに含まれる情報を確認できます。
 
+   >[!NOTE]
+   >
+   >空のシートはサポートされておらず、淡色の表示になります。
 
-1. (Optional) Click the **Select sheets to import** drop-down menu and deselect the sheets that you don't want to import. 
+1. （オプション）左側のパネルから読み込まないシートの選択を解除します。
 
-    ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
+   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
 
-    Sheets you deselected display with a gray background. 
+   選択を解除したシートは、グレーの背景で表示されます。
 
-1. Click **Import** when you are ready to import your file. 
+1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、次のいずれかの操作を行います。
 
-    The following information imports in to Workfront Planning:
+   * いずれかのフィールドの名前を変更する
+   * **フィールドタイプ** を変更する
+   * フィールド **説明** を更新
 
-    * New record types
-    * New fields associated with each record type
-    * New records associated with each record type
+1. （任意）フィールドに関する情報を更新したら、「**保存**」をクリックします。
 
-    You can start managing fields and records on the record types pages. 
-    
-    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
+1. ファイルを読み込む準備が整ったら「**読み込み**」をクリックします。
+
+   次の情報が Workfront Planning にインポートされます。
+
+   * 新しいレコードタイプ
+   * 各レコードタイプに関連付けられた新しいフィールド
+   * 各レコードタイプに関連付けられた新しいレコード
+
+   レコードタイプページのフィールドとレコードの管理を開始できます。
+
+   読み込まれたレコードタイプとその情報をWorkfront Planning にアクセスできるユーザー全員が表示および編集できるようになりました。
+
+</div>
 

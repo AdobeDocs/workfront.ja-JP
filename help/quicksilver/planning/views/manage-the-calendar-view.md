@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 28%
+source-wordcount: '841'
+ht-degree: 27%
 
 ---
 
 # カレンダービューの管理
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -179,7 +183,16 @@ Adobe Workfrontのプランニングビューとその管理方法について�
    * カレンダーを今日の日付の中央に配置するには、[**今日**] をクリックします。
    * 時間枠ドロップダウンメニューから次のいずれかのオプションを選択して、時間間隔を更新します。
 
-      * 月
+      * **月**：レコードは月別カレンダーに表示されます。
+
+     <div class="preview">
+
+      * **週**：レコードは次の領域に表示されます。
+
+         * 複数日にまたがるレコードは、カレンダーの上部に表示されます。
+         * 1 日以下のレコードは、カレンダー表示の下半分に表示されます。 開始日と終了日の時間を表示するように選択した場合、レコードは該当する日の適切な時間に表示されます。
+     </div>
+
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)
    * [設定](#edit-the-calendar-view-settings)
