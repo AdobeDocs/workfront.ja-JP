@@ -9,7 +9,7 @@ description: Adobe Photoshop モジュールを使用すると、Adobe Photoshop
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '4325'
 ht-degree: 21%
@@ -115,19 +115,19 @@ Adobe Photoshop コネクタでは、以下を使用します。
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>[!UICONTROL Adobe] [!UICONTROL クライアント ID] を入力します。 これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
+        <td>[!UICONTROL Adobe] [!UICONTROL クライアント ID] を入力します。 これは、[!DNL Adobe Developer Console] の [!UICONTROL 資格情報 ] の詳細セクションにあります。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>[!DNL Adobe] [!UICONTROL Client Secret] を入力します。これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL Client Secret] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL 資格情報 ] の詳細セクションにあります。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>[!DNL Adobe] [!UICONTROL Technical account ID] を入力します。これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL Technical account ID] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL 資格情報 ] の詳細セクションにあります。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>[!DNL Adobe] [!UICONTROL Organization ID] を入力します。これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL Organization ID] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL 資格情報 ] の詳細セクションにあります。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Private key]</td>

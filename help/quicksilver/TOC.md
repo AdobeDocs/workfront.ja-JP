@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: d74bf60a66326c71447679c463de0469cd0de9fa
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '14614'
+source-wordcount: '14642'
 ht-degree: 91%
 
 ---
@@ -184,6 +184,7 @@ ht-degree: 91%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion リリースアクティビティ {#fusion-release}
          * [Adobe Workfront Fusion リリースアクティビティ](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion リリースアクティビティ：2024年11月25日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Workfront Fusion リリースアクティビティ：2024年11月11日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
          * [Workfront Fusion リリースアクティビティ：2024年11月4日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-4.md)
          * [Workfront Fusion リリースアクティビティ：2024年10月21日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
@@ -1844,6 +1845,7 @@ ht-degree: 91%
       * [アセットとドキュメントのレビューと承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
       * [ドキュメントの承認の概要](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [レビューおよび承認用のレポートダッシュボードの作成](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * でのアセットとドキュメントの承認の設定 {#manage-asset-review-and-approval} 管理
          * [アセットおよびドキュメント承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
@@ -2339,6 +2341,7 @@ ht-degree: 91%
       * [Marketo モジュール](workfront-fusion/apps-and-their-modules/marketo-modules.md)
       * [数学](workfront-fusion/apps-and-their-modules/math-module.md)
       * [Microsoft Dynamics 365 モジュール](workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+      * [Microsoft Dynamics 365 モジュール財務および運用](workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
       * [Microsoft Office 365 カレンダー](workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
       * [Microsoft Office 365 メール](workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
       * [Microsoft Office 365 Excel モジュール](workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
@@ -2798,6 +2801,7 @@ ht-degree: 91%
       * [コードサンプル](proofhq-api/general/code-samples.md)
       * [SOAP API に関する FAQ](proofhq-api/general/soap-api-faqs.md)
 * [非表示のテストドキュメント](hidden-test.md)
+* [2025 年第 1 四半期リリースの概要 – テスト](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
 
 
 <!--

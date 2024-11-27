@@ -9,7 +9,7 @@ description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、 [!DNL Ado
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 29%
@@ -89,7 +89,7 @@ Adobe Journey Optimizer コネクタでは、以下を使用します。
  <tbody> 
   <tr> 
    <td role="rowheader">ベース URL</td> 
-   <td>&lbrace;&lbrace;connection.url&rbrace;&rbrace;</td> 
+   <td>{{connection.url}}</td> 
   </tr>
   <tr> 
    <td role="rowheader">API タグ</td> 
@@ -128,15 +128,15 @@ Adobe Journey Optimizer コネクタでは、以下を使用します。
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>[!UICONTROL Adobe] [!UICONTROL クライアント ID] を入力します。 これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
+        <td>[!UICONTROL Adobe] [!UICONTROL クライアント ID] を入力します。 これは、[!DNL Adobe Developer Console] の [!UICONTROL 資格情報 ] の詳細セクションにあります。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>[!DNL Adobe] [!UICONTROL Client Secret] を入力します。これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL Client Secret] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL 資格情報 ] の詳細セクションにあります。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>[!DNL Adobe] [!UICONTROL Organization ID] を入力します。これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
+        <td>[!DNL Adobe] [!UICONTROL Organization ID] を入力します。これは、[!DNL Adobe Developer Console] の [!UICONTROL 資格情報 ] の詳細セクションにあります。</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL サンドボックス名 ]</td>

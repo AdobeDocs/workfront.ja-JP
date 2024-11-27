@@ -9,10 +9,10 @@ description: Adobe Lightroom モジュールを使用すると、Adobe Lightroom
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e48bdf18-49f0-436e-9182-16c9da2b3169
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '2255'
-ht-degree: 23%
+source-wordcount: '2370'
+ht-degree: 24%
 
 ---
 
@@ -71,6 +71,7 @@ ht-degree: 23%
 
 * アクティブな [!DNL Adobe Lightroom] アカウントが必要です。
 
+
 ## Adobe Lightroom API の情報
 
 Adobe Lightroom コネクタでは、以下を使用します。
@@ -90,7 +91,46 @@ Adobe Lightroom コネクタでは、以下を使用します。
  </tbody> 
  </table>
 
-<!--## Create a connection to Adobe Lightroom-->
+## Adobe Lightroomへの接続の作成
+
+[!DNL Adobe Lightroom] モジュールの接続を作成するには、次の手順に従います。
+
+1. 「接続」ボックスの横に表示される「**[!UICONTROL 追加]**」をクリックします。
+
+1. 次のフィールドに入力します。
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>この接続の名前を入力します。</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>実稼動環境と非実稼動環境のどちらに接続するかを選択します。</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>サービスアカウントと個人アカウントのどちらに接続するかを選択します。</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>[!UICONTROL Adobe] [!UICONTROL クライアント ID] を入力します。 これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>[!DNL Adobe] [!UICONTROL Client Secret] を入力します。これは、の [!UICONTROL 資格情報 ] の詳細セクションにあります [!DNL Adobe Developer Console]</td>
+        </tr>
+      </tbody>
+    </table>
+
+1. 「**[!UICONTROL 続行]**」をクリックして接続を保存し、モジュールに戻ります。
 
 
 

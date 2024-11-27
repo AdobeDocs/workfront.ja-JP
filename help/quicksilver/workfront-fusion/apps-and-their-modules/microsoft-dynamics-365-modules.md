@@ -9,10 +9,10 @@ description: ' [!DNL Adobe Workfront Fusion] シナリオでは、Microsoft Dyna
 author: Becky
 feature: Workfront Fusion
 exl-id: 116df088-20a7-40a8-8880-9f422dc37632
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 88%
+source-wordcount: '1733'
+ht-degree: 87%
 
 ---
 
@@ -23,6 +23,8 @@ ht-degree: 88%
 >[!NOTE]
 >
 >[!DNL Microsoft Dynamics 365] コネクタでは [!DNL Dynamics Finance and Operations] をサポートしていません。
+>
+>Microsoft Dynamics 365 の財務および運用モジュールについては、[[!DNL Microsoft Dynamics 365 Finance and Operations modules]](/help/quicksilver/workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md) を参照してください。
 
 シナリオの作成手順が必要な場合は、[ [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md) でのシナリオの作成を参照してください。
 

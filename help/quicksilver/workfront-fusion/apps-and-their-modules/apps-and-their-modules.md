@@ -10,9 +10,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 352eaa63638504d0114803fbca640a8eb2745d57
+source-git-commit: 84246c2720e54e270de217167e88e803a92fdafc
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 96%
 
 ---
@@ -93,6 +93,7 @@ ht-degree: 96%
 * [[!DNL Marketo] モジュール](../../workfront-fusion/apps-and-their-modules/marketo-modules.md)
 * [数学](../../workfront-fusion/apps-and-their-modules/math-module.md)
 * [[!DNL Microsoft Dynamics 365] モジュール](../../workfront-fusion/apps-and-their-modules/microsoft-dynamics-365-modules.md)
+* [[!DNL Microsoft Dynamics 365 Finance and Operations] モジュール](../../workfront-fusion/apps-and-their-modules/dynamics-finance-operations-modules.md)
 * [[!DNL Microsoft Office 365 Calendar]](../../workfront-fusion/apps-and-their-modules/microsoft-365-calendar-modules.md)
 * [[!DNL Microsoft Office 365 Email]](../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md)
 * [[!DNL Microsoft Office 365 Excel] モジュール](../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md)
