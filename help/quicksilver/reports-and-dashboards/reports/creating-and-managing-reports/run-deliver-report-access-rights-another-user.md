@@ -6,14 +6,16 @@ description: デフォルトでは、ユーザーは自分に表示権限があ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: d8e3c2da7f8fcd062e1bf2bb5de43a6238f5eadd
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 100%
+source-wordcount: '1179'
+ht-degree: 98%
 
 ---
 
 # 別のユーザーのアクセス権を持つレポートを実行および配信する
+
+<!-- Audited: 11/2024 -->
 
 デフォルトでは、ユーザーは自分に表示権限があるレポート内のオブジェクトのみを表示できます。
 
@@ -28,6 +30,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -40,20 +44,31 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+      <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限の表示（配信されたレポートの表示）</p> <p>レポートに対する権限の管理（レポートの実行）</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限の表示（配信されたレポートの表示）</p><p>レポートに対する権限の管理（レポートの実行）</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 別のユーザーのアクセス権限での報告書の表示
 
@@ -63,7 +78,7 @@ ht-degree: 100%
 
 別のユーザーのアクセス権限でのレポートの実行
 
-1. Workfront の右上で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**レポート**」をクリックします。
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL レポート]**」の順にクリックします。
 
 1. 別のユーザーのアクセス権限で表示するレポートを選択します。
 1. 「**報告書アクション**」をクリックして、次に「**編集**」をクリックします。
@@ -71,7 +86,7 @@ ht-degree: 100%
 1. 「**報告書設定**」をクリックします。
 
 1. 「**次のアクセス権限でこの報告書を作成する：**」フィールドに、レポートを表示するユーザー名の入力を開始し、リストに表示されたら選択します。\
-   ![](assets/qs-access-rights-of-350x251.png)
+   ![](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -101,7 +116,7 @@ ht-degree: 100%
 1. 「**報告書の送信**」をクリックします。
 
 1. レポートをメールで配信する際に使用するレポート表示権限が属するユーザーの名前を「**次のアクセス権限でこの報告書を届ける**」フィールドに入力していき、目的のユーザー名がリストに表示されたら選択します。デフォルトでは、レポートを作成するユーザーの名前です。\
-   ![](assets/qs-send-report-access-rights-of-350x446.png)
+   ![](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -111,8 +126,8 @@ ht-degree: 100%
 
    * HTML
    * PDF
-   * MS Excel
-   * MS Excel（.xlsx）
+   * Excel
+   * Excel（xlsx）
    * TSV
 
 1. 「**今すぐ送信**」をクリックして、すぐに送信します。\
@@ -138,20 +153,22 @@ ht-degree: 100%
 * 「プロジェクト名」列または「タスク名」列をイシューレポートに。
 * 3 つのオブジェクトをすべて参照するテキストモード式を使用する列。時間レポートの例を次に示します。
 
-  `displayname=Custom Source`
-
-  `linkedname=opTask`
-
-  `namekey=view.relatedcolumn`
-
-  `namekeyargkey.0=opTask`
-
-  `namekeyargkey.1=name`
-
-  `textmode=true`
-
-  `valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))`
-
-  `valueformat=HTML`
+  ```
+  displayname=Custom Source
+  
+  linkedname=opTask
+  
+  namekey=view.relatedcolumn
+  
+  namekeyargkey.0=opTask
+  
+  namekeyargkey.1=name
+  
+  textmode=true
+  
+  valueexpression=IF(!ISBLANK({opTaskID}),{opTask}.{name},IF(!ISBLANK({taskID}),{task}.{name},IF(!ISBLANK({projectID}),{project}.{name},IF(!ISBLANK({timesheetID}),CONCAT({owner}.{name}," ",{timesheet}.{startDate}," - ",{timesheet}.{endDate}),""))))
+  
+  valueformat=HTML
+  ```
 
   テキストモードビューについては、[テキストモードを使用したビューの編集](../text-mode/edit-text-mode-in-view.md)を参照してください。

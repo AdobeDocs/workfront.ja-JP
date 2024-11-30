@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: cea70727aaaa867b55ce999f68a675c453840d41
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '1635'
+source-wordcount: '1610'
 ht-degree: 35%
 
 ---
@@ -59,7 +59,6 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             単一割り当てタスクにプロジェクトまたはユーザースケジュールを使用するための環境設定</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>1 人のユーザーをタスクに割り当て、プロジェクトとユーザーの両方がスケジュールに関連付けられている場合に、Workfrontがプロジェクトのスケジュールを使用してプロジェクトのタイムラインを計算するかどうかを示す新しい環境設定が追加されました。</p>
         </td>
         <td>
@@ -75,7 +74,6 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             ビジネスルールでハイパーリンクがサポートされるようになりました</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>ビジネス ルールのカスタム エラーメッセージにハイパーリンクを含めて、ルールの制約内でアクションを変更する方法をユーザーに示すことができるようになりました。 静的 URL は、ユーザーに役立つドキュメントやその他のページにリンクできます。</p>
         </td>
         <td>
@@ -91,7 +89,6 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             ネイティブの先行入力フィールドのフィルタリングが利用できるようになりました</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>カスタムフォームにネイティブフィールド参照を追加し、先行入力フィールド（Portfolio、会社、所有者など）を参照する場合、フィルターオプションを使用できるようになりました。 フィルターを使用すると、ユーザーがフィールドを使用する際に選択できるオブジェクトを制限できます。 このカスタムフィルターは、カスタム先行入力フィールドに対するフィルターと同じように機能し、テキストモードを使用してフィルターを定義します。</p>
         </td>
         <td>
@@ -172,7 +169,6 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             複数のドキュメントを一度に編集</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。</p>
         </td>
         <td>
@@ -309,6 +305,7 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             データ接続の初回リーダーアカウント作成ボタン</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Data Connect に初めてアクセスする管理者には、1 回クリックして新しいSnowflakeリーダーアカウントを作成するオプションが表示されるようになりました。 このプロセスが完了するまでに数分かかりますが、それ以上のアクションは必要ありません。</p>
         </td>
         <td>
@@ -332,7 +329,6 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             リンクされたフォルダー内の移動または削除されたアセットの管理方法に関する更新</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Experience Manager AssetsとAssets EssentialsのAdobe Workfront統合を使用する際の、移動されたアセットや削除されたアセットの処理方法を変更しました。</p>
             <ul>
                 <li>削除されたアセット：AssetsまたはAssets Essentialsのリンクされたフォルダー内でアセットを削除すると、削除されたアセットはプロジェクトドキュメント領域に保持されます。</li>

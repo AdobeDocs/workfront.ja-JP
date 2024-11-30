@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 8ad2ed8389fdc00649f0853e07d2e83d21ccb385
+source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
 workflow-type: tm+mt
-source-wordcount: '2178'
+source-wordcount: '2187'
 ht-degree: 39%
 
 ---
@@ -469,7 +469,7 @@ ht-degree: 39%
                             <p>すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））</p>
                         </li>
                     </ul>
-                    <p><i>新しいAdobe Workfront プランの 1 つに加入している組織のみが利用できます。 Data Connect は Ultimate プランに含まれているか、Prime プランおよび Select プランのアドオンとして購入できます。</i></p>
+                    <p><i>新しいAdobe Workfront プランの 1 つに加入している組織のみが利用できます。 Data Connect は Ultimate プランに含まれており、2025 年上半期に Prime および Select プランへのアドオンとして購入できるようになります。</i></p>
                 </td>
             </tr>
         </tbody>
