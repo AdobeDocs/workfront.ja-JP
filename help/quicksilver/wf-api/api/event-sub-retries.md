@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
 workflow-type: tm+mt
-source-wordcount: '548'
-ht-degree: 100%
+source-wordcount: '394'
+ht-degree: 63%
 
 ---
 
@@ -24,45 +24,54 @@ ht-degree: 100%
 
 顧客は Workfront プラットフォームを日々の知識作業の中核として活用するので、Workfront イベントサブスクリプションフレームワークは、各メッセージの配信を可能な限り確実に試行するメカニズムを提供します。
 
-顧客のエンドポイントへの配信に失敗したイベントトリガーの送信メッセージは、最大 48 時間配信が成功するまで再送信されます。この間、配信が成功するか 48 時間が経過するまで、再試行の頻度は徐々に減っていきます。
+顧客のエンドポイントへの配信に失敗したイベントトリガーの送信メッセージは、最大 48 時間配信が成功するまで再送信されます。この間、配信が成功するか 11 回の試行が行われるまで、再試行は徐々に高い頻度で行われます。
+
+これらの再試行の数式を次に示します。
+
+`((2^attempt) - 1) * 84800ms`
+
+1 回目の再試行は 1.5 分後に行われ、2 回目はほぼ 5 分後に行われ、11 回目は約 48 時間で行われます。
 
 顧客は、Workfront イベントサブスクリプションからの送信メッセージを消費するエンドポイントが、配信が成功したときに 200 レベルの応答メッセージを Workfront に返すように設定されていることを確認する必要があります。
 
-## 失敗したイベントトリガー送信メッセージの処理
+## 無効な購読ルールと凍結された購読ルール
 
-次のフローチャートに、Workfront イベントサブスクリプションを使用したメッセージ配信を再試行する戦略を示します。
+* 購読 URL が 100 回を超える試行で 70% を超える失敗率を持つ場合、または 2,000 回連続して失敗する場合、**無効** になります
+* 購読 URL が 2,000 回以上連続してエラーが発生し、最後の成功が 72 時間以上あった場合、または任意の期間に 50,000 回連続してエラーが発生した場合、購読 URL は **フリーズ** されます。
+* **無効** の購読 URL は、引き続き 10 分ごとに配信を試み、配信が成功すると再度有効になります。
+* **フリーズ** された購読 URL は、API リクエストを行って手動で有効にしない限り、配信を試みません。
+
+
+
+<!--
+
+## Handling Failed Event-Triggered Outbound Messages
+
+The following flowchart shows the strategy for reattempting message deliveries with Workfront Event Subscriptions:
 
 ![](assets/event-subscription-circuit-breaker-retries-350x234.png)
 
-次の説明は、フローチャートに表示される手順に対応しています。
+The following explanations correspond with the steps depicted in the flowchart:
 
-1. メッセージを配信できませんでした。
-1. メッセージ配信エラー情報が記録されます。
+1. Message fails to be delivered. 
+1. Message delivery failure information is logged.
 
-   メッセージの配信に失敗した試みはすべて記録され、特定の失敗または一連の失敗の根本原因を特定するためのデバッグを実行できます。
+   All failed attempts to deliver a message are logged so that debugging may be performed to determine the root cause of a given failure or series of failures. 
 
-1. URL の失敗が増加します。
-1. メッセージの試行回数が増加します。
-1. このメッセージの配信が再試行されるまでの遅延を計算します。
-1. メッセージがメッセージ再試行キューに配置されました。
+1. URL failures incremented. 
+1. Message attempt count is incremented. 
+1. Calculate the delay until this message's delivery will be attempted again. 
+1. Message is placed onto the message retry queue.
 
-   前述のフローチャートに示すように、メッセージ配信の再試行を処理するためのメッセージキューは、各メッセージの最初の配信試行を処理するキューとは別のキューです。これにより、メッセージのサブセットの障害によって妨げられることなく、ほぼリアルタイムのメッセージフローを継続できます。
+   As shown in the preceding flowchart, the message queue used for processing message delivery retries is a separate queue from the one that processes the initial delivery attempt for each message. This allows the near real-time flow of messages to continue unimpeded by the failure of any subset of messages. 
 
-1. URL 回線の状態が評価されます。次のいずれかが発生します。
+1. URL circuit status is evaluated. One of the following occurs:
 
-   * 回路が開いていていて、その時点で配信が許可されていない場合は、手順 5 でプロセスをやり直します。
-   * 回線が半分開いている場合は、回線は現在開いていますが、URL への配信に関する問題が解決したかどうかを確認するために URL をテストできる十分な時間が経過していることを意味します。
-   * メッセージ配信試行制限に達した場合（48 時間の再試行）、メッセージはドロップされます。
+   * If the circuit is open and not allowing deliveries at this time, restart the process at step 5.
+   * If the circuit is half-open, this implies that our circuit is currently open, but enough time has passed to allow testing of the URL to see if the problem with delivering to it has been resolved.
+   * If the message delivery attempt limits have been reached (48 hours of retrying) then the message is dropped
 
-1. URL 回線が閉じられ、配信が許可されている場合は、メッセージの配信を試みます。この配信が失敗した場合、メッセージは手順 1 でやり直します。
+1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1 
 
-1. URL 回線が閉じられ、配信が許可されている場合は、メッセージの配信を試みます。この配信が失敗した場合、メッセージは手順 1 でやり直します。
-
-   <!--
-   <li value="10" data-mc-conditions="QuicksilverOrClassic.Draft mode">Workfront disables Event Subscriptions when both of the following criteria are met:
-   <ul>
-   <!--
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">The Event Subscription has failed 1000 delivery attempts consecutively</li>
-   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">48 hours have passed since the last successful delivery</li>
-   </ul></li>
+1. If the URL circuit is closed and allowing deliveries, attempt to deliver the message. If this delivery fails, the message will restart at step 1.
    -->
