@@ -6,10 +6,10 @@ description: 自分が作成したオブジェクトや自分と共有された�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: e1ac95e8be0f6059700ddacb120b08c7c7b683b1
+source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 97%
+source-wordcount: '1182'
+ht-degree: 96%
 
 ---
 
@@ -108,6 +108,7 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
     <ul> 
      <li><p>オブジェクトを表示</p></li> 
      <li><p>オブジェクトにドキュメントを追加</p></li> 
+     <li><p>イシューをオブジェクトに追加（タスクまたはプロジェクトの場合）</p></li> 
      <li><p>オブジェクトに関する財務情報を表示</p></li> 
      <li> <p>オブジェクトを共有<br></p> <p>オブジェクトを共有する際、他のユーザーに付与できるのは、オブジェクトに対する自身の権限と同程度の権限のみです（自身の権限以上ではない）。</p> </li> 
     </ul> </td> 
@@ -118,7 +119,6 @@ Workfront で以下のオブジェクトを他のユーザーと共有できま�
     <ul> 
      <li>表示権限に含まれるすべてのアクション。</li> 
      <li>費用を追加</li> 
-     <li>イシューを追加（タスクまたはプロジェクトの場合）</li> 
      <li>タスクを追加（プロジェクトの場合）</li> 
      <li>カスタムフォームを編集</li> 
      <li>オブジェクトに対する時間を記録</li> 
