@@ -5,13 +5,13 @@ title: Web プルーフビューア拡張機能でのインタラクティブコ
 description: Adobe Workfront レビューツールは、ZIP ファイルまたは URL を使用してインタラクティブコンテンツのプルーフを行うことができるブラウザー拡張機能です。
 author: Courtney
 feature: Digital Content and Documents
-source-git-commit: 5650ebfbf115908cbf2b89ffeab0551a4ecacc2d
+exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
+source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
-
 
 # Adobe Workfront レビューツールを使用したインタラクティブコンテンツのレビュー
 
@@ -23,7 +23,11 @@ Adobe Workfront レビューツールは、ZIP ファイルまたは URL を使�
 * Chrome
 * Edge
 
-Figma など、iFrame でサイトを開くことができない web サイトの場合は、デスクトッププルーフビューアを使用することをお勧めします。
+確認する必要があるコンテンツが Web サイト上にある場合は、デスクトッププルーフビューアを使用することをお勧めします。
+
+* SSO 認証が必要
+* Figma など、iFrames でサイトを開くイベント
+
 
 
 ## Adobe Workfront レビューツールを URL と ZIP 配達確認のデフォルトビューアにする
@@ -69,7 +73,3 @@ Web レビューツールを zip 配達確認にのみ使用するには、Workf
 >[!IMPORTANT]
 >
 >Adobe Workfront レビューツールを使用するには、従来の Web ビューア拡張機能を削除する必要があります。
-
-
-
-

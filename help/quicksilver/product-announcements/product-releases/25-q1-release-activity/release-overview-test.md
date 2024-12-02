@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d5f21f3568f72273aa0843a45b17053fc9ebf727
+source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1154'
 ht-degree: 24%
 
 ---
@@ -38,6 +38,7 @@ ht-degree: 24%
 
 <table>
 <col style="width: 20%;" />
+<col style="width: 50%;" />
 <tbody>
     <tr>
     <td>エリア</td>
@@ -89,7 +90,6 @@ ht-degree: 24%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             カスタムフィールドに「移動先」アイコンが追加されました</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
         </td>
         <td>2024年10月29日（PT）</td>
@@ -173,8 +173,6 @@ ht-degree: 24%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            カスタムフィールドに「移動先」アイコンが追加されました</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
         </td>
         <td>2024年10月29日（PT）</td>
