@@ -7,13 +7,13 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
-source-git-commit: 89c5ed4d73d875fcbb56287ad51859dc8f4bc5ff
+exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
+source-git-commit: 6abe9f371d8121ccbd66a379ad4b25f47417d885
 workflow-type: tm+mt
 source-wordcount: '1991'
 ht-degree: 1%
 
 ---
-
 
 # レビューおよび承認用のレポートダッシュボードの作成
 
@@ -344,9 +344,3 @@ KPI とグラフを使用して、ドキュメントの承認に関する高レ�
       ![ 承認待ちテーブルのフィルターの例 ](assets/approvals-ive-submitted-filter.png)
 1. 画面の右上隅にある「**完了**」をクリックします。
 +++
-
-
-
-
-
-
