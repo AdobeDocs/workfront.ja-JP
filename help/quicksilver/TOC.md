@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 301f8c1b55a91a93616f59e2f530ac51a3696cbf
+source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
 workflow-type: tm+mt
-source-wordcount: '14647'
+source-wordcount: '14666'
 ht-degree: 91%
 
 ---
@@ -2240,6 +2240,7 @@ ht-degree: 91%
       * [Adobe Workfront Fusion で組織にユーザーを追加する](workfront-fusion/organizations/add-user-to-an-organization.md)
       * [Adobe Workfront Fusion でのユーザー管理](workfront-fusion/organizations/manage-fusion-users.md)
       * [Adobe Workfront Fusion での組織の役割](workfront-fusion/organizations/organization-roles.md)
+      * [Adobe Workfront Fusion での組織のアクティビティログの表示](/help/quicksilver/workfront-fusion/organizations/view-activity-logs-for-an-org.md)
    * Adobe Workfront Fusion のシナリオ {#scenarios-in-fusion}
       * [Adobe Workfront Fusion のシナリオ](workfront-fusion/scenarios/scenarios.md)
       * [Adobe Workfront Fusion のシナリオの概要](workfront-fusion/scenarios/scenario-overview.md)
@@ -2258,6 +2259,7 @@ ht-degree: 91%
       * [Adobe Workfront Fusion のシナリオへのフィルターの追加](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
       * [Adobe Workfront Fusion 開発ツールを使用したシナリオのデバッグ](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [AI を使用したシナリオセグメントの生成](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
+      * [Adobe Workfront Fusion でシナリオスコアリングエキスパートを実行します](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
       * Adobe Workfront Fusion のシナリオテンプレート {#fusion-scenario-templates}
          * [シナリオのテンプレート](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] テンプレートの概要](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)

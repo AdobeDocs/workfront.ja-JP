@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: e2c8af4428fa7ef910dad3a29abcc375760855cb
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 92%
+source-wordcount: '149'
+ht-degree: 87%
 
 ---
 
@@ -45,3 +45,9 @@ ht-degree: 92%
 * [ [!DNL Adobe Workfront Fusion] へのモジュールまたはシナリオのコピー](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
 * [シナリオ内の新しいバージョンにモジュール  [!DNL Adobe Workfront Fusion]  更新](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [ [!DNL Adobe Workfront Fusion] でのロックされたシナリオの表示と管理](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
+* [Adobe Workfront Fusion でシナリオスコアリングエキスパートを実行します](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+
+
+
+
+
