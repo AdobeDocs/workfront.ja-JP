@@ -6,7 +6,7 @@ description: 自分が作成したオブジェクトや自分と共有された�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
-source-git-commit: 56b5791fc2e4f875052692c285f43ff03fe91ea9
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '1182'
 ht-degree: 96%
@@ -166,6 +166,7 @@ Workfront のオブジェクトの階層と相互依存関係について詳し�
 オブジェクト上のユーザーのグループに対して管理権限を付与し、同じオブジェクト上でそのグループ内の個々のユーザーに対して表示権限を付与すると、そのユーザーはオブジェクト上のグループメンバーシップを通して最高レベルの権限（管理）を付与されます。 
 
 権限レベルが高い組織単位（グループ、チーム、担当業務、または会社）に既に属するユーザーに低い権限を付与する場合は、組織単位から権限を削除し、低い権限を持つユーザーを個別に追加する必要があります。
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

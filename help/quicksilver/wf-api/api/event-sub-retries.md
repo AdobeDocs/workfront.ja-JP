@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: b698cb60-4cff-4ccc-87d7-74afb5badc49
-source-git-commit: 0325d305c892c23046739feff17d4b1fc11100cc
+source-git-commit: 05f8dc8770c185720520fc631e19c75b925a70bf
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 63%
@@ -40,6 +40,7 @@ ht-degree: 63%
 * 購読 URL が 2,000 回以上連続してエラーが発生し、最後の成功が 72 時間以上あった場合、または任意の期間に 50,000 回連続してエラーが発生した場合、購読 URL は **フリーズ** されます。
 * **無効** の購読 URL は、引き続き 10 分ごとに配信を試み、配信が成功すると再度有効になります。
 * **フリーズ** された購読 URL は、API リクエストを行って手動で有効にしない限り、配信を試みません。
+
 
 
 
