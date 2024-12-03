@@ -3,17 +3,19 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: オブジェクトへのアクセスをリクエスト
 description: Adobe Workfront でのオブジェクトの表示は、そのタイプのオブジェクトに対するアクセス権と、個々のオブジェクトに対する権限によって異なります。
-author: Alina
+author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 968f17721477a4a4c545a553d24de1855388d585
+source-git-commit: dbdcebe0fae91e7b688cad4fd11bd5aaafe51d3b
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 95%
+source-wordcount: '1454'
+ht-degree: 90%
 
 ---
 
 # オブジェクトへのアクセスをリクエスト
+
+{{preview-fast-release-general}}
 
 Adobe Workfront でのオブジェクトの表示は、そのタイプのオブジェクトに対するアクセス権と、個々のオブジェクトに対する権限によって異なります。
 
@@ -92,14 +94,18 @@ Workfront 内の特定のオブジェクトに権限が必要な場合は、そ�
 1. 「**アクセスをリクエスト**」をクリックします。\
    「**アクセスをリクエスト**」ダイアログボックスが表示されます。
 
-1. （条件付き）複数のユーザーが追加アクセスを許可するための適切なアクセス権を持っている場合、ユーザー名の横にドロップダウン矢印が表示されます。
-1. ドロップダウンリストから、アクセスリクエストを受け取るユーザーを選択します。\
+1. （条件付き）複数のユーザーが追加のアクセス権を付与するための適切なアクセス権を持っている場合、ユーザー名の横にドロップダウン矢印が表示されます。 アクセスリクエストを受信するユーザーをドロップダウンリストから選択します。
+
    ドロップダウンリストには 10 人のユーザーのみが表示されます。リストはアルファベット順に並べ替えられます。\
    このドロップダウンメニューに表示されるユーザーの順序について詳しくは、[「アクセスを要求」と「さらにアクセスを要求する」のドロップダウンメニューの階層](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus)を参照してください。
 
 1. ドロップダウンリストから、リクエストするアクセスのタイプを選択します。
 1. （オプション）「**P.S.**」フィールドに、追加アクセスが必要な理由についてユーザーへのメモを指定します。
 
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![ アクセスをリクエストダイアログボックス ](assets/request-access-to-project.png)
+
+   実稼動環境のサンプル画像：
    ![](assets/request-access-dialog-350x314.png)
 
 オブジェクトに対するアクセスレベル権限を持っていない状態で、リンクからそのオブジェクトにアクセスしようとすると、Workfront 管理者に問い合わせるよう通知する画面が表示されます。
@@ -115,7 +121,7 @@ Workfront 内の特定のオブジェクトに権限が必要な場合は、そ�
 
 1. プロジェクト名の右にある&#x200B;**その他**&#x200B;メニューをクリックして、「**さらにアクセスを要求する**」をクリックします。
 
-   ![](assets/request-access-in-project-350x201.png)
+   ![ さらにアクセスを要求 ](assets/more-menu-request-more-access.png)
 
 1. （条件付き）複数のユーザーが追加アクセスを許可するための適切なアクセス権を持っている場合、ユーザー名の横にドロップダウン矢印が表示されます。
 1. ドロップダウンリストから、アクセスリクエストを受け取るユーザーを選択します。\
@@ -124,7 +130,12 @@ Workfront 内の特定のオブジェクトに権限が必要な場合は、そ�
 
 1. ドロップダウンリストから、要求するアクセスレベルを選択します。
 1. （オプション）「**P.S.**」フィールドで、追加のアクセス権が必要な理由に関するメモを指定します。
-1. 「**アクセスの要求**」をクリックします。\
+1. 「**アクセスの要求**」をクリックします。
+
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![ アクセスをリクエストダイアログボックス ](assets/request-access-to-project.png)
+
+   実稼動環境のサンプル画像：
    ![](assets/request-access-dialog-350x314.png)
 
 ## 「アクセスの要求」および「さらにアクセスを要求する」ドロップダウンメニューの階層 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
