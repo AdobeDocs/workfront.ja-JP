@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 1cb0a3380d21d5fe3fb2eb40c5f19ec64d8bbbb4
+source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
 workflow-type: tm+mt
-source-wordcount: '1154'
-ht-degree: 24%
+source-wordcount: '1388'
+ht-degree: 21%
 
 ---
 
@@ -126,7 +126,7 @@ ht-degree: 24%
 
 ### 管理者機能の強化
 
-<table style="table-layout:auto">
+<table>
 <col style="width: 50%;" />
 <tbody>
     <tr>
@@ -243,6 +243,53 @@ ht-degree: 24%
 </tbody>
 </table>
 
+### ドキュメント管理の機能強化
+
+
+<table>
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><span class="bold">機能</span></p>
+        </td>
+        <td>プレビュー</td>
+        <td>迅速リリース</td>
+        <td>四半期ごと</td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            単一割り当てタスクにプロジェクトまたはユーザースケジュールを使用するための環境設定</a></p>
+            <p>1 人のユーザーをタスクに割り当て、プロジェクトとユーザーの両方がスケジュールに関連付けられている場合に、Workfrontがプロジェクトのスケジュールを使用してプロジェクトのタイムラインを計算するかどうかを示す新しい環境設定が追加されました。</p>
+        </td>
+        <td><p>2024 年 11 月 16 日（Pt）</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td>2024 年 12 月</td>
+        <td>25.1</td>
+    </tr>     
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            ビジネスルールでハイパーリンクがサポートされるようになりました</a></p>
+            <p>ビジネス ルールのカスタム エラーメッセージにハイパーリンクを含めて、ルールの制約内でアクションを変更する方法をユーザーに示すことができるようになりました。 静的 URL は、ユーザーに役立つドキュメントやその他のページにリンクできます。</p>
+        </td>
+        <td>11 月 14 日（Pt） </td>
+        <td><p>11 月 14 日（Pt）</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
+        <td><p>11 月 14 日（Pt）</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
+    </tr>    
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            カスタムフィールドに「移動先」アイコンが追加されました</a></p>
+            <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
+        </td>
+        <td>10 月 29 日（Pt）</td>
+          <td><p>2024年12月</p><p> [!BADGE In Production for Fast Release ]{type=Positive}</p></td>
+        <td>25.1<p> [!BADGE In Production]{type=Positive}</p></td>
+    </tr>
+</tbody>
+</table>
+
 <!--
 ### Functionality soon to be removed from Workfront
 
@@ -253,6 +300,9 @@ The following functionality is soon to be removed from Workfront:
 
 * [Adobe Workfront Fusion リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 * [Adobe Workfrontの 2025 年第 1 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)。
+
+このリリースの現時点では、次の更新はありません。
+
 * シナリオプランナー
 * プルーフ
 * Goals
