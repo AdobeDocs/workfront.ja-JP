@@ -6,18 +6,67 @@ title: Workfront Fusion の AI アシスタント
 description: Workfront Fusion の AI アシスタント
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
-source-git-commit: ea7ad91e329ac88fac74a3e2c57f5955682ea73e
+exl-id: 99d614da-e900-448b-ab80-13f002638670
+source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 0%
+source-wordcount: '283'
+ht-degree: 17%
 
 ---
 
 # Workfront Fusion の AI アシスタント
 
 AI アシスタントは、Workfrontのドキュメントから情報を見つけることができるため、必要なヘルプを受けるためにAdobe Experience Leagueにアクセスする必要がなくなります。
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事で説明している機能を使用するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td>
+   <td> <p>新規：任意</p> <p>または</p> <p>現在：使用できません</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td> <p>新規：[!UICONTROL Standard]</p><p>または</p><p>現在：使用できません</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] ライセンス**</td> 
+   <td>
+   <p>現在：[!DNL Workfront Fusion] ライセンスは必要ありません。</p>
+   <p>または</p>
+   <p>レガシー：任意 </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">製品</td> 
+   <td>
+   <p>新規：[!DNL Workfront Fusion] は Ultimate Workfront プランに含まれます。</p> <p>または</p>
+   <p>現在：使用できません</p>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+[!DNL Adobe Workfront Fusion] ライセンスについて詳しくは、[[!DNL Adobe Workfront Fusion] ライセンス](../../workfront-fusion/get-started/license-automation-vs-integration.md)を参照してください。
+
++++
+
+
+
+## 前提条件
+
+Adobeは、ファイルに署名済みのAdobe生成 AI 契約が必要です。
+
+契約への署名について詳しくは、Workfront ドキュメントの AI アシスタントの概要の記事の [Adobe生成 AI 契約への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
 
 ## AI アシスタントから情報を取得
 
@@ -31,7 +80,3 @@ AI アシスタントを使用してWorkfront ドキュメントから情報や�
 1. 応答を AI アシスタント パネルに表示します。
 1. （オプション）応答に必要な情報が含まれていない場合は、応答を調整して再試行してください。
 1. （オプションおよび条件付き）応答にAdobe Experience League記事へのリンクが含まれている場合は、リンクをクリックして新しいウィンドウで記事を開きます。
-
-
-
-

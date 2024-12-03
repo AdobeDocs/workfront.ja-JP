@@ -2,17 +2,15 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: シナリオスコアリングエキスパートの実行
-description: ' [!DNL Adobe Workfront Fusion] でのロックされたシナリオの管理'
+title: Adobe Workfront Fusion でシナリオスコアリングエキスパートを実行します
+description: シナリオスコアリングエキスパートは、ベストプラクティスに従ってシナリオが確実に設定されるようにするのに役立ちます。 シナリオをチェックし、構造と組織に関する推奨事項を提供します。
 author: Becky
 feature: Workfront Fusion
-hide: true
-hidefromtoc: true
 exl-id: 144c8dbd-a3e9-4267-b3db-0768dac8f384
-source-git-commit: 7bc49dcd8988ef7fd781fb88eba5b03576ca7054
+source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
 workflow-type: tm+mt
-source-wordcount: '295'
-ht-degree: 26%
+source-wordcount: '327'
+ht-degree: 22%
 
 ---
 
