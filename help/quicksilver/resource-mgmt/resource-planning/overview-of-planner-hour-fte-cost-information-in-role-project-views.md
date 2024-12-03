@@ -7,10 +7,10 @@ description: リソースプランナーのプロジェクトビューと役割�
 author: Lisa
 feature: Resource Management
 exl-id: 76de1945-3f19-4c91-801c-07dc79e646ad
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: c9e77e11fafbf224639289977783e95ccb45a9e2
 workflow-type: tm+mt
-source-wordcount: '2977'
-ht-degree: 98%
+source-wordcount: '3086'
+ht-degree: 94%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 98%
 * [VAR（差異）列](#the-var-variance-column)
 * [NET 列](#the-net-column)
 
-### AVL（利用可能）列 {#the-avl-available-column}
+### 「AVL （使用可能）」列 {#the-avl-available-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -140,7 +140,7 @@ ht-degree: 98%
 
 
 
-### 「PLN（予定）」列 {#the-pln-planned-column}
+### PLN（予定）列 {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,7 +190,7 @@ ht-degree: 98%
 * タスクの期間が 0 の場合、予定時間数はリソースプランナーに表示されません。
 * 非アクティブ化されたユーザーに関連付けられた予定時間数は表示されません。
 
-### BDG（予算）列 {#the-bdg-budgeted-column}
+### BDG （予算計上）列 {#the-bdg-budgeted-column}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -217,12 +217,6 @@ ht-degree: 98%
 
 予算計上時間数を使用する際は、次の点を考慮してください。
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(Duplicated below ??)
-</MadCap:conditionalText>
--->
-
 * リソースを予算計上できるのは、プロジェクトに対するリソース管理、財務データの編集および財務管理の権限を持っている場合のみです。
 
   リソース予算計上に必要なアクセス権について詳しくは、[Adobe Workfront でのリソース予算計上に必要なアクセス権](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md)の記事を参照してください。
@@ -232,17 +226,25 @@ ht-degree: 98%
   プロジェクトと役割のオプションについて詳しくは、[リソースプランナーのプロジェクトビューと役割ビューの時間、FTE、コスト情報の概要](#Budget)を参照してください。
 
 * 時間数、FTE、コストを予算計上できる最短の期間は 1 週間です。 1 日の時間、FTE、コストを予算計上することはできません。
-* 予算計上時間数は、タスクの期間内の各日に、タスクに割り当てられたリソースに対して均等に配分されます。タスク期間は、タスクの予定開始日と完了日に基づき、その期間内のすべてのカレンダー日が含まれます。\
-  Workfront では、ユーザーまたはプロジェクトに予算計上時間数を配分する際に、ユーザーまたはプロジェクトのスケジュールが考慮されます。この場合、予算計上時間数は、週末を除くタスク期間内の各日に均等に配分されますが、休日やスケジュールの例外も含まれます。\
+* 予算計上時間数は、タスクの期間内の各日に、タスクに割り当てられたリソースに対して均等に配分されます。タスク期間は、タスクの予定開始日と完了日に基づき、その期間内のすべてのカレンダー日が含まれます。
+
+  Workfront では、ユーザーまたはプロジェクトに予算計上時間数を配分する際に、ユーザーまたはプロジェクトのスケジュールが考慮されます。この場合、予算計上時間数は、週末を除くタスク期間内の各日に均等に配分されますが、休日やスケジュールの例外も含まれます。
+
   例えば、リソースプランナーを週別に表示し、複数週にわたるタスクがある場合、1 週間あたりの予定時間数は、その週内のタスク期間に含まれる日数によって異なります。週末はこの配分から除外されます。 この動作は、月別または四半期別でリソースプランナーを表示する場合や、タスクが複数の月または四半期にまたがる場合と同様です。
 
-* 新規レポートのレポートオブジェクトとして予算計上時間数を選択すると、予算計上時間数についてレポートを作成できます。\
-  Workfront でレポートできるオブジェクトについて詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事の「オブジェクトに関するレポート」の節を参照してください。\
+* 新規レポートのレポートオブジェクトとして予算計上時間数を選択すると、予算計上時間数についてレポートを作成できます。
+
+  Workfront でレポートできるオブジェクトについて詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)の記事の「オブジェクトに関するレポート」の節を参照してください。
+
   予算計上時間数のレポートの作成方法については、[レポート：予算計上時間数](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md)の記事を参照してください。
 
 * 後で非アクティブ化したユーザーに対して、以前に予算計上された時間は表示されません。
 
-### VAR（平方偏差）列 {#the-var-variance-column}
+  プロジェクトの予算計上労力コストには、リソースプランナーで非アクティブ化されたユーザーの予算計上時間がまだ含まれていることに注意してください。
+
+  例えば、役割が 2 人のユーザーに割り当てられ、予算計上時間が追加され（ユーザーあたり 20 時間、合計 40 時間）、その役割の合計が手動で設定された場合、リソースプランナー内のいずれかのユーザーを無効化すると、そのユーザーの時間は計算に考慮されなくなります（合計を 20 時間に削除します）。 ただし、プロジェクト予算計上では、役割に手動で設定された合計が正しく保持されるので、非アクティブ化されたユーザーの時間は引き続き計算に含まれます（40 時間残り）。
+
+### VAR （差異）列 {#the-var-variance-column}
 
 <table style="table-layout:auto"> 
  <col> 
