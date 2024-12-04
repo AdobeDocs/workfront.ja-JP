@@ -7,16 +7,18 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d92dc8581bef1f5fdbef7a853ac27ffc3fa7ddbe
+source-git-commit: 6844e1cef741b60f0d2663ddb9bc9038ec88714d
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 96%
+source-wordcount: '757'
+ht-degree: 94%
 
 ---
 
 # イベントサブスクリプションリソースフィールド
 
 イベントサブスクリプションリソースフィールドは、イベントサブスクリプションで設定済みのエンドポイントにアウトバウンドメッセージを送信するイベントのトリガーを表します。リソースフィールドが編集されると、UPDATE イベントがトリガーされます。
+
+データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [ ネストされたフィルターの使用 ](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
 
 次の表に、イベントサブスクリプションリソースで使用できるフィールドを示します。
 
