@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
 workflow-type: tm+mt
 source-wordcount: '1769'
 ht-degree: 3%
@@ -77,7 +77,7 @@ CSV または Excel ファイルを読み込むことで、新しいレコード
 
 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
 
-## 接続されたビューページをレコードのページに追加して、接続されたレコードをテーブルビューに表示する
+## 接続ビューページをレコードのページに追加して、接続されたレコードをテーブルビューに表示します
 
 >[!NOTE]
 >
