@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: 7a1df83c0dd7ddf7dd6cf41643ba65c5903d6eba
+source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
 workflow-type: tm+mt
-source-wordcount: '4419'
+source-wordcount: '4383'
 ht-degree: 97%
 
 ---
@@ -26,10 +26,6 @@ Workfront スキーマに精通していれば、統合のために Workfront �
 Workfrontのオンデマンドシステムパフォーマンスで一貫したパフォーマンスを確保するために、Workfront API では同時 API スレッドを制限しています。 このガードレールは、不正な API 呼び出しに起因するシステムの問題を防ぎます。 サンドボックス環境には、同じ同時 API スレッド制限が設定されているので、お客様とパートナーがコードを実稼動環境にリリースする前に API 呼び出しを正確にテストできます。
 
 実稼動、プレビューおよび体験版の環境では、エンドユーザーのリクエストは Workfront CDN（Akamai）を介してルーティングされるので、URI の最大長は 8892 バイトとなります。この制限は、CDN 経由でルーティングされる URI にのみ適用されます。
-
->[!NOTE]
->
->サンドボックス環境は CDN を通じてルーティングされないので、この制限はサンドボックス環境には適用されません。
 
 ### 免責事項
 
@@ -110,14 +106,6 @@ API はリクエストごとに認証を行い、リクエストされたオブ�
 ```
 GET /attask/api/v15.0/project/search
 SessionID: abc1234
-```
-
-#### リクエストパラメーター認証
-
-次の例に示すように、sessionID という名前のリクエストパラメーターを渡すことで認証できます。
-
-```
-GET /attask/api/v15.0/project/4c78821c0000d6fa8d5e52f07a1d54d0?sessionID=abc1234
 ```
 
 #### Cookie ベースの認証
