@@ -4,10 +4,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: 個人の休暇の設定
 description: 承認された休暇がいつ発生するかを Adobe Workfront で表示することが重要です。これはスケジュールに影響し、割り当てられているタスクの予定完了日に影響を与えるからです。
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 16a34e4315d508e31859e962edd01026d01ee193
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '394'
 ht-degree: 100%

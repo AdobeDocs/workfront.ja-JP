@@ -3,12 +3,12 @@ product-area: user-management
 navigation-topic: manage-your-workfront-account
 title: 拡張認証を使用したユーザーのパスワードのリセット
 description: ' [!DNL Workfront] 環境に対して拡張認証（eAuth）が有効になっている場合、 [!DNL Workfront] 管理者は、別のユーザーのログイン資格情報をリセットできません。これは、eAuth のない  [!DNL Workfront] 環境、またはシングルサインオン（SSO）が有効になっている環境とは異なります。'
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
 workflow-type: tm+mt
 source-wordcount: '203'
 ht-degree: 100%
