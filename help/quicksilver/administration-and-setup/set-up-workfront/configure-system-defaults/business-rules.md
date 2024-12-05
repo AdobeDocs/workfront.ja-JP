@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1269'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,10 @@ IF ステートメントについて詳しくは、[ 「IF」ステートメン�
 
 日付ベースのワイルドカードについて詳しくは、[ 日付ベースのワイルドカードを使用してレポートを一般化する ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md) を参照してください。
 
-API ワイルドカードは、ビジネス・ルールでも使用できます。 `$$ISAPI` を使用して、UI または API でのみルールをトリガーできます。
+API ワイルドカードは、ビジネス・ルールでも使用できます。 `$$ISAPI` を使用して、API でのみルールをトリガーします。 `!$$ISAPI` を使用して、ユーザーインターフェイスでのみルールを適用し、ユーザーが API を使用してルールをバイパスできるようにします。
+
+* 例えば、このルールでは、API を使用して完了したプロジェクトをユーザーが編集することを禁止しています。 ワイルドカードを使用しない場合、ルールはユーザーインターフェイスと API の両方でアクションをブロックします。
+  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
 
 `$$BEFORE_STATE` と `$$AFTER_STATE` のワイルドカードは、編集の前後でオブジェクトのフィールド値にアクセスするための式で使用されます。
 
