@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
 source-wordcount: '1397'
 ht-degree: 15%
@@ -131,7 +131,7 @@ ht-degree: 15%
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. 「**作成**」をクリックします。選択したレコードタイプのリクエストフォームが開きます。
+1. 「**作成**」をクリックします。選択したレコードタイプのリクエストフォームが <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.--> で開きます。
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -156,7 +156,6 @@ ht-degree: 15%
    >    * <span class="preview">People </span>
    >    * <span class="preview">Workfront オブジェクトの接続されたフィールド </span>
    >    * <span class="preview">AEM Assets接続フィールド </span>
-
 
 
    * **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。
@@ -190,6 +189,16 @@ ht-degree: 15%
    カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 1. （オプション） **プレビュー** をクリックして、他のユーザーが新しいレコードを送信する際にフォームを使用する際のフォームの表示方法を表示します。
+
+   <!--
+   <div class="preview">
+   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
+      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
+      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
+   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
+   </div>
+   -->
+
 1. （オプション）ヘッダーのフォーム名の右 ![](assets/more-menu.png) にある **詳細** メニューをクリックしてから、**編集** をクリックしてフォームの名前を更新します。
 1. **Publish** をクリックしてフォームを公開し、フォームの一意のリンクを取得します。
 

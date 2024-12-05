@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
+source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
 workflow-type: tm+mt
-source-wordcount: '4287'
-ht-degree: 58%
+source-wordcount: '4370'
+ht-degree: 57%
 
 ---
 
@@ -210,7 +210,12 @@ OLD:
    任意の列のヘッダーにポインタを合わせ、フィールド名の後の下向き矢印をクリックしてから、「**左に挿入** または **右に挿入** をクリックして新しいフィールドを追加します。
 1. 「**新しいフィールド**」タブで、「**フィールドタイプ**」ボックスからフィールドタイプを検索するか、次のフィールドタイプの中から選択します。
 
-   「**新規フィールド**」タブで、「**フィールドタイプ**」ボックス <!--using any related keyword--> ックスでフィールドタイプを検索するか、以下に示すフィールドタイプから選択します。
+   「**新規フィールド**」タブで、関連するキーワードを使用して「**フィールドタイプ**」ボックスでフィールドタイプを検索するか、以下に示すフィールドタイプから選択します。
+
+   >[!TIP]
+   >
+   >    「予算」と入力すると、「数値」と「通貨」のフィールドタイプが短いリストに表示されます。
+
 
 
    * [1 行テキスト](#single-line-text)
@@ -299,15 +304,13 @@ OLD:
 1. （オプション）選択肢を削除するには、右側の「**x**」アイコンをクリックします。
 1. 選択肢の左側にあるカラースウォッチをクリックしてカラーセレクターを展開し、各オプションの色をカスタマイズします。
 
-   <!--
-    1. <span class="preview">Click **Swatches** to select a predefined color</span>
+1. <span class="preview"> 定義済みの色を選択するには、**スウォッチ** をクリック </span>
 
-        <span class="preview">Or</span>
+   <span class="preview">または</span>
 
-        <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-        </span>
-    1. <span class="preview:>Click outside the color box to close it. </span>     
-    -->
+   <span class="preview"> 「**カスタム**」をクリックすると、カラーピッカーまたは 16 進コードを使用してカスタムカラーを選択できます。
+   </span>
+1. カラーボックスの外側をクリックして閉じます。
 1. 「**作成**」をクリックします。
 
    新しい複数選択フィールドが列としてレコードタイプに追加され、その値をレコードに関連付けることができます。
@@ -330,16 +333,13 @@ OLD:
 1. （オプション）各選択肢を希望の順序で手動でドラッグ＆ドロップするか、選択肢を自動的にアルファベット順に表示する場合は、「**A ～ Z の順に選択肢を並べ替える**」オプションを選択します。<!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. （オプション）選択肢を削除するには、右側の「**x**」アイコンをクリックします。
 1. 選択肢の左側にあるカラースウォッチをクリックしてカラーセレクターを展開し、各オプションの色をカスタマイズします。
+1. <span class="preview"> 定義済みの色を選択するには、**スウォッチ** をクリック </span>
 
-   <!--
-        1. <span class="preview">Click **Swatches** to select a predefined color</span>
+   <span class="preview">または</span>
 
-            <span class="preview">Or</span>
-
-            <span class="preview">Click **Custom** to select a custom color using a color picker or a Hex code. 
-            </span>
-        1. <span class="preview:>Click outside the color box to close it. </span>     
-        -->
+   <span class="preview"> 「**カスタム**」をクリックすると、カラーピッカーまたは 16 進コードを使用してカスタムカラーを選択できます。
+   </span>
+1. カラーボックスの外側をクリックして閉じます。
 1. 「**作成**」をクリックします。
 
    新しい単一選択フィールドが列としてレコードタイプに追加され、その値をレコードに関連付けることができます。

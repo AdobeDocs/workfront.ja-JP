@@ -2,16 +2,16 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: ルーティングルールの作成
-description: ルーティングルールは、イシューがリクエストキューに送信される際に、Adobe Workfront がイシューに対して行う処理を制御します。リクエストキューの作成について詳しくは、リクエストキューの作成を参照してください。
-author: Lisa
+description: ルーティングルールは、Adobe Workfrontがリクエストキューに送信される際にイシューに対して行う処理を制御します。
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 97%
+source-wordcount: '504'
+ht-degree: 85%
 
 ---
 
@@ -27,65 +27,32 @@ ht-degree: 97%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-<!--drafted - replace the table at P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-この記事の手順を実行するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>
-    <p>新規：標準</p>
-    <p>または</p>
-    <p>現在：プラン</p></td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規のライセンス：標準 </p> 
+   または
+   <p>現在のライセンス：プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td>
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>プロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p> プロジェクトの管理権限</p> </td>
+   <td> <p> プロジェクトの管理権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -93,7 +60,9 @@ ht-degree: 97%
 
 1. リクエストのルーティングルールを追加するプロジェクトに移動します。
 1. 左側のパネルで「**ルーティングルール**」をクリックします。場合によっては、「**さらに表示**」をクリックして、「**ルーティングルール**」をクリックする必要があります。
-1. 「**新規ルーティングルール**」をクリックして、新しいルールを追加します。
+1. **新規ルーティングルール** をクリックして、新しいルールを追加します。 「**新規ルーティング規則**」ボックスが開きます。
+
+   ![新規ルーティングルールボックス](assets/new-routing-rule-box.png)
 1. ルーティングルールに次の情報を入力します。
 
    <table style="table-layout:auto"> 
@@ -136,8 +105,6 @@ ht-degree: 97%
    >*ユーザー、担当業務またはチームがルーティングルールに関連付けられた後に非アクティブ化された場合、リクエストは引き続きユーザー、担当業務またはチームにルーティングされます。すべてのルーティングルールのインベントリを定期的に取得し、非アクティブ化された割り当てをアクティブな割り当てに置き換える必要があります。
 
    プロジェクトにイシューをルーティングすると、そのイシューに対する権限を持つユーザーは、そのプロジェクトに設定された権限を受け取ります。プロジェクトでの権限の設定について詳しくは、[Adobe Workfront でのプロジェクトの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)を参照してください。
-
-   ![新規ルーティングルールボックス](assets/new-routing-rule-box.png)
 
 1. 「**保存**」をクリックします。
 
