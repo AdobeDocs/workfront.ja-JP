@@ -8,9 +8,9 @@ description: シナリオの作成やアクティブ化など、組織のアク�
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 1694d54c8b2d6ee3707e8e8bcb3b394c1dfa7a48
+source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '528'
 ht-degree: 9%
 
 ---
@@ -47,11 +47,14 @@ ht-degree: 9%
    <p>レガシー：任意 </p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>アクティビティログを使用するには、Fusion 管理者である必要があります。</p></td> 
+  </tr> 
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>新規：[!DNL Workfront Fusion] は Ultimate Workfront プランに含まれます。</p> <p>または</p>
-   <p>現在：使用できません</p>
+   <p>この機能は、[!DNL Workfront Fusion] を含む Ultimate Workfront プランを使用する組織のみが使用できます。 追加の製品購入は必要ありません。</p>
    </td> 
   </tr>
  </tbody> 
