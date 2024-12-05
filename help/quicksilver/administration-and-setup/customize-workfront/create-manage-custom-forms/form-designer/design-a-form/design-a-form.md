@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 5ebb756ba2f054c37d486d7f54a9f86cf8513328
+source-git-commit: e049ab7d27cf5eced12a43c3a2c08887a7c206ad
 workflow-type: tm+mt
-source-wordcount: '6537'
+source-wordcount: '6524'
 ht-degree: 77%
 
 ---
@@ -750,11 +750,11 @@ The Workfront Mobile app -->
 
    「**保存して閉じる**」をクリックします。
 
-#### ドキュメント領域からカスタムフォームにビデオウィジェットを追加{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### 「ドキュメント」領域からカスタムフォームに画像やビデオを追加{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
->この方法でビデオをカスタムフォームに追加する場合、ユーザーがオブジェクトのフォームにアクセスするときは、カスタムフォームに設定された権限のみがビデオに適用され、ドキュメントエリアのビデオに設定された権限は適用されません。
+>この方法でカスタムフォームにビデオを追加すると、ユーザーがオブジェクトのフォームにアクセスしたときに、ドキュメント エリアで設定された権限がビデオに適用されます。
 
 1. [Web サイトまたはその他の web コンテンツ用のインタラクティブなプルーフの作成](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)の説明にあるように、ドキュメントエリアのビデオに移動し、そのプルーフを生成します。
 1. プルーフを開きます。
