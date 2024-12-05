@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1651'
 ht-degree: 35%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 35%
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2024年11月21日（PT）</li>
-                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月）</li>
+                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月 12 日（PT））</li>
                 <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
             </ul>
         </td>
@@ -80,7 +80,7 @@ ht-degree: 35%
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2024年11月21日（PT）</li>
-                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月）</li>
+                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月 12 日（PT））</li>
                 <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
             </ul>
         </td>
@@ -95,7 +95,7 @@ ht-degree: 35%
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2024年11月21日（PT）</li>
-                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月）</li>
+                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月 12 日（PT））</li>
                 <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
             </ul>
         </td>
@@ -175,7 +175,7 @@ ht-degree: 35%
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2024年11月21日（PT）</li>
-                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月）</li>
+                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月 12 日（PT））</li>
                 <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
             </ul>
         </td>
@@ -212,6 +212,21 @@ ht-degree: 35%
         </td>
         <td>
             <p><span class="bold">リリース日</span></p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            優先度からプロジェクトの詳細ページに移動する</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>優先度ワークリストからWorkfrontのプロジェクトに直接移動できるようになりました。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2024年12月5日（PT）</li>
+                <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
+            </ul>
         </td>
     </tr>
     <tr>
@@ -353,7 +368,7 @@ ht-degree: 35%
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2024年11月11日（PT）</li>
-                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月）</li>
+                <li>迅速リリースの実稼動：24.12 リリースの場合（2024 年 12 月 12 日（PT））</li>
                 <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
             </ul>
         </td>

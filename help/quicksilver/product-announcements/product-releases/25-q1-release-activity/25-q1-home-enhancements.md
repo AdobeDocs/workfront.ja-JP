@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 8b69fc1e20ad255cb9874b70289fc11dcb03cdb0
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 33%
+source-wordcount: '239'
+ht-degree: 26%
 
 ---
 
@@ -17,6 +17,16 @@ ht-degree: 33%
 このページでは、2025 年第 1 四半期のリリースで行われたプレビュー環境へのすべてのホームの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
+
+## 優先度からプロジェクトの詳細ページに移動する
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 12 月 5 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースの場合（2025 年 1 月）
+
+優先度ワークリストからWorkfrontのプロジェクトに直接移動できるようになりました。
+
+詳しくは、[ プロジェクトとタスクの詳細の表示：優先度ワークリスト ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md) を参照してください。
 
 ## 優先度のマイフォーカス列のオプションを更新しました
 

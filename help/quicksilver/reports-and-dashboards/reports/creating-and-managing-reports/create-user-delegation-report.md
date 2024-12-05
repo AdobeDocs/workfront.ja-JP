@@ -7,10 +7,10 @@ description: ユーザーのデリゲーションレポートの作成
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 95%
+source-wordcount: '326'
+ht-degree: 92%
 
 ---
 
@@ -55,28 +55,38 @@ Adobe Workfront では、ユーザーがプロジェクト、タスクおよび�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準 </p>
-   <p>現在：プラン </p> </td> 
+      <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>承認がデリゲートされた項目とデリゲーションに関係するユーザーに対する権限の表示</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>承認がデリゲートされた項目とデリゲーションに関係するユーザーに対する権限の表示</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
 +++
 
 ## ユーザーのデリゲーションレポートの作成
 
 1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**レポート**」をクリックします。
 
-1. 「**新規レポート**」をクリックし、「**ユーザーのデリゲーション**」を選択します。\
+1. 「**新規レポート**」をクリックし、「**ユーザーのデリゲーション**」を選択します。
+
    ![](assets/classic-new-report-user-delegation-350x644.png)
 
    次のフィールドは、デフォルトでこのレポートに表示されます。

@@ -6,10 +6,10 @@ description: Adobe Workfront データは、様々なリスト、レポート、
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2255'
-ht-degree: 95%
+source-wordcount: '2247'
+ht-degree: 94%
 
 ---
 
@@ -61,9 +61,14 @@ Workfront インターフェイスからレポートを手動で書き出すこ�
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-    <p>新規：ライト以上</p>
-    <p>または</p>
-    <p>現在：レビュー以上</p> </td> 
+    <p>新規：</p>
+      <ul>
+      <li>ライト以上</li>
+      </ul>
+    <p>現在：</p>
+      <ul>
+      <li>レビュー以上</li>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -76,7 +81,7 @@ Workfront インターフェイスからレポートを手動で書き出すこ�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

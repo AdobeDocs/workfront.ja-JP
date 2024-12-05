@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '402'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ Experience Manager AssetsとAssets EssentialsのAdobe Workfront統合を使用�
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 11 月 11 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月）の場合、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の場合
+>プレビューリリース：2024 年 11 月 11 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月 12 日（PT））、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の実稼動
 
 複数のセクションを持つカスタムフォームをオブジェクトに添付する場合、フォームの上部にあるデフォルトセクションを除くすべてのセクションを折りたたんだり展開したりできるようになりました。 管理者は、フォームデザイナーでフォームをプレビューする際にも、この機能を確認できます。
 

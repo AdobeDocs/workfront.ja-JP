@@ -5,14 +5,16 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 21ad93a3438962fd45a6b348960c37402c71a18a
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '2742'
-ht-degree: 99%
+source-wordcount: '2734'
+ht-degree: 98%
 
 ---
 
 # 更新エリアに関するレポート
+
+<!-- Audited: 11/2024 -->
 
 ジャーナルエントリレポートには、これまで Adobe Workfront API を介してのみ利用可能であった、プロジェクト、タスク、イシューなどのオブジェクトの更新エリアからのシステム更新が表示されます。これは特定のユースケースを対象とした高度なレポートですが、よりわかりやすい形式により、Workfront 内のプロジェクトアクティビティやシステム更新に関するレポートを簡単に作成できるようになります。
 
@@ -45,7 +47,16 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準 </p><p>または </p><p>現在：プラン </p> </td> 
+      <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -58,7 +69,7 @@ ht-degree: 99%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -439,7 +450,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    * **プロジェクト ID**／**次と等しい**／**`<project>`**
 
-     ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![](assets/qs-custom-form-changes-filter-350x92.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
@@ -629,7 +640,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
    * **フィールド名**／**次と等しい**／**ownerID**
    * **プロジェクト ID**／**次と等しい**／**`<project name>`**
 
-     ![](assets/qs-owner-changes-filter-350x94.png)
+   ![](assets/qs-owner-changes-filter-350x94.png)
 
    フィルターの追加について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 

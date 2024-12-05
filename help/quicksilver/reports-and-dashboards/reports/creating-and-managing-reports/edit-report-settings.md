@@ -6,18 +6,22 @@ description: レポートの設定を編集して、他のユーザーに対す�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6fbbc557-65da-4ffe-968a-9c8db6a45811
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 100%
+source-wordcount: '620'
+ht-degree: 95%
 
 ---
 
 # レポート設定を編集する
 
+<!-- Audited: 11/2024 -->
+
 レポートの設定を編集して、他のユーザーに対するレポートの表示方法や、レポートを実行する前にユーザーが求める情報の種類を定義できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -31,20 +35,31 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+      <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 操作手順
 
@@ -115,7 +130,7 @@ ht-degree: 100%
 1. 「**レポートのプロンプト**」をクリックして、レポートのプロンプトを設定します。\
    レポートへのプロンプトの追加について詳しくは、[レポートにプロンプトを追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)の記事を参照ください。
 
-1. 「**完了**」をクリックして、「**保存して閉じる**」をクリックします。
+1. **完了** をクリックしてから、**保存して閉じる** をクリックします。
 
 ## 追加情報
 
