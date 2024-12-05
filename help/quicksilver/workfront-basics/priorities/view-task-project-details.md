@@ -5,13 +5,13 @@ description: プロジェクトとタスクの詳細は、優先度ワークリ�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 8384c2ce2e83aa07c504c56193b19a557226d15a
+exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
+source-git-commit: 9af607f381ced982d72a19b2a5ce780796747c2e
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '240'
 ht-degree: 35%
 
 ---
-
 
 # 優先度ワークリストでのプロジェクトとタスクの詳細の表示
 
@@ -67,8 +67,9 @@ ht-degree: 35%
    * プロジェクトの表示とコメントの追加
    * 時間を記録
    * ファイルを追加
+   * <span class="preview"> プロジェクトに直接移動 </span>
 
-   ![ プロジェクト詳細 ](assets/project-details.png)
+<!-- ![project details](assets/project-details.png)-->
 
 ## タスクの詳細の表示
 
@@ -83,4 +84,4 @@ ht-degree: 35%
    * ファイルを追加
    * クイックリンクの追加
 
-   ![ タスクの詳細 ](assets/task-details.png)
+   <!-- ![task details](assets/task-details.png)-->
