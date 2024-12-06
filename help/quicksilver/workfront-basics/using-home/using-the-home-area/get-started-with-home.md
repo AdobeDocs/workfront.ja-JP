@@ -6,10 +6,10 @@ description: ホームは、作業を管理するのに役立ちます。 この
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: 1347911f2d0c03874c759f02b207e3fa93ca5bb4
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 76%
+source-wordcount: '1015'
+ht-degree: 72%
 
 ---
 
@@ -148,32 +148,6 @@ Adobe Workfront の新しいホームエクスペリエンスは、現在のホ�
    カスタマイズパネルが開きます。
 
 1. **カスタマイズ**&#x200B;パネルの「**背景**」セクションで、ホームの背景に選択する色をクリックします。また、「**なし**」をクリックして背景を削除します。
-
-## 現在のホームエクスペリエンスに戻す
-
-既存のホームエクスペリエンスの方が良い場合は、新しいホームエクスペリエンスをオフに切り替えることができます。
-
-現在のホームエクスペリエンスに戻るには：
-
-1. 次のいずれかの操作を行って、ホームページに移動します。
-
-   * ホームがランディングページとして設定されている場合は、画面の左上隅にある **Adobe Workfront** アイコン ![Adobe Workfront アイコン](assets/home-icon-30x29.png) をクリックします。
-   * 画面の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコンをクリックするか、利用可能であれば左上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![メインメニューアイコン](assets/main-menu-icon.png) をクリックし、「**ホーム**」を選択します。
-
-1. ページの右下隅にある「**現在のホームに戻る**」ボタンをクリックします。
-
-   ![現在のホームに戻るボタン](assets/customize-button.png)
-
-   確認ウィンドウが表示されます。
-
-1. 新しいホームでのエクスペリエンスに関する簡単な調査を行うか、「**現在のホームに戻る**」をクリックして、現在のホームエクスペリエンスに戻します。
-
->[!NOTE]
->
-> システム管理者は、新しいホームをユーザーのデフォルトとするのを無効にできます。システム全体でユーザーのデフォルトのホームのエクスペリエンスを変更する方法について詳しくは、[システム環境の設定](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
-
-
-
 
 
 

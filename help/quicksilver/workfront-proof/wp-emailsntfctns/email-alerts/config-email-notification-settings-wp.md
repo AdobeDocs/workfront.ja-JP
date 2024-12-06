@@ -7,10 +7,10 @@ description: Workfront Proof から生成されたメール通知は、コメン
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
 workflow-type: tm+mt
-source-wordcount: '2049'
-ht-degree: 99%
+source-wordcount: '2063'
+ht-degree: 98%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 99%
 
 <!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
-1. **[!UICONTROL 設定]**／**[!UICONTROL 個人設定]**&#x200B;をクリックします。
+1. 右上隅のプロフィール写真をクリックしてから、**[!UICONTROL 個人設定]** をクリックします。
 
 1. 「**[!UICONTROL プルーフのデフォルト]**」タブをクリックします。
 1. 「**[!UICONTROL デフォルトのメール通知設定]**」をクリックして、展開します。
@@ -163,7 +163,7 @@ ht-degree: 99%
 
 [!DNL Workfront Proof] 管理者は、アカウント内のユーザーに対してプルーフのデフォルトを設定できます。
 
-1. **[!UICONTROL 設定]**／**[!UICONTROL アカウント設定]**&#x200B;をクリックします。
+1. 画面上部の **[!UICONTROL アカウント設定]** をクリックします。
 
 1. 「**[!UICONTROL ユーザー]**」タブを開きます。
 1. ユーザー名の右側にある&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![More_button_small.png](assets/more-button-small.png) を開きます。
