@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: d9bfe029f99bf4c205686dc7a30598f046977afd
+source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1381'
 ht-degree: 21%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 21%
 
 <table>
 <col style="width: 20%;" />
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
     <td>エリア</td>
@@ -247,7 +247,7 @@ ht-degree: 21%
 
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 75%;" />
 <tbody>
     <tr>
         <td>
@@ -263,7 +263,7 @@ ht-degree: 21%
             単一割り当てタスクにプロジェクトまたはユーザースケジュールを使用するための環境設定</a></p>
             <p>1 人のユーザーをタスクに割り当て、プロジェクトとユーザーの両方がスケジュールに関連付けられている場合に、Workfrontがプロジェクトのスケジュールを使用してプロジェクトのタイムラインを計算するかどうかを示す新しい環境設定が追加されました。</p>
         </td>
-        <td><p>2024 年 11 月 16 日（Pt）</p> <p>[!BADGE New in Preview ]{type=Negative}<p></td>
+        <td><p>2024 年 11 月 16 日（Pt）</p> <p>[!BADGE New]{type=Negative}<p></td>
         <td>2024 年 12 月</td>
         <td>25.1</td>
     </tr>     
@@ -284,8 +284,8 @@ ht-degree: 21%
             <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
         </td>
         <td>10 月 29 日（Pt）</td>
-          <td><p>2024年12月</p><p> [!BADGE In Production for Fast Release ]{type=Positive}</p></td>
-        <td>25.1<p> [!BADGE In Production]{type=Positive}</p></td>
+          <td><p>2024年12月</p><p> [!BADGE Production ]{type=Positive}</p></td>
+        <td>25.1<p> [!BADGE Production]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
