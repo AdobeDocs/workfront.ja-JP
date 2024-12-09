@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 9f77afbb10d51a1bc0d770862a21e158b645da36
+source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 21%
+source-wordcount: '878'
+ht-degree: 29%
 
 ---
 
@@ -33,92 +33,7 @@ ht-degree: 21%
 >迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
 
 
-## Adobe Workfront の機能強化
-
-
-<table>
-<col style="width: 20%;" />
-<col style="width: 75%;" />
-<tbody>
-    <tr>
-    <td>エリア</td>
-        <td>
-            <p><span class="bold">機能</span></p>
-        </td>
-        <td>プレビュー</td>
-        <td>迅速リリース</td>
-        <td>四半期ごと</td>
-    </tr>
-    <tr>
-     <td>管理と設定</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            単一割り当てタスクにプロジェクトまたはユーザースケジュールを使用するための環境設定</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>1 人のユーザーをタスクに割り当て、プロジェクトとユーザーの両方がスケジュールに関連付けられている場合に、Workfrontがプロジェクトのスケジュールを使用してプロジェクトのタイムラインを計算するかどうかを示す新しい環境設定が追加されました。</p>
-        </td>
-        <td>2024 年 11 月 21 日（Pt）</td>
-        <td>2024年12月</td>
-        <td>25.1</td>
-    </tr>     
-    <tr>
-     <td>管理と設定</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            ビジネスルールでハイパーリンクがサポートされるようになりました</a></p>
-            [!BADGE Out of cycle]{type=Caution}
-            <p>ビジネス ルールのカスタム エラーメッセージにハイパーリンクを含めて、ルールの制約内でアクションを変更する方法をユーザーに示すことができるようになりました。 静的 URL は、ユーザーに役立つドキュメントやその他のページにリンクできます。</p>
-        </td>
-        <td>2024年11月14日（PT）</td>
-        <td>2024年11月14日（PT）</td>
-        <td>2024年11月14日（PT）</td>
-    </tr>    
-    <tr>
-     <td>管理と設定</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            ネイティブの先行入力フィールドのフィルタリングが利用できるようになりました</a></p>
-            [!BADGE Out-of-cycle ]{type=Negative}
-            <p>カスタムフォームにネイティブフィールド参照を追加し、先行入力フィールド（Portfolio、会社、所有者など）を参照する場合、フィルターオプションを使用できるようになりました。 フィルターを使用すると、ユーザーがフィールドを使用する際に選択できるオブジェクトを制限できます。 このカスタムフィルターは、カスタム先行入力フィールドに対するフィルターと同じように機能し、テキストモードを使用してフィルターを定義します。</p>
-        </td>
-        <td>11 月 21 日</td>
-        <td>25.12</td>
-        <td>25.1</td>
-    </tr>
-    <tr>
-     <td>管理と設定</td>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            カスタムフィールドに「移動先」アイコンが追加されました</a></p>
-            <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
-        </td>
-        <td>2024年10月29日（PT）</td>
-          <td>2024年12月</td>
-        <td>25.1</td>
-    </tr>
-</tbody>
-</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Workfront の機能強化
-
-
-
-
-
 
 
 * [管理者機能の強化](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
@@ -127,7 +42,10 @@ ht-degree: 21%
 ### 管理者機能の強化
 
 <table>
-<col style="width: 50%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -163,91 +81,25 @@ ht-degree: 21%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             ネイティブの先行入力フィールドのフィルタリングが利用できるようになりました</a></p>
-            [!BADGE Out-of-cycle ]{type=Negative}
             <p>カスタムフォームにネイティブフィールド参照を追加し、先行入力フィールド（Portfolio、会社、所有者など）を参照する場合、フィルターオプションを使用できるようになりました。 フィルターを使用すると、ユーザーがフィールドを使用する際に選択できるオブジェクトを制限できます。 このカスタムフィルターは、カスタム先行入力フィールドに対するフィルターと同じように機能し、テキストモードを使用してフィルターを定義します。</p>
         </td>
         <td>11 月 21 日</td>
         <td>25.12</td>
         <td>25.1</td>
     </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
-        </td>
-        <td>2024年10月29日（PT）</td>
-          <td>2024年12月</td>
-        <td>25.1</td>
-    </tr>
+
 </tbody>
 </table>
+
 
 ### ドキュメント管理の機能強化
 
 
 <table>
-<col style="width: 50%;" />
-<tbody>
-    <tr>
-        <td>
-            <p><span class="bold">機能</span></p>
-        </td>
-        <td>プレビュー</td>
-        <td>迅速リリース</td>
-        <td>四半期ごと</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            単一割り当てタスクにプロジェクトまたはユーザースケジュールを使用するための環境設定</a></p>
-            [!BADGE New in Preview ]{type=Negative}
-            <p>1 人のユーザーをタスクに割り当て、プロジェクトとユーザーの両方がスケジュールに関連付けられている場合に、Workfrontがプロジェクトのスケジュールを使用してプロジェクトのタイムラインを計算するかどうかを示す新しい環境設定が追加されました。</p>
-        </td>
-        <td>2024 年 11 月 21 日（Pt）</td>
-        <td>2024年12月</td>
-        <td>25.1</td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            ビジネスルールでハイパーリンクがサポートされるようになりました</a></p>
-            [!BADGE New in Preview ]{type=Caution}
-            <p>ビジネス ルールのカスタム エラーメッセージにハイパーリンクを含めて、ルールの制約内でアクションを変更する方法をユーザーに示すことができるようになりました。 静的 URL は、ユーザーに役立つドキュメントやその他のページにリンクできます。</p>
-        </td>
-        <td>2024年11月14日（PT）</td>
-        <td>2024年11月14日（PT）</td>
-        <td>2024年11月14日（PT）</td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            ネイティブの先行入力フィールドのフィルタリングが利用できるようになりました</a></p>
-            [!BADGE Out-of-cycle ]{type=Negative}
-            <p>カスタムフォームにネイティブフィールド参照を追加し、先行入力フィールド（Portfolio、会社、所有者など）を参照する場合、フィルターオプションを使用できるようになりました。 フィルターを使用すると、ユーザーがフィールドを使用する際に選択できるオブジェクトを制限できます。 このカスタムフィルターは、カスタム先行入力フィールドに対するフィルターと同じように機能し、テキストモードを使用してフィルターを定義します。</p>
-        </td>
-        <td>11 月 21 日</td>
-        <td>25.12</td>
-        <td>25.1</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            カスタムフィールドに「移動先」アイコンが追加されました</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
-            <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
-        </td>
-        <td>2024年10月29日（PT）</td>
-          <td>2024年12月</td>
-        <td>25.1</td>
-    </tr>
-</tbody>
-</table>
-
-### ドキュメント管理の機能強化
-
-
-<table>
-<col style="width: 75%;" />
+<col style="width: 55%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
+<col style="width: 15%;" />
 <tbody>
     <tr>
         <td>
@@ -264,8 +116,8 @@ ht-degree: 21%
             <p>1 人のユーザーをタスクに割り当て、プロジェクトとユーザーの両方がスケジュールに関連付けられている場合に、Workfrontがプロジェクトのスケジュールを使用してプロジェクトのタイムラインを計算するかどうかを示す新しい環境設定が追加されました。</p>
         </td>
         <td><p>2024 年 11 月 16 日（Pt）</p> <p>[!BADGE New]{type=Negative}<p></td>
-        <td>2024 年 12 月</td>
-        <td>25.1</td>
+        <td><p>24.12</p></td>
+        <td><p>25.1</p></td>
     </tr>     
     <tr>
         <td>
@@ -273,9 +125,9 @@ ht-degree: 21%
             ビジネスルールでハイパーリンクがサポートされるようになりました</a></p>
             <p>ビジネス ルールのカスタム エラーメッセージにハイパーリンクを含めて、ルールの制約内でアクションを変更する方法をユーザーに示すことができるようになりました。 静的 URL は、ユーザーに役立つドキュメントやその他のページにリンクできます。</p>
         </td>
-        <td>11 月 14 日（Pt） </td>
-        <td><p>11 月 14 日（Pt）</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
-        <td><p>11 月 14 日（Pt）</p> <p>[!BADGE Out-of-cycle ]{type=Negative}</p></td>
+        <td><p>11 月 14 日（Pt）</p> </td>
+        <td><p>2024 年 12 月</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>25.1</p> </td>
     </tr>    
     <tr>
         <td>
@@ -283,9 +135,29 @@ ht-degree: 21%
             カスタムフィールドに「移動先」アイコンが追加されました</a></p>
             <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
         </td>
-        <td>10 月 29 日（Pt）</td>
-          <td><p>2024年12月</p><p> [!BADGE Production ]{type=Positive}</p></td>
-        <td>25.1<p> [!BADGE Production]{type=Positive}</p></td>
+        <td><p>12 月 5 日</p></td>
+          <td><p>12 月 15 日</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>12 月 15 日</p> <p> [!BADGE Available ]{type=Positive}</p> <p>[!BADGE Out-of-cycle ]{type=Caution}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            カスタムフィールドに「移動先」アイコンが追加されました</a></p>
+            <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
+        </td>
+        <td><p>12 月 5 日</p><p>[!BADGE Out-of-cycle ]{type=Caution}</p></td>
+          <td><p>12 月 15 日</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>12 月 15 日</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            カスタムフィールドに「移動先」アイコンが追加されました</a></p>
+            <p>カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。</p>
+        </td>
+        <td><p>11 月 1 日</p></td>
+          <td><p>24.11</p><p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>25.1</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
 </tbody>
 </table>
