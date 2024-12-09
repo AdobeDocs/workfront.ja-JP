@@ -1,15 +1,15 @@
 ---
-title: 'Adobe Workfront計画リクエスト：記事インデックス'
+title: Adobe Workfront計画リクエスト：記事索引
 description: レコードタイプごとにリクエストフォームを作成し、ユーザーと共有できます。ユーザーはフォームに入力して送信することで、新しいレコードを追加できます。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: d7c7b09b033705142b2c658c9d275e63299d3fd0
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 22%
+source-wordcount: '153'
+ht-degree: 21%
 
 ---
 
@@ -24,6 +24,7 @@ ht-degree: 22%
 この節では、次の記事を扱います。
 
 * [Adobe Workfront Planning でのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)
-* [Adobe Workfront計画要求の発行 ](/help/quicksilver/planning/requests/submit-requests.md)
+* [Adobe Workfront計画リクエストの発行](/help/quicksilver/planning/requests/submit-requests.md)
+* [Adobe Workfront Planning でのリクエストフォームの非公開 ](/help/quicksilver/planning/requests/unpublish-request-form.md)
   <!--* <span class="preview">[Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>-->
   <!--* <span class="preview">[Approve request](/help/quicksilver/planning/requests/approve-request.md)</span>-->

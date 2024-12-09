@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 7bb56395151d88595d446703d5d689c03b1e0372
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '14673'
+source-wordcount: '14681'
 ht-degree: 91%
 
 ---
@@ -857,7 +857,7 @@ ht-degree: 91%
       * [メールヘッダーファイルを保存](administration-and-setup/tips-tricks-and-troubleshooting/save-an-email-header-file.md)
       * [共有すると複数の権限が表示される](administration-and-setup/tips-tricks-and-troubleshooting/sharing-shows-more-than-1-permission.md)
       * [未認証のメールが受け入れられない](administration-and-setup/tips-tricks-and-troubleshooting/unauthenticated-email-not-accepted-domains-dmarc-policy.md)
-      * [Workfront:ZScaler 設定によってパフォーマンスが低下する場合があります](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
+      * [Workfront：ZScaler 設定によりパフォーマンスが低下する場合がある](administration-and-setup/tips-tricks-and-troubleshooting/zscaler-affects-performance.md)
       * [ユーザー資格情報と SAML 資格情報](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [アクセスレベルの自動アップグレードオプションの更新](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront の基本 {#basics}
@@ -2138,6 +2138,7 @@ ht-degree: 91%
       * [Adobe Workfront計画リクエスト：記事索引](planning/requests/requests-article-index.md)
       * [Adobe Workfront Planning でのリクエストフォームの作成と管理](planning/requests/create-request-form.md)
       * [レコードを作成するためのAdobe Workfront Planning 要求の発行](planning/requests/submit-requests.md)
+      * [Adobe Workfront Planning でのリクエストフォームの非公開](planning/requests/unpublish-request-form.md)
    * Adobe Workfront計画ビュー {#adobe-workfront-planning-views}
       * [ビュー：記事インデックス](planning/views/views-information.md)
       * [レコードビューの管理](planning/views/manage-record-views.md)

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 51%
+source-wordcount: '1805'
+ht-degree: 50%
 
 ---
 
@@ -166,15 +166,15 @@ The following features are currently available in Workfront Planning:
 
 ## Workfront インスタンスのユーザーに対してWorkfront Planning を有効にします
 
-Workfront Planning のライセンスを購入した後、Workfront Planning にアクセスするには、Workfront管理者として次の点を確認する必要があります。
+Workfront Planning パッケージを購入した後、ユーザーがWorkfront Planning にアクセスする前に、Workfront管理者として次の点を確認する必要があります：
 
 * メインメニューに Planning が含まれるレイアウトテンプレートを Planning にアクセスする必要があるユーザーを割り当てます。 詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [ レイアウトテンプレートにユーザーを割り当てる ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) を参照してください。
 
-* ユーザーにWorkfront ライセンスを割り当て、Workfront Planning で 5554hview またはオブジェクトを作成できるようにするWorkfront Planning 権限を割り当てます。 へのアクセス権の付与と、他のユーザーがWorkfront Planning を使用できるようにする方法の詳細については、[Adobe計画のアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+* ユーザーにWorkfront ライセンスを割り当て、Workfront Planning でオブジェクトを表示または作成できるWorkfront Planning 権限を割り当てます。 へのアクセス権の付与と、他のユーザーがWorkfront Planning を使用できるようにする方法の詳細については、[Adobe計画のアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
 ## Workfront Planning の用語
 
-Workfront Planning は Workfront の一部ですが、独自の概念と用語を備えています。Workfront Planning を組織で設定する前に、新しい概念をよく理解してください。
+Workfront Planning は Workfront の一部ですが、独自の概念と用語を備えています。Workfront Planning を設定する前に、次の概念に精通していることを確認してください。
 
 Workfront Planning のフレームワークは完全なカスタマイズが可能です。組織の正確なニーズに合わせて、すべてのレコードタイプとその属性、およびそれらに関連付けられた任意のフィールドを作成できます。
 
@@ -189,6 +189,8 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
   詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
 * **レコードタイプ**:Workfront Planning のオブジェクトタイプの名前。
+
+  レコードタイプがワークスペースに入力します。
 
   オブジェクトタイプが事前に定義されている Workfront とは異なり、Workfront Planning では独自のオブジェクトタイプを作成できます。
 

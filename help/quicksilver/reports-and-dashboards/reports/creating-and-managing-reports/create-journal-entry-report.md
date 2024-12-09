@@ -1,14 +1,14 @@
 ---
-title: 更新エリアに関するレポート
+title: 「更新」エリアのレポート
 description: ジャーナルエントリレポートには、これまで Adobe Workfront API を介してのみ利用可能であった、プロジェクト、タスク、イシューなどのオブジェクトの更新エリアからのシステム更新が表示されます。これは特定のユースケースを対象とした高度なレポートですが、よりわかりやすい形式により、Workfront 内のプロジェクトアクティビティやシステム更新に関するレポートを簡単に作成できるようになります。
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '2734'
-ht-degree: 98%
+source-wordcount: '2757'
+ht-degree: 94%
 
 ---
 
@@ -253,7 +253,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    列の追加について詳しくは、[Adobe Workfront の概要を表示](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
-1. Adobe Analytics の「**フィルター**」タブで、「**フィルタールールを追加**」をクリックし、フィルタールール「**フィールド名**／**次と等しい**／**ステータス**」追加します。
+1. 「**フィルター**」タブで「**フィルタールールを追加**」をクリックし、フィルタールール **フィールド名**/**次と等しい**/**ステータス** を追加します。
 
    ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
@@ -339,7 +339,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. 「**フィルター**」タブで、「**フィルタールールを追加**」をクリックし、以下を追加します。
 
    * **変更の種類**／**が次に等しい**／**削除**
-   * **プロジェクト ID**／**が次に等しい**／**`<project>`**
+   * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名 >**
 
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
@@ -383,7 +383,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    Report Builder が読み込まれます。
 
-1. 「**列（表示）**」タブで、以下の列を追加します。
+1. 「**列（表示）**」タブで、次の列が存在することを確認するか、「**列を追加**」をクリックして追加します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -446,9 +446,9 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
      >[!TIP]
      >
-     >このレポートを特定のカスタムフィールドに限定するには、フィルタールール「**ジャーナルエントリフィールド名**／**次と等しい**／**`<custom field>`**」を追加します。
+     >このレポートを特定のカスタムフィールドに制限するには、フィルタールール **ジャーナルエントリフィールド名** > **次と等しい** > **&lt; カスタムフィールド名 >** を追加します。
 
-   * **プロジェクト ID**／**次と等しい**／**`<project>`**
+   * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト >**。
 
    ![](assets/qs-custom-form-changes-filter-350x92.png)
 
@@ -546,10 +546,10 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
    列の追加の詳細情報については、「[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)」を参照してください。
 
-1. 「**フィルター**」タブで、「**フィルタールールを追加**」をクリックし、以下を追加します。
+1. 「**フィルター**」タブで **フィルタールールを追加** をクリックし、次の情報を追加します。
 
    * **フィールド名**／**次と等しい**／**日付**
-   * **プロジェクト ID**／**次と等しい**／**`<project>`**
+   * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名 >**.
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
@@ -638,7 +638,7 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 1. 「**フィルター**」タブで、「**フィルタールールを追加**」をクリックし、以下を追加します。
 
    * **フィールド名**／**次と等しい**／**ownerID**
-   * **プロジェクト ID**／**次と等しい**／**`<project name>`**
+   * **プロジェクト ID** > **次と等しい** > **&lt; プロジェクト名 >**.
 
    ![](assets/qs-owner-changes-filter-350x94.png)
 
@@ -662,4 +662,4 @@ Workfront の様々なオブジェクトタイプについて詳しくは、[Ado
 
 1. 「**保存して閉じる**」をクリックします。
 
-   新しいレポートが読み込まれます。
+   新規仕訳レポートが表示されます。

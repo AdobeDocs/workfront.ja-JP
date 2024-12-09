@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
 workflow-type: tm+mt
-source-wordcount: '1677'
-ht-degree: 74%
+source-wordcount: '1791'
+ht-degree: 69%
 
 ---
 
@@ -77,14 +77,6 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 >
 >プロジェクトにおけるプライマリ担当者の休暇を考慮すると、タスクの予定日は調整される場合がありますが、タスクの期間は変わりません。プロジェクトを計画する際にプライマリ担当者の休暇を考慮する方法について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
-## 親タスクの元の期間
-
-タスクの元の期間は、親タスクになる前にタスクが持っていた期間（分単位）です。
-
-タスクが親タスクになると、最も早い子タスクの予定開始日から最も遅い子タスクの予定完了日までの期間が親タスクにロールアップされ、親タスクの期間になります。これにより、元のタスクの期間が置き換えられます。
-
-詳しくは、[ タスクの元の期間と元の予定時間数の概要 ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
-
 ## タスク期間の時間の単位
 
 予定開始日から予定完了日までの通常の時間と経過時間の両方でタスク期間を指定できます。
@@ -131,7 +123,7 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 
 ## タスクの期間タイプの概要
 
-タスクの期間タイプを管理すると、タスクのニーズに基づいて一貫したリソースの割り当てを設定できます。
+タスクの期間タイプを管理すると、タスクのニーズに基づいて一貫したリソース割り当てを設定できます。
 
 期間タイプで、次の疑問が解決できます。
 
@@ -181,6 +173,27 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
 ## 新しいタスクの期間タイプ
 
 新しいタスクの期間タイプは、システムで設定された期間タイプと一致します。デフォルトの期間タイプは、予定割り当て時間です。Workfront 管理者またはグループ管理者は、使用するシステムまたはプロジェクトに関連付けられたグループのデフォルトの期間タイプを更新できます。詳しくは、[システム全体のタスクおよびイシューの環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+
+## 親タスクの元の期間
+
+タスクの元の期間は、親タスクになる前にタスクが持っていた期間（分単位）です。
+
+タスクが親タスクになると、最も早い子タスクの予定開始日から最も遅い子タスクの予定完了日までの期間が親タスクにロールアップされ、親タスクの期間になります。これにより、元のタスクの期間が置き換えられます。
+
+子が経過日数の期間単位を使用し、その親が日数の期間単位を使用すると、Workfrontによる親タスクの期間の計算方法に不一致が生じる場合があります。
+
+次の点に注意してください。
+
+* 期間単位 Elapsed Days はカレンダー日を表し、常に 1 日 24 時間で構成されます。
+* 期間単位（日数）は、システムで定義された稼働日を表し、構成可能です。 ほとんどの場合、それは 1 日 8 時間で構成されています。
+* 親タスクの期間を計算する数式は次のとおりです。
+
+  `Parent task duration = Planned Completion Date of the child task that is planned to end the latest - Planned Start Date of the child task that starts the earliest`
+
+* 親タスクの期間を計算する場合、システムでは、最初に上記の式によって期間を計算してから、スケジュールを適用します。
+
+
+詳しくは、[ タスクの元の期間と元の予定時間数の概要 ](/help/quicksilver/manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md) を参照してください。
 
 ## タスクの期間タイプの変更
 
