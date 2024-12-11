@@ -3,13 +3,13 @@ title: プロジェクトの財務を再計算
 product-area: projects
 navigation-topic: financials
 description: 財務は、プロジェクトで記録された時間数や、コストと収益の計算に使用される料金に変化が生じると、財務がプロジェクトに基づいて計算されます。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 69afad9af3f1e703487fdab092bc84457ee00922
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 95%
+source-wordcount: '1678'
+ht-degree: 93%
 
 ---
 
@@ -57,6 +57,8 @@ ht-degree: 95%
 
 * 変更が行われると、時間数が記録され、財務情報が計算されると、更新された料金がその時点から使用されます。料金を変更しても、変更前の計算方法には影響しません。ログに記録されたすべての既存の時間数に対して、古い料金が財務情報の計算に使用されます。
 * 「財務の再計算」オプションを使用すると、Adobe Workfront に対して、これまでに記録されたすべての時間数に遡って新しいレートを強制的に使用させることができます。これにより、Workfront は、以前に入力した時間数、予定コスト、売上高をすべて新しい料金情報に従って遡及的に再計算します。
+
+レポートタイプ「プロジェクト（財務データ）」は、データを読み込む前に自動的に再計算されません。 このレポートタイプのデータを更新するには、個々のプロジェクトの財務を手動で再計算する必要があります。
 
 >[!CAUTION]
 >
