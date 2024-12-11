@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '20875'
+source-wordcount: '20930'
 ht-degree: 94%
 
 ---
@@ -812,7 +812,15 @@ ht-degree: 94%
   <tr> 
    <td>[!UICONTROL Document Version]</td> 
    <td> <p>同じドキュメントが同じオブジェクトにアップロードされるたびに、バージョン番号が割り当てられます。ユーザーは、ドキュメントの以前のバージョンの複数のオプションを表示および変更できます。</p> <p>詳しくは、<a href="../../../documents/managing-documents/manage-document-versions.md" class="MCXref xref">ドキュメントバージョンを管理</a>を参照してください。</p> </td> 
-  </tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL Due Date]</td> 
+   <td> <p>タスクまたは問題の完了期日。 タスクまたは問題の期日が、予定完了日と同じ日です。</p>
+    <p>タスクと問題の期限は、タスクと問題のリストおよびレポートに表示されます。</p> 
+    <p>この表の「予定完了日」も参照してください。 
+    </td> 
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Duration]</td> 
    <td> <p>タスク、イシューまたはプロジェクトの完了に割り当てられる時間のウィンドウ（[!UICONTROL Planned Start] と予定完了日の間の日数によって決定されます）。</p> 

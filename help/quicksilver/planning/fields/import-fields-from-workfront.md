@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 31%
+source-wordcount: '760'
+ht-degree: 30%
 
 ---
-
 
 <!--add to TOC-->
 
@@ -180,3 +180,8 @@ ht-degree: 31%
 1. 「**+**」をクリックし、「**フィールドを追加** をクリックします。
 フィールドがテーブル ビューおよびレコードの詳細ページに追加されます。
 
+   >[!IMPORTANT]
+   >
+   >    レコードタイプのフィールドは 500 個までです。 既存のフィールドと読み込まれたフィールドがこの制限に貢献します。
+
+   追加されたフィールドはWorkfront フィールドのコピーであり、Workfrontの元のフィールドには接続されなくなります。

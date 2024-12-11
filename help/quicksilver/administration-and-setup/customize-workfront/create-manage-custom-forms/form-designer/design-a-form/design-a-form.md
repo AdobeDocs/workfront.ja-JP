@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '6522'
+source-wordcount: '6534'
 ht-degree: 77%
 
 ---
@@ -328,7 +328,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
     </tr>
     <tr> 
      <td role="rowheader">ラベル</td> 
-     <td> <p>（必須）カスタムフィールドの上に表示する説明ラベルを入力します。ラベルはいつでも変更できます。</p> <p><b>重要</b>：このラベルでは特殊文字を使用しないでください。レポートに正しく表示されません。 詳しくは、<a href="design-a-form.md#notes-on-field-names-and-labels"> フィールド名とラベルに関するメモ </a> を参照してください。</p> </td> 
+     <td> <p>（必須）カスタムフィールドの上に表示する説明ラベルを入力します。ラベルはいつでも変更できます。</p> <p><b>重要</b>： </p> <p>このラベルでは特殊文字を使用しないでください。 レポートに正しく表示されません。 詳しくは、<a href="design-a-form.md#notes-on-field-names-and-labels"> フィールド名とラベルに関するメモ </a> を参照してください。</p> </td> 
      <td><ul>
     <li>ラジオボタン</li>
     <li>チェックボックスグループ</li>
@@ -411,13 +411,18 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
     <li> <p><strong>選択肢を削除</strong>：フィールドから選択肢を削除します。</p> <p><b>警告</b>：この選択肢を使用する現在のオブジェクトがある場合は、フィールドから削除しないでください。削除すると、履歴データが失われる可能性があります。その代わりに、非表示にするオプションを選択します。これにより、ユーザーは今後このオプションを選択できなくなります。</p> </li> 
     </ul> 
      </li> 
-    </ol> </td> 
+    </ol>
+
+   <p><b>メモ：</b></p>
+    <p>選択できる選択肢の数に制限はありません。 </p>    
+    </td> 
     <td><ul>
     <li>ラジオボタン</li>
     <li>チェックボックスグループ</li>
     <li>単一選択ドロップダウン</li>
     <li>複数選択ドロップダウン</li>
-    </ul></td>
+    </ul>
+    </td>
      </tr> 
     </tbody> 
     </table>

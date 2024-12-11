@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、ユーザーのアクセスレベル
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 100%
+source-wordcount: '584'
+ht-degree: 95%
 
 ---
 
@@ -60,6 +60,8 @@ Adobe Workfront 管理者は、ユーザーのアクセスレベルを割り当�
   プロジェクトに対するユーザーの権限に基づいてテンプレートタスクとプロジェクトのイシューへのアクセスを管理する方法については、[プロジェクトテンプレートの編集](../../manage-work/projects/create-and-manage-templates/edit-templates.md)の記事の[アクセス](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access)の節を参照してください。
 
 * Workfront 管理者は、ドキュメントがユーザーのアクセスレベルの上位のオブジェクトから権限を継承するかどうかを指定できます。ドキュメントに対する継承された権限の制限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
+
+* テンプレートタスクを個別に共有することはできません。 テンプレートを共有すると、テンプレートタスクも共有されます。 テンプレートからプロジェクトを共有すると、今後のプロジェクトタスクも共有されます。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
