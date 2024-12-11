@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '20901'
+source-wordcount: '20875'
 ht-degree: 94%
 
 ---
@@ -1252,12 +1252,9 @@ Workfront では、時間エントリには次のいずれかのステータス�
    <p>See <i>Resource Pools</i> for updated fields. </p> 
    <p>The Legacy Resource Pool is a collection&nbsp;of job roles associated with a project or a user. The functionality of the Legacy Resource Pools is displayed in the tools available in the Legacy Resource Planning tab of the People area. This is a deprecated field.</p>
     --> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Library Task]</td> 
-   <td>アプリケーション全体で [!UICONTROL Tasks] と [!UICONTROL Template Tasks] の一貫した名前を付けるために使用される、単一のタスクのテンプレート。</td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td>[!UICONTROL License Type]</td> 
    <td>[!UICONTROL Access Level] に割り当てられるライセンスのタイプ。[!UICONTROL Full User]、[!UICONTROL Limited User] または [!UICONTROL Requester] のいずれかです。</td> 
   </tr> 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 8df1c288eed04c7330d124e0c32c869a3e5a525b
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 95%
+source-wordcount: '1314'
+ht-degree: 92%
 
 ---
 
@@ -77,6 +77,7 @@ ht-degree: 95%
 * カスタムフィールド、ウィジェットまたはセクション区切りに表示ロジックを追加するには、フォーム上で、1 つ以上の複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）をその前に配置する必要があります。
 カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 * スキップロジックはウィジェットやセクション区切りに追加することはできません。追加できるのは、複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）のみです。
+* 複数オプションフィールドのオプションに対して、表示またはスキップロジックを適用することはできません。 例えば、別のフィールドの表示またはスキップロジックに基づいて、ドロップダウン、チェックボックスグループ、ラジオボタンフィールドのオプションの表示を制限することはできません。
 * カスタムフィールドに関して、次の内容がすべてが該当する場合、カスタムフィールドには表示ロジックとスキップロジックの両方を追加できます。
 
    * 複数選択フィールド（ラジオボタン、ドロップダウンまたはチェックボックス）であること
