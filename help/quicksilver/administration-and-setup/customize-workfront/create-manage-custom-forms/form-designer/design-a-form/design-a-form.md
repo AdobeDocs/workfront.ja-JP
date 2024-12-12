@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
 workflow-type: tm+mt
 source-wordcount: '6534'
 ht-degree: 77%
@@ -948,7 +948,7 @@ Adobe XD ファイルを追加するには、以下のように行います。
 >Workfront Planning にアクセスするには、次のものが必要です。
 >
 >* 新しいWorkfront プランおよびライセンス。 Workfront Planning は、従来のWorkfront プランまたはライセンスでは利用できません。
->* Workfront Planning の追加ライセンス。
+>* Workfront Planning 用の追加パッケージです。
 >* 組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。
 >
 > Workfront Planning へのアクセス要件の完全な一覧については、[Adobe Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
