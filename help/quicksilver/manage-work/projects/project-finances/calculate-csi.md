@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: コストスケジュール効率指数（CSI）の計算
 description: コストスケジュール効率指数（CSI）は、コスト効率指数（CPI）とスケジュール効率指数（SPI）を組み合わせて、コストとスケジュールのバランスを取った 1 つの一般的な指標にする自動計算です。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 1cf679376517293f0e0f28b461bd9ecab9283035
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 100%
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 * ユーザーが、完了した作業の時間を記録している。\
   これにより、時間数に基づいて CSI が計算されます。
-* ユーザーまたは担当業務に 1 時間当たりのコスト率が関連付けられている。 
+* ユーザーまたは担当業務に 1 時間当たりのコスト率が関連付けられている。
 
   これにより、コストに基づいて CSI が計算されます。
 

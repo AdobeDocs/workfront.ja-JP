@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: 担当業務に対する請求レートの上書きとプロジェクトにおける収益の計算の概要
+title: 担当業務請求率の上書きとプロジェクトの収益の計算の概要
 description: 請求レートを使用して、プロジェクトに費やした時間で乗算したプロジェクトの収益を計算できます。請求レートと収益の詳細については、「請求と収益の概要」を参照してください。
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: 1517e3e28fe536a8a72d2802919c8b8819e9ea1a
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '3860'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 

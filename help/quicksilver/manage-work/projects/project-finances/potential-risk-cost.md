@@ -4,13 +4,13 @@ product-area: projects
 navigation-topic: financials
 title: 潜在リスクコストを計算
 description: プロジェクトの潜在リスクコストでは、プロジェクトリスクの潜在的なコストと発生する確率が考慮されます。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '302'
-ht-degree: 100%
+ht-degree: 85%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 100%
 
 ## プロジェクトの潜在的なリスクコストの概要
 
-Adobe Workfront は、次の式を使用してプロジェクトの潜在リスクコストを計算します。
+Adobe Workfrontは、次の数式を使用して、プロジェクトの潜在リスクコストを計算します。
 
 ```
 Potential Risk Cost =SUM(Potential Risk Costs * Risk Probability)
 ```
 
-プロジェクトの潜在リスクコストを検討する際は、次の点を考慮してください。
+プロジェクトの潜在的なリスクコストをレビューする際は、次の点を考慮します。
 
-* プロジェクトの予定リスクコストは、潜在リスクコストと同じです。 
-* 潜在リスクコストは、プロジェクトの予定コストには組み込まれません。代わりに、その正味価値を決定するために使用されます。
+* プロジェクトの予定リスクコストは、潜在リスクコストと同じです。
+* 潜在リスクコストは、プロジェクトの予定コストには組み込まれません。代わりに、純価の決定に使用されます。
 
-## プロジェクトの潜在リスクコストを見つける
+## プロジェクトの潜在的な危険コストを見つける
 
 Workfront の次のエリアで、プロジェクトのリスクと潜在コストを確認できます。
 

@@ -4,23 +4,23 @@ product-area: projects
 navigation-topic: financials
 title: 正味値の計算
 description: プロジェクト純価は、利益を計算してコストを削除した後の、プロジェクトの期待値の合計です。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '397'
-ht-degree: 100%
+ht-degree: 96%
 
 ---
 
 # 正味値の計算
 
-プロジェクト純価は、利益を計算してコストを削除した後の、プロジェクトの期待値の合計です。 
+プロジェクト純価は、利益を計算してコストを削除した後の、プロジェクトの期待値の合計です。
 
 ## プロジェクト純価の概要
 
-Adobe Workfront では、次の式を使用してプロジェクト純価を計算します。
+Adobe Workfrontは、次の式を使用してプロジェクトの純価を計算します。
 
 ```
 Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost

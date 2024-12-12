@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: プロジェクトの費用の管理
-description: 費用の作成と管理のプロセスは、プロジェクト関連費用とタスク関連費用の両方で同じです。ビジネスケースのプロジェクトに追加された費用は、計画費用として「費用」タブに追加されます。ビジネスケースについて詳しくは、プロジェクトのビジネスケースを作成するの記事を参照してください。
-author: Alina
+title: プロジェクト費用の管理
+description: 費用の作成と管理のプロセスは、プロジェクト関連費用とタスク関連費用の両方で同じです。ビジネスケースのプロジェクトに追加された費用は、計画費用として「費用」タブに追加されます。ビジネス ケースの詳細については、「プロジェクトのビジネス ケースを作成する」を参照してください。
+author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 97%
+source-wordcount: '542'
+ht-degree: 91%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 97%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -29,25 +31,29 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意</p> </td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>ワークまたはそれ以上 </p> </td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：ワーク以上</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよび財務データへのアクセスを編集する</p> <p><b>メモ</b> </p>
-   <p> まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td>プロジェクトおよび財務データへのアクセスを編集する</td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する参加以上の権限と財務情報を表示または管理する権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td>プロジェクトに対する参加以上の権限と財務情報を表示または管理する権限</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 費用の追加
 

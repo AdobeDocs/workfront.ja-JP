@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 予定労力コストの計算
 description: プロジェクトでの作業を計画する際、Adobe Workfront は、1 時間当たりのコストの値に基づいて、この作業に割り当てられた役割およびユーザーの予定労力コストを計算します。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: af053e9a-09dc-4b4d-8ed4-f681ed611a59
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 100%

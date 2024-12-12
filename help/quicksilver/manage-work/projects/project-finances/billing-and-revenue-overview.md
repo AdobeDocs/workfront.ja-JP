@@ -4,10 +4,10 @@ product-area: projects
 navigation-topic: financials
 title: 請求と収益の概要
 description: プロジェクトマネージャーは、請求レートを使用して、プロジェクトの収益を把握できます。
-author: Alina, Lisa
+author: Lisa
 feature: Work Management
 exl-id: 400abcde-e368-4a70-89a9-05027900ab81
-source-git-commit: c485676fb5584e8438823e9ce0c28b551f6bab45
+source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
 workflow-type: tm+mt
 source-wordcount: '3691'
 ht-degree: 100%
