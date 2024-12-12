@@ -5,13 +5,13 @@ description: 優先度ワークリストまたは個々の作業項目からフ�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 29%
 
 ---
-
 
 # 優先度のファイルのアップロード
 
@@ -54,6 +54,7 @@ ht-degree: 29%
 
 1. 名前の上にマウスポインターを置き、「**アップロード**」をクリックします。
    ![](assets/upload-file.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. （オプション）フォルダーを選択します。
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または

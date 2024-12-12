@@ -5,13 +5,13 @@ description: タスクまたはイシューに更新を追加して、作業項�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: a7237746-0a18-408b-b932-8a608fd72eee
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 10%
 
 ---
-
 
 # 優先度のコメントの追加と表示
 
@@ -65,6 +65,7 @@ ht-degree: 10%
 1. 更新する作業項目を見つけます。
 1. 名前の上にマウスポインターを置き、「**新しい更新を追加**」をクリックします。
    ![](assets/add-update.png)
+   <!--new screen for prod ![](assets/update-log-upload.png)-->
 1. コメントを入力してください。
 1. （任意）「**ユーザーまたはチームのタグ付け**」ボックスに、このコメントに含めるユーザーまたはチームの名前またはメールの入力を開始し、リストに表示されたら選択します。
 1. （オプション） リッチテキストツールバーのオプションを使用してテキストの書式を設定したり、コメントに絵文字、リンクまたは画像を追加してコンテンツを充実させることができます。

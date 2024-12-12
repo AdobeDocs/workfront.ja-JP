@@ -5,15 +5,17 @@ description: 作業リストの列を優先度でカスタマイズして、作�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
+source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 28%
+source-wordcount: '299'
+ht-degree: 26%
 
 ---
 
-
 # 優先度ワークリストの列のカスタマイズ
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 作業リストの列を優先度でカスタマイズして、作業の方法をサポートできます。
 
@@ -59,7 +61,9 @@ ht-degree: 28%
 
 +++
 
-## 列を有効または無効にする
+## 実稼動環境での優先度ワークリスト列のカスタマイズ
+
+### 列を有効または無効にする
 
 {{step1-to-priorities}}
 
@@ -67,7 +71,7 @@ ht-degree: 28%
    ![](assets/columns.png)
 1. ワークリストの列の有効/無効を切り替えるには、を使用します。
 
-## 列の並べ替え
+### 列の並べ替え
 
 {{step1-to-priorities}}
 
@@ -75,10 +79,37 @@ ht-degree: 28%
 1. **ドラッグ** アイコンをクリックし、列を目的の場所に移動します。 列を移動すると、ワークリスト内で自動的に更新されます。
    ![](assets/reorder-columns.png)
 
-## 列の幅のリセット
+### 列の幅のリセット
 
 {{step1-to-priorities}}
 
 1. 画面の右側にある **列** をクリックします。
 1. **その他** アイコン ![](assets/more-icon.png) をクリックし、「**列の幅をリセット**」を選択します。
    ![](assets/columns.png)
+
+<div class="preview">
+
+## プレビューの優先度ワークリスト列のカスタマイズ
+
+### 列を有効または無効にする
+
+{{step1-to-priorities}}
+
+1. 画面左側にある **列** をクリックします。
+   ![](assets/columns-new.png)
+1. ワークリストの列の有効/無効を切り替えるには、を使用します。
+
+### 列の並べ替え
+
+{{step1-to-priorities}}
+
+1. 画面左側にある **列** をクリックします。
+1. **ドラッグ** アイコンをクリックし、列を目的の場所に移動します。 列を移動すると、ワークリスト内で自動的に更新されます。
+   ![](assets/reorder-columns-new.png)
+
+>[!NOTE]
+>
+>名前列は固定されており、移動できません。
+
+
+</div>

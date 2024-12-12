@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 3c87c88245e79581c2a880c13038bcedb24caf4b
+source-git-commit: ad75f6e80d0681b5a769e2fd8fc68285597dbca0
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 95%
@@ -176,7 +176,7 @@ ht-degree: 95%
 1. **[!UICONTROL 保存]**&#x200B;をクリックします。
 1. 左側のナビゲーションで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;を選択したあと、**[!UICONTROL [!DNL SharePoint]統合]**&#x200B;を選択します。
 1. 既存のすべての統合のリストの左側にあるチェックマークを選択したあと、「**[!UICONTROL 無効にする]**」を選択します。
-   ![](assets/disable-old-sharepoint.png)
+
 
 
 ### 従来の [!DNL SharePoint] 統合に継続的にアクセスできるようにクライアントシークレットを設定

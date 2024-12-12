@@ -5,13 +5,13 @@ description: 新しいタスクやイシューを優先度から直接作成で�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 75396c3f066abc6070ae2a89c2ded0255dbc0751
+exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
+source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 28%
+source-wordcount: '241'
+ht-degree: 27%
 
 ---
-
 
 # 優先度で新しいタスクまたはイシューを作成
 
@@ -69,6 +69,7 @@ ht-degree: 28%
 
 1. 右上隅の **新規作成** をクリックします。
    ![](assets/create-new.png)
+&lt;! – 製品 ![](assets/create-new--.png) ージの新しい画面 – >
 1. 次の情報を指定します。
 
    | フィールド | 手順 |
@@ -81,4 +82,3 @@ ht-degree: 28%
    | 期限（オプション） | 期限を選択します。 |
 
 1. 「**作成**」をクリックします。
-

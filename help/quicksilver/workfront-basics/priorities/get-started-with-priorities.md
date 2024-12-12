@@ -5,13 +5,13 @@ description: 優先度は、タスクの所有者に合わせて調整された�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: 61f4fef12ec53b77feb4adba7b8e4561248be2fd
+exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
+source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
 workflow-type: tm+mt
-source-wordcount: '954'
+source-wordcount: '953'
 ht-degree: 8%
 
 ---
-
 
 # [!DNL Priorities] の基本を学ぶ
 
@@ -91,7 +91,6 @@ ht-degree: 8%
 
 作業をフィルターした後は、以下に基づいて項目をグループ化できます
 
-* なし
 * マイフォーカス
 * 期限の週
 * ステータス
@@ -104,15 +103,16 @@ ht-degree: 8%
 マイフォーカスは、作業に優先順位を付けるのに役立つワークリストの列です。 マイフォーカスの値は個人的なもので、プロジェクト、タスク、イシューのデータには影響しません。 次のフォーカスレベルを使用できます。
 
 * 緊急
-* プライマリ
-* セカンダリ
+* 高
 * 標準（デフォルト）
+* 低
 
 作業アイテムにフォーカスレベルを割り当てたら、列を並べ替えて、ワークリストの上部に緊急のアイテムを表示できます。
 
 詳しくは、[ 重要な作業項目の優先順位の設定 ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
 
 ![](assets/my-focus-column.png)
+<!-- new screen for prod ![](assets/worklist.png) -->
 
 ### カレンダー表示の使用 [!BADGE  近日公開 ]{type=Informative}
 
@@ -141,6 +141,7 @@ ht-degree: 8%
 詳しくは、[ 優先度でのコメントの追加と表示 ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md) を参照してください。
 
 ![](assets/new-update.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### 時間を記録
 
@@ -149,6 +150,7 @@ ht-degree: 8%
 詳しくは、「[ 優先度で時間を記録する ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md) を参照してください。
 
 ![](assets/log-time.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### ファイルのアップロード
 
@@ -162,6 +164,7 @@ ht-degree: 8%
 詳しくは、[ 優先度でのファイルのアップロード ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) を参照してください。
 
 ![](assets/upload-file.png)
+<!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### ドキュメントを表示 [!BADGE  近日公開 ]{type=Informative}
 
@@ -197,5 +200,3 @@ ht-degree: 8%
 
 * Workfront管理者は、現時点では、レイアウトテンプレートを使用して優先度をカスタマイズできません。
 * 優先度のタスクへのアクセスはタブ間で行われます。 今後、ドキュメント、サブタスク、承認などのタブを追加する予定です。 「フィードバックを送信 **ボタンを使用してフィードバックを送信することにより、これらの項目が必要であることをお知らせくだ** い。
-
-
