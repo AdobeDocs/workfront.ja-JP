@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 35%
+source-wordcount: '1728'
+ht-degree: 34%
 
 ---
 
@@ -59,6 +59,7 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             単一割り当てタスクにプロジェクトまたはユーザースケジュールを使用するための環境設定</a></p>
+            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>1 人のユーザーをタスクに割り当て、プロジェクトとユーザーの両方がスケジュールに関連付けられている場合に、Workfrontがプロジェクトのスケジュールを使用してプロジェクトのタイムラインを計算するかどうかを示す新しい環境設定が追加されました。</p>
         </td>
         <td>
@@ -74,6 +75,7 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             ビジネスルールでハイパーリンクがサポートされるようになりました</a></p>
+            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>ビジネス ルールのカスタム エラーメッセージにハイパーリンクを含めて、ルールの制約内でアクションを変更する方法をユーザーに示すことができるようになりました。 静的 URL は、ユーザーに役立つドキュメントやその他のページにリンクできます。</p>
         </td>
         <td>
@@ -169,6 +171,7 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
             複数のドキュメントを一度に編集</a></p>
+            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。</p>
         </td>
         <td>
@@ -217,8 +220,22 @@ ht-degree: 35%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            優先度からプロジェクトの詳細ページに移動する</a></p>
+            優先度ワークリストの更新</a></p>
             [!BADGE New in Preview ]{type=Negative}
+            <p>機能を向上させ、アプリケーションの他の領域と連携させるために、優先度ワークリストを更新しました。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2024年12月12日（PT）</li>
+                <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            優先度からプロジェクトの詳細ページに移動する</a></p>
             <p>優先度ワークリストからWorkfrontのプロジェクトに直接移動できるようになりました。</p>
         </td>
         <td>
@@ -344,6 +361,7 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             リンクされたフォルダー内の移動または削除されたアセットの管理方法に関する更新</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>Experience Manager AssetsとAssets EssentialsのAdobe Workfront統合を使用する際の、移動されたアセットや削除されたアセットの処理方法を変更しました。</p>
             <ul>
                 <li>削除されたアセット：AssetsまたはAssets Essentialsのリンクされたフォルダー内でアセットを削除すると、削除されたアセットはプロジェクトドキュメント領域に保持されます。</li>
@@ -362,6 +380,7 @@ ht-degree: 35%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             カスタムフォーム内のセクションが折りたたみ可能および展開可能になりました</a></p>
+            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>複数のセクションを持つカスタムフォームをオブジェクトに添付する場合、フォームの上部にあるデフォルトセクションを除くすべてのセクションを折りたたんだり展開したりできるようになりました。 管理者は、フォームデザイナーでフォームをプレビューする際にも、この機能を確認できます。</p>
         </td>
         <td>

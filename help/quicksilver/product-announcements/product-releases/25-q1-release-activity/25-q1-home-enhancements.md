@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8b0c40d6fa5898581c50d6257bc2b2f2a4838b06
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 26%
+source-wordcount: '391'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,36 @@ ht-degree: 26%
 このページでは、2025 年第 1 四半期のリリースで行われたプレビュー環境へのすべてのホームの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
+
+## 優先度ワークリストの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 12 月 12 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリース（2025 年 1 月）で
+
+機能を向上させ、アプリケーションの他の領域と連携させるために、優先度ワークリストを更新しました。
+
+### 視覚的な変更
+
+* フィルター、表示、グループ化のオプションが、ワークリストヘッダーの左側に表示されるようになりました
+* 列およびグループ化の新しい検索ドロップダウンメニュー
+* ワークリストの右下隅に表示されたリスト項目の合計数
+* ワークリストヘッダーの右側にある新しく展開された検索バー
+
+詳しくは、[ 優先度の基本を学ぶ ](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md) を参照してください。
+
+### 機能の変更
+
+これで、
+
+* グループ内の項目の並べ替え
+* マイ優先度またはステータスでグループ化する場合のアイテムのドラッグ&amp;ドロップ
+
+詳しくは、[ 優先度を使用した作業のフィルタリングとグループ化 ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) を参照してください。
+
+### 削除されました
+
+* 作業リスト内でタスクおよび問題を直接作成できなくなりました。 優先度の右上隅にある「新規作成」ボタンを使用する必要があります。
 
 ## 優先度からプロジェクトの詳細ページに移動する
 
