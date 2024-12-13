@@ -2,13 +2,13 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: Adobe Workfrontへのアクセスを IP Dddress で制限
-description: Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 45 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
+title: Adobe Workfrontへのアクセスを IP アドレスで制限
+description: Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 75 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 95%
@@ -17,7 +17,7 @@ ht-degree: 95%
 
 # IP アドレスで Adobe Workfront へのアクセスを制限
 
-Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 45 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
+Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 75 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
 
 これらの IP アドレスまたは IP アドレス範囲は、ネットワーク管理者によって提供される必要があります。
 
@@ -77,6 +77,6 @@ IP アドレスを Workfront 許可リストに追加すると、それらの IP
 1. 「**IP 範囲の追加**」をクリックし、Workfront にアクセスできるようにする IP アドレスまたは IP アドレスの範囲を指定します。
 1. （オプション）前の手順を繰り返して、追加の IP アドレスまたは IP アドレス範囲を追加します。
 
-   最大 45 個のアドレスまたは範囲を追加できます。
+   最大 75 個のアドレスまたは範囲を追加できます。
 
 1. 「**保存**」をクリックします。

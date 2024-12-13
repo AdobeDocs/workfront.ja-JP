@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: 2b6f5243de9610947ab6836080379a2293f48a10
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '1643'
 ht-degree: 95%
@@ -51,7 +51,7 @@ ht-degree: 95%
 組織がエンタープライズプランを保有している場合は、次の 2 つの Workfront 許可リストも設定できます。
 
 * **メールの許可リスト**：ユーザーが Workfront に保存されているデータをどこにメールで送信できるかを制御できます。詳しくは、[メールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)を参照してください。
-* **IP の許可リスト**：Workfront へのアクセスを指定した 45 個の IP アドレスまたは IP アドレス範囲に制限し、Workfront アプリケーションのセキュリティ層をさらに 1 層追加します。詳しくは、[IP アドレスで Adobe Workfront へのアクセスの制限](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)を参照してください。
+* **IP の許可リスト**：Workfront へのアクセスを指定した 75 個の IP アドレスまたは IP アドレス範囲に制限し、Workfront アプリケーションのセキュリティ層をさらに 1 層追加します。詳しくは、[IP アドレスで Adobe Workfront へのアクセスの制限](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)を参照してください。
 
 ## Workfront クラスターの場所を特定
 

@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 76b6acc4-c432-47b4-90bf-6e37e970625f
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 93%
@@ -64,7 +64,7 @@ Workfront エンタープライズプランを使用している場合は、以�
 
 ## その他の許可リスト
 
-組織にエンタープライズプランがある場合は、Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 45 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。詳しくは、[IP アドレスによる Adobe Workfront へのアクセスの制限](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)を参照してください。
+組織にエンタープライズプランがある場合は、Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 75 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。詳しくは、[IP アドレスによる Adobe Workfront へのアクセスの制限](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)を参照してください。
 
 またファイアウォールやメールサーバーが、特定のベンダーへのアクセスのみを許可するように設定されている場合は、特定の IP アドレスをそのに許可リストに追加する必要があります。これにより、環境と Adobe Workfront サーバー間の通信が開始されます。詳しくは、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 
