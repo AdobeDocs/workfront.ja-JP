@@ -1,33 +1,19 @@
 ---
-title: リクエストを承認
+title: Adobe Workfront Planning で要求を承認する
 description: Adobe Workfront Planning で、ユーザーが承認に関連付けられた要求フォームに要求を送信すると、承認者に承認保留中の承認に関する通知と電子メールが届きます。 Workfront Planning がオブジェクトを作成する前に、顧客がリクエストを承認する必要があります。
-hide: true
-hidefromTOC: true
-source-git-commit: ab78b82db567193f32f6c67880b2b037dc78e849
-workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 19%
-
----
-
-
-<!--
-
----
-title: Approve a Request
-description: When a user submits a request to a request form associated with an approval in Adobe Workfront Planning, approvers receive a notification and an email about the pending approval. They must approve the request before Workfront Planning creates an object. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+workflow-type: tm+mt
+source-wordcount: '945'
+ht-degree: 16%
+
 ---
 
--->
 
-
-# リクエストを承認
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Adobe Workfront Planning でリクエストを承認する
 
 <!--take Preview and Production references at Production time-->
 
@@ -54,9 +40,8 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 送信されたリクエストは、Workfrontの「リクエスト」領域の「送信済み」セクションの「計画」タブに、次のいずれかのリクエストステータスで表示されます。
 
 * **レビュー保留中**：このステータスは、どの承認者もリクエストオブジェクトを開いていない場合に表示されます。
-* **レビュー中**：少なくとも 1 人の承認者がリクエストオブジェクトを開くと、ステータスは **レビュー中** に変わります。 すべての承認者がリクエストを承認するまで、リクエストのステータスは **レビュー中** のままです。
-* **承認済み**：承認者がリクエストオブジェクトを承認すると、個々のステータスが
-* **承認済み** ですが、リクエストオブジェクトの全体的なステータスは、すべての承認者が決定するまで **レビュー中** のままです。
+* **レビュー中**：少なくとも 1 人の承認者がリクエストオブジェクトを開くと、**レビュー待ち** のステータスが **レビュー中** に変わります。 すべての承認者がリクエストを承認するまで、リクエストのステータスは **レビュー中** のままです。
+* **承認済み**：承認者が要求オブジェクトを承認すると、個々のステータスは **承認済み** になりますが、要求全体のステータスは、すべての承認者が決定するまで **レビュー中** のままです。 すべての承認者がリクエストを承認すると、リクエストのステータスは **承認済み** になります。
 * **完了**：すべての承認者が要求オブジェクトを承認すると、その状態は **完了** に変わります。または、要求に承認が必要なかった場合も同様です。
 * **却下**：承認者がリクエストオブジェクトを却下した場合、ステータスは **却下** になります。 レコードは作成されません。レコードを作成するには、新しいリクエストを送信する必要があります。
 
@@ -148,25 +133,39 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 * アプリ内通知
 * メール通知
 
+>[!NOTE]
+>
+>組織のWorkfront インスタンスは、ユーザーがメールおよびアプリ内通知を受信できるように、Adobeの Unified Experience にオンボーディングされる必要があります。
+
 リクエストを承認するには：
 
 1. 次のいずれかの操作を行います。
 
-   * Workfront Planning へのアクセス権がある場合は、画面の右上隅にある **メインメニュー**![](assets/dots-menu.png) または **メインメニュー**![](assets/lines-menu.png) 左上隅にある **要求**/**送信済み**/**計画** をクリックし、ステータスが **レビュー中** の要求をクリックします。<!--did they change this to Pending approval; logged  a bug-->
+   * Workfront Planning へのアクセス権を持ち、少なくとも 1 つの作業領域を表示できる場合、画面の右上隅にある **メインメニュー**![](assets/dots-menu.png)、または左上隅にある **メインメニュー**![](assets/lines-menu.png) をクリックし（使用可能な場合）、**要求**/**送信済み**/**計画** をクリックし、ステータスが **レビュー保留中** または **レビュー中** の要求をクリックします。
 
      >[!TIP]
      >
-     >    Workfront Planning へのアクセス権がない場合は、通知を使用して承認するリクエストにのみアクセスできます。
+     >Workfront Planning へのアクセス権がない場合、またはワークスペースを表示するアクセス権がない場合は、メールまたはアプリ内通知を使用して承認するリクエストにのみアクセスできます。
 
-
-   * 画面の右上隅の **通知** 領域に移動し、承認待ちのリクエストに関する通知をクリックしてリクエストを開きます。
-   * 承認待ちのリクエストを通知するメール内のメール通知に移動し、クリックしてリクエストを開きます。<!--add the name of the button here, from the email-->
+   * 画面の右上隅にある **通知** エリアのアイコン ![](assets/notifications-area-icon-unified-shell.png) をクリックし、承認待ちのリクエストに関する通知をクリックしてリクエストを開きます。
+   * 承認待ちのリクエストを通知するメール内のメール通知に移動し、「**リクエストを開く**」をクリックしてリクエストを開きます。<!--add the name of the button here, from the email-->
 
    リクエストページが読み取り専用モードで開きます。
 
    ![](assets/read-only-reqeust-page-in-review-status.png)
+
 1. （任意）リクエストの右上隅に ![](assets/approvals-icon.png) る **承認** アイコンをクリックして、承認者を表示します。
 1. 「**レビューして承認**」をクリックして、次のいずれかを選択します。<!--did they fix the button and removed the &??-->
 
-   * **承認**：リクエストを承認します。 リクエストフォームに関連付けられたレコードタイプに対して、レコードが直ちに作成されます。
-   * **却下**：リクエストを却下します。 リクエストフォームに関連付けられたレコードタイプのレコードは作成されません。<!--check to see if there is a notification sent to the requestor about it being rejected OR approved??--> <!--checking with PM what happens with the other approvers when one of them is rejecting it: does it ask them to approve it? Deleted the request? -->
+   * **承認**：リクエストを承認します。 すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプのレコードが直ちに作成されます。
+   * **却下**：自分が唯一の承認者である場合でも、リクエストを却下します。 リクエストフォームに関連付けられたレコードタイプのレコードは作成されません。
+
+   リクエストを送信したユーザーは、リクエストが承認または却下されると、メールとアプリ内通知を受け取ります。
+
+   承認の決定に応じて、リクエストのステータスが次のように変わります。
+
+   * **完了**：リクエストは承認されました。
+   * **却下**：リクエストが却下されました。
+
+   リクエストは、Workfrontの「リクエスト」領域にある「送信済み」セクションの「計画」タブに残ります。
+

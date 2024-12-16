@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 21%
+source-wordcount: '717'
+ht-degree: 17%
 
 ---
 
 
 # Adobe Workfront Planning のメール通知の管理
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -25,6 +29,14 @@ ht-degree: 21%
   レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
 * 他のユーザーから、ビューまたはワークスペースにアクセスする許可を要求されています
 * ビューまたはワークスペース <!--Isk confirmed that there is nno email for denying access but did not test--> ーバーへのアクセスが許可されたことを確認するメッセージが表示されます
+
+<div class="preview">
+
+* Workfront Planning の要求を発行します。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください
+* 送信されたWorkfront Planning 要求が誰かに承認または拒否されています。 詳しくは、[Adobe Workfront Planning でリクエストを承認 ](/help/quicksilver/planning/requests/approve-request.md) を参照してください
+* ステータスが、送信したWorkfront計画リクエストに変わります。
+
+</div>
 
 
 ## アクセス要件
@@ -155,11 +167,11 @@ OLD:
 
 ## コメントで誰かがあなたをタグ付けしたときのメール通知を管理します
 
-1. （条件付き）誰かがレコードのコメントでタグを付けた後、タグとコメントを通知するメール通知に移動します。 メールの送信者はAdobe Experience Cloudです。
+1. （条件付きおよびオプション）誰かがレコードのコメントでタグを付けた後、タグとコメントを通知するメール通知に移動します。 メールの送信者はAdobe Experience Cloudです。
 
    ![](assets/email-notification-example.png)
 
-1. 「**Workfront**」ボックスのメッセージをクリックします。
+1. （任意）メール内の **Workfront** ボックスのメッセージをクリックします。
 
    レコードの詳細ページがWorkfrontで開きます。 レコードを更新したり、コメントに返信したりできます。
 
@@ -168,8 +180,27 @@ OLD:
 
 ## 権限をリクエストおよび付与する際のメール通知の管理
 
-ビューまたはワークスペースに対する権限が要求または付与されると、メール通知が届きます。
+1. （条件付きおよびオプション）ビューやワークスペースへのアクセス権限がリクエストまたは許可された後は、権限リクエストを通知するメールに移動します。 メールの送信者はAdobe Experience Cloudです。
+
+1. （任意）メール内の **Workfront** ボックスのメッセージをクリックします。
+
+   レコードの詳細ページがWorkfrontで開きます。 レコードを更新したり、コメントに返信したりできます。
+
+1. （条件付き）使用可能な場合は、「**すべての通知を表示**」をクリックします。
+**通知** ページがAdobe Experience Cloudで開きます。 すべてのAdobe Experience Cloud アプリケーションからのすべての通知が表示されます。
+
 
 ビューまたはワークスペースに対する権限の要求、付与、または拒否の詳細については、[ ビューまたはワークスペースに対する権限の要求 ](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
 
 Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 ](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。
+
+## Workfront Planning 要求の送信、承認または拒否に関する電子メール通知の管理
+
+1. （任意） Workfrontから送信されるメールに移動します
+リクエストを送信した後、または送信したリクエストが承認または却下された後。 メールの送信者はAdobeの Workfront です。
+
+1. （任意）「**リクエストを開く**」をクリックします。 これにより、Workfront Planning でリクエストが開きます。
+
+1. 画面の右上隅に ![](assets/notifications-area-icon-unified-shell.png) る **通知** アイコンをクリックして、**通知** ページにアクセスします。
+
+   Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 ](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。

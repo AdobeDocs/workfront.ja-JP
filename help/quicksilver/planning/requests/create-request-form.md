@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: b89f4aa6f779e09d6749e59bdf3d54f0dd9bbf03
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '1397'
-ht-degree: 15%
+source-wordcount: '1557'
+ht-degree: 13%
 
 ---
 
@@ -126,12 +126,12 @@ ht-degree: 15%
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
 1. ページヘッダーのレコードタイプ名の右側 ![](assets/more-menu.png) ある **詳細** メニューをクリックし、「**リクエストフォームを作成**」をクリックします。
-1. リクエストフォームの名前を更新します。 デフォルトでは、フォームの名前は **名称未設定のリクエストフォーム** です。<!--check this; you logged a bug to rename it to this but was it fixed?-->
+1. リクエストフォームの名前を更新します。 デフォルトでは、フォームの名前は **名称未設定フォーム** です。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （オプション）リクエストフォームに **説明** を追加します。
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. 「**作成**」をクリックします。選択したレコードタイプのリクエストフォームが <!--<span class="preview"> in the Form tab</span>; add screen shot below with Configuration tab.--> で開きます。
+1. 「**作成**」をクリックします。選択したレコードタイプのリクエストフォームが「フォーム」タブで <span class="preview"> 開きます </span>
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -159,7 +159,12 @@ ht-degree: 15%
 
 
    * **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。
-   * **件名** フィールド：Workfrontでリクエストを識別するフィールド。 この機能は、まだ利用できません。 「件名」フィールドの設定と値は編集できません。
+   * **件名** フィールド：Workfrontでリクエストを識別するフィールド。 この機能は、実稼動環境ではまだ使用できません。 <span class="preview"> プレビュー環境で使用できます。</span> 「件名」フィールドの設定と値は編集できません。
+
+     >[!TIP]
+     >
+     >**件名** フィールドは、リクエストフォームに表示される場合、値が必要です。 ただし、必要に応じて **件名** フィールドを削除することができ、リクエスターにはフォームに表示されません。
+
    * レコードタイプに関連付けられているすべてのフィールド。
 
      リクエストフォームに含まれるフィールドは、このレコードタイプにリクエストを送信するすべてのユーザーに表示されます。
@@ -190,14 +195,19 @@ ht-degree: 15%
 
 1. （オプション） **プレビュー** をクリックして、他のユーザーが新しいレコードを送信する際にフォームを使用する際のフォームの表示方法を表示します。
 
-   <!--
-   <div class="preview">
-   1. (Optional) Click the **Configuration** tab, then add at least one user to the **Approvers** field to approve new requests for this record form. 
-      When you associate a request form with approvers, any new request must first be approved by all approvers before it generates a new record. 
-      You can add one or several approvers to a request form. If at least one approver rejects the request, the request is rejected and the record is not created.
-   For more information about adding approvals to request forms, see [Add approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md). 
-   </div>
-   -->
+1. 
+   <div class="preview">（オプション）「**設定**」タブをクリックし、「**承認者**」フィールドに少なくとも 1 人のユーザーを追加して、このレコードフォームの新しいリクエストを承認します。
+
+   ![](assets/configuration-tab.png)
+
+   <!--below bullet list is duplicated in the Add approval to a request form article-->
+
+   * リクエストフォームを承認者に関連付ける場合、新しいリクエストは、新しいレコードを生成する前に、最初にすべての承認者の承認を受ける必要があります。
+   * リクエストフォームには、1 人または複数の承認者を追加できます。
+   * 少なくとも 1 人の承認者が要求を拒否した場合、要求は拒否され、レコードは作成されません。
+   * すべての承認者は、リクエストが承認または却下される前に決定を行う必要があります。
+
+     リクエストフォームへの承認の追加について詳しくは、「[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md)」を参照してください。 </div>
 
 1. （オプション）ヘッダーのフォーム名の右 ![](assets/more-menu.png) にある **詳細** メニューをクリックしてから、**編集** をクリックしてフォームの名前を更新します。
 1. **Publish** をクリックしてフォームを公開し、フォームの一意のリンクを取得します。
@@ -223,7 +233,7 @@ ht-degree: 15%
    >
    >* **リンクを持つすべてのユーザー** を選択すると、組織外のユーザーであっても、Workfront アカウントを持たないユーザーであっても、誰でもフォームにアクセスして、新しいレコードを送信できます。
    >
-   > * <span class="preview"> 次のフィールドタイプを含むフォームは、公開して共有できません。</span>
+   > * <span class="preview"> 次のフィールドタイプを含むフォームは、公開して共有することができません。</span>
    >
    >     * <span class="preview"> 数式 </span>
    >     * <span class="preview">WorkfrontまたはAEM Assets Connections</span>
@@ -231,7 +241,7 @@ ht-degree: 15%
    >     * <span class="preview">ユーザー</span>
    >
 
-1. （条件付き）前の手順で「**リンクを持つすべてのユーザー**」を選択した場合は、使用可能なカレンダーから **有効期限をリンク** を選択します。 リンクの有効期限が切れるとエラーが表示されるので、フォームに再度アクセスするにはリンクの日付を更新する必要があります。
+1. （条件付き）前の手順で「**リンクを持つすべてのユーザー**」を選択した場合は、使用可能なカレンダーから **有効期限をリンク** を選択します。 リンクの有効期限が切れた後、ユーザーはエラーを受け取ります。ユーザーがフォームに再度アクセスできるようにするには、リンクの日付を更新し、新しいリンクを生成して共有する必要があります。
 
    現在の日付から 180 日以内の将来の日付を選択できます。
 
@@ -241,7 +251,7 @@ ht-degree: 15%
 
    リクエストフォームへのリンクを使用してレコードを作成する方法については、「[Adobe Workfront Planning リクエストの送信 ](/help/quicksilver/planning/requests/submit-requests.md)」を参照してください。
 
-1. 画面の右下隅にある「**保存**」をクリックして、フォームを保存します。
+1. **フォーム** タブの右下隅にある「**保存**」をクリックしてフォームを保存します。
 1. ヘッダーでフォーム名の左側にある左向き矢印をクリックして、フォームを閉じます。
 
    レコードタイプのページが開きます。

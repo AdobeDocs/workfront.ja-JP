@@ -1,30 +1,19 @@
 ---
-title: リクエストフォームに承認を追加
+title: Adobe Workfront Planning の要求フォームへの承認の追加
 description: Adobe Workfront Planning のリクエスト・フォームに承認プロセスを追加して、レコードを作成する前に、送信されたすべてのリクエストに対して承認を開始できます。
-hide: true
-hidefromTOC: true
-source-git-commit: a999b805016361bdd101a6cd9c61967284a71014
-workflow-type: tm+mt
-source-wordcount: '616'
-ht-degree: 24%
-
----
-
-
-<!--
-
----
-title: Add an Approval to a Request Form
-description: You can add an approval process to an Adobe Workfront Planning request form, to initiate an approval for every submitted request, before it creates a record. 
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+workflow-type: tm+mt
+source-wordcount: '766'
+ht-degree: 19%
+
 ---
 
--->
 
-# リクエストフォームへの承認の追加
+# Adobe Workfront Planning でリクエストフォームに承認を追加する
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -127,6 +116,8 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
 
 * リクエストフォームには、1 人または複数の承認者を追加できます。 承認者として追加できるのはユーザーのみです。
 * リクエストフォームに複数の承認者を追加する場合、Workfront Planning でレコードを作成する前に、すべての承認者がリクエストを承認する必要があります。
+* すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプに対してレコードが作成されます。
+* 少なくとも 1 人の承認者がリクエストを拒否し、他の全員がそのリクエストを承認した場合、Workfrontの「リクエスト」領域に対してリクエストが作成されますが、リクエストフォームに関連付けられたレコードタイプに対しては、レコードが作成されません。
 * リクエストフォームへの承認の追加はオプションです。 リクエストフォームが承認と関連付けられていない場合、リクエストの送信時にWorkfront Planning によって即座にレコードが作成されます。
 
 ## リクエストフォームへの承認の追加
@@ -143,16 +134,31 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
 
    承認者の名前の入力を開始し、リストに表示されたら選択します。
 
-   >[!TIP]
+   <!--most of the Note below is duplicated in the Create a request form article-->
+
+   >[!NOTE]
    >
-   >    複数の承認者を追加する場合は、Workfront Planning でレコードを作成する前に、すべての承認者がリクエストを承認する必要があります。
+   >
+   >* リクエストフォームには、1 人または複数の承認者を追加できます。
+   >
+   >* 複数の承認者を追加する場合は、Workfront Planning でレコードを作成する前に、すべての承認者がリクエストを承認する必要があります。
+   >
+   >* 少なくとも 1 人の承認者が要求を拒否した場合、要求は拒否され、レコードは作成されません。 リクエストは、Workfrontの「リクエスト」領域にある「送信済み」セクションの「計画」タブに残ります。
+   >
+   >* すべての承認者は、リクエストが承認または却下される前に決定を行う必要があります。
+
 
 1. （任意）これまでにリクエストフォームを共有したことがない場合は **** Publish} をクリックします
 
    または
 
    「**共有**」をクリックしてフォームを共有し、「**リンクをコピー**」をクリックします。
-1. （任意）ユーザーが共有リンクを使用してリクエストを送信すると、Workfront Planning から承認者に承認通知とメールが送信されます。
+1. （任意）ユーザーが共有リンクを使用してリクエストを送信すると、Workfront Planning からアプリ内承認通知とメールが承認者に送信されます。
+
+   >[!NOTE]
+   >
+   >   組織のWorkfront インスタンスは、ユーザーがメールおよびアプリ内通知を受信できるように、Adobeの Unified Experience にオンボーディングされる必要があります。
+
 
    リクエストの承認について詳しくは、[ リクエストの承認 ](/help/quicksilver/planning/requests/approve-request.md) を参照してください。
 

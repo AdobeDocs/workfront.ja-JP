@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '14681'
+source-wordcount: '14699'
 ht-degree: 91%
 
 ---
@@ -2139,6 +2139,8 @@ ht-degree: 91%
       * [Adobe Workfront Planning でのリクエストフォームの作成と管理](planning/requests/create-request-form.md)
       * [レコードを作成するためのAdobe Workfront Planning 要求の発行](planning/requests/submit-requests.md)
       * [Adobe Workfront Planning でのリクエストフォームの非公開](planning/requests/unpublish-request-form.md)
+      * [Adobe Workfront Planning でリクエストフォームに承認を追加する](planning/requests/add-approval-to-request-form.md)
+      * [Adobe Workfront Planning でリクエストを承認する](planning/requests/approve-request.md)
    * Adobe Workfront計画ビュー {#adobe-workfront-planning-views}
       * [ビュー：記事インデックス](planning/views/views-information.md)
       * [レコードビューの管理](planning/views/manage-record-views.md)

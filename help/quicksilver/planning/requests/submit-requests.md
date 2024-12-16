@@ -6,16 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 13%
+source-wordcount: '1000'
+ht-degree: 10%
 
 ---
 
 # レコードを作成するためのAdobe Workfront Planning 要求の発行
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
+<!--take Preview and Prod references out when releasing to Prod all-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
@@ -125,11 +126,11 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
 * Workfront Planning 要求の要求フォームには、フォームへのリンクからのみアクセスできます。
 * リクエストをWorkfront Planning に送信した後に編集することはできません。
-* 送信された各リクエストは、使用するフォームに関連付けられたレコードタイプのレコードを作成 <!--<span class="preview">if the form is not associated with an approval, or if the approval has been granted.</span> --> ます
+* 送信されたリクエストごとに、使用するフォームに関連付けられたレコードタイプのレコードが作成されます <span class="preview"> フォームが承認に関連付けられていない場合、またはすべての承認者によって承認が付与された場合 </span>。
 * リクエストフォームを送信して作成されたレコードを、他の方法で追加されたレコードと区別することはできません。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 * <span class="preview"> 送信されたリクエストは、Workfront </span> の「リクエスト」領域にある「送信済み」セクションの「計画」タブに表示されます。
 
-<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some incosistency between unified-approvals-service and intake-approvals-flow.-->
+<!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
 ## Workfront Planning への要求の発行
@@ -148,27 +149,26 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
    フォームが送信され、次の処理が行われます。
 
-   * <!--If the request form was not associated with an approval, or <span class="preview">if the approval was granted</span>, a-->新しいレコードが、フォームに関連付けられたレコードタイプに追加されます。
+   * リクエストフォームが承認と関連付けられていない場合、または <span class="preview"> すべての承認者によって承認が付与された場合 </span> フォームに関連付けられたレコードタイプに新しいレコードが追加されます。
 
-
-   * <!--If the request form was not associated with an approval, the--> <span class="preview"> リクエストが「Workfront リクエスト」領域の「送信済み」セクションに追加され、新しいレコードがレコードタイプページに追加されます。</span>
+   * リクエストフォームが承認に関連付けられていない場合、<span class="preview"> リクエストは「Workfront リクエスト」領域の「送信済み」セクションの「計画」タブに追加され、新しいレコードがレコードタイプページに追加されます。</span>
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview"> 少なくとも 1 つのワークスペースへのアクセス権を持つすべてのユーザーは、リクエスト エリアの「計画」タブを表示できます。 表示できるのは、自分が送信した要求のみです。 Workfront管理者は、システム内のすべてのリクエストを表示できます。</span> <!--ensure this is correct; asking team in slack-->
+     ><span class="preview"> 少なくとも 1 つのワークスペースへのアクセス権を持つすべてのユーザーは、リクエスト エリアの「計画」タブを表示できます。 表示可能な少なくとも権限を持つ、自分または他のユーザーがワークスペースに送信したリクエストのみを表示できます。 Workfront管理者は、システム内の任意のワークスペースに送信されたすべてのリクエストを表示できます。</span> <!--ensure this is correct; asking team in slack-->
 
-   <!--
-   * <span class="preview">If the request form was associated with an approval, the request is temporarily saved to the Planning tab in the Submitted section of the Workfront Requests area. No record is created for the record type associated with the request form.</span>
+   * <span class="preview"> リクエストフォームが承認に関連付けられていた場合、リクエストは一時的に「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに保存されます。 リクエストフォームに関連付けられたレコードタイプのレコードが作成されません。</span>
 
-      <span class="preview">For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>  
-   -->
-   <!--
+     <span class="preview"> 詳しくは、[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください </span>。
+   * <span class="preview"> リクエストが正常に送信されたかレビュー用に送信されたことを示すメールがアプリ内に届きます。</span>
+   * <span class="preview"> リクエストフォームが承認と関連付けられている場合、承認者は、リクエストをレビューして承認するためのアプリ内通知とメール通知を受け取ります。</span>
 
-   * <span class="preview">You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.</span> 
-   * <span class="preview">If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.</span> 
-   -->
+     >[!NOTE]
+     >
+     ><span class="preview"> メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobeの Unified Experience にオンボードされている場合にのみ表示されます。</span>
+
 
 
 

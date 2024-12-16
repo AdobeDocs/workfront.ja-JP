@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
 workflow-type: tm+mt
-source-wordcount: '153'
-ht-degree: 21%
+source-wordcount: '170'
+ht-degree: 19%
 
 ---
 
@@ -25,6 +25,6 @@ ht-degree: 21%
 
 * [Adobe Workfront Planning でのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)
 * [Adobe Workfront計画リクエストの発行](/help/quicksilver/planning/requests/submit-requests.md)
-* [Adobe Workfront Planning でのリクエストフォームの非公開 ](/help/quicksilver/planning/requests/unpublish-request-form.md)
-  <!--* <span class="preview">[Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>-->
-  <!--* <span class="preview">[Approve request](/help/quicksilver/planning/requests/approve-request.md)</span>-->
+* [Adobe Workfront Planning でのリクエストフォームの非公開](/help/quicksilver/planning/requests/unpublish-request-form.md)
+* <span class="preview">[Adobe Workfront Planning の要求フォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>
+* <span class="preview">[Adobe Workfront Planning でのリクエストの承認 ](/help/quicksilver/planning/requests/approve-request.md)</span>
