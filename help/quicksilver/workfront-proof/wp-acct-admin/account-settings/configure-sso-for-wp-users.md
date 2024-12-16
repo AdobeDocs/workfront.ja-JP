@@ -7,7 +7,7 @@ description: Select プランまたは Premium プランがある場合は、既
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 007a603ef1df2a02959d7fb623ac784bf5b9cb80
+source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
 workflow-type: tm+mt
 source-wordcount: '1225'
 ht-degree: 100%
@@ -59,12 +59,12 @@ SSO を設定するには、以下のように行います。
 1. **ログイン URL** を入力します（3）。
 これは、ユーザーを ID プロバイダーにリダイレクトするために呼び出される URL です。
 
-1. ブラウザーに入力する実際の URL ではなく、むしろログイン画面を表示するために送信された情報を処理するエンドポイントです。
+   ブラウザーに入力する実際の URL ではなく、むしろログイン画面を表示するために送信された情報を処理するエンドポイントです。
 
-**ログアウト URL** を入力します（4）。
+1. **ログアウト URL** を入力します（4）。
 これは、ログアウト後に返される URL です。例：
 
-**https://www.yourcompany.com/services/logout.asp**
+   **https://www.yourcompany.com/services/logout.asp**
 
 1. **証明書フィンガープリント**&#x200B;を入力します（5）。
 1. SAML ID プロバイダーによって提供される SAML 証明書の SHA1 フィンガープリント。
