@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
-source-git-commit: e9df34c206dd65ccc2edec00087248eb4ed16f54
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '953'
 ht-degree: 8%
 
 ---
@@ -24,7 +24,8 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->環境の昇格のためにオブジェクトを設定している間にカスタム更新サンドボックスが更新されると、その設定は更新時に失われます。 未処理の環境プロモーションオブジェクトおよびパッケージがすべて正常に昇格されない限り、カスタム更新サンドボックスを更新しないことをお勧めします。
+>* 環境の昇格のためにオブジェクトを設定している間にカスタム更新サンドボックスが更新されると、その設定は更新時に失われます。 未処理の環境プロモーションオブジェクトおよびパッケージがすべて正常に昇格されない限り、カスタム更新サンドボックスを更新しないことをお勧めします。
+>* パッケージインストールの一環としてターゲット環境で作成されたオブジェクトは **元の環境のオブジェクトと同じ ID を持たない** ありません）。 これは、オブジェクトの作成時にシステムによって ID が割り当てられているためです。
 
 ## アクセス要件
 
@@ -34,7 +35,7 @@ ht-degree: 8%
   <tr>
    <td><strong>[!DNL Adobe Workfront] プラン</strong>
    </td>
-   <td> Prime または Ultimate （新規プランのみ）
+   <td> PrimeまたはUltimate（新規プランのみ）
    </td>
   </tr>
   <tr>

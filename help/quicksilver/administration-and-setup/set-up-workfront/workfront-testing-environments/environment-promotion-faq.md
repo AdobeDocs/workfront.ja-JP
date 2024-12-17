@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 16%
@@ -26,13 +26,13 @@ ht-degree: 16%
 
 クロスドメイン環境のプロモーションは、現在サポートされていません。 同じドメイン内の環境間で昇格させる必要があります。
 
-## AdobeBusiness Platform/IMS は環境推進のための前提条件ですか？
+## AdobeBusiness Platform/IMS は環境促進のための前提条件ですか？
 
 ### 回答
 
 いいえ。環境のプロモーションは、IMS 対応Workfront インスタンスと非 IMS AEM Forms インスタンスの両方で利用できます。
 
-## Workfront インスタンスが Prime または Ultimate ライセンス上にあるかどうかを確認するにはどうすればよいですか？
+## Workfront インスタンスがPrime ライセンスまたはUltimate ライセンスのどちらにあるか調べるにはどうすればよいですか？
 
 ### 回答
 
@@ -68,7 +68,6 @@ ht-degree: 16%
 ## 個々のコンポーネントのプロモーションをスキップするオプションはありますか？ オプション「`Use Existing`」、「`Overwrite`」、「`Save with a new Name`」が存在する場所に `Skip` 追加して、個々のパラメーターの昇格をスキップできますか？
 
 ### 回答
-
 
 * 「既存を使用」は、ターゲット環境内の既存のオブジェクトにマッピングされ、変更を行わないため、「スキップ」またはデプロイメントを無視するのと同じです。
 * オブジェクトをスキップするには、を削除することをお勧めします。
