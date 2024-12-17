@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 2%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -60,7 +60,7 @@ Quip 統合に小規模な機能変更が適用されました。 クラウド�
 
 >[!NOTE]
 >
->プレビューリリース：2024年11月6日（PT）、実稼動版リリース（すべてのお客様向け）：2024年11月6日（PT）
+>プレビューリリース：2024 年 12 月 12 日（PT）に一時的に削除されました。すべてのお客様向けに実稼動環境に再リリースされました：2024 年 12 月 17 日（PT）
 
 パフォーマンスを向上させるために、Workfrontのメインナビゲーションエリアとセカンダリナビゲーションエリアをアップグレードしました。 ルックアンドフィールの変更は最小限です。
 
