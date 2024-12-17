@@ -6,16 +6,18 @@ description: '[!UICONTROL  ホーム ] エリアから作業項目およびプ�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 22%
+source-wordcount: '811'
+ht-degree: 20%
 
 ---
 
 # ホームエリアからの作業項目とプロジェクトの作成
 
-[!UICONTROL  ホーム ] エリアから作業項目およびプロジェクトを作成できます。 ホームでは、次のことができます
+[!UICONTROL  ホーム ] エリアから作業項目およびプロジェクトを作成できます。
+
+ホームでは、次のことができます
 
 * 個人用タスクを作成する
 * リクエストの送信
@@ -23,6 +25,8 @@ ht-degree: 22%
 * テンプレートまたは空のプロジェクトからプロジェクトを作成するか、MS プロジェクトをインポートします。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -52,16 +56,23 @@ ht-degree: 22%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
++++
+
 ## 個人の To Do アイテムを作成する
 
-[!UICONTROL  ホーム ] エリアに個人の To Do アイテムを作成できます。 To Do アイテムは、自分で作成する個人用タスクです。
+[!UICONTROL  ホーム ] エリアの To Do ウィジェットに、個人の To Do アイテムを作成できます。 To Do アイテムは、自分で作成する個人用タスクです。
 
 自分および他のユーザーは、自分の個人タスクを個人タスクレポートで表示できます。 必要に応じて、そこからプロジェクトに追加できます。
+
+>[!TIP]
+>
+>ユーザープロファイルページから他のユーザーまたは自分に送信した作業項目も、ユーザーのホーム領域の To-Do ウィジェットに表示されます。 詳しくは、[ 個人タスクの作成 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
+
 
 To Do 項目を作成するには：
 
 1. 右上隅の **[!UICONTROL メインメニュー]**![](assets/main-menu-icon.png) または左上隅の **メインメニュー** をクリック ![](assets/lines-main-menu.png)、可能な場合は **[!UICONTROL ホーム]** をクリックします。
-1. （条件付き） **カスタマイズ** をクリックし、**To Do** をクリックして、To Do ウィジェットをホーム画面に追加します。
+1. （条件付き） **カスタマイズ** をクリックし、**To-Do** をクリックして、To-Do ウィジェットをホーム画面に追加します。
 1. **To Do** ウィジェットに移動し、「**To Do を追加** をクリックします。
 1. 個人の To Do アイテムの名前を入力し、[Enter] をクリックします。
 1. （任意）「**日付**」アイコンをクリックして、項目の期限を追加 ![](assets/date-icon.png) ます。

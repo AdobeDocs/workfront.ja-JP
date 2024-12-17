@@ -1,19 +1,28 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: イシューを移動
+title: 問題の移動
 description: イシューをプロジェクトとタスクの間で移動できます。
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 6c82c585376b41cff0e57b253b6a214fb00309de
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 100%
+source-wordcount: '827'
+ht-degree: 93%
 
 ---
 
 # イシューを移動
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 次のオブジェクト間でイシューを移動できます。
 
@@ -24,6 +33,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -31,25 +42,34 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リクエスト以上</p> <p>プロジェクトの「イシュー」セクションにイシューを移動するには、レビュー以上のライセンスが必要です。</p> </td> 
+   <td> <p>新規：</p> 
+   <ul><li>投稿者以上</li>
+   <li>プロジェクトの「イシュー」セクションでイシューを移動するには軽度以上</li></ul>
+   <p>現在：</p>
+   <ul>
+   <li><p>リクエスト以上</p></li>
+   <li><p>プロジェクトの「イシュー」セクションにイシューを移動するには、レビュー以上のライセンスが必要です。</p></li></ul>   
+     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。アクセスレベルにおけるイシューへのアクセス権については、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセス権の付与</a>を参照してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>イシューへのアクセス権を編集</p> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>イシューに対する権限の管理</p> <p>イシューを追加機能を使用してイシューを移動する項目に対する参加権限。</p> <p> イシューに関する権限の付与については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a>を参照してください。</p> <p>追加権限の要求については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権の要求</a>を参照してください。</p> </td> 
+   <td> <p>イシューに対する権限の管理</p> <p>イシューを追加機能を使用してイシューを移動する項目に対する参加権限。</td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## イシューの移動に関する考慮事項
 
@@ -58,6 +78,14 @@ ht-degree: 100%
 * **イシューがリクエストキューに関連付けられている場合：**&#x200B;イシューを別のオブジェクトに移動し、そのイシューをリクエストキューに関連付けると、移動したイシューは最初のイシューの元になったキューに関連付けられなくなります。
 * **イシューにドキュメントが添付されている場合：**&#x200B;イシューを別のオブジェクトに移動し、イシューにドキュメントが添付されている場合、そのドキュメント、バージョンおよびプルーフも新しいイシューに移動します。ドキュメントに関連付けられている承認は移動されません。
 * **イシューがドキュメントまたはフォルダーにリンクされている場合：** Google Drive などのサードパーティのサービスにリンクされたドキュメントまたはフォルダーを含むイシューを移動すると、そのイシューと共にドキュメントへのリンクが移動します。
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving issues that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## リスト内のイシューを移動
 
@@ -74,13 +102,7 @@ ht-degree: 100%
 
    ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
-1. 引き続きイシューを移動します。[単一のイシューを移動](#move-a-single-issue)の節の手順 2 を参照してください。
-
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   (NOTE: ensure step stays accurate)
-   </MadCap:conditionalText>
-   -->
+1. [ 単一の問題の移動 ](#move-a-single-issue) の節で説明しているように、手順 2 から問題の移動を続行します。
 
 ## 単一のイシューを移動 {#move-a-single-issue}
 

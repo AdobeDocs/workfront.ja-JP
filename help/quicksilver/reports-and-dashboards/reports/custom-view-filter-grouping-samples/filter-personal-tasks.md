@@ -2,14 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'フィルター：個人用タスク'
+title: フィルター：個人タスク
 description: このタスクフィルターは、ユーザーに送信されたアドホックな作業要求、またはユーザーがホームエリアで追加した To Do アイテムを返します。 個人のタスクはプロジェクトに接続されていませんが、必要に応じてプロジェクトに移動できます。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 23%
+source-wordcount: '302'
+ht-degree: 22%
 
 ---
 
@@ -17,11 +18,11 @@ ht-degree: 23%
 
 <!--Audited: 10/2024-->
 
-このタスクフィルターは、ユーザーに送信されたアドホックな作業要求、またはユーザーがホームエリアで追加した To Do アイテムを返します。
+このタスクフィルターは、ユーザーに送信されたアドホックな作業要求、またはユーザーがホーム領域の To Do ウィジェットに追加した To Do アイテムを返します。
 
 アドホックな作業要求および To Do アイテムは、個人のタスクとしてAdobe Workfrontに保存されます。
 
-個人のタスクはプロジェクトに接続されていませんが、必要に応じてプロジェクトに移動できます。
+個人のタスクはプロジェクトに接続されていませんが、必要に応じてプロジェクトに移動できます。 詳しくは、[ 個人タスクの作成 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
 
 ![](assets/personal-tasks-report.png)
 
@@ -75,7 +76,7 @@ ht-degree: 23%
 1. （条件付き）次のフィルター条件を選択します。
 
    * リストフィルターから：**タスク**/**個人****True**
-   * レポートフィルターから：**タスク**/**個人**/**次に等しい**/**True**
+   * レポートフィルターから：**タスク**/**個人**/**次と等しい（大文字と小文字を区別）**/**True**。
 1. フィルターを保存します。
 
    リストには、どのプロジェクトにも含まれていない個人用タスクのみが表示されます。

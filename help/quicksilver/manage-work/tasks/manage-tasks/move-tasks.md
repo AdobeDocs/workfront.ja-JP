@@ -6,14 +6,23 @@ description: Adobe Workfront では、様々なプロジェクトや様々な親
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 421fd012c2ce6a4ae0b11fe343c279d1a3fd551c
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 100%
+source-wordcount: '1442'
+ht-degree: 98%
 
 ---
 
 # タスクの移動
+
+<!--Audited: 12/2024-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 Adobe Workfront では、次のオブジェクト間でタスクを移動できます。
 
@@ -27,6 +36,8 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事のアクションを実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -34,29 +45,29 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規プラン：標準 </p> 
  <p>または</p>  
 <p>現在のプラン：ワーク以上 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>タスクおよびプロジェクトへのアクセスを編集</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>タスクに対する権限を管理</p> <p>タスクの追加が可能な、プロジェクトに対する参加以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>タスクに対する権限を管理</p> <p>タスクの追加が可能な、プロジェクトに対する参加以上の権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## タスクを移動する際の考慮事項
 
@@ -75,6 +86,14 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
 次の項目は、デフォルトではタスクと共に移動しません。
 
 * マイルストーン
+
+<!--
+<div class="preview">
+
+* Your system or group administrator can prevent you from moving tasks that have logged hours, depending on how they configure the Allow users to move tasks and issues with logged hours preference in the Setup area. For information, see [Configure system-wide task and issue preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md). 
+
+</div>
+-->
 
 ## リスト内のタスクを移動
 
@@ -100,7 +119,7 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
 
    ![](assets/move-task-in-list-nwe-350x119.png)
 
-   タスクを移動ボックスが表示されます。
+   **タスクを移動** ボックスが表示されます
 
 1. この記事の[タスクレベルでタスクを移動](#move-a-task-at-the-task-level)の節の、手順 4 からの説明に従って、タスクの移動を続行します。
 

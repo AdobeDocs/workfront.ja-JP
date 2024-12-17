@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: f8f86eae11e7f175e130d7f0265d92519923402f
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '2107'
-ht-degree: 96%
+ht-degree: 95%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 96%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
+
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 [!DNL Adobe Workfront] 管理者は、タスクとイシューに関するシステム全体の環境設定を指定できます。これらの環境設定は、[!DNL Workfront] でのユーザーによるタスクおよびイシューの作成方法に影響します。
 
@@ -42,7 +49,7 @@ Linked to Converting Issues.-->
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
    <td><p>新規：[!UICONTROL Standard]</p>
    または
    <p>現在：[!UICONTROL Plan]</p></td> 
@@ -54,7 +61,7 @@ Linked to Converting Issues.-->
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -69,6 +76,9 @@ Linked to Converting Issues.-->
    * [[!UICONTROL 新規タスクの初期設定]](#new-task-defaults)
    * [[!UICONTROL イシュー]](#issues)
    * [[!UICONTROL 削除]](#deletion)
+
+   <!--* <span class="preview">[Move](#move)</span>-->
+
    * [[!UICONTROL 実際の日付]](#actual-dates)
    * [[!UICONTROL 委任]](#delegation)
    * [[!UICONTROL アクセス]](#access)
@@ -162,6 +172,22 @@ Linked to Converting Issues.-->
   >時間を記録していたタスクとイシューを削除すると、記録されていた時間は削除されるか、「[!UICONTROL 設定]」の「[!UICONTROL タイムシートおよび時間設定]」エリアの設定に基づいて保持されます。プロジェクトの削除時に警告メッセージは表示されません。
 
 * このオプションの選択を解除すると、時間が記録されたタスクやイシューを削除したり、タスクやイシューの時間が記録されたプロジェクトを削除したりした際に、禁止の警告が表示されます。この警告は、時間が記録されたタスクやイシューの削除を管理者が禁止していることを示しています。タスク、イシュー、およびタスクやイシューの時間が記録されたプロジェクトは削除できません。
+
+<!--*****also replace the & with "and" in the Deletion section
+
+<div class="preview">
+
+### Move
+
+**[!UICONTROL Allow users to move tasks and issues with logged hours]**: Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.
+
+* When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. 
+
+* When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. 
+
+</div>
+
+-->
 
 ### [!UICONTROL 実際の日付] {#actual-dates}
 

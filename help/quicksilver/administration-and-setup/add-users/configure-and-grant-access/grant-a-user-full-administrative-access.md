@@ -5,14 +5,16 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '1579'
-ht-degree: 98%
+source-wordcount: '1551'
+ht-degree: 94%
 
 ---
 
 # ユーザーへの完全な管理アクセス権の付与
+
+<!--Audited: 12/2024-->
 
 >[!IMPORTANT]
 >
@@ -47,16 +49,18 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規：標準</p>
+   <p>現在：プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。詳しくは、<a href="#" class="MCXref xref selected">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> <p><b>メモ</b>：まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。 </td> 
   </tr> 
  </tbody> 
 </table>
 
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 +++
 
 ## 1 人のユーザーにシステム管理者の完全アクセス権を付与
@@ -64,11 +68,11 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
 {{step-1-to-users}}
 
 1. 管理者権限を付与するユーザーの名前をクリックします。
-1. 「その他」メニュー ![](assets/more-icon.png) をクリックして、「**編集**」をクリックします。
+1. ユーザー名の右 ![](assets/more-icon.png) にある **その他** メニューをクリックしてから、**編集** をクリックします。
 
-1. 表示される「**ユーザーを編集**」ボックスで、「**アクセス**」をクリックします。
-
-1. **アクセスレベル**&#x200B;ドロップダウンリストから、**システム管理者**&#x200B;アクセスレベルを選択します。
+   **担当者を編集** ボックスが表示されます。
+1. 左側のパネルで「**アクセス**」をクリックします。
+1. **アクセスレベル** ドロップダウンリストから、**システム管理者** アクセスレベルを選択します。
 
    システムで行われている変更によっては、このアクセスレベルの名前が変わる場合があります。
 
@@ -78,7 +82,7 @@ Adobe Workfront 管理者は、システム管理者のアクセスレベルを�
 
 ## Workfront 管理者のアクセスと管理権限を持つプランユーザーのアクセス  {#access-of-a-workfront-administrator-vs-access-of-a-plan-user-with-administrative-rights}
 
-次の 2 つの表に、Workfront 管理者のアクセスレベルを持つユーザーと、管理権限を持つプランライセンスを持つユーザーのアクセス権の違いを示します。
+次の 2 つの表に、Workfront System Administrator のアクセスレベルを持つユーザーのアクセス権と、一部の管理者権限を持つプランライセンスを持つユーザーのアクセス権の違いを示します。
 
 Workfront の管理者は、誰が作成したかに関係なく、システム内のすべてのオブジェクトの表示、新しいオブジェクトの作成、既存のオブジェクトの変更または削除が可能です。システム内のすべてのオブジェクトに対する完全なアクセス権を持ちます。
 

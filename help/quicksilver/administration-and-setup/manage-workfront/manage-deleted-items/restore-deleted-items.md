@@ -8,10 +8,10 @@ feature: System Setup and Administration
 author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
 source-wordcount: '1052'
-ht-degree: 98%
+ht-degree: 96%
 
 ---
 
@@ -137,7 +137,7 @@ Workfront の管理者は、過去 30 日間に削除されているプロジェ
 
 * 解決オブジェクト
 
-  解決プロジェクトは、「**元のイシューを保持し、その解決策を次の&lt;**&#x200B;プロジェクト&#x200B;**または**&#x200B;タスク&#x200B;**>に関連付けます**」オプションで設定された変換済みイシューです。親プロジェクトまたはタスクを削除すると、イシューはそのプロジェクトまたはタスクにリンクされなくなるので、解決オブジェクトとして識別されなくなります。親を復元しても、リンクは復元されません。
+  解決中のオブジェクトは、「元のイシューを保持して、その解決をこの **** （プロジェクト **または** タスク） **> に結び付ける** オプションで設定された変換されたイシューです。 親プロジェクトまたはタスクを削除すると、イシューはそのプロジェクトまたはタスクにリンクされなくなるので、解決オブジェクトとして識別されなくなります。親を復元しても、リンクは復元されません。
 
   Workfront 管理者またはグループ管理者が、変換時に解決オブジェクトに一致するようにイシューを設定する方法に関して詳しくは、[システム全体のタスクとイシューの環境設定を行う](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)および[グループのタスクとイシューの環境設定を行う](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
 

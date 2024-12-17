@@ -8,10 +8,10 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 100%
+source-wordcount: '923'
+ht-degree: 97%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Workfront には、新機能と更新をリリースするためのモデ�
 
 通常、リリース日の前日の夜、午後 8～10 時（米国山岳部時間）にリリースが行われます。
 
-通常、プレビューの機能は、次回のリリースで実稼動環境での利用ができるようになります。ただし、予定されたリリース以外の実稼動環境で機能が利用できるようになる場合もあります。これらの変更点は、お客様が把握する時間を十分に設けるため、少なくとも 2 週間はプレビューに残されます。これらの変更点は、プレビューに追加された時点で、お知らせセンターからも通知されます。
+通常、プレビューの機能は、次回のリリースで実稼動環境での利用ができるようになります。ただし、予定されたリリース以外の実稼動環境で機能が利用できるようになる場合もあります。これらの変更は通常、変更を理解するのに十分な時間を確保するために、少なくとも 2 週間プレビューのままになります。
 
 四半期および迅速リリースプロセスについて詳しくは、[組織での迅速リリースを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
 
