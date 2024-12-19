@@ -6,10 +6,11 @@ title: cURL を使用した HTTP モジュールの追加
 description: cURL リクエストをシナリオに貼り付けると、Fusion は cURL リクエストから設定された HTTP モジュールを作成します。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
+source-git-commit: 785f39fabcb19233fd1bc79c14222225a3ea72a2
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 15%
+source-wordcount: '283'
+ht-degree: 17%
 
 ---
 
@@ -69,10 +70,6 @@ cURL リクエストをシナリオに貼り付けると、Fusion は cURL リ�
 cURL を使用して HTTP モジュールを作成するには：
 
 1. Fusion の外部（テキストエディターなど）で cURL リクエストのテキストを作成します。
-
-   >[!IMPORTANT]
-   >
-   >Windows マシンで Fusion を使用している場合、cURL リクエストに改行を含めないでください。
 1. cURL リクエストをクリップボードにコピーします。
 1. 左側のパネルで「**[!UICONTROL シナリオ]**」タブをクリックします。
 1. モジュールを作成するシナリオを選択します。
@@ -89,10 +86,6 @@ cURL を使用して HTTP モジュールを作成するには：
 
 ## トラブルシューティング
 
-cURL をシナリオに貼り付けない場合は、次の点を確認してください。
-
-* ブラウザーの設定を確認し、クリップボードからの貼り付けが有効になっていることを確認します。
-* Windows を実行している場合は、cURL リクエストに改行が含まれていないことを確認します。
-
+cURL がシナリオに貼り付けられていない場合は、ブラウザー設定を調べ、クリップボードからの貼り付けが有効になっていることを確認します。
 
 
