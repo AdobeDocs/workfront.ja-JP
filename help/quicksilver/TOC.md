@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 3f10e64745b95e4c7d668d798a6c71469948d617
 workflow-type: tm+mt
-source-wordcount: '14699'
-ht-degree: 91%
+source-wordcount: '14715'
+ht-degree: 90%
 
 ---
 
@@ -184,6 +184,7 @@ ht-degree: 91%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion リリースアクティビティ {#fusion-release}
          * [Adobe Workfront Fusion リリースアクティビティ](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion リリースアクティビティ：2024年12月16日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Workfront Fusion リリースアクティビティ：2024年12月2日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Workfront Fusion リリースアクティビティ：2024年11月25日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
          * [Workfront Fusion リリースアクティビティ：2024年11月11日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-11.md)
@@ -2264,6 +2265,7 @@ ht-degree: 91%
       * [Adobe Workfront Fusion 開発ツールを使用したシナリオのデバッグ](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
       * [AI を使用したシナリオセグメントの生成](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
       * [Adobe Workfront Fusion でシナリオスコアリングエキスパートを実行します](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
+      * [cURL を使用した HTTP モジュールの追加](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
       * Adobe Workfront Fusion のシナリオテンプレート {#fusion-scenario-templates}
          * [シナリオのテンプレート](workfront-fusion/scenarios/templates/fusion-templates.md)
          * [[!DNL Fusion] テンプレートの概要](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
@@ -2342,6 +2344,7 @@ ht-degree: 91%
       * [画像モジュール](workfront-fusion/apps-and-their-modules/image-module.md)
       * [Jira ソフトウェアモジュール](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
       * [JSON モジュール](workfront-fusion/apps-and-their-modules/json-modules.md)
+      * [JSONata モジュール](workfront-fusion/apps-and-their-modules/jsonata-module.md)
       * [JWT モジュール](workfront-fusion/apps-and-their-modules/jwt-modules.md)
       * [MariaDB モジュール](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
       * [Markdown モジュール](workfront-fusion/apps-and-their-modules/markdown-modules.md)
