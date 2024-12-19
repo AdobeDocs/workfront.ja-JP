@@ -6,18 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: cd60710c8002d090bf1ed7a300d3e600d98032b1
+source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 34%
+source-wordcount: '395'
+ht-degree: 22%
 
 ---
 
-# 優先度ワークリストでのプロジェクトとタスクの詳細の表示
+# プロジェクトとタスクの詳細を優先度で表示する
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
-プロジェクトとタスクの詳細は、優先度ワークリストに表示できます。
+プロジェクト、タスク、イシューの詳細は、優先度ワークリストに表示できます。
 
 ## アクセス要件
 
@@ -57,7 +57,9 @@ ht-degree: 34%
 
 +++
 
-## プロジェクトの詳細を表示
+## ワークリストのサイドパネルに詳細を表示
+
+### プロジェクトの詳細を表示
 
 {{step1-to-priorities}}
 
@@ -72,7 +74,7 @@ ht-degree: 34%
    ![ プロジェクト詳細 ](assets/project-details.png)
    <!--new screen for prod ![](assets/project-details-new.png)-->
 
-## タスクの詳細の表示
+### タスクの詳細の表示
 
 {{step1-to-priorities}}
 
@@ -80,10 +82,47 @@ ht-degree: 34%
 1. デフォルトではタスクが選択されています。 ここで次のことができます
    * プロジェクトの詳細と説明の表示と編集
    * プロジェクトの表示とコメントの追加
-   * ドキュメントの表示と追加
+   * <span class="preview"> ドキュメントの表示と追加 </span>
+   * <span class="preview"> プルーフの作成 </span>
    * 時間を記録
    * ファイルを追加
    * クイックリンクの追加
 
    ![ タスクの詳細 ](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
+
+### 問題の詳細を表示
+
+{{step1-to-priorities}}
+
+1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![ をクリック ](assets/summary-icon.png) します。
+1. イシューはデフォルトで選択されています。 ここで次のことができます
+   * プロジェクトの詳細と説明の表示と編集
+   * プロジェクトの表示とコメントの追加
+* <span class="preview"> ドキュメントの表示と追加 </span>
+* <span class="preview"> プルーフの作成 </span>
+   * 時間を記録
+   * ファイルを追加
+   * クイックリンクの追加
+
+  <!--new screen for prod ![issue details](assets/issue-details.png)-->
+
+## 詳細ページに詳細を表示
+
+<span class="preview"> タスクまたは問題の詳細ページでリアルタイムの更新を表示できます。 また、リアルタイムプレゼンス指標を使用して、自分と同時に他のユーザーがページを表示しているかどうかを確認することもできます。</span>
+
+## 作業項目の詳細の表示
+
+{{step1-to-priorities}}
+
+1. 作業リストで、作業項目名をクリックします。 詳細ページでは、次のことができます
+
+* プロジェクトの詳細と説明の表示と編集
+* プロジェクトの表示とコメントの追加
+* <span class="preview"> ドキュメントの表示と追加 </span>
+* <span class="preview"> プルーフの作成 </span>
+* 時間を記録
+* ファイルを追加
+* クイックリンクの追加
+
+<!-- screenshot for prod-->

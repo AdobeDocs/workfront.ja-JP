@@ -6,9 +6,9 @@ description: キャンバスダッシュボードで承認指標を確認でき�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
+source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -45,10 +45,6 @@ ht-degree: 1%
 KPI とグラフを使用して、ドキュメントの承認に関する高レベルの情報を表示できます。 現在、ベータ版ではドリルダウン情報は使用できません。
 
 ### KPI
-
->[!IMPORTANT]
->
->新しいドキュメント承認データは、現在、US Mountain タイムゾーンの夜に更新されます。 リアルタイムのアップデートが予定されており、近日中に提供されます。
 
 ![KPI の例 ](assets/kpi-dashboard.png)
 
@@ -129,10 +125,6 @@ KPI とグラフを使用して、ドキュメントの承認に関する高レ�
 
 ### グラフ
 
->[!IMPORTANT]
->
->新しいドキュメント承認データは、現在、US Mountain タイムゾーンの夜に更新されます。 リアルタイムのアップデートが予定されており、近日中に提供されます。
-
 ![ グラフの例 ](assets/chart-dashboard.png)
 
 #### 決定棒グラフ別の承認
@@ -179,10 +171,6 @@ KPI とグラフを使用して、ドキュメントの承認に関する高レ�
 1. 画面の右上隅にある「**完了**」をクリックします。
 
 ## テーブルを使用した詳細なレビューおよび承認情報の追加
-
->[!IMPORTANT]
->
->新しいドキュメント承認データは、現在、US Mountain タイムゾーンの夜に更新されます。 リアルタイムのアップデートが予定されており、近日中に提供されます。
 
 ![ テーブルの例 ](assets/table-dashboard.png)
 

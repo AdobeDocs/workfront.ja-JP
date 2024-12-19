@@ -5,9 +5,9 @@ description: AI アシスタントの概要
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
+source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '707'
 ht-degree: 10%
 
 ---
@@ -47,7 +47,7 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。## AI アシスタントの前提条件
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## AI アシスタントの前提条件
 
@@ -55,7 +55,7 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
 * 組織がAdobe IMS（Identity Management System）に移行している必要があります
 * Adobe統合エクスペリエンスを有効にする必要があります
-* 組織には Select、Prime または Ultimate Workfront プランが必要です
+* 組織には Select、Prime、UltimateのいずれかのWorkfront プランが必要です
 * Adobeは、ファイルに署名済みのAdobe生成 AI 契約が必要
 
   契約の署名について詳しくは、この記事の [Adobe生成 AI 契約への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
@@ -96,9 +96,16 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
   >[!NOTE]
   >
-  >この機能は、Prime または Ultimate Workfront プランを利用している組織のみが利用できます。
+  >この機能は、PrimeまたはUltimate Workfront プランを利用している組織のみが使用できます。
 
   詳細については、[AI アシスタントを使用して計算フィールドの数式を生成または変更する ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) を参照してください。
+
+<!--<div class="preview">
+* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
+
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+
+</div>-->
 
 ## AI アシスタントで使用可能なオブジェクトタイプ
 

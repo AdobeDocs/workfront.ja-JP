@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
+source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 8%
+source-wordcount: '1002'
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 8%
 
 ### フィルターを使用した作業の検索
 
-フィルターを使用して、最も重要な作業を見つけます。 自分に割り当てられたタスクやイシューは、次の方法でフィルタリングできます。
+フィルターを使用して、最も重要な作業を見つけます。 <span class="preview"> 自然言語を使用してスマートフィルターでの作業を検索したり </span>、標準フィルターを使用して、割り当てられたタスクやイシューを検索したりできます。
 
 <table>
   <tbody>
@@ -166,11 +166,6 @@ ht-degree: 8%
 ![](assets/upload-file.png)
 <!--new screen for prod ![](assets/update-log-upload.png)-->
 
-### ドキュメントを表示 [!BADGE  近日公開 ]{type=Informative}
-
-「ドキュメント」タブでは、作業項目に関連するすべてのファイルを表示できます。 ドキュメントを名前、ファイルタイプまたはユーザーでフィルタリングしたり、名前で並べ替えたり、アップロード日で並べ替えたりできます。
-
-また、ドキュメントやプルーフを開くこともできます。
 
 ### クイックリンクの追加
 
@@ -180,21 +175,33 @@ ht-degree: 8%
 
 詳しくは、[ 優先度でクイックリンクを追加および管理 ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md) を参照してください。
 
-### アセットのレビューと承認 [!BADGE  近日公開 ]{type=Informative}
+### ドキュメントの表示 [!BADGE  プレビューで使用可能 ]{type=Informative}
 
-アセットの確認と承認は、優先度ロードマップに記載されています。
+「ドキュメント」タブでは、作業項目に関連するすべてのファイルを表示できます。 ドキュメントを名前、ファイルタイプまたはユーザーでフィルタリングしたり、名前で並べ替えたり、アップロード日で並べ替えたりできます。
 
-現時点では、新しいホームでマイ承認ウィジェットと全承認ウィジェットを使用することをお勧めします。
+また、ドキュメントやプルーフを開くこともできます。
 
-詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
+### アセットのレビューと承認 [!BADGE  プレビューで使用可能 ]{type=Informative}
+
+タスクまたは問題の「ドキュメント」タブから、次の操作を実行できます
+
+* シンプルなプルーフまたは詳細プルーフの作成
+* プルーフビューアを起動してコメントを残し、決定を行う
 
 
 ## [!DNL Catch me up] を使用して、見逃したもの [!BADGE  近日公開予定 ] を確認します{type=Informative}
 
 [!DNL Catch me up] 機能を使用して、見逃した内容を確認します。 キャッチアップでは、24 時間、3 日、7 日以内に、プロジェクトに関する更新、アップロードされたドキュメント、承認、その他の注目すべき変更点をまとめます。
 
+<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
 
 ![](assets/catch-me-up.png)
+
+<!--need new screen for prod-->
+
+## 詳細ページでリアルタイムの更新を表示 [!BADGE  プレビューで利用可能 ]{type=Informative}
+
+タスクまたはイシューの詳細ページでリアルタイムの更新を表示できます。 また、リアルタイムプレゼンス指標を使用して、自分と同時に他のユーザーがページを表示しているかどうかを確認することもできます。
 
 ## 考慮事項
 

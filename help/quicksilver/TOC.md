@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 30f94553172113df71c7a5aa965d24d17fd449a1
+source-git-commit: 8706a099b3f8111d78c3625ac1fce02cfbe07452
 workflow-type: tm+mt
-source-wordcount: '14728'
+source-wordcount: '14733'
 ht-degree: 90%
 
 ---
@@ -904,7 +904,7 @@ ht-degree: 90%
       * [優先度：記事索引](workfront-basics/priorities/priorities-toc.md)
       * [優先度：今後のリリース](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [優先度の概要](workfront-basics/priorities/get-started-with-priorities.md)
-      * [優先度ワークリストでのプロジェクトとタスクの詳細の表示](workfront-basics/priorities/view-task-project-details.md)
+      * [プロジェクトとタスクの詳細を優先度で表示する](workfront-basics/priorities/view-task-project-details.md)
       * [優先度での作業のフィルタリングとグループ化](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [ワークリスト列のカスタマイズ](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [重要な作業アイテムの優先順位付け](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
@@ -913,6 +913,7 @@ ht-degree: 90%
       * [優先度のログ時間](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
       * [優先度のファイルのアップロード](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [優先度でクイックリンクを追加および管理](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+      * [ドキュメントのアップロードと優先度設定でのプルーフの作成](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
    * ホーム {#home}
       * [ホーム](workfront-basics/using-home/home.md)
       * ホームエリアの使用 {#use-home-area}
