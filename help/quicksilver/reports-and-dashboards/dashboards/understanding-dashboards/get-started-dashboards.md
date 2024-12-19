@@ -7,10 +7,10 @@ description: ダッシュボードの目的は、情報に素早くアクセス�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 98%
+source-wordcount: '697'
+ht-degree: 96%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 98%
 
 ## ダッシュボードに追加できるオブジェクト
 
-Adobe Workfront では、次の項目をダッシュボードに入力できます。
+ダッシュボードには、Adobe Workfrontで次の項目を最大 25 個入力できます。
 
 * レポート\
   レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。

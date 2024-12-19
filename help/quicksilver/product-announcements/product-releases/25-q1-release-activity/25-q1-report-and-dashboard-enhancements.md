@@ -4,10 +4,11 @@ description: 2025 年第 1 四半期のレポートとダッシュボードの�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '144'
-ht-degree: 24%
+source-wordcount: '251'
+ht-degree: 13%
 
 ---
 
@@ -16,6 +17,18 @@ ht-degree: 24%
 このページでは、2025 年第 1 四半期リリースでプレビュー環境に加えられたすべてのレポートとダッシュボードの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
+
+## ダッシュボード内の報告書、外部ページ、またはカレンダー 25 件の制限
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 12 月 16 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリース（2025 年 1 月）で
+
+ダッシュボードのパフォーマンスを維持するために、ダッシュボードに配置できるレポート、外部ページまたはカレンダーの合計数に制限を実装しました。 新しいダッシュボードを作成する際に追加できる項目は最大 25 個です。
+
+既存のダッシュボードがこの上限を超えると、最上位の 25 個の項目のみが表示されることを警告するメッセージが表示され、一度ダッシュボードを編集すると、含まれる項目数が 25 個以下に減らされるまでダッシュボードは保存できません。
+
+詳しくは、[ ダッシュボードの作成 ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) を参照してください。
 
 ## データ接続の初回リーダーアカウント作成ボタン
 

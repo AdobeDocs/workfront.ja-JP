@@ -6,10 +6,10 @@ description: ダッシュボードを作成して、Adobe Workfrontの情報に�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 90%
+source-wordcount: '499'
+ht-degree: 85%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 <!--Audited: 01/2024-->
 
-ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。レポート、カレンダー、外部ページをダッシュボードに追加して他の人たちと共有し、最適なコラボレーションを実現できます。
+ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。最大 25 個の報告書、カレンダー、外部ページをダッシュボードに追加して、他のユーザーと共有して共同作業を最適化できます。
 
 ダッシュボードについて詳しくは、[ダッシュボードの基本を学ぶ](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)を参照してください。
 

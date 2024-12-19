@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '2187'
+source-wordcount: '2207'
 ht-degree: 39%
 
 ---
@@ -340,10 +340,8 @@ ht-degree: 39%
                         <li>
                             <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                         </li>
-                        <li>
-                            <p>すべてのお客様向けの実稼動リリース：準備中</p>
-                        </li>
                     </ul>
+                <p><i>この機能は、2024 年 12 月 19 日のプレビューおよび 25.1 の高速リリース実稼働（2025 年 1 月）から削除されます。</i></p>
                 </td>
             </tr>
             <tr>
@@ -360,10 +358,8 @@ ht-degree: 39%
                         <li>
                             <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                         </li>
-                        <li>
-                            <p>すべてのお客様向けの実稼動リリース：準備中</p>
-                        </li>
                     </ul>
+                <p><i>この機能は、2024 年 12 月 19 日のプレビューおよび 25.1 の高速リリース実稼働（2025 年 1 月）から削除されます。</i></p>
                 </td>
             </tr>
         </tbody>
@@ -469,7 +465,7 @@ ht-degree: 39%
                             <p>すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））</p>
                         </li>
                     </ul>
-                    <p><i>新しいAdobe Workfront プランの 1 つに加入している組織のみが利用できます。 Data Connect は Ultimate プランに含まれており、2025 年上半期に Prime および Select プランへのアドオンとして購入できるようになります。</i></p>
+                    <p><i>新しいAdobe Workfront プランの 1 つに加入している組織のみが利用できます。 Data Connect はUltimate プランに含まれており、2025 年上半期にPrimeおよび Select プランへのアドオンとして購入できるようになります。</i></p>
                 </td>
             </tr>
         </tbody>
@@ -523,7 +519,7 @@ ht-degree: 39%
                         <li>Experience Leagueドキュメントの情報を提供し、手順と参照資料をWorkfrontに取り込むと同時に、より詳細なドキュメントにリンクします。</li>
                         <li>計算カスタムフォームフィールドの数式の作成と調整、テキストプロンプトからの数式の生成、既存の数式のエラーの検出を行います。</li>
                         </ul>
-                        <p>Workfront管理者は、組織の AI アシスタントを有効または無効にできます。 AI アシスタントは、Select、Prime および Ultimate プランのインスタンスで使用できます。</p>
+                        <p>Workfront管理者は、組織の AI アシスタントを有効または無効にできます。 AI アシスタントは、Select、Prime、Ultimateの各プランのインスタンスで使用できます。</p>
                     </td>
                 <td><p><b>公開日：</b></p>
                     <ul>

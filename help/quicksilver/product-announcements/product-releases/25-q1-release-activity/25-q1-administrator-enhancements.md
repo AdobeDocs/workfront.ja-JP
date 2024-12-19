@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 16%
+source-wordcount: '550'
+ht-degree: 15%
 
 ---
 
@@ -17,6 +17,16 @@ ht-degree: 16%
 このページでは、2025年第 1 四半期にプレビュー環境にリリースされた管理者の機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
+
+## 記録された時間がある場合にタスクを移動できない
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 12 月 19 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリース（2025 年 1 月）で
+
+ログ時間のあるタスクや問題を移動すると、コンプライアンスや監査の問題が発生する場合があるので、ログ時間がある場合にユーザーがタスクや問題を移動できないようにするための環境設定を、「設定」の「タスクと問題の環境設定」領域に追加しました。 この機能強化の前は、ユーザーは、タスクや問題を他のプロジェクトに移動できました。これは、時間がログ記録されている場合でも可能です。
+
+詳しくは、[システム全体のタスクおよびイシューの環境設定の指定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
 ## 単一割り当てタスクにプロジェクトまたはユーザースケジュールを使用するための環境設定
 

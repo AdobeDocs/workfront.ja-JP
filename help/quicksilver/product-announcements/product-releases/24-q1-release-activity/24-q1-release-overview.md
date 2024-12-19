@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
 source-wordcount: '1628'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -355,17 +355,14 @@ ht-degree: 99%
                         <ul>
                             <li>
                                 <p>プレビューリリース：2023年12月21日（PT）</p>
-                                <p>メモ：この機能は、24.4 リリースまでプレビュー版に残ります。</p>
                             </li>
                             <li>
                                 <p>迅速リリース用の実稼動：24.3 リリース（2024年3月）に併せて</p>
                             </li>
-                            <li>
-                                <p>すべてのお客様に対する本番：発表予定</p>
-                            </li>
                         </ul>
+                    <p><i>この機能は、2024 年 12 月 19 日のプレビューおよび 25.1 の高速リリース実稼働（2025 年 1 月）から削除されます。</i></p>
                     </td>
-                    </tr>
+                </tr>
            </tbody>
         </table>
 

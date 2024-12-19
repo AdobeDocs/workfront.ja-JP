@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 28dd016d5edf51807c35cb392706107a08fb95f2
+source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
 workflow-type: tm+mt
-source-wordcount: '1824'
-ht-degree: 44%
+source-wordcount: '1844'
+ht-degree: 43%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 44%
                                 <p>すべてのお客様向けの実稼動リリース：24.7 リリースでは（2024 年 7 月 18 日（PT））</p>
                             </li>
                         </ul>
-                        <p><i>新しい Ultimate プランに参加している組織のみが利用できます。</i></p>
+                        <p><i>新しいUltimate プランに参加している組織のみが利用できます。</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -295,10 +295,8 @@ ht-degree: 44%
                             <li>
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
-                            <li>
-                                <p>すべてのお客様向けの実稼動リリース：準備中</p>
-                            </li>
                         </ul>
+                    <p><i>この機能は、2024 年 12 月 19 日のプレビューおよび 25.1 の高速リリース実稼働（2025 年 1 月）から削除されます。</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -315,10 +313,8 @@ ht-degree: 44%
                             <li>
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
-                            <li>
-                                <p>すべてのお客様向けの実稼動リリース：準備中</p>
-                            </li>
                         </ul>
+                    <p><i>この機能は、2024 年 12 月 19 日のプレビューおよび 25.1 の高速リリース実稼働（2025 年 1 月）から削除されます。</i></p>
                     </td>
                  </tr>
            </tbody>
