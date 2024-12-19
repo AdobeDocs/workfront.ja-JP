@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
+source-git-commit: b637694c598540343383af15658a069c305f6bbf
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: '988'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,8 @@ ht-degree: 7%
 
 ### フィルターを使用した作業の検索
 
-フィルターを使用して、最も重要な作業を見つけます。 <span class="preview"> 自然言語を使用してスマートフィルターでの作業を検索したり </span>、標準フィルターを使用して、割り当てられたタスクやイシューを検索したりできます。
+フィルターを使用して、最も重要な作業を見つけます。 <!--<span class="preview">You can use a natural language to find work with the Smart filter</span>, or -->
+標準フィルターを使用して、自分に割り当てられたタスクとイシューを検索できます。
 
 <table>
   <tbody>
