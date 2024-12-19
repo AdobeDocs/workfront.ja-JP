@@ -6,14 +6,19 @@ description: '[!UICONTROL マイ更新]エリアを使用して、決定を待�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 57b6453d4e67e1cb70c4233c1150620867f2e9d1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '847'
+ht-degree: 87%
 
 ---
 
+
 # [!UICONTROL マイ更新]エリアの使用
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 
 [!UICONTROL マイ更新]エリアを使用して、決定を待っている承認や、参加している会話をすぐにレビューできます。
@@ -77,9 +82,13 @@ ht-degree: 0%
 
    自分に割り当てられているアクセスの承認とリクエストは、ページの前半部の「**マイ更新**」の下に一覧表示されます。
 
+   <div class="preview">
+
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
-1. （オプション）[!UICONTROL マイ更新]エリアの一番下までスクロールし、右向きの矢印をクリックすると、追加のページに表示される承認がさらに表示されます。
+   </div>
+
+1. （オプション）[!UICONTROL **マイ更新**]&#x200B;エリアの一番下までスクロールし、右向きの矢印をクリックすると、追加のページに表示される承認がさらに表示されます。
 
    >[!TIP]
    >
@@ -157,7 +166,14 @@ ht-degree: 0%
    * リッチテキストツールバーを使用すると、テキストの書式設定や、リンク、リスト、絵文字、引用符、画像をメッセージに追加できます
    * ユーザーまたはチームを追加して、返信を通知します。
 
-     返信の追加が完了したら、再度 **[!UICONTROL 返信]** をクリックします。
+     更新への返信について詳しくは、「作業の更新 [ を参照してください ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+
+     <span class="preview"> 返信の追加が完了したら、「**[!UICONTROL 送信]**」をクリックします。</span>
+
+     <div class="preview">
 
      ![](assets/reply-in-the-my-updates-area.png)
+
+     </div>
+
 1. （オプション）「**[!UICONTROL 現在のページをピン留め]**」をクリックして、[!UICONTROL マイ更新]エリアを上部ナビゲーションにピン留めします。

@@ -6,10 +6,10 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 75%
+source-wordcount: '544'
+ht-degree: 65%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 75%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
+<span class="preview"> このページで強調表示されている情報は、高速リリースを有効にしたお客様向けの実稼動環境でのみ使用できる機能を指しています。</span>
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-<span class="preview">現在のリリースについて詳しくは、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。</span>
+<span class="preview"> この機能は、2025 年 1 月に 25.1 リリースで高速リリースを有効にしたお客様向けに実稼動環境から削除されます。 25.1 リリースについて詳しくは、[2025 年第 1 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md) を参照してください。
 
 スマート割り当てを使用して、作業の完了に最適なユーザーを特定できます。
 

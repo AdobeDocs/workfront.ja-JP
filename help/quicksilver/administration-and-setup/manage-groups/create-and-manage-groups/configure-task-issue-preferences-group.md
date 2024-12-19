@@ -9,14 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
 workflow-type: tm+mt
-source-wordcount: '1885'
-ht-degree: 98%
+source-wordcount: '2226'
+ht-degree: 86%
 
 ---
 
 # グループのタスクとイシューの環境設定を行う
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 組織内のグループが、システムレベルでの設定方法とは別に、タスクまたはイシューの環境設定を行う必要がある場合、Adobe Workfront の管理者が環境設定をロック解除できます。その後、グループ管理者はグループの環境設定を実施することができ、これはグループに関連するすべてのタスクやイシューに影響を与えます。
 
@@ -91,10 +95,9 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
    * [新規タスクの初期設定](#new-task-defaults)
    * [イシュー](#issues)
    * [削除](#deletion)
-
-   <!--* <span class="preview">[Move](#move)</span>-->
-
+   * <span class="preview">[ 移動 ](#move)</span>
    * [実際の日付](#actual-dates)
+   * [委任](#delegation)
    * [アクセス](#access)
 
 ### 新規タスクの初期設定 {#new-task-defaults}
@@ -166,7 +169,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">ユーザーに対して、時間が記録されたタスクとイシューの削除を許可する</td> 
+      <td role="rowheader">ユーザーがログ時間のあるタスクと問題を削除することを許可します</td> 
       <td> <p> 時間が記録されるタスクやイシューの削除を許可するかどうかを指定します。このオプションはデフォルトで選択されています。</p> 
        <div> 
         <p><b>ヒント</b>：この設定は、時間が記録されるタスクやイシューを持つプロジェクトの削除にも適用されます。この設定は、時間がプロジェクトに直接記録されるようなプロジェクトの削除には適用されません。 </p> 
@@ -181,31 +184,27 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
    </table>
 
 
-<!-- *****also replace the & with "and" in the Deletion section
-
 <div class="preview">
 
-### Move
+### 移動
 
 <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Allow users to move tasks and issues with logged hours</td> 
-      <td> <p> Lets you determine whether you allow the move of tasks or issues where hours are logged. This option is selected by default.</p> 
-       <p>Consider the following:</p> 
+      <td role="rowheader">ユーザーがログ時間のあるタスクおよび問題を移動することを許可します</td> 
+      <td> <p> 時間が記録されるタスクまたは問題を移動できるようにするかどうかを指定できます。 このオプションはデフォルトで選択されています。</p> 
+       <p>次の点に注意してください。</p> 
         <ul> 
-         <li> When it is selected, you can move tasks and issues that have time logged. The hours also move with the tasks or issues. </li>
-      <li>When you deselect this option, you receive a prohibitive warning when you move a task or issue with logged hours. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be moved. The tasks or issues that have hours logged cannot be moved. </li></ul>
+         <li> 選択すると、時間がログに記録されたタスクと問題を移動できます。 時間は、タスクや問題とも移動します。 </li>
+      <li>このオプションの選択を解除すると、ログ時間のあるタスクまたは問題を移動すると、禁止を意味する警告が表示されます。 警告は、管理者がタスクまたはログ時間に関する問題の移動を許可しないことを指定します。 時間が記録されたタスクまたは問題は移動できません。 </li></ul>
       </td> 
      </tr> 
     </tbody> 
    </table>
 
 </div>
-
--->
 
 ### 実際の日付 {#actual-dates}
 
@@ -255,6 +254,28 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
    This setting can be configured both at the system level and at the Team level. Enabling the Start button for everyone in the system automatically disables the same setting at the Team level.
    If the Work On It setting is enabled, then disabled, tasks and issues function with a Work On It button the way they did before.
    -->
+
+### 委任
+
+「**[!UICONTROL ユーザーがタスクおよびイシューを委任することを許可]**」設定を有効にすると、グループ内のすべてのユーザーが一時的に他のユーザーに作業を委任できます。
+
+この設定を有効にすると、グループ ユーザーには次の項目が表示されます。
+
+* [!UICONTROL **ホーム**] エリアにある [!UICONTROL  マイ作業 ]、[!UICONTROL  マイタスク ] または [!UICONTROL  マイイシュー ] ウィジェットの [!UICONTROL  委任 ] リンク。 ここからタスクとイシューの割り当てを委任できます。
+
+  >[!NOTE]
+  >
+  >  「[!UICONTROL **承認を委任**]」リンクは、「[!UICONTROL  ホーム ] 領域で常に有効になっています。
+
+* タスクまたはイシューのヘッダー内の「[!UICONTROL 割り当てと委任]」エリアで、タスクまたはイシューが別のユーザーに委任されたことを示すメッセージ。
+* タスクまたはイシューが [!UICONTROL  ホーム ] の [!UICONTROL  担当作業 ] ウィジェットで別のユーザーに委任されていることを示します。
+
+  「[!UICONTROL  ユーザーがタスクおよび問題を委任することを許可 ]」設定を無効にすると、現在スケジュールされている委任が停止され、委任されたユーザーには、委任が停止したことを通知するメールが届きます。
+
+他のユーザーへの作業の委任について詳しくは、次の記事を参照してください。
+
+* [作業の委任の概要](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [タスクおよびイシューのデリゲート](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 ### アクセス {#access}
 
