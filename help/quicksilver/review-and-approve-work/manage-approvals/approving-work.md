@@ -6,10 +6,10 @@ description: 作業の承認
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 216bf9ea9cb58294b42cc41d70ca0ab99b6dc827
+source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
 workflow-type: tm+mt
 source-wordcount: '896'
-ht-degree: 84%
+ht-degree: 83%
 
 ---
 
@@ -168,7 +168,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 1. 承認プロセスを承認するか却下するかに応じて、「**承認**」または「**却下**」をクリックします。\
    承認待ちだった承認ステージが承認され、承認プロセスが次のステージに移動します。すべてのステージが承認されると、ステータスが承認済みになります。
 
-## ドキュメントから直接ドキュメントを承認 
+## ドキュメントから直接ドキュメントを承認
 
 1. 承認を必要とするドキュメントが含まれているドキュメントエリアに移動します。
 1. ドキュメントを選択し、「**承認**」、「**変更**」、または「**却下**」をクリックします。\

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
 workflow-type: tm+mt
-source-wordcount: '14741'
+source-wordcount: '14747'
 ht-degree: 90%
 
 ---
@@ -1850,7 +1850,8 @@ ht-degree: 90%
       * [送信した承認の取り消し](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * アセットとドキュメントのレビューと承認 {#document-reviews-and-approvals}
       * [アセットとドキュメントのレビューと承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [ドキュメントの承認の概要](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [アセットとドキュメントの承認の概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+      * [新規ドキュメント承認の概要](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * でのアセットとドキュメントの承認の設定 {#manage-asset-review-and-approval} 管理
          * [アセットおよびドキュメント承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
