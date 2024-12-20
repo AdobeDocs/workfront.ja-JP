@@ -7,10 +7,10 @@ description: ' [!DNL Adobe Workfront]  をサードパーティのアプリケ�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: ac349d205d7526b03bebc497883f9ed1682191ad
+source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 89%
+source-wordcount: '502'
+ht-degree: 88%
 
 ---
 
@@ -99,8 +99,7 @@ ht-degree: 89%
    <td role="rowheader">Microsoft カレンダー（Office 365／Outlook Live）</td> 
    <td> 
     <ul> 
-     <li> <p>クラウドでホストされている Office 365 または Outlook Live の web ベースバージョンの Outlook と統合します。 </p> </li> 
-     <li> <p>[!DNL Outlook] カレンダーおよび選択した関連カレンダー（誕生日や祝日のカレンダーなど）のすべてのイベントをホームのカレンダーに表示します。</p>  <p>メモ：Outlook のカレンダー設定は、Outlook アドイン（Outlook 統合または Workfront for Outlook）から完全に分離しています。カレンダーの設定に必要なインストールはありません。</p></li> 
+     <li> <p>クラウドでホストされている Office 365 または Outlook Live の web ベースバージョンの Outlook と統合します。 </p>
     </ul> </td> 
   </tr> 
   <tr> 
