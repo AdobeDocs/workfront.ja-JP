@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
+source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
 workflow-type: tm+mt
-source-wordcount: '14747'
+source-wordcount: '14757'
 ht-degree: 90%
 
 ---
@@ -918,7 +918,7 @@ ht-degree: 90%
    * ホーム {#home}
       * [ホーム](workfront-basics/using-home/home.md)
       * ホームエリアの使用 {#use-home-area}
-         * [ホームエリアの使用](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+         * [「ホーム」領域の使用：記事インデックス](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [ホームの基本を学ぶ](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [新しいホームでのウィジェットの追加、編集または削除](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [ホームエリアの作業リストにおけるアイテムの表示](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
@@ -1038,7 +1038,7 @@ ht-degree: 90%
          * [Adobe Workfront Mobile アプリに関するヒント、テクニックおよびトラブルシューティング](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [Adobe Workfront モバイルアプリのエラーメッセージ：「アカウントで API が有効になっていません」](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Adobe Workfront Basics に関するヒント、テクニックおよびトラブルシューティング {#tips-tricks-for-basics}
-      * [Adobe Workfront Basics のヒント、テクニック、およびトラブルシューティング](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+      * [Adobe Workfrontのヒント、テクニック、トラブルシューティング：記事一覧](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Adobe Workfront でヘルプを見つけるためのクイックガイド](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [Adobe Workfront での日付形式の変更](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
       * [カスタマーサポートに連絡](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -1049,7 +1049,8 @@ ht-degree: 90%
       * [Workfront Proof マネージャー権限のトラブルシューティング](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [ページヘッダーにフィルターボタンが表示されない](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [予期しない結果を含む、自分が参加しているプロジェクトフィルター](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-      * [複数のブラウザータブが原因で、Workfrontがログアウトする](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [複数のブラウザータブが原因で、Workfrontがログアウトする](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [通知を生成しないオブジェクトの共有方法](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
 * アジャイル {#agile}
    * [アジャイル](agile/agile.md)
    * [ボードの概要](agile/boards-overview.md)

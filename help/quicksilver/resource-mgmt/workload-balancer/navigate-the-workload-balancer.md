@@ -6,14 +6,16 @@ description: ワークロードバランサーを使用して、リソースの�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '4067'
-ht-degree: 98%
+source-wordcount: '4070'
+ht-degree: 97%
 
 ---
 
 # ワークロードバランサーの操作
+
+<!--Audited: 12/2024-->
 
 Adobe Workfront のワークロードバランサーを使用すると、空き時間に基づいて作業をユーザーに割り当てることができます。この記事では、設定やオプションを使用して、ワークロードバランサーを操作し、自分に関連する情報を表示する方法について説明します。この記事で紹介されている他の記事では、ワークロードバランサーを使用してリソースや、リソースの作業の配分を管理する方法について説明しています。
 
@@ -36,7 +38,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td><p>新規：標準</p>
        <p>または</p>
        <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
@@ -60,7 +62,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -229,7 +231,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 1. 「未割り当て」エリアまたは「割り当て済み」エリアの左側にある&#x200B;**下向き矢印**&#x200B;をクリックすると、プロジェクト名の下（「未割り当て」エリア内）およびユーザー名の下（「割り当て済み」エリア内）のすべての項目を折りたためます。
 
-1. 左パネルとタイムラインエリアの間にある&#x200B;**分離線**&#x200B;をドラッグ＆ドロップして、左パネルのサイズを調整します。
+1. カーソルを左パネルとタイムライン領域の間の **分離線** をドラッグ&amp;ドロップして、左パネルのサイズを調整します。
 
    ![分離線](assets/wb-adjust-panel-size.png)
 

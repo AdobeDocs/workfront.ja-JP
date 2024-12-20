@@ -6,14 +6,16 @@ description: この記事を読んで、Workfront へのログイン方法を学
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 69297cca-6b28-47d6-a478-8ac2bc29b959
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 76%
+source-wordcount: '898'
+ht-degree: 74%
 
 ---
 
 # [!DNL Adobe Workfront] へのログイン
+
+<!--Audited: 2024-->
 
 {{important-not-on-aec}}
 
@@ -33,6 +35,8 @@ ht-degree: 76%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -47,12 +51,16 @@ ht-degree: 76%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td> 
+   <p>新規：[!UICONTROL Contributor]以上</p>
+   <p>現在：[!UICONTROL Request] 以上</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;お使いのプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## SSO を使用せずに [!DNL Workfront] にログイン
 

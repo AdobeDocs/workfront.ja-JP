@@ -1,22 +1,24 @@
 ---
 content-type: reference
 navigation-topic: home-navigation-topic
-title: ホームエリアの使用
+title: 「ホーム」領域の使用：記事インデックス
 description: 以下の記事を参照して、Adobe Workfront のホームエリアの使用方法について学んでください。
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 403fcb01d5a06c257e830724e6e02f0936cc106a
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '118'
+ht-degree: 78%
 
 ---
 
-# ホームエリアの使用
+# 「ホーム」領域の使用：記事インデックス
 
-この節では、次の記事を扱います。
+<!--Audited: 12/2024-->
+
+以下の記事を参照して、Adobe Workfront のホームエリアの使用方法について学んでください。
 
 * [[!UICONTROL ホーム]の概要](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [新しいホームでのウィジェットの追加、編集または削除](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)

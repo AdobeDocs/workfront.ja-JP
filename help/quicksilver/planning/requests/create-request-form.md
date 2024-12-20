@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 13%
 
 ---
@@ -150,13 +150,11 @@ ht-degree: 13%
    >    * 作成日と最終変更日
    >    * Workfront オブジェクトの参照フィールド
    >    * Workfront Planning 接続レコードの参照フィールド
-   >    * AEM Assets接続フィールド
    >* 次のタイプのフィールドは、実稼動環境のリクエストフォームに表示されません。 <span class="preview"> プレビュー環境に表示されます。</span>
    >    * Workfront Planning レコード <span class="preview"> 接続されているフィールド </span>
    >    * <span class="preview">People </span>
    >    * <span class="preview">Workfront オブジェクトの接続されたフィールド </span>
    >    * <span class="preview">AEM Assets接続フィールド </span>
-
 
    * **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。
    * **件名** フィールド：Workfrontでリクエストを識別するフィールド。 この機能は、実稼動環境ではまだ使用できません。 <span class="preview"> プレビュー環境で使用できます。</span> 「件名」フィールドの設定と値は編集できません。

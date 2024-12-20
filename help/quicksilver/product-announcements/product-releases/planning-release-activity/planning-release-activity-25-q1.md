@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2182'
 ht-degree: 3%
 
 ---
@@ -34,6 +34,18 @@ ht-degree: 3%
 
 2024 年 8 月 28 日（PT）の一般リリース後にAdobe Workfront Planning でリリースされたすべての機能のリストについては、[Adobe Workfront Planning リリースアクティビティ：記事索引 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
+
+## Adobe Experience Manager アセットとの接続フィールドがリクエストフォームでサポートされるようになりました
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 12 月 20 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 1 月 16 日（PT）
+
+Workfront Planning のレコードタイプリクエストフォームに、AEM Assets との接続フィールドを追加できるようになりました。
+
+この機能強化が行われるまで、これらのタイプのフィールドをリクエストフォームに追加することはできませんでした。
+
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## Workfront Planning リクエストの承認の構成
 
