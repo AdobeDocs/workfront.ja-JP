@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 7%
 
 ---
@@ -115,7 +115,7 @@ ht-degree: 7%
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### カレンダー表示の使用 [!BADGE  近日公開 ]{type=Informative}
+### カレンダー表示の使用 [!BADGE  プレビューで使用可能 ]{type=Informative}
 
 カレンダー表示には、タスクとイシューが視覚的に表示されます。 日、週、または月のビューから選択できます。 また、ワークリストと同様の方法で項目をフィルタリングすることもできます。
 
@@ -190,11 +190,11 @@ ht-degree: 7%
 * プルーフビューアを起動してコメントを残し、決定を行う
 
 
-## [!DNL Catch me up] を使用して、見逃したもの [!BADGE  近日公開予定 ] を確認します{type=Informative}
+## [!DNL Catch me up] を使用して、見つからなかった [!BADGE  プレビューで使用可能 ] を確認します{type=Informative}
 
 [!DNL Catch me up] 機能を使用して、見逃した内容を確認します。 キャッチアップでは、24 時間、3 日、7 日以内に、プロジェクトに関する更新、アップロードされたドキュメント、承認、その他の注目すべき変更点をまとめます。
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+詳しくは、[ 優先度の作業のキャッチアップ ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
 
 ![](assets/catch-me-up.png)
 

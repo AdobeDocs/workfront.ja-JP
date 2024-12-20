@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
+source-git-commit: 998f30661c4bc3e6a16328b194a950f942319335
 workflow-type: tm+mt
-source-wordcount: '14757'
+source-wordcount: '14763'
 ht-degree: 90%
 
 ---
@@ -913,6 +913,7 @@ ht-degree: 90%
       * [優先度のログ時間](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
       * [優先度のファイルのアップロード](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [優先度でクイックリンクを追加および管理](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
+      * [優先度の作業の遅れを取り戻す](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)
       * [ドキュメントのアップロードと優先度設定でのプルーフの作成](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
       * [優先度カレンダーでの作業の管理](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * ホーム {#home}

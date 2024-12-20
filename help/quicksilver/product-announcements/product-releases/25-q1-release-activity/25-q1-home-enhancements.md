@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '604'
-ht-degree: 12%
+source-wordcount: '700'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,19 @@ ht-degree: 12%
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
 
-<!--## Catch up on work in Priorities
+## 優先度の作業の遅れを取り戻す
 
 >[!NOTE]
 >
->Preview release: December 20, 2024; Production release for all customers: With the 25.1 release (January 2025)
+>プレビューリリース：2024 年 12 月 20 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースの場合（2025 年 1 月）
 >
->_This feature is only available for customers on the Unified Adobe Experience using the AI Assistant._
+>_この機能は、AI アシスタントを使用している統合Adobeエクスペリエンスの顧客のみが利用できます。_
 
-You can use Catch me up to help reduce the amount of time looking for information on active projects. 
+キャッチアップを使用して、アクティブなプロジェクトに関する情報を検索する時間を短縮できます。
 
-Powered by Workfront's AI Assistant, Catch me up summarizes updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, or 7 days.
+Workfrontの AI アシスタントを活用した「キャッチアップ」では、24 時間、3 日、7 日間の期間内に、プロジェクトに関する更新、アップロードされたドキュメント、その他の注目すべき変更点の概要を示します。
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).-->
+詳しくは、[ 優先度の作業のキャッチアップ ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
 
 ## 優先度の詳細ページで変更内容をライブで表示
 
