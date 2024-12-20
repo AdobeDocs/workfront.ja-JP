@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 7a6a34ee5b4986137a04d654cf58bfa5f2465715
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 15%

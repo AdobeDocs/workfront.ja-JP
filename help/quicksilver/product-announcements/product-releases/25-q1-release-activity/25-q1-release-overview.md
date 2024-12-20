@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2306'
 ht-degree: 29%
 
 ---
@@ -267,7 +267,7 @@ ht-degree: 29%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             優先度内のドキュメントとプルーフのアップロードと表示</a></p>
-            <p>タスクや問題に関するドキュメントやプルーフを操作できるようになりました。 新しい「ドキュメント」タブでは、次の操作を実行できます</p>
+            <p>ワークリストとカレンダーで、タスクとイシューのドキュメントとプルーフを操作できるようになりました。 新しい「ドキュメント」タブでは、次の操作を実行できます</p>
             <ul>
                 <li>ドキュメントをアップロード</li>
                 <li>プルーフを作成</li>
@@ -287,11 +287,11 @@ ht-degree: 29%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             カレンダー表示が優先度で使用できるようになりました</a></p>
-            <p>わかりやすい視覚的な月カレンダーで、作業を簡単に追跡できます。 優先度カレンダーでは、次のことができます</p>
+            <p>わかりやすい視覚的な月カレンダーを使用して、作業を追跡できます。 優先度カレンダーでは、次のことができます</p>
             <ul>
                 <li>フィルターを使用した作業の検索</li>
-                <li>ステータスやフォーカスレベルなどのフィールドを表示する</li>
-                <li>色を適用して優先順位をすばやく設定する</li>
+                <li>ステータスやフォーカスレベルなどのカスタムフィールドを適用して、優先度の高い作業を特定する</li>
+                <li>色を適用して素早く整理</li>
                 <li>その他</li>
             </ul>
         </td>

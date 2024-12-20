@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: 優先度ワークリストでのプロジェクトとタスクの詳細の表示
+title: 優先度ワークリストでのプロジェクトと作業項目の詳細の表示
 description: プロジェクトとタスクの詳細は、優先度ワークリストに表示できます。
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '401'
 ht-degree: 22%
 
 ---
 
-# プロジェクトとタスクの詳細を優先度で表示する
+# プロジェクトと作業項目の詳細を優先度で表示します
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
@@ -80,13 +80,14 @@ ht-degree: 22%
 
 1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![ をクリック ](assets/summary-icon.png) します。
 1. デフォルトではタスクが選択されています。 ここで次のことができます
-   * プロジェクトの詳細と説明の表示と編集
+   * プロジェクトとタスクの詳細および説明の表示と編集
    * プロジェクトの表示とコメントの追加
    * <span class="preview"> ドキュメントの表示と追加 </span>
    * <span class="preview"> プルーフの作成 </span>
    * 時間を記録
    * ファイルを追加
    * クイックリンクの追加
+
 
    ![ タスクの詳細 ](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ ht-degree: 22%
 
 1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![ をクリック ](assets/summary-icon.png) します。
 1. イシューはデフォルトで選択されています。 ここで次のことができます
-   * プロジェクトの詳細と説明の表示と編集
+   * プロジェクトとイシューの詳細および説明の表示と編集
    * プロジェクトの表示とコメントの追加
 * <span class="preview"> ドキュメントの表示と追加 </span>
 * <span class="preview"> プルーフの作成 </span>

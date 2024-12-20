@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: b99e7b0f33f950c25aa83e3d1c8f13b08bc27a39
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '87'
-ht-degree: 8%
+source-wordcount: '95'
+ht-degree: 7%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 8%
 
 * [優先度：今後のリリース](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [優先度の概要](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
-* [プロジェクトとタスクの詳細を優先度で表示する](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
+* [プロジェクトと作業項目の詳細を優先度で表示します](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
 * [優先度での作業のフィルタリングとグループ化](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
 * [優先度ワークリストの列のカスタマイズ](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
 * [重要な作業アイテムの優先順位付け](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
@@ -30,3 +30,4 @@ ht-degree: 8%
 * [ 優先度でクイックリンクを追加および管理 ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
   <!--* [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md)-->
 * [ドキュメントのアップロードと優先度設定でのプルーフの作成](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
+* [優先度カレンダーでの作業の管理](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)

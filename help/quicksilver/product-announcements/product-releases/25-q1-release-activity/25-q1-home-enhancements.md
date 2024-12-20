@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '604'
 ht-degree: 12%
 
 ---
@@ -48,14 +48,14 @@ For more information, see [Catch up on work in Priorities](/help/quicksilver/wor
 >
 >プレビューリリース：2024 年 12 月 19 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリース（2025 年 1 月）で
 
-タスクや問題に関するドキュメントやプルーフを操作できるようになりました。 新しい「ドキュメント」タブでは、次の操作を実行できます
+ワークリストとカレンダーで、タスクとイシューのドキュメントとプルーフを操作できるようになりました。 新しい「ドキュメント」タブでは、次の操作を実行できます
 
 * ドキュメントをアップロード
 * プルーフを作成
 * プルーフビューアの起動
 * その他
 
-<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+詳しくは、[ ドキュメントのアップロードと優先度での配達確認の作成 ](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md) を参照してください。
 
 ## カレンダー表示が優先度で使用できるようになりました
 
@@ -63,12 +63,14 @@ For more information, see [Catch up on work in Priorities](/help/quicksilver/wor
 >
 >プレビューリリース：2024 年 12 月 19 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリース（2025 年 1 月）で
 
-わかりやすい視覚的な月カレンダーで、作業を簡単に追跡できます。 優先度カレンダーでは、次のことができます
+わかりやすい視覚的なカレンダーで、作業を追跡できるようになりました。 優先度カレンダーでは、次のことができます
 
 * フィルターを使用した作業の検索
-* ステータスやフォーカスレベルなどのフィールドを表示する
-* 色を適用して優先順位をすばやく設定する
+* ステータスやフォーカスレベルなどのカスタムフィールドを適用して、優先度の高い作業を特定する
+* 色を適用して素早く整理
 * その他
+
+詳しくは、[ 優先度カレンダーでの作業の管理 ](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md) を参照してください。
 
 ## 優先度ワークリストの更新
 
