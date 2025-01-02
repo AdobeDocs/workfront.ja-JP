@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1457'
 ht-degree: 100%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 100%
 
 グラフを選択して、プロジェクトのタスクやイシューの様々な側面を表示し、特定の要素をクリックしてタスクの情報を表示できます。
 
-この機能は、Workfront One の[プランナーの基本、第 3 部学習パス](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA)を含みます。
+<!--This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One. -->
 
 ## 管理者向けの新規：ビジネスリーダーをグループに割り当て
 
