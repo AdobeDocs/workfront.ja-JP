@@ -8,10 +8,10 @@ description: Adobe Workfront Fusion を使用するには、Adobe Workfront ラ�
 author: Becky
 feature: Workfront Fusion
 exl-id: f6295cc7-367f-4c8b-891b-cc11ff42a225
-source-git-commit: 2f1244d15ad7729941a35a1dc7ad9f1128d24404
+source-git-commit: 800cf889ff2729fca0c9d75d0ace0ecc1ee53a79
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 62%
+source-wordcount: '358'
+ht-degree: 55%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 62%
 * 20.81.156.240/28
 * 172.172.84.48/28
 
-また、組織がアウトバウンドネットワークフィルタリングを使用している場合は、次のドメインを許可リストに追加して、システムが Workfront Fusion にアクセスできるようにします。
+また、組織でアウトバウンドネットワークフィルタリングを使用している場合は、次のドメインを許可リストに追加して、システムからWorkfront Fusion にアクセスできるようにします。 これらは Webhook に使用されます。
 
 * hook.app.workfrontfusion.com
 * hook.app-eu.workfrontfusion.com
