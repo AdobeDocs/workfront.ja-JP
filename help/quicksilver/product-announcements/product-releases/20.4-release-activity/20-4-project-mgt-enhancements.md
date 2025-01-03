@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
+source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1365'
 ht-degree: 100%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 詳しくは、[ビジネスリーダーの概要](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md)を参照してください。
 
-この機能は現在、Workfront One の[管理者の基本、第 1 部　学習パス](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)に含まれています。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 管理者向けの新機能：ポートフォリオ、プログラム、会社とグループの関連付け
 
@@ -83,7 +83,7 @@ Workfront 管理者がポートフォリオ、プログラムまたは会社を�
 
 詳しくは、[グループの概要](../../../administration-and-setup/manage-groups/groups-overview/groups.md)の記事の「グループとオブジェクトの関連付けについて」を参照してください。
 
-この機能は現在、Workfront One の[管理者の基本、第 1 部　学習パス](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)に含まれています。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 管理者向けの新機能：会社に割り当てられたグループの管理者は、会社を管理できます
 
@@ -93,7 +93,7 @@ Workfront 管理者がポートフォリオ、プログラムまたは会社を�
 
 会社への管理アクセスに関する詳細情報は、[特定のエリアに対する管理者アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
-この機能は現在、Workfront One の[管理者の基本、第 1 部 学習パス](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)に含まれています。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 「作業をする」ボタンを「開始」ボタンに置き換えます
 
@@ -103,7 +103,7 @@ Workfront 管理者がポートフォリオ、プログラムまたは会社を�
 
 このオプションの設定に関して詳しくは、[「作業をする」ボタンを「開始」ボタンに置き換え](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)を参照してください。
 
-この機能は現在、[作業者の基本の学習パス](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA)および Workfront One の[管理者の基本、第 1 部　学習パス](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)に含まれています。
+<!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## キュートのピックに複数のドラフトを許可する
 
@@ -111,7 +111,7 @@ Workfront 管理者がポートフォリオ、プログラムまたは会社を�
 
 この機能強化が行われるまで、Workfront でリクエストキュー内の各キューのトピックに対して保存できる下書きは 1 つのみでした。
 
-リクエストの送信に関する詳細情報は、[Workfront リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+リクエストの送信について詳しくは、[Workfront リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
 ## チームにグループを割り当てる
 
@@ -121,7 +121,7 @@ Workfront 管理者がポートフォリオ、プログラムまたは会社を�
 
 詳しくは、[チームを作成](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)を参照してください。
 
-この機能は現在、Workfront One の[管理者の基本、第 1 部　学習パス](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)に含まれています。
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## 新しいフィールドで、トップレベルのグループとそのすべてのサブグループのデータをレポートできます
 
