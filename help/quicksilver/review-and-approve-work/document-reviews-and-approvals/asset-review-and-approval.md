@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: アセットとドキュメントの承認の概要
+title: アセットおよびドキュメントのレビューと承認に使用可能な機能
 description: Workfrontでレビューおよび承認できるシステムの概要です。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-source-git-commit: 9bce16218e002912883994ce2ced6c9d2fce93e7
+exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 3%
 
 ---
 
-
-# アセットとドキュメントの承認の概要
+# アセットおよびドキュメントのレビューと承認に使用可能な機能
 
 現在、Workfrontでは、アセットとドキュメントのレビューおよび承認用に、次の 3 つの異なるシステムを使用できます。
 
@@ -85,4 +85,6 @@ ht-degree: 3%
 
 * 基本ワークフローまたは自動ワークフローの使用
 
-
+<!--
+## Upcoming deprecations
+-->
