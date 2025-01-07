@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2478'
 ht-degree: 28%
 
 ---
@@ -61,6 +61,34 @@ ht-degree: 28%
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           環境プロモーションのために環境間でオブジェクトを比較</a></p>
+            <p>環境プロモーションパッケージに含めるオブジェクトを簡単に決定できるように、環境間でオブジェクトを比較する機能を追加しました。 その後、この比較から直接パッケージにオブジェクトを追加できます。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2024年1月6日（PT）</li>
+                <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            環境プロモーションに利用できるその他のオブジェクト</a></p>
+            <p>環境プロモーション機能の機能を拡張するために、オブジェクトを追加しました。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2024年1月6日（PT）</li>
+                <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
+            </ul>
+        </td>
+    </tr>  
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             記録された時間がある場合にタスクを移動できない</a></p>
             <p>ログ時間のあるタスクや問題を移動すると、コンプライアンスや監査の問題が発生する場合があるので、ログ時間がある場合にユーザーがタスクや問題を移動できないようにするための環境設定を、「設定」の「タスクと問題の環境設定」領域に追加しました。</p>
         </td>
@@ -71,7 +99,7 @@ ht-degree: 28%
                 <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月）</li>
             </ul>
         </td>
-    </tr>  
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">

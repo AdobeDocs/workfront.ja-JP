@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
 workflow-type: tm+mt
-source-wordcount: '550'
-ht-degree: 15%
+source-wordcount: '749'
+ht-degree: 11%
 
 ---
 
@@ -17,6 +17,34 @@ ht-degree: 15%
 このページでは、2025年第 1 四半期にプレビュー環境にリリースされた管理者の機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
+
+## 環境プロモーションのために環境間でオブジェクトを比較
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 1 月 6 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースの場合（2025 年 1 月）
+
+環境プロモーションパッケージに含めるオブジェクトを簡単に決定できるように、環境間でオブジェクトを比較する機能を追加しました。 オブジェクトのタイプと環境を選択できるようになりました。 Workfrontは、そのタイプのオブジェクトのリスト、オブジェクトがターゲット環境に存在するかどうか、およびそのオブジェクトがソース環境とターゲット環境の間に違いがあるかどうかを生成します。 その後、このリストから直接パッケージにオブジェクトを追加できます。
+
+以前は、ユーザーが環境間でオブジェクトを比較する場合は、それらのオブジェクトを手動で確認する必要がありました。
+
+詳しくは、[ 環境間でオブジェクトを比較する ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md) を参照してください。
+
+## 環境プロモーションに利用できるその他のオブジェクト
+
+>[!NOTE]
+>
+>プレビューリリース：2024 年 1 月 6 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースの場合（2025 年 1 月）
+
+環境プロモーション機能の機能を拡張するために、オブジェクトを追加しました。 これで、以下のオブジェクトを環境プロモーションパッケージに追加できます。
+
+* 場所
+* レートカード
+* 割り当て
+
+以前は、これらのオブジェクトは、環境のプロモーションには使用できませんでした。
+
+環境のプロモーションに使用できるオブジェクトの詳細については、「環境のプロモーションの概要」の [ 環境のプロモーションでサポートされているオブジェクト ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) を参照してください。
 
 ## 記録された時間がある場合にタスクを移動できない
 
