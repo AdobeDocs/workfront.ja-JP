@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
+source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 16%
+source-wordcount: '799'
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 16%
   <tr>
    <td><strong>[!DNL Adobe Workfront] プラン</strong>
    </td>
-   <td> Prime または Ultimate （新規プランのみ）
+   <td> PrimeまたはUltimate（新規プランのみ）
    </td>
   </tr>
   <tr>
@@ -105,3 +105,15 @@ ht-degree: 16%
 1. パッケージをインストールするには、画面の右上にある **インストール** をクリックします。
 
    パッケージのインストール手順については、[ 環境プロモーションパッケージのインストール ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md) を参照してください。
+
+## オブジェクト比較からのパッケージの作成
+
+オブジェクト比較から直接パッケージを作成できます。
+
+1. [ 環境間のオブジェクトの比較 ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md) の説明に従って、オブジェクト比較を作成します。
+1. 生成された比較で、パッケージに含めるオブジェクトを選択します。
+1. 画面の右上隅にある「**パッケージを作成**」をクリックします。
+1. パッケージの名前と説明を入力します。
+1. パッケージを作成ウィンドウで **パッケージを作成** をクリックします。
+
+   パッケージが生成されます。
