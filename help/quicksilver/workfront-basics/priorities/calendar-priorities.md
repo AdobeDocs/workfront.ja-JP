@@ -5,13 +5,13 @@ description: わかりやすい視覚的なカレンダーで、作業を追跡�
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 19%
+source-wordcount: '538'
+ht-degree: 18%
 
 ---
-
 
 # 優先度カレンダーでの作業の管理
 
@@ -22,6 +22,11 @@ ht-degree: 19%
 * フィルターを使用した作業の検索
 * ステータスやフォーカスレベルなどのカスタムフィールドを適用して、優先度の高い作業を特定する
 * 色を適用して素早く整理
+
+>[!IMPORTANT]
+>
+>プロジェクトとその子タスクおよび問題を表示するには、プロジェクトが現在ステータスまたは現在と等しいステータスである必要があります。
+
 
 ## アクセス要件
 
@@ -154,4 +159,3 @@ ht-degree: 19%
 
 1. **カラー** タブで、作業項目の表示方法を選択します。 例えば、「プロジェクト」を選択すると、作業項目は、作業リスト上のプロジェクトに割り当てられたカラーに従って表示されます。
    ![ サンプルカラープロジェクト ](assets/sample-calendar-projects.png)
-

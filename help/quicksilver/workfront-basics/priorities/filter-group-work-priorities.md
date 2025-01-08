@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: da688217a1240b74667f31d20e086164e1536576
 workflow-type: tm+mt
-source-wordcount: '878'
-ht-degree: 15%
+source-wordcount: '929'
+ht-degree: 14%
 
 ---
 
@@ -244,23 +244,25 @@ ht-degree: 15%
 
 1. （任意）「**デフォルトに戻る**」をクリックして、選択をリセットします。
 
-<!--### Filter your work with Smart filters
+<div class="preview">
 
-Use natural language to filter quickly filter work.
+### スマートフィルターを使用した作業のフィルタリング
+
+自然言語を使用して、作業をすばやくフィルタリングします。
 
 {{step1-to-priorities}}
 
-1. Click **Filters** in the top left of the worklist.
-1. Click **Smart filters**. 
-1. Type how you want to filter your work. 
+1. ワークリストの左上にある「**フィルター**」をクリックします。
+1. **スマートフィルター** をクリックします。
+1. 作業をフィルターする方法を入力します。
 
-    You can type things like
+   次のように入力できます
 
-    * Show me late tasks
-    * Show my top priorities
-    * Show work due today
+   * 遅延タスクの表示
+   * 自分の最優先事項を表示する
+   * 今日期限の作業を表示
 
--->
+</div>
 
 ### 作業のグループ化
 

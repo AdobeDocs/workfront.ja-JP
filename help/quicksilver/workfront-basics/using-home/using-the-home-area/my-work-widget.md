@@ -6,16 +6,20 @@ description: 自分の作業ウィジェットには、割り当てられたす�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 13%
+source-wordcount: '725'
+ht-degree: 12%
 
 ---
 
 # 担当作業ウィジェットを使用した作業の管理
 
 自分の作業ウィジェットには、割り当てられたすべてのタスク、イシュー、リクエストが 1 か所で表示されます。 ここでは、作業のフィルタリングと整理、時間の記録、更新の実行、作業項目の完了のマークを行うことができます。
+
+>[!IMPORTANT]
+>
+>担当作業ウィジェットにタスクと問題を表示するには、親プロジェクトが現在のステータスまたは現在と等しいステータスになっている必要があります。
 
 ## アクセス要件
 

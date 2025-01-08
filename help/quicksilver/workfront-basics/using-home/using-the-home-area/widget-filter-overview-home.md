@@ -6,9 +6,9 @@ description: 多数のウィジェットから選択して、ホームページ�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '818'
 ht-degree: 17%
 
 ---
@@ -22,6 +22,11 @@ ht-degree: 17%
 * [マイイシュー](#my-issues)
 * [担当作業](#my-work)
 * [マイ承認](#my-approvals)
+
+>[!IMPORTANT]
+>
+>* ホームウィジェットにタスクと問題を表示するには、その親プロジェクトが現在のステータスまたは現在と同じステータスである必要があります。
+>* また、プロジェクトは、現在ステータス、または表示するのに等しいステータスである必要があります。
 
 ## マイプロジェクト
 
