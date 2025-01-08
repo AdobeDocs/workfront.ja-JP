@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2b1b167bd3645431399c2eb60e300cd958dfa03a
 workflow-type: tm+mt
-source-wordcount: '14771'
+source-wordcount: '14782'
 ht-degree: 90%
 
 ---
@@ -187,6 +187,7 @@ ht-degree: 90%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Fusion リリースアクティビティ {#fusion-release}
          * [Adobe Workfront Fusion リリースアクティビティ](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+         * [Workfront Fusion リリースアクティビティ：2025年1月6日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2025-1-6.md)
          * [Workfront Fusion リリースアクティビティ：2024年12月16日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-16.md)
          * [Workfront Fusion リリースアクティビティ：2024年12月2日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-12-2.md)
          * [Workfront Fusion リリースアクティビティ：2024年11月25日（PT）の週](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-11-25.md)
@@ -2307,6 +2308,7 @@ ht-degree: 90%
       * [Adobe PDF サービスモジュール](workfront-fusion/apps-and-their-modules/pdf-modules.md)
       * [Adobe Photoshop モジュール](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)
       * [Adobe Target モジュール](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+      * [Adobe User Management モジュール](workfront-fusion/apps-and-their-modules/adobe-user-management-modules.md)
       * [Airtable モジュール](workfront-fusion/apps-and-their-modules/airtable-modules.md)
       * [Allocadia モジュール](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
       * [Anaplan モジュール](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
