@@ -6,10 +6,10 @@ description: ユーザーがボードを表示したりカードに割り当て�
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
+source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 63%
+source-wordcount: '494'
+ht-degree: 60%
 
 ---
 
@@ -92,6 +92,8 @@ ht-degree: 63%
 >[!NOTE]
 >
 >システム管理者または現在のボード所有者のみがボード所有者を変更できます。 1 つのボードに設定できる所有者は 1 つだけです。
+>
+>ボード所有者を変更する機能は、基本、遡及、かんばんボードで使用できますが、動的なボードでは使用できません。
 
 1. ボードにアクセスします。
 1. ボード名の横にある **[!UICONTROL その他]** メニュー ![ その他メニュー ](assets/more-icon-spectrum.png) をクリックし、「**[!UICONTROL ボード所有者を変更]**」を選択します。
