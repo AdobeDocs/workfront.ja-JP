@@ -6,20 +6,20 @@ product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets モジュール
-description: ' [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets]  アカウント用の  [!DNL Adobe Experience Manager Assets]  コネクタを使用して、アセットを作成、アップロード、アップデートして、フォルダーとアセットをコピーまたは移動します。'
+description: ' [!DNL Adobe Workfront Fusion] 用の  [!DNL Adobe Experience Manager Assets] connector を使用すると、アセットの作成、アップロード、更新、フォルダーやアセットのコピーや移動を行うことができます。'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
 workflow-type: tm+mt
-source-wordcount: '1724'
-ht-degree: 85%
+source-wordcount: '1716'
+ht-degree: 83%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets] モジュール
 
-[!DNL Adobe Workfront Fusion] 用 [!DNL Adobe Experience Manager Assets] コネクタを使用して、[!DNL Adobe Experience Manager Assets] アカウントのイベントを基にシナリオを開始したり、アセットを作成、アップロード、アップデートして、フォルダーやアセットをコピーまたは移動したりできます。
+[!DNL Adobe Workfront Fusion] 用の [!DNL Adobe Experience Manager Assets] コネクタを使用すると、アセットの作成、アップロード、更新、フォルダーやアセットのコピーや移動を行うことができます。
 
 Adobe Experience Manager Assets コネクタの概要については、以下を参照してください。
 
@@ -52,7 +52,7 @@ Adobe Experience Manager Assets コネクタの概要については、以下を
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Adobe Workfront] プランがある場合、この記事で説明する機能を使用するには、組織で [!DNL Adobe Workfront Fusion] の購入 [!DNL Adobe Workfront] 必要です。 [!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
+   <p>現在の製品要件：[!UICONTROL Select] または [!UICONTROL Prime] の [!DNL Adobe Workfront] プランがある場合、この記事に記載されている機能を使用するには、組織で [!DNL Adobe Workfront Fusion] の購入 [!DNL Adobe Workfront] 必要です。 [!DNL Workfront Fusion] は、[!DNL Workfront] [!UICONTROL Ultimate] プランに含まれています。</p>
    <p>または</p>
    <p>従来の製品要件：この記事で説明している機能を使用するには、[!DNL Adobe Workfront Fusion] と [!DNL Adobe Workfront]を組織で購入する必要があります。</p>
    </td> 
