@@ -5,9 +5,9 @@ description: AI アシスタントの概要
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
+source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '741'
 ht-degree: 10%
 
 ---
@@ -100,12 +100,12 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
   詳細については、[AI アシスタントを使用して計算フィールドの数式を生成または変更する ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) を参照してください。
 
-<!--<div class="preview">
-* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
+<div class="preview">
+*更新、アップロードされたドキュメント、およびプロジェクトに関するその他の注目すべき変更を優先事項の 24 時間、3 日、7 日間の期間内にまとめます。
 
-For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+詳しくは、[ 優先度の作業のキャッチアップ ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
 
-</div>-->
+</div>
 
 ## AI アシスタントで使用可能なオブジェクトタイプ
 
