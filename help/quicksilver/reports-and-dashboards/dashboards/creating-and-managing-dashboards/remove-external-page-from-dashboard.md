@@ -6,14 +6,16 @@ description: 不要になった外部ページは、ダッシュボードから�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 100%
+source-wordcount: '239'
+ht-degree: 90%
 
 ---
 
 # ダッシュボードからの外部ページを削除
+
+<!-- Audited: 1/2025 -->
 
 不要になった外部ページは、ダッシュボードから削除できます。
 
@@ -21,39 +23,53 @@ ht-degree: 100%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+以下が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>ダッシュボードに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ダッシュボードに対する権限の管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ダッシュボードからの外部ページを削除
 
-1. **メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**ダッシュボード**」をクリックします。
-1. 外部ページを削除するダッシュボードを選択し、**編集** ![](assets/edit-icon.png) をクリックします。
+1. 削除する外部ページが含まれているダッシュボードに移動します。
 
-   ![編集アイコンを選択します。](assets/nwe-editdashboard2021-350x188.png)
+1. 「**ダッシュボードの操作**」をクリックしたあと、「**編集**」をクリックします。
+
+   ![](assets/unshimmed-edit-dashboard.png)
 
 1. 画面の右側で、削除する外部ページを見つけて、**削除**&#x200B;アイコン ![](assets/delete.png) をクリックします。
 

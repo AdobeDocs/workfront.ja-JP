@@ -7,20 +7,22 @@ description: ダッシュボードに追加されたレポートのダッシュ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5ec2380e-e4fc-42f5-a553-b61c11573b9b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 100%
+source-wordcount: '224'
+ht-degree: 77%
 
 ---
 
 # ダッシュボードでのレポートの表示について
 
+<!-- Audited: 1/2025 -->
+
 ダッシュボードに追加されたレポートのダッシュボードでの表示を管理できます。
 
 ダッシュボードでのレポートのレイアウトの編集については、[ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
 
-レポートの作成時に、ダッシュボードに表示するレポート列を選択できます。レポートのすべての列を常にダッシュボードに表示する場合は、レポートの作成時に列ごとにそれを必ず指定してください。
+レポートの作成時や編集時にダッシュボードに表示するレポート列を選択するには、「[!UICONTROL **列設定**]」の [!UICONTROL **詳細オプション**] をクリックします。 ダッシュボード上のレポートのすべての列を表示する場合は、レポートの各列に対して指定していることを確認します。
 
 ダッシュボードに表示するレポートの列の選択について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 

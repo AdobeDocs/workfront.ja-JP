@@ -4,9 +4,10 @@ description: 2025年第 1 四半期のプロジェクトの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 998f3508-623e-471b-9ab7-bded5add6b5b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '182'
+source-wordcount: '181'
 ht-degree: 40%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 12 月 19 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリース（2025 年 1 月）で
+>プレビューリリース：2024 年 12 月 19 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースで（2025 年 1 月 16 日（PT））
 
 2023 年 12 月以降プレビュー環境、2024 年 3 月以降ファーストリリース実稼動環境にあった機能が削除されました。 この機能により、タスクを割り当てる際の、より関連性の高いスマート割り当て候補が追加されました。
 

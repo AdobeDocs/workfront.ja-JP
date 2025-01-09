@@ -6,14 +6,16 @@ description: ダッシュボードの目的は、情報にすばやくアクセ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: 008713ef6587041310388c05909ad5f78fb9fa4c
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 89%
+source-wordcount: '495'
+ht-degree: 86%
 
 ---
 
 # ダッシュボードの編集
+
+<!-- Audited: 1/2025 -->
 
 ダッシュボードの目的は、情報にすばやくアクセスできるようにすることです。Adobe Workfront では、次の項目をダッシュボードに入力できます。
 
@@ -33,6 +35,8 @@ ht-degree: 89%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 以下が必要です。
 
 <table style="table-layout:auto"> 
@@ -40,25 +44,36 @@ ht-degree: 89%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>ダッシュボードに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ダッシュボードに対する権限の管理</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -71,7 +86,7 @@ ht-degree: 89%
 1. 編集するダッシュボードに移動します。
 1. 「**ダッシュボードの操作**」をクリックしたあと、「**編集**」をクリックします。
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

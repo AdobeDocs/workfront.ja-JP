@@ -7,16 +7,16 @@ description: ダッシュボードの目的は、情報に素早くアクセス�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 96%
+source-wordcount: '689'
+ht-degree: 95%
 
 ---
 
 # ダッシュボードの基本を学ぶ
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 ダッシュボードの目的は、複数のレポートから得られた情報に素早くアクセスできるようにすることです。まず、レポートで情報を収集し、複数のレポートをダッシュボードに配置することで、情報にアクセスしやすくすることができます。
 
@@ -38,7 +38,16 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront プラン</strong></p> </td> 
-   <td> <p>新規：Contributor 以上</p><p>または</p><p>現在：レビュー以上</p> </td> 
+      <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>投稿者以上</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>レビュー以上</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>アクセスレベル</strong> </td> 
@@ -51,7 +60,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 13%
+source-wordcount: '250'
+ht-degree: 14%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 12 月 16 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリース（2025 年 1 月）で
+>プレビューリリース：2024 年 12 月 16 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースで（2025 年 1 月 16 日（PT））
 
 ダッシュボードのパフォーマンスを維持するために、ダッシュボードに配置できるレポート、外部ページまたはカレンダーの合計数に制限を実装しました。 新しいダッシュボードを作成する際に追加できる項目は最大 25 個です。
 

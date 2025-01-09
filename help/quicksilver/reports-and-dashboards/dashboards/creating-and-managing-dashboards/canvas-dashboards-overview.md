@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 100%
@@ -14,6 +14,7 @@ ht-degree: 100%
 
 # キャンバスダッシュボードの概要
 
+<!-- This page is hidden as it is outdated, delete once full Canvas Dashboard docs are live-->
 <!-- Audited: 12/2023 -->
 
 現在、ダッシュボード向けに開発中の機能であるキャンバスダッシュボードは、Workfront で効果的なダッシュボードを構築するための新しいオプションを提供します。キャンバスダッシュボードを使用すると、レポートキャンバスのビジュアライゼーションを既存のレポートに簡単に含めることができ、柔軟性が向上し、新しいレイアウトオプションが提供されます。
@@ -81,6 +82,7 @@ ht-degree: 100%
 1. 「**レポートを検索**」フィールドに、表示するレポートの名前の入力を開始します。リストにレポートが表示されたら、名前の横にある「**リストレポート**」または「**グラフレポート**」アイコンをクリックすると、そのレポートの情報が選択した形式で表示されます。
 
 >[!WARNING]
+>
 > 現在、同一レポートの情報を表示する複数のウィジェットを追加することができますが、ダッシュボードのパフォーマンスに影響を与える可能性があるので、各レポートは 1 回だけ表示することをお勧めします。
 
 ### キャンバスダッシュボードでウィジェットを編集

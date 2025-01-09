@@ -4,9 +4,10 @@ description: 2025年第 1 四半期の更新ストリームと通知の機能強
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '222'
 ht-degree: 42%
 
 ---
@@ -21,7 +22,7 @@ ht-degree: 42%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 12 月 19 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリース（2025 年 1 月）で
+>プレビューリリース：2024 年 12 月 19 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースで（2025 年 1 月 16 日（PT））
 
 ホームのメンションウィジェットとマイアップデート領域のメンションセクションのコメント機能が更新されます。 現在は、ほとんどのWorkfront オブジェクトの「更新」領域にある同じエクスペリエンスが、メンションウィジェットと「マイアップデート」の「メンション」セクションでも利用できるようになりました。
 

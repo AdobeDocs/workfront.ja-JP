@@ -6,22 +6,26 @@ description: 新しいリクエストキューをダッシュボードに埋め�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 100%
+source-wordcount: '1137'
+ht-degree: 98%
 
 ---
 
 # ダッシュボードへのリクエストキューの埋め込み
 
-新しいリクエストキューをダッシュボードに埋め込むと、リクエストエリアに移動せずに、ユーザがリクエストキューに直接アクセスできるようになります。 
+<!-- Audited: 1/2025 -->
+
+新しいリクエストキューをダッシュボードに埋め込むと、リクエストエリアに移動せずに、ユーザがリクエストキューに直接アクセスできるようになります。
 
 例えば、ヘルプデスクキューや、全員が定期的にアクセスする必要がある PTO リクエストキューなど、組織全体に公開されているリクエストキューがある場合、リクエストキューをダッシュボードの 1 つに直接挿入して、素早く簡単にアクセスできるようにすると便利な場合があります。この設定手順は、ダッシュボードで外部ページを作成する手順と似ています。
 
 まず、リクエストキューへの URL を取得する必要があります。次に、外部ページを追加して、URL をダッシュボードに埋め込むことができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -30,31 +34,43 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>ダッシュボードに対する権限の管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ダッシュボードに対する権限の管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
 ダッシュボードにリクエストキューを埋め込む前に、以下の両方を作成する必要があります。
 
 * **ダッシュボード**：ダッシュボードの作成について詳しくは、[ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
+
 * **リクエストキュー**：リクエストキューの作成について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
 ## リクエストキューの URL を取得 {#obtain-the-url-of-the-request-queue}
@@ -62,7 +78,9 @@ ht-degree: 100%
 リクエストキューの URL は、ユーザーがダッシュボードからアクセスしたときに、リクエストキューのどの部分をユーザーに公開したいかにより、複数の方法で取得できます。
 
 * [リクエストタイプを変更できる特定のキュートピックへのリンクを取得](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+
 * [リクエストキューへのリンクとリクエストタイプを変更できる機能を取得](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+
 * [リクエストタイプを変更できないリクエストキューへのリンクを取得](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
 ### リクエストタイプを変更できる特定のキュートピックへのリンクを取得 {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
@@ -71,7 +89,7 @@ ht-degree: 100%
 
 ユーザーは、リクエストのタイプを変更したり、必要に応じて別のトピックを選択したりすることができます。リクエストエリアのナビゲーションも表示されます。
 
-1. **メインメニュー**／**リクエスト**／**新規リクエスト**&#x200B;をクリックします。
+1. **メインメニュー**/**リクエスト**/**新規リクエスト** をクリックします。
 1. 特定のキューを共有する場合は、ダッシュボードで共有するキューに到達するまで、トピックグループとキュートピックの選択を続けます。リクエストの送信について詳しくは、[Adobe Workfront のリクエストの作成および送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
    >[!TIP]
@@ -139,8 +157,11 @@ ht-degree: 100%
 リクエストキューへのリンク、またはリクエストキューの下にネストされたキュートピックへのリンクをダッシュボードに埋め込むと、ユーザーはリクエストの入力に直接アクセスできます。
 
 1. この記事の[リクエストキューの URL の取得](#obtain-the-url-of-the-request-queue)の節で説明されている方法のいずれかを使用して、リクエストキュー URL を取得します。
+
 1. **メインメニュー**／**ダッシュボード**／**新規ダッシュボード**&#x200B;をクリックします。
+
 1. ダッシュボードの&#x200B;**名前**&#x200B;を入力します。必須フィールドです。
+
 1. 「**外部ページを追加**」をクリックします。
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
@@ -150,35 +171,20 @@ ht-degree: 100%
    * **名前**：ダッシュボードに表示するリクエストキューの名前を入力します。必須フィールドです。
 
    * **説明**：この外部ページに表示される説明を入力します。これは必須フィールドではなく、レポート目的でのみ重要です。ダッシュボードには表示されません。
-   * **URL**：手順 1 で取得した URL を以下の方法のいずれかでペーストします。
 
-     <!--   
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <MadCap:conditionalText data-mc-conditions="">   
-     (NOTE: ensure this stays accurate)   
-     </MadCap:conditionalText>   
-     </MadCap:conditionalText>   
-     -->
+   * **URL**：手順 1 で取得した URL を以下の方法のいずれかでペーストします。
 
    * **高さ**：外部ページの高さを入力します。これは、リクエストキューを含む外部ページがダッシュボード上で占めるスペースを定義するものです。これは必須フィールドで、デフォルト値は 500 です。
 
 1. 「**保存**」をクリックします。
+
 1. 「**保存して閉じる**」をクリックします。
 
    リクエストキューは、ダッシュボードに別個のダッシュボードコンポーネントとして表示されます。
 
-   ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
+1. （オプション）「**ダッシュボードのアクション**」をクリックして、「**編集**」をクリックして、同じダッシュボードにレポート、カレンダーまたはさらに外部ページを追加します。
 
-1. （オプション）「**ダッシュボードのアクション**」をクリックして、「**編集**」をクリックして、同じダッシュボードにレポート、カレンダーまたはさらに外部ページを追加します。\
    ダッシュボードへのコンポーネントの追加について詳しくは、[ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)を参照してください。
-
- 
-
- 
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - old information)</p>
--->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

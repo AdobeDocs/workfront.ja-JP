@@ -6,14 +6,16 @@ description: ダッシュボードを印刷したり .PDF ファイルに書き�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: efae17458f2aa08ca2286ef5e43c68d1f9334b7b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '461'
+ht-degree: 96%
 
 ---
 
 # ダッシュボードの印刷
+
+<!-- Audited: 1/2025 -->
 
 ダッシュボードを印刷したり .PDF ファイルに書き出したりできます。ダッシュボードを印刷するには、ダッシュボードを表示する権限が必要です。
 
@@ -23,6 +25,8 @@ ht-degree: 100%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 以下が必要です。
 
 <table style="table-layout:auto"> 
@@ -30,25 +34,36 @@ ht-degree: 100%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>ワークまたはそれ以上</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+      <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>ワークまたはそれ以上</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>レポート、ダッシュボードおよびカレンダーの表示アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーの表示アクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクトの権限</strong>/td&gt; 
-   <td> <p>ダッシュボードの表示権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ダッシュボードの表示権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -86,7 +101,7 @@ ht-degree: 100%
 1. 印刷するダッシュボードに移動します。
 1. 次のいずれかの操作を行います。
 
-   * **ダッシュボードの操作**／**印刷**&#x200B;をクリックします。
+   * **ダッシュボード アクション**/**印刷プレビュー** をクリックします
 
    * **Ctrl + P** キー（Windows の場合）または **Command + P** キー（Mac の場合）を押します。
 

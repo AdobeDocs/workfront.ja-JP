@@ -6,16 +6,16 @@ description: ダッシュボードを作成して、Adobe Workfrontの情報に�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '484'
 ht-degree: 85%
 
 ---
 
 # ダッシュボードの作成
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 ダッシュボードを作成して、Adobe Workfrontの情報にすばやくアクセスできます。最大 25 個の報告書、カレンダー、外部ページをダッシュボードに追加して、他のユーザーと共有して共同作業を最適化できます。
 
@@ -38,7 +38,7 @@ ht-degree: 85%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront プラン*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront プラン</strong></p> </td> 
    <td> <p>現在：プラン </p>
    または
    <p>新規：標準 </p> </td> 
@@ -54,7 +54,7 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

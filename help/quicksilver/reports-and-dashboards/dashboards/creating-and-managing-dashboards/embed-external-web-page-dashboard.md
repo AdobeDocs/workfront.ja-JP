@@ -6,16 +6,16 @@ description: 外部 web ページをダッシュボードに埋め込んで、Ad
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 98%
+source-wordcount: '1011'
+ht-degree: 93%
 
 ---
 
 # ダッシュボードへの外部 Web ページの埋め込み
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 外部 we ページをダッシュボードに埋め込んで、他のシステムまたは Adobe Workfront 内から関連情報にアクセスできるようにします。
 
@@ -64,10 +64,17 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>現在：プラン </p>
-   または
-   <p>新規：標準 </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
@@ -75,12 +82,12 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> </td> 
+   <td> <p>ダッシュボードへのアクセスの編集</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -162,7 +169,7 @@ ht-degree: 98%
 
    「**ダッシュボード詳細**」ボックスが開きます。
 
-1. 「**ダッシュボード詳細**」ボックスの&#x200B;**ここにレポート / カレンダーをドラッグしてダッシュボードを調整**&#x200B;エリアで、更新する外部ページを見つけて、その上にポインタを合わせて、**編集**&#x200B;アイコンをクリックします。\
+1. **ダッシュボードの詳細** ボックスの **レイアウトを選択/レポートを追加** 領域で、更新する外部ページを見つけて、その上にカーソルを置いて **編集** アイコンをクリックします。\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. 「**外部ページの編集**」ボックスで、変更するフィールドを更新し、「**保存**」をクリックします。
@@ -175,7 +182,7 @@ ht-degree: 98%
 
 {{step1-to-reports}}
 
-1. 「**新規レポート**」をクリックし、「**外部ページ**」を選択します。
+1. **新規レポート** をクリックし、**外部セクション** を選択します。
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -185,6 +192,5 @@ ht-degree: 98%
 
 1. 「**保存して閉じる**」をクリックします。
 
-   新規レポートで、システム内の外部ページに関連付けられている名前と URL を表示できます。
+   新しいレポートには、システム内の外部ページに関連付けられた名前と URL を表示できます。
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

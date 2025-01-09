@@ -4,7 +4,8 @@ description: 2025 年第 1 四半期プルーフの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 22%
@@ -21,7 +22,7 @@ ht-degree: 22%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 8 月 30 日（PT）。すべてのお客様向けの実稼動リリース：2024 年 8 月 30 日（PT）。
+>プレビューリリース：2024 年 11 月 7 日（PT）、すべてのお客様向けの実稼動リリース：2024 年 11 月 7 日（PT）。
 
 インタラクティブな ZIP コンテンツをレビューするための従来のブラウザー拡張機能に代わる、新しいブラウザー拡張機能であるAdobe Workfront レビューツールを導入します。 従来のブラウザー拡張機能は、2025 年 2 月 28 日（PT）に削除されます。
 

@@ -4,10 +4,11 @@ description: 2025年第 1 四半期のボードの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '173'
-ht-degree: 35%
+source-wordcount: '187'
+ht-degree: 32%
 
 ---
 
@@ -25,7 +26,7 @@ ht-degree: 35%
 
 ボードの作成者は、デフォルトでは所有者です。 設定パネルでそのボードを削除したりフィルターを更新したりできるのは、ボードの所有者のみです。
 
-Workfront システム管理者がボードの所有者を変更できる機能が追加されました。 ボードの現在の所有者が、その特定のボードの所有者を変更することもできます。
+Workfront システム管理者がボードの所有者を変更できる機能が追加されました。 ボードの現在の所有者が、その特定のボードの所有者を変更することもできます。 この機能は、基本、遡及、かんばんボードで使用できますが、動的なボードでは使用できません。
 
 以前は、バックエンドでの介入なしにボードの所有者を変更することはできませんでした。
 

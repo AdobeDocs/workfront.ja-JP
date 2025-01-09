@@ -6,18 +6,22 @@ description: ダッシュボードとそのコンテンツのすべて（レポ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 100%
+source-wordcount: '896'
+ht-degree: 98%
 
 ---
 
 # ダッシュボードのコピー
 
+<!-- Audited: 1/2025 -->
+
 ダッシュボードとそのコンテンツのすべて（レポート、カレンダー、外部ページ）をコピーできます。ダッシュボードの内容をコピーする場合、元のダッシュボードに表示されている内容をそのまま保持するか、元のダッシュボードの内容のコピーを新規項目として作成するかを選択できます。また、新しいダッシュボードで項目を転送またはコピーしないように選択することもできます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -31,18 +35,31 @@ ht-degree: 100%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
-   <td> <p>プラン </p> </td> 
+    <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
-   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>ダッシュボードへのアクセスを表示</p> <p>コピーしたダッシュボードへの管理アクセス権を取得します</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>ダッシュボードへのアクセスを表示</p> <p>コピーしたダッシュボードへの管理アクセス権を取得します</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -52,7 +69,7 @@ ht-degree: 100%
 
 ## ダッシュボードのコピー
 
-1. **メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**ダッシュボード**」の順にクリックします。
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**[!UICONTROL ダッシュボード]**」を選択します。
 
 1. コピーするダッシュボードを選択し、「**コピー** ![](assets/copy-icon.png)」をクリックします。\
    または\

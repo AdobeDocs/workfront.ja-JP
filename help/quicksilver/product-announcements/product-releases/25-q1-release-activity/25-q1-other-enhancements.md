@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 10%
+source-wordcount: '400'
+ht-degree: 21%
 
 ---
 
@@ -33,7 +33,7 @@ Experience Manager AssetsとAssets EssentialsのAdobe Workfront統合を使用�
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 11 月 11 日（PT）、高速リリースの実稼動：24.12 リリース（2024 年 12 月 12 日（PT））、四半期リリースの実稼動：25.1 リリース（2025 年 1 月）の実稼動
+>プレビューリリース：2024年11月11日（PT）。迅速リリース用の実稼動版：24.12 リリース（2024年12月12日（PT））。四半期リリース用の実稼動版：25.1 リリース（2025年1月16日（PT））
 
 複数のセクションを持つカスタムフォームをオブジェクトに添付する場合、フォームの上部にあるデフォルトセクションを除くすべてのセクションを折りたたんだり展開したりできるようになりました。 管理者は、フォームデザイナーでフォームをプレビューする際にも、この機能を確認できます。
 
@@ -43,11 +43,11 @@ Experience Manager AssetsとAssets EssentialsのAdobe Workfront統合を使用�
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 10 月 31 日（PT）、高速リリースの実稼動：24.11 リリースの実稼動（2024 年 11 月 14 日（PT））、四半期リリースの実稼動：25.1 リリースの実稼動（2025 年 1 月）
+>プレビューリリース：2024年10月31日（PT）。迅速リリース用の実稼動版：24.11 リリース（2024年11月14日（PT））。四半期リリース用の実稼動版：25.1 リリース（2025年1月16日（PT））
 
 Workfrontで作業項目を管理しやすくするために、AI アシスタントが更新されて、プロジェクト、タスク、イシューを操作できるようになりました。 これで、AI アシスタントは、「期限が今週の自分のタスクを検索」など、指定した条件に基づいて、プロジェクト、タスク、問題を検索できます。
 以前は、AI アシスタントは、プロジェクト、タスク、イシューを直接操作することはできませんでした。
 
-Workfront管理者は、組織の AI アシスタントを有効または無効にできます。 AI アシスタントは、Select、Prime および Ultimate プランのインスタンスで使用できます。
+Workfront管理者は、組織の AI アシスタントを有効または無効にできます。 AI アシスタントは、Select、Prime、Ultimateの各プランのインスタンスで使用できます。
 
 詳しくは、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。
