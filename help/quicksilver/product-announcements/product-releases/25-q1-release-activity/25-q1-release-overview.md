@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
 source-wordcount: '2527'
 ht-degree: 27%
@@ -37,7 +37,7 @@ ht-degree: 27%
 * [管理者機能の強化](#administrator-enhancements)
 * [ボードの機能強化](#boards-enhancements)
 * [ドキュメント管理の機能強化](#document-management-enhancements)
-* [ホームの機能強化](#home-enhancements)
+* [優先度の機能強化](#priorities-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [プルーフ機能の強化](#proofing-enhancements)
 * [レポートとダッシュボードの機能強化](#report-and-dashboard-enhancements)
@@ -248,7 +248,7 @@ ht-degree: 27%
 </tbody>
 </table>
 
-### ホームの機能強化
+### 優先度の機能強化
 
 <table>
 <col style="width: 50%;" />
