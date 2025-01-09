@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '3657'
-ht-degree: 85%
+source-wordcount: '3848'
+ht-degree: 81%
 
 ---
 
@@ -18,14 +18,10 @@ ht-degree: 85%
 
 <!--Audited: 12/2023-->
 
-<!--remove all preview and production references from this article with 23.3 release-->
+<!--remove all preview and production references if any-->
+<!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
--->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境でのみ使用できます。</span>
 
 Adobe Workfront の作業アイテムに費やした時間を記録して、その作業アイテムに費やした時間を示すことができます。休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。記録した時刻がタイムシートに表示されます。
 
@@ -490,23 +486,74 @@ Workfront モバイルアプリで時間を記録できます。
 * 時間数
 * 時間タイプ
 * 時間エントリに関連付けられた担当業務
+* 時間エントリの説明
 
-編集する時間エントリのタイプに応じて、次のフィールドを編集できます。
+編集する時間エントリの種類に応じて、次のフィールドを時間リストまたはレポートで編集できます。
 
 * プロジェクト固有の時間を編集する場合：
 
-   * 時間数を編集できます。
-   * 時間タイプは、プロジェクト固有のタイプにのみ変更できます。
-   * 時間の担当業務の割り当ては、設定で有効にした場合にのみ変更できます。 詳しくは、[ タイムシートおよび時間環境設定の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) を参照してください。
+   * 時間数
+   * 時間タイプ。 時間タイプは、プロジェクト固有のタイプにのみ変更できます。
+   * 担当業務の割り当て。 担当業務の割り当ては、設定で有効にした場合にのみ変更できます。 詳しくは、[ タイムシートおよび時間環境設定の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) を参照してください。
+   * 時間エントリの説明。
+
+<div class="preview">
+
+![](assets/edit-hour-box-project-hour-type.png)
+
+</div>
 
 * 一般的な時間を編集する場合：
 
-   * 時間数を編集できます。
-   * 「時間タイプ」は、「一般」タイプにのみ変更できます。
-   * 一般的な時間を役割に関連付けることはできないので、時間の担当業務の割り当てを変更することはできません。
+   * 時間数。
+   * 時間タイプ。 「時間タイプ」は、「一般」タイプにのみ変更できます。
+   * 時間エントリの説明。
+
+>[!TIP]
+>
+> 一般的な時間を役割に関連付けることはできないので、時間の担当業務の割り当てを変更することはできません。
+
+<!--update the screen shot at production - we should not see the job role field for general hours-->
+
+![](assets/edit-hour-box-general-overhead-hour-type.png)
+
 
 * 一般時間とプロジェクト固有の時間を一括して編集する場合：
 
-   * 時間数を編集できます。
-   * 時間タイプは変更できません。これは、一般的な時間タイプをプロジェクト固有のタイプに変更したり、プロジェクト固有の時間タイプを一般的なタイプに変更したりできないためです。
-   * 一般的な時間を役割に関連付けることはできないので、担当業務の割り当ては変更できません。
+   * 時間数。
+   * 時間エントリの説明。
+
+>[!TIP]
+>
+>* 時間タイプは変更できません。これは、一般的な時間タイプをプロジェクト固有のタイプに変更したり、プロジェクト固有の時間タイプを一般的なタイプに変更したりできないためです。
+>* 一般的な時間を役割に関連付けることはできないので、担当業務の割り当ては変更できません。
+
+
+<!--update the screen shot at production - we should not see the job role and the hour type fields for mixed hour types-->
+
+![](assets/edit-hour-box-mixed-hour-types-in-bulk.png)
+
+時間レポートまたはリストで時間タイプを編集するには、次の手順に従います。
+
+1. 時間リストまたはレポートに移動します。
+1. 1 つまたは複数の時間エントリの左側にあるボックスをクリックして、選択します。
+1. リスト上部の **編集アイコン**![](assets/edit-icon.png) をクリックします。
+
+   **時間を編集** または **時間を編集** ボックスが開きます。
+1. 次の使用可能なフィールドのいずれかを更新します。
+
+   * 時間。 必須フィールドです。
+   * 時間タイプ。 必須フィールドです。
+   * 担当業務
+   * 説明
+
+   >[!TIP]
+   >
+   >   選択した時間エントリに関連付けられている時間タイプによっては、すべてのフィールドを使用できるわけではありません。
+
+1. 「**保存 <span class="preview"> 変更</span>**」をクリックします。
+
+   時間エントリ情報が更新されます。
+複数の時間エントリを選択し、[ 時間 ] フィールドを変更すると、選択したすべての時間エントリに同じ時間数が割り当てられます。 元の時間は、選択したすべての時間エントリの新しい値に置き換えられます。
+
+

@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 85%
+source-wordcount: '516'
+ht-degree: 83%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 85%
 ルーティングルールは、イシューがリクエストキューに送信される際に、Adobe Workfront がイシューに対して行う処理を制御します。リクエストキューの作成について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
 ルーティングルールは、送信されたイシューまたはリクエストを解決するのに最適な特定のユーザーまたは担当業務にイシューを送信します。ルーティングルールは通常、キュートピックに関連付けられており、イシューまたはリクエストにどのルーティングルールを適用するかを制御するために使用されます。
+
+作成したルーティング規則を、あるプロジェクトから別のプロジェクトに移動することはできません。
 
 ## アクセス要件
 

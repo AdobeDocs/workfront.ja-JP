@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1564'
 ht-degree: 13%
 
 ---
@@ -139,33 +139,40 @@ ht-degree: 13%
 
    * 選択したレコードタイプのテーブル表示で使用可能なレコードフィールド。<!--they are working on removing the limitation below-->
 
-   >[!IMPORTANT]
-   >
-   > リクエストフォームを作成する環境に応じて、次のようなシナリオが存在します。
-   >
-   >* 次のタイプのフィールドは、リクエストフォーム <span class="preview"> プレビュー </span> ードまたは実稼動環境）に表示されません。
-   >
-   >    * 作成者と最終変更者
-   >    * 式
-   >    * 作成日と最終変更日
-   >    * Workfront オブジェクトの参照フィールド
-   >    * Workfront Planning 接続レコードの参照フィールド
-   >* 次のタイプのフィールドは、実稼動環境のリクエストフォームに表示されません。 <span class="preview"> プレビュー環境に表示されます。</span>
-   >    * Workfront Planning レコード <span class="preview"> 接続されているフィールド </span>
-   >    * <span class="preview">People </span>
-   >    * <span class="preview">Workfront オブジェクトの接続されたフィールド </span>
-   >    * <span class="preview">AEM Assets接続フィールド </span>
+<!-- when we go to prod, the Preview batch below will become the only batch-->
 
-   * **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。
-   * **件名** フィールド：Workfrontでリクエストを識別するフィールド。 この機能は、実稼動環境ではまだ使用できません。 <span class="preview"> プレビュー環境で使用できます。</span> 「件名」フィールドの設定と値は編集できません。
+>[!IMPORTANT]
+>
+> リクエストフォームを作成する環境に応じて、次のようなシナリオが存在します。
+>
+>* 次のタイプのフィールドは、実稼動環境のリクエストフォームには表示されません。
+>
+>    * 作成者と最終変更者
+>    * 作成日と最終変更日
+>    * 式
+>    * ユーザー
+>    * Workfront接続フィールド
+>    * Workfront オブジェクトの参照フィールド
+>    * Workfront Planning レコードの接続されたフィールド
+>    * Workfront Planning 接続レコードの参照フィールド
+>    * AEM Assets接続フィールド
+>* 次のタイプのフィールドは、<span class="preview"> プレビュー環境：</span> のリクエストフォームに表示されません
+>    * 作成者 <span class="preview"> 最終変更者 </span>
+>    * <span class="preview"> 作成日と最終変更日 </span>
+>    * <span class="preview"> 数式 </span>
+>    * Workfront オブジェクトのルックアップフィールドに <span class="preview"> いて </span>
+>    * <span class="preview">Workfront Planning 接続レコードの参照フィールド </span>
 
-     >[!TIP]
-     >
-     >**件名** フィールドは、リクエストフォームに表示される場合、値が必要です。 ただし、必要に応じて **件名** フィールドを削除することができ、リクエスターにはフォームに表示されません。
+* **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。
+* **件名** フィールド：Workfrontでリクエストを識別するフィールド。 この機能は、実稼動環境ではまだ使用できません。 <span class="preview"> プレビュー環境で使用できます。</span> 「件名」フィールドの設定と値は編集できません。
 
-   * レコードタイプに関連付けられているすべてのフィールド。
+  >[!TIP]
+  >
+  >**件名** フィールドは、リクエストフォームに表示される場合、値が必要です。 ただし、必要に応じて **件名** フィールドを削除することができ、リクエスターにはフォームに表示されません。
 
-     リクエストフォームに含まれるフィールドは、このレコードタイプにリクエストを送信するすべてのユーザーに表示されます。
+* レコードタイプに関連付けられているすべてのフィールド。
+
+  リクエストフォームに含まれるフィールドは、このレコードタイプにリクエストを送信するすべてのユーザーに表示されます。
 
 1. （オプション）削除するフォーム上のフィールドの上にマウスポインターを置き、「**x**」アイコンをクリックして削除します。 これらは、フォームの左側にある **フィールド** タブに追加されます。
 
@@ -233,9 +240,7 @@ ht-degree: 13%
    >
    > * <span class="preview"> 次のフィールドタイプを含むフォームは、公開して共有することができません。</span>
    >
-   >     * <span class="preview"> 数式 </span>
    >     * <span class="preview">WorkfrontまたはAEM Assets Connections</span>
-   >     * <span class="preview"> 参照フィールド </span>
    >     * <span class="preview">ユーザー</span>
    >
 

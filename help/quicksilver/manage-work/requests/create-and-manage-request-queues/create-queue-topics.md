@@ -7,10 +7,10 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 97%
+source-wordcount: '854'
+ht-degree: 96%
 
 ---
 
@@ -21,6 +21,8 @@ ht-degree: 97%
 キューのトピックは、ルーティングルールと連携して、作業依頼をユーザー、担当業務、チームにを自動的に割り当てたり、プロジェクトに配置したりします。キューのトピックでは、ルーティングルールを実装するために必要な条件を定義します。
 
 トピックグループまたはプロジェクトに割り当てることができるキューのトピックの数に制限はありません。キューのトピックは、レポート可能なオブジェクトタイプです。
+
+作成したキュートピックは、プロジェクト間で移動することはできません。
 
 ## アクセス要件
 
