@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 16%
+source-wordcount: '769'
+ht-degree: 14%
 
 ---
 
@@ -17,6 +17,19 @@ ht-degree: 16%
 ここでは、2025 年第 1 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対するマイナーな更新について説明します。
 
 2025 年第 1 四半期リリースで使用可能なすべての変更のリストについては、[2025 年第 1 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md) を参照してください。
+
+
+## 時間リストまたはレポートから時間エントリを編集するためのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 1 月 9 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースの場合（2025 年 1 月 16 日（PT））
+
+時間リストやレポートから時間を編集する際の、「時間を編集」ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
+
+詳しくは、[ 時間をログに記録 ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
+
+
 
 ## 設定領域のクラウドプロバイダーページのエクスペリエンスを更新しました
 
