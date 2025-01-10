@@ -7,10 +7,10 @@ description: 承認された休暇がいつ発生するかを Adobe Workfront �
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 100%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
@@ -67,6 +67,13 @@ ht-degree: 100%
 ## [!DNL Workfront] における個人の休暇の設定
 
 {{step1-click-profile-pic}}
+
+>[!NOTE]
+>
+>Adobe統合エクスペリエンスを利用している場合は、上部のナビゲーションエリアでAdobeアカウントメニュー（プロファイル画像）をクリックし、「Workfront プロファイル」を選択すると、Workfront プロファイルにアクセスできます。
+>
+>![workfront プロファイル ](assets/aue-profile.png)
+
 
 1. 左パネルの「**[!UICONTROL 休暇]**」をクリックします。
 1. 個人の休暇に希望する日付を選択します。
