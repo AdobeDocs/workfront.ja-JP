@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: b333ea67bb909ca55306f6474832c275ebad590c
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 97%
+source-wordcount: '410'
+ht-degree: 93%
 
 ---
 
@@ -148,9 +148,11 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->ライトライセンスまたは投稿者ライセンスを持つユーザーは、共有機能に制限があります。詳しくは、[ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
+>* ライトライセンスまたは投稿者ライセンスを持つユーザーは、共有機能に制限があります。詳しくは、[ライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
 >
->外部ユーザーは Workfront で項目を検索できません。外部ユーザーは、個別に共有されているドキュメントやカレンダーを表示できます。また、項目を共有しているユーザーを表示できます。
+>* 外部ユーザーは Workfront で項目を検索できません。外部ユーザーは、個別に共有されているドキュメントやカレンダーを表示できます。また、項目を共有しているユーザーを表示できます。
+>
+>* 投稿者ユーザーと外部ユーザーは、システム全体で共有されているコンテンツを表示できません。  これらは明示的に共有する必要があります。
 
 アクセスレベルで各オブジェクトおよびエリアに対して許可される操作について詳しくは、以下の記事を参照してください。
 
