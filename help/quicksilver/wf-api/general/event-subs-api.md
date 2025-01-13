@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: a1c94dd17f96fbd1fb397fd927403317335cefa0
+source-git-commit: 90b863fe27b05524ff9d89f1bdeaa8d056dc1cec
 workflow-type: tm+mt
-source-wordcount: '2181'
-ht-degree: 97%
+source-wordcount: '2198'
+ht-degree: 96%
 
 ---
 
@@ -653,7 +653,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 
 ### ネストされたフィルターの使用
 
-イベント購読では、`fieldValue.fields` キーワードを使用して、イベントのネストされたフィールドをフィルタリングできます。
+イベント購読では、ネストされたフィールド名を使用した、イベントのネストされたフィールドのフィルタリングがサポートされています。 例えば、`newState.data.customField1 = 'myCustomeFieldValue'` のメッセージをフィルタリングする場合は、filter を使用して次の購読を作成できます。
 
 ```
 {
@@ -665,25 +665,11 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
         {
             "fieldName": "data",
             "fieldValue": {
-                "fields": {
-                    "customerID": "customer1234"
-                }
+                    "customField1": "myCustomFieldValue"
             },
             "comparison": "eq",
             "state": "newState"
-        },
-        {
-            "fieldName": "options",
-            "fieldValue": {
-                "objects": {
-                    "projectID": "project1234"
-                }
-            },
-            "comparison": "contains",
-            "state": "newState"
-        },
-    ],
-    "filterConnector": 'AND'
+        }
 }
 ```
 
