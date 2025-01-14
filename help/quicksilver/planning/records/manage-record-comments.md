@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 72%
+source-wordcount: '941'
+ht-degree: 67%
 
 ---
 
@@ -147,14 +147,14 @@ ht-degree: 72%
 
    >[!TIP]
    >
-   >コメント入力を完了して送信する前に「コメント」セクションから移動すると、ログオフしてログオンし直した後でも、ページ上のコメントはドラフトモードのままです。コメントに追加された画像も下書きに保存されます。ドラフトは 7 日間保存され、その後は破棄され、復元できません。下書きのコメントは、入力したユーザーのみに表示されます。
+   >入力を完了してコメントを送信する前に「コメント」セクションから移動すると、ログオフしてログオンし直した後も、コメントがドラフトモードでページに保持されます。<!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
    * Ctrl + Z（Mac の場合は ⌘+z）で、変更を元に戻します
    * Ctrl + Y（Mac の場合は ⌘+y）で、変更をやり直します
 1. （オプションおよび条件付き）Workfront インスタンスがAdobe統合エクスペリエンスの一部である場合は、**@** に続けて、更新でユーザーをタグ付けするユーザー名を追加します。 詳細については、この記事の [ レコードにコメントする場合の考慮事項 ](#considerations-about-commenting-on-a-record) を参照してください。
 
-1. （オプション） リッチテキストツールバーのオプションを使用して、テキストの書式設定や、更新への絵文字、リンクまたは画像の追加を行い、コンテンツを充実させます。
+1. （オプション） リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字または更新へのリンクの追加を行い、コンテンツを充実させます。
 
 1. 引き続きレコードにコメントを追加します。
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 2b1b167bd3645431399c2eb60e300cd958dfa03a
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '14782'
+source-wordcount: '14784'
 ht-degree: 90%
 
 ---
@@ -867,7 +867,7 @@ ht-degree: 90%
       * [ユーザー資格情報と SAML 資格情報](administration-and-setup/tips-tricks-and-troubleshooting/wf-user-credentials-vs-saml-user-credentials.md)
       * [アクセスレベルの自動アップグレードオプションの更新](administration-and-setup/tips-tricks-and-troubleshooting/update-auto-upgrade-in-access-levels.md)
 * Adobe Workfront の基本 {#basics}
-   * [Adobe Workfront の基本](workfront-basics/workfront-basics.md)
+   * [Adobe Workfrontの基本事項：記事のインデックス](workfront-basics/workfront-basics.md)
    * [Adobe Workfront の用語集](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront ブラウザー要件](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront でサポートされている言語](workfront-basics/supported-languages-in-workfront.md)

@@ -6,10 +6,10 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '3065'
-ht-degree: 82%
+source-wordcount: '3104'
+ht-degree: 81%
 
 ---
 
@@ -382,16 +382,26 @@ You can add updates to the following objects:
    1. **表示するテキスト**&#x200B;で、リンクテキストを入力またはペーストします。
    1. 「**保存**」をクリックします。
 
-1. （オプション）更新に画像を添付するには、次のいずれかの操作を実行します。
+1. （任意）更新に画像を添付します。
+
+   >[!WARNING]
+   >
+   >次のオブジェクトの更新領域に画像を添付することはできません。
+   >
+   >* Goals
+   >* ボード上のアドホックカード
+   >* Workfront Planning のレコード。 詳しくは、[Adobe Workfront計画の概要を参照してください ](/help/quicksilver/planning/general/planning-overview.md)
+   >
+
+   更新プログラムに画像を添付するには、次のいずれかの操作を行います。
 
    * コンピューター上に画像を保存し、新しいコメントエリアにドラッグアンドドロップします。
    * コンピューターからスクリーンショットをコピーし、コメントに貼り付けます。
    * **画像を追加**&#x200B;アイコン ![](assets/add-image-mountain-with-plus-icon.png) をクリックし、お使いのコンピューター上で画像を参照します。
 
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**重要**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -598,7 +608,7 @@ Workfront オブジェクトの更新セクションには、以下の 2 種類�
    * チーム
    * テンプレート
    * テンプレートタスク
-   * アドホックカード
+   * ボード上のアドホックカード
 
 ユーザーおよびシステムの更新と、Workfront オブジェクトの「更新」セクションでの表示方法について詳しくは、「[ 更新」セクションの概要 ](../updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
 

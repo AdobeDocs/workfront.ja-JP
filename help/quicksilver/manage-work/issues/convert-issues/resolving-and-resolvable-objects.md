@@ -7,10 +7,10 @@ description: 解決可能オブジェクトとは、解決策が解決オブジ�
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1743'
-ht-degree: 97%
+source-wordcount: '1771'
+ht-degree: 94%
 
 ---
 
@@ -120,11 +120,13 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 ### 解決オブジェクトがイシューの場合にステータスを同期 {#synchronize-statuses-when-the-resolving-object-is-an-issue}
 
-イシューが別のイシューに手動で結び付けられている場合、2 番目のイシューのステータス（解決オブジェクト）が、最初のイシューのステータス（解決可能オブジェクト）の変更をトリガーします。1 つ目のイシューのステータスは、2 つ目のイシューの変更後のステータスと一致します。これは、デフォルトのイシューステータスとカスタムのイシューステータスの両方に当てはまります。
+イシューが別のイシューに手動で関連付けられている場合、2 番目のイシューのステータス（オブジェクトの解決）には、最初のイシューのステータス（解決可能なオブジェクト）の変化がトリガーされます。 1 つ目のイシューのステータスは、2 つ目のイシューの変更後のステータスと一致します。これは、デフォルトのイシューステータスとカスタムのイシューステータスの両方に当てはまります。
 
 ### 解決オブジェクトがタスクまたはプロジェクトの場合にステータスを同期 {#synchronize-statuses-when-the-resolving-object-is-a-task-or-a-project}
 
 イシューがタスクまたはプロジェクトの解決可能オブジェクトである場合、タスクおよびプロジェクトのステータスの変更は、イシューのステータスの変更をトリガーします。この場合、デフォルトステータスはカスタムステータスとは異なる方法でトリガーされます。
+
+プロジェクトのカスタムステータスが、イシューステータスへの変更をトリガーしないデフォルトのステータスと等しい場合、イシューのステータスの変更はトリガーされません。
 
 * [解決オブジェクトのデフォルトステータスと解決可能オブジェクトのデフォルトステータスを同期](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [解決オブジェクトのカスタムステータスと解決可能オブジェクトのカスタムステータスを同期](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)
