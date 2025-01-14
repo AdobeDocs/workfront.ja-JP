@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 22%
+source-wordcount: '213'
+ht-degree: 18%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 22%
 このページでは、2025 年第 1 四半期リリースで行われたすべてのプルーフの機能強化をプレビュー環境に対して説明します。 この機能強化は、2025年第 1 四半期のリリースにおいて実稼動環境で利用できるようになります。
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
+
+## デスクトッププルーフビューアのアップグレード
+
+デスクトップビューアを、Chromium 130.0.6723.152 を使用する最新の Electron 33.3.0 バージョンに更新しました。
+
+デスクトッププルーフビューアのインストールについて詳しくは、[ デスクトッププルーフビューアのインストール ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md) を参照してください。
+
+
+最新バージョン：2.1.44
 
 ## インタラクティブレビューの新しいブラウザー拡張機能がベータ版で利用可能になりました
 
