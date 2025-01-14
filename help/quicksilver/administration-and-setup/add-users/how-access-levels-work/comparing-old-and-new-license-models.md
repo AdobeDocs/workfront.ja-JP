@@ -9,10 +9,11 @@ description: 古いライセンスモデルと新しいライセンスモデル�
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f2a1d4240f6ddef12daaa352bc46b72199aa21d7
+exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
+source-git-commit: dd6ff5927aaa4f8f2d41d0f2950d98ea32517ff9
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 43%
+source-wordcount: '318'
+ht-degree: 44%
 
 ---
 
@@ -24,15 +25,15 @@ ht-degree: 43%
  <col> 
  <col> 
  <col> 
- <!--col> 
- <col> -->
+ <col> 
+ <col>
  <col> 
  <col> 
  <col> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="3">[!UICONTROL レガシ ]</th> 
+   <th colspan="5">[!UICONTROL レガシ ]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
    <th colspan="3">[!UICONTROL New]</th> 
@@ -44,8 +45,8 @@ ht-degree: 43%
    <th>[!UICONTROL プランナ ]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-   <!--<th>[!UICONTROL Requestor]</th> 
-   <th>[!UICONTROL External]</th> -->
+  <th>[!UICONTROL 要求者 ]</th> 
+   <th>[!UICONTROL External]</th>
    <th>[!UICONTROL Standard]</th> 
    <th>[!UICONTROL ライト ]</th> 
    <th>[!UICONTROL 共同作成者 ]</th> 
@@ -57,8 +58,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td>✓</td> 
-   <td></td> -->
+  <td>✓</td> 
+   <td></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -68,8 +69,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -79,8 +80,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td>✓</td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -90,8 +91,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -101,8 +102,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -112,8 +113,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -123,8 +124,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -134,8 +135,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -145,8 +146,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -156,8 +157,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -167,8 +168,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -178,8 +179,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -189,8 +190,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -200,8 +201,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -211,8 +212,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -222,8 +223,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -233,8 +234,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -244,8 +245,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -254,8 +255,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -265,8 +266,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -276,8 +277,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -287,8 +288,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -298,8 +299,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -309,8 +310,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -320,8 +321,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -331,8 +332,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -342,8 +343,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -353,8 +354,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -364,8 +365,8 @@ ht-degree: 43%
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
