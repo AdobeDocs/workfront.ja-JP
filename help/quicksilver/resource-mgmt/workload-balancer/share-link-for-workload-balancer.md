@@ -6,16 +6,16 @@ description: リソースエリアを利用できない他のユーザーとワ�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 84%
+source-wordcount: '695'
+ht-degree: 82%
 
 ---
 
 # リンクによるワークロードバランサーの共有
 
-リソースエリアを利用できない他のユーザーとワークロードバランサーを共有できます。ワークロードバランサーの使用方法の詳細については、[ワークロードバランサーの操作](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)を参照してください。
+ワークロードバランサーは、メインメニューでリソース領域を利用できない可能性のある他のユーザーと共有できます。 ワークロードバランサーの使用方法の詳細については、[ワークロードバランサーの操作](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)を参照してください。
 
 ## アクセス要件
 
