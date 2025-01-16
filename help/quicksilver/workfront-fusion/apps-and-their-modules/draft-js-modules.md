@@ -4,17 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Draft.js モジュール
-description: ' [!DNL Adobe Workfront Fusion]  のシナリオでは、Draft.js モジュールを使用して Draft.js をHTMLに、HTMLを Draft.js に変換できます。'
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 8c57f1eb409cd2186fa60a4ba3a7047e9b572871
+exl-id: 5f4634ed-0861-4c21-8cfe-da5a5e633ff8
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 39%
+source-wordcount: '263'
+ht-degree: 31%
 
 ---
 
 # [!UICONTROL Draft.js] モジュール
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Draft.js モジュール ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/draft-js-modules.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 [!DNL Adobe Workfront Fusion] のシナリオでは、[!UICONTROL Draft.js] モジュールを使用して Draft.js をHTMLに、HTMLを Draft.js に変換できます。 これをWorkfront モジュールと組み合わせて使用すると、Workfront フィールドにリッチテキストを追加したり、フィールドからリッチテキストを読み取ったりできます。
 
@@ -49,7 +62,7 @@ ht-degree: 39%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織は [!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul>
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：[!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul>
    <p>または</p>
    <p>現在：[!DNL Adobe Workfront Fusion] を購入する必要があります。</p>
    </td> 

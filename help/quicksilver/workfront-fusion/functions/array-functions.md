@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Adobe Workfront Fusion の配列関数
-description: 次の配列関数は、Adobe Workfront Fusion マッピングパネルで使用できます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動しました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: bf065d00-5d84-47e1-8169-bf9e01e2429d
-source-git-commit: 033a9f4aa1f191e5e3cabd0c0f232128fa6bce5d
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 93%
+source-wordcount: '725'
+ht-degree: 83%
 
 ---
 
 # Adobe Workfront Fusion の配列関数
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ 配列関数 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/array-functions.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 ## アクセス要件
 
@@ -44,7 +56,7 @@ ht-degree: 93%
   <tr>  
    <td role="rowheader">製品</td>  
    <td> 
-   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織は [!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul> 
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：[!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul> 
    <p>または</p> 
    <p>現在：[!DNL Adobe Workfront Fusion] を購入する必要があります。</p> 
    </td>  

@@ -2,19 +2,31 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
-title: ' [!DNL Adobe Workfront Fusion] でエラー処理を再試行します'
-description: 失敗の原因が時間の経過とともに解消される可能性がある場合は、失敗したモジュールを数回再実行すると便利です。
+title: ' [!DNL Adobe Workfront Fusion] でのエラー処理の再試行'
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 1058905c-6c95-4a8c-8956-e1606f1486d9
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 100%
+source-wordcount: '727'
+ht-degree: 89%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] でエラー処理を再試行します
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ エラー処理 `retry` 回避策を設定する ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/retry.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 失敗の原因が時間の経過とともに解消される可能性がある場合は、失敗したモジュールを再実行すると便利です。
 

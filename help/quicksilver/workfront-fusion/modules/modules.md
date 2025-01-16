@@ -4,19 +4,29 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: ' [!DNL Adobe] Workfront Fusion のモジュール'
-description: ここに挙げた記事は、 [!DNL Adobe Workfront Fusion] の特定のモジュールとその機能について説明しています。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b50b918c-7c74-442c-a91a-3f313d40d00b
-source-git-commit: 633c41eeb570402254125f92f3624cad7befd609
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '65'
-ht-degree: 100%
+source-wordcount: '122'
+ht-degree: 44%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] のモジュール
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>新しいドキュメントへのリンクについては、個々の記事を参照してください。
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 この節では、次の記事を扱います。
 

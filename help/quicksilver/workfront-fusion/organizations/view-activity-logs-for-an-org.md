@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Adobe Workfront Fusion での組織のアクティビティログの表示
-description: シナリオの作成やアクティブ化など、組織のアクティビティのログを表示できます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 9%
+source-wordcount: '589'
+ht-degree: 8%
 
 ---
 
 # Adobe Workfront Fusion での組織のアクティビティログの表示
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ 組織のアクティビティログの表示 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-activity-logs-for-an-org.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 <!--Move to new repo-->
 
@@ -54,7 +66,7 @@ ht-degree: 9%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>この機能は、[!DNL Workfront Fusion] を含む Ultimate Workfront プランを使用する組織のみが使用できます。 追加の製品購入は必要ありません。</p>
+   <p>この機能は、[!DNL Workfront Fusion] を含むUltimate Workfront プランを使用している組織でのみ使用できます。 追加の製品購入は必要ありません。</p>
    </td> 
   </tr>
  </tbody> 

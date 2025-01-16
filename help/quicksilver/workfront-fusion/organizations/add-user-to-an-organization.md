@@ -3,18 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Adobe Workfront Fusion で組織にユーザーを追加する
-description: Adobe Workfront Fusion で組織にユーザーを追加できます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 52%
+source-wordcount: '700'
+ht-degree: 48%
 
 ---
 
 # Adobe Workfront Fusion での組織またはチームへのユーザーの追加
+
+>[!IMPORTANT]
+>
+>この記事は、すべての組織がAdobe Admin Consoleに移動するため、近い将来に削除される予定です。
 
 >[!IMPORTANT]
 >

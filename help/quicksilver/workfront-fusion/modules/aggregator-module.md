@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Adobe Workfront Fusion のアグリゲータモジュール
-description: アグリゲーターモジュールは、複数のデータバンドルを 1 つのバンドルに結合するように設計されたモジュールの一種です。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: cdc32842-8717-4e05-ab19-2661ee14c12c
-source-git-commit: 948fe5fc249e0dcb04655f015c8e46493159c3ed
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 67%
+source-wordcount: '881'
+ht-degree: 60%
 
 ---
 
 # [!UICONTROL [!DNL Adobe Workfront Fusion] でのアグリゲーター]モジュール
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Aggregator モジュール ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/aggregator-module.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 アグリゲーターモジュールは、複数のデータバンドルを 1 つのバンドルに結合するように設計されたモジュールの一種です。
 
@@ -86,7 +98,7 @@ ht-degree: 67%
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Target structure type]</p> </td> 
-   <td> <p>（[!UICONTROL Array aggregator] モジュールにのみ適用されます。）データが集計されるターゲット構造。 デフォルトのオプション [!UICONTROL Custom] を使用すると、[!UICONTROL Array aggregator] の出力バンドルの <code>Array </code>item：に集計する項目を選択できます。</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>[!UICONTROL 配列 aggregator] モジュールの後にさらにモジュールを接続し、モジュールの設定に戻ると、[!UICONTROL Target] 構造体型ドロップダウンメニューには、[!DNL Slack] &gt;[!UICONTROL メッセージの作成 ] モジュールの [!UICONTROL 添付ファイル ] フィールドに表示されるように、次のすべてのモジュールと、「コレクションの配列」型のフィールドが含まれます。</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
+   <td> <p>（[!UICONTROL 配列アグリゲータ ] モジュールにのみ適用） データが集計されるターゲット構造。 デフォルトのオプション [!UICONTROL Custom] を使用すると、[!UICONTROL Array aggregator] の出力バンドルの <code>Array </code>item：に集計する項目を選択できます。</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>[!UICONTROL 配列 aggregator] モジュールの後にさらにモジュールを接続し、モジュールの設定に戻ると、[!UICONTROL Target] 構造体型ドロップダウンメニューには、[!DNL Slack] &gt;[!UICONTROL メッセージの作成 ] モジュールの [!UICONTROL 添付ファイル ] フィールドに表示されるように、次のすべてのモジュールと、「コレクションの配列」型のフィールドが含まれます。</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aggregated fields]</td> 

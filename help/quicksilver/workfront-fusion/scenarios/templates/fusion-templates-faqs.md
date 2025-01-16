@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion テンプレートに関する FAQ
-description: この記事では、 [!DNL Adobe Workfront Fusion scenario]  テンプレートに関するよくある質問への回答を示します。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cd7cbc0-ddc5-4437-8672-3c9bea609c9b
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 100%
+source-wordcount: '366'
+ht-degree: 79%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] テンプレートに関する FAQ
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Adobe Workfront Fusion テンプレートに関する FAQ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/fusion-templates-faqs.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 ## アクセス要件
 

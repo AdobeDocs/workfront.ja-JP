@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Adobe Workfront Fusion のキー
-description: ' [!DNL Adobe Workfront Fusion]  のキーチェーンは、公開鍵と秘密鍵の管理に役立ちます。キーは例えば、PGP メッセージの暗号化または復号化のために、Encryptor アプリによって使用されます。'
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: a36947aa-c218-4ff0-879c-2041c3cccae0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 73%
 
 ---
 
 # Adobe Workfront Fusion のキー
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [キー](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/keys.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 [!DNL Adobe Workfront Fusion] のキーチェーンは、公開鍵と秘密鍵の管理に役立ちます。キーは、例えば、PGP メッセージの暗号化または復号化のために、[!UICONTROL Encryptor] アプリによって使用されます。
 

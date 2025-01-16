@@ -4,20 +4,33 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: 組織内の  [!DNL Adobe Workfront Fusion]  ユーザーの管理
-description: 組織内の  [!DNL Adobe Workfront Fusion]  ユーザーの管理
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
-source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 91%
+source-wordcount: '544'
+ht-degree: 77%
 
 ---
 
 # 組織内の [!DNL Adobe Workfront Fusion] ユーザーの管理
 
 [!DNL Adobe Workfront Fusion] 管理者は、[!DNL Workfront Fusion] 内でユーザーの役割を管理できます。
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ ユーザーの役割の表示または編集 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.html)
+>* [ ユーザーの詳細の表示または編集 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-details.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 <!--
 

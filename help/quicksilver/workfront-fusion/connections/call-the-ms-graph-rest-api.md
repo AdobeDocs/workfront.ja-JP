@@ -1,17 +1,29 @@
 ---
 title: ' [!DNL Adobe Workfront Fusion] HTTP／OAuth 2.0 リクエストを実行モジュールを使用して、MS Graph REST API を呼び出します。'
-description: ' [!DNL Adobe Workfront Fusion] HTTP／OAuth 2.0 リクエストを実行モジュールを使用して、MS Graph REST API を呼び出します。'
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 81%
+source-wordcount: '631'
+ht-degree: 71%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP]／[!UICONTROL OAuth 2.0 リクエストを実行]モジュールを使用して、[!UICONTROL MS Graph REST API] を呼び出します。
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [MS Graph REST API の呼び出し ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/call-the-ms-graph-rest-api.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 <!-- Audited: 3/2024-->
 
@@ -44,7 +56,7 @@ ht-degree: 81%
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：組織は [!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul>
+   <p>新規：</p> <ul><li>[!UICONTROL Select] または [!UICONTROL Prime] [!DNL Workfront] プラン：[!DNL Adobe Workfront Fusion] を購入する必要があります。</li><li>[!UICONTROL Ultimate] [!DNL Workfront] プラン：[!DNL Workfront Fusion] が含まれています。</li></ul>
    <p>または</p>
    <p>現在：[!DNL Adobe Workfront Fusion] を購入する必要があります。</p>
    </td> 

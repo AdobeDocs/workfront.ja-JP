@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Workfront Fusion の AI アシスタント
-description: Workfront Fusion の AI アシスタント
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 99d614da-e900-448b-ab80-13f002638670
-source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 17%
+source-wordcount: '354'
+ht-degree: 14%
 
 ---
 
 # Workfront Fusion の AI アシスタント
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Workfront Fusion の AI アシスタント ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/fusion-ai-assistant.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 AI アシスタントは、Workfrontのドキュメントから情報を見つけることができるため、必要なヘルプを受けるためにAdobe Experience Leagueにアクセスする必要がなくなります。
 
@@ -47,7 +59,7 @@ AI アシスタントは、Workfrontのドキュメントから情報を見つ�
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>新規：[!DNL Workfront Fusion] は Ultimate Workfront プランに含まれます。</p> <p>または</p>
+   <p>新規：[!DNL Workfront Fusion] はUltimate Workfront プランに含まれます。</p> <p>または</p>
    <p>現在：使用できません</p>
    </td> 
   </tr>

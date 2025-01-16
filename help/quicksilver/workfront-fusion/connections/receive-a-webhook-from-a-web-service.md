@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Web サービスから web フックを受け取る
-description: Web サービスが現在  [!DNL Adobe Workfront Fusion] にアプリとして実装されていないが、web フックの送信をサポートしている場合は、カスタム web フックモジュールをインスタントトリガーとして使用して、サービスをシナリオに追加できます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: f1a67dbf-c245-4936-9dcc-3fdbfc6ee3b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '354'
+ht-degree: 77%
 
 ---
 
 # Web サービスから web フックを受け取る
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ コネクタを使用しない web サービスの Webhook の設定 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 Web サービスが現在 [!DNL Adobe Workfront Fusion] にアプリとして実装されていないが、web フックの送信をサポートしている場合は、カスタム web フックモジュールをインスタントトリガーとして使用して、サービスをシナリオに追加できます。
 

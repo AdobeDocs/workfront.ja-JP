@@ -5,19 +5,31 @@ product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: workfront-fusion-2-0
 title: アプリとそのモジュール
-description: Adobe Workfront Fusion は現在、このリストに記載されているアプリに対して専用コネクタを提供しています。操作したいアプリがこのリストにない場合は、HTTP、SOAP、または JSON モジュールを使用して接続できます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 5b24a91a9ea5dadb071dfdd88d9f80b2589a1323
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 95%
+source-wordcount: '275'
+ht-degree: 67%
 
 ---
 
 # アプリとそのモジュール
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Fusion アプリケーションとそのモジュールのリファレンス：記事のインデックス ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/apps-and-modules-toc.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 >[!IMPORTANT]
 >

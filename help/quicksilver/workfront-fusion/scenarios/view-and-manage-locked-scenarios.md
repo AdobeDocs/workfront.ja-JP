@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: ' [!DNL Adobe Workfront Fusion] でのロックされたシナリオの管理'
-description: ' [!DNL Adobe Workfront Fusion] でのロックされたシナリオの管理'
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 100%
+source-wordcount: '409'
+ht-degree: 81%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] でのロックされたシナリオの管理 
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ ロックされたシナリオの管理 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-manage-locked-scenario.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 場合によっては、[!DNL Workfront Fusion] でシナリオが一時的にロックされることがあります。ロックされた実行は、2～4 時間以内に自動的にロック解除されます。シナリオのロックを手動で解除することもできます。
 

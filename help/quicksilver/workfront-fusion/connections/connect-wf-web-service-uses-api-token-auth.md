@@ -2,19 +2,31 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: API トークン認証を使用する Web サービスに  [!DNL Adobe Workfront Fusion]  を接続
-description: 一部のサービスでは、シナリオで簡単に使用できるアプリを  [!DNL Adobe Workfront Fusion]  のような統合ソリューションで作成することは許可されません。
+title: API トークン認証を使用する web サービスに  [!DNL Adobe Workfront Fusion]  を接続
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 0feb745a-1ee0-4b29-92ab-14c12a8647d4
-source-git-commit: e61dc6646e221cffb30aad055663dcf8fd3299e2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '1008'
+ht-degree: 91%
 
 ---
 
 # API トークン認証を使用する Web サービスに [!DNL Adobe Workfront Fusion] を接続
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [API トークン認証を使用する web サービスにAdobe Workfront Fusion を接続する ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 一部のサービスでは、シナリオで簡単に使用できるアプリを [!DNL Adobe Workfront Fusion] のような統合ソリューションで作成することは許可されません。
 

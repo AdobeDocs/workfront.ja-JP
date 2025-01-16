@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: 基本シナリオへのフィルターの追加
-description: フィルターを使用すると、特定の条件が満たされた場合にのみシナリオを進行させることができます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: b43355ed-9329-4080-8e61-7177eb580994
-source-git-commit: 1a405d38968922388589ddb3f2979b4e59cd50b8
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 5%
+source-wordcount: '558'
+ht-degree: 4%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] の基本シナリオへのフィルターの追加
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ 基本シナリオへのフィルターの追加 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-filter-basic-scenario.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 フィルターを使用すると、特定の条件が満たされた場合にのみシナリオを進行させることができます。
 

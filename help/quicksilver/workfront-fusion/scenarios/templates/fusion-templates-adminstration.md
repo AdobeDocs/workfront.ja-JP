@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion テンプレートの管理
-description: 管理者には、他のユーザーが作成したテンプレートの表示、変更、名前の変更、公開、承認、削除を行う権限があります。これらのアクションは、 [!DNL Adobe Workfront Fusion Administration]  エリアの[!UICONTROL テンプレート]ページから実行できます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
+source-git-commit: 8163f9f12bb27bbc8adfde34fc1e1f0f8c8be7f9
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 100%
+source-wordcount: '686'
+ht-degree: 88%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] テンプレートの管理
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ 「公開」タブ用のテンプレートを承認または却下 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/approve-templates.html)
+>* [ テンプレートの編集 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/edit-templates.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 管理者には、他のユーザーが作成したテンプレートの表示、変更、名前の変更、公開、承認、削除を行う権限があります。これらのアクションは、[!DNL Adobe Workfront Fusion Administration] エリアの[!UICONTROL テンプレート]ページから実行できます。
 

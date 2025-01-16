@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: ' [!DNL Adobe Workfront Fusion] のデータ構造'
-description: データ構造は、Adobe Workfront Fusion に転送されるデータの形式について詳しく説明したドキュメントです。このドキュメントに基づいて、シナリオエディターはどのモジュールがどの種類のデータを返すか、または受け取るかを判断できます。データ構造ドキュメントは、JSON、XML、CSV などのデータ形式をシリアル化したり、解析したりするために一般的によく使用されます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 35a7e906-7ca2-433d-87a9-bbb01babffb0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 100%
+source-wordcount: '355'
+ht-degree: 78%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] のデータ構造
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ データストアの作成と管理 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 データ構造とは、[!DNL Adobe Workfront Fusion] に転送されているデータの形式を詳細に記述したドキュメントです。このドキュメントに基づいて、シナリオエディターはどのモジュールがどの種類のデータを返すか、または受け取るかを判断できます。データ構造ドキュメントは、JSON、XML、CSV などのデータ形式をシリアル化したり、解析したりするために一般的によく使用されます。
 

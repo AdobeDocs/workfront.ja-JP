@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: ' [!DNL Adobe Workfront Fusion]  テンプレートを使用してシナリオを作成'
-description: Adobe Workfront Fusion テンプレート機能を使用すると、既存のテンプレートを Workfront Fusion シナリオの出発点として作成して使用できます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 43b30244-f4a5-4036-939c-aff7827c21b1
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 100%
+source-wordcount: '440'
+ht-degree: 82%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] テンプレートを使用してシナリオを作成
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ テンプレートを使用したシナリオの作成 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/create-scenarios-with-fusion-templates.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 [!DNL Adobe Workfront Fusion] テンプレートを使用すると、既存のテンプレートを [!DNL Workfront Fusion] シナリオの出発点として作成して使用できます。
 

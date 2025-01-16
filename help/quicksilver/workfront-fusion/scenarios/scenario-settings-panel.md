@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion のシナリオ設定パネル
-description: この記事では、 [!DNL Adobe Workfront Fusion]  シナリオの[!UICONTROL シナリオ設定]パネルで使用できる設定について説明します。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 64a7a39a-f450-4eba-b4db-f31dd22aefdc
-source-git-commit: b9914daa1e176d115226019d6ddf02b0953bc4d6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 85%
+source-wordcount: '1266'
+ht-degree: 80%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] のシナリオ設定パネル
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ シナリオ設定を指定 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-scenario-settings/configure-scenario-settings.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 ## アクセス要件
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion ライセンス
-description: Adobe Workfront Fusion には、アクセス可能な機能を決定する 2 つの異なるライセンスが用意されています。組織が Workfront Fusion を購入した際に、これらのライセンスの 1 つを選択しました。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
-source-git-commit: 1b90566477eb57b97f3484ed7f0eeed5c88c495f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 85%
+source-wordcount: '630'
+ht-degree: 75%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] ライセンス
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Adobe Workfront Fusion ライセンス ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 [!DNL Workfront Fusion] には、新しい操作ベースのモデルおよび従来のコネクタベースのモデルの 2 つのライセンスモデルがあります。
 
@@ -23,7 +35,7 @@ ht-degree: 85%
 
 新しい [!DNL Workfront Fusion] ライセンスモデルは、組織が使用する操作の数に基づいています。このモデルでは、すべての組織が同じ機能にアクセスできます。
 
-組織がWorkfront Ultimate プランを持っている場合、お使いの Fusion インスタンスはお使いのプランに含まれ、1 か月あたりの Fusion の操作数に制限はありません。 Workfront Prime または Select プランをお持ちの場合、Fusion を購入でき、1 か月に実施した業務回数に基づいて料金が決まります。
+お客様の組織がWorkfront Ultimate プランを持っている場合、お客様の Fusion インスタンスはお客様のプランに含まれ、1 か月あたりの Fusion 操作の数に制限はありません。 Workfront Primeまたは Select プランをお持ちの場合、Fusion は購入でき、価格は 1 か月に実施した作業回数に基づきます。
 
 新しいライセンスモデルでの操作としてカウントされる項目について詳しくは、[ [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md) での操作を参照してください。
 

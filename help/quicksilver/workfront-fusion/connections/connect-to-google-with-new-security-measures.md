@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: connections-annd-webhooks
 title: 更新されたセキュリティ対策を使用して  [!DNL Adobe Workfront Fusion]  を  [!DNL Google Services]  に接続
-description: Google は最近、ユーザーによる API の使用方法に関する制限を導入しました。この記事では、これらの更新セキュリティ対策を考慮しつつ、 [!DNL Adobe Workfront Fusion]  を Google に接続する方法について説明します。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 94%
+source-wordcount: '706'
+ht-degree: 83%
 
 ---
 
 # 更新されたセキュリティ対策を使用して [!DNL Adobe Workfront Fusion] を [!DNL Google Services] に接続
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ 更新されたセキュリティ対策を使用してAdobe Workfront Fusion をGoogle サービスに接続する ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-google-with-new-security-measures.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 ## アクセス要件
 

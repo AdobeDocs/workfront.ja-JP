@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Adobe I/Oイベントモジュール
-description: Adobe I/Oイベントモジュールを使用すると、Adobeアプリケーションのイベントに基づいてAdobe Workfront Fusion シナリオを開始できます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 42%
+source-wordcount: '987'
+ht-degree: 39%
 
 ---
 
 # Adobe I/Oイベントモジュール
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Adobe I/O イベント モジュール ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-io-events-modules.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 Adobe I/Oイベントモジュールを使用すると、専用のAdobe Workfront Fusion コネクタがないAdobeアカウントとサービスのイベントに基づいてWorkfront Fusion シナリオを開始できます。
 

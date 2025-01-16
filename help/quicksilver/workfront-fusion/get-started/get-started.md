@@ -4,23 +4,33 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: ' [!DNL Adobe Workfront Fusion] の基本を学ぶ'
-description: Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
-source-git-commit: 58d252c4945168caae8cc382db76fffa8258c20e
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 72%
+source-wordcount: '135'
+ht-degree: 32%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] の基本を学ぶ
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>新しいドキュメントへのリンクについては、個々の記事を参照してください。
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
+
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] を使用するには、[!DNL Adobe Workfront license]に加えて [!DNL Adobe Workfront Fusion] ライセンスが必要です。
+>[!DNL Adobe Workfront Fusion] には、[!DNL Adobe Workfront license] に加えて [!DNL Adobe Workfront Fusion] ライセンスが必要です。
 
 この節では、次の記事を扱います。
 

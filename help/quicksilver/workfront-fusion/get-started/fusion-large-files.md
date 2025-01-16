@@ -3,22 +3,36 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion での大きなファイルの操作
-description: 現在、Workfrontおよび HTTP コネクタでは大きなファイルがサポートされています。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: e0be458c-a5f4-48e4-a8fb-afd5d072b6ff
-source-git-commit: 4914e6e30d6c4a16de5bd2c91bc6f8e4f208c078
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1163'
 ht-degree: 4%
 
 ---
 
 # Adobe Workfront Fusion での大きなファイルの操作
 
+
+
 >[!IMPORTANT]
 >
->大容量ファイル機能は、Workfront Ultimate のお客様のみが利用でき、段階的なロールアウトです。 Workfront Ultimate プランを使用するすべての Fusion 組織は、2025 年 1 月までに大容量ファイルを使用できるようになります。
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ 大きなファイルの操作 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-large-files.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
+
+>[!IMPORTANT]
+>
+>大容量ファイル機能は、Workfront Ultimateのお客様のみが利用でき、段階的なロールアウトです。 Workfront Ultimate プランを持つすべての Fusion 組織は、2025 年 1 月までにラージファイル機能を使用できるようになります。
 
 Workfront Fusion で強化されたデータ転送機能が使用できるようになり、シナリオで大幅に大きなファイルを処理できるようになりました。
 
@@ -53,7 +67,7 @@ Workfront Fusion で強化されたデータ転送機能が使用できるよう
   <tr> 
    <td role="rowheader">製品</td> 
    <td>
-   <p>新規：[!DNL Workfront Fusion] は Ultimate Workfront プランに含まれます。</p> <p>または</p>
+   <p>新規：[!DNL Workfront Fusion] はUltimate Workfront プランに含まれます。</p> <p>または</p>
    <p>現在：使用できません</p>
    </td> 
   </tr>

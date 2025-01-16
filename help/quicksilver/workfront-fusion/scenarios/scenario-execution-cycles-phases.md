@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: ' [!DNL Adobe Workfront Fusion] でのシナリオの実行、サイクル、フェーズ'
-description: この記事では、 [!DNL Adobe Workfront Fusion]  シナリオ実行時に発生するイベント（初期化、操作、コミット、ロールバックなど）について説明します。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 5403f476-226d-4268-affc-8e06b1117684
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 100%
+source-wordcount: '611'
+ht-degree: 87%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] でのシナリオの実行、サイクル、フェーズ
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ シナリオの実行、サイクル、フェーズ ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-cycles-phases.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 [!DNL Adobe Workfront Fusion] は、リレーショナルデータベースと同様のトランザクションシステムです。各シナリオの実行は、初期化フェーズから開始され、操作フェーズとコミット／ロールバックフェーズで構成される 1 つ以上のサイクルが続き、最終化フェーズで終了します。
 

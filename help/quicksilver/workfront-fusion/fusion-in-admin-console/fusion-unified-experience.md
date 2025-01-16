@@ -3,18 +3,31 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Workfront Fusion の Adobe Unified Experience
-description: Adobe Experience Cloud 経由で Workfront Fusion にアクセスすると、すべての Adobe アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 96%
+source-wordcount: '631'
+ht-degree: 83%
 
 ---
 
-# [!DNL Workfront Fusion] の [!DNL Adobe Unified Experience]
+# [!DNL Workfront Fusion] 向け [!DNL Adobe Unified Experience]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ プロファイル設定の変更 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>* [ チーム通知オプションの設定 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 [!DNL Adobe Experience Cloud] を介して [!DNL Workfront Fusion] にアクセスすると、すべての [!DNL Adobe] アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。単一の Identity Managemen により、複数の URL やログイン ID を必要とせずに、1 つの場所でログインできます。
 
@@ -108,7 +121,7 @@ Workfront Fusion の組織のインスタンスは、[!DNL Adobe Business Platfo
 
 通知を表示するには、画面の右上隅近くにある通知アイコン ![通知アイコン](assets/notifications-icon.png) をクリックします。通知アイコンの赤い点は、未読の通知またはお知らせがあることを示します。
 
-Adobe Experience Cloud で通知を設定する手順については、アドビドキュメントの[通知設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=ja#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.)を参照してください。
+Adobe Experience Cloud で通知を設定する手順については、アドビドキュメントの[通知設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.)を参照してください。
 
 設定する際には、次の点に注意してください。
 

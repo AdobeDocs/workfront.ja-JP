@@ -2,19 +2,31 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: '練習シナリオの作成：記事インデックス'
-description: Adobe Workfront Fusion でシナリオを作成する方法については、次の例に従います
+title: 練習シナリオの作成：記事インデックス
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: cd00008a-833c-46dd-a82d-22f27809493e
-source-git-commit: 83974e67d6322c0ec0179c5be9cc9de0e1495161
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '72'
-ht-degree: 8%
+source-wordcount: '135'
+ht-degree: 4%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] で実践シナリオを作成：記事インデックス
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ 構築プラクティスシナリオ：記事インデックス ](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/build-practice-scenarios-toc.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 この節では、次の記事を扱います。
 

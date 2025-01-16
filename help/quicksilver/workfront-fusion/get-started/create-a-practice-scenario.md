@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion で練習用統合シナリオを作成
-description: この記事では、Adobe Workfront Fusion で統合シナリオを作成する方法について説明します。統合シナリオは、別々のアプリを接続し、様々なアプリケーションを通じてデータを流すことができます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '2139'
-ht-degree: 99%
+source-wordcount: '2188'
+ht-degree: 96%
 
 ---
 
 # Adobe Workfront Fusion で練習用統合シナリオを作成
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ シナリオ作成のワークフロー ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 この記事では、Adobe Workfront Fusion で統合シナリオを作成する方法について説明します。統合シナリオは、別々のアプリを接続し、様々なアプリケーションを通じてデータを流すことができます。
 

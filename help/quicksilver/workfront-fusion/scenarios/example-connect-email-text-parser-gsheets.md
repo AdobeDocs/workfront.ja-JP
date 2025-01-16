@@ -2,19 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: 「Adobe Workfront Fusion シナリオの例：メール、テキストパーサー および Google シートを接続」
-description: このシナリオでは、すべてのメールメッセージのログを作成し、スプレッドシートでさらにアクションを行うためにタグ付けします。スプレッドシート内の 2 つの異なるテーブルに、検索パターンとして正規表現（Regex）を使用してメールの本文を取り込みます。第 1 のパターンは、あるフレーズを検索し、第 2 のパターンは、同じフレーズとメールアドレスを検索します。
+title: Adobe Workfront Fusion シナリオの例：メール、テキストパーサーおよび Google Sheets の接続
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は非推奨（廃止予定）になりました。
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 100%
+source-wordcount: '1176'
+ht-degree: 97%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] シナリオの例：メール、[!UICONTROL テキストパーサー]、および [!DNL Google Sheets] を接続
+
+>[!IMPORTANT]
+>
+>この記事は近い将来削除される予定です。
 
 このシナリオでは、すべてのメールメッセージのログを作成し、スプレッドシートでさらにアクションを行うためにタグ付けします。スプレッドシート内の 2 つの異なるテーブルに、検索パターンとして正規表現（Regex）を使用してメールの本文を取り込みます。第 1 のパターンは、あるフレーズを検索し、第 2 のパターンは、同じフレーズとメールアドレスを検索します。
 

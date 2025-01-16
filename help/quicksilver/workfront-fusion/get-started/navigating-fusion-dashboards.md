@@ -3,17 +3,29 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Workfront Fusion でのダッシュボードの操作
-description: Workfront Fusion で使用可能なダッシュボードについて説明します
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 9f7597103e06f3f273dc400440ffa5db6742427b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 9%
+source-wordcount: '727'
+ht-degree: 8%
 
 ---
 
 # Workfront Fusion でのダッシュボードの操作
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Adobe Workfront Fusion に移動 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/navigate-workfront-fusion.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 Workfront Fusion にログインすると、組織のダッシュボードに移動します。 ここから、左側のナビゲーションの領域をクリックして、Fusion の様々な領域に移動できます。
 

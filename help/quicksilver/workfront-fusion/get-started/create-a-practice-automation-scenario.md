@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: ' [!DNL Adobe Workfront Fusion] での練習用自動処理シナリオの作成'
-description: この記事では、Adobe Workfront Fusion で自動処理シナリオを作成する方法について説明します。自動処理シナリオは、データの操作や変換を含む Workfront プロセスを自動化します。この例では、プロジェクトを検索し、そのプロジェクトに関連付けられたすべてのタスクを返すシナリオを作成するプロセスを、順を追って説明します。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8769ed5844e340e007f844370791e93393696819
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 70%
+source-wordcount: '1562'
+ht-degree: 65%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] での練習用自動処理シナリオの作成
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ シナリオ作成のワークフロー ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 自動処理シナリオは、データの操作や変換を含む Workfront プロセスを自動化します。この記事では、プロジェクトを検索してそのプロジェクトに関連付けられたすべてのタスクを返すシナリオを作成するプロセスを説明します。
 
@@ -56,7 +68,7 @@ For more information on functionality available with each Workfront Fusion licen
     <tr>  
       <td>製品</td>  
       <td> 
-        新規：Workfront プランを選択または登録：Adobe Workfront Fusion を購入する必要があります。<br>
+        新規：Adobe Workfront Workfront プランを選択またはPrimeを購入する必要があります。<br>
         Ultimate Workfront プラン：Workfront Fusion が含まれています。<br>
         または <br>
         現在：Adobe Workfront Fusion を購入する必要があります。

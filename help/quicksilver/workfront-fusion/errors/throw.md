@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Adobe Workfront Fusion でのエラー処理をスロー
-description: 場合によっては、Adobe Workfront Fusion でシナリオの実行を強制的に停止し、その後でロールバックまたはコミットフェーズを実行したり、ルートの処理を停止して必要に応じて不完全な実行をビューのキューに格納し、不完全な実行を解決したりすることができます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 100%
+source-wordcount: '415'
+ht-degree: 82%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] でのエラー処理をスロー
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ エラー回避策 `throw` 設定 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/throw.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 場合によっては、シナリオの実行を強制的に停止して、その後で[ロールバック](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback)または[コミット](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit)フェーズを実行したり、ルートの処理を停止してオプションで不完全な実行をキューに格納したりすることができます。
 

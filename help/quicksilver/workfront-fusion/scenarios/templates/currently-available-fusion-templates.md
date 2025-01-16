@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 現在利用可能な Adobe Workfront Fusion テンプレート
-description: 現在、Adobe Workfront Fusion では、次のパブリックテンプレートを使用できます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 92%
+source-wordcount: '1323'
+ht-degree: 87%
 
 ---
 
 # 現在利用可能な Adobe Workfront Fusion テンプレート
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ 現在使用可能なAdobe Workfront Fusion テンプレート ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/currently-available-fusion-templates.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 現在、Adobe Workfront Fusion では、次のパブリックテンプレートを使用できます。
 

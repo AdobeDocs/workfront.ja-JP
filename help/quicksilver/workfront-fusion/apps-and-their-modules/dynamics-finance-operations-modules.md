@@ -5,17 +5,30 @@ product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Microsoft Dynamics 365 の財務および運用モジュール
-description: 1 つのシナリオで  [!DNL Adobe Workfront Fusion] 、Microsoft Dynamics 365 Finance and Operations を使用するワークフローを自動化できるほか、複数のサードパーティのアプリケーションやサービスに接続することもできます。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 130437dd44db5db2a94914fb0e42fd35a7c14291
+exl-id: 19b00ee8-dc05-4cde-9a76-d857090fa543
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 32%
+source-wordcount: '1047'
+ht-degree: 31%
 
 ---
 
 # [!DNL Microsoft Dynamics 365 Finance and Operations modules]
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Microsoft Dynamics 365 財務および運用モジュール ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/dynamics-finance-operations-modules.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 [!DNL Adobe Workfront Fusion] のシナリオでは、[!DNL Microsoft Dynamics 365] を使用するワークフローを自動化したり、複数のサードパーティアプリケーションやサービスに接続したりできます。
 

@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: コネクタ
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets モジュール
-description: ' [!DNL Adobe Workfront Fusion] 用の  [!DNL Adobe Experience Manager Assets] connector を使用すると、アセットの作成、アップロード、更新、フォルダーやアセットのコピーや移動を行うことができます。'
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '1716'
-ht-degree: 83%
+source-wordcount: '1774'
+ht-degree: 80%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets] モジュール
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Adobe Experience Manager Assets モジュール](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/aem-assets-modules.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 [!DNL Adobe Workfront Fusion] 用の [!DNL Adobe Experience Manager Assets] コネクタを使用すると、アセットの作成、アップロード、更新、フォルダーやアセットのコピーや移動を行うことができます。
 

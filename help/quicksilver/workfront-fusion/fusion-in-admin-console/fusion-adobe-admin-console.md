@@ -4,18 +4,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: fusion-in-admin-console
 title: プラットフォームベースの管理上の違い（Adobe Workfront／Adobe Business Platform）
-description: Adobe Workfront Fusion 管理者の管理上の責任と手順は、組織が Adobe Business Platform にオンボーディングされているかどうかで異なります。この記事では、別の方法で処理する必要がある手順と、Workfront Fusion と Adobe Admin Console の両方のプロセスの手順へのリンクを示します。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 86f8cc24-c1a2-4f47-bd08-39bb0f6b2940
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 100%
+source-wordcount: '325'
+ht-degree: 85%
 
 ---
 
 # プラットフォームベースの管理上の違い（[!DNL Adobe Workfront Fusion]／[!DNL Adobe Admin Console]）
+
+>[!IMPORTANT]
+>
+>この記事は、すべての組織がAdobe Admin Consoleに移動するため、近い将来に削除される予定です。
 
 組織が [!DNL Adobe Admin Console] にオンボーディングしている場合、ユーザーは [!DNL Adobe Admin Console] を使用して [!DNL Adobe Workfront Fusion] にアクセスします。つまり、次のようになります。
 

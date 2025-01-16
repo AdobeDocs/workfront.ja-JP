@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion でシナリオを作成
-description: 次のタスクでは、 [!DNL Adobe Workfront Fusion]  シナリオの作成方法を説明します。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: adf66cfc-ccaf-4b29-9199-c13260695569
-source-git-commit: ee2283ac159ca26ca473cac28ec4bed85d1dea04
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 95%
+source-wordcount: '1473'
+ht-degree: 90%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] でシナリオを作成
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ シナリオ作成のワークフロー ](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 次のタスクでは、[!DNL Adobe Workfront Fusion] シナリオの作成方法について説明します。
 
@@ -57,7 +69,7 @@ ht-degree: 95%
     <tr>  
       <td>製品</td>  
       <td> 
-        新規：Workfront プランを選択または登録：Adobe Workfront Fusion を購入する必要があります。<br>
+        新規：Adobe Workfront Workfront プランを選択またはPrimeを購入する必要があります。<br>
         Ultimate Workfront プラン：Workfront Fusion が含まれています。<br>
         または <br>
         現在：Adobe Workfront Fusion を購入する必要があります。

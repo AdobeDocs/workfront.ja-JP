@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: シナリオ、パフォーマンス
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Adobe Workfront Fusion パフォーマンスガードレール
-description: Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
-source-git-commit: 7c27dc98c4ce59d598be537a1f09c6eddf9bce42
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 76%
+source-wordcount: '765'
+ht-degree: 68%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] パフォーマンスガードレール
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Adobe Workfront Fusion パフォーマンスガードレール](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/fusion-performance-guardrails.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 >[!NOTE]
 >
@@ -50,7 +62,7 @@ ht-degree: 76%
 ## ファイル
 
 * Fusion のファイルの総処理能力は、**1 GB** です。この制限は、メモリコストの合計に基づいています。すべての操作がそのコストに影響します。400 MB のファイルを 1 つダウンロードしてアップロードした場合、ファイルの処理能力の合計コストは 800 MB になります。
-* Workfront Ultimate プランを利用している組織は、1 GB を超えるファイル処理の増加にアクセスできます。 Fusion プラットフォームは、1 回のアクション（ファイルのアップロードなど）で最大 15 GB の個々のファイルをサポートできますが、データ転送に影響を与える他の要因があります。 単一アクションのファイルサイズの上限は、Fusion が接続する web サービスによって異なります。 データ転送は、1 回の実行に対する合計の処理です。 つまり、1 回の実行で複数のアクションが合計データ転送に貢献します。 Fusion は、40 分の実行制限に達するまでファイルを処理します。
+* Workfront Ultimate プランを利用している組織では、1 GB を超えるファイル処理の増加にアクセスできます。 Fusion プラットフォームは、1 回のアクション（ファイルのアップロードなど）で最大 15 GB の個々のファイルをサポートできますが、データ転送に影響を与える他の要因があります。 単一アクションのファイルサイズの上限は、Fusion が接続する web サービスによって異なります。 データ転送は、1 回の実行に対する合計の処理です。 つまり、1 回の実行で複数のアクションが合計データ転送に貢献します。 Fusion は、40 分の実行制限に達するまでファイルを処理します。
 
   詳しくは、[Adobe Workfront Fusion での大きなファイルの操作 ](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md) を参照してください。
 

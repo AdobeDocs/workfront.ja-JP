@@ -3,18 +3,22 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Workfront Fusion の新しい UI への移動
-description: Workfront Fusion は、Adobe Experience Cloudから Fusion にアクセスしないユーザー向けに UI を更新しました。 現在は、Adobe Experience Cloud上の Fusion に比べて、彼らの経験はより密接に一致しています。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 48%
+source-wordcount: '416'
+ht-degree: 47%
 
 ---
 
 # Workfront Fusion の新しいエクスペリエンスへの移動
+
+>[!IMPORTANT]
+>
+>この記事は近い将来削除される予定です。
 
 Workfront Fusion は、Adobe Experience Cloudから Fusion にアクセスしないユーザー向けに更新されました。 新しい Fusion UI は、他のAdobe製品とのよりシームレスなエクスペリエンスを提供し、ユーザーのAdobe Experience Cloudへの移行をスムーズにします。
 

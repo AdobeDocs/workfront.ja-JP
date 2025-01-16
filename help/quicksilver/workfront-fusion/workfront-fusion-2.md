@@ -4,25 +4,37 @@ product-area: workfront-integrations
 keywords: Fusion
 navigation-topic: workfront-fusion-navigation-topic
 title: Adobe Workfront Fusion
-description: Adobe Workfront Fusion を使用するには、Adobe Workfront ライセンスに加えて、Adobe Workfront Fusion ライセンスが必要です。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: d28b6344-070a-4cfc-ab5a-b5c279a8b805
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '94'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 52%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [Workfront Fusion ドキュメント](https://experienceleague.adobe.com/docs/workfront-fusion/using/home.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
+
 >[!NOTE]
 >
 >[!DNL Adobe Workfront Fusion] には、[!DNL Adobe Workfront] ライセンスに加えて [!DNL Adobe Workfront Fusion] ライセンスが必要です。
 
-[!DNL Adobe Workfront Fusion] に関するトレーニング資料については、[Workfront Fusion トレーニングの概要](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html?lang=ja)を参照してください。
+[!DNL Adobe Workfront Fusion] に関するトレーニング資料については、[Workfront Fusion トレーニングの概要](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/workfront-fusion-overview.html)を参照してください。
 
 Workfront Fusion の最新の機能強化について詳しくは、[[!DNL Adobe Workfront Fusion] リリースアクティビティ](../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
 

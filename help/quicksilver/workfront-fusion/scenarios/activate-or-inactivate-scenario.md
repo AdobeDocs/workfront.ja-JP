@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: ' [!DNL Adobe]  Workfront Fusion でのシナリオのアクティブ化または非アクティブ化'
-description: この記事では、異なる状況でアクティブなシナリオと非アクティブなシナリオが役立つ理由およびシナリオをアクティブ化または非アクティブ化する方法について説明します。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 91%
+source-wordcount: '345'
+ht-degree: 70%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] でのシナリオのアクティブ化または非アクティブ化
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ シナリオのアクティブ化または非アクティブ化 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/activate-deactivate-scenarios.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 シナリオは、アクティブ状態または非アクティブ状態で使用できます。
 

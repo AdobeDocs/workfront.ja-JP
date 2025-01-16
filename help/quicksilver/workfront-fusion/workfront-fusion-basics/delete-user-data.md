@@ -2,19 +2,31 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
-title: ' [!DNL Adobe Workfront Fusion] のユーザーデータの削除'
-description: ' [!DNL Adobe Workfront Fusion]  アカウントのユーザーデータは保存および削除できます。'
+title: ' [!DNL Adobe Workfront Fusion] のユーザーデータを削除する'
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 100%
+source-wordcount: '266'
+ht-degree: 72%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] のユーザーデータの削除
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ シナリオ要素の削除 ](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/delete-scenario-elements.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 [!DNL Adobe Workfront Fusion] アカウントの次のエリアにユーザーデータを保存または削除できます。
 

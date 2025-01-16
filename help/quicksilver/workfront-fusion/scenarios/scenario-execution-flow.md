@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Adobe Workfront Fusion のシナリオ実行フロー
-description: この記事では、シナリオの実行方法とシナリオ内のデータのフローを説明します。また、処理されたデータとその読み取り方法に関する情報の所在についても説明します。
+description: Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。 この記事は廃止されましたが、この機能を説明する新しい記事へのリンクが含まれています。
 author: Becky
 feature: Workfront Fusion
 exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 98%
+source-wordcount: '843'
+ht-degree: 89%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] でのシナリオ実行フロー
+
+>[!IMPORTANT]
+>
+>Adobe Workfront Fusion のドキュメントが新しい場所に移動されました。
+>
+>この記事の情報は、次の記事に記載されています。
+>
+>* [ シナリオ実行フロー ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-flow.html)
+>
+>ブックマークを更新してください。
+>
+>この記事は現在更新されておらず、近い将来に削除されます。
 
 この記事では、シナリオの実行方法とシナリオ内のデータのフローを説明します。また、処理されたデータとその読み取り方法に関する情報の所在についても説明します。
 
