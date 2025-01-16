@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1564'
-ht-degree: 13%
+source-wordcount: '1429'
+ht-degree: 12%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 13%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -131,7 +133,7 @@ ht-degree: 13%
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. 「**作成**」をクリックします。選択したレコードタイプのリクエストフォームが「フォーム」タブで <span class="preview"> 開きます </span>
+1. 「**作成**」をクリックします。選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -139,40 +141,44 @@ ht-degree: 13%
 
    * 選択したレコードタイプのテーブル表示で使用可能なレコードフィールド。<!--they are working on removing the limitation below-->
 
-<!-- when we go to prod, the Preview batch below will become the only batch-->
+   <!-- when we go to prod, the Preview batch below will become the only batch-->
 
->[!IMPORTANT]
->
-> リクエストフォームを作成する環境に応じて、次のようなシナリオが存在します。
->
->* 次のタイプのフィールドは、実稼動環境のリクエストフォームには表示されません。
->
->    * 作成者と最終変更者
->    * 作成日と最終変更日
->    * 式
->    * ユーザー
->    * Workfront接続フィールド
->    * Workfront オブジェクトの参照フィールド
->    * Workfront Planning レコードの接続されたフィールド
->    * Workfront Planning 接続レコードの参照フィールド
->    * AEM Assets接続フィールド
->* 次のタイプのフィールドは、<span class="preview"> プレビュー環境：</span> のリクエストフォームに表示されません
->    * 作成者 <span class="preview"> 最終変更者 </span>
->    * <span class="preview"> 作成日と最終変更日 </span>
->    * <span class="preview"> 数式 </span>
->    * Workfront オブジェクトのルックアップフィールドに <span class="preview"> いて </span>
->    * <span class="preview">Workfront Planning 接続レコードの参照フィールド </span>
+   >[!IMPORTANT]
+   >
+   >次のタイプのフィールドは、リクエストフォームに表示されません。
+   >
+   >* 作成者と最終変更者
+   >* 作成日と最終変更日
+   >* 式
+   >* Workfront オブジェクトの参照フィールド
+   >* Workfront Planning 接続レコードの参照フィールド
+   >
 
-* **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。
-* **件名** フィールド：Workfrontでリクエストを識別するフィールド。 この機能は、実稼動環境ではまだ使用できません。 <span class="preview"> プレビュー環境で使用できます。</span> 「件名」フィールドの設定と値は編集できません。
+   <!--before release to prod: 
+    > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form in the Production environment: 
+   >
+   >    * Created by and Last modified by
+   >    * Created date and Last modified date
+   >    * Formula
+   >    * People 
+   >    * Workfront connected fields
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning records' connected fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connection fields-->
 
-  >[!TIP]
-  >
-  >**件名** フィールドは、リクエストフォームに表示される場合、値が必要です。 ただし、必要に応じて **件名** フィールドを削除することができ、リクエスターにはフォームに表示されません。
+   * **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 既定のセクションの名前を変更したり、削除することはできません。
+   * **件名** フィールド：Workfrontでリクエストを識別するフィールド。 「件名」フィールドの設定と値は編集できません。
 
-* レコードタイプに関連付けられているすべてのフィールド。
+     >[!TIP]
+     >
+     >**件名** フィールドは、リクエストフォームに表示される場合、値が必要です。 ただし、必要に応じて「**件名** フィールドを削除することができ、リクエスターがリクエストを送信してもフォームに表示されません。
 
-  リクエストフォームに含まれるフィールドは、このレコードタイプにリクエストを送信するすべてのユーザーに表示されます。
+   * レコードタイプに関連付けられているすべてのフィールド。
+
+     リクエストフォームに含まれるフィールドは、このレコードタイプにリクエストを送信するすべてのユーザーに表示されます。
 
 1. （オプション）削除するフォーム上のフィールドの上にマウスポインターを置き、「**x**」アイコンをクリックして削除します。 これらは、フォームの左側にある **フィールド** タブに追加されます。
 
@@ -200,8 +206,7 @@ ht-degree: 13%
 
 1. （オプション） **プレビュー** をクリックして、他のユーザーが新しいレコードを送信する際にフォームを使用する際のフォームの表示方法を表示します。
 
-1. 
-   <div class="preview">（オプション）「**設定**」タブをクリックし、「**承認者**」フィールドに少なくとも 1 人のユーザーを追加して、このレコードフォームの新しいリクエストを承認します。
+1. （オプション）「**設定**」タブをクリックし、「**承認者**」フィールドに少なくとも 1 人のユーザーを追加して、このレコードフォームの新しいリクエストを承認します。
 
    ![](assets/configuration-tab.png)
 
@@ -212,7 +217,7 @@ ht-degree: 13%
    * 少なくとも 1 人の承認者が要求を拒否した場合、要求は拒否され、レコードは作成されません。
    * すべての承認者は、リクエストが承認または却下される前に決定を行う必要があります。
 
-     リクエストフォームへの承認の追加について詳しくは、「[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md)」を参照してください。 </div>
+     リクエストフォームへの承認の追加について詳しくは、「[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md)」を参照してください。
 
 1. （オプション）ヘッダーのフォーム名の右 ![](assets/more-menu.png) にある **詳細** メニューをクリックしてから、**編集** をクリックしてフォームの名前を更新します。
 1. **Publish** をクリックしてフォームを公開し、フォームの一意のリンクを取得します。
@@ -235,20 +240,19 @@ ht-degree: 13%
 
    >[!WARNING]
    >
-   >
    >* **リンクを持つすべてのユーザー** を選択すると、組織外のユーザーであっても、Workfront アカウントを持たないユーザーであっても、誰でもフォームにアクセスして、新しいレコードを送信できます。
    >
-   > * <span class="preview"> 次のフィールドタイプを含むフォームは、公開して共有することができません。</span>
+   > * 次のフィールドタイプを含むフォームは、パブリックに共有できません。
    >
-   >     * <span class="preview">WorkfrontまたはAEM Assets Connections</span>
-   >     * <span class="preview">ユーザー</span>
+   >     * WorkfrontまたはAEM Assetsの接続
+   >     * ユーザー
    >
 
 1. （条件付き）前の手順で「**リンクを持つすべてのユーザー**」を選択した場合は、使用可能なカレンダーから **有効期限をリンク** を選択します。 リンクの有効期限が切れた後、ユーザーはエラーを受け取ります。ユーザーがフォームに再度アクセスできるようにするには、リンクの日付を更新し、新しいリンクを生成して共有する必要があります。
 
    現在の日付から 180 日以内の将来の日付を選択できます。
 
-1. **リンクを保存してコピー** をクリックして、フォームの共有の詳細を保存します。
+1. **リンクを保存してコピー** をクリックして、フォームの共有の詳細を保存します。 フォームが以前に保存されている場合は、「**リンクをコピー**」をクリックします。
 
    フォーム共有オプションが保存され、リンクがクリップボードにコピーされます。 他のユーザーと共有できるようになりました。
 
@@ -260,7 +264,7 @@ ht-degree: 13%
    レコードタイプのページが開きます。
 1. （オプション）ヘッダーのレコードタイプ名の右側に ![](assets/more-menu.png) る **詳細** メニューをクリックして、次のいずれかの操作を行います。
    * 「**リクエストフォームを更新**」をクリックして、リクエストフォームに変更を加えます。
-   * **リクエストフォームへのリンクをコピー** をクリックして、フォームへのリンクを他のユーザーと共有します。
+   * **リクエストフォームにリンクをコピー** をクリックして、フォームへのリンクを他のユーザーと共有します。
 
    >[!TIP]
    >

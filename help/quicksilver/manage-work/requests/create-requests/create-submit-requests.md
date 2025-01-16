@@ -6,10 +6,10 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2300'
-ht-degree: 98%
+source-wordcount: '2411'
+ht-degree: 93%
 
 ---
 
@@ -30,11 +30,12 @@ ht-degree: 98%
 リクエストキューにリクエストを作成したら、担当者に割り当てて完了させるか、タスクまたはプロジェクトに変換することができます。\
 タスクまたはプロジェクトにイシューを変換する方法について詳しくは、[Adobe Workfront におけるイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
-リクエストは、次のいずれかの方法で作成できます。
+Workfront リクエストを作成するには、次の方法があります。
 
 * 最初から（この記事ではこの場合について説明しています）。
 * ドラフトから。詳しくは、[ドラフトからのリクエストの作成](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)を参照してください。
 * 既存のリクエストから（コピーの送信によります）。詳しくは、[リクエストのコピーと送信](../../../manage-work/requests/create-requests/copy-and-submit-requests.md)を参照してください。
+* Workfront Planning 要求フォームからWorkfront Planning にレコードを作成します。 Workfront Planning パッケージを購入する必要があります。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 ## アクセス要件
 
@@ -344,6 +345,17 @@ Workfront と統合されている任意のアプリケーションを使用し�
 
 * Salesforce 用 Workfront アプリをインストール済みの場合は、Salesforce からリクエストを送信できます。\
   Salesforce 用 Workfront アプリを使用して Salesforce からリクエストを送信する方法について詳しくは、[Salesforce オブジェクトから Adobe Workfront リクエストを送信](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)の記事を参照してください。
+
+## Workfront計画リクエストフォームを使用したリクエストの作成
+
+Workfrontの計画リクエストフォームを使用して、リクエストを追加できます。 Workfront Planning 要求を追加すると、要求フォームが承認されている場合、または承認を必要としない場合に、計画レコードが作成されることがあります。
+
+Planning 要求を発行するには、Workfront Planning パッケージを購入する必要があります。
+
+詳しくは、次の記事を参照してください。
+
+* [Adobe Workfront Planning でリクエストフォームを作成および管理します ](/help/quicksilver/planning/requests/create-request-form.md)。
+* [ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md)。
 
 ## 送信されたリクエストを見つける
 

@@ -6,10 +6,10 @@ description: Adobe Workfront では、様々なプロジェクトや様々な親
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1547'
-ht-degree: 93%
+source-wordcount: '1487'
+ht-degree: 95%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 93%
 <!--Audited: 12/2024-->
 
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Adobe Workfront では、次のオブジェクト間でタスクを移動できます。
@@ -72,6 +72,8 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
 
 タスクを移動する際は、以下の点を考慮してください。
 
+* システム管理者またはグループ管理者は、設定エリアの「ユーザーがログ時間に関するタスクおよび問題を移動することを許可する」環境設定の設定方法に応じて、ログ時間を持つタスクを移動できないようにすることができます。 詳しくは、[システム全体のタスクおよびイシューの環境設定の指定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+
 * あるプロジェクトから別のプロジェクトにタスクを移動すると、タスクの日付が再計算される場合があります。再計算では、新規プロジェクトが使用するスケジュールと、プロジェクトのスケジュールの基点情報が考慮されます。
 
 * 移動プロセス中、ユーザーは、タスクに関連付けられたいくつかの項目を移動先のタスクに移動することを選択できます。ただし、デフォルトでは、次のオブジェクトは移動されたタスクに転送されます。
@@ -82,16 +84,9 @@ Adobe Workfront では、次のオブジェクト間でタスクを移動でき�
    * カスタムフォームとカスタムフィールド情報
    * サブタスク
 
-次の項目は、デフォルトではタスクと共に移動しません。
+* 次の項目は、デフォルトではタスクと共に移動しません。
 
-* マイルストーン
-
-<div class="preview">
-
-* システム管理者またはグループ管理者は、設定エリアの「ユーザーがログ時間に関するタスクおよび問題を移動することを許可する」環境設定の設定方法に応じて、ログ時間を持つタスクを移動できないようにすることができます。 詳しくは、[システム全体のタスクおよびイシューの環境設定の指定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
-
-</div>
-
+   * マイルストーン
 
 ## リスト内のタスクを移動
 

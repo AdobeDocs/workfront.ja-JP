@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 97%
+source-wordcount: '949'
+ht-degree: 85%
 
 ---
 
@@ -21,12 +21,19 @@ ht-degree: 97%
 
 次のタイプのリクエストのうち、自分または他のユーザーが送信したものや、開始したが送信を完了していないものを検索できます。これらのリクエストは、Adobe Workfront の次のエリアで検索できます。
 
-* **「送信済み」セクション**：自分または他のユーザーが送信し、自分が表示以上のアクセス権を持っているすべてのリクエスト。
-* **「ドラフト」セクション**：開始したが、未完成で送信していないすべてのリクエスト。ドラフトリクエストについて詳しくは、[Adobe Workfront リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+* Workfrontのリクエスト エリアの **Workfront** タブ：次の節で、Workfront リクエストキューに送信されたリクエストを確認します。
+   * **「送信済み」セクション**：自分または他のユーザーが送信し、自分が表示以上のアクセス権を持っているすべてのリクエスト。
+   * **「ドラフト」セクション**：開始したが、未完成で送信していないすべてのリクエスト。ドラフトリクエストについて詳しくは、[Adobe Workfront リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
   >[!TIP]
   >
   >自分のドラフトリクエストのみを表示できます。
+
+* Workfrontの「要求」エリアの「**計画**」タブ：Workfrontの計画リクエストフォームに送信された要求を検索します。 Workfront Planning パッケージを購入する必要があります。 詳しくは、次の記事を参照してください。
+
+   * [Adobe Workfront Planning でのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)
+   * [レコードを作成するためのAdobe Workfront Planning 要求の発行](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## アクセス要件
 
@@ -70,6 +77,7 @@ ht-degree: 97%
 
 {{step1-to-requests}}
 
+1. （条件付き）Workfront Planning パッケージを購入した場合は、「**Workfront**」タブをクリックしてWorkfront リクエストを表示します。
 1. 左パネルの「**送信済み**」をクリックして、送信されたすべてのリクエストを表示します。
 
    最大 2,000 件のリクエストを表示でき、リクエストは複数のページにわたって表示される可能性があります。
@@ -191,6 +199,12 @@ ht-degree: 97%
    -->
 
 1. 「**ドラフト**」をクリックして、すべてのドラフトリクエストを表示します。Workfront は、このフォルダー内の各リクエストキューに対して無制限の数のドラフトを保存します。既にドラフトのあるキュートピックの新しいリクエストを入力すると、既存のドラフトを使用するように求められます。詳しくは、[ドラフトからリクエストを作成](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)を参照してください。
+
+1. （オプションおよび条件付き）Workfront Planning パッケージを購入した場合は、左側のパネルで「**Planning**」タブをクリックし、「**送信済み**」をクリックしてWorkfront Planning 要求を表示します。
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
  
 

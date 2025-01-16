@@ -6,19 +6,19 @@ description: '[!UICONTROL マイ更新]エリアを使用して、決定を待�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 87%
+source-wordcount: '787'
+ht-degree: 90%
 
 ---
 
 
 # [!UICONTROL マイ更新]エリアの使用
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 [!UICONTROL マイ更新]エリアを使用して、決定を待っている承認や、参加している会話をすぐにレビューできます。
@@ -82,11 +82,7 @@ ht-degree: 87%
 
    自分に割り当てられているアクセスの承認とリクエストは、ページの前半部の「**マイ更新**」の下に一覧表示されます。
 
-   <div class="preview">
-
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
-
-   </div>
 
 1. （オプション）[!UICONTROL **マイ更新**]&#x200B;エリアの一番下までスクロールし、右向きの矢印をクリックすると、追加のページに表示される承認がさらに表示されます。
 
@@ -168,12 +164,8 @@ ht-degree: 87%
 
      更新への返信について詳しくは、「作業の更新 [ を参照してください ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
-     <span class="preview"> 返信の追加が完了したら、「**[!UICONTROL 送信]**」をクリックします。</span>
-
-     <div class="preview">
+     返信の追加が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
      ![](assets/reply-in-the-my-updates-area.png)
-
-     </div>
 
 1. （オプション）「**[!UICONTROL 現在のページをピン留め]**」をクリックして、[!UICONTROL マイ更新]エリアを上部ナビゲーションにピン留めします。

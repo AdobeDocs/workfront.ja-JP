@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 10%
+source-wordcount: '915'
+ht-degree: 8%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 10%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -126,9 +126,9 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
 * Workfront Planning 要求の要求フォームには、フォームへのリンクからのみアクセスできます。
 * リクエストをWorkfront Planning に送信した後に編集することはできません。
-* 送信されたリクエストごとに、使用するフォームに関連付けられたレコードタイプのレコードが作成されます <span class="preview"> フォームが承認に関連付けられていない場合、またはすべての承認者によって承認が付与された場合 </span>。
+* 送信されたリクエストごとに、使用するフォームに関連付けられたレコードタイプのレコードが作成されます（フォームが承認に関連付けられていない場合、またはすべての承認者によって承認が付与された場合）。
 * リクエストフォームを送信して作成されたレコードを、他の方法で追加されたレコードと区別することはできません。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
-* <span class="preview"> 送信されたリクエストは、Workfront </span> の「リクエスト」領域にある「送信済み」セクションの「計画」タブに表示されます。
+* 送信されたリクエストは、Workfrontの「リクエスト」領域の「送信済み」セクションの「計画」タブに表示されます。
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -149,23 +149,24 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
    フォームが送信され、次の処理が行われます。
 
-   * リクエストフォームが承認に関連付けられていない場合、リクエストは「Workfront リクエスト」エリア </span> の「送信済み」セクションの <span class="preview"> 計画」タブに追加され、新しいレコードがフォームに関連付けられたレコードタイプに追加されます。
+   * リクエストフォームが承認に関連付けられていない場合、リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加され、新しいレコードがフォームに関連付けられたレコードタイプに追加されます。
 
-   * リクエストフォームが承認に関連付けられている場合、<span class="preview"> リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加されます。 新しいレコードは、すべての承認者が承認した後にのみ、レコードタイプページに追加されます。</span>
-     <span class="preview"> 詳しくは、[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください </span>。
+   * リクエストフォームが承認に関連付けられている場合、リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加されます。 新しいレコードは、すべての承認者が承認した後にのみ、レコードタイプページに追加されます。
+
+     詳しくは、[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
 
      ![](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
-     ><span class="preview"> 少なくとも 1 つのワークスペースへのアクセス権を持つすべてのユーザーは、リクエスト エリアの「計画」タブを表示できます。 表示可能な少なくとも権限を持つ、自分または他のユーザーがワークスペースに送信したリクエストのみを表示できます。 Workfront管理者は、システム内の任意のワークスペースに送信されたすべてのリクエストを表示できます。</span> <!--ensure this is correct; asking team in slack-->
+     >1 つ以上のワークスペースにアクセスできるすべてのユーザーは、リクエスト エリアの「計画」タブを表示できます。 表示可能な少なくとも権限を持つ、自分または他のユーザーがワークスペースに送信したリクエストのみを表示できます。 Workfront管理者は、システム内の任意のワークスペースに送信されたすべてのリクエストを表示できます。<!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview"> リクエストが正常に送信されたかレビュー用に送信されたことを示すメールがアプリ内に届きます。</span>
-   * <span class="preview"> リクエストフォームが承認と関連付けられている場合、承認者は、リクエストをレビューして承認するためのアプリ内通知とメール通知を受け取ります。</span>
+   * アプリ内と、リクエストが正常に送信されたかレビュー用に送信された旨のメール通知が届きます。
+   * リクエストフォームが承認に関連付けられている場合、承認者は、リクエストをレビューして承認するためのアプリ内通知とメール通知を受け取ります。
 
      >[!NOTE]
      >
-     ><span class="preview"> メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobeの Unified Experience にオンボードされている場合にのみ表示されます。</span>
+     >メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobeの Unified Experience にオンボードされている場合にのみ表示されます。
 
 
 

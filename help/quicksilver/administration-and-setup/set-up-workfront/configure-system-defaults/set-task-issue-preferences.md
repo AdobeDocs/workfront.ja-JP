@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2296'
-ht-degree: 85%
+source-wordcount: '2236'
+ht-degree: 86%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 85%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 Linked to Converting Issues.-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 [!DNL Adobe Workfront] 管理者は、タスクとイシューに関するシステム全体の環境設定を指定できます。これらの環境設定は、[!DNL Workfront] でのユーザーによるタスクおよびイシューの作成方法に影響します。
@@ -74,15 +74,10 @@ Linked to Converting Issues.-->
    * [[!UICONTROL 新規タスクの初期設定]](#new-task-defaults)
    * [[!UICONTROL イシュー]](#issues)
    * [[!UICONTROL 削除]](#deletion)
-   * <span class="preview">[ 移動 ](#move)</span>
+   * [移動](#move)
    * [[!UICONTROL 実際の日付]](#actual-dates)
    * [[!UICONTROL 委任]](#delegation)
    * [[!UICONTROL アクセス]](#access)
-
-<!--
-  <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
--->
-
 
 
 ### [!UICONTROL 新規タスクの初期設定] {#new-task-defaults}
@@ -169,8 +164,6 @@ Linked to Converting Issues.-->
 
 * このオプションの選択を解除すると、時間が記録されたタスクやイシューを削除したり、タスクやイシューの時間が記録されたプロジェクトを削除したりした際に、禁止の警告が表示されます。この警告は、時間が記録されたタスクやイシューの削除を管理者が禁止していることを示しています。タスク、イシュー、およびタスクやイシューの時間が記録されたプロジェクトは削除できません。
 
-<div class="preview">
-
 ### 移動
 
 **[!UICONTROL ユーザーがログ時間のあるタスクおよび問題を移動することを許可]**：時間が記録されるタスクまたは問題を移動することを許可するかどうかを決定できます。 このオプションはデフォルトで選択されています。
@@ -178,8 +171,6 @@ Linked to Converting Issues.-->
 * 選択すると、時間がログに記録されたタスクと問題を移動できます。 時間は、タスクや問題とも移動します。
 
 * このオプションの選択を解除すると、ログ時間のあるタスクや問題を別のプロジェクトに移動する際に禁止を示す警告が表示されます。 警告は、管理者がタスクまたはログ時間に関する問題の移動を許可しないことを指定します。 時間が記録されたタスクまたは問題は移動できません。 このオプションの選択を解除した場合でも、同じプロジェクト内でタスクを移動できます。
-
-</div>
 
 ### [!UICONTROL 実際の日付] {#actual-dates}
 

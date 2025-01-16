@@ -7,9 +7,9 @@ description: 解決可能オブジェクトとは、解決策が解決オブジ�
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 94%
 
 ---
@@ -126,7 +126,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 イシューがタスクまたはプロジェクトの解決可能オブジェクトである場合、タスクおよびプロジェクトのステータスの変更は、イシューのステータスの変更をトリガーします。この場合、デフォルトステータスはカスタムステータスとは異なる方法でトリガーされます。
 
-プロジェクトのカスタムステータスが、イシューステータスへの変更をトリガーしないデフォルトのステータスと等しい場合、イシューのステータスの変更はトリガーされません。
+プロジェクトのカスタムステータスが、イシューステータスへの変更をトリガーしないデフォルトのステータスと等しい場合、プロジェクトステータスの変更は、イシューのステータスの変更をトリガーしません。
 
 * [解決オブジェクトのデフォルトステータスと解決可能オブジェクトのデフォルトステータスを同期](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [解決オブジェクトのカスタムステータスと解決可能オブジェクトのカスタムステータスを同期](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

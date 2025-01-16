@@ -6,9 +6,9 @@ description: イシューをプロジェクトとタスクの間で移動でき�
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '868'
 ht-degree: 86%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 86%
 
 <!--Audited: 12/2024-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 次のオブジェクト間でイシューを移動できます。
 
@@ -72,15 +72,11 @@ ht-degree: 86%
 
 ドキュメントを含むイシューや、リクエストキューに関連付けられているイシューを移動する際は、次の点を考慮してください。
 
+* システム管理者またはグループ管理者は、設定領域の「ユーザーにログ時間を使用したタスクおよび問題の移動を許可」環境設定の設定方法に応じて、ログ時間を使用する問題の移動を防ぐことができます。 詳しくは、[システム全体のタスクおよびイシューの環境設定の指定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+
 * **イシューがリクエストキューに関連付けられている場合：**&#x200B;イシューを別のオブジェクトに移動し、そのイシューをリクエストキューに関連付けると、移動したイシューは最初のイシューの元になったキューに関連付けられなくなります。
 * **イシューにドキュメントが添付されている場合：**&#x200B;イシューを別のオブジェクトに移動し、イシューにドキュメントが添付されている場合、そのドキュメント、バージョンおよびプルーフも新しいイシューに移動します。ドキュメントに関連付けられている承認は移動されません。
 * **イシューがドキュメントまたはフォルダーにリンクされている場合：** Google Drive などのサードパーティのサービスにリンクされたドキュメントまたはフォルダーを含むイシューを移動すると、そのイシューと共にドキュメントへのリンクが移動します。
-
-<div class="preview">
-
-* システム管理者またはグループ管理者は、設定領域の「ユーザーにログ時間を使用したタスクおよび問題の移動を許可」環境設定の設定方法に応じて、ログ時間を使用する問題の移動を防ぐことができます。 詳しくは、[システム全体のタスクおよびイシューの環境設定の指定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
-
-</div>
 
 ## リスト内のイシューを移動
 
@@ -103,9 +99,9 @@ ht-degree: 86%
 
 1 つのイシューを表示時に移動できます。
 
-### プレビュー環境で単一のイシューを移動
+### 単一のイシューを移動
 
-1. コピーするイシューに移動し、イシュー名の右にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png)、「**指定の場所に移動**」の順に選択します。
+1. 移動するイシューに移動し、イシュー名の右側に ![](assets/more-icon.png) る **詳細** メニューをクリックして、「**移動先**」をクリックします。
 
    ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 

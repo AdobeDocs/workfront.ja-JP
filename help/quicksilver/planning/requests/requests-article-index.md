@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 91d9a1b1-c677-4aea-997e-f787eb109be1
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 19%
+source-wordcount: '110'
+ht-degree: 5%
 
 ---
 
-# Adobe Workfront計画リクエスト：記事索引
+# Adobe Workfront Planning リクエスト：記事索引
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 レコードタイプごとにリクエストフォームを作成し、ユーザーと共有できます。ユーザーはフォームに入力して送信することで、新しいレコードを追加できます。
 
@@ -26,5 +26,5 @@ ht-degree: 19%
 * [Adobe Workfront Planning でのリクエストフォームの作成と管理](/help/quicksilver/planning/requests/create-request-form.md)
 * [Adobe Workfront計画リクエストの発行](/help/quicksilver/planning/requests/submit-requests.md)
 * [Adobe Workfront Planning でのリクエストフォームの非公開](/help/quicksilver/planning/requests/unpublish-request-form.md)
-* <span class="preview">[Adobe Workfront Planning の要求フォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md)</span>
-* <span class="preview">[Adobe Workfront Planning でのリクエストの承認 ](/help/quicksilver/planning/requests/approve-request.md)</span>
+* [Adobe Workfront Planning でリクエストフォームに承認を追加する](/help/quicksilver/planning/requests/add-approval-to-request-form.md)
+* [Adobe Workfront Planning でリクエストを承認する](/help/quicksilver/planning/requests/approve-request.md)

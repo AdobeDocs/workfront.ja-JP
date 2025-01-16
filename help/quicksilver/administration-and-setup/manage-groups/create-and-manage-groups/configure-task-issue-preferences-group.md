@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2245'
-ht-degree: 86%
+source-wordcount: '2185'
+ht-degree: 87%
 
 ---
 
 # グループのタスクとイシューの環境設定を行う
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 組織内のグループが、システムレベルでの設定方法とは別に、タスクまたはイシューの環境設定を行う必要がある場合、Adobe Workfront の管理者が環境設定をロック解除できます。その後、グループ管理者はグループの環境設定を実施することができ、これはグループに関連するすべてのタスクやイシューに影響を与えます。
 
@@ -95,7 +95,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
    * [新規タスクの初期設定](#new-task-defaults)
    * [イシュー](#issues)
    * [削除](#deletion)
-   * <span class="preview">[ 移動 ](#move)</span>
+   * [移動](#move)
    * [実際の日付](#actual-dates)
    * [委任](#delegation)
    * [アクセス](#access)
@@ -184,8 +184,6 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
    </table>
 
 
-<div class="preview">
-
 ### 移動
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### 実際の日付 {#actual-dates}
 

@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 24%
+source-wordcount: '502'
+ht-degree: 21%
 
 ---
 
 
 # Adobe Workfront Planning 通知設定の管理
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -27,14 +27,9 @@ Workfront Planning で次のアクションが発生した場合、アプリ内�
 * レコード ページのコメントに追加された人がいます
 * ビューまたはワークスペースにアクセスする権限を要求するユーザーがいます
 * 他のユーザーからビューまたはワークスペース <!--I could not test this but Isk confirmed--> へのアクセス権が付与されている
-
-<div class="preview">
-
 * Workfront Planning の要求を発行します。
 * 送信されたWorkfront Planning 要求が誰かに承認または拒否されています。
 * ステータスが、送信したWorkfront計画リクエストに変わります。
-
-</div>
 
 ## アクセス要件
 
@@ -187,9 +182,9 @@ OLD:
    * **リクエスト**：次のいずれかの操作が行われると、通知が届きます。
 
       * Workfront Planning オブジェクトへのアクセス権を要求または付与します
-      * <span class="preview">Workfront計画リクエストを送信しました </span>
-      * <span class="preview"> 変更を送信したWorkfront計画要求のステータス </span>
-      * <span class="preview">Workfront計画リクエストに対する承認のリクエスト、付与または拒否 </span>
+      * Workfront計画リクエストを送信しました
+      * 自分が送信したWorkfront計画リクエストのステータスが変わる
+      * Workfront計画リクエストに対する承認を要求、付与または却下
 
    通知の管理について詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) を参照してください。
 
