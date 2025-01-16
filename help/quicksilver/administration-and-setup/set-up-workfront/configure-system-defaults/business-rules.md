@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: d68c4fd39234d8d5131828e2a4642bd9af8ca7d5
+source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 4%
@@ -112,7 +112,7 @@ IF(
 1. 「**新規ビジネス・ルール**」をクリックします。
 1. ビジネス・ルールを割り当てるオブジェクト・タイプを選択し、「**続行**」をクリックします。
 
-   ![ オブジェクトを選択 ](assets/object-for-business-rule2.png)
+   ![ オブジェクトを選択 ](assets/object-for-business-rule3.png)
 
 1. ビジネス ルールの **名前** を入力します。
 1. **アクティブ** フィールドで、ルールを保存する際にアクティブにする必要があるかどうかを選択します。
