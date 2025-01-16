@@ -5,18 +5,14 @@ description: AI アシスタントの概要
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 10%
+source-wordcount: '693'
+ht-degree: 7%
 
 ---
 
 # AI アシスタントの概要
-
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのユーザーの場合はプレビュー環境で、月次リリースを有効にしているお客様の場合は実稼動環境で利用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 Workfrontの AI アシスタントを使用すると、アプリ内の情報やおすすめを自然言語で提供できるので、作業を遂行できます。 AI アシスタントを使用すると、次の操作をよりスムーズに行うことができます
 
@@ -84,13 +80,9 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
   詳細については、「[AI アシスタントからヘルプを表示する ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)」を参照してください。
 
-<div class="preview">
-
 * Workfront内の特定の項目を検索する。
 
   詳しくは、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。
-
-</div>
 
 * 計算されたカスタム フィールドの数式を生成または調整しています。
 
@@ -100,12 +92,10 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
   詳細については、[AI アシスタントを使用して計算フィールドの数式を生成または変更する ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md) を参照してください。
 
-<div class="preview">
-*更新、アップロードされたドキュメント、およびプロジェクトに関するその他の注目すべき変更を優先事項の 24 時間、3 日、7 日間の期間内にまとめます。
+* プロジェクトに関する更新、アップロードされたドキュメント、その他の注目すべき変更を優先度の 24 時間、3 日、7 日間の期間内にまとめます。
 
 詳しくは、[ 優先度の作業のキャッチアップ ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
 
-</div>
 
 ## AI アシスタントで使用可能なオブジェクトタイプ
 
