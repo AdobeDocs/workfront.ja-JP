@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 30%
+source-wordcount: '701'
+ht-degree: 28%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 30%
 
 # Adobe Workfrontからのフィールドのインポート
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -116,11 +116,11 @@ ht-degree: 30%
    * 割り当て
    * 時間
    * 請求記録
-     <!--Available only to Preview, but might not come to Prod:* Rate card-->
+     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
    * 費用
    * イテレーション
-     <!--* Non-labor resource-->
-     <!--* Non-labour resource category-->
+     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Workfront フィールドは、Workfront Planning にインポートされた後、フィールドタイプが保持されない場合があります。
 
   次の表に、Workfrontのフィールドタイプと、対応するWorkfront Planning のフィールドタイプを示します。

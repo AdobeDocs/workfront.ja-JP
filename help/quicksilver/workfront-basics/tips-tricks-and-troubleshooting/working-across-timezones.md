@@ -5,10 +5,10 @@ title: タイムゾーンをまたいでの作業
 description: ' [!DNL Adobe Workfront]  では、タイムゾーンを使用して、オブジェクトの時間フィールドやメールなどの他のエリアの時間を計算する方法を理解すると役立ちます。'
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 88%
+source-wordcount: '1192'
+ht-degree: 90%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 88%
 
 <!-- Audited: 2/2024 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 [!DNL Adobe Workfront] では、タイムゾーンを使用して次の計算を行う方法を理解すると役立ちます。
 
@@ -100,14 +100,10 @@ ht-degree: 88%
    * タスクのプライマリ所有者のスケジュールのタイムゾーン
    * プロジェクトのスケジュールのタイムゾーン。
 
-  <div class="preview">
-
   1 人のユーザーがタスクに割り当てられている場合、システムは、システム全体またはグループ全体のプロジェクト環境設定で設定されているように、次のいずれかを使用します。
 
    * タスクの担当者のスケジュールのタイムゾーン
    * プロジェクトのスケジュールのタイムゾーン。
-
-  </div>
 
   これにより、タスクの日付が変更される場合があります。
 

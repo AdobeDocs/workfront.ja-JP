@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 8%
+source-wordcount: '676'
+ht-degree: 4%
 
 ---
 
 
 # Adobe Workfront計画 AI アシスタントの概要
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -70,7 +70,7 @@ AI アシスタントを使用して、現在のページコンテキストと�
 AI アシスタントは、Workfront計画の次の領域に配置できます。
 
 * 画面の右上隅にあるメインナビゲーションバー。
-* <span class="preview"> プレビューでレコードを開いた後、またはレコードのページを開いた後、レコードの詳細領域内。</span>
+* プレビューでレコードを開いた後、またはレコードのページを開いた後、レコードの詳細領域内。
 
 ## 計画エリアで AI アシスタントにアクセスする
 
@@ -84,7 +84,7 @@ AI アシスタントは、Workfront計画の次の領域に配置できます�
 
 1. （任意） **レコード** をクリックして、レコードの **詳細** ページを開きます。
 
-1. グローバルナビゲーションバー <span class="preview"> の画面の右上隅にある **AI アシスタント** アイコン、またはレコードのプレビューまたはページの右上隅にある </span>AI アシスタント」アイコンをクリックします。
+1. グローバルナビゲーションバーの画面の右上隅にある **AI アシスタント** アイコン、またはレコードのプレビューまたはページの右上隅をクリックします。
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

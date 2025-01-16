@@ -7,10 +7,10 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Alina
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1255'
-ht-degree: 78%
+source-wordcount: '556'
+ht-degree: 77%
 
 ---
 
@@ -20,13 +20,15 @@ ht-degree: 78%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview"> このページで強調表示されている情報は、高速リリースを有効にしたお客様向けの実稼動環境でのみ使用できる機能を指しています。</span>
+<span class="preview"> このページで強調表示されている情報は、プレビュー環境でのみ使用できる機能を示しています </span>。
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> この機能は、2025 年 1 月に 25.1 リリースで高速リリースを有効にしたお客様向けに実稼動環境から削除されます。 25.1 リリースについて詳しくは、[2025 年第 1 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md) を参照してください。
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
-タスクとイシューの割り当てを管理する場合、スマート割り当てを使用すると、作業を完了するのに最適なユーザーを特定できます。スマート割り当ては、作業アイテムをリソースに割り当てる際に、その作業に最も適したリソースを決定するアルゴリズムに基づいて Adobe Workfront が示す提案です。スマート割り当てでは、ユーザー、担当業務、チームを指定できます。
+タスクとイシューの割り当てを管理する際に、スマート割り当てを使用して、作業を完了するのに最適なリソースを特定できます。
+
+スマート割り当ては、作業アイテムをリソースに割り当てる際に、その作業に最も適したリソースを決定するアルゴリズムに基づいて Adobe Workfront が示す提案です。スマート割り当てでは、ユーザー、担当業務、チームを指定できます。
 
 >[!NOTE]
 >
@@ -38,7 +40,7 @@ ht-degree: 78%
 
 スマート割り当てを使用する際は、次の点を考慮してください。
 
-* <span class="preview"> アルゴリズムは、タスクと問題に対して独立して機能します。 つまり、Workfrontは、イシューとタスクに個別に関連する条件に従ってリストを作成するので、イシューの推奨ユーザーのリストとタスクの推奨ユーザーのリストが異なる場合があります。</span>
+<!--* <span class="preview">The algorithm works independently for tasks and issues. This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. </span>-->
 <!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
 * 推奨される割り当ては、常にアクティブユーザー、担当業務またはチームです。
 * 最初にリストされるリソースは、そのタスクに最も一致するリソースである必要があります。
@@ -51,11 +53,11 @@ ht-degree: 78%
 
   ![](assets/smart-assignments-issue-list.png)
 
-* <span class="preview"> 「割り当て」列のタスクリストまたはレポート </span>
+* 割り当て列のタスク リストまたはレポート
 
   ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">「割り当て」フィールドのタスクヘッダー</span>
+* 「割り当て」フィールドのタスクヘッダー
 
   ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
@@ -67,9 +69,9 @@ ht-degree: 78%
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">プロジェクトにタスクを追加する際の新規タスクボックスの割り当てフィールド</span>
+<!--* The Assignments field in the New Task box, when adding a task to a project
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  ![](assets/smart-assignments-new-task-modal.png)-->
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -77,77 +79,79 @@ ht-degree: 78%
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* <span class="preview"> タスクまたは問題を割り当てる際に、「この割り当て先」領域にあるワークロードバランサー </span>
+* タスクまたはイシューを割り当てる際のこの割り当て先エリアのワークロードバランサー
 
   ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## スマート割り当て条件
 
-スマート割り当ては、タスクに対する場合とイシューに対する場合とで異なります。
+<!--Smart assignments work differently for tasks than for issues.  -->
 
-### タスクに対するスマート割り当て条件
+<!--### Smart assignments criteria for tasks
 
-タスクのスマート割り当ての計算は、<span class="preview">2 つの異なるアルゴリズムを使用する 2 つのフェーズ </span> で機能します。
+The task smart assignments calculation works in <span class="preview">two phases which use two different algorithms.</span>
 
-<span class="preview"> スマート割り当てを見つけたアルゴリズムに応じて、割り当ては「割り当て」フィールドの 2 つの異なるセクションに表示されます。</span> 詳しくは、[ スマート割り当てを行う ](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md) を参照してください。
+<span class="preview">Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field.</span> For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
 
 ![](assets/smart-assignments-task-list.png)
 
 <div class="preview">
 
-#### タスクに対するスマート割り当て計算の第 1 フェーズ
+#### First phase of smart assignment calculation for tasks 
 
-スマート割り当てを計算する第 1 フェーズでは、Workfront は割り当てごとに類似性スコアを計算します。
+In the first phase of calculating smart assignments, Workfront calculates a similarity score for every assignment. 
 
 >[!NOTE]
 >
->スマート割り当て計算の第 1 フェーズは、次のタスクエリアには適用されません。
+>The first phase of the smart assignments calculation does not apply to the following task areas:
 >
->* ワークロードバランサーでの一括割り当て。
->* ボード上の接続されたカード。
+>* Bulk Assignments in the Workload Balancer.
+>* Connected cards on boards.
 
 
-類似性スコアの計算と、割り当てが一覧表示される順序は、次の点を考慮に入れています。
+The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
 
-* タスク、プロジェクト、ポートフォリオの名前が割り当てようとしているタスクと同じである既存の割り当てには、100％のスコアが付けられます。既存の割り当てのタスクのプロジェクト名とポートフォリオ名も、割り当てようとしているタスクのプロジェクト名とポートフォリオ名と一致している必要があります。
+* A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
 
-* 他の割り当てで既存のタスクと一致するのが一部の情報のみである場合、スコアは 100％未満になります。
+* If only some of this information from other assignments matches on the existing tasks, the score might be lower than 100%.  
 
-  例えば、「マイポートフォリオ」というポートフォリオの「マイプロジェクト」というプロジェクトの「マイタスクその 2」というタスクを割り当てようとしていて、「マイポートフォリオ」というポートフォリオの「マイプロジェクト」というプロジェクトの「マイタスク」という既存のタスクがある場合、既存のタスクと割り当てようとしているタスクの名前は似ていますが、同一ではないため、「マイタスク」に割り当てられているユーザーのスコアは 95％になります。
+  For example, if you are assigning a task called "My second task" on a project called "My project" in a portfolio called "My portfolio" and you have an existing task called "My task" in another project called "My project" in a portfolio called "My portfolio", the user assigned to "My task" might get a score of 95% because the name of the existing task and the task you're trying to assign now are similar, but not identical.  
+ 
+    >[!TIP]
+    >
+    >  Workfront looks for matches only in the Name fields of tasks, projects, and portfolios and not in any other fields. 
 
-  >[!TIP]
-  >
-  >  Workfront は、タスク、プロジェクトおよびポートフォリオの「名前」フィールドのみで一致を検索し、他のフィールドでは一致を検索しません。
+* An assignment could get a higher score when they are assigned to a lot of tasks in the system that have similar names. For example, if a team called "Development" is assigned to 50% of the tasks in the system containing "AI" in the name and you are now assigning another task with "AI" in the name, the score of the "Development" team is higher. In this case, the names of  projects and portfolios are not as important.  
 
-* システム内の多数のタスクに似たような名前が割り当てられていると、割り当てのスコアが高くなる可能性があります。例えば、システム内で名前に「AI」を含むタスクの 50％に「開発」というチームが割り当てられていて、名前に「AI」を含む別のタスクを割り当てようとする場合、「開発」チームのスコアは高くなります。この場合、プロジェクト名やポートフォリオ名はそれほど重要ではありません。
+* Taking into account this scoring system, the first 7 suggestions are listed as smart assignments, in the descending order of their scores. Assignments with scores lower than 40% do not display.  
 
-* このスコアリングのしくみを考慮して、最初の 7 つの提案がスマート割り当てとしてスコアの降順で表示されます。スコアが 40％未満の割り当ては表示されません。
+* If several assignments have identical scores, they display in order of the date on which the assignments were made, starting from the most recent date.  
 
-* スコアが同じ割り当てが複数ある場合、割り当てが行われた日付の順に最新の日付から表示されます。
+  For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
 
-  例えば、Rick が今日早くに類似のタスクに割り当てられ、Jennifer が 2 日前に類似のタスクに割り当てられた場合、Rick が最初に表示されます。
+* Assignments identified in this phase are listed in the    **Suggested assignments**  section of the Assignments field for tasks. 
 
-* このフェーズで特定された割り当ては、    タスクの「割り当て」フィールドの **提案された割り当て** セクション。
-
-* この計算を使用して一致がない場合、スマート割り当ての第 2 フェーズが開始し、別のアルゴリズムを使用して計算されます。
+* If there are no matches using this calculation, the second phase of smart assignments starts which is calculated using a different algorithm.  
 
 </div>
 
-#### タスクのスマート割り当て計算の第 2 フェーズ
+#### Second phase of smart assignment calculation for tasks-->
 
-タスクのスマート割り当ての最初のステップで一致が見つからなかった場合、Workfront はタスクのスマート割り当てをイシューの計算と同じ方法で計算します。
+<!--If the first step of task smart assignments has found no matches,-->
 
-詳しくは、この記事の[タスクとイシューのスマート割り当て条件](#smart-assignments-criteria-for-tasks-and-issues)を参照してください。
+Workfrontは、イシューに対して計算するのと同じ方法で、タスクのスマート割り当てを計算します。
 
-このフェーズで識別された割り当ては、「割り当て」フィールドの **ユーザーとチーム**、**担当業務の割り当て**、および <span class="preview">**評価カードの役割**</span> セクションに一覧表示されます。 <span class="preview"> 評価カードについて詳しくは、[ 評価カードの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span> を参照してください。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+<!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-### タスクとイシューのスマート割り当て条件
+識別された割り当ては、「割り当て」フィールドの **ユーザーとチーム**、**担当業務の割り当て** および <span class="preview">**評価カードの役割**</span> セクションにリストされます。 <span class="preview"> 評価カードについて詳しくは、[ 評価カードの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span> を参照してください。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
+<!--
+### Smart assignments criteria for tasks and issues 
 
 >[!NOTE]
 >
->次の条件は、タスクのスマート割り当て計算の最初のフェーズで一致するものが見つからなかった場合にのみ、タスクに適用されます。 詳しくは、[タスクのスマート割り当て計算の第 1 フェーズ](#first-phase-of-smart-assignment-calculation-for-tasks)を参照してください。次の条件は、デフォルトで常にイシューに適用されます。
+>The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
 ![](assets/smart-assignments-issue-header.png)
 

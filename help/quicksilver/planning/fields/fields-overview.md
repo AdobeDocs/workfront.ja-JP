@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 8d5006532e93dc687beb79e817b725f18b0c65d3
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 86%
+source-wordcount: '441'
+ht-degree: 85%
 
 ---
 
 
 # フィールドの概要
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -45,39 +45,43 @@ ht-degree: 86%
 
    * 手動：
 
-      * レコードタイプのページのテーブルビューに列を追加にして。テーブルの列は、レコードタイプに関連付けられるフィールドです。これらは、レコードのページに表示されるフィールドと同じです。
+      * レコードタイプページのテーブル表示で列を追加する場合。 テーブルの列は、レコードタイプに関連付けられるフィールドです。これらは、レコードのページに表示されるフィールドと同じです。
 
         フィールドは、レコードのページから作成することはできません。
 
-      * レコードタイプを接続する。2 つのレコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされるレコードフィールドを作成できます。
+      * レコードタイプを接続する場合。 2 つのレコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされるレコードフィールドを作成できます。
 
         レコードタイプの接続について詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-      * <span class="preview">Workfrontから既存のフィールドを読み込む方法</span>
-        <span class="preview"> 詳しくは、[Adobe Workfrontからのフィールドの読み込み ](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。</span>
+      * Workfrontから既存のフィールドを読み込む場合。
 
-      * <span class="preview">Excel または CSV ファイルを使用してレコードタイプを読み込む方法</span>
+        詳しくは、[Adobe Workfrontからのフィールドの読み込み ](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
 
-        <span class="preview"> 詳しくは、[ レコードタイプの作成 ](/help/quicksilver/planning/architecture/create-record-types.md) を参照してください。</span>
 
    * 自動：
 
-     新規のレコードタイプごとにデフォルトで作成される標準フィールドを次に示します。
+      * レコードタイプを作成する場合：
 
-      * 名前
-      * 説明
-      * 開始日
-      * 終了日
-      * ステータス。レコードのステータスのデフォルト値を以下に示します。
-         * 開発
-         * 予定
-         * アクティブ
-         * 完了
-         * 保留中
+         * 名前
+         * 説明
+         * 開始日
+         * 終了日
+         * ステータス。レコードのステータスのデフォルト値を以下に示します。
+            * 開発
+            * 予定
+            * アクティブ
+            * 完了
+            * 保留中
 
-        値をさらに追加したり、既存の値の名前を変更したりできます。
+        さらに値を追加したり、既存の値の名前を変更したりできます。
 
-     Workfront Planning では、ワークスペースをテンプレートから作成する際にレコードタイプのフィールドが作成されます。詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+      * テンプレートからワークスペースを作成する場合
+
+        詳しくは、[ワークスペースの概要](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+
+      * Excel または CSV ファイルを使用してレコードタイプを読み込む場合。
+
+        詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
 * Workfront Planning フィールドには Workfront からアクセスできません。
 

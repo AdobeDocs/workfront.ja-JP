@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1683'
-ht-degree: 10%
+source-wordcount: '1624'
+ht-degree: 9%
 
 ---
 
 
 # レコードページレイアウトの管理
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -254,8 +254,6 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    レコードのプレビューまたはページのレイアウトに対するすべての変更が、自動的に保存されます。
 
-<span class="preview">
-
 ## レコードのページに接続表示ページを追加する
 
 接続表示をレコードのページに追加する場合は、次の点に注意してください。
@@ -292,7 +290,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 1. （オプション）ツールバーのビュー要素を使用して、テーブルビューを管理します。 詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 1. （オプション）タブの名前の上にマウスポインターを置き、「**詳細**」 ![](assets/more-menu.png) クリックしてから「**削除**」をクリックして、新しい「接続されたビュー」タブを削除します。
 
-</span>
+
 
 <!--
 ## Add a Brief page to a record's page

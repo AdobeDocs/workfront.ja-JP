@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 93%
+source-wordcount: '2661'
+ht-degree: 94%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 93%
 
 <!--Audited: 12/2023-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 [!DNL Adobe Workfront] 管理者は、システム全体で作成されるすべてのプロジェクトに対して、デフォルトの環境設定を指定できます。これらの環境設定は、プロジェクト、タスクおよびイシューの動作に影響を与えます。
@@ -217,8 +217,8 @@ ht-degree: 93%
 
 </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="preview">1 人のユーザーがタスクに割り当てられた時は、以下のスケジュールを使用する</span></p> </td> 
-   <td> <div class="preview">
+   <td role="rowheader"> <p>1 人のユーザーがタスクに割り当てられた時は、以下のスケジュールを使用する</p> </td> 
+   <td> 
 <p>プロジェクトにスケジュールが割り当てられていない場合や、タスクに割り当てられたユーザーにスケジュールが割り当てられていない場合、[!DNL Workfront] では、システムのデフォルトのスケジュールを使用して、タスクのタイムラインを計算します。</p>
 
 <p>プロジェクト内のタスクに 1 人のユーザーを割り当て、プロジェクトとそのタスクに割り当てられたユーザーの両方にスケジュールが関連付けられている場合、[!UICONTROL Workfront] では次のスケジュールが使用されます。</p> 
@@ -226,7 +226,7 @@ ht-degree: 93%
      <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] は、タスクに割り当てられたユーザーのスケジュールを使用してタイムラインを計算します。</li> 
      <li><strong>[!UICONTROL プロジェクト ]</strong>: [!DNL Workfront] は、プロジェクトのスケジュールを使用してタスクのタイムラインを計算します。</li> 
     </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p>
-</div></td> 
+</td> 
   </tr>
 
 <tr data-mc-conditions=""> 

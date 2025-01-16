@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1791'
-ht-degree: 69%
+source-wordcount: '1649'
+ht-degree: 70%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 69%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 タスクの期間は、タスクの予定完了日と予定開始日の差です。期間は、タスクを完了するために使用できる時間枠を示します。
 
@@ -41,17 +41,7 @@ ht-degree: 69%
 
 Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオがあります。
 
-* タスクが 1 人のユーザーに割り当てられている場合、使用する環境に応じて、次のようなシナリオが存在します。
-
-   * 実稼動環境では、Workfrontは、この順序で次のいずれかのスケジュールを使用して期間を計算します。
-
-   1. Workfront がユーザーのスケジュールを考慮します。
-   1. ユーザーがスケジュールに関連付けられていない場合、Workfront はプロジェクトのスケジュールを考慮します。
-   1. プロジェクトがスケジュールに関連付けられていない場合、Workfront はシステムのデフォルトスケジュールを考慮します。スケジュールについて詳しくは、[スケジュールの作成](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
-
-<div class="preview">
-
-* プレビュー環境で、以下を行います。
+* タスクが 1 人のユーザーに割り当てられている場合：
 
    1. Workfrontでは、プロジェクトのスケジュールまたはタスクに割り当てられたユーザーのスケジュールが考慮されます。
 
@@ -60,8 +50,6 @@ Adobe Workfrontで期間を計算する場合は、次の 2 つのシナリオ�
    1. ユーザーまたはプロジェクトにスケジュールがない場合、Workfrontはシステムのデフォルトのスケジュールを使用します。
 
       手順は、Workfront が期間の計算に使用するスケジュールを理解した後の最初のシナリオと同様です。
-
-</div>
 
 * タスクが複数のユーザーに割り当てられている場合：
 

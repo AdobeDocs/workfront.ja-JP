@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1493'
-ht-degree: 9%
+source-wordcount: '1433'
+ht-degree: 7%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 9%
 
 # Workfront オブジェクトからのレコード接続の管理
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
 Workfrontの次の領域に、Workfrontの計画レコードと、Adobe Workfront オブジェクトに接続されたそれぞれのレコードを表示できます。
 
 * Workfront オブジェクトの「プランニング」セクション：オブジェクトに接続されているすべてのレコードタイプと、接続されたそれぞれのレコードを表示します。
-* <span class="preview">Planning 接続のカスタム フィールド：1 つのレコード タイプとそれぞれの接続されたレコードが表示されます。</span>
+* Planning 接続のカスタム・フィールド：1 つのレコード・タイプとそれぞれの接続レコードが表示されます。
 
 ## アクセス要件
 
@@ -180,8 +180,6 @@ Workfrontでオブジェクトのページが開きます。
    * Workfront オブジェクトが、Workfront計画レコードの接続されたフィールドに追加されます。
    * 計画レコードに接続されたWorkfront参照フィールドの値は、Workfront Planning に入力されます。
 
-<div class="preview">
-
 ## Planning 接続フィールド タイプのレコードの管理
 
 Workfront オブジェクトに対して Planning 接続のカスタムフィールドを使用すると、1 つのレコードタイプと、Workfront オブジェクトに接続されたそれぞれのレコードを表示できます。
@@ -254,5 +252,3 @@ Workfront Planning で「レコードの詳細」タブが開きます。
 
 1. （オプション）Workfrontのカスタムフォームで、レコードの ![](assets/remove-icon.png) にある **削除** アイコンをクリックして、Planning 接続フィールドから削除し、Workfront オブジェクトから切断します。
 Workfront オブジェクトは計画レコードから切断され、Workfrontからのルックアップ情報はレコードから削除されます。
-
-</div>

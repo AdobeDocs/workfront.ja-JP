@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '3848'
+source-wordcount: '3824'
 ht-degree: 81%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 81%
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。この機能は、すべての顧客のプレビュー環境でのみ使用できます。</span>
 
 Adobe Workfront の作業アイテムに費やした時間を記録して、その作業アイテムに費やした時間を示すことができます。休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。記録した時刻がタイムシートに表示されます。
 
@@ -497,11 +495,8 @@ Workfront モバイルアプリで時間を記録できます。
    * 担当業務の割り当て。 担当業務の割り当ては、設定で有効にした場合にのみ変更できます。 詳しくは、[ タイムシートおよび時間環境設定の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) を参照してください。
    * 時間エントリの説明。
 
-<div class="preview">
 
-![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
+  ![](assets/edit-hour-box-project-hour-type.png)
 
 * 一般的な時間を編集する場合：
 
@@ -551,7 +546,7 @@ Workfront モバイルアプリで時間を記録できます。
    >
    >   選択した時間エントリに関連付けられている時間タイプによっては、すべてのフィールドを使用できるわけではありません。
 
-1. 「**保存 <span class="preview"> 変更</span>**」をクリックします。
+1. 「**変更を保存**」をクリックします。
 
    時間エントリ情報が更新されます。
 複数の時間エントリを選択し、[ 時間 ] フィールドを変更すると、選択したすべての時間エントリに同じ時間数が割り当てられます。 元の時間は、選択したすべての時間エントリの新しい値に置き換えられます。

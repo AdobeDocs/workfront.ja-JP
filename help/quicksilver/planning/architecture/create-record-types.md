@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1453'
-ht-degree: 64%
+source-wordcount: '1394'
+ht-degree: 65%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 64%
 
 # レコードタイプの作成
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -108,11 +108,11 @@ ht-degree: 64%
 
         詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
-      * <span class="preview">Excel または CSV ファイルを使用して読み込む場合。</span>
+      * Excel ファイルまたは CSV ファイルを使用して読み込む場合。
 
      >[!TIP]
      >
-     ><span class="preview"> レコードタイプを Excel または CSV ファイルから読み込む場合、レコードやフィールドも読み込まれる場合があります。</span>
+     >レコードタイプを Excel または CSV ファイルから読み込む場合、レコードとフィールドを読み込むこともできます。
 
    * 手動：
 
@@ -147,7 +147,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
 1. （任意）「**セクションを追加**」をクリックし、新規セクションをワークスペースに追加します。
-1. **レコードタイプを追加** をクリックし、<span class="preview">**新規**</span> をクリックします。
+1. **レコードタイプを追加** をクリックし、**新規** をクリックします。
 
    レコードタイプを追加ボックスが開きます。
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -207,8 +207,6 @@ Workfront Planning テンプレートを使用してワークスペースを作�
    * [レコードタイプの削除](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)
-
-<div class="preview">
 
 ## Excel または CSV ファイルをインポートしてレコードタイプを作成
 
@@ -278,6 +276,3 @@ Excel または CSV ファイルを使用してレコードタイプを読み込
    レコードタイプページのフィールドとレコードの管理を開始できます。
 
    読み込まれたレコードタイプとその情報をWorkfront Planning にアクセスできるユーザー全員が表示および編集できるようになりました。
-
-</div>
-

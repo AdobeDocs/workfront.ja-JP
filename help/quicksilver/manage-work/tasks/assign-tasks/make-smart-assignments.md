@@ -6,10 +6,10 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 65%
+source-wordcount: '396'
+ht-degree: 81%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 65%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview"> このページで強調表示されている情報は、高速リリースを有効にしたお客様向けの実稼動環境でのみ使用できる機能を指しています。</span>
+<span class="preview"> このページで強調表示されている情報は、プレビュー環境でのみ使用できる機能を示しています </span>。
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> この機能は、2025 年 1 月に 25.1 リリースで高速リリースを有効にしたお客様向けに実稼動環境から削除されます。 25.1 リリースについて詳しくは、[2025 年第 1 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md) を参照してください。
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 スマート割り当てを使用して、作業の完了に最適なユーザーを特定できます。
 
 スマート割り当ては、作業アイテムをリソースに割り当てる際に Adobe Workfront に表示される、ユーザー、役割またはチームに関する提案です。Workfront は、業務に最も適したリソースを決定するアルゴリズムに基づいて提案します。
 
-<span class="preview">Workfrontには、タスクとイシューに異なる機能を持つスマート割り当てを計算する 2 つのアルゴリズムがあります。</span>
+<!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
 スマート割り当ての決定に使用される基準について詳しくは、[スマート割り当ての概要](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 
@@ -75,24 +75,22 @@ ht-degree: 65%
    * タスクまたはイシューのリストやレポート
    * タスクまたはイシューのヘッダー
    * タスクまたはイシューの概要パネル
-   * <span class="preview"> 新規タスク </span> またはイシューをプロジェクトに追加する際の <span class="preview"> 新規タスク </span> または新規イシューボックス
    * ワークロードバランサーのタスクまたはイシュー
+     <!--* <span class="preview">A New Task</span> or New Issue box, as you add <span class="preview">a new task</span> or issue to a project-->
 
 1. 「割り当て」フィールドにカーソルを置き、2 秒間待ちます。
 
-   イシューの場合、スマート割り当ては次のセクションに表示されます。
+   <!--For issues, the smart assignments display in the following sections: 
+      * **Users and teams**
+      * **Job roles**
+        ![](assets/smart-assignments-issue-header.png)-->
 
-   * **ユーザーとチーム**
-   * **担当業務**
+   スマート割り当ては、次のセクションに表示されます <!--, depending on which phase of the algorithm's calculation identified the assignments-->
 
-   ![](assets/smart-assignments-issue-header.png)
+   <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
+   * **ユーザーとチーム**、**担当業務** または <span class="preview">**評価カードの担当業務**</span>:<!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   タスクについては、割り当てが特定されたアルゴリズムの計算のフェーズに応じて、スマート割り当てが次のセクションに表示されます。
-
-   * <span class="preview">**提案された割り当て**：タスクスマート割り当てアルゴリズムの最初のフェーズで識別された割り当てを表示します。</span>
-   * **ユーザーとチーム**、**担当業務** または <span class="preview">**評価カードの担当業務**</span>：タスクスマート割り当てのアルゴリズム計算の第 2 段階で特定された割り当て。
-
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    詳しくは、[スマート割り当ての概要](../../../manage-work/tasks/assign-tasks/smart-assignments.md)を参照してください。
 

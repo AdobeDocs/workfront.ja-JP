@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 23%
+source-wordcount: '709'
+ht-degree: 22%
 
 ---
 
 
 # レコードへのカバー画像の追加
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -148,7 +148,7 @@ ht-degree: 23%
 
    ![](assets/details-page.png)
 
-1. レコードのプレビューまたはページで、実稼動環境の **カバーを追加** をクリックするか、レコード名の上のスペースに <span class="preview"> カーソルを置いて </span> プレビュー環境の **カバーを追加** をクリックします。
+1. レコードのプレビューまたは詳細ページで、レコード名の上のスペースにマウスポインターを置いて、「**カバーを追加**」をクリックします。
 
    または
 
@@ -167,7 +167,7 @@ ht-degree: 23%
 
 1. **画像を使用** をクリックします。
 
-   画像はレコードのプレビューまたはページの上部にアップロードされ、変更は自動的に保存されます。
+   画像はレコードのプレビューページまたは詳細ページの上部にアップロードされ、変更は自動的に保存されます。
 
    ![](assets/record-page-with-cover-image.png)
 

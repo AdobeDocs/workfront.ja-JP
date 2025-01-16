@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '378'
 ht-degree: 38%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 38%
 
 # Adobe Workfront Planning オブジェクトの制限事項の概要
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -45,8 +45,8 @@ Workfront Planning で作成できるオブジェクトの数の制限を次の�
 | API リクエストを実行できるレート | 1 分あたり 200 件のリクエスト |
 | 1 人のユーザーが 1 つのレコードタイプで作成できるビューの数 | 100 |
 | レコードタイプを作成するために読み込むことができる Excel ファイルの CSV のサイズ | 5 MB |
-| <span class="preview">CSV または Excel ファイルに読み込んでレコードタイプを作成できる行数 </span> | 10,000 |
-| <span class="preview">CSV または Excel ファイルに読み込んでレコードタイプを作成できる列数 </span> | 500 |
+| レコードタイプを作成するために CSV または Excel ファイルに読み込むことができる行数 | 10,000 |
+| CSV または Excel ファイルに読み込んでレコードタイプを作成できる列数 | 500 |
 
 *管理が困難になり、ワークフローが断片化される可能性があるので、ワークスペースが多くなりすぎることはお勧めしません。
 

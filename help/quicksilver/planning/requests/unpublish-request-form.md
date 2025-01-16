@@ -5,22 +5,22 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 28%
+source-wordcount: '658'
+ht-degree: 27%
 
 ---
-
 
 # Adobe Workfront Planning でのリクエストフォームの非公開
 
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -157,4 +157,4 @@ ht-degree: 28%
 
    リクエストフォームを使用して以前に追加したレコードは、レコードタイプページに残ります。
 
-   <span class="preview"> 以前に追加されたリクエストは、Workfrontの「計画」タブの「リクエスト」領域に残ります。</span>
+   以前に追加されたリクエストは、Workfrontの「計画」タブの「リクエスト」領域に残ります。

@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 62%
+source-wordcount: '1425'
+ht-degree: 63%
 
 ---
 
 
 # レコードビューの管理
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 
 {{planning-important-intro}}
@@ -225,7 +225,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 | ビューからレコードのページを開く | ✓ | ✓ |    |
 | レコードを年および四半期別に表示 |           | ✓ |    |
 | 月別にレコードを表示 |           | ✓ | ✓ |
-| <span class="preview"> レコードを週別に表示 </span> |           |               | ✓ |
+| レコードを週別に表示 |           |               | ✓ |
 
 
 ## ビューを作成または編集 {#create-or-edit-views}

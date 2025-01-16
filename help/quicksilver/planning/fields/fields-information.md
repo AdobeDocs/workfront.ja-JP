@@ -1,15 +1,15 @@
 ---
-title: "フィールド：記事インデックス"
+title: フィールド：記事インデックス
 description: 組織のライフサイクルを反映する新しいフィールドを Adobe Workfront Planning に追加できます。フィールドは、レコードタイプの属性です。
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
 source-wordcount: '107'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -27,8 +27,8 @@ ht-degree: 85%
 以下の節の記事では、Workfront Planning フィールドを作成および設定する方法について説明します。
 
 * [フィールドの概要](/help/quicksilver/planning/fields/fields-overview.md)
-* [ フィールドの作成 ](/help/quicksilver/planning/fields/create-fields.md)
-  <span class="preview">[Adobe Workfrontからのフィールドのインポート ](/help/quicksilver/planning/fields/import-fields-from-workfront.md)</span>
+* [フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)
+* [Adobe Workfrontからのフィールドのインポート](/help/quicksilver/planning/fields/import-fields-from-workfront.md)
 * [フィールド設定を編集](/help/quicksilver/planning/fields/edit-fields.md)
 * [フィールドを削除](/help/quicksilver/planning/fields/delete-fields.md)
 * [数式フィールド](/help/quicksilver/planning/fields/formula-fields.md)
