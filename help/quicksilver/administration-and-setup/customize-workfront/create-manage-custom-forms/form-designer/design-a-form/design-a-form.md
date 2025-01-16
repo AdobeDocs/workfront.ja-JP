@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
+source-wordcount: '6474'
 ht-degree: 77%
 
 ---
 
 # カスタムフォームを作成
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 Adobe Workfrontのフォームデザイナーを使用してカスタムフォームをデザインできます。 カスタムフォームを様々な Workfront オブジェクトに添付して、これらのオブジェクトに関するデータを取り込むことができます。
 
@@ -847,8 +843,8 @@ The Workfront Mobile app -->
       <td><p>（必須）Workfront ネイティブフィールドを選択します。<p><p>使用できるのは、フォームのオブジェクト用のネイティブフィールドのみです。例えば、フォームデザイナーの上部にある「オブジェクトタイプ」リストに「プロジェクト」と表示されている場合は、プロジェクトのネイティブフィールドを選択できますが、タスクに固有のフィールドは選択できません。</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">フィルターの追加</span></td>
-      <td><span class="preview"><p>参照フィールドのフィルターを追加して、ユーザーがフィールドを使用するときに選択できる項目のリストを制限します。 </p> <p>例えば、以下の条件を満たすユーザー名のみを選択できるようにフィールドを制限することができます。</p> 
+      <td role="rowheader">フィルターの追加</td>
+      <td><p>参照フィールドのフィルターを追加して、ユーザーがフィールドを使用するときに選択できる項目のリストを制限します。 </p> <p>例えば、以下の条件を満たすユーザー名のみを選択できるようにフィールドを制限することができます。</p> 
        <ul>
         <li>自分が指定した 1 つ以上のグループに属している</li> 
         <li>自分が指定した役割または職位に関連付けられている</li> 
@@ -860,7 +856,7 @@ The Workfront Mobile app -->
         <li>このフィルターオプションは、Portfolio、会社、所有者など、ネイティブの先行入力フィールドを参照する場合にのみ使用できます。</li>
         <li>既存のカスタムフォームを編集する場合、ネイティブフィールドにフィルターを追加しても、ユーザーがフィールドを使用して既に追加した（フィルターの範囲外の）オブジェクトは削除されません。</li> 
         <li>このフィルターは、モバイルデバイスでは使用できません。ネイティブフィールドに対してフィルターを使用すると、フィルターの影響を受けないユーザーのモバイルデバイスにこのフィールドが表示されます。</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -936,8 +932,6 @@ Adobe XD ファイルを追加するには、以下のように行います。
    または
 
    「**保存して閉じる**」をクリックします。
-
-<div class="preview">
 
 ### Planning 接続フィールドの追加
 
@@ -1031,8 +1025,6 @@ Planning 接続フィールドを追加する手順は、次のとおりです�
    * Workfront オブジェクトからレコードを接続または切断します。
 
    詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください
-
-</div>
 
 ## フォームデザイナーを使用したフォームの整理とプレビュー
 

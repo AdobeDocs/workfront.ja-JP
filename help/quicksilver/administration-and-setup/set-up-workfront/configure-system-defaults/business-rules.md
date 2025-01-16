@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
+source-git-commit: 38541313ae1c2b330bf4bad994bee43ee6e84227
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 4%
@@ -16,8 +16,6 @@ ht-degree: 4%
 ---
 
 # ビジネスルールを作成および編集
-
-{{preview-fast-release-general}}
 
 ビジネス・ルールを使用すると、Workfrontオブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ビジネスルールは、データの整合性を損なう可能性のあるアクションを防ぐことで、データ品質と運用効率の向上に役立ちます。
 
@@ -137,9 +135,9 @@ IF(
    * オブジェクトとアクションは既に定義されているので、式には含めません。
    * カスタム・エラー・メッセージは、ビジネス・ルールをトリガーしたときに表示されます。 問題の原因と修正方法に関する明確な説明が必要です。
 
-     <span class="preview"> エラーメッセージに静的 URL を含めることができます。この URL は、ルールの制約内でのアクションを変更する方法をユーザーに示す、ドキュメントまたはその他の役に立つページへのリンクです。</span>
+     エラーメッセージに静的 URL を含めることができます。この URL は、ルールの制約内でのアクションを変更する方法をユーザーに示す、ドキュメントまたはその他の役に立つページへのリンクです。
 
-     <span class="preview"> この例では、「詳細情報」が URL にリンクします。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL はかっこで囲む必要がありますが、角括弧内のリンクテキストは必要ありません。 完全な URL を表示すると、クリック可能なリンクになります。</span>
+     この例では、「Learn more」が URL にリンクされます。 `"You are not allowed to add a new project in November.[Learn more](http://url)"` URL はかっこで囲む必要がありますが、角括弧内のリンクテキストは必要ありません。 完全な URL を表示でき、クリック可能なリンクになります。
 
    ![ ビジネス・ルールの追加ダイアログ ](assets/add-business-rule-dialog-no-ai-button.png)
 

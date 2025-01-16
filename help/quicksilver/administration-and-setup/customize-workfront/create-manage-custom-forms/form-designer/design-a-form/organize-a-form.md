@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 400ca2ac10a94ccfa79bef8daf06b924dadac230
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1329'
 ht-degree: 82%
 
 ---
 
 # フォームの整理とプレビュー
-
-{{preview-fast-release-general}}
 
 フォームデザイナーでカスタムフォームを整理し、プレビューして、正しく設定されていることを確認できます。
 
@@ -160,9 +158,8 @@ ht-degree: 82%
 
 1. （任意）カスタムフィールドまたはウィジェットを別のフィールドの上または下に配置するには、項目の間に青い水平線が表示されるまで、カスタムフィールドまたはウィジェットを上または下にドラッグします。
 
-1. カスタムフィールドをフォーム上の別のセクションに移動するには、カスタムフィールドをドラッグ&amp;ドロップするか、フィールドの <span class="preview"> 移動先 **移動** アイコンをクリックして、移動先のセクションを選択します。</span>
+1. カスタムフィールドをフォーム上の別のセクションに移動するには、カスタムフィールドをドラッグ&amp;ドロップするか、フィールドの **移動先** アイコンをクリックして、移動先のセクションを選択します。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![ フィールドをセクションに移動 ](assets/move-field-to-section.png)
 
 1. 変更を保存するには、「**適用**」をクリックします

@@ -7,16 +7,14 @@ description: Adobe Workfront を使用すると、作業アイテムに関係の
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '541'
-ht-degree: 46%
+source-wordcount: '535'
+ht-degree: 47%
 
 ---
 
 # 他のユーザーにダイレクトメッセージを送信
-
-{{preview-fast-release-general}}
 
 [!DNL Adobe Workfront] を使用すると、作業アイテムに関係のないメッセージを他の [!DNL Workfront] ユーザーに直接、迅速かつ簡単に送信できます。この節で説明するように送信されたメッセージは、ユーザーのプロファイルページの「[!UICONTROL  更新 ]」タブに表示され、すべてのユーザーに表示されます。 更新について詳しくは、[作業アイテムの更新および更新の表示：記事インデックス](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)を参照してください。
 
@@ -87,9 +85,7 @@ ht-degree: 46%
 1. メッセージを送信する 1 人または複数のユーザーを選択し、「[!UICONTROL **ユーザーに更新を送信**]」をクリックします。
 1. [!UICONTROL  ユーザーに更新を送信 ] ウィンドウにメッセージを入力します。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
-
-   <span class="preview">![ ユーザーに更新を送信ウィンドウのメッセージユーザー ](assets/send-message-to-user-dialog-from-user-list.png)</span>
+   ![ ユーザーに更新を送信ウィンドウのメッセージユーザー ](assets/send-message-to-user-dialog-from-user-list.png)
 
 1. （任意）メッセージ上でタグ付けしたい追加ユーザーを検索します。 ユーザーリストで既に選択しているユーザーにタグを付ける必要はありません。
 1. （オプション）「**[!UICONTROL 社外秘]**」を選択して、このメッセージを社内の他のユーザーにのみ表示します。

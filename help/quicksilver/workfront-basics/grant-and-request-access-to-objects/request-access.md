@@ -6,16 +6,14 @@ description: Adobe Workfront でのオブジェクトの表示は、そのタイ
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1398'
-ht-degree: 90%
+source-wordcount: '1380'
+ht-degree: 91%
 
 ---
 
 # オブジェクトへのアクセスをリクエスト
-
-{{preview-fast-release-general}}
 
 Adobe Workfront でのオブジェクトの表示は、そのタイプのオブジェクトに対するアクセス権と、個々のオブジェクトに対する権限によって異なります。
 
@@ -102,11 +100,7 @@ Workfront 内の特定のオブジェクトに権限が必要な場合は、そ�
 1. ドロップダウンリストから、リクエストするアクセスのタイプを選択します。
 1. （オプション）「**P.S.**」フィールドに、追加アクセスが必要な理由についてユーザーへのメモを指定します。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![ アクセスをリクエストダイアログボックス ](assets/request-access-to-project.png)
-
-   実稼動環境のサンプル画像：
-   ![](assets/request-access-dialog-350x314.png)
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -134,11 +128,8 @@ For example, if you do not have portfolio access, but you were given a link to a
 1. （オプション）「**P.S.**」フィールドで、追加のアクセス権が必要な理由に関するメモを指定します。
 1. 「**アクセスの要求**」をクリックします。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   プレビュー環境のサンプル画像：
    ![ アクセスをリクエストダイアログボックス ](assets/request-access-to-project.png)
-
-   実稼動環境のサンプル画像：
-   ![](assets/request-access-dialog-350x314.png)
 
 ## 「アクセスの要求」および「さらにアクセスを要求する」ドロップダウンメニューの階層 {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
-source-git-commit: 7b9989b73f7be46690073f323203ae2d9ca1a4b5
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1014'
 ht-degree: 91%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 91%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
-
-{{highlighted-preview}}
 
 Adobe Workfront 管理者は、キックスタートのデータエクスポーターを使用して Workfront からデータを書き出すことができます。書き出し後に他のアプリケーションで使用できます。
 
@@ -340,11 +338,7 @@ Workfront 内でデータを書き出すには、次の 2 つの方法があり�
 
    1 回の書き出しで最大 100 個のダッシュボードと 100 個のレポートを選択できます。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![Kickstart エクスポート ](assets/kickstart-export-spreadsheet-options.png)
-
-   実稼動環境のサンプル画像：
-   ![Kickstart エクスポート ](assets/kickstart-export-350x381.png)
 
    一度に複数のオブジェクトを書き出すことができます。
 
