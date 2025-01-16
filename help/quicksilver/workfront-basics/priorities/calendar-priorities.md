@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 18%
+source-wordcount: '517'
+ht-degree: 15%
 
 ---
 
 # 優先度カレンダーでの作業の管理
-
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 わかりやすい視覚的なカレンダーで、作業を簡単に追跡できます。 優先度カレンダーでは、次のことができます
 

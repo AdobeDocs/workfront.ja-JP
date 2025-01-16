@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 44%
@@ -60,8 +60,7 @@ Adobe Workfront の作業アイテムに費やした時間を記録して、そ�
 {{step1-to-priorities}}
 
 1. 名前の上にマウスポインターを置き、「**時間をログに記録**」をクリックします。
-   ![](assets/log-time.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. **時間タイプ** ドロップダウンメニューで、適切な時間タイプを選択します。 時間タイプは、「時間タイプと空き時間の定義」で説明されているように、システム、プロジェクトおよびユーザーレベルで定義されている内容に応じて使用できます。
 
 1. （条件付き）Workfrontまたはグループ管理者が「手動で担当業務を時間エントリに割り当てる」設定を有効にしている場合は、ドロップダウンメニューから担当業務を選択します。 作業アイテムに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。担当業務が割り当てられていない場合は、「プライマリの役割なし」が表示されます。

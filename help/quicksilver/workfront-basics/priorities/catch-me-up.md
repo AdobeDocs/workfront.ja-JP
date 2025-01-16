@@ -5,17 +5,15 @@ description: まとめ
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: ccdbc3402164bba66c08b8b97fdfdd2013ad884e
+exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 30%
+source-wordcount: '180'
+ht-degree: 22%
 
 ---
 
-
 # 優先度の作業の遅れを取り戻す
-
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 追いつく – Workfrontの AI アシスタントを活用して – では、プロジェクトに関するアップデート、アップロードされたドキュメント、その他の注目すべき変更点を 24 時間、3 日、7 日間の期間内にまとめます。これにより、アクティブなプロジェクトに関する情報を探す時間を短縮できます。
 

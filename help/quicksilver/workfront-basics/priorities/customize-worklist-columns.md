@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: abf502f2bbf48c0bd1cc5705d93d928342cd8a3b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 26%
+source-wordcount: '275'
+ht-degree: 20%
 
 ---
 
 # 優先度ワークリストの列のカスタマイズ
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 作業リストの列を優先度でカスタマイズして、作業の方法をサポートできます。
 
@@ -87,9 +85,7 @@ ht-degree: 26%
 1. **その他** アイコン ![](assets/more-icon.png) をクリックし、「**列の幅をリセット**」を選択します。
    ![](assets/columns.png)
 
-<div class="preview">
-
-## プレビューの優先度ワークリスト列のカスタマイズ
+## 優先度ワークリストの列のカスタマイズ
 
 ### 列を有効または無効にする
 
@@ -110,6 +106,3 @@ ht-degree: 26%
 >[!NOTE]
 >
 >名前列は固定されており、移動できません。
-
-
-</div>

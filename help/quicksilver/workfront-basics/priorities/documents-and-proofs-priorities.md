@@ -5,17 +5,15 @@ description: ドキュメント
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 38%
+source-wordcount: '498'
+ht-degree: 36%
 
 ---
 
-
 # ドキュメントのアップロードと優先度設定でのプルーフの作成
-
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 ドキュメントをアップロードし、優先度で配達確認を作成できます。
 
@@ -182,6 +180,3 @@ Add new version, open proof, edit, download, move, share, remove
 
 * 追加日
 * ファイル タイプ
-
-
-

@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '999'
 ht-degree: 7%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 7%
 
 ### フィルターを使用した作業の検索
 
-フィルターを使用して、最も重要な作業を見つけます。 <span class="preview"> 自然言語を使用して、スマートフィルターでの作業を検索できます </span>、
+フィルターを使用して、最も重要な作業を見つけます。 自然言語を使用して、スマートフィルターでの作業を検索できます。または、
 標準フィルターを使用して、自分に割り当てられたタスクとイシューを検索できます。
 
 <table>
@@ -112,10 +112,9 @@ ht-degree: 7%
 
 詳しくは、[ 重要な作業項目の優先順位の設定 ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### カレンダー表示の使用 [!BADGE  プレビューで使用可能 ]{type=Informative}
+### カレンダービューの使用
 
 カレンダー表示には、タスクとイシューが視覚的に表示されます。 日、週、または月のビューから選択できます。 また、ワークリストと同様の方法で項目をフィルタリングすることもできます。
 
@@ -141,8 +140,7 @@ ht-degree: 7%
 
 詳しくは、[ 優先度でのコメントの追加と表示 ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md) を参照してください。
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### 時間を記録
 
@@ -150,8 +148,7 @@ ht-degree: 7%
 
 詳しくは、「[ 優先度で時間を記録する ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md) を参照してください。
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### ファイルのアップロード
 
@@ -164,8 +161,7 @@ ht-degree: 7%
 
 詳しくは、[ 優先度でのファイルのアップロード ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) を参照してください。
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### クイックリンクの追加
@@ -176,13 +172,13 @@ ht-degree: 7%
 
 詳しくは、[ 優先度でクイックリンクを追加および管理 ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md) を参照してください。
 
-### ドキュメントの表示 [!BADGE  プレビューで使用可能 ]{type=Informative}
+### ドキュメントを表示
 
 「ドキュメント」タブでは、作業項目に関連するすべてのファイルを表示できます。 ドキュメントを名前、ファイルタイプまたはユーザーでフィルタリングしたり、名前で並べ替えたり、アップロード日で並べ替えたりできます。
 
 また、ドキュメントやプルーフを開くこともできます。
 
-### アセットのレビューと承認 [!BADGE  プレビューで使用可能 ]{type=Informative}
+### アセットのレビューと承認
 
 タスクまたは問題の「ドキュメント」タブから、次の操作を実行できます
 
@@ -190,7 +186,7 @@ ht-degree: 7%
 * プルーフビューアを起動してコメントを残し、決定を行う
 
 
-## [!DNL Catch me up] を使用して、見つからなかった [!BADGE  プレビューで使用可能 ] を確認します{type=Informative}
+## [!DNL Catch me up] を使用して、見逃したものを確認する
 
 [!DNL Catch me up] 機能を使用して、見逃した内容を確認します。 キャッチアップでは、24 時間、3 日、7 日以内に、プロジェクトに関する更新、アップロードされたドキュメント、承認、その他の注目すべき変更点をまとめます。
 
@@ -200,7 +196,7 @@ ht-degree: 7%
 
 <!--need new screen for prod-->
 
-## 詳細ページでリアルタイムの更新を表示 [!BADGE  プレビューで利用可能 ]{type=Informative}
+## 詳細ページでリアルタイムの更新を表示
 
 タスクまたはイシューの詳細ページでリアルタイムの更新を表示できます。 また、リアルタイムプレゼンス指標を使用して、自分と同時に他のユーザーがページを表示しているかどうかを確認することもできます。
 
