@@ -4,10 +4,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: タスクの割り当て変更の概要
 description: ユーザー、チームまたは担当業務にタスクを割り当てたり、タスクの割り当てを解除したりできます。複数のリソースを同時に割り当てることも、1 つのリソースのみを割り当てることもできます。一度に 1 つのタスクを割り当てることも、複数のタスクを一括して割り当てることもできます。
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: e774f2db-494d-4f93-8727-3c073e5f930b
-source-git-commit: daba001c28df268721c87df7d2516ffb76e535d9
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '875'
 ht-degree: 100%
