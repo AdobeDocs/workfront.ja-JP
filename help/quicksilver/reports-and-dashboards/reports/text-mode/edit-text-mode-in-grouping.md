@@ -1,23 +1,21 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: グループ化でテキストモードを編集
-description: 「メモ：すべての FVG 記事をテキストモードでの編集に関して同じにする）」
+title: テキストモードを使用したグループ化の編集
+description: メモ：テキストモードで編集する場合は、すべての FVG 記事を同じにします。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 99%
+source-wordcount: '1520'
+ht-degree: 94%
 
 ---
 
-# グループ化でテキストモードを編集
+# テキストモードを使用したグループ化の編集
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
--->
+<!-- Audited: 1/2025 -->
 
 テキストモードを使用して、リストまたはレポートのグループ化を編集すると、標準インターフェイスで使用できないフィールドにアクセスして、より複雑なグループを作成できます。
 
@@ -27,32 +25,45 @@ ht-degree: 99%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+以下が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポートのグループ化を編集するためのレポート、ダッシュボード、カレンダーへの編集アクセス権限</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>レポートのグループ化を編集するためのレポート、ダッシュボード、カレンダーへの編集アクセス権限</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートのグループ化を編集するためのレポートへの管理権限</p> <p>グループ化を編集するためのグループ化に対する管理権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートのグループ化を編集するためのレポートへの管理権限</p> <p>グループ化を編集するためのグループ化に対する管理権限</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -64,7 +75,7 @@ ht-degree: 99%
 * [テキストモード構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [カスタムビュー、フィルター、グループ化の例：記事インデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## グループ化でテキストモードを編集
+## テキストモードを使用したグループ化の編集
 
 テキストモードを使用したグループ化の編集は、レポートとリストで同じです。グループ化へのアクセスは、レポートから行うか、リストから行うかによって異なります。
 
@@ -83,7 +94,7 @@ ht-degree: 99%
 
       グループ化ビルダーが開きます。
 
-1. 「**グループ化を追加**」をクリックしてグループ化を追加し、ビルダーの右上隅にある「**テキストモードに切り替え**」をクリックします。
+1. **グループ化を追加** をクリックしてグループ化を追加し、ビルダーの右上隅にある **テキストモードに切り替える** をクリックしてから、**テキストモードを編集** をクリックします。
 
    >[!TIP]
    >

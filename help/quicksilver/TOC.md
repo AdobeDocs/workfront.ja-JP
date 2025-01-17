@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
 workflow-type: tm+mt
-source-wordcount: '14784'
+source-wordcount: '14788'
 ht-degree: 90%
 
 ---
@@ -319,6 +319,8 @@ ht-degree: 90%
             * [Adobe Workfront Proof 23.3 リリースアクティビティ：2023年5月8日（PT）の週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof リリースアクティビティ：2021年5月17日（PT）の週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof リリースアクティビティ：2021年11月29日（PT）の週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+      * インターフェイス最新化 {#interface-modernization}
+         * [インターフェイスの最新化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
       * 四半期別リリースアーカイブ {#quarterly-release}
          * [四半期別リリースアーカイブ](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * 20.4 リリース {#release-20-4}
@@ -1715,7 +1717,7 @@ ht-degree: 90%
          * [テキストモード構文の概要](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
          * [テキストモードを使用したビューの編集](reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
          * [テキストモードを使用したフィルターの編集](reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-         * [グループ化でテキストモードを編集](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+         * [テキストモードを使用したグループ化の編集](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
          * [テキストモードでの条件付き書式の使用](reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
          * [テキストモードのレポートで日付を書式設定する](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
          * [テキストモードのレポートでの数値、通貨、割合の値の形式設定](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)

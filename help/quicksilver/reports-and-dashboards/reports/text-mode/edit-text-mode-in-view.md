@@ -2,24 +2,20 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモードを使用したビューの編集
-description: 「メモ：この記事に節を追加します： /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** また、この領域にテキストモードの概要記事の下書きを作成します」
+description: メモ：この記事に次のセクションを追加します：/Content/Reports and Dashboard/Reports/Reporting Elements/create-customize-views.html ***また、この領域はテキストモードの概要記事のドラフトを設定します）
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 94%
+source-wordcount: '455'
+ht-degree: 83%
 
 ---
 
 # テキストモードを使用したビューの編集
 
-<!--Audited: 01/2024-->
-
-<!--
-<add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
--->
+<!-- Audited: 1/2025 -->
 
 テキストモードを使用してリストまたはレポートのビューを編集し、標準インターフェイスで使用できないフィールドにアクセスして、より複雑なビューを作成できます。
 
@@ -27,23 +23,31 @@ ht-degree: 94%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+以下が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準 </p>
-   <p>現在：プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>フィルター、ビュー、グループへのアクセスを編集</p> <p>ポート、ダッシュボード、カレンダーへの編集アクセスでレポートのレポート要素の編集</p> </td> 
   </tr> 
   <tr> 
@@ -53,8 +57,7 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
-アクセス要件について詳しくは、[Workfrontドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -70,7 +73,7 @@ ht-degree: 94%
 
 ## テキストモードでビューを編集
 
-テキストモードを使用したビューの編集は、レポートやリストの場合と同じです。レポートからのビューへのアクセスと、リストからのビューへのアクセスは異なります。
+テキスト モードを使用してビューを編集する方法は、レポートとリストで同じです。 レポートまたはリストからビューにアクセスする場合は異なります。
 
 >[!TIP]
 >

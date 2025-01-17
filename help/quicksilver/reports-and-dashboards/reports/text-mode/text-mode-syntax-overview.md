@@ -7,16 +7,16 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '1862'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
 # テキストモード構文の概要
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 テキストモードのインタフェースを使用すると、リストおよびレポート内で、より複雑なビュー、フィルター、グループ化、およびカスタマイズされたプロンプトを作成できます。テキストモードを使用すると、標準モードのインターフェイスでは使用できないフィールドとその属性にアクセスできます。
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 ## テキストモードの構文に関する考慮事項
 
 * テキストモードでレポート要素の作成を開始する前に、Adobe Workfront の構文を理解する必要があります。テキストモードの Workfront 構文は、このアプリケーションに固有のもので、その独特な特徴に慣れておく必要があります。
-* レポートでテキストモードを使い始める前に、弊社の上級レポートクラスを受講し、テキストモード言語への理解を深めることを強くお勧めします。<!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* レポートでテキストモードの使用を開始する前に、テキストモードの言語をより深く理解するために、高度なレポートに関するクラスを受講することを強くお勧めします。
 * 標準モードのインターフェイスを使用して、ビュー、フィルターおよびグループ化をカスタマイズできます。ただし、カスタムプロンプトを作成するには、テキストモードを使用する必要があります。
 
 ## テキストモードでのレポート要素の作成に関する一般的なガイドライン
@@ -44,13 +44,11 @@ ht-degree: 100%
 
   **例：** ポートフォリオ所有者の名前または GUID をタスクビューに表示できます。
 
-
   `valuefield=project:portfolio:ownerID`
 
   タスクビューでポートフォリオ所有者のグループ化、フィルタリング、プロンプトの表示を行うことはできません。
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   これらの例では、ポートフォリオ所有者 ID は、リストのオブジェクトから 3 つ離れたオブジェクトです。
 
@@ -90,7 +88,7 @@ Workfront フィールドまたはその属性をテキストモードで参照�
   テキストモードで作成する場合の、ビューとグループ化のコードの主要な行について詳しくは、次を参照してください。
 
    * [テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [グループ化でテキストモードを編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [テキストモードを使用したグループ化の編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * フィルターとカスタムプロンプトでは、コードと構文の行は似ています。
 

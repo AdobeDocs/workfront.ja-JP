@@ -6,14 +6,16 @@ description: Adobe Workfront では、レポートやリストに様々な形式
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
 # テキストモードのレポートで日付を書式設定する
+
+<!-- Audited: 1/2025 -->
 
 Adobe Workfront では、レポートやリストに様々な形式で表示されるように日付を設定できます。日付形式を設定するには、列のテキストモードコードの `valueformat` 行を変更する必要があります。
 
@@ -33,13 +35,7 @@ valuefield=plannedCompletionDate
 
 テキストモードを使用した Workfront レポートおよびリストでの条件付き書式の適用について詳しくは、[テキストモードでの条件付き書式の使用](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)を参照してください。
 
-次のように日付を書式設定できます。
-
-```
-valueformat
-```
-
-テキストモードの値：
+次の `valueformat` テキストモードの値を使用して、日付を書式設定できます。
 
 | **形式** | 例  | ***valueformat=*** |
 |---|---|---|

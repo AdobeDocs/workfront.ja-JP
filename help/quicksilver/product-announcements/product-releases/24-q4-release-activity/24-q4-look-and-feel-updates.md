@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1188'
 ht-degree: 14%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->すべてのお客様向けの実稼動リリース：24.10 リリース（2024 年 10 月 17 日（PT））から徐々に開始し、2024 年 11 月 8 日（PT）までに完全に使用可能になります
+>すべてのお客様向けの実稼動リリース：24.10 リリースから段階的に開始（2024 年 10 月 17 日（PT））
 
 Workfrontの他の領域のデザインと一致するようにレポートインターフェイスを更新しました。 これらの更新には、レポート機能に対する追加の変更が含まれています。
 

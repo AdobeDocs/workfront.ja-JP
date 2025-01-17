@@ -6,20 +6,16 @@ description: テキストモードを使用してリストまたはレポート�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 98%
+source-wordcount: '1042'
+ht-degree: 85%
 
 ---
 
 # テキストモードを使用したフィルターの編集
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 テキストモードを使用してリストまたはレポートのフィルターを編集し、標準インターフェースで使用できないフィールドにアクセスして、より複雑なフィルターを作成できます。
 
@@ -29,7 +25,7 @@ ht-degree: 98%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+以下が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +37,16 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-    <p>または</p>
-    <p>現在：プラン</p> </td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -56,7 +59,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -84,12 +87,20 @@ ht-degree: 98%
 
 1. 次のいずれかの操作を行います。
 
-   1. レポートからフィルターにアクセスするには、レポートに移動して、**レポートアクション**／**編集**／**フィルター**&#x200B;タブをクリックします。
-   1. リストからフィルターにアクセスするには、リストに移動し、**フィルター**&#x200B;メニューから、変更するフィルターの上にポインタを合わせて、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+   リストからフィルターにアクセスするには、リストに移動して **フィルター** アイコンをクリックし、変更する **フィルター** サイドパネルのフィルターにカーソルを合わせて **編集** アイコンをクリックします。![](assets/edit-icon.png) **フィルター** サイドパネルに選択したフィルターが表示されるか、従来のフィルタービルダーが開きます。
 
-      フィルタービルダーが開きます。
+   または
 
-1. 「**フィルター規則の追加**」をクリックしてフィルター条件を追加していき、ビルダーの右側にある「**テキストモード**」または「**テキストモードに切り替える**」をクリックします。
+   レポートからフィルターにアクセスするには、レポートに移動して、**レポートアクション**/**編集**/「**フィルター**」タブをクリックします。
+
+1. 次のいずれかの操作を行います。
+
+   リストの **フィルター** サイドパネルを使用している場合は、「**テキストモード**」をクリックします。
+
+   または
+
+   従来のフィルタービルダーまたはレポートを使用している場合は、「**フィルタールールを追加**」をクリックして、フィルターの条件の追加を開始します。 次に、ビルダーの右側にある **テキストモードに切り替える** 次に **テキストモードを編集** をクリックします。
+
 1. テキストモードを使用してフィルターステートメントを追加します。各フィルターステートメントには、次の行と追加情報を含めることができます。
 
    <table style="table-layout:auto"> 
@@ -175,7 +186,7 @@ ht-degree: 98%
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. 「**テキストモードを終了**」または「**完了**」をクリックしてテキストモードの変更を保存し、レポートまたはフィルターの編集を続行します。
+1. **適用** または **完了** をクリックして、テキストモードの変更を保存し、レポートまたはフィルターの編集を続行します。
 1. 「**保存して閉じる**」をクリックしてレポートを保存するか、「**フィルターを保存**」をクリックして、リストにフィルターを保存します。
 
 

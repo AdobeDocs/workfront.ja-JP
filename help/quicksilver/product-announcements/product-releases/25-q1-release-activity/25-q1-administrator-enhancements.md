@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 23%
+source-wordcount: '834'
+ht-degree: 20%
 
 ---
 
@@ -18,11 +18,25 @@ ht-degree: 23%
 
 2025年第 1 四半期リリースサイクルの現時点で利用可能なすべての変更のリストについて詳しくは、[2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)を参照してください。
 
+## ビジネスルールが追加オブジェクトでサポートされるようになりました
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 1 月 16 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースの場合（2025 年 1 月）
+>
+>_Ultimate プランに参加している組織のみが利用できます_。
+
+ビジネスルールを作成し、会社、反復、労力以外のリソースカテゴリ、担当業務、ユーザー、割り当て、リソースプール、休暇、ドキュメント、時間などの追加オブジェクトに検証を適用できるようになりました。
+
+次のオブジェクトは、すでにビジネス・ルールでサポートされています：プロジェクト、タスク、リクエスト、Portfolio、プログラム、費用、請求記録、グループ、リスク、レート・カード。
+
+詳細は、[ ビジネス・ルールの作成および編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
+
 ## 環境プロモーションのために環境間でオブジェクトを比較
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 1 月 6 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースの場合（2025 年 1 月）
+>プレビューリリース：2025 年 1 月 6 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースの場合（2025 年 1 月）
 
 環境プロモーションパッケージに含めるオブジェクトを簡単に決定できるように、環境間でオブジェクトを比較する機能を追加しました。 オブジェクトのタイプと環境を選択できるようになりました。 Workfrontは、そのタイプのオブジェクトのリスト、オブジェクトがターゲット環境に存在するかどうか、およびそのオブジェクトがソース環境とターゲット環境の間に違いがあるかどうかを生成します。 その後、このリストから直接パッケージにオブジェクトを追加できます。
 
@@ -34,7 +48,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 1 月 6 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースの場合（2025 年 1 月）
+>プレビューリリース：2025 年 1 月 6 日（PT）、すべてのお客様向けの実稼動リリース：25.1 リリースの場合（2025 年 1 月）
 
 環境プロモーション機能の機能を拡張するために、オブジェクトを追加しました。 これで、以下のオブジェクトを環境プロモーションパッケージに追加できます。
 
@@ -46,7 +60,7 @@ ht-degree: 23%
 
 環境のプロモーションに使用できるオブジェクトの詳細については、「環境のプロモーションの概要」の [ 環境のプロモーションでサポートされているオブジェクト ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) を参照してください。
 
-## 記録された時間がある場合にタスクを移動できない
+## 時間が記録されている場合にタスクを移動できないようにする
 
 >[!NOTE]
 >

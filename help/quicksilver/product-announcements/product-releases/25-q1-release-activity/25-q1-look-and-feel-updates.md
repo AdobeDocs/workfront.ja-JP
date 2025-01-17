@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 14%
@@ -28,7 +28,6 @@ ht-degree: 14%
 時間リストやレポートから時間を編集する際の、「時間を編集」ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
 
 詳しくは、[ 時間をログに記録 ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
-
 
 
 ## 設定領域のクラウドプロバイダーページのエクスペリエンスを更新しました

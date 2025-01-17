@@ -2,26 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: 「テキストモードのリソース：記事インデックス」
+title: テキストモードのリソース：記事インデックス
 description: テキストモードのリソース
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
-source-git-commit: dad054fe52bd7c5ca97144567c80e6d340541a50
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 100%
+ht-degree: 95%
 
 ---
 
 # テキストモードのリソース：記事インデックス
 
-<!-- Audited: 12/2023 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: This is the section article with links to all other articles in this section)</p>
--->
+<!-- Audited: 1/2025 -->
 
 次のドキュメントを使用して、Adobe Workfront のテキストモードインターフェイスの使用方法について学習します。テキストモードを使用して、Report Builder で許可されている以上のレポートをカスタマイズすることで、レポートの使用を拡張できます。
 
@@ -32,22 +28,14 @@ ht-degree: 100%
 * [テキストモードの構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [テキストモードを使用したビューの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
 * [テキストモードを使用したフィルターの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [グループ化でのテキストモードの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+* [ テキストモードを使用したグループ化の編集 ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 * [カスタムビュー、フィルタ、およびグループ化の例：記事インデックス](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this is linked here although from another section)
-  </MadCap:conditionalText>
-  -->
+  <!--  (NOTE: this is linked here although from another section)  -->
 
 * [レポート内の計算済みカスタムデータ](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: this is linked here although from another section)
-  </MadCap:conditionalText>
-  -->
+  <!--  (NOTE: this is linked here although from another section)  -->
 
 * [テキストモードでの条件付き形式の使用](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
 * [テキストモードのレポートの日付形式](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
@@ -56,4 +44,3 @@ ht-degree: 100%
 * [レポート内のコレクションの参照](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md)
 * [テキストモードフィルターでの「OR」ステートメントの作成](../../../reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
 * [EXISTS ステートメントを使用した複雑なテキストモードフィルターの作成](../../../reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-  <!--outdated link: * [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program)-->

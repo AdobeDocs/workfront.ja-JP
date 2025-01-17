@@ -6,7 +6,7 @@ description: グラフを追加すると、レポートの内容をより充実�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 72%
@@ -88,7 +88,7 @@ ht-degree: 72%
    >[!TIP]
    >
    >* レポートの結果がグループ化されている場合は、グラフをレポートに追加することのみ可能です。
-   >* グラフでは、テキストモードのグループ化はサポートされていません。テキストモードのグループ化の詳細情報については、[グループ化でのテキストモードの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)を参照してください。
+   >* グラフでは、テキストモードのグループ化はサポートされていません。テキストモードのグループ化について詳しくは、[ テキストモードを使用したグループ化の編集 ](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md) を参照してください。
    >* 1 つの指標を表す 1 つのグループ化を追加した場合は、円グラフを除くすべてのグラフでグループが同じ色で表示されます。
 
    グループ化の作成について詳しくは、[Adobe Workfront でのグループ化の作成](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md)を参照してください。

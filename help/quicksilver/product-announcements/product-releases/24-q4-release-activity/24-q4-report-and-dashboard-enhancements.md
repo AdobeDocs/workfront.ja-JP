@@ -4,10 +4,11 @@ description: 2024 年第 4 四半期のレポートとダッシュボードの�
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 1723609ce790566c072d071f9ac627dba7dc5350
+exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd
+source-git-commit: 1f33ef44b8e5d703c5407cdd2fc8ca24fba48bb1
 workflow-type: tm+mt
-source-wordcount: '230'
-ht-degree: 15%
+source-wordcount: '239'
+ht-degree: 14%
 
 ---
 
@@ -23,7 +24,7 @@ ht-degree: 15%
 >
 >すべてのお客様向けの実稼動リリース：24.10 リリースでは（2024 年 10 月 17 日（PT））
 >
->_新しいAdobe Workfront プランのいずれかに加入している組織のみが利用できます。 Data Connect は Ultimate プランに含まれているか、Prime プランおよび Select プランのアドオンとして購入できます。_
+>_新しいAdobe Workfront プランのいずれかに加入している組織のみが利用できます。 Data Connect はUltimate プランに含まれており、2025 年上半期にPrimeおよび Select プランへのアドオンとして購入できるようになります。_
 
 Workfront Data Connect は、いずれかの新しいWorkfront プランでお客様が利用できるようになります。 Data Connect を使用すると、組織は安全でスケーラブルなデータレイクとしてデータにアクセスできます。このデータレイクは、ビジネスインテリジェンスツールを使用して分析および視覚化したり、外部に保存したりできます。 さらに、組織は Data Connect を使用して、時間ベースのトレンド分析、変数マッピング、Workfront データと組み合わせた外部システムデータの分析など、以前は利用できなかったデータ分析を表示できます。
 
