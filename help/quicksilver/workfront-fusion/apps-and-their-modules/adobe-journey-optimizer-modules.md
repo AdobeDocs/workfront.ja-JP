@@ -101,7 +101,7 @@ Adobe Journey Optimizer コネクタでは、以下を使用します。
  <tbody> 
   <tr> 
    <td role="rowheader">ベース URL</td> 
-   <td>{{connection.url}}</td> 
+   <td>&lbrace;&lbrace;connection.url&rbrace;&rbrace;</td> 
   </tr>
   <tr> 
    <td role="rowheader">API タグ</td> 

@@ -89,7 +89,7 @@ ServiceNow コネクタでは、以下を使用します。
  <tbody> 
   <tr> 
    <td role="rowheader">ベース URL</td> 
-   <td>https://{{connection.instance}}/api</td> 
+   <td>https://&lbrace;&lbrace;connection.instance&rbrace;&rbrace;/api</td> 
   </tr>
   <tr> 
    <td role="rowheader">API タグ</td> 

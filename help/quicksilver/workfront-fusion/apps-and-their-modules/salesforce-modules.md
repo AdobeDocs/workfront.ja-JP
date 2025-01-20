@@ -99,7 +99,7 @@ Salesforce コネクタでは、以下を使用します。
  <tbody> 
   <tr> 
    <td role="rowheader">ベース URL</td> 
-   <td> {{connection.instanceUrl}}</td>
+   <td> &lbrace;&lbrace;connection.instanceUrl&rbrace;&rbrace;</td>
   </tr> 
   <tr> 
    <td role="rowheader">API バージョン</td> 

@@ -85,7 +85,7 @@ AWS S3 コネクタでは、以下を使用します。
  <tbody> 
   <tr> 
    <td role="rowheader">ベース URL</td> 
-   <td>https://s3。{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3。&lbrace;&lbrace;parameters.region&rbrace;&rbrace;.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API タグ</td> 
