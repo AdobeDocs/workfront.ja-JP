@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '2776'
-ht-degree: 30%
+source-wordcount: '2781'
+ht-degree: 31%
 
 ---
 
@@ -614,6 +614,7 @@ ht-degree: 30%
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             ホームとマイアップデート領域のメンションウィジェットのコメント機能が更新されました</a></p>
+            [!BADGE In production ]{type=Informative}
             <p>ホームのメンションウィジェットとマイアップデート領域のメンションセクションのコメント機能が更新されます。 現在は、ほとんどのWorkfront オブジェクトの「更新」領域にある同じエクスペリエンスが、メンションウィジェットと「マイアップデート」の「メンション」セクションでも利用できるようになりました。</p>
         </td>
         <td>

@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: テキストモードを使用したビューの編集
-description: メモ：この記事に次のセクションを追加します：/Content/Reports and Dashboard/Reports/Reporting Elements/create-customize-views.html ***また、この領域はテキストモードの概要記事のドラフトを設定します）
+description: テキストモードを使用してリストまたはレポートのビューを編集し、標準インターフェイスで使用できないフィールドにアクセスして、より複雑なビューを作成できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 83%
+source-wordcount: '459'
+ht-degree: 88%
 
 ---
 

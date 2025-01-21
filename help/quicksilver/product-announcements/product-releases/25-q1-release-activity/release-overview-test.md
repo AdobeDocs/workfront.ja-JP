@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 33b9faed6265b5e82bf768d4c8ae7f703420a7e5
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '878'
 ht-degree: 29%
@@ -42,11 +42,13 @@ ht-degree: 29%
 ### 管理者機能の強化
 
 <table>
-<col style="width: 55%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<tbody>
+  <colgroup>
+    <col style="width: 55%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+  </colgroup>
+  <tbody>
     <tr>
         <td>
             <p><span class="bold">機能</span></p>
@@ -63,7 +65,7 @@ ht-degree: 29%
             <p>1 人のユーザーをタスクに割り当て、プロジェクトとユーザーの両方がスケジュールに関連付けられている場合に、Workfrontがプロジェクトのスケジュールを使用してプロジェクトのタイムラインを計算するかどうかを示す新しい環境設定が追加されました。</p>
         </td>
         <td>2024 年 11 月 21 日（Pt）</td>
-        <td>2024年12月</td>
+        <td>2024 年 12 月</td>
         <td>25.1</td>
     </tr>     
     <tr>
@@ -87,20 +89,20 @@ ht-degree: 29%
         <td>25.12</td>
         <td>25.1</td>
     </tr>
-
-</tbody>
+  </tbody>
 </table>
 
 
 ### ドキュメント管理の機能強化
 
-
 <table>
-<col style="width: 55%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<col style="width: 15%;" />
-<tbody>
+  <colgroup>
+    <col style="width: 55%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+    <col style="width: 15%;" />
+  </colgroup>
+  <tbody>
     <tr>
         <td>
             <p><span class="bold">機能</span></p>
@@ -159,7 +161,7 @@ ht-degree: 29%
           <td><p>24.11</p><p> [!BADGE Available ]{type=Positive}</p></td>
         <td><p>25.1</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
-</tbody>
+  </tbody>
 </table>
 
 <!--

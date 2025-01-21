@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '2260'
+source-wordcount: '2246'
 ht-degree: 94%
 
 ---
@@ -372,7 +372,7 @@ ht-degree: 94%
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                         </ul>
-                    <p><i>この機能は、2024 年 12 月 19 日のプレビューおよび 25.1 の高速リリース実稼働（2025 年 1 月）から削除されます。</i></p>
+                    <p><i>この機能は、プレビューおよび迅速リリースの実稼働から削除されました。</i></p>
                     </td>
                  </tr>
                  <tr>
@@ -390,7 +390,7 @@ ht-degree: 94%
                                 <p>迅速リリースの実稼動環境：24.5 リリースの場合（2024 年 5 月 16 日（PT））</p>
                             </li>
                         </ul>
-                    <p><i>この機能は、2024 年 12 月 19 日のプレビューおよび 25.1 の高速リリース実稼働（2025 年 1 月）から削除されます。</i></p>
+                    <p><i>この機能は、プレビューおよび迅速リリースの実稼働から削除されました。</i></p>
                     </td>
                  </tr>
            </tbody>

@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1621'
 ht-degree: 98%
 
 ---
@@ -360,7 +360,7 @@ ht-degree: 98%
                                 <p>迅速リリース用の実稼動：24.3 リリース（2024年3月）に併せて</p>
                             </li>
                         </ul>
-                    <p><i>この機能は、2024 年 12 月 19 日のプレビューおよび 25.1 の高速リリース実稼働（2025 年 1 月）から削除されます。</i></p>
+                    <p><i>この機能は、プレビューおよび迅速リリースの実稼働から削除されました。</i></p>
                     </td>
                 </tr>
            </tbody>
