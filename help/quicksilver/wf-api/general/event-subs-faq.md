@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 97%
+source-wordcount: '973'
+ht-degree: 94%
 
 ---
 
@@ -78,7 +78,7 @@ Workfront サポートにお問い合わせください。サポートへの問�
 
 ## Workfront イベント登録では、様々な種類の認証を使用できますか？
 
-ベアラートークンを使用する任意の認証を使用できます。登録の **authToken** フィールドは、**URL** フィールドで指定された URL で認証するのに使用される OAuth2 ベアラートークンを表す文字列です。理論的には、このトークン値は、出力先のエンドポイントが&#x200B;**utf-8**&#x200B;というエンコーディングの処理方法を認識している限り、何でもかまいません。
+ベアラートークンを使用する任意の認証を使用できます。登録の **authToken** フィールドは、**URL** フィールドで指定された URL で認証するのに使用される OAuth2 ベアラートークンを表す文字列です。理論的には、宛先エンドポイントがエンコーディングの処理方法（**utf-8** を認識している限り、このトークン値は 255 文字未満であれば何でも構いません。
 
 ## Workfront イベント登録からイベントのペイロードを受け取るまで、どれくらいかかりますか？
 
