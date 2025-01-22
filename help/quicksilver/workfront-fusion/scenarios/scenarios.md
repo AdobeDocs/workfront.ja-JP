@@ -9,10 +9,10 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: dee1c75e134309a25ba6c739059048972696f2c1
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 54%
+source-wordcount: '198'
+ht-degree: 57%
 
 ---
 
@@ -53,7 +53,6 @@ ht-degree: 54%
 * [[!DNL Adobe Workfront Fusion] シナリオの例：メール、[!UICONTROL テキストパーサー]、 [!DNL Google Sheets] を接続](../../workfront-fusion/scenarios/example-connect-email-text-parser-gsheets.md)
 * [ [!DNL Adobe Workfront Fusion] でのシナリオバージョンの復元](../../workfront-fusion/scenarios/restore-a-scenario-version.md)
 * [ [!DNL Adobe Workfront Fusion] へのモジュールまたはシナリオのコピー](../../workfront-fusion/scenarios/copy-modules-or-scenarios.md)
-* [シナリオ内の新しいバージョンにモジュール  [!DNL Adobe Workfront Fusion]  更新](../../workfront-fusion/scenarios/update-module-to-new-version.md)
 * [ [!DNL Adobe Workfront Fusion] でのロックされたシナリオの表示と管理](../../workfront-fusion/scenarios/view-and-manage-locked-scenarios.md)
 * [Adobe Workfront Fusion でシナリオスコアリングエキスパートを実行します](/help/quicksilver/workfront-fusion/scenarios/run-scenario-scoring.md)
 * [cURL を使用した HTTP モジュールの追加](/help/quicksilver/workfront-fusion/scenarios/use-curl-create-http.md)
