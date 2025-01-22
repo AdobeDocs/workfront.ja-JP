@@ -6,10 +6,10 @@ description: 既に承認待ちのドキュメントに、追加の承認者ま�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
+source-git-commit: 5027807d93994b9ce9954be461b571379b36c960
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 57%
+source-wordcount: '610'
+ht-degree: 55%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 57%
 
 * ドキュメント承認決定ボタンは、プルーフビューアでは使用できません。 決定は、ドキュメントの概要、Workfrontのホームウィジェット、ドキュメントの詳細ページのいずれかで行います。
 * ドキュメント承認参加者は、「プルーフワークフロー」タブではなく、ドキュメントの概要に表示されます。
-* 新規ドキュメント承認は、現在のレポート ツールではサポートされていません。 新しいホームおよびキャンバスダッシュボードで使用できるすべての承認ウィジェットには、新しいドキュメントの承認に関する次の詳細が表示されます。
+* 新規ドキュメント承認は、現在のレポート ツールではサポートされていません。
+
+  新しいキャンバスダッシュボードベータ版を結合して [ レビューと承認用のレポートダッシュボードを作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) したり、新しいホームおよびキャンバスダッシュボードで使用できるすべての承認ウィジェットを使用して、新しいドキュメント承認に関する次の詳細を提供したりできます。
 
    * 決定による承認
    * 平均承認時間

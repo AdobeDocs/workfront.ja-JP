@@ -7,7 +7,7 @@ description: Experience Manager Assets または Assets Essentials にリンク�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 96830bad7480a99ca8f318dbd791ebcaceddd01e
+source-git-commit: 84760d5fe301bd0a44879490fb030bd29821bd41
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 90%
@@ -19,7 +19,6 @@ ht-degree: 90%
 Experience Manager Assets または Assets Essentials にリンクされたフォルダーを Workfront 内で作成できます。フォルダーはリンクされているので、フォルダーに追加されたアセットはすべて、Workfront と Experience Manger の両方に自動的に表示されます。リンクされたフォルダー内にアセットがある場合は、アセットを手動で送信する必要はありません。
 
 Experience Manager AssetsまたはAssets Essentials内のリンクされたフォルダーからアセットを削除または移動すると、Workfrontでは、プロジェクト/ドキュメント領域にそのアセットのコピーが保持されます。
-
 
 ## アクセス要件
 

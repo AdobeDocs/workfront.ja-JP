@@ -6,10 +6,10 @@ description: 自分の作業と  [!DNL Experience Manager Assets] のコンテ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
 workflow-type: tm+mt
-source-wordcount: '1697'
-ht-degree: 94%
+source-wordcount: '1708'
+ht-degree: 93%
 
 ---
 
@@ -254,6 +254,8 @@ Adobe Experience Manager 統合では、次のワークフローを使用でき�
 * [Adobe Experience Manager Assets に送信されたアセットの公開](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
 
 ### Adobe Experience Manager にリンクされたフォルダーの作成
+
+リンクされたフォルダーは、フォルダーツリーあたり最大 100 個まで作成できます。
 
 1. 「**[!UICONTROL リンクされたフォルダーを作成]**」を有効にします。
 1. 作成するリンクされたフォルダーの名前を入力します。
