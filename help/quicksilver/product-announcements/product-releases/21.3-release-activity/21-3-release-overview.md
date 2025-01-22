@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2309'
-ht-degree: 100%
+source-wordcount: '2310'
+ht-degree: 99%
 
 ---
 
@@ -249,7 +249,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境では 21.3 リリーススケジュール以外のサイクルで使用できます。最新の機能に関して詳しくは、[Adobe Workfront Fusion のリリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
+Workfront Fusion の新機能は、実稼動環境では 21.3 リリーススケジュール以外のサイクルで使用できます。最新の機能に関して詳しくは、[Adobe Workfront Fusion のリリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ## Workfront Proof の機能強化
 

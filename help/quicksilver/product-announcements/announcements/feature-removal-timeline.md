@@ -7,10 +7,10 @@ description: 様々な機能が Adobe Workfront 製品から段階的に廃止�
 author: Luke
 feature: Product Announcements
 exl-id: 119d65c7-2925-4b36-832a-ee06a718ce7e
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 99%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
    <td> <p>2020年11月9日（PT）に（20.4 リリースで）サポートを終了しました</p> <p>--</p> <p>2022 年上半期以降に Workfront プラットフォームから削除されました</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>レガシー Workfront Fusion</p> <p>Workfront Fusion で、レガシー Workfront Fusion のエクスペリエンスが向上します。</p> <p>Workfront Fusion について詳しくは、<a href="../../workfront-fusion/workfront-fusion-2.md" class="MCXref xref">Adobe Workfront Fusion</a> を参照してください。</p> </td> 
+   <td> <p>レガシー Workfront Fusion</p> <p>Workfront Fusion で、レガシー Workfront Fusion のエクスペリエンスが向上します。</p> <p>Workfront Fusion について詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a> を参照してください。</p> </td> 
    <td> </td> 
    <td>2021年3月31日（PT）に Workfront プラットフォームから削除されました。</td> 
   </tr> 

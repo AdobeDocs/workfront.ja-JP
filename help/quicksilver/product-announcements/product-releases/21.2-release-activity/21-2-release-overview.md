@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '5544'
-ht-degree: 100%
+source-wordcount: '5545'
+ht-degree: 99%
 
 ---
 
@@ -92,7 +92,7 @@ For specific release dates and times for each cluster, see the
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-admin-enhancements.md#for4" class="MCXref xref" xrefformat="{para}">グループ管理者向け：サブグループを移動するためのコントロールの改善およびツールバーの更新</a> </p> <p>設定の「サブグループ」エリアで、次の改善を行いました。</p> 
     <ul> 
-     <li> <p>管理するグループを簡単に整理するために、「サブグループを追加」ツールバーボタンを追加し、新しいサブグループの作成や既存のサブグループの移動ができるようになりました。</p> </li> 
+     <li> <p>管理するグループを簡単に整理するために、「サブグループを追加」ツールバーボタンが追加され、新しいサブグループを作成して既存のサブグループを移動できるようになりました。</p> </li> 
      <li> <p>「サブグループ」エリアのツールバーのリストが、新しい Workfront エクスペリエンスの他の最新化されたリストと統一されました。グループを選択すると、ツールバーで使用可能な機能がアイコンで表されます。</p> </li> 
     </ul> </td> 
    <td><strong>公開日：</strong> <p>ベータプレビューリリース：2021年4月22日（PT）<br></p> <p>実稼動版リリース：21.2 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
@@ -203,7 +203,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2021年4月1日（PT）<br></p> <p>実稼動版リリース：2021年4月15日（PT）</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">ユーザーがログに記録された時間のタスクとイシューを削除できる設定に更新</a> </p> <p>すべてのオブジェクトにまたがって統一されたエクスペリエンスを提供するために、Workfront での「ユーザーに対して、時間が記録されたタスクとイシューの削除を許可する」設定の動作方法を変更しました。現在は、Workfront 管理者またはグループ管理者がタスクおよびイシュー設定を無効にした場合、ログに記録された時間に関するタスクやイシューを含むプロジェクトを削除できなくなりました。 </p> <p>この変更以前は、設定を無効にすると、ユーザーは、プロジェクトではなく、タスクやイシューを削除できなくなっていました。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">ユーザーがログに記録された時間のタスクとイシューを削除できる設定に更新</a> </p> <p>すべてのオブジェクトにわたって一体感のあるエクスペリエンスを提供するために、Workfront での「ユーザーにログ時間のあるタスクと問題の削除を許可する」設定の動作方法を変更しました。現在は、Workfront 管理者またはグループ管理者がタスクおよびイシュー設定を無効にした場合、ログに記録された時間に関するタスクやイシューを含むプロジェクトを削除できなくなりました。 </p> <p>この変更以前は、設定を無効にすると、ユーザーは、プロジェクトではなく、タスクやイシューを削除できなくなっていました。</p> </td> 
    <td><strong>公開日：</strong> <p>ベータ版プレビューリリース：2021年4月1日（PT）<br></p> <p>実稼動版リリース：21.2 リリースを使用</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
  </tbody> 
@@ -442,7 +442,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、21.2 リリーススケジュール以外のタイミングで実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
+Workfront Fusion の新機能は、21.2 リリーススケジュール以外のタイミングで実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ## API バージョン 13
 

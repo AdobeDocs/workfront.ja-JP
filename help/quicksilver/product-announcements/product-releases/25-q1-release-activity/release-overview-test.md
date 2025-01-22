@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '879'
 ht-degree: 29%
 
 ---
@@ -172,7 +172,7 @@ The following functionality is soon to be removed from Workfront:
 
 ## その他の領域のリリースノート
 
-* [Adobe Workfront Fusion リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+* [Adobe Workfront Fusion リリースアクティビティ ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfrontの 2025 年第 1 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)。
 
 このリリースの現時点では、次の更新はありません。

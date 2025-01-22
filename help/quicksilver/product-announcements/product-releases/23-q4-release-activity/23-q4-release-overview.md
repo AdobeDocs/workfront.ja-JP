@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2772'
-ht-degree: 100%
+source-wordcount: '2773'
+ht-degree: 99%
 
 ---
 
@@ -741,7 +741,7 @@ These enhancements will be included in the following releases:
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、2023 年第 4 四半期のリリーススケジュールから外れたタイミングで、実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion のリリースアクティビティ](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
+Workfront Fusion の新機能は、2023 年第 4 四半期のリリーススケジュールから外れたタイミングで、実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion のリリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 

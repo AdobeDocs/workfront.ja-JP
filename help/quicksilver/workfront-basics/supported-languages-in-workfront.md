@@ -6,9 +6,9 @@ description: ブラウザーの言語設定と Workfront 内のデフォルト�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 72%
 
 ---
@@ -91,7 +91,7 @@ Workfront Proof でサポートされる言語について詳しくは、[Workfr
 * Workfront Fusion では、ユーザー入力フィールドで英語以外のテキスト文字の使用はサポートされていません。
 
 Workfront Fusion にアクセスするには、会社が Workfront Fusion ライセンスを購入している必要があります。\
-Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](../workfront-fusion/get-started/workfront-fusion-overview.md)を参照してください。
+Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 ## 言語を変更
 

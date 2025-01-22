@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3220'
-ht-degree: 100%
+source-wordcount: '3221'
+ht-degree: 99%
 
 ---
 
@@ -498,7 +498,7 @@ Campaigns は、2022年7月に 22.3 リリースでプレビューベータ版�
 
 ## Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境では 22.3 リリーススケジュール以外のサイクルで利用できます。最新機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
+Workfront Fusion の新機能は、実稼動環境では 22.3 リリーススケジュール以外のサイクルで利用できます。最新機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ## Workfront Scenario Planner の機能強化
 

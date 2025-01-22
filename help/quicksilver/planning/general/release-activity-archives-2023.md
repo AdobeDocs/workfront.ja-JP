@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2985'
 ht-degree: 92%
 
 ---
@@ -89,7 +89,7 @@ Planning 機能レコードのコメントエクスペリエンスは、Workfron
 >
 >Adobe Workfront Planning 機能との接続を構築するには、Adobe Workfront Fusion を購入する必要があります。
 >
->詳しくは、[Adobe Workfront Fusion の概要](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md)を参照してください。
+>詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 Adobe Workfront Fusion を使用して Planning 機能に接続できます。新しい Fusion 接続を使用すると、次のことが可能です。
 
@@ -105,7 +105,7 @@ Adobe Workfront Fusion を使用して Planning 機能に接続できます。�
 
 * Planning 機能に変更が加えられたときにシナリオをトリガー
 
-詳しくは、[Adobe Workfront Planning モジュール ](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md) を参照してください。
+詳しくは、[Adobe Workfront Planning モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) を参照してください。
 
 ## 2023年12月11日（PT）の週
 

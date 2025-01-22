@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '20930'
+source-wordcount: '20931'
 ht-degree: 94%
 
 ---
@@ -2044,7 +2044,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario]（[!DNL Workfront Fusion] の場合） </td> 
-   <td> <p>シナリオは、アプリまたはサービス間でデータを転送および変換する方法を示す一連の手順（モジュール）で構成されます。</p> <p>[!DNL Workfront Fusion] のシナリオについては、<a href="../../../workfront-fusion/scenarios/scenario-overview.md" class="MCXref xref">[!DNL Adobe Workfront Fusion] シナリオの概要</a>を参照してください。</p> </td> 
+   <td> <p>シナリオは、アプリまたはサービス間でデータを転送および変換する方法を示す一連の手順（モジュール）で構成されます。</p> <p>[!DNL Workfront Fusion] のシナリオについては、<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] シナリオの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario]（[!DNL Workfront Scenario Planner]の場合） </td> 

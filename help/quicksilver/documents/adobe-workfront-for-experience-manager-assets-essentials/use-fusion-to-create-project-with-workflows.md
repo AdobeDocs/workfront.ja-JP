@@ -6,9 +6,9 @@ description: Workfront Fusion でプロジェクトを作成していて、そ�
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 18%
 
 ---
@@ -53,7 +53,7 @@ Workfront Fusion でプロジェクトを作成していて、そのプロジェ
      <p>新規：</p>
      <ul>
        <li>
-         <p>Workfront プランを選択または購入：Adobe Workfront Fusion は、お客様の組織で購入する必要があります。</p>
+         <p>Prime Workfront プランを選択する：組織がAdobe Workfront Fusion を購入する必要があります。</p>
        </li>
        <li> 
          <p>Ultimate Workfront プラン：Workfront Fusion が含まれています。</p>
@@ -93,7 +93,7 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 1. **Workfront** / **その他のアクション** モジュールをシナリオに追加します。
 1. **Connection** フィールドで、このモジュールが使用するアカウントに接続するWorkfront接続を選択します。
 
-   接続の作成方法については、「Workfront モジュール」の [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) を参照してください。
+   接続の作成方法については、「Workfront モジュール」の [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) を参照してください。
 
    クライアント ID およびクライアントシークレットの作成方法については、この記事の [OAuth アプリケーションの作成 ](#create-an-oauth-application) を参照してください。
 
@@ -175,4 +175,4 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 
 このクライアント ID とクライアントシークレットは、Fusion でモジュールの接続を設定する際に使用します。
 
-接続の作成方法については、「Workfront モジュール」の [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) を参照してください。
+接続の作成方法については、「Workfront モジュール」の [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) を参照してください。

@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '4757'
-ht-degree: 100%
+source-wordcount: '4758'
+ht-degree: 99%
 
 ---
 
@@ -84,7 +84,7 @@ For specific release dates and times for each cluster, see the
    <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月8日（PT）<br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#interfac" class="MCXref xref" xrefformat="{para}">会社エリアのインターフェイステキストの改善</a> </p> <p>設定の会社エリアに新しい確認メッセージと若干の文言の変更が適用されたことで、会社のメンバーシップを管理しやすくなりました。例えば、左側のパネルのセクション名「ユーザー」は「会社メンバー」になりました。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#interfac" class="MCXref xref" xrefformat="{para}">会社エリアのインターフェイステキストの改善</a> </p> <p>設定の会社エリアに新しい確認メッセージと若干の文言の変更が適用されたことで、会社のメンバーシップを管理しやすくなりました。例えば、左側のパネルのセクション名「ユーザー」は、「会社のメンバー」になりました。</p> </td> 
    <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月8日（PT）<br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -365,7 +365,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境では 22.1 リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
+Workfront Fusion の新機能は、実稼動環境では 22.1 リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ## Workfront シナリオプランナーの機能強化
 

@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: e490a955-b2cb-4b9b-9794-12ff2a2c2338
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3973'
-ht-degree: 100%
+source-wordcount: '3974'
+ht-degree: 99%
 
 ---
 
@@ -115,7 +115,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">新しいデフォルトのアクセスレベル設定</a> </p> <p>アクセスレベルを作成するほとんどの管理者のニーズに合わせて、「編集」ボタンのギアアイコンをクリックしたときに表示される「設定を微調整」オプションのデフォルト設定を変更しました。</p> <p>オプションは、以前はデフォルトで有効になっていましたが、現在は無効になっています。組織のニーズに合わない場合は、新しいアクセスレベルの設定時に有効にしたり、後でいつでも有効にしたりできます。</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/22.2-release-activity/22-2-admin-enhancements.md#new" class="MCXref xref" xrefformat="{para}">新しいデフォルトのアクセスレベル設定</a> </p> <p>アクセスレベルを作成するほとんどの管理者のニーズにより適切に対応するために、アドビでは、編集ボタンの歯車アイコンをクリックすると表示される「設定を微調整」オプションの一部に対するデフォルト設定を変更しました。</p> <p>オプションは、以前はデフォルトで有効になっていましたが、現在は無効になっています。組織のニーズに合わない場合は、新しいアクセスレベルの設定時に有効にしたり、後でいつでも有効にしたりできます。</p> </td> 
    <td> <p><b>公開日：</b> </p> 
     <ul> 
      <li> <p>プレビューリリース：2022年1月27日（PT）<br></p> </li> 
@@ -584,7 +584,7 @@ the week of April 4, 2022, unless otherwise specified. For specific release date
 
 ## Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境では 22.2 リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)を参照してください。
+Workfront Fusion の新機能は、実稼動環境では 22.2 リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ## Workfront シナリオプランナーの機能強化
 
