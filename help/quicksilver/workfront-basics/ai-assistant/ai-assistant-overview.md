@@ -5,9 +5,9 @@ description: AI アシスタントの概要
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '701'
 ht-degree: 7%
 
 ---
@@ -66,6 +66,8 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 * Workfront Planning AI Assistant には、Workfront AI Assistant とは異なる機能があります。
 
   Adobe Workfront計画の AI アシスタントについて詳しくは、[Workfront計画 AI アシスタントの概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) を参照してください。
+
+* AI アシスタントは現在、英語でのみ利用できます。
 
 
 ## AI アシスタントで使用可能な機能
