@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 98%
+source-wordcount: '405'
+ht-degree: 94%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Workfront 管理者の管理上の責任と手順は、組織が Adobe Bus
 >
 >システム管理者以外のユーザーは、直接 Workfront に追加することをお勧めします。Adobe Admin Console でユーザーを追加することもできますが、Workfront にユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
-Workfront システム管理者の作成手順については、[Adobe Admin Console でのシステム管理者の管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
+Workfront システム管理者の作成方法については、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 
 <!--
 <table style="table-layout:auto"> 

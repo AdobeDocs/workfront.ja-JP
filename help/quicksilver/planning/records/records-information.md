@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 77%
+source-wordcount: '128'
+ht-degree: 74%
 
 ---
 
@@ -27,6 +27,7 @@ Adobe Workfront Planning でレコードタイプを作成した後、それら�
 次の記事では、Adobe Workfront Planning でレコードとその情報を作成および管理する方法について説明します。
 
 * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
+* [Workfront Planning からのWorkfrontオブジェクトの作成](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [レコードの編集](/help/quicksilver/planning/records/edit-records.md)
 * [レコードの削除](/help/quicksilver/planning/records/delete-records.md)
 * [削除されたレコードを復元](/help/quicksilver/planning/records/restore-deleted-records.md)

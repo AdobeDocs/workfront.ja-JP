@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 94%
+source-wordcount: '1550'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 >
 >このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でこのアクションを実行してください。
 >
->Adobe Admin Console で完全な管理者アクセスを付与する手順について詳しくは、[Adobe Admin Console でシステム管理者を管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
+>Adobe Admin Consoleで完全な管理者アクセス権を付与する手順については、[Adobe Admin Consoleでのユーザーの管理 ](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 >
 >組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 

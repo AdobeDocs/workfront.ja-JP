@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 502425862ef244449d41d6b6597996005ac859aa
+source-git-commit: 7301371fec85938b79960500769d997b5edb8b63
 workflow-type: tm+mt
-source-wordcount: '12977'
+source-wordcount: '12983'
 ht-degree: 90%
 
 ---
@@ -2054,7 +2054,8 @@ ht-degree: 90%
       * [レコードへのカバー画像の追加](planning/records/add-a-cover-image-to-a-record.md)
       * [レコードページレイアウトの管理](planning/records/manage-the-record-page.md)
       * [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](planning/records/manage-records-in-planning-section.md)
-      * [レコードの詳細のエクスポート](/help/quicksilver/planning/records/export-the-record-page.md)
+      * [レコードの詳細のエクスポート](planning/records/export-the-record-page.md)
+      * [Workfront Planning からのWorkfrontオブジェクトの作成](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Workfrontの計画レコードの自動作成を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront計画リクエスト {#adobe-workfront-planning-requests}
       * [Adobe Workfront Planning リクエスト：記事索引](planning/requests/requests-article-index.md)

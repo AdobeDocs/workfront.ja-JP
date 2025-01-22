@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 95%
+source-wordcount: '1128'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 95%
 >
 >組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でシステム管理者を作成する必要があります。
 >
->Adobe Admin Console でシステム管理者を作成する手順について詳しくは、[Adobe Admin Console でのシステム管理者の管理](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md)を参照してください。
+>Adobe Admin Consoleでシステム管理者を作成する手順については、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 >
 >Adobe Admin Console にオンボーディングされた組織のグループ管理者は、この手順を使用してユーザーを作成し、そのユーザーの承認依頼を管理者に送信できます。
 >

@@ -6,20 +6,22 @@ description: プロジェクトは、Adobe Workfront における作業の大き
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1299'
-ht-degree: 89%
+source-wordcount: '1382'
+ht-degree: 86%
 
 ---
 
 # プロジェクトを作成
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
--->
+<!--remove Preview and Production references-->
 
 <!-- Audited: 12/2023 -->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 プロジェクトは、Adobe Workfront で行う必要がある大量の作業を表します。
 
@@ -117,17 +119,17 @@ Workfront でプロジェクトを作成するには、次のような方法が�
   シナリオプランナーには、次のいずれかが必要です。
 
    * 現在のWorkfront ライセンス構造の追加ライセンス。
-   * 新しいWorkfront ライセンス構造の Ultimate ライセンス。
+   * 新しいUltimate ライセンス構造のWorkfront ライセンス。
 
   Workfront シナリオプランナについては、[シナリオプランナの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。公開したイニシアチブからプロジェクトを作成する方法について詳しくは、[シナリオプランナでイニシアチブを公開してプロジェクトを更新または作成する](../../../scenario-planner/publish-scenarios-update-projects.md)を参照してください。
 
-* Workfront Planning のレコードタイプからプロジェクトを接続するときに追加します。 Workfront Planning から作成できるのは、テンプレートのないプロジェクトのみです。
+* Workfront Planning のレコードタイプからプロジェクトを接続するときに追加します。 実稼動環境では、Workfront Planning からテンプレートを持たないプロジェクトのみを作成できます。 <span class="preview"> プレビュー環境のテンプレートを使用してプロジェクトを作成できます。</span>
 
   Workfront Planning 用に新しいWorkfront ライセンスと追加のWorkfront Planning ライセンスが必要です。
 
   Workfront Planning へのアクセスについて詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-  レコードにプロジェクトを追加して作成する方法については、「レコードの作成 [ の「レコードの接続時にレコードを作成する」を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
+  レコードにプロジェクトを追加して作成する方法については、「Workfront Planning からWorkfront オブジェクトを作成する」の「Workfront Planning のレコードにプロジェクトを関連付ける場合のプロジェクトの作成 [ を参照してください ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## 前提条件
 

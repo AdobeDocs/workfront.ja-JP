@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2912'
 ht-degree: 46%
 
 ---
@@ -228,7 +228,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    **キャンペーン**&#x200B;にリンクされたレコードフィールドには、製品レコードタイプのページで製品にリンクしたキャンペーンの名前が表示されます。キャンペーン情報を更新すると、製品レコードタイプのキャンペーンにリンクされたレコードフィールドが自動的に更新されます。
 
-### テーブル表示またはレコードページの「詳細」タブから、Adobe Workfrontの計画レコードをWorkfront オブジェクトに接続します
+### レコードのテーブルビューまたは詳細ページからAdobe Workfront Planning レコードをWorkfront オブジェクトに接続
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -264,7 +264,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 1. （オプション）接続するオブジェクトが見つからず、追加する場合は、「**+追加」をクリックして** 新しいプロジェクトまたはポートフォリオを作成して追加します。
 
-   プロジェクトを計画レコードに接続する際に追加できるのは、テンプレートまたはポートフォリオを持たないプロジェクトのみです。 新しいプログラム、グループ、会社を追加することはできません。
+   詳しくは、[Workfront計画からのWorkfront オブジェクトの作成 ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
 
 1. （オプション）「**すべて表示**」をクリックすると、少なくとも表示権限を持つすべてのオブジェクトが表示されます。
 

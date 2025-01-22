@@ -1,5 +1,5 @@
 ---
-title: "ユーザーの作成と管理：記事インデックス"
+title: ユーザーの作成と管理：記事インデックス
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '104'
+source-wordcount: '103'
 ht-degree: 94%
 
 ---
@@ -38,4 +38,4 @@ ht-degree: 94%
 * [監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [監査ログを表示および書き出し](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [ユーザーログイン情報を表示](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-* [Adobe Admin Console でのシステム管理者の管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Adobe Admin Console でのユーザー管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
