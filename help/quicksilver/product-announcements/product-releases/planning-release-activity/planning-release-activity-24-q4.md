@@ -7,36 +7,22 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '380'
 ht-degree: 16%
 
 ---
 
 # Adobe Workfront Planning の 2024 年第 4 四半期リリースアクティビティ
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->この記事の情報は、Adobe Workfront からの新しいオファーである Adobe Workfront Planning を説明するものです。
->
->Workfront Planning 機能にアクセスして使用するには、Workfront プランに加えて、Workfront Planning プランを購入する必要があります。
->
->Workfront Planning へのアクセス要件の完全なリストについては、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
->Workfront計画の概要については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
->
-
 この記事では、2024 年第 4 四半期リリースでWorkfront Planning にリリースされる機能について説明します。
 
 このリリースに含まれる機能について詳しくは、[2024 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
 
-
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after fourth quarter 2024 is released-->
 
-2024 年 8 月 28 日（PT）の一般リリース後にAdobe Workfront Planning でリリースされたすべての機能のリストについては、[Adobe Workfront Planning リリースアクティビティ：記事索引 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
 ## 接続されたレコードの表示オプション
 

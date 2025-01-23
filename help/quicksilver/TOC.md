@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 7301371fec85938b79960500769d997b5edb8b63
+source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
 workflow-type: tm+mt
-source-wordcount: '12983'
+source-wordcount: '13008'
 ht-degree: 90%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 90%
       * [製品リリースの概要](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront のリリーススケジュールとプロセス](product-announcements/product-releases/workfront-release-schedule.md)
       * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
+      * 2025年第 2 四半期リリース{#release-25-q2}
+         * [2025 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
+         * [2025 年第 2 四半期のリリース期間中のその他の機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
       * 2025年第 1 四半期リリース{#release-25-q1}
          * [2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025年第 1 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
@@ -187,6 +190,7 @@ ht-degree: 90%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront計画リリースアクティビティ {#planning-release-activity}
          * [Adobe Workfront Planning リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront Planning の 2025 年第 2 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Adobe Workfront Planning の 2025 年第 1 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning の 2024 年第 4 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
       * Adobe Workfront シナリオプランナーのリリースアクティビティ {#scenario-planner-release}
