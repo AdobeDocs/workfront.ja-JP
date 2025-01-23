@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '2802'
-ht-degree: 70%
+source-wordcount: '2879'
+ht-degree: 68%
 
 ---
 
 # テーブルビューの管理
+
+<span class="preview"> このページでハイライト表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -397,13 +401,22 @@ OLD:
 1. （オプション）「**条件を追加**」をクリックして、別のフィルタリングオプションを追加し、上記の手順を繰り返します。適用されたフィルターの数が、フィルターアイコンの左側に表示されます。
 1. 次の演算子をクリックして、フィルター条件の結合方法と適用方法を指定します。
 
-   * **AND**：指定したすべての条件を満たす必要があります。
-   * **OR**：指定した条件のいずれかを満たす必要があります。これはデフォルトのオプションです。
+   * **AND**：指定されたすべての条件が満たされている必要があります。
+   * **OR**：指定された条件のいずれかが満たされている必要があります。 これはデフォルトのオプションです。
+
+   <div class="preview">
+
+   1. （任意）複数の条件グループの間に、追加の **AND** または **OR** 演算子を追加します。
+
+      ![](assets/multi-tiered-filters-in-views.png)
+
+   </div>
 
    レコードのリストは自動的にフィルタリングされます。<!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. （オプション）「**フィルター**」をクリックし、「**x**」アイコンをクリックして、フィルターを削除します。<!--right now you cannot "clear all" for filters, but this might come later-->
+1. （任意）「**x**」アイコンをクリックして、フィルター条件を削除します。
+1. （任意）「**フィルター**」をクリックして、「フィルター」ボックスを閉じます。<!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### グループ化の追加 {#add-groupings}
 

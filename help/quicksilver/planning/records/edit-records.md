@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '1889'
-ht-degree: 56%
+source-wordcount: '2007'
+ht-degree: 54%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 56%
 
 # レコードの編集
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -243,6 +243,16 @@ ht-degree: 56%
 
      ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
+   <div class="preview">
+
+   * 外部ソース （Excel ファイルなど）から 1 つまたは複数のセルをコピーし、次のいずれかのフィールド型に貼り付けます。
+
+      * Workfront Planning 接続フィールド。
+      * 人物フィールド。 1 つの値を持つフィールドのみがサポートされます。
+
+     外部ソースから情報をコピーして、WorkfrontやAEM Assetsの接続フィールドなど、他のフィールドタイプに貼り付けることはできません。
+   </div>
+
    >[!NOTE]
    >
    >次の点に注意してください。
@@ -254,8 +264,7 @@ ht-degree: 56%
    >* レコードページにフィールド値をコピー＆ペーストすることはできません。この機能は、レコードタイプのテーブルビューでのみサポートされます。
    >* 次のフィールドタイプのフィールド値をコピーして貼り付けることはできません。
    >
-   >
-   >    * レコードタイプを接続して作成されたリンクされたフィールド（または参照フィールド）。 リンクされたレコードフィールドをコピー＆ペーストできます。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+   >    * レコードタイプを接続する際に作成されるルックアップフィールド。 リンクされたレコードフィールドをコピー＆ペーストできます。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
    >    * 次のタイプのフィールド：作成者、作成日、最終変更者、最終変更日
 
 1. （オプション）次のキーボードショートカットを使用すると、レコードの情報の編集またはコピー＆ペーストの取り消しまたはやり直しを実行できます。
