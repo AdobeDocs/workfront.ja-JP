@@ -4,10 +4,11 @@ description: このページでは、2025年第 2 四半期リリースに含ま
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
+source-git-commit: ef390581f250515983ba51fb4b1f9ee53fcff693
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 53%
+source-wordcount: '651'
+ht-degree: 52%
 
 ---
 
@@ -46,15 +47,15 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            AI アシスタントが、プロジェクト、タスク、問題を操作できるようになりました</a></p>
-            <p>Workfrontで作業項目を管理しやすくするために、AI アシスタントが更新されて、プロジェクト、タスク、イシューを操作できるようになりました。 指定した条件に基づいて、AI アシスタントがプロジェクト、タスク、問題を見つけられるようになりました。</p>
+            Adobe Admin Console ユーザーの変更をWorkfront更新フィードの「システム」として表す</a></p>
+            <p>Workfrontの管理者がWorkfront ユーザーのユーザー情報に変更を加えると、Adobe Admin Consoleは、ユーザーの更新領域にある「システム」アクティビティ タブで、この変更を「システム」に属するものとして記録するようになりました。 これはAdobe Admin Console管理者を指します。</p>
         </td>
         <td>
             <p><b>公開日：</b></p>
             <ul>
-                <li>プレビューリリース：2024年10月31日（PT）</li>
-                <li>迅速リリースの実稼動：24.11 リリースの場合（2024 年 11 月 14 日（PT））</li>
-                <li>すべてのお客様向けの実稼動リリース：25.1 リリースでは（2025 年 1 月 16 日（PT））</li>
+                <li>プレビューリリース：2025年1月23日（PT）</li>
+                <li>迅速リリースの実稼動：25.2 リリースの場合（2025 年 2 月）</li>
+                <li>すべてのお客様向けの実稼動リリース：25.4 リリースでは（2025 年 4 月）</li>
             </ul>
         </td>
     </tr>
