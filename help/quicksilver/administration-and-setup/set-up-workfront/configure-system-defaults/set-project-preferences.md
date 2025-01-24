@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2661'
-ht-degree: 94%
+source-wordcount: '2693'
+ht-degree: 91%
 
 ---
 
@@ -246,13 +246,6 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL ビジネスケース] {#business-cases}
 
 新しく作成されたプロジェクトのビジネスケースをシステム全体で作成して、プロジェクトリクエストを送信できます。**[!UICONTROL ビジネスケース]**&#x200B;フォーム上でどのエリアを表示するかを指定する環境設定を定義できます。[!UICONTROL ポートフォリオオプティマイザー]などの他のツールで適切に更新されるように、これらのオプションを有効にすることをお勧めします。各フィールドの表示内容について詳しくは、[ビジネスケースの定義：記事インデックス](../../../manage-work/projects/define-a-business-case/define-business-case.md)を参照してください。
@@ -279,11 +272,12 @@ ht-degree: 94%
    <td role="rowheader"> <p>[!UICONTROL After a Project is marked Complete, Dead, or it is Pending Approval, people can still]</p> </td> 
    <td> <p>プロジェクトのステータスが<strong>[!UICONTROL Complete]</strong>、<strong>[!UICONTROL Dead]</strong>または<strong>[!UICONTROL Pending Approval]</strong>とマークされた後にプロジェクト内のタスク、イシュー、ドキュメントおよびその他のオブジェクトがどうなるかに関して、組織（または、グループのプロジェクト環境設定を指定している場合はグループ）のルールを決定します。</p> 
     <ul> 
-     <li><strong>[!UICONTROL Add and edit tasks]</strong>：ユーザーが以下を行えます。
+     <li><strong>[!UICONTROL タスクの追加と編集：]</strong> ユーザーに次の操作を許可します：
       <ul>
-       <li>プロジェクトが「[!UICONTROL Complete]」、「[!UICONTROL Dead]」または「[!UICONTROL Pending Approval]」とマークされた後で、プロジェクト内のタスクを編集する。これには、時間数の追加やタスクの費用エントリの変更などが含まれます。</li>
+       <li><p>プロジェクトが [!UICONTROL 完了 ]、[!UICONTROL 停止 ]、または [!UICONTROL 承認保留中 ] に設定された後に、プロジェクト内のタスクを編集します。</p>
+           <p>注意：このオプションを選択しない場合でも、ユーザーは費用エントリを追加および編集できます。 時間の記録には別の設定があります。 ユーザーが完了または停止ステータスのプロジェクトに時間を記録することを許可または禁止するには、<a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md"> タイムシートおよび時間環境設定の設定 </a> を参照してください。</p></li>
        <li>プロジェクトにタスクを追加する。</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[!UICONTROL Add and edit issues]</strong>：ユーザーが以下を行えます。
       <ul>
        <li>プロジェクトが「[!UICONTROL Complete]」、「[!UICONTROL Dead]」または「[!UICONTROL Pending Approval]」とマークされた後で、プロジェクト内のイシューを編集する。</li>
