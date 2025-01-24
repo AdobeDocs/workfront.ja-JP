@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '1749'
-ht-degree: 95%
+source-wordcount: '1739'
+ht-degree: 94%
 
 ---
 
@@ -118,11 +118,11 @@ URL を使用してカスタム更新サンドボックスにアクセスする�
 
 1. カスタム更新サンドボックスが 1 つだけの場合は、この URL に移動します。
 
-   https://companyname.sb01.workfront.com（古い URL:https://cr1.attasksandbox.com/）。
+   `https://companyname.sb01.workfront.com` （古い URL:`https://cr1.attasksandbox.com/`。）
 
    または、カスタム更新サンドボックスが 2 つある場合は、上記の URL に加えて、次の URL に移動して、2 番目のカスタム更新サンドボックスにアクセスすることもできます。
 
-   https://companyname.sb02.workfront.com（古い URL:https://cr2.attasksandbox.com/）
+   `https://companyname.sb02.workfront.com` （古い URL:`https://cr2.attasksandbox.com/`）
 
 1. ログイン画面で、カスタム更新サンドボックスの資格情報を使用してログインします。
 1. カスタム更新サンドボックスの資格情報は、カスタム更新サンドボックスが最後に更新されてから実稼動用の資格情報を変更している場合を除き、実稼動用の資格情報と同じです。ログインは、アップデートが発生した場合にのみ同期されます。自動的には同期されません。
@@ -137,15 +137,15 @@ URL を使用してカスタム更新サンドボックスにアクセスする�
 
 1. カスタム更新サンドボックスが 1 つだけの場合は、この URL に移動します。
 
-   https://companyname.sb01.workfront.com（古い URL:https://cr3.attasksandbox.com）
+   `https://companyname.sb01.workfront.com` （古い URL:`https://cr3.attasksandbox.com`）
 
    または
 
    カスタム更新サンドボックスが 2 つある場合は、次のいずれかの URL に移動します。
 
-   https://companyname.sb01.workfront.com（古い URL:https://cr3.attasksandbox.com）
+   `https://companyname.sb01.workfront.com` （古い URL:`https://cr3.attasksandbox.com`）
 
-   https://companyname.sb02.workfront.com（古い URL:https://cr4.attasksandbox.com）
+   `https://companyname.sb02.workfront.com` （古い URL:`https://cr4.attasksandbox.com`）
 
 1. ログイン画面で、カスタム更新サンドボックスの資格情報を使用してログインします。
 
