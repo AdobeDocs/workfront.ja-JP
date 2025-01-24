@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 95%
 
 ---
 
@@ -80,5 +80,5 @@ ht-degree: 100%
 
 以前は、Workfront API を使用してのみ、システムのアップデートをレポートできました。
 
-このレポートとその使用方法について詳しくは、[アップデートエリアに関するレポート](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)を参照してください。
+このレポートの詳細と用途については、[ 履歴入力レポートを使用した更新領域のレポート ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) を参照してください。
 

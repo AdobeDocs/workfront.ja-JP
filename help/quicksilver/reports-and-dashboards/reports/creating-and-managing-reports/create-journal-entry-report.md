@@ -1,18 +1,18 @@
 ---
-title: 「更新」エリアのレポート
+title: 仕訳入力レポートを使用した更新領域のレポート
 description: ジャーナルエントリレポートには、これまで Adobe Workfront API を介してのみ利用可能であった、プロジェクト、タスク、イシューなどのオブジェクトの更新エリアからのシステム更新が表示されます。これは特定のユースケースを対象とした高度なレポートですが、よりわかりやすい形式により、Workfront 内のプロジェクトアクティビティやシステム更新に関するレポートを簡単に作成できるようになります。
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2767'
 ht-degree: 94%
 
 ---
 
-# 更新エリアに関するレポート
+# 仕訳入力レポートを使用した更新領域のレポート
 
 <!-- Audited: 11/2024 -->
 

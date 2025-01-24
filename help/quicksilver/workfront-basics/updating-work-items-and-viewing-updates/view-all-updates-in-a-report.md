@@ -6,10 +6,10 @@ description: メモレポートでのすべての更新の表示
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 61%
+source-wordcount: '377'
+ht-degree: 58%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 61%
 
 >[!NOTE]
 >
->レポートを作成して、ジャーナルエントリレポートを使用してプレビューでオブジェクトの更新を表示できます。詳しくは、[更新エリアのレポート](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)を参照してください。
+>レポートを作成して、ジャーナルエントリレポートを使用してプレビューでオブジェクトの更新を表示できます。詳細については、[ 仕訳レポートを使用した更新領域のレポート ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) を参照してください。
 
 ## アクセス要件
 

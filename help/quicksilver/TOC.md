@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '13008'
-ht-degree: 90%
+source-wordcount: '13013'
+ht-degree: 89%
 
 ---
 
@@ -1538,7 +1538,7 @@ ht-degree: 90%
          * [独自の為替レートを使用した財務データレポートの作成](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
          * [レポート設定を編集する](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
          * [レポートの所有者の変更](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-         * [更新エリアに関するレポート](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+         * [仕訳入力レポートを使用した更新領域のレポート](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [ユーザーのデリゲーションレポートの作成](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
       * レポート内の計算済みカスタムデータ {#calculated-custom-data}
          * [レポート内の計算カスタムデータ](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)

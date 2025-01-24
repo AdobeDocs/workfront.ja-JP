@@ -7,10 +7,10 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: 6327e5625481ce7ff8d744bc6eb50d417cbb4413
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 74%
+source-wordcount: '1095'
+ht-degree: 72%
 
 ---
 
@@ -345,4 +345,4 @@ Adobe Workfront 管理者とグループ管理者は、他のユーザーとし�
 * プロジェクトの過程で優先度が変更されたかどうか
 * プロジェクトの所有者が変更されたかどうか
 
-詳しくは、[更新エリアのレポート](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)を参照してください。
+詳細については、[ 仕訳レポートを使用した更新領域のレポート ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) を参照してください。

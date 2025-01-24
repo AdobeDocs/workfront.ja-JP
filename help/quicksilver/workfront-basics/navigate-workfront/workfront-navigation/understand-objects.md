@@ -1,15 +1,15 @@
 ---
 content-type: overview;reference
 navigation-topic: workfront-navigation
-title: 「[!DNL Adobe Workfront] オブジェクトの概要」
-description: 「 [!DNL Adobe Workfront]  に表示される情報は、 [!DNL Workfront]  データベースに格納されたオブジェクトによって表現されます。オブジェクトが  [!DNL Workfront] の情報の基になっています。この記事ではこれらのオブジェクトについて説明します。」
+title: '[!DNL Adobe Workfront] オブジェクト概要'
+description: で表示する情報は  [!DNL Adobe Workfront]  データベースに格納されているオブジェクトによって表され  [!DNL Workfront]  す。 オブジェクトが  [!DNL Workfront] の情報の基になっています。これらのオブジェクトについて詳しくは、この記事を参照してください。
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2419'
-ht-degree: 94%
+source-wordcount: '2424'
+ht-degree: 92%
 
 ---
 
@@ -283,7 +283,7 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL イテレーション]
 * [!UICONTROL 担当業務]
 * [!UICONTROL ジャーナルエントリ]
-   * タスク、プロジェクト、イシューなどのオブジェクトの「[!UICONTROL アップデート]」エリアで、追跡されたシステムアップデートについてレポートできます。詳しくは、[[!UICONTROL 更新]エリアのレポート](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)を参照してください。
+   * タスク、プロジェクト、イシューなどのオブジェクトの「[!UICONTROL アップデート]」エリアで、追跡されたシステムアップデートについてレポートできます。詳細については、[ 仕訳レポートを使用した更新領域のレポート ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) を参照してください。
 
 * [!UICONTROL レイアウトテンプレート]
 * [!UICONTROL マイルストーン]
