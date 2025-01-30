@@ -1,19 +1,21 @@
 ---
 product-area: projects
 navigation-topic: business-case-and-scorecards
-title: プロジェクトに関するリスクの作成と編集
+title: プロジェクトの危険の作成および編集
 description: リスクとは、プロジェクトが時間通りに、または予算内で完了することを妨げる可能性のあるイベントまたは要因のことです。リスクは、プロジェクトのビジネスケースを作成する際に記録するか、「リスク」タブを使用して記録できます。リスクはプロジェクトにのみ作成されます。リスクをタスクやイシューに関連付けることはできません。
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 8611c7bf8be6405f8ec8462ff2fd0f5998e8a995
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 100%
+source-wordcount: '1036'
+ht-degree: 96%
 
 ---
 
 # プロジェクトに関するリスクの作成と編集
+
+<!--Audited: 01/2025-->
 
 リスクとは、プロジェクトが時間通りに、または予算内で完了することを妨げる可能性のあるイベントまたは要因のことです。リスクは、プロジェクトのビジネスケースを作成する際に記録するか、「リスク」タブを使用して記録できます。リスクはプロジェクトにのみ作成されます。リスクをタスクやイシューに関連付けることはできません。
 
@@ -27,30 +29,35 @@ ht-degree: 100%
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td> <p>新規：標準 </p>
+   <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトおよび財務データへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトおよび財務データへのアクセスの編集</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p> リスクを作成または編集するプロジェクトに対する、財務の管理を含む権限を管理します </p> <p>プロジェクト権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>の記事を参照してください。</p> </td> 
+   <td> <p> リスクを作成または編集するプロジェクトに対する、財務の管理を含む権限を管理します </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## ビジネスケースでのリスクの作成と編集
 

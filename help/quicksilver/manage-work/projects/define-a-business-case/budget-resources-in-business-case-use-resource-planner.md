@@ -5,14 +5,16 @@ description: リソース計画の一環として、プロジェクトレベル�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 96%
 
 ---
 
 # リソースプランナーを使用したビジネスケースのリソースの予算計上
+
+<!--Audited: 01/2025-->
 
 リソース計画の一環として、プロジェクトレベルのリソースプランナーを使用して、ビジネスケースの作成時にプロジェクトで作業を完了するために必要な担当業務のリソースを予算計上できます。
 
@@ -26,37 +28,47 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
 
 ## アクセス要件
 
-以下が必要です。
+この記事の手順を実行するには、以下を保有している必要があります。
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront プラン</a>*</td> 
-   <td> <p>Pro 以上</p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>Prime以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>*</td> 
-   <td> <p>レビュー以上</p> <p>重要：リソース予算計上情報を変更するには、プランライセンスが必要です。 </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規：ライト以上</p>
+   <p>現在：レビュー以上</p>
+
+<p><b>重要：</b></p> 
+   <p>新規：リソース予算情報を変更するには、標準ライセンスが必要です。 </p> 
+   <p>現在：リソース予算情報を変更するには、プラン ライセンスが必要です。 </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>以下の項目についてアクセス権を編集します。 </p> 
     <ul> 
      <li> <p>プロジェクト</p> </li> 
      <li> <p>リソース管理</p> </li> 
      <li> <p>財務データ</p> </li> 
-    </ul> <p>リソースの予算計上に必要なアクセス権について詳しくは、<a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Adobe Workfront のリソース予算計上に必要なアクセス権</a>を参照してください。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトに対する権限を管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 前提条件
 
