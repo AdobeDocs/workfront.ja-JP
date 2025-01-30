@@ -6,10 +6,11 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 2%
+source-wordcount: '662'
+ht-degree: 4%
 
 ---
 
@@ -20,6 +21,42 @@ ht-degree: 2%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## 式フィールドに追加された関数
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 1 月 30 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 1 月 30 日（PT）
+
+Workfrontの数式フィールドで、ARRAY、ARRAYLENGTH、ARRAYELEMENT の式を使用できるようになりました。 各式の定義と例は、式エディターで参照できます。
+
+詳しくは、[数式フィールドの概要](/help/quicksilver/planning/fields/formula-fields.md)を参照してください。
+
+<!--## Real-time presence indicators in a record's details preview or page
+
+>[!NOTE]
+>
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
+
+The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+## Workfront Planning のアイテムをチーム、担当業務、会社と共有する
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 1 月 30 日（PT）、高速リリースの実稼動：25.2 リリースを含む（2025 年 2 月）、四半期リリースの実稼動：25.4 リリースを含む（2025 年 4 月）
+
+Workfront Planning で、ビューとワークスペースをチーム、担当業務、会社と共有できるようになりました。 この機能強化の前は、ユーザーやグループとビューやワークスペースを共有できていました。
+
+詳しくは、次の記事を参照してください。
+
+[ビューの共有](/help/quicksilver/planning/access/share-views.md)
+
+[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
 
 ## 外部テキストのコピー&amp;ペーストが接続フィールドと人物フィールドでサポートされるようになりました
 

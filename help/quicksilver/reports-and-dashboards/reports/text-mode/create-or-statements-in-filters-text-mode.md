@@ -6,10 +6,10 @@ description: リストおよびレポートでフィルターを作成する際�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 100%
+source-wordcount: '503'
+ht-degree: 91%
 
 ---
 
@@ -19,16 +19,16 @@ ht-degree: 100%
 
 フィルターの作成について詳しくは、次の記事を参照してください。
 
-* [フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [テキストモードを使用したフィルターの編集](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [フィルターの概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [テキストモードを使用したフィルターの編集](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## テキストモードのフィルター演算子
 
-標準フィルターインターフェイスの Adobe Workfront フィルター演算子について詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
+標準フィルターインターフェイスの Adobe Workfront フィルター演算子について詳しくは、[フィルターの概要](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 
 Workfront には、それぞれのフィルターステートメントを結び付ける 2 つのフィルター演算子があります。
 
-* **AND**：AND 演算子で 2 つのフィルターステートメントを結合する場合は、両方のフィルターステートメントを同時に満たすように指定します。
+* **AND**:2 つのフィルターステートメントを AND 演算子で結合する場合、両方のフィルターステートメントを同時に満たすことを指定します。
 
   デフォルトでは、フィルター内のステートメントは AND 演算子で結合されます。
 
@@ -36,7 +36,12 @@ Workfront には、それぞれのフィルターステートメントを結び�
 
   **例：**&#x200B;予定完了日が今日のタスク、および完了率が 100％未満であるタスクをフィルタリングするには、次のテキストモードコードを使用します。
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq 
+  percentComplete=100 percent
+  Complete_Mod=lt
+  ```
 
 * **OR**：OR 演算子で 2 つのフィルターステートメントを結合する場合は、どちらかのステートメントを満たす必要があることを示します。
 
@@ -48,7 +53,12 @@ Workfront には、それぞれのフィルターステートメントを結び�
 
   **例：**&#x200B;予定完了日が今日のタスク、または完了率が 100％未満のタスクをフィルタリングするには、次のテキストモードコードを使用します。
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq
+  OR:1:percentComplete=100
+  OR:1:percentComplete_Mod=lt
+  ```
 
 ## OR フィルターのテキストモード構文
 
@@ -58,7 +68,12 @@ OR フィルターのテキストモード構文には、次の内容が含ま�
 
   OR フィルターを作成する場合は、次のパターンに従います。
 
-  <pre><field name in camel case>=<value></pre><pre><field name in camel case>_Mod=<modifier value></pre><pre>または:1:<field name in camel case>=<value></pre><pre>または:1:<field name in camel case>_Mod=<modifier value></pre>
+  ```
+  <field name in camel case>=<value>
+  <field name in camel case>_Mod=<modifier value>
+  OR:1:<field name in camel case>=<value>
+  OR:1:<field name in camel case>_Mod=<modifier value>
+  ```
 
   >[!TIP]
   >
@@ -68,11 +83,25 @@ OR フィルターのテキストモード構文には、次の内容が含ま�
 
   **例：**&#x200B;予定完了日が今日のタスク、または完了率が 100％未満のタスクまたは新規ステータスを持つタスクをフィルタリングするには、次のテキストモードコードを使用します。
 
-  <pre>plannedCompletionDate=$$TODAY</pre><pre>plannedCompletionDate_Mod=eq</pre><pre>OR:1:status=NEW</pre><pre>OR:1:status_Mod=in</pre><pre>OR:2:percentComplete=100</pre><pre>OR:2:percentComplete_Mod=lt</pre>
+  ```
+  plannedCompletionDate=$$TODAY
+  plannedCompletionDate_Mod=eq
+  OR:1:status=NEW
+  OR:1:status_Mod=in
+  OR:2:percentComplete=100
+  OR:2:percentComplete_Mod=lt
+  ```
 
 * フィールドの名前やフィルターで参照する属性は、キャメルケースで記述する必要があります。キャメルケースについて詳しくは、[テキストモードの構文の概要](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)を参照してください。
 * OR フィルターでカスタムフィールドを参照する場合は、OR 修飾子の構文とカスタムフィールドの名前の間に DE: を挿入する必要があります。カスタムフィールドの名前は、Workfront インターフェイスに表示されるとおりにスペルする必要があります。
 
   **例：**&#x200B;ステータスが新規のタスク、または完了率が 100％未満のタスク、または「アカウントタイプ」という名前のカスタムフィールドの値が「等しい」タスクをフィルタリングするには、次のテキストモードコードを使用します。
 
-  <pre>status=NEW</pre><pre>status_Mod=in</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre><pre>OR:2:DE:Account Type=Capital</pre><pre>OR:2:DE:Account Type_Mod=in</pre>
+  ```
+  status=NEW
+  status_Mod=in
+  OR:1:percentComplete=100
+  OR:1:percentComplete_Mod=lt
+  OR:2:DE:Account Type=Capital
+  OR:2:DE:Account Type_Mod=in
+  ```
