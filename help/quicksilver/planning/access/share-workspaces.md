@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 56%
+source-wordcount: '784'
+ht-degree: 47%
 
 ---
 
 # ワークスペースを共有
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -173,9 +177,13 @@ OLD:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. 「**ワークスペースへのアクセス権を付与**」フィールドにユーザーまたはグループの名前を入力し始め、リストに表示されたらクリックします。
+1. 「**ワークスペースへのアクセス権の付与先**」フィールドに、ユーザー、グループ、<span class="preview"> チーム、会社または担当業務の名前の入力を開始し </span> リストに表示されたらクリックします。
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
@@ -221,7 +229,7 @@ OLD:
 {{step1-to-planning}}
 
 1. 権限を削除するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。
-1. ユーザー名またはグループ名の右にあるドロップダウンメニューをクリックし「**削除**」を選択します。
-1. 「**保存**」をクリックします。
+1. ワークスペースを共有するエンティティ名の右側にあるドロップダウンメニューをクリックし、「**削除**」をクリックします。
+1. **保存**&#x200B;をクリックします。
 
-   削除されたユーザーまたは削除されたグループに属するユーザーは、ワークスペースやそのオブジェクトにアクセスできなくなります。
+   削除されたユーザーは、ワークスペースまたはそのオブジェクトにアクセスできなくなります。

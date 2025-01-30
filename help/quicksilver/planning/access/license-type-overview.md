@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 9%
+source-wordcount: '564'
+ht-degree: 13%
 
 ---
 
 
 # Adobe Workfront Planning 使用時のライセンスタイプの概要
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -68,7 +72,7 @@ Standard ライセンスを持つユーザーのみが、ワークスペース�
 >
 >共有ボックスには、下位レベルのライセンスを保持しているユーザーに対して、ワークスペースへの投稿またはワークスペースの管理を行う権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
 >
->![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
+><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
 
 
 ### ライセンスタイプと表示権限
@@ -83,4 +87,4 @@ Standard ライセンスを持つユーザーのみが、ワークスペース�
 >
 >共有ボックスには、下位レベルのライセンスを持つユーザーにビューを管理する権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
 >
->![](assets/permissions-grayed-out-for-light-user.png)
+><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>

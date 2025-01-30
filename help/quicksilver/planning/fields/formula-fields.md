@@ -6,16 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 60%
+source-wordcount: '664'
+ht-degree: 54%
 
 ---
 
 # 数式フィールドの概要
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -175,9 +179,26 @@ OLD:
 
 ## サポートされる数式
 
-Adobe Workfront Planning の数式フィールドは、Workfront の計算フィールドのすべての式をサポートします。Workfront式のリストについては、[ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
+Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィールドの式のほとんどをサポートしています。
 
-また、Workfront Planning 数式フィールドでは、次の式も使用できます。
+<!-- make the note available when WF releases the expressions listed in it: 
+
+>[!NOTE]
+>
+>The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>
+>* SORTASCARRAY
+>* SORTDESCARRAY
+>* ADDHOUR
+>* SWITCH
+>* FORMAT
+-->
+
+Workfront式の完全なリストについては、[ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
+
+また、Workfront Planning の数式フィールドでは、以下の式をサポートしています。 次の式は、Workfrontの式ではサポートされていません。
+
+<!--take these three out when they also come to WF and Lisa has added them to the WF expression article linked above-->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,6 +211,21 @@ Adobe Workfront Planning の数式フィールドは、Workfront の計算フィ
  </thead> 
  <tbody>
 
+<tr>
+   <td><strong> 配列 </strong> </td>
+   <td> <p>文字列を配列に変換します。区切り文字には任意の文字列を使用できます。</p>
+   <p>式の形式は次のとおりです。</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>ARRAYELEMENT</strong> </td>
+   <td> <p>配列内の指定された数の要素を返します。 インデックスが範囲外の場合は、空を返します。</p>
+   <p>式の形式は次のとおりです。</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p>
+   </td>
+  </tr>
+
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>区切り文字で連結された文字列を返します。</p> <p>式の形式は次のとおりです。
@@ -197,6 +233,12 @@ Adobe Workfront Planning の数式フィールドは、Workfront の計算フィ
 <code>ARRAYJOIN(区切り文字,配列)</code>
 </p>
    </td></tr>
+  <tr>
+   <td><strong>ARRAYLENGTH</strong> </td>
+   <td> <p>配列内の要素の数を返します。次のような形式になります。</p>
+   <p><code>ARRAYLENGTH(array)</code></p>
+   </td>
+  </tr>
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
