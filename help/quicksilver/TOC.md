@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 0db9128c2ba679fca4f3540d804b0239077a85d6
 workflow-type: tm+mt
-source-wordcount: '13017'
+source-wordcount: '13013'
 ht-degree: 89%
 
 ---
@@ -20,10 +20,8 @@ ht-degree: 89%
       * [Adobe Workfront のリリーススケジュールとプロセス](product-announcements/product-releases/workfront-release-schedule.md)
       * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
       * 2025年第 2 四半期リリース{#release-25-q2}
-         * [2025 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
-         * [2025年第 2 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
-         * [2025 年第 2 四半期のリリース期間中のその他の機能強化 ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
-           <!--* [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)-->
+         * [2025 年第 2 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)<!--* [2025 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)-->
+         * [2025 年第 2 四半期のリリース期間中のその他の機能強化 ](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)<!--* [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)-->
       * 2025年第 1 四半期リリース{#release-25-q1}
          * [2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025年第 1 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
