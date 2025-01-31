@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
+source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 52%
+source-wordcount: '710'
+ht-degree: 50%
 
 ---
 
@@ -36,10 +36,10 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 
 ## Adobe Workfront の機能強化
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [管理者機能の強化](#administrator-enhancements)
 * [その他の機能強化](#other-enhancements)
 
-<!--### Administrator enhancements
+### 管理者機能の強化
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
-            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
+            計算カスタムフィールドに追加された式</a></p>
+            <p>Workfrontの計算カスタムフィールドで、ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT、ADDHOUR の式を使用できるようになりました。 各式の定義と例は、計算エディターおよびExperience Leagueで入手できます。</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>公開日：</b></p>
             <ul>
-                <li>Preview release: January 30, 2025</li>
-                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
+                <li>プレビューリリース：2025年1月31日（PT）</li>
+                <li><span class="preview">すべてのお客様向けの本番リリース： 2025年1月31日（PT）</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>-->
+</table>
 
 ### その他の機能強化
 
