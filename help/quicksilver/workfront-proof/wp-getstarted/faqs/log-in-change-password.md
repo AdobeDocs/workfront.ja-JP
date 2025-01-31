@@ -8,10 +8,10 @@ description: Workfront Proof 管理者は、パーソナライズしたブラン
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 100%
+source-wordcount: '546'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## ログイン
 
-1. [ログインページ](https://www.proofhq.com/login)（または当社の web サイト [www.proofhq.com](https://www.proofhq.com/)）に移動します。
+1. [ ログインページ ](https://app.proofhq.com/login) に移動します。
 
 1. 右上の「[!UICONTROL ログイン]」ボタンをクリックします。
 1. メールアドレスとパスワードを入力します。\
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 パスワードを忘れた場合は、[!DNL Workfront Proof] からリセット用のメールメッセージを受け取ることができます。
 
-1. [ログインページ](https://www.proofhq.com/login)（または当社の web サイト [www.proofhq.com](https://www.proofhq.com/)）に移動します。
+1. [ ログインページ ](https://app.proofhq.com/login) に移動します。
 
 1. 「**[!UICONTROL パスワードをお忘れですか？]**」をクリックします。
 1. 表示されるボックスにメールアドレスを入力し、「**[!UICONTROL リンクを取得]**」をクリックします。
