@@ -7,10 +7,10 @@ description: データ式を使用して、Adobe Workfront で計算済みのカ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
 workflow-type: tm+mt
-source-wordcount: '2165'
-ht-degree: 99%
+source-wordcount: '2425'
+ht-degree: 90%
 
 ---
 
@@ -131,6 +131,13 @@ ht-degree: 99%
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>ADDHOUR</strong> </td> 
+   <td> <p>日付に時間数を追加します。次のような形式です。</p>
+
+<p><code>ADDHOUR(date, number)</code></p>
+   <p>注意：この関数は、Workfront Planning ではサポートされていません。</p></td> 
+  </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
    <td> <p>日付の時間部分をクリアし、次の形式で表します。この例では、日付は作業オブジェクトのエントリ日です。</p>
@@ -378,6 +385,42 @@ ht-degree: 99%
  </thead> 
  <tbody> 
   <tr> 
+   <td><strong> 配列 </strong> </td> 
+   <td> <p>文字列を配列に変換します。区切り文字には任意の文字列を使用できます。</p> 
+   <p>式の形式は次のとおりです。</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYLENGTH</strong> </td> 
+   <td> <p>配列内の要素の数を返します。次のような形式になります。</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYELEMENT</strong> </td> 
+   <td> <p>配列内の指定された数の要素を返します。 インデックスが範囲外の場合は、空を返します。</p> 
+   <p>式の形式は次のとおりです。</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong> ソルタスカレイ </strong> </td> 
+   <td> <p>配列要素を昇順に並べ、最初の要素の型に変換します。</p>
+   <p>式の形式は次のとおりです。</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>例えば、["-12.6", -13.0] は ["-12.6", "-13"] になります。</p>
+   <p>注意：この関数は、Workfront Planning ではサポートされていません。</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCCARRAY</strong> </td> 
+   <td> <p>配列要素を降順で並べ替え、最初の要素のタイプに変換します。</p>
+   <p>式の形式は次のとおりです。</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>例えば、["-12.6", -13.0] は ["-13", "-12.6"] になります。</p>
+   <p>注意：この関数は、Workfront Planning ではサポートされていません。</p></td> 
+  </tr>
+  <tr>   
    <td><strong>CASE</strong> </td> 
    <td> <p>他の式と共に使用され、インデックス番号に基づいてリストから値を選択します。 </p>
    <p>インデックス番号は、数値（通常は既知の範囲）を返すフィールドまたは関数です。</p> 
@@ -413,6 +456,13 @@ ht-degree: 99%
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
+  <tr> 
+   <td><strong> 形式 </strong> </td> 
+   <td><p>書式設定されたテキストを返します。カラーオプションは、$$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE です。その他の書式設定オプションは、$$BOLD、$$ITALIC、$$UNDERLINE です。関数ごとに 1 つのカラーオプションのみを使用でき、他の書式設定オプションも最大 3 つ使用できます。 カラーオプションを指定しない場合、システムのデフォルトのカラーが適用されます。</p>
+   <p>式の形式は次のとおりです。</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>注意：この関数は、Workfront Planning ではサポートされていません。</p></td> 
+  </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
    <td> <p>指定した条件を評価し、true の場合は trueExpression の値を返します。false の場合は falseExpression の値を返します。</p>
@@ -504,18 +554,16 @@ ht-degree: 99%
    <td> <p>この式は、数値を文字列に変換します。形式は次のとおりです。</p>
 
 <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>SORTASCSTRING</strong> </td> 
    <td> <p>文字列のリストを昇順に並べ替えます。形式は次のとおりです。</p>
-
-<p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+   <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
+  </tr>
   <tr> 
    <td><strong>SORTDESCSTRING</strong> </td> 
    <td> <p> 文字列のリストを降順に並べ替えます。形式は次のとおりです。</p>
-
-<p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
+   <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>SUBSTR</strong> </td> 
@@ -523,6 +571,13 @@ ht-degree: 99%
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong> 切り替え </strong> </td> 
+   <td> <p>値のリストに対して式を評価し、最初に一致した値に対応する結果を返します。</p>
+   <p>式の形式は次のとおりです。</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>この関数は、Workfront Planning ではサポートされていません。</p></td> 
+  </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 
    <td> <p>文字列の先頭と終わりから空白を削除します。形式は次のとおりです。</p>
