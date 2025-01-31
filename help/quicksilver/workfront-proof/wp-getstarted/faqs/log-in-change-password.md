@@ -8,7 +8,7 @@ description: Workfront Proof 管理者は、パーソナライズしたブラン
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 98%
@@ -22,6 +22,7 @@ ht-degree: 98%
 >この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
 ## ログイン
+
 
 1. [ ログインページ ](https://app.proofhq.com/login) に移動します。
 
@@ -45,6 +46,7 @@ ht-degree: 98%
 ## パスワードを忘れた場合 {#when-you-forget-your-password}
 
 パスワードを忘れた場合は、[!DNL Workfront Proof] からリセット用のメールメッセージを受け取ることができます。
+
 
 1. [ ログインページ ](https://app.proofhq.com/login) に移動します。
 
