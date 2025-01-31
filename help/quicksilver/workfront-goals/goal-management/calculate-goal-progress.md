@@ -6,10 +6,10 @@ description: 目標の進捗は、アクティビティ、結果、子目標な�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 94%
+source-wordcount: '827'
+ht-degree: 95%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 94%
 
 * 新しいプランとライセンス構造の場合：
 
-   * 究極の計画
+   * Ultimateプラン
 
      または
 
-     Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。 詳しくは、[Adobe Workfrontプラン ](https://www.workfront.com/plans) を参照してください。
+     Prime プランまたはAdobe Workfrontを選択プランのAdobe Workfront Goals の追加ライセンス。
 
 * 現在のプランおよびライセンス構造の場合：
 

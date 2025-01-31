@@ -8,10 +8,10 @@ author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: f0f6c2bee98c6cebf8ea9e18bf34262f3c1d6e3a
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 74%
+source-wordcount: '175'
+ht-degree: 77%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 74%
 > 
 >* 新しいプランとライセンス構造の場合：
 >    
->   * 究極の計画
+>   * Ultimateプラン
 >        
 >     または
 >        
->   * Prime プランまたは Select Adobe Workfront プランのAdobe Workfront Goals の追加ライセンス。
->       詳しくは、[Adobe Workfrontの価格とパッケージ ](https://www.workfront.com/plans) を参照してください。
+>   * Prime プランまたはAdobe Workfrontを選択プランのAdobe Workfront Goals の追加ライセンス。
+>      
 >      
 >* 現在のプランおよびライセンス構造の場合：
 >    

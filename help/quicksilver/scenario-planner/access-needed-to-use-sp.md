@@ -7,10 +7,10 @@ description: シナリオプランナーには、Adobe Workfront ライセンス
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 74%
+source-wordcount: '886'
+ht-degree: 73%
 
 ---
 
@@ -38,7 +38,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    * 現在のWorkfront プランでは、組織に次の両方が必要です。
 
-      * 組織では、[!DNL Workfront] の[!UICONTROL ビジネス]プランまたはそれ以上の [!DNL Workfront] プランを購入する必要があります。[!DNL Workfront] のプランについて詳しくは、[Workfront プラン](https://www.workfront.com/plans)を参照してください。
+      * 組織は、[!DNL Workfront] [!UICONTROL Business] 以上の [!DNL Workfront] プランを購入する必要があります。
 
       * 組織では、[!DNL Workfront] ライセンスに加え、[!DNL Workfront Scenario Planner] ライセンスを購入する必要があります。[!DNL Workfront Scenario Planner] ライセンスについて詳しくは、[!DNL Workfront] アカウント担当者にお問い合わせください。
 

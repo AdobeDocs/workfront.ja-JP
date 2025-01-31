@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '621'
 ht-degree: 54%
 
 ---
@@ -181,18 +181,16 @@ OLD:
 
 Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィールドの式のほとんどをサポートしています。
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>次のWorkfront式は、Workfront Planning 式フィールドではサポートされていません：
 >
 >* SORTASCARRAY
->* SORTDESCARRAY
+>* SORTDESCCARRAY
 >* ADDHOUR
->* SWITCH
->* FORMAT
--->
+>* 切り替え
+>* 形式
+
 
 Workfront式の完全なリストについては、[ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
 
@@ -211,21 +209,6 @@ Workfront式の完全なリストについては、[ 計算データ式の概要
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong> 配列 </strong> </td>
-   <td> <p>文字列を配列に変換します。区切り文字には任意の文字列を使用できます。</p>
-   <p>式の形式は次のとおりです。</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ARRAYELEMENT</strong> </td>
-   <td> <p>配列内の指定された数の要素を返します。 インデックスが範囲外の場合は、空を返します。</p>
-   <p>式の形式は次のとおりです。</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>区切り文字で連結された文字列を返します。</p> <p>式の形式は次のとおりです。
@@ -233,14 +216,7 @@ Workfront式の完全なリストについては、[ 計算データ式の概要
 <code>ARRAYJOIN(区切り文字,配列)</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong>ARRAYLENGTH</strong> </td>
-   <td> <p>配列内の要素の数を返します。次のような形式になります。</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>一意の値を含む配列を返します。</p> <p>式の形式は次のとおりです。
 
