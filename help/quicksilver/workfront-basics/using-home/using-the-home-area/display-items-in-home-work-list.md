@@ -6,7 +6,7 @@ description: 各ウィジェットには、独自のワークリストが含ま�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
+source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
 workflow-type: tm+mt
 source-wordcount: '991'
 ht-degree: 19%
@@ -182,7 +182,5 @@ ht-degree: 19%
 * **タイムシート**：[!UICONTROL 送信日]
 * **承認**：[!UICONTROL 送信日]
 * **プルーフの承認**：[!UICONTROL プルーフの期限]
-
-
 
 
