@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ Workfrontの他のエリアと一貫した、より現代的なデザインの�
 この更新には、エリアに対する視覚的な変更が含まれます。 機能は変更されていません。
 
 ## アジャイル
+
+## チーム / バックログ領域のインターフェイスの更新
+
+**プレビューリリース：2025 年 1 月 23 日（PT）、実稼動リリース：2025 年 2 月 13 日（PT）の週から**
+
+チーム / バックログ エリアを、Workfrontの他のエリアと一致する、より現代的なデザインに更新しました。
+
+この更新には、次の変更が含まれます。
+
+* 「ストーリーとイシュー」タブおよび「ストーリーを分類」ダイアログボックスの視覚的な機能強化
+* イテレーション計画ツールの新しいダイアログボックス
 
 ### 反復リストのインターフェイス更新
 

@@ -4,10 +4,11 @@ description: 2025年第 2 四半期のリリース期間中のルックアンド
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 31d8528c5e6d31e59492f869a426dc0a5d484edb
+exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
+source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 46%
+source-wordcount: '76'
+ht-degree: 100%
 
 ---
 
@@ -17,13 +18,13 @@ ht-degree: 46%
 
 2025年第 2 四半期リリースで利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
 
-## 共有ダイアログの新しいルックアンドフィール
+<!--## New look and feel for the Share dialog 
 
 >[!NOTE]
 >
->プレビューリリース：2025 年 1 月 30 日（PT）、高速リリースの実稼動：25.2 リリースを含む（2025 年 2 月）、四半期リリースの実稼動：25.4 リリースを含む（2025 年 4 月）
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
 
-Workfrontの他の領域と一致する、最新のデザインの Share dialog のルックアンドフィールを更新しました。 次のような視覚的な違いがあります。
+We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
 
-* 「システム全体で表示」オプションに「システム内の全員が表示可能」と表示されるようになりました。 このオプションは、以前と同じように機能します。
-* 詳細な共有設定にアクセスするための新しいアイコンが追加されました。
+* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
+* There is a new icon to access advanced share settings.-->
