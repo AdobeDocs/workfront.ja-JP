@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Adobe Workfrontの基本事項：記事のインデックス
-description: これらの領域を確認すると、Adobe Workfrontの基本を理解し、ホーム領域や優先度領域の使用、アカウントプロファイルの管理、AI アシスタントの使用、ブラウザー要件とサポートされている言語の理解など、基本的な機能の実行方法を学ぶことができます。 Workfrontの一般的な用語については、Workfront用語集を参照してください。
+description: これらのエリアを確認して、Adobe Workfront の基本を理解し、ホームエリアや優先度エリアの使用、アカウントプロファイルの管理、AI アシスタントの使用、ブラウザーの要件とサポートされている言語の理解など、基本的な機能を実行する方法を学びます。Workfront の一般的な用語について詳しくは、Workfront 用語集を参照してください。
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -10,7 +10,7 @@ exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
 source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '192'
-ht-degree: 28%
+ht-degree: 86%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 28%
 
 <!--Audited: 01/2025-->
 
-これらの領域を確認すると、Adobe Workfrontの基本を理解し、ホーム領域や優先度領域の使用、アカウントプロファイルの管理、AI アシスタントの使用、ブラウザー要件とサポートされている言語の理解など、基本的な機能の実行方法を学ぶことができます。 Workfrontの一般的な用語については、Workfront用語集を参照してください。
+これらのエリアを確認して、Adobe Workfront の基本を理解し、ホームエリアや優先度エリアの使用、アカウントプロファイルの管理、AI アシスタントの使用、ブラウザーの要件とサポートされている言語の理解など、基本的な機能を実行する方法を学びます。Workfront の一般的な用語について詳しくは、Workfront 用語集を参照してください。
 
 このセクションには、次のサブセクションが含まれます。
 
