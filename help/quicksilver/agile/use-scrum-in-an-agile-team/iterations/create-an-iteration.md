@@ -6,10 +6,10 @@ description: イテレーションは、スクラムアジャイルチームが�
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '1051'
-ht-degree: 94%
+source-wordcount: '1060'
+ht-degree: 91%
 
 ---
 
@@ -48,18 +48,19 @@ ht-degree: 94%
 
 ## イテレーションを追加
 
-[!UICONTROL イテレーションを追加]機能を使用してイテレーションをすばやく作成し、後にタスクとイシューを追加します。
+リストでイテレーションを追加して素早くイテレーションを作成し、後でタスクと問題を追加できます。
 
 {{step1-to-team}}
 
 1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
 1. 「**[!UICONTROL イテレーション]**」タブで、「**[!UICONTROL イテレーションを追加]**」をクリックします。
-   ![](assets/add-iteration-adobe-350x275.png)
+
+   ![ 「イテレーションを追加」をクリック ](assets/click-add-iteration.png)
 
 1. 以下を指定します。
 
-   <table style="table-layout:auto"> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -90,7 +91,7 @@ ht-degree: 94%
     </tbody> 
    </table>
 
-1. 「**[!UICONTROL 送信]**」をクリックします。イテレーションを作成したら、ストーリーを追加する必要があります。詳しくは、[既存のイテレーションにストーリーを追加](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)を参照してください。
+1. **[!UICONTROL イテレーションを追加]** をクリックします。 イテレーションを作成したら、ストーリーを追加する必要があります。詳しくは、[既存のイテレーションにストーリーを追加](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)を参照してください。
 
 ## 「[!UICONTROL バックログ]」タブでのイテレーションの計画
 

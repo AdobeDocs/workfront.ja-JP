@@ -6,7 +6,7 @@ description: 特定のチームのすべての反復を表示することも、�
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 84%
@@ -54,7 +54,7 @@ ht-degree: 84%
 
 1. 左側のパネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選択するか、「**[!UICONTROL 進行中の反復]**」を選択します。
 
-   ![反復のリスト](assets/view-iteration-NWE.png)
+   ![反復のリスト](assets/view-iteration-list.png)
 
    >[!NOTE]
    >
