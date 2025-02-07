@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 66c1f049-c7b5-4d6b-9dc2-3c5f527764e9
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 85%
+source-wordcount: '222'
+ht-degree: 66%
 
 ---
 
@@ -58,14 +58,14 @@ ht-degree: 85%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
-1. 管理対象のグループ全体を書き出すには、書き出しアイコン ![](assets/export.png) をクリックします。
+1. 管理するグループのグループ全体を書き出す場合は、「書き出し」アイコン ![ 書き出しアイコン ](assets/export.png) をクリックします。
 
    または
 
-   管理対象のグループの一部を書き出すには、そのグループを選択して、書き出しアイコン ![](assets/export.png) をクリックします。
+   管理しているグループの一部を書き出すには、それらのグループを選択し、「書き出し」アイコン ![ 書き出しアイコン ](assets/export.png) をクリックします。
 
 1. 書き出すリストのファイル形式を選択します。

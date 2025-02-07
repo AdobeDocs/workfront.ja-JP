@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1309'
-ht-degree: 96%
+source-wordcount: '1315'
+ht-degree: 95%
 
 ---
 
@@ -89,7 +89,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
-1. グループを選択し、編集 ![](assets/edit-icon.png)、コピー ![](assets/copy-icon.png)、または削除 ![](assets/delete.png) のアイコンをクリックします。
+1. グループを選択し、編集 ![ 編集アイコン ](assets/edit-icon.png)、コピー ![ コピーアイコン ](assets/copy-icon.png)、削除 ![ 削除アイコン ](assets/delete.png) アイコンをクリックします。
 
    表示されるボックスの使用に関する情報が必要な場合は、次のいずれかを参照してください。
 

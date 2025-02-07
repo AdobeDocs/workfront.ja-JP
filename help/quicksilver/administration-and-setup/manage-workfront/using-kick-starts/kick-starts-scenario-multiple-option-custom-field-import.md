@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2155'
-ht-degree: 93%
+source-wordcount: '2181'
+ht-degree: 91%
 
 ---
 
@@ -154,7 +154,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    >
    >Workfront データベース内のオブジェクトの名前について詳しくは、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を参照してください。
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >![ データの書き出しに含まれるシート ](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. 次の情報が正しくフォーマットされていることを確認します。
@@ -206,7 +206,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![ パラメーターシートが入力されました ](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. **`POPT Parameter Options`**** シートを選択し、次の必須列に各カスタムフィールドのオプションに関する情報を追加します。
 
@@ -228,7 +228,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
    * 「**`setLabel`**」および「`**setValue`**」列には通常同じ情報が含まれ、Workfront UI で必要な名前が反映されている必要があります。オプションの値は、例えばレポートに表示される名前です。ラベルはオブジェクトへの添付時にカスタムフォームに表示されます。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
    * **`setIsHidden`** には、いずれかのオプションを非表示にする場合、「`TRUE`」を入力します。
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![ パラメーターシートが入力されました ](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. （オプション）後で新しいフィールドを追加するためのカスタムフォームも作成する場合は、「**`CTGY Category`**」シートを選択し、カスタムフォームの情報に関する次の必須列を追加して更新します。
@@ -239,7 +239,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    グループの `ID` を見つけるには、グループレポートを作成し、ビューで `ID` フィールドを追加するか、グループに移動してそのグループの URL を探します。グループ ID は、グループのページの URL に含まれています。例えば、グループの URL が `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members` の場合、グループ ID は `575b000800467a6f66e747932c807464` です。
 
-   * **`setCatObjCode` ** は、作成するフォームのオブジェクトタイプのオブジェクトコードです。次のオプションからコードを入力します。
+   * **`setCatObjCode`**= フォームを作成するオブジェクトタイプのオブジェクトコードです。 次のオプションからコードを入力します。
       * **`CMPY`**（会社）
       * **`TASK`**（タスク）
       * **`PROJ`**（プロジェクト）
@@ -259,7 +259,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
    * **`setName`** は、Workfront インターフェイスに表示するカスタムフォームの名前です。
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     ![ カテゴリシートに情報が入力されました ](assets/category-sheet-filled-out-kick-starts.png)
 
 1. スプレッドシートを.xls または.xlsx ファイルとしてコンピューターに保存します。Excel スプレッドシートが入力され、Workfront に読み込む準備が整います。
 
@@ -277,11 +277,11 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 1. 作成した Excel スプレッドシートをコンピューターで参照し、見つかったら選択します。 Workfrontがファイルを認識すると、「アップロード」ボタンが青に変わります。
 1. 「**アップロード**」をクリックします。
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![ 選択したファイルとアップロードボタン ](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. インポートが成功したことを示す通知が表示されます。インポートする情報の量によっては、この手順に数秒から 1 分かかる場合があります。
 
-   ![](assets/kick-start-successful.png)
+   ![ キックスタートに成功 ](assets/kick-start-successful.png)
 
    新しいカスタムフィールドとフォームが Workfront システムに追加されます。これらは、設定のカスタムフォームエリアにあります。
 
@@ -294,7 +294,7 @@ Excel スプレッドシートに新しいカスタムフィールドの情報�
 
 1. （条件付き）インポートが成功しなかった場合は、問題を示すエラーメッセージが表示されます。問題が発生したフィールド、シートおよび行番号を特定し、Excel ファイルの情報を修正してから、もう一度ファイルを読み込んでみてください。
 
-   ![](assets/kick-start-error.png)
+   ![ キックスタートエラー ](assets/kick-start-error.png)
 
 1. （条件付き）問題の内容によっては、エラーメッセージに記載されているように、一部の情報が既に読み込まれている場合があります。シートを再度読み込むには、まず次のいずれかを行う必要があります。
 

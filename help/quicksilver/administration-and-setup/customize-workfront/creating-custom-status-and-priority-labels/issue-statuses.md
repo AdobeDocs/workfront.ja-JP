@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bdaec2f-acdf-4cbf-a308-ebcc861dbb89
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1444'
+source-wordcount: '1446'
 ht-degree: 98%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 98%
 
 1. 「**イシュー**」タブをクリックして、Workfront で使用可能なイシューステータスを表示します。
 
-   ![](assets/issue-status.png)
+   ![ 問題の状態 ](assets/issue-status.png)
 
 ## システムのイシューステータス
 

@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: 「キックスタートシナリオ：簡単なプロジェクトとタスクの読み込みの準備」
+title: キックスタートシナリオ：簡単なプロジェクトとタスクの読み込みの準備
 description: キックスタートのメソッドを使用して、基本的なプロジェクトとタスクの読み込みに使用できる設定とコントロールについて詳しく説明します。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 95%
+source-wordcount: '1493'
+ht-degree: 94%
 
 ---
 
@@ -277,10 +277,10 @@ Kick-Start メソッドを使用した基本的なプロジェクトとタスク
 
 ダウンロードした Workfront.xlsx ファイルを開きます。「PROJ」プロジェクトシートに移動します。
 
-![](assets/im2.png)
+![ 見込みプロジェクト セット ](assets/im2.png)
 Workfrontでプロジェクトを既に作成していない限り、空にします。
 
-![](assets/im10.png)
+![ 空のプロジェクトシート ](assets/im10.png)
 
 次のプロジェクトフィールドの値を設定します。
 
@@ -305,7 +305,7 @@ setTaskNumber 列に値を入力して、プロジェクト計画にタスクを
 * **その他の必要な詳細を設定します。**
 必要に応じて、説明や現在のステータスなど、その他の詳細を入力します。「Group」グループシートで各プロジェクトのグループ ID を検索し、それぞれのプロジェクトの setGroupID 列に入力します。「CMPY」会社シートでプロジェクトの会社 ID を検索し、setCompanyID 列に入力します。「USER」ユーザーシートで各プロジェクト所有者のユーザー ID を検索し、これを setOwnerID 列に入力します。「USER」ユーザーシートで各プロジェクトスポンサーのユーザー ID を検索し、これを setOwnerID 列に入力します。
 
-![](assets/im9.png)
+![ 値を設定 ](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ setTaskNumber 列に値を入力して、プロジェクト計画にタスクを
 
 Workfront で既にタスクを作成している場合を除き、このシートは空白にしておく必要があります。
 
-![](assets/im8.png)
+![ タスク シート ](assets/im8.png)
 
-![](assets/im7.png)
+![ 空のタスク シート ](assets/im7.png)
 
-![](assets/im6.png)
+![ タスク シートの列 ](assets/im6.png)
 
 タスクをマッピングする最も簡単な方法は、（特に、各プロジェクトでタスクが同じ場合）一度に 1 つのプロジェクトです。その後、最初のプロジェクトのタスクプランをコピーし、後続のプロジェクトのタスクプランを少し調整できます。残りの手順では、Workfront プロジェクトの実装のみのタスクを作成することを前提としています。シナリオに従って、1 つのプロジェクトにつき 9 つのタスクを読み込むので、isNew 列の 3 行目から 11 行目までに TRUE を入力します。
 
@@ -364,7 +364,7 @@ setDuration フィールドにタスクの時間数、日数、週数または�
 * 各タスクの setPercentComplete フィールドに、完了率の整数表記を入力します。この値には、パーセント記号（%）を含めないでください。
 * 必要に応じて、作成する各タスクの説明とその他の詳細を含めます。
 
-  ![](assets/im5.png)
+  ![ 詳細を追加 ](assets/im5.png)
 
 * 先行タスク関係に基づいているので、setPlannedStartDate 列と setTaskConstraint 列は、このプロジェクトのタイムラインの作成には使用されません。その代わりに、各タスクの日付を入力できます。その場合は、setTaskConstraint 列に有効なタスク制約も指定してください。このフィールドの有効な値について詳しくは、タスク制約の記事と関連記事を参照してください。
 

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 93%
+source-wordcount: '308'
+ht-degree: 92%
 
 ---
 
@@ -70,7 +70,7 @@ SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報�
    >
    >「**iframe への Workfront の埋め込みを許可**」オプションを有効にする場合、「**Office 365 アドインで SAML 2.0 Authentication を許可**」オプションはグレー表示になり、有効になります。
    >
-   >![](assets/if-you-enable.png)
+   >![ 埋め込みを許可オプション ](assets/if-you-enable.png)
    >
 
 1. 「**保存**」をクリックします。

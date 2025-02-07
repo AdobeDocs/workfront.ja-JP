@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '620'
 ht-degree: 97%
 
 ---
@@ -63,7 +63,7 @@ Workfront から受け取ったメッセージを、システム内のユーザ�
 
 1. Workfront インターフェイスの右上隅にある&#x200B;**通知**&#x200B;アイコンをクリックしてお知らせページに移動したあと、「**すべてのお知らせ**」をクリックします。
 
-   ![](assets/announcement-access-350x212.png)
+   ![ すべてのお知らせ ](assets/announcement-access-350x212.png)
 
 1. **お知らせ**&#x200B;ページで、転送するメッセージを選択します。
 1. 「**転送**」をクリックします。
@@ -79,7 +79,7 @@ Workfront から受け取ったメッセージを、システム内のユーザ�
 
 1. Workfront インターフェイスの右上隅にある&#x200B;**通知**&#x200B;アイコンをクリックしてお知らせページに移動したあと、「**すべてのお知らせ**」をクリックします。
 
-   ![](assets/announcement-access-350x212.png)
+   ![ すべての発表 ](assets/announcement-access-350x212.png)
 
 1. **お知らせ**&#x200B;ページで、「**新規お知らせ**」をクリックします。
 

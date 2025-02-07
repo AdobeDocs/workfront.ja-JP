@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 80%
+source-wordcount: '747'
+ht-degree: 77%
 
 ---
 
@@ -86,7 +86,7 @@ Some users, such as executives, need to be able to control which administrators 
    >
    >* グループ管理者は、管理するグループのユーザーとしてのみログインできます。また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![ グループ管理者ユーザー ](assets/group-admin-user.png)
    >   
    >  この設定は、デフォルトで無効になっています。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
    >   
@@ -153,7 +153,7 @@ Workfront は、管理者が別のユーザーとしてログインしている�
 ### 監査情報の表示 {#view-audit-information}
 
 1. Workfront 管理者またはグループ管理者として Workfront にログインします。
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. 「**別のユーザーとしてログイン**」、「**アクセスログ**」タブの順にクリックします。
 

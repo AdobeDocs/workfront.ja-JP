@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 99%
+source-wordcount: '876'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Workfront 管理者は、各ユーザーが持つ必要のあるアクセ�
 ユーザーは、他のユーザーが個々のオブジェクトを共有し、それらに対する特定の権限を付与すると、それらのオブジェクトにアクセスできるようになります。
 
 
-![](assets/security-model-hierachy.png)
+![ セキュリティモデルの階層 ](assets/security-model-hierachy.png)
 
 例えば、アクセスレベルでタスクを作成できると表示されていて、特定のプロジェクトに対して受け取る権限でタスクを追加できない場合、Workfront の他の場所でタスクを作成できても、そのプロジェクトにタスクを追加できません。
 

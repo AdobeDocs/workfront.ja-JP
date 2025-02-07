@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 47%
+source-wordcount: '277'
+ht-degree: 46%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 47%
 
 Workfrontの使用方法に関する情報を含んだカスタムの内部ヘルプサイトを作成する場合は、メインメニューヘルプ アイコンをクリックして、そのサイトに移動できます。
 
-![](assets/custom-help-button.png)
+![ カスタムヘルプボタン ](assets/custom-help-button.png)
 
 このことは、Workfront全体でコンテキストに沿ったヘルプリンク（Workfrontのヘルプサイトにアクセスできる）には影響しません。
 

@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 97%
+source-wordcount: '246'
+ht-degree: 96%
 
 ---
 
@@ -29,7 +29,7 @@ Workfront で SSO 機能を使用するには、組織で SSO アプリケーシ
 
 連合型ソリューションを使用すると、ユーザーは、一元化されたログインポータルにユーザー名とパスワードを入力して、すべてのアプリケーションにログインできます。
 
-![](assets/overview-sso-wf-fed-only.png)
+![SSO フェデレーション ](assets/overview-sso-wf-fed-only.png)
 
 
 ## ファイアウォールの設定

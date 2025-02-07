@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 91%
+source-wordcount: '314'
+ht-degree: 76%
 
 ---
 
@@ -58,9 +58,9 @@ ht-degree: 91%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ** ![](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
-1. 削除するグループを選択し、削除アイコン ![](assets/delete.png) をクリックします。
+1. 削除するグループを選択し、削除アイコン ![ 削除 ](assets/delete.png) をクリックします。
 
    >[!IMPORTANT]
    >
@@ -68,6 +68,6 @@ ht-degree: 91%
 
 1. 表示される「**グループの削除**」ボックスに入力を開始し、削除するグループのメンバー、作業アイテムおよびサブグループを移動するグループ名を選択します。
 
-   適切なグループを選択していることを確認するには、グループにポインタを合わせて、その横に表示される情報アイコン ![](assets/info-icon.png) をクリックします。グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
+   グループの上にマウスポインターを置き、その横に表示される情報アイコン ![ 情報アイコン ](assets/info-icon.png) をクリックして、適切なグループを確実に選択できます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
 
 1. 「**これらを削除します**」をクリックします。

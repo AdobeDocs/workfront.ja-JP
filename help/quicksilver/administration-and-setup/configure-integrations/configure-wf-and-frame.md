@@ -10,10 +10,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 25%
+source-wordcount: '434'
+ht-degree: 24%
 
 ---
 
@@ -97,9 +97,9 @@ Frame.io ユーザーを有効にするには：
 
 {{step-1-to-users}}
 
-1. 1 人以上のユーザーを選択し、「**編集** アイコン ![](assets/edit-icon.png) ージをクリックします。
+1. 1 人以上のユーザーを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. 「アクセス」セクションで、「Frame.io のプロジェクトに追加」チェックボックスを有効にし、ドロップダウンメニューで **はい** を選択します。
-   ![](assets/add-to-frame-project.png)
+   ![ フレーム プロジェクトに追加 ](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >

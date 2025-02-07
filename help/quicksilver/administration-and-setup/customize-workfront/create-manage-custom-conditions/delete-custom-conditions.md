@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 89%
+source-wordcount: '253'
+ht-degree: 81%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 89%
 
 1. オブジェクトタイプのタブ（「**プロジェクト**」タブ、「**タスク**」タブ、または「**イシュー**」タブ）を選択します。ここで、削除する条件を見つけることができます。
 
-1. 削除する条件の上にポインタを合わせて、右端に表示される「**削除**」アイコン ![](assets/delete.png) をクリックします。
+1. 削除したい条件にカーソルを合わせ、右端に表示される **削除** アイコン ![ 削除 ](assets/delete.png) をクリックします。
 1. 表示される確認メッセージで、「**条件を削除**」をクリックします。
 
 1. 表示される「**条件を削除**」ボックスで、削除しようとしている条件を使用しているすべてのプロジェクトのドロップダウンリストから、新しい条件を選択します。

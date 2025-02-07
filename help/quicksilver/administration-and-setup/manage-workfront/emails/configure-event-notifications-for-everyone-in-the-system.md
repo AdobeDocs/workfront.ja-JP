@@ -5,10 +5,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 96%
+source-wordcount: '593'
+ht-degree: 88%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 96%
 
 1. **メール**／**通知**&#x200B;をクリックします。
 
-   ![](assets/notifications-area-under-setup-emails.png)
+   ![ 設定メールの通知領域 ](assets/notifications-area-under-setup-emails.png)
 
 
 1. 「**イベント通知**」タブが開くことを確認します。
@@ -88,7 +88,7 @@ ht-degree: 96%
 
    メール通知の件名行のカスタマイズについて詳しくは、[イベント通知のメール件名をカスタマイズする](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-1. （オプション）メール通知設定のロックを解除して、グループ管理者がグループごとに個別にメール通知を設定できるようにするには、通知の右側にあるボタン ![](assets/lock-toggle-button.png) をクリックしてロック解除位置 ![](assets/unlock-toggle-button.png) に切り替えます。
+1. （オプション）メール通知の設定のロックを解除して、グループ管理者がグループごとに個別に設定できるようにする場合は、通知の右側にあるボタン ![ ロック切り替え ](assets/lock-toggle-button.png) をクリックして、ロック解除位置 ![ ロック解除切り替え ](assets/unlock-toggle-button.png) に切り替えます。
 
    >[!NOTE]
    >

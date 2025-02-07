@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1685'
-ht-degree: 99%
+source-wordcount: '1715'
+ht-degree: 92%
 
 ---
 
@@ -74,7 +74,7 @@ Plan ライセンスに付属している組み込みのシステム管理者の
 
 アクセスレベルがシステム管理者のユーザーは、Workfront 内ですべての操作を実行できます。他のすべてのユーザーが Workfront に入力したすべての Workfront オブジェクトと情報を表示および編集できます。
 
-また、設定エリアへのフルアクセス権を持ち、システムレベルの設定を変更することもできます。また、メインメニュー ![](assets/main-menu-icon.png) またはメインメニュー ![](assets/lines-main-menu.png)（利用可能な場合）のすべてのエリアにアクセスできます。
+また、設定エリアへのフルアクセス権を持ち、システムレベルの設定を変更することもできます。また、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) 内のすべての領域にアクセスできます。
 
 詳しくは、[ユーザーに完全な管理アクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)を参照してください。
 
@@ -86,7 +86,7 @@ Plan ライセンスに付属している計画担当者アクセスレベルは
 * タスク、プロジェクト、ポートフォリオ、プログラムの計画、作成および管理を担当するユーザー
 * 他のユーザーに作業（タスクとイシュー）を割り当てる責任を負うユーザー
 * レポートを作成し、タイムシート、作業アイテムおよびドキュメントを承認するユーザー
-* メインメニュー ![](assets/main-menu-icon.png) またはメインメニュー ![](assets/lines-main-menu.png)（利用可能な場合）のすべてのエリアにアクセスする必要があるユーザー
+* メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) のすべての領域にアクセスする必要があるユーザー（使用可能な場合）
 
 計画担当者の組み込みアクセスレベルのカスタムバージョンを作成し、様々な Workfront オブジェクトのタイプに対して許可するアクセスの量を決定できます。詳しくは、[カスタムアクセスレベルを作成および変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
@@ -122,7 +122,7 @@ Work ライセンスに付属している Worker アクセスレベルは、Work
 * 作業とドキュメントの承認が可能。タイムシートの承認は不可
 * レポートにアクセスして共有できる
 * システム内の他のユーザーとコミュニケーションができる
-* メインメニュー ![](assets/main-menu-icon.png) またはメインメニュー ![](assets/lines-main-menu.png)（利用可能な場合）のすべてのエリアにアクセスできず、「ユーザー」エリアがチーム名になっています。チームエリアでは、このアクセスレベルのユーザーは、所属するチームと、それらのチームに割り当てられた作業のみを表示可能。
+* メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) 内のすべての領域にはアクセスできず、「ユーザー」領域の名前はチームになります。 チームエリアでは、このアクセスレベルのユーザーは、所属するチームと、それらのチームに割り当てられた作業のみを表示可能。
 * 限られたオブジェクト作成権限。プロジェクト、ポートフォリオ、プログラムまたはレポートは作成できません。
 
 作業者の組み込みアクセスレベルのカスタムバージョンを作成し、様々な Workfront オブジェクトタイプについて許可するアクセスの範囲を決定できます。詳しくは、[カスタムアクセスレベルを作成および変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
@@ -158,7 +158,7 @@ Review ライセンスに付属しているレビュアーアクセスレベル�
 レビュアーのアクセスレベルを持つユーザー：
 
 * 作業アイテムの割り当てやタイムシートの承認を行うことはできません
-* メインメニュー ![](assets/main-menu-icon.png) またはメインメニュー ![](assets/lines-main-menu.png)（利用可能な場合）のリクエストおよびドキュメントエリアにアクセスできます
+* メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) のリクエストおよびドキュメント領域にアクセスできます。
 * 限られたオブジェクト作成権限。プロジェクト、ポートフォリオ、プログラムまたはレポートは作成できません。
 
 レビュアーのビルトインアクセスレベルのカスタムバージョンを作成し、様々な Workfront オブジェクトタイプに対して許可するアクセス権の数を決定できます。詳しくは、[カスタムアクセスレベルを作成および変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
@@ -285,7 +285,7 @@ Request ライセンスに付属している依頼者アクセスレベルは、
 * ドキュメントをアップロードして承認できる
 * 送信したイシューのステータスをレビューできる
 * 作業アイテムに割り当てることはできない
-* メインメニュー ![](assets/main-menu-icon.png) またはメインメニュー ![](assets/lines-main-menu.png)（利用可能な場合）のリクエストエリアからのみリクエストにアクセスできます。リクエストキューについて詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
+* リクエストには、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) のリクエスト領域（使用可能な場合）からのみアクセスできます。 リクエストキューについて詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
 要求者の組み込みアクセスレベルのカスタムバージョンを作成し、様々な Workfront オブジェクトタイプについて許可するアクセスの範囲を決定できます。詳しくは、[カスタムアクセスレベルを作成および変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 

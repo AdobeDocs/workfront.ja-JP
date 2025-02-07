@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '728'
 ht-degree: 96%
 
 ---
@@ -105,10 +105,10 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
 
    クラスターは、「**基本情報**」セクションの右上隅近くに表示されます。
 
-   ![](assets/locate-cluster.png)
+   ![ クラスターの検索 ](assets/locate-cluster.png)
 
 1. Workfront プランを表示するには、「**ライセンス**」を選択します。
 
    プランがページの右上隅付近に表示されます。
 
-   ![](assets/locate-plan.png)
+   ![ 計画の検索 ](assets/locate-plan.png)

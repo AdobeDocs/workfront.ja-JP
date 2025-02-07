@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 94%
+source-wordcount: '623'
+ht-degree: 86%
 
 ---
 
@@ -91,8 +91,8 @@ Unlike other Lock/Unlock articles that start just like this one, we need the ste
 
 1. 表示されるページで、次のいずれかの操作を行います。
 
-   * 自身のグループの下にあるグループの管理者が自身のグループの環境設定を構成できるようにするには、ロックを解除します ![](assets/unlock-toggle-button.png)。
-   * 自分の下のすべてのグループに設定を使用させたい場合は、その設定がロック ![](assets/lock-toggle-button.png) であることを確認してください（これがデフォルトの設定です）。
+   * グループの下のグループの管理者がグループの環境設定を設定できるようにするには、そのロックを解除します ![ ロック解除切替スイッチ ](assets/unlock-toggle-button.png)。
+   * 以下のすべてのグループを環境設定で使用する場合は、ロックされていることを確認してください ![ ロック切り替え ](assets/lock-toggle-button.png) （デフォルト）。
 
      >[!IMPORTANT]
      >

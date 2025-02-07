@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '6474'
-ht-degree: 77%
+source-wordcount: '6492'
+ht-degree: 76%
 
 ---
 
@@ -60,10 +60,10 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 1. 「**新規カスタムフォーム**」をクリックします。
 1. カスタムフォームを添付するオブジェクトタイプを選択し、「**続行**」をクリックします。
 
-   ![](assets/choose-object-type.jpg)
+   ![ オブジェクトタイプを選択 ](assets/choose-object-type.jpg)
 
 1. **タイトルが必要です**&#x200B;エリアに、カスタムフォームタイトルを入力します。
-1. （オプション）フォームに他のオブジェクトタイプを追加して、より多くのオブジェクトに添付できるようにする場合は、**オブジェクトタイプ**&#x200B;の後にある&#x200B;**追加**&#x200B;アイコン ![](assets/add-objects-icon.png) をクリックし、表示されるメニューから必要なタイプを選択します。この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
+1. （オプション）フォームにオブジェクトタイプを追加してさらに多くのオブジェクトに添付できるようにする場合は、**オブジェクトタイプ** の後にある ![ 追加 ](assets/add-objects-icon.png) アイコン **オブジェクトを追加アイコン** をクリックし、表示されるメニューで必要なタイプを選択します。 この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
 
    また、オブジェクトタイプの X をクリックして、フォームから削除することもできます。
 
@@ -179,7 +179,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
    * 書式付きテキスト
    * 説明テキスト
 
-   ![](assets/drag-field-to-section.png)
+   ![ フィールドをセクションにドラッグ ](assets/drag-field-to-section.png)
 
 1. 画面の右側で、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 
@@ -464,7 +464,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
    * 先行入力
    * 日付
 
-   ![](assets/drag-field-to-section.png)
+   ![ フィールドをセクションにドラッグ ](assets/drag-field-to-section.png)
 
 1. 画面の右側で、追加するカスタムフィールドのタイプに使用できるオプションを設定します。
 
@@ -698,7 +698,7 @@ The Workfront Mobile app -->
    * PDF
    * ビデオ
 
-   ![](assets/drag-field-to-section.png)
+   ![ フィールドをセクションにドラッグ ](assets/drag-field-to-section.png)
 
 1. ウィジェットの次のいずれかのプロパティを入力または編集します。
 

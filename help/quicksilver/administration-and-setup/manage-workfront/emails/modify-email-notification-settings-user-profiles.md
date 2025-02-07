@@ -9,10 +9,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 96%
+source-wordcount: '465'
+ht-degree: 86%
 
 ---
 
@@ -68,7 +68,7 @@ Adobe Workfront 管理者、または他のユーザーの設定を編集でき�
 
 1. カテゴリを展開して、そのカテゴリに関連する通知設定を表示します。
 
-   1 人以上のユーザーを選択し、そのユーザーの通知が他の選択したユーザーの通知と一致しない場合、その通知のカテゴリのチェックボックスには、チェックマークの代わりに水平線 ![](assets/straight-line-instead-of-checkmark.jpg) が表示されます。
+   少なくとも 1 人のユーザーが選択されていて、その通知が他の選択されたユーザーの通知と一致しない場合、その通知の「カテゴリ」チェックボックスには、チェックマークではなく横線 ![ チェックの代わりに線 ](assets/straight-line-instead-of-checkmark.jpg) が表示されます。
 
 
 1. ユーザーが日次または即時に受信する通知をクリックするか、または受信を停止する通知をクリアします。
@@ -80,7 +80,7 @@ Adobe Workfront 管理者、または他のユーザーの設定を編集でき�
 
 1. 日次ダイジェストとして送信する通知を選択した場合は、ダイジェストを配信する時刻を、**この時間を過ぎると日次ダイジェストを送信**&#x200B;メニューの「**通知**」セクションの上部で選択します。
 
-   ![](assets/daily-digest-time.png)
+   ![ デイリーダイジェスト時間 ](assets/daily-digest-time.png)
 
    日次ダイジェストには、選択した時間の 24 時間前に通知の条件を満たすイベントが含まれます。ユーザーは、通知タイプごとに 1 通の日次ダイジェストメールを受け取ります。
 

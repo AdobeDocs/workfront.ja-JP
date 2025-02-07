@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 97%
+source-wordcount: '784'
+ht-degree: 86%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 Adobe Workfront の管理者は、レイアウトテンプレートを使用して、フィルター、表示、グループ化の各ドロップダウンメニューに表示するリストコントロールを指定できます。これらのメニューは、プロジェクトのタスクリストなど、Workfront 全体のリストの上に表示されます。
 
-![](assets/filter-view-grouping-layout-templates.png)
+![ フィルタービューのグループ化レイアウトテンプレート ](assets/filter-view-grouping-layout-templates.png)
 
 レイアウトテンプレートに関して詳しくは、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
@@ -62,25 +62,25 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
 ## フィルター、表示およびグループ化のリストコントロールをカスタマイズ：
 
 1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
-1. **ユーザーに表示する内容のカスタマイズ**&#x200B;の下にある下向き矢印![](assets/down-arrow-blue.png)をクリックし、次に&#x200B;**リスト**&#x200B;をクリックします。
+1. **ユーザーの表示項目をカスタマイズ ](assets/down-arrow-blue.png) の下の下向き矢印 ![ 下向き矢印** をクリックし、表示されるドロップダウンメニューで **リスト** をクリックします。
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![ ユーザーの表示内容のカスタマイズ ](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. **カスタマイズするリストの選択**&#x200B;の下にある下向き矢印![](assets/down-arrow-blue.png)をクリックし、次に、フィルター、表示およびグループ化のリストコントロールをカスタマイズする Workfront オブジェクトのタイプを選択します。
+1. **カスタマイズするリストを選択** の下の下向き矢印 ![ 下向き矢印 ](assets/down-arrow-blue.png) をクリックし、リストのフィルター、表示、グループ化コントロールをカスタマイズするWorkfront オブジェクトの種類を選択します。
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![ カスタマイズするリストを選択 ](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >カスタマイズするプロジェクトをリストとして選択し、フィルタセクションにある、自分が所属するプロジェクト、または自分が所有するプロジェクトを無効にすると、ユーザーはそのフィルターを表示したり使用したりすることができなくなります。
    >
-   >* リストの上にあるフィルターアイコン ![](assets/filter-nwepng.png) をクリックしたときに表示されるフィルターのリスト内で、以下のように行います。
+   >* リストの上にあるフィルターアイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックすると表示されるフィルターのリストで、以下を行います。
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![ フィルターを無効にする ](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* プロジェクトエリアヘッダーの上にあるヘッダーで、以下のように行います。
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![ 「フィルターを無効にする」ボタン ](assets/disable-filter-pills.png)
 
 1. （オプション）レイアウトテンプレートのデフォルトのフィルター、表示またはグループ化を変更する場合は、フィルター、表示またはグループ化にポインタを合わせて、**デフォルトとして設定**&#x200B;をクリックします。
 

@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 65%
+source-wordcount: '1102'
+ht-degree: 64%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 65%
 
 例えば、ユーザーがタスクを表示する際に、左パネルで次の項目のうちどれを表示するかを決定できます。
 
-![](assets/left-panel-adobe-branding.png)
+![ ブランディング左パネル ](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ ht-degree: 65%
 ## [!DNL Workfront] でエリアの左パネルをカスタマイズ
 
 1. [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. **[!UICONTROL ユーザーに表示する項目をカスタマイズ]** の下にある下向き矢印 ![](assets/dropdown-arrow.png) をクリックし、カスタマイズするオブジェクト タイプまたは [!DNL Workfront] 領域の名前をクリックします。
+1. **[!UICONTROL ユーザーに表示する項目をカスタマイズ ](assets/dropdown-arrow.png) の下にある下向き矢印 ![ 下向き矢印]** をクリックし、カスタマイズするオブジェクト タイプの名前または [!DNL Workfront] の領域をクリックします。
 
    左側のパネルをカスタマイズできるオブジェクトタイプと [!DNL Workfront] 領域を次の表に示します。
 
@@ -89,7 +89,7 @@ ht-degree: 65%
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>プロジェクト名</td> 
-      <td>[!UICONTROL タスク ]、[!UICONTROL プロジェクトの詳細 ]、[!UICONTROL ビジネスケース ]、[!UICONTROL の更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL の問題 ]、[!UICONTROL リスク ]、[!UICONTROL 承認 ]、[!UICONTROL ベースライン ]、[!UICONTROL 請求レート ]、[!UICONTROL 請求レコード ]、[!UICONTROL 費用 ]、[!UICONTROL 時間 ]、[!UICONTROL ワークロードバランサー ]、[!UICONTROL 人物 ]、[!UICONTROL 使用率 ]、[!UICONTROL キューの詳細 ]、[!UICONTROL ルーティング規則 ]、[!UICONTROL キュートピック ]、[!UICONTROL トピック グループ ]、[!UICONTROL 指標 ]、[!UICONTROL l プランニング ]*</td> 
+      <td>[!UICONTROL タスク ]、[!UICONTROL プロジェクトの詳細 ]、[!UICONTROL ビジネスケース ]、[!UICONTROL の更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL の問題 ]、[!UICONTROL リスク ]、[!UICONTROL 承認 ]、[!UICONTROL ベースライン ]、[!UICONTROL 請求レート ]、[!UICONTROL 請求レコード ]、[!UICONTROL 費用 ]、[!UICONTROL 時間 ]、[!UICONTROL ワークロードバランサー ]、[!UICONTROL 人物 ]、[!UICONTROL 使用率 ]、[!UICONTROL キューの詳細 ]、[!UICONTROL ルーティング規則 ]、[!UICONTROL キュートピック ]、[!UICONTROL トピック グループ ]、[!UICONTROL 指標 ]、[!UICONTROL uicontrol プランニング ]*</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
@@ -204,9 +204,9 @@ ht-degree: 65%
 
 1. **[!UICONTROL 左側のパネル]** リストで、次のいずれかの操作を行って、選択した [!DNL Workfront] 領域またはオブジェクトタイプの左側のパネルに表示される内容を決定します。
 
-   * 左側のパネルのセクションを表示または非表示にするには、「**表示** ![](assets/add-secondary-nav-item.png)」または「**非表示**」 ![](assets/delete-secondary-nav-item.png) イコンをクリックします。 **表示** または **非表示** アイコンのない項目は非表示にできません。
+   * **表示** ![ 表示アイコン ](assets/add-secondary-nav-item.png) または **非表示** ![ 非表示アイコン ](assets/delete-secondary-nav-item.png) アイコンをクリックして、左側のパネルのセクションを表示または非表示にします。 **表示** または **非表示** アイコンのない項目は非表示にできません。
 
-   * 項目の ![](assets/move-icon---dots.png) をドラッグして、左パネルでの順序を変更します。
+   * 項目 ![ 移動アイコン ](assets/move-icon---dots.png) をドラッグして、左側のパネルでの順序を変更します。
 
    >[!NOTE]
    >

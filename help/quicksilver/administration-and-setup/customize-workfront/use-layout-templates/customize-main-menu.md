@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 82%
+source-wordcount: '639'
+ht-degree: 71%
 
 ---
 
@@ -98,7 +98,7 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
      >[!NOTE]
      >
-     >（現在のライセンスモデルで）プランライセンスを持つユーザー、または（新しいライセンスモデルで）標準ライセンスを持つユーザーのみが、メインメニューのユーザーエリア ![](assets/users-icon-in-main-menu.png) を表示できます。
+     >現在のライセンスモデルのプランライセンスを持つユーザー、または新しいライセンスモデルの標準ライセンスを持つユーザーのみが、メインメニューのユーザー ![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) を表示できます。
 
    * リクエスト
    * タイムシート
@@ -123,9 +123,9 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
 
 1. 次のいずれかの操作を行います。
 
-   * 表示しない ![](assets/remove-icon---x-in-circle.png) **アクティブな項目**&#x200B;を非表示にします。
-   * メインメニューに表示する ![](assets/add-icon-plus-in-circle.png) **利用可能な項目**&#x200B;を表示します。
-   * ![](assets/move-icon---dots.png) **アクティブな項目**&#x200B;をドラッグして、メインメニューの表示順を変更します。
+   * 表示しない ![ 非表示アイコン ](assets/remove-icon---x-in-circle.png)**アクティブな項目** を非表示にする
+   * メインメニューに表示する ![ アイコンを表示 ](assets/add-icon-plus-in-circle.png)**利用可能な項目** を表示します。
+   * ドラッグ ![ ドラッグアイコン ](assets/move-icon---dots.png)**アクティブなアイテム** を使用して、メインメニューの表示順序を変更できます。
 
 1. 「**完了**」をクリックします。
 

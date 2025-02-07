@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '577'
-ht-degree: 85%
+source-wordcount: '596'
+ht-degree: 72%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Workfront 管理者は、タスク、イシュー、ドキュメント、プログラム、またはポートフォリオの表示中にユーザーが左側のパネルの詳細アイコン ![](assets/project-details-icon.png) をクリックしたときに表示される情報を、レイアウトテンプレートを使用して決定できます。
+Adobe Workfront管理者は、レイアウトテンプレートを使用して、タスク、イシュー、ドキュメント、プログラム、ポートフォリオを表示している際に、左側のパネルの詳細アイコン ![ 詳細アイコン ](assets/project-details-icon.png) をクリックしたときに表示される情報を指定できます。
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ or billing record
 
 * 「オブジェクトを作成」ボックス（「タスクを作成」など）
 
-  ![](assets/new-task-dialog.png)
+  ![ 新規タスクダイアログ ](assets/new-task-dialog.png)
 
 
 * タスクを編集、イシューを編集、プロジェクトを編集など、オブジェクトの編集時の「オブジェクトを編集」画面
 
-  ![](assets/edit-task-screen.png)
+  ![ タスクを編集画面 ](assets/edit-task-screen.png)
 
 
 * オブジェクトを一括編集する際の「オブジェクトを編集」画面。現在、これはプロジェクトの一括編集でサポートされています。
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![ プロジェクトの編集のカスタマイズ ](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* タスクおよび問題のリストの概要パネル ![](assets/summary-panel-icon.png)
+* タスクおよび問題のリストの概要パネル ![ 概要パネル ](assets/summary-panel-icon.png)
 
-  ![](assets/summary-area.png)
+  ![ 概要領域 ](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -100,14 +100,14 @@ or billing record
 ## 詳細ビューでユーザーに表示する項目をカスタマイズする
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. 「**ユーザーの表示項目をカスタマイズする**」で下矢印![](assets/dropdown-arrow-12x12.png)をクリックして、「**プロジェクト**」、「**タスク**」、「**イシュー**」、「**プログラム**」、または「**ポートフォリオ**」をクリックします。
+1. **ユーザーに表示するものをカスタマイズ** の下の下向き矢印 ![ 下向き矢印 ](assets/dropdown-arrow-12x12.png) をクリックし、**プロジェクト**、**タスク**、**イシュー**、**プログラム**、**Portfolio** をクリックします。
 <!--
 , or billing record
 -->
 
 1. 「**詳細**」セクションで、次のいずれかの操作を行って、詳細ビューに表示する項目をカスタマイズします。
 
-   * 任意のセクションヘッダー ![](assets/move-icon---dots.png) をドラッグして、順序を変更します。
+   * セクションヘッダー ![ 移動アイコン ](assets/move-icon---dots.png) をドラッグして、順序を変更します。
    * 様々な領域（「概要」 **、「財務**、「カスタムForms **** など **の下にあるオプションを有効または無効にして、表示と非表示を切り替** ます。
 
      これらのセクションの 1 つですべてのフィールドを非表示にした場合、セクション全体が非表示になります。

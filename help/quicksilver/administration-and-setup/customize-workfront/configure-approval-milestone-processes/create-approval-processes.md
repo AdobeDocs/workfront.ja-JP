@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2191'
-ht-degree: 97%
+source-wordcount: '2193'
+ht-degree: 96%
 
 ---
 
@@ -53,7 +53,7 @@ ht-degree: 97%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>システムレベルまたは単一使用の承認プロセス：任意</p>
-   <p>グループレベルの承認プロセス：Prime または Ultimate</p></td> 
+   <p>グループレベルの承認プロセス：PrimeまたはUltimate</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
@@ -82,10 +82,10 @@ ht-degree: 97%
 
    または
 
-   グループレベルの承認プロセスを作成する場合は、**グループ** ![](assets/groups-icon.png) をクリックし、グループの名前をクリックしてから「**承認**」をクリックします。
+   グループレベルの承認プロセスを作成する場合は、**グループ**![ グループアイコン ](assets/groups-icon.png) をクリックし、グループの名前をクリックして、**承認** をクリックします。
 
    <!--hidden for the new tab redesign - August 2023: 
-   ![](assets/approvals-area-in-setup-processes.png)
+   ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
 1. 「**プロジェクトの承認**」、「**タスクの承認**」または 「**問題の承認**」タブのいずれかを選択します。

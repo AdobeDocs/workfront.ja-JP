@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 97%
+source-wordcount: '633'
+ht-degree: 92%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
    既存の条件を編集するには、編集する条件にポインタを合わせ、右端に表示される&#x200B;**編集**&#x200B;アイコンをクリックします。
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![ カスタム条件 ](assets/custom-condition-edit-nwe.jpg)
 
 1. 次のオプションを使用して、カスタム条件を設定します。
 
@@ -110,21 +110,21 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
    >
    >条件の用語と色は、3 つのオブジェクトタイプすべてにわたって標準化できます。それには、条件名と色の 16 進コードを、1 つのタブ（「プロジェクト」、「タスク」、「イシュー」）から他の 2 つのタブの対応する条件にコピーします。
 
-1. （オプション）任意の条件を新しい位置にドラッグ ![](assets/move-icon---dots.png) して、リストを並べ替えます。
+1. （任意）任意の条件 ![ 移動アイコン ](assets/move-icon---dots.png) を新しい位置にドラッグして、リストを並べ替えます。
 
    これにより、プロジェクト、タスクおよびイシューでの条件の表示順序が変わります。
 
    * ユーザーがプロジェクトを編集する場合：
 
-     ![](assets/change-condition-edit-project.png)
+     ![ プロジェクト編集時の条件の変更 ](assets/change-condition-edit-project.png)
 
    * ユーザーが「更新」タブでタスクまたはイシューの条件を変更する場合：
 
-     ![](assets/change-condition-update-comment.png)
+     ![ コメントを更新する際の条件の変更 ](assets/change-condition-update-comment.png)
 
    * ユーザーがリスト表示でタスクまたはイシューの条件を変更する場合
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-only.png)
 
 1. 「**保存**」をクリックします。
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2693'
-ht-degree: 91%
+source-wordcount: '2695'
+ht-degree: 90%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 91%
 1. 左側のパネルで、**[!UICONTROL プロジェクト環境設定]**／**[!UICONTROL プロジェクト]**&#x200B;をクリックします。
 
 1. **プロジェクト設定**&#x200B;ページで、以下の 4 つのセクションのいずれかに進み、[!UICONTROL プロジェクトステータス]、[!UICONTROL タイムライン]、[!UICONTROL ビジネスケース]、[!UICONTROL 終了後の操作]の設定を行います。
-1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロックされている ![](assets/lock-toggle-button.png) ことを確認します（これがデフォルトの設定です）。
+1. 組織全体のすべてのグループで同じプロジェクト環境設定を使用する場合は、各環境設定がロック ![ ロック切り替え ](assets/lock-toggle-button.png) になっていることを確認します（これはデフォルトです）。
 
    >[!IMPORTANT]
    >

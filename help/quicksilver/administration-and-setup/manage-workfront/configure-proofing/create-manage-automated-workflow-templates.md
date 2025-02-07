@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2075'
-ht-degree: 97%
+source-wordcount: '2079'
+ht-degree: 95%
 
 ---
 
@@ -209,7 +209,7 @@ Workfront のプルーフ管理者は、自動化ワークフローのテンプ�
     </tbody> 
    </table>
 
-1. **ワークフロー**&#x200B;セクションで、ステージの名前を変更し、そのステージの設定 ![](assets/arrow-button.png) を展開して、必要な変更を加えます。
+1. 「**ワークフロー**」セクションで、ステージの名前を変更し、その設定を展開 ![ 「展開」ボタン ](assets/arrow-button.png) し、必要な変更を加えます。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ Workfront のプルーフ管理者は、自動化ワークフローのテンプ�
 
    図を表示する必要がない場合は、「**ダイアグラムを隠す**」をクリックします。
 
-1. 「**共有：**」セクションでユーザーを削除する場合は、その他ボタン ![](assets/more-icon.png) をクリックし、続いて「**削除**」をクリックします。
+1. ユーザーを削除する場合は、「**共有先**」セクションで、右側の「詳細 ![ 詳細アイコン ](assets/more-icon.png) ボタンをクリックしてから、「**削除**」をクリックします。
 
 ## 自動化ワークフローテンプレートグループの作成 {#create-automated-workflow-template-groups}
 

@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 98%
+source-wordcount: '932'
+ht-degree: 96%
 
 ---
 
@@ -88,9 +88,9 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
 
 1. 名前の後に「**未登録**」ラベルが表示されているユーザーを選択します。
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![ 未登録 ](assets/unreg-user-qs-350x221.png)
 
-1. その他アイコン ![](assets/more-icon.png) をクリックし、次に&#x200B;**登録についてユーザーに後で通知**&#x200B;をクリックします。
+1. その他アイコン ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**登録をユーザーに通知** をクリックします。
 
    新規ユーザーに、Workfront パスワードの作成に使用できる新しいリンクを含む招待メールが送信されます。
 

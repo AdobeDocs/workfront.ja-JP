@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 87%
+source-wordcount: '247'
+ht-degree: 84%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 87%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. グループ管理者を割り当てるグループの名前をクリックします。
 1. ヘッダーの右上隅付近で、「**グループ管理者**」内のユーザープロファイル画像の 1 つをクリックします。

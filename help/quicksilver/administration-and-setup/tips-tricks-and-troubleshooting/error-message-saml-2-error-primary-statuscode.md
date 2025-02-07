@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「エラーメッセージ：SAML 2.0 エラー：プライマリステータスコード」
+title: エラーメッセージ：SAML 2.0 エラー：プライマリStatusCode
 description: ADFS への接続が正常に確立できません。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '361'
 ht-degree: 94%
 
 ---
@@ -70,8 +70,8 @@ ADFS への接続が正常に確立できません。
 1. 左側のペインで&#x200B;**[!UICONTROL 信頼関係]**／**[!UICONTROL 証明書利用者の信頼]**&#x200B;を選択します。
 
 1. [!DNL Adobe Workfront] に関連する証明書利用者の信頼を右クリックし、「**[!UICONTROL プロパティ]**」を選択します。
-1. 「**[!UICONTROL 詳細]**」タブをクリックし、**[!UICONTROL セキュアハッシュアルゴリズム]**&#x200B;ドロップダウンメニューから「**[!UICONTROL SHA-1]**」を選択します。\
-   ![](assets/1-350x287.png)
+1. 「**[!UICONTROL 詳細]**」タブをクリックし、**[!UICONTROL セキュアハッシュアルゴリズム]**&#x200B;ドロップダウンメニューから「**[!UICONTROL SHA-1]**」を選択します。
+   ![SHA-1](assets/1-350x287.png)
 
 ## 原因 2：ADFS 署名証明書の有効期限が近づいており、日付が重複する新しい証明書に置き換えられた
 

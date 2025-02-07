@@ -8,10 +8,10 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 97%
+source-wordcount: '563'
+ht-degree: 96%
 
 ---
 
@@ -125,15 +125,15 @@ ht-degree: 97%
       >
       >名前を変更する際には、決定のロジックは保持します。例えば、デフォルトの決定「却下」を「*新しいバージョンが必要*」に変更することはできますが、「*プリンターへ送信*」には変更しないでください。
 
-      ![](assets/rename-decision-350x109.png)
+      ![ 決定の名前を変更 ](assets/rename-decision-350x109.png)
 
    1. **決定順序を並べ替える**：決定ボックスを、プルーフビューアに表示する順序にドラッグします。
 
-      ![](assets/move-decision-350x110.png)
+      ![ 決定を移動 ](assets/move-decision-350x110.png)
 
    1. **決定を非表示にする**：決定ボックスにポインタを合わせて、右上隅の非表示アイコンをクリックします。
 
-      ![](assets/hide-decision-350x109.png)
+      ![ 決定を非表示 ](assets/hide-decision-350x109.png)
 
 1. （オプション）Workfront のデフォルトに戻るには、「**デフォルトに戻す**」をクリックします。
 1. 「**保存**」をクリックします。

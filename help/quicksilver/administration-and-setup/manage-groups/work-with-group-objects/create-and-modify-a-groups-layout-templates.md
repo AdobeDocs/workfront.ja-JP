@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 95%
+source-wordcount: '369'
+ht-degree: 92%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 95%
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
 1. レイアウトテンプレートを作成または変更するグループの名前をクリックします。
-1. 左パネルの&#x200B;**レイアウトテンプレート**&#x200B;アイコン ![](assets/layout-templates-icon.png) をクリックします。
+1. 左側のパネルで、**レイアウトテンプレート** ![ レイアウトテンプレートアイコン ](assets/layout-templates-icon.png) をクリックします。
 
 1. 次のいずれかの操作を行います。
 

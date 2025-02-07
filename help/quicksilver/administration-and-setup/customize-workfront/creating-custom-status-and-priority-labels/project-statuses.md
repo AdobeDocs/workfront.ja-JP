@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 95%
+source-wordcount: '367'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ Workfront 管理者は、システムレベルのプロジェクトステータ�
 
    Workfront で使用できるプロジェクトステータスがこのタブに表示されます。
 
-   ![](assets/project-status.png)
+   ![ プロジェクトステータス ](assets/project-status.png)
 
    組み込みの各システムプロジェクトステータスについて詳しくは、[システムプロジェクトステータスの概要](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)を参照してください。
 

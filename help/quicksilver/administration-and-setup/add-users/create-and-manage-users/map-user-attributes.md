@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 98%
+source-wordcount: '977'
+ht-degree: 94%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 
 ### 従来のエクスペリエンスでユーザー属性をマッピング
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. **システム**／**シングルサインオン(SSO)** をクリックします。
 
@@ -85,7 +85,7 @@ ht-degree: 98%
 
 1. 「**ユーザー属性の割り当て**」をクリックします。
 
-   ![](assets/map-user-attributes.png)
+   ![ ユーザー属性のマッピング ](assets/map-user-attributes.png)
 
 1. 表示されるオプションの行で、必要な属性を Workfront ユーザーにマッピングします。
 
@@ -123,7 +123,7 @@ ht-degree: 98%
    1. ドロップダウンで、使用する属性修飾子を選択します。
    1. 右側の 2 つのフィールドに、ディレクトリ属性値と、置き換える値を入力します。
 
-      ![](assets/rule-fields.png)
+      ![ ルールフィールド ](assets/rule-fields.png)
 
    「**ルールを追加**」をクリックして、属性にルールを追加します。
 
@@ -132,7 +132,7 @@ ht-degree: 98%
 
 ### Adobe Unified Experience でユーザー属性をマッピング
 
-1. Adobe Workfront の左上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-left.png) をクリックし、続いて&#x200B;**設定**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfrontの左上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-left.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. **システム**／**シングルサインオン(SSO)** をクリックします。
 

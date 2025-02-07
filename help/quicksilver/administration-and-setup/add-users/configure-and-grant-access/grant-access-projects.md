@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '641'
-ht-degree: 97%
+source-wordcount: '650'
+ht-degree: 92%
 
 ---
 
@@ -61,9 +61,9 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、プロジ�
 ## カスタムアクセスレベルを使用してプロジェクトへのユーザーのアクセス権を設定
 
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
-1. プロジェクトの右側にある「**表示**」ボタンまたは「**編集**」ボタンの歯車アイコン ![](assets/gear-icon-settings.png) をクリックし、**設定の微調整**&#x200B;で許可する機能を選択します。
+1. 「表示 ![ またはプロジェクトの右側にある **編集 ](assets/gear-icon-settings.png) ボタンの歯車アイコン** 歯車設定アイコン **** をクリックし、付与するアビリティーを **設定を微調整** から選択します。
 
-   ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![ プロジェクトをコピーするための設定の微調整 ](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

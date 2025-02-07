@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 98%
+source-wordcount: '1018'
+ht-degree: 90%
 
 ---
 
@@ -54,10 +54,10 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
 
 {{step-1-to-setup}}
 
-1. 左パネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. チームを作成または変更するグループの名前をクリックします。
-1. 左パネルで&#x200B;**チーム** ![](assets/teams.png) をクリックして、グループおよびそのサブグループに関連付けられているチームを一覧表示します。
+1. 左側のパネルで「**チーム** ![ チーム ](assets/teams.png)」をクリックすると、グループに関連付けられたチームと、グループに含まれる可能性のあるサブグループに関連付けられたチームがリストされます。
 
 1. 次のいずれかの操作を行います。
 
@@ -100,7 +100,7 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
       </tbody> 
      </table>
 
-   * **チームを編集**：少なくとも 1 つのチームを選択して&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックし、次のオプションを使用して設定します。
+   * **チームを編集**：少なくとも 1 つのチームを選択し、**** 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、次のオプションを使用して設定します。
 
      <table style="table-layout:auto"> 
       <col> 
@@ -143,11 +143,11 @@ Workfront 管理者がチームを作成する方法について詳しくは、[
        <td> <p>「完了」ボタンをカスタマイズします。詳しくは、以下を参照してください。</p> 
        <ul> 
        <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">タスクの「完了」ボタンの設定</a> </li> 
-       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">イシューへの「完了」ボタンの設定</a> </li> 
+       <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">イシューの「完了」ボタンの設定</a> </li> 
        </ul> </td> 
        </tr> 
       </tbody> 
      </table>
 
-   * **チームを削除**：少なくとも 1 つのチームを選択して、削除アイコン ![](assets/delete.png) をクリックします。
-   * **チームのリストを書き出し**：**書き出し** ![](assets/export.png) をクリックし、書き出すリストのファイル形式を選択します。
+   * **チームを削除**：少なくとも 1 つのチームを選択し、削除アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+   * **チームのリストをエクスポート**: **エクスポート** ![ エクスポートアイコン ](assets/export.png) をクリックして、エクスポートされたリストに使用するファイル形式を選択します。

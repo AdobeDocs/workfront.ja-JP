@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 43%
 
 ---
 
 # デフォルトの Adobe Workfront レイアウトについて
 
-デフォルトのレイアウトは、Adobe Workfront管理者がレイアウトテンプレートを使用して変更を加える前に、メインメニュー ![](assets/main-menu-icon.png) またはメインメニュー ![](assets/lines-main-menu.png) （使用可能な場合）の左側のパネル、ビュー、グループ化およびフィルターを配置することです。
+デフォルトのレイアウトは、Adobe Workfront管理者がレイアウトテンプレートを使用して変更を行う前に、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) （使用可能な場合）の左側のパネル、ビュー、グループ化、フィルターが配置されます。
 
 Workfront 管理者がユーザーにレイアウトテンプレートを割り当ててユーザーのデフォルトレイアウトを変更する方法について詳しくは、[レイアウトテンプレートにユーザーを割り当て](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)を参照してください。
 

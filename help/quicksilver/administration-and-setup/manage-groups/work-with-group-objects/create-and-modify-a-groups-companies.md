@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
-ht-degree: 92%
+source-wordcount: '756'
+ht-degree: 84%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 92%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. 会社を作成または変更するグループの名前をクリックします。
 1. 左側のパネルで「**会社**」をクリックし、グループとそのグループに含まれるサブグループに関連付けられている会社を一覧表示します。
@@ -86,8 +86,8 @@ ht-degree: 92%
    >
    >アクセスレベルで会社に対する管理者アクセス権を持っている場合は、リストの下部にある「他の会社を追加」をクリックすることもできます。これにより、新しい会社を素早く設定できる行が追加されます。
 
-1. （オプション）会社を編集または削除するには、少なくとも 1 つの会社を選択してから、ツールバーのボタンを使用して編集 ![](assets/edit-icon.png) または削除 ![](assets/delete.png) します。
+1. （任意）会社を編集または削除するには、少なくとも 1 つの会社を選択し、ツールバーボタンを使用して会社を編集 ![ 編集アイコン ](assets/edit-icon.png) または削除 ![ 削除アイコン ](assets/delete.png) します。
 
    会社の編集について詳しくは、[会社の作成または編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)の記事の[Workfront での会社の作成または編集](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront)の節を参照してください。
 
-1. （オプション）会社のリストを書き出すには、書き出しアイコン ![](assets/export.png) をクリックしてから、書き出すリストのファイル形式を選択します。
+1. （任意）会社のリストを書き出すには、「書き出し」アイコン ![ 書き出しアイコン ](assets/export.png) をクリックし、書き出すリストに使用するファイル形式を選択します。

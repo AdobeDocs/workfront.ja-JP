@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 96%
+source-wordcount: '770'
+ht-degree: 90%
 
 ---
 
@@ -76,7 +76,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
 1. グループの名前をクリックして、そのページを開きます。
 
-1. グループ名の横にあるその他メニュー ![](assets/more-icon.png) をクリックして、「**非アクティブ化**」または「**再アクティブ化**」をクリックします。
+1. グループ名の横にある「詳細 ![ メニュー ](assets/more-icon.png) 「詳細」アイコン）をクリックし、「**アクティベートを解除**」または **アクティベートを再アクティベート** をクリックします。
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 
   この状況でのサブグループの再アクティブ化について詳しくは、[非アクティブな親グループの下のサブグループの再アクティブ化について](#about-reactivating-a-subgroup-below-an-inactive-parent-group)を参照してください。
 
-* 設定のグループエリアに移動すると、アクティブがデフォルトのフィルター ![](assets/filter-nwepng.png) なので、リストにはアクティブなグループのみが表示されます。非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
+* 「設定」の「グループ」領域に移動すると、リスト内のアクティブなグループのみが表示されます。これは、そのデフォルトのフィルター ![ フィルターアイコン ](assets/filter-nwepng.png) がアクティブであるためです。 非アクティブなグループも含め、管理するすべてのグループを表示する場合は、すべてのフィルターを使用できます。または、非アクティブフィルターを使用して、非アクティブなフィルターのみをリストします。
 
   リスト内のフィルターについて詳しくは、[フィルターの概要](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)を参照してください。
 

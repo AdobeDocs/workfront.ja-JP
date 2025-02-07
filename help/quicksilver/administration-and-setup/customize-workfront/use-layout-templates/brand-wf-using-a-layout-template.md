@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ded9ab1e-c5f4-476b-ac81-0497dbe6b24d
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 96%
+source-wordcount: '548'
+ht-degree: 94%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 96%
 ## レイアウトテンプレートを使用した Adobe Workfront のブランディング
 
 1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
-1. **ユーザーの表示項目をカスタマイズする**&#x200B;の下にある下向き矢印![](assets/dropdown-arrow.png)をクリックし、**ブランディング**&#x200B;を選択します。
+1. **ユーザーの表示項目をカスタマイズ ](assets/dropdown-arrow.png) の下の下向き矢印 ![ 下向き矢印** をクリックし、「**ブランディング**」をクリックします。
 1. このレイアウトテンプレートが割り当てられているユーザー向けに、ブランディングイメージを使用して Workfront をカスタマイズするには、次のいずれかの変更を行います。
 
    <table style="table-layout:auto"> 

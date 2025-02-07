@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: be7377a0c4d933823f65ed09d2b1fc091779f252
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1741'
+source-wordcount: '1744'
 ht-degree: 96%
 
 ---
@@ -386,7 +386,7 @@ Workfront ユーザーは、外部ユーザーがシステムにログインで�
 
 ユーザーがオブジェクトを使用して実行できるアクティビティは、アクセスレベルと、ユーザーに付与されている権限の組み合わせで定義されます。
 
-![](assets/security-model-hierachy-copy.png)
+![ セキュリティモデルの階層 ](assets/security-model-hierachy-copy.png)
 
 ### オブジェクトの共有を通じて権限を付与
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 95%
+source-wordcount: '395'
+ht-degree: 93%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 95%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ** ![](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. プログラムを作成または変更するグループの名前をクリックします。
 1. 左パネルで「**プログラム**」をクリックして、表示するアクセス権のあるグループ（およびその中のサブグループ）に関連付けられているプログラムを一覧表示します。

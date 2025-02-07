@@ -8,10 +8,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 97%
+source-wordcount: '900'
+ht-degree: 96%
 
 ---
 
@@ -54,7 +54,7 @@ Adobe Workfront の管理者は、Workfront での承認プロセスのグロー
 
 1. **プロセス**/**承認** をクリックします。
 
-1. **承認**&#x200B;のエリア名の隣にある&#x200B;**設定**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックします。
+1. **承認** エリア名の横にある ![ 設定 ](assets/gear-icon-settings.png) アイコン **歯車設定アイコン** をクリックします。
 
 1. 表示される「**承認設定**」ボックスで、次の情報を指定します。
 

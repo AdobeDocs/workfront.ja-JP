@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1956'
 ht-degree: 95%
 
 ---
@@ -546,7 +546,7 @@ ht-degree: 95%
 | プランとイニシアチブに関する担当業務情報の追加または編集&#42; | ✓ | ✓ | ✓ |   |   |
 | プランとイニシアチブに関するコスト情報を追加または編集&#42; | ✓ | ✓ | ✓ |   |   |
 | プランとイニシアチブの削除 | ✓ | ✓ | ✓ |   |   |
-| メインメニューでのシナリオの表示 ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
+| メインメニューでシナリオを表示 ![ シナリオプランナーアイコン ](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
 | ユーザーが作成したプランとイニシアチブの表示&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}

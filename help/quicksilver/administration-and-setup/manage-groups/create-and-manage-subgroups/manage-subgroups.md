@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 97%
+source-wordcount: '1251'
+ht-degree: 93%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 97%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
@@ -111,7 +111,7 @@ ht-degree: 97%
      </tr> 
      <tr> 
       <td role="rowheader">サブグループをコピーして新しいトップレベルグループを作成する</td> 
-      <td> <p>（Workfront 管理者のみが使用できます。）サブグループをコピーすると、それが親グループになります。すべてのグループメンバーとサブグループが一緒にコピーされます。グループのメンバーは、元のグループでの割り当てをすべて保持します。</p> <p>サブグループのコピーについて詳しくは、この記事の<a href="#about-copying-a-subgroup" class="MCXref xref">サブグループのコピーについて</a>を参照してください。</p> 
+      <td> <p>（Workfront管理者のみが使用できます）。 サブグループをコピーすると、親グループになります。 すべてのグループメンバーとサブグループが一緒にコピーされます。グループのメンバーは、元のグループでの割り当てをすべて保持します。</p> <p>サブグループのコピーについて詳しくは、この記事の<a href="#about-copying-a-subgroup" class="MCXref xref">サブグループのコピーについて</a>を参照してください。</p> 
        <ol> 
         <li value="1">サブグループを選択し、コピーアイコン <img src="assets/copy-icon.png"> をクリックして、選択したグループに基づいて新しいトップレベルグループを作成します。</li> 
         <li value="2"> <p>新しいグループの設定を構成します。</p> <p>これらの設定のヘルプについては、記事<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">既存のグループまたはサブグループをコピーして最上位グループを作成</a>の記事の、<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#copying-an-existing-group-and-sub-group" class="MCXref xref">既存のグループまたはサブグループをコピーして最上位グループを作成</a>の節の表を参照してください。</p> </li> 
@@ -153,9 +153,9 @@ ht-degree: 97%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**グループ** ![](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
-1. 最上位グループにしたいグループの親グループを選択し、編集アイコン ![](assets/edit-icon.png) をクリックします。
+1. 最上位グループにするグループの親グループを選択し、編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. 表示される&#x200B;**グループの編集**&#x200B;ボックスの&#x200B;**グループメンバーとグループ管理者**&#x200B;で、最上位グループにしたいサブグループの名前を入力し始め、次に名前が表示されたら、その名前の右側にある「X」をクリックします。
 1. 「**保存**」をクリックします。
 

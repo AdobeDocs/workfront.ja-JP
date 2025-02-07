@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 70%
+source-wordcount: '541'
+ht-degree: 65%
 
 ---
 
@@ -226,11 +226,11 @@ ht-degree: 70%
  </tbody> 
 </table>
 
-&#42;グループ管理者のアクセスレベルでは、**ユーザー**&#x200B;設定で「**編集**」を選択し、**設定の微調整** ![](assets/gear-icon-in-access-levels.png) で&#x200B;**ユーザー管理者（グループユーザー）**&#x200B;を選択する必要があります。詳しくは、[ユーザーにアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)の記事の[カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)の節を参照してください。
+&#42; グループ管理者のアクセスレベルで、**ユーザー** 設定に対して **編集** を選択し、**ユーザー管理者（グループユーザー）****設定の微調整**![ 設定の微調整アイコン ](assets/gear-icon-in-access-levels.png) で選択する必要があります。 詳しくは、[ユーザーにアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)の記事の[カスタムアクセスレベルを使用してユーザーのアクセスを設定し、ユーザーを編集](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit)の節を参照してください。
 
 &#42;&#42;グループ管理者のアクセスレベルで、このアクションへのアクセスを有効にする必要があります。詳しくは、[特定のエリアに対する管理者アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
-&#42;&#42;&#42; 次のアクティビティはアドバンスト・エンタープライズ・コントロールの一部であり、Select プランでは使用できません。 Prime または Ultimate プランを購入した組織のみがこれらの機能にアクセスできます。  プランについて詳しくは、[Adobe Workfront の価格とパッケージのページ](https://business.adobe.com/products/workfront/pricing.html)を参照してください。（レガシープランを使用する組織では、上の表に、グループ管理者とサブグループ管理者のアクティビティを示します。）
+&#42;&#42;&#42; 次のアクティビティはアドバンスト・エンタープライズ・コントロールの一部であり、Select プランでは使用できません。 これらの機能にアクセスできるのは、PrimeまたはUltimate プランを購入した組織のみです。  プランについて詳しくは、[Adobe Workfront の価格とパッケージのページ](https://business.adobe.com/products/workfront/pricing.html)を参照してください。（レガシープランを使用する組織では、上の表に、グループ管理者とサブグループ管理者のアクティビティを示します。）
 
 * グループレベルでプロジェクト、タスク、イシューの環境設定を行う
 * グループレベルでタイムシートおよび時間環境設定を設定する

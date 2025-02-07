@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 93%
+source-wordcount: '282'
+ht-degree: 92%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 93%
 
    Workfront で使用できるタスクステータスがこのタブに表示されます。
 
-   ![](assets/task-status.png)
+   ![ タスクステータス ](assets/task-status.png)
 
    ビルトインの各システムタスクステータスについて詳しくは、[システムタスクステータス](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)を参照してください。
 

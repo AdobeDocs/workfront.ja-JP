@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 97%
+source-wordcount: '816'
+ht-degree: 95%
 
 ---
 
@@ -92,7 +92,7 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
    | ID | ID は Workfront の英数字の GUID です。 |
    | SSO ユーザー名 | 「SSO ユーザー名」フィールドを追加して、読み込みで上書きされるユーザー名がないことを確認します。ユーザーが SSO 用にまだ更新されていない場合、このフィールドはすべてのユーザーに対して空白です。 |
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![SSO ユーザー名を持つがアクセスできないユーザー ](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. レポートを保存します。
 1. リストの上部にある「**書き出し**」をクリックして、Excel にレポートを書き出します。
@@ -112,7 +112,7 @@ Workfront で SSO ユーザー名フィールドを更新する必要がある�
    * 2 番目の列には、SSO システムに表示される SSO ユーザー名を含める必要があります。
    * 列にはヘッダーを含めないようにし、また名前のリストの先頭に空の行を含めないようにします。
 
-     ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![ ユーザー CSV を更新 ](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. レポートを CSV または TSV ファイルとしてコンピューターに保存します。
 
@@ -145,6 +145,6 @@ SSO ユーザー名情報を含むユーザーレポートの作成手順につ�
 1. 「SSO ユーザー名」列の値が SSO サーバー上の「SSO ユーザー名」と一致していることを確認します。
 1. 「SSO ユーザー名」列が空白の場合は、ユーザーの SSO ユーザー名を更新します。
 
-   ![](assets/users-with-sso-field-updated.png)
+   ![SSO フィールドを持つユーザー ](assets/users-with-sso-field-updated.png)
 
    SSO 用にユーザーを更新する手順については、[SSO 用にユーザーを更新](#update-your-users-for-sso)を参照してください。

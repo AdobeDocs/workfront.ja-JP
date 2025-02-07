@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '469'
 ht-degree: 96%
 
 ---
@@ -93,7 +93,7 @@ You must have at least one request type selected. You can select multiple reques
 1. 「**[!UICONTROL イシュー]**」タブをクリックします。
 1. 「**[!UICONTROL イシュー]**」タブの上部で、リクエストタイプ名にカーソルを合わせ、表示される&#x200B;**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 
-   ![](assets/edit-request-type-name-nwe.png)
+   ![ リクエストタイプ名を編集 ](assets/edit-request-type-name-nwe.png)
 
 1. 表示されるボックスに新しい名前を入力し、**[!UICONTROL Enter]** を押します。
 

@@ -8,10 +8,10 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 98%
+source-wordcount: '1433'
+ht-degree: 94%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 98%
 
 1. （オプション）「**システムのタイムシートおよび時間設定**」検索ボックスにグループの名前を入力し、リストに表示されたら選択します。
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![ 「グループを検索」ボックス ](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    タイムシートと時間の環境設定ページは、選択したグループの環境設定で更新されます。グループレベルの環境設定を変更するには、システムレベルの環境設定のロックを解除する必要があります。詳細については、この記事の[グループのタイムシートと時間の環境設定のロックを解除](#unlock-timesheet-and-hour-preferences-for-groups)の節を参照してください。
 
@@ -212,8 +212,8 @@ ht-degree: 98%
 
 1. 次のいずれかの操作を行います。
 
-   * グループ管理者が自分のグループの環境設定を実施できるようにするには、**ロック解除**&#x200B;切替スイッチ ![](assets/unlock-toggle-button.png) をクリックしてロックを解除します。
-   * すべてのグループでご自身の環境設定を使用させたい場合は、切替スイッチがロックされている ![](assets/locked-preference-toggle.png) ことを確認してください（これがデフォルトです）。
+   * グループ管理者がグループの環境設定を設定できるようにする場合は、「**ロック解除**」切り替え ![ ロック解除 ](assets/unlock-toggle-button.png) 切り替えをクリックして、ロックを解除します。
+   * すべてのグループで環境設定を使用する場合は、ロックされた切替スイッチ ![ ロックされた環境設定の切替スイッチ ](assets/locked-preference-toggle.png) デフォルト）であることを確認します。
 
      >[!IMPORTANT]
      >

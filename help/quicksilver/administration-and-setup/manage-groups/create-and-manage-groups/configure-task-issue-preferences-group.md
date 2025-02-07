@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2185'
-ht-degree: 87%
+source-wordcount: '2189'
+ht-degree: 85%
 
 ---
 
@@ -82,13 +82,13 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 
 {{step-1-to-setup}}
 
-1. 左パネルで、**グループ**&#x200B;アイコン ![](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、**グループ**![ グループアイコン ](assets/groups-icon.png) をクリックします。
 
 1. ロックが解除されたタスクとイシューの環境設定を実施するグループの名前をクリックします。
 1. グループに対して表示されるページの左側のパネルで、**タスクとイシューの環境設定**&#x200B;をクリックします。
 1. 表示されるページで、これらの手順の下にリストされている 5 つのセクションのいずれかに進み、新規タスクのデフォルト、イシュー、削除、実際の日付、アクセスの各エリアの設定を行い、「**保存**」をクリックします。
 
-   実施する環境設定のためにロックアイコン ![](assets/lock-toggle-button-dimmed.png) の上にポインタを合わせると、ロックされていることを知らせるツールヒントが表示される場合は、Workfront 管理者に問い合わせて、組織内のすべてのグループをロック解除するように依頼できます。
+   設定が必要な環境設定のロックアイコン ![ ロックアイコン ](assets/lock-toggle-button-dimmed.png) にカーソルを合わせると、ツールヒントがロックされていることを示す場合は、Workfront管理者に依頼し、組織内のすべてのグループのロックを解除するように依頼できます。
 
    ロックが解除されると、ユーザーと他のグループ管理者は、自分のグループに対してこれを別々に設定できます。また、自分のグループと自分のグループの下の任意のサブグループに対してロックすることもできます。
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 91%
+source-wordcount: '1084'
+ht-degree: 89%
 
 ---
 
@@ -98,7 +98,7 @@ Workfront 管理者、スタンダードライセンスユーザーやプラン�
 
 {{step-1-to-users}}
 
-1. ユーザーを選択し、**その他**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、更に「**非アクティブ化**」をクリックします。
+1. ユーザーを選択し、**詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックしてから、**非アクティブ化** をクリックします。
 
 1. 表示されるボックスで「**非アクティブ化**」をクリックします。
 
@@ -118,7 +118,7 @@ Workfront 管理者とプランライセンスユーザーは、ユーザープ�
 
    （オプション）複数のユーザーを選択して、一括で非アクティブ化をスケジュールします。
 
-1. 編集アイコン ![](assets/edit-icon.png) をクリックします。
+1. 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. 表示されるユーザーを編集ボックスで、「**リソース計画**」をクリックしてそのエリアに移動します。
 1. 「**非アクティブ化をスケジュール**」オプションを有効にします。
 
@@ -139,7 +139,7 @@ Workfront 管理者とプランライセンスユーザーは、ユーザープ�
 
 {{step-1-to-users}}
 
-1. ユーザーを選択し、その他アイコン ![](assets/more-icon.png)、**アクティブ化**&#x200B;の順にクリックします。
+1. ユーザーを選択し、「詳細」アイコン ![ 「詳細」アイコン ](assets/more-icon.png) をクリックして、「**アクティブ化** をクリックします。
 
 1. ドロップダウンメニューで新しい&#x200B;**アクセスレベル**&#x200B;を割り当て、「**再アクティブ化**」をクリックします。
 <!--

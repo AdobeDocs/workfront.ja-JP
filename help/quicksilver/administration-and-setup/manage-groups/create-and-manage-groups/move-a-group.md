@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 89%
+source-wordcount: '260'
+ht-degree: 80%
 
 ---
 
@@ -64,9 +64,9 @@ ht-degree: 89%
 
 {{step-1-to-setup}}
 
-1. 左パネルで、**グループ** ![](assets/groups-icon.png) をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
-1. グループの移動先となる宛先グループを選択し、編集アイコン ![](assets/edit-icon.png) をクリックします。
+1. グループを移動する宛先グループを選択し、編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. 表示される&#x200B;**グループの編集**&#x200B;ボックスの&#x200B;**グループメンバーとグループ管理者**&#x200B;で、移動したいグループの名前を入力し始め、名前が表示されたらクリックします。
 1. 「**保存**」をクリックします。
 

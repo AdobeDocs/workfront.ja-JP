@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 92%
+source-wordcount: '1284'
+ht-degree: 91%
 
 ---
 
@@ -102,13 +102,13 @@ Workfront 用に Admin Console を使用する前に、Console への招待メ�
 
 1. [Adobe Admin Console ページ](https://adminconsole.adobe.com/)で、上部ナビゲーションバーの「**製品**」タブを選択し、「**Workfront**」をクリックします。
 
-   <!--![](assets/admin-product-1.png)-->
+   <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. 表示されるリストで、上部にあるリンクを選択します。
 
    これは、ユーザーが作業する実稼動インスタンスです。
 
-   <!--![](assets/instances-1.png)-->
+   <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -119,7 +119,7 @@ Workfront 用に Admin Console を使用する前に、Console への招待メ�
 
 1. 表示されるリストで「**製品プロファイル**」タブが選択された状態で、Workfront 製品プロファイルリンクの名前をクリックします。
 
-   ![](assets/prod-profile-1.png)
+   ![ 製品プロファイル ](assets/prod-profile-1.png)
 
    このリストには、Workfront の実稼動インスタンスに既に割り当てられているすべてのユーザーが含まれます。
 
@@ -145,7 +145,7 @@ Workfront 用に Admin Console を使用する前に、Console への招待メ�
 1. **管理者の追加**&#x200B;を選択します。
 1. 「**製品プロファイル管理者の追加**」ボックスに、追加する管理者のメールアドレスまたは名前を入力し、「**保存**」を選択します。
 
-   ![](assets/add-admin-1.png)
+   ![ 管理者を追加 ](assets/add-admin-1.png)
 
    システム管理者は、Workfront で作成します。
 
@@ -205,7 +205,7 @@ Workfront のユーザーの作成について詳しくは、[ユーザーの追
 
 {{step-1-to-users}}
 
-1. ユーザーを選択して、**その他**&#x200B;アイコン ![](assets/more-icon.png) をクリックします。
+1. ユーザーを選択し、**その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックします。
 
 1. ユーザーを承認するには、「**承認**」、「**送信**」の順にクリックします。
 

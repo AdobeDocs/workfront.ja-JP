@@ -8,10 +8,10 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 87%
+source-wordcount: '1281'
+ht-degree: 86%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 87%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ** ![](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. テンプレートを作成または変更するグループの名前をクリックします。
 1. 左側のパネルで「**テンプレート**」をクリックし、グループに関連付けられているテンプレートと、そのグループに含まれているサブグループを一覧表示します。

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 96%
+source-wordcount: '438'
+ht-degree: 88%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 96%
 * **[!UICONTROL イシュー]**：計画外の作業、発生した問題、またはタスクを続行するために解決する必要があるものを伝達する [!DNL Workfront] 内のオブジェクト。
 * **[!UICONTROL リクエスト]**： Workfront でユーザーがリクエストを行うリクエストキューに適用されるイシュータイプ。
 
-![](assets/default-issue-types.png)
+![ デフォルトのイシュータイプ ](assets/default-issue-types.png)
 
 ## イシュータイプのカスタマイズ
 
@@ -86,8 +86,8 @@ ht-degree: 96%
 1. 「**[!UICONTROL イシュー]**」タブを選択します。
 1. 次のいずれかの操作を行います。
 
-   * カスタマイズするイシュータイプにポインタを合わせて、[!UICONTROL 編集]アイコン ![](assets/edit-icon.png) が右端に表示されたら、イシュータイプの新しい名前を入力します。
+   * カスタマイズするイシュータイプにポインタを合わせ、右端に表示される [!UICONTROL  編集 ] アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックして、イシュータイプの新しい名前を入力します。
 
-     ![](assets/customize-issue-type.png)
+     ![ イシュータイプのカスタマイズ ](assets/customize-issue-type.png)
 
    * [!UICONTROL イシューの種類]をクリックして関連するステータスをリストし、ポインタを合わせると表示されるハンドルをドラッグし、ユーザーのイシュー&#x200B;**[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューに表示する順序でドロップします。

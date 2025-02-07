@@ -9,10 +9,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 58%
+source-wordcount: '390'
+ht-degree: 57%
 
 ---
 
@@ -37,13 +37,13 @@ ht-degree: 58%
 
   ユーザーの更新の設定について詳しくは、[ユーザー更新の環境設定の指](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)を参照してください。
 
-  ![](assets/updates-qs-350x125.png)
+  ![アップデート](assets/updates-qs-350x125.png)
 
 * **システム更新：** システムによって自動的に行われたもの。システムの更新には、アイテムにどのような変更が発生したかを説明する簡単なメモが含まれます。 システムの更新は、「システム」アクティビティと、オブジェクトの「更新」セクションの「すべて」タブに表示されます。
 
   システム更新フィードおよびそれらを有効にする方法について詳しくは、[システム更新の設定](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
 
-  ![](assets/system-updates-example-unified-stream.png)
+  ![ システム更新の例 ](assets/system-updates-example-unified-stream.png)
 
 
   <!--

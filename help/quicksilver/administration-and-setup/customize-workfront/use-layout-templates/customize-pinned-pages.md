@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 87%
+source-wordcount: '501'
+ht-degree: 86%
 
 ---
 
 # レイアウトテンプレートを使用した固定されたページのカスタマイズ
 
-レイアウトテンプレートでは、Adobe Workfront の上部に、ユーザーに常に利用できるようにしておきたいページをピン留めすることができます。これらのページは、メインメニュー ![](assets/main-menu-icon.png) ージやメインメニュー ![](assets/lines-main-menu.png) （使用可能な場合）からアクセスするページ、またはダッシュボードからアクセスできます。
+レイアウトテンプレートでは、Adobe Workfront の上部に、ユーザーに常に利用できるようにしておきたいページをピン留めすることができます。これらのページは、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) （使用可能な場合）からアクセスするページ、ダッシュボードのいずれかです。
 
 ユーザーが独自に追加したピン留めは、レイアウト テンプレートに追加したピン留めの右側に表示されます。
 

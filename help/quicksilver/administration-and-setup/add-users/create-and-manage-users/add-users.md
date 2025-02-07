@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1128'
-ht-degree: 93%
+source-wordcount: '1130'
+ht-degree: 92%
 
 ---
 
@@ -151,7 +151,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 {{step-1-to-users}}
 
-1. コピーするユーザーを選択して、コピーアイコン ![](assets/copy-icon.png) をクリックします。
+1. コピーするユーザーを選択し、コピーアイコン ![ コピーアイコン ](assets/copy-icon.png) をクリックします。
 1. 表示される「**ユーザーのコピー**」ボックスで、新規ユーザーに使用可能なフィールドを編集します。
 
    ユーザーに関連付けられているすべてのフィールドについて詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。

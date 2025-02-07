@@ -8,10 +8,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 93%
+source-wordcount: '629'
+ht-degree: 88%
 
 ---
 
@@ -86,7 +86,7 @@ Adobe Workfront 管理者は、すべてのタスクやイシューが期日に�
     </tr>
     <tr>
         <td>「割り当て先」ユーザー</td>
-        <td>（<b>締切リマインダの送信先</b>領域内）タスクまたはイシューに割り当てられたユーザーに、期限が近づいている作業項目に関する通知を送信する場合は、このオプションを選択します。</td>
+        <td>（「期限リマインダーを送信 <b> 領域 </b> で確認します。 タスクまたはイシューに割り当てられたユーザーが、期限が近づいている作業項目に関する通知を受信できるようにする場合は、このオプションを選択します。</td>
         <td></td>
     </tr>
    </table>
@@ -99,7 +99,7 @@ Adobe Workfront 管理者は、すべてのタスクやイシューが期日に�
 
    例えば、タスクが金曜日に割り当てられ、期間が経過日数で 3 日の場合、タスクの完了日は月曜日（土曜日と日曜日が週末の場合）に設定されます。タスクの期間が 3 日（経過日数ではない）の場合、タスクの完了日は水曜日に設定されます。
 
-   ![](assets/time-increments-for-automatic-reminder.png)
+   ![ 時間増分 ](assets/time-increments-for-automatic-reminder.png)
 
 1. 「**保存**」をクリックします。
 

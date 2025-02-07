@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 89%
+source-wordcount: '175'
+ht-degree: 80%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 89%
 
 * ユーザーがプロジェクトを編集する場合：
 
-  ![](assets/change-condition-edit-project.png)
+  ![ プロジェクト編集時の条件の変更 ](assets/change-condition-edit-project.png)
 
 * ユーザーがタスクまたはイシューの条件を変更する場合
 
-  ![](assets/change-conditions-list-dropdown-only.png)
+  ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-only.png)
 
 ## アクセス要件
 
@@ -68,7 +68,7 @@ ht-degree: 89%
 
 1. 「**プロジェクト**」、「**タスク**」、または「**イシュー**」タブを選択します。
 
-1. ![](assets/move-icon---dots.png) 条件をドラッグして順序を変更します。
+1. ![ 移動アイコン ](assets/move-icon---dots.png) 条件をドラッグして、順序を変更します。
 
    新しい順序は自動的に保存されます。
 

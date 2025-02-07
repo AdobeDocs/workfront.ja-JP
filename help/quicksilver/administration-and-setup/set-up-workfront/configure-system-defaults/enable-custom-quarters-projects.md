@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 93%
+source-wordcount: '272'
+ht-degree: 91%
 
 ---
 
@@ -66,14 +66,14 @@ ht-degree: 93%
 1. 「2021 年度第 1 四半期」などのカスタム四半期の名前を入力します。
 1. カスタム四半期の開始日と終了日を選択します。
 
-   ![](assets/custom-quarters-nwe.png)
+   ![ カスタム四半期 ](assets/custom-quarters-nwe.png)
 
 1. （オプション）「**[!UICONTROL カスタム四半期を追加]**」をクリックして、システムにカスタム四半期を追加します。
 1. （オプション）会計四半期を参照するレポート要素を作成します。
 
    **例：**[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
 
-   ![](assets/example-of-project-filter-with-custom-quarters.png)
+   ![ カスタム四半期を使用したプロジェクトフィルター ](assets/example-of-project-filter-with-custom-quarters.png)
 
    「今四半期」、「次四半期」、「前四半期」の参照は、カスタム四半期の新しい参照に置き換えられます。
 

@@ -3,16 +3,16 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: 「キックスタートのシナリオ：会社、グループ、役割およびユーザーのキックスタートの準備」
+title: キックスタートのシナリオ：会社、グループ、役割およびユーザーのキックスタートの準備
 description: Adobe Workfront の実装を開始する際に、データを手動で入力する代わりに、顧客リスト、内部部門、担当業務、ユーザー情報を読み込むことができます。
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 95%
+source-wordcount: '1150'
+ht-degree: 89%
 
 ---
 
@@ -183,69 +183,69 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 1. 「CMPY 会社」シートに移動します。
 
-   会社が既にシステムに存在しない限り、空にする必要があります。 ![](assets/cmpysheet-350x16.png)
+   会社が既にシステム内にない場合は、空にする必要があります。 ![ 会社案内 ](assets/cmpysheet-350x16.png)
 
-   ![](assets/companyid--1--350x78.png)
+   ![ 会社 ID](assets/companyid--1--350x78.png)
 
 1. **isNew** 列に TRUE を指定します。
 1. 追加される会社ごとに、このアクションを繰り返します。（この例では、4 つの会社が追加されているので、3～6 行目でこのアクションを実行します）。
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![ 会社が新しくなりました ](assets/cmpyisnew-350x86.png)
 
 1. 一意の ID を指定します。
 
    これは、ID 列の各行に対して行う必要があります。1 で始まる整数は、新しいレコードを作成する際に適切に機能します。
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![ 会社が新しくなりました ](assets/cmpyisnew-350x86.png)
 
 1. 名前を指定します。
 
    各顧客の名前を **setName** 列で指定します。
 
-   ![](assets/companyid-350x78.png)
+   ![ 会社 ID](assets/companyid-350x78.png)
 
 1. 「GROUP」グループシートに移動します。
 
    Workfront で既にグループを作成している場合を除き、このシートには、Workfront のすべてのアカウントでプロビジョニングされたデフォルトグループのみが表示されます。
 
-   ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
+   ![ グループシート ](assets/groupsheet-350x15.png)![ 空のグループシート ](assets/emptygroupsheet-350x85.png)
 
 1. **isNew** 列を設定します。シナリオに従って、4 つのグループが読み込まれるので、「isNew」列の 4～7 行目に TRUE を指定します。
 1. 一意の ID を指定します。
 
    これは、ID 列の各行に対して行う必要があります。1 で始まる整数は、新しいレコードを作成する際に適切に機能します。
 
-   ![](assets/groupids-350x85.png)
+   ![ グループ ID](assets/groupids-350x85.png)
 
 1. 名前を指定します。
 
    **setName** 列で各部門の名前を指定します。
 
-   ![](assets/groupnames-350x85.png)
+   ![ グループ名 ](assets/groupnames-350x85.png)
 
    役割の情報を指定します。「ROLE」役割シートに移動します。
 
 1. アカウントで既に役割を作成または削除している場合を除き、このシートには、Workfront のすべてのアカウントでプロビジョニングされた 8 つの役割が表示されます。
 
-   ![](assets/groupnames-350x85.png)
+   ![ グループ名 ](assets/groupnames-350x85.png)
 
 1. True 文を設定します。
 
    7 つの担当業務が読み込み中で、「isNew」列の 12～18 行目に TRUE を入力します。
 
-   ![](assets/roleisnew-350x104.png)
+   ![Role is new](assets/roleisnew-350x104.png)
 
 1. 一意の ID を指定します。
 
    これは、ID 列の各行に対して行う必要があります。1 で始まる整数は、新しいレコードを作成する際に適切に機能します。
 
-   ![](assets/usersheet-350x16.png)
+   ![ ユーザーシート ](assets/usersheet-350x16.png)
 
-   ![](assets/roleisnew--1--350x104.png)
+   ![Role is new](assets/roleisnew--1--350x104.png)
 
 1. 各役割の名前を setName 列に入力して指定します。
 
-   ![](assets/roleisnew-350x104.png)
+   ![Role is new](assets/roleisnew-350x104.png)
 
 1. 必要に応じて、追加の詳細を入力します。
 
@@ -255,23 +255,23 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    アカウントで既にユーザーを作成している場合を除き、このシートには、Workfront のすべてのアカウントでプロビジョニングされた管理者ユーザーのみが表示されます。
 
-   ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
+   ![ 役割名 ](assets/rolenames-350x104.png) ![ 空のユーザーシート ](assets/emptyusersheet-350x52.png)
 
 1. 6 人のユーザーが読み込まれるので、「isNew」列の行 4～9 に TRUE を指定して、True 値を設定します。
 
-   ![](assets/userisnew-350x52.png)
+   ![ 新規ユーザー ](assets/userisnew-350x52.png)
 
 1. ID 列の各行に一意の ID を指定して、一意の ID を設定します。通常、1 で始まる整数は、新しいレコードに対して適切に機能します。
 
-   ![](assets/userisnew-350x52.png)
+   ![ 新規ユーザー ](assets/userisnew-350x52.png)
 
 1. 各ユーザーの名前を「setFirstName」列と「setLastName」列に入力します。
 
-   ![](assets/usernames-350x52.png)
+   ![ ユーザー名 ](assets/usernames-350x52.png)
 
 1. 「setEmail」、「setPassword」、「setUsername」の各列に値を指定して、詳細値を設定します。
 
-   ![](assets/usercredentials-350x52.png)
+   ![ ユーザー資格情報 ](assets/usercredentials-350x52.png)
 
 1. アクセスレベルの値を指定します。
 
@@ -279,13 +279,13 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    ユーザーおよびアクセスレベルごとに、この手順を繰り返します。
 
-   ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
+   ![ アクセス レベル ID をコピー ](assets/copyalid-350x171.png)![ アクセス レベル ID を貼り付け ](assets/pastealid-350x59.png)
 
 1. ホームグループの詳細を指定します。
 
    シナリオによると、Chris Manning はマーケティンググループに所属しています。「GROUP」グループシートで、マーケティンググループの ID を探し、クリップボードにコピーして、「USER」ユーザーシートで Chris の行の **setHomeGroupID** 列に貼り付けます。ユーザーとグループの割り当てごとに、この手順を繰り返します。
 
-   ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
+   ![ グループ ID をコピー ](assets/copygroupid-1-350x133.png)![ グループ ID を貼り付け ](assets/pastegroupid-350x59.png)
 
 1. 会社の詳細を指定します。
 
@@ -293,17 +293,17 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    ユーザーとグループの割り当てごとに、この手順を繰り返します。
 
-   ![](assets/companyid--1--350x78.png)
+   ![ 会社 ID](assets/companyid--1--350x78.png)
 
-   ![](assets/pastecompanyid-350x84.png)
+   ![ 会社 ID を貼り付け ](assets/pastecompanyid-350x84.png)
 
 1. 担当業務の詳細を指定します。
 
    シナリオによると、Chris Manning にはビジネスアナリストの役割があります。「ROLE」役割シートで、ビジネスアナリストの役割の ID を探し、クリップボードにコピーして、「USER」ユーザーシートで Chris の行の「setRoleID」列に貼り付けます。ユーザーとグループの割り当てごとに、この手順を繰り返します。
 
-   ![](assets/copyroleid-350x149.png)
+   ![ 役割 ID をコピー ](assets/copyroleid-350x149.png)
 
-   ![](assets/pasteroleid-350x95.png)
+   ![ 役割 ID を貼り付け ](assets/pasteroleid-350x95.png)
 
 1. 必要に応じて、その他のユーザーの詳細を入力し、ファイルを保存します。
 1. Excel ファイルを読み込みます。

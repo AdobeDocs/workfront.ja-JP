@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1335'
-ht-degree: 97%
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -66,7 +66,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**」![](assets/groups-icon.png)をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. ステータスを作成またはカスタマイズするグループの名前をクリックします。
 1. 左側のパネルで、「**ステータス**」をクリックします。
@@ -87,7 +87,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
 1. （条件付き）ステータスがイシューステータスの場合、**メインリスト**&#x200B;が選択されていることを確認します。
 
-   ![](assets/master-list.png)
+   ![マスターリスト ](assets/master-list.png)
 
    その他のイシュータイプ（バグレポート、変更依頼、イシュー、リクエスト）のカスタマイズについて詳しくは、[デフォルトのイシュータイプのカスタマイズ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md)を参照してください。
 
@@ -97,7 +97,7 @@ Workfront 管理者がステータスのロックを解除した場合、管理�
 
    既存のステータスを編集するには、編集するステータスの上にポインタを合わせ、右端に表示される「**編集**」をクリックします。
 
-   ![](assets/group-statuses-edit.jpg)
+   ![ グループのステータス ](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >次の条件が該当する場合にのみ、グループのステータスを編集できます。
@@ -173,11 +173,11 @@ Workfront 管理者は、システム全体のステータスを作成し、そ�
 1. 右上隅のボックスで、**システムステータス**&#x200B;を削除し、ステータスを非表示にするグループの名前を入力し、表示されたら名前をクリックします。
 1. グループに表示しないステータスの上にポインタを合わせて、「**編集**」が表示されたらクリックします。
 
-   ![](assets/hover-click-edit.jpg)
+   ![ 編集ステータス ](assets/hover-click-edit.jpg)
 
 1. 表示される「**ステータスを非表示**」オプションを有効にします。
 
-   ![](assets/hide-group-status.png)
+   ![ ステータスを非表示 ](assets/hide-group-status.png)
 
 1. 「**保存**」をクリックします。
 

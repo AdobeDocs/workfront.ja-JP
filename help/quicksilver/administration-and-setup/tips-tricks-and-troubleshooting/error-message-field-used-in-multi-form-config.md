@@ -3,15 +3,15 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 「エラーメッセージ：若干の問題があります。 このフィールドは複数フォーム設定で使用されます」
+title: エラーメッセージ：若干の問題があります。 このフィールドは、マルチフォームの設定で使用されます。
 description: カスタムフォームの計算カスタムフィールドの計算を変更し、エラーメッセージが表示されて、そのフィールドがマルチフォームの設定で使用されていることが示された場合は、使用する計算を含む新しいフィールドで置き換える必要があります。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1241'
 ht-degree: 98%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 98%
 
    **例：**&#x200B;フォーム 1 のフィールド 1 = はい、フォーム 2 のフィールド 2 = はい、フォーム 3 のフィールド 3 = はい。これは、「計算済みカスタムフィールドがフォーム 1 に存在する」または「計算済みカスタムフィールドがフォーム 2 に存在する」などを意味します。
 
-1. 画面の右上隅にある&#x200B;**[!UICONTROL 検索アイコン]** ![](assets/search-icon.png) で、「**[!UICONTROL 詳細検索]**」をクリックします。
+1. **[!UICONTROL 検索アイコン]**![ 検索アイコン ](assets/search-icon.png) で、画面の右上隅にある **[!UICONTROL 詳細検索]** をクリックします。
 1. カスタムフォームのオブジェクト（イシューなど）、**[!UICONTROL 結果をフィルター]**、「**[!UICONTROL フィルターを追加]**」の順にクリックします。
 1. 「**[!UICONTROL フィールド名を入力]**」フィールドにチェックボックスフィールドの名前の入力を開始し、リストに表示されたらそれを選択して、「**[!UICONTROL 等しい]**」を選択し、次のボックスに「**[!UICONTROL はい]**」（引用符なし）と入力します。
 

@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 94%
+source-wordcount: '531'
+ht-degree: 91%
 
 ---
 
@@ -23,9 +23,9 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 >
 >オブジェクトヘッダーのカスタマイズは、現在、プロジェクト、タスクおよびイシューに対して使用できます。
 
-![](assets/object-header-fields.png)
+![ オブジェクトヘッダーフィールド ](assets/object-header-fields.png)
 
-レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートの作成と管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
+レイアウトテンプレートの作成について詳しくは、[レイアウトテンプレートを作成および管理](../use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
 グループのレイアウトテンプレートについて詳しくは、[グループのレイアウトテンプレートを作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)を参照してください。
 
@@ -80,7 +80,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![ オブジェクトヘッダーフィールドの非表示および移動アイコン ](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. 1 つのオブジェクトのヘッダーには、最大 5 つのフィールドを含めることができます。
 既に 5 つのフィールドが選択されている場合、新しいフィールドを追加する前に、1 つのフィールドを削除する必要があります。
@@ -95,7 +95,7 @@ Adobe Workfront 管理者またはグループ管理者は、レイアウトテ�
    >* イシューのヘッダーに「解決オブジェクト」フィールドを追加すると、イシューに関連付けられた解決オブジェクトがある場合、そのフィールドは「解決するイシュー、タスク、またはプロジェクト」に変わります。
 
 
-   ![](assets/add-field-to-header-in-lt-list.png)
+   ![ ヘッダーにフィールドを追加 ](assets/add-field-to-header-in-lt-list.png)
 
 
 1. （オプション）追加したフィールドを、別の順序でドラッグ＆ドロップします。

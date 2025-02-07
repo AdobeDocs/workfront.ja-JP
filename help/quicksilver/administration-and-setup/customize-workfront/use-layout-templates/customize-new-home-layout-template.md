@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
-source-git-commit: 1e69d715f343bfef1e5aee658a1dff12abfc61a0
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 40%
+source-wordcount: '855'
+ht-degree: 39%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 40%
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
 
-1. 「**ユーザーの表示項目をカスタマイズする**」の下にある下矢印 ![](assets/dropdown-arrow.png) をクリックし、「**ホームワークスペース**」をクリックします。
+1. **Customize what users see![ の下の下向き矢印 ](assets/dropdown-arrow.png) 下向き矢印）をクリックし、** ホームWorkspace **をクリックし** す。
 
 1. 右のタブで、次のいずれかをクリックします。
 

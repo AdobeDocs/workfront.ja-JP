@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 58%
+source-wordcount: '770'
+ht-degree: 55%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 58%
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
 
-1. **ユーザーに表示する内容をカスタマイズ** の下の下向き矢印 ![](assets/dropdown-arrow.png) をクリックし、**概要パネル** をクリックします。
+1. **ユーザーの表示項目をカスタマイズ ](assets/dropdown-arrow.png) の下の下向き矢印 ![ 下向き矢印** をクリックし、**概要パネル** をクリックします。
 
 1. 下に表示されるリストで、概要パネルをカスタマイズするオブジェクトタイプをクリックします。
 
@@ -132,15 +132,15 @@ ht-degree: 58%
 
 1. （条件付き）前の手順で「タスク」または「イシュー」をクリックした場合は、カスタマイズするタスクまたはイシューのカテゴリを選択します。
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![ カスタマイズするカテゴリを選択 ](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. （条件付き） **プライマリアクションを設定** ボタン ドロップダウンメニューが表示された場合（左側のリストで **タスク** または **イシュー** を選択した場合）、ユーザーがタスクまたはイシューを表示したときに概要パネルで使用できるプライマリアクション（**完了** または **ステータス**）をクリックします。
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![ プライマリアクションを設定 ](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. 選択したオブジェクトタイプでフィールドを追加 ![](assets/add-item-plus-in-circle-blue.png) 非表示 ![](assets/close-or-hide---x.png) にします。
+1. 選択したオブジェクトタイプのフィールドを追加 ![ 項目を追加 ](assets/add-item-plus-in-circle-blue.png) または非表示 ![ 項目を非表示 ](assets/close-or-hide---x.png) にします。
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![ フィールドの追加と非表示 ](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 手順 3～6 を繰り返し、他のオブジェクトタイプの概要パネルをカスタマイズします。
 1. 左下隅付近の **グローバル設定** をクリックし、概要のAdobe Workfront オブジェクトに関連する次のオプションのいずれかを有効または無効にします。

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2210'
-ht-degree: 95%
+source-wordcount: '2212'
+ht-degree: 94%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 95%
 
 {{step-1-to-users}}
 
-1. 複数のユーザーを選択して、編集アイコン ![](assets/edit-icon.png) をクリックします。
+1. 複数のユーザーを選択し、編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
 1. 表示される「**ユーザーの編集**」ボックスで、次のオプションのいずれかを変更します。
 

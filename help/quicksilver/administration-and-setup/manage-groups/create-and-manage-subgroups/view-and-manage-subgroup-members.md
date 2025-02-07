@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 63c2206905f4ebbc35cb162ae6e895b98b5d20eb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 87%
+source-wordcount: '393'
+ht-degree: 72%
 
 ---
 
@@ -73,16 +73,16 @@ ht-degree: 87%
 
 1. 次のいずれかの操作を行います。
 
-   * リスト内のメンバーを選択し、「編集」![](assets/edit-icon.png) をクリックして、そのユーザーのユーザープロファイルを変更します。
+   * リストでメンバーを選択し、編集 ![ 編集アイコン ](assets/edit-icon.png) をクリックして、そのユーザーのユーザープロファイルを変更します。
 
      詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)または[ユーザープロファイルの一括編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)を参照してください。
 
-   * リスト内の任意の数のメンバーを選択し、「更新」![](assets/comment-icon.png) をクリックして、ユーザープロファイルにコメントを追加します。
+   * リスト内の任意の数のメンバーを選択し、更新 ![ コメントアイコン ](assets/comment-icon.png) をクリックして、ユーザープロファイルにコメントを追加します。
 
      ユーザーには、アプリ内通知と、コメントが記載されたメール通知が送信されます。コメントは、ユーザーのプロファイルの「更新」エリアに表示されます。
 
-   * リスト内の任意の数のメンバーを選択し、「非アクティブ化」![](assets/deactivate-user.png) または「アクティブ化」![](assets/activate-user.png) をクリックします。
+   * リスト内の任意の数のメンバーを選択し、「非アクティブ化 ![ ユーザーの非アクティブ化 ](assets/deactivate-user.png) または「アクティブ化 ![ ユーザーのアクティブ化 ](assets/activate-user.png)」をクリックします。
 
-     詳しくは、[ユーザーを非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
+     詳しくは、[ユーザーの非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
 
-   * メンバーのリスト ![](assets/export.png) を書き出します。
+   * Export![Export](assets/export.png) メンバーのリスト。

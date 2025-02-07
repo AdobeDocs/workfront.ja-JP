@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 93%
+source-wordcount: '483'
+ht-degree: 92%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 93%
 
 1. フォームの上部で、**オブジェクトタイプ**&#x200B;の後にあるプラス記号（+）をクリックし、表示されるメニューから必要なタイプを選択します。この操作を繰り返して、必要な数のオブジェクトタイプを追加できます。
 
-   ![](assets/add-new-object.png)
+   ![ 新規オブジェクトを追加 ](assets/add-new-object.png)
 
 1. 「**保存して閉じる**」をクリックします。
 
@@ -98,7 +98,7 @@ ht-degree: 93%
 1. 編集するカスタムフォームを選択し、![編集アイコン](assets/edit-icon2.png) をクリックします。
 1. フォームから削除する&#x200B;**オブジェクトタイプ**&#x200B;のいずれかの X をクリックします。
 
-   ![](assets/delete-object-types.png)
+   ![ オブジェクトタイプの削除 ](assets/delete-object-types.png)
 
 1. （オプション）フォームから削除する他のオブジェクトタイプについて、前の手順を繰り返します。
 1. 「**適用**」、「**保存して閉じる**」の順にクリックします。

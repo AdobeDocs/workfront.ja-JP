@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 99%
+source-wordcount: '307'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +30,7 @@ Adobe Workfront の管理者は、次の 2 つの目的でユーザーにアク�
 
 「外部」は主に、Workfront を使用しない共同作業者とドキュメントを共有するために設計された無料のライセンスです。
 
-![](assets/access-levels-and-licenses-old.png)
+![ 従来のアクセスレベルおよびライセンス ](assets/access-levels-and-licenses-old.png)
 
 アクセスレベルに関するトピックについては、次の記事を参照してください。
 

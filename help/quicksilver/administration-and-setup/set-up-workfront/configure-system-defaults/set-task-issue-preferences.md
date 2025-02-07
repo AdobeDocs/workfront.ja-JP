@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2236'
-ht-degree: 86%
+source-wordcount: '2238'
+ht-degree: 85%
 
 ---
 
@@ -300,7 +300,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 1. 次のいずれかの操作を行います。
 
-   * グループの下にあるグループ管理者がグループの環境設定を指定できるようにするには、グループのロックを解除します ![](assets/unlock-toggle-button.png)。
+   * グループの下のグループの管理者がグループの環境設定を設定できるようにするには、そのロックを解除します ![ ロック解除切替スイッチ ](assets/unlock-toggle-button.png)。
    * グループとその下のすべてのグループで環境設定の設定を使用する場合は、ロックされている（デフォルト）ことを確認します。
 
      >[!IMPORTANT]

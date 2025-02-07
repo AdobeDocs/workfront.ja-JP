@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 95%
+source-wordcount: '442'
+ht-degree: 94%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 95%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ** ![](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
 
 1. グループの名前をクリックします。
 1. 左側のパネルで、**最近削除された項目**&#x200B;をクリックします。

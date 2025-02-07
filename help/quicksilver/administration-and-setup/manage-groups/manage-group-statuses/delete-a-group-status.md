@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '564'
 ht-degree: 95%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 95%
 1. 左側のパネルで、「**ステータス**」をクリックします。
 1. 表示されるステータスのリストで、削除するステータスの上にポインタを合わせ、右端に表示されたら「**削除**」をクリックします。
 
-   ![](assets/hover-click-delete.jpg)
+   ![削除](assets/hover-click-delete.jpg)
 
 1. 表示されるボックスで、ステータスを選択して、削除するステータスを使用していたオブジェクト（プロジェクト、タスク、イシュー、承認プロセス）の置き換えステータスを指定します。
 

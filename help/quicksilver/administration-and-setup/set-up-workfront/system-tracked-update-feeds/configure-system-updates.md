@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 98%
+source-wordcount: '899'
+ht-degree: 92%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 98%
 >
 >更新フィードでは、最大 300 個の組み込みフィールドとカスタムフィールドを追跡できます。フィールドの最大数を追跡し、さらに「[!UICONTROL すべてのフィールド]」サブタブに表示されていない追加フィールドを追跡する場合、新しいフィールドを追跡するには、まず追跡済みフィールドの一部を削除する必要があります。更新フィールドからフィールドを削除する方法について詳しくは、[追跡しないフィールドの削除](#remove-fields-that-you-don-t-want-tracked)を参照してください。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**[!UICONTROL 設定]**」![](assets/gear-icon-settings.png) をクリックします。
+1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]**![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. 左側のパネルで、**[!UICONTROL インターフェイス]**／**[!UICONTROL フィードを更新]**&#x200B;をクリックします。
 
@@ -111,7 +111,7 @@ ht-degree: 98%
 
 [!DNL Workfront] インターフェイス全体で、特定のタイプのオブジェクトについてシステムで追跡しないフィールドを削除できます。
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**[!UICONTROL 設定]**」![](assets/gear-icon-settings.png) をクリックします。
+1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]**![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. **[!UICONTROL インターフェイス]**／**[!UICONTROL フィードを更新]**&#x200B;をクリックします。
 
@@ -198,7 +198,7 @@ ht-degree: 98%
 
 [!DNL Workfront] で追跡するアクションを設定するには、次の操作を行います。
 
-1. [!DNL Adobe Workfront]の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]** ![](assets/gear-icon-settings.png) をクリックします。
+1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]**![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. **[!UICONTROL インターフェイス]**／**[!UICONTROL フィードの更新]**&#x200B;をクリックします。
 

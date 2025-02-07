@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 98%
+source-wordcount: '905'
+ht-degree: 96%
 
 ---
 
@@ -31,19 +31,19 @@ Workfront の管理者は、次の場所でロゴを使用して Workfront の�
 
 * ログイン画面
 
-  ![](assets/brand-login-screen-nwe-adobe.jpg)
+  ![ ログイン画面でのブランド ](assets/brand-login-screen-nwe-adobe.jpg)
 
 * ナビゲーションエリア上部
 
-  ![](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![ トップナビゲーションのブランド ](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * メインメニュー
 
-  ![](assets/brand-main-menu-adobe.jpg)
+  ![ メインメニューのブランド ](assets/brand-main-menu-adobe.jpg)
 
 また、ログイン画面の背景画像やカラーを変更することもできます。
 
-![](assets/wf_banner_on_login_screen-adobe.png)
+![ ログイン画面のバナー ](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >

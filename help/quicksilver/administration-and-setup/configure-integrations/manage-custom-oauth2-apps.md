@@ -8,10 +8,10 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 97%
+source-wordcount: '669'
+ht-degree: 91%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 97%
 
 1. 左側のナビゲーションパネルで、「**[!UICONTROL システム]**」をクリックして「**[!UICONTROL OAuth アプリケーション]**」を選択します。
 1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
-1. アプリケーションにマウスを移動して、右端に表示される&#x200B;**[!UICONTROL 編集]**&#x200B;アイコン（![](assets/edit-icon.png)）をクリックします。
+1. アプリケーションの上にマウスポインターを置き、右端に表示されている **[!UICONTROL 編集]**![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. （オプション）アプリケーションの詳細を編集します。
 
    OAuth2 および JWT アプリに関連するフィールドについては、[ [!DNL Workfront]  統合用の OAuth2 アプリケーションの作成](../../administration-and-setup/configure-integrations/create-oauth-application.md)を参照してください。
@@ -87,7 +87,7 @@ ht-degree: 97%
 {{step-1-to-setup}}
 
 1. 左側のナビゲーションパネルで、「**[!UICONTROL システム]**」をクリックして「**[!UICONTROL OAuth アプリケーション]**」を選択します。
-1. アプリケーションにマウスを移動して、右端に表示される&#x200B;**[!UICONTROL 削除]**&#x200B;アイコン（![](assets/delete.png)）をクリックします。
+1. アプリケーションの上にマウスポインターを置き、右端に表示されたら **[!UICONTROL 削除]**![ 削除 ](assets/delete.png) をクリックします。
 
 ## OAuth2 アプリケーションでのクライアントシークレットの管理
 
@@ -143,4 +143,4 @@ ht-degree: 97%
 1. 「**[!UICONTROL アプリ統合を作成]**」をクリックします。
 1. アプリケーションにポインタを合わせて、右端に表示される&#x200B;**[!UICONTROL 編集]**&#x200B;アイコンをクリックします。
 1. 削除するクライアントシークレットを見つけます。
-1. クライアントシークレットの横にある&#x200B;**[!UICONTROL 削除]**&#x200B;アイコン ![](assets/delete.png) をクリックします。
+1. クライアントシークレットの横にある **[!UICONTROL 削除]** アイコン ![ 削除 ](assets/delete.png) をクリックします。

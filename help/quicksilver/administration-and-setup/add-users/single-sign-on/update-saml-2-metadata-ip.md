@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 98%
+source-wordcount: '1000'
+ht-degree: 96%
 
 ---
 
@@ -68,7 +68,7 @@ ADFS メタデータを自動的に更新するように設定するには、こ
 1. Workfront と共に使用するように以前に設定した証明書利用者の信頼を選択し、右側のパネルで、「**フェデレーションメタデータから更新**」をクリックします。
 1. （条件付き）このオプションがグレー表示の場合（既にメタデータファイルを使用して証明書利用者の信頼が設定されていたことを意味する）、次の手順を実行します。
 
-   1. Adobe Workfront の右上隅で、**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**設定** ![](assets/gear-icon-settings.png) の順にクリックします。
+   1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
    1. **システム**／**シングルサインオン（SSO）**&#x200B;をクリックします。
 

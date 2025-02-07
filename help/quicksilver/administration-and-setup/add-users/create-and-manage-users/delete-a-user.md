@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 90%
+source-wordcount: '871'
+ht-degree: 88%
 
 ---
 
@@ -132,7 +132,7 @@ ht-degree: 90%
 
 {{step-1-to-users}}
 
-1. 削除するユーザーを少なくとも 1 人選択し、その他メニュー ![](assets/more-icon.png) をクリックします。次に「**削除**」をクリックします。
+1. 削除する 1 人以上のユーザーを選択し、「詳細」メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックして、「**削除**」をクリックします。
 1. 表示されるボックスで、「**削除**」をクリックして削除を確定します。
 
    ユーザーを削除するプロセスはバックグラウンドプロセスとして実行されるので、ユーザーが削除されているときも Workfront を引き続き使用できます。

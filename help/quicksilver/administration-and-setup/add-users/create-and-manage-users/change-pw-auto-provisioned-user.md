@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '464'
-ht-degree: 91%
+source-wordcount: '472'
+ht-degree: 86%
 
 ---
 
@@ -80,7 +80,7 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 
    次のような応答が返されます。
 
-   ![](assets/get-guid.png)
+   ![GUID を取得 ](assets/get-guid.png)
 
    「ユーザー名」の戻り値は、ユーザーの GUID です。
 
@@ -98,7 +98,7 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 
 1. 「**ログインメールアドレス**」ボックスにユーザーのメールアドレスが正しいことを確認し、「**アカウントを更新**」をクリックします。
 
-   ![](assets/guidusername-350x272.png)
+   ![ユーザー名](assets/guidusername-350x272.png)
 
    ユーザーのユーザー名が Workfront のメールアドレスに変更されます。
 
@@ -106,7 +106,7 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 >
 >ユーザーの ID を検索するには、次の手順に従います。
 >
->1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**ユーザー** ![](assets/users-icon-in-main-menu.png) の順にクリックします。
+>1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**ユーザー** ![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) をクリックします。
 >
 >1. ユーザーを選択します。
 >

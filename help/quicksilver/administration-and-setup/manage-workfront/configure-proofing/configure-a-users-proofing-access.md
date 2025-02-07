@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: 98c90139-f31a-41bc-af0b-577dd8b254e3
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1240'
+source-wordcount: '1242'
 ht-degree: 98%
 
 ---
@@ -135,7 +135,7 @@ Workfront サポートに連絡してリクエストを送信することで、�
 
 1. Workfront から、グローバルナビゲーションバーの Workfront Proof アイコンをクリックして、Workfront Proof にアクセスします。
 
-   ![](assets/proof-access-proofhq-350x39.png)
+   ![Proof アイコン ](assets/proof-access-proofhq-350x39.png)
 
 1. Workfront Proof の右上隅にある **アカウント設定**&#x200B;をクリックし、「**設定**」タブを選択します。
 

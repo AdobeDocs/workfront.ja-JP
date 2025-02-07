@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 97%
+source-wordcount: '664'
+ht-degree: 96%
 
 ---
 
@@ -114,7 +114,7 @@ ht-degree: 97%
 1. 非アクティブ化する担当業務の名前をクリックします。
 1. **[!UICONTROL アクティブ]**&#x200B;ドロップダウンメニューで、「**[!UICONTROL いいえ]**」を選択します。
 
-   ![](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![ 担当業務を非アクティブ化 ](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
 
