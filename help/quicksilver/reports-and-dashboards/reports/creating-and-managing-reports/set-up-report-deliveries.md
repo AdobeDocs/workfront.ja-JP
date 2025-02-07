@@ -6,7 +6,7 @@ description: レポート配信の概要
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 100%
@@ -43,11 +43,11 @@ ht-degree: 100%
 
 Workfront でのレポートの表示方法、および手動書き出し、配信されたレポート、または API を介したレポートの書き出し方法に影響するサイズ制限がいくつかあります。
 
-* **5MB のファイルサイズ：**&#x200B;配信が予定されているすべての書き出しレポートのファイルサイズ制限。メールに添付された書き出し済みファイルが 5 MB を超える場合、添付の書き出し済みレポートの代わりに、ファイルをダウンロードできるリンクがメールで送信されます。
+* **10 MB のファイルサイズ：**&#x200B;配信が予定されているすべての書き出しレポートのファイルサイズ制限。メールに添付された書き出し済みファイルが 5 MB を超える場合、添付の書き出し済みレポートの代わりに、ファイルをダウンロードできるリンクがメールで送信されます。
 
   >[!NOTE]
   >
-  >5MB を超える Excel .xlsx ファイルはメールを生成しません。レポートをこの形式に手動で書き出すことができます。レポートの書き出しについて詳しくは、[データの書き出し](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)を参照してください。
+  >10MB を超える Excel .xlsx ファイルはメールを生成しません。レポートをこの形式に手動で書き出すことができます。レポートの書き出しについて詳しくは、[データの書き出し](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md)を参照してください。
 
 * **50,000 行：**.pdf およびタブ区切りファイルのレポートの書き出しで許可されるデータの行数。
 
