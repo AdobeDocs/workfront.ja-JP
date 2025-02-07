@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a9c2abc7f0d75eb9f90a9437eff7ac4d35fbb431
+source-git-commit: c67affb14c237f8e4a6cf8a44c707a5ab5893364
 workflow-type: tm+mt
-source-wordcount: '13025'
-ht-degree: 90%
+source-wordcount: '13028'
+ht-degree: 89%
 
 ---
 
@@ -2464,6 +2464,7 @@ ht-degree: 90%
       * [イベント登録のベストプラクティス](wf-api/general/event-sub-best-practice.md)
       * [イベント購読の配信要件](wf-api/general/setup-event-sub-endpoint.md)
       * [イベント登録の再試行](wf-api/api/event-sub-retries.md)
+      * [イベント購読のバージョン管理](/help/quicksilver/wf-api/general/event-subs-versioning.md)
       * [イベント登録用のアウトバウンドメッセージ形式](wf-api/api/message-format-event-subs.md)
       * [FAQ - イベント登録](wf-api/general/event-subs-faq.md)
    * Document Webhooks API {#document-webhooks-api}

@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
+source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
 workflow-type: tm+mt
-source-wordcount: '2198'
-ht-degree: 96%
+source-wordcount: '2362'
+ht-degree: 84%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 96%
 {{highlighted-preview}}
 -->
 
-イベント登録でサポートされている Adobe Workfront オブジェクトでアクションが発生した場合、目的のエンドポイントに応答を送信するように Workfront を設定できます。つまり、サードパーティアプリケーションは、発生後すぐに、Workfront API を介して Workfront とのやり取りから更新を受け取ることができます。一般に、ログに記録されるデータ変更から 5 秒未満で web フック通知を受信すると予想できます。平均的に、顧客は、ログに記録されるデータ変更から 1 秒未満で web フック通知を受け取ります。  
+イベント登録でサポートされている Adobe Workfront オブジェクトでアクションが発生した場合、目的のエンドポイントに応答を送信するように Workfront を設定できます。つまり、サードパーティアプリケーションは、発生後すぐに、Workfront API を介して Workfront とのやり取りから更新を受け取ることができます。一般に、ログに記録されるデータ変更から 5 秒未満で web フック通知を受信すると予想できます。平均的に、顧客は、ログに記録されるデータ変更から 1 秒未満で web フック通知を受け取ります。
 
 ファイアウォール経由でイベント登録ペイロードを受け取るには、次の IP アドレスを許可リストに追加する必要があります。
 
@@ -47,7 +47,7 @@ ht-degree: 96%
 
 次のトピックでは、Event Subscription API がサポートされています。
 
-## イベント登録でサポートされるオブジェクト
+## イベント購読でサポートされているオブジェクト
 
 次の Workfront オブジェクトは、イベント登録でサポートされています。
 
@@ -74,7 +74,7 @@ ht-degree: 96%
 
 イベント登録オブジェクトでサポートされるフィールドのリストについては、[イベント登録リソースフィールド](../../wf-api/api/event-sub-resource-fields.md)を参照してください。
 
-## イベント登録認証
+## イベント購読認証
 
 イベント登録を作成、クエリ、削除するには、Workfront ユーザーが次の条件を満たす必要があります。
 
@@ -83,9 +83,9 @@ ht-degree: 96%
 
   詳しくは、[API の基本](api-basics.md)の[認証](api-basics.md#authentication)を参照してください。
 
-## 登録リソースを作成
+## 購読リソースの作成
 
-登録リソースには、次のフィールドが含まれます。
+購読リソースには、次のフィールドが含まれています。
 
 * objId（オプション）
 
@@ -110,7 +110,7 @@ ht-degree: 96%
         <td scope="col"><p>ASSGN</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">会社</td> 
+        <td scope="col">会社 </td> 
         <td scope="col"><p>CMPY</p></td> 
        </tr> 
        <tr> 
@@ -119,7 +119,7 @@ ht-degree: 96%
        </tr> 
        <tr> 
         <td scope="col"><p>ドキュメント</p></td> 
-        <td scope="col">DOCU</td> 
+        <td scope="col">DOCU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>費用</p></td> 
@@ -202,22 +202,22 @@ ht-degree: 96%
 
 * authToken（必須）
 
-   * **文字列** - 「URL」フィールドで指定された URL での認証に使用される OAuth2 ベアラートークン。
+   * **String** - 「URL」フィールドに指定された URL で認証するために使用される OAuth2 ベアラートークンです。
 
-## イベント登録 API リクエストの作成
+## イベント購読 API リクエストの作成
 
 ユーザーに管理者アクセス権を確実に付与し、登録リソースを作成したら、イベント登録を作成する準備が整います。
 
 次の構文を使用して、URL を作成します。
 
-**リクエスト URL：**
+**リクエスト URL**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**リクエストヘッダー：**
+**リクエストヘッダー**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,18 +253,27 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**応答本文の例**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | 応答コード | 説明 |
 |---|---|
 | 201（作成済み） | イベント登録が正常に作成されました。 |
-| 400（無効なリクエスト） | 登録リソースの URL フィールドが無効と見なされました。 |
+| 400（無効なリクエスト） | 購読リソースの URL フィールドが無効と見なされました。 |
 | 401（未認証） | 指定された sessionID が空か、無効と見なされました。 |
 | 403（禁止） | 指定された sessionID と一致するユーザーには、管理者アクセス権がありません。 |
 
-登録リソースをリクエストの本文として渡すと（content-type は「application/json」）、指定されたオブジェクトのイベント登録が作成されます。応答コード 201（作成済み）は、登録が作成されたことを示します。201 以外の応答コードは、登録が作成&#x200B;**されなかった**&#x200B;ことを意味します。
+サブスクリプションリソースをリクエストの本文として渡すと（content-type を「application/json」にする）、指定されたオブジェクトに対してイベントのサブスクリプションが作成されます。 応答コード 201（作成済み）は、登録が作成されたことを示します。201 以外の応答コードは、登録が作成&#x200B;**されなかった**&#x200B;ことを意味します。
 
 >[!NOTE]
 >
->「Location」応答ヘッダーには、新しく作成されたイベント登録の URI が含まれています。
+> 「Location」応答ヘッダーには、新しく作成したイベント購読の URI が含まれます。
 
 **応答ヘッダーの例：**
 
@@ -288,7 +297,7 @@ Workfront の HTTP をクエリする場合は、GET メソッドを使用しま
 
 特定の顧客のイベント登録をすべてリストするためのリクエスト構文は、次のとおりです。
 
-**リクエスト URL：**
+**リクエスト URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -315,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**応答コード：**
+**応答コード**
 
 | 応答コード | 説明 |
 |---|---|
@@ -324,7 +333,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403（禁止） | 指定された sessionID と一致するユーザーには、管理者アクセス権がありません。 |
 
 
-**応答ヘッダーの例：**
+**応答ヘッダーの例**
 
 | 応答ヘッダー | 例 |
 |---|---|
@@ -334,7 +343,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 転送コード化 | `→chunked` |
 
 
-**応答本文の例：**
+**応答本文の例**
 
 ```
 {
@@ -368,7 +377,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 
 イベント登録 IDで、イベント登録をクエリできます。イベント登録をリストするためのリクエスト構文は次のとおりです。
 
-**リクエストURL：**
+**リクエスト URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -376,7 +385,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**リクエストヘッダー：**
+**リクエストヘッダー**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +404,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**応答コード：**
+**応答コード**
 
 | 応答コード | 説明 |
 |---|---|
@@ -404,7 +413,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403（禁止） | 指定された sessionID と一致するユーザーには、管理者アクセス権がありません。 |
 
 
-**応答本文の例：**
+**応答本文の例**
 
 
 
@@ -429,6 +438,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## イベント購読のバージョン管理
+
+Workfrontには、2 つのバージョンのイベント購読があります。
+
+イベント購読をアップグレードまたはダウングレードする機能により、イベントの構造に変更が加えられても既存の購読が壊れずに、イベント購読に隙間なく新しいバージョンのテストとアップグレードが可能になります。
+
+バージョンと重要な日付の具体的な違いなど、イベント購読のバージョン管理について詳しくは、[ イベント購読のバージョン管理 ](/help/quicksilver/wf-api/general/event-subs-versioning.md) を参照してください。
+
+### 単一の購読バージョンの変更
+
+単一のサブスクリプションのバージョンを変更するリクエストの構文を次に示します。
+
+**リクエスト URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**リクエスト本文** 例
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**応答本文の例（200）**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**可能な応答コード**
+
+* 200
+* 400
+* 404
+
+
+### 複数の購読バージョンの変更
+
+このエンドポイントは、購読のリストまたはすべての顧客の購読フラグによって、複数の購読のバージョンを変更します。
+
+単一のサブスクリプションのバージョンを変更するリクエストの構文を次に示します。
+
+**リクエスト URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**リクエスト本文の例**
+
+* 購読のリストのリクエスト本文
+
+  ```
+  {
+      "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+      "version": "v2" 
+  }
+  ```
+
+* すべての顧客のサブスクリプションのリクエスト本文
+
+  ```
+  {
+      "allCustomerSubscriptions": true,
+      "version": "v2" 
+  }
+  ```
+
+**応答本文の例（200）**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**可能な応答コード**
+
+* 200
+* 400
 
 ## イベント登録のフィルタリング
 
@@ -760,7 +858,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>応答コード</p> </th> 
-   <th>説明</th> 
+   <th> 説明</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -920,7 +1018,7 @@ UPDATE イベントと CREATE イベントのペイロードの例を以下に�
 
 ## Base 64 エンコーディング
 
-イベント登録に含まれる特殊文字とネットワーク設定との競合が原因でイベント購読が拒否された場合は、Base64 エンコードを使用してイベント登録を渡すことができます。Base64 は、任意のデータを ASCII 文字列形式に変換できる一連のエンコーディングスキームです。Base64 はセキュリティ暗号化の一種ではないことに注意する必要があります。
+イベント登録に含まれる特殊文字とネットワーク設定との競合が原因でイベント購読が拒否された場合は、Base64 エンコードを使用してイベント登録を渡すことができます。Base64 は、任意のデータを ASCII 文字列形式に変換できる一連のエンコーディングスキームです。 Base64 はセキュリティ暗号化の一種ではないことに注意する必要があります。
 
 ### Base 64 エンコーディングフィールド
 
@@ -1001,7 +1099,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>応答コード</p> </th> 
-   <th>説明</th> 
+   <th> 説明</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1020,7 +1118,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
- 
+
 
 ### 応答本文の例
 
