@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
-source-git-commit: e41b0df5ee0ce092f0811b18c57f6865bbb3abee
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 95%
+source-wordcount: '726'
+ht-degree: 94%
 
 ---
 
@@ -85,7 +85,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ## 認証コードフローのセットアップ
 
-![](assets/oauth-2-authorization-code-flow.png)
+![OAuth コードフロー ](assets/oauth-2-authorization-code-flow.png)
 
 OAuth2 を使用してユーザーをログインするには、次の手順に従います。
 
@@ -93,7 +93,7 @@ OAuth2 を使用してユーザーをログインするには、次の手順に�
 
    ユーザーが同じブラウザーで既に Workfront にログインしている場合またはユーザーが Workfront に正常にログインした場合、ユーザーは同意画面にリダイレクトされます。
 
-   ![](assets/consent-screen-350x227.png)
+   ![ 同意画面 ](assets/consent-screen-350x227.png)
 
 1. ユーザーがアクセスを許可した場合、ページは `redirect_url` にリダイレクトされます。リダイレクトには、次のクエリパラメーターを含める必要があります。
 
@@ -172,7 +172,7 @@ OAuth2 を使用してユーザーをログインするには、次の手順に�
 
 ## 更新アクセストークンの設定
 
-![](assets/refresh-access-token-flow-350x142.png)
+![ アクセストークンの更新フロー ](assets/refresh-access-token-flow-350x142.png)
 
 access_token を更新するには、トークンエンドポイントに対して「POST」呼び出しを行う必要があります。今回は、次のように別のフォームデータを送信します。
 

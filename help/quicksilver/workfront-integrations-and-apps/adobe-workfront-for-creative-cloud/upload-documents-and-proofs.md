@@ -9,10 +9,10 @@ feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
 hidefromtoc: true
 exl-id: 88870441-8895-477c-9409-f2c33654545a
-source-git-commit: 0ca335bf0db934d23f607d3f8ce7cfb67e629053
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '242'
-ht-degree: 100%
+source-wordcount: '245'
+ht-degree: 98%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 100%
 
 1. **書き出しファイル設定を指定**&#x200B;ダイアログボックスを開きます。
 
-   ![](assets/file-export-settings.png)
+   ![ ファイル書き出し設定 ](assets/file-export-settings.png)
 
 1. 書き出すアセットタイプを見つけ、以下のように設定を調整します。
 

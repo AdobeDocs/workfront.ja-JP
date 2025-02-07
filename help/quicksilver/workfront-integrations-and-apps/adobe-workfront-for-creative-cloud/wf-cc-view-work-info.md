@@ -6,10 +6,10 @@ description: プロジェクト、タスク、イシュー、ドキュメント�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 98%
+source-wordcount: '605'
+ht-degree: 80%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 98%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. 表示する作業アイテムを選択します。
 
@@ -74,7 +74,7 @@ ht-degree: 98%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの&#x200B;**[!UICONTROL 詳細]**&#x200B;アイコン ![](assets/details.png) をクリックして表示します。
+1. ナビゲーションバーの **[!UICONTROL 詳細]** アイコン ![ 詳細 ](assets/details.png) をクリックして、以下を表示します。
 
    * [!UICONTROL 説明]
    * [!UICONTROL 予定完了日]
@@ -87,7 +87,7 @@ ht-degree: 98%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. 表示する作業アイテムを選択します。
 
@@ -95,7 +95,7 @@ ht-degree: 98%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックして、ドキュメントをダブルクリックして表示します。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックし、ドキュメントをダブルクリックして表示します。
 
    * [!UICONTROL 説明]
    * [!UICONTROL ファイルタイプ]
@@ -108,7 +108,7 @@ ht-degree: 98%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. 表示する作業アイテムを選択します。
 
@@ -116,7 +116,7 @@ ht-degree: 98%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックして、プルーフをダブルクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックし、プルーフをダブルクリックします。
 
 1. サムネイルの右上隅にある矢印アイコンをクリックして、[!DNL Workfront] でプルーフの詳細を開きます。
 
@@ -126,7 +126,7 @@ ht-degree: 98%
 
 1. 右上にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. 表示する作業アイテムを選択します。
 
@@ -134,27 +134,27 @@ ht-degree: 98%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックして、プルーフをダブルクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックし、プルーフをダブルクリックします。
 
 1. 下部までスクロールして、プルーフの現在のステータスを表示します。送信済み、開封済み、コメント、決定（SOCD）の詳細については、 [ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)を参照してください。
 
-![](assets/proof-status.png)
+![ プルーフステータス ](assets/proof-status.png)
 
 ## サブタスクとイシューの表示
 
 1. 右上にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. 表示する作業アイテムを選択します。
 
    >[!TIP]
    >
-   >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業項目の親オブジェクトに移動します。
+   >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. **[!UICONTROL イシュー]**&#x200B;アイコン![](assets/issues.png)または&#x200B;**サブタスク**&#x200B;アイコン![](assets/subtasks.png)をクリックします。
+1. **[!UICONTROL イシュー]** アイコン ![ イシューアイコン ](assets/issues.png) または **サブタスク** アイコン ![ サブタスクアイコン ](assets/subtasks.png) をクリックします。
 
-1. タスクまたはイシューを選択し、ナビゲーションバーにある&#x200B;**[!UICONTROL 詳細]**&#x200B;アイコン ![](assets/details.png) をクリックして以下を表示します。
+1. タスクまたは問題を選択し、ナビゲーションバーの **[!UICONTROL 詳細]** アイコン ![ 詳細 ](assets/details.png) をクリックして、以下を表示します。
 
    * [!UICONTROL 予定完了日]
    * [!UICONTROL ステータス]

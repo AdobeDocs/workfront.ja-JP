@@ -6,10 +6,10 @@ description: Adobe Workfront で、Slack のコメントを特定のプロジェ
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 100%
+source-wordcount: '277'
+ht-degree: 98%
 
 ---
 
@@ -64,4 +64,4 @@ ht-degree: 100%
 
    コメントが [!DNL Slack] で作成された場合、コメントには [!DNL Workfront] に「[!UICONTROL [!DNL Slack]] から投稿されました」というメッセージが表示されます。
 
-   ![](assets/slack-update-posted-from-slack-350x112.png)
+   ![Slackから投稿された更新 ](assets/slack-update-posted-from-slack-350x112.png)

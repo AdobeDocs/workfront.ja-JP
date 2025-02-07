@@ -6,10 +6,10 @@ description: アートボードをドキュメントとしてアップロード�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: faec4197-acc3-47d4-bb7a-cc0664c4e9ea
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 96%
+source-wordcount: '331'
+ht-degree: 91%
 
 ---
 
@@ -64,17 +64,17 @@ ht-degree: 96%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. ドキュメントをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. （オプション）**[!UICONTROL 更新]**&#x200B;エリアにコメントを入力します。
 1. ドロップダウンメニューから「**[!UICONTROL アセットタイプ]**」を選択します。
 1. 「**[!UICONTROL 設定書き出しファイルの設定]**」ダイアログボックスを開き、上で選択したアセットタイプに基づいて必要な書き出しオプションを設定します。
 
-   ![](assets/file-export-settings.png)
+   ![ ファイル書き出し設定 ](assets/file-export-settings.png)
 1. 「**[!UICONTROL アップロード]**」をクリックします。
 ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
 

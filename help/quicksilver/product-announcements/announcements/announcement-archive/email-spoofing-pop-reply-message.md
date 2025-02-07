@@ -6,10 +6,10 @@ description: 20.3 リリース（2020年8月をターゲット）での、Adobe 
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '313'
-ht-degree: 100%
+ht-degree: 84%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 100%
 
 ## Workfront からの送信メール
 
-メールの配信を成功に導くために、スパムとしてタグ付けされるメールのスプーフィングを排除します（メールスプーフィングを参照）。Workfront からのすべてのメールは、自動アラートとユーザーとの間の通信の両方を含め、notifications@my.workfront.com から送信されます。Joan Harris からのメールの例は、メールの送信元エリアで次のように表示されます。
+メールの配信を成功に導くために、スパムとしてタグ付けされるメールのスプーフィングを排除します（メールスプーフィングを参照）。Workfrontからのすべてのメールは、自動アラートとユーザー間の通信の両方を含め、`notifications@my.workfront.com` から送信されます。 Joan Harris からのメールの例は、メールの送信元エリアで次のように表示されます。
 
-![](assets/noreply.png)
+![ メールの例 ](assets/noreply.png)
 
-*IT チームに連絡して*、notifications@my.workfront.com からのメールがシステムへの受信メールとしてブロックされないようにすることを強くお勧めします。また、トラフィックとメールの送信元の IP アドレスの詳細については、[ファイアウォールの許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
+*IT チームに問い合わせて* システムへの受信メールで `notifications@my.workfront.com` からのメールがブロックされないようにすることを強くお勧めします。 また、トラフィックとメールの送信元の IP アドレスの詳細については、[ファイアウォールの許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 
 ## 通知への受信メール返信（POP 返信）
 

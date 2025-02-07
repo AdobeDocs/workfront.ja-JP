@@ -6,10 +6,10 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 95%
 
 ---
 
@@ -96,7 +96,7 @@ Workfront 管理者またはグループ管理者は、レイアウトテンプ�
 
 ## グループページからグループを非アクティブ化します。
 
-最近では、グループの非アクティブ化と再アクティブ化の機能が追加されました。この操作を迅速かつ容易にするために、グループのページに追加しました。グループ名をクリックしてそのページに移動した後、グループ名の横にある詳細メニュー ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) を選択して、「非アクティブ化」または「再アクティブ化」を選択できます。
+最近では、グループの非アクティブ化と再アクティブ化の機能が追加されました。この操作を迅速かつ容易にするために、グループのページに追加しました。グループの名前をクリックしてページに移動した後、グループ名の横にある「詳細」メニュー ![ メインメニューアイコン ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) を選択し、「アクティベートを解除」または「再アクティベート」を選択します。
 
 以前は、グループの詳細ページの「アクティブ」チェックボックスを使用してのみ、グループの非アクティブ化または再アクティブ化できました。
 

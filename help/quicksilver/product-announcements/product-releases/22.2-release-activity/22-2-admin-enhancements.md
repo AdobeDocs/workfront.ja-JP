@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 97%
+source-wordcount: '934'
+ht-degree: 95%
 
 ---
 
@@ -61,7 +61,7 @@ in January 2022
 
 ## 新しいデフォルトのアクセスレベル設定
 
-新しいアクセスレベルを作成するほとんどの管理者のニーズに合わせて、以下に示す「設定の微調整」オプションのデフォルト設定が変更されました。これらは「編集」ボタンの歯車アイコン ![](assets/gear-icon-in-access-levels.png) をクリックすると表示されます。
+新しいアクセスレベルを作成するほとんどの管理者のニーズに合わせて、以下に示す「設定の微調整」オプションのデフォルト設定が変更されました。これらは、「編集」ボタンの歯車アイコン ![ アクセスレベル歯車アイコン ](assets/gear-icon-in-access-levels.png) をクリックすると表示されます。
 
 これらの変更により、以前にデフォルトで有効になっていたオプションは無効になります。組織のニーズに合わない場合は、新しいアクセスレベルの設定時に有効にしたり、後でいつでも有効にしたりできます。
 
@@ -100,7 +100,7 @@ in January 2022
 
 詳しくは、[ブループリントのインストール](../../../administration-and-setup/blueprints/blueprints-install.md)を参照してください。
 
-![](assets/blueprints-installation-history-350x95.png)
+![ ブループリントインストール履歴 ](assets/blueprints-installation-history-350x95.png)
 
 ## 実稼動環境にプレビューのみのブループリントをインストールする際に警告を表示
 

@@ -2,16 +2,16 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: 「Workfront Proof リリースアクティビティ：2021年5月17日（PT）の週」
+title: Workfront Proof リリースアクティビティ：2021年5月17日（PT）の週
 description: このページでは、Workfront Proof（スタンドアロンのプルーフアプリケーション）に対して行われた変更について説明します。ここで説明する変更は、Adobe Workfront アプリケーション内のプルーフ機能には適用されません。
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 100%
+source-wordcount: '163'
+ht-degree: 98%
 
 ---
 
@@ -33,4 +33,4 @@ ht-degree: 100%
 
 以前は、すべてのプロファイル検索ドロップダウンにシステム内のすべてのユーザーが表示され、大きなメニューが表示されていました。
 
-![](assets/user-profile-typeahead-350x142.png)
+![ ユーザープロファイルの typeahead](assets/user-profile-typeahead-350x142.png)

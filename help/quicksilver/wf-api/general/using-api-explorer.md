@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 100%
+source-wordcount: '362'
+ht-degree: 97%
 
 ---
 
@@ -22,12 +22,12 @@ Adobe Workfront コア API を使用する場合、API エクスプローラー�
 ## API エクスプローラーにアクセス
 
 1. Web ブラウザーを使用して、[API エクスプローラ](https://developer.adobe.com/workfront/api-explorer/)に移動します。\
-   ![](assets/mceclip1-350x149.png)
+   ![API Explorer に移動 ](assets/mceclip1-350x149.png)
 
 1. API エクスプローラーの右上で、目的の Workfront **API バージョン**&#x200B;を選択します。デフォルトでは、最新バージョンが自動的に選択されています。
 1. 「**フィルター**」フィールドでは、名前別にリストされたオブジェクトを以下のようにフィルタリングでき、それに応じて表示されるオブジェクトのリストが短くなります。
 
-   ![](assets/mceclip2-350x147.png)
+   ![API エクスプローラーフィールド ](assets/mceclip2-350x147.png)
 
    * **フィールド**：指定したオブジェクト内の使用可能なフィールド。
    * **参照**：指定したオブジェクトに使用できる参照変数。参照は変数のエイリアスです。初期化後、参照は変数名と同じ意味で使用できます。参照では、初期化されたメモリを使用します。
@@ -36,7 +36,7 @@ Adobe Workfront コア API を使用する場合、API エクスプローラー�
    * **アクション**：オブジェクトでサポートされているアクション。アクションは、リソースまたはリソースのセットに対して実行される単純なプロシージャまたは複雑なプロシージャです。特定のアクションは、関連リソースにも影響を与える場合があります。
 
 1. タブを開き、「オブジェクト ID」をクリックすると、該当する変数を表示できます。\
-   ![](assets/approval-350x89.png)\
+   ![ 変数を表示 ](assets/approval-350x89.png)\
    選択したオブジェクトに応じて、次の変数が適用されます。
 
    | 変数 | 定義 |

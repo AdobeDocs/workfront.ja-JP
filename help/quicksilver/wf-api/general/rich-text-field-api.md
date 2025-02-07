@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 100%
+source-wordcount: '770'
+ht-degree: 98%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Workfront の一部のオブジェクトでは、リッチテキスト形�
 
 リッチテキスト形式のカスタムフィールドは、**Field with rich text** と呼ばれ、次の値を関連付けることができます。
 
-![](assets/rich-text-example-350x158.png)
+![ リッチテキストの例 ](assets/rich-text-example-350x158.png)
 
 **例：**&#x200B;カスタムフォームフィールド **Field with rich text** の値を取得する基本的な GET リクエスト：
 
@@ -48,7 +48,7 @@ Adobe Workfront の一部のオブジェクトでは、リッチテキスト形�
 
 **例：**&#x200B;ここでは、カスタムフィールドの各テキスト行が、配列ブロック内のブロック要素にマッピングされます。
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![ リッチテキストマッピング ](assets/copy-of-rich-text-mapping-350x159.png)
 
 各ブロック要素も JSON オブジェクトであるため、各ブロックは、**キー**、**テキスト**、**タイプ**、**深さ**、**inlineStyleRanges**、**entityRanges**、および&#x200B;**データ**&#x200B;の要素で構成されます。これらの各要素は、次のように機能します。
 
@@ -61,7 +61,7 @@ Adobe Workfront の一部のオブジェクトでは、リッチテキスト形�
 
 **例：**&#x200B;文字レベルの各書式を表す inlineStyleRanges 配列を示します。この場合、インデックス 0（オフセット：0）から始まる 9 文字（長さ：9）に&#x200B;**太字**&#x200B;の書式が適用されています。
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![ リッチテキストマッピング ](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 複数の種類の書式が 1 行に適用されている場合、書式は **inlineStyleRanges** 配列内の追加の要素にマッピングされます。
 

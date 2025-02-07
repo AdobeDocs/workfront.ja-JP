@@ -4,10 +4,10 @@ description: 22.2 リリースで、カスタムフォームの管理に関す�
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 98%
+source-wordcount: '1117'
+ht-degree: 96%
 
 ---
 
@@ -19,17 +19,17 @@ ht-degree: 98%
 
 カスタムフォームに画像を埋め込むことができます。これにより、さらにインタラクティブかつ視覚的な方法でカスタムフォームのユーザーとコミュニケーションを取ることが可能になります。追加のウィジェットタイプは近日中に提供されます。
 
-![](assets/image-in-custom-form.png)
+![ カスタムフォームの画像 ](assets/image-in-custom-form.png)
 
 ウィジェットを含むカスタムフォームがオブジェクトに添付されている場合、そのオブジェクトを操作するユーザーは、次の領域でそのウィジェットを確認できます。
 
 * そのオブジェクトの「詳細」エリア（例えば、プロジェクトの場合は「プロジェクト詳細」エリア）
 
-  ![](assets/see-image-details-page.png)
+  ![ 画像の詳細 ](assets/see-image-details-page.png)
 
 * 新しい Adobe Workfront エクスペリエンスのルックアンドフィールがある場合は、そのオブジェクトの編集ボックス（プロジェクトの編集ボックスやタスクの編集ボックスなど）。
 
-  ![](assets/image-see-in-edit.png)
+  ![ 画像編集 ](assets/image-see-in-edit.png)
 
 現在、ユーザーは次のエリアでウィジェットを確認できません。
 
@@ -42,11 +42,11 @@ ht-degree: 98%
 
 複数のオブジェクトタイプをあらゆる新しいカスタムフォームに関連付けることができます。
 
-![](assets/new-custom-form-object-types.png)
+![ カスタムフォームオブジェクトタイプ ](assets/new-custom-form-object-types.png)
 
 または、既存のカスタムフォームにも関連付けられます。
 
-![](assets/add-object-type-existing-form.png)
+![ フォームにオブジェクトタイプを追加 ](assets/add-object-type-existing-form.png)
 
 これにより、プロジェクト、タスク、イシュー、およびカスタムフォームでサポートされるあらゆるタイプのオブジェクトで使用する、単一のカスタムフォームを作成できます。
 
@@ -76,11 +76,11 @@ ht-degree: 98%
 
 イシュー、タスク、プロジェクト、ユーザーの各オブジェクトタイプで使用できるセクション区切り権限オプションのセットには、それ以外のすべてのオブジェクトタイプで使用できる権限オプションのセットに加え、さらに「制限付き編集」という権限オプションが用意されています。
 
-![](assets/section-break-permissions-limited-edit.png)
+![ 編集が制限されたセクション区切り ](assets/section-break-permissions-limited-edit.png)
 
 他のすべてのオブジェクトタイプ（ポートフォリオ、ドキュメント、プログラム、費用、会社、イテレーション、請求記録、グループ）で使用できるセクション区切り権限のセットには、制限付き編集は含まれません。
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![ 制限編集なしのセクション区切り ](assets/section-break-permissions-no-limited-edit.png)
 
 これらの両方のグループのオブジェクトタイプに関連付けられたカスタムフォームでは、すべてのオブジェクトタイプに対して機能する、共通のセクション区切り権限のセットが使用されます。特に、制限付き編集の権限オプションを使用する代わりに、この共通セットでは制限付き編集の権限オプションが編集の権限オプションに置き換えられます。編集オプションは、すべてのオブジェクトタイプと互換性があります。
 

@@ -6,10 +6,10 @@ description: 承認が必要な項目、与えられた割り当て、または�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 100%
+source-wordcount: '1355'
+ht-degree: 99%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 100%
 1. 表示されるリストで [!DNL Workfront] をクリックします。
 1. 「**[!UICONTROL 設定]**」タブを選択します。
 
-   ![](assets/ms-teams-settings-tab-350x552.png)
+   ![MS Teams 設定タブ ](assets/ms-teams-settings-tab-350x552.png)
 
 1. 受信しない通知を無効にします。通知のグループ（情報通知や承認通知など）を有効または無効にしたり、通知を個別に管理したりできます。
 

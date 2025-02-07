@@ -7,10 +7,10 @@ description: Google Workspaceを離れることなく、作業項目の詳細を
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 78%
+source-wordcount: '448'
+ht-degree: 77%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 78%
 
 ## [!DNL Google Workspace] で作業アイテムの詳細を表示および管理する
 
-1. [!UICONTROL Google WorkspaceのWorkfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。![
 1.  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) からの [ アクセス  [!DNL Adobe Workfront] [!UICONTROL  ホーム ] コンテンツの説明に従って、[!DNL Google Workspace] 内の [!DNL Workfront] のタスクまたはイシューに移動します。
 
    タスクまたはイシューを選択すると、「**[!UICONTROL 詳細]**」タブが開きます。「**[!UICONTROL 詳細]**」タブの上のエリアには、親オブジェクトの名前、タスクまたはイシューの名前、[!UICONTROL 期日]（タスクの場合）または[!UICONTROL 優先日]（イシューの場合）が表示されます。

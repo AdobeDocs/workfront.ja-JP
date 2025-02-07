@@ -6,10 +6,10 @@ description: 作業中のプロジェクト、タスク、イシューに関す�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 95%
+source-wordcount: '260'
+ht-degree: 93%
 
 ---
 
@@ -68,16 +68,16 @@ Workfront プラグインを使用して時刻を記録するには、以下の�
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 作業リスト]**&#x200B;から、時間を記録する必要のある作業アイテムを選択します。
 1. **[!UICONTROL 時間]**&#x200B;をクリックします。
 
-   ![](assets/log-time-350x337.png)
+   ![時間をログに記録](assets/log-time-350x337.png)
 
 1. （オプション）ドロップダウンメニューから&#x200B;**[!UICONTROL 時間タイプ]**&#x200B;を選択します。
 1. 必要な日の時間を時間単位で入力します。
 
-   ![](assets/copy-of-log-hours-350x236.png)
+   ![ 時間を記録 ](assets/copy-of-log-hours-350x236.png)
 
 1. 「**[!UICONTROL 送信]**」をクリックします。

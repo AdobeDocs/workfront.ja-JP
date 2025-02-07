@@ -6,10 +6,10 @@ description: Adobe Workfront for XD プラグインは、Adobe Marketplace か�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 97%
+source-wordcount: '474'
+ht-degree: 96%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 97%
 
 1. 左下隅で、**プラグイン**&#x200B;アイコンをクリックします。
 
-![](assets/xd-plugin-window-350x620.png)
+![XD プラグインウィンドウ ](assets/xd-plugin-window-350x620.png)
 
 1. **[!UICONTROL プラグインパネル]**&#x200B;で、**[!UICONTROL Adobe Workfront for XD]** を検索します。
 
@@ -103,7 +103,7 @@ ht-degree: 97%
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。\
-   >![](assets/domain-350x50.png)
+   >![ ドメインの検索 ](assets/domain-350x50.png)
    >
    > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 

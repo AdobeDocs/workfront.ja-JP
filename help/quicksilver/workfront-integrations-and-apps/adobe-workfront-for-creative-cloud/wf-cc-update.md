@@ -6,10 +6,10 @@ description: Adobe Workfront プラグインを使用して作業を更新でき
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '218'
-ht-degree: 94%
+source-wordcount: '224'
+ht-degree: 92%
 
 ---
 
@@ -86,11 +86,11 @@ ht-degree: 94%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 作業リスト]**&#x200B;から、更新の投稿先となる作業アイテムを選択します。
 1. ナビゲーションバーの「**[!UICONTROL 更新]**」をクリックします。\
-   ![](assets/photoshop-update-350x295.png)
+   ![Photoshopの更新 ](assets/photoshop-update-350x295.png)
 
 1. 「**[!UICONTROL 新しい更新]**」をクリックします。
 1. 更新内容を入力します。

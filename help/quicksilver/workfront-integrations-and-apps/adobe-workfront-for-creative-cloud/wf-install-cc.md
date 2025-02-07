@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront for design and video]  は、Adobe Marketpl
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 97%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 97%
    >
    >Premiere Pro を使用している場合、このメニューにアクセスするには、プロジェクトを開いておく必要があります。
 
-   ![](assets/adobe-workfront-menu.png)
+   ![Workfront メニュー ](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -121,7 +121,7 @@ ht-degree: 97%
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。\
-   >![](assets/domain-350x50.png)
+   >![ ドメインの検索 ](assets/domain-350x50.png)
    >
    > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 

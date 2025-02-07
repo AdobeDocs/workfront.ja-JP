@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f136c08b-63c0-4e1e-a048-09eb84a0ed54
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 100%
+source-wordcount: '612'
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Workfront の新しいエクスペリエンス（拡張分析、リソース管�
 
 Workfront の新しいエクスペリエンスの新しいオブジェクトヘッダーについて詳しくは、[新しいオブジェクトヘッダー](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)を参照してください。
 
-![](assets/product-announcement-object-header-350x179.png)
+![Object ヘッダー ](assets/product-announcement-object-header-350x179.png)
 
 ## オブジェクトステータス検索の応答のアップデート
 

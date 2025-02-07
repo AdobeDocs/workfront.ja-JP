@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 100%
+source-wordcount: '913'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Workfront の使用を新しい Workfront エクスペリエンスと一致さ�
 
 詳しくは、[タスクを編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
 
-![](assets/duration-combined-field-350x139.png)
+![ 期間フィールド ](assets/duration-combined-field-350x139.png)
 
 ## プロジェクト上でのイシューのインライン追加を無効にする
 

@@ -7,10 +7,10 @@ title: Adobe Workfront 統合方法
 description: ' [!DNL Adobe Workfront]  をサードパーティのアプリケーションと統合できます。これらの統合により、 [!DNL Workfront]  のユーティリティを拡張し、これを組織のニーズに合わせて調整できます。特定のタスクに最も役立つ統合に応じて、これらの統合のいずれかまたはすべてを使用できます。'
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '946'
-ht-degree: 99%
+source-wordcount: '952'
+ht-degree: 98%
 
 ---
 
@@ -95,6 +95,6 @@ Adobe [!DNL Workfront] 管理者は、[!DNL Workfront] のインスタンス用�
 >
 >[!DNL Workfront Fusion] 内の次の [!DNL Workfront] モジュールは、選択したプロジェクトにコメントを追加するように設定されています。モジュールを実行すると、Workfront のプロジェクトの更新ストリームにコメントが表示されます。
 >
->![](assets/fusion-example-comment-350x416.png)
+>![ 例：Fusion でのコメントの追加 ](assets/fusion-example-comment-350x416.png)
 
 [!DNL Workfront Fusion] の詳細は、[[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) を参照してください。

@@ -8,10 +8,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 30a3d0cb-51dc-4770-88be-36d8bf232b98
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '209'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 Adobe Workfront のドキュメント Web フックは、Workfront が外部ドキュメントプロバイダーに対して認可された API 呼び出しを行う API エンドポイントのセットを定義します。これにより、誰でも任意のドキュメントストレージプロバイダー用のミドルウェアプラグインを作成できます。
 
-![](assets/mceclip0-350x262.png)
+![Web フック](assets/mceclip0-350x262.png)
 
 Web フックベースの統合のユーザーエクスペリエンスは、Google Drive、Box、Dropboxなどの既存のドキュメント統合のユーザーエクスペリエンスに似ています。例えば、Workfront ユーザーは以下のアクションを実行できます。
 

@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] アドインを使用する
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 89%
+source-wordcount: '686'
+ht-degree: 86%
 
 ---
 
@@ -110,9 +110,9 @@ Workfront は、[!DNL Outlook] の次のバージョンをサポートしてい�
 
 Outlook 用 Workfront アドインは、[Microsoft ストア](https://appsource.microsoft.com/en-us/product/office/WA104380943?tab=Overview)から入手できます。
 
-### [!DNL Workfront] for [!DNL Outlook 365] {#workfront-for-outlook-365}
+### [!DNL Outlook 365] 向け [!DNL Workfront] {#workfront-for-outlook-365}
 
-1. [!DNL Outlook 365] で、Office 365 インターフェイスの上部から「**[!UICONTROL アドインの参照]**」アイコン ![](assets/outlook-add-in-26x26.png)、「**[!UICONTROL アドインの管理]**」の順にクリックします。
+1. [!DNL Outlook 365] で、Office 365 インターフェイスの上部にある **[!UICONTROL アドインを参照]** アイコン ![ アドインを参照 ](assets/outlook-add-in-26x26.png) アイコンをクリックし、**[!UICONTROL アドインの管理]** をクリックします。
 
 1. **[!UICONTROL アドインを検索]**&#x200B;ボックスで、**[!DNL Workfront]** を検索し、[!UICONTROL Enter キー]を押します。
 
@@ -121,7 +121,7 @@ Outlook 用 Workfront アドインは、[Microsoft ストア](https://appsource.
 ### Web 版 [!DNL Workfront] for [!DNL Outlook] {#workfront-for-outlook-on-the-web}
 
 1. Web ブラウザーで [!DNL Microsoft Outlook] を開きます。
-1. **アドインの参照**&#x200B;アイコン ![](assets/outlook-add-in-web-version-20x20.png) をクリックします。
+1. **[!UICONTROL アドインを参照 ] アイコン** アドインを参照 ![ をクリック ](assets/outlook-add-in-web-version-20x20.png) ます。
 
    アイコンを見つけるには、[Web 版 ](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) でのアドインの使用 [!DNL Outlook] を参照してください。
 

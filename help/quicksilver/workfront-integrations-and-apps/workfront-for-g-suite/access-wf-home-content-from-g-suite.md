@@ -7,10 +7,10 @@ description: Google Workspaceから離れることなく、割り当てられた
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 80%
+source-wordcount: '373'
+ht-degree: 57%
 
 ---
 
@@ -53,26 +53,26 @@ Google Workspaceから離れることなく、割り当てられたすべての�
 ## [!DNL Google Workspace] から [!DNL Workfront] [!UICONTROL ホーム]へのアクセス
 
 1. [!DNL Workfront] にログインしていることを確認します。
-1. [!UICONTROL Google WorkspaceのWorkfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。![
 1. [!DNL Google Workspace] の [!DNL Workfront] 上部に左向き矢印が表示される場合、[!UICONTROL ホーム]エリアに移動する矢印をクリックします。
 
-1. **[!UICONTROL 並べ替え]**&#x200B;エリアで、展開矢印 ![](assets/dropdown-arrow.png) をクリックして、作業アイテムをグループ化する方法を指定して、目的のアイテムを検索します。
+1. **[!UICONTROL 並べ替え]** 領域で、展開する矢印 ![ 展開する矢印 ](assets/dropdown-arrow.png) をクリックし、作業アイテムのグループ化方法を指定するオプションをクリックして、目的の作業アイテムを見つけることができます。
 
    **[!UICONTROL コミット日]**&#x200B;または&#x200B;**[!UICONTROL 完了予定]**&#x200B;日で並べ替えする場合、最も古い作業アイテムが一番上に表示されます。
 
    **[!UICONTROL プロジェクト]**&#x200B;で並び替えする場合、作業アイテムは親プロジェクトの順に表示され、アルファベット順に A から Z の順に表示されます。親プロジェクトのない作業アイテムは、**[!UICONTROL プロジェクトなし]**&#x200B;の下に表示されます。
 
-1. 表示するグループ化の展開矢印 ![](assets/dropdown-arrow.png) をクリックします。
+1. 表示するグループ化の展開矢印 ![ 展開矢印 ](assets/dropdown-arrow.png) をクリックします。
 
    各グループ内に含まれる項目の数は括弧で囲まれて表示されます。[!UICONTROL 展開]矢印をクリックすると、グループ内のすべての作業アイテムが表示されます。
 
    作業アイテムは次のように表示されます。
 
-   * ![](assets/task-icon.png) **タスク**&#x200B;は、親プロジェクト名、タスク名および予定完了日を表示します。
+   * ![ タスクアイコン ](assets/task-icon.png)**タスク** 親プロジェクト名、タスク名および予定完了日を表示します。
 
-   * ![](assets/issue-icon.png) **イシュー**&#x200B;は、親プロジェクト名、イシュー名、予定完了日を表示します。
+   * ![ イシューアイコン ](assets/issue-icon.png)**イシュー** 親プロジェクト名、イシュー名および予定完了日を表示します。
 
-   * ![](assets/document-icon.png) **承認**&#x200B;は、リクエスターの名前、ドキュメント名および送信日を表示します。
+   * ![ ドキュメントアイコン ](assets/document-icon.png)**承認** 要求者の名前、ドキュメント名、送信日が表示されます。
    * **アクセスリクエスト**&#x200B;は、リクエスターの名前、オブジェクト名および送信日を表示します。オブジェクトタイプのアイコンが左側に表示されます。
 
 1. 作業アイテムの任意の場所をクリックして、その詳細、更新およびドキュメントを表示します。

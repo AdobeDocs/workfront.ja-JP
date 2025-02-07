@@ -7,10 +7,10 @@ description: 外部メール（ [!DNL Adobe Workfront)]  以外で生成）を  
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 84%
+source-wordcount: '770'
+ht-degree: 80%
 
 ---
 
@@ -56,10 +56,10 @@ ht-degree: 84%
 
 ## メールコンテンツを使用して [!DNL Google Workspace] で [!DNL Adobe Workfront] イシューを作成する
 
-1. [!UICONTROL Google WorkspaceのWorkfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。![
 1. メールメッセージを [!DNL Google Workspace] で開いたまま、[!DNL Workfront for Google Workspace] でメールを新しい [!DNL Workfront] イシューに変換するオプションをクリックします。
 
-   ![](assets/convert-email-task-issue-update.png)
+   ![ メールを変換 ](assets/convert-email-task-issue-update.png)
 
 1. イシューを親プロジェクトに関連付ける場合は、**[!UICONTROL プロジェクト名]**&#x200B;をクリックし、イシューを作成するプロジェクトの名前を入力し、下の一覧に表示されたら、そのプロジェクトの名前をクリックします。
 1. 次の変更を行います。
@@ -86,7 +86,7 @@ ht-degree: 84%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email attachments]</td> 
-      <td> <p>（メールに 1 つ以上の添付ファイルが含まれている場合にのみ使用できます。）メール内の添付ファイルをイシューの[!UICONTROL Documents]エリアに保存するには、このオプションをクリックします。 </p> <p>添付ファイルを保存しない場合は、名前の右にある X をクリックします。 </p> <p>メールに [!DNL Google Drive] でのドキュメントへのリンクが含まれる場合は、作成中のイシューの [!UICONTROL Overview] タブに保存されます。 </p> <p>重要：これを機能させるには、<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">ドキュメント統合の構成</a>の記事の<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">ドキュメントを管理するための統合の構成</a>の節で説明されているように、[!DNL Workfront] 管理者は [!DNL Google Drive] が [!DNL Workfront] でドキュメントを操作できるように承認する必要があります。</p> <p>このオプションを有効にした場合、タスク、イシュー、更新に変換する他のメールに対しても有効なままになります。</p> </td> 
+      <td> <p>（メールに少なくとも 1 つの添付ファイルが含まれている場合にのみ使用できます）。 このオプションをクリックして、メールの添付ファイルをイシューの [!UICONTROL ドキュメント ] 領域に保存します。 </p> <p>添付ファイルを保存しない場合は、名前の右にある X をクリックします。 </p> <p>メールに [!DNL Google Drive] でのドキュメントへのリンクが含まれる場合は、作成中のイシューの [!UICONTROL Overview] タブに保存されます。 </p> <p>重要：これを機能させるには、<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">ドキュメント統合の構成</a>の記事の<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">ドキュメントを管理するための統合の構成</a>の節で説明されているように、[!DNL Workfront] 管理者は [!DNL Google Drive] が [!DNL Workfront] でドキュメントを操作できるように承認する必要があります。</p> <p>このオプションを有効にした場合、タスク、イシュー、更新に変換する他のメールに対しても有効なままになります。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">メールファイルを含める</td> 

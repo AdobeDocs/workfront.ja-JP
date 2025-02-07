@@ -8,10 +8,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 9a4f8dbe-967f-4a41-a42c-8e3acb604972
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 100%
+source-wordcount: '339'
+ht-degree: 99%
 
 ---
 
@@ -22,9 +22,7 @@ Adobe Workfront 管理者は、Workfront 内でセッ設定／ドキュメント
 
 統合を追加するには、「**カスタム統合の追加**」ボタンをクリックします。
 
-![](assets/webhooks-integration-350x230.png)
-
-![](assets/webhooks-integration-2-350x220.png)
+![ カスタム統合の追加 ](assets/webhooks-integration-2-350x220.png)
 
 ## 使用可能なフィールド
 

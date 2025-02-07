@@ -6,10 +6,10 @@ description: インストール後 [!DNL Adobe Workfront] 対象： [!DNL Salesf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 100%
+source-wordcount: '547'
+ht-degree: 95%
 
 ---
 
@@ -107,7 +107,7 @@ ht-degree: 100%
 1. （オプション）「**[!UICONTROL [!DNL Salesforce]]**&#x200B;に移動」をクリックして、Workfront の以下のエリアからイシューが発生した商談またはアカウントにアクセスします。
 
    * イシューの[!UICONTROL 詳細]セクション
-   * 概要パネル（リスト内のイシューを選択するときに、リストのツールバーで[!UICONTROL 概要を開く]![](assets/summary-panel-icon.png) をクリックしたとき）。
+   * リストでイシューを選択する際の概要パネルで、リストのツールバーの [!UICONTROL  概要を開く ]![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックします。
    * イシューヘッダー（[!UICONTROL 統合]フィールドが使用可能なとき）。システム管理者またはグループ管理者が、レイアウトテンプレートに[!UICONTROL 統合]フィールドを追加して、イシューヘッダーに「Salesforce に移動」リンクを表示する必要があります。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
    >[!NOTE]

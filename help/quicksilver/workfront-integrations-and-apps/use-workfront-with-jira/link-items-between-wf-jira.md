@@ -6,10 +6,10 @@ description: ' [!DNL Jira]  のイシューを、 [!DNL Adobe Workfront]  のタ
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: f2169acfbcbf6a1497bd35de01821a09c7b3d59c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1229'
-ht-degree: 90%
+source-wordcount: '1231'
+ht-degree: 89%
 
 ---
 
@@ -85,7 +85,7 @@ Jira のイシューを自動作成するトリガーの定義について詳し
 
    タスクへのアクセス権について詳しくは、[タスクへのアクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)を参照してください。
 
-1. プロジェクトに移動し、左側のパネルで&#x200B;**[!UICONTROL タスク]** ![](assets/tasks-icon-in-left-panel-14x14.png) をクリックします。
+1. プロジェクトに移動し、左パネルで **[!UICONTROL タスク]** ![ タスクアイコン ](assets/tasks-icon-in-left-panel-14x14.png) を選択します。
 
 1. 「**[!UICONTROL 新規タスク]**」をクリックします。
 

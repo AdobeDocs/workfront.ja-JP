@@ -7,10 +7,10 @@ description: 外部メール（Adobe  [!DNL Workfront] によって生成され�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '920'
-ht-degree: 90%
+source-wordcount: '922'
+ht-degree: 86%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 
 ## [!DNL Google Workspace] でメールコンテンツを使用して [!DNL Adobe Workfront] タスクを作成する
 
-1. [!UICONTROL Google WorkspaceのWorkfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。![
 1. メールメッセージを [!DNL Google Workspace] で開いたまま、[!DNL Workfront for Google Workspace] でメールを新しい [!DNL Workfront] タスクに変換するオプションをクリックします。
 
 1. 「**[!UICONTROL 新規作成]**」オプションを選択して、タスクをプロジェクトの一部にするか、プロジェクトから独立した個人タスクにするかを指定します。
@@ -89,7 +89,7 @@ ht-degree: 90%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email attachments]</td> 
-      <td> <p>（メールに 1 つ以上の添付ファイルが含まれている場合にのみ使用できます。）メール内の添付ファイルをタスクの [!UICONTROL Documents] エリアに保存するには、このオプションをクリックします。 </p> <p>添付ファイルを保存しない場合は、名前の右にある X をクリックします。 </p> <p>メールに [!DNL Google Drive] でのドキュメントへのリンクが含まれる場合は、作成中のタスクの [!UICONTROL Overview] タブに保存されます。 </p> <p>重要：これを機能させるには、<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">ドキュメント統合を設定</a>の記事の<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">ドキュメントを管理するために統合を構成</a>の節で説明されているように、[!DNL Workfront] 管理者は [!DNL Google Drive] が [!DNL Workfront] でドキュメントを操作できるように承認する必要があります。</p> <p>このオプションを有効にした場合、タスク、イシュー、更新に変換する他のメールに対しても有効なままになります。</p> </td> 
+      <td> <p>（メールに少なくとも 1 つの添付ファイルが含まれている場合にのみ使用できます）。 メール内の添付ファイルをタスクの [!UICONTROL ドキュメント ] 領域に保存するには、このオプションをクリックします。 </p> <p>添付ファイルを保存しない場合は、名前の右にある X をクリックします。 </p> <p>メールに [!DNL Google Drive] でのドキュメントへのリンクが含まれる場合は、作成中のタスクの [!UICONTROL Overview] タブに保存されます。 </p> <p>重要：これを機能させるには、<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">ドキュメント統合を設定</a>の記事の<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">ドキュメントを管理するために統合を構成</a>の節で説明されているように、[!DNL Workfront] 管理者は [!DNL Google Drive] が [!DNL Workfront] でドキュメントを操作できるように承認する必要があります。</p> <p>このオプションを有効にした場合、タスク、イシュー、更新に変換する他のメールに対しても有効なままになります。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email file]</td> 

@@ -2,15 +2,15 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: 「Adobe Workfront Goals 21.1 リリースアクティビティ：2020年11月16日の週」
+title: Adobe Workfront Goals 21.1 リリースアクティビティ：2020年11月16日（PT）の週
 description: このページでは、2020年11月30日 (PT) の週にプレビュー環境に対して Adobe Workfront Goals の 21.1 リリースで行われたすべての機能強化について説明します。これらの機能強化は、21.1 の第 1 四半期に実稼動環境で利用可能になる予定です。
 author: Luke
 feature: Product Announcements, Workfront Goals
 exl-id: 9596ff23-6dd7-4608-9655-410482d56663
-source-git-commit: be4904f0b37870c1bfc8ec345e468d5fc283aa36
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 100%
+source-wordcount: '305'
+ht-degree: 99%
 
 ---
 
@@ -38,4 +38,4 @@ Workfront 管理者は、設定のシステム領域で Workfront Goals ライ�
 
 Workfront Goals に表示される情報について詳しくは、[Adobe Workfront Goals での情報のフィルタリング](../../../../workfront-goals/goal-management/filter-information-wf-goals.md)を参照してください。
 
-![](assets/goals-page-with-no-my-teams-tab-350x114.png)
+![ 目標ページ ](assets/goals-page-with-no-my-teams-tab-350x114.png)

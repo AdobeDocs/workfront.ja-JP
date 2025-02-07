@@ -6,10 +6,10 @@ description: アートボードをドキュメントとしてアップロード�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 98%
+source-wordcount: '596'
+ht-degree: 94%
 
 ---
 
@@ -65,10 +65,10 @@ ht-degree: 98%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL ワークリスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. ドキュメントをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. アップロードするアートボードを選択します。
@@ -113,10 +113,10 @@ ht-degree: 98%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL ワークリスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/menu-350x440.png)
+   ![ メニューアイコン ](assets/menu-350x440.png)
 
 1. ドキュメントをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
 
 1. 新しいバージョンを追加するドキュメントをクリックします。
 1. プラグインの下部近くにある「**[!UICONTROL 新しいバージョン]**」をクリックします。

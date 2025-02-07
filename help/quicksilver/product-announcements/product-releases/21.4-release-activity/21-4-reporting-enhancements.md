@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: db33cee1-45d3-4641-9afa-790de92654c5
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '337'
+ht-degree: 98%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 100%
 
 リスト内の割り当てについて詳しくは、[タスクの割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md)または[イシューの割り当て](../../../manage-work/issues/manage-issues/assign-issues.md)を参照してください。
 
-![](assets/assignments-updates-350x193.png)
+![ 割り当ての更新 ](assets/assignments-updates-350x193.png)
 
 ## アップデートされたリストおよびレポートの先行入力フィールドの新しいルックアンドフィール
 
@@ -60,4 +60,4 @@ ht-degree: 100%
 
 更新されたリストについて詳しくは、[Adobe Workfront でのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)の記事の[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
 
-![](assets/typeahead-updates-350x336.png)
+![Typeahead フィールド ](assets/typeahead-updates-350x336.png)

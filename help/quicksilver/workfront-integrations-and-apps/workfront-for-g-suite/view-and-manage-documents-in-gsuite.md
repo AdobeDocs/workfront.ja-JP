@@ -7,10 +7,10 @@ description: Google Workspaceを離れることなく、オブジェクトに関
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 73%
+source-wordcount: '407'
+ht-degree: 65%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 73%
 
 ## [!DNL Google Workspace] で [!DNL Workfront] ドキュメントを表示および管理する
 
-1. [!UICONTROL Google WorkspaceのWorkfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。![
 1.  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) からの [ アクセス  [!DNL Adobe Workfront] [!UICONTROL  ホーム ] コンテンツの説明に従って、[!DNL Google Workspace] 内の [!DNL Workfront] のタスクまたはイシューに移動します。
 1. 「**[!UICONTROL ドキュメント]**」をクリックします。
 
@@ -68,11 +68,11 @@ ht-degree: 73%
 
    更新や返信の投稿に関する情報が必要な場合は、「[ オブジェクトの更新  [!DNL Adobe Workfront]  を参照してください  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)。
 
-1. （オプション）**[!UICONTROL ダウンロード]**&#x200B;アイコン ![](assets/download-icon.png) をクリックして、リスト内のドキュメントをダウンロードします。
+1. （任意） **[!UICONTROL ダウンロード]** アイコン ![ ダウンロードアイコン ](assets/download-icon.png) をクリックして、リストのドキュメントをダウンロードします。
 
    または
 
-   ドキュメントがクラウドドライブに保存されている場合は、**[!UICONTROL 開く]**&#x200B;アイコン ![](assets/open-icon.png) をクリックします。
+   ドキュメントをクラウドドライブに保存する場合は、**[!UICONTROL 開く]** アイコン ![ 開くアイコン ](assets/open-icon.png) をクリックします。
 
 1. 「**[!UICONTROL Workfront で表示]**」をクリックして、[!DNL Workfront] にあるドキュメントのドキュメントの詳細ページに移動します。
 

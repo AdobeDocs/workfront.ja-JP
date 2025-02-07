@@ -7,10 +7,10 @@ description: Google Workspaceでは、Adobeのメール通知を送信し  [!DNL
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 89%
+source-wordcount: '477'
+ht-degree: 84%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 89%
 
 ## [!DNL Google Workspace] から [!DNL Adobe Workfront] 通知の詳細の管理
 
-1. [!DNL Workfront for Google Workspace] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) をクリックします。
+1. [!DNL Workfront for Google Workspace] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![Workfront アイコン ](assets/wf-lion-icon.png) をクリックします。
 1. [!DNL Google Workspace] で [!DNL Workfront] 通知メールを開きます。
 1. パネルの上部付近に表示される場合、「**[!UICONTROL すべての更新を表示]**」をクリックします。
 1. 「**[!UICONTROL 詳細]**」をクリックします。

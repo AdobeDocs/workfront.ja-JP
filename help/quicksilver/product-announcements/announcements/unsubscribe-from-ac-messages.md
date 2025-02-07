@@ -6,10 +6,10 @@ description: お知らせセンターのメッセージとは、Adobe Workfront 
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 100%
+source-wordcount: '238'
+ht-degree: 91%
 
 ---
 
@@ -25,16 +25,16 @@ ht-degree: 100%
 
 お知らせセンターのメッセージの配信登録を解除するには、次の操作を実行します。
 
-1. Workfront の右上隅にある番号付きのアイコン ![](assets/notifications-icon-jewel.jpg) をクリックして、通知のリストを開きます。
+1. Workfrontの右上隅にある番号付きアイコン ![ 通知アイコン ](assets/notifications-icon-jewel.jpg) をクリックして、通知のリストを開きます。
 1. リストの下部にある「**すべてのお知らせ**」をクリックします。
 
    **お知らせ**&#x200B;ページが表示され、すべてのお知らせが一覧表示されます。
 
-   ![](assets/announcements-page-qs-350x210.png)
+   ![お知らせページ](assets/announcements-page-qs-350x210.png)
 
 1. お知らせページの右上隅にある「**設定**」をクリックし、今後は受信しないお知らせの種類に応じて「**新しいリリース**」または「**トレーニング**」を選択します。
 
-   ![](assets/announcementcenter-settings-350x187.png)
+   ![ 通知センターの設定 ](assets/announcementcenter-settings-350x187.png)
 
 1. 「**設定を保存**」クリックします。
 

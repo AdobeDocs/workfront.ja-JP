@@ -7,10 +7,10 @@ description: ' [!DNL Adobe Workfront] for Salesforce をインストールする
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 94%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 100%
    * プロジェクトまたはイシューのヘッダー。
 
      プロジェクトまたはイシューのヘッダーに「[!UICONTROL Salesforce に移動]」リンクを表示するには、システム管理者またはグループ管理者がレイアウトテンプレートに「[!UICONTROL 統合]」フィールドを追加する必要があります。
-   * イシューの[!DNL Summary]パネル（リストのツールバーで「[!UICONTROL 概要を開く]![](assets/summary-panel-icon.png)」をクリックしてからリスト内のイシューを選択したとき）。
+   * リストのツールバーで [!UICONTROL  概要を開く ]![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックした後、リストでイシューを選択する際のイシューの [!DNL Summary] パネル。
 
      >[!NOTE]
      >

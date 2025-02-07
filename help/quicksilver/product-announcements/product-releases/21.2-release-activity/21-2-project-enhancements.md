@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1650'
-ht-degree: 100%
+source-wordcount: '1653'
+ht-degree: 99%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 100%
 * [プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)
 * [タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
-![](assets/pasted-image-4-5-2021-0-350x278.png)
+![ プロジェクトを編集の例 ](assets/pasted-image-4-5-2021-0-350x278.png)
 
 ## カスタムフォームの機能強化
 

@@ -6,10 +6,10 @@ description: プロジェクトをドキュメントとしてアップロード�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d26850d8-9594-4848-b263-6f71e6c52e9b
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 96%
+source-wordcount: '297'
+ht-degree: 91%
 
 ---
 
@@ -64,10 +64,10 @@ ht-degree: 96%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
 
 1. ドキュメントをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの&#x200B;**[!UICONTROL ドキュメント]**&#x200B;アイコン ![](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
 
 1. プラグインの下部にある&#x200B;**[!UICONTROL 新規ファイル]**&#x200B;をクリックします。
 1. ドロップダウンメニューから&#x200B;**[!UICONTROL アセットタイプ]**&#x200B;を選択します。

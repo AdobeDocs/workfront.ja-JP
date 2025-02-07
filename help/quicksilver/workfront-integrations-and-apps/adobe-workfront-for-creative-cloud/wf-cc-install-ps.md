@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: ' [!DNL Adobe Workfront for Photoshop]  をインストールして開く'
+title: ' [!DNL Adobe Workfront for Photoshop] をインストールして開く'
 description: Adobe Workfront for Photoshop プラグインは、Adobe Marketplace からインストールできます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '520'
 ht-degree: 97%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 97%
 
 1. 上部のメニューで、**[!UICONTROL プラグイン]**／**[!UICONTROL プラグインパネル]**&#x200B;をクリックします。
 
-   ![](assets/plugins-panel-ps.png)
+   ![ プラグインパネル ](assets/plugins-panel-ps.png)
 
 1. **[!UICONTROL プラグインパネル]**&#x200B;で、「**[!UICONTROL プラグイン]**」タブを選択して、**[!UICONTROL Workfront for Adobe Photoshop]** を見つけます。
 
@@ -107,7 +107,7 @@ ht-degree: 97%
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開き、[!DNL Workfront] インスタンスに移動し、URL の最初の部分をコピーします。\
-   >![](assets/domain-350x50.png)
+   >![ ドメインの検索 ](assets/domain-350x50.png)
    >
    > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 

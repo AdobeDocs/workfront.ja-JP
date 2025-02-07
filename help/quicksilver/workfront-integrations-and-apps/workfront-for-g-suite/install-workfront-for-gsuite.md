@@ -7,10 +7,10 @@ description: Google Workspace Marketplace から  [!DNL Adobe Workfront]  for Go
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: eb11d62d-86ed-49fc-8bbc-6f04eb30865d
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 88%
+source-wordcount: '151'
+ht-degree: 72%
 
 ---
 
@@ -52,6 +52,6 @@ ht-degree: 88%
    [!DNL Google Workspace] アプリ（[!DNL Gmail]、[!DNL Google Calendar]、または [!DNL Google Drive]）の右端にある [!DNL Google Workspace] アドオンのサイドバーのプラス記号アイコンをクリックします。*[!DNL Workfront for Google Workspace]* を検索し、表示される [!DNL Workfront for Google Workspace] アプリアイテムをクリックします。
 
 1. 「**[!UICONTROL インストール]**」をクリックし、表示されるプロンプトに従います。
-1. （条件付き）[!DNL Google Workspace] アプリで、ページの右端にある [!DNL Google Workspace] アドオンのサイドバーに [!DNL Workfront] アイコン ![](assets/wf-lion-icon.png) が表示されない場合は、ページを更新してください。
+1. （条件付き） [!DNL Google Workspace] アプリで「[!DNL Workfront]」アイコン ![Workfrontアイコンが表示されない場合 ](assets/wf-lion-icon.png) ページの右端にある「[!DNL Google Workspace]」アドオンサイドバーでページを更新します。
 
 ログインについて詳しくは、[ [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/log-in-and-out-wf-for-gsuite.md) のログインとログアウトを参照してください。

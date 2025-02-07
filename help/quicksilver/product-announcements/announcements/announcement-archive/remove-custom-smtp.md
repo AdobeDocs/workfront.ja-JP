@@ -6,10 +6,10 @@ description: 20.3 リリース（2020年8月を目標とする）で、Adobe Wor
 author: Luke
 feature: Product Announcements
 exl-id: 73abd185-81c6-43fc-b8b0-cad14d15b348
-source-git-commit: 9bc394c718becbac2848c2d91ba3202483699b6f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 この機能にアクセスするには、システム管理者としてログインし、設定／メール／設定の順に移動します。この機能を強調表示したスクリーンショットを次に示します。
 
-![](assets/email-server-settings-350x226.png)
+![ メールサーバーの設定 ](assets/email-server-settings-350x226.png)
 
 このスクリーンショットで強調表示されている設定は、20.3 リリースで「Workfront メールサーバー」オプションを使用するように自動的に切り替わります。
 
