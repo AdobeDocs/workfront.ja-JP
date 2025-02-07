@@ -7,10 +7,10 @@ description: Workfront Proof から生成されたメール通知は、コメン
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2063'
-ht-degree: 98%
+source-wordcount: '2065'
+ht-degree: 97%
 
 ---
 
@@ -151,7 +151,7 @@ ht-degree: 98%
 バッチアクションで特定の受信者向けのメールアラートを変更できます。
 
 1. 左側のナビゲーションパネルで「**[!UICONTROL 連絡先]**」をクリックします。
-1. 受信者の&#x200B;**[!UICONTROL その他]**&#x200B;メニュー ![](assets/more-button-small.png) をクリックし、ドロップダウンメニューで「**[!UICONTROL メンバーの詳細を表示]**」を選択します。
+1. 受信者の **[!UICONTROL 詳細]** メニュー ![ 詳細メニュー ](assets/more-button-small.png) をクリックし、ドロップダウンメニューの **[!UICONTROL メンバーの詳細を表示]** をクリックします。
 
 1. 「**[!UICONTROL 共有項目]**」セクションを開きます。
 1. メールアラートを変更する各項目の左側でチェックボックスを選択します。

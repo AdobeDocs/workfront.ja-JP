@@ -7,10 +7,10 @@ description: ファイルは、プルーフを作成しなくても  [!DNL Workf
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 100%
+source-wordcount: '538'
+ht-degree: 99%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 ファイルを [!DNL Workfront Proof] にアップロードするには：
 
 1. [!DNL Workfront Proof] の左上隅にある「**[!UICONTROL 新しいプルーフ]**」ボタンをクリックし、表示されたメニューで「**[!UICONTROL ファイルをアップロード]**」をクリックします。\
-   ![](assets/new-proof-button-menu.png)
+   ![ 「新規プルーフ」ボタン ](assets/new-proof-button-menu.png)
 
 1. **[!DNL New File]** ページが表示されます。
 1. 次のいずれかの操作を行って、プルーフに必要なコンテンツをアップロードまたは追加します。

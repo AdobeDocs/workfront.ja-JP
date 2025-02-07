@@ -7,10 +7,10 @@ description: Workfront Proof にアップロードされたファイル（プル
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 9bbf2448-74dc-412a-b17c-4321d0acaf07
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 95%
 
 ---
 
@@ -25,28 +25,28 @@ Workfront Proof にアップロードされたファイル（プルーフ以外�
 1. 左側のナビゲーションパネルで「**[!UICONTROL ビュー]**」の右にある下矢印をクリックしたあと、ドロップダウンメニューの「**[!UICONTROL ファイル]**」をクリックします。
 
 1. ファイルの&#x200B;**[!UICONTROL その他]**&#x200B;ボタンをクリックし、表示されるメニューの「**[!UICONTROL ファイルの詳細を表示]**」をクリックします。\
-   ![](assets/click-more-then-view-file-details.png)\
+   ![ ファイルの詳細を表示 ](assets/click-more-then-view-file-details.png)\
    表示されるウィンドウでファイルの詳細を表示および編集できます。例えば、ウィンドウの上部に表示されるファイル名、ファイルを保存する [!DNL Workfront Proof] **フォルダー**&#x200B;およびファイルの&#x200B;**所有者**&#x200B;を変更できます。\
-   ![](assets/file-details-page-350x129.png)
+   ![ ファイルの詳細 ](assets/file-details-page-350x129.png)
 
 1. （オプション）ファイルの編集権限がある場合は、右上隅にある以下のアクションボタンを使用して、ファイルを管理および共有します。
 
 * **[!UICONTROL タグ]**：ファイルに適用されるタグを管理します。\
-   ![](assets/tags-button.png)\
+   ![ タグボタン ](assets/tags-button.png)\
    アクションボタンの下に、ファイルに適用されているすべてのタグが表示されます。不要なタグの横にある「x」をクリックして、そのタグを削除できます。\
-   ![](assets/view-file-tags-350x64.png)
+   ![ ファイルタグの表示 ](assets/view-file-tags-350x64.png)
 
 * **[!UICONTROL 指定の場所に移動]**：ファイルをフォルダーに整理します。ファイルを既存のフォルダー間で移動したり、新しいフォルダーに配置したりできます。\
-   ![](assets/folder-button.png)
+   ![ フォルダーボタン ](assets/folder-button.png)
 
 * **[!UICONTROL 共有]**：ファイルを他のユーザーと共有します。[!DNL Workfront Proof] では、カスタムメッセージとダウンロードリンクを含んだメール通知を受信者に送信します。\
-   ![](assets/share-button.png)
+   ![ 共有ボタン ](assets/share-button.png)
 
 * **[!UICONTROL ごみ箱]**：ファイルをごみ箱に移動することにより、削除できます。なお、ごみ箱を空にするまで、ファイルはストレージの限度内で蓄積されます（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) におけるごみ箱の内容の復元および完全削除を参照）。\
-   ![](assets/trash-button.png)
+   ![ ごみ箱ボタン ](assets/trash-button.png)
 
 * **[!UICONTROL その他]**：このドロップダウンリストで、「**[!UICONTROL プルーフに変換]**」をクリックすると、ファイルのプルーフを作成できます（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成を参照）。ファイルは、プルーフのファイルタイプ要件を満たしている必要があります（[サポートされているプルーフのファイルタイプとサイズ制限の概要](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)を参照）。ファイル名が既存のプルーフの名前と一致する場合、[!DNL Workfront Proof] では、ファイルをそのプルーフの&#x200B;**[!UICONTROL 新しいバージョン]**&#x200B;に変換できるリンクを含んだメッセージを表示します（参照）。\
-   ![](assets/more-button-text-version.png)
+   ![ 詳細ボタン ](assets/more-button-text-version.png)
 
   >[!TIP]
   >
@@ -58,7 +58,7 @@ Workfront Proof にアップロードされたファイル（プルーフ以外�
 
    右側の&#x200B;**[!UICONTROL その他]**&#x200B;アイコンを使用して、ユーザーに&#x200B;**[!UICONTROL メッセージ]**&#x200B;を送信したり、ユーザーを&#x200B;**[!UICONTROL 削除]**&#x200B;したりできます。
 
-   ![](assets/message-and-remove.png)
+   ![ メッセージと削除 ](assets/message-and-remove.png)
 
    これらのユーザーの 1 人にメッセージを送信することを選択した場合、**[!DNL Message all]**&#x200B;ページが表示されるので、複数のメッセージを一度に送信できます。
 

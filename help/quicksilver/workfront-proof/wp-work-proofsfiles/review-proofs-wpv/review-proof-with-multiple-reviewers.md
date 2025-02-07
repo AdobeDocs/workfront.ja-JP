@@ -7,10 +7,10 @@ description: 複数のレビュアーが同時にプルーフをレビューで�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 100%
+source-wordcount: '200'
+ht-degree: 99%
 
 ---
 
@@ -32,4 +32,4 @@ ht-degree: 100%
 
 1. （オプション）プレゼンスインジケーターの上にマウスを合わせると、ユーザーの名前が表示されます。
 
-   ![](assets/proof-presence.png)
+   ![ プルーフのプレゼンス ](assets/proof-presence.png)

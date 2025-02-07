@@ -7,10 +7,10 @@ description: ファイルとプルーフのカスタムビューを作成して�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2458'
-ht-degree: 100%
+source-wordcount: '2472'
+ht-degree: 98%
 
 ---
 
@@ -46,10 +46,10 @@ ht-degree: 100%
 
    * 既存の標準ビューに基づいて新しいカスタムビューを作成するには、ドロップダウンメニューから、新しいカスタムビューの基盤として使用する既存の標準ビューを選択します。**[!UICONTROL ビューの設定]**&#x200B;アイコンをクリックし、「**[!UICONTROL コピー]**」をクリックして新しいカスタムビューにコピーします。
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![ カスタムビューアイコン ](assets/proof-custom-view-icon.png)
 
    * 新しいカスタムビューを最初から作成するには、**[!UICONTROL 新規ビュー]**&#x200B;アイコンをクリックします。
-   * ![](assets/proof-newview.png)
+   * ![ 新規ビュー ](assets/proof-newview.png)
 
 1. 「**[!UICONTROL 詳細]**」セクションで、次の情報を指定します。
 
@@ -59,7 +59,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL 列]**」セクションでは、カスタムビューに含める列を決定します。
 
    1. 右向き矢印アイコンをクリックします。
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![ 右矢印キー ](assets/proof-view-rightarrow.png)
 
    1. 選択した列の名前をダブルクリックします。
    1. 1 つ以上の列を選択する必要があります。1 つの列は 1 回だけ追加できます。
@@ -215,7 +215,7 @@ ht-degree: 100%
 1. すべての項目をカスタムビューに含めるには、「**[!UICONTROL フィルター]**」セクションをスキップします。
 1. 使用可能なフィルター：
 
-   * **フィールド：**&#x200B;このフィルターのフィールドを選択します（デフォルトのフィールドはコメントです）。フィールドリストには、すべての標準フィールド（「[!UICONTROL 列]」タブと同様）が含まれます。リストは、表示用に選択した列に限りません。
+   * **フィールド：** このフィルターのフィールドを選択します（デフォルトのフィールドはコメントです）。 「フィールド」リストには、すべての「標準」フィールド（「[!UICONTROL  列 ] タブなど）が含まれます。 リストは、表示用に選択した列に限りません。
    * **演算子：**&#x200B;フィルターに使用できる演算子は、選択したフィールドのタイプによって異なります。フィールドと値フィールドの間の関係を表示する演算子を選択します。この情報は後で入力します。
    * **値：**&#x200B;選択したフィールドと演算子に従って、このフィールドで選択した値を選択または入力します。選択した演算子に応じて、値フィールドが 1 つある場合と、値が 2 つまたは「なし」の場合があります。次の例を参照してください。
    * **フィルターは次のロジックを使用して適用されます。**&#x200B;異なるフィールド間のフィルター条件では、AND 演算子が使用されます。同じフィールドを使用する複数のフィルター条件では、同じフィールドに対して OR 演算子が使用されます。
@@ -274,10 +274,10 @@ ht-degree: 100%
 
 1. 「[!UICONTROL ビュー]」ボタンをクリックします。（1）
 1. 編集するビューをドロップダウンメニューから選択します。\
-   ![](assets/proof-view-edit.png)
+   ![ 編集ビュー ](assets/proof-view-edit.png)
 
 1. 「**[!UICONTROL 表示オプション]**」ボタンをクリックし、「**[!UICONTROL ビューを編集]**」を選択します。\
-   ![](assets/proof-view-options.png)\
+   ![オプションの表示](assets/proof-view-options.png)\
    カスタムビューページを編集が表示されます。
 
 1. 「[!UICONTROL アクション]」メニューをクリックします。（3）\
@@ -312,7 +312,7 @@ ht-degree: 100%
    ![copying_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. カスタムビューのコピーページでは、元の設定がすべて入力されます。お好みでカスタムビューを変更し、「**[!UICONTROL ビューをコピー]**」ボタンをクリックします。新しいビューにすぐに移動します。\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![ カスタムビューをコピー ](assets/copy-custom-view-page-350x542.png)
 
 ## カスタムビューの共有
 

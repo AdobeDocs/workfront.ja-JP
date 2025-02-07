@@ -7,10 +7,10 @@ description: ' [!DNL Workfront Proof]  管理者は、「グループ」ペー�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 100%
+source-wordcount: '587'
+ht-degree: 98%
 
 ---
 
@@ -41,10 +41,10 @@ ht-degree: 100%
       * 非公開グループは、その作成者のみに表示されます。
       * 選択したグループを削除します。
 
-        ![](assets/trash-button.png)
+        ![削除アイコン](assets/trash-button.png)
    * グループに対するアクションは、各グループ独自の&#x200B;**[!UICONTROL その他]**（3 つのドット）メニューから個別に実行することもできます。
 
-     ![](assets/more-button-small.png)
+     ![その他のメニュー](assets/more-button-small.png)
 
       * グループの詳細を表示します。
 
@@ -102,8 +102,8 @@ ht-degree: 100%
 
 1. グループに追加する連絡先の名前の横にあるチェックボックスをクリックします。
 1. 「**[!UICONTROL グループに追加]**」ボタンをクリックします。
-   ![](assets/screenshot-2018-04-06-15-27-17.png)
-**[!UICONTROL グループに追加]**&#x200B;ダイアログボックスが表示されます。
+   ![ グループに追加 ](assets/screenshot-2018-04-06-15-27-17.png)
+**[!UICONTROL グループに追加]** ダイアログボックスが表示されます。
 
 1. 「**[!UICONTROL ユーザー]**」セクション：
 

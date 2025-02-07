@@ -7,10 +7,10 @@ description: 自分がレビュアーであるプルーフに対して、受信�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '179'
-ht-degree: 100%
+source-wordcount: '181'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 ## プルーフのレビュアー向けのメールアラートを変更
 
-1. 任意のリストビューで、プルーフの右側にある&#x200B;**[!UICONTROL その他]**&#x200B;メニューをクリックします。![](assets/more-button-small.png)
+1. 任意のリスト表示で、プルーフの右側にある **[!UICONTROL 詳細]** メニューをクリックします。 ![その他のメニュー](assets/more-button-small.png)
 
 1. 「**[!UICONTROL プルーフの詳細を表示]**」をクリックします。
 1. **[!UICONTROL プルーフの詳細]**&#x200B;ページで、レビュアー向けの[!UICONTROL メールアラート]ドロップダウンメニューを開き、新しい設定を選択します。

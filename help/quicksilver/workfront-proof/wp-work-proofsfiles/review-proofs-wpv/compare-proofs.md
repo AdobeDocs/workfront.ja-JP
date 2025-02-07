@@ -7,10 +7,10 @@ description: 2 つのプルーフの比較結果を並べて表示できます�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 100%
+source-wordcount: '949'
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 1. 比較する複数のバージョンを持つプルーフを開きます。
 1. 表示されるプルーフビューアの左上隅で、プルーフの名前をクリックします。次に、表示されるバージョンリストで、開いて比較するバージョンの横にある&#x200B;**比較**&#x200B;アイコンをクリックします。
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![ 配達確認の比較でバージョンを選択 ](assets/compare-proofs-choose-version-350x115.jpg)
 
    プルーフは横に並べて表示され、より新しいバージョンが左側に表示されます。
 

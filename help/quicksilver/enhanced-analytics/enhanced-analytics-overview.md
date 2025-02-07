@@ -7,9 +7,9 @@ description: 拡張分析は、事前に構築されたビジュアライゼー�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 99%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 99%
 * プロジェクト中に特定のアクションを実行する頻度
 * プロジェクトの進行状況と、プロジェクト内の個々のタスク
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
 拡張分析を使用して現在の作業を管理し、将来の作業を計画する方法について詳しくは、[拡張分析の学習パス](https://one.workfront.com/s/enhanced-analytics-program)を参照してください。
 

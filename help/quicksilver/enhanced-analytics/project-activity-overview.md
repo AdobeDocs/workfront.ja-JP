@@ -7,10 +7,10 @@ description: プロジェクトアクティビティのビジュアライゼー�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 94%
 
 ---
 
@@ -68,15 +68,15 @@ ht-degree: 100%
 
 * **ログインしたユーザー**：紫色のボックスは、プロジェクトに割り当てられたユーザーがその日にログインしたことを示します。濃い色は、ログインしているユーザーの数が多いことを示します。
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![ ログインしているユーザー ](assets/project-activity-users-logged-in.png)
 
 * **タスクステータスの変更**：ピンク色のボックスは、その日にユーザーがプロジェクトのタスクのステータスを変更したことを示します。濃い色は、変更されたタスクステータスの数が多いことを示します。
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![ タスク状態の変更 ](assets/project-activity-task-status-changes.png)
 
 * **完了したタスク**：青いボックスは、ユーザーがプロジェクトのタスクを完了したことを示します。濃い色は、完了したタスクの数が多いことを示します。
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![ タスク完了 ](assets/project-activity-tasks-completed.png)
 
 ボックスの上にマウスを置くと、その日にアクションが完了した正確な回数が表示されます。プロジェクトを選択すると、プロジェクトの個々の投稿者ごとのアクティビティの内訳を確認できます。
 
@@ -90,10 +90,10 @@ ht-degree: 100%
 
 ## プロジェクトアクティビティのビジュアライゼーションを表示
 
-1. メインメニューアイコン ![](assets/main-menu-icon-16x12.png) をクリックしたあと、「**分析**」を選択します。
+1. メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon-16x12.png) をクリックし、「**Analytics**」を選択します。
 1. （オプション）別の日付範囲を使用するには、日付範囲フィルターから新しい開始日と終了日を選択します。
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![日付範囲を選択](assets/filters-select-date-range-350x344.png)
 
    日付範囲フィルターの使用については、[拡張分析でのフィルターの適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
 
@@ -111,7 +111,7 @@ ht-degree: 100%
 
    他のすべてのビジュアライゼーションが同じ日付範囲に更新され、時間枠フィルターが作成されます。
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![期間フィルター](assets/timeframe-filter-350x220.png)
 
 1. （オプション）プロジェクトの並べ替え方法を変更するには、**並べ替え** メニューをクリックして、新しい並べ替えオプションを選択します。
 
@@ -126,7 +126,7 @@ ht-degree: 100%
 
    ページ上の他のすべてのビジュアライゼーションは、ページの選択に合わせて更新されます。
 
-   ![](assets/pagination-350x118.png)
+   ![ ページネーション ](assets/pagination-350x118.png)
 
 1. ビジュアライゼーションのプロジェクトをクリックすると、プロジェクトの詳細が表示されます。
 
@@ -134,9 +134,9 @@ ht-degree: 100%
 
 1. ボックスの上にマウスを置くと、ユーザーがアクションを完了した日付と、その日にアクションが完了した回数が表示されます。
 
-   ![](assets/project-activity-activity-pop-up-350x137.png)
+   ![ アクティビティポップアップ ](assets/project-activity-activity-pop-up-350x137.png)
 
-1. （オプション）ビジュアライゼーションデータを書き出すには、ビジュアライゼーションの右上隅にある&#x200B;**書き出しアイコン** ![](assets/export.png) をクリックし、次に書き出し形式を選択します。
+1. （オプション）ビジュアライゼーションデータを書き出すには、ビジュアライゼーションの右上隅にある **書き出しアイコン**![ 書き出しアイコン ](assets/export.png) をクリックしてから、書き出し形式を選択します。
 
    * **グラフ（PNG）**
    * **データテーブル（XSLX）**

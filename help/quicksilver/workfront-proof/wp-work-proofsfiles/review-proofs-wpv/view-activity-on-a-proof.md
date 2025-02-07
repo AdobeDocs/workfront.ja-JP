@@ -7,10 +7,10 @@ description: 特定のプルーフに関する最近のアクティビティを�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '195'
+ht-degree: 98%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 1. 左側のツールバーが表示されない場合は、プルーフビューアーの左上隅にある「**[!UICONTROL メニュー]**」アイコンをクリックします。
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![ プルーフビューアメニュー ](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. プルーフビューアの左側にあるツールバーで「**[!UICONTROL プルーフの詳細]**」ボタンをクリックします。
 

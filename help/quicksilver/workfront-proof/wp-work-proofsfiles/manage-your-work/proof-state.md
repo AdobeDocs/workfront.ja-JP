@@ -7,10 +7,10 @@ description: ' [!DNL Workfront Proof] では、プルーフは様々な状態で
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 100%
+source-wordcount: '435'
+ht-degree: 98%
 
 ---
 
@@ -71,14 +71,14 @@ ht-degree: 100%
 
 1. **[!UICONTROL ダッシュボード]**&#x200B;で、表示するプルーフまたは状態を変更するプルーフの横の「**[!UICONTROL 展開]**」の矢印をクリックします。
 
-   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![ 展開 ](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    「**[!UICONTROL ワークフロープロセス]**」セクションが表示されます。
 
-   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![ ワークフロープロセス ](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. **[!UICONTROL ワークフロープロセス]**&#x200B;で&#x200B;**[!UICONTROL ステート]**&#x200B;を表示します。
 
 1. （オプション）状態を変更するには、現在の「**[!UICONTROL 状態]**」をクリックし、ドロップダウンメニューをクリックして、新しい状態を選択します。
 
-   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![ 新しい状態 ](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

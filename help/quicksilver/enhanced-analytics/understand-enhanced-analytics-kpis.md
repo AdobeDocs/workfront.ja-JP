@@ -7,10 +7,10 @@ description: 拡張分析領域の画面の上部に、4 つの主要業績評�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '507'
-ht-degree: 100%
+source-wordcount: '524'
+ht-degree: 96%
 
 ---
 
@@ -29,22 +29,22 @@ ht-degree: 100%
 
 「完了したプロジェクト」KPI は、フィルターした期間内に完了したプロジェクトの数と、前の期間以降に増加または減少した割合を示します。これらの数値の下に、前の期間に完了したプロジェクトの数と、前の期間の日数が表示されます。
 
-![](assets/kpi-projects-completed-350x182.png)
+![KPI プロジェクト完了 ](assets/kpi-projects-completed-350x182.png)
 
 ## 時間どおりに完了したプロジェクト
 
 「時間どおりに完了したプロジェクト」KPI は、フィルターした期間内に時間どおり完了したプロジェクトの数と、前の期間以降に増加または減少した割合を示します。これらの数値の下に、前の期間で時間通りに完了したプロジェクトの割合と、前の期間の日数が表示されます。
 
-![](assets/kpi-projects-completed-on-time-350x180.png)
+![KPI プロジェクトが時間通りに完了しました ](assets/kpi-projects-completed-on-time-350x180.png)
 
 ## 平均プロジェクト期間
 
 平均プロジェクト期間 KPI は、フィルターした期間内に実際の終了日があるプロジェクトの平均完了時間（日、週、または年）と、前の期間からの割合の増減を示します。これらの数値の下に、前の期間の実際の終了日を持つプロジェクトの平均完了時間と、前の期間の日数が表示されます。
 
-![](assets/kpi-avg.-project-duration-350x168.png)
+![KPI 平均プロジェクト期間 ](assets/kpi-avg.-project-duration-350x168.png)
 
 ## プロジェクト当たりの平均タスク数
 
 プロジェクトごとの平均タスク数 KPI は、フィルターした期間内にプロジェクトに割り当てられたタスクの平均数と、前の期間以降に増加または減少した割合を示します。これらの数値の下に、前の期間のプロジェクトに割り当てられたタスクの平均数と、前の期間の日数が表示されます。
 
-![](assets/kpi-average-tasks-per-project-350x179.png)
+![ プロジェクトあたりの KPI 平均タスク数 ](assets/kpi-average-tasks-per-project-350x179.png)

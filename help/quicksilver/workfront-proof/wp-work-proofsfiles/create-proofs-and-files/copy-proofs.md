@@ -7,9 +7,9 @@ description: プルーフの編集権限を持つレビュアーは、既存の�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '681'
 ht-degree: 100%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 100%
 1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理の説明に従って、**[!UICONTROL ビュー]**&#x200B;ページのいずれかに移動します。
 
 1. プルーフの&#x200B;**[!UICONTROL その他]**&#x200B;メニューを開きます。\
-   ![](assets/more-button-small.png)
+   ![その他のメニュー](assets/more-button-small.png)
 
 1. ドロップダウンメニューから「**[!UICONTROL コピー]**」を選択します。
 1. 表示される&#x200B;**[!UICONTROL プルーフをコピー]**&#x200B;ページで、コピーを既存のプルーフの新しいバージョンとして作成するか、新しいプルーフとして作成するかを指定します。\
@@ -77,7 +77,7 @@ ht-degree: 100%
 1. [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理の説明に従って、**[!UICONTROL ビュー]**&#x200B;ページのいずれかに移動します。
 
 1. プルーフの&#x200B;**[!UICONTROL その他]**&#x200B;メニューを開きます。\
-   ![](assets/more-button-small.png)
+   ![その他のメニュー](assets/more-button-small.png)
 
 1. ドロップダウンメニューから「**[!UICONTROL プルーフの詳細を表示]**」を選択します。
 1. 「**[!UICONTROL その他]**」をクリックします。\

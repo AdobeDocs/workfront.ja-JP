@@ -7,10 +7,10 @@ description: ' [!DNL Workfront]  プルーフでは、フォルダーを使用�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '507'
+ht-degree: 99%
 
 ---
 
@@ -64,4 +64,4 @@ ht-degree: 100%
 
      プルーフを比較しているときに新しいプルーフに切り替える場合は、プルーフビューアーの左側または右側で、プルーフの上にある[!UICONTROL 比較]ボタンをクリックします。
 
-     ![](assets/mceclip0-350x126.png)
+     ![ 比較 ](assets/mceclip0-350x126.png)

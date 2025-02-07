@@ -7,10 +7,10 @@ description: チーム別のアクティビティのビジュアライゼーシ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 99%
+source-wordcount: '727'
+ht-degree: 92%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 99%
 >プロジェクトアクティビティのビジュアライゼーションは、このビジュアライゼーションに似ていますが、ホームチームに割り当てられたユーザーではなく、プロジェクトに割り当てられたユーザーに基づくアクティビティを表示します。\
 >プロジェクトアクティビティのビジュアライゼーションについて詳しくは、[強化機能分析でプロジェクトアクティビティのビジュアライゼーションを表示](../enhanced-analytics/project-activity-overview.md)を参照してください。
 
-![](assets/activity-by-team-350x113.png){width="700"}
+![ チーム別アクティビティ ](assets/activity-by-team-350x113.png){width="700"}
 
 ## アクセス要件
 
@@ -75,15 +75,15 @@ ht-degree: 99%
 
 * **ログインしたユーザー：**&#x200B;紫色のボックスは、ホームチームのユーザーがその日にログインしたことを示します。濃い色は、ログインしているユーザーの数が多いことを示します。
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![ ログインしているユーザー ](assets/project-activity-users-logged-in.png)
 
 * **タスクステータスの変更：**&#x200B;ピンク色のボックスは、ホームチームのユーザーがその日のタスクのステータスを変更したことを示します。濃い色は、変更されたタスクステータスの数が多いことを示します。
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![ タスク状態の変更 ](assets/project-activity-task-status-changes.png)
 
 * **完了したタスク：**&#x200B;青いボックスは、ホームチームのユーザーがその日にタスクを完了したことを示します。濃い色は、完了したタスクの数が多いことを示します。
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![ タスク完了 ](assets/project-activity-tasks-completed.png)
 
 ボックスの上にマウスを置くと、その日にアクションが完了した正確な回数が表示されます。チームを選択すると、ホームチームの各ユーザーごとのこれらのアクティビティの分類を確認できます。
 
@@ -97,14 +97,14 @@ ht-degree: 99%
 
 ## チーム別アクティビティのビジュアライゼーションを表示する
 
-1. メインメニューアイコン ![](assets/main-menu-icon-16x12.png) をクリックしたあと、「**分析**」を選択します。
+1. メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon-16x12.png) をクリックし、「**Analytics**」を選択します。
 1. 左側のパネルで、「**ユーザー**」を選択します。
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![ 人物エリア ](assets/people-area-cropped-qs-350x276.png)
 
 1. （オプション）別の日付範囲を使用するには、日付範囲フィルターから新しい開始日と終了日を選択します。
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![日付範囲を選択](assets/filters-select-date-range-350x344.png)
 
    日付範囲フィルターの使用方法について詳しくは、[強化機能分析でのフィルターの適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
 
@@ -118,7 +118,7 @@ ht-degree: 99%
 
    他のすべてのビジュアライゼーションが同じ日付範囲に更新され、時間枠フィルターが作成されます。
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![期間フィルター](assets/timeframe-filter-350x220.png)
 
 1. チーム名をクリックする
 
@@ -140,9 +140,9 @@ ht-degree: 99%
 
    暗い色は、アクティビティが高いことを示します。
 
-   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+   ![ チーム別アクティビティ ](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. （オプション）ビジュアライゼーションデータを書き出すには、ビジュアライゼーションの右上隅にある書き出しアイコン ![](assets/export.png) をクリックしたあと、書き出し形式を選択します。
+1. （オプション）ビジュアライゼーションデータを書き出すには、ビジュアライゼーションの右上隅にある書き出しアイコン ![ 書き出しアイコン ](assets/export.png) 書き出しアイコン）をクリックしてから、書き出し形式を選択します。
 
    * **グラフ（PNG）**
    * **データテーブル（XSLX）**

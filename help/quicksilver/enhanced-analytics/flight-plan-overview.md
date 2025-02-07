@@ -7,10 +7,10 @@ description: 進行計画ビジュアライゼーションは、（適用され�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 100%
+source-wordcount: '885'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 進行計画ビジュアライゼーションは、（適用されたフィルター条件内で）実行されたプロジェクトの数、これらのプロジェクトの期間中に発生した条件の変化、およびこれらのプロジェクトが計画完了期限にどの程度近づいているかを示します。
 
-![](assets/flight-plan-350x132.png)
+![ 運航計画 ](assets/flight-plan-350x132.png)
 
 ## アクセス要件
 
@@ -67,11 +67,11 @@ ht-degree: 100%
 
 * **予定期間**：青い水平線はプロジェクトの計画長を表し、線の両端に三角形が表示され、開始日と終了日が示されます。
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![ 予定期間 ](assets/planned-duration-line-350x37.png)
 
 * **実際の期間**：予定期間の下の色付きの太い線は、プロジェクトの実際の長さを表します。線の色は、プロジェクトの生活中の特定の時間におけるプロジェクトの条件に応じて変わります。
 
-  ![](assets/actual-duration-line.png)
+  ![ 実際の期間 ](assets/actual-duration-line.png)
 
 * **実際の状況**：太い色付きの線は、時間の異なる時点でのプロジェクトの状態も表示します。線の色は、プロジェクトの条件に応じて変化します。
 
@@ -79,7 +79,7 @@ ht-degree: 100%
    * **オレンジ**：危険あり
    * **赤**：トラブル発生中
 
-  ![](assets/actual-condition-color.png)
+  ![ 実際の状況 ](assets/actual-condition-color.png)
 
 進行計画ビジュアライゼーションのプロジェクト行にポインタを合わせると、プロジェクトの予定期間、現在のプロジェクト状況、および該当する場合はカスタム条件に関する情報を確認できます。期間や状況に影響を与えた可能性のある内容について詳しくは、拡張分析領域の他のビジュアライゼーションを参照してください。
 
@@ -95,10 +95,10 @@ ht-degree: 100%
 
 ## 進行計画ビジュアライゼーションの表示
 
-1. **メインメニューアイコン** ![](assets/main-menu-icon-16x12.png) をクリックして、「**分析**」を選択します。
+1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon-16x12.png) をクリックし、「**Analytics**」を選択します。
 1. （オプション）別の日付範囲を使用するには、日付範囲フィルターから新しい開始日と終了日を選択します。
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![日付範囲を選択](assets/filters-select-date-range-350x344.png)
 
    日付範囲フィルターの使用については、[拡張分析でのフィルターの適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
 
@@ -112,7 +112,7 @@ ht-degree: 100%
 
    他のすべてのビジュアライゼーションが同じ日付範囲に更新され、時間枠フィルターが作成されます。
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![期間フィルター](assets/timeframe-filter-350x220.png)
 
 1. （オプション）プロジェクトの並べ替え方法を変更するには、進行計画ビジュアライゼーションの右上隅にある&#x200B;**並べ替え**&#x200B;メニューをクリックし、新しい並べ替えオプションを選択します。
 
@@ -127,7 +127,7 @@ ht-degree: 100%
 
    ページ上の他のすべてのビジュアライゼーションは、ページの選択に合わせて更新されます。
 
-   ![](assets/pagination-350x118.png)
+   ![ ページネーション ](assets/pagination-350x118.png)
 
 1. プロジェクトバーグラフにポインタを合わせると、青い日付線と、次の詳細が表示されます。
 
@@ -135,9 +135,9 @@ ht-degree: 100%
    * 現在の状況
    * カスタム条件（該当する場合）
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![ プロジェクト棒グラフ ](assets/project-bar-graph-350x143.png)
 
-1. （オプション）ビジュアライゼーションのデータをエクスポートするには、ビジュアライゼーションの右上隅にある&#x200B;**エクスポート**&#x200B;アイコン ![](assets/export.png) をクリックして、エクスポート形式を選択します。
+1. （オプション）ビジュアライゼーションデータを書き出すには、ビジュアライゼーションの右上隅にある&#x200B;**書き出し**&#x200B;アイコン ![書き出しアイコン](assets/export.png) をクリックし、書き出し形式を選択します。
 
    * **グラフ（PNG）**
    * **データテーブル（XSLX）**

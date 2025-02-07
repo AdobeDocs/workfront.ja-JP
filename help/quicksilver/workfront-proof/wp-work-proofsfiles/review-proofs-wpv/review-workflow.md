@@ -7,10 +7,10 @@ description: ワークフローパネルには、プルーフの詳細ページ�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '271'
-ht-degree: 100%
+source-wordcount: '273'
+ht-degree: 99%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 100%
 
    **[!UICONTROL ワークフロー]**&#x200B;パネルが表示されます。
 
-   ![](assets/workflow-panel-350x115.png)
+   ![ ワークフローパネル ](assets/workflow-panel-350x115.png)
 
    ワークフローパネルの各セクションには、プルーフ、ステージおよびレビュアーの進捗状況とステータスが表示されます。
 

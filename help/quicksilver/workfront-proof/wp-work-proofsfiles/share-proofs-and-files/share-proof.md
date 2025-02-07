@@ -7,9 +7,9 @@ description: プルーフに対する編集権限がある場合は、そのプ�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 100%
 ## 既存のプレビューにレビュアーを追加
 
 1. ダッシュボードまたは任意のリストビューで、プルーフの右側にある「**[!UICONTROL その他]**」ボタンのドロップダウンをクリックします。\
-   ![](assets/more-button-small.png)
+   ![その他のメニュー](assets/more-button-small.png)
 
 1. ドロップダウンメニューで「**[!UICONTROL 共有]**」をクリックします。
 1. **[!UICONTROL このバージョンを共有]**&#x200B;ページが開くので、レビュアーのメールアドレスを入力してレビュアーを追加します。\

@@ -7,10 +7,10 @@ description: プロジェクトツリーマップビジュアライゼーショ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 99%
+source-wordcount: '854'
+ht-degree: 93%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 
 プロジェクトツリーマップビジュアライゼーションは、特定の時間枠内での作業時間（または日数）を他の作業量と比較して表示するものです。これは、ユーザーがプロジェクトにどれだけの時間を費やしたかを把握するのに役立ちます。
 
-![](assets/project-treemap-350x126.png){width="700"}
+![ プロジェクトのツリーマップ ](assets/project-treemap-350x126.png){width="700"}
 
 ## アクセス要件
 
@@ -71,22 +71,22 @@ ht-degree: 99%
 
 * **小さな水色のボックス**：時間数または日数が少ないプロジェクトは、水色の小さなボックスとして表示されます。
 
-  ![](assets/project-treemap-smaller-box.png)
+  ![ 小さいボックス ](assets/project-treemap-smaller-box.png)
 
 * **大きな濃い青色のボックス**：時間や日数が長いプロジェクトは、濃い青色の大きなボックスで表示されます。
 
-  ![](assets/project-treemap-larger-box-350x205.png)
+  ![ 大きいボックス ](assets/project-treemap-larger-box-350x205.png)
 
 * **中型の青いボックス**：2 つのカテゴリの間にあるプロジェクトは、濃い青と水色の間の青の色合いの中型のボックスとして表示されます。中型のボックスには 3 つの青の色合いがあります。
 
 右側の凡例は、青の色合いごとに完了した時間の内訳を示しています。この凡例は動的であり、データに従って更新されます。
 
-![](assets/project-treemap-hours-completed.png)
+![ ツリーマップの完了時間 ](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
 >予定時間数別ではなく期間別にプロジェクトツリーマップビジュアライゼーションを表示している場合、この凡例には青色の色合いごとに作業日数の内訳が表示されます。\
->![](assets/project-treemap-days-worked.png)>
+>![ ツリーマップの作業日数 ](assets/project-treemap-days-worked.png)>
 
 この情報は、以下を判断するうえで役に立ちます。
 
@@ -99,10 +99,10 @@ ht-degree: 99%
 
 ## プロジェクトツリーマップビジュアライゼーションの表示
 
-1. メインメニューアイコン ![](assets/main-menu-icon-16x12.png) をクリックし、「**分析**」を選択します。
+1. メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon-16x12.png) をクリックし、「**Analytics**」を選択します。
 1. （オプション）別の日付範囲を使用するには、日付範囲フィルターから新しい開始日と終了日を選択します。
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![日付範囲を選択](assets/filters-select-date-range-350x344.png)
 
    日付範囲フィルターの使用については、[拡張分析でのフィルターの適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
 
@@ -125,7 +125,7 @@ ht-degree: 99%
 
    ページ上の他のすべてのビジュアライゼーションは、ページの選択に合わせて更新されます。
 
-   ![](assets/pagination-350x118.png)
+   ![ ページネーション ](assets/pagination-350x118.png)
 
 1. （オプション）ビューを&#x200B;**予定時間数**&#x200B;から&#x200B;**期間**&#x200B;に変更します。
 
@@ -133,7 +133,7 @@ ht-degree: 99%
 
 1. プロジェクトにポインタを合わせると、プロジェクト状況、合計予定時間数、合計完了時間数およびプロジェクトに費やした 1 日あたりの平均時間数が表示されます。
 
-   ![](assets/project-treemap-project-details-350x404.png)
+   ![ ツリーマッププロジェクトの詳細 ](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
@@ -142,11 +142,11 @@ ht-degree: 99%
    >* **予定時間枠**：プロジェクトを完了するために予定されている日数。
    >* **稼働日数**：上部で選択した日付範囲内に完了した各タスクの予定期間を 1 日の時間数で割ったものです。
    >   
-   >![](assets/duration-treemap-350x159.png)
+   >![ ツリーマップの期間 ](assets/duration-treemap-350x159.png)
    >
    >期間について詳しくは、[拡張分析の概要](../enhanced-analytics/enhanced-analytics-overview.md)の「期間ビュー」節を参照してください。
 
-1. （オプション）ビジュアライゼーションデータを書き出すには、ビジュアライゼーションの右上隅にある&#x200B;**書き出しアイコン** ![](assets/export.png) をクリックしたあと、書き出し形式を選択します。
+1. （オプション）ビジュアライゼーションデータを書き出すには、ビジュアライゼーションの右上隅にある **書き出しアイコン**![ 書き出しアイコン ](assets/export.png) をクリックしてから、書き出し形式を選択します。
 
    * **グラフ（PNG）**
    * **データテーブル (XLSX)**

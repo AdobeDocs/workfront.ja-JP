@@ -7,10 +7,10 @@ description: フライトビジュアライゼーションのタスクでは、�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 100%
+source-wordcount: '749'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 フライトビジュアライゼーションのタスクでは、プロジェクトで進行中のタスク数（適用されたフィルター条件内）、各タスクの完了作業の割合およびタスクのスケジュールを表示できます。
 
-![](assets/tasks-in-flight-possible-replacement-350x104.png)
+![ 作業中のタスク ](assets/tasks-in-flight-possible-replacement-350x104.png)
 
 ## アクセス要件
 
@@ -59,15 +59,15 @@ ht-degree: 100%
 
 * **タスクの予定期間**：タスクバーの長さは、タスクの開始日と完了日に基づく予定期間を示します。
 
-  ![](assets/tasks-in-flight-duration-350x80.png)
+  ![ 進行中のタスクの期間 ](assets/tasks-in-flight-duration-350x80.png)
 
 * **完了した作業量**：タスクバー内の濃い青色は、タスクの完了作業量を示します。この完了率は、タスクバーの右側に表示されます。
 
-  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![ ダークブルーの飛行におけるタスク ](assets/tasks-in-flight-dark-blue-350x35.png)
 
 * **未完了の作業量**：タスクバー内の薄い青色は、タスクで取り組む必要がある未完了作業量を示します。
 
-  ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![ 作業中のタスクのライトブルー ](assets/tasks-in-flight-light-blue-350x35.png)
 
 この情報は、以下を判断する際に役立ちます。
 
@@ -80,10 +80,10 @@ ht-degree: 100%
 
 ## フライトビジュアライゼーションのタスクを表示
 
-1. メインメニューアイコン ![](assets/main-menu-icon-16x12.png) をクリックし、「**分析**」を選択します。
+1. メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon-16x12.png) をクリックし、「**Analytics**」を選択します。
 1. （オプション）別の日付範囲を使用するには、日付範囲フィルターから新しい開始日と終了日を選択します。
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![日付範囲を選択](assets/filters-select-date-range-350x344.png)
 
    日付範囲フィルターの使用については、[拡張分析でのフィルターの適用](../enhanced-analytics/use-enhanced-analytics-filters.md)を参照してください。
 
@@ -113,7 +113,7 @@ ht-degree: 100%
 
    他のすべてのビジュアライゼーションが同じ日付範囲に更新され、時間枠フィルターが作成されます。
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![期間フィルター](assets/timeframe-filter-350x220.png)
 
 1. （オプション）タスクの並べ替え方法を変更するには、**並べ替え**&#x200B;メニューをクリックして、新しい並べ替えオプションを選択します。
 
@@ -125,13 +125,13 @@ ht-degree: 100%
 
 1. 選択したプロジェクトのタスクの進行状況を確認し、特定のタスクの上にポインタを合わせて、予定時間数、予定期限、完了率を表示します。
 
-   ![](assets/tasks-in-flight-task-details-350x242.png)
+   ![ 進行中のタスクの詳細 ](assets/tasks-in-flight-task-details-350x242.png)
 
 1. タスクをクリックして画面の右側にタスクの詳細を開くと、タスクの詳細情報の確認、更新の表示または入力、タスクの変更を行うことができます。
 
-   ![](assets/task-details-qs-350x675.png)
+   ![タスクの詳細](assets/task-details-qs-350x675.png)
 
-1. （オプション）ビジュアライゼーションデータを書き出すには、ビジュアライゼーションの右上隅にある&#x200B;**書き出しアイコン** ![](assets/export.png) をクリックして、書き出し形式を選択します。
+1. （オプション）ビジュアライゼーションデータを書き出すには、ビジュアライゼーションの右上隅にある **書き出しアイコン**![ 書き出しアイコン ](assets/export.png) をクリックしてから、書き出し形式を選択します。
 
    * **グラフ（PNG）**
    * **データテーブル（XSLX）**

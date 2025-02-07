@@ -7,10 +7,10 @@ description: プロジェクトやプルーフをフォルダーに整理する�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 100%
+source-wordcount: '1237'
+ht-degree: 99%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 100%
    * フォルダーの&#x200B;**作成者**&#x200B;の名前を確認します。
 
 1. （オプション）フォルダー内の項目に関連付けられた情報を変更するには、項目の右にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコンをクリックして、表示されるオプションを使用します。\
-   ![](assets/more-button-small.png)\
+   ![その他のメニュー](assets/more-button-small.png)\
    表示されるオプションは、その項目がプルーフかファイルかによって異なります。
 
    * **[!UICONTROL プルーフの詳細を表示]**&#x200B;または&#x200B;**[!UICONTROL ファイルの詳細を表示]**：プルーフの詳細ページまたはファイルの詳細ページを開きます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理または[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理を参照してください。
@@ -111,9 +111,9 @@ ht-degree: 100%
 1. （オプション）「**[!UICONTROL アクティビティ]**」をクリックすると、フォルダーで実行されたすべてのアクションが時系列で表示されます。
 1. （オプション）「**[!UICONTROL メッセージ]**」セクションをクリックして、フォルダーのユーザーに送信されたメッセージを表示します。\
    メッセージの上にポインタを合わせると、右側の「**i**」アイコンをクリックしてメッセージ全体を表示できます。\
-   ![](assets/messages-1-350x74.png)\
+   ![ メッセージ ](assets/messages-1-350x74.png)\
    メール全体を含むポップアップが表示されます。\
-   ![](assets/messages-2-350x252.png)
+   ![ メッセージポップアップ ](assets/messages-2-350x252.png)
 
 ## サブフォルダーの管理
 

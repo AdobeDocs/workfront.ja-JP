@@ -7,9 +7,9 @@ description: プルーフの編集権限があるユーザーはプルーフを�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '289'
 ht-degree: 100%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 100%
 ## プルーフの削除
 
 1. 任意のリストビューで、プルーフの右側にある「**[!UICONTROL その他]**」メニューをクリックします。\
-   ![](assets/more-button-small.png)
+   ![その他のメニュー](assets/more-button-small.png)
 
 1. 表示されるドロップダウンメニューの「**[!UICONTROL プルーフの詳細を表示]**」をクリックします。
 1. ページの右上近くにある「**[!UICONTROL 削除]**」ボタンをクリックします。

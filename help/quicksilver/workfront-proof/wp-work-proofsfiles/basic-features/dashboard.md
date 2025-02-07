@@ -8,10 +8,10 @@ description: ダッシュボードは、 [!DNL Workfront Proof] アカウント�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '973'
-ht-degree: 100%
+source-wordcount: '996'
+ht-degree: 97%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 >
 >ダッシュボードで表示および使用できるメニューやリンクは、ユーザープロファイルと権限によって異なります。
 
-![](assets/dashboard-350x495.png)
+![ダッシュボード](assets/dashboard-350x495.png)
 
 アカウントをブランド化して、組織のロゴ、カラー、カスタムリンクなどを表示できます。詳しくは、[ [!DNL Workfront Proof] サイトのブランド化](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md)を参照してください。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## ヘッダーメニュー
 
-![](assets/header-menu-350x150.png)
+![ ヘッダーメニュー ](assets/header-menu-350x150.png)
 
 ### ユーザー名
 
@@ -97,7 +97,7 @@ ht-degree: 100%
    * 新規ユーザー (12)
    * 新規グループ (13)
 
-![](assets/new-proof-350x256.png)
+![ 新しいプルーフ ](assets/new-proof-350x256.png)
 
 ## ダッシュボードメニュー
 
@@ -116,7 +116,7 @@ ht-degree: 100%
 * 新規タグを作成
 * タグを管理 (2)
 
-![](assets/edit-tags-350x204.png)
+![ タグを編集 ](assets/edit-tags-350x204.png)
 
 ## 指定の場所に移動
 
@@ -126,7 +126,7 @@ ht-degree: 100%
 1. 「**[!UICONTROL 指定の場所に移動]**」(3) をクリックし、該当するフォルダー (4) を選択します。
 1. 「**[!UICONTROL 保存]**」(5) をクリックします。
 
-   ![](assets/move-to-350x297.png)
+   ![ 移動先 ](assets/move-to-350x297.png)
 
 ### その他のアクション
 
@@ -138,7 +138,7 @@ ht-degree: 100%
 * アーカイブ解除（プルーフのみ）
 * オーナーを変更
 
-![](assets/more-actions-350x303.png)
+![ その他のアクション ](assets/more-actions-350x303.png)
 
 ### 削除
 
@@ -146,11 +146,11 @@ ht-degree: 100%
 
 1. 項目の左側にあるチェックボックスをオンにし、「**[!UICONTROL 削除]**」(7) をクリックします。
 
-![](assets/delete-350x109.png)
+![削除アイコン](assets/delete-350x109.png)
 
 1. 表示される確認画面で、詳細を調べて、「**[!UICONTROL はい]**」(8) をクリックして確定します。
 
-![](assets/deleteing-items-350x237.png)
+![ 項目の削除 ](assets/deleteing-items-350x237.png)
 
 ### サイドバー
 
@@ -168,7 +168,7 @@ ht-degree: 100%
 * その他の組織のフォルダー (10)（他の組織と共有した項目が見つかります）
 * タグ (11)
 
-![](assets/sidebar-350x426.png)
+![ サイドバー ](assets/sidebar-350x426.png)
 
 サイドバーについて詳しくは、サイドバーのヘルプページを参照してください。
 
@@ -181,7 +181,7 @@ ht-degree: 100%
 * サポートの連絡先の詳細 (3)
 * 「今後、「ようこそ」セクションを表示しない」リンク (4)
 
-![](assets/welcome-350x73.png)
+![ ようこそ ](assets/welcome-350x73.png)
 
 ### 概要
 
@@ -197,7 +197,7 @@ ht-degree: 100%
 * 管理対象のプルーフ - 自分が所有したり自分に委任されたりしたアクティブなプルーフの合計数
 * 決定待ちのプルーフ - 決定を必要とするアクティブなプルーフの合計数
 
-  ![](assets/dashboard-overview-350x169.png)
+  ![ ダッシュボードの概要 ](assets/dashboard-overview-350x169.png)
 
 ここでは、自分またはレビュアーによる直接的なアクションが必要なプルーフの数をすぐに確認できます。
 
@@ -237,7 +237,7 @@ ht-degree: 100%
 1. プルーフ名の右側にある&#x200B;**[!UICONTROL アクション]**&#x200B;メニュー (1) をクリックします。
 1. メニューから「**[!UICONTROL プルーフの詳細を表示]**」(2) を選択します。
 
-![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![ 最近のアイテム ](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### 最近使ったアクティビティ
 
@@ -258,4 +258,4 @@ ht-degree: 100%
 1. **[!UICONTROL アクション]**&#x200B;メニュー (1) をクリックします。
 1. ドロップダウンメニューから「**[!UICONTROL プルーフの詳細を表示]**」(2) を選択します。
 
-   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![ 最近のアクティビティ ](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

@@ -7,10 +7,10 @@ description: プルーフの詳細ページでは、既存のプルーフを管�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 100%
+source-wordcount: '1189'
+ht-degree: 99%
 
 ---
 
@@ -33,10 +33,10 @@ ht-degree: 100%
 ## プルーフビューアからプルーフの詳細ページを開く
 
 1. 左ツールバーが表示されていない場合は、左上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックします。\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![ プルーフビューアメニュー ](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. 左ツールバーにポインタを合わせ、「**[!UICONTROL プルーフの詳細]**」をクリックします。\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![ プルーフビューアの詳細 ](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >
