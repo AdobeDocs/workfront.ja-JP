@@ -6,21 +6,23 @@ description: Event Subscription API
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
+source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1124'
 ht-degree: 2%
 
 ---
-
 
 # イベント購読のバージョン管理
 
 Workfrontには、2 つのバージョンのイベント購読があります。 この記事では、これらの違いについて説明します。
 
-これはWorkfront API に対する変更ではなく、イベント購読機能に対する変更です。
+新しいバージョンはWorkfront API に対する変更ではなく、イベント購読機能に対する変更です。
 
 イベント購読をアップグレードまたはダウングレードする機能により、イベントの構造に変更が加えられても既存の購読が壊れずに、イベント購読に隙間なく新しいバージョンのテストとアップグレードが可能になります。
+
+イベント購読のアップグレードまたはダウングレードに使用されるエンドポイントについて詳しくは、イベント購読 API 記事の [ イベント購読のバージョン管理 ](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,6 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 
 
 ### 一般的な変更点
-
 
 
 <table style="table-layout:auto"> 
