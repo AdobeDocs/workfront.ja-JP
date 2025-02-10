@@ -6,14 +6,16 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 100%
+source-wordcount: '1014'
+ht-degree: 95%
 
 ---
 
 # Adobe Workfront でプロジェクトを共有
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 <!-- Audited: 1/2024 -->
 
@@ -29,7 +31,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 * デフォルトでは、プロジェクトの作成者にはプロジェクトを管理する権限があり、プロジェクト所有者としても指定されます。プロジェクトが別の所有者に割り当てられている場合、そのユーザーはプロジェクトを管理する権限も持ちます。プロジェクト作成者（または所有者）がプロジェクトを他のユーザーと共有する場合、そのユーザーに特定の権限を付与し、プロジェクトでの作業中に実行できる操作を制御します。
 
-  ただし、プロジェクト所有者がプランナーライセンスを持っていない場合、プロジェクトを管理するためのフルアクセス権は持ちません。プロジェクトを管理する権限を持つのは、プランライセンスを持つユーザーのみです。詳しくは、[アクセスレベルと権限の連携方法](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)を参照してください。
+  ただし、プロジェクト所有者がプランまたは標準のライセンスを持っていない場合、プロジェクトを管理するためのフルアクセス権を持っていません。 プラン ライセンスまたは標準ライセンスを持つユーザーのみが、プロジェクトを管理する権限を持つことができます。 詳しくは、[アクセスレベルと権限の連携方法](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md)を参照してください。
 
 * プロジェクトは個別に共有することも、一度に複数共有することもできます。プロジェクトの共有は、他のオブジェクトを共有する場合と同じです。Workfront でのアイテムの共有について詳しくは、[オブジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md)を参照してください。
 * プロジェクトには、次の権限を付与できます。
@@ -39,6 +41,10 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    * 参加
 
      ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
+
+     <span class="preview"> プレビューで：
+     ![](assets/project-permissions.png)
+  </span>
 
 * プロジェクトを共有する場合、特に指定のない限り、すべてのタスク、イシューおよびドキュメントは同じ権限を継承します。
 

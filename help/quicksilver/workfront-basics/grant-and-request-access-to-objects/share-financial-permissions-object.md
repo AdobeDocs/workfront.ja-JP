@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 8dbb48e6aa2df874caa816468cf2e3ad408ebf7e
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '568'
+ht-degree: 99%
 
 ---
 
@@ -106,6 +106,10 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    * **それを管理**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
+
+   プレビュ <span class="preview"> のプレビュー：
+   ![](assets/project-permissions.png)
+   </span>
 
 1. 同じドロップダウンメニューで、「**詳細設定**」をクリックして、次のいずれかを実行します。
 

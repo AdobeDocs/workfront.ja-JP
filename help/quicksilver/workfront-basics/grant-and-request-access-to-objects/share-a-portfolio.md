@@ -5,14 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '405'
+ht-degree: 94%
 
 ---
 
 # ポートフォリオの共有
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、ユーザーにポートフォリオの表示または編集のアクセス権を付与できます。ポートフォリオの編集に対するアクセス権には、プランライセンスが必要です。詳しくは、[ポートフォリオへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)を参照してください。
 
@@ -35,9 +37,12 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
 
-* ポートフォリオを共有する際、デフォルトでは、ポートフォリオに関連付けられているすべての子オブジェクトに対して同じ権限が継承されます。
+  <span class="preview"> プレビューで：
+  ![](assets/share-portfolio.png)
+</span>
+* ポートフォリオを共有すると、デフォルトでは、ユーザーはそのポートフォリオに関連付けられたすべての子オブジェクトに同じ権限を継承します。
 
-  Workfront のオブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
+Workfront のオブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
 
 * ポートフォリオから継承された権限は削除できます。オブジェクトから権限を削除する方法について詳しくは、[オブジェクトからの権限の削除](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)を参照してください。
 

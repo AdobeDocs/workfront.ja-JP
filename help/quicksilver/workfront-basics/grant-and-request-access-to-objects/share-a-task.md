@@ -6,14 +6,17 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '643'
-ht-degree: 100%
+source-wordcount: '667'
+ht-degree: 99%
 
 ---
 
 # タスクの共有
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
+
 
 Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、タスクの表示や編集のアクセス権を付与できます。タスクへのアクセス権の付与について詳しくは、[タスクへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)を参照してください。
 
@@ -35,6 +38,10 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    * 管理
    * 参加\
      ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
+
+     <span class="preview"> プレビューで：
+     ![](assets/task-permissons.png)
+  </span>
 
 * タスクを共有する場合、デフォルトでは、ユーザーはタスクに関連付けられたすべての子オブジェクトに対して同じ権限を継承します。例えば、タスクに添付された子タスク、イシューおよびドキュメントに対して同じ権限を継承します。\
   Workfront のオブジェクトの階層について詳しくは、[Adobe Workfront のオブジェクトについて](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)を参照してください。
