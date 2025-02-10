@@ -6,7 +6,7 @@ description: ドキュメントエリアで、フォルダーとそのコンテ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 100%
@@ -132,8 +132,6 @@ ht-degree: 100%
 1. （オプション）システム内のすべてのユーザーががフォルダーとそのコンテンツを表示できるようにする場合は、共有ボックスの右上隅にある歯車アイコン ![](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、「**システム全体で表示できるようにします**」をクリックします。
 
    変更する場合は、「**システム全体のアクセスを削除します**」（デフォルトのオプション）をクリックできます。
-
-<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
 
 ## 共有されたフォルダーのコンテンツにユーザーがアクセスする方法
 

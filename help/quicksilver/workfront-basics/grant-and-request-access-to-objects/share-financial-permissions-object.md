@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 99%
+source-wordcount: '566'
+ht-degree: 100%
 
 ---
 
@@ -107,10 +107,6 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
-   プレビュ <span class="preview"> のプレビュー：
-   ![](assets/project-permissions.png)
-   </span>
-
 1. 同じドロップダウンメニューで、「**詳細設定**」をクリックして、次のいずれかを実行します。
 
    * 前の手順で 3 つのオプションのいずれかを選択した場合は、「**財務を表示**」が選択されていることを確認します。
@@ -139,19 +135,19 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td>請求レコードの管理</td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
+   <td> <p></p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>役割の請求レートとコスト率の管理と表示</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>ユーザー請求レートとコスト率の管理と表示</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td></td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -163,7 +159,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td><span class="preview">評価カードを管理</span></td> 
    <td>✓</td> 
-   <td> <p> </p> </td> 
+   <td> <p></p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -181,7 +177,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td>リソース計画ツールでリソース予算計上*</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td></td> 
    <td> </td> 
   </tr> 
   <tr> 

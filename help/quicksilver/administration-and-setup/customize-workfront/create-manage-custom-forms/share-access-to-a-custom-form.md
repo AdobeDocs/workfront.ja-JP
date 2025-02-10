@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 911a284f388ed93e6c6c5545a4c0b5c1f73bfe96
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 76%
@@ -108,16 +108,7 @@ ht-degree: 76%
    >![](assets/visible-system-wide-350x480.png)
    >   
    >特定のオブジェクトに添付されたときにユーザーが機密データを入力する場合があるカスタムフォームを使用する場合、これらの&#x200B;*オブジェクト*&#x200B;の共有を制限する方がフォーム自体へのアクセスを制限するよりも効果的な場合があります。
-<!--
-   >[!NOTE]
-   >
-   >* When you make a custom form visible to everyone in the system, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 5.
-   >* Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use **Everyone in the system can view**.
-   >   
-   >![](assets/share-custom-form-in-designer.png)
-   >   
-   >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
--->
+
 1. 「**保存**」をクリックします。
 
 ## フォームデザイナーからのカスタムフォームの共有

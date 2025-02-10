@@ -7,16 +7,14 @@ description: Adobe Workfront 管理者は、ドキュメントへのアクセス
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 99%
+source-wordcount: '616'
+ht-degree: 100%
 
 ---
 
 # ドキュメントの共有
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 Adobe Workfront 管理者は、[ドキュメントへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)で説明されているように、アクセスレベルを割り当てる際に、ドキュメントの表示または編集のためのアクセス権をユーザーに付与します。
 
@@ -41,10 +39,6 @@ Workfront にドキュメントをアップロードするユーザーには、�
 
    * 表示
    * 管理
-
-  <span class="preview"> プレビューで：
-  ![](assets/document-permissions.png)
-</span>
 
 * ドキュメントを公開またはシステム全体で共有することもできます。
 
