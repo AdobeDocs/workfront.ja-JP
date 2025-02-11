@@ -6,16 +6,18 @@ description: ストーリーやイシューをスクラムボードから別の�
 author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 91%
+source-wordcount: '477'
+ht-degree: 82%
 
 ---
 
 # [!UICONTROL スクラム]ボードでのストーリーとイシューの管理
 
 ストーリーやイシューを[!UICONTROL スクラム]ボードから別のイテレーションやバックログに移動したり、[!UICONTROL スクラム]ボードから削除したりできます。ストーリーやイシューを削除すると、30 日間ごみ箱に移動され、システム管理者のみが復元できます。
+
+タスクまたは問題を削除したり、バックログに送信したりせずにイテレーションから削除するには、プロジェクトに移動し、割り当て列からアジャイルチームを削除します。 これにより、スクラムボードからタスクまたはイシューが削除されますが、プロジェクトには残ります。
 
 ## アクセス要件
 

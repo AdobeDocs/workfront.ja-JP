@@ -6,10 +6,10 @@ description: タスクとイシューは、チームが使用しているアジ�
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1360'
-ht-degree: 93%
+source-wordcount: '1349'
+ht-degree: 90%
 
 ---
 
@@ -115,7 +115,7 @@ ht-degree: 93%
 
 ### バックログからストーリーを作成する {#create-a-story-from-the-backlog}
 
-バックログからストーリーを作成すると、ストーリーはタスクまたはイシューとしてプロジェクト内に作成されます。バックログからストーリーをイシューとして作成することはできません。
+バックログからストーリーを作成すると、ストーリーはプロジェクト内のタスクまたはイシューとして作成されます。
 
 バックログからストーリーを作成する手順は、次のとおりです。
 
@@ -189,11 +189,11 @@ ht-degree: 93%
 
 ## バックログ内にストーリーを移動またはバックログからストーリーを移動
 
-* [バックログからイテレーションまたは + ボードにストーリーを移動する](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [バックログからイテレーションまたはボードへのストーリーの移動](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [既存のストーリーをバックログに移動する](#move-existing-stories-to-the-backlog)
 * [バックログからストーリーを書き出す](#export-stories-from-the-backlog)
 
-### バックログからイテレーションまたは + ボードにストーリーを移動する
+### バックログからイテレーションまたはボードへのストーリーの移動
 
 1. アジャイルチームのバックログに移動します。
 1. 反復またはかんばんボードに移動するストーリーを選択し、**[!UICONTROL 詳細]**/**[!UICONTROL 移動先]** をクリックします。
