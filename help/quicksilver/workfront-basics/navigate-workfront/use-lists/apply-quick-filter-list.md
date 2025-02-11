@@ -5,10 +5,10 @@ description: オブジェクトのリストでクイックフィルターを使�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 89%
+source-wordcount: '843'
+ht-degree: 86%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 89%
 
 ## クイックフィルターをリストに適用する
 
-1. クイックフィルターをサポートするリストまたはレポートに移動し、ツールバーの&#x200B;**[!UICONTROL クイックフィルター]アイコン** ![](assets/qs-quick-filter-icon.png) をクリックします。
+1. クイックフィルターをサポートするリストまたはレポートに移動し、ツールバーの **[!UICONTROL クイックフィルター ] アイコン**![ クイックフィルターアイコン ](assets/qs-quick-filter-icon.png) をクリックします。
 
    または
 
@@ -120,7 +120,7 @@ ht-degree: 89%
    1. リスト内の項目をすべて選択するか、複数選択して、「**[!UICONTROL 編集]**」をクリックして、項目を一括編集します。
    1. 編集が完了したら、「**[!UICONTROL 変更を保存]**」をクリックします。
 
-1. （オプション）クイックフィルターで見つかった項目を書き出すには、リスト内のすべての項目または複数の項目を選択して、「**[!UICONTROL 書き出し]**」アイコンをクリックし ![](assets/export.png) す。
+1. （任意）クイックフィルターで見つかった項目を書き出すには、リスト内のすべての項目または複数の項目を選択して、**[!UICONTROL 書き出し]** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックします。
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 

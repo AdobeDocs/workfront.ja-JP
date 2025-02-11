@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront] では、リストの表示方法をカス
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '721'
 ht-degree: 95%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 95%
 
 1. （オプションおよび条件付き）画面に特定の数の項目を表示する場合は、画面の右下隅にある&#x200B;**[!UICONTROL 表示中]**&#x200B;ドロップダウンメニューから、**100**、**250**、**500**、**[!UICONTROL すべて]**&#x200B;または **2000** 項目の表示を選択します。
 
-   ![](assets/list-number-page-350x119.png)
+   ![ ページにリスト番号 ](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

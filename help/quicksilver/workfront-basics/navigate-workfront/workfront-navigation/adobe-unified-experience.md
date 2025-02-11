@@ -6,10 +6,10 @@ description: Adobe Experience Cloud 経由で  [!DNL Workfront]  にアクセス
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 82%
+source-wordcount: '593'
+ht-degree: 75%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 82%
 
 [!DNL Adobe Experience Cloud] を介して [!DNL Workfront] にアクセスすると、すべての [!DNL Adobe] アプリケーションを管理するためのシームレスで統一されたエクスペリエンスが得られます。単一の Identity Managemen により、複数の URL やログイン ID を必要とせずに、1 つの場所でログインできます。
 
-組織がAdobe統合エクスペリエンス上にある場合、Workfrontへのアクセスに使用する URL は `experience.adobe.com` から始まります。
+組織がAdobe統合エクスペリエンス上にある場合、Workfrontへのアクセスに使用する URL は `experience.adobe.com` で始まります。
 
 | URL | Adobe Experience |
 |------------|------------|
 | (CompanyName).my.workfront.com | Workfrontエクスペリエンス |
-| experience.adobe.com | Adobeの統合エクスペリエンス |
+| experience.adobe.com | Adobe Unified Experience |
 
 ## アクセス要件
 
@@ -85,7 +85,7 @@ ht-degree: 82%
 
 ## [!DNL Workfront] をナビゲートする
 
-[!DNL Workfront] ナビゲーション バーの左側にある[!UICONTROL メイン メニュー]アイコン ![](assets/main-menu-icon-left-nav.png) を使用して、アクセスできるページに移動します。[!UICONTROL メインメニュー]で使用できるオプションは、次の要素によって異なります。
+[!DNL Workfront] ーザーナビゲーションバーの左側にある [!UICONTROL  メインメニュー ] アイコン ![ メインメニューアイコン ](assets/main-menu-icon-left-nav.png) を使用して、アクセス権のあるページに移動します。 [!UICONTROL メインメニュー]で使用できるオプションは、以下に依存します。
 
 * **レイアウトテンプレートの設定**：[!DNL Workfront] 管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレートを使用して、[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 * **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[[!UICONTROL レビュー]ライセンスユーザーのナビゲーションを理解](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[[!UICONTROL 作業]ライセンスユーザーのナビゲーションを理解](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)を参照してください。
@@ -94,7 +94,7 @@ ht-degree: 82%
 
 ## プロファイルと環境設定にアクセスする
 
-上部のナビゲーション領域にあるAdobeアカウントメニュー（プロフィール画像）をクリックすると、プロファイルと環境設定のオプションにアクセスできます。
+上部のナビゲーション領域でAdobe アカウント メニュー（プロファイル画像）をクリックすると、プロファイルおよび環境設定オプションにアクセスできます。
 
 ![プロファイルメニュー](assets/aec-profile-picture-menu.png)
 
@@ -102,7 +102,7 @@ ht-degree: 82%
 
 * [!DNL Adobe Experience Cloud] の&#x200B;**[!UICONTROL ダークテーマ]**&#x200B;の書式を選択します。
 * メイン言語とサブ言語の環境設定を含む、[!DNL Adobe Experience Cloud] の&#x200B;**[!UICONTROL 環境設定]**&#x200B;を設定します。
-* **[!UICONTROL [!DNL Workfront]のプロファイル]**&#x200B;にアクセスします。プロファイルを開いたら、**[!UICONTROL その他]**&#x200B;メニュー ![](assets/more-icon.png) をクリックし、「**[!UICONTROL 編集]**」を選択します。プロファイルについて詳しくは、[個人設定を行う](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
+* **[!UICONTROL [!DNL Workfront]のプロファイル]**&#x200B;にアクセスします。プロファイルにアクセスしたら、**[!UICONTROL 詳細]** メニュー ![ 詳細メニュー ](assets/more-icon.png) をクリックし、**[!UICONTROL 編集]** を選択します。 プロファイルについて詳しくは、[個人設定を行う](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
 * Adobe Experience Cloud の&#x200B;**[!UICONTROL ログアウト]**
 
 ## パスワードを管理する

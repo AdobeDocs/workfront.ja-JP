@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  パスワードをリセットできま�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 100%
+source-wordcount: '253'
+ht-degree: 86%
 
 ---
 
@@ -50,15 +50,15 @@ ht-degree: 100%
 
 ## [!DNL Adobe Workfront] でパスワードをリセットする
 
-1. [!DNL Adobe Workfront] の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、プロフィール画像の横にあるユーザー名をクリックします。
+1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、プロファイル画像の横にあるユーザー名をクリックします。
 
    ![メインメニューを開き、ユーザー名を選択します。](assets/main-menu-options-350x481.png)
 
-1. **[!UICONTROL その他メニュー]** ![](assets/more-icon.png) をクリックして、「**[!UICONTROL 編集]**」をクリックします。
+1. **[!UICONTROL その他メニュー]**![ その他アイコン ](assets/more-icon.png) をクリックしてから、**[!UICONTROL 編集]** をクリックします。
 
 1. 表示される「**[!UICONTROL 担当者を編集]**」ボックスで、**[!UICONTROL 個人情報]**&#x200B;の下にある「**[!UICONTROL パスワードをリセット]**」をクリックします。
 
-   ![](assets/edit-person-box-350x196.jpg)
+   ![ ユーザーの編集 ](assets/edit-person-box-350x196.jpg)
 
    組織が [!DNL Workfront] と SSO ソリューションを統合している場合は、「**[!UICONTROL パスワードをリセット]**」をクリックする際に、SSO システムを介してパスワードのリセットを促される場合があります。これにより、SSO パスワードがリセットされ、組織内での他のすべてのアプリケーションへのログインに影響します。
 

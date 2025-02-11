@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront]  内のオブジェクトのリストを�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2290'
 ht-degree: 93%
 
 ---
@@ -331,7 +331,7 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 これらの要素は、デフォルトで各リストの上部に表示されます。固定されており、リストをスクロールしても移動しません。各要素を識別するアイコンにポインタを合わせます。
 
-![](assets/nwe-list-elements.png)
+![ リスト要素 ](assets/nwe-list-elements.png)
 
 次のエリアでリスト要素をカスタマイズし、他のユーザーと共有できます。
 
@@ -624,11 +624,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 * 従来のリスト
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![ ブルーグループ化 ](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * 更新されたリスト
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![ グレーグループ化 ](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 次の表に、[!DNL Workfront] の従来のリストと更新されたリストの相違点をいくつか示します。
 

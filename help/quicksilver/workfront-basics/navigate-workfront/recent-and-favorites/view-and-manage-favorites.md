@@ -6,10 +6,10 @@ description: お気に入りメニューを使用すると、項目に素早く�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 78%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 100%
 
 以前お気に入りに追加した項目を表示するには、次の手順を実行します。
 
-1. 任意の [!DNL Adobe Workfront] ページにある右上の&#x200B;**[!UICONTROL お気に入り]** ![](assets/favorites-icon.png) アイコンをクリックします。
+1. [!DNL Adobe Workfront] ページの右上隅にある **[!UICONTROL お気に入り]** アイコン ![ お気に入り ](assets/favorites-icon.png) をクリックします。
 
 1. [!UICONTROL お気に入り]リストで、表示する項目をクリックします。
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 ### 現在の項目をお気に入りに追加
 
 1. お気に入りに追加するページに移動します。
-1. 任意の [!DNL Workfront] ページの右上にある **[!DNL Favorites]** アイコン ![](assets/favorites-icon.png) をクリックし、「**[!UICONTROL 現在のページを追加]**」をクリックします。
+1. 任意の [!DNL Workfront] ページの右上隅にある **[!DNL Favorites]** アイコン ![ お気に入り ](assets/favorites-icon.png) をクリックし、「**[!UICONTROL 現在のページを追加]**」をクリックします。
 
    ![現在のページをお気に入りに追加](assets/add-current-page-favorite-2022-350x147.png)
 
@@ -77,19 +77,19 @@ ht-degree: 100%
 
    または
 
-   オブジェクト名の右にある&#x200B;**[!UICONTROL お気に入り]**&#x200B;アイコン ![](assets/favorites-icon.png) をクリックします。
+   オブジェクト名の右側にある **[!UICONTROL お気に入り]** アイコン ![ お気に入り ](assets/favorites-icon.png) をクリックします。
 
    >[!NOTE]
    >
    >お気に入りとして既に追加したオブジェトの&#x200B;**[!UICONTROL お気に入り]**&#x200B;アイコンをクリックすると、そのオブジェクトは[!UICONTROL お気に入り]メニューから削除されます。\
-   >![](assets/nwe-remove-from-favorites-350x52.png)
+   >![ お気に入りから削除 ](assets/nwe-remove-from-favorites-350x52.png)
 
 ## [!UICONTROL お気に入り]メニューから項目を削除
 
-1. 任意の [!DNL Workfront] ページにある右上の&#x200B;**[!UICONTROL お気に入り]** ![](assets/favorites-icon.png) アイコンをクリックします。
+1. [!DNL Workfront] ページの右上隅にある **[!UICONTROL お気に入り]** アイコン ![ お気に入り ](assets/favorites-icon.png) をクリックします。
 
 1. お気に入りとして削除する項目の上にポインタを合わせて、隣にある「**X**」をクリックします。
 
    または
 
-   お気に入りから削除するページにいる場合は、お気に入りメニューから削除するオブジェクト名の横に表示される&#x200B;**[!UICONTROL お気に入り]**&#x200B;アイコン ![](assets/favorites-icon.png) をクリックします。
+   お気に入りとして削除するページ上にある場合は、オブジェクト名の横にある **[!UICONTROL お気に入り]** アイコン ![ お気に入り ](assets/favorites-icon.png) をクリックして、[ お気に入り ] メニューから削除します。

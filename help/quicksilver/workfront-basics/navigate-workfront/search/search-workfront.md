@@ -5,10 +5,10 @@ description: ' [!DNL Adobe Workfront]  の項目の正確な場所を思い出�
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 100%
+source-wordcount: '1690'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 [!DNL Workfront] 内のページの右上に「[!UICONTROL 検索]」ボックスがあります。
 
-![](assets/search-globalnavigationbar-350x62.png)
+![ ナビゲーションバーの検索アイコン ](assets/search-globalnavigationbar-350x62.png)
 
 オブジェクトを検索で見つけるには、そのオブジェクトを表示する権限が必要です。そのため、検索結果はユーザーによって異なります。
 
@@ -185,15 +185,15 @@ Workfront では次のオブジェクトを検索できます。
 
 基本検索を実行するには、次の操作を実行します。
 
-1. ページの右上隅にある虫眼鏡 ![](assets/search-icon.png) をクリックします。あるいは、**[!UICONTROL ALT + /]** キーまたは **[!UICONTROL Option + /]** キーを入力して[!UICONTROL 検索]メニューを開くこともできます。
+1. ページの右上隅にある虫眼鏡 ![ 検索アイコン ](assets/search-icon.png) をクリックします。 あるいは、**[!UICONTROL ALT + /]** キーまたは **[!UICONTROL Option + /]** キーを入力して[!UICONTROL 検索]メニューを開くこともできます。
 
 1. （オプション）特定のオブジェクトを検索するには、ドロップダウンメニューの「**[!UICONTROL すべて]**」をクリックして、検索するオブジェクトを選択します。
 
-   ![](assets/search-objecttype.png)
+   ![ オブジェクトタイプで検索 ](assets/search-objecttype.png)
 
 1. **[!UICONTROL 検索]**&#x200B;ボックスに、検索する情報の入力を開始します。\
    [!DNL Workfront] で検索対象となるフィールドについて詳しくは、[検索について](#understand-search)を参照してください。\
-   ![](assets/qs-search-drop-down-highlighted-350x234.png)\
+   ![ 検索ドロップダウン ](assets/qs-search-drop-down-highlighted-350x234.png)\
    検索バーで入力を始めると、[!DNL Workfront] は、閲覧履歴に基づいてレコメンデーションを行い、検索しているキーワードを青色でハイライト表示します。
 
 1. 検索している項目が[!UICONTROL 先行入力]メニューに表示された場合は、その項目をクリックします。
@@ -232,7 +232,7 @@ Workfront では次のオブジェクトを検索できます。
 1. 結果のリストを短くするには、使用可能なフィールドの内部をクリックします。\
    選択した項目は青色でハイライト表示され、選択しなかったフィールドの値は非表示になります。\
    新しい値を選択するごとに、右側の結果が動的に更新されます。\
-   ![](assets/qs-refine-search-350x175.png)
+   ![ 検索を絞り込む ](assets/qs-refine-search-350x175.png)
 
 1. （オプション）選択した値をクリックすると、選択が解除され、各フィールドのすべての値が再び表示されます。
 
@@ -253,16 +253,16 @@ Workfront では次のオブジェクトを検索できます。
 
 詳細検索を実行するには、次の手順に従います。
 
-1. [!DNL Workfront] の任意のページの右上隅にある&#x200B;**[!UICONTROL 検索]**&#x200B;アイコン ![](assets/search-icon.png) をクリックします。[!DNL Search] メニューが表示されます。
+1. [!DNL Workfront] のページの右上隅にある **[!UICONTROL 検索]** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックします。 [!DNL Search] メニューが表示されます。
 
 1. [!UICONTROL 検索]メニューの下部で、「**[!UICONTROL 詳細検索]**」をクリックします。\
-   ![](assets/qs-advanced-search-350x224.png)\
+   ![ 詳細検索 ](assets/qs-advanced-search-350x224.png)\
    [!UICONTROL 詳細検索]ページのスライドが右から開き、前のページのほとんどをカバーします。
 
 1. 検索するオブジェクトのタイプを選択します。\
    **[!UICONTROL プロジェクト]**&#x200B;はデフォルトで選択されています。
 
-   ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![ 詳細検索オブジェクト ](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
 1. （オプション）リストの上部にあるフィールドにキーワードを入力します。
 1. （オプション）「**[!UICONTROL 結果をフィルタリング]**」をクリックして、特定のフィールドタイプに基づいて検索結果をフィルタリングし、リストからフィールドを選択します。必要に応じて、フィールドの値も選択します。\

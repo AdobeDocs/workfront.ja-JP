@@ -6,10 +6,10 @@ description: この記事を確認して、 [!DNL Adobe Workfront]  モバイル
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 100%
+source-wordcount: '443'
+ht-degree: 99%
 
 ---
 
@@ -58,7 +58,7 @@ iOS デバイスでベータ版テスターになる前に、[!DNL Workfront] �
 
 以下の QR コードをスキャンして、ベータ版に新規登録し、アプリをダウンロードすることもできます。
 
-![](assets/ios-qr-code-350x397.png)
+![iOS QR コード ](assets/ios-qr-code-350x397.png)
 
 ## 現在の状況をお知らせください
 

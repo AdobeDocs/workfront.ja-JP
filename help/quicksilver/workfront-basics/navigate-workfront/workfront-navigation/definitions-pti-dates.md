@@ -6,10 +6,10 @@ description: この記事では、 [!DNL Adobe Workfront] のプロジェクト�
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2301'
-ht-degree: 48%
+source-wordcount: '2357'
+ht-degree: 47%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 48%
 >
 >[!UICONTROL 開始日指定]タスクまたは固定日付制約は、タスクの[!UICONTROL 実際の開始日]ではなく、[!UICONTROL 予定開始日]に影響します。これにより、[!UICONTROL 予定開始日]を指定の日付に更新します。[!UICONTROL 実際の開始日]は、前述のとおり、[!UICONTROL 予定開始日]とは別にアップデートします。
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![ 編集タスクの実際の開始日 ](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![ タスクの実際の開始日 ](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL 実際の完了日]
 
@@ -68,7 +68,7 @@ ht-degree: 48%
 
 詳しくは、[プロジェクトの概要[!UICONTROL 実際の完了日]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md)を参照してください。
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![ 詳細の実際の完了日 ](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## 承認パス完了日
 
@@ -152,7 +152,7 @@ ht-degree: 48%
 
 [!UICONTROL エントリ日]は、プロジェクト、タスクまたはイシューのタイムラインに影響しませんが、トラッキングやレポートの目的では重要です。[!DNL Workfront] は、オブジェクトの作成時に[!UICONTROL エントリ日]を自動的に生成しますが、手動でこの日付を編集することはできません。
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![ タスク詳細のエントリ日 ](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## 推定期限
 
@@ -184,7 +184,7 @@ ht-degree: 48%
 
 プロジェクトの固定終了日は、プロジェクトのビジネスケース セクション、およびプロジェクトリストとレポートに表示されます。
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![ 固定終了日 ](assets/fixed-end-date-business-case-highlight.png)
 
 ## 固定開始日
 
@@ -194,7 +194,7 @@ ht-degree: 48%
 
 プロジェクトの固定開始日は、プロジェクトのビジネスケース セクション、およびプロジェクトリストとレポートに表示されます。
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![ 固定開始日 ](assets/fixed-start-date-business-case-highlight.png)
 
 ## ハンドオフ日
 
@@ -252,9 +252,9 @@ Workfrontに時間をログ記録する方法について詳しくは、[ 時間
 * [プロジェクトの[!UICONTROL 予定完了日]を設定](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [問題の概要[!UICONTROL 予定完了日]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![ ヘッダーの予定完了日 ](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![ タスクリストの予定完了日 ](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## 予定日付との整合性
@@ -277,9 +277,9 @@ Workfrontに時間をログ記録する方法について詳しくは、[ 時間
 
 詳しくは、[プロジェクトの概要[!UICONTROL 予定開始日]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md)を参照してください。
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![ 編集タスクの予定開始日 ](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![ タスク リストの予定開始日 ](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL 見込み完了日]
 
@@ -289,7 +289,7 @@ Workfrontに時間をログ記録する方法について詳しくは、[ 時間
 
 詳しくは、[プロジェクト、タスクおよびイシューの[!UICONTROL 見込み完了日]の概要](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)を参照してください。
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![ 完了予定日 ](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL 見込み開始日]
 
@@ -305,7 +305,7 @@ Workfrontに時間をログ記録する方法について詳しくは、[ 時間
 
 詳しくは、[プロジェクトの概要[!UICONTROL 見込み開始日]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md)を参照してください。
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![ 見込み開始日 ](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 

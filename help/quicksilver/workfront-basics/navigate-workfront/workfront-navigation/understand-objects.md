@@ -6,10 +6,10 @@ description: で表示する情報は  [!DNL Adobe Workfront]  データベー�
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2424'
-ht-degree: 92%
+source-wordcount: '2508'
+ht-degree: 89%
 
 ---
 
@@ -161,21 +161,21 @@ Workfront の他のオブジェクトの名前はカスタマイズできませ�
 
 | **オブジェクト** | **アイコン** | **カスタマイズ可能なオブジェクト名** |
 |---|---|---|
-| [!UICONTROL 会社] | ![](assets/company-icon-nwe.png)  , ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL ダッシュボード] | ![](assets/dashboard-icon-nwe.png)  , ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL 目標] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL グループ] | ![](assets/groups-icon-nwe.png)  , ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL イシュー] | ![](assets/issue-icon-nwe.png)、![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL 担当業務] | ![job_role_icon.png](assets/job-role-icon-52x50.png)、![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png)、![](assets/job-role-nwe-no-color.png)、![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL プラン] | ![](assets/plan-icon.png)、![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL ポートフォリオ] | ![](assets/portfolio-icon-nwe.png)、![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL プログラム] | ![](assets/program-icon-nwe.png) 、![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL プロジェクト] | ![](assets/project-icon-nwe.png) 、![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL レポート] | ![](assets/report-icon-nwe.png)、![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL タスク] | ![](assets/task-icon-new.png)、![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL チーム] | ![](assets/team-icon-nwe.png)、![](assets/team-icon-nwe-color.png)、![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL テンプレート] | ![](assets/template-icon-nwe.png)、![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL ユーザー] | ![](assets/users-icon-gray.png)、![](assets/user-icon-blue.png)、![](assets/user-icon-initials.png)、![](assets/user-avatar.png)、![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL 会社] | ![ 会社アイコン ](assets/company-icon-nwe.png)、![ 会社アイコン青 ](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL ダッシュボード] | ![ ダッシュボードアイコン ](assets/dashboard-icon-nwe.png)、![ ダッシュボードアイコン青 ](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL 目標] | ![ 目標アイコン ](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL グループ] | ![ グループアイコン ](assets/groups-icon-nwe.png)、![ グループアイコン ](assets/nwe-group-icon.png) |  |
+| [!UICONTROL イシュー] | ![ 問題アイコン ](assets/issue-icon-nwe.png)、![ 問題アイコン ピンク ](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL 担当業務] | ![job_role_icon.png](assets/job-role-icon-52x50.png)、![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png)、![ 担当業務アイコン ](assets/job-role-nwe-no-color.png)、![ 担当業務アイコンの色 ](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL プラン] | ![ プランアイコン ](assets/plan-icon.png)、![ プランアイコン青 ](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL ポートフォリオ] | ![Portfolio](assets/portfolio-icon-nwe.png)、![Portfolio アイコン青 ](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL プログラム] | ![ プログラムアイコン ](assets/program-icon-nwe.png)、![ プログラムアイコン オレンジ ](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL プロジェクト] | ![ プロジェクトアイコン ](assets/project-icon-nwe.png)、![ プロジェクトアイコン紫色 ](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL レポート] | ![ レポートアイコン ](assets/report-icon-nwe.png)、![ レポートアイコンは緑色 ](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL タスク] | ![ タスクアイコン ](assets/task-icon-new.png)、![ タスクアイコンが緑色 ](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL チーム] | ![ チームアイコン ](assets/team-icon-nwe.png)、![ チームアイコン ラウンド ](assets/team-icon-nwe-color.png)、![ チームアイコン ](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL テンプレート] | ![ テンプレートアイコン ](assets/template-icon-nwe.png)、![ テンプレートアイコンは緑色 ](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL ユーザー] | ![ ユーザーアイコン グレー ](assets/users-icon-gray.png)、![ ユーザーアイコン青 ](assets/user-icon-blue.png)、![ イニシャル付きのユーザーアイコン ](assets/user-icon-initials.png)、![ アバター ](assets/user-avatar.png)、![ ユーザーアイコンのメインメニュー ](assets/user-main-menu-area.png) |  |
 
 ## オブジェクトの参照番号
 

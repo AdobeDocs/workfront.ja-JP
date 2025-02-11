@@ -7,10 +7,10 @@ description: レビュー中のプロジェクトのアップデートを、 [!D
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 97%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 1. アップデートと入力します。
 1. （オプション）他の項目をアップデートに含めるには、[!UICONTROL 人物]アイコンをタップし、別のユーザーの名前を指定します。\
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![ モバイルアプリのアップデート ](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. 「**[!UICONTROL 投稿]**」をタップ\
    アップデートは、プロジェクトの、**[!UICONTROL アップデート]**&#x200B;ウィジェットに表示されます。

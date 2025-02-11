@@ -7,10 +7,10 @@ description: メインメニューは、 [!DNL Adobe Workfront] 管理者に割�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 94%
+source-wordcount: '482'
+ht-degree: 93%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 94%
 
 * **[!UICONTROL ブループリント]**：システムの既存のブループリントをレビューし、[!DNL Workfront] 管理者がブループリントのリクエストキューを設定した場合は、ブループリントをインストールするように要求します。詳しくは、[ブループリントの概要](../../../administration-and-setup/blueprints/blueprints-overview.md)を参照してください。
 
-![](assets/worker-main-menu-350x426.png)
+![ ワーカーのメインメニュー ](assets/worker-main-menu-350x426.png)
 
 ## デフォルトの[!UICONTROL メインメニュー]のカスタマイズ
 

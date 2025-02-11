@@ -6,10 +6,10 @@ description: プルーフに対する既存のコメントをレビューおよ�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 100%
+source-wordcount: '819'
+ht-degree: 98%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
    このオプションは、未読のコメントが選択されている場合にのみ使用できます。
 
-1. 選択したコメントを削除するには、**[!UICONTROL 削除]**&#x200B;アイコン ![](assets/delete-30x28.png) をクリックします。次に、確認メッセージで「**[!UICONTROL 削除]**」をクリックして、コメントを完全に削除します。
+1. 選択したコメントを削除するには、下部のツールバーにある **[!UICONTROL 削除]** アイコン ![ 削除アイコン ](assets/delete-30x28.png) を選択します。 次に、確認メッセージで「**[!UICONTROL 削除]**」をクリックして、コメントを完全に削除します。
 
 ## プルーフに対するコメント
 

@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] の場合、項目はオブジェクトと
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 100%
 
 ---
@@ -46,7 +46,7 @@ Workfront は、オブジェクトの作成時に、次の各オブジェクト�
 
 タスクまたはイシューを表示する場合は、参照番号がデフォルトで表示されます。参照番号を確認するには、左側のパネルで「**[!UICONTROL タスクの詳細]**」または「**[!UICONTROL イシューの詳細]**」をクリックし、概要で「**[!UICONTROL 基本情報]**」セクションを見つけます。
 
-![](assets/reference-number-nwe-350x184.png)
+![参照番号](assets/reference-number-nwe-350x184.png)
 
 ### 他のオブジェクトの参照番号を表示する
 

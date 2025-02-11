@@ -5,9 +5,9 @@ description: AI アシスタントの概要
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 7%
 
 ---
@@ -52,7 +52,7 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 * 組織がAdobe IMS（Identity Management System）に移行している必要があります
 * Adobe統合エクスペリエンスを有効にする必要があります
 * 組織には Select、Prime、UltimateのいずれかのWorkfront プランが必要です
-* Adobeは、ファイルに署名済みのAdobe生成 AI 契約が必要
+* Adobeは、ファイルにAdobe生成 AI 契約を署名済みにする必要があります
 
   契約の署名について詳しくは、この記事の [Adobe生成 AI 契約への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
 
@@ -78,7 +78,7 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
   詳細については、[AI アシスタントを使用して要約する ](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md) を参照してください。
 
-* Adobe Experience LeagueのWorkfront ドキュメントから取得した手順や参照情報を提供する。
+* Adobe Experience League に関するWorkfront ドキュメントから取得した手順や参照情報を提供する。
 
   詳細については、「[AI アシスタントからヘルプを表示する ](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)」を参照してください。
 
@@ -115,27 +115,27 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
 ## AI アシスタントにアクセス
 
-1. Workfrontページの上部にある AI アシスタント アイコン ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) をクリックします。
+1. Workfront ページの上部で、「AI アシスタント」アイコン ![AI アシスタントのアイコン ](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) をクリックします。
 1. 質問を入力するか、画面の右側にあるパネルにプロンプトを表示します。
 
-   このパネルに入力できない場合は、署名済みのAdobe生成 AI 契約がファイルにありません。
+   このパネルに入力できない場合は、署名済みのAdobe Gen AI 契約がファイルにありません。
 
 1. AI アシスタントが必要な回答を提供しない場合は、プロンプトを調整して再試行してください。
 
-## Adobe生成 AI 契約に署名
+## Adobe Gen AI 契約に署名
 
-組織が署名済みのAdobe生成 AI 契約をファイルで持っていない場合、組織に対して AI アシスタントを有効にすることはできません。
+組織が署名済みのAdobe Gen AI 契約をファイルで持っていない場合、組織に対して AI アシスタントを有効にすることはできません。
 
 Adobe生成 AI 契約に署名されていないときに、ユーザーが AI アシスタントを使用しようとすると、次のメッセージが表示されます。
 
 * ユーザー：ユーザーは、AI アシスタントが組織で有効になっていないことと、Workfront管理者に連絡して組織で AI アシスタントをリクエストできることを知らされます。
-* 管理者：署名済みのAdobe生成 AI 契約がないことを知らされ、契約のコピーを署名用に送信するようリクエストできます。
+* 管理者：署名済みのAdobe Gen AI 契約がないことを知らされ、契約のコピーを署名用に送信するようリクエストできます。
 
 Adobe生成 AI 契約をリクエストするには：
 
-1. Workfront管理者は、「AI アシスタント」アイコンをクリック ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) ます。
+1. Workfrontの管理者は、「AI アシスタント」アイコン ![AI アシスタントのアイコン ](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) をクリックします。
 1. AI アシスタント パネルで入力を開始します。
 1. Adobe生成 AI 契約メッセージが表示されたら、「**契約を確認**」をクリックします。
-1. Adobe生成 AI 契約に署名する組織内の個人の名前とメールアドレスを入力します。
+1. Adobe Gen AI 契約に署名する組織内の個人の名前とメールアドレスを入力します。
 
    契約書はこのユーザーに送信され、署名が行われます。 署名して返されると、組織で AI アシスタントが有効になります。

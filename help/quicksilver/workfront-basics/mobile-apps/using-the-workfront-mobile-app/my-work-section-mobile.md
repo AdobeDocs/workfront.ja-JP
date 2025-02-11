@@ -6,10 +6,10 @@ description: '[!UICONTROL ホーム]エリアの「[!UICONTROL 担当作業]」�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 100%
+source-wordcount: '172'
+ht-degree: 98%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >モバイルアプリの[!UICONTROL 担当作業]は、デスクトップ版 [!UICONTROL Adobe Workfront] の[!UICONTROL 担当作業]とは別のものです。
 
-![](assets/home-myworksection-338x379.png)
+![担当作業](assets/home-myworksection-338x379.png)
 
 ## [!UICONTROL 担当作業]セクションをカスタマイズ
 
@@ -36,4 +36,4 @@ ht-degree: 100%
    >
    >[!UICONTROL タスクとイシュー]のメニュー項目は常に表示され、非表示にすることはできません。
 
-   ![](assets/mobile-settings-338x366.png)
+   ![ モバイル設定 ](assets/mobile-settings-338x366.png)

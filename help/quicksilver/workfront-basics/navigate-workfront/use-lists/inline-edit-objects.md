@@ -6,10 +6,10 @@ description: オブジェクトがリストまたはレポートに表示され�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 92%
+source-wordcount: '711'
+ht-degree: 91%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 92%
 
    フィールドが編集可能な場合は、リストに表示されるフィールドとその他すべてのフィールドが編集可能なセルに変わります。
 
-   ![](assets/nwe-editable-cells-350x131.png)
+   ![ 編集可能なセル ](assets/nwe-editable-cells-350x131.png)
 
 1. このセル内の情報を編集し、[!UICONTROL Enter] キーを押します。
 
