@@ -7,7 +7,7 @@ description: データ式を使用して、Adobe Workfront で計算済みのカ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
+source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
 workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 90%
@@ -132,11 +132,11 @@ ht-degree: 90%
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDHOUR</strong> </td> 
+   <td><strong>ADDHOURS</strong> </td> 
    <td> <p>日付に時間数を追加します。次のような形式です。</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>注意：この関数は、Workfront Planning ではサポートされていません。</p></td> 
+   <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -410,7 +410,7 @@ ht-degree: 90%
    <p>式の形式は次のとおりです。</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>例えば、["-12.6", -13.0] は ["-12.6", "-13"] になります。</p>
-   <p>注意：この関数は、Workfront Planning ではサポートされていません。</p></td> 
+   <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCCARRAY</strong> </td> 
@@ -418,7 +418,7 @@ ht-degree: 90%
    <p>式の形式は次のとおりです。</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>例えば、["-12.6", -13.0] は ["-13", "-12.6"] になります。</p>
-   <p>注意：この関数は、Workfront Planning ではサポートされていません。</p></td> 
+   <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
   </tr>
   <tr>   
    <td><strong>CASE</strong> </td> 
@@ -461,7 +461,7 @@ ht-degree: 90%
    <td><p>書式設定されたテキストを返します。カラーオプションは、$$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE です。その他の書式設定オプションは、$$BOLD、$$ITALIC、$$UNDERLINE です。関数ごとに 1 つのカラーオプションのみを使用でき、他の書式設定オプションも最大 3 つ使用できます。 カラーオプションを指定しない場合、システムのデフォルトのカラーが適用されます。</p>
    <p>式の形式は次のとおりです。</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>注意：この関数は、Workfront Planning ではサポートされていません。</p></td> 
+   <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -576,7 +576,7 @@ ht-degree: 90%
    <td> <p>値のリストに対して式を評価し、最初に一致した値に対応する結果を返します。</p>
    <p>式の形式は次のとおりです。</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>この関数は、Workfront Planning ではサポートされていません。</p></td> 
+   <p>この式は、Workfront Planning ではサポートされていません。</p></td> 
   </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 
