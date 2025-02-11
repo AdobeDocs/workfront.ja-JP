@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
+source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
 workflow-type: tm+mt
 source-wordcount: '1124'
 ht-degree: 2%
@@ -33,7 +33,7 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 
 ## バージョン 1 とバージョン 2 の間の変更
 
-イベント購読バージョン 2 に対して次の変更が行われました
+イベント購読バージョン 2 に対して次の変更が行われました。
 
 
 ### 一般的な変更点
