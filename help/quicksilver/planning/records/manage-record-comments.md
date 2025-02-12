@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '949'
-ht-degree: 67%
+source-wordcount: '954'
+ht-degree: 66%
 
 ---
 
@@ -116,7 +116,7 @@ ht-degree: 67%
 
   >[!NOTE]
   >
-  >   Adobeの統合エクスペリエンスにオンボーディングした顧客のユーザーのみが、アプリ内通知とメール通知の両方を受け取ります。 会社がAdobe統合エクスペリエンスを使用しているかどうかを判断するには、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+  >   Adobe統合エクスペリエンスにオンボーディングしたユーザーのユーザーのみが、アプリ内通知とメール通知の両方を受け取ります。 会社がAdobe統合エクスペリエンスを使用しているかどうかを判断するには、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
 * Workfront Planning の次のエリアから、レコードに更新を追加したり、変更履歴を確認したりできます。
 
@@ -143,7 +143,7 @@ ht-degree: 67%
 
 1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
 
-   ![](assets/empty-comment-box-on-record.png)
+   ![ レコードのコメントボックスを空にする ](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >

@@ -8,10 +8,10 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 76%
+source-wordcount: '743'
+ht-degree: 72%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 76%
 1. （オプション）以前の更新のテキストを返信に含めるには、返信したいコメントの右上隅にある&#x200B;**その他**&#x200B;メニューをクリックしたあと、「**引用返信**」をクリックします。以前の更新のテキストが入力エリアに表示され、灰色の縦線が付きます。
 1. 「**返信**」をクリックします。
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![ 「返信して更新」空のボックス ](assets/reply-to-update-empty-box.png)
 
    会話に積極的に参加しているユーザーが「**返信を追加...**」ボックスの下部に表示されます。さらに追加したり、関係なくなったものを削除したりできます。これらのユーザー、およびオブジェクトを購読しているユーザーは、オブジェクトに対して更新や返信が行われるたびに通知を受け取ります。さらに多くのユーザーをタグ付けして、返信に含めることもできます。さらに多くのユーザーをタグ付けするには、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
 
@@ -115,7 +115,7 @@ ht-degree: 76%
 
 1. 「**送信**」をクリックして返信を保存します。
 
-1. （オプション）返信したいコメントの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックすると、返信を管理するためのオプションがさらに表示されます。詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+1. （オプション）返信を管理するその他のオプションについては、返信するコメントの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします。 詳しくは、[作業の更新](../updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
 <!--
 ### Reply to an update or reply in the legacy Updates section
