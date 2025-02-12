@@ -6,10 +6,10 @@ description: ポートフォリオオプティマイザーでは、プロジェ�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 92%
+source-wordcount: '541'
+ht-degree: 89%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 92%
 
 ## [!UICONTROL ポートフォリオオプティマイザー]内のプロジェクト優先度の変更
 
-1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png)をクリックします。
+1. Adobe Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
 
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. （オプション） **[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューで正しいフィルターを選択すると、ポートフォリオの正しいリストが表示されます。
@@ -76,7 +76,7 @@ ht-degree: 92%
 1. 左側のパネルで「**[!UICONTROL ポートフォリオの最適化]**」をクリックします。
 1. [!UICONTROL プロジェクト最適化]領域で、プロジェクトの優先度を変更するには、優先度の高い順にプロジェクトをドラッグし、目的の表示位置にドロップします。
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio Optimizer とプロジェクト ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    プロジェクトの再配置が完了したら、プロジェクトの最適化領域で「**[!UICONTROL 優先度を設定]**」をクリックします。プロジェクトには、新しい順序に基づいて新しい番号が割り振られます。
 

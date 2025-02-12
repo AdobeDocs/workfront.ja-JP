@@ -5,10 +5,10 @@ description: タスクリストガントチャートとプロジェクトリス�
 author: Alina
 feature: Work Management
 exl-id: e6b55699-0831-40d4-a997-6fe3f8828ee1
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 100%
+source-wordcount: '918'
+ht-degree: 98%
 
 ---
 
@@ -79,7 +79,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
    プロジェクトのリストが表示されます。
 
-1. 画面の右上隅にある **[!UICONTROL ガントチャート]** アイコン ![](assets/gantt-icon-nwe.png) をクリックします。
+1. 画面の右上隅にある **[!UICONTROL ガントチャート]** アイコン ![ ガントアイコン ](assets/gantt-icon-nwe.png) をクリックします。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -113,7 +113,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
 1. [!UICONTROL ガントチャート]で、時間枠ドロップダウンメニューをクリックします。
 
-   ![](assets/timeline-options.png)
+   ![ タイムラインオプション ](assets/timeline-options.png)
 
 1. 次の利用可能なオプションから時間枠を選択します。
 

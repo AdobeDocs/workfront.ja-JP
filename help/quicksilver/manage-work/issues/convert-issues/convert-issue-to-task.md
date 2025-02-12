@@ -6,10 +6,10 @@ description: イシューの送信後、イシューを完了するために必�
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 99%
+source-wordcount: '1048'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 99%
 1. 変換するイシューをクリックして、イシューのランディングページに移動します。
 1. イシューの&#x200B;[!UICONTROL **その他**]&#x200B;メニューをクリックし、[!UICONTROL **タスクに変換**]&#x200B;を選択します。
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![ 問題の詳細メニュー ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -62,7 +62,7 @@ ht-degree: 99%
 
 1. [!UICONTROL タスク名]セクションでタスクの名を前を更新します。デフォルトでは、タスクの名前は元のイシューの名前と同じになります。
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![ タスクに変換ボックス ](assets/convert-to-task-box-nwe.png)
 
 1. [!UICONTROL **宛先プロジェクト**]&#x200B;をクリックし、新しいタスクを配置するプロジェクトの名前を&#x200B;[!UICONTROL **宛先プロジェクト**]&#x200B;フィールドに入力し始め、リストに表示されたらそれを選択します。デフォルトでは、イシューのプロジェクトが選択されています。
 

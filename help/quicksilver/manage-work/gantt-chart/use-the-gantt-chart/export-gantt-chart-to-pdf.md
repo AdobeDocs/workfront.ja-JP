@@ -1,13 +1,13 @@
 ---
 navigation-topic: use-the-gantt-chart
 title: ガントチャートを PDF に書き出す
-description: ガント チャートはPDFにエクスポートできます。 ガントチャートをPDFに書き出した後、印刷するか、メールに添付して、他のユーザーと共有できます。
+description: ガントチャートはPDFに書き出すことができます。 ガントチャートをPDFに書き出した後は、印刷するか、メールに添付して、他のユーザーと共有できます。
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1049'
 ht-degree: 65%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 65%
 
    * 「**予定日に切り替え**」オプションを選択して、予定日ではなく見込み日を表示します。 デフォルトでは、予定日が表示されます。
 
-   * ガントチャートの右上隅にある **設定** アイコン ![](assets/settings-icon.png) をクリックして、ガントチャートで表示する情報を選択します。 選択した情報は、書き出されたガントPDFファイルに含まれます。
+   * ガントチャートの右上隅にある **設定** アイコン ![ 設定アイコン ](assets/settings-icon.png) をクリックして、ガントチャートに表示する情報を選択します。 選択すると、この情報は書き出されたガント PDF ファイルに含まれます。
 
      次のオプションから選択します。
 
@@ -109,7 +109,7 @@ ht-degree: 65%
 
    例えば、50 件のタスクを含むプロジェクトの[!UICONTROL ガントチャート]を表示する際、書き出した[!UICONTROL ガントチャート]に 10 件のタスクのみを表示する場合、表示する 10 件のタスクを選択します。
 
-1. ガントチャートの右上隅にあるプリンターアイコン ![](assets/printer-icon.png) をクリックします。
+1. ガントチャートの右上隅にあるプリンタアイコン ![ プリンタアイコン ](assets/printer-icon.png) をクリックします。
 **[!UICONTROL PDFに書き出し]** ダイアログボックスが表示されます。
 
    ![exported_gantt_UI.png](assets/exported-gantt-ui-350x225.png)
@@ -140,7 +140,7 @@ ht-degree: 65%
      >   * 項目が 500 を超える場合
 
 
-1. PDFをPDFにエクスポートした後に印刷する場合は、**[!UICONTROL ページ サイズ]** ドロップダウン メニューで、印刷する用紙のサイズを選択します。
+1. PDFに書き出した後にPDFを印刷する場合は、**[!UICONTROL ページサイズ]** ドロップダウンメニューで、印刷する用紙のサイズを選択します。
 以下のオプションから選択できます。
 
    * **[!UICONTROL レター]**

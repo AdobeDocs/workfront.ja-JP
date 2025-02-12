@@ -6,10 +6,10 @@ description: ポートフォリオとは、Adobe Workfront のプロジェクト
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 95%
+source-wordcount: '362'
+ht-degree: 87%
 
 ---
 
@@ -81,12 +81,12 @@ ht-degree: 95%
 
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. ポートフォリオの名前をクリックします。
-1. ポートフォリオ名の右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックし、「**[!UICONTROL ポートフォリオのアクティブ化を解除]**」をクリックします。
+1. ポートフォリオ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-icon.png) をクリックし、**[!UICONTROL Portfolioのアクティベートを解除]** をクリックします。
 
 ## ポートフォリオの削除
 
 {{step1-click-main-menu}}
 
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
-1. ポートフォリオを選択し、****[!UICONTROL 削除]アイコン ![](assets/delete.png) をクリックします。
+1. ポートフォリオを選択し、「**[!UICONTROL 削除]**&#x200B;[!UICONTROL  削除 ] アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 1. **[!UICONTROL はい、削除します]** をクリックして確認します。

@@ -1,14 +1,14 @@
 ---
-title: Portfolio管理の概要
+title: Portfolioの管理の概要
 product-area: portfolios
 navigation-topic: portfolios-overview
 description: ポートフォリオまたはプロジェクトポートフォリオ管理（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストに優先順位を付けて管理するプロセスです。ポートフォリオとは、共通のビジネス目標を持つプロジェクトの集まりです。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '650'
 ht-degree: 86%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 86%
 
 ## プロジェクトポートフォリオ管理（PPM）の概要
 
-PortfolioまたはプロジェクトPortfolio管理（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストを優先順位付けして管理するプロセスです。
+Portfolioまたはプロジェクト Portfolio マネジメント（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストを優先順位付けして管理するプロセスです。
 
 この記事では、ポートフォリオ管理の一般的な概念について説明します。 Adobe Workfrontでのポートフォリオの管理に関する一般的な情報については、[Adobe WorkfrontでのPortfolioの概要 ](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-overview.md) を参照してください。
 
@@ -44,7 +44,7 @@ PortfolioまたはプロジェクトPortfolio管理（PPM）は、特定のビ�
 
 次の図は、[!DNL Workfront] の PPM プロセスの概要を示しています。
 
-![](assets/project-portfolio-management-process-diagram.png)
+![ プロジェクトポートフォリオ管理プロセス ](assets/project-portfolio-management-process-diagram.png)
 
 * [プロジェクト要求](#project-request)
 * [プロジェクトのレビュー](#project-review)
@@ -63,7 +63,7 @@ PortfolioまたはプロジェクトPortfolio管理（PPM）は、特定のビ�
 
 プロジェクト要求を送信すると、ポートフォリオマネージャーまたはエグゼクティブチームがそのリクエストをレビューし、プロジェクトを承認するかどうかを決定します。プロジェクトが承認されると、そのプロジェクトは会社のプロジェクトポートフォリオに選択されます。
 
-ポートフォリオの詳細については、[ のPortfolioの概要  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) を参照してください。 ビジネスケースの承認について詳しくは、[ ビジネスケースの承認 ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) を参照してください。
+ポートフォリオについて詳しくは、[ のPortfolioの概要  [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) を参照してください。 ビジネスケースの承認について詳しくは、[ ビジネスケースの承認 ](../../../manage-work/projects/define-a-business-case/approve-business-case.md) を参照してください。
 
 ### ポートフォリオの最適化 {#portfolio-optimization}
 

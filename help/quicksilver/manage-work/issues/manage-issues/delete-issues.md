@@ -6,10 +6,10 @@ description: 適切なアクセス権や権限を持っている場合は、Adob
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 100%
+source-wordcount: '735'
+ht-degree: 97%
 
 ---
 
@@ -110,7 +110,7 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
 1. 「**プロジェクト**」をクリックします。
 1. 削除するイシューを含むプロジェクト名をクリックします。
 1. 左側のパネルで「**イシュー**」をクリックします。
-1. イシューを選択し、リストの上部で&#x200B;**削除**&#x200B;アイコン ![](assets/delete.png) をクリックします。
+1. イシューを選択し、リストの上部にある **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 
 1. 削除が許可されている場合は、「**はい、削除します**」をクリックします。\
    時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
@@ -123,12 +123,12 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
 1. 削除するイシューを含むプロジェクト名をクリックします。
 1. 左側のパネルで「**イシュー**」をクリックします。
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![ イシューアイコン ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. 削除するイシューの名前をクリックします。
 1. イシュー名の右側にある&#x200B;**その他**&#x200B;メニューをクリックします。
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![ 問題の詳細メニュー ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 「**イシューを削除**」をクリックします。
 1. 削除が許可されている場合は、「**はい、削除します**」をクリックします。

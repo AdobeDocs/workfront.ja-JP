@@ -6,10 +6,10 @@ description: タスクリストのガントチャートには、プロジェク�
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 100%
+source-wordcount: '1041'
+ht-degree: 98%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 100%
 1. 変更するプロジェクトに移動します。
 1. 左パネルの「**[!UICONTROL タスク]**」をクリックします。
 
-   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![ タスクエリア ](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. **[!UICONTROL ガントチャート]**&#x200B;アイコンをクリックします。
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ 手動設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. タスクのタイムラインにポインタを合わせて、タイムラインインジケーターを別の日付までドラッグします。
 1. タスクの正しい新しい完了日で、インジケーターをドロップします。
@@ -103,7 +103,7 @@ ht-degree: 100%
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ 手動設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. 先行タスク関係を作成するには、タスクの開始点をクリックし、タスクの終了点までドラッグします。
 1. 先行タスク関係を削除するには、2 つのタスクを接続する先行タスクラインをクリックして選択し、キーボードの **[!UICONTROL Delete]** キーを押します。\
@@ -135,7 +135,7 @@ ht-degree: 100%
 
 1. （オプション）**[!UICONTROL 計画モード]**&#x200B;アイコンをクリックし、「手動保存」オプションの「**[!UICONTROL 標準]**」または「**[!UICONTROL タイムラインの計画]**」を選択して、変更を手動で保存します。
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![ 手動設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. タスクの中央にポインタを合わせ、多方向矢印を見つけます。
 1. タスクをクリックし、目的の日付までドラッグします。

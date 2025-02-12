@@ -6,10 +6,10 @@ description: プログラムとは、プロジェクトの境界を越えて共�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 81%
+source-wordcount: '1230'
+ht-degree: 80%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 81%
 
 ポートフォリオが大きくなりすぎたとき、ポートフォリオを整理するためのプログラムを作成できます。
 
-例えば、マーケティング部門のすべてのプロジェクトを含んだ 2024 年度のマーケティングPortfolioを作成できます。 プロジェクトをさらに会計四半期に整理し、「マーケティング会計年度 2024」Portfolio内に「マーケティング会計四半期 1-4 2024」プログラムを追加することを検討してください。
+例えば、マーケティング部門のすべてのプロジェクトを含んだ 2024 年度のマーケティングPortfolioを作成できます。 プロジェクトをさらに会計四半期に整理し、マーケティング会計年度 2024 Portfolio内にマーケティング会計四半期 1～4 2024 プログラムを追加することを検討してください。
 
 ## アクセス要件
 
@@ -146,7 +146,7 @@ Workfrontでプログラムを作成するには、次のいずれかの方法�
    プログラムへのプロジェクトの追加については、[プログラムへのプロジェクトの追加](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)を参照してください。
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
-1. （オプション）プログラム名の横にある&#x200B;**[!UICONTROL その他のメニュー]**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、「**[!UICONTROL プログラムのアクティブ化を解除]**」をクリックします。
+1. （オプション）プログラム名の横にある **[!UICONTROL その他メニュー]**![ その他メニュー ](assets/more-icon.png) をクリックし、**[!UICONTROL プログラムのアクティベートを解除]** をクリックします。
 
    プログラムのアクティブ化を解除した場合は、そのプログラムをユーザーがプロジェクトに追加しようとしても、プログラムはプログラムリストに表示されなくなります。[!UICONTROL プログラム]エリアからは、このプログラムに引き続きアクセスできます。
 

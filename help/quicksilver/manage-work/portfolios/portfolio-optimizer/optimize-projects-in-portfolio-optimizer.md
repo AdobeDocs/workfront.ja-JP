@@ -6,9 +6,9 @@ description: '[!UICONTROL ポートフォリオオプティマイザー]を使�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 85%
 
 ---
@@ -61,7 +61,7 @@ ht-degree: 85%
 
 1. **[!UICONTROL 最適化]**&#x200B;アイコンをクリックします。
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)
+   ![ 最適化アイコン ](assets/optimize-icon-portfolio-optimizer.png)
 
    プロジェクトのスコア付けに使用できるカテゴリが、[!UICONTROL 最適化]アイコンの左側に表示されます。
 

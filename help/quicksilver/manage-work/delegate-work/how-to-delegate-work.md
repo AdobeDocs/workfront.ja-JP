@@ -6,10 +6,10 @@ description: 不在時に割り当てられた作業を、一時的にデリゲ�
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 81%
+source-wordcount: '1547'
+ht-degree: 79%
 
 ---
 
@@ -111,7 +111,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 1. [!UICONTROL **マイ作業**]、[!UICONTROL **マイタスク**] または [!UICONTROL **マイイシュー[!UICONTROL ** ウィジェットの左上隅にある **]委任**] をクリックします。
 
-   ![](assets/delegate-button-on-my-work-widget.png)
+   ![ 委任ボタン ](assets/delegate-button-on-my-work-widget.png)
 
 1. 次を更新します。
 
@@ -133,7 +133,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      >
      >「終了日」フィールドを空のままにし、「終了日なし」オプションを選択していない場合、デリゲーションは現在の日に対してのみ設定されます。
 
-     ![](assets/delegate-box-expanded-in-home.png)
+     ![ 展開された代理ボックス ](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. 「[!UICONTROL **保存**]」をクリックします。
@@ -158,7 +158,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
       </MadCap:conditionalText>
       -->
 
-     ![](assets/edit-delegation-button-on-my-work-widget.png)
+     ![ デリゲーションを編集ボタン ](assets/edit-delegation-button-on-my-work-widget.png)
 
    * イベント通知と個人通知が有効になっている場合は、デリゲーションの確認メールも送信されます。
 
@@ -179,7 +179,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    >
    >    デリゲーションが既に開始している場合は、デリゲーションの「終了日」のみを編集できます。
 
-   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![ 委任を停止ボタン ](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. （条件付き）「[!UICONTROL **保存**]」をクリックして新しいデリゲーション日を保存します
 
@@ -213,11 +213,11 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
   タスクまたはイシューのヘッダーの「[!UICONTROL 割り当て]」フィールドが、「[!UICONTROL 割り当てとデリゲーション]」に変更されます。
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![ タスクヘッダーの割り当てと委任パネル ](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * タスクまたはイシューを手動で割り当てる際の[!UICONTROL ワークロードバランサー]
 
-  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![ バランサーの割り当てと委任パネル ](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    * [!UICONTROL **自分にデリゲート済み**]：別のユーザーが自分にデリゲートしたタスクとイシューを表示します。
    * [!UICONTROL **自分がデリゲート済み**]：自分が他のユーザーにデリゲートしたタスクとイシューを表示します。
 
-     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
+     ![ 委任されたタスクと問題フィルター ](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. （オプション） [!UICONTROL **並べ替え**] ドロップダウンメニューをクリックして、次の条件でリストを並べ替えます。
    * [!UICONTROL  期限 ]. これはデフォルトの並べ替えオプションです。

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1412'
-ht-degree: 91%
+source-wordcount: '1419'
+ht-degree: 88%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 91%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>イシューに対する権限の管理</p> <p> 1 つのイシューを割り当てる際に、イシューが存在するプロジェクトまたはタスクへの権限以上を表示する</p><p>複数のイシューを割り当てる場合、イシューが存在するプロジェクトまたはタスクに対するContribute以上の権限。</p> </td> 
+   <td> <p>イシューに対する権限の管理</p> <p> 1 つのイシューを割り当てる際に、イシューが存在するプロジェクトまたはタスクへの権限以上を表示する</p><p>複数のイシューを割り当てる場合は、イシューが存在するプロジェクトまたはタスクに対する権限以上を投稿します。</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +166,7 @@ ht-degree: 91%
 
    * 「**割り当て先**」または「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザーの名前の入力を開始し、リストに表示されたらクリックします。
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![ 割り当て先フィールド ](assets/assigned-to-field-task-list-nwe.png)
 
    * 「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、またはアクティブなチームの名前の入力を開始し、リストに表示されたらクリックします。
 
@@ -178,10 +178,10 @@ ht-degree: 91%
    >
    >ユーザーを追加したときに表示するには、少なくとも 1 つの担当業務に関連付ける必要があります。
    >
-   >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権を付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
+   >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
 
-1. （条件付き）「割り当て」フィールドに表示されている場合、「割り当て」ボックスの右上隅にある&#x200B;**ユーザー** ![](assets/teams.png) アイコンをクリックして、「高度な割り当て」ボックスを開き、高度な割り当てを作成します。詳しくは、[高度な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
+1. （条件付き）「割り当て」フィールドに表示されている場合は、「割り当て」ボックスの右上隅にある **人物アイコン**![ 人物アイコン ](assets/teams.png) をクリックして、「詳細な割り当て」ボックスを開き、詳細な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ ht-degree: 91%
 
 1. 一括で割り当てるイシューのリストに移動します。
 1. リストから複数のイシューを選択します。
-1. **編集アイコン** ![](assets/qs-edit-icon.png) をクリックします。
+1. **編集アイコン**![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
 
    **問題を編集**&#x200B;ダイアログボックスが開きます。
 

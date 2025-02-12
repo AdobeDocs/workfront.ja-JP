@@ -7,14 +7,14 @@ description: ポートフォリオオプティマイザーのスコアは、ポ�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 96%
+source-wordcount: '737'
+ht-degree: 94%
 
 ---
 
-# [!UICONTROL Portfolioオプティマイザー ] スコアの概要
+# [!UICONTROL Portfolio Optimizer] スコアの概要
 
 <!--Audited: 01/2025-->
 
@@ -32,9 +32,9 @@ ht-degree: 96%
 
 プロジェクトの整合性スコアは、[!UICONTROL ポートフォリオオプティマイザー]の&#x200B;**[!UICONTROL 整合性]**&#x200B;列、または[!UICONTROL ビジネスケースの概要]の「[!UICONTROL 整合性]」フィールドに表示されます。
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![ ビジネスケースの概要 ](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![ プロジェクトの整合性スコア ](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 プロジェクトの整合性スコアを生成する方法について詳しくは、[プロジェクトへのスコアカードの適用と整合性スコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)の記事を参照してください。
 
@@ -44,7 +44,7 @@ ht-degree: 96%
 >
 >[!UICONTROL ポートフォリオオプティマイザー]でプロジェクトをスコアリングできるのは、ビジネスケースが完了した場合だけです。ビジネスケースの完了について詳しくは、プロジェクトの[[!UICONTROL ビジネスケースの作成]](../../../manage-work/projects/define-a-business-case/create-business-case.md)の記事を参照してください。
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![ プロジェクトスコア ](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 各プロジェクトのスコアは、次のカテゴリの重要度に基づいて計算されます。
 
@@ -87,7 +87,7 @@ ht-degree: 96%
 * [!UICONTROL 危険と便益]
 * [!UICONTROL ROI]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![ スライドの値のオプション ](assets/optimizer-sliding-value-options-350x77.png)
 
 ポートフォリオ内のプロジェクトを最適化する方法について詳しくは、[[!UICONTROL ポートフォリオオプティマイザー]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)でのプロジェクトの最適化を参照してください。
 

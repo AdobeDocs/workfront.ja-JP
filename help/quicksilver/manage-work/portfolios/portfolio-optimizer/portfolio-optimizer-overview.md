@@ -7,9 +7,9 @@ description: '[!UICONTROL ポートフォリオオプティマイザー]は、�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1649'
+source-wordcount: '1657'
 ht-degree: 98%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 98%
 
 [!UICONTROL ポートフォリオオプティマイザー]は、プロジェクトの評価と比較に使用されるツールです。ポートフォリオに割り当てられたプロジェクトの[!UICONTROL ビジネスケース]の価値のレビューと比較のプロセスは、ポートフォリオマネージャーがプロジェクトに優先順位を付け、組織に最も多くの価値を生み出すことができる方法です。
 
-![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+![Portfolio Optimizer とプロジェクト ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 [!UICONTROL ポートフォリオオプティマイザー]の目的は、ポートフォリオマネージャー、運営委員会または製品管理オフィスが、各プロジェクトのビジネスケースに関する概要情報を表示できるインターフェイスを提供することです。その後、プロジェクトを戦略的な価値観や目標または全体的なスコアに従って優先順位付けできます。
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 
 #### ポートフォリオヘッダー {#portfolio-header}
 
-![](assets/portfolio-header-nwe-350x14.png)
+![Portfolio ヘッダー ](assets/portfolio-header-nwe-350x14.png)
 
 [!DNL Adobe Workfront] は、ポートフォリオヘッダーの財務情報フィールドを、[!UICONTROL 承認済み]または[!UICONTROL 現在]のステータスのプロジェクトからの情報を使用して計算します。
 
@@ -101,7 +101,7 @@ ht-degree: 98%
 
 #### 選択したプロジェクトのポートフォリオ財務情報 {#portfolio-finances-for-selected-projects}
 
-![](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
+![Portfolioの財務 ](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
 <table style="table-layout:auto"> 
  <col> 

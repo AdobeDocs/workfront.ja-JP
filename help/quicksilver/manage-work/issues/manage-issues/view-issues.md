@@ -6,10 +6,10 @@ description: プロジェクト、タスクまたはイテレーションに関�
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 100%
+source-wordcount: '1038'
+ht-degree: 98%
 
 ---
 
@@ -142,7 +142,7 @@ ht-degree: 100%
 
 プロジェクトにイシューがあるかどうかを表示するアイコンをプロジェクトレポートに追加するには、次の手順を実行します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
 1. **レポート**／**新しいレポート**／**プロジェクトレポート**&#x200B;をクリックします。
 1. 「**この列に表示**」フィールドに、**ステータスアイコン**&#x200B;の入力を開始し、リストに表示されたらそれを選択します。
 

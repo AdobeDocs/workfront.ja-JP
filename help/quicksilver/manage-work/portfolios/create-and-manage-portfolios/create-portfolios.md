@@ -6,10 +6,10 @@ description: ポートフォリオとは、同じリソース、予算および�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 79%
+source-wordcount: '671'
+ht-degree: 78%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 79%
 
 Workfrontでポートフォリオを作成するには、次のいずれかの方法を使用します。
 
-* メインメニューのポートフォリオ領域からゼロからPortfolioを作成します。 この記事では、ポートフォリオをゼロから作成する方法について説明します。
+* メインメニューの「ポートフォリオ」領域から開始して、ポートフォリオを最初から作成します。 この記事では、ポートフォリオをゼロから作成する方法について説明します。
 
 * キックスタートを使用したポートフォリオの読み込み。
 
@@ -86,7 +86,7 @@ Workfrontでポートフォリオを作成するには、次のいずれかの�
 
 1. （オプション）ページ上部のヘッダーの&#x200B;**[!UICONTROL ポートフォリオマネージャー]**&#x200B;の下にある名前をクリックして、ポートフォリオに別のマネージャーを割り当てます。
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![Portfolioマネージャー名 ](assets/portfolio-manager-name-350x51.jpg)
 
    ポートフォリオの作成者は、デフォルトでポートフォリオマネージャーとして割り当てられます。
 

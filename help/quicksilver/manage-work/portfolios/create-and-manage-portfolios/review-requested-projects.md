@@ -6,10 +6,10 @@ description: プロジェクトのリクエストは、Adobe Workfront でステ
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 95%
+source-wordcount: '438'
+ht-degree: 94%
 
 ---
 
@@ -99,7 +99,7 @@ ht-degree: 95%
 
    * **[!UICONTROL ステータス]**&#x200B;ドロップダウンメニューで、プロジェクトのステータスを他のステータスに変更します。
 
-     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![ ドロップダウンからのプロジェクトステータスの変更 ](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

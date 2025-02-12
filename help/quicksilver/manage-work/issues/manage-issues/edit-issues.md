@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
-ht-degree: 97%
+source-wordcount: '2551'
+ht-degree: 94%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 97%
 1. （オプション）「**タスク**」をクリックし、タスクの名前をクリックして、タスクを開きます。
 1. 左側のパネルで「**イシュー**」をクリックします。
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![ イシューアイコン ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. （オプション）イシューに関する限定的な情報を編集するには、左側のパネルで「**イシューの詳細**」をクリックします。
 
@@ -85,9 +85,9 @@ ht-degree: 97%
    「詳細」セクションの情報を編集するには、次の手順を実行します。
 
    1. （オプション）すべてのエリアを折りたたむには、右上隅の&#x200B;**すべて折りたたむ**&#x200B;アイコンをクリックします。
-   1. （オプションおよび条件付き）領域が折りたたまれている場合、各領域の横にある&#x200B;**右矢印** ![](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![ 右向き矢印 ](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
    1. （オプション）カスタムフォームを添付するには、**カスタムフォームを追加**&#x200B;フィールドにフォーム名を入力し、リストに表示されたフォームを選択して、「**変更を保存**」をクリックします。
-   1. （オプション）概要およびカスタムフォームの情報を PDF ファイルに書き出すには、**書き出し**&#x200B;アイコン ![](assets/export.png) をクリックし、「**書き出し**」をクリックします。次の中から選択します。
+   1. （オプション） **書き出し** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックして、概要とカスタムフォーム情報をPDF ファイルに書き出し、「**書き出し**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * 概要
@@ -95,7 +95,7 @@ ht-degree: 97%
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![ 問題の詳細をエクスポート ](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       詳しくは、[カスタムフォームとオブジェクトの詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
@@ -134,7 +134,7 @@ ht-degree: 97%
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**イシュー名**」をクリックします。
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![ イシュー名セクション ](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. 「**イシュー名**」フィールドを更新します。
 1. 「**保存**」をクリックするか、以降のセクションの編集を続けます。
@@ -144,7 +144,7 @@ ht-degree: 97%
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**概要**」をクリックします。
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![ イシューの概要セクション ](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. 以下の表のフィールドを更新または確認します。
 
@@ -271,7 +271,7 @@ ht-degree: 97%
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 左側のパネルで「**割り当て**」をクリックします。
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![ イシューの割り当てセクション ](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. 「**ユーザー、役割、チームを検索**」をクリックして、タスクに割り当てるユーザー、役割、またはチームの名前の入力を開始し、リストに表示されたらクリックするか Enter キーを押します。
 
@@ -322,7 +322,7 @@ ht-degree: 97%
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**カスタムフォーム**」をクリックします。
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![ カスタムフォームセクションの公開 ](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
 1. 「**カスタムフォームを追加**」フィールドで、イシューに関連付けるカスタムフォームを選択します。このフィールドでカスタムフォームを選択できるようにするには、まずカスタムフォームを作成する必要があります。アクティブなカスタムフォームのみがリストに表示されます。カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。 1 つのイシューには、最大 10 個のカスタムフォームを追加できます。
 
@@ -339,7 +339,7 @@ ht-degree: 97%
 1. 上記の説明に従って、イシューの編集を開始します。
 1. 「**設定**」をクリックします。
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![ 問題設定アイコン ](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    次の情報を更新します。
 
@@ -383,7 +383,7 @@ ht-degree: 97%
 
 システム管理者またはグループ管理者は、イシューヘッダーに表示されるフィールドをカスタマイズできます。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
-![](assets/issue-header-350x19.png)
+![ 問題ヘッダー ](assets/issue-header-350x19.png)
 
 デフォルトでは、次のフィールドがイシューヘッダーに含まれています。
 

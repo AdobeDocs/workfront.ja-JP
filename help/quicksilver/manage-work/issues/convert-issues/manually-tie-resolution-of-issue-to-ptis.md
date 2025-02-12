@@ -6,10 +6,10 @@ description: イシューを変換せずに、イシューの解決策をプロ�
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 100%
+source-wordcount: '559'
+ht-degree: 99%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 1. 解決策を別のイシューの解決策またはタスクやプロジェクトの解決策に結び付けるイシューに移動します。
 1. 左パネルで「**問題の詳細**」をクリックしてから、**概要**&#x200B;エリアを展開します。
 
-   ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![ 問題の詳細アイコン ](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. 「**解決者**」フィールドをクリックし、次の解決オブジェクトのタイプから選択します。
 

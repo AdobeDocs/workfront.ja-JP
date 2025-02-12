@@ -6,10 +6,10 @@ description: イシューの優先度を定義して、イシューの重要度�
 author: Alina
 feature: Work Management
 exl-id: eff5c9e8-1908-4654-9629-e20c0ce2a225
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '371'
+ht-degree: 99%
 
 ---
 
@@ -103,7 +103,7 @@ Adobe Workfront の管理者は、Workfront 内で優先度ラベルを変更し
 
 1. **基本情報**&#x200B;エリアの「**優先度**」フィールドをクリックします。
 
-   ![](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
+   ![ 問題の優先度 ](assets/nwe-issue-priority-field-in-details-highlighted-350x126.png)
 
 1. 「**優先度**」フィールドの値を選択します。
 

@@ -7,10 +7,10 @@ description: 解決可能オブジェクトとは、解決策が解決オブジ�
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
-ht-degree: 94%
+source-wordcount: '1788'
+ht-degree: 93%
 
 ---
 
@@ -79,10 +79,10 @@ Workfront 管理者またはグループ管理者がシステムレベルまた�
 次のシナリオが存在します。
 
 * Workfront 管理者またはグループ管理者が「**元のイシューを保持し、その解決策をタスクに結び付ける**」および「**元のイシューを保持し、その解決策をプロジェクトに結び付ける**」を選択していて、「**変換中にこれらの設定を変更できるようにする**」が未選択の場合は、イシューをタスクやプロジェクトに変換する際に、これらの設定を変更することはできません。\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![ プロジェクト環境設定のイシュー領域 ](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Workfront 管理者またはグループ管理者が「**元のイシューを保持し、その解決策をタスクに結び付ける**」および「**元のイシューを保持し、その解決策をプロジェクトに結び付ける**」を選択または選択解除していて、「**変換中にこれらの設定を変更できるようにする**」を選択していると、イシューをタスクやプロジェクトに変換する際に、これらの設定を変更できます。\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![ イシューを保持するオプション ](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 イシューのタスクやプロジェクトへの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
@@ -202,7 +202,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 イシューの一覧で、**ステータスアイコン**&#x200B;列または&#x200B;**フラグ**&#x200B;列でステータスアイコンを見つけることで、解決オブジェクトとしてラベル付けされているイシューをこのアイコンで特定できます。
 
-![](assets/ro1.png)
+![ 解決中のオブジェクト ](assets/ro1.png)
 
 ## レポートでの解決可能オブジェクトおよび解決オブジェクト情報の表示
 

@@ -6,10 +6,10 @@ description: 自分が作成したポートフォリオに関する情報を編�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1009'
-ht-degree: 90%
+source-wordcount: '1029'
+ht-degree: 81%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 90%
    <td> <p>任意</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe[!DNL Workfront] ライセンス*</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] ライセンス*</td> 
    <td> <p>新規：標準</p>
    <p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
@@ -59,7 +59,7 @@ ht-degree: 90%
 1. ポートフォリオの名前をクリックして開きます。
 1. （オプション）ポートフォリオに関する限定的な情報を編集するには、左側のパネルで&#x200B;**[!UICONTROL ポートフォリオの詳細]**&#x200B;をクリックします。
 
-   ![](assets/portfolio-details-tab-nwe-350x163.png)
+   ![Portfolioの「詳細」タブ ](assets/portfolio-details-tab-nwe-350x163.png)
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the note below will also be true for Edit Portfolio box)</p>
@@ -72,10 +72,10 @@ ht-degree: 90%
    「[!UICONTROL 詳細]」セクションの情報を編集するには、以下を行います。
 
    1. （オプション）右上隅の&#x200B;**[!UICONTROL すべて折りたたむ]**&#x200B;アイコンをクリックして、すべてのエリアを折りたたみます。
-   1. （オプションおよび条件付き）エリアが折りたたまれている場合、各エリアの横にある&#x200B;**右向き矢印** ![](assets/right-pointing-arrow.png) をクリックして、編集するエリアを展開します。
+   1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![ 右向き矢印 ](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
    1. [!UICONTROL ポートフォリオの詳細]セクションに表示されるフィールドについて詳しくは、次に説明するように、「[!UICONTROL ポートフォリオを編集]」ボックスでポートフォリオの編集を続けます。
    1. （オプション）ポートフォリオにカスタムフォームが添付されていない場合は、**[!UICONTROL カスタムフォームの追加]**&#x200B;フィールドに値を入力を開始し、リストに表示されたらフォームを選択して、「**[!UICONTROL 変更を保存]**」をクリックします。
-   1. （オプション）[!UICONTROL 概要]とカスタムフォームの情報を PDF ファイルに書き出すには、「**[!UICONTROL 書き出し]**」アイコン ![](assets/export.png)、**[!UICONTROL 書き出し]**&#x200B;の順にクリックします。次の中から選択します。
+   1. （オプション） **[!UICONTROL 書き出し]** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックして、[!UICONTROL  概要 ] とカスタムフォームの情報をPDF ファイルに書き出し、「**[!UICONTROL 書き出し]**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * 概要
@@ -83,7 +83,7 @@ ht-degree: 90%
 
       PDF ファイルがお使いのコンピューターにダウンロードされます。
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![ ポートフォリオ詳細のエクスポート ](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       詳しくは、[カスタムフォームとオブジェクトの詳細の書き出し](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)を参照してください。
 
@@ -100,14 +100,14 @@ ht-degree: 90%
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will change in NWE with a new Edit Portfolio UI)</p>   
      -->
 
-   * ポートフォリオのリストに移動し、編集する 1 つ以上のポートフォリオを選択して、リストの上部にある「**[!UICONTROL 編集]**」アイコン ![](assets/edit-icon.png) をクリックします。
+   * ポートフォリオの一覧に移動し、編集する 1 つ以上のポートフォリオを選択して、一覧の上部にある **[!UICONTROL 編集]** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
      <!--   
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this will need to split into another section when they release the new [!UICONTROL Edit Portfolio] UI)</p>   
      -->
    **[!UICONTROL ポートフォリオを編集]**&#x200B;ダイアログボックスが表示されます。
 
-   ![](assets/edit-portfolio-box-classic-350x224.png)
+   ![ ポートフォリオを編集ボックス ](assets/edit-portfolio-box-classic-350x224.png)
 
    すべてのポートフォリオフィールドは、[!UICONTROL ポートフォリオを編集]ボックスで使用でき、左のパネルに表示されたエリアでグループ化されます。
 
@@ -184,7 +184,7 @@ ht-degree: 90%
 1. 上記の説明に従って、ポートフォリオの編集を開始します。
 1. 「**[!UICONTROL コメント]**」をクリックします。
 
-   ![](assets/comment-box-edit-portfolio-classic-350x227.png)
+   ![ ポートフォリオ コメント ボックスの編集 ](assets/comment-box-edit-portfolio-classic-350x227.png)
 
 1. 「**[!UICONTROL ポートフォリオに更新を投稿]**」フィールドにコメントを追加します。
 1. （オプション）**[!UICONTROL ユーザー]**&#x200B;アイコンをクリックして、コメントにユーザーまたはチームを追加します。

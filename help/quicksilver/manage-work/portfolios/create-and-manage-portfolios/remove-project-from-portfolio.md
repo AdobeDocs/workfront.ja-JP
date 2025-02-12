@@ -6,10 +6,10 @@ description: プロジェクトをポートフォリオから削除して別の�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 8982097e-76ee-497a-aa7c-74c6fbd3002d
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 79%
+source-wordcount: '230'
+ht-degree: 78%
 
 ---
 
@@ -59,7 +59,7 @@ ht-degree: 79%
 1. ポートフォリオに移動し、左パネルの「**[!UICONTROL プロジェクト]**」をクリックします。
 1. 削除するプロジェクトを選択します。 
 
-   ![](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![ プロジェクトを削除ボタン ](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. 「**[!UICONTROL プロジェクトの削除]**」をクリックします。
 1. 「**[!UICONTROL 削除]**」をクリックしてプロジェクトを [!DNL Workfront] から削除するか、「**[!UICONTROL ポートフォリオから]****[!UICONTROL 削除する]**」をクリックして、選択したポートフォリオから削除します。

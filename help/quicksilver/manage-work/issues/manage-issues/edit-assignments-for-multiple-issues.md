@@ -6,10 +6,10 @@ description: リスト内の複数のイシューに対するユーザー割り�
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 89%
+source-wordcount: '751'
+ht-degree: 87%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 89%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>イシューに対する権限の管理</p> <p>複数のイシューを割り当てる場合、イシューが存在するプロジェクトまたはタスクに対するContribute以上の権限。</p>  </td> 
+   <td> <p>イシューに対する権限の管理</p> <p>複数のイシューを割り当てる場合は、イシューが存在するプロジェクトまたはタスクに対する権限以上を投稿します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,13 +102,13 @@ ht-degree: 89%
    1. フィルタリングするユーザーまたは役割の名前を入力していき、名前がドロップダウンリストに表示されたら、それをクリックします。
    1. 「**フィルターの保存**」をクリックします。
 
-1. 割り当てを変更するイシューを選択し、**編集**&#x200B;アイコン ![](assets/qs-edit-icon.png) をクリックします。
+1. 割り当てを変更するイシューを選択して、**編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
 
    **イシューの編集**&#x200B;が表示されます。編集している項目は、ページの左上隅に表示されます。
 
 1. 「**割り当て**」セクションに移動して、「**割り当て先**」を選択します。
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![ 割り当てエリア ](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. 次のいずれかの操作を行います。
 

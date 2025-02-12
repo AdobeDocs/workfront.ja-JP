@@ -6,10 +6,10 @@ description: プロジェクトの開始時に、プロジェクトをポート�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 93%
+source-wordcount: '381'
+ht-degree: 91%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>[!UICONTROL 編集 ] アクセスPortfolio</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td> <p>[!UICONTROL 編集 ] ポートフォリオへのアクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -61,7 +61,7 @@ ht-degree: 93%
 
 1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![ プロジェクトのPortfolio](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 「**[!UICONTROL 新規プロジェクト]**」をクリックして、プロジェクトを追加する方法を選択します。
 
@@ -98,11 +98,11 @@ ht-degree: 93%
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![ 新規プロジェクトドロップダウン ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （条件付き）既存のプロジェクトを追加する場合は、「**[!UICONTROL プロジェクトを追加]**」ボックスにプロジェクトの名前を入力して、リストに表示されるプロジェクトをクリックします。一度に複数のプロジェクトを追加できます。
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![ 既存のプロジェクトを追加 ](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. 「**[!UICONTROL プロジェクトを追加]**」をクリックします。
 

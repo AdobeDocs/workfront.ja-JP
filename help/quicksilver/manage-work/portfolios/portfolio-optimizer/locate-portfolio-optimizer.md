@@ -6,10 +6,10 @@ description: '[!UICONTROL ポートフォリオオプティマイザー]は、�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '141'
-ht-degree: 86%
+source-wordcount: '143'
+ht-degree: 85%
 
 ---
 
@@ -63,4 +63,4 @@ ht-degree: 86%
 
    [!UICONTROL ポートフォリオオプティマイザー]が表示されます。
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Portfolio最適化 ](assets/nwe-portfolio-optimizer-350x83.png)
