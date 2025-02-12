@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 88%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->ここで説明する手順は、まだAdobeBusiness Platform にオンボーディングされていない組織にのみ適用されます。 Adobeビジネスプラットフォームにオンボーディングされた場合は、Adobe Admin Consoleでユーザーを削除する必要があります。
+>ここで説明する手順は、Adobe Business Platform にまだオンボーディングされていない組織にのみ適用されます。 Adobe Business Platform にオンボーディング済みの場合は、Adobe Admin Consoleでユーザーを削除する必要があります。
 >
 >組織が Adobe Business Platform に登録されているかどうかによって異なる手順のリストについては、[プラットフォームによる管理の違い（Adobe Workfront Fusion／Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
@@ -43,7 +43,7 @@ ht-degree: 88%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、以下を保有している必要があります。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '6492'
+source-wordcount: '6493'
 ht-degree: 76%
 
 ---
@@ -23,7 +23,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、以下を保有している必要があります。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -943,7 +943,7 @@ Adobe XD ファイルを追加するには、以下のように行います。
 >
 >* 新しいWorkfront プランおよびライセンス。 Workfront Planning は、従来のWorkfront プランまたはライセンスでは利用できません。
 >* Workfront Planning 用の追加パッケージです。
->* 組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。
+>* 組織のWorkfront インスタンスは、Adobe Unified Experience にオンボーディングされる必要があります。
 >
 > Workfront Planning へのアクセス要件の完全な一覧については、[Adobe Workfront Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
@@ -987,7 +987,7 @@ Planning 接続フィールドを追加する手順は、次のとおりです�
       次のオブジェクトタイプから選択できます。
       <ul><li> プロジェクト</li>
       <li> ポートフォリオ</li><li> プログラム</li><li> 会社</li><li> グループ</li></ul>
-       <p>フォームのオブジェクトタイプ用のWorkfront オブジェクトタイプのみを使用できます。</p> <p> たとえば、フォーム デザイナの上部にある [ オブジェクトの種類 ] ボックスの一覧に [ プロジェクト ] と表示されている場合は、このフィールドで [ プロジェクト ] しか選択できず、Portfolioを選択することもできませんが、ポートフォリオをレコードの種類に接続することもできます。</p>
+       <p>フォームのオブジェクトタイプ用のWorkfront オブジェクトタイプのみを使用できます。</p> <p> 例えば、フォームデザイナーの上部にある「オブジェクトタイプ」リストに「プロジェクト」と表示されている場合は、このフィールドで「プロジェクト」しか選択できず、ポートフォリオを選択できませんが、ポートフォリオはレコードタイプに接続できます。</p>
       </td>
      </tr>
      <tr> 
