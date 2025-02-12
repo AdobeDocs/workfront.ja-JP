@@ -6,10 +6,10 @@ description: リソースプールは、Adobe Workfront でのリソースの管
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 92%
+source-wordcount: '630'
+ht-degree: 86%
 
 ---
 
@@ -80,14 +80,14 @@ Also - take out all the references to Preview and Prod at prod final
 
 リソースプールにプロジェクトを関連付けるのと同じ方法で、テンプレートにリソースプールを関連付けることができます。この記事では、リソースプールをプロジェクトに関連付ける方法について説明します。
 
-1. プロジェクトに移動し、プロジェクト名の横にある&#x200B;**その他**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、「**編集**」をクリックします。
+1. プロジェクトに移動して、プロジェクト名の横にある **詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、**編集** をクリックします。
 
 1. 「**プロジェクト設定**」をクリックします。
 
 1. 「**リソースプール**」フィールドでリソースプールの名前の入力を開始し、リストにその名前が表示されたら選択します。\
    1 つのプロジェクトまたはテンプレートに複数のリソースプールを関連付けることができます。
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![ プロジェクト設定 ](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. 「**保存**」をクリックします。
 
@@ -104,7 +104,7 @@ Also - take out all the references to Preview and Prod at prod final
 リソースプールを複数のプロジェクトに一括で関連付けるには：
 
 1. プロジェクトのリストに移動します。
-1. 複数のプロジェクトを選択し、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+1. 複数のプロジェクトを選択し、リスト上部の **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
 1. 「**設定**」をクリックします。
 1. 「**リソースプール**」フィールドでリソースプールの名前の入力を開始し、リストでその名前が表示されたら選択します。\

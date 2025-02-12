@@ -6,10 +6,10 @@ description: リソースプランナーを使用して、プロジェクトへ�
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 90%
+source-wordcount: '506'
+ht-degree: 89%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 90%
 
 「計画担当者」が、デフォルトで表示されます。リソースプランナーでのリソースの予算計上について詳しくは、[プロジェクトビューと役割ビューを使用したリソースプランナーでのリソースの予算計上](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md)の記事を参照してください。
 
-![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![ デフォルトでのリソースプランナー ](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. 左側のパネルで **リソースプール** をクリックします。
 リソースプールの作成について詳しくは、[リソースプールを作成](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)を参照してください。
@@ -105,6 +105,6 @@ ht-degree: 90%
    >
    >ビジネスケースの「リソース予算計上」エリアにリソースプールを追加できるのは、プロジェクトにリソースプールが関連付けられていない場合のみです。プロジェクトに既にリソースプールが存在する場合、プール内のユーザーとその担当業務が、「リソース予算計上」エリアにデフォルトで表示されます。
 
-   ![](assets/resource-budgeting-area-on-project-350x70.png)
+   ![ リソース予算計上 ](assets/resource-budgeting-area-on-project-350x70.png)
 
    1 つのプロジェクトのリソースの予算計上について詳しくは、[ビジネスケースのリソース予算計上](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。

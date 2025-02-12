@@ -6,9 +6,9 @@ description: プロジェクトは、リソースプランナー内に優先度�
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1308'
 ht-degree: 98%
 
 ---
@@ -94,7 +94,7 @@ ht-degree: 98%
 1. **リソースプランナー**&#x200B;に移動します。
 
 1. 番号を含むプロジェクト名の左側のフィールド内をクリックし、番号を入力して計画優先度を変更し、Enter キーを押します。\
-   ![](assets/mceclip4.png)\
+   ![ 計画優先度の変更 ](assets/mceclip4.png)\
    または\
    プロジェクトの名前の上にポインタを合わせ、プロジェクト名の左側のインジケーターをクリックし、プロジェクトをドラッグして正しい場所にドロップし、優先度を変更します。
 
@@ -124,7 +124,7 @@ ht-degree: 98%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Portfolioの優先度 ](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    プロジェクトのポートフォリオ優先度は、リソースプランナーのプロジェクトビューにのみ表示されます。
 
@@ -136,7 +136,7 @@ ht-degree: 98%
    1. 予定開始日
    1. プロジェクト名
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![ 並べ替えられたPortfolioの優先度 ](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. 「**保存**」をクリックします。
 

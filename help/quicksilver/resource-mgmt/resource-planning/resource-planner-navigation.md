@@ -7,10 +7,10 @@ description: Adobe Workfront リソースプランナーを使用すると、リ
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
-ht-degree: 99%
+source-wordcount: '2652'
+ht-degree: 98%
 
 ---
 
@@ -24,13 +24,13 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 リソースプランナーを完全に使用するには、必要な前提条件を満たす必要があります。リソースプランナーについて詳しくは、[リソースプランナーの概要](../../resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![リソースプランナー](assets/rp-project-view-all-functionality-350x117.png)
 
 以下の節では、リソースプランナーのすべてのエリアの概要を説明します。
 
 ## プロジェクトのタイムライン
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![ タイムラインカレンダー ](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 ## プロジェクト／役割／ユーザービューの選択
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![ プロジェクト、役割またはユーザー別に表示 ](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 情報の表示方法に応じて、リソースプランナーの表示を変更できます。
 
@@ -194,7 +194,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
    * プロジェクトを表示する権限を持っているが、プロジェクトのタスクやイシューに対する権限を持っていない場合、プロジェクト名が表示され、タスクやイシューは「**アクセス不能アイテム**」セクションに表示されます。\
      Workfront の権限について詳しくは、[オブジェクトに対する権限の共有の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![ アクセスできない項目 ](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 ## プロジェクト名
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![ プロジェクト名 ](assets/project-name-highlighted-resource-planner-350x445.png)
 
 リソースプランナーには、次のプロジェクトが表示されます。
 
@@ -232,13 +232,13 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 プロジェクトは、リソースプランナー内に優先度に従ってリストされ、最も重要なプロジェクトが最上位に表示されます。優先度は、プロジェクト名の前に数字で示されます。
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![ プロジェクト計画優先度 ](assets/rp-planner-priority-highlighted-350x186.png)
 
 ポートフォリオに関連付けられている場合には、ポートフォリオに応じてプロジェクトの優先度を表示する設定を有効にすることもできます。リソースプランナーでのプロジェクトの優先順位付けとポートフォリオ優先度の表示について詳しくは、[リソースプランナーでプロジェクトに優先順位を付ける](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)を参照してください。
 
 ## 担当業務名
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![ 担当業務名 ](assets/role-highlighted-resource-planner-350x243.png)
 
 以下のカテゴリの担当業務が、リソースプランナーにリストされます。
 
@@ -254,7 +254,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 ## ユーザー名
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![ ユーザー名 ](assets/user-highlighted-resource-planner-350x272.png)
 
 リソースプランナーのプロジェクトビューと役割ビューに表示されるユーザーは、プロジェクトに関連付けられたリソースプールに属します。\
 ユーザーのリソースプールへの入力に関して詳しくは、「[リソースプールをユーザーに関連付け](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)を参照してください。
@@ -310,11 +310,11 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 1. リソースプランナーを開きます。
 1. **設定**&#x200B;アイコンをクリックします。
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![ リソースプランナー設定アイコン ](assets/rp-settings-icon-edit-1.png)
 
    リソースプランナー設定ボックスが表示されます。
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![ リソース プランナの設定 ](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. **イシューからの時間数を含める**&#x200B;設定を有効にして、リソースプランナーのイシューからの予定時間数を表示します。この設定は、デフォルトで無効になっています。
 
@@ -348,7 +348,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 ## 書き出しオプション
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![ 書き出しボタン ](assets/export-button-highlighted-resource-planner-350x92.png)
 
 リソースプランナーの任意のビューから Excel（.xlsx）ファイルに情報を書き出すことができます。\
 リソースプランナーからの情報の書き出しについて詳しくは、[リソースプランナーからの情報の書き出し](../../resource-mgmt/resource-planning/export-resource-planner.md)を参照してください。

@@ -6,10 +6,10 @@ description: プロジェクトビューや役割ビューを使用して、Adob
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
-ht-degree: 97%
+source-wordcount: '2127'
+ht-degree: 96%
 
 ---
 
@@ -160,7 +160,7 @@ ht-degree: 97%
 
 役割ビューのリソースプランナーで予算配分を行うには、次の操作を実行します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
 
 1. 「**リソース**」をクリックします。
 1. 「**計画担当者**」がデフォルトで表示されます。
@@ -225,7 +225,7 @@ ht-degree: 97%
 
 クイックリンクを使用すると、リソースの割り当ての予算を一括で設定できます。クイックリンクは、プロジェクトビューと役割ビューでのみ使用できます。
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![ 自動予算オプション ](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

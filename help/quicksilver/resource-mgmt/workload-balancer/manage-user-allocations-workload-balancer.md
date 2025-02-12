@@ -6,10 +6,10 @@ description: リソースマネージャーとして、作業をユーザーに�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2898'
-ht-degree: 94%
+source-wordcount: '2909'
+ht-degree: 91%
 
 ---
 
@@ -191,11 +191,11 @@ ht-degree: 94%
    >
    >ユーザー割り当ては、タスクとイシューに対してのみ変更できます。プロジェクトのユーザー割り当てを変更することはできません。
 
-1. （オプション）**割り当てを表示する**&#x200B;アイコン ![](assets/show-allocations-icon-small.png) をクリックして、すべての作業アイテムの割り当てを表示します。
+1. （任意） **割り当てを表示** アイコン ![ 割り当てを表示アイコン ](assets/show-allocations-icon-small.png) をクリックして、すべての作業項目の割り当てを表示します。
 
    タスクの名前とプロジェクトの名前は、タスクまたはプロジェクトのユーザーの割り当てに置き換えられます。
 
-1. （オプション）**設定**&#x200B;アイコン ![](assets/gear-icon-settings.png) をクリックして、次のいずれかのオプションを選択します。
+1. （オプション） **設定** アイコン ![ 設定アイコン ](assets/gear-icon-settings.png) をクリックして、次のいずれかのオプションを選択します。
 
    1. **イシューの時間を含める**。タスクの割り当てに加えて、イシューの割り当ても管理できます。
    1. **完了した作業の表示**。割り当てを管理するタイムラインの期間中に既に完了し、予定されている項目が表示されます。
@@ -212,7 +212,7 @@ ht-degree: 94%
       >
       >Workfront 管理者が、設定のリソース管理エリアで、ユーザーの処理能力を計算するためにシステム全体で使用するスケジュールを決定します。詳しくは、[リソース管理の環境設定を設定](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md)を参照してください。
 
-1. 作業アイテムの&#x200B;**その他**&#x200B;メニュー ![](assets/qs-more-menu.png) をクリックして、「**割り当てを編集**」をクリックします。
+1. 作業項目の **その他** メニュー ![ その他メニュー ](assets/qs-more-menu.png) をクリックしてから、「**割り当てを編集**」をクリックします。
 
    ![作業アイテムのその他のメニュー](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,11 +222,11 @@ ht-degree: 94%
 
    割り当てボックスが編集可能になります。
 
-1. 日次、週次または月次の割り当てのボックス内をクリックして、時間数や、各日、各週または各月に割り当てる割合値を手動で更新し、**保存**&#x200B;アイコン ![](assets/checkmark-icon.png) をクリックします。
+1. 各日別、週別または月別の配分のボックス内をクリックして、ユーザーに割り当てる各日、週別または月別の時間数またはパーセンテージ値を手動で更新し、**保存** アイコン ![ 保存アイコン ](assets/checkmark-icon.png) をクリックします。
 
    >[!TIP]
    >
-   >**キャンセル**&#x200B;アイコン ![](assets/cancel-allocations-wb.png) をクリックして、調整した割り当てを削除します。
+   >**キャンセル** アイコン ![ キャンセルアイコン ](assets/cancel-allocations-wb.png) をクリックして、調整した割り当てを削除します。
 
    ![調整済の割り当てを保存またはキャンセルする](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

@@ -6,10 +6,10 @@ description: Adobe Workfront ワークロードバランサーの割り当て済
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 90%
+source-wordcount: '405'
+ht-degree: 80%
 
 ---
 
@@ -75,9 +75,9 @@ Adobe Workfront ワークロードバランサーの割り当て済み作業エ�
 1. 次のいずれかの操作を行います。
 
    * ユーザーのエリアで割り当てを解除する項目を探し、クリックして、未割り当てエリアまたは別のユーザーのエリアにドラッグ＆ドロップします。
-   * 作業アイテム名の右側にある&#x200B;**その他**&#x200B;アイコン ![](assets/more-icon-task-list.png) をクリックし、「**割り当て先**」をクリックして、作業アイテムに割り当てられたエンティティの名前を削除するか、別の名前を入力して、「**保存**」をクリックします。
+   * **その他** アイコン ![ その他のアイコン ](assets/more-icon-task-list.png) 作業項目の名前の右側にある「**割り当て先**」をクリックし、作業項目に割り当てられたエンティティの名前を削除するか、別の名前を入力して「**保存**」をクリックします。
 
-     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![ 割り当て先 ](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    項目がそのエリアのフィルタリング基準に一致し、他のユーザーに割り当てられていない場合、項目は未割り当て作業エリアに表示されます。また、別のユーザーに割り当てられている場合は、ユーザーエリアに表示されます。
 

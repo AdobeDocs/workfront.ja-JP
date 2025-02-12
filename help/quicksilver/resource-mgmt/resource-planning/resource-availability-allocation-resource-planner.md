@@ -6,10 +6,10 @@ description: リソースプランナーでは、リソースの空き時間と�
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 98%
+source-wordcount: '1243'
+ht-degree: 97%
 
 ---
 
@@ -148,7 +148,7 @@ ht-degree: 98%
 
 1. （条件付き）**カスタマイズ**&#x200B;を選択した場合、**表示される指標のカスタマイズ**&#x200B;ボックスを使用してカスタムビューを設定します。
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![ ビューボックスをカスタマイズ ](assets/planner-customize-view-box-350x114.png)
 
 1. 左側の&#x200B;**表示タイプ**&#x200B;列で、次のビューの 1 つを選択します。
 
@@ -189,7 +189,7 @@ ht-degree: 98%
    >
    >カスタマイズされたビューは 1 つだけ指定できます。
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![ プランナー時間ドロップダウン ](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## ユーザー割り当てグラフの表示
 

@@ -6,9 +6,9 @@ description: リソースプランナーの任意のビューから、お使い�
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 94%
 
 ---
@@ -74,7 +74,7 @@ ht-degree: 94%
 
    エクスポートオプションダイアログボックスが表示されます。
 
-   ![](assets/rp-export-options-box-350x421.png)
+   ![ 書き出しオプション ](assets/rp-export-options-box-350x421.png)
 
 1. 次の情報を指定します。\
    **開始日**：書き出しの開始日。書き出したファイルには、ここで指定した日を含む週の最初の日から始まる、割り当てと空き時間に関する情報が含まれます。\

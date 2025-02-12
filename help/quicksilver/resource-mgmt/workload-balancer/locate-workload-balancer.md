@@ -7,10 +7,10 @@ description: ワークロードバランサーを使用して、作業用のリ�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 3d7708e674af716657cc287c9f54a8cf56278da3
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 93%
+source-wordcount: '714'
+ht-degree: 92%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 93%
 
 1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
-   ![](assets/nwe-balancer-global.png)
+   ![ワークロードバランサー](assets/nwe-balancer-global.png)
 
    ワークロードバランサーのリソース領域には、デフォルトで以下の情報が表示されます。
 
@@ -104,7 +104,7 @@ ht-degree: 93%
 
 1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![ チームのワークロードバランサー ](assets/nwe-balancer-team-350x172.png)
 
    チームのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
@@ -124,7 +124,7 @@ ht-degree: 93%
 
    プロジェクトのワークロードバランサーが表示されます。
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![ プロジェクトのワークロードバランサー ](assets/nwe-balancer-project-350x152.png)
 
    プロジェクトのワークロードバランサーには、デフォルトで以下の情報が表示されます。
 

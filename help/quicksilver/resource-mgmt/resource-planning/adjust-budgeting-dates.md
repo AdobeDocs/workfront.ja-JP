@@ -6,10 +6,10 @@ description: リソースプランナーでリソースを予算計上した後�
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '512'
-ht-degree: 96%
+source-wordcount: '515'
+ht-degree: 95%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 96%
    プロジェクト割り当てタイムラインが表示されます。\
    予算が競合している場合は、時間が現在予算に含まれている時間枠がオレンジ色で、競合がない場合は青色でハイライト表示されます。
 
-   ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![ 予算日の調整 ](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
 1. ハイライト表示された時間枠を別の時間にドラッグ＆ドロップして、選択したプロジェクトの予算の競合がない場所を把握します。ネット値が正の値の時間枠が見つかると、ハイライト表示された時間枠が青に変わります。
 1. プロジェクト割り当てタイムラインの右上隅にある「x」をクリックして閉じます。

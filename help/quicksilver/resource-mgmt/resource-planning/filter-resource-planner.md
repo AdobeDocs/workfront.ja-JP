@@ -6,10 +6,10 @@ description: フィルターを使用すると、システムに保存されて�
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2371'
-ht-degree: 97%
+source-wordcount: '2390'
+ht-degree: 96%
 
 ---
 
@@ -129,7 +129,7 @@ ht-degree: 97%
    ![filter_icon.png](assets/filter-icon.png)
 または
 **フィルター** ドロップダウンメニューを展開して、「**新しいフィルターを追加**」をクリックします。
-   ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
+   ![ フィルタードロップダウン ](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. ビルトインの条件を使用してフィルターを作成するには、次のいずれかのフィールドを指定します。
 
@@ -214,7 +214,7 @@ ht-degree: 97%
 1. **フィルター**&#x200B;ドロップダウンメニューを展開します。名前を変更するフィルターを見つけ、その名前の上にポインタを合わせます。
 1. フィルター名の横にある「**フィルター名を変更**」アイコンを選択します。
 
-   ![](assets/rp-filter-options-edit-350x154.png)
+   ![ フィルターオプションを編集 ](assets/rp-filter-options-edit-350x154.png)
 
 1. 「**フィルター名**」ボックスで、フィルターの新しい名前を指定します。
 1. 「**保存**」をクリックします。\
@@ -253,7 +253,7 @@ ht-degree: 97%
 1. 複製する保存済みフィルターの名前の上にポインタを合わせます。
 1. **複製**&#x200B;アイコンをクリックします。
 
-   ![](assets/rp-filter-options---duplicate-350x154.png)\
+   ![ フィルターを複製 ](assets/rp-filter-options---duplicate-350x154.png)\
    「フィルターを複製」ボックスが表示されます。
 
 1. 「**フィルター名**」フィールドで、複製したフィルターの新しい名前を指定します。\
@@ -280,7 +280,7 @@ ht-degree: 97%
 1. 削除するフィルターを見つけ、その名前にポインタを合わせます。
 1. フィルターの名前の横にある&#x200B;**フィルターの削除**&#x200B;アイコンを選択します。
 
-   ![](assets/rp-filter-options---delete-350x154.png)
+   ![フィルターを削除](assets/rp-filter-options---delete-350x154.png)
 
 1. **フィルターの削除**&#x200B;ダイアログボックスで、「**削除**」をクリックします。
 
@@ -303,13 +303,13 @@ ht-degree: 97%
 1. 共有するフィルターを見つけ、その名前にポインタを合わせます。
 1. フィルターの名前の横にある&#x200B;**フィルターの共有**&#x200B;アイコンを選択します。
 
-   ![](assets/rp-filter-options---share-350x154.png)
+   ![フィルターを共有](assets/rp-filter-options---share-350x154.png)
 
    フィルターのアクセス権限ダイアログボックスが表示されます。
 
 1. （オプション）フィルターをリソースプランナーのすべてのユーザーが使用できるようにするには、**設定**&#x200B;アイコンをクリックし、「**Workfront 内のすべてのユーザーが確認できるようシステム全体で表示する**」を選択します。
 
-   ![](assets/make-this-visible-system-wide-350x119.png)
+   ![ システム全体で表示する ](assets/make-this-visible-system-wide-350x119.png)
 
 1. 「**リソースプランナーフィルターへのアクセス権を次に付与**」ボックスに、フィルターを共有するユーザー、チーム、役割、グループまたは会社の名前を入力していきます。
 1. 次の権限レベルから選択します。
@@ -321,10 +321,10 @@ ht-degree: 97%
 
 1. （オプション）「**詳細設定**」をクリックして、各レベルの権限を選択して追加するか、各レベルの権限を選択解除して削除します。
 
-   ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
+   ![フィルターを共有](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
 1. 「**保存**」をクリックします。
 
    フィルターが、選択したエンティティと共有され、「**自分と共有**」エリアに表示されます。
 
-   ![](assets/rp-shared-with-me-area.png)
+   ![自分と共有](assets/rp-shared-with-me-area.png)

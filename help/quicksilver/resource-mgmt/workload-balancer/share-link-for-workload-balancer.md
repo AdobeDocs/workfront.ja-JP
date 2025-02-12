@@ -6,10 +6,10 @@ description: リソースエリアを利用できない他のユーザーとワ�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 82%
+source-wordcount: '697'
+ht-degree: 81%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 82%
 
      ワークロードバランサーでの情報のフィルタリングの詳細については、[ワークロードバランサーでの情報のフィルタリング](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)を参照してください。
 
-1. **リンクアイコン** ![](assets/wb-shearable-link-icon-small.png) をクリックします。
+1. **リンクアイコン**![ リンクアイコン ](assets/wb-shearable-link-icon-small.png) をクリックします。
 
    これにより、リンクがクリップボードに追加されます。
 

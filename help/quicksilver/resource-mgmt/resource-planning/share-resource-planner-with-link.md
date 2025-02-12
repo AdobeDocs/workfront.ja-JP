@@ -6,9 +6,9 @@ description: Adobe Workfront では、ダッシュボードに外部ページと
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '655'
 ht-degree: 96%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Adobe Workfront では、ダッシュボードに外部ページとして埋め込むことのできるリソースプランナーのユーザービューに対する一意の URL を生成するか、新しいブラウザータブで別々に開くことができます。これは、リソースプランナーの情報を、リソース領域に直接アクセスできない可能性のあるユーザーと共有する場合に役立ちます。
 
-![](assets/rp-user-view-with-link-highlight-350x49.png)
+![ リンク付きユーザービュー ](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## アクセス要件
 

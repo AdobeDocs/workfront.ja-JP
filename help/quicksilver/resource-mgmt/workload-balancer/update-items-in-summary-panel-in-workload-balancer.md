@@ -6,10 +6,10 @@ description: ワークロードバランサーの要約パネルを開いて、�
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 84%
+source-wordcount: '410'
+ht-degree: 70%
 
 ---
 
@@ -78,11 +78,11 @@ ht-degree: 84%
 
    または
 
-   **概要を開く**&#x200B;アイコン ![](assets/summary-panel-icon.png) をクリックし、タスクまたはイシューのバーをクリックして、概要パネルを開きます。
+   **概要を開く** アイコン ![ 概要を開くアイコン ](assets/summary-panel-icon.png) をクリックしてから、タスクまたはイシューのバーをクリックして概要パネルを開きます。
 
    または
 
-   タスクまたはイシューの右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックして、「**概要を開く**」をクリックします。
+   タスクまたは問題の右側にある **その他** メニュー ![ その他のアイコン ](assets/more-icon.png) をクリックし、**概要を開く** をクリックします。
 
    右側に概要パネルが開きます。
 
@@ -97,4 +97,4 @@ ht-degree: 84%
    概要を使用して情報を更新する方法について詳しくは、[概要について](../../workfront-basics/the-new-workfront-experience/summary-overview.md)を参照してください。
 
 1. （条件付き）作業項目のセクションを開いた場合、ブラウザーの「**戻る**」ボタンをクリックして、ワークロードバランサーに戻ります。
-1. 概要の右上隅に表示される&#x200B;**閉じるアイコン** ![](assets/close-icon.png) をクリックして閉じます。
+1. 概要の右上隅にある **閉じるアイコン**![ 閉じるアイコン ](assets/close-icon.png) をクリックして閉じます。

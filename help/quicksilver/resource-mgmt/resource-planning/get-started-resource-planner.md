@@ -7,9 +7,9 @@ description: リソースプランナーを使用すると、リソースが割�
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 99%
 
 ---
@@ -91,7 +91,7 @@ Adobe Workfront でのリソースプランの概要について詳しくは、[
 >次の前提条件のいずれかが満たされていない場合、リソースの配分または空き時間に関する情報の一部が欠落しているか、値がゼロになることがあります。\
 >フィールドにデータが欠落している、または値がゼロである理由を詳しく理解するには、フィールドにポインタを合わせます。
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![ この役割を持ったユーザーはいません ](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Adobe Workfront でのリソースプランの概要について詳しくは、[
 
 Workfront のインスタンスが、システムのリソース管理の環境設定に従ってユーザーの空き時間を計算する方法を理解する必要があります。Workfront は、ユーザープロファイルページで定義されたユーザーのスケジュール、またはシステムのデフォルトスケジュールを使用して、ユーザーの空き時間を計算できます。
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![ 管理環境設定 ](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 Workfront 管理者がリソース管理の環境設定を指定します。
 

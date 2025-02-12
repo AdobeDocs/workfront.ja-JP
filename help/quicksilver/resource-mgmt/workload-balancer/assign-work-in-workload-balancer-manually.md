@@ -7,10 +7,10 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 93%
+source-wordcount: '733'
+ht-degree: 87%
 
 ---
 
@@ -77,9 +77,9 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
 
    アイテムを再割り当てする場合は、**割り当てられた作業**&#x200B;エリアに移動し、ユーザーの名前を展開して、そのユーザーに割り当てられている作業アイテムを表示します。
 
-1. 作業アイテム名の左側にある&#x200B;**その他メニュー**![](assets/qs-more-menu.png)をクリックし、「**このアイテムを割り当てる**」をクリックします。
+1. 作業項目名の左側にある **その他メニュー**![ その他メニュー ](assets/qs-more-menu.png) をクリックし、**割り当て先** をクリックします。
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![ 割り当て先 ](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
    > ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
 
-   ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![ 高度な割り当て ](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
@@ -130,7 +130,7 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
 
      高度な割り当ての実行について詳しくは、[高度な割り当てを作成](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
-1. （オプション）**割り当てを表示** ![](assets/show-allocations-icon-small.png) をクリックし、**その他メニュー**![](assets/qs-more-menu.png)／**割り当ての編集**&#x200B;をクリックします。
+1. （オプション） **割り当てを表示アイコン**![ 割り当てを表示アイコン ](assets/show-allocations-icon-small.png) をクリックし、**詳細メニュー**![ 詳細メニュー ](assets/qs-more-menu.png)>**割り当てを編集** をクリックします。
 
    または
 
