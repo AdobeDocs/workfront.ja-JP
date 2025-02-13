@@ -6,10 +6,10 @@ description: ドキュメントエリアからドキュメントをプレビュ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 94%
+source-wordcount: '228'
+ht-degree: 84%
 
 ---
 
@@ -54,8 +54,20 @@ ht-degree: 94%
 
 ## ドキュメントをプレビュー
 
+Workfrontでドキュメントをプレビューできます。
+
 1. ドキュメントリストで、ドキュメントを含む行の上にポインタを合わせて、「**ドキュメントの詳細**」をクリックします。
 1. 表示されたページで、ドキュメントのサムネール画像をクリックします。
 
    * レビュー用にドキュメントを準備していない場合は、新しいブラウザータブに表示されます。
    * レビュー用にドキュメントを準備した場合は、プルーフビューアが開いて表示されます。
+
+次のファイル形式は、プレビューウィンドウに表示できません。
+
+* .mp4
+* .gif
+* .jpeg
+* .png
+* .tiff
+* .plain
+* .pdf

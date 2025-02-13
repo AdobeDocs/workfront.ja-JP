@@ -6,10 +6,10 @@ description: Adobe Workfront for XD プラグインは、Adobe Marketplace か�
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: a5c4479833243bb5817196a3af8acaa063a16747
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 96%
+source-wordcount: '548'
+ht-degree: 83%
 
 ---
 
@@ -122,4 +122,20 @@ ht-degree: 96%
 
 1. 「**[!UICONTROL アクセスを許可]**」をクリックしてログインを完了し、[!DNL Adobe XD] に戻って自分の作業を確認します。
 
- 
+### ログインエラーのトラブルシューティング
+
+**ログインしようとすると、「エラーが発生しました」というエラーが表示される**
+
+
+`experience.adobe.com` で始まる URL を使用してプラグインにログインすることはできません。
+
+![ ログインエラー ](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
+
+
+この問題を修正するには、
+
+1. Adobe Workfront for XD プラグインをアンインストールして再インストールし、ドメインとエラーをクリアします。
+
+1. Workfront ドメインを入力します。 ドメインは、`experience.adobe.com` ではなく `company-name.my.workfront.com` である必要があります。
+
+Adobe Unified Experience を使用している場合にWorkfront ドメインを見つけるには、に移動します。

@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront for design and video]  は、Adobe Marketpl
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
 workflow-type: tm+mt
-source-wordcount: '540'
-ht-degree: 97%
+source-wordcount: '643'
+ht-degree: 81%
 
 ---
 
@@ -141,3 +141,25 @@ ht-degree: 97%
 1. 「**[!UICONTROL アクセスを許可]**」をクリックして、ログインを完了します。
 1. [!DNL Adobe Photoshop] に戻り、作業内容を表示します。
 
+### ログインエラーのトラブルシューティング
+
+**ログインしようとすると、「エラーが発生しました」というエラーが表示される**
+
+
+`experience.adobe.com` で始まる URL を使用してプラグインにログインすることはできません。
+
+![ ログインエラー ](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
+
+
+この問題を修正するには、
+
+1. プラグインのドメインを保存するフォルダーを削除します。
+
+   >[!TIP]
+   >
+   >Macで、Finder に移動し、**Command+Shift+ キーを押します。非表示のフォルダーを表示する** は、**/Users//Library/Application Support** に移動し、**Workfront** フォルダーを削除します。
+
+
+1. プラグインに戻り、Workfront ドメインを入力します。 ドメインは、`experience.adobe.com` ではなく `company-name.my.workfront.com` である必要があります。
+
+   Adobe Unified Experience を使用している場合に [Workfront ドメインを検索する ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) には、設定/顧客情報に移動します。
