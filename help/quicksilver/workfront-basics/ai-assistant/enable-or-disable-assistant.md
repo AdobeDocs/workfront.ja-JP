@@ -5,10 +5,10 @@ description: AI アシスタントにアクセスできる、組織内のアク�
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 88efd929f48ba73993a2bb503b6c3fa3420f90d2
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 37%
+source-wordcount: '258'
+ht-degree: 33%
 
 ---
 
@@ -55,7 +55,10 @@ AI アシスタントはデフォルトで有効になっています。
 1. 左側のナビゲーションで **アクセスレベル** を選択します。
 1. AI アシスタントを有効にするアクセスレベルを選択します。
 1. アクセスレベルを編集ウィンドウで、ウィンドウの下部まで下にスクロールし、「**追加の制限を設定…**」をクリックします。
-1. 「追加の制限を設定」領域で、「**Workfront AI アシスタントを無効にする** オプションを有効にします。
+1. 「追加の制限を設定」領域で、「**AI 機能を無効にする** オプションを有効にします。
 1. **保存**&#x200B;をクリックします。
 1. AI アシスタントを無効にするアクセスレベルごとに、手順 3 ～ 6 を繰り返します。
 
+>[!NOTE]
+>
+>AI 機能がWorkfrontに追加されると、一部の AI 機能はWorkfrontの動作方法の基礎になります。 すべての AI 機能を無効にする機能は、近い将来に廃止される可能性があります。

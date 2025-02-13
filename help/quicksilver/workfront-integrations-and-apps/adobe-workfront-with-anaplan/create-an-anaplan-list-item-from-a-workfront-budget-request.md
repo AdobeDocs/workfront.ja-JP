@@ -6,7 +6,7 @@ description: この統合シナリオは、 [!DNL Adobe Workfront]  プロジェ
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: e6505ece-21aa-4397-8d68-543bf89d2f00
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 97%
@@ -58,9 +58,9 @@ ht-degree: 97%
 
 ## 想定される [!DNL Workfront] 設定
 
-このシナリオを使用するには、[!DNL Workfront] に以下のものが必要です。
+このシナリオを使用するには、[!DNL Workfront] で以下のものが必要です。
 
-* *[!UICONTROL *[!DNL Anaplan] 統合]**という名前の、システム管理者権限が付与されている [!DNL Workfront] のユーザープロファイル。
+* システム管理者権限が付与されている、**[!DNL Anaplan]統合**&#x200B;という名前の [!DNL Workfront] でのユーザープロファイル。
 
   [!DNL Workfront] でのユーザーの作成について詳しくは、[ユーザーの追加](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
