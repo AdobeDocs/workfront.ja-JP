@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 4%
+source-wordcount: '764'
+ht-degree: 7%
 
 ---
 
 
 # Adobe Workfront計画 AI アシスタントの概要
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 
 {{planning-important-intro}}
@@ -45,6 +45,8 @@ AI アシスタントを使用して、現在のページコンテキストと�
 
 * コマンドを使用してアクションを取り消すことができます。 例えば、「最後の変更を取り消す」と入力して、変更を元に戻すことができます。
 
+* <span class="preview"> AI Assistant を使用してオブジェクトを作成、更新、または削除する場合、AI Assistant は意図したアクションを表示し、確認を求めます。 その後、アクションを確認またはキャンセルできます。</span>
+
 ## 現在、AI アシスタントで使用可能な機能
 
 現在、Workfrontの Planning エリアでは、次のページで AI アシスタントを使用できます。
@@ -59,7 +61,7 @@ AI アシスタントを使用して、現在のページコンテキストと�
 * レコードを作成します。 新規レコードへのリンクを含む ID は、レコードの作成後に表示されます。 日付や説明など、作成プロセス中に更新するフィールドを指定できます。
 * アップロードするドキュメントに基づいてレコードを作成します。 Workfrontは、AI アシスタントで次のドキュメント形式をサポートしています。
 
-  .pptx、.pdf、.docx、.xlsx、.ppt、.doc、.txt、およびほとんどの画像形式
+  PPTX、PDF、DOCX、XLSX、PPT、DOC、TXT、およびほとんどの画像形式
 * 画面に表示されるレコードのフィールドを更新
 * レコードの削除
 * 削除したばかりのレコードを復元します
