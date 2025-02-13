@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 28%
+source-wordcount: '1583'
+ht-degree: 24%
 
 ---
 
@@ -82,7 +82,7 @@ This article describes how you can share a view with others. For information abo
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
-<p>権限リクエストからビューに権限をリクエストし、付与できるようにするには、組織をAdobeの Unified Experience にオンボーディングする必要があります。 </p>
+<p>ユーザーが権限リクエストに基づいてビューに対する権限をリクエストおよび付与できるようにするには、組織がAdobe統合エクスペリエンスにオンボーディングされている必要があります。 </p>
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -200,9 +200,9 @@ This article describes how you can share a view with others. For information abo
 
    レコードタイプページが開きます。
 
-1. ビュータブで、共有するビューにポインタを合わせ、ビュー名の右にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックしたあと、「**共有**」をクリックします。
+1. 「表示」タブで、共有するビューにポインタを合わせ、ビュー名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、「**共有**」をクリックします。
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![ 共有オプションを使用して展開されたビューの詳細メニュー ](assets/more-menu-for-views-expanded-with-share-option.png)
 
    「**内部共有**」タブは、デフォルトで選択されている必要があります。
 
@@ -211,13 +211,9 @@ This article describes how you can share a view with others. For information abo
    * **招待されたユーザーのみがアクセスできます**：ビューを共有するユーザー、グループ、<span class="preview"> チーム、会社または担当業務 </span> を指定する必要があります。 これはデフォルトのオプションです。
    * **ワークスペース内の全員が表示できます**：ワークスペースに対する表示以上の権限を持つすべてのユーザーが、ビューにアクセスできます。
 
-1. 「**表示アクセス権の付与先**」フィールドに、ユーザー、グループ、<span class="preview"> チーム、会社または担当業務の名前の入力を開始し </span> リストに表示されたらクリックします。
+1. 「**このビューへのアクセスを許可**」フィールドにユーザー、グループ、<span class="preview"> チーム、会社または担当業務の名前の入力を開始し </span> リストに表示されたらクリックします。
 
-   <div class="preview">
-
-   ![](assets/sharing-a-view-ui-with-groups.png)
-
-   </div>
+   ![ グループとのビューの共有 ](assets/sharing-a-view-ui-with-groups.png)
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
@@ -230,7 +226,7 @@ This article describes how you can share a view with others. For information abo
 1. 「**リンクをコピー**」をクリックして、ビューへのリンクをクリップボードにコピーします。
 1. **保存**&#x200B;をクリックします。
 
-   ビューが人物アイコン ![](assets/view-shared-with-others-people-icon.png) で更新され、ビューが他のユーザーと共有されたことを示します。
+   ビューが人物アイコン ![ 他のユーザーと共有されたビューのアイコン ](assets/view-shared-with-others-people-icon.png) で更新され、ビューが他のユーザーと共有されたことを示します。
 
    >[!TIP]
    >
@@ -255,25 +251,25 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 
    レコードタイプページが開きます。
 
-1. ビュータブで、共有するビューにポインタを合わせ、ビュー名の右にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックしたあと、「**共有**」をクリックします。
+1. 「表示」タブで、共有するビューにポインタを合わせ、ビュー名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、「**共有**」をクリックします。
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![ 共有オプションを使用して展開されたビューの詳細メニュー ](assets/more-menu-for-views-expanded-with-share-option.png)
 
 1. **公開共有** をクリックします。
 
-   ![](assets/public-sharing-tab-for-views.png)
+   ![ ビューの「公開共有」タブ ](assets/public-sharing-tab-for-views.png)
 
 1. **公開リンクを作成** 設定を有効にします。
 
    リンクが使用可能になります。 これは公開リンクです。 共有すると、組織外のユーザーを含め、リンクを持つすべてのユーザーがレコードタイプページにアクセスし、ページ上のレコードとフィールドを表示できます。
 
-1. **リンクをコピー** アイコン ![](assets/copy-link-view.png) をクリックして、リンクをクリップボードにコピーします。
+1. **リンクをコピー** アイコン ![ リンクビューをコピー ](assets/copy-link-view.png) をクリックして、リンクをクリップボードにコピーします。
 
 1. 手動で日付を入力するか、「**有効期限をリンク**」フィールドのカレンダーを使用して、公開リンクの有効期限を選択します。 選択した日付を過ぎるとレコードページビューにアクセスできなくなります。
 
 1. **保存**&#x200B;をクリックします。
 
-   ビューが更新され、グローバルアイコン ![](assets/public-shared-view-icon-highlighted.png) が表示されます。これは、ビューが公開されて共有されていることを示します。
+   ビューが更新され、グローバルアイコン ![ 公開共有ビューアイコンがハイライト表示 ](assets/public-shared-view-icon-highlighted.png) が表示されます。これは、ビューが公開されて共有されていることを示します。
 
    >[!TIP]
    >
@@ -289,16 +285,16 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 1. （条件付き）ビューの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
    * アプリ内通知
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
    * メール通知
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
 メール通知で「**すべての通知を表示**」をクリックし、リスト内の通知をクリックします。
 
    **保留中のアクセスリクエスト** ボックスが表示されます。
 
-   ![](assets/notifications-list-approval-box.png)
+   ![ 通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
 1. （オプション）権限を承認するユーザーについて、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**
    * **管理**
@@ -312,7 +308,7 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 {{step1-to-planning}}
 
 1. 共有を停止するビューのワークスペースを開き、レコードタイプのカードをクリックします。 レコードタイプページが開きます。
-1. 共有を削除するビューのタブ名にポインタを合わせ、[ 詳細 **] メニュー ![](assets/more-menu.png) ージをクリックしてから**[ 共有 **] をクリックし** す。
+1. 共有を削除するビューのタブ名にポインタを合わせ、[ その他 ]**メニュー**[ その他 ]![](assets/more-menu.png) をクリックしてから、[**共有**] をクリックします。
 1. ビューの内部共有を削除するには、次の操作を行います。
 
    1. 「**内部共有**」タブが選択されていることを確認します。

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '7694'
-ht-degree: 94%
+source-wordcount: '7828'
+ht-degree: 93%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 94%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 <!--
 <p>***Linked to many articles,</p>
@@ -170,7 +170,7 @@ ht-degree: 94%
    * [イシュー設定](#issue-settings)
    * [アクセス](#access)
    * [ リンクされたフォルダー ](#linked-folders-conditional-availability) （条件付き可用性）
-     <!--* <span class="preview">[Comment](#comment)</span>-->
+   * <span class="preview">[コメント](#comment)</span>
 
 
    >[!NOTE]
@@ -684,22 +684,19 @@ ht-degree: 94%
 >
 >リンクされているフォルダーはプロジェクトの作成時に作成されるので、既存のプロジェクトでリンクされているフォルダーのワークフローを編集しても効果はありません。プロジェクトの作成時にこれらの値を編集すると、期待どおりに機能します。
 
-<!--
 <div class="preview">
 
-### Comment
+### コメント
 
-1. Begin editing your project as described above.
-1. Click **Comment** in the left panel.
+1. 前述の説明に従って、プロジェクトの編集を開始します。
+1. 左側のパネルで **コメント** をクリックします。
 
    ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
 
-1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Click **Save**. 
+1. 指定されたスペースにコメントを追加します。 Workfrontが、プロジェクトの「更新」領域にコメントを追加します。 作業の更新について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+1. 「**保存**」をクリックします。
 
 </div>
-
--->
 
 ## プロジェクトヘッダーでのプロジェクトの編集（制限あり）
 
@@ -824,7 +821,7 @@ Workfront 管理者またはグループ管理者がレイアウトテンプレ�
 イシューの設定エリアの編集について詳しくは、この記事の、[イシューの設定](#issue-settings)の節を参照してください。
 1. 選択したすべてのプロジェクトのアクセス設定を編集するには、「**アクセス**」をクリックします。
 アクセスエリアの編集について詳しくは、この記事の、[アクセス](#access)の節を参照してください。
-   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
+1. <span class="preview">**コメント** をクリックし、表示されたスペースにコメントを追加します。 Workfrontが、各プロジェクトの **更新** 領域にコメントを追加します。 作業の更新について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span> を参照してください。
 1. （オプション）「プロジェクトを編集」ボックスに追加した情報を削除するには、編集したフィールドの上にポインタを合わせて、フィールドの右上にある「**x**」破棄アイコンをクリックします。
 
    ![ 一括編集プロジェクトのフィールドの破棄アイコン ](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)

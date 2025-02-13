@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 13%
+source-wordcount: '521'
+ht-degree: 9%
 
 ---
 
 
 # Adobe Workfront Planning 使用時のライセンスタイプの概要
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -29,7 +29,7 @@ ht-degree: 13%
 
 Workfront Planning のオブジェクトに対する権限について詳しくは、[Adobe Workfront Planning での共有権限の概要](/help/quicksilver/planning/access/sharing-permissions-overview.md)を参照してください。
 
-Workfront Planning へのアクセスについて詳しくは、[Adobe計画へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+Adobe Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
 ## Workfront のライセンスタイプと Workfront Planning の権限の関係
 
@@ -60,7 +60,7 @@ Workfront Planning へのアクセスについて詳しくは、[Adobe計画へ�
 
 ### ライセンスタイプとワークスペース権限
 
-Standard ライセンスを持つユーザーのみが、ワークスペースに対するContribute権限または管理権限を持つことができます。 他のすべてのライセンスタイプを持つユーザーは、自分と共有されているワークスペースに対する表示権限を持つことができます。
+Standard ライセンスを持つユーザーのみが、ワークスペースに対する投稿権限または管理権限を持つことができます。 他のすべてのライセンスタイプを持つユーザーは、自分と共有されているワークスペースに対する表示権限を持つことができます。
 
 システム管理者は、システム内のすべてのワークスペース（作成しなかったワークスペースを含む）を表示できます。
 
@@ -72,7 +72,7 @@ Standard ライセンスを持つユーザーのみが、ワークスペース�
 >
 >共有ボックスには、下位レベルのライセンスを保持しているユーザーに対して、ワークスペースへの投稿またはワークスペースの管理を行う権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
 >
-><span class="preview">![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)</span>
+>![Workspace の投稿者ユーザーに対してグレー表示されている権限 ](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### ライセンスタイプと表示権限
@@ -87,4 +87,4 @@ Standard ライセンスを持つユーザーのみが、ワークスペース�
 >
 >共有ボックスには、下位レベルのライセンスを持つユーザーにビューを管理する権限を付与できないことが示されます。これは、これらの権限レベルがグレー表示されているためです。
 >
-><span class="preview">![](assets/permissions-grayed-out-for-light-user.png)</span>
+>![ ビュー共有のライトユーザーで権限がグレー表示される ](assets/permissions-grayed-out-for-light-user.png)

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 47%
+source-wordcount: '809'
+ht-degree: 46%
 
 ---
 
@@ -70,7 +70,7 @@ This article describes how you can share a view with others. For information abo
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p>
-<p>ユーザーが権限リクエストからワークスペースに権限をリクエストおよび付与できるようにするには、組織がAdobeの Unified Experience にオンボーディングされている必要があります。 </p> 
+<p>権限リクエストからワークスペースに権限をリクエストおよび付与できるようにするには、組織がAdobe統合エクスペリエンスにオンボーディングされている必要があります。 </p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -175,15 +175,11 @@ OLD:
 
 1. 共有するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。
 
-   ![](assets/share-button-on-workspace-top-right.png)
+   ![ ワークスペースの右上にある「共有」ボタン ](assets/share-button-on-workspace-top-right.png)
 
-1. 「**ワークスペースへのアクセス権の付与先**」フィールドに、ユーザー、グループ、<span class="preview"> チーム、会社または担当業務の名前の入力を開始し </span> リストに表示されたらクリックします。
+1. 「**このワークスペースへのアクセスを許可**」フィールドにユーザー、グループ、<span class="preview"> チーム、会社または担当業務の名前の入力を開始し </span> リストに表示されたらクリックします。
 
-   <div class="preview">
-
-   ![](assets/sharing-ui-with-groups.png)
-
-   </div>
+   ![UI をグループと共有 ](assets/sharing-ui-with-groups.png)
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
    * 表示
@@ -202,16 +198,16 @@ OLD:
 1. （条件付き）ワークスペースの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
    * アプリ内通知
-     ![](assets/in-app-notification-for-access-request.png)
+     ![ アクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request.png)
    * メール通知
-     ![](assets/email-notification-for-access-request.png)
+     ![ アクセスリクエストのメール通知 ](assets/email-notification-for-access-request.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
 メール通知で「**すべての通知を表示**」をクリックし、リスト内の通知をクリックします。
 
    **保留中のアクセスリクエスト** ボックスが表示されます。
 
-   ![](assets/notifications-list-approval-box.png)
+   ![ 通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
 
 1. （オプション）権限を承認するユーザーについて、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**
