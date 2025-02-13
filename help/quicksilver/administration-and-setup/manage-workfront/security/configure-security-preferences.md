@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
+source-git-commit: d4ebdcc942f119dc229e2a3216dbe82b3d701cba
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 80%
+source-wordcount: '951'
+ht-degree: 78%
 
 ---
 
@@ -113,11 +113,11 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      </tr> 
      <tr> 
       <td role="rowheader">次の場合にユーザーを自動的にログアウトする</td> 
-      <td> ユーザーの一定期間の非アクティブな状態が続いた後、ユーザーがいつ Workfront からログアウトされるかを指定できます。デフォルトでは、ユーザーは 8 時間操作を実行しなかった場合、ログアウトされます。 <p>このオプションは、シングルサインオンソリューションを使用している Workfront の顧客にも影響します。</p> </td> 
+      <td> ユーザーの一定期間の非アクティブな状態が続いた後、ユーザーがいつ Workfront からログアウトされるかを指定できます。デフォルトでは、ユーザーは 8 時間操作を実行しなかった場合、ログアウトされます。 <p>このオプションは、シングルサインオンソリューションを使用している Workfront の顧客にも影響します。</p> <p>この設定は、Adobe IMSに移行された組織では使用できません。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">次の場合にモバイルユーザーを自動的にログアウトする： </td> 
-      <td>ユーザーの一定期間の非アクティブな状態が続いた後、ユーザーが Workfront アプリケーションからログアウトする時間を指定できます。デフォルトでは、ユーザーは 7 日間操作を実行しなかった場合、ログアウトされます。 <p>このオプションは、シングルサインオンソリューションを使用している Workfront の顧客にも影響します。</p></td> 
+      <td>ユーザーの一定期間の非アクティブな状態が続いた後、ユーザーが Workfront アプリケーションからログアウトする時間を指定できます。デフォルトでは、ユーザーは 7 日間操作を実行しなかった場合、ログアウトされます。 <p>このオプションは、シングルサインオンソリューションを使用している Workfront の顧客にも影響します。</p> <p>この設定は、Adobe IMSに移行された組織では使用できません。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">ヘルプ URL</td> 
@@ -128,7 +128,7 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
       <td>デフォルトでユーザーに新しいホームエクスペリエンスを表示するかどうかを指定できます。有効にした場合、ユーザーにはデフォルトで新しいホームエクスペリエンスが表示されますが、個々に新しいホームを有効または無効にすることを選択できます。無効にした場合、ユーザーには新しいホームに切り替えることができるバナーが表示されません。ただし、インスタンス URL の末尾に手動で「<code>/home/workspaces</code>」を入力すると、新しいホームページに移動できます。この設定は、デフォルトで有効になっています。</td> 
      </tr>
      <tr> 
-      <td role="rowheader">優先度ワークリストの有効化 </td> 
+      <td role="rowheader">優先度ワークリストを有効にする </td> 
       <td>ユーザーの優先度ワークリストのエクスペリエンスを有効または無効にすることを選択できます。 Workfrontには引き続き「優先度」アイコンが表示されますが、機能にはアクセスできません。 優先度の詳細については、「<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> 優先度の概要 </a> を参照してください。</td> 
      </tr>
      <tr> 
