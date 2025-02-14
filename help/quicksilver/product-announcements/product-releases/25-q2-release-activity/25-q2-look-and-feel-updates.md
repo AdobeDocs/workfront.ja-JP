@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '76'
-ht-degree: 100%
+source-wordcount: '217'
+ht-degree: 35%
 
 ---
 
@@ -18,13 +18,23 @@ ht-degree: 100%
 
 2025年第 2 四半期リリースで利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
 
-<!--## New look and feel for the Share dialog 
+## ドキュメントメールの一時的なルックアンドフィールの変更
 
 >[!NOTE]
 >
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>プレビューリリース：2025 年 2 月 13 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 2 月 13 日（PT）
 
-We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
+ドキュメントの追加または共有に関連するメールの本文には、サムネール画像が表示されなくなります。 一部のお客様には、従来のタスクと問題の割り当てのメールも表示されます。このメールには、担当者のアバターのみが表示されます。
 
-* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
-* There is a new icon to access advanced share settings.-->
+メールの遅延を調査する際に、これらの変更は一時的なものです。
+
+## 共有ダイアログの新しいルックアンドフィール
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 13 日（PT）、すべてのお客様向けの実稼動リリース：25.3 リリースの場合（2025 年 3 月）
+
+共有ダイアログのルックアンドフィールを、Workfrontの他の領域と一致する最新のデザインに更新しました。 次のような視覚的な違いがあります。
+
+* 「システム全体で表示」オプションに「システム内の全員が表示可能」と表示されるようになりました。 このオプションは、以前と同じように機能します。
+* 詳細な共有設定にアクセスするための新しいアイコンが追加されました。

@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 50%
+source-wordcount: '965'
+ht-degree: 46%
 
 ---
 
@@ -26,7 +26,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 
 | 毎月のリリース | 四半期リリース |
 | ----------------- | ----------------- |
-| <ul><li>25.2（2025年2月）</li><li>25.3（2025年3月）</li><li>25.4（2025年4月）</li></ul> | <ul><li>25.4（2025年4月）</li></ul> |
+| <ul><li>25.2（2025年2月13日（PT））</li><li>25.3（2025年3月）</li><li>25.4（2025年4月）</li></ul> | <ul><li>25.4（2025年4月）</li></ul> |
 
 >[!NOTE]
 >
@@ -37,6 +37,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
+* [プロジェクトの強化](#project-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者機能の強化
@@ -49,13 +50,39 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             計算カスタムフィールドに追加された式</a></p>
-            <p>Workfrontの計算カスタムフィールドで、ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT、ADDHOUR の式を使用できるようになりました。 各式の定義と例は、計算エディターおよびExperience Leagueで入手できます。</p>
+            [!BADGE In production ]{type=Informative}
+            <p>Workfrontの計算カスタムフィールドで、ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT、ADDHOUR の式を使用できるようになりました。 各式の定義と例は、計算エディターとExperience Leagueで入手できます。</p>
         </td>
         <td>
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2025年1月31日（PT）</li>
                 <li><span class="preview">すべてのお客様向けの本番リリース： 2025年1月31日（PT）</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### プロジェクトの強化
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            プロジェクトを編集ボックスで編集する際に、プロジェクトにコメントを追加する</a></p>
+            [!BADGE New in Preview ]{type=Negative}
+            <p>プロジェクトを編集ボックスでコメントを編集しながら、プロジェクトにコメントを追加できるようになりました。 また、複数のプロジェクトを一括して編集する際に、一度にコメントを追加することもできます。 この更新以前は、プロジェクトの編集時にこの機能は存在していませんでした。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2025年2月13日</li>
+                <li>迅速リリースの実稼動環境：25.3 リリースの場合（2025 年 3 月）</li>
+                <li>すべてのお客様向けの実稼動リリース：25.4 リリースでは（2025 年 4 月）</li>
             </ul>
         </td>
     </tr>                          
@@ -72,45 +99,50 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Adobe Admin Console ユーザーの変更をWorkfront更新フィードの「システム」として表す</a></p>
+            [!BADGE In Production for Fast Release ]{type=Positive}
             <p>Workfrontの管理者がWorkfront ユーザーのユーザー情報に変更を加えると、Adobe Admin Consoleは、ユーザーの更新領域にある「システム」アクティビティ タブで、この変更を「システム」に属するものとして記録するようになりました。 これはAdobe Admin Console管理者を指します。</p>
         </td>
         <td>
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2025年1月23日（PT）</li>
-                <li>迅速リリースの実稼動：25.2 リリースの場合（2025 年 2 月）</li>
+                <li>迅速リリースの実稼動：25.2 リリースの場合（2025 年 2 月 13 日（PT））</li>
                 <li>すべてのお客様向けの実稼動リリース：25.4 リリースでは（2025 年 4 月）</li>
             </ul>
         </td>
     </tr>
-    <!--<tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">
-            Look-and-feel updates during the Second Quarter 2025 timeframe</a></p>
-            <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2025 timeframe. Review the individual release notes for specific release dates.</p>
+            2025 年第 2 四半期のルックアンドフィールの更新</a></p>
+            <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模なアップデートが、2025年第 2 四半期の期間内に行われます。特定のリリース日については、個々のリリースノートを確認してください。</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>公開日：</b></p>
             <ul>
-                <li>Preview release: Throughout the Second Quarter 2025 release timeframe</li>
-                <li><span class="preview">Production release: Review the release notes for specific dates</span></li>
+                <li>プレビューリリース：2025年第 2 四半期のリリース期間中</li>
+                <li><span class="preview">実稼動版リリース：リリースノートで日付を確認してください。</span></li>
             </ul>
         </td>
-    </tr>-->
+    </tr>
 </tbody>
 </table>
 
-<!--
-### Functionality soon to be removed from Workfront
+### Workfront から近日中に削除される機能
 
-The following functionality is soon to be removed from Workfront:
--->
+次の機能は、近日中に Workfront から削除されます。
+
+#### プロジェクトの従来のアジャイルビューを削除しています
+
+プロジェクトの従来のアジャイルビューは、25.3 リリース（2025 年 3 月 13 日（PT））でWorkfrontから削除されます。 ボード アイコンをクリックすると、プロジェクトのアジャイルビューでタスクを表示できます。
+
+アジャイルビューの使用について詳しくは、[ アジャイルビューでのプロジェクトの管理 ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md) を参照してください。
 
 ## お知らせ
 
 ### インターフェイスの最新化
 
-ユーザーエクスペリエンスを向上させ、他のAdobeアプリケーションと統合できるよう、Adobe Workfront全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 ### Workfront Fusion の機能強化
 

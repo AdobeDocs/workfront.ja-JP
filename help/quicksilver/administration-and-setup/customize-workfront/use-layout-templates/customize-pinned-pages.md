@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 86%
+source-wordcount: '546'
+ht-degree: 63%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 86%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+以下が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,17 @@ ht-degree: 86%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td><p>新規：標準</p>
-  <p> 現在：プラン</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>標準</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>プラン</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -57,7 +64,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -91,23 +98,28 @@ ht-degree: 86%
       * ブループリント
       * プラン
 
-   >[!IMPORTANT]
-   >
-   >シナリオ、目標および計画領域を表示するには、追加のライセンスが必要です。
-   >
-   >* Workfront Goals について詳しくは、[Adobe Workfront Goals の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。
-   >
-   >* Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
-   >
-   >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+     >[!IMPORTANT]
+     >
+     >目標、シナリオおよび計画領域を表示するには、追加のライセンスが必要です。
+     >
+     >* Workfront Goals について詳しくは、[Adobe Workfront Goals の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。
+     >
+     >* Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
+     >
+     >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
-   * **ダッシュボードを追加**&#x200B;をクリックし、次に、説明的な&#x200B;**カスタムセクションのタイトル**&#x200B;を入力し、ダッシュボードを追加します。
+   * 「**ダッシュボードを追加**」をクリックします
+      * <!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
+      * 「**ダッシュボードを追加**」フィールドでダッシュボードを選択し <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> す
+      * 「**追加**」をクリックします。
 
 1. 前の手順を繰り返して、他のページをピン留めします。
 
-1. （オプション）ピン留めの名前を変更するには、ピン留めにポインタを合わせ、ピン留め名の横の矢印をクリックして、「**ピン留めの名前を変更**」を選択します。新しいピン留め名を入力し、「チェックマーク」アイコンをクリックするか、Enter を押します。
+1. （オプション）ピンを移動するには、ピンにポインタを合わせて、ピン名の横にある「詳細」メニューアイコン ![ その他のアイコン ](assets/more-icon.png) その他のアイコン）をクリックします。次に、**左に移動** または **右に移動** をクリックして、選択した方向にピンを移動するか、**前に移動** をクリックして、ピンを一番左の位置に移動します。
 
-   チェックマークをクリックした後、または Enter を押した後、小さなポップアップウィンドウが数秒間表示され、保存する前にピン留め名の変更を元に戻すことができます。
+1. （オプション）ピン留めの名前を変更するには、ピンにポインタを合わせて、ピン名の横にある「詳細」メニューアイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、「**ピン留めの名前を変更**」をクリックします。 新しい名前を入力し、「**保存**」をクリックします。
+
+1. （オプション）ピン留めを削除するには、ピンにポインタを合わせ、ピン名の横にある「詳細」メニューアイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックしてから、「**ピン留めを削除** をクリックします。
 
 1. 引き続きレイアウトテンプレートをカスタマイズします。
 
