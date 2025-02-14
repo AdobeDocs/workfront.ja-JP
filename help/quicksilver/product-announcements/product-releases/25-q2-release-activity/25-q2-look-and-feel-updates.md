@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 35%
@@ -24,7 +24,9 @@ ht-degree: 35%
 >
 >プレビューリリース：2025 年 2 月 13 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 2 月 13 日（PT）
 
-ドキュメントの追加または共有に関連するメールの本文には、サムネール画像が表示されなくなります。 一部のお客様には、従来のタスクと問題の割り当てのメールも表示されます。このメールには、担当者のアバターのみが表示されます。
+ドキュメントの追加または共有に関連するメールの本文には、サムネール画像が表示されなくなります。
+
+一部のお客様には、従来のタスクと問題の割り当てのメールも表示されます。このメールには、担当者のアバターのみが表示されます。
 
 メールの遅延を調査する際に、これらの変更は一時的なものです。
 
