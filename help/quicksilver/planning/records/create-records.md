@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
 workflow-type: tm+mt
-source-wordcount: '1562'
-ht-degree: 33%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,8 +31,10 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 * [外部リストからのレコードのリストのコピー&amp;ペースト](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [テーブルビューからレコードを複製](#create-records-by-duplicating-them)
 * [他のレコードから接続する際のレコードの作成](#create-records-as-you-connect-them)
-* [リクエストフォームをレコードタイプに送信して作成します](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [リクエストフォームをレコードタイプに送信してレコードを作成](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [レコードタイプを CSV または Excel ファイルから読み込む際のレコードの作成](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+
+<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
 
 
 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
@@ -137,9 +139,9 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
       * テーブルの最後の行にある「**新規レコード**」をクリックします
 
       * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。これにより、開始レコードの下に空の行が追加されます。
-      * レコードの主フィールドにポインタを合わせ、フィールドの右側にある **詳細** メニュー ![](assets/more-menu.png) をクリックして、「**上にレコードを挿入**」または **下にレコードを挿入** をクリックします。
+      * レコードの主フィールドにポインタを合わせ、フィールドの右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**上にレコードを挿入** または **下にレコードを挿入** をクリックします。
 
-     ![](assets/adding-a-new-campaign-in-table-row.png)
+     ![ テーブルの行に新しいキャンペーンを追加 ](assets/adding-a-new-campaign-in-table-row.png)
 
    * 任意のビューから：
 
@@ -162,14 +164,14 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
    または
 
-   新しいレコードの名前か、レコード名の左側にある&#x200B;**詳細を開く**&#x200B;アイコン ![](assets/open-details-icon-in-table-name-field.png) をクリックします。レコードの詳細情報を含むプレビューがテーブルに表示されます。
+   新しいレコードの名前をクリックするか、レコード名の左側にある **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。 レコードの詳細情報を含むプレビューがテーブルに表示されます。
 
    >[!TIP]
    >
    >**詳細を開く** アイコンにアクセスできるのは、レコードの名前フィールド（名前フィールドがプライマリフィールドの場合）のみです。
 
 1. レコードのプレビューでレコードの情報の編集を開始します。 Workfront では、変更を自動的に保存します。
-1. （オプション）レコードのプレビューの右上隅に ![](assets/open-details-in-a-new-tab-icon.png) る **新しいタブで開く** アイコンをクリックして、レコードのページを新しいタブで開きます。 レコードページでレコードの編集を続行します。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+1. （オプション）レコードのプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) 新しいタブでレコードのページを開く）をクリックします。 レコードページでレコードの編集を続行します。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 1. （オプション）テーブル表示で新しいレコードやその情報を追加する際に、それらの追加の取り消しまたはやり直しを行うには、次のキーボードショートカットを使用します。
 
@@ -263,7 +265,7 @@ You can import records from other applications by linking them to existing recor
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
-   ![](assets/add-button-to-create-records-in-context-highlighted.png)
+   ![ ハイライト表示された、コンテキスト内のレコードを作成する「追加」ボタン ](assets/add-button-to-create-records-in-context-highlighted.png)
 
    レコードが作成され、接続されたレコードフィールドに追加されます。
 
@@ -297,3 +299,17 @@ CSV または Excel ファイルを使用してレコードタイプを読み込
 
 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
+<!--
+<div class="preview">
+
+## Create records by using automations
+
+You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+
+You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+
+For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+
+</div>
+
+-->
