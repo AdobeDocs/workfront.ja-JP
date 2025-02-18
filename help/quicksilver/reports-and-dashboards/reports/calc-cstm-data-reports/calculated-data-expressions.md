@@ -7,10 +7,10 @@ description: データ式を使用して、Adobe Workfront で計算済みのカ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
-ht-degree: 90%
+source-wordcount: '2433'
+ht-degree: 91%
 
 ---
 
@@ -399,7 +399,7 @@ ht-degree: 90%
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>配列内の指定された数の要素を返します。 インデックスが範囲外の場合は、空を返します。</p> 
+   <td> <p>配列内の指定された数値の要素を返します。インデックスが範囲外の場合、空が返されます。</p> 
    <p>式の形式は次のとおりです。</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
@@ -458,7 +458,8 @@ ht-degree: 90%
   </tr> 
   <tr> 
    <td><strong> 形式 </strong> </td> 
-   <td><p>書式設定されたテキストを返します。カラーオプションは、$$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE です。その他の書式設定オプションは、$$BOLD、$$ITALIC、$$UNDERLINE です。関数ごとに 1 つのカラーオプションのみを使用でき、他の書式設定オプションも最大 3 つ使用できます。 カラーオプションを指定しない場合、システムのデフォルトのカラーが適用されます。</p>
+   <td><p>書式設定されたテキストを返します。 FORMAT では、ここに示すパラメータ オプションのみを使用できます。</p>
+   <p>カラーオプションは$$POSITIVE、$$INFORMATIVE、$$NEGATIVE、$$NOTICE で、その他の書式設定オプションは$$BOLD、$$ITALIC、$$UNDERLINE です。 1 つのカラーオプションと、最大 3 つの他の書式設定オプションのみが許可されます。 カラーオプションを指定しない場合、システムのデフォルトのカラーが適用されます。</p>
    <p>式の形式は次のとおりです。</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
