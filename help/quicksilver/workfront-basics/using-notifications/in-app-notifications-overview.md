@@ -2,14 +2,14 @@
 content-type: overview
 navigation-topic: notifications
 title: アプリ内通知の概要
-description: 「この記事には、受信可能なアプリ内通知の一覧が記載されています。アプリ内通知では、お知らせ通知と作業アイテム通知の 2 種類の情報について常に知らせます。Web アプリケーションとモバイルアプリケーションの両方から利用できます」
+description: この記事では、受信できるアプリ内通知の一覧を記載します。アプリ内通知では、お知らせ通知と作業アイテム通知の 2 種類の情報について常に知らせます。Web アプリケーションとモバイルアプリケーションの両方から使用できます。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 100%
+source-wordcount: '826'
+ht-degree: 32%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 * [!DNL Workfront] は組織の [!DNL Workfront] 管理者の[!UICONTROL お知らせ]ページにメッセージを送信します。
 * [!DNL Workfront] 管理者は、[!UICONTROL お知らせ]ページからユーザーにメッセージを送信します
 
-どちらの場合も、管理者またはユーザーは、[!DNL Workfront] の右上隅にある番号付きアイコン ![](assets/notifications-icon-jewel.jpg) をクリックして、通知のリストを開き、メッセージの件名行にメガフォンのアイコン ![](assets/announcement.png) と「[!UICONTROL お知らせ]」と表示されます。
+どちらの場合も、管理者またはユーザーが、[!DNL Workfront] ージの右上隅にある番号付きアイコン ![ 通知アイコン ](assets/notifications-icon-jewel.jpg) をクリックして通知のリストを開くと、メッセージの件名にメガホンアイコン ![ 通知アイコン ](assets/announcement.png)、「お知らせ [!UICONTROL  という単語が表示され ] す。
 
 ![[!UICONTROL お知らせ]通知](assets/notification-list-announcement-350x271.png)
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## [!UICONTROL 作業アイテム]通知
 
-[!DNL Workfront] の右上隅にある番号付きアイコン ![](assets/notifications-icon-jewel.jpg) をクリックして通知のリストを開き、作業アイテムメッセージの件名行に、何に関するかを示すアイコンと簡単な説明が表示されます。アイコンと説明のタイプを次に示します。
+[!DNL Workfront] ージの右上隅にある番号付きアイコン ![ 通知アイコン ](assets/notifications-icon-jewel.jpg) をクリックして、通知のリストを開くと、作業項目メッセージの件名に、内容を示すアイコンと簡単な説明が表示されます。 アイコンと説明のタイプを次に示します。
 
 ![作業アイテムの通知](assets/notification-list-work-items-350x247.png)
 
@@ -56,12 +56,12 @@ ht-degree: 100%
 
 ### [!UICONTROL 承認]
 
-* ![](assets/prjneedsapprvl.png) [!UICONTROL プロジェクトに承認が必要です] - [送信者の名前]
-* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL タスクに承認が必要です] - [送信者の名前]
-* ![](assets/issue.png) [!UICONTROL イシューに承認が必要です] - [送信者の名前]
-* ![](assets/document.png) [!UICONTROL ドキュメントに承認が必要です] - [送信者の名前]
-* ![](assets/proof.png) [!UICONTROL プルーフに承認が必要です] - [送信者の名前]
-* ![](assets/timesheet.png) [!UICONTROL タイムシートに承認が必要です] - [送信者の名前]
+* ![ プロジェクトには承認が必要です ](assets/prjneedsapprvl.png)[!UICONTROL  プロジェクトには承認が必要です ] - [ 送信者名 ]
+* ![ 自分に割り当てられたタスク ](assets/icon-taskassngdtoyou.png) [!UICONTROL  タスクに承認が必要 ] - [ 送信者名 ]
+* ![ 問題アイコン ](assets/issue.png)[!UICONTROL  問題には承認が必要 ] - [ 送信者名 ]
+* ![ ドキュメントアイコン ](assets/document.png)[!UICONTROL  ドキュメントには承認が必要 ] - [ 送信者名 ]
+* ![Proof アイコン ](assets/proof.png)[!UICONTROL Proof にあなたの承認が必要 ] - [ 送信者名 ]
+* ![ タイムシートアイコン ](assets/timesheet.png)[!UICONTROL  タイムシートにあなたの承認が必要 ] - [ 送信者名 ]
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/portfolio.png"> You need to approve a portfolio</li>
@@ -69,79 +69,79 @@ ht-degree: 100%
 
 * [オブジェクト名] [!UICONTROL  にアクセスの承認が必要です] - [送信者の名前]
 
-  オブジェクトは、![](assets/prjneedsapprvl.png) プロジェクト、![](assets/icon-taskassngdtoyou.png) タスク、![](assets/issue.png) イシュー、![](assets/document.png) ドキュメント、レポート、ダッシュボード、![](assets/portfolio.png) ポートフォリオ、![](assets/program.png) プログラムまたはカレンダーである場合があります。
+  オブジェクトは、![ プロジェクトに承認が必要 ](assets/prjneedsapprvl.png) プロジェクト、![ 自分に割り当てられたタスク ](assets/icon-taskassngdtoyou.png) タスク、![ イシューアイコン ](assets/issue.png) イシュー、![ ドキュメントアイコン ](assets/document.png) ドキュメント、レポート、ダッシュボード、![Portfolio](assets/portfolio.png) ポートフォリオ、![ プログラム ](assets/program.png) プログラム、カレンダーです。
 
-* ![](assets/timesheet.png) [!UICONTROL タイムシートが承認されました] - [承認者の名前]
-* ![](assets/timesheet.png) [!UICONTROL タイムシートが却下されました] - [承認者の名前]
-* ![](assets/timesheet.png) [!UICONTROL タイムシートが再開しました] - [開封者の名前]
-* ![](assets/timesheet.png) [!UICONTROL タイムシートコメント] - [コメンターの名前]
-* ![](assets/document.png) [!UICONTROL ドキュメントの承認が完了しました] - [送信者の名前]
-* ![](assets/document.png) [!UICONTROL ドキュメントは承認されました] - [送信者の名前]
-* ![](assets/document.png) [!UICONTROL ドキュメントの変更が承認されました] - [送信者の名前]
-* ![](assets/document.png) [!UICONTROL ドキュメント拒否] - [送信者の名前]
-* ![](assets/document.png) [!UICONTROL ドキュメントの承認要求がキャンセルされました] - [送信者の名前]
+* ![ タイムシートアイコン ](assets/timesheet.png)[!UICONTROL  タイムシートが承認されました ] - [ 承認者の名前 ]
+* ![ タイムシートアイコン ](assets/timesheet.png)[!UICONTROL  タイムシート拒否 ] - [ 承認者の名前 ]
+* ![ タイムシートアイコン ](assets/timesheet.png)[!UICONTROL  タイムシートが再オープンされました ] - [ オープナーの名前 ]
+* ![ タイムシートアイコン ](assets/timesheet.png)[!UICONTROL  タイムシートコメント ] - [ コメンターの名前 ]
+* ![ ドキュメントアイコン ](assets/document.png)[!UICONTROL  ドキュメントの承認完了 ] - [ 送信者名 ]
+* ![ ドキュメントアイコン ](assets/document.png)[!UICONTROL  ドキュメント承認済み ] - [ 送信者名 ]
+* ![ ドキュメントアイコン ](assets/document.png)[!UICONTROL  変更を承認済みのドキュメント ] - [ 送信者名 ]
+* ![ ドキュメントアイコン ](assets/document.png)[!UICONTROL  ドキュメントの却下 ] - [ 送信者名 ]
+* ![ ドキュメントアイコン ](assets/document.png)[!UICONTROL  ドキュメント承認要求がキャンセルされました ] - [ 送信者名 ]
 
 ### [!UICONTROL リクエスト]
 
-* ![](assets/document.png) [ユーザーアイコン] [!UICONTROL ドキュメントのアップロードを依頼されました] - [リクエスターの名前]
-* ![](assets/document.png) [!UICONTROL ドキュメントのアップロード要求が果たされました] - [フルフィラーの名前]
-* ![](assets/user.png) [!UICONTROL コメントを要求する] - 送信者名
-* ![](assets/document.png) [!UICONTROL ドキュメントのアップロード依頼がキャンセルされました] - [送信者の名前]
+* ![ ドキュメントアイコン ](assets/document.png)[ ユーザーアイコン ][!UICONTROL  ドキュメントのアップロードを依頼されました ] - [ 要求者の名前 ]
+* ![ ドキュメントアイコン ](assets/document.png)[!UICONTROL  ドキュメントのアップロードリクエストの処理が完了しました ] - [ フルフィラーの名前 ]
+* ![ ユーザーアイコン ](assets/user.png)[!UICONTROL  コメントをリクエスト ] – 送信者名
+* ![ ドキュメントアイコン ](assets/document.png)[!UICONTROL  ドキュメントのアップロードリクエストがキャンセルされました ] - [ 送信者名 ]
 * [オブジェクト名] [!UICONTROL  のアクセスが要求されました] - [送信者の名前]
 
-  オブジェクトは、![](assets/prjneedsapprvl.png) プロジェクト、![](assets/icon-taskassngdtoyou.png) タスク、![](assets/issue.png) イシュー、![](assets/document.png) ドキュメント、レポート、ダッシュボード、![](assets/portfolio.png) ポートフォリオ、![](assets/program.png) プログラムまたはカレンダーである場合があります。
+  オブジェクトは、![ プロジェクトに承認が必要 ](assets/prjneedsapprvl.png) プロジェクト、![ 自分に割り当てられたタスク ](assets/icon-taskassngdtoyou.png) タスク、![ イシューアイコン ](assets/issue.png) イシュー、![ ドキュメントアイコン ](assets/document.png) ドキュメント、レポート、ダッシュボード、![Portfolio](assets/portfolio.png) ポートフォリオ、![ プログラム ](assets/program.png) プログラム、カレンダーです。
 
 ### [!UICONTROL 割り当て]
 
-* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL  自分に割り当てられたタスク] - [担当者の名前]
-* ![](assets/issue.png) [!UICONTROL  自分に割り当てられたイシュー] - [担当者の名前]
-* ![](assets/issue.png)[!UICONTROL イシューの割り当て先]／[チーム名] - [任命者の名前]
-* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL タスクの割り当て先]／[チーム名] - [任命者の名前]
+* ![ 自分に割り当てられたタスク ](assets/icon-taskassngdtoyou.png)[!UICONTROL  自分に割り当てられたタスク ] - [ 割り当て元の名前 ]
+* ![ イシューアイコン ](assets/issue.png)[!UICONTROL  割り当てられたイシュー ] - [ 割り当て者名 ]
+* ![ イシューアイコン ](assets/issue.png)[!UICONTROL  割り当て先のイシュー ][ チーム名 ] - [ 割り当て者名 ]
+* ![ 自分に割り当てられたタスク ](assets/icon-taskassngdtoyou.png)[!UICONTROL  自分に割り当てられたタスク ][ チーム名 ] - [ 割り当て者名 ]
 
-   * 割り当て通知は、プロジェクトステータスが[!UICONTROL 現在]（またはこれと同等な[!UICONTROL 現在）]に設定されている場合にのみ送信されます。
+   * 割り当て通知は、プロジェクトの状態が [!UICONTROL  現在 ] （または [!UICONTROL  現在 ] と同等のカスタム状態）に設定されている場合にのみ送信されます。
    * 依頼者とレビュアーに作業が割り当てられることを目的としたものではありません。したがって、タスクやタスクに割り当てられた場合は通知されません。
    * 自分自身または所属するチームに作業を割り当てた場合、通知は受け取りません。
 
 ### [!UICONTROL コメント]
 
-* ![](assets/user.png)[オブジェクト名]／[!UICONTROL コメント] - [コメンターの名前]
+* ![ ユーザーアイコン ](assets/user.png) [ オブジェクト名 ] [!UICONTROL  コメント ] - [ コメンターの名前 ]
 
-  オブジェクトは、![](assets/prjneedsapprvl.png) プロジェクト、![](assets/icon-taskassngdtoyou.png) タスク、![](assets/issue.png) イシュー、![](assets/document.png) ドキュメント、レポート、ダッシュボード、![](assets/portfolio.png) ポートフォリオ、![](assets/program.png) プログラム、またはカレンダーである場合があります。
-
-* [オブジェクト名]／[!UICONTROL アップデート] - [アップデート実行者の名前]
-
-  オブジェクトは、![](assets/prjneedsapprvl.png) プロジェクト、![](assets/icon-taskassngdtoyou.png) タスク、![](assets/issue.png) イシュー、![](assets/document.png) ドキュメント、レポート、ダッシュボード、![](assets/portfolio.png) ポートフォリオ、![](assets/program.png) プログラム、またはカレンダーである場合があります。
+  オブジェクトは、![ プロジェクトに承認が必要 ](assets/prjneedsapprvl.png) プロジェクト、![ 自分に割り当てられたタスク ](assets/icon-taskassngdtoyou.png) タスク、![ イシューアイコン ](assets/issue.png) イシュー、![ ドキュメントアイコン ](assets/document.png) ドキュメント、レポート、ダッシュボード、![Portfolio](assets/portfolio.png) ポートフォリオ、![ プログラム ](assets/program.png) プログラム、カレンダーです。
 
 * [オブジェクト名]／[!UICONTROL アップデート] - [アップデート実行者の名前]
 
-  オブジェクトは、![](assets/prjneedsapprvl.png) プロジェクト、![](assets/icon-taskassngdtoyou.png)タスク、![](assets/issue.png) イシュー、![](assets/document.png) ドキュメント、レポート、ダッシュボード、![](assets/portfolio.png) ポートフォリオ、![](assets/program.png) プログラム、またはカレンダーである場合があります。
+  オブジェクトは、![ プロジェクトに承認が必要 ](assets/prjneedsapprvl.png) プロジェクト、![ 自分に割り当てられたタスク ](assets/icon-taskassngdtoyou.png) タスク、![ イシューアイコン ](assets/issue.png) イシュー、![ ドキュメントアイコン ](assets/document.png) ドキュメント、レポート、ダッシュボード、![Portfolio](assets/portfolio.png) ポートフォリオ、![ プログラム ](assets/program.png) プログラム、カレンダーです。
 
-* ![](assets/user.png)[!UICONTROL コメントに「いいね！」しました] - [「いいね！」した人の名前]
-* ![](assets/timesheet.png)[!UICONTROL タイムシートコメント] - [コメントした人の名前]
+* [オブジェクト名]／[!UICONTROL アップデート] - [アップデート実行者の名前]
+
+  オブジェクトは、![ プロジェクトに承認が必要 ](assets/prjneedsapprvl.png) プロジェクト、![ 自分に割り当てられたタスク ](assets/icon-taskassngdtoyou.png) タスク、![ イシューアイコン ](assets/issue.png) イシュー、![ ドキュメントアイコン ](assets/document.png) ドキュメント、レポート、ダッシュボード、![Portfolio](assets/portfolio.png) ポートフォリオ、![ プログラム ](assets/program.png) プログラム、カレンダーです。
+
+* ![ ユーザーアイコン ](assets/user.png)[!UICONTROL  あなたのコメントが「いいね！」 ] - [liker&#39;s name]
+* ![ タイムシートアイコン ](assets/timesheet.png)[!UICONTROL  タイムシートコメント ] - [ コメンターの名前 ]
 * [!UICONTROL コメント] - [コメントした人の名前]
-* ![](assets/user.png)[!UICONTROL コメント] - コメントした人の名前
-* ![](assets/timesheet.png)[!UICONTROL タイムシートコメント] - コメントした人の名前
+* ![ ユーザーアイコン ](assets/user.png)[!UICONTROL  コメント ] - コメントセンター名
+* ![ タイムシートアイコン ](assets/timesheet.png)[!UICONTROL  タイムシートコメント ] - コメント名
 
 ### [!UICONTROL アップデート]
 
-* ![](assets/user.png)[!UICONTROL コメントにタグ付けしました] - [タグ付けした人の名前]
-* ![](assets/user.png)[!UICONTROL コメントにチームをタグ付けしました] - [タグ付けした人の名前]
-* ![](assets/user.png)[!UICONTROL コメントにチームをタグ付けしました] - [タグ付けした人の名前]
+* ![ ユーザーアイコン ](assets/user.png)[!UICONTROL  コメントでタグ付け ] - [ タガーの名前 ]
+* ![ ユーザーアイコン ](assets/user.png)[!UICONTROL  コメントでチームをタグ付け ] - [ タガーの名前 ]
+* ![ ユーザーアイコン ](assets/user.png)[!UICONTROL  コメントでチームをタグ付け ] - [ タガーの名前 ]
 
 ### [!UICONTROL 日付変更]
 
-* ![](assets/issue.png)[!UICONTROL イシューの期限が変更されました] - [変更した人の名前]
-* ![](assets/icon-taskassngdtoyou.png)[!UICONTROL タスクの期限が変更されました] - [変更した人の名前]
-* ![](assets/issue.png)[!UICONTROL イシューのコミット日が変更されました] - [変更した人の名前]
-* ![](assets/icon-taskassngdtoyou.png)[!UICONTROL タスクのコミット日が変更されました] - [変更した人の名前]
+* ![ 問題アイコン ](assets/issue.png)[!UICONTROL  問題の期日が変更されました ] - [ チェンジャ名 ]
+* ![ 自分に割り当てられたタスク ](assets/icon-taskassngdtoyou.png)[!UICONTROL  タスクの期限が変更されました ] - [ チェンジャ名 ]
+* ![ 問題アイコン ](assets/issue.png)[!UICONTROL  問題のコミット日が変更されました ] - [ チェンジャ名 ]
+* ![ 自分に割り当てられたタスク ](assets/icon-taskassngdtoyou.png)[!UICONTROL  タスクのコミット日が変更されました ] - [ チェンジャ名 ]
 
 ### [!UICONTROL 共有]
 
-* ![](assets/document.png)[!UICONTROL 自分と共有されたドキュメント] - [共有者の名前]
-* ![](assets/document.png)[!UICONTROL ドキュメントの共有先]／[チーム名] - [共有者の名前]
-* ![](assets/proof.png)[!UICONTROL 自分と共有されたプルーフ] - [共有者の名前]
+* ![ ドキュメントアイコン ](assets/document.png)[!UICONTROL  共有ドキュメント ] - [ 共有者の名前 ]
+* ![ ドキュメントアイコン ](assets/document.png)[!UICONTROL  共有先ドキュメント ] [ チーム名 ] - [ 共有者の名前 ]
+* ![Proof アイコン ](assets/proof.png)[!UICONTROL  あなたと共有された Proof] - [ 共有者の名前 ]
 
 ### [!UICONTROL その他]
 
-* ![](assets/error.png)[!UICONTROL 注意が必要なエラー]
-* ![](assets/announcement.png)[!UICONTROL お知らせ] - [Workfront 管理者名]
+* ![ エラーアイコン ](assets/error.png)[!UICONTROL  エラーには注意が必要です ]
+* ![ お知らせアイコン ](assets/announcement.png) [!UICONTROL  お知らせ ] - [Workfrontの管理者名 ]

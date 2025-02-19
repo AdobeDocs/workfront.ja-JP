@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: オブジェクトへのリマインダ通知の添付
-description: 「リマインダー通知は、プロジェクト、タスク、問題、タイムシート、テンプレート、テンプレートタスク、定期タイムシートプロファイルといった、複数のオブジェクトタイプに関連付けることができます。」
+description: リマインダー通知は、プロジェクト、タスク、問題、タイムシート、テンプレート、テンプレートタスク、定期タイムシートプロファイルといった、複数のオブジェクトタイプに関連付けることができます。
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 85%
+source-wordcount: '290'
+ht-degree: 82%
 
 ---
 
@@ -56,14 +56,14 @@ ht-degree: 85%
 ## オブジェクトへのリマインダー通知の添付
 
 1. リマインダー通知を添付するオブジェクトに移動します。
-1. 編集アイコン ![](assets/edit-icon.png) をクリックします。
+1. 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. 表示される&#x200B;**[!UICONTROL 編集]**&#x200B;ボックスの左側のパネルで、「**[!UICONTROL 設定]**」をクリックします。
 
 1. **[!UICONTROL リマインダー通知]**&#x200B;の下に、オブジェクトに添付する通知を選択します。
 
    この例では、編集中のオブジェクトはタスクです。
 
-   ![](assets/reminder-notification-select-one-350x213.png)
+   ![ リマインダ通知 ](assets/reminder-notification-select-one-350x213.png)
 
    [!DNL Workfront] 管理者が複数のリマインダー通知を作成した場合、単一のオブジェクトに複数の通知を添付できます。
 

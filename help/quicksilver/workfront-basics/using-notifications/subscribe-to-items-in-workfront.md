@@ -5,10 +5,10 @@ description: Adobe Workfront では、ユーザーが割り当てられている
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '1574'
-ht-degree: 100%
+source-wordcount: '1603'
+ht-degree: 91%
 
 ---
 
@@ -75,12 +75,12 @@ ht-degree: 100%
    >
    >プロジェクトに登録するには、次のいずれかを行います。
    >
-   >* 登録するプロジェクトに移動し、プロジェクト名の右側にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコン ![](assets/qs-more-menu.png) をクリックしたあと、「**[!UICONTROL 登録]**」をクリックします。
-   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある&#x200B;**[!UICONTROL その他]** アイコン ![](assets/qs-more-menu.png) をクリックしたあと、「**[!UICONTROL 登録]**」をクリックします。これは、プロジェクトのリストでのみ使用できます。
+   >* 購読するプロジェクトに移動し、プロジェクト名の右側にある **[!UICONTROL その他]** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。
+   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **[!UICONTROL 詳細]** アイコン ![ 詳細メニュー ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。 これは、プロジェクトのリストでのみ使用できます。
 
-1. **[!UICONTROL その他]**&#x200B;アイコン ![](assets/more-icon.png) をクリックしたあと、「**[!UICONTROL 登録]**」をクリックします。
+1. **[!UICONTROL その他]**![ その他アイコン ](assets/more-icon.png) をクリックしてから、**[!UICONTROL 購読]** をクリックします。
 
-   ![](assets/subscribe-to-a-work-item-350x258.png)
+   ![ 作業アイテムの購読 ](assets/subscribe-to-a-work-item-350x258.png)
 
    ベルにチェックマークが表示され、その横の番号が更新されて、登録済みユーザー数に追加されます。
 
@@ -102,12 +102,12 @@ ht-degree: 100%
    >
    >プロジェクトへの登録を解除するには、次のいずれかの操作を実行します。
    >
-   >* 登録解除元のプロジェクトに移動し、プロジェクト名の右側にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコン ![](assets/qs-more-menu.png) をクリックして、「**[!UICONTROL 登録解除]**」をクリックします。
-   >* プロジェクトリストまたはレポートに移動して、プロジェクトを選択し、リストの上部にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコン ![](assets/qs-more-menu.png) をクリックして、「**[!UICONTROL 登録解除]**」をクリックします。これは、プロジェクトのリストでのみ使用できます。
+   >* 購読解除するプロジェクトに移動し、プロジェクト名の右側にある **[!UICONTROL 詳細]** アイコン ![ 詳細アイコン ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 購読解除]** をクリックします。
+   >* プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **[!UICONTROL 詳細]** アイコン ![ 詳細アイコン ](assets/qs-more-menu.png) をクリックしてから、**[!UICONTROL 登録解除]** をクリックします。 これは、プロジェクトのリストでのみ使用できます。
 
-1. 「**[!UICONTROL その他]**」![](assets/more-icon.png) をクリックしてから、「**[!UICONTROL 登録解除]**」をクリックします。
+1. **[!UICONTROL その他]**![ その他アイコン ](assets/more-icon.png) をクリックしてから、**[!UICONTROL 登録解除]** をクリックします。
 
-   ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![ 作業アイテムの登録解除 ](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. 登録メールにある「[!UICONTROL 登録解除]」リンクをクリックして、登録している項目から登録解除することもできます。
 
@@ -136,7 +136,7 @@ ht-degree: 100%
    >   
    >* プロジェクトリストまたはレポートに移動し、プロジェクトを選択します。
 
-1. **[!UICONTROL その他]**![](assets/more-icon.png)をクリックします。
+1. **[!UICONTROL その他]** アイコン ![ をクリック ](assets/more-icon.png) ます。
 1. **[!UICONTROL 登録]**&#x200B;リンクの横にある数字の吹き出しをクリックします。
 1. 表示されるボックスで、「**[!UICONTROL 他のユーザーを登録]**」ボックスにユーザーの名前を入力し、表示されたオプションからユーザーを選択します。
 
@@ -159,7 +159,7 @@ ht-degree: 100%
    >   
    >* プロジェクトリストまたはレポートに移動し、プロジェクトを選択します。
 
-1. **[!UICONTROL その他]** ![](assets/more-icon.png) をクリックします。
+1. **[!UICONTROL その他]** アイコン ![ をクリック ](assets/more-icon.png) ます。
 1. **[!UICONTROL 登録]**&#x200B;リンクまたは&#x200B;**[!UICONTROL 登録解除]**&#x200B;リンクの横にある数字の吹き出しをクリックします。
 1. 表示される&#x200B;**[!UICONTROL サブスクライバー]**&#x200B;ページで、登録解除するユーザー名の横にある「X」をクリックします。
 
@@ -175,7 +175,7 @@ ht-degree: 100%
 
 登録している項目に他のユーザーがコメントを投稿すると、すぐにアプリ内通知が届きます。
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![ アプリ内通知 ](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 詳しくは、[アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)を参照してください。
 

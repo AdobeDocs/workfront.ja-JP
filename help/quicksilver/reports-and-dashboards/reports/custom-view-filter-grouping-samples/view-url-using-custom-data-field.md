@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「表示：カスタムデータフィールドを使用した外部 URL」
+title: 表示：カスタムデータフィールドを使用した外部 URL
 description: タスクビューで「カスタム URL」という名前の計算済みカスタムフィールドを使用して、内部カスタム URL へのリンクを表示できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 80%
+source-wordcount: '547'
+ht-degree: 79%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 80%
 
 以下の例のタスク&#x200B;**ビュー**&#x200B;では、「カスタム URL」と呼ばれる&#x200B;**計算済みカスタムフィールド**&#x200B;が「**詳細**」タブ内の「**概要**」サブタブおよびタスクの「**URL**」フィールドへの直接リンクとして表示されます。
 
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
+（assets/task-view-with-custom-url-field-quicksilver-350x70.png）
 
 このビューをカスタマイズするには、次の手順に従います。
 

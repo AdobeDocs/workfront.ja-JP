@@ -7,10 +7,10 @@ description: この記事では、ユーザープロファイルでメール通�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 98%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
@@ -67,13 +67,13 @@ Adobe [!DNL Workfront] 管理者は、Workfront でイベントが発生した�
 
 {{step1-click-profile-pic}}
 
-1. 自分の名前の横にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、「**[!UICONTROL 編集]**」をクリックします。
+1. 名前の横にある **[!UICONTROL その他]** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックしてから、「編集 **[!UICONTROL をクリックし]** す。
 
 1. 表示される&#x200B;**[!UICONTROL ユーザーの編集]**&#x200B;ボックスで、「**[!UICONTROL 通知]**」セクションに移動します。
 
 1. カテゴリをクリックすると、そのカテゴリに関連する通知設定が表示されます。
 
-   ![](assets/my-profile-notifications.png)
+   ![ マイプロファイルの通知 ](assets/my-profile-notifications.png)
 
 1. 右側のチェックボックスを選択または選択解除して、通知を毎日、即時、またはその両方で受信するかどうかを指定します。
 
@@ -90,13 +90,13 @@ Adobe [!DNL Workfront] 管理者は、Workfront でイベントが発生した�
 
 1. 日刊ダイジェストとして送信する通知を選択した場合は、その通知を受信する時刻を「**[!UICONTROL 通知]**」セクション上部の&#x200B;**[!UICONTROL この時刻を過ぎると日刊ダイジェストメールを送信]**&#x200B;メニューで選択します。
 
-   ![](assets/digest-time-stamp-my-settings-350x78.png)
+   ![ 日次ダイジェストで時間帯を選択 ](assets/digest-time-stamp-my-settings-350x78.png)
 
    日次ダイジェストには、選択した時間の 24 時間前に通知の条件を満たすイベントが含まれます。通知のタイプごとに、1 通の日刊ダイジェストメールを受け取ります。\
    日次ダイジェストは、システムで配信用にキューに入れられているメールの数に応じて、選択した時間の後に到着する場合があります。一覧に表示される時刻は、ブラウザー設定で指定されたローカル時間です。
 
 1. （オプションおよび条件付き）プレビュー環境でメール通知の設定を変更する場合、**[!UICONTROL このテスト環境からメールを受信]**&#x200B;設定を有効にして、メールを受信します。プレビュー環境からメールが自動的に生成されることはありません。
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![sndbox からメールを受信 ](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。

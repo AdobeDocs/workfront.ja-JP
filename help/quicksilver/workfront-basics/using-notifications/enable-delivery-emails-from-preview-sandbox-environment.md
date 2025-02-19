@@ -5,10 +5,10 @@ description: プレビューサンドボックス環境からメール通知を�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 95%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
    または
 
-   複数のユーザーの場合、Workfront の右上隅で、**[!UICONTROL メインメニュー]**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックして、**[!UICONTROL ユーザー]** ![](assets/users-icon-in-main-menu.png) をクリックします。次に、複数のユーザーを選択して、「**[!UICONTROL 編集]**」をクリックします。
+   複数のユーザーの場合：Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ユーザー]**![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) をクリックします。  次に、複数のユーザーを選択して、「**[!UICONTROL 編集]**」をクリックします。
 
 1. 「**[!UICONTROL 環境設定]**」をクリックします。
 1. **[!UICONTROL このテスト環境から E メールを受信する]**&#x200B;を選択します。
