@@ -4,9 +4,9 @@ description: Adobe Workfront Planning で自動化を構成して、アクティ
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1458'
 ht-degree: 8%
 
 ---
@@ -34,7 +34,7 @@ recommendations: noDisplay, noCatalog
 
 Adobe Workfront Planning で自動化を構成して、アクティブ化すると、Workfront内にオブジェクトを作成したり、計画レコードからトリガーされたときにWorkfront Planning 内にレコードを作成できます。 作成したオブジェクトまたはレコードは、自動処理をトリガーするレコードに自動的に接続されます。
 
-Workfront計画のレコードのページで、自動処理を設定してアクティブにすることができます。 作成された接続オブジェクトは、オートメーションを実行するレコードタイプの接続フィールドに配置されます。
+Workfront Planning のレコードタイプのページで自動処理を設定してアクティブ化できます。 作成された接続オブジェクトは、オートメーションを実行するレコードタイプの接続フィールドに配置されます。
 
 例えば、Workfront Planning キャンペーンを受け取り、Workfrontでプロジェクトを作成して、そのキャンペーンの進行状況を追跡する自動処理を作成できます。 プロジェクトが、キャンペーンの「接続されたプロジェクト」フィールドのWorkfront計画キャンペーンに接続されます。
 
@@ -116,8 +116,7 @@ Workfront計画のレコードのページで、自動処理を設定してア�
 
 ## 自動処理を使用したオブジェクトとレコードの作成に関する考慮事項
 
-* 新しいWorkfront オブジェクトの場合、新しいオブジェクト名は、作成元のレコード名と同じです。
-* 新規 Planning レコードの場合、新規レコードの名前を決定するために使用する元のレコード・フィールドを指定できます。
+* 新しいオブジェクトまたはレコード名は、作成元のレコード名と同じです。
 * 新しいオブジェクトまたはレコードは、同じフィールド内の既存のオブジェクトまたはレコードを上書きしません。 同じレコードに対して同じ自動処理を複数回トリガーすると、以前に作成したオブジェクトに加えて、元のレコードの同じ接続されたフィールドに新しいオブジェクトまたはレコードが追加されます。
 * 自動化では、[ 多対多 ] または [1 対多 ] 接続タイプ フィールドにのみオブジェクトが追加されます。 他のすべての場合、オートメーションはオブジェクトを作成しますが、オートメーションがトリガーされた元のレコードには接続しません。
 
@@ -227,7 +226,7 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
 
 You can configure automations in Adobe Workfront Planning that, when activated, create objects in Workfront or records in Workfront Planning when triggered from a Planning record. The created objects or records are automatically connected to the records you are triggering the automation from. 
 
-You can configure and activate the automation in the record's page in Workfront Planning. The connected object that is created is placed in the connected field of the record type you run the automation from. 
+You can configure and activate the automation in the record type's page in Workfront Planning. The connected object that is created is placed in the connected field of the record type you run the automation from. 
 
 For example, you could create an automation that takes a Workfront Planning campaign and creates a project in Workfront to track that campaign's progress. The project would be connected to the Workfront Planning campaign in the Connected Project field on the campaign.
 
@@ -309,10 +308,10 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about creating objects and records using an automation
 
-* For new Workfront objects, the new object name is the same as the record name from which you create it. 
-* For new Planning records, you can indicate what original record field should be used to determine the new record's name. 
+* The new object or record name is the same as the record name from which you create it. 
 * New objects or records don't override existing ones in the same field. Triggering the same automation multiple times for the same record adds the new objects or records in the same connected field of the original record, in addition to the ones created before. 
-* The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. 
+
+(************hide this for now: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered. ***************)
 
 ## Configure an automation in Workfront Planning
 
@@ -437,7 +436,7 @@ You must configure an automation for a record type in Workfront Planning before 
 
 ## Use a Workfront Planning automation to create an object or a record
 
-1. In Workfront Planning, open the record type page that contains the automation you want to use to autoamtically create and connect records or objects. 
+1. In Workfront Planning, open the record type page that contains the automation you want to use to automatically create and connect records or objects. 
 1. Open the table view. 
 1. Select one or more records.
    

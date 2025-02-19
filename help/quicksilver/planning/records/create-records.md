@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1621'
+ht-degree: 31%
 
 ---
 
@@ -256,10 +256,16 @@ You can import records from other applications by linking them to existing recor
 
 他のレコードとの接続時にレコードを作成するには、次の手順に従います。
 
-1. [ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、Workfront Planning レコードの接続を開始します。 Workfront Planning の次の領域で、接続フィールドからレコードを接続できます：
+1. [ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、Workfront Planning レコードの接続を開始します。 次の領域からレコードを接続できます。
 
-   * テーブル表示
-   * レコードの詳細ページまたはプレビューボックス
+   * Workfront Planning の次の領域の接続フィールド：
+
+      * テーブル表示
+      * レコードの詳細ページまたはプレビューボックス
+
+   * Workfrontのプロジェクト、ポートフォリオまたはプログラムの「計画」セクションの「接続」フィールド。
+
+     詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
 
 1. （条件付き）別のレコードの「接続済みレコード」フィールドから追加しようとしてレコードが見つからない場合は、レコードを検索して、「**+追加**」をクリックします。 「**+追加**」ボタンの後に、接続先のレコードタイプの名前が続きます。 例えば、既存のキャンペーンにブランドを追加する場合は「ブランドを追加」などと入力します。 入力した名前は、「追加」ボタンの後にも続きます。
 

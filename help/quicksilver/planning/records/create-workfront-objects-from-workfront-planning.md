@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '854'
+ht-degree: 12%
 
 ---
 
@@ -64,6 +64,7 @@ Workfront Planning の次の領域の接続フィールドからプロジェク�
 
 * レコードタイプのテーブル表示
 * レコードの詳細ページまたはプレビューボックス
+* レコードの「接続」タブ
 
 Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) を参照してください。
 

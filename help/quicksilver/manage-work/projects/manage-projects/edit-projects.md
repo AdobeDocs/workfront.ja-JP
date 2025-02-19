@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 93%
 
 ---
@@ -169,7 +169,6 @@ ht-degree: 93%
    * [タスク設定](#task-settings)
    * [イシュー設定](#issue-settings)
    * [アクセス](#access)
-   * [ リンクされたフォルダー ](#linked-folders-conditional-availability) （条件付き可用性）
    * <span class="preview">[コメント](#comment)</span>
 
 
@@ -667,22 +666,6 @@ ht-degree: 93%
    </table>
 
 1. 「**保存**」をクリックします。
-
-### リンクされたフォルダー（条件付き可用性） {#linked-folders}
-
-リンクされているフォルダー機能では、Adobe Experience Manager Assets にフォルダーを自動的に作成し、これらのフォルダーを Workfront に接続します。
-
-このセクションは、次のすべてに該当する場合にのみ表示されます。
-
-* 組織が Adobe Admin Console に移行された
-* 組織が Adobe Experience Manager との統合を有効にして設定した
-* このプロジェクトの作成に使用したテンプレートでは、リンクされているフォルダーが有効になっており、設定されています。
-
-リンクされたフォルダーの編集手順については、「[Experience Manager Assets統合でワークフローを使用する ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) 記事の [ プロジェクトのワークフロー値の編集 ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md) を参照してください。
-
->[!NOTE]
->
->リンクされているフォルダーはプロジェクトの作成時に作成されるので、既存のプロジェクトでリンクされているフォルダーのワークフローを編集しても効果はありません。プロジェクトの作成時にこれらの値を編集すると、期待どおりに機能します。
 
 <div class="preview">
 

@@ -6,10 +6,10 @@ description: プロジェクトテンプレートを編集して、プロジェ�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '4720'
-ht-degree: 99%
+source-wordcount: '4809'
+ht-degree: 98%
 
 ---
 
@@ -592,6 +592,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    * [タスク設定](#task-settings)
    * [問題設定](#issue-settings)
    * [アクセス](#access-preview)
+   * [ リンクされたフォルダー ](#linked-folders-conditional-availability) （条件付き可用性）
 
 
 ### テンプレート名{#template-name}
@@ -1030,6 +1031,23 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    このテンプレートを使用してプロジェクトを作成すると、これらの設定はすべて新しいプロジェクトに転送されます。
 
+
+### リンクされたフォルダー（条件付き可用性） {#linked-folders}
+
+リンクされているフォルダー機能では、Adobe Experience Manager Assets にフォルダーを自動的に作成し、これらのフォルダーを Workfront に接続します。
+
+このセクションは、次のすべてに該当する場合にのみ表示されます。
+
+* 組織が Adobe Admin Console に移行された
+* 組織が Adobe Experience Manager との統合を有効にして設定した
+* このテンプレートでは、リンクされたフォルダーが有効化および設定されています。
+
+リンクされたフォルダーの編集手順については、「[Experience Manager Assets統合でワークフローを使用する ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) 記事の [ プロジェクトのワークフロー値の編集 ](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md) を参照してください。
+
+<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
 
 ## テンプレートを一括編集
 

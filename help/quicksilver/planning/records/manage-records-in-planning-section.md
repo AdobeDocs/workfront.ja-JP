@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1475'
 ht-degree: 7%
 
 ---
@@ -84,20 +84,20 @@ Workfrontの次の領域に、Workfrontの計画レコードと、Adobe Workfron
   </tr>
   <tr>
    <td role="rowheader"><p>アクセスレベル設定</p></td>
-   <td> <p>プロジェクト、プログラム、Portfolioへの表示以上のアクセス</p>  
+   <td> <p>プロジェクト、プログラム、ポートフォリオへの表示以上のアクセス</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
    <p>Workfrontで、プロジェクト、ポートフォリオまたはプログラムに対する表示以上の権限 </a> </p> 
-   <p>Workfront Planning で、ワークスペースへのアクセス権を表示して接続レコードを表示するか、またはContribute以上のワークスペースへのアクセス権を表示してレコードを接続または切断 </a> ます。 </p>  
+   <p>Workfront Planning で、ワークスペースへのアクセス権を表示して接続レコードを表示するか、またはワークスペースへの Contribute 以上のアクセス権でレコードを接続または切断 </a> ます。 </p>  
    <p>システム管理者には、未作成のワークスペースを含むすべてのWorkfront Planning ワークスペースに対する権限があります</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontオブジェクトのプランニング・エリアまたはプランニング・セクションを表示するには、メイン・メニューのプランニング・エリアとプロジェクト、ポートフォリオおよびプログラムのプランニング・エリアを含むすべてのユーザー（Workfront管理者を含む）にレイアウト・テンプレートを割り当てる必要があります。 </p> 詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">Adobe計画のアクセスの概要 </a> を参照してください。 </p>  </p>  
+   <td> <p>Workfrontオブジェクトのプランニング・エリアまたはプランニング・セクションを表示するには、メイン・メニューのプランニング・エリアとプロジェクト、ポートフォリオおよびプログラムのプランニング・エリアを含むすべてのユーザー（Workfront管理者を含む）にレイアウト・テンプレートを割り当てる必要があります。 </p> 詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">Adobe計画アクセスの概要 </a> を参照してください。 </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -172,7 +172,10 @@ Workfrontでオブジェクトのページが開きます。
    * レコードがWorkfront オブジェクトに接続されなくなりました。
    * Workfront オブジェクトも、Workfront Planning からレコードの接続されたフィールドから削除されます。
    * 計画レコードに接続されているWorkfront参照フィールドの値も削除されます。
-1. 「**接続**」をクリックすると、接続されたレコードタイプのその他のレコードを接続できます。 詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+1. 「**接続**」をクリックすると、接続されたレコードタイプのその他のレコードを接続できます。
+
+   詳しくは、[レコードの接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
+1. （オプション）接続するレコードが見つからず、追加したい場合は、「**+追加**」をクリックして新しいレコードを追加します。 詳細については、「レコードを作成する」の「他のレコードから接続する際にレコードを作成する [ を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
 
    次のことが発生します。
 
@@ -204,7 +207,7 @@ Workfrontオブジェクトの「Planning 接続」フィールドからWorkfron
 * 正しいアクセス権がある場合は、Planning 接続カスタムフィールドを含むカスタムフォームを、Workfront Planning から接続できるWorkfront オブジェクトに添付する必要があります。
 * Workfront Planning レコードタイプは、まずWorkfront オブジェクトタイプに接続する必要があります。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 * Workfront オブジェクトの Planning 接続フィールドに対するレコードの接続または切断は、Workfront Planning 接続を持つことができるオブジェクトに対してのみ行うことができます。
-* Workfront オブジェクトの Planning 接続フィールドにレコードを接続または接続解除するには、Workfront Planning のワークスペースのContribute権限が必要です。
+* Workfront オブジェクトの Planning 接続フィールドにレコードを接続または切断するには、Workfront Planning のワークスペースの投稿権限が必要です。
 * Workfrontオブジェクトを一括編集する場合は、Planning 接続フィールドを編集できません。
 
 ### 計画接続フィールドタイプからのレコード接続の管理
@@ -233,7 +236,7 @@ Workfrontオブジェクトの「Planning 接続」フィールドからWorkfron
    >
    >フィールドの設定時に選択したオブジェクト以外のWorkfront オブジェクトに関連付けられている Planning 接続フィールドにレコードを追加することはできません。
    >
-   >例えば、プロジェクトのカスタムフォームからPortfolio用に作成された Planning 連携フィールドにレコードを追加することはできません。
+   >例えば、プロジェクトのカスタムフォームからPortfolio用に作成された Planning 接続フィールドにレコードを追加することはできません。
    >
    >フィールドのオブジェクトと選択したオブジェクトが一致しない場合があります。
    >

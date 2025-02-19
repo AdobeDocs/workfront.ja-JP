@@ -7,10 +7,10 @@ description: Adobe Workfront では、タイムライン全体でプロジェク
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 100%
+source-wordcount: '390'
+ht-degree: 95%
 
 ---
 
@@ -32,7 +32,7 @@ Workfront におけるプロジェクトの進捗ステータスは次のとお�
   </tr> 
   <tr> 
    <td>リスクあり</td> 
-   <td> 次の<strong>すべて</strong>が当てはまる場合、プロジェクトの進捗ステータスは<strong>危険あり</strong>です。<ul><li>推定完了日と見込み完了日の両方が未来の日付である</li><li> 推定完了日と見込み完了日の両方が予定完了日より後である</li><li> 推定完了日が見込み完了日より後である</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> 次の<strong>すべて</strong>が当てはまる場合、プロジェクトの進捗ステータスは<strong>危険あり</strong>です。<ul><li>推定完了日と見込み完了日の両方が未来の日付である</li><li> 見込完了日が見込完了日および見込完了日の両方より後です </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>遅れ</td> 
