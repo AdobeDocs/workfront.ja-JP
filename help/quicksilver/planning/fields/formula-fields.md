@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 54%
+source-wordcount: '651'
+ht-degree: 52%
 
 ---
 
@@ -230,16 +230,13 @@ Workfront式の完全なリストについては、[ 計算データ式の概要
 <code>{ID}</code>
 </p>
    </td></tr>
-  <!--
-   <tr> 
+  <tr> 
    <td><strong>JSONELEMENT</strong> </td> 
-   <td> <p>Returns the data from JSON by the provided JSONPath. If the JSONPath doesn't exist in the JSON, an empty result will be returned. </p> <p>The expression is formatted as follows:
+   <td> <p>指定された JSONPath によって JSON からデータを返します。 JSON 内に JSONPath が存在しない場合は、空の結果が返されます。 </p> <p>式は次のようにフォーマットされます。
       <code>JSONELEMENT(JSONString, JSONPathString) </code>
    </p>
    </td></tr>
-   -->
-
-<tr> 
+  <tr> 
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>日付と時刻のタイムゾーンを指定されたタイムゾーンに設定します。</p> <p>式の形式は次のとおりです。
 

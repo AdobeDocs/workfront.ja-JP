@@ -6,10 +6,10 @@ description: プロジェクトは、Adobe Workfront における作業の大き
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 86%
+source-wordcount: '1388'
+ht-degree: 85%
 
 ---
 
@@ -114,7 +114,7 @@ Workfront でプロジェクトを作成するには、次のような方法が�
 
   キックスタートを使用したプロジェクトの読み込みについて詳しくは、[キックスタートシナリオ：シンプルなプロジェクトおよびタスクの読み込みの準備](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)を参照してください。
 
-* Adobe Workfront シナリオプランナーのシナリオからイニシアチブをPublishします。
+* Adobe Workfront シナリオプランナーのシナリオからイニシアチブを公開します。
 
   シナリオプランナーには、次のいずれかが必要です。
 
@@ -129,7 +129,7 @@ Workfront でプロジェクトを作成するには、次のような方法が�
 
   Workfront Planning へのアクセスについて詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-  レコードにプロジェクトを追加して作成する方法については、「Workfront Planning からWorkfront オブジェクトを作成する」の「Workfront Planning のレコードにプロジェクトを関連付ける場合のプロジェクトの作成 [ を参照してください ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  レコードにプロジェクトを追加して作成する方法の詳細については、「レコードに接続する際にWorkfront Planning からWorkfront オブジェクトを作成する [ の「Workfront Planning からレコードにプロジェクトを接続する場合のプロジェクトの作成」を参照してください ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## 前提条件
 

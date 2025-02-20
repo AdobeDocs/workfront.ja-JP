@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '128'
-ht-degree: 74%
+source-wordcount: '142'
+ht-degree: 66%
 
 ---
 
@@ -27,7 +27,8 @@ Adobe Workfront Planning でレコードタイプを作成した後、それら�
 次の記事では、Adobe Workfront Planning でレコードとその情報を作成および管理する方法について説明します。
 
 * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
-* [Workfront Planning からのWorkfrontオブジェクトの作成](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Workfront オブジェクトをレコードに関連付ける際に、Workfront Planning からデータモデルを作成する](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+* [Adobe Workfrontの計画レコードの自動作成を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [レコードの編集](/help/quicksilver/planning/records/edit-records.md)
 * [レコードの削除](/help/quicksilver/planning/records/delete-records.md)
 * [削除されたレコードを復元](/help/quicksilver/planning/records/restore-deleted-records.md)

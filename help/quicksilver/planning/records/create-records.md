@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1621'
-ht-degree: 31%
+source-wordcount: '1801'
+ht-degree: 29%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 31%
 
 # レコードの作成
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -33,8 +33,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 * [他のレコードから接続する際のレコードの作成](#create-records-as-you-connect-them)
 * [リクエストフォームをレコードタイプに送信してレコードを作成](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [レコードタイプを CSV または Excel ファイルから読み込む際のレコードの作成](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-
-<!--* <span class="preview">[Create records by using automations](#create-records-by-using-automations)</span>-->
+* <span class="preview">[ 自動化を使用したレコードの作成 ](#create-records-by-using-automations)</span>
 
 
 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
@@ -246,7 +245,7 @@ You can import records from other applications by linking them to existing recor
 >
 >Workfront プロジェクトおよびポートフォリオをWorkfront Planning レコードに関連付けて作成することは、Planning レコードを他のレコードから関連付けて作成することと似ています。
 >
->Workfront Planning からのWorkfrontオブジェクトの作成の詳細は、[Workfront Planning からのWorkfrontオブジェクトの作成 ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
+>Workfront Planning からWorkfront オブジェクトを作成する方法については、[ レコードに関連付ける際にWorkfront Planning からWorkfront オブジェクトを作成する ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
 
 既存のレコードから新しいレコードを接続して追加するには、次のものが必要です。
 
@@ -267,7 +266,10 @@ You can import records from other applications by linking them to existing recor
 
      詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
 
-1. （条件付き）別のレコードの「接続済みレコード」フィールドから追加しようとしてレコードが見つからない場合は、レコードを検索して、「**+追加**」をクリックします。 「**+追加**」ボタンの後に、接続先のレコードタイプの名前が続きます。 例えば、既存のキャンペーンにブランドを追加する場合は「ブランドを追加」などと入力します。 入力した名前は、「追加」ボタンの後にも続きます。
+1. （条件付き）接続しようとしてもレコードが見つからない場合は、<span class="preview">**+追加**</span> をクリックします
+
+   または
+名前の入力を開始し、「**+追加**」をクリックします。 「**+追加**」ボタンの後に、接続先のレコードタイプの名前が続きます。 例えば、既存のキャンペーンにブランドを追加する場合は「ブランドを追加」などと入力します。 入力した名前は、「追加」ボタンの後にも続きます。
 
    <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
@@ -275,14 +277,12 @@ You can import records from other applications by linking them to existing recor
 
    レコードが作成され、接続されたレコードフィールドに追加されます。
 
-   <!--
-    >[!IMPORTANT]
-    >
-    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
-    >
-    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
-    >
-    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
+   >[!IMPORTANT]
+   >
+   >* レコードから接続する場合、Workfrontで作成できるのは、プロジェクト、ポートフォリオおよびプログラムのみです。
+   >
+   >* Workfront Planning のレコードからグループや会社を関連付ける場合は、それらのグループや会社を作成できません。
+   > 
 
 1. （オプション）作成したレコードを持つレコードタイプのテーブル表示に移動します。 新しいレコードがビューの最後の行に表示されます。
 1. （オプション）テーブル表示で新しいレコードの情報の追加を開始します
@@ -305,17 +305,16 @@ CSV または Excel ファイルを使用してレコードタイプを読み込
 
 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-<!--
 <div class="preview">
 
-## Create records by using automations
+## 自動化を使用したレコードの作成
 
-You can configure automations in Workfront Planning that, when activated, create records when triggered from a Planning record. The created records are automatically connected to the records you are triggering the automation from.
+Workfront Planning で自動化を構成できます。自動化を構成すると、アクティブ化されたときに、Planning レコードからトリガーされたときにレコードが作成されます。 作成したレコードは、自動処理をトリガーするレコードに自動的に接続されます。
 
-You can configure and activate the automation in the record's page in Workfront Planning. The connected record that is created is placed in the connected field of the record type you run the automation from.
+Workfront計画のレコードのページで、自動処理を設定してアクティブにすることができます。 作成された接続済みレコードは、自動処理を実行するレコードタイプの「接続済み」フィールドに配置されます。
 
-For information, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
+詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
 </div>
 
--->
+

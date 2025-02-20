@@ -6,14 +6,13 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2007'
-ht-degree: 54%
+source-wordcount: '2156'
+ht-degree: 50%
 
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # レコードの編集
 
@@ -296,11 +295,11 @@ ht-degree: 54%
 
    テーブル表示で、最初の列の **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) をクリックします。 レコードのプレビューがビューで開きます。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![](assets/details-box.png) 
+   ![](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. （オプション）レコードのタイトルの右側にある **詳細** メニューをクリックし、「名前を変更 **をクリックし** す。 これにより、レコードのタイトルとして表示されるフィールドが更新されます。
 
@@ -321,17 +320,17 @@ ht-degree: 54%
 
    Workfront では、変更を自動的に保存します。
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> （任意）レコードのプレビューボックスの右上隅にある **リアルタイムインジケーター**![](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   レコードに同時にアクセスするすべてのユーザーの名前とアバターがこの領域に表示されます。
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   この設定を無効にすると、アバターと名前はリアルタイムインジケーター領域にリストされ、編集中のフィールドはハイライト表示されません。</span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. （任意） **書き出し** メニューフ ![](assets/export-icon-in-record-details-page.png) ールドをクリックして、レコードの詳細を書き出します。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
@@ -358,8 +357,6 @@ ht-degree: 54%
      ![](assets/contextual-menu-for-record-row.png)
 
      レコードページが開きます。
-
-     <!--update the screen shot below at preview-->
 
      ![](assets/details-page.png)
 
@@ -391,17 +388,17 @@ ht-degree: 54%
 
    Workfront では、変更を自動的に保存します。
 
-   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+1. <span class="preview"> （任意）レコードのページの右上隅にある **リアルタイムインジケーター**![](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
 
-    The names and avatars of all users accessing the record at the same time display in this area.  
+   レコードに同時にアクセスするすべてのユーザーの名前とアバターがこの領域に表示されます。
 
-    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
-    
-    <div class="preview">
+   この設定を無効にすると、アバターと名前はリアルタイムインジケーター領域にリストされ、編集中のフィールドはハイライト表示されません。</span>
 
-    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   <div class="preview">
 
-    </div>-->
+   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+   </div>
 
 1. （任意） **書き出し** メニューフ ![](assets/export-icon-in-record-details-page.png) ールドをクリックして、レコードの詳細を書き出します。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 

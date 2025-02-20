@@ -6,16 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 12%
+source-wordcount: '1140'
+ht-degree: 10%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Workfront Planning <!--as you connect them to records--> からのWorkfront オブジェクトの作成
+# Workfront オブジェクトをレコードに関連付ける際に、Workfront Planning からデータモデルを作成する
 
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
@@ -26,41 +26,29 @@ ht-degree: 12%
 
 {{planning-important-intro}}
 
-<!--
-You can create Adobe Workfront objects from Workfront Planning in the following ways: 
+Workfront Planning からAdobe Workfrontオブジェクトを作成するには、次の方法があります：
 
-* As you try to connect Workfront objects from Planning records
+* Workfront オブジェクトを Planning レコードから接続する場合
 
-    This article describes how to create Workfront objects from Workfront Planning as you try to connect them from Planning records. 
-* <span class="preview">When you use automations from a record's page.</span> 
+  ここでは、Workfront Planning からWorkfrontオブジェクトを作成し、Planning レコードから接続する方法について説明します。
+* <span class="preview"> レコードのページから自動化を使用する場合。</span>
 
-    For information about creating Workfront objects using automations, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
--->
+  <span class="preview"> 自動化を使用したWorkfront オブジェクトの作成については、[Adobe Workfront Planning レコードの自動化を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。</span>
 
 Workfront計画レコードを次のWorkfrontオブジェクト・タイプと関連付けると、Workfront計画から次のタイプのWorkfrontオブジェクトを作成できます。
 
 * プロジェクト
 * ポートフォリオ
-  <!--* <span class="preview">Programs</span>-->
+* <span class="preview">プログラム</span>
 
 >[!IMPORTANT]
 >
->* レコードから接続する場合、Workfrontで作成できるのはプロジェクトとポートフォリオのみです。
+>* レコードから接続する場合、Workfrontで作成できるのは、プロジェクト、ポートフォリオおよび <span class="preview"> プログラム </span> のみです。
 >
->* Workfront Planning のレコードからプログラム、グループまたは会社を関連付ける場合、それらのプログラム、グループまたは会社を作成することはできません。
+>* Workfront Planning のレコードからグループや会社を関連付ける場合は、それらのグループや会社を作成できません。
 >
 
-<!--replace the IMPORTANT above with this when we release programs: 
-
->[!IMPORTANT]
->
->* You can create only projects, portfolios, and <span class="preview">programs</span> in Workfront when connecting them from a record. 
->
->* You cannot create groups or companies when connecting them from a record in Workfront Planning. 
->
--->
-
-Workfront Planning の次の領域の接続フィールドからプロジェクトとポートフォリオを <!--<span class="preview"> and programs </span>--> に接続できます。
+Workfront Planning の次の領域の接続フィールドから、プロジェクト、ポートフォリオ、<span class="preview"> およびプログラムを接続で </span> ます：
 
 * レコードタイプのテーブル表示
 * レコードの詳細ページまたはプレビューボックス
@@ -145,7 +133,7 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レ
 
 既存のレコードから接続して新しいプロジェクトまたはポートフォリオを追加するには、次のものが必要です。
 
-* Workfront プロジェクトまたはポートフォリオ <!--or <span class="preview">programs</span>--> ータに接続されたレコードタイプ。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+* Workfront プロジェクト、ポートフォリオまたは <span class="preview"> プログラム </span> に接続されたレコードタイプ。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 * レコード。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 * この記事の [ アクセス要件 ](#access-requirements) の節で説明しているように、Workfront Planning およびWorkfrontでの正しいアクセス権と権限。
 
@@ -155,7 +143,11 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レ
 
 1. [ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront プロジェクトの接続を開始します。
 
-1. （条件付き） <!--<span class="preview">Click **Add project**</span> Or Start typing the name of a project, then click **Add project** if you cannot find it.--> 別のレコードの「接続されたレコード」フィールドから追加しようとするとプロジェクトが見つからない場合は、名前を追加してから **プロジェクトを追加** をクリックします。 「追加」ボタンの後に、入力したプロジェクト名が続きます。
+1. （条件付き） <span class="preview"> クリック **プロジェクトを追加**</span>
+または
+プロジェクトの名前の入力を開始し、見つからない場合は **プロジェクトを追加** をクリックします。
+
+   別のレコードの「接続されたレコード」フィールドからプロジェクトを追加しようとして、見つからない場合は、名前を追加してから、「**プロジェクトを追加**」をクリックします。 「追加」ボタンの後に、入力したプロジェクト名が続きます。
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
@@ -180,7 +172,11 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レ
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
 
-1. （条件付き） <!--<span class="preview">Click **Add portfolio**</span> Or Start typing the name of a portfolio, then click **Add portfolio** if you cannot find it.--> 別のレコードの接続済みレコードフィールドから追加しようとしたときにポートフォリオが見つからない場合は、名前を追加して、「**ポートフォリオを追加**」をクリックします。 「追加」ボタンの後には、入力したポートフォリオ名も続きます。
+1. （条件付き） <span class="preview"> クリック **ポートフォリオを追加**</span>
+
+   または
+
+   ポートフォリオ名の入力を開始し、見つからない場合は **ポートフォリオを追加** をクリックします。—> 別のレコードの「接続済みレコード」フィールドから追加しようとしたときにポートフォリオが見つからない場合は、名前を追加して、「**ポートフォリオを追加**」をクリックします。 「追加」ボタンの後には、入力したポートフォリオ名も続きます。
 
    ![ 接続フィールドから接続する際にポートフォリオを追加 ](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -188,36 +184,33 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レ
 
 1. （任意）Workfront プランニングから新しいポートフォリオの名前をクリックして、Workfrontでポートフォリオのページを開き、ポートフォリオをさらに更新します。
 
-<!--
-
 <div class="preview">
 
-## Create programs as you connect them with records from Workfront Planning
+## Workfront Planning のレコードにプログラムを関連付ける際に、プログラムを作成します
 
-To create programs as you are connecting them from Planning records: 
+Planning レコードから接続するプログラムを作成するには、次の手順に従います。
 
-1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. [ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) の記事の説明に従って、レコードの詳細ページまたはレコードタイプのテーブルに移動し、Workfront Planning レコードとWorkfront ポートフォリオの接続を開始します。
 
-    ******** at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed." ***********
-    
-1. Click **Add program** 
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
-    Or 
-    
-    Start typing the name of a program, then click **Add program** if you cannot find it. The Add button is followed by the program name you typed. 
+1. 「**プログラムを追加**」をクリックします
 
-    ![Add Workfront program when connecting it from connection field](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+   または
 
-    The **Create program** box opens.
+   プログラム名の入力を開始し、見つからない場合は **プログラムを追加** をクリックします。 「追加」ボタンの後に、入力したプログラム名が続きます。
 
-1. Update the **Program name**. This is a required field.
-1. Choose a **Portfolio** from the drop-down, or start typing the name of a portfolio, then select it when it displays in the list. This is a required field. 
-1. Click **Create**.
+   ![ 接続フィールドから接続する際にWorkfront プログラムを追加する ](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 
-    The program is created and added to the connection field of the record you selected. 
+   **プログラムを作成** ボックスが開きます。
 
-1. (Optional) Click the name of the new program from Workfront Planning to open the program's page in Workfront and make additional updates to it. 
+1. **プログラム名** を更新します。 必須フィールドです。
+1. ドロップダウンから **Portfolio** を選択するか、ポートフォリオの名前の入力を開始し、リストに表示されたら選択します。 必須フィールドです。
+1. 「**作成**」をクリックします。
+
+   プログラムが作成され、選択したレコードの接続フィールドに追加されます。
+
+1. （オプション）Workfront Planning から新しいプログラムの名前をクリックして、Workfrontでプログラムのページを開き、さらに更新を行います。
 
 </div>
 
--->
