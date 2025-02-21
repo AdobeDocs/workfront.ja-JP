@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
+source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 88%
+source-wordcount: '1336'
+ht-degree: 87%
 
 ---
 
@@ -98,7 +98,7 @@ Workfront 用に Admin Console を使用する前に、Console への招待メ�
   >
   >製品プロファイル自体は変更しないでください。
 
-* Adobe Admin Console管理者は、自動割り当てルールを設定して、Adobe製品を組織内のユーザーに割り当てるプロセスを自動化できます。 詳細と手順については、Adobe ドキュメントの [ 自動割り当てルールの管理 ](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) を参照してください。
+* Adobe Admin Console管理者は、自動割り当てルールを設定して、Adobe製品を組織内のユーザーに割り当てるプロセスを自動化できます。 この機能を使用するには、組織をAdobe統合エクスペリエンスに移行する必要があります。 詳細と手順については、Adobe ドキュメントの [ 自動割り当てルールの管理 ](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) を参照してください。
 
 ## Workfront の実稼動インスタンスのユーザーと管理エリアへのアクセス {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
