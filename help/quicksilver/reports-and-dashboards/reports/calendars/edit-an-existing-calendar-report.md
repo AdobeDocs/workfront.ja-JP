@@ -6,9 +6,9 @@ description: プロジェクトへのリンクを追加または削除するこ�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '331'
 ht-degree: 71%
 
 ---
@@ -62,9 +62,11 @@ ht-degree: 71%
 
 {{step1-to-calendars}}
 
-1. （オプション）カレンダーレポートの名前を変更するには、 [!UICONTROL カレンダー名]フィールドをクリックして、必要な変更を加えます。
-   ![ レポート名の変更 ](assets/titlechange-250x230.png)
-他のユーザーやチームとカレンダーレポートを共有した場合、変更されたカレンダー名はカレンダー表示で自動的に更新されます。
+1. （オプション）カレンダーレポートの名前を変更するには、「[!UICONTROL  カレンダー名 ]」フィールドをクリックして必要な変更を行います。 互換性の問題を回避するには、UTF-8 文字のみを使用することをお勧めします。
+
+   ![レポート名の変更](assets/titlechange-250x230.png)
+
+   カレンダーレポートを他のユーザーやチームと共有している場合は、変更したカレンダー名が自動的に共有相手のカレンダービューに反映されます。
 
 1. （オプション）カレンダーレポートにプロジェクトを追加するには、次の手順に従います。
 

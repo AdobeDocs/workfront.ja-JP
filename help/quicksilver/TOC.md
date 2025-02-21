@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 34fe190983a165a69f9dfbb49f619e84f6216fa8
 workflow-type: tm+mt
-source-wordcount: '13034'
-ht-degree: 89%
+source-wordcount: '13007'
+ht-degree: 90%
 
 ---
 
@@ -1487,10 +1487,10 @@ ht-degree: 89%
       * キャンバスダッシュボードのレポートタイプ {#report-types}
          * [キャンバスダッシュボードのレポートタイプの概要](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [キャンバスダッシュボードへの既存のレポートの追加](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-         * [キャンバスダッシュボードでの KPI レポートの作成](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [キャンバスダッシュボードでのグラフレポートの作成](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [キャンバスダッシュボードでのテーブルレポートの作成](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [キャンバスダッシュボードへの承認待ちレポートの追加](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
    * レポート {#reports}
       * [レポート](reports-and-dashboards/reports/reports-overview.md)
       * レポートの基本 {#report-basics}
@@ -2062,7 +2062,7 @@ ht-degree: 89%
       * [レコードページレイアウトの管理](planning/records/manage-the-record-page.md)
       * [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](planning/records/manage-records-in-planning-section.md)
       * [レコードの詳細のエクスポート](planning/records/export-the-record-page.md)
-      * [Workfront Planning からのWorkfrontオブジェクトの作成](planning/records/create-workfront-objects-from-workfront-planning.md)
+      * [Workfront オブジェクトをレコードに関連付ける際に、Workfront Planning からデータモデルを作成する](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Workfrontの計画レコードの自動作成を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront計画リクエスト {#adobe-workfront-planning-requests}
       * [Adobe Workfront Planning リクエスト：記事索引](planning/requests/requests-article-index.md)

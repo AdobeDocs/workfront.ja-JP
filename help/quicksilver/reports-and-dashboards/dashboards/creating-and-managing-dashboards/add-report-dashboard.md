@@ -6,10 +6,10 @@ description: レポートを新規または既存のダッシュボードに、�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '324'
-ht-degree: 96%
+source-wordcount: '345'
+ht-degree: 86%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 <!-- Audited: 1/2025 -->
 
-レポートを新規または既存のダッシュボードに、レポートから直接追加できます。また、[ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)で説明されるように、既存レポートをダッシュボードに追加できます。
+レポートを新規または既存のダッシュボードに、レポートから直接追加できます。また、[ ダッシュボードの作成 ](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) で説明しているように、ダッシュボードに既存のレポートを追加することもできます。 1 つのダッシュボードに追加できるレポート、カレンダーまたは外部ページは最大 25 個であることに注意してください。
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 96%
 
 レポートをダッシュボードに追加する前に、レポートを作成する必要があります。
 
-レポートの作成について詳しくは、[レポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)を参照してください。
+レポートの作成について詳しくは、[レポートの作成](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)を参照してください。
 
 ## レポートを既存のダッシュボードに追加
 

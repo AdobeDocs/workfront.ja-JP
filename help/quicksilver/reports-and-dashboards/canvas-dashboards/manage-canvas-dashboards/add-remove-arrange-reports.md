@@ -6,10 +6,10 @@ description: キャンバスダッシュボードを作成したら、様々な�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 24%
+source-wordcount: '555'
+ht-degree: 25%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 24%
 
 1. 表示される **レポートを追加** ウィンドウで、キャンバスダッシュボードに追加するレポートのタイプの下の **追加** をクリックします。
 
-1. 選択したレポートのタイプに基づいて、レポートの設定を続行します。 各タイプのレポートの設定について詳しくは、[ キャンバスダッシュボードのレポートタイプ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md) を参照してください。 セットアップを完了する前にウィンドウを閉じても、空のレポートはキャンバスダッシュボードに追加されます。 空のレポートの中央にある「**設定**」ボタンをクリックすると、後で設定を完了できます。
+1. 選択したレポートのタイプに基づいて、レポートの設定を続行します。 <!--For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md).--> 設定を完了する前にウィンドウを閉じても、空のレポートはキャンバスダッシュボードに追加されます。 空のレポートの中央にある「**設定**」ボタンをクリックすると、後で設定を完了できます。
 
 ## キャンバスダッシュボードでのレポートの移動またはサイズ変更
 

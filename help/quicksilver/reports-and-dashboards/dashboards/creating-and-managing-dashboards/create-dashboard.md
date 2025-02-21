@@ -6,10 +6,10 @@ description: ダッシュボードを作成して、Adobe Workfrontの情報に�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 85%
+source-wordcount: '495'
+ht-degree: 82%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 85%
     <tbody>
      <tr>
       <td role="rowheader"><strong>名前</strong></td>
-      <td><p>ダッシュボードの名前です。</p><p>名前を指定しない場合、ダッシュボード上の最初のレポートの名前がデフォルトでダッシュボードの名前になります。</p></td>
+      <td><p>これはダッシュボードの名前です。 互換性の問題を回避するには、UTF-8 文字のみを使用することをお勧めします。</p><p>名前を指定しない場合、ダッシュボード上の最初のレポートの名前がデフォルトでダッシュボードの名前になります。</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>説明（オプション）</strong></td>

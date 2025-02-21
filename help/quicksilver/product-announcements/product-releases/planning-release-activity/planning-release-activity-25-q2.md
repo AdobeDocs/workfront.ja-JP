@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '1093'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,56 @@ ht-degree: 3%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## 数式フィールドに追加された新しい式
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 20 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 2 月 20 日（PT）
+
+式フィールドに JSONELEMENT 式を追加しました。 この式は、指定された JSONPath によって JSON からデータを返します。
+
+詳しくは、[数式フィールドの概要](/help/quicksilver/planning/fields/formula-fields.md)を参照してください。
+
+## レコードの詳細プレビューまたはページ内のリアルタイムプレゼンス指標
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 20 日（PT）、高速リリースの実稼動：25.3 リリースの実稼動（2025 年 3 月）、四半期リリースの実稼動：25.4 リリースの実稼動（2025 年 4 月）
+
+レコードのプレビューや詳細ページで作業する際に他のユーザーが編集する情報を理解するために、Workfront Planning のこの領域にリアルタイムプレゼンス指標を導入しました。
+
+別のユーザーが編集したフィールドがハイライト表示され、プレビューまたは詳細ページの右上隅に他のユーザーのアバターが表示されます。
+
+詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+
+## Workfrontオブジェクトを Planning レコードに接続する際のオブジェクトの作成に関する機能強化
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 20 日（PT）、高速リリースの実稼動：25.3 リリースの実稼動（2025 年 3 月）、四半期リリースの実稼動：25.4 リリースの実稼動（2025 年 4 月）
+
+プロジェクト、ポートフォリオおよびプログラムを、既存の接続フィールドからレコードに接続する際に、簡単に作成できるようになりました。
+
+この機能強化では、次の機能を使用できます。
+
+* 計画レコードにWorkfront プロジェクト、ポートフォリオ、または別の計画レコードを接続するときに表示される永続的な「追加」ボタン
+
+* 接続フィールドの永続的な「追加」ボタンを使用して、プログラムを追加し、ポートフォリオに関連付ける機能。
+
+詳しくは、[Workfront計画からのWorkfront オブジェクトの作成 ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
+
+## 既存のレコードに基づいてオブジェクトとレコードを作成するための自動化の設定
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 20 日（PT）、高速リリースの実稼動：25.3 リリースの実稼動（2025 年 3 月）、四半期リリースの実稼動：25.4 リリースの実稼動（2025 年 4 月）
+
+ワークスペースマネージャーとして、レコードタイプのカスタム自動化を設定して、接続されたWorkfront オブジェクトまたは Planning レコードを自動的に作成できるようになりました。
+
+作成されたオブジェクトまたはレコードは、自動化が設定およびトリガーされるレコードに直ちに接続されます。
+
+詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
 ## AI アシスタントのアクションの調査と確認
 
@@ -41,18 +91,6 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 Workfrontの数式フィールドで、ARRAY、ARRAYLENGTH、ARRAYELEMENT の式を使用できるようになりました。 各式の定義と例は、式エディターで参照できます。
 
 詳しくは、[数式フィールドの概要](/help/quicksilver/planning/fields/formula-fields.md)を参照してください。
-
-<!--## Real-time presence indicators in a record's details preview or page
-
->[!NOTE]
->
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
-
-To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
-
-The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
-
-For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
 
 ## Workfront Planning のアイテムをチーム、担当業務、会社と共有する
 
