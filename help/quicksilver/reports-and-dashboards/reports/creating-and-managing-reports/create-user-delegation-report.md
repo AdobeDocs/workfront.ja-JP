@@ -7,10 +7,10 @@ description: ユーザーのデリゲーションレポートの作成
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '326'
-ht-degree: 92%
+source-wordcount: '333'
+ht-degree: 86%
 
 ---
 
@@ -83,11 +83,11 @@ Adobe Workfront では、ユーザーがプロジェクト、タスクおよび�
 
 ## ユーザーのデリゲーションレポートの作成
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**レポート**」をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. 「**新規レポート**」をクリックし、「**ユーザーのデリゲーション**」を選択します。
 
-   ![](assets/classic-new-report-user-delegation-350x644.png)
+   ![ 新しいレポートユーザーの委任 ](assets/classic-new-report-user-delegation-350x644.png)
 
    次のフィールドは、デフォルトでこのレポートに表示されます。
 

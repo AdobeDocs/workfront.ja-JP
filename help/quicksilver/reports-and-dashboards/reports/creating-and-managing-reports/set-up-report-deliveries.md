@@ -6,10 +6,10 @@ description: レポート配信の概要
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
-ht-degree: 100%
+source-wordcount: '1534'
+ht-degree: 99%
 
 ---
 
@@ -189,7 +189,7 @@ Workfront から PDF または Excel 形式にレポートを送信する場合�
 
 * レポートオブジェクトの&#x200B;**フィルター**&#x200B;の場合、レポートのリストまたは&#x200B;*スケジュール済みレポート ID が空白ではない*&#x200B;のステートメントを使用して、レポート用のレポートでフィルターを作成します。\
   これにより、リストまたはレポートでスケジュールされたレポートのみが表示されます。\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![ スケジュール済み報告書フィルター ](assets/qs-scheduled-report-filter-350x101.png)\
   レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。レポートの作成について詳しくは、[レポートアクティビティに関するレポートの作成](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)を参照してください。
 
 <!--

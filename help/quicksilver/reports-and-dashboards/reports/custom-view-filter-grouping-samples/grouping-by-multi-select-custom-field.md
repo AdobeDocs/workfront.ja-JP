@@ -7,10 +7,10 @@ description: Adobe Workfront レポートの複数選択カスタムフィール
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 83%
+source-wordcount: '518'
+ht-degree: 82%
 
 ---
 
@@ -109,7 +109,7 @@ Adobe Workfront レポートの複数選択カスタムフィールドにおい�
 
    レポート内のオブジェクトは、複数選択カスタムフィールドの値でグループ化されます。
 
-   ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
+   ![ 複数選択フィールドのグループ化 ](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
    レポートのグループ化の名前は、複数選択カスタムフィールドの名前に続いて、フィールドで選択された値になります。
 

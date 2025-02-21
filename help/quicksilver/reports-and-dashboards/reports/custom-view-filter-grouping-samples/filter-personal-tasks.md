@@ -7,9 +7,9 @@ description: このタスクフィルターは、ユーザーに送信された�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 22%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 22%
 
 個人のタスクはプロジェクトに接続されていませんが、必要に応じてプロジェクトに移動できます。 詳しくは、[ 個人タスクの作成 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
 
-![](assets/personal-tasks-report.png)
+![ 個人タスクレポート ](assets/personal-tasks-report.png)
 
 ## アクセス要件
 

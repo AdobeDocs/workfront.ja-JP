@@ -7,10 +7,10 @@ description: レポートが Adobe Workfront のダッシュボードに追加�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 100%
+source-wordcount: '652'
+ht-degree: 93%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 レポートリストのダッシュボード情報を使用してビューを作成するには：
 
-1. Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**レポート**」をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 1. レポートのリストで、**表示**&#x200B;ドロップダウンメニューをクリックします。
 1. 「**新しいビュー**」をクリックします。
 1. 「**列を追加**」をクリックします。
@@ -77,13 +77,13 @@ ht-degree: 100%
 
 1. 「**ビューを保存**」をクリックします。\
    レポートが表示されるダッシュボードは、レポートリストのダッシュボード列に表示されます。\
-   ![](assets/qs-dashboards-in-report-view.png)
+   ![ レポートのダッシュボード ](assets/qs-dashboards-in-report-view.png)
 
 ## ダッシュボード情報によるレポートリストのフィルタリング
 
 ダッシュボード情報でレポートのリストをフィルタリングするには：
 
-1. Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**レポート**」をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. レポートのリストで、**フィルター**&#x200B;ドロップダウンメニューをクリックします。
 1. 「**新規フィルター**」をクリックしたあと、「**フィルター規則の追加**」をクリックします。
@@ -93,7 +93,7 @@ ht-degree: 100%
 1. 「**ダッシュボード**」オブジェクトで「**名前**」を選択します。
 
 1. 修飾子ドロップダウンメニューで「**が次に等しい**」を選択し、フィルタリングの条件となるダッシュボードの名前を入力していきます。フィルターには複数のダッシュボードを選択できます。\
-   ![](assets/qs-dashboards-in-report-filters-350x143.png)
+   ![ 報告書フィルターのダッシュボード ](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. 「**保存して閉じる**」をクリックします。\
    これにより、指定したダッシュボードにのみ一覧表示されているレポートのリストが表示されます。\

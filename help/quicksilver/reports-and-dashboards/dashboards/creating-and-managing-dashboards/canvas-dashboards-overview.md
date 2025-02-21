@@ -5,10 +5,10 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 100%
+source-wordcount: '639'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 
 1. 「**ユーザーの表示項目のカスタマイ**」ドロップダウンメニューをクリックして、「**ダッシュボード**&#x200B;をクリックします。
 
-1. 下に表示される&#x200B;**左パネル**&#x200B;のリストで、**キャンバスダッシュボード**&#x200B;の横にある ![](assets/delete-secondary-nav-item.png) アイコンをクリックします。アイコンが ![](assets/add-secondary-nav-item.png) に変わり、ダッシュボードの左パネルに表示されるようになったことがわかります。
+1. 下に表示される **左側のパネル** リストで、**キャンバスダッシュボード ![ の横にある ](assets/delete-secondary-nav-item.png) セカンダリナビゲーション項目を削除** アイコンをクリックします。 アイコンが ![ セカンダリナビゲーション項目を追加 ](assets/add-secondary-nav-item.png) に変わり、ダッシュボードの左側のパネルに表示されることを示します。
 
 1. ウィンドウの下部にある「**保存**」をクリックします。
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 1. レイアウトテンプレートで「キャンバスダッシュボード」オプションが有効になっていることを確認します。手順については、上記の&#x200B;**ダッシュボードの左パネルにキャンバスダッシュボードを追加**&#x200B;を参照してください。
 
-1. メインメニューアイコン ![](assets/main-menu-icon.png) をクリックし、「**ダッシュボード**」をクリックします。
+1. 「メインメニュー」アイコン ![ 「メインメニュー」アイコン ](assets/main-menu-icon.png) をクリックし、「**ダッシュボード**」をクリックします。
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
 

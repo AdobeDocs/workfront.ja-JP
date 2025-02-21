@@ -4,10 +4,10 @@ description: レポートキャンバスでテーブルをフィルタリング
 hidefromtoc: true
 hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '864'
-ht-degree: 100%
+source-wordcount: '871'
+ht-degree: 93%
 
 ---
 
@@ -46,19 +46,19 @@ ht-degree: 100%
 
 ## テーブルのフィルタールールを設定する
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) 、「**レポート**」の順にクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. 「**新規レポート**」をクリックします。
 
    または
 
-   既存のレポートに移動し、レポートのヘッダーで&#x200B;**その他メニュー**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、「**編集**」を選択します。
+   既存のレポートに移動し、レポートヘッダーの **その他メニュー** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックしてから、「**編集** を選択します。
 
 1. 新規テーブルで行をグループ化するには、テーブルブロックをキャンバス上にドラッグまたはダブルクリックします。
 
    または
 
-   既存のテーブルの行をグループ化するには、テーブルのヘッダーで&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+   既存のテーブルの行をグループ化するには、テーブルヘッダーの **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
 1. 右側のパネルで、テーブルのフィルターに使用するフィールドを見つけて、「フィルター」セクションにドラッグします。
 

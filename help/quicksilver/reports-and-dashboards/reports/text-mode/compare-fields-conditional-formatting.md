@@ -6,10 +6,10 @@ description: 条件付き書式を使用すると、ビュー内の 2 つの異�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 87%
+source-wordcount: '469'
+ht-degree: 86%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 87%
 1. ビルダーにある既存の値を使用した比較条件を入力し、条件付き書式を指定します。\
    例えば、実際の開始日が予定開始日より後（または値が予定開始日より大きい）のタスクを強調表示します。「次よりも大きい」修飾子を選択し、日付フィールドで実際の日付を選択します。
 
-   ![](assets/cond-format-1-350x84.png)
+   ![ 実際の開始日の条件付き書式 ](assets/cond-format-1-350x84.png)
 
 1. （オプション）行全体に書式を適用する場合、「**行全体に適用**」を選択します。
 1. **保存**&#x200B;をクリックします。
@@ -104,7 +104,7 @@ ht-degree: 87%
 
 1. コードの`righttext`の行がコードの`rightmethod`の行のステートメントと一致していることを確認します。
 
-   ![](assets/cond-format-2-350x171.png)
+   ![条件付き形式](assets/cond-format-2-350x171.png)
 
 1. 「**保存**」をクリックします。
 1. 「**保存して閉じる**」をクリックします。

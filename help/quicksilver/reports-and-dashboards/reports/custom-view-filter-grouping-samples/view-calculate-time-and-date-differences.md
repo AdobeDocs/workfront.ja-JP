@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '表示：日時の違いを計算'
+title: 表示：日時の差異を計算する
 description: 時間と日付の差異の計算について説明します。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 91%
+source-wordcount: '621'
+ht-degree: 90%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 91%
 
 例えば、タスクの予定完了日と実際の完了日の差を計算できます。
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![ 日付の差異を表示 ](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. タスクのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。
@@ -100,7 +100,7 @@ ht-degree: 91%
 オブジェクトとその親のリストについて詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)にある「相互依存関係とオブジェクトの階層について」の節を参照してください。\
 例えば、タスクの予定完了日と、その親タスクまたはタスクが属するプロジェクトの予定完了日との差を計算できます。
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![ 予定完了日の差異を表示 ](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. タスクのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。

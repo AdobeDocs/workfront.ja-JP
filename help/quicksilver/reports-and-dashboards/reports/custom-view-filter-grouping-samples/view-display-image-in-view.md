@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「表示：列の文字列の代わりに画像を表示」
+title: 表示：列の文字列ではなく画像を表示します
 description: テキストモードを使用して、ビュー内のオブジェクトの名前を画像に置き換えることができます。また、置き換えるオブジェクトを開くためのリンクを画像に追加できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
-ht-degree: 89%
+source-wordcount: '497'
+ht-degree: 84%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 89%
 >
 >画像は実際の解像度で表示されるので、小さな画像を使用してください。
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![ プロジェクト名を画像とリンクに置き換える ](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## アクセス要件
 
@@ -86,7 +86,7 @@ ht-degree: 89%
    1. ブラウザーに応じて「**画像の場所をコピー**」または「**リンクを取得**」を右クリックして選択します。これで、その特定の画像の URL が取得され、クリップボードから貼り付けることができます。
    1. そのリンクを持つユーザー全員がリンクに移動するだけで画像を表示する権限を持ち、そのリンクにアクセスするためにログインする必要がないことを確認します。
 
-1. プロジェクトに移動し、プロジェクト名の横にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-icon-45x33.png)、「**編集**」の順にクリックします。
+1. プロジェクトに移動し、プロジェクト名の横にある **その他** メニュー ![ その他アイコン ](assets/more-icon-45x33.png) をクリックしてから、**編集** をクリックします。
 
 1. 「**URL**」フィールドで、画像にリンクを追加します。
 1. プロジェクトの一覧のプロジェクト ビューに移動します。

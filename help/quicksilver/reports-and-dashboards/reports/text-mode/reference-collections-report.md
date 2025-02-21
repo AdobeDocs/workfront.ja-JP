@@ -6,10 +6,10 @@ description: レポート内のコレクションの参照
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
-ht-degree: 88%
+source-wordcount: '2560'
+ht-degree: 87%
 
 ---
 
@@ -151,7 +151,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
 レポートビューにコレクション列を追加するには、以下の手順を実行します。
 
-1. **メイン**&#x200B;メニュー ![](assets/main-menu-icon.png)、「**レポート**」の順にクリックします。
+1. **メイン** メニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
 1. 「**新規レポート**」をクリックします。
 1. レポートのオブジェクトを選択します。
 1. レポートから移動して、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を選択し、レポート用に選択したオブジェクトに対して使用できるコレクションを決定します。
@@ -236,7 +236,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
 1. 次の列は、プロジェクトレポートに表示され、各プロジェクトのすべてのタスクはプライマリ担当者と共に表示されます。
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![ タスクおよび担当者コレクションを含むプロジェクトレポート ](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. 「**保存**」をクリックします。
 1. （オプション）レポートの編集を続けます。
@@ -309,7 +309,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
 レポートフィルターでコレクションへの参照を追加するには、次の手順に従います。
 
-1. **メイン**&#x200B;メニュー ![](assets/main-menu-icon.png) をクリックし、次に「**レポート**」をクリックします。
+1. **メイン** メニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
 1. 「**新規レポート**」をクリックします。
 1. レポートのオブジェクトを選択します。
 1. レポートから移動して、[API エクスプローラー](../../../wf-api/general/api-explorer.md)を選択し、レポート用に選択したオブジェクトに対して使用できるコレクションを決定します。
@@ -350,7 +350,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
    このレポートには、名前に「マーケティング」という単語を含むタスクが 1 つ以上あるプロジェクトのみが表示されます。
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![ プロジェクトのマーケティングのみのタスク ](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. イシューの名前をフィルタリングするには、次のコードを使用します。
 
@@ -386,7 +386,7 @@ API エクスプローラーテーブルについて詳しくは、[API エク�
 
 レポートのカスタムプロンプトでコレクションへの参照を追加するには：
 
-1. **メイン**&#x200B;メニュー ![](assets/main-menu-icon.png) をクリックし、次に「**レポート**」をクリックします。
+1. **メイン** メニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
 1. 「**新規レポート**」をクリックします。
 1. レポートのオブジェクトを選択します。
 1. この記事の「レポートのフィルターでのコレクションの参照 [ の節で説明しているように、コレクション参照を使用してフィルターを作成 ](#reference-a-collection-in-the-filter-of-a-report) ます。

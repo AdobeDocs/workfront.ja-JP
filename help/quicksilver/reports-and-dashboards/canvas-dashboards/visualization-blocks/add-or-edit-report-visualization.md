@@ -4,10 +4,10 @@ description: レポートキャンバスでビジュアライゼーションブ�
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 100%
+source-wordcount: '437'
+ht-degree: 89%
 
 ---
 
@@ -32,12 +32,12 @@ ht-degree: 100%
 >
 >レポートのブロックを作成および編集すると、すべての変更が自動的に保存されます。
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**レポート**」をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、「**レポート**」をクリックします。
 1. 「**新規レポート**」をクリックし、次にデータを含むテーブルでレポートを作成します。詳しくは、[レポートキャンバスでのレポートの作成](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)および[レポートキャンバスでのテーブルブロックの追加または編集](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)を参照してください。
 
    または
 
-   データを含むテーブルの既存のレポートで、レポートヘッダーにある&#x200B;**その他のメニュー**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、「**編集**」を選択します。
+   データを含むテーブルを持つ既存のレポートで、レポートヘッダーの **その他メニュー** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックし、「**編集**」を選択します。
 
 1. 画面の右側の「**ブロックを追加**」で、次のいずれかを実行します。
 
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 1. （条件付き）レポートに複数のテーブルが含まれている場合、表示される&#x200B;**ビジュアライゼーションを構築**&#x200B;ボックスで、ビジュアライゼーションのソーステーブルを選択します。
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![ ビジュアライゼーションでテーブルを選択 ](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 1. 追加するビジュアライゼーションのタイプを選択します。
 
-   ![](assets/select-vis-type-350x205.png)
+   ![ ビジュアライゼーションタイプを選択 ](assets/select-vis-type-350x205.png)
 
    選択したテーブルのデータを表すビジュアライゼーションが表示されます。
 

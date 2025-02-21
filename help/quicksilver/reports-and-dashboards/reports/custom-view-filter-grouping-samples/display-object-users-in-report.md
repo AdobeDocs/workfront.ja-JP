@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「レポートまたはリスト：オブジェクトに関連付けられたユーザーを表示する」
+title: レポートまたはリスト：オブジェクトに関連付けられたユーザーを表示する
 description: レポートやリストのオブジェクトに関連付けられたユーザー、担当業務、チームを表示し、それらをフィルターで参照することができます。オブジェクトに関連付けられたユーザー、担当業務、またはチームでグループ化することはできません。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 100%
+source-wordcount: '674'
+ht-degree: 97%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 プロジェクトに関連付けられているすべてのユーザーをプロジェクトリストまたはレポートのビューに表示できます。これには、プロジェクトの「ユーザー」セクションに一覧表示されているすべてのユーザーが含まれます。また、プロジェクトのタスクやイシューに割り当てられた際に関連付けられた役割を、プロジェクトレポートで表示することもできます。
 
-![](assets/project-with-user-and-role-information-report-350x100.png)
+![ ユーザーおよび役割に関する情報を含むプロジェクト ](assets/project-with-user-and-role-information-report-350x100.png)
 
 プロジェクト上のすべてのユーザーとその役割を表示するプロジェクトレポートの作成について詳しくは、[表示：担当業務を持つプロジェクトユーザーのリスト](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md)を参照してください。
 
@@ -65,7 +65,7 @@ ht-degree: 100%
 
 「割り当て」フィールドをビューに追加すると、タスクに割り当てられているすべてのユーザー、役割、またはチームをタスクリストまたはレポートのビューに表示できます。
 
-![](assets/assignments-field-task-view-350x124.png)
+![ 割り当てフィールド ](assets/assignments-field-task-view-350x124.png)
 
 タスクフィルター内の次のフィールドを参照すると、タスクに割り当てられたユーザー、担当業務、またはチームでフィルタリングできます。
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 * 割り当てられた役割
 * チーム
 
-![](assets/assignment-users-roles-task-filter-350x334.png)
+![ タスクフィルターでのユーザーと役割の割り当て ](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## イシューに割り当てられているすべてのユーザー、担当業務、またはチームを表示する
 

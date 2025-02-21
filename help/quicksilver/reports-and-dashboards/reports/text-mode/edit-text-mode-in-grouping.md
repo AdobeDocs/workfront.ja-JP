@@ -6,10 +6,10 @@ description: テキストモードを使用して、リストまたはレポー�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 95%
+source-wordcount: '1539'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 95%
 1. 次のいずれかの操作を行います。
 
    1. レポートからグループ化にアクセスするには、レポートに移動し、**レポートアクション**／**編集**／「**グループ化**」タブをクリックします。
-   1. リストからグループ化にアクセスするには、リストに移動し、**グループ化**&#x200B;のドロップダウンメニューから、変更するグループ化にカーソルを合わせて、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+   1. リストからグループ化にアクセスするには、リストに移動して、**グループ化** ドロップダウンメニューから、変更するグループ化にマウスを移動し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
       グループ化ビルダーが開きます。
 

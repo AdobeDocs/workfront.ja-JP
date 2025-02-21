@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「表示：複数の列の情報を 1 つの共有列に結合」
+title: 表示：複数の列の情報を 1 つの共有列に結合
 description: 複数の異なる列に表示される情報を結合し、1 つの共有列に表示できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 80%
+source-wordcount: '1091'
+ht-degree: 79%
 
 ---
 
@@ -95,7 +95,7 @@ ht-degree: 80%
 改行なしで 2 列のデータを結合するには：
 
 1. オブジェクトのリストに移動します。
-1. **ビュー** ドロップダウンからビューを選択し、「**編集**」アイコンをクリックしてビューを編集し ![](assets/edit-icon.png) す。
+1. **ビュー** ドロップダウンからビューを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてビューを編集します。
 1. 結合する最初の列に移動し、**テキストモードに切り替え** > **テキストモードを編集** をクリックします。
 1. 結合する最初の列に次のテキストを追加します。
 
@@ -121,7 +121,7 @@ ht-degree: 80%
    column.3.valueformat=HTML
    ```
 
-   ![](assets/shared-column-no-line-breaks-350x142.png)
+   ![ 改行のない共有列 ](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。
@@ -131,7 +131,7 @@ ht-degree: 80%
 複数の列のデータを結合して、1 つの共通列に表示し、各列の値を改行するには、次の手順を実行します。
 
 1. オブジェクトのリストに移動します。
-1. **ビュー** ドロップダウンからビューを選択し、「**編集**」アイコンをクリックしてビューを編集し ![](assets/edit-icon.png) す。
+1. **ビュー** ドロップダウンからビューを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてビューを編集します。
 1. 結合する 2 列の間に 3 つ目の列を追加します。
 
    >[!TIP]
@@ -182,6 +182,6 @@ ht-degree: 80%
    column.5.valueformat=HTML 
    ```
 
-   ![](assets/shared-column-with-line-breaks-350x199.png)
+   ![ 改行のある共有列 ](assets/shared-column-with-line-breaks-350x199.png)
 
 1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。

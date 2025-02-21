@@ -2,15 +2,15 @@
 content-type: tips-tricks-troubleshooting
 product-area: reporting;user-management
 navigation-topic: tips-tricks-and-troubleshooting-reports
-title: 「フィルター：以前のプルーフのバージョンを削除するプルーフ承認レポート」
+title: フィルター：以前のプルーフのバージョンを除外するプルーフ承認レポート
 description: プルーフの承認レポートでは、「現在のドキュメントのバージョン」フィルターを使用して、承認待ちのプルーフの現在のバージョンのみを含めることができるようになりました。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e844d3ed-75ee-4a0f-a28c-a3d22f203502
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 48%
+source-wordcount: '393'
+ht-degree: 47%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 48%
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   独自のプルーフ承認レポートを作成するには、右上隅にある **メインメニュー** アイコン ![](assets/main-menu-icon.png)、または左上隅にある **メインメニュー** アイコン ![](assets/lines-main-menu.png) をクリックし（使用可能な場合）、「**レポート**」 ![](assets/reports-in-main-menu.png) をクリックします。
+   独自のプルーフ承認レポートを作成するには、右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、または右上隅にある **メインメニュー** アイコン ![ メインメニュー行 ](assets/lines-main-menu.png) をクリックし（使用可能な場合）、**レポート**![ レポートアイコン ](assets/reports-in-main-menu.png) をクリックします。
 
 1. **新しいレポート** をクリックします。 オブジェクトタイプのリストが表示されます。
 1. リストの **プルーフの承認** をクリックします。

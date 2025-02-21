@@ -4,10 +4,10 @@ description: レポートキャンバスでバービジュアライゼーショ�
 hidefromtoc: true
 hide: true
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '347'
-ht-degree: 100%
+source-wordcount: '349'
+ht-degree: 94%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 1. まず、[レポートキャンバスでのビジュアライゼーションブロックを追加または編集](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)の説明に従って、**バー**&#x200B;ビジュアライゼーションタイプを持つビジュアライゼーションブロックをレポートに追加します。
 
-1. ビジュアライゼーションの右上隅にあるビジュアライゼーションの編集アイコン ![](assets/edit-icon.png) をクリックし、次のいずれかの操作を実行します。
+1. ビジュアライゼーションの右上隅にある編集ビジュアライゼーション ![ 編集アイコン ](assets/edit-icon.png) 編集アイコン）をクリックし、次のいずれかの操作を行います。
 
    1. 「**設定**」タブ：
 

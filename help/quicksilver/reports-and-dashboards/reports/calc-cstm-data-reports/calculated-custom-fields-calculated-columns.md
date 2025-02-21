@@ -7,10 +7,10 @@ description: Adobe Workfront で複数のフィールドを集計し、その集
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '815'
-ht-degree: 97%
+source-wordcount: '817'
+ht-degree: 95%
 
 ---
 
@@ -85,7 +85,7 @@ Adobe Workfront で複数のフィールドを集計し、その集計値を新�
 
 ## 計算済みカスタムフィールドの更新をトリガーするアクション
 
-* オブジェクトのメインページでその他アイコン ![](assets/more-icon.png) をクリックし、「**式を再計算**」をクリック
+* オブジェクトのメインページで、「詳細」アイコン ![ 「詳細」アイコン ](assets/more-icon.png) をクリックし、「式を再計算 **をクリックし** す。
 
 * 「**カスタム式を再計算**」が有効になっている場合に複数のオブジェクトを一括編集
 * 計算済みカスタムフィールドに対して「**前の計算を更新**」が有効になっている場合にカスタムフォームを編集

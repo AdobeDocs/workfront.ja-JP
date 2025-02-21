@@ -4,10 +4,10 @@ description: レポートキャンバスでのレポートの書き出し
 hidefromtoc: true
 hide: true
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 100%
+source-wordcount: '183'
+ht-degree: 88%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 ## レポートを書き出す
 
 1. 書き出すレポートに移動します。
-1. レポートのヘッダーで、**その他**&#x200B;アイコン ![](assets/more-icon-27x15.png) をクリックして「**書き出し**」をクリックし、作成するファイル形式を選択します。
+1. レポートのヘッダーで、**その他** アイコン ![ その他のアイコン ](assets/more-icon-27x15.png) をクリックし、**書き出し** をクリックして、作成するファイル形式を選択します。
 
    >[!NOTE]
    >

@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「レポート：予算計上時間数」
-description: 「レポート：予算計上時間数」
+title: レポート：予算計上時間数
+description: レポート：予算計上時間数
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 72%
+source-wordcount: '670'
+ht-degree: 71%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 72%
 >
 >予算計上時間数は、通常、Adobe Workfront データベースで 1 時間ごとに更新されます（まれに、最大 3 時間かかる場合があります）。レポートを更新しても、そのレポート内の時間数の情報は必ずしも更新されるわけではありません。前回のアップデート以降の経過時間は、それぞれの予算計上時間数のレポートの右上隅に表示されます。レポートを更新すると、前回のアップデートから 1 時間以上経過した場合にのみ、レポート内の情報がアップデートされます。
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![ 予算計上時間レポート時間同期の警告 ](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## アクセス要件
 
@@ -72,7 +72,7 @@ ht-degree: 72%
 
 ## 予算計上時間数のレポートを作成
 
-1. 右上隅の **メインメニュー** アイコン ![](assets/main-menu-icon.png) をクリックするか、または左上隅の **メインメニュー** アイコン ![](assets/lines-main-menu.png) がある場合はクリック **レポート** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、または右上隅の **メインメニュー** アイコン ![ メインメニューライン ](assets/lines-main-menu.png) をクリックして、可能であれば **レポート** をクリックします。
 
 1. **新規レポート**/**詳細**/**予算計上時間数** をクリックします。
 

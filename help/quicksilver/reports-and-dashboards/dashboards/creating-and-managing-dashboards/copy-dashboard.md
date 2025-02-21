@@ -6,10 +6,10 @@ description: ダッシュボードとそのコンテンツのすべて（レポ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 98%
+source-wordcount: '898'
+ht-degree: 97%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 98%
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png)、または左上隅の&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) （利用可能な場合）をクリックし、「**[!UICONTROL ダッシュボード]**」を選択します。
 
-1. コピーするダッシュボードを選択し、「**コピー** ![](assets/copy-icon.png)」をクリックします。\
+1. コピーするダッシュボードを選択し、**コピー**![ コピーアイコン ](assets/copy-icon.png) をクリックします。\
    または\
    コピーするダッシュボードを開き、**ダッシュボードのアクション**／**コピー**&#x200B;の順にクリックします。\
    ダッシュボードコピーダイアログボックスが表示されます。元のダッシュボード上のすべての項目が表示されます。

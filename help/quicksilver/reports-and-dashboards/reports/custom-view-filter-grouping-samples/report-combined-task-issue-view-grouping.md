@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「レポート：タスクとイシューの表示とグループ化の組み合わせ」
+title: レポート：タスクとイシューの組み合わせビューとグループ化
 description: この作業アイテムレポートには、ユーザーが作業を承諾したタスクとイシューの両方が 1 つのレポートに表示されます。これは、カスタムグループ化と組み合わせる場合に最適です。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
-source-git-commit: bc99e303047b989b972974b398420a9180e40874
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 51%
+source-wordcount: '417'
+ht-degree: 50%
 
 ---
 
@@ -72,7 +72,7 @@ ht-degree: 51%
 
 このビューでレポートを作成するには、以下のように行います。
 
-1. 右上隅の **メインメニュー** アイコン ![](assets/main-menu-icon.png) をクリックするか、または左上隅の **メインメニュー** アイコン ![](assets/lines-main-menu.png) がある場合はクリック **レポート** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、または右上隅の **メインメニュー** アイコン ![ メインメニューライン ](assets/lines-main-menu.png) をクリックして、可能であれば **レポート** をクリックします。
 
 1. ドロップダウンメニューから **新規レポート**/**詳細**/**作業項目** をクリックします。
 

@@ -4,10 +4,10 @@ description: レポートキャンバスでのレポートの作成
 hidefromtoc: true
 hide: true
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '464'
+ht-degree: 91%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 100%
 >
 >レポートのブロックを作成および編集すると、すべての変更が自動的に保存されます。
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**レポート**」をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、「**レポート**」をクリックします。
 1. 「**新規レポート**」をクリックします。
 1. 編集キャンバスの左上隅に、レポートの名前を入力します。
 
-   レポート名の横にある「**編集**」アイコン ![](assets/edit-icon.png) をクリックすれば、いつでもレポートの名前を変更できます。
+   レポート名の横にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックすると、いつでもレポートの名前を変更できます。
 
 1. 画面の右側から、キャンバスに追加するブロックをドラッグします。
 

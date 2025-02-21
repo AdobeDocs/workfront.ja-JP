@@ -6,10 +6,10 @@ description: フィルターとプロンプトは、両方ともレポートに�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 76%
+source-wordcount: '1369'
+ht-degree: 75%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 76%
 
 1. **レポート設定** ボタンをクリックします。
 1. **レポートプロンプト** タブをクリックしてから、**プロンプトを追加** をクリックします。\
-   ![](assets/create-report-prompt-tab.png)
+   ![ 「レポートプロンプト」タブ ](assets/create-report-prompt-tab.png)
 
 1. （条件付き）プロンプトの基にするフィールドを選択します。フィールド名の入力を開始し、リストに表示されたらクリックして選択します。\
    レポートを実行するユーザーが使用できるオプションは、選択したフィールドによって異なります。\
@@ -144,7 +144,7 @@ ht-degree: 76%
 
 1. プロンプトでレポートに移動します。
 
-   ![](assets/run-report-prompts.png)
+   ![ 報告書プロンプトの実行 ](assets/run-report-prompts.png)
 
 1. 「**プロンプト**」タブに表示される 1 つまたはすべてのプロンプトの条件を選択します。\
    （オプション）プロンプトを空白のままにし、プロンプト条件によってレポートをフィルター処理しないこともできます。

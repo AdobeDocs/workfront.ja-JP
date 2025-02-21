@@ -6,10 +6,10 @@ description: ビューを使用して、画面に表示する情報のタイプ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1718'
-ht-degree: 94%
+source-wordcount: '1731'
+ht-degree: 93%
 
 ---
 
@@ -123,7 +123,7 @@ ht-degree: 94%
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>カスタム列ラベル</strong></td> 
-           <td><p>列のカスタムラベルを指定します。このラベルは、デフォルトのラベルに取って代わります。</p></td> 
+           <td><p>列のカスタムラベルを指定します。このラベルは、デフォルトのラベルを置き換えます。 互換性の問題を回避するには、UTF-8 文字のみを使用することをお勧めします。</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>フィールド形式</strong></td> 
@@ -179,7 +179,7 @@ ht-degree: 94%
       デフォルトのアジャイルビューはカスタマイズできません。
 
    1. **表示**&#x200B;ドロップダウンメニューを再度クリックし、続いて「**ビューをカスタマイズ**」をクリックします。\
-      ![](assets/view-agile-customize.png)
+      ![ ビューのカスタマイズ ](assets/view-agile-customize.png)
 
 1. （条件付き）アジャイルビューを新規作成するには、「**新規ビュー**」をクリックします。\
    **アジャイルビューをカスタマイズ**&#x200B;ダイアログボックスが表示されます。

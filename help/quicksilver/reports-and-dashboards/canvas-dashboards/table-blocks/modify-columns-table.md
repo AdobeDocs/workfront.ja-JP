@@ -4,10 +4,10 @@ description: レポートキャンバスでのテーブル列を設定する
 hidefromtoc: true
 hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1043'
-ht-degree: 100%
+source-wordcount: '1052'
+ht-degree: 91%
 
 ---
 
@@ -28,10 +28,10 @@ ht-degree: 100%
 
 ## テーブルの列を変更する
 
-1. 既存のレポートに移動し、レポートのヘッダーで&#x200B;**その他メニュー**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、「**編集**」を選択します。
-1. レポートのテーブルヘッダーで、「**編集**」アイコン![](assets/edit-icon.png)をクリックします。
+1. 既存のレポートに移動し、レポートヘッダーの **その他メニュー** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックしてから、「**編集** を選択します。
+1. レポートのテーブルヘッダーで、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![ テーブルヘッダーの編集アイコン ](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
@@ -60,7 +60,7 @@ ht-degree: 100%
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">フィールド形式</td>
-      <td><p>（列にテキストではなく、日付、パーセント、通貨、または時間のデータが含まれている場合にのみ使用できます。）「<b>フィールド形式</b>」ドロップダウンでデータに使用する形式を選択します。例えば、列の数値の後にパーセント記号を表示したり、日付の表示方法を変更したりできます。</p></td>
+      <td><p>（列に日付、割合、通貨、または時間のデータが含まれ、テキストが含まれていない場合にのみ使用できます）。 <b> フィールド形式 </b> ドロップダウンで、データに必要な形式を選択します。 例えば、列の数値の後にパーセント記号を表示したり、日付の表示方法を変更したりできます。</p></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader">フィールドは編集可能です</td>
@@ -90,7 +90,7 @@ ht-degree: 100%
      </tr> 
      <tr> 
       <td role="rowheader">ホバーテキスト</td> 
-      <td>（「<strong>ホバーテキストを表示</strong>」が有効な場合にのみ利用可能です。）列名の上にポインタを合わせると表示される説明テキストをカスタマイズします。</td> 
+      <td>（「ホバーテキストを表示 <strong> が有効な場合 </strong> のみ使用できます。） 列名の上にマウスポインターを置いたときに表示される説明テキストをカスタマイズします。</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>条件付き形式</strong> </td> 

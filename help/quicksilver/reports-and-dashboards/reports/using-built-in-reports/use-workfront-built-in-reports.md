@@ -6,9 +6,9 @@ description: Adobe Workfrontには、すぐに使用できるビルトインレ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2964'
+source-wordcount: '2970'
 ht-degree: 58%
 
 ---
@@ -199,7 +199,7 @@ Workfront パッケージには、次のレポートが付属しています。�
   </tr> 
   <tr> 
    <td>マイポートフォリオ</td> 
-   <td>ログイン ユーザーがPortfolioマネージャーである、アクティブ Portfolioを表示するPortfolio報告書。</td> 
+   <td>ログイン ユーザーがPortfolio Manager である、アクティブなポートフォリオを表示するPortfolio報告書。</td> 
   </tr> 
   <tr> 
    <td>マイプログラム</td> 
@@ -383,7 +383,7 @@ Workfront パッケージには、次のレポートが付属しています。�
 1. 「**レポート**」オブジェクトの下で、「**グローバル ID**」を選択します。
 
 1. フィルター修飾子のドロップダウンメニューで、「**空白でない**」を選択します。\
-   ![](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![ システムレポートのグローバル ID フィルター ](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. 「**フィルターを保存**」をクリックします。\
    レポートリストには、ビルトインレポートのみが表示されます。\

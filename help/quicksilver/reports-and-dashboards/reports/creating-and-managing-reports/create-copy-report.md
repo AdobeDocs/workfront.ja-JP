@@ -7,10 +7,10 @@ description: アクセス権のある任意のレポートのコピーを作成�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 80%
+source-wordcount: '649'
+ht-degree: 77%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 80%
 
 デフォルトのレポートのコピーを作成する場合は、以下のように行います。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
 
 1. **レポート** をクリックし、**すべてのレポート** をクリックします。
 1. デフォルトのレポート名をクリックして開きます。
@@ -124,6 +124,6 @@ ht-degree: 80%
 1. 「**完了**」をクリックします。
 1. 「**新規レポートとして保存**」をクリックします。
 
-   ![](assets/unshimmed-save-as-new-report.png)
+   ![ 新規報告書として保存 ](assets/unshimmed-save-as-new-report.png)
 
 1. （オプション）新しいバージョンのレポートを他のユーザーと共有するには、「**レポートアクション**」、「**共有**」の順にクリックします。

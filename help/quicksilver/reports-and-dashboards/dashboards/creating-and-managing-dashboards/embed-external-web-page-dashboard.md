@@ -6,10 +6,10 @@ description: 外部 web ページをダッシュボードに埋め込んで、Ad
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 93%
+source-wordcount: '1030'
+ht-degree: 90%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 93%
 >[!IMPORTANT]
 >
 >* セキュリティ上の理由から、一部の web サイトでは web ページを iframe として埋め込むことができません。ダッシュボードに埋め込む web ページでこれが許可されていない場合、そのページはダッシュボードに表示されません。ただし、ダッシュボードの名前をクリックして、外部ページにアクセスすることはできます。\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![ 空の外部ページレポート ](assets/qs-empty-external-page-report-350x165.png)\
 >所有している web サイトに埋め込みを許可するには、web 管理者と協力して、**X-Frame-Options** 設定を調整します。詳しくは、[X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options) を参照してください。
 >
 >
@@ -118,7 +118,7 @@ ht-degree: 93%
 
 1. **レイアウト／レポートを追加／カレンダーを追加**&#x200B;のエリアの下にある&#x200B;**外部ページを追加**&#x200B;をクリックします。
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![ 外部ページを追加 ](assets/qs-add-external-page-350x239.png)
 
    **外部ページを追加**&#x200B;ボックスが表示されます。
 
@@ -132,7 +132,7 @@ ht-degree: 93%
 
       * Web ページへの https（暗号化）URL。\
         https（暗号化）ページのみが URL により読み込まれます。\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![ 外部ページを追加ダイアログ ](assets/add-external-page-dialog-qs-350x247.png)
 
       * 特定の web サイトのセッション情報を含むテンプレート URL。\
         例：*https://localhost/?session={!$$SESSION}*
@@ -170,10 +170,10 @@ ht-degree: 93%
    「**ダッシュボード詳細**」ボックスが開きます。
 
 1. **ダッシュボードの詳細** ボックスの **レイアウトを選択/レポートを追加** 領域で、更新する外部ページを見つけて、その上にカーソルを置いて **編集** アイコンをクリックします。\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![ 外部ページのインライン編集 ](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. 「**外部ページの編集**」ボックスで、変更するフィールドを更新し、「**保存**」をクリックします。
-1. （オプション）**削除**&#x200B;アイコン ![](assets/delete.png) をクリックして、ダッシュボードから外部ページを削除します。詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
+1. （任意） **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックして、ダッシュボードから外部ページを削除します。 詳しくは、[ダッシュボードからの外部ページを削除](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)を参照してください。
 1. 「**保存して閉じる**」をクリックします。
 
 ## レポートで外部ページを表示する
@@ -184,7 +184,7 @@ ht-degree: 93%
 
 1. **新規レポート** をクリックし、**外部セクション** を選択します。
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![ 外部セクション ](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. （オプション）レポートの「表示」タブ、「フィルター」タブ、または「グループ化」タブを更新します。
 

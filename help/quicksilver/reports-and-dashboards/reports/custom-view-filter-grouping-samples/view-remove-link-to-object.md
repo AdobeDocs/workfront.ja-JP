@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「表示：列内のオブジェクトへのリンクの削除」
+title: 表示：列内のオブジェクトへのリンクを削除
 description: ビューに表示する一部のオブジェクトは、デフォルトでは、オブジェクトの「詳細」ページにリンクされます。例えば、プロジェクト名を表示する列はプロジェクトへのリンクで、ユーザー名を表示する列はユーザーのプロファイルページへのリンクです。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 81%
+source-wordcount: '392'
+ht-degree: 80%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 81%
 
    または
 
-   **編集アイコン** ![](assets/edit-icon.png)をクリック
+   **編集アイコン**![ 編集アイコン ](assets/edit-icon.png) をクリックします
 
    既存のビューを編集するには、ビューを選択します。
 

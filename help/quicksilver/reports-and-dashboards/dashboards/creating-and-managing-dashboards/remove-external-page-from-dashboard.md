@@ -6,10 +6,10 @@ description: 不要になった外部ページは、ダッシュボードから�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 90%
+source-wordcount: '249'
+ht-degree: 78%
 
 ---
 
@@ -69,11 +69,11 @@ ht-degree: 90%
 
 1. 「**ダッシュボードの操作**」をクリックしたあと、「**編集**」をクリックします。
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![ ダッシュボードを編集 ](assets/unshimmed-edit-dashboard.png)
 
-1. 画面の右側で、削除する外部ページを見つけて、**削除**&#x200B;アイコン ![](assets/delete.png) をクリックします。
+1. 画面の右側で、削除する外部ページを見つけて、「**削除**」アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![ ダッシュボード内の「外部ページを削除」アイコン ](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. 左下隅にある「**保存して閉じる**」をクリックします。
 

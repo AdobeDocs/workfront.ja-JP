@@ -6,10 +6,10 @@ description: Adobe Workfront のレポートを使用すると、システム内
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 100%
+source-wordcount: '514'
+ht-degree: 93%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
 
 自分が作成した、または自分と共有されている、または一般に共有されているレポートにアクセスするには、次の手順を実行します。
 
-1. **メインメニュー** ![](assets/main-menu-icon.png) から、「**レポート**」をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) から、「**レポート**」をクリックします。
 
 1. 表示するレポートに応じて、次のいずれかのオプションをクリックします。
 
@@ -67,10 +67,10 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
 
 ### レポート用の新しいフォルダーを作成 {#create-a-new-folder-for-reports}
 
-1. **メインメニュー**![](assets/main-menu-icon.png)から、「**レポート**」をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) から、「**レポート**」をクリックします。
 
 1. 「**新規フォルダー**」アイコンをクリックします。\
-   ![](assets/nwe-new-folder-350x346.png)
+   ![ 新規フォルダーアイコン ](assets/nwe-new-folder-350x346.png)
 
 1. 新しいフォルダーの名前を指定し、Enter キーを押します。
 1. **マイレポート**&#x200B;フォルダーから新しいフォルダーにレポートを追加します。\
@@ -82,7 +82,7 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
 
 ### フォルダーへレポートを追加 {#add-reports-to-a-folder}
 
-1. **メインメニュー** ![](assets/main-menu-icon.png) から「**レポート**」をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) から、「**レポート**」をクリックします。
 
 1. 「**マイレポート**」をクリックします。\
    または\
@@ -94,4 +94,4 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
    >
    >レポートは、**マイレポート**&#x200B;フォルダーから&#x200B;**マイレポート**&#x200B;の下にネストされている他のフォルダーにのみ移動できます。**自分と共有**&#x200B;フォルダーや&#x200B;**すべてのレポート**&#x200B;フォルダー、その他のフォルダーとの間でレポートを移動することはできません。
 
-   ![](assets/nwe-drag-report-to-folder-350x292.png)
+   ![ レポートをフォルダーにドラッグ ](assets/nwe-drag-report-to-folder-350x292.png)

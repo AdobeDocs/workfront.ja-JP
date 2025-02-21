@@ -4,10 +4,10 @@ description: レポートキャンバスでの円グラフビジュアライゼ�
 hidefromtoc: true
 hide: true
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '291'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 1. まず、[レポートキャンバスでのビジュアライゼーションブロックの追加または編集](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)の説明に従って、**円グラフ**&#x200B;ビジュアライゼーションタイプのビジュアライゼーションブロックをレポートに追加します。
 
-1. ビジュアライゼーションの右上隅にあるビジュアライゼーションの編集アイコン ![](assets/edit-icon.png) をクリックし、次のいずれかの操作を実行します。
+1. ビジュアライゼーションの右上隅にある編集ビジュアライゼーション ![ 編集アイコン ](assets/edit-icon.png) 編集アイコン）をクリックし、次のいずれかの操作を行います。
 
    1. 「**設定**」タブ：
 

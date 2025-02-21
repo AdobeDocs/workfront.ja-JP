@@ -6,10 +6,10 @@ description: テキストモードでの条件付き書式の使用
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1682'
-ht-degree: 98%
+source-wordcount: '1734'
+ht-degree: 93%
 
 ---
 
@@ -189,10 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* このステートメントは会社名の列に適用できますが、レポート上の他の列にも適用できます。緑のテキストは、プロジェクトに会社が関連付けられている場合にのみ表示されます。条件付けが最終的に列に表示されるかどうかを決定するのは `[field name]`、`[value]`、`[qualifier]` です。
 >* 修飾子を使用する場合、`cicontains` ではなく `equal` を使用することをお勧めします。デフォルトでは、`equal` は ID 番号を探します。`cicontains` 修飾子を使用すると、名前で項目にアクセスできます。
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
+![ テキストモードの例 ](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![ テキストモードのサンプル結果 ](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 テキストモードに「テキストの色」、「整列」、「フォントのスタイル」、「背景色」のどれを適用するにしても、同じステートメント（上記）を使用します。
 
@@ -297,9 +297,9 @@ styledef.case.0.comparison.truetext=not today
 >
 >`case.0.` で始まるステートメントでは、テキストの使用を識別するために大文字と小文字の比較を使用します。`styledef.case.0.` で始まる行は初期の条件付き形式ステートメントであり、`truetext` 式を通じてテキストの使用を識別します。`truetext` を空白のままにするのではなく、必ず値を設定してください。
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
+![ 適用テキストの例 ](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
+![ テキスト結果の適用 ](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### レコード書式の適用 {#apply-row-formats}
 
@@ -359,30 +359,30 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >ステートメントに `icon=true` 式が使用されていることに注目してください。また、このステートメントは、他の条件付き書式設定ステートメントとは異なり、`style.def` 形式を使用せずに一意の画像形式を使用します。
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
+![ アイコンテキストモード ](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
+![ アイコンテキストモードの結果 ](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 使用可能な画像を使用するには、次のコードと値を適用します。
 
 | **アイコン** | **行：image.case.0.comparison.truetext=** |
 |---|---|
-| しかめっ面 ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| 笑顔 ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| 青フラグ  ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| 緑フラグ ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| 赤フラグ  ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| 黄色フラグ  ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| 黒い丸  ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| 青い丸 ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| 灰色の丸 ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| 緑の丸 ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| オレンジの丸 ![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| ピンクの丸 ![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| 紫の丸 ![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| 赤い丸 ![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| 白い丸 ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| 黄色の丸 ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| しかめ面 ![ しかめ面 ](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| 嬉しそうな顔 ![ 嬉しそうな顔 ](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| 青色旗 ![ 青色旗 ](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| 緑の旗 ![ 緑の旗 ](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| 赤旗 ![ 赤旗 ](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| 黄色フラグ ![ 黄色フラグ ](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| 黒い円 ![ 黒い円 ](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| 青い円 ![ 青い円 ](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| 灰色の円 ![ 灰色の円 ](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| 緑の円 ![ 緑の円 ](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| オレンジの円 ![ オレンジの円 ](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| ピンクの円 ![ ピンクの円 ](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| 紫の円 ![ 紫の円 ](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| 赤い丸 ![ 赤い丸 ](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| 白い円 ![ 白い円 ](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| 黄色の円 ![ 黄色の円 ](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 

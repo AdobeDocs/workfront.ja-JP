@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「グループ化：グループ化で表示名を編集」
+title: グループ化：グループ化の表示名を編集します
 description: リストやレポートのグループ化を、ユーザーにとってよりなじみのある名前に変更できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 74%
+source-wordcount: '365'
+ht-degree: 71%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 74%
 
 例えば、標準のポートフォリオ名のグループ化をプロジェクトのリストに適用すると、グループ化の名前は&#x200B;*ポートフォリオ：名前：`<name of portfolio>`* として表示されます。
 
-![](assets/grouping-unedited-name-350x167.png)
+![ 未編集の名前によるグループ化 ](assets/grouping-unedited-name-350x167.png)
 
 テキストモードを使用してこのグループ化を変更し、読みやすい名前を表示できます。
 
-![](assets/grouping-edited-name-350x160.png)
+![ 編集した名前によるグループ化 ](assets/grouping-edited-name-350x160.png)
 
 ## アクセス要件
 
@@ -103,7 +103,7 @@ ht-degree: 74%
      >また、`group.0.name=` と `group.0.displayname=` の行を空白にすることもできます。この場合、グループ化にはグループ化の基準となる値が表示されます。
 
 
-     ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![ 名前のない名前を編集してグループ化 ](assets/grouping-edited-name-no-name-350x162.png)
 
 1. 「**完了**」をクリックし、「**グループ化の保存**」をクリックします。
 1. （オプション）グループ化名を更新し、「**グループ化を保存**」をクリックします。

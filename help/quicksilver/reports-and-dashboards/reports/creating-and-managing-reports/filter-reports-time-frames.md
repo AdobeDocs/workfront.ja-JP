@@ -6,10 +6,10 @@ description: オブジェクトに存在する日付の時間枠でレポート�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 98%
+source-wordcount: '1024'
+ht-degree: 96%
 
 ---
 
@@ -70,14 +70,14 @@ ht-degree: 98%
 
 ## 日付の時間枠でレポートをフィルタリング {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. **メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**レポート**」をクリックします。
+1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
 
 1. 「**新規レポート**」をクリックして、目的のレポートのタイプを選択します。\
    例えば、「**時間レポート**」を選択します。
 
 1. 「**フィルター**」タブを選択します。
 1. 「**フィルタールールを追加**」をクリックし、「**時間エントリ日**」を選択します。\
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![ 時間枠ごとの時間レポートのフィルタリング ](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. 次のドロップダウンメニューで、次のいずれかのオプションを選択します。
 

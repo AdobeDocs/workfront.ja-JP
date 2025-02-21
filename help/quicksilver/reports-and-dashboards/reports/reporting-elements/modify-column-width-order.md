@@ -6,10 +6,10 @@ description: この記事では、列の幅のガイドラインと、Workfront 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ece3f908-a0da-45d4-9f4f-0b34c69ce8fa
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 95%
+source-wordcount: '1012'
+ht-degree: 94%
 
 ---
 
@@ -129,7 +129,7 @@ Workfront のリストについて詳しくは、[Adobe Workfront のリスト�
 
 1. 変更するリストに移動します。
 1. 列が目的のサイズになるまで、列ヘッダーの境界線をドラッグします。\
-   ![](assets/column-resize-350x124.png)
+   ![ 列のサイズ変更 ](assets/column-resize-350x124.png)
 
 #### 列を一時的に並べ替える {#reorder-columns-temporarily}
 

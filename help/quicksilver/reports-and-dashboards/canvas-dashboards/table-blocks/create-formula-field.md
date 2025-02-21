@@ -4,10 +4,10 @@ description: レポートキャンバスで式フィールドを作成
 hidefromtoc: true
 hide: true
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 100%
+source-wordcount: '662'
+ht-degree: 92%
 
 ---
 
@@ -22,16 +22,16 @@ ht-degree: 100%
 ## 式フィールドを作成
 
 1. [レポートキャンバスでテーブルブロックを追加または編集](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)の説明に従って、テーブルブロックを作成するか、テーブルブロックに移動します。
-1. レポートのテーブルヘッダーで、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+1. レポートのテーブルヘッダーで、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![ テーブルヘッダーの編集アイコン ](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >テーブルを作成したばかりで、フィールドをまだ追加していない場合は、代わりにテーブルの中央にある「編集」ボタンをクリックします。
 
 1. 右側のパネルの&#x200B;**フィールド**&#x200B;リストの上部にある「**新規 +**」をクリックします。
-1. 表示される新しいページで、左上隅のフィールド名の横にある&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックして、式フィールドの名前を変更します。
+1. 開いた新しいページで、左上隅のフィールド名の横にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックして、式フィールドの名前を変更します。
 1. **関数**&#x200B;または&#x200B;**フィールド**&#x200B;を、左側のパネルから中央のフィールドビルダーにドラッグして、式フィールドに追加します。
 
 

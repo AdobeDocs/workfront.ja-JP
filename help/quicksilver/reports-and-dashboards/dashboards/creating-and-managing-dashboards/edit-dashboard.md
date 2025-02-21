@@ -6,10 +6,10 @@ description: ダッシュボードの目的は、情報にすばやくアクセ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: de15ab45-4bcd-4638-b3d7-fc70a0866d2d
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 86%
+source-wordcount: '497'
+ht-degree: 85%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 86%
 1. 編集するダッシュボードに移動します。
 1. 「**ダッシュボードの操作**」をクリックしたあと、「**編集**」をクリックします。
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![ ダッシュボードを編集 ](assets/unshimmed-edit-dashboard.png)
 
    >[!TIP]
    >

@@ -6,10 +6,10 @@ description: 新しいリクエストキューをダッシュボードに埋め�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
-ht-degree: 98%
+source-wordcount: '1150'
+ht-degree: 97%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 98%
 
    これにより、リクエストキューまたはキュートピックへのリンクが、画面に表示された状態でコピーされます。ユーザーは、リクエストタイプ、または利用可能なトピックグループおよびキュートピックを更新できます。
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![ 共有パスを使用したリクエストキュー ](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### リクエストキューへのリンクとリクエストタイプを変更できる機能を取得 {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ ht-degree: 98%
 
    ユーザーは、必要なトピックグループやキュートピックを選択したり、別のリクエストタイプを選択したりすることができます。
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![ リクエストキューの URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### リクエストタイプを変更できないリクエストキューへのリンクを取得 {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ ht-degree: 98%
 
    ユーザーは、選択したリクエストタイプに必要な任意のトピックグループまたはキューのトピックを選択できます。別のリクエストタイプは選択できません。
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![ リクエストキューコード ](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## ダッシュボードへのリクエストキューの埋め込み
 
@@ -164,7 +164,7 @@ ht-degree: 98%
 
 1. 「**外部ページを追加**」をクリックします。
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![ 外部ページ ](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. 「**外部ページを追加**」ボックスで、次のフィールドを編集します。
 

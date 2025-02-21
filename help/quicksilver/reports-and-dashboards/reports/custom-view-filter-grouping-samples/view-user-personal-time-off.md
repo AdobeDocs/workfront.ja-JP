@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「表示：ユーザーの個人の休暇」
-description: '表示：ユーザーの個人的な休暇'
+title: 表示：ユーザーの個人の休暇
+description: 表示：ユーザーの個人的な休暇
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 88%
+source-wordcount: '260'
+ht-degree: 87%
 
 ---
 
@@ -71,7 +71,7 @@ ht-degree: 88%
 
 ## ユーザーの個人の休暇を表示
 
-1. 右上隅の **メインメニュー** アイコン ![](assets/main-menu-icon.png) をクリックし、**レポート /新しいレポート** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート /新しいレポート** をクリックします。
 1. ドロップダウンメニューから、「**休暇**」を選択します。
 1. 「**保存して閉じる**」をクリックします。
 

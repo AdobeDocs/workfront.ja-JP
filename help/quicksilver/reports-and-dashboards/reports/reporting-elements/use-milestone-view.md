@@ -6,10 +6,10 @@ description: マイルストーンビューは、プロジェクトのリスト�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 99%
+source-wordcount: '1312'
+ht-degree: 98%
 
 ---
 
@@ -126,16 +126,16 @@ ht-degree: 99%
 * **タスクのステータスアイコン：**&#x200B;マイルストーンビューでは、各プロジェクトとタスクの横にステータスアイコンが表示されます。
 
    * 予定通り\
-     ![](assets/gantt-ontime.png)
+     ![ オンタイムアイコン ](assets/gantt-ontime.png)
 
    * 遅れ\
-     ![](assets/gantt-behind.png)
+     ![ 背後のアイコン ](assets/gantt-behind.png)
 
    * リスクあり\
-     ![](assets/gantt-atrisk.png)
+     ![ 危険アイコン ](assets/gantt-atrisk.png)
 
    * 遅延\
-     ![](assets/gantt-late.png)
+     ![ 遅延アイコン ](assets/gantt-late.png)
 
   これらのステータスアイコンは、[マイルストーンビューに表示する情報を設定する](#configure-what-information-displays-in-the-milestone-view)の節で説明されているように、表示されないようにすることができます。\
   各ステータスタイプについて詳しくは、[タスクの進捗ステータスの概要](../../../manage-work/tasks/task-information/task-progress-status.md)を参照してください。

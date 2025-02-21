@@ -7,10 +7,10 @@ description: レポートに関する FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1509'
-ht-degree: 100%
+source-wordcount: '1519'
+ht-degree: 99%
 
 ---
 
@@ -90,7 +90,7 @@ Workfront で時間を使用するフィールドは、分単位で保存され�
 ### 回答
 
 レポートまたはカレンダーには、ログインしたユーザーを指すワイルドカードフィルター変数が含まれている場合があります。この場合、レポートには、ログインしたユーザーに基づく情報が表示されます。フィルターを調整して、ログインしたユーザーを指すワイルドカードを削除します。\
-![](assets/qs--user.id-filter-variable-350x79.png)
+![ ユーザー ID フィルター変数 ](assets/qs--user.id-filter-variable-350x79.png)
 
 ユーザーベースのワイルドカードフィルター変数の完全なリストについて詳しくは、[ワイルドカードフィルター変数の概要](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)を参照してください。
 
@@ -122,7 +122,7 @@ Workfront で時間を使用するフィールドは、分単位で保存され�
 1. **が次に等しい**&#x200B;修飾子を選択します。
 1. テキストボックスに *$$USER.ID* と入力していき、表示されるドロップダウンリストから選択します。\
    これにより、ログインしたユーザーに割り当てられているすべてのタスクとイシューを確認できます。ワイルドカードを特定のユーザー名に置き換えることができます。\
-   ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![ 自分に割り当てられたタスク ](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. 「**保存して閉じる**」をクリックします。
 
@@ -143,7 +143,7 @@ Workfront で時間を使用するフィールドは、分単位で保存され�
 * プロジェクトのデフォルト通貨以外の通貨が選択されている&#x200B;**ビュー**&#x200B;がこれらのリストに適用されている場合、リンクは表示されません。**ビュー**&#x200B;を&#x200B;**プロジェクトの元の通貨**&#x200B;に変更すると、リンクが表示されて、プロジェクトにイシューやタスクを追加できるようになります。\
   ビューでの通貨の変更について詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
 
-![](assets/nwe-project-original-currency-350x229.png)
+![ プロジェクト通貨 ](assets/nwe-project-original-currency-350x229.png)
 
 ## レポートやダッシュボードの情報は自動的に更新されますか？
 

@@ -4,10 +4,10 @@ description: Web コンテンツブロックを使用すると、外部 web サ�
 hidefromtoc: true
 hide: true
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '320'
-ht-degree: 100%
+source-wordcount: '332'
+ht-degree: 84%
 
 ---
 
@@ -21,12 +21,12 @@ Web コンテンツブロックを使用すると、外部 web サイトから�
 
 ## Web コンテンツブロックの追加または編集
 
-1. Adobe Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**レポート**」をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 1. 「**新規レポート**」をクリックします。
 
    または
 
-   既存のレポートに移動し、レポートのヘッダーで&#x200B;**その他**&#x200B;アイコン ![](assets/more-icon-27x15.png) をクリックし、「**編集**」をクリックします。
+   既存のレポートに移動し、レポート見出しの **その他** アイコン ![ その他のアイコン ](assets/more-icon-27x15.png) をクリックしてから、**編集** をクリックします。
 
 1. 画面の右側の「**ブロックを追加**」で、次のいずれかを行います。
 
@@ -41,9 +41,9 @@ Web コンテンツブロックを使用すると、外部 web サイトから�
    >ブロックを配置した後で、そのコーナーのハンドルをドラッグして、ブロックのサイズを変更できます。
 
 1. ブロックヘッダーの「**名称未設定の web コンテンツ**」をクリックし、ブロックのタイトルを入力します。
-1. ブロックヘッダーの&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+1. ブロックヘッダーの **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![ ブロックヘッダーの編集アイコン ](assets/web-content-block-header-350x76.png)
 
 1. 開いた&#x200B;**設定**&#x200B;パネルで、表示するページの完全な URL（「https://」を含む）を「**URL**」フィールドに入力します。
 

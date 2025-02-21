@@ -7,10 +7,10 @@ description: レポートに関するレポートを作成すると、特定の�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '659'
+ht-degree: 97%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 既存のレポートに関するレポートの作成 {#create-the-report-about-existing-reports}
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
 1. 「**レポート**」をクリックし、次に「**新規報告書**」を選択します。
 1. **新規報告書**&#x200B;ドロップダウンメニューで、「**レポート**」を選択して、既存のレポートに関するレポートを作成します。
 

@@ -6,10 +6,10 @@ description: Web ブラウザーで使用できる印刷オプションを使用
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 89%
+source-wordcount: '375'
+ht-degree: 88%
 
 ---
 
@@ -77,7 +77,7 @@ Web ブラウザーで使用できる印刷オプションを使用して、ダ�
 1. 書き出すダッシュボードに移動します。
 1. **ダッシュボードアクション** をクリックし、**印刷プレビュー** を選択します。
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![ ダッシュボード印刷プレビュー ](assets/dashboard-actions-print-350x254.png)
 
    印刷プレビューウィンドウが開きます。
 

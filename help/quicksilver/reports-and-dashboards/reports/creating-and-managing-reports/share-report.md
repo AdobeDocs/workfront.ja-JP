@@ -6,9 +6,9 @@ description: Adobe Workfront 管理者は、ユーザーにアクセスレベル
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 72%
 
 ---
@@ -122,7 +122,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
    * **システム内の全員が閲覧できます** レポートへのアクセス権を持つWorkfront内の全員がレポートを閲覧できるように、このオプションを選択します。
 
-1. （オプション）共有ボックスの右上隅にある **歯車** アイコン ![](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、オプションで次のオプションを選択します。
+1. （オプション）共有ボックスの右上隅にある **歯車** アイコン ![ 歯車アイコン設定 ](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、オプションで次のオプションを選択します。
 
    * **これを外部ユーザーに公開** 他のユーザーと共有できる URL を生成する場合は、このオプションを選択します。 URL を知っているユーザーは誰でも、Adobe Workfront のライセンスを持っていなくてもレポートにアクセスできます。
 

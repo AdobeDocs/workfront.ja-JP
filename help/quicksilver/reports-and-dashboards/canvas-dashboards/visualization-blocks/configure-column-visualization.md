@@ -4,10 +4,10 @@ description: レポートキャンバスでの列の可視化を設定
 hidefromtoc: true
 hide: true
 exl-id: 5a0cdcd4-b44b-4a63-964e-1c570cd9ff77
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 100%
+source-wordcount: '327'
+ht-degree: 93%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 1. 最初に、**列**&#x200B;の可視化タイプを備えた可視化ブロックをレポートに追加します。詳しくは、[レポートキャンバスでの視覚化ブロックの追加または編集](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)を参照してください。
 
-1. ビジュアライゼーションの右上隅にあるビジュアライゼーションの編集アイコン ![](assets/edit-icon.png) をクリックし、次のいずれかの操作を実行します。
+1. ビジュアライゼーションの右上隅にある編集ビジュアライゼーション ![ 編集アイコン ](assets/edit-icon.png) 編集アイコン）をクリックし、次のいずれかの操作を行います。
 
    1. 「**設定**」タブ：
 

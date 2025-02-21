@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'ビュー：複数行プロジェクトビュー'
+title: 表示：複数行プロジェクト ビュー
 description: レポートの複数行のプロジェクトビューについて説明します。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 62%
+source-wordcount: '275'
+ht-degree: 61%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 62%
 * プロジェクト情報を複数行の形式で表示します。\
   ビューでは、`sharecol=true` タグを使用して、同じ列ヘッダーの下の複数のフィールドを組み合わせます。 このタグについて詳しくは、[表示：複数の列の情報を 1 つの共有列に結合](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md)を参照してください。
 
-* HTML改行タグ（`<br>`）を保持するプレースホルダー列を使用して、説明をプロジェクト名の下に強制的に表示します（例：）。
+* HTMLの改行タグ（`<br>`）を保持するプレースホルダー列を使用して、説明をプロジェクト名の下に強制的に表示します（例：）。
 * プロジェクト名に続く丸括弧で、プロジェクト所有者を表示します。
 * プロジェクト名をプロジェクトへのリンクとして表示します。
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![ 積み重ねビューのあるプロジェクト行 ](assets/project-multi-row-stacked-view-350x219.png)
 
 ## アクセス要件
 

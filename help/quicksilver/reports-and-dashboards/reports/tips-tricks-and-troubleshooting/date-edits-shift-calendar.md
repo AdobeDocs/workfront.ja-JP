@@ -7,10 +7,10 @@ description: オブジェクトのリストの日付をインライン編集す�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6d053968-1578-4c20-b2a7-43634481696f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 100%
+source-wordcount: '159'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 ## 問題
 
 オブジェクトのリストの日付をインライン編集すると、カレンダーに必要以上の日付が表示されます。これにより、日がカレンダーボックスの外に表示されます。\
-![](assets/calendar-view-350x134.png)
+![ カレンダー表示 ](assets/calendar-view-350x134.png)
 
 ## 原因
 

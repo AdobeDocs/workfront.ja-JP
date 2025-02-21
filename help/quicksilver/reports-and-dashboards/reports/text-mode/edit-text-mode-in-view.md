@@ -6,10 +6,10 @@ description: テキストモードを使用してリストまたはレポート�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 88%
+source-wordcount: '461'
+ht-degree: 81%
 
 ---
 
@@ -86,7 +86,7 @@ ht-degree: 88%
 1. 次のいずれかの操作を行います。
 
    1. レポートからビューにアクセスするには、レポートに移動して、**レポートのアクション**／**編集**／**カラム（表示）**&#x200B;タブをクリックします。
-   1. リストからビューにアクセスするには、リストに移動し、**ビュー**&#x200B;ドロップダウンメニューから、変更するビューの上にポインタを合わせて、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+   1. リストからビューにアクセスするには、リストに移動し、**ビュー** ドロップダウンメニューで、変更するビューにマウスを移動し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
       ビュービルダーが開きます。
 

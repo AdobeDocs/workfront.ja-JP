@@ -6,10 +6,10 @@ description: テキストモードを使用してリストまたはレポート�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1042'
-ht-degree: 85%
+source-wordcount: '1044'
+ht-degree: 84%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 85%
 
 1. 次のいずれかの操作を行います。
 
-   リストからフィルターにアクセスするには、リストに移動して **フィルター** アイコンをクリックし、変更する **フィルター** サイドパネルのフィルターにカーソルを合わせて **編集** アイコンをクリックします。![](assets/edit-icon.png) **フィルター** サイドパネルに選択したフィルターが表示されるか、従来のフィルタービルダーが開きます。
+   リストからフィルターにアクセスするには、リストに移動して **フィルター** アイコンをクリックし、変更する **フィルター** サイドパネルのフィルターにカーソルを置いて **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。 **フィルター** サイドパネルに選択したフィルターが表示されるか、従来のフィルタービルダーが開きます。
 
    または
 

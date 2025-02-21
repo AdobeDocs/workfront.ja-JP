@@ -6,10 +6,10 @@ description: レポートの使用状況を表示
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 100%
+source-wordcount: '1011'
+ht-degree: 96%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 
 ## レポートの使用状況に関する情報を、レポートリストのビューに表示する
 
-1. Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**レポート**」の順にクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. レポートのリストで、**表示**&#x200B;ドロップダウンメニューをクリックします。
 1. （オプション）**レポートの使用状況**&#x200B;ビューをクリックすると、最も一般的なレポート使用状況情報が表示されます。\
@@ -97,7 +97,7 @@ ht-degree: 100%
 
 ## 使用情報によるレポートリストのフィルタリング {#filter-a-report-list-by-usage-information}
 
-1. Workfront の右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、次に「**報告書**」をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 1. レポートのリストで、**フィルター**&#x200B;ドロップダウンメニューをクリックします。
 1. 「**新規フィルター**」をクリックし、次に「**フィルター規則の追加**」をクリックします。
 1. 次のフィールドのいずれかに入力を開始し、**報告書**&#x200B;オブジェクトの下のリストに表示されたら、それらを選択して、新しいフィルター規則として追加します。
@@ -112,7 +112,7 @@ ht-degree: 100%
    * **最終表示日**：最後にレポートが表示された日付を表示します
 
 1. フィールドの修飾子を選択し、プロンプトが表示されたら値を指定します。\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![ レポート使用状況フィルターの統計 ](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. 「**フィルターの保存**」をクリックします。\
    これにより、定義した使用情報に合致するレポートのリストが表示されます。\

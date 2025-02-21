@@ -6,10 +6,10 @@ description: このページでは、プレビューおよびカスタム更新�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 96%
+source-wordcount: '625'
+ht-degree: 95%
 
 ---
 
@@ -85,7 +85,7 @@ Adobe Workfront テスト環境で「レポート配信」オプションを設�
 
 サンドボックス環境からのメールの有効化について詳しくは、[プレビューサンドボックス環境からのメール配信を有効にする](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)を参照してください。
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![ 「サンドボックスからメールを受信」オプション ](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 プレビュー環境でのレポートの配信スケジュール設定は、実稼動環境でのレポートのスケジュール設定と同じです。レポートの配信スケジュールについて詳しくは、[レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)を参照してください。
 
@@ -100,7 +100,7 @@ Adobe Workfront テスト環境で「レポート配信」オプションを設�
 
 プレビュー環境からのメールを有効にする方法については、[自身のメール通知の変更](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)の記事の[メール通知設定を表示および変更](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view)の節を参照してください。
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![ 「サンドボックスからメールを受信」オプション ](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 カスタム更新サンドボックス環境でのレポートの配信スケジュール設定は、実稼動環境でのレポートのスケジュール設定と同じです。レポートの配信スケジュールについて詳しくは、[レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)を参照してください。
 

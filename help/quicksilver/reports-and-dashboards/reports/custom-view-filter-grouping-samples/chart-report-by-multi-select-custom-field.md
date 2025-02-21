@@ -7,10 +7,10 @@ description: 複数選択カスタムフィールドで選択した選択肢を�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 86%
+source-wordcount: '1019'
+ht-degree: 82%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 86%
 
 1. 「複数選択カスタムフィールド」を、Workfront に表示される複数選択カスタムフィールドの実際の名前に置き換えます。
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![ 計算複数選択カスタムフィールド ](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. （オプション）複数選択のカスタムフィールドがこのフォームに既に存在し、このフォームが既にオブジェクトに添付されている場合は、「**既存の計算に適用**」オプションを有効にします。
 
@@ -140,11 +140,11 @@ ht-degree: 86%
 
 1. （オプション）グラフで表示したいすべての計算フィールドに値が入力されるようにするには、レポートの「詳細」タブで、複数選択カスタムフィールドと計算済みカスタムフィールドの両方を含むオブジェクトをすべて選択して、「**編集**」をクリックします。
 1. （オプションおよび条件付き）「**カスタム式の再計算**」フィールドを有効にし、次に「**変更を保存**」をクリックします。\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![ カスタム式の再計算 ](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >このオプションは、プロジェクトを一括編集する際には使用できなくなりました。プロジェクトリストの上部にある&#x200B;**その他**&#x200B;アイコン![](assets/more-icon-45x33.png)をクリックし、「**式の再計算**」をクリックすると、プロジェクトの式を一括で再計算することができます。
+   >このオプションは、プロジェクトを一括編集する際には使用できなくなりました。プロジェクトリストの上部にある **その他** アイコン ![ その他のアイコン ](assets/more-icon-45x33.png) をクリックしてから、「式を再計算 **をクリックすると、プロジェクトの式を一括で再計算** ることができます。
 
 1. 複数選択カスタムフィールドを参照する計算フィールドのチャートを追加するレポートに移動します。
 1. 「**レポートアクション**」、「**編集**」の順にクリックします。
@@ -160,4 +160,4 @@ ht-degree: 86%
 
    レポートは、複数選択の計算フィールドでグループ化された結果をグラフで表示します。
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![ グラフの複数選択フィールド ](assets/chart-multi-select-field-column-chart-example.png)

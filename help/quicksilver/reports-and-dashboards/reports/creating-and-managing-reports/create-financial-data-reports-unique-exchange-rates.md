@@ -6,10 +6,10 @@ description: Adobe Workfront で複数の為替レートが設定されている
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 97%
+source-wordcount: '984'
+ht-degree: 96%
 
 ---
 
@@ -117,13 +117,13 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 
 1. 異なる通貨を適用した 2 つのプロジェクトを作成します。
 
-   ![](assets/qs-currency-350x217.png)
+   ![通貨](assets/qs-currency-350x217.png)
 
 1. 両方のプロジェクトの作業時間を記録します。
 
    時間の記録の詳細については、[時間の記録](../../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
 
-1. **メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**レポート**&#x200B;の順にクリックします。
+1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
 1. **新規レポート**、**プロジェクトレポート**&#x200B;の順にクリックします。
 1. 「**列（ビュー）**」タブから、**実際コスト**&#x200B;列を追加し、「**合計**」で集計します。
 
@@ -182,6 +182,6 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 1. **レポート設定**&#x200B;をクリックします。
 1. **デフォルトの通貨**&#x200B;ドロップダウンをクリックし、**プロジェクトの元の通貨**&#x200B;を選択します。
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![ デフォルト通貨 ](assets/qs-report-settings-default-currency-350x370.png)
 
 1. 「**完了**」をクリックします。

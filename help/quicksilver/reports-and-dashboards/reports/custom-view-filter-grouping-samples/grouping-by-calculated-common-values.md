@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「グループ化：グループ化のすべてのオブジェクトに共通の計算値でリスト結果を整理」
+title: グループ化：グループ化のすべてのオブジェクトに共通の計算値によってリスト結果を整理します。
 description: タスクを表示するときに、完了率でグループ化し、0～25、26～50、51～75、75～99、100 の範囲に分けたい場合があります。これは、テキストモードを使用してグループ化を作成することで可能です。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 81%
+source-wordcount: '261'
+ht-degree: 80%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 81%
 
 タスクを表示するときに、完了率でグループ化し、0～25、26～50、51～75、75～99、100 の範囲に分けたい場合があります。これは、テキストモードを使用してグループ化を作成することで可能です。
 
-![](assets/grouping-calculated-value-column-to-all-objects.png)
+![ 計算値によるグループ化 ](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## アクセス要件
 

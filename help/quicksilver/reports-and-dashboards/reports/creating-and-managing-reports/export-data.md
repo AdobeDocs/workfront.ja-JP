@@ -6,7 +6,7 @@ description: Adobe Workfront データは、様々なリスト、レポート、
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 94%
@@ -190,7 +190,7 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    または
