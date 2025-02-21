@@ -6,10 +6,10 @@ description: プルーフのコメントを検索、フィルタリングおよ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 98%
+source-wordcount: '864'
+ht-degree: 96%
 
 ---
 
@@ -120,7 +120,7 @@ ht-degree: 98%
 1. コメントエリアが開いていない場合は、右上隅の「**コメントを表示**」をクリックします。
 
 1. 並べ替えメニューをクリックして開きます。
-1. ![](assets/mceclip3.png)
+1. ![ 並べ替えメニュー ](assets/mceclip3.png)
 
 1. 次のいずれかの並べ替えオプションを選択します。
 
@@ -173,7 +173,7 @@ ht-degree: 98%
      </tr> 
      <tr> 
       <td role="rowheader">デバイス（降順）</td> 
-      <td> <p>（インタラクティブプルーフにのみ使用可能。）コメントの作成時に選択した解像度の順にコメントが表示されます。作成時の解像度が高いコメントが先に表示されます。</p> <p>インタラクティブプルーフの解像度の変更については、<a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">プルーフビューアでのインタラクティブプルーフの解像度の変更</a>を参照してください。</p> </td> 
+      <td> <p>（対話型プルーフでのみ使用できます）。 コメントが作成されたときに選択した解決策に従って、コメントを順番に表示します。 作成時の解像度が高いコメントが先に表示されます。</p> <p>インタラクティブプルーフの解像度の変更については、<a href="../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md" class="MCXref xref">プルーフビューアでのインタラクティブプルーフの解像度の変更</a>を参照してください。</p> </td> 
       <td>インタラクティブプルーフにのみ使用可能。</td> 
      </tr> 
     </tbody> 

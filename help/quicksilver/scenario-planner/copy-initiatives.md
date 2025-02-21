@@ -6,9 +6,9 @@ description: 既存のイニシアチブをコピーして、イニシアチブ�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '500'
 ht-degree: 87%
 
 ---
@@ -102,7 +102,7 @@ ht-degree: 87%
 1. プランの名前をクリックして開き、コピーするイニシアチブを確認します。
 1. コピーするイニシアチブの左側にあるボックスを選択し、プランの下部に表示されるメニューから、「**[!UICONTROL コピー]**」をクリックします。
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![ イニシアチブをコピー ](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] はイニシアチブをすぐにコピーし、最後に選択したイニシアチブの下に配置します。
 

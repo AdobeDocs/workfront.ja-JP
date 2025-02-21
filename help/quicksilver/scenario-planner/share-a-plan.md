@@ -7,10 +7,10 @@ description: Adobe Workfront シナリオプランナーで作成したプラン
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 91%
+source-wordcount: '913'
+ht-degree: 89%
 
 ---
 
@@ -186,7 +186,7 @@ ht-degree: 91%
    >
    >計画のヘッダーの右上隅に表示されている、計画の共有相手となるユーザーのアバターをクリックすると、計画を共有できます。
 
-1. （条件付き）計画が開かれている場合は、[!UICONTROL 計画]の名前の右側にある&#x200B;**[!UICONTROL その他]**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、次に「**[!UICONTROL 共有]**」をクリックします。
+1. （条件付き）プランを開いた場合は、**[!UICONTROL プラン]** 名の右側にある ![ その他 ](assets/more-icon.png) アイコン [!UICONTROL  その他 ] アイコンをクリックし、**[!UICONTROL 共有]** をクリックします
 
    または
 

@@ -6,10 +6,10 @@ description: プルーフの所有者または作成者が共有を有効にし�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 20bd2d94-1401-4a38-9042-335d0cb32a3d
-source-git-commit: aaf5beb8692b2fdbb797ba908796d78b4ee8866c
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1511'
+ht-degree: 98%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 0%
 
 1. 左側のアイコンメニューが表示されない場合は、プルーフビューアーの左上隅にある&#x200B;**メニュー**&#x200B;アイコンをクリックします。
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![ メニューアイコン ](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. プルーフビューアの左側にあるアイコンメニューで、**共有**&#x200B;アイコンをクリックします。
 

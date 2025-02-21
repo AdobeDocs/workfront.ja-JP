@@ -6,10 +6,10 @@ description: Web プルーフビューアーとデスクトッププルーフビ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 99%
+source-wordcount: '1424'
+ht-degree: 96%
 
 ---
 
@@ -80,13 +80,13 @@ Web プルーフビューアーとデスクトッププルーフビューアー�
 1. 次のいずれかの方法で、Web プルーフビューアーまたはデスクトップ プルーフビューアーを開きます。
 
    * Adobe Workfron t内でプルーフを行う場合は、表示するプルーフを含むドキュメントリストに移動し、ドキュメントにカーソルを合わせて、「**プルーフを開く**」をクリックします。
-   * Workfront Proof を使用している場合は、ダッシュボードまたは表示リストのプルーフで&#x200B;**プルーフに移動**&#x200B;アイコン ![](assets/go-to-proof-blue-icon.png) をクリックします。
+   * Workfront Proofを使用している場合は、ダッシュボードまたはビューリストで、プルーフの **プルーフに移動** アイコンをクリックするか ![ プルーフに移動 ](assets/go-to-proof-blue-icon.png) します。
 
 1. 左側のツールバーが表示されていない場合は、web プルーフビューアーの左上隅にある&#x200B;**メニュー**&#x200B;アイコンをクリックします。
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![ メニューアイコン ](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. 左側のツールバーで、**設定**&#x200B;アイコン ![](assets/settings-icon-in-pv.png) をクリックします。
+1. 左側のツールバーで、「**設定**」アイコン ![ 設定アイコン ](assets/settings-icon-in-pv.png) をクリックします。
 
 1. 次が表示されるので、いずれかを&#x200B;**設定**&#x200B;します。
 

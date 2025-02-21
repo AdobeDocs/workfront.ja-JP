@@ -7,10 +7,10 @@ description: 目標のリストまたは個々の目標にアクセスし、Adob
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 96%
+source-wordcount: '699'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 96%
 >
 >* 新しいプランとライセンス構造の場合：
 >
->   * 究極のWorkfrontプラン
+>   * Ultimate Workfront プラン
 >    
 >* 現在のプランおよびライセンス構造の場合：
 >
@@ -56,7 +56,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 
 目標リストの操作と目標の管理について詳しくは、[Adobe Workfront Goals の目標リストで目標を管理](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)を参照してください。
 
-![](assets/goal-list-unshimmed.png)
+![ 目標リスト ](assets/goal-list-unshimmed.png)
 
 目標リストを使用して、次の操作を実行します。
 
@@ -78,7 +78,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 
 グラフのセクションの使用について詳しくは、[グラフをレビューして Adobe Workfront Goals の目標の進捗傾向を把握](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)を参照してください。
 
-![](assets/graphs-section-unshimmed.png)
+![ グラフセクション ](assets/graphs-section-unshimmed.png)
 
 「グラフ」セクションを使用して、次の操作を実行できます。
 
@@ -97,7 +97,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 * [目標を Adobe Workfront 目標に結び付けて整合させる](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [結果とアクティビティを目標に変換して目標を連携](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![](assets/goal-alignment-section-unshimmed.png)
+![ 目標の関連付けセクション ](assets/goal-alignment-section-unshimmed.png)
 
 「目標の整合性」セクションを使用して、次の操作を実行します。
 
@@ -118,7 +118,7 @@ You can use the Pulse section to review and request updates to goals that might 
 
 For information about reviewing goals using the Pulse section, see [Review goals in the Adobe Workfront Goals Pulse section](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goals-in-pulse.md).
 
-![](assets/pulse-section-350x141.png)
+![Pulse section](assets/pulse-section-350x141.png)
 
 Use the Pulse section to do the following:
 
@@ -149,7 +149,7 @@ You can use the Check-in section to update active goals and any results and acti
 
 For information about managing goals in the Goal List, see [Manage goals in the Goal List of Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md).
 
-![](assets/check-in-section-350x143.png)
+![Check in section](assets/check-in-section-350x143.png)
 
 Use the Check-in section to do the following:
 

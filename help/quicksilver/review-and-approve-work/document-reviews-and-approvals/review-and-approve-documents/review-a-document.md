@@ -6,10 +6,10 @@ description: レビュアーは、レビューのために送信されたドキ�
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 97%
+source-wordcount: '527'
+ht-degree: 88%
 
 ---
 
@@ -94,5 +94,5 @@ Add once functionality is added
 
 1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション）ドキュメントの概要パネルの「**バージョン**」セクションまで下にスクロールし、レビューするバージョンの横にある詳細アイコン ![](../assets/more-icon.png) をクリックして、**ダウンロード**&#x200B;または&#x200B;**プレビュー**&#x200B;を選択すると、ドキュメントの特定のバージョンをプレビューまたはダウンロードできます。
+1. （オプション）ドキュメントの概要ペインの「**バージョン**」セクションまで下にスクロールし、レビューするバージョンの横にある「詳細」アイコン ![ 詳細アイコン ](../assets/more-icon.png) をクリックして、「**ダウンロード**」または「**プレビュー** を選択することで、ドキュメントの特定のバージョンをプレビューまたはダウンロードすることもできます。
 1. レビューを完了したことを記録するには、「**レビューを完了**」をクリックします。

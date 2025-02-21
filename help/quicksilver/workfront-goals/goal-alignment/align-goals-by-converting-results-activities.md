@@ -6,10 +6,10 @@ description: 2 つの目標を手動で連携させたり、既存の目標の�
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 92%
+source-wordcount: '649'
+ht-degree: 87%
 
 ---
 
@@ -46,8 +46,8 @@ ht-degree: 92%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -109,9 +109,9 @@ ht-degree: 92%
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -120,9 +120,9 @@ ht-degree: 92%
 
 1. 目標に変換する結果またはアクティビティがある目標に移動します。
 1. 目標のページで、左側のパネルの「**進捗インジケーター**」をクリックします。
-1. 進捗インジケーターのリストで結果またはアクティビティを選択し、**目標に変換**&#x200B;アイコン ![](assets/convert-to-goal-icon-unshimmed.png) をクリックします。「目標に変換」ボックスが開きます。
+1. 進捗インジケーターのリストで結果またはアクティビティを選択し、進捗インジケーターリストの上部にある **目標に変換** アイコン ![ 目標に変換 ](assets/convert-to-goal-icon-unshimmed.png) をクリックします。 「目標に変換」ボックスが開きます。
 
-   ![](assets/convert-to-goal-box-unshimmed.png)
+   ![ 目標に変換ボックス ](assets/convert-to-goal-box-unshimmed.png)
 1. 次の情報を更新します。
    * **目標名**：デフォルトでは、新しい目標は、元の結果やアクティビティと同じ名前になります。
    * **期間**：デフォルトでは、新しい目標の期間は現在の四半期になります。「**カスタム日付を有効にする**」設定を選択して、新しい目標のカスタム期間を定義します。

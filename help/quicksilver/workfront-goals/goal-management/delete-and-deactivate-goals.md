@@ -6,10 +6,10 @@ description: 目標に取り組み始めた後で、組織との関連性がな�
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 90%
+source-wordcount: '680'
+ht-degree: 80%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 90%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -50,8 +50,8 @@ ht-degree: 90%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -122,16 +122,16 @@ Deactivating goals differs depending on which environment you use.
    >
    >You can open goals from any sections of Workfront Goals.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Deactivate**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Deactivate**.
 
-   ![](assets/deactivate-goal-highlighted.png)
+   ![Deactivate goal](assets/deactivate-goal-highlighted.png)
 
    The goal status changes to Inactive. 
 
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. 右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**目標**」をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 
    目標リストが表示されます。
 
@@ -146,9 +146,9 @@ Deactivating goals differs depending on which environment you use.
 
    目標ページが開きます。
 
-   ![](assets/goal-page-unshimmed.png)
+   ![ 目標ページ ](assets/goal-page-unshimmed.png)
 
-1. 目標名の右側にある&#x200B;**その他**&#x200B;メニュー![](assets/more-icon.png)をクリックし、**非アクティブ化**&#x200B;を選択します。
+1. 目標名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、「**アクティベートを解除** をクリックします。
 
 1. 目標が非アクティブ化され、そのステータスは非アクティブになります。
 
@@ -179,23 +179,23 @@ Deleting  goals differs depending on which environment you use.
 
    The Goal Details panel opens on the right. 
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Delete**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Delete**.
 
-   ![](assets/delete-goal-highlighted.png)
+   ![Delete goal](assets/delete-goal-highlighted.png)
 
 1. Click **Yes, delete**.
 
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. 右上隅にあるメインメニューアイコン ![](assets/main-menu-icon.png) をクリックし、**目標**&#x200B;をクリックします。
+1. 右上隅の「メインメニュー」アイコン ![ 「メインメニュー」アイコン ](assets/main-menu-icon.png) をクリックし、「**目標**」をクリックします。
 
    目標リストが表示されます。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. 目標の名前をクリックします。目標ページが開きます。
-1. 目標名の右側にある&#x200B;**その他**&#x200B;メニュー![](assets/more-icon.png)をクリックし、**目標を削除**&#x200B;し、次に&#x200B;**削除**&#x200B;をクリックします。
+1. 目標名の右側にある **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックし、**目標を削除** をクリックしてから、**削除** をクリックします。
 
    目標とそのアクティビティおよび結果も削除され、復元することはできません。目標または子目標に関連付けられたプロジェクトは削除されません。
 

@@ -6,10 +6,10 @@ description: 目標を作成すると、Adobe Workfront Goals はそれをドラ
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '496'
-ht-degree: 86%
+source-wordcount: '501'
+ht-degree: 83%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 86%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -59,8 +59,8 @@ ht-degree: 86%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -116,8 +116,8 @@ ht-degree: 86%
 
 1. アクティブ化する目標に移動します。目標ページが開きます。
 
-1. 目標名の右側で&#x200B;**その他**&#x200B;メニュー ![](../goal-management/assets/more-icon.png) をクリックし、「**アクティブ化**」を選択します。
+1. 目標名の右側にある **その他** メニュー ![ その他のアイコン ](../goal-management/assets/more-icon.png) をクリックしてから、「**アクティベート**」をクリックします。
 
-   ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![ 詳細メニューが展開されました ](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    目標のステータスがアクティブに変わります。目標の進捗状況をトラックできるようになり、目標はチェックインセクションに表示されるほか、Workfront 目標のグラフセクションでも考慮されるようになりました。

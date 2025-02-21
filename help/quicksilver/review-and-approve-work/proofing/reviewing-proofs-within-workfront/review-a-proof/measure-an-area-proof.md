@@ -6,10 +6,10 @@ description: プルーフ内のエリアを測定できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 90%
+source-wordcount: '357'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 90%
 
 ## アクセス要件
 
-+++ この記事の機能に対するアクセス要件表示拡張。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -60,7 +60,7 @@ ht-degree: 90%
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
 1. （オプション）色のオプションを展開するには&#x200B;**測定マークアップの色**&#x200B;をクリックし、次にプルーフで見やすいカラーと&#x200B;**不透明度**&#x200B;をクリックします。\
-   ![](assets/selection-color-350x330.png)
+   ![ 選択カラー ](assets/selection-color-350x330.png)
 
    デフォルトの測定ツールカラーは赤です。
 
@@ -79,8 +79,8 @@ ht-degree: 90%
 1. サイズを変更するには、測定ウィンドウのコーナーまたはエッジをドラッグします。
 1. （オプション）測定領域を正確なサイズにする必要がある場合は、**選択サイズ**&#x200B;値を入力します。
 1. （オプション）領域内の特定の割合を測定する必要がある場合は、「割合を計算」ボックスをオンにします。新規ボックスが表示され、調整することができます\
-   ![](assets/calculate-percentage-350x230.png)
+   ![ パーセンテージの計算 ](assets/calculate-percentage-350x230.png)
 
-1. 校正閲覧者の上部にある **領域を計測** アイコンをクリックして、終了時にツールを閉じます。
+1. 完了したら、プルーフビューアの上部にある「**領域を測定**」アイコンをクリックしてツールを閉じます。
 
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)

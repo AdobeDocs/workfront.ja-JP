@@ -6,10 +6,10 @@ description: 他のレビュアーが行ったプルーフのコメントを表�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 98%
+source-wordcount: '671'
+ht-degree: 94%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 98%
 Workfront では、プルーフビューアーを起動しなくても、プルーフコメントを表示できます。
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、**ドキュメント**&#x200B;を選択します。
-1. ドキュメントを含む行をクリックし、**概要**&#x200B;アイコン ![](assets/summary-panel-icon.png) をクリックします。\
+1. ドキュメントを含む行をクリックし、ページの右側にある **概要** アイコン ![ 概要アイコン ](assets/summary-panel-icon.png) をクリックします。\
    コメントは、ドキュメントの概要の「アップロード」セクションに表示されます。
 
 ## すべてのコメントを既読としてマーク
@@ -96,7 +96,7 @@ Workfront では、プルーフビューアーを起動しなくても、プル�
 
 1. コメントリストの上にある&#x200B;**その他**&#x200B;アイコン、**すべて既読にする**&#x200B;の順にクリックします。
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![ すべて既読としてマーク ](assets/mceclip8-350x173.png)
 
 ## プルーフビューアからのプルーフコメントに返信する
 

@@ -6,10 +6,10 @@ description: 目標の全体的な正常性とその進捗の経時的な傾向�
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 93%
+source-wordcount: '987'
+ht-degree: 91%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 93%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -56,8 +56,8 @@ ht-degree: 93%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -113,7 +113,7 @@ ht-degree: 93%
 
 ## グラフでの目標の進捗の確認
 
-1. 右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)／**目標**&#x200B;をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)/**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,7 +122,7 @@ ht-degree: 93%
 
 1. 左側のパネルで「**グラフ**」をクリックします。
 
-   ![](assets/graphs-in-left-panel.png)
+   ![ 左パネルのグラフ ](assets/graphs-in-left-panel.png)
 
    「グラフ」セクションが表示されます。
 
@@ -141,7 +141,7 @@ ht-degree: 93%
 
 1. 以下の表の情報を確認し、目標のヘルスチャートを確認してください。
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![ ゲージグラフ ](assets/gauge-graph-wf-align-350x230.png)
 
    | 目標の合計数 | チャートの下部にある数は、選択した期間内のすべての目標の数を、選択したすべてのステータスで示します。 |
    |---|---|
@@ -151,7 +151,7 @@ ht-degree: 93%
 
 1. 目標進捗チャートを確認する際に、以下の表の情報を確認してください。
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![ 折れ線グラフ ](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

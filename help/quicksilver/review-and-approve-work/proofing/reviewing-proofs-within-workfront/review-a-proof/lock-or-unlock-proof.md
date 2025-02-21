@@ -6,10 +6,10 @@ description: レビュープロセスでは、いつでも手動でプルーフ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 97%
+source-wordcount: '394'
+ht-degree: 67%
 
 ---
 
@@ -61,17 +61,17 @@ ht-degree: 97%
 
    または
 
-   ドキュメントの以前のバージョンのプルーフを開く場合は、概要でそのバージョンのその他アイコン ![](assets/more-icon.png) をクリックし、「**プルーフを開く**」をクリックします。
+   以前のバージョンのドキュメントのプルーフを開く場合は、概要でそのバージョンの詳細アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、**プルーフを開く** をクリックします。
 
-   概要については、[ドキュメントの概要の概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
+   概要について詳しくは、[ドキュメントの概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-1. 左パネルの&#x200B;**ロック**&#x200B;アイコン ![](assets/unlock-proof-icon.png) をクリックします。
+1. 左側のパネルで、「**ロック**」アイコン ![ ロックアイコン ](assets/unlock-proof-icon.png) をクリックします。
 
-   ![](assets/lock-proof-350x277.png)
+   ![ プルーフをロック ](assets/lock-proof-350x277.png)
 
 ## プルーフのロック解除
 
-プルーフのロック解除は、以前のバージョンのプルーフに対するレビュアーからのコメントの追加が必要な場合に役立ちます。（以前のバージョンは、プルーフの所有者が手動でロックを解除するまで、常にロックされています）。レビュアーが以前のバージョンへのコメントの追加を完了したら、ユーザーは再度ロックできます。プルーフの以前のバージョンの表示については、[Web プルーフビューアでの以前のプルーフバージョンの表示](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)を参照してください。
+プルーフのロック解除は、以前のバージョンのプルーフに対するレビュアーからのコメントの追加が必要な場合に役立ちます。（プルーフの所有者が手動でロックを解除するまで、以前のバージョンは常にロックされます。） レビュー担当者が以前のバージョンへのコメントの追加を終了したら、再度ロックできます。 プルーフの以前のバージョンの表示については、[Web プルーフビューアでの以前のプルーフバージョンの表示](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md)を参照してください。
 
 プルーフをロック解除するには、次の手順に従います。
 
@@ -79,10 +79,10 @@ ht-degree: 97%
 
    または
 
-   ドキュメントの以前のバージョンのプルーフを開く場合は、概要でそのバージョンのその他アイコン ![](assets/more-icon.png) をクリックし、「**プルーフを開く**」をクリックします。
+   以前のバージョンのドキュメントのプルーフを開く場合は、概要でそのバージョンの詳細アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、**プルーフを開く** をクリックします。
 
-   概要については、[ドキュメントの概要の概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
+   概要について詳しくは、[ドキュメントの概要](../../../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
-1. 左パネルで&#x200B;**ロック解除**&#x200B;アイコン ![](assets/unlock-proof-icon.png) をクリックしたあと、「**はい、ロックを解除します**」をクリックします。
+1. 左側のパネルで「**ロック解除**」アイコン ![ ロック解除アイコン ](assets/unlock-proof-icon.png) をクリックし、「はい、ロック解除 **をクリックし** す。
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![ プルーフのロックを解除 ](assets/copy-of-unlock-proof-350x279.png)

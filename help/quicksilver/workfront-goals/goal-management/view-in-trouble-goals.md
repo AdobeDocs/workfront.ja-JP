@@ -6,10 +6,10 @@ description: 進捗が「トラブル発生中」と表示された目標は達�
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 91%
+source-wordcount: '827'
+ht-degree: 89%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 91%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -54,8 +54,8 @@ ht-degree: 91%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -97,7 +97,7 @@ ht-degree: 91%
 
 この記事では、目標リストで目標を確認する方法について説明します。
 
-1. 右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)／**目標**&#x200B;をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)/**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -124,7 +124,7 @@ ht-degree: 91%
 
 1. 進行状況バーのインジケーターの上にポインタを合わせると、実際の進行状況の割合と、今日の期待値が表示されます。
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![GOal の進行状況のホバーの詳細 ](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. （オプション）フィルターを使用して、特定の所有者に属する目標を検索します。
 
@@ -134,7 +134,7 @@ ht-degree: 91%
 
    結果とアクティビティのアップデートについて詳しくは、[Adobe Workfront Goals での目標の進行状況のアップデート](../goal-review-and-workfront-goals-sections/check-in-goals.md)を参照してください。
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![ 実際の進捗状況 ](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

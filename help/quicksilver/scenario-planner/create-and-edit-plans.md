@@ -6,10 +6,10 @@ description: 会社の上位レベルの戦略に優先順位を付ける場合�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 97%
+source-wordcount: '2434'
+ht-degree: 92%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 97%
 
 作成した既存の計画のリストが、[!DNL Workfront Scenario Planner] に表示されます。
 
-1. （オプション）プランリストの右上隅にある&#x200B;**[!UICONTROL フィルター]**&#x200B;アイコン ![](assets/filter-icon-34x37.png) をクリックし、次から選択します。
+1. （オプション）プラン・リストの右上隅にある **[!UICONTROL フィルタ]** アイコン ![ フィルタ ](assets/filter-icon-34x37.png) アイコン）をクリックし、次から選択します。
 
    | フィルター | 説明 |
    |---|---|
@@ -97,9 +97,9 @@ ht-degree: 97%
    | [!UICONTROL 自分の計画] | 自分で作成したプランを表示します。 |
    | [!UICONTROL 自分と共有] | 自分と共有している計画を表示する。 |
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![ プランフィルターのドロップダウンオプション ](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. （オプション）**[!UICONTROL 検索]**&#x200B;アイコン ![](assets/search-icon.png) をクリックしてキーワードを入力して、リスト内の計画をすばやく確認します。
+1. （オプション） **[!UICONTROL 検索]** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックしてキーワードを入力し、リスト内のプランをすばやく見つけます。
 
 1. 既存の計画の名前をクリックして編集し、手順 7 に進みます。
 
@@ -115,11 +115,11 @@ ht-degree: 97%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![](assets/new-plan-button.png)
+   ![ 「新規計画」ボタン ](assets/new-plan-button.png)
 
    [!UICONTROL 新規計画]ボックスが表示されます。
 
-   ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![ 新しいプランボックス ](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. （条件付き）新規計画を作成する場合は、以下の情報を指定します。
 
@@ -172,7 +172,7 @@ ht-degree: 97%
 
 1. （オプション）タイムラインドロップダウンメニューから、次の表のオプションの 1 つを選択して、計画のタイムラインの表示方法を変更します。
 
-   ![](assets/month-dropdown-with-all-options.png)
+   ![ 月ドロップダウン ](assets/month-dropdown-with-all-options.png)
 
    | ドロップダウンメニューオプション | 説明 |
    |---|---|
@@ -183,7 +183,7 @@ ht-degree: 97%
 1. （オプション）左から右にスクロールして、計画の期間全体を表示します。
 1. （オプション）現在の日に戻るには、「**[!UICONTROL 今日]**」のインジケーターラインをクリックします。
 
-   ![](assets/today-indicator-350x160.png)
+   ![ 今日の指標 ](assets/today-indicator-350x160.png)
 
 1. 計画のヘッダーにある「**[!UICONTROL 担当業務]**」ボックスをクリックして、計画の実行に使用できる担当業務を追加します。
 
@@ -193,7 +193,7 @@ ht-degree: 97%
    >
    >[!DNL Workfront] がこの計画に使用する役割割り当て単位（FTE または時間数）が、ボックスのタイトルのかっこ内に表示されます。
 
-   ![](assets/adding-people-to-plan-350x206.png)
+   ![ 計画へのユーザーの追加 ](assets/adding-people-to-plan-350x206.png)
 
 1. 「**[!UICONTROL 担当業務の入力を開始]**」フィールドをクリックし、リストから役割を選択するか、アクティブな担当業務の名前の入力を開始します。
 
@@ -239,12 +239,12 @@ ht-degree: 97%
     </tbody> 
    </table>
 
-1. （オプション）担当業務の名前の上にポインタを合わせるか、担当業務情報を更新した後に&#x200B;**[!UICONTROL ごみ箱アイコン]** ![](assets/delete.png) をクリックして、計画から削除します。
+1. （任意）担当業務の名前にポインタを合わせるか、役割情報を更新した後でタブをクリックしてから、**[!UICONTROL ごみ箱アイコン]**![ 削除アイコン ](assets/delete.png) をクリックして、計画から削除します。
 1. 「**[!UICONTROL 担当業務の分散]**」をクリックします。
 
    担当業務の分散パネルは、シナリオの期間中のすべての月を表示します。
 
-   ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![ 担当業務の月次配分 ](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. 担当業務の名前を入力して、「**[!UICONTROL 担当業務フィールドに入力]**」に担当業務を追加し、リストに表示されたら Enter をクリックします。これにより、担当業務が[!UICONTROL 担当業務]列に追加されます。
 1. シナリオの各月について、以下の情報を更新または確認します。
@@ -334,13 +334,13 @@ ht-degree: 97%
 
 1. 「**[!UICONTROL 詳細]**」をクリックして、月ごとの予算配分を確認します。年間予算と月間予算は常に四捨五入された数値です。小数点が原因で予算金額を 1 年のすべての月に均等に配分できない場合は、年間予算配分の下に&#x200B;**[!UICONTROL 残り]**&#x200B;インジケーターが表示されます。
 
-   ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![ 詳細リンクと残りリンク ](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. 毎月の予算を手動で調整して、超過額を排除します。
 
    すべての月次予算の合計が年間予算より大きい場合、年間予算配分の下に「**[!UICONTROL 超過]**」警告インジケーターが表示されます。計画で利用可能な予算以下になるまで、毎月の予算金額を手動で調整します。
 
-   ![](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![ 予算超過の警告 ](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. 「**[!UICONTROL 人件費を含める]**」設定を無効にすると、担当業務に関連するコストが計画全体コストにカウントされなくなります。固定費は常に計画の全体コストにカウントされます。この設定はデフォルトで有効になっており、計画のすべてのシナリオに影響します。
 1. [!UICONTROL 財務]ボックスの外側をクリックして閉じます。入力した情報は自動的に保存されます。
@@ -360,6 +360,6 @@ ht-degree: 97%
 
    計画が作成または更新されます。
 
-1. （オプション）計画名の右側にある&#x200B;**[!UICONTROL お気に入りアイコン]** ![](assets/favorites-icon-small.png)をクリックして、計画をお気に入りリストに追加します。
+1. （オプション）計画名の右側にある **[!UICONTROL お気に入りアイコン]**![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、計画をお気に入りのリストに追加します。
 
 1. （オプション）計画の URL をコピーし、計画を確認または更新する必要がある他のユーザーに送信します。プランを表示するには、少なくとも[!UICONTROL 表示]アクセス権がアクセスレベルに必要です。編集するには、[!UICONTROL 編集]アクセス権が必要です。予算、コスト、担当業務の料率など、プランの財務情報をレビューする必要がある場合は、[!UICONTROL 財務データ]へのアクセス権もアクセスレベルに必要です。[!DNL Scenario Planner]に必要なアクセス権については、[使用するために必要なアクセス権： [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)を参照してください。

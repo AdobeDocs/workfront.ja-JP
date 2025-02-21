@@ -6,10 +6,10 @@ description: プロジェクトとイニシアチブを接続した後、それ�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 90%
+source-wordcount: '816'
+ht-degree: 84%
 
 ---
 
@@ -87,12 +87,12 @@ ht-degree: 90%
 
 1. 次のいずれかの操作を行います。
 
-   * 「**[!UICONTROL 月]**」をクリックしてワークロードバランサーを月別表示にして、タイムライン ![](assets/drop-down-next-to-month-month-view-wb.png) で月の横にあるドロップダウンメニュー、**[!UICONTROL 詳細]**&#x200B;の順にクリックします。
-   * ツールバーの上右隅にある&#x200B;**[!UICONTROL 役割の割り当てを表示]**&#x200B;アイコン ![](assets/show-role-allocation-icon.png) をクリックします。
+   * **[!UICONTROL 月]** をクリックしてワークロードバランサーを月ごとに表示するには、タイムラインの月の横にあるドロップダウンメニュー ![ 月の横のドロップダウン ](assets/drop-down-next-to-month-month-view-wb.png) クリックし、「**[!UICONTROL 詳細]**」をクリックします。
+   * ツールバーの右上隅にある **[!UICONTROL 役割の割り当てを表示]** アイコン ![ 役割の割り当てを表示 ](assets/show-role-allocation-icon.png) をクリックします。
 
    [!UICONTROL 役割の割り当て]パネルが表示されます。
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![ 役割の割り当てパネル ](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -162,7 +162,7 @@ ht-degree: 90%
 
 1. （オプション）ドロップダウンアイコンをクリックして、[!UICONTROL 役割の割り当て]パネル、または[!UICONTROL ワークロードバランサー]のタイムラインのうちの月を展開します。
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![ 役割割り当てパネルで月を展開 ](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    [!UICONTROL プロジェクト合計]エリアに表示されるのと同じ種類の情報が、月ごとにも表示されます。
 

@@ -6,9 +6,9 @@ description: 個々の作業のいくつものバージョンや改訂にわた�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1737'
 ht-degree: 98%
 
 ---
@@ -105,7 +105,7 @@ Workfront で新しいプルーフバージョンをアップロードするに�
 
    プルーフがリストされる行を選択し、**新規追加**／**バージョン**&#x200B;をクリックして、新しいバージョンのプルーフの追加に使用するオプションをクリックします。
 
-   ![](assets/add-new-version-350x185.png)
+   ![ 新しいバージョンを追加 ](assets/add-new-version-350x185.png)
 
 ## プルーフビューアからのプルーフの新しいバージョンの作成（Workfront Proof のみ）
 

@@ -6,10 +6,10 @@ description: 自分が作成した計画や、誰かが自分と共有した計�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 88%
+source-wordcount: '518'
+ht-degree: 84%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 88%
 1. 計画の名前をクリックして開き、削除するイニシアチブを確認します。
 1. 次のいずれかの操作を行います。
 
-   * イニシアチブ名の右側にある&#x200B;**[!UICONTROL その他のメニュー]** ![](assets/more-menu.png)、**[!UICONTROL 削除]**／**[!UICONTROL はい、削除します]**&#x200B;の順にクリックします。
+   * イニシアチブ名の右側にある **[!UICONTROL その他メニュー]**![ その他メニュー ](assets/more-menu.png) をクリックし、**[!UICONTROL 削除]**/**[!UICONTROL はい、削除します]** をクリックします。
 
    * イニシアチブの左側にあるボックスを選択し、計画の下部に表示されるフローティングメニューで「**[!UICONTROL 削除]**」、「**[!UICONTROL はい、削除します]**」の順にクリックします。
 
@@ -107,7 +107,7 @@ ht-degree: 88%
 1. 計画の名前をクリックして開き、削除するイニシアチブを確認します。
 1. 削除するイニシアチブの左側にあるボックスを選択し、計画の下部に表示されるメニューから、「**[!UICONTROL 削除]**」、「**[!UICONTROL はい、削除します]**」の順にクリックします。
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![ イニシアチブの管理メニュー ](assets/bottom-manage-initiative-menu-350x45.png)
 
    イニシアチブとその担当業務およびコスト情報は、プランから削除されます。
 

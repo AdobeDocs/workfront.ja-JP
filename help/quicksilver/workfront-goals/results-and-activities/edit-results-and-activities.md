@@ -7,10 +7,10 @@ description: Adobe Workfront 管理者から Adobe Workfront Goals への適切�
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 91%
+source-wordcount: '779'
+ht-degree: 84%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Workfront 管理者から Adobe Workfront Goals への適切なアクセ�
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -58,8 +58,8 @@ Adobe Workfront 管理者から Adobe Workfront Goals への適切なアクセ�
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -121,9 +121,9 @@ Editing results differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit a result and click the goal name to open the **Goal Details** panel.
 1. Click **Results**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result you want to edit.
 
-   ![](assets/results-gear-icon-options-350x85.png)
+   ![Results gear icon](assets/results-gear-icon-options-350x85.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -139,14 +139,14 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. **メインメニュー** ![](assets/main-menu-icon.png) をクリックして、「**目標**」をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 1. 目標リストで目標の名前をクリックし、目標ページを開きます。
-1. 左パネルで「**進行状況インジケーター**」をクリックします。
-1. 進行状況インジケーターリストで結果を選択し、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+1. 左パネルの「**進行状況インジケーター**」をクリックします。
+1. 「進捗インジケーター」リストで結果を選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    「結果を編集」ボックスが開きます。
 
-   ![](assets/edit-result-box-unshimmed.png)
+   ![ 結果を編集ボックス ](assets/edit-result-box-unshimmed.png)
 
 1. 次の情報を編集します。
    * **結果名**：結果の名前。目標を完了するために取得しなければならない結果を示す、わかりやすい名前を付けます。
@@ -170,9 +170,9 @@ Editing activities differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit an activity and click the goal name to open the **Goal Details** panel.
 1. Click **Activities**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the activity you want to edit .
 
-   ![](assets/activities-gear-icon-options-350x84.png)
+   ![Activities gear icon](assets/activities-gear-icon-options-350x84.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -184,14 +184,14 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. **メインメニュー** ![](assets/main-menu-icon.png) をクリックして、「**目標**」をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 1. 目標リストで目標の名前をクリックし、目標ページを開きます。
-1. 左パネルで&#x200B;**進行状況インジケーター**&#x200B;をクリックします。
-1. 進行状況インジケーターリストでアクティビティを選択し、**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックします。
+1. 左パネルの「**進行状況インジケーター**」をクリックします。
+1. 「進捗インジケーター」リストでアクティビティを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    「アクティビティを編集」ボックスが開きます。
 
-   ![](assets/edit-activity-box-unshimmed.png)
+   ![ アクティビティを編集ボックス ](assets/edit-activity-box-unshimmed.png)
 
 1. 次の情報を編集します。
    * **アクティビティの名前**：アクティビティの名前。目標の完了を示すために実行しなければならないアクティビティを説明する、わかりやすい名前を付けます。

@@ -6,10 +6,10 @@ description: Adobe Workfront のドキュメントに対して、管理者また
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f54a221b-4bf0-414e-b2f3-ace861d85496
-source-git-commit: 9a32fcc876efd5d5250b515c1c285f5375615510
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 98%
+source-wordcount: '582'
+ht-degree: 97%
 
 ---
 
@@ -72,7 +72,7 @@ Adobe Workfront のドキュメントに対して、管理者または他のユ�
 
 1. 概要で「**承認**」セクションまで下にスクロールして、その他アイコン、「再送信」の順にクリックします。
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![ 承認の再送信 ](assets/nwe-resubmit-approval-350x149.png)
 
 ## ドキュメント承認リクエストを削除
 

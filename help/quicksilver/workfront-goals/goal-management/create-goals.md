@@ -6,10 +6,10 @@ description: CEO、マネージャー、または個人の投稿者であって�
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '711'
-ht-degree: 90%
+source-wordcount: '717'
+ht-degree: 88%
 
 ---
 
@@ -31,7 +31,7 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -50,8 +50,8 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -99,7 +99,7 @@ Creating goals differs depending on what environment you use.
 #### Create a goal from scratch in the Production environment 
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -)
@@ -108,7 +108,7 @@ Creating goals differs depending on what environment you use.
 
 1. (Conditional) Click **Goal List**, **Graphs**, **Pulse**, or **Check-in** in the left pane, then click **Add Goal** in the upper-right corner of the page. The Add Goal box displays.
 
-   ![](assets/add-goal-box-350x235.png)
+   ![Add goal box](assets/add-goal-box-350x235.png)
 
    >[!TIP]
    >
@@ -170,7 +170,7 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. 右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**目標**」の順にクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -180,7 +180,7 @@ Creating goals differs depending on what environment you use.
 
    「新しい目標」ボックスが表示されます。
 
-   ![](assets/new-goal-box-unshimmed.png)
+   ![ 新しい目標ボックス ](assets/new-goal-box-unshimmed.png)
 
 1. 次のフィールドに情報を入力します。
    * **目標名**：目標の名前を入力します。必須フィールドです。

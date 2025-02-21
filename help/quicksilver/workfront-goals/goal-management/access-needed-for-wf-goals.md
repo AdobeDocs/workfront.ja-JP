@@ -7,10 +7,10 @@ description: Adobe Workfront Goals にアクセスする前に、Adobe Workfront
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 78%
+source-wordcount: '727'
+ht-degree: 77%
 
 ---
 
@@ -85,7 +85,7 @@ Workfront 管理者は、システム内の Workfront Goals ライセンスの�
 
 Workfront Goals にアクセスできるようにするため、Workfront 管理者またはグループ管理者が、メインメニューの Goals エリアを含むレイアウトテンプレートを割り当てる必要があります。
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![ レイアウトテンプレート ](assets/layout-template-align-highlighted-350x220.png)
 
 Workfront 管理者またはグループ管理者は、Workfront Goals に簡単にアクセスできるようにするために、レイアウトテンプレートに以下のものを追加することもできます。
 

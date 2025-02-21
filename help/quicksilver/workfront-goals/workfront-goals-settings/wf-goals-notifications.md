@@ -7,10 +7,10 @@ description: Adobe Workfront Goals には、使用するアカウントで有効
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 89%
+source-wordcount: '226'
+ht-degree: 88%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 89%
 >
 >* 新しいプランとライセンス構造の場合：
 >
->   * 究極のWorkfrontプラン
+>   * Ultimate Workfront プラン
 >    
 >* 現在のプランおよびライセンス構造の場合：
 >
@@ -140,4 +140,4 @@ A personal goal is a goal where you are designated as the owner.
 
 有効にした通知で定義されたイベントが発生すると、そのイベントを説明するメールが届きます。次は、新しい目標の所有者として割り当てられたことを通知するメールの例です。
 
-![](assets/wf-align-notification-email-350x164.png)
+![ 目標通知メール ](assets/wf-align-notification-email-350x164.png)

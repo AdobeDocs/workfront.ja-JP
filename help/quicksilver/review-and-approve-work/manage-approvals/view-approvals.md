@@ -6,10 +6,10 @@ description: 承認プロセスを使用すると、プロジェクト、タス�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '802'
+ht-degree: 74%
 
 ---
 
@@ -82,7 +82,7 @@ Workfront の複数のエリアで承認を表示または管理できます。�
 
 ## ホームエリアで承認用に作成する作業を確認 {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
 1. （条件付き） **フィルター** ドロップダウンメニューをクリックし、**自分が送信した承認** を選択して、送信した承認を表示します。
 
@@ -133,6 +133,6 @@ Workfront の複数のエリアで承認を表示または管理できます。�
 
    「承認」タブには、過去のすべての承認パスおよび承認ステージに関する完全な情報が表示されます。承認決定者や、承認がチーム、担当業務、ユーザーのいずれに対して設定されているかを正確に確認できます。
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![ 「承認」タブが展開されました ](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    承認プロセスの作成について詳しくは、[作業アイテムの承認プロセスを作成](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。

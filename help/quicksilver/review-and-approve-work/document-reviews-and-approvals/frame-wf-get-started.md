@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Workfront管理者は、Workfrontの設定領域にデフォルトの Frame.io �
 
 >[!IMPORTANT]
 >
->この機能は、近日公開予定です。 現時点では、Workfront チームが Frame.io アカウントを手動で追加します。 Adobeアカウント担当者にお問い合わせください。
+>この機能は、近日公開予定です。 現時点では、Workfront チームが Frame.io アカウントを手動で追加します。 Adobe アカウント担当者にお問い合わせください。
 
 <!--For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
@@ -54,7 +54,7 @@ Frame.io を定期的に使用するWorkfront ユーザーは、Frame.io ユー�
 
 詳しくは、「[and [!DNL Workfront] integration の設定 ](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md) を参照  [!DNL Frame.io]  てください。
 
-![](assets/Frame-enabled-user.png)
+![ フレーム対応ユーザー ](assets/Frame-enabled-user.png)
 
 
 ### Frame.io に接続したプロジェクトを作成する
@@ -114,7 +114,7 @@ Frame.io の詳細については、[ プロジェクトでの共同作業に招
   詳しくは、[ 承認テンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください
 
 
-![](assets/assign-template.png)
+![ テンプレートを割り当て ](assets/assign-template.png)
 
 
 #### Frame.io ビューアへのアクセス
@@ -123,7 +123,7 @@ Frame.io の詳細については、[ プロジェクトでの共同作業に招
 
 * Workfrontのメール通知
 * 新しいWorkfrontのホームエリアの「自分の承認」ウィジェット
-  ![](assets/awaiting-my-approval.png)
+  ![マイ承認待ち](assets/awaiting-my-approval.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Frame.io ビューアで作成されたすべてのコメントは、「Workfron
 
 Workfrontの決定について詳しくは、[ 決定ステータスの概要のドキュメント ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md) を参照してください。
 
-![](assets/frame-viewer-and-decision.png)
+![ フレームビューアと決定 ](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -158,4 +158,4 @@ Reviewer/approver needs to go through email to get to frame vier
 プロジェクトコーディネーターは、次のウィジェットを使用して、Workfrontのホームエリアにあるすべての進行中の承認の進行状況を監視できます。
 
 * **すべての承認**：平均承認時間と決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリストビューを表示します。
-  ![](assets/all-approvals.png)
+  ![すべての承認](assets/all-approvals.png)

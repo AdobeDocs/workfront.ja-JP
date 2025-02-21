@@ -7,10 +7,10 @@ description: 結果は、目標の進捗を測定します。結果、アクテ�
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 88%
+source-wordcount: '593'
+ht-degree: 86%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 88%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -51,8 +51,8 @@ ht-degree: 88%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -102,7 +102,7 @@ Adding results to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add a result and click the name to open the **Goal Details** panel.
 1. Click **Add results**.
 
-   ![](assets/add-result-inside-goal-details-highlighted-350x145.png)
+   ![Add result inside goal](assets/add-result-inside-goal-details-highlighted-350x145.png)
 
 1. Start typing the result you want to achieve in the **Result** field. This is the name of the result and it displays wherever the goal displays. 
 1. (Optional) If you want to set the Result Owner as someone other than yourself, click your name in the **Owner** field and start typing the name of the user that you want to assign as the owner of the result, then click it when it appears in the drop-down list.
@@ -113,7 +113,7 @@ Adding results to goals differs depending on which environment you use.
 
 1. In the Value drop-down menu, select the type of value that you want to measure your success by.
 
-   ![](assets/results-value-initial-target-boxes-350x49.png)
+   ![Results value](assets/results-value-initial-target-boxes-350x49.png)
 
    Select from the following options:
 
@@ -137,7 +137,7 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. メインメニュー ![](assets/main-menu-icon.png) をクリックし、続いて「**目標**」をクリックします。
+1. メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 
 1. **目標リスト**&#x200B;で目標の名前をクリックし、目標ページを開きます。
 1. 左側のパネルの「**進捗状況インジケーター**」をクリックします。
@@ -145,7 +145,7 @@ Adding results to goals differs depending on which environment you use.
 
    新規結果ボックスが開きます。
 
-   ![](assets/new-result-box-unshimmed.png)
+   ![ 新しい結果ボックス ](assets/new-result-box-unshimmed.png)
 
 1. 結果の名前を「**結果名**」フィールドに入力します。必須フィールドです。
 1. （オプション）結果を別のユーザーに割り当てる場合は、「**結果の所有者**」フィールドから自分の名前を削除します。デフォルトでは、アクティビティを作成したユーザーが所有者となります。

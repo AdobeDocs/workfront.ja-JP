@@ -6,10 +6,10 @@ description: 目標を定期的に確認し、進捗を更新して、目標が�
 author: Alina
 feature: Workfront Goals
 exl-id: 5092f508-e52c-4934-a8c1-d0be04ecce13
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 89%
+source-wordcount: '696'
+ht-degree: 86%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 89%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -52,8 +52,8 @@ ht-degree: 89%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -135,7 +135,7 @@ When you check in on a goal at the goal level, you can update the progress of th
 
 For information about how to update additional information about results and activities, see [Edit results and activities in Adobe Workfront Goals](../../workfront-goals/results-and-activities/edit-results-and-activities.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -160,7 +160,7 @@ For information about how to update additional information about results and act
 
 1. Click **Check in**.
 
-   ![](assets/check-in-link-inside-goal-details-highlighted-350x156.png)
+   ![Check in link](assets/check-in-link-inside-goal-details-highlighted-350x156.png)
 
    The progress of results and activities becomes editable.
 
@@ -197,7 +197,7 @@ You can use the Check-in section to check in on goals when you want to quickly p
 
 When you check in on a goal in the Check-in section, you can update the progress of the results and activities that are assigned only to you. You cannot update the progress of results and activities that are assigned to other users in this section.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -210,11 +210,11 @@ When you check in on a goal in the Check-in section, you can update the progress
 
    (Conditional) If you are in the Goal List, Goal Alignment, or Pulse sections, click the **Check in** button in the upper-right of the screen. This opens the Check-in section.
 
-   ![](assets/check-in-button-highlighted-350x102.png)
+   ![Check in button](assets/check-in-button-highlighted-350x102.png)
 
    Goals display in a list and results and activities are listed under each goal.
 
-   ![](assets/check-in-page-with-show-all-aligned-goals-link-350x178.png)
+   ![Check in page](assets/check-in-page-with-show-all-aligned-goals-link-350x178.png)
 
 1. (Optional) Click **Show all results**, **Show all activities**, or **Show all aligned goals** to the far right of the goal name to display all results, activities, and aligned goals of a goal whose progress you want to update.
 
@@ -244,7 +244,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 目標の進行状況を更新する手順は、次のとおりです。
 
-1. 右上隅の&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)／**目標**&#x200B;をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)/**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -269,7 +269,7 @@ When you check in on a goal in the Check-in section, you can update the progress
 
 1. 結果またはアクティビティの進行状況を更新するには、結果またはアクティビティの&#x200B;**実際の進行状況**&#x200B;列の数値をクリックして、値を入力して更新し、Enter キーを押します。
 
-   ![](assets/actual-progress-result-updating-highlighted-unshimmed.png)
+   ![ 実際の進捗状況 ](assets/actual-progress-result-updating-highlighted-unshimmed.png)
 
    「進行状況」列の進行状況インジケーターの進行状況バーと、目標ヘッダーの目標の進行状況は直ちに更新されます。
 

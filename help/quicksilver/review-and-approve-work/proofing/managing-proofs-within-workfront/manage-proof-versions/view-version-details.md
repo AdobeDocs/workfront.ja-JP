@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 96%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 96%
 1. ドキュメントリストで、プルーフを含む行の上にポインタを合わせて、「**ドキュメントの詳細**」をクリックします。
 1. ドキュメントの詳細ページの上部付近で、名前の横にあるドロップダウンメニューをクリックし、表示および管理するバージョンの名前をクリックします。
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ バージョン ドロップダウン ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    バージョンの詳細の表示に加えて、バージョンの名前、メタデータ、プルーフ（ドキュメントプルーフの場合）などのバージョンを変更できます。
 

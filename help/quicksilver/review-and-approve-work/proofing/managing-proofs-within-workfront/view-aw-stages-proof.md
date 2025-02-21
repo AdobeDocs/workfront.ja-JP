@@ -6,10 +6,10 @@ description: 自動ワークフローで設定されたプルーフの進行状�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '537'
-ht-degree: 97%
+source-wordcount: '549'
+ht-degree: 80%
 
 ---
 
@@ -69,24 +69,24 @@ ht-degree: 97%
 
    ステージ間の線は、ステージ間の依存関係を表します。非アクティブなステージにつながる線は、ステージがアクティブになるまで点線で示されます。
 
-   ダイアグラム内のステージにポインタを合わせて、その進行状況を表示できます。ステージがアクティブでなく、ステージの編集権限を持っている場合は、ステージをアクティブ化ボタン ![](assets/activate-stage-btn.png) を使用してステージを開始することができます。ステージがアクティブで、ステージの編集権限を持っている場合は、そのステージをロックできます。![](assets/lock-stage-btn.png)進捗バー（S、O、C、D）について詳しくは、[Workfront Proof でのプルーフの進行状況とステータスの表示](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)を参照してください。
+   ダイアグラム内のステージにポインタを合わせて、その進行状況を表示できます。ステージがアクティブでなく、ステージに対する編集権限がある場合は、「ステージをアクティベート」ボタン ![ ステージをアクティベート ](assets/activate-stage-btn.png) をクリックして、ステージを開始できます。 ステージがアクティブで、ステージの編集権限を持っている場合は、そのステージをロックできます。![ ステージをロック ](assets/lock-stage-btn.png) プログレスバー（S、O、C、D）について詳しくは、を参照してください。  [Workfront Proofでプルーフの進捗状況とステータスを表示します ](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)。
 
 ## ステージを表示
 
 1. ドキュメントを含むドキュメントリストで、ドキュメントを含む行にポインタを合わせ、「**プルーフワークフロー**」をクリックします。
 1. ダイアグラムで、表示するステージをクリックします。
 
-   ![](assets/view-stage-diagram-350x204.png)
+   ![ ステージ図を表示 ](assets/view-stage-diagram-350x204.png)
 
 1. ステージの詳細を展開するには、名前の下の横向き矢印をクリックします。
 
-   ![](assets/stage-details-caret-350x167.png)
+   ![ ステージの詳細 ](assets/stage-details-caret-350x167.png)
 
 ## すべてのステージを表示
 
 自動ワークフローのすべてのステージを表示するには、次の操作を行います。
 
-1. ページ上部のビューを変更ボタン ![](assets/change-view-btn.png)、「**すべてのステージを表示**」の順にクリックします。
+1. ページ上部の「ビューを変更」ボタン ![ ビューを変更 ](assets/change-view-btn.png) をクリックし、「**すべてのステージを表示**」をクリックします。
 
    自動ワークフローのすべてのステージがセクションに表示されますが、詳細は非表示になっています。
 
@@ -96,5 +96,5 @@ ht-degree: 97%
 
 自動ワークフローのすべてのステージの詳細を展開して表示するには：
 
-1. ページ上部のビューを変更ボタン ![](assets/change-view-btn.png) をクリックし、「**すべてのステージの詳細を表示**」をクリックします。
+1. ページ上部の「ビューを変更」ボタン ![ ビューを変更 ](assets/change-view-btn.png) をクリックし、「**すべてのステージを詳細に表示**」をクリックします。
 1. ステージの詳細を表示するには、名前の下の下向き矢印をクリックします。

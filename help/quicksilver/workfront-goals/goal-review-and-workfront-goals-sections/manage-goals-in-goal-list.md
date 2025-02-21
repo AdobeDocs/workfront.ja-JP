@@ -6,10 +6,10 @@ description: 自分または他のユーザーが目標を作成した後、そ�
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 91%
+source-wordcount: '817'
+ht-degree: 81%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 91%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -52,8 +52,8 @@ ht-degree: 91%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -101,7 +101,7 @@ ht-degree: 91%
 
 ### Manage the Goal List in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,14 +155,14 @@ ht-degree: 91%
 
    An arrow displays to the right of the field by which the list is sorted.
 
-   ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
+   ![Goal list with goal expanded](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
 
 1. (Optional) Click the field in the column again to sort the same column in a descending order. 
 1. Click the right-pointing arrow to the left of the goal name to expand a goal
 
    Or
 
-   Click the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
+   Click the right-pointing arrow ![Right-pointing arrow](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
 
    * Results names, owners, and progress
 
@@ -190,12 +190,12 @@ ht-degree: 91%
 
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
-1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. Click the **Alignment icon** ![Alignment icon](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 -->
 
 目標リストで目標を管理するには、次の手順に従います。
 
-1. **メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**目標**」をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -232,7 +232,7 @@ ht-degree: 91%
 
      詳しくは、[目標の進捗状況を Adobe Workfront Goals で計算](../goal-management/calculate-goal-progress.md)を参照してください。
 
-1. 目標リストの右上隅にあるフィルターアイコン ![](assets/filter-icon.png) をクリックし、フィルターを適用して、重要な目標のみを表示します。
+1. 目標リストの右上隅にあるフィルターアイコン ![ フィルターアイコン ](assets/filter-icon.png) をクリックし、フィルターを適用して、重要な目標のみを表示します。
 
    Workfront Goals でのフィルターの使用について詳しくは、[Adobe Workfront Goals での情報のフィルター](../goal-management/filter-information-wf-goals.md)を参照してください。
 
@@ -242,10 +242,10 @@ ht-degree: 91%
 1. （オプション）同じ列を降順で並べ替えるには、列のフィールドを再度クリックします。
 1. 目標の名前をクリックして、目標のページを開きます。
 1. リストから 1 つの目標を選択し、リストの上部にある次のオプションの 1 つをクリックします。
-   * **編集**&#x200B;アイコン ![](assets/edit-icon.png) で、目標に関する情報を編集します。詳しくは、[Adobe Workfront Goals の目標を編集](../goal-management/edit-goals.md)を参照してください。
-   * 他の人と目標を共有する「**共有**」アイコン ![](assets/share-icon.png) 詳しくは、[Adobe Workfront Goals の目標を共有](../workfront-goals-settings/share-a-goal.md)を参照してください。
-   * 「**整合性を開く**」アイコン ![](assets/align-icon-unshimmed.png) で、目標の整合性エリアを開きます。このオプションは、選択した目標が別の目標に一致している場合にのみ表示されます。
-   * 目標を削除する&#x200B;**削除**&#x200B;アイコン ![](assets/delete-icon.png) で、「**削除**」をクリックして確定します。詳しくは、[Adobe Workfront Goals の目標を削除および非アクティブ化](../goal-management/delete-and-deactivate-goals.md)を参照してください。
+   * **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) 目標に関する情報を編集できます。 詳しくは、[Adobe Workfront Goals の目標を編集](../goal-management/edit-goals.md)を参照してください。
+   * **共有** アイコン ![ 共有アイコン ](assets/share-icon.png) を使用して、他のユーザーと目標を共有します。 詳しくは、[Adobe Workfront Goals の目標を共有](../workfront-goals-settings/share-a-goal.md)を参照してください。
+   * **関連付けを開く** アイコン ![ 関連付けを開くアイコン ](assets/align-icon-unshimmed.png) 目標の関連付け領域を開く このオプションは、選択した目標が別の目標に一致している場合にのみ表示されます。
+   * 目標を削除するには **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックし、確認するには **削除** をクリックします。  詳しくは、[Adobe Workfront Goals の目標を削除および非アクティブ化](../goal-management/delete-and-deactivate-goals.md)を参照してください。
 
 
 

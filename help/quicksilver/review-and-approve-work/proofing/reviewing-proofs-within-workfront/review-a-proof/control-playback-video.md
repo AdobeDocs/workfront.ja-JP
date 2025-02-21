@@ -6,9 +6,9 @@ description: ビデオプルーフで再生を制御する方法を説明しま�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '357'
 ht-degree: 96%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 96%
 
 1. プルーフビューアの下部で、「**進む**」および「**戻る**」矢印キーをクリックしてビデオをフレームごとに確認します。
 
-   ![](assets/frame-.png)
+   ![ フレーム ](assets/frame-.png)
 
 ## 再生ボリュームを変更
 
@@ -82,7 +82,7 @@ ht-degree: 96%
 
 1. プルーフビューアの右下隅で&#x200B;**音量**&#x200B;アイコンをクリックし、スライダーをドラッグして新しい音量を選択します。
 
-   ![](assets/phq-viewer-volume.png)
+   ![ ボリューム ](assets/phq-viewer-volume.png)
 
    または
 

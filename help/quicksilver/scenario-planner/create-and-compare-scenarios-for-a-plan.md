@@ -7,10 +7,10 @@ description: 企業の長期戦略を計画する際、初期段階には持っ�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 90%
+source-wordcount: '964'
+ht-degree: 88%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 90%
 
 1. 既存のシナリオの横にある下向き矢印をクリックし、**[!UICONTROL コピー]**&#x200B;アイコンを選択します。
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![ シナリオをコピー ](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    これにより、コピーされたシナリオと同じ情報を持つ新しいシナリオが作成されます。計画の 2 番目のシナリオの場合は「[!UICONTROL シナリオ 2]」、3 番目のシナリオの場合は「[!UICONTROL シナリオ 3]」という名前が自動的に付けられます。シナリオ名は変更できません。 作成できるコピーの数に制限はありません。
 
@@ -116,7 +116,7 @@ ht-degree: 90%
 
    計画の既存のシナリオはすべて、横に並べたカード形式で表示されます。初期シナリオは常に最初にリストされ、静的です。
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![ セナリオカード ](assets/scenario-cards-overlapping-350x166.png)
 
 1. （オプション）右にスクロールして、すべてのシナリオカードを表示します。
 
@@ -174,7 +174,7 @@ ht-degree: 90%
    >初期シナリオと追加のシナリオで情報が異なる場合は、変更された値の横に上向き矢印または下向き矢印が表示され、初期シナリオと比較して、その値の増減を示します。
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![ シナリオカードの矢印 ](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >例えば、予算、担当業務の数、イニシアチブの数がシナリオごとに変わる場合があります。
 
@@ -188,9 +188,9 @@ ht-degree: 90%
 
    説明フィールドをクリックして更新し、画面の任意の場所をクリックして変更を保存します。
 
-1. （オプション）**[!UICONTROL その他]**&#x200B;メニュー ![](assets/more-icon.png) をクリックしてシナリオを「**[!UICONTROL コピー]**」または「**[!UICONTROL 削除]**」します。
+1. （任意） **[!UICONTROL 詳細]** メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックして、シナリオを **[!UICONTROL コピー]** または **[!UICONTROL 削除]** します。
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![ シナリオをコピーまたは削除 ](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    シナリオをコピーすると、自動的にカードページに表示され、「[!UICONTROL シナリオ] `<next number in order>`」のパターンに従って名前が変更されます。
 

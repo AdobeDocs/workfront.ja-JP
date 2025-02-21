@@ -7,10 +7,10 @@ description: プランへのリンクが共有されたら、Adobe Workfront Sce
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 86%
+source-wordcount: '511'
+ht-degree: 84%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 86%
 
 1. プランへのリンクをクリックします。
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![ 計画へのアクセスの要求 ](assets/request-access-to-plan-350x277.png)
 
 1. **[!UICONTROL アクセス権をリクエスト]**&#x200B;ドロップダウンメニューで、付与する権限のレベルを指定します。次の中から選択します。
 
@@ -98,11 +98,11 @@ ht-degree: 86%
    次の処理が行われます。
 
    * [!DNL Workfront] はプラン所有者にメール通知を送信し、プラン所有者はリクエストされた権限を付与できます。\
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![ アクセスをリクエストするメール通知 ](assets/request-access-to-plan-email-350x156.png)
 
    * プラン所有者がリクエストされた権限を付与すると、権限が付与されたことを知らせるメールが届きます（[!DNL Workfront] 管理者がシステムで「ユーザー宛オブジェクトの共有」通知を有効にし、ユーザーがプロファイルで「[!UICONTROL 誰かが自分とオブジェクトを共有]」メール通知を有効にしている場合）。
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![ アクセス権が付与されたメール ](assets/access-granted-to-plan-email-350x172.png)
 
    * また、[!UICONTROL ホーム]領域と [!DNL Workfront] モバイルアプリからもプランへの権限を付与できます。
 

@@ -6,10 +6,10 @@ description: 自分または他のユーザーが Adobe Workfront Goals に追�
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '1366'
-ht-degree: 95%
+source-wordcount: '1379'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li> </ul>
+  <ul><li>Ultimateプラン </li> </ul>
 
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -50,8 +50,8 @@ ht-degree: 95%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -128,7 +128,7 @@ Workfront Goals でフィルターを使用する際は、次の点を考慮し�
 
 1. リストの右上隅にある「**フィルター**」をクリックします。
 
-   ![](assets/filter-icon-and-label.png)
+   ![フィルターアイコン](assets/filter-icon-and-label.png)
 
    デフォルトでは、Workfront はシステム内のすべての目標を表示する「**すべて**」のフィルターを適用します。
 
@@ -172,7 +172,7 @@ Workfront Goals でフィルターを使用する際は、次の点を考慮し�
       </tbody> 
      </table>
 
-   * フィルターの名前にポインタを合わせて、その名前の横にある&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックしてカスタマイズし、ユーザー、チーム、グループの特定の名前、または組織の名前を追加します。
+   * フィルターの名前にポインタを合わせて、その名前の横にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてカスタマイズし、ユーザー、チーム、グループの特定の名前、または組織の名前を追加してから、リストに表示されたら選択します。
 
    * 「**新規フィルター**」をクリックして新しいフィルターを作成し、次のオプションのいずれかを選択して、新しいフィルターをカスタマイズします。
 
@@ -249,11 +249,11 @@ Workfront Goals でフィルターを使用する際は、次の点を考慮し�
 
 1. （オプションおよび条件付き）「目標の整合性」セクションで目標を表示して、フィルターした目標を表示する場合は「**表示する**」をクリックします。
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![ フィルターされた項目にリンクを表示 ](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    フィルター名は、無視されていることを示すために黄色でアウトライン表示されます。
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![ 黄色の輪郭をフィルタ ](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. （オプションおよび条件付き）「**フィルターを再適用**」をクリックして、前の手順で表示した項目を除外し、フィルターを適用します。

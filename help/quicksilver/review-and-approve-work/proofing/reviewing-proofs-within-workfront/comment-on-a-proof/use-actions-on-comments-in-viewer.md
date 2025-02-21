@@ -6,10 +6,10 @@ description: アクションを使用して、プルーフの各コメントス�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '438'
-ht-degree: 97%
+source-wordcount: '441'
+ht-degree: 96%
 
 ---
 
@@ -67,7 +67,7 @@ Workfront 管理者によるアクションの有効化と設定の方法につ�
 
    * コメントの右下隅にあるフラグアイコンをクリックし、ドロップダウンメニューで目的のアクションをクリックします。
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![ アクションフラグアイコン ](assets/actions-flag-icon-350x198.png)
 
    * **その他**&#x200B;アイコン（コメント上の 3 つの水平ドット）をクリックし、表示されるドロップダウンメニューの下部のセクションで目的のアクションをクリックします。
 

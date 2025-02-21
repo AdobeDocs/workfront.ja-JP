@@ -6,10 +6,10 @@ description: プルーフビューアーでプルーフにコメントを付け�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 98%
+source-wordcount: '725'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 98%
 1. コメントを終了し、「**投稿**」をクリックします。
 1. （条件付き）プルーフにまだ追加されていない人にタグを付けた場合は、表示されるボックスに一覧表示される各ユーザーの&#x200B;**プルーフの役割**&#x200B;および&#x200B;**メールアラート**&#x200B;設定を指定し、「**担当者の追加とコメントの投稿**」をクリックします。
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![ プルーフにユーザーを追加 ](assets/add-people-to-proof-350x220.png)
 
    プルーフについて詳しくは、次を参照してください。プルーフメールアラートについて詳しくは、この記事の[Workfront Proof でのメール通知の設定](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)の節を参照してください。
 

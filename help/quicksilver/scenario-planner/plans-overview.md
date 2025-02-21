@@ -7,10 +7,10 @@ description: ビジネスマネージャーは、Adobe Workfront シナリオプ
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 98%
+source-wordcount: '1160'
+ht-degree: 97%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 98%
 
 計画に関する担当業務の一般情報を確認できます。一般情報では、計画で利用できる担当業務の量と、イニシアチブを実施するのに必要な担当業務の量を示しています。この情報は、計画のヘッダーの「[!UICONTROL 担当業務]」ボックスに表示されます。
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![ 計画の担当業務ボックス ](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 「担当業務」ボックスには、次の情報が表示されます。
 
@@ -78,7 +78,7 @@ ht-degree: 98%
 
 計画に関する財務情報を確認できます。具体的には、計画した予算、予算の執行状況、計画の正味価値を確認できます。計画の正味価値は、各イニシアチブの正味価値に基づいています。この情報は、計画のヘッダーの「[!UICONTROL 財務]」ボックスと「[!UICONTROL 概要]」ボックスに表示されます。
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![ 予算および純値ボックス ](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 以下は、計画の「[!UICONTROL 財務]」ボックスと「[!UICONTROL 概要]」ボックスに表示されます。
 

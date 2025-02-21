@@ -6,10 +6,10 @@ description: プルーフの承認レポートを使用して、環境内のプ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 96%
+source-wordcount: '299'
+ht-degree: 95%
 
 ---
 
@@ -56,7 +56,7 @@ ht-degree: 96%
 
 1. 「**新規レポート**」をクリックしてスクロールし、「**プルーフの承認**」を選択します。
 
-   ![](assets/proof-approval-report.png)
+   ![ プルーフ承認レポート ](assets/proof-approval-report.png)
 
 1. （オプション）その他のフィールドを追加します。
 1. 「**保存して閉じる**」をクリックします。

@@ -6,10 +6,10 @@ description: プロジェクトとイニシアチブを結び付けた後、リ�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 84%
+source-wordcount: '676'
+ht-degree: 82%
 
 ---
 
@@ -79,7 +79,7 @@ ht-degree: 84%
 
 1. プロジェクトおよび関連するイニシアチブの担当業務の割り当てを確認するプロジェクトに移動します。
 1. 左側のパネルの「**[!UICONTROL タスク]**」をクリックします。
-1. ツールバーの上右隅にある&#x200B;**[!UICONTROL 役割の割り当てを表示する]**&#x200B;アイコン ![](assets/show-role-allocation-icon.png) をクリックします。
+1. ツールバーの右上隅にある **[!UICONTROL 役割の割り当てを表示]** アイコン ![ 役割の割り当てを表示 ](assets/show-role-allocation-icon.png) をクリックします。
 
    [!UICONTROL 役割の割り当て]パネルが表示されます。
 

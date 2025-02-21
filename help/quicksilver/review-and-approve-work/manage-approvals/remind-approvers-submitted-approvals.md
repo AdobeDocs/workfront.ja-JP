@@ -6,10 +6,10 @@ description: Workfront でオブジェクトが承認待ちであることを承
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: eece6fc8-14e8-4751-8662-080ecb4371e3
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 97%
+source-wordcount: '478'
+ht-degree: 88%
 
 ---
 
@@ -70,14 +70,14 @@ ht-degree: 97%
 
 オブジェクトへのアクセス要求を承認するように別のユーザーに通知するには、次の手順に従います。
 
-1. Adobe Workfront の左上隅にある&#x200B;**ホーム**&#x200B;アイコン![](assets/home-icon-30x29.png) をクリックします。
+1. Adobe Workfront の左上隅にある&#x200B;**ホーム**&#x200B;アイコン ![ホームアイコン](assets/home-icon-30x29.png) をクリックします。
 
    >[!NOTE]
    >
    >Workfront 管理者が、環境内のホームアイコンに次の変更を加える場合があります。
    >
    >* 組織を説明するようにカスタマイズされた画像に置き換える。この場合、アイコンはこの記事に示すものとは異なる外観になります。
-   >* リンクされたページを別のページに置き換える。この場合、ページの右上隅にある&#x200B;**メインメニュー**![](assets/main-menu-icon.png)、**ホーム**&#x200B;の順にクリックします。
+   >* リンクされたページを別のページに置き換える。この場合は、ページの右上隅にある **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**ホーム** をクリックします。
 
 1. **作業リスト**&#x200B;エリアで、「**送信済みの承認**」グループに移動します。
 
@@ -85,27 +85,27 @@ ht-degree: 97%
 
    作業リストの右側にアクセス要求が開きます。
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![ 承認待ちのアクセス要求 ](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. 右パネルの右上隅にある「**通知**」をクリックして、承認者に通知を送信します。
 
 ## ドキュメント
 
-1. Adobe Workfront の左上隅にある&#x200B;**ホーム**&#x200B;アイコン ![](assets/home-icon-30x29.png) をクリックします。
+1. Adobe Workfront の左上隅にある&#x200B;**ホーム**&#x200B;アイコン ![ホームアイコン](assets/home-icon-30x29.png) をクリックします。
 
    >[!NOTE]
    >
    >Workfront 管理者が、環境内のホームアイコンに次の変更を加える場合があります。
    >
    >* 組織を説明するようにカスタマイズされた画像に置き換える。この場合、アイコンはこの記事に示すものとは異なる外観になります。
-   >* リンクされたページを別のページに置き換える。この場合、ページの右上隅にある&#x200B;**メインメニュー**![](assets/main-menu-icon.png)、**ホーム**&#x200B;の順にクリックします。
+   >* リンクされたページを別のページに置き換える。この場合は、ページの右上隅にある **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**ホーム** をクリックします。
 
 1. **作業リスト**&#x200B;エリアで、**送信済みの承認**&#x200B;グループに移動します。
 
 1. 作業リストで「**ドキュメント**」の承認をクリックします。
 
    作業リストの右側にドキュメントの承認が開きます。\
-   ![](assets/document-350x232.png)
+   ![ ドキュメントの承認 ](assets/document-350x232.png)
 
 1. 右パネルの右上隅にある「**承認を管理**」をクリックします。
 1. **通知**&#x200B;アイコンをクリックして、承認者に通知を送信します。\

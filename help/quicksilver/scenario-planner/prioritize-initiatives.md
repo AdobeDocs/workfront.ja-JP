@@ -6,10 +6,10 @@ description: イニシアチブは、計画にリストされている順序で�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 88%
+source-wordcount: '545'
+ht-degree: 87%
 
 ---
 
@@ -92,7 +92,7 @@ ht-degree: 88%
 
      Workfront には、選択したイニシアチブの数が表示されます。
 
-     ![](assets/multi-select-initiative-number.png)
+     ![ 複数選択イニシアチブ番号 ](assets/multi-select-initiative-number.png)
 
    * 計画の下部にある「**[!UICONTROL 優先順位]**」ボックスをクリックし、次のオプションから選択します。
 
@@ -100,7 +100,7 @@ ht-degree: 88%
       * **[!UICONTROL 下部]**：選択したイニシアチブをイニシアチブリストの一番下に移動します。選択されたイニシアチブは計画の最後にリストされます。
       * **[!UICONTROL 数字を選択]**：選択したイニシアチブを、ここで指定したイニシアチブの後に移動します。
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![ イニシアチブの優先順位付け ](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] は、選択したイニシアチブを指定した場所に即座に配置し、それに応じてすべてのイニシアチブの数が更新されます。
 

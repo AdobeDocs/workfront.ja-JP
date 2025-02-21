@@ -6,10 +6,10 @@ description: ドキュメントの承認者として割り当てられている�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 98%
+source-wordcount: '1083'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 98%
 
 ## ホームからドキュメントを承認
 
-1. Adobe Workfront の左上隅で&#x200B;**ホーム**&#x200B;アイコン![](../assets/home-icon-30x29.png)をクリックします。
+1. Adobe Workfront の左上隅にある&#x200B;**ホーム**&#x200B;アイコン ![ホームアイコン](../assets/home-icon-30x29.png) をクリックします。
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ ht-degree: 98%
    >
    >* 組織を説明するようにカスタマイズされた画像に置き換える。この場合、アイコンはこの記事に示すものとは異なる外観になります。
    >
-   >* リンクされたページを別のページに置き換える。この場合、ページの右上隅にある&#x200B;**メインメニュー** ![](../assets/main-menu-icon.png)、「**ホーム**」の順にクリックします。
+   >* リンクされたページを別のページに置き換える。この場合は、ページの右上隅にある **メインメニュー**![ メインメニューアイコン ](../assets/main-menu-icon.png) をクリックし、**ホーム** をクリックします。
 
 1. ページ左上の「**フィルター**」をクリックして、「**承認**」がオンになっていることを確認します。
 
@@ -103,7 +103,7 @@ ht-degree: 98%
    ドキュメントの現在選択されているバージョンが承認待ちの場合は、ページの右上隅に承認の決定ボタンが表示されます。ドキュメントの他のバージョンが承認待ちの場合は、バージョンドロップダウンメニューに赤い点が表示されます。
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. ページの右上隅で、次の 2 つの承認オプションのいずれかをクリックします。
@@ -127,7 +127,7 @@ ht-degree: 98%
    ドキュメントの現在選択されているバージョンが承認待ちの場合は、ドキュメントの概要パネルの右上隅に承認の決定ボタンが表示されます。ドキュメントの他のバージョンが承認待ちの場合は、バージョンドロップダウンメニューに赤い点が表示されます。
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. ドキュメントの概要パネルの右上隅にある、次の 2 つの承認オプションのいずれかをクリックします。

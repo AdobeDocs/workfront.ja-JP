@@ -6,10 +6,10 @@ description: プルーフのステージとレビュアーの編集方法につ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 98%
+source-wordcount: '629'
+ht-degree: 94%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 98%
 ## レビュアーの詳細を編集
 
 1. Workfront で、プルーフにポインタを合わせて、**プルーフの詳細**&#x200B;をクリックし、プルーフの詳細ページを開きます。
-1. 「**ワークフロー**」セクションで、レビュアーの名前の右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-button-small.png) をクリックし、表示されるドロップダウンメニューの「**編集**」をクリックします。
+1. 「**ワークフロー**」セクションで、レビュー担当者の名前の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-button-small.png) をクリックし、表示されるドロップダウンメニューで **編集** をクリックします。
 
 1. 表示される&#x200B;**レビュアーを編集**&#x200B;ボックスで、次の詳細を編集します。
 

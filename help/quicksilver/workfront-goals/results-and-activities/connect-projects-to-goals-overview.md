@@ -8,10 +8,10 @@ description: プロジェクトを目標に結び付けると、プロジェク�
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 92%
+source-wordcount: '931'
+ht-degree: 87%
 
 ---
 
@@ -44,7 +44,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -63,8 +63,8 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -112,7 +112,7 @@ THIS MIGHT NEED TO BE RENAMED BECAUSE THERE WILL BE OTHER OBJECTS CONNECTED TO G
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * 目標に関連付けられたプロジェクトを削除すると、そのプロジェクトも目標から削除されます。
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## 目標にプロジェクトを追加
 
-1. **メインメニュー** ![](assets/main-menu-icon.png)（これをシェル用に下書き：または（使用可能な場合）左上隅にある&#x200B;**メインメニュー** ![](assets/three-line-main-menu-icon.png)）をクリックし、「**目標**」をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) （シェルの下書き：または左上隅の **メインメニュー**![ メインメニューの行 ](assets/three-line-main-menu-icon.png) をクリックします（利用可能な場合））、**目標** の順にクリックします。
 1. 目標リストで目標の名前をクリックし、目標ページを開きます。
 1. 左側のパネルの「**進捗状況インジケーター**」をクリックします。
 1. **新しい進捗状況インジケーター**&#x200B;ドロップダウンメニューから、「**既存のプロジェクトを追加**」をクリックします。
 
    「目標にプロジェクトを追加」ボックスが表示されます。
 1. （オプション）リストの右上隅にあるそれぞれのアイコンをクリックして、「**ビュー**」、「**フィルター**」、「**グループ化**」を更新し、プロジェクトリストの表示方法を変更します。
-1. （オプション）**検索**&#x200B;アイコン ![](assets/search-icon.png) をクリックし、プロジェクトの名前を入力し始めると、リスト内でプロジェクトがすぐに見つかります。
+1. （任意） **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、プロジェクトの名前の入力を開始すると、リスト内をすばやく見つけることができます。
 1. 目標に追加するプロジェクトを選択し、「**追加**」をクリックします。
 
    選択したプロジェクトが目標に追加され、**プロジェクト**&#x200B;グループの下の目標ページの「進捗状況インジケーター」セクションに表示されます。

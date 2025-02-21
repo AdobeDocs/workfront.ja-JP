@@ -7,10 +7,10 @@ description: アクティビティは目標の進捗を測るものさしです�
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 82%
+source-wordcount: '455'
+ht-degree: 80%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 82%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -51,8 +51,8 @@ ht-degree: 82%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -101,7 +101,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -144,14 +144,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. **メインメニュー** ![](assets/main-menu-icon.png) をクリックして、「**目標**」をクリックします。
+1. **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 1. 目標リストから、目標の名前をクリックし、目標のページを開きます。
 1. 左側のパネルの「**進捗状況インジケーター**」をクリックします。
 1. 新しい進捗状況インジケータードロップダウンメニューから、**アクティビティを作成**&#x200B;をクリックします。
 
    新規アクティビティボックスが開きます。
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![ 新しいアクティビティボックス ](assets/new-activity-box-unshimmed.png)
 
 1. 「アクティビティ名」フィールドにアクティビティの名前を入力します。必須フィールドです。
 1. （オプション）アクティビティを他のユーザーに割り当てる場合は、「**アクティビティ所有者**」フィールドから自分の名前を削除します。デフォルトでは、アクティビティを作成したユーザーが所有者となります。

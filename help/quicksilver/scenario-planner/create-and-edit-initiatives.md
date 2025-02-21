@@ -6,10 +6,10 @@ description: Adobe Workfront Scenario Planner を使用すると、自分が作�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1626'
-ht-degree: 96%
+source-wordcount: '1637'
+ht-degree: 94%
 
 ---
 
@@ -102,7 +102,7 @@ ht-degree: 96%
 1. （オプション）イニシアチブバーの端をドラッグして、期間を 1 か月超に延長し、イニシアチブの最後の月を表示する場所にリリースします。
 1. （オプションおよび条件付き）イニシアチブの期間がプランの期間より短い場合は、プランのタイムライン上の別の位置にイニシアチブバーをドラッグ＆ドロップして、別の時間枠に移動します。
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![ タイムラインでイニシアチブを移動 ](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ ht-degree: 96%
 1. （オプション）左から右にスクロールして、イニシアチブの期間全体を確認します。
 1. （オプション）現在の日付に戻るには、「**[!UICONTROL 今日]**」のインジケーターラインをクリックします。
 
-   ![](assets/today-indicator-350x160.png)
+   ![ 今日の指標 ](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +128,7 @@ ht-degree: 96%
 
 1. イニシアチブのバーをクリックします。イニシアチブの詳細パネルが右側に開きます。
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![ イニシアチブの詳細パネル ](assets/initiative-details-panel-multiple-months-350x626.png)
 
    次の情報を指定または確認します。
 
@@ -196,7 +196,7 @@ ht-degree: 96%
    >
    >プランの担当業務の数と予算、編集中のイニシアチブの担当業務の数とコスト、およびその上にあるすべてのイニシアチブのコストを定義済みで、それらすべてがプランに指定した金額を超える場合、[!DNL Workfront] はそのイニシアチブを完了するのに十分なリソースがないと判断する場合があります。[!DNL Workfront] がこのイニシアチブを達成しようとすると、これが競合としてマークされ、赤いバーで表示されます。競合したイニシアチブに続くすべてのイニシアチブが赤い背景で表示されます。リソースが不十分な最初のイニシアチブから始めて、イニシアチブのニーズの一部を調整する必要が生じる場合があります。競合するイニシアチブの調整について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md) でのイニシアチブの競合を解決を参照してください。
 
-1. （オプション）担当業務の名前の上にポインタを合わせて、****&#x200B;ごみ箱アイコン ![](assets/delete.png) をクリックして、イニシアチブから削除します。
+1. （任意）担当業務の名前にポインタを合わせ、**[!UICONTROL ごみ箱アイコン]**![ 削除アイコン ](assets/delete.png) をクリックして、イニシアチブから削除します。
 
 1. （条件付き）イニシアチブに変更を加えた場合は、「**[!UICONTROL 適用]**」をクリックします。
 

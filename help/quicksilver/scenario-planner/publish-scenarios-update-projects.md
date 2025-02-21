@@ -7,10 +7,10 @@ description: 既存のイニシアチブからプロジェクトを作成した�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1671'
-ht-degree: 95%
+source-wordcount: '1729'
+ht-degree: 82%
 
 ---
 
@@ -105,7 +105,7 @@ ht-degree: 95%
 
 {{step1-to-scenario-planner}}
 
-1. （オプションおよび条件付き）既存の計画から公開する場合は、計画の右上隅にある&#x200B;**[!UICONTROL フィルター]**&#x200B;アイコン ![](assets/filter-nwepng.png) をクリックし、次のオプションのいずれかを選択します。
+1. （オプションおよび条件付き）既存のプランから公開する場合は、プランの右上隅にある **[!UICONTROL フィルター]** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックし、次のオプションのいずれかを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,9 +126,9 @@ ht-degree: 95%
     </tbody> 
    </table>
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![ フィルタードロップダウンオプション ](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. （オプション）**[!UICONTROL 検索]**&#x200B;アイコン ![](assets/search-icon.png) をクリックし、プランの名前を入力し始めると、リスト内でプランがすぐに見つかります。
+1. （任意） **[!UICONTROL 検索]** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、計画名の入力を開始すると、リスト内をすばやく見つけることができます。
 1. （条件付き）新しいプランから公開するには、プランを作成します。
 
    プランの作成については、[プランの作成と編集： [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md)を参照してください。
@@ -142,21 +142,21 @@ ht-degree: 95%
    イニシアチブの作成については、[イニシアチブの作成と編集： [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md)を参照してください。
 
 1. 「**[!UICONTROL 計画の保存]**」をクリックします。
-1. 公開するシナリオを&#x200B;**[!UICONTROL 最初のシナリオ]**&#x200B;ドロップダウンメニューから選択して、右上隅にある&#x200B;**[!UICONTROL 公開に移動]**&#x200B;アイコン ![](assets/go-to-publish-button-icon.png) をクリックします。
+1. **[!UICONTROL 最初のシナリオ]** ドロップダウンメニューから公開するシナリオを選択し、右上隅にある「**[!UICONTROL 公開に移動]**![ 公開に移動 ](assets/go-to-publish-button-icon.png)」をクリックします。
 
    または
 
-   「**[!UICONTROL シナリオを比較する]**」をクリックし、公開元となるシナリオカードにポインタを合わせ、**[!UICONTROL 公開に移動]**&#x200B;アイコン ![](assets/go-to-publish-button-icon.png) をクリックします。
+   **[!UICONTROL シナリオを比較]** をクリックし、公開するシナリオカードにマウスポインターを置いて、「**[!UICONTROL 公開に移動]**![ 公開に移動 ](assets/go-to-publish-button-icon.png)」をクリックします。
 
-   [!UICONTROL イニシアティブを公開]ページが表示され、シナリオ内のすべてのイニシアチブが一覧表示されます。いずれかのイニシアチブが以前に公開されている場合は、その名前の後にプロジェクトアイコン ![](assets/project-icon-sp.png) が表示され、**[!UICONTROL 最終公開日]**&#x200B;がリストに入力されます。
+   [!UICONTROL イニシアティブを公開]ページが表示され、シナリオ内のすべてのイニシアチブが一覧表示されます。イニシアチブが以前に公開されている場合は、名前の後にプロジェクトアイコン ![ プロジェクトアイコン ](assets/project-icon-sp.png) が表示され、リストに **[!UICONTROL 最終公開日]** が入力されます。
 
    >[!TIP]
    >
-   >プロジェクトを読み込んで作成されたイニシアチブには、名前の右側にプロジェクトアイコン ![](assets/project-icon-sp.png) も表示されます。
+   >プロジェクトをインポートして作成したイニシアチブでは、名前の右側にプロジェクトアイコン ![ プロジェクトアイコン ](assets/project-icon-sp.png) が表示されます
 
-   ![](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
+   ![ プロジェクトアイコンと最終公開日 ](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. （オプションおよび条件付き）既存のプランから公開する場合は、プランの右上隅にある&#x200B;**[!UICONTROL フィルター]**&#x200B;アイコン ![](assets/filter-nwepng.png) をクリックし、次のオプションのいずれかを選択します。
+1. （オプションおよび条件付き）既存のプランから公開する場合は、プランの右上隅にある **[!UICONTROL フィルター]** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックし、次のオプションのいずれかを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -177,9 +177,9 @@ ht-degree: 95%
     </tbody> 
    </table>
 
-   ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
+   ![ イニシアティブ フィルター ](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. （オプション）**[!UICONTROL 検索]**&#x200B;アイコン ![](assets/search-icon.png) をクリックし、プランの名前を入力し始めると、リスト内でイニシアチブがすぐに見つかります。
+1. （任意） **[!UICONTROL 検索]** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、イニシアチブの名前の入力を開始すると、リスト内ですばやく見つけることができます。
 1. 公開する 1 つまたは複数のイニシアチブを選択し、そこからプロジェクトを作成または更新したあと、「**[!UICONTROL イニシアチブを公開]**」をクリックします。
 
    これにより、選択した各イニシアチブから新しいプロジェクトが作成され、公開されたイニシアチブが既にプロジェクトにリンクされている場合は、関連付けられている既存のプロジェクトが更新されます。
@@ -193,17 +193,17 @@ ht-degree: 95%
    * 1 つのイニシアチブを公開した場合は、「**[!UICONTROL 関連プロジェクトを表示]**」をクリックして、そのイニシアチブから作成または更新されたプロジェクトを開きます。
    * 複数のイニシアチブを公開した場合は、「**[!UICONTROL 関連プロジェクトを表示]**」をクリックして、イニシアチブから公開されたプロジェクトのリストを開きます。[!DNL Workfront] では、デフォルトで[!DNL Scenario Planner]プロジェクトフィルターをプロジェクトのリストに適用します。直近に公開されたプロジェクトがリストの一番上に表示されます。
 
-     ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+     ![ イニシアチブを公開した後のシナリオプランナー ](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. プロジェクトに関するイニシアチブ情報を表示するには、次の領域に移動します。
 
    * **「[!UICONTROL 更新]」セクション**：プロジェクトがイニシアチブから作成または更新されたことを示すために更新が公開されます。更新には、プロジェクトを作成または更新したイニシアチブの名前と、そのイニシアチブを含んだプランのリンクされた名前が含まれます。更新内のプランの名前をクリックすると、[!DNL Scenario Planner]でプランを開くことができます。
 
-     ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
+     ![ 公開の更新ストリーム確認 ](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
    * **「[!UICONTROL プロジェクト詳細]」セクションの[!UICONTROL 概要]領域**：この領域には、リンクされたイニシアチブからの情報を含んだ新しい「[!DNL Scenario Planner]」セクションが作成されます。
 
-     ![](assets/scenario-planner-on-project-details-350x135.png)
+     ![ プロジェクト詳細のシナリオプランナー ](assets/scenario-planner-on-project-details-350x135.png)
 
      次のイニシアチブ情報は、「[!UICONTROL プロジェクト詳細]」セクションの[!DNL Scenario Planner]領域に公開されています。
 
@@ -257,7 +257,7 @@ ht-degree: 95%
 
      詳しくは、[プロジェクトとイニシアチブ間でのリソース割り当て調整の概要](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)を参照してください。
 
-     ![](assets/role-allocation-panel-350x174.png)
+     ![ 役割の割り当てパネル ](assets/role-allocation-panel-350x174.png)
 
      プロジェクトの日付やリソースを変更しても、対応するイニシアチブや、イニシアチブ情報を含んだプロジェクト上の領域には影響しません。
 
@@ -265,7 +265,7 @@ ht-degree: 95%
 
      詳しくは、[[!UICONTROL ビジネスケース]でのリソースの計上： [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)を参照してください。
 
-     ![](assets/sp-in-business-case-selected-350x110.png)
+     ![ ビジネスケースでのシナリオプランナー ](assets/sp-in-business-case-selected-350x110.png)
 
 1. （オプション）シナリオの公開後、次の情報を[!DNL Scenario Planner]でレビューします。
 
@@ -274,11 +274,11 @@ ht-degree: 95%
    * 「[!UICONTROL 公開に移動]」オプションは、1 つ以上のイニシアチブがシナリオから公開された後に、他のすべてのシナリオから削除されます。
    * プラン内で、公開したイニシアチブのプロジェクトアイコンの横に緑色のインジケータが表示されます。
 
-     ![](assets/indicator-for-published-initiative-icon-350x119.png)
+     ![ 公開済みのイニシアチブの指標 ](assets/indicator-for-published-initiative-icon-350x119.png)
 
    * 緑色の「公開済み」インジケーターがシナリオの上部とシナリオカードに表示され、シナリオカードの「公開済み」フィールドに、公開されたシナリオ内のイニシアチブの数が表示されます。
 
-     ![](assets/published-scenario-highlighted-350x632.png)
+     ![ 公開済みのシナリオ ](assets/published-scenario-highlighted-350x632.png)
 
      >[!TIP]
      >

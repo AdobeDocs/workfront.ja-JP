@@ -6,10 +6,10 @@ description: ドキュメントの決定ステータスのリストと説明
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: 37c4b6d5609c429d6e0706e48d1143596eca9ea4
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '163'
-ht-degree: 84%
+source-wordcount: '167'
+ht-degree: 82%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 84%
 
 ドキュメントのステータスは、ドキュメントリストで直接確認できます。
 
-![](assets/status-in-doc-list.png)
+![ ドキュメントリスト内のステータス ](assets/status-in-doc-list.png)
 
 
 以下のステータスを使用できます。

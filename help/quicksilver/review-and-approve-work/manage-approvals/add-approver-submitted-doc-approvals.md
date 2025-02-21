@@ -6,10 +6,10 @@ description: ホームエリアから直接、ドキュメント承認に承認�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 96%
+source-wordcount: '342'
+ht-degree: 90%
 
 ---
 
@@ -52,14 +52,14 @@ ht-degree: 96%
 
 ## 送信されたドキュメント承認に追加の承認者を追加
 
-1. Adobe Workfront の左上隅にある&#x200B;**ホーム**&#x200B;アイコン![](assets/home-icon-30x29.png) をクリックします。
+1. Adobe Workfront の左上隅にある&#x200B;**ホーム**&#x200B;アイコン ![ホームアイコン](assets/home-icon-30x29.png) をクリックします。
 
    >[!NOTE]
    >
    >Workfront 管理者が、環境内のホームアイコンに次の変更を加える場合があります。
    >
    >* 組織を説明するようにカスタマイズされた画像に置き換える。この場合、アイコンはこの記事に示すものとは異なる外観になります。
-   >* リンクされたページを別のページに置き換える。この場合、ページの右上隅にある&#x200B;**メインメニュー**![](assets/main-menu-icon.png)、**ホーム**&#x200B;の順にクリックします。
+   >* リンクされたページを別のページに置き換える。この場合は、ページの右上隅にある **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**ホーム** をクリックします。
 
 1. **作業リスト**&#x200B;エリアで、「**送信済みの承認**」グループに移動します。
 

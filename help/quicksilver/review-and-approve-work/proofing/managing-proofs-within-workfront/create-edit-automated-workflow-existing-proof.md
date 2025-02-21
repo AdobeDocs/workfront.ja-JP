@@ -6,10 +6,10 @@ description: 自動ワークフローを使用すると、プロセスが複雑�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 99%
+source-wordcount: '1242'
+ht-degree: 96%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 99%
 
    または
 
-   プルーフビューアでプルーフを確認する場合は、左側のパネルで&#x200B;**ワークフロー** ![](assets/workflow-icon-proofing-viewer.png) をクリックし、編集アイコン ![](assets/edit-icon-proofing-viewer.png) をクリックしてプルーフの自動ワークフロー設定を開きます。
+   プルーフビューアでプルーフを確認している場合は、左側のパネルで **ワークフロー**![ ワークフローアイコン ](assets/workflow-icon-proofing-viewer.png) をクリックし、編集アイコン ![ 編集アイコン ](assets/edit-icon-proofing-viewer.png) をクリックして、プルーフの自動ワークフロー設定を開きます。
 
 1. （条件付き）現在、プルーフが（ステージなしの）基本ワークフローを使用している場合、表示される画面で「**自動ワークフローに変換**」をクリックします。
 
@@ -155,7 +155,7 @@ ht-degree: 99%
 
    ステージを自動化ワークフローに追加すると、画面にステージを表すダイアグラムが表示されます。
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![ ワークフローダイアグラム ](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. ステージの追加が終了したら、「**完了**」をクリックします。
 

@@ -6,10 +6,10 @@ description: コメントに対処したら、コメントに解決済みのマ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 96%
+source-wordcount: '371'
+ht-degree: 95%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 96%
 1. コメントを選択します。
 1. コメントの右下隅にあるチェックマークアイコンをクリックします。コメントの左上隅に緑のチェックマークが表示され、「スレッドが解決済みにされました」というラベルとメッセージがその下に表示されます。コメントを送信したユーザーに、コメントが解決されたことを知らせるメール通知が届きます。
 
-   ![](assets/resolve-comment-350x247.png)
+   ![ コメントを解決 ](assets/resolve-comment-350x247.png)
 
 ## 解決されたコメントを再度開く
 
@@ -74,4 +74,4 @@ ht-degree: 96%
 1. コメントを選択します。
 1. コメントの右下隅（「**返信**」ボタンの右側）にある緑色のチェックマークアイコンをクリックします。コメントの左上隅のチェックマークが消え、「スレッドが再度開かれました」のラベルとメッセージがその下に表示されます。コメントを送信したユーザーに、コメントが再度開かれたことを知らせるメール通知が届きます。
 
-   ![](assets/reopen-resolved-comment-350x334.png)
+   ![ 解決済みコメントを再度開く ](assets/reopen-resolved-comment-350x334.png)

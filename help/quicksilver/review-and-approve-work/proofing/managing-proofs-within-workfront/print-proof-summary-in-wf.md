@@ -6,10 +6,10 @@ description: プルーフの概要を印刷したり、PDF として保存した
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 97%
+source-wordcount: '772'
+ht-degree: 92%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 97%
 
    または
 
-   プルーフビューアーでプルーフを表示しているときに、左側のツールバーの&#x200B;**印刷**&#x200B;アイコン ![](assets/print-icon-in-pv.png) をクリックします。（左側のツールバーが表示されていない場合は、プルーフビューアーの左上隅にあるメニューアイコン ![](assets/menu-icon-in-pv.png) をクリックします。）
+   プルーフビューアでプルーフを表示している間に、左側のツールバーの **印刷** アイコン ![ 印刷アイコン ](assets/print-icon-in-pv.png) をクリックします。 （左側のツールバーが表示されていない場合は、プルーフビューアの左上隅にあるメニューアイコン ![ メニューアイコン ](assets/menu-icon-in-pv.png) をクリックします。）
 
 1. 次のいずれかのオプションを使用します。
 
@@ -126,7 +126,7 @@ ht-degree: 97%
 
 1. ページの右上隅付近にある「XLS」アイコンまたは「PDF」アイコンをクリックします。
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![XLS PDF アイコン ](assets/xls-pdf-icons-350x136.png)
 
 書き出したファイルの準備が整うと、ファイルのダウンロード方法を示すメールが届きます。
 

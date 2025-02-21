@@ -6,10 +6,10 @@ description: Adobe Workfront Goals の目標をコピーして目標を作成で
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 91%
+source-wordcount: '800'
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ Adobe Workfront Goals の目標をコピーして目標を作成できます。�
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -51,8 +51,8 @@ Adobe Workfront Goals の目標をコピーして目標を作成できます。�
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -117,7 +117,7 @@ To copy goals in the Production environment:
 
    This opens the Goal Details panel.
 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Copy**. 
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Copy**. 
 
 1. Update any of the following information for the copied goal:
 
@@ -177,9 +177,9 @@ To copy goals in the Production environment:
 -->
 
 
-1. 目標に移動し、**その他**&#x200B;メニュー ![](assets/more-icon.png) を選択し、「**目標をコピー**」をクリックします。
+1. 目標に移動して **詳細** メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックし、「**目標をコピー**」をクリックします。
 
-   ![](assets/copy-goal-box-unshimmed.png)
+   ![ 目標ボックスをコピー ](assets/copy-goal-box-unshimmed.png)
 
 1. コピーした目標に関する次の情報を更新します。
    * **目標名**：新しい目標の名前。コピーされた目標のデフォルト名は、「Copy of &lt;元の目標>」です。

@@ -6,10 +6,10 @@ description: 「目標の整合性」セクションを使用して、組織全�
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '921'
-ht-degree: 95%
+source-wordcount: '937'
+ht-degree: 93%
 
 ---
 
@@ -51,8 +51,8 @@ ht-degree: 95%
 <td>
 <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
 <p>または</p>
 <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
 </tr>
@@ -137,11 +137,11 @@ ht-degree: 95%
 
    他の目標に整合させた目標は、その数が目標カードの下に表示されます。
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![ 整列グラフの矢印 ](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. 目標の下の&#x200B;**下向き矢印**&#x200B;アイコンをクリックして、子目標をさらに展開し表示します。
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![ 整列グラフの矢印 ](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ ht-degree: 95%
 
 1. （条件付き）現在のフィルターでアラインメントに関与する一部の目標が除外されている場合は、すべての目標が表示されるというわけではないことを示す警告メッセージが表示されます。
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![ 親目標が除外されました ](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. 「**表示**」をクリックして、現在フィルターによって削除されている目標を表示します。
 
@@ -158,14 +158,14 @@ ht-degree: 95%
    * 以前フィルターで削除された連結目標が、アラインメントチャートに表示されるようになりました。
    * 右上隅のフィルターは黄色で囲まれていますが、これは現在適用されていないことを示しています。
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![ 黄色のフィルタ ハイライト ](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      フィルター名の左側に、フィルターを再適用リンクが表示されます。
 
 1. （オプション）「**フィルターを再適用**」をクリックして元の結果に戻り、目標の階層を表示します。
 1. （オプション）進行状況のインジケーターの上にポインタを合わせて、現在の 1 日の目標の進行状況を把握します。
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![ 整列グラフにマウスポインターを合わせる ](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    次の情報が表示されます。
 

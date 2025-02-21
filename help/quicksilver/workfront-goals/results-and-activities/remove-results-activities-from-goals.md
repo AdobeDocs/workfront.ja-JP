@@ -7,10 +7,10 @@ description: 関連性がなくなった場合は、Adobe Workfront Goals の目
 author: Alina
 feature: Workfront Goals
 exl-id: 0e064dbd-6168-47b4-98ab-b5c0481e839e
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 89%
+source-wordcount: '739'
+ht-degree: 82%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 89%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -65,8 +65,8 @@ ht-degree: 89%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -119,7 +119,7 @@ How you delete results and activities differs depending on the environment you u
 ### Delete results and activities in the Production environment
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -132,15 +132,15 @@ How you delete results and activities differs depending on the environment you u
 
 1. Click **Results** to remove results or **Activities** to remove activities. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name, then click **Delete** > **Yes, delete**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name, then click **Delete** > **Yes, delete**.
 
-   ![](assets/delete-result-goal-details-350x108.png)
+   ![Delete result](assets/delete-result-goal-details-350x108.png)
 
    The result or activity is deleted and cannot be recovered. The percent complete of the goal updates to exclude the deleted activity or result.
 
 -->
 
-1. 右上隅で&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、「**目標**」の順にクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -152,7 +152,7 @@ How you delete results and activities differs depending on the environment you u
 
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
 
-1. 結果またはアクティビティを選択し、リストの上にある&#x200B;**削除**&#x200B;アイコン ![](assets/delete-icon.png) をクリックします。
+1. 結果またはアクティビティを選択し、リスト上部の **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
 1. 「**削除**」をクリックして削除を確定します。結果またはアクティビティは削除され、復元できません。目標の完了率が更新され、削除されたアクティビティまたは結果が除外されます。
 
@@ -165,7 +165,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 ### Disconnect projects from goals in the Production environment
 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) > **Goals** in the upper-right corner.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -177,9 +177,9 @@ Dsconnecting projects from goals differs depending on the environment you use.
    This opens the Goal Details panel on the right.
 
 1. Click the **right-pointing arrow** to the left of the Activities sections to expand it. 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the project name, then click **Disconnect**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the project name, then click **Disconnect**.
 
-   ![](assets/disconnect-project-goal-details-350x94.png)
+   ![Disconnect](assets/disconnect-project-goal-details-350x94.png)
 
    The project is disconnected from the goal. The percent complete of the goal updates to exclude the percent complete of the disconnected project.
 -->
@@ -195,8 +195,8 @@ Dsconnecting projects from goals differs depending on the environment you use.
 1. 結果とアクティビティを削除する目標の名前をクリックします。
 
    目標ページが開きます。
-1. 左パネルの&#x200B;**進捗状況インジケーター**&#x200B;をクリックします。
-1. プロジェクトを選択し、リストの上の&#x200B;**連携解除**&#x200B;アイコン ![](assets/disconnect-icon.png) をクリックします。
+1. 左パネルの「**進行状況インジケーター**」をクリックします。
+1. プロジェクトを選択し、リストの上部にある **切断** アイコン ![ 切断アイコン ](assets/disconnect-icon.png) をクリックします。
 1. 「**連携解除**」をクリックして確定します。
 
    プロジェクトは目標に接続されていません。目標の完了率が更新され、連携解除されたプロジェクトが除外されます。

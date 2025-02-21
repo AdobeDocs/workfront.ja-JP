@@ -6,10 +6,10 @@ description: 新しいインタラクティブなプルーフを生成するか�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 98%
+source-wordcount: '561'
+ht-degree: 97%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 98%
 
 1. 追加した URL をクリックします。
 
-   ![](assets/click-url-350x137.png)
+   ![URL をクリック ](assets/click-url-350x137.png)
 
 1. （オプション）Web サイトの URL から別の名前にプルーフの名前を変更する場合は、「**プルーフ名**」を入力します。
 1. 「**インタラクティブ**」を選択し、「**完了**」をクリックします。

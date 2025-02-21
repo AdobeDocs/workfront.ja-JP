@@ -7,10 +7,10 @@ description: プルーフビューアを使用して、異なる 2 つのプル�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 96%
+source-wordcount: '344'
+ht-degree: 95%
 
 ---
 
@@ -68,13 +68,13 @@ ht-degree: 96%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![プルーフの比較](assets/compare-proofs-select-docs-350x138.jpg)
 
    両方のプルーフは、プルーフビューアで横に並べて表示されます。各ドキュメントを比較しながらレビューできます。
 
    各プルーフの上にパンくずリストを個別に配置すると、プルーフに関連付けられた作業項目を表示および移動できます。
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![ 配達確認のパンくずリストの比較 ](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    2 つのプルーフを比較するために使用できるツールについて詳しくは、[プルーフビューアでプルーフの比較](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md)の[比較ツールの使用](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)を参照してください。
 

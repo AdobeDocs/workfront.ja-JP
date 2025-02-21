@@ -6,10 +6,10 @@ description: 既存の目標を、任意の期間およびステータスで編�
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 89%
+source-wordcount: '640'
+ht-degree: 81%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 89%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -50,8 +50,8 @@ ht-degree: 89%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -104,9 +104,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -144,17 +144,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. **メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックしたあと、「**目標**」をクリックします。\
+1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**目標** をクリックします。\
    目標のリストが表示されます。
 1. 目標をクリックします。\
    目標ページが表示されます。
 
-   ![](assets/goal-page-unshimmed.png)
+   ![ 目標ページ ](assets/goal-page-unshimmed.png)
 
 1. 目標の情報を編集するには、次のいずれかを行います。
    * 目標ヘッダーに表示されるフィールドをクリックして更新します。ヘッダーの一部のフィールドは編集できません。
-   * 目標名の右側にある&#x200B;**その他アイコン** ![](assets/more-icon.png) をクリックしたあと、「**編集**」をクリックします。
-   * 左パネルの「**目標の詳細**」をクリックし、右上隅の&#x200B;**編集アイコン** ![](assets/edit-icon.png)、「**すべて編集**」の順にクリックします。「目標の詳細」セクションのフィールドを更新します。
+   * 目標名の右側にある **その他のアイコン**![ その他のアイコン ](assets/more-icon.png) をクリックし、**編集** をクリックします。
+   * 左側のパネルで **目標の詳細** をクリックし、右上隅の **編集アイコン**![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、**すべて編集** をクリックします。 「目標の詳細」セクションのフィールドを更新します。
 
      >[!IMPORTANT]
      >

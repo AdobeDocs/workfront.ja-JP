@@ -6,10 +6,10 @@ description: 承認リクエストを委任すると、休暇でオフィスを�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1209'
+ht-degree: 78%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 0%
 
 別のユーザーに承認を委任するには、次の手順に従います。
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
 1. マイ承認ウィジェットに移動し、「**マイ承認をデリゲート**」をクリックします。
 
@@ -112,7 +112,7 @@ ht-degree: 0%
    >
    >Workfront管理者は、設定エリアから承認の委任を無効にすることができます。 承認委任が無効になっている場合、「承認を委任」ボタンは表示されません。
 
-   ![](assets/delegate-approvals-home.png)
+   ![ ホームでの承認の委任 ](assets/delegate-approvals-home.png)
 
 1. 「マイ承認を委任」セクションで、次の情報を指定します。
 
@@ -144,11 +144,11 @@ ht-degree: 0%
 
 ## 承認委任の更新または停止 {#update-or-stop-an-approval-delegation}
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
 
 1. 自分の承認ウィジェットに移動し、「**委任を編集**」をクリックします。
-   ![](assets/edit-delegations.png)
+   ![ 委任を編集 ](assets/edit-delegations.png)
 <!--
    Or
 
@@ -170,7 +170,7 @@ ht-degree: 0%
 
 委任された承認を表示するには、次の手順に従います。
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
 1. **マイ承認** ウィジェットで「**フィルター**」ドロップダウンメニューをクリックし、「**委任済み承認**」をクリックします。\
    自分に委任されたすべての承認がリストに表示されます。

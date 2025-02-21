@@ -6,10 +6,10 @@ description: ドキュメントエリアから、レビュープロセスでの�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 100%
+source-wordcount: '376'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 
 プルーフの進行状況は、プルーフを受信者に送信してから受信者がプルーフに関して決定を下すまでの、完了したプルーフ作業を示します。プルーフ名の横に、進行状況アイコン（S、O、C および D）が表示され、プルーフの進行状況に関する情報が示されます。
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![Peoof edit existing progress](assets/proof-edit-existing-progress-350x62.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,9 +93,9 @@ ht-degree: 100%
 
 ## プルーフのステータスの概要
 
-プルーフのステータスには、プルーフに必要な決定のステータスが表示されます。プルーフのステータスは、「最悪のケース」の参加者によって決まります。例えば、プルーフに関して 3 つの決定があるとします。2 つのステータスは&#x200B;**承認**&#x200B;で、1 つのステータスは&#x200B;**却下**&#x200B;です。**却下**&#x200B;という「最悪のケース」の決定は他の決定を無効にし、プルーフの全体的なステータスは&#x200B;**却下**&#x200B;として表示されます。
+プルーフのステータスには、プルーフに必要な決定のステータスが表示されます。プルーフのステータスは、「ワーストケース」の参加者によって決まります。例えば、プルーフに関して 3 つの決定があるとします。2 つのステータスは&#x200B;**承認**&#x200B;で、1 つのステータスは&#x200B;**却下**&#x200B;です。**却下**&#x200B;という「最悪のケース」の決定は他の決定を無効にし、プルーフの全体的なステータスは&#x200B;**却下**&#x200B;として表示されます。
 
-![](assets/proof-edit-existing-progress-350x62.png)
+![ プルーフの既存の進捗状況の編集 ](assets/proof-edit-existing-progress-350x62.png)
 
 標準のステータスオプションは次のとおりです。
 

@@ -6,10 +6,10 @@ description: 新しいドキュメントバージョンをアップロードし�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 51%
+source-wordcount: '480'
+ht-degree: 50%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 51%
 
 1. ドキュメントの概要ウィンドウの「**承認**」セクションにスクロールして、「**追加**」をクリックします。
 
-![](assets/doc-summary-add-approvers.png)
+![ ドキュメントの概要に承認者を追加 ](assets/doc-summary-add-approvers.png)
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 
@@ -89,4 +89,4 @@ ht-degree: 51%
 
 1. 新しい承認者とレビュアーを追加するには、**レビュアー** または **承認者** をクリックし、ユーザーまたはチームの入力を開始します。
 
-   ![](assets/add-approver-and-deadline.png)
+   ![ 承認者と期限を追加 ](assets/add-approver-and-deadline.png)

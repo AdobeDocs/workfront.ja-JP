@@ -6,9 +6,9 @@ description: 自動ワークフローを使用すると、プロセスが複雑�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1838'
 ht-degree: 99%
 
 ---
@@ -139,7 +139,7 @@ ht-degree: 99%
 
       「**プルーフ作成日時**」、「**指定日時**」または「**手動**」のオプションを使用すると、前の手順で発生した内容に応じたオプションを選択できます。
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![ ステージオプションをアクティベート ](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. 前の手順で発生した内容に応じて「ステージをアクティベート」オプションを選択した場合は、表示されるオプションを使用してアクティベーション設定を指定します。
 
@@ -149,7 +149,7 @@ ht-degree: 99%
 
    ステージを自動化ワークフローに追加すると、画面にステージを表すダイアグラムが表示されます。
 
-   ![](assets/stages-diagram-350x213.png)
+   ![ ステージ図 ](assets/stages-diagram-350x213.png)
 
 1. 次の[プルーフのメール設定を指定](#configure-email-settings-for-the-proof)を続行します。
 
@@ -230,6 +230,6 @@ ht-degree: 99%
 
 1. プルーフが生成されたら、「**プルーフを開く**」をクリックして、プルーフビューアを起動します。
 
-   ![](assets/open-proof-350x132.png)
+   ![ プルーフを開く ](assets/open-proof-350x132.png)
 
    自分のアカウントでプルーフが有効になっていないユーザーでも、ドキュメントを表示し、プルーフにコメントを付けることができます[。](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

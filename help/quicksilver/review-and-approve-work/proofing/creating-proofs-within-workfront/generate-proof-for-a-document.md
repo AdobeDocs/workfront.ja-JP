@@ -6,10 +6,10 @@ description: ドキュメントを Workfront にアップロードする際に�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '667'
-ht-degree: 98%
+source-wordcount: '669'
+ht-degree: 97%
 
 ---
 
@@ -66,7 +66,7 @@ If a proof fails to generate after following the steps described in the followin
 
 1. 新しいプルーフを作成するプロジェクト、タスクまたはイシューに移動します。
 1. 「**ドキュメント**」タブをクリックします。
-1. 左側のパネルでドキュメント ![](assets/document-icon.png) をクリックします。
+1. 左側のパネルでドキュメント ![ ドキュメントアイコン ](assets/document-icon.png) をクリックします。
 1. 「**新規追加**」をクリックし、表示されるメニューで「**プルーフ**」をクリックします。
 
    >[!TIP]

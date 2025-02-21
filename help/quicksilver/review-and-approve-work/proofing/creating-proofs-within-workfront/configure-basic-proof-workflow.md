@@ -6,9 +6,9 @@ description: 基本的なワークフローでは、複数のレビュー担当�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1858'
 ht-degree: 99%
 
 ---
@@ -71,7 +71,7 @@ ht-degree: 99%
 1. 「ワークフロータイプ」セクションで、「**基本**」を選択します。
 1. 追加するユーザーを指定してから、プルーフの役割を選択します。
 
-   ![](assets/new-proof---roles-350x213.png)
+   ![ 新しいプルーフの役割 ](assets/new-proof---roles-350x213.png)
 
 1. 次の表に、各役割とそれに関連付けられた権限を示します。
 
@@ -347,6 +347,6 @@ ht-degree: 99%
 
 1. プルーフが生成されたら、「**プルーフを開く**」をクリックして、プルーフビューアを起動します。
 
-   ![](assets/open-proof-350x132.png)
+   ![ プルーフを開く ](assets/open-proof-350x132.png)
 
    自分のアカウントでプルーフが有効になっていないユーザーは、引き続きドキュメントを表示し、プルーフにコメントを付けることができます。

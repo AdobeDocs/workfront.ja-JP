@@ -7,10 +7,10 @@ description: プルーフ権限プロファイルを一括で編集する方法�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a804a007-7c9f-471e-ad07-8adca6672575
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 95%
+source-wordcount: '259'
+ht-degree: 94%
 
 ---
 
@@ -63,6 +63,6 @@ ht-degree: 95%
    >
    >Workfront のプランによっては、**プルーフ権限プロファイル**&#x200B;メニューを表示するには、「**プルーフユーザー**」チェックボックスを有効にする必要がある場合があります。
 
-   ![](assets/proof-permission-profile-350x203.png)
+   ![ プルーフ権限プロファイル ](assets/proof-permission-profile-350x203.png)
 
 1. 「**変更を保存**」をクリックします。

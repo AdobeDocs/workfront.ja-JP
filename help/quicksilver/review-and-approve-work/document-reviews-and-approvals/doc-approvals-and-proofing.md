@@ -6,9 +6,9 @@ description: プルーフで新しいドキュメント承認を使用できま�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '950'
 ht-degree: 4%
 
 ---
@@ -50,7 +50,7 @@ Workfrontの新しいドキュメント承認では、ドキュメントのレ�
 参加者を割り当てるには：
 
 1. アップロードしたドキュメントを選択し、ドキュメントの概要を開きます。
-   ![](assets/open-doc-summary.png)
+   ![ ドキュメントの概要を開く ](assets/open-doc-summary.png)
 
 1. 「承認」セクションまでスクロールし、「**追加**」をクリックします。
 
@@ -62,7 +62,7 @@ Workfrontの新しいドキュメント承認では、ドキュメントのレ�
 
 1. レビュー担当者を追加するには、「レビュー担当者」ボタンをクリックして、ユーザー名またはチーム名を入力します。
 
-   ![](assets/add-approvers.png)
+   ![ 承認者を追加 ](assets/add-approvers.png)
 
 1. すべてのレビュー担当者と承認者を追加したら、「**リクエストを送信**」をクリックします。 参加者には、メールで通知されます。
 
@@ -77,7 +77,7 @@ Workfrontの新しいドキュメント承認では、ドキュメントのレ�
 1. ドキュメントのアップロードが完了したら、ドキュメントを選択し、**プルーフを作成**/**シンプルなプルーフ** をクリックします。
 
 1. ドキュメントを再度選択し、ドキュメントの概要を開きます。
-   ![](assets/open-doc-summary.png)
+   ![ ドキュメントの概要を開く ](assets/open-doc-summary.png)
 
 1. 「承認」セクションまでスクロールし、「**追加**」をクリックします。
 
@@ -89,7 +89,7 @@ Workfrontの新しいドキュメント承認では、ドキュメントのレ�
 
 1. レビュー担当者を追加するには、「レビュー担当者」ボタンをクリックしてユーザー名またはチーム名の入力を開始するか、<span class="preview"> または以前のバージョンからレビュー担当者を選択します。</span>
 
-   ![](assets/add-approvers.png)
+   ![ 承認者を追加 ](assets/add-approvers.png)
 
 1. すべてのレビュー担当者と承認者を追加したら、「**リクエストを送信**」をクリックします。 参加者には、メールで通知されます。
 

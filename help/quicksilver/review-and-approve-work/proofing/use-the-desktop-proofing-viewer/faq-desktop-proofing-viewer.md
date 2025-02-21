@@ -7,10 +7,10 @@ description: いいえ。デスクトッププルーフビューアは、リア�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 100%
+source-wordcount: '441'
+ht-degree: 99%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 100%
 
 インタラクティブなプルーフを開き、ローンチ画面から直接アプリをダウンロードします。
 
-![](assets/mceclip0-350x114.png) 
+![ 起動画面 ](assets/mceclip0-350x114.png) 
 
 ## 新しいバージョンのデスクトップビューアの再インストールは必要ですか？
 

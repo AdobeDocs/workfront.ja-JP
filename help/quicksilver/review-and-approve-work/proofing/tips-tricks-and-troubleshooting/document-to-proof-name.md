@@ -6,10 +6,10 @@ title: アップロード後にドキュメント名が変更され、無効な�
 description: プルーフに変換できないドキュメントもあります。
 author: Courtney
 exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
-source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '133'
-ht-degree: 46%
+source-wordcount: '135'
+ht-degree: 45%
 
 ---
 
@@ -34,6 +34,6 @@ Workfront にアップロードされるファイルの名前には、特定の�
 
    無効な文字：`! # % * \ | ' " / ? < > { } [ ]`
 
-   ![](assets/doc-name.png)
+   ![ ドキュメント名 ](assets/doc-name.png)
 
 1. ページを更新し、プルーフを生成します。

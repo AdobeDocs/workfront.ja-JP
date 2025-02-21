@@ -6,9 +6,9 @@ description: 目標の進捗は、アクティビティ、結果、子目標な�
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '833'
 ht-degree: 95%
 
 ---
@@ -46,7 +46,7 @@ Adobe Workfront は、進捗状況インジケーターの進捗に基づいて�
 | 予想完了率 | 目標が時間どおりに完了するために、これまでに完了する必要がある目標の比率。Workfront Goals は、目標の期間と現在の時刻から、この値を計算します。目標が時間どおりに完了する場合、目標には現時点でのこの値が表示されるはずです。 |
 | 進捗状況 | 目標が予定どおりに完了できるか、あるいは目標を完了できないリスクや問題があるかを示すラベルです。 |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![トラブル発生中](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Goal progress percentage = Actual percent complete * 100 / Expected percent comp
 
 次のグラフは、状況のラベルと進捗率の関係を示しています。
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![ 進捗ステータスラベルがグラフ化されました ](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 次の表に、それぞれのラベルに関連付けられた「目標の状況」ラベルと目標の進捗率を示します。
 

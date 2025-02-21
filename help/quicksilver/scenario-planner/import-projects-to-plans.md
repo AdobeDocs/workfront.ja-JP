@@ -6,10 +6,10 @@ description: 既存のプロジェクトをプランに読み込むことがで�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1690'
-ht-degree: 95%
+source-wordcount: '1710'
+ht-degree: 91%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 95%
 
    「[!UICONTROL プロジェクトをインポート]」ボックスが表示されます。プランの時間枠に日付が含まれるプロジェクトがリストに表示されます。
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![ プロジェクトの読み込み ](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ ht-degree: 95%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. （オプション）**[!UICONTROL フィルターアイコン]** ![](assets/filter-nwepng.png) をクリックし、リストから使用可能なフィルターを選択して、リストのプロジェクト数を減らします。デフォルトでは、プロジェクトのリストは、プロジェクトのリストでユーザーが現在選択しているプロジェクトフィルターでフィルタリングされます。
+1. （任意） **[!UICONTROL フィルターアイコン]**![ フィルターアイコン ](assets/filter-nwepng.png) をクリックし、リストから使用可能なフィルターを選択して、リスト上のプロジェクトの量を減らします。 デフォルトでは、プロジェクトのリストは、プロジェクトのリストでユーザーが現在選択しているプロジェクトフィルターでフィルタリングされます。
 
-1. （オプション）**[!UICONTROL 検索アイコン]** ![](assets/search-icon.png) をクリックして、画面上の任意のフィールドに表示されるキーワードを追加します。 検索語を含む項目がリストに自動的に表示され、すべての項目が非表示になります。
+1. （任意） **[!UICONTROL 検索アイコン]**![ 検索アイコン ](assets/search-icon.png) をクリックして、画面の任意のフィールドに表示されているキーワードを追加します。 検索語を含む項目がリストに自動的に表示され、すべての項目が非表示になります。
 
 1. （条件付き）**[!UICONTROL X アイコン]**&#x200B;をクリックして検索を削除して、すべてのプロジェクトを表示します。
 1. プロジェクトを 100 個まで選択し、「**[!UICONTROL インポート]**」をクリックします。
@@ -185,10 +185,10 @@ ht-degree: 95%
 
    次の点に注意してください。
 
-   * プロジェクトアイコン ![](assets/project-icon-sp.png) がイニシアチブ名の右側に表示されます。
+   * イニシアチブ名の右側に、プロジェクトアイコン ![ プロジェクトアイコン ](assets/project-icon-sp.png) が表示されます。
    * プロジェクトのタイムラインがプランの期間を超える場合、イニシアチブのバーは、左側（プロジェクト開始日がプランの日付より前の場合）または右側（プロジェクト終了日がプランの日付より後の場合）が尖った形状になります。
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![ 開始日より前のプロジェクト バー ](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * 月数と担当業務が、プロジェクトの役割に合わせて更新されます。
 
@@ -198,7 +198,7 @@ ht-degree: 95%
 
 1. 新しいイニシアチブを表すバーをクリックして、右側のイニシアチブの詳細パネルを開きます。
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![ イニシアティブ期間 ](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    **[!UICONTROL イニシアチブ期間]**&#x200B;領域で、次の情報を確認します。
 
@@ -234,4 +234,4 @@ ht-degree: 95%
 1. （オプション）イニシアチブに加えた変更を、読み込み元のプロジェクトで更新するには、プランからプロジェクトを公開します。プランの公開について詳しくは、「[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのプロジェクトの更新または作成」を参照してください。
 1. （オプション）プロジェクトアイコンをクリックして、リンクされたプロジェクトにアクセスします。
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![ イニシアチブのプロジェクトアイコン ](assets/project-icon-on-initiative-highlighted-350x49.png)

@@ -7,10 +7,10 @@ description: 基本プルーフの作成後に、1 回だけ締め切りを設�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 95%
+source-wordcount: '231'
+ht-degree: 94%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 95%
 1. 「**プルーフワークフロー**」をクリックします。
 1. **ワークフロー**&#x200B;エリアで、「**締め切りはありません**」を選択します。
 
-   ![](assets/no-deadline-basic-proof-350x70.png)
+   ![ 期限なし ](assets/no-deadline-basic-proof-350x70.png)
 
 1. 日付を選択し、時間を指定して、画面の任意の場所をクリックします。
 1. 新しい期日をレビュアーに通知する場合に選択します。

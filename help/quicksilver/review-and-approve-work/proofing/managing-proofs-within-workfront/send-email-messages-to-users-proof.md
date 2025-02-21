@@ -6,10 +6,10 @@ description: レビューおよび承認プロセス中に、プルーフの 1 �
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 97%
+source-wordcount: '457'
+ht-degree: 96%
 
 ---
 
@@ -61,15 +61,15 @@ ht-degree: 97%
 1. メッセージを送信するユーザーが含まれるプルーフのドキュメントを検索します。
 1. ドキュメントにポインタを合わせ、「**プルーフのワークフロー**」をクリックします。
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![ プルーフワークフロー ](assets/proof-workflow-doc-list-350x92.png)
 
 1. ステージ上のすべてのユーザーにメッセージを送信するには、ステージ上の&#x200B;**その他**&#x200B;メニューをクリックし、「**全員にメッセージを送信**」を選択します。
 
-   ![](assets/message-stage-350x122.png)
+   ![ ステージ上のメッセージ ](assets/message-stage-350x122.png)
 
 1. 個々のユーザーにメッセージを送信するには、ユーザーの横にある&#x200B;**その他**&#x200B;メニューをクリックし、「**メッセージ**」を選択します。
 
-   ![](assets/message-user-350x121.png)
+   ![ メッセージユーザー ](assets/message-user-350x121.png)
 
 1. 「**メッセージの詳細**」セクションで、以下の情報を指定します。
 

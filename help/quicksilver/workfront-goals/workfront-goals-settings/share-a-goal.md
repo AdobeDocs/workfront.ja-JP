@@ -6,10 +6,10 @@ description: 目標を共有する場合、目標を作成していないユー�
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '788'
-ht-degree: 90%
+source-wordcount: '795'
+ht-degree: 89%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 90%
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
-  <ul><li>究極の計画 </li></ul>
+  <ul><li>Ultimateプラン </li></ul>
    </p>
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
@@ -50,8 +50,8 @@ ht-degree: 90%
  <td>
  <p> 新製品の要件は、次のいずれかです。 </p>
 <ul>
-<li>Select または Prime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Workfront Goals をデフォルトで含む究極のWorkfront プラン。 </li></ul>
+<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
+<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
  <p>または</p>
  <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
@@ -117,7 +117,7 @@ ht-degree: 90%
 
 ## 目標を共有する
 
-1. 右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)／**目標**&#x200B;をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)/**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -128,11 +128,11 @@ ht-degree: 90%
 
 1. 目標名の横の&#x200B;**詳細アイコン**&#x200B;をクリックし、「**共有**」をクリックします。
 
-   ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+   ![その他のメニュー](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
    目標アクセスボックスが表示されます。
 
-   ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![ 目標へのアクセス ](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. 次のいずれかの操作を行います。
 

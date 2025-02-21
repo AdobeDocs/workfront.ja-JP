@@ -6,10 +6,10 @@ description: プルーフの過去のバージョンを表示できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 909b8924-c0f6-47a6-ba30-fbff7c2e0d55
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 96%
+source-wordcount: '298'
+ht-degree: 92%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 96%
 1. ドキュメントリストに移動し、プルーフを選択します。
 1. 「概要」で、「**すべてのバージョン**」セクションまでスクロールします。ここで、プルーフのすべてのバージョンを表示できます。
 
-   ![](assets/copy-of-versions-350x173.png)
+   ![ バージョンのコピー ](assets/copy-of-versions-350x173.png)
 
 ## プルーフの前回のバージョンのプレビュー
 
@@ -64,7 +64,7 @@ ht-degree: 96%
 1. ドキュメントリストに移動し、プルーフを選択します。
 1. 「概要」で「**バージョン**」までスクロールし、**その他**&#x200B;メニューをクリックして、「**プレビュー**」を選択します。
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![ プルーフのバージョンの概要 ](assets/proof-versions-in-summary-350x167.png)
 
 ## プルーフの前回のバージョンを表示
 
@@ -74,4 +74,4 @@ Workfront でドキュメントへの表示アクセス権を持つユーザー�
 1. 必要なプルーフを見つけます。
 1. 「概要」で「**バージョン**」までスクロールし、**その他**&#x200B;メニューから「**プルーフを開く**」を選択します。
 
-   ![](assets/proof-versions-in-summary-350x167.png)
+   ![ プルーフのバージョンの概要 ](assets/proof-versions-in-summary-350x167.png)

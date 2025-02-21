@@ -6,10 +6,10 @@ description: 自分で作成した計画を削除できます。自分と共有�
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 88%
+source-wordcount: '512'
+ht-degree: 81%
 
 ---
 
@@ -90,7 +90,7 @@ ht-degree: 88%
 計画のリストが表示されます。
 
 1. 計画の名前をクリックして開きます。
-1. 計画名の右側で&#x200B;**[!UICONTROL その他のメニュー]** ![](assets/more-menu.png)、「**[!UICONTROL 削除]**」、「**[!UICONTROL はい、削除します]**」の順にクリックします。
+1. 計画名の右側にある **[!UICONTROL 詳細メニュー]**![ 詳細メニュー ](assets/more-menu.png) をクリックし、**[!UICONTROL 削除]**/**[!UICONTROL はい、削除します]** をクリックします。
 
    計画が削除され、計画のリストに戻ります。
 
@@ -114,7 +114,7 @@ ht-degree: 88%
    デフォルトでは、最初のシナリオが表示されます。
 
 1. 「**[!UICONTROL シナリオを比較]**」をクリックします。
-1. シナリオカードの右上隅にある **[!UICONTROL その他]** メニュー ![](assets/more-menu.png)、「**[!UICONTROL 削除]**」の順にクリックします。
+1. シナリオカードの右上隅にある **[!UICONTROL その他]** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**[!UICONTROL 削除]** をクリックします。
 
    シナリオが削除されます。
 

@@ -6,10 +6,10 @@ description: ビデオタイムラインで使用する測定単位を調整で�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 553c7cea-6d92-438e-a76e-639daa020ac5
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 96%
+source-wordcount: '323'
+ht-degree: 95%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 96%
 
 1. プルーフビューアーの左下隅で、現在の測定単位をクリックします。
 
-   ![](assets/phq-viewer-video-timeline.png)
+   ![ ビデオタイムライン ](assets/phq-viewer-video-timeline.png)
 
 1. 次のオプションから選択します。
 
