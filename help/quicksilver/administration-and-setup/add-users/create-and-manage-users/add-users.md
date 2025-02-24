@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 92%
+source-wordcount: '1256'
+ht-degree: 82%
 
 ---
 
@@ -21,15 +21,21 @@ ht-degree: 92%
 
 >[!IMPORTANT]
 >
->組織が Adobe Admin Console に登録されている場合は、Adobe Admin Console でシステム管理者を作成する必要があります。
+>* **組織がAdobe Admin Consoleにオンボーディングされた場合は、Adobe Admin Consoleを通じてシステム管理者を作成する必要があります**。
 >
->Adobe Admin Consoleでシステム管理者を作成する手順については、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+>   Adobe Admin Consoleでシステム管理者を作成する手順については、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 >
->Adobe Admin Console にオンボーディングされた組織のグループ管理者は、この手順を使用してユーザーを作成し、そのユーザーの承認依頼を管理者に送信できます。
+>   Adobe Admin Console にオンボーディングされた組織のグループ管理者は、この手順を使用してユーザーを作成し、そのユーザーの承認依頼を管理者に送信できます。
 >
->組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>   組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>
+>* **組織がシングルサインオン（SSO）を使用している場合**、Adobe Admin Consoleでユーザーを作成してWorkfrontに割り当てることをお勧めします。 これらのユーザーをWorkfrontで作成することは可能ですが、組織のAdmin Consoleの設定によっては、情報をAdobe Admin Consoleに転送する際に問題が生じる場合があります。
+>   Adobe Admin Consoleでユーザーを作成したら、Workfrontでユーザーの情報（ロール、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
+>* **組織がシングルサインオン（SSO）を使用していない場合**、システム管理者以外のユーザーをWorkfrontに直接追加できます。 Adobe Admin Console でユーザーを追加することもできますが、Workfront にユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
-Adobe Workfront でユーザーを追加するには、個々のユーザーを最初から作成するか、既存のユーザーをコピーします。
+
+
+ユーザーをAdobe Workfrontに追加するには、個々のユーザーを最初から作成するか、既存のユーザーをコピーします。
 
 複数のユーザーを同時にインポートする方法について詳しくは、[ユーザーのインポート](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)を参照してください。
 

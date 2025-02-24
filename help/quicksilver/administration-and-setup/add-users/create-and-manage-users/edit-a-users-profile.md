@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 93%
+source-wordcount: '3325'
+ht-degree: 92%
 
 ---
 
@@ -86,8 +86,8 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
       <td> 
        <ul> 
         <li><p><b>名</b></p></li>
-        <li><p><b>姓</b></p></li> 
-        <li> <p><b>メールアドレス：</b>ユーザーのメールアドレスは、Workfront でのユーザー名でもあります。このフィールドでは大文字と小文字が区別され、一意である必要があります。ユーザーが、一意でないメールアドレスを 10 分以内に 3 回追加しようとすると、reCAPTCHA 応答が表示されます。</p> <p> 「<b>私はロボットではありません</b>」設定を選択してから続行します。</p><p>メール許可リストを使用していて、リストにないメールドメインを入力した場合、ユーザーにはメール通知が届きません。許可リストに関して詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">メール許可リストの設定</a>を参照してください。</p> </li> 
+        <li><p><b>姓</b></p><p><b>メモ：</b></p><p>Workfrontでユーザーの名前を編集しても、Adobe Admin Consoleでユーザーの名前が編集されることはありません。</p></li> 
+        <li> <p><b>メールアドレス：</b>ユーザーのメールアドレスは、Workfront でのユーザー名でもあります。このフィールドでは大文字と小文字が区別され、一意である必要があります。ユーザーが、一意でないメールアドレスを 10 分以内に 3 回追加しようとすると、reCAPTCHA 応答が表示されます。</p> <p> 「<b>私はロボットではありません</b>」設定を選択してから続行します。</p><p>メール許可リストを使用していて、リストにないメールドメインを入力した場合、ユーザーにはメール通知が届きません。許可リストに関して詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">メール許可リストの設定</a>を参照してください。</p><p>組織がAdobe Admin Consoleに移行されている場合、Workfrontでユーザーのメールアドレスを編集することはできません。 ユーザーのメールアドレスは、Adobe Admin Consoleで設定されます。 </li> 
         <li> <p><b>パスワードのリセット</b>：このリンクをクリックすると、ユーザーのパスワードをリセットできます。別のユーザーのパスワードをリセットするには、まず自分のパスワード入力する必要があります。</p> <p>別のユーザーのパスワードをリセットするには、Workfront 管理者またはグループ管理者である必要があります。</p> <p><b>メモ</b>:  
           <ul> 
            <li> <p>グループ管理者の場合は、自分が担当するグループ内のユーザーのパスワードのみをリセットできます。また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。</p> <p> <img src="assets/group-admin-user.png" > </p> <p>この設定は、デフォルトで無効になっています。詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </li> 
