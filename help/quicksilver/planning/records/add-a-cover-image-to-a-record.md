@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 22%
+source-wordcount: '748'
+ht-degree: 21%
 
 ---
 
@@ -136,53 +136,46 @@ ht-degree: 22%
 
    または
 
-   テーブルビューで、最初の列にある **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) をクリックします。
+   テーブルビューで、最初の列の **詳細を開く** アイコン ![ 詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。
 
    レコードのプレビューがビューで開きます。
 
-   <!--<div class="preview">
+   ![ 詳細プレビューボックス ](assets/details-box.png)
 
-    ![](assets/details-box.png) 
 
-    </div>-->
-
-1. （オプション）レコードプレビューの右上隅に <!--check the icon; they are changing it--> る **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを新しいタブで開きます。
+1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで開く ](assets/open-details-in-a-new-tab-icon.png) アイコン <!--check the icon; they are changing it--> 新しいタブでレコードのページを開く）をクリックします。
 
    レコードページが開きます。
 
-   <!--<div class="preview">
-
-    ![](assets/details-page.png)
-
-    </div>-->
+   ![ 詳細ページ ](assets/details-page.png)
 
 1. レコードのプレビューまたは詳細ページで、レコード名の上のスペースにマウスポインターを置いて、「**カバーを追加**」をクリックします。
 
    または
 
-   既存のカバー画像の上にマウスポインターを置き、**詳細** メニュー ![](assets/more-menu.png) をクリックしてから **アップロード** をクリックしてください。 <!--check the casing here; I logged a bug for this-->
+   既存のカバー画像にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**アップロード** をクリックしてください。 <!--check the casing here; I logged a bug for this-->
 **レコードカバー** ボックスが **アップロード** タブで開きます。
 
-   ![](assets/record-cover-box-for-upload.png)
+   ![ アップロード用のレコードカバーボックス ](assets/record-cover-box-for-upload.png)
 
 1. **画像を参照** をクリックし、コンピューター上の画像を参照して選択して追加します。
 
-1. （任意）保存前に画像を削除するには、**新しい画像をアップロード** アイコン ![](assets/upload-new-image-icon.png) をクリックして、新しい画像をアップロードします。
+1. （任意）保存前に画像を削除するには、**新しい画像をアップロード** アイコン ![ 新しい画像をアップロード アイコン ](assets/upload-new-image-icon.png) をクリックして、新しい画像をアップロードします。
 
 1. （オプション）「**ギャラリー**」タブをクリックして、画像ギャラリー内の画像をクリックします。 画像ギャラリーは変更できません。
 
-   ![](assets/record-cover-box-for-gallery.png)
+   ![ ギャラリー用カバーボックスの記録 ](assets/record-cover-box-for-gallery.png)
 
 1. **画像を使用** をクリックします。
 
    画像はレコードのプレビューページまたは詳細ページの上部にアップロードされ、変更は自動的に保存されます。
 
-   ![](assets/record-page-with-cover-image.png)
+   ![ 表紙付きレコードページ ](assets/record-page-with-cover-image.png)
 
-1. （オプション）画像の上にマウスポインターを置き、カバー画像の右下隅にある **詳細** メニュー ![](assets/more-menu.png) ージをクリックして、次のいずれかの操作を行います。
+1. （オプション）画像の上にマウスポインターを置き、カバー画像の右下隅にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、次のいずれかの操作を行います。
 
    * カバー画像を置き換える場合は **アップロード** をクリックし、手順 6 を繰り返して新しい画像をアップロードして保存します。
-   * **再配置** をクリックし、**再配置** ツール ![](assets/reposition-tool-icon.png) ールを使用してカバー画像を中央に配置し、完了したら **保存** をクリックします。
+   * **再配置** をクリックし、**再配置** ツール ![ 再配置ツールアイコン ](assets/reposition-tool-icon.png) を使用してカバー画像を中央に配置し、完了したら **保存** をクリックします。
    * **削除** をクリックして、カバー画像を削除します。
 
    Workfront では、変更を自動的に保存します。

@@ -6,16 +6,20 @@ description: プログラムとは、プロジェクトの境界を越えて共�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 80%
+source-wordcount: '1353'
+ht-degree: 75%
 
 ---
 
 # プログラムを作成
 
 <!-- Audited: 1/2024 -->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 プログラムとは、プロジェクトの境界を越えて共通の戦略、目的、または目標を共有するプロジェクトのコレクションを表します。
 プログラムはポートフォリオの下位区分で、ポートフォリオ外に存在することはできません。 プログラムは通常、同じポートフォリオ内の他のプログラムと同じリソースを共有します。
@@ -69,6 +73,18 @@ Workfrontでプログラムを作成するには、次のいずれかの方法�
   Workfront管理者は、キックスタートを使用してプログラムを読み込むことができます。
 
   Workfront でのキックスタートを使用したデータの読み込みについて詳しくは、[キックスタートテンプレートを使用して Adobe Workfront にデータを読み込む](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)を参照してください。
+
+<div class="preview">
+
+* Workfront Planning のレコードタイプからプログラムを接続する場合は、プログラムを追加します。
+
+  Workfront Planning 用の新しいWorkfront ライセンスと追加のWorkfront Planning パッケージが必要です。
+
+  Workfront Planning へのアクセスについて詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+
+  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [ に関する記事の「接続時にレコードを作成する」を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
+
+</div>
 
 ## プログラムを作成
 
