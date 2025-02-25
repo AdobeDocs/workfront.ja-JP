@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 223e84eaccbfddb9a798af2528f4d33060bf60f2
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '642'
 ht-degree: 15%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 15%
 # 優先度を使用した作業のフィルタリングとグループ化
 
 フィルターを使用して探している作業を見つけ、グループ化を適用して整理することができます。
+
+優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目が「優先度」作業リストに表示されません。
 
 ## アクセス要件
 
@@ -129,7 +131,7 @@ ht-degree: 15%
 
 ## スマートフィルターを使用した作業のフィルタリング
 
-自然言語を使用して、作業をすばやくフィルタリングします。 Workfront インスタンスは、新しいWorkfront プラン上にあり、Adobeの統合エクスペリエンスで有効になっている必要があります。 詳しくは、[Workfront の Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+自然言語を使用して、作業をすばやくフィルタリングします。 Workfront インスタンスは、新しいWorkfront プラン上にあり、Adobe統合エクスペリエンスで有効になっている必要があります。 詳しくは、[Workfront の Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
 {{step1-to-priorities}}
 

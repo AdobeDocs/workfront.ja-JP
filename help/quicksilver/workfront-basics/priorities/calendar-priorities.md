@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '537'
 ht-degree: 15%
 
 ---
@@ -65,6 +65,8 @@ ht-degree: 15%
 +++
 
 ## 作業をカレンダーに表示します
+
+優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業アイテムは優先度カレンダーに表示されません。
 
 {{step1-to-priorities}}
 

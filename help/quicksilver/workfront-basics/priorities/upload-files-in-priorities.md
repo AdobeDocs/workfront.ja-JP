@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 29%
+source-wordcount: '308'
+ht-degree: 28%
 
 ---
 
 # 優先度のファイルのアップロード
 
 優先度ワークリストまたは個々の作業項目からファイルをアップロードできます。 優先度からアップロードされたファイルは、作業項目の「ドキュメント」タブに表示されます。
+
+優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
 ## アクセス要件
 
@@ -57,7 +59,7 @@ ht-degree: 29%
 1. （オプション）フォルダーを選択します。
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
-「**ファイルを追加**」をクリックして、ファイルを参照するか、Document Cloudプロバイダーからファイルを読み込みます。
+**ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
    ![](assets/add-files.png)
 1. （任意）コメントを追加します。
 1. （任意）ファイルをさらに追加します。
@@ -78,7 +80,7 @@ ht-degree: 29%
 1. （オプション）フォルダーを選択します。
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
-「**ファイルを追加**」をクリックして、ファイルを参照するか、Document Cloudプロバイダーからファイルを読み込みます。
+**ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
    ![](assets/add-files.png)
 1. （任意）コメントを追加します。
 1. （任意）ファイルをさらに追加します。

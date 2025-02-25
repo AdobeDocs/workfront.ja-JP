@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 10%
+source-wordcount: '531'
+ht-degree: 9%
 
 ---
 
 # 優先度のコメントの追加と表示
 
 タスクまたはイシューに更新を追加して、作業項目の進捗について他のユーザーに伝えることができます。
+
+優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
 ## アクセス要件
 

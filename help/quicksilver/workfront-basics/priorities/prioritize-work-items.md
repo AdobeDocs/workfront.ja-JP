@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '200'
 ht-degree: 3%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 3%
 # 重要な作業アイテムの優先順位付け
 
 マイフォーカス列を使用して、作業に優先順位を付けることができます。 「マイフォーカス」列は個人的な値であり、タスクまたは問題に設定された優先度には影響しません。
+
+優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
 ## マイフォーカス列を使用して作業の優先順位を付ける
 

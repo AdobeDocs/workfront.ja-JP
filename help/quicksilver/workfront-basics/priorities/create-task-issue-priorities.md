@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 27%
+source-wordcount: '263'
+ht-degree: 25%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 27%
    <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> 
    <p>現在：リクエストのリクエストまたはそれ以上、イシューのレビューまたはそれ以上、タスクの作業またはそれ以上</p>
-   <p>新規：リクエストの場合はコントリビューター以上、イシューの場合はライト以上 <!--and documents--> 標準タスク以上</p> 
+   <p>新規：リクエストのコントリビューター以上、イシューとドキュメントのライト以上：標準またはそれ以上のタスク</p> 
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ ht-degree: 27%
 
 ## 優先度でタスクまたは問題を作成する
 
-タスクまたはイシューはプロジェクトに作成できます。
+タスクまたはイシューはプロジェクトに作成できます。 優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目が「優先度」作業リストに表示されません。
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ ht-degree: 27%
 
 1. 右上隅の **新規作成** をクリックします。
    ![](assets/create-new.png)
-&lt;! – 製品 ![](assets/create-new--.png) ージの新しい画面 – >
+prod ![](assets/create-new--.png) の新規画面
 1. 次の情報を指定します。
 
    | フィールド | 手順 |

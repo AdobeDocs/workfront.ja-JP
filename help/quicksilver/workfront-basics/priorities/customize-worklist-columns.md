@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '275'
-ht-degree: 20%
+source-wordcount: '291'
+ht-degree: 19%
 
 ---
 
 # 優先度ワークリストの列のカスタマイズ
 
 作業リストの列を優先度でカスタマイズして、作業の方法をサポートできます。
+
+優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
 >[!NOTE]
 >

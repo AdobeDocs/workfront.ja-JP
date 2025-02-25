@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '999'
+source-wordcount: '1019'
 ht-degree: 7%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 7%
 * 毎日のタスクの管理と優先順位付け：統合されたナビゲーションで日や週を整理し、わかりやすくします
 * 生産性の向上：プロジェクトコンテキストにアクセスし、クリック数を減らしてタスクを迅速に実行します
 * パーソナライズされた機能：タスクの所有者向けに独自に設計された機能を活用できます
+
+「優先度」作業リストおよびカレンダには、自分に割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
 ## 作業の検索と整理
 

@@ -6,16 +6,18 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 36%
+source-wordcount: '514'
+ht-degree: 35%
 
 ---
 
 # ドキュメントのアップロードと優先度設定でのプルーフの作成
 
 ドキュメントをアップロードし、優先度で配達確認を作成できます。
+
+優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
 ## アクセス要件
 

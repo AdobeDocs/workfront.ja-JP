@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '422'
 ht-degree: 18%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 18%
 # プロジェクトと作業項目の詳細を優先度で表示します
 
 プロジェクト、タスク、イシューの詳細は、優先度ワークリストに表示できます。
+
+優先度には、割り当てられた作業項目が表示されます。 チームに割り当てられた作業項目を表示できません。
 
 >[!IMPORTANT]
 >
