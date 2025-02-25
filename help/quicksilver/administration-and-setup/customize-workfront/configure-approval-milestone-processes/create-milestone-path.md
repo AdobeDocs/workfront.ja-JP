@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 97%
+source-wordcount: '700'
+ht-degree: 72%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 97%
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Adobe Workfront 管理者は、システム内の任意のプロジェクトに適用できるマイルストーンパスを作成します。このエリアでマイルストーンパスに加えた変更は、Workfront システム全体に影響を与えます。
 
@@ -116,3 +120,38 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
    マイルストーンパスをプロジェクトに関連付ける準備が整いました。
 
    マイルストーンパスをプロジェクトに関連付ける方法と、マイルストーンをタスクに関連付ける方法に関して詳しくは、[タスクへのマイルストーンの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)を参照してください。
+
+
+## マイルストーン パスの詳細をレポートに表示
+
+マイルストーンパスの詳細は、プロジェクトレポートで表示できます。
+
+プロジェクトレポートで詳細を表示するには、マイルストーンパスをプロジェクトに関連付ける必要があります。
+
+マイルストーンパスのプロジェクトへの関連付けについて詳しくは、[ プロジェクトの編集 ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) を参照してください。
+
+{{step1-to-reports}}
+
+1. **新しいレポート** をクリックし、**プロジェクト** をクリックします。
+1. 「**列を追加**」をクリックします。
+1. **この列に表示** 領域に **マイルストーンパス** と入力し始め、**マイルストーンパス名** をクリックして表示します。
+1. （任意）「**フィルター**」をクリックして、レポートに次のフィルターを追加します。**プロジェクトマイルストーンのパス ID が空白ではありません**。
+
+   フィルターを使用すると、マイルストーンパスに関連付けられているプロジェクトのみをレポートに表示できます。
+
+1. 「**保存して閉じる**」をクリックします。
+1. レポートの名前を追加し、「**適用**」をクリックします。
+
+   プロジェクトレポートが表示されます。 各プロジェクトに関連付けられているマイルストーンパスは、レポートの最後の列に表示されます。
+1. レポートの最後の列で、マイルストーンパスの名前をクリックします。
+
+   マイルストーンパスの詳細が表示されます。 各マイルストーンの詳細も表示されます。
+
+   ![ プロジェクトレポートからのマイルストーンパスの詳細 ](assets/milestone-details-from-project-report.png)
+
+   <!--replace screen shot above with unshimming and mark it for Preview-->
+
+1. （任意）「**戻る**」をクリックして、プロジェクトレポートに戻ります。
+
+
+

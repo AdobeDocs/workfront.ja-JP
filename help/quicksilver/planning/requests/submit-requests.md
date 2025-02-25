@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 8%
+source-wordcount: '1017'
+ht-degree: 7%
 
 ---
 
@@ -135,6 +135,85 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
 ## Workfront Planning への要求の発行
 
+<!--
+<div class="preview">
+
+Submitting requests to Workfront Planning differs depending on what environment you use. 
+
+### Submit a request to Workfront Planning in the Preview Environment
+
+>[!NOTE]
+>
+>After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
+
+{{step1-to-requests}}
+
+1. Enable the **Switch to a new experience** setting, in the upper-right corner of he screen. 
+   Enabling this setting makes the Workfront Planning request forms available in the **Requests** area of Workfront.
+
+   >[!TIP]
+   >
+   >   This setting is available only when your company has purchased a Workfront Planning package. 
+
+1. Click **New request**. (********* update scree shot at release ********)
+
+   ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+
+   The New request area opens with the following information: 
+
+   * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
+   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+
+1. Do one of the following:
+
+   * Click the card for one of the Planning request forms in the Recent or All request forms sections
+   * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
+
+   The request form opens.
+
+1. Update the fields available in the request form. Fields with a red asterisk are required. 
+1. Click **Submit**.
+    
+   The request form closes and you return to the **Requests** area. 
+
+   Your form is submitted and the following things occur:
+
+   * If the request form was not associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area and a new record is added to the record type associated with the form.
+   
+   * If the request form was associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.
+   
+      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+
+      ![](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
+
+      >[!IMPORTANT]
+      >
+      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. (******** ensure this is correct; asking team in slack **************)
+
+   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
+   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+
+      >[!NOTE]
+      >
+      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+
+1. (Optional) Click the **Planning** tab in the Requests area to view your request. 
+1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
+
+   The record's page opens. 
+
+   >[!TIP]
+   >
+   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >
+   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+
+</div>
+
+### Submit a request to Workfront Planning in the Production environment
+
+-->
+
 1. Workfront Planning レコードタイプから共有されたリンクに移動します。
 
 1. フォームで使用可能なフィールドを更新します。 アスタリスクの付いたフィールドは必須です。
@@ -166,7 +245,18 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
      >[!NOTE]
      >
-     >メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobeの Unified Experience にオンボードされている場合にのみ表示されます。
+     >メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobe Unified Experience にオンボードされている場合にのみ表示されます。
+
+1. （オプション）「要求」エリアの **計画** タブをクリックして、要求を表示します。
+1. （条件付き）リクエストフォームが承認と関連付けられていない場合、またはリクエストが承認されている場合は、リクエストの名前をクリックし、「**レコード**」フィールドのレコードの名前をクリックします。
+
+   レコードのページが開きます。
+
+   >[!TIP]
+   >
+   >* レコード名がリクエストフォームに追加されなかった場合、リクエストのレコードフィールドのレコード名は **名称未設定** と表示されます。
+   >
+   >* リクエストフォームが承認に関連付けられている場合、リクエストページからレコードにアクセスするには、承認を付与する必要があります。
 
 
 

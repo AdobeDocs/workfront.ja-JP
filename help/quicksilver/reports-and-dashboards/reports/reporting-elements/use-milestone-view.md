@@ -2,14 +2,14 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: マイルストーンビューの使用
-description: マイルストーンビューは、プロジェクトのリストやレポートに適用できます。
+description: マイルストーン ビューは、プロジェクト リストまたはレポートに適用できます。 マイルストーン ビューを使用して、表示しているプロジェクト内のタスクに関連付けられているすべてのマイルストーンを表示できます。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
-ht-degree: 98%
+source-wordcount: '1360'
+ht-degree: 90%
 
 ---
 
@@ -17,11 +17,15 @@ ht-degree: 98%
 
 <!-- Audited: 11/2024 -->
 
-マイルストーンビューは、プロジェクトのリストやレポートに適用できます。
+マイルストーン ビューは、プロジェクト リストまたはレポートに適用できます。 マイルストーン ビューを使用して、表示しているプロジェクト内のタスクに関連付けられているすべてのマイルストーンを表示できます。
 
-マイルストーンビューを使用する前に、マイルストーンを設定し、マイルストーンパスをプロジェクトに追加し、マイルストーンをタスクに関連付ける必要があります。詳しくは、[マイルストーンパスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)および[タスクへのマイルストーンの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)の記事を参照してください。
+マイルストーン ビューを使用するには、まず次の要素が存在している必要があります。
 
-マイルストーンビューは、プロジェクトリストやプロジェクトレポートを表示する際に使用できます。次の節では、マイルストーンビューの表示方法と使用方法について説明します。
+* マイルストーンパスが設定されます。 詳しくは、[ マイルストーンパスの作成 ](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
+* 必要なマイルストーンパスをプロジェクトに追加する。 詳しくは、[プロジェクトの編集](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md)を参照してください。
+* マイルストーンはタスクに関連付けられます。 詳しくは、[マイルストーンとタスクの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)を参照してください。
+
+マイルストーン ビューは、プロジェクトリストまたはプロジェクトレポートを表示するときに使用できます。 次の節では、マイルストーンビューの表示方法と使用方法について説明します。
 
 ## アクセス要件
 
