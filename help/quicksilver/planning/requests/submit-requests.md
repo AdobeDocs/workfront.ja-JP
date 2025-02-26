@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1089'
 ht-degree: 7%
 
 ---
@@ -125,10 +125,11 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 ## Workfront Planning への要求の送信に関する考慮事項
 
 * Workfront Planning 要求の要求フォームには、フォームへのリンクからのみアクセスできます。
-* リクエストをWorkfront Planning に送信した後に編集することはできません。
-* 送信されたリクエストごとに、使用するフォームに関連付けられたレコードタイプのレコードが作成されます（フォームが承認に関連付けられていない場合、またはすべての承認者によって承認が付与された場合）。
+* Workfront Planning に送信したリクエストをWorkfrontで編集することはできません。
+* フォームが承認に関連付けられていない場合や、すべての承認者によって承認が付与された場合、送信されたリクエストごとに、使用するフォームに関連付けられたレコードタイプのレコードが作成されます。
 * リクエストフォームを送信して作成されたレコードを、他の方法で追加されたレコードと区別することはできません。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 * 送信されたリクエストは、Workfrontの「リクエスト」領域の「送信済み」セクションの「計画」タブに表示されます。
+* フォーム送信後のリクエストフォームまたはリクエストの詳細ページでの特定のフィールドタイプの表示方法には制限があります。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
@@ -153,9 +154,14 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
    >[!TIP]
    >
-   >   This setting is available only when your company has purchased a Workfront Planning package. 
+   >This setting is available only when the following are in place:
+   >
+   >* Your company has purchased a Workfront Planning package. 
+   >* Your Workfront instance is onboarded to the Adobe Unified Experience. 
+   >* You have access to view at least one workspace. 
+   >
 
-1. Click **New request**. (********* update scree shot at release ********)
+1. Click **New request**. (********* update screen shot at release ********)
 
    ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
@@ -197,16 +203,25 @@ Submitting requests to Workfront Planning differs depending on what environment 
       >
       >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
 
-1. (Optional) Click the **Planning** tab in the Requests area to view your request. 
+1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+
+   The request details page opens. 
+
+   ![Request details page](assets/request-details-page.png)
+
 1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
 
-   The record's page opens. 
+   The record's page opens in Workfront Planning. 
 
    >[!TIP]
    >
    >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
    >
    >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+
+1. (Optional) Click the name of the **Record type**. 
+
+   The record type page opens in Workfront Planning. 
 
 </div>
 
@@ -247,16 +262,25 @@ Submitting requests to Workfront Planning differs depending on what environment 
      >
      >メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobe Unified Experience にオンボードされている場合にのみ表示されます。
 
-1. （オプション）「要求」エリアの **計画** タブをクリックして、要求を表示します。
+1. （オプション）要求領域の **計画** タブをクリックして要求を表示し、要求名をクリックします。
+
+   リクエストの詳細ページが開きます。
+
+   ![ リクエストの詳細ページ ](assets/request-details-page.png)
+
 1. （条件付き）リクエストフォームが承認と関連付けられていない場合、またはリクエストが承認されている場合は、リクエストの名前をクリックし、「**レコード**」フィールドのレコードの名前をクリックします。
 
-   レコードのページが開きます。
+   Workfront Planning でレコードのページが開きます。
 
    >[!TIP]
    >
    >* レコード名がリクエストフォームに追加されなかった場合、リクエストのレコードフィールドのレコード名は **名称未設定** と表示されます。
    >
    >* リクエストフォームが承認に関連付けられている場合、リクエストページからレコードにアクセスするには、承認を付与する必要があります。
+
+1. （オプション） **レコードタイプ** の名前をクリックします。
+
+   Workfront Planning に「レコードタイプ」ページが開きます。
 
 
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1479'
-ht-degree: 12%
+source-wordcount: '1538'
+ht-degree: 11%
 
 ---
 
@@ -115,6 +115,49 @@ ht-degree: 12%
 
 +++
 
+## リクエストフォームのフィールドと値の表示制限
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* リクエストフォームに次のタイプのフィールドを追加することはできません。
+
+   * 作成者と最終変更者
+   * 作成日と最終変更日
+   * 数式。 式フィールドはプレビュー環境でサポートされています。
+   * Workfront オブジェクトの参照フィールド
+   * Workfront Planning 接続レコードの参照フィールド
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* リクエストフォームビルダーでのフィールド形式の表示方法と、レコードまたはリクエスト詳細ページでの値の書式設定方法の違い：
+
+   * 通貨、数値、割合の各フィールドは、フォームビルダー内で 1 行のテキストフィールドタイプとして表示されます。
+
+     ただし、フィールドの形式は保持され、これらのフィールドの数値の値は、レコードタイプとリクエストの詳細ページに通貨、数値、パーセント値として表示されます。
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## レコードタイプ用のリクエストフォームの作成
 
 {{step1-to-planning}}
@@ -140,34 +183,6 @@ ht-degree: 12%
    リクエストフォームには、デフォルトで次の情報が含まれています。
 
    * 選択したレコードタイプのテーブル表示で使用可能なレコードフィールド。<!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >次のタイプのフィールドは、リクエストフォームに表示されません。
-   >
-   >* 作成者と最終変更者
-   >* 作成日と最終変更日
-   >* 式
-   >* Workfront オブジェクトの参照フィールド
-   >* Workfront Planning 接続レコードの参照フィールド
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
 
    * **デフォルトセクション**：これは、Workfrontがリクエストフォームに適用するデフォルトのセクション区切りです。 すべてのレコードフィールドが **デフォルトセクション** 領域に表示されます。
    * **件名** フィールド：Workfrontでリクエストを識別するフィールド。 「件名」フィールドの設定と値は編集できません。
@@ -196,12 +211,10 @@ ht-degree: 12%
    * **必須フィールドにする**：選択する場合、フィールドには値が必要です。 追加されていない場合、フォームを送信できません。
    * **ロジックの追加**：フィールドを表示または非表示にするには、どの条件を満たす必要があるかを定義します。
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   フォームでフィールドを選択すると、各フィールドのフィールドタイプが右側のパネルの上部に表示されます。
-   >   
-   >
-   >   「通貨」、「数値」、「パーセント」の各フィールドは、1 行のテキスト・フィールド・タイプとして表示されます。 ただし、フィールドの形式は保持され、これらのフィールド内の値は、通貨、数値、パーセント値として表示されます。
+   >     
 
 1. （オプション）フォームの左側にある「**コンテンツ要素**」タブをクリックして、次の要素のいずれかを追加します。
 
