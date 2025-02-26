@@ -6,10 +6,10 @@ description: Adobe Workfrontには、すぐに使用できるビルトインレ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '2970'
-ht-degree: 58%
+source-wordcount: '2986'
+ht-degree: 56%
 
 ---
 
@@ -19,9 +19,7 @@ ht-degree: 58%
 
 Adobe Workfront には、ユーザーが使用できる組み込みレポートの大量のリストが用意されています。
 
-Workfront 管理者は、組み込みのレポートを非表示にして、ユーザーがアクセスできないようにすることができます。
-
-組み込みレポートを非表示にする方法について詳しくは、[組み込みレポートを非表示にする](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)を参照してください。
+Workfront管理者は、ビルトインレポートを非表示にして、ユーザーがアクセスできないようにすることができます。 組み込みレポートを非表示にする方法について詳しくは、[組み込みレポートを非表示にする](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)を参照してください。
 
 ## アクセス要件
 
@@ -67,7 +65,7 @@ Workfront 管理者は、組み込みのレポートを非表示にして、ユ�
 
 ## 組み込みレポートの概要 {#overview-of-built-in-reports}
 
-組み込みのレポートをカスタマイズし、新しいレポートとして保存できます。組み込みレポートのカスタマイズについて詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
+組み込みレポートのコピーを作成して、新しいレポートとして保存できます。 組み込みレポートのコピーを作成する方法の詳細については、「[ レポートのコピーを作成する ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)」の [ 新しいバージョンのレポートを作成する ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md) を参照してください。
 
 Workfront パッケージには、次のレポートが付属しています。これらのレポートは、最低でもアクセスレベルで組み込みレポートの表示権限を持つすべてのユーザーが利用可能です。
 

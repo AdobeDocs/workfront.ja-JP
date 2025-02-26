@@ -7,10 +7,10 @@ description: アクセス権のある任意のレポートのコピーを作成�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '649'
-ht-degree: 77%
+ht-degree: 74%
 
 ---
 
@@ -102,12 +102,12 @@ ht-degree: 77%
 
 ## レポートの新しいバージョンを作成 {#create-a-new-version-of-a-report}
 
-デフォルトのレポートのコピーを作成する場合は、以下のように行います。
+組み込みレポートのコピーを作成する場合は、次の操作を行います。
 
 1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
 
 1. **レポート** をクリックし、**すべてのレポート** をクリックします。
-1. デフォルトのレポート名をクリックして開きます。
+1. ビルトインレポートの名前をクリックして開きます。
 1. 「**レポートのアクション**」、「**編集**」の順にクリックします。
 
    ![レポートを編集](assets/unshimmed-report-actions-default-report.png)

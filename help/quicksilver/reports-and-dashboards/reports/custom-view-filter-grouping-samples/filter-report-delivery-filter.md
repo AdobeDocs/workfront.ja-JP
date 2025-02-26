@@ -2,15 +2,15 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「フィルター：配信がスケジュールされたレポートの表示」
+title: フィルター：配信がスケジュールされているレポートを表示
 description: このレポートフィルターには、Adobe Workfront で自動的に配信されるようにスケジュールされたすべてのレポートが表示されます。標準ビューを使用することが最適です。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 76%
+ht-degree: 84%
 
 ---
 
@@ -65,8 +65,16 @@ ht-degree: 76%
 このフィルターを適用するには、次の手順に従います。
 
 1. レポートのリストに移動します。
+
 1. **フィルター**&#x200B;ドロップダウンメニューから、「**新規フィルター**」を選択します。
 
 1. 「**テキストモードに切り替え**」をクリックします。
-1. 「**レポートのフィルタールールを設定**」領域で、次のコードをコピーして貼り付けます。`scheduledReportID=0<br>scheduledReportID_Mod=notnull`
-1. 「**フィルターの保存**」をクリックします。
+
+1. **レポートのフィルタールールを設定**&#x200B;エリアに次のコードを追加します。
+
+   ```
+   scheduledReportID=0
+   scheduledReportID_Mod=notnull
+   ```
+
+1. 「**フィルターを保存**」をクリックします。

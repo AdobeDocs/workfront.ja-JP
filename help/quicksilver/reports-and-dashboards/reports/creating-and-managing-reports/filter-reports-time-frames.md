@@ -6,10 +6,10 @@ description: オブジェクトに存在する日付の時間枠でレポート�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
-ht-degree: 96%
+source-wordcount: '1027'
+ht-degree: 93%
 
 ---
 
@@ -129,11 +129,11 @@ ht-degree: 96%
 
 ## 組み込みの時間枠修飾子 {#built-in-time-frame-modifiers}
 
-Adobe Workfront には、特定の日付を定義せずに使用できる、組み込みの時間枠修飾子があります。 
+Adobe Workfront には、特定の日付を定義せずに使用できる、組み込みの時間枠修飾子があります。
 
-これらの修飾子は、フィルター内の任意の日付フィールドまたは任意のレポート内のプロンプトに対して使用できます。 
+これらの修飾子は、フィルター内の任意の日付フィールドまたは任意のレポート内のプロンプトに対して使用できます。
 
-日付に関連付けられた時間枠でレポートをフィルタリングする方法について詳しくは、[日付の時間枠でレポートをフィルタリング](#filter-a-report-by-the-time-frame-of-a-date)を参照してください。
+日付に関連付けられた時間枠でレポートをフィルタリングする方法について詳しくは、前述の節 [ 日付の時間枠でレポートをフィルタリング ](#filter-a-report-by-the-time-frame-of-a-date) を参照してください。
 
 例えば、時間レポートを作成していて、特定の時間枠に入力された時間を表示する場合、次の組み込み時間枠フィルターオプションから選択できます。
 

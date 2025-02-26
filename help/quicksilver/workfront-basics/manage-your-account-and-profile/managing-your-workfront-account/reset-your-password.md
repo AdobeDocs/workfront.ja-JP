@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  パスワードをリセットできま�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '253'
-ht-degree: 86%
+source-wordcount: '255'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 86%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+以下が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,13 +42,24 @@ ht-degree: 86%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
-   <td> <p>[!UICONTROL Request] 以降</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
+   <td> 
+      <p>新規：</p>
+         <ul>
+         <li><p>投稿者以上</p></li>
+         </ul>
+      <p>現在：</p>
+         <ul>
+         <li><p>リクエスト以上</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>
 
-ご利用のプランやライセンスタイプを確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## [!DNL Adobe Workfront] でパスワードをリセットする
 

@@ -2,14 +2,14 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: '表示：列の内容を非表示'
+title: 表示：列の内容を非表示にする
 description: ビューの列で情報を非表示にしたい場合があります。これを行うには、列のテキストモードを変更します。
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 79%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 79%
 >* 非表示の列を使用して、ビューに表示しない特定のオブジェクトで並べ替えることができます。\
 >  例えば、タスクビューでタスク番号順に並べ替え、タスク番号情報をビューで非表示にすることができます。この場合、列で参照されるオブジェクトはビューの並べ替えに役立ちますが、そのオブジェクトの情報はビューには表示されません。
 >* 列を非表示にする場合、列の情報は非表示になりますが、列はビューに依然として存在します。
->
 
 ## アクセス要件
 
@@ -43,7 +42,7 @@ ht-degree: 79%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：<ul><li>ビューを変更する場合は Contributor</li><li>レポートを変更する場合は Standard</li></ul></p><p>または</p>現在：<ul><li>表示の変更をリクエスト</li><li>レポートを変更するためのプラン</li></ul></p> </td> 
+   <td> <p>新規：<ul><li>ビューを変更する場合は Contributor</li><li>レポートを変更する場合は Standard</li></ul></p><p>現在：<ul><li>表示の変更をリクエスト</li><li>レポートを変更するためのプラン</li></ul></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -67,7 +66,7 @@ ht-degree: 79%
 
 1. 「**列を追加**」をクリックして、「**このカラムに表示**」フィールドに「タスク番号」と入力していき、リストに表示されたら選択します。
 
-1. **テキストモードに切り替え** をクリックし、**テキストを編集** をクリックします。
+1. **テキストモードに切り替え** をクリックしてから、**テキストモードを編集** をクリックします。
 1. 「**テキストモードを編集**」ボックスで検索したテキストを削除し、次のコードに置き換えます。
 
    ```
@@ -85,7 +84,7 @@ ht-degree: 79%
    このコードの重要な変更点は次のとおりで、その結果、列が非表示になります。
 
    * `displayname=`：この行は空白にする必要があります。
-   * `valuefield=`：これは `value` に置き換えられました。空白にする必要があります。
+   * `valuefield=`：この行は `value=` に置き換える必要があります。この行は空白にする必要があります。
    * `width=`: フィールドによって、値は **0** または **1** である必要があります。
 
 1. 「**完了**」をクリックし、「**ビューを保存** をクリックします。

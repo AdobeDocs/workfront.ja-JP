@@ -2,12 +2,12 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 「フィルター：2 つのフィールドを比較して、リスト内の項目を除外する」
+title: フィルター：2 つのフィールドを比較して、リスト内の項目を除外する
 description: 2 つのフィールドを比較することで、リストから項目をフィルタリングできます。例えば、タスクの実際の完了日が予定完了日よりも後のタスクのみを表示できます。
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 6a41db8e-1456-4031-bf2a-ca6d4111ad44
-source-git-commit: 4532e08bddf993426e9d4eed6f7f8bd638663188
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 75%
@@ -74,6 +74,9 @@ ht-degree: 75%
 1. **テキストモード** をクリックします。
 1. 表示された領域で、次のコードを追加します。
 
-   `actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt`
+   ```
+   actualCompletionDate=FIELD:plannedCompletionDate
+   actualCompletionDate_Mod=gt
+   ```
 
 1. **適用**/**新規保存** をクリックします。

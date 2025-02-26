@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 100%
+source-wordcount: '1007'
+ht-degree: 94%
 
 ---
 
@@ -104,8 +104,8 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 ## 各種ライセンスタイプの制限事項
 
-* 作業者ライセンスを持つユーザーには、プロジェクトを管理する権限がありません。作業者の場合、最も高い共有権限は参加です。
-* リクエストライセンスを持つユーザーはプロジェクト情報を表示できますが、プロジェクトへのアクセスは制限されています。
+* 以下の Light ライセンスを持つユーザー（または古いライセンス モデルのワーク ライセンス以下）には、プロジェクトを管理する権限がありません。 これらのユーザーの場合、最も高い共有権限は Contribute です。
+* コントリビューターライセンス （または古いライセンスモデルのリクエストライセンス）を持つユーザーはプロジェクト情報を表示できますが、プロジェクトアクセスは限られています。
 * プロジェクトのステータス変更の例外は、表示または参加の権限を持つユーザーが承認プロセスにも含まれている場合に発生します。 プロジェクトを承認すると、プロジェクトのステータスを変更できますが、ステータスは承認または却下の事前定義済みのステータスです。
 * プロジェクトをコピーできるようにするには、ユーザーがアクセスレベルでプロジェクトを作成するアクセス権も持っている必要があります。
 
@@ -152,20 +152,20 @@ The
   <tr> 
    <td> <p>カスタムフォームを追加</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>カスタムフィールドを更新</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>承認プロセスを追加</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクトを承認</p> </td> 
@@ -177,13 +177,13 @@ The
    <td> <p>時間を承認</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクトを作成</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>ドキュメントを追加</p> </td> 
@@ -201,25 +201,25 @@ The
    <td> <p>タスクを追加</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクトのコピー</p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクトの削除</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>予定日の変更</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクトを共有</p> </td> 
@@ -229,8 +229,8 @@ The
   </tr> 
   <tr> 
    <td> <p>システム全体で共有</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -248,44 +248,44 @@ The
   <tr> 
    <td> <p>ステータスの変更</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>時間の記録</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>割り当ての編集</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>ベースラインを管理</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>リスクを管理*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>財務の管理*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>費用を追加／編集*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>財務情報を表示*</p> </td> 
@@ -296,8 +296,8 @@ The
   <tr> 
    <td> <p>テンプレートを添付</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>テンプレートとして保存</p> </td> 
@@ -308,20 +308,20 @@ The
   <tr> 
    <td> <p>ビジネスケースを追加／編集</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>プロジェクト詳細を編集</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>スタッフを編集</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>MS Project にエクスポートする</p> </td> 
@@ -332,20 +332,20 @@ The
   <tr> 
    <td> <p>財務／タイムラインを再計算*</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p> </p> </td> 
   </tr> 
   <tr> 
    <td> <p>キューのプロパティを設定</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p></p> </td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
+   <td> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td> <p>リストでプロジェクトを一括編集</p> </td> 
    <td> <p>✓</p> </td> 
-   <td></td> 
-   <td></td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>

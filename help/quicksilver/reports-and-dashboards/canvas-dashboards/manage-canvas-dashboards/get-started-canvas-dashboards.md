@@ -6,9 +6,9 @@ description: キャンバスダッシュボードのリストに移動する方�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '618'
 ht-degree: 14%
 
 ---
@@ -23,11 +23,11 @@ ht-degree: 14%
 
 ## 前提条件
 
-* キャンバスダッシュボードを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新しいライセンス）が必要です。\
-  Workfrontのライセンスタイプについて詳しくは、現在のライセンスの場合は [ ライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)、新しいライセンスの場合は [ 新しいライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
+* 組織は、キャンバスダッシュボードのクローズドベータ版の一部である必要があります。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
-* キャンバスダッシュボードを作成または編集するには、Workfront管理者から、アクセスレベルでダッシュボードを編集するアクセス権を付与されている必要があります。\
-  ダッシュボードの編集アクセス権の付与について詳しくは、[ 報告書、ダッシュボード、カレンダーへのアクセスの付与 ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md) を参照してください。
+* キャンバスダッシュボードを作成するには、プランライセンス（現在のライセンス）または標準ライセンス（新しいライセンス）が必要です。 Workfrontのライセンスタイプについて詳しくは、[ ライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) または [ 新規ライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
+
+* キャンバスダッシュボードを作成または編集するには、Workfront管理者から、アクセスレベルのダッシュボードへの編集アクセス権を付与されている必要があります。 編集アクセス権の付与について詳しくは、[ 報告書、ダッシュボード、カレンダーへのアクセスの許可 ](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md) を参照してください。
 
 ## キャンバスダッシュボードへの移動
 
