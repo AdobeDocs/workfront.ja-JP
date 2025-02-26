@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 34fe190983a165a69f9dfbb49f619e84f6216fa8
+source-git-commit: 78538764a5a4551877a7175df83488f74ae1ce3a
 workflow-type: tm+mt
-source-wordcount: '13007'
+source-wordcount: '13010'
 ht-degree: 90%
 
 ---
@@ -656,7 +656,7 @@ ht-degree: 90%
       * 削除された項目の管理 {#manage-deleted-items}
          * [削除された項目の管理](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
          * [削除した項目を復元](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-         * [復元したアイテムを表示](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+         * [復元した項目を表示](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
          * [削除されたオブジェクトが時間に与える影響](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
          * [個々の子オブジェクトの復元](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
       * 診断 {#diagnostics}
@@ -1079,6 +1079,7 @@ ht-degree: 90%
       * [ドキュメントエリア](documents/managing-documents/documents-area.md)
       * [ドキュメントの詳細の概要](documents/managing-documents/document-details-overview.md)
       * [ドキュメントの概要](documents/managing-documents/summary-for-documents.md)
+      * [Workfront AI レビュアー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [ドキュメントのプレビュー](documents/managing-documents/preview-documents.md)
       * [ドキュメントの承認とプルーフ](documents/managing-documents/document-approvals-and-proofing.md)
       * [ドキュメントに更新を追加](documents/managing-documents/add-update-documents.md)
@@ -1487,12 +1488,10 @@ ht-degree: 90%
       * キャンバスダッシュボードのレポートタイプ {#report-types}
          * [キャンバスダッシュボードのレポートタイプの概要](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [キャンバスダッシュボードへの既存のレポートの追加](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-<!--
-         * [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
--->
+        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
    * レポート {#reports}
       * [レポート](reports-and-dashboards/reports/reports-overview.md)
       * レポートの基本 {#report-basics}
