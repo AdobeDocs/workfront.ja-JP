@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 72%
+source-wordcount: '779'
+ht-degree: 68%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 72%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 Adobe Workfront 管理者は、システム内の任意のプロジェクトに適用できるマイルストーンパスを作成します。このエリアでマイルストーンパスに加えた変更は、Workfront システム全体に影響を与えます。
 
@@ -145,11 +145,19 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
    プロジェクトレポートが表示されます。 各プロジェクトに関連付けられているマイルストーンパスは、レポートの最後の列に表示されます。
 1. レポートの最後の列で、マイルストーンパスの名前をクリックします。
 
-   マイルストーンパスの詳細が表示されます。 各マイルストーンの詳細も表示されます。
+   マイルストーンパスの詳細が表示されます。
+
+   <div class="preview">
 
    ![ プロジェクトレポートからのマイルストーンパスの詳細 ](assets/milestone-details-from-project-report.png)
 
-   <!--replace screen shot above with unshimming and mark it for Preview-->
+   マイルストーンパスの詳細ページには、次の情報が表示されます。
+
+   * マイルストーンパス名、ID および説明
+   * マイルストーン パス グループ
+   * マイルストーン名、説明、カラーおよびカラーアイコン
+
+   </div>
 
 1. （任意）「**戻る**」をクリックして、プロジェクトレポートに戻ります。
 

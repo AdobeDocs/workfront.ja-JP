@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1868'
 ht-degree: 11%
 
 ---
@@ -19,11 +19,10 @@ ht-degree: 11%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
--->
 
 {{planning-important-intro}}
 
@@ -117,46 +116,37 @@ ht-degree: 11%
 
 ## リクエストフォームのフィールドと値の表示制限
 
-<!--
+リクエストを送信した後、リクエストフォームに表示されるフィールドとその値がレコードまたはリクエストの詳細ページに表示される方法には、制限があります。
 
-There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+Workfront Planning 要求の発行の詳細は、[ レコードを作成するためのAdobe Workfront Planning 要求の発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
-For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+* リクエストフォーム、リクエストフォームで作成されたレコードまたはリクエストの詳細ページに表示されるフィールドには、以下のような制限があります。
 
-The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+   * リクエストフォームに次のタイプのフィールドを追加することはできません。
 
-* リクエストフォームに次のタイプのフィールドを追加することはできません。
+      * 作成者と最終変更者
+      * 作成日と最終変更日
+      * 数式。 <span class="preview"> 式フィールドはプレビュー環境でサポートされています。</span>
+      * Workfront オブジェクトの参照フィールド
+      * Workfront Planning 接続レコードの参照フィールド
 
-   * 作成者と最終変更者
-   * 作成日と最終変更日
-   * 数式。 式フィールドはプレビュー環境でサポートされています。
-   * Workfront オブジェクトの参照フィールド
-   * Workfront Planning 接続レコードの参照フィールド
-
-<!--at release to Preview, replace the above with this:  
->
->Fields of the following types do not display in the request form:
->* Created by and Last modified by
->* Created date and Last modified date
->* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
->* Workfront objects' lookup fields
->* Workfront Planning connected records' lookup fields-->
-
-* リクエストフォームビルダーでのフィールド形式の表示方法と、レコードまたはリクエスト詳細ページでの値の書式設定方法の違い：
+* リクエストフォームビルダーでのフィールド形式の表示方法と、レコードまたはリクエスト詳細ページでのフィールド値の書式設定方法の違いを次に示します。
 
    * 通貨、数値、割合の各フィールドは、フォームビルダー内で 1 行のテキストフィールドタイプとして表示されます。
 
      ただし、フィールドの形式は保持され、これらのフィールドの数値の値は、レコードタイプとリクエストの詳細ページに通貨、数値、パーセント値として表示されます。
 
-<!--
-* The following describes how some field values display on request forms and the request details pages: 
+<div class="preview">
 
-   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
-   * People field values display as IDs.
-   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
-   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
-   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
--->
+* 以下では、リクエストフォームとリクエストの詳細ページに表示されるフィールド値について説明します。
+
+   * 「通貨」、「数値」、「パーセンテージ」の各フィールドの特殊な書式は保持されません。 例えば、これらの領域のこれらのフィールドの値に対して、小数点以下の精度は保持されません。
+   * 人物フィールドの値は ID として表示されます。
+   * 他のフィールドや計算を参照しない数式フィールドには、値は表示されません。 例えば、`STRING` 式を持つフィールドは「N/A」値を表示します。
+   * 通貨フィールドを参照する数式フィールドは、為替レートを考慮せずに値を表示します。
+   * 特殊な形式を含む段落フィールドの値は、リクエストフォームに「N/A」値を表示し、リクエストの詳細ページに書式設定されたテキストではなく HTML タグを表示します。
+
+</div>
 
 ## レコードタイプ用のリクエストフォームの作成
 
@@ -170,7 +160,7 @@ The following are limitations for how certain fields display in request forms, r
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側 ![](assets/more-menu.png) ある **詳細** メニューをクリックし、「**リクエストフォームを作成**」をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、「**リクエストフォームを作成**」をクリックします。
 1. リクエストフォームの名前を更新します。 デフォルトでは、フォームの名前は **名称未設定フォーム** です。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （オプション）リクエストフォームに **説明** を追加します。
 
@@ -178,7 +168,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. 「**作成**」をクリックします。選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
 
-   ![](assets/campaigns-request-form-edit-mode.png)
+   ![ キャンペーンリクエストフォーム編集モード ](assets/campaigns-request-form-edit-mode.png)
 
    リクエストフォームには、デフォルトで次の情報が含まれています。
 
@@ -197,7 +187,8 @@ The following are limitations for how certain fields display in request forms, r
 
 1. （オプション）削除するフォーム上のフィールドの上にマウスポインターを置き、「**x**」アイコンをクリックして削除します。 これらは、フォームの左側にある **フィールド** タブに追加されます。
 
-   例えば、「**件名** フィールドはWorkfront Planning には表示されないので、これを削除します。<!--remove this step when we connect intake with the Requests area in Workfront-->
+   例えば、「**件名** フィールドはWorkfront Planning には表示されないので、これを削除します。<!--remove this example if this becomes visible in Planning?-->
+
 1. （オプション）フォームから **デフォルトセクション** を削除するには、次の手順を実行します。
 
    1. デフォルトセクションからすべてのフィールドを削除します。
@@ -227,7 +218,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. （オプション）「**設定**」タブをクリックし、「**承認者**」フィールドに少なくとも 1 人のユーザーを追加して、このレコードフォームの新しいリクエストを承認します。
 
-   ![](assets/configuration-tab.png)
+   ![ 「設定」タブ ](assets/configuration-tab.png)
 
    <!--below bullet list is duplicated in the Add approval to a request form article-->
 
@@ -238,7 +229,7 @@ The following are limitations for how certain fields display in request forms, r
 
      リクエストフォームへの承認の追加について詳しくは、「[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md)」を参照してください。
 
-1. （オプション）ヘッダーのフォーム名の右 ![](assets/more-menu.png) にある **詳細** メニューをクリックしてから、**編集** をクリックしてフォームの名前を更新します。
+1. （オプション）ヘッダーのフォーム名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**編集**」をクリックしてフォーム名を更新します。
 1. 「**公開**」をクリックしてフォームを公開し、フォームの一意のリンクを取得します。
 
    次のことが発生します。
@@ -249,7 +240,7 @@ The following are limitations for how certain fields display in request forms, r
 
 1. **共有** をクリックして、フォームを他のユーザーと共有します。
 
-   ![](assets/share-box-for-request-form.png)
+   ![ リクエストフォームの共有ボックス ](assets/share-box-for-request-form.png)
 
 1. このフォームにアクセスできるユーザーのタイプを指定するには、次のオプションから選択します。
 
@@ -261,7 +252,7 @@ The following are limitations for how certain fields display in request forms, r
    >
    >* **リンクを持つすべてのユーザー** を選択すると、組織外のユーザーであっても、Workfront アカウントを持たないユーザーであっても、誰でもフォームにアクセスして、新しいレコードを送信できます。
    >
-   > * 次のフィールドタイプを含むフォームは、パブリックに共有できません。
+   >* 次のフィールドタイプを含むフォームは、パブリックに共有できません。
    >
    >     * WorkfrontまたはAEM Assetsの接続
    >     * ユーザー
@@ -271,7 +262,12 @@ The following are limitations for how certain fields display in request forms, r
 
    現在の日付から 180 日以内の将来の日付を選択できます。
 
-1. **リンクを保存してコピー** をクリックして、フォームの共有の詳細を保存します。 フォームが以前に保存されている場合は、「**リンクをコピー**」をクリックします。
+   >[!TIP]
+   >
+   ><span class="preview"> 共有日が終了すると、Workfrontの「リクエスト」領域でリクエストフォームを使用できなくなります。</span>
+
+
+1. <span class="preview"> （オプション） </span> 「**リンクを保存してコピー**」をクリックして、フォームの共有の詳細を保存します。 フォームが以前に保存されている場合は、「**リンクをコピー**」をクリックします。
 
    フォーム共有オプションが保存され、リンクがクリップボードにコピーされます。 他のユーザーと共有できるようになりました。
 
@@ -281,11 +277,12 @@ The following are limitations for how certain fields display in request forms, r
 1. ヘッダーでフォーム名の左側にある左向き矢印をクリックして、フォームを閉じます。
 
    レコードタイプのページが開きます。
-1. （オプション）ヘッダーのレコードタイプ名の右側に ![](assets/more-menu.png) る **詳細** メニューをクリックして、次のいずれかの操作を行います。
+1. （オプション）ヘッダーのレコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、次のいずれかの操作を行います。
    * 「**リクエストフォームを更新**」をクリックして、リクエストフォームに変更を加えます。
    * **リクエストフォームにリンクをコピー** をクリックして、フォームへのリンクを他のユーザーと共有します。
+   * <span class= "preview"> Workfrontの **リクエスト** エリアに移動し、リクエストを送信するための共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください </span>。
 
    >[!TIP]
    >
    >その場合には、リンクが公開されている表示があります。
-   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   >![ レコードタイプメニューのフォームへの公開共有リンク ](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)

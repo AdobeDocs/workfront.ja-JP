@@ -6,20 +6,20 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 98%
+source-wordcount: '1465'
+ht-degree: 97%
 
 ---
 
 # リクエストのコピーと送信
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
-
 同様のリクエストを頻繁に送信する場合は、既存の送信済みリクエストをコピーできます。この場合、既存のリクエストをコピーし、最小限の変更を加えて、新しいリクエストとして再送信できます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -48,7 +48,9 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## アクセス要件
 

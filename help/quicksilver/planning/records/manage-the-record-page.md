@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1914'
 ht-degree: 9%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 9%
 
 # レコードページレイアウトの管理
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> このページでハイライト表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -161,11 +161,11 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    レコードのプレビューがビューで開きます。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png)  
+   ![ 詳細ボックス ](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) 新しいタブでレコードのページを開く）をクリックします。
 
@@ -244,23 +244,29 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    レコードのプレビューがビューで開きます。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png) 
+   ![ 詳細ボックス ](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. （オプション）レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブアイコンで詳細ボックスを開く ](assets/open-details-in-a-new-tab-icon.png)<!--check the icon; they are changing it--> をクリックして、レコードのページを新しいタブで開きます。
 
    レコードの **詳細** タブは、デフォルトで開きます。
 
-   <!--<div class="preview">
+   <div class="preview">
 
-   ![Details page](assets/details-page.png)
+   ![ 詳細ページ ](assets/details-page.png)
 
-   </div>-->
+   </div>
 
-1. レコード **詳細** タブで、フィールド名の左側にある **グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png) をクリックしてから、目的の場所にドラッグ&amp;ドロップします。<!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. レコード **詳細** タブで、フィールド名の左側にある **グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png) をクリックしてから、目的の場所にドラッグ&amp;ドロップします。
+
+   >[!TIP]
+   >
+   >フィールドは、別のセクションにドラッグ&amp;ドロップできます。
+   >セクションに少なくとも 1 つのフィールドが必要です。
+   >
 
    レコードを表示しているすべてのユーザーについて、同じタイプのすべてのレコードのプレビューとページの両方でフィールドの新しい位置が更新されます。
 
@@ -295,23 +301,29 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 選択したレコードタイプのテーブルビューが表示され、接続されたレコードがテーブルビューに表示されます。
 接続されたレコードのすべてのフィールドは、接続されたレコードのタブのテーブル表示に表示されます。
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
+   <span class="preview"> プレビュー環境からWorkfront Planning にアクセスすると、デフォルトで接続レコードテーブルの最初の 5 つのフィールドが表示されます。 デフォルトでは参照フィールドは表示されません。</span>
 
    テーブル表示は読み取り専用です。
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
+   <div class="preview">
+
    ![ キャンペーンの詳細のオーディエンスに接続されたテーブル表示 ](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+   </div>
+
 1. （オプション）タブの名前をダブルクリックします
 
    または
 
    タブの名前にポインタを合わせて、**その他** ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**名前を変更** をクリックして、新しい [ 接続されたビュー ] タブに名前を変更します。
-1. （オプション）ツールバーの次のビュー要素のいずれかを使用して、テーブルビューを管理します
+1. （オプション）ツールバーの次のビュー要素のいずれかを使用して、テーブルビューを管理します。
 
    * フィルター
    * 並べ替え
    * グループ化
+   * <span class="preview"> フィールド：フィールドの表示、非表示、並べ替え </span>
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -321,11 +333,14 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
    >
    >   接続されたレコードのタブのテーブル表示では、次の操作はできません。
    >
-   >   * フィールドを非表示
+   >   * フィールドの非表示または並べ替え <span class="preview"> プレビュー環境でフィールドの非表示や並べ替えをおこなうことができます。</span>
    >   * フィールドの作成、編集、削除
-   >   * フィールドの並べ替え
    >
-1. （オプション）タブの名前にポインタを合わせ、**詳細** ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックして新しい「接続されたビュー」タブを削除します。
+
+1. <span class="preview"> 「**接続**」をクリックすると、レコードを追加または削除できます。 詳しくは、「レコードの接続 [ を参照してください ](/help/quicksilver/planning/records/connect-records.md)</span>
+1. （オプション）「接続ビュー」タブの名前の上にマウスポインターを置き、**詳細**![ 詳細メニュー ](assets/more-menu.png) をクリックしてから **削除** をクリックして、新しい「接続ビュー」タブを削除します。
+
+
 
 
 <!--

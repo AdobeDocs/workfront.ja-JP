@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
-ht-degree: 42%
+source-wordcount: '3249'
+ht-degree: 40%
 
 ---
 
@@ -155,8 +155,9 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 計画レコードの次の領域で、Workfront Planning のレコードを関連付けることができます。
 
 * テーブル表示の接続されたレコードフィールド
-* 「詳細」タブの、接続されたレコードフィールドでのレコードのプレビューまたはページ。
-* [ 接続 ] タブのレコードのプレビューまたはページ。
+* [ 詳細 ] タブの [ 接続されたレコード ] フィールドのレコードのプレビューボックスまたはページ。
+* [ 接続 ] タブのレコードのプレビューボックスまたはページ。
+* <span class="preview"> 「接続表示」タブのレコードのページ </span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### テーブル表示またはレコードの詳細領域からWorkfront Planning レコードを接続します
 
@@ -462,3 +463,25 @@ Workfront オブジェクトからWorkfront計画レコードを接続するに�
 * Workfront管理者またはグループ管理者が、Planning セクションをレイアウトテンプレートのWorkfront プロジェクト、ポートフォリオおよびプログラムに追加する必要があります。
 
 詳しくは、[Adobe Workfront オブジェクトの計画セクションでのレコードの管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
+
+<div class="preview">
+
+## レコードの詳細ページの「接続表示」タブからレコードを接続
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. 他の Planning レコード・タイプまたは他のアプリケーションのオブジェクト・タイプに接続されているレコード・タイプの任意のビューに移動します。
+1. 他のレコードまたはオブジェクトと接続するレコードをビューで検索するには、前のサブセクションで説明した手順に従います。
+1. レコードの名前をクリックします。
+
+   プレビューページが開きます。
+1. **新しいタブで開く** アイコン ![ 詳細を新しいタブで開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを開きます。
+1. レコードのプレビューまたはページで、既存の「接続ビュー」タブをクリックします。 最初に接続表示ページを作成する必要があります。 詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+
+   接続されたレコードタイプのページがテーブル表示に表示されます。
+1. レコードを追加または削除するには、「**接続**」をクリックします。
+
+   ![ 接続されたレコードの詳細タブでハイライト表示された「接続」ボタン ](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. （オプション）接続されたレコードが見つからない場合は、「**+追加**」をクリックして作成し、接続します。
+
+</div>

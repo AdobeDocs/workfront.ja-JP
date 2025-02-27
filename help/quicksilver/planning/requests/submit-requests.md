@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 7%
+source-wordcount: '1798'
+ht-degree: 6%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 7%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -136,98 +136,95 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
 ## Workfront Planning への要求の発行
 
-<!--
+Workfront Planning へのリクエストの発行は、使用する環境によって異なります。
+
 <div class="preview">
 
-Submitting requests to Workfront Planning differs depending on what environment you use. 
-
-### Submit a request to Workfront Planning in the Preview Environment
+### プレビュー環境でWorkfront Planning にリクエストを送信します。
 
 >[!NOTE]
 >
->After the monthly releases to Production, the features described in this section are also available in the Production environment for customers who enabled fast releases.
+>実稼動環境への毎月のリリースの後、この節で説明する機能は、迅速なリリースを有効にしたお客様の実稼動環境でも利用できます。
 
 {{step1-to-requests}}
 
-1. Enable the **Switch to a new experience** setting, in the upper-right corner of he screen. 
-   Enabling this setting makes the Workfront Planning request forms available in the **Requests** area of Workfront.
+1. 画面の右上隅にある「**新しいエクスペリエンスに切り替え** 設定を有効にします。
+この設定を有効にすると、Workfrontの計画リクエストフォームがWorkfrontの **リクエスト** エリアで使用できるようになります。
 
    >[!TIP]
    >
-   >This setting is available only when the following are in place:
+   >この設定は、次の環境が整っている場合にのみ使用できます。
    >
-   >* Your company has purchased a Workfront Planning package. 
-   >* Your Workfront instance is onboarded to the Adobe Unified Experience. 
-   >* You have access to view at least one workspace. 
+   >* 貴社はWorkfrontプランニングのパッケージを購入されました。
+   >* お使いのWorkfront インスタンスは、Adobe Unified Experience にオンボードされます。
+   >* 1 つ以上のワークスペースを表示するアクセス権があります。
    >
 
-1. Click **New request**. (********* update screen shot at release ********)
+1. **新規リクエスト** をクリックします。
 
-   ![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   ![Workfrontと Planning の統合カードを含む新しいリクエストボックス ](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
 
-   The New request area opens with the following information: 
+   **新規リクエスト** ボックスが開き、次の情報が表示されます。
 
-   * The 6 most recently accessed Workfront request queues and Planning request forms display in the Recent section. 
-   * 50 additional Workfront request queues and Planning request forms display in alphabetical order in the **All request forms** section. You can search for a request queue that does not display by default. 
+   * 最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。
+   * 50 個の追加のWorkfront リクエストキューおよび Planning のリクエストフォームが、「すべてのリクエストフォーム **セクションにアルファベット順に表示され** す。 デフォルトで表示されないリクエストキューを検索できます。
 
-1. Do one of the following:
+1. 次のいずれかの操作を行います。
 
-   * Click the card for one of the Planning request forms in the Recent or All request forms sections
-   * Start typing the name of a Planning request form in the search box, then click the card when it displays in the list. 
+   * 「最近」または「すべてのリクエストフォーム」セクションで、Planning リクエストフォームのいずれかのカードをクリックします
+   * 検索ボックスに Planning 要求フォームの名前の入力を開始し、リストに表示されたらカードをクリックします。
 
-   The request form opens.
+   リクエストフォームが開きます。
 
-1. Update the fields available in the request form. Fields with a red asterisk are required. 
-1. Click **Submit**.
-    
-   The request form closes and you return to the **Requests** area. 
+1. リクエストフォームで使用可能なフィールドを更新します。 赤いアスタリスクが付いているフィールドは必須です。
+1. 「**送信**」をクリックします。
 
-   Your form is submitted and the following things occur:
+   リクエストフォームが閉じ、「**リクエスト** エリアに戻ります。
 
-   * If the request form was not associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area and a new record is added to the record type associated with the form.
-   
-   * If the request form was associated with an approval, the request is added to the Planning tab of the Submitted section of the Workfront Requests area. A new record is added to the record type page only after all the approvers have approved it.
-   
-      For information, see [Add an approval to a request form](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
+   フォームが送信され、次の処理が行われます。
 
-      ![](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
+   * リクエストフォームが承認に関連付けられていない場合、リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加され、新しいレコードがフォームに関連付けられたレコードタイプに追加されます。
 
-      >[!IMPORTANT]
-      >
-      >All users who have access to at least one workspace can view the Planning tab in the Requests area. You can view only the requests submitted by you or anyone else to the workspaces that you have at least permissions to View. Workfront administrators can view all requests submitted to any workspace in the system. (******** ensure this is correct; asking team in slack **************)
+   * リクエストフォームが承認に関連付けられている場合、リクエストは「Workfront リクエスト」エリアの「送信済み」セクションの「計画」タブに追加されます。 新しいレコードは、すべての承認者が承認した後にのみ、レコードタイプページに追加されます。
 
-   * You receive an in-app and an email notification that the request has either been submitted successfully or has been sent for review.
-   * If the request form was associated with an approval, the approvers receive an in-app and an email notification to review and approve the request.
+     詳しくは、[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
 
-      >[!NOTE]
-      >
-      >The email and in-app notifications are visible only when your organization's instance of Workfront is onboarded to the Adobe Unified Experience.
+     ![ 「統合ワークフロー計画」タブの切替スイッチが付いたリクエスト領域 ](assets/requests-area-with-toggle-for-unified-workflow-planning-tab-open.png)
 
-1. (Optional) Click the **Planning** tab in the Requests area to view your request, then click the name of the request. 
+     >[!IMPORTANT]
+     >
+     >1 つ以上のワークスペースにアクセスできるすべてのユーザーは、リクエスト エリアの「計画」タブを表示できます。 表示可能な少なくとも権限を持つ、自分または他のユーザーがワークスペースに送信したリクエストのみを表示できます。 Workfront管理者は、システム内の任意のワークスペースに送信されたすべてのリクエストを表示できます。
 
-   The request details page opens. 
+   * アプリ内と、リクエストが正常に送信されたかレビュー用に送信された旨のメール通知が届きます。
+   * リクエストフォームが承認に関連付けられている場合、承認者は、リクエストをレビューして承認するためのアプリ内通知とメール通知を受け取ります。
 
-   ![Request details page](assets/request-details-page.png)
+     >[!NOTE]
+     >
+     >メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobe Unified Experience にオンボードされている場合にのみ表示されます。
 
-1. (Conditional) If the request form is not associated with an approval, or if the request has been approved, click the name of the request, then click the name of the record in the **Record** field. 
+1. （オプション）要求領域の **計画** タブをクリックして要求を表示し、要求名をクリックします。
 
-   The record's page opens in Workfront Planning. 
+   リクエストの詳細ページが開きます。
+
+   ![ リクエストの詳細ページ ](assets/request-details-page.png)
+
+1. （条件付き）リクエストフォームが承認と関連付けられていない場合、またはリクエストが承認されている場合は、リクエストの名前をクリックし、「**レコード**」フィールドのレコードの名前をクリックします。
+
+   Workfront Planning でレコードのページが開きます。
 
    >[!TIP]
    >
-   >* If the record name was not added to the request form, the name of the record in the Record field of the request displays as **Untitled**. 
+   >* レコード名がリクエストフォームに追加されなかった場合、リクエストのレコードフィールドのレコード名は **名称未設定** と表示されます。
    >
-   >* If the request form is associated with an approval, the approval must be granted before you can access the record from the request page. 
+   >* リクエストフォームが承認に関連付けられている場合、リクエストページからレコードにアクセスするには、承認を付与する必要があります。
 
-1. (Optional) Click the name of the **Record type**. 
+1. （オプション） **レコードタイプ** の名前をクリックします。
 
-   The record type page opens in Workfront Planning. 
+   Workfront Planning に「レコードタイプ」ページが開きます。
 
 </div>
 
-### Submit a request to Workfront Planning in the Production environment
-
--->
+### 実稼動環境でのWorkfront Planning へのリクエストの送信
 
 1. Workfront Planning レコードタイプから共有されたリンクに移動します。
 
@@ -249,7 +246,7 @@ Submitting requests to Workfront Planning differs depending on what environment 
 
      詳しくは、[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
 
-     ![](assets/planning-tab-in-requests.png)
+     ![ リクエストの「計画」タブ ](assets/planning-tab-in-requests.png)
 
      >[!IMPORTANT]
      >
