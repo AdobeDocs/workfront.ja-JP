@@ -5,10 +5,10 @@ description: AI アシスタントの概要
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
-ht-degree: 7%
+source-wordcount: '817'
+ht-degree: 6%
 
 ---
 
@@ -139,3 +139,30 @@ Adobe生成 AI 契約をリクエストするには：
 1. Adobe Gen AI 契約に署名する組織内の個人の名前とメールアドレスを入力します。
 
    契約書はこのユーザーに送信され、署名が行われます。 署名して返されると、組織で AI アシスタントが有効になります。
+
+## AI アシスタントでプロンプトを作成するためのヒント
+
+プロンプトで次のキーワードを使用して、コンテキストを提供し、正しい情報を見つけるのに役立てます。 キーワードでは大文字と小文字が区別されません。
+
+プロンプトを入力する場合は、`using (keyword)` というフレーズを含めます。
+
+| キーワード | 効果 |
+|---|---|
+| `workfront` | Workfrontとやり取りする。 |
+| `planning ` | Workfrontの計画とやり取りする。 |
+| `help` | Experience League ドキュメントからの情報を返します。 |
+| `formula` | Planning、設定またはカスタム・フォームで使用する式をチェックして戻します。 |
+| `health` | プロジェクト正常性アドバイザーでプロジェクトの正常性を確認します。 |
+| `summarize` | ファイルのアップロード時やプロジェクトの要約時などに、項目の概要が表示されます。 |
+
+>[!NOTE]
+>
+> すべてのエリアですべてのキーワードを使用できるわけではありません。
+>
+>* `formula` キーワードは、Planning、設定およびカスタム フォーム ビルダーでのみ使用できます。
+>* `planning` キーワードは、Workfront Planning からのみ使用できます。
+
+
+
+
+
