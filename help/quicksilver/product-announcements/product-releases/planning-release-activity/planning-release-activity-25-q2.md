@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
 workflow-type: tm+mt
-source-wordcount: '1093'
-ht-degree: 3%
+source-wordcount: '1481'
+ht-degree: 2%
 
 ---
 
@@ -21,6 +21,62 @@ ht-degree: 3%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## Workfront Planning リクエストの詳細ページのレコード名をブラウザのタブ名に表示します。
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 27 日（PT）、高速リリースの実稼動：25.3 リリースの実稼動（2025 年 3 月）、四半期リリースの実稼動：25.4 リリースの実稼動（2025 年 4 月）
+
+Workfront計画リクエストの詳細ページがブラウザーに表示される方法を更新しました。 これで、リクエストによって作成されたレコードの名前が、ブラウザータブ名として表示されます。 この機能強化の前は、ブラウザータブに「Workfront」と表示されていました。
+
+## Workfrontと Planning の統合リクエストワークフロー
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 27 日（PT）、高速リリースの実稼動：25.3 リリースの実稼動（2025 年 3 月）、四半期リリースの実稼動：25.4 リリースの実稼動（2025 年 4 月）
+
+メインメニューの「リクエスト」領域で、WorkfrontとWorkfront Planning の両方のリクエストを送信できるようになりました。
+
+このアップデートで次の機能が使用できるようになりました。
+
+* 「新規リクエスト」ボタンの横にある新しい切替スイッチにより、リクエスト エリアでこのエクスペリエンスが有効になります。 切替スイッチの選択を解除すると、Workfront リクエストのみを送信できます。
+
+* 統合検索可能な領域に、Workfront リクエストキューとWorkfront Planning リクエストフォームの両方を表示できます。
+
+* 最新の 6 つのリクエストが、最初に統合検索可能エリアに表示されます。
+
+詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+
+## 数式フィールドがリクエストフォームでサポートされるようになりました
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 27 日（PT）、高速リリースの実稼動：25.3 リリースの実稼動（2025 年 3 月）、四半期リリースの実稼動：25.4 リリースの実稼動（2025 年 4 月）
+
+Workfront Planning で、レコードタイプリクエストフォームに式フィールドを追加できるようになりました。
+
+この機能強化が行われるまで、これらのタイプのフィールドをリクエストフォームに追加することはできませんでした。
+
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+
+## レコードの接続表示ページを更新
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 27 日（PT）、高速リリースの実稼動：25.3 リリースの実稼動（2025 年 3 月）、四半期リリースの実稼動：25.4 リリースの実稼動（2025 年 4 月）
+
+レコードページの接続表示が次の機能で更新されました。
+
+* デフォルトでは、接続されたレコードの最初の 5 つのフィールドのみがテーブル表示に表示されます。 この更新以前は、すべてのフィールドが表示されていました。
+
+* 接続されたレコードのテーブルビューで列を非表示にできるようになりました。
+
+* テーブルのツールバーの「フィールド」アイコンを使用して、列を並べ替えることができます。
+
+* レコードの接続や切断を行うことができます。
+
+詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
 ## 数式フィールドに追加された新しい式
 
