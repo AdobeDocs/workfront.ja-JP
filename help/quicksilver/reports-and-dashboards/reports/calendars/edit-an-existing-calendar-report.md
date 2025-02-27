@@ -6,14 +6,16 @@ description: プロジェクトへのリンクを追加または削除するこ�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 71%
+source-wordcount: '510'
+ht-degree: 61%
 
 ---
 
 # 既存のカレンダーレポートの編集
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 プロジェクトへのリンクを追加または削除することで、既存のカレンダーを変更できます。また、カレンダーレポートに関連付けられているカレンダーのグループ化を変更することもできます。
 
@@ -58,7 +60,7 @@ ht-degree: 71%
 
 +++
 
-## 既存のカレンダーレポートの編集
+## 実稼動環境での既存のカレンダーレポートの編集
 
 {{step1-to-calendars}}
 
@@ -87,3 +89,34 @@ ht-degree: 71%
       * [カレンダーレポートでの[!UICONTROL 予定日]の使用](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [カレンダーレポートで[!UICONTROL 見込み日]を使用](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [カレンダーレポートでのカスタム日付フィールドの使用](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+<div class="preview">
+
+## プレビューで既存のカレンダーレポートを編集する
+
+{{step1-to-calendars}}
+
+1. （オプション）カレンダーレポートの名前を変更するには、**詳細** メニューをクリックして **編集** を選択します。
+   ![ その他メニュー ](assets/new-more-menu-calendar.png)
+他のユーザーやチームとカレンダーレポートを共有した場合、変更されたカレンダー名はカレンダー表示で自動的に更新されます。
+
+1. （オプション）カレンダーレポートにプロジェクトを追加するには、次の手順に従います。
+   1. 「**[!UICONTROL カレンダーに追加]」をクリックします。**
+   1. カレンダーイベントを追加するプロジェクトの名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
+   1. 「**追加**」をクリックします。
+      ![ カレンダーへのプロジェクトの追加 ](assets/add-a-calendar-project.png)
+
+
+1. （オプション）カレンダーのグループ化を追加するか、カレンダーの既存のグループ化を変更するには、次の手順に従います。
+   1. プロジェクト名の横にある **詳細** メニューをクリックし、「**編集**」をクリックします。
+      ![ カレンダーでプロジェクトを編集 ](assets/edit-project-in-calendar.png)e
+
+   1. アイテムをグループ化する方法を次の中から選択します。
+
+      * [カレンダーレポートでの[!UICONTROL 予定日]の使用](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [カレンダーレポートで[!UICONTROL 見込み日]を使用](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [カレンダーレポートでのカスタム日付フィールドの使用](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+      </div>
