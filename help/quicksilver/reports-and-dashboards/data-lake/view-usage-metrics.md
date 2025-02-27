@@ -6,9 +6,10 @@ title: Workfront Data Connect の使用状況指標の表示
 description: 「Workfront Data Connect Metrics」タブを使用すると、毎月のコンピューティング利用時間と実行されたクエリ数の両方に従って、組織の使用状況指標を表示できます。
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '346'
+source-wordcount: '334'
 ht-degree: 14%
 
 ---
@@ -33,17 +34,17 @@ ht-degree: 14%
     <ul>
         <li>Ultimate</li> 
     </ul>    
-   <p>次のプランのアドオンとして購入できます。</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>選択</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect は、従来のWorkfront プランでは使用できません。</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td><p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 

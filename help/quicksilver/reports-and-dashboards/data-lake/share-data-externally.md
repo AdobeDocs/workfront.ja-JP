@@ -7,9 +7,9 @@ description: Workfront Data Connect を使用すると、組織のWorkfront デ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '595'
 ht-degree: 9%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 Workfront Data Connect を使用すると、組織のWorkfront データをビジネスインテリジェンスツールで使用したり、外部データウェアハウスに保存したりできます。
 
-Data Connect Data Lake を外部Snowflakeと接続するには、まず「製品のリーダーアカウントまたは接続の作成 [ の説明に従って接続を作成する必要があり ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) す。 次に、以下の [許可リスト許可リストに加えるへの IP の追加 ](#add-ips-to-the-allowlist) で説明するように、必要な IP をページに追加する必要があります。
+Data Connect Data Lake を外部製品と接続するには、まず「[Snowflakeのリーダーアカウントまたは接続の作成 ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) の説明に従って接続を作成する必要があります。 次に、以下の [許可リスト許可リストに加えるへの IP の追加 ](#add-ips-to-the-allowlist) で説明するように、必要な IP をページに追加する必要があります。
 
 ほとんどの製品では、接続を確立するために、データレイクに関する次の情報が必要です。
 
@@ -31,9 +31,9 @@ Data Connect Data Lake を外部Snowflakeと接続するには、まず「製品
 | スキーマ | `WF` |
 | 役割 | `READER_ROLE` |
 | ユーザー名 | 接続の作成時に選択したユーザー名（Workfront*の **Data Connect** ページにあります） |
-| パスワード | 初回Snowflakeログイン時に選択したパスワード* |
+| パスワード | Snowflakeへの初回ログイン時に指定したパスワード* |
 
-*Snowflakeを含む **Data Connect** ページの見つけ方については、[Create a reader account or connection for connection](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) を参照してください。
+*接続に関する **Data Connect** ページの見つけ方については、[Snowflakeのリーダーアカウントまたは接続の作成 ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -55,19 +55,19 @@ Data Connect Data Lake を外部Snowflakeと接続するには、まず「製品
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>次のプランに含まれる：</p>
     <ul>
-        <li>Ultimate</li> 
+        <li><p>Ultimate</p></li> 
     </ul>    
-   <p>次のプランのアドオンとして購入できます。</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>選択</li> 
+        <li>Select</li> 
         <li>Prime</li>
-    </ul> 
+    </ul>--> 
     <p>Workfront Data Connect は、従来のWorkfront プランでは使用できません。</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td><p>プラン</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 

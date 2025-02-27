@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 7b40bd67529e62e7b08ba3076a707ba14edd6824
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '217'
-ht-degree: 35%
+source-wordcount: '317'
+ht-degree: 24%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 35%
 このページでは、2025年第 2 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模な更新について説明しています。
 
 2025年第 2 四半期リリースで利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
+
+## Workfront カレンダーのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 27 日（PT）、すべてのお客様向けの実稼動リリース：25.3 リリースの場合（2025 年 3 月）
+
+Workfrontカレンダーのルックアンドフィールを、Workfrontの他のエリアと一致するモダンなデザインに更新しました。 現在のWorkfront カレンダーとは、次のようなわずかな機能違いがあります。
+
+* カレンダーへのアドホック項目の追加方法
+* カレンダーの作成および名前変更の方法
+* カレンダーアクションが、カレンダー名の横にある「詳細」メニューに移動しました
+* カレンダー情報を表示する新しいサイドパネル
+* その他
+
+詳しくは、[ カレンダー ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) を参照してください。
 
 ## ドキュメントメールの一時的なルックアンドフィールの変更
 
