@@ -6,10 +6,10 @@ description: タイムラインの再計算を使用すると、管理者は、�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 92%
+source-wordcount: '1064'
+ht-degree: 87%
 
 ---
 
@@ -174,13 +174,13 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 プロジェクトのタイムラインは、プロジェクトページ、またはプロジェクトリストやレポートから、Workfront で再計算できます。
 
-1. タイムラインを再計算するプロジェクトに移動し、プロジェクト名の左側にある&#x200B;**その他**&#x200B;アイコン ![](assets/qs-more-menu.png) をクリックします。
+1. タイムラインを再計算するプロジェクトに移動して、プロジェクト名の左側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックします
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ 詳細ドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、リストの上部にある&#x200B;**その他**&#x200B;アイコン ![](assets/qs-more-menu.png) をクリックします。
+   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックします。
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
