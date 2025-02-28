@@ -6,10 +6,10 @@ description: Experience Manager Assets からリンクされている Adobe Work
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '222'
+ht-degree: 98%
 
 ---
 
@@ -62,4 +62,4 @@ Experience Manager Assets からリンクされている Adobe Workfront 内の�
 1. そのドキュメントをドキュメントリストから選択します。
 1. 右側のドキュメントの概要で、上部のサムネールにポインタを合わせて、「**プレビュー**」または「**ダウンロード**」を選択します。
 
-   ![](assets/view-or-download-enhanced-connector-350x123.png)
+   ![ プレビューまたはダウンロード ](assets/view-or-download-enhanced-connector-350x123.png)
