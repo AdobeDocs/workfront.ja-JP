@@ -7,10 +7,10 @@ description: （この問題を FAQ として追加することもできます�
 author: Alina
 feature: Work Management
 exl-id: 774c103f-8785-4d8b-83e9-a074e6518293
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 100%
+source-wordcount: '185'
+ht-degree: 91%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 プロジェクトの完了モードを手動に更新するには、次の手順に従います。
 
 1. 更新するプロジェクトに移動します。
-1. プロジェクト名の右側にある&#x200B;**その他**&#x200B;アイコン ![](assets/more-icon.png)、「**編集**」の順にクリックします。
+1. プロジェクト名の右側にある **その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックし、**編集** をクリックします。
 1. 「**プロジェクト****設定**」をクリックします。
 
 1. **完了モード**&#x200B;ドロップダウンメニューで、「**手動**」を選択します。
