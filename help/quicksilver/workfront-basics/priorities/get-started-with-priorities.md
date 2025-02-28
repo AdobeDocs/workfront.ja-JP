@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1041'
 ht-degree: 7%
 
 ---
@@ -114,7 +114,7 @@ ht-degree: 7%
 
 詳しくは、[ 重要な作業項目の優先順位の設定 ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
 
-![](assets/worklist.png)
+![ 作業リスト ](assets/worklist.png)
 
 ### カレンダービューの使用
 
@@ -142,7 +142,7 @@ ht-degree: 7%
 
 詳しくは、[ 優先度でのコメントの追加と表示 ](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md) を参照してください。
 
-![](assets/update-log-upload.png)
+![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 
 ### 時間を記録
 
@@ -150,7 +150,7 @@ ht-degree: 7%
 
 詳しくは、「[ 優先度で時間を記録する ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md) を参照してください。
 
-![](assets/update-log-upload.png)
+![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 
 ### ファイルのアップロード
 
@@ -163,14 +163,14 @@ ht-degree: 7%
 
 詳しくは、[ 優先度でのファイルのアップロード ](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md) を参照してください。
 
-![](assets/update-log-upload.png)
+![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 
 
 ### クイックリンクの追加
 
 頻繁に使用するリンクを作業項目の詳細ページに埋め込むことができます。 クイックリンクを使用すると、リンクにすばやくアクセスまたはコピーできます。
 
-![](assets/quick-links.png)
+![ クイックリンク ](assets/quick-links.png)
 
 詳しくは、[ 優先度でクイックリンクを追加および管理 ](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md) を参照してください。
 
@@ -194,7 +194,7 @@ ht-degree: 7%
 
 詳しくは、[ 優先度の作業のキャッチアップ ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
 
-![](assets/catch-me-up.png)
+![ 追いついて ](assets/catch-me-up.png)
 
 <!--need new screen for prod-->
 
