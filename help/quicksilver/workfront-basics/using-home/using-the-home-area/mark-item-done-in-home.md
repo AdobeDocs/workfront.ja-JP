@@ -6,10 +6,10 @@ description: タスクまたはイシューの担当者である場合は、タ�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 82%
+source-wordcount: '863'
+ht-degree: 78%
 
 ---
 
@@ -58,21 +58,21 @@ ht-degree: 82%
 
 ## 担当作業ウィジェットで作業項目を完了としてマークします
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **担当作業** ウィジェットを追加します。
 1. 作業項目を見つけ、作業項目の「**[!UICONTROL 完了としてマーク]**」をクリックします。
 このボタンの表示方法について詳しくは、[「[!UICONTROL 完了]」ボタンのオプションについて](#understand-the-options-of-the-done-button)を参照してください。
-   ![](assets/my-work-done.png)
+   ![ 自分の作業が完了としてマークされた ](assets/my-work-done.png)
 
 
 ## 概要パネルでの作業項目の完了のマーク
 
 概要パネルを使用して、マイタスクおよびマイ問題ウィジェットで作業項目を完了としてマークできます。
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （任意） **カスタマイズ** をクリックして、**マイタスク** または **マイイシュー** ウィジェットを追加します。
 1. 作業項目の上にマウスポインターを置き、「**概要** アイコンをクリックします。
-   ![](assets/open-summary-new-home.png)
+   ![ 概要を開く ](assets/open-summary-new-home.png)
 1. 概要パネルの上部にある「**完了としてマーク**」をクリックします。
 
 
@@ -113,5 +113,5 @@ ht-degree: 82%
 >
 >複数の担当者がいるタスクまたはイシューの場合、各ユーザーには、タスクまたはイシューに対する自分の割り当てが実際に完了したことを示す責任があります。この理由から、各担当者は「[!UICONTROL 完了]」をクリックし、項目に割り当てられた作業が完了したことを示す必要があります。
 
-![](assets/done-with-my-part.png)
+![ 担当が完了しました ](assets/done-with-my-part.png)
 
