@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1180'
 ht-degree: 13%
 
 ---
@@ -95,7 +95,7 @@ Frame.io のプロジェクトはチーム別に整理され、チームはWorkf
 
 次の節に進みます。
 
-![](assets/template-group.png)
+![ テンプレートグループ ](assets/template-group.png)
 
 ### タスクを追加し、Frame.io 対応ユーザーを割り当てる
 
@@ -105,7 +105,7 @@ Frame.io のプロジェクトはチーム別に整理され、チームはWorkf
    または
 
    「**新規テンプレートタスク**」をクリックして、一度に 1 つのタスクを追加し、その他の設定を行います。
-   ![](assets/add-tasks-to-template.png)
+   ![ テンプレートへのタスクの追加 ](assets/add-tasks-to-template.png)
 1. タスク名を追加します。
 1. **割り当て** エリアで、ユーザーまたはチームを割り当てます。 Frame.io 対応のユーザーを個別またはチームに割り当てると、Frame.io プロジェクトへの共同作業者アクセス権が付与され、Frame.io プロジェクトのタスクについてメールで通知されます。 そのメールから、Frame.io プロジェクトに参加して作業を開始できます。
 1. 必要に応じて、手順 1 と 2 を繰り返します。
@@ -133,7 +133,7 @@ Workfrontには、堅牢なプロジェクト管理機能があります。 [ �
 1. **テンプレートから新規プロジェクト** をクリックします。
 1. 検索ボックスを使用して、必要なテンプレートの名前の入力を開始します。
 1. テンプレート名を選択し、「**テンプレートを使用**」をクリックします。
-   ![](assets/find-your-template.png)
+   ![ テンプレートの検索 ](assets/find-your-template.png)
 1. 必要に応じてプロジェクト設定を調整し、「**プロジェクトを作成**」をクリックします。
 1. 左側のパネルで、「**ドキュメント**」をクリックします。
 1. 一方向同期フォルダーを使用すると、クリエイティブマテリアルを Frame.io と自動的に共有できます。 [!BADGE  準備中 ]{type=Informative}
@@ -176,7 +176,7 @@ Workfrontには、堅牢なプロジェクト管理機能があります。 [ �
    または
 
    「**新規タスク**」をクリックして、一度に 1 つのタスクを追加し、追加の設定を行います。
-   ![](assets/add-project-tasks.png)
+   ![ 新規タスク ](assets/add-project-tasks.png)
 1. タスク名を追加します。
 1. **割り当て** エリアで、ユーザーまたはチームを割り当てます。 Frame.io 対応のユーザーを個別またはチームに割り当てると、Frame.io プロジェクトへの共同作業者アクセス権が付与され、Frame.io プロジェクトのタスクについてメールで通知されます。 そのメールから、Frame.io プロジェクトに参加して作業を開始できます。
 1. 必要に応じて、手順 1 と 2 を繰り返します。
