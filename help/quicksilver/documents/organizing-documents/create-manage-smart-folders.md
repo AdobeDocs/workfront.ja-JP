@@ -6,10 +6,10 @@ description: スマートフォルダーは、プロジェクト、タスクま�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 97%
+source-wordcount: '572'
+ht-degree: 92%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 97%
 
 フォルダーはサムネイル表示、標準表示、またはリスト表示で表示できます。ビューを変更するには、右上隅にあるビューオプションを使用します。
 
-![](assets/screenshot-2016-07-07-12.46.54.png)
+![ スマート フォルダーの編集 ](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## スマートフォルダーを作成
 
@@ -68,11 +68,11 @@ ht-degree: 97%
 ## スマートフォルダーを編集
 
 1. 編集するスマートフォルダーが含まれている&#x200B;**ドキュメント**&#x200B;エリアに移動します。
-1. **フォルダー**&#x200B;列で、編集するスマートフォルダーの横の&#x200B;**その他**&#x200B;アイコン ![](assets/more-icon.png) をクリックします。
+1. **フォルダー** 列で、編集するスマートフォルダーの横にある **詳細** アイコン ![ 詳細メニュー ](assets/more-icon.png) をクリックします。
 1. 「**編集**」をクリックします。
 
    **スマート フォルダーを編集**&#x200B;ダイアログボックスが表示されます。\
-   ![](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
+   ![ スマート フォルダーの編集 ](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. 変更を加えてから、「**フォルダーを保存**」をクリックします。
 
