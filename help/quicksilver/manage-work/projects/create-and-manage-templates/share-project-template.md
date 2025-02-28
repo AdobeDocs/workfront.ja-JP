@@ -6,10 +6,10 @@ description: テンプレートをユーザーと共有したり、テンプレ�
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 100%
+source-wordcount: '787'
+ht-degree: 93%
 
 ---
 
@@ -62,10 +62,10 @@ Workfront の権限について詳しくは、[オブジェクトに対する共
 
 テンプレートを共有するには、以下のように行います。
 
-1. **メインメニュー** ![](assets/main-menu-icon.png) から、**テンプレート**&#x200B;をクリックします。
+1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) から、「**テンプレート**」をクリックします。
 
 1. 次のいずれかの操作を行います。\
-   テンプレートの名前をクリックして開き、**その他**&#x200B;メニュー ![](assets/qs-more-icon-on-an-object.png)、**テンプレートの共有**&#x200B;の順にクリックします。
+   テンプレートの名前をクリックして開き、**詳細** メニュー ![ 詳細アイコン ](assets/qs-more-icon-on-an-object.png)/**テンプレート共有** をクリックします。
 
    または
 
@@ -100,7 +100,7 @@ Workfront の権限について詳しくは、[オブジェクトに対する共
 テンプレートから作成された今後のプロジェクトをユーザーと共有するには、以下のように行います。
 
 1. 次のいずれかの操作を行います。\
-   テンプレートの名前をクリックして開き、**その他**&#x200B;メニュー ![](assets/qs-more-icon-on-an-object.png)、**テンプレートの共有**&#x200B;の順にクリックします。
+   テンプレートの名前をクリックして開き、**詳細** メニュー ![ 詳細アイコン ](assets/qs-more-icon-on-an-object.png)/**テンプレート共有** をクリックします。
 
    ![テンプレートからプロジェクトを共有](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
