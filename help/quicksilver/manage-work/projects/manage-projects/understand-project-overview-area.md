@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 100%
+source-wordcount: '1453'
+ht-degree: 96%
 
 ---
 
@@ -63,13 +63,13 @@ ht-degree: 100%
 
    または
 
-   詳細セクションの右上隅にある&#x200B;**編集**&#x200B;アイコン ![](assets/edit-icon.png) をクリックし、「**概要**」をクリックします。概要エリアが開き、編集できます。
+   「詳細」セクションの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**概要** をクリックします。 概要エリアが開き、編集できます。
 
    >[!NOTE]
    >
    >Workfront 管理者がレイアウトテンプレートを設定した方法によっては、「概要」セクションが最初に表示されない場合があり、その場合は折りたたまれています。詳しくは、[レイアウトテンプレートを使用して詳細ビューをカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)を参照してください。
 
-1. （条件付き）プロジェクト上で更新する必要があるが、このセクションに表示されない特定のフィールドがある場合、プロジェクト名の横にある&#x200B;**その他メニュー** ![](assets/more-icon.png) をクリックし、「**編集**」をクリックして、さらにプロジェクトフィールドを表示します。
+1. （条件付き）プロジェクトに更新する必要があるが、このセクションには表示されない特定のフィールドがある場合、プロジェクト名の横にある **その他メニュー**![ その他アイコン ](assets/more-icon.png) をクリックし、**編集** をクリックして、その他のプロジェクトフィールドを表示します。
 
    プロジェクトの編集について詳しくは、[プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)を参照してください。
 
