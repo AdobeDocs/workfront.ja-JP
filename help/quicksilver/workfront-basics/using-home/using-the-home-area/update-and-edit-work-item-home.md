@@ -6,10 +6,10 @@ description: Adobe Workfront の [!UICONTROL ホーム]エリア内の作業ア�
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 33%
+source-wordcount: '869'
+ht-degree: 28%
 
 ---
 
@@ -52,7 +52,7 @@ ht-degree: 33%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>作業が必要なタスクおよび問題に対するContribute以上の権限</p> </td> 
+   <td> <p>作業が必要なタスクと問題に対する権限以上の投稿</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ ht-degree: 33%
 
 You can view updates on any work item in the [!UICONTROL Work List]:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
    Updates are displayed in the right panel.
 
@@ -104,13 +104,13 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 [!UICONTROL  担当作業 ] ウィジェットの任意の作業項目に対して更新を提供できます。
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、または可能であれば左上隅の&#x200B;**メインメニュー** ![](assets/lines-main-menu.png) をクリックし、「**[!UICONTROL ホーム]**」をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![ メインメニューラインのアイコン ](assets/lines-main-menu.png) をクリックして（使用可能な場合）、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして [!UICONTROL **担当作業**] ウィジェットを追加します。
 
 1. [!UICONTROL **担当作業**] ウィジェットで、更新する作業項目を見つけます。
 1. 名前の上にマウスポインターを置き、「**新しい更新を追加** アイコンをクリックします。
 
-   ![](assets/add-update-on-widget.png)
+   ![ ウィジェットの更新を追加 ](assets/add-update-on-widget.png)
 
 1. コメントを入力してください。
 1. （任意）「**ユーザーまたはチームのタグ付け**」ボックスに、このコメントに含めるユーザーまたはチームの名前またはメールの入力を開始し、リストに表示されたら選択します。
@@ -132,7 +132,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 1. 「**返信**」をクリックします。
 
-   ![](assets/reply-to-comment-in-mentions-widget.png)
+   ![ コメントに返信 ](assets/reply-to-comment-in-mentions-widget.png)
 
 1. コメントを入力してください。
 1. （オプション）「**ユーザーをタグ付け**」ボックスに、このコメントに含めるユーザーまたはチームの名前の入力を開始し、リストに表示されたら選択します。
@@ -149,11 +149,11 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 編集にアクセスできる任意の作業アイテムの任意のフィールドを編集できます。
 
-1. 右上隅の&#x200B;**[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、または可能であれば左上隅の&#x200B;**メインメニュー** ![](assets/lines-main-menu.png) をクリックし、「**[!UICONTROL ホーム]**」をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![ メインメニューラインのアイコン ](assets/lines-main-menu.png) をクリックして（使用可能な場合）、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **担当作業** ウィジェットを追加します。
 
 1. 作業項目の上にマウスポインターを置き、「**概要** アイコンをクリックします。
-   ![](assets/open-summary-new-home.png)
+   ![ 概要を開く ](assets/open-summary-new-home.png)
 
 1. 概要パネルで、編集するフィールドの上にポインタを合わせます。
 フィールドの編集権限がある場合は、フィールドにカーソルを合わせると、そのフィールドがハイライト表示されます。
