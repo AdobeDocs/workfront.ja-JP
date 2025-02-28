@@ -6,9 +6,9 @@ description: カレンダーレポートは、作業内容を視覚的に表現�
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 27bf6f03-2f6b-4556-a715-75c4a21bfbbb
-source-git-commit: 78cfafe4c9a0fb846533c04da392a09dc1dbc9f1
+source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '1098'
 ht-degree: 90%
 
 ---
@@ -153,25 +153,25 @@ ht-degree: 90%
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
-<!--
 
-## Set up the group of items in Preview
+<div class="preview">
+## プレビューでアイテムのグループを設定する
 
-You can choose how you want the group of items to display on your calendar.
+カレンダーに表示する項目のグループの表示方法を選択できます。
 
 {{step1-to-calendars}}
 
-1. Select the calendar you want to add a new group of items to.
-   Or
-   Click **[!UICONTROL + New Calendar]** and enter the calendar name.
+1. 新しいアイテム グループを追加するカレンダーを選択します。
+または
+「**[!UICONTROL +新規カレンダ」をクリックし]** カレンダ名を入力します。
 
    >[!NOTE]
    >
-   >You must have Edit access to Reports, Dashboards, and Calendars in your access level to create a calendar report.
+   >カレンダーレポートを作成するには、アクセスレベルでレポート、ダッシュボード、カレンダーの編集アクセス権が必要です。
 
-1. On the left, click **[!UICONTROL Add to Calendar]**, then click **[!UICONTROL Add advanced items]**.
+1. 左側で、「**[!UICONTROL カレンダーに追加]**」、「**[!UICONTROL 詳細項目を追加]**」の順にクリックします。
 
-1. Specify the following:
+1. 以下を指定します。
 
    <table style="table-layout:auto">
     <col>
@@ -179,71 +179,77 @@ You can choose how you want the group of items to display on your calendar.
     <tbody>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Name this group of items]</strong></td>
-      <td>Type a name for the group of items.</td>
+      <td>項目のグループの名前を入力します。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Color]</strong></td>
-      <td>Select a color for the group of items. All items display in the selected color on the calendar report.</td>
+      <td>項目のグループの色を選択します。カレンダーレポートには、すべての項目が選択した色で表示されます。</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Date Field]</strong></td>
-      <td><p>Choose <strong>[!UICONTROL Planned dates]</strong>. For more information on planned dates, see </p>
+      <td><p><strong>[!UICONTROL Planned dates]</strong> を選択します。予定日について詳しくは、次を参照してください。 </p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">Overview of the project Planned Start Date</a></li>
-        <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overview of the task Planned Start Date</a></li>
-        <li><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overview of the task Planned Completion Date</a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project Planned Completion Date</a><br></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-start-date.md" class="MCXref xref">プロジェクトの予定開始日の概要</a></li>
+        <li><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">タスクの予定開始日の概要</a></li>
+        <li><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">タスクの予定完了日の概要</a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">プロジェクトの予定完了日を設定</a><br></li>
        </ul></td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>On the calendar, show</strong></td>
-      <td><p>Choose how you want the dates to show:</p>
+      <td role="rowheader"><strong>カレンダー</strong></td>
+      <td><p>日付の表示方法を選択します。</p>
        <ul>
-        <li><strong>[!UICONTROL Start Date Only]</strong>: The calendar displays the object on a single date.</li>
-        <li><strong>[!UICONTROL End Date Only]</strong>: The calendar displays the object on a single date.</li>
-        <li><strong>[!UICONTROL Duration] (Start to End)</strong>: The calendar displays the object over a span of days.</li>
+        <li><strong>[!UICONTROL Start Date Only]</strong>：カレンダーには、単一の日付のオブジェクトが表示されます。</li>
+        <li><strong>[!UICONTROL End Date Only]</strong>：カレンダーには、単一の日付のオブジェクトが表示されます。</li>
+        <li><strong>[!UICONTROL Duration] (Start to End)</strong>：カレンダーには、数日間にわたるオブジェクトが表示されます。</li>
        </ul></td>
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Switch to actual dates when available]</strong></td>
-      <td><p>The calendar automatically switches to actual dates when they are available. <br>Choose <strong>[!UICONTROL Yes]</strong> or <strong>[!UICONTROL No]</strong> to switch to actual dates when available. For more information on Actual Dates, see</p>
+      <td><p>カレンダーは、利用可能になると自動的に実際の日付に切り替わります。<br><strong>[!UICONTROL Yes]</strong> または <strong>[!UICONTROL No]</strong> を選択して、実際の日付に切り替えます（利用可能な場合）。実際の日付について詳しくは、次を参照してください：</p>
        <ul>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">Overview of the project Actual Start Date </a></li>
-        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">Overview of the project Actual Completion Date </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-start-date.md" class="MCXref xref">プロジェクトの実際の開始日の概要 </a></li>
+        <li><a href="../../../manage-work/projects/planning-a-project/project-actual-completion-date.md" class="MCXref xref">プロジェクトの実際の完了日の概要 </a></li>
        </ul></td>
      </tr>
     </tbody>
    </table>
 
-1. Continue to the following section.
+1. 次のセクションに進みます。
 
-## Add objects to the group of items in Preview
+## プレビューでアイテムのグループにオブジェクトを追加
 
-After you set up how you want items to display, you need to add the objects you want to see on the calendar to the grouping.
+項目の表示方法を設定した後、カレンダーに表示するオブジェクトをグループに追加する必要があります。
 
-1. In the **[!UICONTROL What would you like to add to the calendar?]** section, select
+1. 「**[!UICONTROL カレンダーに何を追加しますか？]**」セクションで、次を選択します。
 
-   * **[!UICONTROL Tasks]**
-   * **[!UICONTROL Projects]**
-   * **[!UICONTROL Issues]**
+   * **[!UICONTROL タスク]**
+   * **[!UICONTROL プロジェクト]**
+   * **[!UICONTROL イシュー]**
 
-1. Click **[!UICONTROL Add Tasks]**, **[!UICONTROL Add Projects]**, or **[!UICONTROL Add Issues]**, depending on the object type you are adding to the calendar.
-   ![Select object for calendar](assets/field-name.png)
 
-1. In the drop-down menu, begin typing the field name, then select the field source of the object you want to display on the calendar (for example, **[!UICONTROL Late Tasks]**).
-1. Set a condition statement for the calendar grouping.
+1. カレンダーに追加するオブジェクトタイプに応じて、「**[!UICONTROL タスクを追加]**」、「**[!UICONTROL プロジェクトを追加]**」または「**[!UICONTROL イシューを追加]**」をクリックします。
 
-   ![Condition statement](assets/condition-statement-calendar.png)
+1. ドロップダウンメニューで、フィールド名を入力し、カレンダーに表示するオブジェクトのフィールドソース（**[!UICONTROL 遅延タスク]**&#x200B;など）を選択します。
+1. カレンダーのグループ化の条件文を設定します。
 
-   To learn about setting conditions, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-1. (Optional) Specify additional objects for the calendar grouping by repeating Steps 1-4.
-1. In the **[!UICONTROL Set the Tasks/Projects/Issues labels to be the...]** field, select how the objects in this calendar grouping are labeled in the calendar.
+   ![カレンダーのオブジェクトを選択](assets/calendar-field-name.png)
+
+   条件の設定について詳しくは、[フィルターおよび条件修飾子](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)を参照してください。
+
+1. （オプション）手順 1 ～ 4 を繰り返して、カレンダーのグループ化に使用する追加のオブジェクトを指定します。
+
+1. **[!UICONTROL タスク／プロジェクト／イシューのラベルを次の値に設定…]**&#x200B;フィールドで、このカレンダーグループ内のオブジェクトにカレンダー内でどのようにラベルを付けるかを選択します。
 
    >[!NOTE]
    >
-   >If the default label options are not available for a certain object, the object name is shown instead. For example, when the [!UICONTROL Parent Task] label is selected and there is no parent task associated with the object, [!DNL Adobe Workfront] displays the object name you are viewing in the calendar.
+   >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
-1. Click **[!UICONTROL Save]**. 
+   ![ タスク ラベルの設定 ](assets/set-task-labels.png)
+1. **[!UICONTROL 保存]**&#x200B;をクリックします。
 
--->
+1. **[!UICONTROL 保存]**&#x200B;をクリックします。
+
+</div>
+
