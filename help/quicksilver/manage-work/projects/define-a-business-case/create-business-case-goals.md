@@ -5,10 +5,10 @@ description: ビジネスケースの作成の一環として、一連の目標�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '487'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 98%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 100%
 
    ビジネスケースが表示されます。
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![ ビジネスケース情報 ](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. 「**目標**」セクションで「**目標を編集**」をクリックします。
 
@@ -88,7 +88,7 @@ ht-degree: 100%
    * 低
    * 最低
 
-     ![](assets/g1-350x76.png)
+     重要度（assets/g1-350x76.png）
 
      目標の重要度レベルはカスタマイズできません。
 
