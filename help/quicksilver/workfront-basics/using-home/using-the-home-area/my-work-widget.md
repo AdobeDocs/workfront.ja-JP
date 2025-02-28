@@ -6,9 +6,9 @@ description: 自分の作業ウィジェットには、割り当てられたす�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '744'
 ht-degree: 12%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス</strong></td> 
-   <td> <p>現在：Contribute</p>
+   <td> <p>現在：投稿</p>
    <p>または</p> 
    <p>新規：[!UICONTROL ライト ] 以上<p> 
   </td> 
@@ -50,7 +50,7 @@ ht-degree: 12%
   </tr>  
   <tr> 
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>作業が必要なタスクおよび問題に対するContribute以上の権限</p>  </td> 
+   <td> <p>作業が必要なタスクと問題に対する権限以上の投稿</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ ht-degree: 12%
 
 マイ作業フィルターを微調整して、作業リストの特定の項目に焦点を当てることができます。
 
-![](assets/filter-my-work-widget.png)
+![ 担当作業フィルター ](assets/filter-my-work-widget.png)
 
 ### フィルターの詳細
 
@@ -135,7 +135,7 @@ ht-degree: 12%
 >自分の作業ウィジェットの上部にすべての期限切れ項目を表示するリストを作成するには、期限で並べ替え、グループ化を適用しないようにします。
 
 
-![](assets/sort-my-work-widget.png)
+![ 担当作業ウィジェットで並べ替え ](assets/sort-my-work-widget.png)
 
 ### グループ
 
@@ -151,7 +151,7 @@ ht-degree: 12%
 >グループ化を適用する場合、並べ替えメニューでの選択によって、グループ化内の順序が決まります。
 
 
-![](assets/group-my-work-widget.png)
+![ 担当作業ウィジェットでのグループ化 ](assets/group-my-work-widget.png)
 
 ## 概要の作業項目情報を更新
 
@@ -167,7 +167,7 @@ Workfront管理者は、レイアウトテンプレートの概要に表示す�
 * 時間を記録
 * 添付された承認プロセスの表示
 
-概要を開くには、作業項目にマウスポインターを置き、「**概要**」アイコンをクリックし ![](assets/open-summary-new-home.png) す。
+概要を開くには、作業項目にマウスポインターを置き、**概要** アイコン ![ 概要アイコン ](assets/open-summary-new-home.png) をクリックします。
 
 概要パネルの使用方法について詳しくは、[ 概要の概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md) を参照してください。
 
@@ -182,7 +182,7 @@ Workfront管理者は、レイアウトテンプレートの概要に表示す�
 
 クイックアクションメニューを見つけるには、作業項目にポインタを合わせます。 クイックアクションリストは、**作業対象** または **完了** ボタンの近くに表示されます。
 
-![](assets/quick-actions-new-home.png)
+![ クイックアクションメニュー ](assets/quick-actions-new-home.png)
 
 
 ## 承認およびチーム要求の表示
