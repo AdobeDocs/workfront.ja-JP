@@ -6,10 +6,10 @@ description: テンプレートは、プロジェクトの最初の作成段階�
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1138'
-ht-degree: 100%
+source-wordcount: '1165'
+ht-degree: 91%
 
 ---
 
@@ -77,15 +77,15 @@ ht-degree: 100%
 
 テンプレートは、プロジェクトページからまたはプロジェクトリストやレポートから Workfront のプロジェクトに添付できます。
 
-1. テンプレートを添付するプロジェクトに移動し、プロジェクト名の右側にある&#x200B;**詳細**&#x200B;アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックします。
+1. テンプレートを添付するプロジェクトに移動し、プロジェクト名の右側にある **その他** アイコン ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックします
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ 詳細ドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動し、プロジェクトを選択して、リストの上部にある&#x200B;**詳細**&#x200B;アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックします。
+   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他のアイコン ](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![ 詳細メニューが展開されました ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
 1. 「**テンプレートを添付**」をクリックします。
@@ -106,16 +106,16 @@ ht-degree: 100%
    * タスクの合計数
    * 添付されたカスタムフォームの名前
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![ テンプレートを添付ボックス ](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. （オプション）テンプレート名の左側の&#x200B;**お気に入り**&#x200B;アイコン ![](assets/favorites-icon-small.png) をクリックして、お気に入りとしてマークします。これにより、お気に入りリスト内にテンプレートが移動します。
+1. （オプション）テンプレート名の左側にある **お気に入り** アイコン ![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、お気に入りにマークします。 これにより、お気に入りリスト内にテンプレートが移動します。
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   ![ テンプレートリストのお気に入りアイコン ](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. （オプション）**お気に入り**&#x200B;アイコン ![](assets/favorites-icon-selected.png) をもう一度クリックして、お気に入りのリストから削除します。
+1. （オプション） **お気に入り** アイコン ![ お気に入りアイコン ](assets/favorites-icon-selected.png) を再度クリックして、お気に入りリストから削除します。
 1. 「**カスタマイズと添付**」をクリックします。
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![ テンプレートを添付 ](assets/attach-template-large-box-nwe-350x262.png)
 
 1. テンプレートを添付する前に、次のセクションの情報を更新します（またはいつでも「**テンプレートを添付**」をクリックできます）。
 
@@ -193,6 +193,6 @@ ht-degree: 100%
 1. 左パネルの「**プロジェクト詳細**」をクリックします。
 1. **プロジェクトの関係**&#x200B;の「**概要**」セクションの下部にある「**テンプレート**」フィールドのプロジェクトに添付されているテンプレートの名前を探します。
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![ プロジェクトのテンプレート情報 ](assets/nwe-template-info-on-project-350x356.png)
 
 
