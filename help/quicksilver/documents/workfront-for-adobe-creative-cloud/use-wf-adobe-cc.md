@@ -6,10 +6,10 @@ description: Workfront 拡張機能を使用すると、Adobe Illustrator およ
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '3087'
-ht-degree: 99%
+source-wordcount: '3107'
+ht-degree: 98%
 
 ---
 
@@ -101,7 +101,7 @@ Adobe Creative Cloud からファイルをアップロードまたは書き出�
 * アクセスレベルで、Workfront へのドキュメントのアップロードを許可する必要があります。詳しくは、[ドキュメントへのアクセス権を付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)を参照してください。
 * ドキュメントを目的の項目にアップロードするには権限が必要です。詳しくは、[オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 * ファイルは、選択した Workfront オブジェクトのドキュメントエリアにアップロードされます。
-* Adobe Creative Cloud アプリケーションからメインメニュー ![](assets/main-menu-icon.png) のドキュメントエリアにドキュメントを書き出すことはできません。
+* Adobe Creative Cloud アプリケーションから、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) の「ドキュメント」領域にドキュメントを書き出すことはできません。
 
 次の節では、以下について説明します。
 
@@ -135,7 +135,7 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
 
 1. （オプション）ファイルの新しい名前を入力します。
 
-   ![](assets/rename-file-uploading.png)
+   ![ ファイル名を変更 ](assets/rename-file-uploading.png)
 
 1. 「**アップロード**」をクリックします。
 
@@ -165,7 +165,7 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
 1. （条件付き）ファイルをアップロードする作業アイテムにドキュメントフォルダーが含まれている場合、「**クリックしてドキュメントフォルダーを選択**」フィールドでドキュメントフォルダーを選択し、「**選択**」をクリックします。
 1. （オプション）ドキュメントの名前を変更するには、ドキュメント名をクリックし、新しい名前を入力します。
 
-   ![](assets/rename-doc-exporting.png)
+   ![ 書き出し時にドキュメント名を変更 ](assets/rename-doc-exporting.png)
 
 1. 「**書き出し**」をクリックします。
 
@@ -211,7 +211,7 @@ Adobe Creative Cloud アプリケーションを離れることなく、プロ�
    >Workfront のドキュメントの名前はデフォルトで入力され、編集できません。また、新しいバージョンとしてアップロード、または書き出すファイルの名前も変更されません。
    >
    >
-   >![](assets/doc-name-cant-be-changed.png)
+   >![ ドキュメント名は変更できません ](assets/doc-name-cant-be-changed.png)
 
 ## Illustrator または InDesign からの Workfront ドキュメントに対するコメント {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
@@ -276,7 +276,7 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 
    * 承認者の名前を入力し、リストに表示されたら選択します。
 
-     ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![ ドキュメント承認者を追加 ](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * 外部ユーザーのメールアドレスを入力します。
 
@@ -350,7 +350,7 @@ Workfront ドキュメントの承認をアドビアプリケーションから�
 
 1. Adobe アプリケーションで、**ウィンドウ**／**拡張機能**／**Workfront** の順にクリックします。
 
-1. 右側のパネルの右上隅にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックします。
+1. パネルの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします。
 
 1. （オプション）「**フィードバック**」をクリックして簡単な調査を開き、Workfront for Adobe Creative Cloud に関するフィードバックを Workfront に送信します。
 1. 「**ログアウト**」をクリックします。\
