@@ -6,10 +6,10 @@ description: プロジェクトマネージャーは、Adobe Workfront システ
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 97%
+source-wordcount: '532'
+ht-degree: 96%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 97%
 1. 左側のパネルで「**プロジェクト詳細**」をクリックして、**財務情報**&#x200B;エリアに移動します。
 1. 「**通貨**」フィールドの「**追加**」をクリックし、プロジェクトのデフォルト通貨として使用する通貨を選択します。Workfront 管理者が Workfront インスタンスに設定したすべての通貨が表示されます。
 
-   ![](assets/currency-on-project-expanded-nwe.png)
+   ![ プロジェクトの通貨 ](assets/currency-on-project-expanded-nwe.png)
 
 1. （条件付き）Workfront システムに設定されているデフォルト通貨以外の通貨を選択する場合は、システムで基準通貨として設定される通貨との関連で、選択した通貨のレートを指定します。
 1. 「**変更を保存**」をクリックします。
