@@ -6,10 +6,10 @@ description: ドキュメントの更新を追加したり、ドキュメント�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '378'
-ht-degree: 95%
+source-wordcount: '381'
+ht-degree: 86%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 95%
 1. ドキュメントを含むオブジェクトに移動し、左パネルの「**ドキュメント**」を選択します。
 1. 必要なドキュメントを検索し、次のいずれかの操作を行います。
 
-   * リスト内のドキュメントをクリックし、右上隅にある&#x200B;**概要を開く**&#x200B;アイコン ![](assets/qs-summary-in-new-toolbar-small.png) をクリックし、新しいコメントを追加するか、「**返信**」をクリックして既存のコメントに返信を追加します。概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
+   * リストのドキュメントをクリックし、右上隅にある **概要を開く** アイコン ![ 概要を開くアイコン ](assets/qs-summary-in-new-toolbar-small.png) をクリックして新しいコメントを追加するか、**返信** をクリックして既存のコメントに返信を追加します。 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
    * ドキュメントの上にマウスポインタを合わせて、**ドキュメントの詳細**&#x200B;をクリックし、左パネルの「**更新**」をクリックします。
 オブジェクトへの更新の追加について詳しくは、[作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
