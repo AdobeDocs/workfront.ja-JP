@@ -5,10 +5,10 @@ description: 収益および追跡の費用を設定することに加えて、�
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1896'
-ht-degree: 98%
+source-wordcount: '1898'
+ht-degree: 97%
 
 ---
 
@@ -241,7 +241,7 @@ ht-degree: 98%
 
    または
 
-   右上隅にある&#x200B;**編集アイコン** ![](assets/edit-icon.png) をクリックして、使用可能なフィールドの情報を編集します。
+   右上隅の **編集アイコン**![ 編集アイコン ](assets/edit-icon.png) をクリックし、使用可能な任意のフィールドで情報を編集します。
 
    次を更新します。
 
