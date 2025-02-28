@@ -6,10 +6,10 @@ description: プロジェクトマネージャーは、プロジェクトの状�
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 85%
+source-wordcount: '382'
+ht-degree: 80%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 85%
    <td role="rowheader">オブジェクト権限</td> 
    <td> 
     <ul> 
-     <li> <p>プロジェクトの詳細領域で状態タイプを編集するためのプロジェクトに対するContribute権限 </p> </li> 
+     <li> <p>プロジェクトに権限を付与して「プロジェクトの詳細」領域で条件タイプを編集する </p> </li> 
      <li> <p>プロジェクトに対する権限を管理し、「プロジェクトを編集」ボックスで条件タイプを編集します</p> </li> 
     </ul> <p> プロジェクト権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>を参照してください。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
@@ -55,7 +55,7 @@ ht-degree: 85%
 1. 状況タイプを更新するプロジェクトに移動します。
 1. 次のいずれかの操作を行います。
 
-   * プロジェクト名の右にある&#x200B;**その他**&#x200B;メニュー ![](assets/qs-more-menu.png)、「**編集**」の順にクリックします。
+   * プロジェクト名の右側にある **その他** メニュー ![ その他メニュー ](assets/qs-more-menu.png) をクリックし、**編集** をクリックします。
    * 左側のパネルにある「**プロジェクト詳細**」をクリックします。
 
    ![](assets/update-condition-type-nwe-350x108.png)
