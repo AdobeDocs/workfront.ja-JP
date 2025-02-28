@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '505'
 ht-degree: 42%
 
 ---
@@ -62,14 +62,14 @@ Adobe Workfront の作業アイテムに費やした時間を記録して、そ�
 {{step1-to-priorities}}
 
 1. 名前の上にマウスポインターを置き、「**時間をログに記録**」をクリックします。
-   ![](assets/update-log-upload.png)
+   ![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 1. **時間タイプ** ドロップダウンメニューで、適切な時間タイプを選択します。 時間タイプは、「時間タイプと空き時間の定義」で説明されているように、システム、プロジェクトおよびユーザーレベルで定義されている内容に応じて使用できます。
 
 1. （条件付き）Workfrontまたはグループ管理者が「手動で担当業務を時間エントリに割り当てる」設定を有効にしている場合は、ドロップダウンメニューから担当業務を選択します。 作業アイテムに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。担当業務が割り当てられていない場合は、「プライマリの役割なし」が表示されます。
 
 1. ログに記録する時間を入力し、「**時間をログに記録**」をクリックします。
 
-   ![](assets/log-time-dialog.png)
+   ![時間をログに記録](assets/log-time-dialog.png)
 
 ## 作業項目に時間を記録する
 
@@ -84,4 +84,4 @@ Adobe Workfront の作業アイテムに費やした時間を記録して、そ�
 
 1. ログに記録する時間を入力し、「**時間をログに記録**」をクリックします。
 
-   ![](assets/log-time-dialog.png)
+   ![時間をログに記録](assets/log-time-dialog.png)
