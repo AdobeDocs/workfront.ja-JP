@@ -6,10 +6,10 @@ description: ドキュメントをチェックアウトすると、他のユー�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 98%
+source-wordcount: '694'
+ht-degree: 92%
 
 ---
 
@@ -77,9 +77,9 @@ ht-degree: 98%
 
    ドキュメントの追加について詳しくは、[ファイルシステムから Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)を参照してください。
 
-1. **チェックアウト**&#x200B;アイコン ![](assets/check-out-25x23.png) をクリックします。
+1. **チェックアウト** アイコン ![ チェックアウトアイコン ](assets/check-out-25x23.png) をクリックします。
 
-1. ロックアイコン ![](assets/lock-icon-locked-qs.png) は、ドキュメント名の右側に表示されます。Workfront からログアウトした後でも、ドキュメントはチェックアウトされたままになります。
+1. ドキュメント名の右側に鍵アイコン ![ 鍵アイコン ](assets/lock-icon-locked-qs.png) が表示されます。 Workfront からログアウトした後でも、ドキュメントはチェックアウトされたままになります。
 1. ドキュメントをチェックアウトしたユーザーか、Workfront 管理者のみが、ドキュメントをチェックインできます。
 
 ## チェックアウトしたドキュメントを管理
@@ -103,6 +103,6 @@ ht-degree: 98%
 
 1. ドキュメントが保存されているエリアに移動し、ドキュメントを選択します。 
 
-   ロックアイコン ![](assets/lock-icon-locked-qs.png) は、ドキュメント名の右側に表示されます。
+   ドキュメント名の右側に鍵アイコン ![ 鍵アイコン ](assets/lock-icon-locked-qs.png) が表示されます。
 
-1. **チェックイン**&#x200B;アイコン ![](assets/check-in-25x22.png) をクリックします。
+1. **チェックイン** アイコン ![ チェックインアイコン ](assets/check-in-25x22.png) をクリックします。
