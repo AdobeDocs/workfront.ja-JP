@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 28%
+source-wordcount: '321'
+ht-degree: 27%
 
 ---
 
@@ -55,12 +55,12 @@ ht-degree: 28%
 {{step1-to-priorities}}
 
 1. 名前の上にマウスポインターを置き、「**アップロード**」をクリックします。
-   ![](assets/update-log-upload.png)
+   ![ 更新、時間をログ記録、アップロード ](assets/update-log-upload.png)
 1. （オプション）フォルダーを選択します。
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
 **ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![](assets/add-files.png)
+   ![ ファイルを追加 ](assets/add-files.png)
 1. （任意）コメントを追加します。
 1. （任意）ファイルをさらに追加します。
 
@@ -68,7 +68,7 @@ ht-degree: 28%
    >
    >追加のファイルは、別個のドキュメントとしてアップロードされます。
 1. 「**アップロード**」をクリックします。
-   ![](assets/upload-file-module.png)
+   ![ ファイルをアップロード ](assets/upload-file-module.png)
 
 
 ## 作業項目へのファイルのアップロード
@@ -81,7 +81,7 @@ ht-degree: 28%
 1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
 または
 **ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
-   ![](assets/add-files.png)
+   ![ ファイルを追加 ](assets/add-files.png)
 1. （任意）コメントを追加します。
 1. （任意）ファイルをさらに追加します。
 
@@ -89,4 +89,4 @@ ht-degree: 28%
    >
    >追加のファイルは、別個のドキュメントとしてアップロードされます。
 1. 「**アップロード**」をクリックします。
-   ![](assets/upload-file-module.png)
+   ![ ファイルをアップロード ](assets/upload-file-module.png)
