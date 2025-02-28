@@ -6,10 +6,10 @@ description: Workfront から Experience Manager Assets にドキュメントを
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 100%
+source-wordcount: '457'
+ht-degree: 99%
 
 ---
 
@@ -69,7 +69,7 @@ Workfront から Experience Manager Assets にユーザーがドキュメント�
    >
    >この統合には任意の名前を選択できるため、Experience Manager Assets について特に言及されていない場合があります。
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![ 送信先 ](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. アセットの保存先を選択し、「**フォルダーを選択**」をクリックします。
 1. 目的の宛先が見つかったら、「**保存**」をクリックします。
@@ -87,6 +87,6 @@ Workfront から Experience Manager Assets にユーザーがドキュメント�
    >
    >この統合には任意の名前を選択できるため、Experience Manager Assets について特に言及されていない場合があります。
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![ 送信先 ](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. 「**保存**」をクリックします。新しいバージョンは、以前のバージョンと同じ場所に保存されます。
