@@ -7,10 +7,10 @@ description: 「概要」では、ドキュメントリストから直接重要�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 95%
+source-wordcount: '418'
+ht-degree: 88%
 
 ---
 
@@ -56,11 +56,11 @@ ht-degree: 95%
 ## 「概要」ビューを開く
 
 1. 「**ドキュメント**」に移動し、リスト内の項目を選択します。
-1. **概要を開くアイコン** ![](assets/qs-summary-in-new-toolbar-small.png) をクリックします。
+1. **概要アイコンを開く**![ 概要アイコンを開く ](assets/qs-summary-in-new-toolbar-small.png) をクリックします。
 
    概要を開いた後に他のドキュメントをクリックしても、概要は手動で閉じるまで開いたままになります。
 
-   ![](assets/summary-details-350x585.png)
+   ![ 概要の詳細 ](assets/summary-details-350x585.png)
 
 ## 詳細
 
@@ -69,19 +69,19 @@ ht-degree: 95%
 * [概要](#overview)
 * [カスタムフォーム](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![ ドキュメントの概要の詳細 ](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### 概要 {#overview}
 
 「概要」セクションを展開すると、画像のサムネールを表示またはダウンロードしたり、プルーフを開いたり、基本的な説明を更新したり、ドキュメントをチェックアウトしたりできます。
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![ ドキュメントの概要 ](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### カスタムフォーム {#custom-forms}
 
 「カスタムフォーム」セクションでは、ドキュメントに関連付けられたカスタムフォームを追加、編集、表示できます。カスタムフォームの名前を入力し、ドキュメントに追加します。詳しくは、[ドキュメントへのカスタムフォームの追加または編集](../../documents/managing-documents/add-custom-form-documents.md)を参照してください。
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![ ドキュメントの概要へのカスタムフォームの追加 ](assets/add-custom-form-doc-summary-350x265.png)
 
 ## 更新
 
@@ -98,7 +98,7 @@ ht-degree: 95%
 * [作業の承認](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [ドキュメント承認のリクエスト](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![ ドキュメントの概要承認 ](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## バージョン
 
@@ -110,4 +110,4 @@ ht-degree: 95%
 * ドキュメントの詳細に移動する
 * プルーフまたはドキュメントを削除する
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![ ドキュメント概要のバージョン ](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
