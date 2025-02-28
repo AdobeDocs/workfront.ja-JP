@@ -7,10 +7,10 @@ description: BCWS（予定された作業の予算計上コスト）は、計画
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 98%
+source-wordcount: '621'
+ht-degree: 97%
 
 ---
 
@@ -77,7 +77,7 @@ BCWS を時間単位で計算するかコスト単位で計算するかは、プ
 1. プロジェクトに移動し、左パネルの「**プロジェクトの詳細**」をクリックします。
 1. **財務**&#x200B;エリアで、「**パフォーマンスインデックスメソッド**」フィールドを検索し、ダブルクリックして編集します。
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM オプション ](assets/pim-options-hour-cost-based-nwe.png)
 
 1. 次のオプションから選択します。
 
@@ -126,7 +126,7 @@ BCWS 列をビューに追加すると、レポートまたはリスト上の予
 1. 「**列を追加**」をクリックします。 
 1. **この列に表示：**&#x200B;フィールドで **BCWP** の入力を開始して、リストに表示されたらクリックして選択します。
 
-   ![](assets/bcws-in-project-view.png)
+   ![ プロジェクトビューの BCWS](assets/bcws-in-project-view.png)
 
 1. 「**ビューを保存**」をクリックします。
 1. **BCWS** フィールドがビューに表示されます。
