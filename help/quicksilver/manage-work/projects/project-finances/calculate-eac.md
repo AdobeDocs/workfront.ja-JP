@@ -7,9 +7,9 @@ description: パフォーマンス指標として、完了時の見積もり（E
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '848'
 ht-degree: 98%
 
 ---
@@ -140,4 +140,4 @@ EAC = EAC Labor + EAC Expense
 
    EAC の値が「**完了時の見積もり**」フィールドに表示されます。
 
-   ![](assets/eac-highlighted-on-project-350x112.png)
+   ![ プロジェクトの EAC](assets/eac-highlighted-on-project-350x112.png)
