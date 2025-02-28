@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 4%
@@ -75,7 +75,10 @@ IF ステートメントについて詳しくは、[ 「IF」ステートメン�
 API ワイルドカードは、ビジネス・ルールでも使用できます。 `$$ISAPI` を使用して、API でのみルールをトリガーします。 `!$$ISAPI` を使用して、ユーザーインターフェイスでのみルールを適用し、ユーザーが API を使用してルールをバイパスできるようにします。
 
 * 例えば、このルールでは、API を使用して完了したプロジェクトをユーザーが編集することを禁止しています。 ワイルドカードを使用しない場合、ルールはユーザーインターフェイスと API の両方でアクションをブロックします。
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
 `$$BEFORE_STATE` と `$$AFTER_STATE` のワイルドカードは、編集の前後でオブジェクトのフィールド値にアクセスするための式で使用されます。
 
@@ -85,8 +88,17 @@ API ワイルドカードは、ビジネス・ルールでも使用できます�
 
 簡単なビジネス・ルールのシナリオには、次のものがあります。
 
-* ユーザーが 2 月の最後の週に新しい費用を追加することはできません。 この式は次のように表すことができます。`IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* ユーザーが「完了」ステータスのプロジェクトのプロジェクト名を編集できない。 この式は次のように表すことができます。`IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* ユーザーが 2 月の最後の週に新しい費用を追加することはできません。 この式は次のように表すことができます。
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* ユーザーが「完了」ステータスのプロジェクトのプロジェクト名を編集できない。 この式は次のように表すことができます。
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 ネストされた IF ステートメントを含むシナリオは次のとおりです。
 
