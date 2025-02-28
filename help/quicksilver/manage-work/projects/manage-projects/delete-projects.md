@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
-ht-degree: 97%
+source-wordcount: '895'
+ht-degree: 93%
 
 ---
 
@@ -135,7 +135,7 @@ ht-degree: 97%
 プロジェクトのリストからプロジェクトを削除できます。
 
 1. プロジェクトのリストまたはプロジェクトレポートに移動します。
-1. プロジェクトを選択するか、削除するプロジェクトを選択して、リストの上部にある&#x200B;**削除**&#x200B;アイコン![](assets/delete-icon.png)をクリックします。
+1. 削除するプロジェクト（1 つまたは複数）を選択し、リストの上部にある **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
 1. クリック「**はい、削除します**」をクリックして削除を確定します。
 
@@ -144,9 +144,9 @@ ht-degree: 97%
 ## プロジェクトレベルでプロジェクトを削除
 
 1. 削除するプロジェクトに移動します。
-1. プロジェクト名の右にある&#x200B;**その他**&#x200B;アイコン![](assets/qs-more-menu.png)をクリックして、「**プロジェクトの削除**」を選択します。
+1. プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックし、**プロジェクトを削除** をクリックします。
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![ 詳細メニューが展開されました ](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. 「**はい、削除します**」をクリックします。
 
