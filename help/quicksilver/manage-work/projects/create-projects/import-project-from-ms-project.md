@@ -6,10 +6,10 @@ description: Microsoft Project から Adobe Workfront にプロジェクトを�
 author: Alina
 feature: Work Management
 exl-id: dcc3c049-245c-4bb7-b819-b75d6d7e5b67
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 90%
+source-wordcount: '512'
+ht-degree: 89%
 
 ---
 
@@ -98,14 +98,14 @@ You must have the following access to perform the steps in this article:
 1. Workfront にログインします。
 1. 次のいずれかの操作を行います。
 
-   * Workfrontの右上隅にある **メインメニュー**![](assets/main-menu-icon.png) をクリックするか、左上隅にある **メインメニュー**![](assets/lines-main-menu.png) をクリックします（使用可能な場合）。「**プロジェクト**」をクリックし、**新規プロジェクト** を展開します。
+   * Workfrontの右上隅にある **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅にある **メインメニュー**![ メインメニューライン ](assets/lines-main-menu.png) をクリックします（使用可能な場合）。**プロジェクト** をクリックしてから、**新規プロジェクト** を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。詳しくは、[グループのプロジェクトの作成と変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**MS プロジェクトを読み込む**」オプションを選択します。
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![ 新規プロジェクトドロップダウン ](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 「**ファイルの選択**」をクリックし、Microsoft Project から書き出した .xml ファイルをコンピューター上で参照します。
 1. 選択したファイルを読み込みます。
