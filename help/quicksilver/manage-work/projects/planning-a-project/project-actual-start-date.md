@@ -7,10 +7,10 @@ description: Adobe Workfront では、プロジェクト、タスクおよびイ
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 100%
+source-wordcount: '598'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +83,7 @@ Adobe Workfront では、プロジェクト、タスクおよびイシューに�
 
 プロジェクトの「詳細」セクションで実際の開始日を確認する手順は、次のとおりです。
 
-1. Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックし、「**プロジェクト**」をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、「**プロジェクト**」をクリックします。
 1. 実際の開始日を表示するプロジェクトをクリックします。
 1. 左側のパネルで「**プロジェクト詳細**」をクリックし、「**概要**」セクションに移動します。
 
