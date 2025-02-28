@@ -7,10 +7,10 @@ description: スケジュール効率指数（SPI）は、予定されたスケ�
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 97%
+source-wordcount: '419'
+ht-degree: 96%
 
 ---
 
@@ -98,6 +98,6 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
    1. 左パネルで「**タスクの詳細**」をクリックして、**財務**&#x200B;エリアを表示します。
 
-      ![](assets/spi-on-project-nwe.png)
+      ![ プロジェクトの SPI](assets/spi-on-project-nwe.png)
 
 1. 「**CPI/SPI/CSI**」フィールドの値を確認します。
