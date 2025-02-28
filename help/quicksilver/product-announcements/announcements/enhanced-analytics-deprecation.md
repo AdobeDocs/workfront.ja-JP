@@ -7,9 +7,10 @@ feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 0%
 
 **時間？**
 
-* 25.2 リリース（2025 年 2 月）では、
+* 5 月 26 日の週
 
 **代わりに使用できるものは何ですか？**
 
@@ -40,7 +41,7 @@ ht-degree: 0%
 
 最初の推奨事項は、お客様の組織がWorkfront Data Connect に確実にアクセスできるようにし、できるだけ早くその使用に慣れることです。 データ接続機能とその使用方法について詳しくは、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
 
-Data Connect は新しい Ultimate プランに含まれており、新しい Select および Prime プランのアドオンとして購入できます。 なお、従来のWorkfront プランを使用している組織は Data Connect を使用できません。 現在のプランと Data Connect の購入方法については、Workfront アカウント担当者にお問い合わせください。
+Data Connect は、新しいUltimate プラン <!--, and can be purchased as an add-on to the new Select and Prime plans--> に含まれています。 なお、従来のWorkfront プランを使用している組織は Data Connect を使用できません。 現在のプランと Data Connect の購入方法については、Workfront アカウント担当者にお問い合わせください。
 
 ### Enhanced Analytics のビジュアライゼーションをレプリケート
 
@@ -59,6 +60,7 @@ No, it will be completely removed from the application.
 +++
 
 +++ What do I do if my organization is on a legacy Workfront plan but I want to use Data Connect?
-Contact your account representative about moving to one of the new Workfront plans.
 
+Contact your account representative about moving to one of the new Workfront plans.
++++
 -->

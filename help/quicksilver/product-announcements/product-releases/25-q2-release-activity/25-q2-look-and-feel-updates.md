@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 24%
+source-wordcount: '424'
+ht-degree: 18%
 
 ---
 
@@ -33,6 +33,18 @@ Workfrontカレンダーのルックアンドフィールを、Workfrontの他�
 * その他
 
 詳しくは、[ カレンダー ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) を参照してください。
+
+## プロジェクトビューのプロジェクトマイルストーンパスの更新済みビュー
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 2 月 27 日（PT）、高速リリースの実稼動：25.3 リリースの実稼動（2025 年 3 月）、四半期リリースの実稼動：25.4 リリースの実稼動（2025 年 4 月）
+
+プロジェクトリストまたはレポートからマイルストーンパスにアクセスする際に、マイルストーンの詳細ページのルックアンドフィールが新しくなりました。 マイルストーン パスの詳細ページにアクセスするには、[ マイルストーン パス名 ] フィールドをリストまたは報告書のビューに追加する必要があります。
+
+この更新では、各マイルストーンの色とカラーコードに関する情報も追加しました。
+
+詳しくは、[ マイルストーンパスの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
 
 ## ドキュメントメールの一時的なルックアンドフィールの変更
 

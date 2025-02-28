@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '959'
 ht-degree: 46%
 
 ---
@@ -26,7 +26,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 
 | 毎月のリリース | 四半期リリース |
 | ----------------- | ----------------- |
-| <ul><li>25.2（2025年2月13日（PT））</li><li>25.3（2025年3月）</li><li>25.4（2025年4月）</li></ul> | <ul><li>25.4（2025年4月）</li></ul> |
+| <ul><li>25.2 （2025 年 2 月 13 日（PT））</li><li>25.3（2025年3月）</li><li>25.4（2025年4月）</li></ul> | <ul><li>25.4（2025年4月）</li></ul> |
 
 >[!NOTE]
 >
@@ -74,7 +74,6 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             プロジェクトを編集ボックスで編集する際に、プロジェクトにコメントを追加する</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>プロジェクトを編集ボックスでコメントを編集しながら、プロジェクトにコメントを追加できるようになりました。 また、複数のプロジェクトを一括して編集する際に、一度にコメントを追加することもできます。 この更新以前は、プロジェクトの編集時にこの機能は存在していませんでした。</p>
         </td>
         <td>
