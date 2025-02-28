@@ -6,10 +6,10 @@ description: プロジェクトの更新タイプを選択することにより�
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '708'
-ht-degree: 100%
+source-wordcount: '710'
+ht-degree: 97%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 100%
 タスクが更新されると、その親オブジェクト（親タスクまたはプロジェクト）が更新タイプで指定された時間に更新されます。プロジェクトの更新タイプを指定するには：
 
 1. 更新タイプを指定するプロジェクトに移動します。
-1. プロジェクト名の横にある「その他」メニュー ![](assets/more-icon.png) をクリックし、「**編集**」をクリックします。
+1. プロジェクト名の横にある ![ その他 ](assets/more-icon.png) メニュー（詳細アイコン）をクリックし、「**編集** をクリックします。
 
 1. 「**プロジェクト****設定**」をクリックします。
 
