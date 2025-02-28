@@ -7,10 +7,10 @@ description: プロジェクトの優先順位度を使用する方法はいく�
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 100%
+source-wordcount: '663'
+ht-degree: 97%
 
 ---
 
@@ -119,7 +119,7 @@ Workfront のプロジェクトに優先度を関連付けることができま�
 
 1. 優先度を更新するプロジェクトに移動します。
 1. 左側のパネルの「**プロジェクトの詳細**」をクリックします。
-1. 「プロジェクト詳細」エリアの右上隅にある&#x200B;**編集**&#x200B;アイコン ![](assets/qs-edit-icon.png) をクリックし、「**概要**」をクリックします。
+1. 「プロジェクトの詳細」領域の右上隅にある **編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックしてから、「**概要** をクリックします。
 
 1. 「**優先度**」フィールドで、以下のオプションから選択します。
 
