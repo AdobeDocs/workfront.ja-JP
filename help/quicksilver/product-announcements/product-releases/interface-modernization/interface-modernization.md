@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Workfrontの他のエリアと一貫した、より現代的なデザインの�
 
 ### ストーリーと問題を反復に追加
 
-**プレビューリリース：2025 年 2 月 6 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：2025 年 2 月 6 日（PT）、実稼動リリース：2025 年 2 月 13 日（PT）の週から**
 
 「ストーリーを追加」および「問題を追加」ダイアログボックスが更新され、Workfrontの他の領域と一致する、より現代的なデザインになりました。
 

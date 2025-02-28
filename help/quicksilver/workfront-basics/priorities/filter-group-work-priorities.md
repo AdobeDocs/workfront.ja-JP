@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 15%
+source-wordcount: '643'
+ht-degree: 13%
 
 ---
 
@@ -131,7 +131,11 @@ ht-degree: 15%
 
 ## スマートフィルターを使用した作業のフィルタリング
 
-自然言語を使用して、作業をすばやくフィルタリングします。 Workfront インスタンスは、新しいWorkfront プラン上にあり、Adobe統合エクスペリエンスで有効になっている必要があります。 詳しくは、[Workfront の Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+自然言語を使用して、作業をすばやくフィルタリングします。
+
+>[!NOTE]
+>
+>この機能は、統合Adobe エクスペリエンスで AI アシスタントを使用している顧客のみが利用できます。 AI アシスタントの詳細については、[AI アシスタントの概要 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) を参照してください。
 
 {{step1-to-priorities}}
 
