@@ -6,9 +6,9 @@ description: Adobe Workfront の複数のエリアで、プロジェクト、タ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 8687e92ffed08e87fcb8c22816fd86bafa7f9e7a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '769'
 ht-degree: 95%
 
 ---
@@ -71,7 +71,7 @@ Workfront にアップロードできるファイルの種類とサイズに制�
 1. 新しいドキュメントを追加するプロジェクト、タスク、またはイシューに移動します。
 1. 「**ドキュメント**」タブをクリックし、**新規追加**&#x200B;ドロップダウンメニューをクリックします。
 
-   ![](assets/add-new-doc.png)
+   ![ 新規ドキュメントの追加 ](assets/add-new-doc.png)
 
 1. 追加するドキュメントの種類に応じて、次のいずれかの操作を行います。
 
