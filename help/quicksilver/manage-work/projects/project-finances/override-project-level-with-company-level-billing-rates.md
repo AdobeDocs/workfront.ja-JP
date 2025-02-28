@@ -6,10 +6,10 @@ description: プロジェクトレベルの請求レートの会社レベルの�
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 97%
+source-wordcount: '476'
+ht-degree: 89%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 97%
 ユーザーがプロジェクトの財務を手動で再計算すると、会社レベルの請求料金に対する変更がすべて適用されます。収益計算の履歴も、請求済みとしてマークされていない限り上書きされます。
 
 1. プロジェクトに移動します。
-1. ヘッダーのプロジェクト名の横にある「**その他**」メニュー ![](assets/qs-more-icon-on-an-object.png) をクリックし、「**編集**」をクリックします。
+1. ヘッダーのプロジェクト名の横にある **その他** メニュー ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックし、**編集** をクリックします。
 1. 「**財務**」セクションで、「**会社レベルでの請求料金によるプロジェクトレベルの請求料金の上書きを許可**」を有効にします。
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ ht-degree: 97%
    * 単一のプロジェクト：
 
       1. 会社レベルの請求料金の上書きを有効にしたプロジェクトに移動します。
-      1. ヘッダーのプロジェクト名の横にある&#x200B;**その他** メニュー ![](assets/qs-more-icon-on-an-object.png) をクリックし、続いて「**財務を再計算**」をクリックします。
+      1. ヘッダーのプロジェクト名の横にある **その他** メニュー ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックし、**財務の再計算** をクリックします。
