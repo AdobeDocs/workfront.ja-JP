@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 13%
 
 ---
@@ -66,7 +66,7 @@ ht-degree: 13%
 1. ワークリストの左上にある「**フィルター**」をクリックします。
 1. 「**標準フィルター**」をクリックします。
 1. 1 つまたは複数のフィルターを選択して、作業アイテムを絞り込みます。
-   ![](assets/filter-new.png)
+   ![フィルター](assets/filter-new.png)
 
 +++展開すると、使用可能なフィルターの詳細情報が表示されます
 <table>
@@ -157,7 +157,7 @@ ht-degree: 13%
 
 1. ワークリストの左上にある「**グループ**」をクリックします。
 1. 作業リストを整理するグループを選択
-   ![](assets/groups-new.png)
+   ![グループ](assets/groups-new.png)
 
 +++展開すると、利用可能なグループの詳細情報が表示されます
 
@@ -184,7 +184,7 @@ ht-degree: 13%
 
 グループ内で作業を並べ替えるには、**グループ** を開き、**昇順で並べ替え** または **降順で並べ替え** をクリックします。
 
-![](assets/sort-in-groups.png)
+![ グループで並べ替え ](assets/sort-in-groups.png)
 
 ### 列を並べ替え
 
@@ -196,4 +196,4 @@ ht-degree: 13%
 
 すべてのグループセクションを展開または折りたたむには、**グループ** を開いて **すべて展開** または **すべて折りたたむ** をクリックします。
 
-![](assets/expand-collapse-groups.png)
+![ グループを展開または折りたたむ ](assets/expand-collapse-groups.png)
