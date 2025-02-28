@@ -6,10 +6,10 @@ description: Experience Manager Assets や Assets Essentials からリンクさ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 96%
+source-wordcount: '280'
+ht-degree: 95%
 
 ---
 
@@ -66,4 +66,4 @@ Experience Manager Assets や Assets Essentials からリンクされている�
 1. そのドキュメントをドキュメントリストから選択します。
 1. 右側のドキュメントの概要で、上部のサムネールにポインタを合わせて、「**プレビュー**」または「**ダウンロード**」を選択します。
 
-   ![](assets/preview-or-download-350x107.png)
+   ![ プレビューまたはダウンロード ](assets/preview-or-download-350x107.png)
