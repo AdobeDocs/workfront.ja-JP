@@ -6,10 +6,10 @@ description: Adobe Workfront プロジェクトを Microsoft Project に書き�
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '316'
+ht-degree: 83%
 
 ---
 
@@ -88,15 +88,15 @@ Adobe Workfront プロジェクトを Microsoft Project に書き出すことが
 
 プロジェクトは、Workfront のプロジェクトページ、プロジェクトリスト、レポートから書き出すことができます。
 
-1. 書き出すプロジェクトに移動し、プロジェクト名の右側にある&#x200B;**その他**&#x200B;アイコン ![](assets/qs-more-menu.png) をクリックします。
+1. 書き出すプロジェクトに移動し、プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックします
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ 詳細ドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リスト上部にあるその他アイコン ![](assets/qs-more-menu.png) をクリックします。
+   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある「詳細」アイコン ![ 詳細メニュー ](assets/qs-more-menu.png) をクリックします。
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![ 詳細メニューが展開されました ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. 「**MS プロジェクトを書き出し**」をクリックします。
 
