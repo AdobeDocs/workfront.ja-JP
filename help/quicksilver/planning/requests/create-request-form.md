@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1868'
+source-wordcount: '1869'
 ht-degree: 11%
 
 ---
@@ -280,6 +280,9 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 1. （オプション）ヘッダーのレコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、次のいずれかの操作を行います。
    * 「**リクエストフォームを更新**」をクリックして、リクエストフォームに変更を加えます。
    * **リクエストフォームにリンクをコピー** をクリックして、フォームへのリンクを他のユーザーと共有します。
+
+   または
+
    * <span class= "preview"> Workfrontの **リクエスト** エリアに移動し、リクエストを送信するための共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください </span>。
 
    >[!TIP]

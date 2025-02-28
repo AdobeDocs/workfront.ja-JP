@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '2303'
+source-wordcount: '2344'
 ht-degree: 41%
 
 ---
@@ -59,9 +59,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
    <li><p> Adobe Workfrontの計画<p></li>
-   <li><p> Adobe Experience Manager Assets（AEM assets を Planning レコード・タイプに関連付ける場合）<p>
+   <li><p> Adobe Experience Manager Assets（AEM アセットを Planning レコードタイプと関連付ける場合）<p>
    <p>Adobe Experience Manager Assets ライセンスと、AEM AssetsとWorkfrontの統合が必要です。
-    詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Experience Manager AssetsおよびAssets EssentialsのAdobe Workfront：記事インデックス </a> を参照してください。 </p>
+    詳しくは、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials：記事インデックス </a> を参照してください。 </p>
    </li>
    </ul></td> 
   </tr>   
@@ -201,14 +201,16 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
      >選択したワークスペースに他のレコードタイプがない場合、ワークスペースセクションは表示されません。
 
 
-   * 他のワークスペースから接続するように設定された、別のワークスペースからのレコードタイプ。 詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
-
-     ![](assets/new-connection-allow-multiple-records-box.png)
+   * 他のワークスペースから接続するように設定された、別のワークスペースからのレコードタイプ。
 
      >[!TIP]
      >
-     >他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
+     >他のワークスペースからレコードの種類にアクセスできるようにするには、[**レコードの種類の編集**] ボックスの [**詳細設定**] タブで、レコードの種類に対して [**他のワークスペースから接続する**] 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
+     > ![ レコードタイプを編集ボックスの「詳細設定」タブ ](assets/edit-record-type-box-advanced-settings-tab.png)
 
+     詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+
+     ![](assets/new-connection-allow-multiple-records-box.png)
 
    * 「**Workfront オブジェクトタイプ**」セクションからの&#x200B;**プロジェクト、ポートフォリオ、プログラム、会社**&#x200B;または&#x200B;**グループ**。
 

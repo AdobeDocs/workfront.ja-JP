@@ -6,10 +6,10 @@ description: 通知：Goals
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 99%
+source-wordcount: '575'
+ht-degree: 94%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 99%
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: because there are conditions for who sees this, I added this from the How To articles/ template although this is not a How To. But I like the format, so I thought keeping it consistent might help users. We may decide to update this when we have access and prereq for overview-type articles)</p>
 -->
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -55,18 +57,12 @@ ht-degree: 99%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
++++
+
 ## 前提条件
 
-[!DNL Goals] の通知が更新されるユーザーは、次の条件を満たす必要があります。
+* [!DNL Goals] 通知を更新するユーザーには、[!UICONTROL  メインメニュー ] の [!DNL Goals] 領域を含むレイアウトテンプレートが必要です。
 
-* [!UICONTROL メインメニュー]の [!DNL Goals] エリアを含むレイアウトテンプレート
-* 新しい [!DNL Adobe Workfront] エクスペリエンスに切り替える。
-
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  (NOTE: we need this here because you can see these notifications from Classic)
-  </MadCap:conditionalText>
-  -->
 
 ## [!UICONTROL  ユーザープロファイル ]エリアにある [!DNL Goals] の通知
 

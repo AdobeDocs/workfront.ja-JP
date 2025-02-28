@@ -7,10 +7,10 @@ description: '[!UICONTROL ポートフォリオオプティマイザー]は、�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1657'
-ht-degree: 98%
+source-wordcount: '1647'
+ht-degree: 96%
 
 ---
 
@@ -128,7 +128,7 @@ ht-degree: 98%
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining]</td> 
-   <td> <p>ポートフォリオ内のすべてのプロジェクトに対するすべての [!UICONTROL Budgeted Costs] は、ポートフォリオの予算から差し引かれました。</p> <p>[!UICONTROL Remaining Portfolio Budget] は、次の式を使用して計算されます。</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - すべてのポートフォリオプロジェクトの合計 [!UICONTROL Budgeted Cost]</em> </p> <p>ポートフォリオ内のすべてのプロジェクトの全体的な [!UICONTROL Budgeted Cost] は、予算フィールドの下のインジケーターバーに表示されます。 </p> <p>プロジェクトのコストの追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオ内のすべてのプロジェクトの [!UICONTROL 合計コスト ] 後の予算残高がポートフォリオの予算から減算されています。</p> <p>[!UICONTROL Remaining Portfolio Budget] は、次の式を使用して計算されます。</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - すべてのポートフォリオプロジェクトの合計 [!UICONTROL Budgeted Cost]</em> </p> <p>ポートフォリオ予算は、Portfolio オプティマイザーの「予算」フィールドへの手動入力です。 </p> <p>プロジェクトのコストの追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Cost]</td> 
