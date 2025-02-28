@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '1325'
-ht-degree: 0%
+source-wordcount: '1357'
+ht-degree: 1%
 
 ---
 
@@ -41,7 +41,7 @@ AppBuilder は、「ドキュメントの詳細」内でインストールでき
 
 1. 「ユーザー」セクションで、**開発者**/**開発者を追加** をクリックします。
 
-   ![](assets/manage-users-admin-console.png)
+   ![Admin Consoleでの開発者の管理 ](assets/manage-users-admin-console.png)
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ AppBuilder は、「ドキュメントの詳細」内でインストールでき
 
 1. 開発者プロファイルに必要な製品を追加して、「**保存**」をクリックします。
 
-![](assets/add-developer.png)
+![ 開発者を追加 ](assets/add-developer.png)
 
 ## AppBuilder へのアクセスの取得
 
@@ -72,7 +72,7 @@ AppBuilder が正しく設定されている場合は、新しいプロジェク
    >
    >このオプションが表示されない場合は、Admin Console の設定が誤っており、app Builder カタログにアクセスできません。 このオプションは、AppBuilder にアクセスできる場合にのみ表示されます。
 
-   ![](assets/create-from-template.png)
+   ![テンプレートからプロジェクトを作成](assets/create-from-template.png)
 
 1. 「**App Builder**」を選択します。
 
@@ -87,9 +87,9 @@ AppBuilder が正しく設定されている場合は、新しいプロジェク
 
 1. **保存**&#x200B;をクリックします。
 
-## AdobeI/O （aio） CLI
+## Adobe IO （aio） CLI
 
-Adobeには、App Builder アプリケーションの作成に役立つオープンソース CLI が用意されています。 ドキュメントについては、[https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) およびAdobeのApp Builder手順 [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/) を参照してください。
+Adobeには、App Builder アプリケーションの作成に役立つオープンソース CLI が用意されています。 ドキュメントは、[https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) およびAdobe App Builderの説明 [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/) で参照できます。
 
 1. インストール
    1. ツールをインストールするには、（最初にノード v18 を使用していることを確認して） `npm install -g @adobe/aio-cli ` を実行します。
@@ -102,20 +102,20 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
 
 1. 設定の選択
    1. 表示されたオプションから組織とプロジェクトを選択します。\
-      ![](assets/select-org.png)
-      ![](assets/select-project.png)
+      ![ 組織を選択 ](assets/select-org.png)
+      ![ プロジェクトを選択 ](assets/select-project.png)
 
 1. テンプレートの選択と設定
    1. 使用可能なすべてのテンプレートを参照し、プロジェクトの **@adobe/aem-cf-editor-ui-ext-tpl** テンプレートを選択します。
-      ![](assets/search-template.png)
-      ![](assets/select-template.png)
+      ![ 検索テンプレート ](assets/search-template.png)
+      ![ テンプレートを選択 ](assets/select-template.png)
 
 1. 拡張機能の定義
    1. 拡張機能に名前を付けます。
    1. 拡張機能の機能の説明的な概要を提供します。
    1. 開始する初期バージョン番号を選択します。
    1. 「完了しました **を選択して完了を確認** ます。
-      ![](assets/define-extension.png)
+      ![ 拡張機能を定義 ](assets/define-extension.png)
 
 1. プロジェクトフォルダーに移動します
    1. src フォルダーへのアクセス
@@ -308,7 +308,7 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
           export default Review;
       ```
 
-## Publish アプリケーション
+## アプリの公開
 
 >[!IMPORTANT]
 >
@@ -326,12 +326,12 @@ Workfrontにゲストアプリケーションを読み込むには、アプリ�
 1. AppBuilder アプリケーションの作成に使用したプロジェクトを見つけます。
 
 1. 実稼動Workspaceを選択します。
-   ![](assets/find-application.png)
+   ![ 実稼動ワークスペースを選択 ](assets/find-application.png)
 
 1. 非公開レビュー用にアプリを送信します（アプリ交換マーケットプレイスに公開していないという警告が表示されます。問題ありません）。
 
 1. フォーム（タイトル、説明、アイコン、レビュー担当者へのメモ）に入力します。
-   ![](assets/submission-details.png)
+   ![ レビュー用フォームへの入力 ](assets/submission-details.png)
 
 >[!IMPORTANT]
 >
@@ -341,14 +341,14 @@ Workfrontにゲストアプリケーションを読み込むには、アプリ�
 
 1. システム管理者は、[https://stage.exchange.adobe.com/} または ](https://stage.exchange.adobe.com/)2}https://exchange.adobe.com/](https://exchange.adobe.com/) に移動します。[
 
-1. **管理**/**Experience Cloudアプリケーション** をクリックします。 送信されたアプリと、承認/拒否するオプションが表示されます。
+1. **管理**/**Experience Cloud アプリケーション** をクリックします。 送信されたアプリと、承認/拒否するオプションが表示されます。
 承認されると、公開済みのアプリケーション拡張機能がWorkfront環境に自動的に読み込まれます。
 
-   ![](assets/approve-submission.png)
+   ![ 承認された送信 ](assets/approve-submission.png)
 
 ## その他のヘルプ
 
-Adobeには、AppBuilder 用のアプリの構築を開始し、デプロイする方法に関する優れたドキュメントがあります。
+Adobeには、AppBuilder 用のアプリの構築を開始する方法と、アプリをデプロイする方法に関する優れたドキュメントがあります。
 
 次に、役立つリンクを示します。
 
@@ -362,7 +362,7 @@ Adobeには、AppBuilder 用のアプリの構築を開始し、デプロイす�
 
 App Builder アプリケーションをWorkfront用に開発する際に、アプリを公開せずにWorkfront内でテストする必要が生じる場合があります。 幸いなことに、私たちにはこれに対する解決策があります。
 
-App Builder アプリ内で、ローカル開発の `aio app run` を開始できます。 これにより、URL （通常は `https://localhost:9080`）が提供されます。 または、`aio app deploy` を実行して静的Adobeドメインを取得することもできます。 今後の使用のために、これらの URL をメモしておいてください。
+App Builder アプリ内で、ローカル開発の `aio app run` を開始できます。 これにより、URL （通常は `https://localhost:9080`）が提供されます。 または、`aio app deploy` を実行して静的Adobe ドメインを取得することもできます。 今後の使用のために、これらの URL をメモしておいてください。
 
 次に、ブラウザーで、開発する特定のドキュメントの詳細ページに移動します。 開発者ツールを開き、workfront.comまたはworkfront.adobe.comのローカルストレージにアクセスします。 ここでは、エントリを追加する必要があります。 キーとして `appBuilderDocDetailsOverride` を使用し、値として以前にメモした App Builder URL を使用します。
 
