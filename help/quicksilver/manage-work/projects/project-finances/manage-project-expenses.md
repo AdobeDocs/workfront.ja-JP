@@ -6,10 +6,10 @@ description: 費用の作成と管理のプロセスは、プロジェクト関�
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 91%
+source-wordcount: '544'
+ht-degree: 86%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 91%
    * **実際の金額：**&#x200B;費用の実際のコストの金額。\
      これは、プロジェクトの実際のコストに影響します。
 
-   * **予定日：**&#x200B;費用が発生する予定日。*mm/dd/yy* 形式を使用してフィールドに日付を入力することも、カレンダーアイコン ![](assets/calendar-icon.png) をクリックして日付を動的に選択することもできます。
+   * **予定日：**&#x200B;費用が発生する予定日。*mm/dd/yy* 形式を使用してフィールドに日付を入力するか、カレンダーアイコンをクリックします  ![ カレンダーアイコン ](assets/calendar-icon.png) をクリックし、日付を動的に選択します。
 
    * **支払日：**&#x200B;費用が支払われた日付。
    * **請求可能：**&#x200B;この費用を請求する場合は、このオプションを選択します。請求レコードを作成する際は、費用を請求可能として分類することが重要です。
