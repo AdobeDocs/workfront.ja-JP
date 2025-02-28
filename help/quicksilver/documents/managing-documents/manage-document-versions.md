@@ -6,10 +6,10 @@ description: Workfront では、複数のバージョンのドキュメントを
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
-ht-degree: 97%
+source-wordcount: '542'
+ht-degree: 90%
 
 ---
 
@@ -64,15 +64,15 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
 1. ドキュメントの詳細ページの上部付近で、名前の横にあるドロップダウンメニューをクリックし、表示および管理するバージョンの名前をクリックします。
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![ ドキュメント詳細のバージョンドロップダウン ](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    バージョンの詳細の表示に加えて、バージョンの名前、メタデータ、プルーフ（ドキュメントプルーフの場合）などのバージョンを変更できます。
 
 ## 単一のドキュメントバージョンのダウンロード
 
-1. 「概要」の「**バージョン**」で、バージョンの右側にある「その他」メニュー ![](assets/more-icon.png) をクリックし、表示されるドロップダウンリストで「**ダウンロード**」をクリックします。
+1. 概要の **バージョン** で、バージョンの右側にある [ その他 ] メニュー ![[ その他 ] メニュー ](assets/more-icon.png) をクリックし、表示されるドロップダウン リストで [**ダウンロード**] をクリックします。
 
-   ![](assets/more-versions-350x143.png)
+   ![1 つのドキュメントのダウンロード ](assets/more-versions-350x143.png)
 
 ## ドキュメントのすべてのバージョンをダウンロード
 
@@ -105,4 +105,4 @@ Workfront では、複数のバージョンのドキュメントを管理でき�
 
    ドキュメントが外部のソースにリンクされている場合、そのリンクは削除され、Workfront を介してドキュメントにアクセスできなくなります。
 
-   ![](assets/more-versions-350x143.png)
+   ![ ドキュメント バージョンの削除 ](assets/more-versions-350x143.png)
