@@ -6,9 +6,9 @@ description: プロジェクトマネージャーは、特定のプロジェク�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '825'
 ht-degree: 95%
 
 ---
@@ -87,7 +87,7 @@ ht-degree: 95%
 
 1. 「**担当業務**」フィールドで、請求料金を変更する担当業務を選択します。
 
-   ![](assets/override-billing-rate-on-project-nwe-350x310.png)
+   ![ プロジェクトの請求レートを上書き ](assets/override-billing-rate-on-project-nwe-350x310.png)
 
    「**デフォルトの請求料金**」フィールドには、この担当業務のシステムレベルの料金が表示されます。
 
