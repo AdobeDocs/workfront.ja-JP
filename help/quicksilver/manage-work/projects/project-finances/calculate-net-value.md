@@ -7,10 +7,10 @@ description: プロジェクト純価は、利益を計算してコストを削�
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 96%
+source-wordcount: '402'
+ht-degree: 95%
 
 ---
 
@@ -48,7 +48,7 @@ Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 * ビジネスケースのビジネスケースの概要領域 \
   ビジネスケースの概要領域の詳細については、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)の「[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)」の節を参照してください。
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![ ビジネスケースの純価 ](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
 * ポートフォリオオプティマイザー（プロジェクトがポートフォリオに関連付けられている場合）
 
