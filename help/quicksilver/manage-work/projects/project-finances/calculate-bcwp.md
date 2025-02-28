@@ -7,10 +7,10 @@ description: BCWP（実行された作業の予算計上コスト）は、出来
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 98%
+source-wordcount: '594'
+ht-degree: 97%
 
 ---
 
@@ -77,7 +77,7 @@ BCWP を時間単位で計算するかコスト単位で計算するかは、プ
 1. プロジェクトに移動して、左パネルの「**プロジェクトの詳細**」を展開します。
 1. **財務**&#x200B;エリアで、「**パフォーマンスインデックスメソッド**」フィールドを見つけ、ダブルクリックして編集します。
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM オプション ](assets/pim-options-hour-cost-based-nwe.png)
 
 1. 次のオプションから選択します。
 
@@ -125,7 +125,7 @@ BCWP 列をビューに追加すると、レポートまたはリストで実行
 1. 「**列を追加**」をクリックします。
 1. **この列に表示：** フィールドで **BCWP** の入力を開始して、リストに表示されたらクリックして選択します。
 
-   ![](assets/bcwp-project-view.png)
+   ![ プロジェクト ビューの BCWP](assets/bcwp-project-view.png)
 
 1. 「**ビューを保存**」をクリックします。
 1. 「BCWP」フィールドがビューに表示されます。
