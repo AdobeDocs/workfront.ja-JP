@@ -7,10 +7,10 @@ description: コストスケジュール効率指数（CSI）は、コスト効�
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 * ユーザーが、完了した作業の時間を記録している。\
   これにより、時間数に基づいて CSI が計算されます。
-* ユーザーまたは担当業務に 1 時間当たりのコスト率が関連付けられている。
+* ユーザーまたは担当業務に 1 時間当たりのコスト率が関連付けられている。 
 
   これにより、コストに基づいて CSI が計算されます。
 
@@ -52,7 +52,7 @@ CSI には次の 3 つの値が考えられます。
 * \>1 = 予算とスケジュールの組み合わせ以内
 * &lt;1 = 予算とスケジュールの組み合わせを超過
 
-![](assets/csi-highlighted.png)
+![CSI](assets/csi-highlighted.png)
 
 ## コストスケジュール効率指数（CSI）を見つける
 
