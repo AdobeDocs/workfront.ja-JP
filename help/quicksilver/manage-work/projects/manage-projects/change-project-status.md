@@ -6,10 +6,10 @@ description: 必要に応じて、プロジェクトのステータスを他の�
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 91%
 
 ---
 
@@ -67,10 +67,10 @@ ht-degree: 100%
 1. ステータスを更新するプロジェクトに移動します。
 1. プロジェクトヘッダーの「**ステータス**」フィールドでステータスの名前をクリックし、新しいステータスを選択します。
 
-   ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![ プロジェクトステータスの変更 ](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    または
 
-   プロジェクト名の横にある&#x200B;**その他**&#x200B;メニュー ![](assets/qs-more-menu.png) をクリックし、「**編集**」をクリックして、「**ステータス**」フィールドで新しいステータスを選択してから、「**保存**」をクリックします。
+   プロジェクト名の横にある **詳細** メニュー ![ 詳細メニュー ](assets/qs-more-menu.png) をクリックして、**編集** をクリックし、**ステータス** フィールドで新しいステータスを選択して、**保存** をクリックします。
 
    プロジェクトのステータスは、選択したステータスに更新されます。
