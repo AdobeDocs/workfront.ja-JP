@@ -7,10 +7,10 @@ description: ドキュメントの詳細ページでは、Adobe Workfront オブ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '203'
-ht-degree: 100%
+source-wordcount: '207'
+ht-degree: 89%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 1. ドキュメントにポインタを合わせ、「**ドキュメントの詳細**」をクリックします。
 
-   ![](assets/document-details-350x179.png)
+   ![ ドキュメントの詳細 ](assets/document-details-350x179.png)
 
 ## ドキュメントとプルーフに対して基本的なアクションを実行
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 * ドキュメントの説明を編集
 * ドキュメントをチェックイン／チェックアウト
 
-さらに、ドキュメント名の横にあるその他アイコン ![](assets/more-icon.png) を使用して、次のアクションを実行できます。
+さらに、ドキュメント名の横にある「その他」アイコン ![ その他メニュー ](assets/more-icon.png) を使用して、次のアクションを実行できます。
 
 * 共有
 * 移動
