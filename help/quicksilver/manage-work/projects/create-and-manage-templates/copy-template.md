@@ -6,10 +6,10 @@ description: 新しいプロジェクトテンプレートを最初から作成�
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 100%
+source-wordcount: '335'
+ht-degree: 97%
 
 ---
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 ## テンプレートをコピーする
 
 1. コピーするテンプレートに移動します。
-1. 「**その他**」メニュー![](assets/qs-more-icon-on-an-object.png)、「**コピー**」の順にクリックします。
+1. **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックしてから、**コピー** をクリックします。
 1. 「**新しいテンプレート名**」フィールドにテンプレートの名前を指定します。
 
    デフォルトでは、新しい名前は **`<original template name>` のコピー**&#x200B;です。
