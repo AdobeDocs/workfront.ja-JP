@@ -5,10 +5,10 @@ description: ビジネスケースを使用して、プロジェクトをリク�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 98%
+source-wordcount: '833'
+ht-degree: 94%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 98%
 
 ## ビジネスケースの作成
 
-1. **メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png)、**プロジェクト**&#x200B;の順にクリックします。
+1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**プロジェクト** をクリックします。
 1. 「**新規プロジェクト**」、「**プロジェクトをリクエスト**」の順に選択します。\
    デフォルトでは、プロジェクトのステータスは&#x200B;**アイデア**&#x200B;になっています。
 
@@ -69,7 +69,7 @@ ht-degree: 98%
    >Workfront インスタンスで「アイデア」ステータスが削除されている場合、プロジェクトは、プロジェクトの環境設定エリアで定義された、新規プロジェクトのデフォルトのステータスに配置されます。プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
 1. プロジェクトの名前を指定し、Enter キーを押します。
-1. （オプション）**その他**&#x200B;アイコン ![](assets/qs-more-icon-on-an-object.png)、「**テンプレートを添付**」の順にクリックして、プロジェクトの作業分類構造を作成します。
+1. （任意） **詳細** アイコン ![ 詳細アイコン ](assets/qs-more-icon-on-an-object.png) をクリックし、**テンプレートを添付** をクリックして、プロジェクトの作業分解構造を作成します。
 
    または
 
