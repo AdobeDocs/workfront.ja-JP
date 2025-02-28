@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
+source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ Workfrontの他のエリアと一貫した、より現代的なデザインの�
 
 ### ドキュメントの承認エリアに対するインターフェイスの更新
 
-**プレビューリリース：2025 年 2 月 13 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：2025 年 2 月 13 日（PT）、実稼動リリース：2025 年 2 月 27 日（PT）の週から**
 
 Workfrontの他のエリアと一致する、より現代的なデザインのドキュメントに承認エリアを更新しました。
 
