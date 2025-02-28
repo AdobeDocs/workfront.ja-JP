@@ -6,10 +6,10 @@ description: Experience Manager Assets または Assets Essentials からアセ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '681'
-ht-degree: 98%
+source-wordcount: '690'
+ht-degree: 97%
 
 ---
 
@@ -82,7 +82,7 @@ Experience Manager Assets または Assets Essentials から Workfront にアセ
 
 1. 目的のアセットを選択します。
 
-   ![](assets/select-an-asset.png)
+   ![ アセットを選択 ](assets/select-an-asset.png)
 
 1. 「**選択**」をクリックします。
 
@@ -99,7 +99,7 @@ Experience Manager Assets または Assets Essentials から Workfront にアセ
 
 1. 目的のフォルダーを選択します。
 
-   ![](assets/select-a-folder.png)
+   ![ フォルダーを選択 ](assets/select-a-folder.png)
 
 1. 「**選択**」をクリックします。
 
@@ -119,7 +119,7 @@ Assets Essentials から新しいバージョンをリンクするには、次�
 
 1. 目的のアセットを選択します。
 
-   ![](assets/select-an-asset.png)
+   ![ アセットを選択 ](assets/select-an-asset.png)
 
 1. 「**選択**」をクリックします。
 
