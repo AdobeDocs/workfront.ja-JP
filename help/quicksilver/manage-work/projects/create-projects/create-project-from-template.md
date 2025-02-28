@@ -6,10 +6,10 @@ description: テンプレートをフレームワークとして使用して、A
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 94%
+source-wordcount: '1180'
+ht-degree: 90%
 
 ---
 
@@ -65,14 +65,14 @@ ht-degree: 94%
    <td role="rowheader">アクセスレベル</td> 
    <td> <p>プロジェクトおよびテンプレートへのアクセス権の編集</p>
 
-<p>使用するテンプレートにPortfolioとプログラムが含まれている場合は、Portfolioとプログラムへのアクセスを編集します</p>
+<p>使用するテンプレートにPortfolioとプログラムが含まれている場合、ポートフォリオとプログラムへのアクセスを編集します</p>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>テンプレートに対する権限の表示</p> 
-  <p>使用するテンプレートにポートフォリオとプログラムが含まれている場合、Portfolioとプログラムに対する管理権限を持っている必要があります </p> 
+  <p>使用するテンプレートにPortfolioとプログラムが含まれている場合、プロジェクトを作成するには、ポートフォリオとプログラムに対する管理権限が必要です </p> 
    <p>プロジェクトを作成すると、そのプロジェクトに対する管理権限が自動的に付与されます。</p></td> 
   </tr> 
  </tbody> 
@@ -137,7 +137,7 @@ ht-degree: 94%
       * テンプレート内のすべてのタスクの数
       * テンプレートのカスタムフォームの名前
 
-   1. （オプション）左画面でテンプレート名の名前にポインタを合わせて、**お気に入り****アイコン** ![](assets/favorites-icon-small.png) をクリックして、今後使用できるようにお気に入りとしてマークします。
+   1. （任意）左側のペインのテンプレート名の上にマウスポインターを置き、**お気に入り****アイコン**![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、後で使用するためにお気に入りとしてマークします。
 
       または
 
@@ -175,7 +175,7 @@ ht-degree: 94%
 {{step1-to-templates}}
 
 1. 使用するテンプレートの名前をクリックします。
-1. **その他**&#x200B;メニュー ![](assets/more-icon.png) をクリックして、「**プロジェクトを作成**」をクリックします。
+1. **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**プロジェクトを作成** をクリックします。
 
    ![テンプレートからプロジェクトを作成](assets/project-sharing-on-template.png)
 
