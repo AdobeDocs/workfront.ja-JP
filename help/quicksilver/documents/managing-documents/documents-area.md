@@ -7,10 +7,10 @@ description: ドキュメントエリアでは、Adobe Workfront にアップロ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 86%
+source-wordcount: '414'
+ht-degree: 76%
 
 ---
 
@@ -18,13 +18,13 @@ ht-degree: 86%
 
 ドキュメントエリアでは、Adobe Workfront にアップロードされたドキュメントのメタデータを整理、管理、表示できます。プルーフ決定もl確認できます。
 
-![](assets/documents-area-v2-350x199.png)
+![ ドキュメント エリア ](assets/documents-area-v2-350x199.png)
 
 ドキュメントエリアには 2 つのタイプがあります。特徴と機能は両方とも同じです。
 
-* **プログラム、ポートフォリオ、プロジェクト、タスク、または問題のドキュメント領域：** 特定のプロジェクト、タスク、または問題に対してアクセス権を持つすべてのドキュメントのリストが表示されます。 このエリアにアクセスするには、プロジェクト、タスク、またはイシューを表示しているときに、左側のパネルで&#x200B;**ドキュメント** ![](assets/document-icon-12x14.png) をクリックします。
+* **プログラム、ポートフォリオ、プロジェクト、タスク、または問題のドキュメント領域：** 特定のプロジェクト、タスク、または問題に対してアクセス権を持つすべてのドキュメントのリストが表示されます。 この領域にアクセスするには、プロジェクト、タスクまたはイシューを表示している左側のパネルで **ドキュメント** ![ ドキュメントアイコン ](assets/document-icon-12x14.png) をクリックします。
 
-* **グローバルドキュメントエリア：** Workfront でアクセスできるすべてのドキュメントをリストします。この領域にアクセスするには、メインメニュー ![](assets/main-menu-icon.png) の&#x200B;**ドキュメント**![](assets/document-icon.png) をクリックします。
+* **グローバルドキュメントエリア：** Workfront でアクセスできるすべてのドキュメントをリストします。この領域にアクセスするには、メインメニュー **メインメニューアイコン ](assets/document-icon.png) 内の ![ ドキュメント**![ ドキュメントアイコン ](assets/main-menu-icon.png) をクリックします。
 
 Workfront へのドキュメントのアップロードについては、[ファイルシステムから Adobe Workfront にドキュメントを追加](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md)を参照してください。
 
@@ -44,7 +44,7 @@ Workfront へのドキュメントのアップロードについては、[ファ
 
 ドキュメントに関するすべての情報が必要な場合は、「詳細」見出しをクリックして、完全なドキュメントの詳細エリアに移動できます。
 
-![](assets/documents-area-v2-350x199.png)
+![ ドキュメント エリア ](assets/documents-area-v2-350x199.png)
 
 概要について詳しくは、[ドキュメントの概要](../../documents/managing-documents/summary-for-documents.md)を参照してください。
 
@@ -52,7 +52,7 @@ Workfront へのドキュメントのアップロードについては、[ファ
 
 プルーフ決定が行われると、その決定がドキュメントリストに表示されます。
 
-![](assets/proof-decision---doc-list-350x168.png)
+![ ドキュメントリストでのプルーフ決定 ](assets/proof-decision---doc-list-350x168.png)
 
 ## フォルダー
 
