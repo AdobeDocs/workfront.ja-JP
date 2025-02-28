@@ -6,10 +6,10 @@ description: プロジェクトの作業を開始する前に、プロジェク�
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 96%
+source-wordcount: '530'
+ht-degree: 90%
 
 ---
 
@@ -70,14 +70,14 @@ Adobe Workfront の次のエリアで新しいプロジェクトを追加する�
 
 1. 次のいずれかの操作を行います。
 
-   * 右上隅にある「**メインメニュー**」![](assets/main-menu-icon.png) をクリックするか、左上隅にある「**メインメニュー**」![](assets/lines-main-menu.png)（可能な場合）をクリックし、「**プロジェクト**」をクリックして、「**新規プロジェクト**」を展開します。
+   * 右上隅の **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![ メインメニューライン ](assets/lines-main-menu.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックし、**新規プロジェクト** を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**プロジェクトをリクエスト**」をクリックします。
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![ 新規プロジェクトドロップダウン ](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 次のいずれかの操作を行います。
 
