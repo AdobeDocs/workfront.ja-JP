@@ -6,10 +6,10 @@ description: プロジェクトに対する時間の承認の要求
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 80%
+source-wordcount: '763'
+ht-degree: 77%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 80%
 プロジェクトの時間数についてプロジェクトマネージャーの承認が必要になるように設定するには、次の手順に従います。
 
 1. 時間数の承認を必要とするプロジェクトに移動します。
-1. プロジェクト名の右側にある&#x200B;**その他**&#x200B;アイコン ![](assets/more-icon.png)、「**編集**」の順にクリックします。\
+1. プロジェクト名の右側にある **その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックし、**編集** をクリックします。\
    プロジェクトの編集ダイアログボックスが表示されます。
 
 1. 「**プロジェクト設定**」セクションで、「**プロジェクト時間の承認**」を選択します。
