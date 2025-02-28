@@ -6,10 +6,10 @@ description: カスタムフォームをドキュメントまたはドキュメ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 92%
+source-wordcount: '334'
+ht-degree: 84%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 92%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. 「**概要**」アイコン ![](assets/summary-panel-icon.png) をクリックし次に&#x200B;**詳細**&#x200B;セクションを探します。
+1. **概要** アイコン ![ 概要アイコン ](assets/summary-panel-icon.png) をクリックし、「**詳細**」セクションを見つけます。
 1. **カスタムフォームを追加**&#x200B;ボックスに入力し、カスタムフォームを選択します。フォームはドキュメントに自動的に保存されます。
 
    >[!NOTE]
@@ -73,8 +73,8 @@ ht-degree: 92%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、**ドキュメント**&#x200B;を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. 「**概要**」アイコン ![](assets/summary-panel-icon.png) をクリックし、上部付近で&#x200B;**詳細**&#x200B;セクションを探します。
+1. **概要** アイコン ![ 概要アイコン ](assets/summary-panel-icon.png) をクリックし、上部の近くにある **詳細** セクションを見つけます。
 1. 右上隅にある「**編集**」をクリックして、目的のフォームを展開します。
 1. 必要な変更を加え、「**保存**」をクリックします。
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![ カスタムフォームを編集 ](assets/edit-custom-form-350x265.png)
