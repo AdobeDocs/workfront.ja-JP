@@ -6,10 +6,10 @@ description: 財務は、プロジェクトで記録された時間数や、コ�
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
-ht-degree: 93%
+source-wordcount: '1633'
+ht-degree: 88%
 
 ---
 
@@ -149,15 +149,15 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 
 一括編集中に財務を再計算できます。詳しくは、この記事の[財務を手動で一括再計算](#manually-recalculate-finances-in-bulk)の節を参照してください。
 
-1. 財務を再計算するプロジェクトに移動し、プロジェクト名の右側にある&#x200B;**詳細**&#x200B;アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックします。
+1. 財務を再計算するプロジェクトに移動して、プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ プロジェクトレベルの詳細ドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動して 1 つまたは複数のプロジェクトを選択し、リストの上部にある&#x200B;**その他**&#x200B;アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックします。
+   プロジェクトリストまたはレポートに移動して、1 つまたは複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![ 式の再計算 ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 複数のプロジェクトの財務を手動で再計算するには、以下を実行します。
 
 1. プロジェクトのリストに移動します。
-1. リスト内の複数のオブジェクトを選択し、リストの一番上にある&#x200B;**詳細**&#x200B;アイコン ![](assets/qs-more-icon-on-an-object.png) をクリックします。
+1. リストで複数のプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![ 式の再計算 ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ Workfront のプロジェクトの財務は、プロジェクトページから�
 >
 >プロジェクトのステータスを変更すると、予定された値のみが再計算されます。
 
-プロジェクトレベルの&#x200B;**その他**&#x200B;メニュー![](assets/qs-more-menu.png)で「**財務を再計算**」をクリックすると、財務を手動で再計算することもできます。
+プロジェクトレベルで **その他** メニュー ![ その他メニュー ](assets/qs-more-menu.png) の下の「財務を再計算 **をクリックして、手動で財務を再計算することもでき** す。
