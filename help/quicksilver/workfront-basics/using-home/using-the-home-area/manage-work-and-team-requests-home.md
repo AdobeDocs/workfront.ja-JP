@@ -6,10 +6,10 @@ description: 作業タスクとイシューが割り当てられると、それ�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '834'
-ht-degree: 49%
+source-wordcount: '857'
+ht-degree: 42%
 
 ---
 
@@ -63,10 +63,10 @@ ht-degree: 49%
 
 自分の作業ウィジェットに作業項目を表示するには：
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **担当作業** ウィジェットを追加します。
 
-1. ウィジェットワークリストの左上隅にある **フィルター** アイコン ![](assets/filter-nwepng.png) をクリックします。
+1. ウィジェットワークリストの左上隅にある **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックします。
 
 1. タスクに対して、次のいずれかのオプションまたは両方をクリックします。
 
@@ -89,12 +89,12 @@ ht-degree: 49%
 
 チームリクエストにアクセスするには：
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **チームリクエスト** ウィジェットを追加します。
 
    このウィジェットは、チームのグループ化の下にチームリクエストを表示します。 **[!UICONTROL チームリクエスト]** ウィジェットが表示され、自分が参加しているチームに割り当てられたすべてのリクエストが表示されます。 チームリクエストの作業について詳しくは、[作業とチームリクエストを管理](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
 
-   ![](assets/team-request-widget.png)
+   ![ チームリクエストウィジェット ](assets/team-request-widget.png)
 
 ## 自分の作業ウィジェットでの作業項目の操作
 
@@ -102,13 +102,13 @@ ht-degree: 49%
 
 作業項目を作業する手順は、次のとおりです。
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **担当作業** ウィジェットを追加します。
 
 1. ウィジェットの **[!UICONTROL ワークリスト]** エリアで、作業するリクエストを選択し、「**[!UICONTROL 作業]**」をクリックします。
 1. 作業項目の上にマウスポインターを置いて「**概要** アイコンをクリックすると、作業項目に関する情報が表示されます。
 
-   ![](assets/open-summary-new-home.png)
+   ![ 概要を開く ](assets/open-summary-new-home.png)
 
 
 ## 作業項目を削除
@@ -117,20 +117,20 @@ ht-degree: 49%
 
 作業項目を削除する手順は、次のとおりです。
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **担当作業** ウィジェットを追加します。
 
 1. ウィジェットのワークリストで、作業項目にポインタを合わせ、「**概要** アイコンをクリックすると、作業項目に関する情報が表示されます。
-   ![](assets/open-summary-new-home.png)
+   ![ 概要を開く ](assets/open-summary-new-home.png)
 1. 「**割り当て**」セクションで、自分の名前を削除します。
-   ![](assets/remove-assignment.png)
+   ![ 割り当てを削除 ](assets/remove-assignment.png)
 
 
 
 <!--
 ## Reassign a request
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reassign.
 
 1. Click on the **[!UICONTROL Assignments]** widget and remove yourself from the request, then type the name of the user you want to reassign the request to.
@@ -148,7 +148,7 @@ ht-degree: 49%
 
 You can reply to a request to further clarify the request or to propose a new date.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the request you want to reply to.
 1. Locate the individual who assigned the request to you.
 
