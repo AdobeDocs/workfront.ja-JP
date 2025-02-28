@@ -5,10 +5,10 @@ description: リソース計画の一環として、ビジネスケースを構�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '929'
-ht-degree: 100%
+source-wordcount: '945'
+ht-degree: 98%
 
 ---
 
@@ -120,11 +120,11 @@ ht-degree: 100%
 
    * シナリオプランナーから情報を公開したばかりの場合は、リソース予算計上エリアの「**プロジェクトの予算人件費の計算に使用する時間を選択**」フィールドでシナリオプランナーを選択し、「**選択**」をクリックします。
 
-     ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     ![ リソースプランナーの「選択」ボタンを使用したビジネスケース ](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
    * プロジェクトの予算リソースに対して、リソースプランナーが以前に選択されていた場合は、**変更**／**シナリオプランナ**／**選択**&#x200B;をクリックします。
 
-     ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![ シナリオプランナーのビジネスケースと「選択」ボタン ](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront は、リンクされたイニシアティブから必要な担当業務時間を使用して、プロジェクトの予算労務費と予算時間を計算します。これは推奨されるオプションです。コストは、ビジネスケースにプロジェクトの通貨で表示されます。
 
