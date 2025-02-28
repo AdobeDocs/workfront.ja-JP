@@ -6,10 +6,10 @@ description: ドキュメントは、Adobe Workfront から個別または一括
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 95%
+source-wordcount: '292'
+ht-degree: 90%
 
 ---
 
@@ -55,7 +55,7 @@ ht-degree: 95%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **選択した項目をダウンロード**&#x200B;アイコン ![](assets/download-icon.png) をクリックします。
+1. **選択したダウンロード** アイコン ![ 選択したダウンロードアイコン ](assets/download-icon.png) をクリックします。
 
 ## 複数のドキュメントを同時にダウンロード
 
@@ -69,6 +69,6 @@ ht-degree: 95%
    >Box、Dropbox、Google Drive などから Workfront にリンクされたドキュメントを一括でダウンロードすることはできません。
 
 1. （オプション）ダウンロードするドキュメントを含むフォルダーをフォルダーのリストから選択します。
-1. 「選択した項目をダウンロード」アイコン ![](assets/download-icon.png) をクリックします。
+1. 「選択したダウンロード」アイコン ![ 「選択したダウンロード」アイコン ](assets/download-icon.png) をクリックします。
 
    フォルダーは .zip ファイルとしてダウンロードされ、最大 4GB に制限されます。
