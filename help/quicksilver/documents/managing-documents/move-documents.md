@@ -6,10 +6,10 @@ description: ドキュメントに対する管理権限を持つユーザーは�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 91%
+source-wordcount: '268'
+ht-degree: 89%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 91%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **移動**&#x200B;アイコン ![](assets/move-document--25x19.png) をクリックします。
+1. **移動** アイコン ![ 移動アイコン ](assets/move-document--25x19.png) をクリックします。
 1. 表示されるボックスのドロップダウンメニューから、「**イシュー**」、「**プロジェクト**」または「**タスク**」をクリックして、ドキュメントを移動するオブジェクトの種類を指定します。
 
 1. テキストボックスに「**イシュー**」、「**プロジェクト**」、または「**タスク**」の名前を入力します。
