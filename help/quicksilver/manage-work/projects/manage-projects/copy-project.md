@@ -7,10 +7,10 @@ author: Alina
 feature: Projects, Work Management
 role: User
 exl-id: 1bb133a8-eb76-46b8-969f-37f57f9453b4
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 100%
+source-wordcount: '776'
+ht-degree: 92%
 
 ---
 
@@ -112,15 +112,15 @@ ht-degree: 100%
 
 プロジェクトをコピーするには
 
-1. コピーするプロジェクトに移動し、プロジェクト名の右側にある&#x200B;**その他**&#x200B;アイコン ![](assets/qs-more-menu.png) をクリックします。
+1. コピーするプロジェクトに移動し、プロジェクト名の右側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックします
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![ 詳細ドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある&#x200B;**その他**&#x200B;アイコン ![](assets/qs-more-menu.png) をクリックします。
+   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックします。
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![ 詳細メニューが展開されました ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. 「**コピー**」をクリックします。
 
@@ -128,7 +128,7 @@ ht-degree: 100%
 
    デフォルトでは、新しい名前は、**`<Original project name>` のコピー**&#x200B;です。
 
-   ![](assets/copy-project-box-nwe-350x276.png)
+   ![ 「プロジェクトをコピー」ボックス ](assets/copy-project-box-nwe-350x276.png)
 
 1. 新規プロジェクト用の&#x200B;**ステータス**&#x200B;を選択します。
 
