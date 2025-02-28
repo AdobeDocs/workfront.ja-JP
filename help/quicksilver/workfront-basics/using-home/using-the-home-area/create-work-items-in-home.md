@@ -6,10 +6,10 @@ description: '[!UICONTROL  ホーム ] エリアから作業項目およびプ�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '811'
-ht-degree: 20%
+source-wordcount: '847'
+ht-degree: 14%
 
 ---
 
@@ -71,12 +71,12 @@ ht-degree: 20%
 
 To Do 項目を作成するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![](assets/main-menu-icon.png) または左上隅の **メインメニュー** をクリック ![](assets/lines-main-menu.png)、可能な場合は **[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![ メインメニューラインのアイコン ](assets/lines-main-menu.png) をクリックして（使用可能な場合）、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックし、**To-Do** をクリックして、To-Do ウィジェットをホーム画面に追加します。
 1. **To Do** ウィジェットに移動し、「**To Do を追加** をクリックします。
 1. 個人の To Do アイテムの名前を入力し、[Enter] をクリックします。
-1. （任意）「**日付**」アイコンをクリックして、項目の期限を追加 ![](assets/date-icon.png) ます。
-   ![](assets/my-work-to-dos.png)
+1. （オプション） **日付** アイコン ![ 日付アイコン ](assets/date-icon.png) をクリックして、項目の期限を追加します。
+   ![ 私の作業 To-Do](assets/my-work-to-dos.png)
 1. （任意）個人用タスクレポートまたはフィルターを作成します。 個人用タスク フィルタの作成については、「[ フィルタ：個人用タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)」を参照してください。
 個人タスクレポートには、自分の To Do 項目と他のユーザーの To Do 項目を表示できます。
 
@@ -84,10 +84,10 @@ To Do 項目を作成するには：
 
 ホーム エリアから既存のプロジェクトに直接タスクを追加できます。
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイタスク** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイタスク** を検索します。
 1. **マイタスク** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![](assets/create-new-task.png)
+   ![ 新規タスクを作成 ](assets/create-new-task.png)
 1. **新規タスク** ダイアログボックスで、タスク名を入力します。
 1. プロジェクト名の入力を開始し、リストから名前を選択します。
 1. （オプション）次のフィールドに情報を入力します。
@@ -107,10 +107,10 @@ To Do 項目を作成するには：
 
 ホーム領域から既存のプロジェクトにイシューを直接追加できます。
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイ問題** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイイシュー** を見つけます。
 1. **自分のイシュー** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![](assets/create-new-issue.png)
+   ![ 新しいイシューを作成 ](assets/create-new-issue.png)
 1. **新しいイシュー** ダイアログボックスで、プロジェクト名の入力を開始し、リストから名前を選択します。
 1. イシュー名を入力します。
 1. （オプション）次のフィールドに情報を入力します。
@@ -128,10 +128,10 @@ To Do 項目を作成するには：
 
 リクエストは、ホーム エリアから直接作成できます。
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. **マイリクエスト** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![](assets/create-new-request.png)
+   ![ 新しいリクエストの作成 ](assets/create-new-request.png)
 
 1. **新規リクエスト** ダイアログで、リクエストキューの名前の入力を開始します。
 1. 関連するフィールドに入力します。
@@ -143,17 +143,17 @@ To Do 項目を作成するには：
 
 ホームエリアから直接プロジェクトを作成できます。
 
-1. 右上の **[!UICONTROL メインメニュー]** ![](assets/main-menu-icon.png)、**[!UICONTROL ホーム]** の順にクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイプロジェクト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイプロジェクト** を見つけます。
 1. **マイプロジェクト** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![](assets/create-new-project.png)
+   ![ 新規プロジェクトを作成 ](assets/create-new-project.png)
 1. 次のいずれかのオプションを選択します。
 
    | フィールド | 手順 |
    |----------|----------|
    | テンプレートから | テンプレートからプロジェクトを作成する手順について詳しくは、[ テンプレートを使用してプロジェクトを作成 ](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) を参照してください。 |
    | 空のプロジェクト | 空のプロジェクトを作成する手順について詳しくは、[ ゼロからプロジェクトを作成 ](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) を参照してください。 |
-   | MS Project をインポート | MS プロジェクトを読み込む手順について詳しくは、[Microsoft プロジェクトからプロジェクトを読み込む ](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) を参照してください。 |
+   | MS Project を読み込み | MS プロジェクトを読み込む手順について詳しくは、[Microsoft プロジェクトからプロジェクトを読み込む ](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) を参照してください。 |
 
 
 <!--
@@ -161,7 +161,7 @@ To Do 項目を作成するには：
 
 You can create a board directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
 
 
@@ -171,13 +171,13 @@ You can create a board directly from the Home area:
 <!--
 ## Delete a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
-1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+1. Hover over the item, then click the **Delete** icon ![Delete icon](assets/delete-to-do.png). 
 
 ## Edit a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
