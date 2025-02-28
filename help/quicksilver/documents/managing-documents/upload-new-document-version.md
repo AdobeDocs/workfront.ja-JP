@@ -6,10 +6,10 @@ description: 以前に Adobe Workfront にアップロードしたドキュメ�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d475e0f0-112e-4d4e-b666-6e0af3ea7702
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '401'
-ht-degree: 97%
+source-wordcount: '409'
+ht-degree: 95%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 97%
 1. ドキュメントがアップロードされるドキュメントエリアに移動します。
 1. デスクトップまたは別のブラウザータブから、ドキュメントの新しいバージョンを Workfront の既存のバージョンの上にドラッグします。
 
-   ![](assets/drag-drop-doc-qs-350x145.png)
+   ![ ドキュメントバージョンをドラッグ&amp;ドロップ ](assets/drag-drop-doc-qs-350x145.png)
 
    新しいバージョンをドラッグする際に、Workfront ドキュメントフォルダーの上にポインタを合わせると、そのバージョンを開くことができます。次に、ファイルを画面の上部または下部にドラッグして、上下にスクロールできます。
 
@@ -80,6 +80,6 @@ ht-degree: 97%
 1. 新しいバージョンを追加するドキュメントを選択します。
 1. **新規追加**／**バージョン**&#x200B;をクリックします。
 
-   ![](assets/add-new-version-350x185.png)
+   ![ 新しいバージョンを追加 ](assets/add-new-version-350x185.png)
 
 1. アップロードするドキュメントの種類を選択し、画面の指示に従います。
