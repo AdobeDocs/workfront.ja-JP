@@ -5,9 +5,9 @@ description: プロジェクトリクエストのビジネスケースを完了�
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 93%
 
 ---
@@ -116,7 +116,7 @@ ht-degree: 93%
 1. 左側のパネルで「**ビジネスケース**」をクリックします。
 1. ビジネスケースの概要エリアで「**承認**」または「**拒否**」をクリックして、ビジネスケースを承認または却下します。
 
-   ![](assets/business-case-summary-with-rp-information--1-.png)
+   ![ ビジネスケース ](assets/business-case-summary-with-rp-information--1-.png)
 
    ビジネスケースが承認されると、プロジェクトステータスが&#x200B;**承認済み**&#x200B;に変更されます。
 
