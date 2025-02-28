@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 3%
+source-wordcount: '202'
+ht-degree: 2%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 3%
    | **標準** | 通常は、緊急および優先度の高い項目が完了した後に作業する日常的な作業アイテムに対して使用されます。 これは、タスクおよび問題に対するデフォルトです。 |
    | **低** | 「低」は、即時の注意を必要としない作業項目で、優先度の高い作業項目がすべて実行されるまで延期できます。 |
 
-   ![](assets/my-focus-new.png)
+   ![My Focus](assets/my-focus-new.png)
 
    >[!TIP]
    >
