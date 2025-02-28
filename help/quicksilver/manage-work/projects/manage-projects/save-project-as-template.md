@@ -6,10 +6,10 @@ description: プロジェクトを「プロジェクトレベルでテンプレ�
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 100%
+source-wordcount: '452'
+ht-degree: 97%
 
 ---
 
@@ -85,7 +85,7 @@ ht-degree: 100%
 ## プロジェクトをテンプレートとして保存
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. **その他**&#x200B;メニュー ![](assets/qs-more-icon-on-an-object.png)、「**テンプレートとして保存**」の順にクリックします。
+1. **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックしてから、**テンプレートとして保存** をクリックします。
 1. テンプレートに次の情報を指定します。
 
    <table style="table-layout:auto"> 
