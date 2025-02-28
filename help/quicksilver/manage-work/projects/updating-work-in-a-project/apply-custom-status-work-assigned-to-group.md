@@ -6,10 +6,10 @@ description: プロジェクトがグループに関連付けられている場�
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 100%
+source-wordcount: '353'
+ht-degree: 97%
 
 ---
 
@@ -92,7 +92,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
 プロジェクトのグループを更新すると、タスクのステータス、イシュー、またはプロジェクトのステータスに使用できるオプションが、グループに合わせて変更されます。
 
 1. [プロジェクトを作成](../../../manage-work/projects/create-projects/create-project.md)で説明されているように、プロジェクトに移動するか、新しいプロジェクトを作成します。
-1. **その他**&#x200B;アイコン ![](assets/more-icon.png) をクリックして、「**編集**」をクリックします。
+1. **その他** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
 
 1. 「**概要**」セクションの下部近くに表示される「**プロジェクトを編集**」ボックスで、「**グループ**」ドロップダウンメニューからグループを選択します。
 
