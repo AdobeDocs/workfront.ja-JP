@@ -6,9 +6,9 @@ description: Adobe Workfront レビューツールは、ZIP ファイルまた�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 9bc1502149d99624d8494aef86e11e18a95f563b
+source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '496'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,7 @@ Adobe Workfront レビューツールは、ZIP ファイルまたは URL を使�
 * Firefox
 * Chrome
 * Edge
+* Safari
 
 確認する必要があるコンテンツが Web サイト上にある場合は、デスクトッププルーフビューアを使用することをお勧めします。
 
