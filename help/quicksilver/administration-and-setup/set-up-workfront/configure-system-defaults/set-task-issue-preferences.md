@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2251'
 ht-degree: 85%
 
 ---
@@ -96,7 +96,8 @@ Linked to Converting Issues.-->
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Revenue Type]</td> 
-    <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。<strong>[!UICONTROL Revenue Type]</strong> が <strong>[!UICONTROL Not Billable]</strong> に設定されている場合、予定時間数と記録された実際の時間数ではタスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの収益には寄与しません。</p> </td> 
+    <td> <p>タスクの計画収益見積もりと実績収益見積もりを計算します。<strong>[!UICONTROL Revenue Type]</strong> が <strong>[!UICONTROL Not Billable]</strong> に設定されている場合、予定時間数と記録された実際の時間数ではタスクの収益見積もりは生成されず、タスクの作業はプロジェクトレベルの収益には寄与しません。</p>
+         <p>様々な収益タイプについて詳しくは、<a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md"> 請求と収益の概要 </a> を参照してください。</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Cost Type]</td> 
