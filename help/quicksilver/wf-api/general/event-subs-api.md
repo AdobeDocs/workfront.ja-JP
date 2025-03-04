@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 193a1ecafb5dd919a2fa760ce5ab2a9903881900
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '2362'
-ht-degree: 84%
+source-wordcount: '2407'
+ht-degree: 82%
 
 ---
 
@@ -350,6 +350,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -422,6 +424,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -449,6 +453,10 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 バージョンと重要な日付の具体的な違いなど、イベント購読のバージョン管理について詳しくは、[ イベント購読のバージョン管理 ](/help/quicksilver/wf-api/general/event-subs-versioning.md) を参照してください。
 
 ### 単一の購読バージョンの変更
+
+>[!NOTE]
+>
+>イベント購読を別のバージョンにアップグレードまたはダウングレードすると、バージョン変更後 5 分間、イベント配信ごとに重複したイベントが届きます。 重複には、イベント購読バージョン 1 とバージョン 2 がそれぞれ 1 つずつ含まれます。 これにより、イベント購読バージョンの変更に伴うイベントが見逃されなくなります。
 
 単一のサブスクリプションのバージョンを変更するリクエストの構文を次に示します。
 
