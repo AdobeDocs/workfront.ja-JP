@@ -5,7 +5,7 @@ title: トラブルシューティング：Outlook 用Workfrontを使用する�
 description: Workfront for Outlook の使用時に outlookIdentityToken エラーが発生した場合は、Microsoft 365 の従来のトークンを有効にする必要があります。
 author: Becky
 feature: Workfront Integrations and Apps
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: 571ed00f44322d73183323c4d4154284cd028301
 workflow-type: tm+mt
 source-wordcount: '122'
 ht-degree: 0%
@@ -25,4 +25,4 @@ Unable to get the outlookIdentityToken
 
 Microsoft 365 の従来のトークンを有効にする手順については、Microsoft ドキュメントの [ 従来の Exchange Online トークンのオン/オフの切り替え ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/turn-exchange-tokens-on-off) を参照してください。
 
-ロガシートークンについて詳しくは、[Exchange Online のレガシートークンをオンに戻すことはできますか？Microsoft ドキュメントを ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on) 照してください。
+レガシー・トークンの詳細については、[Exchange Online のレガシー・トークンをオンにできますか？Microsoft ドキュメントを ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens#can-i-turn-exchange-online-legacy-tokens-back-on) 照してください。
