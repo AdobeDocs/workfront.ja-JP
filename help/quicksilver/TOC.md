@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: d02e781be70b34a77e8c780cc29c7a234dd62e68
+source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
 workflow-type: tm+mt
-source-wordcount: '13010'
+source-wordcount: '13018'
 ht-degree: 90%
 
 ---
@@ -2145,6 +2145,7 @@ ht-degree: 90%
       * [Outlook メールをタスクとして作業リストに追加](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
       * [Adobe Workfront for Outlook に関する追加情報の表示とログアウト](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Outlook for Office を Adobe Workfront および SAML 2.0 で有効にする](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+      * [トラブルシューティング：Outlook 用Workfrontを使用する際の outlookIdentityToken エラー](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
    * Microsoft Teams 用 Adobe Workfront {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]：記事インデックス](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Microsoft Teams 用 Adobe Workfront の概要](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
