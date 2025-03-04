@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
+source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
 workflow-type: tm+mt
-source-wordcount: '1526'
+source-wordcount: '1586'
 ht-degree: 0%
 
 ---
@@ -200,6 +200,14 @@ Workfrontの他のエリアと一貫した、より現代的なデザインの�
 Workfrontの他のエリアと一致する、より現代的なデザインのドキュメントに承認エリアを更新しました。
 
 この変更を表示するには、文書に移動し、「文書詳細」 > 「承認」の順にクリックします。
+
+### スマートフォルダー編集ダイアログボックスのインターフェイスの更新
+
+**プレビューリリース：2025 年 1 月 27 日（PT）、実稼動リリース：2025 年 2 月 3 日（PT）の週から**
+
+スマートフォルダー編集ダイアログボックスが更新され、Workfrontの他の領域と一貫した、より現代的なデザインになりました。
+
+この変更を表示するには、ドキュメントに移動して、スマートフィルター名の横にある「詳細」メニューをクリックし、「編集」をクリックします。
 
 ## レポートとダッシュボード
 
