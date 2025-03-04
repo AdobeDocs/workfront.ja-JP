@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '3249'
-ht-degree: 40%
+source-wordcount: '3332'
+ht-degree: 39%
 
 ---
 
@@ -200,13 +200,13 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    >または
    >**レコードを接続** （フィールドが空の場合）をクリックして、接続されたレコードまたはオブジェクトタイプからレコードを追加します。
    >
-   >![](assets/connect-records-from-record-page-field.png)
+   >![ レコードページからレコードを接続フィールド ](assets/connect-records-from-record-page-field.png)
 
 1. （任意）すべてのレコードを表示するには、「**すべて表示**」をクリックします。
 
 1. （条件付き）前の手順で「**すべて表示**」をクリックした場合、「**オブジェクトを接続**」ボックスが表示されます。
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![ レコード用の接続オブジェクト テーブル ](assets/connected-objects-table-for-records.png)
 
 1. 検索ボックスにレコード名を入力していき、リストに表示されたら選択します
 
@@ -282,7 +282,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    前の手順で「**すべて表示**」をクリックすると、「**オブジェクトを接続** ボックスが表示されます。
 
-   ![](assets/connect-objects-box-to-select-projects.png)
+   ![ プロジェクトを選択するには「オブジェクトを接続」ボックス ](assets/connect-objects-box-to-select-projects.png)
 
 1. 検索ボックスに Workfront オブジェクト名を入力していき、リストに表示されたら選択します
 
@@ -359,7 +359,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    「**アセットを選択**」ボックスが表示されます。<!--we might change this to Connect assets-->
 
-   ![](assets/select-assets-box-for-aem-record-connections.png)
+   ![AEM レコード接続用の「アセットを選択」ボックス ](assets/select-assets-box-for-aem-record-connections.png)
 
 1. 次のタイプのアセットのいくつかをクリックして選択します。
 
@@ -389,7 +389,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 1. （オプション）Experience Manager Assets にリンクしたレコードタイプに移動し、リンクされたレコードフィールド内のアセットの名前をクリックします。アセットのExperience Managerの詳細がポップアップウィンドウに表示されます。
 
-   ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
+   ![AEMの詳細とサムネールを含むアセットポップアップウィンドウ ](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
    画像ファイルには、次のフィールドが表示されます。
 
@@ -403,7 +403,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    * 作成日
    * 変更日時
 
-1. （オプション）Experience Manager Assets のレコードページをExperience Managerで開くには、リンク元のレコードのレコードタイプページに移動し、「リンクされたレコード」フィールドでアセットの名前をクリックしてポップアップウィンドウを開き、「**AEMで開く** アイコンをク ![](assets/open-asset-icon.png) ックしてアセットを開きます。
+1. （オプション）Experience Manager Assets のレコードページをExperience Managerで開くには、リンク元のレコードのレコードタイプページに移動し、「リンクされたレコード」フィールドでアセットの名前をクリックしてポップアップウィンドウを開き、**AEMで開く** アイコン ![AEMでアセットを開く ](assets/open-asset-icon.png) をクリックしてアセットを開きます。
 
    これにより、Adobe Experience Manager Assets で Experience Manager のアセットが開きます。
 
@@ -424,7 +424,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 1. レコードの名前をクリックします。
 
    プレビューページが開きます。
-1. （オプション） **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを開きます。
+1. （オプション） **新しいタブで開く** アイコン ![ 詳細を新しいタブアイコンで開く ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを開きます。
 1. レコードのプレビューまたはページで、「**接続**」タブをクリックします。
 
    ![Workfront Planning のレコードの「接続」タブ ](assets/connections-tab-on-record-in-workfront-planning.png)
@@ -449,24 +449,15 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    詳細については、「レコードを作成する」の「他のレコードから接続する際にレコードを作成する [ を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
 1. 前の節で説明した手順に従って、Workfront Planning のレコードまたはWorkfrontやExperience Manager Assetsのオブジェクトを接続します。
 レコードとオブジェクトが直ちに追加されます。
-1. （オプション）レコードまたはオブジェクトの接続されたカードにポインタを合わせ、「**レコードを切断**」アイコンをクリックして、選択したレコードとの接続を切断します ![](assets/disconnect-icon-with-tooltip.png)
+1. （オプション）レコードまたはオブジェクトの接続されたカードにポインタを合わせ、「**レコードを切断**」アイコン ![ レコードを切断 ](assets/disconnect-icon-with-tooltip.png) をクリックして、選択したレコードとの接続を切断します。
 
-   ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
+   ![ 「接続」タブのレコードを切断アイコンとツールチップ ](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    レコードは、Workfront Planning のすべての領域、または接続済みと表示される可能性のある他のアプリケーションから直ちに切断されます。 参照フィールドの値も削除されます。
 
-## Workfront オブジェクトからのレコードの接続
-
-Workfront オブジェクトからWorkfront計画レコードを接続するには、次のものが必要です。
-
-* Workfront Planning で確立されたレコード・タイプとWorkfrontオブジェクト・タイプ間の関連付け。
-* Workfront管理者またはグループ管理者が、Planning セクションをレイアウトテンプレートのWorkfront プロジェクト、ポートフォリオおよびプログラムに追加する必要があります。
-
-詳しくは、[Adobe Workfront オブジェクトの計画セクションでのレコードの管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
-
 <div class="preview">
 
-## レコードの詳細ページの「接続表示」タブからレコードを接続
+### レコードの詳細ページの「接続表示」タブからレコードを接続
 
 <!--section needs title edit when they rename the "Connection view" page type-->
 
@@ -485,3 +476,22 @@ Workfront オブジェクトからWorkfront計画レコードを接続するに�
 1. （オプション）接続されたレコードが見つからない場合は、「**+追加**」をクリックして作成し、接続します。
 
 </div>
+
+## Workfront オブジェクトからのレコードの接続
+
+Workfront オブジェクトからWorkfront計画レコードを接続するには、次のものが必要です。
+
+* Workfront Planning で確立されたレコード・タイプとWorkfrontオブジェクト・タイプ間の関連付け。
+* Workfrontまたはグループ管理者が、Workfront オブジェクトタイプに次のいずれかを追加する必要があります。
+
+   * 計画セクションは、レイアウトテンプレート内のWorkfront プロジェクト、ポートフォリオおよびプログラムに適用されます。
+
+   * Planning 接続のカスタム・フィールドは、次のいずれかのオブジェクトのカスタム・フォームに対して使用します。
+
+      * プロジェクト
+      * ポートフォリオ
+      * プログラム
+      * グループ
+      * 会社
+
+  詳しくは、[Adobe Workfront オブジェクトの計画セクションでのレコードの管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。

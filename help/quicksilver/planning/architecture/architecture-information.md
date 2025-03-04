@@ -1,15 +1,15 @@
 ---
-title: 「アーキテクチャ：記事索引」
+title: アーキテクチャ：記事インデックス
 description: 次の記事では、Adobe Workfront Planning のアーキテクチャを設定する方法について説明します。この設定の一環として、Workfront Planning で管理するワークフローをマッピングするワークスペース、レコードタイプおよびカスタムフィールドの作成方法について説明します。
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 93%
+source-wordcount: '201'
+ht-degree: 88%
 
 ---
 
@@ -31,6 +31,7 @@ Workfront Planning を使用すると、組織が使用するオブジェクト�
 * [ワークスペーステンプレートのリスト](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [レコードタイプの概要](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)
+* [CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [レコードタイプの編集](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [接続されたレコードタイプの概要](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)

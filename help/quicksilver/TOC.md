@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
 workflow-type: tm+mt
-source-wordcount: '13018'
-ht-degree: 90%
+source-wordcount: '13041'
+ht-degree: 89%
 
 ---
 
@@ -2017,6 +2017,7 @@ ht-degree: 90%
       * [ワークスペースの作成](planning/architecture/create-workspaces.md)
       * [レコードタイプの概要](planning/architecture/overview-of-record-types.md)
       * [レコードタイプの作成](planning/architecture/create-record-types.md)
+      * [CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成](planning/architecture/import-file-to-create-record-types.md)
       * [レコードタイプの接続：概要](planning/architecture/connect-record-types-overview.md)
       * [レコードタイプの接続](planning/architecture/connect-record-types.md)
       * [レコードタイプの編集](planning/architecture/edit-record-types.md)
@@ -2045,6 +2046,7 @@ ht-degree: 90%
    * Adobe Workfront計画レコード {#adobe-workfront-planning-records}
       * [レコード：記事インデックス](planning/records/records-information.md)
       * [レコードの作成](planning/records/create-records.md)
+      * [CSV または Excel ファイルから情報を読み込んでレコードを作成](planning/records/import-file-to-create-records.md)
       * [接続されたレコードの概要](planning/records/connected-records-overview.md)
       * [レコードの接続](planning/records/connect-records.md)
       * [レコードの編集](planning/records/edit-records.md)
