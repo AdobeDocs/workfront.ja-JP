@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '364'
+ht-degree: 31%
 
 ---
 
@@ -44,7 +44,7 @@ Workfront Planning で作成できるオブジェクトの数の制限を次の�
 | API リクエストを実行できるレート | 1 分あたり 200 件のリクエスト |
 | 1 人のユーザーが 1 つのレコードタイプで作成できるビューの数 | 100 |
 | レコードタイプを作成するために読み込むことができる Excel ファイルの CSV のサイズ | 5 MB |
-| レコードタイプを作成するために CSV または Excel ファイルに読み込むことができる行数 | 10,000 |
+| レコードタイプを作成するために CSV または Excel ファイルに読み込むことができる行数 | 25,000 |
 | CSV または Excel ファイルに読み込んでレコードタイプを作成できる列数 | 500 |
 
 *管理が困難になり、ワークフローが断片化される可能性があるので、ワークスペースが多くなりすぎることはお勧めしません。

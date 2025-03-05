@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: '7388'
 ht-degree: 37%
 
 ---
@@ -88,7 +88,7 @@ Workfrontの計画オブジェクトに対して、次の 2 つのパッケー�
 
 >[!NOTE]
 >
->権限リクエストからビューやワークスペースに対する権限をリクエストおよび付与できるようにするには、組織がAdobeの Unified Experience にオンボーディングされている必要があります。
+>権限リクエストからビューやワークスペースに対する権限をリクエストおよび付与できるようにするには、組織がAdobe統合エクスペリエンスにオンボーディングされている必要があります。
 
 
 詳しくは、[ ビューまたはワークスペースへの権限のリクエスト ](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
@@ -135,7 +135,7 @@ Workfrontの計画オブジェクトに対して、次の 2 つのパッケー�
 * 設定に応じて、リクエストフォームには、次のタイプのフィールドを除く、レコードタイプのすべてのフィールドが表示される場合があります。
 
    * ユーザー
-   * 接続されたフィールド（Experience Managerアセットとの接続を含む）
+   * 接続されたフィールド（Experience Manager Assets との接続を含む）
    * 接続された参照フィールド
    * 式
 
@@ -268,9 +268,9 @@ Workfront キャンバスダッシュボードを使用して、Workfront Planni
 
 * Workfront計画レコード
 * テンプレートを使用しないWorkfront プロジェクト
-* WorkfrontPortfolio
+* Workfront ポートフォリオ
 
-他の Connected Workfront オブジェクトやExperience Managerアセットをレコードに接続する場合は、作成できません。
+レコードに接続する際に、他の Connected Workfront オブジェクトやExperience Manager アセットを作成することはできません。
 
 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
@@ -302,7 +302,7 @@ Workfront キャンバスダッシュボードを使用して、Workfront Planni
 
 新しい接続タイプは、次のレコードタイプ接続ではサポートされていません。
 
-* レコードタイプをExperience Managerアセットに関連付ける場合
+* レコードタイプをExperience Manager Assets と関連付ける場合
 * 同じワークスペースに属さないレコードタイプを接続する場合
 
 詳しくは、[ レコードタイプの接続の概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
@@ -563,7 +563,7 @@ Workfront Planning のワークスペーステンプレートカードのルッ�
 
 プレビュー：未決定
 
-ワークスペースへのフルアクセス権を持つユーザーのタイプを変更しました。 現在は、標準ライセンスまたはプランライセンスのユーザーのみが、ワークスペースに対する管理権限を持つことができます。 レコードタイプ、レコードおよびフィールドへのアクセスは、ワークスペースから継承されます。 その他のすべてのユーザーは、ワークスペースとそのオブジェクトタイプに対して表示のみのアクセス権を持ちます。 このアップデート以前は、Light および Worker ライセンスのユーザーは、ワークスペースに対するContribute権限を受け取っていました。
+ワークスペースへのフルアクセス権を持つユーザーのタイプを変更しました。 現在は、標準ライセンスまたはプランライセンスのユーザーのみが、ワークスペースに対する管理権限を持つことができます。 レコードタイプ、レコードおよびフィールドへのアクセスは、ワークスペースから継承されます。 その他のすべてのユーザーは、ワークスペースとそのオブジェクトタイプに対して表示のみのアクセス権を持ちます。 このアップデート以前は、Light および Worker ライセンスのユーザーは、ワークスペースに対する投稿権限を受け取っていました。
 
 詳しくは、[Adobe Workfront Planning 使用時のライセンスタイプの概要 ](/help/quicksilver/planning/access/license-type-overview.md) を参照してください。
 
@@ -715,7 +715,7 @@ Workfrontの「計画」セクションでは、次のアクションを使用�
 
 * 接続されたレコードに関する詳細を表示するには、詳細プレビューボックスまたはページを開きます
 
-詳しくは、[Adobe Workfront オブジェクトの計画セクションでのレコードの管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
+詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
 
 ## 2024年5月13日（PT）の週
 
@@ -794,13 +794,13 @@ Workfront Planning 以外のオブジェクト・タイプへの接続を作成�
 
 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-### Adobeの Unified Experience のお客様向けにWorkfront Planning 通知を有効にする
+### Adobe Unified Experience のお客様向けにWorkfront Planning 通知を有効にする
 
 実稼動：2024年5月8日（PT）
 
 プレビュー：未決定
 
-Adobeの Unified Experience をご利用のお客様で、レコードページのコメントに追加された場合は、コメントに関するアプリ内通知とメール通知が届きます。 通知の環境設定は、Adobe Experience Cloud プロファイルの「環境設定」領域で管理できます。 詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) を参照してください。
+Adobe Unified Experience のユーザーで、他のユーザーがレコードページのコメントにユーザーを追加した場合、アプリ内と、コメントに関するメール通知が届きます。 通知の環境設定は、Adobe Experience Cloud プロファイルの「環境設定」領域で管理できます。 詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) を参照してください。
 
 Workfront Planning notifications の詳細については、[Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md) を参照してください。
 
@@ -1246,7 +1246,7 @@ Adobe Workfront Planning 機能は、プレビュー環境とサンドボック�
 * 表示：ユーザーは、レコードタイプのページの表示ドロップダウンメニューから表示を選択できます。
 * 管理：ユーザーは、ビューを編集、共有、削除できます。
 
-詳しくは、[Adobeプランニングのアクセス権限の概要 ](/help/quicksilver/planning/access/access-overview.md) および [Adobe Workfrontプランニング機能における共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。
+詳しくは、[Adobe Planning のアクセス権の概要 ](/help/quicksilver/planning/access/access-overview.md) および [Adobe Workfront Planning 機能でのアクセス権の共有の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。
 
 ### 新しい数式フィールドのタイプ
 

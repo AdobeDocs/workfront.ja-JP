@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1141'
 ht-degree: 10%
 
 ---
@@ -108,7 +108,7 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レ
   <tr> 
    <td role="rowheader"><p>アクセスレベルの設定</p></td> 
    <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p> 
-   <p>レコードをレコードに関連付ける際に、作成するオブジェクトタイプ（プロジェクトとポートフォリオ）のWorkfrontでのアクセス権を編集します。 </p>  
+   <p>レコードを関連付ける際に作成するオブジェクトタイプ（プロジェクト、プログラム、ポートフォリオ）のWorkfrontでのアクセス権を編集します。 </p>  
 </td> 
   </tr> 
 <tr> 

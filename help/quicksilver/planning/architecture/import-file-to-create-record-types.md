@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 48%
 
 ---
-
 
 # CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成
 
@@ -101,7 +101,7 @@ ht-degree: 48%
 * フィールドは、それぞれのレコードタイプについて一意です。
 * 各シートの各行は、各レコードタイプに関連付けられた一意のレコードになります。
 * Excel ファイルの各シートの上限は次のとおりです：
-   * 10,000 行
+   * 25,000 行
    * 500 列
 * ファイルのサイズは 5 MB 以下にしてください。
 * 空のシートはサポートされていません。

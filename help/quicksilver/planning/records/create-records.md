@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1804'
 ht-degree: 29%
 
 ---
@@ -35,7 +35,6 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 * [レコードタイプを CSV または Excel ファイルから読み込む際のレコードの作成](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
 <!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[ 自動化を使用したレコードの作成 ](#create-records-by-using-automations)</span>
-
 
 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
 
@@ -94,12 +93,12 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
   <tr> 
    <td role="rowheader"><p>アクセスレベルの設定</p></td> 
    <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p> 
-   <p>レコードをレコードに関連付ける際に、作成するオブジェクトタイプ（プロジェクトとポートフォリオ）のWorkfrontでのアクセス権を編集します。 </p>  
+   <p>レコードを関連付ける際に作成するオブジェクトタイプ（プロジェクト、プログラム、ポートフォリオ）のWorkfrontでのアクセス権を編集します。 </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td> <p>レコードの追加先となるワークスペースに対する権限を管理します。 </p>  
+   <td> <p>レコードを追加するワークスペースに対する投稿以上の権限。 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
    <p>子オブジェクト（プロジェクト）を追加するためのWorkfront オブジェクト（ポートフォリオ）への権限を管理します。</p>
    </td> 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1916'
 ht-degree: 9%
 
 ---
@@ -99,7 +99,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 <tr>
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
-   <p>ワークスペースへの権限の管理</a> </p>  
+   <p>ワークスペースに対する参加以上の権限</a> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> 
   </td>
   </tr>

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1865'
 ht-degree: 11%
 
 ---
@@ -144,7 +144,7 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
    * 人物フィールドの値は ID として表示されます。
    * 他のフィールドや計算を参照しない数式フィールドには、値は表示されません。 例えば、`STRING` 式を持つフィールドは「N/A」値を表示します。
    * 通貨フィールドを参照する数式フィールドは、為替レートを考慮せずに値を表示します。
-   * 特殊な形式を含む段落フィールドの値は、リクエストフォームに「N/A」値を表示し、リクエストの詳細ページに書式設定されたテキストではなく HTML タグを表示します。
+   * 段落フィールドの値は、リクエストフォームに「N/A」値を表示し、リクエストの詳細ページに書式設定されたテキストの代わりに HTML タグを表示します。
 
 </div>
 

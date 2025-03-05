@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '13041'
+source-wordcount: '13037'
 ht-degree: 89%
 
 ---
@@ -2059,7 +2059,7 @@ ht-degree: 89%
       * [レコードにサムネールを追加する](planning/records/add-thumbnails-to-records.md)
       * [レコードへのカバー画像の追加](planning/records/add-a-cover-image-to-a-record.md)
       * [レコードページレイアウトの管理](planning/records/manage-the-record-page.md)
-      * [Adobe Workfront オブジェクトの計画セクションでのレコードの管理](planning/records/manage-records-in-planning-section.md)
+      * [Workfront オブジェクトからのレコード接続の管理](planning/records/manage-records-in-planning-section.md)
       * [レコードの詳細のエクスポート](planning/records/export-the-record-page.md)
       * [Workfront オブジェクトをレコードに関連付ける際に、Workfront Planning からデータモデルを作成する](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Workfrontの計画レコードの自動作成を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
