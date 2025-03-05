@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 80%
+source-wordcount: '1533'
+ht-degree: 75%
 
 ---
 
@@ -223,10 +223,18 @@ Workfront のユーザーの作成について詳しくは、[ユーザーの追
    拒否されたユーザーは、Workfront から自動的に削除されます。
 
 
+## Adobe Admin Consoleの既存ユーザーの編集
 
+Adobe Admin Consoleで次のユーザー詳細を編集できます。
 
+* ユーザーに関連付けられたユーザーグループと製品
+* 管理者権限
+* 国
 
+Adobeで 1 人のユーザーを編集する方法については、Adobe Admin Console ドキュメントの「ユーザーを個別に管理する」の [ ユーザーの詳細の編集 ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details) を参照してください。
 
+Adobe Admin Consoleでのユーザーの一括編集について詳しくは、
+Adobe ドキュメントの複数のユーザーの管理の記事 [ ユーザーの詳細を編集 ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details)。
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
