@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
 workflow-type: tm+mt
-source-wordcount: '1076'
-ht-degree: 43%
+source-wordcount: '1079'
+ht-degree: 44%
 
 ---
 
@@ -37,6 +37,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
+* [ドキュメント管理の機能強化](#document-management-enhancements)
 * [プロジェクトの強化](#project-enhancements)
 * [その他の機能強化](#other-enhancements)
 

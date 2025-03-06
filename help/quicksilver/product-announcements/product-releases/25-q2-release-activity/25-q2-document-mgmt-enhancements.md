@@ -4,10 +4,10 @@ description: 2025年第 2 四半期のプロジェクトの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 60%
+source-wordcount: '115'
+ht-degree: 66%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->プレビューリリース：2025 年 2 月 6 日（PT）、実稼動環境のすべての顧客：2025 年 3 月 13 日（PT）
+>プレビューリリース：2025年2月6日（PT）。すべてのお客様向けの実稼動版：2025年3月13日（PT）
 
 ドキュメントレポートで、複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。
 
