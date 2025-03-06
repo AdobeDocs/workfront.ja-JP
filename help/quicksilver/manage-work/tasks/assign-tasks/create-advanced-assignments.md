@@ -7,22 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 98%
+source-wordcount: '1109'
+ht-degree: 94%
 
 ---
 
 # 高度な割り当てを作成
 
 <!-- Audited: 07/2024-->
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
-
-<span class="preview">現在のリリースについて詳しくは、[2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)を参照してください。</span>
 
 高度な割り当てを使用して、タスクまたはイシューの割り当てを管理できます。
 
@@ -104,7 +98,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    <span class="preview">![ 「詳細」をクリック ](assets/assignments-box-in-task-header.png)</span>
 
-1. **ユーザー、役割、チームを検索**&#x200B;フィールドに、ユーザー、役割、またはチームの名前を入力し、ドロップダウンリストに表示された名前をクリックします。
+1. 「**ユーザー、役割、チームを検索**」フィールドにユーザー、役割、チームの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
    >[!NOTE]
    >
@@ -142,10 +136,6 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
      >Workfront 管理者またはグループ管理者がプロジェクトの環境設定をどのように指定したかに応じて、複数のユーザーがタスクに割り当てられている場合、Workfront はタスク所有者のスケジュールを使用してタスクのタイムラインを計算する場合があります。複数のタスクの担当者について詳しくは、[タスクの割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md)の記事の「複数のユーザーをタスクに割り当て」の節を参照してください。
 
    * **配分**：タスクの期間タイプが「シンプル」の場合は、各ユーザーや担当業務にタスクを割り当てる時間数を指定します。各ユーザーに割り当てられたすべての時間の合計は、「配分」列の下部にある&#x200B;**予定時間数**&#x200B;フィールドの数値と等しくなります。それ以外のすべての期間タイプでは、タスクやイシューの解決に担当者が費やす時間の割合（または配分）を指定します。
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
