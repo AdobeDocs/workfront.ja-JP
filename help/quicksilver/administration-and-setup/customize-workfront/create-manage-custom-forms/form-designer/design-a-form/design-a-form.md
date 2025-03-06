@@ -8,21 +8,19 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '6493'
-ht-degree: 76%
+source-wordcount: '6615'
+ht-degree: 75%
 
 ---
 
 # カスタムフォームを作成
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 Adobe Workfrontのフォームデザイナーを使用してカスタムフォームをデザインできます。 カスタムフォームを様々な Workfront オブジェクトに添付して、これらのオブジェクトに関するデータを取り込むことができます。
 
@@ -1009,19 +1007,14 @@ Planning 接続フィールドを追加する手順は、次のとおりです�
       <td role="rowheader">接続フィールド</td> 
       <td><p>（必須）Workfrontオブジェクトに表示する選択した計画レコードタイプとWorkfrontオブジェクトタイプの間の接続フィールドを選択します。 </p> <p> <b>メモ</b></p><p>同じオブジェクトタイプとレコードタイプの間に複数の接続フィールドを持つことができますが、選択できるフィールドは 1 つだけです。</p>  </td> 
      </tr>
-    </tbody> 
+
+<tr> 
+      <td role="rowheader"><span class="preview">レコードタイプフィールド</span></td> 
+      <td><p><span class="preview">（オプション）カスタムフォームに表示する、接続されたレコードタイプから最大 7 つのルックアップフィールドを選択します。 プライマリフィールドはデフォルトで選択されており、編集できません。 </span></p> <span class="preview"><p> 選択した接続レコードのフィールドは、カスタムフォームのテーブル表示に表示されます。 フォームがWorkfront オブジェクトに添付されている場合、テーブルビューは読み取り専用です。 </span></p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+      </tbody> 
    </table>
-
-
-   <!--
-
-    Add this to the table - one more row at the bottom at release time: 
-
-    <span class="preview">Record type fields</span>
-      
-    <p><span class="preview">(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </span></p> <span class="preview"><p> The connected record's fields that you select display in the table view on the custom form. The records that will later display on the selected Workfront objects' custom form will not be editable in the table view of the custom form.</span></p>  
-    <img src="assets/planning-connections-field-with-table-on-form-preview.png">
-    -->
 
 1. （オプション）前の手順を繰り返して、他のフィールドを追加します。
 

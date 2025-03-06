@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1811'
-ht-degree: 49%
+source-wordcount: '1818'
+ht-degree: 46%
 
 ---
 
@@ -277,9 +277,9 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  レコードタイプ間の接続を確立すると、各タイプの個々のレコードを相互に接続できます。レコード間の接続は、リンクされたレコードフィールドとして表示されます。
+  レコードタイプ間の接続を確立すると、個々のレコードまたはそれらのタイプのオブジェクトを相互に接続できます。 レコード間の接続は、接続されたレコードフィールドまたは接続として表示されます。
 
-* **リンクされたフィールド**（またはルックアップフィールド）：2 つのレコードタイプ間の接続を確立し、個別のレコードをリンクすると、接続元のレコード上で、リンクされたレコードのフィールドを参照できます。
+* **参照フィールド** （またはリンクされたフィールド）:2 つのレコードタイプ間の接続を確立し、個々のレコードを接続すると、接続元のレコードから接続されたレコードのフィールドを参照できます。
 
   例えば、キャンペーンレコードタイプをWorkfront プロジェクト オブジェクトタイプに関連付けると、キャンペーンレコードで、接続されたプロジェクトの「予算」フィールドを表示できます。
 

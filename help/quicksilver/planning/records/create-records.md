@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1804'
-ht-degree: 29%
+source-wordcount: '1858'
+ht-degree: 28%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 * [他のレコードから接続する際のレコードの作成](#create-records-as-you-connect-them)
 * [リクエストフォームをレコードタイプに送信してレコードを作成](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [レコードタイプを CSV または Excel ファイルから読み込む際のレコードの作成](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
+* <Span class="preview">[CSV または Excel ファイルから情報を読み込んでレコードを作成する ](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
 * <span class="preview">[ 自動化を使用したレコードの作成 ](#create-records-by-using-automations)</span>
 
 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
@@ -271,8 +271,6 @@ You can import records from other applications by linking them to existing recor
    または
 名前の入力を開始し、「**+追加**」をクリックします。 「**+追加**」ボタンの後に、接続先のレコードタイプの名前が続きます。 例えば、既存のキャンペーンにブランドを追加する場合は「ブランドを追加」などと入力します。 入力した名前は、「追加」ボタンの後にも続きます。
 
-   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
-
    ![ ハイライト表示された、コンテキスト内のレコードを作成する「追加」ボタン ](assets/add-button-to-create-records-in-context-highlighted.png)
 
    レコードが作成され、接続されたレコードフィールドに追加されます。
@@ -305,18 +303,15 @@ CSV または Excel ファイルを使用してレコードタイプを読み込
 
 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-<!--
 <div class="preview">
 
-## Create records when importing records from a CSV or Excel file
+## CSV または Excel ファイルからレコードをインポートする際のレコードの作成
 
-You can import records for existing record types when you import information from a CSV or Excel file. 
+既存のレコードタイプのレコードを読み込むには、CSV または Excel ファイルから情報を読み込みます。
 
-For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードの作成 ](/help/quicksilver/planning/records/import-file-to-create-records.md) を参照してください。
 
-</div> 
-
--->
+</div>
 
 <div class="preview">
 

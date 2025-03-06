@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 66%
+source-wordcount: '153'
+ht-degree: 62%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Workfront Planning でレコードタイプを作成した後、それら�
 次の記事では、Adobe Workfront Planning でレコードとその情報を作成および管理する方法について説明します。
 
 * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
-  <!--* <span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>-->
+* <span class="preview">[CSV または Excel ファイルから情報を読み込んでレコードを作成する ](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
 * [Workfront オブジェクトをレコードに関連付ける際に、Workfront Planning からデータモデルを作成する](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [Adobe Workfrontの計画レコードの自動作成を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [レコードの編集](/help/quicksilver/planning/records/edit-records.md)
