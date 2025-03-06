@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 214f0e67-1da4-4abd-b942-09889e8bd92b
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: d603edee0099b6ce3e4f8d3414d1b31f94209196
 workflow-type: tm+mt
-source-wordcount: '202'
-ht-degree: 17%
+source-wordcount: '329'
+ht-degree: 12%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 17%
 このページでは、2025 年第 2 四半期リリースでプレビュー環境に加えられた機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
+
+## バージョン アップグレード エンドポイントを使用して、新しいイベント サブスクリプション バージョンにアップグレードします
+
+>[!NOTE]
+>
+>実稼動（すべてのお客様向け）：2025年3月6日（PT)
+
+Workfrontに、イベント購読のバージョンが追加されました。 新しいバージョンはWorkfront API に対する変更ではなく、イベント購読機能に対する変更です。
+
+イベント購読をアップグレードまたはダウングレードする機能により、イベントの構造に変更が加えられても既存の購読が壊れずに、イベント購読に隙間なく新しいバージョンのテストとアップグレードが可能になります。
+
+2 つのバージョンの違いについて詳しくは、「イベント購読のバージョン管理 [ を参照してください ](/help/quicksilver/wf-api/general/event-subs-versioning.md)。
+
+バージョン間でイベント購読をアップグレードまたはダウングレードするために使用されるエンドポイントについて詳しくは、Event subscription API の節 [ イベント購読のバージョン管理 ](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) を参照してください。
 
 ## Adobe Admin Console ユーザーの変更をWorkfront更新フィードの「システム」として表す
 

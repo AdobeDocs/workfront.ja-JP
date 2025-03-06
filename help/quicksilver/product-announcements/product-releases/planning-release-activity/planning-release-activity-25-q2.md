@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
+source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1660'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,29 @@ ht-degree: 2%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## 接続されたレコードのルックアップフィールドをWorkfront カスタムフォームの Planning 接続フィールドに追加
+
+>[!NOTE]
+>
+>プレビュー：2025 年 3 月 6 日（PT）、高速リリースの実稼動：2025 年 3 月 13 日（PT）、すべてのお客様の実稼動：2025 年 4 月 10 日（PT）
+
+Workfront オブジェクトから接続されたレコードのすべての情報に簡単にアクセスするために、接続されたレコードのルックアップフィールドをWorkfrontの Planning 接続フィールドに追加しました。
+
+Planning 接続のカスタム フィールドのWorkfront オブジェクトに接続されたレコードに最大 7 つのルックアップ フィールドを追加できます。 この機能強化の一環として、Workfront オブジェクトのカスタムフォームで、接続されたレコードとそのフィールドを、読みやすいテーブル形式で表示できるようになりました。
+
+詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+
+## CSV または Excel ファイルを使用したレコードの読み込み
+
+>[!NOTE]
+>
+>プレビューリリース：2025年3月6日（PT）。すべてのお客様向けの実稼動版：2025年4月10日（PT）
+
+レコードタイプのページから CSV または Excel スプレッドシートを使用してレコードを読み込めるようになりました。
+この機能強化が行われるまで、レコードタイプを作成する場合にのみレコードを読み込むことができました。 この更新では、既存のレコードタイプにレコードを読み込むことができます。
+
+詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードの作成 ](/help/quicksilver/planning/records/import-file-to-create-records.md) を参照してください。
 
 ## Workfront Planning リクエストの詳細ページのレコード名をブラウザのタブ名に表示します。
 

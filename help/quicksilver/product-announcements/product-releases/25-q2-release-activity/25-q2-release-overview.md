@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 46%
+source-wordcount: '1076'
+ht-degree: 43%
 
 ---
 
@@ -64,6 +64,29 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 </tbody>
 </table>
 
+### ドキュメント管理の機能強化
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            ドキュメントレポートで複数のドキュメントを一度に編集する </a></p>
+            <p>ドキュメントレポートで、複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2025年2月6日</li>
+                <li><span class="preview">すべてのお客様向けの本番リリース： 2025年3月13日（PT）</span></li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### プロジェクトの強化
 
 <table>
@@ -94,6 +117,20 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            バージョン アップグレード エンドポイントを使用して、新しいイベント サブスクリプション バージョンにアップグレードします</a></p>
+            [!BADGE In production ]{type=Informative}
+            <p>Workfrontに、イベント購読のバージョンが追加されました。 新しいバージョンはWorkfront API に対する変更ではなく、イベント購読機能に対する変更です。 イベント購読にギャップを作成することなく、イベント購読を新しいバージョンに切り替えることができます</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li><span class="preview">すべてのお客様向けの本番リリース： 2025年3月6日（PT）</span></li>
+            </ul>
+        </td>
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
