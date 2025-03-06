@@ -7,17 +7,17 @@ description: 「ドキュメント」領域では、複数のドキュメント�
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
-source-git-commit: 8c1f829eb29d8cd13524814d98ed353add15e881
+exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '572'
-ht-degree: 24%
+source-wordcount: '750'
+ht-degree: 19%
 
 ---
 
-
 # ドキュメントの一括編集
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。プレビューサンドボックス環境でのみ使用できます。</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 説明の編集、カスタムフォームの追加、カスタムフォームの編集を複数のドキュメントにわたって一度に行うことができます。
 
@@ -97,4 +97,33 @@ ht-degree: 24%
     </table>
 1. **保存**&#x200B;をクリックします。
 
+<span class="preview">
 
+## ドキュメントレポートでのドキュメントの一括編集
+
+1. 既存のドキュメントレポートに移動します。
+または
+[ カスタムレポートの作成 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) の説明に従って、ドキュメントレポートを作成します。
+1. 編集するドキュメントを選択します。
+1. 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+   ![ ページ上の編集アイコンの場所 ](assets/edit-multiple-documents.png)
+1. （任意）「**説明**」を追加または編集します。 各ドキュメントの説明が異なる場合は、「説明」ボックスに _複数の値_ が表示されます。 すべてのドキュメントに同じ説明を追加できますが、一括編集時に個々のドキュメントの説明を編集することはできません。
+1. カスタムフォームで次の変更を行います。
+
+   <table>
+    <tr>
+    <td><strong>フォームを追加</strong></td>
+    <td><strong> カスタムフォームを追加ボックス </strong> では、添付されたフォームと追加するフォームから選択できます。 添付されたフォームは、選択した一部のドキュメントにはありますが、すべてではありません。 選択したすべてのドキュメントに添付されたフォームが、編集ウィンドウに自動的に表示されます。  </td>
+    </tr>
+    <tr>
+    <td><strong>フォームを編集</strong></td>
+    <td>添付されているカスタムフォームを編集します。 変更した情報は、個々のドキュメントの既存の情報を上書きします。 ドキュメント間で異なる値を持つフィールドは、「複数の値」として表示されます。 </td>
+    </tr>
+    <tr>
+    <td><strong>フォームの並べ替え</strong></td>
+    <td>並べ替えるカスタムフォームをクリックしてドラッグします。</td>
+    </tr>
+    </table>
+1. **保存**&#x200B;をクリックします。
+
+</span>

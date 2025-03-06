@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 54%
+source-wordcount: '206'
+ht-degree: 56%
 
 ---
 
@@ -26,11 +26,7 @@ ht-degree: 54%
 
 複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。
 
-<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
-
->[!IMPORTANT]
->
->以下に示す機能は段階的リリースの一部であり、特定のお客様のみが使用できます。
+詳しくは、[ ドキュメントの一括編集 ](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md) を参照してください。
 
 ## ドキュメントのバージョン承認に使用できる、新しい取り消し済みステータス
 
