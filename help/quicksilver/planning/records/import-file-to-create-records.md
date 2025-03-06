@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 18%
@@ -148,9 +148,6 @@ ht-degree: 18%
    >
    >ワークスペースに対する管理権限がない場合、レコードをインポートできますが、追加の選択肢は作成されません。 代わりに、「プランニングフィールドを列ヘッダーにマッピング」ボックスの右上隅に **接続に存在しない選択肢、単一選択フィールドまたは複数選択フィールドは追加されません** というメッセージが表示されます。
 
-
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. 「**インポート**」をクリックします。
 
    次の情報が Workfront Planning にインポートされます。
@@ -162,3 +159,5 @@ ht-degree: 18%
    「レコードタイプ」ページでフィールドとレコードの管理を開始できます。
 
    Workfront Planning およびワークスペースへのアクセス権を持つすべてのユーザーは、インポートされたレコードとその情報を表示および編集できるようになりました。
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->

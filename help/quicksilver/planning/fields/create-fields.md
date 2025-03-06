@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '4310'
-ht-degree: 58%
+source-wordcount: '4336'
+ht-degree: 57%
 
 ---
 
@@ -533,6 +533,10 @@ OLD:
 ### ユーザー
 
 ユーザーフィールドタイプを使用すると、レコードにユーザー <!--, job role, or team--> を追加できます。これは「先行入力」フィールドで <!--, roles, or teams-->Workfront インスタンスに既に存在するユーザーのみを追加できます。
+
+>[!TIP]
+>
+>ユーザーの名前を「人物」フィールドに追加すると、ユーザーの名前とプライマリ担当業務がフィールドに表示されます。
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**ユーザー**&#x200B;フィールドタイプを選択します。
 

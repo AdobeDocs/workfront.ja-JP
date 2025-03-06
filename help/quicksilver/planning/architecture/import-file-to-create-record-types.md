@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '757'
-ht-degree: 47%
+source-wordcount: '795'
+ht-degree: 45%
 
 ---
 
@@ -105,6 +105,12 @@ ht-degree: 47%
    * 500 列
 * ファイルのサイズは 5 MB 以下にしてください。
 * 空のシートはサポートされていません。
+* 次のタイプのフィールドはサポートされておらず、インポートシートのフィールドにマッピングできません。
+   * 接続されたレコードの接続およびルックアップフィールド <!--or connected Workfront objects-->
+   * 数式フィールド
+   * 作成日、作成者
+   * 最終変更日、最終変更者
+   * ユーザー
 
 Excel または CSV ファイルを使用してレコードタイプを読み込むには：
 

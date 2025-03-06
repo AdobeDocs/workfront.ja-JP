@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1858'
-ht-degree: 28%
+source-wordcount: '1846'
+ht-degree: 29%
 
 ---
 
@@ -32,8 +32,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 * [テーブルビューからレコードを複製](#create-records-by-duplicating-them)
 * [他のレコードから接続する際のレコードの作成](#create-records-as-you-connect-them)
 * [リクエストフォームをレコードタイプに送信してレコードを作成](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [レコードタイプを CSV または Excel ファイルから読み込む際のレコードの作成](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-* <Span class="preview">[CSV または Excel ファイルから情報を読み込んでレコードを作成する ](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
+* <span class="preview">[CSV または Excel ファイルから情報を読み込んでレコードを作成する ](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
 * <span class="preview">[ 自動化を使用したレコードの作成 ](#create-records-by-using-automations)</span>
 
 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
@@ -305,7 +304,7 @@ CSV または Excel ファイルを使用してレコードタイプを読み込
 
 <div class="preview">
 
-## CSV または Excel ファイルからレコードをインポートする際のレコードの作成
+## CSV または Excel ファイルからレコードを読み込むことによるレコードの作成
 
 既存のレコードタイプのレコードを読み込むには、CSV または Excel ファイルから情報を読み込みます。
 

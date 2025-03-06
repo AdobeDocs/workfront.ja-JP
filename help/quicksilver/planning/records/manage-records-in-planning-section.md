@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1793'
+source-wordcount: '1800'
 ht-degree: 7%
 
 ---
@@ -207,7 +207,7 @@ Workfrontオブジェクトの「Planning 接続」フィールドからWorkfron
 * Planning レコードがWorkfront オブジェクトに接続された後、Workfront オブジェクトのカスタム フォームに Planning 接続フィールドが次のように表示されます。
 
    * 接続されたレコードのプライマリ・フィールドのみが選択されている場合、複数のレコードをリンクできる接続であれば、Planning 接続フィールドは複数の値を持つフィールドとして表示されます。 詳しくは、[ レコードタイプの接続の概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
-   * <span class="preview"> 接続レコードから追加の参照フィールドが選択されている場合、計画接続フィールドはテーブルとして表示されます。 「計画接続」フィールドには、最大 7 つのフィールドを選択できます。 テーブル表示は読み取り専用です。 </span>
+   * <span class="preview">Workfront管理者またはグループ管理者がカスタムフォーム上の接続されたレコードからさらにルックアップフィールドを追加した場合、Planning 接続フィールドはテーブルとして表示されます。 「計画接続」フィールドには、最大 7 つのフィールドを選択できます。 テーブル表示は読み取り専用です。 </span>
 
 * 1 つの Planning 接続フィールドに関連付けることができるレコード・タイプは 1 つだけです。 フォーム上の Planning 接続フィールドの数に制限はありません。
 * Planning 接続のカスタム フィールドを含むカスタム フォームをWorkfront オブジェクトに添付するには、オブジェクト、レコード、およびWorkfront Planning に対する適切なアクセス権と権限が必要です。
