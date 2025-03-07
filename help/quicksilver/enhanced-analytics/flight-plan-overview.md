@@ -7,14 +7,19 @@ description: 進行計画ビジュアライゼーションは、（適用され�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 97%
+source-wordcount: '927'
+ht-degree: 92%
 
 ---
 
 # 拡張分析での進行計画ビジュアライゼーションの表示
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics は、5 月 26 日の週にWorkfrontから削除されます。 Workfront Data Connect は新しい代替ソリューションであり、現在使用している Enhanced Analytics のビジュアライゼーションをレプリケートするために使用できます。 <br> 詳しくは、[Enhanced Analytics の廃止 ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) ガイドを参照してください。
+
 
 進行計画ビジュアライゼーションは、（適用されたフィルター条件内で）実行されたプロジェクトの数、これらのプロジェクトの期間中に発生した条件の変化、およびこれらのプロジェクトが計画完了期限にどの程度近づいているかを示します。
 

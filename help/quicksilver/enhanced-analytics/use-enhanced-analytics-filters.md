@@ -6,14 +6,19 @@ description: Adobe Workfront の拡張分析エリアのフィルターは、特
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1486'
-ht-degree: 99%
+source-wordcount: '1528'
+ht-degree: 96%
 
 ---
 
 # 拡張分析でのフィルターの適用
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics は、5 月 26 日の週にWorkfrontから削除されます。 Workfront Data Connect は新しい代替ソリューションであり、現在使用している Enhanced Analytics のビジュアライゼーションをレプリケートするために使用できます。 <br> 詳しくは、[Enhanced Analytics の廃止 ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) ガイドを参照してください。
+
 
 <!-- Audited: 12/2023 -->
 

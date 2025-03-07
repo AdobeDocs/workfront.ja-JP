@@ -7,14 +7,19 @@ description: プロジェクトツリーマップビジュアライゼーショ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 93%
+source-wordcount: '896'
+ht-degree: 88%
 
 ---
 
 # 強化機能分析でプロジェクトツリーマップビジュアライゼーションを表示
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics は、5 月 26 日の週にWorkfrontから削除されます。 Workfront Data Connect は新しい代替ソリューションであり、現在使用している Enhanced Analytics のビジュアライゼーションをレプリケートするために使用できます。 <br> 詳しくは、[Enhanced Analytics の廃止 ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) ガイドを参照してください。
+
 
 <!-- Audited: 12/2023 -->
 

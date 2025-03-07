@@ -7,10 +7,10 @@ description: Experience Manager Assets または Assets Essentials にリンク�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 84760d5fe301bd0a44879490fb030bd29821bd41
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 90%
+source-wordcount: '439'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 90%
 
 Experience Manager Assets または Assets Essentials にリンクされたフォルダーを Workfront 内で作成できます。フォルダーはリンクされているので、フォルダーに追加されたアセットはすべて、Workfront と Experience Manger の両方に自動的に表示されます。リンクされたフォルダー内にアセットがある場合は、アセットを手動で送信する必要はありません。
 
-Experience Manager AssetsまたはAssets Essentials内のリンクされたフォルダーからアセットを削除または移動すると、Workfrontでは、プロジェクト/ドキュメント領域にそのアセットのコピーが保持されます。
+Experience Manager Assetsまたは Assets Essentials 内のリンクされたフォルダーからアセットを削除または移動すると、Workfrontでは、プロジェクト/ドキュメント エリアにアセットのコピーが保持されます。
 
 ## アクセス要件
 
@@ -76,6 +76,11 @@ Experience Manager AssetsまたはAssets Essentials内のリンクされたフ�
 リンクされたフォルダーは、Workfront 管理者が統合を設定する際に指定した場所に作成されます。統合ごとに、リンクされたフォルダーの場所を 1 つだけ設定できます。
 
 リンクされたフォルダーの名前は、関連付けられているポートフォリオ、プログラムおよびプロジェクトに基づいて自動的に作成され、変更することはできません。プロジェクトがポートフォリオまたはプログラムに関連付けられていない場合、リンクされたフォルダーにはプロジェクト名と作成日が表示されます。
+
+>[!NOTE]
+>
+>リンクされたフォルダー内に新しいドキュメントまたは配達確認のバージョンを作成することはできません。
+
 
 リンクされたフォルダーを作成するには、次の手順に従います。
 

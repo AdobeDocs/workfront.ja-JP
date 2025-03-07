@@ -7,14 +7,19 @@ description: バーンダウンビジュアライゼーションは、特定の�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 100%
+source-wordcount: '837'
+ht-degree: 94%
 
 ---
 
 # 拡張分析でのバーンダウンビジュアライゼーションの表示
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics は、5 月 26 日の週にWorkfrontから削除されます。 Workfront Data Connect は新しい代替ソリューションであり、現在使用している Enhanced Analytics のビジュアライゼーションをレプリケートするために使用できます。 <br> 詳しくは、[Enhanced Analytics の廃止 ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) ガイドを参照してください。
+
 
 <!-- Audited: 12/2023 -->
 

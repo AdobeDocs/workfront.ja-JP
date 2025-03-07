@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 89%
@@ -293,7 +293,7 @@ ht-degree: 89%
 >
 >* 新しいWorkfront パッケージおよびライセンス。 Workfront Planning は、従来のWorkfront パッケージまたはライセンスでは使用できません。
 >* Workfront Planning パッケージ。
->* 組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。
+>* 組織のWorkfront インスタンスは、Adobe Unified Experience にオンボーディングされる必要があります。
 >
 > Workfront Planning へのアクセス要件の完全なリストについては、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 > 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+

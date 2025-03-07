@@ -7,14 +7,19 @@ description: 拡張分析は、事前に構築されたビジュアライゼー�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1204'
-ht-degree: 99%
+source-wordcount: '1246'
+ht-degree: 96%
 
 ---
 
 # 拡張分析の概要
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics は、5 月 26 日の週にWorkfrontから削除されます。 Workfront Data Connect は新しい代替ソリューションであり、現在使用している Enhanced Analytics のビジュアライゼーションをレプリケートするために使用できます。 <br> 詳しくは、[Enhanced Analytics の廃止 ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) ガイドを参照してください。
+
 
 拡張分析は、事前に構築されたビジュアライゼーションを備えた Adobe Workfront の強力なツールで、プロジェクトデータを調べ、計画と完了でトレンドを特定できます。このプロジェクトに関するインサイトは、現在の作業を管理するのに役立ち、将来の作業に合わせてより正確に計画できるようになります。
 

@@ -7,14 +7,20 @@ description: チーム別のアクティビティのビジュアライゼーシ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 92%
+source-wordcount: '769'
+ht-degree: 87%
 
 ---
 
 # 拡張分析でチームごとのアクティビティのビジュアライゼーションを表示する
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics は、5 月 26 日の週にWorkfrontから削除されます。 Workfront Data Connect は新しい代替ソリューションであり、現在使用している Enhanced Analytics のビジュアライゼーションをレプリケートするために使用できます。 <br> 詳しくは、[Enhanced Analytics の廃止 ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) ガイドを参照してください。
+
+
 
 <!-- Audited: 12/2023 -->
 

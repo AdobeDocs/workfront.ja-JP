@@ -5,10 +5,10 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 88%
+source-wordcount: '571'
+ht-degree: 86%
 
 ---
 
@@ -90,8 +90,6 @@ ht-degree: 88%
 
 1. （オプション）メール通知の設定のロックを解除して、グループ管理者がグループごとに個別に設定できるようにする場合は、通知の右側にあるボタン ![ ロック切り替え ](assets/lock-toggle-button.png) をクリックして、ロック解除位置 ![ ロック解除切り替え ](assets/unlock-toggle-button.png) に切り替えます。
 
-   >[!NOTE]
-   >
-   >この機能は、段階的な展開の一環として、まずクラスター 4 のお客様のみが使用できます。その後すぐに、他のクラスターでも使用できるようになります。この記事は、その時点で更新されます。
-
    詳しくは、[すべてのグループに対するイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)を参照してください。
+
+ユーザーは、ユーザープロファイルでこれらの通知の頻度をカスタマイズできます。
