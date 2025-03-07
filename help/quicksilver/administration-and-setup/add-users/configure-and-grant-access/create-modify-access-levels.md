@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
+source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 97%
@@ -221,3 +221,6 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 後にそのユーザーの担当業務への管理アクセス権を無効にした場合、「役割請求率と役割コスト率を編集」設定が有効なままなので、担当業務は依然としてそのユーザーに対して表示されます。
 
 これが発生し、担当業務を表示するためのユーザーのアクセス権を削除する必要がある場合は、ユーザーの「役割請求率と役割コスト率を編集」権限設定を無効にする必要があります。手順について詳しくは、[財務データへのアクセス権の付与](grant-access-financial.md)を参照してください。
+
+
+
