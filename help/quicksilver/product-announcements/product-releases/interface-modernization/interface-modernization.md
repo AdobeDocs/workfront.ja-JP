@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Teams エリアを、Workfrontの他のエリアと一致する、より現代�
 
 設定/グループ/承認のプロジェクト、タスク、問題の承認リストを、Workfrontの他のエリアと一貫した、より現代的なデザインに更新しました。
 
-この変更を表示するには、設定/ グループ /承認に移動します。
+この変更を表示するには、設定/ グループ / グループを選択/承認に移動します。
 
 この更新には、エリアに対する視覚的な変更が含まれます。 機能は変更されていません。
 
