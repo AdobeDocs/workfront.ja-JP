@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
+source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,14 @@ Workfrontの他のエリアと一貫した、より現代的なデザインの�
 この更新には、エリアに対する視覚的な変更が含まれます。 機能は変更されていません。
 
 ## アジャイル
+
+### チームリクエストのインターフェイス更新
+
+**プレビューリリース：2025 年 3 月 6 日（PT）、実稼動リリース：発表予定**
+
+チームのリクエスト ページを更新し、Workfrontの他の領域と一致する、より現代的なデザインを追加しました。
+
+この変更を表示するには、チーム / チームを選択/ チームのリクエストに移動します。
 
 ### イテレーションのインターフェイスの更新：概要ページ
 
