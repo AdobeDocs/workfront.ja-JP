@@ -6,10 +6,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: 905aaaa5d300bc71058dd6ee2d568c8fc1229570
+source-git-commit: c8e47417fa52ef2bf5839d351f1376e733dbe1b2
 workflow-type: tm+mt
-source-wordcount: '343'
-ht-degree: 0%
+source-wordcount: '341'
+ht-degree: 2%
 
 ---
 
@@ -52,16 +52,15 @@ Workfront Data Connect を使用すると、多くの新しいビジュアライ
 
 準備中：
 
-* フライトプランクエリ
-* プロジェクトアクティビティクエリ
-* プロジェクトのツリーマップクエリ
-* 人物クエリ
-
+* フライトプラン
+* プロジェクトアクティビティ
+* プロジェクトのツリーマップ
+* チームごとのアクティビティ
 <!--
 * [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
 * [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
-* [People queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
+* [Activity by team queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 -->
 
 ### ヘルプを要求
