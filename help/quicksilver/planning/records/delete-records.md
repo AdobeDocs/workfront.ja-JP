@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '704'
+source-wordcount: '701'
 ht-degree: 52%
 
 ---
@@ -28,7 +28,7 @@ Adobe Workfront Planning 内で関係がなくなったレコードを削除で�
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -82,7 +82,7 @@ Adobe Workfront Planning 内で関係がなくなったレコードを削除で�
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースに対する参加以上の権限</a> </p>  
+   <td>   <p>Workspace <!--<span class="preview">and record type</span>--> </a> への投稿以上の権限 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr> 
 <tr> 

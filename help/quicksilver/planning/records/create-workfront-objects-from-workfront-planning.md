@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1141'
+source-wordcount: '1138'
 ht-degree: 10%
 
 ---
@@ -58,7 +58,7 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レ
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -113,7 +113,7 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レ
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td> <p>レコードの追加先となるワークスペースに対する権限を管理します。 </p>  
+   <td> <p>レコードを追加するワークスペース <!--<span class="preview">and record type</span>--> への権限を管理します。 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
    <p>子オブジェクト（プロジェクト）を追加するためのWorkfront オブジェクト（ポートフォリオ）への権限を管理します。</p>
    </td> 

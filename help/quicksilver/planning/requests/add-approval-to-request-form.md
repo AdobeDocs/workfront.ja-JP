@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '707'
 ht-degree: 17%
@@ -19,7 +19,7 @@ ht-degree: 17%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -93,7 +93,7 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
    <ul>
-   <li><p>ワークスペースに対する権限の管理</p></li>
+   <li><p>ワークスペースに対する権限の管理 <!--<span class="preview">and record type</span>--></p></li>
     <li><p>システム管理者は、自分が作成していないワークスペースを管理できます。 </p></li>
     </ul>
    <p>Workfront Planning オブジェクトの共有権限について詳しくは、
@@ -148,7 +148,7 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
    >* すべての承認者は、リクエストが承認または却下される前に決定を行う必要があります。
 
 
-1. （任意）これまでにリクエストフォームを共有したことがない場合は **** Publish} をクリックします
+1. （任意）リクエストフォームを共有したことがない場合は、「**公開**」をクリックします
 
    または
 
@@ -157,7 +157,7 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
 
    >[!NOTE]
    >
-   >   組織のWorkfront インスタンスは、ユーザーがメールおよびアプリ内通知を受信できるように、Adobeの Unified Experience にオンボーディングされる必要があります。
+   >   組織のWorkfront インスタンスは、ユーザーがメールおよびアプリ内通知を受信できるように、Adobe統合エクスペリエンスにオンボーディングされている必要があります。
 
 
    リクエストの承認について詳しくは、[ リクエストの承認 ](/help/quicksilver/planning/requests/approve-request.md) を参照してください。

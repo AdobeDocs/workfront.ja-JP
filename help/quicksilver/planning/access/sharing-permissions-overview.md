@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 43%
+source-wordcount: '922'
+ht-degree: 41%
 
 ---
 
@@ -18,17 +18,17 @@ ht-degree: 43%
 
 # Adobe Workfront Planning での共有権限の概要
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
+
+
 {{planning-important-intro}}
 
 Adobe Workfront Planning のワークスペースまたはビューに対する権限を共有または削除できます。
 
 この記事では、Workfront Planning オブジェクトの権限レベルについて説明します。
-
-ワークスペースまたはビューを共有する方法については、次の記事を参照してください。
-
-* [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
-
-* [ビューの共有](/help/quicksilver/planning/access/share-views.md)
 
 ## Adobe Workfront Planning で共有できるオブジェクト
 
@@ -40,6 +40,22 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
    * ワークスペースを共有すると、そのワークスペースに関連付けられているすべてのレコードタイプ、レコードおよびフィールドも共有されます。
    * ワークスペースを共有する場合、ビューは共有されません。 ビューは個別に共有されます。
 
+  詳しくは、「ワークスペースの共有 [ を参照してください ](/help/quicksilver/planning/access/share-workspaces.md)
+
+<!--
+<div class="preview">
+
+* Record types
+
+    * You can share record types with people inside your organization.
+    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
+    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+
+    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+-->
+
 * ビュー
 
    * システム管理者を含むユーザーに、ワークスペースへのアクセス権限とは別に、ビューへのアクセス権限を付与する必要があります。
@@ -47,12 +63,20 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
    * ビューを共有すると、そのビューに表示されているレコードは共有されません。 レコードは、ワークスペースを共有することで共有する必要があります。
    * ビューに公開リンクを生成すると、組織外のユーザーとビューを公開で共有できます。公開リンクからレコードページにアクセスしたユーザーは、接続されたレコードやフィールドを含むすべてのレコードとそのフィールドを表示できます。
 
-  詳しくは、[ ビューの共有 ](/help/quicksilver/planning/access/share-views.md) を参照してください。
+  詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
 内部的には、次のWorkfront エンティティとワークスペースまたはビューを共有できます。
 
 * ユーザー
 * グループ
+
+<div class="preview">
+
+* チーム
+* 会社
+* 担当業務
+
+</div>
 
 ## Adobe Workfront Planning でのオブジェクトの共有に関する考慮事項
 
@@ -78,7 +102,7 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 >
 >以下に示された権限のレベルは、すべてのユーザーに付与できるわけではありません。Workfront Planning オブジェクトに対して持つことができる権限のレベルは、ユーザーの個々のライセンスによって決まります。
 >
->標準（またはプラン）ライセンスのユーザーのみが、Contributeまたはワークスペースに対する管理権限、およびビューに対する管理権限を持つことができます。
+>標準（またはプラン）ライセンスのユーザーのみが、ワークスペースに対する投稿権限または管理権限、およびビューに対する管理権限を持つことができます。
 > 
 >他のすべてのライセンスタイプを持つユーザーは、ワークスペースおよびビューに対する表示権限を持つことができます。
 >
@@ -105,7 +129,7 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 
 ### レコードタイプの権限
 
-レコードタイプの権限は、ワークスペースに権限を付与すると継承されます。
+<!--In the Production environment,--> ワークスペースに権限を付与すると、レコードタイプの権限は常に継承されます。
 
 レコードタイプの権限のレベルは次のとおりです。
 
@@ -116,6 +140,27 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 | 削除 | ✓ |            |       |
 | 編集 | ✓ |            |       |
 | 表示 | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+
+You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+
+The following scenarios exist: 
+
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, No permissions           | 
+| Contribute |     Contribute |  Contribute, View, No permissions        |
+| View   |  View     |      View, No permissions        |     
+
+
+</div>
+
+-->
 
 ### レコード権限
 

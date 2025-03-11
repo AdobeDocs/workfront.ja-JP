@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 24%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 24%
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -64,8 +64,8 @@ ht-degree: 24%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。</p> 
-<p>組織内のユーザーは、組織がAdobeの Unified Experience にオンボーディングされた場合にのみ、Workfront Planning から通知を受け取ります。 </p>
+<p>組織のWorkfront インスタンスは、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>組織内のユーザーは、組織がWorkfront Unified Experience にオンボーディングされた場合にのみ、Adobe Planning から通知を受け取ります。 </p>
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -101,7 +101,7 @@ ht-degree: 24%
 <!--
 OLD:
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 <table style="table-layout:auto">
  <col>

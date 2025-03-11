@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '441'
-ht-degree: 85%
+ht-degree: 78%
 
 ---
 
@@ -87,7 +87,7 @@ ht-degree: 85%
 
 * レコードタイプを Workfront オブジェクトタイプと関連付け、Workfront オブジェクトからリンクされたフィールドまたは参照フィールドを追加した場合にのみ、Workfront Planning から Workfront フィールドにアクセスできます。詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
-* フィールドが属するワークスペースに対する管理権限を持っている場合は、自分または他のユーザーが作成したフィールドの設定を表示および更新できます。
+* 自分または他のユーザーが作成したフィールドの設定を表示および更新できます（フィールドが属するワークスペースに対する管理権限がある場合） <!--<span class="preview">and record type</span>-->
 
 * 1 つのレコードタイプに対して最大 500 個のフィールドを設定できます。
 

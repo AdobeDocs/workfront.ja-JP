@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 46%
+source-wordcount: '885'
+ht-degree: 42%
 
 ---
 
@@ -33,7 +33,7 @@ This article describes how you can share a view with others. For information abo
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -101,66 +101,22 @@ This article describes how you can share a view with others. For information abo
 
 +++
 
+## ワークスペースの共有に関する考慮事項
+
+* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
+* 組織内のユーザー、<span class="preview"> チーム、役割、グループまたは会社とワークスペースを共有 </span> きます。
+* 組織外のユーザーとワークスペースを共有することはできません。
+* ワークスペースを共有すると、そのワークスペースに関連付けられているすべてのレコードタイプ、レコードおよびフィールドも共有されます。
+* ワークスペースを共有する場合、ビューは共有されません。 ビューは別々に共有する必要があります。
+
 <!--
-
-OLD: 
+<div class="preview">
  
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
+* Workspace permissions display as Inherited permissions on record types. 
 
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</p>  
-</td>
-  </tr>
+</div>
 
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
-
+-->
 
 ## ワークスペースに対する権限の共有
 

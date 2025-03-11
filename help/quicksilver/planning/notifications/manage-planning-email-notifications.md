@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '654'
 ht-degree: 14%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 <table style="table-layout:auto"> 
 <col> 
@@ -69,8 +69,8 @@ ht-degree: 14%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfrontのインスタンスは、Adobeの Unified Experience にオンボーディングされる必要があります。</p> 
-<p>組織内のユーザーは、組織がAdobeの Unified Experience にオンボーディングされた場合にのみ、Workfront Planning から通知を受け取ります。 </p>
+<p>組織のWorkfront インスタンスは、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>組織内のユーザーは、組織がWorkfront Unified Experience にオンボーディングされた場合にのみ、Adobe Planning から通知を受け取ります。 </p>
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -191,7 +191,7 @@ Adobe Workfront Planning 通知の管理については、[Workfront Planning �
 ## Workfront Planning 要求の送信、承認または拒否に関する電子メール通知の管理
 
 1. （任意） Workfrontから送信されるメールに移動します
-リクエストを送信した後、または送信したリクエストが承認または却下された後。 メールの送信者はAdobeの Workfront です。
+リクエストを送信した後、または送信したリクエストが承認または却下された後。 メールの送信者はAdobe Workfront です。
 
 1. （任意）「**リクエストを開く**」をクリックします。 これにより、Workfront Planning でリクエストが開きます。
 

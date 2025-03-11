@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '886'
-ht-degree: 14%
+ht-degree: 13%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 14%
 
 <!-- do you need to add that only workspace owners can view the Submitted/ Planning tab?? - asking team in slack-->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -105,7 +105,7 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
    <ul>
-   <li><p>ワークスペースに対する権限の管理</p></li>
+   <li><p>Workspace <!--<span class="preview">and record type</span>--> ージに対する権限の管理 </p></li>
     <li><p>システム管理者は、自分が作成していないワークスペースを管理できます。 </p></li>
     </ul>
    <p>Workfront Planning オブジェクトの共有権限について詳しくは、
@@ -135,7 +135,7 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 
 >[!NOTE]
 >
->組織のWorkfront インスタンスは、ユーザーがメールおよびアプリ内通知を受信できるように、Adobeの Unified Experience にオンボーディングされる必要があります。
+>組織のWorkfront インスタンスは、ユーザーがメールおよびアプリ内通知を受信できるように、Adobe統合エクスペリエンスにオンボーディングされている必要があります。
 
 リクエストを承認するには：
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ WorkfrontのWorkfront Planning レコードは、それらに接続されたオ�
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -92,7 +92,11 @@ WorkfrontのWorkfront Planning レコードは、それらに接続されたオ�
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
    <p>Workfrontで、プロジェクト、ポートフォリオまたはプログラムに対する表示以上の権限 </a> </p> 
-   <p>Workfront Planning で、ワークスペースへのアクセス権を表示して接続レコードを表示するか、またはワークスペースへの Contribute 以上のアクセス権でレコードを接続または切断 </a> ます。 </p>  
+   <p>Workfrontの計画では、次の操作を行います。
+   <ul><li>
+   ワークスペースに対する権限の表示 <!--<span class="preview">and record type</span>--> 接続されたレコードの表示 </li>
+   または
+   <li> レコードを接続または切断するた <!--<span class="preview">and record type</span>--> のワークスペースへの投稿以上の権限</a></li></ul> </p>  
    <p>システム管理者には、未作成のワークスペースを含むすべてのWorkfront Planning ワークスペースに対する権限があります</p> 
   </td>
   </tr>

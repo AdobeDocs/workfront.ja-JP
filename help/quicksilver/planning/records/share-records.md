@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 74%
+source-wordcount: '510'
+ht-degree: 70%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 74%
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # レコードの共有
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +32,28 @@ ht-degree: 74%
 
 * レコードタイプのテーブルビューのレコードを表示する際に、レコードのページへのリンクをコピーします。
 
-* ワークスペースを共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有できます。詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
+* ワークスペース <!--<span class="preview">and record type</span>--> を共有すると、ワークスペース内のすべてのレコードを他のユーザーと共有できます。 詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
+
+<!-- replace the last sentence above with this: 
+
+For more information see the following articles:
+
+* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+
+<div class="preview">
+
+* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
+
+-->
 
 この記事では、レコードタイプのテーブルビューからレコードのページへのリンクをコピーする方法について説明します。
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -88,8 +107,8 @@ ht-degree: 74%
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>  <p>リンクを使用してレコードを共有するワークスペースに対する表示権限またはそれ以上の権限 </p>
-   <p>ワークスペースに対する権限の管理：レコードが属するワークスペースのレコードを共有します </p>
+   <td>  <p>ワークスペースに対する表示以上の権限を持ち、リンクを使用してレコード <!--<span class="preview">and record type</span>--> 共有します </p>
+   <p>ワークスペースのレコードを共有するた <!--<span class="preview">and record type</span>--> のワークスペースに対する権限の管理 </p>
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
   </tr> 
 <tr> 

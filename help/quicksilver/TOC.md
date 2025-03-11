@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 321a29a4792bf8a40c04e46e8b29bf44e092678f
+source-git-commit: e4c037b3c5d77094db51c159dcd045aa34fcbe61
 workflow-type: tm+mt
-source-wordcount: '13063'
+source-wordcount: '13066'
 ht-degree: 89%
 
 ---
@@ -2049,6 +2049,7 @@ ht-degree: 89%
       * [Adobe Workfront Planning での共有権限の概要](planning/access/sharing-permissions-overview.md)
       * [Adobe Workfront Planning 使用時のライセンスタイプの概要](planning/access/license-type-overview.md)
       * [ワークスペースの共有](planning/access/share-workspaces.md)
+      * [レコードタイプの共有](planning/access/share-record-types.md)
       * [ビューの共有](planning/access/share-views.md)
       * [ビューまたはワークスペースに対する権限のリクエスト](planning/access/request-permissions.md)
    * Adobe Workfront計画レコード {#adobe-workfront-planning-records}

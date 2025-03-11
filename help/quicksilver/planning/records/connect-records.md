@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '3330'
+source-wordcount: '3327'
 ht-degree: 39%
 
 ---
@@ -58,7 +58,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -118,8 +118,8 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>レコードを接続するためのワークスペースへの投稿以上の権限 </p>  
-   <p>ワークスペースに対する表示以上の権限。他のアプリケーションでのアクセス権に関係なく、他のアプリケーションからのオブジェクトおよびフィールドに対するすべての接続を表示します。 </p>
+   <td>   <p>レコードを接続するた <!--<span class="preview">and record type</span>--> のワークスペースへの投稿以上の権限 </p>  
+   <p>ワークスペースに対する表示以上の権限 <!--<span class="preview">and record type</span>-->、他のアプリケーションでのアクセス権に関係なく、他のアプリケーションからのオブジェクトおよびフィールドへのすべての接続を表示します。 </p>
    <p>WorkfrontまたはExperience Manager Assetsからリンクするオブジェクトに対する表示以上の権限。 </p>
    <p>システム管理者は、自分が作成したものでないものも含めて、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr> 

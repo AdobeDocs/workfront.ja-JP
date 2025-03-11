@@ -6,10 +6,10 @@ description: Adobe Workfront に記録されるイシューやリクエストの
 author: Lisa
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 87%
+source-wordcount: '387'
+ht-degree: 85%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Workfront に記録されるイシューやリクエストの種類を、�
 
 ## アクセス要件
 
-+++
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 

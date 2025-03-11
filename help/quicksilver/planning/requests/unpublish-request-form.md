@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '658'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -89,7 +89,7 @@ ht-degree: 27%
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
    <ul>
-   <li><p>ワークスペースに対する権限の管理</p></li>
+   <li><p>Workspace <!--<span class="preview">and record type</span>--> ージに対する権限の管理 </p></li>
     <li><p>システム管理者は、自分が作成していないワークスペースを管理できます。 </p></li>
     </ul>
    <p>Workfront Planning オブジェクトの共有権限について詳しくは、
@@ -149,7 +149,7 @@ ht-degree: 27%
 
    フォームが非公開になったことを知らせる確認が画面の下部に表示されます。
 
-   **非公開** ボタンが **Publish** に変わります。
+   **非公開** ボタンが **公開** に変わります。
 
 1. **保存**&#x200B;をクリックします。
 

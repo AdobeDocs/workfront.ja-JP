@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '2638'
-ht-degree: 60%
+source-wordcount: '2635'
+ht-degree: 61%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -403,7 +403,7 @@ this is not possible right now; if this is the same functionality as the table v
 * タイムラインビューで、選択したレコードタイプのレコードの下に、接続されたレコードまたはオブジェクトを表示できます。
 * 分類機能を使用すると、タイムラインビューに以下を表示できます。
    * 選択したレコードタイプに接続されたWorkfront Planning レコード。
-   * 選択したレコードタイプに接続されたWorkfront オブジェクトタイプまたはExperience Managerアセット。
+   * 選択したレコードタイプに接続されたWorkfront オブジェクトタイプまたはExperience Manager アセット。
    * 選択したレコードタイプに接続されたレコードに接続されている、他のアプリケーションのWorkfront Planning レコードまたはオブジェクト。
 
      例えば、キャンペーンをポートフォリオに接続できます。 さらに、別のレコードタイプである製品をプロジェクトやキャンペーンと関連付けることができます。 キャンペーンタイムライン表示を作成する場合、ポートフォリオ、製品およびプロジェクトごとにキャンペーンを分類できます。

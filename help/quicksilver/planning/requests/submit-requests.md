@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 6%
@@ -90,7 +90,7 @@ Workfront ユーザーと外部ユーザーは、Planning レコードタイプ�
 <tr>
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
-   <p>Workfront ユーザーの場合は、ワークスペースに対する以上の権限を表示します。</p> 
+   <p>Workspace <!--<span class="preview">and record type</span>--> ーザーに対する権限を表示する（Workfront ユーザーの場合）</p> 
   </td>
   </tr>
 <tr>

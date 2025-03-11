@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: cf42511263ec1cffd90d1e4bdcd43521b7fe6a30
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 90%
+source-wordcount: '651'
+ht-degree: 80%
 
 ---
 
 # 履歴セクションの概要
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
@@ -25,6 +29,76 @@ ht-degree: 90%
 
 * **コメント**：ユーザーがレコードに追加したコメントおよび返信を表示します。Workfront Planning レコードでのコメントの管理について詳しくは、[レコードのコメントの管理](/help/quicksilver/planning/records/manage-record-comments.md)を参照してください。
 * **履歴**：ユーザーがレコードのフィールドに対して行い、システムで記録された変更を表示します。
+
+## アクセス要件
+
++++ 展開してアクセス要件を表示します…
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> 製品</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> 
+<p>次のいずれかのWorkfront プラン：</p> 
+<ul><li>選択</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
+   <td> 
+<p>任意 </p> 
+<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> <p>標準</p>
+   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>Workspace <!--<span class="preview">and record type</span>--> </a> への表示以上の権限 </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
+   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## レコードの履歴セクションを見つける
 

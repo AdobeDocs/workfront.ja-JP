@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 23%
+source-wordcount: '475'
+ht-degree: 21%
 
 ---
 
@@ -17,16 +17,14 @@ ht-degree: 23%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 
 Workfront アカウントを持っていない他のユーザーとのより効率的な共同作業を行うために、レコードの詳細をファイルに書き出して共有できます。
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -80,7 +78,7 @@ Workfront アカウントを持っていない他のユーザーとのより効�
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースに対する表示またはそれ以上の権限</a> </p>  
+   <td>   <p>Workspace <!--<span class="preview">and record type</span>--> </a> への表示以上の権限 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr> 
 <tr> 
@@ -129,7 +127,7 @@ Workfront アカウントを持っていない他のユーザーとのより効�
    * **Microsoft Word**
    * **Adobe PDF**
 
-   Word （.docx）またはPDF ファイルがダウンロードされ、コンピュータに保存されます。
+   Word （.docx）またはPDF ファイルがダウンロードされ、コンピューターに保存されます。
 
    書き出されるファイルの名前は、レコードのプライマリフィールドです。
 
@@ -137,7 +135,7 @@ Workfront アカウントを持っていない他のユーザーとのより効�
 
    >[!NOTE]
    >
-   >    ページに表示されず、レコードの詳細領域の「詳細を表示」をクリックした後にのみ表示される追加情報は、書き出されたPDFファイルには表示されません。 ページに表示される情報のみが書き出されたファイルに表示されます。
+   >    ページに表示されず、レコードの詳細領域の「詳細を表示」をクリックした後にのみ表示される追加情報は、書き出されたPDF ファイルには表示されません。 ページに表示される情報のみが書き出されたファイルに表示されます。
 
 
 1. （オプション）ダウンロードしたファイルに移動して、ファイルを開いて編集するか（Word ファイルの場合）、他のユーザーと共有します。

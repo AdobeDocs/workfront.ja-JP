@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 11%
@@ -15,6 +15,10 @@ ht-degree: 11%
 
 
 # プライマリフィールドの概要
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,4 +53,4 @@ ht-degree: 11%
 * テーブルビューのプライマリフィールドを変更すると、それを選択した他のすべてのユーザーのビューに影響します。
 * テーブル ビューの主フィールドを変更すると、レコード タイプのすべてのテーブル ビューに影響します。
 * プライマリフィールドにリスト表示される値は、レコードのページに常にハイパーリンクされます。
-* ワークスペースに対するContribute以上の権限を持っている場合は、式フィールドを除くプライマリフィールドの値を編集できます。 数式は、自動的に更新される計算です。
+* Workspace <!--<span class="preview">and record type</span>--> に対する投稿以上の権限を持っている場合は、数式フィールドを除くプライマリフィールドの値を編集できます。 数式は、自動的に更新される計算です。

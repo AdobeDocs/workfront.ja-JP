@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 16%
+source-wordcount: '611'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->この記事で説明されている機能は、組織がAdobeの統合エクスペリエンスにオンボーディングされた場合にのみ使用できます。
+>この記事で説明されている機能は、組織がAdobe統合エクスペリエンスにオンボーディングされた場合にのみ使用できます。
 >
 >詳しくは、[Workfront の Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
@@ -36,7 +36,7 @@ ht-degree: 16%
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -74,7 +74,7 @@ ht-degree: 16%
    <td> 
 <p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
 <p><b>重要</b></p>
-<p>組織内のユーザーは、組織がAdobeの Unified Experience にオンボーディングされている場合にのみ、ビューとワークスペースに対する権限をリクエストできます。 </p>
+<p>組織内のユーザーは、組織がAdobe Unified Experience にオンボーディングされている場合にのみ、ビューとワークスペースに対する権限をリクエストできます。 </p>
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -94,7 +94,7 @@ ht-degree: 16%
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>  <p>許可リクエストが許可されると、次の権限を取得できます。</p>
    <ul><li><p>ビューの表示または管理</p></li>
-   <li><p>ワークスペースの表示、Contributeまたは管理</p></li></ul>  
+   <li><p>ワークスペースの表示、投稿、または管理</p></li></ul>  
    <p>ワークスペースおよびビューに対する管理権限を持つユーザーのみが、ビューを公開して共有できます。</p></td> 
   </tr> 
 <tr> 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1916'
-ht-degree: 9%
+source-wordcount: '1913'
+ht-degree: 8%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 ## アクセス要件
 
-+++ 展開すると、Workfront Planning のアクセス要件が表示されます。
++++ 展開してアクセス要件を表示します…
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -99,7 +99,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 <tr>
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
-   <p>ワークスペースに対する参加以上の権限</a> </p>  
+   <p>Workspace <!--<span class="preview">and record type</span>--> </a> への投稿以上の権限 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> 
   </td>
   </tr>
