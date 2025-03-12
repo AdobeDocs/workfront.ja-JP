@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 0289e2d0a3f75827b9c799b72fdc4e9ca1c59949
 workflow-type: tm+mt
-source-wordcount: '118'
-ht-degree: 78%
+source-wordcount: '124'
+ht-degree: 75%
 
 ---
 
@@ -28,5 +28,6 @@ ht-degree: 78%
 * [[!UICONTROL ホーム]エリアでの作業およびチームリクエストの管理](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [[!UICONTROL ホーム]エリア内の作業項目の更新または編集](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
 * [[!UICONTROL  ホーム ] エリアからの作業項目とプロジェクトの作成](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [個人の To Do アイテムの作成と管理](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
 * [[!UICONTROL ホーム]エリアから作業項目の時間を記録](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [[!UICONTROL ホーム]エリアで項目を[!UICONTROL 完了]としてマーク](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)

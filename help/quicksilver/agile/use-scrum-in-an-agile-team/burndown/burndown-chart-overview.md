@@ -7,10 +7,10 @@ description: バーンダウンチャートには、ストーリーがイテレ�
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 99%
+source-wordcount: '970'
+ht-degree: 96%
 
 ---
 
@@ -31,31 +31,31 @@ ht-degree: 99%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="理想的なバーンダウン率開始"> </td> 
    <td> <p>イテレーションが開始された時点に基づく理想的なバーンダウン率。</p> <p>イテレーションの範囲が変更されない（時間やポイントが追加または削除されない）場合、この行は表示されません。</p> <p>この線は、休日に作業が行われる場合は平坦に表示されます。詳しくは、<a title="アジャイルバーンダウンチャートの使用" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休日がバーンダウンチャートに与える影響</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="ストーリーまたはタスクの理想的なバーンダウン率"> </td> 
    <td> <p>現在のストーリーまたはタスクに基づく理想的なバーンダウン率。</p> <p>イテレーション開始後にイテレーションに時間またはポイントが追加または削除されると、現在の理想的なバーンダウン率（青色の実線）は、元の理想的なバーンダウン率（青色の点線）とは異なります。</p> <p>この線は、休日に作業が行われる場合は平坦に表示されます。</p> <p>詳しくは、<a title="アジャイルバーンダウンチャートの使用" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">休日がバーンダウンチャートに与える影響</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="実際のバーンダウン率（赤）"> </td> 
    <td> <p>バーンダウン率が理想的な値（理想的なバーンダウン計算より 1 日あたりの残りポイント数または時間数が多い）未満の場合、実際のバーンダウン率は赤色で表示されます。</p> <p>次の式は、実際のバーンダウン率を計算するために使用されます。</p> <p>[SUM（進行中の作業のポイントまたは時間値 * 完了率）+ 完了した作業のポイントまたは時間値]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="実際のバーンダウン率（緑）"> </td> 
    <td> <p>バーンダウン率が理想的な値以上（理想的なバーンダウン計算より 1 日当たりの残りポイント数が同じか、または少ない場合）には、実際のバーンダウン率が緑色で表示されます。</p> <p>次の式は、実際のバーンダウン率を計算するために使用されます。</p> <p>[SUM（進行中の作業のポイントまたは時間値 * 完了率）+ 完了した作業のポイントまたは時間値]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="スコープの変更"> </td> 
    <td> <p>範囲の変更（時間またはポイントがイテレーションから追加または削除される）。</p> <p>範囲の変更は、常に 1 日の中央に縦線で表示されます。また、範囲の変更が発生した日の中央に青色の点が表示されます。</p> <p>バーンダウンチャートの縦軸は、ストーリーのポイントまたは時間を示します。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="日付範囲の変更"> </td> 
    <td> <p>日付範囲の変更（イテレーション期間が増加または減少）。</p> <p>イテレーション期間が変更された日の中央に、青色の点が表示されます。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="焼け落ちた仕事のためのジーンドット"> </td> 
    <td> <p>作業がバーンダウンするたびに、実際のバーンダウン率に緑色または赤色の点が表示されます。（その日の実際のバーンダウン率が赤色の場合、点は赤色、その日の実際のバーンダウン率が緑色の場合、点は緑色です。）</p> <p>次のいずれかが発生すると、作業はバーンダウンします。</p> 
     <ul> 
      <li> ストーリーの [!UICONTROL Percent Complete] が増加します。<br>[!UICONTROL Percent Complete] は、次の場合に増加します。 

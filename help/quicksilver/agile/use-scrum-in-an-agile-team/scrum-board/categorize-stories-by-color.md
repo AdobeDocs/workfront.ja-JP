@@ -6,10 +6,10 @@ description: スクラムボードストーリーのデフォルトの色分け�
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 95%
+source-wordcount: '427'
+ht-degree: 89%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 ストーリーのデフォルトの色分けは、ストーリーボードが反復に配置されているかプロジェクトに配置されているかによって異なります。
 
-* **[!UICONTROL イテレーション]**：イテレーションでは、ストーリーボードのタイルは、ストーリーが関連付けられているプロジェクトに従って色分けされます。（各プロジェクトには、ストーリーボード上で色が任意に割り当てられます）。このデフォルトの動作は、アジャイルチームごとに変更できます。反復でのアジャイルストーリーの色は、プロジェクト（デフォルト）、ストーリーの優先度、所有者または自由形式に関連付けることができます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[アジャイルストーリーボードでストーリーに使用するカラーインジケーターの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)を参照してください。
+* **[!UICONTROL イテレーション]**：イテレーションでは、ストーリーボードのタイルは、ストーリーが関連付けられているプロジェクトに従って色分けされます。（各プロジェクトには、ストーリーボード上で任意に色が割り当てられます）。 このデフォルトの動作は、アジャイルチームごとに変更できます。 反復でのアジャイルストーリーの色は、プロジェクト（デフォルト）、ストーリーの優先度、所有者または自由形式に関連付けることができます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[アジャイルストーリーボードでストーリーに使用するカラーインジケーターの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur4)を参照してください。
 
 * **[!UICONTROL プロジェクト]**：プロジェクトでは、サブタスクは親タスクの色と一致するので、特定のスイムレーン内のストーリーの色はすべて同じになります。サブタスクや親タスクがないタスクの色は、タスクを作成するときにランダムに割り当てられます。このデフォルトの動作は、アジャイルビューを編集することで変更できます。プロジェクトでのアジャイルストーリーの色は、親ストーリー（デフォルト）、ストーリーの優先度、所有者または自由形式に関連付けることができます。詳しくは、[ビューの概要： [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) の[[!UICONTROL アジャイル]ビューの作成またはカスタマイズ](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view)を参照してください。
 
@@ -59,8 +59,8 @@ ht-degree: 95%
 1. 左パネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選ぶか、「**[!UICONTROL 進行中の反復]**」を選択します。
 1. ストーリータイルの上部にある色付きバナーにポインタを合わせます。
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![ ストーリーカード ](assets/agile-story-color1-nwe-350x140.png)
 
 1. 「**[!UICONTROL 色の変更]**」をクリックし、目的の色を選択します。
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![ 色を選択 ](assets/agile-story-color2-nwe-350x138.png)

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: e4c037b3c5d77094db51c159dcd045aa34fcbe61
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '13066'
+source-wordcount: '13072'
 ht-degree: 89%
 
 ---
@@ -849,6 +849,7 @@ ht-degree: 89%
          * [ホームエリアでの作業リクエストとチームリクエストの管理](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
          * [ホームエリアでの作業アイテムの更新または編集](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
          * [ホームエリアからの作業項目とプロジェクトの作成](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+         * [個人の To Do アイテムの作成と管理](workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
          * [作業アイテムの時間をホームエリアから記録する](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [ホームエリアで項目を完了としてマーク](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [マイ更新エリアの使用](workfront-basics/using-home/using-the-home-area/my-updates-area.md)

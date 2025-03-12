@@ -6,7 +6,7 @@ description: 様々な方法を使って、1 つの反復で 1 つのアジャ�
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 97%
@@ -65,7 +65,7 @@ ht-degree: 97%
    1. 左のパネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選択するか、または「**[!UICONTROL 進行中の反復]**」を選択します。
    1. ストーリーを作成する特定のイテレーションの名前をクリックします。
 
-   ![反復への新しいストーリーの追加](assets/iteration-add-story.png)
+   ![反復への新しいストーリーの追加](assets/iteration-stories-list.png)
 
 1. 「**[!UICONTROL 新規ストーリー]」をクリックします。**
 1. 次の情報を指定します。

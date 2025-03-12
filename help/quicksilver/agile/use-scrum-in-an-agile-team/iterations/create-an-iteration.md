@@ -6,10 +6,10 @@ description: イテレーションは、スクラムアジャイルチームが�
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 88%
+source-wordcount: '1119'
+ht-degree: 83%
 
 ---
 
@@ -101,7 +101,14 @@ ht-degree: 88%
 
 1. （オプション）**[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームを切り替えアイコン](assets/switch-team-icon.png) をクリックし、ドロップダウンメニューから新しいスクラムチームを選択するか、検索バーでチームを検索します。
 
-1. 左パネルの「**[!UICONTROL バックログ]**」を選択します。次に、「**[!UICONTROL イテレーションの計画]**」をクリックします。
+1. 左側のパネルで **[!UICONTROL バックログ]** を選択します。
+
+1. **ストーリー** または **イシュー** タブで、少なくとも 1 つの作業項目を選択し、「**[!UICONTROL 反復を計画]**」をクリックします。
+
+>[!NOTE]
+>
+> 「バックログ」タブでイテレーションを計画する際に、「ストーリー」タブまたは「イシュー」タブを切り替えることはできません。 イテレーションが作成されたら、既存のストーリーまたはイシューを追加できます。 詳しくは、[ バックログからイテレーションまたはボードへのストーリーの移動 ](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board) を参照してください。
+
 
 1. 次の情報を指定します。
 

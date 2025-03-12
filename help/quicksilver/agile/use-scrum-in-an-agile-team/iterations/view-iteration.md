@@ -6,7 +6,7 @@ description: 特定のチームのすべての反復を表示することも、�
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 556a2b89f2e380d3a0725f0d53251d3e1e3c7ca7
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 84%
@@ -64,4 +64,4 @@ ht-degree: 84%
 1. （任意）表示する特定のイテレーションの名前をクリックします。
 反復のストーリーが表示されます。
 
-   ![[!UICONTROL イテレーションのストーリー]](assets/iteration-stories-list-NWE.png)
+   ![[!UICONTROL イテレーションのストーリー]](assets/iteration-stories-list.png)

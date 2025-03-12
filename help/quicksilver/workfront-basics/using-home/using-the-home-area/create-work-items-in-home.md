@@ -6,9 +6,9 @@ description: '[!UICONTROL  ホーム ] エリアから作業項目およびプ�
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '842'
 ht-degree: 14%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 14%
 
 ホームでは、次のことができます
 
-* 個人用タスクを作成する
 * リクエストの送信
 * 特定のプロジェクトへのタスクと問題の追加
 * テンプレートまたは空のプロジェクトからプロジェクトを作成するか、MS プロジェクトをインポートします。

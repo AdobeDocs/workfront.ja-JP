@@ -7,10 +7,10 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 93%
+source-wordcount: '1917'
+ht-degree: 92%
 
 ---
 
@@ -104,7 +104,9 @@ ht-degree: 93%
 
 グローバル承認プロセスを作業アイテム（プロジェクト、タスク、イシュー、テンプレート、テンプレートのタスク）に関連付けることができます。
 
-グローバル承認プロセスは、作業アイテムに関連付けられたグループまたはシステム内のすべてのグループに対して使用可能である必要があります。
+所属するグループまたはシステム内のすべてのグループと共有されている限り、任意のグローバル承認プロセスにアクセスできます。
+
+<!--The global approval process must be available to the group associated with the work item or to all groups in the system.-->
 
 >[!NOTE]
 >
