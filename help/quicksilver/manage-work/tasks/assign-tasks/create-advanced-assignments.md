@@ -1,16 +1,16 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: 高度な割り当てを作成
+title: 高度な割り当ての作成
 description: 高度な割り当てを使用して、タスクまたはイシューの割り当てを管理できます。
 author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 94%
+source-wordcount: '1132'
+ht-degree: 87%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 94%
 
 ## 高度な割り当てを行える Adobe Workfront の領域
 
-この記事では、タスクまたはイシューのヘッダーで高度な割り当てにアクセスする方法について説明します。
+この記事では、タスクまたは問題のヘッダーで詳細割り当てにアクセスする方法について説明します。
 
 Workfront の次の領域でも、高度な割り当てをおこなうことができます。
 
@@ -49,6 +49,8 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
+この記事の手順を実行するには、次のアクセス権が必要です。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -58,7 +60,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：標準</p>
     <p>現在：ワーク以上</p> </td> 
   </tr> 
@@ -73,7 +75,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -85,18 +87,17 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    >[!TIP]
    >
    >複数の担当者が割り当てられている場合は、タスクまたはイシューのリストで直接、高度な割り当てを行うことができます。タスクまたはイシューと同じ行の&#x200B;**割り当て**&#x200B;フィールド内をクリックし、**ユーザーアイコン**&#x200B;をクリックして、高度な割り当てウィンドウを開きます。高度な割り当ての作成を続行するには、手順 5 に進んでください。\
-   >![](assets/nwe-advanced-assignments-350x55.png)
-   >
+   >![ 人物アイコンをクリック ](assets/nwe-advanced-assignments-350x55.png)
 
 1. タスクまたはイシューのヘッダーにある&#x200B;**割り当て**&#x200B;フィールドの「**割り当て先**」をクリックします。
 
    または
 
-   タスクまたはイシューが既に割り当てられている場合は、割り当ての名前をクリックします。
+   タスクまたは問題が既に割り当てられている場合は、割り当てられた名前のいずれかをクリックします。
 
 1. 「**詳細**」をクリックします。
 
-   <span class="preview">![ 「詳細」をクリック ](assets/assignments-box-in-task-header.png)</span>
+   ![ 「詳細」をクリック ](assets/assignments-box-in-task-header.png)
 
 1. 「**ユーザー、役割、チームを検索**」フィールドにユーザー、役割、チームの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -104,7 +105,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    >
    >ユーザーの名前に特殊文字が含まれている場合は、その特殊文字を検索フィールドに含める必要があります。
 
-1. （オプション）引き続き&#x200B;**ユーザー、役割、チームを検索**&#x200B;ボックスに担当者を追加して、タスクまたはイシューに複数のリソースを追加します。
+1. （任意）「担当者、役割、チームを検索 **ボックスに担当者を引き続き追加して** タスクまたは問題に複数のリソースを追加します。
 
    >[!TIP]
    >
@@ -116,11 +117,10 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
    >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
    >
    >
-   >* 非アクティブ化前にユーザー、担当業務やチームが、非アクティブ化される前に割り当てられた場合、ユーザー、担当業務やチームは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
+   >* ユーザー、担当業務、またはチームが非アクティブ化される前に割り当てられていた場合、それらは作業アイテムに割り当てられたままになります。この場合、以下の操作をお勧めします。
    >   
    >   * 作業アイテムをアクティブなリソースに再割り当てする。
    >   * 非アクティブ化されたチームのユーザーをアクティブなチームに関連付け、作業アイテムをアクティブなチームに再割り当てする。
-   >
 
    <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
     * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
@@ -135,7 +135,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
      >
      >Workfront 管理者またはグループ管理者がプロジェクトの環境設定をどのように指定したかに応じて、複数のユーザーがタスクに割り当てられている場合、Workfront はタスク所有者のスケジュールを使用してタスクのタイムラインを計算する場合があります。複数のタスクの担当者について詳しくは、[タスクの割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md)の記事の「複数のユーザーをタスクに割り当て」の節を参照してください。
 
-   * **配分**：タスクの期間タイプが「シンプル」の場合は、各ユーザーや担当業務にタスクを割り当てる時間数を指定します。各ユーザーに割り当てられたすべての時間の合計は、「配分」列の下部にある&#x200B;**予定時間数**&#x200B;フィールドの数値と等しくなります。それ以外のすべての期間タイプでは、タスクやイシューの解決に担当者が費やす時間の割合（または配分）を指定します。
+   * **割り当て**：タスクの「期間タイプ」が「シンプル」の場合、各ユーザーまたは担当業務をタスクに割り当てる時間数を指定します。 各ユーザーに割り当てられたすべての時間の合計は、「配分」列の下部にある&#x200B;**予定時間数**&#x200B;フィールドの数値と等しくなります。それ以外のすべての期間タイプでは、タスクやイシューの解決に担当者が費やす時間の割合（または配分）を指定します。
 
      >[!TIP]
      >   
@@ -143,7 +143,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
      >   * イシューに対する割り当ての配分を手動で変更することはできません。
      >   * タスクに割り当てられたチームの配分を手動で変更することはできません。
 
-   * **割り当て先の役割：**&#x200B;この割り当てを実行する際にユーザーが使用する役割を選択します。デフォルトでは、ユーザーの主要役割が表示されます。「割り当て先の役割」ボックスをクリックして、別の役割を選択します。最初にタスクやイシューを役割に割り当て、次にその役割を実行できるユーザーを 2 番目の割り当てとして追加すると、ユーザー候補のリストは、タスクやイシューに既に割り当てられている役割を実行できるユーザーに絞り込まれます。
+   * **割り当て先の役割：**&#x200B;この割り当てを実行する際にユーザーが使用する役割を選択します。デフォルトでは、ユーザーの主要役割が表示されます。「**担当者の役割**」ボックスをクリックして、別の役割を選択します。 最初にタスクやイシューを役割に割り当て、次にその役割を実行できるユーザーを 2 番目の割り当てとして追加すると、ユーザー候補のリストは、タスクやイシューに既に割り当てられている役割を実行できるユーザーに絞り込まれます。
 
      ![ 割り当て先の役割 ](assets/advanced-assignments-select-role.png)
 
@@ -162,6 +162,5 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
      詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。割り当て情報を一括編集すると、ユーザー、時間数、配分およびタスク所有者を割り当てるための同様のダイアログボックスが表示されます。
 
    * **予定時間数**：期間タイプが「予定割り当て時間」または「シンプル」の場合は、予定時間数の数値を更新します。その結果、それぞれのリソースの配分率または時間数が均等に配分されます。Workfront では、期間タイプが「予定作業」または「残存作業時間の優先」の場合は、予定時間数を計算します。詳しくは、[タスクの期間と期間タイプの概要](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)を参照してください。
-
 
 1. **保存**&#x200B;をクリックします。

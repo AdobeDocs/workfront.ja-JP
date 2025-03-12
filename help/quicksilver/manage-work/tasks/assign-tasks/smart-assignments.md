@@ -7,10 +7,10 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 77%
+source-wordcount: '583'
+ht-degree: 73%
 
 ---
 
@@ -51,23 +51,23 @@ ht-degree: 77%
 
 * 割り当て列のイシューのリストまたはレポート
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![ 問題リストの割り当て列 ](assets/smart-assignments-issue-list.png)
 
 * 割り当て列のタスク リストまたはレポート
 
-  ![](assets/smart-assignments-task-list.png)
+  ![ 「タスク・リストの割当て」列 ](assets/smart-assignments-task-list.png)
 
 * 「割り当て」フィールドのタスクヘッダー
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![ タスク ヘッダーの [ 割り当て ] フィールド ](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * 「割り当て」フィールドのイシューヘッダー
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![ 問題ヘッダー割り当てフィールド ](assets/smart-assignments-issue-header.png)
 
 * 割り当てエリアのタスクまたはイシューの概要パネル
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![ 概要パネルの割り当て領域 ](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ ht-degree: 77%
 
 * タスクまたはイシューを割り当てる際のこの割り当て先エリアのワークロードバランサー
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![ ワークロードバランサーの「割り当て」領域 ](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## スマート割り当て条件
 
@@ -153,7 +152,7 @@ Workfrontは、イシューに対して計算するのと同じ方法で、タ�
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![ スマート割り当ての例 ](assets/smart-assignments-issue-header.png)
 
 次の条件の組み合わせに基づいて、スマート割り当てドロップダウンリストでユーザー候補が提示されます（最も重要候補から最も重要でない候補の順に表示されます）。
 
