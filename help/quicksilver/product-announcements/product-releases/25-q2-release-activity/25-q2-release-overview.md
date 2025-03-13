@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
+source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 44%
+source-wordcount: '1158'
+ht-degree: 42%
 
 ---
 
@@ -26,7 +26,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 
 | 毎月のリリース | 四半期リリース |
 | ----------------- | ----------------- |
-| <ul><li>25.2 （2025 年 2 月 13 日（PT））</li><li>25.3（2025年3月）</li><li>25.4（2025年4月）</li></ul> | <ul><li>25.4（2025年4月）</li></ul> |
+| <ul><li>25.2 （2025 年 2 月 13 日（PT））</li><li>25.3（2025年3月13日（PT））</li><li>25.4（2025年4月10日（PT））</li></ul> | <ul><li>25.4（2025年4月10日（PT））</li></ul> |
 
 >[!NOTE]
 >
@@ -47,6 +47,21 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            カスタムフォームロジックの機能強化</a></p>
+            <p>カスタム Forms ロジックビルダーのインターフェイスが更新され、ロジックルールを作成する場所が増えました。 この新しいデザインは、今後追加される可能性のある追加のロジックタイプにより簡単に対応できます。</p><p>現在の表示およびスキップロジックオプションに加えて、検証ロジックも使用できます。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2025年1月31日（PT）</li>
+                <li><span class="preview">すべてのお客様向けの本番リリース： 2025年1月31日（PT）</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -74,7 +89,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            ドキュメントレポートで複数のドキュメントを一度に編集する </a></p>
+            ドキュメントレポートで複数のドキュメントを一度に編集する </a></p>[!BADGE In production ]{type=Informative}
             <p>ドキュメントレポートで、複数のドキュメントを一度に編集できるようになりました。 説明を編集したり、カスタムフォームを更新したりできます。</p>
         </td>
         <td>
@@ -97,7 +112,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            プロジェクトを編集ボックスで編集する際に、プロジェクトにコメントを追加する</a></p>
+            プロジェクトを編集ボックスでプロジェクトを編集する際に、プロジェクトにコメントを追加します </a>[!BADGE In production for Fast Release]{type=Positive}</p>
             <p>プロジェクトを編集ボックスでコメントを編集しながら、プロジェクトにコメントを追加できるようになりました。 また、複数のプロジェクトを一括して編集する際に、一度にコメントを追加することもできます。 この更新以前は、プロジェクトの編集時にこの機能は存在していませんでした。</p>
         </td>
         <td>

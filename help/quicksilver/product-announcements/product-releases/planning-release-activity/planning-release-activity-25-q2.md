@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1935'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,31 @@ ht-degree: 2%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## レコードタイプからの複数のリクエストフォームの設定と管理
+
+>[!NOTE]
+>
+>プレビュー：2025 年 3 月 13 日（PT）、すべてのお客様の実稼動日：2025 年 4 月 10 日（PT）
+
+組織の異なる領域から来る様々な関係者に対するリクエストフォームをカスタマイズできるように、1 つのレコードタイプに対して複数のリクエストフォームを作成および管理する機能が導入されました。 この機能強化の前は、1 つのレコードタイプに対して 1 つのフォームのみを作成できました。
+
+別のフォームを使用して送信されたすべてのリクエストでは、選択したレコードタイプのレコードが作成される場合があります。 同じレコードタイプに対して複数のリクエストフォームを設定できるようになりました。 フォームは、レコードタイプの新しいリクエストフォームのテーブルビューにリストされます。 リクエストフォームを管理する際に、レコードタイプのリクエストフォームのリストからリクエストフォームを編集、公開、共有、コピーまたは削除できるようになりました。
+
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+
+## レコードタイプページで公開済みのリクエストフォームに簡単にアクセス
+
+>[!NOTE]
+>
+>プレビュー：2025 年 3 月 13 日（PT）、すべてのお客様の実稼動日：2025 年 4 月 10 日（PT）
+
+レコードタイプのページの右上隅にある「新しいレコード」ボタンからリクエストフォームにアクセスできるようになりました。 ワークスペースに対する表示権限を持つユーザーの場合、新規レコードは「レコードをリクエスト」ボタンとして表示されます。
+
+CSV や Excel ファイルを読み込むことで、手動でレコードを作成できるだけでなく、レコードタイプページからリクエストフォームでレコードを作成することもできます。
+この機能強化が行われるまで、フォームへの直接リンクまたはWorkfrontのリクエスト エリアからのみ、リクエストフォームを使用してレコードを作成できていました。
+
+詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
 ## Workfront カスタムフォームの Planning 接続フィールドで、接続されたレコードのルックアップフィールドを追加します
 

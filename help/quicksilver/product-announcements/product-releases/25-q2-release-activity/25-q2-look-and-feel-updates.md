@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
+source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 17%
+source-wordcount: '469'
+ht-degree: 16%
 
 ---
 
@@ -18,11 +18,38 @@ ht-degree: 17%
 
 2025年第 2 四半期リリースで利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
 
+## 特定のメール通知でアバターが表示されなくなった
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 3 月 13 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 3 月 13 日（PT）
+
+
+アバターが次のメール通知に表示されなくなります：
+
+* すべての通信イベント通知
+* 新規割り当て通知
+* すべての先行タスク完了通知
+
+<!--
+
+## Look and feel updates to a Milestone Path list 
+
+>[!NOTE]
+>
+>Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+
+We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+-->
+
 ## Workfront カレンダーのルックアンドフィールの更新
 
 >[!NOTE]
 >
->プレビューリリース：2025 年 2 月 27 日（PT）、すべてのお客様向けの実稼動リリース：25.3 リリースの場合（2025 年 3 月）
+>プレビューリリース：2025 年 2 月 27 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースの場合（2025 年 4 月 10 日（PT））
 
 Workfrontカレンダーのルックアンドフィールを、Workfrontの他のエリアと一致するモダンなデザインに更新しました。 現在のWorkfront カレンダーとは、次のようなわずかな機能違いがあります。
 
@@ -38,7 +65,7 @@ Workfrontカレンダーのルックアンドフィールを、Workfrontの他�
 
 >[!NOTE]
 >
->プレビューリリース：2025 年 2 月 27 日（PT）、高速リリースの実稼動：25.3 リリースの実稼動（2025 年 3 月）、四半期リリースの実稼動：25.4 リリースの実稼動（2025 年 4 月）
+>プレビューリリース：2025 年 3 月 13 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースの場合（2025 年 4 月 10 日（PT））
 
 プロジェクトリストまたはレポートからマイルストーンパスにアクセスする際に、マイルストーンの詳細ページのルックアンドフィールが新しくなりました。 マイルストーン パスの詳細ページにアクセスするには、[ マイルストーン パス名 ] フィールドをリストまたは報告書のビューに追加する必要があります。
 
@@ -62,7 +89,7 @@ Workfrontカレンダーのルックアンドフィールを、Workfrontの他�
 
 >[!NOTE]
 >
->プレビューリリース：2025 年 2 月 13 日（PT）、すべてのお客様向けの実稼動リリース：25.3 リリースの場合（2025 年 3 月）
+>プレビューリリース：2025 年 2 月 13 日（PT）、すべてのお客様向けの実稼動リリース：25.3 リリースの場合（2025 年 3 月 13 日（PT））
 
 共有ダイアログのルックアンドフィールを、Workfrontの他の領域と一致する最新のデザインに更新しました。 次のような視覚的な違いがあります。
 
