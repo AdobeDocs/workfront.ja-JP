@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 41%
+source-wordcount: '944'
+ht-degree: 37%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 
 ## Adobe Workfront Planning で共有できるオブジェクト
 
-以下のオブジェクトを共有できます。
+Workfront Planning では、次のオブジェクトを手動で共有できます。
 
 * ワークスペース
 
@@ -49,7 +49,7 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 
     * You can share record types with people inside your organization.
     * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+    * You cannot share a record type with a higher permission level than the user has on the workspace. 
 
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
@@ -77,6 +77,8 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 * 担当業務
 
 </div>
+
+<span class="preview"> ワークスペースとレコードの種類を他のユーザーと共有すると、レコードの種類のアクセス許可レベルが、それらに関連付けられたレコードとフィールドに自動的に継承されます。</span>
 
 ## Adobe Workfront Planning でのオブジェクトの共有に関する考慮事項
 
@@ -129,7 +131,7 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 
 ### レコードタイプの権限
 
-<!--In the Production environment,--> ワークスペースに権限を付与すると、レコードタイプの権限は常に継承されます。
+<!--In the Production environment,--> ワークスペースに権限を付与すると、レコードタイプの権限 <!--always--> 継承されます。
 
 レコードタイプの権限のレベルは次のとおりです。
 
@@ -145,18 +147,17 @@ Adobe Workfront Planning のワークスペースまたはビューに対する�
 
 <div class="preview">
 
-In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
 
-You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
 
 The following scenarios exist: 
 
 |   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, No permissions           | 
-| Contribute |     Contribute |  Contribute, View, No permissions        |
-| View   |  View     |      View, No permissions        |     
-
+| Manage |   Manage    |   Manage, Remove permissions           | 
+| Contribute |     Contribute |  Contribute, View, Remove permissions        |
+| View   |  View     |      View, Remove permissions        |     
 
 </div>
 
@@ -164,7 +165,7 @@ The following scenarios exist:
 
 ### レコード権限
 
-レコード権限は、ワークスペースに対して権限を付与すると継承されます。
+レコードの権限は <!--<span class="preview">the record type</span>, when you grant permissions to --> ワークスペース <!-- and <span class="preview">the record type</span>--> から継承されます。
 
 レコードの権限レベルは次のとおりです。
 
@@ -178,7 +179,8 @@ The following scenarios exist:
 
 ### フィールド権限
 
-ワークスペースに対して権限を付与すると、フィールド権限が継承されます。
+フィールドの権限は <!--<span class="preview">the record type</span>, when you grant permissions to --> ワークスペース <!--and <span class="preview">the record type</span>--> から継承されます。
+
 次の権限は、各フィールドに関連付けられた値ではなく、フィールド自体を参照します。フィールド値を編集するには、レコードを編集する権限が必要です。
 
 |        | 管理 | 参加 | 表示 |

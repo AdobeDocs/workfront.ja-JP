@@ -3,13 +3,13 @@ title: レコードタイプの共有
 description: レコードタイプを他のユーザーと共有して、Adobe Workfront Planning を使用する際の共同作業を確保できます。
 hide: true
 hidefromtoc: true
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+exl-id: bf49db73-09f1-417e-836b-16c6062740d4
+source-git-commit: 5005493bb98b63f4c463f424be43a9d422744846
 workflow-type: tm+mt
-source-wordcount: '1186'
-ht-degree: 15%
+source-wordcount: '1188'
+ht-degree: 14%
 
 ---
-
 
 <!-- add these to metadata on release:
 
@@ -30,8 +30,9 @@ recommendations: noDisplay, noCatalog-->
 
 >[!IMPORTANT]
 >
->* ワークスペースに対する権限を付与すると、ユーザーはワークスペースのレコードタイプに対して同じ権限を付与されます。
->* レコードタイプに権限を付与すると、ユーザーには、ワークスペースから既に付与されている権限よりも小さい権限が付与され、上位の権限は付与されません。
+>* ワークスペースに対する権限を付与すると、デフォルトでユーザーはワークスペースのレコードタイプに対して同じ権限を付与されます。
+>* 個々のレコードタイプに対する権限を調整できます。
+>* ワークスペースに対するアクセス権と比較して、レコードタイプに対する高いアクセス権をユーザーに付与することはできません。
 > 詳しくは、この記事の [ レコードタイプを共有する場合の考慮事項 ](#considerations-when-sharing-record-types) の節を参照してください。
 
 ## アクセス要件
@@ -117,18 +118,18 @@ recommendations: noDisplay, noCatalog-->
 * 自動的に、ユーザーはワークスペースからレコードタイプ権限を継承します。
 * 手動で、レコードタイプに表示権限をユーザーに付与したり、継承された権限をワークスペースから削除したりできます。
 
-* レコードタイプに追加されたユーザーのうち、ワークスペース権限を持たないユーザーは、表示権限を持つワークスペース共有に自動的に追加されます。
+* レコードタイプ共有ボックスに追加されたユーザーのうち、ワークスペース権限を持たないユーザーは、表示権限を持つワークスペース共有に自動的に追加されます。
 
   ワークスペース権限を持たないユーザーにレコードの種類に対する表示権限よりも高い権限を付与するには、まずワークスペースを共有する必要があります。 レコードタイプのみを共有する場合、そのレコードタイプに対する表示権限のみを受け取ることができ、表示権限を持つワークスペースにも追加されます。 レコードタイプに対する権限を付与すると、共有ボックスに、ユーザーがワークスペースにも追加されたことを示す表示が表示されます。
 
 * ワークスペースでのレコードタイプに対する権限よりも高い権限を他のユーザーに付与することはできません。
 
-  例えば、ワークスペースに対する表示権限とレコードタイプに対する管理権限をユーザーに付与することはできません。
+  例えば、ワークスペースに対する表示権限とレコードタイプに対する管理権限を誰かに付与することはできません。
 
 
 ## レコードタイプに対する権限の共有
 
-作成したレコードタイプや、管理権限を持つレコードタイプを、Workfront Planning 内のユーザー、グループ、チーム、会社および担当業務と共有できます。
+ワークスペースに対する管理権限を持っている場合は、ワークスペースの個々のレコードタイプに対する権限を調整できます。
 
 {{step1-to-planning}}
 
@@ -145,7 +146,7 @@ recommendations: noDisplay, noCatalog-->
 1. （オプション） **アクセスできるユーザー** 領域で、次のオプションから選択します。<!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
 
    * **招待されたユーザーのみがアクセスできます**：ビューを共有するユーザー、グループ、チーム、会社または担当業務を指定する必要があります。
-   * **ワークスペース内の全員が表示できます**：ワークスペースに対する表示以上の権限を持つすべてのユーザーが、ビューにアクセスできます。 これはデフォルトのオプションです。
+   * **ワークスペース内の全員が表示できます**：ワークスペースに対する表示以上の権限を持つすべてのユーザーが、ビューにアクセスできます。 これはデフォルトのオプションです。<!--rewrite this based on what Lilit says in the proof: At this point, once the inherited permissions are disabled, everyone in the workspace except workspace managers will have View permission to the record type because the "Everyone in the workspace can view"  setting cannot be changed. -->
 
 1. （オプション） **継承された権限** オプションを展開して、ワークスペースから権限を継承するユーザー、チーム、グループ、会社または担当業務を表示します。
 
@@ -157,7 +158,7 @@ recommendations: noDisplay, noCatalog-->
 
    1. 継承された権限をオフにします。
    1. 「**このレコードタイプへのアクセスを許可**」フィールドで、別の権限レベルを付与するユーザー、チーム、グループ、会社または担当業務を追加します。
-1.権限レベルを選択します。
+   1. 権限レベルを選択します。
 
    >[!IMPORTANT]
    >
@@ -207,6 +208,8 @@ Users who access a link to a record type to which they do not have permissions c
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
 
 ## レコードタイプに対する権限の削除
+
+<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 {{step1-to-planning}}
 

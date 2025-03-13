@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '548'
 ht-degree: 8%
 
 ---
@@ -39,41 +39,41 @@ Adobe Planning へのアクセスについて詳しくは、[Workfront Planning 
 
 ビューにアクセスして管理できるようにするには、ワークスペースに対する権限に加えて、ユーザーにビューへの個別の権限を付与する必要があります。
 
+<!--
 
 <div class="preview">
 
-レコードタイプの権限を使用する場合は、次の点を考慮してください。
+Consider the following when working with record type permissions: 
 
-* ユーザーは、ワークスペースからレコードタイプ権限を自動的に継承します。
-* ユーザーがワークスペースに対する管理権限を持っている場合、レコードタイプに対するアクセス権を低くすることはできません。
-* ユーザーは、レコードタイプが属するワークスペースに対して持っている権限よりも、レコードタイプに対して大きな権限を持つことはできません。
+* Users automatically inherit record type permissions from workspaces. 
+* When a user has Manage permissions to a workspace, they cannot have a lesser access to record type. 
+* Users cannot have greater permissions to a record type than they have for the workspace the record type belongs to.
 
 </div>
+-->
 
 | Adobe Workfront ライセンスタイプ* | Adobe Workfront Planning で許可されている最上位の権限 |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 標準 | <p>ユーザーは、ワークスペースの <span class="preview">、レコードタイプ、</span> およびビューを管理できます。 ワークスペース、レコードタイプ、レコード、フィールドおよびビューを作成、編集または削除できます。</p> <br> <p>システム管理者には、未作成のワークスペースを含むすべてのワークスペースに対する管理権限があります。</p> |
+| 標準 | <p>ユーザーは、ワークスペースの <!--<span class="preview">, record types, </span> --> とビューを管理できます。 ワークスペース、レコードタイプ、レコード、フィールドおよびビューを作成、編集または削除できます。</p> <br> <p>システム管理者には、未作成のワークスペースを含むすべてのワークスペースに対する管理権限があります。</p> |
 | ライトまたはコントリビューター | <p>ユーザーは、共有されているワークスペースに加え、それらのワークスペースのレコードタイプ、レコード、フィールドを表示できます。</p> <br> <p>ユーザーは、共有されたビューを表示できますが、独自のビューを作成することはできません。 </p><br> <p>ユーザーは、ワークスペース、レコードタイプ、レコード、フィールドを作成、編集、削除できません。</p> |
 
 *Workfront Planning は、従来のWorkfront ライセンスでは使用できません。
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
-<!--OLD 
+### ワークスペースのライセンスタイプと権限
 
-| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
-|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|New: Standard <br> or <br>Current: Plan                    | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
-| New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
+<!--should we add "record types" in the title above and to this section?-->
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
--->
+Standard ライセンスを持つユーザーのみが、Workspace <!--<span class="preview">and record types</span>--> に対する投稿権限または管理権限を持つことができます。 ワークスペースへの投稿権限と管理権限は、レコードタイプ、レコード、フィールドにも転送で <!--<span class="preview">and record types</span>--> ます。
 
-### ライセンスタイプとワークスペース権限
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
 
-Standard ライセンスを持つユーザーのみが、ワークスペース <span class="preview"> およびレコードタイプ </span> に対する投稿権限または管理権限を持つことができます。 他のすべてのライセンス タイプを持つユーザーは、ワークスペース <span class="preview"> およびレコード タイプを共有するワークスペースに対す </span> 表示権限を持つことができます。
+他のすべてのライセンスタイプを持つユーザーは、共有 <!--<span class="preview"> and record types </span> --> のワークスペースおよびレコードタイプ、レコード、フィールドに対する表示権限を持つことができます。
 
-システム管理者は、システム内のすべてのワークスペース（作成しなかったワークスペースを含む）を表示できます。
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
+
+システム管理者は、自分が作成していないものを含め、システム内のすべてのワークスペースを表示できます。
 
 <!--does the shot below need to be replaced for record types??-->
 
@@ -88,7 +88,7 @@ Standard ライセンスを持つユーザーのみが、ワークスペース <
 >![Workspace の投稿者ユーザーに対してグレー表示されている権限 ](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
-### ライセンスタイプと表示権限
+### ライセンスの種類とビューへの権限
 
 標準ライセンスを持つユーザーのみが、ビューに対する管理権限を持つことができます。 他のすべてのライセンスタイプを持つユーザーは、自分と共有されたビューに対する表示権限を持つことができます。
 

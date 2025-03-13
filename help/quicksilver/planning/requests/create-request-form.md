@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1865'
-ht-degree: 10%
+source-wordcount: '2084'
+ht-degree: 9%
 
 ---
 
@@ -160,7 +160,7 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、「**リクエストフォームを作成**」をクリックします。
+1. ページ ヘッダーのレコードの種類名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、既にフォームがあり、追加のフォームを作成する場合は、**リクエストフォームを作成** <span class="preview"> または **リクエストフォームを管理**</span> をクリックします。
 1. リクエストフォームの名前を更新します。 デフォルトでは、フォームの名前は **名称未設定フォーム** です。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （オプション）リクエストフォームに **説明** を追加します。
 
@@ -258,7 +258,14 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
    >     * ユーザー
    >
 
-1. （条件付き）前の手順で「**リンクを持つすべてのユーザー**」を選択した場合は、使用可能なカレンダーから **有効期限をリンク** を選択します。 リンクの有効期限が切れた後、ユーザーはエラーを受け取ります。ユーザーがフォームに再度アクセスできるようにするには、リンクの日付を更新し、新しいリンクを生成して共有する必要があります。
+1. （条件付き）前の手順で「**リンクを持つすべてのユーザー**」を選択した場合は、使用可能なカレンダーから **有効期限をリンク** を選択します。<!--take out this tip when we release to production as in multiple forms this is no longer happening-->
+
+   >[!TIP]
+   >
+   >その場合には、リンクが公開されている表示があります。
+   >![ レコードタイプメニューのフォームへの公開共有リンク ](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+
+   リンクの有効期限が切れた後、ユーザーはエラーを受け取ります。ユーザーがフォームに再度アクセスできるようにするには、リンクの日付を更新し、新しいリンクを生成して共有する必要があります。
 
    現在の日付から 180 日以内の将来の日付を選択できます。
 
@@ -274,18 +281,31 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
    リクエストフォームへのリンクを使用してレコードを作成する方法については、「[Adobe Workfront Planning リクエストの送信 ](/help/quicksilver/planning/requests/submit-requests.md)」を参照してください。
 
 1. **フォーム** タブの右下隅にある「**保存**」をクリックしてフォームを保存します。
+
 1. ヘッダーでフォーム名の左側にある左向き矢印をクリックして、フォームを閉じます。
 
-   レコードタイプのページが開きます。
-1. （オプション）ヘッダーのレコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、次のいずれかの操作を行います。
+   <span class="preview">**リクエストフォーム** テーブル表示が開き、フォームが追加されます。</span>
+
+1. <span class="preview"> （オプション）テーブル表示でリクエストフォームの名前の上にマウスポインターを置き、フォーム名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、次のいずれかをクリックします。</span>
+
+   * <span class="preview">**フォームを編集**：フォームの情報をさらに編集するには、これをクリックします。</span>
+   * <span class="preview"> **非公開**：このボタンをクリックしてフォームを非公開にすると、Workfrontのリクエスト領域から削除されます。</span>
+   * <span class="preview">**共有**: フォームへのアクセス権を持つユーザーを変更するには、これをクリックします。</span>
+   * <span class="preview">**リンクをコピー**：フォームを開かずにリクエストフォームのリンクをすばやくコピーする場合は、これをクリックします。</span>
+   * <span class="preview">**削除**：フォームを削除するには、これをクリックします。 フォームを使用して追加されたリクエストとレコードはすべて削除されません。 フォームを復元できません。</span>
+
+   ![ リクエストフォームリストからのリクエストフォームの「詳細」メニュー ](assets/more-menu-on-request-form-from-request-forms-list.png)
+
+
+1. ヘッダーの <span class= "preview"> リクエストフォーム **の左側にある左向き矢印をクリックして、リクエストフォーム** テーブルを閉じます。   </span>
+
+   <span class= "preview"> レコードタイプのページが開きます。</span>
+1. （オプションおよび条件付き）実稼動環境で、ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他 ](assets/more-menu.png) メニュー）をクリックしてから、次のいずれかの操作を行います。
    * 「**リクエストフォームを更新**」をクリックして、リクエストフォームに変更を加えます。
    * **リクエストフォームにリンクをコピー** をクリックして、フォームへのリンクを他のユーザーと共有します。
 
-   または
+1. <span class="preview"> （オプションおよび条件付き）プレビュー環境で、ヘッダーのレコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**リクエストフォームを管理** をクリックしてください。</span>
 
-   * <span class= "preview"> Workfrontの **リクエスト** エリアに移動し、リクエストを送信するための共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください </span>。
-
-   >[!TIP]
-   >
-   >その場合には、リンクが公開されている表示があります。
-   >![ レコードタイプメニューのフォームへの公開共有リンク ](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+   <span class="preview"> これにより、リクエストフォームのテーブルビューが開きます。</span>
+1. <span class="preview"> リクエストフォームをクリックして開き、編集します。</span>
+1. <span class= "preview"> （オプション）Workfrontの **リクエスト** エリアに移動し、リクエストを送信する共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください </span>。

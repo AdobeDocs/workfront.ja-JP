@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 68%
+source-wordcount: '875'
+ht-degree: 61%
 
 ---
 
@@ -115,26 +115,28 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
    </table>
 
 1. 「**マイルストーンを追加**」をクリックし、必要に応じて、パスが完了するまでマイルストーンを追加し続けます。
+
 1. 「**マイルストーンパスを作成**」をクリックして変更を保存します。
 
    マイルストーンパスをプロジェクトに関連付ける準備が整いました。
 
    マイルストーンパスをプロジェクトに関連付ける方法と、マイルストーンをタスクに関連付ける方法に関して詳しくは、[タスクへのマイルストーンの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)を参照してください。
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview"> （オプション） **書き出し** アイコン ![ 書き出しアイコン ](assets/export-icon.png) をクリックし、マイルストーンパスリストをファイルに書き出す形式を次から選択します。</span>
 
    * PDF
    * Excel
-   * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * Excel（xlsx）
+   * タブ区切り
 
-   </div>
--->
+1. <span class="preview"> （オプション）マイルストーンリストのマイルストーンを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてマイルストーン情報を編集します。</span>
+1. <span class="preview"> （オプション）マイルストーンリストでマイルストーンを選択し、**削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックして削除します。</span>
+1. <span class="preview">[ はい、削除します **をクリックします**。</span>
+   <span class="preview"> マイルストーンは削除され、復元できません。 マイルストーンに関連付けられたプロジェクト情報と、マイルストーンパスに関連付けられたタスク情報も削除されます。</span>
+
+
+<div class="preview">
 
 ## マイルストーン パスの詳細をレポートに表示
 
@@ -171,9 +173,8 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
    * マイルストーン パス グループ
    * マイルストーン名、説明、カラーおよびカラーアイコン
 
-   </div>
-
 1. （任意）「**戻る**」をクリックして、プロジェクトレポートに戻ります。
 
+</div>
 
 

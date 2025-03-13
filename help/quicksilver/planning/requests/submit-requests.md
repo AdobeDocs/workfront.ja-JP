@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1828'
 ht-degree: 6%
 
 ---
@@ -24,11 +24,14 @@ ht-degree: 6%
 
 {{planning-important-intro}}
 
-Adobe Workfront Planning の「レコードタイプ」ページでユーザーがリクエストフォームへのリンクを共有すると、リクエストを追加して、リクエストフォームに関連付けられた「レコードタイプ」のレコードを作成できます。
+Workspace Manager がAdobe Workfront Planning でレコードタイプのリクエストフォームを作成したら、そのフォームを使用してリクエストを送信できます。これにより、フォームに関連付けられたレコードタイプのレコードが作成されます。
+
+次の領域からWorkfront計画リクエストを発行できます。
+
+* Workfrontの「リクエスト」エリアから、またはリクエストフォームへのダイレクトリンクから。 ここでは、Workfrontの「リクエスト」エリアまたは共有リンクからレコードタイプに新しいレコードを追加するリクエストを送信する方法について説明します。
+* <span class="preview"> 新規レコードを追加またはリクエストする場合、レコードタイプページから。 詳しくは、[ レコードの作成 ](/help/quicksilver/planning/records/create-records.md) を参照してください </span>。
 
 Workfront ユーザーと外部ユーザーは、Planning レコードタイプに対してリクエストを送信し、レコードを作成できます。<!--double check on the external users-->
-
-この記事では、新しいレコードをレコードタイプに追加するリクエストを送信する方法について説明します。
 
 ワークスペースマネージャーがリクエストフォームを作成し、レコードタイプに関連付ける方法について詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
@@ -113,34 +116,41 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 * Workfront Planning には、次のものが存在する必要があります。
 
    * ワークスペース
-   * リクエストフォームに関連付けられたレコードタイプ。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+   * レコードタイプ。
+   * レコードタイプに関連付けられたリクエストフォーム。
 
-* リクエストフォームは、アクセスできる方法でリンクと共有する必要があります。 次のシナリオが存在します。
+     詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
-   * Workfront アカウントをお持ちの場合、リンクは社内ユーザーとのみ共有されており、ワークスペースに対する投稿以上のアクセス権を持っています。 Workfront外のユーザーは、社内で共有されているリンクにアクセスできません。
-   * Workfront アカウントがない場合、リンクは外部のユーザーと共有されています。 また、Workfront ユーザーは、外部のユーザーと共有されているリンクにアクセスすることもできます。
+* リクエストフォームは、アクセス可能な方法で共有する必要があります。 次のシナリオが存在します。
+
+   * 内部的には、フォームは、ワークスペースに対する表示以上の権限を持つユーザーと共有する必要があります。
+
+     Workfront ユーザーは、リンクからフォームにアクセスするか <span class="preview">Workfrontのリクエスト エリアでリクエストフォームを見つけることができます </span>。
+
+   * Workfront アカウントをお持ちでない場合、フォームへのリンクが外部のユーザーと共有されています。
+
+     また、Workfront ユーザーは、外部のユーザーと共有されているリンクにアクセスすることもできます。
 
 * フォームへのリンクは期限切れにできません。
 
 ## Workfront Planning への要求の送信に関する考慮事項
 
-* Workfront Planning 要求の要求フォームには、フォームへのリンクからのみアクセスできます。
-* Workfront Planning に送信したリクエストをWorkfrontで編集することはできません。
-* フォームが承認に関連付けられていない場合や、すべての承認者によって承認が付与された場合、送信されたリクエストごとに、使用するフォームに関連付けられたレコードタイプのレコードが作成されます。
-* リクエストフォームを送信して作成されたレコードを、他の方法で追加されたレコードと区別することはできません。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+* Workfrontでリクエストを送信した後に編集することはできません。
+* 送信された各リクエストでは、使用するフォームに関連付けられたレコードタイプのレコードが作成されます。フォームが承認に関連付けられていない場合や、すべての承認者によって承認が付与された場合は、送信されます。
+* リクエストフォームを送信して作成されたレコードを、Workfront Planning で他の方法を使用して追加されたレコードと区別することはできません。
+
+  詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 * 送信されたリクエストは、Workfrontの「リクエスト」領域の「送信済み」セクションの「計画」タブに表示されます。
-* フォーム送信後のリクエストフォームまたはリクエストの詳細ページでの特定のフィールドタイプの表示方法には制限があります。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+* フォーム送信後のリクエストフォームまたはリクエストの詳細ページでの特定のフィールドタイプの表示方法には制限があります。
+
+  詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-## Workfront Planning への要求の発行
-
-Workfront Planning へのリクエストの発行は、使用する環境によって異なります。
-
 <div class="preview">
 
-### プレビュー環境でWorkfront Planning にリクエストを送信します。
+## Workfrontの「リクエスト」領域で、Workfront Planning にリクエストを送信します。
 
 >[!NOTE]
 >
@@ -214,7 +224,7 @@ Workfront Planning へのリクエストの発行は、使用する環境によ�
 
    >[!TIP]
    >
-   >* レコード名がリクエストフォームに追加されなかった場合、リクエストのレコードフィールドのレコード名は **名称未設定** と表示されます。
+   >* レコードのプライマリフィールドがリクエストフォームで更新されなかった場合、リクエストのレコードフィールドのレコードの名前は **名称未設定** と表示されます。
    >
    >* リクエストフォームが承認に関連付けられている場合、リクエストページからレコードにアクセスするには、承認を付与する必要があります。
 
@@ -224,7 +234,7 @@ Workfront Planning へのリクエストの発行は、使用する環境によ�
 
 </div>
 
-### 実稼動環境でのWorkfront Planning へのリクエストの送信
+## リクエストフォームへの共有リンクからWorkfront Planning にリクエストを送信する
 
 1. Workfront Planning レコードタイプから共有されたリンクに移動します。
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1844'
-ht-degree: 29%
+source-wordcount: '2411'
+ht-degree: 23%
 
 ---
 
@@ -27,7 +27,8 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 次のいずれかを行うことで、レコードを作成できます。
 
-* [テーブル表示のレコードタイプページからレコードを追加](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [レコードタイプのテーブル表示からインラインで追加してレコードを作成](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* <span class="preview">[ 任意のレコードタイプ表示の「新規レコード」または「レコードをリクエスト」ボタンを使用してレコードを作成する ](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
 * [外部リストからのレコードのリストのコピー&amp;ペースト](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [テーブルビューからレコードを複製](#create-records-by-duplicating-them)
 * [他のレコードから接続する際のレコードの作成](#create-records-as-you-connect-them)
@@ -97,7 +98,8 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td> <p>レコードを追加する Workspace <!--<span class="preview">and record type</span>--> に対する投稿以上の権限。 </p>  
+   <td> <p>レコードを追加する Workspace <!--<span class="preview">and record type</span>--> に対する投稿以上の権限。 </p>
+   <p><span class="preview">レコード ページの「レコードをリクエスト」ボタンを使用して、レコードを作成するた <!--<span class="preview">and record type</span>--> のワークスペースへの以上の権限を表示します</span></p>
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
    <p>子オブジェクト（プロジェクト）を追加するためのWorkfront オブジェクト（ポートフォリオ）への権限を管理します。</p>
    </td> 
@@ -113,9 +115,9 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 +++
 
-## レコードをレコードタイプ テーブルのレコードタイプに追加してレコードを作成する
+## レコードタイプのテーブル表示からインラインで追加してレコードを作成
 
-レコードタイプのページのテーブルビューでレコードを作成できます。
+レコードタイプページのテーブル表示でレコードを作成するには、レコードをインラインで追加します。
 
 レコード情報の編集については、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
@@ -128,27 +130,28 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトで、レコードタイプのページがテーブルビューで開きます。
-選択したタイプのすべてのレコードがビューに表示されます。
+選択したタイプのレコードがビューに表示されます。
 
-1. （条件付き）表示するビューに応じて、次のいずれかの操作を行います。
+1. （条件付き）テーブル表示から、次のいずれかの操作を行います。
 
-   * テーブル表示で、次の操作を行います。
+   * テーブルの最後の行にある「**新規レコード**」をクリックします
 
-      * テーブルの最後の行にある「**新規レコード**」をクリックします
+   * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。これにより、開始レコードの下に空の行が追加されます。
+   * レコードの主フィールドにポインタを合わせ、フィールドの右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**上にレコードを挿入** または **下にレコードを挿入** をクリックします。
 
-      * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。これにより、開始レコードの下に空の行が追加されます。
-      * レコードの主フィールドにポインタを合わせ、フィールドの右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**上にレコードを挿入** または **下にレコードを挿入** をクリックします。
+   ![ テーブルの行に新しいキャンペーンを追加 ](assets/adding-a-new-campaign-in-table-row.png)
 
-     ![ テーブルの行に新しいキャンペーンを追加 ](assets/adding-a-new-campaign-in-table-row.png)
+   Workfrontは、新しい各レコードにサムネールを自動アップロードします。 これらの画像は、後で変更できます。 詳しくは、[ レコードへのかぶり画像を追加する ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) を参照してください。
 
-   * 任意のビューから：
+   新しいレコードがテーブルに追加されます。
 
-      * ページの右上隅にある「**新規レコード**」をクリックします。 レコードのプレビューボックスが開きます。
+1. 新しいレコードのプライマリフィールドをクリックします
 
-     Workfrontは、新しい各レコードにサムネールとカバー画像を自動アップロードします。 これらの画像は、後で変更できます。 詳しくは、次の記事を参照してください。
+   または
 
-      * [レコードへのカバー画像の追加](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-      * [レコードにサムネールを追加する](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+   レコード名の左側にある **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。
+
+   テーブルにプレビューボックスが表示されます。
 
 1. プレビューボックスに表示されるフィールドに、新しいレコードに関する情報を入力します。
 
@@ -158,23 +161,94 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
    >
    >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
 
-1. （条件付き）テーブルにレコードを追加する場合は、引き続き各行に情報を追加し、キーボードの **Enter** をクリックして変更を保存します。
+1. （条件付き）テーブルにレコードを追加する場合、レコードのプレビューボックスを開く前に、各行に引き続き情報を追加してから、キーボードの **Enter** をクリックして変更を保存します。
 
    または
 
-   新しいレコードの名前をクリックするか、レコード名の左側にある **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。 レコードの詳細情報を含むプレビューがテーブルに表示されます。
+   新しいレコードの名前、またはレコード名の左側にある **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックしてプレビューボックスを開き、詳細領域でレコードの情報を編集します。
 
    >[!TIP]
    >
    >**詳細を開く** アイコンにアクセスできるのは、レコードの名前フィールド（名前フィールドがプライマリフィールドの場合）のみです。
 
-1. レコードのプレビューでレコードの情報の編集を開始します。 Workfront では、変更を自動的に保存します。
-1. （オプション）レコードのプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) 新しいタブでレコードのページを開く）をクリックします。 レコードページでレコードの編集を続行します。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+1. （オプション）レコードのプレビューボックスで、右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを新しいタブで開きます。 レコードページでレコードの編集を続行します。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
-1. （オプション）テーブル表示で新しいレコードやその情報を追加する際に、それらの追加の取り消しまたはやり直しを行うには、次のキーボードショートカットを使用します。
+   Workfront では、変更を自動的に保存します。
+
+1. （オプション） レコードのページを開いた場合は、プレビューボックスを閉じるか、レコード名の左側にある戻る矢印をクリックします。
+
+1. （オプション）テーブル表示で新しいレコードや情報を追加する際に、テーブル表示から次のキーボードショートカットを使用して、それらの追加の取り消しまたはやり直しを行います。
 
    * Ctrl + Z（Mac の場合は ⌘ + z）で、変更を取り消します
    * Ctrl + Shift + Z（Mac の場合は  ⌘ + Shift + Z）で、変更を元に戻します
+
+<div class="preview">
+
+## 任意のレコードタイプ表示から「新規レコード」または「レコードをリクエスト」ボタンを使用してレコードを作成
+
+ワークスペース <!--<span class="preview">and record type</span>--> に対する表示権限を持つユーザーは、レコードタイプ ページの「レコードをリクエスト」ボタンを使用してのみレコードを作成できます。
+
+ワークスペースに対する投稿権限と管理権限を持つユーザー <!--<span class="preview">and record type</span>-->、レコードタイプ ページの「新しいレコード」ボタンを使用してレコードを作成できます。
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+
+>[!IMPORTANT]
+>
+>表示権限を持つユーザーがリクエストフォームを使用してレコードを追加するには、ワークスペースマネージャーがレコードタイプのリクエストフォームを作成する必要があります。 そうしないと、表示権限のユーザーはレコードを作成できません。
+
+{{step1-to-planning}}
+
+1. レコードを追加するワークスペースをクリックします。
+
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
+
+1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+
+   最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトで、レコードタイプのページがテーブルビューで開きます。
+選択したタイプのすべてのレコードがビューに表示されます。
+
+1. ワークスペースと権限に応じて、任意の表示で、画面の右上隅にある以下のいずれかをクリックし <!--<span class="preview">and record type</span>--> す。
+
+   * ワークスペースコン <!--<span class="preview">and record type</span>--> ールに対する投稿以上の権限がある場合は、「**新しいレコード**」をクリックします
+
+     または
+
+   * Workspace <!--<span class="preview">and record type</span>--> ージに対する表示権限がある場合は、「**レコードをリクエスト**」をクリックします。
+
+1. （条件付き） **新規レコード** をクリックした場合、次の操作を行います。
+
+   1. 次のいずれかの方法でレコードを作成し、[**続行**] をクリックします。
+
+      * **手動で追加**。 レコードのプレビューボックスが開きます。\
+        この記事の [ レコードタイプのテーブル表示からインラインで追加してレコードを作成する ](#create-records-by-adding-them-inline-from-the-record-type-table-view) の手順 6 から始まる節で説明しているように、レコードに関する情報を追加します。<!--insure this stays accurate-->
+      * **ファイルからアップロード**
+[CSV または Excel ファイルから情報をインポートしてレコードを作成する ](/help/quicksilver/planning/records/import-file-to-create-records.md) の記事の説明に従って、手順 6 からレコードを追加します。<!--ensure this stays accurate-->
+      * **リクエストの送信**
+レコードタイプのリクエストフォームが開きます。
+
+        ワークスペースマネージャーは、リクエストフォームを使用してレコードを追加できるように、リクエストフォームを作成する必要があります。
+
+        >[!TIP]
+        >
+        >一部のレコードタイプには複数のフォームがある場合があります。 1 つをクリックして開きます。
+
+        [ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) の説明に従って、手順 6 からレコードを追加します。<!--ensure this stays accurate-->
+
+      ![](assets/three-ways-to-create-records-choice-modal.png)
+
+1. （条件付き） **レコードをリクエスト** をクリックした場合、次の操作を行います。
+
+   1. （条件付き）レコードタイプに複数のリクエストフォームがある場合は、1 つをクリックして選択します。
+   2. [ レコードを作成するためのAdobe Workfront Planning リクエストの送信 ](/help/quicksilver/planning/requests/submit-requests.md) の説明に従って、手順 6 からレコードを作成するためのフォームに情報を追加し続けます。<!--ensure this stays accurate-->
+
+1. （条件付き）新しいレコードを確認します。
+
+   レコードの追加方法によっては、次の問題が発生する場合があります。
+
+   * 承認プロセスを備えたリクエストフォームを使用して追加することを選択した場合を除き、新しいレコードがレコードタイプに追加されます。 レコードを作成する前に、すべての承認者から承認を付与する必要があります。
+   * CSV または Excel スプレッドシートを使用してレコードを追加した場合、複数のレコードがレコードタイプに追加されます。
+   * リクエストフォームを送信してリクエストを追加した場合、新しいリクエストがWorkfront リクエスト エリアの「計画」タブに追加されます。
+
+</div>
 
 <!-- this is not possible anymore: 
 
