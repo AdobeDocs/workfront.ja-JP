@@ -6,10 +6,10 @@ description: イテレーションは、スクラムアジャイルチームが�
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
+source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
 workflow-type: tm+mt
-source-wordcount: '1119'
-ht-degree: 83%
+source-wordcount: '1036'
+ht-degree: 78%
 
 ---
 
@@ -103,11 +103,11 @@ ht-degree: 83%
 
 1. 左側のパネルで **[!UICONTROL バックログ]** を選択します。
 
-1. **ストーリー** または **イシュー** タブで、少なくとも 1 つの作業項目を選択し、「**[!UICONTROL 反復を計画]**」をクリックします。
+1. **ストーリー** または **イシュー** タブで、反復に追加する作業項目を選択して「**[!UICONTROL 反復を計画]**」をクリックします。
 
 >[!NOTE]
 >
-> 「バックログ」タブでイテレーションを計画する際に、「ストーリー」タブまたは「イシュー」タブを切り替えることはできません。 イテレーションが作成されたら、既存のストーリーまたはイシューを追加できます。 詳しくは、[ バックログからイテレーションまたはボードへのストーリーの移動 ](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board) を参照してください。
+> 「バックログ」タブで反復を計画する際に、「ストーリー」タブまたは「イシュー」タブを切り替えたり、追加のタスクを追加したりすることはできません。 イテレーションが作成されたら、既存のストーリーまたはイシューを追加できます。 詳しくは、以下 [ 「バックログ」タブの既存のイテレーションへのタスクまたは問題の追加 ](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) を参照してください。
 
 
 1. 次の情報を指定します。
@@ -143,19 +143,20 @@ ht-degree: 83%
     </tbody> 
    </table>
 
-1. （オプション）ストーリーを選択して今すぐイテレーションに追加するか、この手順をスキップして、後でイテレーションにストーリーを追加できます。バックログの先頭のストーリーの方が高い優先度を持ちます。ストーリーは、処理能力に収まると緑色でハイライト表示されます。収まらないと赤色でハイライト表示されます。
-タスクとイシューの両方を 1 つのイテレーションに追加できます。
+1. **[!UICONTROL 保存]をクリックします。** イテレーションが作成されます。
 
-   * **タスクをイテレーションに追加するには：**「**[!UICONTROL バックログ]**」タブで、「**[!UICONTROL ストーリー]**」タブが選択されていることを確認します（バックログを表示する場合は、このタブがデフォルトで選択されています）。イテレーションに追加するストーリーを選択します。
+## 「バックログ」タブで既存の反復にタスクまたは問題を追加
 
-     イテレーションにタスクを追加すると、タスクの開始日が「[[!UICONTROL イテレーションに追加された場合の]タスク開始日の計算方法について](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration)」の説明に従って計算されます。
+1. 「**バックログ**」タブで、「**ストーリー**」タブまたは「**イシュー**」タブをクリックします。
 
-   * **イテレーションにイシューを追加するには：**「**[!UICONTROL バックログ]**」タブで、「**[!UICONTROL イシュー]**」タブをクリックします。イテレーションに追加するイシューを選択します。
+1. 反復に追加するストーリーまたはイシューを選択します。 バックログの上部にあるストーリーが優先されます。
 
-1. 「**[!UICONTROL 保存]」をクリックします。**
-イテレーションが作成されます。
+   ![ 作業項目の移動 ](assets/move-to-iteration.png)
 
-1. （オプション）既存のイテレーションにストーリーを追加するには、[既存のイテレーションにストーリーを追加](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)を参照してください。
+   >[!NOTE]
+   >
+   >  イテレーションにタスクを追加すると、タスクの開始日が「[[!UICONTROL イテレーションに追加された場合の]タスク開始日の計算方法について](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration)」の説明に従って計算されます。
+
 
 ## イテレーションに追加した場合のタスクの開始日の計算方法について {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 

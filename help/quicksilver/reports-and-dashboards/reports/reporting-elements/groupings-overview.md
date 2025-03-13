@@ -7,10 +7,10 @@ description: グループ化を追加して、レポートやリストの情報�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 98%
+source-wordcount: '813'
+ht-degree: 85%
 
 ---
 
@@ -64,13 +64,17 @@ ht-degree: 98%
 
 レポートの各列の値を要約することで、レポートに表示されているデータをグループ化行で集計できます。グループ化列のデータの要約について詳しくは、[Adobe Workfront ビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
+
 >[!NOTE]
 >
->グループ化における次のフィールドの値を集計する場合、親オブジェクト（親タスクなど）には次の例外が適用されます。
+>> グループ内の次のフィールドの値を集計する場合は、親オブジェクト（親タスクなど）に次の例外が適用されます。
 >
->* 実際の時間数（「予定／実際の労力コスト」、「予定／実際の費用コスト」、「予定／実際のコスト」、「予定時間数」など）を除くすべての数値フィールドと通貨フィールドでは、子タスクとスタンドアロンタスクの値のみを集計します。親タスクまたは親の親の値は集計されません。
->* 実際の時間数は、メインの親タスクとスタンドアロンタスクの値を集計します。親タスクの親や子タスクの数値は集計されません。
+>* 実際の時間数を除くすべての数値、通貨、日付のフィールドで、子タスクとスタンドアロン タスクの値のみを集計します。 親タスクまたは親の親の値は集計されません。 親タスクのみを含むリストの数値、通貨、日付の各フィールドを集計しても、グループ化バーに集計値が表示されません。
+>
+>* 実際の時間数は、メインの親タスクとスタンドアロン タスクの値を集計します。子タスクまたは親タスクの親の数値は集計しません。<!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>
 >* 数値および通貨の値のカスタムデータフィールドは、すべてのタスク（親、子、親の親、スタンドアロンタスク）を集計します。
+
 
 ### グループ別に並べ替え {#sort-by-a-grouping}
 
@@ -84,3 +88,13 @@ ht-degree: 98%
 * **他のユーザーと共有していたグループ化を削除すると**、グループ化は自分に対してのみ削除されます。当該のグループ化を作成したユーザーとそのグループ化を共有している他のユーザーは、引き続きそのグループ化にアクセスできます。
 
 グループの削除について詳しくは、[フィルター、ビューおよびグループを削除](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)の記事を参照してください。
+
+
+<!--Original note
+
+The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
+-->
