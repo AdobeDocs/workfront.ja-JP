@@ -5,10 +5,10 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 94%
+source-wordcount: '594'
+ht-degree: 95%
 
 ---
 
@@ -97,14 +97,10 @@ ht-degree: 94%
    >
    >次のシナリオが存在する可能性があります。
    >
-   >   
-   >   
    >   * グループ管理者または Workfront 管理者が概要エリアのすべてのフィールドを選択解除し、オブジェクトにカスタムフォームが添付されている場合は、「概要」セクションが表示されません。
    >   * グループ管理者または Workfront 管理者が概要エリアのすべてのフィールドを選択解除し、オブジェクトにカスタムフォームが添付されていない場合は、「書き出し」ドロップダウンメニューが表示されません。
    >   * オブジェクトにカスタムフォームが添付されていない場合は、概要エリアのみを書き出すことができます。
-   >   * ロジックの裏で動作しフォームに表示されないカスタムフィールドは、書き出されません。カスタムフォームにロジックを追加する方法について詳しくは、「[ フォームに表示ロジックを追加し、スキップロジックを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)」を参照してください。
-   >   
-   >
+   >   * ロジックの裏で動作しフォームに表示されないカスタムフィールドは、書き出されません。カスタムフォームへのロジックの追加について詳しくは、[ カスタムフォームとフィールドへのロジックルールの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) を参照してください。
 
    PDF ファイルが生成され、お使いのコンピューターにダウンロードされます。この PDF ファイルには、次の情報が含まれています。
 
