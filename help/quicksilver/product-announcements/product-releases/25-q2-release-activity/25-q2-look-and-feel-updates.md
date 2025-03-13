@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
+source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 16%
+source-wordcount: '519'
+ht-degree: 15%
 
 ---
 
@@ -31,19 +31,15 @@ ht-degree: 16%
 * 新規割り当て通知
 * すべての先行タスク完了通知
 
-<!--
-
-## Look and feel updates to a Milestone Path list 
+## マイルストーンパスリストに対する更新のルックアンドフィール
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>プレビューリリース：2025 年 3 月 6 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 4 月 10 日（PT）
 
-We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+設定エリアのマイルストーンパスリストのルックアンドフィールを、Workfrontの他のエリアのデザインと一致するように更新しました。
 
-For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
--->
+詳しくは、[ マイルストーンパスの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
 
 ## Workfront カレンダーのルックアンドフィールの更新
 
@@ -89,7 +85,7 @@ Workfrontカレンダーのルックアンドフィールを、Workfrontの他�
 
 >[!NOTE]
 >
->プレビューリリース：2025 年 2 月 13 日（PT）、すべてのお客様向けの実稼動リリース：25.3 リリースの場合（2025 年 3 月 13 日（PT））
+>プレビューリリース：2025 年 2 月 13 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースの場合（2025 年 4 月 10 日（PT））
 
 共有ダイアログのルックアンドフィールを、Workfrontの他の領域と一致する最新のデザインに更新しました。 次のような視覚的な違いがあります。
 
