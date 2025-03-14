@@ -7,14 +7,19 @@ description: プロジェクトマネージャーがタスクを作成するこ�
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '1176'
-ht-degree: 96%
+source-wordcount: '1194'
+ht-degree: 95%
 
 ---
 
-# ワークロードバランサーの概要
+# ワークロードバランサーの概要 {#workload-balancer-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-workload-balancer"
+>title="ワークロードバランサー"
+>abstract="プロジェクト所有者とチーム管理者は、ワークロードバランサーを使用して作業項目をユーザーに割り当てることができます。"
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>

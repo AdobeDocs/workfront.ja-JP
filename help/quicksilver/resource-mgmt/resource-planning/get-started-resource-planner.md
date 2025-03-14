@@ -7,14 +7,19 @@ description: リソースプランナーを使用すると、リソースが割�
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '2082'
-ht-degree: 99%
+source-wordcount: '2113'
+ht-degree: 98%
 
 ---
 
-# リソースプランナーの概要
+# リソースプランナーの概要 {#resource-planner-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-planner"
+>title="リソースプランナー"
+>abstract="リソースプランナーを使用すると、割り当て先のプロジェクトに対するリソースの割り当てを見積もりおよび予算計上し、今後の作業に備えてリソースの空き時間を予測できます。"
 
 <!-- Audited: 12/2023 -->
 

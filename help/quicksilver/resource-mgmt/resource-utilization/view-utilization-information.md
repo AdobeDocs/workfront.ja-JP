@@ -6,14 +6,19 @@ description: 稼働率レポートで、リソースの稼働率を表示でき�
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '7252'
+source-wordcount: '7283'
 ht-degree: 99%
 
 ---
 
-# リソース稼働率情報の表示
+# リソース稼働率情報の表示 {#view-resource-utilization-information}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-utilization"
+>title="稼動率レポート"
+>abstract="稼動率レポートを使用すると、プロジェクト、プログラムまたはポートフォリオの進行状況、コスト、売上高を 1 つのレポートに表示できます。また、収益とコストを比較することもできます。"
 
 <!-- Audited: 01/2024 -->
 
