@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2121'
 ht-degree: 9%
 
 ---
@@ -161,6 +161,7 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
 1. ページ ヘッダーのレコードの種類名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、既にフォームがあり、追加のフォームを作成する場合は、**リクエストフォームを作成** <span class="preview"> または **リクエストフォームを管理**</span> をクリックします。
+1. <span class="preview"> （条件付き）別のフォームを追加する場合は、「**新規リクエストフォーム**</span>」をクリックします。
 1. リクエストフォームの名前を更新します。 デフォルトでは、フォームの名前は **名称未設定フォーム** です。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （オプション）リクエストフォームに **説明** を追加します。
 
@@ -271,7 +272,7 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
    >[!TIP]
    >
-   ><span class="preview"> 共有日が終了すると、Workfrontの「リクエスト」領域でリクエストフォームを使用できなくなります。</span>
+   ><span class="preview"> 共有日が終了すると、Workfrontの「リクエスト」領域でリクエストフォームが使用できなくなり、他のユーザーと共有されていたリンクにもアクセスできなくなります。</span>
 
 
 1. <span class="preview"> （オプション） </span> 「**リンクを保存してコピー**」をクリックして、フォームの共有の詳細を保存します。 フォームが以前に保存されている場合は、「**リンクをコピー**」をクリックします。
@@ -300,12 +301,20 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 1. ヘッダーの <span class= "preview"> リクエストフォーム **の左側にある左向き矢印をクリックして、リクエストフォーム** テーブルを閉じます。   </span>
 
    <span class= "preview"> レコードタイプのページが開きます。</span>
-1. （オプションおよび条件付き）実稼動環境で、ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他 ](assets/more-menu.png) メニュー）をクリックしてから、次のいずれかの操作を行います。
-   * 「**リクエストフォームを更新**」をクリックして、リクエストフォームに変更を加えます。
-   * **リクエストフォームにリンクをコピー** をクリックして、フォームへのリンクを他のユーザーと共有します。
+1. （オプションおよび条件付き）既存のフォームを編集するには、使用している環境に応じて、次のいずれかの操作を行います。
 
-1. <span class="preview"> （オプションおよび条件付き）プレビュー環境で、ヘッダーのレコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**リクエストフォームを管理** をクリックしてください。</span>
+   * 実稼動環境から、次の手順を実行します。
 
-   <span class="preview"> これにより、リクエストフォームのテーブルビューが開きます。</span>
-1. <span class="preview"> リクエストフォームをクリックして開き、編集します。</span>
-1. <span class= "preview"> （オプション）Workfrontの **リクエスト** エリアに移動し、リクエストを送信する共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください </span>。
+      1. ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、次のいずれかの操作を行います。
+
+      1. 「**リクエストフォームを更新**」をクリックして、リクエストフォームに変更を加えます。
+      1. **リクエストフォームにリンクをコピー** をクリックして、フォームへのリンクを他のユーザーと共有します。
+
+   * <span class="preview"> プレビュー環境から：
+
+      1. ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。</span>
+
+         <span class="preview"> これにより、リクエストフォームのテーブルビューが開きます。</span>
+
+      1. <span class="preview"> リクエストフォームをクリックして開き、編集します。</span>
+      1. <span class= "preview"> （オプション）Workfrontの **リクエスト** エリアに移動し、リクエストを送信する共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください </span>。
