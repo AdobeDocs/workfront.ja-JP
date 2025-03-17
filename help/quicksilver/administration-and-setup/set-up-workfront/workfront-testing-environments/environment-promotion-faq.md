@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 16%
@@ -26,7 +26,7 @@ ht-degree: 16%
 
 クロスドメイン環境のプロモーションは、現在サポートされていません。 同じドメイン内の環境間で昇格させる必要があります。
 
-## AdobeBusiness Platform/IMS は環境促進のための前提条件ですか？
+## Adobe Business Platform/IMS は環境促進のための前提条件ですか？
 
 ### 回答
 
@@ -70,5 +70,4 @@ ht-degree: 16%
 ### 回答
 
 * 「既存を使用」は、ターゲット環境内の既存のオブジェクトにマッピングされ、変更を行わないため、「スキップ」またはデプロイメントを無視するのと同じです。
-* オブジェクトをスキップするには、を削除することをお勧めします。
-プロモーションパッケージから、またはソース環境から直接インストールしたくないオブジェクト。 オブジェクトを削除した後、パッケージを再アセンブリします。
+* オブジェクトをスキップするには、プロモーションパッケージまたはソース環境から直接インストールしないオブジェクトを削除することをお勧めします。 オブジェクトを削除した後、パッケージを再アセンブリします。
