@@ -1,16 +1,16 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: プロジェクトの概要の計画
-description: プロジェクトの概要の計画
+title: プロジェクトの計画：概要
+description: プロジェクトの概要、確立方法、範囲と構造、スケジュール、タイムライン、開始日と完了日などの主要概念について説明します。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 98%
+source-wordcount: '1414'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-プロジェクトは、Adobe Workfront の大きな作業項目です。プロジェクはタスクなど、小さい作業項目に分類できます。タスクは、完了を担当できるユーザーまたはチームに割り当てることができます。すべてのユーザーがタスクを完了すると、プロジェクトも完了します。
+プロジェクトは、Adobe Workfront の大きな作業項目です。プロジェクトを、より小さな作業項目であるタスクに分割できます。 タスクは、完了を担当できるユーザーまたはチームに割り当てることができます。すべてのユーザーがタスクを完了すると、プロジェクトも完了します。
 
 プロジェクトでは、タスクの計画の他にも、多くの詳細がプロジェクトの計画に含まれます。採算への影響の判断からリソースの空き時間の検討に至るまで、プロジェクトの多くの面で注意が必要です。
 
