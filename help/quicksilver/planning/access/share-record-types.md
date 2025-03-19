@@ -4,7 +4,7 @@ description: レコードタイプを他のユーザーと共有して、Adobe W
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 13%
@@ -17,6 +17,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
+
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 # レコードタイプの共有
 
@@ -196,6 +198,25 @@ recommendations: noDisplay, noCatalog-->
 
 1. コピーしたリンクを他のユーザーと共有します。リンクを受け取ったユーザーが、レコードタイプのページにアクセスして、選択したビューで表示するには、ユーザーがアクティブユーザーであり、Workfront にログインしている必要があります。
 
+## レコードタイプに対する権限の削除
+
+{{step1-to-planning}}
+
+1. 共有を停止するレコードの種類があるワークスペースを開き、レコードの種類のカードをクリックします。 レコードタイプページが開きます。
+
+1. 任意のビューのタブで、レコードタイプの右上隅にある「**共有**」をクリックします。
+
+   **共有** ボックスが開きます。
+1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、名前の右側にある権限ドロップダウンメニューを展開して、「**削除**」をクリックします。<!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![ レコードタイプ共有ドロップダウンの「削除」オプション ](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. **保存**&#x200B;をクリックします。
+
+   レコードタイプにアクセスする権限がなくなりました。 ワークスペース権限も削除しない限り、ワークスペースに対する権限を持つことができます。
+
+   ビューへのアクセスを削除されたユーザーに対しては、アクセス権がなくなったことを示す通知はありません。
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -222,25 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## レコードタイプに対する権限の削除
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. 共有を停止するレコードの種類があるワークスペースを開き、レコードの種類のカードをクリックします。 レコードタイプページが開きます。
-
-1. 任意のビューのタブで、レコードタイプの右上隅にある「**共有**」をクリックします。
-
-   **共有** ボックスが開きます。
-1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、名前の右側にある権限ドロップダウンメニューを展開して、「**削除**」をクリックします。<!--check the screen shot below - the UI text for View might not be accurate-->
-
-   ![ レコードタイプ共有ドロップダウンの「削除」オプション ](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. **保存**&#x200B;をクリックします。
-
-   レコードタイプにアクセスする権限がなくなりました。 ワークスペース権限も削除しない限り、ワークスペースに対する権限を持つことができます。
-
-   ビューへのアクセスを削除されたユーザーに対しては、アクセス権がなくなったことを示す通知はありません。
 

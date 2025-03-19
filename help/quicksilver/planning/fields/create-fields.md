@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '4333'
-ht-degree: 57%
+source-wordcount: '4611'
+ht-degree: 54%
 
 ---
 
@@ -231,7 +231,8 @@ OLD:
    * [作成者](#created-by)
    * [作成日](#created-date)
    * [最終変更者](#last-modified-by)
-   * [最終変更日](#last-modified-date)
+   * [ 最終変更日 ](#last-modified-date)
+     <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
@@ -248,7 +249,7 @@ OLD:
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**1 行テキスト**&#x200B;フィールドタイプを選択します。
 
-   ![](assets/single-line-text-field-type.png)
+   ![1 行テキストのフィールドタイプ ](assets/single-line-text-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -273,7 +274,7 @@ OLD:
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**段落**&#x200B;フィールドタイプを選択します。
 
-   ![](assets/paragraph-field-type.png)
+   ![ 段落フィールドタイプ ](assets/paragraph-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -290,7 +291,7 @@ OLD:
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**複数選択**&#x200B;フィールドタイプを選択します。
 
-   ![](assets/multi-select-field-type.png)
+   ![ 複数選択フィールドタイプ ](assets/multi-select-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -319,7 +320,7 @@ OLD:
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**単一選択**&#x200B;というフィールドタイプを選択します。
 
-   ![](assets/single-select-field-type.png)
+   ![ 単一選択フィールドタイプ ](assets/single-select-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -348,7 +349,7 @@ OLD:
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**日付**&#x200B;フィールドタイプを選択します。
 
-   ![](assets/date-field-type.png)
+   ![ 日付フィールドタイプ ](assets/date-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -377,9 +378,17 @@ OLD:
 
 数値フィールドタイプは、情報を数値形式で取り込みます。
 
+>[!TIP]
+>
+>数値フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
+>
+>ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに数値として表示されます。
+>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+
+
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**数値**&#x200B;フィールドタイプを選択します。
 
-   ![](assets/number-field-type.png)
+   ![ 数値フィールドタイプ ](assets/number-field-type.png)
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
    * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。
@@ -399,11 +408,19 @@ OLD:
 
 パーセンテージフィールドタイプでは、パーセント記号が後ろに付いた数値書式の情報を取り込みます。
 
+>[!TIP]
+>
+>割合フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
+>
+>ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページにパーセンテージとして表示されます。
+>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+
+
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
 
-   ![](assets/percentage-field-type.png)
+   ![ パーセンテージのフィールドの種類 ](assets/percentage-field-type.png)
 
-1. 次の情報を「**新規フィールド**」タブに追加します。
+1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **精度**：フィールドに記録する小数点以下の桁数です。 小数点以下 6 桁まで表示できます。
@@ -431,11 +448,18 @@ OLD:
 
 通貨フィールドタイプでは、通貨記号が前に付いた数値書式の情報を取り込みます。
 
+>[!TIP]
+>
+>通貨フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
+>
+>ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨として表示されます。
+>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**通貨**&#x200B;フィールドタイプを選択します。
 
-   ![](assets/currency-field-type.png)
+   ![ 通貨フィールドタイプ ](assets/currency-field-type.png)
 
-1. 次の情報を「**新規フィールド**」タブに追加します。
+1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **通貨**：このフィールドに表示する通貨のタイプ。これは、国際標準化機構（ISO）に基づく通貨のリストです。
@@ -456,9 +480,9 @@ OLD:
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**チェックボックス**&#x200B;フィールドタイプを選択します。
 
-   ![](assets/checkbox-field-type.png)
+   ![ チェックボックスフィールドタイプ ](assets/checkbox-field-type.png)
 
-1. 次の情報を「**新規フィールド**」タブに追加します。
+1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
 1. 「**作成**」をクリックします。
@@ -473,7 +497,7 @@ OLD:
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**式**&#x200B;フィールドタイプを選択します。
 
-   ![](assets/new-formula-field-with-list-of-expressions.png)
+   ![ 式のリストを含む新しい式フィールド ](assets/new-formula-field-with-list-of-expressions.png)
 
 1. 次の情報を「**新規フィールド**」タブに追加します。
 
@@ -483,7 +507,7 @@ OLD:
 
 1. 選択した式をクリックすると、定義が表示され、書式が表示されます。
 
-   ![](assets/description-of-formula-expression.png)
+   ![ 数式の説明 ](assets/description-of-formula-expression.png)
 
    サポートされている式について詳しくは、[ 式フィールドの概要 ](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
 
@@ -501,7 +525,7 @@ OLD:
    >
    >* 現在のレコードタイプから最大 4 つのフィールド（およびオブジェクト）を参照できます。 例えば、アクティビティレコードタイプ（1）の数式フィールドを作成し、そのアクティビティがWorkfront プロジェクト（3）に接続されたキャンペーンレコードタイプ（2）に接続されている場合、アクティビティのレコードタイプに対して作成する数式で、プロジェクトの予算フィールド（4）を参照できます。
    >
-   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >![ 式の例プロジェクト予算の 4 つのフィールドが削除されました ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. 「**フォーマット**」フィールドで、式タイプ・フィールドに表示される結果のフォーマットを次の中から選択します。
@@ -516,7 +540,7 @@ OLD:
      >
      >配列を表示するフィールドには、タグを使用することをお勧めします。 この場合、各配列メンバーは個別のタグとして表示されます。
 
-     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![ 選択したタグがハイライト表示された式フィールドの書式リスト ](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **日付**：式フィールドの結果は日付として表示されます。
 
@@ -536,13 +560,17 @@ OLD:
 
 >[!TIP]
 >
->ユーザーの名前を「人物」フィールドに追加すると、ユーザーの名前とプライマリ担当業務がフィールドに表示されます。
+>* ユーザーの名前を「人物」フィールドに追加すると、ユーザーの名前とプライマリ担当業務がフィールドに表示されます。
+>
+>* 人物フィールドは、リクエストフォームビルダーで参照（または接続）フィールドタイプとして表示されます。
+>
+>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**ユーザー**&#x200B;フィールドタイプを選択します。
 
-   ![](assets/people-field-type.png)
+   ![ 人物フィールドタイプ ](assets/people-field-type.png)
 
-1. 次の情報を「**新規フィールド**」タブに追加します。
+1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **複数の値を許可**：ユーザーがこのフィールドに複数のユーザーを追加できるようにする場合は、このオプションを選択します。このオプションは、デフォルトで無効になっています。
@@ -561,9 +589,9 @@ OLD:
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**作成者**」フィールドタイプを選択します。
 
-   ![](assets/created-by-field-type.png)
+   ![ フィールドタイプで作成 ](assets/created-by-field-type.png)
 
-1. 次の情報を「**新規フィールド**」タブに追加します。
+1. 「**新しいフィールド**」タブで次の情報を追加します。
 
    * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created by"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
@@ -579,11 +607,11 @@ OLD:
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**作成日**」フィールドタイプを選択します。
 
-   ![](assets/created-date-field-type.png)
+   ![ 作成日フィールドタイプ ](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. 次の情報を「**新規フィールド**」タブに追加します。
+1. 「**新しいフィールド**」タブで次の情報を追加します。
 
    * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created date"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
@@ -612,9 +640,9 @@ OLD:
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**最終更新者**」フィールドタイプを選択します。
 
-   ![](assets/last-modified-by-field-type.png)
+   ![ 最終変更者フィールドタイプ ](assets/last-modified-by-field-type.png)
 
-1. 次の情報を「**新規フィールド**」タブに追加します。
+1. 「**新しいフィールド**」タブで次の情報を追加します。
 
    * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created by"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
@@ -630,11 +658,11 @@ OLD:
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**最終更新日**」フィールドタイプを選択します。
 
-   ![](assets/last-modified-date-field-type.png)
+   ![ 最終変更日フィールドタイプ ](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. 次の情報を「**新規フィールド**」タブに追加します。
+1. 「**新しいフィールド**」タブで次の情報を追加します。
 
    * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created date"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
@@ -656,6 +684,52 @@ OLD:
 1. 「**作成**」をクリックします。
 
    新しい「最終更新日タイプ」フィールドがレコードタイプの列として追加され、その値にはレコードが最後に更新された日付（または日付と時刻）が事前入力されます。
+
+<!--
+
+## Object field type
+
+You can use the Object field type when you need to store several fields that might include several pieces of information. For example, you can store the source, code, error message, or details of an object in one field. In this case, instead of having several separate single-line text fields for that, you can use an Object field to store all information in one place. 
+
+For example, when using an Object-type field, you can store the following type of information: 
+
+```
+"{
+""source"": ""string"",
+""code"": ""string"",
+""subCode"": ""string"",
+""message"": ""string"",
+""details"": ""string""
+}"
+
+```
+
+You can also store an array of values in one field and you would rather rely on user input for each element of the array, instead of using a multi-select field type for the same purpose. For example, you can store information in the following format: 
+
+`["EMEA", "APAC"] `
+
+Consider the following when using Object-type fields:
+
+* In addition to strings and arrays, you can store other value formats like HTML.
+* There is no format validation for this field. 
+* Object-type fields have a limit of 10,000 characters.
+
+Create an Object field: 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+
+    ![Object field type](assets/object-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+
+1. Click **Create**.
+
+    The new Object-type field is added as a column to the record type.
+
+-->
 
 ## レコードタイプを連結してフィールドを作成する
 

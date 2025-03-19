@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 9%
@@ -134,7 +134,7 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
    * 通貨、数値、割合の各フィールドは、フォームビルダー内で 1 行のテキストフィールドタイプとして表示されます。
 
-     ただし、フィールドの形式は保持され、これらのフィールドの数値の値は、レコードタイプとリクエストの詳細ページに通貨、数値、パーセント値として表示されます。
+     ただし、フィールドの形式は保持され、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨、数値、割合としてフィールド値が表示されます。
 
 <div class="preview">
 
