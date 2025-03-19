@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 3e9323b42037eec496cf5d1b000f5b91be998e1f
+source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 41%
+source-wordcount: '1226'
+ht-degree: 39%
 
 ---
 
@@ -189,6 +189,12 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 プロジェクトの従来のアジャイルビューは、25.3 リリース（2025 年 3 月 13 日（PT））でWorkfrontから削除されます。 ボード アイコンをクリックすると、プロジェクトのアジャイルビューでタスクを表示できます。
 
 アジャイルビューの使用について詳しくは、[ アジャイルビューでのプロジェクトの管理 ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md) を参照してください。
+
+#### Enhanced Analytics の廃止
+
+使用率が低く、低下しているため、2025 年 5 月 25 日の週に Enhanced Analytics 製品を非推奨（廃止予定）にすることを決定しました。
+弊社の Data Connect 製品を代替品として検討することをお勧めします。 データ接続を使用すると、好みのビジネスインテリジェンスツールを使用して、カスタマイズ可能な類似のビジュアライゼーションを作成できます。
+この非推奨（廃止予定）について詳しくは、[Enhanced Analytics 非推奨ガイド ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) を参照してください。
 
 ## お知らせ
 
