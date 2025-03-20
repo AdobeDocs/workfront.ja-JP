@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: eb51a0b5f726105d7d25a358fc3546f7a2f27d89
+source-git-commit: 90cb8df4735ed7868b15064588ff0b043e972a3f
 workflow-type: tm+mt
-source-wordcount: '1272'
+source-wordcount: '1270'
 ht-degree: 39%
 
 ---
@@ -57,7 +57,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
         <td>
             <p><b>公開日：</b></p>
             <ul>
-                <li>プレビューリリース：20255 年 3 月 13 日（Pt）</li>
+                <li>プレビューリリース：2025年3月13日（PT）</li>
                 <li>すべてのお客様向けの実稼動リリース：25.4 リリースでは（2025 年 4 月）</li>
             </ul>
         </td>
