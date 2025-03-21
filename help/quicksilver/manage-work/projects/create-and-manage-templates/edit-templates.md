@@ -6,10 +6,10 @@ description: プロジェクトテンプレートを編集して、プロジェ�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '4854'
-ht-degree: 95%
+source-wordcount: '4877'
+ht-degree: 94%
 
 ---
 
@@ -1106,9 +1106,16 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
   費用の追加について詳しくは、[プロジェクト費用の管理](../../../manage-work/projects/project-finances/manage-project-expenses.md)を参照してください。
 
+* キューの詳細
+
+  プロジェクトまたはテンプレートへのキュー詳細の追加については、[ リクエストキューの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) を参照してください。
+
 * トピックグループとキューのトピック
 
-  プロジェクトやテンプレートへのトピックグループおよびキュートピックの追加について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
+  プロジェクトまたはテンプレートにトピック グループとキュートピックを追加する方法については、次の記事を参照してください。
+
+   * [トピックグループを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
+   * [キュートピックを作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
 
 テンプレート内のタスクに以下の項目を追加できます。
 

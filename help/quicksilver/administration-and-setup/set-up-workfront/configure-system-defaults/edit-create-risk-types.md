@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 40%
+source-wordcount: '584'
+ht-degree: 35%
 
 ---
 
 # リスクタイプを編集および作成
+
+<!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -46,7 +48,7 @@ Adobe Workfrontには、計画段階のプロジェクトに関連付けて、�
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
    <td><p>新規：[!UICONTROL Standard]</p>
    または
    <p>現在：[!UICONTROL Plan]</p>
@@ -59,7 +61,7 @@ Adobe Workfrontには、計画段階のプロジェクトに関連付けて、�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -95,10 +97,9 @@ Adobe Workfrontには、計画段階のプロジェクトに関連付けて、�
 
    >[!TIP]
    >
-   >   リスト内の危険タイプの名前または説明をダブルクリックすると、危険タイプ情報をインラインで編集できます。
+   >   危険タイプの一覧の危険タイプの名前または説明をダブルクリックすると、危険タイプ情報をインラインで編集できます。
 
 1. （オプション）リスクタイプの名前と説明を変更します。
-
 
    **[!UICONTROL 名前]**&#x200B;フィールドと&#x200B;**[!UICONTROL 説明]**&#x200B;フィールドには 50 文字の文字数制限があります。
 
@@ -130,7 +131,7 @@ Adobe Workfrontには、計画段階のプロジェクトに関連付けて、�
    または
 
    危険タイプ リストの左下隅にある [[!UICONTROL **その他の危険タイプの追加**]] をクリックし、危険タイプをインラインで追加します。<!--add screen shot-->
-1. リスクタイプの&#x200B;**[!UICONTROL 名前]**（必須）と&#x200B;**[!UICONTROL 説明]**（オプション）を入力します。
+1. 危険タイプに **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を追加します。
 
    **[!UICONTROL 名前]**&#x200B;フィールドと&#x200B;**[!UICONTROL 説明]**&#x200B;フィールドには 50 文字の文字数制限があります。
 

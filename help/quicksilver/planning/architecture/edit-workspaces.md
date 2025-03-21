@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 45%
+source-wordcount: '733'
+ht-degree: 33%
 
 ---
 
@@ -166,14 +166,14 @@ For more information about access requirements, see [Access requirements in Work
 1. （任意） ClicK **表示を減らす** を使用して、画面に表示するワークスペースの数を制限します。
 1. ワークスペースを編集するには、次のいずれかの操作を行います。
 
-   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **詳細** メニュー ![](assets/more-menu.png) ージをクリックします
+   * ワークスペースカードにポインタを合わせ、カードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします
 または
-   * ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右 ![](assets/more-menu.png) にある **詳細** メニューをクリックします。
+   * ワークスペースカードをクリックしてワークスペースを開き、ワークスペース名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします。
 1. 「**編集**」をクリックします。
 
    **ワークスペースを編集** ボックスが表示されます。
 
-   ![](assets/edit-workspace-box.png)
+   ![ ワークスペースを編集ボックス ](assets/edit-workspace-box.png)
 
 1. 「**ワークスペースを編集** ボックスで次の情報を更新します。
 
@@ -186,16 +186,16 @@ For more information about access requirements, see [Access requirements in Work
 1. （オプション）新しいワークスペースセクションを追加するには、次のいずれかの操作を行います。
 
    * ワークスペースの下部にある「**セクションを追加**」をクリックします。
-   * セクションの名前にポインタを合わせ、**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、「**上にセクションを追加**」または「**下にセクションを追加**」をクリックします。
+   * セクション名にポインタを合わせて、「**詳細**」メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、「**上にセクションを追加**」または「**下にセクションを追加**」をクリックします。
 
 1. （オプション）セクションの場所を変更するには、次のいずれかの操作を行います。
 
-   * セクションの名前にポインタを合わせ、**つかむ** アイコン ![](assets/grab-icon.png) をクリックし、適切な場所にドラッグ＆ドロップします。
-   * セクションの名前にポインタを合わせ、**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、「**上に移動**」または「**下に移動**」をクリックします。セクションは、ワークスペース内で上下に移動します。
+   * セクション名にカーソルを合わせて **グラブ** アイコン ![ グラブアイコン ](assets/grab-icon.png) をクリックし、適切な場所にドラッグ&amp;ドロップします。
+   * セクションの名前にポインタを合わせて、**その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**上へ移動** または **下へ移動** をクリックします。 セクションは、ワークスペース内で上下に移動します。
 
 1. （オプション）ワークスペースセクションを削除するには、次の手順を実行します。
 
-   1. セクションの名前にポインタを合わせ、**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、「**削除**」をクリックします。<!--add screen shot when UI is final?-->
+   1. セクションの名前にポインタを合わせて、**その他** メニュー ![[ その他 ] メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックしてください。<!--add screen shot when UI is final?-->
    1. 新しいセクションを選択し、すべてのレコードタイプをそのセクションに移動して、「**削除**」をクリックします。<!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       すべてのレコードタイプが選択セクションに移動され、セクションが削除されます。
@@ -204,17 +204,17 @@ For more information about access requirements, see [Access requirements in Work
 
    詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-1. （オプション）レコードタイプカードにポインタを合わせ、右上隅にある **詳細** メニュー ![](assets/more-menu.png) ージをクリックしてから、**編集** をクリックして、レコードタイプの外観を変更します。
+1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックして、レコードタイプの外観を変更します。
 
    詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
-1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **詳細** メニュー ![](assets/more-menu.png) ージをクリックしてから、**削除** をクリックしてレコードタイプを削除します。
+1. （オプション）レコードタイプのカードにポインタを合わせ、右上隅にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックしてレコードタイプを削除します。
 
    詳しくは、[ レコードタイプの削除 ](/help/quicksilver/planning/architecture/delete-record-types.md) を参照してください。
 
 1. （オプション）レコードタイプカードをクリックしてドラッグし、新しい場所にドロップします。 レコードタイプは、ワークスペースセクション間でドラッグ&amp;ドロップできます。
 
-   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![ レコードタイプのワークスペースへのドラッグ&amp;ドロップ ](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. （任意）他のユーザーとワークスペースを共有するには、ワークスペースの右上隅にある「**共有**」をクリックします。
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 48%
+source-wordcount: '628'
+ht-degree: 44%
 
 ---
 
@@ -176,7 +176,7 @@ For more information about access requirements, see [Access requirements in Work
 
    運用中のレコードタイプ、分類および各テンプレートに関連付けられているフィールドの数が示されます。
 
-   ![](assets/previewing-a-workspace-template.png)
+   ![ ワークスペーステンプレートのプレビュー ](assets/previewing-a-workspace-template.png)
 
    Workfront Planning ワークスペーステンプレートについて詳しくは、[ワークスペーステンプレートのリスト](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
 
@@ -201,7 +201,7 @@ For more information about access requirements, see [Access requirements in Work
 
    または
 
-   セクションの名前にポインタを合わせ、**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、「**名前を変更**」をクリックして、セクションの名前を変更します。
+   セクションの名前にポインタを合わせ、**その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**名前を変更** をクリックしてセクションの名前を変更します。
 
    >[!TIP]
    >

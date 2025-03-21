@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
-ht-degree: 41%
+source-wordcount: '2407'
+ht-degree: 39%
 
 ---
 
@@ -185,15 +185,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
-1. テーブルビューの右上隅にある **+** アイコンをクリックし、「**新しい接続**」タブを選択します。
+1. テーブルビューの右上隅にある **+** アイコンをクリックし、「**新しい接続**」タブをクリックします。
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Workfront AEMのオプションを含む新しい「接続」タブ ](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. 「**レコードタイプ**」フィールドでレコードタイプを検索するか、次のいずれかを選択します。
 
    * 現在のワークスペースの別のレコードタイプ
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![ 多対多の接続ピッカー ](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![ 複数レコードを許可する新しい接続ボックス ](assets/new-connection-allow-multiple-records-box.png)
 
    * 「**Workfront オブジェクトタイプ**」セクションからの&#x200B;**プロジェクト、ポートフォリオ、プログラム、会社**&#x200B;または&#x200B;**グループ**。
 
-     ![](assets/workfront-project-connection-selection.png)
+     ![Workfront プロジェクト連携の選択 ](assets/workfront-project-connection-selection.png)
 
    * 「**Adobe アプリケーション**」セクションからの **Experience Manager Assets**。
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![AEM Assets接続の選択 ](assets/aem-assets-connection-selection.png)
 
 1. 次の情報を更新します。
 
@@ -233,7 +233,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      このオプションは、2 つの異なるワークスペース、またはレコードとAdobe Experience Manager アセットオブジェクトからレコードを接続する場合にのみ使用できます。
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![ 複数レコードを許可する新しい接続ボックス ](assets/new-connection-allow-multiple-records-box.png)
 
    * **接続タイプ**：次のいずれかのオプションを選択して、接続先および接続先のレコードの数を指定します。
 
@@ -244,7 +244,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      このオプションは、同じワークスペースのレコードまたはレコードとWorkfront オブジェクトタイプを接続する場合にのみ使用できます。
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![ 多対多の接続ピッカー ](assets/many-to-many-connection-picker.png)
 
      接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
@@ -303,7 +303,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    **-** アイコンをクリックして、**選択されたフィールド**&#x200B;エリアからフィールドを削除します。
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![[ 他のレコード タイプのルックアップ フィールドを追加する ] ボックス ](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    レコードやオブジェクトをリンクした後、接続されたフィールドの値が自動的に入力されます。
 
@@ -328,7 +328,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >    参照日フィールドをタイムライン ビューとカレンダービューの開始日および終了日として追加できるようにする場合は、フィールドを追加するときにアグリゲータ値を選択する必要があります。 例えば、参照日フィールドには、MAXまたは MIN アグリゲータを選択できます。
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![ リンクされた数値フィールドのアグリゲータドロップダウン ](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >* **一意**:100,000 ドル
    >
 
-1. （オプション）**検索**&#x200B;アイコン ![](assets/search-icon.png) を使用してフィールドを検索します。
+1. （オプション） **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) を使用して、フィールドを検索します。
 
 1. 「**フィールドを追加**」をクリックして変更を保存します。
 
@@ -385,7 +385,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    * **フィールドを編集**：フィールドの **名前** と **説明** 情報を更新します。
    * **ルックアップフィールドを編集**：任意のリンクされたレコードのフィールドを追加または削除します。
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![ テーブル列のフィールドおよびルックアップフィールドの編集ドロップダウンメニュー ](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    ルックアップ フィールドを追加または削除するには、上記の手順 16 ～ 17 の指示に従います。<!--ensure these step numbers stay accurate-->
 

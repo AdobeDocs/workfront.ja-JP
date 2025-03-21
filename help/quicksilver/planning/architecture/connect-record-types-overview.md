@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 21%
+source-wordcount: '1541'
+ht-degree: 20%
 
 ---
 
@@ -93,7 +93,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
      >
      >ワークスペースに対する表示以上のアクセス権を持つすべてのユーザーは、リンク オブジェクトの種類のアプリケーションでのアクセス権またはアクセス レベル、または他のワークスペースでのアクセス権に関係なく、ルックアップ フィールドの情報を表示することができます。
 
-     リンクされたレコードフィールドの前には関係アイコン ![](assets/relationship-field-icon.png) が付きます。
+     リンクされたレコードフィールドの前には、関係アイコン ![ 関係フィールドアイコン ](assets/relationship-field-icon.png) が付きます。
 
      リンクされたフィールドの前には、フィールドタイプを識別するアイコンが付きます。例えば、リンクされた（または参照）フィールドの前には、フィールドが数値、段落、または日付であることを示すアイコンが付きます。
 
@@ -118,7 +118,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 ### 多対多接続タイプ
 
-![](assets/many-to-many-connection-picker.png)
+![ 多対多の接続ピッカー ](assets/many-to-many-connection-picker.png)
 
 レコードタイプ間に多対多の接続を作成すると、両方のレコードタイプの接続フィールドで複数のレコードを選択できます。
 
@@ -130,7 +130,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 ### 1 対多接続タイプ
 
-![](assets/one-to-many-connection-picker.png)
+![1 対多接続ピッカー ](assets/one-to-many-connection-picker.png)
 
 
 レコードタイプ間に 1 対多の接続を作成すると、現在のレコードタイプの「接続」フィールドで複数のレコードを選択できますが、接続先のレコードタイプの対応する「接続」フィールドでは、1 つのレコードしか選択できません。 2 番目のレコードタイプで自動的に作成される接続済みレコードフィールドは、自動的に多対 1 の関係タイプに設定されます。
@@ -143,7 +143,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 ### 多対 1 接続タイプ
 
-![](assets/many-to-one-connection-picker.png)
+![ 多対 1 の接続ピッカー ](assets/many-to-one-connection-picker.png)
 
 
 レコードタイプ間に多対 1 の接続を作成すると、現在のレコードタイプの各レコードを、接続されたレコードタイプの 1 つのレコードのみで接続できます。 2 番目のレコードタイプで自動的に作成される接続済みレコードフィールドは、1 対多の関係タイプに自動的に設定されます。
@@ -156,7 +156,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 ### 1 対 1 の接続タイプ
 
-![](assets/one-to-one-connection-picker.png)
+![1 対 1 の接続ピッカー ](assets/one-to-one-connection-picker.png)
 
 レコードタイプ間で 1 対 1 の接続を作成する場合、両方のレコードタイプで、各レコードを他のレコードタイプの 1 つのレコードにのみ接続できます。
 

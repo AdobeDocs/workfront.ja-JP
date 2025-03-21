@@ -8,20 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2551'
-ht-degree: 94%
+source-wordcount: '2522'
+ht-degree: 92%
 
 ---
 
 # イシューを編集
+
+<!--Audited: 03/2025-->
 
 自分が作成したイシューに関する情報や、他のユーザーとイシューを共有した場合は他のユーザーが作成したイシューに関する情報を編集できます。
 
 1 つのイシューを編集することも、リスト内の複数のイシューを編集することもできます。リスト内のイシューの編集について詳しくは、[リスト内のイシューの編集](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -30,19 +34,21 @@ ht-degree: 94%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>リクエスト以上</p> <p>タスクまたはプロジェクトの「イシュー」セクションでイシューを編集する場合は、レビュー以上のライセンスが必要です。</p> </td> 
+   <td> <p>新しいライセンス：</p>
+   <ul><li>投稿者以上</li>
+   <li>タスクまたはプロジェクトの「イシュー」セクションのイシューを編集するためのライト以上</li></ul>
+   <p>現在のライセンス：</p>
+  <ul><li>リクエスト以上</li> <li>タスクまたはプロジェクトの「イシュー」セクションでレビュー以上のイシューを編集する</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。自分のアクセスレベルでのイシューへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセスの許可</a>を参照してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>イシューへのアクセス権を編集</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
    <td> <p>イシューに対する権限を付与して、詳細エリアの次のフィールドを編集します。 </p>
@@ -56,7 +62,9 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## イシューを編集する際の制限事項
 
@@ -254,14 +262,9 @@ ht-degree: 94%
       <tr> 
       <td role="rowheader">これにより、次が解決されます。</td> 
       <td>アクセスしているイシューが解決されると完了する、イシューのリンクされた名前。  </td> 
-     </tr>
-
-
-   </tbody> 
+     </tr> 
+    </tbody> 
    </table>
-
-
-
 
 
 1. 「**保存**」をクリックするか、以降のセクションの編集を続けます。

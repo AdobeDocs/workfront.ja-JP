@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 34%
+source-wordcount: '714'
+ht-degree: 32%
 
 ---
 
@@ -159,15 +159,15 @@ OLD:
    ワークスペースページが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **詳細** メニュー ![](assets/more-menu.png) ージをクリックしてから、「**編集**」をクリックします
+   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックします
 または
-   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右 ![](assets/more-menu.png) にある **詳細** メニューをクリックしてから、**編集** をクリックします。
+   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックします。
 
-   ![](assets/more-menu-options-from-record-type-card.png)
+   ![ レコードタイプカードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card.png)
 
 1. **レコードタイプを編集** ボックスで、「**外観** タブがデフォルトで開きます。
 
-   ![](assets/edit-record-type-box-appearance-tab.png)
+   ![ レコードタイプを編集ボックスの「外観」タブ ](assets/edit-record-type-box-appearance-tab.png)
 
    「**外観**」タブで次の情報を更新します。
 
@@ -179,7 +179,7 @@ OLD:
 
 1. （条件付き）システム管理者の場合は、「**レコードタイプを編集** ボックスの「**詳細設定**」タブをクリックします。
 
-   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+   ![ レコードタイプを編集ボックスの「詳細設定」タブ ](assets/edit-record-type-box-advanced-settings-tab.png)
 
 1. （条件付き）システム管理者が、「**詳細設定**」タブで次の情報を更新します。
 
@@ -189,10 +189,10 @@ OLD:
 
 1. **保存**&#x200B;をクリックします。
 
-   ワークスペースのレコードタイプカードで、右上隅に接続アイコン ![](assets/connect-from-other-workspaces-icon.png) が表示され、他のワークスペースからレコードにアクセスできるようになったことを示します。
+   ワークスペースのレコードタイプカードの右上隅に、接続アイコン ![ 他のワークスペースから接続アイコン ](assets/connect-from-other-workspaces-icon.png) が表示され、レコードが他のワークスペースからアクセスできるようになったことを示します。
 
 1. （オプション）ワークスペース領域からレコードタイプカードをクリックしてレコードタイプのページを開き、ヘッダーでレコードタイプの名前を変更します。
 
 1. （オプション）別のレコードの種類を編集するには、レコードの種類のページで、レコードの種類名の右側にある下向き矢印を展開し、レコードの種類を検索してから、一覧に表示されるときにその種類を選択します。
 
-   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![ 検索ボックス付きレコードタイプページのレコードタイプドロップダウン ](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

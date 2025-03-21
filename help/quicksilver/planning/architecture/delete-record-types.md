@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 58%
+source-wordcount: '507'
+ht-degree: 57%
 
 ---
 
@@ -186,9 +186,9 @@ OLD:
 1. 次のいずれかの操作を行います。
 
    * レコードタイプカードにポインタを合わせ、「**詳細**」メニューをクリックしてから **削除** をクリックします。
-   * 削除するレコードの種類のカードをクリックし、レコードの種類のページで、レコードの種類名の右側に ![](assets/more-menu.png) る **詳細** メニューをクリックし、[**削除**] をクリックします。
+   * 削除するレコードの種類のカードをクリックし、レコードの種類ページで、レコードの種類名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、[**削除**] をクリックします。
 
-   ![](assets/permanently-delete-record-type-confirmation.png)
+   ![ レコードタイプを完全に削除する確認 ](assets/permanently-delete-record-type-confirmation.png)
 
 1. 確認ボックスに **削除** と入力し、「**完全に削除**」をクリックします。 これは、大文字と小文字を区別しません。
 

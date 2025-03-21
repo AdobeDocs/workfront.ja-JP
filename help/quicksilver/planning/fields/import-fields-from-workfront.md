@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 28%
+source-wordcount: '709'
+ht-degree: 27%
 
 ---
 
@@ -169,11 +169,11 @@ ht-degree: 28%
    任意の列のヘッダーにポインタを合わせ、フィールド名の後の下向き矢印をクリックしてから、「**左に挿入** または **右に挿入** をクリックして新しいフィールドを追加します。
 1. **新規フィールド** タブの右下隅にある「**既存を追加** をクリックします。<!--check UI - did they change this??-->
 
-   ![](assets/add-existing-fields-from-workfront-modal.png)
+   ![Workfrontから既存のフィールドを追加モーダル ](assets/add-existing-fields-from-workfront-modal.png)
 
 1. 検索領域に既存のWorkfront フィールドの名前の入力を開始し、リストに表示されたら **+** をクリックします。
 1. （オプション）別のフィールドを入力し、リストに表示されたら **+** をクリックします。
-1. （オプション） **フィルター** アイコン ![](assets/filters-in-import-fields-icon.png) をクリックして、次のフィールドの一方または両方を更新します。
+1. （任意） **フィルター** アイコン ![ インポートフィールドのフィルター ](assets/filters-in-import-fields-icon.png) アイコンをクリックして、次のフィールドの一方または両方を更新します。
 
    * オブジェクトタイプ：フィールドを読み込むWorkfront オブジェクトタイプを選択します。
    * カスタムフォーム：Workfrontから 1 つまたは複数のカスタムフォームを選択します。 最初にオブジェクトタイプを選択しなくても、カスタムフォームを選択できます。
