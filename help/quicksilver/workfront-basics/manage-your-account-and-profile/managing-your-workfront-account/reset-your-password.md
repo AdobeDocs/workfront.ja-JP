@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  パスワードをリセットできま�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: 00930d520a6421a33ebe7c4842b59b9df514080b
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 72%
+source-wordcount: '261'
+ht-degree: 70%
 
 ---
 
@@ -77,10 +77,10 @@ ht-degree: 72%
 
 1. 古いパスワードを入力し、新しいパスワードを 2 回入力します。
 
-   パスワードは 8 文字以上で、次の種類の文字の <!--of each--> を 2 つ含める必要があります。
+   パスワードは 8 文字以上とし、次の種類の文字をそれぞれ 2 文字含める必要があります。
 
-   <!--* Uppercase letters
-   * Lowercase letters-->
+   * 大文字
+   * 小文字
    * 英文字
    * 数字
    * 特殊文字（など） @ # $ %）
