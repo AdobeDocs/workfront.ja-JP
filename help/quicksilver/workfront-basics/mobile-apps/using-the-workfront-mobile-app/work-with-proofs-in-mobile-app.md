@@ -6,10 +6,10 @@ description: プルーフの承認を割り当てられると、そのプルー�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 98%
+source-wordcount: '770'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 98%
 
    >[!NOTE]
    >
-   >モバイルアプリではビデオのプルーフを開くことができません。
+   >ビデオの配達確認は、iOS モバイルアプリでのみ開くことができます。 この機能は、まだAndroidでは使用できません。
 
 1. ドキュメントプルーフをレビューします。
 1. （オプション）ドキュメントの右上にある![[!UICONTROL 単ページアイコン]](assets/mobile-proofpagingicon1-25x36.png)を選択して、単ページ表示から連続表示に変更します。![[!UICONTROL 連続ページアイコン]](assets/mobile-proofpagingicon2-25x25.png)を選択すると、単ページ表示に戻ります。
