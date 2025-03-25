@@ -10,7 +10,7 @@ exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '2113'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-planner"
 >title="リソースプランナー"
->abstract="リソースプランナーを使用すると、割り当て先のプロジェクトに対するリソースの割り当てを見積もりおよび予算計上し、今後の作業に備えてリソースの空き時間を予測できます。"
+>abstract="リソースプランナーを使用すると、リソースが割り当てられているプロジェクトへのリソースの割り当てを見積もって予算を計上し、将来の作業に使用できるリソースを予測できます。"
 
 <!-- Audited: 12/2023 -->
 
