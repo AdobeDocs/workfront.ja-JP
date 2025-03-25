@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1811'
 ht-degree: 9%
 
 ---
@@ -200,7 +200,7 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
    選択したレコードタイプの接続されたフィールドも、自動処理を設定する元のレコードタイプに作成されます。
 1. （オプションおよび条件付き）Workfront オブジェクトを作成することを選択し、選択したWorkfront オブジェクトタイプの接続フィールドがない場合は、「**Workfront オブジェクトタイプ名 > が作成される接続フィールド** フィールドの右側にある疑問符アイコンをクリックし、**追加** アイコン ![ 接続フィールドアイコンを作成 ](assets/create-a-connection-field-icon.png) をクリックして接続フィールドを追加します。
 
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   ![Workfrontで連結されたフィールドを自動で追加するための疑問符アイコン ](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    新しいフィールドが自動的に作成され、「**接続 &lt; Workfront オブジェクト名 >**」という名前が付けられます。 例えば、レコードにポートフォリオ接続フィールドを作成した場合、その名前は「接続されたポートフォリオ」になります。
 

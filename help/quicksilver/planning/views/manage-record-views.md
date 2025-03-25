@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
-ht-degree: 63%
+source-wordcount: '1459'
+ht-degree: 54%
 
 ---
 
@@ -252,7 +252,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
    選択したビューで新しいタブが作成されます。
 
-   画面の幅によっては、**その他**&#x200B;メニュー ![](assets/more-menu.png) に追加のビューが表示される場合があります。
+   画面の幅に応じて、追加のビューが **その他** メニュー ![ その他メニュー ](assets/more-menu.png) に表示される場合があります。
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 >それ以外の場合は、「タイムライン」および「カレンダー」オプションは淡色表示になります。
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![ レコードタイプリストからの表示タイプドロップダウン ](assets/view-types-drop-down-from-record-type-list.png)
 
 1. （条件付き）タイムラインビューまたはカレンダービューを作成する際は、「**次へ**」をクリックします。
 
@@ -285,10 +285,10 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 1. 「**作成**」をクリックします。
 
    ビューは新しいタブとして表示されます。ビューは、作成時または共有時からの時間順で表示されます。
-1. （オプション）最後のビューの横にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-caret-down-icon-views.png) をクリックすると、選択したレコードタイプのすべてのビューが表示されます。
+1. （オプション）選択したレコードタイプのすべてのビューを表示するには、最後のビューの横にある **その他** メニュー ![ その他のキャレットダウンアイコンビュー ](assets/more-caret-down-icon-views.png) をクリックします。
 
    最後のビュータブの後の&#x200B;**その他**&#x200B;メニューに、追加のビューが表示されます。**その他**&#x200B;メニューの横の数字は、追加のビューの数を示します。
-1. （オプション）ビューの作成後に名前を変更するには、ビューのドロップダウンメニューをクリックし、**その他**&#x200B;メニュー ![](assets/more-menu.png)／**名前を変更**&#x200B;をクリックして、ビュー名を更新します。
+1. （オプション）作成後にビューの名前を変更するには、ビューのドロップダウンメニューをクリックし、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png)>**名前を変更** をクリックしてビュー名を更新します
 
    または
 
@@ -315,7 +315,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. ビュータブのビュー名の 1 つにポインタを合わせ、ビュー名の左側にある&#x200B;**その他** ![](assets/more-menu.png) をクリックしたあと、「**削除**」をクリックします。
+1. ビュータブ内のビュー名の 1 つにポインタを合わせ、ビュー名の左側にある **その他**![ その他メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックします。
 まず、最後のタブの左側にある**その他**&#x200B;をクリックして、削除するビューを探します。
 
 1. 「**削除**」をクリックして確定します。<!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
    レコードタイプ ページが開きます。
 デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. 複製するビューのタブにポインタを合わせて、ビュー名の右側にある&#x200B;**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックして、「**複製**」をクリックします。
+1. 複製するビューのタブにポインタを合わせ、ビュー名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、「**複製**」をクリックします。
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![ 「複製」オプションを使用した詳細メニューの表示 ](assets/view-more-menu-with-duplicate-option.png)
 
 
    ビューが複製され、新しいビューの名前が次のパターンに従います。`Original view's name (Copy)`新しいビュータブは、すべてのビュータブの最後に表示されます。
@@ -362,13 +362,13 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 1. （条件付き）選択したタイプのレコードを同時に編集する他のユーザーがいる場合、そのアバターはビューの右上隅に表示されます。
 1. アバターの横にあるドロップダウンメニューをクリックし、「**共同作業者を表示**」切替スイッチを選択します。 この切り替えはデフォルトで選択されています。
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![ 「共同作業者を表示」切替スイッチが選択されている ](assets/show-collaborators-toggle-selected.png)
 
 1. （条件付き）テーブルビューを開くと、他のユーザーがアクティブに編集しているフィールドが、テーブルビューでのアバターの概要に対応する色でハイライト表示されます。
 
    アバターのハイライト色がグレーの場合、ユーザーは 30 秒以上前にレコードのアクティブな編集を停止しました。
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![ リアルタイムインジケーターテーブルフィールドとアバター接続 ](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

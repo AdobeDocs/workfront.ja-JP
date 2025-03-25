@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 26%
 
 ---
@@ -124,7 +124,7 @@ ht-degree: 26%
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側 ![](assets/more-menu.png) ある **詳細** メニューをクリックし、「**リクエストフォームを更新**」をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![Mroe メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームを更新** をクリックします。
 1. 画面の右上隅にある **共有** をクリックし、共有の選択を更新します。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 1. （任意）リクエストフォームの共有を変更し、新しいリンクを使用して新しいユーザーグループに共有する場合は、「**リンクをコピー**」をクリックします。
 
@@ -142,10 +142,10 @@ ht-degree: 26%
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側 ![](assets/more-menu.png) ある **詳細** メニューをクリックし、「**リクエストフォームを更新**」をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、「**リクエストフォームを更新**」をクリックします。
 1. 右上隅の **非公開** をクリックします。
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![ ハイライト表示された「非公開」ボタン ](assets/unpublish-button-highlighted.png)
 
    フォームが非公開になったことを知らせる確認が画面の下部に表示されます。
 

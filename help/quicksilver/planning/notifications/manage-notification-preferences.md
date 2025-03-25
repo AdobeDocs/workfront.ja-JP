@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '513'
 ht-degree: 21%
 
 ---
@@ -169,13 +169,13 @@ OLD:
 ## 通知設定の管理
 
 1. Adobe Experience Cloudの資格情報を使用してWorkfrontにログインします。
-1. 画面の右上に ![](assets/account-menu-icon-on-experience-cloud.png) る **アカウントメニュー** アイコンをクリックしてから、**環境設定** をクリックします。
+1. 画面右上の **アカウントメニュー** アイコン ![Experience Cloudのアカウントメニューアイコン ](assets/account-menu-icon-on-experience-cloud.png) をクリックし、**環境設定** をクリックします。
 1. 「**通知**」セクションで、「**Workfront**」をクリックします。
 1. 受信する通知を選択します。
 または
 受信停止する通知の選択を解除します。
 
-   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   ![Workfront Planning のAdobe Experience Cloud通知パネル ](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Workfrontでは、次の通知を利用できます。
 
    * **メンション**:Workfront Planning で誰かがコメントであなたをタグ付けすると、通知が届きます

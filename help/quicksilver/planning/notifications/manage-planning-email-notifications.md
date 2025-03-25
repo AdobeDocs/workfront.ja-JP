@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '662'
 ht-degree: 14%
 
 ---
@@ -163,7 +163,7 @@ OLD:
 
 1. （条件付きおよびオプション）誰かがレコードのコメントでタグを付けた後、タグとコメントを通知するメール通知に移動します。 メールの送信者はAdobe Experience Cloudです。
 
-   ![](assets/email-notification-example.png)
+   ![ メール通知の例 ](assets/email-notification-example.png)
 
 1. （任意）メール内の **Workfront** ボックスのメッセージをクリックします。
 
@@ -195,6 +195,6 @@ Adobe Workfront Planning 通知の管理については、[Workfront Planning �
 
 1. （任意）「**リクエストを開く**」をクリックします。 これにより、Workfront Planning でリクエストが開きます。
 
-1. 画面の右上隅に ![](assets/notifications-area-icon-unified-shell.png) る **通知** アイコンをクリックして、**通知** ページにアクセスします。
+1. 画面の右上隅にある「**通知**」アイコン ![ 通知領域アイコン Unified Shell](assets/notifications-area-icon-unified-shell.png) をクリックして、**通知** ページにアクセスします。
 
    Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 ](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。

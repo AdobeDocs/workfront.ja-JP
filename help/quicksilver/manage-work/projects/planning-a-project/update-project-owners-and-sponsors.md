@@ -6,10 +6,10 @@ description: Adobe Workfront でプロジェクトを作成すると、そのプ
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 87%
+source-wordcount: '433'
+ht-degree: 85%
 
 ---
 
@@ -109,7 +109,7 @@ Adobe Workfront でプロジェクトを作成すると、自動的にそのプ�
 
    プロジェクトヘッダーおよび「プロジェクト詳細」エリアの「プロジェクト所有者」が更新されます。
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![ プロジェクトの利害関係者の所有者がハイライト表示されている ](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## プロジェクトのプロジェクトスポンサーの更新
 
@@ -131,4 +131,4 @@ Adobe Workfront でプロジェクトを作成すると、自動的にそのプ�
 
    「プロジェクト詳細」エリアの「プロジェクトスポンサー」が更新されます。
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![ プロジェクト関係者のスポンサーがハイライト表示 ](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

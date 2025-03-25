@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 50%
+source-wordcount: '2246'
+ht-degree: 47%
 
 ---
 
@@ -208,7 +208,7 @@ ht-degree: 50%
    選択したレコードタイプに関連付けられているレコードが、テーブルビューに表示されます。
 1. レコードの行内をクリックして、レコードに関する情報の編集をインラインで開始します。
 
-   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![ 書式設定テーブルビューでレコードの段落フィールドを編集 ](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -226,7 +226,7 @@ ht-degree: 50%
    * 箇条書きリストを追加
    * 番号付きリストを追加
 
-   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![ 段落フィールドのリッチテキストツールバー ](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. （オプション）接続されたレコードフィールドをダブルクリックして、接続済みレコードやオブジェクトを別のレコードに追加します。詳しくは、[レコーのを接続](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 1. キーボードの **Enter** キーを押すか、行の外側をクリックして変更を保存します。変更点は自動的に保存されます。テーブルビューの右上隅に&#x200B;**保存済み**&#x200B;インジケータが短時間表示され、変更が保存されたことを示します。
@@ -240,7 +240,7 @@ ht-degree: 50%
    * 1 つのセルから情報をコピーして、複数のセルを選択し、同じ情報を複数のセルに貼り付けます。 複数のセルを選択して、隣接する行と列の複数のセルに同じ情報を貼り付けることができます。
    * コピーする情報が含まれている既存のセルの右下隅を選択し、同じ情報を貼り付ける隣接するセル間でドラッグ アンド ドロップします。 すべてのセルに同じ種類の情報を含める必要があります。
 
-     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![ テーブル表示でのコピー貼り付けに使用する、ドラッグ可能な右下隅 ](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    <div class="preview">
 
@@ -293,11 +293,11 @@ ht-degree: 50%
 
    または
 
-   テーブル表示で、最初の列の **詳細を開く** アイコン ![](assets/open-details-icon-in-table-name-field.png) をクリックします。 レコードのプレビューがビューで開きます。
+   テーブル表示で、最初の列の **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。 レコードのプレビューがビューで開きます。
 
    <div class="preview">
 
-   ![](assets/details-box.png)
+   ![ 詳細ボックス ](assets/details-box.png)
 
    </div>
 
@@ -316,11 +316,11 @@ ht-degree: 50%
 
 1. （任意） **カバーを追加** をクリックして、カバー画像をレコードに追加します。 詳細については、[ レコードにカバー画像を追加する ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) を参照してください。
 
-1. （オプション）サムネールアイコンの上にマウスポインターを置き、**詳細**![](assets/more-menu.png)/**サムネールを編集** をクリックして、サムネール画像を追加します。 詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+1. （オプション）サムネールアイコンの上にマウスポインターを置き、**詳細** メニュー ![ ](assets/more-menu.png)>**サムネールを編集** をクリックしてサムネール画像を追加します。 詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
    Workfront では、変更を自動的に保存します。
 
-1. <span class="preview"> （任意）レコードのプレビューボックスの右上隅にある **リアルタイムインジケーター**![](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
+1. <span class="preview"> （任意）レコードのプレビューボックスの右上隅にある **リアルタイムインジケーター**![ リアルタイムインジケーターアイコン ](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
 
    レコードに同時にアクセスするすべてのユーザーの名前とアバターがこの領域に表示されます。
 
@@ -328,13 +328,13 @@ ht-degree: 50%
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![ 時間インジケーターの展開されたレコードのプレビューボックス ](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. （任意） **書き出し** メニューフ ![](assets/export-icon-in-record-details-page.png) ールドをクリックして、レコードの詳細を書き出します。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+1. （任意） **エクスポート** メニュー ![ レコードの詳細ページのエクスポートアイコン ](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細をエクスポートします。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
-1. （オプション）レコードのプレビューの右上隅に <!--check the icon; they are changing it--> る **新しいタブで開く** アイコン ![](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを新しいタブで開きます。 この記事の[レコードのページからレコードを編集](#edit-a-record-from-the-records-page)の節の説明に従って、レコードを引き続き編集します。
+1. （オプション）レコードのプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開く ](assets/open-details-in-a-new-tab-icon.png) アイコン <!--check the icon; they are changing it--> 新しいタブでレコードのページを開く）をクリックします。 この記事の[レコードのページからレコードを編集](#edit-a-record-from-the-records-page)の節の説明に従って、レコードを引き続き編集します。
 
 ### レコードのページからレコードを編集
 
@@ -350,15 +350,15 @@ ht-degree: 50%
 
 1. 次のいずれかの操作を行います。
 
-   * この記事の「[ ビューでのレコードのプレビューからレコードを編集する ](#edit-a-record-from-the-records-preview-in-a-view) の節の説明に従って、任意のビューからレコードのプレビューにアクセスし、レコードプレビューの右上隅にある **新しいタブで開く** アイコンをクリックし ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it-->、レコードのページを新しいタブで開きます。
+   * この記事の「[ レコードのプレビューからレコードを編集する ](#edit-a-record-from-the-records-preview-in-a-view)」の説明に従って、任意の表示からレコードのプレビューにアクセスし、レコードプレビューの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開く ](assets/open-details-in-a-new-tab-icon.png) アイコン <!--check the icon; they are changing it--> をクリックして、レコードのページを新しいタブで開きます。
 
-   * **テーブル**&#x200B;ビューで、レコードの名前にポインタを合わせ、**詳細**&#x200B;メニュー ![](assets/more-menu.png) をクリックし、更に「**表示**」をクリックします。
+   * **テーブル** ビューで、レコードの名前にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**表示** をクリックします
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![ レコード行のコンテキストメニュー ](assets/contextual-menu-for-record-row.png)
 
      レコードページが開きます。
 
-     ![](assets/details-page.png)
+     ![ 詳細ページ ](assets/details-page.png)
 
 1. （オプション）レコードのタイトルの右側にある **詳細** メニューをクリックし、「名前を変更 **をクリックし** す。 これにより、レコードのタイトルとして表示されるフィールドが更新されます。
 
@@ -378,17 +378,17 @@ ht-degree: 50%
 
    または
 
-   既存のカバー画像にポインタを合わせ、**詳細** メニュー ![](assets/more-menu.png)/**アップロード** をクリックして、レコードの新しいカバー画像を追加します。
+   既存のカバー画像にポインタを合わせ、**その他** メニュー ![ その他メニュー ](assets/more-menu.png)/**アップロード** をクリックして、レコードの新しいカバー画像を追加します。
 
    詳細については、[ レコードにカバー画像を追加する ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) を参照してください。
 
-1. （オプション）既存のサムネールまたは **サムネールアイコン**![](assets/record-thumbnail-icon-on-details-page.png) にポインタを合わせ、**詳細** メニュー ![](assets/more-menu.png)/**サムネールを編集** をクリックして、レコードのサムネールを追加します。
+1. （オプション）既存のサムネールまたは **サムネールアイコン**![ 詳細ページでサムネールアイコンを記録 ](assets/record-thumbnail-icon-on-details-page.png) にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png)/**サムネールを編集** をクリックして、レコードのサムネールを追加します。
 
    詳しくは、[ レコードへのサムネールの追加 ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
 
    Workfront では、変更を自動的に保存します。
 
-1. <span class="preview"> （任意）レコードのページの右上隅にある **リアルタイムインジケーター**![](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
+1. <span class="preview"> （任意）レコードのページの右上隅にある **リアルタイムインジケーター**![ リアルタイムインジケーターアイコン ](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
 
    レコードに同時にアクセスするすべてのユーザーの名前とアバターがこの領域に表示されます。
 
@@ -396,11 +396,11 @@ ht-degree: 50%
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![ リアルタイムインジケーターの展開されたレコードのプレビューボックス ](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. （任意） **書き出し** メニューフ ![](assets/export-icon-in-record-details-page.png) ールドをクリックして、レコードの詳細を書き出します。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+1. （任意） **エクスポート** メニュー ![ レコードの詳細ページのエクスポートアイコン ](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細をエクスポートします。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 
 ## 計画セクションのWorkfrontオブジェクトからレコードを編集する

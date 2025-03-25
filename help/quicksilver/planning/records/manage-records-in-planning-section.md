@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1837'
 ht-degree: 7%
 
 ---
@@ -166,12 +166,12 @@ Workfrontでオブジェクトのページが開きます。
       * Workfront Planning に表示される、接続されたレコードフィールドの名前。
    * レコードは、それぞれのワークスペースとレコードタイプの下に表示されます。
 
-   ![](assets/planning-section-on-project.png)
+   ![ プロジェクトの計画セクション ](assets/planning-section-on-project.png)
 
 1. （省略可能） [**すべての接続を表示**] をクリックすると、接続されたすべてのレコードの種類（接続されていないレコードを含む）が表示されます。 既定では、レコードが接続されていないレコード タイプは表示されません。
 1. レコードカードをクリックすると、レコードに関する詳細情報が表示されます。 レコードのプレビューボックスが表示されます。
 1. （オプション）レコードのプレビューボックスのフィールドの変更を開始します。 変更内容は自動的に保存されます。
-1. （オプション）プレビューボックスの右上隅に ![](assets/open-details-in-a-new-tab-icon.png) る **新しいタブで開く** アイコンをクリックして、レコードの詳細ページを開きます。 Workfront Planning にレコードの詳細ページが開きます。
+1. （オプション）プレビューボックスの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードの詳細ページを開きます。 Workfront Planning にレコードの詳細ページが開きます。
 1. （オプション）レコードカードの上にマウスポインターを置き、「レコードを切断」アイコン（**-**）をクリックしてから「**切断**」をクリックします。
 次のことが発生します。
    * レコードがWorkfront オブジェクトに接続されなくなりました。
@@ -242,7 +242,7 @@ Workfrontオブジェクトの「Planning 接続」フィールドからWorkfron
 
 1. フィールド内をクリックして接続レコードを追加し、フィールド内の下向き矢印をクリックして、リストからレコードを選択します。
 
-   ![](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![ レコードリストが開いているプロジェクトの計画接続フィールド ](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -252,7 +252,7 @@ Workfrontオブジェクトの「Planning 接続」フィールドからWorkfron
    >
    >フィールドのオブジェクトと選択したオブジェクトが一致しない場合があります。
    >
-   >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![ 警告：フォーム上のサポートされていないオブジェクトの Planning 接続フィールド ](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
 1. リストの外側をクリックして閉じます。
 
@@ -263,13 +263,13 @@ Workfrontオブジェクトの「Planning 接続」フィールドからWorkfron
    * 計画レコードに接続されたWorkfront参照フィールドの値は、Workfront Planning に入力されます。
    * <span class="preview">Workfrontまたはグループ管理者がカスタムフォームの作成時にレコード検索フィールドを追加した場合、レコードの検索フィールドがテーブルビューに自動入力されます。 「計画接続」フィールドのテーブル・ビューは読取り専用です </span>
 
-     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![ プロジェクト詳細カスタムフォームのテーブルを含む計画接続フィールド ](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
 1. （オプション）レコードの名前をクリック <span class="preview"> またはテーブル内のレコードの名前にポインタを合わせて、「Planning 接続」フィールドで **レコードを開く** アイコン ![Planning 接続カスタムフォームのレコードを開くアイコン ](assets/open-record-icon-on-planning-connection-custom-form.png)</span> をクリックすると、Workfront Planning でレコードが開きます。
 Workfront計画レコードの詳細プレビューボックスが開きます。
 1. レコードに関する情報を確認または編集するか、**新しいタブで開く** アイコン ![ 新しいタブでレコードを開く ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードの詳細ページを開きます。
 
-1. （オプション）Workfrontのカスタムフォームで、レコードの ![](assets/remove-icon.png) にある **削除** アイコンをクリックして、Planning 接続フィールドから削除し、Workfront オブジェクトから切断します。
+1. （オプション）Workfrontのカスタムフォームで、レコードの **削除** アイコン ![ 削除アイコン ](assets/remove-icon.png) をクリックして、Planning 接続フィールドから削除し、Workfront オブジェクトから切断します。
 Workfront オブジェクトは計画レコードから切断され、Workfrontからのルックアップ情報はレコードから削除されます。
 
 1. 「**変更を保存**」をクリックして、カスタムフォームや、Workfront オブジェクトに対して行ったその他の変更を保存します。

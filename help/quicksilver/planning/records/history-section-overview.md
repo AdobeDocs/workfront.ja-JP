@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 80%
+source-wordcount: '661'
+ht-degree: 76%
 
 ---
 
@@ -114,14 +114,14 @@ ht-degree: 80%
 1. 任意のビューで、レコードの名前をクリックします。
 
    レコードのページが開きます。コメントエリアがデフォルトで右パネルに開きます。
-1. **履歴を表示**&#x200B;アイコン ![](assets/show-history-icon.png) をクリックします。レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
-1. （オプション）**履歴を非表示**&#x200B;アイコン ![](assets/hide-history-icon.png) をクリックすると、右パネルが閉じます。
+1. **履歴を表示** アイコン ![ 履歴を表示アイコン ](assets/show-history-icon.png) をクリックします。 レコードのフィールドに加えられたすべての変更が、最新の変更を先頭にして右パネルに表示されます。
+1. （オプション） **履歴を非表示** アイコン ![ 履歴を非表示アイコン ](assets/hide-history-icon.png) をクリックして、右側のパネルを閉じます。
 
 ## 履歴セクションに関する考慮事項
 
 レコードのフィールドに加えた変更は、レコードのページの右パネルにある「履歴」セクションで確認できます。
 
-![](assets/history-area-in-comments.png)
+![ コメントの履歴領域 ](assets/history-area-in-comments.png)
 
 * Workfront Planning は、次の情報を「履歴」セクションに記録します。
 

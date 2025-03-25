@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 70%
+source-wordcount: '517'
+ht-degree: 66%
 
 ---
 
@@ -196,9 +196,9 @@ For more information see the following articles:
 
    または
 
-   レコード名にポインタを合わせて、**その他**&#x200B;メニュー ![](assets/more-menu.png) をクリックして、次に「**リンクのコピー**」をクリックします。
+   レコードの名前にポインタを合わせ、「**その他**」メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、「**リンクをコピー**」をクリックします。
 
-   ![](assets/contextual-menu-for-record-row.png)
+   ![ レコード行のコンテキストメニュー ](assets/contextual-menu-for-record-row.png)
 
    リンクがクリップボードにコピーされます。
 

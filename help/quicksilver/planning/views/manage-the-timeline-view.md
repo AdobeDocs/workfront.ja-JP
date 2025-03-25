@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2635'
-ht-degree: 61%
+source-wordcount: '2692'
+ht-degree: 58%
 
 ---
 
@@ -176,7 +176,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 1. タイムラインを表示するレコードタイプページに移動します。
 1. タイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
-   ![](assets/timeline-view-example.png)
+   ![ タイムラインビューの例 ](assets/timeline-view-example.png)
 
    選択したレコードタイプに関連付けられたレコードは、タイムラインにバーとして表示され、デフォルトでは開始日の時系列で並べ替えられます。
 
@@ -205,9 +205,9 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索**&#x200B;アイコン ![](assets/search-icon.png) をクリックして、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードを入力し始めます。正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
+   1. **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、画面に表示されるレコードのフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
 
-      ![](assets/search-box-and-results-timeline-view.png)
+      ![ 検索ボックスと結果のタイムライン表示 ](assets/search-box-and-results-timeline-view.png)
 
       画面に表示される任意の単語や特殊文字を使用できます。
 
@@ -281,7 +281,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 1. レコードタイプのタイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 1. タイムラインビューの右上隅にある&#x200B;**グループ化**&#x200B;をクリックします。
 
-   ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   ![ リンクされたフィールドを使用した UI タイムラインビューのグループ化 ](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. 推奨フィールドの 1 つをクリックするか、「**別のフィールドを選択**」で別のフィールドを検索して、リストに表示されたらクリックします。
 
@@ -295,7 +295,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
    <!-- update screen shot with view redesign-->
 
-   ![](assets/grouping-applied-in-timeline-view.png)
+   ![ グループ化はタイムライン表示で適用 ](assets/grouping-applied-in-timeline-view.png)
 
 1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
 
@@ -347,11 +347,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    タイムライン上でバーがどのように表示されるかを示すプレビューが右側に表示されます。
 
-   ![](assets/record-details-panel-timeline-settings-with-preview.png)
+   ![ プレビューを使用したレコードの詳細パネルのタイムライン設定 ](assets/record-details-panel-timeline-settings-with-preview.png)
 
 1. 左パネルの&#x200B;**カラー**&#x200B;をクリックすると、タイムラインのレコードとグループ化の色をカスタマイズできます。
 
-   ![](assets/color-tab-timeline-view.png)
+   ![ 「カラー」タブのタイムライン表示 ](assets/color-tab-timeline-view.png)
 
 1. （条件付きおよびオプション）タイムラインビューにグループ化を追加した場合、グループ化の色を設定するには、「**グループ化の色を設定**」セクションで次のオプションから選択します。
 
@@ -382,7 +382,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. （条件付き）レコードの色に&#x200B;**フィールド値**&#x200B;を選択した場合、**レコードの色を次と一致させる**&#x200B;ドロップダウンメニューからフィールドを選択します。
 
-   ![](assets/field-selector-drop-down-menu-timeline-view.png)
+   ![ タイムライン表示のフィールドセレクタードロップダウンメニュー ](assets/field-selector-drop-down-menu-timeline-view.png)
 
    ドロップダウンメニューには、色分けされたオプションを持つフィールドのみが表示されます。
 
@@ -424,7 +424,7 @@ this is not possible right now; if this is the same functionality as the table v
 1. （任意）標準モードでタイムラインビューを表示している場合は、「**分類**」をクリックします。
 1. 「**リンクされたレコードタイプを選択**」ボックスを展開し、接続されたレコードタイプを選択します。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
-   ![](assets/breakdown-picker-and-button-on-timeline.png)
+   ![ タイムライン表示の分類ピッカーとボタン ](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
@@ -439,7 +439,7 @@ this is not possible right now; if this is the same functionality as the table v
    他のレコードと接続されている場合は、タイムラインの選択されたレコードのバーに右向きの矢印が表示されます。
 1. 右向き矢印をクリックしてレコード タイプを展開すると、接続が表示されます。
 
-   ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+   ![ タイムライン表示でプログラム別に分類されたキャンペーン ](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 
 1. （オプション）上記の手順を繰り返して、接続されたレコードをさらに追加します。
 

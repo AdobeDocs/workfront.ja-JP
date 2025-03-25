@@ -6,10 +6,10 @@ description: プロジェクトがグループに関連付けられている場�
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 97%
+source-wordcount: '361'
+ht-degree: 95%
 
 ---
 
@@ -103,7 +103,7 @@ Alina, I moved this out of an admin article about statuses (Create and customize
    >「**グループ**」ドロップダウンメニューで別のグループを選択すると、「**ステータス**」メニューのカスタムステータスが新規グループに関連付けられるように自動的に変更されます。
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![ プロジェクトのカスタムステータスを含んで展開された「ステータス」ドロップダウン ](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. プロジェクトのステータスを選択します。作成し、そのグループに適用したカスタムステータスがリストに表示されます。

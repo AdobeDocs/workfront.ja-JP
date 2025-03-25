@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '906'
 ht-degree: 13%
 
 ---
@@ -141,20 +141,20 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
 
 1. 次のいずれかの操作を行います。
 
-   * Workfront Planning へのアクセス権を持ち、少なくとも 1 つの作業領域を表示できる場合、画面の右上隅にある **メインメニュー**![](assets/dots-menu.png)、または左上隅にある **メインメニュー**![](assets/lines-menu.png) をクリックし（使用可能な場合）、**要求**/**送信済み**/**計画** をクリックし、ステータスが **レビュー保留中** または **レビュー中** の要求をクリックします。
+   * Workfront Planning へのアクセス権を持ち、少なくとも 1 つの作業領域を表示できる場合、画面の右上隅にある **メインメニュー**![ ドットのメインメニュー ](assets/dots-menu.png) または左上隅にある **メインメニュー**![ ラインのメインメニュー ](assets/lines-menu.png) をクリックし、**要求**/**送信済み**/**計画** をクリックし、**レビュー保留中** または **レビュー中** のステータスで要求をクリックします。
 
      >[!TIP]
      >
      >Workfront Planning へのアクセス権がない場合、またはワークスペースを表示するアクセス権がない場合は、メールまたはアプリ内通知を使用して承認するリクエストにのみアクセスできます。
 
-   * 画面の右上隅にある **通知** エリアのアイコン ![](assets/notifications-area-icon-unified-shell.png) をクリックし、承認待ちのリクエストに関する通知をクリックしてリクエストを開きます。
+   * 画面の右上隅にある「**通知**」領域アイコン ![ 統合シェルの通知領域アイコン ](assets/notifications-area-icon-unified-shell.png) をクリックし、承認待ちの要求に関する通知をクリックして要求を開きます。
    * 承認待ちのリクエストを通知するメール内のメール通知に移動し、「**リクエストを開く**」をクリックしてリクエストを開きます。<!--add the name of the button here, from the email-->
 
    リクエストページが読み取り専用モードで開きます。
 
-   ![](assets/read-only-reqeust-page-in-review-status.png)
+   ![ レビューステータスの読み取り専用リクエストページ ](assets/read-only-reqeust-page-in-review-status.png)
 
-1. （任意）リクエストの右上隅に ![](assets/approvals-icon.png) る **承認** アイコンをクリックして、承認者を表示します。
+1. （任意）リクエストの右上隅にある **承認** アイコン ![ 承認アイコン ](assets/approvals-icon.png) をクリックして、承認者を表示します。
 1. 「**レビューして承認**」をクリックして、次のいずれかを選択します。<!--did they fix the button and removed the &??-->
 
    * **承認**：リクエストを承認します。 すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプのレコードが直ちに作成されます。

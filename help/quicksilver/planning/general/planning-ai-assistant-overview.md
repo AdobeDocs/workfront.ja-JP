@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '780'
 ht-degree: 7%
 
 ---
@@ -76,7 +76,7 @@ AI アシスタントは、Workfront計画の次の領域に配置できます�
 
 ## 計画エリアで AI アシスタントにアクセスする
 
-1. Workfrontにログインし、画面の右上隅に ![](assets/dots-main-menu.png) る **メインメニュー** アイコンをクリックするか、左上隅に ![](assets/lines-main-menu.png) る **メインメニュー** アイコンをクリックします（使用可能な場合）。
+1. Workfrontにログインし、画面の右上隅にある **メインメニュー** アイコン ![ ドットメインメニュー ](assets/dots-main-menu.png) をクリックするか、左上隅にある **メインメニュー** アイコン ![ ラインメインメニュー ](assets/lines-main-menu.png) をクリックします。
 
 .**計画** をクリックします。 計画エリアが開きます。
 
@@ -88,11 +88,11 @@ AI アシスタントは、Workfront計画の次の領域に配置できます�
 
 1. グローバルナビゲーションバーの画面の右上隅にある **AI アシスタント** アイコン、またはレコードのプレビューまたはページの右上隅をクリックします。
 
-   ![](assets/ai-assistant-icon-highlighted.png)
+   ![AI アシスタント アイコン ](assets/ai-assistant-icon-highlighted.png)
 
 1. 指定されたスペースで、AI アシスタントのコマンドの入力を開始し、完了したら [Enter] をクリックします。
 
-   ![](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![ 空のコマンドボックスを持つ AI アシスタントパネル ](assets/ai-assistant-panel-with-empty-command-box.png)
 
    たとえば、次のいずれかを入力できます。
 

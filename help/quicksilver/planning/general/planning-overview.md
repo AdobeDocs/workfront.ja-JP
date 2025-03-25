@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
-ht-degree: 46%
+source-wordcount: '1878'
+ht-degree: 44%
 
 ---
 
@@ -184,7 +184,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 * **ワークスペース**：特定の組織の運用ライフサイクルを定義するレコードタイプのコレクション。ワークスペースは、組織単位の作業フレームです。
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![ レコードタイプの分類を含むマーケティングワークスペースの開きページ ](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
@@ -202,9 +202,9 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 * **レコード**：レコードタイプのインスタンス。
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![ キャンペーンレコードタイプリストでハイライト表示されたレコード ](assets/records-highlighted-in-campaign-record-type-list.png)
 
-  レコードタイプをワークスペースに追加した後、そのタイプのレコードをレコードタイプのページに追加することができます。
+  レコードタイプをワークスペースに追加した後、そのタイプのレコードをレコードタイプのページに追加できます。
 
   例えば、「キャンペーン」はレコードタイプであり、「EMEA 夏物キャンペーン」はキャンペーンレコードタイプのレコードです。
 
@@ -212,7 +212,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 * **ワークスペーステンプレート**：定義済みのテンプレートを使用して、ワークスペースを作成できます。テンプレートに含まれる定義済みのレコードタイプ、フィールドを使用するか、自分で追加することができます。
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![ テンプレートのサムネールを使用したワークスペースページ ](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning には、次のテンプレートが含まれています：
 
@@ -226,7 +226,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 * **フィールド**：フィールドは、レコードタイプに追加できる属性です。フィールドには、レコードタイプに関する情報が含まれます。<!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![ レコードフィールドのドロップダウンリスト ](assets/drop-down-list-of-record-fields.png)
 
   レコードフィールドに関する考慮事項は、次のとおりです。
 
@@ -274,7 +274,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
      レコードタイプを Experience Manager のオブジェクトとリンクするには、Adobe Experience Manager のライセンスが必要です。
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![Workfront AEMのオプションを含む新しい「接続」タブ ](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   レコードタイプ間の接続を確立すると、個々のレコードまたはそれらのタイプのオブジェクトを相互に接続できます。 レコード間の接続は、接続されたレコードフィールドまたは接続として表示されます。
@@ -283,7 +283,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
   例えば、キャンペーンレコードタイプをWorkfront プロジェクト オブジェクトタイプに関連付けると、キャンペーンレコードで、接続されたプロジェクトの「予算」フィールドを表示できます。
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![ 参照フィールドを追加ボックス ](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
 * **ビュー**：レコードは、それぞれのレコードタイプページに異なるタイプのビューで表示されます。
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![ レコードタイプリストからの表示タイプドロップダウン ](assets/view-types-drop-down-from-record-type-list.png)
 
   ビューには、フィールドのリスト（列）、レコードのリスト（行）、その順序（並べ替え）、適用または適用可能なフィルター、グループ化など、特定のビュータイプのパーソナライズされた設定が含まれます。
 
@@ -311,17 +311,17 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
 
    * **テーブル表示**：接続されたフィールドやルックアップフィールドを含む、レコードとそのフィールドをテーブル形式で表示します。 テーブルの行は個々のレコードであり、列はレコードのフィールドです。テーブル表示がデフォルトの表示です。
 
-     ![](assets/table-view-example.png)
+     ![ テーブル表示の例 ](assets/table-view-example.png)
 
    * **タイムライン表示**：少なくとも 2 つの日付タイプフィールドがあるレコードを時系列タイムラインで表示します。 タイムラインビューには、接続されたレコードタイプとそのレコードを最大 5 つ表示できます。
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![ タイムラインビューで適用されたグループ化 ](assets/grouping-applied-in-timeline-view.png)
 
    * **カレンダービュー**：2 つ以上の日付タイプフィールドを持つレコードをカレンダー形式で表示します。
-     ![](assets/calendar-view-example.png)
+     ![ カレンダー表示の例 ](assets/calendar-view-example.png)
 
 
-詳しくは、[レコードビューを管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
+詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
 ## Adobe Workfront Planning の検索
 
@@ -333,11 +333,11 @@ Workfront Planning を検索するには、次の手順に従います。
 
 {{step1-click-main-menu}}
 
-1. **Planning** ![](assets/planning-icon.png) をクリックします。
+1. **Planning**![Planning アイコン ](assets/planning-icon.png) をクリックします。
 
    Workfront計画のメインページが開きます。
 
-   ![](assets/planning-landing-page-admin.png)
+   ![Planning ランディングページ管理者 ](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

@@ -6,10 +6,10 @@ description: プロジェクトの役割の配分パネルでは、プロジェ�
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
-ht-degree: 81%
+source-wordcount: '482'
+ht-degree: 78%
 
 ---
 
@@ -107,11 +107,11 @@ ht-degree: 81%
    * **タスク**
    * **ワークロードバランサー**
 
-1. **役割の配分を表示**&#x200B;アイコン ![](assets/show-role-allocation-icon.png) をクリックします。
+1. **役割配分を表示** アイコン ![ 役割配分を表示アイコン ](assets/show-role-allocation-icon.png) をクリックします。
 
    役割の配分パネルが表示されます。
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![ 予定時間数のみを含む役割割り当てパネル ](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. **役割の割り当て** パネルで次の情報を確認します。
 

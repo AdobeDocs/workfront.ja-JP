@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
-ht-degree: 68%
+source-wordcount: '2932'
+ht-degree: 66%
 
 ---
 
@@ -171,7 +171,7 @@ OLD:
 
 1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、テーブルビューを作成します。
 
-   ![](assets/table-view-example.png)
+   ![ テーブル表示の例 ](assets/table-view-example.png)
 
 1. （オプション）「**行の高さ**」をクリックし、次のオプションから選択して、テーブルの行の高さを変更します。
    * 低い
@@ -209,7 +209,7 @@ OLD:
 
    * テーブルのツールバーで&#x200B;**フィールド**&#x200B;をクリックし、フィールドを目的の順序でドラッグ＆ドロップし、「**フィールドの表示と順序**」ボックスの外側をクリックしてボックスを閉じます。
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![ フィールド設定テーブル表示ツールバーが展開されました ](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ OLD:
 
 1. （オプション）テーブルの最初の列に表示されないフィールドの列ヘッダーにあるフィールド名の上にポインタを合わせ、フィールド名の右側にある下向き矢印をクリックして、「**プライマリフィールドとして設定**」をクリックします。
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![ テーブル表示の「プライマリフィールドとして設定」オプション ](assets/set-as-primary-field-option-table-view.png)
 
 1. 「**フィールドを設定**」をクリックして確認します。
 
@@ -253,9 +253,9 @@ OLD:
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索**&#x200B;アイコン ![](assets/search-icon.png) をクリックして、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。正しい一致の数が検索項目の横に表示され、正しく一致するフィールドがハイライト表示されます。
+   1. **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、画面に表示されるレコードのフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しく一致するフィールドがハイライト表示されます。
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![ テーブル表示で結果が青色のアウトラインで表示された検索ボックス ](assets/search-box-with-results-blue-outline-table-view.png)
 
       画面に表示される任意の単語や特殊文字を使用できます。
 
@@ -284,7 +284,7 @@ OLD:
 
    詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
 
-1. （オプション）行内の 1 つまたは複数のレコードを選択し、レコードの左側にある **ハンドル** アイコン ![](assets/handle-icon.png) をドラッグ&amp;ドロップして、行を並べ替えます。
+1. （オプション）行内の 1 つまたは複数のレコードを選択し、レコードの左側に **ハンドル** アイコン ![ ハンドルアイコン ](assets/handle-icon.png) をドラッグ&amp;ドロップして、行を並べ替えます。
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ OLD:
 
    * 選択したフィールドの値を選択します。
 
-   ![](assets/filter-ui-table-view.png)
+   ![ フィルター UI テーブル表示 ](assets/filter-ui-table-view.png)
 
    追加できるフィルタリング条件の数に制限はありません。
 
@@ -408,7 +408,7 @@ OLD:
 
    1. （任意）複数の条件グループの間に、追加の **AND** または **OR** 演算子を追加します。
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![ ビューの多層化フィルター ](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ OLD:
 1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、レコードタイプのタイムラインビューを作成します。
 1. テーブルビューの右上隅にある「**グループ化**」をクリックします。
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![ フィールドがリンクされたグループ化 UI テーブルビュー ](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. フィールド候補の 1 つをクリックするか、「**別のフィールドを選択**」をクリックして別のフィールドを検索し、リストに表示されたらクリックします。
 
@@ -456,7 +456,7 @@ OLD:
 
    グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![ テーブル表示で適用されたグループ化 ](assets/grouping-applied-in-table-view.png)
 
 1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
 
@@ -499,7 +499,7 @@ OLD:
 <!--ungrouped (add this when sorting for groupings will be available--> レコードを並べ替えるには、次の操作を行います。
 
 1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、テーブルビューを作成します。
-1. テーブルの右上隅にある&#x200B;**並べ替え**&#x200B;アイコン ![](assets/sort-icon.png) をクリックします。
+1. テーブルの右上隅にある **並べ替え** アイコン ![ 並べ替えアイコン ](assets/sort-icon.png) をクリックします
 
    または
 
@@ -523,7 +523,7 @@ OLD:
 
 1. 「**レコードの並べ替え基準**」ボックスの外側をクリックしてボックスを閉じます。
 
-   ![](assets/sorting-in-table-view.png)
+   ![ テーブル表示での並べ替え ](assets/sorting-in-table-view.png)
 
    テーブルに表示される情報は、選択した条件に従って並べ替えられます。
 

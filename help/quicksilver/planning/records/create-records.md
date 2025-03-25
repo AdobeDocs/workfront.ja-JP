@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 23%
+source-wordcount: '2418'
+ht-degree: 22%
 
 ---
 
@@ -233,7 +233,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
         [ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) の説明に従って、手順 6 からレコードを追加します。<!--ensure this stays accurate-->
 
-      ![](assets/three-ways-to-create-records-choice-modal.png)
+      ![ レコード選択モーダルを作成する 3 つの方法 ](assets/three-ways-to-create-records-choice-modal.png)
 
 1. （条件付き） **レコードをリクエスト** をクリックした場合、次の操作を行います。
 

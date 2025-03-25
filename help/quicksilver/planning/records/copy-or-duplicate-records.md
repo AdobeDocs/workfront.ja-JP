@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 32%
+source-wordcount: '605'
+ht-degree: 31%
 
 ---
 
@@ -175,13 +175,13 @@ OLD:
 
 1. 次のいずれかの操作を行います。
 
-   * レコード名にポインタを合わせ、レコード名とインラインで **詳細** メニューをクリックしてから、![](assets/duplicate-icon-gray.png) にある **複製** アイコンをクリックします。
+   * レコード名にポインタを合わせ、レコード名とインラインで **詳細** メニューをクリックしてから、**複製** アイコン ![ 複製アイコングレー ](assets/duplicate-icon-gray.png) をクリックします。
 
-     ![](assets/more-menu-from-record-in-table-view.png)
+     ![ テーブル表示のレコードからの「詳細」メニュー ](assets/more-menu-from-record-in-table-view.png)
 
-   * レコードを選択し、ページ下部のツールバーにある **複製** アイコン ![](assets/duplicate-icon-white-and-blue.png) をクリックします。
+   * レコードを選択し、ページ下部のツールバーにある **複製** アイコン ![ 白と青の複製アイコン ](assets/duplicate-icon-white-and-blue.png) をクリックします。
 
-     ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![ テーブル表示のツールバーの複製アイコン ](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    元のレコードの下に、同じ名前の同じレコードが作成されます。 新しいレコードのすべてのフィールドには、元のレコードと同じ情報が入力されます。
 

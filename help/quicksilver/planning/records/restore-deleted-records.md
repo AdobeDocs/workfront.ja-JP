@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 21%
 
 ---
@@ -109,11 +109,11 @@ Adobe Workfront Planning の「最近削除されたレコード」領域から�
 ## 削除されたレコードを復元
 
 1. レコードを削除したレコードタイプ ページに移動します。
-1. 任意のレコードタイプのページビューの右上隅にある **取り消し** アイコン ![](assets/undo-icon.png) ージをクリックしてから、**最近削除された項目** をクリックします。
+1. 任意のレコードタイプのページビューの右上隅にある **取り消し** アイコン ![ 取り消しアイコン ](assets/undo-icon.png) をクリックしてから、**最近削除された項目** をクリックします。
 
    **最近削除された項目** ボックスが表示されます。
 
-   ![](assets/recently-deleted-box.png)
+   ![ 最近削除されたボックス ](assets/recently-deleted-box.png)
 
 1. 削除するレコードを選択し、**復元**/**復元** をクリックします。 複数のレコードを選択できます。
 
