@@ -9,7 +9,7 @@ feature: Agile
 recommendations: noDisplay, noCatalog
 exl-id: 474ab807-fd6c-4248-9567-121e5d4b7b5b
 source-git-commit: a9cfeaadad136f503797794050e8bc23f1392f22
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '59'
 ht-degree: 100%
 
