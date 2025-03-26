@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Adobe Workfront の管理者は、作成したレイアウトテンプレートを、使用する必要のある任意のユーザー、担当業務、チームまたはグループに割り当てることができます。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '879'
 ht-degree: 92%
 
 ---
@@ -44,7 +44,7 @@ ht-degree: 92%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準</p>
   <p> 現在：プラン</p>
    </td> 
@@ -57,7 +57,7 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -110,8 +110,8 @@ ht-degree: 92%
 
 ## レイアウトテンプレートに割り当てられた多数のユーザー
 
-2,000 人を超えるユーザーに割り当てられているレイアウトテンプレートを編集して変更した場合、最初の 2,000 人のユーザーのみがレイアウトテンプレートに保持され、加えた変更が表示されます。レイアウトテンプレートは、他のすべてのテンプレートから削除されます。
-
+<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+-->
 2,000 人を超えるユーザーをレイアウトテンプレートに割り当てる場合、次のいずれかを実行することをお勧めします。
 
 * ユーザーをグループまたはチームに編成し、レイアウトテンプレートをそれらのグループまたはチームに割り当てます。詳しくは、[グループの作成](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)および[チームの作成と管理](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)を参照してください。

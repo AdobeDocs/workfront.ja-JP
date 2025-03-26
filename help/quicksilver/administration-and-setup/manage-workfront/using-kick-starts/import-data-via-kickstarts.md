@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '2754'
-ht-degree: 98%
+source-wordcount: '2776'
+ht-degree: 97%
 
 ---
 
@@ -361,6 +361,10 @@ ht-degree: 98%
    * カスタムフィールドに複数のデータ値（ラジオボタン、チェックボックス、リストなど）を追加する必要がある場合は、「環境設定」タブに表示される縦棒のカスタムデータ区切り記号「|」を使用して値を区切ります。
 
      **例：** DE:Departments 列の下に A|D と入力すると、カスタムフォームに部門 A と部門 D が入力されます。
+
+     >[!NOTE]
+     >
+     >区切り文字「|」のみを使用して、カスタムフィールドの値を区切ります。 **setCategoryID** など、他のスプレッドシート列では使用できません。
 
 ### 日付を含める  {#include-dates}
 
