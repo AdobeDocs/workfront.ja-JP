@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
+source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 15%
+source-wordcount: '682'
+ht-degree: 12%
 
 ---
 
@@ -17,6 +17,62 @@ ht-degree: 15%
 このページでは、2025年第 2 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模な更新について説明しています。
 
 2025年第 2 四半期リリースで利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
+
+<!--
+
+## Updated experience in the Access Levels area in Setup
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+
+A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+
+-->
+
+## 費用タイプダイアログのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 3 月 27 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースで（2025 年 4 月 10 日（PT））
+
+Workfrontの他の領域のデザインと一致するように、「設定」領域で費用タイプを追加および編集するためのダイアログのルックアンドフィールを更新しました。
+
+詳しくは、[ カスタム費用タイプの作成 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md) を参照してください。
+
+## 「危険タイプを編集」ボックスのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 3 月 27 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースで（2025 年 4 月 10 日（PT））
+
+Workfrontの「設定」エリアで既存の危険タイプを更新した場合の、「危険タイプを編集」ボックスのルックアンドフィールを更新しました。 この新しいデザインは、Workfrontの他の領域と一致するようになりました。
+
+詳しくは、[ 危険タイプの編集と作成 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md) を参照してください。
+
+## 「新しい危険タイプ」ボックスのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 3 月 27 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースで（2025 年 4 月 10 日（PT））
+
+Workfrontの設定エリアで新しい危険タイプを追加した場合の、新しい危険タイプ ボックスのルックアンドフィールを更新しました。 この新しいデザインは、Workfrontの他の領域と一致するようになりました。
+
+詳しくは、[ 危険タイプの編集と作成 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md) を参照してください。
+
+## プロジェクトの「キューの詳細」領域に対する更新のルックアンドフィール
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 3 月 27 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースで（2025 年 4 月 10 日（PT））
+
+Workfrontの他の領域のデザインと一致するように、プロジェクトの「キューの詳細」領域のルックアンドフィールを更新しました。
+
+この更新では、テンプレートの「キューの詳細」領域のルックアンドフィールは変更されていません。
+
+詳しくは、[リクエストキューの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
 ## 特定のメール通知でアバターが表示されなくなった
 
@@ -35,27 +91,11 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->プレビューリリース：2025 年 3 月 6 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 4 月 10 日（PT）
+>プレビューリリース：2025 年 3 月 6 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースの場合（2025 年 4 月 10 日（PT））
 
 設定エリアのマイルストーンパスリストのルックアンドフィールを、Workfrontの他のエリアのデザインと一致するように更新しました。
 
 詳しくは、[ マイルストーンパスの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
-
-## Workfront カレンダーのルックアンドフィールの更新
-
->[!NOTE]
->
->プレビューリリース：2025 年 2 月 27 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースの場合（2025 年 4 月 10 日（PT））
-
-Workfrontカレンダーのルックアンドフィールを、Workfrontの他のエリアと一致するモダンなデザインに更新しました。 現在のWorkfront カレンダーとは、次のようなわずかな機能違いがあります。
-
-* カレンダーへのアドホック項目の追加方法
-* カレンダーの作成および名前変更の方法
-* カレンダーアクションが、カレンダー名の横にある「詳細」メニューに移動しました
-* カレンダー情報を表示する新しいサイドパネル
-* その他
-
-詳しくは、[ カレンダー ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) を参照してください。
 
 ## プロジェクトビューのプロジェクトマイルストーンパスの更新済みビュー
 

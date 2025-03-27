@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 32c0df18-2093-42c2-810a-015345d2fa7c
-source-git-commit: 35aa30973b5f942d3b22ad9f9338a509827f4656
+source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
 workflow-type: tm+mt
-source-wordcount: '159'
-ht-degree: 55%
+source-wordcount: '178'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,28 @@ ht-degree: 55%
 このページでは、2025年第 2 四半期にプレビュー環境にリリースされた、すべてのドキュメント管理の機能強化について説明します。これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 2 四半期のリリースサイクルにおける現時点で利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
+
+>[!IMPORTANT]
+>
+>このページに記載されている機能は、段階的なリリースの一部で、特定のお客様のみが利用できます。
+
+<!--
+
+## New document approval decision buttons available in proofing viewer
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.
+
+Previously, you had to exit the proofing viewer to make a decision.
+
+Approvals created before this release will not display the buttons in proofing viewer.
+
+For more information, see [Use new document approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+
+-->
 
 ## デスクトッププルーフビューアーのアップデート
 

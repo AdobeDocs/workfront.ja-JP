@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 8d8282e095c902c0e6b2f51585ac0d4ac9b1e177
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '13099'
+source-wordcount: '13107'
 ht-degree: 89%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 89%
          * [2025 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [2025年第 2 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [2025年第 2 四半期のドキュメント管理の機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
+         * [2025 年第 2 四半期モバイルの機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md)
          * [2025年第 2 四半期のプロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
+         * [2025 年第 2 四半期レポートの機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
          * [2025 年第 2 四半期のリリース期間中のその他の機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [2025年第 2 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * 2025年第 1 四半期リリース{#release-25-q1}

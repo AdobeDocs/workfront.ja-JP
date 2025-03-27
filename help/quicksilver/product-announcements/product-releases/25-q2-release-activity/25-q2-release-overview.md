@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 90cb8df4735ed7868b15064588ff0b043e972a3f
+source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 39%
+source-wordcount: '1624'
+ht-degree: 33%
 
 ---
 
@@ -38,7 +38,9 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 
 * [管理者機能の強化](#administrator-enhancements)
 * [ドキュメント管理の機能強化](#document-management-enhancements)
+* [モバイルの機能強化](#mobile-enhancements)
 * [プロジェクトの強化](#project-enhancements)
+* [レポートの機能強化](#reporting-enhacements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者機能の強化
@@ -73,7 +75,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2025年1月31日（PT）</li>
-                <li><span class="preview">すべてのお客様向けの本番リリース： 2025年1月31日（PT）</span></li>
+                <span class="preview"><li>すべてのお客様向けの本番リリース： 2025年1月31日（PT）</li></span>
             </ul>
         </td>
     </tr>                          
@@ -86,6 +88,20 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<!--    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 27, 2025</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+            </ul>
+        </td>
+    </tr>    -->                      
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -97,7 +113,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2025年3月20日（PT）</li>
-                <li><span class="preview">すべてのお客様向けの本番リリース： 2025年3月20日（PT）</span></li>
+                <span class="preview"><li>すべてのお客様向けの本番リリース： 2025年3月20日（PT）</li></span>
             </ul>
         </td>
     </tr>                          
@@ -111,7 +127,39 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2025年2月6日</li>
-                <li><span class="preview">すべてのお客様向けの本番リリース： 2025年3月13日（PT）</span></li>
+                <span class="preview"><li>すべてのお客様向けの本番リリース： 2025年3月13日（PT）</li></span>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### モバイルの機能強化
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            モバイルアプリでのプルーフの機能強化（iOSのみ） </a>[!BADGE In Production ]{type=Informative}</p>
+            <p>Adobe Workfront モバイルアプリのプルーフ機能には、次の複数の機能強化を使用できます。
+            <ul>
+            <li>共有されたリンクから、モバイルメールアプリケーションからプルーフファイルを開くことができるようになりました。 以前は、メールからのリンクはサポートされておらず、Workfront モバイルアプリから配達確認にアクセスする必要がありました。</li>
+            <li>モバイルアプリでマルチメディアプルーフファイルがサポートされるようになりました。</li>
+            </ul>
+            </p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：該当なし</li>
+                <span class="preview"><li>すべてのお客様向けの本番リリース： 2025年3月12日（PT）</li> 
+            </ul>
+            <p><b>次の環境で使用できます。</b></p>
+            <ul>
+                <li>iOS モバイルアプリ</li>
             </ul>
         </td>
     </tr>                          
@@ -142,6 +190,48 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 </tbody>
 </table>
 
+### レポートの機能強化
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            ドキュメントの承認および決定データをデータ接続で使用できるようになりました </a>[!BADGE In Production ]{type=Informative}</p>
+            <p>データ接続でドキュメントの承認と決定のデータにアクセスできるようになりました。 このデータセットは、Workfrontのプルーフ機能からのドキュメント承認と、Workfront ドキュメントで行われている Frame.io 承認を結び付けます。 BI ビジュアライゼーションを通じて、サイクル時間、サイクル数および遅延承認のタイムラインへの影響を説明できるようになりました。</p>
+        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2025年3月25日（PT）</li>
+                <li>すべてのお客様向けの本番リリース： 2025年3月25日（PT）</li>
+            </ul>
+        </td>
+    </tr>                          
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront カレンダーの更新</a></p>
+            <p>Workfrontカレンダーのルックアンドフィールを、Workfrontの他のエリアと一致するモダンなデザインに更新しました。 現在のWorkfront カレンダーとは、次のようなわずかな機能違いがあります。
+            <ul>
+            <li>カレンダーへのアドホック項目の追加方法</li>
+            <li>カレンダーの作成および名前変更の方法</li>
+            <li>カレンダーアクションが、カレンダー名の横にある「詳細」メニューに移動しました</li>
+            <li>カレンダー情報を表示する新しいサイドパネル</li>
+            <li>その他</li>
+            <ul>        </td>
+        <td>
+            <p><b>公開日：</b></p>
+            <ul>
+                <li>プレビューリリース：2025年2月27日</li>
+                <li>すべてのお客様向けの実稼動リリース：25.4 リリースでは（2025 年 4 月 10 日（PT））</li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### その他の機能強化
 
 <table>
@@ -158,7 +248,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
         <td>
             <p><b>公開日：</b></p>
             <ul>
-                <li><span class="preview">すべてのお客様向けの本番リリース： 2025年3月6日（PT）</span></li>
+                <span class="preview"><li>すべてのお客様向けの本番リリース： 2025年3月6日（PT）</li></span>
             </ul>
         </td>
     </tr>
@@ -188,7 +278,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
             <p><b>公開日：</b></p>
             <ul>
                 <li>プレビューリリース：2025年第 2 四半期のリリース期間中</li>
-                <li><span class="preview">実稼動版リリース：リリースノートで日付を確認してください。</span></li>
+                <span class="preview"><li>実稼動版リリース：リリースノートで日付を確認してください。</li></span>
             </ul>
         </td>
     </tr>
@@ -198,6 +288,13 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 ### Workfront から近日中に削除される機能
 
 次の機能は、近日中に Workfront から削除されます。
+
+#### API バージョン 2 ～ 15 の廃止
+
+Workfrontのプラットフォームを引き続き強化していく中で、API を最新の状態に保つことが重要です。 これにより、最適なパフォーマンスとセキュリティが確保され、新しい機能がサポートされます。 そのため、Workfront API バージョン 2 ～ 15 は非推奨（廃止予定）になっています。
+
+* **2025 年 9 月**：現在サポートされていない API バージョン 2 ～ 14 は非推奨（廃止予定）になります。 この期限を過ぎると、これらのバージョンにアクセスできなくなります。
+* **2025 年 12 月**: API バージョン 15 は非推奨（廃止予定）になります。
 
 #### プロジェクトの従来のアジャイルビューを削除しています
 

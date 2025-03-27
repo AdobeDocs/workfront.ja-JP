@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2166'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,45 @@ ht-degree: 2%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## 送信後に新しい要求を表示するためのリンク
+
+>[!NOTE]
+>
+>プレビュー：2025 年 3 月 27 日（PT）、すべてのお客様の実稼動日：2025 年 4 月 10 日（PT）
+
+次の領域から送信した新しいリクエストをすぐに開くことができるようになりました。
+
+* 共有リンクからアクセスした後のリクエストフォーム
+* 「新規レコード」ボタンまたは「レコードをリクエスト」ボタンからのレコードタイプページ
+* メインメニューのリクエスト エリア
+
+詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+
+## 自動化を使用して 1 つのレコードから複数のオブジェクトを作成する
+
+>[!NOTE]
+>
+>プレビュー：2025 年 3 月 27 日（PT）、すべてのお客様の実稼動日：2025 年 4 月 10 日（PT）
+
+Workfront Planning でオートメーションを使用する際に、同じWorkfront Planning レコードから複数のプロジェクトを作成できるようになりました。 複数のプロジェクトを作成し、1 つのオートメーションをトリガーしたときに、単一選択または複数選択のフィールドの値に基づいて各プロジェクトを作成できます。 この機能は、プロジェクトの作成にのみ使用できます。  Planning のオートメーションを使用して、その他の変更内容をトリガーしたり、その他の種類のオブジェクトを作成したりすることはできません。
+
+
+この機能強化の前は、プロジェクト用に設定された自動処理をトリガーするたびに、1 つのプロジェクトのみを作成できていました。
+
+詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
+
+## 参照フィールド名の変更
+
+>[!NOTE]
+>
+>プレビュー：2025 年 3 月 27 日（PT）、すべてのお客様の実稼動日：2025 年 4 月 10 日（PT）
+
+接続されたレコードのテーブルに追加された後で、ルックアップフィールドの情報を更新できるようになりました。
+
+この機能強化が行われるまで、既存の参照フィールドを編集することはできませんでした。
+
+詳しくは、[ フィールドの編集 ](/help/quicksilver/planning/fields/edit-fields.md) を参照してください。
 
 ## レコードタイプからの複数のリクエストフォームの設定と管理
 

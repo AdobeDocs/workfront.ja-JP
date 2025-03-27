@@ -6,7 +6,8 @@ description: Adobe Workfront は、2022年4月6日（PT）に API バージョ�
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+source-git-commit: 1c1f9f46ea25ffa7d01c1a762b0478a5edb3339e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 50%
@@ -308,7 +309,7 @@ Hour オブジェクトは、ユーザーがタイムシートに記録した時
           <li><p><b>rejectComment</b></li>
           <li><p><b>submittedByID</b></li>
           </ul>
-          <p>「<b> 時間 </b>」フィールドに次の変更が加えられました。</p>
+          <p>「<b> 時間 </b> フィールドに次の変更が加えられました。</p>
           <ul> 
           <li> 削除されたバリデーター <b>GREATER_THAN</b></li>
           <li> 追加されたバリデーター <b>NOT_EQUAL</b></li>
@@ -522,5 +523,3 @@ Timesheet オブジェクトは、タスク、プロジェクトおよびオー�
       </td>
   </tbody>
 </table>
-
-
