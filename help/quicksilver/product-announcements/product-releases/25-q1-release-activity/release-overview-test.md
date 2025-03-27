@@ -7,10 +7,10 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 4ab8fede74c9e2ec5d374b0766445a2c23430777
+source-git-commit: 8e90b7c3bcc75be75ccec7ae5ee8e0d88b190426
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 44%
+source-wordcount: '541'
+ht-degree: 47%
 
 ---
 
@@ -40,7 +40,6 @@ ht-degree: 44%
 
 ### 管理者機能の強化
 
-月次リリース：12 月 12 日（PT） 11 月 14 日（PT）。 正月 15 日 |四半期リリース：1 月
 <table style="table-layout:auto">
   <tbody>
     <tr>
@@ -60,7 +59,7 @@ ht-degree: 44%
         </td>
         <td>2024 年 11 月 21 日（Pt）</td>
         <td>2024 年 12 月</td>
-        <td>ジャヌアル 2024 （25.1）</td>
+        <td>ジャヌアル 2024</td>
     </tr>     
     <tr>
         <td>
@@ -88,11 +87,13 @@ ht-degree: 44%
 
 
 
-<!--
-### Functionality soon to be removed from Workfront
 
-The following functionality is soon to be removed from Workfront:
--->
+### Workfront から近日中に削除される機能
+
+次の機能は、近日中に Workfront から削除されます。
+
+* 拡張分析
+
 
 ## その他の領域のリリースノート
 
