@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
+source-git-commit: fbe5373ebe1c73db656384da8a339d0983215e4e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 13%
 
 ---
@@ -93,8 +93,9 @@ ht-degree: 13%
       <td>準備未完了</td>
       <td>次を持つ項目を表示
        <ul>
-      <li>不完全な先行タスクまたはタスクの制約により、このアイテムは作業できません</li>
+      <li>不完全な先行タスクまたはタスクの制約により、このアイテムは作業できません</li></ul>
       <p>または</p>
+      <ul>
       <li>予定開始日が 2 週間以上先の日付です</li>
       </ul>
        </td>
@@ -111,7 +112,7 @@ ht-degree: 13%
     <td>割り当てられたタスクまたは問題を含むプロジェクトを表示します</td>
     </tr>
     <tr>
-    <td>期限日</td>
+    <td>期日</td>
     <td>作業を予定完了日別に表示</td>
     </tr>
     <tr>
@@ -143,7 +144,7 @@ ht-degree: 13%
 1. **スマートフィルター** をクリックします。
 1. 作業をフィルターする方法を入力します。
 
-   次のように入力できます
+   次のように入力できます。
 
    * 遅延タスクの表示
    * 自分の最優先事項を表示する
