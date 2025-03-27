@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1878'
 ht-degree: 6%
 
 ---
@@ -28,7 +28,10 @@ Workspace Manager がAdobe Workfront Planning でレコードタイプのリク�
 
 次の領域からWorkfront計画リクエストを発行できます。
 
-* Workfrontの「リクエスト」エリアから、またはリクエストフォームへのダイレクトリンクから。 ここでは、Workfrontの「リクエスト」エリアまたは共有リンクからレコードタイプに新しいレコードを追加するリクエストを送信する方法について説明します。
+* Workfrontの「リクエスト」エリアから。
+* 直接リンクから共有されたリクエストフォームへ。
+
+  ここでは、Workfrontの「リクエスト」エリアまたは共有リンクからレコードタイプに新しいレコードを追加するリクエストを送信する方法について説明します。
 * <span class="preview"> 新規レコードを追加またはリクエストする場合、レコードタイプページから。 詳しくは、[ レコードの作成 ](/help/quicksilver/planning/records/create-records.md) を参照してください </span>。
 
 Workfront ユーザーと外部ユーザーは、Planning レコードタイプに対してリクエストを送信し、レコードを作成できます。<!--double check on the external users-->
@@ -212,6 +215,8 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
      >
      >メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobe Unified Experience にオンボードされている場合にのみ表示されます。
 
+   1. （任意）確認メッセージで「**リクエストを表示**」をクリックしてリクエストを開くか、「**X**」アイコンをクリックして確認を閉じます。
+
 1. （オプション）要求領域の **計画** タブをクリックして要求を表示し、要求名をクリックします。
 
    リクエストの詳細ページが開きます。
@@ -269,7 +274,13 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
      >
      >メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobe Unified Experience にオンボードされている場合にのみ表示されます。
 
-1. （オプション）要求領域の **計画** タブをクリックして要求を表示し、要求名をクリックします。
+1. <span class="preview"> （オプション）「**リクエストを表示**」をクリックして、Workfrontでリクエストを開きます。</span>
+
+   または
+
+   <span class="preview"> 「[ 別のリクエストを送信 ](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)」をクリックしてリクエストフォームを開き、新しいリクエストを追加します。</span>
+
+1. （オプション） **メインメニュー**/**リクエスト**/**計画** タブをクリックしてリクエストを表示し、リクエストの名前をクリックします。
 
    リクエストの詳細ページが開きます。
 

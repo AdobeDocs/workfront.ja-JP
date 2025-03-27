@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '658'
 ht-degree: 35%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 35%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 Adobe Workfrontには、計画段階のプロジェクトに関連付けて、作業を承認する前に潜在的な障害を特定できる、デフォルトのリスクタイプが多数あります。
 
@@ -93,7 +93,9 @@ Adobe Workfrontには、計画段階のプロジェクトに関連付けて、�
 1. 編集するリスクタイプを選択します。
 1. **[!UICONTROL 編集]** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
-   [!UICONTROL **危険タイプの編集**] ボックスが開きます。<!--add screen shot-->
+   <span class="preview"> 危険タイプを編集 [!UICONTROL **ボックスが開きます**]。</span>
+
+   ![[ 危険タイプの編集 ] ボックス ](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -126,11 +128,18 @@ Adobe Workfrontには、計画段階のプロジェクトに関連付けて、�
 {{step-1-to-setup}}
 
 1. 「**[!UICONTROL リスクタイプ]**」をクリックします。
+
 1. **[!UICONTROL 新規危険タイプ]** をクリックして、「[!UICONTROL **新規危険タイプ**]」ボックスを開きます
 
    または
 
-   危険タイプ リストの左下隅にある [[!UICONTROL **その他の危険タイプの追加**]] をクリックし、危険タイプをインラインで追加します。<!--add screen shot-->
+   危険タイプ リストの左下隅にある [[!UICONTROL **その他の危険タイプの追加**]] をクリックし、危険タイプをインラインで追加します。
+
+   <span class="preview"> 新規危険タイプ **ボックスが開き** す。<span>
+
+   ![ 新しい危険タイプ ボックス ](assets/new-risk-type-box.png)
+
+
 1. 危険タイプに **[!UICONTROL 名前]** （必須）と **[!UICONTROL 説明]** （オプション）を追加します。
 
    **[!UICONTROL 名前]**&#x200B;フィールドと&#x200B;**[!UICONTROL 説明]**&#x200B;フィールドには 50 文字の文字数制限があります。
