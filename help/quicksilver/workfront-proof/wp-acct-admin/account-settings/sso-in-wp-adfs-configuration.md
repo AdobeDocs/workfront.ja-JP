@@ -2,15 +2,15 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-
 navigation-topic: account-settings-workfront-proof
-title: 「 [!DNL Workfront Proof] でのシングルサインオン：AD FS の設定」
+title: ' [!DNL Workfront Proof] のシングルサインオン：AD FS 設定'
 description: AD サーバーの管理者は、AD FS をインストールして設定できます。
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
 source-wordcount: '928'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -24,7 +24,7 @@ AD サーバーの管理者は、AD FS をインストールして設定でき�
 
 ## AD FS のインストールと設定
 
-1. [AD FS 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=10909) をコンピューターにダウンロードします。
+1. Microsoft AD FS 2.0 をコンピューターにダウンロードします。
 1. ダウンロードした AdfsSetup.exe ファイルを開き、ADFS（Active Directory フェデレーションサービス）インストールウィザードを起動します。
 1. サーバーの役割画面で、オプションの 1 つを選択します（少なくともフェデレーションサーバーが必要です）。
 1. AD サーバー上の IIS をインターネットに公開しない場合（HTTP と HTTPS のポート 80 と 443）、まず、ファイアウォールの背後にフェデレーションサーバーを設定し、次に、ファイアウォールを介してフェデレーションサーバーに要求を渡す 2 つ目のフェデレーションサーバープロキシを作成します。
