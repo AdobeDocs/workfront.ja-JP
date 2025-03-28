@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
+source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 97%
+source-wordcount: '1521'
+ht-degree: 92%
 
 ---
 
@@ -66,11 +66,21 @@ Adobe Workfront 管理者は、カスタムアクセスレベルを作成し、�
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**アクセスレベル**」をクリックします。
-1. コピーしてカスタマイズするアクセスレベルを選択し、「**コピー**」をクリックします。
+1. 
+   * 実稼動環境では、次の操作を行います。
+コピーしてカスタマイズするアクセスレベルを選択して、「**コピー**」をクリックします。
 
-   または
+     または
 
-   （以前にコピーした）既存のアクセスレベルを編集する場合は、その名前をクリックします。
+     （以前にコピーした）既存のアクセスレベルを編集する場合は、その名前をクリックします。
+
+   * <span class="preview"> プレビュー環境で、次の操作を行います。</span>
+
+     <span class="preview"> コピーしてカスタマイズするアクセスレベルを選択して、「**コピー**」アイコン ![ コピーアイコン ](assets/copy-icon.png) をクリックします。</span>
+
+     <span class="preview"> または </span>
+
+     <span class="preview"> 既存のアクセスレベルを編集する場合は、そのアクセスレベルの左側にあるボックスをクリックしてアクセスレベルを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。</span>
 
 1. 表示されるボックスで、次のいずれかの操作を行って、カスタムアクセスレベルの設定を開始します。
 
