@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 2%
 
 ---
@@ -28,11 +28,14 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 >
 >プレビュー：2025 年 3 月 27 日（PT）、すべてのお客様の実稼動日：2025 年 4 月 10 日（PT）
 
-次の領域から送信した新しいリクエストをすぐに開くことができるようになりました。
+Workfront Planning で送信するリクエストへのアクセス方法を改善しました。
+送信したリクエストの詳細ページに移動するために使用できる「リクエストを表示」リンクが追加されました。
 
-* 共有リンクからアクセスした後のリクエストフォーム
-* 「新規レコード」ボタンまたは「レコードをリクエスト」ボタンからのレコードタイプページ
-* メインメニューのリクエスト エリア
+次の領域からリクエストを送信すると、新しいリンクを使用できるようになります。
+
+* 共有リンクから
+* レコードタイプページの「新規レコード」または「レコードをリクエスト」ボタンから
+* リクエスト エリアから、リクエストの送信に対して新しいエクスペリエンスを有効にしました。
 
 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 

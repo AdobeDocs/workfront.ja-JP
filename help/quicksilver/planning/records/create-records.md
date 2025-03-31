@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2419'
 ht-degree: 22%
 
 ---
@@ -206,7 +206,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトで、レコードタイプのページがテーブルビューで開きます。
 選択したタイプのすべてのレコードがビューに表示されます。
 
-1. ワークスペースと権限に応じて、任意の表示で、画面の右上隅にある以下のいずれかをクリックし <!--<span class="preview">and record type</span>--> す。
+1. （条件付き）ワークスペースと権限に応じて、任意の表示で、画面の右上隅にある次のいずれかをクリック <!--<span class="preview">and record type</span>--> ます。
 
    * ワークスペースコン <!--<span class="preview">and record type</span>--> ールに対する投稿以上の権限がある場合は、「**新しいレコード**」をクリックします
 

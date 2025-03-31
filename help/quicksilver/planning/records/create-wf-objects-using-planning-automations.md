@@ -1,14 +1,12 @@
 ---
 title: Workfront計画レコードの自動作成を使用したAdobe Workfront オブジェクトの作成
 description: Adobe Workfront Planning で自動化を構成して、アクティブ化するとWorkfrontにオブジェクトを作成したり、Workfront Planning にレコードを作成したりできます。 作成したオブジェクトとレコードは、既存の Planning レコードに自動的に接続されます。 ここでは、自動化を管理する方法（オブジェクトとレコードを作成するために自動化を編集、無効化、削除、トリガーする方法など）について説明します。
-hide: true
-hidefromtoc: true
 feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 89b2e3547387397279cce751dd7c84d8174532b5
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
 source-wordcount: '2197'
 ht-degree: 7%
