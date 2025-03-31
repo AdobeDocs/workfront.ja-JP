@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
+source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1744'
 ht-degree: 65%
 
 ---
@@ -250,7 +250,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
 ユーザーがカスタムフォームに入力する際に、ロジックが適用されたフィールドが定義済みの検証条件を満たす場合、そのフィールドはハイライト表示され、エラーメッセージが表示されます。
 
-検証ロジックを適用できるフィールドの種類は、ドロップダウン、ラジオボタン、チェックボックス、typeahead、1 行のテキスト、段落テキスト、日付フィールド、書式付きテキスト、計算フィールドです。
+検証ロジックを適用できるフィールドタイプは、1 行のテキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部検索、ラジオボタン、チェックボックスグループおよび typeahead です。
 
 ### 例
 
