@@ -6,10 +6,10 @@ description: Adobe Workfront のレポートを使用すると、システム内
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 93%
+source-wordcount: '520'
+ht-degree: 87%
 
 ---
 
@@ -88,10 +88,15 @@ Adobe Workfront のレポートを使用すると、システム内のオブジ�
    または\
    **マイレポート**&#x200B;フォルダーにネストされている任意のフォルダーをクリックします。
 
-1. レポートリストから保存先のフォルダーにレポートをドラッグし、そのフォルダーにドロップします。
+1. レポートを選択し、リスト上部のフォルダーアイコン ![ フォルダーアイコン ](assets/folder-icon.png) をクリックします。
+
+1. レポートを追加するフォルダーを選択します。
+
+   ![ レポートの移動先のフォルダーを選択 ](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >レポートは、**マイレポート**&#x200B;フォルダーから&#x200B;**マイレポート**&#x200B;の下にネストされている他のフォルダーにのみ移動できます。**自分と共有**&#x200B;フォルダーや&#x200B;**すべてのレポート**&#x200B;フォルダー、その他のフォルダーとの間でレポートを移動することはできません。
 
-   ![ レポートをフォルダーにドラッグ ](assets/nwe-drag-report-to-folder-350x292.png)
+
+
