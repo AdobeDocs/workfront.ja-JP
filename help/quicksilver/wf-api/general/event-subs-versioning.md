@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 1%
 
 ---
@@ -250,3 +250,10 @@ Workfrontには、2 つのバージョンのイベント購読があります。
    <td>なし。影響を受けるフィールドにフィルターがある場合、そのフィールドが実際に変更された場合にのみ <code>UPDATE</code> イベントが返され、他のパラメーター値が変更された場合には返されません。
  </tbody> 
 </table>
+
+
+## Workfront Fusion シナリオのイベント購読バージョンの更新
+
+Workfront Fusion は、イベント購読を使用して、トリガーシナリオに対するWorkfrontの変化を監視します。 Fusion がシナリオで直接使用するイベント購読のバージョンは、Workfront/イベントのペイロードバージョンを更新モジュールを使用して更新できます。
+
+このモジュールの使用方法については、Workfront Fusion ドキュメントの [Workfront モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) を参照してください。
