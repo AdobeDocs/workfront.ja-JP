@@ -6,16 +6,16 @@ description: Adobe Workfront Goals で表示できるすべての目標にコメ
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 73%
+source-wordcount: '297'
+ht-degree: 60%
 
 ---
 
 # Adobe Workfront Goals での目標コメントの管理
 
-<!--Audited: 01/2024-->
+<!--Audited for P&P only: 04/2025-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
@@ -63,9 +63,9 @@ Adobe Workfront Goals で表示できるすべての目標にコメントを追�
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新規製品の要件：Adobe Workfront の Select または Prime のプランをお持ちの場合は、Adobe Workfront Goals ライセンスも追加で購入する必要があります。Workfront Goals は、Ultimate Workfront プランに含まれています。</p>
+ <p> 新しい製品要件：Workfront</p>
  または
- <p>現在の製品の要件：この記事で説明する機能にアクセスするには、Adobe Workfront Goals の追加ライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+ <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">アクセスレベル設定</td>

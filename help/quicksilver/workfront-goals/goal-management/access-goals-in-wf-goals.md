@@ -1,26 +1,30 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals で目標にアクセスして開く
+title: Adobe Workfront Goals での目標へのアクセスとオープン
 description: この記事では、Adobe Workfront で目標を検索し、管理する方法について説明します。
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '446'
 ht-degree: 77%
 
 ---
 
 # Adobe Workfront Goals で目標にアクセスして開く
 
+<!--Audited P&P only: 4/2025-->
+
 この記事では、Adobe Workfront で戦略目標を検索し、管理する方法について説明します。
 
 
 ## アクセス要件
 
-この記事で説明するアクティビティを実行するには、次の操作が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+以下が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,18 +53,12 @@ ht-degree: 77%
   <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新製品の要件は、次のいずれかです。 </p>
-<ul>
-<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
- <p>または</p>
- <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+ <p> 新しい製品要件：Workfront</p>
+<p>または</p>
+ <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
- <tr>
- <td role="rowheader">アクセスレベル</td>
- <td> <p>Goals への編集アクセス権</p> </td>
- </tr>
-  <tr> 
+
+<tr> 
    <td role="rowheader">アクセスレベル</td> 
    <td> <p>Goals への編集アクセス権</p> </td> 
   </tr> 
@@ -82,6 +80,8 @@ ht-degree: 77%
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## Workfront Goals へのアクセス
 

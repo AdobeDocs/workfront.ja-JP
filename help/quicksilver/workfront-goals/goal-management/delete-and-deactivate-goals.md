@@ -6,18 +6,22 @@ description: 目標に取り組み始めた後で、組織との関連性がな�
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '676'
 ht-degree: 80%
 
 ---
 
 # Adobe Workfront Goals での目標の削除と非アクティブ化
 
+<!--Audited for P&P only: 4/2025-->
+
 目標に取り組み始めた後で、組織との関連性がなくなった場合は、目標を削除するのではなく、非アクティブ化することをお勧めします。目標を非アクティブ化すると、履歴情報が保持され、後で再度アクティブ化することができます。ただし、目標リストを正確に保つために、目標を削除することがよいことももあります。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -36,27 +40,25 @@ ht-degree: 80%
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
   <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
-   </td> 
+   </td>  
   </tr>
+ <tr>
  <tr>
  <td role="rowheader">Adobe Workfront プラン*</td>
  <td>
  <p>新規ライセンス：コントリビューター以上</p>
  または
- <p>現在のライセンス：リクエスト以上</p> </td>
+ <p>現在のライセンス：リクエスト以上</p> <p>詳しくは、<a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront ライセンスの概要</a>を参照してください。</p> </td>
  </tr>
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新製品の要件は、次のいずれかです。 </p>
-<ul>
-<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
+  <p> 新しい製品要件：Workfront</p>
  <p>または</p>
- <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+  <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
  <tr>
- <td role="rowheader"><p>アクセスレベル</p></td>
+ <td role="rowheader">アクセスレベル</td>
  <td> <p>Goals への編集アクセス権</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -68,7 +70,7 @@ ht-degree: 80%
   <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
   </div> </td>
  </tr>
- <tr>
+<tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
    <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
 </td>
@@ -77,6 +79,8 @@ ht-degree: 80%
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 目標の非アクティブ化
 

@@ -7,14 +7,16 @@ description: 目標ステータスは、目標がアクティブで現在の進�
 author: Alina
 feature: Workfront Goals
 exl-id: dc70dfac-2bdd-41ab-b316-0cd20f749423
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '818'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
 # Adobe Workfront Goals の目標ステータスの概要
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,7 +24,7 @@ ht-degree: 97%
 >
 >* 新しいプランとライセンス構造の場合：
 >
->   * 究極のWorkfrontプラン
+>   * Ultimate Workfront プラン
 >    
 >* 現在のプランおよびライセンス構造の場合：
 >

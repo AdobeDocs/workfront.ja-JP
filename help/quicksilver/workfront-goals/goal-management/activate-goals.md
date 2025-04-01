@@ -6,14 +6,16 @@ description: 目標を作成すると、Adobe Workfront Goals はそれをドラ
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '489'
 ht-degree: 83%
 
 ---
 
 # Adobe Workfront Goals で目標をアクティブ化
+
+<!--Audited for P&P only: 4/2025-->
 
 目標を作成すると、Adobe Workfront Goals はそれをドラフトのステータスで保存します。下書きの目標は目標管理には含まれません。
 
@@ -27,6 +29,8 @@ ht-degree: 83%
 
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -57,12 +61,9 @@ ht-degree: 83%
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新製品の要件は、次のいずれかです。 </p>
-<ul>
-<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
+  <p> 新しい製品要件：Workfront</p>
  <p>または</p>
- <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+  <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">アクセスレベル</td>
@@ -87,6 +88,7 @@ ht-degree: 83%
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
 
 ## 前提条件
 

@@ -7,10 +7,10 @@ description: 目標をアクティブ化するには、結果、アクティビ�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 97%
+source-wordcount: '855'
+ht-degree: 95%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 97%
 >
 >* 新しいプランとライセンス構造の場合：
 >
->   * 究極のWorkfrontプラン
+>   * Ultimate Workfront プラン
 >    
 >* 現在のプランおよびライセンス構造の場合：
 >
@@ -49,7 +49,7 @@ ht-degree: 97%
 >
 > 目標は、アクティビティ、結果、プロジェクト、連携された目標を、合計 1000 件以上持つことはできません。</span>
 
-この記事では、アクティビティと結果の概要を説明します。目標の連携については、[Adobe Workfront Goals での目標の連携](../../workfront-goals/goal-alignment/goal-alignment.md)を参照してください。プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
+この記事では、アクティビティと結果の概要を説明します。目標の関連付けについて詳しくは、[Adobe Workfront Goals での目標の関連付け：記事のインデックス ](../../workfront-goals/goal-alignment/goal-alignment.md) を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
 ## 結果の概要
 

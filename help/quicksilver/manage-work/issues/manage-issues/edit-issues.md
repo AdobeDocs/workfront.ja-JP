@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '2522'
-ht-degree: 92%
+source-wordcount: '2556'
+ht-degree: 90%
 
 ---
 
@@ -243,15 +243,15 @@ ht-degree: 92%
       <td role="rowheader">解決オブジェクト</td> 
       <td> <p>これは、イシューが別のオブジェクトによって解決されたかどうかを示します。ドロップダウンメニューから、このイシューをタスク、プロジェクト、または別のイシューのいずれで解決するかを選択し、このイシューを解決するタスク、プロジェクト、またはこのイシューの名前の入力を開始します。名前がリストに表示されたら、選択します。</p>
 
-   <b>メモ</b>
+   <b> 備考 </b>
 
-   イシューを解決するオブジェクトを選択すると、イシューのステータスは解決オブジェクトのステータスにリンクされ、イシューで変更することはできません。オブジェクトの解決について詳しくは、<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解決および解決可能なオブジェクトの概要</a>を参照してください。
+   <ul><li>イシューを解決するオブジェクトを選択すると、イシューのステータスは解決オブジェクトのステータスにリンクされ、イシューで変更することはできません。オブジェクトの解決について詳しくは、<a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">解決および解決可能なオブジェクトの概要</a>を参照してください。</li>
 
-   <b>ヒント</b>
+   <li>別のタスク、イシュー、またはプロジェクトによって解決されるようにイシューを接続した場合、イシューからの情報は、解決オブジェクト （「解決済み」フィールドにリストされているタスク、イシュー、またはプロジェクト）に転送されません。 </li>
 
-   システム管理者またはグループ管理者がイシューのカスタムヘッダーに「解決者」フィールドを追加すると、イシューに関連付けられた解決オブジェクトがある場合、フィールドは「イシューの解決」、「タスクの解決」、または「プロジェクトの解決」に変わります。
+   <li>システム管理者またはグループ管理者がイシューのカスタムヘッダーに「解決者」フィールドを追加すると、イシューに関連付けられた解決オブジェクトがある場合、フィールドは「イシューの解決」、「タスクの解決」、または「プロジェクトの解決」に変わります。
 
-   このフィールドがイシューヘッダーに表示されている場合は編集できません。イシューヘッダーのカスタマイズについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">レイアウトテンプレートを使用してオブジェクトヘッダーをカスタマイズ</a>を参照してください。
+   このフィールドがイシューヘッダーに表示されている場合は編集できません。イシューヘッダーのカスタマイズについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">レイアウトテンプレートを使用してオブジェクトヘッダーをカスタマイズ</a>を参照してください。</li></ul>
    </td> 
      </tr>
 

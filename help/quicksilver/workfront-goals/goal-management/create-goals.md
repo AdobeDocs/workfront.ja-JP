@@ -1,23 +1,27 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals での目標の作成
+title: Adobe Workfront Goals で目標を作成する
 description: CEO、マネージャー、または個人の投稿者であっても、Adobe Workfront Goals で目標を作成し、自分の作業を、自分の目標や組織の戦略を概略化した目標に合わせることができます。
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '705'
 ht-degree: 88%
 
 ---
 
 # Adobe Workfront Goals での目標の作成
 
+<!--Audited for P&P only: 4/2025-->
+
 CEO、マネージャー、または個人の投稿者であっても、Adobe Workfront Goals で目標を作成し、自分の作業を、自分の目標や組織の戦略を概略化した目標に合わせることができます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -27,7 +31,7 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
 <col>
 </col>
 <tbody>
-<tr> 
+ <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新しいプランとライセンス構造の場合：
@@ -36,9 +40,10 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
   <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
-   </td> 
+   </td>  
   </tr>
-  <tr>
+ <tr>
+ <tr>
  <td role="rowheader">Adobe Workfront プラン*</td>
  <td>
  <p>新規ライセンス：コントリビューター以上</p>
@@ -48,25 +53,23 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新製品の要件は、次のいずれかです。 </p>
-<ul>
-<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
+  <p> 新しい製品要件：Workfront</p>
  <p>または</p>
- <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+  <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
-<tr>
-<td role="rowheader">アクセスレベル</td>
-<td> <p>Goals への編集アクセス権</p> </td>
-</tr>
-<tr data-mc-conditions="">
-<td role="rowheader">オブジェクト権限</td>
-<td>
-<p>目標の表示には表示権限以上が必要</p>
-<p>目標に対する編集権限を管理</p>
-<p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
-</td>
-</tr>
+ <tr>
+ <td role="rowheader">アクセスレベル</td>
+ <td> <p>Goals への編集アクセス権</p> </td>
+ </tr>
+ <tr data-mc-conditions="">
+ <td role="rowheader">オブジェクト権限</td>
+ <td>
+  <div>
+  <p>目標の表示には表示権限以上が必要</p>
+  <p>目標に対する編集権限を管理</p>
+  <p>目標の共有について詳しくは、<a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Workfront Goals での目標の共有</a>を参照してください。 </p>
+  </div> </td>
+ </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
    <td> <p>Workfront 管理者を含むすべてのユーザーには、メインメニューに「目標」エリアが含まれるレイアウトテンプレートを割り当てる必要があります。 </p>  
@@ -76,6 +79,8 @@ CEO、マネージャー、または個人の投稿者であっても、Adobe Wo
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 目標作成のガイドライン
 

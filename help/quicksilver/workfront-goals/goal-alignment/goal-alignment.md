@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Workfront Goals で目標を調整する方法を理解するには、次の記事を参照してください。
-description: Adobe Workfront での目標の調整については、次の記事で説明します。
+title: Adobe Workfront Goals の目標の整合性：記事インデックス
+description: あらゆるレベルの企業のすべての目標を相互に関連付け、全体的な戦略に合わせて調整することは、組織の成功における重要な手順です。 Adobe Workfront での目標の調整については、次の記事で説明します。
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 77%
+source-wordcount: '185'
+ht-degree: 62%
 
 ---
 
-# Adobe Workfront Goals で目標を調整
+# Adobe Workfront Goals の目標の整合性：記事インデックス
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -24,11 +26,6 @@ ht-degree: 77%
 >* 新しいプランとライセンス構造の場合：
 >    
 >   * Ultimateプラン
->        
->     または
->        
->   * Prime プランまたはAdobe Workfrontを選択プランのAdobe Workfront Goals の追加ライセンス。
->      
 >      
 >* 現在のプランおよびライセンス構造の場合：
 >    

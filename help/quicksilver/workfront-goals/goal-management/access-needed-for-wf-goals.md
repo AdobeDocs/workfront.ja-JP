@@ -2,24 +2,23 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Workfront Goals の使用要件
-description: Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者が、特定の条件が満たされていることを確認する必要があります。
+title: Workfront Goals を使用するための要件
+description: Adobe Workfront Goals にアクセスするには、Adobe Workfront管理者が特定の条件を満たしていることを確認する必要があります。 この記事では、Workfront Goals にアクセスするためのアクセス権、権限、レイアウト要件について説明します。
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 77%
+source-wordcount: '716'
+ht-degree: 75%
 
 ---
 
 # Workfront Goals の使用要件
 
-Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者が、次の条件がすべて満たされていることを確認する必要があります。
+<!--Audited P&P only: 04/2025-->
 
-<!--drafted for P&P - replace the first bullet with this one when licensing changes: 
-* Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
+Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者が、次の条件がすべて満たされていることを確認する必要があります。
 
 * 組織は、Workfront Goals の正規のライセンスを購入する必要があります。詳しくは、この記事の [Workfront Goals 組織のアクセス権の取得 ](#obtain-workfront-goals-organization-access) を参照してください。
 
@@ -48,9 +47,9 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 
 会社が現在利用しているWorkfront プランに応じて、次のようなシナリオが考えられます。
 
-* 会社が新しいWorkfront プランを持っている場合は、Ultimate Workfront プランが必要です。 Workfront Goals はこのプランにのみ含まれています。
+* **新しいWorkfront プラン**:Ultimate Workfront プランが必要です。 Workfront Goals はこのプランにのみ含まれています。
 
-* 会社が現在のWorkfront プランを持っている場合、ユーザーがWorkfront Goals にアクセスできるようにするには、Workfront ライセンスに加えて、追加のライセンスを購入する必要があります。
+* **現在のWorkfront プラン**:Workfront ライセンスに加えて、追加ライセンスを購入する必要があります。
 
   組織が追加のライセンスを購入すると、Workfront をお使いのアカウントで Workfront Goals が有効になります。Workfront Goals のライセンスの購入について詳しくは、Workfront のアカウントマネージャーにお問い合わせください。
 
@@ -60,13 +59,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 会社が現在利用しているWorkfront プランに応じて、次のようなシナリオが考えられます。
 
-* 会社が新しいアクセスレベルモデルを使用する場合、Workfrontの管理者は、Workfront Goals にアクセスするために次のWorkfront ライセンスタイプのいずれかを付与する必要があります。
+* **新しいアクセスレベルモデル**:Workfront Goals にアクセスするには、Workfront管理者から次のいずれかのWorkfront ライセンスタイプを付与される必要があります。
 
    * コントリビューター
    * ライト
    * 標準
 
-* 会社が現在のアクセスレベルモデルを持っている場合、Workfrontの管理者は、Workfront Goals にアクセスするために次のWorkfront ライセンスタイプのいずれかを付与する必要があります。
+* **現在のアクセスレベルモデル**:Workfront Goals にアクセスするには、Workfront管理者から次のいずれかのWorkfront ライセンスタイプを付与される必要があります。
 
    * プラン
    * ワーク

@@ -1,23 +1,27 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals の目標をコピー
+title: Adobe Workfront Goals で目標をコピーする
 description: Adobe Workfront Goals の目標をコピーして目標を作成できます。元の目標情報の一部は新しい目標に転送されます。
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 89%
+source-wordcount: '788'
+ht-degree: 90%
 
 ---
 
 # Adobe Workfront Goals の目標をコピー
 
+<!--Audited for P&P only: 4/2025-->
+
 Adobe Workfront Goals の目標をコピーして目標を作成できます。元の目標情報の一部は新しい目標に転送されます。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -36,7 +40,7 @@ Adobe Workfront Goals の目標をコピーして目標を作成できます。�
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
   <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <tr>
@@ -49,12 +53,9 @@ Adobe Workfront Goals の目標をコピーして目標を作成できます。�
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新製品の要件は、次のいずれかです。 </p>
-<ul>
-<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
+  <p> 新しい製品要件：Workfront</p>
  <p>または</p>
- <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+  <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">アクセスレベル</td>
@@ -78,6 +79,8 @@ Adobe Workfront Goals の目標をコピーして目標を作成できます。�
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 目標のコピーに関する考慮事項
 

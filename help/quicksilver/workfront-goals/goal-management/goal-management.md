@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Adobe Workfront Goals での目標の調整
-description: Workfront Goals の基本事項、目標を使用する重要性、目標の作成、編集、コメントおよび管理の方法、目標の情報のフィルタリングと印刷の方法について詳しくは、次の記事を参照してください。
+title: Adobe Workfront Goals での目標管理：記事索引
+description: Workfront Goals の使用開始や目標の使用の重要性、目標の作成、編集、コメント、管理の方法、目標の情報のフィルタリングおよび印刷方法については、次の記事を参照してください。
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 89%
+source-wordcount: '277'
+ht-degree: 71%
 
 ---
 
-# Adobe Workfront Goals での目標の調整
+# Adobe Workfront Goals での目標管理：記事インデックス
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -23,7 +25,7 @@ ht-degree: 89%
 >
 >* 新しいプランとライセンス構造については、以下を参照してください*。
 >
->   * 究極の計画
+>   * Ultimateプラン
 >    
 >* 現在のプランおよびライセンス構造の場合：
 >
@@ -32,10 +34,10 @@ ht-degree: 89%
 >
 >*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 >
-
-Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
-
-Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+>
+>Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 Workfront Goals の基本事項、目標を使用する重要性、目標の作成、編集、コメントおよび管理の方法、目標の情報のフィルタリングと印刷の方法について詳しくは、次の記事を参照してください。
 

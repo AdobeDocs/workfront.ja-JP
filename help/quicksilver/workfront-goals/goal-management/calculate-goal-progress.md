@@ -1,38 +1,39 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals の目標の進捗と状況の概要
+title: Adobe Workfront Goals における目標の進捗と条件の概要
 description: 目標の進捗は、アクティビティ、結果、子目標などの進捗状況インジケーターによって推進されます。目標の状況は、現在の時点での目標の進捗によって決定されます。
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '817'
 ht-degree: 95%
 
 ---
 
 # Adobe Workfront Goals の目標の進捗と状況の概要
 
-この記事で説明している機能を使用するには、組織に以下が必要です。
+<!--Audited for P&P only: 4/2025-->
 
-* 新しいプランとライセンス構造の場合：
-
-   * Ultimateプラン
-
-     または
-
-     Prime プランまたはAdobe Workfrontを選択プランのAdobe Workfront Goals の追加ライセンス。
-
-* 現在のプランおよびライセンス構造の場合：
-
-   * プロまたはそれ以上
-   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
-
-Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
-
-Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+>[!IMPORTANT]
+>
+>この記事で説明している機能を使用するには、組織に以下が必要です。
+>
+>
+>* 新しいプランとライセンス構造の場合：
+>
+>   * Ultimateプラン
+>    
+>* 現在のプランおよびライセンス構造の場合：
+>
+>   * プロまたはそれ以上
+>   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
+>
+> Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
+>
+>Workfront Goals へのアクセス権について詳しくは、[Workfront Goals の使用要件](../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
 
 Adobe Workfront は、進捗状況インジケーターの進捗に基づいて、目標の進捗状況を自動的に計算します。
 

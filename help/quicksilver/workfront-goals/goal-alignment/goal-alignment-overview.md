@@ -2,19 +2,21 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Adobe Workfront Goals での目標の関連付けの概要
+title: Adobe Workfront Goals の目標の整合性の概要
 description: 目標を関連付けることにより、各自の目標を互いに、またチームやグループ、会社の組織的な目標と連携させることで、組織の全員が達成すべきことについて同じ考えを持っていることを確認します。
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '776'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
 # Adobe Workfront Goals での目標の関連付けの概要
+
+<!--Audited P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,7 +24,7 @@ ht-degree: 96%
 >
 >* 新しいプランとライセンス構造の場合：
 >
->   * 究極のWorkfrontプラン
+>   * Ultimate Workfront プラン
 >    
 >* 現在のプランおよびライセンス構造の場合：
 >
@@ -36,7 +38,7 @@ ht-degree: 96%
 
 目標の関連付けは、目標管理の重要な部分です。各自の目標をお互いに、またチームやグループ、会社の組織的な目標と連携させることで、戦略を前進させるために何が必要かについて、組織の全員が同じ考えを持っていることを確認できます。
 
-トップレベルの企業、チーム、またはグループの目標を設定し、確認した後、直属の部下とチームメンバーは、トップレベルから重なる、より焦点を絞った目標を作成する必要があります。これらの目標の範囲は、より狭く、目標の責任者として指定された個人とその影響範囲を考慮に入れる必要があります。目標は、その目標が関連付けられた親目標を達成するために、ユーザーやそのチームが何を達成しなければならないかという問いに答える必要があります。
+最上位の会社、チームまたはグループの目標を設定してレビューした後、直属の部下とチームメンバーは、最上位レベルから重なる、より焦点を絞った目標を作成する必要があります。 これらの目標の範囲は、より狭く、目標の責任者として指定された個人とその影響範囲を考慮に入れる必要があります。目標は、その目標が関連付けられた親目標を達成するために、ユーザーやそのチームが何を達成しなければならないかという問いに答える必要があります。
 
 目標の関連付けに関するベストプラクティスについて詳しくは、[Adobe Workfront Goals の概要](../../workfront-goals/goal-management/getting-started-with-wf-goals.md)を参照してください。
 

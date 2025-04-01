@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals で発生している目標の確認
+title: Adobe Workfront Goals での問題が発生した目標のレビュー
 description: 進捗が「トラブル発生中」と表示された目標は達成されない危険性があり、Adobe Workfront Goalsでは赤い進行状況バーで表示されます。目標を頻繁に確認し、進行が遅れている理由を理解する必要があります。
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 01e53bbc10573950d08f2df63fc742e6b9771e77
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 89%
+source-wordcount: '815'
+ht-degree: 90%
 
 ---
 
 # Adobe Workfront Goals でイシューがある目標を確認
+
+<!--Audited: 4/2025-->
 
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
@@ -22,6 +24,8 @@ ht-degree: 89%
 進捗が「トラブル発生中」と表示された目標は達成されない危険性があり、Adobe Workfront Goals では赤い進捗バーで表示されます。目標を頻繁に確認し、進行が遅れている理由を理解する必要があります。目標の進行状況について詳しくは、[Adobe Workfront Goals の目標の進行状況と条件の概要](../../workfront-goals/goal-management/calculate-goal-progress.md)を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -52,12 +56,9 @@ ht-degree: 89%
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新製品の要件は、次のいずれかです。 </p>
-<ul>
-<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
- <p>または</p>
- <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+  <p> 新しい製品要件：Workfront</p>
+  または
+  <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">アクセスレベル</td>
@@ -81,6 +82,8 @@ ht-degree: 89%
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 目標が「トラブル発生中」の進行状況に至ることを防ぐための推奨事項
 

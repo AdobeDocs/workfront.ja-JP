@@ -1,24 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Adobe Workfront Goals の目標の詳細パネルで目標を更新
+title: Adobe Workfront Goals の目標の詳細セクションでの目標の更新
 description: 目標の詳細パネルにアクセスして、個別の目標の情報を更新できます。
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '630'
 ht-degree: 86%
 
 ---
 
 # Adobe Workfront Goals の目標の詳細セクションで、目標を更新
 
-<!--drafted for the goal redesign:
-- change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
-- update the description in the metadata above
--->
+<!--Audited for P&P only: 4/2025-->
 
 目標の詳細パネルにアクセスして、個別の目標の情報を更新できます。
 
@@ -26,8 +23,9 @@ ht-degree: 86%
 >
 >ステータスがクローズ済みの目標は更新できません。
 
-
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 以下が必要です。
 
@@ -58,12 +56,9 @@ ht-degree: 86%
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新製品の要件は、次のいずれかです。 </p>
-<ul>
-<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
- <p>または</p>
- <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+  <p> 新しい製品要件：Workfront</p>
+  または
+  <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">アクセスレベル*</td>
@@ -87,6 +82,8 @@ ht-degree: 86%
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 目標の詳細セクションで、目標を更新
 

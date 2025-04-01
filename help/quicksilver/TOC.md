@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: db709d801e3e80be8fbbc184e41d0ae70b983fb6
+source-git-commit: bbbb3f7895256e2f5341e6e9fd76c4fccbd15db0
 workflow-type: tm+mt
-source-wordcount: '13110'
+source-wordcount: '13116'
 ht-degree: 89%
 
 ---
@@ -1971,10 +1971,10 @@ ht-degree: 89%
    * [タスクリストのプロジェクトおよびイニシアチブに対する役割の割り当てを表示](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [ワークロードバランサーのプロジェクトとイニシアチブの役割の割り当てを表示](scenario-planner/show-role-allocation-workload-balancer.md)
 * Adobe Workfront Goals {#adobe-workfront-goals}
-   * [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
+   * [Adobe Workfrontの目標：記事のインデックス](workfront-goals/workfront-goals.md)
    * [Adobe Workfront Goals の概要](workfront-goals/goal-management/wf-goals-overview.md)
    * Adobe Workfront Goals での目標の調整 {#goal-management}
-      * [Adobe Workfront Goals での目標の調整](workfront-goals/goal-management/goal-management.md)
+      * [Adobe Workfront Goals での目標管理：記事インデックス](workfront-goals/goal-management/goal-management.md)
       * [Adobe Workfront Goals の基本を学ぶ](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [Adobe Workfront Goals で目標にアクセスして開く](workfront-goals/goal-management/access-goals-in-wf-goals.md)
       * [Workfront Goals の使用要件](workfront-goals/goal-management/access-needed-for-wf-goals.md)
@@ -1991,7 +1991,7 @@ ht-degree: 89%
       * [Adobe Workfront Goals の目標の詳細セクションで、目標を更新](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Adobe Workfront Goals で発生している目標の確認](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Adobe Workfront Goals での目標の調整 {#goal-alignment}
-      * [Adobe Workfront Goals で目標を調整](workfront-goals/goal-alignment/goal-alignment.md)
+      * [Adobe Workfront Goals の目標の整合性：記事インデックス](workfront-goals/goal-alignment/goal-alignment.md)
       * [目標を Adobe Workfront Goals で相互に関連付けて整合させる方法](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [結果とアクティビティを目標に変換して目標を連携](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
       * [Adobe Workfront Goals での目標の関連付けの概要](workfront-goals/goal-alignment/goal-alignment-overview.md)

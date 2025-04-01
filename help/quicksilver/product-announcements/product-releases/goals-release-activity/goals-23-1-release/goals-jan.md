@@ -7,10 +7,10 @@ description: このページでは、Adobe Workfront Goals の 23.1 リリース
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: ebc729ad0300d54d294be275773d9ffc13128c83
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 100%
+source-wordcount: '372'
+ht-degree: 94%
 
 ---
 
@@ -40,6 +40,6 @@ Workfront の他の機能とより一貫したエクスペリエンスを作成�
 >
 >この更新により、目標領域のチェックインセクションとパルスセクションが削除されました。
 
-Workfront Goals の詳細情報については、Workfront ドキュメントの [Workfront Goals ](/help/quicksilver/workfront-goals/workfront-goals.md) 領域を参照してください。
+Workfront Goals について詳しくは、Workfront ドキュメントの [Adobe Workfront Goals：記事インデックス ](/help/quicksilver/workfront-goals/workfront-goals.md) エリアで入手可能な記事を参照してください。
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3413327/){target=_blank}

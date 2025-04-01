@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Adobe Workfront Goals での目標の整合性の削除
+title: Adobe Workfront Goals での目標の関連付けの削除
 description: 2 つの目標を接続しても意味がない場合は、それらの目標間の整合性を削除できます。
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 84%
+source-wordcount: '475'
+ht-degree: 82%
 
 ---
 
 # Adobe Workfront Goals での目標の整合性の削除
+
+<!--Audited P&P only: 4/2025-->
 
 2 つの目標を接続しても意味がない場合は、それらの目標間の整合性を削除できます。
 
@@ -24,6 +26,8 @@ ht-degree: 84%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 以下が必要です。
 
 <table style="table-layout:auto">
@@ -33,11 +37,15 @@ ht-degree: 84%
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront プラン</td>
- <td>
- <p>任意</p>
-
-</td>
+ <td role="rowheader">Adobe Workfront プラン*</td>
+ <td> 
+   <p>新しいプランとライセンス構造の場合：
+  <ul><li>Ultimateプラン </li></ul>
+   </p>
+<p>現在のプランおよびライセンス構造の場合： 
+<ul><li> プロまたはそれ以上 </li>
+  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront プラン*</td>
@@ -49,12 +57,9 @@ ht-degree: 84%
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新製品の要件は、次のいずれかです。 </p>
-<ul>
-<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
- <p>または</p>
- <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+   <p> 新しい製品要件：Workfront</p>
+   または
+   <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">アクセスレベル</td>
@@ -76,6 +81,8 @@ ht-degree: 84%
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 

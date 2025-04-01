@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: 目標を Adobe Workfront Goals で相互に関連付けて整合させる方法
+title: Adobe Workfront Goals で関連付けて目標を調整する
 description: 個人的な目標を持つ個人コントリビューターの場合は、その目標をチームの目標に整合させて、組織の戦略の大きなコンテキストで自身の目標の進捗を効果的に表示することができます。
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 93%
+source-wordcount: '786'
+ht-degree: 91%
 
 ---
 
 # 目標を Adobe Workfront Goals で相互に関連付けて整合させる方法
+
+<!--Audited P&P only: 04/2025-->
 
 個人的な目標を持つ個人コントリビューターの場合は、その目標をチームの目標に整合させて、組織の戦略の大きなコンテキストで自身の目標の進捗を効果的に表示することができます。
 
@@ -33,6 +35,8 @@ Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つ�
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 以下が必要です。
 
 <table style="table-layout:auto">
@@ -42,11 +46,15 @@ Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つ�
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront プラン</td>
- <td>
- <p>任意</p>
-
-</td>
+ <td role="rowheader">Adobe Workfront プラン*</td>
+ <td> 
+   <p>新しいプランとライセンス構造の場合：
+  <ul><li>Ultimateプラン </li></ul>
+   </p>
+<p>現在のプランおよびライセンス構造の場合： 
+<ul><li> プロまたはそれ以上 </li>
+  <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront プラン*</td>
@@ -58,12 +66,9 @@ Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つ�
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新製品の要件は、次のいずれかです。 </p>
-<ul>
-<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
- <p>または</p>
- <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+  <p> 新しい製品要件：Workfront</p>
+  または
+  <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader">アクセスレベル</td>
@@ -87,6 +92,8 @@ Adobe Workfront Goals で目標を相互に関連付けるには、次の 2 つ�
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 目標を相互に関連付けて整合させる方法
 

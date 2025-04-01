@@ -7,14 +7,16 @@ description: Adobe Workfront Goals は、戦略を作業の実行と配信に結
 author: Alina
 feature: Workfront Goals
 exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '512'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
 # Adobe Workfront Goals の概要
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,7 +24,7 @@ ht-degree: 93%
 >
 >* 新しいプランとライセンス構造の場合：
 >
->   * 究極のWorkfrontプラン
+>   * Ultimate Workfront プラン
 >    
 >* 現在のプランおよびライセンス構造の場合：
 >
