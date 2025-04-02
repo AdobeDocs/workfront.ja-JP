@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
+source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1628'
 ht-degree: 33%
 
 ---
@@ -26,7 +26,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 
 | 毎月のリリース | 四半期リリース |
 | ----------------- | ----------------- |
-| <ul><li>25.2 （2025 年 2 月 13 日（PT））</li><li>25.3（2025年3月13日（PT））</li><li>25.4（2025年4月10日（PT））</li></ul> | <ul><li>25.4（2025年4月10日（PT））</li></ul> |
+| <ul><li>25.2 （2025 年 2 月 13 日（PT））</li><li>25.3 （2025 年 3 月 13 日（PT））</li><li>25.4（2025年4月10日（PT））</li></ul> | <ul><li>25.4（2025年4月10日（PT））</li></ul> |
 
 >[!NOTE]
 >
@@ -348,7 +348,7 @@ API バージョン 19 では、いくつかのリソースとエンドポイン
 
 新機能と更新内容については、[API バージョン 19 の新機能](/help/quicksilver/wf-api/api/new-api-version-19.md)を参照してください。
 
-API バージョンの詳細については、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
+現在サポートされている API バージョンについて詳しくは、「[API バージョン管理とサポートスケジュール ](/help/quicksilver/wf-api/api/api-version-support-schedule.md)」を参照してください。
 
 ### Workfront のメンテナンスアップデート
 
