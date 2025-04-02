@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: タスクの編集
-description: 作成したタスクに関する情報、またはContributeや管理権限を持つタスクに関する情報を編集できます。 この記事では、権限がある場合にタスクの検索、検索、編集方法を説明します。
+description: 自分で作成したタスクに関する情報を編集したり、自分が投稿権限または管理権限を持っているタスクに関する情報を編集できます。 この記事では、権限がある場合にタスクの検索、検索、編集方法を説明します。
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '3681'
-ht-degree: 89%
+source-wordcount: '3706'
+ht-degree: 88%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 89%
 * 「現在」ステータスのプロジェクトのタスクトリガーの通知の更新：タスクに割り当てられたユーザーが混乱するのを避けるには、プロジェクトのステータスが「現在」の場合に編集タスクをできる限り制限します。
 * 承認プロセス内のタスクは編集できません。承認プロセスでのタスクのログ時間またはステータスの更新のみが可能です。
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![ 承認プロセスでタスクを編集 ](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * 完了、無効または承認保留中のステータスを持つプロジェクトのタスクに対するドキュメントの編集や追加は、Workfront 管理者またはグループ管理者がプロジェクト環境設定エリアでこの機能を有効にした場合にのみ行うことができます。プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
@@ -223,8 +223,11 @@ ht-degree: 89%
       <td role="rowheader">ステータス</td> 
       <td> <p>タスクの開発ステージを示すタスクのステータスを選択します。</p> <p><b>ヒント</b>
 
-   タスクのステータスを、タスクのヘッダーでアップデートできます。 </p> </td>
-   </tr> 
+   タスクのステータスを、タスクのヘッダーでアップデートできます。 </p>
+
+   <p>Workfrontまたはグループ管理者が、タスクステータスの名前をカスタマイズできます。 詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md"> ステータスの作成または編集 </a> を参照してください。 
+      </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">優先度</td> 
       <td> <p>これは、タスクに優先順位を付けることができる視覚的なフラグです。 </p> <p>次のオプションから選択します。 </p> 

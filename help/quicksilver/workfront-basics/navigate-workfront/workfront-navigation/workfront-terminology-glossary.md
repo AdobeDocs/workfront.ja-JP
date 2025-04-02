@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '20935'
+source-wordcount: '20999'
 ht-degree: 94%
 
 ---
@@ -219,7 +219,7 @@ ht-degree: 94%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Audit Trail]</td> 
+   <td>[!UICONTROL 監査証跡]</td> 
    <td>記録される変更（[!UICONTROL Audit Areas]）を通じて追跡されるイベントによって自動的に生成されるメモのコレクション。それぞれのメモには、誰が当該のアクションを行ったか、何をしたか、いつ実行したかが記録されます。</td> 
   </tr> 
   <tr> 
@@ -268,7 +268,7 @@ ht-degree: 94%
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Billing Record]</td> 
+   <td>[!UICONTROL 請求記録]</td> 
    <td> <p>請求可能な売上高、時間、または費用を記録します。この情報は、外部の会計システムで請求書を作成する際に使用できます。</p> <p>詳しくは、<a href="../../../manage-work/projects/project-finances/create-billing-records.md">請求記録を作成</a>を参照してください。 </p> 
    </td> 
   </tr>
@@ -299,8 +299,18 @@ ht-degree: 94%
       <li data-mc-conditions="QuicksilverOrClassic.Draft mode"> If the project is&nbsp;added to the Capacity Planner and included in the budget calculation, the value is <i>Included and Calculated</i>. </li>
      --> 
     </ul> </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
+   <td>[!UICONTROL の分類 ]</td> 
+   <td> <p>Workfront Planning では、分類機能を使用して、接続されたレコードをレコードのタイムライン ビューに表示できます。 </p>
+   <p>レコードを接続別に分類すると、接続された他のレコードのタイムラインを表示し、レコードのパフォーマンスや期限にどのような影響を与えるかを把握できます。 </p>
+   <p>接続されたレコードは、それぞれのレコードの下にネストされて表示されます。 </p>
+   <p>詳しくは、<a href="/help/quicksilver/planning/views/manage-the-timeline-view.md">タイムラインビューの管理</a>を参照してください。 </p>
+   </td> 
+    </tr>
+
+<tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>これは非推奨のフィールドです。このフィールドに表示される情報はすべて、[!DNL Workfront]が削除した機能に関連しています。このフィールドは更新できません。 </p>
    <p> このフィールドは、[!UICONTROL プロジェクト ] のレポートおよびリストに引き続き表示されます。</p>  </td> 
@@ -2064,7 +2074,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr> 
    <td>[!UICONTROL Scope Change]</td> 
-   <td>[!UICONTROL Audit Trail] は、アクティブな場合、[!UICONTROL Task Duration] や [!UICONTROL Predecessors] が変更された場合など、プロジェクトまたはタスクの範囲に変更が加えられるたびにメモを生成します。</td> 
+   <td>[!UICONTROL 監査証跡] は、アクティブな場合、[!UICONTROL Task Duration] や [!UICONTROL Predecessors] が変更された場合など、プロジェクトまたはタスクの範囲に変更が加えられるたびにメモを生成します。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Section]</td> 
@@ -2167,7 +2177,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr> 
    <td>[!UICONTROL Status Change]</td> 
-   <td>[!UICONTROL Audit Trail]の一つ。ユーザーがプロジェクト、タスクまたはイシューのステータスを変更すると、メモが生成されます。</td> 
+   <td>[!UICONTROL 監査証跡] の一つ。ユーザーがプロジェクト、タスクまたはイシューのステータスを変更すると、メモが生成されます。</td> 
   </tr> 
   <tr> 
    <td>ステータスアイコン</td> 

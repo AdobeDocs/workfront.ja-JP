@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 58%
+source-wordcount: '2684'
+ht-degree: 59%
 
 ---
 
@@ -394,7 +394,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    選択した設定でレコードがタイムラインビューに表示されます。
 
-### 分類機能を使用して、接続されたレコードをタイムラインビューに表示します
+### タイムラインビューで接続されたレコードを分類
 
 分類機能を使用すると、接続されたレコードをレコードのタイムライン ビューに表示できます。 レコードを接続別に分類すると、接続された他のレコードのタイムラインを表示し、レコードのパフォーマンスや期限にどのような影響を与えるかを把握できます。
 
@@ -418,7 +418,7 @@ this is not possible right now; if this is the same functionality as the table v
 * タイムラインビューに表示するレコードタイプの開始日と終了日は、時系列順に並べる必要があります。 例えば、レコードの開始日が 1 月 31 日で、終了日が 1 月 1 日の場合、タイムラインビューには表示されません。 詳しくは、この記事の [ タイムライン表示の管理 ](#manage-a-timeline-view) の節を参照してください。
 * レコードの分類に含めることができるレコードタイプは 5 つまでです。
 
-#### タイムラインビューで接続されたレコードを分類
+#### 接続されたレコードの分類
 
 1. レコードタイプのタイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 1. （任意）標準モードでタイムラインビューを表示している場合は、「**分類**」をクリックします。
