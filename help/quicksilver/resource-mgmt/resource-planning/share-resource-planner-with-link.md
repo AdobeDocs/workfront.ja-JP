@@ -6,10 +6,10 @@ description: Adobe Workfront では、ダッシュボードに外部ページと
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 96%
+source-wordcount: '666'
+ht-degree: 94%
 
 ---
 
@@ -56,7 +56,6 @@ Adobe Workfront では、ダッシュボードに外部ページとして埋め�
 
 +++
 
-
 リソースプランナのユーザービューに対する一意の URL を生成する際は、次の点を考慮してください。
 
 * 一意の URL は、ユーザービューに対してのみ取得できます。URL を生成するオプションは、プロジェクトビューまたはロールビューにはありません。
@@ -80,18 +79,18 @@ Adobe Workfront では、ダッシュボードに外部ページとして埋め�
    * 四半期
 
 1. （オプション）情報の表示を **FTE** 別にするか&#x200B;**時間**&#x200B;別にするかを選択します。\
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![FTE または時間を選択 ](assets/rp-hours-or-fte-in-user-view.png)
 
 1. （オプション）リソースプランナーにフィルターを適用します。\
    フィルターの適用について詳しくは、[リソースプランナーで情報をフィルタリング](../../resource-mgmt/resource-planning/filter-resource-planner.md)を参照してください。
 
 1. **ハイパーリンク**&#x200B;アイコンをクリックします。\
-   ![RP_Storm_generate_URL_with_copy_URL_link.png](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![ ハイパーリンクアイコンと URL](assets/rp-generate-url-from-link-icon.png)
 
 1. 「**URL をコピー**」をクリックします。\
    この結果、ユーザービューにあるリソースプランナーの一意の URL がクリップボードにコピーされます。
 
-1. （オプション）次のいずれかの操作を行います。
+1. （オプション）次のいずれかを実行します。
 
    * URL を別のアプリケーションに貼り付けて、別のユーザーに送信します。\
      そのユーザーは、ユーザービューでリソースプランナーを表示するのに、Workfront にログインする必要があります。
@@ -114,4 +113,4 @@ Adobe Workfront では、ダッシュボードに外部ページとして埋め�
    レイアウトテンプレートへのダッシュボードの追加について詳しくは、[レイアウトテンプレートを作成および管理](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。\
    ダッシュボードの共有について詳しくは、[ダッシュボードを共有](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)を参照してください。\
    共有 URL を表示するとき、ユーザーは、最初にリソースプランナーに適用した設定で情報を確認できます。共有 URL を表示するには、Workfront にログインする必要があります。\
-   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![ リソースプランナーが表示されたサンプルダッシュボード ](assets/user-view-dashoard-from-unique-url-350x85.png)
