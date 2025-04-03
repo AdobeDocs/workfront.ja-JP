@@ -1,13 +1,13 @@
 ---
 product-area: timesheets
 navigation-topic: configure-timesheet-preferences
-title: 「タイムシートの作成と管理：記事の索引」
+title: タイムシートの作成と管理：記事インデックス
 description: Adobe Workfront でタイムシートを作成し、作業の完了に費やした時間を追跡できます。タイムシートの作成、編集、管理に関する詳細情報は、以下の記事を参照してください。
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
 exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
-source-git-commit: bfaf566e556882078875649549c0dfadacd800b8
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
 source-wordcount: '106'
 ht-degree: 95%
@@ -15,6 +15,8 @@ ht-degree: 95%
 ---
 
 # タイムシートの作成と管理：記事インデックス
+
+<!-- Audited: 4/2025 -->
 
 この節では、次の記事を扱います。
 

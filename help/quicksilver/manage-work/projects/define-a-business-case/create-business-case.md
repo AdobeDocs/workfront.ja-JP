@@ -5,10 +5,10 @@ description: ビジネスケースを使用して、プロジェクトをリク�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 94%
+source-wordcount: '846'
+ht-degree: 66%
 
 ---
 
@@ -18,22 +18,24 @@ ht-degree: 94%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>Plan 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>プロジェクト、財務データ、リソース管理へのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
@@ -43,7 +45,9 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -60,43 +64,43 @@ ht-degree: 94%
 
 ## ビジネスケースの作成
 
-1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**プロジェクト** をクリックします。
-1. 「**新規プロジェクト**」、「**プロジェクトをリクエスト**」の順に選択します。\
-   デフォルトでは、プロジェクトのステータスは&#x200B;**アイデア**&#x200B;になっています。
+{{step1-to-projects}}
+
+1. **新規プロジェクト** をクリックし、表示されるドロップダウンから **プロジェクトをリクエスト** を選択します。 プロジェクトが作成され、**アイデア** ステータスがデフォルトで割り当てられます。
 
    >[!CAUTION]
    >
    >Workfront インスタンスで「アイデア」ステータスが削除されている場合、プロジェクトは、プロジェクトの環境設定エリアで定義された、新規プロジェクトのデフォルトのステータスに配置されます。プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
-1. プロジェクトの名前を指定し、Enter キーを押します。
-1. （任意） **詳細** アイコン ![ 詳細アイコン ](assets/qs-more-icon-on-an-object.png) をクリックし、**テンプレートを添付** をクリックして、プロジェクトの作業分解構造を作成します。
+1. 「プロジェクトタイトル」フィールドに名前を入力します。
+1. （任意） **詳細** アイコン ![ 詳細アイコン ](assets/qs-more-icon-on-an-object.png)、**テンプレートを添付** の順にクリックして、プロジェクトの作業分解構造を作成します。
 
    または
 
    手動でプロジェクトへのタスクの追加を開始します。
 
-1. （条件付き）テンプレートの添付を選択した場合は、引き続きテンプレートをプロジェクトに添付します。
-1. 左パネルの「**ビジネスケース**」をクリックします。
-1. （オプション）「**プロジェクト情報の編集**」をクリックします。
+1. （条件付き）テンプレートを添付することを選択した場合、引き続きプロジェクトにテンプレートを添付します。
+1. 左側のパネルで、「ビジネスケース **をクリック** ます。
+1. （任意）「**プロジェクト情報**」セクションを編集するには、「**プロジェクト情報を編集**」をクリックします。 
 
-   ビジネスケースのプロジェクト情報セクションのフィールドの編集の詳細については、[ビジネスケースの領域の概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)記事で[プロジェクト情報](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info)の節を参照してください。
+   **プロジェクト情報** セクションフィールドの編集について詳しくは、記事 [ ビジネスケースの領域の概要 [ の ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) プロジェクト情報 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の節を参照してください。
 
-1. （オプション）「**目標を編集**」をクリックします。
+1. （任意）「**目標**」セクションを編集するには、「**目標を編集**」をクリックします。
 
-   ビジネスケースの目標セクションの編集について詳しくは、[ビジネスケースのエリアの概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)記事内の[目標](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals)の節を参照してください。
+   ビジネスケースの **目標** セクションの編集について詳しくは、記事 [ ビジネスケースの領域の概要 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の [ 目標 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#goals) の節を参照してください。
 
-1. （オプション）「**費用の編集**」をクリックします。
+1. （任意）「**費用**」セクションを編集するには、「**費用の編集**」をクリックします。
 
-   ビジネスケースの費用セクションの編集について詳しくは、[ビジネスケースのエリアの概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)記事内の[費用](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses)の節を参照してください。
+   ビジネスケースの **費用** セクションの編集について詳しくは、記事 [ ビジネスケースの領域の概要 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の [ 費用 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#expenses) の節を参照してください。
 
-1. （オプション）リソース予算計上エリアを使用して、リソースを予算計上し、プロジェクトの担当業務に関連する予算計上労力コストを取得します。詳しくは、[ビジネスケースの予算リソース](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
+1. （任意）「**リソース予算の編集**」をクリックして、リソースを予算に計上し、プロジェクトの担当業務に関連する予算計上労力コストを取得します。 詳しくは、[ビジネスケースの予算リソース](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
 
    >[!TIP]
    >
    >ここに表示される情報は、システムレベルのリソース予算計上ツールに表示される情報と同じです。
 
 1. （オプション）このプロジェクトに潜在的なリスクを追加するには、「**リスクを編集**」をクリックします。ビジネスケースへのリスクの追加については、[ビジネスケースのエリアの概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)記事の[リスク](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#risks)の節を参照してください。
-1. （オプション）**このプロジェクトにスコア****カードを追加**&#x200B;ドロップダウンメニューの「**スコアカード**」を選択します。
+1. （任意）「**このプロジェクトにスコアカードを追加**」ドロップダウンメニューで **スコアカード** を選択します。
 
    プロジェクトに添付する前に、スコアカードを作成する必要があります。
 
@@ -108,10 +112,13 @@ ht-degree: 94%
 
    カスタム Formsの詳細については、「[ カスタム フォームを作成する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
-1. 「**送信**」をクリックします。
-
-   プロジェクトのステータスが「**リクエスト済み**」に変更されて、ビジネスケースの承認を得るために送信されます。
+1. **送信** をクリックします。 プロジェクトのステータスが「**リクエスト済み**」に変更されて、ビジネスケースの承認を得るために送信されます。
 
    ビジネスケースの承認について詳しくは、[ビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)を参照してください。
 
-1. （オプション）ビジネスケースが完了したら、そのコピーを .pdf ファイルに書き出すことができます。ビジネスケースを .pdf ファイルに書き出す方法の詳細については、[ビジネスケースのエリアの概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)の「ビジネスケースの書き出し」の節を参照してください。
+
+>[!TIP]
+>
+> ビジネスケースが完了したら、そのコピーを.pdf ファイルに書き出すことができます。 ビジネスケースを.pdf ファイルにエクスポートする方法については、[ プロジェクトのビジネスケースのエクスポート ](/help/quicksilver/manage-work/projects/define-a-business-case/export-business-case.md) を参照してください。
+
+

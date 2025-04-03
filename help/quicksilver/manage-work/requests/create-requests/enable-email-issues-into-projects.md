@@ -3,17 +3,19 @@ product-area: requests
 navigation-topic: create-requests
 title: ユーザーが問題をリクエストキュープロジェクトにメールで送信できるようにする
 description: ユーザーがメールでイシューをプロジェクトに追加できるように、プロジェクトを設定できます。
-author: LIsa
+author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 88%
+source-wordcount: '790'
+ht-degree: 86%
 
 ---
 
 # ユーザーが問題をリクエストキュープロジェクトにメールで送信できるようにする
+
+<!-- Audited: 4/2025 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
@@ -55,9 +57,7 @@ ht-degree: 88%
 
 ## 前提条件
 
-ユーザーがメールでプロジェクトにイシューを追加できるようにプロジェクトを設定するには、次の前提条件が必要です。
-
-この機能を有効にする前に、次の条件を満たす必要があります。
+ユーザーがメールでイシューをプロジェクトに追加できるようにプロジェクトを設定するには、次の条件が必要です。
 
 * このアカウントにイシューをメールで送信するユーザーは、Workfront のライセンスを持つアクティブユーザーである必要があります。
 * このアカウントにイシューをメールで送信するユーザーは、プロジェクトに対してイシューの追加権限が必要です。

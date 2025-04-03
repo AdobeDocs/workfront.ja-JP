@@ -8,16 +8,18 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '564'
-ht-degree: 94%
+source-wordcount: '591'
+ht-degree: 77%
 
 ---
 
 # プロジェクトの予定完了日を設定
 
-プロジェクトの予定完了日とは、プロジェクトが完了するように設定された日付です。
+<!-- Audited: 4/2025 -->
+
+プロジェクトの予定完了日は、プロジェクトが完了するように設定された日付です。
 
 プロジェクトの予定開始日と予定完了日は、プロジェクトのタスクの日付に依存します。この記事では、プロジェクトの予定完了日を手動または自動で設定する方法について説明します。タスクの予定完了日について詳しくは、[タスクの予定完了日の概要](../../../manage-work/tasks/task-information/task-planned-completion-date.md)を参照してください。
 
@@ -56,6 +58,8 @@ ht-degree: 94%
 </table>
 -->
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
@@ -63,15 +67,22 @@ ht-degree: 94%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>
+   新規：標準
+
+または
+
+現在：プラン </p>
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>プロジェクトへのアクセスを編集</p> <p><b>メモ</b>
 
 まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
@@ -83,7 +94,9 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## プロジェクトの予定完了日を手動で設定
 
@@ -96,15 +109,17 @@ ht-degree: 94%
 
 「完了日」からプロジェクトをスケジュールする手順は、次のとおりです。
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、「**プロジェクト**」をクリックします。
+{{step1-to-projects}}
 
-1. 「**新規プロジェクト**」、「**新規プロジェクト**」の順にクリックします。
+1. **新規プロジェクト** をクリックし、表示されるドロップダウンから **新規プロジェクト** を選択します。
 
    プロジェクトの作成について詳しくは、「[プロジェクトを作成](../../../manage-work/projects/create-projects/create-project.md)」の記事を参照してください。
 
-1. 左のパネルで「**プロジェクト詳細**」を選択して、**プロジェクトの編集**&#x200B;アイコンが表示されます。
+1. 左側のパネルで **プロジェクト詳細** を選択します。
 
-1. 「**スケジュールモード**」フィールドで、「**完了日**」を選択します。
+1. 右上隅の **プロジェクトを編集** アイコン ![ 編集アイコン ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
+
+1. 「**プロジェクト日付**」セクションで、「**スケジュールモード**」フィールドをクリックし、「**完了日**」を選択します。
 
 1. プロジェクトの&#x200B;**予定完了日**&#x200B;を指定します。
 1. 「**変更を保存**」をクリックします。
@@ -117,15 +132,17 @@ ht-degree: 94%
 
 「開始日」からプロジェクトをスケジュールする手順は、次のとおりです。
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、「**プロジェクト**」をクリックします。
+{{step1-to-projects}}
 
-1. 「**新規プロジェクト**」をクリックして、「**新規プロジェクト**」をクリックします。
+1. **新規プロジェクト** をクリックし、表示されるドロップダウンから **新規プロジェクト** を選択します。
 
    プロジェクトの作成について詳しくは、「[プロジェクトを作成](../../../manage-work/projects/create-projects/create-project.md)」の記事を参照してください。
 
-1. 左のパネルで「**プロジェクト詳細**」を選択してから、右上隅で&#x200B;**プロジェクトの編集**&#x200B;アイコンをクリックします。
+1. 左側のパネルで **プロジェクト詳細** を選択します。
 
-1. 「**スケジュールモード**」フィールドで、「**開始日**」を選択します。
+1. 右上隅の **プロジェクトを編集** アイコン ![ 編集アイコン ](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) をクリックし、表示されるドロップダウンで **概要** を選択します。
+
+1. 「**プロジェクト日付**」セクションで、「**スケジュールモード**」フィールドをクリックし、「**開始日**」を選択します。
 
 1. プロジェクトの&#x200B;**予定開始日**&#x200B;を指定します。
 1. 「**変更を保存**」をクリックします。
