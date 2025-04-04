@@ -2,19 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: 目標のレビューと Adobe Workfront Goals セクション
+title: 目標のレビューとAdobe Workfrontの目標のセクション：記事のインデックス
 description: 次の記事では、目標のレビューと、Adobe Workfront で目標を管理できるセクションについて説明します。
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 84%
+source-wordcount: '156'
+ht-degree: 71%
 
 ---
 
-# 目標のレビューと Adobe Workfront Goals セクション
+# 目標のレビューとAdobe Workfrontの目標のセクション：記事のインデックス
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -22,7 +24,7 @@ ht-degree: 84%
 >
 >* 新しいプランとライセンス構造の場合：
 >
->   * 究極のWorkfrontプラン
+>   * Ultimate Workfront プラン
 >    
 >* 現在のプランおよびライセンス構造の場合：
 >

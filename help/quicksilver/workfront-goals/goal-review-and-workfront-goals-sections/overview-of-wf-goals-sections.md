@@ -2,19 +2,21 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Adobe Workfront Goals セクションの概要
+title: Adobe Workfront Goals の節の概要
 description: 目標のリストまたは個々の目標にアクセスし、Adobe Workfront Goals の複数のセクションからそれらを管理できます。どのセクションを使用するかは、目標を扱う際に達成したい目的によって異なります。
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
 # Adobe Workfront Goals セクションの概要
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >

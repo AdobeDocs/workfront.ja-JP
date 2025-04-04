@@ -1,21 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: グラフを確認して Adobe Workfront Goals の目標進捗の傾向を理解する
+title: グラフを確認して、Adobe Workfront Goals の目標の進捗トレンドを理解する
 description: 目標の全体的な正常性とその進捗の経時的な傾向は、Adobe Workfront Goals の「グラフ」セクションで確認できます。このセクションのグラフでは、各目標の進捗を分類することはできませんが、代わりに、すべての目標の進捗ステータスと指定した期間の進捗の全体的なスナップショットが表示されます。
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '966'
 ht-degree: 91%
 
 ---
 
 # グラフを確認して Adobe Workfront Goals の目標進捗の傾向を理解する
 
-<!-- drafted mostly for P&P release-->
+<!--Audited for P&P only: 4/2025-->
 
 目標の全体的な正常性とその進捗の経時的な傾向は、Adobe Workfront Goals の「グラフ」セクションで確認できます。このセクションのグラフでは、各目標の進捗を分類することはできませんが、代わりに、すべての目標の進捗ステータスと指定した期間の進捗の全体的なスナップショットが表示されます。
 
@@ -25,7 +25,9 @@ ht-degree: 91%
 
 ## アクセス要件
 
-この記事で説明する操作を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+以下が必要です。
 
 <table style="table-layout:auto">
 <col>
@@ -42,7 +44,7 @@ ht-degree: 91%
 <p>現在のプランおよびライセンス構造の場合： 
 <ul><li> プロまたはそれ以上 </li>
   <li>Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。</li></ul></p>
-   </td> 
+   </td>  
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront プラン*</td>
@@ -54,12 +56,9 @@ ht-degree: 91%
  <tr>
  <td role="rowheader">製品*</td>
  <td>
- <p> 新製品の要件は、次のいずれかです。 </p>
-<ul>
-<li>Select またはPrime Adobe Workfront プランと、追加のAdobe Workfront Goals ライセンス。</li>
-<li>Ultimate Workfrontプラン。デフォルトでWorkfront Goals が含まれています。 </li></ul>
- <p>または</p>
- <p>現在の必要な製品：Workfront プランとAdobe Workfront Goals の追加ライセンス。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
+    <p> 新しい製品要件：Workfront</p>
+    または
+    <p>現在の製品要件：Workfront ライセンスに加えて、Adobe Workfront Goals のライセンスを購入する必要があります。 </p> <p>詳しくは、<a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Workfront Goals の使用要件</a>を参照してください。 </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>アクセスレベル</p></td>
@@ -83,6 +82,8 @@ ht-degree: 91%
 </table>
 
 *詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## Workfront Goals のグラフのタイプ
 
