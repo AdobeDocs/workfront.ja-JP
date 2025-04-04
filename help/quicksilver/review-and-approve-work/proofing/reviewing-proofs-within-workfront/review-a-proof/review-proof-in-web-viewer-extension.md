@@ -6,9 +6,9 @@ description: Adobe Workfront レビューツールは、ZIP ファイルまた�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
+source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,37 @@ Adobe Workfront レビューツールは、ZIP ファイルまたは URL を使�
 確認する必要があるコンテンツが Web サイト上にある場合は、デスクトッププルーフビューアを使用することをお勧めします。
 
 * SSO 認証が必要
-* Figma など、iFrames でサイトを開くイベント
+* Figma などの iFrame でサイトを開けないようにします
 
 
+## 拡張機能のインストール
 
-## Adobe Workfront レビューツールを URL と ZIP 配達確認のデフォルトビューアにする
+### 前提条件
+
+* Adobe Workfront レビューツールを使用するには、従来の Web ビューア拡張機能を削除する必要があります。
+
+### 拡張機能のインストール
+
+<!--This extension is required to review conent in GS and Ex.
+
+You must install the extension to reiew content in GenS and Express.
+
+To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
+
+レビュー担当者と承認者は、Adobe Workfront レビューツールをインストールする必要があります。 次のいずれかのブラウザーで以下を行います。
+
+* [Firefox 拡張機能 ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+
+* [Chrome拡張機能 ](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+
+インタラクティブプルーフがAdobe Workfront レビューツールで自動的に開くには、以下の節で説明するように、Workfront管理者が workfront のプルーフ設定を更新する必要があります。
+
+## Workfront プルーフのデフォルトの更新
+
+### Adobe Workfront レビューツールを URL と ZIP 配達確認のデフォルトビューアにする
 
 Web レビューツールを URL および ZIP 配達確認に使用するには、Workfront管理者がインタラクティブ配達確認のデフォルト設定を調整する必要があります。
 
@@ -43,9 +69,9 @@ Web レビューツールを URL および ZIP 配達確認に使用するには
 
 >[!NOTE]
 >
->この変更は、プレビュー環境と実稼動環境のすべてのインタラクティブなプルーフに適用されます。 実稼動で有効にする前に、プレビュー環境で新しいエクスペリエンスをテストすることをお勧めします。 アカウント設定を **すべてのインタラクティブなプルーフで有効** に戻すと、デスクトップビューアに簡単に切り替えることができます。
+>この変更は、Workfront インスタンスのすべてのインタラクティブなプルーフに適用されます。 実稼動で有効にする前に、プレビュー環境で新しいエクスペリエンスをテストすることをお勧めします。 **インタラクティブプルーフ用デスクトッププルーフビューア** アカウント設定を **すべてのインタラクティブプルーフで有効** に戻すと、デスクトップビューアに簡単に切り替えることができます。
 
-## Adobe Workfront レビューツールを ZIP 配達確認のみのデフォルトビューアにする
+### Adobe Workfront レビューツールを ZIP 配達確認のみのデフォルトビューアにする
 
 Web レビューツールを zip 配達確認にのみ使用するには、Workfront管理者が、インタラクティブ配達確認のデフォルト設定を調整する必要があります。
 
@@ -57,20 +83,7 @@ Web レビューツールを zip 配達確認にのみ使用するには、Workf
 
 >[!NOTE]
 >
->この変更は、プレビュー環境と実稼動環境のすべてのインタラクティブなプルーフに適用されます。 実稼動で有効にする前に、プレビュー環境で新しいエクスペリエンスをテストすることをお勧めします。 アカウント設定を **すべてのインタラクティブなプルーフで有効** に戻すと、デスクトップビューアに簡単に切り替えることができます。
+>この変更は、Workfront インスタンスのすべての ZIP 配達確認に適用されます。 実稼動で有効にする前に、プレビュー環境で新しいエクスペリエンスをテストすることをお勧めします。 **インタラクティブプルーフ用デスクトッププルーフビューア** アカウント設定を **すべてのインタラクティブプルーフで有効** に戻すと、デスクトップビューアに簡単に切り替えることができます。
 
-## 拡張機能のインストール
 
-レビュー担当者と承認者は、Adobe Workfront レビューツールをインストールする必要があります。 次のいずれかのブラウザーで以下を行います。
 
-* [Firefox 拡張機能 ](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
-
-* [Chrome拡張機能 ](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
-
-* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
-
-拡張機能をインストールすると、インタラクティブなプルーフがAdobe Workfront レビューツールで自動的に開きます。
-
->[!IMPORTANT]
->
->Adobe Workfront レビューツールを使用するには、従来の Web ビューア拡張機能を削除する必要があります。

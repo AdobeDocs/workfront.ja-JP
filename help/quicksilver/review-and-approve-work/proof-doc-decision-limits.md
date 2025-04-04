@@ -6,16 +6,22 @@ description: プルーフおよびドキュメントの決定は、すべての�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 100%
+source-wordcount: '259'
+ht-degree: 86%
 
 ---
 
 # 無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要
 
-プルーフおよびドキュメントの決定は、新しいプランでは 無償 Workfront ライセンスすべてに対して制限されます。詳しくは、[新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
+プルーフおよびドキュメントの決定は、新しいプランでは 無償 Workfront ライセンスすべてに対して制限されます。ドキュメントまたはプルーフの承認者に割り当てられた場合、レビューと承認のプロセスを進めるための決定を行う必要があります。
+
+次の決定オプションが 1 か月の上限にカウントされます。
+
+* 承認
+* 変更して承認
+* 作業が必要
 
 制限は、毎月ユーザーごとにリセットされます。各ライセンスの決定制限は、使用するプランによって異なります。
 
@@ -61,6 +67,8 @@ ht-degree: 100%
    </td>
   </tr>
 </table>
+
+詳しくは、[新しいライセンスの概要](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)を参照してください。
 
 ## 外部ユーザー
 
