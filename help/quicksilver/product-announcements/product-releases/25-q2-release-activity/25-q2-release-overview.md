@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 33%
+source-wordcount: '1640'
+ht-degree: 32%
 
 ---
 
@@ -298,9 +298,11 @@ Workfrontのプラットフォームを引き続き強化していく中で、AP
 
 #### プロジェクトの従来のアジャイルビューを削除しています
 
-プロジェクトの従来のアジャイルビューは、25.3 リリース（2025 年 3 月 13 日（PT））でWorkfrontから削除されます。 ボード アイコンをクリックすると、プロジェクトのアジャイルビューでタスクを表示できます。
+プロジェクトの従来のアジャイルビューは、25.3 リリース（2025 年 3 月 13 日（PT））でWorkfrontから削除されます。 ボード アイコンをクリックすると、プロジェクトのアジャイルビューでタスクを表示できます。 既存の従来のアジャイルツールは、引き続きチーム エリアで使用できます。
 
-アジャイルビューの使用について詳しくは、[ アジャイルビューでのプロジェクトの管理 ](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md) を参照してください。
+以下の画像は、削除される従来のアジャイルオプションを示しています。
+![ 従来のアジャイルビューリンク ](assets/project-agile-board-view.png)
+
 
 #### Enhanced Analytics の廃止
 
