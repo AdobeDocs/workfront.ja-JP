@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 16c1cb48fcbd771cbc5e01c53c43009be64a9d8c
 workflow-type: tm+mt
-source-wordcount: '305'
-ht-degree: 49%
+source-wordcount: '355'
+ht-degree: 42%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 49%
 Workfrontのフィールド エリアから直接新しいカスタムフィールドまたはウィジェットを追加できます。カスタムフォームを開いてフィールドを作成する必要はありません。
 
 また、カスタムフォームで使用するカスタムフィールド、セクション区切り、ウィジェットのプロパティを編集することもできます。 これには、項目のラベル、名前、説明などが含まれます。
+
+カスタムフォームからカスタムフィールドを削除した場合、そのフィールドは追加先となったその他のすべてのフォームに存在し、フォームまたは「フィールド」領域で編集できます。 フィールドの削除について詳しくは、[ システムからカスタムフィールドまたはウィジェットを削除する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) を参照してください。
 
 カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
@@ -80,3 +82,4 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
    詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. 完了したら、「**編集**」をクリックします。
+
