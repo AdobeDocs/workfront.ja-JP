@@ -8,14 +8,14 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1d18b58d1ac47159f301589315883f28dfa58694
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 93%
+source-wordcount: '206'
+ht-degree: 80%
 
 ---
 
-# 復元したアイテムを表示
+# 復元した項目を表示
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -66,8 +66,8 @@ Adobe Workfront 管理者またはプランライセンスを持つユーザー�
 
    デフォルトでは、アイテムは復元日の順に並んでいます。
 
-1. 復元したアイテムの種類に応じて、「**プロジェクト**」タブ、「**タスク**」タブ、「**イシュー**」タブ、または「**ドキュメント**」タブをクリックします。
+1. 復元された項目のタイプに応じて、「**プロジェクト**」、「**タスク**」、「**イシュー**」、「**ドキュメント**」または「**テンプレート**」タブをクリックします。
 
 1. 表示するアイテムのリンク名をクリックします。
 
-   プロジェクト、タスク、イシュー、またはドキュメントが表示されます。
+   プロジェクト、タスク、イシュー、ドキュメント、テンプレートが表示されます。
