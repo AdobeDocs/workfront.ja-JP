@@ -6,10 +6,10 @@ description: アジャイルストーリーは、別のイテレーション（�
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 164e98e8cc6995387be1e830787cb258f127bd70
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 92%
+source-wordcount: '364'
+ht-degree: 73%
 
 ---
 
@@ -55,38 +55,35 @@ ht-degree: 92%
 1. バックログに移動するストーリーが含まれる、イテレーションまたはかんばんボードに移動します。
 1. ページ上部にあるイテレーションの見出しをクリックします。
 1. 「**[!UICONTROL ストーリー]**」タブで、移動するストーリーを選択します。
-1. **[!UICONTROL その他]**／**[!UICONTROL 指定の場所に移動]**&#x200B;をクリックします。
-
-   **[!UICONTROL ストーリーを移動]**&#x200B;ダイアログボックスが表示されます。
+1. **[!UICONTROL 詳細]**/**[!UICONTROL 移動先]** をクリックします。 **[!UICONTROL 移動先]** ダイアログボックスが表示されます。
 
    ![ストーリーを移動ダイアログ](assets/iteration-story-move.png)
 
-1. **team_name のバックログ** を選択します。
-上記の例では、チーム名は **マーケティング** です。
+1. **team_name のバックログ** を選択します。 上記の例では、チーム名は **マーケティング** です。
 
-1. 「**[!UICONTROL ストーリーを移動]**」をクリックします。
+1. 「**[!UICONTROL 移動]**」をクリックします。
 
 ## ストーリーを別のイテレーションに移動
 
-Scrum チームの別のイテレーションにストーリーを移動できます。
+システム管理者またはイテレーションが関連付けられているチームのメンバーであれば、スクラムチームの別のイテレーションにストーリーを移動できます。
 
 >[!NOTE]
 >
->「**[!UICONTROL 指定の場所に移動]**」オプションは、イテレーションの親ストーリーには使用できません。サブタスクは別のイテレーションにのみ移動できます。
+> 「**[!UICONTROL 指定の場所に移動]**」オプションは、イテレーションの親ストーリーには使用できません。サブタスクは別のイテレーションにのみ移動できます。
+
 
 1. 移動するストーリーを含むイテレーションに移動します。
 1. ページ上部にあるイテレーションの見出しをクリックします。
 1. 「**[!UICONTROL ストーリー]**」タブで、移動するストーリーを選択します。
-1. **[!UICONTROL その他]**／**[!UICONTROL 指定の場所に移動]**&#x200B;をクリックします。
-
-   **[!UICONTROL ストーリーを移動]**&#x200B;ダイアログボックスが表示されます。
+1. **[!UICONTROL 詳細]**/**[!UICONTROL 移動先]** をクリックします。 **[!UICONTROL 移動先]** ダイアログボックスが表示されます。
 
    ![ストーリーを移動ダイアログ](assets/iteration-story-move.png)
 
-1. **[!UICONTROL 別のイテレーション]**&#x200B;を選択し、ドロップダウンメニューで、ストーリーを移動するイテレーションを選択します。
+1. **[!UICONTROL 別のイテレーション]** を選択します。
+1. 表示されるドロップダウンメニューで、ストーリーの移動先のイテレーションを選択します。
 
    >[!NOTE]
    >
-   >作業アイテムの[!UICONTROL 予定開始日]と[!UICONTROL 予定完了日]は、[!UICONTROL チームの編集]ページの設定に影響されます。詳しくは、[[!UICONTROL 設定]作業アイテムをイテレーションに追加する際に日付を適用する方法](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)記事の、[スクラムの設定](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)を参照してください。
+   >作業アイテムの[!UICONTROL 予定開始日]と[!UICONTROL 予定完了日]は、[!UICONTROL チームを編集]ページの設定の影響を受けます。詳しくは、[スクラムの設定](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事で[[!UICONTROL 作業アイテムをイテレーションに追加する際に日付を適用する方法の設定]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)を参照してください。
 
-1. 「**[!UICONTROL ストーリーを移動]**」をクリックします。
+1. 「**[!UICONTROL 移動]**」をクリックします。
