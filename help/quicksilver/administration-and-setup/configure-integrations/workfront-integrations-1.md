@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 92%
+source-wordcount: '1287'
+ht-degree: 90%
 
 ---
 
@@ -103,7 +103,7 @@ ht-degree: 92%
    <td> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Experience Manager AssetsとAssets Essentials </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assetsと Assets Essentials </p>  </p> </td> 
    <td> 
     <ul> 
      <li>WorkfrontとAdobe Experience Managerの間でリンクされたフォルダーを自動的に作成 
@@ -229,7 +229,7 @@ ht-degree: 92%
      <li>[!DNL Workfront] プロジェクト、タスクおよびイシューを検索 </li> 
      <li>[!DNL Workfront] 個人タスクを作成 </li> 
      <li>[!DNL Workfront] リクエストを送信 </li> 
-    </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]：記事インデックス</a>を参照してください。</p> </td> 
+    </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]：記事インデックス</a>を参照してください。</p><p><b> 注意 </b>:2025 年 7 月 1 日をもって、Microsoftは Classic Teams デスクトップアプリのサポートを終了します。 その結果、Classic Teams デスクトップアプリが使用できなくなると、WorkfrontとMicrosoft Teamsの統合はサポートされなくなります。 </p></td> 
    <td> 
     <ul> 
      <li>複数のチームが使用する場合は、組織の各チームが統合をインストールする必要があります</li> 

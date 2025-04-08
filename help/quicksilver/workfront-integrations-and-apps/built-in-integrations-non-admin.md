@@ -7,10 +7,10 @@ description: ' [!DNL Adobe Workfront]  をサードパーティのアプリケ�
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 88%
+source-wordcount: '539'
+ht-degree: 82%
 
 ---
 
@@ -47,14 +47,14 @@ ht-degree: 88%
      <p>詳細情報と手順について詳しくは、<a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html?lang=ja" class="MCXref xref">[!DNL Creative Cloud]アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Adobe Experience Manager AssetsとAssets Essentials </p>  </p> </td> 
+   <td role="rowheader"> <p>Adobe Experience Manager AssetsとAssetsの基本事項 </p>  </p> </td> 
    <td> 
     <ul> 
-     <li>WorkfrontとAdobe Experience Managerの間でリンクされたフォルダーを自動的に作成 
-      <li>既存のリンクされたアセットのメタデータの同期</p></li>
-      <li>Workfrontで変更された場合、ポートフォリオ、プログラム、プロジェクト、タスク、問題、ドキュメントのメタデータを自動的に更新します。</li>
+     <li>Workfront と Adobe Experience Manager をリンクしたフォルダーを自動的に作成する 
+      <li>既存のリンク済みアセットのメタデータを同期</p></li>
+      <li>Workfront で変更が発生したときに、ポートフォリオ、プログラム、プロジェクト、タスク、課題、およびメタドキュメントを自動的に更新します。</li>
       <li>複数の Experience Manager Assets リポジトリを 1 つの Workfront 環境に、または複数の Workfront 環境を組織 ID をまたいで 1 つの Experience Manager Assets リポジトリにスムーズに接続できます。</li></ul>
-     <p>詳細と手順については、<a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Adobe Experience Manager Assets統合の概要 </a> を参照してください</p> 
+     <p>詳細と手順については、「Adobe Experience Manager Assets統合の <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">概要」を参照してください。</a></p> 
      </td>
   </tr> 
   <tr> 
@@ -75,7 +75,7 @@ ht-degree: 88%
    <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Google Workspace メールをプロジェクトまたはタスクに追加する </li> 
+     <li>Google ワークスペース メールをプロジェクトやタスクに追加する </li> 
      <li>Gmail で [!DNL Workfront] 通知を表示および管理</li> 
      <li>Gmail 経由でリクエストを送信 </li> 
     </ul> </td> 
@@ -120,7 +120,7 @@ ht-degree: 88%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>注</b>: 2025 年 7 月 1 日の時点で、マイクロソフトはクラシック Teams デスクトップ アプリのサポートを削除します。 その結果、Microsoft Teamsとのワークフロント統合は、クラシック Teams デスクトップ アプリが利用できなくなった後はサポートされません。 </p> </td> 
    <td> 
     <ul> 
      <li>[!DNL Microsoft Teams] で [!DNL Workfront] 通知を受信 </li> 

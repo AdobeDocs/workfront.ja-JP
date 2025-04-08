@@ -7,10 +7,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 411ad0b1-efb2-40e9-a04c-d06840b9cdce
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 100%
+source-wordcount: '1233'
+ht-degree: 99%
 
 ---
 
@@ -125,7 +125,7 @@ ht-degree: 100%
 * 内部ニュースレター
 * メール
 * お知らせセンターのメッセージ（[!DNL Workfront] から転送されたものまたは自分が作成したもの）
-* 共同作業ツールに関するお知らせ（例：[!DNL Slack] または [!DNL Microsoft Teams]）
+* コラボレーションツール（[!DNL Slack] など）に関するお知らせ
 * 内部のウェビナーまたはトレーニング
 
 [!DNL Workfront] リソース（ドキュメント、リリースノート、トレーニングなど）と、組織のニーズやワークフローに合わせた情報との間のバランスを選択できます。新機能によってどのように作業が改善され、時間とエネルギーが節約されるかをユーザーに示すことは、ユーザーが変更を受け入れるのに役立ちますが、[!DNL Workfront] からすでに入手可能なデモやドキュメントを使用することで時間を節約できます。
