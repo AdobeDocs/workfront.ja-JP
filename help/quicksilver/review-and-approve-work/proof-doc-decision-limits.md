@@ -6,10 +6,10 @@ description: プルーフおよびドキュメントの決定は、すべての�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 86%
+source-wordcount: '286'
+ht-degree: 82%
 
 ---
 
@@ -17,11 +17,47 @@ ht-degree: 86%
 
 プルーフおよびドキュメントの決定は、新しいプランでは 無償 Workfront ライセンスすべてに対して制限されます。ドキュメントまたはプルーフの承認者に割り当てられた場合、レビューと承認のプロセスを進めるための決定を行う必要があります。
 
-次の決定オプションが 1 か月の上限にカウントされます。
+次の決定タイプは、1 か月の上限にカウントされます。
 
-* 承認
-* 変更して承認
-* 作業が必要
+<table>
+  <tr>
+
+<td><strong> レガシ ドキュメントの承認 </strong> 
+   </td>
+   <td><strong> 統合承認 </strong> 
+   </td>
+   <td><strong> プルーフの承認 </strong> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <ul>
+   <li>承認</li>
+    <li>変更して承認</li>
+     <li>拒否</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>承認</li>
+    <li>変更して承認</li>
+     <li>作業が必要</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>承認</li>
+    <li>変更して承認</li>
+     <li>変更が必要です</li>
+   </ul>
+   <p><strong> メモ </strong>：プルーフの承認には、カスタムの決定ラベルを付けることができます</p>
+  </tr>
+  </tr>
+</table>
+
+
+
+## 制限
 
 制限は、毎月ユーザーごとにリセットされます。各ライセンスの決定制限は、使用するプランによって異なります。
 
