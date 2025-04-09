@@ -2,22 +2,20 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Create Custom Expense Types
+title: カスタム費用タイプの作成
 description: ' [!DNL Adobe Workfront]  管理者は、カスタム費用タイプを作成して、タスクやプロジェクトに関連する費用を定義および追跡できます。費用は、タスクやプロジェクトに関連付けることができる労力以外のコストです。'
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 82%
+source-wordcount: '405'
+ht-degree: 83%
 
 ---
 
 # カスタム費用タイプを作成
-
-{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -57,9 +55,9 @@ ht-degree: 82%
 
 +++
 
-## Default expense types
+## 既定の費用タイプ
 
-The default expense types in [!DNL Workfront] that cannot be deleted or edited include the following:
+[!DNL Workfront] の既定の費用タイプのうち、削除または編集できないものは次のとおりです。
 
 * [!UICONTROL 広告宣伝費]
 * [!UICONTROL コンサルティング]
@@ -73,8 +71,8 @@ The default expense types in [!DNL Workfront] that cannot be deleted or edited i
 {{step-1-to-setup}}
 
 1. 「**[!UICONTROL 費用タイプ]**」をクリックします。
-1. Click **[!UICONTROL New expense type]**.
-1. In the **[!UICONTROL New Expense Type]** dialog box, specify the following information:
+1. **[!UICONTROL 新規費用タイプ]** をクリックします。
+1. **[!UICONTROL 新規費用タイプ]** ダイアログボックスで、次の情報を指定します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,20 +106,20 @@ The default expense types in [!DNL Workfront] that cannot be deleted or edited i
     </tbody> 
    </table>
 
-1. Click **Create Expense Type** <span class="preview">or **[!UICONTROL Save]**.</span>
+1. **[!UICONTROL 保存]**&#x200B;をクリックします。
 
    これで、ユーザーが費用タイプをプロジェクトとタスクの費用に関連付けることができるようになりました。
 
-## Modify custom expense types
+## カスタム費用タイプの変更
 
 {{step-1-to-setup}}
 
 1. 「**[!UICONTROL 費用タイプ]**」をクリックします。
 1. 変更する費用タイプを選択してから、「**[!UICONTROL 編集]**」をクリックします。
 
-   The **[!UICONTROL Edit Expense Type]** dialog box appears.
+   **[!UICONTROL 費用タイプを編集]** ダイアログボックスが表示されます。
 
-1. Make your desired changes, then click **Save Changes** <span class="preview">or **[!UICONTROL Save]**.</span>
+1. 必要な変更を加え、「**[!UICONTROL 保存]**」をクリックします。
 
    これで、ユーザーが費用タイプをプロジェクトとタスクの費用に関連付けることができるようになりました。
 
