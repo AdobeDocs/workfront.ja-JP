@@ -7,9 +7,9 @@ description: コメントの概要は、Workfront Proof でアクセスできま
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
+source-git-commit: e72fe6861b26caa2f9e3ff64e36b871528619f5a
 workflow-type: tm+mt
-source-wordcount: '497'
+source-wordcount: '493'
 ht-degree: 39%
 
 ---
@@ -95,7 +95,8 @@ ht-degree: 39%
 
 1. **詳細** ボタンをクリックして、「**Excel にエクスポート**」を選択します。
 
-   ![ 「Excel にエクスポート」オプション ](assets/Export-to-excel-option.png)
+   <!--
+   ![Export to Excel option](assets/export-to-excel-option.png) -->
 
 ## PDF への書き出し
 
