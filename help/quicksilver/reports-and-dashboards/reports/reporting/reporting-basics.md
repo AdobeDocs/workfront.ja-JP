@@ -2,22 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: レポートの基本
+title: レポートの基本：記事インデックス
 description: これらの記事では、Adobe Workfront のレポートの基本を説明します。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 7cec252f-e5be-4099-8fa6-308f80952a21
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 100%
+source-wordcount: '34'
+ht-degree: 76%
 
 ---
 
-# レポートの基本
+# レポートの基本：記事インデックス
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 この節では、次の記事を扱います。
 
