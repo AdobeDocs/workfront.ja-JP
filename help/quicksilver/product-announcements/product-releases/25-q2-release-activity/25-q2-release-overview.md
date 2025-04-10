@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
+source-git-commit: bb7f627f7ee2fdf15ba84919bf67f6c8fbb682dd
 workflow-type: tm+mt
-source-wordcount: '1640'
-ht-degree: 32%
+source-wordcount: '1713'
+ht-degree: 33%
 
 ---
 
@@ -53,7 +53,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            カスタムフォームロジックの機能強化</a></p>
+            カスタムフォームロジックの機能強化</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>カスタム Forms ロジックビルダーのインターフェイスが更新され、ロジックルールを作成する場所が増えました。 この新しいデザインは、今後追加される可能性のある追加のロジックタイプにより簡単に対応できます。</p><p>現在の表示およびスキップロジックオプションに加えて、検証ロジックも使用できます。</p>
         </td>
         <td>
@@ -88,20 +88,20 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
-<!--    <tr>
+    <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            New document approval decision buttons available in proofing viewer</a></p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            プルーフビューアで使用できる新しいドキュメント承認決定ボタン</a></p>
+            <p>新しいドキュメント承認決定ボタンがプルーフビューアに表示されます。 これで、単純なプルーフを作成してから、ドキュメントの概要から承認者とレビュー担当者を追加すると、プルーフビューア内で直接決定できるようになります。</p>
         </td>
         <td>
-            <p><b>Available on these dates:</b></p>
+            <p><b>公開日：</b></p>
             <ul>
-                <li>Preview release: March 27, 2025</li>
-                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+                <li>プレビューリリース：2025年4月9日（PT）</li>
+                <li>一部のお客様向けの実稼動リリース：25.4 リリースの場合（2025 年 4 月）</li>
             </ul>
         </td>
-    </tr>    -->                      
+    </tr>                        
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -143,7 +143,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            モバイルアプリでのプルーフの機能強化（iOSのみ） </a>[!BADGE In Production ]{type=Informative}</p>
+            モバイルアプリのプルーフの機能強化（iOSのみ）</a><p>[!BADGE In production ]{type=Informative}</p></p>
             <p>Adobe Workfront モバイルアプリのプルーフ機能には、次の複数の機能強化を使用できます。
             <ul>
             <li>共有されたリンクから、モバイルメールアプリケーションからプルーフファイルを開くことができるようになりました。 以前は、メールからのリンクはサポートされておらず、Workfront モバイルアプリから配達確認にアクセスする必要がありました。</li>
@@ -175,7 +175,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            プロジェクトを編集ボックスでプロジェクトを編集する際に、プロジェクトにコメントを追加します </a>[!BADGE In production for Fast Release]{type=Positive}</p>
+            プロジェクトを編集ボックスで編集する際に、プロジェクトにコメントを追加する</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>プロジェクトを編集ボックスでコメントを編集しながら、プロジェクトにコメントを追加できるようになりました。 また、複数のプロジェクトを一括して編集する際に、一度にコメントを追加することもできます。 この更新以前は、プロジェクトの編集時にこの機能は存在していませんでした。</p>
         </td>
         <td>
@@ -199,7 +199,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            ドキュメントの承認および決定データをデータ接続で使用できるようになりました </a>[!BADGE In Production ]{type=Informative}</p>
+            データ接続でドキュメントの承認および決定データを使用できるようになりました</a><p>[!BADGE In production ]{type=Informative}</p>
             <p>データ接続でドキュメントの承認と決定のデータにアクセスできるようになりました。 このデータセットは、Workfrontのプルーフ機能からのドキュメント承認と、Workfront ドキュメントで行われている Frame.io 承認を結び付けます。 BI ビジュアライゼーションを通じて、サイクル時間、サイクル数および遅延承認のタイムラインへの影響を説明できるようになりました。</p>
         </td>
         <td>
@@ -212,7 +212,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     </tr>                          
     <tr>
         <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront カレンダーの更新</a></p>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront カレンダーの更新</a></p><p>[!BADGE In production ]{type=Informative}</p>
             <p>Workfrontカレンダーのルックアンドフィールを、Workfrontの他のエリアと一致するモダンなデザインに更新しました。 現在のWorkfront カレンダーとは、次のようなわずかな機能違いがあります。
             <ul>
             <li>カレンダーへのアドホック項目の追加方法</li>
@@ -255,9 +255,7 @@ Workfront リリースは、毎月と四半期の両方のリリーストラッ�
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Adobe Admin Console ユーザーの変更をWorkfront更新フィードの「システム」として表す</a></p>
-            [!BADGE In Production for Fast Release ]{type=Positive}
-            <p>Workfrontの管理者がWorkfront ユーザーのユーザー情報に変更を加えると、Adobe Admin Consoleは、ユーザーの更新領域にある「システム」アクティビティ タブで、この変更を「システム」に属するものとして記録するようになりました。 これはAdobe Admin Console管理者を指します。</p>
+            Adobe Admin Console ユーザーの変更をWorkfront更新フィードの「システム」として表す</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Workfrontの管理者がWorkfront ユーザーのユーザー情報に変更を加えると、Adobe Admin Consoleは、ユーザーの更新領域にある「システム」アクティビティ タブで、この変更を「システム」に属するものとして記録するようになりました。 これはAdobe Admin Console管理者を指します。</p>
         </td>
         <td>
             <p><b>公開日：</b></p>
