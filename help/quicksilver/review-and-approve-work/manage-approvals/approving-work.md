@@ -6,7 +6,7 @@ description: 作業の承認
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '913'
 ht-degree: 78%
@@ -27,7 +27,7 @@ Workfront での作業への承認の関連付けについては、[新規また
 
 ## アクセス要件
 
-+++ この記事の機能に対するアクセス要件表示拡張。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -66,18 +66,18 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 ## ホーム領域から作業項目を承認
 
-1. 右上隅にある **[!UICONTROL メインメニュー]** ![メインメニューアイコン](assets/main-menu-icon.png) をクリックし、「 **[!UICONTROL ホーム]**」をクリックします。
-1. (オプション)「 **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
-1. (オプション)[ **フィルター** ] ドロップダウン メニューをクリックし、[ **すべてを選択** ] を選択して、自分に割り当てられ、委任された承認を確認します。
+1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
+1. （条件付き） **フィルター** ドロップダウンメニューをクリックし、「**すべて**」を選択して、割り当てられた承認と委任された承認を確認します。
 
    >[!NOTE]
    >
-   >担当業務またはグループに割り当てられた承認は、ホームに表示されません。 Teams に割り当てられた承認は、各チームメンバーの [マイ承認] ウィジェットに表示されます。
+   >担当業務またはグループに割り当てられた承認は、ホームに表示されません。 チームに割り当てられた承認は、各チームメンバーのマイ承認ウィジェットに表示されます。
 
 
 1. 承認する項目を選択します。
 
-   ![マイ承認ウィジェット](assets/my-approvals-widget.png)
+   ![ マイ承認ウィジェット ](assets/my-approvals-widget.png)
 
 1. 右側のパネルで承認を決定する際に、使用可能なオプションの 1 つをクリックします。 承認する項目のタイプに応じて、ページの右上隅に次のオプションが表示されます。
 
@@ -99,41 +99,41 @@ Workfront の様々な領域で承認を表示または管理できます。
    <tr>
       <td>
        <ul>
-      <li>叶える</li>
+      <li>付与</li>
       <li>無視</li>
       </ul>
-      必要に応じて、[ <b>変更アクセス</b> ] ドロップダウン メニューでアクセス レベルを調整できます。
+      必要に応じて、<b> アクセス権を変更 </b> ドロップダウンメニューでアクセスレベルを調整できます。
       </td>
       <td>
          <ul>
          <li>承認</li>
          <li>拒否</li>
          </ul>
-      決定ボタンのドロップダウンメニューをクリックすると、決定とともにコメントを残すことができます。
+      決定ボタンのドロップダウンメニューをクリックして、決定にコメントを残すことができます。
       </td>
       <td>
-   承認者として割り当て済み
+   承認者として割り当てられました
          <ul>
          <li>承認</li>
          <li>変更して承認</li>
          <li>作業が必要</li>
          </ul>
-   レビュー担当者として割り当て済み
+   レビュアーとして割り当て済み
          <ul>
          <li>レビューの完了</li>
          </ul>
-      この列のオプションは、統合承認にのみ適用されます。 従来の ドキュメント 承認は、作業項目の承認と同じように表示されます。 
+      この列のオプションは、統合承認にのみ適用されます。 従来のドキュメント承認は、作業項目の承認と同じように表示されます。 
       </td>
       <td>
          <ul>
-         <li>配達確認に移動</li>
+         <li>プルーフに移動</li>
          </ul>
-         あなたは配達確認閲覧者であなたの決定をします。 プルーフの確認について詳しくは、<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Adobe Workfront でのプルーフのレビュー</a>を参照してください。
+         決定はプルーフビューアで行います。 プルーフの確認について詳しくは、<a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Adobe Workfront でのプルーフのレビュー</a>を参照してください。
       </td>
    </tr>
    </table>
 
-決定を下すと、その承認は [マイ承認] ウィジェットから削除されます。
+決定を行うと、その承認が自分の承認ウィジェットから削除されます。
 
 
 ## プロジェクト、タスク、イシューから直接作業を承認
@@ -146,7 +146,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
    プロジェクト、タスク、イシューの現在の承認プロセスに関する承認情報が、項目のヘッダーに表示されます。
 
-   ![プロジェクトヘッダーの現在の承認プロセス](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![ プロジェクトヘッダーの現在の承認プロセス ](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    次の承認情報が表示されます。
 
@@ -172,8 +172,8 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 1. 承認を必要とするドキュメントが含まれているドキュメントエリアに移動します。
 1. ドキュメントを選択し、「**承認**」、「**変更**」、または「**却下**」をクリックします。\
-   ![ドキュメントを承認](assets/approval-approve-document-350x215.png)\
-   ![ドキュメントの承認](assets/document-approval-350x199.png)
+   ![ ドキュメントを承認 ](assets/approval-approve-document-350x215.png)\
+   ![ ドキュメントの承認 ](assets/document-approval-350x199.png)
 
 1. （オプション）ドキュメントのプルーフが生成されている場合は、プルーフインターフェイス内でドキュメントを承認できます（[プルーフからのドキュメントの承認](#approve-a-document-from-a-proof)参照）。
 
@@ -185,7 +185,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 1. ドキュメントをレビューするには、次のいずれかの操作を行います。
 
    * ドキュメントに関するメタデータを表示します。
-   * マークアップとコメントを使用してドキュメントを確認するための配達確認が作成されている場合は、右上隅近くにある [ **開く配達確認** ![開く配達確認](assets/open-proof-icon-qs.png) をクリックし、配達確認を確認します。
+   * マークアップやコメントを含むドキュメントをレビューするためのプルーフが作成されている場合は、右上隅付近の **プルーフを開く**![ プルーフを開く ](assets/open-proof-icon-qs.png) をクリックして、プルーフをレビューします。
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

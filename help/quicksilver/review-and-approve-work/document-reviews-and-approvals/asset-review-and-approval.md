@@ -2,11 +2,11 @@
 product-area: documents
 navigation-topic: approvals
 title: アセットおよびドキュメントのレビューと承認に使用可能な機能
-description: Overview of the systems available for review and approval in Workfront.
+description: Workfrontでレビューおよび承認できるシステムの概要です。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 2%
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # アセットおよびドキュメントのレビューと承認に使用可能な機能
 
-There are currently 3 different systems available in Workfront for Asset and Document review and approvals:
+現在、Workfrontでは、アセットとドキュメントのレビューおよび承認用に、次の 3 つの異なるシステムを使用できます。
 
 * [レガシ ドキュメントの承認](#legacy-document-approvals)
 
@@ -31,18 +31,18 @@ There are currently 3 different systems available in Workfront for Asset and Doc
 
 * 承認者としてユーザーを追加
 * プルーフビューアでのレビューとコメント
-* Make decisions in the proofing viewer
-* Create approval reports with legacy reporting
+* プルーフビューアで決定する
+* 従来のレポートを使用した承認レポートの作成
 
-For more information, see [Legacy document approvals](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
+詳しくは、[ レガシードキュメントの承認 ](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes) を参照してください。
 
 ## 統合承認
 
-統合された承認は、従来の承認システムを再設計したものです。 現在は限定リリースで提供されており、包括的な関係者のエンゲージメントとバージョン固有のドキュメント承認を必要とする企業にとって、実用的で効果的なソリューションになるよう設計されています。
+統合承認は、従来の承認システムを再設計したものです。 現在は限定リリースで提供されており、包括的な関係者のエンゲージメントとバージョン固有のドキュメント承認を必要とする企業にとって、実用的で効果的なソリューションになるよう設計されています。
 
 統合承認について詳しくは、「[ 統合承認の概要 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)」を参照してください。
 
-統合承認で利用できる主な機能は次のとおりです。
+統合承認で利用できる主な機能：
 
 * 承認者およびレビュアーとしてユーザーとチームを追加する
 
@@ -51,14 +51,14 @@ For more information, see [Legacy document approvals](/help/quicksilver/review-a
 * テンプレートの作成と使用
 
 * プルーフビューアでのレビューとコメント
-For more information about using the proofing viewer, see [Use unified approvals and proofing together](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
+プルーフビューアの使用について詳しくは、[ 統合承認とプルーフの併用 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) を参照してください。
 
 * Workfrontのホームウィジェットで、承認に関する複数の主要業績評価指標を表示します
 
-* Use Canvas Dashboards, currently in beta, to view reporting details about unified approvals
-For more information on reporting, see [Create a report dashboard for review and approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
+* キャンバスダッシュボード（現在はベータ版）を使用して、統合承認に関するレポートの詳細を表示します
+レポートについて詳しくは、[ レビューおよび承認用のレポートダッシュボードの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
 
-* Make decisions in the proofing viewer [!BADGE Coming soon]{type=Informative}
+* プルーフビューアで決定する [!BADGE  近日公開 ]{type=Informative}
 
 * 複数のステージ承認の作成 [!BADGE  近日公開 ]{type=Informative}
 
@@ -77,9 +77,9 @@ For more information on reporting, see [Create a report dashboard for review and
 
 * プルーフビューアでのレビューとコメント
 
-* Use legacy reporting to create reports
+* 従来のレポートを使用したレポートの作成
 
-* Make decisions in the proofing viewer
+* プルーフビューアで決定する
 
 * 複数のステージ承認の作成
 

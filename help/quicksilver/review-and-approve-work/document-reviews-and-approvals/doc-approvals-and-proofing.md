@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 統合された承認とプルーフの併用
+title: 統合承認とプルーフの併用
 description: プルーフで統合承認を使用できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '944'
 ht-degree: 4%
 
 ---
 
-# 統合された承認とプルーフの併用
+# 統合承認とプルーフの併用
 
-Workfrontの統合承認では、ドキュメントのレビューと承認に役立つ新しい機能セットが導入されています。 既存のプルーフビューアで統合された承認ワークフローを使用すると、レビュー中のドキュメントにコメントやマークアップを追加できます。
+Workfrontの統合承認では、ドキュメントのレビューと承認に役立つ新しい機能セットが導入されています。 既存のプルーフビューアで統合承認ワークフローを使用すると、レビュー中のドキュメントにコメントやマークアップを追加できます。
 
-統合された承認とプルーフを一緒に使用する場合、ワークフローにはいくつかの主な違いがあります。
+統合承認とプルーフを一緒に使用する場合、ワークフローにはいくつかの主な違いがあります。
 
 * 決定ボタンがプルーフビューアに表示されない
 
