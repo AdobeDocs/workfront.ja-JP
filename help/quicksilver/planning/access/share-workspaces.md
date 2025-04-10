@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '825'
 ht-degree: 42%
 
 ---
 
 # ワークスペースを共有
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -104,7 +104,7 @@ This article describes how you can share a view with others. For information abo
 ## ワークスペースの共有に関する考慮事項
 
 * Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
-* 組織内のユーザー、<span class="preview"> チーム、役割、グループまたは会社とワークスペースを共有 </span> きます。
+* ワークスペースは、組織内のユーザー、チーム、役割、グループまたは会社と共有できます。
 * 組織外のユーザーとワークスペースを共有することはできません。
 * ワークスペースを共有すると、そのワークスペースに関連付けられているすべてのレコードタイプ、レコードおよびフィールドも共有されます。
 * ワークスペースを共有する場合、ビューは共有されません。 ビューは別々に共有する必要があります。
@@ -133,7 +133,7 @@ This article describes how you can share a view with others. For information abo
 
    ![ ワークスペースの右上にある「共有」ボタン ](assets/share-button-on-workspace-top-right.png)
 
-1. 「**このワークスペースへのアクセスを許可**」フィールドにユーザー、グループ、<span class="preview"> チーム、会社または担当業務の名前の入力を開始し </span> リストに表示されたらクリックします。
+1. 「**このワークスペースへのアクセスを許可**」フィールドに、ユーザー、グループ、チーム、会社または担当業務の名前の入力を開始し、リストに表示されたらクリックします。
 
    ![UI をグループと共有 ](assets/sharing-ui-with-groups.png)
 

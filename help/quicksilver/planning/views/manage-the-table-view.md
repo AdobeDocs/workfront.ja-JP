@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2932'
+source-wordcount: '2872'
 ht-degree: 66%
 
 ---
 
 # テーブルビューの管理
 
-<span class="preview"> このページでハイライト表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -404,13 +404,9 @@ OLD:
    * **AND**：指定されたすべての条件が満たされている必要があります。
    * **OR**：指定された条件のいずれかが満たされている必要があります。 これはデフォルトのオプションです。
 
-   <div class="preview">
-
    1. （任意）複数の条件グループの間に、追加の **AND** または **OR** 演算子を追加します。
 
       ![ ビューの多層化フィルター ](assets/multi-tiered-filters-in-views.png)
-
-   </div>
 
    レコードのリストは自動的にフィルタリングされます。<!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
@@ -545,3 +541,4 @@ To sort grouped records:
 テーブルビューを表示すると、レコードの表示中に別のユーザーが編集しているフィールドを表示することもできます。
 
 詳しくは、「レコードの表示の管理 [ の「リアルタイムプレゼンスインジケーターの有効化」の節を参照し ](/help/quicksilver/planning/views/manage-record-views.md) ください。
+

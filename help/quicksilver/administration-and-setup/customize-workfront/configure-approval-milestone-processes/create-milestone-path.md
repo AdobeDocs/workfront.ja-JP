@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 61%
+source-wordcount: '815'
+ht-degree: 62%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 61%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Adobe Workfront 管理者は、システム内の任意のプロジェクトに適用できるマイルストーンパスを作成します。このエリアでマイルストーンパスに加えた変更は、Workfront システム全体に影響を与えます。
 
@@ -123,20 +123,18 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
    マイルストーンパスをプロジェクトに関連付ける方法と、マイルストーンをタスクに関連付ける方法に関して詳しくは、[タスクへのマイルストーンの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)を参照してください。
 
 
-1. <span class="preview"> （オプション） **書き出し** アイコン ![ 書き出しアイコン ](assets/export-icon.png) をクリックし、マイルストーンパスリストをファイルに書き出す形式を次から選択します。</span>
+1. （オプション） **書き出し** アイコン ![ 書き出しアイコン ](assets/export-icon.png) をクリックし、次の形式から選択してマイルストーンパスリストをファイルに書き出します。
 
    * PDF
    * Excel
    * Excel（xlsx）
    * タブ区切り
 
-1. <span class="preview"> （オプション）マイルストーンリストのマイルストーンを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてマイルストーン情報を編集します。</span>
-1. <span class="preview"> （オプション）マイルストーンリストでマイルストーンを選択し、**削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックして削除します。</span>
-1. <span class="preview">[ はい、削除します **をクリックします**。</span>
-   <span class="preview"> マイルストーンは削除され、復元できません。 マイルストーンに関連付けられたプロジェクト情報と、マイルストーンパスに関連付けられたタスク情報も削除されます。</span>
+1. （オプション）マイルストーンリストのマイルストーンを選択し、「**編集**」アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてマイルストーン情報を編集します。
+1. （オプション）マイルストーンリストでマイルストーンを選択し、**削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックして削除します。
+1. **はい、削除します** をクリックします。
+マイルストーンは削除され、復元できません。 マイルストーンに関連付けられたプロジェクト情報と、マイルストーンパスに関連付けられたタスク情報も削除されます。
 
-
-<div class="preview">
 
 ## マイルストーン パスの詳細をレポートに表示
 
@@ -163,8 +161,6 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
 
    マイルストーンパスの詳細が表示されます。
 
-   <div class="preview">
-
    ![ プロジェクトレポートからのマイルストーンパスの詳細 ](assets/milestone-details-from-project-report.png)
 
    マイルストーンパスの詳細ページには、次の情報が表示されます。
@@ -175,6 +171,5 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
 
 1. （任意）「**戻る**」をクリックして、プロジェクトレポートに戻ります。
 
-</div>
 
 

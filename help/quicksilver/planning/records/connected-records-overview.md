@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 20%
+source-wordcount: '510'
+ht-degree: 17%
 
 ---
 
 # 接続されたレコードの概要
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span> -->
 
 {{planning-important-intro}}
 
@@ -54,11 +54,11 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    * Planning のレコード・タイプのテーブル・ビューの接続されたレコード・フィールド。
    * 「詳細」タブの、接続されたレコードフィールドでのレコードのプレビューまたはページ。
    * [ 接続 ] タブのレコードのプレビューまたはページ。
-   * <span class="preview"> 接続されたレコードの「接続ビュー」タブでのレコードのページ </span>
+   * 接続されたレコードの「接続ビュー」タブのレコードのページ。
 
 * Workfrontの次の領域で、Workfront オブジェクトをWorkfront Planning レコードに関連付けることができます。
 
    * Workfront オブジェクトの Planning セクション。
-   * <span class="preview">Workfront オブジェクトのカスタムフォームの Planning 接続フィールド</span>
+   * Workfront オブジェクトのカスタムフォームの Planning 接続フィールド。
 
   詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。

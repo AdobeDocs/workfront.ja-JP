@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2197'
-ht-degree: 7%
+source-wordcount: '2138'
+ht-degree: 6%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 7%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Adobe Workfront Planning で自動化を構成して、アクティブ化すると、Workfront内にオブジェクトを作成したり、計画レコードからトリガーされたときにWorkfront Planning 内にレコードを作成できます。 作成したオブジェクトまたはレコードは、自動処理をトリガーするレコードに自動的に接続されます。
 
@@ -37,7 +37,7 @@ Workfront Planning のレコードタイプのページで自動処理を設定�
 
 Workfront Planning の自動化を使用して、次の項目を作成できます。
 
-* 1 つ <span class="preview"> または複数 </span> のプロジェクト
+* 1 つまたは複数のプロジェクト
 * グループ
 * プログラム
 * ポートフォリオ
@@ -123,15 +123,11 @@ Workfront Planning の自動化を使用して、次の項目を作成できま�
 
 * オートメーションによって作成されたオブジェクトまたはレコードの名前は、単一のオブジェクトを作成するときに作成したレコードの名前と同じです。
 
-<div class="preview">
-
 * 複数のプロジェクトを作成すると、次のパターンに従って自動的に名前が付けられます。
 
   `[ Name of the record ] Name of the field choice`
 
   詳しくは、この記事の [Workfront Planning オートメーションを使用したオブジェクトまたはレコードの作成 ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) の節を参照してください。
-
-</div>
 
 * 新しいオブジェクトまたはレコードは、同じフィールド内の既存のオブジェクトまたはレコードを上書きしません。 同じレコードに対して同じ自動処理を複数回トリガーすると、以前に作成したオブジェクトに加えて、元のレコードの同じ接続されたフィールドに新しいオブジェクトまたはレコードが追加されます。
 
@@ -166,8 +162,8 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
    * **アクション**：自動処理をトリガーするときにWorkfrontで実行するアクションを選択します。 必須フィールドです。
 次のいずれかのアクションを選択します。
 
-      * <span class="preview"> 複数のプロジェクトの作成 </span>
-      * <span class="preview">1 つのプロジェクトの作成 </span>
+      * 複数プロジェクトの作成
+      * 1 つのプロジェクトの作成
       * プロジェクトを作成
       * レコードを作成
       * プログラムを作成
@@ -180,11 +176,9 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
 
 1. （条件付き）選択したアクションに応じて、次のフィールドを更新します。
 
-   * **<span class="preview">1 つの </span> プロジェクト** を作成：<!--replace to the left: Create a single project-->
+   * **1 つのプロジェクトの作成**: <!--replace to the left: Create a single project-->
       * **プロジェクトが作成される「接続」フィールド**：新しいプロジェクトが表示される「接続」フィールドです。 必須フィールドです。
       * **プロジェクトテンプレート**:Workfrontでプロジェクトの作成に使用するプロジェクトテンプレートを選択します。
-
-   <div class="preview">
 
    * 複数のプロジェクトを作成します。
       * **プロジェクトが作成される「接続」フィールド**：新しいプロジェクトが表示される「接続」フィールドです。 必須フィールドです。
@@ -197,8 +191,6 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
 
       * **同じテンプレートを使用**：新規プロジェクトごとに同じテンプレートを使用する場合は、このオプションを選択します。 このオプションの選択を解除した場合は、フィールドの選択ごとに **プロジェクトテンプレート** を選択します。
       * **プロジェクトテンプレート**:「**同じテンプレートを使用**」オプションを選択した場合は、Workfrontがプロジェクトの作成に使用するプロジェクトテンプレートを選択します。
-
-   </div>
 
    * **ポートフォリオを作成**:
       * **ポートフォリオが作成される接続されたフィールド**：新しいポートフォリオが表示される接続されたフィールドです。 必須フィールドです。
@@ -311,15 +303,11 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
 
    * 新しいオブジェクトは、オートメーションボタンの設定で示された接続フィールドに表示されます。 場合によっては、新しいオブジェクトを表示する前にページを更新する必要があります。 新しいオブジェクトは、元のレコードと同じ名前を持ちます。
 
-   <div class="preview">
-
    * 複数選択または単一選択フィールドの選択に基づいて複数のプロジェクトが作成された場合、プロジェクトは次のパターンに従って自動的に名前が付けられます。
 
      `[ Name of the record ] Name of the field choice`
 
      例えば、`Summer breeze` という名前のキャンペーンが `EMEA` というフィールド選択からプロジェクトを生成した場合、プロジェクトの名前は `[ Summer breeze ] EMEA` になります。
-
-   </div>
 
    * 自動処理のトリガー元となるレコードが、新しいレコードの「接続」フィールドに追加されます。
 

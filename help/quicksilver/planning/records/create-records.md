@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2359'
 ht-degree: 22%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 22%
 
 # レコードの作成
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +28,13 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 次のいずれかを行うことで、レコードを作成できます。
 
 * [レコードタイプのテーブル表示からインラインで追加してレコードを作成](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[ 任意のレコードタイプ表示の「新規レコード」または「レコードをリクエスト」ボタンを使用してレコードを作成する ](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [任意のレコードタイプ表示から「新規レコード」または「レコードをリクエスト」ボタンを使用してレコードを作成](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [外部リストからのレコードのリストのコピー&amp;ペースト](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [テーブルビューからレコードを複製](#create-records-by-duplicating-them)
 * [他のレコードから接続する際のレコードの作成](#create-records-as-you-connect-them)
 * [リクエストフォームをレコードタイプに送信してレコードを作成](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[CSV または Excel ファイルから情報を読み込んでレコードを作成する ](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
-* <span class="preview">[ 自動化を使用したレコードの作成 ](#create-records-by-using-automations)</span>
+* [CSV または Excel ファイルから情報を読み込んでレコードを作成](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [自動化を使用したレコードの作成](#create-records-by-using-automations)
 
 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
 
@@ -99,7 +99,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td> <p>レコードを追加する Workspace <!--<span class="preview">and record type</span>--> に対する投稿以上の権限。 </p>
-   <p><span class="preview">レコード ページの「レコードをリクエスト」ボタンを使用して、レコードを作成するた <!--<span class="preview">and record type</span>--> のワークスペースへの以上の権限を表示します</span></p>
+   <p>レコード ページの「レコードをリクエスト」ボタンを使用して、レコードを作成するた <!--<span class="preview">and record type</span>--> のワークスペースへの以上の権限を表示します</p>
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
    <p>子オブジェクト（プロジェクト）を追加するためのWorkfront オブジェクト（ポートフォリオ）への権限を管理します。</p>
    </td> 
@@ -182,8 +182,6 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
    * Ctrl + Z（Mac の場合は ⌘ + z）で、変更を取り消します
    * Ctrl + Shift + Z（Mac の場合は  ⌘ + Shift + Z）で、変更を元に戻します
 
-<div class="preview">
-
 ## 任意のレコードタイプ表示から「新規レコード」または「レコードをリクエスト」ボタンを使用してレコードを作成
 
 ワークスペース <!--<span class="preview">and record type</span>--> に対する表示権限を持つユーザーは、レコードタイプ ページの「レコードをリクエスト」ボタンを使用してのみレコードを作成できます。
@@ -247,8 +245,6 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
    * 承認プロセスを備えたリクエストフォームを使用して追加することを選択した場合を除き、新しいレコードがレコードタイプに追加されます。 レコードを作成する前に、すべての承認者から承認を付与する必要があります。
    * CSV または Excel スプレッドシートを使用してレコードを追加した場合、複数のレコードがレコードタイプに追加されます。
    * リクエストフォームを送信してリクエストを追加した場合、新しいリクエストがWorkfront リクエスト エリアの「計画」タブに追加されます。
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -339,7 +335,7 @@ You can import records from other applications by linking them to existing recor
 
      詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
 
-1. （条件付き）接続しようとしてもレコードが見つからない場合は、<span class="preview">**+追加**</span> をクリックします
+1. （条件付き）接続しようとしてもレコードが見つからない場合は、「**+追加」をクリックし** す。
 
    または
 名前の入力を開始し、「**+追加**」をクリックします。 「**+追加**」ボタンの後に、接続先のレコードタイプの名前が続きます。 例えば、既存のキャンペーンにブランドを追加する場合は「ブランドを追加」などと入力します。 入力した名前は、「追加」ボタンの後にも続きます。
@@ -376,17 +372,11 @@ CSV または Excel ファイルを使用してレコードタイプを読み込
 
 詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
 
-<div class="preview">
-
 ## CSV または Excel ファイルからレコードを読み込むことによるレコードの作成
 
 既存のレコードタイプのレコードを読み込むには、CSV または Excel ファイルから情報を読み込みます。
 
 詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードの作成 ](/help/quicksilver/planning/records/import-file-to-create-records.md) を参照してください。
-
-</div>
-
-<div class="preview">
 
 ## 自動化を使用したレコードの作成
 
@@ -396,6 +386,5 @@ Workfront計画のレコードのページで、自動処理を設定してア�
 
 詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
-</div>
 
 

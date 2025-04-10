@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '7703'
-ht-degree: 93%
+source-wordcount: '7643'
+ht-degree: 94%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 93%
 
 <!--Audited: 07/2024-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -169,7 +169,7 @@ ht-degree: 93%
    * [タスク設定](#task-settings)
    * [イシュー設定](#issue-settings)
    * [アクセス](#access)
-   * <span class="preview">[コメント](#comment)</span>
+   * [コメント](#comment)
 
 
    >[!NOTE]
@@ -667,7 +667,6 @@ ht-degree: 93%
 
 1. 「**保存**」をクリックします。
 
-<div class="preview">
 
 ### コメント
 
@@ -679,7 +678,6 @@ ht-degree: 93%
 1. 指定されたスペースにコメントを追加します。 Workfrontが、プロジェクトの「更新」領域にコメントを追加します。 作業の更新について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 1. 「**保存**」をクリックします。
 
-</div>
 
 ## プロジェクトヘッダーでのプロジェクトの編集（制限あり）
 
@@ -804,7 +802,7 @@ Workfront 管理者またはグループ管理者がレイアウトテンプレ�
 イシューの設定エリアの編集について詳しくは、この記事の、[イシューの設定](#issue-settings)の節を参照してください。
 1. 選択したすべてのプロジェクトのアクセス設定を編集するには、「**アクセス**」をクリックします。
 アクセスエリアの編集について詳しくは、この記事の、[アクセス](#access)の節を参照してください。
-1. <span class="preview">**コメント** をクリックし、表示されたスペースにコメントを追加します。 Workfrontが、各プロジェクトの **更新** 領域にコメントを追加します。 作業の更新について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span> を参照してください。
+1. **コメント** をクリックし、表示されたスペースにコメントを追加します。 Workfrontが、各プロジェクトの **更新** 領域にコメントを追加します。 作業の更新について詳しくは、[ 作業の更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 1. （オプション）「プロジェクトを編集」ボックスに追加した情報を削除するには、編集したフィールドの上にポインタを合わせて、フィールドの右上にある「**x**」破棄アイコンをクリックします。
 
    ![ 一括編集プロジェクトのフィールドの破棄アイコン ](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)

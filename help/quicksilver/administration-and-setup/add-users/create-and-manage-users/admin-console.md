@@ -5,18 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1533'
-ht-degree: 75%
+source-wordcount: '1473'
+ht-degree: 77%
 
 ---
 
 # Adobe Admin Console でのユーザー管理
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ ht-degree: 75%
 >   Adobe Admin Consoleでユーザーを作成したら、Workfrontでユーザーの情報（ロール、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
 >* **組織がシングルサインオン（SSO）を使用していない場合**、システム管理者以外のユーザーをWorkfrontに直接追加できます。 Adobe Admin Console でユーザーを追加することもできますが、Workfront にユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
-<span class="preview">Admin Consoleからユーザーのプロファイルに変更を加えると、Workfrontでそのユーザーの「システムアクティビティ」タブに更新が追加されます。 更新は、「システム」によって行われたように表示されます。 これはAdobe Admin Console管理者を指すもので、Workfrontのメイン管理者を指すものではありません。</span>
+Admin Consoleからユーザーのプロファイルに変更を加えると、Workfrontでそのユーザーの「システムアクティビティ」タブに更新が追加されます。 更新は、「システム」によって行われたように表示されます。 これはAdobe Admin Console管理者を指すものであり、Workfrontのメイン管理者を指すものではありません。
 
 ## アクセス要件
 

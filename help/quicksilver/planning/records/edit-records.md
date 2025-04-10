@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 47%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 47%
 
 # レコードの編集
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -242,7 +242,6 @@ ht-degree: 47%
 
      ![ テーブル表示でのコピー貼り付けに使用する、ドラッグ可能な右下隅 ](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-   <div class="preview">
 
    * 外部ソース （Excel ファイルなど）から 1 つまたは複数のセルをコピーし、次のいずれかのフィールド型に貼り付けます。
 
@@ -250,7 +249,6 @@ ht-degree: 47%
       * 人物フィールド。 1 つの値を持つフィールドのみがサポートされます。
 
      外部ソースから情報をコピーして、WorkfrontやAEM Assetsの接続フィールドなど、他のフィールドタイプに貼り付けることはできません。
-   </div>
 
    >[!NOTE]
    >
@@ -295,11 +293,7 @@ ht-degree: 47%
 
    テーブル表示で、最初の列の **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。 レコードのプレビューがビューで開きます。
 
-   <div class="preview">
-
    ![ 詳細ボックス ](assets/details-box.png)
-
-   </div>
 
 1. （オプション）レコードのタイトルの右側にある **詳細** メニューをクリックし、「名前を変更 **をクリックし** す。 これにより、レコードのタイトルとして表示されるフィールドが更新されます。
 
@@ -320,17 +314,13 @@ ht-degree: 47%
 
    Workfront では、変更を自動的に保存します。
 
-1. <span class="preview"> （任意）レコードのプレビューボックスの右上隅にある **リアルタイムインジケーター**![ リアルタイムインジケーターアイコン ](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
+1. （任意）レコードのプレビューボックスの右上隅にある **リアルタイムインジケーター**![ リアルタイムインジケーターアイコン ](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
 
    レコードに同時にアクセスするすべてのユーザーの名前とアバターがこの領域に表示されます。
 
-   この設定を無効にすると、アバターと名前はリアルタイムインジケーター領域にリストされ、編集中のフィールドはハイライト表示されません。</span>
-
-   <div class="preview">
+   この設定を無効にすると、アバターと名前はリアルタイムインジケーター領域にリストされ、編集中のフィールドはハイライト表示されません。
 
    ![ 時間インジケーターの展開されたレコードのプレビューボックス ](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. （任意） **エクスポート** メニュー ![ レコードの詳細ページのエクスポートアイコン ](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細をエクスポートします。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
@@ -388,17 +378,13 @@ ht-degree: 47%
 
    Workfront では、変更を自動的に保存します。
 
-1. <span class="preview"> （任意）レコードのページの右上隅にある **リアルタイムインジケーター**![ リアルタイムインジケーターアイコン ](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
+1. （任意）レコードのページの右上隅にある **リアルタイムインジケーター**![ リアルタイムインジケーターアイコン ](assets/real-time-indicator-icon.png) をクリックし、「**共同作業者を表示**」設定を有効にして、他のユーザーがリアルタイムで編集しているフィールドをハイライト表示します。
 
    レコードに同時にアクセスするすべてのユーザーの名前とアバターがこの領域に表示されます。
 
-   この設定を無効にすると、アバターと名前はリアルタイムインジケーター領域にリストされ、編集中のフィールドはハイライト表示されません。</span>
-
-   <div class="preview">
+   この設定を無効にすると、アバターと名前はリアルタイムインジケーター領域にリストされ、編集中のフィールドはハイライト表示されません。
 
    ![ リアルタイムインジケーターの展開されたレコードのプレビューボックス ](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. （任意） **エクスポート** メニュー ![ レコードの詳細ページのエクスポートアイコン ](assets/export-icon-in-record-details-page.png) をクリックして、レコードの詳細をエクスポートします。 詳しくは、[ レコードの詳細の書き出し ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 

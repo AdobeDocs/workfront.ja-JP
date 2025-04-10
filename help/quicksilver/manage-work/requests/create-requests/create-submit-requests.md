@@ -6,10 +6,10 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2740'
-ht-degree: 81%
+source-wordcount: '2680'
+ht-degree: 82%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 81%
 </div>
 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 予定作業は、Adobe Workfront ではプロジェクトとタスクで表されます。ただし、予定外の作業が要求という形で突然舞い込んでくる環境で働いているかもしれません。Workfront には、リクエストキューを使用してこのタイプの環境に対応するワークフローが用意されています。
 
@@ -44,7 +44,7 @@ Workfront Planning でレコードを作成するには、次の方法で、Work
 
 * リンクからWorkfront計画リクエストフォームへ。
 
-* <span class="preview">Workfrontの「リクエスト」領域のWorkfront Planning リクエストフォームから。</span>
+* Workfrontの「リクエスト」領域のWorkfront Planning リクエストフォームから。
 
   Workfront Planning パッケージを購入する必要があります。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
@@ -124,12 +124,12 @@ Workfront web アプリでリクエストを作成するには：
 
 {{step1-to-requests}}
 
-1. <span class="preview"> （オプションおよび条件付き）以下の項目が組織とWorkfront インスタンスに当てはまる場合、画面の右上にある **新しいエクスペリエンスに切り替え** 設定を選択します。</span>
+1. （オプションおよび条件付き）以下の項目が組織とWorkfront インスタンスに当てはまる場合は、画面の右上にある「**新しいエクスペリエンスに切り替え**」設定を選択してください。
 
-   * <span class="preview"> お客様の組織はWorkfront パッケージを購入しています </span>
-   * <span class="preview"> 組織がAdobe統合エクスペリエンスにオンボーディングされました。
-   * <span class="preview"> 管理者から、Workfront Planning へのアクセス権が付与されています </span>
-   * <span class="preview"> 少なくとも、Workfront Planning Workspace の表示権限を持っている </span>
+   * Workfront パッケージを購入している
+   * 組織がAdobe統合エクスペリエンスにオンボーディングされました。
+   * 管理者から、Workfront Planning へのアクセス権を付与されています
+   * Workfront Planning Workspace に対して少なくとも表示権限がある
 
    詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください
 
@@ -142,15 +142,15 @@ Workfront web アプリでリクエストを作成するには：
 
    **新しいリクエスト** ボックスが開きます。
 
-1. <span class="preview"> （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替えた場合は、「**新規リクエスト** ボックスに次が表示されます。</span>
+1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替えた場合、「**新規リクエスト**」ボックスに次が表示されます。</span>
 
-   * <span class="preview"> 最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。</span>
-   * <span class="preview">50 追加のWorkfront リクエストキューおよび Planning リクエストフォームが、「すべてのリクエストフォーム **セクションにアルファベット順に表示され** す。 デフォルトで表示されないリクエストキューを検索できます。</span>
+   * 最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。
+   * 50 個の追加のWorkfront リクエストキューおよび Planning のリクエストフォームが、「すべてのリクエストフォーム **セクションにアルファベット順に表示され** す。 デフォルトで表示されないリクエストキューを検索できます。
 
    ![ 計画リクエスト用の統合ワークフローを備えた新しいリクエストボックス ](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
-   <span class="preview">Workfront リクエストキューカードの 1 つをクリックするか、検索してリストに表示されたらクリックします。</span>
-1. （条件付き） <span class="preview">Workfront Planning を含む新しいエクスペリエンスに切り替えた場合は、トピックグループとキュートピックを選択して、フォームの更新を続行します </span>
+   Workfront リクエストキューカードの 1 つをクリックするか、1 つを検索して、リストに表示されたらクリックします。
+1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替えた場合は、トピックグループとキューのトピックを選択して、フォームの更新を続行します。
 
    それ以外の場合は、「**リクエストタイプ**」フィールド内をクリックし、次のいずれかの操作を行います。
 
@@ -333,7 +333,7 @@ Workfront web アプリでリクエストを作成するには：
 
    リクエストを送信すると、ドラフトが自動的に削除され、復元できなくなります。
 
-   送信されたリクエストは、リクエスト エリアの **送信済み** セクションに一覧表示されます。 <span class="preview">Workfront Planning を含む新しいエクスペリエンスを使用している場合、Workfrontから送信されたリクエストが「**Workfront**」タブに表示されます。</span>
+   送信されたリクエストは、リクエスト エリアの **送信済み** セクションに一覧表示されます。 Workfront Planning を含む新しいエクスペリエンスを使用している場合、Workfrontから送信されたリクエストがリクエスト エリアの **Workfront** タブに表示されます。
 
    受信リクエストの処理について詳しくは、[作業とチームのリクエストを管理](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)の記事を参照してください。
 

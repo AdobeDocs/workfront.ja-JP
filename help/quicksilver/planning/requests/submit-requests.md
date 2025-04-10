@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1892'
-ht-degree: 6%
+source-wordcount: '1816'
+ht-degree: 5%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 6%
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 <!--take Preview and Prod references out when releasing to Prod all-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ Workspace Manager がAdobe Workfront Planning でレコードタイプのリク�
 * 直接リンクから共有されたリクエストフォームへ。
 
   ここでは、Workfrontの「リクエスト」エリアまたは共有リンクからレコードタイプに新しいレコードを追加するリクエストを送信する方法について説明します。
-* <span class="preview"> 新規レコードを追加またはリクエストする場合、レコードタイプページから。 詳しくは、[ レコードの作成 ](/help/quicksilver/planning/records/create-records.md) を参照してください </span>。
+* 新規レコードを追加または要求する場合は、「レコードタイプ」ページから。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
 Workfront ユーザーと外部ユーザーは、Planning レコードタイプに対してリクエストを送信し、レコードを作成できます。<!--double check on the external users-->
 
@@ -128,7 +128,7 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
    * 内部的には、フォームは、ワークスペースに対する表示以上の権限を持つユーザーと共有する必要があります。
 
-     Workfront ユーザーは、リンクからフォームにアクセスするか <span class="preview">Workfrontのリクエスト エリアでリクエストフォームを見つけることができます </span>。
+     Workfront ユーザーは、リンクからフォームにアクセスするか、Workfrontの「リクエスト」エリアでリクエストフォームを見つけることができます。
 
    * Workfront アカウントをお持ちでない場合、フォームへのリンクが外部のユーザーと共有されています。
 
@@ -150,8 +150,6 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
-
-<div class="preview">
 
 ## Workfrontの「リクエスト」領域で、Workfront Planning にリクエストを送信します。
 
@@ -239,8 +237,6 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
    Workfront Planning に「レコードタイプ」ページが開きます。
 
-</div>
-
 ## リクエストフォームへの共有リンクからWorkfront Planning にリクエストを送信する
 
 1. Workfront Planning レコードタイプから共有されたリンクに移動します。
@@ -276,11 +272,11 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
      >
      >メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobe Unified Experience にオンボードされている場合にのみ表示されます。
 
-1. <span class="preview"> （オプション）「**リクエストを表示**」をクリックして、Workfrontでリクエストを開きます。</span>
+1. （任意）「**リクエストを表示**」をクリックして、Workfrontでリクエストを開きます。
 
-   または
+   <!--Or-->
 
-   <span class="preview"> 「[ 別のリクエストを送信 ](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request)」をクリックしてリクエストフォームを開き、新しいリクエストを追加します。</span>
+   <!--Click [Submit another request](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request) to open the request form and add a new request.-->
 
 1. （オプション） **メインメニュー**/**リクエスト**/**計画** タブをクリックしてリクエストを表示し、リクエストの名前をクリックします。
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: e49f1b3d9de3984ed798e20a0a0f03f9d4060115
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '718'
 ht-degree: 35%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 35%
 
 # フィールド設定を編集
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -121,8 +121,7 @@ Adobe Workfront Planning フィールドの作成については、[フィール
   >
   >フィールドの設定が変更されたという通知は他のユーザーには送信されません。
 
-* 実稼動環境では、既存の参照フィールドを編集することはできません。
-  <span class="preview"> プレビュー環境では、接続されたレコードから既存のルックアップフィールドを編集できます。</span>
+* 接続されたレコードから既存の参照フィールドを編集できます。
 
 <!--at production - April 10, 2025 - remove the last bullet altogether-->
 

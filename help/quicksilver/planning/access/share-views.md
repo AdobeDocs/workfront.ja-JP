@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 23%
+source-wordcount: '1540'
+ht-degree: 22%
 
 ---
 
 
 # ビューを共有
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,7 +35,7 @@ Adobe Workfront Planning でレコードを操作する際に、他のユーザ�
 
 次のエンティティでビューを共有できます。
 
-* 内部的には、Workfront ユーザー、グループ、<span class="preview"> チーム、会社、担当業務 </span>
+* 内部的には、Workfront ユーザー、グループ、チーム、会社、担当業務と連携します
 * 公開（Workfront以外のユーザーを使用）
 
 <!--
@@ -129,7 +129,7 @@ This article describes how you can share a view with others. For information abo
 
 ## ビューへの権限を内部的に共有
 
-自分が作成したビュー、または管理権限を持つビューを、Workfront Planning 内のユーザー、グループ、<span class="preview"> チーム、会社、担当業務 </span> と共有できます。
+自分が作成したビュー、または管理権限を持つビューを、Workfront Planning のユーザー、グループ、チーム、会社、担当業務と共有できます。
 
 >[!NOTE]
 >
@@ -151,10 +151,10 @@ This article describes how you can share a view with others. For information abo
 
 1. （オプション） **アクセスできるユーザー** 領域で、次のオプションから選択します。
 
-   * **招待されたユーザーのみがアクセスできます**：ビューを共有するユーザー、グループ、<span class="preview"> チーム、会社または担当業務 </span> を指定する必要があります。 これはデフォルトのオプションです。
+   * **招待されたユーザーのみがアクセスできます**：ビューを共有するユーザー、グループ、チーム、会社または担当業務を指定する必要があります。 これはデフォルトのオプションです。
    * **ワークスペース内の全員が表示できます**：ワークスペースに対する表示以上の権限を持つすべてのユーザーが、ビューにアクセスできます。
 
-1. 「**このビューへのアクセスを許可**」フィールドにユーザー、グループ、<span class="preview"> チーム、会社または担当業務の名前の入力を開始し </span> リストに表示されたらクリックします。
+1. 「**このビューへのアクセスを許可**」フィールドに、ユーザー、グループ、チーム、会社または担当業務の名前の入力を開始し、リストに表示されたらクリックします。
 
    ![ グループとのビューの共有 ](assets/sharing-a-view-ui-with-groups.png)
 
@@ -255,7 +255,7 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 1. ビューの内部共有を削除するには、次の操作を行います。
 
    1. 「**内部共有**」タブが選択されていることを確認します。
-   1. ユーザー、グループ、<span class="preview"> チーム、会社、担当業務 </span> 削除する内容を見つけ、ビューを共有するエンティティの名前の右側にある権限ドロップダウンメニューを展開して、「**削除**」をクリックします。
+   1. 削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、ビューを共有するエンティティの名前の右側にある権限ドロップダウンメニューを展開して、「**削除**」をクリックします。
 
 1. ビューの公開共有を削除するには、次の手順を実行します。
 

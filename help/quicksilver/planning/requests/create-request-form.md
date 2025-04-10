@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2184'
-ht-degree: 9%
+source-wordcount: '2046'
+ht-degree: 8%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 9%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -126,7 +126,7 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
       * 作成者と最終変更者
       * 作成日と最終変更日
-      * 数式。 <span class="preview"> 式フィールドはプレビュー環境でサポートされています。</span>
+      * 数式。<!--Formula fields are supported in the Preview environment.-->
       * Workfront オブジェクトの参照フィールド
       * Workfront Planning 接続レコードの参照フィールド
 
@@ -136,8 +136,6 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
      ただし、フィールドの形式は保持され、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨、数値、割合としてフィールド値が表示されます。
 
-<div class="preview">
-
 * 以下では、リクエストフォームとリクエストの詳細ページに表示されるフィールド値について説明します。
 
    * 「通貨」、「数値」、「パーセンテージ」の各フィールドの特殊な書式は保持されません。 例えば、これらの領域のこれらのフィールドの値に対して、小数点以下の精度は保持されません。
@@ -145,8 +143,6 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
    * 他のフィールドや計算を参照しない数式フィールドには、値は表示されません。 例えば、`STRING` 式を持つフィールドは「N/A」値を表示します。
    * 通貨フィールドを参照する数式フィールドは、為替レートを考慮せずに値を表示します。
    * 段落フィールドの値は、リクエストフォームに「N/A」値を表示し、リクエストの詳細ページに書式設定されたテキストの代わりに HTML タグを表示します。
-
-</div>
 
 ## レコードタイプ用のリクエストフォームの作成
 
@@ -160,8 +156,8 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページ ヘッダーのレコードの種類名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、既にフォームがあり、追加のフォームを作成する場合は、**リクエストフォームを作成** <span class="preview"> または **リクエストフォームを管理**</span> をクリックします。
-1. <span class="preview"> （条件付き）別のフォームを追加する場合は、「**新規リクエストフォーム**</span>」をクリックします。
+1. ページ ヘッダーのレコードの種類名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、既にフォームがあり、追加のフォームを作成する場合は **リクエストフォームを作成** または **リクエストフォームを管理** をクリックします。
+1. （条件付き）別のフォームを追加する場合は、「**新規リクエストフォーム**」をクリックします。
 1. リクエストフォームの名前を更新します。 デフォルトでは、フォームの名前は **名称未設定フォーム** です。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （オプション）リクエストフォームに **説明** を追加します。
 
@@ -274,10 +270,10 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
    >[!TIP]
    >
-   ><span class="preview"> 共有日が終了すると、Workfrontの「リクエスト」領域でリクエストフォームが使用できなくなり、他のユーザーと共有されていたリンクにもアクセスできなくなります。</span>
+   >共有日が終了すると、Workfrontの「リクエスト」領域でリクエストフォームが使用できなくなり、他のユーザーと共有されていたリンクにもアクセスできなくなります。
 
 
-1. <span class="preview"> （オプション） </span> 「**リンクを保存してコピー**」をクリックして、フォームの共有の詳細を保存します。 フォームが以前に保存されている場合は、「**リンクをコピー**」をクリックします。
+1. （任意）「**リンクを保存してコピー**」をクリックして、フォームの共有の詳細を保存します。 フォームが以前に保存されている場合は、「**リンクをコピー**」をクリックします。
 
    フォーム共有オプションが保存され、リンクがクリップボードにコピーされます。 他のユーザーと共有できるようになりました。
 
@@ -287,36 +283,34 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
 1. ヘッダーでフォーム名の左側にある左向き矢印をクリックして、フォームを閉じます。
 
-   <span class="preview">**リクエストフォーム** テーブル表示が開き、フォームが追加されます。</span>
+   **リクエストフォーム** テーブル表示が開き、フォームが追加されます。
 
-1. <span class="preview"> （オプション）テーブル表示でリクエストフォームの名前の上にマウスポインターを置き、フォーム名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、次のいずれかをクリックします。</span>
+1. （オプション）テーブル表示でリクエストフォームの名前の上にマウスポインターを置き、フォーム名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、次のいずれかをクリックします。
 
-   * <span class="preview">**フォームを編集**：フォームの情報をさらに編集するには、これをクリックします。</span>
-   * <span class="preview"> **非公開**：このボタンをクリックしてフォームを非公開にすると、Workfrontのリクエスト領域から削除されます。</span>
-   * <span class="preview">**共有**: フォームへのアクセス権を持つユーザーを変更するには、これをクリックします。</span>
-   * <span class="preview">**リンクをコピー**：フォームを開かずにリクエストフォームのリンクをすばやくコピーする場合は、これをクリックします。</span>
-   * <span class="preview">**削除**：フォームを削除するには、これをクリックします。 フォームを使用して追加されたリクエストとレコードはすべて削除されません。 フォームを復元できません。</span>
+   * **フォームを編集**：フォームの情報をさらに編集するには、これをクリックします。
+   * **非公開**：このボタンをクリックしてフォームを非公開にすると、Workfrontのリクエスト領域から削除されます。
+   * **共有**: フォームへのアクセス権を持つユーザーを変更するには、これをクリックします。
+   * **リンクをコピー**：フォームを開かずにリクエストフォームのリンクをすばやくコピーする場合は、これをクリックします。
+   * **削除**：フォームを削除するには、これをクリックします。 フォームを使用して追加されたリクエストとレコードはすべて削除されません。 フォームを復元できません。
 
    ![ リクエストフォームリストからのリクエストフォームの「詳細」メニュー ](assets/more-menu-on-request-form-from-request-forms-list.png)
 
 
-1. ヘッダーの <span class= "preview"> リクエストフォーム **の左側にある左向き矢印をクリックして、リクエストフォーム** テーブルを閉じます。   </span>
+1. ヘッダーにある **リクエストフォーム** の左側の左向き矢印をクリックして、リクエストフォームテーブルを閉じます。
 
-   <span class= "preview"> レコードタイプのページが開きます。</span>
-1. （オプションおよび条件付き）既存のフォームを編集するには、使用している環境に応じて、次のいずれかの操作を行います。
+   レコードタイプのページが開きます。
+1. （オプションおよび条件付き）既存のフォームを編集するには：
 
-   * 実稼動環境から、次の手順を実行します。
+   1. ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。</span>
 
-      1. ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、次のいずれかの操作を行います。
+      これにより、リクエストフォームのテーブルビューが開きます。
 
-      1. 「**リクエストフォームを更新**」をクリックして、リクエストフォームに変更を加えます。
-      1. **リクエストフォームにリンクをコピー** をクリックして、フォームへのリンクを他のユーザーと共有します。
+   1. リクエストフォームをクリックして開き、編集します。
+   1. （オプション）Workfrontの **リクエスト** エリアに移動して、リクエストを送信する共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
-   * <span class="preview"> プレビュー環境から：
-
-      1. ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。</span>
-
-         <span class="preview"> これにより、リクエストフォームのテーブルビューが開きます。</span>
-
-      1. <span class="preview"> リクエストフォームをクリックして開き、編集します。</span>
-      1. <span class= "preview"> （オプション）Workfrontの **リクエスト** エリアに移動し、リクエストを送信する共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください </span>。
+<!--   * From the Production environment:
+   
+      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
+   
+      1. Click **Update request form** to make any changes to the request form.
+      1. Click **Copy link to request form**  to share the link to the form with others.-->

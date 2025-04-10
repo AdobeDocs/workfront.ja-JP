@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3267'
 ht-degree: 39%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 39%
 
 # レコードの接続
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -157,7 +157,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 * テーブル表示の接続されたレコードフィールド
 * [ 詳細 ] タブの [ 接続されたレコード ] フィールドのレコードのプレビューボックスまたはページ。
 * [ 接続 ] タブのレコードのプレビューボックスまたはページ。
-* <span class="preview"> 「接続表示」タブのレコードのページ </span> <!--this needs title edit when they rename the "Connection view" page type-->
+* [ 接続表示 ] タブのレコードのページ。<!--this needs title edit when they rename the "Connection view" page type-->
 
 ### テーブル表示またはレコードの詳細領域からWorkfront Planning レコードを接続します
 
@@ -184,7 +184,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    >
 
 1. （条件付き）レコードタイプを接続した際に、接続タイプとして「1 対多」または「1 対 1」を選択した場合、他の場所で接続されているレコードまたはオブジェクトを接続しようとすると、再度接続すると元の接続から削除されるという警告が表示されます。 **接続** をクリックして削除を許可してレコードを接続するか、**キャンセル** をクリックしてフィールドに戻って別のレコードを選択します。
-1. （オプション）接続するオブジェクトが見つからず、そのオブジェクトを追加する場合は <span class="preview">[**]+[ 追加 ] をクリック**</span> ます。
+1. （オプション）接続するオブジェクトが見つからず、追加する場合は、「**+追加」をクリックし** す。
 
    または
 
@@ -270,7 +270,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    >
    >ビューからレコードのページを開き、リンクされたレコードフィールドをダブルクリックするか、フィールドの **接続** をクリックして、接続されたオブジェクトタイプからオブジェクトを追加できます。
 
-1. （オプション）接続するオブジェクトが見つからず、そのオブジェクトを追加する場合は <span class="preview">[**]+[ 追加 ] をクリック**</span> ます。
+1. （オプション）接続するオブジェクトが見つからず、追加する場合は、「**+追加」をクリックし** す。
 
    または
 
@@ -440,7 +440,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 1. （オプション）セクションを折りたたむには、セクションの左側にある下向き矢印をクリックします。
 
 1. （条件付き）同じタイプのレコードまたはオブジェクトをさらに追加するには、「**接続**」をクリックします。
-1. （オプション）接続するレコードまたはオブジェクトが見つからず、追加する場合は <span class="preview">[**]+[ 追加 ] をクリックします**</span>
+1. （オプション）接続するレコードまたはオブジェクトが見つからず、追加する場合は、[**+追加 ] をクリックします**
 
    または
 
@@ -454,8 +454,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    ![ 「接続」タブのレコードを切断アイコンとツールチップ ](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    レコードは、Workfront Planning のすべての領域、または接続済みと表示される可能性のある他のアプリケーションから直ちに切断されます。 参照フィールドの値も削除されます。
-
-<div class="preview">
 
 ### レコードの詳細ページの「接続表示」タブからレコードを接続
 
@@ -474,8 +472,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    ![ 接続されたレコードの詳細タブでハイライト表示された「接続」ボタン ](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 1. （オプション）接続されたレコードが見つからない場合は、「**+追加**」をクリックして作成し、接続します。
-
-</div>
 
 ## Workfront オブジェクトからのレコードの接続
 
