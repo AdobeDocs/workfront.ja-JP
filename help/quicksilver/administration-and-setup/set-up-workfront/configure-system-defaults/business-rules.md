@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 4%
+source-wordcount: '1308'
+ht-degree: 5%
 
 ---
 
@@ -124,7 +124,29 @@ IF(
 
    ![ オブジェクトを選択 ](assets/object-for-business-rule3.png)
 
-1. ビジネス ルールの **名前** を入力します。
+   ビジネス・ルールは、次のオブジェクトに適用できます。
+
+   * プロジェクト
+   * タスク
+   * 問題/要求
+   * ポートフォリオ
+   * ドキュメント
+   * プログラム
+   * 費用
+   * ユーザー
+   * 会社
+   * イテレーション
+   * 請求記録
+   * グループ
+   * リスク
+   * 割り当て
+   * 担当業務
+   * リソースプール
+   * 休暇
+   * 時間
+   * テンプレート
+
+1. ルールビルダーダイアログで、ビジネスルールの **名前** を入力します。
 1. **アクティブ** フィールドで、ルールを保存する際にアクティブにする必要があるかどうかを選択します。
 
    **いいえ** を選択した場合、ルールは非アクティブとして保存され、後でアクティブにすることができます。
