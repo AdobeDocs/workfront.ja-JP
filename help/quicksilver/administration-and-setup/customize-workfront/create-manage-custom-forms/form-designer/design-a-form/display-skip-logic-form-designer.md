@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
+source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
 workflow-type: tm+mt
 source-wordcount: '1680'
 ht-degree: 65%
@@ -221,7 +221,7 @@ Using the following condition, the Sold KPI field only becomes visible when the 
 
 ユーザーがカスタムフォームに入力する際に、ロジックが適用されたフィールドが定義済みの検証条件を満たす場合、そのフィールドはハイライト表示され、エラーメッセージが表示されます。
 
-検証ロジックを適用できるフィールドタイプは、1 行のテキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部検索、ラジオボタン、チェックボックスグループおよび typeahead です。
+検証ロジックを適用できるフィールドタイプは、1 行のテキスト、段落、単一選択ドロップダウン、複数選択ドロップダウン、外部検索、typeahead、日付、チェックボックスグループ、ラジオボタンです。
 
 ### 例
 
@@ -263,7 +263,9 @@ IF({DE:Budget Field} < 0,
 
 ## Add formatting logic to a custom form
 
-Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
