@@ -6,7 +6,7 @@ description: Adobe Workfront 管理者は、ユーザーのアクセスレベル
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '584'
 ht-degree: 95%
@@ -40,12 +40,7 @@ Adobe Workfront 管理者は、ユーザーのアクセスレベルを割り当�
      テンプレートに対する次の権限を付与できます。
 
       * 表示
-
-        ![](assets/view-on-template-262x221.png)
-
       * 管理
-
-        ![](assets/manage-on-template-225x280.png)
 
    * このテンプレートを使用して今後作成されるプロジェクト。個々のプロジェクトに付与するのと同じレベルの権限を、テンプレートから作成されたプロジェクトに付与できます。 
 

@@ -6,16 +6,14 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 100%
+source-wordcount: '565'
+ht-degree: 96%
 
 ---
 
 # オブジェクトに対する財務権限の共有
-
-{{highlighted-preview}}
 
 Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、ユーザーに財務データの表示や編集のアクセス権を付与できます。詳しくは、[財務データへのアクセスを許可](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
 
@@ -54,6 +52,8 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
  </tbody> 
 </table>
 -->
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 オブジェクトに関する財務データ情報を共有するには、次の条件を満たしている必要があります。
 
 <table style="table-layout:auto"> 
@@ -81,11 +81,13 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
 
++++
+
 ## オブジェクトの共有と財務権限の付与
 
 オブジェクトに財務権限を付与する場合は、次の点を考慮してください。
 
-* プロジェクト、タスク、イシュー、<span class="preview">およびレートカード</span>に対して財務権限を付与できます。
+* プロジェクト、タスクおよびイシューに対する財務権限を付与できます。
 * 権限は継承できます。プロジェクトに対する財務の表示権限を持っている場合、そのプロジェクトのタスクとイシューに対する財務の表示権限が自動的に継承されます。
 
 オブジェクトに財務権限を付与するには、次の手順に従います。
@@ -104,8 +106,6 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    * **それを表示**
    * **それに参加**
    * **それを管理**
-
-     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. 同じドロップダウンメニューで、「**詳細設定**」をクリックして、次のいずれかを実行します。
 
@@ -133,21 +133,21 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
  </thead> 
  <tbody> 
   <tr> 
-   <td>請求レコードの管理</td> 
+   <td>請求記録の管理</td> 
    <td>✓</td> 
-   <td> <p></p> </td> 
+   <td> <p> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>役割の請求レートとコスト率の管理と表示</td> 
    <td>✓</td> 
-   <td></td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>ユーザー請求レートとコスト率の管理と表示</td> 
    <td>✓</td> 
-   <td></td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -157,18 +157,6 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">評価カードを管理</span></td> 
-   <td>✓</td> 
-   <td> <p></p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">評価カードを表示</span></td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td> ✓</td> 
-  </tr>
-  <tr> 
    <td>リソース計画ツールでコスト別に情報を表示する</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -177,7 +165,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
   <tr> 
    <td>リソース計画ツールでリソース予算計上*</td> 
    <td>✓</td> 
-   <td></td> 
+   <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 

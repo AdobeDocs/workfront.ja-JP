@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
+source-git-commit: 8b524f7cd7e1bfedbaa1e993cbf4b3b805344b7c
 workflow-type: tm+mt
-source-wordcount: '1922'
-ht-degree: 69%
+source-wordcount: '1909'
+ht-degree: 67%
 
 ---
 
@@ -193,9 +193,7 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
    ![](assets/share-a-document-350x160.png)
 
-1. **オブジェクト名 > へのアクセス権を付与** フィールドに、オブジェクトを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
-
-   ![](assets/portfolio-access-box.png)
+1. 「**オブジェクト名 [ アクセス権の付与先 ]**」フィールドに、オブジェクトを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示された名前をクリックします。
 
    >[!TIP]
    >
@@ -205,7 +203,7 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
 1. （オプション）オブジェクトへのアクセスを許可するユーザー、チーム、役割またはグループごとに、手順 3 を繰り返します。
 
-1. ドロップダウンメニューをクリックし、付与する権限レベルを選択することで、手順 3 で追加した各ユーザー、チーム、役割、グループまたは会社に対する権限を指定します。
+1. 手順 3 で追加した各ユーザー、チーム、役割、グループまたは会社の権限を指定します。
 
    オブジェクトからの権限の削除については、[オブジェクトからの権限を削除](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)を参照してください。
 
@@ -218,24 +216,24 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
      >
      >Workfront 管理者またはオブジェクト作成者は、これらのエンティティから権限を削除できます。
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. （オプション）オブジェクトに対する特定の権限を設定するために付与した権限レベルの横にある「詳細オプション」アイコンをクリックします。
 
-1. （任意）「**詳細設定**」をクリックして、オブジェクトに対する特定の権限を設定します。
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    表示および管理権限には、選択したオブジェクトに応じて異なる詳細オプションがあります。\
    権限レベルについて詳しくは、[オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
-1. （オプション）このオブジェクトをシステム内のすべてのユーザーが使用できるようにするには、**歯車** アイコン ![](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、ドロップダウンメニューで **このオブジェクトをシステム全体で表示する** をクリックします。
+1. （オプション）このオブジェクトをシステム内のすべてのユーザーが使用できるようにするには、ドロップダウンメニューで **アクセスできるユーザー** をクリックし、**システム内のすべてのユーザーが表示** を選択します。
 
    すべてのユーザーは、設定した権限に基づいてオブジェクトを表示できます。
 
-1. （オプション）オブジェクトをパブリックにするには、「**これを外部ユーザーに公開**」をクリックします。
+1. （任意）オブジェクトを公開するには、歯車アイコンをクリックし、「**これを外部ユーザーに公開**」を有効にします。
 
    >[!TIP]
    >
    >このオプションは、一部のオブジェクトでは利用できません。
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. （条件付き）オブジェクトを外部ユーザーに対して公開した場合は、「**リンクをコピー**」をクリックし、外部ユーザーにリンクを配布します。
 
@@ -261,7 +259,6 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
 1. **編集 &lt; オブジェクト名 > アクセス** ボックスに、オブジェクトを共有するユーザー、チーム、役割、グループ、または会社の名前の入力を開始し、ドロップダウンリストに表示されたら名前をクリックします。
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
 
 1. （オプション） オブジェクトへのアクセス権を付与するユーザー、チーム、役割またはグループごとに手順 3 を繰り返します。
 
-1. 手順 3 で追加した各ユーザー、チーム、役割、グループ、または会社に対するアクセス許可を指定します。それには、ユーザー名の右側にあるドロップダウン メニューをクリックし、付与するアクセス許可レベルを選択します。
+1. 手順で追加した各ユーザー、チーム、役割、グループまたは会社の権限を指定します。
 
    オブジェクトからの権限の削除については、[オブジェクトからの権限を削除](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)を参照してください。
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    次のオプションを使用できます。
 
@@ -299,12 +295,12 @@ Workfront で他のすべてのオブジェクトを共有する方法につい�
      >
      >Workfront 管理者またはオブジェクト作成者は、これらのエンティティから権限を削除できます。
 
-1. （任意）「**詳細設定**」をクリックして、オブジェクトに対する特定の権限を設定します。
+1. （オプション）オブジェクトに対する特定の権限を設定するために付与した権限レベルの横にある「詳細オプション」アイコンをクリックします。
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    表示、管理および参加の詳細設定オプションは、選択したオブジェクトに応じて異なります。\
    権限レベルについて詳しくは、[オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. （オプション）このオブジェクトをシステム内のすべてのユーザーが使用できるようにするには、**歯車**&#x200B;アイコン ![](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、ドロップダウンメニューで「**システム全体で表示できるようにする**」を選択します。
 

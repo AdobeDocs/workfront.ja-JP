@@ -6,10 +6,10 @@ description: ユーザーは、Adobe Workfront 内のオブジェクトへのア
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 60%
+source-wordcount: '488'
+ht-degree: 59%
 
 ---
 
@@ -74,7 +74,7 @@ Adobe Workfrontの左上隅にある **ホーム** アイコン ![](assets/home-
 
    1. **自分の承認** ウィジェットに移動して、さらにアクセスするためのリクエストを見つけ、「**アクセスを許可**」をクリックします。
 
-      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+      ![ リクエストを承認 ](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
    1. （オプション）要求されたものと異なるレベルのアクセスを許可するには、アクセスを許可のボタンの左側にあるドロップダウンメニューをクリックして新しいアクセスを選択し、「**アクセスを許可**」をクリックします。
 
@@ -89,29 +89,11 @@ Adobe Workfrontの左上隅にある **ホーム** アイコン ![](assets/home-
 1. 次のいずれかの操作を行って、ユーザープロファイルに移動します。
 
    * 画面の右上隅にある **メインメニュー**![](assets/dots-main-menu.png) をクリックしてから、自分の名前をクリックします。
-   * 右上隅のAdobe **メインメニュー**![](assets/adobe-blue-main-menu.png) をクリックし、**Workfront プロファイル** をクリックします（使用可能な場合）。
+   * 右上隅にあるAdobe **メインメニュー**![ プロファイルアイコン ](assets/adobe-blue-main-menu.png) をクリックし、使用可能な場合は「**Workfront プロファイル**」をクリックします。
 
-1. ヘッダーの名前の右 ![](assets/more-icon.png) にある **その他** メニューをクリックし、**編集** をクリックします。
+1. ヘッダーの名前の右側にある **その他** メニュー ![ その他のアイコン ](assets/more-icon.png) をクリックしてから、**編集** をクリックします。
 1. 「**通知**」をクリックし、別のユーザーが自分からのアクセスを要求したときにメール通知を受け取るかどうかに応じて、「**必要なアクション**」セクションの **自分からアクセスを要求するユーザー** を選択または選択解除します。
 
    日別またはインスタントの通知を有効にできます。
 
 1. 「**変更を保存**」をクリックします。
-
-<!--1. (Conditional) From the legacy Home area, do the following: 
-   
-   1. In the **Work List**, select the access request you want to manage in the **Approvals** section.  
-
-   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
-
-   The request displays on the right of the Work List. 
-
-   1. In the upper-right corner, click the grant access button.  
-   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says **Grant View Access**.  
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
-
-   1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access, then click **Grant < Permission level > Access >**.  
-   A message appears confirming access was granted.  
-   
-   1. (Optional) Click **Ignore** to deny access.  
-   A message appears confirming access was ignored.-->

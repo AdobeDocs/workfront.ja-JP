@@ -7,7 +7,7 @@ description: アクセスレベルを割り当てる際に、Adobe Workfront 管
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 100%
@@ -54,12 +54,7 @@ ht-degree: 100%
 * レポート、ダッシュボードおよびカレンダーに対する以下の権限を付与できます。
 
    * 表示
-
-     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
-
    * 管理
-
-     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * ダッシュボードを共有すると、ユーザーにはデフォルトで、ダッシュボード上のすべてのレポート、カレンダーおよび外部ページに対する表示権限があります。
 * リクエストライセンスを持つユーザーは、システム全体のレポートを表示できません。依頼者がレポートを表示する必要がある場合は、そのレポートを依頼者と個別に共有する必要があります。

@@ -6,9 +6,9 @@ description: Adobe Workfront 管理者は、ユーザーにアクセスレベル
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 100%
 
 ---
@@ -34,15 +34,8 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 * イシューに対しては、次の権限を付与できます。
 
    * 表示
-
-     ![view_on_issue.png](assets/view-on-issue-221x216.png)
-
+   * 参加
    * 管理
-
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
-
-   * 参加\
-     ![contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * イシューを共有すると、イシューに添付されたすべてのドキュメントに同じ権限が継承されます。
 
@@ -151,19 +144,19 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   <tr> 
    <td> <p>イシューを追加</p> </td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td></td> 
+   <td></td> 
   </tr> 
   <tr> 
    <td>削除 </td> 
    <td>✓</td> 
-   <td> </td> 
+   <td></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>カスタムフォームを添付</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td></td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -181,7 +174,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   <tr> 
    <td>承認プロセスを追加</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td></td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -199,8 +192,8 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   <tr> 
    <td>イシューを移動</td> 
    <td>✓</td> 
-   <td> </td> 
-   <td> </td> 
+   <td></td> 
+   <td></td> 
   </tr> 
   <tr> 
    <td>時間の記録</td> 
@@ -211,7 +204,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   <tr> 
    <td>プロジェクトに変換*</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td></td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -229,7 +222,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   <tr> 
    <td>予定日の変更</td> 
    <td>✓</td> 
-   <td> </td> 
+   <td></td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -246,8 +239,8 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
   </tr> 
   <tr> 
    <td>システム全体で共有</td> 
-   <td> </td> 
-   <td> </td> 
+   <td></td> 
+   <td></td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

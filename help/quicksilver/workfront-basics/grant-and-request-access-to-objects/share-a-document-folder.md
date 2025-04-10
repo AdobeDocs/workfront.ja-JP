@@ -6,10 +6,10 @@ description: ドキュメントエリアで、フォルダーとそのコンテ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 842c61cf6dfee0c79b1c95ff84888083c9f5b5a4
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 100%
+source-wordcount: '914'
+ht-degree: 98%
 
 ---
 
@@ -61,6 +61,7 @@ ht-degree: 100%
  </tbody> 
 </table>
 -->
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -88,6 +89,8 @@ ht-degree: 100%
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+
++++
 
 ## フォルダーの共有
 

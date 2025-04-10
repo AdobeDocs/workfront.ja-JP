@@ -6,10 +6,10 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 871117ddb06af6d37448c683a259ccc7e708930c
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 100%
+source-wordcount: '349'
+ht-degree: 96%
 
 ---
 
@@ -55,6 +55,8 @@ Workfront のオブジェクトの階層について詳しくは、[Adobe Workfr
 </table>
 -->
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 以下が必要です。
 
 <table style="table-layout:auto"> 
@@ -81,6 +83,8 @@ Workfront のオブジェクトの階層について詳しくは、[Adobe Workfr
 </table>
 
 &#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
++++
 
 ## オブジェクトの継承された権限の表示
 

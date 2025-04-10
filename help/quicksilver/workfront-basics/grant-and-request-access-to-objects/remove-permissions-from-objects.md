@@ -6,10 +6,10 @@ description: 共有にアクセスできるオブジェクトに対する他の�
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 100%
+source-wordcount: '825'
+ht-degree: 84%
 
 ---
 
@@ -22,6 +22,9 @@ ht-degree: 100%
 オブジェクトを共有する場合と同様の考慮事項が、オブジェクトから権限を削除する場合にも適用されます。詳しくは、[オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)の記事の[オブジェクトの共有に関する考慮事項](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider)の節を参照してください。
 
 ## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 
 オブジェクトを共有するには、次の条件を満たしている必要があります。
 
@@ -60,6 +63,8 @@ ht-degree: 100%
 
 *ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
+
 ## オブジェクトの共有リストからエンティティを削除 {#remove-entities-from-the-sharing-list-of-an-object}
 
 オブジェクトの共有リストからエンティティ（ユーザー、担当業務、チーム、グループ、会社）を削除できます。これにより、オブジェクトに対する権限が削除されます。
@@ -70,26 +75,26 @@ ht-degree: 100%
 
 1. （条件付き）プログラム、ポートフォリオおよびドキュメントの場合は、次の操作を行います。
 
-   1. オブジェクト名の横にある&#x200B;**その他**&#x200B;アイコン ![](assets/more-icon.png) をクリックし、「**共有中**」または「**共有**」をクリックします。
+   1. オブジェクト名の横にある **詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、「**共有**」または「**共有** をクリックします。
 
-      ![](assets/share-a-document-350x160.png)
+      ![share](assets/share-a-document-350x160.png)
 
    1. ユーザー、チーム、グループ、会社、担当業務の横にある **x** をクリックし「オブジェクトアクセス」ボックスから削除します。
 
-      ![](assets/remove-permissions-on-portfolio.png)
+      ![ 権限を削除 ](assets/remove-permissions-on-portfolio.png)
 
-   1. **&lt;ユーザー名> の Workfront アクセスがこの**&#x200B;ドロップダウンメニューから削除され、選択したオブジェクトからのみアクセスを削除するか、それに関連付けられているすべての子オブジェクトからアクセスを削除するかを選択します。
+   1. **[ユーザー名 ] のWorkfront アクセス権限が削除されます。この** ドロップダウン メニューで、ユーザーのアクセス権限を選択したオブジェクトのみから削除するか、関連付けられたすべての子オブジェクトから削除するかを選択します。
 
 1. （条件付き）プロジェクト、タスク、イシューの場合は、次の手順を実行します。
 
    1. オブジェクト名の右にある「**共有**」をクリックします。
 
-      ![](assets/new-share-button.png)
+      ![share](assets/new-share-button.png)
    1. オブジェクトから削除するユーザー、役割、チーム、グループまたは会社を検索します。
    1. 「**削除**」をクリックします。
 「**次から &lt;ユーザー名> を削除**」ドロップダウンメニューで、選択したオブジェクトのみからアクセス権を削除するか、それに関連付けられているすべての子オブジェクトからアクセス権を削除するかを選択します。
 
-      ![](assets/remove-permissions-on-project-nwe-350x479.png)
+      ![ 削除 ](assets/remove-permissions-on-project-nwe-350x479.png)
 
    次のシナリオが存在します。
 
@@ -98,39 +103,42 @@ ht-degree: 100%
 
 1. 「**保存**」をクリックします。
 
-## 複数のオブジェクトから権限を一括で削除
+<!--
+## Remove permissions from several objects in bulk
 
-リストでエンティティ（ユーザー、担当業務、チーム、グループ、会社）を一度に複数のオブジェクトから削除できます。
+You can remove entities (users, job roles, teams, groups, companies) from several objects at a time when you bulk select them in a list.
 
 >[!NOTE]
 >
->一括選択すると、選択したすべてのオブジェクトに対して、どのアクセスエンティティがあるかを表示することはできません。権限を削除する前に、選択したオブジェクトの共有から削除するエンティティを把握しておく必要があります。
+>You cannot view what access entities have for all the objects selected when you select them in bulk. You must know which entity you want to remove from the sharing of the objects selected before removing their permissions.
 
-1. 共有するオブジェクトのリストに移動します。
+1. Go to the list of objects that you want to share.
 
-   共有可能なオブジェクトについて詳しくは、[オブジェクトに対する共有権限の概要](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
+   For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. リスト内の複数のオブジェクトを選択し、リストの一番上にある&#x200B;**共有**&#x200B;アイコン ![](assets/share-icon.png) をクリックします。
-1. アクセスを削除するユーザー、役割、チーム、グループ、または会社の名前を「**`<Object Name>` アクセス権を編集**」フィールドに入力します。
-1. アクセスドロップダウンメニューから、「**アクセスなし**」を選択します。
+1. Select several objects in the list, then click the **Share** icon ![share icon](assets/share-icon.png)at the top of the list. 
+1. Type the name of the user, role, team, group, or company for which you want to remove the access in the **Edit `<Object Name>` access to** field. 
+1. From the access drop-down menu, select **No Access**.
 
-   ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
+   ![remove in bulk](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. `<User Name>` の Workfront アクセスがこのドロップダウンメニューから削除され、選択したオブジェクトからのみアクセスを削除するか、それに関連付けられているすべての子オブジェクトからアクセスを削除するかを選択します。\
-   次のシナリオが存在します。
+1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
+   The following scenarios exist:
 
-   * オブジェクトからのみエンティティを削除する場合、そのエンティティはオブジェクトに対する権限を失い、子オブジェクトに継承された権限を失います。以前に子項目に対して個別に権限を付与されていた場合、このオプションを選択すると、関連付けられているすべての子オブジェクトに対して同じ権限が保持されます。 
-   * オブジェクトとすべての子オブジェクトからエンティティを削除すると、各子オブジェクトに対して個別の権限が与えられていた場合でも、そのエンティティはオブジェクトおよびすべての子オブジェクトに対する権限を失います。
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
-   **例：**&#x200B;リストで選択したタスクに対する権限だけを削除するか、タスクに添付されたイシューとドキュメントに対する権限も削除するかを選択します。
+   **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
 
-   ![](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
+   ![access](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
 
-1. （オプション）複数のオブジェクトに対する権限を一括で変更するには、選択したエンティティに対して別のレベルの共有を選択します。
+1. (Optional) To change permissions in bulk for several objects, select another level of sharing for the selected entity.
 
-   例えば、管理権限を持っている場合は、代わりに「貢献」または「表示」を選択します。
+   For example, if they have Manage permissions, select Contribute or View instead. 
 
-1. 「**保存**」をクリックします。
+1. Click **Save**.
+
+-->
 
 ## 継承した権限を削除
 
@@ -144,11 +152,9 @@ ht-degree: 100%
 
 1. 管理権限を持つオブジェクトに移動します。例えば、タスクに移動します。
 1. この記事の「[オブジェクトの共有リストからエンティティを削除する](#remove-entities-from-the-sharing-list-of-an-object)」で説明されているように、オブジェクトアクセスボックスに移動します。
-1. 共有ボックスの&#x200B;**継承された権限**&#x200B;の隣にある **x** を選択し、共有ボックスに表示されているすべてのユーザーを削除します。
+1. **継承された権限** の横にある **オフ** を選択して無効にします。
 
-   ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
-
-   これにより、親オブジェクト（プロジェクトなど）に対する権限を付与されたユーザーが、デフォルトでこのタスクに対する権限を持つことを防ぐことができます。タスクに対する権限を付与するには、タスクの共有リストで個々のエンティティをリストする必要があります。
+   これにより、親オブジェクト（プロジェクトなど）に対する権限を付与されたユーザーが、デフォルトでこのタスクに対する権限を持つことを防ぐことができます。タスクに権限を付与するには、タスクの共有リストに個々のエンティティをリストする必要があります。
 
    >[!TIP]
    >
@@ -168,8 +174,8 @@ ht-degree: 100%
    例えば、レポートに移動します。
 1. 「**レポートのアクション**」、「**共有**」の順にクリックします。
 
-   ![](assets/report-permissions-make-private-nwe-350x477.png)
+   ![ プライベートにする ](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. 「**公開アクセスを削除**」をクリックして、レポートを表示する外部ユーザーのアクセス権を削除します。
-1. 「**システム全体のアクセスを削除**」をクリックして、すべての Workfront ユーザーとの共有を停止します。
-1. 「**保存**」をクリックします。
+1. 歯車アイコンをクリックし、「**これを外部ユーザーに公開** のチェックを外します。
+1. **アクセス権を持つユーザー** ドロップダウンメニューで、**招待されたユーザーのみがアクセスできる** をクリックして、すべてのWorkfront ユーザーとの共有を停止します。
+1. **保存**&#x200B;をクリックします。
