@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
+source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
 workflow-type: tm+mt
-source-wordcount: '747'
-ht-degree: 11%
+source-wordcount: '863'
+ht-degree: 9%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 11%
 このページでは、2025年第 2 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模な更新について説明しています。
 
 2025年第 2 四半期リリースで利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
+
+## Google Drive ドキュメント統合ダイアログのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 3 月 26 日（PT）、すべてのお客様向けの実稼動リリース：25.4 リリースの場合（2025 年 4 月 10 日（PT））
+
+Google Drive のドキュメント統合を使用して新しいバージョンのドキュメントを作成する際のルックアンドフィールを更新しました。 この更新により、バージョン / Google ドライブからダイアログが新規追加/ Google ドライブからダイアログと同等になります。
+
+以前は、アカウントが関連付けられている場合は、マイドライブまたは共有ドライブから選択するオプションがありました。 これで、ダイアログはGoogleドライブのマイドライブ領域に直接移動します。
+
++++ 展開してこの変更を表示
+
+<table>
+ <thead>
+    <tr>
+        <th>前へ</th>
+        <th>新規</th>
+    </tr>
+  </thead>
+ <tr>
+        <td><img src="assets/legacy-add.png" alt="Google Drive 統合を使用したドキュメントの追加"></td>
+         <td><img src="assets/new-add.png" alt="Google Drive 統合を使用したドキュメントの追加"></td>
+    </tr>
+</table>
+
++++
 
 ## 「設定」のアクセスレベル領域のエクスペリエンスを更新しました
 

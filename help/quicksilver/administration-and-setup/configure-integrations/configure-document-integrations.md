@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 04bdfbdf1fa05082fe12c2ab239e861a6db4ee6e
+source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 94%
+source-wordcount: '1125'
+ht-degree: 91%
 
 ---
 
@@ -246,3 +246,8 @@ ht-degree: 94%
 1. 「**[!UICONTROL 削除]**」をクリックします。
 
    フィールドがメタデータマッピングから削除され、フィールドに含まれていた情報は、アップロードされたドキュメントと共には [!DNL Workfront DAM] に転送されません。
+
+
+## 制限事項
+
+* Google Drive ドキュメント統合は、Google Drive のマイドライブ領域からのフォルダーおよび画像の追加をサポートしています。 共有ドライブからフォルダーや画像を追加することはできません。 [Google共有ドライブ ](https://support.google.com/a/users/answer/7212025?hl=en) の詳細情報。
