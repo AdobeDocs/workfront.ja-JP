@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
-ht-degree: 19%
+source-wordcount: '728'
+ht-degree: 16%
 
 ---
 
 # ドキュメントの一括編集
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビューサンドボックス環境でのみ使用できます。</span>
 
 説明の編集、カスタムフォームの追加、カスタムフォームの編集を複数のドキュメントにわたって一度に行うことができます。
 
@@ -97,7 +95,6 @@ ht-degree: 19%
     </table>
 1. **保存**&#x200B;をクリックします。
 
-<span class="preview">
 
 ## ドキュメントレポートでのドキュメントの一括編集
 
@@ -125,5 +122,3 @@ ht-degree: 19%
     </tr>
     </table>
 1. **保存**&#x200B;をクリックします。
-
-</span>
