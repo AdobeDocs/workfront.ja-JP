@@ -1,23 +1,23 @@
 ---
 product-area: reporting
 navigation-topic: create-and-manage-reports
-title: 時間枠によるレポートのフィルタリング
-description: オブジェクトに存在する日付の時間枠でレポートをフィルタリングできます。例えば、時間レポートでは、時間が入力された特定の時間枠をフィルタリングできます。
-author: Nolan
+title: 時間枠でレポートをフィルタリング
+description: オブジェクトに存在する日付の時間枠でレポートをフィルタリングできます。 例えば、時間が入力された特定の時間枠について、時間レポートをフィルタリングできます。
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 93%
+source-wordcount: '965'
+ht-degree: 70%
 
 ---
 
-# 時間枠によるレポートのフィルタリング
+# 時間枠でレポートをフィルタリング
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
-オブジェクトに存在する日付の時間枠でレポートをフィルタリングできます。例えば、時間レポートでは、時間が入力された特定の時間枠をフィルタリングできます。
+オブジェクトに存在する日付の時間枠でレポートをフィルタリングできます。 例えば、時間が入力された特定の時間枠について、時間レポートをフィルタリングできます。
 
 ## アクセス要件
 
@@ -30,25 +30,20 @@ ht-degree: 93%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
       <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
+      <p>新規：標準</p>
+       <p> または</p>
+      <p>現在：プラン</p>
    </td>
 
 </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p></td> 
   </tr> 
   <tr> 
@@ -58,28 +53,30 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
 ## 前提条件
 
-結果をフィルタリングする前に、レポートを作成する必要があります。
+結果をフィルターする前に、レポートを作成する必要があります。
 
 レポートの作成について詳しくは、[レポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)を参照してください。
 
-## 日付の時間枠でレポートをフィルタリング {#filter-a-report-by-the-time-frame-of-a-date}
+## 日付の時間枠でレポートをフィルタリングします {#filter-a-report-by-the-timeframe-of-a-date}
 
-1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
+{{step1-to-reports}}
 
-1. 「**新規レポート**」をクリックして、目的のレポートのタイプを選択します。\
-   例えば、「**時間レポート**」を選択します。
+1. 左上隅にある **新規レポート** をクリックし、作成するレポートのタイプを選択します。
 
-1. 「**フィルター**」タブを選択します。
-1. 「**フィルタールールを追加**」をクリックし、「**時間エントリ日**」を選択します。\
+1. **新しいレポート** ページで、「**フィルター**」タブを選択します。
+
+1. **フィルタールールを追加** をクリックしてから、**フィールドを選択** をクリックします。
+
+1. **フィールドの選択** ダイアログボックスで、「**時間**」、「**エントリ日** の順に選択します。
    ![ 時間枠ごとの時間レポートのフィルタリング ](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
-1. 次のドロップダウンメニューで、次のいずれかのオプションを選択します。
+1. 表示されるドロップダウンで、次のいずれかのオプションを選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,54 +85,58 @@ ht-degree: 93%
      <tr> 
       <td role="rowheader">が次に等しい</td> 
       <td>この修飾子を選択した後、時間が入力された日付を指定します。</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">等しくない</td> 
-      <td>この修飾子を選択した後、時間が入力された日付を指定して、この日付をレポートから除外します。レポートには、指定した日付を除くすべての日付にログインした時間が表示されます。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">NULL</td> 
-      <td>この修飾子を選択すると、「エントリ日」がない時間のみが表示されます。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">NULL でない</td> 
-      <td>この修飾子を選択すると、エントリ日に値が設定されている時間のみが表示されます。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">間</td> 
-      <td>この修飾子を選択した後、時間が入力された日付範囲を指定します。レポートには、指定した日付の間に入力された時間が表示されます。</td> 
-     </tr> 
-     <tr> 
+      <td>この修飾子を選択した後、時間が入力された日付を指定して、この日付をレポートから除外します。 レポートには、指定した日付を除くすべての日付にログインした時間が表示されます。</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">より小さい</td> 
-      <td>この修飾子を選択した後、時間が入力された前日の日付を指定します。レポートには、指定した日付（指定した日付を含まない）より前に入力された時間が表示されます。</td> 
-     </tr> 
-     <tr> 
+      <td>この修飾子を選択した後、時間が入力された前日の日付を指定します。レポートには、指定した日付を含まない、指定した日付より前に入力された時間が表示されます。</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">が次よりも小さいか等しい</td> 
       <td>この修飾子を選択した後、時間が入力された前日の日付を指定します。レポートには、指定した日付（指定した日付を含む）以前に入力された時間が表示されます。</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">より大きい</td> 
-      <td>この修飾子を選択した後、時間を入力した後の日付を指定します。レポートには、指定した日付（指定した日付を含まない）の後に入力された時間が表示されます。</td> 
-     </tr> 
-     <tr> 
+      <td>この修飾子を選択した後、時間を入力した後の日付を指定します。レポートには、指定した日付を含まず、指定した日付より後に入力された時間が表示されます。</td> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">が次よりも大きいか等しい</td> 
-      <td> <p>この修飾子を選択した後、時間を入力した後の日付を指定します。レポートには、指定した日付（指定した日付を含む）以降に入力された時間が表示されます。</p> <p>組み込みの時間枠修飾子を選択します。詳しくは、<a href="#built-in-time-frame-modifiers" class="MCXref xref">組み込みの時間枠修飾子</a>を参照してください。</p> </td> 
-     </tr> 
-    </tbody> 
+      <td> この修飾子を選択した後、時間を入力した後の日付を指定します。レポートには、指定した日付（指定した日付を含む）以降に入力された時間が表示されます。 </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">間</td> 
+      <td>この修飾子を選択した後、時間が入力された日付範囲を指定します。レポートには、指定した日付の間に入力された時間が表示されます。</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">NULL</td> 
+      <td>この修飾子を選択すると、「エントリ日」がない時間のみが表示されます。</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">NULL でない</td> 
+      <td>この修飾子を選択すると、エントリ日に値が設定されている時間のみが表示されます。</td> 
+     </tr>
+
+   </tbody> 
    </table>
 
-1. これらの修飾子は、フィルター内の任意の日付フィールドまたは任意のレポート内のプロンプトに対して使用できます。
 1. 「**保存して閉じる**」をクリックします。
 
-## 組み込みの時間枠修飾子 {#built-in-time-frame-modifiers}
+## 組み込みの時間修飾子 {#built-in-timeframe-modifiers}
 
-Adobe Workfront には、特定の日付を定義せずに使用できる、組み込みの時間枠修飾子があります。
+Adobe Workfrontには、具体的な日付を定義せずに使用できる組み込みの時間修飾子があります。 これらの修飾子は、フィルター内の任意の日付フィールドまたは任意のレポート内のプロンプトに対して使用できます。
 
-これらの修飾子は、フィルター内の任意の日付フィールドまたは任意のレポート内のプロンプトに対して使用できます。
-
-日付に関連付けられた時間枠でレポートをフィルタリングする方法について詳しくは、前述の節 [ 日付の時間枠でレポートをフィルタリング ](#filter-a-report-by-the-time-frame-of-a-date) を参照してください。
-
-例えば、時間レポートを作成していて、特定の時間枠に入力された時間を表示する場合、次の組み込み時間枠フィルターオプションから選択できます。
+例えば、時間レポートを作成し、特定の期間に入力された時間を表示する場合、次の組み込み期間フィルターオプションから選択できます。
 
 <table style="table-layout:auto"> 
  <col> 

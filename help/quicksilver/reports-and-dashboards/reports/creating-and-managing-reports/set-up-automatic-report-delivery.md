@@ -3,19 +3,19 @@ product-area: reporting;setup
 navigation-topic: create-and-manage-reports
 title: レポートの自動配信のスケジュール設定
 description: レポートの自動配信のスケジュール設定
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1197'
-ht-degree: 86%
+source-wordcount: '1268'
+ht-degree: 69%
 
 ---
 
 # レポートの自動配信のスケジュール設定
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: If this stays, fix links which now go to the reference article)</p>
@@ -36,24 +36,21 @@ ht-degree: 86%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
       <td> 
-      <p>新規：</p>
-         <ul>
-         <li><p>標準</p></li>
-         </ul>
-      <p>現在：</p>
-         <ul>
-         <li><p>プラン</p></li>
-         </ul>
-   </td>
+      <p>新規：標準</p>
+      <p>または</p>
+
+<p>現在：プラン</p>
+
+</td>
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>フィルター、ビュー、グループ化へのアクセスの編集</p> </td> 
   </tr> 
   <tr> 
@@ -63,7 +60,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -73,24 +70,24 @@ ht-degree: 86%
 
 ## レポートの配信スケジュールの設定
 
-レポートの自動配信スケジュールを設定したり、既存のレポート配信を編集または削除するには、次の手順に従います。
 
-1. 配信スケジュールを設定するレポートに移動します。
+レポートの自動配信をスケジュールするには、&#x200B;の手順に従います。
 
-   >[!NOTE]
-   >
-   >レポート配信にプロンプトは含まれていません。レポート配信のデータを制限する場合は、送信するレポートにフィルターを適用することをお勧めします。
+{{step1-to-reports}}
 
-1. **レポートのアクション**／**レポートを送信**&#x200B;をクリックします。
+>[!NOTE]
+>
+>レポート配信にプロンプトは含まれていません。レポート配信のデータを制限する場合は、送信するレポートにフィルターを適用することをお勧めします。
 
-   **レポートを送信**&#x200B;ダイアログボックスが表示されます。
+1. **レポート** ページで、レポートを選択します。
+1. 画面の上部に表示されるドロップダウンから **レポートアクション** をクリックし、**レポートを送信** をクリックします。 **レポートを送信**&#x200B;ダイアログボックスが表示されます。
 
    >[!TIP]
    >
    >任意の時点でレポートを手動で送信するには、レポートに移動し、**レポートのアクション**／**レポートを送信**／**今すぐ送信**&#x200B;をクリックします。
 
 1. 「**定期配信**」タブを選択します。
-1. （条件付き）既存のレポートの定期配信を変更するには、「**定期配信**」セクションでレポート配信を選択します。
+1. （条件付き）既存のレポートの定期配信を変更する場合は、ダイアログボックスの右側にある **定期配信** セクションで、レポートの配信を選択します。
 1. 次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -99,30 +96,30 @@ ht-degree: 86%
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>送信先</p> </td> 
-      <td> <p>レポートの送信先となるユーザー、グループ、チーム、または役割の名前を入力し、ドロップダウンリストに表示された名前をクリックします。</p> <p>または</p> <p>レポートにアクセスする Workfront システム外のユーザーのメールアドレスを指定します。</p> <p>この手順を繰り返して、複数のユーザー、グループ、チームまたは役割にレポートを送信します。</p> <p>メモ：  <p>レポート配信の受信者を追加する際は、次の点を考慮してください。</p> 
+      <td> <p>レポートの送信先となるユーザー、グループ、チーム、または役割の名前を入力し、ドロップダウンリストに表示された名前をクリックします。</p> <p>または</p> <p>レポートへのアクセス権を付与するWorkfront システム外部のユーザーのメールアドレスを入力します。</p> <p>この手順を繰り返して、複数のユーザー、グループ、チームまたは役割にレポートを送信します。</p> <p>メモ：  <p>レポート配信の受信者を追加する際は、次の点を考慮してください。</p> 
         <ul> 
          <li>組織で Workfront 通知が特定のメールドメインに制限されている場合、メール許可リストにリストされているメールアドレスにのみレポートを送信できる場合があります。<p>Workfront 管理者がメールの許可リストを更新する方法について詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">メールの許可リストの設定</a>の節を参照してください。</p></li> 
          <li> <p>多数のユーザーを受信者として追加すると、配信が失敗する可能性があります。配信に失敗した場合は、小さなユーザーグループに対して複数のレポート配信をスケジュールできます。</p> </li> 
-        </ul> </p> </td> 
+        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>メールの件名</p> </td> 
-      <td> <p>メール通知の件名を指定します。</p> <p>デフォルトでは、メールの件名は次のようになります。</p> <p><em>Workfront レポート：[Name of the report] [Date]</em> </p> </td> 
+      <td> <p>メール通知の件名を入力します。</p> <p>デフォルトでは、メールの件名は次のようになります。</p> <p><em>Workfront レポート：[Name of the report] [Date]</em> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>メールのメッセージ</p> </td> 
-      <td> <p>メールに含めるメッセージを指定します。</p> <p>デフォルトでは、メールのメッセージは次のようになります。</p> <p><em>[Date] に Workfront が生成した [report frequency] レポート [Name of the report] が添付されています。</em> </p> <p>メモ：Excel ファイルとして配信されるレポートのみに、次のメッセージがメールに追加されます。「MS Excel（XLS）ファイルタイプでは、サポートするハイパーリンクの数に制限（65,530）があることに注意してください。これらの制限を超えた場合、ファイルを開くことができないので、ハイパーリンクなしで再送信することをお勧めします。レポートスケジューラーに戻って、ハイパーリンクを削除してからレポートを再送信してください。」「レポートスケジューラーに戻って」というフレーズは、レポートに戻るリンクです。</p> </td> 
+      <td> <p>メールに含めるメッセージを入力します。</p> <p>デフォルトでは、メールのメッセージは次のようになります。</p> <p><em>[Date] に Workfront が生成した [report frequency] レポート [Name of the report] が添付されています。</em> </p> <p>メモ：Excel ファイルとして配信されるレポートのみに、次のメッセージがメールに追加されます。「MS Excel（XLS）ファイルタイプでは、サポートするハイパーリンクの数に制限（65,530）があることに注意してください。これらの制限を超えた場合、ファイルを開くことができないので、ハイパーリンクなしで再送信することをお勧めします。レポートスケジューラーに戻って、ハイパーリンクを削除してからレポートを再送信してください。」「レポートスケジューラーに戻って」というフレーズは、レポートに戻るリンクです。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>次のアクセス権限でこのレポートを配信</p> </td> 
-      <td> <p>レポートにアクセスできるユーザーの名前を入力し、ドロップダウンリストに表示された名前をクリックします。レポートを受け取るユーザーには、ここで指定するユーザーと同じレベルのレポートへのアクセス権が付与されます。<br>詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">別のユーザーのアクセス権を持つレポートの実行と配信</a>を参照してください。</p> <p>メモ：このフィールドではワイルドカードはサポートされません。例えば、ワイルドカード $$User.ID を使用しても、レポートを受け取ったユーザーのアクセス権を持つレポートは実行されません。</p> </td> 
+      <td> <p>レポートにアクセスできるユーザーの名前を入力し、ドロップダウンリストに表示された名前をクリックします。レポートを受け取るユーザーには、ここで指定するユーザーと同じレベルのレポートへのアクセス権が付与されます。<br>詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md" class="MCXref xref">別のユーザーのアクセス権を持つレポートの実行と配信</a>を参照してください。</p> <p>メモ：このフィールドではワイルドカードはサポートされません。例えば、ワイルドカード <em>$$User.ID</em> を使用しても、レポートを受信するユーザーのアクセス権でレポートが実行されることはありません。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>形式</p> </td> 
       <td> <p>配信されるレポートの形式を選択します。</p> 
        <ul> 
         <li> <p>HTML</p> </li> 
-        <li> <p>PDF</p> <p>これを選択すると、表示される追加の<strong>用紙サイズ</strong>と<strong>向き</strong>を使用して出力をフォーマットできます。</p> </li> 
+        <li> <p>PDF</p> <p>PDFを選択した場合は、表示される追加の <strong> 用紙サイズ </strong> オプションと <strong> 向き </strong> オプションを使用して出力を書式設定できます。</p> </li> 
         <li> <p>MS Excel（.xlsx）</p> </li> 
         <li> <p>TSV</p> </li> 
        </ul> </td> 
@@ -170,9 +167,7 @@ ht-degree: 86%
     </tbody> 
    </table>
 
-1. 「**保存**」をクリックして、レポート配信を保存します。
-
-   レポートは「**繰り返し配信**」セクション（「**レポートの送信**」ダイアログボックス内）に表示され、スケジュールされた時間に送信されます。
+1. **保存** をクリックして、レポート配信を保存します。 レポートは、「レポートの送信 **ダイアログボックスの「** 定期配信 **」セクションに表示され** スケジュールされた時刻に送信されます。
 
    レポートの配信に影響を与える可能性のあるサイズ制限について詳しくは、[レポートの配信制限](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits)および[書き出し制限](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export)を参照してください。
 
@@ -182,10 +177,21 @@ ht-degree: 86%
 >
 >スケジュールされたレポート配信を使用して BI ツールでWorkfront データを分析する場合は、代わりにWorkfront Data Connect を使用することをお勧めします。 詳しくは、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
 
-1. （オプション）スケジュールされている配信を削除するには：
+## スケジュール済みレポート配信を削除
 
-   1. **繰り返し配信**&#x200B;パネルで、スケジュールされている配信をクリックしてから、「**削除**」をクリックします。
-   1. 「**削除**」をクリックして確認します。
+スケジュール済みレポート配信を削除するには、&#x200B;の手順を実行します。
+
+{{step1-to-reports}}
+
+1. **レポート** ページで、レポートを選択します。
+
+1. 画面の上部に表示されるドロップダウンから **レポートアクション** をクリックし、**レポートを送信** をクリックします。 **レポートを送信**&#x200B;ダイアログボックスが表示されます。
+
+1. 「**定期配信**」タブを選択します。
+1. ダイアログボックスの右側にある「**定期配信**」セクションで、削除するスケジュールされた配信をクリックします。
+1. **定期配信** の詳細セクションで、「**削除**」をクリックします。
+
+1. 「**削除**」をクリックして確定します。
 
 <!--## Video walk-through
 

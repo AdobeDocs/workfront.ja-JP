@@ -8,10 +8,10 @@ author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: e3596bd2-4f22-45c8-8cc2-cac08359a093
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 92%
+source-wordcount: '131'
+ht-degree: 89%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 92%
 * [レポートの実行](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-report.md)
 * [マトリックスレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md)
 * [レポートのコピーの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md)
-* [時間枠でのレポートのフィルタリング](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
+* [ 時間枠でレポートをフィルタリング ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)
 * [レポートへのプロンプトの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 * [レポートへのグラフの追加](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md)
 * [レポート配信の概要](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md)

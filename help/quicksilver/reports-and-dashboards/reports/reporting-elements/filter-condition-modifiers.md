@@ -6,10 +6,10 @@ description: フィルターおよび条件修飾子を使用すると、フィ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '1566'
-ht-degree: 96%
+source-wordcount: '1565'
+ht-degree: 95%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 96%
 
 テキストモードについて詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
-組み込みの時間枠修飾子のリストについて詳しくは、[時間枠でレポートをフィルタリング](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)の記事を参照してください。
+組み込みの時間枠修飾子のリストについては、記事 [ 時間枠でのレポートのフィルタリング ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md) を参照してください。
 
 フィルターおよび条件付き形式設定ステートメントでは、次の条件修飾子を使用できます。
 
