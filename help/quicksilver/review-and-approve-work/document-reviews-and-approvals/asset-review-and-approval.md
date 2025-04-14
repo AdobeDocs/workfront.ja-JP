@@ -6,10 +6,10 @@ description: Workfrontでレビューおよび承認できるシステムの概�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 2%
+source-wordcount: '368'
+ht-degree: 1%
 
 ---
 
@@ -33,6 +33,7 @@ ht-degree: 2%
 * プルーフビューアでのレビューとコメント
 * プルーフビューアで決定する
 * 従来のレポートを使用した承認レポートの作成
+* ホームエリアの自分の承認ウィジェットで承認リクエストにアクセスする
 
 詳しくは、[ レガシードキュメントの承認 ](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes) を参照してください。
 
@@ -62,6 +63,8 @@ ht-degree: 2%
 
 * 複数のステージ承認の作成 [!BADGE  近日公開 ]{type=Informative}
 
+* ホームエリアの自分の承認ウィジェットでレビューおよび承認リクエストにアクセスする
+
 
 ## プルーフの承認
 
@@ -84,6 +87,8 @@ ht-degree: 2%
 * 複数のステージ承認の作成
 
 * 基本ワークフローまたは自動ワークフローの使用
+
+* ホームエリアの自分の承認ウィジェットで承認リクエストにアクセスする
 
 <!--
 ## Upcoming deprecations
