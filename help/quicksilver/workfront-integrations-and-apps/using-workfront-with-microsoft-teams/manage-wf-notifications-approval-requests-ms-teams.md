@@ -6,18 +6,22 @@ description: 承認が必要な項目、与えられた割り当て、または�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '1374'
-ht-degree: 97%
+source-wordcount: '1338'
+ht-degree: 99%
 
 ---
 
 # [!DNL Microsoft Teams] で [!DNL Adobe Workfront] の通知を管理
 
+<!--
+
 >[!NOTE]
 >
->2025 年 7 月 1 日をもって、Microsoftは Classic Teams デスクトップアプリのサポートを終了します。 その結果、Classic Teams デスクトップアプリが使用できなくなった後は、WorkfrontとMicrosoft Teamsの統合はサポートされなくなります。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 承認が必要な項目、与えられた割り当て、または関連付けられている項目に対するコメントや変更について、[!DNL Adobe Workfront] から通知を受け取ることができます。
 

@@ -6,18 +6,22 @@ description: ' [!DNL Microsoft Teams] の任意の [!DNL Adobe WorkfrontWorkfron
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 91%
+source-wordcount: '398'
+ht-degree: 100%
 
 ---
 
 # [!DNL Microsoft Teams] での [!DNL Adobe Workfront] 項目の検索および共有
 
+<!--
+
 >[!NOTE]
 >
->2025 年 7 月 1 日をもって、Microsoftは Classic Teams デスクトップアプリのサポートを終了します。 その結果、Classic Teams デスクトップアプリが使用できなくなった後は、WorkfrontとMicrosoft Teamsの統合はサポートされなくなります。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 [!DNL Microsoft Teams] の任意の [!DNL Adobe Workfront] チャネルで [!DNL Workfront] 項目を検索し、これらの項目をチームのメンバーと共有できます。
 

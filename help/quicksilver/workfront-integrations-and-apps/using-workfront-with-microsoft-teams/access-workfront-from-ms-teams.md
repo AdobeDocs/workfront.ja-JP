@@ -6,10 +6,10 @@ description: Workfront ボットチャネルまたは他のチームチャネル
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 90%
+source-wordcount: '449'
+ht-degree: 97%
 
 ---
 
@@ -17,9 +17,13 @@ ht-degree: 90%
 
 <!--Audited: 01/2024-->
 
+<!--
+
 >[!NOTE]
 >
->2025 年 7 月 1 日の時点で、マイクロソフトはクラシック Teams デスクトップ アプリのサポートを削除します。 その結果、Microsoft Teamsとのワークフロント統合は、クラシック Teams デスクトップ アプリが使用できなくなった後はサポートされなくなります。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 [!DNL Workfront] ボットチャネルまたはその他のチームチャネルにいずれかにコマンドを入力することで、[!DNL Microsoft Teams] から [!DNL Adobe Workfront] にアクセスして、[!DNL Workfront] で複数のアクションを実行できます。
 
@@ -38,7 +42,7 @@ ht-degree: 90%
 
 ## アクセス要件
 
-+++ この記事の機能に対するアクセス要件表示拡張。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 

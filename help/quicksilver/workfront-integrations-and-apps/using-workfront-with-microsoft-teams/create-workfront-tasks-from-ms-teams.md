@@ -6,18 +6,22 @@ description: チーム所有者がチームに [!DNL Workfront] for Microsoft Te
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 90%
+source-wordcount: '347'
+ht-degree: 100%
 
 ---
 
 # [!DNL Microsoft Teams] からの [!DNL Adobe Workfront] タスクの作成
 
+<!--
+
 >[!NOTE]
 >
->2025 年 7 月 1 日をもって、Microsoftは Classic Teams デスクトップアプリのサポートを終了します。 その結果、Classic Teams デスクトップアプリが使用できなくなった後は、WorkfrontとMicrosoft Teamsの統合はサポートされなくなります。
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 ## アクセス要件
 
