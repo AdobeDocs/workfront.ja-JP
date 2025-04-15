@@ -6,10 +6,10 @@ description: Adobe Workfront で作成または共有したカレンダーレポ
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: eebece1ba576d9c654ac0fd9763ae646ce3be5a5
+source-git-commit: 3e5fdb157a6ff29daf964b505d3a0bf4f9842e88
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 77%
+source-wordcount: '651'
+ht-degree: 74%
 
 ---
 
@@ -82,8 +82,6 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
    * **[!UICONTROL 週]**：1 週間のカレンダーを表示します
    * **[!UICONTROL ガント]**：カレンダーの連続したビューを表示します
 
-     ![[!UICONTROL  ガント ] カレンダーレポート ](assets/gantt-calendar-report.png)
-
      下または横にスクロールすると、[!UICONTROL  ガント ] ビューでより多くのイベントを表示できます。 ビューのデータが入力されると、読み込み記号が表示されます。
 
    >[!NOTE]
@@ -118,16 +116,5 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
 
 現在のイベントおよび過去のイベントの詳細は、カレンダーに表示されます。
 
-1. 詳細を把握したいイベントに移動し、イベントをクリックします。
-イベントの詳細ページが開きます。
-   ![calendar_report_EventDetails.png](assets/calendar-report-eventdetails-350x145.png)
-
-1. （オプション）オブジェクトの追加の詳細を表示するには、次の手順に従います。
-
-   1. プロジェクト名、タスク名またはイシュー名の上にポインタを合わせます。
-
-      オブジェクトの詳細ページが開きます。
-      ![additional_object_details_-_calendar_report.png](assets/additional-object-details---calendar-report-350x131.png)
-
-   1. （オプション）関連するプロジェクト、タスクまたはイシューを開くには、オブジェクトのタイトルをクリックします。
-   1. （オプション）開いているすべての詳細ページを閉じるには、イベントの詳細ページの外側の任意の場所をクリックします。
+1. 詳細を把握したいイベントに移動し、イベントをクリックします。 詳細は、右側のパネルに開きます。
+1. （オプション）関連するプロジェクト、タスクまたはイシューを開くには、オブジェクトのタイトルをクリックします。
