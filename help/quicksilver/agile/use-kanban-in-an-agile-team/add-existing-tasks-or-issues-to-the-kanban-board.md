@@ -6,7 +6,7 @@ description: プロジェクトへの管理アクセス権がある場合は、�
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 32%
@@ -67,6 +67,7 @@ ht-degree: 32%
    >複数のチームがタスクまたはイシューに割り当てられている場合、作業項目は 1 つのチームの [!DNL kanban] ールボードにのみ表示できます。
 1. 「**追加**」をクリックします。
 
+
 ## レポートから既存のタスクまたは問題を追加
 
 レポートから [!UICONTROL  かんばん ] ボードにタスクまたは問題を追加するには：
@@ -84,6 +85,7 @@ ht-degree: 32%
 1. 「**追加**」をクリックします。
 
 
+
 ## ダッシュボードから既存のタスクまたは問題を追加
 
 ダッシュボードから [!UICONTROL  かんばん ] ボードにタスクまたは問題を追加するには：
@@ -98,4 +100,5 @@ ht-degree: 32%
    >[!NOTE]
    >
    >複数のチームがタスクまたはイシューに割り当てられている場合、作業項目は 1 つのチームの [!DNL kanban] ールボードにのみ表示できます。
+
 1. 「**追加**」をクリックします。

@@ -2,20 +2,22 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: 「Adobe Workfront for Experience Manager Assets Essentials：記事インデックス」
-description: Adobe Workfront for Experience Manager Assets Essentials
+title: Experience Manager Assets Essentials のAdobe Workfront：記事インデックス
+description: Experience Manager Assets Essentials のAdobe Workfront記事インデックス
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 8aad1efc-1a91-441a-8bb8-0ce9429492c6
-source-git-commit: c46ea3c15139b190187726eed5ddb49135052e16
+source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 88%
+source-wordcount: '147'
+ht-degree: 76%
 
 ---
 
 # Adobe Workfront for Experience Manager Assets と Assets Essentials：記事インデックス
+
+<!-- Audited: 4/2025 -->
 
 * [Adobe Experience Manager Assets 統合の概要](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
 * [Experience Manager Assets または Assets Essentials からアセットおよびフォルダーへのリンク](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
