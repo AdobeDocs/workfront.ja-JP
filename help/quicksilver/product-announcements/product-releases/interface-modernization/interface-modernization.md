@@ -1,13 +1,13 @@
 ---
 title: インターフェイスの更新
 description: このページでは、ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合するために、Adobe全体で行っているインターフェイスの更新を一覧表示します。
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
+source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,12 @@ Workfrontの他のエリアと一貫した、より現代的なデザインの�
 ## ドキュメント
 
 +++展開すると、ドキュメント インターフェイスの更新が表示されます
+
+### ドキュメントをリクエストしたときのインターフェイスの更新
+
+**プレビューリリース：2025 年 4 月 3 日（PT）、実稼動リリース：2025 年 4 月 10 日（PT）の週から**
+
+Workfrontの他の領域と一貫した最新のデザインで、別のユーザーからドキュメントをリクエストするために使用するダイアログボックスを更新しました。
 
 ### 外部ドキュメントの共有ページを更新するインターフェイス
 
