@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '2046'
+source-wordcount: '2020'
 ht-degree: 8%
 
 ---
@@ -26,9 +26,7 @@ ht-degree: 8%
 
 {{planning-important-intro}}
 
-リクエストフォームを作成し、Adobe Workfront Planning でレコードタイプに関連付けることができます。 その後、リンクを他の社内ユーザーや外部ユーザーと共有できます。
-
-フォームへのリンクを持つユーザーは、そのフォームにフィールド値を更新し、フォームを送信して新しいレコードを追加できます。
+リクエストフォームを作成し、Adobe Workfront Planning でレコードタイプに関連付けることができます。 その後、フォームを他のユーザーと共有し、他のユーザーがレコードを作成するリクエストを送信できます。
 
 この記事では、ワークスペースマネージャーがレコードタイプに関連付けられたリクエストフォームを作成する方法について説明します。
 
@@ -126,7 +124,7 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
       * 作成者と最終変更者
       * 作成日と最終変更日
-      * 数式。<!--Formula fields are supported in the Preview environment.-->
+      * 式
       * Workfront オブジェクトの参照フィールド
       * Workfront Planning 接続レコードの参照フィールド
 
@@ -257,12 +255,7 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
    >     * ユーザー
    >
 
-1. （条件付き）前の手順で「**リンクを持つすべてのユーザー**」を選択した場合は、使用可能なカレンダーから **有効期限をリンク** を選択します。<!--take out this tip when we release to production as in multiple forms this is no longer happening-->
-
-   >[!TIP]
-   >
-   >その場合には、リンクが公開されている表示があります。
-   >![ レコードタイプメニューのフォームへの公開共有リンク ](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
+1. （条件付き）前の手順で「**リンクを持つすべてのユーザー**」を選択した場合は、使用可能なカレンダーから **有効期限をリンク** を選択します。
 
    リンクの有効期限が切れた後、ユーザーはエラーを受け取ります。ユーザーがフォームに再度アクセスできるようにするには、リンクの日付を更新し、新しいリンクを生成して共有する必要があります。
 
@@ -299,18 +292,10 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 1. ヘッダーにある **リクエストフォーム** の左側の左向き矢印をクリックして、リクエストフォームテーブルを閉じます。
 
    レコードタイプのページが開きます。
-1. （オプションおよび条件付き）既存のフォームを編集するには：
+1. （オプションおよび条件付き）ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、次のいずれかの操作を行います。
 
-   1. ヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。</span>
+   1. 「**リクエストフォームを更新**」をクリックしてリクエストフォームに変更を加え、リクエストフォームをクリックして開いて編集します。
+   1. **リクエストフォームにリンクをコピー** をクリックして、フォームへのリンクを他のユーザーと共有します。
 
-      これにより、リクエストフォームのテーブルビューが開きます。
+1. （オプション）Workfrontの **リクエスト** エリアに移動して、リクエストを送信する共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
-   1. リクエストフォームをクリックして開き、編集します。
-   1. （オプション）Workfrontの **リクエスト** エリアに移動して、リクエストを送信する共有フォームを見つけます。 詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
-
-<!--   * From the Production environment:
-   
-      1. Click the **More** menu ![More menu](assets/more-menu.png) to the right of the record type name in the header, then do one of the following: 
-   
-      1. Click **Update request form** to make any changes to the request form.
-      1. Click **Copy link to request form**  to share the link to the form with others.-->

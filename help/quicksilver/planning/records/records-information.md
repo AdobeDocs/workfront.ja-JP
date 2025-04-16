@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 57%
+source-wordcount: '153'
+ht-degree: 62%
 
 ---
 
 
 # レコード：記事インデックス
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -27,7 +27,7 @@ Adobe Workfront Planning でレコードタイプを作成した後、それら�
 次の記事では、Adobe Workfront Planning でレコードとその情報を作成および管理する方法について説明します。
 
 * [レコードの作成](/help/quicksilver/planning/records/create-records.md)
-* <span class="preview">[CSV または Excel ファイルから情報を読み込んでレコードを作成する ](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
+* [CSV または Excel ファイルから情報を読み込んでレコードを作成](/help/quicksilver/planning/records/import-file-to-create-records.md)
 * [Workfront オブジェクトをレコードに関連付ける際に、Workfront Planning からデータモデルを作成する](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [Adobe Workfrontの計画レコードの自動作成を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [レコードの編集](/help/quicksilver/planning/records/edit-records.md)

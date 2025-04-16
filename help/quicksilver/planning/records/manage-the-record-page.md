@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1809'
 ht-degree: 8%
 
 ---
@@ -270,9 +270,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 * レコードのプレビュー領域に接続表示ページを追加することはできません。
 
-* 接続ビューページには、接続された 1 つのレコードページがテーブルビューに表示されます。 テーブル表示は読み取り専用です。<!--more views might be added in the future-->
-
-* 接続されているレコードタイプごとに、1 つの接続表示ページを追加できます。 <!--edit this when we can remove fields from this page-->
+* 接続ビューページには、接続されている 1 つのレコードタイプのページがテーブルビューに表示されます。
 
 * 接続表示ページをレコードのページに追加すると、レコードのプレビュー領域にページタブが表示されます。 接続されたレコードのテーブル表示を確認するには、完全ページに移動する必要があります。<!--this might have changed? check and take disclaimer out-->
 
@@ -289,7 +287,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 選択したレコードタイプのテーブルビューが表示され、接続されたレコードがテーブルビューに表示されます。
 接続されたレコードのすべてのフィールドは、接続されたレコードのタブのテーブル表示に表示されます。
 
-   プレビュー環境からWorkfront Planning にアクセスすると、デフォルトでは接続されたレコードテーブルの最初の 5 つのフィールドが表示されます。 デフォルトでは参照フィールドは表示されません。0
+   接続されたレコードテーブルの最初の 5 つのフィールドは、デフォルトで表示されます。 デフォルトでは、参照フィールドは表示されません。
 
    テーブル表示は読み取り専用です。
 
@@ -309,16 +307,11 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
    * グループ化
    * フィールド（フィールドの表示、非表示、並べ替えを行う）
 
-   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
-
    詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
    >[!NOTE]
    >
-   >   接続されたレコードのタブのテーブル表示では、次の操作はできません。
-   >
-   >   * フィールドの非表示または並べ替え プレビュー環境でフィールドの非表示や並べ替えを行うことができます。
-   >   * フィールドの作成、編集、削除
+   >   接続されたレコードのタブのテーブル表示のフィールドを作成、編集、削除することはできません。
    >
 
 1. レコードを追加または削除するには、「**接続**」をクリックします。 詳しくは、「レコードの接続 [ を参照してください ](/help/quicksilver/planning/records/connect-records.md)

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1816'
+source-wordcount: '1791'
 ht-degree: 5%
 
 ---
@@ -152,10 +152,6 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
 
 ## Workfrontの「リクエスト」領域で、Workfront Planning にリクエストを送信します。
-
->[!NOTE]
->
->実稼動環境への毎月のリリースの後、この節で説明する機能は、迅速なリリースを有効にしたお客様の実稼動環境でも利用できます。
 
 {{step1-to-requests}}
 
