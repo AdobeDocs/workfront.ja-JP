@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 0d746db3b3665b288b4724c346a02d3f459fc365
+source-git-commit: 35cfdba7c206e8acb76648737588aa07120d2bbe
 workflow-type: tm+mt
-source-wordcount: '863'
-ht-degree: 9%
+source-wordcount: '926'
+ht-degree: 10%
 
 ---
 
@@ -17,6 +17,24 @@ ht-degree: 9%
 このページでは、2025年第 2 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模な更新について説明しています。
 
 2025年第 2 四半期リリースで利用可能なすべての変更点のリストについては、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
+
+## 新しいスタイル設定で報告書を更新しました
+
+>[!NOTE]
+>
+>プレビューおよび実稼動版（すべてのお客様向け）：2025年4月9日（PT）
+
+Workfrontの他の領域のデザインと一致するように、複数のレポートのルックアンドフィールを更新しました。
+
+この更新には、次のレポートのリストとツールバーに対する視覚的な変更が含まれます。 機能は変更されていません。
+
+* パラメーター
+* パラメーターグループ
+* カスタムフォーム
+* 休暇
+
+詳しくは、[ カスタムレポートの作成 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) を参照してください。
+
 
 ## Google Drive ドキュメント統合ダイアログのルックアンドフィールの更新
 
