@@ -1,26 +1,26 @@
 ---
 title: レコードページのエクスポート
-description: レコードのプレビューまたは詳細ページを Word にエクスポートできます。
+description: Adobe Workfront Planning からMicrosoft Word ファイルにレコードのプレビューまたは詳細ページをエクスポートできます。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '491'
-ht-degree: 20%
+source-wordcount: '553'
+ht-degree: 27%
 
 ---
 
 # レコードの詳細のエクスポート
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべての顧客に対してプレビュー環境でのみ使用できるか、または迅速リリースを有効にした顧客の実稼動環境でのみ使用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 
-Workfront アカウントを持っていない他のユーザーとのより効率的な共同作業を行うために、レコードの詳細をファイルに書き出して共有できます。
+Workfront アカウントを持っていない他のユーザーとのより効率的な共同作業を行うには、レコードの詳細ページをMicrosoft Word ファイルに書き出して共有できます。
 
 ## アクセス要件
 
@@ -78,7 +78,7 @@ Workfront アカウントを持っていない他のユーザーとのより効�
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>Workspace <!--<span class="preview">and record type</span>--> </a> への表示以上の権限 </p>  
+   <td>   <p>ワークスペース <span class="preview"> およびレコードタイプ </span></a> に対する表示以上の権限 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr> 
 <tr> 

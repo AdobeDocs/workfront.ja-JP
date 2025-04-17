@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 26%
+source-wordcount: '859'
+ht-degree: 25%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 26%
 
 <!--take Preview and Production references at Production time-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -89,7 +89,7 @@ ht-degree: 26%
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
    <ul>
-   <li><p>Workspace <!--<span class="preview">and record type</span>--> ージに対する権限の管理 </p></li>
+   <li><p>ワークスペース <span class="preview"> およびレコードタイプ </span> に対する権限の管理 </p></li>
     <li><p>システム管理者は、自分が作成していないワークスペースを管理できます。 </p></li>
     </ul>
    <p>Workfront Planning オブジェクトの共有権限について詳しくは、
@@ -124,8 +124,17 @@ ht-degree: 26%
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![Mroe メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームを更新** をクリックします。
-1. 画面の右上隅にある **共有** をクリックし、共有の選択を更新します。 詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
+
+   レコードタイプに関連付けられたすべてのリクエストフォームがテーブル表示に表示されます。
+1. リクエストフォームの名前にポインタを合わせ、名前の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**共有** をクリックします。
+1. 次のいずれかを選択して、共有の選択肢を更新します。
+
+   * ワークスペースに対する表示またはそれ以上のアクセス権を持つすべてのユーザー
+   * ワークスペースに対する参加またはそれ以上のアクセス権を持つすべてのユーザー
+   * リンクを知っているすべてのユーザー
+
+   詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 1. （任意）リクエストフォームの共有を変更し、新しいリンクを使用して新しいユーザーグループに共有する場合は、「**リンクをコピー**」をクリックします。
 
 ## レコードタイプのリクエストフォームを非公開にする
@@ -142,18 +151,24 @@ ht-degree: 26%
 
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトでは、レコードタイプのページがテーブル表示で開きます。
 
-1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、「**リクエストフォームを更新**」をクリックします。
-1. 右上隅の **非公開** をクリックします。
+1. ページヘッダーのレコードタイプ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、**リクエストフォームの管理** をクリックします。
 
-   ![ ハイライト表示された「非公開」ボタン ](assets/unpublish-button-highlighted.png)
+   レコードタイプに関連付けられたすべてのリクエストフォームがテーブル表示に表示されます。
+1. リクエストフォームの名前にポインタを合わせ、名前の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、「**非公開**」をクリックします。
 
-   フォームが非公開になったことを知らせる確認が画面の下部に表示されます。
+または
 
-   **非公開** ボタンが **公開** に変わります。
+リクエストフォームの名前をクリックして開き、リクエストフォームの右上隅にある「**非公開**」をクリックします。
 
-1. **保存**&#x200B;をクリックします。
+![ ハイライト表示された「非公開」ボタン ](assets/unpublish-button-highlighted.png)
 
-   リンクからフォームにアクセスでき <!--or from the request queue in the Requests area of Workfront--> くなりました。
+フォームが非公開になったことを知らせる確認が画面の下部に表示されます。
+
+**非公開** リンクまたはボタンが **公開** に変わります。
+
+1. （条件付き）フォームを開いた後に非公開にした場合は、「**保存**」をクリックします。
+
+   ユーザーは、リンクから、またはWorkfrontの「リクエスト」領域のリクエストキューからリクエストフォームにアクセスできなくなりました。
 
    リクエストフォームを使用して以前に追加したレコードは、レコードタイプページに残ります。
 

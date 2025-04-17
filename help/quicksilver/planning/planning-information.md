@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 28%
+source-wordcount: '653'
+ht-degree: 30%
 
 ---
 
 # Adobe Workfront Planning：記事インデックス
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 
 {{planning-important-intro}}
@@ -46,7 +50,13 @@ ht-degree: 28%
    * Workfront ライセンスと Planning 権限
    * 共有権限の計画
    * ビューの共有
-   * ワークスペース （レコードの種類、レコード、およびフィールド）の共有
+   * ワークスペース （レコードとフィールド）の共有
+
+  <div class="preview">
+
+   * レコードタイプの共有
+
+  </div>
 
 * [ アーキテクチャ：記事インデックス ](/help/quicksilver/planning/architecture/architecture-information.md) 次の情報が含まれます。
 

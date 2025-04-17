@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '944'
-ht-degree: 37%
+source-wordcount: '1122'
+ht-degree: 32%
 
 ---
 
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+
+<!--remove the Prod and Preview references when we release to Prod-->
 
 # Adobe Workfront Planning での共有権限の概要
 
@@ -69,14 +71,9 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
 
 * ユーザー
 * グループ
-
-<div class="preview">
-
 * チーム
 * 会社
 * 担当業務
-
-</div>
 
 <span class="preview"> ワークスペースとレコードの種類を他のユーザーと共有すると、レコードの種類のアクセス許可レベルが、それらに関連付けられたレコードとフィールドに自動的に継承されます。</span>
 
@@ -131,7 +128,7 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
 
 ### レコードタイプの権限
 
-<!--In the Production environment,--> ワークスペースに権限を付与すると、レコードタイプの権限 <!--always--> 継承されます。
+実稼動環境では、ワークスペースに権限を付与すると、常にレコードタイプ権限が継承されます。
 
 レコードタイプの権限のレベルは次のとおりです。
 
@@ -143,29 +140,35 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
 | 編集 | ✓ |            |       |
 | 表示 | ✓ | ✓ | ✓ |
 
-<!--
-
 <div class="preview">
 
-In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
+プレビュー環境では、ワークスペースから受信したレコードタイプの継承された権限を削除できます。
 
-You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
+ユーザーに対して、ワークスペースでのレコードタイプに対する権限よりも低い権限を付与できます。
 
-The following scenarios exist: 
+ただし、次の操作は実行できません。
 
-|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+* ユーザーがワークスペースで持っている権限よりも高い権限をレコードタイプに付与します。
+* ワークスペースマネージャーに、レコードタイプに対するより低い権限を付与します。
+* レコードタイプの権限からユーザーを削除することで、レコードタイプまたはワークスペースに対する表示権限を削除します。
+
+次のシナリオが存在します。
+
+| ワークスペース権限 | レコードタイプに対して継承された自動権限 | 継承された権限が無効になっている場合に考えられるレコードタイプの権限（手動で付与） |
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, Remove permissions           | 
-| Contribute |     Contribute |  Contribute, View, Remove permissions        |
-| View   |  View     |      View, Remove permissions        |     
+| 管理 | 管理 | 権限の管理、削除* |
+| 参加 | 参加 | 投稿、表示、権限の削除* |
+| 表示 | 表示 | 権限の表示、削除* |
+
+>[!NOTE]
+>
+>*レコードタイプから権限を削除しても、ワークスペースから権限を削除しない限り、ユーザーはワークスペースとすべてのレコードタイプに対する表示権限を保持します。
 
 </div>
 
--->
-
 ### レコード権限
 
-レコードの権限は <!--<span class="preview">the record type</span>, when you grant permissions to --> ワークスペース <!-- and <span class="preview">the record type</span>--> から継承されます。
+ワークスペースに権限を付与し、<span class="preview"> レコードタイプ </span> を設定すると、レコードの権限は <span class="preview"> レコードタイプ </span> から継承されます。
 
 レコードの権限レベルは次のとおりです。
 
@@ -179,7 +182,7 @@ The following scenarios exist:
 
 ### フィールド権限
 
-フィールドの権限は <!--<span class="preview">the record type</span>, when you grant permissions to --> ワークスペース <!--and <span class="preview">the record type</span>--> から継承されます。
+ワークスペースに権限を付与し、<span class="preview"> レコードタイプ </span> を設定すると、フィールド権限は <span class="preview"> レコードタイプ </span> から継承されます。
 
 次の権限は、各フィールドに関連付けられた値ではなく、フィールド自体を参照します。フィールド値を編集するには、レコードを編集する権限が必要です。
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 5%
+source-wordcount: '1863'
+ht-degree: 7%
 
 ---
 
@@ -18,16 +18,16 @@ ht-degree: 5%
 
 # Workfront オブジェクトからのレコード接続の管理
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
 WorkfrontのWorkfront Planning レコードは、それらに接続されたオブジェクトの次の領域に表示できます。
 
 * Workfront オブジェクトの「プランニング」セクション：オブジェクトに接続されているすべてのレコードタイプと、接続されたそれぞれのレコードを表示します。
-* Planning 接続のカスタム・フィールド：1 つのレコード・タイプ、それぞれの接続レコード、<span class="preview"> 接続レコードの最大 7 つの参照フィールド </span> が表示されます。
+* Planning 接続のカスタム・フィールド：1 つのレコード・タイプ、それぞれの接続レコード、および接続レコードの最大 7 つの参照フィールドが表示されます。
 
 ## アクセス要件
 
@@ -94,9 +94,9 @@ WorkfrontのWorkfront Planning レコードは、それらに接続されたオ�
    <p>Workfrontで、プロジェクト、ポートフォリオまたはプログラムに対する表示以上の権限 </a> </p> 
    <p>Workfrontの計画では、次の操作を行います。
    <ul><li>
-   ワークスペースに対する権限の表示 <!--<span class="preview">and record type</span>--> 接続されたレコードの表示 </li>
+   ワークスペース <span class="preview"> およびレコードタイプ </span> に対する権限を表示して、接続されたレコードを表示する </li>
    または
-   <li> レコードを接続または切断するた <!--<span class="preview">and record type</span>--> のワークスペースへの投稿以上の権限</a></li></ul> </p>  
+   <li> ワークスペース <span class="preview"> およびレコードタイプ </span> に対するレコードの接続または切断の投稿以上の権限</a></li></ul> </p>  
    <p>システム管理者には、未作成のワークスペースを含むすべてのWorkfront Planning ワークスペースに対する権限があります</p> 
   </td>
   </tr>
@@ -211,7 +211,7 @@ Workfrontオブジェクトの「Planning 接続」フィールドからWorkfron
 * Planning レコードがWorkfront オブジェクトに接続された後、Workfront オブジェクトのカスタム フォームに Planning 接続フィールドが次のように表示されます。
 
    * 接続されたレコードのプライマリ・フィールドのみが選択されている場合、複数のレコードをリンクできる接続であれば、Planning 接続フィールドは複数の値を持つフィールドとして表示されます。 詳しくは、[ レコードタイプの接続の概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
-   * <span class="preview">Workfront管理者またはグループ管理者がカスタムフォーム上の接続されたレコードからさらにルックアップフィールドを追加した場合、Planning 接続フィールドはテーブルとして表示されます。 「計画接続」フィールドには、最大 7 つのフィールドを選択できます。 テーブル表示は読み取り専用です。 </span>
+   * Workfront管理者またはグループ管理者がカスタムフォーム上の接続されたレコードからさらにルックアップフィールドを追加した場合、Planning 接続フィールドはテーブルとして表示されます。 「計画接続」フィールドには、最大 7 つのフィールドを選択できます。 テーブル表示は読み取り専用です。
 
 * 1 つの Planning 接続フィールドに関連付けることができるレコード・タイプは 1 つだけです。 フォーム上の Planning 接続フィールドの数に制限はありません。
 * Planning 接続のカスタム フィールドを含むカスタム フォームをWorkfront オブジェクトに添付するには、オブジェクト、レコード、およびWorkfront Planning に対する適切なアクセス権と権限が必要です。
@@ -261,11 +261,16 @@ Workfrontオブジェクトの「Planning 接続」フィールドからWorkfron
    * レコードは直ちにWorkfront オブジェクトに接続され、Planning 接続フィールドとWorkfront オブジェクトの Planning セクションに表示されます。
    * Workfront オブジェクトが、Workfront計画レコードの接続されたフィールドに追加されます。
    * 計画レコードに接続されたWorkfront参照フィールドの値は、Workfront Planning に入力されます。
-   * <span class="preview">Workfrontまたはグループ管理者がカスタムフォームの作成時にレコード検索フィールドを追加した場合、レコードの検索フィールドがテーブルビューに自動入力されます。 「計画接続」フィールドのテーブル・ビューは読取り専用です </span>
+   * Workfront管理者またはグループ管理者がカスタムフォームの作成時にレコード検索フィールドを追加した場合、レコードの検索フィールドがテーブルビューに自動入力されます。 「計画接続」フィールドのテーブル・ビューは読取り専用です。
 
      ![ プロジェクト詳細カスタムフォームのテーブルを含む計画接続フィールド ](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
-1. （オプション）レコードの名前をクリック <span class="preview"> またはテーブル内のレコードの名前にポインタを合わせて、「Planning 接続」フィールドで **レコードを開く** アイコン ![Planning 接続カスタムフォームのレコードを開くアイコン ](assets/open-record-icon-on-planning-connection-custom-form.png)</span> をクリックすると、Workfront Planning でレコードが開きます。
+     >[!NOTE]
+     >
+     >テーブル ビューが表示されるのは、カスタム フォームの Planning 接続フィールドにルックアップ フィールドが追加されている場合だけです。
+
+
+1. （オプション）レコード名をクリックするか、テーブル内のレコード名をポインタを合わせ、「Planning 接続」フィールドで **レコードを開く** アイコン ![Planning 接続カスタムフォームのレコードを開くアイコン ](assets/open-record-icon-on-planning-connection-custom-form.png) をクリックして、Workfront Planning で開きます。
 Workfront計画レコードの詳細プレビューボックスが開きます。
 1. レコードに関する情報を確認または編集するか、**新しいタブで開く** アイコン ![ 新しいタブでレコードを開く ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードの詳細ページを開きます。
 
