@@ -4,10 +4,11 @@ description: このページでは、2025年第 3 四半期リリースに含ま
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
+source-git-commit: 94cc3fc02e5ac499684056f21e84956a00d00334
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 59%
+source-wordcount: '472'
+ht-degree: 51%
 
 ---
 
@@ -42,33 +43,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [ドキュメント管理の機能強化](#document-management-enhancements)
 * [その他の機能強化](#other-enhancements)
 
-<!--
-    
-### Document management enhancements
+### ドキュメント管理の機能強化
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Feature</strong>
+        <td><strong>機能</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> プルーフビューアで使用できる新しいドキュメント承認決定ボタン </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>新しいドキュメント承認決定ボタンがプルーフビューアに表示されます。 これで、単純なプルーフを作成してから、ドキュメントの概要から承認者とレビュー担当者を追加すると、プルーフビューア内で直接決定できるようになります。</p><p><b> 注意 </b> この機能は、現在、Adobe統合エクスペリエンスのユーザーには使用できません。</p>
         </td>
-        <td>April 10, 2025</td>
-        <td>April 17, 2025</td>
-        <td>April 17, 2025</td>
+        <td>2025年4月10日（PT）</td>
+        <td>2025年4月17日（PT）</td>
+        <td>2025年4月17日（PT）</td>
     </tr>     
   </tbody>
-</table> 
-
--->
-
+</table>
 
 ### その他の機能強化
 

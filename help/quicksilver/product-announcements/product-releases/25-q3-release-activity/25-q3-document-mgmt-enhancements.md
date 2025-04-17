@@ -4,12 +4,11 @@ description: 2025 年第 3 四半期プロジェクトの強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 4829d487-7041-447f-9a68-fb1acf467734
+source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 17%
+source-wordcount: '194'
+ht-degree: 15%
 
 ---
 
@@ -28,7 +27,9 @@ ht-degree: 17%
 
 >[!NOTE]
 >
->プレビューリリース：2025 年 4 月 10 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 4 月 17 日（PT）
+>* プレビューリリース：2025 年 4 月 10 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 4 月 17 日（PT）
+>
+>* この機能は、現在、Adobe統合エクスペリエンスのユーザーには使用できません。
 
 新しいドキュメント承認決定ボタンがプルーフビューアに表示されます。 これで、単純なプルーフを作成してから、ドキュメントの概要から承認者とレビュー担当者を追加すると、プルーフビューア内で直接決定できるようになります。
 
