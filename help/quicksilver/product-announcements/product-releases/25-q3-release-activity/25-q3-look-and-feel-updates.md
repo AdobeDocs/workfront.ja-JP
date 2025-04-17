@@ -4,9 +4,7 @@ description: 2025年第 3 四半期のリリース期間中のルックアンド
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 32%
@@ -62,6 +60,3 @@ Workfrontの他の領域のデザインと一致するように、複数のレ�
 会社レポートから会社を削除する際の、「会社を削除」ボックスのルックアンドフィールを更新しました。 この新しいデザインは、Workfrontの他の領域と一致するようになりました。
 
 この更新では、「設定」領域の「会社」ページにある「会社を削除」ボックスのルックアンドフィールは変更されていません。
-
-
-
