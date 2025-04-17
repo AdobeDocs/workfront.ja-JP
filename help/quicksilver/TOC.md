@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: d344ace2024525703261dae6ba13f1fd1e0e8484
+source-git-commit: 52d7964219dd0731364f0ab7fea9e5224d8ca9df
 workflow-type: tm+mt
-source-wordcount: '13115'
-ht-degree: 89%
+source-wordcount: '13142'
+ht-degree: 87%
 
 ---
 
@@ -19,7 +19,11 @@ ht-degree: 89%
       * [製品リリースの概要](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront のリリーススケジュールとプロセス](product-announcements/product-releases/workfront-release-schedule.md)
       * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
-      * 2025年第 2 四半期リリース{#release-25-q2}
+      * 2025 年第 3 四半期リリース {#release-25-q3}
+         * [2025 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
+         * [ドキュメント管理の機能強化](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
+         * [2025年第 3 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md)
+      * 2025 年第 2 四半期リリース {#release-25-q2}
          * [2025 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [2025年第 2 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [2025年第 2 四半期のドキュメント管理の機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
@@ -28,7 +32,7 @@ ht-degree: 89%
          * [2025 年第 2 四半期レポートの機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
          * [2025 年第 2 四半期のリリース期間中のその他の機能強化](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [2025年第 2 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
-      * 2025年第 1 四半期リリース{#release-25-q1}
+      * 2025 年第 1 四半期リリース {#release-25-q1}
          * [2025年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [2025年第 1 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)
          * [2025年第 1 四半期のボードの機能強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md)
@@ -40,7 +44,7 @@ ht-degree: 89%
          * [2025 年第 1 四半期の更新ストリームの機能強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md)
          * [2025 年第 1 四半期のリリース期間中のその他の機能強化](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md)
          * [2025 年第 1 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
-      * 2024年第 4 四半期リリース {#release-24-q4}
+      * 2024 年第 4 四半期リリース {#release-24-q4}
          * [2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
          * [2024年第 4 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
          * [2024 年第 4 四半期のドキュメント管理の強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md)
@@ -51,7 +55,7 @@ ht-degree: 89%
          * [2024 年第 4 四半期のレポートとダッシュボードの機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
          * [2024 年第 4 四半期のリリース期間中のその他の機能強化](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
          * [2024年第 4 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
-      * 2024年第 3 四半期リリース {#release-24-q3}
+      * 2024 年第 3 四半期リリース {#release-24-q3}
          * [2024 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
          * [2024 年第 3 四半期管理者の機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
          * [2024 年第 3 四半期の Financial Management の機能強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
@@ -61,7 +65,7 @@ ht-degree: 89%
          * [2024 年第 3 四半期のリソース管理の強化](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
          * [2024 年第 3 四半期のリリース期間中のその他の機能強化](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
          * [2024年第 3 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
-      * 2024年第 2 四半期リリース{#release-24-q2}
+      * 2024 年第 2 四半期リリース {#release-24-q2}
          * [2024 年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
          * [2024年第 2 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
          * [2024年第 2 四半期のドキュメント管理の機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
@@ -71,7 +75,7 @@ ht-degree: 89%
          * [2024年第 2 四半期のリソース管理の機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
          * [2024年第 2 四半期の更新ストリームの機能強化](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
          * [2024年第 2 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
-      * 2024年第 1 四半期リリース {#release-24-q1}
+      * 2024 年第 1 四半期リリース {#release-24-q1}
          * [2024年第 1 四半期リリースの概要](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
          * [2024年第 1 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
          * [2024年第 1 四半期のドキュメント管理の機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
@@ -80,7 +84,7 @@ ht-degree: 89%
          * [2024年第 1 四半期の統合の機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
          * [2024年第 1 四半期のプロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
          * [2024年第 1 四半期の更新ストリームと通知の機能強化](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-      * 2023年第 4 四半期リリース {#release-23-q4}
+      * 2023 年第 4 四半期リリース {#release-23-q4}
          * [2023年第 4 四半期リリースの概要](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
          * [2023年第 4 四半期の管理者の機能強化](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
          * [2023年第 4 四半期のボードの機能強化](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
@@ -194,8 +198,9 @@ ht-degree: 89%
          * [21.1 統合の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-integration-enhancements.md)
          * [21.1 モバイル機能の強化](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
-      * Adobe Workfront計画リリースアクティビティ {#planning-release-activity}
+      * Adobe Workfront Planning リリースアクティビティ{#planning-release-activity}
          * [Adobe Workfront Planning リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront Planning の 2025 年第 3 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Adobe Workfront Planning の 2025 年第 2 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Adobe Workfront Planning の 2025 年第 1 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
          * [Adobe Workfront Planning の 2024 年第 4 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
@@ -208,21 +213,21 @@ ht-degree: 89%
          * [Workfront シナリオプランナ（20.3 リリース） - 2020年8月14日（PT）](product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)
       * Adobe Workfront Goals リリースアクティビティ {#goals-release}
          * [Adobe Workfront Goals リリースアクティビティ](product-announcements/product-releases/goals-release-activity/goals-release-activity.md)
-         * 23.3 リリースの目標 {#goals-23-3}
+         * 23.3 リリースでの目標 {#goals-23-3}
             * [23.3 リリースに伴う Adobe Workfront Goals](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-release.md)
             * [Adobe Workfront Goals 23.3 リリースアクティビティ：2023年5月1日（PT）の週](product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md)
-         * 23.2 リリースの目標 {#goals-23-2}
+         * 23.2 リリースでの目標 {#goals-23-2}
             * [23.2 リリースに伴う Adobe Workfront Goals](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-23-2-release.md)
             * [Adobe Workfront Goals 23.2 リリースアクティビティ：2023年3月20日（PT）の週](product-announcements/product-releases/goals-release-activity/goals-23-2-release/goals-march.md)
-         * 23.1 リリースの目標 {#goals-23-1}
+         * 23.1 リリースでの目標 {#goals-23-1}
             * [Adobe Workfront Goals 23.1 リリース](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-23-1-release.md)
             * [Adobe Workfront Goals 23.1 リリースアクティビティ：2023年12月5日（PT）の週](product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md)
-         * 21.2 リリースの目標 {#goals-21-2}
+         * 21.2 リリースでの目標 {#goals-21-2}
             * [21.2 リリースに伴う Adobe Workfront Goals](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md)
             * [Adobe Workfront Goals 21.2 リリースアクティビティ：2021年4月19日（PT）の週](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-19.md)
             * [Adobe Workfront Goals 21.2 リリースアクティビティ：2021年4月5日（PT）の週](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-apr-5.md)
             * [Adobe Workfront Goals 21.2 リリースアクティビティ：2021年2月15日（PT）の週](product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-feb-15.md)
-         * 21.1 リリースの目標 {#goals-21-1}
+         * 21.1 リリースでの目標 {#goals-21-1}
             * [Adobe Workfront Goals 21.1 リリース](product-announcements/product-releases/goals-release-activity/goals-release-21-1.md)
             * [Adobe Workfront Goals 21.1 リリースアクティビティ：2021年1月11日（PT）の週](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-jan-11.md)
             * [Adobe Workfront Goals 21.1 リリースアクティビティ：2020年12月14日（PT）の週](product-announcements/product-releases/goals-release-activity/goals-21.1-release/goals-dec-14.md)
@@ -238,7 +243,7 @@ ht-degree: 89%
             * [Adobe Workfront Proof 23.3 リリースアクティビティ：2023年5月8日（PT）の週](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof リリースアクティビティ：2021年5月17日（PT）の週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof リリースアクティビティ：2021年11月29日（PT）の週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
-      * インターフェイス最新化 {#interface-modernization}
+      * インターフェイスの最新化 {#interface-modernization}
          * [インターフェイスの最新化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
       * 四半期別リリースアーカイブ {#quarterly-release}
          * [四半期別リリースアーカイブ](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
@@ -375,13 +380,13 @@ ht-degree: 89%
          * [メールのスプーフィングと POP 返信の削除](product-announcements/announcements/announcement-archive/email-spoofing-pop-reply-message.md)
          * [クラスター 1、2、3 のお客様は、Adobe Workfront サービスのブロックを防ぐために、許可リストの IP ブロックを更新する必要があります。](product-announcements/announcements/announcement-archive/clusters-1-3-update-whitelist.md)
          * [カスタム SMTP を送信メールオプションとして削除する](product-announcements/announcements/announcement-archive/remove-custom-smtp.md)
-   * ベータ版プログラム {#beta}
+   * Beta のプログラム {#beta}
       * [Beta のプログラム](product-announcements/betas/betas.md)
       * キャンバスダッシュボードベータ版 {#canvas-dashboards-beta}
          * [キャンバスダッシュボードベータ版の情報](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
          * [レポートキャンバスベータ版の概要](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
          * [キャンバスダッシュボードベータ版：リリースアクティビティ](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
-      * 新しいコメントエクスペリエンスベータ版 {#new-commenting-experience-beta}
+      * 新しいコメント機能のベータ版 {#new-commenting-experience-beta}
          * [新しいコメントベータ版エクスペリエンスの情報](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
          * [新しいコメントエクスペリエンス](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
          * [新しいコメントエクスペリエンスのリリースアクティビティ](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
@@ -399,7 +404,7 @@ ht-degree: 89%
       * [お知らせの送信](administration-and-setup/get-started-wf-administration/view-send-announcements.md)
       * [ブラウザー要件](administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
       * [プラットフォームベースの違い](administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
-   * Workfront の設定 {#set-up-wf}
+   * Workfrontの設定 {#set-up-wf}
       * [設定](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * システムのデフォルトの設定 {#configure-system-defaults}
          * [デフォルトの設定](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
@@ -436,7 +441,7 @@ ht-degree: 89%
          * [担当業務の削除](administration-and-setup/set-up-workfront/organizational-setup/delete-job-roles.md)
          * [担当業務の非アクティブ化](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [担当業務の請求レートの上書き](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
-      * システムで追跡された更新フィード {#system-tracked-updates}
+      * システムで追跡される更新フィード {#system-tracked-updates}
          * [システムで追跡される更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
          * [システムで追跡される更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [システム更新の設定](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
@@ -454,7 +459,7 @@ ht-degree: 89%
          * [環境推進に関するよくある質問](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
          * [環境促進のトラブルシューティング](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
-   * ユーザー管理{#add-users}
+   * ユーザー管理 {#add-users}
       * [ユーザー管理：記事インデックス](administration-and-setup/add-users/add-users.md)
       * ユーザーの作成と管理 {#create-manage-users}
          * [ユーザーの作成と管理：記事インデックス](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
@@ -493,7 +498,7 @@ ht-degree: 89%
          * [各オブジェクトタイプへの設定可能なアクセス権](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
          * [組み込みのアクセスレベル](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
          * [ユーザーのアクセスレベルとライセンスの一覧表示](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
-      * Workfront へのアクセスの設定 {#configure-access}
+      * Workfrontへのアクセスの設定 {#configure-access}
          * [アクセス権の設定](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
          * [カスタムアクセスレベルの作成または変更](administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)
          * [管理アクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)
@@ -513,7 +518,7 @@ ht-degree: 89%
          * [シナリオプランナーへのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
          * [リソース管理に対するアクセスの許可](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
          * [Workfront Goals へのアクセス権の付与](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-      * Workfront {#sso} でのシングルサインオン
+      * Workfrontでのシングルサインオン {#sso}
          * [シングルサインオン：記事インデックス](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
          * [シングルサインオンの概要](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
          * [シングルサインオンに対応するためのユーザーの更新](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
@@ -528,7 +533,7 @@ ht-degree: 89%
          * [チームの設定を編集](administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
    * Adobe Workfront のカスタマイズ {#customize}
       * [Workfront のカスタマイズ](administration-and-setup/customize-workfront/customize-workfront.md)
-      * Adobe Workfront のカスタムブランディング {#custom-branding}
+      * Adobe Workfront でのカスタムブランディング {#custom-branding}
          * [カスタムブランディング](administration-and-setup/customize-workfront/brand-workfront/brand-workfront.md)
          * [インスタンスのブランディング](administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
          * [カスタムヘルプ URL の設定](administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)
@@ -602,7 +607,7 @@ ht-degree: 89%
          * [グローバル承認プロセス設定](administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md)
          * [割り当てられた承認プロセスに変更が及ぼす影響](administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md)
          * [マイルストーンパスを作成](administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md)
-      * カスタム状況の作成と管理 {#custom-conditions}
+      * カスタム条件の作成と管理 {#custom-conditions}
          * [カスタム条件](administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)
          * [状況の作成または編集](administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md)
          * [状況の表示順の変更](administration-and-setup/customize-workfront/create-manage-custom-conditions/change-display-order-of-conditions.md)
@@ -674,7 +679,7 @@ ht-degree: 89%
          * [キックスタートのシナリオ：Workfront への複数オプションのカスタムフィールドのインポート](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-multiple-option-custom-field-import.md)
          * [キックスタートのシナリオ：オブジェクトのインポート](administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md)
          * [キックスタートに関するよくある質問](administration-and-setup/manage-workfront/using-kick-starts/frequently-asked-questions-about-kick-starts.md)
-   * グループの管理 {#manage-groups}
+   * グループを管理する {#manage-groups}
       * [グループを管理する](administration-and-setup/manage-groups/manage-groups.md)
       * グループ {#groups}
          * [グループ：記事インデックス](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
@@ -709,7 +714,7 @@ ht-degree: 89%
          * [グループ管理者の割り当て](administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
          * [グループ管理者の機能](administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
          * [ビジネスリーダーの概要](administration-and-setup/manage-groups/group-roles/business-leader-overview.md)
-      * グループステータスの管理 {#group-statuses}
+      * グループステータスを管理する {#group-statuses}
          * [グループステータスを管理する](administration-and-setup/manage-groups/manage-group-statuses/manage-group-statuses.md)
          * [グループステータスの作成または編集](administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md)
          * [グループのステータスの並べ替え](administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md)
@@ -719,7 +724,7 @@ ht-degree: 89%
          * [グループステータスの削除](administration-and-setup/manage-groups/manage-group-statuses/delete-a-group-status.md)
          * [移動および削除されたグループステータス](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-in-group-moved-or-deleted.md)
          * [移動およびコピーされたグループステータス](administration-and-setup/manage-groups/manage-group-statuses/custom-statuses-on-a-task-or-issue-that-is-moved-or-copied.md)
-      * グループのオブジェクトの使用 {#group-objects}
+      * グループのオブジェクトの操作 {#group-objects}
          * [グループオブジェクトを管理](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
          * [グループ会社の管理](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
          * [グループレイアウトテンプレートの管理](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
@@ -881,7 +886,7 @@ ht-degree: 89%
       * [カスタムフォームフィールドの情報を編集する](workfront-basics/work-with-custom-forms/edit-custom-forms.md)
       * [カスタムフォームとオブジェクトの詳細の書き出し](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
       * [オブジェクトに添付されたカスタムフォームを管理](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
-   * 通知の使用 {#use-notifications}
+   * 通知を使用 {#use-notifications}
       * [通知の使用：記事インデックス](workfront-basics/using-notifications/use-notifications.md)
       * [通知の概要](workfront-basics/using-notifications/wf-notifications.md)
       * [自身のメール通知の変更](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
@@ -920,9 +925,9 @@ ht-degree: 89%
       * [ドキュメントフォルダーの共有](workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md)
       * [レポート、ダッシュボードおよびカレンダーの共有](workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)
       * [オブジェクトから権限を削除](workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-   * アカウントとプロファイルの管理 {#manage-account-profile}
+   * アカウントとプロファイルを管理 {#manage-account-profile}
       * [アカウントとプロファイルを管理](workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md)
-      * ユーザープロファイルの設定 {#configure-user-profile}
+      * ユーザープロファイルを設定 {#configure-user-profile}
          * [ユーザープロファイルを設定](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
          * [「個人設定」の指定](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
          * [個人の休暇の設定](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
@@ -962,7 +967,7 @@ ht-degree: 89%
       * Adobe Workfront Mobile アプリに関するヒント、テクニックおよびトラブルシューティング {#tips-tricks-for-mobile-apps}
          * [Adobe Workfront Mobile アプリに関するヒント、テクニックおよびトラブルシューティング](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [Adobe Workfront モバイルアプリのエラーメッセージ：「アカウントで API が有効になっていません」](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
-   * Adobe Workfront Basics に関するヒント、テクニックおよびトラブルシューティング {#tips-tricks-for-basics}
+   * Adobe Workfront Basics のヒント、テクニック、およびトラブルシューティング {#tips-tricks-for-basics}
       * [Adobe Workfrontのヒント、テクニック、トラブルシューティング：記事一覧](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Adobe Workfront でヘルプを見つけるためのクイックガイド](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [Adobe Workfront での日付形式の変更](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
@@ -1000,7 +1005,7 @@ ht-degree: 89%
       * [ボード内でのフィルターと検索](agile/get-started-with-boards/filter-search-in-board.md)
       * [タグの追加](agile/get-started-with-boards/add-tags.md)
       * [ボードのメール通知と環境設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
-   * ボードでのアジャイル計画ツールの使用 {#agile-planning-boards}
+   * ボードのアジャイル計画ツールの使用 {#agile-planning-boards}
       * [アジャイル計画ツールの概要](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
       * [ボードでの進行中の作業（WIP）の上限の管理](agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
       * [ボードへの取り込み列の追加](agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
@@ -1018,7 +1023,7 @@ ht-degree: 89%
       * [アジャイルチームの作成](agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
       * [かんばんの設定](agile/get-started-with-agile-in-workfront/configure-kanban.md)
       * [スクラムの設定](agile/get-started-with-agile-in-workfront/configure-scrum.md)
-   * アジャイルチームのかんばん {#kanban}
+   * アジャイルチームにおけるかんばん {#kanban}
       * [アジャイルチームにおけるかんばん](agile/use-kanban-in-an-agile-team/using-kanban-in-an-agile-team.md)
       * [かんばんの概要](agile/use-kanban-in-an-agile-team/kanban-overview.md)
       * [かんばんボードの既存のストーリーへのサブタスクの追加](agile/use-kanban-in-an-agile-team/add-a-subtask-to-an-existing-story.md)
@@ -1033,7 +1038,7 @@ ht-degree: 89%
       * [かんばんボード上でストーリーのフラグを使用](agile/use-kanban-in-an-agile-team/use-flags-on-stories.md)
       * [かんばんボードへのバックログの追加](agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)
       * [かんばんボードからのストーリーの削除](agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md)
-   * アジャイルチームのスクラム {#scrum}
+   * アジャイルチームにおけるスクラム {#scrum}
       * [アジャイルチームにおけるスクラム](agile/use-scrum-in-an-agile-team/scrum-in-an-agile-team.md)
       * バーンダウン {#burndown}
          * [バーンダウン](agile/use-scrum-in-an-agile-team/burndown/burndown.md)
@@ -1072,13 +1077,13 @@ ht-degree: 89%
       * [アジャイルストーリーボードにカスタムステータスが表示されない](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * ドキュメント {#documents}
    * [ドキュメント：記事インデックス](documents/documents-overview.md)
-   * Adobe Workfront への新しいドキュメントの追加 {#add-new-documents-to-workfront}
+   * Adobe Workfront に新規ドキュメントを追加 {#add-new-documents-to-workfront}
       * [Adobe Workfront に新規ドキュメントを追加](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
       * [ファイルシステムから Adobe Workfront へのドキュメントの追加](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
       * [外部アプリケーションからドキュメントをリンク](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
       * [Adobe Workfront と外部ドキュメントストレージプロバイダー間のリンクを削除する](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
       * [ドキュメントをリクエスト](documents/adding-documents-to-workfront/request-a-document.md)
-   * ドキュメントの管理 {#manage-documents}
+   * ドキュメントを管理 {#manage-documents}
       * [ドキュメントを管理](documents/managing-documents/manage-documents.md)
       * [ドキュメントエリア](documents/managing-documents/documents-area.md)
       * [ドキュメントの詳細の概要](documents/managing-documents/document-details-overview.md)
@@ -1105,7 +1110,7 @@ ht-degree: 89%
       * [スマートフォルダーの作成と管理](documents/organizing-documents/create-manage-smart-folders.md)
    * Workfront と Experience Manager Assets の統合 {#wf-aem-integrations}
       * [Workfront と Experience Manager Assets の統合](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-      * Workfront for Experience Manager 拡張コネクタ {#wf-aem-enhanced-connector}
+      * Experience Manager 拡張コネクタの Workfront {#wf-aem-enhanced-connector}
          * [Experience Manager 拡張コネクタの Workfront](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
          * [Workfront for Experience Manager 拡張コネクターの概要](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-aem-enhanced-connector-overview.md)
          * [Workfront for Experience Manager 拡張コネクターのメタデータの概要](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-metadata-overview.md)
@@ -1126,7 +1131,7 @@ ht-degree: 89%
          * [Experience Manager Assets Essentials 統合でのワークフローの使用](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
          * [Workfront Fusion を使用して、Workfront イシューをAdobe Experience Manager ワークフローを含むプロジェクトに変換する](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
          * [Adobe Experience Manager 統合のトラブルシューティング](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)
-   * 従来のコネクターまたは強化されたコネクターからの移行 {#migrate-from-legacy-enhanced-connectors}
+   * 従来のコネクタまたは強化機能コネクタからの移行 {#migrate-from-legacy-enhanced-connectors}
       * [従来のコネクタまたは強化機能コネクタからの移行](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
       * [従来のコネクターまたは拡張コネクターから Workfront for Adobe Experience Mangaer as a Cloud Service 統合への移行](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)
       * [従来のコネクタから拡張コネクタへの移行](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-to-enhanced.md)
@@ -1137,7 +1142,7 @@ ht-degree: 89%
    * [作業の管理](manage-work/manage-work.md)
    * プロジェクト {#projects}
       * [プロジェクト：記事インデックス](manage-work/projects/projects-overview.md)
-      * プロジェクトの計画 {#plan-a-project}
+      * プロジェクトを計画 {#plan-a-project}
          * [プロジェクトの計画：記事インデックス](manage-work/projects/planning-a-project/plan-project-overview.md)
          * [プロジェクトの概要の計画](manage-work/projects/planning-a-project/plan-project.md)
          * [プロジェクト内の作業分割構造の決定](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
@@ -1158,7 +1163,7 @@ ht-degree: 89%
          * [プロジェクト、タスクおよびイシューに関する見込み完了日の概要](manage-work/projects/planning-a-project/project-projected-completion-date.md)
          * [プロジェクト進捗ステータスの概要](manage-work/projects/planning-a-project/project-progress-status.md)
          * [プロジェクトの見込み開始日の概要](manage-work/projects/planning-a-project/project-projected-start-date.md)
-      * プロジェクトの作成 {#create-projects}
+      * プロジェクトを作成 {#create-projects}
          * [プロジェクトの作成：記事インデックス](manage-work/projects/create-projects/create-projects-overview.md)
          * [プロジェクトを作成](manage-work/projects/create-projects/create-project.md)
          * [プロジェクトのリクエスト](manage-work/projects/create-projects/request-project.md)
@@ -1259,7 +1264,7 @@ ht-degree: 89%
          * [予定作業時間コスト（BCWS）の計算](manage-work/projects/project-finances/calculate-bcws.md)
          * [プロジェクトの予算人権費と予算時間の概要](manage-work/projects/project-finances/budgeted-labor-cost.md)
          * [予定労力コストの計算](manage-work/projects/project-finances/planned-labor-cost.md)
-      * プロジェクトに関するヒント、テクニックおよびトラブルシューティング {#tips-tricks-troubleshooting-for-projects}
+      * プロジェクトに関するヒント、テクニック、トラブルシューティング {#tips-tricks-troubleshooting-for-projects}
          * [ヒント、テクニックおよびトラブルシューティング：記事インデックス](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
          * [プロジェクトに関する FAQ](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
          * [プロジェクトのステータスは、完了から現在には変更されません](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
@@ -1288,13 +1293,13 @@ ht-degree: 89%
          * [見込日と見込日の概要](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
          * [タスクの元の期間と元の予定時間数の概要](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
          * [タスクの予定期間と期間の違い](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
-      * タスクの作成 {#create-tasks}
+      * タスクを作成 {#create-tasks}
          * [タスクを作成：記事インデックス](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
          * [タスクの概要の作成](manage-work/tasks/create-tasks/create-tasks-overview.md)
          * [プロジェクトでのタスクの作成](manage-work/tasks/create-tasks/create-tasks-in-project.md)
          * [サブタスクを作成](manage-work/tasks/create-tasks/create-subtasks.md)
          * [繰り返しタスクを作成](manage-work/tasks/create-tasks/create-recurring-tasks.md)
-      * タスクの割り当て {#assign-tasks}
+      * タスクを割り当て {#assign-tasks}
          * [タスクを割り当て](manage-work/tasks/assign-tasks/assign-tasks-1.md)
          * [タスクを割り当て](manage-work/tasks/assign-tasks/assign-tasks.md)
          * [高度な割り当てを作成](manage-work/tasks/assign-tasks/create-advanced-assignments.md)
@@ -1343,7 +1348,7 @@ ht-degree: 89%
          * [タスクの期間タイプを更新](manage-work/tasks/taskdurtn/update-duration-type-of-task.md)
          * [タスクの予定時間数と期間のシンプルな期間タイプでの更新](manage-work/tasks/taskdurtn/update-planned-hours-duration-for-simple-duration-task.md)
          * [Adobe Workfront および Microsoft Project の期間タイプ](manage-work/tasks/taskdurtn/workfront-ms-project-duration-types.md)
-      * タスクの先行タスクの使用 {#use-task-predecessors}
+      * タスクの先行タスクを使用 {#use-task-predecessors}
          * [タスクの先行タスクを使用](manage-work/tasks/use-prdcssrs/use-task-predecessors.md)
          * [タスクの先行タスクの概要](manage-work/tasks/use-prdcssrs/predecessors-overview.md)
          * [タスクリストでの先行タスク関係の作成](manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md)
@@ -1375,7 +1380,7 @@ ht-degree: 89%
          * [イシューの重大度を更新](manage-work/issues/issue-information/update-issue-severity.md)
          * [イシューの予定完了日の概要](manage-work/issues/issue-information/issue-planned-completion-date.md)
          * [イシューを参照する際の「opTask」と「issue」の使用](manage-work/issues/issue-information/use-optask-instead-of-issue.md)
-      * イシューを管理 {#manage-issues}
+      * イシューを管理する {#manage-issues}
          * [イシューを管理する](manage-work/issues/manage-issues/manage-issues-overview.md)
          * [イシューの作成](manage-work/issues/manage-issues/create-issues.md)
          * [イシューの割り当て](manage-work/issues/manage-issues/assign-issues.md)
@@ -1406,7 +1411,7 @@ ht-degree: 89%
          * [ポートフォリオ内での移動](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [ポートフォリオ管理の概要](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
          * [Adobe Workfront のポートフォリオの概要](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
-      * ポートフォリオを作成および管理 {#create-and-manage-portfolios}
+      * ポートフォリオの作成と管理 {#create-and-manage-portfolios}
          * [ポートフォリオの作成と管理](manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
          * [ポートフォリオを作成](manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
          * [ポートフォリオを削除および非アクティブ化する](manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
@@ -1414,7 +1419,7 @@ ht-degree: 89%
          * [ポートフォリオへのプロジェクトの追加](manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
          * [ポートフォリオからのプロジェクトの削除](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [リクエストされたプロジェクトの確認](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
-      * プログラムを作成および管理 {#create-and-manage-programs}
+      * プログラムの作成と管理 {#create-and-manage-programs}
          * [プログラムの概要  [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
          * [プログラムの作成と管理](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [プログラムを作成](manage-work/portfolios/create-and-manage-programs/create-program.md)
@@ -1422,7 +1427,7 @@ ht-degree: 89%
          * [ポートフォリオに既存プログラムの追加](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [プログラムへのプロジェクトの追加](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [プログラムからプロジェクトを削除](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
-      * ポートフォリオオプティマイザーでプロジェクトを管理 {#manage-projects-in-portfolio-optimizer}
+      * ポートフォリオオプティマイザーでプロジェクトを最適化する {#manage-projects-in-portfolio-optimizer}
          * [ポートフォリオオプティマイザーでプロジェクトを最適化する](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [ポートフォリオオプティマイザーの概要](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)
          * [ポートフォリオオプティマイザーを探す](manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md)
@@ -1432,7 +1437,7 @@ ht-degree: 89%
          * [ポートフォリオ内の純価値に対するリスクを計算](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * リクエスト {#requests}
       * [リクエスト](manage-work/requests/requests-overview.md)
-      * リクエストキューを作成および管理 {#create-and-manage-request-queues}
+      * リクエストキューの作成と管理 {#create-and-manage-request-queues}
          * [リクエストキューの作成と管理](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
          * [リクエストキューを作成](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
          * [リクエストキューへのアクセスを提供する](manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
@@ -1440,7 +1445,7 @@ ht-degree: 89%
          * [キュートピックを作成](manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
          * [ルーティングルールの作成](manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
          * [プロジェクトのリクエストタイプの定義](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-      * リクエストを作成 {#create-requests}
+      * リクエストを作成する {#create-requests}
          * [リクエストを作成する](manage-work/requests/create-requests/create-requests.md)
          * [リクエストの作成と送信](manage-work/requests/create-requests/create-submit-requests.md)
          * [ドラフトからリクエストを作成](manage-work/requests/create-requests/create-requests-from-drafts.md)
@@ -1449,7 +1454,7 @@ ht-degree: 89%
          * [リクエストキューへのリンクの共有](manage-work/requests/create-requests/share-link-to-request-queue.md)
          * [リクエストのドラフトを削除](manage-work/requests/create-requests/delete-request-draft.md)
          * [リクエストのコピーと送信](manage-work/requests/create-requests/copy-and-submit-requests.md)
-   * 作業のデリゲート {#delegate-work}
+   * 作業の委任 {#delegate-work}
       * [作業の委任](manage-work/delegate-work/delegate-work.md)
       * [タスクおよびイシューのデリゲートの概要](manage-work/delegate-work/delegate-work-overview.md)
       * [タスクおよびイシューのデリゲート](manage-work/delegate-work/how-to-delegate-work.md)
@@ -1477,12 +1482,12 @@ ht-degree: 89%
       * [チームリクエストの処理](people-teams-and-groups/work-with-team-requests/work-with-team-requests.md)
       * [チームリクエストの概要](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
       * [作業とチームのリクエストの管理](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
-   * チームとグループに関するヒント、テクニックおよびトラブルシューティング {#tips-tricks-people-teams-groups}
+   * チームおよびグループ向けのヒント、テクニック、トラブルシューティング {#tips-tricks-people-teams-groups}
       * [チームおよびグループ向けのヒント、テクニック、トラブルシューティング](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
       * [ユーザー名は既に使用されています](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * レポート {#reporting}
    * [レポートとダッシュボード：記事インデックス](reports-and-dashboards/reports-and-dashboards-overview.md)
-   * Canvas Dashboard {#canvas-dashboards}
+   * キャンバスダッシュボード {#canvas-dashboards}
       * [キャンバスダッシュボード](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
       * キャンバスダッシュボードの管理 {#manage-canvas-dashboards}
          * [キャンバスダッシュボードの管理](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
@@ -1517,12 +1522,12 @@ ht-degree: 89%
          * [フィルター、ビュー、グループを削除](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
          * [マイルストーンビューの使用](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [列の幅と順序の変更](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
-      * 組み込みレポートを使用 {#built-in-reports}
+      * 組み込みレポートを使用する {#built-in-reports}
          * [組み込みレポートを使用する](reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
          * [ビュー内のビルトインステータスアイコン](reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
          * [Adobe Workfront の組み込みレポートを使用する](reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
          * [リソース稼動率レポートの概要](reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-      * レポートを作成および管理 {#create-manage-reports}
+      * レポートを作成および管理する {#create-manage-reports}
          * [レポートを作成および管理する](reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
          * [レポートの作成](reports-and-dashboards/reports/creating-and-managing-reports/create-report.md)
          * [カスタムレポートの作成](reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)
@@ -1544,7 +1549,7 @@ ht-degree: 89%
          * [レポートの所有者の変更](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
          * [仕訳入力レポートを使用した更新領域のレポート](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [ユーザーのデリゲーションレポートの作成](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
-      * レポート内の計算済みカスタムデータ {#calculated-custom-data}
+      * レポート内の計算カスタムデータ {#calculated-custom-data}
          * [レポート内の計算カスタムデータ](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
          * [計算済みデータ式の概要](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)
          * [計算済みカスタムフィールドと計算済み列の比較](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md)
@@ -1642,7 +1647,7 @@ ht-degree: 89%
          * [レポート内のコレクションの参照](reports-and-dashboards/reports/text-mode/reference-collections-report.md)
          * [テキストモードフィルターでの「OR」ステートメントの作成](reports-and-dashboards/reports/text-mode/create-or-statements-in-filters-text-mode.md)
          * [EXISTS ステートメントを使用した複雑なテキストモードフィルターの作成](reports-and-dashboards/reports/text-mode/create-complex-text-mode-filters-using-exists-statements.md)
-      * 使用状況の概要のレポート {#report-usage-overview}
+      * レポートの使用の概要 {#report-usage-overview}
          * [レポートの使用の概要](reports-and-dashboards/reports/report-usage/report-usage-overview.md)
          * [レポートへのアクセスと整理](reports-and-dashboards/reports/report-usage/access-organize-reports.md)
          * [レポートアクティビティに関するレポートの作成](reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
@@ -1660,7 +1665,7 @@ ht-degree: 89%
          * [カレンダーレポートの削除](reports-and-dashboards/reports/calendars/delete-a-calendar-report.md)
          * [カレンダーレポートをコピー](reports-and-dashboards/reports/calendars/copy-a-calendar-report.md)
          * [カレンダーレポートへのアドホックイベントの追加](reports-and-dashboards/reports/calendars/add-ad-hoc-events.md)
-      * レポートに関するヒント、テクニックおよびトラブルシューティング {#troubleshooting-tips-tricks-reports}
+      * レポートのヒント、テクニックおよびトラブルシューティング {#troubleshooting-tips-tricks-reports}
          * [レポートのヒント、テクニックおよびトラブルシューティング](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
          * [レポートに関する FAQ](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md)
          * [カレンダーのエラーメッセージ：「このカレンダーには、非アクティブなユーザーの表示権限があります」](reports-and-dashboards/reports/tips-tricks-and-troubleshooting/error-message-calendar.md)
@@ -1706,14 +1711,14 @@ ht-degree: 89%
       * [データディクショナリテスト](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary-test.md)
       * [Workfront Data Connect クエリの例](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Workfront Data Connect の使用状況指標の表示](reports-and-dashboards/data-lake/view-usage-metrics.md)
-      * Analytics クエリの強化機能 {#enhanced-analytics-queries}
+      * Analytics クエリの強化機能{#enhanced-analytics-queries}
          * [Analytics クエリの強化機能](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [フライトプランクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [プロジェクトアクティビティクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [ プロジェクトツリーマップクエリ ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
          * [チーム クエリ別アクティビティ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
-      * データ接続のヒント、テクニック、トラブルシューティング {#troubleshooting-data-connect}
+      * Data Connect のヒント、テクニック、トラブルシューティング{#troubleshooting-data-connect}
          * [Data Connect のヒント、テクニック、トラブルシューティング](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/tips-tricks-troubleshooting-data-connect.md)
          * [Tableau Desktop は接続を確立できません](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Power BI ツールは、指定されたパスワードではに接続できません](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
@@ -1788,7 +1793,7 @@ ht-degree: 89%
       * [アセットおよびドキュメントのレビューと承認に使用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [統合承認の概要](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-      * でのアセットとドキュメントの承認の設定 {#manage-asset-review-and-approval} 管理
+      * アセットとドキュメントの承認の設定と管理 {#manage-asset-review-and-approval}
          * [アセットおよびドキュメント承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [アセットまたはドキュメントへのレビュー担当者または承認者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
@@ -1816,7 +1821,7 @@ ht-degree: 89%
          * [プルーフのセキュリティの概要](review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
          * [プルーフの進行状況とステータスの概要](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
          * [Web プルーフビューアとデスクトッププルーフビューアの違いの概要](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
-      * プルーフを作成 {#create-proofs}
+      * プルーフを作成する {#create-proofs}
          * [プルーフの作成：記事のインデックス](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
          * [個人用プルーフのデフォルトを設定する](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
          * [複数ページのプルーフを作成する](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
@@ -1826,9 +1831,9 @@ ht-degree: 89%
          * [ドキュメント用のプルーフを作成する](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
          * [基本ワークフローを使用した高度なプルーフの作成](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
          * [自動ワークフローを使用した高度なプルーフの作成](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-      * Adobe Workfront でプルーフを管理 {#manage-proofs-in-workfront}
+      * Adobe Workfrontでのプルーフの管理 {#manage-proofs-in-workfront}
          * [Adobe Workfront内のプルーフの管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-         * プルーフを管理 {#manage-proofs}
+         * プルーフを管理する {#manage-proofs}
             * [プルーフの管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
             * [プルーフの設定を編集](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
             * [Adobe Workfront 内でプルーフの概要を印刷](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
@@ -1843,15 +1848,15 @@ ht-degree: 89%
             * [プルーフのバージョンの表示](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
             * [プルーフバージョンの詳細を表示および管理](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
             * [プルーフのバージョンのダウンロード](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
-         * プルーフレビュアーを管理 {#manage-proof-reviewers}
+         * プルーフレビュアーを管理する {#manage-proof-reviewers}
             * [プルーフレビュー担当者の管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
             * [プルーフのアクセスおよびサブスクリプション設定を行う](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
             * [Adobe Workfront 内でプルーフを共有する](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
             * [プルーフのレビュアーにメールメッセージを送信する](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
-         * プルーフ通知の管理 {#manage-proof-notifications}
+         * プルーフ通知の通知 {#manage-proof-notifications}
             * [プルーフ通知の管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
             * [プルーフのコメントおよび校正判断に関する通知を管理](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
-         * プルーフの期限の管理 {#manage-proof-deadlines}
+         * プルーフの期限を管理 {#manage-proof-deadlines}
             * [プルーフ期限の管理：記事インデックス](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
             * [既存の基本プルーフの締め切りを設定](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
             * [ステージの期限を追加、編集、削除](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
@@ -1872,7 +1877,7 @@ ht-degree: 89%
          * [デスクトッププルーフビューアでプルーフを開く](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
          * [デスクトッププルーフビューアでの非インタラクティブコンテンツのレビュー](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
          * [FAQ - デスクトッププルーフビューアー](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
-      * Adobe Workfront でのプルーフのレビュー {#review-proofs-in-workfront}
+      * Adobe Workfrontでのプルーフのレビュー {#review-proofs-in-workfront}
          * [Adobe Workfront内でプルーフを確認する：記事インデックス](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
          * プルーフのレビュー {#review-a-proof}
             * [プルーフの確認：記事インデックス](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
@@ -1902,12 +1907,12 @@ ht-degree: 89%
             * [プルーフのコメントを削除](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/delete-proof-comment.md)
             * [プルーフのコメントに対するアクションの使用](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
             * [プルーフを共有するようユーザーにタグを付ける](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
-         * プルーフに関する意思決定 {#make-decision-on-proof}
+         * プルーフについて決定 {#make-decision-on-proof}
             * [プルーフに関する決定を行う：記事インデックス](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
             * [プルーフを承認](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
             * [プルーフビューアでのプルーフに関する意思決定](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
             * [プルーフに関する既存の決定の変更](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
-      * Adobe Workfront でのプルーフに関するヒント、テクニックおよびトラブルシューティング {#ttt-proofing-in-workfront}
+      * Adobe Workfrontでのプルーフのヒント、テクニック、トラブルシューティング {#ttt-proofing-in-workfront}
          * [Adobe Workfront内でのプルーフのヒント、テクニック、トラブルシューティング：記事索引](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
          * [Adobe Workfront のプルーフライセンスを持つユーザーの一覧](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
          * [プルーフ権限プロファイルフィールドの一括編集](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
@@ -1924,7 +1929,7 @@ ht-degree: 89%
       * [タイムシートの詳細：記事インデックス](timesheets/timesheets/timesheets.md)
       * [タイムシートの概要](timesheets/timesheets/timesheets-overview.md)
       * [タイムシートレイアウトの概要](timesheets/timesheets/timesheet-layout.md)
-   * タイムシートの作成と管理{#create-and-manage-timesheets-in-adobe-workfront}
+   * タイムシートの作成と管理 {#create-and-manage-timesheets-in-adobe-workfront}
       * [タイムシートの作成と管理：記事インデックス](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
       * [タイムシートプロファイルの作成、編集および割り当て](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
       * [時間タイプと可用性の定義](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
@@ -1948,7 +1953,7 @@ ht-degree: 89%
       * [レートが変更された際に財務の再計算アクションが履歴時間に影響するのを防ぐ](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
       * [Adobe Workfront API を使用して時間レコードをトラック](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
       * [将来の日付の時刻をログに記録できません](timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
-* Adobe Workfront Scenario Planner {#scenario-planner}
+* Adobe Workfront シナリオプランナー {#scenario-planner}
    * [Adobe Workfront シナリオプランナー](scenario-planner/scenario-planning.md)
    * [シナリオプランナーの概要](scenario-planner/get-started-with-scenario-planning.md)
    * [シナリオプランナーの概要](scenario-planner/scenario-planner-overview.md)
@@ -1990,7 +1995,7 @@ ht-degree: 89%
       * [Adobe Workfront Goals での目標コメントの管理](workfront-goals/goal-management/manage-goal-comments.md)
       * [Adobe Workfront Goals の目標の詳細セクションで、目標を更新](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Adobe Workfront Goals で発生している目標の確認](workfront-goals/goal-management/view-in-trouble-goals.md)
-   * Adobe Workfront Goals での目標の調整 {#goal-alignment}
+   * Adobe Workfront Goals で目標を調整 {#goal-alignment}
       * [Adobe Workfront Goals の目標の整合性：記事インデックス](workfront-goals/goal-alignment/goal-alignment.md)
       * [目標を Adobe Workfront Goals で相互に関連付けて整合させる方法](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [結果とアクティビティを目標に変換して目標を連携](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
@@ -2016,7 +2021,7 @@ ht-degree: 89%
       * [Adobe Workfront Goals の用語のカスタマイズ](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
       * [Workfront Goals での目標の共有](workfront-goals/workfront-goals-settings/share-a-goal.md)
       * [Adobe Workfront Goals の通知を有効にする](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Workfront計画 {#adobe-workfront-planning}
+* Adobe Workfrontの計画 {#adobe-workfront-planning}
    * [Adobe Workfront Planning：記事インデックス](planning/planning-information.md)
    * Adobe Workfront計画一般情報 {#adobe-workfront-planning-general-information}
       * [Adobe Workfront計画一般情報：記事索引](planning/general/planning-general-article-index.md)
@@ -2051,7 +2056,7 @@ ht-degree: 89%
       * [数式フィールドの概要](planning/fields/formula-fields.md)
       * [Adobe Workfrontからのフィールドのインポート](planning/fields/import-fields-from-workfront.md)
       * [プライマリフィールドの概要](planning/fields/primary-field-overview.md)
-   * Adobe Workfront Planning のアクセス {#adobe-workfront-planning-access}
+   * Adobe Workfront Planning へのアクセス {#adobe-workfront-planning-access}
       * [Adobe Workfront Planning のアクセス情報：記事索引](planning/access/access-information.md)
       * [Adobe Workfront Planning のアクセスの概要](planning/access/access-overview.md)
       * [Adobe Workfront Planning での共有権限の概要](planning/access/sharing-permissions-overview.md)
@@ -2060,7 +2065,7 @@ ht-degree: 89%
       * [レコードタイプの共有](planning/access/share-record-types.md)
       * [ビューの共有](planning/access/share-views.md)
       * [ビューまたはワークスペースに対する権限のリクエスト](planning/access/request-permissions.md)
-   * Adobe Workfront計画レコード {#adobe-workfront-planning-records}
+   * Adobe Workfront Planning レコード {#adobe-workfront-planning-records}
       * [レコード：記事インデックス](planning/records/records-information.md)
       * [レコードの作成](planning/records/create-records.md)
       * [CSV または Excel ファイルから情報を読み込んでレコードを作成](planning/records/import-file-to-create-records.md)
@@ -2080,7 +2085,7 @@ ht-degree: 89%
       * [レコードの詳細のエクスポート](planning/records/export-the-record-page.md)
       * [Workfront オブジェクトをレコードに関連付ける際に、Workfront Planning からデータモデルを作成する](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Workfrontの計画レコードの自動作成を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
-   * Adobe Workfront計画リクエスト {#adobe-workfront-planning-requests}
+   * Adobe Workfront Planning の要求 {#adobe-workfront-planning-requests}
       * [Adobe Workfront Planning リクエスト：記事索引](planning/requests/requests-article-index.md)
       * [Adobe Workfront Planning でのリクエストフォームの作成と管理](planning/requests/create-request-form.md)
       * [レコードを作成するためのAdobe Workfront Planning 要求の発行](planning/requests/submit-requests.md)
@@ -2098,13 +2103,13 @@ ht-degree: 89%
       * [Adobe Workfront Planning 通知設定の管理](planning/notifications/manage-notification-preferences.md)
       * [Adobe Workfront Planning のメール通知の管理](planning/notifications/manage-planning-email-notifications.md)
       * [Adobe Workfront Planning のアプリ内通知の管理](planning/notifications/manage-planning-in-app-notifications.md)
-* Adobe Workfront 統合 {#adobe-workfront-integrations}
+* Adobe Workfront統合 {#adobe-workfront-integrations}
    * [Adobe Workfront 統合](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront の組み込みの統合の概要](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront 統合方法](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
-   * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
+   * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
-      * Creative Cloud アプリケーション用 Adobe Workfront プラグインのインストール {#install-wf-cc}
+      * Creative Cloud アプリケーション用のAdobe Workfront プラグインのインストール {#install-wf-cc}
          * [Adobe Workfront for Creative Cloud アプリケーションのインストール](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
          * [Photoshop 用 Adobe Workfront をインストールして開く](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
          * [Adobe Workfront for XD をインストールして開きます。](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
@@ -2137,7 +2142,7 @@ ht-degree: 89%
       * [Adobe Workfront と Jira の間で項目をリンク](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
       * [Jira と Adobe Workfront の間でリンクされた項目を更新](workfront-integrations-and-apps/use-workfront-with-jira/update-linked-items-between-jira-wf.md)
       * [Jira のアクティビティログの表示](workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md)
-   * Google Workspace {#workfront-for-g-suite} のAdobe Workfront
+   * Google WorkspaceのAdobe Workfront {#workfront-for-g-suite}
       * [Google WorkspaceのAdobe Workfront](workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md)
       * [Adobe Workfront for Google Workspaceのインストール](workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md)
       * [Workfront for Google Workspaceのプライバシーと権限](workfront-integrations-and-apps/workfront-for-g-suite/privacy-and-permissions-in-g-suite.md)
@@ -2165,7 +2170,7 @@ ht-degree: 89%
       * [Adobe Workfront for Outlook に関する追加情報の表示とログアウト](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Outlook for Office を Adobe Workfront および SAML 2.0 で有効にする](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
       * [トラブルシューティング：Outlook 用Workfrontを使用する際の outlookIdentityToken エラー](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
-   * Microsoft Teams 用 Adobe Workfront {#workfront-for-microsoft-teams}
+   * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]：記事インデックス](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Microsoft Teams 用 Adobe Workfront の概要](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
       * [Microsoft Teams 用 Adobe Workfront のインストール](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
@@ -2202,9 +2207,9 @@ ht-degree: 89%
       * [Analyplan 予算配分の Adobe Workfront プロジェクトへの適用](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
       * [Adobe Workfront のキャンペーンリクエストからの Analyplan リスト項目の作成](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
       * [Adobe Workfront キャンペーンリクエストまたはキャンペーンプロジェクトへの Analyplan 予算配分の適用](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
-* Workfront プルーフ {#workfront-proof}
+* Workfront Proof {#workfront-proof}
    * [Workfront Proof：記事インデックス](workfront-proof/workfront-proof.md)
-   * Workfront Proof の概要 {#get-started-wf-proof}
+   * Workfront Proofの概要 {#get-started-wf-proof}
       * [Workfront Proof の概要](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
       * ワークフローの例 {#workflow-examples}
          * [ワークフローの例](workfront-proof/wp-getstarted/workflow-examples/workflow-examples.md)
@@ -2221,7 +2226,7 @@ ht-degree: 89%
          * [サンドボックステスト環境のプレビュー -Workfront Proof](workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
          * [Workfront Proof の言語設定](workfront-proof/wp-getstarted/system-information/language-settings.md)
          * [Workfront Proof でのコーデック](workfront-proof/wp-getstarted/system-information/codecs.md)
-      * Workfront Proof の FAQ {#wf-proof-faq}
+      * Workfront Proofに関する FAQ {#wf-proof-faq}
          * [Workfront Proof - よくある質問](workfront-proof/wp-getstarted/faqs/faqs.md)
          * [FAQ - プルーフとファイルの作成と共有](workfront-proof/wp-getstarted/faqs/faq-create-share-proofs-files.md)
          * [FAQ - プルーフのレビュー](workfront-proof/wp-getstarted/faqs/faq-review-proofs.md)
@@ -2246,7 +2251,7 @@ ht-degree: 89%
          * [Workfront Proof でのプルーフの生成](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
          * [Workfront Proof でのプルーフのコピー](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md)
          * [ドロップゾーン](workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md)
-      * 作業の管理 {#manage-your-work}
+      * 作業を管理 {#manage-your-work}
          * [作業を管理](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-your-work.md)
          * [Workfront Proof でのファイルの管理](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md)
          * [Workfront Proof の表示ページでの項目の管理](workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)
@@ -2272,11 +2277,11 @@ ht-degree: 89%
          * [Workfront Proof でのアーカイブ](workfront-proof/wp-work-proofsfiles/organize-your-work/archive.md)
          * [Workfront Proof データをバックアップする](workfront-proof/wp-work-proofsfiles/organize-your-work/back-up-data.md)
          * [Workfront Proof でコメントを印刷および書き出す](workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md)
-      * デスクトッププルーフビューアでプルーフをレビューする {#review-proofs-in-viewer}
+      * デスクトッププルーフビューアーでのプルーフのレビュー {#review-proofs-in-viewer}
          * [デスクトッププルーフビューアーでのプルーフのレビュー](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/review-proofs-in-desktop-proofing-viewer.md)
          * [デスクトッププルーフビューアーについて](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
          * [デスクトッププルーフビューアーでハイパーリンクを開く方法を設定](workfront-proof/wp-work-proofsfiles/review-proofs-dpv/configure-how-hyperlinks-open.md)
-      * Web プルーフビューアでのプルーフをレビュー {#review-proofs-web-proofing-viewer}
+      * Web プルーフビューアーでプルーフを確認 {#review-proofs-web-proofing-viewer}
          * [Web プルーフビューアーでプルーフを確認](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-proofs-in-wpv.md)
          * [Workfront Proof でプルーフを開く](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/open-proof.md)
          * [プルーフビューアーでワークフローを確認](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/review-workflow.md)
@@ -2288,7 +2293,7 @@ ht-degree: 89%
          * [プルーフビューアーでのプルーフのダウンロード](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/download-proof.md)
          * [Workfront Proof プルーフビューアのキーボードショートカット](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/keyboard-shortcuts.md)
          * [従来のプルーフビューアが削除されました](workfront-proof/wp-work-proofsfiles/review-proofs-wpv/lpv-removed.md)
-      * プルーフとファイルを共有 {#share-proofs-and-files}
+      * プルーフとファイルの共有 {#share-proofs-and-files}
          * [プルーフとファイルの共有](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proofs-and-files.md)
          * [Workfront Proof でのプルーフの共有](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)
          * [Workfront Proof でプルーフリンクを共有](workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof-links.md)
@@ -2341,24 +2346,24 @@ ht-degree: 89%
          * [FAQ：Workfront Proof - 米国から EMEA への移行](workfront-proof/wp-acct-admin/tips-tricks-and-troubleshooting/faq-wp-us-to-emea-mig.md)
    * Workfront Proof の請求設定 {#wf-proof-billing-settings}
       * [Workfront Proof の請求設定](workfront-proof/wp-billingsettings/wp-billing-settings.md)
-      * 請求を管理 {#manage-billing}
+      * 請求を管理する {#manage-billing}
          * [請求を管理する](workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
          * [Workfront Proof の請求ページ](workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)
          * [Workfront Proof での支払い方法の選択](workfront-proof/wp-billingsettings/manage-your-billing/choose-payment-method-in-wp.md)
          * [Workfront Proof の請求書のダウンロード](workfront-proof/wp-billingsettings/manage-your-billing/download-wp-invoice.md)
          * [Workfront Proof アカウントを閉じる](workfront-proof/wp-billingsettings/manage-your-billing/close-wp-acct.md)
-   * プルーフの通知とリマインダー {#proof-notifications-and-reminders}
+   * プルーフ通知とリマインダー {#proof-notifications-and-reminders}
       * [プルーフ通知とリマインダー](workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md)
       * スパムフィルターを回避 {#avoid-spam-filters}
          * [スパムフィルターを回避](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
          * [一般的なメールクライアントのスパム設定を行う](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-spam-settings-clients.md)
          * [スパムフィルターを避けるために Workfront Proof メールを設定する](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md)
          * [Workfront Proof SPF レコード](workfront-proof/wp-emailsntfctns/avoiding-spam-filters/wp-spf-records.md)
-      * レビュアーにメッセージを送信 {#send-messages-to-reviewers}
+      * レビュー担当者にメッセージを送信する {#send-messages-to-reviewers}
          * [レビュー担当者にメッセージを送信する](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
          * [Workfront Proof での割り当てについてレビュアーに通知する](workfront-proof/wp-emailsntfctns/messaging-reviewers/remind-reviewer-assignments-wp.md)
          * [プルーフのレビュアーにリマインダーメッセージを送信する](workfront-proof/wp-emailsntfctns/messaging-reviewers/send-reminder-to-proof-reviewers.md)
-      * プルーフの通知とリマインダー {#proof-notifications-and-reminders}
+      * プルーフ通知とリマインダー {#proof-notifications-and-reminders}
          * [プルーフ通知とリマインダー](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
          * [遅延プルーフメール](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
          * [新規プルーフメール](workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
@@ -2477,7 +2482,7 @@ ht-degree: 89%
       * [API サンプルスクリプト](wf-api/general/api-example-scripts.md)
       * [API を使用したプログラムおよびサービスのデータの同期](wf-api/general/api-sync-data.md)
       * [API を使用したユーザーの非アクティブ化](wf-api/general/deactivate-user-api.md)
-   * イベント登録 {#event-subscriptions}
+   * イベントサブスクリプション {#event-subscriptions}
       * [イベントサブスクリプション](wf-api/api/event-subscriptions.md)
       * [Event Subscription API](wf-api/general/event-subs-api.md)
       * [イベント登録のベストプラクティス](wf-api/general/event-sub-best-practice.md)
@@ -2486,7 +2491,7 @@ ht-degree: 89%
       * [イベント購読のバージョン管理](/help/quicksilver/wf-api/general/event-subs-versioning.md)
       * [イベント登録用のアウトバウンドメッセージ形式](wf-api/api/message-format-event-subs.md)
       * [FAQ - イベント登録](wf-api/general/event-subs-faq.md)
-   * Document Webhooks API {#document-webhooks-api}
+   * ドキュメント Webhooks API {#document-webhooks-api}
       * [Document Webhooks API の記事](wf-api/doc-wbhks-api/document-webhooks-api.md)
       * [Web フックの概要](wf-api/doc-wbhks-api/webhooks-overview.md)
       * [Web フック統合の登録](wf-api/doc-wbhks-api/register-webhook-integration.md)
@@ -2506,10 +2511,10 @@ ht-degree: 89%
       * [ドキュメント Webhooks API](wf-api/doc-wbhks-api/docu-webhook-api.md)
       * [Webhook 接続のテスト](wf-api/doc-wbhks-api/test-webhook-connections.md)
       * [ドキュメント web フックのエラー処理](wf-api/doc-wbhks-api/docu-webhooks-errors.md)
-   * Workfront のオブジェクトに関する説明 {#workfrtont-object-descriptions}
+   * Workfront オブジェクトの説明 {#workfrtont-object-descriptions}
       * [Workfront のオブジェクトに関する説明](wf-api/wf-objects/workfront-objects.md)
       * [カテゴリ](wf-api/wf-objects/category.md)
-   * Adobe Workfront API に関するヒント、テクニックおよびトラブルシューティング {#tips-troubleshooting-apis}
+   * Adobe Workfront API のヒント、テクニックおよびトラブルシューティング {#tips-troubleshooting-apis}
       * [Adobe Workfront API のヒント、テクニックおよびトラブルシューティング](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
       * [Adobe Workfront API 呼び出しのドメイン形式](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
       * [API エラー：「リモートサーバーによってエラーが返されました：（400）無効なリクエスト」](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)

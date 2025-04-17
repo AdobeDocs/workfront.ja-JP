@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
-source-git-commit: c42923efc53798e93589f6ce953f26b7ac561776
+source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 89%
@@ -121,6 +121,7 @@ Adobe Workfront のリリーススケジュールについて詳しくは、[Ado
       <td>
         <p>2025年リリース</p>
         <ul>
+          <!--<li><a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Second Quarter 2025 release overview</a></li>-->
           <li><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">2025年第 2 四半期リリースの概要</a></li>
           <li><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">2025 年第 1 四半期リリースの概要</a></li>
         </ul>
