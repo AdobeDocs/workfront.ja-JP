@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 52d7964219dd0731364f0ab7fea9e5224d8ca9df
+source-git-commit: ea4efcb1566d8d2f35487e158a4f445e6c5a32f7
 workflow-type: tm+mt
-source-wordcount: '13142'
+source-wordcount: '13159'
 ht-degree: 87%
 
 ---
@@ -1920,6 +1920,7 @@ ht-degree: 87%
          * [FAQ：Adobe Workfront 内でのプルーフ - 米国から EMEA への移行](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [アップロード後にドキュメント名が変更され、無効な文字が含まれています](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [埋め込みビデオを使用した PowerPoint の校正](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+         * [インタラクティブなプルーフを新しいバージョンとして追加した場合、プルーフのバージョンをダウンロードまたはプレビューすることができません](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * 承認に関するヒント、テクニックおよびトラブルシューティング {#ttt-approvals}
       * [承認に関するヒント、テクニック、トラブルシューティング：記事索引](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [すべてのユーザーに対するプルーフおよびドキュメントの決定の数を表示](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)

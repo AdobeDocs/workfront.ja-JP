@@ -6,9 +6,9 @@ description: キャンバスダッシュボードで承認指標を確認でき�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 0aeef516c8e3b94edee6fc177766be032241965f
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -199,19 +199,19 @@ KPI とグラフを使用して、ドキュメントの承認に関する高レ�
     </tr>
     <tr>
     <td><strong>期限</strong></td>
-    <td>ドキュメント /承認ステージ /期限</td>
+    <td>ドキュメントの承認/承認ステージ/期限</td>
     </tr>
     <tr>
     <td><strong>要求者</strong></td>
-    <td>ドキュメント /承認ステージ /承認ステージ参加者* /依頼者/検索ボックスに_Name_と入力します。</td>
+    <td>ドキュメントの承認/承認ステージ /承認ステージ参加者* /依頼者/検索ボックスに_Name_と入力します。</td>
     </tr>
      <tr>
     <td><strong>リクエスト日</strong></td>
-    <td>ドキュメント /承認ステージ /承認ステージ参加者* /作成日時</td>
+    <td>ドキュメント承認/承認ステージ /承認ステージ参加者* /作成日時</td>
     </tr>
      <tr>
     <td><strong>承認者</strong></td>
-    <td>ドキュメント /承認ステージ /承認ステージ参加者* /参加者ユーザー/検索ボックスに_Name_と入力します。</td>
+    <td>ドキュメント承認/承認ステージ /承認ステージ参加者* /参加者ユーザー/検索ボックスに「_Name_」と入力します。</td>
     </tr>
     <table>
 
