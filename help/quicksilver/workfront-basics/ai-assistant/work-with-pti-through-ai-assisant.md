@@ -5,18 +5,14 @@ description: 「要約」機能を使用すると、作業項目とドキュメ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
+source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 29%
+source-wordcount: '185'
+ht-degree: 22%
 
 ---
 
 # AI アシスタントを使用して、プロジェクト、タスク、問題を操作します
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのユーザーの場合はプレビュー環境で、月次リリースを有効にしているお客様の場合は実稼動環境で利用できます。</span>
-
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 
 AI アシスタントは、Workfrontでプロジェクト、タスク、イシューを見つけるのに役立ちます。
