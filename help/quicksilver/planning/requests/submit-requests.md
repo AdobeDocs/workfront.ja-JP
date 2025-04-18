@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 4bdd4510a5ff7faf8f497299eac0a10f4fe7fbc2
 workflow-type: tm+mt
 source-wordcount: '1875'
 ht-degree: 6%
@@ -202,7 +202,7 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
      >
      >1 つ以上のワークスペースにアクセスできるすべてのユーザーは、リクエスト エリアの「計画」タブを表示できます。 表示可能な少なくとも権限を持つ、自分または他のユーザーがワークスペースに送信したリクエストのみを表示できます。 Workfront管理者は、システム内の任意のワークスペースに送信されたすべてのリクエストを表示できます。
 
-   * リクエストは、所有者、承認者、および少なくともワークスペースリク <!--and people with Manage access to the request type (asking Rafael about this, because not sure how one would give Manage access to the request type??)--> ストに対する表示権限を持つ人物にのみ表示されます。
+   * リクエストは、所有者、承認者、および少なくともワークスペースに対する表示権限を持つ人物にのみ表示されます。
 
    * アプリ内と、リクエストが正常に送信されたかレビュー用に送信された旨のメール通知が届きます。
    * リクエストフォームが承認に関連付けられている場合、承認者は、リクエストをレビューして承認するためのアプリ内通知とメール通知を受け取ります。
