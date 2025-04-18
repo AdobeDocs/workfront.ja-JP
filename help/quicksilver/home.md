@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront] ドキュメント'
 description: ' [!DNL Adobe Workfront] のドキュメント。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
+source-git-commit: ee145dc2ea21cbadefd5abd80886a3d5f074f804
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 21%
+source-wordcount: '397'
+ht-degree: 19%
 
 ---
 
@@ -21,15 +21,13 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 >[!TAB  最新リリース ]
 
 * [2025年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
-* [2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
-* [2025 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
-* [2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
 * [Adobe Workfrontの 2025 年第 2 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront計画の 2025 年第 1 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
 >[!TAB 2025 リリース ]
 
+* [2025年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
 * [2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [2025 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
 * [Adobe Workfrontの 2025 年第 2 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
