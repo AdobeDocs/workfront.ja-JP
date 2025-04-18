@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
+source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 51%
+source-wordcount: '458'
+ht-degree: 52%
 
 ---
 
@@ -57,7 +57,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> プルーフビューアで使用できる新しいドキュメント承認決定ボタン </a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>新しいドキュメント承認決定ボタンがプルーフビューアに表示されます。 これで、単純なプルーフを作成してから、ドキュメントの概要から承認者とレビュー担当者を追加すると、プルーフビューア内で直接決定できるようになります。</p><p><b> 注意 </b> この機能は、現在、Adobe統合エクスペリエンスのユーザーには使用できません。</p>
+            <p>新しいドキュメント承認決定ボタンがプルーフビューアに表示されます。 これで、単純なプルーフを作成してから、ドキュメントの概要から承認者とレビュー担当者を追加すると、プルーフビューア内で直接決定できるようになります。</p>
         </td>
         <td>2025年4月10日（PT）</td>
         <td>2025年4月17日（PT）</td>

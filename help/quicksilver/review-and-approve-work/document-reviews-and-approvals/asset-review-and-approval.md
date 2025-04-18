@@ -6,9 +6,9 @@ description: Workfrontでレビューおよび承認できるシステムの概�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '356'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 1%
 
 * 承認者としてユーザーを追加
 * プルーフビューアでのレビューとコメント
-* プルーフビューアで決定する
 * 従来のレポートを使用した承認レポートの作成
 * ホームエリアの自分の承認ウィジェットで承認リクエストにアクセスする
 
@@ -51,15 +50,13 @@ ht-degree: 1%
 
 * テンプレートの作成と使用
 
-* プルーフビューアでのレビューとコメント
+* プルーフビューアでの確認、コメント、決定
 プルーフビューアの使用について詳しくは、[ 統合承認とプルーフの併用 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) を参照してください。
 
 * Workfrontのホームウィジェットで、承認に関する複数の主要業績評価指標を表示します
 
 * キャンバスダッシュボード（現在はベータ版）を使用して、統合承認に関するレポートの詳細を表示します
 レポートについて詳しくは、[ レビューおよび承認用のレポートダッシュボードの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
-
-* プルーフビューアで決定する [!BADGE  近日公開 ]{type=Informative}
 
 * 複数のステージ承認の作成 [!BADGE  近日公開 ]{type=Informative}
 
