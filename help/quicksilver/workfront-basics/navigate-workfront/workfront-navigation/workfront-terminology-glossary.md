@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 3a86ce4878304cee749fa298a39f03a46083a7b4
 workflow-type: tm+mt
-source-wordcount: '20999'
+source-wordcount: '21023'
 ht-degree: 94%
 
 ---
@@ -1099,6 +1099,10 @@ Workfront では、時間エントリには次のいずれかのステータス�
   <tr> 
    <td>[!UICONTROL ID]</td> 
    <td> <p>ID は、[!DNL Workfront] ですべてのオブジェクトに関連付けられた英数字のインジケーターです。これは、[!DNL Workfront] データベースで各オブジェクトを一意に識別します。レポート内の任意のオブジェクトの ID または各オブジェクトのリストを表示できます。 </p> <p><b>ヒント</b></p>   <p>また、オブジェクトのページの URL に含まれる ID も確認できます。例えば、プロジェクトの ID は、[!UICONTROL Project Details] ページにアクセスする場合、次の URL に示す数字のようになります。</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+   <td>[!UICONTROL IMS]</td> 
+   <td>Identity Managementシステム。 Adobe IMSでは、Workfrontのユーザー名とパスワードではなく、Adobeを使用してWorkfrontにログインする必要があります。</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Individual Goals]</td> 
