@@ -3,10 +3,10 @@ title: '[!DNL Adobe Workfront] ドキュメント'
 description: ' [!DNL Adobe Workfront] のドキュメント。'
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 51060703d0194ea8aea933e31690f3fb6fff29b2
+source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 20%
+source-wordcount: '407'
+ht-degree: 21%
 
 ---
 
@@ -20,6 +20,7 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 >[!TAB  最新リリース ]
 
+* [2025年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
 * [2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [2025 年第 1 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
 * [2024年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
