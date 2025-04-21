@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ea4efcb1566d8d2f35487e158a4f445e6c5a32f7
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '13159'
+source-wordcount: '13163'
 ht-degree: 87%
 
 ---
@@ -1685,7 +1685,7 @@ ht-degree: 87%
          * [ダッシュボードのコピー](reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
          * [ダッシュボードの削除](reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
          * [ダッシュボードの編集](reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)
-         * [ダッシュボードへの外部 Web ページの埋め込み](reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
+         * [ダッシュボードへの外部 web ページの埋め込み](reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
          * [ダッシュボードへのリクエストキューの埋め込み](reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)
          * [ダッシュボードのエクスポート](reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)
          * [ダッシュボードの印刷](reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
@@ -2040,6 +2040,7 @@ ht-degree: 87%
       * [レコードタイプの概要](planning/architecture/overview-of-record-types.md)
       * [レコードタイプの作成](planning/architecture/create-record-types.md)
       * [CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成](planning/architecture/import-file-to-create-record-types.md)
+      * [レコードタイプのグローバルな作成](planning/architecture/create-record-types-globally.md)
       * [レコードタイプの接続：概要](planning/architecture/connect-record-types-overview.md)
       * [レコードタイプの接続](planning/architecture/connect-record-types.md)
       * [レコードタイプの編集](planning/architecture/edit-record-types.md)

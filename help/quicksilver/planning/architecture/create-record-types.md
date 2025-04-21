@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '993'
-ht-degree: 64%
+source-wordcount: '1098'
+ht-degree: 58%
 
 ---
 
@@ -146,20 +146,30 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
 1. （任意）「**セクションを追加**」をクリックし、新規セクションをワークスペースに追加します。
-1. **レコードタイプを追加** をクリックし、**新規** をクリックします。
+1. **レコードタイプを追加** をクリックし、次に **手動で追加** をクリックします。
 
    「レコードタイプを追加」ボックスが開きます。
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![ 外観のオプションを含むレコードタイプボックスを追加 ](assets/add-record-type-box-with-appearance-options.png)
 
-1. 次の情報を更新します。
+1. 「**外観** タブの次の情報を更新します。
 
    * 「名称未設定のレコードタイプ」を、今後のレコードタイプの名前に置き換えます。<!--did they bring back the field label here and did they rename it to "Name"-->
    * **説明**：レコードタイプに関する詳細情報を追加します。
    * レコードタイプに関連付けられたアイコンの色と形状を選択します。 次の操作を実行します。
       * 新しいレコードタイプを識別する色を選択します。これは、レコードタイプアイコンの色です。灰色はデフォルトで選択されています。
       * リストからアイコンを選択するか、アイコンの名前を入力して何を表しているか説明し、表示されたら選択します。これは、レコードタイプのアイコンです。ファイルのアイコンはデフォルトで選択されています。
+
+1. （オプションおよび条件付き）システム管理者の場合は、「**詳細設定**」をクリックし、「**接続範囲**」セクションで次の情報を更新します。<!--the info here is duplicated in the Edit record types article-->
+
+   * **他のワークスペースから接続** 設定を有効にします。 有効にすると、レコードタイプにアクセスでき、他のワークスペースから接続できるようになります。
+   * レコードタイプにアクセスできるワークスペースを選択します。 次のオプションから選択します。
+
+      * **システム全体**：ユーザーは、管理権限を持つすべてのワークスペースから、このレコードタイプに接続できます。
+      * **特定のワークスペース**：ワークスペースマネージャーがこのレコードタイプに接続できるワークスペースの名前を追加します。
+
+   ![ 「詳細設定」タブの「レコードタイプを作成」ボックス ](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. 「**作成**」をクリックします。
 
