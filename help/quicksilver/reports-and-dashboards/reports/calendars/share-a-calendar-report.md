@@ -6,7 +6,7 @@ description: カレンダーを他のユーザーと共有して公開し、 [!D
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 14b78ee4dc441ca84b891b2f021d959fcf357fdd
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 82%
@@ -78,11 +78,15 @@ ht-degree: 82%
    * **[!UICONTROL 表示]：**&#x200B;ユーザーは、カレンダーを確認し、共有できます。
 
      ![カレンダーを表示アクセスで共有](assets/calendar-share-view-permissions-350x249.png)
-     <!--![Share calendar with view access](assets/view-calendar.png)-->
+
+     <!--
+      ![Share calendar with view access](assets/view-calendar.png)
+      -->
 
    * **[!UICONTROL 管理]：** ユーザーは、カレンダーへのフルアクセス権を持ち、アクセスレベルで付与される管理権限を除き、すべての表示権限を持ちます。
 
      ![カレンダーをアクセス管理で共有](assets/calendar-share-manage-permissions-350x241.png)
+
      <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
      >[!NOTE]
