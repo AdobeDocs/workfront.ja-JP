@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
+source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1118'
 ht-degree: 1%
 
 ---
@@ -60,14 +60,14 @@ Workfrontには、2 つのバージョンのイベント購読があります。
   <tr> 
    <td> <p>パラメーター値</p> </td> 
    <td> <p>カスタムフォームを含むテンプレートから作成された任意のオブジェクトの場合、<code>CREATE</code> イベントが送信された後、パラメーター値（計算フィールドとその値を含む）を含む <code>UPDATE</code> が送信されました。    </p> </td> 
-   <td> <p>計算フィールドを含むパラメーター値を含む <code>CREATE</code> イベントのみが送信されます。</p> </td> 
-   <td> <p>パラメーター値（計算カスタムフィールドを含む）を持つ <code>UPDATE</code> イベントにフィルターがあり、パラメーター値を含むオブジェクト <code>CREATE</code> イベントの後に受け取ることを想定している場合、その <code>UPDATE</code> イベントは受け取らなくなります。 オブジェクトの作成時にパラメーター値を表示する場合は、追加の <code>CREATE</code> サブスクリプションを作成する必要があります。</p> </td> 
+   <td> <p>計算されたパラメーター値を持つカスタムフォームを含むテンプレートからオブジェクトが作成された場合、<code>CREATE</code> イベントのみが送信され、計算フィールドを含むパラメーター値が含まれます。</p> </td> 
+   <td> <p>のサブスクリプションがある場合 <tr><ul><ul><code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
   </tr> 
-  <tr> 
-   <td> <p>複数選択タイプフィールド</p> </td> 
-   <td> <p>複数選択タイプのフィールドに対する変更を含むイベントタイプの場合、フィールドに値が 1 つしか含まれていなければ、変換されて文字列として送信されます。 それ以外の場合は、配列として送信されます。 </p><p>例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> は変換され、<code>myMultiSelectField: "oneValue"</code> として送信されます。</li><li><code>myMultiSelectField: ["first", "second"]</code> は <code>myMultiSelectField: ["first", "second"]</code> として送信されます。</li></ul> </td> 
-   <td> <p>配列内の値の数に関係なく、配列として送信されます。 </p><p>例：</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> は <code>myMultiSelectField: ["oneValue"]</code> として送信されます。</li><li><code>myMultiSelectField: ["first", "second"]</code> は <code>myMultiSelectField: ["first", "second"]</code> として送信されます。</li></ul> </td> 
-   <td> <p>複数選択フィールドに対するフィルターを持つ購読があり、値を文字列とする場合、値を配列として持つのと同じフィルターを持つ新しい購読を作成する必要があります。 </p> </td> 
+   
+   <td> <p>Multi-Select type fields</p> </td> 
+   <td> <p>For any type of event that contains a change on a multi-select type field, if the field only contained one value it would be converted to and sent as a string. Otherwise it would be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is converted and sent as <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Regardless of how many values are in the array, it will be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is sent as <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>If you have a subscription with a filter on a multi-select field, and the value as a string, you must create a new subscription with the same filter that has the value as an array. </p> </td> 
   </tr> 
  </tbody> 
 </table>
