@@ -7,9 +7,9 @@ description: ここでは、Workfront Data Connect のデータの構造と内�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 7%
 
 ---
@@ -1746,7 +1746,7 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
              <td>NOTEID</td>
         </tr>
         <tr>
-             <td>オブジッド</td>
+             <td>OBJID</td>
              <td>FK</td>
              <td>OBJCODE に基づく変数</td>
              <td>OBJCODE フィールドで識別されたオブジェクトのプライマリキー/ ID</td>
@@ -1810,7 +1810,7 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
              <td>TEMPLATETASKID</td>
         </tr>
         <tr>
-             <td>トポブジッド</td>
+             <td>TOPOBJID</td>
              <td>FK</td>
              <td>TOPOBJCODE に基づく変数</td>
              <td>TOPOBJCODE フィールドで識別されるオブジェクトのプライマリキー/ID</td>
@@ -1890,6 +1890,235 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
              <td>SYSID</td>
              <td>-</td>
              <td colspan="2">関係ではありません。内部適用目的で使用されます</td>
+        </tr>
+    </tbody>
+</table>
+
+### ドキュメントの承認（新規）
+
+お客様の限定提供
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront エンティティ名</th>
+            <th>インターフェイス参照</th>
+            <th>API リファレンス</th>
+            <th>API ラベル</th>
+            <th>データレイクの表示</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>ドキュメントの承認</td>
+            <td>承認</td>
+            <td>該当なし</td>
+            <td>該当なし</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>プライマリ/外部キー</th>
+            <th>タイプ</th>
+            <th>関連テーブル</th>
+            <th>関連フィールド</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>メモ：これは、承認が関連付けられている DOCUMENTVERSION オブジェクトの ID でもあります。</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>変数（ASSETTYPE に基づく）</td>
+             <td>ASSETTYPE フィールドで識別されたオブジェクトのプライマリキー/ ID</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">関係ではありません。内部適用目的で使用されます</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">関係ではありません。内部適用目的で使用されます</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### ドキュメント承認ステージ （新規）
+
+お客様の限定提供
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront エンティティ名</th>
+            <th>インターフェイス参照</th>
+            <th>API リファレンス</th>
+            <th>API ラベル</th>
+            <th>データレイクの表示</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>ドキュメントの承認ステージ</td>
+            <td>承認ステージ</td>
+            <td>該当なし</td>
+            <td>該当なし</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>プライマリ/外部キー</th>
+            <th>タイプ</th>
+            <th>関連テーブル</th>
+            <th>関連フィールド</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>APPROVALID</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">OBJCODE に基づく変数</td>
+             <td>OBJCODE フィールドで識別されたオブジェクトのプライマリキー/ ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### ドキュメント承認ステージ参加者（新規）
+
+お客様の限定提供
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront エンティティ名</th>
+            <th>インターフェイス参照</th>
+            <th>API リファレンス</th>
+            <th>API ラベル</th>
+            <th>データレイクの表示</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>ドキュメントの承認ステージ参加者</td>
+            <td>承認の決定</td>
+            <td>該当なし</td>
+            <td>該当なし</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>プライマリ/外部キー</th>
+            <th>タイプ</th>
+            <th>関連テーブル</th>
+            <th>関連フィールド</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">APPROVALID</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>APPROVALID</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSETID</td>
+             <td>FK</td>
+             <td>変数（ASSETTYPE に基づく）</td>
+             <td>ASSETTYPE フィールドで識別されたオブジェクトのプライマリキー/ ID</td>
+        </tr>
+        <tr>
+             <td class="key">DECISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">OBJCODE に基づく変数</td>
+             <td>OBJCODE フィールドで識別されたオブジェクトのプライマリキー/ ID</td>
+        </tr>
+        <tr>
+             <td class="key">PARTICIPANTID</td>
+             <td>FK</td>
+             <td class="relatedtable">変数（PARTICIPANTTYPE に基づく）</td>
+             <td>PARTICIPANTTYPE フィールドで識別されたオブジェクトのプライマリキー/ ID</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGEID</td>
         </tr>
     </tbody>
 </table>
@@ -4540,7 +4769,7 @@ Self</td>
         <tr>
             <td>設定</td>
             <td>表示，フィルター，グループ化，レポート定義</td>
-            <td>プロセット</td>
+            <td>PROSET</td>
             <td>設定</td>
             <td>PREFERENCES_CURRENT<br>PREFERENCES_DAILY_HISTORY<br>PREFERENCES_EVENT</td>
         </tr>

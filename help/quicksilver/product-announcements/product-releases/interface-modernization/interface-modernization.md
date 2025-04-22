@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
+source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1911'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ ht-degree: 0%
 >ほとんどの場合、各更新は最初にプレビュー環境にリリースされ、次に、リストに示されている実稼動リリース日から始まる増加するサブセットのお客様に対して実稼動環境で増分的に有効になります。
 
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
+
+## Workfrontのナビゲーションと検索
+
+### 詳細検索のインターフェイスの更新
+
+**プレビューリリース：4 月 17 日（PT）、実稼動リリース：発表予定**
+
+「詳細検索」領域が次の変更で更新されました。
+
+* 新しい「完全検索」タブを追加しました。 このタブでは、タイプ、入力者、エントリ日、カテゴリ、最終更新者で検索できます。
+* 「詳細検索」タブのフィルターは若干異なります。 現在は、フィルターは事前入力されていません。 オンに切り替えて、フィルターを最初から作成する必要があります。 ページを更新した場合、フィルターは残りません。
+
+詳しくは、[ 検索  [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md) を参照してください。
 
 ## 管理と設定
 
