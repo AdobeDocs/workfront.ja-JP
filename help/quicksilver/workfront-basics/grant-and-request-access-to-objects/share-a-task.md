@@ -6,7 +6,7 @@ description: Adobe Workfront 管理者は、アクセスレベルを割り当て
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 51%
@@ -126,7 +126,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
    ![ 設定済みの高度な権限オプション ](assets/advanced-permission-options.png)
 
-1. （省略可能） タスクの子オブジェクトに対して継承されたアクセス許可を無効にするには、**継承されたアクセス許可** と共に **無効にする** をクリックします。
+1. （オプション）タスクの子オブジェクトに対して継承された権限をオフにするには、**継承された権限** でインラインの **オフ** をクリックします。
 
 1. （オプション）リンクを使用してタスクをすばやく共有するには、「**リンクをコピー**」をクリックして受信者に転送します。
 
