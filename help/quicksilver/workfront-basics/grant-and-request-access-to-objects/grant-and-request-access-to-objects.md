@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: オブジェクトに対する権限の付与とリクエスト
+title: オブジェクトへの権限の付与とリクエスト：記事インデックス
 description: Workfront でオブジェクトに権限を付与してリクエストする方法については、以下の記事を参照してください。
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '176'
+ht-degree: 90%
 
 ---
 
-# オブジェクトに対する権限の付与とリクエスト
+# オブジェクトへの権限の付与とリクエスト：記事インデックス
 
 このセクションには、オブジェクトに権限を付与してリクエストする方法に関する以下の記事が含まれます。
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 * [オブジェクトの利用申請](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [オブジェクトの継承された権限を表示](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [オブジェクトから権限を削除](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [Adobe Workfront でのプロジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [プロジェクトの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [タスクを共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
 * [イシューを共有](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [テンプレートの共有](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
+source-git-commit: ef09ee2fce1619f7e44deb7a584738db955a8599
 workflow-type: tm+mt
-source-wordcount: '13163'
+source-wordcount: '13162'
 ht-degree: 87%
 
 ---
@@ -908,13 +908,13 @@ ht-degree: 87%
       * [通知：その他の情報](workfront-basics/using-notifications/notifications-misc-information.md)
       * [通知：私が行ったリクエスト](workfront-basics/using-notifications/notifications-requests-i-have-made.md)
    * オブジェクトに対する権限の付与とリクエスト {#grant-request-object-permissions}
-      * [オブジェクトに対する権限の付与とリクエスト](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+      * [オブジェクトへの権限の付与とリクエスト：記事インデックス](workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
       * [オブジェクトに対する権限の共有の概要](workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
       * [ホームエリアのオブジェクトに対するアクセスの許可](workfront-basics/grant-and-request-access-to-objects/grant-access-home.md)
       * [オブジェクトへのアクセスをリクエスト](workfront-basics/grant-and-request-access-to-objects/request-access.md)
       * [オブジェクトの継承された権限の表示](workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
       * [オブジェクトの共有](workfront-basics/grant-and-request-access-to-objects/share-an-object.md)
-      * [Adobe Workfront でプロジェクトを共有](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+      * [プロジェクトの共有](workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
       * [タスクの共有](workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
       * [イシューの共有](workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
       * [テンプレートの共有](workfront-basics/grant-and-request-access-to-objects/share-a-template.md)
