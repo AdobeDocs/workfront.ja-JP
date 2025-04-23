@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
+source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 * 「詳細検索」タブのフィルターは若干異なります。 現在は、フィルターは事前入力されていません。 オンに切り替えて、フィルターを最初から作成する必要があります。 ページを更新した場合、フィルターは残りません。
 
 詳しくは、[ 検索  [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md) を参照してください。
+
+### Workfront アカウントにサポートアクセスを許可するためのインターフェイスの更新
+
+**プレビューリリース：4 月 24 日（PT）、実稼動リリース：発表予定**
+
+Workfront アカウントへのサポートアクセス権を付与するために使用するページを更新しました。これにより、Workfrontの他の領域と一致する、より現代的なデザインに仕上がりました。
 
 ## 管理と設定
 
