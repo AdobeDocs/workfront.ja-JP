@@ -3,10 +3,10 @@ product-area: requests
 navigation-topic: create-requests
 title: リクエストの作成と送信
 description: 予定作業は、Adobe Workfront ではプロジェクトとタスクで表されます。ただし、予定外の作業が（ランダムなリクエストの形で）いつでも発生する可能性がある環境で作業する場合もあります。Workfront には、リクエストキューを使用してこのタイプの環境に対応するワークフローが用意されています。
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '2680'
 ht-degree: 82%
@@ -341,7 +341,7 @@ Workfront web アプリでリクエストを作成するには：
 
 ## Workfront 以外からのリクエストを作成する
 
-新しいリクエストを送信し、他のアプリケーションに組み込む際に、リクエストキューへの直接リンクを共有できます。Web または他のアプリケーションからこのリンクにアクセスするユーザーも、このキューにアクセスしてリクエストを送信できるように、アクティブな Workfront アカウントでログインする必要があります。詳しくは、[リクエストキューへのリンクの共有](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)を参照してください。
+新しいリクエストを送信し、他のアプリケーションに埋め込む際に、リクエストキューへの直接リンクを共有できます。Web または他のアプリケーションからこのリンクにアクセスするユーザーも、このキューにアクセスしてリクエストを送信できるように、アクティブな Workfront アカウントでログインする必要があります。詳しくは、[リクエストキューへのリンクの共有](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)を参照してください。
 
 ## Workfront にメールでリクエストを作成する
 

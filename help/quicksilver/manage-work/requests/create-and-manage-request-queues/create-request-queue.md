@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: リクエストキューを作成
 description: ユーザーがプロジェクトの予定作業ではない臨時のリクエストを入力できるよう、リクエストキューを設定できます。例えば、IT 部門に寄せられるすべてのユーザーリクエストを取り込むよう、ヘルプデスクのリクエストキューを設定できます。
-author: Lisa
+author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: dbf96fd133bc9d37e4a3950f3551a566764a889b
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '2855'
 ht-degree: 66%
