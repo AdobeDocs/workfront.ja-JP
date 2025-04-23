@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '2684'
-ht-degree: 59%
+source-wordcount: '2863'
+ht-degree: 54%
 
 ---
 
 # タイムラインビューの管理
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -90,65 +94,6 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
-
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 
 ## タイムラインビューの管理 {#manage-a-timeline-view}
 
@@ -326,7 +271,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >開始日または終了日の値がないレコード、または開始日が終了日より後のレコードは、タイムラインビューに表示されません。
 
-1. 左パネルで「**バーのスタイル**」をクリックし、レコードバーに表示するフィールドを指定します。
+1. 左側のパネルで **バースタイル** をクリックし、レコードバーに表示する情報を指定します。
 
    レコードのテーブルビューで定義されたレコードのプライマリフィールド（またはタイトル）は、デフォルトで選択されています。<!--adjust this when the primary field is released??-->
 
@@ -336,18 +281,30 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >    タイムラインビューにサムネールを表示するには、まずテーブルビューにサムネールを追加する必要があります。詳しくは、[ レコードへのサムネールの追加 ](/help/quicksilver/planning/records/add-thumbnails-to-records.md) を参照してください。
 
-1. **フィールドを追加**&#x200B;をクリックすると、レコードバーに最大 4 つのフィールドを追加できます。
-1. **フィールドを検索**&#x200B;ボックスの内側をクリックし、追加するフィールドをクリックします。
+1. **フィールドを追加** をクリックして、**フィールドを検索** ボックス内をクリックし、追加するフィールドをクリックします。
 
    >[!TIP]
    >
    >   * レコードバーにフィールドを追加する前に、フィールドを作成する必要があります。
    > 
    >   * 1 つ以上のフィールドを選択する必要があります。**名前**&#x200B;はデフォルトで選択されています。
+   >
+   >   * 最大 5 個のフィールドを追加できます。
 
    タイムライン上でバーがどのように表示されるかを示すプレビューが右側に表示されます。
 
    ![ プレビューを使用したレコードの詳細パネルのタイムライン設定 ](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. <span class="preview"> （オプションおよび条件付き）タイムラインを標準モードで表示する場合、「**バーの詳細を切り捨て** 設定を有効にします。 有効にすると、レコードバーの情報は切り捨てられ、バーにカーソルを合わせたときにのみ完全に表示されます。 この設定はデフォルトで無効になっており、情報はバーに完全に表示されます。</span>
+
+   ![ ハイライト表示された「タイムライン設定」ボックスで設定を切り捨てる ](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+   >[!TIP]
+   >
+   >* <span class="preview"> バーの詳細を切り捨て設定は、タイムラインビューをコンパクトモードで表示する場合は使用できず、カレンダービューでは使用できません。</span>
+   >
+   >* <span class="preview"> タイムラインビューを分類して、タイムラインに接続されたオブジェクトを表示する場合、「バーの詳細を切り捨て」設定はメインレコードタイプにのみ適用されます。 接続されたレコードバーには適用されません。</span>
+
 
 1. 左パネルの&#x200B;**カラー**&#x200B;をクリックすると、タイムラインのレコードとグループ化の色をカスタマイズできます。
 
