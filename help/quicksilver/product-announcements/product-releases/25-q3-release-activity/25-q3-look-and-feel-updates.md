@@ -4,7 +4,8 @@ description: 2025年第 3 四半期のリリース期間中のルックアンド
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
+source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 32%
@@ -15,7 +16,7 @@ ht-degree: 32%
 
 このページでは、2025年第 3 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模な更新について説明します。
 
-2025年第 3 四半期リリースで利用可能なすべての変更点のリストについて詳しくは、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)を参照してください。
+2025年第 3 四半期リリースで利用可能なすべての変更点のリストについて詳しくは、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)を参照してください。
 
 ## 設定のリソース管理エリアのルックアンドフィールのアップデート
 
