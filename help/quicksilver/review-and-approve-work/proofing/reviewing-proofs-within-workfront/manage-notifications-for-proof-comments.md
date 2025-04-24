@@ -6,7 +6,7 @@ description: プルーフで作業する際は、Adobe Workfront ユーザーで
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c38e005c-8984-4e99-9527-94a0a6b1071d
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 26%
@@ -14,6 +14,8 @@ ht-degree: 26%
 ---
 
 # プルーフのコメントおよび校正判断に関する通知を管理
+
+<!-- Audited: 4/2025 -->
 
 プルーフで作業する際は、Adobe Workfront ユーザーであるか外部共同作業者であるかに関わらず、プルーフに対するコメントと決定に関して受け取るメール通知を指定できます。 詳しくは、[プルーフのコメントおよび校正判断の通知の概要](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)を参照してください。
 

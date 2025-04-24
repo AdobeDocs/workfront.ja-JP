@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 5d818b2e3c3314c6af076df46f7f806214f97bab
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1868'
 ht-degree: 73%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 73%
 1. 画面の右側で、**[!UICONTROL ACE の追加]**&#x200B;を選択して新しいエントリを作成します。
 1. &#x200B;**[!UICONTROL Add New Entry]**&#x200B; ウィンドウの **[!UICONTROL Path]**&#x200B; フィールドでチェックボックスアイコンを選択し、フォルダー */conf を選択し* す。
 1. 「**Privileges**」フィールドに *jcr:read* と入力します。
-1. 右上隅の「**[!UICONTROL 追加]**&#x200B;」を選択します。
+1. 右上隅の「**追加**」を選択します。
 1. （オプション）上記の手順を繰り返して、さらにエントリを作成します。
 
 ### AEM の [!DNL Workfront] との統合 {#integrate-aem-with-workfront}

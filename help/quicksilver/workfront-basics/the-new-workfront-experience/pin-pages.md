@@ -5,14 +5,16 @@ description: 可視性の向上、適切な整理、迅速なアクセスを実�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 63%
+source-wordcount: '423'
+ht-degree: 62%
 
 ---
 
 # ページを固定してワークスペースをカスタマイズ
+
+<!-- Audited: 4/2025 -->
 
 可視性の向上、適切な整理、迅速なアクセスを実現するために、[!DNL Adobe Workfront] の最も重要な作業をピン留めすることができます。ピン留めされたページは、Workfront の任意のページの上部から常にアクセスできます。
 
@@ -53,6 +55,8 @@ ht-degree: 63%
 1. ピン留めするページに移動します。 プロジェクト、タスク、リクエストキューなど、任意の作業アイテムにすることができます。
 
 1. ページの左上隅にある「**[!UICONTROL 現在のページをピン留め]**」をクリックします。 ピン留めされたページは、[!DNL Workfront] の任意のページの上部からアクセスできるようになりました。
+
+   ![ 現在のページをピン留め ](assets/pin-current-page-button.png)
 
 ## ピン留めされたページにアクセスする
 
