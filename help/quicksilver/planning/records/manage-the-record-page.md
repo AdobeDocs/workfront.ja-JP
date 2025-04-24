@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '1872'
-ht-degree: 9%
+source-wordcount: '2034'
+ht-degree: 8%
 
 ---
 
@@ -116,7 +116,6 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 +++
 
 <!--replace the layout template info in the table with this at release: 
-
 
 <p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
 <p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
@@ -268,42 +267,75 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    レコードのプレビューまたはページのレイアウトに対するすべての変更が、自動的に保存されます。
 
-## レコードのページに接続表示ページを追加する
+## レコードのページへの「接続表示」タブの追加
 
-<!--suggested a new name for this type of page: "Connected records details" - check to see if this changed-->
+<!--suggested a new name for this type of page: "Connected records page" - check to see if this changed, and update this everywhere in this section-->
+
+接続ビューページ タイプのタブをレコードに追加することで、接続されたレコードまたはオブジェクトの情報を表示できます。 接続されたレコードの情報は、読み取り専用のテーブルビューに表示されます。
+
+&lt;! – 上記の最後の文を、リリース時に this に置き換えます。
+
+実稼動環境では、接続されたレコードまたはオブジェクトの情報は、読み取り専用のテーブルビューに表示されます。
+
+<Span class="preview"> プレビュー環境では、接続されたレコードの情報をテーブルビューで編集できます。 別のアプリケーションから接続されたオブジェクトの情報は、テーブルビューでは編集できません。</span> —>
 
 接続表示をレコードのページに追加する場合は、次の点に注意してください。
 
-* 接続表示ページは、レコードのページに追加できます。
+* レコード タイプまたはオブジェクト タイプをレコード タイプに接続した後で、接続表示ページをレコードのページに追加できます。
 
 * レコードのプレビュー領域に接続表示ページを追加することはできません。
 
-* 接続ビューページには、接続されている 1 つのレコードタイプのページがテーブルビューに表示されます。
+* 接続ビューページには、接続されているレコードタイプのページまたは接続されているオブジェクトタイプが、別のアプリケーションからテーブルビューに表示されます。
 
 * 接続表示ページをレコードのページに追加すると、レコードのプレビュー領域にページタブが表示されます。 接続されたレコードのテーブル表示を確認するには、完全ページに移動する必要があります。<!--this might have changed? check and take disclaimer out-->
 
 接続表示ページを追加するには：
 
 1. レコードページビューで、レコード名をクリックして開き、プレビューページの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックします。
-1. **ページを追加**/**接続表示** をクリックします。
+1. **ページを追加** をクリックします。
 
    ![ 接続表示ページを追加モーダル ](assets/add-connection-view-page-modal.png)
 1. **ページ名** を追加し、「**接続ビュー**」をクリックしてから、「**作成**」をクリックします。
 
    レコードのページに新しいタブが追加されます。
 1. リスト内の接続済みレコードまたはオブジェクト タイプの名前を検索またはクリックします。
-選択したレコードタイプのテーブルビューが表示され、接続されたレコードがテーブルビューに表示されます。
+選択したレコードタイプのテーブルビューが新しいページに表示され、接続されたレコードがテーブルビューに表示されます。
 接続されたレコードのすべてのフィールドは、接続されたレコードのタブのテーブル表示に表示されます。
 
    接続されたレコードテーブルの最初の 5 つのフィールドは、デフォルトで表示されます。 デフォルトでは、参照フィールドは表示されません。
-
-   テーブル表示は読み取り専用です。
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![ キャンペーンの詳細のオーディエンスに接続されたテーブル表示 ](assets/audience-connected-table-view-under-campaign-details-page.png)
 
-1. （オプション）タブの名前をダブルクリックします
+1. （オプション）接続されたレコードのテーブル表示で、次のいずれかの操作を行います。
+
+   * レコードの名前をクリックします。 レコードのページが新しいタブで開きます。<!--<span class="preview">In the Preview environment, this opens the record's preview page.</span>-->
+   * **接続** をクリックしてさらにレコードを接続し、接続ボックスの外側をクリックして接続ボックスを閉じます。 新しいレコードが自動的にテーブルに追加されます。
+     <!--* <span class="preview">Edit any information from the connected records inside the table view. </span>-->
+
+   <!--<div class="preview">
+
+   * Hover over a connected record's name, then click the **More** menu ![More menu](assets/more-menu.png), then click one of the following options: 
+      * View 
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Insert record above or below
+      * Delete 
+   * Select one of the records, then click one of the following options in the blue bar at the bottom of the screen: 
+      * View
+      * Copy link
+      * Edit thumbnail
+      * Duplicate
+      * Delete. Delete is the only option available when you select more than one record. 
+
+      For information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+   </div>-->
+
+
+1. （オプション）「接続ビュー」タブの名前をダブルクリックします
 
    または
 
@@ -323,7 +355,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
    >
 
 1. レコードを追加または削除するには、「**接続**」をクリックします。 詳しくは、「レコードの接続 [ を参照してください ](/help/quicksilver/planning/records/connect-records.md)
-1. （オプション）「接続ビュー」タブの名前の上にマウスポインターを置き、**詳細**![ 詳細メニュー ](assets/more-menu.png) をクリックしてから **削除** をクリックして、新しい「接続ビュー」タブを削除します。
+1. （オプション）「接続ビュー」タブの名前にポインタを合わせ、「**詳細**![ 詳細メニュー ](assets/more-menu.png)」をクリックしてから「**削除**」をクリックして「タブ」を削除します。
 
 
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
 workflow-type: tm+mt
-source-wordcount: '2863'
+source-wordcount: '2860'
 ht-degree: 54%
 
 ---
@@ -94,6 +94,14 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+<!--replace the layout template info in the table with this at release: 
+
+
+<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
+<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
+
+-->
 
 ## タイムラインビューの管理 {#manage-a-timeline-view}
 
@@ -303,7 +311,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* <span class="preview"> バーの詳細を切り捨て設定は、タイムラインビューをコンパクトモードで表示する場合は使用できず、カレンダービューでは使用できません。</span>
    >
-   >* <span class="preview"> タイムラインビューを分類して、タイムラインに接続されたオブジェクトを表示する場合、「バーの詳細を切り捨て」設定はメインレコードタイプにのみ適用されます。 接続されたレコードバーには適用されません。</span>
+   >* <span class="preview"> タイムラインビューを分類して接続オブジェクトを表示する場合、「バーの詳細を切り捨て」設定はメインレコードタイプにのみ適用されます。 接続されたレコードバーには適用されません。</span>
 
 
 1. 左パネルの&#x200B;**カラー**&#x200B;をクリックすると、タイムラインのレコードとグループ化の色をカスタマイズできます。
