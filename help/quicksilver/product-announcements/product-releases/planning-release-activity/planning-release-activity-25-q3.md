@@ -6,10 +6,11 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 1%
+source-wordcount: '336'
+ht-degree: 3%
 
 ---
 
@@ -20,6 +21,18 @@ ht-degree: 1%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## 標準のタイムラインビューで長いレコード名を切り捨てるための新しい設定を追加しました
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 4 月 23 日（PT）
+>* 実稼動高速リリース：2025 年 5 月 15 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
+標準ビューでレコード名を表示するときに、タイムライン ビューの [ 設定 ] ボックスの [ バーのスタイル ] タブで、長いレコード名を切り捨てる設定を有効にできるようになりました。 この設定はデフォルトで無効になっており、標準モードでタイムラインビューを表示する場合にのみ有効にできます。
+
+詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
 ## レコードタイプの権限の共有
 

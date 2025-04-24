@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
+source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
 workflow-type: tm+mt
-source-wordcount: '287'
-ht-degree: 32%
+source-wordcount: '424'
+ht-degree: 23%
 
 ---
 
@@ -17,6 +17,35 @@ ht-degree: 32%
 このページでは、2025年第 3 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模な更新について説明します。
 
 2025年第 3 四半期リリースで利用可能なすべての変更点のリストについて詳しくは、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)を参照してください。
+
+## 最近復元されたアイテムのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 4 月 23 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 4 月 23 日（PT）
+
+設定エリアで最近復元された項目のルックアンドフィールを、Workfrontの他のエリアのデザインと一致するように更新しました。 最近復元されたプロジェクト、タスク、リクエスト、ドキュメント、テンプレートの機能は変更されていません。
+
+この変更を表示するには、設定/ごみ箱/最近復元された項目に移動します。
+
+詳しくは、[ 復元された項目の表示 ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md) を参照してください。
+
+## 新しいスタイル設定で報告書を更新しました
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 4 月 23 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 4 月 23 日（PT）
+
+Workfrontの他の領域のデザインと一致するように、複数のレポートのルックアンドフィールを更新しました。 機能は変更されていません。
+
+この更新には、次のオブジェクトタイプに関するレポートのリストとツールバーの視覚的な変更が含まれます。
+
+* テンプレートタスク
+* トピックグループ
+* スコアカード
+* スケジュール
+
+詳しくは、[ カスタムレポートの作成 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) を参照してください。
 
 ## 設定のリソース管理エリアのルックアンドフィールのアップデート
 
