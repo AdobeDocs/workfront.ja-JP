@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '363'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 >* 実稼動高速リリース：2025 年 5 月 15 日（PT）
 >* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
 
-標準ビューでレコード名を表示するときに、タイムライン ビューの [ 設定 ] ボックスの [ バーのスタイル ] タブで、長いレコード名を切り捨てる設定を有効にできるようになりました。 この設定はデフォルトで無効になっており、標準モードでタイムラインビューを表示する場合にのみ有効にできます。
+標準ビューでレコード名を表示するときに、タイムライン ビューの [ 設定 ] ボックスの [ バーのスタイル ] タブで、長いレコード名を切り捨てる設定を有効にできるようになりました。 この設定はデフォルトで無効になっており、標準モードでタイムラインビューを表示する場合にのみ有効にできます。 この設定を無効にすると、既定ではレコード バーの情報が展開されて表示されます。 この機能強化が行われる前は、レコードバーの情報はデフォルトで切り捨てられていました。
 
 詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
