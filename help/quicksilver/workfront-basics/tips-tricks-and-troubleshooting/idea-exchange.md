@@ -5,10 +5,10 @@ title: イノベーションラボ
 description: '[!UICONTROL イノベーションラボ]を使用すると、認証済みユーザーが他の顧客とアイデアを送信したり、アイデアの投票を行ったり、アイデアについて話し合うことができます。'
 feature: Get Started with Workfront
 exl-id: 4775ece1-2841-4acc-b3f0-66cd2783669f
-source-git-commit: 813b97ee0979e29a90293d9ddaba12a33c99f64d
+source-git-commit: 3583368918cf9eb4c64faeda4730e2be08375aed
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 100%
+source-wordcount: '423'
+ht-degree: 96%
 
 ---
 
@@ -47,4 +47,4 @@ ht-degree: 100%
 * **[!UICONTROL 配信済み]：**&#x200B;ソリューションが作成され、配信されました。これ以上のアップデートは提供されず、コメントは無効になります。
 * **[!UICONTROL アーカイブ済み]**：（送信日から）18 か月目に達し、300 ポイント未満のアイデアがアーカイブされます。
 
-使用を開始、または詳細を確認するには、[workfront.com/customer](https://www.workfront.com/customer) からイノベーションラボにログインします。
+開始する場合や詳細を確認する場合は、[ イノベーションラボ ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja) にログインしてください。
