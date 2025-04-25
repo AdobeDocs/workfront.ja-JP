@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 6e4135fc6f0431c8222ce48c18a0b5c4c6f0dbed
 workflow-type: tm+mt
 source-wordcount: '1473'
-ht-degree: 77%
+ht-degree: 76%
 
 ---
 
@@ -53,7 +53,7 @@ Admin Consoleからユーザーのプロファイルに変更を加えると、W
   </tr> 
   <tr> 
    <td role="rowheader">アドビ管理者権限</td> 
-   <td> <p>組織のアドビ製品の製品設定管理者である必要があります。</p> </td> 
+   <td> <p>Adobe製品の製品プロファイル管理者である必要があります</p> </td> 
   </tr> 
  </tbody> 
 </table>
