@@ -8,7 +8,7 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
+source-git-commit: 51dfd1ff1ad0f5847db42cfc1d5f9b5f907f672d
 workflow-type: tm+mt
 source-wordcount: '1868'
 ht-degree: 73%
@@ -74,7 +74,7 @@ ht-degree: 73%
 
 [!UICONTROL AEM Assets] の [!DNL Workfront] コネクタをインストールする前に、次の前提条件が満たされていることを確認してください。
 
-* [!UICONTROL AEM Assets] は、バージョン 6.5 以降でインストールおよび設定されています。 [!UICONTROL AEM Assets] のインストールについては、[[!DNL Adobe Experience Manager]  ドキュメント](https://experienceleague.adobe.com/docs/experience-manager.html?lang=ja)を参照してください。
+* [!UICONTROL AEM Assets] は、バージョン 6.5 以降でインストールおよび設定されています。 [!UICONTROL AEM Assets] のインストールについては、[[!DNL Adobe Experience Manager]  ドキュメント](https://experienceleague.adobe.com/en/docs/experience-manager)を参照してください。
 * （条件付き）ファイアウォールのルールが期待どおりにトラフィックを許可しない場合は、クラスターの IP アドレスやドメインを許可リストに追加します。詳しくは、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 
 ## [!DNL Workfront for AEM Assets] コネクタパッケージのインストール {#install-the-workfront-for-aem-assets-connector-package}
