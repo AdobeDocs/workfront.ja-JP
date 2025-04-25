@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 8fcc6c75811080f3ee152849a149542be8ae820c
 workflow-type: tm+mt
-source-wordcount: '2034'
+source-wordcount: '1974'
 ht-degree: 8%
 
 ---
@@ -273,11 +273,11 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 接続ビューページ タイプのタブをレコードに追加することで、接続されたレコードまたはオブジェクトの情報を表示できます。 接続されたレコードの情報は、読み取り専用のテーブルビューに表示されます。
 
-&lt;! – 上記の最後の文を、リリース時に this に置き換えます。
+<!--replace the last sentence above with this at release:
 
-実稼動環境では、接続されたレコードまたはオブジェクトの情報は、読み取り専用のテーブルビューに表示されます。
+In the Production environment, the information from the connected records or objects displays in a read-only table view. 
 
-<Span class="preview"> プレビュー環境では、接続されたレコードの情報をテーブルビューで編集できます。 別のアプリケーションから接続されたオブジェクトの情報は、テーブルビューでは編集できません。</span> —>
+<Span class="preview">In the Preview environment, the information from the connected records can be edited in the table view. The information from the objects connected from another application is not editable in the table view.</span> -->
 
 接続表示をレコードのページに追加する場合は、次の点に注意してください。
 
