@@ -6,7 +6,7 @@ description: 適切なアクセス権または権限がなければ、ワーク�
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '462'
 ht-degree: 80%
@@ -50,7 +50,7 @@ ht-degree: 80%
  </tbody> 
 </table>
 
-Workfront のプランについて詳しくは、[アドビの計画](https://www.workfront.com/plans)を参照してください。
+Workfront のプランについて詳しくは、[アドビの計画](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 Workfront のワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
 

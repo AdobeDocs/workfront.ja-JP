@@ -9,10 +9,10 @@ hide: true
 hidefromtoc: true
 role: User, Admin
 exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '1867'
-ht-degree: 96%
+source-wordcount: '1870'
+ht-degree: 93%
 
 ---
 
@@ -317,19 +317,19 @@ ht-degree: 96%
 
 コメント機能のベータ版に関する問題、および目標に対して、次のメンテナンスアップデートがリリースされました。
 
-コメントの編集時に添付画像を編集します。詳しくは、<a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja#updates-in-april-2023">2023年4月の更新</a>の記事の「4月27日（PT）のメンテナンスアップデート」の節を参照してください。
+コメントの編集時に添付画像を編集します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a> の「4 月 27 日のメンテナンス更新」の節を参照してください。
 
 ### 2023年4月20日（PT）
 
 コメント機能のベータ版に関する問題、および目標に対して、次のメンテナンスアップデートがリリースされました。
 
-コメント機能のベータ版エクスペリエンスでの目標やイシューの更新から離れる際に画像を下書きとして保持します。詳しくは、<a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja#updates-in-april-2023">2023年4月の更新</a>の記事の「4月20日（PT）のメンテナンスアップデート」の節を参照してください。
+コメント機能のベータ版エクスペリエンスでの目標やイシューの更新から離れる際に画像を下書きとして保持します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a> の「4 月 20 日のメンテナンス更新」の節を参照してください。
 
 ### 2023年4月17日（PT）
 
 コメント機能のベータ版に関する問題、および目標に対して、次のメンテナンスアップデートがリリースされました。
 
-イシュー（新しいコメント機能のベータ版エクスペリエンス）と目標の「更新」セクションで、表示されている画面エリアの外に新しいコメントを表示します。詳しくは、<a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja#updates-in-april-2023">2023年4月の更新</a>の記事の「4月17日（PT）のメンテナンスアップデート」の節を参照してください。
+イシュー（新しいコメント機能のベータ版エクスペリエンス）と目標の「更新」セクションで、表示されている画面エリアの外に新しいコメントを表示します。詳しくは、&lt;a href=&quot;https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates#updates-in-april-2023%22%3EUpdates in April 2023</a> の「4 月 17 日のメンテナンス更新」の節を参照してください。
 
 
 ### 2023年4月6日（PT）の週

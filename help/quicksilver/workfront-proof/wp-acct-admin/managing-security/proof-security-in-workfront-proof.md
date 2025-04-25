@@ -8,10 +8,10 @@ description: ' [!DNL Workfront Proof] にとってデータセキュリティは
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bee0fece-e22b-4f92-9641-81a130f5c346
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '341'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 その結果、当社はクライアントに比類のないレベルのセキュリティとプライバシーを提供します。
 
-詳しくは、[セキュリティの概要](https://www.workfront.com/workfront-security)ページを参照してください。
+詳しくは、[セキュリティの概要](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html)ページを参照してください。
 
 ## 電子サインの必要性
 

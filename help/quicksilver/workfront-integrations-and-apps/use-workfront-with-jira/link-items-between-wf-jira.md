@@ -6,7 +6,7 @@ description: ' [!DNL Jira]  のイシューを、 [!DNL Adobe Workfront]  のタ
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1231'
 ht-degree: 89%
@@ -28,7 +28,7 @@ ht-degree: 89%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] プラン]</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL [!DNL Adobe Workfront] プラン]</a>*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr> 
@@ -144,9 +144,9 @@ Jira のイシューを自動作成するトリガーの定義について詳し
 
    >[!IMPORTANT]
    >
-   >組織がAdobeの統合エクスペリエンスにオンボーディングされた場合、Workfront項目を Jira にリンクするには **参照番号** を使用する必要があります。 （「URL」オプションを使用できますが、使用するとエラーが返されます。） 統合エクスペリエンスについて詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+   >組織がAdobe Unified Experience にオンボーディングされている場合、Workfrontの項目を Jira にリンクするには **参照番号** を使用する必要があります。 （「URL」オプションを使用できますが、使用するとエラーが返されます。） 統合エクスペリエンスについて詳しくは、[Workfront用Adobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
    >
-   >Adobeの統合エクスペリエンスを利用していない組織の場合、URL は変わる可能性があるので、「URL」オプションを使用することはお勧めしません。
+   >Adobe Unified Experience 以外の組織の場合、URL は変わる可能性があるので、「URL」オプションを使用することはお勧めしません。
 
    >[!NOTE]
    >

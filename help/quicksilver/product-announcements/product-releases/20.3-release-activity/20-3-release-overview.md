@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9d25fda7-8116-42ba-961b-12aed4678614
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3829'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -118,7 +118,7 @@ For specific release dates and times for each cluster, see the
 >
 >この記事で説明している機能を使用するには、組織に以下が必要です。
 >
->* Pro 以上の [Adobe Workfront プラン](https://www.workfront.com/plans)。
+>* Pro 以上の [Adobe Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)。
 >* Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 >
 >  Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。
@@ -154,7 +154,7 @@ For specific release dates and times for each cluster, see the
 &gt; <col> 
 &gt; <tbody> 
 &gt;  <tr> 
-&gt;   <td role="rowheader"> <p><a href="https://www.workfront.com/plans" target="_blank">Workfront プラン</a>*</p> </td> 
+&gt;   <td role="rowheader"> <p><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront プラン</a>*</p> </td> 
 &gt;   <td>ビジネス以上</td> 
 &gt;  </tr> 
 &gt;  <tr> 
@@ -435,7 +435,7 @@ API のバージョンについて詳しくは、[API のバージョン管理�
 
 2020年5月20日（PT）より、Workfront は、毎週プレビュー環境で機能を利用できるようになりました。この変更を行う前は、通常、2 週間ごとにプレビュー環境で機能をリリースしていました。
 
-詳しくは、[Workfront プレビューリリースの頻度の変更に関する FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence) を参照してください。
+詳しくは、[Workfront プレビューリリースの頻度の変更に関する FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home) を参照してください。
 
 ### Workfront へのアクセスに必要なドメインを許可リストに追加 {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
@@ -450,11 +450,11 @@ API のバージョンについて詳しくは、[API のバージョン管理�
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://www.workfront.com/campaigns/workfront-one)
+[Workfront One の詳細](https://business.adobe.com/products/workfront.html)
 
 ### 20.3 リリースウェビナー {#20-3-release-webinar}
 
-20.3 製品リリースウェビナーは[こちら](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY)からご覧ください。
+20.3 製品リリースウェビナーは[こちら](https://experienceleague.adobe.com/en/docs/workfront/using/home)からご覧ください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

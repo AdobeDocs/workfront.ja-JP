@@ -6,7 +6,7 @@ description: 外部のソースから、ドキュメントとフォルダーを 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2620'
 ht-degree: 95%
@@ -39,7 +39,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Workfront Proof で最初に作成したプルーフを Workfront で使用できます。現在のライセンスでは、この機能を使用するには Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://www.workfront.com/plans">Workfront のプラン</a>を参照してください。</td> 
+   <td>Workfront Proof で最初に作成したプルーフを Workfront で使用できます。現在のライセンスでは、この機能を使用するには Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront のプラン</a>を参照してください。</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -51,7 +51,7 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td role="rowheader">その他のドキュメントプロバイダー（カスタムドキュメントの統合を経由）</td> 
-   <td> <p class="workfront_plans">現在のライセンスでは、この機能を使用するには Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://www.workfront.com/plans">Workfront のプラン</a>を参照してください。</p> </td>
+   <td> <p class="workfront_plans">現在のライセンスでは、この機能を使用するには Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront のプラン</a>を参照してください。</p> </td>
   </tr> 
  </tbody> 
 </table>

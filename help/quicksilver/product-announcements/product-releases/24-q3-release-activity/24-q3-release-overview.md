@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1831'
 ht-degree: 44%
@@ -223,12 +223,12 @@ ht-degree: 44%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront for Experience Manager AssetsとAssets Essentialsの機能強化 </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront for Experience Manager Assetsと Assets Essentials の機能強化 </a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Experience Manager AssetsとAssets EssentialsのWorkfront統合に関して、次の点が改善されました。</p>
+                        <p>Experience Manager Assetsと Assets Essentials 統合のWorkfrontで次の改善が行われました。</p>
                         <ul>
                             <li><p>この統合では、クラウドサービスプロバイダーとしての GCP がサポートされるようになりました。 以前は、AWSと Azure がサポートされていました。</p></li>
-                            <li><p>統合を通じてExperience Managerに送信されるファイルのサイズ制限は 30 GB に増えました。 以前は、上限は 5 GB でした。</p></li>
+                            <li><p>統合を通じてExperience Managerに送信されるファイルのサイズ上限が 30 GB に増えました。 以前は、上限は 5 GB でした。</p></li>
                         </ul>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -423,9 +423,9 @@ ht-degree: 44%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> より多くのWorkfront組織でAdobeの統合エクスペリエンスを利用できるようになりました </a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobeの統合エクスペリエンスを、より多くのWorkfront組織で利用できるようになりました </a></p>
                         [!BADGE In production ]{type=Informative}
-                        <p>Adobeの統合エクスペリエンスのメリットに企業がアクセスできるように、既存のWorkfrontのお客様が利用できるようにする準備を始めました。 </p>
+                        <p>Adobe Unified Experience のメリットに企業がアクセスできるように、既存のWorkfrontのお客様が利用できるようにする準備に着手しました。 </p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -436,7 +436,7 @@ ht-degree: 44%
                                 <p>特定のお客様の実稼働環境：24.7 リリースの場合（2024 年 7 月 18 日（PT））</p>
                             </li>
                          </ul>
-                         <span style="color: #ff0000;">Adobe統合シェルは、段階的なロールアウトで使用可能になります。 その他の組織は、24.10 および 25.1 リリースでAdobe統合シェルにオンボーディングされます。 </p>
+                         <span style="color: #ff0000;">Adobe統合シェルは、段階的なロールアウトで使用可能になります。 追加の組織は、24.10 および 25.1 リリースでAdobe統合シェルにオンボーディングされます。 </p>
                     </td>
                 </tr>
                 <tr>
@@ -523,8 +523,8 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-2024年第 3 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
+2024年第 3 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)の「新機能」の節を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。

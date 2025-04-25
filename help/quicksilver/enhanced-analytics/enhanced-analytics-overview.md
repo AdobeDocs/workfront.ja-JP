@@ -7,7 +7,7 @@ description: 拡張分析は、事前に構築されたビジュアライゼー�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 96%
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 ![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
-拡張分析を使用して現在の作業を管理し、将来の作業を計画する方法について詳しくは、[拡張分析の学習パス](https://one.workfront.com/s/enhanced-analytics-program)を参照してください。
+拡張分析を使用して現在の作業を管理し、将来の作業を計画する方法について詳しくは、[拡張分析の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 ## 前提条件
 
@@ -42,11 +42,11 @@ ht-degree: 96%
 
 * ビジネスプランまたはエンタープライズプランを有している。
 
-  詳しくは、[Workfront プラン](https://www.workfront.com/plans)を参照してください。
+  詳しくは、[Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 * Workfront 管理者に、拡張分析をレイアウトテンプレートに追加してもらいます。
 
-  詳しくは、[拡張分析：レイアウトテンプレートに分析を追加](https://one.workfront.com/s/managed-content-videos/enhanced-analytics-adding-analytics-to-layout-templates-MCH7URDSIXRREHHHF7TRTYYP2LTE)を参照してください。
+  詳しくは、[拡張分析：レイアウトテンプレートに分析を追加](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
 
 プロジェクトおよびタスクの情報を表示するには、以下が必要です。
 

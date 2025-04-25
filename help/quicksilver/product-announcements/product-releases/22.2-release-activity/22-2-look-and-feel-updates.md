@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 00113f7e-2f69-445d-847e-14fd464241de
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '345'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -55,7 +55,7 @@ Workfront のドキュメント領域のパフォーマンスが向上しまし�
 
 >[!NOTE]
 >
->2022年3月3日（PT）に行われた毎週の[メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)にて、ダッシュボード内のこれらの同じレポート用のツールバーも、実稼動環境でアップデートされました。
+>2022年3月3日（PT）に行われた毎週の[メンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)にて、ダッシュボード内のこれらの同じレポート用のツールバーも、実稼動環境でアップデートされました。
 
 * プロジェクトレポート
 * タスクレポート

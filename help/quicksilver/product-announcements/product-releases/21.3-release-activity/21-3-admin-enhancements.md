@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '334'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 詳しくは、[ブループリントの概要](../../../administration-and-setup/blueprints/blueprints-overview.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスのプロジェクトテンプレート](https://experienceleague.adobe.com/docs/workfront-course-map/using/learning-paths/administrator-fundamentals-for-nwe/project-templates-in-the-new-workfront-experience-MCGLS7GRNLDZDFPF6AEOGIDZFDG4.html?lang=ja)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスのプロジェクトテンプレート](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## グループ管理者向けの新機能：任意のレベルでグループのステータスを作成および管理できます。
 

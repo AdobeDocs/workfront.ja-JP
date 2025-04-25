@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1365'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -138,5 +138,5 @@ Workfront 管理者がポートフォリオ、プログラムまたは会社を�
 
 保存済みの下書きを破棄する際に、下書きが削除されることを通知する確認メッセージで「キャンセル」をクリックできるようになりました。これにより、破棄を止めた場合でも、下書きが失われることはありません。
 
-この機能は、新しい Workfront エクスペリエンスでのみ使用できます。詳しくは、[Workfront リクエストの作成および送信](https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FManage_work%2FRequests%2FCreate_Requests%2Fcreate-submit-requests.html?lang=ja)を参照してください。
+この機能は、新しい Workfront エクスペリエンスでのみ使用できます。詳しくは、[Workfront リクエストの作成および送信](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
 

@@ -8,10 +8,10 @@ author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '926'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
@@ -40,7 +40,7 @@ Adobe Workfront には、新機能と更新をリリースするためのモデ�
 
 ### メンテナンスアップデート
 
-Adobe Workfront 製品に対する問題の修正は、毎週実稼動環境で行われます。最近修正された問題について詳しくは、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)ページを参照してください。
+Adobe Workfront 製品に対する問題の修正は、毎週実稼動環境で行われます。最近修正された問題について詳しくは、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)ページを参照してください。
 
 ## 予定されているリリースから削除された機能
 

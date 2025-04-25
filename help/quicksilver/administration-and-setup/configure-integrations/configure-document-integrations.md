@@ -8,7 +8,7 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 5ff071a6e0af93f5280225355edad1d0dde42b3f
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '1125'
 ht-degree: 91%
@@ -74,7 +74,7 @@ ht-degree: 91%
 
 * [!DNL Workfront Proof]
 
-  [!DNL Workfront Proof] からプルーフをリンクすると、最初に [!DNL Workfront Proof] 内で作成されたプルーフを、[!DNL Workfront] 内で使用可能にすることができます。この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://www.workfront.com/plans)を参照してください。
+  [!DNL Workfront Proof] からプルーフをリンクすると、最初に [!DNL Workfront Proof] 内で作成されたプルーフを、[!DNL Workfront] 内で使用可能にすることができます。この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ ht-degree: 91%
 
 * その他のドキュメントプロバイダー（カスタムドキュメント統合を通じて）。
 
-  この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://www.workfront.com/plans)を参照してください。
+  この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 さらに、サードパーティの DAM 統合を使用して、[!DNL Workfront] ドキュメントのエクスペリエンスを向上させることができます。 ユーザーがサービスを [!DNL Workfront] アカウントにリンクするには、管理者がこれらの機能を有効にする必要があります。
 

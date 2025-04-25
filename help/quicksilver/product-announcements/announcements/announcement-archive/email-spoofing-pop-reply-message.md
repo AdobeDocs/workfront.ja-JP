@@ -6,7 +6,7 @@ description: 20.3 リリース（2020年8月をターゲット）での、Adobe 
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 84%
@@ -31,4 +31,4 @@ ht-degree: 84%
 
 Workfront Proof システムから直接送信されるメールは変更されません。これらのメールは、これまでと同様に引き続き受信します。
 
-その他のご質問やご不明な点は、[Workfront サポートチーム](https://one.workfront.com/s/support?language=ja_JP)にお問い合わせください。
+その他のご質問やご不明な点は、[Workfront サポートチーム](https://experienceleague.adobe.com/?support-tab=home#support)にお問い合わせください。

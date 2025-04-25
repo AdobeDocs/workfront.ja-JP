@@ -7,7 +7,7 @@ description: ワークロードバランサーを使用して、作業用のリ�
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 496420d1c74b7c29d0fb2ff7109ea8478680d117
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '724'
 ht-degree: 91%

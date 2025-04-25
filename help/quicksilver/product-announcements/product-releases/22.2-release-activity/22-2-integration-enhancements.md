@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 93%
@@ -55,7 +55,7 @@ Workfront for Experience Manager 拡張コネクタに、次のアップデー�
 
 >[!NOTE]
 >
->このコネクタのデプロイと設定には、認定されたパートナーが必要です。詳しくは、[Workfront for Experience Manager 拡張コネクタのインストール](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install.html?lang=ja#)を参照してください。
+>このコネクタのデプロイと設定には、認定されたパートナーが必要です。詳しくは、[Workfront for Experience Manager 拡張コネクタのインストール](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)を参照してください。
 
 ## Adobe Creative Cloud 統合で OAuth2 が使用されるようになりました
 

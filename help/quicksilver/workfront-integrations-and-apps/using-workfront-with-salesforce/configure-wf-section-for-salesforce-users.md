@@ -6,7 +6,7 @@ description: ' [!DNL Workfront]  管理者は、 [!DNL Adobe Workfront]  for Sal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 100%
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 # [!DNL Salesforce] ユーザー用 [!DNL Adobe Workfront] セクションの設定
 
-この機能を使用するには、[!UICONTROL Pro] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront]  プラン](https://www.workfront.com/plans)を参照してください。
+この機能を使用するには、[!UICONTROL Pro] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront]  プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 [!DNL Workfront] 管理者は、[!DNL Adobe Workfront] for [!DNL Salesforce] をインストールした後に、[!UICONTROL Salesforce] の新しいセクションで[!UICONTROL 商談]ページレイアウトおよび[!UICONTROL アカウント]
 ページレイアウトに追加することにより、ユーザーがそれを使用できるようになります。

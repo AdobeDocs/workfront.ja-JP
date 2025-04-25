@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3221'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # 22.3 リリースの概要
 
-このページでは、22.3 リリースに含まれる機能について説明します。一覧に表示される機能はすべて、新しい Adobe Workfront エクスペリエンスで使用できます。一部の機能は Adobe Workfront Classic でも使用できますが、[Workfront Classic は 2022年3月に廃止され](https://one.workfront.com/s/new-workfront-experience)、続いて 2022年7月に Workfront Classic のサポートが終了しました。）
+このページでは、22.3 リリースに含まれる機能について説明します。一覧に表示される機能はすべて、新しい Adobe Workfront エクスペリエンスで使用できます。一部の機能は Adobe Workfront Classic でも使用できますが、[Workfront Classic は 2022年3月に廃止され](https://experienceleague.adobe.com/en/docs/workfront/using/home)、続いて 2022年7月に Workfront Classic のサポートが終了しました。）
 
 これらの機能強化は、2022年7月11日（PT）の週に実稼動環境で公開されました。
 
@@ -240,7 +240,7 @@ ht-degree: 99%
     </ul> <p><strong>利用可能な環境：</strong> </p> 
     <ul> 
      <li> <p>新しい Adobe Workfront エクスペリエンス </p> </li> 
-     <li> <p>Adobe Workfront Classic（<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了しました。）</p> </li> 
+     <li> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了しました。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -278,7 +278,7 @@ ht-degree: 99%
     </ul> <p><strong>利用可能な環境：</strong> </p> 
     <ul> 
      <li> <p>新しい Adobe Workfront エクスペリエンス </p> </li> 
-     <li> <p>Adobe Workfront Classic（<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了しました。）</p> </li> 
+     <li> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了しました。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -290,7 +290,7 @@ ht-degree: 99%
     </ul> <p><strong>利用可能な環境：</strong> </p> 
     <ul> 
      <li> <p>新しい Adobe Workfront エクスペリエンス </p> </li> 
-     <li> <p>Adobe Workfront Classic（<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了します。）</p> </li> 
+     <li> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了します。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -534,7 +534,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ## Workfront のメンテナンスアップデート
 
-22.3 リリース時に実施されたメンテナンス更新については、[Workfront メンテナンス更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
+22.3 リリース時に実施されたメンテナンス更新については、[Workfront メンテナンス更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ## 22.3 リリースウェビナー
 
@@ -565,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[トレーニングリリースの更新ページ](https://one.workfront.com/s/training-release-updates)を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[トレーニングリリースの更新ページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 ## サポートされなくなった機能
 

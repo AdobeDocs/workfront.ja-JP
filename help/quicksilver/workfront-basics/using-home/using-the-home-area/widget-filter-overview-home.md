@@ -6,7 +6,7 @@ description: 多数のウィジェットから選択して、ホームページ�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '818'
 ht-degree: 17%

@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 94%
@@ -23,7 +23,7 @@ ht-degree: 94%
 
 2024年3月28日（PT）の[エンドツーエンドのキャンペーン計画用のマーケティングカレンダーとツールを公開](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304)では、組織がエンドツーエンドの運用ライフサイクルを管理および視覚化できるように設計された新しい製品機能について説明します。
 
-また、24.4 リリースのハイライトを含む [PDFファイルを表示 ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} することもできます。
+また、24.4 リリースのハイライトを含む [PDF ファイルを表示 ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} することもできます。
 
 <span class="preview">オフサイクル機能（2024年第 2 四半期のリリース日より前に実稼動にリリースされるもの）は、黄色でハイライト表示されています。</span>
 
@@ -662,9 +662,9 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-2024年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
+2024年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)の「新機能」の節を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
 

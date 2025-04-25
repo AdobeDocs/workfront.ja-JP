@@ -6,10 +6,10 @@ description: 次のプロセスでは、Adobe Experience Manager の従来のコ
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4a8d1e2b-9744-4f72-a337-5057448db4fb
-source-git-commit: 3a1bc4a56cba2fe224a1f0a21c8882c2d9d030de
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,9 +30,9 @@ Adobe Experience Manager Assets as a Cloud Service をご利用のお客様は�
 >
 >拡張コネクタの実装には、認定パートナーまたは Adobe コンサルティングサービスが必要です。
 >
-> パートナーが拡張コネクタで認定を希望する場合は、[Workfront for Experience Manager 拡張コネクタエキスパートシリーズ](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview.html?lang=ja)の記事を参照してください。
+> パートナーが拡張コネクタで認定を希望する場合は、[Workfront for Experience Manager 拡張コネクタエキスパートシリーズ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/workfront/enhanced-connector/aem-experts-series/overview)の記事を参照してください。
 
-拡張コネクタを実装するには、[Workfront for Experience Manager 拡張コネクタの設定](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-connector-configure.html?lang=ja)を参照してください。
+拡張コネクタを実装するには、[Workfront for Experience Manager 拡張コネクタの設定](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-connector-configure)を参照してください。
 
 
 ## 既存アセットの移動

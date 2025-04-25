@@ -6,7 +6,7 @@ draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 34720d3b-71bc-4a33-aad9-4ca14262bd0a
-source-git-commit: 752caa1d94a09871b97a11400d83f28853118d33
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '40'
 ht-degree: 100%

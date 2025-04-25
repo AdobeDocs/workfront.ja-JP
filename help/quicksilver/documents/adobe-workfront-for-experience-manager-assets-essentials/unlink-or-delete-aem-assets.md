@@ -6,10 +6,10 @@ description: Workfront にリンクされているアイテムを Adobe Experien
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: f082be12-2adc-4234-a01a-7543c032a35a
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '219'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -30,8 +30,8 @@ Workfront でリンクされたドキュメントまたはフォルダーを削�
 
 リンクされたドキュメントまたはフォルダーを外部アプリケーションから削除した場合、そのドキュメントまたはフォルダーは、Workfront からも削除するまで、Workfront システムに残ります。
 
-* Adobe Experience Manager as a Cloud Service からアセットを削除するには、Adobe Experience Manager as a Cloud Service ドキュメントの[アセットの削除](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets.html?lang=ja#delete-assets)を参照してください。
-* Adobe Experience Manager Assets Essentials からアセットを削除するには、Adobe Experience Manager Assets Essentials ドキュメントの[アセットまたはフォルダーの削除](https://experienceleague.adobe.com/docs/experience-manager-assets-essentials/help/add-delete.html?lang=ja#delete-assets)を参照してください。
+* Adobe Experience Manager as a Cloud Service からアセットを削除するには、Adobe Experience Manager as a Cloud Service ドキュメントの[アセットの削除](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)を参照してください。
+* Adobe Experience Manager Assets Essentials からアセットを削除するには、Adobe Experience Manager Assets Essentials ドキュメントの[アセットまたはフォルダーの削除](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)を参照してください。
 
 
 

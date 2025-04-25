@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6cc67488-1ba9-4455-9152-366aaabf0939
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2194'
 ht-degree: 39%
@@ -98,7 +98,7 @@ ht-degree: 39%
                 <td>
                     <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}"> レイアウトテンプレートで「すべてを選択」オプションが使用できるようになりました </a></p>
                     [!BADGE In production ]{type=Informative}
-                    <p>レイアウトテンプレートでフィールドをより簡単に表示または非表示にするために、レイアウトテンプレートの詳細ビューの概要エリアと財務エリアに、「すべてを選択」チェックボックスを追加しました。 このオプションは、「ユーザーの表示内容のカスタマイズ」でプロジェクト、タスク、イシュー、Portfolio、またはプログラムを選択した場合に使用できます。</p>
+                    <p>レイアウトテンプレートでフィールドをより簡単に表示または非表示にするために、レイアウトテンプレートの詳細ビューの概要エリアと財務エリアに、「すべてを選択」チェックボックスを追加しました。 このオプションは、「ユーザーに表示されるものをカスタマイズ」でプロジェクト、タスク、イシュー、Portfolioまたはプログラムを選択した場合に使用できます。</p>
                 </td>
                 <td><p><b>公開日：</b></p>
                     <ul>
@@ -511,12 +511,12 @@ ht-degree: 39%
             </tr>
             <tr>
                 <td>
-                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfrontで利用できるAdobeAI アシスタント </a></p>
+                    <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">WorkfrontでAdobe AI アシスタントを利用できます </a></p>
                     [!BADGE In production ]{type=Informative}
-                    <p>作業を簡単に完了できるように、WorkfrontにAdobeの AI アシスタントを追加しました。 AI アシスタントは、次の方法で役立ちます。</p>
+                    <p>作業を簡単に完了できるように、Adobeの AI アシスタントがWorkfrontに追加されました。 AI アシスタントは、次の方法で役立ちます。</p>
                     <ul>
                         <li>作業項目とドキュメントを要約すると、タスク、プロジェクト、アセットの一般的な理解をすばやく得ることができます。</li>
-                        <li>Experience Leagueドキュメントの情報を提供し、手順と参照資料をWorkfrontに取り込むと同時に、より詳細なドキュメントにリンクします。</li>
+                        <li>Experience Leagueのドキュメントの情報を提供し、説明と参照資料をWorkfrontに取り込むと同時に、より詳細なドキュメントへのリンクを示します。</li>
                         <li>計算カスタムフォームフィールドの数式の作成と調整、テキストプロンプトからの数式の生成、既存の数式のエラーの検出を行います。</li>
                         </ul>
                         <p>Workfront管理者は、組織の AI アシスタントを有効または無効にできます。 AI アシスタントは、Select、Prime、Ultimateの各プランのインスタンスで使用できます。</p>
@@ -591,8 +591,8 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-2024 年第 4 四半期リリースで行われたメンテナンス更新について詳しくは、[Workfront メンテナンス更新 ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja) を参照してください。
+2024 年第 4 四半期リリースで行われたメンテナンス更新について詳しくは、[Workfront メンテナンス更新 ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates) を参照してください。
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)の「新機能」の節を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。

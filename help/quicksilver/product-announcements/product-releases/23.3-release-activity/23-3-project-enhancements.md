@@ -5,10 +5,10 @@ author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '210'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -29,10 +29,10 @@ ht-degree: 100%
 * マイ更新およびホームから直接承認の決定
 * 特定のドキュメントバージョンの承認を作成
 
-新規ドキュメント承認の使用について詳しくは、[新規ドキュメント承認の概要](https://experienceleague.adobe.com/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.html?lang=ja)を参照してください。
+新規ドキュメント承認の使用について詳しくは、[新規ドキュメント承認の概要](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview)を参照してください。
 
 ## 新しい「共有」ボタン
 
 プロジェクト、タスクおよびイシューをより直感的に共有できるように、「共有」オプションがその他メニューから取り出されました。新しい「共有」ボタンが、その他メニューの直前に、オブジェクト名の横に表示されるようになりました。ドキュメント、ポートフォリオおよびプログラムの共有に変更はありません。
 
-オブジェクトの共有のについて詳しくは、[オブジェクトの共有](https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/share-an-object.html?lang=ja)を参照してください。
+オブジェクトの共有のについて詳しくは、[オブジェクトの共有](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)を参照してください。

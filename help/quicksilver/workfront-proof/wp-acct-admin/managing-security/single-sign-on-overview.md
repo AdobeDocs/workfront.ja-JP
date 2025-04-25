@@ -8,7 +8,7 @@ description: シングルサインオン（SSO）を使用すると、ユーザ�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb1f6883-6209-4a55-b181-67af4b496ca0
-source-git-commit: 405523606094d4f8553b0aee544d71c2b7f97d86
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-この機能を使用するには、[!UICONTROL Enterprise] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://www.workfront.com/plans)を参照してください。
+この機能を使用するには、[!UICONTROL Enterprise] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 シングルサインオン（SSO）を使用すると、ユーザーは組織の既存のユーザー名とパスワードを使用して [!DNL Workfront Proof] へログインできます。
 

@@ -5,10 +5,10 @@ title: ' [!DNL Adobe Workfront] のヘルプを見つけるクイックガイド
 description: ' [!DNL Adobe Workfront] のヘルプを見つけるクイックガイド'
 feature: Get Started with Workfront
 exl-id: 3cdbf342-4809-44e3-ad9b-b5841950a1e4
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 8789f7ad50f9180edc7549a8a6802d5df6c5b006
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 99%
+source-wordcount: '812'
+ht-degree: 94%
 
 ---
 
@@ -40,12 +40,12 @@ ht-degree: 99%
  <tbody> 
   <tr> 
    <td><strong>[!DNL Adobe Experience League]</strong> で [!DNL Workfront] を確認する </td> 
-   <td> <p><a href="https://experienceleague.adobe.com/docs/workfront.html?lang=ja">https://experienceleague.adobe.com/docs/workfront.html?lang=ja</a> で上部の検索バーは、特定の記事、ディスカッション、トレーニングを見つけるのに役立ちます。あらゆる [!DNL Workfront] の項目の検索エンジンと考えてください。</p> <p>ここでは、次のようなリソースも検索できます。</p> 
+   <td> <p><a href="https://experienceleague.adobe.com/en/docs/workfront">https://experienceleague.adobe.com/en/docs/workfront</a> の上部にある検索バーを使用すると、特定の記事、ディスカッション、トレーニングを見つけるのに役立ちます。 あらゆる [!DNL Workfront] の項目の検索エンジンと考えてください。</p> <p>ここでは、次のようなリソースも検索できます。</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=ja">ドキュメント</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja">チュートリアル</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=ja">製品リリース</a> </p> </li> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics.html?lang=ja">API ドキュメント</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/home">ドキュメント</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home">チュートリアル</a> </p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases"> リリース </a> </p></li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-general-information/api-basics">API ドキュメント</a> </p> </li> 
      <li> <p>その他</p> </li> 
     </ul> </td> 
   </tr> 
@@ -63,7 +63,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td><strong></strong>[!DNL Workfront] <strong>製品</strong>の新機能</td> 
-   <td>最新情報について詳しくは、<a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=ja" target="_blank">製品リリース</a>を参照してください。</td> 
+   <td>最新情報について詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">製品リリース</a>を参照してください。</td> 
   </tr> 
   <tr> 
    <td><strong>[!DNL Workfront] トレーニングでオンデマンドで学ぶ</strong> </td> 
@@ -85,7 +85,7 @@ ht-degree: 99%
    <td>これは、ウェビナー、ebook、ホワイトペーパー、ビデオおよびレポートのソースとなります。</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/jp/customer-success-stories.html?Products=Adobe%2520Workfront">ケーススタディ</a> </td> 
+   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">導入事例 </a></td> 
    <td>60 件以上に及ぶケーススタディのコレクションを通じて、お客様が直面する課題、[!DNL Workfront] ソリューションおよびメリットを説明します。</td> 
   </tr> 
   <tr> 
@@ -107,7 +107,7 @@ ht-degree: 99%
    <td><strong>手順 1：今後の予定を学ぶ</strong> </td> 
    <td> <p>これらのリソースを利用すると、Workfront のアップデートのリリースについて常に把握できます。</p> 
     <ul> 
-     <li> <p><a href="https://experienceleague.adobe.com/docs/workfront/using/product-announcements/product-releases/product-releases.html?lang=ja" target="_blank">製品に関するお知らせ</a>：Workfront の製品ロードマップのアップデートをお探しですか？製品に関するお知らせページでは、リリースのアップデートとロードマップのプレゼンテーションを確認できます。</p> </li> 
+     <li> <p><a href="https://experienceleague.adobe.com/en/docs/workfront/using/product-announcements/product-releases/product-releases">製品に関するお知らせ</a>：Workfront の製品ロードマップのアップデートをお探しですか？製品に関するお知らせページでは、リリースのアップデートとロードマップのプレゼンテーションを確認できます。</p> </li> 
      <li> <p><strong>通知センター</strong>：通知を確認し、アドビの [!DNL Workfront] 製品チームからすべての顧客の情報に関する重要な更新内容を受け取ります。ナビゲーション上部の [!DNL Workfront] の「<a href="https://experience.workfront.com/s/article/View-and-manage-in-app-notifications-323912892">[!UICONTROL "Notifications"]</a>」セクションに移動します。</p> </li> 
     </ul> </td> 
   </tr> 
@@ -116,7 +116,7 @@ ht-degree: 99%
    <td> 
     <ul> 
      <li> <p>[!DNL Workfront] <a href="https://experience.workfront.com/s/article/The-Workfront-Preview-Sandbox-Environment-519456234">サンドボックス</a>の最新のアップデートをテストします。</p> </li> 
-     <li> <p>アップデートがどのように作業に影響を与えるかを特定します。アドビの<a href="https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=ja">ナレッジベース</a>および<a href="https://experienceleague.adobe.com/events/?lang=ja">イベント</a>が役立ちます。製品マネージャーは、多くの場合、機能によって解決された直接のエンドユーザーまたはビジネス上の問題を挙げ、変更への影響を最小限に抑えるのに役立ちます。</p> </li> 
+     <li> <p>アップデートがどのように作業に影響を与えるかを特定します。アドビの <a href="https://experienceleague.adobe.com/en/docs/workfront/using/home"> ナレッジベース </a> および <a href="https://experienceleague.adobe.com/en/events"> イベント </a> がお役に立ちます。 製品マネージャーは、多くの場合、機能によって解決された直接のエンドユーザーまたはビジネス上の問題を挙げ、変更への影響を最小限に抑えるのに役立ちます。</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ ht-degree: 99%
 
 | [[!DNL Adobe Workfront] 統合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | サードパーティのアプリケーションと [!DNL Workfront] を統合できます。統合は、[!DNL Workfront] のユーティリティを拡張し、組織のニーズに合わせて調整できます。このナレッジベースの記事では、統合オプションについて説明し、今後の方向性を示します。 |
 |---|---|
-| [[!DNL Workfront] 組み込みの統合](https://www.workfront.com/integrations) | Workfront の無料の組み込み統合により、同じワークフローやプロセスを維持しながら、Workfront プラットフォームへのスムーズな移行を実現します。 |
+| [[!DNL Workfront] 組み込みの統合](https://business.adobe.com/products/workfront/integrations.html) | Workfront の無料の組み込み統合により、同じワークフローやプロセスを維持しながら、Workfront プラットフォームへのスムーズな移行を実現します。 |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) | [!DNL Workfront] を100 を超えるアプリケーションに接続し、コードを使用せずにビジネスクリティカルなプロセスを容易に自動化できます。 |
 
 {style="table-layout:auto"}
@@ -153,7 +153,7 @@ ht-degree: 99%
 
 [!DNL Workfront] ステータスサイトについて詳しくは、[ [!DNL Adobe Workfront] ステータスサイト](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)を参照してください。
 
-毎週のメンテナンス更新で修正された点については、[メンテナンスアップデート](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
+毎週のメンテナンス更新で修正された点については、[メンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 <!-- the links in this section don't work anymore and I am not sure who would have the content?! Made a note to update this but will have to do some searching - October 26, 2023: 
 

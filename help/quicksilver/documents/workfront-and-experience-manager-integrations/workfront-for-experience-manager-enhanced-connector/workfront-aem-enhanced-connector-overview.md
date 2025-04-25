@@ -7,10 +7,10 @@ description: Adobe Workfront は、作業のライフサイクル全体を 1 か
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: b0c6df90-3ea8-4c81-abe2-48c2748a4d2b
-source-git-commit: 1fd3b135682c096f1715e5da0455fed12e882582
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '495'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -49,10 +49,10 @@ Workfront for Experience Manager の拡張コネクタで、次のことがで�
 
 ## 基本を学ぶ
 
-1. **コネクタをインストールして設定します**。認定パートナーまたは Adobe Professional Services を使用して、Workfront for Experience Manager 拡張コネクタのインストールおよび設定を行い、プロセスの整理と標準化、ガバナンスの確立、アセットの作成から配信までのライフサイクルの効率化を行います。[Adobe Experience Manager 6.5 でのインストール](https://experienceleague.adobe.com/docs/experience-manager-65/assets/integrations/workfront-integrations.html?lang=ja)、または [Adobe Experience Manager as a Cloud Service でのインストール](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/integrations/workfront-connector-install.html?lang=ja)。
+1. **コネクタをインストールして設定します**。認定パートナーまたは Adobe Professional Services を使用して、Workfront for Experience Manager 拡張コネクタのインストールおよび設定を行い、プロセスの整理と標準化、ガバナンスの確立、アセットの作成から配信までのライフサイクルの効率化を行います。[Adobe Experience Manager 6.5 でのインストール](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/integrations/workfront-integrations)、または [Adobe Experience Manager as a Cloud Service でのインストール](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)。
 1. **コネクタを使用します**。Experience Manager Assets でのプロジェクトにリンクされたフォルダーの自動生成、Experience Manager Assets とフォルダーにマッピングされた Workfront メタデータ、双方向のメタデータの同期など、拡張コネクタの機能が実際に動作している様子を確認します。詳しくは、[Workfront for Experience Manager 拡張コネクタ](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)を参照してください。
 
 ## その他の関連ヘルプ
 
-* [Workfront for Adobe Experience Manager](https://www.workfront.com/integrations/adobe/experience-manager) の概要
+* [Workfront for Adobe Experience Manager](https://business.adobe.com/products/workfront/aem-integration.html) の概要
 * [Adobe Workfront for Experience Manager Assets Essentials](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

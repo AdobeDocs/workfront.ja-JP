@@ -4,10 +4,10 @@ title: Adobe Workfront ヘルプへのアクセス
 description: Workfront では、提供されている様々な製品の機能に関する質問への回答を見つけるのに役立つ様々なコンテンツが用意されています。
 feature: Get Started with Workfront
 exl-id: 41b81083-771e-46de-85a3-31ed52d29917
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '156'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -40,11 +40,11 @@ ht-degree: 100%
 
 ## Experience League に関する [!DNL Adobe Workfront] ドキュメントへのアクセス
 
-1. [[!DNL Adobe Workfront]  [!DNL Experience League] に関するドキュメントのページ](https://experienceleague.adobe.com/docs/workfront/using/home.html?lang=ja)に移動します。
+1. [[!DNL Adobe Workfront]  [!DNL Experience League] に関するドキュメントのページ](https://experienceleague.adobe.com/en/docs/workfront/using/home)に移動します。
 
 ヘルプドキュメントの検索に加えて、Experience League から以下の [!DNL Workfront] リソースにアクセスすることもできます。
 
-* Workfront チュートリアル：詳しくは、[[!DNL Workfront] チュートリアル](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)を参照してください。
+* Workfront チュートリアル：詳しくは、[[!DNL Workfront] チュートリアル](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 * [!UICONTROL イノベーションラボ]：詳しくは、[[!UICONTROL イノベーションラボ]](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas?profile.language=ja)を参照してください。
 * [!UICONTROL [!DNL Workfront] コミュニティ]：詳しくは、[[!UICONTROL [!DNL Adobe Workfront] Community]](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja)を参照してください。

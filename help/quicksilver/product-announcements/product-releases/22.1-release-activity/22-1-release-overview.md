@@ -6,7 +6,7 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: daf977fe-957a-40ad-a37f-1c164cb4ada3
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 99%
@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # 22.1 リリースの概要
 
-このページでは、22.1 リリースに含まれる機能について説明します。新しい Adobe Workfront ではすべての機能を利用できます。一部の機能は Adobe Workfront Classic でも使用できますが、[Workfront Classic は 2022年3月に廃止され](https://one.workfront.com/s/new-workfront-experience)、続いて 2022年7月に Workfront Classic のサポートが終了しました。）
+このページでは、22.1 リリースに含まれる機能について説明します。新しい Adobe Workfront ではすべての機能を利用できます。一部の機能は Adobe Workfront Classic でも使用できますが、[Workfront Classic は 2022年3月に廃止され](https://experienceleague.adobe.com/en/docs/workfront/using/home)、続いて 2022年7月に Workfront Classic のサポートが終了しました。）
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -77,7 +77,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#document" class="MCXref xref" xrefformat="{para}">更新領域に記録されたドキュメントのダウンロード</a> </p> <p>ユーザーが Workfront に保存しているドキュメントのダウンロード数をトラックできるように、ユーザーがドキュメントをダウンロードしたときに、更新エリアでエントリが記録されるようになりました。</p> <p>この機能は、新しくアップロードしたドキュメントのプレビューでテストすることをお勧めします。</p> </td> 
-   <td> <p>プレビューリリース： 2021 年 12 月 16 日<br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後 2022年7月にサポート終了となります。)</p> </td> 
+   <td> <p>プレビューリリース： 2021 年 12 月 16 日<br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後 2022年7月にサポート終了となります。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#create" class="MCXref xref" xrefformat="{para}">OAuth2 アプリを作成してアプリケーションを Workfront と統合</a> </p> <p>Workfront で組み込みの統合が提供されていない他のアプリケーションと Workfront を統合できるようになりました。統合するアプリケーションの OAuth2 アプリを作成すると、データが安全な業界標準の OAuth2 認証プロトコルで保護されていることを確認しながら、そのアプリケーションで Workfront にアクセスできるようになります。</p> <p>以前は、他のアプリケーションとの統合に使用できるのは、組み込みの統合、Workfront Fusion または Workfront API のみでした。</p> </td> 
@@ -140,11 +140,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#groups" class="MCXref xref" xrefformat="{para}">グループが独自のタイムシートと時間の環境設定を指定可能</a> </p> <p>大規模な組織の一部のグループでは、管理者がシステムレベルで構成した環境設定を継承するのではなく、タイムシートと時間環境設定を固有のワークフローに合わせて個別に指定しなければならない場合があります。Workfront 管理者が、システム内のすべてのグループのタイムシートと時間環境設定のロックを解除して、独自に設定できるようになりました。</p> <p>この機能は最近、プロジェクトの環境設定や、タスクおよびイシューの環境設定に追加されました。 </p> </td> 
-   <td> <p><b>公開日：</b> </p> <p>プレビューリリース：2021年9月9日（PT）<br></p> <p>実稼動リリース：2021年11月8日（PT）<span style="color: #ff0000;">（この機能は、21.4 リリースで、クラスター 4 のお客様のみが実稼動環境で使用できるようになりました。2021年11月8日（PT）に、他のすべてのクラスターでも実稼動環境で使用できるようになりました）。</span></p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後 2022年7月にサポート終了となります。)</p> </td> 
+   <td> <p><b>公開日：</b> </p> <p>プレビューリリース：2021年9月9日（PT）<br></p> <p>実稼動リリース：2021年11月8日（PT）<span style="color: #ff0000;">（この機能は、21.4 リリースで、クラスター 4 のお客様のみが実稼動環境で使用できるようになりました。2021年11月8日（PT）に、他のすべてのクラスターでも実稼動環境で使用できるようになりました）。</span></p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後 2022年7月にサポート終了となります。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#select2" class="MCXref xref" xrefformat="{para}">グループのロックを解除または再ロックする複数の通知の選択</a> </p> <p>グループのメール通知のロック解除または再ロックが、より速く簡単になりました。複数の通知を選択し、選択内容が正しいことを確認してから、ツールバーに表示される新しい「ロック解除」ボタンまたは「ロック」ボタンをクリックします。</p> <p>以前は、通知を 1 つずつロック解除および再ロックする必要がありました。Workfront には現在 95 件の通知があるので、すべての通知または多数の通知に対して操作を行う場合は長い時間がかかっていました。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年10月14日（PT） <br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後 2022年7月にサポート終了となります。)</p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年10月14日（PT） <br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後 2022年7月にサポート終了となります。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-admin-enhancements.md#for" class="MCXref xref" xrefformat="{para}">グループ管理者の場合：グループを削除する際に置換グループを簡単に選択できます。</a> </p> <p>「グループの削除」ボックスに加えられた 2 つの改善により、グループを削除する際に、削除されたグループのユーザー、作業項目およびサブグループを保持する置換グループを選択しやすくなりました。</p> 
@@ -173,7 +173,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#limit" class="MCXref xref" xrefformat="{para}">共有しているテンプレートにドキュメントを追加する機能を制限</a> </p> <p>プロジェクトにドキュメントを追加しているつもりで、プロジェクトテンプレートにドキュメントを追加してしまう場合があります。これを防ぐには、閲覧権限でテンプレートを共有する際に、新しい詳細設定「ドキュメントを追加」を無効にできます。これにより、受信者はテンプレートにドキュメントを追加できなくなります。</p> </td> 
-   <td><strong>以下の日に利用可能に</strong> <p>プレビューリリース：2021年10月14日（PT） <br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic (<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後く 2022年7月にサポート終了となります。)</p> </td> 
+   <td><strong>以下の日に利用可能に</strong> <p>プレビューリリース：2021年10月14日（PT） <br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic (<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後く 2022年7月にサポート終了となります。)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-project-enhancements.md#update" class="MCXref xref" xrefformat="{para}">ダッシュボードのダッシュボードリストとレポートのツールバーの更新</a> </p> <p>4 つのダッシュボードページのツールバーは、プロジェクト、タスク、イシューなどの他のワークフロントリストと一致するモダンな外観になりました。この直感的なツールバーにより、ダッシュボードの追加、編集、共有、コピー、削除が簡単になりました。</p> </td> 
@@ -238,7 +238,7 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-resource-mgt-enhancements.md#override" class="MCXref xref" xrefformat="{para}">担当業務の管理時に通貨を上書き</a> </p> <p>グローバル組織全体のコストと請求レートを容易に管理できるように、担当業務の通貨の上書きを実装しました。この機能を使用して、担当業務の場所に一致する通貨で担当業務のコストと請求レートを設定できるようになりました。これにより、担当業務のすべての財務計算でシステム通貨が上書きされます。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月2日（PT） <br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic （<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後、2022年7月に Workfront Classic のサポートは終了します。）</p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月2日（PT） <br></p> <p>実稼動版リリース：22.1 リリース </p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後、2022年7月に Workfront Classic のサポートは終了します。）</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -289,11 +289,11 @@ For specific release dates and times for each cluster, see the
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#electron" class="MCXref xref" xrefformat="{para}">プルーフの電子サインの機能強化</a> </p> <p>プルーフへの電子サインを簡単にしました。ユーザーは、Workfront 資格情報を使用して、プルーフに関する決定にサインできるようになりました。</p> <p>SSO 資格情報を使用してプルーフに電子サインを行うには、Workfront Proof で SSO を設定する必要があります。 </p> <p>以前は、ユーザーは Workfront Proof の資格情報を使用する必要がありましたが、これは Workfront の資格情報とは異なります。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月2日（PT）<b style="color: #ff0000;">（EMEA と米国の両方のお客様が対象）</b><br></p> <p>実稼動版リリース：未定<b style="color: #ff0000;">（2021年12月21日（PT）に EMEA のお客様に、2022年2月3日（PT）に残りのすべてのお客様に提供を開始）</b></p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic （<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後 2022年7月にサポート終了となります。）</p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月2日（PT）<b style="color: #ff0000;">（EMEA と米国の両方のお客様が対象）</b><br></p> <p>実稼動版リリース：未定<b style="color: #ff0000;">（2021年12月21日（PT）に EMEA のお客様に、2022年2月3日（PT）に残りのすべてのお客様に提供を開始）</b></p> <p><strong>以下の環境で利用可能</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、その後 2022年7月にサポート終了となります。）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-proofing-enhancements.md#desktop" class="MCXref xref" xrefformat="{para}">デスクトップビューアのアップグレード</a> </p> <p>Chrome バージョン 91 までをサポートするようにデスクトッププルーフビューアをアップグレードし、インタラクティブなプルーフとの互換性を高めました。</p> <p>Windows ユーザーが最新バージョンにアップグレードするには、デスクトップビューアを手動で再インストールする必要があります。その後、今後のデスクトッププルーフビューアのアップデートは自動的に行われます。</p> <p>Mac ユーザーは、自動的に最新バージョンにアップグレードされます。</p> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：該当なし<br></p> <p>実稼動版リリース：2021年12月2日（PT）</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic （<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月（PT）に廃止され</a>、その後 2022年7月にサポート終了日となります。）</p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：該当なし<br></p> <p>実稼動版リリース：2021年12月2日（PT）</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic （<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月（PT）に廃止され</a>、その後 2022年7月にサポート終了日となります。）</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -332,7 +332,7 @@ For specific release dates and times for each cluster, see the
      <li> <p>タイムシートボタンを含むフッターが固定され、ページの下部にスクロールせずに常に保存およびキャンセルできるようになりました。また、ページの先頭にすぐに戻るための新しい「先頭に戻る」ボタンもこのエリアに追加しました。</p> </li> 
      <li> <p>新しい警告通知で、未保存の変更に関する警告が表示され、タイムシートから移動する際に情報が失われるのを防ぐことができます。</p> </li> 
     </ul> </td> 
-   <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月2日（PT）<br></p> <p>実稼動版リリース：22.1 リリース</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic（<a href="https://one.workfront.com/s/new-workfront-experience" target="_blank">Workfront Classic は 2022年3月（PT）に廃止され</a>、続いて 2022年7月（PT）に Workfront Classic のサポートが終了になります。）</p> </td> 
+   <td><strong>公開日：</strong> <p>プレビューリリース：2021年12月2日（PT）<br></p> <p>実稼動版リリース：22.1 リリース</p> <p><strong>利用可能な環境：</strong> </p> <p>新しい Adobe Workfront エクスペリエンス </p> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月（PT）に廃止され</a>、続いて 2022年7月（PT）に Workfront Classic のサポートが終了になります。）</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p><a href="../../../product-announcements/product-releases/22.1-release-activity/22-1-other-enhancements.md#updated" class="MCXref xref" xrefformat="{para}">ヘルプメニューのアップデート</a> </p> <p>上部ナビゲーションバーのヘルプリンクをクリックすると、更新された、より効率的なメニューが表示されるようになりました。新しいメニューで提供する情報は同じですが、ナビゲーションのレベルが少なくなり、関連するコンテンツを表示するためのクリック数が少なくなります。</p> </td> 
@@ -417,7 +417,7 @@ Workfront 22.1 リリースウェビナーは 2022年1月12日（PT）に発表�
 
 ## トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[トレーニングリリースの更新ページ](https://one.workfront.com/s/training-release-updates)を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[トレーニングリリースの更新ページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 ## サポートされなくなった機能
 

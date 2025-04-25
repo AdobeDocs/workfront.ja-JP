@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 88a97b1e-4052-485e-8566-963c6ba640b9
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2544'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -267,7 +267,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 2020年5月20日（PT）より、Workfront は、毎週プレビュー環境で機能を利用できるようになります。この変更を行う前は、通常、2 週間ごとにプレビュー環境で機能をリリースしていました。
 
-詳しくは、[Workfront プレビューリリース頻度の変更に関する FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence) を参照してください。
+詳しくは、[Workfront プレビューリリース頻度の変更に関する FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home) を参照してください。
 
 ### Workfront へのアクセスに必要なドメインを許可リストに追加 {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 
@@ -282,7 +282,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://www.workfront.com/campaigns/workfront-one)
+[Workfront One の詳細](https://business.adobe.com/products/workfront.html)
 
 ### 2020.1 リリースウェビナー {#2020-1-release-webinar}
 

@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 150bc838-d6a5-445a-af77-62c4ed74dd1b
-source-git-commit: 99aac8d1621370f901704f58affd9e3e18497c4e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '798'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 100%
 
 新規プロジェクトに常にステータスがあることを確実にするため、管理者が新規プロジェクトに設定されたステータスを非表示にしたりロックを解除したりした場合でも、新規プロジェクトに新たなステータスをもう一度設定するまで、システムはステータスリストの最初のステータスをすべての新規プロジェクトに割り当てるようになりました。
 
-すべての新規プロジェクトのステータスに対する環境設定については、[システム全体のプロジェクト環境の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)（Adobe Workfront Classic を使用している場合は、[プロジェクト環境の設定](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298?lang=ja)）を参照してください。
+すべての新規プロジェクトのステータスに対する環境設定については、[システム全体のプロジェクト環境の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)（Adobe Workfront Classic を使用している場合は、[プロジェクト環境の設定](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
 
 **利用可能な環境：**
 
@@ -42,7 +42,7 @@ ht-degree: 100%
 * 「1 日あたりの通常の勤務時間」などのオプションに無効な数値を入力すると、警告メッセージが、「保存」をクリックした後ではなく、すぐに表示されます。
 * オプションラベルは、Workfront の他の場所（詳細エリアやレポートなど）にある、対応するインターフェイステキストに一致します。
 
-プロジェクトの環境設定エリアについては、[システム全体のプロジェクト環境の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)（Adobe Workfront Classic を使用している場合は、[プロジェクト環境の設定](https://one.workfront.com/s/article/Setting-Project-Preferences-1883392298?lang=ja)）を参照してください。
+プロジェクトの環境設定エリアについては、[システム全体のプロジェクト環境の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)（Adobe Workfront Classic を使用している場合は、[プロジェクト環境の設定](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
 
 **利用可能な環境：**
 
@@ -68,11 +68,11 @@ ht-degree: 100%
 
 この変更を行う前は、タスクの制約は常に「できるだけ早く」に変わります。
 
-タスクの移動については、[タスクを移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)（Adobe Workfront Classic を使用している場合は、[タスクを移動](https://one.workfront.com/s/article/Moving-Tasks-2081996259?lang=ja)）を参照してください。
+タスクの移動については、[タスクを移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)（Adobe Workfront Classic を使用している場合は、[タスクを移動](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
 
-タスクのコピーについては、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)（Adobe Workfront Classic を使用している場合は、[タスクのコピーと複製](https://one.workfront.com/s/article/Copy-and-Duplicate-Tasks-218695605?lang=ja)）を参照してください。
+タスクのコピーについては、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)（Adobe Workfront Classic を使用している場合は、[タスクのコピーと複製](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
 
-すべてのタスクの制約の概要については、[タスクの制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)（Adobe Workfront Classic を使用している場合は、[タスクの制約の概要](https://one.workfront.com/s/article/Task-Constraint-Overview-453396848?lang=ja)）を参照してください。
+すべてのタスクの制約の概要については、[タスクの制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)（Adobe Workfront Classic を使用している場合は、[タスクの制約の概要](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
 
 **利用可能な環境：**
 

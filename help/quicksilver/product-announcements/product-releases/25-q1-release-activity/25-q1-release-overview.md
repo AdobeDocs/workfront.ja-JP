@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2775'
 ht-degree: 30%
@@ -583,7 +583,7 @@ ht-degree: 30%
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">
             データ接続の初回リーダーアカウント作成ボタン</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>Data Connect に初めてアクセスする管理者には、1 回クリックして新しいSnowflakeリーダーアカウントを作成するオプションが表示されるようになりました。 このプロセスが完了するまでに数分かかりますが、それ以上のアクションは必要ありません。</p>
+            <p>Data Connect に初めてアクセスする管理者には、1 回クリックして新しいSnowflake リーダーアカウントを作成するオプションが表示されるようになりました。 このプロセスが完了するまでに数分かかりますが、それ以上のアクションは必要ありません。</p>
         </td>
         <td>
             <p><b>公開日：</b></p>
@@ -638,9 +638,9 @@ ht-degree: 30%
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-other-enhancements.md" class="MCXref xref" xrefformat="{para}">
             リンクされたフォルダー内の移動または削除されたアセットの管理方法に関する更新</a></p>
             [!BADGE In production ]{type=Informative}
-            <p>Experience Manager AssetsとAssets EssentialsのAdobe Workfront統合を使用する際の、移動されたアセットや削除されたアセットの処理方法を変更しました。</p>
+            <p>Adobe WorkfrontとExperience Manager Assetsおよび Assets Essentials の統合を使用する際の、移動および削除されたアセットの処理方法を変更しました。</p>
             <ul>
-                <li>削除されたアセット：AssetsまたはAssets Essentialsのリンクされたフォルダー内でアセットを削除すると、削除されたアセットはプロジェクトドキュメント領域に保持されます。</li>
+                <li>削除されたアセット：Assetsまたは Assets Essentials のリンクされたフォルダー内でアセットを削除すると、削除されたアセットはプロジェクトドキュメント エリアに保持されます。</li>
                 <li>移動されたアセット：アセットがAssetsまたはAssets essentials のリンク先フォルダー以外の場所に移動された場合、移動されたアセットはプロジェクトのドキュメント エリアに保持されます。</li>
             </ul>
         </td>
@@ -747,8 +747,8 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-2025年 第 1 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンス更新](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=ja)を参照してください。
+2025年 第 1 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンス更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)の「新機能」の節を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。

@@ -5,10 +5,10 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Goals
 exl-id: 86d3b8d3-cf91-4f67-9be7-244fc296f43c
-source-git-commit: f4cc5ae89c8746ec4c40ece88bfdb21dc1996575
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '443'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 >
 >**実稼動の可用性：** 20.4 リリースの場合
 
-この機能は、Workfront One の[Workfront Goals の学習パス](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)に含まれるようになりました。
+この機能は、Workfront One の[Workfront Goals の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## Workfront Goals へのアクセス制御
 
@@ -61,7 +61,7 @@ Workfront Goals へのアクセス権の付与について詳しくは、「[Ado
 >
 >**実稼動の可用性：** 20.4 リリースの場合
 
-この機能は、Workfront One の[Workfront Goals の学習パス](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)に含まれるようになりました。
+この機能は、Workfront One の[Workfront Goals の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## Workfront Goals のユーザビリティの改善
 
@@ -82,4 +82,4 @@ Workfront Goals へのアクセス権の付与について詳しくは、「[Ado
 >
 >**実稼動の可用性：** 20.4 リリースの場合
 
-この機能は、Workfront One の[Workfront Goals の学習パス](https://one.workfront.com/s/getting-started?tabset-9473f=c292c)に含まれるようになりました。
+この機能は、Workfront One の[Workfront Goals の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。

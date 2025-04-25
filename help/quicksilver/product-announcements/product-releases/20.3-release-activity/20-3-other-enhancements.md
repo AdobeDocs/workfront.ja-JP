@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1503'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -72,7 +72,7 @@ Workfront でのカレンダーの共有の負担を軽減するために、ユ�
 
 以前にカレンダーで管理できたのは、実際の日付が空いていないと予定されている場合のみでした。
 
-詳しくは、[カレンダーレポートでカスタム日付フィールドを使用](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)を参照してください（または、Workfront Classic を使用している場合は、[カレンダーレポートでカスタム日付フィールドを使用](https://one.workfront.com/s/article/Use-custom-date-fields-in-a-calendar-report-432597950?language=ja_JP)を参照してください）。
+詳しくは、[カレンダーレポートでカスタム日付フィールドを使用](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)を参照してください（または、Workfront Classic を使用している場合は、[カレンダーレポートでカスタム日付フィールドを使用](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください）。
 
 ## メールの変更
 
@@ -82,7 +82,7 @@ Workfront でのカレンダーの共有の負担を軽減するために、ユ�
 
 **受信メールの POP 返信の変更：**&#x200B;システム管理者は、通知への受信メールの返信用にカスタム POP メールサーバーを設定できなくなります。
 
-詳しくは、[メールのスプーフィングと POP 返信メールの変更](https://one.workfront.com/s/article/Email-spoofing-and-POP-reply-email-changes?language=ja_JP)を参照してください。
+詳しくは、[メールのスプーフィングと POP 返信メールの変更](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
 
 ## DomainKeys Identified Mail（DKIM）が Workfront の送信メールに含まれるようになりました
 

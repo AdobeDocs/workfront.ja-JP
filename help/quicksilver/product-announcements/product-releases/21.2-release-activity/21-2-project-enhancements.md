@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4e954d79-da5a-42f5-b43f-b1fdd17316d2
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1653'
 ht-degree: 99%
@@ -29,7 +29,7 @@ ht-degree: 99%
 
 詳しくは、[繰り返しタスクの作成](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける計画担当者の基礎、パート 2：プロジェクトの計画](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-2-plan-a-project-MCDUWIMXC3JRAAFGHX7QYIN2BVDI)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける計画担当者の基礎、パート 2：プロジェクトの計画](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## プロジェクトヘッダーで使用できる新しいボタン
 
@@ -39,7 +39,7 @@ ht-degree: 99%
 
 プロジェクトページのプロジェクトのリストをすばやくフィルターできるように、ヘッダーに 2 つの新しいボタンが追加され、担当プロジェクトフィルターまたは所有プロジェクトフィルターをすばやく適用できます。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける計画担当者の基礎、パート 1：プロジェクトの作成](https://one.workfront.com/s/learningpath5/planner-fundamentals-for-the-new-workfront-experience-MCTOONVRZDLRD3FAIX6SQYSUAHDE)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける計画担当者の基礎、パート 1：プロジェクトの作成](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## スクラムボードからストーリーやイシューを移動または削除
 
@@ -133,9 +133,9 @@ ht-degree: 99%
 
 Workfront Classic で以前は、テキストの書式設定はプロジェクト、タスク、時間数の各リストにのみ表示されていました。
 
-カスタムフィールドでのテキストの書式設定について詳しくは、[カスタムフォームの作成](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FAdministration_and_Setup%2FCustomize_Workfront%2FCreate_manage_Custom_Forms%2Fcreate-a-custom-form.html)を参照してください。
+カスタムフィールドでのテキストの書式設定について詳しくは、[カスタムフォームの作成](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
 
-リストでの情報の表示について詳しくは、[リストの概要](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWorkfront_basics%2FNavigate_Workfront%2FWorkfront_Navigation%2Fview-items-in-a-list.html&amp;_LANG=en)を参照してください。
+リストでの情報の表示について詳しくは、[リストの概要](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
 
 ## 新しい「タスクを編集」ボックス
 

@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8ae95f1e-5241-465d-8cf1-2d4353077b6a
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '147'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 モバイルアプリと ｗeb の両方で Workfront を使用する際のエクスペリエンスの一貫性を高めるために、新しいレイアウトテンプレートまたは既存のレイアウトテンプレートで左パネルのセカンダリナビゲーションをカスタマイズすると、モバイルアプリに自動的に反映されます。
 
-左側のパネルのカスタマイズについて詳しくは、「[新しい Workfront エクスペリエンスでレイアウトテンプレートを使用した左側のパネルのカスタマイズ](https://one.workfront.com/s/article/Customize-the-left-panel-using-a-Layout-Template-in-the-new-Workfront-experience-354734188)」を参照してください。
+左側のパネルのカスタマイズについて詳しくは、「[新しい Workfront エクスペリエンスでレイアウトテンプレートを使用した左側のパネルのカスタマイズ](https://experienceleague.adobe.com/en/docs/workfront/using/home)」を参照してください。
 
 ## モバイルアプリの「いいね！」のアップデート
 

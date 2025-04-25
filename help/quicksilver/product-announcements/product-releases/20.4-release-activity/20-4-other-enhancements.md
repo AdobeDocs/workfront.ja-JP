@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 Workfront Classicでは、グローバルナビゲーションバーの右上隅にあるプロファイル画像のクリックで表示されるメニューに、「新バージョンに切り替える」オプションが表示されます。
 
-この機能は、Workfront One の[管理者の基本、第 1 部の学習パス](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY)に含まれるようになりました。
+この機能は、Workfront One の[管理者の基本、第 1 部の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## Workfront Proof の暗号化の改善
 
@@ -62,7 +62,7 @@ Workfront にアクセスする際は、サポート対象のブラウザーを�
 
 メール通知の設定の詳細については、[システム内の全員に対するイベント通知を設定する](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
 
-この機能は、Workfront Oneｍ の[メールおよびアプリ内通知の学習パス](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0)に含まれるようになりました。
+この機能は、Workfront Oneｍ の[メールおよびアプリ内通知の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## イベント登録の更新をトリガーする新しい API オブジェクト
 

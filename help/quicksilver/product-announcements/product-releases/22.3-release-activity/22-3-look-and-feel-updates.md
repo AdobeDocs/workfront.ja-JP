@@ -6,10 +6,10 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '229'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -43,6 +43,6 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->この変更は、実稼動環境で 2022年5月23日（PT）にアップデートされました。詳しくは、[2022年5月26日（PT）のメンテナンスアップデート](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022)を参照してください。
+>この変更は、実稼動環境で 2022年5月23日（PT）にアップデートされました。詳しくは、[2022年5月26日（PT）のメンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
 
 パンくずリストが使用可能なすべてのエリアで、パンくず区切り記号を更新しました。パンくずリスト内のオブジェクトは、パイプ (|) で区切られるようになりました。この更新の前は、スラッシュ (/) で区切られていました。

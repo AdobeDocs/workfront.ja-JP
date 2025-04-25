@@ -6,7 +6,7 @@ description: Workfrontでレビューおよび承認できるシステムの概�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 1%

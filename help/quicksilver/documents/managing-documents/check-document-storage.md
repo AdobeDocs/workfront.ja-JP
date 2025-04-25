@@ -6,7 +6,7 @@ description: ユーザーが Workfront インスタンスにアップロード�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f5d1963e-b205-44b9-b2b6-b7de465c6977
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '257'
 ht-degree: 79%
@@ -28,7 +28,7 @@ ht-degree: 79%
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront プラン</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Workfront プラン</a>*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
@@ -53,4 +53,4 @@ ht-degree: 79%
 
 >[!NOTE]
 >
->この制限は、他のサードパーティのサービスプロバイダー（SharePoint、Google ドライブ、WebDAM、Box、Dropbox、その他のドキュメントアセット管理プロバイダー）からWorkfrontにリンクするドキュメントには適用されません。
+>この制限は、他のサードパーティのサービスプロバイダー（SharePoint、Google Drive、Webdam、Box、Dropbox、その他の Document Asset Management プロバイダー）からWorkfrontにリンクするドキュメントには適用されません。

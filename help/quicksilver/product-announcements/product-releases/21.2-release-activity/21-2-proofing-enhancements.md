@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 1f82c397-5cb6-4adc-bb84-f5b1e1ed9d5e
-source-git-commit: ea1248f7b5227bbab222b3616ff4222122964358
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '426'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
 プルーフの決定について詳しくは、[ドキュメントエリア](../../../documents/managing-documents/documents-area.md)を参照してください。
 
-この機能が、Workfront One の[新しい Workfront エクスペリエンスでのプルーフとバージョンの管理](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA)の学習パスに含まれるようになりました。
+この機能が、Workfront One の[新しい Workfront エクスペリエンスでのプルーフとバージョンの管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の学習パスに含まれるようになりました。
 
 ## プルーフ承認レポートの新しいフィールド
 
@@ -45,7 +45,7 @@ ht-degree: 100%
 
 これらのフィールドは、デフォルトのレポートには含まれていません。表示する場合は、追加する必要があります。
 
-この機能が、Workfront One の[プルーフのシステム設定、パート 2：ワークフロー管理](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA)に含まれるようになりました。
+この機能が、Workfront One の[プルーフのシステム設定、パート 2：ワークフロー管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## 新しいバージョンを生成する際に、既存のプルーフワークフローを引き継ぐ
 

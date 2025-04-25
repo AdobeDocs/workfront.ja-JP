@@ -6,7 +6,7 @@ description: ' [!DNL Adobe Workfront] 内のオブジェクトのヘッダーを
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3697'
 ht-degree: 95%
@@ -497,7 +497,7 @@ The following headers are available in Home:
      </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Billing Record Total]</td> 
+   <td role="rowheader">[!UICONTROL 請求記録合計]</td> 
    <td>請求記録の合計金額です。このフィールドは編集できません。</td> 
   </tr> 
   <tr> 

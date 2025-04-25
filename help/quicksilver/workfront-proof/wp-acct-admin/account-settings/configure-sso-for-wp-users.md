@@ -7,10 +7,10 @@ description: Select プランまたは Premium プランがある場合は、既
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 52ac1919-1821-424f-89f8-72865b236e4e
-source-git-commit: 74a877145b55ccc14b4d5aefd1889919a39e1f20
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1225'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -94,7 +94,7 @@ SSO が有効になると、ご自身と他のユーザーはアカウント上�
 ここでは次の 2 つの設定方法（5）を示します。
 
 1. **継承：**ハブアカウントから取得した設定での SSO。
-ユーザーが**デフォルトのログインページ** から [!DNL Workfront Proof] にアクセスする場合（[https://www.proofhq.com/login](https://www.proofhq.com/login)）、そこに **2 段階認証**&#x200B;があります：まず、ユーザーは [!DNL Workfront Proof] アクセスデータ（メールとパスワード）を使用してログインするように求められます。次に、ユーザーは SSO ウィンドウから SSO ログインページに転送されます。
+ユーザーが **デフォルトのログインページ** （[https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)）を使用して [!DNL Workfront Proof] にアクセスする場合、**2 つの認証レベル** が表示されます。最初にユーザーは、[!DNL Workfront Proof] のアクセスデータ（メールとパスワード）を使用してログインするように求められ、次に、SSO ウィンドウを介して SSO ログインページにユーザーが転送されます。
 したがって、SSO サービスを有効にした上で、自身の [!DNL Workfront Proof] サブドメインまたはドメインからログインすることをお勧めします。
 
    >[!NOTE]
@@ -143,7 +143,7 @@ SSO が有効になると、ご自身と他のユーザーはアカウント上�
 シングルサインオンが有効な場合、サブドメインログイン URL（例：yourcompany.proofhq.com/login）には、SSO ログインページに直接移動する転送画面（2）が表示されます。
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. ユーザーが&#x200B;**デフォルトのログインページ**&#x200B;から [!DNL Workfront Proof] にアクセスする場合（[https://www.proofhq.com/login](https://www.proofhq.com/login)）、そこに&#x200B;**2 段階認証**&#x200B;があります。まず、ユーザーは [!DNL Workfront Proof] アクセスデータ（メールとパスワード）を使用してログインするように求められます。次に、ユーザーは SSO ウィンドウ（2）から SSO ログインページに転送されます。\
+1. ユーザーが **デフォルトのログインページ** （[https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)）を使用して [!DNL Workfront Proof] にアクセスした場合、**2 つの認証レベル** があります。 まず、ユーザーは [!DNL Workfront Proof] アクセスデータ（メールとパスワード）を使用してログインするように求められます。次に、ユーザーは SSO ウィンドウ（2）から SSO ログインページに転送されます。\
    したがって、SSO サービスを有効にした上で、自身の [!DNL Workfront Proof]サブドメインまたはドメインからログインすることをお勧めします。
 
 1. 現時点で Workfront Proof アカウントでシングルサインオンが有効である場合、これらの資格情報を使用して iPhone アプリにログインすることはできません。

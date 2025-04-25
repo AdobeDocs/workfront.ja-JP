@@ -1,12 +1,12 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: '[!UICONTROL Experience Manager Assetsのas a Cloud Service] 統合の設定'
+title: '[!UICONTROL Experience Manager Assets as a Cloud Service] 統合の設定'
 description: 自分の作業と  [!DNL Experience Manager Assets] のコンテンツを結び付けることができます。
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: 25d250e7be17773117761aa739b8e4804c6fc55a
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1708'
 ht-degree: 93%
@@ -121,7 +121,7 @@ ht-degree: 93%
 
 メタデータフィールドを設定するには、次の手順に従います。
 
-1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=ja)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
+1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
 
 
 1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できる組み込みのカスタムフィールドが多数あります。ただし、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) で説明されているように、独自のカスタムフィールドを作成することもできます。
@@ -151,7 +151,7 @@ Workfront でサポートされている任意のフィールドを、Experience
 
 Experience Manager Assets でタグを作成すると、タグは「メタデータ」セクションのタグドロップダウンに表示されます。フィールドをタグにリンクするには、メタデータマッピングエリアの Experience Manager Assets フィールドドロップダウンで `xcm:keywords` を選択します。
 
-タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/docs/experience-manager-64/administering/contentmanagement/tags.html?lang=ja)を参照してください。
+タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
 
 **Experience Manager Assets のカスタムメタデータスキーマフィールド**
 

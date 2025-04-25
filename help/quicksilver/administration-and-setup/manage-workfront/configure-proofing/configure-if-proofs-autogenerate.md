@@ -6,7 +6,7 @@ navigation-topic: configure-proofing-functionality
 title: プルーフを自動的に生成するかどうかの設定
 description: 指定したユーザーが Workfront にドキュメントを追加する場合、システムが自動的にプルーフを生成するかどうかを設定できます。この設定は、デフォルトで無効になっています。
 author: Courtney
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '245'
 ht-degree: 82%
@@ -27,7 +27,7 @@ ht-degree: 82%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront プラン</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront プラン</a> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 

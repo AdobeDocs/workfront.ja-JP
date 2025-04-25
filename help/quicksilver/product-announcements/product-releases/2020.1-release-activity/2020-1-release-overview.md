@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4162cfb7-d5e1-4152-857a-fc4a6eb09cd7
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '2566'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -358,7 +358,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://www.workfront.com/campaigns/workfront-one)
+[Workfront One の詳細](https://business.adobe.com/products/workfront.html)
 
 ### 2020.1 リリースウェビナー {#2020-1-release-webinar}
 

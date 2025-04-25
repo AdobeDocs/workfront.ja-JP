@@ -8,10 +8,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aa6cfba2-d1df-4d7c-975b-2ae0e63b6d85
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '742'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 100%
 
 この変更を行う理由について詳しくは、[リクエストキューの POP メールを 21.1 で Adobe Workfront が管理する新しいシステムに置き換えました](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)を参照してください。
 
-この機能は、Workfront One の[新しい Workfront エクスペリエンスのキュー管理](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE)の学習パスに含まれるようになりました。
+この機能は、Workfront One の[新しい Workfront エクスペリエンスのキュー管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の学習パスに含まれるようになりました。
 
 ## タイムシートの時間編集を制限
 

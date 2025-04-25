@@ -7,7 +7,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91e79c87-9c70-4050-9a3f-236eff0be41d
-source-git-commit: b9dd01ee0e8732bf7e2fec68a7682fc17271e19e
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 99%
@@ -215,7 +215,7 @@ Flash 技術に依存するすべての機能は、2018.3 リリースで Workfr
 
 次のリソースで Workfront for Outlook の詳細を理解し、使用を開始してください。
 
-* [Web サイトとビデオ](https://www.workfront.com/integrations/outlook)
+* [Web サイトとビデオ](https://business.adobe.com/products/workfront/integrations.html)
 * [Outlook での Workfront の使用](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)（ヘルプ記事）
 
 ### 古い API バージョンの削除 {#removing-old-api-versions}

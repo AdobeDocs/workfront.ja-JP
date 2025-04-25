@@ -8,10 +8,10 @@ author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ebccdf17-12e3-4adc-95af-61d6337edb72
-source-git-commit: 6f026590f0030b564f0d110afead9ade1acd7896
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '149'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 100%
 * [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用した作業の管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用したドキュメントとプルーフのアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [ビデオチュートリアル： [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインの使用](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud.html?lang=ja)
+* [ビデオチュートリアル： [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインの使用](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [ビデオチュートリアル：パッケージの作成と管理、アップデートのデプロイ、インストールエラーのトラブルシューティング](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]

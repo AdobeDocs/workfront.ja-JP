@@ -9,13 +9,13 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 36424cd3-61a0-4d19-9071-7d78c8570bfe
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '49'
-ht-degree: 95%
+ht-degree: 93%
 
 ---
 
 # ファイル暗号化
 
-Adobe Workfront のファイル暗号化については、[Workfront セキュリティのホームページ](https://www.workfront.com/workfront-security)を参照してください。さらに情報が必要な場合は、アカウント担当者にお問い合わせください。
+Adobe Workfront のファイル暗号化については、[Workfront セキュリティのホームページ](https://www.adobe.com/legal/terms/enterprise-licensing/workfront-legacy-terms.html)を参照してください。さらに情報が必要な場合は、アカウント担当者にお問い合わせください。

@@ -7,10 +7,10 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0a8602aa-34c8-44d0-a102-9497d106f806
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3158'
+ht-degree: 100%
 
 ---
 
@@ -155,7 +155,7 @@ Outlook でカレンダーを使用する場合は、カレンダーを統合し
 
 リスト内の列のサイズ変更と並べ替えについては、[列の幅と順序の変更](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)を参照してください。
 
-現行のリスト改善を目的としたベータテストプログラムに参加するには、[新しいリストの詳細。](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=6b135c15-33dd-4fa2-8bc3-7cd7f7740c57&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)を参照してください（ログインが必要です）。
+現行のリスト改善を目的としたベータテストプログラムに参加するには、[新しいリストの詳細。](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja)を参照してください（ログインが必要です）。
 
 ## 新しいプロジェクトリストでのアイコンのサポート {#icon-support-for-the-new-project-lists}
 

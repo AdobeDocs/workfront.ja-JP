@@ -8,10 +8,10 @@ description: 新しいアカウントを開くには、体験版登録ページ�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 47092717-3895-40a3-9db1-0009638e2544
-source-git-commit: d5ffd576fcedf9b10dce5e5d5bd9245dd7f67ef8
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '869'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 ## 新しい [!DNL Workfront Proof] アカウントを開くには？
 
-新しいアカウントを開くには、[体験版登録ページ](https://www.proofhq.com/html/free-trial.html)に移動し、体験版アカウントを開きます。その後、弊社のチームのメンバーが [!DNL Workfront Proof] の使用を開始できるようご連絡させていただきます。
+新しいアカウントを開くには、[体験版登録ページ](https://business.adobe.com/products/workfront/proofing-approvals.html)に移動し、体験版アカウントを開きます。その後、弊社のチームのメンバーが [!DNL Workfront Proof] の使用を開始できるようご連絡させていただきます。
 
 すでにシステムについてはご存知で、有料プランに新規登録する場合は、*[!UICONTROL 設定]* *／* *[!UICONTROL 請求]*&#x200B;に移動して、有料プランのいずれかにアカウントをアップグレードしてください。
 

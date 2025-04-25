@@ -1,15 +1,15 @@
 ---
-title: 20.4 の分析の機能強化
+title: 20. 4 の分析の機能強化
 description: 20.4 の分析の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '223'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -29,4 +29,4 @@ ht-degree: 100%
 
 これまで、拡張分析エリアは、表示できるプロジェクト数が 50 件までに制限されていました。
 
-この機能は、Workfront One の[拡張分析、第 1 部学習パス](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ)に含められています。
+この機能は、Workfront One の[拡張分析、第 1 部学習パス](https://experienceleague.adobe.com/en/docs/workfront/using/home)に含められています。

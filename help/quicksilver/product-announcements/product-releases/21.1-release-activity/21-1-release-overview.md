@@ -8,7 +8,7 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3affee76-347e-4610-b255-4b1bb4414c5d
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '3659'
 ht-degree: 99%
@@ -337,7 +337,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-新機能と更新点について詳しくは、[API バージョン 12 の新機能](https://one.workfront.com/s/document-item?bundleId=workfront-classic&amp;topicId=Content%2FWF_API%2FAPI%2Fnew-api-version-12.htm)を参照してください。
+新機能と更新点について詳しくは、[API バージョン 12 の新機能](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)を参照してください。
 
 API のバージョンについて詳しくは、[API のバージョン管理とサポートのスケジュール](../../../wf-api/api/api-version-support-schedule.md)を参照してください。
 
@@ -398,10 +398,10 @@ Workfront 21.1 リリースウェビナーは、2月3日午前 11 時（EDT）�
 
 2020年5月20日（PT）より、Workfront は、毎週プレビュー環境で機能を利用できるようになりました。この変更を行う前は、通常、2 週間ごとにプレビュー環境で機能をリリースしていました。
 
-詳しくは、[Workfront プレビューリリース頻度の変更に関する FAQ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence) を参照してください。
+詳しくは、[Workfront プレビューリリース頻度の変更に関する FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home) を参照してください。
 
 ### Workfront One {#workfront-one}
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://www.workfront.com/campaigns/workfront-one)
+[Workfront One の詳細](https://business.adobe.com/products/workfront.html)

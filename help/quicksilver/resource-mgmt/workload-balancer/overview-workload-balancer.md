@@ -7,10 +7,10 @@ description: プロジェクトマネージャーがタスクを作成するこ�
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 95%
 
 この記事では、ワークロードバランサーの一般的な目的と、うまく使用できるようにプロジェクトとリソースを設定する方法に関するベストプラクティスを説明します。
 
-ワークロードバランサーのビデオチュートリアルを確認するには、[Workfront チュートリアル](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=ja)ページに移動します。左側のメニューで、**リソース管理**／**ワークロードバランサー**&#x200B;を選択し、チュートリアルを選択します。
+ワークロードバランサーのビデオチュートリアルを確認するには、[Workfront チュートリアル](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)ページに移動します。左側のメニューで、**リソース管理**／**ワークロードバランサー**&#x200B;を選択し、チュートリアルを選択します。
 
 ## ワークロードバランサーの使用場所
 

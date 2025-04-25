@@ -7,7 +7,7 @@ description: 拡張分析領域の画面の上部に、4 つの主要業績評�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 89%
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 
 この機能を使用するには、ビジネスプラン以上が必要です。\
-利用可能な様々なプランについて詳しくは、[Adobe Workfront プラン](https://www.workfront.com/plans)を参照してください。
+利用可能な様々なプランについて詳しくは、[Adobe Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 
 拡張分析領域の画面の上部に、4 つの主要業績評価指標（KPI）が表示されます。これらの指標を使用すると、プロジェクトにかかる時間、プロジェクトの規模、特定の時間枠内に完了したプロジェクトの数をすばやく把握できます。これらの数は、このページのビジュアライゼーションに表示されるプロジェクトの最大数（50）に制限されません。代わりに、このデータは任意のセットフィルターに適用されるすべてのプロジェクトに基づいており、選択した日付範囲または任意のフィルターを変更すると、これらの数値が調整されます。
 

@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1729'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
@@ -497,7 +497,7 @@ This can be caused by a number of things, originating in either [!DNL Workfront]
       
 -->
 
-### 問題：[!DNL SharePoint] で以前にリンクされたフォルダーやドキュメントにアクセスできません。 {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
+### 問題：以前にリンクされた [!DNL SharePoint] 内のフォルダーとドキュメントにアクセスできません。 {#problem-i-cannot-access-previously-linked-folders-and-documents-in-sharepoint}
 
 解決策：
 

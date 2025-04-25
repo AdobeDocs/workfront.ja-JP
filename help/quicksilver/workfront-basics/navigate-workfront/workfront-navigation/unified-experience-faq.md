@@ -6,10 +6,10 @@ description: ' [!DNL Workfront]  および Adobe Experience Cloud の間には�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: 68a5bfe5d85ac530ac14faf2a6a5cccf602e6c8c
+source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
 workflow-type: tm+mt
 source-wordcount: '1385'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -40,14 +40,14 @@ ht-degree: 69%
 
 ## よくある質問
 
-### Adobeの統合エクスペリエンスとAdobe Workfrontのどちらを使用しているかを判断する方法
+### Adobe Unified Experience とAdobe Workfrontのどちらを使用しているかを確認する方法
 
-組織がAdobeの統合エクスペリエンス上にいるかどうかを判断するには、Workfrontへのアクセスに使用する URL を調べます。
+Workfront統合エクスペリエンス上に組織があるかどうかを判断するには、Adobeへのアクセスに使用する URL を調べます。
 
 | URL | Adobe Experience |
 |------------|------------|
 | (CompanyName).my.workfront.com | Workfrontエクスペリエンス |
-| experience.adobe.com | Adobeの統合エクスペリエンス |
+| experience.adobe.com | Adobe Unified Experience |
 
 ### [!DNL Adobe Admin Console] の詳細を確認するにはどうすればよいですか？
 
@@ -61,9 +61,9 @@ ht-degree: 69%
 
 既存のお客様には、移行のスケジュールするためにご連絡させていただきます。移行チームのサポート員からお客様にプロセスを説明し、できるだけ簡単で手間のかからない移行を行うために、[!DNL Admin Console] の設定についてアドバイスおよび移行に必要なドキュメントへのリンクを提供します。
 
-* [[!DNL Adobe Workfront] サポートの概要](https://experienceleague.adobe.com/docs/customer-one/using/workfront/overview.html?lang=ja)
-* [[!DNL Workfront Admin Console] 情報](https://experienceleague.adobe.com/docs/customer-one/using/workfront/landing.html?lang=ja)
-* [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/docs/customer-one/using/workfront/faq.html?lang=ja)
+* [[!DNL Adobe Workfront] サポートの概要](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] 情報](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### 既に Federated ID に対してこれを有効にしている会社の [!DNL Adobe Admin Console] ールは、[!DNL Workfront] SSO の設定とは異なりますか。
 
@@ -97,7 +97,7 @@ IMS は SSO の代わるもので、ほとんど同じ機能です。すべて�
 
 すべての直接リンクは、新しい URL パターンにリダイレクトする必要があります。ただし、リンクをユーザーに配布している場合は、直接リンクを利用するためにアップデートを送信し、想定されるページにアクセスする際の遅延を防ぐ必要があります。
 
-### グローバルに [!DNL Experience Cloud] に移行しますか、それとも特定のユーザーを対象に選択できますか（すべてのユーザーが他のAdobe製品を使用できるわけではありません）?
+### グローバルに [!DNL Experience Cloud] に移行しますか？それとも、特定のユーザーを選択できますか（すべてのユーザーが他のAdobe製品を使用できるわけではありません）?
 
 [!DNL Workfront] の顧客アカウント全体が移行されます。ユーザー単位で移行することはできません。
 
