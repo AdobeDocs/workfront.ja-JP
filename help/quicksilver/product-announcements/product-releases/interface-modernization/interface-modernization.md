@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
+source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2009'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
-## Workfrontのナビゲーションと検索
+## ナビゲーションと検索
 
 ### 詳細検索のインターフェイスの更新
 
@@ -325,3 +325,30 @@ Workfrontの他の領域と一貫した最新のデザインで、別のユー�
 * グループ化
 
 +++
+
+## ユーザー
+
+### 外部ユーザー用の更新済みドキュメント共有ページ
+
+**プレビューリリース：2024 年 4 月 10 日（PT）、実稼動リリース：2024 年 4 月 17 日（PT）の週から**
+
+外部ユーザー向けのドキュメント共有ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
+
+外部ユーザーは、このページから _マイ設定_ にアクセスできなくなりました。
+
+<!--
+
+### Updated external user registration page
+
+**Preview release: April 24, 2024; Production release: To be announced**
+
+We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+
+
+## Licenses
+
+### Updated license agreement page
+
+**Preview release: tbd; Production release: To be announced**
+
+We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
