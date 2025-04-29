@@ -6,9 +6,9 @@ description: 多数のウィジェットから選択して、ホームページ�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 4994f099b11703bbffb396d494fd5622fc006cbf
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '963'
 ht-degree: 17%
 
 ---
@@ -238,6 +238,44 @@ ht-degree: 17%
     <td>プライマリユーザーが割り当てられていないが、役割が割り当てられている問題をすべて表示します </td>
   </tr>
 </table>
+
+## マイリクエスト
+
+<table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">すべて</td> 
+      <td>ステータスや送信者に関係なく、すべての送信済みリクエストを表示します。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">開く</td> 
+      <td> <p>送信されたすべてのリクエストを表示 
+      <ul>
+      <li>誰が送信したかに関係なく、現在開いている 自分で送信しなかった場合は、表示以上の権限を持っているリクエストのみが表示されます。</li>
+      <li>実際の完了日がない場合、または解決オブジェクトに実際の完了日がない場合は、「オープン」サブタブにリストされます。</li> 
+      </ul>
+      <p><b> 注 </b> 
+      ステータスがクローズドと等しくないリクエストは、オープンと見なされます。</p> 
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">マイリクエスト</td> 
+      <td>ステータスに関係なく、送信したリクエストを表示します。 </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">マイオープンリクエスト</td> 
+      <td> <p>リクエストを表示 
+      <ul>
+      <li>送信し、まだ開いていること。 </li> 
+      <li>実際の完了日がない場合、または解決オブジェクトに実際の完了日がない場合、「自分のオープン要求」サブタブにリストされます。 </li> 
+      </ul>
+      <p><b> 注 </b> 
+      ステータスが「クローズ」と等しくないリクエストは、オープンと見なされます。</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
 ## 担当作業
 
