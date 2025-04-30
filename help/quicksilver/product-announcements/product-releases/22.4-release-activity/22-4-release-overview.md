@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f4c1f2170d826b4b6f1e8189e1fecc1edb6e0d97
 workflow-type: tm+mt
-source-wordcount: '3272'
+source-wordcount: '3231'
 ht-degree: 99%
 
 ---
@@ -661,24 +661,23 @@ ht-degree: 99%
                         <p>Workfront Campaigns を使用すると、様々なポートフォリオやプログラムのプロジェクトを新しい作業コンテナに整理できます。
 Campaigns は、2022年7月に 22.3 リリースでプレビューベータ版にリリースされました。</p>
 <p>この新しいコンテナは、現在別々のサイロで管理されている作業オブジェクトを接続するために、今後のリリースで進化する予定です。</p>
-
-    &lt;/td>
-    &lt;td>&lt;p>&lt;b>公開日：&lt;/b>&lt;/p>
-    &lt;ul>
-    &lt;li>
-    &lt;p>プレビューリリース：22.4 リリースの期間中。&lt;/p>
-    &lt;/li>
-    &lt;li>
-    &lt;p>実稼動リリース：未定&lt;/p>
-    &lt;/li>
-    &lt;/ul>
-    &lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td>
-    &lt;a href=&quot;../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md&quot; class=&quot;MCXref xref&quot; xrefformat=&quot;{para}&quot;>チームの説明を展開&lt;/a>&lt;/p>
-    &lt;p>Teams エリアで説明をクリックしてポップアップで表示し、完全なチームの説明を確認できるようになりました。説明内の URL はポップアップでクリック可能で、説明テキスト内をクリックして編集できます（チーム設定の編集にアクセスできる場合）。&lt;/p>
-    &lt;p>以前は、狭い領域で説明をスクロールするだけで、すべてのコンテンツが表示されていました。&lt;/p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：22.4 リリース期間を通して<br /></p>
+                            </li>
+                            <li>
+                                <p>実稼動リリース：未定</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="../../../product-announcements/product-releases/22.4-release-activity/22-4-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> 展開されたチームの説明 </a></p>
+                        <p>チームエリアで、説明をクリックしてポップアップで表示すると、チームの完全な説明を表示できます。説明内の URL はポップアップでクリック可能で、説明テキスト内をクリックして編集できます（チーム設定の編集にアクセスできる場合）。</p>
+                        <p>以前は、狭いエリアで説明をスクロールする以外、すべてのコンテンツを表示することができませんでした。</p>
 <p>この説明の強化は、アジャイルチームと非アジャイルチームの両方に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
