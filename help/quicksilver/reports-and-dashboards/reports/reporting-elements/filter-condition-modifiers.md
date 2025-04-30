@@ -6,10 +6,10 @@ description: フィルターおよび条件修飾子を使用すると、フィ�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
+source-git-commit: 6bd9dc626befc4dfa4054760e7ec7d677f6da6e5
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 95%
+source-wordcount: '1593'
+ht-degree: 91%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 95%
 
 テキストモードについて詳しくは、[テキストモードの概要](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)を参照してください。
 
-組み込みの時間枠修飾子のリストについては、記事 [ 時間枠でのレポートのフィルタリング ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md) を参照してください。
+組み込みの時間枠修飾子リストについては、 [フィルター時間枠別のレポート](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md)の記事を参照してください。
 
 フィルターおよび条件付き形式設定ステートメントでは、次の条件修飾子を使用できます。
 
@@ -75,7 +75,12 @@ ht-degree: 95%
   <tr valign="top"> 
    <td> <p><strong>が次を含まない</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p><strong>notcontains</strong> の<i>大文字と小文字を区別しない</i>バージョンです。</p><p>この修飾子は、指定した値を持たない項目をフィルタリングします。</p> <p>例えば、<code>does not contain inf</code> は名前に「<code>Inf</code>」または「<code>inf</code>」が含まれないものは取り込みません。</p> <p>メモ：<span>フィルターを適用するフィールドに複数のオプションが含まれる場合、指定した選択肢、指定した選択肢と追加の選択肢の両方を含む結果をフィルタリングします。</span> </p> </td> 
+   <td> <p><strong>notcontains</strong> の<i>大文字と小文字を区別しない</i>バージョンです。</p><p>この修飾子は、指定した値を持たない項目をフィルタリングします。</p> <p>例えば、<code>does not contain inf</code> は名前に「<code>Inf</code>」または「<code>inf</code>」が含まれないものは取り込みません。</p> <p>注: 複数の値を含むフィールド(プロジェクト内のメモのコレクションなど)に適用すると、フィルタは次のように除外を決定します。
+<ul>
+    <li>コレクション内のすべての項目に指定したテキストが含まれている場合、レコード全体が結果から除外されます。</li>
+    <li>コレクション内の少なくとも 1 つの項目に指定されたテキストが含まれていない場合、レコードは結果に残ります。</li>
+</ul>
+ </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
@@ -129,7 +134,7 @@ ht-degree: 95%
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>like</strong> </p> </td> 
-   <td> <p>この修飾子は、<strong>contains</strong> と同様の方法で、<i>大文字と小文字を区別する</i>テキスト文字列の一部を検索します。しかし、<strong>like</strong> には、ワイルドカード文字を挿入してテキストを分割する機能があります。</p> <p>たとえば、メモを検索する際に <code>like %Current% %Dead%</code> を使用すると、「Current to Dead」というフレーズを含むメモが返されます。「Dead to Current」を含むメモは含まれません。各値は、リストに表示されている順序で検索されます。% は、テキストの文字やセグメントを置き換えるワイルドカードを表します。 アンダースコアは、「Project」と「Projects」の両方を返す <code>like Project_</code> のように、1 つのワイルドカード文字に使用することもできます。 フィルタリングで <strong>like</strong> または <strong>clike</strong> 修飾子を使用する場合は、カスタムデータフィールド名、パラメーターオプション値、またはその他のオブジェクト名では、% または_文字を使用しないことをお勧めします。</p><p>この修飾子は、テキストモードのフィルターでのみ使用できます。フィルターのテキストモードについて詳しくは、<a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">テキストモードを使用したフィルターの編集</a>を参照してください。</p> </td> 
+   <td> <p>この修飾子は、<strong>contains</strong> と同様の方法で、<i>大文字と小文字を区別する</i>テキスト文字列の一部を検索します。しかし、<strong>like</strong> には、ワイルドカード文字を挿入してテキストを分割する機能があります。</p> <p>たとえば、メモを検索する際に <code>like %Current% %Dead%</code> を使用すると、「Current to Dead」というフレーズを含むメモが返されます。「Dead to Current」を含むメモは含まれません。各値は、リストに表示されている順序で検索されます。% は、テキストの文字またはセグメントを置き換えるワイルドカードを表します。 アンダースコアは、"プロジェクト" と "Projects" の両方を返す <code>like Project_</code> のように、単一のワイルドカード文字に使用することもできます。 フィルタリングで <strong>like</strong> または <strong>clike</strong> 修飾子を使用する場合は、カスタムデータフィールド名、パラメータオプション値、またはその他のオブジェクト名に % または _ 文字を使用しないことをお勧めします。</p><p>この修飾子は、テキストモードのフィルターでのみ使用できます。フィルターのテキストモードについて詳しくは、<a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">テキストモードを使用したフィルターの編集</a>を参照してください。</p> </td> 
   </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
