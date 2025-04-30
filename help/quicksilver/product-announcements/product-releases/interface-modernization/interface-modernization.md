@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 828426242e87d99d27d763e1893dee81afa36fc4
+source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
 workflow-type: tm+mt
-source-wordcount: '2009'
+source-wordcount: '2064'
 ht-degree: 0%
 
 ---
@@ -150,6 +150,14 @@ Workfrontの他のエリアと一貫した、より現代的なデザインの�
 **プレビューリリース：2025 年 1 月 16 日（PT）、2025 年 1 月 30 日（PT）の週から**
 
 設定/ ドキュメント / Sharepoint 統合の「Sharepoint を追加」ダイアログボックスが、Workfrontの他の領域と一貫する最新のデザインに更新されました。
+
+この更新には、エリアに対する視覚的な変更が含まれます。 機能は変更されていません。
+
+### カスタム統合を追加ダイアログボックスのインターフェイスの更新
+
+**プレビューリリース：2025 年 1 月 16 日（PT）、2025 年 1 月 30 日（PT）の週から**
+
+設定/ ドキュメント / カスタム統合のカスタム統合を追加ダイアログボックスが、Workfrontの他の領域と一致する、より現代的なデザインに更新されました。
 
 この更新には、エリアに対する視覚的な変更が含まれます。 機能は変更されていません。
 
