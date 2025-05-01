@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
+source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 52%
+source-wordcount: '593'
+ht-degree: 42%
 
 ---
 
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront の機能強化
 
 * [ドキュメント管理の機能強化](#document-management-enhancements)
+* [ 更新と通知の機能強化 ]
 * [その他の機能強化](#other-enhancements)
 
 ### ドキュメント管理の機能強化
@@ -62,6 +63,52 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>2025年4月10日（PT）</td>
         <td>2025年4月17日（PT）</td>
         <td>2025年4月17日（PT）</td>
+    </tr>     
+  </tbody>
+</table>
+
+### レポートの機能強化
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}"> ユーザーのワイルドカードで </a> をフィルタリングする際に、null 値を含む結果が返されなくなりました<p></p>
+            <p>レポートをフィルタリングする際に null 値を除外するように、ユーザーワイルドカード動作を更新しました。 この変更により、フィルターは、ユーザーが正しく設定されていない結果（null 結果）を返すのではなく、より正確な結果を生成するのに役立ちます。 </p>
+        </td>
+        <td>2025年4月30日（PT）</td>
+        <td>2025年5月15日（PT）</td>
+        <td>2025年7月17日（PT）</td>
+    </tr>     
+  </tbody>
+</table>
+
+### 更新と通知の機能強化
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-update-and-notification-enhancements.md" class="MCXref xref" xrefformat="{para}"> コメントに人物を追加する際の変更済みエクスペリエンス </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>パフォーマンスの向上を実現するために、コメントに人物を追加する際に変更されたエクスペリエンスを導入しました。 これで、コメントにユーザーまたはチームを追加し始めた後も、「ユーザーまたはチームをタグ付け」リンクがコメントボックスに永続的に残ります。 </p>
+        </td>
+        <td>2025年4月30日（PT）</td>
+        <td>（段階的なロールアウト）: 2025 年 5 月 8 日～5 月 15 日（PT）</td>
+        <td>（段階的なロールアウト）: 2025 年 5 月 8 日～5 月 15 日（PT）</td>
     </tr>     
   </tbody>
 </table>

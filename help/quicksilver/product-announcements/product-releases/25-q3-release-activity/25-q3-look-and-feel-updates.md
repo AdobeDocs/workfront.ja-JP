@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
+source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 23%
+source-wordcount: '552'
+ht-degree: 18%
 
 ---
 
@@ -17,6 +17,33 @@ ht-degree: 23%
 このページでは、2025年第 3 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模な更新について説明します。
 
 2025年第 3 四半期リリースで利用可能なすべての変更点のリストについて詳しくは、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)を参照してください。
+
+## コメントのその他のメニューオプションのルックアンドフィールの更新
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 4 月 17 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 4 月 17 日（PT）
+
+すべてのオブジェクトの「更新」セクションのコメントの詳細メニューで使用できるオプションのルックアンドフィールを更新しました。
+
+この更新には、次の変更が含まれます。
+
+* 同様の機能がグループ化されるようにアクションを並べ替えました。
+* 各グループを明確に区切るためにディバイダーを挿入しました。
+* 削除アクションを赤で表示してハイライト表示。
+
+詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+
+
+## マイルストーン パス レポートの更新の外観
+
+>[!NOTE]
+>
+>プレビューリリース：2025 年 4 月 30 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 4 月 30 日（PT）
+
+マイルストーンパスレポートのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
+
+詳しくは、[ カスタムレポートの作成 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) を参照してください。
 
 ## 最近復元されたアイテムのルックアンドフィールの更新
 

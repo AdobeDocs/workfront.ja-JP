@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
+source-git-commit: 711810c00ba8657230dbda558629613be2b35d9b
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 3%
+source-wordcount: '689'
+ht-degree: 2%
 
 ---
 
@@ -21,6 +21,54 @@ ht-degree: 3%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## レコードの接続済みレコードページでのインライン編集
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 4 月 30 日（PT）
+>* 実稼動高速リリース：2025 年 5 月 15 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
+レコードの「接続されたレコード」ページでレコードを編集できるようになりました。 この更新では、次の機能が導入されました。
+
+* ページの名前が「接続ビュー」から「接続されたレコードページ」に変更されました。
+* このページに表示される接続済みレコードは、テーブルビューでインラインで編集できます。 接続されたWorkfront オブジェクトは、引き続き読み取り専用テーブルに表示されます。
+
+この機能強化が行われる前は、レコード接続に関して、接続ビューページのテーブルは読み取り専用でした。
+
+詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+
+## 標準ライセンス ユーザーのメイン メニューに既定で表示される計画領域
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 4 月 30 日（PT）
+>* 実稼動高速リリース：2025 年 5 月 15 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
+標準およびシステム管理者のユーザーは、デフォルトで、プランニング エリアを含むレイアウト テンプレートに割り当てられていない状態で、メイン メニューでプランニング エリアを検索できるようになりました。 他のすべてのユーザーは、アクセスするために、割り当てられた計画領域を含むレイアウトテンプレートを持っている必要があります。
+
+この機能強化を行う前は、すべてのライセンスレベルのユーザーをレイアウトテンプレートに割り当て、メインメニューの Planning エリアを含めるように変更して、このエリアにアクセスする必要がありました。
+
+>[!NOTE]
+>
+>この変更は、システム管理者と Standard ライセンスを持つすべての新規ユーザーと既存ユーザーに対して表示されます。
+>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
+
+詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+
+## テーブルビューでの行レベルのカラー書式設定
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 4 月 30 日（PT）
+>* 実稼動高速リリース：2025 年 5 月 15 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
+レコードの重要な情報をわかりやすく表示するために、テーブルビューに行レベルのカラーフォーマットが導入されました。 各選択肢に条件を定義した後、各行の色を選択できるようになりました。  これは、この更新前には存在しなかった新しい機能です。
+
+詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
 
 ## 標準のタイムラインビューで長いレコード名を切り捨てるための新しい設定を追加しました
 
