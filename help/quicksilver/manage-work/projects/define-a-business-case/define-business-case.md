@@ -1,16 +1,16 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: 「ビジネスケースの定義：記事インデックス」
+title: ビジネスケースの定義：記事インデックス
 description: ビジネスケースを作成することにより、プロジェクトを正式かつ効率的にリクエストすることができます。以下の記事では、プロジェクトのビジネスケースを定義する必要がある情報について説明します。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: fb1c7ade6622db391e0dac54f37603efe9dc0a58
+source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 100%
+source-wordcount: '132'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 この節では、次の記事を扱います。
 
-* [ビジネスケースのエリアの概要](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
+* [ ビジネスケース領域の概要 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
 * [プロジェクトのビジネスケースを作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)
 * [ビジネスケースを承認](../../../manage-work/projects/define-a-business-case/approve-business-case.md)
 * [ビジネスケースの財務フィールドの概要](../../../manage-work/projects/define-a-business-case/business-case-finances.md)

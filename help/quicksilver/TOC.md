@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
+source-git-commit: ab3e1a354ec897797a455d6e25c7bf292a337a9d
 workflow-type: tm+mt
-source-wordcount: '13178'
+source-wordcount: '13174'
 ht-degree: 87%
 
 ---
@@ -1226,7 +1226,7 @@ ht-degree: 87%
          * [プロジェクトへのテンプレート添付の概要](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
       * ビジネスケースを定義 {#define-business-case}
          * [ビジネスケースの定義：記事インデックス](manage-work/projects/define-a-business-case/define-business-case.md)
-         * [ビジネスケースのエリアの概要](manage-work/projects/define-a-business-case/areas-of-business-case.md)
+         * [ビジネスケース領域の概要](manage-work/projects/define-a-business-case/areas-of-business-case.md)
          * [プロジェクトのビジネスケースの作成](manage-work/projects/define-a-business-case/create-business-case.md)
          * [ビジネスケースの承認](manage-work/projects/define-a-business-case/approve-business-case.md)
          * [ビジネスケースの財務フィールドの概要](manage-work/projects/define-a-business-case/business-case-finances.md)
