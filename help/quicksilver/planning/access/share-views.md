@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '1540'
+source-wordcount: '1564'
 ht-degree: 22%
 
 ---
@@ -160,6 +160,12 @@ This article describes how you can share a view with others. For information abo
 1. （オプション） **アクセスできるユーザー** 領域で、次のオプションから選択します。
 
    * **招待されたユーザーのみがアクセスできます**：ビューを共有するユーザー、グループ、チーム、会社または担当業務を指定する必要があります。 これはデフォルトのオプションです。
+
+     >[!NOTE]
+     >
+     >   チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。
+
+
    * **ワークスペース内の全員が表示できます**：ワークスペースに対する表示以上の権限を持つすべてのユーザーが、ビューにアクセスできます。
 
 1. 「**このビューへのアクセスを許可**」フィールドに、ユーザー、グループ、チーム、会社または担当業務の名前の入力を開始し、リストに表示されたらクリックします。

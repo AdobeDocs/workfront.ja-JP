@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 41%
+source-wordcount: '918'
+ht-degree: 40%
 
 ---
 
@@ -113,6 +113,7 @@ This article describes how you can share a view with others. For information abo
 
 * Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
 * ワークスペースは、組織内のユーザー、チーム、役割、グループまたは会社と共有できます。
+* チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。
 * 組織外のユーザーとワークスペースを共有することはできません。
 * ワークスペースを共有すると、そのワークスペースに関連付けられているすべてのレコードタイプ、レコードおよびフィールドも共有されます。
 * ワークスペースを共有する場合、ビューは共有されません。 ビューは別々に共有する必要があります。

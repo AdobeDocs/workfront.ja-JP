@@ -6,24 +6,21 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3104'
-ht-degree: 81%
+source-wordcount: '3234'
+ht-degree: 74%
 
 ---
 
 # 作業の更新
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 4/2025 -->
 
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  (*****for all customers or in Production for customers who enabled fast releases-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
--->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 <!--info for April 11: hide the "Important" box below-->
 
@@ -88,8 +85,8 @@ Workfront Planning でのカード、目標およびレコードへのコメン�
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
    <td> 
+   <p>新規：イシューとドキュメントについては Contributor 以上、その他のすべてのオブジェクトについては Light 以上</p>
    <p>現在：イシューとドキュメントについてはリクエスト以上、その他のすべてのオブジェクトについてはレビュー以上</p>
-   <p>新規：イシューとドキュメントについては Contributor 以上、その他のすべてのオブジェクトについては Light 以上</p> 
    </td> 
   </tr> 
   <tr> 
@@ -244,9 +241,11 @@ You can add updates to the following objects:
 1. 左側のパネルの「**更新**」をクリックします。
 デフォルトでは、「**コメント**」タブが選択されています。
 
-1. **新しいコメント**&#x200B;ボックスにコメントを入力します。
+1. 
+   <div class="preview">「**新しいコメント**」ボックスにコメントを入力します。
 
    ![「新しいコメント」ボックス](assets/comment-box-all-tabs.png)
+   </div>
 
    >[!TIP]
    >
@@ -256,8 +255,8 @@ You can add updates to the following objects:
    * Ctrl + Z（Mac の場合は ⌘+z）で、変更を元に戻します
    * Ctrl + Y（Mac の場合は ⌘+y）で、変更をやり直します
 
-1. （オプション）**担当者またはチームのタグ付け**&#x200B;エリアで、このコメントに含めるユーザーまたはチームの名前やメールを入力して、リストに表示されたら選択します。
-1. （オプション）リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字、リンク、画像を更新に追加して、コンテンツを拡充できます。詳しくは、[Workfront の更新でリッチテキストを使用](#use-rich-text-in-a-workfront-update)の節を参照してください。
+1. <span class="preview"> （任意） **ユーザーまたはチームにタグ付け** エリアで、このコメントに含めるユーザーまたはチームの名前またはメールの入力を開始するか、リストに表示されたら選択します。</span>
+1. （オプション）リッチテキストツールバーのオプションを使用すると、テキストの書式設定、絵文字やリンク、画像の更新への追加を行い、コンテンツを拡充できます。詳しくは、[Workfront の更新でリッチテキストを使用](#use-rich-text-in-a-workfront-update)の節を参照してください。
 
    >[!TIP]
    >
@@ -266,10 +265,10 @@ You can add updates to the following objects:
    >インジケーターは、コメントが項目に送信された後にのみ表示され、コメントがまだ構成されている場合は表示されません。
    >
    >「新規」インジケーターは、新しい更新を入力したユーザーと、現在更新を入力しているユーザーの両方が新しいコメント機能のエクスペリエンスを使用している場合にのみ表示されます。
-   >![](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![Real-time new red indicator](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. 「**送信**」をクリックして、Workfront オブジェクトに更新を追加します。
-1. （オプション）コメントを編集するには、コメントの右上隅にある&#x200B;**その他**&#x200B;メニュー![](assets/more-menu.png)、「**編集**」の順にクリックします。
+1. (Optional) To edit a comment, click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
 
    >[!IMPORTANT]
    >
@@ -281,7 +280,7 @@ You can add updates to the following objects:
    >
    >当年からのコメントでは、日付スタンプに年は表示されません。タイムスタンプにポインタを合わせると、年を含む完全な日付が表示されます。
 
-   ![](assets/edited-tag-on-comment-unified-commenting.png)
+   ![Edited indicator on comment](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -293,14 +292,14 @@ You can add updates to the following objects:
 
 1. （条件付きおよびオプション）コメントを追加している間に、「更新」セクションの表示エリアの外側に表示されるコメントを他のユーザーが追加した場合は、画面下部の青い&#x200B;**新しいコメントバナー**&#x200B;内の「**表示**」をクリックして、これらのコメントを表示します。
 
-   ![](assets/blue-new-comments-banner-with-view-button.png)
+   ![ ボタン付きの新しいコメントバナーの青 ](assets/blue-new-comments-banner-with-view-button.png)
 
    追加のコメントが画面の下部に表示されます。
 
-1. （オプション）**いいね！**&#x200B;アイコン ![](assets/like-icon.png) をクリックします。アイコンは「いいね！」の数に応じて更新されます。
+1. （任意） **類似** アイコン ![ 類似アイコン ](assets/like-icon.png) をクリックします。 アイコンは「いいね！」の数に応じて更新されます。
 1. （条件付きおよびオプション）コメントに追加のユーザーを含める場合は、更新に含まれるメンバーの数をクリックして、入力したコメントが共有されているエンティティのリストを表示します。
 
-   ![](assets/members-icons-expanded-unshimmed.png)
+   ![ メンバーアイコンが展開されました ](assets/members-icons-expanded-unshimmed.png)
 
    >[!TIP]
    >
@@ -328,16 +327,16 @@ You can add updates to the following objects:
 1. Workfront オブジェクトの **更新** 領域に移動し、「**コメント** タブを開いてコメントの入力を開始します。
 1. （オプション）コメントにリッチテキスト形式を追加するには、入力中に **リッチテキスト** ツールバーの属性を使用します。
 
-   ![](assets/rich-text-toolbar.png)
+   ![ リッチテキストツールバー ](assets/rich-text-toolbar.png)
 
    | **属性** | **ツールバーボタン** | **Mac ショートカットキー** | **Windows ショートカットキー** |
    |---|---|---|---|
-   | 太字 | ![](assets/mceclip10.png) | ⌘+b | Ctrl+B |
-   | 斜体 | ![mceclip9.png](assets/mceclip9.png) | ⌘+i | Ctrl+I |
-   | 下線 | ![mceclip8.png](assets/mceclip8.png) | ⌘+u | Ctrl+U |
-   | ハイパーリンク | ![mceclip7.png](assets/mceclip7.png) | <br>「リンクを追加」ボックスを開くには、⌘ + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、⌘ + V を使用します</br> | <br>「リンクを追加」ボックスを開くには、Ctrl + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、Ctrl + V を押します。</br> |
-   | 箇条書き | ![mceclip6.png](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
-   | 番号付きリスト | ![mceclip5.png](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
+   | 太字 | ![Bold icon](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | 斜体 | ![Italics icon](assets/mceclip9.png) | ⌘+i | Ctrl+I |
+   | 下線 | ![ アンダーラインアイコン ](assets/mceclip8.png) | ⌘+u | Ctrl+U |
+   | ハイパーリンク | ![ ハイパーリンクアイコン ](assets/mceclip7.png) | <br>「リンクを追加」ボックスを開くには、⌘ + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、⌘ + V を使用します</br> | <br>「リンクを追加」ボックスを開くには、Ctrl + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、Ctrl + V を押します。</br> |
+   | 箇条書き | ![Bulleted list icon](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
+   | 番号付きリスト | ![Numbered list icon](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
 
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
@@ -361,7 +360,7 @@ You can add updates to the following objects:
 
    <!--![](assets/block-quote-marked-350x144.png)-->
 
-1. （オプション）**絵文字**&#x200B;アイコン ![](assets/emoji-icon.png) をクリックして、更新に絵文字を追加します。
+1. （オプション）「**絵文字**」アイコン ![ 絵文字アイコン ](assets/emoji-icon.png) をクリックして、更新に絵文字を追加します。
 
    >[!NOTE]
    >
@@ -375,7 +374,7 @@ You can add updates to the following objects:
 1. （オプション）追加の情報ソースに URL リンクを追加するには、以下のように行います。
 
    1. リンクを挿入するアップデート内をクリックします。
-   1. **リッチテキスト**&#x200B;ツールバーで、**ハイパーリンク**&#x200B;アイコン ![](assets/link-icon.png) をクリックします。
+   1. On the **Rich Text** toolbar, click the **Hyperlink** icon ![Hyperlink icon](assets/link-icon.png).
 
    1. **リンクを作成** ボックスの **URL** に、リンク先のソースの URL を入力または貼り付けます。
 
@@ -397,7 +396,7 @@ You can add updates to the following objects:
 
    * コンピューター上に画像を保存し、新しいコメントエリアにドラッグアンドドロップします。
    * コンピューターからスクリーンショットをコピーし、コメントに貼り付けます。
-   * **画像を追加**&#x200B;アイコン ![](assets/add-image-mountain-with-plus-icon.png) をクリックし、お使いのコンピューター上で画像を参照します。
+   * **画像を追加** アイコン ![ プラス記号アイコンを使用して画像の山を追加 ](assets/add-image-mountain-with-plus-icon.png) をクリックし、コンピューター上の画像を参照します。
 
 
    >[!IMPORTANT]
@@ -418,8 +417,8 @@ You can add updates to the following objects:
 
 1. （オプション）既存の更新で画像を表示するには、次のいずれかの操作を実行します。
 
-   * 画像のサムネールで&#x200B;**プレビュー**&#x200B;アイコン ![](assets/previewimageicon-31x31.png) をクリックして、フルサイズの画像を新しいブラウザータブで開きます。
-   * 画像のサムネールで&#x200B;**ダウンロード**&#x200B;アイコン ![](assets/downloadimageicon.png) をクリックして、画像をダウンロードします。
+   * Click the **Preview** icon ![Preview icon](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Download** icon ![Download icon](assets/downloadimageicon.png) on the image thumbnail to download the image.
 
 1. 「**送信**」をクリックしてコメントを追加します。
 
@@ -460,11 +459,26 @@ You can add updates to the following objects:
 
 次のいずれかの操作を行うと、既存のコメントから情報をコピーできます。
 
+* [引用返信](#quote-reply)
 * [リンクをコピー](#copy-link)
 * [本文をコピー](#copy-body-text)
-* [引用返信](#quote-reply)
 
-![](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+![ コメントを様々な方法でコピーする ](assets/copy-comment-ways-from-more-menu-on-comment.png)
+
+#### 引用返信
+
+「引用返信」オプションは、元のコメントを新しい返信にブロック引用としてコピーします。
+
+1. コピーするコメントまたは返信に移動します。
+1. **その他**&#x200B;メニューをクリックし、「**引用返信**」をクリックします。
+
+   新しいコメントボックスが開き、引用された返信が新しいコメント内に含まれ、ブロック引用としてマークされます。
+
+   ![ 送信前のコメント中にハイライト表示されたブロック引用 ](assets/block-quote-highlighted-mid-comment-before-submit.png)
+
+
+1. 更新の追加を続行し、「**送信**」をクリックしてコメントを追加します。
 
 #### コメントへのリンクのコピー
 
@@ -489,19 +503,7 @@ You can add updates to the following objects:
 1. コピーするコメントまたは返信に移動します。
 1. **その他**&#x200B;メニュー、「**本文テキストをコピー**」の順にクリックします。
 
-#### 引用返信
 
-「引用返信」オプションは、元のコメントを新しい返信にブロック引用としてコピーします。
-
-1. コピーするコメントまたは返信に移動します。
-1. **その他**&#x200B;メニューをクリックし、「**引用返信**」をクリックします。
-
-   新しいコメントボックスが開き、引用された返信が新しいコメント内に含まれ、ブロック引用としてマークされます。
-
-   ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
-
-
-1. 更新の追加を続行し、「**送信**」をクリックしてコメントを追加します。
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
@@ -574,7 +576,7 @@ Workfront ユーザー（Workfront 管理者を含む）は、別のユーザー
 1. 削除するコメントまたは返信に移動します。
 1. 削除するコメントまたは返信の横にある **詳細** メニューをクリックし、**削除** をクリックします。
 
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
+   ![ ストリームコメントを更新の詳細メニュー ](assets/update-stream-comment-menu-marked-350x152.png)
 
 1. 表示されるメッセージで、「**削除**」をクリックします。
 
@@ -584,7 +586,7 @@ Workfront ユーザー（Workfront 管理者を含む）は、別のユーザー
 
    削除したコメントに返信が関連付けられている場合は、コメントが削除されたことが、削除したユーザーの名前とともに表示されます。
 
-   ![](assets/removed-comment-indicator-new-experience.png)
+   ![ 削除されたコメントインジケーター ](assets/removed-comment-indicator-new-experience.png)
 
    削除したコメントは、Workfront から直ちに消去されます。更新セクションを使用するユーザーには、他のユーザーによるコメントの削除が、リアルタイムで表示されます。
 
@@ -595,11 +597,11 @@ Workfront オブジェクトの更新セクションには、以下の 2 種類�
 
 * **ユーザー更新：**&#x200B;ユーザー更新とは、自分とシステム内の他のユーザーが入力するコメントです。ユーザー更新は、「更新」セクションの「コメント」タブと「すべて」タブに表示されます。
 
-  ![](assets/user-update-cl-350x277.png)
+  ![User updates](assets/user-update-cl-350x277.png)
 
 * **システム更新：**&#x200B;システム更新では、タスクまたはイシューの削除、ドキュメントのバージョンの追加または削除、承認リクエストの添付または削除、およびオブジェクトに加えられた編集や変更が記録されます。システム更新は、「システムアクティビティ」と「更新」セクションの「すべて」タブに表示されます。
 
-  ![](assets/system-updates-cl-350x277.png)
+  ![ システムの更新 ](assets/system-updates-cl-350x277.png)
 
   [システムで追跡された更新](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)で説明されているように、Workfront の管理者は、システム更新で何をトラックするかを決定できます。また、システムの更新やアクティビティを除外して、すべてのオブジェクトのユーザー更新のみを表示することもできます。
 

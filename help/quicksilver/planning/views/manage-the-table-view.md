@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f171db8474df703fddbf63a673f9bfbd2ab2db27
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '2872'
-ht-degree: 66%
+source-wordcount: '3205'
+ht-degree: 58%
 
 ---
 
 # テーブルビューの管理
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> このページでハイライト表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -86,7 +86,8 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
   </tr> 
 <tr> 
    <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> </td> 
+   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、計画領域を含むレイアウトテンプレートに割り当てる必要があります。</p>
+<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画領域を有効にします。</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -95,13 +96,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
 
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## テーブル表示を使用したレコードの編集
 
@@ -117,9 +112,11 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 テーブルビューを管理するには：
 
-1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、テーブルビューを作成します。
+1. <span class="preview"> テーブル表示を作成します。詳しくは、記事 [ レコード表示の管理 ](/help/quicksilver/planning/views/manage-record-views.md) を参照してください。</span>
 
-   ![ テーブル表示の例 ](assets/table-view-example.png)
+   <span class="preview">![ テーブル表示の例 ](assets/table-view-example.png)
+
+   </span>
 
 1. （オプション）「**行の高さ**」をクリックし、次のオプションから選択して、テーブルの行の高さを変更します。
    * 低い
@@ -130,14 +127,17 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
    * [列（またはフィールド）](#add-columns-or-fields)
    * [行（またはレコード）](#add-rows-or-records)
    * [フィルター](#add-filters)
-   * [グループ化](#add-groupings)
    * [並べ替え](#add-a-sort)
-   * [リアルタイムプレゼンスインジケーターの有効化](#enable-the-real-time-presence-indicator)
+   * [グループ化](#add-groupings)
+   * <span class="preview">[ 行の色 ](#add-row-colors)</span>
+   * [リアルタイムプレゼンス指標](#enable-the-real-time-presence-indicator)
 
 
 ### 列（またはフィールド）の追加 {#add-columns}
 
-テーブルビューの列ヘッダーには、ビュー内のレコードに関連付けられたフィールドが表示されます。テーブルビューに表示される同じフィールドが、レコードの「詳細」セクションにも表示されます。詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+テーブルビューの列ヘッダーには、ビュー内のレコードに関連付けられたフィールドが表示されます。テーブル表示で表示されるフィールドは、レコードの「詳細」セクションにも表示されます。
+
+詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -362,55 +362,6 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 1. （任意）「**x**」アイコンをクリックして、フィルター条件を削除します。
 1. （任意）「**フィルター**」をクリックして、「フィルター」ボックスを閉じます。<!--right now you cannot "clear all" for filters, but this might come later-->
 
-### グループ化の追加 {#add-groupings}
-
-<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
-
-ビューにグループ化を適用する際に、類似の情報でレコードをグループ化できます。
-
-テーブルビューへのグループ化の追加は、タイムラインビューへのグループ化の追加と似ています。
-
-次の点に注意してください。
-
-* テーブルビューとタイムラインビューの両方でグループ化を適用できます。テーブルビューのグループ化は、同じレコードタイプのタイムラインビューのグループ化とは独立しています。
-* ビューでは、3 つのレベルのグループ化を適用できます。レコードは、選択したグループ化の順にグループ化されます。
-&lt;!--* API を使用すると、最大 4 レベルのグループ化を適用できます。--現在これを確認中-->
-* グループは、選択したビューに固有です。同じレコードタイプの 2 つのテーブルビューに、異なるグループ化を適用することができます。同じテーブルビューを見ている 2 人のユーザーには、現在適用されているのと同じグループ化が表示されます。
-* テーブルビュー用に作成したグループ化に名前を付けることはできません。
-* グループ化を削除すると、自分と同じレコードタイプにアクセスし、同じビューを表示している人から、グループ化が削除されます。
-* グループ化の下に一覧表示されたレコードは編集できます。
-* 接続されているレコードフィールドまたはルックアップフィールドでグループ化できます。
-* アグリゲータによって集計されていない複数の値を持つルックアップ フィールドでグループ化する場合、レコードはフィールド値の一意の組み合わせごとにグループ化されます。
-* 現在のレコードタイプから最大 4 レベル離れたフィールドを参照できます。 例えば、アクティビティレコードタイプのグループを作成し、そのアクティビティが、Workfront プロジェクトに接続されたキャンペーンレコードタイプに接続された製品レコードタイプに接続されている場合、アクティビティレコードタイプに作成しているグループでプロジェクトのステータスを参照できます。
-<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
-<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
-
-グループ化を追加するには：
-
-1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、レコードタイプのタイムラインビューを作成します。
-1. テーブルビューの右上隅にある「**グループ化**」をクリックします。
-
-   ![ フィールドがリンクされたグループ化 UI テーブルビュー ](assets/grouping-ui-table-view-with-linked-fields.png)
-
-1. フィールド候補の 1 つをクリックするか、「**別のフィールドを選択**」をクリックして別のフィールドを検索し、リストに表示されたらクリックします。
-
-   グループ化はテーブルに自動的に適用され、レコードがグループ化の区切り線の下に表示されます。
-
-1. （任意）「**条件を追加**」をクリックし、上記の手順を繰り返して、最大 3 つのグループを追加します。
-
-   グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
-
-   ![ テーブル表示で適用されたグループ化 ](assets/grouping-applied-in-table-view.png)
-
-1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
-
-   または
-
-   **すべてクリア**&#x200B;をクリックすると、すべてのフィールドを削除できます。
-
-1. 「**以下でレコードをグループ化**」ボックスの外側をクリックして閉じます。
-1. （オプション）任意のグループ化の最後にある「**+新規レコード**」をクリックして新しいレコードを追加し、ページを更新して新しいレコードを適切なグループ化に追加します。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
-
 ### 並べ替えの追加 {#sort-information}
 
 並べ替えを適用すると、情報を特定の順序で整理できます。
@@ -473,6 +424,56 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
    並べ替え用に選択されたフィールドには、並べ替えアイコンと、その後に並べ替えが適用される順序を示す数字が表示されます。
 
+### グループ化の追加 {#add-groupings}
+
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
+
+ビューにグループ化を適用する際に、類似の情報でレコードをグループ化できます。
+
+テーブルビューへのグループ化の追加は、タイムラインビューへのグループ化の追加と似ています。
+
+次の点に注意してください。
+
+* テーブルビューとタイムラインビューの両方でグループ化を適用できます。テーブルビューのグループ化は、同じレコードタイプのタイムラインビューのグループ化とは独立しています。
+* ビューでは、3 つのレベルのグループ化を適用できます。レコードは、選択したグループ化の順にグループ化されます。
+&lt;!--* API を使用すると、最大 4 レベルのグループ化を適用できます。--現在これを確認中-->
+* グループは、選択したビューに固有です。同じレコードタイプの 2 つのテーブルビューに、異なるグループ化を適用することができます。同じテーブルビューを見ている 2 人のユーザーには、現在適用されているのと同じグループ化が表示されます。
+* テーブルビュー用に作成したグループ化に名前を付けることはできません。
+* グループ化を削除すると、自分と同じレコードタイプにアクセスし、同じビューを表示している人から、グループ化が削除されます。
+* グループ化の下に一覧表示されたレコードは編集できます。
+* 接続されているレコードフィールドまたはルックアップフィールドでグループ化できます。
+* アグリゲータによって集計されていない複数の値を持つルックアップ フィールドでグループ化する場合、レコードはフィールド値の一意の組み合わせごとにグループ化されます。
+* 現在のレコードタイプから最大 4 レベル離れたフィールドを参照できます。 例えば、アクティビティレコードタイプのグループを作成し、そのアクティビティが、Workfront プロジェクトに接続されたキャンペーンレコードタイプに接続された製品レコードタイプに接続されている場合、アクティビティレコードタイプに作成しているグループでプロジェクトのステータスを参照できます。
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
+
+グループ化を追加するには：
+
+1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、レコードタイプのタイムラインビューを作成します。
+1. テーブルビューの右上隅にある「**グループ化**」をクリックします。
+
+   ![ フィールドがリンクされたグループ化 UI テーブルビュー ](assets/grouping-ui-table-view-with-linked-fields.png)
+
+1. フィールド候補の 1 つをクリックするか、「**別のフィールドを選択**」をクリックして別のフィールドを検索し、リストに表示されたらクリックします。
+
+   グループ化はテーブルに自動的に適用され、レコードがグループ化の区切り線の下に表示されます。
+
+1. （任意）「**条件を追加**」をクリックし、上記の手順を繰り返して、最大 3 つのグループを追加します。
+
+   グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
+
+   ![ テーブル表示で適用されたグループ化 ](assets/grouping-applied-in-table-view.png)
+
+1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
+
+   または
+
+   **すべてクリア**&#x200B;をクリックすると、すべてのフィールドを削除できます。
+
+1. 「**以下でレコードをグループ化**」ボックスの外側をクリックして閉じます。
+1. （オプション）任意のグループ化の最後にある「**+新規レコード**」をクリックして新しいレコードを追加し、ページを更新して新しいレコードを適切なグループ化に追加します。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+
+
 <!-- this is not available yet: 
 
 To sort grouped records: 
@@ -481,6 +482,42 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+<div class="preview">
+
+### 行の色の追加
+
+1. （オプション）「**行のカラー**」をクリックして条件を定義し、テーブルの行に異なるカラーを設定を選択します。
+
+1. **色を追加** をクリックしてから、行の色を決定する値を持つ **フィールドを選択** をクリックします。
+
+   例えば、ステータスがアクティブのキャンペーンを緑色で表示するには、「**ステータス** を選択してから、フィールドの修飾子と値を選択します。
+
+   ![ アクティブステータスが選択され、デフォルトのカラーが選択された「行のカラー」ボックス ](assets/row-colors-box-with-active-status-selected-default-color-choice.png)
+
+1. 選択した条件の左上隅にあるカラーピッカーのドロップダウンメニューをクリックして条件の色を選択し、カラーピッカーボックスの外側をクリックして閉じます。
+
+   ![ 行のカラーボックスのドロップダウンカラーピッカーメニューがハイライト表示されている様子 ](assets/drop-down-color-picker-menu-in-row-colors-box-highlighted.png)
+
+1. （任意）「**条件を追加**」をクリックして、条件の最初のセットにさらにフィールドと値を追加します
+
+   または
+
+   **カラーを追加** をクリックして、新しい条件のセットを追加し、新しいカラーを特定します。
+
+   例えば、新しい条件セットを定義すると、計画中ステータスのキャンペーンを黄色で表示できます。
+
+   ![ アクティブステータスとプランニングステータスのカスタムカラーを含む行のカラーボックス ](assets/row-colors-box-with-active-and-planning-status-custom-colors.png)
+
+1. （オプション）「行の色」ボックスの右上隅にある「**行全体に適用**」設定をオンにします。 条件が満たされた行全体が、選択したカラーで自動的に表示されます。
+
+   >[!TIP]
+   >
+   >「行全体に適用」設定がオフの場合、プライマリフィールドの左側にのみ、選択した色を含む狭いカラーインジケーターが表示されます。 この設定は、デフォルトではオフになっています。
+
+1. **行の色** ボックスの外側をクリックして閉じます。 色は自動的に適用されます。
+
+</div>
 
 ### リアルタイムプレゼンスインジケーターの有効化
 

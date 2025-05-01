@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '579'
 ht-degree: 19%
 
 ---
@@ -54,7 +54,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    * Planning のレコード・タイプのテーブル・ビューの接続されたレコード・フィールド。
    * 「詳細」タブの、接続されたレコードフィールドでのレコードのプレビューまたはページ。
    * [ 接続 ] タブのレコードのプレビューまたはページ。
-   * 接続されたレコードの「接続ビュー」タブのレコードのページ。
+   * 接続されたレコードの <span class="preview"> 接続されたレコードページ </span> タブにあるレコードのページ。
 
 * Workfrontの次の領域で、Workfront オブジェクトをWorkfront Planning レコードに関連付けることができます。
 

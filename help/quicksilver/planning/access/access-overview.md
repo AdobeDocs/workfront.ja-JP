@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 31%
+source-wordcount: '798'
+ht-degree: 28%
 
 ---
 
@@ -116,12 +116,16 @@ Workfront Planning にアクセスするには、次のアクセス権が必要�
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfront管理者を含むすべてのユーザーには、次の領域の「プランニング」オプションを含むレイアウトテンプレートを割り当てる必要があります。</p>
+   <td> <div class="preview">
+<p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p>
+<p> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、次の領域に Planning オプションを含むレイアウト テンプレートを割り当てる必要があります。</p>
    <ul><li>メインメニュー</li>
    <li>プロジェクト、ポートフォリオおよびプログラムの左側のパネル</li>
-   <li>ランディングページ</li>
-   <li>ピン留め</li></ul>
-   <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">レイアウトテンプレートを作成および管理</a>を参照してください。</p> 
+   </ul>
+   <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">レイアウトテンプレートを作成および管理</a>を参照してください。</p>
+   </div>
+   <p><b>メモ</b></p>
+   <p>実稼動環境では、システム管理者を含むすべてのユーザーを、計画領域を含むレイアウトテンプレートに割り当てる必要があります。</p>
 </td>
   </tr>
  </tbody>
@@ -130,20 +134,9 @@ Workfront Planning にアクセスするには、次のアクセス権が必要�
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
-<!--replace the layout template info in the table with this at release: 
 
-<div class="preview">
-<p> Users with a Light or Contributor license must be assigned a layout template that includes the Planning option  in the following areas:</p>
-   <ul><li>Main Menu</li>
-   <li>Left panel of projects, portfolios, and programs</li>
-   <li>Landing page</li>
-   <li>Pins</li></ul>
-   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p>
-   <p>Standard users and System Administrators have the Planning areas enabled by default.</p></div>
-   <p><b>NOTE</b></p>
-   <p>In the Production environment, all users including the System administrators must be assigned to a layout template that includes the Planning areas.</p>
 
--->
+
 
 ## レイアウトテンプレートを使用した計画エリアの共有
 
@@ -156,7 +149,16 @@ Workfront Planning ライセンスの追加購入後、システム管理者は�
 * プロジェクト、ポートフォリオおよびプログラムの左側のパネル
 * ピン留め
 
-Workfront Planning 領域をWorkfrontインスタンスに追加するには、次の手順に従います。
+<div class="preview">
+
+標準ユーザーとシステム管理者は、次の領域で、デフォルトで Planning 領域を有効にします。
+
+* メインメニュー
+* プロジェクト、ポートフォリオまたはプログラムの左側のパネル
+
+</div>
+
+Workfront インスタンスのユーザーからWorkfront Planning エリア </span> 追加または削除するには、<span class="preview"> を行います。
 
 1. Workfront 管理者として **Workfront** にログインします。
 

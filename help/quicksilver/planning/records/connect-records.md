@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
 workflow-type: tm+mt
-source-wordcount: '3333'
+source-wordcount: '3359'
 ht-degree: 39%
 
 ---
@@ -125,7 +125,8 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
   </tr> 
 <tr> 
    <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューに計画エリアを含むレイアウトテンプレートを割り当てる必要があります </p> </td> 
+   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、計画領域を含むレイアウトテンプレートに割り当てる必要があります。</p>
+<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画領域を有効にします。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -133,14 +134,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## レコードを接続する際の考慮事項
 
@@ -165,7 +158,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 * テーブル表示の接続されたレコードフィールド
 * [ 詳細 ] タブの [ 接続されたレコード ] フィールドのレコードのプレビューボックスまたはページ。
 * [ 接続 ] タブのレコードのプレビューボックスまたはページ。
-* [ 接続表示 ] タブのレコードのページ。<!--this needs title edit when they rename the "Connection view" page type-->
+* <span class="preview"> 接続されたレコードページ </span> タブのレコードのページ。
 
 ### テーブル表示またはレコードの詳細領域からWorkfront Planning レコードを接続します
 
@@ -463,9 +456,8 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    レコードは、Workfront Planning のすべての領域、または接続済みと表示される可能性のある他のアプリケーションから直ちに切断されます。 参照フィールドの値も削除されます。
 
-### レコードの詳細ページの「接続表示」タブからレコードを接続
+### レコードの <span class="preview"> 接続されたレコードページ </span> からレコードを接続
 
-<!--section needs title edit when they rename the "Connection view" page type-->
 
 1. 他の Planning レコード・タイプまたは他のアプリケーションのオブジェクト・タイプに接続されているレコード・タイプの任意のビューに移動します。
 1. 他のレコードまたはオブジェクトと接続するレコードをビューで検索するには、前のサブセクションで説明した手順に従います。
@@ -473,9 +465,11 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    プレビューページが開きます。
 1. **新しいタブで開く** アイコン ![ 詳細を新しいタブで開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを開きます。
-1. レコードのプレビューまたはページで、既存の「接続ビュー」タブをクリックします。 最初に接続表示ページを作成する必要があります。 詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+1. レコードのページで、既存の <span class="preview"> 接続されたレコードページ </span> タブをクリックします。 最初に <span class="preview"> 接続されたレコードページ </span> を作成する必要があります。 詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
    接続されたレコードタイプのページがテーブル表示に表示されます。
+
+   1 つのタイプの接続レコードがすべてテーブルに表示されます。
 1. レコードを追加または削除するには、「**接続**」をクリックします。
 
    ![ 接続されたレコードの詳細タブでハイライト表示された「接続」ボタン ](assets/connect-button-highlighted-in-connected-record-details-tab.png)
