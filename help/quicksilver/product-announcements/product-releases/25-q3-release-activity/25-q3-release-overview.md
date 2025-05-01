@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: f8344ad64305b5ffe05f208da06cf330affa5850
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 42%
+source-wordcount: '595'
+ht-degree: 43%
 
 ---
 
@@ -41,7 +41,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront の機能強化
 
 * [ドキュメント管理の機能強化](#document-management-enhancements)
-* [ 更新と通知の機能強化 ]
+* [レポートの機能強化](#reporting-enhancements)
+* [更新と通知の機能強化](#update-and-notification-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### ドキュメント管理の機能強化
