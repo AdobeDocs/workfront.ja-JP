@@ -6,10 +6,10 @@ role: User, Admin
 recommendations: noDisplay, noCatalog
 author: Alina
 exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 53%
+source-wordcount: '580'
+ht-degree: 48%
 
 ---
 
@@ -48,7 +48,7 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
 
 ## アクセス要件
 
-+++ 展開してアクセス要件を表示します…
++++ 展開すると、アクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -107,7 +107,8 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
   </tr> 
 <tr> 
    <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> </td> 
+   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
+<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -115,14 +116,6 @@ Workfront Planning でのカスタムフィールドの作成について詳し�
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
-
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## フィールドを削除
 

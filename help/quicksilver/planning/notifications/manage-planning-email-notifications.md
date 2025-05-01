@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '662'
 ht-degree: 14%
@@ -35,7 +35,7 @@ ht-degree: 14%
 
 ## アクセス要件
 
-+++ 展開してアクセス要件を表示します…
++++ 展開すると、アクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
 <col> 

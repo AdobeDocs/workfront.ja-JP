@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1863'
+source-wordcount: '1847'
 ht-degree: 7%
 
 ---
@@ -31,7 +31,7 @@ WorkfrontのWorkfront Planning レコードは、それらに接続されたオ�
 
 ## アクセス要件
 
-+++ 展開してアクセス要件を表示します…
++++ 展開すると、アクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -102,7 +102,8 @@ WorkfrontのWorkfront Planning レコードは、それらに接続されたオ�
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontオブジェクトのプランニング・エリアまたはプランニング・セクションを表示するには、メイン・メニューのプランニング・エリアとプロジェクト、ポートフォリオおよびプログラムのプランニング・エリアを含むすべてのユーザー（Workfront管理者を含む）にレイアウト・テンプレートを割り当てる必要があります。 </p> 詳しくは、<a href="/help/quicksilver/planning/access/access-overview.md">Adobe計画アクセスの概要 </a> を参照してください。 </p>  </p>  
+   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
+<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -112,13 +113,6 @@ WorkfrontのWorkfront Planning レコードは、それらに接続されたオ�
 
 +++
 
-<!--replace the layout template info in the table with this at release: 
-
-
-<p>In the Production environment, all users including the System Administrators must be assigned to a layout template that includes the Planning areas.</p>
-<p><span class="preview">In the Preview environment, Standard users and System Administrators have the Planning area enabled by default.</span></p>
-
--->
 
 ## 計画セクションのレコードの管理
 

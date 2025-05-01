@@ -6,7 +6,7 @@ description: Adobe Workfront オブジェクト（プロジェクト、タスク
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: c06f25de917474ffae9a7de3a00033fdf9c84b58
 workflow-type: tm+mt
 source-wordcount: '3234'
 ht-degree: 74%
@@ -241,11 +241,9 @@ You can add updates to the following objects:
 1. 左側のパネルの「**更新**」をクリックします。
 デフォルトでは、「**コメント**」タブが選択されています。
 
-1. 
-   <div class="preview">「**新しいコメント**」ボックスにコメントを入力します。
+1. <span class="preview"> 「新規コメント **ボックスにコメントの入力を開始** ます。</span>
 
-   ![「新しいコメント」ボックス](assets/comment-box-all-tabs.png)
-   </div>
+   <span class="preview">![「新しいコメント」ボックス](assets/comment-box-all-tabs.png)</span>
 
    >[!TIP]
    >
@@ -265,10 +263,10 @@ You can add updates to the following objects:
    >インジケーターは、コメントが項目に送信された後にのみ表示され、コメントがまだ構成されている場合は表示されません。
    >
    >「新規」インジケーターは、新しい更新を入力したユーザーと、現在更新を入力しているユーザーの両方が新しいコメント機能のエクスペリエンスを使用している場合にのみ表示されます。
-   >![Real-time new red indicator](assets/real-time-new-red-indicator-unified-commenting.png)
+   >![ リアルタイムの新しい赤いインジケーター ](assets/real-time-new-red-indicator-unified-commenting.png)
 
 1. 「**送信**」をクリックして、Workfront オブジェクトに更新を追加します。
-1. (Optional) To edit a comment, click the **More** menu ![More menu](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**.
+1. （オプション）コメントを編集するには、コメントの右上隅にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**編集** をクリックします。
 
    >[!IMPORTANT]
    >
@@ -280,7 +278,7 @@ You can add updates to the following objects:
    >
    >当年からのコメントでは、日付スタンプに年は表示されません。タイムスタンプにポインタを合わせると、年を含む完全な日付が表示されます。
 
-   ![Edited indicator on comment](assets/edited-tag-on-comment-unified-commenting.png)
+   ![ コメントの編集済みインジケーター ](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
@@ -331,12 +329,12 @@ You can add updates to the following objects:
 
    | **属性** | **ツールバーボタン** | **Mac ショートカットキー** | **Windows ショートカットキー** |
    |---|---|---|---|
-   | 太字 | ![Bold icon](assets/mceclip10.png) | ⌘+b | Ctrl+B |
-   | 斜体 | ![Italics icon](assets/mceclip9.png) | ⌘+i | Ctrl+I |
+   | 太字 | ![ 太字アイコン ](assets/mceclip10.png) | ⌘+b | Ctrl+B |
+   | 斜体 | ![ 斜体アイコン ](assets/mceclip9.png) | ⌘+i | Ctrl+I |
    | 下線 | ![ アンダーラインアイコン ](assets/mceclip8.png) | ⌘+u | Ctrl+U |
    | ハイパーリンク | ![ ハイパーリンクアイコン ](assets/mceclip7.png) | <br>「リンクを追加」ボックスを開くには、⌘ + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、⌘ + V を使用します</br> | <br>「リンクを追加」ボックスを開くには、Ctrl + K を使用します</br> <br>選択したテキストにリンクを貼り付けるには、Ctrl + V を押します。</br> |
-   | 箇条書き | ![Bulleted list icon](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
-   | 番号付きリスト | ![Numbered list icon](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
+   | 箇条書き | ![ 箇条書きリストアイコン ](assets/mceclip6.png) | ⌘+Shift+8 | Ctrl+Shift+8 |
+   | 番号付きリスト | ![ 番号付きリストアイコン ](assets/mceclip5.png) | ⌘+Shift+7 | Ctrl+Shift+7 |
 
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
 
@@ -374,7 +372,7 @@ You can add updates to the following objects:
 1. （オプション）追加の情報ソースに URL リンクを追加するには、以下のように行います。
 
    1. リンクを挿入するアップデート内をクリックします。
-   1. On the **Rich Text** toolbar, click the **Hyperlink** icon ![Hyperlink icon](assets/link-icon.png).
+   1. **リッチテキスト** ツールバーで **ハイパーリンク** アイコン ![ ハイパーリンクアイコン ](assets/link-icon.png) をクリックします。
 
    1. **リンクを作成** ボックスの **URL** に、リンク先のソースの URL を入力または貼り付けます。
 
@@ -417,8 +415,8 @@ You can add updates to the following objects:
 
 1. （オプション）既存の更新で画像を表示するには、次のいずれかの操作を実行します。
 
-   * Click the **Preview** icon ![Preview icon](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
-   * Click the **Download** icon ![Download icon](assets/downloadimageicon.png) on the image thumbnail to download the image.
+   * 画像サムネールの **プレビュー** アイコン ![ プレビューアイコン ](assets/previewimageicon-31x31.png) をクリックして、フルサイズ画像を新しいブラウザータブで開きます。
+   * 画像サムネールの **ダウンロード** アイコン ![ ダウンロードアイコン ](assets/downloadimageicon.png) をクリックして、画像をダウンロードします。
 
 1. 「**送信**」をクリックしてコメントを追加します。
 
@@ -597,7 +595,7 @@ Workfront オブジェクトの更新セクションには、以下の 2 種類�
 
 * **ユーザー更新：**&#x200B;ユーザー更新とは、自分とシステム内の他のユーザーが入力するコメントです。ユーザー更新は、「更新」セクションの「コメント」タブと「すべて」タブに表示されます。
 
-  ![User updates](assets/user-update-cl-350x277.png)
+  ![ ユーザーの更新 ](assets/user-update-cl-350x277.png)
 
 * **システム更新：**&#x200B;システム更新では、タスクまたはイシューの削除、ドキュメントのバージョンの追加または削除、承認リクエストの添付または削除、およびオブジェクトに加えられた編集や変更が記録されます。システム更新は、「システムアクティビティ」と「更新」セクションの「すべて」タブに表示されます。
 

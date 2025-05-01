@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
-source-wordcount: '1878'
-ht-degree: 44%
+source-wordcount: '1979'
+ht-degree: 43%
 
 ---
 
@@ -19,11 +19,9 @@ ht-degree: 44%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 >[!IMPORTANT]
 >
@@ -168,18 +166,14 @@ The following features are currently available in Workfront Planning:
 
 Workfront Planning パッケージを購入した後、ユーザーがWorkfront Planning にアクセスする前に、Workfront管理者として次の点を確認する必要があります：
 
-* メインメニューに Planning が含まれるレイアウトテンプレートを Planning にアクセスする必要があるユーザーを割り当てます。 詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [ レイアウトテンプレートにユーザーを割り当てる ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) を参照してください。
+* 使用する環境に応じて、メインメニューに Planning が含まれるレイアウトテンプレートを次のユーザーに割り当てます：
 
-<!-- replace the bullet above with this at release: 
-* Depending on what environment you use, assign the following users a layout template that includes Planning in the Main Menu:
+   * 実稼動環境で、システム管理者を含むすべてのライセンスタイプのすべてのユーザーにテンプレートを割り当てます。
 
-    * In the Production environment, assign the template to all users of all license types, including System Administrators. 
+   * <span class="preview"> プレビュー環境で、テンプレートを Light ユーザーと Contribute ユーザーに割り当てます。 標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span>
 
-    * <span class="preview">In the Preview environment, assign the template to Light and Contribute users. Standard users and System Administrators have the Planning area in their Main Menu by default. </span>
-    
-    For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
+  詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [ レイアウトテンプレートにユーザーを割り当てる ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) を参照してください。
 
--->
 
 * ユーザーにWorkfront ライセンスを割り当て、Workfront Planning でオブジェクトを表示または作成できるWorkfront Planning 権限を割り当てます。 へのアクセス権の付与と、他のユーザーがWorkfront Planning を使用できるようにする方法について詳しくは、[Adobe Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 

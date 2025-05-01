@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '440'
 ht-degree: 24%
@@ -28,7 +28,7 @@ ht-degree: 24%
 
 ## アクセス要件
 
-+++ 展開してアクセス要件を表示します…
++++ 展開すると、アクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -101,7 +101,7 @@ ht-degree: 24%
 <!--
 OLD:
 
-+++ Expand to view access requirements.. 
++++ Expand to view access requirements. 
 
 <table style="table-layout:auto">
  <col>

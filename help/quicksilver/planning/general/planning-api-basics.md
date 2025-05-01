@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 20e8d45264f9441d9576c7d4d5521e4f6053a7f3
+source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
 workflow-type: tm+mt
 source-wordcount: '973'
 ht-degree: 12%
@@ -290,7 +290,7 @@ API 呼び出しでは、$and&quot; ステートメントと「$or」 ステー�
                         "id": "Rc665728ff95730b58bc757b13",
                         "value": null
                     },
-....
+..
 ```
 
 は、次のような応答を返します。
