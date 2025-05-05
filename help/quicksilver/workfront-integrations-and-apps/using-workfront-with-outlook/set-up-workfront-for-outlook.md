@@ -66,8 +66,8 @@ ht-degree: 86%
 
 次のアプリケーションを使用できます。
 
-* **[!DNL Outlook]Web 上：**[!DNL Workfront] アドインは、デスクトップまたはモバイルデバイスの web ブラウザーから [!DNL Outlook] を使用しているときに利用できます。この機能は [!DNL Outlook] web アプリの使用時にも利用できます。
-* **[!DNL Outlook]デスクトップアプリケーション：**[!DNL Workfront] アドインは、[!DNL Office] パッケージに含まれる [!DNL Outlook] のデスクトップバージョン [!DNL Windows] および [!DNL Mac] を使用する場合に使用できます。
+* **[!DNL Outlook]Web 上：**&#x200B;[!DNL Workfront] アドインは、デスクトップまたはモバイルデバイスの web ブラウザーから [!DNL Outlook] を使用しているときに利用できます。この機能は [!DNL Outlook] web アプリの使用時にも利用できます。
+* **[!DNL Outlook]デスクトップアプリケーション：**&#x200B;[!DNL Workfront] アドインは、[!DNL Office] パッケージに含まれる [!DNL Outlook] のデスクトップバージョン [!DNL Windows] および [!DNL Mac] を使用する場合に使用できます。
 
 [!DNL Outlook] 用の [!DNL Workfront] アドインは、次の要件を満たす環境でサポートされます。
 
@@ -121,7 +121,7 @@ Outlook 用 Workfront アドインは、[Microsoft ストア](https://appsource.
 ### Web 版 [!DNL Workfront] for [!DNL Outlook] {#workfront-for-outlook-on-the-web}
 
 1. Web ブラウザーで [!DNL Microsoft Outlook] を開きます。
-1. **[!UICONTROL アドインを参照 ] アイコン** アドインを参照 ![ をクリック ](assets/outlook-add-in-web-version-20x20.png) ます。
+1. **[!UICONTROL アドインを参照 &#x200B;] アイコン** アドインを参照 ![ をクリック ](assets/outlook-add-in-web-version-20x20.png) ます。
 
    アイコンを見つけるには、[Web 版 ](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) でのアドインの使用 [!DNL Outlook] を参照してください。
 

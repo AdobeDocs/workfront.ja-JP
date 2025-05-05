@@ -24,7 +24,7 @@ ht-degree: 93%
 
 次のエリアは、[!UICONTROL 作業者]のデフォルトレイアウトに含まれています。
 
-* **[!UICONTROL ホーム]**：割り当てられたタスクやイシューはここに表示されます。これはワーカーのデフォルトのランディングページですが、Workfront管理者がレイアウトテンプレートに追加しない限り、[!UICONTROL  メインメニュー ] には表示されません。  詳しくは、[[!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)の基本を学ぶを参照してください。
+* **[!UICONTROL ホーム]**：割り当てられたタスクやイシューはここに表示されます。これはワーカーのデフォルトのランディングページですが、Workfront管理者がレイアウトテンプレートに追加しない限り、[!UICONTROL &#x200B; メインメニュー &#x200B;] には表示されません。  詳しくは、[[!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)の基本を学ぶを参照してください。
 
 * **[!UICONTROL プロジェクト]**：自分と共有されているプロジェクトはここに表示されます。詳しくは、[プロジェクト：記事インデックス](../../../manage-work/projects/projects-overview.md)を参照してください。
 

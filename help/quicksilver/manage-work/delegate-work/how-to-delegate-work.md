@@ -92,7 +92,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 この記事で説明するアクティビティを実行する前に、次の点を確認する必要があります。
 
-* [!DNL Workfront] またはグループの管理者が、[!DNL Workfront] ーザーインスタンスの [!UICONTROL **設定**] 領域の [!UICONTROL  タスクとイシューの環境設定 ] セクションで [!UICONTROL  ユーザーがタスクとイシューを委任することを許可 ] 設定を有効にしました。
+* [!DNL Workfront] またはグループの管理者が、[!DNL Workfront] ーザーインスタンスの [!UICONTROL **設定**] 領域の [!UICONTROL &#x200B; タスクとイシューの環境設定 &#x200B;] セクションで [!UICONTROL &#x200B; ユーザーがタスクとイシューを委任することを許可 &#x200B;] 設定を有効にしました。
 
   詳しくは、[システム全体のタスクとイシューの環境設定の指定](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
 
@@ -109,7 +109,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
    詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
-1. [!UICONTROL **マイ作業**]、[!UICONTROL **マイタスク**] または [!UICONTROL **マイイシュー[!UICONTROL ** ウィジェットの左上隅にある **]委任**] をクリックします。
+1. [!UICONTROL **マイ作業**]、[!UICONTROL **マイタスク**] または [!UICONTROL **マイイシュー[!UICONTROL **&#x200B; ウィジェットの左上隅にある &#x200B;**]委任**] をクリックします。
 
    ![ 委任ボタン ](assets/delegate-button-on-my-work-widget.png)
 
@@ -170,8 +170,8 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
 終了日を選択した場合は、デリゲーションの有効期限を指定するか、手動で停止することができます。また、デリゲーションの日付が変更された場合は、デリゲーションの時間枠を変更することもできます。
 
-1. [!UICONTROL **ホーム**] 領域に移動して、次のいずれかのウィジェットで [!UICONTROL **委任を編集**]**をクリックします。自分の作業**、**自分のタスク**、または **自分の問題**。
-1. [!UICONTROL  タスクおよび問題の委任を停止 ] ボックスで、次のいずれかの操作を行います。
+1. [!UICONTROL **ホーム**] 領域に移動して、次のいずれかのウィジェットで [!UICONTROL **委任を編集**]&#x200B;**をクリックします。自分の作業**、**自分のタスク**、または **自分の問題**。
+1. [!UICONTROL &#x200B; タスクおよび問題の委任を停止 &#x200B;] ボックスで、次のいずれかの操作を行います。
    * 「[!UICONTROL **開始日**]」または「[!UICONTROL **終了日**]」を変更します
    * 「[!UICONTROL **デリゲーションを停止**]」をクリックします
 
@@ -243,7 +243,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      ![ 委任されたタスクと問題フィルター ](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. （オプション） [!UICONTROL **並べ替え**] ドロップダウンメニューをクリックして、次の条件でリストを並べ替えます。
-   * [!UICONTROL  期限 ]. これはデフォルトの並べ替えオプションです。
+   * [!UICONTROL &#x200B; 期限 &#x200B;]. これはデフォルトの並べ替えオプションです。
    * [!UICONTROL 名前]
    * [!UICONTROL 完了率]
    * [!UICONTROL ステータス]
@@ -251,7 +251,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    * なし。 これはデフォルトのグループ化オプションです。
    * [!UICONTROL プロジェクト]
    * [!UICONTROL ステータス]
-   * [!UICONTROL  期限日 ]
+   * [!UICONTROL &#x200B; 期限日 &#x200B;]
 
 1. 委任した項目または委任された項目を表示するには、次のいずれかを表示します。
 

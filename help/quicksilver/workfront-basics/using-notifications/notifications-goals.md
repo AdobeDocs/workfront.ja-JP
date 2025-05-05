@@ -61,10 +61,10 @@ ht-degree: 92%
 
 ## 前提条件
 
-* [!DNL Goals] 通知を更新するユーザーには、[!UICONTROL  メインメニュー ] の [!DNL Goals] 領域を含むレイアウトテンプレートが必要です。
+* [!DNL Goals] 通知を更新するユーザーには、[!UICONTROL &#x200B; メインメニュー &#x200B;] の [!DNL Goals] 領域を含むレイアウトテンプレートが必要です。
 
 
-## [!UICONTROL  ユーザープロファイル ]エリアにある [!DNL Goals] の通知
+## [!UICONTROL &#x200B; ユーザープロファイル &#x200B;]エリアにある [!DNL Goals] の通知
 
 次のテーブルに表示される通知は、[!DNL Workfront Goals] で発生しているイベントに関する警告です。例えば、目標、結果、アクティビティを割り当てているユーザーや、所有する目標、結果、アクティビティを更新しているユーザーなどです。受信する通知の設定について詳しくは、[自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)を参照してください。
 

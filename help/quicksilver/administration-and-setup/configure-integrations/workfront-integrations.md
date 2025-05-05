@@ -30,7 +30,7 @@ ht-degree: 97%
 * [ドキュメント統合の無効化](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
 * [ [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
 * [メタデータマッピングの設定](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-* [ [!DNL Adobe Admin Console] でのユーザー向け  [!DNL Creative Cloud]]  パッケージ用の [!UICONTROL [!DNL Adobe Workfront]  を作成](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+* [ [!DNL Adobe Admin Console] でのユーザー向け  [!DNL Creative Cloud]]  パッケージ用の [[!UICONTROL [!DNL Adobe Workfront]  を作成]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/create-oauth-application.md" class="MCXref xref" xrefformat="{para}">Create OAuth2 applications for Workfront integrations</a> </li>

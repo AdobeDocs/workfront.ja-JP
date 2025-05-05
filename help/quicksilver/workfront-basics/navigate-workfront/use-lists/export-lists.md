@@ -51,7 +51,7 @@ ht-degree: 81%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>リストが含まれるオブジェクトに対する [!UICONTROL ビュー ] アクセス許可</p>  </td> 
+   <td> <p>リストが含まれるオブジェクトに対する [!UICONTROL ビュー &#x200B;] アクセス許可</p>  </td> 
   </tr> 
  </tbody> 
 </table>

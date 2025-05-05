@@ -44,8 +44,8 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ポートフォリオおよびプロジェクトを削除するプロジェクトに対する [!UICONTROL 管理 ] 権限</p>
-   <p>プロジェクトへの [!UICONTROL Delete] アクセス権を持つ [!UICONTROL 管理 ] 権限を持ち、ポートフォリオから削除できます</p> </td> 
+   <td> <p>ポートフォリオおよびプロジェクトを削除するプロジェクトに対する [!UICONTROL 管理 &#x200B;] 権限</p>
+   <p>プロジェクトへの [!UICONTROL Delete] アクセス権を持つ [!UICONTROL 管理 &#x200B;] 権限を持ち、ポートフォリオから削除できます</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,6 +62,6 @@ ht-degree: 78%
    ![ プロジェクトを削除ボタン ](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. 「**[!UICONTROL プロジェクトの削除]**」をクリックします。
-1. 「**[!UICONTROL 削除]**」をクリックしてプロジェクトを [!DNL Workfront] から削除するか、「**[!UICONTROL ポートフォリオから]****[!UICONTROL 削除する]**」をクリックして、選択したポートフォリオから削除します。
+1. 「**[!UICONTROL 削除]**」をクリックしてプロジェクトを [!DNL Workfront] から削除するか、「**[!UICONTROL ポートフォリオから]**&#x200B;**[!UICONTROL 削除する]**」をクリックして、選択したポートフォリオから削除します。
 
 1. （オプションおよび条件付き）ポートフォリオから削除したプロジェクトを見つけて、別のポートフォリオに関連付けます。ポートフォリオへのプロジェクトの関連付けについては、[ポートフォリオへのプロジェクトの追加](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)を参照してください。

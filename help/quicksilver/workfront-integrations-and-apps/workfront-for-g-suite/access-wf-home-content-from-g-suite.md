@@ -20,7 +20,7 @@ ht-degree: 57%
 >
 >Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
 
-Google Workspaceから離れることなく、割り当てられたすべてのタスク、イシュー、承認、アクセスリクエストを含む [!DNL Adobe Workfront] [!UICONTROL  ホーム ] コンテンツにアクセスできます。
+Google Workspaceから離れることなく、割り当てられたすべてのタスク、イシュー、承認、アクセスリクエストを含む [!DNL Adobe Workfront] [!UICONTROL &#x200B; ホーム &#x200B;] コンテンツにアクセスできます。
 
 ## アクセス要件
 
@@ -53,7 +53,7 @@ Google Workspaceから離れることなく、割り当てられたすべての�
 ## [!DNL Google Workspace] から [!DNL Workfront] [!UICONTROL ホーム]へのアクセス
 
 1. [!DNL Workfront] にログインしていることを確認します。
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。![
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ![&#128279;](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。
 1. [!DNL Google Workspace] の [!DNL Workfront] 上部に左向き矢印が表示される場合、[!UICONTROL ホーム]エリアに移動する矢印をクリックします。
 
 1. **[!UICONTROL 並べ替え]** 領域で、展開する矢印 ![ 展開する矢印 ](assets/dropdown-arrow.png) をクリックし、作業アイテムのグループ化方法を指定するオプションをクリックして、目的の作業アイテムを見つけることができます。

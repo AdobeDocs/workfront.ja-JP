@@ -102,7 +102,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 ## 担当作業ウィジェットの作業項目にコメントを追加
 
-[!UICONTROL  担当作業 ] ウィジェットの任意の作業項目に対して更新を提供できます。
+[!UICONTROL &#x200B; 担当作業 &#x200B;] ウィジェットの任意の作業項目に対して更新を提供できます。
 
 1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![ メインメニューラインのアイコン ](assets/lines-main-menu.png) をクリックして（使用可能な場合）、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして [!UICONTROL **担当作業**] ウィジェットを追加します。

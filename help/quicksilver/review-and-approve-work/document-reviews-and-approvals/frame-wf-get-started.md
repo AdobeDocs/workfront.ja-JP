@@ -26,7 +26,7 @@ Frame.io について詳しくは、[Frame.io の概要 ](https://support.frame.
 
 Workfront管理者は、設定エリアでデフォルトの Frame.io アカウントを設定し、Workfrontで Frame.io ユーザーを指定することで、Workfrontと Frame.io の統合を有効にします。 これにより、コーディネーターはWorkfront プロジェクトと正式なレビューおよび承認ワークフローを使用して、作業を計画および開始できます。
 
-### デフォルトの Frame.io アカウントを設定 [!BADGE  近日公開 ]{type=Informative}
+### デフォルトの Frame.io アカウントを設定 [!BADGE &#x200B; 近日公開 &#x200B;]{type=Informative}
 
 Workfront管理者は、Workfrontの設定領域にデフォルトの Frame.io アカウントを追加することで、Workfrontと Frame.io の統合を開始します。 デフォルトの Frame.io アカウントが設定されると、Workfrontで作成されたプロジェクトには、Frame.io で作成されたミラープロジェクトが含まれます。
 
@@ -50,7 +50,7 @@ Frame.io を定期的に使用するWorkfront ユーザーは、Frame.io ユー�
 
 * Frame.io のコラボレーターとして追加されます。
 * Frame.io からWorkfrontにアセットを送信して、正式なレビューと承認を受けることができます。
-* Workfrontから一方向の同期フォルダーの情報を表示できます。 [!BADGE  準備中 ]{type=Informative}
+* Workfrontから一方向の同期フォルダーの情報を表示できます。 [!BADGE &#x200B; 準備中 &#x200B;]{type=Informative}
 
 詳しくは、「[and [!DNL Workfront] integration の設定 ](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md) を参照  [!DNL Frame.io]  てください。
 
@@ -63,7 +63,7 @@ Frame.io を定期的に使用するWorkfront ユーザーは、Frame.io ユー�
 
 * **Frame.io ユーザーをタスクに割り当て**:Frame.io が有効なユーザーは、Workfront タスクに割り当てられると、完了すべき作業があることを示すメールで通知されます。
 * **Frame.io ユーザーとプロジェクトを共有**：プロジェクトを Frame.io 対応ユーザーと共有すると、Workfrontと Frame.io の両方の内部のプロジェクトにアクセスできます。
-* **Frame.io でクリエイティブマテリアルを共有**: プロジェクトコーディネーターは、一方向の同期プロジェクトフォルダーを使用して、Workfrontから Frame.io のクリエイティブユーザーに指示やマテリアルを直接送信できます。 [!BADGE  準備中 ]{type=Informative}
+* **Frame.io でクリエイティブマテリアルを共有**: プロジェクトコーディネーターは、一方向の同期プロジェクトフォルダーを使用して、Workfrontから Frame.io のクリエイティブユーザーに指示やマテリアルを直接送信できます。 [!BADGE &#x200B; 準備中 &#x200B;]{type=Informative}
 * **タスクの進捗の追跡**：クリエイティブ担当者は、Frame.io を離れることなく、完了したアセットを送信し、タスクを完了としてマークすることができます。
 
 詳しくは、[Frame.io に接続したプロジェクトの作成 ](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md) を参照してください。

@@ -77,7 +77,7 @@ Adobe Workfront 管理者は、アクセスレベルを割り当てる際に、�
 
 * プロジェクトを共有する場合、特に指定のない限り、すべてのタスク、イシューおよびドキュメントは同じ権限を継承します。
 
-  プロジェクトに対するユーザーの権限に基づいてプロジェクトでのタスクやイシューへのアクセス権を管理する方法について詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事で[](../../manage-work/projects/manage-projects/edit-projects.md#access)の節を参照してください。
+  プロジェクトに対するユーザーの権限に基づいてプロジェクトでのタスクやイシューへのアクセス権を管理する方法について詳しくは、[プロジェクトの編集](../../manage-work/projects/manage-projects/edit-projects.md)の記事で[&#128279;](../../manage-work/projects/manage-projects/edit-projects.md#access)の節を参照してください。
 
   Workfront 管理者は、ドキュメントがユーザーのアクセスレベルの上位のオブジェクトから権限を継承するかどうかを指定できます。ドキュメントに対する継承された権限の制限について詳しくは、[カスタムアクセスレベルの作成または変更](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 

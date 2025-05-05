@@ -52,8 +52,8 @@ ht-degree: 77%
 
 ## [!DNL Google Workspace] で作業アイテムの詳細を表示および管理する
 
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。![
-1.  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) からの [ アクセス  [!DNL Adobe Workfront] [!UICONTROL  ホーム ] コンテンツの説明に従って、[!DNL Google Workspace] 内の [!DNL Workfront] のタスクまたはイシューに移動します。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ![&#128279;](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。
+1. [!DNL Google Workspace][&#128279;](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) からの  アクセス  [!DNL Adobe Workfront] [!UICONTROL &#x200B; ホーム &#x200B;] コンテンツの説明に従って、[!DNL Google Workspace] 内の [!DNL Workfront] のタスクまたはイシューに移動します。
 
    タスクまたはイシューを選択すると、「**[!UICONTROL 詳細]**」タブが開きます。「**[!UICONTROL 詳細]**」タブの上のエリアには、親オブジェクトの名前、タスクまたはイシューの名前、[!UICONTROL 期日]（タスクの場合）または[!UICONTROL 優先日]（イシューの場合）が表示されます。
 
@@ -81,5 +81,5 @@ ht-degree: 77%
 
 1. （オプション）**[!UICONTROL [!DNL Workfront]]** で「表示」をクリックして、[!DNL Workfront] の現在の作業アイテムに移動します。
 
-* [!DNL Workfront for Google Workspace] の「[!UICONTROL  更新 ]」タブの使用について詳しくは、[ から  [!DNL Adobe Workfront]  オブジェクトを更新  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md) を参照してください。
+* [!DNL Workfront for Google Workspace] の「[!UICONTROL &#x200B; 更新 &#x200B;]」タブの使用について詳しくは、[ から  [!DNL Adobe Workfront]  オブジェクトを更新  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md) を参照してください。
 * [!DNL Workfront for Google Workspace] の「[!UICONTROL ドキュメント]」タブの使用について詳しくは、[[!DNL G Suite] のドキュメントを表示および管理](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)を参照してください。

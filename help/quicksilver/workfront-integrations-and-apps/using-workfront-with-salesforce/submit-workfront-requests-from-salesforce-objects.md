@@ -107,7 +107,7 @@ ht-degree: 95%
 1. （オプション）「**[!UICONTROL [!DNL Salesforce]]**&#x200B;に移動」をクリックして、Workfront の以下のエリアからイシューが発生した商談またはアカウントにアクセスします。
 
    * イシューの[!UICONTROL 詳細]セクション
-   * リストでイシューを選択する際の概要パネルで、リストのツールバーの [!UICONTROL  概要を開く ]![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックします。
+   * リストでイシューを選択する際の概要パネルで、リストのツールバーの [!UICONTROL &#x200B; 概要を開く &#x200B;]![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックします。
    * イシューヘッダー（[!UICONTROL 統合]フィールドが使用可能なとき）。システム管理者またはグループ管理者が、レイアウトテンプレートに[!UICONTROL 統合]フィールドを追加して、イシューヘッダーに「Salesforce に移動」リンクを表示する必要があります。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
    >[!NOTE]

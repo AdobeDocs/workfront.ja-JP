@@ -78,7 +78,7 @@ ht-degree: 94%
    * プロジェクトまたはイシューのヘッダー。
 
      プロジェクトまたはイシューのヘッダーに「[!UICONTROL Salesforce に移動]」リンクを表示するには、システム管理者またはグループ管理者がレイアウトテンプレートに「[!UICONTROL 統合]」フィールドを追加する必要があります。
-   * リストのツールバーで [!UICONTROL  概要を開く ]![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックした後、リストでイシューを選択する際のイシューの [!DNL Summary] パネル。
+   * リストのツールバーで [!UICONTROL &#x200B; 概要を開く &#x200B;]![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックした後、リストでイシューを選択する際のイシューの [!DNL Summary] パネル。
 
      >[!NOTE]
      >

@@ -35,7 +35,7 @@ ht-degree: 84%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL ライト ] 以上</p> 
+   <td> <p>新規：[!UICONTROL ライト &#x200B;] 以上</p> 
    または
    <p>現在：[!UICONTROL Review] 以上</p> </td> 
   </tr>

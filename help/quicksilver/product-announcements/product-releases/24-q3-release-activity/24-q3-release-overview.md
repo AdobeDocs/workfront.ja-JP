@@ -61,7 +61,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> ビジネスルールを利用できるようになりました </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>管理者は、Workfrontの設定エリアでビジネスルールを追加できるようになりました。</p>
                         <p>ビジネス・ルールを使用すると、Workfrontオブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ルールは、カスタムフォームの計算フィールドに類似した式を使用して作成されます。</p>
                     </td>
@@ -80,7 +80,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Adobe Workfrontで一般入手可能なカスタムフォームデザイナー </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>24.7 リリースでは、フォームデザイナーが一般入手可能になり、Adobe Workfrontでカスタムフォームを作成および編集するためのデフォルトのエクスペリエンスになります。 新しいカスタムフォームを作成する場合、または既存のフォームを開く場合、フォームデザイナーのキャンバスタイルワークスペースが表示されます。</p>
                         <p>このリリース以降、従来のフォームビルダーに戻すオプションはなくなります。</p>
                     </td>
@@ -98,7 +98,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> 環境の昇格によるWorkfront環境間でのオブジェクトの移動 </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>環境のプロモーションにより、サンドボックス環境から実稼動環境など、あるWorkfront環境から別の環境にオブジェクトを移動できます。 組織のデータやレコードにリスクを与えることなく、オブジェクトを設定およびテストできます。 その後、これらのオブジェクトを再構成することなく実稼動環境に移動できるため、時間と労力を節約できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -112,7 +112,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> カスタムフォームデザイナーでのカスタムフォームおよびカスタムフィールドの共有 </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>新しいフォームデザイナー内で、カスタムフォームとカスタムフィールドの両方を共有できるようになりました。 これにより、カスタムフォームのユーザー間の共同作業が促進されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -129,7 +129,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> 「フィールド」領域から新しいカスタムフィールドを追加する </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>カスタムフォームを開いてフィールドを作成することなく、Workfrontの「フィールド」領域から直接新しいカスタムフィールドまたはウィジェットを追加できるようになりました。 これにより、再利用可能なカスタムフィールドをすばやく作成できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -146,7 +146,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md"> フォームデザイナーで使用できる複数選択ドロップダウンフィールドタイプ </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>ドロップダウンフィールドをより簡単に定義できるように、複数選択ドロップダウンフィールドをカスタムフォームデザイナーに追加しました。 このフィールドタイプを使用すると、ユーザーはドロップダウンリストから複数のオプションを選択できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -182,7 +182,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> プロジェクトおよびタスクに使用できる請求可能および請求不可の費用フィールド </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>費用タイプをより簡単に確認できるように、費用は、プロジェクトとタスクの請求可能な費用と請求不可な費用に分割されています。 ビューとレポートに追加できるフィールドは以下のとおりです。</p>
                         <ul>
                             <li><p>予定請求可能費用コスト</p></li>
@@ -224,7 +224,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront for Experience Manager Assetsと Assets Essentials の機能強化 </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>Experience Manager Assetsと Assets Essentials 統合のWorkfrontで次の改善が行われました。</p>
                         <ul>
                             <li><p>この統合では、クラウドサービスプロバイダーとしての GCP がサポートされるようになりました。 以前は、AWSと Azure がサポートされていました。</p></li>
@@ -264,7 +264,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> ヘッダーまたは「詳細」セクションで、タスクと問題のコミット日および条件を編集します </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>タスクとイシューを簡単に更新できるように、レイアウトテンプレートのタスクとイシューのヘッダーと詳細セクションに追加するオプションとして、「コミット日」フィールドと「条件」フィールドが追加されるようになりました。 ユーザーは、変更されたレイアウトテンプレートに割り当てられたときに、ページのヘッダーまたは詳細セクションからこれらのフィールドを更新できるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -284,7 +284,7 @@ ht-degree: 44%
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">より関連性の高い割り当てを、新規タスクワークフローに追加</a></p>
-                        [!BADGE In Production for Fast Release ]{type=Positive}
+                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
                         <p>プロジェクトやプロジェクトのタスクリストにタスクを追加する際に、関連性の高いスマート割り当てを行うための同じ機能が、「新規タスク」ボックスの「割り当て」フィールドに追加されました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -302,7 +302,7 @@ ht-degree: 44%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
-                        [!BADGE In Production for Fast Release ]{type=Positive}
+                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}
                         <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -339,7 +339,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアのセキュリティアップデート </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>Workfront Proof デスクトッププルーフビューア 2.1.35 セキュリティアップデートは、以前のリリースで特定された脆弱性のセキュリティバグ修正を提供します。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -375,7 +375,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md"> 休暇がワークロードバランサーに反映されるようになりました </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>タスクのプライマリ担当者が休暇をスケジュールした場合に作業をシームレスに調整するために、プロジェクトタイムラインが再計算される際に、ワークロードバランサーがプライマリユーザーとセカンダリユーザーの両方に時間を再割り当てするようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -424,7 +424,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobeの統合エクスペリエンスを、より多くのWorkfront組織で利用できるようになりました </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>Adobe Unified Experience のメリットに企業がアクセスできるように、既存のWorkfrontのお客様が利用できるようにする準備に着手しました。 </p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -442,7 +442,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> メインナビゲーションバーから「ヘルプ」ボタンが削除されました </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>統合シェル以外のユーザーのエクスペリエンスを統一するために、メインナビゲーションバーの「ヘルプ」ボタンが削除されました。 このボタンはWorkfrontのドキュメントにリンクされており、統合シェルのユーザーには表示されず、メインメニューのすべてのユーザーが利用できる同様のヘルプボタンと重複していました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -459,7 +459,7 @@ ht-degree: 44%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}"> オブジェクトアクセスが制限されたユーザーの UI エクスペリエンスが向上 </a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production &#x200B;]{type=Informative}
                         <p>ユーザーがオブジェクトへのアクセス権を持っていない場合、Workfrontでは、そのオブジェクト名が表示されるすべての場所に「アクセスなし」と表示されます。 この改善されたエクスペリエンスは、Workfront API にも当てはまります。</p>
                     </td>
                     <td><p><b>公開日：</b></p>

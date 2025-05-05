@@ -30,7 +30,7 @@ ht-degree: 91%
 * [!UICONTROL サブタスク]
 * [!UICONTROL ドキュメント]
 
-接続したカードをWorkfrontと同期するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL  詳細メニュー ]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続項目を同期]** を選択します。 アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、カードは再び同期されます。
+接続したカードをWorkfrontと同期するには、ボード名の横にある **[!UICONTROL 詳細]** メニュー ![[!UICONTROL &#x200B; 詳細メニュー &#x200B;]](assets/more-icon-spectrum.png) をクリックし、**[!UICONTROL 接続項目を同期]** を選択します。 アーカイブしたカードが、Workfrontのタスクおよび問題と同期されない。 カードを復元すると、カードは再び同期されます。
 
 >[!NOTE]
 >

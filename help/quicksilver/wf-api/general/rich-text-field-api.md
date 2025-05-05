@@ -28,7 +28,7 @@ Adobe Workfront の一部のオブジェクトでは、リッチテキスト形�
 **例：**&#x200B;カスタムフォームフィールド **Field with rich text** の値を取得する基本的な GET リクエスト：
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 **例：**&#x200B;このリクエストは、**parameterValue** **DE:Field with rich text** に保存されている JSON の **Field with rich text** の値を返します。
 
@@ -118,4 +118,4 @@ Workfront API を使用してリッチテキストフィールドの次の値を
 1. 上記で概要を示した JSON で **stringify** メソッドを使用して、**PUT** リクエストを実行し更新を送信します。
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

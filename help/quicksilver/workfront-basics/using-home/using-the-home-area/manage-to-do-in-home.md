@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: ホームでの To Do アイテムの作成と管理
-description: '[!UICONTROL  ホーム ] エリアから個人の To Do アイテムを作成できます。'
+description: '[!UICONTROL &#x200B; ホーム &#x200B;] エリアから個人の To Do アイテムを作成できます。'
 author: Courtney
 feature: Get Started with Workfront, Work Management
 source-git-commit: 0289e2d0a3f75827b9c799b72fdc4e9ca1c59949
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # 個人の To Do アイテムの作成と管理
 
-[!UICONTROL  ホーム ] エリアの To Do ウィジェットに、個人の To Do アイテムを作成できます。 To Do アイテムは、自分で作成する個人用タスクです。
+[!UICONTROL &#x200B; ホーム &#x200B;] エリアの To Do ウィジェットに、個人の To Do アイテムを作成できます。 To Do アイテムは、自分で作成する個人用タスクです。
 
 自分および他のユーザーは、自分の個人タスクを個人タスクレポートで表示できます。 必要に応じて、そこからプロジェクトに追加できます。
 

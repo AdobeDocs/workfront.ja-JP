@@ -24,7 +24,7 @@ ht-degree: 73%
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
-正しいアクセス権や権限がないと、[!DNL  Adobe Workfront] の[!UICONTROL シナリオ]エリアの表示や、組織のプランとイニシアチブの管理ができない場合があります。プランとイニシアチブの管理には、プランとイニシアチブの作成、編集、削除も含まれます。
+正しいアクセス権や権限がないと、[!DNL &#x200B; Adobe Workfront] の[!UICONTROL シナリオ]エリアの表示や、組織のプランとイニシアチブの管理ができない場合があります。プランとイニシアチブの管理には、プランとイニシアチブの作成、編集、削除も含まれます。
 
 ## [!DNL Adobe Workfront Scenario Planner] の表示や使用に必要なアクセス権
 
@@ -58,7 +58,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
    >[!NOTE]
    > 
-   >* 新しいライセンスを使用する際、[!UICONTROL  コントリビューター ] または [!UICONTROL  外部 ] ライセンスタイプを持つユーザーは、[!DNL Scenario Planner] にアクセスできません。
+   >* 新しいライセンスを使用する際、[!UICONTROL &#x200B; コントリビューター &#x200B;] または [!UICONTROL &#x200B; 外部 &#x200B;] ライセンスタイプを持つユーザーは、[!DNL Scenario Planner] にアクセスできません。
    >
    >* 現在のライセンスを使用する場合、リクエストまたは外部ライセンスタイプを持つユーザーは、シナリオプランナーにアクセスできません。
 

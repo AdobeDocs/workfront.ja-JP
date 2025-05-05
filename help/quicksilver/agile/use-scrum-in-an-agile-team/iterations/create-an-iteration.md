@@ -35,7 +35,7 @@ ht-degree: 78%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL ライト ] 以上</p> 
+   <td> <p>新規：[!UICONTROL ライト &#x200B;] 以上</p> 
    または
    <p>現在：[!UICONTROL Review] 以上</p> </td> 
   </tr>
@@ -164,6 +164,6 @@ ht-degree: 78%
 
 [!UICONTROL イテレーション終了日]マイナス（-）[!UICONTROL タスクの期間]は（=）[!UICONTROL タスクの予定開始日]
 
-プロジェクト開始日がイテレーション開始日より後で、プロジェクト終了日がイテレーション終了日より後の場合、イテレーション終了日の代わりに [!UICONTROL  プロジェクト終了日 ] が使用されます。
+プロジェクト開始日がイテレーション開始日より後で、プロジェクト終了日がイテレーション終了日より後の場合、イテレーション終了日の代わりに [!UICONTROL &#x200B; プロジェクト終了日 &#x200B;] が使用されます。
 
 個々のスクラムチームが、デフォルトではイテレーション日付よりも、プロジェクト日付を使用するように設定できます。詳しくは、[スクラムの設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)の記事の[作業アイテムをイテレーションに追加する際に日付を適用する方法を設定](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration)を参照してください。

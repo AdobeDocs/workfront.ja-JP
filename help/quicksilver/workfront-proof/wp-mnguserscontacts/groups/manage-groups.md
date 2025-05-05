@@ -66,10 +66,10 @@ ht-degree: 98%
 
 ## グループをフィルタリング
 
-1. 列見出しの右端にある&#x200B;**[!UICONTROL フィルター]**アイコンをクリックして、列見出しの下にフィルタリングオプションを表示します。
+1. 列見出しの右端にある&#x200B;**[!UICONTROL フィルター]**&#x200B;アイコンをクリックして、列見出しの下にフィルタリングオプションを表示します。
    ![Group_page-Filter_icon_and_options.png](assets/group-page-filter-icon-and-options-350x134.png)
 
-1. ドロップダウンメニューから[!UICONTROL フィルタリングオプション]を選択し、各列ヘッダーの下に表示されるフィルタリングボックスに入力し、**[!UICONTROL フィルター]**アイコンを再度クリックしてオプションを適用します。
+1. ドロップダウンメニューから[!UICONTROL フィルタリングオプション]を選択し、各列ヘッダーの下に表示されるフィルタリングボックスに入力し、**[!UICONTROL フィルター]**&#x200B;アイコンを再度クリックしてオプションを適用します。
 または\
    グループ名の最初の文字を選択します。
    ![Groups_page-filtering_by_letter.png](assets/groups-page-filtering-by-letter-350x245.png)

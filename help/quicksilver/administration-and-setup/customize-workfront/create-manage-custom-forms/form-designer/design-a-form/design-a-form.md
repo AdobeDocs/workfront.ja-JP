@@ -631,12 +631,12 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
       <td role="rowheader">JSON パス</td>
       <td><p>API の JSON パスを入力するか貼り付けます。</p> <p>このオプションを使用すると、API URL から返された JSON からデータを抽出できます。これは、JSON 内のどの値がドロップダウンオプションに表示されるかを選択する手段の役割を果たします。</p><p>例えば、API URL がこの形式で JSON を返す場合、次のようになります。</br>
       <pre>
-      {
- data: {
+      &lbrace;
+ data: &lbrace;
  { name: "USA"},
  { name: "Canada"}
- }
- }
+ &rbrace;
+ &rbrace;
       </pre>
       </p>
       <p>「$.data[*].name」を使用して、「USA」と「Canada」をドロップダウンオプションとして選択できます。</p> <p>JSON パスと、正しい JSON パスを記述する方法について詳しくは、<a href="https://jsonpath.com/">https://jsonpath.com/</a> を参照してください。</p></td>

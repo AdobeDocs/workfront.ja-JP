@@ -172,7 +172,7 @@ ht-degree: 94%
 
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**[!UICONTROL 設定]**」![設定アイコン](/help/_includes/assets/gear-icon-setup.png)の順にクリックします。
 1. 左側のナビゲーションで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;を選択したあと、**[!UICONTROL クラウド プロバイダー]**&#x200B;を選択します。
-1. **[!DNL SharePoint]**&#x200B;オプションと&#x200B;**[!UICONTROL [!DNL SharePoint](Graph API)]**&#x200B;オプションが両方とも有効になっていることを確認します。
+1. **[!DNL SharePoint]**&#x200B;オプションと&#x200B;**[!UICONTROL [!DNL SharePoint] (Graph API)]**&#x200B;オプションが両方とも有効になっていることを確認します。
 1. **[!UICONTROL 保存]**&#x200B;をクリックします。
 1. 左側のナビゲーションで&#x200B;**[!UICONTROL ドキュメント]**&#x200B;を選択したあと、**[!UICONTROL [!DNL SharePoint]統合]**&#x200B;を選択します。
 1. 既存のすべての統合のリストの左側にあるチェックマークを選択したあと、「**[!UICONTROL 無効にする]**」を選択します。

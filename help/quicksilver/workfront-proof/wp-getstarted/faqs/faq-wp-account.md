@@ -41,7 +41,7 @@ ht-degree: 99%
 
 権限プロファイルは、アカウント内の様々なアイテムに対してユーザーが持つアクセス権を定義するものです。これは、他の人のプルーフを見られたくない場合や、[!UICONTROL アカウント設定]や[!UICONTROL 請求]へのアクセスを許可したくない場合に重要です。[!DNL Workfront Proof] で利用可能なプロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルのの記事を参照してください。
 
-権限をもう少し細かく調整する必要がある場合は、カスタムプロファイルを検討するとよいでしょう。これは、カスタマイズされた権限で独自のプロファイルを作成できる[!UICONTROL 無制限]の機能です。詳しくは、[[!UICONTROL  [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成と管理の記事を参照してください。
+権限をもう少し細かく調整する必要がある場合は、カスタムプロファイルを検討するとよいでしょう。これは、カスタマイズされた権限で独自のプロファイルを作成できる[!UICONTROL 無制限]の機能です。詳しくは、[[!UICONTROL &#x200B; [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成と管理の記事を参照してください。
 
 ## プルーフロールと権限プロファイルの違い
 
@@ -55,7 +55,7 @@ ht-degree: 99%
 
 例えば、クライアントごとに個別のフォルダーを作成し、プロジェクトごとに異なるサブフォルダーを作成できます。または、プロジェクト用のフォルダーを作成し、アセットごとに異なるサブフォルダーを作成することもできます。必要に応じて、プルーフの作成者は、作成したプルーフ用に独自のフォルダーを作成するだけで済みます。フォルダーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) のフォルダーの記事を参照してください。
 
-*タグ*&#x200B;は、アカウント内でプルーフやファイルを整理するためのもう 1 つの方法です。複数のタグをプルーフやファイルに適用することができ、プロジェクト名、コンテンツタイプ、クライアント名などに使用できます。タグを使用するとアカウントを検索することができ、検索結果に対して様々なアクションを実行できます。カスタムビューでも使用することもできます。タグについて詳しくは、[[!UICONTROL  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) でのタグの作成と管理]の記事を参照してください。
+*タグ*&#x200B;は、アカウント内でプルーフやファイルを整理するためのもう 1 つの方法です。複数のタグをプルーフやファイルに適用することができ、プロジェクト名、コンテンツタイプ、クライアント名などに使用できます。タグを使用するとアカウントを検索することができ、検索結果に対して様々なアクションを実行できます。カスタムビューでも使用することもできます。タグについて詳しくは、[[[!UICONTROL &#x200B; [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) でのタグの作成と管理]の記事を参照してください。
 
 ## クライアントにダッシュボードを提供する方法
 

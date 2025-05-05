@@ -85,7 +85,7 @@ ht-degree: 75%
 
 ## [!DNL Workfront] をナビゲートする
 
-[!DNL Workfront] ーザーナビゲーションバーの左側にある [!UICONTROL  メインメニュー ] アイコン ![ メインメニューアイコン ](assets/main-menu-icon-left-nav.png) を使用して、アクセス権のあるページに移動します。 [!UICONTROL メインメニュー]で使用できるオプションは、以下に依存します。
+[!DNL Workfront] ーザーナビゲーションバーの左側にある [!UICONTROL &#x200B; メインメニュー &#x200B;] アイコン ![ メインメニューアイコン ](assets/main-menu-icon-left-nav.png) を使用して、アクセス権のあるページに移動します。 [!UICONTROL メインメニュー]で使用できるオプションは、以下に依存します。
 
 * **レイアウトテンプレートの設定**：[!DNL Workfront] 管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレートを使用して、[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 * **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[[!UICONTROL レビュー]ライセンスユーザーのナビゲーションを理解](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[[!UICONTROL 作業]ライセンスユーザーのナビゲーションを理解](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)を参照してください。

@@ -42,7 +42,7 @@ ht-degree: 80%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL ビュー ] 以上の [!UICONTROL レポート ]、[!UICONTROL ダッシュボード ]、および [!UICONTROL カレンダー ] へのアクセス</p></td> 
+   <td> <p>[!UICONTROL ビュー &#x200B;] 以上の [!UICONTROL レポート &#x200B;]、[!UICONTROL ダッシュボード &#x200B;]、および [!UICONTROL カレンダー &#x200B;] へのアクセス</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -66,7 +66,7 @@ ht-degree: 80%
 1. 共有するカレンダーに移動します。
 1. カレンダー名の横にある **詳細** メニューをクリックし、「**共有**」をクリックします。
    ![ カレンダーの詳細メニュー ](assets/more-menu-calendar.png)
-1. **** へのアクセス権限付与の相手フィールドに、カレンダーを共有するユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに名前が表示されたらクリックします。\
+1. **&#x200B;**&#x200B;へのアクセス権限付与の相手フィールドに、カレンダーを共有するユーザー、チーム、役割、グループまたは会社の名前を入力し、ドロップダウンリストに名前が表示されたらクリックします。\
    権限の設定について詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 
 1. （オプション）カレンダーへのアクセスを許可するユーザー、チーム、役割またはグループごとに手順 3 を繰り返します。
@@ -84,7 +84,7 @@ ht-degree: 80%
      >
      >[!DNL Workfront] 管理者とカレンダーの作成者は、これらのエンティティから権限を削除できます。
 
-1. （任意）ユーザーの役割に応じて、**[!UICONTROL 詳細オプション]**] をクリックし、**[!UICONTROL 共有]**&#x200B;をクリックすると、ユーザーは他のユーザーとカレンダーを共有できます。
+1. （任意）ユーザーの役割に応じて、**[!UICONTROL 詳細オプション]**&rbrack; をクリックし、**[!UICONTROL 共有]**&#x200B;をクリックすると、ユーザーは他のユーザーとカレンダーを共有できます。
 
    権限レベルについて詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
 

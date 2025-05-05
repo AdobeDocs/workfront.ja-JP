@@ -88,4 +88,4 @@ ht-degree: 97%
 
      ビューの作成について詳しくは、[Adobe Workfront のビューの概要](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)を参照してください。
 
-1. ステップ 2 でテンプレートから作成されたものとして特定されたすべてのタスクを選択し、**「削除」アイコン****／はい、削除します** をクリックします。詳しくは、[タスクの削除](../../../manage-work/tasks/manage-tasks/delete-tasks.md)を参照してください。
+1. ステップ 2 でテンプレートから作成されたものとして特定されたすべてのタスクを選択し、**「削除」アイコン**&#x200B;**／はい、削除します** をクリックします。詳しくは、[タスクの削除](../../../manage-work/tasks/manage-tasks/delete-tasks.md)を参照してください。

@@ -109,7 +109,7 @@ ht-degree: 63%
      >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
    * 「**ダッシュボードを追加**」をクリックします
-      * <!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
+      * &#x200B;<!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
       * 「**ダッシュボードを追加**」フィールドでダッシュボードを選択し <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> す
       * 「**追加**」をクリックします。
 

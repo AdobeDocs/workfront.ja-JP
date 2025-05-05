@@ -33,7 +33,7 @@ Adobe Workfront のタイムシートの週の開始日は、ブラウザーの�
 次に、Workfront でサポートされている様々なブラウザーの言語およびロケール設定を変更する方法を示します。
 
 * **Chrome:** 次のリンクをコピーして、Chrome ブラウザーに貼り付けます：`chrome://settings/languages` 次に、[ 言語 ] に移動します。
-* **Firefox：**Firefox ブラウザーにリンク「`about:preferences#content`」をコピー&amp;ペーストして、「言語」に移動します。
+* **Firefox：**&#x200B;Firefox ブラウザーにリンク「`about:preferences#content`」をコピー&amp;ペーストして、「言語」に移動します。
 * **IE 11**：ツール／インターネットオプション／一般／言語
 * **Safari**：Safari では、オペレーティングシステムの言語全体を変更しない限り、web 閲覧の言語を変更することはできません。クロムや Firefox など別のブラウザーをインストールする方が簡単です。
 

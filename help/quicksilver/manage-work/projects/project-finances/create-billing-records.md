@@ -271,4 +271,4 @@ ht-degree: 97%
      Included Hourly Revenue (Billable Hours) + Included Expenses (Billable Expenses) + Included Fixed Revenue (Billable Revenues) + Fixed Amount for Other Billable Items (Additional Amount)
      ```
 
-1. 「******変更を保存**」をクリックします。
+1. 「**&#x200B;**&#x200B;**変更を保存**」をクリックします。

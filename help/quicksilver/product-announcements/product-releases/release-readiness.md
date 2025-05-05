@@ -93,7 +93,7 @@ ht-degree: 99%
 
 機能がプレビューサンドボックス環境にリリースされると、[!DNL Workfront] ドキュメントが更新されて新しい機能が追加されます。該当する記事を検索したり、リリースノートからドキュメントへのリンクをたどることができます。
 
-[!UICONTROL プレビューサンドボックス]環境について詳しくは、[ [!DNL Adobe Workfront] [!UICONTROL  プレビューサンドボックス]環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
+[!UICONTROL プレビューサンドボックス]環境について詳しくは、[ [!DNL Adobe Workfront] [!UICONTROL &#x200B; プレビューサンドボックス]環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
 
 ### リリースウェビナーに参加
 

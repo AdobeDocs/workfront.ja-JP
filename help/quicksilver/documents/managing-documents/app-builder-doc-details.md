@@ -107,6 +107,7 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
 
 1. テンプレートの選択と設定
    1. 使用可能なすべてのテンプレートを参照し、プロジェクトの **@adobe/aem-cf-editor-ui-ext-tpl** テンプレートを選択します。
+
       ![ 検索テンプレート ](assets/search-template.png)
       ![ テンプレートを選択 ](assets/select-template.png)
 
@@ -115,6 +116,7 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
    1. 拡張機能の機能の説明的な概要を提供します。
    1. 開始する初期バージョン番号を選択します。
    1. 「完了しました **を選択して完了を確認** ます。
+
       ![ 拡張機能を定義 ](assets/define-extension.png)
 
 1. プロジェクトフォルダーに移動します
@@ -320,7 +322,7 @@ Workfrontにゲストアプリケーションを読み込むには、アプリ�
    1. `aio app use -w Production `
    1. `aio app deploy `
 
-1. [https://developer-stage.adobe.com/} または ](https://developer-stage.adobe.com/)2}https://developer.adobe.com/](https://developer.adobe.com/) に移動します。[
+1. [https://developer-stage.adobe.com/&rbrace; または ](https://developer-stage.adobe.com/)2&rbrace;https://developer.adobe.com/[&#128279;](https://developer.adobe.com/) に移動します。
    1. 右上隅の **コンソール** をクリックします。
 
 1. AppBuilder アプリケーションの作成に使用したプロジェクトを見つけます。
@@ -339,7 +341,7 @@ Workfrontにゲストアプリケーションを読み込むには、アプリ�
 
 ## 送信を承認
 
-1. システム管理者は、[https://stage.exchange.adobe.com/} または ](https://stage.exchange.adobe.com/)2}https://exchange.adobe.com/](https://exchange.adobe.com/) に移動します。[
+1. システム管理者は、[https://stage.exchange.adobe.com/&rbrace; または ](https://stage.exchange.adobe.com/)2&rbrace;https://exchange.adobe.com/[&#128279;](https://exchange.adobe.com/) に移動します。
 
 1. **管理**/**Experience Cloud アプリケーション** をクリックします。 送信されたアプリと、承認/拒否するオプションが表示されます。
 承認されると、公開済みのアプリケーション拡張機能がWorkfront環境に自動的に読み込まれます。

@@ -49,7 +49,7 @@ ht-degree: 84%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>アクセスレベル </td> 
-   <td>  <p>[!UICONTROL ビュー ] 以上のユーザーアクセス [!DNL Scenario Planner]</p>  </td> 
+   <td>  <p>[!UICONTROL ビュー &#x200B;] 以上のユーザーアクセス [!DNL Scenario Planner]</p>  </td> 
   </tr>
  </tbody> 
 </table>

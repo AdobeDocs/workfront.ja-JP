@@ -105,7 +105,7 @@ ht-degree: 73%
    Package installed in <time>
    ```
 
-1. [!UICONTROL CRX パッケージマネージャー ] を閉じます。 コネクタがインストールされ、[!DNL Workfront] と統合するように [!DNL AEM Assets] を設定できるようになりました。
+1. [!UICONTROL CRX パッケージマネージャー &#x200B;] を閉じます。 コネクタがインストールされ、[!DNL Workfront] と統合するように [!DNL AEM Assets] を設定できるようになりました。
 
 1. [ [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront) と統合する  [!DNL AEM Assets]  の設定に進みます。
 
@@ -124,7 +124,7 @@ ht-degree: 73%
 開始する前に、workfront-service の権限を有効にする必要があります。
 
 1. AEMで、**[!UICONTROL ツール]**/**[!UICONTROL セキュリティ]**/**[!UICONTROL 権限]** に移動します。
-1. 左上隅で、ドロップダウンメニューの「**[!UICONTROL ユーザー]**&#x200B;」を選択し、「*[!UICONTROL 検索&#x200B;]**&#x200B;」フィールドに「**[!UICONTROL workfront-service]*」と入力します。 [!UICONTROL workfront-service] ユーザーを選択します。
+1. 左上隅で、ドロップダウンメニューの「**[!UICONTROL ユーザー]**&#x200B;」を選択し、「*[!UICONTROL 検索&#x200B;]&#x200B;**&#x200B;」フィールドに「**&#x200B;[!UICONTROL workfront-service]*」と入力します。 [!UICONTROL workfront-service] ユーザーを選択します。
 1. 画面の右側で、**[!UICONTROL ACE の追加]**&#x200B;を選択して新しいエントリを作成します。
 1. &#x200B;**[!UICONTROL Add New Entry]**&#x200B; ウィンドウの **[!UICONTROL Path]**&#x200B; フィールドでチェックボックスアイコンを選択し、フォルダー */conf を選択し* す。
 1. 「**Privileges**」フィールドに *jcr:read* と入力します。
@@ -229,7 +229,7 @@ ht-degree: 73%
 
 1. 「**[!UICONTROL OSGI]**」をクリックし、ドロップダウンメニューで「**[!UICONTROL 設定]**」をクリックします。
 
-1. 設定リストで、「&#x200B;**[!UICONTROL Day CQ Link Externalizer]」を選択します。**[!UICONTROL  Externalizer ]**ページが** 示されます。
+1. 設定リストで、「&#x200B;**[!UICONTROL Day CQ Link Externalizer]」を選択します。**&#x200B;[!UICONTROL &#x200B; Externalizer &#x200B;]&#x200B;**ページが** 示されます。
 
 1. 「**[!UICONTROL ドメイン]**」セクションで、「**[!UICONTROL 作成者]**」フィールドに一覧表示されるドメインが、AEM ユーザーが外部からアクセスできるドメイン名であることを確認します。
 
@@ -238,13 +238,13 @@ ht-degree: 73%
    ![[!DNL Extenalizer].png](assets/extenalizer-350x128.png)
 
 1. （条件付き）必要に応じて、「**[!UICONTROL 作成者]**」フィールドのドメインを更新します。
-1. 「**[!UICONTROL 保存]**」をクリックします。ドキュメントを [!DNL Workfront] とリンクするように ]0}AEM Assets} が構成されました。[!UICONTROL 
+1. 「**[!UICONTROL 保存]**」をクリックします。ドキュメントを [!DNL Workfront] とリンクするように 0&rbrace;AEM Assets&rbrace; が構成されました。
 
 1. [ [!DNL AEM assets]](#configure-workfront-to-integrate-with-aem-assets) と統合する  [!DNL Workfront]  の設定を続行します。
 
 ## [!DNL AEM assets] と統合する [!DNL Workfront] の設定 {#configure-workfront-to-integrate-with-aem-assets}
 
-[!UICONTROL AEM Assets 用 Workfront] コネクタをインストール後（[[!UICONTROL AEM Assets 用 Workfront] コネクタパッケージのインストール](#install-the-workfront-for-aem-assets-connector-package)参照）、[!UICONTROL AEM Assets] を設定し（[ [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)と統合する[!UICONTROL  AEM Assets] の設定参照）、[!DNL Workfront] および [!DNL AEM Assets] 間でドキュメントをリンクする [!DNL Workfront] を設定します。
+[!UICONTROL AEM Assets 用 Workfront] コネクタをインストール後（[[!UICONTROL AEM Assets 用 Workfront] コネクタパッケージのインストール](#install-the-workfront-for-aem-assets-connector-package)参照）、[!UICONTROL AEM Assets] を設定し（[ [!DNL Workfront]](#configure-aem-assets-to-integrate-with-workfront)と統合する[!UICONTROL &#x200B; AEM Assets] の設定参照）、[!DNL Workfront] および [!DNL AEM Assets] 間でドキュメントをリンクする [!DNL Workfront] を設定します。
 
 1. 管理者としてWorkfrontにログインします。
 
@@ -254,7 +254,7 @@ ht-degree: 73%
 
 {{step-1-to-setup}}
 
-1. **[!UICONTROL ドキュメント]**/**[!UICONTROL カスタム統合 ].** をクリックします。
+1. **[!UICONTROL ドキュメント]**/**[!UICONTROL カスタム統合 &#x200B;].** をクリックします。
 
 1. 「**[!UICONTROL カスタム統合を追加]**」をクリックします。
 1. 「**[!UICONTROL 名前]**」ボックスに、カスタム統合の名前を入力します。

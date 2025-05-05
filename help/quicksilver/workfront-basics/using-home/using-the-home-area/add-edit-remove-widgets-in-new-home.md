@@ -88,7 +88,7 @@ ht-degree: 50%
 
 ウィジェットを追加するには：
 
-1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ](assets/home-icon-30x29.png)0}Adobe Workfrontアイコン } をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)**をクリックしてから「ホーム** をクリックして、ホームページに移動します。![
+1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![&#128279;](assets/home-icon-30x29.png)0&rbrace;Adobe Workfrontアイコン &rbrace; をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)**をクリックしてから「ホーム** をクリックして、ホームページに移動します。
 
 1. 画面の右上隅にある「**カスタマイズ**」をクリックします。
 
@@ -141,7 +141,7 @@ ht-degree: 50%
 
 ## ホームページ上のウィジェットを移動またはサイズ変更
 
-1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ](assets/home-icon-30x29.png)0}Adobe Workfrontアイコン } をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)**をクリックしてから「ホーム** をクリックして、ホームページに移動します。![
+1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![&#128279;](assets/home-icon-30x29.png)0&rbrace;Adobe Workfrontアイコン &rbrace; をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)**をクリックしてから「ホーム** をクリックして、ホームページに移動します。
 
 1. ホームページ上で移動またはサイズ変更するウィジェットを見つけます。
 
@@ -151,7 +151,7 @@ ht-degree: 50%
 
 ## ホームページからウィジェットを削除
 
-1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ](assets/home-icon-30x29.png)0}Adobe Workfrontアイコン } をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)**をクリックしてから「ホーム** をクリックして、ホームページに移動します。![
+1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![&#128279;](assets/home-icon-30x29.png)0&rbrace;Adobe Workfrontアイコン &rbrace; をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)**をクリックしてから「ホーム** をクリックして、ホームページに移動します。
 
 1. 削除するホームページでウィジェットを見つけ、ウィジェットの右上隅にある **その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックします。
 
@@ -160,7 +160,7 @@ ht-degree: 50%
 
 ## 背景の色を変更する
 
-1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ](assets/home-icon-30x29.png)0}Adobe Workfrontアイコン } をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) **「ホーム** をクリックして、ホームページに移動します。![
+1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![&#128279;](assets/home-icon-30x29.png)0&rbrace;Adobe Workfrontアイコン &rbrace; をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) **「ホーム** をクリックして、ホームページに移動します。
 
 1. 画面の右上隅にある「**カスタマイズ**」をクリックします。
 

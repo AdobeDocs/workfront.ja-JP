@@ -174,4 +174,4 @@ Workfront 内で共有されているプルーフの承認に関するレポー�
 
 ユーザーがプルーフに追加し、自動ワークフローを使用して承認者の役割またはレビュアーおよび承認者の役割のいずれかを付与すると、承認リクエストがホーム エリアのマイ承認ウィジェットに表示されます。 その後、プルーフを確認し、プルーフに関する承認の決定を Workfront から直接行うことができます。
 
-マイ承認ウィジェットから承認に関する決定を行う方法について詳しくは、[ 作業の承認 ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ホーム領域から作業を承認 [ または [ 作業の承認 ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) を参照してください ](../../../review-and-approve-work/manage-approvals/approving-work.md)。
+マイ承認ウィジェットから承認に関する決定を行う方法について詳しくは、[ 作業の承認 ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-home-area) ホーム領域から作業を承認 [&#128279;](../../../review-and-approve-work/manage-approvals/approving-work.md) または [ 作業の承認 ](../../../review-and-approve-work/manage-approvals/approving-work.md#approving-work-from-the-my-work-area) を参照してください 。

@@ -55,4 +55,4 @@ ht-degree: 99%
 
 個人設定に保存された設定は、自分が作成したすべてのプルーフに適用されますが、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、プルーフの新規作成時や変更時に上書きすることができます。
 
-[[!DNL  Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) でプルーフ設定を指定の説明に従って、個人のプルーフの設定を変更することにより、ファイルのダウンロードを無効にできます。
+[[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) でプルーフ設定を指定の説明に従って、個人のプルーフの設定を変更することにより、ファイルのダウンロードを無効にできます。

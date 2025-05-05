@@ -15,11 +15,11 @@ ht-degree: 94%
 
 ---
 
-# [!DNL Adobe Admin Console] でのユーザー用の [!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] パッケージの作成
+# [!DNL Adobe Admin Console] でのユーザー用の [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] パッケージの作成
 
-[!DNL Adobe Admin Console] 管理者は、軽量のプラグイン専用パッケージを作成できます。この事前設定済みパッケージを配布すると、ユーザーは管理者にプラグインを見つけてもらわなくても、自身でプラグインを入手できるようになります。この軽量プラグインを使用して、[!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] プラグインを組織内のユーザーに配布することをお勧めします。
+[!DNL Adobe Admin Console] 管理者は、軽量のプラグイン専用パッケージを作成できます。この事前設定済みパッケージを配布すると、ユーザーは管理者にプラグインを見つけてもらわなくても、自身でプラグインを入手できるようになります。この軽量プラグインを使用して、[!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインを組織内のユーザーに配布することをお勧めします。
 
-次の [!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] プラグインを使用できます。
+次の [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインを使用できます。
 
 * Photoshop 用 [!DNL Adobe Workfront]
 * XD 用 [!DNL Adobe Workfront]
@@ -30,7 +30,7 @@ ht-degree: 94%
    * Premiere Pro
    * After Effects
 
-ユーザーは、[!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] プラグインを使用して、次の操作を実行できます。
+ユーザーは、[!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインを使用して、次の操作を実行できます。
 
 * 時間を記録
 * レビュープロセスと承認プロセスの開始
@@ -38,9 +38,9 @@ ht-degree: 94%
 * プロジェクトやタスクの表示
 * その他
 
-[!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] プラグインについて詳しくは、 [!DNL Creative Cloud]  アプリ用 [[!DNL Adobe Workfront]  プラグイン](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)を参照してください。
+[!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインについて詳しくは、 [!DNL Creative Cloud]  アプリ用 [[!DNL Adobe Workfront]  プラグイン](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)を参照してください。
 
-## [!DNL Creative Cloud]] 用 [!UICONTROL [!DNL Adobe Workfront] プラグインのパッケージの作成
+## [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインのパッケージの作成
 
 パッケージは、[!DNL Adobe Admin Console] を通じて作成されます。
 

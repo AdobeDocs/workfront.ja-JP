@@ -56,7 +56,7 @@ ht-degree: 91%
 
 ## 前提条件
 
-*  [!DNL Adobe Photoshop] プロジェクトを [!DNL Workfront] にアップロードする前に、[!DNL Adobe Workfront for Photoshop] プラグインをインストールする必要があります。
+* [!DNL Adobe Photoshop] プロジェクトを [!DNL Workfront] にアップロードする前に、[!DNL Adobe Workfront for Photoshop] プラグインをインストールする必要があります。
 
   手順については、[Adobe Workfront for Photoshop のインストール](../../workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)を参照してください。
 

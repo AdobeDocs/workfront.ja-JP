@@ -62,7 +62,7 @@ ht-degree: 98%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">プルーフやドキュメントの決定が過去 12 か月間使用可能に</a></p><p>[!BADGE In production ]{type=Informative}</p><p>新しいライセンスタイプと従来のライセンスタイプの両方のユーザーの決定レポートに、今月および過去 12 か月の決定件数が表示されるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">プルーフやドキュメントの決定が過去 12 か月間使用可能に</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>新しいライセンスタイプと従来のライセンスタイプの両方のユーザーの決定レポートに、今月および過去 12 か月の決定件数が表示されるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -99,7 +99,7 @@ ht-degree: 98%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">動的ボードが、ボードの作成時に完了済みのカードをアーカイブ</a></p><p>[!BADGE In production ]{type=Informative}</p><p>動的ボードを作成する場合、完了したタスクやイシューをボードに含めることができます。完了したタスクやイシューが多数あるプロジェクトでは、動的なボードにパフォーマンスの問題が発生する可能性がありました。動的なボードを作成し、完了した作業を含めるよう選択すると、タスクとイシューがアーカイブされたカードとしてボードに取り込まれるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">動的ボードが、ボードの作成時に完了済みのカードをアーカイブ</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>動的ボードを作成する場合、完了したタスクやイシューをボードに含めることができます。完了したタスクやイシューが多数あるプロジェクトでは、動的なボードにパフォーマンスの問題が発生する可能性がありました。動的なボードを作成し、完了した作業を含めるよう選択すると、タスクとイシューがアーカイブされたカードとしてボードに取り込まれるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -134,7 +134,7 @@ ht-degree: 98%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントの承認用に更新されたステータス</a></p><p>[!BADGE In production ]{type=Informative}</p><p>ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントの承認用に更新されたステータス</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>ドキュメントの承認ステータスをより明確にするために、使用可能なドキュメントステータスの承認を更新しました。これで、承認ステータスは、レビュー担当者がレビューを完了とマークする場合と、レビュー担当者のみが存在し、承認者が存在しない場合に使用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 98%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">レビューを完了としてマーク</a></p><p>[!BADGE In production ]{type=Informative}</p><p>ドキュメントのレビューが完了し、次の承認ステージに進む準備が整ったことを分かりやすくするために、新しい「<strong>レビューを完了</strong>」ボタンを作成しました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">レビューを完了としてマーク</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>ドキュメントのレビューが完了し、次の承認ステージに進む準備が整ったことを分かりやすくするために、新しい「<strong>レビューを完了</strong>」ボタンを作成しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -172,7 +172,7 @@ ht-degree: 98%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントのレビューと承認のステータスがドキュメントのヘッダーに表示される</a></p><p>[!BADGE In production ]{type=Informative}</p><p>レビューと承認のプロセスの透明性を向上するために、ドキュメントの詳細ページのヘッダーにステータスを追加しました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントのレビューと承認のステータスがドキュメントのヘッダーに表示される</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>レビューと承認のプロセスの透明性を向上するために、ドキュメントの詳細ページのヘッダーにステータスを追加しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -210,7 +210,7 @@ ht-degree: 98%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しい保留中の承認ウィジェットが使用可能</a></p><p>[!BADGE In production ]{type=Informative}</p><p>自身が所有するプロジェクトの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">新しい保留中の承認ウィジェットが使用可能</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>自身が所有するプロジェクトの承認およびレビューのステータスを簡単に確認できるように、新しい承認待ちウィジェットがホームに追加されました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -229,7 +229,7 @@ ht-degree: 98%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用した新しいホームの管理者コントロール</a></p><p>[!BADGE In production ]{type=Informative}</p><p>管理者は、レイアウトテンプレートを使用して新しいホームをユーザー用にカスタマイズできるようになりました。カスタマイズオプションには、必須のウィジェットとその位置の選択、背景の選択のほか、ウィジェット固有のオプションとして、使用できるフィルターとグループの選択（とデフォルトの設定）などがあります。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用した新しいホームの管理者コントロール</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>管理者は、レイアウトテンプレートを使用して新しいホームをユーザー用にカスタマイズできるようになりました。カスタマイズオプションには、必須のウィジェットとその位置の選択、背景の選択のほか、ウィジェット固有のオプションとして、使用できるフィルターとグループの選択（とデフォルトの設定）などがあります。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -247,7 +247,7 @@ ht-degree: 98%
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">担当作業のクイックアクションボタンがポインタを合わせた際にのみ表示されるように変更されました。</a></p><p>[!BADGE In production ]{type=Informative}</p><p>パフォーマンス向上のために、自分の作業ウィジェットで使用できるクイックアクションボタンが、作業アイテムをマウスで移動したときにのみ表示されるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">担当作業のクイックアクションボタンがポインタを合わせた際にのみ表示されるように変更されました。</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>パフォーマンス向上のために、自分の作業ウィジェットで使用できるクイックアクションボタンが、作業アイテムをマウスで移動したときにのみ表示されるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -281,7 +281,7 @@ ht-degree: 98%
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials でのメタデータのマッピングで、<code>dc:subject</code></a> の代わりに <code>xcm:keywords</code> が使用されるようになりました。</p><p>[!BADGE In production ]{type=Informative}</p><p>Experience Manager Assets Essentials の統合を更新し、Experience Manager Assets as a Cloud Service 統合のエクスペリエンスに合わせました。現在は、複数の 1 行テキストフィールドを Experience Manager Assets の 1 つのフィールドにマッピングする際に、両方のサービスで <code>xcm:keywords</code> フィールドを使用します。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Experience Manager Assets Essentials でのメタデータのマッピングで、<code>dc:subject</code></a> の代わりに <code>xcm:keywords</code> が使用されるようになりました。</p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Experience Manager Assets Essentials の統合を更新し、Experience Manager Assets as a Cloud Service 統合のエクスペリエンスに合わせました。現在は、複数の 1 行テキストフィールドを Experience Manager Assets の 1 つのフィールドにマッピングする際に、両方のサービスで <code>xcm:keywords</code> フィールドを使用します。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -298,7 +298,7 @@ ht-degree: 98%
                     </td>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 統合で先行入力フィールドを使用できるようになりました。</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Workfront と Adobe Experience Manager の間でフィールドを簡単にリンクできるように、メタデータマッピングにおける先行入力フィールドへのサポートが追加されました。これで、Adobe Experience Manager の対応するフィールドに先行入力フィールドをマッピングできるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 統合で先行入力フィールドを使用できるようになりました。</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Workfront と Adobe Experience Manager の間でフィールドを簡単にリンクできるように、メタデータマッピングにおける先行入力フィールドへのサポートが追加されました。これで、Adobe Experience Manager の対応するフィールドに先行入力フィールドをマッピングできるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -313,7 +313,7 @@ ht-degree: 98%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager でのアセットの自動公開</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Adobe Experience Manager 統合に別のワークフローを追加しました。これで、Adobe Experience Manager に送信する際に、アセットを自動的に公開するように設定できます。統合は、Adobe Experience Manager パブリッシュサービスまたは Adobe Experience Manager Brand Portal に公開するように設定できます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager でのアセットの自動公開</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Adobe Experience Manager 統合に別のワークフローを追加しました。これで、Adobe Experience Manager に送信する際に、アセットを自動的に公開するように設定できます。統合は、Adobe Experience Manager パブリッシュサービスまたは Adobe Experience Manager Brand Portal に公開するように設定できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -349,7 +349,7 @@ ht-degree: 98%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
-                        [!BADGE In Production for Fast Release ]{type=Positive}<p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
+                        [!BADGE In Production for Fast Release &#x200B;]{type=Positive}<p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -384,7 +384,7 @@ ht-degree: 98%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションでコメントに画像をドラッグ＆ドロップします。</a></p><p>[!BADGE In production ]{type=Informative}</p><p>コメントの内容を拡充するために、オブジェクトの「更新」セクションで、コメントや返信内の画像をすばやくドラッグ＆ドロップできるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションでコメントに画像をドラッグ＆ドロップします。</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>コメントの内容を拡充するために、オブジェクトの「更新」セクションで、コメントや返信内の画像をすばやくドラッグ＆ドロップできるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -402,7 +402,7 @@ ht-degree: 98%
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメントエクスペリエンスで、プロジェクト、タスク、イシューおよびドキュメントに関するすべての情報を取得</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Workfront インスタンスの開始以降、プロジェクト、タスク、イシューおよびドキュメントのすべての更新が、新しいコメントエクスペリエンスエリアに表示されます。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメントエクスペリエンスで、プロジェクト、タスク、イシューおよびドキュメントに関するすべての情報を取得</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Workfront インスタンスの開始以降、プロジェクト、タスク、イシューおよびドキュメントのすべての更新が、新しいコメントエクスペリエンスエリアに表示されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -417,7 +417,7 @@ ht-degree: 98%
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションでコメントまたはユーザーを検索</a></p><p>[!BADGE In production ]{type=Informative}</p><p>オブジェクトの「更新」セクションで情報をすばやく見つけるために、コメントからキーワードを検索したり、コメントに関連付けられた任意のユーザーを検索したりできるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションでコメントまたはユーザーを検索</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>オブジェクトの「更新」セクションで情報をすばやく見つけるために、コメントからキーワードを検索したり、コメントに関連付けられた任意のユーザーを検索したりできるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -435,7 +435,7 @@ ht-degree: 98%
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションのコメントに画像をコピー＆ペースト</a></p><p>[!BADGE In production ]{type=Informative}</p><p>メッセージの内容にコンテキストを指定するために、お使いのコンピューターから新しい更新または返信に画像をコピー＆ペーストすることで、コメントに画像を素早く添付できるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">「更新」セクションのコメントに画像をコピー＆ペースト</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>メッセージの内容にコンテキストを指定するために、お使いのコンピューターから新しい更新または返信に画像をコピー＆ペーストすることで、コメントに画像を素早く添付できるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>

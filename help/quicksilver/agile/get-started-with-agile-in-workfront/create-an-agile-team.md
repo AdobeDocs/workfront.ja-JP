@@ -74,10 +74,10 @@ ht-degree: 89%
 * [!DNL Kanban] アジャイル ストーリーボードにバックログを表示します。
 詳しくは、[バックログを[!UICONTROL かんばん]ボードに追加](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md)を参照してください。
 
-* 他の項目が完了に等しいステータスに移動されると、アジャイルストーリーボード ] かんばん [!UICONTROL  に自動的に追加されるように、バックログの項目を設定します。
+* 他の項目が完了に等しいステータスに移動されると、アジャイルストーリーボード  かんばん  に自動的に追加されるように、バックログの項目を設定します。
 詳しくは、[かんばんを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)の記事にある[バックログから自動的に追加されるようにストーリーを設定](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5)の節を参照してください。
 
-* アジャイルストーリーボード（かんばん [!UICONTROL  に表示される進行中の作業 ]WIP）の制限を設定します。
+* アジャイルストーリーボード（かんばん [!UICONTROL &#x200B; に表示される進行中の作業 &#x200B;]WIP）の制限を設定します。
 詳しくは、[かんばんボードでの作業中（WIP）の制限を管理](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md)を参照してください。
 
 ### [!DNL Workfront] でスクラムを使用するメリット
@@ -157,7 +157,7 @@ ht-degree: 89%
 1. アジャイルチームに変換するチームを選択します。
 1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
-   [!UICONTROL  標準 ]、[!UICONTROL  プラン ] または [!UICONTROL  ワーク ] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
+   [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;] または [!UICONTROL &#x200B; ワーク &#x200B;] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
    ![ 編集を選択 ](assets/edit-team-settings.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションで、「**[!UICONTROL アジャイルチームです]**」を選択します。

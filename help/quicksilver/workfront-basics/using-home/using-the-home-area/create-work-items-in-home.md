@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: ホームエリアからの作業項目とプロジェクトの作成
-description: '[!UICONTROL  ホーム ] エリアから作業項目およびプロジェクトを作成できます。'
+description: '[!UICONTROL &#x200B; ホーム &#x200B;] エリアから作業項目およびプロジェクトを作成できます。'
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 # ホームエリアからの作業項目とプロジェクトの作成
 
-[!UICONTROL  ホーム ] エリアから作業項目およびプロジェクトを作成できます。
+[!UICONTROL &#x200B; ホーム &#x200B;] エリアから作業項目およびプロジェクトを作成できます。
 
 ホームでは、次のことができます
 
@@ -59,7 +59,7 @@ ht-degree: 14%
 
 ## 個人の To Do アイテムを作成する
 
-[!UICONTROL  ホーム ] エリアの To Do ウィジェットに、個人の To Do アイテムを作成できます。 To Do アイテムは、自分で作成する個人用タスクです。
+[!UICONTROL &#x200B; ホーム &#x200B;] エリアの To Do ウィジェットに、個人の To Do アイテムを作成できます。 To Do アイテムは、自分で作成する個人用タスクです。
 
 自分および他のユーザーは、自分の個人タスクを個人タスクレポートで表示できます。 必要に応じて、そこからプロジェクトに追加できます。
 

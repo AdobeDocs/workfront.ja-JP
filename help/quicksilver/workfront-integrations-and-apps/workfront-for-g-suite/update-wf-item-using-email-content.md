@@ -52,7 +52,7 @@ ht-degree: 81%
 
 ## [!DNL Google Workspace] からのメールコンテンツを使用して [!DNL Workfront] アイテムを更新
 
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーのWorkfront アイコン ](assets/wf-lion-icon.png)2}Workfront アイコン）をクリックします。![
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーのWorkfront アイコン ![&#128279;](assets/wf-lion-icon.png)2&rbrace;Workfront アイコン）をクリックします。
 1. メールメッセージを [!DNL Google Workspace] で開いた状態で、[!DNL Google Workspace] パネルの「**[!UICONTROL 新しい更新として投稿]**」をクリックします。
 1. 「**[!UICONTROL タイプ]**」でドロップダウン矢印をクリックし、続いて更新を追加するオブジェクトのタイプをクリックします。
 1. 「**[!UICONTROL 検索]**」オプションをクリックし、更新を追加するオブジェクトの名前を入力していき、目的のアイテムが下のリストに表示されたら選択します。
@@ -75,7 +75,7 @@ ht-degree: 81%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email attachments]</td> 
-      <td><p>（メールに少なくとも 1 つの添付ファイルが含まれている場合にのみ使用できます）。 タスクまたは問題の [!UICONTROL ドキュメント ] タブに添付ファイルを保存するには、このオプションをクリックします。 </p><p>添付ファイルを保存しない場合は、名前の右にある X をクリックします。 </p><p>メールに [!DNL Google Drive] 内のドキュメントへのリンクが含まれている場合、そのリンクは作成中のタスクやイシューの「[!UICONTROL Overview]」タブに保存されます。 </p><p>重要：<span style="color: #ff1493;"><span style="color: #000000;">これが機能するには、</span></span>[!DNL Workfront] 管理者<span style="color: #ff1493;"><span style="color: #000000;">が [!DNL Google Drive] と [!DNL Workfront]</span></span> の連携を承認する必要があります</p>
+      <td><p>（メールに少なくとも 1 つの添付ファイルが含まれている場合にのみ使用できます）。 タスクまたは問題の [!UICONTROL ドキュメント &#x200B;] タブに添付ファイルを保存するには、このオプションをクリックします。 </p><p>添付ファイルを保存しない場合は、名前の右にある X をクリックします。 </p><p>メールに [!DNL Google Drive] 内のドキュメントへのリンクが含まれている場合、そのリンクは作成中のタスクやイシューの「[!UICONTROL Overview]」タブに保存されます。 </p><p>重要：<span style="color: #ff1493;"><span style="color: #000000;">これが機能するには、</span></span>[!DNL Workfront] 管理者<span style="color: #ff1493;"><span style="color: #000000;">が [!DNL Google Drive] と [!DNL Workfront]</span></span> の連携を承認する必要があります</p>
       <p>このオプションを有効にした場合、タスク、イシュー、更新に変換する他のメールに対しても有効なままになります。</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 

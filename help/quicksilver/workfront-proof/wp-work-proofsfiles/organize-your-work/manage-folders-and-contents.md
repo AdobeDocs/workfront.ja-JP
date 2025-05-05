@@ -44,7 +44,7 @@ ht-degree: 99%
 
 1. （条件付き）次のいずれかを行います。
 
-   * フォルダーにプルーフを追加する場合は、[[!UICONTROL  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理]の説明に従って、[!UICONTROL プルーフの詳細]ページに移動します。
+   * フォルダーにプルーフを追加する場合は、[[[!UICONTROL &#x200B; [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理]の説明に従って、[!UICONTROL プルーフの詳細]ページに移動します。
    * フォルダーにファイルを追加する場合は、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理の説明に従って、ファイルの詳細ページに移動します。
 
 1. ファイルまたはプルーフが存在する&#x200B;**フォルダー**&#x200B;の名前をクリックし、次に移動先のフォルダーの名前をクリックします。\
@@ -54,7 +54,7 @@ ht-degree: 99%
 
 1. （条件付き）次のいずれかを行います。
 
-   * フォルダーからプルーフを移動する場合は、[[!UICONTROL  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理]の説明に従って、[!UICONTROL プルーフの詳細]ページに移動します。
+   * フォルダーからプルーフを移動する場合は、[[[!UICONTROL &#x200B; [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理]の説明に従って、[!UICONTROL プルーフの詳細]ページに移動します。
 
      または\
       フォルダーからファイルを移動する場合は、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理の説明に従って、ファイルの詳細ページに移動します。
@@ -87,7 +87,7 @@ ht-degree: 99%
 
    * **[!UICONTROL プルーフの詳細を表示]**&#x200B;または&#x200B;**[!UICONTROL ファイルの詳細を表示]**：プルーフの詳細ページまたはファイルの詳細ページを開きます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) でのファイルの管理または[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でのプルーフの詳細の管理を参照してください。
 
-   * **[!UICONTROL 共有]**：ファイルを他のユーザーと共有できます。詳しくは、[[!UICONTROL  でのファイルの共有]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)を参照してください。
+   * **[!UICONTROL 共有]**：ファイルを他のユーザーと共有できます。詳しくは、[[!UICONTROL &#x200B; でのファイルの共有]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md)を参照してください。
 
    * **[!UICONTROL メッセージ]**：プルーフの共有相手にメールを送信します。
    * **[!UICONTROL 新しいバージョン]**：プルーフの新しいバージョンを作成します。

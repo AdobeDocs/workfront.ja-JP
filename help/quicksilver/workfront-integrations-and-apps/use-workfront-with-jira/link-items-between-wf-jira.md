@@ -136,7 +136,7 @@ Jira のイシューを自動作成するトリガーの定義について詳し
 手動で [!DNL Jira] イシューを [!DNL Workfront] 項目にリンクするには、次の手順に従います。
 
 1. （条件付き）[!DNL Workfront] にログインし、[!DNL Jira] イシューにリンクするイシューまたはタスクを検索します。
-1. （条件付き） [!UICONTROL  詳細 ] 領域から、Workfrontの項目の **[!UICONTROL 参照番号]** をコピーします。
+1. （条件付き） [!UICONTROL &#x200B; 詳細 &#x200B;] 領域から、Workfrontの項目の **[!UICONTROL 参照番号]** をコピーします。
 
    または
 

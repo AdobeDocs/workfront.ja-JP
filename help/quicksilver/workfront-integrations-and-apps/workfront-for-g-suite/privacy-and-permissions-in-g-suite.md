@@ -16,7 +16,7 @@ ht-degree: 43%
 
 # Workfront for Google Workspaceのプライバシーと権限
 
-顧客のプライバシーは重要なので、Adobe Workfront は、Google プラグインアプリのサードパーティ認証に起因する、顧客を特定する顧客データを保存または収集しません。Google Workspace用Workfront Google API から受け取った情報の使用および他のアプリへの転送は、使用制限を含む ](https://developers.google.com/terms/api-services-user-data-policy)0}Google API サービスユーザーデータポリシー } に従います。[
+顧客のプライバシーは重要なので、Adobe Workfront は、Google プラグインアプリのサードパーティ認証に起因する、顧客を特定する顧客データを保存または収集しません。Google Workspace用Workfront Google API から受け取った情報の使用および他のアプリへの転送は、使用制限を含む [&#128279;](https://developers.google.com/terms/api-services-user-data-policy)0&rbrace;Google API サービスユーザーデータポリシー &rbrace; に従います。
 
 Workfront for Google Workspace プラグインが最大限の価値を引き出せるように、次の権限が必要です。
 

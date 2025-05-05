@@ -160,7 +160,7 @@ ht-degree: 53%
 
 ![ 赤の X](assets/no2.png) 他のユーザーのプライベートフォルダーを削除できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) でのフォルダーを参照してください。
 
-![ 赤の X](assets/no2.png) 請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と [ アカウント設定を参照してください。
+![ 赤の X](assets/no2.png) 請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ[&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と  アカウント設定を参照してください。
 
 ![ 赤の X](assets/no2.png) ユーザーを追加、編集、削除することはできません。
 
@@ -186,7 +186,7 @@ ht-degree: 53%
 
 ![ 赤の X](assets/no2.png) 他のユーザーの公開フォルダーを削除できません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) でのフォルダーの管理を参照してください。
 
-![ 赤の X](assets/no2.png) 請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と [ アカウント設定を参照してください。
+![ 赤の X](assets/no2.png) 請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ[&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と  アカウント設定を参照してください。
 
 ![ 赤の X](assets/no2.png) ドロップゾーンの所有者として設定することはできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
 
@@ -214,7 +214,7 @@ ht-degree: 53%
 
 ![ 赤の X](assets/no2.png) 組織で作成された項目は削除できません。
 
-![ 赤の X](assets/no2.png) 請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と [ アカウント設定を参照してください。
+![ 赤の X](assets/no2.png) 請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ[&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と  アカウント設定を参照してください。
 
 ![ 赤の X](assets/no2.png) ドロップゾーンの所有者として設定することはできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
 
@@ -252,7 +252,7 @@ ht-degree: 53%
 
 ![ 赤の X](assets/no2.png) 組織で作成された項目は削除できません。
 
-![ 赤の X](assets/no2.png) 請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と [ アカウント設定を参照してください。
+![ 赤の X](assets/no2.png) 請求ページまたはアカウント設定にアクセスできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) での [!DNL Workfront Proof] 請求ページ[&#128279;](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md)と  アカウント設定を参照してください。
 
 ![ 赤の X](assets/no2.png) ドロップゾーンの所有者として設定することはできません。 詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でドロップゾーンを設定を参照してください。
 

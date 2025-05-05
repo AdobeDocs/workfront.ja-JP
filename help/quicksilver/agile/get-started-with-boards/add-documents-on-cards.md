@@ -45,7 +45,7 @@ Adobe Workfront ボードで、接続されたカードにドキュメントを�
   </tr> 
    <tr>
    <td role="rowheader">アクセスレベル設定</td>
-   <td>ドキュメントへの [!UICONTROL 編集 ] アクセス</td>
+   <td>ドキュメントへの [!UICONTROL 編集 &#x200B;] アクセス</td>
   </tr>
  </tbody> 
 </table>

@@ -93,7 +93,7 @@ ht-degree: 98%
 
       これにより、チャットフィールドの下に [!DNL Workfront] アイコンが追加されます。ここから[!UICONTROL 検索]エリアにすぐにアクセスできます。
 
-      [!DNL Workfront] アイテムの検索の詳細については、 [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) でアイテムを[検索して共有 [!DNL Adobe Workfront] を参照してください。
+      [!DNL Workfront] アイテムの検索の詳細については、 [!DNL Microsoft Teams][&#128279;](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/search-for-and-share-wf-items-in-ms-teams.md) でアイテムを検索して共有 [!DNL Adobe Workfront] を参照してください。
 
 1. **[!UICONTROL [!DNL Workfront]]** にログインをクリックし、[!DNL Workfront from Microsoft Teams] にアクセスします。
 

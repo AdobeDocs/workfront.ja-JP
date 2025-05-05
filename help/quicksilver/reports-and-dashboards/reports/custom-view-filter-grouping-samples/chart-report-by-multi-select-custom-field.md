@@ -153,7 +153,7 @@ ht-degree: 82%
 1. グループ化として作成した <strong> 計算複数選択フィールド </strong> を追加します。
 1. 「<strong>グラフ</strong>」タブを選択し、レポートにグラフを追加します。
 
-   例えば、**列**のグラフを選択します。
+   例えば、**列**&#x200B;のグラフを選択します。
    <br>レポートへのグラフの追加について詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">カスタムレポートの作成</a>の記事の<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md#add-a-chart" class="MCXref xref">レポートへのグラフの追加</a>の節を参照してください。
 1. **下（X）軸** フィールドで、グラフに表示する <strong> 計算複数選択フィールド </strong> を選択します。
 1. 「<strong>保存して閉じる</strong>」をクリックします。

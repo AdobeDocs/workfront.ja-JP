@@ -251,7 +251,7 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL 請求記録]
 * [!UICONTROL 予算計上時間数]
    * これは、古い非推奨のリソース管理ツールに表示される [!UICONTROL 予算時間] です。
-   *  [!UICONTROL 予算時間] レポートの「予算時間」フィールドは、[!UICONTROL リソースプランナー] でジョブの役割に対して予算が設定されている時間を示します。詳しくは、[[!UICONTROL 予算人件費]および[!UICONTROL プロジェクトの予算計上時間]を理解](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)を参照してください。
+   * [!UICONTROL 予算時間] レポートの「予算時間」フィールドは、[!UICONTROL リソースプランナー] でジョブの役割に対して予算が設定されている時間を示します。詳しくは、[[!UICONTROL 予算人件費]および[!UICONTROL プロジェクトの予算計上時間]を理解](../../../manage-work/projects/project-finances/budgeted-labor-cost.md)を参照してください。
 
 * [!UICONTROL カレンダーイベント]
 * [!UICONTROL 会社]
@@ -295,8 +295,8 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL パラメーターグループ]（または[!UICONTROL セクション区切り]）
 * [!UICONTROL ポートフォリオ]
 * [!UICONTROL プログラム]
-* [!UICONTROL  プロジェクト（財務データ） ]
-   * 財務情報は [!UICONTROL  プロジェクト （財務データ） ] に関連付けられているデータが 5 歳未満の場合にのみ報告されます。 例えば、担当業務が 2015年1月（PT）にタスクに割り当てられ、今日が 2021年9月（PT）である場合、その担当業務の [!UICONTROL 配分日] のような財務ファイルは [!UICONTROL  プロジェクト（財務データ）]レポートに入力されません。
+* [!UICONTROL &#x200B; プロジェクト（財務データ） &#x200B;]
+   * 財務情報は [!UICONTROL &#x200B; プロジェクト （財務データ） &#x200B;] に関連付けられているデータが 5 歳未満の場合にのみ報告されます。 例えば、担当業務が 2015年1月（PT）にタスクに割り当てられ、今日が 2021年9月（PT）である場合、その担当業務の [!UICONTROL 配分日] のような財務ファイルは [!UICONTROL &#x200B; プロジェクト（財務データ）]レポートに入力されません。
 
   >[!CAUTION]
   >

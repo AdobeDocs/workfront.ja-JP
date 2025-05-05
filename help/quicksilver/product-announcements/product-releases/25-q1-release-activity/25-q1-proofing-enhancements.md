@@ -37,4 +37,4 @@ ht-degree: 18%
 
 新しいAdobe Workfront レビューツールは、すべての一般的なブラウザーで ZIP コンテンツのレビューをサポートしています。 この新しい拡張機能では、ZIP コンテンツに加えて、URL コンテンツのレビューもサポート予定で、現在ベータ版です。
 
-新しい拡張機能をインストールするには、「[Adobe Workfront レビューツールを使用したインタラクティブコンテンツのレビュー [ の「拡張機能のインストール ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) 節を参照してください ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)。
+新しい拡張機能をインストールするには、「[&#128279;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md#install-the-extension)Adobe Workfront レビューツールを使用したインタラクティブコンテンツのレビュー [ の「拡張機能のインストール ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) 節を参照してください 。

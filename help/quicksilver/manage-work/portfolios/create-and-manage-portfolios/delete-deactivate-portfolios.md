@@ -88,5 +88,5 @@ ht-degree: 87%
 {{step1-click-main-menu}}
 
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
-1. ポートフォリオを選択し、「**[!UICONTROL 削除]**&#x200B;[!UICONTROL  削除 ] アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+1. ポートフォリオを選択し、「**[!UICONTROL 削除]**&#x200B;[!UICONTROL &#x200B; 削除 &#x200B;] アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 1. **[!UICONTROL はい、削除します]** をクリックして確認します。

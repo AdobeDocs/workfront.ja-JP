@@ -128,7 +128,7 @@ ht-degree: 96%
   </tr> 
   <tr> 
    <td>[!UICONTROL Remaining]</td> 
-   <td> <p>ポートフォリオ内のすべてのプロジェクトの [!UICONTROL 合計コスト ] 後の予算残高がポートフォリオの予算から減算されています。</p> <p>[!UICONTROL Remaining Portfolio Budget] は、次の式を使用して計算されます。</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - すべてのポートフォリオプロジェクトの合計 [!UICONTROL Budgeted Cost]</em> </p> <p>ポートフォリオ予算は、Portfolio オプティマイザーの「予算」フィールドへの手動入力です。 </p> <p>プロジェクトのコストの追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p> </td> 
+   <td> <p>ポートフォリオ内のすべてのプロジェクトの [!UICONTROL 合計コスト &#x200B;] 後の予算残高がポートフォリオの予算から減算されています。</p> <p>[!UICONTROL Remaining Portfolio Budget] は、次の式を使用して計算されます。</p> <p><em>[!UICONTROL Remaining Portfolio Budget] = [!UICONTROL Total Portfolio Budget] - すべてのポートフォリオプロジェクトの合計 [!UICONTROL Budgeted Cost]</em> </p> <p>ポートフォリオ予算は、Portfolio オプティマイザーの「予算」フィールドへの手動入力です。 </p> <p>プロジェクトのコストの追跡について詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Cost]</td> 

@@ -105,7 +105,7 @@ ht-degree: 99%
 
    * **[!UICONTROL その他の共有オプション]**&#x200B;セクション：プルーフ URL と埋め込みコードを有効にできます。[!DNL Workfront] プルーフとの Basecamp 統合を使用する場合、このセクションでは、プルーフを [!DNL Basecamp] プロジェクトに追加したり、プルーフを追加したプロジェクトを変更したり（「**[!UICONTROL 編集]**」をクリック）、Basecamp でプルーフにアクセスしたり（提供されたリンクをクリック）することができます。
 
-   * **[!UICONTROL 設定]**&#x200B;セクション： [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) での [[!UICONTROL プルーフの設定]で説明されているように、設定を変更できます。
+   * **[!UICONTROL 設定]**&#x200B;セクション： [!DNL Workfront Proof][&#128279;](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) での [!UICONTROL プルーフの設定]で説明されているように、設定を変更できます。
 
    * **[!UICONTROL アクティビティ]**&#x200B;セクション：プルーフに対して実行されたすべてのアクションのリストを時系列順に表示し、プルーフの監査証跡を提供します。これには、プルーフに関する最近のアクティビティの日付と詳細が含まれます。[!UICONTROL メッセージ]セクションと併せて、[!UICONTROL アクティビティ]セクションでは、プルーフのレビュープロセスの完全な概要を説明します。これは、承認プロセスを担当するプロジェクトマネージャーにとって特に役立ちます。
    * **[!UICONTROL メッセージ]**&#x200B;セクション：プルーフのすべてのメールアクティビティの詳細をリスト表示します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知の設定を参照してください。

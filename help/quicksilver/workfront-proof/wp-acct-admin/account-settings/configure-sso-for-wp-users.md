@@ -93,7 +93,7 @@ SSO が有効になると、ご自身と他のユーザーはアカウント上�
 1. ![Enabling_SSO_-_Satellite_Account.png](assets/enabling-sso---satellite-account-350x266.png)
 ここでは次の 2 つの設定方法（5）を示します。
 
-1. **継承：**ハブアカウントから取得した設定での SSO。
+1. **継承：**&#x200B;ハブアカウントから取得した設定での SSO。
 ユーザーが **デフォルトのログインページ** （[https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)）を使用して [!DNL Workfront Proof] にアクセスする場合、**2 つの認証レベル** が表示されます。最初にユーザーは、[!DNL Workfront Proof] のアクセスデータ（メールとパスワード）を使用してログインするように求められ、次に、SSO ウィンドウを介して SSO ログインページにユーザーが転送されます。
 したがって、SSO サービスを有効にした上で、自身の [!DNL Workfront Proof] サブドメインまたはドメインからログインすることをお勧めします。
 

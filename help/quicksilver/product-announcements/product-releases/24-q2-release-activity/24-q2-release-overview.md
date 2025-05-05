@@ -67,7 +67,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">フォームデザイナーのプレビューモードで表示ロジックとスキップロジックを利用できるようになりました</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">フォームデザイナーのプレビューモードで表示ロジックとスキップロジックを利用できるようになりました</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>ベータ版のカスタムフォームデザイナーでは、プレビューモードで、表示ロジックをテストし、ロジックをスキップできるようになりました。以前は、ロジックが適用されている場合でも、すべてのフィールドがプレビューに表示されていました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -83,7 +83,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">会社とユーザーによる高度なカスタムフォームフィールドのサポート</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">会社とユーザーによる高度なカスタムフォームフィールドのサポート</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>カスタムフォームを会社またはユーザーに添付すると、外部参照フィールドや Workfront ネイティブフィールドなどの高度なカスタムフォーム機能が使用できるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -99,7 +99,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat 統合が、新しいパッケージタイプで使用可能</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat 統合が、新しいパッケージタイプで使用可能</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>既存の JumpSeat 統合は、新しいパッケージタイプ（Select、Prime、Ultimate など）のいずれかを使用するアカウントで使用できるようになりました。統合を有効にするには、アクティブな JumpSeat サブスクリプションが引き続き必要です。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -118,7 +118,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront ネイティブフィールドが、フォームデザイナーのベータ版で使用可能</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront ネイティブフィールドが、フォームデザイナーのベータ版で使用可能</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Workfront にネイティブなフィールドをカスタムフォームに追加できるようになりました。この新しいフィールドタイプを使用すると、カスタムフィールドで既存のデータを再作成することなく、論理的な方法でデータを整理してユーザーに表示できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -138,7 +138,7 @@ ht-degree: 94%
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">属性マッピングが、Adobe IMS に移行した組織で使用できるようになりました。</a></p>
-                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfront システム管理者が、Adobe IMS に移行した組織のユーザー属性マッピングを設定できるようになりました。これにより、ユーザー情報が組織の SSO（シングルサインオン）プロバイダーから Workfront に渡されるため、ユーザーのデータを Workfront と SSO プロバイダーの両方に入力する必要がなくなります。</p>
+                        <p>[!BADGE In production &#x200B;]{type=Informative}</p><p>Workfront システム管理者が、Adobe IMS に移行した組織のユーザー属性マッピングを設定できるようになりました。これにより、ユーザー情報が組織の SSO（シングルサインオン）プロバイダーから Workfront に渡されるため、ユーザーのデータを Workfront と SSO プロバイダーの両方に入力する必要がなくなります。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -153,7 +153,7 @@ ht-degree: 94%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">スキップロジックと表示ロジックが、フォームデザイナーのベータ版で使用できるようになりました。</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">スキップロジックと表示ロジックが、フォームデザイナーのベータ版で使用できるようになりました。</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>フォームデザイナーベータ版で、既存の表示とスキップロジックを編集し、カスタムフォームに新しいロジックを追加できるようになりました。使いやすいロジックビルダーを使用すると、フォーム内の選択に基づいて、表示またはスキップするフィールドを定義できます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -195,7 +195,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントのレビューと承認への期限の追加</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ドキュメントのレビューと承認への期限の追加</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>ドキュメントのレビューまたは承認を割り当てるユーザーまたはチームに期限を指定できるようになりました。レビュアーと承認者は、指定した期限の 72 時間前と 24 時間前にメール通知を受信します。期限は、新しいホームエリアの承認ウィジェットにも反映されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -211,7 +211,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">承認テンプレートの作成と使用</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">承認テンプレートの作成と使用</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>設定エリアで承認テンプレートを作成して、レビューと承認のプロセスを効率化できるようになりました。承認テンプレートを使用すると、レビューと承認のプロセスを、次の方法でより繰り返し可能にすることができます
                         <ul>
                             <li>
@@ -236,7 +236,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">すべての承認に関する情報を 1 か所で表示</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">すべての承認に関する情報を 1 か所で表示</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>承認リクエストを一目で管理および分析できるように、すべての承認ウィジェットに次の主要業績評価指標を追加しました。
                         <ul>
                             <li>
@@ -286,7 +286,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用して、新しいホームの管理者コントロールに追加された列オプション</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">レイアウトテンプレートを使用して、新しいホームの管理者コントロールに追加された列オプション</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>管理者は、レイアウトテンプレートを使用して、特定の新しいホームウィジェットで、ユーザーが使用できる列をカスタマイズできるようになりました。オプションには、デフォルトの列の非表示または表示、および既存のフィールドを新しい列として追加が含まれます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -324,7 +324,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 統合における自動フォルダー作成ワークフローの機能強化</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Experience Manager 統合における自動フォルダー作成ワークフローの機能強化</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Adobe Experience Manager フォルダーがニーズをより正確に反映できるように、Adobe Experience Managerにリンクされたフォルダーのワークフローを更新しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -360,7 +360,7 @@ ht-degree: 94%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">より関連性の高い割り当てを、新規タスクワークフローに追加</a></p>
-                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In Production for Fast Release &#x200B;]{type=Positive}</p>
                         <p>プロジェクトやプロジェクトのタスクリストにタスクを追加する際に、関連性の高いスマート割り当てを行うための同じ機能が、「新規タスク」ボックスの「割り当て」フィールドに追加されました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -378,7 +378,7 @@ ht-degree: 94%
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">関連性の高いスマート割り当て</a></p>
-                        <p>[!BADGE In Production for Fast Release ]{type=Positive}</p>
+                        <p>[!BADGE In Production for Fast Release &#x200B;]{type=Positive}</p>
                         <p>Workfront がタスクのスマート割り当ての計算と提案に使用するアルゴリズムを変更しました。新しいアルゴリズムは、タスクを割り当てる Workfront のエリア（タスクリスト、タスクヘッダーの割り当てエリア、ホーム、概要パネル）に適用されます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -414,7 +414,7 @@ ht-degree: 94%
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ワークロードバランサーで手動で調整された割り当てのインジケーター</a></p><p>[!BADGE In production ]{type=Informative}</p><p>ワークロードバランサーでの手動調整やアウトラインをより明確にするために、手動調整された時間単位の割り当てに鉛筆アイコンが表示されるようになりました。</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">ワークロードバランサーで手動で調整された割り当てのインジケーター</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p><p>ワークロードバランサーでの手動調整やアウトラインをより明確にするために、手動調整された時間単位の割り当てに鉛筆アイコンが表示されるようになりました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
                         <ul>
@@ -451,7 +451,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> イテレーションに新しいコメントエクスペリエンスが追加されました </a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}"> イテレーションに新しいコメントエクスペリエンスが追加されました </a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>アプリケーション全体で一貫したエクスペリエンスを提供するために、新しいコメント機能をイテレーションに追加しました。 </p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -477,7 +477,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">従来のコメントエリアへのアクセス権限を削除</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">従来のコメントエリアへのアクセス権限を削除</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>プロジェクト、タスク、イシューおよびドキュメントの更新エリアにある「新規コメント」切替スイッチを削除しました。新しいコメント機能がデフォルトになり、これらのオブジェクトに使用できる唯一のオプションになりました。この変更により、従来のコメントエクスペリエンスに戻すことはできなくなりました。また、ユーザーのプロファイルにある「更新ステータスの完了率を表示」設定も削除しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -493,7 +493,7 @@ ht-degree: 94%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームウィジェットのクイックアクションで、新しいコメントストリームが利用可能に</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいホームウィジェットのクイックアクションで、新しいコメントストリームが利用可能に</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>新しいホームの担当作業、マイプロジェクト、マイタスク、マイイシューウィジェットの「新しい更新を追加」クイックアクションボタンに新しいコメント機能を追加しました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -512,7 +512,7 @@ ht-degree: 94%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメントエクスペリエンスで、コメントした人に関する追加の情報が利用可能</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">新しいコメントエクスペリエンスで、コメントした人に関する追加の情報が利用可能</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>新しいコメントエクスペリエンスで次の機能強化を行いました。</p>
                         <ul>
                             <li>
@@ -539,7 +539,7 @@ ht-degree: 94%
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">読み取り専用のコメントをサポートする新しいコメントエクスペリエンスの「システムアクティビティ」タブ</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">読み取り専用のコメントをサポートする新しいコメントエクスペリエンスの「システムアクティビティ」タブ</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>従来のコメントエクスペリエンスでシステムアクティビティレコードに対して作成されたコメントは、新しいコメントエクスペリエンスの「システムアクティビティ」タブに読み取り専用として入力されるようになりました。新しいコメントエクスペリエンスでは、システムアクティビティレコードに返信できません。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -558,7 +558,7 @@ ht-degree: 94%
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「更新ストリーム」タブ</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">コメントとシステムアクティビティのエントリの両方をキャプチャする新しい「更新ストリーム」タブ</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>コメントとシステムアクティビティログの両方を時系列でまとめた表示にするために、すべてのオブジェクトの更新エリアに 3 番目のタブを導入します。「すべて」タブは、1 つのまとまったストリームで、ユーザコメントとシステムアクティビティコメントの両方を取り込みます。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -577,7 +577,7 @@ ht-degree: 94%
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">概要パネルで新しいコメントストリームが利用可能に</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">概要パネルで新しいコメントストリームが利用可能に</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>タスクおよびイシューリストの概要パネルに新しいコメント機能が追加されました。</p>
                     </td>
                     <td><p><b>公開日：</b></p>
@@ -615,7 +615,7 @@ ht-degree: 94%
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024年第 2 四半期の期間におけるルックアンドフィールの更新</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2024年第 2 四半期の期間におけるルックアンドフィールの更新</a></p><p>[!BADGE In production &#x200B;]{type=Informative}</p>
                         <p>Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模なアップデートが、2024年第 2 四半期の期間内に行われます。特定のリリース日については、個々のリリースノートを確認してください。</p>
                     </td>
                     <td><p><b>公開日：</b></p>

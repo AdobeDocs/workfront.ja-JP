@@ -62,7 +62,7 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
 ## フィルター、表示およびグループ化のリストコントロールをカスタマイズ：
 
 1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
-1. **ユーザーの表示項目をカスタマイズ ](assets/down-arrow-blue.png) の下の下向き矢印 ![ 下向き矢印** をクリックし、表示されるドロップダウンメニューで **リスト** をクリックします。
+1. **ユーザーの表示項目をカスタマイズ ![&#128279;](assets/down-arrow-blue.png) の下の下向き矢印  下向き矢印** をクリックし、表示されるドロップダウンメニューで **リスト** をクリックします。
 
    ![ ユーザーの表示内容のカスタマイズ ](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 

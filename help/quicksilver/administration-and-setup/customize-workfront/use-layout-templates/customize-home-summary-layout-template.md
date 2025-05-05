@@ -77,7 +77,7 @@ ht-degree: 55%
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
 
-1. **ユーザーの表示項目をカスタマイズ ](assets/dropdown-arrow.png) の下の下向き矢印 ![ 下向き矢印** をクリックし、**概要パネル** をクリックします。
+1. **ユーザーの表示項目をカスタマイズ ![&#128279;](assets/dropdown-arrow.png) の下の下向き矢印  下向き矢印** をクリックし、**概要パネル** をクリックします。
 
 1. 下に表示されるリストで、概要パネルをカスタマイズするオブジェクトタイプをクリックします。
 

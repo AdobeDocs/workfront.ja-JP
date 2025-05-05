@@ -52,7 +52,7 @@ ht-degree: 82%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>アクセスレベル </td> 
-   <td> <p>[!DNL Scenario Planner] および [!UICONTROL プロジェクト ] の [!UICONTROL 編集 ] アクセス</p></td> 
+   <td> <p>[!DNL Scenario Planner] および [!UICONTROL プロジェクト &#x200B;] の [!UICONTROL 編集 &#x200B;] アクセス</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>オブジェクト権限 </p> </td> 

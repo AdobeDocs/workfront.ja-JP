@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: システムで追跡される更新フィード
-description: Adobe Workfront では、[!UICONTROL 更新]エリアで特定のオブジェクトに対して行われるアクティビティをログに記録します。システム更新には、オブジェクトに発生した変更の種類を説明する簡単なメモが含まれています。 [!DNL Workfront]  管理者は、「更新 [!UICONTROL  セクションで、システムが追跡する変更の種類を定義でき ] す。
+description: Adobe Workfront では、[!UICONTROL 更新]エリアで特定のオブジェクトに対して行われるアクティビティをログに記録します。システム更新には、オブジェクトに発生した変更の種類を説明する簡単なメモが含まれています。 [!DNL Workfront]  管理者は、「更新 [!UICONTROL &#x200B; セクションで、システムが追跡する変更の種類を定義でき &#x200B;] す。
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -21,7 +21,7 @@ ht-degree: 41%
 
 <!--Audited: April, 2024-->
 
-Adobe Workfrontでは、特定のオブジェクトで発生したアクティビティを、システムの更新として「[!UICONTROL  更新 ]」セクションに自動的に記録します。 システムの更新には、オブジェクトにどのような変更が発生したかを説明する簡単なメモが含まれます。 管理者 [!DNL Workfront]、「[!UICONTROL  アップデート ] セクションで、システムが追跡する変更の種類を定義できます。
+Adobe Workfrontでは、特定のオブジェクトで発生したアクティビティを、システムの更新として「[!UICONTROL &#x200B; 更新 &#x200B;]」セクションに自動的に記録します。 システムの更新には、オブジェクトにどのような変更が発生したかを説明する簡単なメモが含まれます。 管理者 [!DNL Workfront]、「[!UICONTROL &#x200B; アップデート &#x200B;] セクションで、システムが追跡する変更の種類を定義できます。
 
 この節では、次の記事を扱います。
 
