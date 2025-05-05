@@ -442,7 +442,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、21.2 リリーススケジュール以外のタイミングで実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、21.2 リリーススケジュール以外のタイミングで実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ## API バージョン 13
 

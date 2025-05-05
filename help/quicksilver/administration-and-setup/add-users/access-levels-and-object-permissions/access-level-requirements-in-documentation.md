@@ -96,7 +96,7 @@ Workfront ドキュメントの操作手順記事には、その手順に必要�
    <ul><li>現在：現在のライセンスモデルは、実行された操作の数に基づいており、組織が実行できるアクションに制限はありません。 </li>
    <li>レガシ：従来のライセンスは、シナリオがサードパーティのアプリケーションに接続できるかどうか、またはシナリオが Workfront 自動処理にのみ使用されるかどうかに基づきます。 </li>
    </ul>
-   Fusion ライセンスについて詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
+   Fusion ライセンスについて詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
    </td> 
   </tr> 
  </tbody> 

@@ -413,7 +413,7 @@ For specific release dates and times for each cluster, see the [Adobe Workfront 
 
 ## Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境では 21.4 リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、実稼動環境では 21.4 リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ## Workfront シナリオプランナーの機能強化
 
@@ -465,7 +465,7 @@ Workfront 21.4 リリースウェビナーは 2021年9月23日（PT）に発表�
 
 ## トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[トレーニングリリースの更新ページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[トレーニングリリースの更新ページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 ## サポートされなくなった機能
 

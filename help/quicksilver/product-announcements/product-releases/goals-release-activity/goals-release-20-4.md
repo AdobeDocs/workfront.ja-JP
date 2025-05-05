@@ -47,7 +47,7 @@ ht-degree: 99%
 >
 >**実稼動の可用性：** 20.4 リリースの場合
 
-この機能は、Workfront One の[Workfront Goals の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能は、Workfront One の[Workfront Goals の学習パス](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## Workfront Goals へのアクセス制御
 
@@ -61,7 +61,7 @@ Workfront Goals へのアクセス権の付与について詳しくは、「[Ado
 >
 >**実稼動の可用性：** 20.4 リリースの場合
 
-この機能は、Workfront One の[Workfront Goals の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能は、Workfront One の[Workfront Goals の学習パス](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## Workfront Goals のユーザビリティの改善
 
@@ -82,4 +82,4 @@ Workfront Goals へのアクセス権の付与について詳しくは、「[Ado
 >
 >**実稼動の可用性：** 20.4 リリースの場合
 
-この機能は、Workfront One の[Workfront Goals の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能は、Workfront One の[Workfront Goals の学習パス](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。

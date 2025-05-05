@@ -638,7 +638,7 @@ ht-degree: 94%
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、2024年第 2 四半期のリリーススケジュールから外れた頻度で、実稼動において利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、2024年第 2 四半期のリリーススケジュールから外れた頻度で、実稼動において利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
@@ -662,9 +662,9 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-2024年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
+2024年第 2 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンスアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
 

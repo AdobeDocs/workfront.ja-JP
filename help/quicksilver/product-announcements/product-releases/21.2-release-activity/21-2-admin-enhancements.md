@@ -36,7 +36,7 @@ ht-degree: 99%
 
 詳しくは、[監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)を参照してください。
 
-この機能は、[新しい Workfront エクスペリエンスの管理の基本、第 2 部：プロジェクトの設定](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) Workfront One の学習パスに含まれています。
+この機能は、[新しい Workfront エクスペリエンスの管理の基本、第 2 部：プロジェクトの設定](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home) Workfront One の学習パスに含まれています。
 
 ## グループ管理者向け：サブグループを移動するためのコントロールの改善およびツールバーの更新
 
@@ -137,7 +137,7 @@ Workfront 全体で最新化されたリストについて詳しくは、[リス
 
 詳しくは、[レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける管理者の基礎、パート 3：コントロールとインターフェイスのエクスペリエンス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける管理者の基礎、パート 3：コントロールとインターフェイスのエクスペリエンス](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## 管理者向けの新機能：現在カスタムフィールドを使用しているレポートを簡単に一覧表示する
 

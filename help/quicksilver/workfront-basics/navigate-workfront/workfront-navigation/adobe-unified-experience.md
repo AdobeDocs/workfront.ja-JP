@@ -117,7 +117,7 @@ ht-degree: 75%
 
 パスワードが [!DNL Adobe] によって管理されている場合は、アドビアカウントのパスワードを変更できます。
 
-[パスワードの変更については、この記事を参照ください。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
+[パスワードの変更については、この記事を参照ください。](https://helpx.adobe.com/jp/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 パスワードの変更について詳しくは、管理者にお問い合わせください。
 

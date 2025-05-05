@@ -514,7 +514,7 @@ Timesheet オブジェクトは、タスク、プロジェクトおよびオー�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>これらのアクションは、システム全体でフィルター、ビューおよびグループ化を共有する機能をサポートします。</p><p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">フィルター、ビューまたはグループをすべてのユーザーに使用可能にする</a>を参照してください。</p>
+            <p>これらのアクションは、システム全体でフィルター、ビューおよびグループ化を共有する機能をサポートします。</p><p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">フィルター、ビューまたはグループをすべてのユーザーに使用可能にする</a>を参照してください。</p>
          </li>
         </ul>
       </td>
@@ -538,7 +538,7 @@ Timesheet オブジェクトは、タスク、プロジェクトおよびオー�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>これらのアクションは、システム全体でフィルター、ビューおよびグループ化を共有する機能をサポートします。</p><p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">フィルター、ビューまたはグループ化をすべてのユーザーが使用できるようにする</a>を参照してください。</p>
+            <p>これらのアクションは、システム全体でフィルター、ビューおよびグループ化を共有する機能をサポートします。</p><p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">フィルター、ビューまたはグループ化をすべてのユーザーが使用できるようにする</a>を参照してください。</p>
          </li>
         </ul>
       </td>
@@ -579,7 +579,7 @@ Timesheet オブジェクトは、タスク、プロジェクトおよびオー�
             </p>
             <p><b>enableSystemWideVisibility </b>
             </p>
-            <p>これらのアクションは、システム全体でフィルター、ビューおよびグループ化を共有する機能をサポートします。</p><p>詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">フィルター、ビューまたはグループ化をすべてのユーザーが使用できるようにする</a>を参照してください。</p>
+            <p>これらのアクションは、システム全体でフィルター、ビューおよびグループ化を共有する機能をサポートします。</p><p>詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs#make-filters-views-or-groupings-available-to-users%22%3E">フィルター、ビューまたはグループ化をすべてのユーザーが使用できるようにする</a>を参照してください。</p>
          </li>
         </ul>
       </td>

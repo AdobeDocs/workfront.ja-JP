@@ -29,4 +29,4 @@ ht-degree: 99%
 
 これまで、拡張分析エリアは、表示できるプロジェクト数が 50 件までに制限されていました。
 
-この機能は、Workfront One の[拡張分析、第 1 部学習パス](https://experienceleague.adobe.com/en/docs/workfront/using/home)に含められています。
+この機能は、Workfront One の[拡張分析、第 1 部学習パス](https://experienceleague.adobe.com/ja/docs/workfront/using/home)に含められています。

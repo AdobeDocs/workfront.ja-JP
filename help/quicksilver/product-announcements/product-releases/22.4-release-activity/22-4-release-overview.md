@@ -709,7 +709,7 @@ Campaigns は、2022年7月に 22.3 リリースでプレビューベータ版�
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境では 22.4 リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、実稼動環境では 22.4 リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront Scenario Planner の機能強化
 
@@ -733,7 +733,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスの更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
+22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスの更新](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### 22.4 リリースウェビナー
 
@@ -741,7 +741,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[トレーニングリリースの更新ページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[トレーニングリリースの更新ページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 ### 22.4 リリースで削除される機能
 

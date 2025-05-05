@@ -55,7 +55,7 @@ Workfront のドキュメント領域のパフォーマンスが向上しまし�
 
 >[!NOTE]
 >
->2022年3月3日（PT）に行われた毎週の[メンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)にて、ダッシュボード内のこれらの同じレポート用のツールバーも、実稼動環境でアップデートされました。
+>2022年3月3日（PT）に行われた毎週の[メンテナンスアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)にて、ダッシュボード内のこれらの同じレポート用のツールバーも、実稼動環境でアップデートされました。
 
 * プロジェクトレポート
 * タスクレポート

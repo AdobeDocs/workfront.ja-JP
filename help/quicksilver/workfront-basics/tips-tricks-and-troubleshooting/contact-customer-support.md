@@ -52,7 +52,7 @@ ht-degree: 81%
 >オンラインサポートチケットを送信できるのは、承認されたサポート担当者（またはサポート資格のあるユーザー）のみです。
 
 
-1. [[!DNL Experience League]](https://experienceleague.adobe.com) web サイトから、ページの上部の **[!UICONTROL サポート]** をクリックします。
+1. [[!DNL Experience League]](https://experienceleague.adobe.com/ja) web サイトから、ページの上部の **[!UICONTROL サポート]** をクリックします。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
@@ -105,7 +105,7 @@ ht-degree: 81%
 1. （オプション）ケースを閉じるには、「**[!UICONTROL ケースを閉じる]**」ボタンをクリックします。
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=ja)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

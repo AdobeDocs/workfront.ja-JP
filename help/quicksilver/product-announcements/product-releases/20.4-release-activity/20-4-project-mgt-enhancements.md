@@ -138,5 +138,5 @@ Workfront 管理者がポートフォリオ、プログラムまたは会社を�
 
 保存済みの下書きを破棄する際に、下書きが削除されることを通知する確認メッセージで「キャンセル」をクリックできるようになりました。これにより、破棄を止めた場合でも、下書きが失われることはありません。
 
-この機能は、新しい Workfront エクスペリエンスでのみ使用できます。詳しくは、[Workfront リクエストの作成および送信](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
+この機能は、新しい Workfront エクスペリエンスでのみ使用できます。詳しくは、[Workfront リクエストの作成および送信](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください。
 

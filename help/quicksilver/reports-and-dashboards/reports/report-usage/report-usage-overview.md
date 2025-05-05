@@ -19,7 +19,7 @@ ht-degree: 97%
 
 この節では、次の記事を扱います。
 
-* [新バージョンの Workfront の基本的なレポート作成プログラム](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)
+* [新バージョンの Workfront の基本的なレポート作成プログラム](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)
 * [レポートへのアクセスと整理](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
 * [レポートアクティビティに関するレポートの作成](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
 * [ダッシュボードでレポートを整理する方法について](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)

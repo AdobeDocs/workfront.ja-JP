@@ -27,5 +27,5 @@ ht-degree: 99%
 
 Workfront の IP アドレスを Adobe Cloud Manager の許可リストに追加します。
 
-* Adobe Cloud Manager に IP アドレスを追加する手順については、Adobe Experience Manager ドキュメントの [IP 許可リストの概要](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction)を参照してください。
+* Adobe Cloud Manager に IP アドレスを追加する手順については、Adobe Experience Manager ドキュメントの [IP 許可リストの概要](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/ip-allow-lists/introduction)を参照してください。
 * 許可リストに追加する Workfront の IP アドレスのリストについては、[ファイアウォールを設定](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。

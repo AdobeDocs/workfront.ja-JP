@@ -33,7 +33,7 @@ ht-degree: 99%
 
 プルーフの決定について詳しくは、[ドキュメントエリア](../../../documents/managing-documents/documents-area.md)を参照してください。
 
-この機能が、Workfront One の[新しい Workfront エクスペリエンスでのプルーフとバージョンの管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の学習パスに含まれるようになりました。
+この機能が、Workfront One の[新しい Workfront エクスペリエンスでのプルーフとバージョンの管理](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の学習パスに含まれるようになりました。
 
 ## プルーフ承認レポートの新しいフィールド
 
@@ -45,7 +45,7 @@ ht-degree: 99%
 
 これらのフィールドは、デフォルトのレポートには含まれていません。表示する場合は、追加する必要があります。
 
-この機能が、Workfront One の[プルーフのシステム設定、パート 2：ワークフロー管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能が、Workfront One の[プルーフのシステム設定、パート 2：ワークフロー管理](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## 新しいバージョンを生成する際に、既存のプルーフワークフローを引き継ぐ
 

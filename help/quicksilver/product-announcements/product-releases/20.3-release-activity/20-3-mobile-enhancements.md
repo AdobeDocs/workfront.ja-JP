@@ -26,7 +26,7 @@ Workfront は最近、Workfront Fusion のまったく新しい世代のテク�
 
 以前の Workfront Fusion をお使いのお客様は、Workfront Fusion 2.0 で機能、速度、操作性および予測可能性が向上していることをご期待ください。当社では、現在の Workfront Fusion をお使いのお客様を Workfront Fusion 2.0 に移行中です。詳しくは、アカウント担当者にお問い合わせください。
 
-詳しくは、[Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) を参照してください。
+詳しくは、[Adobe Workfront Fusion](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) を参照してください。
 
 ## MobileIron 向け Workfront の概要
 

@@ -29,10 +29,10 @@ ht-degree: 99%
 * マイ更新およびホームから直接承認の決定
 * 特定のドキュメントバージョンの承認を作成
 
-新規ドキュメント承認の使用について詳しくは、[新規ドキュメント承認の概要](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview)を参照してください。
+新規ドキュメント承認の使用について詳しくは、[新規ドキュメント承認の概要](https://experienceleague.adobe.com/ja/docs/workfront/using/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview)を参照してください。
 
 ## 新しい「共有」ボタン
 
 プロジェクト、タスクおよびイシューをより直感的に共有できるように、「共有」オプションがその他メニューから取り出されました。新しい「共有」ボタンが、その他メニューの直前に、オブジェクト名の横に表示されるようになりました。ドキュメント、ポートフォリオおよびプログラムの共有に変更はありません。
 
-オブジェクトの共有のについて詳しくは、[オブジェクトの共有](https://experienceleague.adobe.com/en/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)を参照してください。
+オブジェクトの共有のについて詳しくは、[オブジェクトの共有](https://experienceleague.adobe.com/ja/docs/workfront/using/basics/grant-request-object-permissions/share-an-object)を参照してください。

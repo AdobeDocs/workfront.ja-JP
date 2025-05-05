@@ -27,7 +27,7 @@ ht-degree: 99%
 
 詳しくは、[プロジェクト指標の概要](../../../manage-work/projects/manage-projects/project-metrics.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける計画担当者の基礎、パート 3：プロジェクトの管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける計画担当者の基礎、パート 3：プロジェクトの管理](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## イシューの更新からプロジェクトまたはタスクに変換された際のイシューの完了率をアップデート
 
@@ -41,9 +41,9 @@ ht-degree: 99%
 
 送信済みリクエストを見つける方法について詳しくは、[送信済みリクエストを見つける](../../../manage-work/requests/create-requests/locate-submitted-requests.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスのリクエスト](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスのリクエスト](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/manage-work/request-queues/understand-request-queues)に含まれるようになりました。
 
 ## 新しいリクエストページから削除されたフィールド
 

@@ -34,7 +34,7 @@ ht-degree: 96%
 
 ![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
-拡張分析を使用して現在の作業を管理し、将来の作業を計画する方法について詳しくは、[拡張分析の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)を参照してください。
+拡張分析を使用して現在の作業を管理し、将来の作業を計画する方法について詳しくは、[拡張分析の学習パス](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 ## 前提条件
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 
 * Workfront 管理者に、拡張分析をレイアウトテンプレートに追加してもらいます。
 
-  詳しくは、[拡張分析：レイアウトテンプレートに分析を追加](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
+  詳しくは、[拡張分析：レイアウトテンプレートに分析を追加](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください。
 
 プロジェクトおよびタスクの情報を表示するには、以下が必要です。
 

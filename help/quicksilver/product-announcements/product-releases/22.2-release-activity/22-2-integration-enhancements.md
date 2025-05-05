@@ -55,7 +55,7 @@ Workfront for Experience Manager 拡張コネクタに、次のアップデー�
 
 >[!NOTE]
 >
->このコネクタのデプロイと設定には、認定されたパートナーが必要です。詳しくは、[Workfront for Experience Manager 拡張コネクタのインストール](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)を参照してください。
+>このコネクタのデプロイと設定には、認定されたパートナーが必要です。詳しくは、[Workfront for Experience Manager 拡張コネクタのインストール](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/workfront-connector-install)を参照してください。
 
 ## Adobe Creative Cloud 統合で OAuth2 が使用されるようになりました
 

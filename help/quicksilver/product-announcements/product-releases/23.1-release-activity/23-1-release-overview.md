@@ -500,7 +500,7 @@ ht-degree: 99%
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境の 23.1 リリーススケジュール以外のタイミングで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、実稼動環境の 23.1 リリーススケジュール以外のタイミングで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront Scenario Planner の機能強化
 
@@ -524,11 +524,11 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスのアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
+22.3 リリースで行われたメンテナンスアップデートについて詳しくは、[Workfront メンテナンスのアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
 
 ### Workfront から近日中に削除される機能
 

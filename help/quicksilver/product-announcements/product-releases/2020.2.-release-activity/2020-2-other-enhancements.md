@@ -55,9 +55,9 @@ ht-degree: 99%
 * オブジェクト（プロジェクト、タスクまたはイシュー）に対して1 回限りの承認プロセスを作成し、そのオブジェクトの作業グループに関連するステータスのベースにします。グループに関連付けられているカスタムステータスも含まれます。
 * グローバル承認プロセスを作成し、そのグループのみ、またはシステム内の全員が利用できるようにします。
 
-承認プロセスへの管理者アクセス権を持つユーザーの場合、承認プロセスの設定に関する情報は、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)にあります（Adobe Workfront Classic を使用している場合は、[承認プロセスの作成](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください）。
+承認プロセスへの管理者アクセス権を持つユーザーの場合、承認プロセスの設定に関する情報は、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)にあります（Adobe Workfront Classic を使用している場合は、[承認プロセスの作成](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください）。
 
-ユーザーの場合、承認プロセスと作業アイテムの関連付けに関する情報は、[新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)にあります（Adobe Workfront Classic を使用している場合は、[新規または既存の承認プロセスと作業の関連付け](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください）。
+ユーザーの場合、承認プロセスと作業アイテムの関連付けに関する情報は、[新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)にあります（Adobe Workfront Classic を使用している場合は、[新規または既存の承認プロセスと作業の関連付け](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください）。
 
 **利用可能な環境：**
 

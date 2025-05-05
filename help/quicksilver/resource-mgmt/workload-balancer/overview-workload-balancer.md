@@ -35,7 +35,7 @@ ht-degree: 96%
 
 この記事では、ワークロードバランサーの一般的な目的と、うまく使用できるようにプロジェクトとリソースを設定する方法に関するベストプラクティスを説明します。
 
-ワークロードバランサーのビデオチュートリアルを確認するには、[Workfront チュートリアル](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)ページに移動します。左側のメニューで、**リソース管理**／**ワークロードバランサー**&#x200B;を選択し、チュートリアルを選択します。
+ワークロードバランサーのビデオチュートリアルを確認するには、[Workfront チュートリアル](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)ページに移動します。左側のメニューで、**リソース管理**／**ワークロードバランサー**&#x200B;を選択し、チュートリアルを選択します。
 
 ## ワークロードバランサーの使用場所
 

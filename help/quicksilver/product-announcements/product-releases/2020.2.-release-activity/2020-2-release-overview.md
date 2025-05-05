@@ -267,7 +267,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 2020年5月20日（PT）より、Workfront は、毎週プレビュー環境で機能を利用できるようになります。この変更を行う前は、通常、2 週間ごとにプレビュー環境で機能をリリースしていました。
 
-詳しくは、[Workfront プレビューリリース頻度の変更に関する FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home) を参照してください。
+詳しくは、[Workfront プレビューリリース頻度の変更に関する FAQ](https://experienceleague.adobe.com/ja/docs/workfront/using/home) を参照してください。
 
 ### Workfront へのアクセスに必要なドメインを許可リストに追加 {#adding-additional-domains-to-the-allowlist-required-for-accessing-workfront}
 

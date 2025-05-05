@@ -249,7 +249,7 @@ For specific release dates and times for each cluster, see the
 
 ## Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境では 21.3 リリーススケジュール以外のサイクルで使用できます。最新の機能に関して詳しくは、[Adobe Workfront Fusion のリリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、実稼動環境では 21.3 リリーススケジュール以外のサイクルで使用できます。最新の機能に関して詳しくは、[Adobe Workfront Fusion のリリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ## Workfront Proof の機能強化
 

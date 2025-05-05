@@ -40,7 +40,7 @@ Adobe Workfront には、新機能と更新をリリースするためのモデ�
 
 ### メンテナンスアップデート
 
-Adobe Workfront 製品に対する問題の修正は、毎週実稼動環境で行われます。最近修正された問題について詳しくは、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)ページを参照してください。
+Adobe Workfront 製品に対する問題の修正は、毎週実稼動環境で行われます。最近修正された問題について詳しくは、[Workfront メンテナンスアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)ページを参照してください。
 
 ## 予定されているリリースから削除された機能
 

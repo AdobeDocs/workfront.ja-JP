@@ -15,7 +15,7 @@ ht-degree: 99%
 
 # 22.3 リリースの概要
 
-このページでは、22.3 リリースに含まれる機能について説明します。一覧に表示される機能はすべて、新しい Adobe Workfront エクスペリエンスで使用できます。一部の機能は Adobe Workfront Classic でも使用できますが、[Workfront Classic は 2022年3月に廃止され](https://experienceleague.adobe.com/en/docs/workfront/using/home)、続いて 2022年7月に Workfront Classic のサポートが終了しました。）
+このページでは、22.3 リリースに含まれる機能について説明します。一覧に表示される機能はすべて、新しい Adobe Workfront エクスペリエンスで使用できます。一部の機能は Adobe Workfront Classic でも使用できますが、[Workfront Classic は 2022年3月に廃止され](https://experienceleague.adobe.com/ja/docs/workfront/using/home)、続いて 2022年7月に Workfront Classic のサポートが終了しました。）
 
 これらの機能強化は、2022年7月11日（PT）の週に実稼動環境で公開されました。
 
@@ -240,7 +240,7 @@ ht-degree: 99%
     </ul> <p><strong>利用可能な環境：</strong> </p> 
     <ul> 
      <li> <p>新しい Adobe Workfront エクスペリエンス </p> </li> 
-     <li> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了しました。）</p> </li> 
+     <li> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了しました。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -278,7 +278,7 @@ ht-degree: 99%
     </ul> <p><strong>利用可能な環境：</strong> </p> 
     <ul> 
      <li> <p>新しい Adobe Workfront エクスペリエンス </p> </li> 
-     <li> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了しました。）</p> </li> 
+     <li> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了しました。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -290,7 +290,7 @@ ht-degree: 99%
     </ul> <p><strong>利用可能な環境：</strong> </p> 
     <ul> 
      <li> <p>新しい Adobe Workfront エクスペリエンス </p> </li> 
-     <li> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/en/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了します。）</p> </li> 
+     <li> <p>Adobe Workfront Classic（<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/home" target="_blank">Workfront Classic は 2022年3月に廃止され</a>、続いて 2022年7月に Workfront Classic のサポートが終了します。）</p> </li> 
     </ul> </td> 
   </tr> 
   <tr>
@@ -498,7 +498,7 @@ Campaigns は、2022年7月に 22.3 リリースでプレビューベータ版�
 
 ## Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境では 22.3 リリーススケジュール以外のサイクルで利用できます。最新機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、実稼動環境では 22.3 リリーススケジュール以外のサイクルで利用できます。最新機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ## Workfront Scenario Planner の機能強化
 
@@ -534,7 +534,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ## Workfront のメンテナンスアップデート
 
-22.3 リリース時に実施されたメンテナンス更新については、[Workfront メンテナンス更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
+22.3 リリース時に実施されたメンテナンス更新については、[Workfront メンテナンス更新](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ## 22.3 リリースウェビナー
 
@@ -565,7 +565,7 @@ was presented on January 12, 2022. You can view the webinar recording on the
 
 ## トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[トレーニングリリースの更新ページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[トレーニングリリースの更新ページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 ## サポートされなくなった機能
 

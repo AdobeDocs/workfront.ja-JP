@@ -27,7 +27,7 @@ ht-degree: 99%
 
 詳しくは、[ブループリントの概要](../../../administration-and-setup/blueprints/blueprints-overview.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスのプロジェクトテンプレート](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスのプロジェクトテンプレート](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## グループ管理者向けの新機能：任意のレベルでグループのステータスを作成および管理できます。
 

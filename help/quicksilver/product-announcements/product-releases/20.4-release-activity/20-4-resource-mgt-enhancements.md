@@ -32,7 +32,7 @@ ht-degree: 99%
 
 作業量について詳しくは、[作業量の概要](../../../manage-work/tasks/task-information/work-effort.md)を参照してください。
 
-この機能は、Workfront One の[プランナーの基本、第 2 部学習パス](https://experienceleague.adobe.com/en/docs/workfront/using/home)に含まれるようになりました。
+この機能は、Workfront One の[プランナーの基本、第 2 部学習パス](https://experienceleague.adobe.com/ja/docs/workfront/using/home)に含まれるようになりました。
 
 ## ワークロードバランサーのワークアイテムのプロジェクトステータスに基づく色
 

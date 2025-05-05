@@ -76,7 +76,7 @@ Planning 機能レコードのコメントエクスペリエンスは、Workfron
 >
 >Adobe Workfront Planning 機能との接続を構築するには、Adobe Workfront Fusion を購入する必要があります。
 >
->詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+>詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 Adobe Workfront Fusion を使用して Planning 機能に接続できます。新しい Fusion 接続を使用すると、次のことが可能です。
 
@@ -92,7 +92,7 @@ Adobe Workfront Fusion を使用して Planning 機能に接続できます。�
 
 * Planning 機能に変更が加えられたときにシナリオをトリガー
 
-詳しくは、[Adobe Workfront Planning モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) を参照してください。
+詳しくは、[Adobe Workfront Planning モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules) を参照してください。
 
 ## 2023年12月11日（PT）の週
 

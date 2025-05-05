@@ -29,7 +29,7 @@ ht-degree: 99%
 
 詳しくは、[繰り返しタスクの作成](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける計画担当者の基礎、パート 2：プロジェクトの計画](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける計画担当者の基礎、パート 2：プロジェクトの計画](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## プロジェクトヘッダーで使用できる新しいボタン
 
@@ -39,7 +39,7 @@ ht-degree: 99%
 
 プロジェクトページのプロジェクトのリストをすばやくフィルターできるように、ヘッダーに 2 つの新しいボタンが追加され、担当プロジェクトフィルターまたは所有プロジェクトフィルターをすばやく適用できます。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける計画担当者の基礎、パート 1：プロジェクトの作成](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける計画担当者の基礎、パート 1：プロジェクトの作成](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## スクラムボードからストーリーやイシューを移動または削除
 
@@ -133,9 +133,9 @@ ht-degree: 99%
 
 Workfront Classic で以前は、テキストの書式設定はプロジェクト、タスク、時間数の各リストにのみ表示されていました。
 
-カスタムフィールドでのテキストの書式設定について詳しくは、[カスタムフォームの作成](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
+カスタムフィールドでのテキストの書式設定について詳しくは、[カスタムフォームの作成](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください。
 
-リストでの情報の表示について詳しくは、[リストの概要](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
+リストでの情報の表示について詳しくは、[リストの概要](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください。
 
 ## 新しい「タスクを編集」ボックス
 

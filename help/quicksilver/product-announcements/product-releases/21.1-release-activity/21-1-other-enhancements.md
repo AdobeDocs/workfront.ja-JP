@@ -47,7 +47,7 @@ ht-degree: 99%
 
 この変更を行う理由について詳しくは、[リクエストキューの POP メールを 21.1 で Adobe Workfront が管理する新しいシステムに置き換えました](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)を参照してください。
 
-この機能は、Workfront One の[新しい Workfront エクスペリエンスのキュー管理](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の学習パスに含まれるようになりました。
+この機能は、Workfront One の[新しい Workfront エクスペリエンスのキュー管理](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の学習パスに含まれるようになりました。
 
 ## タイムシートの時間編集を制限
 

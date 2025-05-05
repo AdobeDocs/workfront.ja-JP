@@ -44,7 +44,7 @@ ht-degree: 99%
    <td> <p>2020年11月9日（PT）に（20.4 リリースで）サポートを終了しました</p> <p>--</p> <p>2022 年上半期以降に Workfront プラットフォームから削除されました</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>レガシー Workfront Fusion</p> <p>Workfront Fusion で、レガシー Workfront Fusion のエクスペリエンスが向上します。</p> <p>Workfront Fusion について詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a> を参照してください。</p> </td> 
+   <td> <p>レガシー Workfront Fusion</p> <p>Workfront Fusion で、レガシー Workfront Fusion のエクスペリエンスが向上します。</p> <p>Workfront Fusion について詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home">Adobe Workfront Fusion</a> を参照してください。</p> </td> 
    <td> </td> 
    <td>2021年3月31日（PT）に Workfront プラットフォームから削除されました。</td> 
   </tr> 

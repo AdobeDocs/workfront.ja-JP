@@ -64,7 +64,7 @@ ht-degree: 99%
 
 正しい割り当てを決定できるように、新しい設定では、ユーザーが自分のスケジュールに従って稼動できる時間数と既に作業に割り当てられている時間数の差（残存時間数）を表示できるようになりました。新しい設定がワークロードバランサーで使用できるようになりました。
 
-ワークロードバランサーでの情報の表示については、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（Adobe Workfront Classic を使用している場合は[ワークロードバランサーの操作](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
+ワークロードバランサーでの情報の表示については、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（Adobe Workfront Classic を使用している場合は[ワークロードバランサーの操作](https://experienceleague.adobe.com/ja/docs/workfront/using/home)）を参照してください。
 
 **利用可能な環境：**
 
@@ -76,7 +76,7 @@ ht-degree: 99%
 
 この変更以前は、バランサーの割り当てられた作業エリアの情報のみがこの設定で更新されていました。
 
-ワークロードバランサーの操作について詳しくは、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（Adobe Workfront Classic を使用している場合は[ワークロードバランサーの操作](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
+ワークロードバランサーの操作について詳しくは、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（Adobe Workfront Classic を使用している場合は[ワークロードバランサーの操作](https://experienceleague.adobe.com/ja/docs/workfront/using/home)）を参照してください。
 
 **利用可能な環境：**
 
@@ -90,7 +90,7 @@ ht-degree: 99%
 * プロジェクトでグループ化
 * タスクおよびプロジェクトの割り当て済み時間または残り時間を表示
 
-ワークロードバランサーでの情報の表示について詳しくは、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（Adobe Workfront Classic を使用している場合は[ワークロードバランサーの操作](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
+ワークロードバランサーでの情報の表示について詳しくは、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（Adobe Workfront Classic を使用している場合は[ワークロードバランサーの操作](https://experienceleague.adobe.com/ja/docs/workfront/using/home)）を参照してください。
 
 **利用可能な環境：**
 
@@ -101,7 +101,7 @@ ht-degree: 99%
 
 従業員のワークロードを幹部と共有して、スタッフ配置のニーズに関するコンテキストを把握できるようになります。そのためには、ワークロードバランサーに対して一意の URL を他のユーザーと共有することで、ワークロードバランサーを共有することができます。
 
-ワークロードバランサーの操作について詳しくは、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（Adobe Workfront Classic を使用している場合は[ワークロードバランサーの操作](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
+ワークロードバランサーの操作について詳しくは、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（Adobe Workfront Classic を使用している場合は[ワークロードバランサーの操作](https://experienceleague.adobe.com/ja/docs/workfront/using/home)）を参照してください。
 
 **利用可能な環境：**
 
@@ -114,7 +114,7 @@ ht-degree: 99%
 
 この機能強化が行われる前は、ワークロードバランサーには常に現在の週を始点として情報が表示されていました。
 
-ワークロードバランサーの操作について詳しくは、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（Adobe Workfront Classic を使用している場合は[ワークロードバランサーの操作](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
+ワークロードバランサーの操作について詳しくは、[ワークロードバランサーの操作](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)（Adobe Workfront Classic を使用している場合は[ワークロードバランサーの操作](https://experienceleague.adobe.com/ja/docs/workfront/using/home)）を参照してください。
 
 **利用可能な環境：**
 
@@ -129,11 +129,11 @@ ht-degree: 99%
 
 この変更を行う前は、タスクの制約は常に「できるだけ早く」に変わります。
 
-タスクの移動については、[タスクを移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)（Adobe Workfront Classic を使用している場合は、[タスクを移動](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
+タスクの移動については、[タスクを移動](../../../manage-work/tasks/manage-tasks/move-tasks.md)（Adobe Workfront Classic を使用している場合は、[タスクを移動](https://experienceleague.adobe.com/ja/docs/workfront/using/home)）を参照してください。
 
-タスクのコピーについては、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)（Adobe Workfront Classic を使用している場合は、[タスクのコピーと複製](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
+タスクのコピーについては、[タスクのコピーと複製](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)（Adobe Workfront Classic を使用している場合は、[タスクのコピーと複製](https://experienceleague.adobe.com/ja/docs/workfront/using/home)）を参照してください。
 
-すべてのタスクの制約の概要については、[タスクの制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)（Adobe Workfront Classic を使用している場合は、[タスクの制約の概要](https://experienceleague.adobe.com/en/docs/workfront/using/home)）を参照してください。
+すべてのタスクの制約の概要については、[タスクの制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)（Adobe Workfront Classic を使用している場合は、[タスクの制約の概要](https://experienceleague.adobe.com/ja/docs/workfront/using/home)）を参照してください。
 
 **利用可能な環境：**
 
@@ -161,9 +161,9 @@ ht-degree: 99%
 * オブジェクト（プロジェクト、タスクまたはイシュー）に対して1 回限りの承認プロセスを作成し、そのオブジェクトの作業グループに関連するステータスのベースにします。グループに関連付けられているカスタムステータスも含まれます。
 * グローバル承認プロセスを作成し、そのグループのみ、またはシステム内の全員が利用できるようにします。
 
-承認プロセスへの管理者アクセス権を持つユーザーの場合、承認プロセスの設定に関する情報は、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)にあります（Adobe Workfront Classic を使用している場合は、[承認プロセスの作成](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください）。
+承認プロセスへの管理者アクセス権を持つユーザーの場合、承認プロセスの設定に関する情報は、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)にあります（Adobe Workfront Classic を使用している場合は、[承認プロセスの作成](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください）。
 
-ユーザーの場合、承認プロセスと作業アイテムの関連付けに関する情報は、[新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)にあります（Adobe Workfront Classic を使用している場合は、[新規または既存の承認プロセスと作業の関連付け](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください）。
+ユーザーの場合、承認プロセスと作業アイテムの関連付けに関する情報は、[新規または既存の承認プロセスを作業に関連付ける](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)にあります（Adobe Workfront Classic を使用している場合は、[新規または既存の承認プロセスと作業の関連付け](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください）。
 
 **利用可能な環境：**
 

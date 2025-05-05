@@ -50,7 +50,7 @@ ht-degree: 99%
 
 リクエストの新規作成について詳しくは、[Adobe Workfront リクエストを作成および送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
 
 ## リクエストワークフローの改善点
 
@@ -64,7 +64,7 @@ ht-degree: 99%
 * 送信済みリクエストのリストをいずれかの列で並べ替えても、ページから移動の際に、この順序が保持されるようになりました。詳しくは、[送信済みリクエストを見つける](../../../manage-work/requests/create-requests/locate-submitted-requests.md)を参照してください。
 * リクエストを新規作成する際に、「送信」ボタンと「キャンセル」ボタンが新規リクエストフォームの下部に表示されるようになりました。詳しくは、[Workfront リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
 
 ## リクエストエリアの送信済みセクションで、概要パネルを開く
 
@@ -76,7 +76,7 @@ Adobe Workfront のすべてのエリアでのエクスペリエンスの一貫�
 
 送信済みリクエストについて詳しくは、[送信済みリクエストを見つける](../../../manage-work/requests/create-requests/locate-submitted-requests.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
 
 ## 新規リクエストフォームで削除された新規イシューフィールドを復元
 
@@ -104,7 +104,7 @@ Adobe Workfront のすべてのエリアでのエクスペリエンスの一貫�
 
 リクエストの送信について詳しくは、[Workfront リクエストの作成と送信](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
 
 ## リクエスト送信時のリクエストキューへのリンクの共有
 
@@ -118,4 +118,4 @@ Adobe Workfront のすべてのエリアでのエクスペリエンスの一貫�
 
 リクエスト送信時のリクエストキューへのリンク共有について詳しくは、[リクエストキューへのリンクを共有](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける共同作業者の基礎](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/manage-work/issues-requests/make-a-request)に含まれるようになりました。

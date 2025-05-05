@@ -72,7 +72,7 @@ Workfront でのカレンダーの共有の負担を軽減するために、ユ�
 
 以前にカレンダーで管理できたのは、実際の日付が空いていないと予定されている場合のみでした。
 
-詳しくは、[カレンダーレポートでカスタム日付フィールドを使用](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)を参照してください（または、Workfront Classic を使用している場合は、[カレンダーレポートでカスタム日付フィールドを使用](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください）。
+詳しくは、[カレンダーレポートでカスタム日付フィールドを使用](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)を参照してください（または、Workfront Classic を使用している場合は、[カレンダーレポートでカスタム日付フィールドを使用](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください）。
 
 ## メールの変更
 
@@ -82,7 +82,7 @@ Workfront でのカレンダーの共有の負担を軽減するために、ユ�
 
 **受信メールの POP 返信の変更：**&#x200B;システム管理者は、通知への受信メールの返信用にカスタム POP メールサーバーを設定できなくなります。
 
-詳しくは、[メールのスプーフィングと POP 返信メールの変更](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
+詳しくは、[メールのスプーフィングと POP 返信メールの変更](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください。
 
 ## DomainKeys Identified Mail（DKIM）が Workfront の送信メールに含まれるようになりました
 

@@ -30,8 +30,8 @@ Workfront でリンクされたドキュメントまたはフォルダーを削�
 
 リンクされたドキュメントまたはフォルダーを外部アプリケーションから削除した場合、そのドキュメントまたはフォルダーは、Workfront からも削除するまで、Workfront システムに残ります。
 
-* Adobe Experience Manager as a Cloud Service からアセットを削除するには、Adobe Experience Manager as a Cloud Service ドキュメントの[アセットの削除](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)を参照してください。
-* Adobe Experience Manager Assets Essentials からアセットを削除するには、Adobe Experience Manager Assets Essentials ドキュメントの[アセットまたはフォルダーの削除](https://experienceleague.adobe.com/en/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)を参照してください。
+* Adobe Experience Manager as a Cloud Service からアセットを削除するには、Adobe Experience Manager as a Cloud Service ドキュメントの[アセットの削除](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/manage/manage-digital-assets#delete-assets)を参照してください。
+* Adobe Experience Manager Assets Essentials からアセットを削除するには、Adobe Experience Manager Assets Essentials ドキュメントの[アセットまたはフォルダーの削除](https://experienceleague.adobe.com/ja/docs/experience-manager-assets-essentials/help/add-delete#delete-assets)を参照してください。
 
 
 

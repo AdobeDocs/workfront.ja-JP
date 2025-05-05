@@ -298,7 +298,7 @@ ht-degree: 99%
 
 ## Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、実稼動環境では 20.4 リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、実稼動環境では 20.4 リリーススケジュール以外のサイクルで使用できます。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ## API の機能強化
 
@@ -310,7 +310,7 @@ This section will be updated with more information prior to the 20.4 release bei
 </MadCap:conditionalText>
 -->
 
-新機能と更新点について詳しくは、[API バージョン 12 の新機能](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)を参照してください。
+新機能と更新点について詳しくは、[API バージョン 12 の新機能](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-api/api-notes/new-api-version-12)を参照してください。
 
 API のバージョンについて詳しくは、[API のバージョン管理とサポートのスケジュール](../../../wf-api/api/api-version-support-schedule.md)を参照してください。
 
@@ -348,7 +348,7 @@ Workfront 20.4 リリースウェビナーは、2020年10月28日（水）午前
 
 2020年5月20日（PT）より、Workfront は、毎週プレビュー環境で機能を利用できるようになりました。この変更を行う前は、通常、2 週間ごとにプレビュー環境で機能をリリースしていました。
 
-詳しくは、[Workfront プレビューリリースの頻度の変更に関する FAQ](https://experienceleague.adobe.com/en/docs/workfront/using/home) を参照してください。
+詳しくは、[Workfront プレビューリリースの頻度の変更に関する FAQ](https://experienceleague.adobe.com/ja/docs/workfront/using/home) を参照してください。
 
 ### Workfront へのアクセスに必要なドメインを許可リストに追加 {#allowlist-of-additional-domains-required-for-accessing-workfront}
 

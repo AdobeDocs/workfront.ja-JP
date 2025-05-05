@@ -93,7 +93,7 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 1. **Workfront** / **その他のアクション** モジュールをシナリオに追加します。
 1. **Connection** フィールドで、このモジュールが使用するアカウントに接続するWorkfront接続を選択します。
 
-   接続の作成方法については、「Workfront モジュール」の [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) を参照してください。
+   接続の作成方法については、「Workfront モジュール」の [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) を参照してください。
 
    クライアント ID およびクライアントシークレットの作成方法については、この記事の [OAuth アプリケーションの作成 ](#create-an-oauth-application) を参照してください。
 
@@ -175,4 +175,4 @@ Workfront Fusion でAdobe Experience Manager ワークフローを含むプロ�
 
 このクライアント ID とクライアントシークレットは、Fusion でモジュールの接続を設定する際に使用します。
 
-接続の作成方法については、「Workfront モジュール」の [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) を参照してください。
+接続の作成方法については、「Workfront モジュール」の [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) を参照してください。

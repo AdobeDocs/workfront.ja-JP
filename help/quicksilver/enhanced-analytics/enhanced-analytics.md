@@ -42,4 +42,4 @@ ht-degree: 66%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>
   -->
 
-拡張分析に関するトレーニングについて詳しくは、[拡張分析の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)を参照してください。
+拡張分析に関するトレーニングについて詳しくは、[拡張分析の学習パス](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)を参照してください。

@@ -97,4 +97,4 @@ Adobe [!DNL Workfront] 管理者は、[!DNL Workfront] のインスタンス用�
 >
 >![ 例：Fusion でのコメントの追加 ](assets/fusion-example-comment-350x416.png)
 
-[!DNL Workfront Fusion] の詳細は、[[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) を参照してください。
+[!DNL Workfront Fusion] の詳細は、[[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) を参照してください。

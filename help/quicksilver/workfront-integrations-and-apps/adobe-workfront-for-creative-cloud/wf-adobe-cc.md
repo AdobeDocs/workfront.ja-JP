@@ -41,7 +41,7 @@ ht-degree: 99%
 * [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
 * [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用した作業の管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
 * [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用したドキュメントとプルーフのアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
-* [ビデオチュートリアル： [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインの使用](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
+* [ビデオチュートリアル： [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインの使用](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [ビデオチュートリアル：パッケージの作成と管理、アップデートのデプロイ、インストールエラーのトラブルシューティング](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 
 >[!NOTE]
