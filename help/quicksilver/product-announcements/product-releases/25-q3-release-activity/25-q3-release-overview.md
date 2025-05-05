@@ -157,7 +157,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## その他の領域のリリースノート
 
-* [Adobe Workfront Fusion リリースアクティビティ ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [Adobe Workfront Fusion リリースアクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfrontの 2025 年第 3 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)。
 
 このリリースの現時点では、次の更新はありません。
