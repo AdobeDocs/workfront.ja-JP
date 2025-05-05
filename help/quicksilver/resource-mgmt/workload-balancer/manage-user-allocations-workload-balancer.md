@@ -6,10 +6,10 @@ description: リソースマネージャーとして、作業をユーザーに�
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: d588380201aa8bcc9e358d516b7e52ed5f60b78d
 workflow-type: tm+mt
-source-wordcount: '2909'
-ht-degree: 91%
+source-wordcount: '2886'
+ht-degree: 89%
 
 ---
 
@@ -78,7 +78,7 @@ ht-degree: 91%
 
 >[!CAUTION]
 >
->ワークロードバランサーには、ユーザーごとの 1 作業アイテムあたり最大 1000 時間の予定時間数と、1 アイテムの期間の最大 1000 日間のみが表示されます。1000 時間または 1000 日の制限に達した後、ワークロードバランサーの割り当ては 0 と表示されます。タスクを小さなサブタスクに分割して、より多くの予定時間数や 1000 日を超える期間に対応できるようにすることをお勧めします。
+>ワークロードバランサーに表示され <!--up to 1000 Planned Hours per work item per user, and--> 項目の期間は最大 1000 日です。 ワークロードバランサーの割り当ては、1,000 日の制限に達すると 0 と表示されます。 1000 日を超える期間については、タスクを小さなサブタスク <!--to accommodate a larger number of Planned Hours or--> 分割することをお勧めします。
 
 ワークロードバランサーのタスクやイシューに対する日次、週次、月次の割り当てを検索する際は、次の点を考慮します。
 
