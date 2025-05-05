@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 05311b556067289b81e597038dbbfc1fdd19629a
+source-git-commit: 74714ce45c815afc9cff1360fd3542fa15763907
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 43%
+source-wordcount: '603'
+ht-degree: 42%
 
 ---
 
@@ -157,7 +157,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## その他の領域のリリースノート
 
-* [Adobe Workfront Fusion リリースアクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [Adobe Workfront Fusion リリースアクティビティ ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfrontの 2025 年第 3 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)。
 
 このリリースの現時点では、次の更新はありません。
@@ -167,11 +167,11 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * Goals
 
 
-### API バージョン 19
+### API バージョン 20
 
-API バージョン 19 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
+Workfront API バージョン 20 は、2024 年 5 月 4 日（PT）にリリースされました。 API バージョン 20 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
 
-新機能と更新内容については、[API バージョン 19 の新機能](/help/quicksilver/wf-api/api/new-api-version-19.md)を参照してください。
+新機能と更新内容については、[API バージョン 20 の新機能](/help/quicksilver/wf-api/api/new-api-version-19.md)を参照してください。
 
 API バージョンの詳細については、[API のバージョン管理とサポートスケジュール](/help/quicksilver/wf-api/api/api-version-support-schedule.md)を参照してください。
 
