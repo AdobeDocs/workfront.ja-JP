@@ -2,20 +2,22 @@
 content-type: overview;reference
 product-area: requests
 navigation-topic: projects-navigation-topic
-title: リクエスト
+title: リクエスト：記事インデックス
 description: リクエストの作成とリクエストキューについては、以降の節で説明します。
 author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: f7c12f06-868e-45da-816b-4eb94e06c783
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '27'
-ht-degree: 100%
+source-wordcount: '31'
+ht-degree: 80%
 
 ---
 
-# リクエスト
+# リクエスト：記事インデックス
+
+<!-- Audited: 5/2025 -->
 
 このセクションには、次のサブセクションが含まれます。
 

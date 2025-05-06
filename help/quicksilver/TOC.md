@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
 workflow-type: tm+mt
-source-wordcount: '13185'
+source-wordcount: '13189'
 ht-degree: 87%
 
 ---
@@ -1276,7 +1276,7 @@ ht-degree: 87%
    * タスク {#tasks}
       * [タスク：記事インデックス](manage-work/tasks/tasks-overview.md)
       * タスク情報 {#task-information}
-         * [タスク情報](manage-work/tasks/task-information/task-information.md)
+         * [タスク情報：記事インデックス](manage-work/tasks/task-information/task-information.md)
          * [タスクの概要](manage-work/tasks/task-information/tasks-overview.md)
          * [実際の時間数の表示](manage-work/tasks/task-information/actual-hours.md)
          * [タスクのトラッキングモードの概要](manage-work/tasks/task-information/task-tracking-mode.md)
@@ -1439,7 +1439,7 @@ ht-degree: 87%
          * [ポートフォリオオプティマイザーでのプロジェクトの最適化](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [ポートフォリオ内の純価値に対するリスクを計算](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
    * リクエスト {#requests}
-      * [リクエスト](manage-work/requests/requests-overview.md)
+      * [リクエスト：記事インデックス](manage-work/requests/requests-overview.md)
       * リクエストキューの作成と管理 {#create-and-manage-request-queues}
          * [リクエストキューの作成と管理](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
          * [リクエストキューを作成](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)

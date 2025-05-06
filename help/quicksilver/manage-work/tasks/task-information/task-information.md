@@ -2,20 +2,22 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: タスク情報
+title: タスク情報：記事インデックス
 description: タスクとは、Adobe Workfront でのプロジェクトの完了に関わる作業アイテムです。タスク情報について詳しくは、次の記事を参照してください。
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 2c0e7f40-f680-4e7e-8827-be69703a393f
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 95%
+source-wordcount: '126'
+ht-degree: 88%
 
 ---
 
-# タスク情報
+# タスク情報：記事インデックス
+
+<!-- Audited: 5/2025 -->
 
 この節では、次の記事を扱います。
 
