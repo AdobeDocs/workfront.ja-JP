@@ -31,7 +31,7 @@ ht-degree: 99%
 
 プロジェクトのコピーについて詳しくは、[プロジェクトをコピー](../../../manage-work/projects/manage-projects/copy-project.md)を参照してください。
 
-この機能は、[新しい Workfront エクスペリエンスの管理者の基本、パート 1：ユーザー組織](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれています。
+この機能は、[新しい Workfront エクスペリエンスの管理者の基本、パート 1：ユーザー組織](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれています。
 
 ## オブジェクトのカスタムフォームで、複数選択ドロップダウンフィールドのすべての項目を選択します。
 
@@ -63,7 +63,7 @@ Adobe Workfront の管理者は、個々のタスクとイシューの環境設�
 
 詳しくは、[グループのタスクとイシューの環境設定を行う](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスの管理者の基本、第 2 部：プロジェクトの設定](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれています。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスの管理者の基本、第 2 部：プロジェクトの設定](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれています。
 
 ## ポートフォリオとプログラムのアクセスレベルを個別に設定する
 
@@ -75,7 +75,7 @@ Adobe Workfront の管理者は、個々のタスクとイシューの環境設�
 
 プログラムおよびポートフォリオ用に設定できるアクセス設定について詳しくは、[各オブジェクトタイプの機能への設定可能なアクセス](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける管理者の基礎、パート 1：ユーザー組織](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける管理者の基礎、パート 1：ユーザー組織](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## カスタムフォームで情報を編集する際に、一連のすべてのチェックボックスをオンにする
 
@@ -108,7 +108,7 @@ Adobe Workfront の管理者は、個々のタスクとイシューの環境設�
 
 詳しくは、[サブグループの概要](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)の記事の[サブグループのグループ管理者](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md#for)の節を参照してください。
 
-この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける管理者の基礎、パート 1：ユーザー組織](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
+この機能は、Workfront One の学習パス[新しい Workfront エクスペリエンスにおける管理者の基礎、パート 1：ユーザー組織](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)に含まれるようになりました。
 
 ## グループのイベント通知を設定
 
@@ -125,7 +125,7 @@ Workfront 管理者は、トップレベルのグループに対するイベン�
 * [すべてのグループのイベント通知の設定をロックまたはロック解除](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
 * [グループのイベント通知を表示および設定](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md)
 
-<!--This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
+<!--This feature is now included in the [Administrator Fundamentals in the new Workfront experience, Part 1: User Organization](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home) learning path on Workfront One.
 
 This feature is now included in the [Email and In-App Notifications in the new Workfront experience](https://experienceleague.adobe.com/en/docs/workfront/using/home://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-MCDSDH3SRJ4ZGTJF5NJI64F4TW2U) learning path on Workfront One.-->
 
