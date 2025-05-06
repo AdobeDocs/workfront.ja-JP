@@ -83,7 +83,7 @@ ht-degree: 66%
 1. 左側のパネルで、「ビジネスケース **をクリック** ます。
 1. （任意）「**プロジェクト情報**」セクションを編集するには、「**プロジェクト情報を編集**」をクリックします。 
 
-   **プロジェクト情報** セクションフィールドの編集について詳しくは、記事 [ ビジネスケースの領域の概要 [ の ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) プロジェクト情報 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の節を参照してください。
+   **プロジェクト情報** セクションフィールドの編集について詳しくは、記事 [&#128279;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) ビジネスケースの領域の概要 [ の ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) プロジェクト情報  の節を参照してください。
 
 1. （任意）「**目標**」セクションを編集するには、「**目標を編集**」をクリックします。
 
