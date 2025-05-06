@@ -96,7 +96,7 @@ ht-degree: 94%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Agile Team]</td> 
-   <td>従来のチームとは異なり、バックログから見込み作業を取得し、[!UICONTROL イテレーション ] と呼ばれる設定期間内に作業します。</td> 
+   <td>従来のチームとは異なり、バックログから見込み作業を取得し、[!UICONTROL イテレーション &#x200B;] と呼ばれる設定期間内に作業します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL All My Teams]</td> 
@@ -255,7 +255,7 @@ ht-degree: 94%
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 請求可能費用 ]</td> 
+   <td>[!UICONTROL 請求可能費用 &#x200B;]</td> 
    <td> <p>顧客に請求可能としてマークされた費用。 これは、予定費用または実際の費用のいずれかです。</p> <p>「予定請求可能費用コスト」および「実際の請求可能費用コスト」フィールドを使用して、ビューおよびレポートに追加できます。 プロジェクトまたはタスクの詳細ページには表示されません。</p>
    <p>これらのフィールドは、次のタイプのレポートで確認できます。</p>
    <ul>
@@ -302,7 +302,7 @@ ht-degree: 94%
   </tr>
 
 <tr> 
-   <td>[!UICONTROL の分類 ]</td> 
+   <td>[!UICONTROL の分類 &#x200B;]</td> 
    <td> <p>Workfront Planning では、分類機能を使用して、接続されたレコードをレコードのタイムライン ビューに表示できます。 </p>
    <p>レコードを接続別に分類すると、接続された他のレコードのタイムラインを表示し、レコードのパフォーマンスや期限にどのような影響を与えるかを把握できます。 </p>
    <p>接続されたレコードは、それぞれのレコードの下にネストされて表示されます。 </p>
@@ -313,7 +313,7 @@ ht-degree: 94%
 <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>これは非推奨のフィールドです。このフィールドに表示される情報はすべて、[!DNL Workfront]が削除した機能に関連しています。このフィールドは更新できません。 </p>
-   <p> このフィールドは、[!UICONTROL プロジェクト ] のレポートおよびリストに引き続き表示されます。</p>  </td> 
+   <p> このフィールドは、[!UICONTROL プロジェクト &#x200B;] のレポートおよびリストに引き続き表示されます。</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Cost]</td>
@@ -453,7 +453,7 @@ ht-degree: 94%
    <td>[!UICONTROL Budgeted Start Date]</td> 
   <td> <p>これは非推奨のフィールドです。このフィールドに表示される情報はすべて、[!DNL Workfront]が削除した機能に関連しています。このフィールドは更新できません。</p>
   <p>これらのエリアは[!DNL Workfront]から削除されました。 </p> 
-  <p>[!UICONTROL プロジェクト ] のレポートおよびリストには、フィールドが引き続き表示されます。</p>
+  <p>[!UICONTROL プロジェクト &#x200B;] のレポートおよびリストには、フィールドが引き続き表示されます。</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -644,7 +644,7 @@ ht-degree: 94%
   </tr>
 
 <tr> 
-   <td>[!UICONTROL 接続されたレコードタイプ ]</td> 
+   <td>[!UICONTROL 接続されたレコードタイプ &#x200B;]</td> 
    <td> <p>Workfront Planning では、次のいずれかの方法で接続を作成できます。 </p>
    <ul>
    <li>2 つのレコードタイプ</li>
@@ -657,7 +657,7 @@ ht-degree: 94%
   </tr>
 
 <tr> 
-   <td>[!UICONTROL 接続レコード ]</td> 
+   <td>[!UICONTROL 接続レコード &#x200B;]</td> 
    <td> <p>Workfront Planning では、2 つのレコード・タイプを関連付けた後、それらのタイプの 2 つの個々のレコードを相互に関連付けることができます。  </p>
    <p>レコードを接続すると、あるレコードまたはオブジェクトの情報を、別のレコード上の別のアプリケーションから表示できます。</p>
    <p>詳しくは、<a href="/help/quicksilver/planning/records/connected-records-overview.md"> 接続されたレコードの概要 </a> を参照してください。 </p>
@@ -667,7 +667,7 @@ ht-degree: 94%
   </tr>
 
 <tr> 
-   <td>[!UICONTROL 接続 ]</td> 
+   <td>[!UICONTROL 接続 &#x200B;]</td> 
    <td> <p>Workfront Planning では、接続は、接続されたレコードタイプまたは接続されたレコードを指す場合があります。 Workfront Planning には追加ライセンスが必要です。</p> </td> 
   </tr>
 
@@ -1297,7 +1297,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
    <td> <p>[!UICONTROL Interface Setup] の一部で、カスタムフィルター、ビューおよびグループ化を個々のユーザーにまたはすべてのユーザーにグローバルにリンクできます。</p> </td> 
   </tr> 
 <tr> 
-   <td>[!UICONTROL 参照フィールド ]</td> 
+   <td>[!UICONTROL 参照フィールド &#x200B;]</td> 
    <td> <p>Workfront Planning では、2 つのレコードタイプ間の関連付けを確立し、個々のレコードをリンクした後、リンク先のレコード上でリンクされたレコードのフィールドを参照できます。</p>
    <p>例えば、キャンペーンレコードタイプをWorkfront プロジェクト オブジェクトタイプに関連付けると、キャンペーンレコードで、接続されたプロジェクトの「予算」フィールドを表示できます。 「予算プロジェクト」フィールドは、キャンペーン上のプロジェクトのルックアップフィールドです。</p> <p>ルックアップフィールドの値は、接続元のレコードに自動的に入力されます。</p>
    <p>詳しくは、<a href="/help/quicksilver/planning/records/connected-records-overview.md"> 接続されたレコードの概要 </a> を参照してください。</p>
@@ -1375,7 +1375,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 請求不可の費用 ]</td> 
+   <td>[!UICONTROL 請求不可の費用 &#x200B;]</td> 
    <td> <p>顧客に請求可能としてマークされていない費用。 これは、予定費用または実際の費用のいずれかです。</p> <p>「予定非請求可能費用コスト」フィールドと「実際の非請求可能費用コスト」フィールドを使用して、ビューやレポートに追加できます。 プロジェクトまたはタスクの詳細ページには表示されません。</p>
    <p>これらのフィールドは、次のタイプのレポートで確認できます。</p>
    <ul>
@@ -1586,7 +1586,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>タスク、プロジェクトまたは問題の [!UICONTROL 予定完了日 ] は、手動で選択した日付に設定できます。 [!UICONTROL Planned Completion Date] を設定しない場合、[!DNL Workfront] が自動的に設定します。自動的に設定された場合、[!UICONTROL Planned Completion Date] は [!UICONTROL Planned Start Date] + [!UICONTROL Duration] です。</p> <p>詳しくは、次の記事を参照してください。</p> 
+   <td> <p>タスク、プロジェクトまたは問題の [!UICONTROL 予定完了日 &#x200B;] は、手動で選択した日付に設定できます。 [!UICONTROL Planned Completion Date] を設定しない場合、[!DNL Workfront] が自動的に設定します。自動的に設定された場合、[!UICONTROL Planned Completion Date] は [!UICONTROL Planned Start Date] + [!UICONTROL Duration] です。</p> <p>詳しくは、次の記事を参照してください。</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">タスクの [!UICONTROL Planned Completion Date] の概要</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">プロジェクト [!UICONTROL Planned Completion Date] の設定</a> </p> </li> 
@@ -1600,7 +1600,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
 
 
 <tr> 
-   <td>[!UICONTROL 予定日整合性 ]</td> 
+   <td>[!UICONTROL 予定日整合性 &#x200B;]</td> 
    <td> <p>これは、Workfrontがプロジェクト、タスクおよび問題を割り当て、予定完了日に対していつアイテムが完了するかを示す自動インジケーターです。 </p>
    <p>予定日整合性インジケーターには、次の値が使用できます。 </p>
 <ul>
