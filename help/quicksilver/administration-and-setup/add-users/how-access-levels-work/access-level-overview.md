@@ -10,10 +10,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
+source-git-commit: dcc4657d4af4edbbe7971acd385a67b2ad50a058
 workflow-type: tm+mt
-source-wordcount: '1720'
-ht-degree: 96%
+source-wordcount: '1724'
+ht-degree: 95%
 
 ---
 
@@ -115,7 +115,7 @@ Workfront には、5 つの新しいアクセスレベルが組み込まれて�
 * ワークに関連するすべてのアイテムとアップデートを表示
 * プロジェクト、タスク、イシューを承認
 * ダッシュボードとレポートの表示
-* 時間の追跡とタイムシートの承認
+* タスクおよび問題に関する時間を追跡しタイムシートを承認する
 * イシューの作成と管理
 
 ライトアクセスレベルのユーザーは、以下の権限があります。
