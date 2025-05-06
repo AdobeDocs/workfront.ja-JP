@@ -6,10 +6,10 @@ description: Adobe Workfront の複数のエリアで、プロジェクト、タ
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
-source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
+source-git-commit: a69193eb7a98949222f71561b44d8fecea4dd496
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 95%
+source-wordcount: '763'
+ht-degree: 93%
 
 ---
 
@@ -123,7 +123,7 @@ Workfront サイトは、ドキュメントを介してウイルスやその他�
 
 ドキュメントスキャンが有効な場合、25 MB 未満のファイルはアップロード時にスキャンされます。25 MB を超えるファイルはスキャンされません。
 
-Workfront が破損したドキュメントを検出すると、Workfront はアップロードプロセスを中断し、ファイルが破損していることを示すメッセージが表示されます。また、Workfront が悪質な可能性のあるコンテンツを検出し、ファイルの削除が予定されている場合にも、メール通知が送信されます。
+Workfrontで破損しているドキュメントが検出されると、ファイルが破損していることを示すメッセージが表示されます。 また、Workfront が悪質な可能性のあるコンテンツを検出し、ファイルの削除が予定されている場合にも、メール通知が送信されます。
 
 破損ファイルは、手動で削除しない限り、検出後 24 時間以内に削除されます。破損したファイルを削除すると、Workfront はこのアクションを更新として追跡します。Workfront による削除を許可した場合、更新は記録されません。
 
