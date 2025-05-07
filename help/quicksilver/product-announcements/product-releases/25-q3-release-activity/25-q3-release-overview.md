@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 74714ce45c815afc9cff1360fd3542fa15763907
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 42%
+source-wordcount: '669'
+ht-degree: 38%
 
 ---
 
@@ -56,6 +56,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+      <tr>
+        <td>
+            Workfrontに表示するには、リンクされたGoogle フォルダー内の <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assetsを個別に追加する必要があります </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Googleは <a href="https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps"> セキュリティ制御の強化 </a> を進めています
+            Google Drive にアクセスするサードパーティアプリケーションの場合、ユーザーごとの同意モデルを採用する必要があります。 その結果、Workfrontに表示するには、個々のアセットを 1 つずつリンクする必要があります。 詳しくは、<a href="/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md"> ドキュメント統合の設定 </a> を参照してください。
+             を参照してください。 </p>
+        </td>
+        <td>2025年5月31日（PT）</td>
+        <td>2025年5月31日（PT）</td>
+        <td>2025年5月31日（PT）</td>
+    </tr>  
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> プルーフビューアで使用できる新しいドキュメント承認決定ボタン </a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -157,7 +168,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## その他の領域のリリースノート
 
-* [Adobe Workfront Fusion リリースアクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
+* [Adobe Workfront Fusion リリースアクティビティ ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 * [Adobe Workfrontの 2025 年第 3 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)。
 
 このリリースの現時点では、次の更新はありません。

@@ -4,9 +4,10 @@ description: 2025 年第 2 四半期レポートの機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: afd73cab145c1f1b73c06ee093de92a28f10bea4
+exl-id: 50639b81-d4d0-4702-98ba-2d5ec29575dc
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 18%
 
 ---
@@ -37,6 +38,7 @@ Workfrontカレンダーのルックアンドフィールを、Workfrontの他�
 * カレンダーの作成および名前変更の方法
 * カレンダーアクションが、カレンダー名の横にある「詳細」メニューに移動しました
 * カレンダー情報を表示する新しいサイドパネル
+* 週末を隠すことはできなくなりました
 * その他
 
 詳しくは、[ カレンダー ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) を参照してください。

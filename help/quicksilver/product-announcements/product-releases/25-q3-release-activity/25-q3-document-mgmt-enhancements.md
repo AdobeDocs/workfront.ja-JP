@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
+source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 17%
+source-wordcount: '346'
+ht-degree: 8%
 
 ---
 
@@ -21,6 +21,25 @@ ht-degree: 17%
 >[!IMPORTANT]
 >
 >このページに記載されている機能は、段階的なリリースの一部で、特定のお客様のみが利用できます。
+
+## リンクされたGoogle フォルダー内のAssetsがWorkfrontに表示されるようにするには、そのを個別に追加する必要があります
+
+>[!NOTE]
+>
+>* プレビューリリース：2025 年 5 月 31 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 5 月 31 日（PT）
+
+Googleは、Google Drive にアクセスするサードパーティアプリケーション向けに [ セキュリティ制御の強化 ](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) を行っており、アプリケーションにはユーザーごとの同意モデルを採用する必要があります。 その結果、Workfrontに表示するには、個々のアセットを 1 つずつリンクする必要があります。 詳しくは、[ ドキュメント統合の設定 ](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) を参照してください。
+
+変更されていない主な機能は次のとおりです。
+
+* Google ドライブモーダル内からアセットやフォルダーを検索してフィルタリングします
+* Google ドライブからWorkfront オブジェクトへのアセットのリンク
+* ドキュメントページの「送信先」ドロップダウンを使用して、Google Drive にアセットをアップロードします
+* ユーザーのマイドライブ領域のフォルダー構造を表示してアクセスする
+* Google Drive にあるアセットの新しいバージョンをWorkfrontの既存のドキュメントにリンクする
+* Google Drive からのWorkfront オブジェクトへのフォルダーのリンク
+* リンクされたフォルダーにドキュメントをドラッグ&amp;ドロップして、Google Drive にアセットをアップロードする
+* Workfront内から新しいGoogle Drive ドキュメントを作成する
 
 
 ## プルーフビューアで使用できる新しいドキュメント承認決定ボタン
