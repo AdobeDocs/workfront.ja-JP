@@ -109,7 +109,7 @@ ht-degree: 42%
 * 空のシートはサポートされていません。
 * 次のタイプのフィールドはサポートされておらず、インポートシートのフィールドにマッピングできません。
 
-   * <!--In the Production environment,--> Planning レコードまたはWorkfrontおよびAEM Assetsオブジェクトへの接続フィールド
+   * &#x200B;<!--In the Production environment,--> Planning レコードまたはWorkfrontおよびAEM Assetsオブジェクトへの接続フィールド
 
      <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
 
