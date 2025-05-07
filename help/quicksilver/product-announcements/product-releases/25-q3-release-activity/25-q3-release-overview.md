@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9de87b7b874910cb986cbf6d57e998afe602bb8
+source-git-commit: 220c31cb836e324b91fb36106ed34662c1eb6b29
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '718'
 ht-degree: 38%
 
 ---
@@ -168,15 +168,19 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## その他の領域のリリースノート
 
-* [Adobe Workfront Fusion リリースアクティビティ ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
-* [Adobe Workfrontの 2025 年第 3 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)。
+### Workfront Fusion の機能強化
+
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+
+### Workfront計画の機能強化
+
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront計画の 2025 年第 3 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md) を参照してください。
 
 このリリースの現時点では、次の更新はありません。
 
 * シナリオプランナー
 * プルーフ
 * Goals
-
 
 ### API バージョン 20
 
