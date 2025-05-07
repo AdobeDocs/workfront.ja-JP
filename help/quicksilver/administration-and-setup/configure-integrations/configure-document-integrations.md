@@ -8,10 +8,10 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: cf5c4e3d-b45f-46cd-a938-22e412d1c491
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: ec0e2be036ce1298e285ce85cdeddae97cd1f144
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 91%
+source-wordcount: '1199'
+ht-degree: 86%
 
 ---
 
@@ -250,4 +250,12 @@ ht-degree: 91%
 
 ## 制限事項
 
-* Google Drive ドキュメント統合は、Google Drive のマイドライブ領域からのフォルダーおよび画像の追加をサポートしています。 共有ドライブからフォルダーや画像を追加することはできません。 [Google共有ドライブ ](https://support.google.com/a/users/answer/7212025?hl=en) の詳細情報。
+### Google Drive の統合
+
+* リンクされたフォルダーをWorkfrontに追加すると、フォルダー内のファイルは自動的に追加されなくなります。
+   * Google フォルダーをファイルなしでWorkfrontに追加してから、個々のファイルをWorkfrontに追加できます。 ファイルはWorkfrontのGoogle フォルダーに自動的に追加されます。
+または
+   * Workfrontにドキュメントフォルダーを作成し、Google フォルダー内のすべてのファイルを選択してWorkfront フォルダーに追加します。
+
+
+* Google Drive ドキュメントの統合では、Google Drive のマイドライブ領域からのファイルの追加がサポートされています。 共有ドライブからフォルダーや画像を追加することはできません。 [Google共有ドライブ ](https://support.google.com/a/users/answer/7212025?hl=en) の詳細情報。
