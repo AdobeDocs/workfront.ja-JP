@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '881'
 ht-degree: 42%
 
 ---
@@ -108,7 +108,12 @@ ht-degree: 42%
 * ファイルのサイズは 5 MB 以下にしてください。
 * 空のシートはサポートされていません。
 * 次のタイプのフィールドはサポートされておらず、インポートシートのフィールドにマッピングできません。
-   * 接続されたレコードの接続およびルックアップフィールド <!--or connected Workfront objects-->
+
+   * <!--In the Production environment,--> Planning レコードまたはWorkfrontおよびAEM Assetsオブジェクトへの接続フィールド
+
+     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+
+   * 接続された Planning レコードまたはWorkfrontおよびAEM Assetsオブジェクトからのフィールドの参照
    * 数式フィールド
    * 作成日、作成者
    * 最終変更日、最終変更者

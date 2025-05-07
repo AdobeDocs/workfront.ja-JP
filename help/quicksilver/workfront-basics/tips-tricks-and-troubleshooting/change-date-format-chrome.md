@@ -6,9 +6,9 @@ title: ' [!DNL Adobe Workfront] で日付の形式を変更する'
 description: ' [!DNL Adobe Workfront]  で日付の形式を変更するには、ブラウザーの言語設定を変更する必要があります。'
 feature: Get Started with Workfront
 exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '421'
 ht-degree: 85%
 
 ---
@@ -19,8 +19,9 @@ ht-degree: 85%
 
 >[!IMPORTANT]
 >
-> この記事の情報は、まだAdobeの Unified Experience にオンボーディングされていない組織にのみ適用されます。
-> 組織がAdobeの統合エクスペリエンスにオンボーディングされた場合、日付の環境設定は、Adobeの統合シェルで設定された言語の環境設定によって制御されます。 デフォルトの言語設定（デフォルトの日付設定）は `en-US` です。
+> この記事の情報は、Adobe Unified Experience にまだオンボーディングされていない組織にのみ適用されます。
+> 組織がAdobe統合エクスペリエンスにオンボーディングされている場合、日付の環境設定はAdobe統合シェルで設定された言語の環境設定によって制御されます。 デフォルトの言語設定（デフォルトの日付設定）は `en-US` です。
+> 詳しくは、[[!DNL Adobe Unified Experience] for [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md/#access-your-profile-and-preferences) を参照してください。
 
 [!DNL Adobe Workfront] で[!UICONTROL 予定完了日]、[!UICONTROL 実際の完了日]または [!UICONTROL 見込み完了日]などの日付形式を変更できます。
 

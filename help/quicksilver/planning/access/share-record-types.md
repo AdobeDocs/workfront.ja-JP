@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1509'
 ht-degree: 8%
 
 ---
@@ -75,7 +75,7 @@ ht-degree: 8%
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
-<p>ユーザーが権限リクエストに基づいてビューに対する権限をリクエストおよび付与できるようにするには、組織がAdobe統合エクスペリエンスにオンボーディングされている必要があります。 </p>
+<p>Workfront Planning ビューへの権限を取得するには、ユーザーをAdobe Admin Consoleに追加する必要があります。</p>
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -199,7 +199,7 @@ ht-degree: 8%
 
 ## レコードタイプに対する権限の削除
 
-レコードタイプからユーザーの権限を削除できます。 ただし、少なくともレコードタイプの表示に必要な権限を付与するワークスペースへの表示アクセス権は保持されます。 ワークスペース内のレコードタイプに対する権限を付与したくない場合は、ワークスペースからアクセス権を削除する必要があります。
+レコードタイプからユーザーの権限を削除できます。 ただし、少なくともワークスペースに対する表示権限は保持され、同時にレコードタイプに対する表示権限も付与されます。 ワークスペース内のレコードタイプに対する権限を付与したくない場合は、ワークスペースからアクセス権を削除する必要があります。
 
 {{step1-to-planning}}
 

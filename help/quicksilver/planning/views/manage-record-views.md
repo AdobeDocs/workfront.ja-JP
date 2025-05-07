@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1537'
 ht-degree: 52%
 
 ---
@@ -103,7 +103,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
-   <p>ビュー設定を一時的に変更するためのビューへのアクセス許可を表示します</p> </td> 
+   <p>ビュー設定を一時的に変更したり、複製したりするためのビューへのアクセス許可を表示します</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>レイアウトテンプレート</p></td> 
@@ -258,7 +258,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
 1. ビュータブ内のビュー名の 1 つにポインタを合わせ、ビュー名の左側にある **その他**![ その他メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックします。
-まず、最後のタブの左側にある&#x200B;**その他**&#x200B;をクリックして、削除するビューを探します。
+まず、最後のタブの左側にある**その他**&#x200B;をクリックして、削除するビューを探します。
 
 1. 「**削除**」をクリックして確定します。<!--ensure there is not another saving step here?!-->
 

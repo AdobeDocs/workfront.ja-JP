@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
 workflow-type: tm+mt
-source-wordcount: '1122'
-ht-degree: 32%
+source-wordcount: '1227'
+ht-degree: 30%
 
 ---
 
@@ -44,19 +44,18 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
 
   詳しくは、「ワークスペースの共有 [ を参照してください ](/help/quicksilver/planning/access/share-workspaces.md)
 
-<!--
 <div class="preview">
 
-* Record types
+* レコードタイプ
 
-    * You can share record types with people inside your organization.
-    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a record type with a higher permission level than the user has on the workspace. 
+   * レコードタイプは、組織内のユーザーと共有できます。
+   * ワークスペースに付与された権限のレベルは、レコードタイプの継承権限として表示されます。
+   * ユーザーがワークスペースで持っている権限レベルよりも高い権限レベルを持つレコードタイプを共有することはできません。
 
-    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+  詳しくは、[ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
 
 </div>
--->
+
 
 * ビュー
 
@@ -67,7 +66,7 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
 
   詳しくは、[ビューの共有](/help/quicksilver/planning/access/share-views.md)を参照してください。
 
-内部的には、次のWorkfront エンティティとワークスペースまたはビューを共有できます。
+内部的には、以下のWorkfront エンティティで </span> まるワークスペース、ビュー、<span class="preview"> またはレコードタイプを共有できます。
 
 * ユーザー
 * グループ
@@ -76,6 +75,11 @@ Workfront Planning では、次のオブジェクトを手動で共有できま�
 * 担当業務
 
 <span class="preview"> ワークスペースとレコードの種類を他のユーザーと共有すると、レコードの種類のアクセス許可レベルが、それらに関連付けられたレコードとフィールドに自動的に継承されます。</span>
+
+>[!IMPORTANT]
+>
+>組織のWorkfrontのインスタンスがAdobe Unified Experience にオンボードされている場合、計画オブジェクトを共有するユーザーはAdobe Admin Consoleに追加する必要があります。 Adobe Admin Consoleに追加されていないWorkfront ユーザーと Planning オブジェクトを共有することはできません。
+
 
 ## Adobe Workfront Planning でのオブジェクトの共有に関する考慮事項
 

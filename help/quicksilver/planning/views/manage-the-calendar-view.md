@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
 workflow-type: tm+mt
-source-wordcount: '855'
+source-wordcount: '859'
 ht-degree: 24%
 
 ---
@@ -82,7 +82,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
-   <p>ビュー設定を一時的に変更するためのビューへのアクセス許可を表示します</p> </td> 
+   <p>ビュー設定を一時的に変更したり、複製したりするためのビューへのアクセス許可を表示します</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>レイアウトテンプレート</p></td> 
