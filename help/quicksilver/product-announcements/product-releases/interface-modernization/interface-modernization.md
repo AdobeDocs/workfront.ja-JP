@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6350e815e39d642a88a2c9c8b17208db5cb253c5
+source-git-commit: 78300d47d9a892a07816d94c448c7b957f11f14f
 workflow-type: tm+mt
-source-wordcount: '2064'
+source-wordcount: '2138'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 ### 詳細検索のインターフェイスの更新
 
-**プレビューリリース：4 月 17 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：4 月 17 日（PT）、実稼動リリース：4 月 24 日（PT）の週から**
 
 「詳細検索」領域が次の変更で更新されました。
 
@@ -344,19 +344,16 @@ Workfrontの他の領域と一貫した最新のデザインで、別のユー�
 
 外部ユーザーは、このページから _マイ設定_ にアクセスできなくなりました。
 
-<!--
+### 外部ユーザー登録ページを更新しました
 
-### Updated external user registration page
+**プレビューリリース：2024 年 4 月 24 日（PT）、実稼動リリース：2024 年 5 月 8 日（PT）の週から**
 
-**Preview release: April 24, 2024; Production release: To be announced**
+外部ユーザー登録ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
 
-We have updated the external user registration page with a more modern design that is consistent with other areas of Workfront.
+## ライセンス
 
+### 更新された使用許諾契約ページ
 
-## Licenses
+**プレビューリリース：2024 年 4 月 24 日（PT）、実稼動リリース：2024 年 5 月 8 日（PT）の週から**
 
-### Updated license agreement page
-
-**Preview release: tbd; Production release: To be announced**
-
-We have updated the license agreement page with a more modern design that is consistent with other areas of Workfront.-->
+使用許諾契約ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
