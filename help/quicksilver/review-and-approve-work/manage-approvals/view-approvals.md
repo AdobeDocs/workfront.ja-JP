@@ -6,10 +6,10 @@ description: 承認プロセスを使用すると、プロジェクト、タス�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '802'
-ht-degree: 74%
+source-wordcount: '794'
+ht-degree: 73%
 
 ---
 
@@ -129,7 +129,7 @@ Workfront の複数のエリアで承認を表示または管理できます。�
 タスクまたはイシューの承認プロセスの現在の状態を確認するには：
 
 1. 承認が関連付けられているプロジェクト、タスクまたはイシューに移動します。
-1. 左側のパネルで、「**承認**」をクリックします。最初に&#x200B;**さらに表示**&#x200B;をクリックする必要がある場合もあります。
+1. 左側のパネルで、「**承認**」をクリックします。
 
    「承認」タブには、過去のすべての承認パスおよび承認ステージに関する完全な情報が表示されます。承認決定者や、承認がチーム、担当業務、ユーザーのいずれに対して設定されているかを正確に確認できます。
 

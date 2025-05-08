@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
+source-git-commit: 06e42fa713bc9b0c1e308feb2b84ca62dafa416c
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1891'
 ht-degree: 92%
 
 ---
@@ -123,8 +123,6 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
 1. 承認プロセスを関連付ける作業アイテムに移動します。
 1. 左パネルの「**承認**」をクリックします。
 
-   場合によっては、「**さらに表示**」をクリックしてから「**承認**」をクリックする必要があります。
-
    ![ タスクの承認セクション ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. ![ 既存の承認を使用または単一使用の承認を作成 ](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
@@ -193,8 +191,6 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
 1. 承認プロセスを関連付けるプロジェクト、タスク、イシュー、テンプレートまたはテンプレートタスクに移動します。
 1. 左パネルの「**承認**」をクリックします。
 
-   場合によっては、**さらに表示**／**承認**&#x200B;をクリックする必要があります。
-
    ![ タスクの承認セクション ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. 「**1 回の使用を作成**」をクリックします。
@@ -231,8 +227,6 @@ Workfront 管理者がシステム内のすべてのグループに対してグ�
 
 1. 以前に追加した承認プロセスを解除するプロジェクト、タスク、イシュー、テンプレートまたはテンプレートタスクに移動します。
 1. 左パネルの「**承認**」をクリックします。
-
-   場合によっては、**さらに表示**／**承認**&#x200B;をクリックする必要があります。
 
    ![ タスクの承認セクション ](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
