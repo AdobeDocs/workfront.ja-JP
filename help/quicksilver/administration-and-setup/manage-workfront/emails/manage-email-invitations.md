@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: 新規ユーザーへの E メール招待状の管理
 description: Adobe Workfront 管理者は、招待メールを使用してユーザーを Workfront に追加し、追加されたことをユーザーに通知することができます。
-author: Nolan
+author: Courtney
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: dccbd5a036e1b148bc8f3e41fac3a67babe6dc9a
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 96%
+source-wordcount: '936'
+ht-degree: 95%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
 
 +++
 
-## メールの招待状を生成 {#generate-email-invitations}
+## 既存の未登録ユーザーにメール招待状を再送信する
 
 メールの招待状は、以下のシナリオで生成されます。
 
@@ -82,7 +82,7 @@ Adobe Workfront 管理者は、招待メールを使用してユーザーを Wor
   >
   >ユーザー作成時に&#x200B;**このユーザー招待メールを送信**&#x200B;ボックスを選択解除すると、メールの招待状を手動で生成することはできません。メールの招待状を手動で再送信できるのは、アカウントの作成時に元のメールの招待状を受信したユーザーのみです。新規ユーザーの作成について詳しくは、[ユーザーを追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
-既存の未登録ユーザーへのメール招待状を手動で生成するには、以下のように行います。
+既存の未登録ユーザーにメール招待を手動で再送信するには：
 
 {{step-1-to-users}}
 
