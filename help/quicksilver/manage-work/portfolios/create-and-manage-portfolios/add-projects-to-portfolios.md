@@ -44,7 +44,7 @@ ht-degree: 71%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>[!UICONTROL 編集 ] ポートフォリオへのアクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td> <p>[!UICONTROL 編集 &#x200B;] ポートフォリオへのアクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -67,7 +67,7 @@ ht-degree: 71%
 
    >[!TIP]
    >
-   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
+   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
 
    ![ 既存のプロジェクトを追加 ](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
