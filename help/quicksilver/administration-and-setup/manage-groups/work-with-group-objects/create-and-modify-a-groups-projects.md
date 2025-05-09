@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: db90cf52-7c8f-4972-b67f-401657ba9b13
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 90%
+source-wordcount: '466'
+ht-degree: 87%
 
 ---
 
@@ -29,32 +29,39 @@ ht-degree: 90%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、以下を保有している必要があります。
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td >Workfront プラン</a>*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td>Adobe Workfront ライセンス</a>*</td> 
-   <td> <p>プラン </p> <p>グループのグループ管理者または Workfront 管理者である必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">グループ管理者</a>および<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">ユーザーへの完全な管理アクセス権の付与</a>を参照してください。</p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront プラン</td>
+   <td><p>新規：標準</p>
+       <p>または</p>
+       <p>現在：プラン</p></td>
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>グループのグループ管理者またはシステム管理者である必要があります。</td>
+  </tr>
+  <tr> 
+   <td role="rowheader">オブジェクト権限</td>
    <td> 
     <ul> 
      <li> <p>プロジェクトは、グループまたはそのサブグループのいずれかに関連付ける必要があります。 </p> <p>プロジェクトへのグループの割り当てについて詳しくは、<a href="../../../manage-work/projects/manage-projects/understand-project-overview-area.md" class="MCXref xref">プロジェクトの概要エリアで情報を管理</a>を参照してください。</p> </li> 
-     <li> <p>また、プロジェクトを作成したか、自分と共有されていたので、プロジェクトを編集する権限が必要です。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </li> 
-    </ul> <p><b>メモ</b>：グループのページからプロジェクトを作成すると、システムによってプロジェクトがそのグループに割り当てられます。これは、他の Workfront エリアでプロジェクトを作成する場合とは異なります。この場合、システムはプロジェクトを、プロジェクトを作成したユーザー（プロジェクト所有者）のホームグループに割り当てます。</p> </td> 
+     <li> <p>また、プロジェクトを作成したか、自分と共有されていたので、プロジェクトを編集する権限が必要です。</p></li> 
+    </ul>
+    <p><b>メモ</b>：グループのページからプロジェクトを作成すると、システムによってプロジェクトがそのグループに割り当てられます。これは、他の Workfront エリアでプロジェクトを作成する場合とは異なります。この場合、システムはプロジェクトを、プロジェクトを作成したユーザー（プロジェクト所有者）のホームグループに割り当てます。</p> </td>
+  </tr> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプランまたはライセンスタイプを確認する必要がある場合は、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

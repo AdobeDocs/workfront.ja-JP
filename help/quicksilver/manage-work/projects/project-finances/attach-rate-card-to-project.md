@@ -5,9 +5,9 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '400'
 ht-degree: 94%
 
 ---
@@ -69,7 +69,7 @@ ht-degree: 94%
 ## プロジェクトへのレートカードの添付
 
 1. プロジェクトに移動します。
-1. 左側のパネルで「**請求料金**」をクリックします。最初に「**さらに表示**」をクリックする必要がある場合もあります。
+1. 左側のパネルで「**請求料金**」をクリックします。
 1. **「請求レートを追加」／「レートカードを添付」**&#x200B;をクリックします。
 
    レートカードを添付ページが開きます。詳しくは、[レートカードの管理](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)を参照してください。

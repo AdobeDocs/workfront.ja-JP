@@ -6,9 +6,9 @@ description: ワークロードバランサーを使用して、リソースの�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
-source-wordcount: '4078'
+source-wordcount: '4068'
 ht-degree: 96%
 
 ---
@@ -21,7 +21,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 ワークロードバランサーは、Adobe Workfront の複数の領域で使用できます。操作方法はすべての領域で同様です。
 
-ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)を参照してください。
+ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)を参照してください。
 
 ## アクセス要件
 
@@ -106,8 +106,8 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 ワークロードバランサーを使用したリソース管理については、次の記事も参照してください。
 
-* [ワークロードバランサーでの作業割り当ての概要](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [ワークロードバランサーでのユーザー割り当ての管理](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [ワークロードバランサーでの作業割り当ての概要](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [ワークロードバランサーでのユーザー割り当ての管理](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## リソース領域での複数のプロジェクトを対象とするワークロードバランサーのナビゲーション
@@ -422,7 +422,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 {{step1-to-projects}}
 
 1. プロジェクトの名前をクリックして、プロジェクトページを開きます。
-1. 左側のパネルの&#x200B;**ワークロードバランサー**&#x200B;をクリックします。「**さらに表示**」をクリックしてから&#x200B;**ワークロードバランサー**&#x200B;をクリックする必要がある場合があります。
+1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
 
    ![プロジェクトのワークロードバランサー](assets/nwe-balancer-project-350x152.png)
 

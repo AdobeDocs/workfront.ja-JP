@@ -6,7 +6,7 @@ description: 請求レートを使用して、プロジェクトに費やした�
 author: Lisa
 feature: Work Management
 exl-id: 63ba6758-ba62-48b4-89f4-d784e32a1bfa
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
 workflow-type: tm+mt
 source-wordcount: '3860'
 ht-degree: 99%
@@ -119,7 +119,7 @@ Adobe Workfront の管理者は、ユーザーと担当業務の両方に請求�
 
 >[!NOTE]
 >
->実収益の場合、請求としてマークされた請求レコードに追加された時間に適用される請求レートは、請求レコードの請求後に発生する請求レートの上書きの影響を受けません。
+>実収益の場合、請求としてマークされた請求記録に追加された時間に適用される請求レートは、請求記録の請求後に発生する請求レートの上書きの影響を受けません。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -134,7 +134,7 @@ Adobe Workfront の管理者は、ユーザーと担当業務の両方に請求�
 <p>To override a billing rate for a project:</p>
 <ol>
 <li value="1">Go to the project you want to override billing rates for.</li>
-<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. You might have to first click <strong>Show More</strong>. </p> </li>
+<li value="2"> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Click <strong>Billing Rates</strong> in the left panel. </p> </li>
 <li value="3"> <p>Click <strong>Add Billing Rate</strong> > <strong>New Billing Rate</strong>.</p> <p>The New Billing Rate box opens</p> <p> <img src="assets/override-billing-rate-on-project-nwe-350x310.png" style="width: 350;height: 310;"> </p> <p> <br>The <strong>Default Billing Rate</strong> field displays the system-level rate for this job role.</p> </li>
 <li value="4">In the <strong>Job Role</strong> field, select the job role you want to change the billing rate for.<br></li>
 <li value="5">In the <strong>Billing Rates 1</strong> field, enter the one time billing rate override, then click <strong>Save</strong> to override the billing rate one time, <br>Or Click <strong>Add Rate</strong> to add more billing rate overrides.</li>
@@ -327,7 +327,7 @@ Workfront の他のエンティティとの間でタイムゾーンの違いが�
 
 * **予定時間数**&#x200B;は、タスクの&#x200B;**期間**&#x200B;全体で均等に配分されます。
 
-* **期間**&#x200B;は、タスクの&#x200B;**予定開始**&#x200B;**日**&#x200B;と&#x200B;**予定完了日**&#x200B;の間の期間です。タスクの&#x200B;**予定開始日**&#x200B;と&#x200B;**予定完了日**&#x200B;は、タスクを表示するユーザーのタイムゾーンによって異なる場合があるため、異なるタイムゾーンの 2 人のユーザーで、1 日あたりの予定時間数が異なる場合があります。
+* **期間**&#x200B;は、タスクの&#x200B;**予定開始****日**&#x200B;と&#x200B;**予定完了日**&#x200B;の間の期間です。タスクの&#x200B;**予定開始日**&#x200B;と&#x200B;**予定完了日**&#x200B;は、タスクを表示するユーザーのタイムゾーンによって異なる場合があるため、異なるタイムゾーンの 2 人のユーザーで、1 日あたりの予定時間数が異なる場合があります。
 
 * 担当業務の請求料率が変更されていない場合、または請求料率の上書きが 1 回のみの場合、1 日あたりの予定時間数によってプロジェクトの予定収益は変更しません。この場合、2 つの異なるタイムゾーンの 2 人のユーザーで 1 日あたりの予定時間数の表示が異なる場合でも、プロジェクトの全体的な予定収益は、2 人のユーザーで同じになります。
 
@@ -359,7 +359,7 @@ Workfront の他のエンティティとの間でタイムゾーンの違いが�
 ## API を使用して新しい請求レートを追加
 
 API を使用して担当業務の新しい請求レートを追加するには、*PUT メソッド*&#x200B;を使用し **Rate**&#x200B;オブジェクトに対して *setRatesForRole* アクションを実行します。
-**レート**&#x200B;オブジェクトのアクションおよび日付フィールドは、API バージョン 8.0 で使用できます。
+**レート**オブジェクトのアクションおよび日付フィールドは、API バージョン 8.0 で使用できます。
 既にプロジェクトの担当業務に対して複数の請求レートが定義されていて、新しい日付範囲で新しい請求レートを追加する場合は、既存の請求レートと、追加するレートの両方を、同じ API 呼び出しに含める必要があります。これは、オブジェクトのコレクションを更新する方法と似ています。
 
 次の API 呼び出しの例では、**attachableID** が料率を追加するプロジェクトの&#x200B;**プロジェクト ID** で、**RoleID** が新しい請求レートを追加する&#x200B;**担当業務 ID** となります。<pre>{</pre><pre>&quot;attachableID&quot;:&quot;593f01500000557d75fdd4fdfcc624f2&quot;,</pre><pre>&quot;attachableObjCode&quot;:&quot;PROJ&quot;,</pre><pre>&quot;roleID&quot;:&quot;544820df000014148cda5136d4b79d09&quot;, </pre><pre>&quot;rates&quot;:[</pre><pre>         {&quot;rateValue&quot;:&quot;0.00&quot;,&quot;startDate&quot;:null,&quot;endDate&quot;:&quot;2017-06-11&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;45.00&quot;,&quot;startDate&quot;:&quot;2017-06-12&quot;,&quot;endDate&quot;:&quot;2017-06-17&quot;},</pre><pre>         {&quot;rateValue&quot;:&quot;95.00&quot;,&quot;startDate&quot;:&quot;2017-06-21&quot;,&quot;endDate&quot;:null}</pre><pre>]</pre><pre>}</pre>Workfront API の使用について詳しくは、[API の基本](https://experience.workfront.com/s/article/API-Basics-638808549)の記事を参照してください。
