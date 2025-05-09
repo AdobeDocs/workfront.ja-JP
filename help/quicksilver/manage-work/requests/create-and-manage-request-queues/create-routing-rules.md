@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 83%
+source-wordcount: '506'
+ht-degree: 81%
 
 ---
 
@@ -61,7 +61,7 @@ ht-degree: 83%
 ## ルーティングルールを作成
 
 1. リクエストのルーティングルールを追加するプロジェクトに移動します。
-1. 左側のパネルで「**ルーティングルール**」をクリックします。場合によっては、「**さらに表示**」をクリックして、「**ルーティングルール**」をクリックする必要があります。
+1. 左側のパネルで **ルーティングルール** をクリックします。
 1. **新規ルーティングルール** をクリックして、新しいルールを追加します。 「**新規ルーティング規則**」ボックスが開きます。
 
    ![新規ルーティングルールボックス](assets/new-routing-rule-box.png)

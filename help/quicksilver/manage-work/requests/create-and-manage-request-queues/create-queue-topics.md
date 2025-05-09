@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 96%
+source-wordcount: '844'
+ht-degree: 95%
 
 ---
 
@@ -108,7 +108,7 @@ ht-degree: 96%
 
    トピックグループの作成について詳しくは、[トピックグループの作成](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)を参照してください。
 
-1. 左側のパネルで「**キューのトピック**」をクリックします。「**さらに表示**」をクリックし、「**キューのトピック**」をクリックする必要がある場合があります。
+1. 左側のパネルで **キュートピック** をクリックします。
 1. 「**新規キュートピック**」をクリックします。
 1. **新規キュートピック**&#x200B;フォームで、次を入力します。
 

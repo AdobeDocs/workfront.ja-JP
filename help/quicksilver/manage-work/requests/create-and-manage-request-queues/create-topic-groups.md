@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 89%
+source-wordcount: '456'
+ht-degree: 87%
 
 ---
 
@@ -80,7 +80,7 @@ ht-degree: 89%
 1. ヘルプリクエストキューとして公開したプロジェクトに移動します。\
    プロジェクトをヘルプリクエストキューとして公開する方法について詳しくは、[リクエストキューの作成](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
-1. 左側のパネルで「**トピックグループ**」をクリックします。場合によっては、「**さらに表示**」をクリックしてから「**トピックグループ**」をクリックする必要があります。
+1. 左側のパネルで **トピックグループ** をクリックします。
 1. 「**新規トピックグループ**」をクリックします。
 
    ![](assets/new-topic-group-box-nwe-350x306.png)

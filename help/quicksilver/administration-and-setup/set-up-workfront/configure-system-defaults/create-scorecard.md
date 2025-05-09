@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 97%
+source-wordcount: '705'
+ht-degree: 80%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -39,30 +39,34 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>現在：[!UICONTROL Business] 以上</p> 
-   または
-   <p>新規： [!UICONTROL Prime] 以上</p>
+   <td> <p>新規： [!UICONTROL Prime] 以上</p>
+   <p>現在：[!UICONTROL Business] 以上</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td><p>現在：[!UICONTROL Plan]</p>
-   または
-   <p>新規：[!UICONTROL Standard]</p>
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td><p>新規：[!UICONTROL Standard]</p>
+   <p>現在：[!UICONTROL Plan]</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
 ## スコアカードを作成
 
+最初からスコアカードを作成することも、既存のスコアカードをコピーすることもできます。
+
+最初からスコアカードを作成する手順は、次のとおりです。
+
 {{step-1-to-setup}}
 
-1. 「**[!UICONTROL スコアカード]**」、「**[!UICONTROL 新しいスコアカード]**」の順にクリックし、スコアカードビルダーを起動してスコアカードを作成します。
+1. 「**[!UICONTROL スコアカード]**」をクリックし、「**[!UICONTROL 新規スコアカード]**」をクリックします。 これにより、「**新規スコアカード** ボックスが開きます。
+
+   <!--add screen shot at unshim-->
 
 1. **[!UICONTROL スコアカード名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を指定します。
 
@@ -104,6 +108,25 @@ ht-degree: 97%
 
    これによりスコアカードが作成され、プロジェクトマネージャーが自分のプロジェクトビジネスケースにスコアカードを添付できるようになります。
 
+## 既存のスコアカードのコピー
+
+既存のスコアカードをコピーして編集することで、スコアカードを作成できます。
+
+{{step-1-to-setup}}
+
+1. 左側のパネルで **[!UICONTROL スコアカード]** をクリックします。
+1. リストでスコアカードを選択し、スコアカードリストの上部にある **コピー** アイコン ![ スコアカードコピー ](assets/copy-scorecard-icon.png) アイコンをクリックします。
+「**スコアカードをコピー** ボックスが開きます。
+
+   <!--add screen shot at unshim-->
+1. 次の情報を指定します。
+
+   * **スコアカード**: スコアカードの名前を入力します。  デフォルトでは、名前は次の形式に従って自動的に更新されます。
+
+     `Original scorecard name (Copy)`
+   * **説明**: スコアカードに関する追加情報を入力します。
+1. **保存**&#x200B;をクリックします。
+
 ## プロジェクトへのスコアカードの適用
 
 スコアカードが [!DNL Workfront] 管理者によって作成された後に、プロジェクトへの[!UICONTROL 管理]権限を持つユーザーは、プロジェクトにスコアカードを適用することができます。
@@ -111,3 +134,5 @@ ht-degree: 97%
 プロジェクトのビジネスケースを作成する際に、スコアカードをプロジェクトに追加します。プロジェクトへのスコアカードの追加について詳しくは、[プロジェクトへのスコアカードの適用およびアラインメントスコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
 
 プロジェクト権限について詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
+
+

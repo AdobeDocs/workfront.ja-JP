@@ -2,54 +2,60 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: プロジェクトテンプレートのコピー
-description: 新しいプロジェクトテンプレートを最初から作成するのではなく、必要に応じて既存のテンプレートをコピーし、それに変更を加えることができます。
+description: プロジェクトテンプレートをゼロから作成する以外に、既存のテンプレートをコピーして変更することもできます。
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 97%
+source-wordcount: '295'
+ht-degree: 56%
 
 ---
 
 # プロジェクトテンプレートのコピー
 
-新しいプロジェクトテンプレートを最初から作成するのではなく、必要に応じて既存のテンプレートをコピーし、それに変更を加えることができます。
+<!--Audited: 5/2025-->
+
+プロジェクトテンプレートをゼロから作成する以外に、既存のテンプレートをコピーしてAdobe Workfrontで変更することもできます。
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td><p>新規：標準</p> 
+   <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>テンプレートへの編集アクセス</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>テンプレートへの編集アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>テンプレートに対する表示権限またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>テンプレートに対する表示権限またはそれ以上の権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
++++
 
 ## テンプレートのコピーに関する考慮事項
 
-次の項目は、常に既存のプロジェクトから新しいプロジェクトにコピーされます。
+次の項目は、常に既存のテンプレートから新しいテンプレートにコピーされます。
 
 * テンプレートタスク
 * テンプレートタスクのデフォルト情報（タスクのデフォルトの承認プロセス、タスクのデフォルトのカスタムフォーム）
@@ -61,18 +67,23 @@ ht-degree: 97%
 * ドキュメント
 * 元のテンプレートタスクの日数は、新規テンプレートに移行されます。必要に応じて、テンプレートの開始日または完了日を（スケジュールモードに応じて）変更し、テンプレートタスクの日付を更新する必要があります。
 
-次の項目は、既存のプロジェクトから新規プロジェクトにコピーされません。
+次の項目は、既存のテンプレートから新しいテンプレートにコピーされません。
 
 * 請求レート
 * ユーザーコメント
 
 ## テンプレートをコピーする
 
+
+<!--ensure steps and casing on the fields and buttons is accurate with unshim-->
+
 1. コピーするテンプレートに移動します。
-1. **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックしてから、**コピー** をクリックします。
+1. ヘッダーのテンプレート名の右側にある **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックし、「**コピー**」をクリックします。
+
+   「**テンプレートをコピー**」ボックスが開きます。
 1. 「**新しいテンプレート名**」フィールドにテンプレートの名前を指定します。
 
-   デフォルトでは、新しい名前は **`<original template name>` のコピー**&#x200B;です。
+   デフォルトでは、新しい名前は `Copy of Original template name` です。
 
 1. **タスクとテンプレートのユーザー割り当てを保持する**&#x200B;かどうかを選択します。元のテンプレートから新しいテンプレートにすべてのタスクとテンプレートの割り当てを引き継ぐには、このオプションを選択します。
 1. 「**保存**」をクリックしてテンプレートのコピーを作成します。

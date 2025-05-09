@@ -8,10 +8,10 @@ description: プロジェクト指標を使用すると、プロジェクトで�
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1266'
-ht-degree: 100%
+source-wordcount: '1258'
+ht-degree: 99%
 
 ---
 
@@ -158,7 +158,7 @@ ht-degree: 100%
 指標エリアでグラフを操作して、グラフの様々な側面を確認したり、グラフ内のタスクやイシューをより詳細に調べたりできます。
 
 1. 指標を表示するプロジェクトに移動します。
-1. 左側のパネルで、「**さらに表示**」をクリックして、さらにセクションを表示し、「**指標**」をクリックします。\
+1. 左側のパネルで、「**指標**」をクリックします。\
    指標エリアのグラフには、デフォルトでタスクの情報が表示されます。\
    ![](assets/metrics-section-350x298.png)
 

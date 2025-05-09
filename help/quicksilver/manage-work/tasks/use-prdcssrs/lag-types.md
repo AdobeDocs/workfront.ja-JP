@@ -7,9 +7,9 @@ description: ラグとは、強制的な先行タスクの完了後、依存タ�
 author: Alina
 feature: Work Management
 exl-id: 9b3cac9a-1b8d-4697-b5d4-a2d669c790a9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1462'
+source-wordcount: '1452'
 ht-degree: 98%
 
 ---
@@ -142,7 +142,7 @@ ht-degree: 98%
 ### タスクの「先行タスク」セクションにラグタイプを指定 {#indicate-lag-types-in-the-predecessors-section-of-a-task}
 
 1. 先行タスクとラグタイプを定義するタスクに移動します。
-1. 左側のパネルで「**先行タスク**」をクリックします。「**さらに表示**」、「**先行タスク**」の順にクリックする場合もあります。
+1. 左側のパネルで&#x200B;**先行タスク**&#x200B;をクリックします。
 1. 「**先行タスクの追加**」をクリックします。
 1. （オプション）プロジェクト間先行タスクを追加する場合は、**親プロジェクト**&#x200B;の名前を別のプロジェクトの名前に置き換えます。
 1. 先行タスクの名前を入力し、一覧に表示されたら選択します。

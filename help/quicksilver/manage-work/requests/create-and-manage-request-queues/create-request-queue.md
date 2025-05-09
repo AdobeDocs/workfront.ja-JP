@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '2855'
-ht-degree: 66%
+source-wordcount: '2845'
+ht-degree: 65%
 
 ---
 
@@ -139,7 +139,7 @@ To create a Request Queue:
 
 1. Go to the project that you want to set up as a Request Queue.
 1. (Optional) Click **Project Details** in the left panel and add a **Description** to the project in the **Overview** area. This information displays on all new requests.
-1. Click **Queue Details** in the left panel. You might need to click **Show More**, then **Queue Details**.
+1. Click **Queue Details** in the left panel. 
 
    This opens the Queue Details section.
 
@@ -339,7 +339,7 @@ To create a Request Queue:
 
 1. リクエストキューとして設定するプロジェクトに移動します。
 1. （オプション）左パネルの「**プロジェクト詳細**」をクリックし、「**概要**」エリアのプロジェクトに「**説明**」を追加します。この情報は、すべての新規リクエストに表示されます。
-1. 左側のパネルの「**キューの詳細**」をクリックします。「**さらに表示**」、「**キューの詳細**」の順にクリックする必要がある場合があります。
+1. 左側のパネルで **キューの詳細** をクリックします。
 
    「キューの詳細」セクションが開きます。
 

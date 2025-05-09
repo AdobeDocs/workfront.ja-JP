@@ -7,9 +7,9 @@ description: 先行タスクとは、別のタスク（後続タスクまたは�
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
-source-git-commit: d5f4e83badd4d011816551f06b056ffe886d3b17
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '1189'
+source-wordcount: '1180'
 ht-degree: 100%
 
 ---
@@ -75,7 +75,7 @@ CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MO
 * 作業中のプロジェクトに移動し、以下の手順を実行します。
 
    1. 先行タスクを検索するタスクを見つけ、タスクをクリックします。
-   1. 左側のパネルで「**先行タスク**」をクリックします。場合によっては、「**さらに表示**」、「**先行タスク**」の順にクリックする必要があります。
+   1. 左側のパネルで&#x200B;**先行タスク**&#x200B;をクリックします。
    1. 先行タスクが属しているプロジェクトの名前が、**プロジェクト**&#x200B;列に表示されます。
 
       **#** 列の数字には、先行タスクの番号が表示されます。例えば、「6」はプロジェクトの 6 番目のタスクを意味します。

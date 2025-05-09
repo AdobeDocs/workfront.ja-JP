@@ -6,9 +6,9 @@ description: ベースラインとは、プロジェクトの初期計画に含�
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '750'
 ht-degree: 96%
 
 ---
@@ -115,10 +115,6 @@ drafted for P&P:
 
 1. プロジェクトに移動します。
 1. 左側のパネルで、**ベースライン**&#x200B;をクリックします。
-
-   または
-
-   **さらに表示**&#x200B;をクリックし、次に&#x200B;**ベースライン**&#x200B;をクリックします。
 
    ![プロジェクトの「ベースライン」セクション](assets/baselines-section-on-project-with-header.png)
 

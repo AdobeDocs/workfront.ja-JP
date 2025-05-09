@@ -6,10 +6,10 @@ description: プロジェクトの作業の完了に関与しなくなったユ�
 author: Alina
 feature: Work Management
 exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 100%
+source-wordcount: '561'
+ht-degree: 97%
 
 ---
 
@@ -73,7 +73,7 @@ ht-degree: 100%
 
 1. ユーザーを削除するプロジェクトに移動します。
 
-1. 左側のパネルで「**ユーザー**」をクリックし、次に削除するユーザーを選択します。「**さらに表示**」／**ユーザー**&#x200B;のクリックが必要になる場合があります。
+1. 左側のパネルで **ユーザー** をクリックし、削除するユーザーを選択します。
 
 1. ユーザーのリスト上部にある&#x200B;**削除**&#x200B;アイコン ![項目を削除](assets/remove-icon---x-in-circle.png) をクリックします。
 

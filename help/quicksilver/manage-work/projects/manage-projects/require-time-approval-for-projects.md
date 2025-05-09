@@ -6,10 +6,10 @@ description: プロジェクトに対する時間の承認の要求
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '763'
-ht-degree: 77%
+source-wordcount: '754'
+ht-degree: 79%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 77%
 プロジェクトの時間数を承認または却下するには、次の手順に従います。
 
 1. プロジェクトに移動します。
-1. 左パネルの **時間** 領域をクリックします。 これは、「**その他を表示** エリアの下に配置されている場合があります。
+1. 左側のパネルの「**時間**」エリアをクリックします。
 
 1. イシュー、タスク、プロジェクトに関して記録された時間が表示され、ステータスは&#x200B;**送信済み**&#x200B;になります。\
    時間エントリの左側にあるボックスをクリックして、承認する時間を選択します。

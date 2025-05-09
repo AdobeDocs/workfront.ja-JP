@@ -2,24 +2,26 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: プログラムへのプロジェクトの追加
-description: ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。1 つのプログラム内に複数のプロジェクトを含めることができますが、1 つのプログラムに関連付けることができるのは 1 つのプログラムのみです。
+description: ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。1 つのプログラム内に複数のプロジェクトを含めることができますが、1 つのプロジェクトに関連付けることができるプログラムは 1 つだけです。 プログラムにプロジェクトを追加すると、そのプロジェクトはプログラムのポートフォリオに自動的に同時に追加されます。
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 2ca8539855c2b08d71f47ad2e1b698496456f022
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 87%
+source-wordcount: '478'
+ht-degree: 57%
 
 ---
 
 # プログラムへのプロジェクトの追加
 
-<!--Audited: 7/2024-->
+<!--Audited: 5/2025-->
 
 ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。1 つのプログラム内に複数のプロジェクトを含めることができますが、1 つのプログラムに関連付けることができるのは 1 つのプログラムのみです。
 
 プログラムにプロジェクトを追加する前に、このポートフォリオ内にポートフォリオとプログラムを作成する必要があります。
+
+プログラムにプロジェクトを追加すると、そのプロジェクトはプログラムのポートフォリオに自動的に同時に追加されます。
 
 ポートフォリオの作成について詳しくは、[ポートフォリオの作成](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください。
 
@@ -44,7 +46,7 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>プログラムまたはそれ以降への [!UICONTROL 編集 &#x200B;] アクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td> <p>プログラムまたはそれ以降への [!UICONTROL 編集 ] アクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -67,7 +69,7 @@ ht-degree: 87%
 
    >[!TIP]
    >
-   >[!UICONTROL マイルストーン]ビューでプロジェクトのリストを表示する場合、プロジェクトは追加できません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -98,7 +100,19 @@ ht-degree: 87%
     </tbody> 
    </table>
 
-1. （条件付き）「**[!UICONTROL 既存のプロジェクト]**」を選択した場合、次の操作を実行します。
+1. （任意）「**[!UICONTROL 既存プロジェクト]**」を選択すると、「**プロジェクトの追加**」ボックスが開きます。
 
-   1. **[!UICONTROL プロジェクトを追加]** ダイアログボックスで、指定されたフィールドにプロジェクトの名前を入力し始め、リストに表示されたら選択します。一度に複数のプロジェクトを追加できます。
-   1. 「**[!UICONTROL プロジェクトを追加]**」をクリックします。**&#x200B;**&#x200B;プロジェクトがプログラムの「**[!UICONTROL プロジェクト]**」タブに表示され、プログラムとポートフォリオに関連付けられます。
+   <!--screen shot at unshim?-->
+
+1. 次の操作を実行します。
+
+   1. 「**[!UICONTROL プロジェクトを追加]**」ボックスの「**このプログラムにプロジェクトを追加**」フィールドにプロジェクトの名前を入力し、リストに表示されたら選択します。<!--check casing on links and buttons-->
+
+      複数のプロジェクトを追加できます。
+   1. （省略可能） プロジェクト名の右側にある [**X**] アイコンをクリックして、プログラムに追加しない場合は、リストから削除します。
+
+      <!--replace last step with this, for unshim: 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete-icon.png) next to the name of a project if you decide not to add it to the program.-->
+
+   1. 「**[!UICONTROL プロジェクトを追加]**」をクリックします。
+
+      プロジェクトがプログラムの **[!UICONTROL プロジェクト]** タブに表示され、プログラムとプログラムの各ポートフォリオに関連付けられます。

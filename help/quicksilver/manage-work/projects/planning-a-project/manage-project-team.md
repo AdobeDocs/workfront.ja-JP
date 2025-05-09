@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: afbf2e2fbfcc2c527223da008518bc7632872c23
+source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 99%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 100%
 
 1. ユーザーを追加するプロジェクトに移動します。
 
-1. 左のパネルで&#x200B;**ユーザー**&#x200B;をクリックします。最初に&#x200B;**さらに表示**&#x200B;をクリックする必要がある場合もあります。
+1. 左側のパネルで **人物** をクリックします。
 
 1. 「**ユーザーを追加**」をクリックします。
 
