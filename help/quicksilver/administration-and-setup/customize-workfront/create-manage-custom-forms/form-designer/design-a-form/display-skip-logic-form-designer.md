@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1680'
+source-wordcount: '1694'
 ht-degree: 65%
 
 ---
@@ -237,6 +237,8 @@ IF({DE:Budget Field} < 0,
 もう 1 つの簡単な例として、有効な電話番号フィールドには、特定の桁数を含める必要があります。
 
 他のフィールドに基づく検証の追加の例として、会議室のサイズ （小、中、大）のフィールドと、会議出席者数の個別のフィールドがあります。 各部屋サイズの人数は、検証式に記述されます。 ユーザーが入力した出席者の数が、選択した会議室に対して多すぎる場合は、エラーメッセージが表示されます。
+
+検証ロジックのその他の例については、[ カスタムフォームにおける高度なロジックの例 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md) を参照してください。
 
 ### 検証ロジックの定義
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
+source-git-commit: b3a4945cf2db1ba11b42742f0da685b32a6d0dd9
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 43%
+source-wordcount: '1438'
+ht-degree: 45%
 
 ---
 
@@ -22,6 +22,38 @@ ht-degree: 43%
 この記事では、外部検索フィールドを使用して、同じWorkfront インスタンスまたはパブリック API を呼び出す例を示します。 また、外部参照を使用して、Jira、Salesforce、ServiceNow などの外部システムと通信することもできます。
 
 外部検索フィールドをカスタムフォームに追加する方法と、外部検索コンポーネントのその他の定義について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+
+## アクセス要件
+
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
+この記事の手順を実行するには、次のアクセス権が必要です。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront プラン </td> 
+   <td>任意</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>
+   <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td>カスタムフォームへの管理アクセス権 </td> 
+  </tr>  
+ </tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## Workfrontの同じインスタンスに対して外部検索フィールドを設定する
 
@@ -196,6 +228,6 @@ typeahead フィールドを置き換えるためのテンプレートのベー�
 **ユースケース：** ユーザーがカスタムフォーム領域外で独自のフィールドを維持する方法を定義します。 外部検索フィールドを設定し、フィールドを構成するオブジェクトにユーザーを指定できます。 このオプションは、メンテナンスの多いフィールドやチームに適しています。
 **解決策：** 新しいオブジェクトを作成し、このオブジェクトへの API 呼び出しを使用します。
 
-**ユースケース：**&#x200B;Workfront外のオブジェクトとの統合。 例えば、typeahead フィールドで制限されているのではなく、別のシステムにアクセスして各ユーザーの名前を取得するような場合です。
+**ユースケース：**Workfront外のオブジェクトとの統合。 例えば、typeahead フィールドで制限されているのではなく、別のシステムにアクセスして各ユーザーの名前を取得するような場合です。
 **解決策：** 他のシステムに接続するための Webhook/Fusion 自動処理。
 

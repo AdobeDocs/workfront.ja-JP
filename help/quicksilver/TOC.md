@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
+source-git-commit: b5e5704e3276d23ec0426674f62f53de7d4a4951
 workflow-type: tm+mt
-source-wordcount: '13194'
+source-wordcount: '13201'
 ht-degree: 87%
 
 ---
@@ -568,6 +568,7 @@ ht-degree: 87%
             * [コピーからのフォームの作成](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [計算フィールドをフォームに追加する](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
             * [カスタムフォームおよびフィールドへの論理ルールの追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+            * [カスタムフォームにおける高度なロジックの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/advanced-logic-examples.md)
             * [カスタムフォームの外部検索フィールドの例](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [フォームの整理とプレビュー](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * カスタムフォームの管理 {#manage-custom-forms}
