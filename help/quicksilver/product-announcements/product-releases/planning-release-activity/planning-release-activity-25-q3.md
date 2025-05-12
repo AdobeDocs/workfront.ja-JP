@@ -7,7 +7,7 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 036846cc84e53b090276f7b853372e4e0050c316
+source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 2%
@@ -88,7 +88,7 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 >[!NOTE]
 >
 >* プレビュー：2025 年 4 月 17 日（PT）
->* 実稼動高速リリース：2025 年 5 月 15 日（PT）
+>* 実稼動迅速リリース：2025 年 6 月 12 日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年7月17日（PT）
 
 各レコードタイプのレコードを表示または管理できるユーザーをより適切に制御し、許可されたユーザーのみが各レコードタイプの情報を役割と責任に基づいて管理できるように、レコードタイプレベルで権限を導入しました。
