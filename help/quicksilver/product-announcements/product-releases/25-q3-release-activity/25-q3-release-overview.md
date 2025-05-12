@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: d0a82c1ae306edb4f63c961120bb1df4613ace7e
 workflow-type: tm+mt
-source-wordcount: '718'
-ht-degree: 38%
+source-wordcount: '758'
+ht-degree: 36%
 
 ---
 
@@ -56,6 +56,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアのアップデート </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>このアップデートは、デスクトップビューアとMac オペレーティングシステムとの互換性を維持するための問題修正です。 電子は 34.4.0 に、クロムは 132 にダウングレードされた。</p>
+        </td>
+        <td>2025年5月7日（PT）</td>
+        <td>2025年5月7日（PT）</td>
+        <td>2025年5月7日（PT）</td>
+    </tr> 
       <tr>
         <td>
             Workfrontに表示するには、リンクされたGoogle フォルダー内の <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Assetsを個別に追加する必要があります </a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -170,7 +179,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
