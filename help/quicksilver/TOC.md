@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: c02c5173626857b279b20ebe2784f8d81b1a1fcc
+source-git-commit: ad6d983524e19e60e0c884faed2990d9fa6549d7
 workflow-type: tm+mt
-source-wordcount: '13189'
+source-wordcount: '13194'
 ht-degree: 87%
 
 ---
@@ -409,7 +409,7 @@ ht-degree: 87%
    * Workfrontの設定 {#set-up-wf}
       * [設定](administration-and-setup/set-up-workfront/set-up-workfront.md)
       * システムのデフォルトの設定 {#configure-system-defaults}
-         * [デフォルトの設定](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+         * [システムのデフォルトの設定：記事インデックス](administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
          * [プロジェクトの環境設定](administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)
          * [タスクとイシューの環境設定の指定](administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)
          * [グループのプロジェクト環境設定のロック](administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md)
@@ -1462,7 +1462,7 @@ ht-degree: 87%
       * [タスクおよびイシューのデリゲートの概要](manage-work/delegate-work/delegate-work-overview.md)
       * [タスクおよびイシューのデリゲート](manage-work/delegate-work/how-to-delegate-work.md)
 * チームとグループ {#teams-groups}
-   * [チームとグループ](people-teams-and-groups/people-teams-and-groups.md)
+   * [チームとグループ：記事インデックス](people-teams-and-groups/people-teams-and-groups.md)
    * チームの作成と管理 {#create-manage-teams}
       * [チームの作成と管理](people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md)
       * [チームの概要](people-teams-and-groups/create-and-manage-teams/teams-overview.md)

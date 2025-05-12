@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: teams-and-groups
-title: チームとグループ
+title: チームとグループ：記事インデックス
 description: チームやグループとの連携について学ぶには、これらのエリアを参照してください。
 author: Lisa
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
 exl-id: 1ff36a4b-637a-46f2-ac1a-6a8d2c146862
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 93%
+source-wordcount: '53'
+ht-degree: 81%
 
 ---
 
-# チームとグループ
+# チームとグループ：記事インデックス
 
 このセクションには、次のサブセクションが含まれます。
 

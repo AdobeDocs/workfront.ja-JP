@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 0c2a54406ceb690e638cdc0376a3dc01a7c2df76
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 90%
+source-wordcount: '2434'
+ht-degree: 80%
 
 ---
 
 # 計算フィールドをフォームに追加する
+
+<!-- Audited: 5/2025 -->
 
 カスタムフォームをオブジェクトに添付する際に、既存のデータを使用して新しいデータを生成する計算済みカスタムフィールドを追加できます。
 
@@ -77,7 +79,7 @@ ht-degree: 90%
 
 異なるオブジェクトに属するカスタムフォームでも、同じ計算済みカスタムフィールドを使用できます。例えば、プロジェクトカスタムフォーム用に作成した利益計算フィールドを、タスクカスタムフォームで使用できます。
 
-既存の計算カスタムフィールドを使用する場合、計算は新しいフォームに転送されません。同じフィールドの新しいカスタムフォームに、計算を再度追加する必要があります。
+既存の計算カスタムフィールドを使用する場合、計算は新しいフォームに転送されません。 新しいカスタムフォームの同じフィールドに計算を再度追加する必要があります。
 
 新しいフォーム上で、同じフィールドに対して別の計算を行うこともできます。計算カスタムフィールドに同じ名前を付けると、命名規則で纏りと一貫性を保つことができます。
 
@@ -93,15 +95,15 @@ ht-degree: 90%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで「**カスタムフォーム**」をクリックします。
+1. 左側のパネルで **カスタムForms**、**Forms** の順にクリックします。
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
 1. 「**新規カスタムフォーム**」をクリックします。
-1. カスタムフォームを添付するオブジェクトタイプを選択し、「**続行**」をクリックします。
 
+1. **新規カスタムフォーム** ダイアログで、カスタムフォームを添付するオブジェクトタイプを選択し、「**続行**」をクリックします。
 1. 画面の左上で、「**フィールドライブラリ**」をクリックします。
 
    ![ フィールドライブラリ ](assets/field-library.png)
@@ -127,18 +129,19 @@ ht-degree: 90%
 
 >[!IMPORTANT]
 >
->新しい計算済みカスタムフィールドを作成する前に、取り入れる既存のフィールドを特定して、計算に必要なデータが Workfront に確実に存在するようにします。
+>新しい計算カスタムフィールドを作成する前に、含める既存のフィールドを特定して、計算に必要なデータがWorkfrontに存在することを確認します。
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで「**カスタムフォーム**」をクリックします。
+1. 左側のパネルで **カスタムForms**、**Forms** の順にクリックします。
+
+1. 「**新規カスタムフォーム**」をクリックします。
 
    <!-- >[!TIP]
     >
     >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
 
-1. 「**新規カスタムフォーム**」をクリックします。
-1. カスタムフォームを添付するオブジェクトタイプを選択し、「**続行**」をクリックします。
+1. **新規カスタムフォーム** ダイアログで、カスタムフォームを添付するオブジェクトタイプを選択し、「**続行**」をクリックします。
 
 1. 画面の左側で、**計算済み**&#x200B;を見つけ、キャンバス上のセクションにドラッグします。
 
@@ -166,9 +169,9 @@ ht-degree: 90%
      </tr> 
      <tr> 
       <td role="rowheader">形式</td> 
-      <td> <p>フィールドの結果を保存および表示する形式です。</p> <p>フィールドを数学計算で使用する場合は、常に<strong>数字</strong>または<strong>通貨</strong>形式を使用します。「数値」または「通貨」を選択すると、0 から始まる数値が自動的に切り捨てられます。</p> 
-      <p><b>重要</b>：形式を選択する前に、新しいフィールドに適した形式を検討してください。カスタムフォームを保存した後は、形式フィールドを編集できません。また、誤った形式を選択すると、今後の計算や集計値がレポートやリストのグループ化に影響を受ける可能性があります。</p>
-      <p><strong>メモ：</strong> 通貨形式の計算フィールドには引用符を含めないでください。例えば、"800.00" ではなく、800.00 を使用してください。引用符を使用すると、通貨タイプの言語形式の微妙な違いにより、予期しない結果が生じる可能性があります。</p></td>
+      <td> <p>フィールドの結果を保存および表示する形式です。</p> <p>フィールドを数学計算で使用する場合は、常に<strong>数字</strong>または<strong>通貨</strong>形式を使用します。<strong> 数値 </strong> または <strong> 通貨 </strong> を選択すると、0 で始まる数値が自動的に切り捨てられます。</p> 
+      <p><b>重要</b>：形式を選択する前に、新しいフィールドに適した形式を検討してください。カスタムフォームを保存した後で、形式フィールドを編集することはできません。 また、誤った形式を選択すると、今後の計算や集計値がレポートやリストのグループ化に影響を受ける可能性があります。</p>
+      <p><strong> メモ </strong>: <strong> 通貨 </strong> 形式の計算フィールドには引用符を含めないでください。 例えば、"800.00" ではなく、800.00 を使用してください。引用符を使用すると、通貨タイプの言語形式の微妙な違いにより、予期しない結果が生じる可能性があります。</p></td>
      </tr> 
     </tbody> 
    </table>
@@ -295,7 +298,7 @@ ht-degree: 90%
       >
       >次のいずれかの操作を実行して、計算に関するヘルプを確認することができます。
       > 
-      >* 計算の式にカーソルを合わせると、説明、その式の使用方法を示す例、および記事[計算データ式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)の詳細情報への「詳細情報」リンクが表示されます。
+      >* 計算内の式にポインタを合わせると、説明、その使用方法を示す例および **詳細情報** の記事 [ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) の詳細へのリンクが表示されます。
       >  ![ 式のヘルプテキスト ](assets/hover-expression-help-text.jpg)
       >* 追加したコンポーネントを識別するには、色分けを使用します。式は青色で表示され、フィールドは緑色で表示されます。
       >  ![ フィールド式のカラー ](assets/colors-fields-expressions.jpg)
@@ -317,7 +320,7 @@ ht-degree: 90%
     <tbody> 
      <tr> 
       <td role="rowheader">ロジックを追加</td> 
-      <td>表示ロジックを追加して、ユーザーがフォームの入力時に前の複数選択フィールド（ドロップダウン、チェックボックス、ラジオボタン）で 1 つ以上選択した場合に、計算フィールドを表示するかどうかを決定できます。<!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>これは、フォーム上の計算カスタムフィールドの前に、1 つ以上のチェックボックス、ラジオボタンまたはドロップダウンフィールドがある場合にのみ使用できます。 </p> <p>計算カスタムフィールドにはスキップロジックを使用できません。</p> </td> 
+      <td>表示ロジックを追加すると、フォームの入力時に先行する複数選択フィールド （ドロップダウン、チェックボックス、またはラジオボタン）でユーザーが行った少なくとも 1 つの選択に基づいて、計算フィールドを表示するかどうかを決定できます。<!-- For more information, see <a href="Need to add link for new article when it's written" class="MCXref xref">Add display logic and skip logic to a custom form</a>.--> <p>これは、フォーム上の計算カスタムフィールドの前に、1 つ以上のチェックボックス、ラジオボタンまたはドロップダウンフィールドがある場合にのみ使用できます。 </p> <p>計算カスタムフィールドにはスキップロジックを使用できません。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">以前の計算を更新</td> 
