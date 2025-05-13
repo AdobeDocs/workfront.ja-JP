@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: bd6a9c2de25aa1088a0348df4ec5154d81d7a385
+source-git-commit: 564d9b6ba81093caf7ac897ef785120f3bc85d07
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 18%
+source-wordcount: '592'
+ht-degree: 17%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 18%
 このページでは、2025年第 3 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々なエリアのルックアンドフィールに対する小規模な更新について説明します。
 
 2025年第 3 四半期リリースで利用可能なすべての変更点のリストについて詳しくは、[2025年第 2 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)を参照してください。
+
+
+
+## インターフェイスの最新化
+
+ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 ## コメントのその他のメニューオプションのルックアンドフィールの更新
 
