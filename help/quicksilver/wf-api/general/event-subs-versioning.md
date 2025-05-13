@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1259'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,6 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 >次のリリースは、イベント購読のバージョン管理に影響します。
 >
 >* **25.2 リリース** （2025 年 4 月 10 日（PT））:25.2 リリース以降に作成された新しいサブスクリプションはすべて、バージョン 2 として作成されます。
->* **25.3 リリース** （2025 年 7 月 17 日（PT））:25.3 リリース後、サブスクリプションをバージョン 1 にアップグレードできなくなりました。
 >* **2026 年 1 月 15 日**：残りのすべてのバージョン 1 サブスクリプションがバージョン 2 に移行されます。
 
 ## バージョン 1 とバージョン 2 の間の変更
@@ -256,4 +255,4 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 
 Workfront Fusion は、イベント購読を使用して、トリガーシナリオに対するWorkfrontの変化を監視します。 Fusion がシナリオで直接使用するイベント購読のバージョンは、Workfront/イベントのペイロードバージョンを更新モジュールを使用して更新できます。
 
-このモジュールの使用方法については、Workfront Fusion ドキュメントの [Workfront モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) を参照してください。
+このモジュールの使用方法については、Workfront Fusion ドキュメントの [Workfront モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) を参照してください。
