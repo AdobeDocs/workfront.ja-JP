@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
 workflow-type: tm+mt
-source-wordcount: '269'
-ht-degree: 100%
+source-wordcount: '282'
+ht-degree: 97%
 
 ---
 
@@ -42,15 +42,13 @@ ht-degree: 100%
 
 ファイアウォール経由でイベント登録ペイロードを受け取るには、グローバル地域ごとに IP アドレスを許可リストに加える必要があります。詳しくは、[Event Subscription API](../../wf-api/general/event-subs-api.md) を参照してください。
 
-## 適切なアクセスレベルと API キーを入手する
+## 適切なアクセスレベルと認証を持つ
 
 イベント登録を作成、クエリ、または削除するには、Workfront ユーザーが次の条件を満たす必要があります。
 
 * アクセスレベル：**システム管理者**
 詳しくは、[ユーザーに完全な管理アクセス権を付与する](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md)または[特定の領域に対する管理者アクセス権をユーザーに付与する](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
-* API キー
+* イベント登録 API を使用するには `sessionID` ヘッダーが必要です
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">To learn more, see .</p>
-  -->
+  詳しくは、[API の基本](api-basics.md)の[認証](api-basics.md#authentication)を参照してください。
