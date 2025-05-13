@@ -8,10 +8,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
 workflow-type: tm+mt
-source-wordcount: '900'
-ht-degree: 96%
+source-wordcount: '879'
+ht-degree: 93%
 
 ---
 
@@ -70,7 +70,7 @@ Adobe Workfront の管理者は、Workfront での承認プロセスのグロー
      </tr> 
      <tr> 
       <td role="rowheader">役割を含む承認プロセスの場合、承認者はプロジェクトチームに所属している必要はない</td> 
-      <td> <p>役割を含む承認プロセスの場合に、承認者がプロジェクトチームに属している必要がない場合は、このオプションを選択します。承認決定を担当業務に割り当てると、プロジェクトでその担当業務に関連付けられた役割を持つユーザーにのみ承認が表示されます。この設定を有効にしている場合、その担当業務を持つユーザーには、プロジェクトチームに所属しているかどうかに関わらず、承認リクエストが届きます。ユーザーのプロジェクトの役割の編集について詳しくは、<a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">プロジェクトチームの管理</a>を参照してください。 </p> 
+      <td> <p>役割を含む承認プロセスの場合に、承認者がプロジェクトチームに属している必要がない場合は、このオプションを選択します。その担当業務を持つユーザーは、プロジェクトチームに所属しているかどうかに関係なく、承認リクエストを受け取ります。ただし、プロジェクトへのアクセス権は自動的には付与されません。 ユーザーのプロジェクトの役割の編集について詳しくは、<a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">プロジェクトチームの管理</a>を参照してください。 </p> 
       <p><b>ヒント</b>：承認を役割に割り当てて、「<b>役割を含む承認プロセスの場合、承認者はプロジェクトチームに所属している必要はない</b>」オプションが無効になっているが、承認に関する役割に一致する役割がプロジェクトチーム内に存在しない場合、承認はプロジェクト所有者に再割り当てされます。 </p> </td> 
      </tr> 
      <tr> 
