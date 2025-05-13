@@ -255,4 +255,4 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 
 Workfront Fusion は、イベント購読を使用して、トリガーシナリオに対するWorkfrontの変化を監視します。 Fusion がシナリオで直接使用するイベント購読のバージョンは、Workfront/イベントのペイロードバージョンを更新モジュールを使用して更新できます。
 
-このモジュールの使用方法については、Workfront Fusion ドキュメントの [Workfront モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) を参照してください。
+このモジュールの使用方法については、Workfront Fusion ドキュメントの [Workfront モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) を参照してください。
