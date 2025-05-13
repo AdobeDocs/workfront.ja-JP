@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '3497'
-ht-degree: 54%
+source-wordcount: '3229'
+ht-degree: 58%
 
 ---
 
@@ -270,7 +270,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 1. テーブルビューを選択し、テーブルの右上隅にある&#x200B;**フィルター**&#x200B;をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
-   * &#x200B;<!-- the tip below might change--> でフィルターする **フィールドを選択**
+   * <!-- the tip below might change--> でフィルターする **フィールドを選択**
 
    * **オプションを選択** （またはフィルター修飾子）して、フィールドが満たす必要がある条件の種類を定義します
 
@@ -527,49 +527,51 @@ To sort grouped records:
 
 詳しくは、「レコードの表示の管理 [ の「リアルタイムプレゼンスインジケーターの有効化」の節を参照し ](/help/quicksilver/planning/views/manage-record-views.md) ください。
 
-<div class="preview">
+<!--<div class="preview">
 
-## テーブルビューのエクスポート
+## Export the table view
 
-テーブル表示の情報を CSV または Excel ファイルに書き出すことができます。
+You can export information in the table view to a CSV or an Excel file. 
 
-テーブルビューをエクスポートする場合は、以下の点に注意してください。
+Consider the following when exporting the table view:
 
-* Excel ファイルに書き出された情報は、Workfront Planning のテーブルビューに適用されたフィルター、グループ化および並べ替えを保持します。 グループ化は、CSV ファイルには表示されません。
+* The information exported to an Excel file preserves the filters, groupings, and sorts applied to the table view in Workfront Planning. Groupings are not visible in the CSV file.
 
-* サムネールとカスタム行カラーは、書き出されたファイルではサポートされません。
+* Thumbnails and custom row colors are not supported in exported files.  
 
-* Workfront インターフェイスで表示されたフィールドのみが書き出されます。 非表示のフィールドは書き出されません。
+* Only fields made visible in the Workfront interface are exported. Hidden fields are not exported.
 
-テーブル表示またはレコードタイプから情報をエクスポートするには：
+To export information from the table view or a record type:
 
-1. レコードタイプのページに移動し、「テーブル表示」タブをクリックします。
-1. テーブル表示タブの名前にポインタを合わせ、**その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックします。
-1. 「**エクスポート**」をクリックして、次のいずれかの形式を選択します。
+1. Go to a record type page and click a table view tab. 
+1. Hover over the table view tab's name, then click the **More** menu ![More menu](assets/more-menu.png).
+1. Click **Export**, then select one of the following formats:
 
-   * Excel
-   * CSV
+    * Excel
+    * CSV
 
-   >[!IMPORTANT]
-   >
-   >画面に別のビューを表示している場合、テーブルビューから情報をエクスポートすることはできません。 「詳細」 メニューの「エクスポート」 オプションにアクセスするには、エクスポートするテーブルビューを表示する必要があります。
+    >[!IMPORTANT]
+    >
+    >You cannot export information from the table view when you display a different view on the screen. You must display the table view that you want to export in order to access the Export option in the More menu. 
 
-   ファイルがコンピューターにダウンロードされます。
+    The file is downloaded to your computer. 
 
-1. （オプション）コンピューターのダウンロードフォルダーに移動し、ダウンロードしたファイルを見つけます。
+1. (Optional) Go to the downloads folder on your computer and find the downloaded file. 
 
-   書き出されるファイルの名前は、次の形式に従います。
+    The name of the exported file follows the following format: 
 
-   `Name of the view - name of the record type`
+    `Name of the view - name of the record type`
 
-   例えば、キャンペーン レコードタイプのテーブル ビューでは、`Table view - Campaigns` という名前のファイルを生成します。
+    For example, a table view for the Campaigns record type generates a file named `Table view - Campaigns`.
 
-   ファイルには次の情報が表示されます。
+    The file displays the following information: 
+    
+    * The column headers are highlighted in black, in the Excel file
+    * All the fields visible in the Workfront interface, sorted and filtered by the same criteria
+    * Groupings are preserved in the Excel file
 
-   * Excel ファイルでは、列ヘッダーが黒でハイライト表示されます
-   * Workfront インターフェイスに表示されるすべてのフィールド（同じ条件で並べ替えおよびフィルタリングされます）
-   * グループ化は Excel ファイルに保持されます
+    You can now share the exported files with others, or attach them to any communication. 
+    
+ </div>   
 
-   書き出したファイルを他のユーザーと共有したり、任意の通信に添付したりできるようになりました。
-
-</div>
+ -->

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '1537'
-ht-degree: 52%
+source-wordcount: '1508'
+ht-degree: 51%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
 
 * [ビューの作成と編集](#create-or-edit-record-views)
 * [ビューの削除](#delete-views)
-* [ビューの複製](#duplicate-views)
+* [ビューの複製](#duplicate-a-view)
 * [ ビューでリアルタイムプレゼンス指標を有効にする ](#enable-the-real-time-presence-indicator-in-a-view)
   <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
@@ -258,7 +258,7 @@ Adobe Workfront Planning でレコードタイプを選択すると、そのタ�
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
 1. ビュータブ内のビュー名の 1 つにポインタを合わせ、ビュー名の左側にある **その他**![ その他メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックします。
-まず、最後のタブの左側にある&#x200B;**その他**&#x200B;をクリックして、削除するビューを探します。
+まず、最後のタブの左側にある**その他**&#x200B;をクリックして、削除するビューを探します。
 
 1. 「**削除**」をクリックして確定します。<!--ensure there is not another saving step here?!-->
 

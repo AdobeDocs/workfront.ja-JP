@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 53%
+source-wordcount: '2946'
+ht-degree: 52%
 
 ---
 
@@ -171,7 +171,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
 1. （任意） **分類** をクリックして、接続されたレコードをタイムラインに表示します。
 
-   詳しくは、[ 分類機能を使用して、接続されたレコードをタイムラインビューに表示する ](#break-down-connected-records-in-the-timeline-view) の節を参照してください
+   詳しくは、この記事の [ 分類機能を使用して接続されたレコードをタイムライン ビューに表示する ](#break-down-connected-records-in-the-timeline-view) の節を参照してください。
 
 ### フィルターを追加
 
@@ -266,15 +266,22 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. レコードタイプのタイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 1. 「**設定**」をクリックします。
-1. 左パネルの&#x200B;**日付および時刻**&#x200B;をクリックし、**開始日**&#x200B;と&#x200B;**終了日**&#x200B;を選択してタイムラインで表示します。デフォルトの開始日と終了日を選択するか、使用可能な任意の日付フィールドを選択できます。レコードを表すバーは、開始日に指定した日付で始まり、終了日に指定した日付で終わります。
+1. 左パネルの&#x200B;**日付および時刻**&#x200B;をクリックし、**開始日**&#x200B;と&#x200B;**終了日**&#x200B;を選択してタイムラインで表示します。デフォルトの開始日と終了日を選択することも、使用可能な任意の日付フィールドを選択することもできます。
+
+   レコードを表すバーは、開始日に指定した日付で始まり、終了日に指定した日付で終わります。
 
    >[!NOTE]
    >
-   >開始日または終了日の値がないレコード、または開始日が終了日より後のレコードは、タイムラインビューに表示されません。
+   >* 開始日または終了日の値がないレコード、または開始日が終了日より後のレコードは、タイムラインビューに表示されません。
+   >
+   >* 「分類」オプションを使用して追加のレコードを表示する場合、開始日と終了日はメインレコードの日付です。 この領域で接続されているレコードの開始日と終了日を選択することはできません。
 
 1. 左側のパネルで **バースタイル** をクリックし、レコードバーに表示する情報を指定します。
 
-   レコードのテーブルビューで定義されたレコードのプライマリフィールド（またはタイトル）は、デフォルトで選択されています。<!--adjust this when the primary field is released??-->
+   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+
+   レコードのテーブルビューで定義されたレコードのプライマリフィールド（またはタイトル）は、デフォルトで選択されています。
+   <!--adjust this when the primary field is released??-->
 
 1. （オプションおよび条件付き）レコードにサムネールを追加した場合、「サムネール」オプションを選択すると、レコードに関連付けられた画像がレコードバーに表示されます。
 
@@ -306,10 +313,13 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* <span class="preview"> タイムラインビューを分類して接続オブジェクトを表示する場合、「バーの詳細を切り捨て」設定はメインレコードタイプにのみ適用されます。 接続されたレコードバーには適用されません。</span>
 
+   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. 左パネルの&#x200B;**カラー**&#x200B;をクリックすると、タイムラインのレコードとグループ化の色をカスタマイズできます。
 
    ![ 「カラー」タブのタイムライン表示 ](assets/color-tab-timeline-view.png)
+
+   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
 
 1. （条件付きおよびオプション）タイムラインビューにグループ化を追加した場合、グループ化の色を設定するには、「**グループ化の色を設定**」セクションで次のオプションから選択します。
 
@@ -348,9 +358,13 @@ this is not possible right now; if this is the same functionality as the table v
 
    選択したレコードタイプに対して色分けされたオプションを含むフィールドがない場合、このオプションは淡色表示になります。
 
+   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+
 1. 「**保存**」をクリックします。
 
    選択した設定でレコードがタイムラインビューに表示されます。
+
+
 
 ### タイムラインビューで接続されたレコードを分類
 
@@ -359,6 +373,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 分類機能を使用する際の考慮事項
 
 * タイムラインビューで、選択したレコードタイプのレコードの下に、接続されたレコードまたはオブジェクトを表示できます。
+* 標準モードでレコードを表示する場合にのみ、接続されたレコードをタイムラインビューに表示できます。 タイムラインビューのコンパクトモードで「分類」オプションを使用することはできません。
 * 分類機能を使用すると、タイムラインビューに以下を表示できます。
    * 選択したレコードタイプに接続されたWorkfront Planning レコード。
    * 選択したレコードタイプに接続されたWorkfront オブジェクトタイプまたはExperience Manager アセット。
