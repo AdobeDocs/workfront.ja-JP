@@ -33,7 +33,7 @@ ht-degree: 44%
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="5">[!UICONTROL レガシ ]</th> 
+   <th colspan="5">[!UICONTROL レガシ &#x200B;]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
    <th colspan="3">[!UICONTROL New]</th> 
@@ -42,14 +42,14 @@ ht-degree: 44%
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL プランナ ]</th> 
+   <th>[!UICONTROL プランナ &#x200B;]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL 要求者 ]</th> 
+  <th>[!UICONTROL 要求者 &#x200B;]</th> 
    <th>[!UICONTROL External]</th>
    <th>[!UICONTROL Standard]</th> 
-   <th>[!UICONTROL ライト ]</th> 
-   <th>[!UICONTROL 共同作成者 ]</th> 
+   <th>[!UICONTROL ライト &#x200B;]</th> 
+   <th>[!UICONTROL 共同作成者 &#x200B;]</th> 
   </tr> 
  </thead> 
  <tbody> 
