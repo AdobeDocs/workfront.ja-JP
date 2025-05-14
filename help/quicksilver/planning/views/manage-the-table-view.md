@@ -1,15 +1,15 @@
 ---
 title: テーブル表示の管理
-description: Adobe Workfront Planning の「レコードタイプ」ページにアクセスすると、レコードとそのフィールドをテーブル・ビューに表示できます。 この記事では、テーブルビューを作成し、既存のテーブルビューを編集または削除する方法について説明します。
+description: Adobe Workfront Planning の「レコードタイプ」ページにアクセスすると、レコードとそのフィールドをテーブル・ビューに表示できます。 この記事では、テーブル表示の編集を作成または編集する方法と、表示のリアルタイムプレゼンス指標を有効にする方法、または CSV ファイルまたは Excel ファイルに書き出す方法について説明します。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '3229'
-ht-degree: 58%
+source-wordcount: '3395'
+ht-degree: 55%
 
 ---
 
@@ -24,6 +24,12 @@ ht-degree: 58%
 Adobe Workfront Planning のレコードタイプのページにアクセスすると、レコードとそのフィールドをテーブルビューで表示できます。
 
 レコードビューとその管理方法について詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
+
+この記事では、次の情報について説明します。
+
+* [テーブル表示での列と行の作成または編集](#manage-a-table-view)
+* [ テーブルビューのリアルタイムプレゼンス指標の有効化 ](#enable-the-real-time-presence-indicator)
+  <!--* <span class="preview">[Export a table view to a CSV or Excel file](#export-the-table-view)</span>-->
 
 ## アクセス要件
 
@@ -270,7 +276,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 1. テーブルビューを選択し、テーブルの右上隅にある&#x200B;**フィルター**&#x200B;をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
-   * &#x200B;<!-- the tip below might change--> でフィルターする **フィールドを選択**
+   * <!-- the tip below might change--> でフィルターする **フィールドを選択**
 
    * **オプションを選択** （またはフィルター修飾子）して、フィールドが満たす必要がある条件の種類を定義します
 
@@ -525,7 +531,21 @@ To sort grouped records:
 
 テーブルビューを表示すると、レコードの表示中に別のユーザーが編集しているフィールドを表示することもできます。
 
-詳しくは、「レコードの表示の管理 [ の「リアルタイムプレゼンスインジケーターの有効化」の節を参照し ](/help/quicksilver/planning/views/manage-record-views.md) ください。
+1. レコードタイプのページに移動し、任意のビューを開きます。
+1. （条件付き）選択したタイプのレコードを同時に編集する他のユーザーがいる場合、そのアバターはビューの右上隅に表示されます。
+1. アバターの横にあるドロップダウンメニューをクリックし、「**共同作業者を表示**」切替スイッチを選択します。 この切り替えはデフォルトで選択されています。
+
+   ![ 「共同作業者を表示」切替スイッチが選択されている ](assets/show-collaborators-toggle-selected.png)
+
+1. （条件付き）テーブルビューを開くと、他のユーザーがアクティブに編集しているフィールドが、テーブルビューでのアバターの概要に対応する色でハイライト表示されます。
+
+   アバターのハイライト色がグレーの場合、ユーザーは 30 秒以上前にレコードのアクティブな編集を停止しました。
+
+   ![ リアルタイムインジケーターテーブルフィールドとアバター接続 ](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+   >[!TIP]
+   >
+   >任意の表示から「**共同作業者を表示**」切り替えスイッチを選択できます。 他のユーザーが現在編集しているフィールドの輪郭は、テーブルビューでのみ表示されます。
 
 <!--<div class="preview">
 

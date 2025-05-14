@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: dd6ff5927aaa4f8f2d41d0f2950d98ea32517ff9
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '319'
 ht-degree: 44%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 44%
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="5">[!UICONTROL レガシ &#x200B;]</th> 
+   <th colspan="5">[!UICONTROL レガシ ]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
    <th colspan="3">[!UICONTROL New]</th> 
@@ -42,14 +42,14 @@ ht-degree: 44%
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL プランナ &#x200B;]</th> 
+   <th>[!UICONTROL プランナ ]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-  <th>[!UICONTROL 要求者 &#x200B;]</th> 
+  <th>[!UICONTROL 要求者 ]</th> 
    <th>[!UICONTROL External]</th>
    <th>[!UICONTROL Standard]</th> 
-   <th>[!UICONTROL ライト &#x200B;]</th> 
-   <th>[!UICONTROL 共同作成者 &#x200B;]</th> 
+   <th>[!UICONTROL ライト ]</th> 
+   <th>[!UICONTROL 共同作成者 ]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -237,7 +237,7 @@ ht-degree: 44%
    <td></td> 
    <td></td>
    <td>✓</td> 
-   <td></td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
   <tr> 

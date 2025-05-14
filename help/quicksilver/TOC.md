@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b5e5704e3276d23ec0426674f62f53de7d4a4951
+source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13207'
 ht-degree: 87%
 
 ---
@@ -2105,6 +2105,8 @@ ht-degree: 87%
       * [テーブルビューの管理](planning/views/manage-the-table-view.md)
       * [タイムラインビューの管理](planning/views/manage-the-timeline-view.md)
       * [カレンダービューの管理](planning/views/manage-the-calendar-view.md)
+      * [レコードビューを削除](planning/views/delete-record-views.md)
+      * [レコードビューを複製](planning/views/duplicate-record-views.md)
    * Adobe Workfront Planning の通知 {#adobe-workfront-planning-notifications}
       * [Adobe Workfront Planning の通知：記事索引](planning/notifications/notifications-information.md)
       * [Adobe Workfront Planning 通知設定の管理](planning/notifications/manage-notification-preferences.md)
