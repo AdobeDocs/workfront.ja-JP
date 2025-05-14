@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
 workflow-type: tm+mt
-source-wordcount: '13207'
+source-wordcount: '13209'
 ht-degree: 87%
 
 ---
@@ -247,6 +247,7 @@ ht-degree: 87%
          * [Workfront Proof リリースアクティビティ：2021年11月29日（PT）の週](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
       * インターフェイスの最新化 {#interface-modernization}
          * [インターフェイスの最新化](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
+         * [インターフェイスの最新化](/help/quicksilver/product-announcements/product-releases/interface-modernization/hidden-interface-modernization.md)
       * 四半期別リリースアーカイブ {#quarterly-release}
          * [四半期別リリースアーカイブ](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * 20.4 リリース {#release-20-4}
