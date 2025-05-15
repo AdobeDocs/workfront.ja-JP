@@ -6,9 +6,10 @@ feature: Product Announcements
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
-source-git-commit: b2ab4ca5aab65966d3833b0e6d58a563e70694e0
+exl-id: c0bf438f-f496-420a-b3b6-b958c8a70d3f
+source-git-commit: 1d2761d50176ea5ddf7649f31da8423fd60a6fe6
 workflow-type: tm+mt
-source-wordcount: '3354'
+source-wordcount: '3365'
 ht-degree: 1%
 
 ---
@@ -556,6 +557,8 @@ Workfrontの他の領域と一致する、より現代的なデザインでア�
 
 ### アップデートとコメント
 
++++展開すると、第 2 四半期に行われた更新およびコメント インターフェイスの更新が表示されます
+
 ### コメントのその他のメニューオプションのルックアンドフィールの更新
 
 **プレビューリリース：2024 年 4 月 17 日（PT）、実稼動リリース：2024 年 4 月 17 日（PT）の週から**
@@ -569,3 +572,5 @@ Workfrontの他の領域と一致する、より現代的なデザインでア�
 * 削除アクションを赤で表示してハイライト表示。
 
 詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+
++++
