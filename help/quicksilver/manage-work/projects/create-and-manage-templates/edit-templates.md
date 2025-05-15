@@ -6,9 +6,9 @@ description: プロジェクトテンプレートを編集して、プロジェ�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '4877'
+source-wordcount: '4881'
 ht-degree: 94%
 
 ---
@@ -1100,7 +1100,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 * 請求レート
 
-  プロジェクトの請求レートの上書きについて詳しくは、[担当業務の請求レートの上書きとプロジェクトでの収益の計算の概要](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md)を参照してください。
+  テンプレートの請求レートの追加は、プロジェクトに請求レートを追加する場合と似ています。 詳しくは、[プロジェクトレベルで担当業務の請求レートを上書き](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md)を参照してください。
 
 * 費用
 

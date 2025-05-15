@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '2946'
-ht-degree: 52%
+source-wordcount: '3060'
+ht-degree: 50%
 
 ---
 
@@ -97,8 +97,6 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 +++
 
 ## タイムラインビューの管理 {#manage-a-timeline-view}
-
-<!--insert screen shot of timeline view-->
 
 タイムラインビューを作成すると、選択したレコードタイプのすべてのレコードが時系列で表示されます。
 
@@ -278,7 +276,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 左側のパネルで **バースタイル** をクリックし、レコードバーに表示する情報を指定します。
 
-   <!--<span class="preview">You can define the bar style of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview"> 標準ビューで「分類」オプションを使用すると、メインレコードおよび接続されたレコードのバースタイルを定義できます。</span>
 
    レコードのテーブルビューで定義されたレコードのプライマリフィールド（またはタイトル）は、デフォルトで選択されています。
    <!--adjust this when the primary field is released??-->
@@ -309,17 +307,14 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   >* <span class="preview"> バーの詳細を切り捨て設定は、タイムラインビューをコンパクトモードで表示する場合は使用できず、カレンダービューでは使用できません。</span>
+   ><span class="preview"> バーの詳細を切り捨て設定は、タイムラインビューをコンパクトモードで表示する場合は使用できず、カレンダービューでは使用できません。</span>
    >
-   >* <span class="preview"> タイムラインビューを分類して接続オブジェクトを表示する場合、「バーの詳細を切り捨て」設定はメインレコードタイプにのみ適用されます。 接続されたレコードバーには適用されません。</span>
-
-   <!--take out the last bullet in the Tip above when we release the additional records in breakdown formatting-->
 
 1. 左パネルの&#x200B;**カラー**&#x200B;をクリックすると、タイムラインのレコードとグループ化の色をカスタマイズできます。
 
    ![ 「カラー」タブのタイムライン表示 ](assets/color-tab-timeline-view.png)
 
-   <!--<span class="preview">You can define the color of  the main record as well as for the connected records, when using the Breakdown option in the Standard view. </span>-->
+   <span class="preview"> 標準ビューで「分類」オプションを使用すると、接続されたレコードだけでなく、メインレコードの色も定義できます。</span>
 
 1. （条件付きおよびオプション）タイムラインビューにグループ化を追加した場合、グループ化の色を設定するには、「**グループ化の色を設定**」セクションで次のオプションから選択します。
 
@@ -358,7 +353,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    選択したレコードタイプに対して色分けされたオプションを含むフィールドがない場合、このオプションは淡色表示になります。
 
-   <!--1. <span class="preview">(Optional) If you are using the Breakdown option, repeat the steps starting with step 4 for each connected record displayed in the timeline. </span>-->
+   1. <span class="preview"> （オプション）「分類」オプションを使用している場合は、タイムラインに表示されている接続された各レコードに対して、手順 4 から始まる手順を繰り返します。</span>
 
 1. 「**保存**」をクリックします。
 
@@ -410,9 +405,18 @@ this is not possible right now; if this is the same functionality as the table v
    >    開始日と終了日には順序を指定する必要があります。 終了日が開始日より前の場合、タイムラインにレコードは表示されません。
 
    他のレコードと接続されている場合は、タイムラインの選択されたレコードのバーに右向きの矢印が表示されます。
-1. 右向き矢印をクリックしてレコード タイプを展開すると、接続が表示されます。
+1. 右向き矢印をクリックしてレコード タイプを展開し、その接続を表示します。
 
    ![ タイムライン表示でプログラム別に分類されたキャンペーン ](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
+
+   >[!IMPORTANT]
+   >
+   >    接続された複数のレコードを分類に表示すると、それらのレコードは階層順になりません。
+   >
+   >例えば、キャンペーンのタイムラインを表示していて、製品を追加した後にプログラムを分類に追加した場合、プログラムは必ずしも最初に製品に接続されているわけではありません。
+   >
+   >分類オプションの選択肢として表示するには、製品とプログラムの両方をキャンペーンに接続する必要があり、それらを任意の順序で分類に追加できます。
+
 
 1. （オプション）上記の手順を繰り返して、接続されたレコードをさらに追加します。
 

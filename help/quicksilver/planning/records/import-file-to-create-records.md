@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1002'
-ht-degree: 17%
+source-wordcount: '1065'
+ht-degree: 16%
 
 ---
 
@@ -113,9 +113,11 @@ ht-degree: 17%
 * 空のシートはサポートされていません。
 * 次のタイプのフィールドはサポートされておらず、インポートシートのフィールドにマッピングできません。
 
-   * &#x200B;<!--In the Production environment,--> Planning レコードまたはWorkfrontおよびAEM Assetsオブジェクトへの接続フィールド
+   * 接続フィールド（使用する環境による）
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * 実稼動環境では、計画レコードまたはWorkfrontおよびAEM Assets オブジェクトへの接続フィールドをマッピングできません
+
+      * <span class="preview"> プレビュー環境では、接続フィールドを Planning レコードにマッピングしてインポートできます。 フィールドをWorkfrontとAEM Assetsにマッピングすることはできません。</span>
 
    * 接続された Planning レコードまたはWorkfrontおよびAEM Assetsオブジェクトからのフィールドの参照
    * 数式フィールド
@@ -148,6 +150,11 @@ ht-degree: 17%
    ![ レコードをインポートする際の計画フィールドの列へのマッピング ](assets/map-planning-fields-to-columns-when-importing-records.png)
 
    各行は新しいレコードを表します。「プレビューと編集」ボックスには、最初の 10 レコードのみが表示されます。
+
+   >[!TIP]
+   >
+   >すべてのフィールドタイプがサポートされているわけではありません。 詳しくは、この記事の「[Excel ファイルまたは CSV ファイルを使用したレコードの読み込みに関する考慮事項 ](#considerations-about-importing-records-using-an-excel-or-csv-file) を参照してください。
+
 
 1. （オプションおよび条件付き）ワークスペースに対する管理権限がある場合は、画面の左下隅にある **欠落しているオプションを作成** を選択します。 有効にすると、単一選択フィールドと複数選択フィールドの欠落している選択肢が追加されます。
 

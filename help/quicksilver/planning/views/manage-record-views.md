@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1166'
 ht-degree: 48%
 
 ---
@@ -168,6 +168,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 | レコードを年および四半期別に表示 |           | ✓ |    |
 | 月別にレコードを表示 |           | ✓ | ✓ |
 | レコードを週別に表示 |           |               | ✓ |
+| <span class="preview"> ビューからの情報のエクスポート </span> | <span class="preview">✓</span> |               |    |
 
 
 ## ビューを作成または編集 {#create-or-edit-views}

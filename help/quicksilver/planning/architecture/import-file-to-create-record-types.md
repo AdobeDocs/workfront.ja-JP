@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 3dfac5ada17248f5c67380b56b9a0969b10b73e6
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 42%
+source-wordcount: '1007'
+ht-degree: 34%
 
 ---
 
@@ -109,9 +109,11 @@ ht-degree: 42%
 * 空のシートはサポートされていません。
 * 次のタイプのフィールドはサポートされておらず、インポートシートのフィールドにマッピングできません。
 
-   * &#x200B;<!--In the Production environment,--> Planning レコードまたはWorkfrontおよびAEM Assetsオブジェクトへの接続フィールド
+   * 接続フィールド（使用する環境による）
 
-     <!--<span class="preview">In the Preview environment, you can map and import connection fields to Planning records. </span>-->
+      * 実稼動環境では、計画レコードまたはWorkfrontおよびAEM Assets オブジェクトへの接続フィールドをマッピングできません
+
+      * <span class="preview"> プレビュー環境では、接続フィールドを Planning レコードにマッピングしてインポートできます。 フィールドをWorkfrontとAEM Assetsにマッピングすることはできません。</span>
 
    * 接続された Planning レコードまたはWorkfrontおよびAEM Assetsオブジェクトからのフィールドの参照
    * 数式フィールド
@@ -129,8 +131,8 @@ Excel または CSV ファイルを使用してレコードタイプを読み込
 
    ワークスペースから、既存のワークスペース名の右側にある下向き矢印を展開してワークスペースを検索し、リストに表示されたら選択します。
 1. 「**レコードタイプを追加**」をクリックします。
-1. **ファイルから** をクリックします。
-1. コンピューターに保存済みの Excel ファイルまたは CSV ファイルをドラッグアンドドロップするか、「**CSV ファイルまたは Excel ファイルを選択**」をクリックして参照します。
+1. **ファイルからアップロード** をクリックします。
+1. コンピューターに以前に保存した Excel または CSV ファイルをドラッグ&amp;ドロップするか、「**CSV または Excel ファイルを選択**」をクリックして参照してから選択します。
 1. **プレビューと編集** をクリックします。
 
    **プレビューと編集** ボックスが表示され、次の情報が表示されます。
@@ -153,11 +155,21 @@ Excel または CSV ファイルを使用してレコードタイプを読み込
 
    選択を解除したシートは、グレーの背景で表示されます。
 
-1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、次のいずれかの操作を行います。
+1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、<span class="preview">**フィールド** タブ </span> で次のいずれかの操作を行います。
+
+   <span class="preview">![ レコードタイプマッピングのインポートボックスの「フィールド」タブ ](assets/field-tab-on-record-type-import-mapping-box.png)</span>
 
    * いずれかのフィールドの名前を変更する
    * **フィールドタイプ** を変更する
    * フィールド **説明** を更新
+
+1. <span class="preview"> （オプション）「**接続**」タブをクリックして、列内の情報を他のレコードタイプの接続されたフィールドにマッピングします。</span>
+
+   <span class="preview">![ レコードタイプの読み込みマッピングボックスの「接続」タブ ](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+
+   >[!TIP]
+   >
+   ><span class="preview"> マッピングできるのは、Workfront Planning に接続されたレコードのフィールドのみです。 WorkfrontまたはAEM Assets Connections からフィールドにマッピングすることはできません。 詳しくは、この記事の「[Excel または CSV ファイルを使用したレコードタイプの読み込みに関する考慮事項 ](#considerations-about-importing-record-types-using-an-excel-or-csv-file) の節を参照してください。</span>
 
 1. （任意）フィールドに関する情報を更新したら、「**保存**」をクリックします。
 

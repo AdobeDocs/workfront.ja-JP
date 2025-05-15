@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 34%
+source-wordcount: '440'
+ht-degree: 29%
 
 ---
-
 
 # レコードビューを削除
 
@@ -111,11 +111,14 @@ Adobe Workfront Planning で使用しなくなったレコードビューを削�
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. ビュータブ内のビュー名の 1 つにポインタを合わせ、ビュー名の左側にある **その他**![ その他メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックします。
+1. <span class="preview"> 表示タブ内のビュー名の 1 つにポインタを合わせ、ビュー名の左側にある **その他** ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックします。</span>
 
-   まず、最後のタブの左側にある&#x200B;**その他**&#x200B;をクリックして、削除するビューを探します。
+   <span class="preview">![ レコード ビューで詳細メニューを表示 ](assets/view-more-menu-with-duplicate-option.png)</span>
 
-   ![ レコード ビューで詳細メニューを表示 ](assets/view-more-menu-with-duplicate-option.png)
+   >[!TIP]
+   >
+   >最後のタブの右側にある **その他** をクリックして、削除するビューを見つける必要がある場合があります。
+
 
 1. 「**削除**」をクリックして確定します。 <!--ensure there is not another saving step here?!-->
 

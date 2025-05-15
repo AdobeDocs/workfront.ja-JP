@@ -5,13 +5,13 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a215cf721cc4d517ee39cfa864e29dbbbfeb0a31
+exl-id: 441a53d1-ad39-41b7-93fe-2ae1836476c9
+source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 35%
 
 ---
-
 
 # レコードビューを複製
 
@@ -114,9 +114,9 @@ ht-degree: 35%
    レコードタイプ ページが開きます。
 デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. 複製するビューのタブにポインタを合わせ、ビュー名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、「**複製**」をクリックします。
+1. <span class="preview"> 複製するビューのタブの上にカーソルを置き、ビュー名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**複製** をクリックしてください。</span>
 
-   ![ レコード ビューで詳細メニューを表示 ](assets/view-more-menu-with-duplicate-option.png)
+   <span class="preview">![ レコード ビューで詳細メニューを表示 ](assets/view-more-menu-with-duplicate-option.png)</span>
 
 
    ビューが複製され、新しいビューの名前が次のパターンに従います。`Original view's name (Copy)`新しいビュータブは、すべてのビュータブの最後に表示されます。
