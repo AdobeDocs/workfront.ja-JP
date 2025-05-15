@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: b81164511776efed53d3f41b4ac1cbf0c035c741
+source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 2%
+source-wordcount: '1041'
+ht-degree: 3%
 
 ---
 
@@ -21,6 +21,61 @@ ht-degree: 2%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## 「分類」オプションを使用する場合の、接続されたレコードのバーのルックアンドフィールを定義するようにタイムライン表示設定を更新します
+
+>[!NOTE]
+>
+>* プレビュー：2025年5月15日（PT）
+>* 実稼動迅速リリース：2025 年 6 月 12 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
+分類のレコードに対して、タイムライン ビューのレコード バーの外観の書式を設定できるようになりました。 これらのレコードのバーについては、次の設定を更新できます。
+
+* バーのスタイル
+* 色
+
+この機能強化が行われるまで、メイン レコードのバーはタイムライン ビューに表示されるとおりに書式設定できますが、接続されたレコードのバーは書式設定できませんでした。\
+ 
+詳しくは、[ タイムライン表示の管理 ](/help/quicksilver/planning/views/manage-the-timeline-view.md) を参照してください。  
+
+## テーブル表示を CSV または Excel ファイルに書き出す 
+
+>[!NOTE]
+>
+>* プレビュー：2025年5月15日（PT）
+>* 実稼動迅速リリース：2025 年 6 月 12 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
+Workfront Planning に新しい機能が追加され、テーブル・ビューに表示されている情報を CSV または Excel ファイルにエクスポートできるようになりました。  
+
+テーブルビューから情報をエクスポートする場合は、以下の点に注意してください。  
+
+* 書き出される情報では、Workfront Planning のテーブルビューに適用されるフィルター、グループ化およびソートが考慮されます。
+* サムネールとカスタム行カラーは、書き出されたファイルではサポートされません。  
+* Workfront インターフェイスで表示されたフィールドのみが書き出されます。 非表示のフィールドは書き出されません。  
+
+詳しくは、「[ テーブル表示の管理 ](/help/quicksilver/planning/views/manage-the-table-view.md)」を参照してください。 
+
+## Workfront Planning の接続されたフィールドが、CSV または Excel ファイルを使用してレコードを読み込む際にサポートされるようになりました
+
+>[!NOTE]
+>
+>* プレビュー：2025年5月15日（PT）
+>* 実稼動迅速リリース：2025 年 6 月 12 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
+CSV または Excel ファイルを使用してレコードタイプにレコードを追加する際に、接続されたフィールドの値を入力できるようになりました。  接続されている Planning レコード・フィールドのみがサポートされます。 他のアプリケーションへの接続を表示するフィールドはサポートされていません。
+
+この変更は、CSV および Excel ファイルを読み込んで、レコードタイプと既存のレコードタイプのレコードの両方を作成する場合にサポートされます。
+
+この機能強化が行われるまで、レコードをインポートした際に接続フィールドを入力できませんでした。
+
+詳しくは、次の記事を参照してください。
+
+* [CSV または Excel ファイルから情報を読み込んでレコードを作成します ](/help/quicksilver/planning/records/import-file-to-create-records.md)。
+
+* [CSV または Excel ファイルから情報を読み込んで、レコードタイプを作成します ](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)。
 
 ## レコードの接続済みレコードページでのインライン編集
 

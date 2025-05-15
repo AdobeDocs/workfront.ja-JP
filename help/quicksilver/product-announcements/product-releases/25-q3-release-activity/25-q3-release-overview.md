@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 2629598989726e1beaf03092dcd1a4b93a23a9aa
+source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 34%
+source-wordcount: '800'
+ht-degree: 35%
 
 ---
 
@@ -41,6 +41,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront の機能強化
 
 * [ドキュメント管理の機能強化](#document-management-enhancements)
+* [ホームの機能強化](#home-enhancements)
 * [レポートの機能強化](#reporting-enhancements)
 * [更新と通知の機能強化](#update-and-notification-enhancements)
 * [その他の機能強化](#other-enhancements)
@@ -87,6 +88,33 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>     
   </tbody>
 </table>
+
+<!--
+
+### Home enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>Feature</strong>
+        </td>
+        <td><strong>Preview</strong></td>
+        <td><strong>Fast release</strong></td>
+        <td><strong>Quarterly</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
+            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+        </td>
+        <td>May 15, 2025</td>
+        <td>May 15, 2025</td>
+        <td>July 17, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+-->
 
 ### レポートの機能強化
 
@@ -183,7 +211,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
