@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '3060'
 ht-degree: 50%
@@ -276,7 +276,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 1. 左側のパネルで **バースタイル** をクリックし、レコードバーに表示する情報を指定します。
 
-   <span class="preview"> 標準ビューで「分類」オプションを使用すると、メインレコードおよび接続されたレコードのバースタイルを定義できます。</span>
+   標準ビューで「分類」オプションを使用すると、メインレコードのバーのスタイル <span class="preview"> および接続されたレコードのバーのスタイル </span> を定義できます。
 
    レコードのテーブルビューで定義されたレコードのプライマリフィールド（またはタイトル）は、デフォルトで選択されています。
    <!--adjust this when the primary field is released??-->
@@ -314,7 +314,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    ![ 「カラー」タブのタイムライン表示 ](assets/color-tab-timeline-view.png)
 
-   <span class="preview"> 標準ビューで「分類」オプションを使用すると、接続されたレコードだけでなく、メインレコードの色も定義できます。</span>
+   標準ビューで「分類」オプションを使用すると、メインレコードの色 <span class="preview"> および接続されたレコードの色 </span> を定義できます。
 
 1. （条件付きおよびオプション）タイムラインビューにグループ化を追加した場合、グループ化の色を設定するには、「**グループ化の色を設定**」セクションで次のオプションから選択します。
 

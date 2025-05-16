@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
 workflow-type: tm+mt
 source-wordcount: '1657'
 ht-degree: 21%
@@ -202,9 +202,9 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 
    レコードタイプページが開きます。
 
-1. 「表示」タブで、共有するビューにポインタを合わせ、ビュー名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、「**共有**」をクリックします。
+1. <span class="preview"> 「表示」タブで、共有するビューの上にマウスポインターを置き、ビュー名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、「**共有** をクリックしてください。</span>
 
-   ![ 共有オプションを使用して展開されたビューの詳細メニュー ](assets/more-menu-for-views-expanded-with-share-option.png)
+   <span class="preview">![ 共有オプションを使用して展開されたビューの詳細メニュー ](assets/more-menu-for-views-expanded-with-share-option.png)</span>
 
 1. **公開共有** をクリックします。
 
@@ -236,10 +236,8 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 1. （条件付き）ビューの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
    * アプリ内通知
-
      ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
    * メール通知
-
      ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
@@ -261,7 +259,7 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 {{step1-to-planning}}
 
 1. 共有を停止するビューのワークスペースを開き、レコードタイプのカードをクリックします。 レコードタイプページが開きます。
-1. 共有を削除するビューのタブ名にポインタを合わせ、[ その他 ]&#x200B;**メニュー**&#x200B;[ その他 ]![](assets/more-menu.png) をクリックしてから、[**共有**] をクリックします。
+1. 共有を削除するビューのタブ名にポインタを合わせ、[ その他 ]**メニュー**[ その他 ]![](assets/more-menu.png) をクリックしてから、[**共有**] をクリックします。
 1. ビューの内部共有を削除するには、次の操作を行います。
 
    1. 「**内部共有**」タブが選択されていることを確認します。
