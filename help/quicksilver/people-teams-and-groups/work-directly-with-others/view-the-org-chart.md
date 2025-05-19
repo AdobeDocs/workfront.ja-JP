@@ -6,7 +6,7 @@ description: 組織図機能を使用すると、特定の Adobe Workfront ユ�
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
-source-git-commit: dfd5c7423b65e6065ab9c2094578443b81189abd
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 89%
@@ -49,5 +49,5 @@ ht-degree: 89%
 
 {{step1-click-profile-pic}}
 
-1. 左側のパネルで、「**[!UICONTROL 組織図]**」をクリックします。\
-   ![組織図](assets/org-chart.png)
+1. 左側のパネルで、「**[!UICONTROL 組織図]**」をクリックします。
+   ![組織図](assets/org-chart-2025.png)

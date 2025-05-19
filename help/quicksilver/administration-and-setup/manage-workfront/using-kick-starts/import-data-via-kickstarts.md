@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
+source-git-commit: 4c80802c8e0084aa9e7be350caefc8929c9c4e2b
 workflow-type: tm+mt
-source-wordcount: '2776'
-ht-degree: 97%
+source-wordcount: '2785'
+ht-degree: 96%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 97%
     </thead> 
     <tbody> 
      <tr> 
-      <td scope="col"> <p>ダッシュボード</p> <p>システム内のすべてのダッシュボードを書き出すことができます。1 回の書き出しで最大 100 個の特定のダッシュボードを選択できます。</p> </td> 
+      <td scope="col"> <p>ダッシュボード</p> <p>システム内の公開されている共有ダッシュボードはすべてエクスポートできます。 システム全体で共有されていないダッシュボードは書き出せません。 1 回の書き出しで最大 100 個の特定のダッシュボードを選択できます。</p> </td> 
       <td scope="col">ZIP ファイルとして書き出し</td> 
       <td scope="col"> <p>パラメーター</p> <p>説明テキスト</p><p>パラメーターオプション</p> <p>パラメーターグループ</p> <p>カテゴリパラメーター</p> <p>カテゴリ</p> <p>レポート</p> <p>ポータルのタブセクション</p> <p>ダッシュボード</p> <p>環境設定</p> </td> 
      </tr> 

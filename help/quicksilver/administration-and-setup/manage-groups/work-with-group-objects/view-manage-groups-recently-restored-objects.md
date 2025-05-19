@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
 title: グループの最近復元されたアイテムを表示および管理します
-description: グループエリアで管理するグループを表示している場合、最近復元された作業アイテム、ドキュメントおよびテンプレートを表示、フィルタリング、グループ化および復元できます。
+description: 管理するグループを「グループ」領域で表示すると、最近復元した作業項目、ドキュメントおよびテンプレートを表示、フィルタリング、グループ化および復元できます。
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: 96b9939131beebd9c1968cb5c287d75295c68c5b
+source-git-commit: 379772f6bd1ed9448e6fd5feee956a931f65f69e
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 87%
+source-wordcount: '333'
+ht-degree: 68%
 
 ---
 
@@ -79,19 +79,8 @@ ht-degree: 87%
 
    各タブには、現在のグループまたはそのサブグループに属し、過去 30 日以内に復元された、対応するオブジェクトタイプの項目が一覧表示されます。
 
-1. 次のいずれかのアクションを実行します。
+1. （オプション）タブ上のオブジェクトのリスト全体をエクスポートするには、**エクスポート** アイコンをクリックします。 ![ エクスポートアイコン ](assets/export-icon.png)。
+1. （オプション）フィルター、ビュー、グループ化を使用して、リスト内の情報の表示を変更します。
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"> <p>タブのオブジェクトのリスト全体を書き出し</p> </td> 
-      <td> <p>「<strong>書き出し</strong>」をクリックします。</p> </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader"> <p>リスト内の情報の表示を変更</p> </td> 
-      <td> <p>リストの上の右上隅にある<strong>フィルター</strong>を使用して、指定した条件に基づいて表示する内容を定義します。<strong>ビュー</strong>を使用して、列として表示するフィールドを定義します。<strong>グループ化</strong>を使用して、項目をカテゴリにグループ化します。</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   詳しくは、[ レポート要素の概要 ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md) を参照してください。
+
