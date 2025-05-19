@@ -23,7 +23,7 @@ ht-degree: 56%
 Edit the first part, once they add more settings in the Res Management Preferences - right now, only the FTE calculation is the
 -->
 
-[!DNL Adobe Workfront] 管理者は、ご利用のシステムで [!UICONTROL  リソース管理 ] 環境設定を指定できます。 これらの環境設定は、ユーザーの時間数、FTE 使用可能時間またはキャパシティが [!DNL Workfront] リソーススケジュールおよび計画ツールでどのように計算されるかを決定します。
+[!DNL Adobe Workfront] 管理者は、ご利用のシステムで [!UICONTROL &#x200B; リソース管理 &#x200B;] 環境設定を指定できます。 これらの環境設定は、ユーザーの時間数、FTE 使用可能時間またはキャパシティが [!DNL Workfront] リソーススケジュールおよび計画ツールでどのように計算されるかを決定します。
 
 ## アクセス要件
 
@@ -65,7 +65,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 * スケジュールの例外（使用されるスケジュールに応じて、ユーザーのスケジュールの例外またはWorkfrontのデフォルトスケジュールに関連付けられた例外が発生する可能性があります）。
 * ユーザーの休暇。
 * ユーザーまたは [!DNL Workfront] システムのフルタイム当量（[!UICONTROL FTE]）の値。ユーザーがスケジュールで定義されているとおりにフルタイムで作業する場合、[!UICONTROL FTE] は 1 に等しくなります。
-* ユーザーの [!UICONTROL  作業時間 ] の値。ユーザーがプロジェクト関連の作業に費やす時間を指します。 会議やトレーニングなどのオーバーヘッド時間は含まれません。[!UICONTROL 作業時間]が 1 と等しくなるのは、[!UICONTROL FTE] またはスケジュールに示される全時間にわたってユーザーが作業可能な場合で、会議やトレーニングなど、プロジェクトに関係しない作業に時間を費やさないことを意味します。
+* ユーザーの [!UICONTROL &#x200B; 作業時間 &#x200B;] の値。ユーザーがプロジェクト関連の作業に費やす時間を指します。 会議やトレーニングなどのオーバーヘッド時間は含まれません。[!UICONTROL 作業時間]が 1 と等しくなるのは、[!UICONTROL FTE] またはスケジュールに示される全時間にわたってユーザーが作業可能な場合で、会議やトレーニングなど、プロジェクトに関係しない作業に時間を費やさないことを意味します。
 
 
 [!DNL Workfront] でのリソースの計画とスケジュールについては、[リソース管理の基本を学ぶ](../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
@@ -94,7 +94,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
      >[!INFO]
      >
-     >例えば、デフォルトスケジュールが週 40 時間で、ユーザーのプロファイルの FTE が 0.5 で、ユーザーのプロファイルの休暇は 1 時間で、ユーザーのプロファイルの [!UICONTROL  作業時間 ] は 0.5 で、ユーザーは週に 9.5 時間、実際のプロジェクトの作業に使用できます。
+     >例えば、デフォルトスケジュールが週 40 時間で、ユーザーのプロファイルの FTE が 0.5 で、ユーザーのプロファイルの休暇は 1 時間で、ユーザーのプロファイルの [!UICONTROL &#x200B; 作業時間 &#x200B;] は 0.5 で、ユーザーは週に 9.5 時間、実際のプロジェクトの作業に使用できます。
      >
      >ユーザーに 1 日に 1 時間の休暇がある場合、利用可能時間数は次のように計算されます。
      >
@@ -154,7 +154,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
      >[!INFO]
      >
-     >例えば、[!UICONTROL  デフォルトのスケジュール ] が週 40 時間の場合、ユーザーのスケジュールは週 30 時間、ユーザーの [!UICONTROL  作業時間 ] は 0.5、[!UICONTROL FTE] は 0.35 です。
+     >例えば、[!UICONTROL &#x200B; デフォルトのスケジュール &#x200B;] が週 40 時間の場合、ユーザーのスケジュールは週 30 時間、ユーザーの [!UICONTROL &#x200B; 作業時間 &#x200B;] は 0.5、[!UICONTROL FTE] は 0.35 です。
      >
      >ユーザーが 1 日に 2 時間の休暇を取っている場合、そのユーザーの週間利用可能 [!UICONTROL FTE] は次のように計算されます。
      >
