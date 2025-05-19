@@ -1,21 +1,23 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: APIModel INTERNAL がフィールド projectid (OpTask) をサポートしない場合のカテゴリ
-description: APIModel INTERNAL がフィールド projectid (OpTask) をサポートしない場合
+title: カテゴリ
+description: Category オブジェクトに使用可能なフィールドの一覧です。フィールドの説明と値の種類も表示されます。
 author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 24c900ee-a8f1-458e-a18b-c098c6314e0c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '281'
+ht-degree: 90%
 
 ---
 
 
 # カテゴリ
+
+<!-- Audited: 5/2025 -->
 
 Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
 message: &quot;APIModel INTERNAL does not support field projectid (OpTask)&quot;
@@ -90,7 +92,7 @@ message: &quot;APIModel INTERNAL does not support field projectid (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">外部参照 ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">文字列</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">外部オブジェクトへのリンクに使用するためのユーザー編集可能フィールド</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">外部オブジェクトへのリンクとして使用するためのユーザー編集可能フィールド</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">編集可能</span> </p> </td> 
   </tr> 
@@ -139,23 +141,23 @@ message: &quot;APIModel INTERNAL does not support field projectid (OpTask)&quot;
 
 ## 参照
 
-| 名前 | ラベル | タイプ | オブジェクトコードのタイプ | URL |
-|---|---|---|---|---|
-| 顧客 | customer | 顧客 | CUST | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
-| 入力者 | enteredBy | ユーザー | ユーザー | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
-| グループ | グループ | グループ | グループ | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
-| 最終更新者 | lastUpdatedBy | ユーザー | ユーザー | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
+| 名前 | ラベル | タイプ | オブジェクトコードのタイプ |
+|---|---|---|---|
+| 顧客 | customer | 顧客 | CUST |
+| 入力者 | enteredBy | ユーザー | ユーザー |
+| グループ | グループ | グループ | グループ |
+| 最終更新者 | lastUpdatedBy | ユーザー | ユーザー |
 
 
 ## コレクション
 
-| 名前 | ラベル | タイプ | オブジェクトコードのタイプ | URL |
-|---|---|---|---|---|
-| アクセスルール | accessRules | アクセスルール | ACSRUL | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
-| カテゴリアクセスルール | categoryAccessRules | カテゴリアクセスルール | CATACR | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
-| カテゴリカスケードルール | categoryCascadeRules | カテゴリカスケードルール | CTCSRL | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
-| カテゴリパラメーター | categoryParameters | カテゴリパラメーター | CTGYPA | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
-| その他のグループ | otherGroups | グループ | グループ | [https://support.workfront.com/hc/ja-jp/articles/226425467](https://support.workfront.com/hc/ja-jp/articles/226425467) |
+| 名前 | ラベル | タイプ | オブジェクトコードのタイプ |
+|---|---|---|---|
+| アクセスルール | accessRules | アクセスルール | ACSRUL |
+| カテゴリアクセスルール | categoryAccessRules | カテゴリアクセスルール | CATACR |
+| カテゴリカスケードルール | categoryCascadeRules | カテゴリカスケードルール | CTCSRL |
+| カテゴリパラメーター | categoryParameters | カテゴリパラメーター | CTGYPA |
+| その他のグループ | otherGroups | グループ | グループ |
 
 
 ## アクション
