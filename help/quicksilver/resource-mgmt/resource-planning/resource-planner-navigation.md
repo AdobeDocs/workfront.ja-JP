@@ -7,7 +7,7 @@ description: Adobe Workfront リソースプランナーを使用すると、リ
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
 source-wordcount: '2424'
 ht-degree: 51%
@@ -248,8 +248,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 * セカンダリ担当業務は、以下のシナリオでは次のように行います。
 
    * セカンダリ担当業務のユーザープロファイルに、FTE 可用性の割合に対する有効な数値がある場合。
-   * ユーザーがそれらの役割のタスクに割り当てられている場合。
-
+   * これらの役割のタスクにユーザーが割り当てられているかどうか。
 担当業務の FTE 可用性の割合について詳しくは、[ ユーザープロファイルの編集 ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
 
 ## 「役割なし」および「ユーザーなし」セクション

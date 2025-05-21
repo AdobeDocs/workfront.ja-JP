@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: f2ae543071fa77725037d9b4834651cd05b05b72
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '13209'
+source-wordcount: '13210'
 ht-degree: 87%
 
 ---
@@ -2503,7 +2503,7 @@ ht-degree: 87%
       * [イベント登録用のアウトバウンドメッセージ形式](wf-api/api/message-format-event-subs.md)
       * [FAQ - イベント登録](wf-api/general/event-subs-faq.md)
    * ドキュメント Webhooks API {#document-webhooks-api}
-      * [Document Webhooks API の記事](wf-api/doc-wbhks-api/document-webhooks-api.md)
+      * [Document Webhook API：記事インデックス](wf-api/doc-wbhks-api/document-webhooks-api.md)
       * [Web フックの概要](wf-api/doc-wbhks-api/webhooks-overview.md)
       * [Web フック統合の登録](wf-api/doc-wbhks-api/register-webhook-integration.md)
       * [ドキュメント web フックの認証](wf-api/doc-wbhks-api/auth-for-docu-webhook.md)
@@ -2515,7 +2515,7 @@ ht-degree: 87%
       * [ドキュメントのサムネールの取得](wf-api/doc-wbhks-api/get-thmbnl-doc.md)
       * [ドキュメント Web フックを介したファイルのアップロード](wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
       * [ドキュメントの Web フックを含むフォルダーを作成](wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-      * [ドキュメントまたはフォルダーの名前を変更（まだ実装されていません）](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+      * [ドキュメントまたはフォルダーの削除（まだ実装されていません）](wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
       * [サービスに関する情報の取得（まだ実装されていません）](wf-api/doc-wbhks-api/get-service-info-webhook.md)
       * [ドキュメントまたはフォルダーの名前の変更（まだ実装されていません）](wf-api/doc-wbhks-api/rename-docu-or-folder.md)
       * [カスタムアクションの実行（まだ実装されていません）](wf-api/doc-wbhks-api/perform-custom-action.md)

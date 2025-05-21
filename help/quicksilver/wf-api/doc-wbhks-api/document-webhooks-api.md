@@ -3,21 +3,23 @@ filename: document-webhooks-api
 content-type: api
 product-area: documents
 navigation-topic: workfront-api
-title: ドキュメント web フック API の概要
+title: Document Webhook API：記事インデックス
 description: ドキュメント web フック API のトピック
 author: Becky
 feature: Workfront API
 role: Developer
 recommendations: noDisplay, noCatalog
 exl-id: e946c988-6a97-4ef1-a381-4b3bd10ced99
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '113'
+ht-degree: 84%
 
 ---
 
-# ドキュメント web フック API の概要
+# Document Webhook API：記事インデックス
+
+<!-- Audited: 5/2025 -->
 
 この節では、次の記事を扱います。
 
@@ -32,7 +34,7 @@ ht-degree: 100%
 * [ドキュメントのサムネイルを取得](../../wf-api/doc-wbhks-api/get-thmbnl-doc.md)
 * [ドキュメント web フックを介してファイルをアップロード](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
 * [ドキュメント web フックを含むフォルダーを作成](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-* [ドキュメントまたはフォルダーを削除（まだ実装されていません）](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+* [ ドキュメントまたはフォルダーの削除（まだ実装されていません） ](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
 * [サービスに関する情報を取得（まだ実装されていません）](../../wf-api/doc-wbhks-api/get-service-info-webhook.md)
 * [ドキュメントまたはフォルダーの名前を変更（まだ実装されていません）](../../wf-api/doc-wbhks-api/rename-docu-or-folder.md)
 * [カスタムアクションを実行（まだ実装されていません）](../../wf-api/doc-wbhks-api/perform-custom-action.md)
