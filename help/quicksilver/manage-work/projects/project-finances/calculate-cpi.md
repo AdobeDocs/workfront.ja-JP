@@ -7,14 +7,16 @@ description: コスト効率指数（CPI）は、予定コストと実際のコ�
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 97%
+source-wordcount: '606'
+ht-degree: 90%
 
 ---
 
 # コスト効率指数（CPI）の計算
+
+<!-- Audited: 5/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
@@ -62,9 +64,6 @@ CPI を使用できるのは、時間入力が必要な組織のみです。さ�
 
 ## コスト効率指数（CPI）の概要
 
-* [CPI 値](#the-cpi-value)
-* [CPI の計算方法](#how-cpi-is-calculated)
-
 ### CPI 値 {#the-cpi-value}
 
 プロジェクトマネージャーは、CPI 値が 1 の場合は、プロジェクトが予算通りであることを意味します。1 より大きい値は、プロジェクトが予算を下回っている（当初の予定よりも少ない時間または費用が記録されている）ことを示し、1 未満の値は、プロジェクトが予算を超えている（当初の予定より多い時間または費用が記録されている）ことを示します。1 からの偏差が大きいほど、プランからの偏差が大きくなります。
@@ -107,7 +106,7 @@ CPI = 1
 BCWP（作業実行の予算）合計 = すべての直接の子タスクで実行された「BCWP」フィールドの合計です。
 
 * **プロジェクトの場合：**
-BCWP（作業実行の予算）合計 = すべての最上位タスク（親タスクおよびスタンドアロンタスク）の「BCWP」フィールドの合計。
+合計予算コスト作業実行済=すべての最上位タスク（親およびスタンドアロン・タスク）の合計予算コスト作業実行済フィールドの合計。
 
 作業実行の予算（BCWP）合計について詳しくは、[作業実行の予算（BCWP）合計の計算](../../../manage-work/projects/project-finances/calculate-bcwp.md)を参照してください。
 
@@ -184,20 +183,18 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
 * **プロジェクトの場合：**
 
   ```
-  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top level tasks)
+  Total Budgeted Cost Work Performed = SUM(Total Budgeted Cost Work Performed field for all top-level tasks)
   ```
 
 
 
 ## プロジェクトまたはタスクで CPI を見つける
 
-プロジェクトの CPI、プロジェクト内のタスク、タスクリストまたはレポートのタスクを表示できます。また、プロジェクトレベルまたはタスクレベルで表示できます。
+プロジェクトまたはタスクの CPI は、プロジェクト、タスクリストまたはレポートに表示できます。 また、プロジェクトレベルまたはタスクレベルで表示できます。
 
 1. CPI を表示するプロジェクトまたはタスクに移動します。
 1. プロジェクトまたはタスクの CPI を表示しているかどうかに応じて、左側のパネルで&#x200B;**プロジェクトの詳細**&#x200B;または&#x200B;**タスクの詳細**&#x200B;を展開します。
 
-1. 「**財務**」をクリックします。
-
-   CPI は「**CPI／SPI／CSI**」フィールドを表示します。
+1. **財務** をクリックします。 CPI は「**CPI／SPI／CSI**」フィールドを表示します。
 
    ![ プロジェクトの CPI](assets/cpi-on-project-nwe.png)

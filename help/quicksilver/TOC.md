@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 48de4553478fc42d88d81ea953440337f6684e50
+source-git-commit: 65ff6054842312a79fd0b254d2c68af0e367ec97
 workflow-type: tm+mt
-source-wordcount: '13210'
-ht-degree: 87%
+source-wordcount: '13214'
+ht-degree: 86%
 
 ---
 
@@ -2146,7 +2146,7 @@ ht-degree: 87%
       * Illustrator および InDesign 向け Workfront 拡張機能 {#workfront-for-illustrator-indesign}
          * [Illustrator および InDesign 向け Workfront 拡張機能の使用](documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md)
    * Jira 用 Adobe Workfront {#workfront-for-jira}
-      * [Jira 用 Adobe Workfront](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
+      * [Jira のAdobe Workfront：記事インデックス](workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md)
       * [Jira 用 Adobe Workfront をインストール](workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md)
       * [Jira 用 Adobe Workfront を設定](workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)
       * [Adobe Workfront と Jira の間で項目をリンク](workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md)
@@ -2169,7 +2169,7 @@ ht-degree: 87%
       * [メールコンテンツを使用したGoogle WorkspaceでのAdobe Workfrontのイシューの作成](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
       * [G Suite からメールコンテンツを使用した Adobe Workfront 項目の更新](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
    * Outlook 用 Adobe Workfront {#workfront-for-outlook}
-      * [Outlook 用 Adobe Workfront](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
+      * [Outlook 用Adobe Workfront：記事インデックス](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
       * [Outlook 用 Adobe Workfront の設定](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
       * [Outlook 用 Workfront の権限レベル](workfront-integrations-and-apps/using-workfront-with-outlook/permissions-in-workfront-for-outlook.md)
       * [Outlook からのコメントに返信](workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md)

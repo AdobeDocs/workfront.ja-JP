@@ -2,20 +2,22 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Jira 用 Adobe Workfront
+title: Jira のAdobe Workfront：記事インデックス
 description: Adobe Workfront Fusion は、Jira との統合を提供します。この記事では、この統合のインストールと設定の手順、および日常業務での使用方法について説明します。
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 924f3c9b-394d-4637-b981-9062c1fdd5aa
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '60'
-ht-degree: 100%
+source-wordcount: '64'
+ht-degree: 81%
 
 ---
 
-# Jira 用 Adobe Workfront
+# Jira のAdobe Workfront：記事インデックス
+
+<!-- Audited: 5/2025 -->
 
 この節では、次の記事を扱います。
 

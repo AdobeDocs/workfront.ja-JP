@@ -6,10 +6,10 @@ description: Adobe Workfront で作成または共有したカレンダーレポ
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: 83b425998de978fef4998f407960a2489e1320b4
+source-git-commit: a411c1ddf0c6d19dc7f6e181cceeebba5504530c
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 74%
+source-wordcount: '592'
+ht-degree: 72%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>[!UICONTROL ビュー &#x200B;] 以上の [!UICONTROL レポート &#x200B;]、[!UICONTROL ダッシュボード &#x200B;]、および [!UICONTROL カレンダー &#x200B;] へのアクセス</p></td> 
+   <td> <p>[!UICONTROL ビュー ] 以上の [!UICONTROL レポート ]、[!UICONTROL ダッシュボード ]、および [!UICONTROL カレンダー ] へのアクセス</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -74,7 +74,7 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
 
      カレンダーの共有については、[[!UICONTROL カレンダーの共有]レポート](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)を参照してください。
 
-1. （条件付き）**[!UICONTROL 表示]**&#x200B;ドロップダウンリストをクリックして、表示するカレンダー期間を選択します。
+1. （条件付き）**[!UICONTROL 表示]**ドロップダウンリストをクリックして、表示するカレンダー期間を選択します。
    ![ カレンダー期間 ](assets/view-menu-calendar-report-350x189.png)
 次のカレンダーレポートビューから選択できます。
 
@@ -82,35 +82,30 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
    * **[!UICONTROL 週]**：1 週間のカレンダーを表示します
    * **[!UICONTROL ガント]**：カレンダーの連続したビューを表示します
 
-     下または横にスクロールすると、[!UICONTROL &#x200B; ガント &#x200B;] ビューでより多くのイベントを表示できます。 ビューのデータが入力されると、読み込み記号が表示されます。
+     下または横にスクロールすると、**ガント** ビューでより多くのイベントを表示できます。 ビューのデータが入力されると、読み込み記号が表示されます。
 
    >[!NOTE]
    >
-   >[!UICONTROL 月]のビューおよび[!UICONTROL 週]のビューでは、現在または将来のイベント（今日の日付または将来の日付を含められた複数日にわたるイベントを含む）には、プロジェクトまたはカレンダーグループの色に対応する網掛けが適用されます。過去のイベントの淡色の網掛けで表示され、現在のイベントではないことを示しますが、これらのイベントを選択して表示することはできます。
+   >**月**&#x200B;のビューおよび&#x200B;**週**&#x200B;のビューでは、現在または将来のイベント（今日の日付または将来の日付を含められた複数日にわたるイベントを含む）には、プロジェクトまたはカレンダーグループの色に対応する網掛けが適用されます。過去のイベントの淡色の網掛けで表示され、現在のイベントではないことを示しますが、これらのイベントを選択して表示することはできます。
 
-1. （オプション）カレンダーを[!UICONTROL 月]のビューまたは[!UICONTROL 週]のビューで表示する場合、次のオプションを使用してカレンダー表示を変更できます。
+1. （オプション）カレンダーを&#x200B;**月**&#x200B;のビューまたは&#x200B;**週**&#x200B;のビューで表示する場合、次のオプションを使用してカレンダー表示を変更できます。
 
-<!--   * To include or exclude weekends:
-
+   <!--   * To include or exclude weekends:
       1. On the **[!UICONTROL Calendar]** toolbar, click **[!UICONTROL Calendar Actions]**, then from the drop-down list select either **[!UICONTROL Show Weekend]** or **[!UICONTROL Hide Weekend]**.-->
 
-* 表示される日付をすばやく変更するには、次の手順に従います。
+   * 表示される日付をすばやく変更するには、次の手順に従います。
 
-   1. **[!UICONTROL カレンダー]** ツールバーで、日付インジケーターの左矢印をクリックしてカレンダー内に戻るか、右矢印をクリックして前方に移動します。
+      1. **[!UICONTROL カレンダー]** ツールバーで、日付インジケーターの左矢印をクリックしてカレンダー内に戻るか、右矢印をクリックして前方に移動します。
 
-      ![矢印をクリックして日付を変更](assets/click-arrows-to-change-dates-calendar-report.png)\
-      表示される日付は、現在のカレンダービューに基づく間隔で調整されます。例えば、[!UICONTROL 週]のビューでカレンダーを表示している場合、選択した矢印に応じて、1 週間後に進むかまたは 1 週間前に戻った表示になります。
+         ![矢印をクリックして日付を変更](assets/click-arrows-to-change-dates-calendar-report.png)
 
-   1. （任意）現在の日付に戻るには、[[!UICONTROL **今日**]] をクリックします。
+         表示される日付は、現在のカレンダービューに基づく間隔で調整されます。例えば、**週**&#x200B;のビューでカレンダーを表示している場合、選択した矢印に応じて、1 週間後に進むかまたは 1 週間前に戻った表示になります。
 
-
-1. （オプション）カレンダーをフルスクリーンで表示するには、**[!UICONTROL カレンダー]**&#x200B;ツールバーの右側にあるフルスクリーン矢印をクリックします。
-   ![矢印をクリックして日付を変更](assets/click-arrows-to-change-dates-calendar-report.png)\
-   Esc を押すと、カレンダーの通常の表示に戻ります。
+      1. （任意）現在の日付に戻るには、[[!UICONTROL **今日**]] をクリックします。
 
 1. （オプション）カレンダーにリンクされたプロジェクトまたはカレンダーのグループ化のイベントを非表示にするには、プロジェクトリストのプロジェクトまたはカレンダーのグループ化をオフにします。
    ![ イベントを非表示 ](assets/hide-events-for-project-or-cal-grouping.png)
-プロジェクトリストで [!UICONTROL &#x200B; プロジェクト &#x200B;] またはカレンダーのグループ化を選択すると、イベントを再び表示できます。
+プロジェクトリストで [!UICONTROL  プロジェクト ] またはカレンダーのグループ化を選択すると、イベントを再び表示できます。
 
 ## カレンダーレポートイベントの詳細を表示
 
