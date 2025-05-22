@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 71%
+source-wordcount: '686'
+ht-degree: 66%
 
 ---
 
@@ -47,7 +47,9 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
-   <td>任意</td> 
+   <td><p>任意</p>
+
+<p>メインメニューへのカスタムアプリケーションの追加は、Adobe App Builderでライセンスを取得している組織のみが使用できます。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
@@ -120,6 +122,12 @@ Adobe Workfront の管理者またはグループ管理者は、レイアウト�
      >[!NOTE]
      >
      >計画には追加ライセンスが必要です。 Workfront計画について詳しくは、[Adobe Workfront計画の概要を参照してください ](/help/quicksilver/planning/general/planning-overview.md)
+      * カスタムアプリケーション
+
+     >[!NOTE]
+     >
+     > カスタムアプリケーションは、メインメニューオプションとして使用する前に、個別に作成する必要があります。 詳しくは、[Adobe App Builderを使用したWorkfrontのカスタムアプリケーションの作成 ](/help/quicksilver/app-builder/app-builder.md) を参照してください。
+
 
 1. 次のいずれかの操作を行います。
 
