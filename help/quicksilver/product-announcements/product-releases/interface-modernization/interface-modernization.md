@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e94d7f40accd80d631765405752a03bf3a0363f1
+source-git-commit: 3c1961f649298eda4e76830ca39c23fc4dadb407
 workflow-type: tm+mt
-source-wordcount: '3691'
-ht-degree: 1%
+source-wordcount: '3938'
+ht-degree: 2%
 
 ---
 
@@ -24,6 +24,14 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 
 ## 管理と設定
+
+### 「新規」および「スコアカードをコピー」ボックスの新しいルックアンドフィール
+
+**プレビューリリース：2025 年 5 月 22 日（PT）、実稼動リリース：2025 年 5 月 29 日（PT）**
+
+「新規」および「スコアカードをコピー」ボックスのルックアンドフィールを、アプリケーションの他の領域のデザインと一致するように更新しました。 Workfrontの設定エリアでスコアカードを作成またはコピーする際に、更新されたデザインを確認できます。
+
+詳しくは、[ スコアカードの作成 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) を参照してください。
 
 ### グループの最近復元された項目に対するインターフェイスの更新
 
@@ -81,6 +89,41 @@ Workfrontの他のエリアのデザインに合わせて、最近復元され�
 **プレビューリリース：4 月 24 日（PT）、実稼動リリース：2024 年 5 月 1 日（PT）の週から**
 
 Workfront アカウントへのサポートアクセス権を付与するために使用するページを更新しました。これにより、Workfrontの他の領域と一致する、より現代的なデザインに仕上がりました。
+
+## プロジェクト
+
+## プロジェクトまたはテンプレートの [ 新しい危険 ] ボックスおよび [ 危険の編集 ] ボックスに対する更新を表示および確認します
+
+**プレビューリリース：2025 年 5 月 22 日（PT）、実稼動リリース：2025 年 5 月 29 日（PT）**
+
+[ リスク ] セクションでリスクを追加したり、プロジェクトまたはテンプレートで編集したりする際の、新しいリスク ボックスおよびリスクの編集ボックスの外観と操作性を更新しました。 ボックスのデザインが、Workfrontの他の領域と一致するようになりました。
+
+詳しくは、[ プロジェクトでのリスクの作成と編集 ](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create-and-edit-risks-on-projects) を参照してください。
+
+### 「テンプレートをコピー」ボックスのルックアンドフィールの変更
+
+**プレビューリリース：2025 年 5 月 22 日（PT）、実稼動リリース：2025 年 5 月 22 日（PT）**
+
+Workfrontの他の領域のデザインと一致するように、「テンプレートをコピー」ボックスのルックアンドフィールを更新しました。
+
+詳しくは、[ プロジェクトテンプレートのコピー ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md) を参照してください。
+
+### プログラムやポートフォリオにオブジェクトを追加するときに更新されたルックアンドフィール
+
+**プレビューリリース：2025 年 5 月 22 日（PT）、実稼動リリース：2025 年 5 月 29 日（PT）**
+
+以下を行う際の、「追加」ボックスのインターフェイスを更新しました。
+
+* プログラムへのプロジェクトの追加
+* ポートフォリオへのプロジェクトの追加
+* ポートフォリオへのプログラムの追加
+
+詳しくは、次の記事を参照してください。
+
+* [ポートフォリオに既存プログラムの追加](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [ポートフォリオへのプロジェクトの追加](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [プログラムにプロジェクトを追加](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
 
 ## レポートとダッシュボード
 
@@ -151,7 +194,15 @@ Workfrontの他の領域と一貫した、より現代的なデザインでロ�
 
 +++展開して、第 2 四半期に行われた管理およびセットアップ インターフェイスの更新を表示する
 
-### 設定のリソース管理エリアに対するインターフェイスのアップデート
+### 最近復元された項目に対するインターフェイスの更新
+
+**プレビューリリース：2025 年 4 月 23 日（PT）、実稼動リリース：2025 年 4 月 23 日（PT）**
+
+設定エリアで最近復元された項目のルックアンドフィールを、Workfrontの他のエリアのデザインと一致するように更新しました。 最近復元されたプロジェクト、タスク、リクエスト、ドキュメント、テンプレートの機能は変更されていません。
+
+この変更を表示するには、設定/ごみ箱/最近復元された項目に移動します。
+
+詳しくは、[ 復元された項目の表示 ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md) を参照してください。###設定のリソース管理エリアのインターフェイスの更新
 
 **プレビューリリース：2025 年 4 月 17 日（PT）、2025 年 4 月 17 日（PT）の週から**
 
@@ -159,7 +210,7 @@ Workfrontの他の領域と一貫した、より現代的なデザインでロ�
 
 詳しくは、[ リソース管理環境設定の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) を参照してください。
 
-## 「設定」のマイルストーンパスリストに対するインターフェイスの更新
+### 「設定」のマイルストーンパスリストに対するインターフェイスの更新
 
 **プレビューリリース：2025 年 3 月 6 日（PT）、2025 年 4 月 10 日の週から**
 
@@ -167,7 +218,7 @@ Workfrontの他の領域と一貫した、より現代的なデザインでロ�
 
 詳しくは、[ マイルストーンパスの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
 
-## 設定の危険タイプの編集ボックスのインターフェイス更新
+### 設定の危険タイプの編集ボックスのインターフェイス更新
 
 **プレビューリリース：2025 年 3 月 27 日（PT）、2025 年 4 月 10 日の週から**
 
@@ -483,16 +534,6 @@ Workfrontの他の領域のデザインと一致するように、複数のレ�
 
 詳しくは、[ カスタムレポートの作成 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) を参照してください。
 
-### 最近復元された項目に対するインターフェイスの更新
-
-**プレビューリリース：2025 年 4 月 23 日（PT）、実稼動リリース：2025 年 4 月 23 日（PT）**
-
-設定エリアで最近復元された項目のルックアンドフィールを、Workfrontの他のエリアのデザインと一致するように更新しました。 最近復元されたプロジェクト、タスク、リクエスト、ドキュメント、テンプレートの機能は変更されていません。
-
-この変更を表示するには、設定/ごみ箱/最近復元された項目に移動します。
-
-詳しくは、[ 復元された項目の表示 ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md) を参照してください。
-
 ### 会社レポートの「会社を削除」ボックスに対するインターフェイスの更新
 
 **プレビューリリース：2025 年 4 月 17 日（PT）、実稼動リリース：2025 年 4 月 17 日（PT）**
@@ -620,3 +661,8 @@ Workfrontの他の領域と一致する、より現代的なデザインでア�
 * 削除アクションを赤で表示してハイライト表示。
 
 詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
+
+
+
+
+

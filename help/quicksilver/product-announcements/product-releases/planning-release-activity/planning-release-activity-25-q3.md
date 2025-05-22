@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a39ba047fc4c1e422f3bea8bd9266b9197219900
+source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1165'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,23 @@ ht-degree: 3%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## タイムラインビューでコンパクトモードでレコードを分類する際の新しいエクスペリエンス
+
+>[!NOTE]
+>
+>* プレビュー：2025年5月22日（PT）
+>* 実稼動迅速リリース：2025 年 6 月 12 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
+タイムラインビューでレコードを分類する際のエクスペリエンスを変更し、コンパクトビューを適用しました。
+新しいアップデートでは、コンパクトモードでタイムラインを表示しているときに分類オブジェクトを定義すると、分類条件の設定が完了したら、ビューを標準に切り替えるよう求められます。
+
+この機能強化が行われるまで、タイムラインビューをコンパクトモードで表示する場合に分類条件を定義することはできませんでした。
+
+このアップグレードでは、「標準」オプションがデフォルトの選択肢となります。 それ以前は、コンパクトモードがデフォルトでした。
+
+詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
 
 ## 「分類」オプションを使用する場合の、接続されたレコードのバーのルックアンドフィールを定義するようにタイムライン表示設定を更新します
 
