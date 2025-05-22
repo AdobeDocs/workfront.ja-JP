@@ -6,10 +6,10 @@ description: プロジェクトテンプレートをゼロから作成する以�
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: 0d968a3f398c2e7dc4154cd5a16acf35ca7c86f5
+source-git-commit: 1926500c76e4f9cfdac829f8d9f0cdfa6231e31d
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 42%
+source-wordcount: '329'
+ht-degree: 41%
 
 ---
 
@@ -74,7 +74,6 @@ ht-degree: 42%
 
 ## テンプレートをコピーする
 
-
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. コピーするテンプレートに移動します。
@@ -82,11 +81,11 @@ ht-degree: 42%
 
    「**テンプレートをコピー**」ボックスが開きます。
 
-   <!--![Copy template box](assets/copy-template-box.png)-->
+   ![ 「テンプレートをコピー」ボックス ](assets/copy-template-box.png)
 
 1. 「**新しいテンプレート名**」フィールドにテンプレートの名前を指定します。
 
-   デフォルトでは、新しい名前は `Copy of Original template name` です。
+   デフォルトでは、Workfrontは新しい名前を `Copy of Original template name` というフォーマットで設定します。
 
 1. 元のテンプレートから新しいテンプレートにすべてのタスクとテンプレートの割り当てを保持する場合は、「**タスクとテンプレートのユーザー割り当てを保持**」オプションを選択します。 テンプレートのタスクの割り当ておよびテンプレートの所有者とスポンサーは、コピーされたテンプレートに転送されます。
 1. 「**保存**」をクリックしてテンプレートのコピーを作成します。

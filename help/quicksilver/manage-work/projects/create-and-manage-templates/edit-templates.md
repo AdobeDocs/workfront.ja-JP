@@ -6,9 +6,9 @@ description: プロジェクトテンプレートを編集して、プロジェ�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '4881'
+source-wordcount: '4870'
 ht-degree: 94%
 
 ---
@@ -1092,7 +1092,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 * ドキュメント
 * リスク
 
-  リスクの作成について詳しくは、[プロジェクトでのリスクの作成および編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)の記事にある[プロジェクトでリスクを作成および編集](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md#create)の節を参照してください。
+  リスクの作成の詳細については、「[ プロジェクトのリスクの作成と編集 ](/help/quicksilver/manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)」を参照してください。
 
 * 承認プロセス
 

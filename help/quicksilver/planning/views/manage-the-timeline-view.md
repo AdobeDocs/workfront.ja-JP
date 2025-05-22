@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 50%
+source-wordcount: '3152'
+ht-degree: 47%
 
 ---
 
@@ -139,13 +139,8 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
       * 年
       * 四半期
       * 月
-1. **標準ビューに切り替え**&#x200B;をクリックして、別々の行にレコードを表示します。<!--check to see if they updated the name of the setting here-->
-
-   または
-
-   **コンパクトビューに切り替え**&#x200B;をクリックして、日付が同じ行で交わらないレコードを表示します。<!--check to see if they updated the name of the setting here-->
-
-   デフォルトでは、レコードはコンパクトビューで表示されます。
+1. （オプション）「**コンパクトビューに切り替え**」をクリックして、日付が交差していないレコードを同じ行に表示します。<!--check to see if they updated the name of the setting here-->
+1. （条件付き）モードを **コンパクト** に変更した場合は、「**標準に切り替え** ビューをクリックして、レコードを別々の行に表示します。 <span class="preview"> 「**標準** オプションがデフォルトです。</span>  <!--check to see if they updated the name of the setting here-->
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
@@ -353,7 +348,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    選択したレコードタイプに対して色分けされたオプションを含むフィールドがない場合、このオプションは淡色表示になります。
 
-   1. <span class="preview"> （オプション）「分類」オプションを使用している場合は、タイムラインに表示されている接続された各レコードに対して、手順 4 から始まる手順を繰り返します。</span>
+1. <span class="preview"> （オプション）「分類」オプションを使用している場合は、タイムラインに表示されている接続された各レコードに対して、手順 4 から始まる手順を繰り返します。</span>
 
 1. 「**保存**」をクリックします。
 
@@ -389,7 +384,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 接続されたレコードの分類
 
 1. レコードタイプのタイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
-1. （任意）標準モードでタイムラインビューを表示している場合は、「**分類**」をクリックします。
+1. **標準** または <span class="preview">**コンパクト** モードから、タイムラインビューの右上隅にある **分類**</span> をクリックします。
 1. 「**リンクされたレコードタイプを選択**」ボックスを展開し、接続されたレコードタイプを選択します。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![ タイムライン表示の分類ピッカーとボタン ](assets/breakdown-picker-and-button-on-timeline.png)
@@ -417,7 +412,15 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >分類オプションの選択肢として表示するには、製品とプログラムの両方をキャンペーンに接続する必要があり、それらを任意の順序で分類に追加できます。
 
+1. <span class="preview"> （条件付き）コンパクトモードでタイムラインを表示している場合は、**ビューを切り替え** をクリックします。 **コンパクト** モードでは分類が表示されません。</span>
 
+   >[!TIP]
+   >
+   ><span class="preview"> 標準ビューに切り替える **で、「** これを再表示しない **」を選択しますビュ** を切り替える前に、ボックスをクリックします。</span>
+   >
+   ><span class="preview"> この環境設定は、現在のブラウザーでのみ保持されます。 ブラウザーまたはコンピューターを変更する場合は、この環境設定を再度選択する必要があります。</span>
+   >
+   >ビューを標準に切り替え、接続されたレコードをビューに表示した後は、コンパクト モードに戻すことはできません。
 1. （オプション）上記の手順を繰り返して、接続されたレコードをさらに追加します。
 
 
