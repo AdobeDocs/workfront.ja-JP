@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 35%
+source-wordcount: '992'
+ht-degree: 31%
 
 ---
 
@@ -116,6 +116,31 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 -->
 
+### プロジェクトの強化
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> プロジェクト、タスク、問題で AI アシスタントを使用する際の透明性が向上 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Workfront プロジェクト、タスク、問題に関する質問への回答を AI アシスタントがどのように見つけているかを明確にするために、この情報を質問の回答に追加しました。 現在、AI アシスタントの出力に検索情報が含まれています。 この情報は、AI アシスタントが質問を正しく識別したことを確認し、回答のコンテキストを理解する手段として使用できます。</p>
+        </td>
+        <td>2025年5月19日（PT）</td>
+        <td>2025年5月19日（PT）</td>
+        <td>2025年5月19日（PT）</td>
+    </tr>     
+  </tbody>
+</table>
+
+
+
 ### レポートの機能強化
 
 <table style="table-layout:auto">
@@ -180,6 +205,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI アシスタント使用時の透明性の向上 </a></p>
+                        <p>Workfront プロジェクト、タスク、問題に関する質問への回答を AI アシスタントがどのように見つけているかを明確にするために、この情報を質問の回答に追加しました。 現在、AI アシスタントの出力に検索情報が含まれています。 この情報は、AI アシスタントが質問を正しく識別したことを確認し、回答のコンテキストを理解する手段として使用できます。 </p>
+                    </td>
+                    <td><p><b>公開日：</b></p>
+                        <ul>
+                            <li>
+                                <p>プレビューリリース：2025 年第 3 四半期のリリース期間中<br /></p>
+                            </li>
+                            <li>
+                                <p>実稼動リリース：プレビューにリリースしてから最短で 2 週間後（特に指定のない限り）</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">機能</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">リリース日</span>
+                        </p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025 年第 3 四半期のリリース期間中のルックアンドフィールの更新 </a></p>
                         <p>2025 年第 3 四半期のリリース期間中に、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対して小規模な更新が行われています。 </p>
                     </td>
@@ -211,7 +262,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
