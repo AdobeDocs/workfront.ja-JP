@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: e4ff9c9c44c75518e75b14209a18586363cdf4f5
+source-git-commit: f34f48d974db200d9ce1815c805885707ab27f6d
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1288'
 ht-degree: 1%
 
 ---
@@ -255,4 +255,6 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 
 Workfront Fusion は、イベント購読を使用して、トリガーシナリオに対するWorkfrontの変化を監視します。 Fusion がシナリオで直接使用するイベント購読のバージョンは、Workfront/イベントのペイロードバージョンを更新モジュールを使用して更新できます。
 
-このモジュールの使用方法については、Workfront Fusion ドキュメントの [Workfront モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) を参照してください。
+このモジュールの使用方法については、Workfront Fusion ドキュメントの [Workfront モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) を参照してください。
+
+ウェビナーの録画など、イベント購読のアップグレード中にWorkfront Fusion シナリオを保持する方法については、[ イベント購読 V2 のアップグレード中に Fusion シナリオを保持する ](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182) を参照してください。
