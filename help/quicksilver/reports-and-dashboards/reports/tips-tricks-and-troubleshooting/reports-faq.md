@@ -7,14 +7,16 @@ description: レポートに関する FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 99%
+source-wordcount: '1494'
+ht-degree: 88%
 
 ---
 
 # レポートに関する FAQ
+
+<!--Audited: 05/2025-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is the ONE anchor article for all FAQs about Reporting. Add a new FAQ in the TOC at the top first, then add the answer as a section at the bottom.)</p>
@@ -23,6 +25,8 @@ ht-degree: 99%
 レポートに関するよくある質問を次に示します。
 
 ## アクセス要件
+
++++ 展開すると、アクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -33,39 +37,51 @@ ht-degree: 99%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン、作業</p> </td> 
+   <td><p>新規：標準</p> 
+   <p>現在：ワーク以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>レポート、ダッシュボード、カレンダーへのアクセスの編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>レポート、ダッシュボード、カレンダーへのアクセス権を編集</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>レポートに対する権限を管理します。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>レポートに対する権限を管理します。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 時間差のカスタム計算で列に正しい結果が表示されないのはなぜですか？
 
-プロジェクトレポートで、予定時間数（4）から実際の時間数（2）を引く計算があります。結果は 2 になるべきですが、120 になっています。\
+<!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
+
+プロジェクトレポートに、予定時間から実際の時間を引く計算がある結果得られる結果が正しくない
+
+<!--this changed with this issue in May 2025; Actual Hours changed from actualWorkRequired to actualWorkRequiredDouble: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/68108e860000120e90a79cb82e5811c2/updates : On a project report I have a calculation that subtracts Actual Hours (2) from Planned Hours (4). The result I am getting is 120 when it should be 2.  -->
+
+
 次が私の計算です。
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)</pre>
+
+`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
 
 ### 回答
 
-Workfront で時間を使用するフィールドは、分単位で保存されます。計算でこのフィールドを使用する場合、結果は分単位で表されます。結果を時間単位で取得するには、計算結果を 60 で除算する必要があります。
+Workfrontで時間を使用するほとんどのフィールドは分単位で保存されます。 これらのフィールドを計算で使用すると、ほとんどの場合、結果は数分です。 時間単位の結果を取得するには、計算の結果または参照するフィールドを 60 で割る必要があります。
+
+例えば、予定時間は分で保存され、実際の時間は時間で保存されます。 そのため、予定時間数を分単位から時間単位に変換する必要があります。
 
 正しい計算は次のとおりです。
 
-<pre>valueexpression=SUB(workRequired,actualWorkRequired)/60</pre>
+`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 ## レポート内の各グラフ要素の値がグラフに表示されないのはなぜですか？
 
@@ -175,7 +191,7 @@ Workfront で時間を使用するフィールドは、分単位で保存され�
 
 ### 回答
 
-時には、レポートの所有者が、レポートの「**次のアクセス権限でこの報告書を作成する**」フィールドで指定されたユーザーにもなっている場合があります。「**次のアクセス権限でこのレポートを作成：**」ユーザーが非アクティブ化されている場合、レポートを共有しているユーザーにはレポートが表示されなくなります。これが発生した場合は、「**次のアクセス権限でこのレポートを作成：**」を空白のままにするか、フィールドにアクティブなユーザーを入力することで、レポートに再度アクセスできるようにできます。
+時には、レポートの所有者が、レポートの「**次のアクセス権限でこの報告書を作成する**」フィールドで指定されたユーザーにもなっている場合があります。**アクセス権限でこの報告書を実行：** ユーザーが非アクティブになっている場合、報告書を共有しているユーザーに対しては、報告書が表示されなくなります。 その場合は、「**アクセス権限でこのレポートを実行：** を空白にするか、フィールドにアクティブなユーザーを入力することで、レポートに再度アクセスできるようにします。
 
 「**次のアクセス権限でこのレポートを作成：**」フィールドの詳細情報については、[別のユーザーのアクセス権を使用したレポートの実行と配信](../../../reports-and-dashboards/reports/creating-and-managing-reports/run-deliver-report-access-rights-another-user.md)を参照してください。ディアクティベートされているユーザーが所有するすべてのレポートの識別については、[レポートアクティビティに関するレポートの作成](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)を参照してください。
 

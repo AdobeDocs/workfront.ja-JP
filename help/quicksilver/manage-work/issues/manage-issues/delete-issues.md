@@ -6,16 +6,20 @@ description: 適切なアクセス権や権限を持っている場合は、Adob
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '735'
-ht-degree: 97%
+source-wordcount: '720'
+ht-degree: 79%
 
 ---
 
 # イシューを削除
 
-<!--Audited: 01/2024-->
+<!--Audited: 05/2025-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
 
 適切なアクセス権や権限を持っている場合は、Adobe Workfront でイシューやリクエストを削除できます。
 
@@ -24,6 +28,8 @@ ht-degree: 97%
 >Workfront では、「イシュー」と「リクエスト」が同じような意味で使用されます。プロジェクトとタスクの両方のイシューを記録して、対処する必要がある予期せぬ作業を示すことができます。リクエストを送信することもできます。リクエストは、リクエストキューとして指定されたプロジェクトのイシューとして記録されます。
 
 ## アクセス要件
+
++++ 展開すると、アクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -43,30 +49,29 @@ ht-degree: 97%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>イシューへのアクセス権を編集</p> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p>  <p>自分のアクセスレベルでのイシューへのアクセス権について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">イシューへのアクセス権の付与</a>を参照してください。  </p> </td> 
+   <td> <p>イシューへのアクセス権を編集</p> <p>プロジェクトとタスクへのアクセス権またはそれ以上の権限</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>イシューに対する権限の管理</p> <p>プロジェクトまたはタスクに対する参加以上の権限</p> <p> イシューに関する権限の付与については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">イシューの共有</a>を参照してください。</p> </td> 
+   <td> <p>イシューに対する権限の管理</p> <p>プロジェクトまたはタスクに対する参加以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。アクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## イシューの削除に関する考慮事項
 
-* Workfront 管理者またはグループ管理者は、ステータスが完了のプロジェクトのイシューの削除を、プロジェクトの環境設定領域で有効にする必要があります。プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+* Workfront管理者またはグループ管理者は、「プロジェクト環境設定」領域で、「ステータスが完了」のプロジェクトのイシューの削除を有効にする必要があります。
+
+  プロジェクトの環境設定について詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
 * イシューにログに記録された時間がある場合、Workfront 管理者またはグループ管理者は、Workfront インスタンスでタスクとイシューの環境設定を指定することで、これらのイシューの削除を許可する必要があります。これは、時間が記録されたイシューがあるプロジェクトを削除しようとした場合も該当します。
 
-  <!--
-  <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-  <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">(this is not possible in classic)</span>
-  </MadCap:conditionalText>
-  -->
-
   時間が記録されたイシューの削除を有効にする方法について詳しくは、[システム全体のタスクとイシューの環境設定を行う](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md)を参照してください。
+
 
 ## イシューの削除による影響
 
@@ -101,20 +106,20 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
 
 ## イシューを削除
 
-* [プロジェクト内の複数のイシューを同時に削除](#delete-multiple-issues-in-a-project-simultaneously)
-* [単一のイシューを削除](#delete-a-single-issue)
-
 ### プロジェクト内の複数のイシューを同時に削除  {#delete-multiple-issues-in-a-project-simultaneously}
 
 1. **メインメニュー**&#x200B;に移動します。
 1. 「**プロジェクト**」をクリックします。
 1. 削除するイシューを含むプロジェクト名をクリックします。
 1. 左側のパネルで「**イシュー**」をクリックします。
-1. イシューを選択し、リストの上部にある **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 
-1. 削除が許可されている場合は、「**はい、削除します**」をクリックします。\
+   選択したプロジェクトに関連付けられているイシューのリストが右側に表示されます。
+1. リストで 1 つ以上のイシューを選択し、リストの上部にある **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+
+1. 削除が許可されている場合は、「はい、削除します **をクリックします**。<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+
    時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
-   イシューの削除に必要なアクセスおよび権限について詳しくは、[イシューを削除](#access-and-permissions-needed)を参照してください。
+   イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [ イシューの削除に関する考慮事項 ](#considerations-for-deleting-issues) の節を参照してください。
 
 ### 単一のイシューを削除 {#delete-a-single-issue}
 
@@ -123,7 +128,7 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
 1. 削除するイシューを含むプロジェクト名をクリックします。
 1. 左側のパネルで「**イシュー**」をクリックします。
 
-   ![ イシューアイコン ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![ 左パネルの「イシュー」セクション ](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. 削除するイシューの名前をクリックします。
 1. イシュー名の右側にある&#x200B;**その他**&#x200B;メニューをクリックします。
@@ -131,11 +136,13 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
    ![ 問題の詳細メニュー ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 「**イシューを削除**」をクリックします。
-1. 削除が許可されている場合は、「**はい、削除します**」をクリックします。
+1. 削除が許可されている場合は、「はい、削除します **をクリックします**。<!--change this to this button instead: <span class="preview">*Delete*</span>-->
 
    時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
-   イシューの削除に必要なアクセスおよび権限について詳しくは、[イシューを削除](#access-and-permissions-needed)を参照してください。
+   イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [ イシューの削除に関する考慮事項 ](#considerations-for-deleting-issues) の節を参照してください。
 
 ## 削除されたイシューを復元
 
-Workfront またはグループ管理者は、イシューを削除してから 30 日以内に復元できます。Workfront での項目の復元について詳しくは、[削除した項目を復元](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)を参照してください。
+Workfrontまたはグループ管理者は、問題が削除されてから 30 日以内に、その問題を復元できます。
+
+Workfront での項目の復元について詳しくは、[削除した項目を復元](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)を参照してください。

@@ -7,10 +7,10 @@ description: Adobe Workfront で作業項目に記録した時間は、実際の
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '759'
-ht-degree: 63%
+source-wordcount: '803'
+ht-degree: 48%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Workfront で作業項目に記録した時間は、実際の時間数と�
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>新規：標準<p>
    <p>または</p>
@@ -49,7 +49,7 @@ Adobe Workfront で作業項目に記録した時間は、実際の時間数と�
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タスク、プロジェクト、イシューに対する表示またはそれ以上のアクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>タスク、プロジェクト、イシューに対する表示またはそれ以上のアクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -58,7 +58,7 @@ Adobe Workfront で作業項目に記録した時間は、実際の時間数と�
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -83,13 +83,6 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 ## 実際の時間数の検索
 
 項目の実際の時間数の値を検索するには、タスク、プロジェクト、イシューの場合と同じ手順を実行します。
-
-タスクの実際の時間数に関する情報は、次の場所で確認できます。
-
-* [「詳細」セクションの実際の時間数](#actual-hours-in-the-details-section)
-* [「時間」セクションの実際の時間数](#actual-hours-in-the-hours-section)
-* [レポートの実際の時間数](#actual-hours-in-reports)
-* [リソース管理ツールの実際の時間数](#actual-hours-in-resource-management-tools)
 
 ### 「詳細」セクションの実際の時間数 {#actual-hours-in-the-details-section}
 
@@ -139,6 +132,21 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 * リソースプランナー
 
   詳しくは、[ ユーザービューの使用時にリソースプランナーで利用可能な時間、予定および実際の時間または FTE を表示 ](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md) を参照してください。
+
+
+### Workfront データベース、API およびカスタムデータの実際の時間数
+
+<!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
+
+時間を格納するほとんどのWorkfront フィールドは、数分でWorkfront データベースに保存されます。 例えば、タスクの「予定時間数」フィールドの名前はWorkfront データベースに `workRequired` まれ、分単位で保存されます。
+
+API 呼び出し、または計算されたカスタムフィールドや列でこれらのフィールドにアクセスする場合、分から時間への変換を考慮する必要があります。
+
+ただし、実際の時間は、時間単位でWorkfront データベースに保存されます。
+
+API 呼び出しの実際の時間、またはWorkfrontの計算されたカスタムフィールドまたは列には、次の valuefield 名を使用する必要があります：`actualWorkRequiredDouble`。
+
+計算された列またはフィールドでの実際の時間数の使用について詳しくは、[ レポートに関する FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) を参照してください。
 
 ## 時間を記録
 

@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '3706'
+source-wordcount: '3721'
 ht-degree: 88%
 
 ---
@@ -622,12 +622,14 @@ ht-degree: 88%
 
 * タスク名
 * 完了率
+
+  詳しくは、[ タスクの完了率の表示と更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
 * 割り当て
 * 予定完了日
 
   >[!CAUTION]
   >
-  >一部のタスクの制約やその他の依存関係が原因で、このフィールドを編集できない場合があります。タスクの制約については、[タスクの制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)を参照してください。
+  >一部のタスクの制約やその他の依存関係により、タスクの予定完了日を編集できない場合があります。 タスクの制約については、[タスクの制約の概要](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)を参照してください。
 
 * ステータス
 * 現在の承認プロセスで承認者として設定されている場合、承認の決定を行う

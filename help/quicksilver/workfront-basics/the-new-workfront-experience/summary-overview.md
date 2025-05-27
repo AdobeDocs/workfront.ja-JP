@@ -5,10 +5,10 @@ description: 概要パネルを使用すると、タスクやイシュー、ド�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '986'
+ht-degree: 93%
 
 ---
 
@@ -167,7 +167,9 @@ Workfront 管理者またはグループ管理者は、概要パネルに表示�
 
 ## [!UICONTROL 完了率]
 
-[!UICONTROL 概要]の上部にある進捗バーを使用すると、選択したタスクまたはイシューの完了率を更新できます。完了率の正しい数値を入力するか、バーをドラッグします。
+[!UICONTROL  概要 ] の上部にある進捗の青いバブルを使用して、選択したタスクまたは問題の完了率を更新します。 数値を入力するか、通芯記号を正しいパーセンテージにドラッグします。
+
+概要パネルでバブルをドラッグ&amp;ドロップすると、完了率が 1 点増分で更新されます。 小数は入力できません。
 
 ![概要パネルでの完了率](assets/summary-overview-percent-complete.png)
 
