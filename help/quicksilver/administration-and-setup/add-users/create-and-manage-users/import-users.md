@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 91%
+source-wordcount: '551'
+ht-degree: 80%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 91%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -107,3 +107,11 @@ ht-degree: 91%
 1. 「**インポート**」をクリックします。
 
    ユーザーが正常にインポートされたことを示す確認メッセージが画面の上部に表示されます。
+
+>[!NOTE]
+>
+>ユーザーは、「ディアクティベート済み」および「承認待ち」のステータスで作成されます。
+> 
+>ユーザーのステータスが数分以内にディアクティベートおよび承認待ちから変わらず、画面を更新しても承認待ちバッジが削除されない場合は、ユーザーのバッチをAdobe Admin Consoleに直接追加できます。
+>
+>手順については、[ 複数のユーザーの管理」を参照してください | Adobe ドキュメント ](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html)CSV の一括アップロード。

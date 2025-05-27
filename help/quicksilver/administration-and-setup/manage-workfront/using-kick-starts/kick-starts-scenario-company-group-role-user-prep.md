@@ -9,10 +9,10 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 89%
+source-wordcount: '1218'
+ht-degree: 84%
 
 ---
 
@@ -309,3 +309,13 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 1. Excel ファイルを読み込みます。
 
    [キックスタートテンプレートを使用した Adobe Workfront へのデータの読み込み](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)で示されている手順に従います。
+
+
+
+>[!NOTE]
+>
+>Workfrontに読み込まれたユーザーは、非アクティブ化され、承認待ちのステータスで作成されます。
+> 
+>組織がAdobe Admin Consoleに移行されており、ユーザーのステータスが数分以内に非アクティブおよび承認保留中から変わらない場合、ユーザーのバッチをAdobe Admin Consoleに直接追加できます。
+>
+>手順については、[ 複数のユーザーの管理」を参照してください | Adobe ドキュメント ](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html)CSV の一括アップロード。
