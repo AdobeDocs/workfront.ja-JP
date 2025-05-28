@@ -88,7 +88,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 >API 呼び出しで実際の時間を参照している場合は、valuefield に `actualWorkRequiredDouble` を使用します。 API の実際の時間は、時間単位で保存されます。 予定時間数は分単位で保存されます。
 >
 >API 呼び出しの正しい計算は次のとおりです。
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 <!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
