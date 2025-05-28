@@ -7,9 +7,9 @@ description: レポートに関する FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1504'
 ht-degree: 88%
 
 ---
@@ -71,17 +71,27 @@ ht-degree: 88%
 
 次が私の計算です。
 
-`valueexpression=SUB(workRequired,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)`
 
 ### 回答
 
 Workfrontで時間を使用するほとんどのフィールドは分単位で保存されます。 これらのフィールドを計算で使用すると、ほとんどの場合、結果は数分です。 時間単位の結果を取得するには、計算の結果または参照するフィールドを 60 で割る必要があります。
 
-例えば、予定時間は分で保存され、実際の時間は時間で保存されます。 そのため、予定時間数を分単位から時間単位に変換する必要があります。
+<!--For example, Planned Hours are stored in minutes, while Actual Hours are stored in hours. As a result, you must convert Planned Hours from minutes to hours. -->
 
 正しい計算は次のとおりです。
 
-`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+>[!NOTE]
+>
+>API 呼び出しで実際の時間を参照している場合は、valuefield に `actualWorkRequiredDouble` を使用します。 API の実際の時間は、時間単位で保存されます。 予定時間数は分単位で保存されます。
+>
+>API 呼び出しの正しい計算は次のとおりです。
+>>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+
+<!--when the actualWorkRequiredDouble is released to custom data in Workfront and not just the API, update the calculation above to this: `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`; and take the note out -->
 
 ## レポート内の各グラフ要素の値がグラフに表示されないのはなぜですか？
 
