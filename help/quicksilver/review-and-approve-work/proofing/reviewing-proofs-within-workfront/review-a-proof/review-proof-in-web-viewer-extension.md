@@ -6,16 +6,16 @@ description: Adobe Workfront レビューツールは、ZIP ファイルまた�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
+source-git-commit: 5a8bfdeae7f5d23ecf835e652cf0ff5efd5aa410
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '575'
 ht-degree: 1%
 
 ---
 
 # Adobe Workfront レビューツールを使用したインタラクティブコンテンツのレビュー
 
-<span class="preview">Adobe Workfront レビューツールは、2024 年 11 月 7 日（PT）に利用可能になります。 この拡張機能は現在ベータ版です。</span>
+<span class="preview">Adobe Workfront レビューツールは、2024 年 11 月 7 日（PT）に利用可能になりました。 この拡張機能は現在ベータ版です。</span>
 
 Adobe Workfront レビューツールは、ZIP ファイルまたは URL を使用してインタラクティブコンテンツのプルーフを行える、web ベースのブラウザー拡張機能です。 Adobe Workfront レビューツールは次のブラウザーで使用できます。
 
@@ -24,10 +24,9 @@ Adobe Workfront レビューツールは、ZIP ファイルまたは URL を使�
 * Edge
 * Safari
 
-確認する必要があるコンテンツが Web サイト上にある場合は、デスクトッププルーフビューアを使用することをお勧めします。
-
-* SSO 認証が必要
-* Figma などの iFrame でサイトを開けないようにします
+>[!IMPORTANT]
+>
+>この拡張機能は、GenStudio for Performance Marketingと Creative Cloud Express のコンテンツをレビューするために必要です。 Assetsは web ビューアで自動的に開きます。 アカウント設定を更新する必要はありません。
 
 
 ## 拡張機能のインストール
@@ -37,12 +36,6 @@ Adobe Workfront レビューツールは、ZIP ファイルまたは URL を使�
 * Adobe Workfront レビューツールを使用するには、従来の Web ビューア拡張機能を削除する必要があります。
 
 ### 拡張機能のインストール
-
-<!--This extension is required to review conent in GS and Ex.
-
-You must install the extension to reiew content in GenS and Express.
-
-To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
 
 レビュー担当者と承認者は、Adobe Workfront レビューツールをインストールする必要があります。 次のいずれかのブラウザーで以下を行います。
 
@@ -56,6 +49,15 @@ To review content in GS, Express, or Wou must install the extension if you are u
 インタラクティブプルーフがAdobe Workfront レビューツールで自動的に開くには、以下の節で説明するように、Workfront管理者が workfront のプルーフ設定を更新する必要があります。
 
 ## Workfront プルーフのデフォルトの更新
+
+Workfront レビューツールをインタラクティブコンテンツのデフォルトビューアとして使用するには、Workfrontでプルーフのデフォルトを更新する必要があります。
+
+>[!NOTE]
+>
+>確認する必要があるコンテンツが Web サイト上にある場合は、デスクトッププルーフビューアを使用することをお勧めします。
+>
+>* SSO 認証が必要
+>* Figma などの iFrame でサイトを開けないようにします
 
 ### Adobe Workfront レビューツールを URL と ZIP 配達確認のデフォルトビューアにする
 
@@ -84,6 +86,4 @@ Web レビューツールを zip 配達確認にのみ使用するには、Workf
 >[!NOTE]
 >
 >この変更は、Workfront インスタンスのすべての ZIP 配達確認に適用されます。 実稼動で有効にする前に、プレビュー環境で新しいエクスペリエンスをテストすることをお勧めします。 **インタラクティブプルーフ用デスクトッププルーフビューア** アカウント設定を **すべてのインタラクティブプルーフで有効** に戻すと、デスクトップビューアに簡単に切り替えることができます。
-
-
 
