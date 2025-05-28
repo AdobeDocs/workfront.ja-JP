@@ -4,9 +4,9 @@ description: Adobe App Builderを活用したWorkfront UI 拡張機能を使用�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: e27cf74c94167e918bb6426b99bf7e47139cbade
+source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
-source-wordcount: '1705'
+source-wordcount: '1693'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Adobe App Builderでアプリケーションが作成されたら、Workfront管
 
 * IMS が有効なWorkfront アカウント
 * ノード v18 および npm を持つ開発マシン
+* App Builder ライセンス
 
 ## Adobe App Builderへのアクセス
 
@@ -69,8 +70,6 @@ UI 拡張機能を作成するには、Adobe Developer ConsoleのAdobe App Build
 ### App Builderへのアクセスの取得
 
 組織がApp Builderを購入するには、担当のアカウントマネージャーと協力する必要があります。
-
-AppBuilder の統合をテストするには、IMS 組織の無料体験版を次の場所でリクエストします。https://developer.adobe.com/app-builder/trial/#
 
 AppBuilder が正しく設定されている場合は、新しいプロジェクトの作成の一部として、テンプレートからプロジェクトを作成が表示されます。
 
@@ -132,7 +131,7 @@ Adobeには、App Builder アプリケーションの作成に使用できるオ
 
 1. 「完了」を選択して完了を確認します。 テンプレートからのコード生成が進行中です。
    ![ 生成中 ](assets/6-generation-in-process.png)
-1. アプリの初期化が完了したことを示すメッセージが表示されるまで待ちます。 その後、プロジェクトを IDE で開き（VSCode をお勧めします）、src フォルダーにアクセスできます。
+1. アプリの初期化が完了したことを示すメッセージが表示されるまで待ちます。 次に、IDE でプロジェクトを開き（Visual Studio Code をお勧めします）、src フォルダーにアクセスします。
 
    プロジェクト内のフォルダーおよびファイルについて詳しくは、[Adobe開発者向けサイト ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application) を参照してください。
 
