@@ -30,7 +30,7 @@ Adobe Workfront の一部のオブジェクトでは、リッチテキスト形�
 例：リッチテキストカスタムフォームフィールドを含むフィールドの値を取得する基本的なGET リクエスト：
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><OBJ Code><OBJ ID><OBJ Code><OBJ ID></pre> 
+<pre>&lt;OBJ Code>&lt;OBJ ID>&lt;OBJ Code>&lt;OBJ ID></pre> 
 
 例：このリクエストは、リッチテキストを含む parameterValue DE:Field に保存されているリッチテキストを含む Field の値を JSON で返します
 
@@ -120,4 +120,4 @@ Workfront API を使用してリッチテキストフィールドの次の値を
 1. 上記の JSON に対して stringify メソッドを使用して、PUT リクエストを実行し、更新を送信します。
 
    <!-- [Copy](javascript:void(0);) -->
-   <pre><OBJ Code><OBJ ID></pre>
+   <pre>&lt;OBJ Code>&lt;OBJ ID></pre>

@@ -174,7 +174,7 @@ Workfront の項目を作成および更新する Workfront ユーザーには�
    * 品目の **[!UICONTROL 予定時間数]**。
    * **[!UICONTROL 参照番号]**。 [!DNL Workfront] 項目にアクセスするには、パネルの **参照番号** をクリックします。
 
-   追加のフィールドを右側のパネルに表示する方法については、「設定  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)」の「[!DNL Jira] と [!DNL Workfront] の項目間のフィールド同期の設定 [ を参照してください。 統合に関連づけられた [!DNL Workfront] 管理者からのコメントは、新しく [!DNL Jira] 項目が作成されたことを確認するために、[!DNL Jira] イシューの「**[!DNL Workfront]**」タブに投稿されます。コメントには、[!DNL Jira] イシューへのリンクが含まれます。
+   追加のフィールドを右側のパネルに表示する方法については、「設定  [!DNL Adobe Workfront for Jira][&#128279;](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)」の「[!DNL Jira] と [!DNL Workfront] の項目間のフィールド同期の設定  を参照してください。 統合に関連づけられた [!DNL Workfront] 管理者からのコメントは、新しく [!DNL Jira] 項目が作成されたことを確認するために、[!DNL Jira] イシューの「**[!DNL Workfront]**」タブに投稿されます。コメントには、[!DNL Jira] イシューへのリンクが含まれます。
 
 ## [!DNL Jira] と [!DNL Workfront] 間の項目のリンクを解除
 
