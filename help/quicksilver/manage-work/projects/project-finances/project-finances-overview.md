@@ -8,7 +8,7 @@ author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 98%
@@ -16,6 +16,8 @@ ht-degree: 98%
 ---
 
 # プロジェクトの財務：記事インデックス
+
+<!-- Audited: 5/2025 -->
 
 プロジェクトの財務情報を検索できるエリアおよびプロジェクトの財務管理方法について詳しくは、以下の記事を参照してください。
 

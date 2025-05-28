@@ -7,14 +7,16 @@ description: リソース計画ツールを使用して、担当業務、空き�
 author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 99%
+source-wordcount: '554'
+ht-degree: 90%
 
 ---
 
 # リソース計画の概要
+
+<!--Audited: 5/2025-->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -23,7 +25,7 @@ ht-degree: 99%
 </div>
 -->
 
-Adobe Workfront のリソース管理ツールを使用してリソースの配分を予測し、プロジェクトが予定と予算どおりに納品されたかを正確に把握できます。Workfront のリソース管理の概要については、[リソース管理の概要](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
+Adobe Workfront Resource Management Tools を使用すると、リソースの配分を予測して、プロジェクトが予定通り、予算通りに配信されるかどうかを正確に把握できます。 Workfront のリソース管理の概要については、[リソース管理の概要](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)を参照してください。
 
 リソース計画ツールを使用して、担当業務、空き時間、およびこの空き時間に基づくプロジェクトへの一般的な割り当てを管理できます。
 
@@ -35,7 +37,7 @@ Adobe Workfront のリソース管理ツールを使用してリソースの配�
 
 割り当て予定のプロジェクトにリソースの時間を割り当てるには、次のツールを使用します。
 
-* 複数のプロジェクトに対する予算割り当てを行い、システムレベルで優先順位を付ける場合：システムレベルのリソースプランナーを使用します。
+* システムレベルで複数のプロジェクトに割り当てを行い、優先順位を付ける場合は、システムレベルのリソースプランナーを使用します。
 
   リソースプランナーにアクセスするには、「リソース」エリアの「プランナー」セクションに移動します。
 

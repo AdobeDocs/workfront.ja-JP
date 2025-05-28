@@ -9,23 +9,29 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d8f2a295-c053-4763-bf6e-6e836087a839
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 98%
+source-wordcount: '456'
+ht-degree: 82%
 
 ---
 
 # オブジェクトやエリアへのアクセス権（ライセンスタイプ別）
 
+<!-- Audited: 5/2025 -->
+
 次の表に、各 Adobe Workfront ライセンスで Workfront のオブジェクトとエリアに対して許可されている最高レベルのアクセス（編集または表示）を示します。
 
-* **表示**：ユーザーは項目を確認し共有できます。
-* **編集**：ユーザーは項目の作成、編集、削除および共有ができます。
+* 表示：ユーザーは、項目を確認し、共有できます。
+* 編集：ユーザーは、項目を作成、編集、削除、共有できます。
 
   >[!NOTE]
   >
-  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトの編集を制限する権限を指定できます。詳しくは、[オブジェクトに対する共有権限の概要](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)を参照してください。
+  >別のユーザーがオブジェクトを共有する場合、共有者はそのオブジェクトの編集を制限する権限を指定できます。新しいライセンスタイプについて詳しくは、[ オブジェクトに対する共有権限の概要 ](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md) を参照してください。
+
+  >[!NOTE]
+  >
+  >この記事には、従来のライセンスタイプのオブジェクトアクセスに関する情報が含まれています。 新しいライセンスタイプについては、[ 新しいアクセスレベルの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) および [ 新しいライセンスの概要 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) を参照してください。
 
 |   | プラン | ワーク | レビュー | リクエスト | 外部 |
 |---|---|---|---|---|---|
@@ -49,7 +55,7 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->レビューライセンスまたはリクエストライセンスを持つユーザーは、共有機能に制限があります。詳しくは、[Adobe Workfront ライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)を参照してください。
+>レビューライセンスまたはリクエストライセンスを持つユーザーの共有機能は制限されています。 詳しくは、[ライセンスの概要](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md)を参照してください。
 >
 >外部ユーザーは Workfront で項目を検索できません。外部ユーザーは、個別に共有されているドキュメントやカレンダーを表示できます。また、項目を共有しているユーザーを表示できます。
 

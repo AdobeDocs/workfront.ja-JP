@@ -8,16 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6068c9c53568d3ebec9fae294bfee1cbd365714b
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 77%
+source-wordcount: '738'
+ht-degree: 56%
 
 ---
 
 # 別のユーザーとしてのログイン
 
-<!--Audited: April, 2024-->
+<!--Audited: 5/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
@@ -25,9 +25,7 @@ ht-degree: 77%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
-Adobe Workfront の管理者は、別のユーザーの代わりに Workfront にアクセスする必要が生じる場合があります。
-
-また、グループ管理者は、管理対象のグループのメンバーであるユーザーに代わって Workfront にアクセスする必要が生じる場合があります。
+Adobe Workfront管理者は、別のユーザーに代わってWorkfrontにアクセスする必要が生じる場合があります。 また、グループ管理者は、管理対象のグループのメンバーであるユーザーに代わって Workfront にアクセスする必要が生じる場合があります。
 
 例えば、休暇中のユーザーが特定のアクションを実行するまでタスクを進行できない場合、そのユーザーとしてログインし、代わりにアクションを実行できます。
 
@@ -44,7 +42,7 @@ Some users, such as executives, need to be able to control which administrators 
 >
 >ドキュメントの統合により、個人用の非公開ファイルに接続できるので、管理者は別のユーザーとしてログインしている間はドキュメントの統合にアクセスできません。
 >
->ドキュメントの統合について詳しくは、[ドキュメント統合の設定](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)を参照してください。
+>ドキュメント統合について詳しくは、「[ ドキュメント統合の設定 ](../../../administration-and-setup/configure-integrations/configure-document-integrations.md)」を参照してください。
 
 ## アクセス要件
 
@@ -68,8 +66,8 @@ Some users, such as executives, need to be able to control which administrators 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>システム管理者のアクセスレベルを使用すると、任意のユーザーとしてログインできます。</p> <p>「Standard」または「Planner」のアクセスレベルでは、アクセスレベルの <b> ユーザー </b> 設定が「編集 <b></b> アクセスに設定され、「<b> 作成 </b>」に加え、「<b> 設定を微調整 </b>」 <img src="assets/gear-icon-in-access-levels.png"> の 2 つの「<b> ユーザー管理者 </b>」オプションのうち少なくとも 1 つが有効になっている場合、下位のライセンスレベルでユーザーとしてログインすることができます。 </p> 
-   <p><b> 注意 </b>：これら 2 つのオプションのうち、<b> ユーザー管理（グループユーザー） </b> が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p></td>
+   <td> <p>システム管理者のアクセスレベルを使用すると、任意のユーザーとしてログインできます。</p> <p>「Standard」または「Planner」のアクセスレベルでは、アクセスレベルの Users 設定が「Edit」アクセスに設定され、「Create」と「Fine-tune your settings」セクションの 2 つの User Admin オプションのうち少なくとも 1 つが有効になっている場合、より低いライセンスレベルでユーザーとしてログ <img src="assets/gear-icon-in-access-levels.png"> ンできます。 </p> 
+   <p>メモ：これら 2 つのオプションのうち、ユーザー管理者（グループユーザー）が有効になっている場合、ユーザーがメンバーになっているグループのグループ管理者である必要があります。</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -80,7 +78,7 @@ Some users, such as executives, need to be able to control which administrators 
 
 ## ログインし、別のユーザーとしてアクションを実行する
 
-1. Workfront 管理者またはグループ管理者としてWorkfront にログインします。
+1. Workfront 管理者またはグループ管理者として Workfront にログインします。
 
    >[!NOTE]
    >
@@ -94,17 +92,16 @@ Some users, such as executives, need to be able to control which administrators 
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**別のユーザーとしてログイン**」をクリックします。
+1. 左側のパネルで、「**ログイン名**」をクリックします。
 
-1. 「**別のユーザーとしてログイン**」タブにある&#x200B;**ユーザー**&#x200B;ボックスで、ユーザーの名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
+1. **別名でログイン** タブの **名前の入力を開始…** ボックスにユーザーの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
-   ユーザーは、Workfront で定義されたアクセスレベルを持っている必要があります。ログインする権限を持たないユーザーとしては Workfront システムにログインすることはできません。
 
    >[!NOTE]
-   >
-   >グループ管理者は、自分が管理するグループのメンバーであるユーザーとしてのみログインできます。Workfront 管理者としてログインすることはできません。
+   >* 選択するユーザーには、Workfrontで定義されたアクセスレベルが必要です。 ログインする権限を持たないユーザーとしては Workfront システムにログインすることはできません。
+   >* グループ管理者は、自分が管理するグループのメンバーであるユーザーとしてのみログインできます。Workfront 管理者としてログインすることはできません。
 
-1. 「**ログイン**」をクリックします。
+1. 「**ログイン**」をクリックします。 別のユーザーとしてログインすると、これを示す通知が画面の上部に表示されます。
 
    <!--
    <p> Might come in a future story:</p>
@@ -131,15 +128,15 @@ Some users, such as executives, need to be able to control which administrators 
    </div>
    -->
 
-   別のユーザーとしてログインすると、画面の上部に通知が表示され、これを示します。
 
-1. ユーザーとして必要なアクションを実行し、**ログアウト**&#x200B;します。
+
+1. ユーザーとして必要なアクションを実行したら、画面上部の **ログアウト** をクリックします。
 
 ## 管理者が別のユーザーとしてログインしている間のアクティビティのトラッキングと監査
 
 Workfront は、管理者が別のユーザーとしてログインしている間に実行される、トラッキングおよび監査アクティビティのメカニズムを提供します。
 
-別のユーザーとしてログインした場合は、システム管理者またはグループ管理者がそのユーザーとしてログインした日付に最後ログイン日が変更されます。
+別のユーザーとしてログインすると、そのユーザーの最終ログイン日が、システム管理者またはグループ管理者がそのユーザーとしてログインした日付に変更されます。
 
 * [項目の指標を表示](#view-indicators-on-items)
 * [監査情報の表示](#view-audit-information)
@@ -153,14 +150,17 @@ Workfront は、管理者が別のユーザーとしてログインしている�
 ### 監査情報の表示 {#view-audit-information}
 
 1. Workfront 管理者またはグループ管理者として Workfront にログインします。
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
+   {{step-1-to-setup}}
+   <!--1. Click the **Main Menu** icon ![Main menu icon](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![Gear settings icon](assets/gear-icon-settings.png).-->
 
-1. 「**別のユーザーとしてログイン**」、「**アクセスログ**」タブの順にクリックします。
+1. 左側のパネルで「**別名でログイン**」をクリックし、「**アクセスログ**」タブをクリックします。
 
-   システム管理者またはグループ管理者が別のユーザーとして Workfront にログインするたびに、そのイベントは監査証跡に記録されます。また、管理者が別のユーザーとしてログインしている間に行われた監査可能なアクションは、監査証跡に記録されます。
+   >[!NOTE]
+   >
+   >システム管理者またはグループ管理者が別のユーザーとして Workfront にログインするたびに、そのイベントは監査証跡に記録されます。また、管理者が別のユーザーとしてログインしている間に行われた監査可能なアクションは、監査証跡に記録されます。
 
-1. （オプション）監査証跡に表示される結果は、次の方法でフィルタリングできます。
+1. （オプション）監査記録に表示される結果は、次の方法でフィルタリングできます。
 
    * ログインしたユーザー別
    * 次のユーザーとしてログインしたユーザー別
-   * 日付別
+   * 日時別
