@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: レイアウトテンプレートでは、Adobe Workfront の上部に、ユーザーに常に利用できるようにしておきたいページをピン留めすることができます。これらは、メインメニューまたはダッシュボードからアクセスできるページです。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '545'
 ht-degree: 63%
 
 ---
@@ -77,7 +77,6 @@ ht-degree: 63%
 
    * 次の領域から選択します。
 
-      * 分析
       * カレンダー
       * ダッシュボード
       * ドキュメント
@@ -109,7 +108,7 @@ ht-degree: 63%
      >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
    * 「**ダッシュボードを追加**」をクリックします
-      * &#x200B;<!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
+      * <!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
       * 「**ダッシュボードを追加**」フィールドでダッシュボードを選択し <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> す
       * 「**追加**」をクリックします。
 

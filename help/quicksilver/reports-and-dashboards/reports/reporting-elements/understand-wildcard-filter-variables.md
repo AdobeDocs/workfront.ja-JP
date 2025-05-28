@@ -7,9 +7,9 @@ description: フィルターでワイルドカードを使用すると、特定�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1439'
 ht-degree: 100%
 
 ---
@@ -173,7 +173,6 @@ AssignedToID Equals $$USER.roleIDs.)-->
      <ul> 
       <li> <p>リソースプランナー</p> </li> 
       <li> <p>ワークロードバランサー</p> </li> 
-      <li> <p>分析</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr valign="top"> 

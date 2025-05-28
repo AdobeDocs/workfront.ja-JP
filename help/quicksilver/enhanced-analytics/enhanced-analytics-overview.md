@@ -7,9 +7,9 @@ description: 拡張分析は、事前に構築されたビジュアライゼー�
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 2a6e767036ae702f6c19dc71cdb11dae8e9e37ea
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1243'
 ht-degree: 96%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!IMPORTANT]
 >
->Enhanced Analytics は、5 月 26 日の週にWorkfrontから削除されます。 Workfront Data Connect は新しい代替ソリューションであり、現在使用している Enhanced Analytics のビジュアライゼーションをレプリケートするために使用できます。 <br> 詳しくは、[Enhanced Analytics の廃止 ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) ガイドを参照してください。
+>Enhanced Analytics は、5 月 27 日（PT）にWorkfrontから削除されました。 Workfront Data Connect は新しい代替ソリューションであり、現在使用している Enhanced Analytics のビジュアライゼーションをレプリケートするために使用できます。 <br> 詳しくは、[Enhanced Analytics の廃止 ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) ガイドを参照してください。
 
 
 拡張分析は、事前に構築されたビジュアライゼーションを備えた Adobe Workfront の強力なツールで、プロジェクトデータを調べ、計画と完了でトレンドを特定できます。このプロジェクトに関するインサイトは、現在の作業を管理するのに役立ち、将来の作業に合わせてより正確に計画できるようになります。
@@ -34,7 +34,7 @@ ht-degree: 96%
 
 ![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
-拡張分析を使用して現在の作業を管理し、将来の作業を計画する方法について詳しくは、[拡張分析の学習パス](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)を参照してください。
+拡張分析を使用して現在の作業を管理し、将来の作業を計画する方法について詳しくは、[拡張分析の学習パス](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)を参照してください。
 
 ## 前提条件
 
@@ -46,7 +46,7 @@ ht-degree: 96%
 
 * Workfront 管理者に、拡張分析をレイアウトテンプレートに追加してもらいます。
 
-  詳しくは、[拡張分析：レイアウトテンプレートに分析を追加](https://experienceleague.adobe.com/ja/docs/workfront/using/home)を参照してください。
+  詳しくは、[拡張分析：レイアウトテンプレートに分析を追加](https://experienceleague.adobe.com/en/docs/workfront/using/home)を参照してください。
 
 プロジェクトおよびタスクの情報を表示するには、以下が必要です。
 

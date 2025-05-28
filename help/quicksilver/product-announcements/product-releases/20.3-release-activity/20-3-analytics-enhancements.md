@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '195'
 ht-degree: 100%
 
 ---
@@ -34,5 +34,4 @@ Workfront で Analytics の機能強化が利用できるようになりまし�
 
 インサイトの獲得だけでなく、ステータスの更新、更新の依頼、他のユーザーへのタスクの割り当てなど、タスクに対するアクションを実行することもできます。これらのアクションは、拡張分析領域から直接実行できます。
 
-詳しくは、[拡張分析の概要](../../../enhanced-analytics/enhanced-analytics-overview.md)を参照してください。
 

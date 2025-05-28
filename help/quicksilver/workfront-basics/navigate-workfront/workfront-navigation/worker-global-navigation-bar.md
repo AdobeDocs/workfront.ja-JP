@@ -7,9 +7,9 @@ description: メインメニューは、 [!DNL Adobe Workfront] 管理者に割�
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '452'
 ht-degree: 93%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 93%
 
 次のエリアは、[!UICONTROL 作業者]のデフォルトレイアウトに含まれています。
 
-* **[!UICONTROL ホーム]**：割り当てられたタスクやイシューはここに表示されます。これはワーカーのデフォルトのランディングページですが、Workfront管理者がレイアウトテンプレートに追加しない限り、[!UICONTROL &#x200B; メインメニュー &#x200B;] には表示されません。  詳しくは、[[!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)の基本を学ぶを参照してください。
+* **[!UICONTROL ホーム]**：割り当てられたタスクやイシューはここに表示されます。これはワーカーのデフォルトのランディングページですが、Workfront管理者がレイアウトテンプレートに追加しない限り、[!UICONTROL  メインメニュー ] には表示されません。  詳しくは、[[!UICONTROL ホーム]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)の基本を学ぶを参照してください。
 
 * **[!UICONTROL プロジェクト]**：自分と共有されているプロジェクトはここに表示されます。詳しくは、[プロジェクト：記事インデックス](../../../manage-work/projects/projects-overview.md)を参照してください。
 
@@ -45,8 +45,6 @@ ht-degree: 93%
 * **[!UICONTROL ドキュメント]**：ここで、自分と共有しているドキュメントをアップロードしたり、レビューしたりできます。詳しくは、[ドキュメント](../../../documents/documents-overview.md)を参照してください。
 
 * **[!UICONTROL リソース]**：リソース割り当ては、リソース計画ツールおよびリソースプールは、ここで表示できます。詳しくは、[リソースの管理](../../../resource-mgmt/manage-resources.md)を参照してください。
-
-* **[!UICONTROL 分析]**：プロジェクトデータを調べ、計画と完了を使用してトレンドを特定します。このエリアには、表示アクセス権のあるプロジェクトに関するインサイトが表示されます。詳しくは、[強化された分析の概要](../../../enhanced-analytics/enhanced-analytics-overview.md)を参照してください。
 
 * **[!UICONTROL ボード]**：目的の作業を反映した列とカードを含む共有ボードを使用して、チームメンバーとの柔軟性と共同作業を実現します。詳しくは、[ボードの基本を学ぶ：記事インデックス](../../../agile/get-started-with-boards/get-started-with-boards.md)を参照してください。
 

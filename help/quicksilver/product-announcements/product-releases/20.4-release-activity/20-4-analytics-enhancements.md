@@ -1,15 +1,15 @@
 ---
-title: 20. 4 の分析の機能強化
+title: ​20. 4 の分析の機能強化
 description: 20.4 の分析の機能強化
 author: Luke
 draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 39e09278-afce-4e9b-857c-f18453081f9d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 99%
+source-wordcount: '206'
+ht-degree: 100%
 
 ---
 
@@ -28,5 +28,3 @@ ht-degree: 99%
 * 各グラフには並べ替え基準メニューが表示され、アルファベット順、予定開始日順または予定完了日順に並べ替えることができるようになりました。
 
 これまで、拡張分析エリアは、表示できるプロジェクト数が 50 件までに制限されていました。
-
-この機能は、Workfront One の[拡張分析、第 1 部学習パス](https://experienceleague.adobe.com/ja/docs/workfront/using/home)に含められています。

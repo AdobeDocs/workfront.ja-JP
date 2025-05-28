@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '267'
 ht-degree: 100%
 
 ---
@@ -29,7 +29,6 @@ ht-degree: 100%
 
 デフォルトのレイアウトテンプレートでは、分析エリアがデフォルトで有効になりました。つまり、このレイアウトテンプレートに割り当てられたユーザーは、Adobe Workfront Classic のグローバルナビゲーションバーの分析エリアおよび新しい Adobe Workfront エクスペリエンスのメインメニューを確認できるようになりました。
 
-拡張分析について詳しくは、[拡張分析の概要](../../../enhanced-analytics/enhanced-analytics-overview.md)を参照してください。
 
 ## すべてのクラスターで利用可能な拡張分析
 
@@ -37,7 +36,6 @@ ht-degree: 100%
 
 以前は、Google Cloud Platform で拡張分析が使用できず、クラスター 6 のお客様が Analytics エリアにアクセスできなくなっていました。クラスター 6 の Business および Enterprise のお客様が分析エリアにアクセスできるようになりました。
 
-拡張分析について詳しくは、[拡張分析の概要](../../../enhanced-analytics/enhanced-analytics-overview.md)を参照してください。
 
 ## すべてのクラスターでユーザーページを利用できるようになりました
 
@@ -49,4 +47,4 @@ ht-degree: 100%
 
 このページは、以前、Workfront Classic の 20.3 リリースと、その他すべてのクラスター向けの新しい Workfront エクスペリエンスで使用できました。
 
-ユーザーページで使用できるグラフについて詳しくは、[拡張分析の概要](../../../enhanced-analytics/enhanced-analytics-overview.md)を参照してください。
+
