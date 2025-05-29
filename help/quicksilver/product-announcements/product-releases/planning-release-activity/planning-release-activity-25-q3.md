@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 870e4130daf9924bf85b59eb09f7d548b8152096
+source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1308'
 ht-degree: 3%
 
 ---
@@ -21,6 +21,30 @@ ht-degree: 3%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## リクエストエリアの「計画」タブに追加されたフィルター、列、追加フィールド
+
+>[!NOTE]
+>
+>* プレビュー：2025年5月29日（PT）
+>* 実稼動迅速リリース：2025 年 6 月 12 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
+「リクエスト」領域の「計画」タブにあるリクエストのリストに次の機能を追加しました。
+
+* リクエストを追加したユーザーを示す「入力者」列
+* 「計画」タブに表示するリクエスト数を制限するフィルター。 このリストは、次の項目でフィルタリングできます。
+
+   * リクエストフォームの元のWorkspace
+   * リクエストフォームに関連付けられたレコードタイプ
+   * リクエストのエントリ日
+   * リクエストフォームの名前
+   * リクエストのステータス
+   * リクエストを入力したユーザーの名前。
+
+* 列は、計画要求リストのフィールド（または列）を表示または非表示にするように制御します。
+
+詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 ## タイムラインビューでコンパクトモードでレコードを分類する際の新しいエクスペリエンス
 
@@ -126,7 +150,7 @@ CSV または Excel ファイルを使用してレコードタイプにレコー
 >[!NOTE]
 >
 >この変更は、システム管理者と Standard ライセンスを持つすべての新規ユーザーと既存ユーザーに対して表示されます。
->レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
+>>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
 
 詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 

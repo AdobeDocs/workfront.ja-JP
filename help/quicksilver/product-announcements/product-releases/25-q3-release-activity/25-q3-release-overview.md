@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: f9b0f6b246a723ce407de05c4ae4d5dec0c06fe2
+source-git-commit: 655fc2407583ba65c1f3af7659274bca212eacca
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 31%
+source-wordcount: '1087'
+ht-degree: 28%
 
 ---
 
@@ -89,32 +89,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-<!--
-
-### Home enhancements
+### ホームの機能強化
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Feature</strong>
+        <td><strong>機能</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My approvals widget now automatically sorts by deadline </a><p></p>
-            <p>We have updated the My Approvals widget in home to sort by deadline (descending) by default. This allows the most urgent approvals to appear at the top of the list. </p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> 承認ウィジェットが期限 </a> に基づいて自動的に並べ替わるようになりました<p></p>
+            <p>ホームの自分の承認ウィジェットを更新し、デフォルトで期限（降順）で並べ替えました。 これにより、最も緊急の承認をリストの上部に表示できます。 </p>
         </td>
-        <td>May 15, 2025</td>
-        <td>May 15, 2025</td>
-        <td>July 17, 2025</td>
+        <td>2025年5月29日（PT）</td>
+        <td>2025年6月12日（PT）</td>
+        <td>2025年7月17日（PT）</td>
     </tr>     
   </tbody>
-</table> 
-
--->
+</table>
 
 ### プロジェクトの強化
 
@@ -127,6 +123,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">API 呼び出しのデータベースへの実際の時間の保存方法の変更 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>この更新により、プロジェクト、タスク、および問題の実際の時間数をデータベースに保存する方法に変更が生じます。 この更新から、実際の時間は、<code>actualWorkRequiredDouble</code> の値フィールド（時間単位の値）を使用するようになります。</p>
+        </td>
+        <td>2025年5月27日（PT）</td>
+        <td>2025年5月27日（PT）</td>
+        <td>2025年5月27日（PT）</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> タスクまたは問題ヘッダーで完了率スライダーを使用してを更新します </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>タスクと問題に対する完了率スライダーの動作を更新しました。 タスクまたは問題のヘッダーの完了率の青いバブルをスライドすると、タスクまたは問題の完了率が 5 ポイント増分で更新されるようになりました。 この更新の前は、青い完了率のバブルをスライドさせることで、1 点増分でタスクまたは問題を更新していました。</p>
+        </td>
+        <td>2025年5月27日（PT）</td>
+        <td>2025年5月27日（PT）</td>
+        <td>2025年5月27日（PT）</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> プロジェクト、タスク、問題で AI アシスタントを使用する際の透明性が向上 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -203,22 +217,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI アシスタント使用時の透明性の向上 </a></p>
-                        <p>Workfront プロジェクト、タスク、問題に関する質問への回答を AI アシスタントがどのように見つけているかを明確にするために、この情報を質問の回答に追加しました。 現在、AI アシスタントの出力に検索情報が含まれています。 この情報は、AI アシスタントが質問を正しく識別したことを確認し、回答のコンテキストを理解する手段として使用できます。 </p>
-                    </td>
-                    <td><p><b>公開日：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース：2025 年第 3 四半期のリリース期間中<br /></p>
-                            </li>
-                            <li>
-                                <p>実稼動リリース：プレビューにリリースしてから最短で 2 週間後（特に指定のない限り）</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <p><span class="bold">機能</span>
@@ -262,7 +260,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 

@@ -4,11 +4,10 @@ description: 2025 年第 3 四半期ホームの機能強化
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: fe2e7c5ad5d2d2f32d66f5dfd3e1fd69eca8ca92
+exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
+source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '130'
 ht-degree: 10%
 
 ---
@@ -21,7 +20,12 @@ ht-degree: 10%
 
 ## 承認ウィジェットが期日別に自動的に並べ替わるようになりました
 
+>[!NOTE]
+>
+>* プレビュー：2025年5月29日（PT）
+>* 実稼動迅速リリース：2025 年 6 月 12 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
 ホームの自分の承認ウィジェットを更新し、デフォルトで期限（降順）で並べ替えました。 これにより、最も緊急の承認をリストの上部に表示できます。
 
 以前は、ウィジェットをエントリ日で並べ替えていたため、優先度を決定するのが難しかったです。
-

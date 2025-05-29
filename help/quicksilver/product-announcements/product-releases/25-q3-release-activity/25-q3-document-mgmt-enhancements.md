@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: c8222e177d7e1ab9f62f5a520a2a941ca87cc27a
+source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 3%
@@ -31,7 +31,7 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->* プレビューリリース：2025 年 5 月 31 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 5 月 31 日（PT）
+>* プレビューリリース：2025 年 6 月 2 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 6 月 2 日（PT）
 
 Googleは、Google Drive にアクセスするサードパーティアプリケーション向けに [ セキュリティ制御の強化 ](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) を行っており、アプリケーションにはユーザーごとの同意モデルを採用する必要があります。 その結果、Workfrontに表示するには、個々のアセットを 1 つずつリンクする必要があります。 詳しくは、[ ドキュメント統合の設定 ](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) を参照してください。
 

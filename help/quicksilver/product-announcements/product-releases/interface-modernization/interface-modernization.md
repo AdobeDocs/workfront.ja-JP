@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f8b660859269694f13410e4bc6894d6677cd04a2
+source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
 workflow-type: tm+mt
-source-wordcount: '3995'
+source-wordcount: '4043'
 ht-degree: 2%
 
 ---
@@ -24,6 +24,15 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 
 ## 管理と設定
+
+<!--
+### Interface updates for the Import Data (Kick-Starts) page
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+
+For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
 
 ### 設定の「アクセスログ」タブに対するインターフェイスの更新
 
@@ -100,6 +109,14 @@ Workfront アカウントへのサポートアクセス権を付与するため�
 
 ## プロジェクト
 
+### 「問題を削除」ボックスのルックアンドフィールの更新
+
+**プレビューリリース：2025 年 5 月 29 日（PT）、実稼動リリース：2025 年 6 月 5 日（PT）**
+
+1 つまたは複数のイシューを削除する際の、「イシューを削除」ボックスのルックアンドフィールを更新しました。 「問題を削除」ボックスが、Workfrontの他の領域と一致するようになりました。
+
+詳しくは、[ イシューの削除 ](/help/quicksilver/manage-work/issues/manage-issues/delete-issues.md) を参照してください。
+
 ## プロジェクトまたはテンプレートの [ 新しい危険 ] ボックスおよび [ 危険の編集 ] ボックスに対する更新を表示および確認します
 
 **プレビューリリース：2025 年 5 月 22 日（PT）、実稼動リリース：2025 年 5 月 29 日（PT）**
@@ -147,6 +164,17 @@ URL を置き換えてサポート対象ページに移動するか、ダッシ�
 
 
 ## ユーザー
+
+<!--
+### Interface updates to the organizational chart
+
+**Preview release: May 29, 2025; Production release: June 5, 2025**
+
+We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+
+To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+
+For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).-->
 
 ### 新しいユーザー登録ページへのインターフェイスのアップデート
 
