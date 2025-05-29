@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 2cf14ed7a4d96760c2c64ea8cca869ba5ba54c73
+source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
 workflow-type: tm+mt
-source-wordcount: '4043'
+source-wordcount: '4126'
 ht-degree: 2%
 
 ---
@@ -25,14 +25,13 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 ## 管理と設定
 
-<!--
-### Interface updates for the Import Data (Kick-Starts) page
+### データの読み込み（キックスタート）ページのインターフェイスの更新
 
-**Preview release: May 29, 2025; Production release: June 5, 2025**
+**プレビューリリース：2025 年 5 月 29 日（PT）、実稼動リリース：2025 年 6 月 5 日（PT）**
 
-We have updated the Import Data (Kick-Starts) page in the Setup area with a more modern design that is consistent with other areas of Workfront. Also, the import process was streamlined so that the selected file is uploaded immediately. You no longer have to click a separate **Upload** button to complete the import after choosing the file.
+設定エリアのデータの読み込み（キックスタート）ページを、Workfrontの他のエリアと一致する、より現代的なデザインに更新しました。 また、キックスタートのインポートプロセスが合理化され、選択したファイルが直ちにアップロードされるようになりました。 ファイルを選択した後に読み込みを完了するために、別の **アップロード** ボタンをクリックする必要がなくなりました。
 
-For information, see [Import data into Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).-->
+詳しくは、[ キックスタートテンプレートを使用したWorkfrontへのデータの読み込み ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md) を参照してください。
 
 ### 設定の「アクセスログ」タブに対するインターフェイスの更新
 
