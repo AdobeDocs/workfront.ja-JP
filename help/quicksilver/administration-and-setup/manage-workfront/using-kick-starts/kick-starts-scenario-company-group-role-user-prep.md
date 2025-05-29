@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 2a216610f6ea8ad8c4698964f96f2357bf3b5943
+source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1216'
 ht-degree: 52%
 
 ---
@@ -56,25 +56,11 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 インポートする会社、グループ、役割を次の表に示します。
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th><strong>会社</strong> </th> 
-   <th><strong>グループ</strong> </th> 
-   <th><strong>役割</strong> </th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td valign="top"> <p>Acme, Co</p> <p>Workfront, Inc.</p> <p><em>あなたの会社</em> </p> <p>XYZ, Inc.</p> </td> 
-   <td valign="top"> <p valign="top" rowspan="7">財務</p> <p valign="top" rowspan="7">IT </p> <p valign="top" rowspan="7">マーケティング </p> <p valign="top" rowspan="7">販売</p> </td> 
-   <td valign="top"> <p valign="top">ビジネスアナリスト</p> <p valign="top">コントローラークリエイティブ</p> <p valign="top">設計者</p> <p valign="top">リソース管理者</p> <p valign="top">スクラムマスター</p> <p valign="top">テクニカルライター</p> <p valign="top">Web 開発者</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+| 会社 | グループ | 役割 |
+|---|---|---|
+| Acme, Co <p>Workfront, Inc. <p>_あなたの会社_ <p>XYZ, Inc. | 財務 <p>IT <p>マーケティング <p>販売 | ビジネスアナリスト <p>コントローラークリエイティブ <p>設計者 <p>リソース管理者 <p>スクラムマスター <p>テクニカルライター <p>Web 開発者 |
+
+{style="table-layout:auto"}
 
 役割名は一意である必要があります。 既存の担当業務はインポートできません。
 
@@ -82,8 +68,9 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 ### ユーザー 1
 
-| **名前（名）** | Chris |
+| 属性 | 値 |
 |---|---|
+| **名前（名）** | Chris |
 | **名前（姓）** | Manning |
 | **ユーザー名またはメール** | mailto:cmanning@foo.com |
 | **パスワード** | updateMe |
@@ -96,8 +83,9 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 ### ユーザー 2
 
-| **名** | Jennifer |
+| 属性 | 値 |
 |---|---|
+| **名** | Jennifer |
 | **姓** | Campbell |
 | **ユーザー名／E メール** | jcampbell@foo.com |
 | **パスワード** | updateMe |
@@ -110,8 +98,9 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 ### ユーザー 3
 
-| **名** | Jill |
+| 属性 | 値 |
 |---|---|
+| **名** | Jill |
 | **姓** | Sullivan |
 | **ユーザー名／E メール** | jsullivan@foo.com |
 | **パスワード** | updateMe |
@@ -124,8 +113,9 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 ### ユーザー 4
 
-| **名** | Marc |
+| 属性 | 値 |
 |---|---|
+| **名** | Marc |
 | **姓** | Lewis |
 | **ユーザー名／E メール** | mlewis@foo.com |
 | **パスワード** | updateMe |
@@ -138,8 +128,9 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 ### ユーザー 5
 
-| **名前（名）** | Pam |
+| 属性 | 値 |
 |---|---|
+| **名前（名）** | Pam |
 | **名前（姓）** | Reynolds |
 | **ユーザー名またはメール** | preynolds@foo.com |
 | **パスワード** | updateMe |
@@ -152,8 +143,9 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 ### ユーザー 6
 
-| **名前（名）** | Ray |
+| 属性 | 値 |
 |---|---|
+| **名前（名）** | Ray |
 | **名前（姓）** | Andrews |
 | **ユーザー名またはメール** | randrews@foo.com |
 | **パスワード** | updateMe |
@@ -184,9 +176,9 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 1. **CMPY Company** シートに移動します。
 
-   会社が既にシステム内にない場合は、空にする必要があります。 ![ 会社案内 ](assets/cmpysheet-350x16.png)
+   会社が既にシステム内にない場合は、空にする必要があります。
 
-   ![ 会社 ID](assets/companyid--1--350x78.png)
+   ![ 会社シート ](assets/cmpysheet-350x16.png)![ 会社 ID](assets/companyid--1--350x78.png)
 
 1. **isNew** 列に **TRUE** と入力します。
 
@@ -296,23 +288,18 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
    ユーザーとグループの割り当てごとに、この手順を繰り返します。
 
-   ![ 会社 ID](assets/companyid--1--350x78.png)
-
-   ![ 会社 ID を貼り付け ](assets/pastecompanyid-350x84.png)
+   ![ 会社 ID](assets/companyid--1--350x78.png)![ 会社 ID を貼り付け ](assets/pastecompanyid-350x84.png)
 
 1. ユーザーの担当業務の詳細を入力します。
 
    シナリオによると、Chris Manning にはビジネスアナリストの役割があります。**ROLE Role** シートで Business Analyst ロールの ID を探してコピーし、「**USER User** シートでユーザーの行の **setRoleID** 列に貼り付けます。&#x200B;ユーザーとグループの割り当てごとに、この手順を繰り返します。
 
-   ![ 役割 ID をコピー ](assets/copyroleid-350x149.png)
-
-   ![ 役割 ID を貼り付け ](assets/pasteroleid-350x95.png)
+   ![ 役割 ID をコピー ](assets/copyroleid-350x149.png)![ 役割 ID を貼り付け ](assets/pasteroleid-350x95.png)
 
 1. 必要に応じて、その他のユーザーの詳細を入力し、ファイルを保存します。
 1. Excel ファイルを読み込みます。
 
    [キックスタートテンプレートを使用した Adobe Workfront へのデータの読み込み](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md)で示されている手順に従います。
-
 
 >[!NOTE]
 >
