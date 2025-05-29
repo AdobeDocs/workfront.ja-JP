@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 author: Courtney
 hide: true
 hidefromtoc: true
-source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
+source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '473'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 # Workfrontに対する HIPAA 対応
 
-Workfrontのお客様のうち、HIPAA で定義されている **ビジネスアソシエイト** または **対象エンティティ** で、そのビジネスアソシエイトがAdobe Workfrontを提供している方は、次のガイドラインを使用してWorkfrontを HIPAA 対応として設定する必要があります。
+HIPAA で定義されているWorkfrontのお客様のうち、ビジネスアソシエイトまたは対象エンティティ（その代わりにビジネスアソシエイトがAdobe Workfrontを提供するもの）は、次のガイドラインを使用してWorkfrontを HIPAA 対応として設定する必要があります。
 
 
 ## パスワード要件
@@ -35,7 +35,7 @@ Workfrontのお客様のうち、HIPAA で定義されている **ビジネス�
 | **セキュリティ設定** | **何ですか？** | **要件** |
 |----------------------|------------------|------------------|
 | ログイン エラーの最大数 | ログインの試行に失敗して、ユーザーがロックアウトされる原因は何件ですか？ | 5 分以内に 5 回まで試行。30 分後に再試行できます |
-| SSO 検証エラーの最大数 | 失敗した SSO 検証がロックアウトを引き起こす回数 | 5 以下（SSO を使用しているお客様にのみ適用） |
+| SSO 検証エラーの最大数 | 失敗した SSO 検証でロックアウトが発生する回数 | 5 以下（SSO を使用しているお客様にのみ適用） |
 
 
 ## セッション要件
