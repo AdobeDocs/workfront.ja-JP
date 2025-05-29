@@ -1,17 +1,17 @@
 ---
 content-type: overview;how-to-procedural
 product-area: projects
-keywords: 分析, 指標, プロジェクト, 強化機能, タスク, 割り当て先, 完了, ステータス, 期限切れ, 予定
+keywords: 分析、指標、プロジェクト、タスク、担当者、完了、ステータス、期限切れ、予定
 navigation-topic: manage-projects
 title: プロジェクト指標の概要
 description: プロジェクト指標を使用すると、プロジェクトで発生していることをビジュアライゼーションで表示し、プロジェクトのニーズやステータスをすばやく評価できます。プロジェクトの左側のパネルにある指標領域の解釈方法を説明します。
 author: Alina
 feature: Work Management
 exl-id: 54c2a59d-9f6b-4126-9526-5169aeda8517
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 99%
+source-wordcount: '1163'
+ht-degree: 98%
 
 ---
 
@@ -21,32 +21,35 @@ ht-degree: 99%
 
 ## アクセス要件
 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront プラン*</td> 
+   <td role="rowheader">Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront ライセンス*</td> 
-   <td> <p>レビュー以上 </p> </td> 
+   <td> <p>新規：ライト以上 </p>
+   <p>現在：レビュー以上 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル*</td> 
-   <td> <p>プロジェクトへの表示アクセス</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。プロジェクトへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセス権の付与</a>を参照してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。 </p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへの表示アクセス</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する権限の表示</p> <p> プロジェクト権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Adobe Workfront でのプロジェクトの共有</a>を参照してください。</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトに対する権限の表示</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## 前提条件
 
@@ -72,10 +75,11 @@ ht-degree: 99%
 
 これらのタスクやイシューの確認について詳しくは、[指標の詳細を表示](#view-metrics-details)を参照してください。
 
+<!--this was deprecated: 
 >[!TIP]
 >
->プログラムやポートフォリオ内のプロジェクトのグループに関する指標を上位レベルで表示するには、拡張分析領域に移動します。\
->拡張分析について詳しくは、[拡張分析の概要](../../../enhanced-analytics/enhanced-analytics-overview.md)を参照してください。
+>To see metrics at a higher level for a group of projects within a program, portfolio, etc., navigate to the Enhanced analytics area.  
+>To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).-->
 
 ## プロジェクトの KPI
 

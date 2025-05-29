@@ -6,10 +6,10 @@ description: 適切なアクセス権や権限を持っている場合は、Adob
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 79%
+source-wordcount: '767'
+ht-degree: 75%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 79%
 
 <!--Audited: 05/2025-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>    
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。</span>
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). -->
+<span class="preview"> 詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください </span>。
 
 適切なアクセス権や権限を持っている場合は、Adobe Workfront でイシューやリクエストを削除できます。
 
@@ -116,7 +116,7 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
    選択したプロジェクトに関連付けられているイシューのリストが右側に表示されます。
 1. リストで 1 つ以上のイシューを選択し、リストの上部にある **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 
-1. 削除が許可されている場合は、「はい、削除します **をクリックします**。<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. 削除が許可されている場合は、「**<span class="preview">削除</span>**」をクリックします。
 
    時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
    イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [ イシューの削除に関する考慮事項 ](#considerations-for-deleting-issues) の節を参照してください。
@@ -136,7 +136,7 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
    ![ 問題の詳細メニュー ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 「**イシューを削除**」をクリックします。
-1. 削除が許可されている場合は、「はい、削除します **をクリックします**。<!--change this to this button instead: <span class="preview">*Delete*</span>-->
+1. 削除が許可されている場合は、「**<span class="preview">削除</span>**」をクリックします。
 
    時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
    イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [ イシューの削除に関する考慮事項 ](#considerations-for-deleting-issues) の節を参照してください。

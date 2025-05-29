@@ -6,10 +6,10 @@ description: 財務は、プロジェクトで記録された時間数や、コ�
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1633'
-ht-degree: 88%
+source-wordcount: '1632'
+ht-degree: 87%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 88%
    <td>任意 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td>
    <p>新規：標準</p>
    <p>または</p>
@@ -55,7 +55,7 @@ ht-degree: 88%
 
 ## Adobe Workfront での財務計算に関する検討事項
 
-強化機能分析では、以下の方法で財務を計算します。
+財務は、次の方法でプロジェクトに対して計算されます。
 
 * プロジェクトの「財務の再計算」オプションを使用すると、プロジェクトのコストと収益を手動で再計算できます。
 * また、一部のアクションは自動再計算をトリガーにしています。

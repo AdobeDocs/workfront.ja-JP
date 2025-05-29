@@ -6,10 +6,10 @@ description: 既存のプログラムをポートフォリオに追加できま�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 73dbe277-12d2-4041-8a02-91ccf5f8b465
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 50%
+source-wordcount: '259'
+ht-degree: 55%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 50%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview"> 詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 既存のプログラムをポートフォリオに追加できます。プログラムは 2 つの異なるポートフォリオに存在できないため、既存のプログラムを追加すると、そのプログラムは 1 つのポートフォリオから別のポートフォリオへと永続的に移動されます。
 
@@ -62,9 +62,9 @@ ht-degree: 50%
 1. 「**[!UICONTROL 新規プログラム]**」をクリックします。
 1. 「**[!UICONTROL 既存のプログラム]**」をクリックします。
 
-   <span class="preview"> 「**プログラムを追加** ボックスが開きます。</span> <!--check screen shot - I logged changes for this casing-->
+   **プログラムの追加** ボックスが開きます。<!--check screen shot - I logged changes for this casing-->
 
-   <span class="preview">![ プログラムボックスを追加 ](assets/add-programs-box.png)</span>
+   ![ プログラムボックスを追加 ](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
@@ -74,7 +74,7 @@ ht-degree: 50%
 
    複数のプログラムを追加できます。
 
-1. （オプション）プログラムをポートフォリオに追加しない場合は、プログラム名の横にある <span class="preview">**削除** アイコン ![ 削除アイコン ](assets/delete-icon.png)</span> をクリックします。
+1. （オプション）プログラムをポートフォリオに追加しない場合は、プログラム名の横にある **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
 1. **[!UICONTROL プログラムの追加]** をクリックします。<!--check this button in the UI after they implemented the changes??-->
 

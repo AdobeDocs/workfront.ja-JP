@@ -6,10 +6,10 @@ description: リスクとは、プロジェクトが時間通りに、または�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 61%
+source-wordcount: '1080'
+ht-degree: 63%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 61%
 
 <!--Audited: 01/2025-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview"> 詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 リスクとは、プロジェクトが時間通りに、または予算内で完了することを妨げる可能性のあるイベントまたは要因のことです。リスクは、プロジェクトのビジネスケース作成の一部として、または「リスク」タブを使用して記録できます。
 
@@ -117,9 +117,9 @@ ht-degree: 61%
 
    **新規危険** をクリックします。
 
-   <span class="preview"> 「新しい危険 **ボックスが開きます**。</span>
+   **新しい危険** ボックスが開きます。
 
-   <span class="preview">![ 新しい危険ボックス ](assets/new-risk-box.png)</span>
+   ![ 新しい危険ボックス ](assets/new-risk-box.png)
 
 1. （条件付き） **新規危険** ボックスに危険を追加する場合、次の情報を入力します。
 
@@ -175,7 +175,7 @@ ht-degree: 61%
    * **実績コスト**：危険が発生した場合の危険の実績コストを示します。
    * **軽減計画**：リスクを軽減するために、計画の説明を更新します。
 
-1. <span class="preview">「**保存**」をクリックします。</span>
+1. **保存**&#x200B;をクリックします。
 1. （オプション）リスクのリストに&#x200B;**標準**&#x200B;ビューを適用する場合、**ステータス**&#x200B;ドロップダウンメニューでリスクの「**ステータス**」を編集します。
 
    >[!NOTE]

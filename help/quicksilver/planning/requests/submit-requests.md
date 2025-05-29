@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '1914'
-ht-degree: 6%
+source-wordcount: '2095'
+ht-degree: 5%
 
 ---
 
@@ -222,41 +222,46 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
 1. （任意）確認メッセージで「**リクエストを表示**」をクリックしてリクエストを開くか、「**X**」アイコンをクリックして確認を閉じます。
 
-1. （オプション） **リクエスト** エリアの「**計画**」タブをクリックしてリクエストを表示し、リクエストの名前をクリックします。
+1. （任意）「**リクエスト**」エリアの「**計画**」タブをクリックして、リクエストを表示します。
+Planning 要求フォームに送信された表示アクセス権を持つすべての要求がリストに表示されます。
+1. （オプション）次のいずれかの操作を行います。
+
+   <div class="preview">
+
+   * 「**フィルター**」をクリックして、「計画」タブに表示するリクエストの条件の追加を開始します。
+
+     ![ 「計画要求」タブでのフィルターの編集 ](assets/filters-editing-box-in-requests-planning-tab.png)
+
+     次のフィールドでフィルタリングできます。
+
+      * **Workspace**: リクエストフォームが関連付けられているワークスペース。
+      * **レコードタイプ**：リクエストフォームが関連付けられているレコードタイプ。
+      * **エントリ日**：リクエストが送信された日付。
+      * **リクエストフォーム**：リクエストの送信に使用されるリクエストフォームの名前。
+      * **ステータス**：リクエストのステータス。
+      * **入力者**：リクエストを追加したユーザーの名前。 Workfront以外のユーザーとリクエストが追加された場合は、「入力者 **フィールドに `N/A` が表示さ** ます。
+
+        複数のフィルターを **And** または **Or** で結合できます。
+フィルター条件を追加すると、リクエストリストが自動的にフィルタリングされます。
+
+   * **列** をクリックし、リクエストリストの列の非表示、表示、並べ替えを行います。
+
+     >[!TIP]
+     >
+     >これ以上列を追加することはできません。
+     >
+     >「**件名** フィールドを表示することはできません。
+
+     ![](assets/columns-editing-box-in-requests-planning-tab.png)
+
+
+1. リスト内のリクエストの名前をクリックします。
 
    リクエストの詳細ページが開きます。
 
    ![ リクエストの詳細ページ ](assets/request-details-page.png)
 
-   <!--replace the step directly above with this when we release filters and columns: 
-      1. (Optional) Click the **Planning** tab in the **Requests** area to view your requests. 
-         All the requests you have access to view that were submitted to a Planning request form display in a list. 
-      1. (Optional) Do any of the following:
-         <div class="preview">
-         * Click **Filters** and start adding conditions for what requests you want to view in the Planning tab. 
-                     ![Editing filters in the Planning requests tab](assets/filters-editing-box-in-requests-planning-tab.png)
-            You can filter by any of the following fields:  
-            * **Workspace**: The workspace the request form is associated with.
-            * **Record type**: The record type the request form is associated with.
-            * **Entry date**: The date when the request was submitted.
-            * **Request form**: The name of the request form used to submit the request.
-            * **Status**: The status of the request.
-            * **Entered by**: The name of the user who added the request. If the request was added with someone outside of Workfront, the **Entered by** field shows `N/A`.
-            You can have multiple filters joined by either And or Or.  
-            The request list is filtered automatically, as you add the filter conditions. 
-         * Click **Columns** and hide, show, or rearrange the columns in the request list. 
-            >[!TIP]
-            >
-            >You cannot add any more columns. 
-            >
-            >You cannot display the **Subject** field.
-                     ![](assets/columns-editing-box-in-requests-planning-tab.png)
-
-      1. Click the name of a request in the list. 
-   The request details page opens. 
-   ![Request details page](assets/request-details-page.png)             
-      </div>
-      -->
+   </div>
 
 
 1. （条件付き）リクエストフォームが承認と関連付けられていない場合、またはリクエストが承認されている場合は、リクエストの名前をクリックし、「**レコード**」フィールドのレコードの名前をクリックします。

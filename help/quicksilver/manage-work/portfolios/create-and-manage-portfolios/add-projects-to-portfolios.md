@@ -6,10 +6,10 @@ description: プロジェクトの開始時に、プロジェクトをポート�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 65%
+source-wordcount: '417'
+ht-degree: 70%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 65%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview"> 詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 プロジェクトの開始時に、プロジェクトをポートフォリオに追加することをお勧めします。ただし、プロジェクトの全期間中いつでもポートフォリオに追加できます。
 
@@ -48,7 +48,7 @@ ht-degree: 65%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>[!UICONTROL 編集 &#x200B;] ポートフォリオへのアクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td> <p>[!UICONTROL 編集 ] ポートフォリオへのアクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -71,7 +71,7 @@ ht-degree: 65%
 
    >[!TIP]
    >
-   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -104,9 +104,9 @@ ht-degree: 65%
 
    ![ 新規プロジェクトドロップダウン ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
-1. （条件付き）既存のプロジェクトを追加することを選択した場合は、「<span class="preview">**プロジェクトの追加** ボックスが開きます。</span> <!--check this after UI changes-->
+1. （条件付き）既存のプロジェクトを追加することを選択した場合は、「**プロジェクトの追加** ボックスが開きます。<!--check this after UI changes-->
 
-   <span class="preview">![ 既存のプロジェクトを追加 ](assets/add-existing-projects-to-portfolios-box.png)</span> <!--check this after UI changes-->
+   ![ 既存のプロジェクトを追加 ](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
 1. 「**[!UICONTROL このPortfolioにプロジェクトを追加]**」フィールドにプロジェクトの名前を入力し始め、リストに表示されたらクリックします。 <!--check this after UI changes-->
 

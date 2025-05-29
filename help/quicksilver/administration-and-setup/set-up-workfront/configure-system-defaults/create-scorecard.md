@@ -8,10 +8,10 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '781'
-ht-degree: 66%
+source-wordcount: '730'
+ht-degree: 69%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 66%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview"> 詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 スコアカードは、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合するかを測定します。スコアカードは、多くの場合、組織の使命、価値、戦略的目標を反映しています。
 
@@ -73,9 +73,9 @@ ht-degree: 66%
 
 1. 「**[!UICONTROL スコアカード]**」をクリックし、「**[!UICONTROL 新規スコアカード]**」をクリックします。
 
-   <span class="preview"> 「**新規スコアカード** ボックスが開きます。</span>
+   「**新規スコアカード**」ボックスが開きます。
 
-   <span class="preview">![ 新しいスコアカードボックス ](assets/new-scorecard-350x173.png)</span>
+   ![ 新しいスコアカードボックス ](assets/new-scorecard-350x173.png)
 
 1. **[!UICONTROL スコアカード名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を指定します。
 
@@ -126,9 +126,9 @@ ht-degree: 66%
 1. 左側のパネルで **[!UICONTROL スコアカード]** をクリックします。
 1. リストでスコアカードを選択し、スコアカードリストの上部にある **コピー** アイコン ![ スコアカードコピー ](assets/copy-scorecard-icon.png) アイコンをクリックします。
 
-   <span class="preview"> 「**スコアカードをコピー** ボックスが開きます。</span>
+   「**スコアカードをコピー** ボックスが開きます。
 
-   <span class="preview">![ スコアカードボックスをコピー ](assets/copy-scorecard-box.png)</span>
+   ![ スコアカードボックスをコピー ](assets/copy-scorecard-box.png)
 
 1. 次の情報を指定します。
 

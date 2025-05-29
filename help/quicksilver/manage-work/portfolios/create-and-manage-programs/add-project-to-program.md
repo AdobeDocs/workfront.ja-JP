@@ -6,10 +6,10 @@ description: ポートフォリオ内のプログラムに追加することで�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1fecc4d1-4c24-495c-98f5-824e13967369
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
 workflow-type: tm+mt
-source-wordcount: '531'
-ht-degree: 53%
+source-wordcount: '480'
+ht-degree: 56%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 53%
 
 <!--Audited: 5/2025-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
-<span class="preview"> 詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。</span>
+<span class="preview">For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). </span>-->
 
 ポートフォリオ内のプログラムに追加することで、プロジェクトを整理できます。1 つのプログラム内に複数のプロジェクトを含めることができますが、1 つのプログラムに関連付けることができるのは 1 つのプログラムのみです。
 
@@ -50,7 +50,7 @@ ht-degree: 53%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
-   <td> <p>プログラムまたはそれ以降への [!UICONTROL 編集 &#x200B;] アクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
+   <td> <p>プログラムまたはそれ以降への [!UICONTROL 編集 ] アクセス</p> <p>プロジェクトへの [!UICONTROL Edit] アクセス</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -73,7 +73,7 @@ ht-degree: 53%
 
    >[!TIP]
    >
-   >[!UICONTROL &#x200B; マイルストーン &#x200B;] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
+   >[!UICONTROL  マイルストーン ] ビューでプロジェクトのリストを表示している場合、プロジェクトを追加することはできません。
 
    次のオプションから選択します。
 
@@ -104,16 +104,16 @@ ht-degree: 53%
     </tbody> 
    </table>
 
-1. （任意）「**[!UICONTROL 既存プロジェクト]**」を選択すると、「<span class="preview">**プロジェクトの追加** ボックス </span> が開きます。<!--check at unshimming-->
+1. （任意）「**[!UICONTROL 既存プロジェクト]**」を選択すると、「**プロジェクトの追加**」ボックスが開きます。<!--check at unshimming-->
 
-   <span class="preview">![ プログラムに既存のプロジェクトを追加ボックス ](assets/add-projects-to-programs-box.png)</span><!--check at unshimming-->
+   ![ プログラムに既存のプロジェクトを追加ボックス ](assets/add-projects-to-programs-box.png)<!--check at unshimming-->
 
 1. 次の操作を実行します。
 
    1. 「**[!UICONTROL プロジェクトを追加]**」ボックスの「**このプログラムにプロジェクトを追加**」フィールドにプロジェクトの名前を入力し、リストに表示されたら選択します。<!--check casing on links and buttons-->
 
       複数のプロジェクトを追加できます。
-   1. （オプション）プロジェクト名をプログラムに追加しない場合は、プロジェクト名の横にある <span class="preview">**削除** アイコン ![ 削除アイコン ](assets/delete-icon.png)</span> をクリックします。
+   1. （オプション）プロジェクト名をプログラムに追加しない場合は、プロジェクト名の横にある **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
    1. 「**[!UICONTROL プロジェクトを追加]**」をクリックします。<!--check at unshimming-->
 
