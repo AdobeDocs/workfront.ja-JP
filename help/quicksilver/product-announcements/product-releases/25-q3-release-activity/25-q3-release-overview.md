@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 655fc2407583ba65c1f3af7659274bca212eacca
+source-git-commit: b3a441f7bde5532bae4a3dcfd052752931c0fdf9
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1089'
 ht-degree: 28%
 
 ---
@@ -42,6 +42,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 * [ドキュメント管理の機能強化](#document-management-enhancements)
 * [ホームの機能強化](#home-enhancements)
+* [プロジェクトの強化](#project-enhancements)
 * [レポートの機能強化](#reporting-enhancements)
 * [更新と通知の機能強化](#update-and-notification-enhancements)
 * [その他の機能強化](#other-enhancements)
@@ -260,7 +261,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
