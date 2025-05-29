@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: ddd69533738865d09f35e290e545cfbae062c687
+source-git-commit: 779fc409d316e957a4cbec951047e41641b69863
 workflow-type: tm+mt
-source-wordcount: '13216'
+source-wordcount: '13220'
 ht-degree: 86%
 
 ---
@@ -188,7 +188,7 @@ ht-degree: 86%
          * [21.2 プロジェクトの機能強化](product-announcements/product-releases/21.2-release-activity/21-2-project-enhancements.md)
          * [21.2 リクエストの機能強化](product-announcements/product-releases/21.2-release-activity/21-2-requests-enhancements.md)
          * [21.2 リソース管理の機能強化](product-announcements/product-releases/21.2-release-activity/21-2-resource-management-enhancements.md)
-         * [21. 2 レポートの機能強化](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
+         * [&#x200B;21. 2 レポートの機能強化](product-announcements/product-releases/21.2-release-activity/21-2-reporting-management-enhancements.md)
          * [21.2 プルーフの機能強化](product-announcements/product-releases/21.2-release-activity/21-2-proofing-enhancements.md)
          * [21.2 統合の機能強化](product-announcements/product-releases/21.2-release-activity/21-2-integration-enhancements.md)
          * [21.2 その他の機能強化](product-announcements/product-releases/21.2-release-activity/21-2-other-enhancements.md)
@@ -254,7 +254,7 @@ ht-degree: 86%
          * 20.4 リリース {#release-20-4}
             * [20.4 リリースの概要](product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md)
             * [20.4 プロジェクト管理の機能強化](product-announcements/product-releases/20.4-release-activity/20-4-project-mgt-enhancements.md)
-            * [20. 4 の分析の機能強化](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
+            * [&#x200B;20. 4 の分析の機能強化](product-announcements/product-releases/20.4-release-activity/20-4-analytics-enhancements.md)
             * [20.4 リソース管理の機能強化](product-announcements/product-releases/20.4-release-activity/20-4-resource-mgt-enhancements.md)
             * [20.4 プルーフの機能強化](product-announcements/product-releases/20.4-release-activity/20-4-proof-enhancements.md)
             * [20.4 モバイルおよび統合の機能強化](product-announcements/product-releases/20.4-release-activity/20-4-mobile-enhancements.md)
@@ -802,6 +802,7 @@ ht-degree: 86%
    * [Adobe Workfront の用語集](workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
    * [Adobe Workfront ブラウザー要件](workfront-basics/workfront-browser-requirements.md)
    * [Adobe Workfront でサポートされている言語](workfront-basics/supported-languages-in-workfront.md)
+   * [Workfrontに対する HIPAA 対応](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
    * Adobe Workfront に移動 {#navigate}
       * [Adobe Workfront でのナビゲーション：記事インデックス](workfront-basics/navigate-workfront/navigate-workfront.md)
       * Adobe Workfront の検索 {#search}
