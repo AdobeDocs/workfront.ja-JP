@@ -44,7 +44,7 @@ ht-degree: 58%
 >
 >複数のユーザーがボードで同時に作業している場合は、ボードを頻繁に更新することをお勧めします。 ページを更新すると、ボード上の視覚的な変更を最新の状態に保つことができ、重複カードが取り込み列からボードに移動されるなどの問題を防ぐことができます。
 >
->Workfrontと同期し、新しいタスクや問題をボードまたは取り込み列に追加するには、ボード名の横にある「詳細」メニュー ![[!UICONTROL  詳細メニュー ]](assets/more-menu.png) をクリックし、「接続済み項目を同期」を選択します。
+>Workfrontと同期し、新しいタスクや問題をボードまたは取り込み列に追加するには、ボード名の横にある「詳細」メニュー ![[!UICONTROL &#x200B; 詳細メニュー &#x200B;]](assets/more-menu.png) をクリックし、「接続済み項目を同期」を選択します。
 
 列について詳しくは、[ボード列を管理](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md)を参照してください。接続されたカードについて詳しくは、[ボードで接続済みカードを使用](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)を参照してください。
 
@@ -125,7 +125,7 @@ ht-degree: 58%
 
    ![フィルタービルダー](assets/intake-filter-dialog6.png)
 
-   上記の例では、特定のプロジェクトからのタスクのうち、ステータスが [!UICONTROL  新規 ] または [!UICONTROL  処理中 ] のタスクのフィルターを示しています。
+   上記の例では、特定のプロジェクトからのタスクのうち、ステータスが [!UICONTROL &#x200B; 新規 &#x200B;] または [!UICONTROL &#x200B; 処理中 &#x200B;] のタスクのフィルターを示しています。
 
    >[!NOTE]
    >
