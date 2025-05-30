@@ -2,20 +2,26 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Adobe Photoshop からプルーフをアップロード
-description: アートボードをプルーフとして Adobe Workfront に直接アップロードし、詳細なレビューと承認を得ることができます。
+description: 写真ドキュメントプリセットを配達確認として直接にアップロードし  [!DNL Adobe Workfront]  徹底したレビューおよび承認を行うことができます。
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9cbf1706e6c535ff7f52627d2c6e13de65ec76d0
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 91%
+source-wordcount: '717'
+ht-degree: 84%
 
 ---
 
 # [!DNL Photoshop] からプルーフをアップロード
 
-アートボードをプルーフとして [!DNL Adobe Workfront] に直接アップロードすると、徹底的なレビューと承認を行うことができます。
+特定のPhotoshop ドキュメントプリセットタイプをプルーフとして直接 [!DNL Adobe Workfront] にアップロードし、徹底的なレビューと承認を行うことができます。
+
+>[!IMPORTANT]
+>
+>[Photoshopのテンプレートとプリセット ](https://helpx.adobe.com/photoshop/using/create-documents.html) で説明されているように、ファイルはフォトドキュメントプリセットである必要があります。
+
+
 
 ## アクセス要件
 
