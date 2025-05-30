@@ -2,21 +2,23 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: アジャイル計画ツールの概要
-description: アドホックカードと接続カードを使用してボードを作成する場合、ボードに追加のアジャイル計画ツールを使用する必要が生じる場合があります。
+title: アジャイル計画ツールの概要：記事インデックス
+description: アドホックなカードと接続されたカードを使用してボードを作成する場合、ボード上の追加のアジャイル計画ツールを利用できます。
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
-source-git-commit: df4c2a73b5eb2498564bbf27aa92a297388562cd
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 97%
+ht-degree: 72%
 
 ---
 
-# アジャイル計画ツールの概要
+# アジャイル計画ツールの概要：記事インデックス
 
-アドホックカードと接続カードを使用してボードを作成する場合、追加のアジャイル計画ツールを使用する必要が生じる場合があります。
+<!-- Audited: 5/2025 -->
+
+アドホックなカードと接続されたカードを使用してボードを作成する場合、追加のアジャイル計画ツールを利用できます。
 
 かんばんに役立つツールは次のとおりです。
 

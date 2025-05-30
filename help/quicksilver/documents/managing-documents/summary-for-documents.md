@@ -7,7 +7,7 @@ description: 「概要」では、ドキュメントリストから直接重要�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: daa46f0e2a5f656d048260d4a714ed02f01cdbbf
+source-git-commit: a9dbfe21337be9cd9929f4e982e4979265ca14e1
 workflow-type: tm+mt
 source-wordcount: '443'
 ht-degree: 58%
@@ -110,7 +110,7 @@ ht-degree: 58%
 
 ## バージョン
 
-「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。**その他** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックすると、次の操作を実行できます。
+「バージョン」セクションでは、特定のドキュメントに対して作成されたバージョンの数を確認できます。その他アイコン ![ その他アイコン ](assets/more-icon.png) をクリックすると、次の操作を実行できます。
 
 * プルーフを開きます。
 * プルーフまたはドキュメントをダウンロードします。
