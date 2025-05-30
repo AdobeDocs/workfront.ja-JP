@@ -5,7 +5,7 @@ description: AI を使用して、リクエストフィールドに自動入力�
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: 977817157e016b7cbe591d8627031208d7bf3bb3
+source-git-commit: a3e93311277bc5b68063e0ec1cbdcce3a40eb3dd
 workflow-type: tm+mt
 source-wordcount: '856'
 ht-degree: 3%
@@ -162,3 +162,4 @@ AI は、リクエストフィールドの自動入力に役立ちます。 以�
    または
 
    ページの上部で「**すべて承認**」または **すべて拒否** を選択して、すべての提案を承認または拒否します。
+
