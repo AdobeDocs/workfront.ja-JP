@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 50878d9799025f35101cc267d26f2f6330750357
+source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '764'
 ht-degree: 93%
 
 ---
@@ -1739,6 +1739,11 @@ ht-degree: 93%
    <td> </td> 
    <td> </td> 
    <td>popAccountID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>preserveBilling</td> 
   </tr> 
   <tr> 
    <td> </td> 
