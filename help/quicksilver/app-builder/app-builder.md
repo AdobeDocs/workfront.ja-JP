@@ -1,13 +1,13 @@
 ---
 title: Adobe App Builderを使用したWorkfrontのカスタムアプリケーションの作成
-description: Adobe App Builderを活用したWorkfront UI 拡張機能を使用すると、お客様およびパートナーはカスタマイズされたユーザーエクスペリエンスを作成できます。
+description: Adobe App Builder を活用した Workfront UI 拡張機能を使用すると、顧客およびパートナーはカスタマイズされたユーザーエクスペリエンスを作成できます。
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
 source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
 workflow-type: tm+mt
 source-wordcount: '1693'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
