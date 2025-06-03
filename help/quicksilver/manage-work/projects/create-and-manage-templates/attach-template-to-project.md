@@ -2,42 +2,47 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: プロジェクトにテンプレートを添付
-description: テンプレートは、プロジェクトの最初の作成段階または作成後に、プロジェクトに添付できます。
+description: プロジェクトの初期作成段階または作成後に、プロジェクトにテンプレートを添付できます。
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 91%
+source-wordcount: '1151'
+ht-degree: 50%
 
 ---
 
 # プロジェクトにテンプレートを添付
 
-テンプレートは、プロジェクトの最初の作成段階または作成後に、プロジェクトに添付できます。
+<!-- Audited: 5/2025 -->
+
+プロジェクトの初期作成段階または作成後に、プロジェクトにテンプレートを添付できます。
 
 テンプレートを使用してプロジェクトを作成する方法について詳しくは、[テンプレートを使用したプロジェクトの作成](../../../manage-work/projects/create-projects/create-project-from-template.md)を参照してください。
 
 ## アクセス要件
 
-この記事で説明する手順を実行するには以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>新規：標準</p>
+   <p>または</p>
+   <p>現在：プラン</p>
+    </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集 </p> <p>プロジェクトへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセス権の付与</a>を参照してください。</p> <p>テンプレートに対する表示アクセス権</p> <p>テンプレートの権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">テンプレートの共有</a>を参照してください。 </p> <p>テンプレートへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">テンプレートへのアクセス権の付与</a>を参照してください。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを編集 </p> <p>プロジェクトへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">プロジェクトへのアクセス権の付与</a>を参照してください。</p> <p>テンプレートに対する表示アクセス権</p> <p>テンプレートの権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">テンプレートの共有</a>を参照してください。 </p> <p>テンプレートへのアクセスについて詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">テンプレートへのアクセス権の付与</a>を参照してください。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> カスタムアクセスレベルの作成と変更 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
@@ -46,7 +51,9 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -75,24 +82,26 @@ ht-degree: 91%
 
 ## 既存のプロジェクトにテンプレートを添付 {#attach-a-template-to-an-existing-project}
 
-テンプレートは、プロジェクトページからまたはプロジェクトリストやレポートから Workfront のプロジェクトに添付できます。
+プロジェクトページまたはプロジェクトリストやレポートから、テンプレートをプロジェクトに添付できます。
 
-1. テンプレートを添付するプロジェクトに移動し、プロジェクト名の右側にある **その他** アイコン ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックします
+{{step1-to-projects}}
 
-   ![ 詳細ドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. **プロジェクト** ページで、テンプレートを添付するプロジェクトを選択します。
+
+1. プロジェクト名の右側にある **その他** アイコン ![ その他のアイコン ](assets/qs-more-icon-on-an-object.png) をクリックします。
+
+   ![ その他のドロップダウン ](assets/more-dropdown.png)
 
    または
 
    プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他のアイコン ](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![ 詳細メニューが展開されました ](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![ 詳細メニューが展開されました ](assets/more-menu-expanded.png)
 
 
-1. 「**テンプレートを添付**」をクリックします。
+1. **テンプレートを添付** をクリックします。 **テンプレートを添付** ボックスが表示されます。
 
-   「テンプレートを添付」ボックスが表示されます。
-
-1. 添付するテンプレートの名前を「**テンプレートを検索**」フィールドに値を入力し、リストに表示されたらクリックします。
+1. 添付するテンプレートの名前を「**テンプレートを検索**」フィールドに入力し始め、リストに表示されたらクリックします。
 
    または
 
@@ -102,22 +111,18 @@ ht-degree: 91%
 
    * 期間
    * 所有者
-   * トップレベルのタスクの数（最初の 3 つのトップレベルのタスクのリストが含まれます）
+   * 最上位タスクの数（最初の 3 つの最上位タスクのリストを含む）
    * タスクの合計数
    * 添付されたカスタムフォームの名前
 
    ![ テンプレートを添付ボックス ](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. （オプション）テンプレート名の左側にある **お気に入り** アイコン ![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、お気に入りにマークします。 これにより、お気に入りリスト内にテンプレートが移動します。
+1. （オプション）テンプレート名の右側にある **お気に入り** アイコン ![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、お気に入りとしてマークし、**お気に入り** リストに移動します。
 
-   ![ テンプレートリストのお気に入りアイコン ](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+1. （オプション） **お気に入り** アイコン ![ お気に入りアイコン ](assets/favorites-icon-selected.png) を再度クリックして、**お気に入り** リストから削除します。
+1. **カスタマイズと添付** をクリックします。 **テンプレートを添付** サイドパネルが開きます。
 
-1. （オプション） **お気に入り** アイコン ![ お気に入りアイコン ](assets/favorites-icon-selected.png) を再度クリックして、お気に入りリストから削除します。
-1. 「**カスタマイズと添付**」をクリックします。
-
-   ![ テンプレートを添付 ](assets/attach-template-large-box-nwe-350x262.png)
-
-1. テンプレートを添付する前に、次のセクションの情報を更新します（またはいつでも「**テンプレートを添付**」をクリックできます）。
+1. （任意）次の節の情報を更新します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -132,18 +137,18 @@ ht-degree: 91%
      </tr> 
      <tr> 
       <td role="rowheader">このテンプレートにあるタスクの先行タスクとするプロジェクト タスクを選びます。</td> 
-      <td> <p>このフィールドをクリックして、プロジェクトタスクのリストを表示します。テンプレートタスクの開始前に終了する必要があるプロジェクトタスクを選択します。または、この手順をスキップし、テンプレートを添付した後でプロジェクト内で関係を設定することもできます。 </p> <p> 「<strong>依存関係タイプ</strong>」、「<strong>ラグ</strong>」情報および先行タスクを「<strong>強制</strong>」するかどうかを選択します。 </p> </td> 
+      <td> <p>フィールドをクリックしてプロジェクトタスクのリストを表示し、テンプレートタスクを開始する前に終了する必要があるタスクを選択します。 または、この手順をスキップし、テンプレートを添付した後でプロジェクト内で関係を設定することもできます。 </p> <p> 「<strong> 依存タイプ </strong>」、「<strong> ラグタイム </strong> 情報、および「<strong> 先行タスクの適用 </strong>」チェックボックスをオンにして先行タスクを適用する場合は、を選択します。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">このテンプレートで親タスクとするプロジェクト タスクを選びます。</td> 
-      <td> すべてのテンプレートタスクの親タスクとして指定するプロジェクトタスクを選択します。選択しない場合は、現在のプロジェクトタスクの終わりにすべてのテンプレートタスクが表示されます。この手順をスキップし、テンプレートを添付した後で、プロジェクト内でタスクを移動することができます。</td> 
+      <td> すべてのテンプレートタスクの親タスクとして指定するプロジェクトタスクを選択します。何も選択しない場合、すべてのテンプレート タスクが現在のプロジェクト タスクの最後に表示されます。 この手順をスキップし、テンプレートを添付した後で、プロジェクト内でタスクを移動することができます。</td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">「オプション」セクション</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-options-section-nwe-350x78.png" style="width: 350;height: 78;"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">下に選択されたアイテムがプロジェクトにインポートされます。除外するものは選択を解除してください。</td> 
-      <td> <p>テンプレートをプロジェクトに添付する前にテンプレートからクリアする情報の横にあるチェックボックスの選択を解除します。この情報は、テンプレートからプロジェクトには転送されません。各フィールドについて詳しくは、<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">プロジェクトへのテンプレートの添付の概要</a>を参照してください。 </p> <p>重要：「<strong>キュー プロパティ &amp; 問題設定</strong>」チェックボックスを選択すると、テンプレートのキューの詳細でプロジェクトのキューの詳細が上書きされます。この場合、テンプレートの「ルーティング規則」、「キュートピック」および「トピックグループ」が、プロジェクトの各項目に追加されます。<br>プロジェクトがリクエストキューとして設定され、プロジェクトに添付するテンプレートがリクエストキューとして設定されていない場合は、「<strong>キュー プロパティ &amp; 問題設定</strong>」チェックボックスをオンのままにすると、プロジェクトのキュー情報が削除されます。<br>「<strong>キュー プロパティ &amp; 問題設定</strong>」チェックボックスの選択を解除すると、プロジェクトのキュー設定がすべて保持され、テンプレートのキュー設定は添付されません。 </p> </td> 
+      <td> <p>プロジェクトに添付する前にテンプレートから除外する情報のチェックボックスをオフにします。 各フィールドについて詳しくは、<a href="../../../manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md" class="MCXref xref">プロジェクトへのテンプレートの添付の概要</a>を参照してください。 </p> <p>重要：「<strong>キュー プロパティ &amp; 問題設定</strong>」チェックボックスを選択すると、テンプレートのキューの詳細でプロジェクトのキューの詳細が上書きされます。この場合、テンプレートの「ルーティング規則」、「キュートピック」および「トピックグループ」が、プロジェクトの各項目に追加されます。<br> プロジェクトが要求キューとして設定され、プロジェクトに添付するテンプレートが要求キューとして設定されていない場合、[ キューのプロパティと問題の設定 <strong> ボックスをオンにしていると、プロジェクトのキュー情報は削除され </strong> す。 <br> 「<strong> キューのプロパティと問題設定 </strong>」ボックスの選択を解除すると、プロジェクトのキュー設定はすべて保持され、テンプレートのキュー設定は添付されません。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader" colspan="2"> <p role="rowheader" colspan="2">「カスタムフォーム」セクション</p> <p role="rowheader" colspan="2"> <img src="assets/attach-template-large-box-custom-forms-section-nwe-350x274.png" style="width: 350;height: 274;"> </p> </td> 
@@ -160,7 +165,7 @@ ht-degree: 91%
    >[!TIP]
    >
    >* テンプレート上のカスタムフォームに空の必須フィールドが含まれている場合、この手順は必須です。
-   >* テンプレートのカスタムフォームのフィールドがプロジェクトに既に存在し、そこに情報が含まれている場合は、既にプロジェクトにある情報が保持されます。テンプレートの添付中はフィールドを編集できません。
+   >* テンプレートのカスタムフォームのフィールドがプロジェクトに既に存在し、そこに情報が含まれている場合は、既にプロジェクトにある情報が保持されます。テンプレートの添付中は編集できません。
 
 1. 「**テンプレートの添付**」をクリックします。
 1. 「**添付ファイルをキャンセル**」をクリックして、テンプレートの添付を停止します。
@@ -171,27 +176,31 @@ ht-degree: 91%
 
    テンプレートを添付した後、プロジェクトを編集し、必要に応じてタスク、情報または設定を調整できます。
 
-1. （オプション）「**プロジェクト詳細**」に続いて「**概要**」をクリックすると、添付したテンプレートの名前が&#x200B;**プロジェクトの関係**&#x200B;エリアに表示されます。
+1. （任意）左側のパネルで、「**プロジェクトの詳細**」をクリックしてから **概要** をクリックして、「**プロジェクトの関係**」領域に添付したテンプレートの名前を表示します。
 
    >[!TIP]
    >
-   >複数のテンプレートをプロジェクトに添付する場合は、最初に添付したテンプレートのみがこのフィールドに表示されます。詳しくは、この記事の[既存のプロジェクトへの複数テンプレートの添付とテンプレート情報の表示](#attach-multiple-templates-to-an-existing-project-and-view-template-information)の節を参照してください。
+   >プロジェクトに複数のテンプレートを添付する場合、最初に添付したテンプレートのみがこのフィールドに表示されます。 詳しくは、この記事の[既存のプロジェクトへの複数テンプレートの添付とテンプレート情報の表示](#attach-multiple-templates-to-an-existing-project-and-view-template-information)の節を参照してください。
 
 1. （オプション）テンプレートを添付したプロジェクトからテンプレート情報を削除します。詳しくは、[プロジェクトからのテンプレート情報の削除](../../../manage-work/projects/create-and-manage-templates/remove-template-from-project.md)を参照してください。
 
 ## 既存のプロジェクトへの複数テンプレートの添付とテンプレート情報の表示 {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-この記事の[既存のプロジェクトへのテンプレートの添付](#attach-a-template-to-an-existing-project)の節で説明されている手順に従って、同じプロジェクトに複数のテンプレートを（一度に 1 つずつ）添付できます。これにより、各テンプレートのタスクやその他の情報がプロジェクトに追加されます。
+この記事の「[ 既存のプロジェクトにテンプレートを添付する ](#attach-a-template-to-an-existing-project)」の節で説明されている手順に従って、複数のテンプレートを同じプロジェクトに（一度に 1 つずつ）添付できます。 これにより、各テンプレートのタスクやその他の情報がプロジェクトに追加されます。
 
 >[!TIP]
 >
->複数のテンプレートをプロジェクトに添付する場合、最初に添付したテンプレートのみがプロジェクト詳細エリアに表示されます。
+>複数のテンプレートを 1 つのプロジェクトに添付する場合、最初に添付したテンプレートのみが [ プロジェクトの詳細 ] 領域に表示されます。
 
-プロジェクトに適用されているテンプレートを把握するには、次の手順に従います。
+プロジェクトに適用されているテンプレートを表示するには：
 
-1. テンプレートが添付されたプロジェクトに移動します。
+{{step1-to-projects}}
+
+1. **プロジェクト** ページで、テンプレートが添付されたプロジェクトを選択します。
+
 1. 左パネルの「**プロジェクト詳細**」をクリックします。
-1. **プロジェクトの関係**&#x200B;の「**概要**」セクションの下部にある「**テンプレート**」フィールドのプロジェクトに添付されているテンプレートの名前を探します。
+
+1. **プロジェクトの関係** の下の **概要** セクションの下部にある「**テンプレート**」フィールドで、プロジェクトに添付されているテンプレートの名前を見つけます。
 
    ![ プロジェクトのテンプレート情報 ](assets/nwe-template-info-on-project-350x356.png)
 

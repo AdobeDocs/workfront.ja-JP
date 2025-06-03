@@ -2,23 +2,24 @@
 content-type: reference
 product-area: programs
 navigation-topic: portfolios-navigation-topic
-title: プログラムの作成と管理
-description: プログラムとは、プロジェクトの境界を越えた共通の戦略や、目的、目標を共有するプロジェクトの集まりを表します。プログラムはポートフォリオの下位区分で、ポートフォリオの外に存在することはできません。
+title: プログラムの作成と管理：記事インデックス
+description: プログラムは、共通の戦略、目的、目標に貢献するプロジェクトの集まりです。 プログラムはポートフォリオの下位区分で、ポートフォリオの外には存在できません。
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 3c796bab-b468-451a-adf8-8180f67546ee
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 49%
+source-wordcount: '103'
+ht-degree: 29%
 
 ---
 
-# プログラムの作成と管理
+# プログラムの作成と管理：記事インデックス
 
-プログラムは、プロジェクトの境界を越えて共通の戦略、目的、または目標を共有するプロジェクトの集まりを表します。
-プログラムはポートフォリオの下位区分で、ポートフォリオの外に存在することはできません。
+プログラムは、共通の戦略、目的、目標に貢献するプロジェクトの集まりです。
+
+プログラムはポートフォリオの下位区分で、ポートフォリオの外には存在できません。
 
 この節では、次の記事を扱います。
 

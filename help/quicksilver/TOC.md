@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 4189ea6b6c61a97eaf15c92724ef1dbfeb8b8b82
+source-git-commit: 8aee2f81f97bba6851537115e7f588694bd53692
 workflow-type: tm+mt
-source-wordcount: '13222'
+source-wordcount: '13225'
 ht-degree: 86%
 
 ---
@@ -1414,7 +1414,7 @@ ht-degree: 86%
    * ポートフォリオ管理 {#portfolio-management}
       * [ポートフォリオ管理](manage-work/portfolios/portfolio-management-overview.md)
       * Adobe Workfront のポートフォリオの概要 {#portfolio-overview-in-adobe-workfront}
-         * [ポートフォリオ](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
+         * [ポートフォリオ：記事インデックス](manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
          * [ポートフォリオ内での移動](manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
          * [ポートフォリオ管理の概要](manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
          * [Adobe Workfront のポートフォリオの概要](manage-work/portfolios/portfolios-overview/portfolio-overview.md)
@@ -1427,8 +1427,8 @@ ht-degree: 86%
          * [ポートフォリオからのプロジェクトの削除](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
          * [リクエストされたプロジェクトの確認](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
       * プログラムの作成と管理 {#create-and-manage-programs}
-         * [プログラムの概要  [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
-         * [プログラムの作成と管理](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+         * [プログラムの概要](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
+         * [プログラムの作成と管理：記事インデックス](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
          * [プログラムを作成](manage-work/portfolios/create-and-manage-programs/create-program.md)
          * [プログラムの編集](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
          * [ポートフォリオに既存プログラムの追加](manage-work/portfolios/create-and-manage-programs/move-program.md)

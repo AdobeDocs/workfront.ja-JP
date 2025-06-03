@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: タスク状態の更新
-description: タスクステータスを更新して、タスク（およびプロジェクト全体）の進行状況を他のユーザーに知らせることができます。
+description: タスクのステータスを更新すると、タスクの場所（およびプロジェクト全体）と進行状況を他のユーザーに通知できます。
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 98%
+source-wordcount: '638'
+ht-degree: 67%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 <!--Audited: 10/2024-->
 
-タスクステータスを更新して、タスク（およびプロジェクト全体）の進行状況を他のユーザーに知らせることができます。
+タスクのステータスを更新すると、タスクの場所（およびプロジェクト全体）と進行状況を他のユーザーに通知できます。
 
 デフォルトのステータスは、「新規」、「処理中」および「完了」です。Adobe Workfront 管理者は、組織のカスタムステータスを追加できます。詳しくは、[ステータスの作成または編集](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md)を参照してください。
 
@@ -26,8 +26,6 @@ ht-degree: 98%
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-タスクを手動で更新するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,7 +36,7 @@ ht-degree: 98%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：標準</p> 
    または
    <p>現在：ワーク以上</p>
@@ -55,7 +53,7 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -63,30 +61,30 @@ ht-degree: 98%
 
 * タスクを完了としてマークすると、タスクの完了率は 100％に更新されます。
 * 親タスクには、次のシナリオが存在します。
-   * プロジェクトの概要完了モードを「自動」に設定し、サブタスクが未完了の場合、親タスクのステータスを「完了」に更新できません。
+   * プロジェクトの概要完了モードが [ 自動 ] に設定され、サブタスクが完了していない場合、親タスクの状態を [ 完了 ] に更新することはできません。
    * プロジェクトの概要完了モードを「手動」に設定し、サブタスクが完了または未完了の場合、親タスクのステータスを「完了」に更新できます。
 
   詳しくは、[プロジェクトの編集](../manage-projects/edit-projects.md)を参照してください。
 
 ## タスクのステータスを手動で更新
 
-Workfront の次のエリアでタスクのステータスを更新できます。
+次の領域でタスクステータスを更新できます。
 
 * タスクページのタスクヘッダー。
-* タスクを編集する際の「タスクを編集」ボックス。
+* タスクの編集時の「タスクを編集」ボックス。
 * タスクページの「タスクの詳細」セクション。
-* 「ステータス」フィールドをビューに表示する際のタスクリストまたはレポート内。
+* タスク リストまたは報告書で、[ 状態 ] フィールドがビューに表示されている場合。
 * タスクの概要パネル内。
 
 タスクヘッダーのタスクステータスを手動で更新するには：
 
-1. ステータスを更新するタスクに移動します。
-1. タスクのヘッダーの「**ステータス**」フィールドをクリックし、新しいステータスを選択します。
-1. タスクの完了を視覚的に示すには、タスクのヘッダーの&#x200B;**完了率**&#x200B;の下にあるバブルをドラッグまたはダブルクリックします
+1. 状態を更新するタスクに移動します。
+1. タスクヘッダーで「**ステータス**」フィールドをクリックし、新しいステータスを選択します。
+1. タスクの完了を視覚的に示すには、タスクのヘッダーにある **完了率** の下のバブルをドラッグします。
 
    または
 
-   タスクのヘッダーのバブル内をクリックして、パーセンテージを入力します。
+   **完了率** バブル内をダブルクリックして、新しいパーセンテージを手動で入力します。
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
@@ -94,10 +92,10 @@ Workfront の次のエリアでタスクのステータスを更新できます�
 
    * 更新に関するメモを追加するには、「**更新**」セクションに移動し、「**新しいコメント**」をクリックして、メモを入力します。
 
-     ![](assets/add-update-to-task.png)
+     ![ タスクへの更新の追加 ](assets/add-update-to-task.png)
 
    * 特定のユーザーに更新について通知するには、コメントを入力した際に表示される「**人物またはチームにタグ付け**」フィールドにユーザーの名前を入力します。詳しくは、[更新時の他のユーザーへのタグ付け](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
-   * タスクのコミット日を更新するには、「**タスクの詳細**」をクリックし、「**コミット日**」フィールドを編集します。詳しくは、[タスクを編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
+   * タスクのコミット日を更新するには、「**タスクの詳細**」をクリックし、「**コミット日**」フィールドを編集します。 詳しくは、[タスクを編集](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md)を参照してください。
 
 
    >[!IMPORTANT]
@@ -150,7 +148,7 @@ Workfront は、以下の表に示すアクションが発生すると、タス�
   <tr data-mc-conditions=""> 
    <td><span>「タスクを開始」ボタンをクリックして割り当てられたタスクの作業を開始</span> </td> 
    <td><span>新規</span> </td> 
-   <td> <p>ホームチーム設定の「タスクを開始」ボタンに関連付けられたステータス。</p> <p>「作業をする」ボタンを「タスクを開始」ボタンに置き換える方法については、<span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">「作業をする」ボタンを「開始」ボタンに置き換える</a></span>を参照してください。</p> <p>ヒント：「タスクを開始」を<span>クリック</span>した後に<span data-mc-conditions="QuicksilverOrClassic.Quicksilver">「元に戻す」ボタン</span>をクリックすると、ステータスが「新規」に戻ります。 </p> </td> 
+   <td> <p>ホームチーム設定の「タスクを開始」ボタンに関連付けられたステータス。</p> <p>「作業をする」ボタンを「タスクを開始」ボタンに置き換える方法については、<span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">「作業をする」ボタンを「開始」ボタンに置き換える</a></span>を参照してください。</p> <p>ヒント：<span> タスクを開始 </span> をクリックした後、<span data-mc-conditions="QuicksilverOrClassic.Quicksilver"> クリック </span> 取り消しボタンをクリックすると、ステータスが「新規」に戻ります。 </p> </td> 
   </tr> 
  </tbody> 
 </table>

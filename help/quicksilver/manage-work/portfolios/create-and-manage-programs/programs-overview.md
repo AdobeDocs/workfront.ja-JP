@@ -2,22 +2,23 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: create and manage programs
-title: プログラムの概要  [!DNL Adobe Workfront]
+title: プログラムの概要
 description: プログラムは、統一的な特性を持つプロジェクトのコレクションです。 これらのプロジェクトは通常、同じリソース、予算または時間枠を得るために競い合うことになります。プログラムは、ポートフォリオのサブグループです。 プロジェクトをポートフォリオに追加する前に、プログラムに関連付けることができます。
 author: Alina
 feature: Work Management, Strategic Planning
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+exl-id: 1c64fe00-12e3-49f6-b864-b8f89ed9140d
+source-git-commit: 0792651822fd85cb3bfbb754aaf949c4fc4038a1
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 16%
+source-wordcount: '497'
+ht-degree: 17%
 
 ---
 
-# [!DNL Adobe Workfront] のプログラムの概要
+# プログラムの概要
 
 <!-- Audited: 09/2024 -->
 
-Adobe Workfrontでは、プログラムとは、統一された特性を持つプロジェクトの集まりです。 例えば、同じ予算、リソース、時間枠で競合する場合があります。 プログラムは、ポートフォリオのサブグループです。
+Adobe Workfrontでは、プログラムとは、統一された特性を持つプロジェクトの集まりです。 例えば、同じ予算、リソース、期間に対して競合する場合があります。 プログラムは、ポートフォリオのサブグループです。
 
 この記事には、Workfrontのプログラムに関する一般的な情報を掲載しています。
 
@@ -37,7 +38,7 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
    <p>現在：[!UICONTROL Business] 以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
    <td> <p>新規：[!UICONTROL Standard]</p>
    <p>現在：[!UICONTROL Plan] </p> </td> 
   </tr> 
@@ -56,7 +57,7 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 
 ## プログラムの操作に関する考慮事項
@@ -93,7 +94,4 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
 
 * ポートフォリオオプティマイザーを使用すると、ポートフォリオ内のすべてのプロジェクトのパフォーマンスを分析できます。 同じプログラム全体で複数のプロジェクトのパフォーマンスを比較することはできません。 プロジェクトのパフォーマンスは、ポートフォリオレベルで分析する必要があります。
 
-  詳しくは、[Portfolioオプティマイザーでのプロジェクトの最適化 ](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) を参照してください。
-
-
-
+  詳しくは、[Portfolio Optimizer でのプロジェクトの最適化 ](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) を参照してください。
