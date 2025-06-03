@@ -6,10 +6,10 @@ description: ビジネスケースを印刷したり、より凝縮された形�
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 98%
+source-wordcount: '269'
+ht-degree: 88%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -27,11 +27,13 @@ ht-degree: 98%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意 </p> </td> 
+   <td> <p>現在：Prime以降 </p> <p>レガシー：Pro 以上 </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td> 
+   <p>現在：Light 以上</p>
+   <p>レガシー：レビュー以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -44,7 +46,9 @@ ht-degree: 98%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## ビジネスケースをエクスポート
 

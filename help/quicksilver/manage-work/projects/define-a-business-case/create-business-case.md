@@ -5,10 +5,10 @@ description: ビジネスケースを使用して、プロジェクトをリク�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 3827e834a71084f14a99cb27aadefd97327b02d7
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 66%
+source-wordcount: '841'
+ht-degree: 65%
 
 ---
 
@@ -20,19 +20,22 @@ ht-degree: 66%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>任意 </p> </td> 
+   <td> 
+   <p>現在：Prime以降</p> 
+   <p>レガシー：Pro 以上</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>Plan 以上</p> </td> 
+   <td> 
+   <p>現在：標準 </p> 
+   <p>レガシー：プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -83,7 +86,7 @@ ht-degree: 66%
 1. 左側のパネルで、「ビジネスケース **をクリック** ます。
 1. （任意）「**プロジェクト情報**」セクションを編集するには、「**プロジェクト情報を編集**」をクリックします。 
 
-   **プロジェクト情報** セクションフィールドの編集について詳しくは、記事 [&#128279;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) ビジネスケースの領域の概要 [ の ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) プロジェクト情報  の節を参照してください。
+   **プロジェクト情報** セクションフィールドの編集について詳しくは、記事 [ ビジネスケースの領域の概要 [ の ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) プロジェクト情報 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の節を参照してください。
 
 1. （任意）「**目標**」セクションを編集するには、「**目標を編集**」をクリックします。
 

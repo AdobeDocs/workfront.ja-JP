@@ -5,10 +5,10 @@ description: スコアカードを使用して、プロジェクトが以前に�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 99%
+source-wordcount: '1227'
+ht-degree: 98%
 
 ---
 
@@ -24,8 +24,6 @@ ht-degree: 99%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -33,16 +31,16 @@ ht-degree: 99%
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：Prime 以上</p>
+   <p>現在：Prime以降</p>
    <p>または</p>
-   <p>現在：Business 以上</p> </td>
+   <p>レガシー：ビジネス以上</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td>
-   <p>新規：標準</p>
+   <p>現在：標準</p>
    <p>または</p>
-   <p>現在：プラン</p></td>  
+   <p>レガシー：プラン</p></td>  
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 

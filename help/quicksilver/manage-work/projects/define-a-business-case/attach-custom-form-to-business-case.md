@@ -5,10 +5,10 @@ description: カスタムフォームは、既存の Adobe Workfront フィー�
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 94%
+source-wordcount: '390'
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 94%
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,11 +28,14 @@ ht-degree: 94%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>Pro 以上</p> </td> 
+   <td> <p>現在：Prime以降</p>
+   <p>レガシー：Pro 以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td> 
+   <p>現在：標準 </p> 
+   <p>レガシー：プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -45,7 +48,9 @@ ht-degree: 94%
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## プロジェクトにカスタムフォームを添付
 

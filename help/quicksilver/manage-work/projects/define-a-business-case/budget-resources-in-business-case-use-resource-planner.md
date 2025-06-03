@@ -5,9 +5,9 @@ description: リソース計画の一環として、プロジェクトレベル�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1240'
 ht-degree: 95%
 
 ---
@@ -28,8 +28,6 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
 
 ## アクセス要件
 
-この記事の手順を実行するには、以下を保有している必要があります。
-
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
@@ -38,12 +36,14 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>Prime以上</p> </td> 
+   <td> <p>現在：Prime以降</p>
+   <p>レガシー：Pro 以上</p> 
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：ライト以上</p>
-   <p>現在：レビュー以上</p>
+   <td> <p>現在：Light 以上</p>
+   <p>レガシー：レビュー以上</p>
 
 <p><b>重要：</b></p> 
    <p>新規：リソース予算情報を変更するには、標準ライセンスが必要です。 </p> 
@@ -66,7 +66,7 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 

@@ -5,10 +5,10 @@ description: ビジネスケースの作成の一環として、一連の目標�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 59%
+source-wordcount: '495'
+ht-degree: 55%
 
 ---
 
@@ -43,8 +43,6 @@ ht-degree: 59%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-この記事の手順を実行するには、次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  </col> 
@@ -53,14 +51,14 @@ ht-degree: 59%
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>Pro 以上</p> </td> 
+   <td> <p>現在：Prime以降</p>
+   <p>レガシー：Pro 以上</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td>
    <td> 
-   <p>新規：標準</p> 
-   <p>または</p>
-   <p>現在：プラン </p> 
+   <p>現在：標準</p> 
+   <p>レガシー：プラン </p> 
    </td> 
   </tr> 
   <tr> 
