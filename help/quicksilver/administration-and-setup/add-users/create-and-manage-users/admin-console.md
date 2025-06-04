@@ -101,7 +101,7 @@ Workfront 用に Admin Console を使用する前に、Console への招待メ�
   >
   >製品プロファイル自体は変更しないでください。
 
-* Adobe Admin Console管理者は、自動割り当てルールを設定して、Adobe製品を組織内のユーザーに割り当てるプロセスを自動化できます。 この機能を使用するには、組織をAdobe統合エクスペリエンスに移行する必要があります。 詳細と手順については、Adobe ドキュメントの [ 自動割り当てルールの管理 ](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) を参照してください。
+* Adobe Admin Console管理者は、自動割り当てルールを設定して、Adobe製品を組織内のユーザーに割り当てるプロセスを自動化できます。 この機能を使用するには、組織をAdobe統合エクスペリエンスに移行する必要があります。 詳細と手順については、Adobe ドキュメントの [ 自動割り当てルールの管理 ](https://helpx.adobe.com/jp/enterprise/using/automatic-assignment-rules.html) を参照してください。
 
   >[!NOTE]
   >
@@ -235,16 +235,16 @@ Adobe Admin Consoleで次のユーザー詳細を編集できます。
 * 管理者権限
 * 国
 
-Adobeで 1 人のユーザーを編集する方法については、Adobe Admin Console ドキュメントの「ユーザーを個別に管理する」の [ ユーザーの詳細の編集 ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details) を参照してください。
+Adobeで 1 人のユーザーを編集する方法については、Adobe Admin Console ドキュメントの「ユーザーを個別に管理する」の [ ユーザーの詳細の編集 ](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html#edit-user-details) を参照してください。
 
 Adobe Admin Consoleでのユーザーの一括編集について詳しくは、
-Adobe ドキュメントの複数のユーザーの管理の記事 [ ユーザーの詳細を編集 ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details)。
+Adobe ドキュメントの複数のユーザーの管理の記事 [ ユーザーの詳細を編集 ](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html#edit-user-details)。
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
-<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
+<p>You can create Adobe Workfront users and system administrators with the <a href="https://adminconsole.adobe.com/" alt="Admin Console link">Adobe Admin Console</a>. The console is a central location for managing the Adobe entitlements across your organization. For more information, see the <a href="https://helpx.adobe.com/jp/enterprise/using/admin-console.html" alt="Admin Console Overview">Admin Console Overview</a>.</p>
 <p>Before using the Admin Console for Workfront, you should receive a receive an email inviting you to the console. Click in the invitation to accept it and create an account. You can also use an existing account, if already available.</p>
 <h2>Create users</h2>
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Create users in WF with the Adobe admin console</p>
