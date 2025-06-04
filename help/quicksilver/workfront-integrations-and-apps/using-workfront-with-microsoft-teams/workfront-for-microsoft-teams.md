@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 88b05a70-a304-461d-bab3-21d328c9356e
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 80%
@@ -21,7 +21,7 @@ ht-degree: 80%
 >
 >Microsoftが新しい Teams クライアントに移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 これに備え、新しい Teams クライアントと完全な互換性を持ち、スムーズな移行を確実に行うために 7 月 1 日（PT）より前に利用可能な、新しいバージョンのMicrosoft Teams統合を開発しています。
 >
->統合が利用可能になったら、新しい Teams クライアントで統合をダウンロードしてインストールする方法がここに表示されます。
+>新しい Teams クライアントで統合をダウンロードしてインストールする方法は、統合がリリースされると使用できるようになります。
 
 [!DNL Microsoft Teams] でのチーム所有者は、チーム用に [!DNL Adobe Workfront for Microsoft Teams] アプリをインストールできます。
 

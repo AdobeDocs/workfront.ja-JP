@@ -7,7 +7,7 @@ description: Adobe Workfront は、Microsoft Teams と統合できます。こ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b8b9d216-b529-4ff0-9259-b37724675d6a
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '163'
 ht-degree: 54%
@@ -20,7 +20,7 @@ ht-degree: 54%
 >
 >Microsoftが新しい Teams クライアントに移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 これに備え、新しい Teams クライアントと完全な互換性を持ち、スムーズな移行を確実に行うために 7 月 1 日（PT）より前に利用可能な、新しいバージョンのMicrosoft Teams統合を開発しています。
 >
->統合が利用可能になったら、新しい Teams クライアントで統合をダウンロードしてインストールする方法がここに表示されます。
+>新しい Teams クライアントで統合をダウンロードしてインストールする方法は、統合がリリースされると使用できるようになります。
 
 Adobe Workfront は、Microsoft Teams と統合できます。この記事では、その統合のインストールと設定の手順や、日々の業務での使い方について説明します。
 

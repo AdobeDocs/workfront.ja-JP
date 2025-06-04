@@ -6,7 +6,7 @@ description: チーム所有者がチームに [!DNL Workfront] for Microsoft Te
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 372b7566fa5eb38703905b22ff43d49a76bcb400
 workflow-type: tm+mt
 source-wordcount: '421'
 ht-degree: 82%
@@ -19,7 +19,7 @@ ht-degree: 82%
 >
 >Microsoftが新しい Teams クライアントに移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 これに備え、新しい Teams クライアントと完全な互換性を持ち、スムーズな移行を確実に行うために 7 月 1 日（PT）より前に利用可能な、新しいバージョンのMicrosoft Teams統合を開発しています。
 >
->統合が利用可能になったら、新しい Teams クライアントで統合をダウンロードしてインストールする方法がここに表示されます。
+>新しい Teams クライアントで統合をダウンロードしてインストールする方法は、統合がリリースされると使用できるようになります。
 
 ## アクセス要件
 
