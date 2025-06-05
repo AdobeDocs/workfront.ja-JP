@@ -6,20 +6,16 @@ description: 適切なアクセス権や権限を持っている場合は、Adob
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '767'
-ht-degree: 75%
+source-wordcount: '716'
+ht-degree: 79%
 
 ---
 
 # イシューを削除
 
 <!--Audited: 05/2025-->
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。</span>
-
-<span class="preview"> 詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください </span>。
 
 適切なアクセス権や権限を持っている場合は、Adobe Workfront でイシューやリクエストを削除できます。
 
@@ -116,7 +112,7 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
    選択したプロジェクトに関連付けられているイシューのリストが右側に表示されます。
 1. リストで 1 つ以上のイシューを選択し、リストの上部にある **削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
 
-1. 削除が許可されている場合は、「**<span class="preview">削除</span>**」をクリックします。
+1. 削除が許可されている場合は、「**削除**」をクリックします。
 
    時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
    イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [ イシューの削除に関する考慮事項 ](#considerations-for-deleting-issues) の節を参照してください。
@@ -136,7 +132,7 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
    ![ 問題の詳細メニュー ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 「**イシューを削除**」をクリックします。
-1. 削除が許可されている場合は、「**<span class="preview">削除</span>**」をクリックします。
+1. 削除が許可されている場合は、「**削除**」をクリックします。
 
    時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
    イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [ イシューの削除に関する考慮事項 ](#considerations-for-deleting-issues) の節を参照してください。

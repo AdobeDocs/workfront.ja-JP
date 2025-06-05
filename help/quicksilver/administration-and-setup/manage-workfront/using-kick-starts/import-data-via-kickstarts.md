@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 137d7112c051322c191488463e52abdd73e50d1f
+source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
 workflow-type: tm+mt
-source-wordcount: '2894'
-ht-degree: 91%
+source-wordcount: '2851'
+ht-degree: 92%
 
 ---
 
 # キックスタートテンプレートを使用したWorkfrontへのデータの読み込み
-
-{{highlighted-preview}}
 
 <!--Audited: 12/2023-->
 
@@ -492,15 +490,7 @@ Excel テンプレートにデータを入力した後、そのデータを Work
 
 1. **Kick-Start スプレッドシートを使用してデータをアップロードする** セクションで **ファイルを選択** をクリックし、入力されたスプレッドシートを参照して選択します。
 
-   <div class="preview">
-
-   プレビュー環境では、ファイルが自動的にアップロードされ、読み込みに成功したという通知が表示されます。
-
-   Excel ファイルをWorkfrontにアップロードするのに 5 分以上かかる場合、アプリケーションはタイムアウトし、Workfrontはファイルをアップロードできません。 小さなオブジェクトのバッチでデータを読み込んでみてください。
-
-   </div>
-
-1. （実稼動環境のみ） **アップロード** をクリックします。
+   ファイルは自動的にアップロードされ、読み込みが成功したという通知が表示されます。
 
    Excel ファイルをWorkfrontにアップロードするのに 5 分以上かかる場合、アプリケーションはタイムアウトし、Workfrontはファイルをアップロードできません。 小さなオブジェクトのバッチでデータを読み込んでみてください。
 
