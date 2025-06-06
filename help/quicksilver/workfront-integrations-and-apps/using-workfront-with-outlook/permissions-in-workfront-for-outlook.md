@@ -6,14 +6,23 @@ description: ' [!DNL Workfront for Outlook]  アドインには、メールボ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: 177bf9271dca0310653b73b9100607a82290c326
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 100%
+source-wordcount: '548'
+ht-degree: 79%
 
 ---
 
 # [!DNL Workfront for Outlook] の権限レベル
+
+>[!IMPORTANT]
+>
+>[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+>
+>* **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
+>
+>この変更の一環として、Microsoftは、トークンを再度有効にする方法を変更することを決定しました。 **2025 年 6 月 30 日（PT）** 以降、管理者はトークン自体を再度有効にすることができなくなります。例外を付与できるのは、Microsoft サポートのみです。 **2025 年 10 月 1 日に、すべてのテナントに対してレガシートークンがオフになります。 例外は許可されません。**
+
 
 [!DNL Workfront for Outlook] には、[!DNL Outlook] アドインで許可されている 4 つの中で最も高いレベルの権限が必要です。
 

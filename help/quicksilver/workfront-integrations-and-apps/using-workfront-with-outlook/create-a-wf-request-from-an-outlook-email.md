@@ -6,14 +6,23 @@ description: Outlook メールから  [!DNL Adobe Workfront]  リクエストを
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 4ecfe632-5f2e-4dc2-8c88-6a8229887f53
-source-git-commit: 16acba0f1981b75ca141a36d096fb6f5d37c40d1
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 77%
 
 ---
 
 # [!UICONTROL Outlook] メールから [!DNL Adobe Workfront] リクエストを作成
+
+>[!IMPORTANT]
+>
+>[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+>
+>* **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
+>
+>この変更の一環として、Microsoftは、トークンを再度有効にする方法を変更することを決定しました。 **2025 年 6 月 30 日（PT）** 以降、管理者はトークン自体を再度有効にすることができなくなります。例外を付与できるのは、Microsoft サポートのみです。 **2025 年 10 月 1 日に、すべてのテナントに対してレガシートークンがオフになります。 例外は許可されません。**
+
 
 Outlook メールから [!DNL Adobe Workfront] リクエストを作成できます。
 

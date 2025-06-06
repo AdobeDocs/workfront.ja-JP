@@ -6,16 +6,25 @@ description: ' [!DNL Adobe Workfront] [!DNL Outlook] アドインを使用する
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
 workflow-type: tm+mt
-source-wordcount: '686'
-ht-degree: 86%
+source-wordcount: '797'
+ht-degree: 74%
 
 ---
 
 # [!DNL Adobe Workfront for Outlook] の設定 
 
 <!-- Audited: 12/2023 -->
+
+>[!IMPORTANT]
+>
+>[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+>
+>* **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
+>
+>この変更の一環として、Microsoftは、トークンを再度有効にする方法を変更することを決定しました。 **2025 年 6 月 30 日（PT）** 以降、管理者はトークン自体を再度有効にすることができなくなります。例外を付与できるのは、Microsoft サポートのみです。 **2025 年 10 月 1 日に、すべてのテナントに対してレガシートークンがオフになります。 例外は許可されません。**
+
 
 [!DNL Adobe Workfront] [!DNL Outlook] アドインを使用すると、次の主要な [!DNL Workfront] タスクを Outlook から直接実行できます。
 
@@ -66,8 +75,8 @@ ht-degree: 86%
 
 次のアプリケーションを使用できます。
 
-* **[!DNL Outlook]Web 上：**&#x200B;[!DNL Workfront] アドインは、デスクトップまたはモバイルデバイスの web ブラウザーから [!DNL Outlook] を使用しているときに利用できます。この機能は [!DNL Outlook] web アプリの使用時にも利用できます。
-* **[!DNL Outlook]デスクトップアプリケーション：**&#x200B;[!DNL Workfront] アドインは、[!DNL Office] パッケージに含まれる [!DNL Outlook] のデスクトップバージョン [!DNL Windows] および [!DNL Mac] を使用する場合に使用できます。
+* **[!DNL Outlook]Web 上：**[!DNL Workfront] アドインは、デスクトップまたはモバイルデバイスの web ブラウザーから [!DNL Outlook] を使用しているときに利用できます。この機能は [!DNL Outlook] web アプリの使用時にも利用できます。
+* **[!DNL Outlook]デスクトップアプリケーション：**[!DNL Workfront] アドインは、[!DNL Office] パッケージに含まれる [!DNL Outlook] のデスクトップバージョン [!DNL Windows] および [!DNL Mac] を使用する場合に使用できます。
 
 [!DNL Outlook] 用の [!DNL Workfront] アドインは、次の要件を満たす環境でサポートされます。
 
@@ -121,7 +130,7 @@ Outlook 用 Workfront アドインは、[Microsoft ストア](https://appsource.
 ### Web 版 [!DNL Workfront] for [!DNL Outlook] {#workfront-for-outlook-on-the-web}
 
 1. Web ブラウザーで [!DNL Microsoft Outlook] を開きます。
-1. **[!UICONTROL アドインを参照 &#x200B;] アイコン** アドインを参照 ![ をクリック ](assets/outlook-add-in-web-version-20x20.png) ます。
+1. **[!UICONTROL アドインを参照 ] アイコン** アドインを参照 ![ をクリック ](assets/outlook-add-in-web-version-20x20.png) ます。
 
    アイコンを見つけるには、[Web 版 ](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) でのアドインの使用 [!DNL Outlook] を参照してください。
 
