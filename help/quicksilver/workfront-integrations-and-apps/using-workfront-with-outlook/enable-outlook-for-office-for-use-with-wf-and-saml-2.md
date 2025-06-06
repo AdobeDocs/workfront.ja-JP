@@ -6,7 +6,7 @@ description: ' [!DNL Adobe Workfront]  システムが SAML 2.0 と統合され�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 72ffceb3-50f0-486e-92b5-0bea4c9a99c8
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 52%
@@ -22,7 +22,6 @@ ht-degree: 52%
 >* **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
 >
 >この変更の一環として、Microsoftは、トークンを再度有効にする方法を変更することを決定しました。 **2025 年 6 月 30 日（PT）** 以降、管理者はトークン自体を再度有効にすることができなくなります。例外を付与できるのは、Microsoft サポートのみです。 **2025 年 10 月 1 日に、すべてのテナントに対してレガシートークンがオフになります。 例外は許可されません。**
-
 
 [!DNL Adobe Workfront] システムが SAML 2.0 と統合されている場合、ユーザーが SAML 2.0 資格情報を使用して認証できるようにするには、[!DNL Office] アドインの SAML 2.0 認証を有効にする必要があります。
 

@@ -6,7 +6,7 @@ description: メールを  [!DNL Adobe Workfront]  タスクまたはイシュ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 00755c27-9fc9-4357-a39b-4f9772484252
-source-git-commit: b4b45bbc8bb68dbac35488c1777fca85fa0cc7e3
+source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 82%
@@ -22,7 +22,6 @@ ht-degree: 82%
 >* **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
 >
 >この変更の一環として、Microsoftは、トークンを再度有効にする方法を変更することを決定しました。 **2025 年 6 月 30 日（PT）** 以降、管理者はトークン自体を再度有効にすることができなくなります。例外を付与できるのは、Microsoft サポートのみです。 **2025 年 10 月 1 日に、すべてのテナントに対してレガシートークンがオフになります。 例外は許可されません。**
-
 
 メールを [!DNL Adobe Workfront] タスクまたはイシューに変換することができます。メールを変換すると、変換中に選択したプロジェクトにタスクまたはイシューが表示されます。
 
