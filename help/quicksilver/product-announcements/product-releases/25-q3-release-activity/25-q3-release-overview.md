@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 9b06b297549fbf4b4493471e7335c5c11351ee86
+source-git-commit: 00710d009dca3dd9ae2f529a846c369e16d675b6
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1168'
 ht-degree: 26%
 
 ---
@@ -218,16 +218,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">機能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">リリース日</span>
-                        </p>
-                    </td>
-                </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025 年第 3 四半期のリリース期間中のルックアンドフィールの更新 </a></p>
@@ -261,7 +251,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 

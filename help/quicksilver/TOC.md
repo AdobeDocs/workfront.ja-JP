@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 8aee2f81f97bba6851537115e7f588694bd53692
+source-git-commit: fb8b65b59ee9cd591c2a7f8edceab19f89afd29d
 workflow-type: tm+mt
-source-wordcount: '13225'
+source-wordcount: '13255'
 ht-degree: 86%
 
 ---
@@ -2119,6 +2119,10 @@ ht-degree: 86%
    * [Adobe Workfront 統合](workfront-integrations-and-apps/workfront-integrations.md)
    * [Adobe Workfront の組み込みの統合の概要](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront 統合方法](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
+   * レビューと承認の統合 {#review-approval-integrations}
+      * [レビューと承認の統合：記事インデックス](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
+      * [プルーフとGenStudio for Performance Marketingの統合の基本を学ぶ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+      * [プルーフと Creative Cloud Express の概要](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)
    * Adobe Workfront for Creative Cloud {#workfront-for-creative-cloud}
       * [Adobe Workfront for Creative Cloud](workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md)
       * Creative Cloud アプリケーション用のAdobe Workfront プラグインのインストール {#install-wf-cc}
