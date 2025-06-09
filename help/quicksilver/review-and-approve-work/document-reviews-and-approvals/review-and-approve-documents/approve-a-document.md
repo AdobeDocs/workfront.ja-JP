@@ -6,10 +6,10 @@ description: ドキュメントの承認者として割り当てられている�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
+source-git-commit: 1f7a17206ca77442b501f121f3333d4b60aa85f1
 workflow-type: tm+mt
-source-wordcount: '1246'
-ht-degree: 76%
+source-wordcount: '1247'
+ht-degree: 74%
 
 ---
 
@@ -74,7 +74,8 @@ ht-degree: 76%
 
    >[!NOTE]
    >
-   >担当業務またはグループに割り当てられた承認は、ホームに表示されません。チームに割り当てられた承認は、ワークリストの「チームリクエスト」グループに表示されます。
+   >* 担当業務またはグループに割り当てられた承認が、ホームに表示されません。
+   >* チームに割り当てられた承認は、ホームにある個々のチームメンバーのマイ承認ウィジェットに表示されます。
 
 1. リスト内の承認を決定するドキュメント承認をクリックします。承認に関する情報は、ページの右側に表示されます。
 
