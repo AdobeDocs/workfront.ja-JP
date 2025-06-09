@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c5cf44d1e68aebdb5b61d2588a8cefc088b6d2a2
+source-git-commit: b011ee9afcce273c82c1f7d93ca86dfde035a497
 workflow-type: tm+mt
 source-wordcount: '4126'
 ht-degree: 2%
@@ -239,7 +239,9 @@ Workfrontの他の領域と一貫した、より現代的なデザインでロ�
 
 この変更を表示するには、設定/ごみ箱/最近復元された項目に移動します。
 
-詳しくは、[ 復元された項目の表示 ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md) を参照してください。###設定のリソース管理エリアのインターフェイスの更新
+詳しくは、[ 復元された項目の表示 ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md) を参照してください。
+
+### 設定のリソース管理エリアに対するインターフェイスのアップデート
 
 **プレビューリリース：2025 年 4 月 17 日（PT）、2025 年 4 月 17 日（PT）の週から**
 
