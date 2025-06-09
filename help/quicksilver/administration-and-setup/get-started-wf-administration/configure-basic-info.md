@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 83d236a4d50c0eef7062f161757d2f9fe6bc4e06
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 97%
+source-wordcount: '829'
+ht-degree: 96%
 
 ---
 
@@ -80,9 +80,14 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
 
      ユーザーが Workfront にアクセスするために許可リストに IP アドレスを追加する方法については、[ファイアウォールの許可リストの設定](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 
-   * **ライセンス**
+   * 許可リストに加える **メール**
 
-     ライセンスについて詳しくは、[システムで使用可能なライセンスの管理](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)を参照してください。
+     許可リスト許可リストに加えるにメールを追加する方法については、[ メールの設定 ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) を参照してください。
+
+   <!--
+   * **License**
+
+     For information about licenses, see [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).-->
 
 ## 基本情報の設定 {#configure-basic-info}
 
@@ -125,7 +130,7 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
        </ul> <p>ユーザーは、自分のプロファイルの下の Workfront インスタンスのタイムゾーンを変更できます。ユーザーがタイムゾーンを変更すると、Workfront からのメールの日時がプロファイルの環境設定と一致します。ユーザープロファイルの環境設定の変更について詳しくは、<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">個人設定を指定</a>を参照してください。新しいスケジュールを作成する際に、デフォルトのタイムゾーンとして選択されます。スケジュールの作成について詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールを作成</a>を参照してください。</p> <p>ユーザーが Workfront でタイムゾーンをまたいで共同作業できるようにスケジュールを使用する方法について詳しくは、<a href="../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">タイムゾーンをまたいだ作業</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">ロケール</td> 
+      <td role="rowheader">デフォルトのメールのロケール</td> 
       <td>送信メールメッセージで使用される言語、日付、数値の形式を変更します。ここで選択したロケールは、新規ユーザー作成時のデフォルトになります。ユーザーは、ユーザープロファイルでロケールを変更できます。ユーザーがロケールを変更すると、Workfront からのメールの言語、日付、数値の形式がプロファイルの環境設定と一致します。プロファイルの環境設定の変更について詳しくは、<a href="../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md" class="MCXref xref">個人設定を指定</a>を参照してください。</td> 
      </tr> 
      <tr> 
@@ -135,12 +140,8 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
         <li>他のサードパーティのサービスプロバイダー（SharePoint、Google Drive、Webdam、Box、Dropbox、その他のドキュメントアセット管理プロバイダー）から Workfront にリンクするドキュメント。</li> 
         <li>Workfront データ（プロジェクト、タスク、イシュー、ユーザーなど）。</li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">製品バージョン</td> 
-      <td>これは、ユーザーに割り当てられる Workfront インスタンスのタイプです。ほとんどの Workfront ユーザーの製品バージョンは、<strong>エンタープライズ</strong>です。</td> 
-     </tr> 
+     </tr>
     </tbody> 
    </table>
 
-1. 「**保存**」をクリックします。
+1. **保存**&#x200B;をクリックします。
