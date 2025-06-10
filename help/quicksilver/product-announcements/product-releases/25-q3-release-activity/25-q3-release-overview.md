@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 5ffda5783cf40cdb1a1418ab38b9c5cdf56bc291
 workflow-type: tm+mt
 source-wordcount: '1283'
 ht-degree: 24%
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>25.5 （2025 年 5 月）</li><li>26.6 （2025 年 6 月）</li><li>25.7 （2025 年 7 月）</li></ul> | <ul><li>25.7 （2025 年 7 月）</li></ul> |
+>| <ul><li>25.5 （2025 年 5 月）</li><li>25.6 （2025 年 6 月）</li><li>25.7 （2025 年 7 月）</li></ul> | <ul><li>25.7 （2025 年 7 月）</li></ul> |
 >
 >各四半期の最終リリース（今四半期は 25.7）では、迅速リリーススケジュールのユーザーに対して、1 日早くリリースが届きます。
 >
@@ -251,7 +251,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
