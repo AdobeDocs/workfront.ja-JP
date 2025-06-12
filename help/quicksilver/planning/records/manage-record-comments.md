@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 55%
+source-wordcount: '1057'
+ht-degree: 54%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 55%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -160,8 +160,8 @@ ht-degree: 55%
    >入力を完了してコメントを送信する前に「コメント」セクションから移動すると、ログオフしてログオンし直した後も、コメントがドラフトモードでページに保持されます。<!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. （オプション）変更の取り消しまたはやり直しを行うには、以下のショートカットキーを使用します。
-   * Ctrl + Z（Mac の場合は ⌘+z）で、変更を元に戻します
-   * Ctrl + Y（Mac の場合は ⌘+y）で、変更をやり直します
+   * Ctrl + Z （Macの場合は ⌘ + Z）
+   * Ctrl + Y （Macの場合は ⌘ + Y）で、変更をやり直します
 1. （オプションおよび条件付き）Workfront インスタンスがAdobe統合エクスペリエンスの一部である場合は、**@** に続けて、更新でユーザーをタグ付けするユーザー名を追加します。 詳細については、この記事の [ レコードにコメントする場合の考慮事項 ](#considerations-about-commenting-on-a-record) を参照してください。
 
 1. （オプション） リッチテキストツールバーのオプションを使用して、テキストの書式設定、絵文字または更新へのリンクの追加を行い、コンテンツを充実させます。

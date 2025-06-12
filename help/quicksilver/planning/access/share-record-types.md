@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3550d7addcc0bb790f15d141d9470e0b75f940a6
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1505'
 ht-degree: 8%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 8%
 >[!IMPORTANT]
 >
 >ワークスペースへのアクセス権を持つユーザーには、ワークスペース内のすべてのレコードタイプに対する少なくとも表示権限が自動的に付与されます。
->ビューを共有しても、ユーザーはレコードタイプに対する権限を持ちません。 共有ワークスペースのみが、レコードタイプに対する権限をユーザーに付与できます。
+>>ビューを共有しても、ユーザーはレコードタイプに対する権限を持ちません。 共有ワークスペースのみが、レコードタイプに対する権限をユーザーに付与できます。
 >
 >* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
 >* 詳しくは、この記事の [ レコードタイプを共有する場合の考慮事項 ](#considerations-when-sharing-record-types) の節を参照してください。
@@ -74,7 +74,7 @@ ht-degree: 8%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>Workfront Planning ビューへの権限を取得するには、ユーザーをAdobe Admin Consoleに追加する必要があります。</p>
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 

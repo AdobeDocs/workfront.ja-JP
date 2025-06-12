@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2425'
+source-wordcount: '2419'
 ht-degree: 22%
 
 ---
@@ -78,7 +78,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -178,8 +178,8 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 1. （オプション）テーブル表示で新しいレコードや情報を追加する際に、テーブル表示から次のキーボードショートカットを使用して、それらの追加の取り消しまたはやり直しを行います。
 
-   * Ctrl + Z（Mac の場合は ⌘ + z）で、変更を取り消します
-   * Ctrl + Shift + Z（Mac の場合は  ⌘ + Shift + Z）で、変更を元に戻します
+   * CTRL + Z （Macの場合は ⌘ + Z）
+   * Ctrl + Shift + Z （Macの場合は ⌘ + Shift + Z）
 
 ## 任意のレコードタイプ表示から「新規レコード」または「レコードをリクエスト」ボタンを使用してレコードを作成
 

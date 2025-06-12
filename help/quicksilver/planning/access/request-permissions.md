@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '739'
 ht-degree: 16%
 
 ---
@@ -76,7 +76,7 @@ ht-degree: 16%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p><b>重要</b></p>
 <p>組織内のユーザーは、組織がAdobe Unified Experience にオンボーディングされている場合にのみ、ビューとワークスペースに対する権限をリクエストできます。 </p>
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
@@ -140,10 +140,8 @@ ht-degree: 16%
 
    ビューまたはワークスペースに対する管理権限を持つすべてのユーザーは、アクセスリクエストに関する次の通知を受け取ります。
    * アプリ内通知
-
      ![ アクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request.png)
    * メール通知
-
      ![ アクセスリクエストのメール通知 ](assets/email-notification-for-access-request.png)
 
 1. （条件付き）ビューまたはワークスペースマネージャーからビューまたはワークスペースに対する権限を付与されると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this, but Isk confirmed.-->

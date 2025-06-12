@@ -6,9 +6,9 @@ description: 適切なアクセス権や権限を持っている場合は、Adob
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: aa2bef064df3ff7dd9e4fd896ac7482df3c55e32
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '712'
 ht-degree: 79%
 
 ---
@@ -132,10 +132,12 @@ Workfront インスタンスの&#x200B;**タイムシートおよび時間設定
    ![ 問題の詳細メニュー ](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. 「**イシューを削除**」をクリックします。
-1. 削除が許可されている場合は、「**削除**」をクリックします。
+1. **削除** をクリックして、を削除します。
 
-   時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
-   イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [ イシューの削除に関する考慮事項 ](#considerations-for-deleting-issues) の節を参照してください。
+   >[!NOTE]
+   >
+   >  時間が記録されたイシューの削除を Workfront 管理者が許可していない場合があります。\
+   >  イシューの削除に必要なアクセス権と権限について詳しくは、この記事の [ イシューの削除に関する考慮事項 ](#considerations-for-deleting-issues) の節を参照してください。
 
 ## 削除されたイシューを復元
 

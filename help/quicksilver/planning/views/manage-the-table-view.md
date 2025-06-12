@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '3680'
+source-wordcount: '3676'
 ht-degree: 51%
 
 ---
@@ -69,7 +69,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -274,7 +274,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 1. テーブルビューを選択し、テーブルの右上隅にある&#x200B;**フィルター**&#x200B;をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
-   * &#x200B;<!-- the tip below might change--> でフィルターする **フィールドを選択**
+   * <!-- the tip below might change--> でフィルターする **フィールドを選択**
 
    * **オプションを選択** （またはフィルター修飾子）して、フィールドが満たす必要がある条件の種類を定義します
 

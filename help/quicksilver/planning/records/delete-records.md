@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '814'
-ht-degree: 37%
+source-wordcount: '808'
+ht-degree: 38%
 
 ---
 
@@ -64,7 +64,7 @@ Adobe Workfront Planning 内で関係がなくなったレコードを削除で�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -170,8 +170,8 @@ Adobe Workfront Planning 内で関係がなくなったレコードを削除で�
    * **取り消し** アイコン ![ 取り消しアイコン ](assets/undo-icon.png) をクリックし、**最近削除された項目** をクリックすると、削除されたレコードを復元できます。 削除されたレコードのリカバリの詳細については、「[ 削除されたレコードのリカバリ ](/help/quicksilver/planning/records/restore-deleted-records.md)」を参照してください。
    * レコードの削除の取り消しまたはやり直しには、次のキーボードショートカットを使用します。
 
-      * レコードの削除を元に戻すには CTRL + Z （Macの場合は⌘ + Z）
-      * レコードの削除をやり直すには、Ctrl + Shift + Z （Macの場合は⌘ + Shift + Z）
+      * レコードの削除を元に戻すには CTRL + Z （Macの場合は ⌘ + Z）
+      * レコードの削除をやり直すには、Ctrl + Shift + Z （Macの場合は ⌘ + Shift + Z）
 
 
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 47%
+source-wordcount: '755'
+ht-degree: 44%
 
 ---
 
@@ -67,7 +67,7 @@ ht-degree: 47%
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -118,6 +118,7 @@ ht-degree: 47%
    * 日付
 
   詳しくは、「フィールドの作成 [ の「式」の節を参照してくだ ](/help/quicksilver/planning/fields/create-fields.md) い。
+* 新しい数式で数式フィールドを参照できます。 式フィールドで参照されているフィールドの値が更新されると、そのフィールドまたはそのフィールドを含む式フィールドを参照している後続のすべてのフィールドは、自動的に更新されます。
 
 ## サポートされる数式
 
@@ -127,12 +128,13 @@ Adobe Workfront Planning の数式フィールドは、Workfrontの計算フィ�
 >
 >次のWorkfront式は、Workfront Planning 式フィールドではサポートされていません：
 >
->* SORTASCARRAY
->* SORTDESCARRAY
+><!--* SORTASCARRAY-->
+><!--* SORTDESCARRAY-->
 >* ADDHOUR
 >* SWITCH
 >* 形式
 
+<!--remove the ones commented out when we go live to Preview and Prod, if they truly are added to Planning-->
 
 Workfront式の完全なリストについては、[ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
 

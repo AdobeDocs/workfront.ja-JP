@@ -6,10 +6,10 @@ description: オブジェクトに存在する日付の時間枠でレポート�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 70%
+source-wordcount: '963'
+ht-degree: 68%
 
 ---
 
@@ -186,7 +186,7 @@ Adobe Workfrontには、具体的な日付を定義せずに使用できる組�
   </tr> 
   <tr> 
    <td role="rowheader">前の四半期</td> 
-   <td> <p>入力日が現在の四半期の前の四半期の日付である時間を表示します。四半期は前述のように定義されます。</p> <p>注意：Workfront 管理者がシステムのカスタム四半期を有効にして定義している場合、組み込みの四半期のフィルターはカスタム四半期情報に置き換えられます。カスタム四半期の有効化について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">プロジェクトのカスタム四半期の有効化</a>を参照してください。</p> </td> 
+   <td> <p>入力日が現在の四半期の前の四半期の日付である時間を表示します。四半期は前述のように定義されます。</p> <p>注意：Workfront 管理者がシステムのカスタム四半期を有効にして定義している場合、組み込みの四半期のフィルターはカスタム四半期情報に置き換えられます。カスタム四半期の有効化について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref"> カスタム四半期の有効化 </a> を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">今年</td> 

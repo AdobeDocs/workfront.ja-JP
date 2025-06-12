@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 05512c4cfdc094e90abea471b5356337955119be
+source-git-commit: dae692617f447c446a421207143225b33b51debe
 workflow-type: tm+mt
-source-wordcount: '3152'
-ht-degree: 47%
+source-wordcount: '3512'
+ht-degree: 42%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -128,17 +128,51 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    >
    >    タイムラインのレコードの並べ替えは、コンパクト表示には表示されません。
 
+1. <span class="preview"> （条件付き）管理者がカスタム四半期を有効にしており、Workfrontがカスタム四半期の設定方法に関する問題を検出した場合、タイムラインビューを開くと警告が表示される場合があります。</span>
+
+   <div class="preview">
+
+   次のシナリオが存在します。
+
+   * 四半期の日付の間にギャップや重複が検出された場合、カスタム四半期が設定可能になり、編集が必要になる可能性があるという通知が届く場合があります。
+
+     ![ カスタム四半期通知が見つからないか、四半期間にギャップがある ](assets/custom-quarter-notification-missing-or-gaps.png)
+
+     >[!TIP]
+     >
+     >このメッセージは、組織が Planning を購入した直後にのみ表示され、購入前にカスタム四半期がすでに有効になっていました。 組織でWorkfront Planning を有効にした後は、四半期の重複やギャップは使用できません。
+
+   * 四半期が部分的に設定され、同じ年に属する数か月が欠落している場合、スクロールして欠落している四半期を表示すると、その年の残りの期間も欠落している四半期で設定する必要があるという通知が表示される場合があります。
+
+   ![ タイムライン表示にカスタム四半期の元のメッセージが表示されない ](assets/missing-custom-quarters-original-message-on-timeline-view.png)
+
+   これらの警告メッセージは、各ユーザーに 1 回表示されます。
+
+   >[!NOTE]
+   >
+   >カスタム四半期が適切に保存されていない場合、タイムラインビューにはクラシック四半期が表示されます。
+   >設定エリアでカスタム四半期を設定すると、タイムラインビューにクラシック四半期ではなくカスタム四半期が表示されます。
+   >詳しくは、[ カスタム四半期の有効化 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
+
+   </div>
+
+1. <span class="preview"> （条件付き）Workfrontの管理者の場合は、「**設定に移動**」をクリックして四半期を設定します。 そうでない場合は、「**OK**」をクリックし、Workfront管理者にカスタム四半期の設定を依頼します。</span>
+
+   >[!TIP]
+   >
+   ><span class="preview"> 「設定に移動」ボタンは、Workfront管理者にのみ表示されます。</span>
+
 1. （オプションおよび条件付き）レコード名が切り詰められている場合は、レコードバーにマウスポインターを置くと、レコードのフルネームと追加情報が表示されます。
 
 1. タイムラインを移動するには、次のいずれかを行います。
 
    * 左右のアイコンをクリックするか、水平スクロールを使用してタイムラインを前後に移動します。 ページを更新すると、選択した時間枠が保持されます。
-   * 「**今日**」をクリックして、今日の日付をタイムラインの中心に置きます。
-   * 時間枠ドロップダウンメニューから次のいずれかのオプションを選択して、時間間隔を更新します。
+   * **今日**&#x200B;をクリックして、今日の日付をタイムラインの中心に置きます。
+   * 「時間枠」ドロップダウンメニューから次のいずれかのオプションを選択して、時間増分を更新し、ビューを更新します。
 
-      * 年
-      * 四半期
-      * 月
+      * **年**：年を示す四半期と月を表示します。
+      * **四半期**：四半期を示す月と週を表示します。
+      * **月**：週と日を表示します。
 1. （オプション）「**コンパクトビューに切り替え**」をクリックして、日付が交差していないレコードを同じ行に表示します。<!--check to see if they updated the name of the setting here-->
 1. （条件付き）モードを **コンパクト** に変更した場合は、「**標準に切り替え** ビューをクリックして、レコードを別々の行に表示します。 <span class="preview"> 「**標準** オプションがデフォルトです。</span>  <!--check to see if they updated the name of the setting here-->
 
@@ -268,6 +302,16 @@ this is not possible right now; if this is the same functionality as the table v
    >* 開始日または終了日の値がないレコード、または開始日が終了日より後のレコードは、タイムラインビューに表示されません。
    >
    >* 「分類」オプションを使用して追加のレコードを表示する場合、開始日と終了日はメインレコードの日付です。 この領域で接続されているレコードの開始日と終了日を選択することはできません。
+
+1. <span class="preview"> （条件付きおよびオプション）Workfrontの管理者の場合は、「**カスタム四半期を使用** ボックスで「**設定に移動**」をクリックして「設定」エリアに移動し、カスタム四半期を設定します。 カスタム四半期を設定した後、クラシック四半期ではなくタイムラインビューに表示することができます。 Workfrontの管理者でない場合は、管理者に対してカスタム四半期が有効になるようにリクエストできます。</span>
+
+   詳しくは、[ カスタム四半期の有効化 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
+
+   ![ タイムライン表示設定内でカスタム四半期の警告を使用する ](assets/use-custom-quarters-warning-inside-timelive-view-settings.png)
+
+   >[!TIP]
+   >
+   ><span class="preview"> 「設定に移動」ボタンは、Workfront管理者にのみ表示されます。</span>
 
 1. 左側のパネルで **バースタイル** をクリックし、レコードバーに表示する情報を指定します。
 

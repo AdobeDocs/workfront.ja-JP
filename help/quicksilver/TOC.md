@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: fb8b65b59ee9cd591c2a7f8edceab19f89afd29d
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '13255'
+source-wordcount: '13254'
 ht-degree: 86%
 
 ---
@@ -423,7 +423,7 @@ ht-degree: 86%
          * [費用タイプの作成](administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md)
          * [スコアカードを作成](administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md)
          * [プロジェクトタイムラインの再計算](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
-         * [プロジェクトのカスタム四半期](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
+         * [カスタム四半期を有効にする](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
          * [組織の高速リリースを有効化または無効化](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
          * [ビジネスルールを作成および編集](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
          * [場所を設定](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)

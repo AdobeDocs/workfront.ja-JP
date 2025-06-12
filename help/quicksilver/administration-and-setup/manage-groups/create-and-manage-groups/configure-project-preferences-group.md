@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2765'
 ht-degree: 95%
 
 ---
@@ -223,7 +223,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
 <p>1 人のユーザーをプロジェクトのタスクに割り当て、プロジェクトとユーザーの両方にスケジュールを関連付けると、[!UICONTROL Workfront] では次のスケジュールが使用されます。</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>：タイムラインを計算するタスクに割り当てられたユーザーのスケジュール。</li> 
-     <li><strong>[!UICONTROL プロジェクト &#x200B;]</strong>: タスクのタイムラインを計算するプロジェクトのスケジュール。</li> 
+     <li><strong>[!UICONTROL プロジェクト ]</strong>: タスクのタイムラインを計算するプロジェクトのスケジュール。</li> 
     </ul> <p>スケジュールについて詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">スケジュールの作成</a>を参照してください。</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -238,7 +238,7 @@ Workfront 管理者が環境設定をロック解除する方法について詳�
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p><strong>カスタム四半期</strong> </p> </td> 
-   <td> <p>プロジェクトを担当するユーザー向けに、カスタム四半期を設定します。カスタム四半期は通常、暦年の従来の四半期分類と一致しない四半期です。複数のカスタム四半期を追加できます。詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">プロジェクトのカスタム四半期の有効化</a>を参照してください。</p> <p><b>メモ</b>：Workfront 管理者はカスタム四半期の環境設定をロック解除できません。</p> </td> 
+   <td> <p>プロジェクトを担当するユーザー向けに、カスタム四半期を設定します。カスタム四半期は通常、暦年の従来の四半期分類と一致しない四半期です。複数のカスタム四半期を追加できます。詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override=""> カスタム四半期の有効化 </a> を参照してください。</p> <p><b>メモ</b>：Workfront 管理者はカスタム四半期の環境設定をロック解除できません。</p> </td> 
   </tr> 
  </tbody> 
 </table>

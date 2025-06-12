@@ -2,26 +2,37 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: プロジェクトのカスタム四半期を有効にする
+title: カスタム四半期を有効にする
 description: レポートの目的で、組織の四半期がカレンダーの日付（営業日や買い物日など）以外の特定の条件に基づいている場合は、カスタム四半期を作成できます。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 91%
+source-wordcount: '442'
+ht-degree: 57%
 
 ---
 
-# プロジェクトのカスタム四半期を有効化
+# カスタム四半期を有効にする
 
 <!--Audited: 11/2024-->
 
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。[!DNL Adobe Workfront Planning] を購入したすべての顧客が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 レポートの目的で、組織の四半期がカレンダーの日付（営業日や買い物日など）以外の特定の条件に基づいている場合は、カスタム四半期を作成できます。
 
-[!DNL Adobe Workfront] システムに対して最大 8 つのカスタム四半期を設定できます。
+<div class="preview">
+
+会社が購入した商品に応じて、Workfrontの設定領域で次の四半期数を設定できます。
+
+* [!DNL Workfront] のみを購入したお客様は、[!DNL Adobe Workfront] システムに最大 8 つのカスタム四半期を設定できます。
+* [!DNL Workfront] と [!DNL Workfront Planning] を購入したお客様は、[!DNL Workfront] システムに最大 100 四半期を設定できます。この設定は [!DNL Planning] でも利用できます。
+
+</div>
 
 ## アクセス要件
 
@@ -69,9 +80,17 @@ ht-degree: 91%
    ![ カスタム四半期 ](assets/custom-quarters-nwe.png)
 
 1. （オプション）「**[!UICONTROL カスタム四半期を追加]**」をクリックして、システムにカスタム四半期を追加します。
-1. （オプション）会計四半期を参照するレポート要素を作成します。
 
-   **例：**&#x200B;[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
+   >[!IMPORTANT]
+   >
+   > <span class="preview">[!DNL Workfront Planning] を購入した場合、四半期の間にギャップや重複があると、カスタム四半期を保存できません。</span>
+   ><span class="preview">![ 重複警告のあるカスタム四半期 ](assets/custom-quarters-with-overlap-warning.png)</span>
+   >四半期の間のギャップと重複は、[!DNL Workfront] 顧客にのみ許可されています。
+
+1. （オプションおよび条件付き）会社が [!DNL Workfront] のみを購入した場合、[!DNL Workfront Planning] を付けずに、会計四半期を参照するレポート要素を作成します。
+
+
+   **例：**[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
 
    ![ カスタム四半期を使用したプロジェクトフィルター ](assets/example-of-project-filter-with-custom-quarters.png)
 
@@ -80,3 +99,4 @@ ht-degree: 91%
    レポート要素について詳しくは、[レポート要素：フィルター、ビュー、およびグループ化](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
 
    フィルターの作成について詳しくは、[フィルターを作成または編集 [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+1. <span class="preview"> （オプションおよび条件付き） [!DNL Workfront Planning] へのアクセス権を持っている場合は、レコードタイプのページに移動して、タイムライン表示を開きます。 ビューには、新しいカスタム四半期が表示されます。</span>

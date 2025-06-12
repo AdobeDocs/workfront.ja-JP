@@ -7,10 +7,10 @@ description: データ式を使用して、Adobe Workfront で計算済みのカ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '2433'
-ht-degree: 91%
+source-wordcount: '2463'
+ht-degree: 90%
 
 ---
 
@@ -391,7 +391,17 @@ ht-degree: 91%
    <p><code>ARRAY(string1, "delimiter")</code></p> 
    </td> 
   </tr>
-  <tr> 
+
+<tr> 
+   <td><strong>ARRAYCONTAINS</strong> </td> 
+   <td> <p>リストまたは配列内の特定の値を検索します。 値が見つかった場合、この関数は True を返し、それ以外の場合は False を返します。 </p> 
+   <p>式の形式は次のとおりです。</p>
+   <p><code>ARRAY(value 1, value 2)</code></p> 
+   </td> 
+  </tr>
+
+
+<tr> 
    <td><strong>ARRAYLENGTH</strong> </td> 
    <td> <p>配列内の要素の数を返します。次のような形式になります。</p>
    <p><code>ARRAYLENGTH(array)</code></p> 

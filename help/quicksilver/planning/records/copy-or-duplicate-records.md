@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 28%
+source-wordcount: '676'
+ht-degree: 27%
 
 ---
 
@@ -63,7 +63,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 
@@ -139,5 +139,5 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 1. （オプション）テーブル表示で新しいレコードやその情報を追加する際に、それらの追加の取り消しまたはやり直しを行うには、次のキーボードショートカットを使用します。
 
-   * Ctrl + Z（Mac の場合は ⌘ + z）で、変更を取り消します
-   * CTRL + Shift + Z （Macの場合は⌘ + Shift + Z）。変更をやり直すことができます。
+   * CTRL + Z （Macの場合は ⌘ + Z）
+   * CTRL + Shift + Z （Macの場合は ⌘ + Shift + Z）。変更をやり直すことができます。

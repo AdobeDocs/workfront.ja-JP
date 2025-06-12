@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: d0ec729a510b78a7ce417356ac9250a485308f0b
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1653'
 ht-degree: 21%
 
 ---
@@ -81,7 +81,7 @@ This article describes how you can share a view with others. For information abo
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>ユーザーが権限リクエストに基づいてビューに対する権限をリクエストおよび付与できるようにするには、組織がAdobe統合エクスペリエンスにオンボーディングされている必要があります。 </p>
 <p>Workfront Planning ビューへの権限を取得するには、ユーザーをAdobe Admin Consoleに追加する必要があります。</p>
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
@@ -236,10 +236,8 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 1. （条件付き）ビューの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
    * アプリ内通知
-
      ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
    * メール通知
-
      ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
@@ -261,7 +259,7 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 {{step1-to-planning}}
 
 1. 共有を停止するビューのワークスペースを開き、レコードタイプのカードをクリックします。 レコードタイプページが開きます。
-1. 共有を削除するビューのタブ名にポインタを合わせ、[ その他 ]&#x200B;**メニュー**&#x200B;[ その他 ]![](assets/more-menu.png) をクリックしてから、[**共有**] をクリックします。
+1. 共有を削除するビューのタブ名にポインタを合わせ、[ その他 ]**メニュー**[ その他 ]![](assets/more-menu.png) をクリックしてから、[**共有**] をクリックします。
 1. ビューの内部共有を削除するには、次の操作を行います。
 
    1. 「**内部共有**」タブが選択されていることを確認します。

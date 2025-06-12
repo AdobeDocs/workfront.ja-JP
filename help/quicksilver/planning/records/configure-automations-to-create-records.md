@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
-source-git-commit: ae3fc73e93474c75fd03144b66af23f7142867c0
+exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1796'
 ht-degree: 8%
 
 ---
-
 
 # Adobe Workfront Planning の自動構成
 
@@ -75,7 +75,7 @@ Workfront Planning のレコードタイプのページで自動処理を設定�
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>組織のWorkfront インスタンスは、Workfront Planning のすべての機能にアクセスできるように、Adobe Unified Experience にオンボーディングされる必要があります。</p> 
+<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
    </td> 
    </tr> 

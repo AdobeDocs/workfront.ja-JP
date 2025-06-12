@@ -7,10 +7,10 @@ description: Adobe Workfront で作業項目に記録した時間は、実際の
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: d68189272bd3f78de2d57b8393b44b698fa5db13
+source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 47%
+source-wordcount: '845'
+ht-degree: 46%
 
 ---
 
@@ -144,7 +144,7 @@ API 呼び出し、または計算されたカスタムフィールドや列で�
 
 実際の時間へのアクセス方法に応じて、これらはデータベース内の次のフィールドと単位に保存できます。
 
-* API の場合：実際の時間の `valuefield` は `actualWorkRequiredDouble` であり、時間単位で保存されます。
+* API の場合：2025 年後半にリリースされる予定のWorkfront API の次のバージョンでは、実際の時間数の `valuefield` は時間単位で保存され `actualWorkRequiredDouble` す。 現在のバージョンで保存された実際の時間数（`actualWorkRequired`）は分単位で保存されます。
 * Workfront インターフェイス（計算されたカスタムフィールドと列）の場合：実際の時間の `valuefield` は分で保存され `actualWorkRequired` す。
 
 <!--Change the above with this when we fix this for the Workfront UI: 
