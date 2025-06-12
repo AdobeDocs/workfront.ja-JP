@@ -1,22 +1,42 @@
 ---
-title: 2025 年第 3 四半期のドキュメント管理の強化
-description: 2025 年第 3 四半期のドキュメント管理の強化
+title: 2025 年第 3 四半期のプルーフとドキュメント管理の機能強化
+description: 2025 年第 3 四半期のプルーフとドキュメント管理の機能強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: e73986702dac81d698f59caca76f6c7239ddeef8
+source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
 workflow-type: tm+mt
-source-wordcount: '395'
+source-wordcount: '496'
 ht-degree: 3%
 
 ---
 
-# 2025 年第 3 四半期のドキュメント管理の強化
+# 2025 年第 3 四半期のプルーフとドキュメント管理の機能強化
 
 このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するすべてのドキュメント管理の機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+
+## 新規プルーフとGenStudio for Performance Marketingの統合
+
+>[!NOTE]
+>
+>* すべてのお客様向けの本番リリース： 2025年6月12日（PT）
+
+プルーフとGenStudio for Performance Marketingの新しい統合を導入できることを非常に嬉しく思います。 この統合を使用すると、次のことができます
+
+* Workfront承認テンプレートを使用した承認ワークフローの定義
+
+* Workfront プルーフビューアでのドラフトコンテンツのレビュー
+
+* GenStudio for Performance Marketingでの最終承認と公開に関する決定のレビューを参照してください
+
+### 統合要件
+
+WorkfrontとGenStudio for Performance Marketingは、同じ IMS 組織にデプロイする必要があります。
+
+詳しくは、[GenStudio for Performance MarketingとWorkfront Proofの統合の基本を学ぶ ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md) を参照してください。
 
 ## デスクトッププルーフビューアの更新
 

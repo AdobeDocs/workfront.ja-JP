@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
 workflow-type: tm+mt
-source-wordcount: '1310'
-ht-degree: 23%
+source-wordcount: '1371'
+ht-degree: 22%
 
 ---
 
@@ -45,9 +45,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [プロジェクトの強化](#project-enhancements)
 * [レポートの機能強化](#reporting-enhancements)
 * [更新と通知の機能強化](#update-and-notification-enhancements)
+* [統合の機能強化]
 * [その他の機能強化](#other-enhancements)
 
-### ドキュメント管理の機能強化
+### プルーフとドキュメント管理の機能強化
 
 <table style="table-layout:auto">
   <tbody>
@@ -58,6 +59,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> 新規プルーフとGenStudio for Performance Marketingの統合 </a>
+            <p>プルーフとGenStudio for Performance Marketingの新しい統合を導入できることを非常に嬉しく思います。 この統合を使用すると、次のことができます 
+            <ul>
+            <li>Workfront承認テンプレートを使用した承認ワークフローの定義
+            </li>
+             <li>プルーフビューアでのGenStudio ドラフトコンテンツのレビュー
+            </li>
+             <li>GenStudioでの最終承認と公開に関する決定のレビューを参照してください 
+            </li>
+            </ul>
+            </p>
+        </td>
+        <td>2025年6月12日（PT）</td>
+        <td>2025年6月12日（PT）</td>
+        <td>2025年6月12日（PT）</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアのアップデート </a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -251,7 +270,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
