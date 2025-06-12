@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: ee4cf80bc69416e3224c895c1f04628432ce2f4c
+source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
 workflow-type: tm+mt
-source-wordcount: '1646'
+source-wordcount: '1616'
 ht-degree: 88%
 
 ---
@@ -423,6 +423,7 @@ Workfront for Jira 統合を使用するためには、次の IP アドレスを
 * fonts.gstatic.com
 * dpm.demdex.net
 * storage.googleapis.com
+* snippet.maze.co
 * *.aptrinsic.com
 * *.static.workfront.com
 
@@ -435,7 +436,7 @@ Workfront for Jira 統合を使用するためには、次の IP アドレスを
    * mfe-preview.static.workfront.com
    * mfe-review.static.workfront.com
 
-組織がAdobeの統合エクスペリエンス上にある場合は、次のドメインを使用します。 これらのドメインについては `*.adobe.com` で説明していますが、必要に応じて追加できます。
+組織がAdobe Unified Experience 上にある場合は、次のドメインを使用します。 これらのドメインについては `*.adobe.com` で説明していますが、必要に応じて追加できます。
 
 * &lt;your domain>.my.workfront.adobe.com
 * &lt;your domain>.preview.workfront.adobe.com
@@ -445,12 +446,12 @@ Workfront for Jira 統合を使用するためには、次の IP アドレスを
 
 Workfront Fusion の場合、次のドメインを追加します。
 
-* Adobeの統合エクスペリエンス以外の組織の場合：
+* Adobe統合エクスペリエンス以外の組織の場合：
    * app.workfrontfusion.com （米国AWS）
    * app-eu.workfrontfusion.com （EU AWS）
    * app-az.workfrontfusion.com （米国 Azure）
 
-* Adobeの統合エクスペリエンスの組織の場合
+* Adobe統合エクスペリエンスの組織の場合
 （これらのドメインについては `*.adobe.com` で説明していますが、必要に応じて追加できます。）
 
    * fusion.adobe.com
