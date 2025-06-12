@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 5ffda5783cf40cdb1a1418ab38b9c5cdf56bc291
+source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 24%
+source-wordcount: '1310'
+ht-degree: 23%
 
 ---
 
@@ -129,9 +129,9 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">API 呼び出しのデータベースへの実際の時間の保存方法の変更 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>この更新により、プロジェクト、タスク、および問題の実際の時間数をデータベースに保存する方法に変更が生じます。 この更新から、実際の時間は、<code>actualWorkRequiredDouble</code> の値フィールド（時間単位の値）を使用するようになります。</p>
         </td>
-        <td>2025年5月27日（PT）</td>
-        <td>2025年5月27日（PT）</td>
-        <td>2025年5月27日（PT）</td>
+        <td>次の API バージョン（2025 年後半に予定）</td>
+        <td>次の API バージョン（2025 年後半に予定）</td>
+        <td>次の API バージョン（2025 年後半に予定）</td>
     </tr>     
     <tr>
         <td>
@@ -251,7 +251,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 

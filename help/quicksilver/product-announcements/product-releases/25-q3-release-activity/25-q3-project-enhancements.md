@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 33fa5a61-5300-402c-9f80-f2701f7999a8
-source-git-commit: a5a61045bad5a97fb1413fac4a5a2666b753fa83
+source-git-commit: 3ff70fcc949644d511c876add10d2c58901cb197
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '515'
 ht-degree: 3%
 
 ---
@@ -24,9 +24,9 @@ ht-degree: 3%
 
 >[!NOTE]
 >
->* プレビュー：2025年5月27日（PT）
->* 実稼動高速リリース：2025 年 5 月 27 日（PT）
->* すべてのお客様の実稼動環境：2025 年 5 月 27 日（PT）
+>* プレビュー：次の API バージョン（2025 年後半に予定）
+>* 実稼動版の高速リリース：次の API バージョンでは、2025 年後半に予定されています
+>* すべてのお客様の実稼動環境：次の API バージョンでは、2025 年後半に予定されています
 
 この更新により、プロジェクト、タスク、および問題の実際の時間数をデータベースに保存する方法に変更が生じます。 この更新から、実際の時間は、`actualWorkRequiredDouble` の値フィールド（時間単位の値）を使用するようになります。
 

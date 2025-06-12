@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 686db6004d1a64279080ab3ba311c172a6a24d1f
+source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 3%
+source-wordcount: '1601'
+ht-degree: 4%
 
 ---
 
@@ -21,6 +21,62 @@ ht-degree: 3%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## Workfront計画タイムラインビューでのカスタム四半期の利用
+
+>[!NOTE]
+>
+>* プレビュー：2025年6月12日（PT）
+>* 実稼動環境の迅速リリース：2025 年 7 月 17 日（PT）
+>* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
+
+この更新では、「設定」の「プロジェクト環境設定」領域でカスタム四半期を設定すると、Workfront Planning のタイムラインビューでカスタム四半期を使用できるようになります。
+
+この更新以前は、カスタム四半期はWorkfrontのレポート機能でのみ使用できました。
+
+この機能強化により、Workfront Planning を購入したお客様は、カスタム四半期を定義するための更新されたエクスペリエンスを確認できます。 この更新には、次の改善点が含まれています。
+
+四半期の間のギャップや重複は受け入れられなくなりました。
+
+最大 100 個のカスタム四半期を設定できます。 この更新より前は、8 つのカスタム四半期のみを設定できました
+
+Workfront Planning を購入していないお客様の場合、カスタム四半期のエクスペリエンスに変更はありません。
+
+詳しくは、[プロジェクトのカスタム四半期の有効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)を参照してください。
+
+## すべての依存する数式を同時に計算する
+
+>[!NOTE]
+>
+>* プレビュー：2025年6月12日（PT）
+>* 実稼動迅速リリース：2025 年 6 月 12 日（PT）
+>* すべてのお客様の実稼動環境：2025 年 6 月 12 日（PT）
+
+参照フィールドを手動で更新した後で、相互に依存するすべての数式フィールドを同時に更新する機能が導入されました。 値が手動で変更されるフィールドから 2、3、または 4 離れた数式フィールドは、自動的に同時に更新されるようになりました。
+
+この改善以前は、参照フィールドの値を手動で更新した場合、直接依存する式フィールドのみが更新されていました。
+
+詳しくは、[数式フィールドの概要](/help/quicksilver/planning/fields/formula-fields.md)を参照してください。
+
+## 数式フィールドに追加された新しい式
+
+>[!NOTE]
+>
+>* プレビュー：2025年6月6日（PT）
+>* 実稼動迅速リリース：2025 年 6 月 6 日（PT）
+>* すべてのお客様の実稼動環境：2025 年 6 月 6 日（PT）
+
+数式フィールドに次の式を追加しました。
+
+* ARRAYCONTAINS
+
+* SORTASCARRAY
+
+* SORTDESCARRAY
+
+この機能強化より前は、これらの式はWorkfront計算カスタムフィールドでのみサポートされていました。
+
+詳しくは、[数式フィールドの概要](/help/quicksilver/planning/fields/formula-fields.md)を参照してください。
 
 ## リクエストエリアの「計画」タブに追加されたフィルター、列、追加フィールド
 
@@ -150,7 +206,7 @@ CSV または Excel ファイルを使用してレコードタイプにレコー
 >[!NOTE]
 >
 >この変更は、システム管理者と Standard ライセンスを持つすべての新規ユーザーと既存ユーザーに対して表示されます。
->&#x200B;>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
+>>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
 
 詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
@@ -184,7 +240,7 @@ CSV または Excel ファイルを使用してレコードタイプにレコー
 >[!NOTE]
 >
 >* プレビュー：2025 年 4 月 17 日（PT）
->* 実稼動迅速リリース：2025 年 6 月 12 日（PT）
+>* 実稼動環境の迅速リリース：2025 年 7 月 17 日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年7月17日（PT）
 
 各レコードタイプのレコードを表示または管理できるユーザーをより適切に制御し、許可されたユーザーのみが各レコードタイプの情報を役割と責任に基づいて管理できるように、レコードタイプレベルで権限を導入しました。
