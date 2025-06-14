@@ -25,7 +25,7 @@ GenStudio for Performance MarketingとWorkfront Proofの統合により、次の
 
 * 最終承認および公開用にGenStudio for Performance Marketingでレビューの決定を表示する
 
-GenStudio for Performance Marketingでのレビューと承認について詳しくは、[Workfront ProofとGenStudio for Performance Marketingの統合 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration) を参照してください。
+GenStudio for Performance Marketingでのレビューと承認について詳しくは、[Workfront ProofとGenStudio for Performance Marketingの統合 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration) を参照してください。
 
 
 ## アクセス要件
