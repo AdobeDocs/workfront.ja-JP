@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront for Microsoft Teams]  アプリを使用す
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 75c4baf5ceca53f7ba85ffcc34876bca1238c9de
+source-git-commit: 940cbfb34f12eacd5ba698f60fb7a3e67eb62b22
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 71%
+source-wordcount: '728'
+ht-degree: 70%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 71%
 
 >[!IMPORTANT]
 >
->Microsoftが新しい Teams クライアントに移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 これに備え、新しい Teams クライアントと完全な互換性を持ち、スムーズな移行を確実に行うために 7 月 1 日（PT）より前に利用可能な、新しいバージョンのMicrosoft Teams統合を開発しています。
+>[Microsoftが新しい Teams クライアント ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 >
->統合が利用可能になったら、新しい Teams クライアントで統合をダウンロードしてインストールする方法がここに表示されます。
+>更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。
 
 
 [!DNL Adobe Workfront for Microsoft Teams] アプリを使用すると、[!DNL Microsoft Teams] チャットチャネルから移動しなくても [!DNL Workfront] で基本的な操作を実行できます。
