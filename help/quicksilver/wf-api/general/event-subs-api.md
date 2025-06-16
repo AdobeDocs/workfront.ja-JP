@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: ec018b8987a45cbf29c8a908f3adbdb8aade9d90
+source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
 workflow-type: tm+mt
-source-wordcount: '2407'
-ht-degree: 82%
+source-wordcount: '2479'
+ht-degree: 79%
 
 ---
 
@@ -707,6 +707,33 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 }
 ```
 
+#### containsOnly
+
+このフィルターを使用すると、順序に関係なく、選択された値の完全なセットがフィルター内の fieldValue と完全に一致する場合にのみ、メッセージを受け取ることができます。 余分な値や欠落した値を含めないようにする必要があります。
+
+メモ：これは配列型（複数選択）のフィールドに使用されます。 以下のこのサンプル購読では、`groups` フィールドに「選択肢 3」と「選択肢 4」が正確に含まれ、追加の値や欠落した値がなく、順序に関係なくメッセージが送信される場合にのみ、メッセージを受信できます。
+
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": [
+                "Choice 3",
+                "Choice 4"
+            ],
+            "state": "newState",
+            "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
 #### changed：変更
 
 このフィルターを使用すると、指定されたフィールド（`fieldName`）で oldState と newState の値が異なる場合にのみ、メッセージが届きます。指定されたフィールド（`fieldName`）以外のフィールドを更新しても、その変更は返されません。
@@ -739,7 +766,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >指定されたフィルターを含む以下の購読は、タスクの名前にタスクの更新が行われる前の `again` が `oldState` に含まれているメッセージのみを返します。
->この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
+>>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
 
 ```
 {
