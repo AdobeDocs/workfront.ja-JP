@@ -5,15 +5,13 @@ title: Workfrontに対する HIPAA 対応
 description: Workfrontのお客様のうち、HIPAA で定義されているビジネスアソシエイトまたは対象エンティティ（その代わりにビジネスアソシエイトがAdobe Workfrontを提供するもの）は、次のガイドラインを使用してWorkfrontを HIPAA 対応として設定する必要があります。
 feature: Get Started with Workfront
 author: Courtney
-hide: true
-hidefromtoc: true
-source-git-commit: a984038eea41d249cb0ad0d2ec6ba47025c56a65
+exl-id: e3cdaa03-d523-46a4-954b-8456d5f190e4
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '474'
 ht-degree: 0%
 
 ---
-
 
 # Workfrontに対する HIPAA 対応
 
@@ -66,5 +64,5 @@ HIPAA で定義されているWorkfrontのお客様のうち、ビジネスア�
 * ePHI にアクセスできる可能性のあるWorkfront データベースについては、**保存時の暗号化（EAR）** が有効になっていることを確認します。
    * Workfrontの購入に EAR が含まれていることを確認するには、アカウント担当者（AE）にお問い合わせください。
    * コンプライアンスに関する義務を果たすために、Workfrontからアクセス可能なシステム/データベースを設定します。
-* ePHI が他のAdobe ソリューションに転送、リンク、共有されないようにします。
+* ePHI が HIPAA に対応していない他のAdobe ソリューションに転送、リンク、共有されないようにします。
 * Workfrontで処理された患者写真は、安全に保存され、一般にアクセスできないようにします。

@@ -8,10 +8,10 @@ author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c0b25ec2-38a5-4499-9366-be3b71ae62a2
-source-git-commit: 0c76cf9ebadaeabee55939969d59ea16d69ed328
+source-git-commit: 15a703e2292883427e371603f77a99765ed9d00a
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 87%
+source-wordcount: '209'
+ht-degree: 86%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 87%
 * [Adobe Workfront の用語集](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)
 * [Adobe Workfront ブラウザー要件](../workfront-basics/workfront-browser-requirements.md)
 * [Adobe Workfront でサポートされている言語](../workfront-basics/supported-languages-in-workfront.md)
+* [Workfrontに対する HIPAA 対応](/help/quicksilver/workfront-basics/hipaa-readiness-for-workfront.md)
 * [Adobe Workfront の操作：記事インデックス](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [優先度：記事索引](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [ホーム](../workfront-basics/using-home/home.md)
