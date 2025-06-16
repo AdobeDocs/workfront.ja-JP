@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 11fb8416c4432708b4847486d345ab7a9489f6fb
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '531'
 ht-degree: 3%
 
 ---
@@ -17,6 +17,14 @@ ht-degree: 3%
 このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するすべてのドキュメント管理の機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+
+## デスクトッププルーフビューアの更新
+
+デスクトッププルーフビューアがバージョン 2.1.50 に更新されました。
+
+この更新には、内部ツールの更新が含まれており、エンドユーザーの機能には影響しません。
+
+このアップデートは、Macと Windows の両方に対応しています。
 
 ## 新規プルーフとGenStudio for Performance Marketingの統合
 

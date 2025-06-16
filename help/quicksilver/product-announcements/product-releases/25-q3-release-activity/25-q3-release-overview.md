@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 85eeb9796f095aeaa09f8bf28953c0fa7bbf579b
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1406'
 ht-degree: 22%
 
 ---
@@ -59,6 +59,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアのアップデート </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>デスクトッププルーフビューアがバージョン 2.1.50 に更新されました。
+この更新には、内部ツールの更新が含まれており、エンドユーザーの機能には影響しません。 </p>
+        </td>
+        <td>2025年6月13日（PT）</td>
+        <td>2025年6月13日（PT）</td>
+        <td>2025年6月13日（PT）</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> 新規プルーフとGenStudio for Performance Marketingの統合 </a>
@@ -270,7 +280,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 

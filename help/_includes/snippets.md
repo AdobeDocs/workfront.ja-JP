@@ -1,5 +1,5 @@
 ---
-source-git-commit: cbb434ff7c8f614b6ca3f657f01945306d26068c
+source-git-commit: 3744bb89d571a8cb8fa0600ba60ba2d2dce0da50
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 89%
@@ -55,7 +55,7 @@ ht-degree: 89%
 >
 >このページで説明する手順は、まだ [!DNL Adobe Experience Cloud] にオンボーディングされていない組織にのみ適用されます。
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。
+> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。
 
 ## 手順 1 - メインメニューのみをクリックする {#step1-click-main-menu}
 
@@ -360,8 +360,8 @@ ht-degree: 89%
 ## 最新の DPV バージョン {#latest-version}
 
 **最新バージョン**:
-* Mac:2025 年 5 月 7 日現在、2.1.48
-* Windows: 2025 年 5 月 7 日（PT）の 2.1.48
+* Mac:2025 年 6 月 13 日現在、2.1.50
+* Windows: 2.1.50 / 6/13/2025
 
 <!-- Release -->
 
