@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 26a97126bbe809bc5fdd40d52bce2e0763110bcb
+source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
 workflow-type: tm+mt
-source-wordcount: '13256'
+source-wordcount: '13262'
 ht-degree: 86%
 
 ---
@@ -1730,9 +1730,9 @@ ht-degree: 86%
          * [Tableau Desktop は接続を確立できません](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-load-data.md)
          * [Power BI ツールは、指定されたパスワードではに接続できません](/help/quicksilver/reports-and-dashboards/data-lake/tips-tricks-troubleshooting/cannot-connect-with-provided-password.md)
 * リソースの管理 {#manage-resources}
-   * [リソースの管理](resource-mgmt/manage-resources.md)
+   * [リソースの管理：記事インデックス](resource-mgmt/manage-resources.md)
    * リソース管理 {#resource-management}
-      * [リソース管理](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
+      * [リソース管理：記事インデックス](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
       * [リソース管理 の概要](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
    * Adobe Workfront でのリソース計画 {#resource-planning-in-adobe-workfront}
       * [リソース計画：記事インデックス](resource-mgmt/resource-planning/resource-planning-overview.md)
@@ -1762,7 +1762,7 @@ ht-degree: 86%
       * [リソースプランナーの予算時間に関するレポート](resource-mgmt/resource-planning/report-on-budgeted-hours.md)
       * [リソースプランナーの表示制限](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * リソース稼働率 {#resource-utilization}
-      * [リソース稼働率](resource-mgmt/resource-utilization/resource-utilization.md)
+      * [リソース使用率：記事インデックス](resource-mgmt/resource-utilization/resource-utilization.md)
       * [リソース稼働率情報の表示](resource-mgmt/resource-utilization/view-utilization-information.md)
    * ワークロードバランサー {#the-workload-balancer}
       * [ワークロードバランサー：記事インデックス](resource-mgmt/workload-balancer/workload-balancer.md)

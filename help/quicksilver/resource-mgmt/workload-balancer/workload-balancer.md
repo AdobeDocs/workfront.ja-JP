@@ -2,26 +2,26 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: 「ワークロードバランサー：記事インデックス」
+title: ワークロードバランサー：記事のインデックス
 description: ワークロードバランサーは、タスクやイシューを人物リソースに割り当てることができる、Adobe Workfront のリソーススケジュールツールです。
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
 exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: fc82ce4b5abb2cd7411d62ac8bb428bc5337386f
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 97%
+source-wordcount: '151'
+ht-degree: 96%
 
 ---
 
 # ワークロードバランサー：記事インデックス
 
-<!--Audited: 12/2023-->
+<!--Audited: 6/2025-->
 
 ワークロードバランサーは、タスクやイシューを人物リソースに割り当てることができる、Adobe Workfront のリソーススケジュールツールです。
 
-ワークロードバランサーの概要、ナビゲート方法、および作業の割り当て方法については、次の記事を参照してください。
+この節では、次の記事を扱います。
 
 * [ワークロードバランサーの概要](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
 * [ワークロードバランサーでリソースを管理するために必要なアクセス](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
