@@ -76,7 +76,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 >
 >このページで説明されているメイン メニューは、まだ [!DNL Adobe Experience Cloud] に登録されていない組織にのみ適用されます。
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。
+> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。
 
 **[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](assets/main-menu-icon.png) をクリックすると、[!UICONTROL メインメニュー]が開き、そこから Workfront の別のエリアに移動できます。
 
