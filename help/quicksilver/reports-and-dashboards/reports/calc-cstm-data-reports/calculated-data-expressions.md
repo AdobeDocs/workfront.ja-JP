@@ -7,7 +7,7 @@ description: データ式を使用して、Adobe Workfront で計算済みのカ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
 source-wordcount: '2463'
 ht-degree: 90%
@@ -396,7 +396,7 @@ ht-degree: 90%
    <td><strong>ARRAYCONTAINS</strong> </td> 
    <td> <p>リストまたは配列内の特定の値を検索します。 値が見つかった場合、この関数は True を返し、それ以外の場合は False を返します。 </p> 
    <p>式の形式は次のとおりです。</p>
-   <p><code>ARRAY(value 1, value 2)</code></p> 
+   <p><code>ARRAYCONTAINS(array, value)</code></p> 
    </td> 
   </tr>
 
@@ -445,7 +445,7 @@ ht-degree: 90%
   </tr> 
   <tr> 
    <td><strong>CONCAT</strong> </td> 
-   <td> <p>文字列を連結します。形式は次のとおりです。</p><p><code>CONCAT(string1,"separator", string2)</code></p> <p>使用できる区切り文字の例を示します。</p> 
+   <td> <p>文字列を連結します。形式は次のとおりです。</p><p><code>CONCAT(string1,"separator", string2)</code></p> <p>使用できる区切り記号の例を示します。</p> 
     <ul> 
      <li>スペース：「 」</li> 
      <li>ダッシュ：「-」</li> 

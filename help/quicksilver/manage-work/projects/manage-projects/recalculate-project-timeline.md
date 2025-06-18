@@ -6,14 +6,16 @@ description: タイムラインの再計算を使用すると、管理者は、�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 87%
+source-wordcount: '1017'
+ht-degree: 81%
 
 ---
 
 # プロジェクトタイムラインの再計算
+
+<!--Audited: 06/2025-->
 
 タイムラインの再計算を使用すると、管理者は、プロジェクトに関連する様々な要因がプロジェクトのタイムラインに与える影響を確認できます。プロジェクトのタイムラインは、予定日と見込み日を指します。
 
@@ -21,68 +23,41 @@ ht-degree: 87%
 
 この記事では、タイムラインの再計算がどのように発生するかについて説明します。
 
+プロジェクトの作業に関与するユーザーが特別なアクセス権を持っていなくても、タイムラインの自動再計算が行われます。 また、タイムラインを手動で再計算することもできます。
+
 ## アクセス要件
 
-<!--drafted for P&P: 
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>System administrator to recalculate timeline for all projects in the system</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-タイムラインの自動再計算は、プロジェクトの作業に関わるユーザーに対して特別なアクセス権を付与することなく行われます。
-
-ただし、プロジェクトのタイムラインを手動で再計算するには、次のアクセス権が必要です。
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
+   <td> <p>新規のライセンス：標準 </p> 
+   または
+   <p>現在のライセンス：プラン </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p>システム内のすべてのプロジェクトのタイムラインを再計算するシステム管理者</p> <p><b>メモ</b>
-
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> <p>システム内のすべてのプロジェクトのタイムラインを再計算するシステム管理者</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対して権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトに対して権限を管理</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 自動再計算
 
@@ -109,7 +84,7 @@ Adobe Workfrontでは、次の条件がすべて満たされたプロジェク�
 
   プロジェクトの更新タイプについて詳しくは、[プロジェクト更新タイプの概要](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)を参照してください。
 
-* 過去 3 か月以内に最終更新日があること\
+* 過去 3 か月以内の最終更新日がある\
   Workfrontの管理者は、[プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)に記載されているように、このデフォルト機能を変更できます。
 
 * プロジェクトタイムラインの最終計算日が現在のカレンダー日内にないこと。つまり、プロジェクトタイムラインの最終計算日が現在の日の 00:00 より前になっています。

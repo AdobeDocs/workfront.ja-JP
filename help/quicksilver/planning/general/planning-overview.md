@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '1979'
-ht-degree: 43%
+source-wordcount: '2061'
+ht-degree: 40%
 
 ---
 
@@ -277,12 +277,14 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
    * レコードタイプと Workfront のプロジェクト、プログラム、ポートフォリオ、会社またはグループオブジェクトタイプ。
    * レコードタイプと Adobe Experience Manager のアセットまたはフォルダー。
 
-     レコードタイプを Experience Manager のオブジェクトとリンクするには、Adobe Experience Manager のライセンスが必要です。
+     レコードタイプをExperience Manager オブジェクトと関連付けるには、Adobe Experience Manager ライセンスが必要です。
 
      ![Workfront AEMのオプションを含む新しい「接続」タブ ](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   レコードタイプ間の接続を確立すると、個々のレコードまたはそれらのタイプのオブジェクトを相互に接続できます。 レコード間の接続は、接続されたレコードフィールドまたは接続として表示されます。
+
+  相互に影響を与える複数のタイプの作業オブジェクトがある場合、レコード タイプを接続すると便利です。 例えば、キャンペーンを扱う場合に、各キャンペーンが複数のブランドに対応している可能性があります。 この関係を示すために、キャンペーンをブランドに接続できます。 さらに、各キャンペーンの作業は、Workfrontの複数のプロジェクトで計画される可能性があります。 これを示すには、キャンペーンを関連するプロジェクトに接続します。 レコードタイプを結び付けた後で、個々のレコードを結び付けると、Workfront Planning でこの関係が実現されます。
 
 * **参照フィールド** （またはリンクされたフィールド）:2 つのレコードタイプ間の接続を確立し、個々のレコードを接続すると、接続元のレコードから接続されたレコードのフィールドを参照できます。
 
@@ -299,7 +301,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
   >* 最終変更者
   >* Workfrontの先行入力フィールド（「プロジェクト所有者」や「プロジェクトスポンサー」などのフィールドを含む）
 
-  レコードタイプのリンク、レコード、リンクされたフィールドの作成については、次の記事を参照してください。
+  レコードタイプとレコードの接続、およびリンクされたフィールドの作成について詳しくは、以下の記事を参照してください。
 
    * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
@@ -323,7 +325,6 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
      ![ タイムラインビューで適用されたグループ化 ](assets/grouping-applied-in-timeline-view.png)
 
    * **カレンダービュー**：2 つ以上の日付タイプフィールドを持つレコードをカレンダー形式で表示します。
-
      ![ カレンダー表示の例 ](assets/calendar-view-example.png)
 
 
@@ -395,7 +396,7 @@ Workfront Planning を検索するには、次の手順に従います。
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Workfront Fusion のAdobe Workfront Planning モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
+* [Workfront Fusion のAdobe Workfront Planning モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
 
 * [Adobe Workfront Planning API の基礎 ](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
 

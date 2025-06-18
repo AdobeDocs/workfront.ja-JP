@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 39%
+source-wordcount: '2559'
+ht-degree: 38%
 
 ---
 
@@ -27,6 +27,8 @@ ht-degree: 39%
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
 レコードタイプを相互に接続することも、レコードタイプを他のアプリケーションのオブジェクトタイプと接続することもできます。
+
+相互に影響を与える複数のタイプの作業オブジェクトがある場合、レコード タイプを接続すると便利です。 例えば、キャンペーンを扱う場合に、各キャンペーンが複数のブランドに対応している可能性があります。 この関係を示すために、キャンペーンをブランドに接続できます。 さらに、各キャンペーンの作業は、Workfrontの複数のプロジェクトで計画される可能性があります。 これを示すには、キャンペーンを関連するプロジェクトに接続します。 レコードタイプを結び付けた後で、個々のレコードを結び付けると、Workfront Planning でこの関係が実現されます。
 
 ここでは、2 つのWorkfront Planning レコードタイプまたは 1 つのWorkfront Planning レコードタイプを別のアプリケーションのオブジェクトに関連付ける方法について説明します。
 
@@ -216,7 +218,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプへの接続を選択した場合は、「レコードの外観 **領域で次のいずれかのオプションを選択し** す。
 
