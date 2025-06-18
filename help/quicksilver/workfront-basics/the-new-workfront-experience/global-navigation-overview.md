@@ -5,9 +5,9 @@ description: ' [!DNL Adobe Workfront]  の画面の上部に表示されるト�
 feature: Get Started with Workfront
 author: Courtney
 exl-id: 6262d0ff-4be0-41ac-b2e7-5eaa6b2795dc
-source-git-commit: 577761ff5d1fb59db104df5995af953a0b5e6c0c
+source-git-commit: 4ad4873f1646a2ff499d03dabd9749d43022f6b1
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '690'
 ht-degree: 99%
 
 ---
@@ -76,7 +76,7 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 >
 >このページで説明されているメイン メニューは、まだ [!DNL Adobe Experience Cloud] に登録されていない組織にのみ適用されます。
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。
+> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。
 
 **[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](assets/main-menu-icon.png) をクリックすると、[!UICONTROL メインメニュー]が開き、そこから Workfront の別のエリアに移動できます。
 
@@ -85,8 +85,6 @@ To learn more about the Help menu, see [Access [!DNL Adobe Workfront] help](../.
 * **レイアウト テンプレートの設定**：[!DNL Workfront]管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレート](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を使用して、[!UICONTROL メインメニュー]をカスタマイズする方法を参照してください。
 
 * **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[レビューライセンスユーザーのナビゲーションを理解する](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[[!UICONTROL ワーク]ライセンスユーザー](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)のナビゲーションを理解するを参照してください。
-
-![メインメニューオプション](assets/main-menu-options-350x481.png)
 
 各アイコンにより、Workfront の様々なエリアに移動します。
 

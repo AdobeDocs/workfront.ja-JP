@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 hide: true
 hidefromtoc: true
 exl-id: 72f955e9-75ff-4ff7-b434-7a2b2d5ee0e8
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: 1d7d094a682a02b09651023f94e81ee0b330163c
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '217'
 ht-degree: 87%
 
 ---
@@ -50,9 +50,9 @@ ht-degree: 87%
 
 1. [!DNL Workfront] ージの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**[!UICONTROL ユーザー]**![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) をクリックします。
 
-   ![メインメニューオプション](assets/main-menu-options-350x481.png)
 
-1. パスワードのリセットが必要な&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択します。
+
+1. パスワードのリセットが必要な&#x200B;**[!UICONTROL ユーザー]**を選択します。
    ![ ユーザーの選択 ](assets/100520classicnweselectuser-350x105.png)
 
 1. 目的の&#x200B;**[!UICONTROL ユーザー]**&#x200B;を選択した後に表示される「**[!UICONTROL その他]」ボタン**&#x200B;をクリックし、ドロップダウンメニューから「**[!UICONTROL パスワードを忘れた場合の E メールの送信]**」オプションを選択します。
