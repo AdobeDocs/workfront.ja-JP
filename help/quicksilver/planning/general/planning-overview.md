@@ -325,6 +325,7 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
      ![ タイムラインビューで適用されたグループ化 ](assets/grouping-applied-in-timeline-view.png)
 
    * **カレンダービュー**：2 つ以上の日付タイプフィールドを持つレコードをカレンダー形式で表示します。
+
      ![ カレンダー表示の例 ](assets/calendar-view-example.png)
 
 
