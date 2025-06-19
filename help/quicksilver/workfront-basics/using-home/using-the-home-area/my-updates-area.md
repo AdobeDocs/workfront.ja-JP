@@ -6,9 +6,9 @@ description: '[!UICONTROL マイ更新]エリアを使用して、決定を待�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '823'
+source-wordcount: '811'
 ht-degree: 81%
 
 ---
@@ -74,15 +74,13 @@ ht-degree: 81%
 
 ## [!UICONTROL マイ更新]エリアへのアクセス
 
-1. **[!UICONTROL メインメニュー]**&#x200B;で、**[!UICONTROL マイ更新]**&#x200B;をクリックします。
+{{step1-to-my-updates}}
 
-   ![ メインメニューのマイ更新 ](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+[!UICONTROL マイ更新]エリアが開きます。
 
-   [!UICONTROL マイ更新]エリアが開きます。
+自分に割り当てられているアクセスの承認とリクエストは、ページの前半部の「**マイ更新**」の下に一覧表示されます。
 
-   自分に割り当てられているアクセスの承認とリクエストは、ページの前半部の「**マイ更新**」の下に一覧表示されます。
-
-   ![ マイアップデートはレビュアーに対してメンションを行います ](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![ マイアップデートはレビュアーに対してメンションを行います ](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. （オプション）[!UICONTROL **マイ更新**]&#x200B;エリアの一番下までスクロールし、右向きの矢印をクリックすると、追加のページに表示される承認がさらに表示されます。
 
@@ -117,7 +115,7 @@ ht-degree: 81%
 
 1. 承認前にアイテムを承認または却下したり、ドキュメントに対する変更を提案したりするには、次の手順を実行します。
 
-   1. （任意）承認決定の横にある **ドロップダウン** アイコン ![ ドロップダウンアイコン ](assets/down-arrow-blue.png) 承認 **&#x200B;**、**[!UICONTROL 変更]**、**[!UICONTROL 却下]**）をクリックしてコメントを追加し、「**[!UICONTROL 追加]**」をクリックします。
+   1. （任意）承認決定の横にある **ドロップダウン** アイコン ![ ドロップダウンアイコン ](assets/down-arrow-blue.png) 承認 ****、**[!UICONTROL 変更]**、**[!UICONTROL 却下]**）をクリックしてコメントを追加し、「**[!UICONTROL 追加]**」をクリックします。
 
       または
 

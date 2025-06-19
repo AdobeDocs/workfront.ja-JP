@@ -6,10 +6,10 @@ description: プロジェクトを「プロジェクトレベルでテンプレ�
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 62%
+source-wordcount: '489'
+ht-degree: 60%
 
 ---
 
@@ -21,13 +21,15 @@ ht-degree: 62%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Keep this the way it is in the Managing Projects area because the functionality in the UI is "Save as template" at the project level, so users see that in the UI; there is another article that this links to which is more in depth (step-by-step). This functionality needs to stay in both projects AND templates areas.)</p>
 -->
 
+<!--
 <div class="preview">
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 プロジェクトが将来再び発生することが決定した場合は、その既存のプロジェクトからテンプレートを作成できます。次に、テンプレートを再度使用して、同様の情報を含む可能性がある、または既存のプロジェクトと同じタイムラインや割り当てを共有する可能性のある今後のプロジェクトを作成できます。
 
@@ -67,63 +69,67 @@ ht-degree: 62%
 
 ## プロジェクトをテンプレートとして保存
 
-プロジェクトをテンプレートとして保存する方法は、実稼動環境とプレビュー環境で異なります。
+<!--
+Saving a project as a template differs in the Production and the Preview environments. 
 
-### 実稼動環境でプロジェクトをテンプレートとして保存する
+### Save a project as a template in the Production environment
 
-1. テンプレートとして保存するプロジェクトに移動します。
-1. **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックしてから、**テンプレートとして保存** をクリックします。
-1. テンプレートに次の情報を指定します。
+
+1. Go to the project that you want to save as a template. 
+1. Click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png), then **Save as Template**. 
+1. Specify the following information for the template:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">名前</td> 
-      <td>テンプレートの名前を指定します。</td> 
+      <td role="rowheader">Name</td> 
+      <td>Specify a name for the template.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">説明</td> 
-      <td>テンプレートの説明を入力します。</td> 
+      <td role="rowheader">Description</td> 
+      <td>Provide a description for the template.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">アクティブ</td> 
-      <td> <p>次のオプションから選択します。</p> 
+      <td role="rowheader">Is Active</td> 
+      <td> <p>Select from the following options:</p> 
        <ul> 
-        <li> <p><strong>はい</strong>：他のユーザーがテンプレートを見つけてプロジェクトに添付することができます。</p> </li> 
-        <li><strong>いいえ</strong>：他のユーザーはテンプレートを見つけることができず、プロジェクトに添付できません。</li> 
+        <li> <p><strong>Yes</strong>: Other users can find the template and attach it to projects.</p> </li> 
+        <li><strong>No</strong>: Other users cannot find the template and cannot attach it to projects.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">カスタムフォーム</td> 
-      <td>ドロップダウンリストを使用して、テンプレートに添付するカスタムフォームを選択します。カスタムフォームがすでにプロジェクトに関連付けられている場合は、それらのカスタムフォームのデータフィールドがすべて表示されます。<br>1 つのテンプレートに最大 10 個のカスタムフォームを含めることができます。</td> 
+      <td role="rowheader">Custom Forms</td> 
+      <td>Use the drop-down list to select any custom forms to attach to the template. If any custom forms have already been associated with the project, all of the data fields from those custom forms are displayed.<br>You can include up to 10 custom forms on a single template.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. 「**フォームの管理**」をクリックして、フォームを削除または並べ替えます。テンプレートのカスタムフォームを削除して並べ替える方法については、[カスタムフォーム](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)を参照してください。
+1. Click **Manage Forms** to remove or reorder the forms. For information about how to remove and reorder custom forms on the template, see [Custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
-1. 「**次の手順**」をクリックします。
-1. 「**オプション**」セクションで、テンプレートから消去する情報の横にあるチェックボックスを選択します。
+1. Click **Next Step.**
+1. In the **Options** section, select the checkbox beside any information you want to clear from the template.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
-1. 「**次の手順**」をクリックします。
-1. **除外**&#x200B;セクションで、プロジェクトから除外するタスクを選択します。
+1. Click **Next Step.**
+1. In the **Exclude** section, select any tasks that you want to exclude from the project.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. 「**完了してテンプレートを保存**」をクリックします。
+1. Click **Finish and Save Template.**
 
-   テンプレートが使用可能なテンプレートのリストに表示され、既存のプロジェクトに添付することも、新しいプロジェクトの作成に使用することもできます。
+   Your template now appears in the list of available templates and can either be attached to an existing project or used to create a new one.
 
 
 <div class="preview">
 
-### プレビュー環境でプロジェクトをテンプレートとして保存する
+### Save a project as a template in the Preview environment
+
+-->
 
 1. テンプレートとして保存するプロジェクトに移動します。
 1. **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックしてから、**テンプレートとして保存** をクリックします。
@@ -165,7 +171,7 @@ ht-degree: 62%
 
 1. 必要に応じて、添付されたカスタムフォームの情報を更新します。 情報がテンプレートに転送されます。
 
-1. 左側のパネルセクションで **オプション** をクリックし、テンプレートに転送する情報の横にあるチェックボックスを選択します。 選択解除された項目は、テンプレートに転送されません。 デフォルトでは、すべてのオプションの選択は解除されています。
+1. 左側のパネルで **オプション** をクリックし、テンプレートに転送する情報の横にあるチェックボックスを選択します。 選択解除された項目は、テンプレートに転送されません。 デフォルトでは、すべてのオプションの選択は解除されています。
 
    ![ 「テンプレートとして保存」ボックスの「オプション」領域 ](assets/options-area-in-save-as-template-box.png)
 
@@ -173,8 +179,7 @@ ht-degree: 62%
 
    ![ 「テンプレートとして保存」ボックスの「除外」領域 ](assets/exclude-area-save-as-template-box.png)
 
-1. 「**完了してテンプレートを保存**」をクリックします。
+1. 画面の右上隅にある「**終了してテンプレートを保存**」をクリックします。
 
    テンプレートが使用可能なテンプレートのリストに表示され、既存のプロジェクトに添付することも、新しいプロジェクトの作成に使用することもできます。
 
-</span>

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 5413ab5cfbb06a7e047a4ccab87e82af7c859cab
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '13262'
+source-wordcount: '13266'
 ht-degree: 86%
 
 ---
@@ -446,8 +446,8 @@ ht-degree: 86%
          * [担当業務の非アクティブ化](administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md)
          * [担当業務の請求レートの上書き](administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md)
       * システムで追跡される更新フィード {#system-tracked-updates}
-         * [システムで追跡される更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
-         * [システムで追跡される更新](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
+         * [システムで追跡される更新フィード：記事インデックス](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+         * [システムで追跡される更新の概要](administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)
          * [システム更新の設定](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)
          * [ユーザー更新の環境設定の指定](administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md)
       * Adobe Workfront のテスト環境 {#testing-environments}

@@ -3,22 +3,22 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: system-tracked-update-feeds
-title: システムが追跡する更新
+title: システムで追跡される更新の概要
 description: Adobe Workfront は、オブジェクトの[!UICONTROL 更新]エリアのステータス情報をログに記録することで、特定のオブジェクトに対して行われるアクティビティを記録します。
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 57%
+source-wordcount: '386'
+ht-degree: 54%
 
 ---
 
-# システムで追跡される更新
+# システムで追跡される更新の概要
 
-<!-- Audited: April, 2024-->
+<!-- Audited: 06/2025-->
 
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -27,7 +27,7 @@ ht-degree: 57%
 
 <span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-[!DNL Adobe Workfront] は、オブジェクトの「[!UICONTROL &#x200B; 更新 &#x200B;] セクションにステータス情報を記録することで、特定のオブジェクトで発生しているアクティビティをキャプチャします。
+[!DNL Adobe Workfront] は、オブジェクトの「[!UICONTROL  更新 ] セクションにステータス情報を記録することで、特定のオブジェクトで発生しているアクティビティをキャプチャします。
 
 「更新」セクションについて詳しくは、「[ 更新」セクションの概要 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
 
@@ -75,7 +75,7 @@ ht-degree: 57%
    * [!UICONTROL 反復]
    * [!UICONTROL 目標]
 
-     [!UICONTROL 目標]エリアにアクセス権するには、追加のライセンスが必要です。詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
+     すべてのWorkfront パッケージにWorkfront Goals が含まれているわけではありません。 詳しくは、[Workfront Goals の使用要件](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md)を参照してください。
    * ボード上の[!UICONTROL カード]
 
      カードの更新について詳しくは、[ボードでの接続されたカードの使用](../../../agile/get-started-with-boards/connected-cards.md)を参照してください。
