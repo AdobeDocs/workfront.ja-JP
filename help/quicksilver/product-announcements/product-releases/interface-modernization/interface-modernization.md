@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 95a8d56b82e6d28995f7adc9cf3e23cbb039c096
+source-git-commit: f7e8dd73dc50d5e8a600abe42868a6c7096d8ed6
 workflow-type: tm+mt
-source-wordcount: '4589'
+source-wordcount: '4583'
 ht-degree: 2%
 
 ---
@@ -260,14 +260,14 @@ For information, see [Create a custom report](/help/quicksilver/reports-and-dash
 
 ### 新しいスタイル設定で報告書を更新しました
 
-**プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：6 月 19 日（PT）。 2025 年**
 
 Workfrontの他の領域のデザインと一致するように、複数のレポートのルックアンドフィールを更新しました。 機能は変更されていません。
 
 この更新には、次のオブジェクトタイプに関するレポートのリストとツールバーの視覚的な変更が含まれます。
 
 * リスク
-* ベースライン （6 月 19 日（PT）実稼動用にリリースされました。 2025 年）
+* ベースライン
 * 件の料率
 * レイアウトテンプレート
 
