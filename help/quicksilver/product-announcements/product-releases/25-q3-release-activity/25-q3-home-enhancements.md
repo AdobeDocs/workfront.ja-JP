@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 75a8990a3bb75a0f8177b10d5e42bd6b4211f7f1
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '130'
-ht-degree: 10%
+source-wordcount: '211'
+ht-degree: 6%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 10%
 このページでは、2025 年第 3 四半期リリースで行われたすべてのホーム機能強化をプレビュー環境に対して説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+
+## マイアップデート エリアの「メンション」セクションのコメント体験を更新しました
+
+>[!NOTE]
+>
+>* プレビュー：2024 年 12 月 19 日（PT）
+>* 実稼動迅速リリース：2025 年 6 月 19 日（PT）
+>* すべてのお客様の実稼動環境：2025 年 6 月 19 日（PT）
+
+マイアップデート エリアの「メンション」セクションのコメント機能を更新しています。 現在は、ほとんどのWorkfront オブジェクトの「更新」領域の同じエクスペリエンスが、「マイアップデート」の「メンション」セクションでも利用できるようになりました。
+
+この機能強化の前は、この領域で従来のコメントエクスペリエンスを利用できました。
+
+詳しくは、[ マイアップデート領域の使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md) を参照してください。
 
 ## 承認ウィジェットが期日別に自動的に並べ替わるようになりました
 

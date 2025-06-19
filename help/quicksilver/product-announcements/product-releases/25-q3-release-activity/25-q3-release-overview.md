@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 85eeb9796f095aeaa09f8bf28953c0fa7bbf579b
+source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
 workflow-type: tm+mt
-source-wordcount: '1406'
-ht-degree: 22%
+source-wordcount: '1482'
+ht-degree: 21%
 
 ---
 
@@ -45,7 +45,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [プロジェクトの強化](#project-enhancements)
 * [レポートの機能強化](#reporting-enhancements)
 * [更新と通知の機能強化](#update-and-notification-enhancements)
-* [統合の機能強化]
 * [その他の機能強化](#other-enhancements)
 
 ### プルーフとドキュメント管理の機能強化
@@ -130,6 +129,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> 「マイアップデート」エリアの「メンション」セクションのコメント機能エクスペリエンスが更新されました </a><p></p>
+            <p>マイアップデート エリアの「メンション」セクションのコメント機能を更新しています。 現在は、ほとんどのWorkfront オブジェクトの「更新」領域の同じエクスペリエンスが、「マイアップデート」の「メンション」セクションでも利用できるようになりました。</p>
+        </td>
+        <td>2024年12月19日（PT）</td>
+        <td>2025年6月19日（PT）</td>
+        <td>2025年6月19日（PT）</td>
+    </tr>     
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> 承認ウィジェットが期限 </a> に基づいて自動的に並べ替わるようになりました<p></p>
@@ -280,7 +288,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
@@ -296,9 +304,9 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 
 ### Microsoft Teams用Workfrontの新しいバージョン
 
-Microsoftが新しい Teams クライアントに移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 これに備え、新しい Teams クライアントと完全な互換性を持ち、スムーズな移行を確実に行うために 7 月 1 日（PT）より前に利用可能な、新しいバージョンのMicrosoft Teams統合を開発しています。
+[Microsoftが新しい Teams クライアント ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 
-新しい Teams クライアントで統合をダウンロードしてインストールする方法は、統合がリリースされると使用できるようになります。
+更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
 
 ### Workfront for Microsoft Outlook
 

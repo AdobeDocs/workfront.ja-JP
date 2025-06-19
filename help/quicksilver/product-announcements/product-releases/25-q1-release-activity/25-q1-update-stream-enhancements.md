@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 29fa2641-9ac0-4cad-aef1-0f5ac877bab1
-source-git-commit: 270bf0fb1bb5b3ab93e82aafd423ee6fceaa7b42
+source-git-commit: ec74d34bc69f2f1424414453f9fdf94e539a75fd
 workflow-type: tm+mt
-source-wordcount: '220'
-ht-degree: 43%
+source-wordcount: '231'
+ht-degree: 41%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->プレビューリリース：2024 年 12 月 19 日（PT）、すべてのお客様向けの実稼動リリース：今後発表される予定
+>プレビューリリース：2024 年 12 月 19 日（PT）、ホームのすべてのお客様向けの実稼動リリース：発表予定、マイアップデートのすべてのお客様向けの実稼動リリース：2025 年 6 月 19 日（PT）
 
 ホームのメンションウィジェットとマイアップデート領域のメンションセクションのコメント機能が更新されます。 現在は、ほとんどのWorkfront オブジェクトの「更新」領域にある同じエクスペリエンスが、メンションウィジェットと「マイアップデート」の「メンション」セクションでも利用できるようになりました。
 
