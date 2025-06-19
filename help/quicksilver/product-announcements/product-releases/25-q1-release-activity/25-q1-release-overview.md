@@ -714,13 +714,13 @@ The following functionality is soon to be removed from Workfront:
 
 >[!IMPORTANT]
 >
->Workfront Fusion のドキュメントが新しい場所に移動されました。 Fusion の情報、手順、リリースについては、[Workfront Fusion ドキュメント ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home) を参照してください。
+>Workfront Fusion のドキュメントが新しい場所に移動されました。 Fusion の情報、手順、リリースについては、[Workfront Fusion ドキュメント ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) を参照してください。
 >
 >現在の Fusion ドキュメントの各記事には、新しい場所にある対応する記事へのリンクが含まれています。 ブックマークを更新してください。
 >
 >現在の Fusion ドキュメントセットは更新されなくなり、近い将来に削除されます。
 
-Workfront Fusion の新機能は、2025年第 1 四半期のリリーススケジュールから外れた頻度で、実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、2025年第 1 四半期のリリーススケジュールから外れた頻度で、実稼動環境で利用可能になります。最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
@@ -748,8 +748,8 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-2025年 第 1 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンス更新](https://experienceleague.adobe.com/en/docs/workfront-known-issues/releases/current-updates)を参照してください。
+2025年 第 1 四半期リリースで行われたメンテナンス更新については、[Workfront のメンテナンス更新](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 
 ### トレーニングの更新
 
-各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
+各 Adobe Workfront 製品リリースの学習プログラム、学習パス、ビデオ、ガイドに加えられた最新の更新を確認します。詳しくは、[Workfront チュートリアルページ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home)の「新機能」の節を参照してください。
