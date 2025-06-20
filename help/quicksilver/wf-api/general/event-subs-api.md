@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 334b08f4689318201d3b8260916655f57c2a9320
+source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
 workflow-type: tm+mt
-source-wordcount: '2479'
-ht-degree: 79%
+source-wordcount: '2632'
+ht-degree: 75%
 
 ---
 
@@ -711,7 +711,9 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 
 このフィルターを使用すると、順序に関係なく、選択された値の完全なセットがフィルター内の fieldValue と完全に一致する場合にのみ、メッセージを受け取ることができます。 余分な値や欠落した値を含めないようにする必要があります。
 
-メモ：これは配列型（複数選択）のフィールドに使用されます。 以下のこのサンプル購読では、`groups` フィールドに「選択肢 3」と「選択肢 4」が正確に含まれ、追加の値や欠落した値がなく、順序に関係なくメッセージが送信される場合にのみ、メッセージを受信できます。
+>[!NOTE]
+>
+>配列型（複数選択） フィールドに使用します。 以下のこのサンプル購読では、`groups` フィールドに「選択肢 3」と「選択肢 4」が正確に含まれ、追加の値や欠落した値がなく、順序に関係なくメッセージが送信される場合にのみ、メッセージを受信できます。 配列ではなく、文字列または整数が `fieldValue` で指定された場合、`groups` フィールドに 1 つのオプションのみが含まれ、そのオプションが `fieldValue` で指定された文字列または整数と完全に一致する場合にのみ、メッセージが送信されます
 
 
 ```
@@ -729,6 +731,31 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
             ],
             "state": "newState",
             "comparison": "containsOnly"
+        }
+    ]
+}
+```
+
+#### notContains
+
+このフィルターを使用すると、指定されたフィールド（`fieldName`）に指定された値（`fieldValue`）が含まれていない場合にのみ、メッセージを送信できます。
+
+>[!NOTE]
+>
+>配列型（複数選択）または文字列フィールドに使用します。 フィールドが文字列の場合は、指定した値が文字列に含まれていないかどうかを確認します（例えば、「New」は文字列「Project - Updated」には含まれていません）。 フィールドが配列で、指定したフィールド値が文字列または整数の場合、配列が指定した値を含んでいないかどうかを確認します（例えば、「選択肢 1」は [ 「選択肢 2」、「選択肢 3」 ] ではありません）。 次の購読の例では、`groups` フィールドに「Group 2」という文字列が含まれていない場合にのみ、メッセージを送信できます。
+
+```
+{
+    "objCode": "PROJ",
+    "eventType": "UPDATE",
+    "authToken": "token",
+    "url": "https://domain-for-subscription.com/API/endpoint/UpdatedProjects",
+    "filters": [
+        {
+            "fieldName": "groups",
+            "fieldValue": "Group 2",
+            "state": "newState",
+            "comparison": "notContains"
         }
     ]
 }
@@ -766,7 +793,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >指定されたフィルターを含む以下の購読は、タスクの名前にタスクの更新が行われる前の `again` が `oldState` に含まれているメッセージのみを返します。
->&#x200B;>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
+>>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
 
 ```
 {
