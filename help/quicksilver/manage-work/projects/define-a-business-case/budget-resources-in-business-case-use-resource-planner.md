@@ -5,16 +5,16 @@ description: リソース計画の一環として、プロジェクトレベル�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '1240'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
 # リソースプランナーを使用したビジネスケースのリソースの予算計上
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 リソース計画の一環として、プロジェクトレベルのリソースプランナーを使用して、ビジネスケースの作成時にプロジェクトで作業を完了するために必要な担当業務のリソースを予算計上できます。
 
@@ -35,23 +35,23 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
    <td> <p>現在：Prime以降</p>
    <p>レガシー：Pro 以上</p> 
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
    <td> <p>現在：Light 以上</p>
    <p>レガシー：レビュー以上</p>
 
 <p><b>重要：</b></p> 
-   <p>新規：リソース予算情報を変更するには、標準ライセンスが必要です。 </p> 
-   <p>現在：リソース予算情報を変更するには、プラン ライセンスが必要です。 </p>
+   <p>現在：リソース予算情報を変更するには、標準ライセンスが必要です。 </p> 
+   <p>レガシー：リソース予算情報を変更するには、プラン ライセンスが必要です。 </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
    <td> <p>以下の項目についてアクセス権を編集します。 </p> 
     <ul> 
      <li> <p>プロジェクト</p> </li> 
@@ -60,13 +60,13 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td> <p>プロジェクトに対する権限を管理</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

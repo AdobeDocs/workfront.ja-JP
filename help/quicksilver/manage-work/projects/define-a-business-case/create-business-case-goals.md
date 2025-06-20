@@ -5,16 +5,16 @@ description: ビジネスケースの作成の一環として、一連の目標�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '495'
-ht-degree: 55%
+source-wordcount: '445'
+ht-degree: 47%
 
 ---
 
 # ビジネスケースの目標を作成
 
-<!-- Audited: 4/2025 -->
+<!-- Audited: 6/2025 -->
 
 ビジネスケースの作成の一環として、一連の目標を作成し、プロジェクトの目標を定義できます。これらの目標は、プロジェクトを完了する目的をPortfolioマネージャーまたはプロジェクトスポンサーに伝えるために使用されます。
 
@@ -50,12 +50,12 @@ ht-degree: 55%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
    <td> <p>現在：Prime以降</p>
    <p>レガシー：Pro 以上</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td>
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td>
    <td> 
    <p>現在：標準</p> 
    <p>レガシー：プラン </p> 
@@ -63,16 +63,16 @@ ht-degree: 55%
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する管理以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td> <p>プロジェクトに対する管理以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

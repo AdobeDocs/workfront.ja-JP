@@ -5,14 +5,16 @@ description: ビジネスケースを使用して、プロジェクトをリク�
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 65%
+source-wordcount: '784'
+ht-degree: 61%
 
 ---
 
 # プロジェクトのビジネスケースの作成
+
+<!--Audited: 6/2025-->
 
 ビジネスケースを使用して、プロジェクトをリクエストし、プロジェクトの目的、予算および潜在的な利益を定義できます。ポートフォリオマネージャーまたはプロジェクトスポンサーは、ビジネスケースの情報を使用して、プロジェクトを承認する前に分析し、優先順位を付けます。
 
@@ -25,30 +27,30 @@ ht-degree: 65%
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
    <td> 
    <p>現在：Prime以降</p> 
    <p>レガシー：Pro 以上</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
    <td> 
    <p>現在：標準 </p> 
    <p>レガシー：プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>プロジェクト、財務データ、リソース管理へのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td> <p>プロジェクト、財務データ、リソース管理へのアクセスを編集</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対する「管理」以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへの利用申請</a>を参照してください。</p> </td> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td> <p>プロジェクトに対する「管理」以上の権限</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -86,7 +88,7 @@ ht-degree: 65%
 1. 左側のパネルで、「ビジネスケース **をクリック** ます。
 1. （任意）「**プロジェクト情報**」セクションを編集するには、「**プロジェクト情報を編集**」をクリックします。 
 
-   **プロジェクト情報** セクションフィールドの編集について詳しくは、記事 [&#128279;](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) ビジネスケースの領域の概要 [ の ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) プロジェクト情報  の節を参照してください。
+   **プロジェクト情報** セクションフィールドの編集について詳しくは、記事 [ ビジネスケースの領域の概要 [ の ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md#project-info) プロジェクト情報 ](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md) の節を参照してください。
 
 1. （任意）「**目標**」セクションを編集するには、「**目標を編集**」をクリックします。
 

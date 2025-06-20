@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: ca5679ba-db5c-4430-9469-0eaaa94fb9ec
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '132'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 

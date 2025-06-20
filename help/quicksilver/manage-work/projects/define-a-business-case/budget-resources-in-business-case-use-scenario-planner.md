@@ -5,14 +5,16 @@ description: リソース計画の一環として、ビジネスケースを構�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 98%
+source-wordcount: '972'
+ht-degree: 86%
 
 ---
 
 # シナリオプランナーを使用してビジネスケースのリソースの予算を立てる
+
+<!--Audited: 06/2025-->
 
 リソース計画の一環として、ビジネスケースを構築するときに、Adobe Workfront Scenario Planner を使用して、プロジェクトの作業を完了するために必要な担当業務の予算を立てることができます。
 
@@ -29,11 +31,11 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->プロジェクトの作業を開始する際に、リソースプランナーとシナリオプランナーのどちらを使用するかを決定することをお勧めします。プロジェクトの期間中にこの 2 つを頻繁に切り替えると、プロジェクトのリソースを予算計上する方法に一貫性がなくなる可能性があります。
+>プロジェクトの作業を開始する際に、リソースプランナーとシナリオプランナーのどちらを使用するかを決定することをお勧めします。 プロジェクトの期間中にこの 2 つを頻繁に切り替えると、プロジェクトのリソースを予算計上する方法に一貫性がなくなる可能性があります。
 
 ## アクセス要件
 
-以下が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,34 +44,39 @@ ht-degree: 98%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>ビジネス以上</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td><p>現在：Ultimate</p> 
+   <p>レガシー：ビジネス以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>レビュー以上</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td><p>現在：Light 以上 
+   <p>レガシー：レビュー以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">製品</td> 
-   <td> <p>この記事で説明する機能にアクセスするには、Adobe Workfront シナリオプランナーの追加ライセンスを購入する必要があります。</p> <p>Workfront Scenario Planner の取得について詳しくは、<a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Scenario Planner を使用するために必要なアクセス</a>を参照してください。 </p> </td> 
+   <td role="rowheader"><p>製品</p></td> 
+   <td><p>シナリオプランナーは、現在のUltimate Workfront計画に含まれています。</p> 
+   <p>従来のWorkfront プランの場合、この記事に記載されている機能にアクセスするには、Workfront ライセンスに加えてAdobe Workfront シナリオプランナーのライセンスを購入する必要があります。</p> <p>Workfront シナリオプランナーの取得について詳しくは、<a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">シナリオプランナーを使用するために必要なアクセス</a>を参照してください。 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
    <td> <p>以下の項目についてアクセス権を編集します。 </p> 
     <ul> 
      <li> <p>プロジェクト</p> </li> 
      <li> <p>財務データ</p> </li> 
      <li> <p>シナリオプランナー </p> </li> 
-    </ul> <p>リソースの予算を立てるのに必要なアクセスについては、<a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Adobe Workfront の予算リソースに必要なアクセス</a>を参照してください。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+    </ul> <p>リソースの予算計上に必要なアクセス権については、<a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Adobe Workfrontでのリソースの予算計上に必要なアクセス </a> も参照してください。</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td> <p>プロジェクトに対する権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 前提条件
 

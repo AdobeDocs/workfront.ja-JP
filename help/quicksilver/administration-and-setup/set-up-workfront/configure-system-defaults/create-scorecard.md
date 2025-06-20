@@ -8,10 +8,10 @@ author: Lisa, Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 69%
+source-wordcount: '718'
+ht-degree: 70%
 
 ---
 
@@ -42,15 +42,13 @@ ht-degree: 69%
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-次のアクセス権が必要です。
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
-   <td> <p>新規： [!UICONTROL Prime] 以上</p>
+   <td> <p>新規：Ultimate</p>
    <p>現在：[!UICONTROL Business] 以上</p> 
    </td> 
   </tr> 
@@ -60,10 +58,15 @@ ht-degree: 69%
    <p>現在：[!UICONTROL Plan]</p>
    </td> 
   </tr> 
+   <tr> 
+   <td role="rowheader"><p>アクセスレベル</p></td> 
+   <td><p>システム管理者</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

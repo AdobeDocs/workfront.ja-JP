@@ -5,7 +5,7 @@ description: リソース計画の一環として、ビジネスケースの作�
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
-source-git-commit: fb538c6511514eedf81f4b9be452d5f87e3f7577
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 
   詳しくは、[リソースプランナーを使用したビジネスケースのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)を参照してください。
 
-* シナリオプランナーを使用して、必要な担当業務を持つイニシアチブを作成し、プロジェクトにリンクします。詳しくは、[シナリオプランナーを使用したビジネスケースのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)を参照してください。
+* シナリオプランナーを使用して、必要な担当業務を持つイニシアチブを作成し、プロジェクトにリンクします。詳しくは、[シナリオプランナーを使用したビジネスケースでのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)を参照してください。
 
   >[!NOTE]
   >

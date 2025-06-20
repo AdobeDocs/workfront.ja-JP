@@ -6,16 +6,16 @@ description: リスクとは、プロジェクトが時間通りに、または�
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 63%
+source-wordcount: '1108'
+ht-degree: 61%
 
 ---
 
 # プロジェクトに関するリスクの作成と編集
 
-<!--Audited: 01/2025-->
+<!--Audited: 06/2025-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release. </span>   
 
@@ -44,27 +44,30 @@ ht-degree: 63%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> 
-   <p>任意</p></td> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> <p>現在の計画：</p>
+   <ul><li>プロジェクトの「危険」領域に危険を追加する任意の計画</p></li>
+   <li><p>Prime以上（プロジェクトのビジネスケースにリスクを追加するため）</p></li></ul>
+   <p>レガシー計画：任意の計画</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>新規：標準 </p>
-   <p>現在：プラン </p> </td> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td> <p>現在：標準 </p>
+   <p>レガシー：プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
    <td> <p>プロジェクトおよび財務データへのアクセスの編集</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td> <p> リスクを作成または編集するプロジェクトに対する、財務の管理を含む権限を管理します </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

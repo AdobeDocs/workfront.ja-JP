@@ -5,14 +5,16 @@ description: プロジェクトリクエストのビジネスケースを完了�
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 9cfb67f627c06a5926e820860d52ba9f1ab58bcf
+source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 90%
+source-wordcount: '692'
+ht-degree: 88%
 
 ---
 
 # ビジネスケースの承認
+
+<!--Audit: 6/2025-->
 
 プロジェクトリクエストのビジネスケースを完了して送信した後、ビジネスケースは承認される必要があります。これは、組織のワークフローによって異なります。ビジネスケースの承認がなくてもプロジェクトを開始できますが、Adobe Workfront 管理者やプロジェクト所有者は、そうすることが理想的だとは考えてはいないかもしれません。
 
@@ -27,30 +29,31 @@ ht-degree: 90%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
    <td> 
-   <p>現在：Prime以降</p> 
-   <p>レガシー：Pro 以上</p> 
+   <p>現在：Prime以降</p>
+   <p>または</p>
+   <p>レガシー：ビジネス以上</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
    <p>現在：標準 </p> 
    <p>レガシー：プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>プロジェクトへのアクセスを編集</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対して権限を管理</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td> <p>プロジェクトに対して権限を管理</p> <p>ポートフォリオに対する表示またはそれ以上の権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
