@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 4448d2fc6d0230ef2f53ad0ea7ae0f10f52fcac4
+source-git-commit: d5b0043ed251bfdb6501d091cf10d77685bc497b
 workflow-type: tm+mt
-source-wordcount: '13266'
+source-wordcount: '13201'
 ht-degree: 86%
 
 ---
@@ -1699,17 +1699,6 @@ ht-degree: 86%
          * [ダッシュボードの共有](reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
          * [ダッシュボードからの外部ページを削除](reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
          * [キャンバスダッシュボードの概要](reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-   * 拡張分析 {#enhanced-analytics}
-      * [拡張分析](enhanced-analytics/enhanced-analytics.md)
-      * [拡張分析の概要](enhanced-analytics/enhanced-analytics-overview.md)
-      * [拡張分析でのフィルターの適用](enhanced-analytics/use-enhanced-analytics-filters.md)
-      * [拡張分析 KPI について](enhanced-analytics/understand-enhanced-analytics-kpis.md)
-      * [拡張分析での進行計画ビジュアライゼーションの表示](enhanced-analytics/flight-plan-overview.md)
-      * [拡張分析でのバーンダウンビジュアライゼーションの表示](enhanced-analytics/burndown-overview.md)
-      * [拡張分析のフライトビジュアライゼーションでのタスクの表示](enhanced-analytics/tasks-in-flight-overview.md)
-      * [拡張分析でプロジェクトアクティビティビジュアライゼーションを表示](enhanced-analytics/project-activity-overview.md)
-      * [強化機能分析でプロジェクトツリーマップビジュアライゼーションを表示](enhanced-analytics/project-treemap-overview.md)
-      * [拡張分析でチームごとのアクティビティのビジュアライゼーションを表示する](enhanced-analytics/activity-by-team-overview.md)
    * Workfront Data Connect {#data-lake}
       * [Workfront Data Connect の概要](reports-and-dashboards/data-lake/data-lake-overview.md)
       * [Snowflakeのリーダーアカウントまたは接続を作成する](reports-and-dashboards/data-lake/create-a-reader-account.md)
