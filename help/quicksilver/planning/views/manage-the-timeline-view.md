@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
 workflow-type: tm+mt
-source-wordcount: '3788'
+source-wordcount: '3804'
 ht-degree: 40%
 
 ---
@@ -106,7 +106,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
    * レコード日付
    * レコードのシステム生成フィールド：作成日、最終変更日
-   * 接続されたレコードまたはオブジェクトタイプから日付を参照します。
+   * 接続されたレコードまたはオブジェクト タイプから日付を検索します（レコードまたはオブジェクト タイプを接続したときにアグリゲータを追加した場合のみ）
 * 以下のシナリオのように、レコードに関連付けられた日付によっては、一部のレコードがタイムラインビューに表示されないことがあります。
 
    * 開始日と終了日に値がない場合
@@ -225,7 +225,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 1. タイムラインビューを選択し、テーブルの右上隅にある **フィルター** をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
-   * &#x200B;<!-- the tip below might change--> でフィルターする **フィールドを選択**
+   * <!-- the tip below might change--> でフィルターする **フィールドを選択**
 
    * **オプションを選択** （またはフィルター修飾子）して、フィールドが満たす必要がある条件の種類を定義します
 
