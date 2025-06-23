@@ -2,18 +2,20 @@
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: メモレポートでのすべての更新の表示
-description: メモレポートでのすべての更新の表示
-author: Lisa and Alina
+description: ユーザーがオブジェクトに入力したすべての更新を表示するには、すべての更新を表示するメモレポートを作成します。
+author: Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 58%
+source-wordcount: '396'
+ht-degree: 31%
 
 ---
 
 # メモレポートでのすべての更新の表示
+
+<!-- Audited: 6/2025 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
@@ -36,16 +38,16 @@ ht-degree: 58%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront プラン*</strong></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>新規：標準 </p>
    <p>現在：プラン</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定</strong></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次へのアクセスを編集：</p> 
     <ul> 
      <li> <p>レポート、ダッシュボードおよびカレンダーの作成</p> </li> 
@@ -53,14 +55,14 @@ ht-degree: 58%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
-   <td> <p>表示</p> <p><b>メモ</b></p>
-   <p>オブジェクトに対する表示以上の権限を持っていない場合、そのオブジェクトの情報はレポートに表示されません。</p>  </td> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>表示</p>
+    <p>注記：オブジェクトに対する表示以上のパーミッションを持っていない場合、そのオブジェクトの情報はレポートに表示されません。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*詳しくは、[Adobe Workfrontのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## メモレポートの作成
 
@@ -68,15 +70,13 @@ ht-degree: 58%
 
 例えば、プロジェクト上のすべてのメモに関するメモレポートを作成するには、次の手順を実行します。
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-reports}}
 
-1. 「**レポート**」をクリックします。
-1. 「**新規レポート**」をクリックし、「**メモ**」を選択します。
+1. ページの左上隅にある **新規レポート** をクリックし、「**メモ**」を選択します。
 
-1. （オプション）「**ビュー**」をクリックし、「**列を追加**」をクリックして、レポートのビューに&#x200B;**プロジェクト**&#x200B;の&#x200B;**名前**&#x200B;を追加します。
+1. （任意）「**（列）表示**」をクリックして **「列の追加**」をクリックし、レポートのビューで **プロジェクト** の **名前** を追加します。 
 
-1. （オプション）複数のプロジェクトを同時にレポートする場合は、「**グループ化**」をクリックし、「**グループ化を追加**」をクリックして、**プロジェクト名**&#x200B;でグループ化します。\
-   これにより、メモが各プロジェクトごとにグループ化され、レポートが読みやすくなります。 
+1. （任意）同時に複数のプロジェクトに関するレポートを作成する場合は、**グループ化** をクリックし、**グループ化を追加** をクリックして、**プロジェクト** の **名前** でグループ化します。 これにより、メモが各プロジェクトでグループ化され、レポートが読みやすくなります。 
 
 1. （任意）「**フィルター**」をクリックして、「**フィルタールールを追加**」をクリックします。
 1. **メモ**/**メモテキスト**/**空白でない** のフィルターを追加します。
@@ -89,5 +89,4 @@ ht-degree: 58%
 
 
 1. （任意） **プロジェクト**/**名前**/**次と等しい** の別のフィルターを追加し、メモを表示する 1 つまたは複数のプロジェクト名を追加します。
-1. 「**保存して閉じる**」をクリックします。\
-   プロジェクトに対して表示以上の権限を持つすべてのユーザーがプロジェクトに入力したすべての更新が、レポートに表示されます。
+1. **保存して閉じる** をクリックします。 プロジェクトを表示する権限を持つすべてのユーザーがプロジェクトに入力したすべての更新がレポートに表示されます。
