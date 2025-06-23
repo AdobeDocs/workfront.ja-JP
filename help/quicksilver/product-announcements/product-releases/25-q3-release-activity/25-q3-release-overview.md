@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 21%
+source-wordcount: '1497'
+ht-degree: 20%
 
 ---
 
@@ -61,8 +61,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアのアップデート </a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>デスクトッププルーフビューアがバージョン 2.1.50 に更新されました。
-この更新には、内部ツールの更新が含まれており、エンドユーザーの機能には影響しません。 </p>
+            <p>デスクトッププルーフビューアがバージョン 2.1.50 に更新されました。この更新には、内部ツールの更新が含まれており、エンドユーザーの機能には影響しません。</p>
         </td>
         <td>2025年6月13日（PT）</td>
         <td>2025年6月13日（PT）</td>
@@ -141,7 +140,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> 承認ウィジェットが期限 </a> に基づいて自動的に並べ替わるようになりました<p></p>
-            <p>ホームの自分の承認ウィジェットを更新し、デフォルトで期限（降順）で並べ替えました。 これにより、最も緊急の承認をリストの上部に表示できます。 </p>
+            <p>ホームの自分の承認ウィジェットを更新し、デフォルトで期限（降順）で並べ替えました。 これにより、最も緊急の承認をリストの上部に表示できます。 </p><p><b> メモ：</b> 現在、プルーフの承認のみが、マイ承認ウィジェットで期日別に並べ替えることができます。</p>
         </td>
         <td>2025年5月29日（PT）</td>
         <td>2025年6月12日（PT）</td>
@@ -288,7 +287,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 

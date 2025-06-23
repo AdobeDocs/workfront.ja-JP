@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: d7b9f6cac531bed5fd2a3e5c766e9d714f2625e4
+source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '225'
 ht-degree: 6%
 
 ---
@@ -42,4 +42,7 @@ ht-degree: 6%
 
 ホームの自分の承認ウィジェットを更新し、デフォルトで期限（降順）で並べ替えました。 これにより、最も緊急の承認をリストの上部に表示できます。
 
+現在、プルーフの承認のみが、マイ承認ウィジェットで期日別に並べ替えることができます。
+
 以前は、ウィジェットをエントリ日で並べ替えていたため、優先度を決定するのが難しかったです。
+
