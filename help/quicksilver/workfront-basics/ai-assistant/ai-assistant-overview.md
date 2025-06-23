@@ -5,9 +5,9 @@ description: AI アシスタントの概要
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
+source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '825'
 ht-degree: 6%
 
 ---
@@ -138,7 +138,7 @@ Adobe生成 AI 契約をリクエストするには：
 1. Adobe生成 AI 契約メッセージが表示されたら、「**契約を確認**」をクリックします。
 1. Adobe Gen AI 契約に署名する組織内の個人の名前とメールアドレスを入力します。
 
-   契約書はこのユーザーに送信され、署名が行われます。 署名して返されると、組織で AI アシスタントが有効になります。
+   契約書はこのユーザーに送信され、署名が行われます。 署名して返された後、Adobeが契約書を確認し、組織に対して AI アシスタントが有効になります。
 
 ## AI アシスタントでプロンプトを作成するためのヒント
 
