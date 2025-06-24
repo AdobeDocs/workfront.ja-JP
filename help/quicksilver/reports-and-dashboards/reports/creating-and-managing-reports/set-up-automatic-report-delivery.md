@@ -6,10 +6,10 @@ description: レポートの自動配信のスケジュール設定
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 5b8e382c-bfe8-43aa-aa09-a2aa0c4d56cc
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 62f56486ccc590921b7dc8227d46cdede84df32d
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 69%
+source-wordcount: '1309'
+ht-degree: 65%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 69%
       <td role="rowheader"> <p>送信先</p> </td> 
       <td> <p>レポートの送信先となるユーザー、グループ、チーム、または役割の名前を入力し、ドロップダウンリストに表示された名前をクリックします。</p> <p>または</p> <p>レポートへのアクセス権を付与するWorkfront システム外部のユーザーのメールアドレスを入力します。</p> <p>この手順を繰り返して、複数のユーザー、グループ、チームまたは役割にレポートを送信します。</p> <p>メモ：  <p>レポート配信の受信者を追加する際は、次の点を考慮してください。</p> 
         <ul> 
-         <li>組織で Workfront 通知が特定のメールドメインに制限されている場合、メール許可リストにリストされているメールアドレスにのみレポートを送信できる場合があります。<p>Workfront 管理者がメールの許可リストを更新する方法について詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">メールの許可リストの設定</a>の節を参照してください。</p></li> 
+         <li><p>Workfront許可リストに加えるの通知を特定のメールドメインに限定している場合は、メールに記載されているメールアドレスにのみレポートを送信できる場合があります。</p> <p>例えば、ユーザーがレポートの受信者に設定され、以前に許可されたメールアドレスを持っている場合に、そのドメインにメールを配信しないように許可リストが更新されると、レポートは配信されなくなります。</p><p>Workfront 管理者がメールの許可リストを更新する方法について詳しくは、<a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md#configur" class="MCXref xref">メールの許可リストの設定</a>の節を参照してください。</p></li> 
          <li> <p>多数のユーザーを受信者として追加すると、配信が失敗する可能性があります。配信に失敗した場合は、小さなユーザーグループに対して複数のレポート配信をスケジュールできます。</p> </li> 
         </ul> </td> 
      </tr> 
