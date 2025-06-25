@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1e893dd5933ce5740b2bfea1e028f39a07a2291c
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '2632'
+source-wordcount: '2647'
 ht-degree: 75%
 
 ---
@@ -51,6 +51,9 @@ ht-degree: 75%
 
 次の Workfront オブジェクトは、イベント登録でサポートされています。
 
+* 承認
+* 承認ステージ
+* 承認ステージ参加者
 * 割り当て
 * 会社
 * ダッシュボード
@@ -105,6 +108,18 @@ ht-degree: 75%
        </tr> 
       </thead> 
       <tbody> 
+       <tr> 
+        <td scope="col">承認</td> 
+        <td scope="col"><p>承認</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">承認ステージ</td> 
+        <td scope="col"><p>approval_stage</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col">承認ステージ参加者</td> 
+        <td scope="col"><p>approval_stage_participant</p></td> 
+       </tr> 
        <tr> 
         <td scope="col">割り当て</td> 
         <td scope="col"><p>ASSGN</p></td> 
@@ -793,7 +808,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >指定されたフィルターを含む以下の購読は、タスクの名前にタスクの更新が行われる前の `again` が `oldState` に含まれているメッセージのみを返します。
->&#x200B;>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
+>>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
 
 ```
 {

@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: e53f845a00245049ac78616848d243453b2d57eb
+source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 93%
+source-wordcount: '848'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,10 @@ ht-degree: 93%
 データは、ネストされたフィルタリングを使用してフィルタリングできます。 詳しくは、Event Subscription API の記事 [ ネストされたフィルターの使用 ](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) を参照してください。
 
 次の表に、イベントサブスクリプションリソースで使用できるフィールドを示します。
+
+>[!NOTE]
+>
+>一部のオブジェクトは、イベント購読バージョン 2 でのみ使用できます。 これらのオブジェクトには、表で注記が付けられています。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,6 +38,200 @@ ht-degree: 93%
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td>承認<p>（イベント サブ v2）</p></td> 
+   <td>承認</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>状態</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>承認ステージ<p>（イベント サブ v2）</p></td> 
+   <td>approval_stage</td> 
+   <td>approvalID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>creatorID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> ID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> isLocked </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 名前 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>状態</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>updatedAt</td> 
+  </tr> 
+  <tr> 
+   <td>承認ステージ参加者<p>（イベント サブ v2）</p></td> 
+   <td>approval_stage_participant</td> 
+   <td>createdAt</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>customerID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> deadlineDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> 決定 </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionDate </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> decisionUserID </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> objCode </td> 
+  </tr> 
+  <tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>objID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantMetadata </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantRole </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> participantType </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> realUserId </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> requesterID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> stageID </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>状態</td> 
+  </tr> 
   <tr> 
    <td>割り当て</td> 
    <td>ASSGN</td> 
@@ -806,7 +1004,7 @@ ht-degree: 93%
    <td>topReferenceObjID</td> 
   </tr> 
   <tr> 
-   <td>フィールド</td> 
+   <td>フィールド<p>（イベント サブ v2）</p></td> 
    <td>FIELD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1876,7 +2074,7 @@ ht-degree: 93%
    <td><span>requesterID</span> </td> 
   </tr> 
   <tr> 
-   <td>レコード</td> 
+   <td>レコード<p><p>（イベント サブ v2）</p></td> 
    <td>RECORD</td> 
    <td>createdAt</td> 
   </tr> 
@@ -1921,7 +2119,7 @@ ht-degree: 93%
    <td>updatedAt</td> 
   </tr> 
   <tr> 
-   <td>レコードタイプ </td> 
+   <td>レコードタイプ<p><p>（イベント サブ v2）</p> </td> 
    <td>RECORD_TYPE </td> 
    <td>色</td> 
   </tr> 
@@ -2776,7 +2974,7 @@ ht-degree: 93%
    <td>workHoursPerDay </td> 
   </tr> 
   <tr> 
-   <td>ワークスペース</td> 
+   <td>ワークスペース<p><p>（イベント サブ v2）</p></td> 
    <td>WORKSPACE</td> 
    <td>色</td> 
   </tr> 
