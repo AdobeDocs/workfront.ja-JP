@@ -6,10 +6,10 @@ description: タイムラインの再計算を使用すると、管理者は、�
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 81%
+source-wordcount: '994'
+ht-degree: 64%
 
 ---
 
@@ -38,10 +38,10 @@ ht-degree: 81%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規のライセンス：標準 </p> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>新規：標準 </p> 
    または
-   <p>現在のライセンス：プラン </p>
+   <p>現在：プラン </p>
    </td> 
   </tr> 
   <tr> 
@@ -55,7 +55,7 @@ ht-degree: 81%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -65,7 +65,7 @@ ht-degree: 81%
 
 >[!NOTE]
 >
->プロジェクトのタイムラインが 15 年を超える場合、そのプロジェクトの自動再計算は無効になります。15 年を超えるプロジェクトに対して選択できるのは、「更新タイプ」の「手動」のみです。プロジェクト上の日付を 15 年未満に変更した場合は、タイムラインを自動的に計算する前に 1 回手動で再計算する必要があります。
+>プロジェクトのタイムラインが 15 年を超える場合、そのプロジェクトの自動再計算は無効になり、手動更新タイプのみ選択できます。 プロジェクト上の日付を 15 年未満に変更した場合は、タイムラインを自動的に計算する前に 1 回手動で再計算する必要があります。
 
 * [プロジェクトタイムラインの自動再計算](#automatic-recalculation-of-project-timelines)
 * [プロジェクトタイムラインの自動再計算を引き起こすアクション](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
@@ -73,23 +73,22 @@ ht-degree: 81%
 
 >[!IMPORTANT]
 >
->プレビューおよびカスタム更新サンドボックス環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的には再計算されません。 プレビューおよびカスタム更新サンドボックス環境のプロジェクトタイムラインを手動で再計算する必要があります。
+>プレビューおよびカスタム更新サンドボックス環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的に再計算されません。 プレビューおよびカスタム更新サンドボックス環境のプロジェクトタイムラインを手動で再計算する必要があります。
 
 ### プロジェクトタイムラインの自動再計算 {#automatic-recalculation-of-project-timelines}
 
-Adobe Workfrontでは、次の条件がすべて満たされたプロジェクトのタイムラインが毎日再計算されます。
+Workfrontでは、次のすべての条件を満たすプロジェクトのタイムラインが毎日再計算されます。
 
-* ステータスが「現在」であること
-* プロジェクトの更新の種類が [ 自動 ] または [ 自動および変更時 ] に設定されています
+* 現在のステータスがある。
+* プロジェクトの更新の種類が [ 自動 ] または [ 自動および変更時 ] に設定されています。
 
-  プロジェクトの更新タイプについて詳しくは、[プロジェクト更新タイプの概要](../../../manage-work/projects/planning-a-project/project-update-type-overview.md)を参照してください。
+  詳しくは、[ プロジェクト更新タイプの概要 ](../../../manage-work/projects/planning-a-project/project-update-type-overview.md) を参照してください。
 
-* 過去 3 か月以内の最終更新日がある\
-  Workfrontの管理者は、[プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)に記載されているように、このデフォルト機能を変更できます。
+* 過去 3 か月以内の最終更新日がある。 Workfront管理者は、このデフォルトの機能を変更できます。 詳しくは、[プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)を参照してください。
 
-* プロジェクトタイムラインの最終計算日が現在のカレンダー日内にないこと。つまり、プロジェクトタイムラインの最終計算日が現在の日の 00:00 より前になっています。
+* プロジェクト タイムラインの最終計算日が、現在のカレンダーの日付の範囲内にありません。 つまり、プロジェクトタイムラインの最終計算日が現在の日の 00:00 より前になっています。
 
-プロジェクトのタイムラインを更新する頻度を設定できます。プロジェクトタイムラインを更新すると、プロジェクトに加えた変更に基づいて再計算されます。
+プロジェクトのタイムラインを更新する頻度を設定できます。プロジェクトのタイムラインが更新されると、プロジェクトに加えられた変更に基づいて再計算されます。
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -149,9 +148,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 プロジェクトのタイムラインは、プロジェクトページ、またはプロジェクトリストやレポートから、Workfront で再計算できます。
 
-1. タイムラインを再計算するプロジェクトに移動して、プロジェクト名の左側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックします
-
-   ![ 詳細ドロップダウン ](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+1. タイムラインを再計算するプロジェクトに移動して、プロジェクト名の左側にある **その他** アイコン ![ その他メニュー ](assets/qs-more-menu.png) をクリックします。
 
    または
 
@@ -161,11 +158,9 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
    >[!TIP]
    >
-   >プロジェクトの複雑さに応じて、最適なパフォーマンスを確保するためにタイムラインを一括で再計算する場合は、多数のプロジェクトを選択しないことをお勧めします。プロジェクトが複雑になりすぎる原因として、複数の依存関係や割り当て、大量のカスタムフィールドなどが挙げられます。
+   >プロジェクトの複雑さによっては、最適なパフォーマンスを確保するためにタイムラインを一括で再計算する際に、多数のプロジェクトを選択しないことをお勧めします。 プロジェクトが複雑になりすぎる原因として、複数の依存関係や割り当て、大量のカスタムフィールドなどが挙げられます。
 
-1. **タイムラインを再計算**&#x200B;をクリックします。
-
-   タイムラインが再計算されると、再計算が成功したことを示すメッセージが表示されます。
+1. **タイムラインを再計算** をクリックします。 タイムラインが再計算され、成功メッセージが画面に表示されます。
 
    >[!TIP]
    >
@@ -177,7 +172,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 >[!TIP]
 >
->プロジェクトの複雑さに応じて、最適なパフォーマンスを確保するために、大量のプロジェクトを一括編集する際には選択しないことをお勧めします。プロジェクトが複雑すぎる原因として考えられるものとしては、複数の依存関係や割り当てまたは多数のカスタムフィールドなどがあります。
+>プロジェクトの複雑さによっては、最適なパフォーマンスを確保するために、大量に編集する際に多数のプロジェクトを選択しないことをお勧めします。 プロジェクトが複雑になりすぎる原因として、複数の依存関係や割り当て、大量のカスタムフィールドなどが挙げられます。
 
 1. プロジェクトのリストに移動します。
 1. リスト内の複数のプロジェクトを選択し、「**編集**」をクリックします。
@@ -189,7 +184,7 @@ If the timeline of a project is longer than 15 years, the automatic recalculatio
 
 Workfront の管理者は、「タイムラインを再計算」の診断を実行して、Workfront システム内のすべてのタイムラインを直ちに再計算できます。これにより、すべてのプロジェクトマネージャーは、予定日と見込み日の両方に対する外部の変更の影響を即座に確認できます。
 
-Workfront サイト全体のタイムラインの再計算について詳しくは、[プロジェクトのタイムライン再計算の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)の記事の「Workfront インスタンス全体のタイムラインの再計算」の節を参照してください。
+Workfront サイト全体のタイムラインの再計算の詳細については、「プロジェクトのタイムライン再計算の設定 [ のWorkfront インスタンス全体のタイムラインの再計算の節を参照してください ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
