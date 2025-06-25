@@ -7,10 +7,10 @@ description: プルーフの役割を使用すると、個々のプルーフに�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
-source-git-commit: 1aa5f36208578b0a7bbc1820cfb220b112bec05b
+source-git-commit: 93452926a27026f2b0e8a7a807381d562d7cbb01
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 100%
+source-wordcount: '382'
+ht-degree: 90%
 
 ---
 
@@ -21,10 +21,6 @@ ht-degree: 100%
 ## プルーフの役割
 
 プルーフの役割は、ユーザーがプルーフのレビューに招待されたときに、個々のプルーフに付与されます。Workfront Pro+ プランをご利用の場合は、作業用またはプランのライセンスを持つユーザーにプルーフの役割を付与できます。Workfront Premium レガシープランをご利用の場合は、指定されたプルーフライセンスを持つユーザーにプルーフの役割を付与できます。詳しくは、[Workfront のプルーフ機能へのアクセス](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md)を参照してください。
-
->[!NOTE]
->
->新しい Workfront プランのユーザーは、システム内の任意のユーザーに作成者またはモデレーターの役割を付与できます。従来のプランのユーザーは、システム内のプルーフライセンスを持つユーザーに作成者またはモデレーターの役割を付与できます。
 
 プルーフの役割では、特定のプルーフに関連してレビュアーが実行できるアクションを定義します。
 
@@ -131,7 +127,7 @@ ht-degree: 100%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>作者</strong> </p> </td> 
+   <td> <p><strong> オーサー*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -147,7 +143,7 @@ ht-degree: 100%
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>調整者</strong> </p> </td> 
+   <td> <p><strong> 調整者*</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p><strong>✓</strong> </p> </td> 
@@ -164,3 +160,7 @@ ht-degree: 100%
   </tr> 
  </tbody> 
 </table>
+
+<p>*新しいWorkfront プランのユーザーは、作成者またはモデレーターのロールをシステム内の任意のユーザーに付与できますが、それらのロールに関連付けられたすべての機能を使用できるのは Standard ライセンスを持つユーザーのみです。
+
+従来のプランのユーザーは、システム内のプルーフライセンスを持つユーザーに作成者またはモデレーターの役割を付与できます。</p>
