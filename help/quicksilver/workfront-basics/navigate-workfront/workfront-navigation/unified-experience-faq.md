@@ -6,10 +6,10 @@ description: ' [!DNL Workfront]  および Adobe Experience Cloud の間には�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b9076fe0-26d7-4f33-80a4-564875ea13ba
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f59643eb3722c72fc8cbb5009223af143ac240d8
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 68%
+source-wordcount: '1397'
+ht-degree: 67%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 68%
 
 [!DNL Workfront] の [!DNL Adobe Unified Experience] を使用すると、[!DNL Adobe] アプリケーションのすべてを 1 回のログインで 1 か所で管理できます。[!DNL Adobe] ナビゲーションエリアは、[!DNL Workfront] とシームレスに統合されています。いくつかの機能には違いがあり、[!DNL Workfront] インスタンスは統合エクスペリエンスに移行されるため、お客様の疑問にお答えします。
 
-[!DNL Adobe Unified Experience] にログインする方法について詳しくは、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。.
+[!DNL Adobe Unified Experience] にログインする方法について詳しくは、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。.
 
 ## [!DNL Adobe Unified Experience] および [!DNL Workfront only] エクスペリエンスの比較
 
@@ -61,13 +61,13 @@ Workfront統合エクスペリエンス上に組織があるかどうかを判�
 
 既存のお客様には、移行のスケジュールするためにご連絡させていただきます。移行チームのサポート員からお客様にプロセスを説明し、できるだけ簡単で手間のかからない移行を行うために、[!DNL Admin Console] の設定についてアドバイスおよび移行に必要なドキュメントへのリンクを提供します。
 
-* [[!DNL Adobe Workfront] サポートの概要](https://experienceleague.adobe.com/ja/docs/customer-one/using/workfront/overview)
-* [[!DNL Workfront Admin Console] 情報](https://experienceleague.adobe.com/ja/docs/customer-one/using/workfront/landing)
-* [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/ja/docs/customer-one/using/workfront/faq)
+* [[!DNL Adobe Workfront] サポートの概要](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/overview)
+* [[!DNL Workfront Admin Console] 情報](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/landing)
+* [[!DNL Adobe Business Platform] and [!DNL Admin Console] FAQ](https://experienceleague.adobe.com/en/docs/customer-one/using/workfront/faq)
 
 ### 既に Federated ID に対してこれを有効にしている会社の [!DNL Adobe Admin Console] ールは、[!DNL Workfront] SSO の設定とは異なりますか。
 
-[!DNL Adobe Admin Console] には、[!DNL Workfront] を含めるオプションがあり、SSO を IMS に置き換えます。すべてのユーザープロビジョニングは [!DNL Admin Console] で実行され、ユーザーには [!DNL Adobe] ログイン画面が表示され、[!DNL Experience Cloud] に移動すると [!DNL Workfront] がオプションとして（アクセス権が付与されている場合）表示されます。
+[!DNL Adobe Admin Console] には、SSO をAdobeのIdentity Management System （IMS）に置き換えて、[!DNL Workfront] を含めるオプションがあります。 すべてのユーザープロビジョニングは [!DNL Admin Console] で実行され、ユーザーには [!DNL Adobe] ログイン画面が表示され、[!DNL Experience Cloud] に移動すると [!DNL Workfront] がオプションとして（アクセス権が付与されている場合）表示されます。
 
 ### [!DNL Adobe Assets] のAEM管理パネルを既に持つが、SSO の設定が [!DNL Workfront?] とは異なるお客様には、どのような影響がありますか？
 
@@ -77,7 +77,7 @@ Workfront統合エクスペリエンス上に組織があるかどうかを判�
 
 SSO は [!DNL Admin Console] で設定され、[!DNL Workfront] アプリケーションによって継承されます。
 
-### 社内 [!DNL Active Directory] の SSO は引き続き IMS のオプションになりますか？
+### アドビの社内 [!DNL Active Directory] の SSO は、AdobeのIdentity Management System （IMS）では引き続きオプションになりますか？
 
 IMS は SSO の代わるもので、ほとんど同じ機能です。すべてのユーザー権限は、[!DNL Adobe Admin Console] で付与され、プロビジョニングされます。ユーザーは、[!DNL Adobe] ログイン画面で「[!UICONTROL 個人用アカウント]」または「[!UICONTROL 会社アカウント]」を選択します（[!DNL Active Directory] がある場合、ほとんどの場合は、会社アカウントでログインします）。
 
@@ -103,7 +103,7 @@ IMS は SSO の代わるもので、ほとんど同じ機能です。すべて�
 
 ### すべての [!DNL Workfront] ユーザーは [!DNL Experience Cloud] 経由でログインする必要がありますか？ それとも管理者だけ？
 
-はい、すべてのユーザーが [!DNL Experience Cloud] 経由でログインします。SSO は IMS ログインに置き換えられます。ログイン画面が異なるだけで、エクスペリエンスは非常に似ています。
+はい、すべてのユーザーが [!DNL Experience Cloud] 経由でログインします。Adobe Identity Management System （IMS）ログインが SSO を置き換えます。 ログイン画面が異なるだけで、エクスペリエンスは非常に似ています。
 
 ### 既に [!DNL Adobe] アカウントと [!DNL Workfront] アカウントの両方を持っている場合、ユーザーはそれらをリンクする必要がありますか？
 
