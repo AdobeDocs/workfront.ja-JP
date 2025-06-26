@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4f90ae347f2a9f9f92610eb4ef6e17452f011481
+source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
 workflow-type: tm+mt
-source-wordcount: '4930'
+source-wordcount: '4861'
 ht-degree: 2%
 
 ---
@@ -33,19 +33,19 @@ We have updated the look and feel of all the tabs and subtabs in the Update Feed
 For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
 
-### 設定エリアの「タイムシートと時間」セクションに表示されるリストの新しいルックアンドフィール
+<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
 
-**プレビュー：2025 年 6 月 26 日（PT）、すべてのユーザーの実稼動日：2025 年 7 月 10 日（PT）**
+**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
 
-設定エリアの「タイムシートと時間」セクションで、次のリストのルックアンドフィールを更新しました。
+We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
 
-* 定期タイムシート リスト
+* The list of Timesheet Profiles 
 
-* 時間タイプのリスト
+* The list of Hour Types 
 
-これらのリストは、Workfrontの他の領域と一致するようになりました。
+These lists now match other areas of Workfront.  
 
-詳しくは、[ タイムシートプロファイルの作成、編集、割り当て ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) を参照してください。
+ For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
 
 
 <!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
