@@ -7,10 +7,10 @@ description: レポートに関する FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
 workflow-type: tm+mt
-source-wordcount: '1500'
-ht-degree: 88%
+source-wordcount: '1510'
+ht-degree: 87%
 
 ---
 
@@ -64,7 +64,7 @@ ht-degree: 88%
 
 <!--this section is linked from the Actual Hours article for Tasks in the Task Information folder; edit the links or do not delete or change this section-->
 
-プロジェクト レポートで、レガシの実際の時間数を予定時間数から減算する計算があります。
+プロジェクト レポートに、予定時間数から実際の時間数を引く計算があります。
 
 得られる結果が正しくありません。
 
@@ -78,17 +78,19 @@ ht-degree: 88%
 
 Workfrontで時間を使用するほとんどのフィールドは分単位で保存されます。 これらのフィールドを計算で使用すると、ほとんどの場合、結果は数分です。 時間単位の結果を取得するには、計算の結果または参照するフィールドを 60 で割る必要があります。
 
-正しい計算は次のとおりです。
+予定時間数は分単位で保存されます。
 
-`valueexpression=SUB(workRequired,actualWorkRequired)/60`
+計算に使用する [ 実際の時間数 ] フィールドに応じて、正しい数式は次のとおりです。
 
->[!NOTE]
->
->計算に実際の時間数を使用している場合は、値フィールドに `actualWorkRequiredDouble` を使用します。 実際の時間は、時間単位で保存されます。 予定時間数は分単位で保存されます。
->
->実際の時間数の正しい計算は、次のとおりです。
->&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+* 分単位で保存される従来の実際の時間の場合：
 
+  `valueexpression=SUB(workRequired,actualWorkRequired)/60`
+
+* 時間数に格納される実際の時間数の場合：
+
+  `valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+
+詳しくは、[ 実際の時間数を表示 ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md) を参照してください。
 
 ## レポート内の各グラフ要素の値がグラフに表示されないのはなぜですか？
 
