@@ -87,7 +87,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 >計算に実際の時間数を使用している場合は、値フィールドに `actualWorkRequiredDouble` を使用します。 実際の時間は、時間単位で保存されます。 予定時間数は分単位で保存されます。
 >
 >実際の時間数の正しい計算は、次のとおりです。
->>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
+>&#x200B;>`valueexpression=SUB(workRequired/60,actualWorkRequiredDouble)`
 
 
 ## レポート内の各グラフ要素の値がグラフに表示されないのはなぜですか？

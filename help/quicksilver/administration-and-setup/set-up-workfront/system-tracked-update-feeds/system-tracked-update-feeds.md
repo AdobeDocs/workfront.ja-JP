@@ -20,7 +20,7 @@ ht-degree: 54%
 
 <!-- Audited: 06/2025-->
 
-[!DNL Adobe Workfront] は、オブジェクトの「[!UICONTROL  更新 ] セクションにステータス情報を記録することで、特定のオブジェクトで発生しているアクティビティをキャプチャします。
+[!DNL Adobe Workfront] は、オブジェクトの「[!UICONTROL &#x200B; 更新 &#x200B;] セクションにステータス情報を記録することで、特定のオブジェクトで発生しているアクティビティをキャプチャします。
 
 「更新」セクションについて詳しくは、「[ 更新」セクションの概要 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
 
