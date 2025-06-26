@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2556'
 ht-degree: 38%
 
 ---
@@ -199,14 +199,9 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    * **ルックアップフィールドを選択**：選択したレコードタイプからフィールドを追加するには、このオプションを選択します。ルックアップフィールドは、リンク先のレコードタイプまたはオブジェクトタイプに関連付けられたフィールドです。リンクすると、リンク元のレコード上のリンク先のレコードまたはオブジェクトの情報が表示されます。 これはデフォルトで選択されています。
 
-     >[!TIP]
-     >
-     > 次のフィールドタイプを参照フィールドとして追加することはできません。
-     >
-     >    * ユーザー
-     >    * 作成者
-     >    * 最終変更者
-     >    * Workfrontの先行入力フィールド（「プロジェクト所有者」や「プロジェクトスポンサー」などのフィールドを含む）
+   >[!TIP]
+   >
+   >Workfrontの先行入力フィールド（「プロジェクト所有者」や「プロジェクトスポンサー」などのフィールドを含む）を参照フィールドとして追加することはできません。
 
 1. （条件付きおよびオプション）Workfront オブジェクトの接続を選択した場合、「**これらの条件に一致するオブジェクトのみをリンク**」セクションから「**カスタムフォーム**」を選択します。選択したカスタムフォームがアタッチされているオブジェクトのみを、選択したレコードタイプにリンクできます。複数のフォームを選択できます。
 
@@ -218,7 +213,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプへの接続を選択した場合は、「レコードの外観 **領域で次のいずれかのオプションを選択し** す。
 
@@ -256,10 +251,18 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >    ワークスペースに対する表示権限以上の権限を持つユーザーは、リンクされたオブジェクトタイプのアプリケーションでの権限やアクセスレベルに関係なく、リンクされたフィールドの情報を表示できます。
 
-
 1. （省略可能）リンク レコードまたはオブジェクト タイプからのフィールドの追加をスキップするには、[**スキップ**] をクリックします。 リンクされたレコードの名前またはプライマリフィールドは、リンク元のレコードの種類のテーブル ビューに表示される唯一のフィールドです。
 
-1. （オプションおよび条件付き）数値、通貨、パーセンテージまたは日付タイプのフィールドをリンクすることを選択した場合は、アグリゲータ値も選択して複数の値を集計します。 ユーザーがリンクされたレコードフィールドで複数のリンクされたレコードを選択すると、リンクフィールドの値がコンマで区切られているか、選択したアグリゲータに従った集計値として表示されます。
+1. 追加する参照フィールドのアグリゲータを選択します。
+
+   >[!NOTE]
+   >
+   >次のフィールドタイプでは、アグリゲータを追加できません。
+   >
+   >    * 段落
+   >    * チェックボックス
+
+   ユーザーがリンクされたレコードフィールドで複数のリンクされたレコードを選択すると、リンクフィールドの値がコンマで区切られているか、選択したアグリゲータに従った集計値として表示されます。
 
    集計されていない複数の値がルックアップ フィールドに含まれている場合、このフィールドをビューで並べ替えまたはグループ化で使用する際は、次の点を考慮してください。
 
@@ -271,7 +274,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!IMPORTANT]
    >
-   >    参照日フィールドをタイムライン ビューとカレンダービューの開始日および終了日として追加できるようにする場合は、フィールドを追加するときにアグリゲータ値を選択する必要があります。 例えば、参照日フィールドには、MAXまたは MIN アグリゲータを選択できます。
+   > 参照日フィールドをタイムライン ビューとカレンダービューの開始日および終了日として追加できるようにする場合は、フィールドを追加するときにアグリゲータ値を選択する必要があります。 例えば、参照日フィールドには、MAXまたは MIN アグリゲータを選択できます。
 
    ![ リンクされた数値フィールドのアグリゲータドロップダウン ](assets/aggregator-drop-down-for-number-linked-field.png)
 

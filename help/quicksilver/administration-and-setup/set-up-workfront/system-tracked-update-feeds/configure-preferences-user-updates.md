@@ -4,18 +4,20 @@ product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
 title: ユーザーアップデートの環境設定を行う
 description: ユーザーがオブジェクトの[!UICONTROL 更新]領域にコメントを追加する際に特定の機能にアクセスできるようにする設定を指定できます。
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
 source-wordcount: '289'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
 # ユーザー更新の環境設定の指定
+
+<!--Audited: 06/2025-->
 
 ユーザーがオブジェクトの[!UICONTROL 更新]領域にコメントを追加する際に特定の機能にアクセスできるようにする環境設定を指定できます。
 
@@ -34,7 +36,7 @@ ht-degree: 87%
    <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
    <td><p>新規：[!UICONTROL Standard]</p>
    または
    <p>現在：[!UICONTROL Plan]</p>
@@ -47,7 +49,7 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

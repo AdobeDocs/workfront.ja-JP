@@ -6,18 +6,22 @@ description: 定期的でないタイムシートが必要な場合は、1 回�
 author: Alina
 feature: Timesheets
 exl-id: b293dd50-a9b8-448b-afc1-8c7c7c79183b
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 97%
+source-wordcount: '1078'
+ht-degree: 89%
 
 ---
 
 # 単一のタイムシートの作成
 
+<!--Audited: 6/2025-->
+
 定期的でないタイムシートが必要な場合は、1 回限りのタイムシートを手動で作成できます。タイムシートの終了日に達し、より多くのタイムシートが必要になった場合は、新しいタイムシートを作成する必要があります。
 
 ユーザーからの追加の介入なしに（推奨）、定期的なタイムシートを生成するタイムシートプロファイルの作成について詳しくは、[タイムシートプロファイルの作成、編集、割り当て](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
+
+タイムシートプロファイルに関連付けられた、システム内のすべてのユーザーのタイムシートを手動で生成する方法については、[ タイムシートを手動で生成する ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md) を参照してください。
 
 >[!NOTE]
 >
@@ -50,8 +54,8 @@ ht-degree: 97%
    <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>タイムシートに対する管理アクセス権が必要です。 </p> <p>詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">ユーザーに対する特定の領域への管理アクセス権の付与</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>タイムシートに対する管理アクセス権が必要です。 </p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -62,11 +66,11 @@ ht-degree: 97%
 
 ## 単一のタイムシートの作成
 
-1. Adobe Workfront の右上隅にある&#x200B;**メインメニュー**&#x200B;アイコン ![](assets/main-menu-icon.png) をクリックします。
+{{step1-to-timesheets}}
 
-1. 「**タイムシート**」をクリックします。**すべて**&#x200B;のフィルターがデフォルトでは選択されています。これにより、表示するアクセス権のあるすべてのタイムシートが表示されます。
+**すべて**&#x200B;のフィルターがデフォルトでは選択されています。これにより、表示するアクセス権のあるすべてのタイムシートが表示されます。
 
-   ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
+![1 つのタイムシートが選択されたタイムシートリスト ](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
 1. （オプション）次のいずれかの操作を行って、タイムシートリストのフィルターを更新します。
 
@@ -78,9 +82,9 @@ ht-degree: 97%
 
      これにより、「マイタイムシート承認」フィルターまたは「マイタイムシート」フィルターが、タイムシートのリストに適用されます。
 
-     ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
+     ![ マイタイムシートのフィルターボタンがタイムシートリストページに表示されます ](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
-   * フィルターアイコン ![](assets/filter-nwepng.png) をクリックして別のフィルターを適用するか、新しいフィルターを作成します。フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
+   * **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックして、別のフィルターを適用するか、新しいフィルターを作成します。 フィルターの作成または更新について詳しくは、[Adobe Workfront でのフィルターの作成または編集](../../reports-and-dashboards/reports/reporting-elements/create-filters.md)を参照してください。
 
    >[!NOTE]
    >
@@ -89,9 +93,9 @@ ht-degree: 97%
    >   * [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
 
 
-1. （オプション）**検索**&#x200B;アイコン ![](assets/search-icon.png) をクリックして、キーワードを入力し、特定のタイムシートを検索します。例えば、所有者名のタイムシート期間を検索できます。
+1. （任意） **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックしてキーワードを入力し、特定のタイムシートを検索します。 例えば、所有者名のタイムシート期間を検索できます。
 
-1. （オプション）**表示** ![](assets/view-icon.png) アイコンまたは&#x200B;**グループ化** ![](assets/grouping.png) アイコンをクリックして、別のビューやグループを適用するか、新しいビューやグループを作成します。
+1. （任意） **表示** ![ 表示アイコン ](assets/view-icon.png) または **グループ化** ![ グループ化アイコン ](assets/grouping.png) アイコンをクリックして、別のビューやグループ化を適用するか、新しいビューやグループを作成します。
 
    フィルター、ビューまたはグループ化の作成については、次の記事を参照してください。
 

@@ -6,14 +6,24 @@ description: 追加の介入なしに、ユーザーに対して定期タイム�
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: e896d156854c6729e5ea0a82dcbc641fbfa9415e
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '1472'
-ht-degree: 99%
+source-wordcount: '1540'
+ht-degree: 88%
 
 ---
 
 # タイムシートプロファイルの作成、編集および割り当て
+
+<!--Audited: 06/2025-->
+
+<!--<div class="preview">
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+
+</div> -->
 
 追加の介入なしに、ユーザーに対して定期タイムシートを生成するタイムシートプロファイルを作成および編集し割り当てることができます。これにより、時間を節約し、次の情報についてユーザー間で一貫性を保つことができます。
 
@@ -38,20 +48,20 @@ ht-degree: 99%
    <td> <p>任意</p> </td> 
   </tr> 
    <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> <p>新規：標準 </p>
  <p>または</p> 
 <p>現在：プラン </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>タイムシートに対する管理アクセス権が必要です。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -66,18 +76,18 @@ ht-degree: 99%
 
 >[!IMPORTANT]
 >
->現在のタイムシートのタイムシートプロファイルの変更を有効にするには、既存のタイムシートを削除してから、新しいタイムシートを生成する必要があります。手順については、[Adobe Workfront のタイムシートの削除](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)および[タイムシートを手動で生成](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)を参照してください。
+>現在のタイムシートでタイムシート プロファイルの変更を有効にするには、タイムシート プロファイルを変更する前に既存のタイムシートを削除し、新しいタイムシートを生成する必要があります。 手順については、[Adobe Workfront のタイムシートの削除](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)および[タイムシートを手動で生成](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)を参照してください。
 
 {{step-1-to-setup}}
 
-1. システム全体で使用するタイムシートプロファイルを作成または編集する場合は、「**タイムシートと時間**」をクリックします。
+1. システム全体で使用するタイムシート プロファイルを作成または編集する場合は、[**タイムシートおよび時間**] をクリックします。
 
    または
 
-   グループのタイムシートプロファイルを作成または編集する場合は、「**グループ**」をクリックし、グループの名前をクリックします。
+   グループのタイムシート プロファイルを作成または編集する場合は、[**グループ**] をクリックし、グループ名をクリックします。
 
-1. 「**タイムシートプロファイル**」をクリックします。
-1. 新しいタイムシートプロファイルを作成するには、「**新規プロファイル**」をクリックします。
+1. 「**定期タイムシート**」をクリックします。
+1. 定期タイムシートを作成するには、[**新規プロファイル**] をクリックします。
 
    または
 
@@ -86,13 +96,26 @@ ht-degree: 99%
    新規または既存のタイムシートプロファイルが表示されます。
 
 
-1. 「**詳細の設定**」タブで、タイムシートプロファイルの&#x200B;**名前**&#x200B;および&#x200B;**説明**&#x200B;と、次の情報を入力します。
+1. 「**詳細を設定**」タブをクリックして、次の情報を更新します。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
+      <td role="rowheader"><strong>名前</strong> </td> 
+      <td> <p> 定期タイムシートの名前を追加します。 タイムシートと同じ期間を共有するユーザーがいるチームまたはグループの名前を指定できます。 </p> </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong>説明</strong> </td> 
+      <td> <p> 定期タイムシートの詳細情報を追加します。     
+      </p> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader"><strong>管理アクセス権限を持ったグループ</strong> </td> 
       <td> <p> 
       <ul> 
@@ -147,8 +170,14 @@ ht-degree: 99%
       <td role="rowheader"><strong>使用できる時間タイプ</strong> </td> 
       <td><p>この設定は一般的な時間タイプのみを参照し、プロジェクト固有の時間タイプは参照しません。 </p>
       <p>デフォルトでは、タイムシートのすべての一般的な時間がユーザーに表示されます。ただし、特定のユーザーセットに対して特定の一般的な時間のみを表示する場合は、このフィールドのタイムシートプロファイルで選択することにより、タイムシートに表示する必要のある一般的な時間を選択できます。すべての一般的な時間を無効にする場合は、すべての時間タイプの選択を解除して、一般的な時間のセクションを含まないタイムシートを生成します。</p></td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader"><strong> リマインダ通知 </strong> </td> 
+      <td> <p> リマインダ通知を追加します。 Workfrontからユーザーにリマインダーを送信し、タイムシートの入力や承認を求めます。 リマインダ通知を作成してから、タイムシートプロファイルに関連付けてください。  </p> </td> 
+     </tr>
+
+   <tr data-mc-conditions=""> 
       <td role="rowheader"><span style="font-weight: bold;">超過作業時間</span> </td> 
       <td>タイムシートの「超過作業時間」ボックスは非表示にすることができます。このオプションはデフォルトでは無効になっています。</td> 
      </tr> 

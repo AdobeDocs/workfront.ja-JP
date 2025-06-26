@@ -2,26 +2,30 @@
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
 title: 定期タイムシートの削除
-description: 定期タイムシートを削除できます。
+description: 関係がなくなった定期タイムシートは削除できます。
 author: Alina
 feature: Timesheets
 exl-id: 1fb39f74-205b-485e-9e8b-a2ab3f9f1ac4
-source-git-commit: 7786d899841cb82cc4d3832fb083c6e2bda2e197
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 100%
+source-wordcount: '263'
+ht-degree: 40%
 
 ---
 
 # 定期タイムシートの削除
 
-定期タイムシートを削除できます。
+<!--Audited:6/2025-->
+
+定期タイムシートを作成してユーザーに割り当てると、Adobe Workfrontによるタイムシートの作成方法に一貫性が生じます。
+
+使用できなくなった定期タイムシートは削除できます。
 
 定期タイムシートについて詳しくは、[定期タイムシートの作成、編集、割り当て](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
 ## アクセス要件
 
-この記事の手順を実行するには、以下を保有している必要があります。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,17 +36,21 @@ ht-degree: 100%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td> <p>プラン </p> </td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規：標準</p>
+   または
+   <p>現在：プラン </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>タイムシートに対する管理アクセス権が必要です。 </p> <p>詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">特定のエリアに対する管理者アクセス権のユーザーへの付与</a>を参照してください。</p>  <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>タイムシートに対する管理アクセス権が必要です。 </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## 定期タイムシートの削除
 
@@ -55,5 +63,10 @@ ht-degree: 100%
    グループの定期タイムシートを削除する場合は、「**グループ**」をクリックし、グループの名前をクリックします。
 
 1. 「**定期タイムシート**」をクリックします。
-1. 削除する定期タイムシートを 1 つ以上選択し、**詳細／「削除」**&#x200B;をクリックします。
-1. 表示されるメッセージボックスで、「**はい、削除します**」をクリックします。
+1. 削除する 1 つ以上のタイムシートプロファイルを選択し、**詳細**/**削除** をクリックします。
+1. （条件付き）タイムシートプロファイルが既にユーザーに割り当てられている場合、「**置き換えるタイムシートプロファイル**」ボックスが表示されます。 次の操作を実行します。
+   1. ドロップダウンリストから別のタイムシートプロファイルを選択します。 削除しようとしているタイムシート プロファイルは、割り当てられたすべてのユーザーのタイムシート プロファイルに置き換えられます。 タイムシートは、次のタイムシート生成サイクルの新しく割り当てられたプロファイルに従って生成されます。
+   1. **削除** をクリックして、削除を確定します。
+1. （条件付き）タイムシートプロファイルがユーザーに割り当てられていない場合、「**タイムシートを削除**」ボックスが表示されます。
+
+   「**削除**」をクリックして削除を確定します。

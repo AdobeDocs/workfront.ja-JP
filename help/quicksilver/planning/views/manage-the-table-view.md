@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '3633'
-ht-degree: 50%
+source-wordcount: '3720'
+ht-degree: 49%
 
 ---
 
@@ -270,7 +270,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 1. テーブルビューを選択し、テーブルの右上隅にある&#x200B;**フィルター**&#x200B;をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
-   * &#x200B;<!-- the tip below might change--> でフィルターする **フィールドを選択**
+   * <!-- the tip below might change--> でフィルターする **フィールドを選択**
 
    * **オプションを選択** （またはフィルター修飾子）して、フィールドが満たす必要がある条件の種類を定義します
 
@@ -458,9 +458,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
    グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
 
-   <!--replace screen shot for Expand all-->
-
-   ![ テーブル表示で適用されたグループ化 ](assets/grouping-applied-in-table-view.png)
+   <span class="preview">![ テーブル表示で適用されたグループ化 ](assets/grouping-applied-in-table-view.png)</span>
 
 1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
 
@@ -471,26 +469,23 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 1. 「**以下でレコードをグループ化**」ボックスの外側をクリックして閉じます。
 1. （オプション）任意のグループ化の最後にある「**+新規レコード**」をクリックして新しいレコードを追加し、ページを更新して新しいレコードを適切なグループ化に追加します。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-<!--
+1. <span class="preview"> グループ化を展開または折りたたむには、次のいずれかの操作を行います。</span>
 
-1. <span class="preview">To expand or collapse groupings, do one of the following:</span>
+   <div class="preview">
 
-    <div class="preview">
+   1. **グループ化** アイコンをクリックし、**すべて展開** または **すべて折りたたむ** をクリックします。 これにより、テーブル表示のすべてのグループ化およびサブグループ化が展開される。
 
-    1. Click the **Grouping** icon, then **Expand all**, or **Collapse all**. This expands all the groupings and subgroupings in the table view. 
+      ![ グループ化ボックスのテーブル ビューですべてのボタンを展開または折りたたむ ](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
 
-        ![Expand and collapse all buttons on grouping box table view](assets/expand-collapse-all-buttons-on-grouping-box-table-view.png)
+   1. テーブルビューで任意のグループヘッダーを右クリックし、次のいずれかのオプションをクリックします。
+      * **グループを展開**
+      * **グループを折りたたむ**
+      * **すべて展開**
+      * **すべて折りたたむ**
+      * **サブグループを展開**
+      * **サブグループを折りたたむ**
 
-    1. Right-click any of the grouping headers in the table view, then click one of the following options:
-        * **Expand group**
-        * **Collapse group**
-        * **Expand all**
-        * **Collapse all**
-        * **Expand subgroups**
-        * **Collapse subgroups**
-
-        Depending on the number of groupings you apply to the view, some options might not be available.</div>
--->
+      ビューに適用するグループ化の数によっては、一部のオプションを使用できないことがあります。</div>
 
 <!-- this is not available yet: 
 

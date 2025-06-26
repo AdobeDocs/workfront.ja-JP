@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: 実際の時間数の表示
-description: Adobe Workfront で作業項目に記録した時間は、実際の時間数とみなされます。
+description: Adobe Workfrontで作業項目にログオンした時間は、実際の時間と見なされます。 実際の時間数は、タスク、イシューまたはプロジェクトの完了に要した実際の時間を表します。
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 46%
+source-wordcount: '1032'
+ht-degree: 38%
 
 ---
 
@@ -61,6 +61,19 @@ Adobe Workfront で作業項目に記録した時間は、実際の時間数と�
 *このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
+
+## 実際の時間数と従来の実際の時間数
+
+実際の時間にアクセスするWorkfrontの領域に応じて、次のログ時間のいずれかを参照できます。
+
+* プロジェクト、タスク、問題のレポートとリストでは、次の操作を行います。
+
+   * **実際の時間数**: 2021 年 5 月以降、プロジェクト、タスクまたは問題に記録された時間。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
+   * **従来の実際の時間**:2021 年 5 月より前を含む、任意の時点でプロジェクト、タスク、または問題に記録された時間。 これらの変数は分としてWorkfront データベースに保存され、その値フィールドは `actualWorkRequired` になります。<!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+
+* プロジェクト、タスクまたは問題の「詳細」領域で、次の操作を行います。
+
+   * **実際の時間数**:2021 年 5 月より前を含む、いつでもプロジェクト、タスク、または問題に記録された時間。 これらは、レポートおよびリストの従来の実際の時間数に対応します。 分はWorkfront データベースに分として保存され、その値フィールドは `actualWorkRequired` です。
 
 ## タスクとイシューの実際の時間数とプロジェクトの実際の時間数
 
@@ -134,7 +147,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
   詳しくは、[ ユーザービューの使用時にリソースプランナーで利用可能な時間、予定および実際の時間または FTE を表示 ](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md) を参照してください。
 
 
-### Workfront <!--database and the--> API <!--, and custom data--> ークフローの実際の時間数
+### Workfront API の実際の時間数
 
 <!--this section was added as a result to this issue: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/task/6810910e0001b932e0948336208e76f2/overview-->
 
@@ -142,14 +155,13 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 API 呼び出し、または計算されたカスタムフィールドや列でこれらのフィールドにアクセスする場合、分から時間への変換を考慮する必要があります。
 
-実際の時間へのアクセス方法に応じて、これらはデータベース内の次のフィールドと単位に保存できます。
+プロジェクト、タスクまたは問題に記録された実際の時間は、現在、分としてWorkfront データベースに保存されており、その値フィールドは `actualWorkRequired` です。
 
-* API の場合：2025 年後半にリリースされる予定のWorkfront API の次のバージョンでは、実際の時間数の `valuefield` は時間単位で保存され `actualWorkRequiredDouble` す。 現在のバージョンで保存された実際の時間数（`actualWorkRequired`）は分単位で保存されます。
-* Workfront インターフェイス（計算されたカスタムフィールドと列）の場合：実際の時間の `valuefield` は分で保存され `actualWorkRequired` す。
+2025 年後半にリリースされる予定のWorkfront API の次のバージョンでは、実際の時間へのアクセス方法に応じて、データベースの次のフィールドとユニットに格納できます。
 
-<!--Change the above with this when we fix this for the Workfront UI: 
+* **実際の時間数**: 2021 年 5 月以降、プロジェクト、タスクまたは問題に記録された時間。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
 
-You must use the following valuefield name for Actual Hours in API calls or calculated custom fields or columns in Workfront: `actualWorkRequiredDouble`. -->
+* **従来の実際の時間**:2021 年 5 月より前を含む、任意の時点でプロジェクト、タスク、または問題に記録された時間。 分はWorkfront データベースに分として保存され、その値フィールドは `actualWorkRequired` です。
 
 計算された列またはフィールドでの実際の時間数の使用について詳しくは、[ レポートに関する FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) を参照してください。
 

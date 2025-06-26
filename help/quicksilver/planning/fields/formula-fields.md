@@ -6,16 +6,14 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 44%
+source-wordcount: '795'
+ht-degree: 42%
 
 ---
 
 # 数式フィールドの概要
-
-<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
@@ -104,6 +102,7 @@ ht-degree: 44%
 
 * 式フィールドは、同じレコードタイプに属するフィールドを参照します。
 * 他のレコードタイプのフィールドを参照できるのは、式フィールドを作成するレコードタイプに別のレコードタイプを接続する場合のみです。
+* &lt;span class-&quot;preview&quot;> 接続されたレコードタイプまたはそのルックアップフィールドを数式内で参照できるかどうかは、接続されたレコードタイプに対する権限によって異なります。 レコードタイプを表示する権限がない場合、数式でそのフィールドを参照することはできません。</span>
 * 式フィールドを保存した後で、そのフィールド タイプを変更することはできません。
 * 数式フィールドを保存した後でその計算を更新すると、同じタイプのすべてのレコードに対して、計算結果を自動的に更新できます。
 * Workfront Planning インターフェイスに表示される数式で参照するフィールドを追加する必要があります。
