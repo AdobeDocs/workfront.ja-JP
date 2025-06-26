@@ -4,10 +4,11 @@ description: 2025 年第 3 四半期プロジェクトの強化
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b36cfdc4587bc440867a6a84b9460eaeaf4daf88
+exl-id: 6e53dca8-285a-471b-a646-1773722554f3
+source-git-commit: a0a7ad2770b99ee1d45169372e64e460701ccc10
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 7%
+source-wordcount: '270'
+ht-degree: 5%
 
 ---
 
@@ -16,6 +17,20 @@ ht-degree: 7%
 このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するすべてのレポートの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+
+## レポート配信のセキュリティの強化
+
+* プレビュー：2025年6月26日（PT）
+* 実稼動：2025 年 6 月 26 日（PT）から 2025 年 7 月 9 日（PT）までの段階的なロールアウト
+
+Workfrontの通知が許可リストで承認されたメールドメインにのみ送信されるように、予定レポートの配信が強化されました。
+
+以前は、Workfrontの通知で使用するメールドメインに関する制限を組織が定義している場合、メールが追加されると許可リストに対してチェックが実行されていました。
+
+許可リストに加える入力されたメールアドレスがメールに準拠しているかどうかを確認するために、メールが送信されるチェックも行います。 この改善されたチェックは、ユーザーに関連付けられたメールアドレスと、レポートの受信者リストに追加されたアドホックメールの両方に適用されます。
+
+詳しくは、[ レポートの自動配信をスケジュールする ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md) を参照してください。
+
 
 ## フィルタリング時にユーザーワイルドカードが null 値を含む結果を返さなくなりました
 
@@ -36,4 +51,3 @@ ht-degree: 7%
 * `$$USER.roleID`
 * `$$USER.roleIDs`
 * `$$USER.companyID`
-

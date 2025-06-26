@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 39762dbf34501f3cd967a2a766042086d18003c8
+source-git-commit: 482067778b6a5b7291eb25d00245a394bc72ccf0
 workflow-type: tm+mt
-source-wordcount: '1601'
+source-wordcount: '1799'
 ht-degree: 4%
 
 ---
@@ -21,6 +21,39 @@ ht-degree: 4%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+
+## テーブル表示ですべてのグループ化を展開または折りたたむ
+
+>[!NOTE]
+>
+>* プレビュー：2025年6月26日（PT）
+>* すべてのユーザー向けの実稼動：2025 年 7 月 17 日（PT）
+
+以下の領域を使用して、テーブル表示でグループ化を折りたたんだり展開したりできるようになりました。
+
+* テーブルビューのツールバーからアクセスできる「グループ化」ボックス
+
+* グループ化のヘッダー（右クリックによる）
+
+1 つのグループ化またはすべてのグループ化を同時に折りたたんだり展開したりできます。
+
+この機能強化が行われるまで、各グループヘッダーから一度に 1 つのグループを折りたたんだり展開したりすることはできませんでした。
+
+詳しくは、[テーブルビューの管理](/help/quicksilver/planning/views/manage-the-table-view.md)を参照してください。
+
+## 数式フィールドの新しい集計機能
+
+>[!NOTE]
+>
+>* プレビュー：2025年6月26日（PT）
+>* すべてのユーザー向けの実稼動：2025 年 6 月 26 日（PT）
+
+これで、レコードタイプを関連付けて、式フィールドをルックアップとして取り込む場合、式フィールドのフォーマットに応じて集計関数（SUM、AVERAGE、MIN、MAXなど）を適用できるようになりました。 たとえば、式フィールドが数値の場合、SUM や AVG などの関数を使用できます。式フィールドがテキスト形式の場合、SUM などの集計関数は適用されません。
+
+以前は、レコードタイプを接続し、接続されたレコードからルックアップフィールドを取り込む場合、集計関数を通常のフィールドにのみ適用でき、数式フィールドには適用できませんでした。
+
+詳しくは、[ 式フィールドの概要 ](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
 
 ## Workfront計画タイムラインビューでのカスタム四半期の利用
 
@@ -206,7 +239,7 @@ CSV または Excel ファイルを使用してレコードタイプにレコー
 >[!NOTE]
 >
 >この変更は、システム管理者と Standard ライセンスを持つすべての新規ユーザーと既存ユーザーに対して表示されます。
->&#x200B;>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
+>>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
 
 詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 

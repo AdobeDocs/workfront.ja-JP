@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
+source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
 workflow-type: tm+mt
-source-wordcount: '1497'
-ht-degree: 20%
+source-wordcount: '1627'
+ht-degree: 19%
 
 ---
 
@@ -128,6 +128,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+       <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}">All Approvals widget renamed to Document approval metrics</a><p></p>
+            <p>We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.</p>
+        </td>
+        <td>TBD</td>
+        <td>TBD</td>
+        <td>TBD</td>
+    </tr> -->   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> 「マイアップデート」エリアの「メンション」セクションのコメント機能エクスペリエンスが更新されました </a><p></p>
@@ -160,6 +169,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> 既存の実績時間フィールドが、従来の実績時間と新しく作成された実績時間フィールドに置き換えられる </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>既存の「実際の時間」フィールドの名前が、従来の「実際の時間」に変更されました。 このフィールドには、プロジェクト、タスク、問題に記録された時間が分単位で保存されます。 このフィールドは、actualWorkRequired としてWorkfront データベースに保存されます。 </p>
+            <p>プロジェクト、タスクおよび問題に記録された時間を時間単位で、小数点以下の精度で保存する新しい「実際の時間」フィールドを追加しました。 フィールドは、actualWorkRequiredDouble としてWorkfront データベースに保存されます。</p>
+        </td>
+        <td>2025年6月24日（PT）</td>
+        <td>2025年6月24日（PT）</td>
+        <td>2025年6月24日（PT）</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">API 呼び出しのデータベースへの実際の時間の保存方法の変更 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
@@ -203,6 +222,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+      <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}"> 拡張レポート配信セキュリティ </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Workfrontの通知が許可リストで承認されたメールドメインにのみ送信されるように、予定レポートの配信が強化されました。</p>
+            <p></p>
+        </td>
+        <td>2025年6月26日（PT）</td>
+        <td>（段階的なロールアウト）: 2025 年 6 月 26 日～7 月 9 日（PT）</td>
+        <td>（段階的なロールアウト）: 2025 年 6 月 26 日～7 月 9 日（PT）</td>
+    </tr>   
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}"> ユーザーのワイルドカードで </a> をフィルタリングする際に、null 値を含む結果が返されなくなりました<p></p>
@@ -287,7 +316,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 

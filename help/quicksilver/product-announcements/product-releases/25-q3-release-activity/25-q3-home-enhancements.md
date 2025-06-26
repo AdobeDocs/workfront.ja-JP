@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: de30f2600c5d13bb4bbc56cdc1b166ac7c5adb05
+source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
 workflow-type: tm+mt
 source-wordcount: '225'
 ht-degree: 6%
@@ -17,6 +17,12 @@ ht-degree: 6%
 このページでは、2025 年第 3 四半期リリースで行われたすべてのホーム機能強化をプレビュー環境に対して説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+
+<!--## All Approvals widget renamed to Document approval metrics
+
+We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+
+This widget does not contain any information about proof approvals. -->
 
 ## マイアップデート エリアの「メンション」セクションのコメント体験を更新しました
 

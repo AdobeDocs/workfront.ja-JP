@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4c09cbe74e8f277cd6a9a7732aa1a93e17f7dfeb
+source-git-commit: 4f90ae347f2a9f9f92610eb4ef6e17452f011481
 workflow-type: tm+mt
-source-wordcount: '4622'
+source-wordcount: '4930'
 ht-degree: 2%
 
 ---
@@ -22,28 +22,62 @@ ht-degree: 2%
 
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
-
 ## 管理と設定
 
-<!--
-### Look and feel updates for the Update Feeds section of Setup 
+<!--### Look and feel updates for the Update Feeds section of Setup 
 
-**Preview release: June 19, 2025; Production release: June 26, 2025** 
+**Preview: June 26, 2025; Production for everyone: July 10, 2025**  
 
 We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.
--->
+For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
 
-<!--
-### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
 
-**Preview release: June 19, 2025; Production release: June 26, 2025** 
+### 設定エリアの「タイムシートと時間」セクションに表示されるリストの新しいルックアンドフィール
+
+**プレビュー：2025 年 6 月 26 日（PT）、すべてのユーザーの実稼動日：2025 年 7 月 10 日（PT）**
+
+設定エリアの「タイムシートと時間」セクションで、次のリストのルックアンドフィールを更新しました。
+
+* 定期タイムシート リスト
+
+* 時間タイプのリスト
+
+これらのリストは、Workfrontの他の領域と一致するようになりました。
+
+詳しくは、[ タイムシートプロファイルの作成、編集、割り当て ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) を参照してください。
+
+
+<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+
+**Preview release: June 26, 2025; Production release: July 10, 2025** 
 
 We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
 
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
--->
+For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
+
+
+### 会社ページのインターフェイスの更新
+
+**プレビューリリース：2025 年 6 月 26 日（PT）、実稼動リリース：2025 年 7 月 10 日（PT）**
+
+会社ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
+
+この更新には、会社のリストに対する視覚的な変更が含まれます。 機能は変更されていません。
+
+変更を表示するには、設定/会社に移動します。
+
+詳しくは、[会社を作成および編集](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)を参照してください。
+
+
+### 設定のアクセスレベルのリストの更新
+
+**プレビューリリース：2025 年 6 月 19 日（PT）、実稼動リリース：2025 年 6 月 23 日（PT）**
+
+設定のアクセスレベル リストが、Workfrontの他の領域と一致する、より現代的なデザインに更新されました。
+
+この変更を表示するには、設定/アクセスレベルに移動します。
+
 
 ### スケジュールの作成、コピー、編集のためのインタフェースの更新
 
@@ -72,23 +106,10 @@ Workfrontの他の領域と一致する、より現代的なデザインの集�
 
 この変更を表示するには、設定/アクセスレベル/新しいアクセスレベルに移動します。
 
-<!--
-### Interface updates for the Companies page
-
-**Preview release: June 19, 2025; Production release: June 26, 2025**
-
-We have updated the Companies page with a more modern design that is consistent with other areas of Workfront.
-
-This update includes visual changes to the list of companies. No functionality has changed.
-
-To view the change, go to Setup > Companies.
-
-For information, see [Create and edit companies](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
--->
 
 ### Customer Info ページのインターフェイスのアップデート
 
-**プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：2025 年 6 月 19 日（PT）**
 
 Customer Info ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
 
@@ -189,6 +210,14 @@ We have updated the look and feel of the Log time box when logging time for a pr
 For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 -->
 
+### プロジェクトの「新しいトピック」グループボックスのルックアンドフィールの変更
+
+**プレビューリリース：2025 年 6 月 26 日（PT）、実稼動リリース：2025 年 7 月 10 日（PT）**
+
+リクエストキューのトピックグループを作成または編集する際のエクスペリエンスのルックアンドフィールを、Workfrontの他の領域と一致するように更新しました。
+
+新しいエクスペリエンスは、プロジェクトまたはテンプレートでトピックグループを作成または編集する際に使用できます。
+
 ### プロジェクトの「関連プロジェクト」セクションに対するインターフェイスの更新（特定の顧客のみが使用できます）
 
 **プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：発表予定**
@@ -284,17 +313,17 @@ URL を置き換えてサポート対象ページに移動するか、ダッシ�
 
 ## ユーザー
 
-<!--
-### Interface updates to the organizational chart
 
-**Preview release: June 19, 2025; Production release for all customers: June 26, 2025**
+### 組織図のインターフェイスの更新
 
-We have updated the look and feel of the organizational chart associated with a Workfront user, to match the design of other areas of Workfront.
+**プレビューリリース：2025 年 6 月 26 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 7 月 10 日（PT）**
 
-To view this change, go to a Workfront user profile and click **Org Chart** in the left panel. (This feature is available through the Workfront user profile, not the Adobe user profile.)
+Workfrontの他の領域のデザインと一致するように、Workfront ユーザーに関連付けられた組織図のルックアンドフィールを更新しました。
 
-For information, see [View the organizational chart](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
--->
+この変更内容を表示するには、Workfront ユーザープロファイルに移動し、左側のパネルで **組織図** をクリックします。 （この機能は、Adobe ユーザープロファイルではなく、Workfront ユーザープロファイルを通じて使用できます）。
+
+詳しくは、[ 組織図の表示 ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/view-the-org-chart.md) を参照してください。
+
 
 ### 新しいユーザー登録ページへのインターフェイスのアップデート
 
