@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: d41bb7beb4879bcef224b0234b1c024eb16c9bd6
+source-git-commit: 1e8b25a0e6ff5c402bb662ef4b1831056e08c58b
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '850'
 ht-degree: 87%
 
 ---
@@ -1871,6 +1871,11 @@ ht-degree: 87%
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td>financeLastUpdateDate</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td>groupID</td> 
   </tr> 
   <tr> 
@@ -1882,6 +1887,11 @@ ht-degree: 87%
    <td> </td> 
    <td> </td> 
    <td>issueWorkflowAutomationID</td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td>lastCalcDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
