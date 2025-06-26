@@ -8,10 +8,10 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: 0da05d048d0dab1c2f06870e589c1349c48ccc58
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 87%
+source-wordcount: '486'
+ht-degree: 82%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 87%
 1. 左側のパネルで **トピックグループ** をクリックします。
 1. 「**新規トピックグループ**」をクリックします。
 
-   ![](assets/new-topic-group-box-nwe-350x306.png)
+   <!--   ![](assets/new-topic-group-box-nwe-350x306.png) -->
 
 1. 次の情報を指定します。
 
@@ -94,3 +94,4 @@ ht-degree: 87%
 1. 「**保存**」をクリックします。\
    これにより、リクエストキューに新しいトピックグループが作成されます。リクエストキューの下にある最初のドロップダウンメニューから、追加のカテゴリを選択できるようになりました。\
    リクエストの送信について詳しくは、[Adobe Workfront リクエストの作成と送信](../../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください。
+1. 既存のトピック・グループを編集するには、「トピック・グループ」リストからトピック・グループを選択し、開いたウィンドウで詳細を編集します。 「**保存**」をクリックして、変更を保存します。
