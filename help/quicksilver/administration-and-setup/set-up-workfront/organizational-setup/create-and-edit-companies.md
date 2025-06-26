@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: bb597032-3395-4c9a-b622-5c920ba55131
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: b89715649473ba13e1b6b7a250dfed7a468bb4b4
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 93%
+source-wordcount: '1420'
+ht-degree: 91%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 93%
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>次のうちのいずれか：</p> 
     <ul> 
-     <li> <p>[!UICONTROL システム管理者 &#x200B;] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
+     <li> <p>[!UICONTROL システム管理者 ] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
      <li> <p>会社を管理するための管理者アクセス。システム内の任意の会社を編集できます。</p> </li> 
     </ul> <p><b>メモ</b>：  
      <ul> 
@@ -102,7 +102,7 @@ ht-degree: 93%
 
    または
 
-   既存の会社を編集する場合は、会社を選択し、会社のリストの上部にある「**[!UICONTROL 編集]**」をクリックします。
+   既存の会社を編集する場合は、会社を選択し、会社リストの上部にある **[!UICONTROL 編集]** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
 1. 次の情報を更新します。
 
