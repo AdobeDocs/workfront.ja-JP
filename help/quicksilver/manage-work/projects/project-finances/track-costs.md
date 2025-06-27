@@ -7,9 +7,9 @@ description: Adobe Workfront でプロジェクト、タスク、イシューの
 author: Lisa
 feature: Work Management
 exl-id: df3090ae-9721-4e9b-84b4-315890619801
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '2480'
+source-wordcount: '2499'
 ht-degree: 99%
 
 ---
@@ -77,7 +77,11 @@ Workfront では、タスクやプロジェクトに関する複数のタイプ�
     </tr> 
     <tr> 
      <td>実際の労力コスト</td> 
-     <td> <p>計算には次の式を使用します。</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> </td> 
+     <td> <p>計算には次の式を使用します。</p><code>Actual Labor Costs = Actual Hours * Cost per Hour rate</code> 
+     <p><strong>メモ</strong>
+     <p>Workfrontは、従来の実際の時間数を使用して実際の労力コストを計算します。 詳しくは、<a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md"> 実際の時間数を表示 </a> を参照してください。 </p>
+
+  </td> 
     </tr> 
    </tbody> 
   </table>
@@ -150,7 +154,7 @@ Workfront では、プロジェクト内の個々のタスクごとに予定コ�
 >[!NOTE]
 >
 >プロジェクトの実際の費用コストは、次のように計算されます。
->`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >これらのコストは、実際のコストの計算では重複しません。例えば、固定コストがプロジェクトの実際の費用コストの一部である場合、実際のコストに別途追加されることはありません。
 

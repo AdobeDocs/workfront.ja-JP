@@ -7,10 +7,10 @@ description: Adobe Workfrontで作業項目にログオンした時間は、実�
 author: Alina
 feature: Work Management
 exl-id: c4b0e431-1765-416d-89f5-6ac663ac1d4f
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 39%
+source-wordcount: '1034'
+ht-degree: 38%
 
 ---
 
@@ -69,11 +69,16 @@ Adobe Workfront で作業項目に記録した時間は、実際の時間数と�
 * プロジェクト、タスク、問題のレポートとリストでは、次の操作を行います。
 
    * **実際の時間数**: 2021 年 5 月以降、プロジェクト、タスクまたは問題に記録された時間。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
-   * **従来の実際の時間**:2021 年 5 月より前を含む、任意の時点でプロジェクト、タスク、または問題に記録された時間。 これらの変数は分としてWorkfront データベースに保存され、その値フィールドは `actualWorkRequired` になります。<!--check below and see if you need to add this to the API section - asked on the tech doc task -->
+   * **従来の実際の時間**:2021 年 5 月より前を含む、任意の時点でプロジェクト、タスク、または問題に記録された時間。 分はWorkfront データベースに分として保存され、その値フィールドは `actualWorkRequired` です。
+
+     >[!IMPORTANT]
+     >
+     >プロジェクトの実際のコストは、従来の実際の時間数を使用して計算します。
+
 
 * プロジェクト、タスクまたは問題の「詳細」領域で、次の操作を行います。
 
-   * **実際の時間**:2021 年 5 月 5 日以前にプロジェクト、タスクまたは問題に記録された時間。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
+   * **実際の時間**:2021 年 5 月以降、プロジェクト、タスクまたは問題についてログに記録された時間。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
 
 ## タスクとイシューの実際の時間数とプロジェクトの実際の時間数
 
@@ -160,9 +165,13 @@ API 呼び出し、または計算されたカスタムフィールドや列で�
 2025 年末にリリースされる予定の次のバージョンのWorkfront API を使用すると、実際の時間数はデータベースの次のフィールドと単位に保存されます。
 
 * **実際の時間数**: 2021 年 5 月以降、プロジェクト、タスクまたは問題に記録された時間。 これらの変数はWorkfront データベースに時間単位で保存され、その値フィールドは `actualWorkRequiredDouble` です。
-   * **従来の実際の時間**:2021 年 5 月より前を含む、任意の時点でプロジェクト、タスク、または問題に記録された時間。 分はWorkfront データベースに分として保存され、その値フィールドは `actualWorkRequired` です。
+* **従来の実際の時間**:2021 年 5 月より前を含む、任意の時点でプロジェクト、タスク、または問題に記録された時間。 分はWorkfront データベースに分として保存され、その値フィールドは `actualWorkRequired` です。
 
-計算された列またはフィールドでの実際の時間数の使用について詳しくは、[ レポートに関する FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) を参照してください。
+  >[!IMPORTANT]
+  >
+  >プロジェクトの実際のコストは、従来の実際の時間数を使用して計算します。
+
+  計算された列またはフィールドでの実際の時間数の使用について詳しくは、[ レポートに関する FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) を参照してください。
 
 ## 時間を記録
 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 24bb25ca99f4a9ad0ecf8573f8d173248efe2986
+source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
 workflow-type: tm+mt
-source-wordcount: '4861'
+source-wordcount: '5088'
 ht-degree: 2%
 
 ---
@@ -24,38 +24,35 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 ## 管理と設定
 
-<!--### Look and feel updates for the Update Feeds section of Setup 
+### 設定の「フィードを更新」セクションに関する更新情報を確認します
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**  
+**プレビュー：2025 年 6 月 27 日（PT）、すべてのユーザーの実稼動日：2025 年 7 月 10 日（PT）**
 
-We have updated the look and feel of all the tabs and subtabs in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, all the tabs in the Update Feeds section match other areas of Workfront. 
+「設定」の「フィードを更新」セクションで、すべてのタブとサブタブのルックアンドフィールを更新しました。 「設定」の「インターフェイス」領域に、「フィードを更新」セクションが表示されます。 これで、「フィードを更新」セクションのすべてのタブが、Workfrontの他の領域と一致するようになりました。
 
-For information, see the articles in the [System-tracked update feeds](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md) section.-->
+詳しくは、[ システム更新の設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) を参照してください。
 
+### 「設定」の「フィードを更新」セクションにある「フィールドを追加」ボックスの更新を確認します
 
-<!--### New look and feel of the lists in the Timesheets & Hours section in the Setup area
+**プレビューリリース：2025 年 6 月 27 日（PT）、実稼動リリース：2025 年 7 月 10 日（PT）**
 
-**Preview: June 26, 2025; Production for everyone: July 10, 2025**   
+「設定」の「フィードを更新」セクションの「フィールドを追加」ボックスのルックアンドフィールを更新しました。 「設定」の「インターフェイス」領域に、「フィードを更新」セクションが表示されます。 これで、「追跡対象フィールド」タブのいずれかのサブタブにフィールドを追加した場合、「フィールドの追加」ボックスのルックアンドフィールが新しくなり、インターフェイス要素の一部が更新されました。
 
-We have updated the look and feel of the following lists in the Timesheets & Hours section in the Setup area:  
+詳しくは、[ システムアップデートの設定 ](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) を参照してください。
 
-* The list of Timesheet Profiles 
+### 設定エリアの「タイムシートと時間」セクションに表示されるリストの新しいルックアンドフィール
 
-* The list of Hour Types 
+**プレビュー：2025 年 6 月 26 日（PT）、すべてのユーザーの実稼動日：2025 年 7 月 10 日（PT）**
 
-These lists now match other areas of Workfront.  
+設定エリアの「タイムシートと時間」セクションで、次のリストのルックアンドフィールを更新しました。
 
- For information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).-->
+* 定期タイムシート リスト
 
+* 時間タイプのリスト
 
-<!--### Look and feel updates for the Add fields box in the Update Feeds section of Setup 
+これらのリストは、Workfrontの他の領域と一致するようになりました。
 
-**Preview release: June 26, 2025; Production release: July 10, 2025** 
-
-We have updated the look and feel of the Add fields box in the Update Feeds section of Setup. The Update Feeds section displays under the Interface area of Setup. Now, when you add fields in any subtab of the Tracked Fields tab, the Add fields box has a new look and feel, and some of the interface elements have been updated.  
-
-For information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).-->
-
+詳しくは、[ タイムシートプロファイルの作成、編集、割り当て ](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) を参照してください。
 
 ### 会社ページのインターフェイスの更新
 
