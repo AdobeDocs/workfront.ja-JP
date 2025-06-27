@@ -57,8 +57,8 @@ GenStudio Foundations で 1 つ以上のブランドを設定したら、複数�
 
 ブランドガイドラインについて詳しくは、
 
-* [GenStudio for Performance Marketingブランド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [ ガイドラインの追加 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketingブランド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [ ガイドラインの追加 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 ## AI レビュー担当者の追加
 
