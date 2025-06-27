@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
 workflow-type: tm+mt
-source-wordcount: '1330'
-ht-degree: 93%
+source-wordcount: '1336'
+ht-degree: 87%
 
 ---
 
@@ -107,14 +107,13 @@ Workfront 管理者以外の役割を持つユーザーの API キーを生成�
    1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。
    1. **タイプ** フィールドで、組織が使用する SSO のタイプを選択します。
    1. タイプを選択した状態で、下にスクロールして「**有効**」チェックボックスをオフにします。
-
       ![SSO を有効にする ](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. **保存**&#x200B;をクリックします。
 
 
 1. ブラウザーのアドレスバーに、次の API 呼び出しを入力します。
 
-   `<domain>`**.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**&#x200B;username&#x200B;**&amp;password=**&#x200B;password**&amp;method=PUT
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
 
    `<domain>` を Workfront ドメイン名に置き換え、ユーザー名とパスワードをユーザーの Workfront 資格情報に置き換えます。
 
@@ -140,9 +139,9 @@ API キーは、システム内のすべてのユーザーの有効期限が切�
 
    デフォルトでは、API キーは毎月期限が切れます。
 
-1. ユーザーのパスワードが期限切れになった時点で期限切れになるように API キーを設定するには、**ユーザーのパスワードが期限切れになったら API キーを削除**&#x200B;を選択します。
+1. ユーザーのパスワードが期限切れになったときに API キーが期限切れになるように設定するには、「**ユーザーのパスワードが期限切れになったら API キーを削除する**」を有効にします。
 
-   デフォルトでは、このオプションは選択されていません。
+   デフォルトでは、このオプションは有効になっていません。
 
    ユーザーパスワードが失効するように設定する方法については、[システムセキュリティの環境設定の指定](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)を参照してください。
 
@@ -170,11 +169,11 @@ Workfront システムに関する特定のセキュリティ違反を懸念す�
 >
 >組織が Adobe Business Platform に登録されているかどうかによって異なる手順のリストについては、[プラットフォームによる管理の違い（Adobe Workfront Fusion／Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
-サードパーティアプリケーションは、API を介して Workfront と通信できます。X.509 証明書を Workfront にアップロードすることで、Workfront サイトのセキュリティを強化するために API ログインリクエストを制限するよう Workfront を設定できます。有効にしたら、API を介したすべてのログインリクエストには、ユーザー名とパスワードに加えて、クライアント証明書が含まれている必要があります。
-
 >[!NOTE]
 >
 >組織の Workfront インスタンスが Adobe IMS によって有効化されている場合は使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
+
+サードパーティアプリケーションは、API を介して Workfront と通信できます。X.509 証明書を Workfront にアップロードすることで、Workfront サイトのセキュリティを強化するために API ログインリクエストを制限するよう Workfront を設定できます。有効にしたら、API を介したすべてのログインリクエストには、ユーザー名とパスワードに加えて、クライアント証明書が含まれている必要があります。
 
 * [X.509 証明書の取得](#obtain-the-x-509-certificate)
 * [Workfront への証明書のアップロード](#upload-the-certificate-to-workfront)
@@ -182,7 +181,7 @@ Workfront システムに関する特定のセキュリティ違反を懸念す�
 
 ### X.509 証明書の取得 {#obtain-the-x-509-certificate}
 
-有効な X.509 証明書を信頼できる証明機関（Verisign など）から取得し、ワークステーションの一時的な場所に配置します。
+信頼された証明機関（Verisign など）から有効な X.509 証明書を取得し、ワークステーションの一時的な場所に保存します。
 
 ### Workfront への証明書のアップロード {#upload-the-certificate-to-workfront}
 
@@ -192,7 +191,8 @@ Workfront システムに関する特定のセキュリティ違反を懸念す�
 
 1. **システム**&#x200B;を展開して、「**顧客情報**」をクリックします。
 
-1. **API キー設定**&#x200B;エリアで、「**X.509証明書を有効にする**」を選択します。
+1. **API キー設定** 領域で、「**API ログインに X.509 証明書を要求**」を選択します。
+1. **証明書を変更** をクリックします。
 1. ワークステーションで、以前にダウンロードした X.509 証明書を参照して選択します。
 1. （オプション）証明書名の横にある「**詳細を表示**」をクリックすると、証明書に関する次の詳細が表示されます。
 
