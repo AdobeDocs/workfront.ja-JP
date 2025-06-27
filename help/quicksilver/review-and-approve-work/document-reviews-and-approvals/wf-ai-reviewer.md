@@ -55,8 +55,8 @@ Workfront AI レビュー担当者は、コンテンツのレビュー時に、G
 
 ブランドガイドラインについて詳しくは、
 
-* [GenStudio for Performance Marketingブランド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [ ガイドラインの追加 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketingブランド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [ ガイドラインの追加 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## AI レビュー担当者の作成
