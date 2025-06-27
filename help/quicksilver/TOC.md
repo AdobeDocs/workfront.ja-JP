@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 2c1102e3496d4d8bc7bc07e7c41d1d2455c8637e
+source-git-commit: a6d0cf24d560a64f4e1f0bae7f8655ebc2d44a9b
 workflow-type: tm+mt
-source-wordcount: '13201'
+source-wordcount: '13211'
 ht-degree: 86%
 
 ---
@@ -1501,9 +1501,12 @@ ht-degree: 86%
          * [キャンバスダッシュボードの基本を学ぶ](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
          * [キャンバスダッシュボードでのレポートの追加、削除、配置](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
          * [キャンバスダッシュボードの共有](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-      * キャンバスダッシュボードのレポートタイプ {#report-types}
-         * [キャンバスダッシュボードのレポートタイプの概要](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
-         * [キャンバスダッシュボードへの既存のレポートの追加](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+      * レポートを追加 {#add-reports}
+         * [キャンバスダッシュボードのレポートタイプの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
+         * [KPI レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+         * [グラフレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+         * [テーブルレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
+         * [キャンバスダッシュボードへの既存のレポートの追加](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
    * レポート {#reports}
       * [レポート](reports-and-dashboards/reports/reports-overview.md)
       * レポートの基本 {#report-basics}
