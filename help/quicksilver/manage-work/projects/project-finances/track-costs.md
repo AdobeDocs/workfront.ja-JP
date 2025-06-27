@@ -154,7 +154,7 @@ Workfront では、プロジェクト内の個々のタスクごとに予定コ�
 >[!NOTE]
 >
 >プロジェクトの実際の費用コストは、次のように計算されます。
->>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
+>&#x200B;>`SUM (All Project Actual Expense Costs) + SUM (All Tasks Actual Expense Costs) + Project Fixed Cost`
 >
 >これらのコストは、実際のコストの計算では重複しません。例えば、固定コストがプロジェクトの実際の費用コストの一部である場合、実際のコストに別途追加されることはありません。
 
