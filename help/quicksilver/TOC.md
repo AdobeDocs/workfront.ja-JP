@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: a6d0cf24d560a64f4e1f0bae7f8655ebc2d44a9b
+source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
 workflow-type: tm+mt
-source-wordcount: '13211'
+source-wordcount: '13224'
 ht-degree: 86%
 
 ---
@@ -1095,7 +1095,6 @@ ht-degree: 86%
       * [ドキュメントエリア](documents/managing-documents/documents-area.md)
       * [ドキュメントの詳細の概要](documents/managing-documents/document-details-overview.md)
       * [ドキュメントの概要](documents/managing-documents/summary-for-documents.md)
-      * [Workfront AI レビュアー](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * [ドキュメントのプレビュー](documents/managing-documents/preview-documents.md)
       * [ドキュメントの承認とプルーフ](documents/managing-documents/document-approvals-and-proofing.md)
       * [ドキュメントに更新を追加](documents/managing-documents/add-update-documents.md)
@@ -1792,8 +1791,10 @@ ht-degree: 86%
       * [アセットおよびドキュメントのレビューと承認に使用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [統合承認の概要](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+      * [Workfront AI レビュアーの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
       * アセットとドキュメントの承認の設定と管理 {#manage-asset-review-and-approval}
          * [アセットおよびドキュメント承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+         * [AI レビュー担当者の作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [アセットまたはドキュメントへのレビュー担当者または承認者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
          * [アセットまたはドキュメントからの承認者またはレビュー担当者の削除](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
@@ -1803,6 +1804,7 @@ ht-degree: 86%
          * [レビューおよび承認用のレポートダッシュボードの作成](review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md)
       * アセットとドキュメントのレビューと承認 {#review-and-approve-documents}
          * [ドキュメントの確認と承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+         * [AI レビュー担当者のスコアとフィードバックを表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [ドキュメントのレビュー](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [ドキュメントを承認](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
    * プルーフ {#proofing}
