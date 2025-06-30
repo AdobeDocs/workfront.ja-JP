@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 3f8d0430ce5685aeec4b5881ab3436201273e4a2
+source-git-commit: 9808596e561ef30cc0edf5006f5ac2f190ed64f5
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 6%
+source-wordcount: '277'
+ht-degree: 5%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 6%
 
 2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
 
-<!--## All Approvals widget renamed to Document approval metrics
+## すべての承認ウィジェットの名前をドキュメント承認指標に変更
 
-We've renamed the All Approvals widget to Document Approval Metrics to more accurately reflect the information it displays. The Document Approval Metrics widget provides high-level insights into document approvals for the projects you own.
+表示される情報をより正確に反映するために、すべての承認ウィジェットの名前をドキュメント承認指標に変更しました。 ドキュメント承認指標ウィジェットは、所有するプロジェクトのドキュメント承認に関する高レベルのインサイトを提供します。
 
-This widget does not contain any information about proof approvals. -->
+このウィジェットには、プルーフの承認に関する情報は含まれていません。
 
 ## マイアップデート エリアの「メンション」セクションのコメント体験を更新しました
 

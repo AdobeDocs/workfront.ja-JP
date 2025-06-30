@@ -6,9 +6,9 @@ description: 既に承認待ちのドキュメントに、追加の承認者ま�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '569'
 ht-degree: 38%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 38%
 * ドキュメント承認参加者は、「プルーフワークフロー」タブではなく、ドキュメントの概要に表示されます。
 * 統合承認は、現在のレポートツールではサポートされていません。
 
-  新しいキャンバスダッシュボードベータ版に参加して [ レビューと承認用のレポートダッシュボードを作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) するか、新しいホームおよびキャンバスダッシュボードで使用できるすべての承認ウィジェットを使用して、統合承認に関する次の詳細を提供できます。
+  新しいキャンバスダッシュボードベータ版を結合して [ レビューと承認用のレポートダッシュボードを作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) したり、新しいホームおよびキャンバスダッシュボードで使用できるドキュメント承認指標ウィジェットを使用して、統合承認に関する次の詳細を提供したりできます。
 
    * 決定による承認
    * 平均承認時間
