@@ -30,7 +30,7 @@ ht-degree: 72%
 >
 >* **Workfront管理者は、Adobe Admin Consoleで設定されている必要があります。** 詳細と手順については、この記事の [Adobe Admin Consoleを使用したWorkfrontでのシステム管理者の作成 ](#create-system-administrators-in-workfront-with-the-adobe-admin-console) を参照してください。
 >* **組織がシングルサインオン（SSO）を使用している場合**、Adobe Admin Consoleでユーザーを作成してWorkfrontに割り当てることをお勧めします。 これらのユーザーをWorkfrontで作成することは可能ですが、組織のAdmin Consoleの設定によっては、情報をAdobe Admin Consoleに転送する際に問題が生じる場合があります。
->  >   Adobe Admin Consoleでユーザーを作成したら、Workfrontでユーザーの情報（ロール、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
+>  &#x200B;>   Adobe Admin Consoleでユーザーを作成したら、Workfrontでユーザーの情報（ロール、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
 >* **組織がシングルサインオン（SSO）を使用していない場合**、システム管理者以外のユーザーをWorkfrontに直接追加できます。 Adobe Admin Console でユーザーを追加することもできますが、Workfront にユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
 Admin Consoleからユーザーのプロファイルに変更を加えると、Workfrontでそのユーザーの「システムアクティビティ」タブに更新が追加されます。 更新は、「システム」によって行われたように表示されます。 これはAdobe Admin Console管理者を指すものであり、Workfrontのメイン管理者を指すものではありません。
