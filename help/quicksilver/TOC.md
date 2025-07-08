@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 8d37762a2f6b01ff25845639c6436b2a39aa5449
+source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
 workflow-type: tm+mt
-source-wordcount: '13224'
+source-wordcount: '13227'
 ht-degree: 86%
 
 ---
@@ -2457,7 +2457,7 @@ ht-degree: 86%
       * [デフォルトの API バージョン管理を使用する統合の更新](wf-api/api/update-default-api-versioning.md)
       * [イベント登録メッセージのフィルタリング](wf-api/api/filter-event-sub-messages.md)
       * [イベントサブスクリプションリソースフィールド](wf-api/api/event-sub-resource-fields.md)
-      * [イベント登録証明書](wf-api/api/event-sub-certs.md)
+      * [イベント登録用のクライアント TLS の設定](wf-api/api/event-sub-certs.md)
       * [統合での API バージョンを指定](wf-api/api/specify-api-version-integrations.md)
       * [コア API の変更：ステータス検索応答](wf-api/api/api-changes-search.md)
       * [API のバージョン管理とサポートのスケジュール](wf-api/api/api-version-support-schedule.md)
