@@ -12,7 +12,7 @@ exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
 source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
 workflow-type: tm+mt
 source-wordcount: '594'
-ht-degree: 3%
+ht-degree: 5%
 
 ---
 
@@ -40,7 +40,7 @@ Workfrontで AI レビュー担当者を設定するには、システム管理�
 >[!CONTEXTUALHELP]
 >id="wf_document_approvals_ai_supported_files"
 >title="サポートされていないファイルタイプ"
->abstract="この AI レビュアーは、選択されたファイルの種類をサポートしていません。サポートされているファイルタイプをアップロードするか、AI レビュアーを削除してリクエストを送信します。"
+>abstract="この AI レビュアーは、選択されたファイルタイプをサポートしていません。サポートされているファイルタイプをアップロードするか、AI レビュアーを削除してリクエストを送信します。"
 
 AI レビュー担当者は、次のファイルタイプをレビューできます。
 
@@ -55,8 +55,8 @@ Workfront AI レビュー担当者は、コンテンツのレビュー時に、G
 
 ブランドガイドラインについて詳しくは、
 
-* [GenStudio for Performance Marketingブランド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [ ガイドラインの追加 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+* [GenStudio for Performance Marketingブランド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
+* [ ガイドラインの追加 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
 
 
 ## AI レビュー担当者の作成
