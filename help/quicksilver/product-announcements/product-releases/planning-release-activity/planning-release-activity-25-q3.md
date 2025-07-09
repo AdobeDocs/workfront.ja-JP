@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 6f79c2973324d7de34736810dafcbd08714b4738
+source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
 workflow-type: tm+mt
-source-wordcount: '1982'
+source-wordcount: '1908'
 ht-degree: 4%
 
 ---
@@ -36,21 +36,21 @@ Prior to this enhancement, you had to manually update the fields associated with
 
 For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
 
-## ビューとレコードタイプの一般的な共有ボタン
+<!--## Common sharing button for views and record types
 
 >[!NOTE]
 >
->* プレビュー：2025 年 7 月 9 日（PT）
->* すべてのユーザー向けの実稼動：2025 年 7 月 17 日（PT）
+>* Preview: July 9, 2025 
+>* Production for everyone: July 17, 2025 
 
-レコードタイプのページの同じボタンから、ビューとレコードタイプを共有できるようになりました。 この機能強化が行われるまで、共有できるのはレコードタイプページの「共有」ボタンと、ビューの「」タブのビューのみでした。
+You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
 
-詳しくは、次の記事を参照してください。
+For more information, see the following articles: 
 
-* [ ビューを共有 ](/help/quicksilver/planning/access/share-views.md)
+* [Share views](/help/quicksilver/planning/access/share-views.md)  
 
-* [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
-
+* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
+-->
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +78,7 @@ Workfront Planning でリクエストフォームを共有する際のエクス�
 * リクエストフォームを共有するユーザーの管理オプションと投稿オプションが削除されました。 現在は、追加されたユーザーはフォームのみを送信できます。
 * 「公開共有」タブには、「公開リンクを作成」オプションが有効になった後にのみ、「リンク」と「有効期限」フィールドが表示されるようになりました。
 
-詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form) を参照してください。
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form) を参照してください。
 
 ## テーブル表示ですべてのグループ化を展開または折りたたむ
 
@@ -296,7 +296,7 @@ CSV または Excel ファイルを使用してレコードタイプにレコー
 >[!NOTE]
 >
 >この変更は、システム管理者と Standard ライセンスを持つすべての新規ユーザーと既存ユーザーに対して表示されます。
->&#x200B;>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
+>>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
 
 詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
