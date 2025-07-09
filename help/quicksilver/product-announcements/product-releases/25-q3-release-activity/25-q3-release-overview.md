@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
+source-git-commit: 7ef39340d19f2eadf3c2c8f66c9981c28308795a
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 19%
+source-wordcount: '1791'
+ht-degree: 17%
 
 ---
 
@@ -171,6 +171,22 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> リクエスト時のエクスペリエンスの更新 </a>
+            <p>新しいリクエスト機能には、次の機能強化が含まれています。
+              <ul>
+                <li>使用可能なリクエストフォームとパスが、カードではなくリストに表示されます。 最新のは、上部付近のセクションに表示されます。</li>
+                <li>WorkfrontやWorkfront計画のリクエストフォームを含むすべてのリクエストフォームが、リストに表示されます。 以前は、最初の 50 だけが現れました。</li>
+                <li>リクエストパスとリクエストフォームは、「最近」の領域と、下のより大きなリストの両方で、別々のセクションに表示されます。</li>
+                <li>リクエストキューを検索すると、リストには、検索語句を含んだフォームとパスのみが表示されます。 表示された各リクエストフォームまたはパスで検索語句がハイライト表示されます。</li>
+              </ul>
+            </p>
+        </td>
+        <td>2025年7月9日（PT）</td>
+        <td>未定</td>
+        <td>未定</td>
+    </tr> 
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}"> 既存の実績時間フィールドが、従来の実績時間と新しく作成された実績時間フィールドに置き換えられる </a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>既存の「実際の時間」フィールドの名前が、従来の「実際の時間」に変更されました。 このフィールドには、プロジェクト、タスク、問題に記録された時間が分単位で保存されます。 このフィールドは、Workfront データベースに <code>actualWorkRequired</code> として保存されます。 </p>
             <p>プロジェクト、タスクおよび問題に記録された時間を時間単位で、小数点以下の精度で保存する新しい「実際の時間」フィールドを追加しました。 このフィールドは、Workfront データベースに <code>actualWorkRequiredDouble</code> として保存されます。</p>
@@ -316,7 +332,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
