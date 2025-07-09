@@ -6,10 +6,10 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
 workflow-type: tm+mt
-source-wordcount: '2680'
-ht-degree: 82%
+source-wordcount: '2863'
+ht-degree: 77%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 82%
 </div>
 -->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 予定作業は、Adobe Workfront ではプロジェクトとタスクで表されます。ただし、予定外の作業が要求という形で突然舞い込んでくる環境で働いているかもしれません。Workfront には、リクエストキューを使用してこのタイプの環境に対応するワークフローが用意されています。
 
@@ -142,7 +142,7 @@ Workfront web アプリでリクエストを作成するには：
 
    **新しいリクエスト** ボックスが開きます。
 
-1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替えた場合、「**新規リクエスト**」ボックスに次が表示されます。</span>
+1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替え、実稼動環境にある場合、「**新規リクエスト** ボックスには次の内容が表示されます。</span>
 
    * 最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。
    * 50 個の追加のWorkfront リクエストキューおよび Planning のリクエストフォームが、「すべてのリクエストフォーム **セクションにアルファベット順に表示され** す。 デフォルトで表示されないリクエストキューを検索できます。
@@ -150,6 +150,13 @@ Workfront web アプリでリクエストを作成するには：
    ![ 計画リクエスト用の統合ワークフローを備えた新しいリクエストボックス ](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    Workfront リクエストキューカードの 1 つをクリックするか、1 つを検索して、リストに表示されたらクリックします。
+1. <span class="preview"> （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替え、プレビュー環境にある場合、**新規リクエスト** ボックスには次の情報が表示されます。</span>
+
+   <ul><span class="preview"><li>最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。 </li></span>
+    <span class="preview"><li>その他のすべてのWorkfrontおよび計画リクエストフォーム <b> すべてのリクエストフォーム </b> セクション デフォルトで表示されないリクエストフォームを検索できます。 </li></span>
+    <span class="preview"><li>その他のすべてのWorkfrontおよび Planning リクエスト・キューのパスは、「すべてのリクエスト・パス <b> セクションに表示さ </b> ます。 デフォルトで表示されないリクエストキューを検索できます。</li></span></ul>
+    <span class="preview">Workfront リクエストキューのパスまたはフォームの 1 つをクリックするか、1 つを検索して、リストに表示されたらクリックします。</span>
+
 1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替えた場合は、トピックグループとキューのトピックを選択して、フォームの更新を続行します。
 
    それ以外の場合は、「**リクエストタイプ**」フィールド内をクリックし、次のいずれかの操作を行います。
@@ -221,7 +228,7 @@ Workfront web アプリでリクエストを作成するには：
    >トピックグループまたはキュートピックの上にポインタを合わせると、右側に「説明」フィールドが表示されます。トピックグループまたはキューのトピックに関する追加情報が含まれます。
    >
    >
-   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   >
+   >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)
    >
 
    リクエストキューには、最大 10 個のトピックグループを組み込むことができます。\
@@ -323,7 +330,7 @@ Workfront web アプリでリクエストを作成するには：
 
 1. 次のいずれかの操作を行います。
 
-   * リクエストを送信する準備ができたら、「**送信**」をクリックします。リクエストは「送信済み」セクションに保存されます。リクエストキューのルーティングルールに応じて、このリクエストはリクエストキューとして指定されたリクエストとは異なるプロジェクトにルーティングされる場合があります。ルーティングルールについて詳しくは、[ルーティングルールの作成](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)を参照してください。
+   * リクエストを送信する準備ができたら、「**送信**」をクリックします。リクエストは「送信済み」セクションに保存されます。 リクエストキューのルーティングルールに応じて、このリクエストはリクエストキューとして指定されたリクエストとは異なるプロジェクトにルーティングされる場合があります。ルーティングルールについて詳しくは、[ルーティングルールの作成](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)を参照してください。
 
      または
 
