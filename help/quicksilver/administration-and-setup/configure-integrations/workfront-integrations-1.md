@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 273db4b8e9b59930dc640a342dbeb276c22ccda3
+source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
 workflow-type: tm+mt
-source-wordcount: '1407'
-ht-degree: 81%
+source-wordcount: '1292'
+ht-degree: 80%
 
 ---
 
@@ -113,7 +113,7 @@ ht-degree: 81%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
-     <p>詳しい情報と手順については、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud] アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> 
+     <p>詳しい情報と手順については、<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud] アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -195,16 +195,16 @@ ht-degree: 81%
      <li>[!DNL Jira] 管理者以外は、[!DNL Jira] 管理者にアクセス権を要求し、付与してもらう必要があります。</li> 
     </ul> </td> 
   </tr> 
-  <tr> 
-   <td>[!DNL Microsoft] カレンダー（[!DNL Office 365] / [!DNL Outlook Live]）</td> 
+  <!--<tr> 
+   <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
    <td> 
     <ul> 
-     <li> <p>クラウドでホストされている [!DNL Office 365] または [!DNL Outlook Live.] の web ベースバージョンの [!DNL Outlook] と統合 </p> </li> 
-     <li> <p>[!DNL Outlook] カレンダーおよび選択した関連カレンダー（誕生日や祝日のカレンダーなど）からのすべてのイベントを [!UICONTROL Home Calendar] に表示します。</p> </li> 
-    </ul> <p><b>メモ</b>：[!UICONTROL Outlook] のカレンダー設定は、[!DNL Outlook] アドイン（[!DNL Outlook] 統合または [!DNL Workfront for Outlook]）から完全に分離しています。カレンダーの設定に必要なインストールはありません。</p></td> 
-   <td> </td> 
-   <td> </td> 
-  </tr> 
+     <li> <p>Integrate with a web-based version of [!DNL Outlook] in cloud-hosted [!DNL Office 365] or [!DNL Outlook Live.] </p> </li> 
+     <li> <p>Display all events from your [!DNL Outlook] calendar and any associated calendars you select, such as Birthdays and Holidays calendars, in your [!UICONTROL Home Calendar].</p> </li> 
+    </ul> <p><b>NOTE</b>: The [!UICONTROL Outlook] calendar configuration is completely separate from the [!DNL Outlook] Add-in ([!DNL Outlook] Integration or [!DNL Workfront for Outlook]). There's no installation required to configure the calendar.</p></td> 
+   <td>&nbsp;</td> 
+   <td>&nbsp;</td> 
+  </tr> -->
   <tr> 
    <td> <p>[!DNL Microsoft OneDrive]</p> <p> <img src="assets/microsoft-onedrive.png"> </p> </td> 
    <td> 
@@ -214,26 +214,26 @@ ht-degree: 81%
    <td> </td> 
    <td> </td> 
   </tr> 
-  <tr> 
+  <!--<tr> 
    <td> <p>[!DNL Microsoft Outlook]</p> <p> <img src="assets/outlook.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>メールからの情報で既存のプロジェクト／タスク／イシューを更新 </li> 
-     <li>メールをインボックスから Workfront 項目に変換 </li> 
-     <li>メールから新しいタスクを作成 </li> 
-     <li>[!DNL Workfront] 項目に対するコメント </li> 
-    </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a> を参照してください。</p> </td> 
+     <li>Update an existing project/task/issue with info from an email </li> 
+     <li>Convert emails into Workfront items right from your inbox </li> 
+     <li>Create new tasks from an email </li> 
+     <li>Comment on [!DNL Workfront] items </li> 
+    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md" class="MCXref xref">[!DNL Adobe Workfront for Outlook]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Outlook] [!DNL Windows] および [!DNL Outlook] に 2013年または 2016年、2016年 [!DNL Mac] </li> 
-     <li>[!DNL Outlook] Web 上では、[!DNL Exchange] 2016 および [!DNL Office] 365 である必要があります </li> 
-     <li>[!DNL Outlook Web Access] [!DNL Exchange] 2013 である必要があります </li> 
-     <li>[!DNL Exchange] サーバーへの直接接続、または [!DNL Office 365]</li> 
+     <li>[!DNL Outlook] 2013 or 2016 for [!DNL Windows] and [!DNL Outlook] 2016 for [!DNL Mac] </li> 
+     <li>[!DNL Outlook] on the web must be for [!DNL Exchange] 2016 and [!DNL Office] 365 </li> 
+     <li>[!DNL Outlook Web Access] must be for [!DNL Exchange] 2013 </li> 
+     <li>Direct connection to an [!DNL Exchange] Server or [!DNL Office 365]</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Workfront] 管理者 </li> 
-    </ul> </td> 
+     <li>[!DNL Workfront] administrator </li> 
+    </ul> </td>--> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Microsoft Teams]</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
@@ -320,7 +320,7 @@ ht-degree: 81%
 
   [!DNL Adobe Workfront Fusion] は、アプリ内やサービス内およびそれらの間でアクションをリンクして、データを自動的に転送および変換するシナリオを作成します。多くのアプリへの専用コネクタを備えていますが、公開 API を使用して任意のアプリケーションに接続できます。
 
-  詳しくは、[[!DNL Adobe Workfront Fusion] 概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+  詳しくは、[[!DNL Adobe Workfront Fusion] 概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]（[!DNL Workfront Fusion] が必要）
