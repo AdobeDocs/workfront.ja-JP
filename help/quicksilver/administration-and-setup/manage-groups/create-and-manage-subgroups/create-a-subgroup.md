@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: b59b1491-9a78-49c0-89c9-ab1ce0099e0b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 96%
+source-wordcount: '659'
+ht-degree: 60%
 
 ---
 
@@ -66,54 +66,35 @@ ht-degree: 96%
 
 1. 新しいサブグループを追加する既存のグループまたはサブグループを選択します。
 1. 「**新規サブグループ**」をクリックします。
-1. 表示される&#x200B;**新規サブグループ**&#x200B;ボックスに、サブグループの「**グループ名**」を入力します。
-1. （オプション）次のいずれかの情報を指定します。
+1. 表示された **新規サブグループ** ボックスに、サブグループの **グループ名** を入力します。
+1. （オプション）次の情報を入力します。
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">グループ名</td> 
-      <td>グループの名前を変更します。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">説明</td> 
-      <td>サブグループの説明を入力します。512 文字まで入力できます。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">アクティブ</td> 
-      <td> <p>（デフォルトで有効）Workfront インスタンスでグループをアクティブ化します。</p> <p>下図のような先行入力フィールドでは、オブジェクトの関連付けやオブジェクトの共有のために、標準ユーザーがグループを検索しようとすると、アクティブなグループのみがリストに表示されます。</p> <p> <img src="assets/group-type-aheads.jpg"> </p> <p>これをユーザーが効率的に利用できるようにするには、現在使用していないグループの「アクティブ」オプションを無効にします。</p> <p>このフィールドを使用すると、ステータスがアクティブか非アクティブかに基づいて、グループリストを簡単に表示、フィルタリング、グループ化できます。リストでのビュー、フィルターおよびグループ化の使用については、<a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref" data-mc-variable-override="">レポート要素：フィルター、ビューおよびグループ化</a>を参照してください。</p>  </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">このグループとそのサブグループを公開</td> 
-      <td> <p>（サブグループではなく、トップレベルグループの詳細を表示している場合にのみ使用可能です）。このオプションを有効にすると、編集ユーザーアクセス権を持つサブグループ内のユーザー（グループ管理者ではないユーザー）が、このグループとそのサブグループを他のユーザーのユーザープロファイルに追加できるようになります。</p> <p>パブリックグループの場合、編集ユーザー権限のあるユーザー（グループの内外を問わない）は、他のユーザーのプロファイルにグループを追加できます。これは、プライベートグループに対しては実行できません。</p> <p>このオプションは、複数のレベルを持つグループの最上位階層の親グループでのみ編集できます。すべてのサブグループは親グループの設定を継承します。</p> <p><b>メモ</b>:  
-        <ul> 
-         <li>サブグループを単独での公開はできませんが、トップレベルの親グループを公開することは可能で、これにより親のサブグループもすべて公開できます。</li> 
-         <li>パブリックグループに属するサブグループは、デフォルトで公開になっているので、編集ユーザーアクセス権を持つユーザーは、そのサブグループを他のユーザーにも追加できます。</li> 
-        </ul> </p> <p>ユーザーの編集に必要なアクセスに関する情報が必要な場合は、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref" data-mc-variable-override="">ユーザーへのアクセス権の付与</a>を参照してください。ユーザーの編集について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref" data-mc-variable-override="">ユーザーのプロファイルの編集</a>を参照してください。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">ビジネスリーダー </td> 
-      <td> <p>管理するサブグループに対して、1 人のユーザーをビジネスリーダーに割り当てることができます。ビジネスリーダーとは、サブグループのビジネス上の決定を行う人のことです。詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">ビジネスリーダーの概要</a><span>を参照してください。</span></p> <p>ユーザーがまだサブグループのメンバーでない場合は、このフィールドに名前を追加すると、そのユーザーもサブグループに追加されます。</p> <p><b>メモ</b>：  
-        <ul> 
-         <li>サブグループからビジネスリーダーを削除する前に、「ビジネスリーダー」フィールドから名前を削除する必要があります。</li> 
-         <li>ビジネスリーダーフィールドから名前を削除した場合、そのユーザーはサブグループから削除されない限り、サブグループのメンバーのままでいます。グループからユーザーを削除する手順については、<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md" class="MCXref xref" data-mc-variable-override="">グループの管理</a>の記事にある<a href="../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md#manage" class="MCXref xref" data-mc-variable-override="">グループのメンバーシップの管理</a>の節を参照してください。</li> 
-        </ul> </p> <p>詳しくは、<a href="../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref" data-mc-variable-override="">ビジネスリーダーの概要</a>を参照してください。</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">グループのメンバーおよびグループ管理者</td> 
-      <td> 
-       <ul> 
-        <li> <p>グループメンバー：サブグループにユーザーとグループを追加するには、追加する既存のユーザーまたはグループの名前を入力し、表示されたら名前を選択します。</p> <p>追加したユーザーとグループは、そのグループと共有されるすべてのオブジェクトにアクセスできます。</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.subgroups">グループ管理者：サブグループは、その上のグループのグループ管理者を継承します。オプションとして、サブグループのグループ管理者としてユーザーを指定できます。ユーザー名の右にあるドロップダウンメニューを使用して、グループメンバーをグループの管理者として割り当てることができます。</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">リスト内でユーザーとグループを検索する</td> 
-      <td> 既にこのサブグループに割り当てられているユーザーまたはグループを検索する必要がある場合は、ここに名前を入力し、表示されたときに選択できます。</td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **説明**: サブグループの説明を入力します。 512 文字まで入力できます。
+   * **アクティブ**：このオプションはデフォルトで有効になっており、Workfront インスタンス内でこのグループをアクティブにします。
+
+     次に示すような typeahead フィールドでは、通常のユーザーがグループを検索してオブジェクトに添付したり、オブジェクトを共有したりすると、アクティブなグループのみがリストに表示されます。
+
+     ![ グループの先行入力フィールド ](assets/typeahead-for-group.png)
+
+     ユーザーの作業を効率化するには、現在使用されていないグループの「**アクティブ**」オプションを無効にします。
+
+     このフィールドを使用すると、ステータスがアクティブか非アクティブかに基づいて、グループリストを簡単に表示、フィルタリング、グループ化できます。リストでのビュー、フィルターおよびグループ化の使用については、[レポート要素：フィルター、ビューおよびグループ化](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)を参照してください。
+
+   * **ビジネスリーダー**：管理するサブグループのビジネスリーダーとして 1 人のユーザーを割り当てることができます。 ビジネスリーダーとは、サブグループのビジネス上の決定を行う人のことです。詳しくは、[ビジネスリーダーの概要](/help/quicksilver/administration-and-setup/manage-groups/group-roles/business-leader-overview.md)を参照してください。
+
+     ユーザーがまだサブグループのメンバーでない場合は、このフィールドに名前を追加すると、そのユーザーもサブグループに追加されます。
+
+     >[!NOTE]
+     >
+     >* サブグループからビジネスリーダーを削除する前に、「ビジネスリーダー」フィールドから名前を削除する必要があります。
+     >* ビジネスリーダーフィールドから名前を削除した場合、そのユーザーはサブグループから削除されない限り、サブグループのメンバーのままでいます。グループからユーザーを削除する手順については、[ グループのメンバーシップの表示と管理 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) を参照してください。
+
+   * **グループメンバーとグループ管理者**：ユーザーとグループをサブグループのメンバーとして追加するには、追加する既存のユーザーまたはグループの名前の入力を開始し、表示されたら名前を選択します。
+
+     追加したユーザーとグループは、そのグループと共有されるすべてのオブジェクトにアクセスできます。
+
+     サブグループは、その上のグループのグループ管理者を継承するので、サブグループのグループ管理者としてのユーザーの指定はオプションです。 ユーザー名の右にあるドロップダウンメニューを使用して、グループメンバーをグループの管理者として割り当てることができます。
+
+   * **リスト内のユーザーとグループを検索**：このサブグループに既に割り当てられているユーザーまたはグループを見つける必要がある場合は、ここに名前を入力し、表示されたら選択します。
 
 1. 「**保存**」をクリックします。
