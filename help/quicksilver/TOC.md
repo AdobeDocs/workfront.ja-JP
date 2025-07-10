@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: cd5dcbd0f39754fb9ab1605c1eb65af37aa21996
+source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
 workflow-type: tm+mt
-source-wordcount: '13227'
+source-wordcount: '13231'
 ht-degree: 86%
 
 ---
@@ -903,6 +903,7 @@ ht-degree: 86%
       * [サンドボックスプレビュー環境からのメール配信を有効にする](workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)
       * [イベント通知](workfront-basics/using-notifications/event-notifications.md)
       * [オブジェクトへのリマインダ通知の添付](workfront-basics/using-notifications/attach-reminder-notification-object.md)
+      * [イベント通知：記事インデックス](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
       * [通知：アクションが必要](workfront-basics/using-notifications/notifications-action-needed.md)
       * [通知：承認情報](workfront-basics/using-notifications/notifications-approval-information.md)
       * [通知：コミュニケーション](workfront-basics/using-notifications/notifications-communication.md)

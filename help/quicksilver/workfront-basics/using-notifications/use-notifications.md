@@ -1,16 +1,16 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 「通知を使用：記事インデックス」
+title: 通知の使用：記事インデックス
 description: Adobe Workfront で通知を使用する方法については、以下の記事を参照してください。
 author: Nolan
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c609c51d-df67-49bb-8fe3-8962a5270cc9
-source-git-commit: 90c4f33f988b2a303aa6ab11a797c90321c148af
+source-git-commit: 2768cb277a45493dc8eb9ffeca2c05b14d772382
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '117'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-basics/using-notifications/opt-out-of-email-notifications.md" class="MCXref xref" xrefformat="{para}">Opt out of email notifications</a> </li>
   -->
-
+* [イベント通知：記事インデックス](/help/quicksilver/workfront-basics/using-notifications/event-notifications-article-index.md)
 * [通知：アクションが必要](../../workfront-basics/using-notifications/notifications-action-needed.md)
 * [通知：承認情報](../../workfront-basics/using-notifications/notifications-approval-information.md)
 * [通知：コミュニケーション](../../workfront-basics/using-notifications/notifications-communication.md)
