@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: 69677755d3e2f018169461683caf5750fba4fde0
+source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '306'
 ht-degree: 5%
 
 ---
@@ -26,9 +26,11 @@ ht-degree: 5%
 >* 実稼動迅速リリース：2025 年 6 月 30 日（PT）
 >* すべてのお客様の実稼動環境：2025 年 6 月 30 日（PT）
 
-表示される情報をより正確に反映するために、すべての承認ウィジェットの名前をドキュメント承認指標に変更しました。 ドキュメント承認指標ウィジェットは、所有するプロジェクトのドキュメント承認に関する高レベルのインサイトを提供します。
+表示される情報をより正確に反映するために、すべての承認ウィジェットの名前をドキュメント承認指標に変更しました。 ドキュメント承認指標ウィジェットは、所有するプロジェクトのドキュメント承認に関する高レベルのインサイトを提供します。 このウィジェットを使用するには、[ 統合承認 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
 
 このウィジェットには、プルーフの承認に関する情報は含まれていません。
+
+詳しくは、[ ホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
 
 ## マイアップデート エリアの「メンション」セクションのコメント体験を更新しました
 

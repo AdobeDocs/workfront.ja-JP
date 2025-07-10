@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 7ef39340d19f2eadf3c2c8f66c9981c28308795a
+source-git-commit: 2eb858876a79acd9d6028f051fa8c8bc9bc5a34a
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1801'
 ht-degree: 17%
 
 ---
@@ -131,7 +131,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
        <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity//25-q3-home-enhancements.md" class="MCXref xref" xrefformat="{para}"> すべての承認ウィジェットの名前をドキュメント承認指標に変更 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>表示される情報をより正確に反映するために、すべての承認ウィジェットの名前をドキュメント承認指標に変更しました。 ドキュメント承認指標ウィジェットは、所有するプロジェクトのドキュメント承認に関する高レベルのインサイトを提供します。</p>
+            <p>表示される情報をより正確に反映するために、すべての承認ウィジェットの名前をドキュメント承認指標に変更しました。 ドキュメント承認指標ウィジェットは、所有するプロジェクトのドキュメント承認に関する高レベルのインサイトを提供します。 このウィジェットを使用するには、<a href="/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md"class="MCXref xref" xrefformat="{para}"> 統合承認 </a> を有効にする必要があります。</p>
         </td>
         <td>2025年6月30日（PT）</td>
         <td>2025年6月30日（PT）</td>
@@ -332,7 +332,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
