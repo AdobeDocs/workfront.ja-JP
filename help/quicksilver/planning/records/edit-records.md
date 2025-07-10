@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 5f9f4d4f100557238d9ff8d7f571108de4341c75
 workflow-type: tm+mt
-source-wordcount: '2255'
-ht-degree: 45%
+source-wordcount: '2305'
+ht-degree: 44%
 
 ---
 
@@ -139,6 +139,10 @@ ht-degree: 45%
 テーブルビューからレコードを編集すると、レコードの表示時に他のユーザーによって編集されているフィールドが示されます。
 
 詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
+
+<span class="preview"> グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontでは新しいレコードのグループ化に含まれるフィールドが自動的に更新されます。 必要に応じてこれらのフィールドを手動で編集でき、レコードがグループから削除される可能性があります。</span>
+
+詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
 {{step1-to-planning}}
 

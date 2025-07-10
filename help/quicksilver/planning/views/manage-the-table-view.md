@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '3720'
+source-wordcount: '3758'
 ht-degree: 49%
 
 ---
@@ -270,7 +270,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 1. テーブルビューを選択し、テーブルの右上隅にある&#x200B;**フィルター**&#x200B;をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
-   * &#x200B;<!-- the tip below might change--> でフィルターする **フィールドを選択**
+   * **でフィルターする** フィールドを選択 <!-- the tip below might change-->
 
    * **オプションを選択** （またはフィルター修飾子）して、フィールドが満たす必要がある条件の種類を定義します
 
@@ -573,13 +573,20 @@ To sort grouped records:
 テーブル表示またはレコードタイプから情報をエクスポートするには：
 
 1. レコードタイプのページに移動し、「テーブル表示」タブをクリックします。
-1. テーブル表示タブの名前にポインタを合わせ、**その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックします。
+1. 次のいずれかの操作を行います。
+
+   * テーブルビュータブの名前にカーソルを合わせ、ビュー名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**エクスポート** をクリックしてください。
 
    ![ ビューの詳細メニュー ](assets/view-more-menu-with-duplicate-option.png)
-1. 「**エクスポート**」をクリックして、次のいずれかの形式を選択します。
 
-   * Excel
-   * CSV
+   * **共有**/**現在のビューを書き出し** をクリックします。 このオプションは、テーブルビューを表示する場合にのみ使用できます。
+
+   ![ レコードタイプとビュー共有オプションを含む共有ボタン ](assets/share-button-with-record-type-and-view-sharing-options.png)
+
+1. 次のいずれかの形式を選択します。
+
+   * **Excel**
+   * **CSV**
 
    >[!IMPORTANT]
    >

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '1505'
+source-wordcount: '1515'
 ht-degree: 8%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 8%
 >[!IMPORTANT]
 >
 >ワークスペースへのアクセス権を持つユーザーには、ワークスペース内のすべてのレコードタイプに対する少なくとも表示権限が自動的に付与されます。
->&#x200B;>ビューを共有しても、ユーザーはレコードタイプに対する権限を持ちません。 共有ワークスペースのみが、レコードタイプに対する権限をユーザーに付与できます。
+>>ビューを共有しても、ユーザーはレコードタイプに対する権限を持ちません。 共有ワークスペースのみが、レコードタイプに対する権限をユーザーに付与できます。
 >
 >* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
 >* 詳しくは、この記事の [ レコードタイプを共有する場合の考慮事項 ](#considerations-when-sharing-record-types) の節を参照してください。
@@ -151,6 +151,7 @@ ht-degree: 8%
    レコードタイプページが開きます。
 
 1. 任意のビューのタブで、レコードタイプの右上隅にある「**共有**」をクリックします。
+1. <span class="preview"> 「**レコードタイプを共有**」をクリックします </span>。
 
    **共有** ボックスが開きます。
 
@@ -206,6 +207,7 @@ ht-degree: 8%
 1. 共有を停止するレコードの種類があるワークスペースを開き、レコードの種類のカードをクリックします。 レコードタイプページが開きます。
 
 1. 任意のビューのタブで、レコードタイプの右上隅にある「**共有**」をクリックします。
+1. <span class="preview"> 「**レコードタイプを共有**」をクリックします </span>。
 
    **共有** ボックスが開きます。
 1. 権限を削除するユーザー、グループ、チーム、会社、または担当業務を見つけ、名前の右側にある権限ドロップダウンメニューを展開して、「**削除**」をクリックします。<!--check the screen shot below - the UI text for View might not be accurate-->

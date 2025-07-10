@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 23a5c90b9321b72a20f21752f957b3be0a9f3a02
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '981'
-ht-degree: 45%
+source-wordcount: '933'
+ht-degree: 47%
 
 ---
 
@@ -19,13 +19,15 @@ ht-degree: 45%
 
 <!-- Audited: 6/2025 -->
 
+<!--
+
 <div class="preview">
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
-</div>
+</div> -->
 
 [!DNL Adobe Workfront] は、オブジェクトの[!UICONTROL 更新]エリアで自動システム更新を生成し、次のイベントを記録します。
 
@@ -91,18 +93,18 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->更新フィードでは、最大 300 個の組み込みフィールドとカスタムフィールドを追跡できます。最大数のフィールドを追跡していて、「[!UICONTROL &#x200B; すべてのフィールド &#x200B;]」サブタブに表示されていない追加フィールドを追跡する場合、新しいフィールドを追跡するには、最初に追跡対象のフィールドのいくつかを削除する必要があります。 更新フィールドからフィールドを削除する方法について詳しくは、[ 追跡しないフィールドの削除 ](#remove-fields-you-don-t-want-tracked) を参照してください。
+>更新フィードでは、最大 300 個の組み込みフィールドとカスタムフィールドを追跡できます。最大数のフィールドを追跡していて、「[!UICONTROL  すべてのフィールド ]」サブタブに表示されていない追加フィールドを追跡する場合、新しいフィールドを追跡するには、最初に追跡対象のフィールドのいくつかを削除する必要があります。 更新フィールドからフィールドを削除する方法について詳しくは、[ 追跡しないフィールドの削除 ](#remove-fields-you-don-t-want-tracked) を参照してください。
 
 {{step-1-to-setup}}
 
 1. 左側のパネルで「**[!UICONTROL インターフェイス]**」をクリックし、「**[!UICONTROL フィードを更新]** をクリックします。
-1. （オプション） <span class="preview">**追跡対象フィールド** タブ </span> で、更新フィードで追跡するフィールドのタイプに応じて、次のいずれかのサブタブをクリックします。
+1. （オプション）「**追跡対象フィールド**」タブで、更新フィードで追跡するフィールドのタイプに応じて、次のいずれかのサブタブをクリックします。
 
-   * <span class="preview">**組み込みフィールド**</span>：組み込みフィールドのリストを表示します。
-   * <span class="preview">**カスタムフィールド**</span>：カスタムフィールドのリストを表示します。 リストで使用する前にカスタムフィールドを作成する必要があります。
-   * <span class="preview">**すべてのフィールド**</span>：組み込みフィールドとカスタムフィールドの両方のリストを表示します。
+   * **組み込みフィールド**：組み込みフィールドのリストを表示します。
+   * **カスタムフィールド**：カスタムフィールドのリストを表示します。 リストで使用する前にカスタムフィールドを作成する必要があります。
+   * **すべてのフィールド**：組み込みフィールドとカスタムフィールドの両方のリストを表示します。
 
-1. <span class="preview">**[!UICONTROL &#x200B; フィールドを追加 &#x200B;]**&#x200B;をクリックして </span> 追跡するオブジェクトをドロップダウンから選択します。
+1. **[!UICONTROL フィールドを追加]** をクリックして、追跡するオブジェクトをドロップダウンから選択します。
 
    「更新」領域を持つすべてのオブジェクトで、フィールドの手動選択を使用できるわけではありません。
 
@@ -115,16 +117,16 @@ ht-degree: 45%
    * プログラム
    * ユーザー
 
-   選択した各オブジェクトに対して、<span class="preview">**フィールドを追加**</span> ボックスが開きます。
-1. 「<span class="preview">**フィールドを追加**」 </span> ックスで、オブジェクトの組み込み（標準）フィールドまたはカスタムフィールドの入力を開始し、リストに表示されたら選択します。
+   **フィールドを追加** ボックスが、選択したオブジェクトごとに開きます。
+1. 「**フィールドを追加**」ボックスに、オブジェクトの組み込み（標準）フィールドまたはカスタムフィールドの入力を開始し、リストに表示されたら選択します。
 
    >[!NOTE]
    >
    >既にフィールドをトラッキングしている [!DNL Workfront] 合は、リストから 2 回目は追加できません。
 
-1. 追跡するすべてのフィールドを追加 [!DNL Workfront] た後 <span class="preview">、「**[!UICONTROL 追加]**」をクリックします。
+1. 追跡するすべてのフィールド [!DNL Workfront] 追加したら、「**[!UICONTROL 追加]** をクリックします。
 追加した組み込みフィールドは「**[!UICONTROL 組み込みフィールド]** サブタブの下に表示され、カスタムフィールドは「**[!UICONTROL カスタムフィールド]** サブタブの下に表示されます。
-**[!UICONTROL すべてのフィールド]** サブタブには、トラックする組み込みフィールドとカスタムフィールドの両方 [!DNL Workfront] 表示されます。</span>
+**[!UICONTROL すべてのフィールド]** サブタブには、トラックする組み込みフィールドとカスタムフィールドの両方が表示 [!DNL Workfront] れます。
 
 ### 追跡しないフィールドを削除 {#remove-fields-you-don-t-want-tracked}
 
@@ -136,16 +138,7 @@ ht-degree: 45%
 
 1. **[!UICONTROL トラッキングフィールド]** タブで「**[!UICONTROL すべてのフィールド]** サブタブを選択します。 現在追跡中のビルトインフィールドとカスタムフィールドの両方が表示されます。
 
-1. トラッキングを停止するフィールドを選択し、「**[!UICONTROL 削除]**」をクリックします。
-
-
-<!--replace above at Preview release with this:
-
-1. On the <span class="preview">**[!UICONTROL Tracked fields]** tab</span>, select the **[!UICONTROL All fields]** subtab. Both the built-in and custom fields that are currently being tracked display.
-
-1. Select the field you want to stop tracking, then click the <span class="preview">**[!UICONTROL Remove]** icon ![Remove icon](assets/remove-icon.png).</span>
-
--->
+1. トラッキングを停止するフィールドを選択し、**[!UICONTROL 削除]** アイコン ![ 削除アイコン ](assets/remove-icon.png) をクリックします。
 
 1. 表示される「**[!UICONTROL フィールドを削除]**」ボックスで、「**[!UICONTROL はい、削除します]**」をクリックして確定します。
 
@@ -237,4 +230,4 @@ ht-degree: 45%
 1. アクションのチェックボックスを選択して有効にするか、選択解除して無効にします。
 1. **[!UICONTROL 保存]**&#x200B;をクリックします。
 
-   アクションを無効にすると、そのアクションに関して以前に記録された更新は、記録された [!UICONTROL &#x200B; 更新 &#x200B;] 領域に保持されます。 無効 [!DNL Workfront] したアクションの新しい更新の記録を停止します。
+   アクションを無効にすると、そのアクションに関して以前に記録された更新は、記録された [!UICONTROL  更新 ] 領域に保持されます。 無効 [!DNL Workfront] したアクションの新しい更新の記録を停止します。

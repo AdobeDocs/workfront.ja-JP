@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '2419'
-ht-degree: 22%
+source-wordcount: '2468'
+ht-degree: 21%
 
 ---
 
@@ -133,7 +133,11 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 1. （条件付き）テーブル表示から、次のいずれかの操作を行います。
 
-   * テーブルの最後の行にある「**新規レコード**」をクリックします
+   * テーブルの最後の行、またはグループ化の最後のレコードの後にある **新規レコード** をクリックします
+
+     >[!TIP]
+     >
+     ><span class="preview"> グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontによってグループに含まれるフィールドが自動的に設定されます。 必要に応じてこれらのフィールドを手動で編集でき、レコードがグループから削除される可能性があります。</span>
 
    * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。これにより、開始レコードの下に空の行が追加されます。
    * レコードの主フィールドにポインタを合わせ、フィールドの右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**上にレコードを挿入** または **下にレコードを挿入** をクリックします。
@@ -205,11 +209,11 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 1. （条件付き）ワークスペースと権限に応じて、任意の表示で、画面の右上隅にある次のいずれかをクリック <!--<span class="preview">and record type</span>--> ます。
 
-   * ワークスペースコン <!--<span class="preview">and record type</span>--> ールに対する投稿以上の権限がある場合は、「**新しいレコード**」をクリックします
+   * ワークスペースコン **ールに対する投稿以上の権限がある場合は、「** 新しいレコード <!--<span class="preview">and record type</span>-->」をクリックします
 
      または
 
-   * Workspace <!--<span class="preview">and record type</span>--> ージに対する表示権限がある場合は、「**レコードをリクエスト**」をクリックします。
+   * Workspace **ージに対する表示権限がある場合は、「** レコードをリクエスト <!--<span class="preview">and record type</span>-->」をクリックします。
 
 1. （条件付き） **新規レコード** をクリックした場合、次の操作を行います。
 

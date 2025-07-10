@@ -9,10 +9,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: f35da9077b0422ba939ed9f6285835897f28874c
+source-git-commit: 4fafdcea97874e791104260375617e3989af1870
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 27%
+source-wordcount: '843'
+ht-degree: 28%
 
 ---
 
@@ -23,13 +23,14 @@ ht-degree: 27%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<div class="preview">
+<!--<div class="preview">
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
 
 </div>
+-->
 
 時間タイプは、時間エントリの定義に使用するラベルです。 時間タイプを時間エントリに関連付けることができます。
 
@@ -45,7 +46,7 @@ ht-degree: 27%
    * タスク時間
    * イシュー時間
 
-  [ 時間タイプと空き時間の定義 ](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) で説明されているように、[!DNL Workfront] 管理者は、プロジェクト固有の時間タイプを使用可能にすることを決定します。
+  [!DNL Workfront] 時間タイプと空き時間の定義 [ で説明されているように、](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) 管理者は、プロジェクト固有の時間タイプを使用可能にすることを決定します。
 
   >[!NOTE]
   >
@@ -128,7 +129,7 @@ Workfront には、一連の組み込みの時間タイプが付属していま�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b> 重要 </b>: [!UICONTROL プロジェクト固有 &#x200B;] のカスタム時間タイプがある場合、それを [!UICONTROL 一般 &#x200B;] に変更すると、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定のタイプに設定されます。</p> </td> 
+      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b> 重要 </b>: [!UICONTROL プロジェクト固有 ] のカスタム時間タイプがある場合、それを [!UICONTROL 一般 ] に変更すると、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定のタイプに設定されます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
@@ -165,11 +166,11 @@ Workfront には、一連の組み込みの時間タイプが付属していま�
 1. 非アクティブ化する時間タイプを選択します。
 
 
-1. <span class="preview"> 「詳細 **」をクリックしてから「** アクティベートを解除 **をクリックします**。</span>
+1. 「**詳細**」をクリックしてから「**アクティベートを解除** をクリックします。
 
-   <span class="preview">![ 時間タイプのリンクのアクティブ化と非アクティブ化 ](assets/activate-and-deactivate-hour-type-links.png)</span>
+   ![ 時間タイプのリンクのアクティブ化と非アクティブ化 ](assets/activate-and-deactivate-hour-type-links.png)
 
-   <span class="preview"> 時間タイプは非アクティブ化され、ユーザーは時間をログに記録しても時間を見つけられなくなりました。</span>
+   時間タイプは非アクティブ化され、ユーザーは時間をログに記録すると見つけることができなくなります。
 
-1. <span class="preview"> （任意）時間タイプを再アクティブ化するには、**時間タイプ** リストでその時間を選択し、**詳細**/**アクティブ化** をクリックします。</span>
+1. （任意）時間タイプを再アクティブ化するには、**時間タイプ** リストでその時間を選択し、**詳細**/**アクティブ化** をクリックします。
 
