@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: eaba54ebfef15c5f823c7086b809165b5cfb181b
+source-git-commit: ccd0f65f064b5e55b6b5b94b27e25facfe50502f
 workflow-type: tm+mt
-source-wordcount: '1908'
+source-wordcount: '2078'
 ht-degree: 4%
 
 ---
@@ -22,35 +22,34 @@ ht-degree: 4%
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
-<!--## Auto-populate fields based on applied groupings
+## 適用されたグループ化に基づいてフィールドを自動入力
 
-Preview: July 10, 2025 
-Production fast release: August 14, 2025 
-Production for everyone: October 16, 2025 
+プレビュー：2025 年 7 月 10 日（PT）
+実稼動迅速リリース：2025 年 8 月 14 日（PT）
+すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
 
-Now, when you have  groupings applied to a table view, adding a record to the table will auto-populate the fields associated with the groupings you add the record to.  
+現在、テーブルビューに適用されたグループ化が存在する場合、テーブルにレコードを追加すると、レコードの追加先のグループ化に関連するフィールドが自動入力されるようになりました。
 
-If you have multiple groupings applied, the system auto-populates the fields associated with all groupings only when you add the record at the end of the list inside the last grouping criteria.  
+複数のグループ化を適用した場合、最後のグループ化条件内のリストの最後にレコードを追加した場合にのみ、すべてのグループ化に関連付けられたフィールドが自動的に入力されます。
 
-Prior to this enhancement, you had to manually update the fields associated with groupings.  
+この機能強化の前は、グループ化に関連付けられたフィールドを手動で更新する必要がありました。
 
-For information, see [Create records](/help/quicksilver/planning/records/create-records.md).-->
+詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 
-<!--## Common sharing button for views and record types
+## ビューとレコードタイプの一般的な共有ボタン
 
 >[!NOTE]
 >
->* Preview: July 9, 2025 
->* Production for everyone: July 17, 2025 
+>* プレビュー：2025 年 7 月 9 日（PT）
+>* すべてのユーザー向けの実稼動：2025 年 7 月 17 日（PT）
 
-You can now share a view as well as a record type from the same button on the record type's page. Prior to this enhancement, you could only share the record type from the Share button on the record type page and a view from the view's tab.  
+レコードタイプのページの同じボタンから、ビューとレコードタイプを共有できるようになりました。 この機能強化が行われるまで、共有できるのはレコードタイプページの「共有」ボタンと、ビューの「」タブのビューのみでした。
 
-For more information, see the following articles: 
+詳しくは、次の記事を参照してください。
 
-* [Share views](/help/quicksilver/planning/access/share-views.md)  
+* [ ビューを共有 ](/help/quicksilver/planning/access/share-views.md)
 
-* [Share record types](/help/quicksilver/planning/access/share-record-types.md)
--->
+* [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
 
 <!--## Add teams as approvers on Planning request forms
 
@@ -78,7 +77,7 @@ Workfront Planning でリクエストフォームを共有する際のエクス�
 * リクエストフォームを共有するユーザーの管理オプションと投稿オプションが削除されました。 現在は、追加されたユーザーはフォームのみを送信できます。
 * 「公開共有」タブには、「公開リンクを作成」オプションが有効になった後にのみ、「リンク」と「有効期限」フィールドが表示されるようになりました。
 
-詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form) を参照してください。
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form) を参照してください。
 
 ## テーブル表示ですべてのグループ化を展開または折りたたむ
 
@@ -296,7 +295,7 @@ CSV または Excel ファイルを使用してレコードタイプにレコー
 >[!NOTE]
 >
 >この変更は、システム管理者と Standard ライセンスを持つすべての新規ユーザーと既存ユーザーに対して表示されます。
->&#x200B;>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
+>>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
 
 詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 

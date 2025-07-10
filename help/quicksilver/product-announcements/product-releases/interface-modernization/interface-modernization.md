@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1b9f18f51d6b83e0522fb1ff95d5d135cef547ec
+source-git-commit: 0e519e9d5cb5bbc5052448d399b9cf54e4ed2766
 workflow-type: tm+mt
-source-wordcount: '5088'
+source-wordcount: '5164'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 2%
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
 ## 管理と設定
+
+### サブグループダイアログのインターフェイスの更新
+
+**プレビューリリース：2025 年 7 月 10 日（PT）、実稼動リリース：2025 年 7 月 17 日（PT）**
+
+サブグループの追加、サブグループの編集、サブグループのコピーを行うダイアログボックスを、アプリケーションの他の領域と一致するように更新しました。
+
+これらの変更を表示するには、設定/グループ/グループを選択/サブグループに移動します。 （グループのメインリストからサブグループを追加、編集、コピーするためのダイアログは、既に更新されています）。
+
+詳しくは、[ サブグループの作成 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) および [ サブグループの管理 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md) を参照してください。
 
 ### 設定の「フィードを更新」セクションに関する更新情報を確認します
 
