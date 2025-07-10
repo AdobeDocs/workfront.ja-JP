@@ -185,7 +185,7 @@ ht-degree: 52%
 >[!TIP]
 >
 >その下にサブグループがあるグループを非アクティブ化すると、それらのサブグループも非アクティブになります。いずれかをアクティブ化したい場合は、次の手順を使用してその親グループから削除し、再度アクティブ化することができます。
->>グループをディアクティベートおよび再アクティベートする手順については、[ グループのディアクティベートまたは再アクティベート ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) を参照してください。
+>&#x200B;>グループをディアクティベートおよび再アクティベートする手順については、[ グループのディアクティベートまたは再アクティベート ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) を参照してください。
 
 {{step-1-to-setup}}
 
