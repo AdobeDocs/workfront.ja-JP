@@ -6,7 +6,7 @@ description: ホームは、作業を管理するのに役立ちます。 この
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 9ede952041f89eca4ba324348880d7eb5f2bccd7
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
 source-wordcount: '1011'
 ht-degree: 70%
@@ -62,7 +62,7 @@ Adobe Workfront の新しいホームエクスペリエンスは、現在のホ�
     承認待ち、割り当て、委任、送信済みのすべての承認、承認を委任するボタン、ウィジェット内で直接承認に関する決定を行うボタンが表示されます。
 
 * **ドキュメント承認指標**\
-        平均ドキュメント承認時間および決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリスト ビューを表示します。 このウィジェットを使用するには、統合承認を有効にする必要があります。
+        平均ドキュメント承認時間および決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリスト ビューを表示します。 このウィジェットを使用するには、[ 統合承認 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
 
 * **メンション**\
     マイアップデート ページと同様に、Workfront全体からの最近のコメントスレッドを表示します。 返信ボタンを使用して、ウィジェット内で返信を作成できます。このウィジェットには、タスクまたはイシューが過去 30 日間に更新されている限り、自分が割り当てられている、他のユーザーに割り当てられている、自分が所有している、自分がプライマリ連絡先である、または自分が作成したタスクとイシューに関して作成されたコメントも表示されます。

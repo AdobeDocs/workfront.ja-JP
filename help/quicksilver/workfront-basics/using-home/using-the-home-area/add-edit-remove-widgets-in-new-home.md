@@ -6,10 +6,10 @@ description: 多数のウィジェットから選択して、ホームページ�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
+source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 50%
+source-wordcount: '1098'
+ht-degree: 49%
 
 ---
 
@@ -88,7 +88,7 @@ ht-degree: 50%
 
 ウィジェットを追加するには：
 
-1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![&#128279;](assets/home-icon-30x29.png)0&rbrace;Adobe Workfrontアイコン &rbrace; をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)**をクリックしてから「ホーム** をクリックして、ホームページに移動します。
+1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![0}Adobe Workfrontアイコン } をクリックするか、メインメニューアイコン ](assets/home-icon-30x29.png) メインメニューアイコン ![](assets/main-menu-icon.png) をクリックしてから「ホーム **をクリックして、ホームページに移動します。**
 
 1. 画面の右上隅にある「**カスタマイズ**」をクリックします。
 
@@ -121,8 +121,8 @@ ht-degree: 50%
    * **マイ承認**\
        保留中のすべての割り当て済みまたはデリゲートされた承認、承認をデリゲートするボタン、承認の決定をウィジェット内で直接行うボタンを表示します。
 
-   * **すべての承認**\
-           平均承認時間と決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリストビューを表示します。 <span style="color: #ff0000;">この機能は段階的リリースの一部で、現在は特定のお客様のみが利用できます。</span>
+   * **ドキュメント承認指標**\
+           平均承認時間と決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリストビューを表示します。 このウィジェットを使用するには、[ 統合承認 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
 
    * **メンション**\
        マイアップデート ページと同様に、Workfront全体からの最近のコメントスレッドを表示します。 返信ボタンを使用して、ウィジェット内で返信を作成できます。このウィジェットには、タスクまたはイシューが過去 30 日間に更新されている限り、自分が割り当てられている、他のユーザーに割り当てられている、自分が所有している、自分がプライマリ連絡先である、または自分が作成したタスクとイシューに関して作成されたコメントも表示されます。
@@ -141,7 +141,7 @@ ht-degree: 50%
 
 ## ホームページ上のウィジェットを移動またはサイズ変更
 
-1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![&#128279;](assets/home-icon-30x29.png)0&rbrace;Adobe Workfrontアイコン &rbrace; をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)**をクリックしてから「ホーム** をクリックして、ホームページに移動します。
+1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![0}Adobe Workfrontアイコン } をクリックするか、メインメニューアイコン ](assets/home-icon-30x29.png) メインメニューアイコン ![](assets/main-menu-icon.png) をクリックしてから「ホーム **をクリックして、ホームページに移動します。**
 
 1. ホームページ上で移動またはサイズ変更するウィジェットを見つけます。
 
@@ -151,7 +151,7 @@ ht-degree: 50%
 
 ## ホームページからウィジェットを削除
 
-1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![&#128279;](assets/home-icon-30x29.png)0&rbrace;Adobe Workfrontアイコン &rbrace; をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)**をクリックしてから「ホーム** をクリックして、ホームページに移動します。
+1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![0}Adobe Workfrontアイコン } をクリックするか、メインメニューアイコン ](assets/home-icon-30x29.png) メインメニューアイコン ![](assets/main-menu-icon.png) をクリックしてから「ホーム **をクリックして、ホームページに移動します。**
 
 1. 削除するホームページでウィジェットを見つけ、ウィジェットの右上隅にある **その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックします。
 
@@ -160,7 +160,7 @@ ht-degree: 50%
 
 ## 背景の色を変更する
 
-1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![&#128279;](assets/home-icon-30x29.png)0&rbrace;Adobe Workfrontアイコン &rbrace; をクリックするか、メインメニューアイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) **「ホーム** をクリックして、ホームページに移動します。
+1. ホームがランディングページとして設定されている場合は、画面の上部にあるAdobe Workfrontアイコン ![0}Adobe Workfrontアイコン } をクリックするか、メインメニューアイコン ](assets/home-icon-30x29.png) メインメニューアイコン ![ ](assets/main-menu-icon.png) 「ホーム **をクリックして、ホームページに移動します。**
 
 1. 画面の右上隅にある「**カスタマイズ**」をクリックします。
 
