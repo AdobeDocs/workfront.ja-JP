@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '446'
 ht-degree: 24%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 24%
 
 次のシナリオが発生した場合は、Workfront Planning からアプリ内通知を受け取ることができます。
 
-* 誰かがレコードのコメントであなたをタグ付けします
+* 誰かがあなたまたはチームをレコードコメントでタグ付けします
 
   レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
 * 他のユーザーから、ビューまたはワークスペースにアクセスする許可を要求されています
@@ -160,7 +160,7 @@ OLD:
 
 ## コメントで誰かがあなたをタグ付けしたとき、アプリ内通知を管理します
 
-1. （条件付き）レコードのコメントで誰かがタグを付けた後、Adobe Experience Cloudのアプリ内 **通知** アイコン ![Experience Cloud 通知アイコン ](assets/experience-cloud-notifications-icon.png) に移動します。
+1. （条件付き）誰かがレコードのコメントで自分またはチームをタグ付けした後、Adobe Experience Cloudのアプリ内 **通知** アイコン ![Experience Cloud 通知アイコン ](assets/experience-cloud-notifications-icon.png) に移動します。
 
    ![ アプリ内通知の例 ](assets/in-app-notification-example.png)
 

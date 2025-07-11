@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: e25f6ac3fb4ffc114d59bf5cceecfe718ae914ec
+source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '668'
 ht-degree: 14%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 14%
 
 次の状況が発生した場合は、Workfront Planning からメール通知を受信できます。
 
-* 誰かがレコードのコメントであなたをタグ付けします
+* 誰かがあなたまたはチームをレコードコメントでタグ付けします
 
   レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
 * 他のユーザーから、ビューまたはワークスペースにアクセスする許可を要求されています
@@ -161,7 +161,7 @@ OLD:
 
 ## コメントで誰かがあなたをタグ付けしたときのメール通知を管理します
 
-1. （条件付きおよびオプション）誰かがレコードのコメントでタグを付けた後、タグとコメントを通知するメール通知に移動します。 メールの送信者はAdobe Experience Cloudです。
+1. （条件付きおよびオプション）誰かがレコードのコメントで自分または自分のチームにタグを付けた後、タグとコメントを通知するメール通知に移動します。 メールの送信者はAdobe Experience Cloudです。
 
    ![ メール通知の例 ](assets/email-notification-example.png)
 
