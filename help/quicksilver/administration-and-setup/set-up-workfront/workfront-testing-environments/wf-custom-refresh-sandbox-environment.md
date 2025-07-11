@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1745'
-ht-degree: 93%
+source-wordcount: '1763'
+ht-degree: 92%
 
 ---
 
@@ -85,11 +85,11 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 >[!NOTE]
 >
->アカウントがクラスター 4（EMEA クラスター）にある場合は、実稼動環境からカスタム更新サンドボックスにアクセスできません。クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
+>アカウントがクラスター 4（EMEA クラスター）にある場合は、実稼動環境からカスタム更新サンドボックスにアクセスできません。クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
 
 カスタム更新サンドボックスへのアクセス方法：
 
-1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL 設定]**![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
+1. **[!UICONTROL の右上隅にある]** メインメニュー ![ アイコン ](assets/main-menu-icon.png) メインメニューアイコン [!DNL Adobe Workfront] をクリックし、**[!UICONTROL 設定]**![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
 
 1. **[!UICONTROL システム]**／**[!UICONTROL 環境設定]**&#x200B;をクリックします。
 
@@ -210,9 +210,12 @@ Workfront管理者は、Workfrontがプロジェクトのタイムラインを�
 
 カスタム更新サンドボックス環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的には再計算されません。 カスタム更新サンドボックス環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 
+
 ## 使用目的と可用性
 
 * [!DNL Workfront] カスタム更新サンドボックス環境は、パフォーマンスや負荷テストを目的としていません。組織の既存のワークフローとの機能性が検証されます。
+
+* ドキュメントに関係するワークフローでは、負荷テストではなくプロセスに焦点を当てる必要があります。 サンドボックス環境では、大きなファイルはサポートされていません。
 
 * [!DNL Workfront] カスタム更新サンドボックス環境は、常に使用可能であることを目的としています。通常の営業時間中の Workfront カスタム更新サンドボックス環境の停止は、実稼働環境の問題が存在する場合、その問題の解決に続いて最優先事項となります。週末（土曜日と日曜日）に Workfront カスタム更新サンドボックス環境が停止した場合は、その環境が月曜日の営業時間に実行されるように対処されます。
 

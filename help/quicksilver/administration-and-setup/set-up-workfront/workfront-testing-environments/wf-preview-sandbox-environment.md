@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 7549c9699a86b6f87e5562efd7e586be282c5619
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 94%
+source-wordcount: '1302'
+ht-degree: 93%
 
 ---
 
@@ -179,12 +179,15 @@ Workfront管理者は、Workfrontがプロジェクトのタイムラインを�
 
 プレビュー環境の場合、夜間の再計算は無効になり、プロジェクトのタイムラインは自動的には再計算されません。 プレビュー環境のプロジェクトタイムラインを手動で再計算する必要があります。 詳しくは、[プロジェクトタイムラインの再計算](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md)を参照してください。
 
+
 ## プレビュー環境のパフォーマンスと可用性
 
-パフォーマンスや負荷のテストを目的としていない [!DNL Workfront] プレビュー環境では、組織の既存のワークフローとの機能性が検証されます。
+* パフォーマンスや負荷のテストを目的としていない [!DNL Workfront] プレビュー環境では、組織の既存のワークフローとの機能性が検証されます。
 
-[!DNL Workfront] プレビュー環境は、常に使用可能であることを目的としています。
+* ドキュメントに関係するワークフローでは、負荷テストではなくプロセスに焦点を当てる必要があります。 サンドボックス環境では、大きなファイルはサポートされていません。
 
-通常の営業時間中の [!DNL Workfront] プレビュー環境の停止への対応は、実稼働環境の問題（存在する場合）の解決に続く最優先事項となります。
+* [!DNL Workfront] プレビュー環境は、常に使用可能であることを目的としています。
 
-週末（土曜日と日曜日）に [!DNL Workfront] プレビュー環境が停止した場合は、月曜日の営業時間までに復旧できるよう対処されます。
+* 通常の営業時間中の [!DNL Workfront] プレビュー環境の停止への対応は、実稼働環境の問題（存在する場合）の解決に続く最優先事項となります。
+
+* 週末（土曜日と日曜日）に [!DNL Workfront] プレビュー環境が停止した場合は、月曜日の営業時間までに復旧できるよう対処されます。
