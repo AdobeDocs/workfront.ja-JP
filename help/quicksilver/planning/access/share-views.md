@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: e8e8e12bef55303c65894aa495f7554a9f1a811c
+source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1969'
 ht-degree: 18%
 
 ---
@@ -186,6 +186,8 @@ This article describes how you can share a view with others. For information abo
 
    ビューが人物アイコン ![ 他のユーザーと共有されたビューのアイコン ](assets/view-shared-with-others-people-icon.png) で更新され、ビューが他のユーザーと共有されたことを示します。
 
+   ビューを共有したユーザーには、権限に関するアプリ内通知とメール通知の両方が届きます。
+
    >[!TIP]
    >
    >ユーザーまたはグローバル アイコンのないビューは、ユーザーが作成したビューであり、他のユーザーと共有されていません。 非共有ビューは、自分にのみ表示されます。
@@ -262,7 +264,7 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 
 1. ビューのタブで、次のいずれかの操作を行います。
 
-   * 共有するビューのタブの上にマウスポインターを置き、ビュー名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、「ビューを共有 **ボックスの** 共有 **/** リンクをコピー **&#x200B;**&#x200B;をクリックします。
+   * 共有するビューのタブの上にマウスポインターを置き、ビュー名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、「ビューを共有 **ボックスの** 共有 **/** リンクをコピー **** をクリックします。
    * <span class="preview"> ビューを共有 **ボックスで** 共有 **/**</span> ビューリンクをコピー **/** リンクをコピー **をク** ックします。
 
    ビューへのリンクがクリップボードにコピーされ、画面の下部に確認が表示されます。
@@ -276,10 +278,8 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 1. （条件付き）ビューの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
    * アプリ内通知
-
      ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
    * メール通知
-
      ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
