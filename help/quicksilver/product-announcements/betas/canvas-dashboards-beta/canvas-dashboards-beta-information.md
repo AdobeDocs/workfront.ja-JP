@@ -7,23 +7,58 @@ author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: abf5f21281b05dedfecbe71c6ffbf54ee69e2460
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 20%
+source-wordcount: '346'
+ht-degree: 35%
 
 ---
 
 # キャンバスダッシュボードベータ版の情報
 
-キャンバスダッシュボードは、カスタマイズ可能なキャンバス上に様々なレポートタイプを追加することで、Adobe Workfront データを簡単に視覚化できる、現在開発中の機能です。 ベータ版テストへの参加には感謝しますが、一部の機能が完全に動作しない、または意図したとおりに動作しない場合があることに注意してください。 以下の [ フィードバックの提供 ](#provide-feedback) 節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。
-
-キャンバスダッシュボードの使用に関する基本的な情報については、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
-キャンバスダッシュボードのドキュメントの一覧については、[ キャンバスダッシュボードの概要 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
-
 >[!NOTE]
 >
 >キャンバスダッシュボードは現在、クローズドベータテスト段階にあり、頻繁に変更される可能性があります。
+
+キャンバスダッシュボードは、カスタマイズ可能なキャンバスに様々なレポートタイプを追加して、Adobe Workfront データを簡単に視覚化できる、現在開発中の機能です。
+
+ベータ版テストへの参加には感謝しますが、一部の機能が完全に動作しない、または意図したとおりに動作しない場合があることに注意してください。 以下の「フィードバックの提供 [ の節のの手順に従って、エクスペリエンスに関するフィードバックを送信し ](#provide-feedback) ください。
+
+## アクセス要件
+
++++ 展開すると、アクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td> 
+<p>任意 </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td> 
+<p>現在：プラン </p> 
+<p>新規：標準</p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td><p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p>
+  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
++++
+
 
 ## ベータ版に登録
 
@@ -49,29 +84,3 @@ ht-degree: 20%
 
 1. 「**送信**」をクリックします。
 
-## 予定されている機能
-
-以下は、現在ベータ版でサポートされているレポートタイプのリストと、ベータ版の経過以降にキャンバスダッシュボードに追加する予定のその他の機能のリストです。
-
-### サポートされるレポートタイプ
-
-* 既存のレポート（現在のレポートツールを使用して作成されたレポート）
-* グラフレポート
-* KPI レポート
-* テーブルレポート
-* 承認待ちレポート
-
-### 開発の機能
-
-* フィルター用の日付およびユーザーベースのワイルドカード
-* Workfront計画レポート
-* その他のWorkfront オブジェクトタイプ
-* 掲示板レポート
-* その他のユーザビリティの強化
-* ワークシート
-* 埋め込み web コンテンツ
-
-### 今後のロードマップの機能
-
-* ダッシュボードレベルのプロンプト
-* 通貨のサポート

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
 workflow-type: tm+mt
-source-wordcount: '7388'
+source-wordcount: '7386'
 ht-degree: 37%
 
 ---
@@ -188,7 +188,7 @@ Workfront Planning AI Assistant の詳細については、[Adobe Workfront Plan
 
 プレビューおよび実稼動環境：2024年8月28日（PT）
 
-Workfront キャンバスダッシュボードを使用して、Workfront Planning の情報をレポートに表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) を参照してください。
+Workfront キャンバスダッシュボードを使用して、Workfront Planning の情報をレポートに表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの概要 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
 
 ## 2024年8月19日（PT）の週
 
@@ -800,7 +800,7 @@ Workfront Planning 以外のオブジェクト・タイプへの接続を作成�
 
 プレビュー：未決定
 
-Adobe Unified Experience のユーザーで、他のユーザーがレコードページのコメントにユーザーを追加した場合、アプリ内と、コメントに関するメール通知が届きます。 通知の環境設定は、Adobe Experience Cloud プロファイルの「環境設定」領域で管理できます。 詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences) を参照してください。
+Adobe Unified Experience のユーザーで、他のユーザーがレコードページのコメントにユーザーを追加した場合、アプリ内と、コメントに関するメール通知が届きます。 通知の環境設定は、Adobe Experience Cloud プロファイルの「環境設定」領域で管理できます。 詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) を参照してください。
 
 Workfront Planning notifications の詳細については、[Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md) を参照してください。
 

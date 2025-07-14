@@ -5,13 +5,11 @@ title: KPI レポートの作成
 description: 単一の集計 KPI を目立つように表示する KPI レポートをキャンバスダッシュボードに追加できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
-source-git-commit: 026365a182b29c7ac073a4c8c28f0044bfe9c4cc
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 25%
+source-wordcount: '579'
+ht-degree: 10%
 
 ---
 
@@ -19,41 +17,110 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->このページでは、キャンバスダッシュボードベータ版の一部として使用できる機能について説明します。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
-単一の集計 KPI を目立つように表示する KPI レポートをキャンバスダッシュボードに追加できます。
+主要業績評価指標データを数値で視覚的に表す KPI レポートを作成してキャンバスダッシュボードに追加し、その数値を使用して、プロジェクトやチームのパフォーマンスを確認できます。
 
-キャンバスダッシュボードでのレポートの追加および配置に関する一般的な情報については、[ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。
+![KPI レポートの例 ](assets/kpi-example-main.png)
 
-## アクセス要件
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、アクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td> 
+<p>任意 </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td> 
+<p>現在：プラン </p> 
+<p>新規：標準</p> 
+   </td> 
+   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>新規：標準
-   <p>または</p>
-   <p>現在：プラン</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ダッシュボードの編集アクセス権が必要です。</p></td> 
-  </tr> 
- </tbody> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td><p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p>
+  </td> 
+  </tr>  
+</tbody> 
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
++++
+
+## 前提条件
+
+KPI レポートを作成するには、ダッシュボードを作成する必要があります。
 
 ## キャンバスダッシュボードでの KPI レポートの作成
 
->[!IMPORTANT]
->
->この記事はまだ仕上がっていない。 キャンバスダッシュボードへのレポートの追加に関する一般的な手順については、記事 [ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。
+KPI レポートの作成に使用できる設定オプションは多数あります。 この節では、タグを作成するための一般的なプロセスを説明します。
+
+{{step1-to-dashboards}}
+
+1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
+
+1. 右上隅の **新規ダッシュボード** をクリックします。
+
+1. **ダッシュボードを作成** ボックスに、ダッシュボードの **名前** と **説明** を入力します。
+
+1. 「**作成**」をクリックします。
+
+1. **レポートを追加** ボックスで、「**レポートを作成**」を選択します。
+
+1. 左側で、「**KPI**」を選択します。
+
+1. 右上隅の「**レポートを作成**」をクリックします。
+
+1. 「**詳細** セクションを設定するには、次の手順に従います。
+
+   1. レポート **名前** を入力します。
+   1. レポート **説明** を入力します。
+
+      >[!NOTE]
+      > 
+      > 説明は、KPI 値の下のキャプションとして使用されます。 説明を入力しない場合、次の手順で選択するアグリゲータおよび集計タイプに基づいて、キャプションが生成されます。
+
+1. **ビルド KPI** セクションを設定するには、次の手順に従います。
+
+   1. 左側のパネルで「**KPI を構築**![KPI を構築アイコン ](assets/build-kpi-icon.png) アイコンをクリックします。
+
+   1. **フィールドを選択** をクリックして、レポートに追加するフィールドを指定します。
+
+   1. **集計タイプ** ドロップダウンで、データをロールアップして KPI 出力を生成する方法を選択します。 このフィールドのオプションは、前の手順で選択したフィールドのタイプによって異なります。
+
+1. **フィルター** セクションを設定するには、次の手順に従います。
+
+   1. 左側のパネルで、「**フィルター** ![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックします。
+
+   1. **フィルターを編集** を選択します。
+
+   1. 「**条件を追加**」をクリックして、フィルターに使用するフィールドと、フィールドが満たす必要がある条件の種類を定義する修飾子を指定します。
+
+   1. （任意）「**フィルターグループを追加**」をクリックして、別のフィルター条件セットを追加します。 セット間のデフォルトの演算子は AND です。演算子をクリックして OR に変更します。
+
+1. **ドリルダウン列設定** セクションを設定するには、次の手順に従います。
+
+   1. 左側のパネルで、「**ドリルダウン列**![ ドリルダウン列アイコン ](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
+
+   1. （オプション）既存の列の設定を更新するには、更新する列を「**現在の列**」セクションで選択してから、必要な情報（ラベル、リンクされたステータス、書式設定ルールなど）を更新します。
+
+   1. **列を追加** をクリックし、テーブルの列として表示するフィールドを選択します。 追加する各列に対して、このプロセスを繰り返します。
+
+1. 次の手順に従って、「ドリルダウン・グループ設定 **セクションを構成し** す。
+
+   1. 左側のパネルで、「**グループ設定**![ ドリルダウン・グループ・アイコン ](assets/drilldown-group-icon.png) アイコンをクリックします。
+
+   1. **グループ化を追加** ボタンをクリックし、グループ化として作成するフィールドを選択します。
+
+1. 「**保存**」をクリックしてレポートを作成し、ダッシュボードに追加します。
+
+

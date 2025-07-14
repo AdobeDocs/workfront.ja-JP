@@ -2,16 +2,14 @@
 product-area: Canvas Dashboards
 navigation-topic: report-types
 title: テーブルレポートの作成
-description: データを設定可能なテーブルとして表示するテーブルレポートをキャンバスダッシュボードに追加できます。
-author: Nolan
+description: キャンバスダッシュボードにテーブルレポートを追加すると、データをテーブル形式で視覚化できます。
+author: Courtney and Jenny
 feature: Reports and Dashboards
-hidefromtoc: true
-hide: true
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 026365a182b29c7ac073a4c8c28f0044bfe9c4cc
+source-git-commit: ba9256255905e139c281099555a6d129fc570984
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 25%
+source-wordcount: '436'
+ht-degree: 14%
 
 ---
 
@@ -19,41 +17,97 @@ ht-degree: 25%
 
 >[!IMPORTANT]
 >
->このページでは、キャンバスダッシュボードベータ版の一部として使用できる機能について説明します。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
-データを設定可能なテーブルとして表示するテーブルレポートをキャンバスダッシュボードに追加できます。
+キャンバスダッシュボードにテーブルレポートを追加すると、データをテーブル形式で視覚化できます。
 
-キャンバスダッシュボードでのレポートの追加および配置に関する一般的な情報については、[ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。
+![ テーブルレポートの例 ](assets/table-example-main.png)
 
-## アクセス要件
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、アクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td> 
+<p>任意 </p> 
+   </td> 
+<tr> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td> 
+<p>現在：プラン </p> 
+<p>新規：標準</p> 
+   </td> 
+   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>新規：標準
-   <p>または</p>
-   <p>現在：プラン</p></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ダッシュボードの編集アクセス権が必要です。</p></td> 
-  </tr> 
- </tbody> 
+   <td role="rowheader"><p>アクセスレベル設定</p></td> 
+   <td><p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p>
+  </td> 
+  </tr>  
+</tbody> 
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
++++
+
+## 前提条件
+
+テーブル レポートを作成するには、ダッシュボードを作成する必要があります。
 
 ## キャンバスダッシュボードでのテーブルレポートの作成
 
->[!IMPORTANT]
->
->この記事はまだ仕上がっていない。 キャンバスダッシュボードへのレポートの追加に関する一般的な手順については、記事 [ キャンバスダッシュボードでのレポートの追加、削除、配置 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md) を参照してください。
+テーブルレポートの作成に使用できる設定オプションは多数あります。 この節では、タグを作成するための一般的なプロセスを説明します。
+
+{{step1-to-dashboards}}
+
+1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
+
+1. 右上隅の **新規ダッシュボード** をクリックします。
+
+1. **ダッシュボードを作成** ボックスに、ダッシュボードの **名前** と **説明** を入力します。
+
+1. 「**作成**」をクリックします。
+
+1. **レポートを追加** ボックスで、「**レポートを作成**」を選択します。
+
+1. 左側で「**テーブル**」を選択します。
+
+1. 右上隅の「**レポートを作成**」をクリックします。
+
+1. （オプション）次の手順に従って、「**詳細**」セクションを設定します。
+
+   1. レポート **名前** を入力します。
+
+   1. レポート **説明** を入力します。
+
+1. **テーブルを作成** セクションを設定するには、次の手順に従います。
+
+   1. 左側のパネルで、「**テーブルの列** ![ テーブルを作成アイコン ](assets/drilldown-column.png) アイコンをクリックします。
+
+   1. **列を追加** をクリックし、テーブルの列として表示するフィールドを選択します。 この列は、右側のプレビューセクションに表示されます。
+
+   1. 追加する各列に対して上記の手順を繰り返します。
+
+1. **フィルター** セクションを設定するには、次の手順に従います。
+
+   1. 左側のパネルで、「**フィルター** ![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックします。
+
+   1. **フィルターを編集** を選択します。
+
+   1. 「**条件を追加**」をクリックして、フィルターに使用するフィールドと、フィールドが満たす必要がある条件の種類を定義する修飾子を指定します。 この列は、右側のプレビューセクションに表示されます。
+
+1. （任意）「**フィルターグループを追加**」をクリックして、別のフィルター条件セットを追加します。 セット間のデフォルトの演算子は AND です。演算子をクリックして OR に変更します。
+
+1. 次の手順に従って、「ドリルダウン・グループ設定 **セクションを構成し** す。
+
+   1. 左側のパネルで、「**グループ設定**![ グループ設定アイコン ](assets/drilldown-group-icon.png) アイコンをクリックします。
+
+   1. **グループ化を追加** ボタンをクリックし、グループ化として作成するフィールドを選択します。 グループ化の列は、右側のプレビューセクションに表示されます。
+
+1. 「**保存**」をクリックしてレポートを作成し、ダッシュボードに追加します。
