@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: 60f2890e431065d0eb034a9254680e43a51ecab8
+source-git-commit: 2572093857bb1ad27f869e1d7244549e531ba421
 workflow-type: tm+mt
-source-wordcount: '2148'
+source-wordcount: '2200'
 ht-degree: 4%
 
 ---
@@ -82,11 +82,21 @@ For more information, see [Add an approval to a request form in Adobe Workfront 
 
 Workfront Planning でリクエストフォームを共有する際のエクスペリエンスをより安全かつシンプルにするために、次の変更を行いました。
 
-* 継承された権限を削除しました。 現在、リクエストフォームは、選択したユーザーとのみ共有されます。
-* リクエストフォームを共有するユーザーの管理オプションと投稿オプションが削除されました。 現在は、追加されたユーザーはフォームのみを送信できます。
-* 「公開共有」タブには、「公開リンクを作成」オプションが有効になった後にのみ、「リンク」と「有効期限」フィールドが表示されるようになりました。
+* フォームを共有ダイアログを、内部共有（共有するユーザーを選択）と公開共有（共有リンクの作成）に分けました。
+* リクエストフォームを以下と共有できるようになりました。
 
-詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form) を参照してください。
+   * ユーザー
+   * チーム
+   * グループ
+   * 会社
+   * 担当業務
+
+  以前は、ワークスペースのアクセスに基づいて、またはリンクを共有することによってのみ共有できました。
+* リクエストフォームの継承された権限を削除しました。 現在、リクエストフォームは、選択したユーザーとのみ共有されます。
+* リクエストフォームを共有するユーザーの管理オプションと投稿オプションが削除されました。 現在は、追加されたユーザーはフォームのみを送信できます。
+* 「公開リンクを作成」オプションが有効になった後、「公開共有」タブに、「リンクと有効期限」フィールドが表示されるようになりました。
+
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-requests/create-request-form) を参照してください。
 
 ## テーブル表示ですべてのグループ化を展開または折りたたむ
 
@@ -304,7 +314,7 @@ CSV または Excel ファイルを使用してレコードタイプにレコー
 >[!NOTE]
 >
 >この変更は、システム管理者と Standard ライセンスを持つすべての新規ユーザーと既存ユーザーに対して表示されます。
->&#x200B;>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
+>>レイアウトテンプレートに割り当てられた既存のユーザーには、レイアウトテンプレートで定義された設定に従って、すべてが引き続き表示されます。
 
 詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
