@@ -6,7 +6,7 @@ description: データを棒グラフ、列グラフ、折れ線グラフまた�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: ba9256255905e139c281099555a6d129fc570984
+source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 7%
@@ -139,7 +139,6 @@ ht-degree: 7%
 ## グラフレポートの作成例
 
 この節では、期限切れタスクをプロジェクト所有者別に表示する列グラフを作成する手順を説明します。
-
 
 {{step1-to-dashboards}}
 
