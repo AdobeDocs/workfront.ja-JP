@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Workfront の管理者は、レイアウトテンプレートを使用して、フィルター、表示、グループ化の各ドロップダウンメニューに表示するリストコントロールを指定できます。これらのメニューは、プロジェクトのタスクリストなど、Workfront 全体のリストの上に表示されます。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '784'
 ht-degree: 86%
@@ -62,11 +62,11 @@ Adobe Workfront の管理者は、レイアウトテンプレートを使用し�
 ## フィルター、表示およびグループ化のリストコントロールをカスタマイズ：
 
 1. [レイアウトテンプレートを作成および管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されているように、レイアウトテンプレートの使用を開始します。
-1. **ユーザーの表示項目をカスタマイズ ![&#128279;](assets/down-arrow-blue.png) の下の下向き矢印  下向き矢印** をクリックし、表示されるドロップダウンメニューで **リスト** をクリックします。
+1. ![ ユーザーの表示項目をカスタマイズ ](assets/down-arrow-blue.png) の下の下向き矢印 **下向き矢印** をクリックし、表示されるドロップダウンメニューで **リスト** をクリックします。
 
    ![ ユーザーの表示内容のカスタマイズ ](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. **カスタマイズするリストを選択** の下の下向き矢印 ![ 下向き矢印 ](assets/down-arrow-blue.png) をクリックし、リストのフィルター、表示、グループ化コントロールをカスタマイズするWorkfront オブジェクトの種類を選択します。
+1. ![ カスタマイズするリストを選択 ](assets/down-arrow-blue.png) の下の下向き矢印 **下向き矢印** をクリックし、リストのフィルター、表示、グループ化コントロールをカスタマイズするWorkfront オブジェクトの種類を選択します。
 
    ![ カスタマイズするリストを選択 ](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 

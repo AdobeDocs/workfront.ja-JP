@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Adobe Workfront 全体を通して左パネル領域に表示される内容をレイアウトテンプレートでカスタマイズできます。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 7640016921e421d2aec0ab1aadc0edd304125feb
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '1162'
 ht-degree: 58%
@@ -71,7 +71,7 @@ ht-degree: 58%
 ## [!DNL Workfront] でエリアの左パネルをカスタマイズ
 
 1. [レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. **![[!UICONTROL ユーザーに表示する項目をカスタマイズ &#x200B;]](assets/dropdown-arrow.png) の下にある下向き矢印 [ 下向き矢印]** をクリックし、カスタマイズするオブジェクト タイプの名前または [!DNL Workfront] の領域をクリックします。
+1. ![ ユーザーに表示する項目をカスタマイズ ](assets/dropdown-arrow.png) の下にある下向き矢印 **[!UICONTROL 下向き矢印]** をクリックし、カスタマイズするオブジェクト タイプの名前または [!DNL Workfront] の領域をクリックします。
 
    左側のパネルをカスタマイズできるオブジェクトタイプと [!DNL Workfront] 領域を次の表に示します。
 
@@ -90,27 +90,27 @@ ht-degree: 58%
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>プロジェクト名</td> 
-      <td>[!UICONTROL タスク &#x200B;]、[!UICONTROL プロジェクトの詳細 &#x200B;]、[!UICONTROL ビジネスケース &#x200B;]、[!UICONTROL の更新 &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL の問題 &#x200B;]、[!UICONTROL リスク &#x200B;]、[!UICONTROL 承認 &#x200B;]、[!UICONTROL ベースライン &#x200B;]、[!UICONTROL 請求レート &#x200B;]、[!UICONTROL 請求レコード &#x200B;]、[!UICONTROL 費用 &#x200B;]、[!UICONTROL 時間 &#x200B;]、[!UICONTROL ワークロードバランサー &#x200B;]、[!UICONTROL 人物 &#x200B;]、[!UICONTROL 使用率 &#x200B;]、[!UICONTROL キューの詳細 &#x200B;]、[!UICONTROL ルーティング規則 &#x200B;]、[!UICONTROL キュートピック &#x200B;]、[!UICONTROL トピック グループ &#x200B;]、[!UICONTROL 指標 &#x200B;]、[!UICONTROL uicontrol Planning]*, [!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td>[!UICONTROL タスク ]、[!UICONTROL プロジェクトの詳細 ]、[!UICONTROL ビジネスケース ]、[!UICONTROL の更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL の問題 ]、[!UICONTROL リスク ]、[!UICONTROL 承認 ]、[!UICONTROL ベースライン ]、[!UICONTROL 請求レート ]、[!UICONTROL 請求レコード ]、[!UICONTROL 費用 ]、[!UICONTROL 時間 ]、[!UICONTROL ワークロードバランサー ]、[!UICONTROL 人物 ]、[!UICONTROL 使用率 ]、[!UICONTROL キューの詳細 ]、[!UICONTROL ルーティング規則 ]、[!UICONTROL キュートピック ]、[!UICONTROL トピック グループ ]、[!UICONTROL 指標 ]、[!UICONTROL uicontrol Planning]*, [!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
       <td>タスク名</td> 
-      <td> [!UICONTROL 更新 &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL タスクの詳細 &#x200B;]、[!UICONTROL サブタスク &#x200B;]、[!UICONTROL 問題 &#x200B;]、[!UICONTROL 時間 &#x200B;]、[!UICONTROL 承認 &#x200B;]、[!UICONTROL 費用 &#x200B;]、[!UICONTROL 先行タスク &#x200B;]、[!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td> [!UICONTROL 更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL タスクの詳細 ]、[!UICONTROL サブタスク ]、[!UICONTROL 問題 ]、[!UICONTROL 時間 ]、[!UICONTROL 承認 ]、[!UICONTROL 費用 ]、[!UICONTROL 先行タスク ]、[!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Issue]</td> 
       <td>イシュー名</td> 
-      <td> [!UICONTROL の更新 &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL 問題の詳細 &#x200B;]、[!UICONTROL 時間 &#x200B;]、[!UICONTROL 承認 &#x200B;]、[!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td> [!UICONTROL の更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL 問題の詳細 ]、[!UICONTROL 時間 ]、[!UICONTROL 承認 ]、[!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>ポートフォリオ名</td> 
-      <td>[!UICONTROL プロジェクト &#x200B;]、[!UICONTROL プログラム &#x200B;]、[!UICONTROL Portfolioの詳細 &#x200B;]、[!UICONTROL Portfolio]、[!UICONTROL 最適化 &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL 更新 &#x200B;]、[!UICONTROL Planning]*、[!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td>[!UICONTROL プロジェクト ]、[!UICONTROL プログラム ]、[!UICONTROL Portfolioの詳細 ]、[!UICONTROL Portfolio]、[!UICONTROL 最適化 ]、[!UICONTROL ドキュメント ]、[!UICONTROL 更新 ]、[!UICONTROL Planning]*、[!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Program]</td> 
       <td>プログラム名</td> 
-      <td>[!UICONTROL プロジェクト &#x200B;]、[!UICONTROL プログラムの詳細 &#x200B;]、[!UICONTROL 更新 &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL 計画 &#x200B;]*、[!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td>[!UICONTROL プロジェクト ]、[!UICONTROL プログラムの詳細 ]、[!UICONTROL 更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL 計画 ]*、[!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -222,7 +222,7 @@ ht-degree: 58%
    >その他の領域のカスタマイズ方法について詳しくは、次の記事を参照してください。
    >
    >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [ レイアウトテンプレートを使用した [!UICONTROL &#x200B; 概要パネル &#x200B;] のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [ レイアウトテンプレートを使用した [!UICONTROL  概要パネル ] のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [ レイアウトテンプレートを使用したホームのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [レイアウトテンプレートを使用して Adobe  [!DNL Workfront]  をブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 

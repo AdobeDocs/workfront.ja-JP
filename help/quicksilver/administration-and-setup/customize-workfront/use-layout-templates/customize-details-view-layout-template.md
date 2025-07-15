@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
 description: Workfront 管理者は、タスク、イシュー、ドキュメント、プログラム、またはポートフォリオの表示中にユーザーが左側のパネルの「詳細」セクションを選択したときに表示される情報を、レイアウトテンプレートを使用して決定できます。
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 72%
@@ -100,7 +100,7 @@ or billing record
 ## 詳細ビューでユーザーに表示する項目をカスタマイズする
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
-1. **ユーザーに表示するものをカスタマイズ** の下の下向き矢印 ![ 下向き矢印 ](assets/dropdown-arrow-12x12.png) をクリックし、**プロジェクト**、**タスク**、**イシュー**、**プログラム**、**Portfolio** をクリックします。
+1. ![ ユーザーに表示するものをカスタマイズ ](assets/dropdown-arrow-12x12.png) の下の下向き矢印 **下向き矢印** をクリックし、**プロジェクト**、**タスク**、**イシュー**、**プログラム**、**Portfolio** のいずれかをクリックします。
 <!--
 , or billing record
 -->
@@ -108,7 +108,7 @@ or billing record
 1. 「**詳細**」セクションで、次のいずれかの操作を行って、詳細ビューに表示する項目をカスタマイズします。
 
    * セクションヘッダー ![ 移動アイコン ](assets/move-icon---dots.png) をドラッグして、順序を変更します。
-   * 様々な領域（「概要」 **、「財務**、「カスタムForms **&#x200B;**&#x200B;など **の下にあるオプションを有効または無効にして、表示と非表示を切り替** ます。
+   * 様々な領域（「概要」 **、「財務**、「カスタムForms **** など **の下にあるオプションを有効または無効にして、表示と非表示を切り替** ます。
 
      これらのセクションの 1 つですべてのフィールドを非表示にした場合、セクション全体が非表示になります。
 
