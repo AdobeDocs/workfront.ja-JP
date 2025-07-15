@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 979d0919605564107e58032b80cfd259bd6edffa
+source-git-commit: b4e2f9b6cad03062b4edb2858f2a59847b47d622
 workflow-type: tm+mt
-source-wordcount: '13221'
+source-wordcount: '13233'
 ht-degree: 86%
 
 ---
@@ -2041,7 +2041,8 @@ ht-degree: 86%
       * [レコードタイプの概要](planning/architecture/overview-of-record-types.md)
       * [レコードタイプの作成](planning/architecture/create-record-types.md)
       * [CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成](planning/architecture/import-file-to-create-record-types.md)
-      * [レコードタイプのグローバルな作成](planning/architecture/create-record-types-globally.md)
+      * [レコードタイプのクロスワークスペース機能の設定](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
+      * [ワークスペース間のレコードタイプを追加](planning/architecture/add-cross-workspace-record-types.md)
       * [レコードタイプの接続：概要](planning/architecture/connect-record-types-overview.md)
       * [レコードタイプの接続](planning/architecture/connect-record-types.md)
       * [レコードタイプの編集](planning/architecture/edit-record-types.md)
@@ -2086,6 +2087,7 @@ ht-degree: 86%
       * [レコードページレイアウトの管理](planning/records/manage-the-record-page.md)
       * [Workfront オブジェクトからのレコード接続の管理](planning/records/manage-records-in-planning-section.md)
       * [レコードの詳細のエクスポート](planning/records/export-the-record-page.md)
+      * [テーブルビューからのレコードのエクスポート](planning/records/export-records-from-the-table-view.md)
       * [Workfront オブジェクトをレコードに関連付ける際に、Workfront Planning からデータモデルを作成する](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Adobe Workfront Planning の自動構成](planning/records/configure-automations-to-create-records.md)
       * [Workfrontの計画レコードの自動作成を使用したオブジェクトの作成](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)

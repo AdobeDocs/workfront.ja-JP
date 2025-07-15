@@ -1,15 +1,15 @@
 ---
 title: テーブル表示の管理
-description: Adobe Workfront Planning の「レコードタイプ」ページにアクセスすると、レコードとそのフィールドをテーブル・ビューに表示できます。 この記事では、テーブル表示の編集を作成または編集する方法と、表示のリアルタイムプレゼンス指標を有効にする方法、または CSV ファイルまたは Excel ファイルに書き出す方法について説明します。
+description: Adobe Workfront Planning の「レコードタイプ」ページにアクセスすると、レコードとそのフィールドをテーブル・ビューに表示できます。 この記事では、テーブルビューの編集を作成または編集する方法と、ビューのリアルタイムプレゼンス指標を有効にする方法について説明します。
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
 workflow-type: tm+mt
-source-wordcount: '3758'
-ht-degree: 49%
+source-wordcount: '3446'
+ht-degree: 53%
 
 ---
 
@@ -29,7 +29,8 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 * [テーブル表示での列と行の作成または編集](#manage-a-table-view)
 * [テーブルビューのリアルタイムプレゼンス指標の有効化](#enable-the-real-time-presence-indicator)
-* <span class="preview">[ テーブル表示を CSV または Excel ファイルに書き出す ](#export-the-table-view)</span>
+
+テーブルビューを Excel または CSV ファイルにエクスポートする方法については、[ テーブルビューからのレコードのエクスポート ](/help/quicksilver/planning/records/export-records-from-the-table-view.md) を参照してください。
 
 ## アクセス要件
 
@@ -558,57 +559,5 @@ To sort grouped records:
 
 <div class="preview">
 
-## テーブルビューのエクスポート
 
-テーブル表示の情報を CSV または Excel ファイルに書き出すことができます。
-
-テーブルビューをエクスポートする場合は、以下の点に注意してください。
-
-* Excel ファイルに書き出された情報は、Workfront Planning のテーブルビューに適用されたフィルター、グループ化および並べ替えを保持します。 グループ化は、CSV ファイルには表示されません。
-
-* サムネールとカスタム行カラーは、書き出されたファイルではサポートされません。
-
-* Workfront インターフェイスで表示されたフィールドのみが書き出されます。 非表示のフィールドは書き出されません。
-
-テーブル表示またはレコードタイプから情報をエクスポートするには：
-
-1. レコードタイプのページに移動し、「テーブル表示」タブをクリックします。
-1. 次のいずれかの操作を行います。
-
-   * テーブルビュータブの名前にカーソルを合わせ、ビュー名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**エクスポート** をクリックしてください。
-
-   ![ ビューの詳細メニュー ](assets/view-more-menu-with-duplicate-option.png)
-
-   * **共有**/**現在のビューを書き出し** をクリックします。 このオプションは、テーブルビューを表示する場合にのみ使用できます。
-
-   ![ レコードタイプとビュー共有オプションを含む共有ボタン ](assets/share-button-with-record-type-and-view-sharing-options.png)
-
-1. 次のいずれかの形式を選択します。
-
-   * **Excel**
-   * **CSV**
-
-   >[!IMPORTANT]
-   >
-   >画面に別のビューを表示している場合、テーブルビューから情報をエクスポートすることはできません。 「詳細」 メニューの「エクスポート」 オプションにアクセスするには、エクスポートするテーブルビューを表示する必要があります。
-
-   ファイルがコンピューターにダウンロードされます。
-
-1. （オプション）コンピューターのダウンロードフォルダーに移動し、ダウンロードしたファイルを見つけます。
-
-   書き出されるファイルの名前は、次の形式に従います。
-
-   `Name of the view - name of the record type`
-
-   例えば、キャンペーン レコードタイプのテーブル ビューでは、`Table view - Campaigns` という名前のファイルを生成します。
-
-   ファイルには次の情報が表示されます。
-
-   * Excel ファイルでは、列ヘッダーが黒でハイライト表示されます
-   * Workfront インターフェイスに表示されるすべてのフィールド（同じ条件で並べ替えおよびフィルタリングされます）
-   * グループ化は Excel ファイルに保持されます
-
-   書き出したファイルを他のユーザーと共有したり、任意の通信に添付したりできるようになりました。
-
-</div>
 
