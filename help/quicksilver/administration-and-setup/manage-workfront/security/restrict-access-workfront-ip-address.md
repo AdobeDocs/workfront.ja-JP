@@ -8,14 +8,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 937965ad495453e185504d53f9d9c88c3cd7e201
+source-git-commit: afef6ee186340ff65ed9838b60b5a7b02b22d61f
 workflow-type: tm+mt
-source-wordcount: '447'
-ht-degree: 95%
+source-wordcount: '477'
+ht-degree: 89%
 
 ---
 
 # IP アドレスで Adobe Workfront へのアクセスを制限
+
+>[!IMPORTANT]
+>
+>この機能は、現在、Adobe Admin Consoleにオンボーディングされた組織では使用できません。 今後のリリースで、Adobe Admin Consoleで使用できるようになります。
 
 Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 75 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
 
