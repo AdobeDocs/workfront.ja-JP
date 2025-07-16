@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: af7789f3a4c7443854639fd60bcf0661217b37ae
+source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
 workflow-type: tm+mt
-source-wordcount: '6547'
+source-wordcount: '6589'
 ht-degree: 51%
 
 ---
@@ -133,7 +133,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 >[!NOTE]
 >
 >これは可能ですが、自分や他のユーザーがWorkfrontでカスタムフォームを使用し始めた後は、この名前を変更しないことをお勧めします。 変更してしまうと、Workfront の他の領域で参照される可能性のあるカスタムフィールドが認識されなくなります。
->&#x200B;>例えば、カスタムフィールドをレポートに追加し、後で名前を変更した場合、Workfront はレポート内のフィールドを認識せず、新しい名前でレポートに再追加しない限り、正しく機能しなくなります。
+>>例えば、カスタムフィールドをレポートに追加し、後で名前を変更した場合、Workfront はレポート内のフィールドを認識せず、新しい名前でレポートに再追加しない限り、正しく機能しなくなります。
 >
 >組み込みのWorkfront フィールドに既に使用されている名前は入力しないことをお勧めします。
 >
@@ -632,12 +632,12 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
       <td role="rowheader">JSON パス</td>
       <td><p>API の JSON パスを入力するか貼り付けます。</p> <p>このオプションを使用すると、API URL から返された JSON からデータを抽出できます。これは、JSON 内の値のうち、ドロップダウンオプションに表示する値を選択する手段として機能します。</p><p>例えば、API URL が次の形式で JSON を返す場合、「$.data[*].name」を使用して、ドロップダウンオプションとして「USA」と「Canada」を選択できます。</br>
       <pre>
-      &lbrace;
- data: &lbrace;
+      {
+ data: {
  { name: "USA"},
  { name: "Canada"}
- &rbrace;
- &rbrace;
+ }
+ }
       </pre>
       </p>
      <p>JSON パスと、正しい JSON パスを記述する方法について詳しくは、<a href="https://jsonpath.com/">https://jsonpath.com/</a> を参照してください。</p></td>
@@ -742,6 +742,10 @@ The Workfront Mobile app -->
      </tr> 
     </tbody> 
    </table>
+
+   >[!NOTE]
+   >PDF の場合、ウィジェットの表示サイズには大を使用することをお勧めします。
+   >ブラウザーのPDF ビューアはディスプレイに影響を与えるため、PDFの表示が最適でない場合は、ウィンドウサイズとブラウザーのズーム率を調整する必要が生じる場合があります。
 
 1. （オプション）前の手順を繰り返して、その他のフィールドやウィジェットを追加します。
 
