@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 8f4c1be156094d18df4bc3628d4f1fca90372119
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3446'
-ht-degree: 53%
+source-wordcount: '3346'
+ht-degree: 55%
 
 ---
 
 # テーブルビューの管理
 
-<span class="preview"> このページでハイライト表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -87,12 +87,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
-   <p>ビューの設定を一時的に変更したり、複製したり、書き出したりするための <span class="preview"> ビューに対するアクセス許可を表示します </span></p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、計画領域を含むレイアウトテンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画領域を有効にします。</span></p></td> 
+   <p>ビュー設定を一時的に変更したり、複製したり、ビューをエクスポートしたりするためのビューへのアクセス許可を表示します</p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -113,11 +108,9 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 テーブルビューを管理するには：
 
-1. <span class="preview"> テーブル表示を作成します。詳しくは、記事 [ レコード表示の管理 ](/help/quicksilver/planning/views/manage-record-views.md) を参照してください。</span>
+1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、テーブルビューを作成します。
 
-   <span class="preview">![ テーブル表示の例 ](assets/table-view-example.png)
-
-   </span>
+   ![ テーブル表示の例 ](assets/table-view-example.png)
 
 1. （オプション）「**行の高さ**」をクリックし、次のオプションから選択して、テーブルの行の高さを変更します。
    * 低い
@@ -130,7 +123,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
    * [フィルター](#add-filters)
    * [並べ替え](#add-a-sort)
    * [グループ化](#add-groupings)
-   * <span class="preview">[ 行の色 ](#add-row-colors)</span>
+   * [行の色分け](#add-row-colors)
    * [リアルタイムプレゼンス指標](#enable-the-real-time-presence-indicator)
 
 
@@ -459,7 +452,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
    グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
 
-   <span class="preview">![ テーブル表示で適用されたグループ化 ](assets/grouping-applied-in-table-view.png)</span>
+   ![ テーブル表示で適用されたグループ化 ](assets/grouping-applied-in-table-view.png)
 
 1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
 
@@ -470,9 +463,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 1. 「**以下でレコードをグループ化**」ボックスの外側をクリックして閉じます。
 1. （オプション）任意のグループ化の最後にある「**+新規レコード**」をクリックして新しいレコードを追加し、ページを更新して新しいレコードを適切なグループ化に追加します。<!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
-1. <span class="preview"> グループ化を展開または折りたたむには、次のいずれかの操作を行います。</span>
-
-   <div class="preview">
+1. グループ化を展開または折りたたむには、次のいずれかの操作を行います。
 
    1. **グループ化** アイコンをクリックし、**すべて展開** または **すべて折りたたむ** をクリックします。 これにより、テーブル表示のすべてのグループ化およびサブグループ化が展開される。
 
@@ -486,7 +477,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
       * **サブグループを展開**
       * **サブグループを折りたたむ**
 
-      ビューに適用するグループ化の数によっては、一部のオプションを使用できないことがあります。</div>
+      ビューに適用するグループ化の数によっては、一部のオプションを使用できないことがあります。
 
 <!-- this is not available yet: 
 
@@ -496,8 +487,6 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
-
-<div class="preview">
 
 ### 行の色の追加
 
@@ -533,8 +522,6 @@ To sort grouped records:
 
 1. **行の色** ボックスの外側をクリックして閉じます。 色は自動的に適用されます。
 
-</div>
-
 ### リアルタイムプレゼンスインジケーターの有効化
 
 デフォルトでは、すべてのレコードビューの右上隅に表示される、レコード情報を同時に編集している他のユーザーのアバターです。
@@ -557,7 +544,7 @@ To sort grouped records:
    >
    >任意の表示から「**共同作業者を表示**」切り替えスイッチを選択できます。 他のユーザーが現在編集しているフィールドの輪郭は、テーブルビューでのみ表示されます。
 
-<div class="preview">
+
 
 
 

@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 34%
+source-wordcount: '855'
+ht-degree: 35%
 
 ---
 
 # CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成
 
-<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -26,8 +26,6 @@ ht-degree: 34%
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -81,12 +79,8 @@ ht-degree: 34%
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースへの権限の管理</a> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -109,16 +103,12 @@ ht-degree: 34%
 * 空のシートはサポートされていません。
 * 次のタイプのフィールドはサポートされておらず、インポートシートのフィールドにマッピングできません。
 
-   * 接続フィールド（使用する環境による）
-
-      * 実稼動環境では、計画レコードまたはWorkfrontおよびAEM Assets オブジェクトへの接続フィールドをマッピングできません
-
-      * <span class="preview"> プレビュー環境では、接続フィールドを Planning レコードにマッピングしてインポートできます。 フィールドをWorkfrontとAEM Assetsにマッピングすることはできません。</span>
-
+   * WorkfrontおよびAEM Assets オブジェクトタイプへの接続フィールド
    * 接続された Planning レコードまたはWorkfrontおよびAEM Assetsオブジェクトからのフィールドの参照
    * 数式フィールド
    * 作成日、作成者
    * 最終変更日、最終変更者
+     <!--* <span class="preview">Approved date, Approved by</span>-->
    * ユーザー
 
 Excel または CSV ファイルを使用してレコードタイプを読み込むには：
@@ -155,21 +145,21 @@ Excel または CSV ファイルを使用してレコードタイプを読み込
 
    選択を解除したシートは、グレーの背景で表示されます。
 
-1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、<span class="preview">**フィールド** タブ </span> で次のいずれかの操作を行います。
+1. （オプション）列ヘッダーの右側にある下向き矢印をクリックして、「**フィールド**」タブで次のいずれかの操作を行います。
 
-   <span class="preview">![ レコードタイプマッピングのインポートボックスの「フィールド」タブ ](assets/field-tab-on-record-type-import-mapping-box.png)</span>
+   ![ レコードタイプマッピングのインポートボックスの「フィールド」タブ ](assets/field-tab-on-record-type-import-mapping-box.png)
 
    * いずれかのフィールドの名前を変更する
    * **フィールドタイプ** を変更する
    * フィールド **説明** を更新
 
-1. <span class="preview"> （オプション）「**接続**」タブをクリックして、列内の情報を他のレコードタイプの接続されたフィールドにマッピングします。</span>
+1. （オプション）「**接続**」タブをクリックして、列内の情報を他のレコードタイプの接続されたフィールドにマッピングします。
 
-   <span class="preview">![ レコードタイプの読み込みマッピングボックスの「接続」タブ ](assets/connection-tab-on-record-type-import-mapping-box.png)</span>
+   ![ レコードタイプの読み込みマッピングボックスの「接続」タブ ](assets/connection-tab-on-record-type-import-mapping-box.png)
 
    >[!TIP]
    >
-   ><span class="preview"> マッピングできるのは、Workfront Planning に接続されたレコードのフィールドのみです。 WorkfrontまたはAEM Assets Connections からフィールドにマッピングすることはできません。 詳しくは、この記事の「[Excel または CSV ファイルを使用したレコードタイプの読み込みに関する考慮事項 ](#considerations-about-importing-record-types-using-an-excel-or-csv-file) の節を参照してください。</span>
+   >マッピングできるのは、Workfront Planning に接続されたレコードのフィールドのみです。 WorkfrontまたはAEM Assets Connections からフィールドにマッピングすることはできません。 詳しくは、この記事の「[Excel または CSV ファイルを使用したレコードタイプの読み込みに関する考慮事項 ](#considerations-about-importing-record-types-using-an-excel-or-csv-file) の節を参照してください。
 
 1. （任意）フィールドに関する情報を更新したら、「**保存**」をクリックします。
 

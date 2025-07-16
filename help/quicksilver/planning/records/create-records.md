@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2468'
-ht-degree: 21%
+source-wordcount: '2388'
+ht-degree: 20%
 
 ---
 
 
 # レコードの作成
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -43,8 +43,6 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -97,16 +95,13 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td> <p>レコードを追加するワークスペース <span class="preview"> およびレコードタイプ </span> に対する投稿以上の権限。 </p>
-   <p>レコード ページの「レコードをリクエスト」ボタンを使用してレコードを作成するための、ワークスペース <span class="preview"> およびレコードタイプ </span> に対する表示以上の権限</p>
+   <td> <p>レコードを追加するワークスペースとレコードタイプに対する投稿以上の権限。 </p>
+   <p>レコード ページの「レコードをリクエスト」ボタンを使用して、ワークスペースおよびレコードタイプに対する表示以上の権限を表示し、レコードを作成します</p>
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>
    <p>子オブジェクト（プロジェクト）を追加するためのWorkfront オブジェクト（ポートフォリオ）への権限を管理します。</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>Workfront管理者を含むすべてのユーザーには、メインメニューに計画エリアを含むレイアウトテンプレートを割り当てる必要があります </p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -137,7 +132,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
      >[!TIP]
      >
-     ><span class="preview"> グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontによってグループに含まれるフィールドが自動的に設定されます。 必要に応じてこれらのフィールドを手動で編集でき、レコードがグループから削除される可能性があります。</span>
+     >グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontはグループに含まれるフィールドを自動的に設定します。 必要に応じてこれらのフィールドを手動で編集でき、レコードがグループから削除される可能性があります。
 
    * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。これにより、開始レコードの下に空の行が追加されます。
    * レコードの主フィールドにポインタを合わせ、フィールドの右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**上にレコードを挿入** または **下にレコードを挿入** をクリックします。
@@ -187,10 +182,10 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 ## 任意のレコードタイプ表示から「新規レコード」または「レコードをリクエスト」ボタンを使用してレコードを作成
 
-ワークスペース <!--<span class="preview">and record type</span>--> に対する表示権限を持つユーザーは、レコードタイプ ページの「レコードをリクエスト」ボタンを使用してのみレコードを作成できます。
+ワークスペースおよびレコードタイプに対する表示権限を持つユーザーは、レコードタイプページの「レコードをリクエスト」ボタンを使用してのみレコードを作成できます。
 
-ワークスペースに対する投稿権限と管理権限を持つユーザー <!--<span class="preview">and record type</span>-->、レコードタイプ ページの「新しいレコード」ボタンを使用してレコードを作成できます。
-<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+ワークスペースおよびレコードタイプに対する投稿権限と管理権限を持つユーザーは、レコードタイプページの「新しいレコード」ボタンを使用してレコードを作成できます。
+
 
 >[!IMPORTANT]
 >
@@ -207,13 +202,13 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
    最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトで、レコードタイプのページがテーブルビューで開きます。
 選択したタイプのすべてのレコードがビューに表示されます。
 
-1. （条件付き）ワークスペースと権限に応じて、任意の表示で、画面の右上隅にある次のいずれかをクリック <!--<span class="preview">and record type</span>--> ます。
+1. （条件付き）ワークスペースとレコードタイプの権限に応じて、任意の表示から、画面の右上隅にある次のいずれかをクリックします。
 
-   * ワークスペースコン **ールに対する投稿以上の権限がある場合は、「** 新しいレコード <!--<span class="preview">and record type</span>-->」をクリックします
+   * ワークスペースおよびレコードタイプに対する投稿以上の権限がある場合は、「**新しいレコード**」をクリックします
 
      または
 
-   * Workspace **ージに対する表示権限がある場合は、「** レコードをリクエスト <!--<span class="preview">and record type</span>-->」をクリックします。
+   * ワークスペースとレコードタイプに対する表示権限がある場合は、「**レコードをリクエスト**」をクリックします。
 
 1. （条件付き） **新規レコード** をクリックした場合、次の操作を行います。
 

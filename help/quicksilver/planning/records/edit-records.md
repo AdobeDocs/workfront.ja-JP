@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 5f9f4d4f100557238d9ff8d7f571108de4341c75
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '2305'
+source-wordcount: '2209'
 ht-degree: 44%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 44%
 
 # レコードの編集
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -88,14 +88,10 @@ ht-degree: 44%
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>  <p>ワークスペース <span class="preview"> およびレコードタイプ </span> に対する投稿以上の権限 </a> </p>  
+   <td>  <p>ワークスペースおよびレコードタイプ </a> への投稿以上の権限 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -140,7 +136,7 @@ ht-degree: 44%
 
 詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
-<span class="preview"> グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontでは新しいレコードのグループ化に含まれるフィールドが自動的に更新されます。 必要に応じてこれらのフィールドを手動で編集でき、レコードがグループから削除される可能性があります。</span>
+グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontでは新しいレコードのグループ化に含まれるフィールドが自動的に更新されます。 必要に応じてこれらのフィールドを手動で編集でき、レコードがグループから削除される可能性があります。
 
 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 

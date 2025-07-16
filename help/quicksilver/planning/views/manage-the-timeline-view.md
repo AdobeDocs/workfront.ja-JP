@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 44b3298905a04c64a457045c4112d9628d933aae
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '3804'
+source-wordcount: '3708'
 ht-degree: 40%
 
 ---
 
 # タイムラインビューの管理
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -81,12 +81,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
    <p>ビュー設定を一時的に変更したり、複製したりするためのビューへのアクセス許可を表示します</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p> </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -126,9 +121,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    >
    >    タイムラインのレコードの並べ替えは、コンパクト表示には表示されません。
 
-1. <span class="preview"> （条件付き）管理者がカスタム四半期を有効にしており、Workfrontがカスタム四半期の設定方法に関する問題を検出した場合、タイムラインビューを開くと警告が表示される場合があります。</span>
-
-   <div class="preview">
+1. （条件付き）管理者がカスタム四半期を有効にしており、Workfrontがカスタム四半期の設定方法に関する問題を検出した場合、タイムラインビューを開くと警告が表示される場合があります。
 
    次のシナリオが存在します。
 
@@ -152,13 +145,11 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    >設定エリアでカスタム四半期を設定すると、タイムラインビューにクラシック四半期ではなくカスタム四半期が表示されます。
    >詳しくは、[ カスタム四半期の有効化 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
 
-   </div>
-
-1. <span class="preview"> （条件付き）Workfrontの管理者の場合は、「**設定に移動**」をクリックして四半期を設定します。 そうでない場合は、「**OK**」をクリックし、Workfront管理者にカスタム四半期の設定を依頼します。</span>
+1. （条件付き）Workfrontの管理者の場合は、「**設定に移動**」をクリックして四半期を設定します。 そうでない場合は、「**OK**」をクリックし、Workfront管理者にカスタム四半期の設定を依頼します。
 
    >[!TIP]
    >
-   ><span class="preview"> 「設定に移動」ボタンは、Workfront管理者にのみ表示されます。</span>
+   >「セットアップに移動」ボタンは、Workfront管理者の場合にのみ表示されます。
 
 1. （オプションおよび条件付き）レコード名が切り詰められている場合は、レコードバーにマウスポインターを置くと、レコードのフルネームと追加情報が表示されます。 タイムラインでのレコードバーの切り捨ての設定について詳しくは、この記事の [ タイムライン表示設定の編集 ](#edit-the-timeline-view-settings) を参照してください。
 
@@ -172,7 +163,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
       * **四半期**：四半期を示す月と週を表示します。
       * **月**：週と日を表示します。
 1. （オプション）「**コンパクトビューに切り替え**」をクリックして、日付が交差していないレコードを同じ行に表示します。<!--check to see if they updated the name of the setting here-->
-1. （条件付き）モードを **コンパクト** に変更した場合は、「**標準に切り替え** ビューをクリックして、レコードを別々の行に表示します。 <span class="preview"> 「**標準** オプションがデフォルトです。</span>  <!--check to see if they updated the name of the setting here-->
+1. （条件付き）モードを **コンパクト** に変更した場合は、「**標準に切り替え** ビューをクリックして、レコードを別々の行に表示します。 「**標準**」オプションがデフォルトです。 <!--check to see if they updated the name of the setting here-->
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
@@ -225,7 +216,7 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 1. タイムラインビューを選択し、テーブルの右上隅にある **フィルター** をクリックします。
 1. 「**条件を追加**」をクリックして、次の情報を追加します。
 
-   * &#x200B;<!-- the tip below might change--> でフィルターする **フィールドを選択**
+   * **でフィルターする** フィールドを選択 <!-- the tip below might change-->
 
    * **オプションを選択** （またはフィルター修飾子）して、フィールドが満たす必要がある条件の種類を定義します
 
@@ -392,7 +383,7 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >* 「分類」オプションを使用して追加のレコードを表示する場合、開始日と終了日はメインレコードの日付です。 この領域で接続されているレコードの開始日と終了日を選択することはできません。
 
-1. <span class="preview"> （条件付きおよびオプション）Workfrontの管理者の場合は、「**カスタム四半期を使用** ボックスで「**設定に移動**」をクリックして「設定」エリアに移動し、カスタム四半期を設定します。 カスタム四半期を設定した後、クラシック四半期ではなくタイムラインビューに表示することができます。 Workfrontの管理者でない場合は、管理者に対してカスタム四半期が有効になるようにリクエストできます。</span>
+1. （条件付きおよびオプション）Workfrontの管理者の場合は、「**カスタム四半期を使用** ボックスで **「設定に移動**」をクリックして「設定」エリアに移動し、カスタム四半期を設定します。 カスタム四半期を設定した後、クラシック四半期ではなくタイムラインビューに表示することができます。 Workfrontの管理者でない場合は、管理者に対してカスタム四半期が有効になるようにリクエストできます。
 
    詳しくは、[ カスタム四半期の有効化 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md) を参照してください。
 
@@ -400,11 +391,11 @@ this is not possible right now; if this is the same functionality as the table v
 
    >[!TIP]
    >
-   ><span class="preview"> 「設定に移動」ボタンは、Workfront管理者にのみ表示されます。</span>
+   >「セットアップに移動」ボタンは、Workfront管理者の場合にのみ表示されます。
 
 1. 左側のパネルで **バースタイル** をクリックし、レコードバーに表示する情報を指定します。
 
-   標準ビューで「分類」オプションを使用すると、メインレコードのバーのスタイル <span class="preview"> および接続されたレコードのバーのスタイル </span> を定義できます。
+   標準ビューで [ 分類 ] オプションを使用すると、メイン レコードおよび接続レコードのバーのスタイルを定義できます。
 
    レコードのテーブルビューで定義されたレコードのプライマリフィールド（またはタイトル）は、デフォルトで選択されています。
    <!--adjust this when the primary field is released??-->
@@ -429,20 +420,20 @@ this is not possible right now; if this is the same functionality as the table v
 
    ![ プレビューを使用したレコードの詳細パネルのタイムライン設定 ](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. <span class="preview"> （オプションおよび条件付き）標準モードでタイムラインを表示する場合、「**バーの詳細を切り捨て**」設定を選択します。 選択すると、レコードバーの情報は切り捨てられ、バーにカーソルを合わせたときにのみ完全に表示されます。 この設定はデフォルトでは選択されておらず、レコード情報はバーに完全に表示されます。</span>
+1. （オプションおよび条件付き）タイムラインを標準モードで表示する場合、「**バーの詳細を切り捨て**」設定を選択します。 選択すると、レコードバーの情報は切り捨てられ、バーにカーソルを合わせたときにのみ完全に表示されます。 この設定はデフォルトでは選択されておらず、レコード情報はバーに完全に表示されます。
 
    ![ ハイライト表示された「タイムライン設定」ボックスで設定を切り捨てる ](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
 
    >[!TIP]
    >
-   ><span class="preview"> コンパクトモードでタイムラインビューを表示する場合、「バーの詳細を切り捨て」設定は使用できません。</span>
+   >タイムラインビューをコンパクトモードで表示している場合、「バーの詳細を切り捨て」設定は使用できません。
    >
 
 1. 左パネルの&#x200B;**カラー**&#x200B;をクリックすると、タイムラインのレコードとグループ化の色をカスタマイズできます。
 
    ![ 「カラー」タブのタイムライン表示 ](assets/color-tab-timeline-view.png)
 
-   標準ビューで「分類」オプションを使用すると、メインレコードの色 <span class="preview"> および接続されたレコードの色 </span> を定義できます。
+   標準ビューで「分類」オプションを使用すると、接続されたレコードの色だけでなく、メインレコードの色も定義できます。
 
 1. （条件付きおよびオプション）タイムラインビューにグループ化を追加した場合、グループ化の色を設定するには、「**グループ化の色を設定**」セクションで次のオプションから選択します。
 
@@ -481,7 +472,7 @@ this is not possible right now; if this is the same functionality as the table v
 
    選択したレコードタイプに対して色分けされたオプションを含むフィールドがない場合、このオプションは淡色表示になります。
 
-1. <span class="preview"> （オプション）「**分類**」オプションを使用している場合は、タイムラインに表示されている接続された各レコードに対して、手順 4 から始まる手順を繰り返します。</span>
+1. （オプション） **分類** オプションを使用している場合は、タイムラインに表示されている接続された各レコードに対して、手順 4 から始まる手順を繰り返します。
 
 1. 「**保存**」をクリックします。
 
@@ -515,7 +506,7 @@ this is not possible right now; if this is the same functionality as the table v
 #### 接続されたレコードの分類
 
 1. レコードタイプのタイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
-1. **標準** または <span class="preview">**コンパクト** モードから、タイムラインビューの右上隅にある **分類**</span> をクリックします。
+1. **標準** または **コンパクト** モードから、タイムラインビューの右上隅にある **分類** をクリックします。
 1. 「**リンクされたレコードタイプを選択**」ボックスを展開し、接続されたレコードタイプを選択します。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![ タイムライン表示の分類ピッカーとボタン ](assets/breakdown-picker-and-button-on-timeline.png)
@@ -543,13 +534,13 @@ this is not possible right now; if this is the same functionality as the table v
    >
    >分類オプションの選択肢として表示するには、製品とプログラムの両方をキャンペーンに接続する必要があり、それらを任意の順序で分類に追加できます。
 
-1. <span class="preview"> （条件付き）コンパクトモードでタイムラインを表示している場合は、**ビューを切り替え** をクリックします。 **コンパクト** モードでは分類が表示されません。</span>
+1. （条件付き）コンパクトモードでタイムラインを表示している場合は、「**表示を切り替え**」をクリックします。 **コンパクト** モードでは分類が表示されません。
 
    >[!TIP]
    >
-   ><span class="preview"> 標準ビューに切り替える **で、「** これを再表示しない **」を選択しますビュ** を切り替える前に、ボックスをクリックします。</span>
+   >**標準ビューに切り替える** で、「**これを再表示しない」を選択しますビュ** を切り替える前に、ボックスをクリックします。
    >
-   ><span class="preview"> この環境設定は、現在のブラウザーでのみ保持されます。 ブラウザーまたはコンピューターを変更する場合は、この環境設定を再度選択する必要があります。</span>
+   >この環境設定は、現在のブラウザーでのみ記憶されます。 ブラウザーまたはコンピューターを変更する場合は、この環境設定を再度選択する必要があります。
    >
    >ビューを標準に切り替え、接続されたレコードをビューに表示した後は、コンパクト モードに戻すことはできません。
 1. （オプション）上記の手順を繰り返して、接続されたレコードをさらに追加します。

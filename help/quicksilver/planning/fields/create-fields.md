@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 04818bc054c3bab6e6208b6678365549664d1594
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
-source-wordcount: '4717'
-ht-degree: 52%
+source-wordcount: '4607'
+ht-degree: 47%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ja ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 52%
 
 # フィールドの作成
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -100,13 +100,8 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペース <span class="preview"> およびレコードタイプ </span></a> に対する権限の管理 </p>  
+   <td>   <p>ワークスペースに対する権限とレコードタイプの管理 </a> </p>  
    <p>システム管理者は、自分が作成したものでないものも含めて、すべてのワークスペースに対する権限を持っています。</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p></td> 
   </tr> 
 </tbody> 
 </table>
@@ -191,7 +186,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
    ![1 行テキストのフィールドタイプ ](assets/single-line-text-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
-   * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名前**：レコードのテーブルまたは詳細ページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールドの列ヘッダーにポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
 1. 「**作成**」をクリックします。
 
@@ -217,7 +212,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
-   * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名前**：レコードのテーブルまたは詳細ページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
 1. 「**作成**」をクリックします。
 
@@ -234,7 +229,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
-   * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名前**：レコードのテーブルまたは詳細ページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **選択肢**：ユーザーがこのフィールドを更新する際に選択できるオプション。 各選択肢の名前には、数字と文字の両方を使用できます。
 1. 「**選択肢を追加**」をクリックして、選択肢をさらに追加します。 複数選択フィールドに追加できる選択肢の数に制限はありません。
@@ -263,7 +258,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
-   * **名前**：テーブルまたはレコードの詳細ページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名前**：レコードのテーブルまたは詳細ページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **選択肢**：フィールドを保存した後、ドロップダウンメニューから選択できるオプション。各選択肢の名前には、数字と文字の両方を使用できます。
 
@@ -292,7 +287,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
-   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **日付形式**：このフィールドに表示する日付形式のタイプ。<!--update this casing - submitted bug for it-->
 
@@ -322,7 +317,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 >数値フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに数値として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**数値**&#x200B;フィールドタイプを選択します。
@@ -330,7 +325,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
    ![ 数値フィールドタイプ ](assets/number-field-type.png)
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
-   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **精度**：フィールドに記録する小数点以下の桁数です。 小数点以下 6 桁まで表示できます。
    * **負の数を許可**：このフィールドで負の数値を許可する場合は、このオプションを選択します。このオプションは、デフォルトで無効になっています。
@@ -352,7 +347,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 >割合フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページにパーセンテージとして表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
@@ -360,7 +355,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
    ![ パーセンテージのフィールドの種類 ](assets/percentage-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
-   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **精度**：フィールドに記録する小数点以下の桁数です。 小数点以下 6 桁まで表示できます。
    * **負の数を許可**：このフィールドで負の割合の値を許可する場合は、このオプションを選択します。このオプションは、デフォルトで無効になっています。
@@ -392,14 +387,14 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 >通貨フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**通貨**&#x200B;フィールドタイプを選択します。
 
    ![ 通貨フィールドタイプ ](assets/currency-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
-   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **通貨**：このフィールドに表示する通貨のタイプ。これは、国際標準化機構（ISO）に基づく通貨のリストです。
    * **精度**：フィールドに記録する小数点以下の桁数です。 6 桁まで表示できます。
@@ -422,7 +417,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
    ![ チェックボックスフィールドタイプ ](assets/checkbox-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
-   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
 1. 「**作成**」をクリックします。
 
@@ -513,7 +508,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
    ![ 人物フィールドタイプ ](assets/people-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
-   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **複数の値を許可**：ユーザーがこのフィールドに複数のユーザーを追加できるようにする場合は、このオプションを選択します。このオプションは、デフォルトで無効になっています。
 
@@ -535,7 +530,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
-   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created by"-->
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--this might change and they might prepopulate it with "Created by"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
 
 1. 「**作成**」をクリックします。
@@ -555,7 +550,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
-   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created date"-->
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--this might change and they might prepopulate it with "Created date"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **日付形式**：次の形式から選択します。
 
@@ -586,7 +581,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
-   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created by"-->
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--this might change and they might prepopulate it with "Created by"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
 
 1. 「**作成**」をクリックします。
@@ -606,7 +601,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
-   * **名前**：テーブルまたはレコードページに表示される、フィールドタイプの名前。<!--this might change and they might prepopulate it with "Created date"-->
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--this might change and they might prepopulate it with "Created date"-->
    * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
    * **日付形式**：次の形式から選択します。
 
@@ -626,6 +621,75 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 1. 「**作成**」をクリックします。
 
    新しい「最終更新日タイプ」フィールドがレコードタイプの列として追加され、その値にはレコードが最後に更新された日付（または日付と時刻）が事前入力されます。
+
+<!--
+
+<div class="preview">
+
+### Approved date
+
+You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
+
+>[!TIP]
+>
+>The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
+>
+>If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
+ 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+ 
+   ![Approved date field type](assets/approved-date-field-type.png)
+
+   1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+     * **Date Format**: Select from the following formats:
+
+        * **Locale**: Matches the locale of your browser.
+        * **Standard**: 05/16/2023
+        * **Long**: May 16, 2023
+        * **European**: 16/05/2023
+        * **ISO**: 2023-05-16
+     
+     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
+    
+        Select from the following options:
+        
+        * **24hr**: For example: 18:00
+        * **12hr**: For example: 6:00 PM 
+    
+1. Click **Create**.
+
+    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
+
+### Approved by
+
+You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+
+>[!TIP]
+>
+>The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>
+>If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
+ 
+   ![Approved by field type](assets/approved-by-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field, as it will appear in a table or the record page. 
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+    
+1. Click **Create**.
+
+    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+
+</div>
+-->
+
 
 <!--
 
@@ -664,7 +728,7 @@ Create an Object field:
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Name**: The name of the field, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
 
 1. Click **Create**.

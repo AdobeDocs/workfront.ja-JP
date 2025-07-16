@@ -8,7 +8,7 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 78b4724ca8d5df15ed76e9e882179e3cb127282c
+source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
 workflow-type: tm+mt
 source-wordcount: '1022'
 ht-degree: 81%
@@ -204,9 +204,9 @@ ht-degree: 81%
 
 1. （オプションおよび条件付き）Workfront Planning パッケージを購入した場合は、左側のパネルで「**Planning**」タブをクリックし、「**送信済み**」をクリックしてWorkfront Planning 要求を表示します。
 
-   <span class="preview">**フィルター** および **列** を使用して、Planning 要求リスト内の情報を更新します。</span>
+   **フィルター** および **列** を使用して、Planning 要求リスト内の情報を更新します。
 
-   <span class="preview">![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)</span>
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
 
    詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
