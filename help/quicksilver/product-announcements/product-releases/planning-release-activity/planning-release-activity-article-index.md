@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
-source-git-commit: 282bcd517736cef2836842409e65a6ddce63d853
+source-git-commit: 3eaab5818e982914f807ce2c4e92dee1885ea8d9
 workflow-type: tm+mt
-source-wordcount: '119'
+source-wordcount: '137'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 現在のWorkfront Planning リリース・アクティビティの詳細は、次の記事を参照してください。
 
-* [Adobe Workfront Planning の 2025 年第 3 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
+* [Adobe Workfront Planning の 2025 年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
 
 >[!ENDSHADEBOX]
 
@@ -30,6 +30,8 @@ ht-degree: 0%
 
 2025 年 4 月 10 日（PT）の実稼動リリースより前にリリースされた機能について詳しくは、次の記事を参照してください。
 
+* [Adobe Workfront Planning の 2025 年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
+* [Adobe Workfront Planning の 2025 年第 3 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
 * [Adobe Workfront Planning の 2025 年第 2 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront Planning の 2025 年第 1 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 * [Adobe Workfront Planning の 2024 年第 4 四半期リリースアクティビティ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)

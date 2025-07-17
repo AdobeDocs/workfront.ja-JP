@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 1ab909022dad1acd1502cdc2bd8ba2d596c669e8
+source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
 workflow-type: tm+mt
-source-wordcount: '1801'
+source-wordcount: '1794'
 ht-degree: 17%
 
 ---
@@ -58,15 +58,33 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
-    <tr>
+        <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> デスクトッププルーフビューアのアップデート </a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>デスクトッププルーフビューアがバージョン 2.1.50 に更新されました。この更新には、内部ツールの更新が含まれており、エンドユーザーの機能には影響しません。</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe ExpressとWorkfront Proofの統合 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>Adobe ExpressとWorkfront Proofの新しい統合についてお知らせします。</p>
         </td>
         <td>2025年6月13日（PT）</td>
         <td>2025年6月13日（PT）</td>
         <td>2025年6月13日（PT）</td>
     </tr> 
+    <!--<tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Desktop Proofing Viewer Update</a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>The Desktop Proofing Viewer has been updated to version 2.1.50. This update includes internal tooling updates and does not impact end-user functionality.
+            <ul>
+            <li>Streamline collaboration between creative, legal, and compliance teams to reduce time-to-publish while maintaining oversight</li>
+            <li>Conduct deep reviews using drawing markups, annotations, and commenting with the Workfront proofing viewer</li>
+            <li>Meet enterprise compliance standards with electronic signatures and full audit logs</li>
+            <li>Require approval on any remixed files from an Express branded template</li>
+            <li>Map an Express template to a multi-stage review and approval workflow using advanced proof templates</li>
+            </ul>
+            <p>Note: The integration must be enabled for your accounts by the Adobe Product Team.</p>
+            </p>
+        </td>
+        <td>July 17, 2025</td>
+        <td>July 17, 2025</td>
+        <td>July 17, 2025</td>
+    </tr> -->
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}"> 新規プルーフとGenStudio for Performance Marketingの統合 </a>
@@ -332,7 +350,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 

@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b4e2f9b6cad03062b4edb2858f2a59847b47d622
+source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
 workflow-type: tm+mt
-source-wordcount: '13233'
+source-wordcount: '13258'
 ht-degree: 86%
 
 ---
@@ -19,6 +19,9 @@ ht-degree: 86%
       * [製品リリースの概要](product-announcements/product-releases/product-releases.md)
       * [Adobe Workfront のリリーススケジュールとプロセス](product-announcements/product-releases/workfront-release-schedule.md)
       * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
+      * 2025 年第 4 四半期リリース {#release-25-q4}
+         * [2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
+         * [2025年第 4 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * 2025 年第 3 四半期リリース {#release-25-q3}
          * [2025 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)
          * [プルーフとドキュメント管理の機能強化](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md)
@@ -203,7 +206,8 @@ ht-degree: 86%
          * [21.1 モバイル機能の強化](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning リリースアクティビティ{#planning-release-activity}
-         * [Adobe Workfront Planning リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+         * [Adobe Workfront計画リリースアクティビティ ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+           [Adobe Workfront Planning の 2025 年第 4 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Adobe Workfront Planning の 2025 年第 3 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Adobe Workfront Planning の 2025 年第 2 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
          * [Adobe Workfront Planning の 2025 年第 1 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
@@ -500,7 +504,7 @@ ht-degree: 86%
          * [オブジェクトやエリアへのアクセス権（ライセンスタイプ別）](administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
          * [各オブジェクトタイプの機能](administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
          * [各オブジェクトタイプへの設定可能なアクセス権](administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md)
-         * [組み込みのアクセスレベル](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
+         * [ビルトインのアクセスレベル](administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md)
          * [ユーザーのアクセスレベルとライセンスの一覧表示](administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md)
       * Workfrontへのアクセスの設定 {#configure-access}
          * [アクセス権の設定](administration-and-setup/add-users/configure-and-grant-access/configure-access.md)
@@ -1531,10 +1535,10 @@ ht-degree: 86%
          * [フィルター、ビュー、グループを削除](reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md)
          * [マイルストーンビューの使用](reports-and-dashboards/reports/reporting-elements/use-milestone-view.md)
          * [列の幅と順序の変更](reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
-      * 組み込みレポートを使用する {#built-in-reports}
-         * [組み込みレポートを使用する](reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
+      * ビルトインのレポートを使用する {#built-in-reports}
+         * [ビルトインのレポートを使用する](reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
          * [ビュー内のビルトインステータスアイコン](reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
-         * [Adobe Workfront の組み込みレポートを使用する](reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+         * [Adobe Workfront のビルトインのレポートを使用する](reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
          * [リソース稼動率レポートの概要](reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
       * レポートを作成および管理する {#create-manage-reports}
          * [レポートを作成および管理する](reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
@@ -2113,7 +2117,7 @@ ht-degree: 86%
       * [Adobe Workfront Planning のアプリ内通知の管理](planning/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront統合 {#adobe-workfront-integrations}
    * [Adobe Workfront 統合](workfront-integrations-and-apps/workfront-integrations.md)
-   * [Adobe Workfront の組み込みの統合の概要](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
+   * [Adobe Workfront のビルトインの統合の概要](workfront-integrations-and-apps/built-in-integrations-non-admin.md)
    * [Adobe Workfront 統合方法](workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)
    * レビューと承認の統合 {#review-approval-integrations}
       * [レビューと承認の統合：記事インデックス](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/review-approval-integrations-toc.md)
