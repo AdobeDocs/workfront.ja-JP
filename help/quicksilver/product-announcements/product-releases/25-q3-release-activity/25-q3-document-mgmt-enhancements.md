@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: 53c5c970f2bfd0191c053baec25bd29f11b6272d
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '650'
 ht-degree: 3%
 
 ---
@@ -39,7 +39,31 @@ Note: The integration must be enabled for your accounts by the Adobe Product Tea
 For more information, see [Get started with the Adobe Express and Workfront Proof integration](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md).
 -->
 
+## 統合承認の段階的なロールアウト
+
+>[!NOTE]
+>
+>お客様向けの実稼動リリース：2025 年 7 月 17 日（PT）から段階的にロールアウトを開始
+
+
+以前は新規ドキュメント承認と呼ばれていた統合承認を、段階的にロールアウトして有効にしています。 この機能は、今後 6 か月間にWorkfront インスタンスで自動的に有効になります。
+
+統合承認は、従来のドキュメント承認に代わるもので、ドキュメントに直接次の機能を提供します。
+
+* レビュアーまたは承認者として、Workfront チーム全体を指定します
+* レビューまたは承認の期限を設定
+* 承認テンプレートの作成と再利用
+* 新しいバージョンの使用
+* Workfrontのホームウィジェットで、承認に関する複数の主要業績評価指標を表示します
+* キャンバスダッシュボードを使用すると、統合承認に関するレポートの詳細を表示できます
+
+詳しくは、[ 統合承認の概要 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を参照してください。
+
 ## デスクトッププルーフビューアの更新
+
+>[!NOTE]
+>
+>* すべてのお客様向けの本番リリース： 2025年6月16日（PT）
 
 デスクトッププルーフビューアがバージョン 2.1.50 に更新されました。
 

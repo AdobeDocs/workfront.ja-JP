@@ -6,9 +6,9 @@ description: 既に承認待ちのドキュメントに、追加の承認者ま�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 10efc850b4951c3ad1a7086d3ec087d848dde96e
+source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '575'
 ht-degree: 37%
 
 ---
@@ -43,7 +43,7 @@ ht-degree: 37%
 * レビュアーまたは承認者として、Workfront チーム全体を指定します
 * レビューまたは承認の期限を設定
 * 承認テンプレートの作成と再利用
-* に新しいバージョンを利用する
+* 新しいバージョンの使用
 * Workfrontのホームウィジェットで、承認に関する複数の主要業績評価指標を表示します
 * キャンバスダッシュボードを使用すると、統合承認に関するレポートの詳細を表示できます
 
