@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 94%
@@ -59,7 +59,6 @@ Workfront Goals へのアクセス権について詳しくは、[Workfront Goals
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
 1. このアクセスレベルに使用する&#x200B;**目標**&#x200B;の右側にあるオプションをクリックします。
 
-   ![](assets/edit-access-level-goals.png)
 
    >[!NOTE]
    >

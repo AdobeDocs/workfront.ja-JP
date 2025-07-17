@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4fb6eefd-74dd-4941-91d4-0e5f637febf3
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 95%
@@ -53,7 +53,7 @@ ht-degree: 95%
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
 1. 「フィルター」の右にある「**表示**」ボタンまたは「**編集**」ボタン上の歯車アイコン ![](assets/gear-icon-settings.png) をクリックし、付与する機能を「**設定を微調整**」の下で選択します。
 
-   ![](assets/gear-icon-filters-dashboards-groupings.jpg)
+   ![](assets/gear-icon-filters-dashboards-groupings.png)
 
    デフォルトでは、計画、作業、レビュアーやリクエストのライセンスを持つユーザーは、完全な表示および編集の機能を持ちます。外部ユーザーライセンスを持つユーザーは、フィルター、ビュー、グループ化にアクセスできません。
 

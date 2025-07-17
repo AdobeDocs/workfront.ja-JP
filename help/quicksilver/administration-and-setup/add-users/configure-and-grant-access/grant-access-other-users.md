@@ -5,10 +5,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
-source-git-commit: 5113771baf269405e758307d11a392f95ee870fe
+source-git-commit: 09bb41e16da89edd2c2cbfb5a85213045e52394d
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 96%
+source-wordcount: '767'
+ht-degree: 95%
 
 ---
 
@@ -71,6 +71,8 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 
    1. 「**連絡情報の表示**」を無効にし、「X」をクリックして、「**設定の微調整**」ボックスを閉じます。
 
+      ![ ユーザー設定の微調整 ](assets/fine-tune-users.png)
+
 1. 他のユーザーを編集するプランライセンスのアクセス権を持つユーザーの権限を変更するには、「**ユーザー**」の右側にある&#x200B;**編集**&#x200B;ボタン上の歯車アイコン ![](assets/gear-icon-settings.png) をクリックし、付与する権限を次の中から選択します。
 
    <table style="table-layout:auto"> 
@@ -80,12 +82,9 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
      <tr> 
       <td role="rowheader"><strong>作成</strong> </td> 
       <td> <p>ユーザーがユーザーを作成できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> 
-      &lt;!--
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">この変更が行われていることを確認してから、これら 2 つの注釈のドラフト指定を解除してください。3/29 では、req doc は、これが調査結果に依存すると述べています。</p>
-
-       &lt;p>&lt;b>メモ&lt;/b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。&lt;/p>
-       —>  &lt;/td>
-   </tr> 
+     <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。</p>
+        </td>  
+     </tr> 
      <tr> 
       <td role="rowheader"><strong>削除</strong> </td> 
       <td> <p> ユーザーが自分で作成したユーザーを削除できるようにします。<br>このオプションは、デフォルトで有効になっています。</p> <p><b>メモ</b>：組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。</p> </td> 
