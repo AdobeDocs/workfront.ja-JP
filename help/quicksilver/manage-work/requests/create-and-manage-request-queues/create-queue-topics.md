@@ -7,7 +7,7 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: ef33a8bcdec76747434b5c5aaf62a743335fb10f
 workflow-type: tm+mt
 source-wordcount: '844'
 ht-degree: 95%
@@ -154,18 +154,16 @@ ht-degree: 95%
      </tr> 
      <tr> 
       <td role="rowheader"><strong>リクエストタイプ</strong> </td> 
-      <td> <p>このキュートピックに保存するリクエストの種類を選択します。表示オプションは、プロジェクトの「<strong>キューの詳細</strong>」タブで設定します。必須フィールドです。 </p>
-
-   <p><b>メモ</b>：
-
-   「キューの詳細」ページと「キュートピック」ページの両方で「リクエストタイプ」が選択されている場合にのみ、タイプが「要求」エリアに選択肢として表示されます。プロジェクトの「キューの詳細」エリアの設定について詳しくは、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>を参照してください。 </p> <p>次のタイプから選択します。</p>
-   <ul>
-   <li>バグレポート</li>
-   <li>変更依頼</li>
-   <li>イシュー</li>
-   <li>リクエスト</li>
-   </ul> <p>Workfront 管理者が、これらのオプションの一部の名前を変更している可能性があります。 </p> </td>
-   </tr> 
+      <td> <p>このキュートピックに保存するリクエストの種類を選択します。表示オプションは、プロジェクトの「<strong>キューの詳細</strong>」タブで設定します。必須フィールドです。 </p> 
+       <p><b>メモ</b>：</p>
+      <p>「キューの詳細」ページと「キュートピック」ページの両方で「リクエストタイプ」が選択されている場合にのみ、タイプが「要求」エリアに選択肢として表示されます。プロジェクトの「キューの詳細」エリアの設定について詳しくは、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>を参照してください。 </p> <p>次のタイプから選択します。</p> 
+       <ul> 
+        <li>バグレポート</li> 
+        <li>変更依頼</li> 
+        <li>イシュー</li> 
+        <li>リクエスト</li> 
+       </ul> <p>Workfront 管理者が、これらのオプションの一部の名前を変更している可能性があります。 </p> </td> 
+     </tr> 
     </tbody> 
    </table>
 

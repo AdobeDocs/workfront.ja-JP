@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 6705e9437d8e562dd43b8f530be90ee401042c80
 workflow-type: tm+mt
-source-wordcount: '651'
-ht-degree: 30%
+source-wordcount: '608'
+ht-degree: 28%
 
 ---
 
 # Adobe Workfront Planning：記事インデックス
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -51,12 +51,7 @@ ht-degree: 30%
    * 共有権限の計画
    * ビューの共有
    * ワークスペース （レコードとフィールド）の共有
-
-  <div class="preview">
-
-   * レコードタイプの共有
-
-  </div>
+   * レコードタイプ（レコードとフィールド）の共有
 
 * [ アーキテクチャ：記事インデックス ](/help/quicksilver/planning/architecture/architecture-information.md) 次の情報が含まれます。
 
@@ -101,13 +96,17 @@ ht-degree: 30%
 
 * [Adobe Workfront Planning API の基礎 ](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
 
-* [Workfront Fusion のAdobe Workfront Planning モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
+* [Workfront Fusion のAdobe Workfront Planning モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
 
 * [Adobe Workfront Planning AI Assistant の概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront AI Assistant for Planning を使用すると、レコードを検索したり、コマンドを使用してアシスタントで作業することにより、レコードを作成、更新、および削除したりできます。
 
-  >[!NOTE]
-  >
-  >    Workfront AI アシスタントは一時的に削除されており、後日利用できるようになります。
+<!--
+    >[!NOTE]
+    >
+    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
+    -->
+
+* [Adobe Workfront Planning の自動の構成 ](/help/quicksilver/planning/records/configure-automations-to-create-records.md): Adobe Workfront Planning で自動を構成できます。この場合、アクティブ化すると、計画レコードからトリガーされたときにWorkfrontにオブジェクトが作成されるか、Workfront Planning にレコードが作成されます。
 
 * **Workfront Planning のレポート機能**: Workfront キャンバス ダッシュボードを使用して、Workfront Planning の情報をレポートで表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの概要 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
 
