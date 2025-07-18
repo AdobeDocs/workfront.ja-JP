@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1009'
 ht-degree: 12%
 
 ---
@@ -28,10 +28,9 @@ Workfront カスタムフォームの外部参照フィールドから Planning 
 
 >[!NOTE]
 >
->API 呼び出しでアクセスできるようにするには、ユーザーをAdobe Admin Consoleに追加する必要があります。 Workfront専用ユーザーには、Adobe Planning API を使用してアクセスできません。
+>Planning API を使用する場合、すべてのユーザー関連の情報は、Workfront ユーザー ID ではなく、Adobe Identity Management System （IMS）ユーザー ID を使用して返されます。
 >
->詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
-
+>詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 
 ## Workfront計画 API の URL
 

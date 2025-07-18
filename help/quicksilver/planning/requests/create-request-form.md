@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '2242'
+source-wordcount: '2281'
 ht-degree: 7%
 
 ---
@@ -269,6 +269,10 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
    ![ リクエストフォームの共有ボックス ](assets/share-box-for-request-form.png)
 
 1. （オプション）エンティティ名の後のドロップダウンメニューをクリックして「**削除**」をクリックすると、リストから削除されてフォームの共有が停止されます。
+
+   >[!NOTE]
+   >
+   >チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 
 1. 「**このフォームを通じてリクエストを送信できるユーザー**」セクションで、このフォームにアクセスできるユーザーのタイプを次のオプションから選択します。
 

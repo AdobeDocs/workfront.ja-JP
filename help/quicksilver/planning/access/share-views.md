@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
 workflow-type: tm+mt
-source-wordcount: '1856'
-ht-degree: 17%
+source-wordcount: '1871'
+ht-degree: 16%
 
 ---
 
@@ -157,9 +157,9 @@ This article describes how you can share a view with others. For information abo
 
    * **招待されたユーザーのみがアクセスできます**：ビューを共有するユーザー、グループ、チーム、会社または担当業務を指定する必要があります。 これはデフォルトのオプションです。
 
-     >[!NOTE]
-     >
-     >   チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。
+   >[!NOTE]
+   >
+   >チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 
 
    * **ワークスペース内の全員が表示できます**：ワークスペースに対する表示以上の権限を持つすべてのユーザーが、ビューにアクセスできます。
@@ -258,7 +258,7 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 
 1. ビューのタブで、次のいずれかの操作を行います。
 
-   * 共有するビューのタブの上にマウスポインターを置き、ビュー名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、「ビューを共有 **ボックスの** 共有 **/** リンクをコピー **&#x200B;**&#x200B;をクリックします。
+   * 共有するビューのタブの上にマウスポインターを置き、ビュー名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、「ビューを共有 **ボックスの** 共有 **/** リンクをコピー **** をクリックします。
    * **ビューを共有** ボックスで **共有**/**ビューリンクをコピー**/**リンクをコピー** をクリックします。
 
    ビューへのリンクがクリップボードにコピーされ、画面の下部に確認が表示されます。
@@ -272,10 +272,8 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 1. （条件付き）ビューの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
    * アプリ内通知
-
      ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
    * メール通知
-
      ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
