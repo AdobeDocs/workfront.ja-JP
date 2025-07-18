@@ -135,8 +135,10 @@ ht-degree: 13%
 
    ビューまたはワークスペースに対する管理権限を持つすべてのユーザーは、アクセスリクエストに関する次の通知を受け取ります。
    * アプリ内通知
+
      ![ アクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request.png)
    * メール通知
+
      ![ アクセスリクエストのメール通知 ](assets/email-notification-for-access-request.png)
 
 1. （条件付き）ビューまたはワークスペースマネージャーからビューまたはワークスペースに対する権限を付与されると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this, but Isk confirmed.-->
