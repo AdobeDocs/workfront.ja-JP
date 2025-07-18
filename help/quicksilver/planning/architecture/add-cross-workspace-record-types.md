@@ -3,13 +3,13 @@ title: クロスワークスペースのレコードタイプを追加
 description: レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。Workfront Planning では、既存のレコードタイプを別のワークスペースからインポートできます。
 hidefromtoc: true
 hide: true
-source-git-commit: 459e3883101b644a91d5e2a32288cf5b02a02bd9
+exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
+source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 31%
 
 ---
-
 
 <!-- add these to the metadata, when making this public: 
 

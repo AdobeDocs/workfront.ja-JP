@@ -1,5 +1,5 @@
 ---
-title: 'Adobe Workfront計画一般情報：記事索引'
+title: Adobe Workfront計画一般情報：記事索引
 description: マーケティング業務のリーダーとして、Adobe Workfront Planning を使用すると、すべてのチームのマーケティングライフサイクル全体の作業を整理できます。この節では、Workfrontの計画に関する一般的な概念と、その実装方法のベストプラクティスを説明し、現在使用可能な機能の一部を概説します。
 author: Alina
 feature: Workfront Planning
