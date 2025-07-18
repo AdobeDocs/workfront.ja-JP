@@ -800,7 +800,7 @@ Workfront Planning 以外のオブジェクト・タイプへの接続を作成�
 
 プレビュー：未決定
 
-Adobe Unified Experience のユーザーで、他のユーザーがレコードページのコメントにユーザーを追加した場合、アプリ内と、コメントに関するメール通知が届きます。 通知の環境設定は、Adobe Experience Cloud プロファイルの「環境設定」領域で管理できます。 詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences) を参照してください。
+Adobe Unified Experience のユーザーで、他のユーザーがレコードページのコメントにユーザーを追加した場合、アプリ内と、コメントに関するメール通知が届きます。 通知の環境設定は、Adobe Experience Cloud プロファイルの「環境設定」領域で管理できます。 詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences) を参照してください。
 
 Workfront Planning notifications の詳細については、[Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md) を参照してください。
 
