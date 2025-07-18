@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1485'
-ht-degree: 30%
+source-wordcount: '1527'
+ht-degree: 29%
 
 ---
 
@@ -66,9 +66,9 @@ Adobe Workfrontのプランニングビューとその管理方法について�
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準 </p>
+    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td><p> ビューを作成および削除するための標準</p>
+   <p>ビュー要素を更新する投稿者以上</p>
    <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
   </td> 
   </tr> 
@@ -81,6 +81,12 @@ Adobe Workfrontのプランニングビューとその管理方法について�
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
    <p>ビュー設定を一時的に変更したり、複製したりするためのビューへのアクセス許可を表示します</p> </td> 
+  </tr> 
+<tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+</td>
   </tr>
 
 </tbody> 

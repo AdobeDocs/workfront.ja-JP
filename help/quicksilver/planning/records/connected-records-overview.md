@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 19%
+source-wordcount: '519'
+ht-degree: 16%
 
 ---
 
 # 接続されたレコードの概要
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>  -->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,8 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
   参照フィールドの値は、元のレコードまたはオブジェクトで更新された後、自動リンク元のWorkfront Planning レコードに入力されます。
 
-* ワークスペース <span class="preview"> およびレコードタイプ </span> に対するWorkfront Planning and View 以上のアクセス権を持つユーザーは誰でも、レコード間またはレコードと他のアプリケーションのオブジェクト間で確立した関連付けを確認できます。 そのようなユーザーは、接続先のアプリケーションの権限に関係なく、接続されたレコードとオブジェクトを表示できます。
-* 接続されているレコードがあるワークスペース <span class="preview"> およびレコードタイプ </span> に対する管理権限を持っている場合は、他のユーザーの接続を表示および編集できます。
+* ワークスペースおよびレコードタイプに対するWorkfront Planning and View 以上のアクセス権を持つユーザーは誰でも、レコード間またはレコードと他のアプリケーションのオブジェクト間で確立した関連付けを確認できます。 そのようなユーザーは、接続先のアプリケーションの権限に関係なく、接続されたレコードとオブジェクトを表示できます。
+* ワークスペースに対する管理権限と、接続されたレコードがあるレコードタイプを持っている場合は、他のユーザーの接続を表示および編集できます。
 * 1 つのレコードを別のアプリケーションの 1 つまたは複数のオブジェクトに接続できます。これは、レコードタイプの接続時に選択した接続タイプによって異なります。 詳しくは、「接続されたレコードタイプの概要 [ の「接続タイプ」の節を参照してください ](/help/quicksilver/planning/architecture/connect-record-types-overview.md)。
 
 ## レコードを接続できる領域
@@ -54,7 +54,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    * Planning のレコード・タイプのテーブル・ビューの接続されたレコード・フィールド。
    * 「詳細」タブの、接続されたレコードフィールドでのレコードのプレビューまたはページ。
    * [ 接続 ] タブのレコードのプレビューまたはページ。
-   * 接続されたレコードの <span class="preview"> 接続されたレコードページ </span> タブにあるレコードのページ。
+   * 接続されたレコードの「接続されたレコード」ページタブ内のレコードのページ。
 
 * Workfrontの次の領域で、Workfront オブジェクトをWorkfront Planning レコードに関連付けることができます。
 

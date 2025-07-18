@@ -6,19 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1177'
-ht-degree: 48%
+source-wordcount: '1110'
+ht-degree: 47%
 
 ---
 
 
 # レコードビューの管理
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -53,8 +53,6 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,7 +93,8 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準 </p>
+   <td><p> ビューを作成および削除するための標準</p>
+   <p>ビュー要素を更新する投稿者以上</p>
    <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
   </td> 
   </tr> 
@@ -109,11 +108,12 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
    <td>   <p>ビューに対する権限を管理</p>  
    <p>ビュー設定を一時的に変更したり、複製したりするためのビューへのアクセス許可を表示します</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,7 +160,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 | カレンダーにレコードを表示 |           |              | ✓ |
 | レコードをグループ化 | ✓ | ✓ |
 | レコードの並べ替え | ✓ |              |
-| <span class="preview"> カラーコードレコード </span> | <span class="preview">✓</span> | ✓ | ✓ |
+| カラーコードのレコード | ✓ | ✓ | ✓ |
 | カラーコードのグループ化 |           | ✓ |
 | 特定のレコードを検索 | ✓ | ✓ |
 | 他のユーザーとのビューの共有 | ✓ | ✓ | ✓ |
@@ -168,7 +168,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 | レコードを年および四半期別に表示 |           | ✓ |    |
 | 月別にレコードを表示 |           | ✓ | ✓ |
 | レコードを週別に表示 |           |               | ✓ |
-| <span class="preview"> ビューからの情報のエクスポート </span> | <span class="preview">✓</span> |               |    |
+| ビューからの情報のエクスポート | ✓ |               |    |
 
 
 ## ビューを作成または編集 {#create-or-edit-views}

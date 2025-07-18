@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 36%
+source-wordcount: '869'
+ht-degree: 37%
 
 ---
 
 # ワークスペースを共有
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -90,12 +90,8 @@ This article describes how you can share a view with others. For information abo
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>  <p>ワークスペースに対する権限の管理</p>  </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、計画領域を含むレイアウトテンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画領域を有効にします。</span></p></td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 
@@ -111,12 +107,7 @@ This article describes how you can share a view with others. For information abo
 * 組織外のユーザーとワークスペースを共有することはできません。
 * ワークスペースを共有すると、そのワークスペースに関連付けられているすべてのレコードタイプ、レコードおよびフィールドも共有されます。
 * ワークスペースを共有する場合、ビューは共有されません。 ビューは別々に共有する必要があります。
-
-<div class="preview">
-
 * Workspaceの権限は、レコードタイプで継承された権限として表示されます。
-
-</div>
 
 ## ワークスペースに対する権限の共有
 
@@ -156,10 +147,8 @@ This article describes how you can share a view with others. For information abo
 1. （条件付き）ワークスペースの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
    * アプリ内通知
-
      ![ アクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request.png)
    * メール通知
-
      ![ アクセスリクエストのメール通知 ](assets/email-notification-for-access-request.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または

@@ -3,13 +3,13 @@ title: Adobe Workfront Planning で要求を承認する
 description: Adobe Workfront Planning で、ユーザーが承認に関連付けられた要求フォームに要求を送信すると、承認者に承認保留中の承認に関する通知と電子メールが届きます。 Workfront Planning がオブジェクトを作成する前に、顧客がリクエストを承認する必要があります。
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 13%
+source-wordcount: '948'
+ht-degree: 12%
 
 ---
 
@@ -45,13 +45,11 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
    * **完了**：すべての承認者が要求オブジェクトを承認すると、その状態は **完了** に変わります。または、要求に承認が必要なかった場合も同様です。
    * **却下**：承認者がリクエストオブジェクトを却下した場合、ステータスは **却下** になります。 レコードは作成されません。レコードを作成するには、新しいリクエストを送信する必要があります。
 
-<!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
+* <span class="preview"> リクエストフォームを送信することで作成されたレコードの承認者情報を、承認者情報および承認日フィールドに表示することができます。 詳しくは、[ フィールドの作成 ](/help/quicksilver/planning/fields/create-fields.md).</span> を参照してください。
 
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col>
@@ -107,18 +105,12 @@ Adobe Workfront Planning で、ユーザーが承認に関連付けられた要�
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
    <ul>
-   <li><p>ワークスペース <span class="preview"> およびレコードタイプ </span> に対する権限の管理 </p></li>
+   <li><p>ワークスペースに対する権限とレコードタイプの管理 </p></li>
     <li><p>システム管理者は、自分が作成していないワークスペースを管理できます。 </p></li>
     </ul>
    <p>Workfront Planning オブジェクトの共有権限について詳しくは、
 <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Adobe Workfront Planning での共有権限の概要</a>を参照してください。 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p> 
-</td>
   </tr>
  </tbody>
 </table>

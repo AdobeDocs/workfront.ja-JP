@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 29%
+source-wordcount: '327'
+ht-degree: 26%
 
 ---
 
 # レコードビューを削除
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -29,8 +29,6 @@ Adobe Workfront Planning で使用しなくなったレコードビューを削�
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -85,11 +83,6 @@ Adobe Workfront Planning で使用しなくなったレコードビューを削�
    <td>   <p>ビューに対する権限を管理</p>  
    <p>ビュー設定を一時的に変更したり、複製したりするためのビューへのアクセス許可を表示します</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p></td> 
-  </tr> 
 </tbody> 
 </table>
 
@@ -111,9 +104,9 @@ Adobe Workfront Planning で使用しなくなったレコードビューを削�
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. <span class="preview"> 表示タブ内のビュー名の 1 つにポインタを合わせ、ビュー名の左側にある **その他** ![ その他メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックします。</span>
+1. ビュータブ内のビュー名の 1 つにポインタを合わせ、ビュー名の左側にある **その他**![ その他メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックします。
 
-   <span class="preview">![ レコード ビューで詳細メニューを表示 ](assets/view-more-menu-with-duplicate-option.png)</span>
+   ![ レコード ビューで詳細メニューを表示 ](assets/view-more-menu-with-duplicate-option.png)
 
    >[!TIP]
    >

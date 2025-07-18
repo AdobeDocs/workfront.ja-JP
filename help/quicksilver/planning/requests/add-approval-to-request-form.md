@@ -3,13 +3,13 @@ title: Adobe Workfront Planning の要求フォームへの承認の追加
 description: Adobe Workfront Planning のリクエスト・フォームに承認プロセスを追加して、レコードを作成する前に、送信されたすべてのリクエストに対して承認を開始できます。
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 15%
+source-wordcount: '754'
+ht-degree: 14%
 
 ---
 
@@ -36,8 +36,6 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col>
@@ -93,20 +91,15 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
    <ul>
-   <li><p>ワークスペース <span class="preview"> およびレコードタイプ </span> に対する権限の管理</p></li>
+   <li><p>ワークスペースに対する権限とレコードタイプの管理</p></li>
     <li><p>システム管理者は、自分が作成していないワークスペースを管理できます。 </p></li>
     </ul>
    <p>Workfront Planning オブジェクトの共有権限について詳しくは、
 <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Adobe Workfront Planning での共有権限の概要</a>を参照してください。 
   </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p>
-</td>
-  </tr>
- </tbody>
+
+</tbody>
 </table>
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
@@ -116,7 +109,7 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
 ## リクエストフォームへの承認の追加に関する考慮事項
 
 * リクエストフォームには、1 人または複数の承認者を追加できます。 承認者として追加できるのはユーザーのみです。
-  <!--* <span class="preview">You can display approval information on a record created by submitting a request form in the Approved by and Approved date fields. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).</span>-->
+* <span class="preview"> リクエストフォームを送信することで作成されたレコードの承認者情報を、承認者情報および承認日フィールドに表示することができます。 詳しくは、[ フィールドの作成 ](/help/quicksilver/planning/fields/create-fields.md).</span> を参照してください。
 * リクエストフォームに複数の承認者を追加する場合、Workfront Planning でレコードを作成する前に、すべての承認者がリクエストを承認する必要があります。
 * すべての承認者がリクエストを承認すると、リクエストフォームに関連付けられたレコードタイプに対してレコードが作成されます。
 * 少なくとも 1 人の承認者がリクエストを拒否し、他の全員がそのリクエストを承認した場合、Workfrontの「リクエスト」領域に対してリクエストが作成されますが、リクエストフォームに関連付けられたレコードタイプに対しては、レコードが作成されません。

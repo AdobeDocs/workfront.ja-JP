@@ -6,10 +6,10 @@ feature: Workfront Planning
 recommendations: noDisplay, noCatalog
 role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '794'
-ht-degree: 29%
+source-wordcount: '711'
+ht-degree: 28%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 29%
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 >[!IMPORTANT]
 >
@@ -104,8 +104,8 @@ Workfront Planning にアクセスするには、次のアクセス権が必要�
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
    <ul>
-   <li><p>自分が作成していないワークスペース、<span class="preview"> レコードタイプ </span> およびビューに対して、それらおよびオブジェクトにアクセスするための表示以上の権限。</p></li>
-   <li><p>作成しなかったワークスペース <span class="preview"> およびレコード タイプ </span> に対する投稿以上の権限を編集し、レコード タイプおよびレコードを作成、編集、または削除します。</p></li>
+   <li><p>自分が作成していないワークスペース、レコード タイプ、およびビューに対して、それらおよびオブジェクトにアクセスするための表示以上の権限。</p></li>
+   <li><p>作成しなかったワークスペースおよびレコードの種類に対する投稿以上のアクセス許可を編集し、レコードの種類およびレコードを作成、編集、または削除します。</p></li>
    <li><p>自分が作成していないビューに対する投稿以上の権限、ビューの編集、削除、共有</p>
    </li>
     <li><p>システム管理者は、自分が作成していないワークスペースを管理できます。 </p></li>
@@ -116,16 +116,14 @@ Workfront Planning にアクセスするには、次のアクセス権が必要�
   </tr>
 <tr>
    <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <div class="preview">
+   <td> 
 <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p>
 <p> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、次の領域に Planning オプションを含むレイアウト テンプレートを割り当てる必要があります。</p>
    <ul><li>メインメニュー</li>
    <li>プロジェクト、ポートフォリオおよびプログラムの左側のパネル</li>
    </ul>
    <p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">レイアウトテンプレートを作成および管理</a>を参照してください。</p>
-   </div>
-   <p><b>メモ</b></p>
-   <p>実稼動環境では、システム管理者を含むすべてのユーザーを、計画領域を含むレイアウトテンプレートに割り当てる必要があります。</p>
+
 </td>
   </tr>
  </tbody>
@@ -145,16 +143,12 @@ Workfront Planning ライセンスの追加購入後、システム管理者は�
 * プロジェクト、ポートフォリオおよびプログラムの左側のパネル
 * ピン留め
 
-<div class="preview">
-
 標準ユーザーとシステム管理者は、次の領域で、デフォルトで Planning 領域を有効にします。
 
 * メインメニュー
 * プロジェクト、ポートフォリオまたはプログラムの左側のパネル
 
-</div>
-
-Workfront インスタンスのユーザーからWorkfront Planning エリア </span> 追加または削除するには、<span class="preview"> を行います。
+Workfront インスタンスのユーザーからWorkfront Planning エリアを追加または削除するには、次の手順に従います。
 
 1. Workfront 管理者として **Workfront** にログインします。
 

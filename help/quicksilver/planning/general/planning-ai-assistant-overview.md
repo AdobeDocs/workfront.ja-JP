@@ -1,12 +1,12 @@
 ---
 title: Adobe Workfront計画 AI アシスタントの概要
 description: AI アシスタントを使用して、現在のページコンテキストとレコード構造に基づいてレコードを生成、更新または削除できます。 ユーザーのコマンドと AI によるコマンドの実行を連携させることで、AI によって行われた変更が環境に正確に反映されるようになります。
-author: Alina
+author: Alina, Becky
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: a5b7683bffa6c63d7feb45e5c38404185d3f2b44
+source-git-commit: a36968bdae5756f0f8283da04a2afca83b4dd94a
 workflow-type: tm+mt
 source-wordcount: '720'
 ht-degree: 4%

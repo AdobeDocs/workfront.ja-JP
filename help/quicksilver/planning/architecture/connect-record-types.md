@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2511'
+source-wordcount: '2499'
 ht-degree: 37%
 
 ---
@@ -45,8 +45,6 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -146,7 +144,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >他のワークスペースからレコードの種類にアクセスするには、[**&#x200B;** レコードの種類の編集 **] ボックスの [** 詳細設定 **] タブで、レコードの種類に対して &lbrack; 他のワークスペースでこのレコードの種類への接続を許可する** 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
+     >他のワークスペースからレコードの種類にアクセスするには、[**** レコードの種類の編集 **] ボックスの [** 詳細設定 **] タブで、レコードの種類に対して [ 他のワークスペースでこのレコードの種類への接続を許可する** 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
      > ![ レコードタイプを編集ボックスの「詳細設定」タブ ](assets/edit-record-type-box-advanced-settings-tab.png)
 
      詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
@@ -201,7 +199,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >
    >* Workfront オブジェクトの日付フィールドの情報は、Workfront Planning では、Workfrontでの表示方法に関係なく、24 時間形式で表示されます。
    >
-   >   例えば、Workfrontでプロジェクトの予定開始日が午後 3 時と表示される場合、Workfront Planning のインポートされたルックアップフィールドでは 15:00 と表示されます。
+   >   例えば、プロジェクトの予定開始日がWorkfrontで午後 3:00 と表示された場合、Workfront Planning の読み込まれた参照フィールドでは 15:00 と表示されます。
 
 1. （条件付きおよびオプション）Workfront オブジェクトの接続を選択した場合、「**これらの条件に一致するオブジェクトのみをリンク**」セクションから「**カスタムフォーム**」を選択します。選択したカスタムフォームがアタッチされているオブジェクトのみを、選択したレコードタイプにリンクできます。複数のフォームを選択できます。
 
@@ -213,7 +211,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプへの接続を選択した場合は、「レコードの外観 **領域で次のいずれかのオプションを選択し** す。
 

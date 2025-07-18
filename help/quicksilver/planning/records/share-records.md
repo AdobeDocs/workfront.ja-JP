@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 46%
+source-wordcount: '658'
+ht-degree: 47%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 46%
 
 # レコードの共有
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -34,25 +34,19 @@ ht-degree: 46%
 
 * レコードタイプのテーブルビューのレコードを表示する際に、レコードのページへのリンクをコピーします。
 
-* ワークスペース <span class="preview"> およびレコードタイプ </span> を共有することで、ワークスペース内のすべてのレコードを他のユーザーと共有できます。
+* ワークスペースとレコードタイプを共有すると、ワークスペース内のすべてのレコードを他のユーザーと共有できます。
 
   詳しくは、次の記事を参照してください。
 
    * [ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)
 
-  <div class="preview">
-
    * [レコードタイプの共有](/help/quicksilver/planning/access/share-record-types.md)
-
-  </div>
 
 この記事では、レコードタイプのテーブルビューからレコードのページへのリンクをコピーする方法について説明します。
 
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -104,20 +98,16 @@ ht-degree: 46%
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>  <p>共有するワークスペース <span class="preview"> およびレコードタイプ </span> に対する表示以上の権限   リンクを使用したレコード </p>
-   <p>ワークスペース <span class="preview"> およびレコードタイプ </span> に対する権限を管理して、ワークスペース内のレコードを共有します </p>
+   <td>  <p>ワークスペースに対する表示以上の権限と共有するレコードタイプ   リンクを使用したレコード </p>
+   <p>ワークスペースに対する権限とワークスペースでレコードを共有するためのレコードタイプを管理します </p>
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、計画領域を含むレイアウトテンプレートに割り当てる必要があります。</p>
-   <div class="preview">
-<p> プレビュー環境では、ライトまたはコントリビューターライセンスを持つユーザーには、Planning を含むレイアウトテンプレートを割り当てる必要があります。</p>
-
-<p>標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</p></div>
-
-<p>詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">レイアウトテンプレートを作成および管理</a>を参照してください。</p></td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 
@@ -160,18 +150,15 @@ ht-degree: 46%
 
 ワークスペースを他のユーザーと共有する場合は、ワークスペース内のすべてのレコードを共有できます。
 
+レコードタイプとレコードは、ワークスペースから同じ権限を継承します。
+
 ワークスペースに対する管理権限を持つユーザーのみが、そのワークスペースを他のユーザーと共有できます。
 
 詳しくは、[ワークスペースの共有](/help/quicksilver/planning/access/share-workspaces.md)を参照してください。
 
-
-<div class="preview">
-
 ## レコードタイプを共有することで、レコードタイプ内のすべてのレコードを共有する
 
-実稼動環境では、レコードはワークスペースから権限を継承します。
-
-プレビュー環境では、レコードはレコードタイプから権限を継承します。
+レコードはレコードタイプから権限を継承します。
 
 デフォルトでは、レコードタイプはワークスペースから権限を継承します。
 
@@ -184,4 +171,3 @@ ht-degree: 46%
 
 詳しくは、[ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
 
-</div>

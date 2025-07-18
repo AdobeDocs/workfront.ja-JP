@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3708'
-ht-degree: 40%
+source-wordcount: '3750'
+ht-degree: 39%
 
 ---
 
@@ -66,9 +66,9 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    </td> 
    </tr> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準 </p>
+    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td><p> ビューを作成および削除するための標準</p>
+   <p>ビュー要素を更新する投稿者以上</p>
    <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
   </td> 
   </tr> 
@@ -81,7 +81,13 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ビューに対する権限を管理</p>  
    <p>ビュー設定を一時的に変更したり、複製したりするためのビューへのアクセス許可を表示します</p> </td> 
-  </tr>  
+  </tr> 
+<tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+</td>
+  </tr>
 </tbody> 
 </table>
 

@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 14%
+source-wordcount: '679'
+ht-degree: 11%
 
 ---
 
@@ -91,10 +91,14 @@ ht-degree: 14%
    <td>   <p>ワークスペースに対する表示またはそれ以上の権限</a> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
   </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>Workfront の管理者を含むすべてのユーザーには、メインメニューの Planning エリアを含むレイアウトテンプレートを割り当てる必要があります。 </p> </td> 
-  </tr> 
+<tr>
+   <td role="rowheader"><p>レイアウトテンプレート</p></td>
+   <td> ライト ライセンスまたはコントリビュータ ライセンスを持つユーザには、Planning を含むレイアウト テンプレートを割り当てる必要があります。
+   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
+
+</td>
+  </tr>
+
 </tbody> 
 </table>
 

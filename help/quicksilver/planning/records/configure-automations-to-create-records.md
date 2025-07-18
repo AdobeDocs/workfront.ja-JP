@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: cde20e5a-15a2-413a-8de4-ccf6eeb4395f
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '1796'
-ht-degree: 8%
+source-wordcount: '1687'
+ht-degree: 6%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 8%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Adobe Workfront Planning で自動化を構成して、アクティブ化すると、Workfront内にオブジェクトを作成したり、計画レコードからトリガーされたときにWorkfront Planning 内にレコードを作成できます。 作成したオブジェクトまたはレコードは、自動処理をトリガーするレコードに自動的に接続されます。
 
@@ -40,8 +40,6 @@ Workfront Planning のレコードタイプのページで自動処理を設定�
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -94,14 +92,9 @@ Workfront Planning のレコードタイプのページで自動処理を設定�
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td> <p>自動化を作成するワークスペース <span class="preview"> およびレコードタイプ </span> に対する権限を管理します。 </p>
+   <td> <p>ワークスペースに対する権限と、自動化を作成するレコードタイプに対する権限を管理します。 </p>
    <p>システム管理者には、未作成のワークスペースを含むすべてのワークスペースに対する管理権限があります</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -140,7 +133,7 @@ Workfront Planning を使用してオブジェクトを作成する前に、レ�
 次のいずれかのアクションを選択します。
 
       * 複数プロジェクトの作成
-      * 1 つのプロジェクトの作成
+      * 単一のプロジェクトを作成
       * プロジェクトを作成
       * レコードを作成
       * プログラムを作成

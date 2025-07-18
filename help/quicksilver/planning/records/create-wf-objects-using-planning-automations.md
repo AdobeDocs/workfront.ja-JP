@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 11%
+source-wordcount: '766'
+ht-degree: 7%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 11%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Adobe Workfront Planning でオートメーションを構成してアクティブ化した後、それらを使用してAdobe Workfrontにオブジェクトを作成したり、Adobe Workfront Planning にレコードを作成したりできます。
 
@@ -51,8 +51,6 @@ Workfront Planning の自動化を使用して、次のアイテムを作成で�
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -105,16 +103,12 @@ Workfront Planning の自動化を使用して、次のアイテムを作成で�
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td> <p>既存の自動化を使用してオブジェクトを作成するワークスペース <span class="preview"> およびレコードタイプ </span> に対する投稿以上の権限。 </p>  
+   <td> <p>ワークスペースと、既存の自動化を使用してオブジェクトを作成するレコードタイプに対して、投稿以上の権限を付与します。 </p>  
    <p>子オブジェクト（プログラムまたはプロジェクト）を追加するためのWorkfront オブジェクト（ポートフォリオ）に対する権限を管理します。</p>
    <p>システム管理者には、未作成のワークスペースを含むすべてのワークスペースに対する管理権限があります</p>
    </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p> </td> 
-  </tr> 
+  </tr>
+
 </tbody> 
 </table>
 

@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 939f3d9a4fac609c014acfc3be3d1485f469e947
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2250'
-ht-degree: 8%
+source-wordcount: '2115'
+ht-degree: 7%
 
 ---
 
 
 # レコードページレイアウトの管理
 
-<span class="preview"> このページでハイライト表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -41,8 +41,6 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col>
@@ -99,15 +97,9 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 <tr>
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
-   <p>ワークスペース <span class="preview"> およびレコードタイプ </span> に対する投稿以上の権限 </a> </p>  
+   <p>ワークスペースおよびレコードタイプ </a> への投稿以上の権限 </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -262,48 +254,43 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    レコードのプレビューまたはページのレイアウトに対するすべての変更が、自動的に保存されます。
 
-## <span class="preview"> 接続されたレコードページ </span> をレコードに追加
+## 接続されたレコード ページをレコードに追加する
 
-レコードに <span class="preview"> 接続されたレコード ページ </span> のタブを追加すると、接続されたレコードまたはオブジェクトの情報を表示できます。
+接続されたレコード ページのタブをレコードに追加すると、接続されたレコードまたはオブジェクトの情報を表示できます。
 
-実稼動環境では、接続されたレコードまたはオブジェクトの情報は、読み取り専用のテーブルビューに表示されます。
+接続されたレコードの情報は、テーブルビューで編集できます。 別のアプリケーションから接続されたオブジェクトの情報は、テーブルビューでは編集できません。
 
-<span class="preview"> プレビュー環境では、接続されたレコードの情報をテーブルビューで編集できます。 別のアプリケーションから接続されたオブジェクトの情報は、テーブルビューでは編集できません。</span>
+「接続済みレコード」ページをレコードに追加する場合は、次の点を考慮してください。
 
-<span class="preview"> 接続されたレコードページ </span> をレコードに追加する場合は、次の点を考慮してください。
+* レコード タイプのテーブル ビューからレコード タイプにレコード タイプまたはオブジェクト タイプを接続した後に、[ 接続されたレコード ] ページをレコードに追加できます。
 
-* レコードまたはオブジェクトタイプをレコードタイプのテーブル表示からレコードタイプに接続した後で、<span class="preview"> 接続されたレコードページ </span> をレコードに追加できます。
+* レコードのプレビュー領域に [ 接続済みレコード ] ページを追加することはできません。
 
-* レコードのプレビュー領域に <span class="preview"> 接続済みレコード ページ </span> を追加することはできません。
+* 接続されたレコード・ページには、接続されたオブジェクトまたは 1 つのオブジェクトまたはレコード・タイプのレコードのみがテーブル・ビューに表示されます。 テーブルビューでは、そのタイプのすべてのレコードがページに表示されるわけではありません。
 
-* <span class="preview"> 接続されたレコードページ </span> 接続されたオブジェクトまたは 1 つのオブジェクトまたはレコードタイプのレコードのみをテーブルビューに表示します。 テーブルビューでは、そのタイプのすべてのレコードがページに表示されるわけではありません。
+* レコードに [ 接続済みレコード ] ページを追加すると、レコードのプレビュー領域に [ ページ ] タブが表示されますが、空白になります。 接続されたレコードのテーブル表示を確認するには、完全ページに移動する必要があります。<!--this might have changed? check and take disclaimer out-->
 
-* <span class="preview"> 接続されたレコード ページ </span> をレコードに追加すると、レコードのプレビュー領域にページ タブが表示されますが、空白になります。 接続されたレコードのテーブル表示を確認するには、完全ページに移動する必要があります。<!--this might have changed? check and take disclaimer out-->
-
-* 次の接続されたレコードまたはオブジェクト タイプに対して、<span class="preview"> 接続されたレコード ページ </span> を追加できます。
+* 以下の接続されたレコードまたはオブジェクト タイプに対して、接続されたレコード ページを追加できます。
 
    * Workfront計画レコードタイプ
    * Workfront プロジェクト、プログラム、ポートフォリオ、グループまたは会社。 Connected Workfront オブジェクトは、Workfrontでアクセスする権限を持っていない場合でも表示できます。
 
   >[!NOTE]
   >
-  >   接続されているAEM Assets レコードに対しては、<span class="preview"> 接続されているレコードページ </span> を追加できません。
+  >   接続されたAEM Assets レコードに対して、「接続されたレコード」ページを追加することはできません。
 
 
-<span class="preview"> 接続されたレコード ページ </span> を追加するには：
+接続レコード ページを追加するには：
 
 1. レコードページビューで、レコード名をクリックして開き、プレビューページの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックします。
 1. **ページを追加** をクリックします。
 
-   <div class="preview">
 
    **ページを作成** ボックスが開きます。
 
    ![ 接続されたレコードを追加ページモーダル ](assets/add-connection-view-page-modal.png)
 
-   </div>
-
-1. **ページ名** を追加し、「**<span class="preview">接続されたレコードページ</span>**」をクリックしてから、「**作成**」をクリックします。
+1. **ページ名** を追加し、「**接続されたレコードページ**」をクリックしてから、「**作成**」をクリックします。
 
    レコードのページに新しいタブが追加されます。
 1. リスト内の接続済みレコードまたはオブジェクト タイプの名前を検索またはクリックします。
@@ -320,12 +307,10 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    * レコードの名前をクリックします。 レコードのページが新しいタブで開きます。
 
-     <span class="preview"> プレビュー環境では、レコードのプレビューページが開きます。 右上隅の **新しいタブで開く** アイコン ![ 新しいタブアイコンで開く ](assets/open-details-in-a-new-tab-icon.png) をクリックして、接続されているレコードのページを開きます。</span>
+     これにより、レコードのプレビューページが開きます。 右上隅の **新しいタブで開く** アイコン ![ 新しいタブで開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックして、接続されたレコードのページを開きます。
 
    * **接続** をクリックしてさらにレコードを接続し、接続ボックスの外側をクリックして接続ボックスを閉じます。 新しいレコードが自動的にテーブルに追加されます。
-   * <span class="preview"> テーブルビュー内で接続されたレコードの情報を編集します。</span>
-
-   <div class="preview">
+   * テーブルビュー内で接続されたレコードの情報を編集します。
 
    * 接続されているレコードの名前にポインタを合わせ、**詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、次のいずれかのオプションをクリックします。
       * 表示
@@ -345,10 +330,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
    * 接続されたレコード ページのテーブル内の任意のレコードをインライン編集します。 Workfront オブジェクトは読み取り専用のテーブル ビューで表示され、編集することはできません。
 
-   </div>
-
-
-1. （オプション）「<span class="preview"> 接続されたレコード」ページ </span> タブの名前をダブルクリックします
+1. （オプション）「接続されたレコード」ページタブの名前をダブルクリックします
 
    または
 
@@ -368,7 +350,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
    >
 
 1. レコードを追加または削除するには、「**接続**」をクリックします。 詳しくは、「レコードの接続 [ を参照してください ](/help/quicksilver/planning/records/connect-records.md)
-1. （オプション） <span class="preview"> 接続されたレコードページ </span> タブの名前にポインタを合わせ、「**詳細**![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**削除**」をクリックしてタブを削除します。
+1. （オプション）接続されたレコードページのタブの名前にポインタを合わせ、「**詳細**![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**削除**」をクリックしてタブを削除します。
 
 
 

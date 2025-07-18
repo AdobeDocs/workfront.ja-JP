@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: d3d4a923dddb8685a981162918f34447300136cf
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '3414'
+source-wordcount: '3306'
 ht-degree: 38%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 38%
 
 # レコードの接続
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -59,8 +59,6 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -118,15 +116,10 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>レコードを接続するためのワークスペース <span class="preview"> およびレコードタイプ </span> に対する投稿以上の権限 </p>  
-   <p>ワークスペース <span class="preview"> およびレコードタイプ </span> に対する表示以上の権限。他のアプリケーションでのアクセス権に関係なく、他のアプリケーションからのオブジェクトおよびフィールドに対するすべての接続を表示します。 </p>
+   <td>   <p>ワークスペースに対する投稿以上の権限と、レコードを接続するためのレコードタイプ </p>  
+   <p>ワークスペースおよびレコードタイプに対する表示以上の権限。他のアプリケーションでのアクセス権に関係なく、他のアプリケーションからのオブジェクトおよびフィールドに対するすべての接続を表示します。 </p>
    <p>WorkfrontまたはExperience Manager Assetsからリンクするオブジェクトに対する表示以上の権限。 </p>
    <p>システム管理者は、自分が作成したものでないものも含めて、すべてのワークスペースに対する権限を持っています。</p> </td> 
-  </tr> 
-<tr> 
-   <td role="rowheader"><p>レイアウトテンプレート</p></td> 
-   <td> <p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p>
-<p><span class="preview">プレビュー環境では、標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span></p> </td> 
   </tr> 
 </tbody> 
 </table>
@@ -158,7 +151,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 * テーブル表示の接続されたレコードフィールド
 * [ 詳細 ] タブの [ 接続されたレコード ] フィールドのレコードのプレビューボックスまたはページ。
 * [ 接続 ] タブのレコードのプレビューボックスまたはページ。
-* <span class="preview"> 接続されたレコードページ </span> タブのレコードのページ。
+* 接続されたレコードページタブのレコードのページ。
 
 ### テーブル表示またはレコードの詳細領域からWorkfront Planning レコードを接続します
 
@@ -231,7 +224,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    >
    >* Workfront オブジェクトの日付フィールドの情報は、Workfront Planning では、Workfrontでの表示方法に関係なく、24 時間形式で表示されます。
    >
-   >   例えば、Workfrontでプロジェクトの予定開始日が午後 3 時と表示される場合、Workfront Planning のインポートされたルックアップフィールドでは 15:00 と表示されます。
+   >   例えば、プロジェクトの予定開始日がWorkfrontで午後 3:00 と表示された場合、Workfront Planning の読み込まれた参照フィールドでは 15:00 と表示されます。
 
 1. （オプション）レコードタイプページを閉じて、選択したワークスペースに移動します。
 1. リンク先のレコードタイプのカードをクリックします。
@@ -344,7 +337,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 >[!NOTE]
 >
->Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+>Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 レコードをExperience Manager Assets に接続するには：
 
@@ -461,8 +454,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    レコードは、Workfront Planning のすべての領域、または接続済みと表示される可能性のある他のアプリケーションから直ちに切断されます。 参照フィールドの値も削除されます。
 
-### レコードの <span class="preview"> 接続されたレコードページ </span> からレコードを接続
-
+### レコードの接続されたレコード ページからレコードを接続
 
 1. 他の Planning レコード・タイプまたは他のアプリケーションのオブジェクト・タイプに接続されているレコード・タイプの任意のビューに移動します。
 1. 他のレコードまたはオブジェクトと接続するレコードをビューで検索するには、前のサブセクションで説明した手順に従います。
@@ -470,7 +462,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    プレビューページが開きます。
 1. **新しいタブで開く** アイコン ![ 詳細を新しいタブで開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを開きます。
-1. レコードのページで、既存の <span class="preview"> 接続されたレコードページ </span> タブをクリックします。 最初に <span class="preview"> 接続されたレコードページ </span> を作成する必要があります。 詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+1. レコードのページで、既存の「接続済みレコード」ページタブをクリックします。 まず、接続されたレコード ページを作成する必要があります。 詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
    接続されたレコードタイプのページがテーブル表示に表示されます。
 

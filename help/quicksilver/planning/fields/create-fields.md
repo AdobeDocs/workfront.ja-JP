@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '4607'
-ht-degree: 47%
+source-wordcount: '5201'
+ht-degree: 44%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ja ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -22,9 +22,9 @@ ht-degree: 47%
 
 # フィールドの作成
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 
 {{planning-important-intro}}
@@ -165,7 +165,9 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
    * [作成者](#created-by)
    * [作成日](#created-date)
    * [最終変更者](#last-modified-by)
-   * [ 最終変更日 ](#last-modified-date)
+   * [最終変更日](#last-modified-date)
+   * <span class="preview">[ 承認日 ](#approved-date)</span>
+   * <span class="preview">[ 承認者 ](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -302,7 +304,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
      次のオプションから選択します。
 
       * **24 時間**：例：18:00
-      * **12 時間**：例：午後 6:00
+      * **12hr**：例：午後 6:00
 
 1. 「**作成**」をクリックします。
 
@@ -317,7 +319,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 >数値フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに数値として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**数値**&#x200B;フィールドタイプを選択します。
@@ -347,7 +349,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 >割合フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページにパーセンテージとして表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
@@ -387,7 +389,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 >通貨フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**通貨**&#x200B;フィールドタイプを選択します。
 
@@ -564,7 +566,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
      次のオプションから選択します。
 
       * **24 時間**：例：18:00
-      * **12 時間**：例：午後 6:00
+      * **12hr**：例：午後 6:00
 
 1. 「**作成**」をクリックします。
 
@@ -616,80 +618,76 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
      次のオプションから選択します。
 
       * **24 時間**：例：18:00
-      * **12 時間**：例：午後 6:00
+      * **12hr**：例：午後 6:00
 
 1. 「**作成**」をクリックします。
 
    新しい「最終更新日タイプ」フィールドがレコードタイプの列として追加され、その値にはレコードが最後に更新された日付（または日付と時刻）が事前入力されます。
 
-<!--
-
 <div class="preview">
 
-### Approved date
+### 承認日
 
-You can use the Approved date field type to add the date when a request was approved and it resulted in the creation of the record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the request was approved by the last approver. In this case, the approval date should coincide with the date the record was created. 
-
->[!TIP]
->
->The Approved date field populates with information only for records that were created by submitting a request form associated with approvers. 
->
->If the form is associated with more than one approver, only the date of the last approval decision is recorded in the Approved date field.
- 
-
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
- 
-   ![Approved date field type](assets/approved-date-field-type.png)
-
-   1. Add the following information in the **New field** tab:
-
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-     * **Date Format**: Select from the following formats:
-
-        * **Locale**: Matches the locale of your browser.
-        * **Standard**: 05/16/2023
-        * **Long**: May 16, 2023
-        * **European**: 16/05/2023
-        * **ISO**: 2023-05-16
-     
-     * **Include a time field**: Select this option if you want to include a time stamp. This is unselected by default. 
-    
-        Select from the following options:
-        
-        * **24hr**: For example: 18:00
-        * **12hr**: For example: 6:00 PM 
-    
-1. Click **Create**.
-
-    The new Approved date-type field is added as a column to the record type and its values are prefilled with the date (or date and time) when the record request was approved, if the record was created by submitting a request associated with approvers. 
-
-### Approved by
-
-You can use the Approved by field type to add the user who last approved the request to create a record. This is a read-only field, and it automatically populates with the name of the user who approved the request to create the record.
+「承認日」フィールドタイプを使用すると、リクエストが承認されてレコードが作成された日付を追加できます。 これは読み取り専用フィールドで、最後の承認者によってリクエストが承認された日付（およびオプションで時刻）が自動的に入力されます。 この場合、承認日は、レコードの作成日と一致する必要があります。
 
 >[!TIP]
 >
->The Approved by field populates with information only for records that were created by submitting a request form associated with approvers.
+>「承認日」フィールドには、承認者に関連付けられたリクエストフォームを送信して作成されたレコードの情報のみが入力されます。
 >
->If the form is associated with more than one approver, the name of all approvers are recorded in the Approved date field, separated by commas.
- 
-1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Approved by** field type.
- 
-   ![Approved by field type](assets/approved-by-field-type.png)
+>フォームが複数の承認者に関連付けられている場合、「承認日」フィールドには最後の承認決定の日付のみが記録されます。
 
-1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field, as it will appear in a table or the record page. 
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
-    
-1. Click **Create**.
+1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**作成日**」フィールドタイプを選択します。
 
-    The new Approved by-type field is added as a column to the record type and its values are prefilled with the name of the user who last modified each record.  
+   ![ 承認日フィールドタイプ ](assets/approved-date-field-type.png)
+
+   1. 「**新しいフィールド**」タブで次の情報を追加します。
+
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
+   * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
+   * **日付形式**：次の形式から選択します。
+
+      * **ロケール**：ブラウザーのロケールに一致します。
+      * **標準**：例：2023/05/16
+      * **長い形式**：例：2023年5月16日
+      * **ヨーロッパ式**：例：16/05/2023
+      * **ISO**：例：2023-05-16
+
+   * **時間フィールドを含める**：タイムスタンプを含める場合はこのオプションを選択します。デフォルトでは選択されていません。
+
+     次のオプションから選択します。
+
+      * **24 時間**：例：18:00
+      * **12hr**：例：午後 6:00
+
+1. 「**作成**」をクリックします。
+
+   新しい承認日タイプ フィールドがレコードタイプに列として追加され、レコードが承認者に関連付けられたリクエストの送信によって作成された場合、その値には、レコードリクエストが承認された日付（または日時）が事前入力されます。
+
+### 承認者
+
+「承認者」フィールドタイプを使用して、リクエストを最後に承認したユーザーをレコードの作成に追加できます。 これは読み取り専用フィールドで、レコードの作成リクエストを承認したユーザーの名前が自動的に設定されます。
+
+>[!TIP]
+>
+>「承認者」フィールドには、承認者に関連付けられたリクエストフォームを送信して作成されたレコードの情報のみが入力されます。
+>
+>フォームが複数の承認者に関連付けられている場合、すべての承認者の名前がコンマで区切って、「承認日」フィールドに記録されます。
+
+1. この記事の「最初からフィールドを作成 [ の説明に従ってフィールドの作成を開始し ](#create-fields-from-scratch)、「**承認者**」フィールドタイプを選択します。
+
+   ![ フィールドタイプによる承認 ](assets/approved-by-field-type.png)
+
+1. 「**新しいフィールド**」タブで次の情報を追加します。
+
+   * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
+   * **説明**：フィールドに関する追加情報。フィールドの説明は、テーブルのフィールド列にポインタを合わせたり、レコードの詳細ページのフィールド名の横にある情報アイコンをクリックしたりすると表示されます。
+
+1. 「**作成**」をクリックします。
+
+   新しい承認済み基準タイプ フィールドが列としてレコードタイプに追加され、その値には、各レコードを最後に変更したユーザーの名前が事前に入力されます。
 
 </div>
--->
-
 
 <!--
 

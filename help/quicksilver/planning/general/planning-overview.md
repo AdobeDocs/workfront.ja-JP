@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 718ed3efd56c532693d26cc067041bedbc71cca0
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2059'
+source-wordcount: '1973'
 ht-degree: 40%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 40%
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 >[!IMPORTANT]
 >
@@ -166,14 +166,13 @@ The following features are currently available in Workfront Planning:
 
 Workfront Planning パッケージを購入した後、ユーザーがWorkfront Planning にアクセスする前に、Workfront管理者として次の点を確認する必要があります：
 
-* 使用する環境に応じて、メインメニューに Planning が含まれるレイアウトテンプレートを次のユーザーに割り当てます：
+* 次のユーザーに、メイン・メニューに Planning が含まれるレイアウト・テンプレートを割り当てます：
 
-   * 実稼動環境で、システム管理者を含むすべてのライセンスタイプのすべてのユーザーにテンプレートを割り当てます。
+   * レイアウトテンプレートを Light ユーザーと Contribute ユーザーに割り当てます。
 
-   * <span class="preview"> プレビュー環境で、テンプレートを Light ユーザーと Contribute ユーザーに割り当てます。 標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。</span>
+     標準ユーザーとシステム管理者は、デフォルトで計画を有効にしています。
 
   詳しくは、[ レイアウトテンプレートを使用してメインメニューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) および [ レイアウトテンプレートにユーザーを割り当てる ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) を参照してください。
-
 
 * ユーザーにWorkfront ライセンスを割り当て、Workfront Planning でオブジェクトを表示または作成できるWorkfront Planning 権限を割り当てます。 へのアクセス権の付与と、他のユーザーがWorkfront Planning を使用できるようにする方法について詳しくは、[Adobe Planning アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
@@ -325,7 +324,6 @@ Workfront Planning の主なオブジェクトと概念は次のとおりです�
      ![ タイムラインビューで適用されたグループ化 ](assets/grouping-applied-in-timeline-view.png)
 
    * **カレンダービュー**：2 つ以上の日付タイプフィールドを持つレコードをカレンダー形式で表示します。
-
      ![ カレンダー表示の例 ](assets/calendar-view-example.png)
 
 
@@ -397,7 +395,7 @@ Workfront Planning を検索するには、次の手順に従います。
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Workfront Fusion のAdobe Workfront Planning モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
+* [Workfront Fusion のAdobe Workfront Planning モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
 
 * [Adobe Workfront Planning API の基礎 ](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
 

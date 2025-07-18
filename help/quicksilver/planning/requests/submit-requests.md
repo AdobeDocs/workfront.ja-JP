@@ -3,12 +3,12 @@ title: Adobe Workfront計画リクエストの発行
 description: Adobe Workfront Planning の「レコードタイプ」ページでユーザーがリクエストフォームへのリンクを共有すると、リクエストを追加して、リクエストフォームに関連付けられた「レコードタイプ」のレコードを作成できます。
 feature: Workfront Planning
 role: User, Admin
-author: Alina
+author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '2091'
+source-wordcount: '2019'
 ht-degree: 5%
 
 ---
@@ -41,8 +41,6 @@ Workfront ユーザーと外部ユーザーは、Planning レコードタイプ�
 ## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto">
  <col>
@@ -96,20 +94,8 @@ Workfront ユーザーと外部ユーザーは、Planning レコードタイプ�
 <tr>
    <td role="rowheader"><p>オブジェクト権限</p></td>
    <td>
-   <p>Workfront ユーザーの場合は、ワークスペース <span class="preview"> およびレコードタイプ </span> に対する表示以上の権限</p> 
+   <p>Workfront ユーザーの場合は、ワークスペースおよびレコードタイプに対する以上の権限を表示します。</p> 
   </td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>レイアウトテンプレート</p></td>
-   <td> <p>Workfrontのプランニング エリアにアクセスするには、次のレイアウトテンプレート設定が必要です。 </p>
-<ul>
-<li><p>実稼動環境では、システム管理者を含むすべてのユーザーを、Planning を含むレイアウト・テンプレートに割り当てる必要があります。</p></li>
-<li><div class="preview">
-<p> プレビュー環境では、ライトまたはコントリビューターライセンスを持つユーザーには、Planning を含むレイアウトテンプレートを割り当てる必要があります。
-   <p>標準ユーザーとシステム管理者は、デフォルトで Planning 領域を有効にします。</p></div></li></ul>
-
-<p> ただし、Workfront Planning にリクエストを送信するために Planning エリアにアクセスする必要はありません。 </p>  
-</td>
   </tr>
  </tbody>
 </table>
@@ -226,8 +212,6 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 Planning 要求フォームに送信された表示アクセス権を持つすべての要求がリストに表示されます。
 1. （オプション）次のいずれかの操作を行います。
 
-   <div class="preview">
-
    * 「**フィルター**」をクリックして、「計画」タブに表示するリクエストの条件の追加を開始します。
 
      ![ 「計画要求」タブでのフィルターの編集 ](assets/filters-editing-box-in-requests-planning-tab.png)
@@ -260,8 +244,6 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
    リクエストの詳細ページが開きます。
 
    ![ リクエストの詳細ページ ](assets/request-details-page.png)
-
-   </div>
 
 
 1. （条件付き）リクエストフォームが承認と関連付けられていない場合、またはリクエストが承認されている場合は、リクエストの名前をクリックし、「**レコード**」フィールドのレコードの名前をクリックします。
@@ -313,7 +295,7 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
      >
      >メールおよびアプリ内通知は、組織のWorkfront インスタンスがAdobe Unified Experience にオンボードされている場合にのみ表示されます。
 
-   <!--* <span class="preview"> After the request was approved and the record was created, the Approved by and Approved date fields display information about the approval on the record.</span>-->
+   * <span class="preview"> 要求が承認され、レコードが作成された後、「承認者」および「承認日」フィールドに、承認に関する情報がレコードに表示されます。</span>
 
 1. （任意）「**リクエストを表示**」をクリックして、Workfrontでリクエストを開きます。
 

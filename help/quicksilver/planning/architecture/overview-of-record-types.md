@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 67%
+source-wordcount: '294'
+ht-degree: 49%
 
 ---
 
@@ -18,9 +18,17 @@ ht-degree: 67%
 
 {{planning-important-intro}}
 
-オブジェクトタイプが事前に定義されている Workfront とは異なり、Adobe Workfront Planning では独自のオブジェクトタイプを作成できます。例えば、Workfront では、プログラム、ポートフォリオ、プロジェクト、タスクやイシューのオブジェクトタイプがあらかじめ作成されています。
+オブジェクト型が事前定義されているWorkfrontとは異なり、Adobe Workfront Planning では独自のオブジェクト型を作成できます。
 
-Workfront Planning のオブジェクト・タイプは「レコード・タイプ」と呼ばれ、ユーザーが作成した場合にのみ存在します。 レコードタイプは、Workfront Planning ワークスペースの構成要素です。ワークスペースについて詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+例えば、Workfront では、プログラム、ポートフォリオ、プロジェクト、タスクまたはイシューのオブジェクトタイプがあらかじめ作成されています。
+
+Workfront Planning のオブジェクト・タイプは「レコード・タイプ」と呼ばれ、ユーザーが作成した場合にのみ存在します。
+
+レコードタイプは、Workfrontの計画ワークスペースの構築ブロックで、ワークフローやその他の情報に関連付けられるようにするには、すべてを作成する必要があります。
+
+レコードタイプはワークスペースで整理されます。
+
+ワークスペースについて詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 
 ## レコードタイプの概要
 
@@ -32,6 +40,8 @@ Workfront Planning では、組織のニーズに合ったカスタムレコー�
 
    * **運用レコードタイプ**：戦略的計画、イニシアチブ、または予定作業を表すレコードタイプ。 例えば、キャンペーン、アクティビティ、戦術、商談は、運用レコードタイプです。
    * **分類**：運用レコードタイプに関する属性を取り込むレコードタイプ。例えば、地域、住所、オーディエンスは分類です。
+
+  これらのセクションの名前を変更または削除したり、さらに作成したりできます。
 
 * 最初から作成したワークスペースにレコードタイプを作成する際、ワークスペース内に作成した任意のセクションにレコードタイプを配置できます。
 * レコードタイプの作成時、自分とワークスペースへのアクセス権を付与したユーザーのみが、このレコードタイプを表示できます。
