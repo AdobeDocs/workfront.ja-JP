@@ -6,10 +6,10 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 8e9d9c9489d43917386e581ac9834fbb65b33d25
+source-git-commit: 7c7697936da90d17599d90b69265f62221185569
 workflow-type: tm+mt
-source-wordcount: '2863'
-ht-degree: 77%
+source-wordcount: '2803'
+ht-degree: 78%
 
 ---
 
@@ -25,9 +25,9 @@ ht-degree: 77%
 </div>
 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 予定作業は、Adobe Workfront ではプロジェクトとタスクで表されます。ただし、予定外の作業が要求という形で突然舞い込んでくる環境で働いているかもしれません。Workfront には、リクエストキューを使用してこのタイプの環境に対応するワークフローが用意されています。
 
@@ -150,12 +150,12 @@ Workfront web アプリでリクエストを作成するには：
    ![ 計画リクエスト用の統合ワークフローを備えた新しいリクエストボックス ](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
 
    Workfront リクエストキューカードの 1 つをクリックするか、1 つを検索して、リストに表示されたらクリックします。
-1. <span class="preview"> （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替え、プレビュー環境にある場合、**新規リクエスト** ボックスには次の情報が表示されます。</span>
+1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替え、プレビュー環境にある場合、「**新規リクエスト** ボックスには次の情報が表示されます。
 
-   <ul><span class="preview"><li>最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。 </li></span>
-    <span class="preview"><li>その他のすべてのWorkfrontおよび計画リクエストフォーム <b> すべてのリクエストフォーム </b> セクション デフォルトで表示されないリクエストフォームを検索できます。 </li></span>
-    <span class="preview"><li>その他のすべてのWorkfrontおよび Planning リクエスト・キューのパスは、「すべてのリクエスト・パス <b> セクションに表示さ </b> ます。 デフォルトで表示されないリクエストキューを検索できます。</li></span></ul>
-    <span class="preview">Workfront リクエストキューのパスまたはフォームの 1 つをクリックするか、1 つを検索して、リストに表示されたらクリックします。</span>
+   <ul><li>最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。 </li>
+    <li>その他のすべてのWorkfrontおよび計画リクエストフォーム <b> すべてのリクエストフォーム </b> セクション デフォルトで表示されないリクエストフォームを検索できます。 </li>
+    <li>その他のすべてのWorkfrontおよび Planning リクエスト・キューのパスは、「すべてのリクエスト・パス <b> セクションに表示さ </b> ます。 デフォルトで表示されないリクエストキューを検索できます。</li></ul>
+   Workfront リクエストキューのパスまたはフォームの 1 つをクリックするか、1 つを検索して、リストに表示されたらクリックします。
 
 1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替えた場合は、トピックグループとキューのトピックを選択して、フォームの更新を続行します。
 
