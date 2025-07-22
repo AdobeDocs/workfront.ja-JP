@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 8300595f63fab4f4ef6f00c7b8ff8b06120db2cc
+source-git-commit: a711b174c955776164fa745bcc40dfb808806d73
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '306'
 ht-degree: 7%
 
 ---
@@ -22,13 +22,27 @@ ht-degree: 7%
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
+## Planning リクエスト・フォームの承認者としてのチームの追加
+
+>[!NOTE]
+>
+>プレビュー：2025 年 7 月 22 日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>すべての製品の実稼動：2025 年 10 月 16 日（PT）
+
+承認プロセスの柔軟性を高めるために、Planning のリクエストフォームに承認者としてチームを追加する機能を追加しました。 現在は、承認者を設定する際に、チーム名を入力および選択できます。 チームメンバーは誰でも決定を行うことができます。これは、チーム全体の承認決定としてカウントされます。
+
+以前は、個々のユーザーのみを承認者として割り当てることができました。
+
+詳しくは、[Adobe Workfront Planning のリクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
+
 ## レコードの承認情報を表示する新しいフィールド
 
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 17 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>すべての製品の実稼動：2025 年 10 月 16 日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>すべての製品の実稼動：2025 年 10 月 16 日（PT）
 
 
 次のフィールドを導入して、承認を伴うリクエストを送信することで作成されたレコードの承認情報を取得しています。
@@ -44,8 +58,8 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 10 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
 
 
 現在、テーブルビューに適用されたグループ化が存在する場合、テーブルにレコードを追加すると、レコードの追加先のグループ化に関連するフィールドが自動入力されるようになりました。
