@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
+source-git-commit: 7f95df7acfb1afd0974c0138152a68326631d265
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 83%
+source-wordcount: '402'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 83%
 
 [!DNL Adobe Workfront] 管理者は、カスタム費用タイプを作成して、タスクやプロジェクトに関連する費用を定義および追跡できます。費用は、タスクやプロジェクトに関連付けることができる労力以外のコストです。
 
-作成した費用タイプは、編集や削除することができます。組み込みの [!DNL Workfront] 費用タイプは、削除したり編集したりすることができません。
+作成した費用タイプは、編集や削除することができます。ビルトインの [!DNL Workfront] 費用タイプは、削除したり編集したりすることができません。
 
 ## アクセス要件
 
@@ -72,39 +72,21 @@ ht-degree: 83%
 
 1. 「**[!UICONTROL 費用タイプ]**」をクリックします。
 1. **[!UICONTROL 新規費用タイプ]** をクリックします。
-1. **[!UICONTROL 新規費用タイプ]** ダイアログボックスで、次の情報を指定します。
+1. **[!UICONTROL 新規費用タイプ]** ダイアログボックスで、次の情報を入力します。
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>費用の名前を指定します。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Description]</td> 
-      <td>費用の説明を指定します。</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Calculated Unit]</td> 
-      <td> <p>費用タイプの測定単位をドロップダウンリストから選択します。</p> <p>以下の測定単位が使用できます。</p> 
-       <ul> 
-        <li>マイル</li> 
-        <li>キロメートル</li> 
-        <li>キログラム</li> 
-        <li>ドル</li> 
-        <li>ドル</li> 
-        <li>日</li> 
-        <li>その他 - このオプションを選択すると、測定単位に名前を付け、測定単位を組織にとってなじみのあるものとして定義するよう求められます。</li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">レート</td> 
-      <td> <p>単位あたりの価格を指定します。これは通貨形式のフィールドで、<strong>[!UICONTROL Calculated Unit]</strong>フィールドで確立された各ユニットのコストを表します。 </p> <p>レートには、小数点以下 4 桁までの数値を含めることができます。例えば、1.0375</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   * **名前** – 費用の名前。
+   * **説明** – 費用の説明。
+   * **計算単位** - ドロップダウンリストから費用タイプの測定単位を選択します。 次の単位の測定を使用できます。
+
+      * マイル
+      * キロメートル
+      * キログラム
+      * ドル
+      * 時間
+      * 日
+      * その他 - このオプションを選択すると、測定単位に名前を付け、測定単位を組織にとってなじみのあるものとして定義するよう求められます。
+
+   * **料金** – 単位あたりの価格。 これは通貨書式のフィールドで、「計算単位 **フィールドで設定された各単位のコストを表** ます。 レートには、小数点以下 4 桁までの数値を含めることができます。例えば、1.0375 と入力します。
 
 1. **[!UICONTROL 保存]**&#x200B;をクリックします。
 
@@ -115,7 +97,7 @@ ht-degree: 83%
 {{step-1-to-setup}}
 
 1. 「**[!UICONTROL 費用タイプ]**」をクリックします。
-1. 変更する費用タイプを選択してから、「**[!UICONTROL 編集]**」をクリックします。
+1. 変更する費用タイプを選択し、**[!UICONTROL 編集]** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
    **[!UICONTROL 費用タイプを編集]** ダイアログボックスが表示されます。
 
