@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '1476'
-ht-degree: 6%
+source-wordcount: '1474'
+ht-degree: 7%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 6%
 >[!IMPORTANT]
 >
 >ワークスペースへのアクセス権を持つユーザーには、ワークスペース内のすべてのレコードタイプに対する少なくとも表示権限が自動的に付与されます。
->&#x200B;>ビューを共有しても、ユーザーはレコードタイプに対する権限を持ちません。 共有ワークスペースのみが、レコードタイプに対する権限をユーザーに付与できます。
+>>ビューを共有しても、ユーザーはレコードタイプに対する権限を持ちません。 共有ワークスペースのみが、レコードタイプに対する権限をユーザーに付与できます。
 >
 >* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
 >* 詳しくは、この記事の [ レコードタイプを共有する場合の考慮事項 ](#considerations-when-sharing-record-types) の節を参照してください。
@@ -142,9 +142,21 @@ ht-degree: 6%
 
 {{step1-to-planning}}
 
-1. 共有するレコードタイプのワークスペースを開き、レコードタイプのカードをクリックします。
+1. レコードタイプを共有するワークスペースを開きます。
 
-   レコードタイプページが開きます。
+<!--when we release Share on the record type card, replace the next 3 steps with this: 
+
+1. Do one of the following: 
+
+   * <span class="preview">From the record type card, click the **More** menu > **Share**.</span>
+   * Click a record type card to open the record type's page, then click **Share** > **Share the record type** from any record type view.
+
+   The **Share** box opens.
+-->
+
+1. レコードタイプのカードをクリックします。
+
+   レコードタイプのページが開きます。
 
 1. 任意のビューのタブで、レコードタイプの右上隅にある「**共有**」をクリックします。
 1. **レコードタイプを共有** をクリックします。
@@ -160,7 +172,6 @@ ht-degree: 6%
    >[!TIP]
    >
    >継承された権限リストから個々のエンティティを削除することはできません。
-
 
 1. （オプションおよび条件付き）レコードタイプを特定のエンティティと共有し、ワークスペースに対して既に付与されているレコードタイプとは異なるアクセス権を付与する場合は、次の操作を行います。
 

@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '2388'
 ht-degree: 20%
@@ -26,8 +26,12 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 次のいずれかを行うことで、レコードを作成できます。
 
-* [レコードタイプのテーブル表示からインラインで追加してレコードを作成](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 * [任意のレコードタイプ表示から「新規レコード」または「レコードをリクエスト」ボタンを使用してレコードを作成](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [レコードタイプのテーブル表示からインラインで追加してレコードを作成](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+
+<!--
+* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+
 * [外部リストからのレコードのリストのコピー&amp;ペースト](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [テーブルビューからレコードを複製](#create-records-by-duplicating-them)
 * [他のレコードから接続する際のレコードの作成](#create-records-as-you-connect-them)
@@ -108,77 +112,6 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
-
-## レコードタイプのテーブル表示からインラインで追加してレコードを作成
-
-レコードタイプページのテーブル表示でレコードを作成するには、レコードをインラインで追加します。
-
-レコード情報の編集については、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
-
-{{step1-to-planning}}
-
-1. レコードを追加するワークスペースをクリックします。
-
-   ワークスペースが開き、レコードタイプがカードとして表示されます。
-
-1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
-
-   最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトで、レコードタイプのページがテーブルビューで開きます。
-選択したタイプのレコードがビューに表示されます。
-
-1. （条件付き）テーブル表示から、次のいずれかの操作を行います。
-
-   * テーブルの最後の行、またはグループ化の最後のレコードの後にある **新規レコード** をクリックします
-
-     >[!TIP]
-     >
-     >グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontはグループに含まれるフィールドを自動的に設定します。 必要に応じてこれらのフィールドを手動で編集でき、レコードがグループから削除される可能性があります。
-
-   * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。これにより、開始レコードの下に空の行が追加されます。
-   * レコードの主フィールドにポインタを合わせ、フィールドの右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**上にレコードを挿入** または **下にレコードを挿入** をクリックします。
-
-   ![ テーブルの行に新しいキャンペーンを追加 ](assets/adding-a-new-campaign-in-table-row.png)
-
-   Workfrontは、新しい各レコードにサムネールを自動アップロードします。 これらの画像は、後で変更できます。 詳しくは、[ レコードへのかぶり画像を追加する ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) を参照してください。
-
-   新しいレコードがテーブルに追加されます。
-
-1. 新しいレコードのプライマリフィールドをクリックします
-
-   または
-
-   レコード名の左側にある **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。
-
-   テーブルにプレビューボックスが表示されます。
-
-1. プレビューボックスに表示されるフィールドに、新しいレコードに関する情報を入力します。
-
-   >[!NOTE]
-   >
-   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクするときにレコードを識別すると便利なので、レコードの主フィールドの情報を追加することをお勧めします。 主フィールドについて詳しくは、[ テーブル表示の管理 ](/help/quicksilver/planning/views/manage-the-table-view.md) および [プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
-   >
-   >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
-
-1. （条件付き）テーブルにレコードを追加する場合、レコードのプレビューボックスを開く前に、各行に引き続き情報を追加してから、キーボードの **Enter** をクリックして変更を保存します。
-
-   または
-
-   新しいレコードの名前、またはレコード名の左側にある **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックしてプレビューボックスを開き、詳細領域でレコードの情報を編集します。
-
-   >[!TIP]
-   >
-   >**詳細を開く** アイコンにアクセスできるのは、レコードの名前フィールド（名前フィールドがプライマリフィールドの場合）のみです。
-
-1. （オプション）レコードのプレビューボックスで、右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを新しいタブで開きます。 レコードページでレコードの編集を続行します。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
-
-   Workfront では、変更を自動的に保存します。
-
-1. （オプション） レコードのページを開いた場合は、プレビューボックスを閉じるか、レコード名の左側にある戻る矢印をクリックします。
-
-1. （オプション）テーブル表示で新しいレコードや情報を追加する際に、テーブル表示から次のキーボードショートカットを使用して、それらの追加の取り消しまたはやり直しを行います。
-
-   * CTRL + Z （Macの場合は ⌘ + Z）
-   * Ctrl + Shift + Z （Macの場合は ⌘ + Shift + Z）
 
 ## 任意のレコードタイプ表示から「新規レコード」または「レコードをリクエスト」ボタンを使用してレコードを作成
 
@@ -265,6 +198,136 @@ You can import records from other applications by linking them to existing recor
       For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
    
 -->
+
+## レコードタイプのテーブル表示からインラインで追加してレコードを作成
+
+レコードタイプページのテーブル表示でレコードを作成するには、レコードをインラインで追加します。
+
+レコード情報の編集については、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+
+{{step1-to-planning}}
+
+1. レコードを追加するワークスペースをクリックします。
+
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
+
+1. レコードタイプのカードをクリックします。レコードタイプの作成については、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+
+   最後にアクセスしたビューで、レコードタイプのページが開きます。デフォルトで、レコードタイプのページがテーブルビューで開きます。
+選択したタイプのレコードがビューに表示されます。
+
+1. （条件付き）テーブル表示から、次のいずれかの操作を行います。
+
+   * テーブルの最後の行、またはグループ化の最後のレコードの後にある **新規レコード** をクリックします
+
+     >[!TIP]
+     >
+     >グループ化またはサブグループ化の最後のレコードの後に新しいレコードを追加すると、Workfrontはグループに含まれるフィールドを自動的に設定します。 必要に応じてこれらのフィールドを手動で編集でき、レコードがグループから削除される可能性があります。
+
+   * テーブルの任意の列または行から、キーボードの **Shift + Enter** キーをクリックします。これにより、開始レコードの下に空の行が追加されます。
+   * レコードの主フィールドにポインタを合わせ、フィールドの右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、**上にレコードを挿入** または **下にレコードを挿入** をクリックします。
+
+   ![ テーブルの行に新しいキャンペーンを追加 ](assets/adding-a-new-campaign-in-table-row.png)
+
+   Workfrontは、新しい各レコードにサムネールを自動アップロードします。 これらの画像は、後で変更できます。 詳しくは、[ レコードへのかぶり画像を追加する ](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) を参照してください。
+
+   新しいレコードがテーブルに追加されます。
+
+1. 新しいレコードのプライマリフィールドをクリックします
+
+   または
+
+   レコード名の左側にある **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックします。
+
+   テーブルにプレビューボックスが表示されます。
+
+1. プレビューボックスに表示されるフィールドに、新しいレコードに関する情報を入力します。
+
+   >[!NOTE]
+   >
+   >  * レコードに必須のフィールドはありません。ただし、レコードを相互にリンクするときにレコードを識別すると便利なので、レコードの主フィールドの情報を追加することをお勧めします。 主フィールドについて詳しくは、[ テーブル表示の管理 ](/help/quicksilver/planning/views/manage-the-table-view.md) および [プライマリフィールドの概要 ](/help/quicksilver/planning/fields/primary-field-overview.md) を参照してください。
+   >
+   >  * 他のレコードタイプまたは計算フィールドを参照するフィールドは、読み取り専用フィールドです。
+
+1. （条件付き）テーブルにレコードを追加する場合、レコードのプレビューボックスを開く前に、各行に引き続き情報を追加してから、キーボードの **Enter** をクリックして変更を保存します。
+
+   または
+
+   新しいレコードの名前、またはレコード名の左側にある **詳細を開く** アイコン ![ テーブル名フィールドで詳細を開くアイコン ](assets/open-details-icon-in-table-name-field.png) をクリックしてプレビューボックスを開き、詳細領域でレコードの情報を編集します。
+
+   >[!TIP]
+   >
+   >**詳細を開く** アイコンにアクセスできるのは、レコードの名前フィールド（名前フィールドがプライマリフィールドの場合）のみです。
+
+1. （オプション）レコードのプレビューボックスで、右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを新しいタブで開きます。 レコードページでレコードの編集を続行します。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+
+   Workfront では、変更を自動的に保存します。
+
+1. （オプション） レコードのページを開いた場合は、プレビューボックスを閉じるか、レコード名の左側にある戻る矢印をクリックします。
+
+1. （オプション）テーブル表示で新しいレコードや情報を追加する際に、テーブル表示から次のキーボードショートカットを使用して、それらの追加の取り消しまたはやり直しを行います。
+
+   * CTRL + Z （Macの場合は ⌘ + Z）
+   * Ctrl + Shift + Z （Macの場合は ⌘ + Shift + Z）
+
+<!--<div class="preview">
+
+## Create records by adding them in the record type timeline view
+
+You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+
+For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a timeline view, or create a timeline view, first. 
+
+    >[!NOTE]
+    >
+    >You can create a timeline view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere in the timeline. 
+
+    A new record box opens. 
+
+    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Year**: The record start and end dates span a month.
+        * By **Quarter**: The record start and end dates span a week. 
+        * By **Month**: The record start and end dates span three days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+
+</div>-->
 
 ## 外部リストからレコードをコピー&amp;ペーストして作成
 

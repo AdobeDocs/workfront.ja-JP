@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '3750'
 ht-degree: 39%
@@ -114,6 +114,14 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    * 開始日または終了日のどちらかに値がない場合
    * 開始日が終了日より後の場合
 
+<!--
+<div class="preview">
+
+* You can create and edit records in the timeline view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
+
 タイムラインビューを管理するには：
 
 1. タイムラインを表示するレコードタイプページに移動します。
@@ -184,6 +192,10 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    1. キーボードの Enter キーを押して、次に見つかったフィールドに移動します。
    1. （オプション）複数の一致がある場合は、検索キーワードの右にある上下の矢印をクリックすると、表内のすべての一致を確認できます。
    1. 検索ボックスの **x** アイコンをクリックすると、検索キーワードをクリアできます。
+
+   <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+-->
 
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)

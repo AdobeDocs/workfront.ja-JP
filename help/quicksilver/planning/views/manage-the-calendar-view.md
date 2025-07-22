@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 29%
@@ -133,7 +133,9 @@ Adobe Workfrontのプランニングビューとその管理方法について�
          * 複数日にまたがるレコードは、カレンダーの上部に表示されます。
          * 1 日以下のレコードは、カレンダー表示の下半分に表示されます。 開始日と終了日の時間を表示するように選択した場合、レコードは該当する日の適切な時間に表示されます。
 
-
+   <!--
+    1. <span class="preview">(Optional) Click the **Full screen** icon ![Open full screen icon](assets/open-full-screen-icon.png) to open the view in full screen, then the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen-icon.png) or Escape on your keyboard to exit the full screen.  </span>
+    -->
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)
    * [設定](#edit-the-calendar-view-settings)

@@ -4,15 +4,15 @@ content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
 title: 時間タイプの管理
-description: 時間タイプを時間エントリに関連付けることができます。時間タイプは、時間エントリの定義に使用するラベルです。
+description: 時間タイプを時間エントリに関連付けることができます。時間タイプは、時間エントリの定義に使用するラベルです。 時間タイプは、一般的な時間の場合と、プロジェクト固有の時間の場合があります。
 author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 4fafdcea97874e791104260375617e3989af1870
+source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 28%
+source-wordcount: '1134'
+ht-degree: 25%
 
 ---
 
@@ -58,7 +58,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,9 +85,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 +++
 
-## 組み込みの時間タイプ
+## ビルトインの時間タイプ
 
-Workfront には、一連の組み込みの時間タイプが付属しています。これらの時間タイプは、編集または非表示にできません。
+Workfront には、一連のビルトインの時間タイプが付属しています。これらの時間タイプは、編集または非表示にできません。
 
 [!DNL Workfront] に付属する時間タイプは以下のとおりです。
 
@@ -129,7 +129,7 @@ Workfront には、一連の組み込みの時間タイプが付属していま�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b> 重要 </b>: [!UICONTROL プロジェクト固有 &#x200B;] のカスタム時間タイプがある場合、それを [!UICONTROL 一般 &#x200B;] に変更すると、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定のタイプに設定されます。</p> </td> 
+      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b>重要</b></p><p> [!UICONTROL プロジェクト固有 ] のカスタム時間タイプがあり、それを [!UICONTROL 一般 ] に変更した場合、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定の時間タイプに設定されます。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
@@ -142,9 +142,65 @@ Workfront には、一連の組み込みの時間タイプが付属していま�
     </tbody> 
    </table>
 
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
 1. 「**[!UICONTROL 時間タイプを作成]」をクリックします。**
 
+   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+
    時間タイプはWorkfront システムに追加され、デフォルトで有効になっています。
+
+
+## 時間タイプの編集
+
+[!DNL Workfront] 管理者は、組織の時間タイプをシステムレベルおよびプロジェクトレベルで編集できます。
+
+>[!NOTE]
+>
+>* ビルトインの時間タイプは編集できません。
+>* 時間タイプを一括で編集することはできません。
+
+{{step-1-to-setup}}
+
+1. 左側のパネルで **タイムシートと時間** をクリックし、**時間タイプ** をクリックします。
+
+1. 時間タイプ名をクリックするか、時間タイプを選択して、リストの上部にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+1. **時間タイプを編集** ダイアログボックスで、次の情報を指定します。
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Name]</td> 
+      <td>システムで簡単に認識できる時間タイプ名を入力します。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Description]</td> 
+      <td>時間タイプの説明を追加します。</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Scope]</td> 
+      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b>重要</b></p> <p>[!UICONTROL プロジェクト固有 ] のカスタム時間タイプがあり、それを [!UICONTROL 一般 ] に変更した場合、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定の時間タイプに設定されます。</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td><p>この時間タイプに関連付けられた時間エントリを収益の計算に反映させたい場合は、このオプションを選択します。</p>
+      <p>病欠時間と休暇時間は、収益としてカウントできません。</p>
+      <p><b>メモ</b></p>
+      <p>一般的な時間タイプが収益としてカウントされる場合、時間を記録しているユーザーのプロファイルに関連付けられたコスト率は、時間コストに関連付けられます。  
+      </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
+
+1. 「**[!UICONTROL 変更を保存]」をクリックします。**
+
+   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+
+   変更内容が保存され、時間タイプが編集されます。
 
 ## 時間タイプの非アクティブ化
 
@@ -152,9 +208,11 @@ Workfront には、一連の組み込みの時間タイプが付属していま�
 
 >[!NOTE]
 >
->* ビルトインの時間タイプは非アクティブ化できません。
+>* 組み込みの時間タイプは非アクティブ化できません。
+>* 時間タイプは一括で非アクティブ化できます。
 >* プロジェクト固有の時間タイプを非アクティブ化すると、そのタイプでログに記録されたすべての時間は、自動的にビルトインのプロジェクト固有の時間タイプにデフォルト設定されます。 例えば、プロジェクトのログ時間はデフォルトでプロジェクト時間タイプに、タスクのログ時間はデフォルトでタスク時間タイプに設定されます。
->
+>* 一般的な時間タイプを非アクティブ化すると、ログ時間はタイムシートに残りますが、ユーザーは、今後その時間タイプの時間をログに記録できなくなります。
+
 
 
 時間タイプを非アクティブ化するには、次の手順に従います。
@@ -163,8 +221,7 @@ Workfront には、一連の組み込みの時間タイプが付属していま�
 
 1. 左側のパネルで **[!UICONTROL タイムシートと時間]** をクリックし、**[!UICONTROL 時間タイプ]** をクリックします。
 
-1. 非アクティブ化する時間タイプを選択します。
-
+1. 非アクティブ化する時間タイプを選択します。 複数の時間タイプを選択できます。
 
 1. 「**詳細**」をクリックしてから「**アクティベートを解除** をクリックします。
 
