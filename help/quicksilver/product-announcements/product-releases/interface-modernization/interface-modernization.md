@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6b93cca4a434885e39cddcb4a01a8d753609b220
+source-git-commit: b2fdf8d54adacfa4ab2d665767f2265fdd23da4f
 workflow-type: tm+mt
-source-wordcount: '5280'
+source-wordcount: '5276'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 2%
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
 ## 管理と設定
-
 
 ### レイアウトテンプレート ページのインターフェイスの更新
 
@@ -248,7 +247,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### プロジェクトの「関連プロジェクト」セクションに対するインターフェイスの更新（特定の顧客のみが使用できます）
 
-**プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：2025 年 6 月 19 日（PT）**
 
 プロジェクトの関連プロジェクトの節を、Workfrontの他の領域と一致する、より現代的なデザインで更新しました。
 
@@ -256,7 +255,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 「テンプレートとして保存」ボックスの新しいルックアンドフィール
 
-**プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：2025 年 6 月 19 日（PT）**
 
 プロジェクトをテンプレートとして保存する際に表示される「テンプレートとして保存」ボックスのルックアンドフィールを更新しました。 この新しいデザインには、合理化されたインターフェイスが含まれており、すべてのセクションが 1 つの統一されたフォームで表示され、左パネルのリンクを使用して移動できます。 新しいデザインは、アプリケーション内の他の領域や他のオブジェクトと一致します。
 
