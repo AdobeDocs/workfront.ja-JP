@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 58d2bf9f14b9a3adf4bacfad58f1b9862aeaf247
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '2281'
+source-wordcount: '2299'
 ht-degree: 7%
 
 ---
@@ -207,7 +207,7 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
 1. （オプション） **プレビュー** をクリックして、他のユーザーが新しいレコードを送信する際にフォームを使用する際のフォームの表示方法を表示します。
 
-1. （オプション）「**設定**」タブをクリックし、「**承認者**」フィールドに少なくとも 1 人のユーザーを追加して、このレコードフォームの新しいリクエストを承認します。
+1. （オプション）「**設定**」タブをクリックし、このレコードフォームの新規要求を承認するユーザー <span class="preview"> またはチーム </span> を「**承認者**」フィールドに少なくとも 1 人追加します。
 
    ![ 「設定」タブ ](assets/configuration-tab.png)
 
@@ -217,6 +217,7 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
    * リクエストフォームには、1 人または複数の承認者を追加できます。
    * 少なくとも 1 人の承認者が要求を拒否した場合、要求は拒否され、レコードは作成されません。
    * すべての承認者は、リクエストが承認または却下される前に決定を行う必要があります。
+   * <span class="preview"> チームが承認者として設定されている場合、チームからの決定は 1 つだけ必要です。</span>
 
      リクエストフォームへの承認の追加について詳しくは、「[ リクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md)」を参照してください。
 

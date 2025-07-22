@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 058148db-1795-4d39-be87-271008ae3d47
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 14%
+source-wordcount: '782'
+ht-degree: 13%
 
 ---
 
@@ -123,11 +123,11 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
    **設定** 領域が表示されます。
 
    ![ 「設定」タブ ](assets/configuration-tab.png)
-1. **承認者** フィールドで、ドロップダウンアイコンをクリックし、リストで 1 つまたは複数の名前を選択します
+1. 「**承認者**」フィールドで、ドロップダウンアイコンをクリックし、リストで 1 人または複数のユーザー <span class="preview"> またはチーム </span> を選択します
 
    または
 
-   承認者の名前の入力を開始し、リストに表示されたら選択します。
+   承認者として設定するユーザー <span class="preview"> またはチーム </span> の名前の入力を開始し、リストに表示されたら選択します。
 
    <!--most of the Note below is duplicated in the Create a request form article-->
 
@@ -141,6 +141,8 @@ Adobe Workfront Planning でのリクエストフォームの作成について�
    >* 少なくとも 1 人の承認者が要求を拒否した場合、要求は拒否され、レコードは作成されません。 リクエストは、Workfrontの「リクエスト」領域にある「送信済み」セクションの「計画」タブに残ります。
    >
    >* すべての承認者は、リクエストが承認または却下される前に決定を行う必要があります。
+   >
+   >* <span class="preview"> チームが承認者として設定されている場合、チームからの決定は 1 つだけ必要です。</span>
 
 
 1. （任意）リクエストフォームを共有したことがない場合は、「**公開**」をクリックします
