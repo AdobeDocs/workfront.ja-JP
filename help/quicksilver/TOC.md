@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 4558180667d3812f3b4089b7d599158327a683bf
+source-git-commit: 308d6e1dba361c5297c741dea71b11fe6100e871
 workflow-type: tm+mt
-source-wordcount: '13258'
+source-wordcount: '13265'
 ht-degree: 86%
 
 ---
@@ -207,7 +207,6 @@ ht-degree: 86%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning リリースアクティビティ{#planning-release-activity}
          * [Adobe Workfront計画リリースアクティビティ ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Adobe Workfront Planning の 2025 年第 4 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Adobe Workfront Planning の 2025 年第 3 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Adobe Workfront Planning の 2025 年第 2 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
@@ -857,6 +856,7 @@ ht-degree: 86%
       * [優先度カレンダーでの作業の管理](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * ホーム {#home}
       * [ホーム](workfront-basics/using-home/home.md)
+      * [従来のホームから新しいホームへの移動](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
       * ホームエリアの使用 {#use-home-area}
          * [「ホーム」領域の使用：記事インデックス](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [ホームの基本を学ぶ](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
