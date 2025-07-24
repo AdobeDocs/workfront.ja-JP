@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 83b3bd73fd30b5fba931e64783dee67485d98fe9
+source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
 workflow-type: tm+mt
-source-wordcount: '2299'
+source-wordcount: '2298'
 ht-degree: 7%
 
 ---
@@ -118,7 +118,6 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
       * 作成者、最終変更者、<span class="preview"> 承認者 </span>
       * 作成日、最終変更日、<span class="preview"> 承認日 </span>
-      * 式
       * Workfront オブジェクトの参照フィールド
       * Workfront Planning 接続レコードの参照フィールド
 
