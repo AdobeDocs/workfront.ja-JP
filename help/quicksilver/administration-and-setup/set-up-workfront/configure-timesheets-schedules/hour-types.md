@@ -9,10 +9,10 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1134'
-ht-degree: 25%
+source-wordcount: '1189'
+ht-degree: 23%
 
 ---
 
@@ -23,14 +23,13 @@ ht-degree: 25%
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
 
-<!--<div class="preview">
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 </div>
--->
 
 時間タイプは、時間エントリの定義に使用するラベルです。 時間タイプを時間エントリに関連付けることができます。
 
@@ -129,10 +128,10 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b>重要</b></p><p> [!UICONTROL プロジェクト固有 &#x200B;] のカスタム時間タイプがあり、それを [!UICONTROL 一般 &#x200B;] に変更した場合、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定の時間タイプに設定されます。</p> </td> 
+      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b>重要</b></p><p> [!UICONTROL プロジェクト固有 ] のカスタム時間タイプがあり、それを [!UICONTROL 一般 ] に変更した場合、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定の時間タイプに設定されます。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td role="rowheader"><span class="preview">[!UICONTROL 収益カウント ]</span></td> 
       <td><p>この時間タイプに関連付けられた時間エントリを収益の計算に反映させたい場合は、このオプションを選択します。</p>
       <p>病欠時間と休暇時間は、収益としてカウントできません。</p>
       <p><b>メモ</b></p>
@@ -142,14 +141,9 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
-
-1. 「**[!UICONTROL 時間タイプを作成]」をクリックします。**
-
-   <!--Click  **[!UICONTROL Create Hour Type]** <span class="preview"> or **Save**</span>. -->
+1. **[!UICONTROL 時間タイプを作成]** <span class="preview"> または **保存** をクリックします。</span>
 
    時間タイプはWorkfront システムに追加され、デフォルトで有効になっています。
-
 
 ## 時間タイプの編集
 
@@ -181,10 +175,10 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope]</td> 
-      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b>重要</b></p> <p>[!UICONTROL プロジェクト固有 &#x200B;] のカスタム時間タイプがあり、それを [!UICONTROL 一般 &#x200B;] に変更した場合、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定の時間タイプに設定されます。</p> </td> 
+      <td> <p><strong> 範囲 </strong> ドロップダウンメニューで、時間タイプが一般的な時間タイプかプロジェクト固有の時間タイプかを選択します。</p> <p>一般的な時間タイプは、タイムシートにのみ表示され、プロジェクト、タスク、または問題に関連付けることはできません。</p> <p><b>重要</b></p> <p>[!UICONTROL プロジェクト固有 ] のカスタム時間タイプがあり、それを [!UICONTROL 一般 ] に変更した場合、既存のタスク、問題、およびプロジェクト時間はすべて、システムの既定の時間タイプに設定されます。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
+      <td role="rowheader"><span class="preview">[!UICONTROL 収益カウント ]</span></td> 
       <td><p>この時間タイプに関連付けられた時間エントリを収益の計算に反映させたい場合は、このオプションを選択します。</p>
       <p>病欠時間と休暇時間は、収益としてカウントできません。</p>
       <p><b>メモ</b></p>
@@ -194,11 +188,8 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
     </tbody> 
    </table>
 
-   <!-- in the table above, add this for the Count as revenue: <span class="preview">[!UICONTROL Count as Revenue]</span>-->
 
-1. 「**[!UICONTROL 変更を保存]」をクリックします。**
-
-   <!--Click  **[!UICONTROL Save Changes]** <span class="preview"> or **Save**</span>. -->
+1. **[!UICONTROL 変更を保存]** <span class="preview"> または **保存** をクリックします。</span>
 
    変更内容が保存され、時間タイプが編集されます。
 

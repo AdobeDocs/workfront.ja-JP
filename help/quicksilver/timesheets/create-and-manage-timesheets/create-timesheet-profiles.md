@@ -6,10 +6,10 @@ description: 追加の介入なしに、ユーザーに対して定期タイム�
 author: Alina
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '1540'
-ht-degree: 88%
+source-wordcount: '1604'
+ht-degree: 82%
 
 ---
 
@@ -36,8 +36,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、以下を保有している必要があります。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -194,9 +192,17 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    >* グループを追加すると、「ユーザーを割り当て」タブにはグループ名のみが表示され、グループメンバーのリストは表示されません。ここにリスト表示されるグループメンバーを確認するには、「変更を保存」をクリックし、作成したばかりのタイムシートプロファイルの名前をクリックします。
    >* この手順を完了すると、タイムシートプロファイルは、現在の期間の既存のタイムシートを持たない、割り当てられたユーザーやグループメンバーに対してのみタイムシートを生成します。
 
-1. 「**変更を保存**」をクリックします。
+1. **保存**&#x200B;をクリックします。
 
-   タイムシートプロファイルがタイムシートを初めて生成する場合、各ユーザーに対して 2 つのタイムシートが作成されます。その後、新しいタイムシートが生成されるたびに、各ユーザーに対して 1 つのタイムシートが作成されます。
+1. タイムシートプロファイルリストの上部で、システムレベルのタイムシートプロファイルには **その他** アイコン ![ その他 ](assets/more-icon.png) をクリックし、グループタイムシートプロファイルには **その他** をクリックしてから、「**タイムシートを生成** をクリックします。
+
+   タイムシートが正常に生成されたことを示す確認が画面の下部に表示されます。 作成した新規プロファイルに基づいて、新しいタイムシートが生成されます。
+
+   詳しくは、「[ タイムシートを手動で生成する ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)」を参照してください。
+
+   タイムシートプロファイルで初めてタイムシートが生成されると、現在の時間を含む期間と次の期間の両方について、ユーザーごとに 2 つのタイムシートが作成されます。
+
+   その後、新しいタイムシートを生成するたびに、ユーザーごとに 1 つのタイムシートが作成されます。
 
    <!--the content in the table above will need to match the content in the Create timesheets article-->
 

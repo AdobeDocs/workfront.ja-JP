@@ -6,19 +6,19 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 948ca1f8a91e20616b5a42876df8432e85737b2d
+source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
 workflow-type: tm+mt
-source-wordcount: '2388'
-ht-degree: 20%
+source-wordcount: '2798'
+ht-degree: 18%
 
 ---
 
 
 # レコードの作成
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -26,18 +26,21 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 次のいずれかを行うことで、レコードを作成できます。
 
-* [任意のレコードタイプ表示から「新規レコード」または「レコードをリクエスト」ボタンを使用してレコードを作成](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
-* [レコードタイプのテーブル表示からインラインで追加してレコードを作成](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* [任意のレコードタイプ表示の「新規レコード」または「レコードをリクエスト」ボタンを使用します](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
+* [レコードタイプのテーブル表示からインラインで追加する](#create-records-by-adding-them-inline-from-the-record-type-table-view)
 
-<!--
-* [Create records by adding them in the record type timeline view](#create-records-by-adding-them-in-the-record-type-timeline-view)-->
+<div class="preview">
+
+* [レコードタイプのタイムライン表示に追加](#create-records-by-adding-them-in-the-record-type-timeline-view)
+
+</div>
 
 * [外部リストからのレコードのリストのコピー&amp;ペースト](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [テーブルビューからレコードを複製](#create-records-by-duplicating-them)
-* [他のレコードから接続する際のレコードの作成](#create-records-as-you-connect-them)
-* [リクエストフォームをレコードタイプに送信してレコードを作成](#create-records-by-submitting-a-request-form-to-a-record-type)
-* [CSV または Excel ファイルから情報を読み込んでレコードを作成](#create-records-by-importing-records-from-a-csv-or-excel-file)
-* [自動化を使用したレコードの作成](#create-records-by-using-automations)
+* [他のレコードから接続](#create-records-as-you-connect-them)
+* [レコードタイプにリクエストフォームを送信する](#create-records-by-submitting-a-request-form-to-a-record-type)
+* [CSV または Excel ファイルからの情報の読み込み](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [自動化の使用](#create-records-by-using-automations)
 
 テーブルビューまたはタイムラインビューでのレコードの管理については、次の記事を参照してください。
 
@@ -270,64 +273,64 @@ You can import records from other applications by linking them to existing recor
    * CTRL + Z （Macの場合は ⌘ + Z）
    * Ctrl + Shift + Z （Macの場合は ⌘ + Shift + Z）
 
-<!--<div class="preview">
+<div class="preview">
 
-## Create records by adding them in the record type timeline view
+## レコードタイプのタイムラインビューに追加してレコードを作成
 
-You can create records in the timeline view of a record type page, by double-clicking in the timeline. 
+レコードタイプのページのタイムライン表示で、タイムラインをダブルクリックしてレコードを作成できます。
 
-For information about creating a timeline view, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+タイムラインビューの作成について詳しくは、[ タイムラインビューの管理 ](/help/quicksilver/planning/views/manage-the-timeline-view.md) を参照してください。
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. レコードを追加するワークスペースをクリックします。
 
-1. Click a record type card. 
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
 
-    The record type page opens in the view that you last accessed. 
+1. レコードタイプのカードをクリックします。
 
-1. Click to open a timeline view, or create a timeline view, first. 
+   レコードタイプ ページが、最後にアクセスしたビューで開きます。
 
-    >[!NOTE]
-    >
-    >You can create a timeline view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere in the timeline. 
+1. まず、クリックしてタイムラインビューを開くか、タイムラインビューを作成します。
 
-    A new record box opens. 
+   >[!NOTE]
+   >
+   >タイムラインビューを作成できるのは、レコードタイプに関連付けられた日付フィールドが 2 つ以上ある場合のみです。
+1. タイムラインの任意の場所をダブルクリックします。
 
-    ![New record box on timeline with unnamed record bar](assets/new-record-small-box-on-timeline.png)
-1. Update the following information:
+   新しいレコードボックスが開きます。<!--might need a new screen shot for Production - might add a title etc-->
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. The name will not be visible in the record bar if left empty. 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+   ![ 名前のないレコード バーを含むタイムライン上の新規レコード ボックス ](assets/new-record-small-box-on-timeline.png)
+1. 次の情報を更新します。
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+   * **名前**: レコードの名前を入力します。 空のままにすると、Workfrontはデフォルトで **名称未設定** と名前を付けます。 名前を空のままにすると、レコードバーに表示されません。
+   * **レコード日付フィールド**：レコードの日付を更新します。
 
-        * By **Year**: The record start and end dates span a month.
-        * By **Quarter**: The record start and end dates span a week. 
-        * By **Month**: The record start and end dates span three days.
+     日付フィールドの名前は、タイムラインビューが作成された際に、「開始日」および「終了日」で選択されたフィールドに従ってカスタマイズされます。
 
-1. (Optional) Click one of the following icons: 
+     デフォルトでは、タイムラインビューの表示方法に応じて、日付値は事前に選択されています。 次のシナリオが存在します。
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+      * **年** 別：レコードの開始日と終了日は月に及びます。
+      * **四半期** 別：レコードの開始日と終了日が 1 週間にまたがる。
+      * **月** 別：レコードの開始日と終了日は 3 日間です。
 
-    The record is added to the timeline as well as to the table and calendar views immediately, unless you clicked the **Delete** icon. 
+1. （オプション）次のいずれかのアイコンをクリックします。
 
-1. (Optional) Click the record bar in the timeline to open the record's details window and update its information, delete it, or add comments. 
+   * **展開**![ 展開アイコン ](assets/expand-icon.png) をクリックして、プレビューウィンドウでレコードの詳細を開きます。
+   * **削除**![ 削除アイコン ](assets/delete-icon.png)：レコードを削除します。
+   * **閉じる**![ 閉じるアイコン ](assets/close-icon.png) 新規レコードボックスを閉じます。
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the timeline view only when it is enabled in the Settings of the view. 
+   **削除** アイコンをクリックしなかった場合、レコードは直ちにタイムラインおよびテーブルビューとカレンダービューに追加されます。
 
-</div>-->
+1. （オプション）タイムラインのレコードバーをクリックしてレコードの詳細ウィンドウを開き、情報を更新、削除またはコメントを追加します。
+
+   >[!TIP]
+   >
+   >デフォルトでは、Workfrontはレコードをサムネールとカバー画像に関連付けます。
+   >
+   >サムネールは、ビューの設定で有効になっている場合にのみ、タイムラインビューに表示されます。
+
+</div>
 
 ## 外部リストからレコードをコピー&amp;ペーストして作成
 
