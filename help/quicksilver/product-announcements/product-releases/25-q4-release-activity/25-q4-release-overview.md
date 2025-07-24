@@ -4,7 +4,8 @@ description: このページでは、2025年第 4 四半期リリースに含ま
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: b495399ff6375eae222b9a15538c52ae3c73f6bb
+exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
+source-git-commit: 83c9f6f36acad5182c63a74aa2f8e286ba1b839d
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 35%
@@ -37,7 +38,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront の機能強化
 
+<!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [その他の機能強化](#other-enhancements)
+
+
+
+<!--### Resource Management enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
+            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
+            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+        </td>
+        <td>July 24, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> -->
 
 ### その他の機能強化
 
@@ -88,7 +109,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 

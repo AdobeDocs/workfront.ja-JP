@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: c87f97f3b84e9e3261213f566fb52fe378b12baa
+source-git-commit: 2844a16a8a0c8a7064a6ac9a0751065386d826e2
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 7%
+source-wordcount: '606'
+ht-degree: 6%
 
 ---
 
@@ -22,13 +22,69 @@ ht-degree: 7%
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
+## タイムラインビューでのレコードの作成
+
+>[!NOTE]
+>
+>プレビュー：2025 年 7 月 24 日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
+
+タイムライン上の任意の場所をダブルクリックすることで、レコードタイプのタイムライン表示でレコードを作成できるようになりました。
+
+レコードの日付範囲を選択するか、レコードのページを開いてその詳細をすべて編集できます。
+
+この機能強化が行われるまで、新しいレコードを追加するには、「新規レコード」ボタンを使用するか、テーブル表示でインライン化する必要があります。
+
+詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+
+## レコードタイプのカードの詳細メニューに「共有」オプションを追加する
+
+>[!NOTE]
+>
+>プレビュー：2025 年 7 月 24 日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
+
+ワークスペースページのレコードタイプカードの「詳細」メニューからレコードタイプを共有できるようになりました。 この機能強化の前は、共有オプションはレコードタイプページ内でのみ使用できました。
+
+詳しくは、[ レコードタイプの共有 ](/help/quicksilver/planning/access/share-record-types.md) を参照してください。
+
+## すべてのWorkfront Planning ビューをフルスクリーン・モードで表示します
+
+>[!NOTE]
+>
+>プレビュー：2025 年 7 月 24 日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
+
+すべてのWorkfront Planning ビュー（テーブル、タイムライン、カレンダー）をフルスクリーンモードで表示できるようになりました。 ビュー機能は維持され、フルスクリーンでビューを変更することもできます。
+
+この機能強化の前は、この機能は存在しませんでした。
+
+詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
+
 ## Planning リクエスト・フォームの承認者としてのチームの追加
 
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 22 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>すべての製品の実稼動：2025 年 10 月 16 日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>すべての製品の実稼動：2025 年 10 月 16 日（PT）
+
+承認プロセスの柔軟性を高めるために、Planning のリクエストフォームに承認者としてチームを追加する機能を追加しました。 現在は、承認者を設定する際に、チーム名を入力および選択できます。 チームメンバーは誰でも決定を行うことができます。これは、チーム全体の承認決定としてカウントされます。
+
+以前は、個々のユーザーのみを承認者として割り当てることができました。
+
+詳しくは、[Adobe Workfront Planning のリクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
+
+## Planning リクエスト・フォームの承認者としてのチームの追加
+
+>[!NOTE]
+>
+>プレビュー：2025 年 7 月 22 日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>すべての製品の実稼動：2025 年 10 月 16 日（PT）
 
 承認プロセスの柔軟性を高めるために、Planning のリクエストフォームに承認者としてチームを追加する機能を追加しました。 現在は、承認者を設定する際に、チーム名を入力および選択できます。 チームメンバーは誰でも決定を行うことができます。これは、チーム全体の承認決定としてカウントされます。
 
@@ -41,8 +97,8 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 17 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>すべての製品の実稼動：2025 年 10 月 16 日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>すべての製品の実稼動：2025 年 10 月 16 日（PT）
 
 
 次のフィールドを導入して、承認を伴うリクエストを送信することで作成されたレコードの承認情報を取得しています。
@@ -58,8 +114,8 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 10 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
 
 
 現在、テーブルビューに適用されたグループ化が存在する場合、テーブルにレコードを追加すると、レコードの追加先のグループ化に関連するフィールドが自動入力されるようになりました。
@@ -69,16 +125,3 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 この機能強化の前は、グループ化に関連付けられたフィールドを手動で更新する必要がありました。
 
 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
-
-<!--## Add teams as approvers on Planning request forms
-
->[!NOTE]
->
->* Preview: July 9, 2025 
->* Production for everyone: October 16, 20025 
-
-To make the approval process more flexible, we've added the ability to add teams as approvers on Planning request forms. Now, you can enter and select team names when setting approvers. Any of the team members can make a decision, which counts as the approval decision for the entire team.
-
-Previously, only individual users could be assigned as approvers. 
-
-For more information, see [Add an approval to a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/add-approval-to-request-form.md).-->
