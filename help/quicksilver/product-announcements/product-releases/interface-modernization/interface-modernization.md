@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 93395934865cdf1d8b7b84a1b3134e69c9ac9c3b
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '5855'
+source-wordcount: '5853'
 ht-degree: 2%
 
 ---
@@ -357,7 +357,7 @@ For information, see [Log time](/help/quicksilver/timesheets/create-and-manage-t
 
 ### 「テンプレートとして保存」ボックスの新しいルックアンドフィール
 
-**プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：2025 年 6 月 12 日（PT）、実稼動リリース：2025 年 6 月 19 日（PT）
 
 プロジェクトをテンプレートとして保存する際に表示される「テンプレートとして保存」ボックスのルックアンドフィールを更新しました。 この新しいデザインには、合理化されたインターフェイスが含まれており、すべてのセクションが 1 つの統一されたフォームで表示され、左パネルのリンクを使用して移動できます。 新しいデザインは、アプリケーション内の他の領域や他のオブジェクトと一致します。
 

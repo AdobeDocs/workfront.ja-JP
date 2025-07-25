@@ -5,10 +5,10 @@ title: タイムゾーンをまたいでの作業
 description: ' [!DNL Adobe Workfront]  では、タイムゾーンを使用して、オブジェクトの時間フィールドやメールなどの他のエリアの時間を計算する方法を理解すると役立ちます。'
 feature: Get Started with Workfront
 exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7697bb68e2042291e5290048cfc2f626145979af
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 90%
+source-wordcount: '1249'
+ht-degree: 70%
 
 ---
 
@@ -58,25 +58,36 @@ ht-degree: 90%
 
 ### ユーザープロファイル {#your-user-profile}
 
-ユーザープロファイルのタイムゾーンは、勤務先の場所に設定する必要があります。これにより、次のことが決定されます。
+ユーザーのプロファイルの「タイムゾーン」フィールドは、送信メールメッセージに表示される時間を制御します。
+
+タイムゾーンは、PTO カレンダーレポートに表示される内容にも影響します。
+
+ユーザープロファイルでのタイムゾーンの設定について詳しくは、[個人設定を行う](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
+
+[!DNL Workfront] 管理者（または、ユーザーへの[!UICONTROL 編集]アクセス権を持つユーザー）がユーザープロファイルのタイムゾーンを設定する方法については、[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+
+### ブラウザーのタイムゾーン
+
+勤務先の場所用に、ブラウザーのタイムゾーンを設定する必要があります。 これにより、次のことが決定されます。
 
 <!--
 * The time shown in your outgoing [!DNL Workfront] email messages
 [NOTE FROM LISA: Saeid that dates/times shown in emails are more complicated than how it is described in the article so we decided to comment out this line.]
 -->
-* 作業対象のオブジェクトの時間（開始時間や終了時間など）
+* 開始時間や終了時間など、作業対象のオブジェクトの時間。
 
-  複数のタイムゾーンのユーザーが 1 つのオブジェクトに割り当てられている場合、[!DNL Workfront] は、各ユーザープロファイルで設定されているタイムゾーンを使用して、関係するすべてのユーザーのオブジェクト時間を変換します。
+  複数のタイムゾーンのユーザーが 1 つのオブジェクトに割り当てられている場合、[!DNL Workfront] は、各ユーザーのブラウザーで設定されたタイムゾーンを使用して、関係するすべてのユーザーのオブジェクト時間を変換します。
 
-  **例：**&#x200B;勤務先の東部標準時（EST）ゾーンでは、午後 4 時に開始するタスクを設定し、太平洋標準時（PST）ゾーンで勤務しているユーザーに割り当てます。これらのユーザーの場合、開始時間は午後 1 時と表示されます。午後 4 時と表示されている場合、3 時間遅れて作業を開始することになります。
+  **例**
+作業を行う東部標準時（EST） ゾーンで、午後 4 時に開始するようにタスクを設定し、太平洋標準時（PST） ゾーンで作業するユーザーにそのタスクを割り当てます :00 これらのユーザーの場合、開始時刻は午後 1:00 と表示されます。 仮に午後 4 時と表示した場合 :00、3 時間遅れて作業を開始することになります。
 
-  オブジェクト作成者が割り当て先のタイムゾーンの違いに気づかず、オブジェクトの時間を設定する際に必要な調整を行わない場合や、担当者がその違いに気づかない場合は、全員がオブジェクトで共同作業を行う間のタイミングを正しく把握するのが難しくなります。
+  オブジェクトの作成者が担当者のタイムゾーンの違いを知らず、オブジェクトの時間を設定する際に必要な調整を行わない場合、または担当者がその違いを知らない場合、全員がオブジェクトで共同作業をしている間にタイミングを正しく把握するのは難しい可能性があります。
 
-  **例：**&#x200B;タスクの一部のユーザーが PST ゾーンで勤務していることを忘れて、1 日のタスクを EST の午前 9 時に開始するように設定するとします。これらのユーザーの場合、開始時刻は午前 6 時になります。ユーザーが作業を開始するのは 9:00（あなたのタイムゾーンでは正午）なので、タスクの開始と終了が 3 時間遅れます。
+  **例**
 
-ユーザープロファイルでのタイムゾーンの設定について詳しくは、[個人設定を行う](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)を参照してください。
+  タスクの一部のユーザーが PST ゾーンで作業することを忘れて、EST の午前 9:00 に開始するように 1 日タスクを設定します。 彼らのために、開始時刻 6:00 午前。 彼らは彼らの時間（あなたの時間の正午）に 9:00 までそれを作業し始めないので、タスクが始まり、3 時間遅れて完了します。
 
-[!DNL Workfront] 管理者（または、ユーザーへの[!UICONTROL 編集]アクセス権を持つユーザー）がユーザープロファイルのタイムゾーンを設定する方法については、[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
+タイムゾーンの設定は、ブラウザー間で異なります。 詳しくは、各ブラウザーのドキュメントまたはヘルプ情報を参照してください。
 
 ## ユーザーが複数のタイムゾーンをまたいで簡単に作業する方法
 
@@ -110,7 +121,7 @@ ht-degree: 90%
 >[!BEGINSHADEBOX]
 
 **例：**
-EST ユーザーは、午前 9:00 PST （正午の EST）に開始されるようにスケジュールされた 1 日のタスクに割り当てられます。 EST ユーザーは、その日の残り作業時間が 2 時間に過ぎないので、タスク完了日は次の作業日まで約 6 時間延長されます。
+EST ユーザーは、午前 9:00 （PST）（EST の正午）に開始されるようにスケジュールされた 1 日のタスクに割り当てられます。 EST ユーザーは、その日の残り作業時間が 2 時間に過ぎないので、タスク完了日は次の作業日まで約 6 時間延長されます。
 
 
 >[!ENDSHADEBOX]
@@ -126,7 +137,7 @@ EST ユーザーは、午前 9:00 PST （正午の EST）に開始されるよ�
 
 カスタムフォームで一連の計算カスタムフィールドを使用して、複数の都市の時刻を表示する空港時計の列のように、組織のユーザーの現在時刻を表示できます。ユーザーが作業するタイムゾーンごとにフィールドを作成し、それぞれのタイムゾーンの時刻を各フィールドで計算できます。
 
-詳しくは、[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) および [ 計算データ式の概要 ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) の記事 [ 日付と時刻の計算カスタムフィールド ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) を参照してください。
+詳しくは、[ フォームへの計算フィールドの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) および [ 計算データ式の概要 ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) の記事 [ 日付と時刻の計算カスタムフィールド ](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
 
 ### カスタムフォームで日付フィールドの代わりにテキストフィールドを使用 {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

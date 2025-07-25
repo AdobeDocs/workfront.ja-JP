@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d8ac4d94-28b5-41d6-acb8-259696897c8a
-source-git-commit: ee366e05097518a4618dd11ed5807b8766465d94
+source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
 workflow-type: tm+mt
-source-wordcount: '498'
-ht-degree: 12%
+source-wordcount: '486'
+ht-degree: 11%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 12%
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準 </p>
+   <td><p> ライト以上 </p>
    <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
   </td> 
   </tr> 
@@ -77,8 +77,8 @@ ht-degree: 12%
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ビューに対する権限を管理</p>  
-   <p>ビュー設定を一時的に変更したり、複製したり、ビューをエクスポートしたりするためのビューのアクセス許可を表示します。</p> </td> 
+   <td>   <p>ビューに対する表示以上の権限</p>  
+   </td> 
   </tr> 
 </tbody> 
 </table>
