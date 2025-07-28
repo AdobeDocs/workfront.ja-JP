@@ -7,18 +7,28 @@ description: Google Workspaceを離れることなく、オブジェクト上の
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8e3edfb6-6822-4970-aa59-5fe5ee97d3b2
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 83%
+source-wordcount: '338'
+ht-degree: 54%
 
 ---
 
 # [!DNL Google Workspace] から [!DNL Adobe Workfront] オブジェクトを更新
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Google Workspaceの次のWorkfront機能は、**2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>* Workfront内からのGoogle Workspace機能へのアクセス
+>
+>* Gmail またはWorkfrontのカレンダーサイトパネルからのGoogle タスクの表示と管理
+>
+>Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Google Workspace] を離れることなく、[!DNL Adobe Workfront] オブジェクトに関して、新しい更新または既存の更新に対する返信を投稿できます。
 
@@ -51,7 +61,7 @@ ht-degree: 83%
 
 ## [!DNL Google Workspace] で [!DNL Workfront] オブジェクトを更新
 
-1. [ 表示および管理  [!DNL Adobe Workfront]  オブジェクトの詳細の表示  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md) の説明に従って、[!DNL Google Workspace] 内のオブジェクトを表示します。
+1. [!DNL Google Workspace] 表示および管理 [ オブジェクトの詳細の表示  [!DNL Adobe Workfront]  の説明に従って、 [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md) 内のオブジェクトを表示します。
 
 1. 新しい更新を投稿する場合は、「**[!UICONTROL 更新]**」タブをクリックします。
 1. 「**[!UICONTROL 新しい更新を開始]**」をクリックし、次に新しい更新を入力します。

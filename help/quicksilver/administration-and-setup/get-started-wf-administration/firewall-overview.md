@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 96%
+source-wordcount: '717'
+ht-degree: 95%
 
 ---
 
@@ -22,8 +22,8 @@ Adobe Workfront は組織のネットワークと通信するので、組織の�
 
 これは、基本的に、ファイアウォールを介したデータの送受信が「許可」されているサイトの「リスト」である許可リストを通じて実現されます。サイトは、次の 2 つの方法のいずれかで識別できます。
 
-* **IP アドレス**：52.31.132.175 などの一連の数値
-* **ドメイン**:URL の一部（`www.thisdomain.com` の `thisdomain` など）。
+* **IP アドレス**:52.31.132.175 などの一連の数値
+* **ドメイン**:URL の一部（`thisdomain` の `www.thisdomain.com` など）。
 
 Workfront は、web 通信に特定の IP アドレスおよびドメインを使用します。組織で Workfront を使用するには、これらを組織の許可リストに追加する必要があります。
 
@@ -75,11 +75,8 @@ Workfront 用のファイアウォールを設定するには、追加する IP 
    <td role="rowheader">Adobe Workfront 統合</td> 
    <td>次のいずれかを使用する場合は、ネットワーク管理者に通知します。
     <ul>
-     <li><p>Workfront for Jira</p></li>
-     <li><p>Google WorkspaceのWorkfront</p></li>
      <li><p>Workfront for Microsoft Teams</p></li>
      <li><p>Workfront for Outlook</p></li>
-     <li><p>Workfront for Salesforce</p></li>
     </ul></td> 
   </tr> 
   <tr> 

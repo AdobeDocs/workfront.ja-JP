@@ -6,14 +6,24 @@ description: インストール後 [!DNL Adobe Workfront] 対象： [!DNL Salesf
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 95%
+source-wordcount: '632'
+ht-degree: 83%
 
 ---
 
 # [!DNL Salesforce] オブジェクトからの [!DNL Adobe Workfront] リクエストの送信
+
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Salesforce統合は **2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
 [!DNL Adobe Workfront for Salesforce] をインストールすると、[!DNL Salesforce] の商談およびアカウントから [!DNL Workfront] リクエストを送信できるようになります。この機能は、[!DNL Classic] と [!DNL Lightning Experience] の両方のフレームワークに存在します。
 
@@ -107,7 +117,7 @@ ht-degree: 95%
 1. （オプション）「**[!UICONTROL [!DNL Salesforce]]**&#x200B;に移動」をクリックして、Workfront の以下のエリアからイシューが発生した商談またはアカウントにアクセスします。
 
    * イシューの[!UICONTROL 詳細]セクション
-   * リストでイシューを選択する際の概要パネルで、リストのツールバーの [!UICONTROL &#x200B; 概要を開く &#x200B;]![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックします。
+   * リストでイシューを選択する際の概要パネルで、リストのツールバーの [!UICONTROL  概要を開く ]![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックします。
    * イシューヘッダー（[!UICONTROL 統合]フィールドが使用可能なとき）。システム管理者またはグループ管理者が、レイアウトテンプレートに[!UICONTROL 統合]フィールドを追加して、イシューヘッダーに「Salesforce に移動」リンクを表示する必要があります。詳しくは、[レイアウトテンプレートを使用したオブジェクトヘッダーのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md)を参照してください。
 
    >[!NOTE]

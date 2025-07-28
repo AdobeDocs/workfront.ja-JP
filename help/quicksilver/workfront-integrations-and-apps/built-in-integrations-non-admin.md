@@ -1,30 +1,30 @@
 ---
 product-area: workfront-integrations
-keywords: adobe,box,dropbox,gsuite,google,jira,microsoft,salesforce,sharepoint,slack,webdam,zoom
+keywords: adobe、box、dropbox、microsoft、sharepoint、slack、webdam、zoom
 navigation-topic: workfront-integrations-navigation-topic
-title: Adobe Workfront の組み込みの統合の概要
+title: Adobe Workfront のビルトインの統合の概要
 description: ' [!DNL Adobe Workfront]  をサードパーティのアプリケーションと統合できます。これらの統合により、 [!DNL Workfront]  のユーティリティを拡張し、これを組織のニーズに合わせて調整できます。例えば、マーケティング業界のクリエイティブワーカーの場合、Adobe Creative Cloud アドインを使用して、Photoshop から Workfront に直接アセットを書き出すことができます。'
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '433'
 ht-degree: 79%
 
 ---
 
-# Adobe Workfront の組み込みの統合の概要
+# Adobe Workfront のビルトインの統合の概要
 
 <!-- Audited: 12/2023 -->
 
 [!DNL Adobe Workfront] をサードパーティのアプリケーションや他の [!DNL Adobe] 製品と統合できます。これらの統合により、[!DNL Workfront] のユーティリティを拡張し、これを組織のニーズに合わせて調整できます。例えば、マーケティング業界のクリエイティブワーカーの場合、[!DNL Creative Cloud] アプリケーションの [!DNL Adobe Workfront] プラグインを使用して、Photoshop から Workfront に直接アセットを書き出すことができます。
 
-組み込みの統合を使用するには、[!DNL Workfront] 管理者が事前に組み込みの統合を有効にして設定しておく必要があります。組織内で使用されている組み込みの統合を確認するには、[!DNL Workfront] 管理者に問い合わせてください。
+ビルトインの統合を使用するには、[!DNL Workfront] 管理者が事前にビルトインの統合を有効にして設定しておく必要があります。組織内で使用されているビルトインの統合を確認するには、[!DNL Workfront] 管理者に問い合わせてください。
 
-## 使用可能な組み込みの統合
+## 使用可能なビルトインの統合
 
-現在、Workfront では次の組み込みの統合を使用できます。
+現在、Workfront では次のビルトインの統合を使用できます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,7 +44,7 @@ ht-degree: 79%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
-     <p>詳細情報と手順について詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> </td> 
+     <p>詳細情報と手順について詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud]アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Experience Manager Assetsと Assets Essentials </p>  </p> </td> 
@@ -72,27 +72,10 @@ ht-degree: 79%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>Google Workspace メールをプロジェクトまたはタスクに追加する </li> 
-     <li>Gmail で [!DNL Workfront] 通知を表示および管理</li> 
-     <li>Gmail 経由でリクエストを送信 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader"> <p>Google ドライブ</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
      <li>ドキュメントとフォルダーのリンク先 [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>Jira</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>以下のタスクと問題に基づいて [!DNL Jira] で新しいチケットを作成 [!DNL Workfront]</li> 
-     <li>[!DNL Workfront] と [!DNL Jira] の間でリンクされたタスクの更新とステータスを同期 </li> 
     </ul> </td> 
   </tr> 
   <!--<tr> 
@@ -131,21 +114,6 @@ ht-degree: 79%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Salesforce</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Salesforce] から新規 [!DNL Workfront] リクエストを作成 </li> 
-     <li>[!DNL Workfront] プロジェクトを SharePoint から [!DNL Salesforce]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>作成</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>ドキュメントとフォルダーのリンク先 [!DNL Workfront]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader"> <p>Slack</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
@@ -178,4 +146,4 @@ ht-degree: 79%
 
 ## その他の [!DNL Workfront] の統合
 
-希望する統合が、組み込みの統合ではないことがあります。ただし、[!DNL Workfront] は、選択したアプリまたは Web サービスと統合するための他の方法を提供します。[!DNL Workfront] と統合する他の方法の詳細については、[Adobe Workfront 統合方法](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)を参照してください。
+希望する統合が、ビルトインの統合ではないことがあります。ただし、[!DNL Workfront] は、選択したアプリまたは Web サービスと統合するための他の方法を提供します。[!DNL Workfront] と統合する他の方法の詳細については、[Adobe Workfront 統合方法](../workfront-integrations-and-apps/built-in-vs-api-vs-fusion.md)を参照してください。

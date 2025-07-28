@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: af54faae1e78d7ffbe679fd82dfb5a3abd45f5cf
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1292'
-ht-degree: 80%
+source-wordcount: '1151'
+ht-degree: 77%
 
 ---
 
@@ -24,19 +24,19 @@ ht-degree: 80%
 
 [!DNL Workfront] 用の統合は、次のカテゴリに分類されます。
 
-## 組み込みの（ネイティブ）統合
+## ビルトインの（ネイティブ）統合
 
 [!DNL Workfront] は、Workfront アプリケーションから直接設定できる、または Workfront アプリケーション用の [!DNL Workfront] アドインをインストールすることによって、他のアプリケーションから直接設定できる、様々な統合を提供します。
 
 これらの統合の一部は追加のコストなしで利用できますが、他の統合では追加の購入が必要です。
 
-* [組み込みの（ネイティブ）統合の概要](#get-started-with-built-in-native-integrations)
+* [ビルトインの（ネイティブ）統合の概要](#get-started-with-built-in-native-integrations)
 * [追加のコストなしで利用可能な統合](#integrations-available-at-no-additional-cost)
 * [追加の購入が必要な統合](#integrations-requiring-an-additional-purchase)
 
-### 組み込みの（ネイティブ）統合の概要 {#get-started-with-built-in-native-integrations}
+### ビルトインの（ネイティブ）統合の概要 {#get-started-with-built-in-native-integrations}
 
-組み込みの（ネイティブ）統合を開始するには、以下のワークフローに従います。
+ビルトインの（ネイティブ）統合を開始するには、以下のワークフローに従います。
 
 1. **ニーズに最適なネイティブ統合を決定**
 
@@ -46,7 +46,7 @@ ht-degree: 80%
 
 1. **技術管理者の特定**
 
-   [!DNL Workfront] と統合するアプリケーションについて、組織の技術管理者を特定します。例えば、[!DNL Jira] との統合を選択した場合、会社の [!DNL Jira] 管理者に連絡し、プラットフォーム内の設定ニーズに参加してもらいます。[!DNL Workfront] カスタマーサポートと行うすべての会話にも、この管理者を参加させる必要があります。
+   [!DNL Workfront] と統合するアプリケーションについて、組織の技術管理者を特定します。例えば、[!DNL Slack] との統合を選択した場合、会社の [!DNL Slack] 管理者に連絡し、プラットフォーム内の設定ニーズに参加してもらいます。[!DNL Workfront] カスタマーサポートと行うすべての会話にも、この管理者を参加させる必要があります。
 
    管理者が作業を開始するには、その統合に関する具体的な手順を提供する必要があります。これらの手順へのリンクについては、[追加のコストなしで利用可能な統合](#integrations-available-at-no-additional-cost)を参照してください。
 
@@ -64,11 +64,11 @@ ht-degree: 80%
    >
    >サポートケースを提出するには、組織の任命されたサポート担当者である必要があります。ケースが送信された後、他のシステムの技術管理者も会話に追加できます。他のシステムの技術管理者は直接サポートに連絡することはできません。
 
-使用可能な組み込みの（ネイティブ）統合は、会社のニーズのすべては満たしていない可能性があることを、アドビは理解しています。その場合は、アカウント担当者に連絡して、カスタム統合についてご相談ください。
+使用可能なビルトインの（ネイティブ）統合は、会社のニーズのすべては満たしていない可能性があることを、アドビは理解しています。その場合は、アカウント担当者に連絡して、カスタム統合についてご相談ください。
 
 ### 追加のコストなしで利用可能な統合 {#integrations-available-at-no-additional-cost}
 
-[!DNL Workfront] は、追加のコストなしで、以下の組み込みの統合を提供します。
+[!DNL Workfront] は、追加のコストなしで、以下のビルトインの統合を提供します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -113,7 +113,7 @@ ht-degree: 80%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
-     <p>詳しい情報と手順については、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud] アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> 
+     <p>詳しい情報と手順については、<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud] アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -148,27 +148,6 @@ ht-degree: 80%
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Google Workspace]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>プロジェクトまたはタスクに [!DNL Google Workspace] メールを追加します。 </li> 
-     <li>[!DNL Workfront] 通知を次で表示および管理： [!DNL Gmail]</li> 
-     <li>[!DNL Gmail] 経由でリクエストを送信 </li> 
-    </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a> を参照してください。</p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] ユーザーは [!DNL Workfront] ライセンスが必要です </li> 
-     <li>[!DNL Workfront] 表示および作業共有の権限は、アクセスレベルごとに設定する必要があります </li> 
-     <li> ユーザーは、POP が有効なメールアカウントを持っている必要があります </li> 
-     <li>[!DNL Workfront] リクエスト設定には POP 設定を含める必要があります </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Google Workspace] 管理者</li> 
-     <li>[!DNL Workfront] 管理者 </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL Google Drive]</p> <p> <img src="assets/google-drive-logo.png"> </p> </td> 
    <td> 
     <ul> 
@@ -176,24 +155,6 @@ ht-degree: 80%
     </ul> <p>詳しくは、<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">ドキュメント統合の設定</a>を参照してください。</p> </td> 
    <td> </td> 
    <td> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Jira]</p> <p> <img src="assets/jiralogo.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>次でタスクとイシューに基づいて [!DNL Jira] で新しいチケットを作成： [!DNL Workfront]</li> 
-     <li>Workfront と [!DNL Jira] の間でリンクされたタスクの更新とステータスを同期 </li> 
-     <li>[!DNL Jira Server] および [!DNL Jira Cloud] の両方で機能します </li> 
-    </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md" class="MCXref xref">[!DNL Adobe Workfront for Jira]</a> を参照してください。</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>新しい Workfront プラン：[!UICONTROL Select] [!DNL Workfront] プラン以上</p><p>現在の Workfront プラン：[!UICONTROL Pro] [!DNL Workfront] プラン以上</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li> [!DNL Jira] 管理者のみによるインストール</li> 
-     <li>[!DNL Jira] 管理者以外は、[!DNL Jira] 管理者にアクセス権を要求し、付与してもらう必要があります。</li> 
-    </ul> </td> 
   </tr> 
   <!--<tr> 
    <td>[!DNL Microsoft] Calendars ([!DNL Office 365] / [!DNL Outlook Live])</td> 
@@ -255,23 +216,6 @@ ht-degree: 80%
     </ul> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Salesforce]</p> <p> <img src="assets/salesforce-logo-web-2019.png" style="max-width: 80px;"> </p> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Salesforce] から新規 [!DNL Workfront] リクエストを作成 </li> 
-     <li>[!DNL Workfront] プロジェクトを作成 [!DNL Salesforce]</li> 
-    </ul> <p>詳しくは、<a href="../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce.md" class="MCXref xref">[!DNL Adobe Workfront for Salesforce]</a> を参照してください。</p> </td> 
-   <td> 
-    <ul> 
-     <li><p>新しい Workfront プラン：[!UICONTROL Select] [!DNL Workfront] プラン以上</p><p>現在の Workfront プラン：[!UICONTROL Pro] [!DNL Workfront] プラン以上</p> </li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>[!DNL Salesforce] 管理者</li> 
-     <li>[!DNL Workfront] 管理者</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td> <p>[!DNL SharePoint]</p> <p> <img src="assets/sharepoint.png"> </p> </td> 
    <td> 
     <ul> 
@@ -314,13 +258,13 @@ ht-degree: 80%
 
 ### 追加の購入が必要な統合 {#integrations-requiring-an-additional-purchase}
 
-[!DNL Workfront] を使用すると、他の組み込み統合および統合製品を追加費用で活用できます。価格の詳細について詳しくは、アカウント担当者にお問い合わせください。
+[!DNL Workfront] を使用すると、他のビルトインの統合および統合製品を追加費用で活用できます。価格の詳細について詳しくは、アカウント担当者にお問い合わせください。
 
 * [!DNL Workfront Fusion]
 
   [!DNL Adobe Workfront Fusion] は、アプリ内やサービス内およびそれらの間でアクションをリンクして、データを自動的に転送および変換するシナリオを作成します。多くのアプリへの専用コネクタを備えていますが、公開 API を使用して任意のアプリケーションに接続できます。
 
-  詳しくは、[[!DNL Adobe Workfront Fusion] 概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+  詳しくは、[[!DNL Adobe Workfront Fusion] 概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]（[!DNL Workfront Fusion] が必要）

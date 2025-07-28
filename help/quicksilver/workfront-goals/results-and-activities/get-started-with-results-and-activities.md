@@ -7,7 +7,7 @@ description: 目標をアクティブ化するには、結果、アクティビ�
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
 source-wordcount: '855'
 ht-degree: 95%
@@ -67,10 +67,6 @@ ht-degree: 95%
 
 * 「目標がいつ完了するかをどうやって知るのか？」という質問に答えるようにします。
 * 結果は指標です。結果の進行状況を示すために、次のオプションから選択できます。
-
-  <!--
-  this might change (jira, Salesforce, etc))
-  -->
 
    * 通貨
    * 数値

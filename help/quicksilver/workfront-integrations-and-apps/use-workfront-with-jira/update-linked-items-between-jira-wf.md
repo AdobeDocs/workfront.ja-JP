@@ -6,14 +6,26 @@ description: ' [!DNL Jira]  のイシューを  [!DNL Adobe Workfront]  のタ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 79ac6ff1-2f7d-4abc-8735-398f6aac5191
-source-git-commit: 99924f690c53584c090d19fff90d23d84ec306d4
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 99%
+source-wordcount: '1700'
+ht-degree: 92%
 
 ---
 
 # [!DNL Jira] と [!DNL Adobe Workfront] 間のリンクされた項目を更新
+
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Jira の統合は **2026 年 2 月 28 日** 以降は利用できなくなります。
+>
+>Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
+>
+>8 月までに、Jira 用のすぐに使用できるWorkfront自動化および統合テンプレートが利用可能になり、一般的なワークフローのレプリケートと実装の高速化に役立ちます。 テンプレートは、特定のビジネスニーズに合わせて完全にカスタマイズ可能で、要件の進化に合わせて拡張できます。
+> 
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
 
 [!DNL Jira] のイシューを [!DNL Adobe Workfront] のタスクまたはイシューにリンクすると、1 つのアプリケーションの項目を更新できます。また、2 つ目のアプリケーションで作業しているユーザーの項目を更新することもできます。
 

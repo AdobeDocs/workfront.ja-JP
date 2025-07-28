@@ -7,18 +7,28 @@ description: Google Workspaceを離れることなく、オブジェクトに関
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 65%
+source-wordcount: '506'
+ht-degree: 50%
 
 ---
 
 # [!DNL Google Workspace] からドキュメントを表示および管理する
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Google Workspaceの次のWorkfront機能は、**2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>* Workfront内からのGoogle Workspace機能へのアクセス
+>
+>* Gmail またはWorkfrontのカレンダーサイトパネルからのGoogle タスクの表示と管理
+>
+>Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Google Workspace] を離れることなく、[!DNL Adobe Workfront] オブジェクトに関連付けられたドキュメントを表示および管理できます。
 
@@ -52,8 +62,8 @@ ht-degree: 65%
 
 ## [!DNL Google Workspace] で [!DNL Workfront] ドキュメントを表示および管理する
 
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ![&#128279;](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。
-1. [!DNL Google Workspace][&#128279;](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) からの  アクセス  [!DNL Adobe Workfront] [!UICONTROL &#x200B; ホーム &#x200B;] コンテンツの説明に従って、[!DNL Google Workspace] 内の [!DNL Workfront] のタスクまたはイシューに移動します。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。[!DNL Google Workspace]
+1. [!DNL Workfront] からの [!DNL Google Workspace] アクセス [ ホーム  [!DNL Adobe Workfront] [!UICONTROL  コンテンツの説明に従って、] 内の  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) のタスクまたはイシューに移動します。
 1. 「**[!UICONTROL ドキュメント]**」をクリックします。
 
    この数値は、添付ファイルとして、およびクラウドに保存されている共有ファイルとして、タスクまたはイシューにアップロードされたドキュメントの数を示します。
@@ -78,5 +88,5 @@ ht-degree: 65%
 
 また、オブジェクトに関する [!DNL Workfront] 通知メールを受信したときに、[!DNL Google Workspace] の [!DNL Workfront] オブジェクトに関連付けられたドキュメント（およびその他の詳細）を表示および管理することもできます。詳しくは、「[ 通知の詳細の管理  [!DNL Adobe Workfront]  開始  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)」を参照してください。
 
-* [!DNL Workfront for Google Workspace] の「[!UICONTROL &#x200B; 詳細 &#x200B;]」タブの使用について詳しくは、[ オブジェクトの詳細の表示と管理  [!DNL Adobe Workfront]  を参照してください  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)。
-* [!DNL Workfront for Google Workspace] の「[!UICONTROL &#x200B; 更新 &#x200B;]」タブの使用について詳しくは、[ から  [!DNL Adobe Workfront]  オブジェクトを更新  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md) を参照してください。
+* [!UICONTROL  の「] 詳細 [!DNL Workfront for Google Workspace]」タブの使用について詳しくは、[ オブジェクトの詳細の表示と管理  [!DNL Adobe Workfront]  を参照してください  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)。
+* [!UICONTROL  の「] 更新 [!DNL Workfront for Google Workspace]」タブの使用について詳しくは、[ から  [!DNL Adobe Workfront]  オブジェクトを更新  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md) を参照してください。

@@ -3,22 +3,32 @@ product-area: workfront-integrations
 keywords: google,doc,ドキュメント,シート,スライド
 navigation-topic: workfront-for-g-suite
 title: Google Workspaceからの管理  [!DNL Adobe Workfront]  通知の詳細
-description: Google Workspaceでは、Adobeのメール通知を送信し  [!DNL Workfront]  開くと、関連する作業項目の詳細を表示して、インボックスから移動せずに返信できます。 リクエストの承認など、アクションが使用可能な場合、Google WorkspaceのWorkfrontから直接アクションを実行できます。
+description: Google Workspaceでは、Adobeから送信された通知メールを開くと、関連する作業項目の詳細を表示して  [!DNL Workfront]  インボックスから移動せずに返信できます。 リクエストの承認など、アクションが使用可能な場合、Google WorkspaceのWorkfrontから直接アクションを実行できます。
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 84%
+source-wordcount: '576'
+ht-degree: 67%
 
 ---
 
 # [!DNL Google Workspace] からの [!DNL Adobe Workfront] 通知の詳細の管理
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Google Workspaceの次のWorkfront機能は、**2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>* Workfront内からのGoogle Workspace機能へのアクセス
+>
+>* Gmail またはWorkfrontのカレンダーサイトパネルからのGoogle タスクの表示と管理
+>
+>Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Google Workspace] で、[!DNL Adobe Workfront] が送信した通知メールを開く際に、関連する作業項目の詳細を表示し、[!UICONTROL インボックス]から離れることなく返信できます。リクエストの承認などアクションが使用可能な場合は、[!DNL Workfront for Google Workspace] から直接これらのアクションを実行できます。
 
@@ -56,7 +66,7 @@ ht-degree: 84%
 
 ## [!DNL Google Workspace] から [!DNL Adobe Workfront] 通知の詳細の管理
 
-1. [!DNL Workfront for Google Workspace] パネルが表示されない場合は、ページの右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![Workfront アイコン ](assets/wf-lion-icon.png) をクリックします。
+1. [!DNL Workfront for Google Workspace] パネルが表示されない場合は、ページの右端にある [!DNL Workfront] アドオンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)Workfront アイコン [!DNL Google Workspace] をクリックします。
 1. [!DNL Google Workspace] で [!DNL Workfront] 通知メールを開きます。
 1. パネルの上部付近に表示される場合、「**[!UICONTROL すべての更新を表示]**」をクリックします。
 1. 「**[!UICONTROL 詳細]**」をクリックします。

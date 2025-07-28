@@ -6,14 +6,24 @@ description: ' [!DNL Workfront]  管理者は、 [!DNL Adobe Workfront]  for Sal
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 81481813-74db-4408-8c85-c3b5b844f932
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 100%
+source-wordcount: '790'
+ht-degree: 89%
 
 ---
 
 # [!DNL Salesforce] ユーザー用 [!DNL Adobe Workfront] セクションの設定
+
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Salesforce統合は **2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
 この機能を使用するには、[!UICONTROL Pro] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront]  プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
 

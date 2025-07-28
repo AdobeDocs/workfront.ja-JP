@@ -6,10 +6,10 @@ description: ' [!DNL Jira] および  [!DNL Workfront]  システムを統合す
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '2384'
-ht-degree: 99%
+source-wordcount: '2508'
+ht-degree: 94%
 
 ---
 
@@ -17,7 +17,19 @@ ht-degree: 99%
 
 <!-- Audited: 12/2023 -->
 
-[!DNL Jira] および [!DNL Workfront] システムを統合するには、[!DNL Adobe Workfront for Jira] を使用できます。
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Jira の統合は **2026 年 2 月 28 日** 以降は利用できなくなります。
+>
+>Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
+>
+>8 月までに、Jira 用のすぐに使用できるWorkfront自動化および統合テンプレートが利用可能になり、一般的なワークフローのレプリケートと実装の高速化に役立ちます。 テンプレートは、特定のビジネスニーズに合わせて完全にカスタマイズ可能で、要件の進化に合わせて拡張できます。
+> 
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
+
+[!DNL Adobe Workfront for Jira] を使用すると、[!DNL Jira] システムと [!DNL Workfront] システムを統合できます。
 
 アドオンをインストールした後、[!DNL Workfront] 作業アイテムが作成される場合に、[!DNL Jira] のイシューを自動的に作成するワークフローを定義できます。両方のアプリケーションの項目がリンクされ、両方のシステムで情報の一部が自動的に更新されます。
 
@@ -25,7 +37,7 @@ ht-degree: 99%
 
 このアドオンは、[!UICONTROL サーバー]および[!UICONTROL OnDemand]（または[!UICONTROL クラウド]）の [!DNL Jira] ソフトウェアのバージョンの両方で使用できます。
 
-[!DNL Jira] が現在サポートしている [!DNL Workfront for Jira] のバージョンのリストについて、[&#128279;](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) [!DNL Atlassian Marketplace] での [!DNL Workfront for Jira] を参照してください。
+[!DNL Jira] が現在サポートしている [!DNL Workfront for Jira] のバージョンのリストについて、](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)[!DNL Atlassian Marketplace] での [[!DNL Workfront for Jira] を参照してください。
 
 ## アクセス要件
 

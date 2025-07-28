@@ -6,14 +6,26 @@ description: ' [!DNL Adobe Workfront] for [!DNL Jira] を使用すると、お�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: f6e0feb1-349f-459f-9f93-c7492cb15f11
-source-git-commit: 5cb07cb42c3264c6629bc0a038c0e70ffc2cb509
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 97%
+source-wordcount: '635'
+ht-degree: 78%
 
 ---
 
 # [!DNL Adobe Workfront for Jira] のインストール
+
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Jira の統合は **2026 年 2 月 28 日** 以降は利用できなくなります。
+>
+>Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
+>
+>8 月までに、Jira 用のすぐに使用できるWorkfront自動化および統合テンプレートが利用可能になり、一般的なワークフローのレプリケートと実装の高速化に役立ちます。 テンプレートは、特定のビジネスニーズに合わせて完全にカスタマイズ可能で、要件の進化に合わせて拡張できます。
+> 
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
 
 [!DNL Adobe Workfront for Jira] を使用すると、[!DNL Jira] システムと [!DNL Workfront] システムを統合できます。
 
@@ -23,7 +35,7 @@ ht-degree: 97%
 
 このアドオンは、[!DNL Jira] ソフトウェアの[!UICONTROL サーバー]バージョンと[!UICONTROL オンデマンド]（または[!UICONTROL クラウド]）バージョンで利用できます。このアドオンは、[!DNL Jira] ソフトウェアの [!DNL Data Center] バージョンでは利用できません。
 
-[!DNL Workfront for Jira] で現在サポートされている [!DNL Jira] バージョンのリストについては、Atlassian Marketplace の [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) を参照してください。
+[!DNL Workfront for Jira] で現在サポートされている [!DNL Jira] バージョンのリストについては、Atlassian Marketplace の [[!DNL [!DNL Workfront for Jira]]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) を参照してください。
 
 ## アクセス要件
 
@@ -75,7 +87,7 @@ ht-degree: 97%
 [!DNL Workfront for Jira] をインストールするには、次の手順に従います。
 
 1. [!DNL Jira] に [!DNL Jira] 管理者としてログインします。
-1. [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&amp;tab=overview) で **[!DNL Workfront for Jira]** アドオンを検索します。
+1. [[!DNL Atlassian Marketplace]](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) で **[!DNL Workfront for Jira]** アドオンを検索します。
 
 1. 「**[!UICONTROL 今すぐ入手]**」をクリックしてインストールします。
 

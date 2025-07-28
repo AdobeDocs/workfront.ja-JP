@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 95%
+source-wordcount: '1523'
+ht-degree: 94%
 
 ---
 
@@ -257,7 +257,7 @@ Business Rules は、Ultimate Workfrontプランを購入したお客様のみ�
 ユーザーが次のいずれかの操作を行うと、システムはログイン試行監査ログエントリを生成します。
 
 * （ブラウザーおよびモバイルアプリで）Workfront でのログイン、ログアウト、またはログインの試行に失敗する
-* 任意の Workfront 統合（Slack 用のWorkfront、Salesforce 用の Workfrontなど）でのログイン、ログアウト、またはログインの試行に失敗する
+* Workfront統合（SlackのWorkfrontなど）でログイン、ログアウト、ログイン試行の失敗が発生する
 * Workfront API へのログインとログアウト
 
 Workfront 管理者が別のユーザーとしてログインする機能を使用した場合は、ログイン試行ログに記録されません。

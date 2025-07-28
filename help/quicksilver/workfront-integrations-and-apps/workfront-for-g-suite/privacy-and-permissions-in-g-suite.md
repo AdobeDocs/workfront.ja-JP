@@ -7,16 +7,30 @@ description: Workfront for Google Workspaceのプライバシーと権限
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: abb8ffa1-1da6-46dd-a929-18b17014839a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 43%
+source-wordcount: '478'
+ht-degree: 32%
 
 ---
 
 # Workfront for Google Workspaceのプライバシーと権限
 
-顧客のプライバシーは重要なので、Adobe Workfront は、Google プラグインアプリのサードパーティ認証に起因する、顧客を特定する顧客データを保存または収集しません。Google Workspace用Workfront Google API から受け取った情報の使用および他のアプリへの転送は、使用制限を含む [&#128279;](https://developers.google.com/terms/api-services-user-data-policy)0&rbrace;Google API サービスユーザーデータポリシー &rbrace; に従います。
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Google Workspaceの次のWorkfront機能は、**2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>* Workfront内からのGoogle Workspace機能へのアクセス
+>
+>* Gmail またはWorkfrontのカレンダーサイトパネルからのGoogle タスクの表示と管理
+>
+>Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+
+顧客のプライバシーは重要なので、Adobe Workfront は、Google プラグインアプリのサードパーティ認証に起因する、顧客を特定する顧客データを保存または収集しません。Google Workspace用Workfront Google API から受け取った情報の使用および他のアプリへの転送は、使用制限を含む [0}Google API サービスユーザーデータポリシー } に従います。](https://developers.google.com/terms/api-services-user-data-policy)
 
 Workfront for Google Workspace プラグインが最大限の価値を引き出せるように、次の権限が必要です。
 

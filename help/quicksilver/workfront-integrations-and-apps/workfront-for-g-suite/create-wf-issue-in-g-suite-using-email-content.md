@@ -7,18 +7,28 @@ description: 外部メール（ [!DNL Adobe Workfront)]  以外で生成）を  
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 80%
+source-wordcount: '869'
+ht-degree: 69%
 
 ---
 
 # [!DNL Google Workspace] でメールコンテンツを使用して [!DNL Adobe Workfront] イシューを作成する
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Google Workspaceの次のWorkfront機能は、**2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>* Workfront内からのGoogle Workspace機能へのアクセス
+>
+>* Gmail またはWorkfrontのカレンダーサイトパネルからのGoogle タスクの表示と管理
+>
+>Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 外部メール（[!DNL Adobe Workfront] 以外で生成）を [!DNL Workfront] イシューに変換できます。
 
@@ -56,7 +66,7 @@ ht-degree: 80%
 
 ## メールコンテンツを使用して [!DNL Google Workspace] で [!DNL Adobe Workfront] イシューを作成する
 
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ![&#128279;](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。[!DNL Google Workspace]
 1. メールメッセージを [!DNL Google Workspace] で開いたまま、[!DNL Workfront for Google Workspace] でメールを新しい [!DNL Workfront] イシューに変換するオプションをクリックします。
 
    ![ メールを変換 ](assets/convert-email-task-issue-update.png)
@@ -86,7 +96,7 @@ ht-degree: 80%
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Include email attachments]</td> 
-      <td> <p>（メールに少なくとも 1 つの添付ファイルが含まれている場合にのみ使用できます）。 このオプションをクリックして、メールの添付ファイルをイシューの [!UICONTROL ドキュメント &#x200B;] 領域に保存します。 </p> <p>添付ファイルを保存しない場合は、名前の右にある X をクリックします。 </p> <p>メールに [!DNL Google Drive] でのドキュメントへのリンクが含まれる場合は、作成中のイシューの [!UICONTROL Overview] タブに保存されます。 </p> <p>重要：これを機能させるには、<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">ドキュメント統合の構成</a>の記事の<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">ドキュメントを管理するための統合の構成</a>の節で説明されているように、[!DNL Workfront] 管理者は [!DNL Google Drive] が [!DNL Workfront] でドキュメントを操作できるように承認する必要があります。</p> <p>このオプションを有効にした場合、タスク、イシュー、更新に変換する他のメールに対しても有効なままになります。</p> </td> 
+      <td> <p>（メールに少なくとも 1 つの添付ファイルが含まれている場合にのみ使用できます）。 このオプションをクリックして、メールの添付ファイルをイシューの [!UICONTROL ドキュメント ] 領域に保存します。 </p> <p>添付ファイルを保存しない場合は、名前の右にある X をクリックします。 </p> <p>メールに [!DNL Google Drive] でのドキュメントへのリンクが含まれる場合は、作成中のイシューの [!UICONTROL Overview] タブに保存されます。 </p> <p>重要：これを機能させるには、<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md" class="MCXref xref">ドキュメント統合の構成</a>の記事の<a href="../../administration-and-setup/configure-integrations/configure-document-integrations.md#configur" class="MCXref xref">ドキュメントを管理するための統合の構成</a>の節で説明されているように、[!DNL Workfront] 管理者は [!DNL Google Drive] が [!DNL Workfront] でドキュメントを操作できるように承認する必要があります。</p> <p>このオプションを有効にした場合、タスク、イシュー、更新に変換する他のメールに対しても有効なままになります。</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">メールファイルを含める</td> 

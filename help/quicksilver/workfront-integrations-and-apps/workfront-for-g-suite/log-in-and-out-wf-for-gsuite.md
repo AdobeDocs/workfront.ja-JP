@@ -7,18 +7,28 @@ description: この記事では、 [!DNL Adobe Workfront for] Google Workspace�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 75%
+source-wordcount: '350'
+ht-degree: 50%
 
 ---
 
 # [!DNL Adobe Workfront for Google Workspace] にログインおよびログアウトする
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Google Workspaceの次のWorkfront機能は、**2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>* Workfront内からのGoogle Workspace機能へのアクセス
+>
+>* Gmail またはWorkfrontのカレンダーサイトパネルからのGoogle タスクの表示と管理
+>
+>Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 ## アクセス要件
 
@@ -50,7 +60,7 @@ ht-degree: 75%
 
 ## [!DNL Adobe Workfront for Google Workspace] にログインする
 
-1. [!DNL Gmail]、[!DNL Google Calendar] または [!DNL Google Drive] の右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Workfront] アイコン ![&#128279;](assets/wf-lion-icon.png)1&rbrace;Workfront アイコン &rbrace; をクリックします。
+1. [!DNL Workfront]、![ または ](assets/wf-lion-icon.png) の右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Gmail] アイコン [!DNL Google Calendar]1}Workfront アイコン } をクリックします。[!DNL Google Drive]
 
    [!DNL Workfront for Google Workspace] アドオンをインストールしたばかりで、このアイコンが表示されない場合は、ブラウザーページを更新してみてください。
 
@@ -66,7 +76,7 @@ ht-degree: 75%
 
 ## [!DNL Workfront for Google Workspace] からログアウトする
 
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ![&#128279;](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。[!DNL Google Workspace]
 1. [!DNL Workfront for Google Workspace] パネルの上部にある「**[!UICONTROL その他]**」アイコンをクリックします。
 
 1. 表示されるメニューで「**[!UICONTROL ログアウト]**」をクリックします。

@@ -6,16 +6,28 @@ description: ' [!DNL Jira]  のイシューを、 [!DNL Adobe Workfront]  のタ
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 1c37f361-e866-4ac6-b672-408848a80ed6
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1238'
-ht-degree: 53%
+source-wordcount: '1362'
+ht-degree: 48%
 
 ---
 
 # [!DNL Adobe Workfront] と [!DNL Jira] 間で項目をリンク
 
 <!-- Audited: 5/2025 -->
+
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Jira の統合は **2026 年 2 月 28 日** 以降は利用できなくなります。
+>
+>Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
+>
+>8 月までに、Jira 用のすぐに使用できるWorkfront自動化および統合テンプレートが利用可能になり、一般的なワークフローのレプリケートと実装の高速化に役立ちます。 テンプレートは、特定のビジネスニーズに合わせて完全にカスタマイズ可能で、要件の進化に合わせて拡張できます。
+> 
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
 
 [!DNL Jira] のイシューを、[!DNL Adobe Workfront] のタスクまたはイシューに、自動または手動でリンクできます。
 
@@ -66,7 +78,7 @@ ht-degree: 53%
 
 [!DNL Workfront] と [!DNL Jira] の間で項目をリンクする前に、次の操作を行う必要があります。
 
-* [!DNL Jira] 用に [!DNL Workfront] をインストールします。
+* [!DNL Workfront] 用に [!DNL Jira] をインストールします。
 
   手順については、[Jira 用Adobe Workfrontのインストール ](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md) を参照してください。
 
@@ -76,7 +88,7 @@ ht-degree: 53%
 
 ## [!DNL Workfront] の項目を [!DNL Jira] のイシューに自動でリンク
 
-[!DNL Workfront] 管理者は、タスクまたは [!DNL Workfront] のイシューで特定の条件が満たされるたびに [!DNL Jira] で自動的にイシューを作成するトリガーを定義できます。 Workfront と [!DNL Jira] の項目がリンクされます。
+[!DNL Workfront] 管理者は、タスクまたは [!DNL Jira] のイシューで特定の条件が満たされるたびに [!DNL Workfront] で自動的にイシューを作成するトリガーを定義できます。 Workfront と [!DNL Jira] の項目がリンクされます。
 
 Jira 用 [!DNL Workfront]の設定を完了すると、[!DNL Workfront] で項目が作成または更新されてトリガーに一致したとき、[!DNL Jira] で新しい項目が自動作成されます。
 
@@ -103,9 +115,10 @@ Workfront の項目を作成および更新する Workfront ユーザーには�
 1. プロジェクトの左パネルで、「**[!UICONTROL タスク]**」を選択します。
 
 1. 「**+新規タスク**」をクリックします。
+
    >[!NOTE]
    >
-   >既存のWorkfront項目を Jira の課題にリンクするには、項目の **詳細**![ 詳細 **アイコンから** 編集 ](assets/more-icon.png) を選択します。
+   >既存のWorkfront項目を Jira の課題にリンクするには、項目の **詳細****詳細** アイコンから ![ 編集 ](assets/more-icon.png) を選択します。
 
 1. タスクに使用できるフィールドを指定または更新します。
 1. 「**[!UICONTROL 割り当て]**」フィールドで、[!DNL Jira] 統合でトリガーとして指定されているユーザー、ロールまたはチームを検索して選択します。
@@ -160,7 +173,7 @@ Workfront の項目を作成および更新する Workfront ユーザーには�
    >[!DNL Workfront] にログインするには、[!DNL Workfront] ライセンスが必要です。それ以外の場合は、[!DNL Workfront] ユーザーからこの情報の提供を受ける必要があります。
 
 1. [!DNL Jira] で、手動で [!DNL Workfront] 項目にリンクするイシューに移動します。
-1. 右 [!DNL Workfront] のパネルに、リンク先の [!DNL Workfront] 項目の **[!UICONTROL 参照番号]** または **URL** を貼り付けます。
+1. 右 [!DNL Workfront] のパネルに、リンク先の **[!UICONTROL 項目の]** 参照番号 **または** URL[!DNL Workfront] を貼り付けます。
 
 1. **[!UICONTROL リンク]** をクリックします。 2 つの項目がリンクされ、[!DNL Workfront] の右側のパネルに [!DNL Workfront] 項目からの情報が入力されます。
 
@@ -174,7 +187,7 @@ Workfront の項目を作成および更新する Workfront ユーザーには�
    * 品目の **[!UICONTROL 予定時間数]**。
    * **[!UICONTROL 参照番号]**。 [!DNL Workfront] 項目にアクセスするには、パネルの **参照番号** をクリックします。
 
-   追加のフィールドを右側のパネルに表示する方法については、「設定  [!DNL Adobe Workfront for Jira][&#128279;](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md)」の「[!DNL Jira] と [!DNL Workfront] の項目間のフィールド同期の設定  を参照してください。 統合に関連づけられた [!DNL Workfront] 管理者からのコメントは、新しく [!DNL Jira] 項目が作成されたことを確認するために、[!DNL Jira] イシューの「**[!DNL Workfront]**」タブに投稿されます。コメントには、[!DNL Jira] イシューへのリンクが含まれます。
+   追加のフィールドを右側のパネルに表示する方法については、「設定 [!DNL Jira]」の「[!DNL Workfront] と [ の項目間のフィールド同期の設定  [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) を参照してください。 統合に関連づけられた [!DNL Workfront] 管理者からのコメントは、新しく [!DNL Jira] 項目が作成されたことを確認するために、[!DNL Jira] イシューの「**[!DNL Workfront]**」タブに投稿されます。コメントには、[!DNL Jira] イシューへのリンクが含まれます。
 
 ## [!DNL Jira] と [!DNL Workfront] 間の項目のリンクを解除
 

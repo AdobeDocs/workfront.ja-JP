@@ -6,9 +6,9 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7c7697936da90d17599d90b69265f62221185569
+source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
 workflow-type: tm+mt
-source-wordcount: '2803'
+source-wordcount: '2765'
 ht-degree: 78%
 
 ---
@@ -16,14 +16,6 @@ ht-degree: 78%
 # リクエストの作成と送信
 
 <!--Audited: 12/2023-->
-
-<!--
-<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
-<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
-<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
-</div>
--->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
@@ -383,9 +375,6 @@ Workfront と統合されている任意のアプリケーションを使用し�
 
 * Workfront と別のアプリケーションとの間のカスタム統合を構築し、他のアプリケーションから Workfront にリクエストを送信できます。\
   カスタム Workfront の統合について詳しくは、[Adobe Workfront 統合](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md)を参照してください。
-
-* Salesforce 用 Workfront アプリをインストール済みの場合は、Salesforce からリクエストを送信できます。\
-  Salesforce 用 Workfront アプリを使用して Salesforce からリクエストを送信する方法について詳しくは、[Salesforce オブジェクトから Adobe Workfront リクエストを送信](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)の記事を参照してください。
 
 ## Workfront計画リクエストフォームを使用したリクエストの作成
 

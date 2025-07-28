@@ -7,16 +7,26 @@ description: ' [!DNL Adobe Workfront] for Salesforce をインストールする
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 97d755c71eb1bdfa8a031fa387741318f9a7f261
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 76%
+source-wordcount: '538'
+ht-degree: 64%
 
 ---
 
 # [!DNL Adobe Workfront for Salesforce] の概要
 
 <!-- Audited: 5/2025 -->
+
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Salesforce統合は **2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
 [!DNL Adobe Workfront for Salesforce] をインストールして、[!DNL Salesforce] ユーザーが [!DNL Salesforce] を終了せずに [!DNL Workfront] リクエストを送信したり、プロジェクトを自動的に作成したりできます。
 
@@ -82,15 +92,15 @@ ht-degree: 76%
 
 * Workfront で「[!UICONTROL Salesforce に移動]」リンクをクリックすることで、[!DNL Salesforce] にリンクしている項目に直接アクセスできます。
 
-  [!DNL Workfront] の [!DNL Salesforce] の項目に関する情報は表示できませんが、WorkfrontにはSalesforceの項目に移動するリンクがあり、そこで確認できます。
+  [!DNL Salesforce] の [!DNL Workfront] の項目に関する情報は表示できませんが、WorkfrontにはSalesforceの項目に移動するリンクがあり、そこで確認できます。
 
-  [!UICONTROL Salesforceに移動 &#x200B;] リンクが次の領域に表示されます。
+  [!UICONTROL Salesforceに移動 ] リンクが次の領域に表示されます。
 
-   * プロジェクトまたはイシューの [!UICONTROL &#x200B; 詳細 &#x200B;] セクション。
+   * プロジェクトまたはイシューの [!UICONTROL  詳細 ] セクション。
    * プロジェクトまたはイシューのヘッダー。
 
      プロジェクトまたはイシューのヘッダーに「[!UICONTROL Salesforce に移動]」リンクを表示するには、システム管理者またはグループ管理者がレイアウトテンプレートに「[!UICONTROL 統合]」フィールドを追加する必要があります。
-   * リストのツールバーで [!UICONTROL &#x200B; 概要を開く &#x200B;]![ 概要パネルアイコン ](assets/summary-panel-icon.png) をクリックした後、リストでイシューを選択する際のイシューの [!DNL Summary] パネル。
+   * リストのツールバーで [!DNL Summary] 概要を開く  概要パネルアイコン ![ をクリックした後、リストでイシューを選択する際のイシューの ](assets/summary-panel-icon.png) パネル。
 
      >[!NOTE]
      >

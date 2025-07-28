@@ -7,20 +7,30 @@ description: Google Workspaceから離れることなく、割り当てられた
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 58543982fef6e7ba2d05787dc023a2099e47bbc7
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 57%
+source-wordcount: '472'
+ht-degree: 42%
 
 ---
 
 # [!DNL Google Workspace] から [!DNL Adobe Workfront] [!UICONTROL ホーム] コンテンツへのアクセス
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Google 用の Adobe Workfront プラグインの最新バージョンは、2023年6月26日にリリースされました。
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Google Workspaceの次のWorkfront機能は、**2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>* Workfront内からのGoogle Workspace機能へのアクセス
+>
+>* Gmail またはWorkfrontのカレンダーサイトパネルからのGoogle タスクの表示と管理
+>
+>Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
-Google Workspaceから離れることなく、割り当てられたすべてのタスク、イシュー、承認、アクセスリクエストを含む [!DNL Adobe Workfront] [!UICONTROL &#x200B; ホーム &#x200B;] コンテンツにアクセスできます。
+Google Workspaceから離れることなく、割り当てられたすべてのタスク、イシュー、承認、アクセスリクエストを含む [!DNL Adobe Workfront] [!UICONTROL  ホーム ] コンテンツにアクセスできます。
 
 ## アクセス要件
 
@@ -53,7 +63,7 @@ Google Workspaceから離れることなく、割り当てられたすべての�
 ## [!DNL Google Workspace] から [!DNL Workfront] [!UICONTROL ホーム]へのアクセス
 
 1. [!DNL Workfront] にログインしていることを確認します。
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Google Workspace] オンサイドバーの [!DNL Workfront] アイコン ![&#128279;](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。[!DNL Google Workspace]
 1. [!DNL Google Workspace] の [!DNL Workfront] 上部に左向き矢印が表示される場合、[!UICONTROL ホーム]エリアに移動する矢印をクリックします。
 
 1. **[!UICONTROL 並べ替え]** 領域で、展開する矢印 ![ 展開する矢印 ](assets/dropdown-arrow.png) をクリックし、作業アイテムのグループ化方法を指定するオプションをクリックして、目的の作業アイテムを見つけることができます。

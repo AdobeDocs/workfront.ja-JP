@@ -6,14 +6,24 @@ description: ' [!DNL Adobe Workfront] for Salesforce をインストールした
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b38c91ae-342b-4002-a947-7a0ab1aaca93
-source-git-commit: ad2fc27db2a19ea231e925d5991dbef27ea48030
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 100%
+source-wordcount: '1581'
+ht-degree: 94%
 
 ---
 
 # [!DNL Salesforce] オブジェクトからの [!DNL Adobe Workfront] プロジェクトの作成
+
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Salesforce統合は **2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
 [!DNL Adobe Workfront]for Salesforce をインストールした後、[!DNL Salesforce] [!UICONTROL  の商談]と[!UICONTROL アカウント]で特定の基準が満たされたときに [!DNL Workfront] プロジェクトを作成するトリガーを定義できます。
 

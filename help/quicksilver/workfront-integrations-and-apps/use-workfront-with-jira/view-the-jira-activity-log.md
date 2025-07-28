@@ -6,14 +6,26 @@ description: ' [!DNL Jira]  管理者は、  [!DNL Adobe Workfront]  と  [!DNL 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 3e66c8e3-94b7-4153-abbb-32b872b9402b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 71%
 
 ---
 
 # [!UICONTROL [!DNL Jira]アクティビティログ]の表示
+
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Jira の統合は **2026 年 2 月 28 日** 以降は利用できなくなります。
+>
+>Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
+>
+>8 月までに、Jira 用のすぐに使用できるWorkfront自動化および統合テンプレートが利用可能になり、一般的なワークフローのレプリケートと実装の高速化に役立ちます。 テンプレートは、特定のビジネスニーズに合わせて完全にカスタマイズ可能で、要件の進化に合わせて拡張できます。
+> 
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
 
 [!DNL Jira] 管理者は、[!DNL Adobe Workfront] と [!DNL Jira] の間の同期中またはチケットの作成中に発生した例外やエラーを[!UICONTROL アクティビティログ]で参照できます。
 

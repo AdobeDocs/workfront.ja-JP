@@ -6,14 +6,24 @@ draft: Probably
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 5089fd81-c094-487b-8ffa-e4d2ba2e4ae6
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: f9af669b023309abc132421f35a2ece974e796b0
 workflow-type: tm+mt
-source-wordcount: '67'
-ht-degree: 100%
+source-wordcount: '152'
+ht-degree: 44%
 
 ---
 
 # [!DNL Salesforce] 用 Adobe Workfront
+
+>[!IMPORTANT]
+>
+>より安定したスケーラブルな統合を実現するために、アドビでは、Workfront Automation and Integration （Fusion）を使用した最新の柔軟な統合アプローチに移行しています。 この移行プロセスの一環として、Workfront for Salesforce統合は **2026 年 2 月 28 日** 以降は使用できなくなります。
+>
+>組織のSalesforceとの統合のニーズに応じて、Workfront Automation and Integration を使用することをお勧めします。
+>
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>
+>SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
 [!DNL Salesforce] 用 [!DNL Adobe Workfront] を使用すると、[!DNL Salesforce] システムと [!DNL Workfront] システムを統合できます。この節の記事では、Salesforce 用 [!DNL Workfront] のインストール、設定および使用方法について説明します。
 
