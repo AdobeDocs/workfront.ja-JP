@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
 workflow-type: tm+mt
-source-wordcount: '5853'
+source-wordcount: '5961'
 ht-degree: 2%
 
 ---
@@ -26,7 +26,7 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 ## グループ内の定期タイムシート リストのインターフェイス更新
 
-**プレビューリリース：2025 年 7 月 24 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：2025 年 7 月 24 日（PT）、実稼動リリース：2025 年 7 月 28 日（PT）**
 
 グループの左側のパネルにあるタイムシートプロファイルリストのルックアンドフィールを、アプリケーションの他の領域と一致するように更新しました。
 
@@ -50,15 +50,23 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 この変更を表示するには、設定/変更トラッキング/監査ログに移動します。
 
-<!--## Interface updates to the Update users for SSO page in Setup
+## 設定の SSO ユーザーを更新ページに対するインターフェイスのアップデート
 
-**Preview release: July 22, 2025; Production release: To be annoounced**
+**プレビューリリース：2025 年 7 月 22 日（PT）、実稼動リリース：2025 年 7 月 28 日（PT）**
 
-We have updated the Update users for SSO page with a more modern design that is consistent with other areas of Workfront.
+SSO のユーザーを更新ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
 
-To view this change, go to Setup > System > Update Users For SSO-->
+この変更を表示するには、設定/システム/SSO のユーザーを更新に移動します
 
 ## プロジェクト
+
+## 「MS Project ファイルをインポート」ボックスのインタフェースの更新
+
+**プレビューリリース：2025 年 7 月 24 日（PT）、実稼動リリース：発表予定**
+
+MS Project からプロジェクトを読み込む際の「MS プロジェクトファイルを読み込む」ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
+
+この変更を表示するには、プロジェクト/新規プロジェクト/MS プロジェクトを読み込みに移動します。
 
 ## プロジェクトまたはテンプレートの「費用を追加」ボックスのインターフェイスの更新
 
