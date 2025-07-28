@@ -60,7 +60,7 @@ ht-degree: 50%
 
 ## [!DNL Adobe Workfront for Google Workspace] にログインする
 
-1. [!DNL Workfront]、![ または ](assets/wf-lion-icon.png) の右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Gmail] アイコン [!DNL Google Calendar]1}Workfront アイコン } をクリックします。[!DNL Google Drive]
+1. [!DNL Workfront]、![ または ](assets/wf-lion-icon.png) の右端にある [!DNL Google Workspace] アドオンサイドバーの [!DNL Gmail] アイコン [!DNL Google Calendar]1&rbrace;Workfront アイコン &rbrace; をクリックします。[!DNL Google Drive]
 
    [!DNL Workfront for Google Workspace] アドオンをインストールしたばかりで、このアイコンが表示されない場合は、ブラウザーページを更新してみてください。
 
@@ -76,7 +76,7 @@ ht-degree: 50%
 
 ## [!DNL Workfront for Google Workspace] からログアウトする
 
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。[!DNL Google Workspace]
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。[!DNL Google Workspace]
 1. [!DNL Workfront for Google Workspace] パネルの上部にある「**[!UICONTROL その他]**」アイコンをクリックします。
 
 1. 表示されるメニューで「**[!UICONTROL ログアウト]**」をクリックします。

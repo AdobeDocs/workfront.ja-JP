@@ -25,7 +25,7 @@ ht-degree: 94%
 >
 >SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
-[!DNL Adobe Workfront]for Salesforce をインストールした後、[!DNL Salesforce] [!UICONTROL  の商談]と[!UICONTROL アカウント]で特定の基準が満たされたときに [!DNL Workfront] プロジェクトを作成するトリガーを定義できます。
+[!DNL Adobe Workfront]for Salesforce をインストールした後、[!DNL Salesforce] [!UICONTROL &#x200B; の商談]と[!UICONTROL アカウント]で特定の基準が満たされたときに [!DNL Workfront] プロジェクトを作成するトリガーを定義できます。
 
 ## アクセス要件
 
@@ -168,7 +168,7 @@ ht-degree: 94%
    1. 「**[!UICONTROL タイプ]**」ドロップダウンメニューから「**[!UICONTROL タイプ]**」を選択します。
 
       任意の「**アカウント
-**」が、[!DNL Salesforce] で指定された&#x200B;**[!UICONTROL タイプ]**&#x200B;として指定されている場合、**[!UICONTROL プロジェクト]**&#x200B;が [!DNL Workfront] に作成されます。
+**」が、[!DNL Salesforce] で指定された&#x200B;**&#x200B;[!UICONTROL タイプ]&#x200B;**&#x200B;として指定されている場合、**&#x200B;[!UICONTROL プロジェクト]**&#x200B;が [!DNL Workfront] に作成されます。
 
       必須フィールドです。
 

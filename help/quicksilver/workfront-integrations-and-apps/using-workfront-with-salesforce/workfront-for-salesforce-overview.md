@@ -94,9 +94,9 @@ ht-degree: 64%
 
   [!DNL Salesforce] の [!DNL Workfront] の項目に関する情報は表示できませんが、WorkfrontにはSalesforceの項目に移動するリンクがあり、そこで確認できます。
 
-  [!UICONTROL Salesforceに移動 ] リンクが次の領域に表示されます。
+  [!UICONTROL Salesforceに移動 &#x200B;] リンクが次の領域に表示されます。
 
-   * プロジェクトまたはイシューの [!UICONTROL  詳細 ] セクション。
+   * プロジェクトまたはイシューの [!UICONTROL &#x200B; 詳細 &#x200B;] セクション。
    * プロジェクトまたはイシューのヘッダー。
 
      プロジェクトまたはイシューのヘッダーに「[!UICONTROL Salesforce に移動]」リンクを表示するには、システム管理者またはグループ管理者がレイアウトテンプレートに「[!UICONTROL 統合]」フィールドを追加する必要があります。

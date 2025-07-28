@@ -45,8 +45,8 @@ ht-degree: 48%
 * [ [!DNL Adobe Workfront]  の場所から  [!DNL Google Workspace] ホームコンテンツへのアクセス](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md)
 * [ [!DNL Adobe Workfront]  からのオブジェ  [!DNL Google Workspace] トの更新](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)
 * [ [!DNL Google Workspace] の場所からドキュメントを表示および管理します。](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md)
-* [ [!DNL Adobe Workfront] Google Workspace[!UICONTROL  からのオブジェクトの詳細の表示と管理 ]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
-* [ [!DNL Adobe Workfront] Google Workspace[!UICONTROL  から ] オブジェクトの更新を表示](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
+* [ [!DNL Adobe Workfront] Google Workspace[!UICONTROL &#x200B; からのオブジェクトの詳細の表示と管理 &#x200B;]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)
+* [ [!DNL Adobe Workfront] Google Workspace[!UICONTROL &#x200B; から &#x200B;] オブジェクトの更新を表示](../../workfront-integrations-and-apps/workfront-for-g-suite/view-object-updates-in-gsuite.md)
 
 次の記事では、[!DNL Workfront] 通知メールを受信したときに、作業アイテムの詳細を表示したりそれに対応したりする方法について説明します。
 

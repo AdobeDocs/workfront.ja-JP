@@ -30,7 +30,7 @@ ht-degree: 32%
 >
 >Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
-顧客のプライバシーは重要なので、Adobe Workfront は、Google プラグインアプリのサードパーティ認証に起因する、顧客を特定する顧客データを保存または収集しません。Google Workspace用Workfront Google API から受け取った情報の使用および他のアプリへの転送は、使用制限を含む [0}Google API サービスユーザーデータポリシー } に従います。](https://developers.google.com/terms/api-services-user-data-policy)
+顧客のプライバシーは重要なので、Adobe Workfront は、Google プラグインアプリのサードパーティ認証に起因する、顧客を特定する顧客データを保存または収集しません。Google Workspace用Workfront Google API から受け取った情報の使用および他のアプリへの転送は、使用制限を含む [0&rbrace;Google API サービスユーザーデータポリシー &rbrace; に従います。](https://developers.google.com/terms/api-services-user-data-policy)
 
 Workfront for Google Workspace プラグインが最大限の価値を引き出せるように、次の権限が必要です。
 

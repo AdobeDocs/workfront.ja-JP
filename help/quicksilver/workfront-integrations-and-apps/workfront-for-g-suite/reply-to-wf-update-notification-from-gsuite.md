@@ -62,7 +62,7 @@ ht-degree: 40%
 
 ## [!DNL Google Workspace] からのアップデート通知に返信
 
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3}Workfront アイコン } をクリックします。[!DNL Google Workspace]
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。[!DNL Google Workspace]
 1. アップデートを含む [!DNL Workfront] メール通知を開きます。
 1. [!UICONTROL Google WorkspaceのWorkfront] パネルの下部付近で、「**[!UICONTROL コメントを投稿]**」をクリックして、返信を入力します。
 1. （オプション）返信を特定のユーザーに通知するには、「**[!DNL Notify people and teams]**」をクリックして、名前を入力し、ドロップダウンリストに表示されたら名前をクリックします。
