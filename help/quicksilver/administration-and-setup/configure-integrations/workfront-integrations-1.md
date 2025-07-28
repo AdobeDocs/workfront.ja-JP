@@ -128,7 +128,7 @@ ht-degree: 71%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
-     <p>詳しい情報と手順については、<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud] アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> 
+     <p>詳しい情報と手順については、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud] アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -279,7 +279,7 @@ ht-degree: 71%
 
   [!DNL Adobe Workfront Fusion] は、アプリ内やサービス内およびそれらの間でアクションをリンクして、データを自動的に転送および変換するシナリオを作成します。多くのアプリへの専用コネクタを備えていますが、公開 API を使用して任意のアプリケーションに接続できます。
 
-  詳しくは、[[!DNL Adobe Workfront Fusion] 概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+  詳しくは、[[!DNL Adobe Workfront Fusion] 概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]（[!DNL Workfront Fusion] が必要）
