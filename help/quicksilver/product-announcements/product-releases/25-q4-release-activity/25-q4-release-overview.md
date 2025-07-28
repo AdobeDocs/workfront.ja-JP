@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
 workflow-type: tm+mt
-source-wordcount: '791'
-ht-degree: 32%
+source-wordcount: '887'
+ht-degree: 29%
 
 ---
 
@@ -38,8 +38,32 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront の機能強化
 
-<!--* [Resource Management enhancements](#resource-management-enhancements)-->
+* [ ドキュメントとプルーフの機能強化 ](#document-and-proofing-enhancements)
+  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
 * [その他の機能強化](#other-enhancements)
+
+### ドキュメントとプルーフの機能強化
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Adobe Expressの新しいプルーフ統合 </a><p></p>
+            <p>Adobe ExpressとWorkfront Proofの新しい統合についてお知らせします。</p>
+            <ul>
+            <li>クリエイティブチーム、法務チーム、コンプライアンスチーム間の共同作業を効率化し、管理を維持しながら公開までの時間を短縮します</li>
+            <li>描画マークアップ、注釈、Workfront プルーフビューアを使用したコメントを使用して、詳細なレビューを行います</li>
+            <li>電子署名と完全な監査ログにより、企業のコンプライアンス基準に対応</li>
+            <li>Express ブランド・テンプレートからの再混在ファイルに対する承認が必要</li>
+            <li>高度なプルーフテンプレートを使用した、複数ステージのレビューと承認のワークフローへの高速テンプレートのマッピング</li>
+            </ul>
+        </td>
+        <td>2025年7月28日（PT）</td>
+        <td>2025年7月28日（PT）</td>
+        <td>2025年7月28日（PT）</td>
+    </tr>     
+  </tbody>
+</table>
 
 
 
@@ -109,7 +133,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
@@ -146,11 +170,11 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 
-Workfront API バージョン 20 は、2024 年 5 月 4 日（PT）にリリースされました。 API バージョン 20 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
+Workfront API バージョン 20 は、2025 年 5 月 4 日（PT）にリリースされました。 API バージョン 20 では、いくつかのリソースとエンドポイントが変更されました。変更の中には、新しい機能をサポートするものもあれば、API を通じて利用可能な情報をより簡単に使用できるようにするものもあります。
 
 新機能と更新内容については、[API バージョン 20 の新機能](/help/quicksilver/wf-api/api/new-api-version-19.md)を参照してください。
 

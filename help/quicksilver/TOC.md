@@ -3,10 +3,10 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b2ccda2b61b862c29f67b04d8598bb4204a33c99
+source-git-commit: 0babf2c4028ee0c45258ec3490bab336fd05a68b
 workflow-type: tm+mt
-source-wordcount: '13271'
-ht-degree: 86%
+source-wordcount: '13278'
+ht-degree: 85%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 86%
       * [Adobe Workfront の四半期ごとのリリースに備える](product-announcements/product-releases/release-readiness.md)
       * 2025 年第 4 四半期リリース {#release-25-q4}
          * [2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)
+         * [2025 年第 4 四半期のドキュメントとプルーフの機能強化](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md)
          * [2025 年第 4 四半期のリソース管理の強化](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
          * [2025年第 4 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * 2025 年第 3 四半期リリース {#release-25-q3}
@@ -208,7 +209,6 @@ ht-degree: 86%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning リリースアクティビティ{#planning-release-activity}
          * [Adobe Workfront計画リリースアクティビティ ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Adobe Workfront Planning の 2025 年第 4 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Adobe Workfront Planning の 2025 年第 3 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Adobe Workfront Planning の 2025 年第 2 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)

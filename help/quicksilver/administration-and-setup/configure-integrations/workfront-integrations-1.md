@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 77%
+source-wordcount: '1252'
+ht-degree: 71%
 
 ---
 
@@ -84,6 +84,21 @@ ht-degree: 77%
   </tr> 
  </thead> 
  <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Express</p> </td> 
+   <td> 
+    <ul> 
+     <li>プルーフエクスペリエンスをAdobe Expressと統合します。 この統合を使用すると、次のことができます 
+     <ul>
+     <li>Workfront承認テンプレートを使用して、承認ワークフローを定義します。 </li>
+     <li>プルーフビューアでAdobe Express ドラフトコンテンツを確認します。 </li>
+     <li>最終承認と公開方法については、Adobe Expressでの決定のレビューを参照してください。 </li>
+     </ul>
+   </ul>
+     <p>詳しくは、<a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Adobe ExpressとWorkfront Proofの統合の基本を学ぶ </a> を参照してください。</p> 
+     </td>  <td><ul><li>WorkfrontとAdobe Expressの両方のライセンスが必要です。</li><li>WorkfrontとAdobe Expressは、同じ IMS 組織にデプロイする必要があります。</li></ul></td> 
+   <td>Adobe製品チームが、お使いのアカウントでこの連携を有効にする必要があります。 詳しくは、<a href="/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md" class="MCXref xref">Adobe ExpressとWorkfront Proofの統合の基本を学ぶ </a> を参照してください。</td> 
+  </tr>
  <tr> 
    <td role="rowheader"> <p>GenStudio for Performance Marketing </p> </td> 
    <td> 
@@ -113,7 +128,7 @@ ht-degree: 77%
      <li>After Effects </li>
      </ul>
      <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
-     <p>詳しい情報と手順については、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud] アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> 
+     <p>詳しい情報と手順については、<a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud] アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> 
      </td>  <td> </td> 
    <td> </td> 
   </tr> 
@@ -264,7 +279,7 @@ ht-degree: 77%
 
   [!DNL Adobe Workfront Fusion] は、アプリ内やサービス内およびそれらの間でアクションをリンクして、データを自動的に転送および変換するシナリオを作成します。多くのアプリへの専用コネクタを備えていますが、公開 API を使用して任意のアプリケーションに接続できます。
 
-  詳しくは、[[!DNL Adobe Workfront Fusion] 概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+  詳しくは、[[!DNL Adobe Workfront Fusion] 概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan]（[!DNL Workfront Fusion] が必要）

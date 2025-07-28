@@ -7,12 +7,10 @@ description: プルーフと Creative Cloud Express の概要
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: 2eef36a6-8c61-4e7e-9760-23114f942250
-source-git-commit: ca9625b1cb3c51f208bad28792e9090802521dfa
+source-git-commit: dce2d9413b3a363d6508cabec0147c260817ed98
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '510'
 ht-degree: 5%
 
 ---
@@ -80,7 +78,7 @@ Workfront ProofとAdobe Expressを使用すると、次のことができます
 
 ## Workfrontでの承認ワークフローの設定
 
-ユーザーが Express テンプレートに承認ワークフローを追加する前に、プルーフ管理者はWorkfrontで承認ワークフローを作成する必要があります。
+標準ライセンスを持つプルーフ管理者は、ユーザーが Express テンプレートに承認ワークフローを追加する前に、Workfrontで承認ワークフローを作成する必要があります。
 
 詳しくは、[ 自動ワークフローテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) を参照してください。
 
@@ -90,7 +88,9 @@ Workfront ProofとAdobe Expressを使用すると、次のことができます
 
 Express テンプレートを混在し直す場合は、公開する前に承認が必要です。これにより、事前設定済みの承認ワークフローが自動的にトリガーされます。
 
-共有可能なテンプレートにレビューおよび承認ワークフローを追加する方法について説明します。<!--need link to help article-->
+Adobe Expressの承認をリクエストするには、標準Workfront ライセンスが必要です。
+
+[ デザインの承認を得る ](https://helpx.adobe.com/express/web/share-and-publish/share-and-collaborate/request-approval.html) 方法を説明します。
 
 
 ## Express テンプレートをリミックスして、レビューと承認を受けるために送信
@@ -104,8 +104,8 @@ Adobe Express ユーザーは、ニーズに合わせて Express テンプレー
 * コメントを読む
 * その他
 
-デザインの承認を得る方法を説明します。\
-<!--need link to help article-->
+<!--Learn how to get approval on designs.   
+need link to help article-->
 
 ## Remixed Express ファイルの確認と承認
 
@@ -113,8 +113,4 @@ Adobe Express ユーザーは、ニーズに合わせて Express テンプレー
 
 また、コンテンツを公開できるように、コンテンツを承認する最終的な決定を下す責任もあります。
 
-Workfrontでデザインをレビューおよび承認する方法について説明します。
-
-
-Workfront共同作業者ライセンス – での作業方法の把握 – 
-
+レビューして決定を行うには、少なくとも共同作業者Workfront ライセンスが必要です。
