@@ -28,9 +28,9 @@ ht-degree: 48%
 >
 >Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Adobe Workfront for Google Workspace] を使用すると、自分の最も重要な仕事につながり、[!DNL Gmail]、[!DNL Google Calendar]および [!DNL Google Drive]内で他のユーザーと共同作業できるようになります。これらのアプリケーションから移動せずに、メールで送信されたリクエストや作業の更新を取り込んで、[!DNL Workfront] に追加できます。期限、優先度、ドキュメント、更新、追加のコンテキストなど、[!DNL Workfront] で発生していることを、受信トレイから移動せずに確認できます。承認の決定を行ったり、コメントに返信したり、新しい作業リクエストを受け入れたりできます。また、メールを個人のプロジェクトタスクに変換したり、作業や優先度を他のユーザーに割り当てたりできます。
 
