@@ -3,14 +3,14 @@ content-type: overview
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: プロジェクトチームの概要
-description: ある能力のプロジェクトに関連付けられているユーザーにより、プロジェクトチームが構成されます。プロジェクトの担当者エリアに表示されるユーザーは、プロジェクトチームを構成するユーザーです。
+description: ある能力のプロジェクトに関連付けられているユーザーにより、プロジェクトチームが構成されます。プロジェクトまたはテンプレートの人物エリアにリストされるユーザーは、プロジェクトチームを構成するユーザーです。
 author: Alina
 feature: Work Management
 exl-id: ceb25fb1-57fc-476c-b92c-fc41aadc0b5b
-source-git-commit: 3dfb30646e8a967264f7e562441a52a059d73d32
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 62%
+source-wordcount: '450'
+ht-degree: 48%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 62%
 
 プロジェクトチームは、ある程度の処理能力でプロジェクトに関連付けられたユーザーで構成されます。 プロジェクトのユーザー領域にリストされたユーザーは、プロジェクトチームを構成します。 例えば、プロジェクトでの作業に割り当てられたユーザーや、プロジェクトの所有者は、プロジェクトチームのユーザーです。
 
+プロジェクトテンプレートの作業に関連付けられているユーザー、またはテンプレートの所有者またはスポンサーであるユーザーは、テンプレートを使用してプロジェクトを作成した後、将来のプロジェクトチームの一員になります。
+
 ## プロジェクトチームのメンバー
 
 ユーザーを手動または自動で、プロジェクトチームに割り当てることができます。詳しくは、「プロジェクトチームの管理 [ のプロジェクトチームへのユーザーの追加の節を参照してくだ ](../../../manage-work/projects/planning-a-project/manage-project-team.md) い。
@@ -28,7 +30,13 @@ ht-degree: 62%
 
 ## プロジェクトチームメンバーへの通知
 
-Adobe Workfront 管理者が有効にするメール通知に応じて、プロジェクトチームのユーザーには、プロジェクトの様々なアクションが通知されます。メール通知の使用に関して詳しくは、[システムの全員に対するイベント通知を設定](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)を参照してください。
+Adobe Workfront管理者が有効にしたメール通知に応じて、プロジェクトチームのユーザーには、プロジェクトに関する様々なアクションが通知されます。
+
+詳しくは、次の記事も参照してください。
+
+* [イベント通知のタイプ](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+
+* [システムの全員へのイベント通知を設定](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
 
 >[!NOTE]
 >

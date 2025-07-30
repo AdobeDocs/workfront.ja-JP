@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
 workflow-type: tm+mt
-source-wordcount: '2115'
+source-wordcount: '2133'
 ht-degree: 7%
 
 ---
@@ -264,11 +264,11 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 * レコード タイプのテーブル ビューからレコード タイプにレコード タイプまたはオブジェクト タイプを接続した後に、[ 接続されたレコード ] ページをレコードに追加できます。
 
-* レコードのプレビュー領域に [ 接続済みレコード ] ページを追加することはできません。
+* レコードのプレビュー領域に [ 接続済みレコード ] ページを追加することはできません。<!--take this out when we release connected record pages to the record preview area-->
 
 * 接続されたレコード・ページには、接続されたオブジェクトまたは 1 つのオブジェクトまたはレコード・タイプのレコードのみがテーブル・ビューに表示されます。 テーブルビューでは、そのタイプのすべてのレコードがページに表示されるわけではありません。
 
-* レコードに [ 接続済みレコード ] ページを追加すると、レコードのプレビュー領域に [ ページ ] タブが表示されますが、空白になります。 接続されたレコードのテーブル表示を確認するには、完全ページに移動する必要があります。<!--this might have changed? check and take disclaimer out-->
+* レコードに [ 接続済みレコード ] ページを追加すると、レコードのプレビュー領域に [ ページ ] タブが表示されますが、空白になります。 接続されたレコードのテーブル表示を確認するには、完全ページに移動する必要があります。 &lt;! – これは、プレビューエリアへの接続されたページのリリースと共に変更されます – チェックして免責事項を確認します – >
 
 * 以下の接続されたレコードまたはオブジェクト タイプに対して、接続されたレコード ページを追加できます。
 
@@ -279,12 +279,20 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
   >
   >   接続されたAEM Assets レコードに対して、「接続されたレコード」ページを追加することはできません。
 
-
 接続レコード ページを追加するには：
+
+<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+
+1. Click the name of the record to open it. 
+1. Click **Add page** from one of the following areas: 
+
+   * The record's preview window
+   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
+
+-->
 
 1. レコードページビューで、レコード名をクリックして開き、プレビューページの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックします。
 1. **ページを追加** をクリックします。
-
 
    **ページを作成** ボックスが開きます。
 

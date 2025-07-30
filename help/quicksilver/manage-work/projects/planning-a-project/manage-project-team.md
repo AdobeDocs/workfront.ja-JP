@@ -2,25 +2,85 @@
 product-area: projects;agile-and-teams
 navigation-topic: plan-a-project
 title: プロジェクトチームの管理
-description: プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。プロジェクトチームのメンバーは、プロジェクトの「ユーザー」セクションに表示されます。
+description: プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。プロジェクトチームのメンバーは、プロジェクトの「人物」セクションまたはプロジェクトの作成に使用される可能性のあるテンプレートの「人物」セクションに表示されます。
 author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 99%
+source-wordcount: '1181'
+ht-degree: 26%
 
 ---
 
 # プロジェクトチームの管理
 
-プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。プロジェクトチームのメンバーは、プロジェクトの「ユーザー」セクションに表示されます。
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+
+-->
+
+プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。詳しくは、[プロジェクトチームの概要](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
+
+プロジェクトチームのメンバーは、プロジェクトの「ユーザー」セクションに表示されます。
+
+プロジェクトテンプレートの人物セクションに表示されるユーザーは、プロジェクトがテンプレートから作成された後、プロジェクトチームになります。
+
+次のユーザーは、プロジェクトとテンプレートの両方について、プロジェクトチームに自動的に追加されます。
+
+* 所有者
+* スポンサー
+* タスクに割り当てられたユーザー
+* イシューに割り当てられたユーザー（プロジェクトの場合のみ）
+
+プロジェクトチームのユーザーは、プロジェクトに関する通知を受け取ります。 詳しくは、[ イベント通知タイプ ](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
+
+プロジェクトおよびテンプレートのチームのユーザーを追加（プロジェクトに対してのみ）、削除、または更新を送信することで、ユーザーを管理できます。
 
 ## アクセス要件
 
-<!--drafted for P&P:
++++ 展開すると、アクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>新規：標準 </p>
+    <p>現在：プラン </p>
+    </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル</td> 
+   <td> <p>プロジェクトとテンプレートへの編集アクセス権</p> <p>ユーザーに対する表示以上のアクセス権</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>プロジェクトまたはテンプレートに対する表示以上の権限</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
+
+<!--Old access: 
+
+You must have the following access to perform the steps in this article:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -31,10 +91,7 @@ ht-degree: 99%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
-    </td> 
+   <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -48,70 +105,42 @@ ht-degree: 99%
   </tr> 
  </tbody> 
 </table>
--->
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>任意</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>プラン </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>プロジェクトへのアクセスを編集</p> <p>ユーザーに対する表示以上のアクセス権</p> <p><b>メモ</b>
+## Add users to a Project Team
 
-まだアクセス権がない場合は、Workfront 管理者に問い合わせて、アクセスレベルに追加の制限が設定されているかどうかを確認してください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td>
-</tr> 
-  <tr> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトの表示またはそれ以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
-
-## プロジェクトチームへのユーザーの追加
-
-プロジェクトチームに追加されたユーザーには、プロジェクトおよびプロジェクトのタスク、イシュー、ドキュメントに対する表示権限が付与されます。詳しくは、[プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
+When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->プロジェクトチームのユーザーは、プロジェクトのリソース管理ツールに自動的には追加されません。
+>Users on the Project Team are not automatically added to the resource management tools for the project.
 
-次の方法でプロジェクトチームにユーザーを追加できます。
+You can add users to the project team in the following ways:
 
-* [プロジェクトチームへのユーザーの自動追加](#automatically-add-users-to-a-project-team)
-* [プロジェクトチームへのユーザーの手動追加](#manually-add-users-to-a-project-team)
+* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
+* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
 
-### プロジェクトチームへのユーザーの自動追加 {#automatically-add-users-to-a-project-team}
+### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
 
-プロジェクトで以下の役割を果たすユーザーは、プロジェクトチームに自動的に追加され、プロジェクトの作成時に「ユーザー」セクションに表示されます。
+The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
 
-* プロジェクトの作成者
-* プロジェクト所有者
-* プロジェクトスポンサー
+* The creator of the project
+* The project owner
+* The project sponsor
 
-次の項目に割り当てられたユーザーは、プロジェクトチームにも自動的に追加されます。
+Users are also automatically added to the project team when they are assigned to the following:
 
-* タスク
-* イシュー
+* Tasks
+* Issues
 
-### プロジェクトチームへのユーザーの手動追加 {#manually-add-users-to-a-project-team}
+### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
 
-プロジェクト上で何の役割も果たさないユーザーが、プロジェクトの期間中に特定の更新や変更に関する通知を受け取りたい場合は、手動でプロジェクトチームに追加できます。
+If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
 
-プロジェクトチームのユーザーに対して有効にできる通知の詳細については、[イベント通知のタイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
+ For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
-<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+ <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -119,17 +148,23 @@ ht-degree: 99%
 
 -->
 
-1. ユーザーを追加するプロジェクトに移動します。
+## プロジェクトでのユーザーの管理
+
+1. プロジェクト チームを管理するプロジェクトに移動します。
+
+   >[!TIP]
+   >
+   >ユーザーを「人物」セクションに表示するには、タスク、イシュー、またはプロジェクトの関係者としてユーザーが割り当てられている必要があります。
 
 1. 左側のパネルで **人物** をクリックします。
 
 1. 「**ユーザーを追加**」をクリックします。
 
-   プロジェクトチームにユーザーを追加ダイアログボックスが表示されます。
+   **プロジェクトチームにユーザーを追加** ボックスが表示されます。
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. 「**ユーザーを追加**」ボックスに、プロジェクトチームに追加するアクティブな Workfront ユーザーの名前を入力し始め、ドロップダウンリストに表示されたら名前をクリックします。
+1. 「**ユーザーを追加**」ボックスで、プロジェクトチームに追加するアクティブなWorkfront ユーザーの名前の入力を開始し、リストに表示される名前をクリックします。
 
    複数のユーザーをプロジェクトチームに追加するには、この手順を繰り返します。ユーザーは、プロジェクトに関連付けられたグループに属している必要があります。
 
@@ -140,17 +175,126 @@ ht-degree: 99%
    >
    >  ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-
 1. 「**追加**」をクリックします。
 
    ユーザーは、プロジェクトに対する表示権限を取得し、プロジェクトチームの一部として、プロジェクトに関する通知を受け取ります。
 
-## プロジェクトチームからのユーザーの削除
+1. （オプション）担当業務がタスク、イシュー、プロジェクトの承認に追加されたときにユーザーに通知を受信させたい場合は、ユーザーの **担当業務** 列内をクリックして、承認に関連付けられる担当業務を選択します。
+
+   ユーザーは、選択した担当業務に割り当てられた承認に関連する通知を受け取ります。
+
+   詳しくは、記事「プロジェクトチームの概要 [ の「役割ベースの承認」の節を参照し ](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md) ください。
+
+1. リストで 1 人または複数のユーザーを選択し、**削除** アイコン ![ 削除アイコン ](assets/remove-icon.png) をクリックして、チームから削除します。
+
+1. **はい、選択したユーザーを削除** をクリックして、ユーザーを確認して削除します。
+
+   未完了の作業アイテムからユーザーが削除され、割り当て解除される。
+
+   詳細については、この記事の [ プロジェクトチームからユーザーを削除する際の考慮事項 ](#considerations-for-removing-users-from-a-project-team) の節を参照してください。
+1. （任意）このプロジェクトの更新をユーザーに送信するには、[ すべて更新 ] をクリックしてチームの全員に更新を送信します
+
+   または
+
+   リストから 1 人または複数のユーザーを選択し、「**ユーザーに更新を送信**」をクリックします。
+
+   ![ プロジェクトの更新をユーザーに送信 ](assets/send-update-to-user-on-project-box.png)
+
+   **ユーザーに更新を送信** ボックスが開きます。
+
+1. 次のいずれかの操作を行います。
+
+   * 選択したユーザーの更新を追加します。
+   * ロックアイコンをクリックして、会社内のユーザーに対して更新を非公開にします。
+   * 同じアップデートを受け取るように追加のユーザーにタグを付けます。
+   * 「**送信**」をクリックします。
+
+   更新内容がプロジェクトの「**更新**」セクションに追加され、選択したすべてのユーザーがタグ付きユーザーとして表示されます。
+
+   ユーザーに対して有効になっている場合はユーザーにメール通知が届き、新しい更新に関するアプリ内通知が届く場合があります。
+
+1. （任意） **エクスポート** アイコン ![ エクスポートアイコン ](assets/export-icon.png) をクリックして、ユーザーのリストをファイルにエクスポートします
+
+   または
+
+   ユーザーを選択して「**書き出し** アイコンをクリックし、特定のユーザーのみを書き出します。
+
+## テンプレートでの人物の管理
+
+1. プロジェクト チームを管理するテンプレートに移動します。
+
+   >[!TIP]
+   >
+   >人物セクションに表示するには、タスクまたはテンプレートの関係者に割り当てられたユーザーが必要です。
+
+1. 左側のパネルで **人物** をクリックします。
+
+1. リストから 1 人または複数のユーザーを選択し、「**削除**」をクリックしてチームから削除します。
+
+1. **はい、選択したユーザーを削除** をクリックして、ユーザーを確認して削除します。
+
+   ユーザーがテンプレートタスクから削除され、割り当て解除されます。
+
+   詳細については、この記事の [ プロジェクトチームからユーザーを削除する際の考慮事項 ](#considerations-for-removing-users-from-a-project-team) の節を参照してください。
+
+1. （オプション）ユーザーに更新を送信するには、「すべて更新」をクリックして、リストのすべてのユーザーに更新を送信します
+
+   または
+
+   リストで 1 人または複数のユーザーを選択し、「**更新**」をクリックします。
+
+   <!--update screen shot for unshim-->
+
+   ![ テンプレートの「ユーザーに更新を送信」ボックス ](assets/send-update-to-user-on-template-box.png)
+
+   **ユーザーに更新を送信** ボックスが開きます。
+
+1. 次の操作を実行します。
+
+   * 選択したユーザーの更新を追加します。
+   * 人物アイコンをクリックして、同じ更新を受け取る追加のユーザーをタグ付けします。
+   * ロックアイコンをクリックして、会社内のユーザーに対して更新を非公開にします。
+   * 「**送信**」をクリックします。
+
+   <!--replace list above with:
+   <div class="preview">
+
+   * Add an update for the selected users.
+   * Click **Tag people** to tag additional users to receive the same update. 
+   * Select the **Private to my company** option to to make the update private to the users in your company. 
+   * Click **Send**. 
+   </div>
+   -->
+
+   更新内容は、タグ付けされた各ユーザーのプロファイルの「**更新**」セクションに追加されます。
+
+   ユーザーに対して有効になっている場合はユーザーにメール通知が届き、新しい更新に関するアプリ内通知が届く場合があります。
+
+1. （任意）「**エクスポート**」をクリックして、ユーザーのリストをファイルにエクスポートします
+
+   または
+
+   ユーザーを選択して **書き出し** をクリックし、特定のユーザーのみを書き出します。
+
+## プロジェクトチームからユーザーを削除する際の考慮事項
 
 プロジェクト上のユーザーの役割からユーザーを削除しても、そのユーザーはプロジェクトチームの一員に留まりす。
 
+プロジェクトチームに送信された通知を受信しないようにするには、プロジェクトチームまたはプロジェクトの「ユーザー」セクションからユーザーを削除する必要があります。
+
 プロジェクトのタスクまたはイシューに割り当てられているユーザーをプロジェクトチームから削除すると、そのユーザーは未完了のタスクとイシューから割り当て解除されます。この場合、タスクとイシューはワークロードバランサーの未割り当て作業エリアに戻ります。
 
-完了したタスクとイシューに割り当てられているユーザーをプロジェクトチームから削除しても、割り当てられたままになります。
+完了したタスクと問題に割り当てられたユーザーは、プロジェクトチームから削除した後でも、タスクと問題に引き続き割り当てられます。
+
+次のユーザーは、プロジェクトまたはテンプレートの人物セクションから削除すると、プロジェクトでの役割から削除されます。
+
+* 未完了タスクに割り当てられたユーザー
+* 未完了の問題に割り当てられたユーザー
+
+次のユーザーは、プロジェクトまたはテンプレートの人物セクションから削除しても、プロジェクトでの役割から削除されません。
+
+* 所有者
+* スポンサー
 
 プロジェクトチームからのユーザーの削除について詳しくは、[プロジェクトからのユーザーの削除](../../../manage-work/projects/manage-projects/remove-users-from-projects.md)を参照してください。
+

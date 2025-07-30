@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
 workflow-type: tm+mt
 source-wordcount: '5201'
 ht-degree: 44%
@@ -14,7 +14,7 @@ ht-degree: 44%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ja ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -35,12 +35,12 @@ Adobe Workfront Planning では、レコードタイプのカスタムフィー�
 
 Workfront Planning では、次の方法でフィールドを作成できます。
 
-* 最初から
-* レコードタイプの接続による
-* レコードタイプの作成による
-* テンプレートからのワークスペースの作成による
-* Excel または CSV ファイルを使用してレコードタイプを読み込む
-* 既存のWorkfront フィールドのコピーを読み込む
+* [最初から](#create-fields-from-scratch)
+* [レコードタイプの接続による](#create-fields-from-scratch)
+* [レコードタイプの作成による](#create-fields-by-creating-a-record-type)
+* [テンプレートからのワークスペースの作成による](#create-fields-by-creating-a-workspace-from-a-template)
+* [Excel または CSV ファイルを使用してレコードタイプを読み込む](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
+* [既存のWorkfront フィールドのコピーを読み込む](#create-fields-by-importing-them-from-workfront)
 
 Workfrontの計画フィールドについて詳しくは、[ フィールドの概要 ](/help/quicksilver/planning/fields/fields-overview.md) を参照してください。
 
@@ -109,6 +109,45 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+## レコードタイプを連結してフィールドを作成する
+
+2 つのレコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされるレコードフィールドを作成できます。
+
+Workfront Planning レコード・タイプの接続の詳細は、[ レコード・タイプの接続 ](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
+
+<!--## Create fields by importing record types using an Excel or CSV file
+
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
+
+## レコードタイプを作成してフィールドを作成する
+
+レコードタイプを作成すると、新しいレコードタイプに関連付けられた複数のフィールドもデフォルトで作成されます。詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+
+## テンプレートからワークスペースを作成することでフィールドを作成
+
+テンプレートからワークスペースを作成する際に、Adobe Workfront Planning はレコードタイプ用のフィールドを作成します。
+
+詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+
+
+
+## レコードタイプを CSV または Excel ファイルから読み込む際のフィールドの作成
+
+CSV または Excel ファイルを使用してレコードタイプを読み込む際に、フィールドを読み込むことができます。
+
+詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
+
+## Workfrontから読み込んでフィールドを作成する
+
+既存のWorkfront フィールドのコピーを読み込むことができます。
+
+Workfrontからフィールドを読み込むと、Workfront Planning レコードタイプの各フィールドのコピーが作成されます。
+
+フィールドをコピーした後、フィールドは互いに独立しており、情報を交換しません。
+
+詳しくは、[Workfrontからのフィールドの読み込み ](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
+
 
 ## フィールドを最初から作成 {#create-fields-from-scratch}
 
@@ -319,7 +358,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 >数値フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに数値として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**数値**&#x200B;フィールドタイプを選択します。
@@ -349,7 +388,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 >割合フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページにパーセンテージとして表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
@@ -389,7 +428,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 >通貨フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**通貨**&#x200B;フィールドタイプを選択します。
 
@@ -443,6 +482,8 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 1. 選択した式をクリックすると、定義が表示され、書式が表示されます。
 
+   <!--update screen shot for Maximize button-->
+
    ![ 数式の説明 ](assets/description-of-formula-expression.png)
 
    サポートされている式について詳しくは、[ 式フィールドの概要 ](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
@@ -466,6 +507,12 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
    >
    >![ 式の例プロジェクト予算の 4 つのフィールドが削除されました ](assets/formula-example-project-budget-four-fields-removed.png)
    >
+
+   <!--
+    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
+           <span class="preview">The Formula box opens in a larger window. </span>
+    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
+    -->
 
 1. 「**フォーマット**」フィールドで、式タイプ・フィールドに表示される結果のフォーマットを次の中から選択します。
 
@@ -735,42 +782,6 @@ Create an Object field:
 
 -->
 
-## レコードタイプを連結してフィールドを作成する
 
-2 つのレコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされるレコードフィールドを作成できます。
-
-Workfront Planning レコード・タイプの接続の詳細は、[ レコード・タイプの接続 ](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
-
-<!--## Create fields by importing record types using an Excel or CSV file
-
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
-
-## レコードタイプを作成してフィールドを作成する
-
-レコードタイプを作成すると、新しいレコードタイプに関連付けられた複数のフィールドもデフォルトで作成されます。詳しくは、[レコードタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
-
-## テンプレートからワークスペースを作成することでフィールドを作成
-
-テンプレートからワークスペースを作成する際に、Adobe Workfront Planning はレコードタイプ用のフィールドを作成します。
-
-詳しくは、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
-
-
-
-## レコードタイプを CSV または Excel ファイルから読み込む際のフィールドの作成
-
-CSV または Excel ファイルを使用してレコードタイプを読み込む際に、フィールドを読み込むことができます。
-
-詳しくは、[リクエストタイプの作成](/help/quicksilver/planning/architecture/create-record-types.md)を参照してください。
-
-## Workfrontから読み込んでフィールドを作成する
-
-既存のWorkfront フィールドのコピーを読み込むことができます。
-
-Workfrontからフィールドを読み込むと、Workfront Planning レコードタイプの各フィールドのコピーが作成されます。
-
-フィールドをコピーした後、フィールドは互いに独立しており、情報を交換しません。
-
-詳しくは、[Workfrontからのフィールドの読み込み ](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
 
 

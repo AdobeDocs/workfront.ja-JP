@@ -7,9 +7,9 @@ description: オブジェクトの「更新」セクションには、オブジ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
-source-git-commit: de42974a9a5c4c346ef3ae1cce09968befd1381c
+source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
 workflow-type: tm+mt
-source-wordcount: '1196'
+source-wordcount: '1195'
 ht-degree: 65%
 
 ---
@@ -322,7 +322,7 @@ The following objects don't record system updates:
 
    * ドキュメントの追加、削除、およびその他のドキュメントの更新
    * 時間の追加、削除、代理の追加、およびその他の時間エントリの更新
-   * メモ、カスタムフィールドの更新
+   * カスタムフィールドの更新
    * ユーザープロファイルの更新（ユーザーのアバター、携帯電話番号、「詳細を確認」フィールド、タイトルの更新）
    * ユーザーの追加、削除、アクセス レベルの変更、組み込みユーザーフィールドの変更
    * タスクおよびプロジェクトからの財務情報。
