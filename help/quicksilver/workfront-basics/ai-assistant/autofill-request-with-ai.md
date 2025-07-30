@@ -5,9 +5,9 @@ description: AI を使用して、リクエストフィールドに自動入力�
 author: Becky
 feature: Get Started with Workfront
 exl-id: d053e604-5a28-4fd3-8f89-4467b6e46f02
-source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
+source-git-commit: b0454d5fe3d866b30513cdea67d22c06c5efbfb3
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '937'
 ht-degree: 3%
 
 ---
@@ -170,6 +170,5 @@ AI は、リクエストフィールドの自動入力に役立ちます。 以�
 期待した提案が得られない場合は、次のいずれかが原因である可能性があります。
 
 * 以前のリクエストのフィールド値を提案するには、システムに 1 か月以上のリクエストデータが必要です。
-* リクエストデータの項目は、別のリクエストで提案されるまでに、24 時間以上システムに存在している必要があります。
 * 提案を取り込むドキュメントをアップロードする際に、ドキュメントのアップロードガードレールに従っていない可能性があります。 詳しくは、この記事の [ ドキュメントアップロードガードレール ](#document-upload-guardrails) を参照してください。
 
