@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
-source-git-commit: d710c8bd9854d4d92945e034e708d06410d0779b
+source-git-commit: d890d467dfdade676a5c93f061a5cbeda53556b6
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1609'
 ht-degree: 88%
 
 ---
@@ -74,9 +74,7 @@ ht-degree: 88%
 >
 >一部の Workfront 統合は、静的 IP アドレスで設定できないため、許可リストが有効な場合は機能しません。次の統合を使用するには、許可リストを無効にする必要があります。
 >
->* Google WorkspaceのWorkfront
 >* Workfront for Outlook
->* Workfront for Salesforce
 
 * [クラスター 1、2、3、5、7、8、9 に対して許可する IP アドレス](#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9)
 * [クラスター 4 に許可する IP アドレス](#ip-addresses-to-allow-for-cluster-4)
