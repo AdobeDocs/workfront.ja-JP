@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 3563d5e7136d8bd70504a0b7762c4be06e5a9c56
+source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 83%
+source-wordcount: '937'
+ht-degree: 85%
 
 ---
 
@@ -183,5 +183,5 @@ ht-degree: 83%
 1. 編集するキュートピックを含むプロジェクトまたはテンプレートに移動します。
 1. 左側のパネルで **キュートピック** をクリックします。
 1. 実稼動環境で、編集するキュートピックを選択します。 開いた詳細ページで、「**キュートピックを編集**」をクリックします。
-1. <span class="preview"> プレビュー環境で、編集するキュートピックを選択し、編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。</span>
+   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
 
