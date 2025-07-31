@@ -6,15 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '5201'
+source-wordcount: '5244'
 ht-degree: 44%
 
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ja ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -358,7 +358,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >数値フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに数値として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**数値**&#x200B;フィールドタイプを選択します。
@@ -388,7 +388,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >割合フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページにパーセンテージとして表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
@@ -428,7 +428,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >通貨フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**通貨**&#x200B;フィールドタイプを選択します。
 
@@ -482,8 +482,6 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. 選択した式をクリックすると、定義が表示され、書式が表示されます。
 
-   <!--update screen shot for Maximize button-->
-
    ![ 数式の説明 ](assets/description-of-formula-expression.png)
 
    サポートされている式について詳しくは、[ 式フィールドの概要 ](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
@@ -508,11 +506,10 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
    >![ 式の例プロジェクト予算の 4 つのフィールドが削除されました ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
-   <!--
-    1. <span class="preview">(Optional) Click **Maximize** to open the Formula box in a larger area. </span>
-           <span class="preview">The Formula box opens in a larger window. </span>
-    1. <span class="preview">(Optional and conditional) If you opened the Formula box in a larger area,click **Minimize** to return to the original formula field box.</span> 
-    -->
+1. （省略可能） [**最大化**] をクリックすると、[ 数式 ] ボックスが大きな領域で開きます。
+
+   [ 数式 ] ボックスが大きなウィンドウで開きます。
+1. （省略可能および条件付き） [ 数式 ] ボックスを大きな領域で開いた場合は、[**最小化**] をクリックすると、元の [ 数式 ] フィールド ボックスに戻ります。
 
 1. 「**フォーマット**」フィールドで、式タイプ・フィールドに表示される結果のフォーマットを次の中から選択します。
 

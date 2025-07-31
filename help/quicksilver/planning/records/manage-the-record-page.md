@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '2133'
+source-wordcount: '2241'
 ht-degree: 7%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 7%
 
 # レコードページレイアウトの管理
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> このページでハイライト表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -264,11 +264,16 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 * レコード タイプのテーブル ビューからレコード タイプにレコード タイプまたはオブジェクト タイプを接続した後に、[ 接続されたレコード ] ページをレコードに追加できます。
 
-* レコードのプレビュー領域に [ 接続済みレコード ] ページを追加することはできません。<!--take this out when we release connected record pages to the record preview area-->
+* 実稼動環境では、接続されたレコードページをレコードのプレビュー領域に追加することはできません。
+
+  <span class="preview"> プレビュー環境で、レコードのプレビュー領域に「接続されたレコード」ページを追加できます。</span>
 
 * 接続されたレコード・ページには、接続されたオブジェクトまたは 1 つのオブジェクトまたはレコード・タイプのレコードのみがテーブル・ビューに表示されます。 テーブルビューでは、そのタイプのすべてのレコードがページに表示されるわけではありません。
 
-* レコードに [ 接続済みレコード ] ページを追加すると、レコードのプレビュー領域に [ ページ ] タブが表示されますが、空白になります。 接続されたレコードのテーブル表示を確認するには、完全ページに移動する必要があります。 &lt;! – これは、プレビューエリアへの接続されたページのリリースと共に変更されます – チェックして免責事項を確認します – >
+* 使用する環境によっては、次の点に注意してください。
+
+   * 実稼動環境では、接続済みレコード ページをレコードに追加すると、レコードのプレビュー領域に「ページ」タブが表示されますが、空です。 接続されたレコードのテーブル表示を確認するには、完全ページに移動する必要があります。
+   * <span class="preview"> プレビュー環境では、接続されたレコード ページが、レコードのプレビュー領域と別のブラウザータブの両方で表示されます。</span>
 
 * 以下の接続されたレコードまたはオブジェクト タイプに対して、接続されたレコード ページを追加できます。
 
@@ -281,18 +286,11 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
 接続レコード ページを追加するには：
 
-<!--replace the first 2 steps with these steps when we release connected record page to the record preview area, if this goes both to Preview and Prod: 
+1. レコードの名前をクリックして開きます。
+1. 次のいずれかの領域で **ページを追加** をクリックします。
 
-1. Click the name of the record to open it. 
-1. Click **Add page** from one of the following areas: 
-
-   * The record's preview window
-   * The record's details page, after clicking the **Open in new tab** icon ![Open details in a new tab icon](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview page.  
-
--->
-
-1. レコードページビューで、レコード名をクリックして開き、プレビューページの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックします。
-1. **ページを追加** をクリックします。
+   * <span class="preview"> レコードのプレビューウィンドウ </span>
+   * レコードの詳細ページ。プレビューページの右上隅にある **新しいタブで開く** アイコン ![ 新しいタブで詳細を開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックします。
 
    **ページを作成** ボックスが開きます。
 
@@ -306,8 +304,6 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 接続されたレコードのすべてのフィールドは、接続されたレコードのタブのテーブル表示に表示されます。
 
    接続されたレコードテーブルの最初の 5 つのフィールドは、デフォルトで表示されます。 デフォルトでは、参照フィールドは表示されません。
-
-   <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
    ![ キャンペーンの詳細のオーディエンスに接続されたテーブル表示 ](assets/audience-connected-table-view-under-campaign-details-page.png)
 

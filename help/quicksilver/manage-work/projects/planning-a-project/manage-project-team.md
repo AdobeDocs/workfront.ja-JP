@@ -7,25 +7,24 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: d77da0569389104172fc759c53a9eb00acec4f65
+source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
 workflow-type: tm+mt
-source-wordcount: '1181'
-ht-degree: 26%
+source-wordcount: '1280'
+ht-degree: 24%
 
 ---
 
 # プロジェクトチームの管理
 
-<!--
-<div class="preview"> 
+<!--take preview and production references out at production - August 7-->
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+<div class="preview">
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-</div> 
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
--->
+</div>
 
 プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。詳しくは、[プロジェクトチームの概要](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
 
@@ -243,7 +242,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    リストで 1 人または複数のユーザーを選択し、「**更新**」をクリックします。
 
-   <!--update screen shot for unshim-->
+   <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
    ![ テンプレートの「ユーザーに更新を送信」ボックス ](assets/send-update-to-user-on-template-box.png)
 
@@ -251,20 +250,23 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 次の操作を実行します。
 
-   * 選択したユーザーの更新を追加します。
-   * 人物アイコンをクリックして、同じ更新を受け取る追加のユーザーをタグ付けします。
-   * ロックアイコンをクリックして、会社内のユーザーに対して更新を非公開にします。
-   * 「**送信**」をクリックします。
+   * 実稼動環境では、次の操作を行います。
 
-   <!--replace list above with:
+      * 選択したユーザーの更新を追加します。
+      * 人物アイコンをクリックして、同じ更新を受け取る追加のユーザーをタグ付けします。
+      * ロックアイコンをクリックして、会社内のユーザーに対して更新を非公開にします。
+      * 「**送信**」をクリックします。
+
+   * <span class="preview"> プレビュー環境で、次の操作を行います。</span>
+
    <div class="preview">
 
-   * Add an update for the selected users.
-   * Click **Tag people** to tag additional users to receive the same update. 
-   * Select the **Private to my company** option to to make the update private to the users in your company. 
-   * Click **Send**. 
+   * 選択したユーザーの更新を追加します。
+   * **ユーザーをタグ付け** をクリックして、同じ更新を受信する追加のユーザーをタグ付けします。
+   * 「**会社に非公開**」オプションを選択して、会社内のユーザーに対して更新を非公開にします。
+   * 「**送信**」をクリックします。
+
    </div>
-   -->
 
    更新内容は、タグ付けされた各ユーザーのプロファイルの「**更新**」セクションに追加されます。
 
