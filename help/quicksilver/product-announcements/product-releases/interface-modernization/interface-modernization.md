@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d3a5d0c94df449a23e2b36d3e0f6fb816d306ce6
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '5961'
+source-wordcount: '6162'
 ht-degree: 2%
 
 ---
@@ -60,6 +60,50 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 
 ## プロジェクト
 
+## テンプレートの「キューの詳細」セクションの新しいルックアンドフィール
+
+**プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 8 月 7 日（PT）**
+
+テンプレートの「キューの詳細」セクションのルックアンドフィールを更新しました。 キューの詳細セクションのルックアンドフィールが、Workfrontの他の領域と一致するようになりました。
+
+詳しくは、[リクエストキューの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
+
+<!--## Interface updates when bulk editing templates
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of the Edit templates box when editing templates in bulk from a list of templates. The organization of information on the Edit templates box now matches the single-template edit box.
+
+For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
+
+## テンプレートの「更新内容をユーザーに送信」ボックスのインターフェイスの更新
+
+**プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 8 月 7 日（PT）**
+
+テンプレートの「人物」タブからアクセスする際の、「ユーザーに更新内容を送信」ボックスのルックアンドフィールを更新しました。 1 人または複数のユーザーに更新を送信する場合、「更新をユーザーに送信」ボックスがWorkfrontの他の領域と一致するようになりました。
+
+詳しくは、[ プロジェクトチームの管理 ](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md) を参照してください。
+
+<!--## Updated experience when editing a Queue Topic in a project or template
+
+**Preview release: July 31, 2025; Production release: August 7, 2025**
+
+We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+
+A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+
+For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+
+## 請求記録のインターフェイス更新
+
+**プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 8 月 7 日（PT）**
+
+請求記録の請求可能な時間、請求可能な費用、固定収益ページのルックアンドフィールを、アプリケーションの他の領域と一致するように更新しました。 新しい請求可能な時間、請求可能な費用、および固定収益を追加するためのダイアログボックスも更新されました。
+
+これらの変更を表示するには、プロジェクト /請求記録/請求記録を選択/請求可能な時間、請求可能な費用、または固定収益/新しい請求可能な時間、請求可能な費用、または固定収益を追加します。
+
+詳しくは、[ 請求レコードの作成 ](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md) を参照してください。
+
 ## 「MS Project ファイルをインポート」ボックスのインタフェースの更新
 
 **プレビューリリース：2025 年 7 月 24 日（PT）、実稼動リリース：発表予定**
@@ -84,7 +128,7 @@ MS Project からプロジェクトを読み込む際の「MS プロジェクト
 
 テンプレートで編集する際の、ルーティングルールのルックアンドフィールを更新しました。 ルーティングルールの編集ページが、Workfrontの他の領域のデザインと一致するようになりました。
 
-ルーティングルールリストに小規模な機能変更が適用されました。 ルーティング規則を編集するには、リストからルーティング規則を選択し、「編集」アイコンをクリックします。
+ルーティング規則を編集するには、リストからルーティング規則を選択し、「編集」アイコンをクリックします。
 
 詳しくは、[ルーティングルールの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)を参照してください。
 
@@ -98,7 +142,7 @@ MS Project からプロジェクトを読み込む際の「MS プロジェクト
 * トピックグループ
 * ルーティングルール
 
-リストにいくつかの機能が変更されました。 これらのリストの項目を編集または削除するには、項目を選択して適切なアイコンをクリックします。
+これらのリストの項目を編集または削除するには、項目を選択して適切なアイコンをクリックします。
 
 詳しくは、を参照してください
 
@@ -398,6 +442,11 @@ Workfrontの他の領域のデザインと一致するように、「テンプ�
 ### プログラムやポートフォリオにオブジェクトを追加するときに更新されたルックアンドフィール
 
 **プレビューリリース：2025 年 5 月 22 日（PT）、実稼動リリース：2025 年 5 月 29 日（PT）**
+
+>[!NOTE]
+>
+>プレビューおよび実稼動から一時的に削除
+
 
 以下を行う際の、「追加」ボックスのインターフェイスを更新しました。
 

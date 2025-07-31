@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 2ca2361ee96c3940f1f4073274386262f76725ff
+source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
 workflow-type: tm+mt
-source-wordcount: '887'
-ht-degree: 29%
+source-wordcount: '1190'
+ht-degree: 23%
 
 ---
 
@@ -38,9 +38,30 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ## Adobe Workfront の機能強化
 
-* [ ドキュメントとプルーフの機能強化 ](#document-and-proofing-enhancements)
-  <!--* [Resource Management enhancements](#resource-management-enhancements)-->
+* [管理者機能の強化](#administrator-enhancements)
+* [ドキュメントとプルーフの機能強化](#document-and-proofing-enhancements)
+<!--* [Home enhancements](#home-enhancements)
+* [Requests enhancements](#requests-enhancements)-->
+* [リソース管理の強化](#resource-management-enhancements)
 * [その他の機能強化](#other-enhancements)
+
+### 管理者機能の強化
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> 複数の値オプションを外部 API からカスタムフォームに追加する </a><p></p>
+            <p>新しいフィールドタイプ「複数選択外部検索」がカスタムフォームデザイナーで使用できるようになりました。 外部システムにデータを保存している場合、このフィールドタイプを使用すると、外部 API からオプションを読み込み、カスタムフォーム内の他のフィールド値に基づいてフィルタリングできます。 これは、単一選択の外部検索と同じです。</p>
+            <p>フォームがオブジェクトに追加されると、API から返された値がドロップダウンフィールドに表示され、ユーザーは複数の値を選択できます。</p>
+        </td>
+        <td>2025年7月31日（PT）</td>
+        <td>2025年8月14日（PT）</td>
+        <td>2025年10月16日（PT）</td>
+    </tr>     
+  </tbody>
+</table>
+
 
 ### ドキュメントとプルーフの機能強化
 
@@ -65,24 +86,77 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-
-
-<!--### Resource Management enhancements
+<!--### Home enhancements
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}">Role assignments display in the Workload Balancer </a><p></p>
-            <p>Resource managers can now review job role assignments in the Workload Balancer. The assignments are displayed in the Unassigned Work area, under the tasks or issues the roles are assigned to. Only work items assigned to users are displayed in the Assigned Work area. </p>
-            <p>A new Workload Balancer setting, Show Role Assignments, determines whether role assignments are displayed. The setting is enabled by default.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-home.md" class="MCXref xref" xrefformat="{para}">Updates to the My Requests widget in Home</a><p></p>
+            <p>To create a more seamless experience between Workfront and Workfront Planning, we've redesigned the My Requests widget in Home. The new widget features the following changes:
+            <ul>
+                <li>Improved layout and organization of request information</li>
+                <li>Enhanced filtering and sorting options</li>
+                <li>Integration with Workfront Planning for better visibility into resource allocation</li>
+            </ul>
+            </p>
         </td>
-        <td>July 24, 2025</td>
+        <td>July 31, 2025</td>
+        <td>August 14, 2025</td>
+        <td>October 16, 2025</td>
+    </tr>     
+  </tbody>
+</table> 
+
+### Requests enhancements
+
+<table style="table-layout:auto">
+  <tbody>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}">Updates to Requesting experience</a><p></p>
+            <p>To create a better user experience when making requests in Workfront and Workfront Planning, we've updated the requesting experience. Now you can:
+            <ul>
+                <li>View Workfront and Workfront Planning requests in a single list.</li>
+                <li>Filter submitted requests based on criteria you specify.</li>
+                <li>Search for and select Workfront request queues and Workfront Planning forms in a consolidated experience.</li>
+                <li>Hide and reorder columns in the submitted requests list.</li>
+            </ul>
+            </p>
+        </td>
+        <td>July 31, 2025</td>
         <td>August 14, 2025</td>
         <td>October 16, 2025</td>
     </tr>     
   </tbody>
 </table> -->
+
+### リソース管理の強化
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}"> ワークロードバランサーをユーザープロファイルで使用できるようになりました </a><p></p>
+            <p>すべてのユーザーが、アクセスレベルに関係なく、自分のプロファイルからワークロードバランサーで自分の需要と容量のデータを表示できるようになりました。 Workfront ユーザープロファイルにアクセスすると、ワークロードバランサーが左側のナビゲーションパネルに表示されます。</p>
+            <p>ユーザーのワークロードバランサーデータは読み取り専用です。 作業の割り当て、作業の割り当て解除、割り当ての調整をユーザーレベルで行うことはできません。</p>
+        </td>
+        <td>2025年7月31日（PT）</td>
+        <td>2025年8月14日（PT）</td>
+        <td>2025年10月16日（PT）</td>
+    </tr> 
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md" class="MCXref xref" xrefformat="{para}"> 役割の割り当ては、ワークロードバランサーに表示されます </a><p></p>
+            <p>リソース管理者は、ワークロードバランサーで担当業務の割り当てを確認できるようになりました。 割り当ては、役割が割り当てられているタスクまたはイシューの下の「未割り当ての作業」エリアに表示されます。 ユーザーに割り当てられた作業項目のみが、割り当てられた作業エリアに表示されます。 </p>
+            <p>新しいワークロードバランサー設定である「役割の割り当てを表示」で、役割の割り当てを表示するかどうかを決定します。 この設定は、デフォルトで有効になっています。</p>
+        </td>
+        <td>2025年7月31日（PT）</td>
+        <td>2025年8月14日（PT）</td>
+        <td>2025年10月16日（PT）</td>
+    </tr>     
+  </tbody>
+</table>
 
 ### その他の機能強化
 
@@ -133,7 +207,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
@@ -144,6 +218,18 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * シナリオプランナー
 * プルーフ
 * Goals
+
+## デスクトッププルーフビューアのアップデート
+
+### バージョン 2.1.52
+
+**すべてのお客様向けの実稼動リリース：2025 年 7 月 31 日**
+
+デスクトッププルーフビューアがバージョン 2.1.52 に更新され、バグ修正が取り組まれました。
+
+2.1.51 の更新には、内部ツールの更新が含まれていましたが、エンドユーザーの機能には影響しませんでした。
+
+このアップデートは、Macと Windows の両方に対応しています。
 
 ## お知らせ
 
@@ -170,7 +256,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 

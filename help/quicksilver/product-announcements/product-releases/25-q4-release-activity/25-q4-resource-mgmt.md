@@ -4,12 +4,11 @@ description: 2025 年第 4 四半期のリソース管理の強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 610066cc1b5703d048e867767474fb5335a2b0d5
+exl-id: c8c03cb5-0468-4c2b-b69e-70e4c1354514
+source-git-commit: 0dfeebeef4369a67072368eb4034e105818b99a5
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 17%
+source-wordcount: '311'
+ht-degree: 14%
 
 ---
 
@@ -19,11 +18,25 @@ ht-degree: 17%
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
 
+## ワークロードバランサーをユーザープロファイルで使用できるようになりました
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 7 月 31 日（PT）
+>* 実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+
+すべてのユーザーが、アクセスレベルに関係なく、自分のプロファイルからワークロードバランサーで自分の需要と容量のデータを表示できるようになりました。 Workfront ユーザープロファイルにアクセスすると、ワークロードバランサーが左側のナビゲーションパネルに表示されます。
+
+ユーザーのワークロードバランサーデータは読み取り専用です。 作業の割り当て、作業の割り当て解除、割り当ての調整をユーザーレベルで行うことはできません。
+
+詳しくは、[ ワークロードバランサーの場所を見つける ](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md) を参照してください。
+
 ## 役割の割り当ては、ワークロードバランサーに表示されます
 
 >[!NOTE]
 >
->* プレビュー：2025 年 7 月 24 日（PT）
+>* プレビュー：2025 年 7 月 31 日（PT）
 >* 実稼動迅速リリース：2025 年 8 月 14 日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
