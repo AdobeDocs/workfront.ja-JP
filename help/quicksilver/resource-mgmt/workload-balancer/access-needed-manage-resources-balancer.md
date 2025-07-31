@@ -6,14 +6,16 @@ description: 適切なアクセス権または権限がなければ、ワーク�
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 78d73d0d7bd0ffc00ae1afed0adb324501e0c310
 workflow-type: tm+mt
-source-wordcount: '462'
-ht-degree: 80%
+source-wordcount: '502'
+ht-degree: 73%
 
 ---
 
 # ワークロードバランサーでリソースを管理するために必要なアクセス
+
+{{preview-fast-release-general}}
 
 適切なアクセス権または権限がなければ、ワークロードバランサーで作業の割り当てを表示または管理できない場合があります。
 
@@ -81,6 +83,8 @@ Workfront のワークロードバランサーの場所について詳しくは�
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+<span class="preview"> すべてのユーザーが、自分のプロファイルでワークロードバランサーを表示するアクセス権を持ちます。 これは、ライセンスやアクセスレベルによる制限ではありません。 ユーザープロファイルのワークロードバランサーは読み取り専用で、割り当てと割り当てを変更することはできません。</span>
 
 ## ワークロードバランサーで割り当てを管理するために必要なアクセス
 

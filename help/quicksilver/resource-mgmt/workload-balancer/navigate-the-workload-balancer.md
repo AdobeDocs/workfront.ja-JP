@@ -6,10 +6,10 @@ description: ワークロードバランサーを使用して、リソースの�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
+source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
 workflow-type: tm+mt
-source-wordcount: '4271'
-ht-degree: 90%
+source-wordcount: '4371'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 ワークロードバランサーは、Adobe Workfront の複数の領域で使用できます。操作方法はすべての領域で同様です。
 
-ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)を参照してください。
+ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)を参照してください。
 
 ## アクセス要件
 
@@ -109,8 +109,8 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 ワークロードバランサーを使用したリソース管理については、次の記事も参照してください。
 
-* [ワークロードバランサーでの作業割り当ての概要](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [ワークロードバランサーでのユーザー割り当ての管理](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [ワークロードバランサーでの作業割り当ての概要](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [ワークロードバランサーでのユーザー割り当ての管理](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## リソース領域での複数のプロジェクトを対象とするワークロードバランサーのナビゲーション
@@ -478,12 +478,37 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    詳しくは、[プロジェクトとイニシアチブ間でのリソース割り当て調整の概要](../../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md)を参照してください。
 
-
    >[!NOTE]
    >
    >組織が Workfront シナリオプランナのライセンスを購入していない場合は、イニシアチブの担当業務情報を表示できません。この場合は、プロジェクトの担当業務に関連付けられている予定時間数のみ表示できます。詳しくは、[シナリオプランナの使用に必要なアクセス権](../../scenario-planner/access-needed-to-use-sp.md)を参照してください。
 
 1. この記事の[複数のプロジェクトを対象とするワークロードバランサーのナビゲーション](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)の節に従って、引き続き、プロジェクトのワークロードバランサーをナビゲートします。
+
+<div class="preview">
+
+### ユーザーのワークロードバランサーへの移動
+
+ワークロードバランサーには、独自のユーザープロファイルでアクセスできます。
+
+{{step1-click-profile-pic}}
+
+1. 左側のパネルで&#x200B;**ワークロードバランサー**&#x200B;をクリックします。
+
+   ユーザーのワークロードバランサーが表示されます。
+
+   ![ ユーザーのワークロードバランサー ](assets/workload-balancer-user.png)
+
+   デフォルトでは、ユーザーのワークロードバランサーには、次の情報が表示されます。
+
+   * **割り当てられた作業**：特定のユーザーに割り当てられたタスクと問題。
+
+   >[!NOTE]
+   >
+   >ユーザープロファイルのワークロードバランサーは読み取り専用で、割り当てと割り当てを変更することはできません。
+
+1. この記事の [ 複数のプロジェクトのワークロードバランサーへの移動 ](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) の節で説明しているように、ユーザーのワークロードバランサーへの移動を続行します。
+
+</div>
 
 <!--old content below - this used to be a one-large-procedure article - outdated, and rewrote it above with several smaller procedures: 
 
