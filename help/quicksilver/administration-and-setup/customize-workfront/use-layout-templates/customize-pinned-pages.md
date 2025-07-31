@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 76797ce2afb6a6a929531f02ed3a3b3f75240602
+source-git-commit: 0e7000597e2347bff0bc626d21aa9a6c9a839c0b
 workflow-type: tm+mt
 source-wordcount: '545'
 ht-degree: 63%
@@ -17,7 +17,7 @@ ht-degree: 63%
 
 # レイアウトテンプレートを使用した固定されたページのカスタマイズ
 
-レイアウトテンプレートでは、Adobe Workfront の上部に、ユーザーに常に利用できるようにしておきたいページをピン留めすることができます。これらのページは、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) （使用可能な場合）からアクセスするページ、ダッシュボードのいずれかです。
+レイアウトテンプレートでは、Adobe Workfront の上部に、ユーザーに常に利用できるようにしておきたいページをピン留めすることができます。これらのページは、メインメニュー ![ メインメニューアイコン ](assets/main-menu-icon.png) またはメインメニュー ![ メインメニューアイコン ](assets/main-menu-icon-left-nav.png) （使用可能な場合）からアクセスするページ、ダッシュボードのいずれかです。
 
 ユーザーが独自に追加したピン留めは、レイアウト テンプレートに追加したピン留めの右側に表示されます。
 
@@ -108,7 +108,7 @@ ht-degree: 63%
      >* Workfront計画について詳しくは、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
 
    * 「**ダッシュボードを追加**」をクリックします
-      * &#x200B;<!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
+      * <!--**Quick link name**-->**カスタム名** フィールドにわかりやすい名前を入力します
       * 「**ダッシュボードを追加**」フィールドでダッシュボードを選択し <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> す
       * 「**追加**」をクリックします。
 

@@ -3,19 +3,21 @@ title: カスタムフォームの作成
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: フォームデザイナーを使用してカスタムフォームをデザインできます。カスタムフォームを様々な Workfront オブジェクトに添付して、これらのオブジェクトに関するデータを取り込むことができます。
+description: フォーム designer を使用してカスタムフォームをデザインできます。カスタムフォームを様々な Workfront オブジェクトに添付して、これらのオブジェクトに関するデータを取り込むことができます。
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: b95d536bc251c2575b105f38691a66bde67502b8
+source-git-commit: 75ac50d23c80aaf1b2100b02780adfe7fd7abb39
 workflow-type: tm+mt
-source-wordcount: '6589'
+source-wordcount: '6606'
 ht-degree: 51%
 
 ---
 
 # カスタムフォームを作成
+
+{{highlighted-preview}}
 
 <!-- Audited: 6/2025 -->
 
@@ -133,7 +135,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 >[!NOTE]
 >
 >これは可能ですが、自分や他のユーザーがWorkfrontでカスタムフォームを使用し始めた後は、この名前を変更しないことをお勧めします。 変更してしまうと、Workfront の他の領域で参照される可能性のあるカスタムフィールドが認識されなくなります。
->&#x200B;>例えば、カスタムフィールドをレポートに追加し、後で名前を変更した場合、Workfront はレポート内のフィールドを認識せず、新しい名前でレポートに再追加しない限り、正しく機能しなくなります。
+>>例えば、カスタムフィールドをレポートに追加し、後で名前を変更した場合、Workfront はレポート内のフィールドを認識せず、新しい名前でレポートに再追加しない限り、正しく機能しなくなります。
 >
 >組み込みのWorkfront フィールドに既に使用されている名前は入力しないことをお勧めします。
 >
@@ -293,7 +295,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 
 カスタムフォームでは、カスタムフォームがオブジェクトに添付される際に、既存のデータを使用して新しいデータを生成する計算済みカスタムフィールドを追加できます。
 
-計算済みフィールドを追加するには、[フォームデザイナーで計算済みフィールドを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
+計算済みフィールドを追加するには、[フォーム designer で計算済みフィールドを追加](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)を参照してください。
 
 ### ラジオボタン、チェックボックスグループ、ドロップダウンの追加
 
@@ -572,7 +574,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 
 ### 外部ルックアップフィールドの追加
 
-外部参照フィールドは、外部 API を呼び出し、ドロップダウンフィールドのオプションとして値を返します。 カスタムフォームが添付されているオブジェクトを操作するユーザーは、ドロップダウンからこれらのオプションを 1 つ以上選択できます。 外部ルックアップフィールドは、リストやレポートでも使用できます。
+外部参照フィールドは、外部 API を呼び出し、ドロップダウンフィールドのオプションとして値を返します。 カスタムフォームが添付されたオブジェクトを操作するユーザーは、外部参照フィールドが単一選択フィールドか複数選択フィールドかに応じて、ドロップダウンからこれらのオプションを 1 つ以上選択できます。 外部検索フィールドは、リストおよびレポートでも使用できます。
 
 外部検索フィールドを使用して同じWorkfront インスタンスまたはパブリック API を呼び出す例については、[ カスタムフォームでの外部検索フィールドの例 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md) を参照してください。
 
@@ -583,7 +585,7 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
 
 外部ルックアップを追加するには、次の手順に従います。
 
-1. 画面左側の **新規フィールド** タブで **外部検索** を見つけて、キャンバス上のセクションにドラッグします。
+1. 画面左側の **新規フィールド** タブで、**外部検索** または <span class="preview">**複数選択外部検索**</span> を見つけて、キャンバスのセクションにドラッグします。
 1. 画面の右側で、カスタムフィールドのオプションを設定します。
 
    <table style="table-layout:auto"> 
@@ -632,12 +634,12 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
       <td role="rowheader">JSON パス</td>
       <td><p>API の JSON パスを入力するか貼り付けます。</p> <p>このオプションを使用すると、API URL から返された JSON からデータを抽出できます。これは、JSON 内の値のうち、ドロップダウンオプションに表示する値を選択する手段として機能します。</p><p>例えば、API URL が次の形式で JSON を返す場合、「$.data[*].name」を使用して、ドロップダウンオプションとして「USA」と「Canada」を選択できます。</br>
       <pre>
-      &lbrace;
- data: &lbrace;
+      {
+ data: {
  { name: "USA"},
  { name: "Canada"}
- &rbrace;
- &rbrace;
+ }
+ }
       </pre>
       </p>
      <p>JSON パスと、正しい JSON パスを記述する方法について詳しくは、<a href="https://jsonpath.com/">https://jsonpath.com/</a> を参照してください。</p></td>
@@ -647,8 +649,8 @@ Adobe Workfrontのフォームデザイナーを使用してカスタムフォ�
       <td><p>「<strong> ヘッダーを追加 </strong>」をクリックし、API での認証に必要なキーと値のペアを入力または貼り付けます。</p><p><strong> メモ：</strong> ヘッダーフィールドは資格情報を保存する安全な場所ではないので、入力および保存内容に注意する必要があります。</p></td>
      </tr>
      <tr> 
-      <td role="rowheader">複数選択ドロップダウン</td>
-      <td><p>ユーザーがドロップダウンで複数の値を選択できるようにするには、このオプションを選択します。</p></td>
+      <td role="rowheader"><span class="preview">複数選択ドロップダウン</span></td>
+      <td><p><span class="preview">ユーザーがドロップダウンで複数の値を選択できるようにするには、このオプションを選択します。</span></p></td>
      </tr>
      </tr>
      <tr> 
@@ -854,7 +856,7 @@ The Workfront Mobile app -->
      </tr> 
      <tr> 
       <td role="rowheader">参照フィールド</td> 
-      <td><p>（必須）Workfront ネイティブフィールドを選択します。<p><p>使用できるのは、フォームのオブジェクト用のネイティブフィールドのみです。例えば、フォームデザイナーの上部にある「オブジェクトタイプ」リストに「プロジェクト」と表示されている場合は、プロジェクトのネイティブフィールドを選択できますが、タスクに固有のフィールドは選択できません。</p></td>
+      <td><p>（必須）Workfront ネイティブフィールドを選択します。<p><p>使用できるのは、フォームのオブジェクト用のネイティブフィールドのみです。例えば、フォーム designer の上部にある「オブジェクトタイプ」リストに「プロジェクト」と表示されている場合は、プロジェクトのネイティブフィールドを選択できますが、タスクに固有のフィールドは選択できません。</p></td>
      </tr>
      <tr>
       <td role="rowheader">フィルターの追加</td>
@@ -1046,7 +1048,7 @@ Planning 接続フィールドを追加する手順は、次のとおりです�
 
    詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください
 
-## フォームデザイナーを使用したフォームの整理とプレビュー
+## フォーム designer を使用したフォームの整理とプレビュー
 
 セクション区切りを使用してカスタムフォームを整理する方法、およびフォームのプレビューを表示する方法について詳しくは、[ フォームデザイナーでのフォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
 
