@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
 workflow-type: tm+mt
-source-wordcount: '6162'
+source-wordcount: '6262'
 ht-degree: 2%
 
 ---
@@ -84,15 +84,15 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 詳しくは、[ プロジェクトチームの管理 ](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md) を参照してください。
 
-<!--## Updated experience when editing a Queue Topic in a project or template
+## プロジェクトまたはテンプレートのキュートピックを編集する際のエクスペリエンスが更新されました
 
-**Preview release: July 31, 2025; Production release: August 7, 2025**
+**プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 7 月 31 日（PT）**
 
-We have updated the look and feel of a Queue Topic when editing it on a template. The Queue Topic editing page now matches the design of other areas of Workfront.
+テンプレートで編集する際の、キュートピックのルックアンドフィールを更新しました。 キュートピックの編集ページが、Workfrontの他の領域のデザインと一致するようになりました。
 
-A small functionality change has been applied to the Routing Rules list. To edit A Queue Topic, select the Queue Topic from the list and click the Edit icon. You are no longer directed to the Queue Topic details page before you can edit.
+ルーティングルールリストに小規模な機能変更が適用されました。 キュートピックを編集するには、リストからキュートピックを選択し、「編集」アイコンをクリックします。 編集する前にキュートピックの詳細ページにリダイレクトされなくなりました。
 
-For more information, see [Create Queue Topics](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).-->
+詳しくは、[キュートピックの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
 
 ## 請求記録のインターフェイス更新
 
