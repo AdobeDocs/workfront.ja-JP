@@ -6,14 +6,16 @@ description: ワークロードバランサーを使用して、リソースの�
 author: Lisa
 feature: Resource Management
 exl-id: 60dabfc5-6a2e-4368-9dac-db48d0307895
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 2d674504274dcbb4a44da80694fac331d3f17d88
 workflow-type: tm+mt
-source-wordcount: '4068'
-ht-degree: 96%
+source-wordcount: '4271'
+ht-degree: 90%
 
 ---
 
 # ワークロードバランサーの操作
+
+{{preview-fast-release-general}}
 
 <!--Audited: 12/2024-->
 
@@ -21,7 +23,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 ワークロードバランサーは、Adobe Workfront の複数の領域で使用できます。操作方法はすべての領域で同様です。
 
-ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)を参照してください。
+ワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer)を参照してください。
 
 ## アクセス要件
 
@@ -38,7 +40,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準</p>
        <p>または</p>
        <p>現在：リソース領域でワークロードバランサーを使用する場合は、計画します。</br>
@@ -62,7 +64,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -80,8 +82,9 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
   >* 担当業務またはチームに割り当てられ、ユーザーにも割り当てられた作業アイテムは、未割り当て作業エリアと割り当てられた作業エリアの割り当てられたユーザーの名前の両方に表示されます。
   >* 作業アイテムがユーザーおよび担当業務に割り当てられ、担当業務がアイテムのプライマリ担当者として選択されている場合、未割り当て作業エリアに表示されます。
   >* 複数のユーザーに割り当てられた作業アイテムは、割り当てられた作業エリアのすべてのユーザーの名前に表示されます。
+  >* <span class="preview"> 「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目の下に表示されます。 詳しくは、この記事の [ ビューのカスタマイズ ](#customize-the-view) の節を参照してください。</span>
 
-  詳しくは、[ワークロードバランサーでの作業割り当ての概要](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)の「ワークロードバランサーの割り当てエリア」を参照してください。
+  詳しくは、[ ワークロードバランサーでの割り当て作業の概要 ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md#assignment-areas-in-the-workload-balancer) の [ ワークロードバランサーの割り当てエリア ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) を参照してください。
 
 * プロジェクトにタスクが一定期間ない場合は、その期間のプロジェクトレベルのバーが空白になります。
 
@@ -106,8 +109,8 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 ワークロードバランサーを使用したリソース管理については、次の記事も参照してください。
 
-* [ワークロードバランサーでの作業割り当ての概要](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
-* [ワークロードバランサーでのユーザー割り当ての管理](https://experienceleague.adobe.com/ja/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
+* [ワークロードバランサーでの作業割り当ての概要](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/assign-work-in-workload-balancer)
+* [ワークロードバランサーでのユーザー割り当ての管理](https://experienceleague.adobe.com/en/docs/workfront/using/manage-resources/the-workload-balancer/manage-user-allocations-workload-balancer)
 
 
 ## リソース領域での複数のプロジェクトを対象とするワークロードバランサーのナビゲーション
@@ -138,6 +141,8 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 未割り当て作業領域には、デフォルトでは作業項目は表示されません。フィルターを使用して、自分に関係のある情報をこの領域に表示することをお勧めします。
 
         フィルターの使用については、[ワークロードバランサーでの情報のフィルタリング](../workload-balancer/filter-information-workload-balancer.md)を参照してください。
+
+      * <span class="preview"> 作業項目の下の役割割り当ては、「役割割り当てを表示」設定を有効にした場合にのみ表示されます。 詳しくは、この記事の [ ビューのカスタマイズ ](#customize-the-view) の節を参照してください。</span>
 
       * 「プロジェクトでグループ化」設定を有効にした場合にのみ、プロジェクトが表示されます。詳しくは、この記事の[表示のカスタマイズ](#customize-the-view)の節を参照してください。
 
@@ -239,6 +244,10 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    右側に設定パネルが表示されます。
 
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![ ワークロードバランサーの設定パネル ](assets/workload-balancer-settings.png)
+
+   実稼動環境のサンプル画像：
    ![設定パネル](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
    以下に表示されているオプションから選択して、ワークロードバランサーで表示する情報を更新し、設定ボックスの右上にある **X アイコン** をクリックしてボックスを閉じます。
@@ -260,6 +269,8 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
      タスクまたはイシューが完了すると、タスクまたはイシューバーの右上隅に緑色のチェックマークアイコンが表示されます。プロジェクトの選択した時間枠のタスクまたはイシューが完了すると、同じアイコンがプロジェクトに表示されます。
    * **残り時間を表示**：これを有効にすると、Workfront には、ユーザーのスケジュールに基づいて、ユーザーが作業できる毎日の時間と、ユーザーの「割り当てられた作業」エリアで割り当てられている時間との差が表示されます。これはデフォルトで無効になっており、割り当てられた時間がデフォルトで表示されます。
+   * <span class="preview">**役割の割り当てを表示**：このオプションを有効にすると、役割の割り当てが、割り当てられた作業項目の下の「未割り当ての作業」エリアに表示されます。 これはデフォルトで有効になっています。</span>
+
    * 「**カラーテーマを選択**」セクションで、プロジェクトとタスクバーに使用する色を選択します。
 
      >[!TIP]
@@ -304,17 +315,18 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
    >* プロジェクトの日次の予定時間数を表示するには、「プロジェクト別のグループ」設定を有効にする必要があります。
    >* ワークロードバランサーを週次で表示すると、表示される時間数は週次の予定時間数になります。
 
-
 1. （オプション）ユーザー行の割り当て済み時間数にカーソルを合わせると、ユーザーのキャパシティと配分がわかります。キャパシティは、ユーザーのスケジュールに応じた空き状況です。
 
    ![割り当て済み時間数の詳細](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. （任意） **割り当てを非表示アイコン**![ 割り当てを表示アイコン ](assets/show-allocations-icon-small.png) をクリックして、タスクとイシューの名前を作業項目のバーに表示します。
-1. タスク名またはイシュー名の右側にある **その他メニュー** アイコン ![ その他アイコン ](assets/more-icon.png) をクリックし、次のいずれかのオプションをクリックします。
+1. タスク、イシュー **または役割** の名前の右側にある ![ その他メニュー ](assets/more-icon.png) アイコン <span class="preview"> その他アイコン </span> をクリックし、次のいずれかのオプションをクリックします。
 
    ![その他のメニュー](assets/more-menu-right-of-task-350x104.png)
 
    * 「**割り当て先:**」をクリックしてから、「**担当者、役割、またはチームの検索**」フィールドに作業アイテムを割り当てるユーザー、役割、チームの名前を入力します。
+
+     「**詳細**」をクリックして、作業項目の「詳細な割り当て」画面にアクセスします。 詳しくは、[詳細な割り当ての作成](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
      次のショートカットを使用して、タスクやイシューを割り当てることもできます。
 
@@ -322,6 +334,10 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
       * Mac の場合：Cmd キーを押しながらタスクまたはイシューバーをクリックします。
 
      ワークロードバランサーでユーザーに作業アイテムを割り当てる方法について詳しくは、[ワークロードバランサーでの作業割り当ての概要](../workload-balancer/assign-work-in-workload-balancer.md)を参照してください。
+
+     >[!NOTE]
+     >
+     ><span class="preview"> 役割の割り当てを表示する設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目にのみ表示されます。 詳細については、この記事の「[ ビューをカスタマイズする ](#customize-the-view)」を参照してください。 役割の割り当てには、「詳細メニュー **に** これを割り当て先 **オプションのみが表示されます**。</span>
 
      >[!TIP]
      >
@@ -397,7 +413,6 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
 1. **全画面表示を中止**&#x200B;アイコン ![全画面表示を中止アイコン](assets/exit-full-screen.png) をクリックして、デフォルトの画面に戻り、ブラウザーのタブ内にワークロードバランサーを表示します。
 
-
 ## チームのワークロードバランサーの操作
 
 チームのワークロードバランサーの操作は、複数のプロジェクトに対するワークロードバランサーの操作方法と似ています。詳しくは、この記事の[複数のプロジェクトに対するワークロードバランサーの操作](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)の節を参照してください。
@@ -412,7 +427,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    チームのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
-   * **未割り当ての作業**&#x200B;エリア：チームまたはチームと担当業務に割り当てられた作業アイテム、ユーザーに割り当てられていない作業アイテム。
+   * **未割り当て作業** エリアで、チームまたはチームと担当業務に割り当てられ、ユーザーに割り当てられていない作業項目。 <span class="preview"> 「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目の下に表示されます。</span>
    * **割り当てられた作業**&#x200B;エリア：ユーザーに割り当てられた作業アイテムは、ユーザー名の下に表示されます。
 
 1. この記事の[リソース領域での複数のプロジェクトを対象とするワークロードバランサーのナビゲーション](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area)の節に従って、引き続き、チームのワークロードバランサーをナビゲートします。
@@ -428,7 +443,7 @@ Adobe Workfront のワークロードバランサーを使用すると、空き�
 
    プロジェクトのワークロードバランサーには、デフォルトで次の情報が表示されます。
 
-   * **未割り当て作業**&#x200B;領域内：プロジェクトの作業項目のうち、役割またはチームに割り当てられ、ユーザーに割り当てられていないもの。
+   * **未割り当ての作業** エリア：役割またはチームに割り当てられ、ユーザーに割り当てられていないプロジェクトの作業項目。 <span class="preview"> 「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目の下に表示されます。</span>
    * **割り当てられた作業**&#x200B;領域内：プロジェクトの作業項目のうち、少なくとも 1 人のユーザーに割り当てられているもの。
 
    フィルターを使用して、自分にとって重要なユーザーのみを表示することをお勧めします。

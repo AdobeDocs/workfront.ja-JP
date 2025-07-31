@@ -7,14 +7,16 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: d93bdaec834f5a66e663c7edc7d9ffa42ffa5918
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 87%
+source-wordcount: '770'
+ht-degree: 81%
 
 ---
 
 # ワークロードバランサーを使用して作業を手動で割り当てる
+
+{{preview-fast-release-general}}
 
 Adobe Workfront ワークロードバランサーを使用すると、作業アイテムを手動でユーザーに割り当てることができます。
 
@@ -71,13 +73,17 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
 
    ワークロードバランサーを使用して、リソース領域、プロジェクト、またはチームレベルで作業をユーザーに割り当てることができます。ワークロードバランサーの Workfront 内の場所について詳しくは、[ワークロードバランサーの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
 
-1. （オプション）**未割り当ての作業**&#x200B;エリアを開き、フィルターを適用してタスクまたはイシューを表示します。
+1. （オプション） **未割り当ての作業** エリアに移動して、フィルターを適用し、タスク、イシュー <span class="preview"> 役割の割り当て </span> を表示します。
 
    または
 
    アイテムを再割り当てする場合は、**割り当てられた作業**&#x200B;エリアに移動し、ユーザーの名前を展開して、そのユーザーに割り当てられている作業アイテムを表示します。
 
-1. 作業項目名の左側にある **その他メニュー**![ その他メニュー ](assets/qs-more-menu.png) をクリックし、**割り当て先** をクリックします。
+   >[!NOTE]
+   >
+   ><span class="preview"> 「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目の下に表示されます。 詳しくは、[ ワークロードバランサーの操作 ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) の [ ビューのカスタマイズ ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) を参照してください。</span>
+
+1. 作業項目名 **または役割の割り当て** の左側にある ![ その他メニュー ](assets/qs-more-menu.png) <span class="preview"> その他メニュー </span> をクリックし、**割り当て先** をクリックします。
 
    ![ 割り当て先 ](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 

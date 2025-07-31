@@ -6,14 +6,16 @@ description: リソースマネージャーは、Adobe Workfront ワークロー
 author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
-source-git-commit: 7f0aac7c8519b1e570e29fedf1492918e8120ad2
+source-git-commit: 6db33763294bc9fa343bb010b318fbcceccfff4c
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 92%
+source-wordcount: '1058'
+ht-degree: 86%
 
 ---
 
 # ワークロードバランサーでの作業割り当ての概要
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 5/2025 -->
 
@@ -144,11 +146,11 @@ Workfront は、次の情報を使用して、ワークロードバランサー�
  </tbody> 
 </table>
 
-&#42;作業アイテムをユーザーと役割に割り当てると、その役割がプライマリ担当者である場合にのみ、未割り当て作業エリアに表示されます。
+&#42; 作業項目がプライマリとロールに割り当てられると、ロールがユーザーの担当者である場合にのみ、「未割り当ての作業」エリアに表示されます。 <span class="preview">**役割の割り当てを表示** 設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目の下に表示されます。</span>
 
 &#42;&#42;作業アイテムがユーザーと別のエンティティに割り当てられると、その作業アイテムは、ユーザーがプライマリ担当者の場合にのみ、割り当てられた作業エリアに表示されます。
 
-ワークロードバランサーの未割り当てエリアと割り当てエリアについて詳しくは、[ワークロードバランサーのナビゲート](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)を参照してください。
+ワークロードバランサーの「未割り当て」作業エリアと「割り当て済み」作業エリア、およびワークロードバランサーの設定について詳しくは、[ ワークロードバランサーの操作 ](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) を参照してください。
 
 ## 担当業務、チーム、ユーザーに対する複数の割り当てに関する考慮事項
 
