@@ -1,20 +1,20 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: ダッシュボードのフィルタリング
+title: キャンバスダッシュボードのフィルタリング
 description: キャンバスダッシュボードの作成後に、フィルターを適用できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 hidefromtoc: true
 hide: true
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '405'
 ht-degree: 19%
 
 ---
 
-# ダッシュボードのフィルタリング
+# キャンバスダッシュボードのフィルタリング
 
 >[!IMPORTANT]
 >

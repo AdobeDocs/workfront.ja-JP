@@ -5,10 +5,10 @@ description: 「要約」機能を使用すると、作業項目とドキュメ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 22%
+source-wordcount: '182'
+ht-degree: 14%
 
 ---
 
@@ -19,7 +19,7 @@ AI アシスタントは、Workfrontでプロジェクト、タスク、イシ�
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,13 +28,11 @@ AI アシスタントは、Workfrontでプロジェクト、タスク、イシ�
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：任意</p>
-       <p>または</p>
        <p>現在：使用できません</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td><p>新規：標準</p>
-       <p>または</p>
        <p>現在：使用できません</p></td>
   </tr> 
  </tbody> 
@@ -42,20 +40,23 @@ AI アシスタントは、Workfrontでプロジェクト、タスク、イシ�
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-
++++
 
 ## 作業項目の検索
 
 1. 画面の右上隅付近にある **AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png) をクリックします。
-1. 次のようなプロンプトを入力します
+1. 次のようなプロンプトを入力します。
 
-   * 期限が今週の自分のタスクを検索
-   * プロジェクト「Spring Campaign」の問題
-   * 現在の状態のプロジェクトを検索
+   * *今週が期限の自分のタスクを検索*
+   * *プロジェクト「Spring Campaign」のイシューは*
+   * *現在のステータスのプロジェクトを検索*
 
-   プロンプトの大きさや複雑さ、検索する必要があるレコードの数によっては、AI アシスタントが情報を見つけるまでに数分かかることがあります。
-1. 応答を AI アシスタント パネルに表示します。
-1. （オプション）作業項目に移動するには、AI アシスタントパネルのリンクをクリックします。
+   >[!NOTE]
+   >
+   > プロンプトの大きさや複雑さ、検索する必要があるレコードの数に応じて、AI アシスタントが情報を見つけるのにしばらく時間がかかることがあります。
+1. 応答を **AI アシスタント** パネルに表示します。
+1. （任意）作業項目に移動するには、**AI アシスタント** パネルのリンクをクリックします。
+
 
 <!--
 

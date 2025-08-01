@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 9420a6a087e0f859c9b2e1a1de1b04a0652ffac2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '13342'
+source-wordcount: '13409'
 ht-degree: 85%
 
 ---
@@ -212,7 +212,6 @@ ht-degree: 85%
          * [21.1 その他の機能強化](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
       * Adobe Workfront Planning リリースアクティビティ{#planning-release-activity}
          * [Adobe Workfront計画リリースアクティビティ ](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
-
            [Adobe Workfront Planning の 2025 年第 4 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q4.md)
          * [Adobe Workfront Planning の 2025 年第 3 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q3.md)
          * [Adobe Workfront Planning の 2025 年第 2 四半期リリースアクティビティ](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
@@ -1506,17 +1505,28 @@ ht-degree: 85%
 * レポート {#reporting}
    * [レポートとダッシュボード：記事インデックス](reports-and-dashboards/reports-and-dashboards-overview.md)
    * キャンバスダッシュボード {#canvas-dashboards}
-      * [キャンバスダッシュボード](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * [キャンバスダッシュボードの概要](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+      * ダッシュボードの作成 {#create-dashboards}
+         * [キャンバスダッシュボードの作成：記事インデックス](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards-article-index.md)
+         * [キャンバスダッシュボードの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md)
       * レポートを追加 {#add-reports}
          * [レポートの追加：記事インデックス](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/add-reports-toc.md)
-         * [キャンバスダッシュボードのレポートタイプの概要](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/report-types-overview.md)
-         * [KPI レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
-         * [グラフレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
-         * [テーブルレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
          * [キャンバスダッシュボードへの既存のレポートの追加](reports-and-dashboards/canvas-dashboards/add-reports/add-existing-report.md)
+         * [キャンバスダッシュボードでの KPI レポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-kpi-report.md)
+         * [キャンバスダッシュボードでのグラフレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-chart-report.md)
+         * [キャンバスダッシュボードでのテーブルレポートの作成](/help/quicksilver/reports-and-dashboards/canvas-dashboards/add-reports/build-table-report.md)
       * キャンバスダッシュボードの管理 {#manage-canvas-dashboards}
-         * [キャンバスダッシュボードの管理](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+         * [キャンバスダッシュボードの管理：記事インデックス](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
          * [キャンバスダッシュボードの共有](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+         * [キャンバスダッシュボードでのレポートの配置](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/arrange-reports-in-dashboard.md)
+         * [キャンバスダッシュボードの名前または説明の変更](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/change-name-or-description-of-dashboard.md)
+         * [キャンバスダッシュボードの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/delete-a-canvas-dashboard.md)
+      * レポートを管理 {#manage-reports}
+         * [レポートの管理：記事インデックス](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/manage-reports-article-index.md)
+         * [キャンバスダッシュボードでのレポートの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-a-report.md)
+         * [キャンバスダッシュボードでのレポートフィルターの編集](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md)
+         * [キャンバスダッシュボードでのレポートの削除](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/delete-a-report.md)
+
    * レポート {#reports}
       * [レポート](reports-and-dashboards/reports/reports-overview.md)
       * レポートの基本 {#report-basics}

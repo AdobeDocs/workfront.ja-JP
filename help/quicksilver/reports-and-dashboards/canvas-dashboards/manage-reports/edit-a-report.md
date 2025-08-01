@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: レポートの編集
+title: キャンバスダッシュボードでのレポートの編集
 description: キャンバスダッシュボードレポートは、作成後に編集できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '444'
 ht-degree: 13%
 
 ---
 
-# レポートの編集
+# キャンバスダッシュボードでのレポートの編集
 
 >[!IMPORTANT]
 >
 >キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
-ダッシュボードにレポートを追加した後、レポートの情報を編集して、ダッシュボードに表示されるデータを変更できます。
+キャンバスダッシュボードにレポートを追加した後、レポートの情報を編集して、ダッシュボードに表示されるデータを変更できます。
 
 レポートに加えられた変更は、そのレポートを含むダッシュボードにアクセスできるすべてのユーザーに影響を与えます。
 

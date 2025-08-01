@@ -1,18 +1,18 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: ダッシュボードの削除
+title: キャンバスダッシュボードの削除
 description: キャンバスダッシュボードに追加したレポートの表示方法を調整できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 29%
+source-wordcount: '198'
+ht-degree: 25%
 
 ---
 
-# ダッシュボードの削除
+# キャンバスダッシュボードの削除
 
 >[!IMPORTANT]
 >

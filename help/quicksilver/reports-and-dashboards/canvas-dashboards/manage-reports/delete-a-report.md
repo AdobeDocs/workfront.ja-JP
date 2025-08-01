@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: レポートの削除
+title: キャンバスダッシュボードでのレポートの削除
 description: キャンバスダッシュボードからレポートを削除できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 20%
+source-wordcount: '235'
+ht-degree: 19%
 
 ---
 
-# レポートの削除
+# キャンバスダッシュボードでのレポートの削除
 
 >[!IMPORTANT]
 >
 >キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
-ダッシュボードを作成し、そのダッシュボードにレポートを追加したら、その特定のダッシュボードに適用されなくなった古いレポートを削除できます。
+キャンバスダッシュボードを作成し、レポートを追加したら、その特定のダッシュボードに適用されなくなった古いレポートを削除できます。
 
 レポートの削除は永続的です。 レポートを削除後に再度追加する必要がある場合は、レポートを再作成する必要があります。
 

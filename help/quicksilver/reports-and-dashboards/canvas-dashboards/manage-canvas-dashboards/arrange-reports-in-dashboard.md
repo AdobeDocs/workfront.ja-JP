@@ -1,24 +1,24 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: ダッシュボードでのレポートの配置
+title: キャンバスダッシュボードでのレポートの配置
 description: キャンバスダッシュボードに追加したレポートの表示方法を調整できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: d22cd176947387ce5f24e4fc91444b7aca698f5d
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 18%
+source-wordcount: '258'
+ht-degree: 17%
 
 ---
 
-# ダッシュボードでのレポートの配置
+# キャンバスダッシュボードでのレポートの配置
 
 >[!IMPORTANT]
 >
 >キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
-レポートをダッシュボードに追加すると、ダッシュボードにレポートウィジェットとして表示されるので、そのデータを一目ですばやく視覚化できます。 複数のレポートを追加したら、ダッシュボードデータをより効率的に表示するために、各ウィジェットのサイズと順序を並べ替えることをお勧めします。
+キャンバスダッシュボードにレポートを追加すると、ダッシュボードにレポートウィジェットとして表示されるので、そのデータを一目ですばやく視覚化できます。 複数のレポートを追加したら、ダッシュボードデータをより効率的に表示するために、各ウィジェットのサイズと順序を並べ替えることをお勧めします。
 
 +++ 展開すると、アクセス要件が表示されます。
 

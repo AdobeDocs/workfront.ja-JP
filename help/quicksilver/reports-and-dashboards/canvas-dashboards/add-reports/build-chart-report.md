@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: グラフレポートの作成
+title: キャンバスダッシュボードでのグラフレポートの作成
 description: データを棒グラフ、列グラフ、折れ線グラフまたは円グラフとして視覚化するグラフレポートは、キャンバスダッシュボードに追加できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 7%
+source-wordcount: '1045'
+ht-degree: 6%
 
 ---
 
-# グラフレポートの作成
+# キャンバスダッシュボードでのグラフレポートの作成
 
 >[!IMPORTANT]
 >

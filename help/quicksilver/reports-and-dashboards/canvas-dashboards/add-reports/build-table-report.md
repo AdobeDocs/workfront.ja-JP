@@ -1,19 +1,19 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: report-types
-title: テーブルレポートの作成
+title: キャンバスダッシュボードでのテーブルレポートの作成
 description: キャンバスダッシュボードにテーブルレポートを追加すると、データをテーブル形式で視覚化できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 14%
+source-wordcount: '444'
+ht-degree: 13%
 
 ---
 
-# テーブルレポートの作成
+# キャンバスダッシュボードでのテーブルレポートの作成
 
 >[!IMPORTANT]
 >
