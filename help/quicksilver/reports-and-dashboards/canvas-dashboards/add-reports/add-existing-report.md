@@ -6,14 +6,18 @@ description: Adobe Workfrontのレポート ツールを使用して作成した
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 981d86fa7d54d9d26c0a2b6142db98d5989cbed2
+source-git-commit: b8f25d9490173f8f23a0ba545486c99202f05a69
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 19%
+source-wordcount: '255'
+ht-degree: 17%
 
 ---
 
 # キャンバスダッシュボードへの既存のレポートの追加
+
+>[!IMPORTANT]
+>
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 Adobe Workfrontのレポート ツールを使用して作成したレポートは、キャンバスダッシュボードに追加できます。 レポートの作成について詳しくは、[ レポートの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) を参照してください。
 
