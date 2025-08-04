@@ -5,10 +5,10 @@ description: ビジネスケースの作成の一環として、一連の目標�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 47%
+source-wordcount: '441'
+ht-degree: 48%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 47%
 1. プロジェクトリストで、ビジネスケースの目標を定義するプロジェクトを選択します。
 1. 左側のパネルで、「ビジネスケース **をクリック** ます。 **ビジネスケース** セクションが表示されます。
 
-   ![ ビジネスケース情報 ](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
 
 1. 「**目標**」セクションで「**目標を編集**」をクリックします。
 
@@ -97,7 +97,7 @@ ht-degree: 47%
    * 低
    * 最低
 
-     ![ 重要度 ](assets/g1-350x76.png)
+     <!--![Importance](assets/g1-350x76.png)-->
 
      >[!NOTE]
      >

@@ -5,10 +5,10 @@ description: リソース計画の一環として、ビジネスケースを構�
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '972'
-ht-degree: 86%
+source-wordcount: '964'
+ht-degree: 87%
 
 ---
 
@@ -127,7 +127,7 @@ ht-degree: 86%
 
    * シナリオプランナーから情報を公開したばかりの場合は、リソース予算計上エリアの「**プロジェクトの予算人件費の計算に使用する時間を選択**」フィールドでシナリオプランナーを選択し、「**選択**」をクリックします。
 
-     ![ リソースプランナーの「選択」ボタンを使用したビジネスケース ](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     <!--![Business case in Resource Planner with Choose button](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
    * プロジェクトの予算リソースに対して、リソースプランナーが以前に選択されていた場合は、**変更**／**シナリオプランナ**／**選択**&#x200B;をクリックします。
 

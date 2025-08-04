@@ -5,7 +5,7 @@ description: プロジェクトリクエストのビジネスケースを完了�
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 88%
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ この記事の機能に対するアクセス要件表示拡張。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,16 +31,16 @@ ht-degree: 88%
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
    <td> 
-   <p>現在：Prime以降</p>
+   <p>現在:プライム以上</p>
    <p>または</p>
-   <p>レガシー：ビジネス以上</p> 
+   <p>レガシー: 法人 以上</p> 
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
    <td> 
-   <p>現在：標準 </p> 
-   <p>レガシー：プラン </p> </td> 
+   <p>現在: 標準 </p> 
+   <p>レガシー:プラン </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -53,7 +53,7 @@ ht-degree: 88%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、 [Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -62,7 +62,7 @@ ht-degree: 88%
 プロジェクトのビジネスケースを承認するときは、次の点を考慮してください。
 
 * ビジネスケースを承認するには、プロジェクトに対する管理権限が必要です。
-* ホームの自分の承認ウィジェットで、ビジネスケースが承認されるのを待っているプロジェクトは表示できません。
+* ホームのマイ承認ウィジェットでは、法人ケースの承認を待っているプロジェクトを表示することはできません。
 * ビジネスケースの承認が必要な個々のプロジェクトに手動で移動し、承認待ちであることを確認する必要があります。プロジェクトのビジネスケースを承認する必要があることを警告する Workfront の通知メカニズムはありません。
 * ビジネスケースの承認を待っているプロジェクトは、プロジェクトレポートを作成するか、プロジェクトに関連付けられているポートフォリオにアクセスすることで見つけることができます。
 
@@ -126,7 +126,7 @@ ht-degree: 88%
 1. 左側のパネルで「**ビジネスケース**」をクリックします。
 1. ビジネスケースの概要エリアで「**承認**」または「**拒否**」をクリックして、ビジネスケースを承認または却下します。
 
-   ![ ビジネスケース ](assets/business-case-summary-with-rp-information--1-.png)
+   &lt;!--![法人ケース](assets/business-case-summary-with-rp-information--1-.png)-->
 
    ビジネスケースが承認されると、プロジェクトステータスが&#x200B;**承認済み**&#x200B;に変更されます。
 

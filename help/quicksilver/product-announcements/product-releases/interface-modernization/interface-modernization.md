@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: db0a8e78454ffb5b85865265a273e21e99022f9f
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '6262'
+source-wordcount: '6319'
 ht-degree: 2%
 
 ---
@@ -59,6 +59,16 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 この変更を表示するには、設定/システム/SSO のユーザーを更新に移動します
 
 ## プロジェクト
+
+## プロジェクト ビジネス ケースのインターフェイス更新
+
+**プレビューリリース：2025 年 8 月 4 日（PT）、実稼動リリース：発表予定**
+
+プロジェクトのビジネスケースのルックアンドフィールを、アプリケーションの他の領域と一致するように更新しました。
+
+この変更を表示するには、プロジェクト / プロジェクトを選択/ ビジネスケースに移動します。
+
+詳しくは、[ プロジェクトのビジネスケースの作成 ](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md) を参照してください。
 
 ## テンプレートの「キューの詳細」セクションの新しいルックアンドフィール
 

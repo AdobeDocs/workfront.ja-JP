@@ -6,9 +6,9 @@ description: ビジネスケースを印刷したり、より凝縮された形�
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '209'
 ht-degree: 62%
 
 ---
@@ -56,9 +56,9 @@ ht-degree: 62%
 1. 左側のパネルの&#x200B;**ビジネスケース**&#x200B;をクリックします。
 1. 右上の **ビジネスケースの概要** 領域で、「**エクスポート**」をクリックします。
 
-   ![ ビジネスケースの概要 ](assets/bc-summary--350x587.png)\
+   &lt;!—![ ビジネス ケースの概要 ](assets/bc-summary--350x587.png)—>\
    PDF   ファイルがコンピューターにダウンロードされます。 ファイルには、ビジネスケースのすべての部分が読みやすい形式で含まれています。
 
-   ![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)
+   <!--![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)-->
 
 1. （任意）PDF ファイルをメールに添付するか、印刷して他のユーザーと共有します。

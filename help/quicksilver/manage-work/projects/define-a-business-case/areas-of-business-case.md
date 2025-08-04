@@ -6,9 +6,9 @@ description: この記事では、プロジェクトのビジネスケースの�
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: b38c98ec79617a78c76510bcb109da2ff83247af
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 43%
 
 ---
@@ -114,7 +114,7 @@ Workfront 管理者はカスタム費用タイプを設定できます。
 
 ビジネスケースでのプロジェクトのリソース予算計上について詳しくは、[ビジネスケースでのリソースの予算計上](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)を参照してください。
 
-![ ビジネスケースに関するリソースの予算計上 ](assets/business-case-sp-selected-with-choose-button-350x121.png)
+<!--![Business case resource budgeting](assets/business-case-sp-selected-with-choose-button-350x121.png)-->
 
 ビジネスケースの「リソース予算計上」セクションを確認する際は、次の点を考慮してください。
 

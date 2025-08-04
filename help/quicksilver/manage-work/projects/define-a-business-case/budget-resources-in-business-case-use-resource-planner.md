@@ -5,10 +5,10 @@ description: リソース計画の一環として、プロジェクトレベル�
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 94%
+source-wordcount: '1229'
+ht-degree: 95%
 
 ---
 
@@ -108,11 +108,11 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
 
    * 「**プロジェクトの予算計上労力コストの計算に使用する時間数を選択**」フィールドでリソースプランナーを選択し、**選択／「リソース予算計上を編集」**&#x200B;をクリックします。
 
-     ![ リソースプランナーにおけるビジネスケース ](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     <!--![Business case in Resource Planner](assets/business-case-rp-selected-with-choose-button-350x120.png)-->
 
    * プロジェクトのリソースを予算計上するためにシナリオプランナーを選択した場合は、**変更**／**リソース予算計上の編集**&#x200B;をクリックします。
 
-     ![ シナリオプランナーのビジネスケース ](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     <!--![Business case in Scenario Planner](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)-->
 
    これは、プロジェクトの予算計上時間数を使用して、プロジェクトの予算計上労力コストを計算します。
 
@@ -138,7 +138,7 @@ Adobe Workfront シナリオプランナーを使用して、ビジネスケー�
 
    リソースプランナーについて詳しくは、[リソースプランナーの概要](../../../resource-mgmt/resource-planning/get-started-resource-planner.md)を参照してください。
 
-   ![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)
+   <!--![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)-->
 
 1. （オプションおよび条件付き）担当業務を展開して、関連付けられているユーザーを表示します。
 
