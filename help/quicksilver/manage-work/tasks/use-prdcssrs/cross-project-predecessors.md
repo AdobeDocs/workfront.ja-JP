@@ -6,10 +6,10 @@ description: プロジェクト間の先行タスクとは、別のプロジェ�
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
-source-git-commit: 3d96d7b7073ad194f291afe370ae813d3482bc9e
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '742'
-ht-degree: 93%
+source-wordcount: '753'
+ht-degree: 92%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Workfront を使用すると、1 つのプロジェクト内の先行タ�
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -49,9 +49,9 @@ Adobe Workfront を使用すると、1 つのプロジェクト内の先行タ�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準 </p> 
-   または
-   <p>現在：プラン </p>
+   <td> <p>標準 </p>
+
+<p>プラン </p>
    </td> 
   </tr> 
   <tr> 
@@ -70,6 +70,11 @@ Adobe Workfront を使用すると、1 つのプロジェクト内の先行タ�
 +++
 
 ## プロジェクト間先行タスクを作成
+
+>[!TIP]
+>
+>テンプレートタスクの先行タスクを作成することは、プロジェクトタスクの先行タスクを作成することと似ていますが、テンプレートタスクのクロステンプレート先行タスクを作成することはできません。
+
 
 1. 後続タスク（依存タスク）に移動します。
 1. 左側のパネルで&#x200B;**先行タスク**&#x200B;をクリックします。

@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '959'
-ht-degree: 66%
+source-wordcount: '1041'
+ht-degree: 59%
 
 ---
 
@@ -48,7 +48,7 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -60,9 +60,9 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront プラン</p> </td> 
-   <td><p>現在：ワーク以上</p> 
-   または
-   <p>新規：標準</p> </td> 
+   <td><p>標準</p> 
+   <p>ワークまたはそれ以上</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定*</td> 
@@ -70,7 +70,7 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>プロジェクトに対して、タスクを追加する機能以上を持つ参加権限</p> <p>タスクを作成すると、タスクに対する「権限を管理」が自動的に付与される</p> <p> タスク権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">タスクを共有</a>を参照してください。 </p> <p>追加の権限の申請については、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトの利用申請</a>を参照してください。</p> </td> 
+   <td> <p>プロジェクトに対して、タスクを追加する機能以上を持つ参加権限</p> <p>タスクを作成すると、タスクに対する「権限を管理」が自動的に付与される</p> <p> タスク権限について詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">タスクを共有</a>を参照してください。 </p> <p>追加の権限のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref"> オブジェクトへのアクセスのリクエストを参照してください。</a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,6 +80,10 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
 +++
 
 ## プロジェクトでのタスクの作成
+
+プロジェクトでタスクを作成することは、テンプレートでタスクを作成することと似ています。 テンプレートタスクをテンプレートに追加する場合は、以下に説明する手順に従います。
+
+プロジェクトにタスクを作成するには：
 
 1. タスクを作成するプロジェクトに移動します。
 1. 左側のパネルの「**タスク**」をクリックします。
@@ -99,7 +103,7 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
-1. （条件付き）「**新規タスク**」をクリックした場合、次の操作を実行します。
+1. （条件付き） **新規タスク** をクリックした場合、次の操作を行います。
 
    1. タスクをすばやく作成する場合は、「**新規タスク**」ボックス内の限定されたフィールドリストのいずれかのフィールドを指定し、「**タスクを作成**」をクリックします。
 
@@ -113,7 +117,6 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
 
       ![](assets/create-task-larger-box-nwe-350x244.png)
 
-       
 
       >[!NOTE]
       >
@@ -162,13 +165,15 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
 
          これにより、新しいタスクが子タスク、または前のタスクのサブタスクになります。
 
-         子タスクの詳細については、「[ サブタスクの作成 ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)」を参照してください。
+         子タスクの詳細については、「サブタスクの作成」の「タスクのサブタスク セクションからサブタスクを作成する [ を参照し ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) ください。
 
       1. （条件付き）「**さらにタスクを追加**」を押した後に「**自動保存**」オプションを無効にした場合は、次の操作を行うことができます。
 
          * いつでも「**元に戻す**」をクリックして最後の変更を元に戻したり、「**キャンセル**」をクリックしてタスクリストに加えたすべての変更を元に戻したりできます。
          * 以前に「**元に戻す**」をクリックした場合は、「**やり直し**」をクリックして、最後にキャンセルした変更を再適用できます。
          * 「**保存**」をクリックすると、タスクリストに変更を保存できます。
+   1. （任意）タスクリストで、「**先行タスク**」セクションをクリックして、タスクに先行タスクを追加します。 詳しくは、[ 先行タスクエリアを使用した先行タスク関係の作成 ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
+   1. （オプション）タスクリストで、「**サブタスク**」セクションをクリックして、子タスクを追加します。 詳しくは、[サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)を参照してください。
 
 ## 個人タスクをプロジェクトに移動してタスクを作成する
 

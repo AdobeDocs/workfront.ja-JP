@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
 workflow-type: tm+mt
-source-wordcount: '4065'
+source-wordcount: '4064'
 ht-degree: 78%
 
 ---
@@ -50,12 +50,13 @@ Workfront にログインできる時間の種類について詳しくは、[時
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：</p>
+   <td> 
    <ul><li> タイムシートのタスク、問題、または一般時間に時間を記録するには Light 以上</li>
    <li>標準からプロジェクトへの時間の記録</li></ul>
 
-<p>現在： 
-   <ul><li>タイムシートの一般的な時間数を記録するには、確認またはそれ以上</li>
+<p>または： </p>
+
+<ul><li>タイムシートの一般的な時間数を記録するには、確認またはそれ以上</li>
    <li>プロジェクト、タスク、またはイシューの時間を記録をするにはワーク以上</li></ul> </td> 
   </tr> 
   <tr> 
