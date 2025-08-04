@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 5b984451d19ed0381c75c4fa19f3eba16804fbf5
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
 source-wordcount: '2666'
 ht-degree: 74%
@@ -77,7 +77,9 @@ ht-degree: 74%
 * ユーザー
 * ワークスペース
 
-イベント登録オブジェクトでサポートされるフィールドのリストについては、[イベント登録リソースフィールド](../../wf-api/api/event-sub-resource-fields.md)を参照してください。
+>[!NOTE]
+>
+>イベント登録オブジェクトでサポートされるフィールドのリストについては、[イベント登録リソースフィールド](../../wf-api/api/event-sub-resource-fields.md)を参照してください。
 
 ## イベント購読認証
 
@@ -810,7 +812,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >指定されたフィルターを含む以下の購読は、タスクの名前にタスクの更新が行われる前の `again` が `oldState` に含まれているメッセージのみを返します。
->&#x200B;>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
+>>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
 
 ```
 {

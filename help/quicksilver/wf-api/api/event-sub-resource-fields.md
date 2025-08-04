@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 54859930-7619-4b93-8dff-29b10e43d6d5
-source-git-commit: 1e8b25a0e6ff5c402bb662ef4b1831056e08c58b
+source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 87%
+source-wordcount: '873'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +24,8 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->一部のオブジェクトは、イベント購読バージョン 2 でのみ使用できます。 これらのオブジェクトには、表で注記が付けられています。
+>* 一部のオブジェクトは、イベント購読バージョン 2 でのみ使用できます。 これらのオブジェクトには、表で注記が付けられています。
+>* このページにリストされるフィールドは、そのフィールドの値が null の場合でも、配信されたイベントに常に存在します。
 
 <table style="table-layout:auto"> 
  <col> 
