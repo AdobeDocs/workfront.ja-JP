@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
 workflow-type: tm+mt
 source-wordcount: '6319'
 ht-degree: 2%
@@ -72,7 +72,7 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 
 ## テンプレートの「キューの詳細」セクションの新しいルックアンドフィール
 
-**プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 8 月 7 日（PT）**
+**プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 8 月 14 日（PT）**
 
 テンプレートの「キューの詳細」セクションのルックアンドフィールを更新しました。 キューの詳細セクションのルックアンドフィールが、Workfrontの他の領域と一致するようになりました。
 
