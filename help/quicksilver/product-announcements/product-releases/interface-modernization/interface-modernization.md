@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
 workflow-type: tm+mt
-source-wordcount: '6584'
+source-wordcount: '6617'
 ht-degree: 2%
 
 ---
@@ -106,13 +106,24 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-### テンプレートの「更新内容をユーザーに送信」ボックスのインターフェイスの更新
+### 複数のオブジェクト上の「更新内容をユーザーに送信」ボックスのインターフェイス更新
 
-**プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年未定**
+**プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 8 月 7 日（PT）**
 
-テンプレートの「人物」タブからアクセスする際の、「ユーザーに更新内容を送信」ボックスのルックアンドフィールを更新しました。 1 人または複数のユーザーに更新を送信する場合、「更新をユーザーに送信」ボックスがWorkfrontの他の領域と一致するようになりました。
+次の領域からアクセスする際の、「ユーザーに更新を送信」ボックスのルックアンドフィールを更新しました。
 
-詳しくは、[ プロジェクトチームの管理 ](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md) を参照してください。
+* テンプレートの「人物」セクション
+* プロジェクトの人物セクション
+* 会社のユーザーリスト
+* 「ユーザー」領域のユーザーリスト
+
+1 人または複数のユーザーに更新を送信する場合、「更新をユーザーに送信」ボックスがWorkfrontの他の領域と一致するようになりました。
+
+詳しくは、次の記事を参照してください。
+
+* [他のユーザーにダイレクトメッセージを送信](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [プロジェクトチームの管理](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md)
+* [会社メンバーシップの管理](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md)
 
 ### プロジェクトまたはテンプレートのキュートピックを編集する際のエクスペリエンスが更新されました
 
