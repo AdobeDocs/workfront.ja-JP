@@ -4,12 +4,12 @@ product-area: reports and dashboards
 navigation-topic: data connect
 title: Workfront Data Connect データディクショナリ
 description: ここでは、Workfront Data Connect のデータの構造と内容について説明します。
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
+source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
 workflow-type: tm+mt
-source-wordcount: '8129'
+source-wordcount: '8114'
 ht-degree: 7%
 
 ---
@@ -54,8 +54,8 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
 
 特定のイベントが発生するタイミングに関する情報を提供する日付オブジェクトが多数あります。
 
-* `DL_LOAD_TIMESTAMP`：この日付は内部参照に使用され、データが現在、イベントまたは毎日の履歴テーブルに読み込まれた日時を反映します。 この日付は、データ分析には使用せず、Workfront Data Lake のベータ段階で削除される予定です。
-* `CALENDAR_DATE`：この日付は、「日別の履歴」テーブルにのみ表示されます。 この表は、`CALENDAR_DATE` で指定された各日付に対して、UTC で 11:59 にどのようなデータが表示されたかを示しています。
+* `DL_LOAD_TIMESTAMP`：この日付は、データの更新が正常に完了した後に更新され、レコードの最新バージョンを提供した更新ジョブが開始された時点のタイムスタンプが含まれます。
+* `CALENDAR_DATE`：この日付は、「日別の履歴」テーブルにのみ表示されます。 この表は、:59 で指定された各日付について、11`CALENDAR_DATE` UTC でのデータの外観に関するレコードを示しています。
 * `BEGIN_EFFECTIVE_TIMESTAMP`：この日付は、イベント履歴テーブルと日別履歴テーブルの両方に存在し、現在の行にあるレコードの値が _to_ 変更されたタイミングで正確にレコードされます。
 * `END_EFFECTIVE_TIMESTAMP`：この日付は、イベント履歴テーブルと日別履歴テーブルの両方に表示され、レコードが現在の行の値から別の行の値に _変更された_ ときにそのレコードが正確に表示されます。 `BEGIN_EFFECTIVE_TIMESTAMP` と `END_EFFECTIVE_TIMESTAMP` のクエリ間でを許可するには、新しい値がない場合でも、この値は null ではありません。 レコードがまだ有効な場合（つまり、値が変更されていない場合）、`END_EFFECTIVE_TIMESTAMP` の値は 2300-01-01 になります。
 
