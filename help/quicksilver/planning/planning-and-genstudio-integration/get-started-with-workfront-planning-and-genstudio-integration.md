@@ -47,7 +47,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 
 * WorkfrontとGenStudio for Performance Marketingは、同じ組織に対して有効にする必要があります。
 
-  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
 
 * 会社に複数のWorkfront インスタンスがある場合、Workfront Planning でGenStudioを使用できません。<!--this will change-->
 
