@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e8178ef6b746057e9f1b3991c1d87c89c08dddd8
+source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
 workflow-type: tm+mt
-source-wordcount: '6617'
+source-wordcount: '6618'
 ht-degree: 2%
 
 ---
@@ -72,11 +72,11 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 
 ## プロジェクト
 
-### 「時間」タブでのプロジェクト、タスクまたはイシューに時間を記録するためのインターフェイスの更新
+### 「時間」セクション内のプロジェクト、タスクまたは問題に時間を記録するためのインターフェイス更新
 
 **プレビューリリース：2025 年 8 月 7 日、実稼動リリース：2025 年 8 月 14 日**
 
-「時間」タブでプロジェクト、タスクまたはイシューの時間を記録する際の「ログ時間」ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
+「時間」セクションでプロジェクト、タスク、またはイシューの時間を記録する際の「ログ時間」ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
 
 詳しくは、[ 時間をログに記録 ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
 
@@ -114,7 +114,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 * テンプレートの「人物」セクション
 * プロジェクトの人物セクション
-* 会社のユーザーリスト
+* 会社の会社社員部門
 * 「ユーザー」領域のユーザーリスト
 
 1 人または複数のユーザーに更新を送信する場合、「更新をユーザーに送信」ボックスがWorkfrontの他の領域と一致するようになりました。
