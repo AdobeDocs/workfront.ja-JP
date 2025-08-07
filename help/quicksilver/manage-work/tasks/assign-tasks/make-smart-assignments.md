@@ -6,24 +6,16 @@ description: スマート割り当てを使用して、作業を完了するの�
 author: Lisa
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '422'
-ht-degree: 82%
+source-wordcount: '403'
+ht-degree: 86%
 
 ---
 
 # スマート割り当ての実行
 
 <!--Audited: 07/2024-->
-
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview"> このページで強調表示されている情報は、プレビュー環境でのみ使用できる機能を示しています </span>。
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 スマート割り当てを使用して、作業の完了に最適なユーザーを特定できます。
 
@@ -90,7 +82,7 @@ ht-degree: 82%
    スマート割り当ては、次のセクションに表示されます <!--, depending on which phase of the algorithm's calculation identified the assignments-->
 
    <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
-   * **ユーザーとチーム**、**担当業務** または <span class="preview">**評価カードの担当業務**</span>:<!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
+   * **ユーザーとチーム** または **担当業務** <!--or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
    ![ タスクリスト内のスマート割り当ての例 ](assets/smart-assignments-task-list.png)
 

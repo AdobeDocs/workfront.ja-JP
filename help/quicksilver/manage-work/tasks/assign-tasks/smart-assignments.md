@@ -7,24 +7,16 @@ description: タスクとイシューの割り当てを管理する場合、ス�
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 73%
+source-wordcount: '554'
+ht-degree: 77%
 
 ---
 
 # スマート割り当ての概要
 
 <!--Audited: 07/2024-->
-
-<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
-
-<span class="preview"> このページで強調表示されている情報は、プレビュー環境でのみ使用できる機能を示しています </span>。
-
-<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 タスクとイシューの割り当てを管理する際に、スマート割り当てを使用して、作業を完了するのに最適なリソースを特定できます。
 
@@ -143,7 +135,7 @@ Workfrontは、イシューに対して計算するのと同じ方法で、タ�
 
 <!--For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. -->
 
-識別された割り当ては、「割り当て」フィールドの **ユーザーとチーム**、**担当業務の割り当て** および <span class="preview">**評価カードの役割**</span> セクションにリストされます。 <span class="preview"> 評価カードについて詳しくは、[ 評価カードの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span> を参照してください。<!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+識別された割り当ては、「割り当て」フィールドの **ユーザーとチーム** および **担当業務**<!--, and <span class="preview">**Rate card roles**</span>--> セクションにリストされます。<!--<span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 <!--
 ### Smart assignments criteria for tasks and issues 

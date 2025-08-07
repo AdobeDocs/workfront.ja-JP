@@ -7,14 +7,16 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
+source-git-commit: a0b635953245cf307b558d343ad234a27c96da94
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 87%
+source-wordcount: '1144'
+ht-degree: 82%
 
 ---
 
 # 高度な割り当てを作成
+
+{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -86,7 +88,10 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    >[!TIP]
    >
-   >複数の担当者が割り当てられている場合は、タスクまたはイシューのリストで直接、高度な割り当てを行うことができます。タスクまたはイシューと同じ行の&#x200B;**割り当て**&#x200B;フィールド内をクリックし、**ユーザーアイコン**&#x200B;をクリックして、高度な割り当てウィンドウを開きます。高度な割り当ての作成を続行するには、手順 5 に進んでください。\
+   >タスクまたは問題リストで直接詳細な割り当てを行うことができます。 タスクまたはイシューと同じ行の **割り当て** フィールド内をクリックし、<span class="preview">**詳細**</span> または **人物アイコン** をクリックして、詳細な割り当てウィンドウを開きます。 高度な割り当ての作成を続行するには、手順 5 に進んでください。
+   ><span class="preview"> プレビュー環境のサンプル画像：</span>
+   >![ 「詳細」または「人物」アイコンをクリックします ](assets/access-aa-from-lists.png)。
+   >実稼動環境のサンプル画像：
    >![ 人物アイコンをクリック ](assets/nwe-advanced-assignments-350x55.png)
 
 1. タスクまたはイシューのヘッダーにある&#x200B;**割り当て**&#x200B;フィールドの「**割り当て先**」をクリックします。
@@ -97,7 +102,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
 1. 「**詳細**」をクリックします。
 
-   ![ 「詳細」をクリック ](assets/assignments-box-in-task-header.png)
+   ![ 「詳細」をクリック ](assets/assignments-from-task-header-0825.png)
 
 1. 「**ユーザー、役割、チームを検索**」フィールドにユーザー、役割、チームの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
