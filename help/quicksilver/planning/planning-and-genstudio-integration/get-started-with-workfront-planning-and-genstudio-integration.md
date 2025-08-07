@@ -4,10 +4,10 @@ description: GenStudio for Performance Marketing Workspace は、会社が両方
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: b366841f3994468624a0c9b07d9de6f2f274cbe0
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 10%
+source-wordcount: '984'
+ht-degree: 9%
 
 ---
 
@@ -27,10 +27,11 @@ recommendations: noDisplay, noCatalog
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
+Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの両方を使用している組織では、多くの場合、キャンペーン、商品、ペルソナなどのマーケティング概念を、GenStudioがデフォルトでサポートしている概念よりも詳細に定義しています。
 
-Adobe GenStudio for Performance MarketingとAdobe Workfront Planning はネイティブで統合されています。 この統合の目的は、ユーザーが同一または類似の情報を更新するために 2 つのアプリケーションを切り替える必要がなくなることです。
+GenStudio for Performance MarketingとWorkfront Planning はネイティブで統合されています。 この統合により、Workfront Planning のユーザーはGenStudioで使用されるキャンペーン、製品、ペルソナ、アクティベーション、チャネルおよびリージョンを管理できるようになります。 また、Workfront Planning から既存のレコードタイプを参照するようにGenStudioを設定して、より接続された一貫性のあるマーケティングワークフローを作成することもできます。
 
-これで、GenStudioまたはWorkfront Planning でキャンペーンを更新または作成し、どちらかのアプリケーションからキャンペーンの作業を続けることができます。
+この統合により、データ入力の重複を回避し、計画とアクティブ化の取り組み間の整合性を維持し、レコードのマーケティングシステムをサポートできます。
 
 GenStudio for Performance Marketing Workspace は、会社が両方の製品を購入すると、Adobe Workfront Planning で使用できるようになります。
 
@@ -106,13 +107,14 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 
 ## 統合要件
 
-* WorkfrontとGenStudio for Performance Marketingは、同じ組織に対して有効にする必要があります。 会社に複数のWorkfront インスタンスがある場合、GenStudio for Performance Marketingと統合できるのは 1 つだけです。
+* WorkfrontとGenStudio for Performance Marketingは、同じ組織に対して有効にする必要があります。
+* 会社に複数のWorkfront インスタンスがある場合、Workfront Planning でGenStudioを使用できません。<!--this will change-->
 
 * Workfront インスタンスは、Identity Management System （IMS）の使用を含む、Adobe統合エクスペリエンスの一部です。
 
   詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
-* Planning と GenStufio の両方を使用するユーザーは、IMS 組織内の 1 つのWorkfront インスタンスにのみ属することができます。
+* Planning とGenStudioの両方を使用するユーザーは、IMS 組織内の 1 つのWorkfrontインスタンスにのみ属できます。
 
 <!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
@@ -121,7 +123,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 
 * Workfront Planning でAdobe GenStudio for Performance Marketing Workspace を表示するには、GenStudioを購入する必要があります。
 
-  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
 
   GenStudioとWorkfrontの統合について詳しくは、[Workfront Planning とGenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 
@@ -140,6 +142,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 * Workfront Planning のGenStudioからレコードタイプを編集することはできません。
 * GenStudioのレコードタイプを他のユーザーと共有することはできません。 Workfront管理者は、自分の計画領域でGenStudio ワークスペースを表示できます。
 * GenStudioと同期されるレコードタイプには、そのレコードタイプがGenStudioから読み込まれていることを示す視覚的なインジケーターが表示されます。
+* Planning のGenStudioワークスペースを表示しているユーザーは、そのレコードタイプを他のユーザーと共有できます。
 
 ### レコード
 
@@ -152,15 +155,25 @@ Workfront Planning でレコードを追加または削除すると、GenStudio�
 
   詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 * Workfront Planning から有効化レコードを作成または削除することはできません。
+* Workfront Planning から表示されている任意のフィールドで、GenStudio Workspace 内のすべてのレコードに関するレコード情報を編集できます。
+
+  詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 ### フィールド
 
 * すべてのレコードフィールドがGenStudioから読み込まれ、フィールド設定を編集することはできません。
 * GenStudioでシステム管理者アクセス権を持っている場合にのみ、Workfront Planning でGenStudio レコードタイプのフィールドを作成できます。
-* Workfront Planning から表示されている任意のフィールドで、GenStudio Workspace 内のすべてのレコードに関するレコード情報を編集できます。
+* Planning でGenStudioレコード・タイプのフィールドを作成できます。 これらのフィールドは、次の領域から表示されます。
+   * 計画ビュー
+   * 計画レコードの詳細ページ
+   * GenStudio レコードの詳細ページ
 
-  詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
-* GenStudio レコードタイプのテーブル表示でフィールドを非表示にすることはできますが、Workfront Planning からフィールドを削除することはできません。
+  >[!TIP]
+  >
+  >Workfront Planning で作成されたフィールドは、GenStudioのリスト表示には表示されません。
+
+* Planning のGenStudioレコードタイプのテーブル表示でフィールドを非表示にすることはできますが、Workfront Planning からフィールドを削除することはできません。
+
 
 <!-- checking: 
 I had this from Iskuhi, so not sure if you CAN create fields in Planning?? - only the newly added fiedsl can be changed or the reference fields. - from this: https://experience.adobe.com/?commentID=6848549f00000091e5f5a16636e381c0#/@adobeinternalworkfront/so:hub-Hub/workfront/project/67649bc00000545810daad1cd1fbb9cc/updates 

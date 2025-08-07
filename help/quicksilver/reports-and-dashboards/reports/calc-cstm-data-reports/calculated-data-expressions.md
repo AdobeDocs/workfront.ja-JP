@@ -4,13 +4,13 @@ product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: 計算済みデータ式の概要
 description: データ式を使用して、Adobe Workfront で計算済みのカスタムデータフィールドを定義できます。計算式は、新しいフィールドを生成するステートメントで Workfront の既存のフィールドを接続します。
-author: Nolan
+author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: fe9d3cfbb50bfda672360b918d971cc77b0b8b0a
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '2463'
-ht-degree: 90%
+source-wordcount: '2551'
+ht-degree: 88%
 
 ---
 
@@ -414,23 +414,8 @@ ht-degree: 90%
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
   </tr>
-  <tr> 
-   <td><strong> ソルタスカレイ </strong> </td> 
-   <td> <p>配列要素を昇順に並べ、最初の要素の型に変換します。</p>
-   <p>式の形式は次のとおりです。</p>
-   <p><code>SORTASCARRAY(array)</code></p>
-   <p>例えば、["-12.6", -13.0] は ["-12.6", "-13"] になります。</p>
-   <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
-  </tr>
-  <tr> 
-   <td><strong>SORTDESCCARRAY</strong> </td> 
-   <td> <p>配列要素を降順で並べ替え、最初の要素のタイプに変換します。</p>
-   <p>式の形式は次のとおりです。</p>
-   <p><code>SORTDESCARRAY(array)</code></p>
-   <p>例えば、["-12.6", -13.0] は ["-13", "-12.6"] になります。</p>
-   <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
-  </tr>
-  <tr>   
+
+<tr>   
    <td><strong>CASE</strong> </td> 
    <td> <p>他の式と共に使用され、インデックス番号に基づいてリストから値を選択します。 </p>
    <p>インデックス番号は、数値（通常は既知の範囲）を返すフィールドまたは関数です。</p> 
@@ -543,10 +528,35 @@ ht-degree: 90%
 <p><code>LOWER(string)</code></p></td> 
   </tr> 
   <tr> 
+   <td><strong> パスカル </strong> </td> 
+   <td> <p>入力文字列を PascalCase に変換します。変換するには、各単語の最初の文字を大文字にし、すべてのスペースを削除します。 </p>
+   <p>式の形式は次のとおりです。</p>
+   <p><code>PASCAL(string) </code></p>
+   <p>例えば、「hello world」は「HelloWorld」になります</p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>REMOVEACCENTS</strong> </td> 
+   <td> <p>入力文字列内のすべてのアクセント付き文字から発音区別符号を削除します。 </p> 
+   <p>式の形式は次のとおりです。</p>
+   <p><code>REMOVEACCENTS(string)</code></p> 
+   <p>例えば、「Héllo wörld with âccénts」は「Hello world with accentes」になります。 </p>
+   </td> 
+  </tr>
+  <tr> 
    <td><strong>REPLACE</strong> </td> 
    <td> <p>string1 にある string2 のすべてのオカレンスを string3 に置き換えます。</p> <p>式の形式は次のとおりです。</p>
 
 <p><code>REPLACE(string1, string2, string3)</code></p> </td> 
+  </tr>
+
+<tr> 
+   <td><strong>REPLACEPATTERN</strong> </td> 
+   <td> <p>指定されたパターンの一致を置換文字列で置き換えます。 </p> 
+   <p>式の形式は次のとおりです。</p>
+   <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
+   <p>例えば、REPLACEPATTERN （"foo123bar", "\d+", "_"）は、文字列「foo_bar」を生成します。 
+   </td> 
   </tr> 
   <tr> 
    <td><strong>RIGHT</strong> </td> 
@@ -560,6 +570,22 @@ ht-degree: 90%
 
 <p><code>SEARCH(findText, withinText, start)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong> ソルタスカレイ </strong> </td> 
+   <td> <p>配列要素を昇順に並べ、最初の要素の型に変換します。</p>
+   <p>式の形式は次のとおりです。</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>例えば、["-12.6", -13.0] は ["-12.6", "-13"] になります。</p>
+   <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCCARRAY</strong> </td> 
+   <td> <p>配列要素を降順で並べ替え、最初の要素のタイプに変換します。</p>
+   <p>式の形式は次のとおりです。</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>例えば、["-12.6", -13.0] は ["-13", "-12.6"] になります。</p>
+   <p>メモ：この式は、Workfront Planning ではサポートされていません。</p></td> 
+  </tr>
   <tr> 
    <td><strong>STRING</strong> </td> 
    <td> <p>この式は、数値を文字列に変換します。形式は次のとおりです。</p>
@@ -603,3 +629,4 @@ ht-degree: 90%
   </tr> 
  </tbody> 
 </table>
+

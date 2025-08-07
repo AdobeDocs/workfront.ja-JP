@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 24%
+source-wordcount: '1183'
+ht-degree: 26%
 
 ---
 
@@ -18,13 +18,15 @@ ht-degree: 24%
 
 <!--take preview and production references out at production - August 7-->
 
-<div class="preview">
+<!--<div class="preview"> 
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
 </div>
+
+-->
 
 プロジェクトチームは、プロジェクトに関連付けられているユーザーで構成されます。詳しくは、[プロジェクトチームの概要](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
 
@@ -57,8 +59,8 @@ ht-degree: 24%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準 </p>
-    <p>現在：プラン </p>
+   <td> <p>標準 </p>
+    <p>プラン </p>
     </td> 
   </tr> 
   <tr> 
@@ -197,7 +199,12 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    リストから 1 人または複数のユーザーを選択し、「**ユーザーに更新を送信**」をクリックします。
 
-   ![ プロジェクトの更新をユーザーに送信 ](assets/send-update-to-user-on-project-box.png)
+   <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
+
+   ![ プロジェクトの「ユーザーに更新を送信」ボックス ](assets/send-update-to-user-on-project-box-2025.png)
+
+   <!--Old UI for projects but the text above the comment box is right and matches the functionality):
+   ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
 
    **ユーザーに更新を送信** ボックスが開きます。
 
@@ -250,23 +257,10 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 次の操作を実行します。
 
-   * 実稼動環境では、次の操作を行います。
-
-      * 選択したユーザーの更新を追加します。
-      * 人物アイコンをクリックして、同じ更新を受け取る追加のユーザーをタグ付けします。
-      * ロックアイコンをクリックして、会社内のユーザーに対して更新を非公開にします。
-      * 「**送信**」をクリックします。
-
-   * <span class="preview"> プレビュー環境で、次の操作を行います。</span>
-
-   <div class="preview">
-
    * 選択したユーザーの更新を追加します。
    * **ユーザーをタグ付け** をクリックして、同じ更新を受信する追加のユーザーをタグ付けします。
    * 「**会社に非公開**」オプションを選択して、会社内のユーザーに対して更新を非公開にします。
    * 「**送信**」をクリックします。
-
-   </div>
 
    更新内容は、タグ付けされた各ユーザーのプロファイルの「**更新**」セクションに追加されます。
 
