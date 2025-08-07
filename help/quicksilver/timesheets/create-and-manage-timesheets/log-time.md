@@ -7,10 +7,10 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '4064'
-ht-degree: 78%
+source-wordcount: '4160'
+ht-degree: 76%
 
 ---
 
@@ -21,16 +21,13 @@ ht-degree: 78%
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
 
-<!--
 <div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.     
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md). 
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 </div>
-
--->
 
 Adobe Workfront の作業アイテムに費やした時間を記録して、その作業アイテムに費やした時間を示すことができます。休暇、病気の時間、会議に費やした時間など、仕事に関係のない時間を記録することもできます。記録した時刻がタイムシートに表示されます。
 
@@ -455,13 +452,13 @@ Workfront の次の領域で時間を記録できます。
 1. 左パネルで「**時間**」をクリックします。
 1. 「**時間を記録**」をクリックします。
 
-   **ログ時間** ボックスが表示されます。
+   <span class="preview"> 「**ログ時間** ボックスが表示されます。</span>
 
-   <!--<div class="preview">
-  
-   ![Log time in the Hours section of a task](assets/log-time-box-in-hours-section-on-task.png)
+   <div class="preview">
 
-   </div>-->
+   ![ タスクの「時間」セクションに時間を記録する ](assets/log-time-box-in-hours-section-on-task.png)
+
+   </div>
 
 1. 次の情報を指定します。
 
@@ -475,7 +472,7 @@ Workfront の次の領域で時間を記録できます。
      時間タイプの設定について詳しくは、[ 時間タイプと空き時間の定義 ](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
 
    * **担当業務**：（条件付き）Workfront 管理者またはグループ管理者が「**手動で担当業務を時間エントリに割り当てます**」設定を有効にしている場合は、ドロップダウンメニューから「**担当業務**」を選択します。オブジェクトに割り当てられたときに指定された役割がデフォルトで表示されます。オブジェクトに対する役割が割り当てられていない場合は、主要役割がデフォルトとして表示されます。この設定について詳しくは、[タイムシートと時間の環境設定の指定](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)を参照してください。
-   * **時間**: プロジェクト、タスク、または問題の時間数を入力します。<!--<span class="preview">In the weekly calendar, enter the number of hours for the project, task, or issue.</span>-->
+   * **時間** または <span class="preview"> 週間カレンダー </span>: プロジェクト、タスク、または問題の時間数を入力します。 <span class="preview"> 週別カレンダーで、プロジェクト、タスク、または問題の時間数を入力します。</span> 週別カレンダーは、実稼動環境の **ログ時間** ボックスの **時間** 領域に表示されます。
    * **メモ**：時間の目的を説明するメモを追加します。 これは、**時間メモ** または **時間の説明** として保存されます。
 
 1. 「**時刻を記録**」をクリックします。

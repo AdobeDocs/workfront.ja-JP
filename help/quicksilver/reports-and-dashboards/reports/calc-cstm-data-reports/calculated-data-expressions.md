@@ -7,7 +7,7 @@ description: データ式を使用して、Adobe Workfront で計算済みのカ
 author: Courtney, Lisa
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 89e15f6d99514e11e43e06487a4477d35a155cb0
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
 source-wordcount: '2551'
 ht-degree: 88%
@@ -374,7 +374,7 @@ ht-degree: 88%
 
 次の式を使用して、テキスト形式の値を表示する、計算されたカスタムフィールドを作成できます。
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto:fixed"> 
  <col> 
  <col> 
  <thead> 
@@ -555,7 +555,7 @@ ht-degree: 88%
    <td> <p>指定されたパターンの一致を置換文字列で置き換えます。 </p> 
    <p>式の形式は次のとおりです。</p>
    <p><code>REPLACEPATTERN (string, pattern, replacement string)</code></p> 
-   <p>例えば、REPLACEPATTERN （"foo123bar", "\d+", "_"）は、文字列「foo_bar」を生成します。 
+   <p>例えば、REPLACEPATTERN （"foo123bar", "\d+", "_"）は、文字列「foo_bar」を生成します。
    </td> 
   </tr> 
   <tr> 

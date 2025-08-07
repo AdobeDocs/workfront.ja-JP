@@ -4,10 +4,10 @@ description: 会社が両方の製品を購入し、GenStudio for Performance Ma
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 19%
+source-wordcount: '684'
+ht-degree: 17%
 
 ---
 
@@ -26,7 +26,7 @@ recommendations: noDisplay, noCatalog
 
 会社が両方の製品を購入し、GenStudio for Performance MarketingのインスタンスがAdobe Workfrontの会社のインスタンスと統合されている場合、Workfront Workspace はGenStudio Planning で使用できます。 Planning からGenStudioワークスペースを表示し、両方のシステムで情報を更新できます。
 
-GenStudio for Performance Marketingの使用方法については、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+GenStudio for Performance Marketingの使用方法については、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
 
 ## アクセス要件
 
@@ -93,6 +93,17 @@ GenStudio for Performance Marketingの使用方法については、[Adobe GenSt
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+## Workfront Planning でのGenStudio Workspace の管理に関する考慮事項
+
+* Workfront Planning でAdobe GenStudio for Performance Marketing Workspace を表示するには、GenStudioを購入する必要があります。
+
+  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+
+  GenStudioとWorkfrontの統合について詳しくは、[Workfront Planning とGenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
+
+* Workfront ユーザーがWorkfront Planning でGenStudio Workspace を表示するには、GenStudioにアクセスできる必要があります。
+
 
 ## Workfront Planning でのGenStudio Workspace の管理
 
