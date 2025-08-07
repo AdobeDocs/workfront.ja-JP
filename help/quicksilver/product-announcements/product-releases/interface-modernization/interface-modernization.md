@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 4ecb9141054c2f927a936f498941cc41108cbe45
+source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
 workflow-type: tm+mt
-source-wordcount: '6319'
+source-wordcount: '6584'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,19 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 ## 管理と設定
 
-## グループ内の定期タイムシート リストのインターフェイス更新
+## 「設定」の「条件」領域に対するインターフェイスの更新
+
+**プレビューリリース：2025 年 8 月 7 日、実稼動リリース：2025 年 8 月 18 日**
+
+条件ページを更新して、Workfrontの他の領域と一致する、より現代的なデザインを追加しました。
+
+インターフェイスの目に見える機能強化として、編集できる条件の横に **編集** ボタンが表示されるようになり、条件の上にカーソルを置いて編集アイコンを見つける必要がなくなりました。
+
+これらの変更を表示するには、設定/プロジェクト環境設定/条件に移動します。
+
+詳しくは、[ カスタム条件の作成または編集 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) を参照してください。
+
+### グループ内の定期タイムシート リストのインターフェイス更新
 
 **プレビューリリース：2025 年 7 月 24 日（PT）、実稼動リリース：2025 年 7 月 28 日（PT）**
 
@@ -32,7 +44,7 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 これらの変更を表示するには、設定/ グループ / グループを選択/ タイムシートプロファイルに移動します。
 
-## 「新規」および「時間タイプを編集」ボックスのインターフェイスの変更
+### 「新規」および「時間タイプを編集」ボックスのインターフェイスの変更
 
 **プレビューリリース：2025 年 7 月 24 日（PT）、実稼動リリース：2025 年 7 月 31 日（PT）**
 
@@ -40,7 +52,7 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 詳しくは、[ 時間タイプの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md) を参照してください。
 
-## 設定の監査ログページに対するインターフェイスの更新
+### 設定の監査ログページに対するインターフェイスの更新
 
 **プレビューリリース：2025 年 7 月 22 日（PT）、実稼動リリース：発表予定**
 
@@ -50,7 +62,7 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 この変更を表示するには、設定/変更トラッキング/監査ログに移動します。
 
-## 設定の SSO ユーザーを更新ページに対するインターフェイスのアップデート
+### 設定の SSO ユーザーを更新ページに対するインターフェイスのアップデート
 
 **プレビューリリース：2025 年 7 月 22 日（PT）、実稼動リリース：2025 年 7 月 28 日（PT）**
 
@@ -60,9 +72,17 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 
 ## プロジェクト
 
-## プロジェクト ビジネス ケースのインターフェイス更新
+### 「時間」タブでのプロジェクト、タスクまたはイシューに時間を記録するためのインターフェイスの更新
 
-**プレビューリリース：2025 年 8 月 4 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：2025 年 8 月 7 日、実稼動リリース：2025 年 8 月 14 日**
+
+「時間」タブでプロジェクト、タスクまたはイシューの時間を記録する際の「ログ時間」ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
+
+詳しくは、[ 時間をログに記録 ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
+
+### プロジェクト ビジネス ケースのインターフェイス更新
+
+**プレビューリリース：2025 年 8 月 4 日（PT）、実稼動リリース：Aufust 18**
 
 プロジェクトのビジネスケースのルックアンドフィールを、アプリケーションの他の領域と一致するように更新しました。
 
@@ -70,7 +90,7 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 
 詳しくは、[ プロジェクトのビジネスケースの作成 ](/help/quicksilver/manage-work/projects/define-a-business-case/create-business-case.md) を参照してください。
 
-## テンプレートの「キューの詳細」セクションの新しいルックアンドフィール
+### テンプレートの「キューの詳細」セクションの新しいルックアンドフィール
 
 **プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 8 月 14 日（PT）**
 
@@ -78,7 +98,7 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 
 詳しくは、[リクエストキューの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md)を参照してください。
 
-<!--## Interface updates when bulk editing templates
+<!--### Interface updates when bulk editing templates
 
 **Preview release: July 31, 2025; Production release: August 7, 2025**
 
@@ -86,15 +106,15 @@ We have updated the look and feel of the Edit templates box when editing templat
 
 For information, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).-->
 
-## テンプレートの「更新内容をユーザーに送信」ボックスのインターフェイスの更新
+### テンプレートの「更新内容をユーザーに送信」ボックスのインターフェイスの更新
 
-**プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 8 月 7 日（PT）**
+**プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年未定**
 
 テンプレートの「人物」タブからアクセスする際の、「ユーザーに更新内容を送信」ボックスのルックアンドフィールを更新しました。 1 人または複数のユーザーに更新を送信する場合、「更新をユーザーに送信」ボックスがWorkfrontの他の領域と一致するようになりました。
 
 詳しくは、[ プロジェクトチームの管理 ](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md) を参照してください。
 
-## プロジェクトまたはテンプレートのキュートピックを編集する際のエクスペリエンスが更新されました
+### プロジェクトまたはテンプレートのキュートピックを編集する際のエクスペリエンスが更新されました
 
 **プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 7 月 31 日（PT）**
 
@@ -104,7 +124,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 詳しくは、[キュートピックの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
 
-## 請求記録のインターフェイス更新
+### 請求記録のインターフェイス更新
 
 **プレビューリリース：2025 年 7 月 31 日（PT）、実稼動リリース：2025 年 8 月 7 日（PT）**
 
@@ -114,7 +134,7 @@ For information, see [Edit project templates](/help/quicksilver/manage-work/proj
 
 詳しくは、[ 請求レコードの作成 ](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md) を参照してください。
 
-## 「MS Project ファイルをインポート」ボックスのインタフェースの更新
+### 「MS Project ファイルをインポート」ボックスのインタフェースの更新
 
 **プレビューリリース：2025 年 7 月 24 日（PT）、実稼動リリース：発表予定**
 
@@ -122,7 +142,7 @@ MS Project からプロジェクトを読み込む際の「MS プロジェクト
 
 この変更を表示するには、プロジェクト/新規プロジェクト/MS プロジェクトを読み込みに移動します。
 
-## プロジェクトまたはテンプレートの「費用を追加」ボックスのインターフェイスの更新
+### プロジェクトまたはテンプレートの「費用を追加」ボックスのインターフェイスの更新
 
 **プレビューリリース：2025 年 7 月 24 日（PT）、実稼動リリース：2025 年 7 月 31 日（PT）**
 
@@ -132,7 +152,15 @@ MS Project からプロジェクトを読み込む際の「MS プロジェクト
 
 ## テンプレート
 
-## テンプレートのルーティングルールを編集するとインターフェイスが変更される
+### テンプレートの先行タスク リストのインターフェイス更新
+
+**プレビューリリース：2025 年 8 月 7 日、実稼動リリース：2025 年 8 月 14 日**
+
+テンプレートの先行タスク リストのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
+
+テンプレートタスクの先行タスクの追加は、プロジェクトタスクの先行タスクの追加と似ています。 詳しくは、[ 先行タスクエリアを使用した先行タスク関係の作成 ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
+
+### テンプレートのルーティングルールを編集するとインターフェイスが変更される
 
 **プレビューリリース：2025 年 7 月 24 日（PT）、実稼動リリース：2025 年 7 月 31 日（PT）**
 
@@ -142,7 +170,7 @@ MS Project からプロジェクトを読み込む際の「MS プロジェクト
 
 詳しくは、[ルーティングルールの作成](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)を参照してください。
 
-## テンプレートのリクエストキュー管理領域に対するインターフェイスの変更
+### テンプレートのリクエストキュー管理領域に対するインターフェイスの変更
 
 **プレビューリリース：2025 年 7 月 24 日（PT）、実稼動リリース：2025 年 7 月 31 日（PT）**
 
@@ -160,6 +188,18 @@ MS Project からプロジェクトを読み込む際の「MS プロジェクト
 * [ トピックグループの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [ ルーティングルールの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+## ユーザー
+
+### ユーザーを読み込みダイアログのインターフェイスの更新
+
+**プレビューリリース：2025 年 8 月 7 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 8 月 14 日（PT）**
+
+スプレッドシートファイルを使用して新しいユーザーをインポートするためのダイアログボックスを、アプリケーションの他の領域と一致するように更新しました。
+
+この変更を表示するには、ユーザー/新規ユーザー/ユーザーをインポートに移動します。
+
+詳しくは、[ ユーザーの読み込み ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/import-users.md) を参照してください。
+
 ## 第 3 四半期に行われたインターフェイスの更新
 
 ### 管理と設定
@@ -168,7 +208,7 @@ MS Project からプロジェクトを読み込む際の「MS プロジェクト
 
 ### レイアウトテンプレート ページのインターフェイスの更新
 
-**プレビューリリース：2025 年 7 月 17 日（PT）、実稼動リリース：2025 年 7 月 24 日（PT）**
+**プレビューリリース：2025 年 7 月 17 日（PT）、実稼動リリース：未定**
 
 レイアウトテンプレート ページが、Workfrontの他の領域と一致する、より現代的なデザインに更新されました。
 

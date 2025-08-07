@@ -1,0 +1,51 @@
+---
+title: 2025年第 4 四半期のプロジェクトの機能強化
+description: 2025年第 4 四半期のプロジェクトの機能強化
+author: Courtney
+feature: Product Announcements
+hide: true
+hidefromtoc: true
+recommendations: noDisplay, noCatalog
+source-git-commit: 832b4044feaea902b807c12b5fad072c6dd04fc8
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 32%
+
+---
+
+# 2025年第 4 四半期のプロジェクトの機能強化
+
+このページでは、2025 年第 4 四半期リリースで行われた、プレビュー環境に対するプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
+
+2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
+
+## Workfrontの計算カスタムフィールドに追加された新しい式
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 8 月 7 日（PT）
+>* 実稼動迅速リリース：2025 年 8 月 7 日（PT）
+>* 実稼動版（すべてのお客様向け）：2025年8月7日（PT）
+
+Workfront Planning の式フィールドとWorkfrontの計算カスタムフィールドに、次のように使用する新しい式を追加しました。
+
+* **REMOVEACCENTS （string）**：入力文字列内のすべてのアクセント付き文字から発音区別符号を削除します。
+* **REPLACEPATTERN （文字列、パターン、置換文字列）**：指定したパターンの一致を置換文字列で置き換えます。
+* **PASCAL （string）**：各単語の最初の文字を大文字にし、すべてのスペースを削除して、入力文字列を PascalCase に変換します。
+
+詳しくは、[計算データ数式の概要](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md)を参照してください。
+
+## リストから高度な割り当てにアクセスするための追加の方法
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 8 月 7 日（PT）
+>* 実稼動高速リリース：2025 年 9 月 11 日（PT）
+>* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+
+リストの割り当てに **詳細** ボタンが使用できるようになり、「詳細な割り当て」ページにアクセスできるようになりました。 「詳細な割り当て」に移動するための **人物** アイコンは、リストの割り当てでも使用できます。
+
+この変更は、タスクとイシューの割り当ての両方に適用されます。
+
+詳しくは、[詳細な割り当ての作成](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
+

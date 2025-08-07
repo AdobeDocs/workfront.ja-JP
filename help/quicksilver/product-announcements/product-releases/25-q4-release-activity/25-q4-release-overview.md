@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+source-git-commit: cbdc60db525dabb93e984dff7787a83edceb6c8c
 workflow-type: tm+mt
-source-wordcount: '1190'
-ht-degree: 23%
+source-wordcount: '1334'
+ht-degree: 21%
 
 ---
 
@@ -39,9 +39,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
-* [ドキュメントとプルーフの機能強化](#document-and-proofing-enhancements)
-<!--* [Home enhancements](#home-enhancements)
-* [Requests enhancements](#requests-enhancements)-->
+* [ ドキュメントとプルーフの機能強化 ](#document-and-proofing-enhancements)
+  <!--* [Home enhancements](#home-enhancements)-->
+* [プロジェクトの機能強化](#project-enhancements)
+  <!--* [Requests enhancements](#requests-enhancements)-->
 * [リソース管理の強化](#resource-management-enhancements)
 * [その他の機能強化](#other-enhancements)
 
@@ -131,6 +132,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table> -->
 
+### プロジェクトの強化
+
+<table style="table-layout:auto">
+  <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Planning の式フィールドおよびWorkfrontの計算カスタム・フィールドに追加された新しい式 </a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
+            <p>Workfront Planning の式フィールドとWorkfrontの計算カスタムフィールドに、次のように使用する新しい式を追加しました。</p>
+            <ul>
+            <li>REMOVEACCENTS （string）：入力文字列内のすべてのアクセント記号付き文字から発音区別符号を削除します。</li>
+            <li>REPLACEPATTERN （string, pattern, replacement string）：指定したパターンの一致を置換文字列で置き換えます。</li>
+            <li>PASCAL （string）：各単語の最初の文字を大文字にし、すべてのスペースを削除して、入力文字列を PascalCase に変換します。</li>
+            </ul>
+        </td>
+        <td>2025年8月7日（PT）</td>
+        <td>2025年8月7日（PT）</td>
+        <td>2025年8月7日（PT）</td>
+    </tr> 
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}"> リストから高度な割り当てにアクセスする追加の方法 </a><p></p>
+            <p>リストの割り当てに <b> 詳細 </b> ボタンが使用できるようになり、「詳細な割り当て」ページにアクセスできるようになりました。 「詳細な割り当て」に移動するための <b> 人物 </b> アイコンは、リストの割り当てでも使用できます。</p>
+        </td>
+        <td>2025年8月7日（PT）</td>
+        <td>2025年9月11日（PT）</td>
+        <td>2025年10月16日（PT）</td>
+    </tr> 
+  </tbody>
+  </table>
+
 ### リソース管理の強化
 
 <table style="table-layout:auto">
@@ -207,7 +238,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
@@ -256,7 +287,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 
