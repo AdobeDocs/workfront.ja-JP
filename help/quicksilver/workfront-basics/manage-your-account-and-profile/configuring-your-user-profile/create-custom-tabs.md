@@ -6,10 +6,10 @@ description: ' [!DNL Workfront]  web アプリケーションで確認できる�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 100%
+source-wordcount: '680'
+ht-degree: 99%
 
 ---
 
@@ -33,10 +33,11 @@ ht-degree: 100%
 | [!UICONTROL ポートフォリオ] | ✓ | ✓ |
 | [!UICONTROL プログラム] | ✓ | ✓ |
 | [!UICONTROL プロジェクト] | ✓ | ✓ |
-| [!UICONTROL タスク] | ✓ |  ✓ |
-| [!UICONTROL イシュー] |  ✓ |  ✓ |
-| [!UICONTROL ユーザー] |  ✓ |  ✓ |
-| [!UICONTROL ドキュメント] |  ✓ |  ✓ |
+| [!UICONTROL タスク] | ✓ | ✓ |
+| [!UICONTROL イシュー] | ✓ | ✓ |
+| [!UICONTROL ユーザー] | ✓ | ✓ |
+| [!UICONTROL ドキュメント] | ✓ | ✓ |
+| [!UICONTROL  リソース ] 領域 | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -51,19 +52,19 @@ ht-degree: 100%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] プラン*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] プラン*</td> 
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] ライセンス*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] ライセンス*</td> 
    <td> <p>[!UICONTROL Review] 以降</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>アクセスレベル設定*</strong></td> 
+   <td role="rowheader">アクセスレベル設定*</td> 
    <td>[!UICONTROL Reviewer] またはそれ以上の権限</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>オブジェクト権限</strong></td> 
+   <td role="rowheader">オブジェクト権限</td> 
    <td>オブジェクトタイプへのアクセスの表示</td> 
   </tr> 
  </tbody> 
@@ -75,7 +76,7 @@ ht-degree: 100%
 
 ダッシュボードを追加する前に、表示するすべての情報を含むダッシュボードを作成する必要があります。外部ページを作成することもできます。\
 ダッシュボードの作成について詳しくは、[ダッシュボードの作成](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)の記事を参照してください。\
-外部ページの作成について詳しくは、[ダッシュボードへの外部 Web ページの埋め込み](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)の記事を参照してください。
+外部ページの作成について詳しくは、[ダッシュボードへの外部 web ページの埋め込み](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)の記事を参照してください。
 
 ダッシュボードや外部ページを作成した後、左側のパネルに追加できます。
 

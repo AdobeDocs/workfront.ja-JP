@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6e6f88362eb46122e43f049ae975a2087cdbe588
+source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
 workflow-type: tm+mt
 source-wordcount: '6618'
 ht-degree: 2%
@@ -82,7 +82,7 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 
 ### プロジェクト ビジネス ケースのインターフェイス更新
 
-**プレビューリリース：2025 年 8 月 4 日（PT）、実稼動リリース：Aufust 18**
+**プレビューリリース：2025 年 8 月 4 日、実稼動リリース：8 月 18 日**
 
 プロジェクトのビジネスケースのルックアンドフィールを、アプリケーションの他の領域と一致するように更新しました。
 

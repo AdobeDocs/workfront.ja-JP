@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 92%
+source-wordcount: '635'
+ht-degree: 84%
 
 ---
 
 # カスタム条件の作成または編集
+
+{{highlighted-preview}}
 
 Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェクト、タスクおよびイシューのカスタム条件を作成または編集できます。
 
@@ -60,12 +62,16 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
 1. 条件に関連付けるオブジェクトタイプ（**プロジェクト**、**タスク**&#x200B;または&#x200B;**イシュー**）のタブをクリックします。
 
-1. 新しい条件を作成するには、「**新規条件を追加**」をクリックします。
+1. 新しい条件を作成するには、「**新しい条件を追加**」をクリックします。
 
    または
 
-   既存の条件を編集するには、編集する条件にポインタを合わせ、右端に表示される&#x200B;**編集**&#x200B;アイコンをクリックします。
+   既存の条件を編集するには、条件名の横にある <span class="preview">**編集** をクリックするか </span> 編集する条件にカーソルを置いて **編集** アイコンをクリックします。このアイコンは右端に表示されます。
 
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![ カスタム条件を編集 ](assets/custom-conditions-0825.png)
+
+   実稼動環境のサンプル画像：
    ![ カスタム条件 ](assets/custom-condition-edit-nwe.jpg)
 
 1. 次のオプションを使用して、カスタム条件を設定します。
@@ -87,7 +93,7 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
       <td>（オプション）色アイコンをクリックし、プロジェクト、タスクまたはイシューに表示される際の条件の色を選択します。16 進数を入力することもできます。</td> 
      </tr> 
      <tr> 
-      <td>同等 </td> 
+      <td>次と等しい </td> 
       <td><p>（プロジェクトの場合のみ必須）新しい条件の機能を最もよく記述するオプションをドロップダウンリストでクリックします。例えば、「Tracking Well」という名前の条件の場合に「目標どおり」をクリックするといった具合です。これにより、デフォルト条件がどのように機能するかが決まります。作成する条件はどれも、ドロップダウンメニューのオプションのいずれかと一致する必要があります。</p>
       <p>デフォルト条件については、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">カスタム条件をプロジェクトのデフォルトとして設定</a>および<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">カスタム条件をタスクとイシューのデフォルトとして設定</a>を参照してください。</p>
       <p>条件の作成が終了した後は、このオプションを変更できません。</p></td> 
@@ -116,15 +122,17 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
    * ユーザーがプロジェクトを編集する場合：
 
-     ![ プロジェクト編集時の条件の変更 ](assets/change-condition-edit-project.png)
+     ![ プロジェクト編集時の条件の変更 ](assets/change-condition-edit-project-0825.png)
 
-   * ユーザーが「更新」タブでタスクまたはイシューの条件を変更する場合：
+<!-- 
+   * When a user is changing the condition for a task or issue on the Updates tab:
 
-     ![ コメントを更新する際の条件の変更 ](assets/change-condition-update-comment.png)
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+-->
 
-   * ユーザーがリスト表示でタスクまたはイシューの条件を変更する場合
+* ユーザーがリスト表示でタスクまたはイシューの条件を変更する場合
 
-     ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-only.png)
+  ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-only.png)
 
 1. 「**保存**」をクリックします。
 

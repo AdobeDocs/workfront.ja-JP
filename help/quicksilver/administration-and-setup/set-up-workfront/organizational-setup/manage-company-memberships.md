@@ -4,14 +4,14 @@ product-area: system-administration
 navigation-topic: organization-setup
 title: 会社のメンバーシップの管理
 description: 設定の[!UICONTROL 会社]エリアで、会社のメンバーを追加および削除できます。また、ユーザープロファイルを編集して、ユーザーに  [!DNL Workfront], deactivate them in [!DNL Workfront], and remove them from the [!DNL Workfront]  システムで登録を促すこともできます。
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f0efd985-76e3-435e-bf19-87008f6a5e9d
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 94%
+source-wordcount: '879'
+ht-degree: 90%
 
 ---
 
@@ -47,7 +47,7 @@ ht-degree: 94%
    <td role="rowheader"><strong>アクセスレベル設定</strong> </td> 
    <td> <p>次のうちのいずれか：</p> 
     <ul> 
-     <li> <p>[!UICONTROL システム管理者 &#x200B;] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
+     <li> <p>[!UICONTROL システム管理者 ] アクセス レベル。システム内の任意の会社を編集できます。</p> </li> 
      <li> <p>会社を管理するための管理者アクセス。システム内の任意の会社を編集できます。</p> </li> 
     </ul> <p><b>メモ</b>：  
      <ul> 
@@ -73,7 +73,8 @@ ht-degree: 94%
 
 1. 「**[!UICONTROL 会社]**」をクリックします。
 1. 会社の名前をクリックします。
-1. 左側のパネルで選択した「**[!UICONTROL 会社メンバー]**」セクションを使用して、次のいずれかの操作を行います。
+1. 左側のパネルで **[!UICONTROL 会社メンバー]** をクリックします。
+1. 次のいずれかの操作を行います。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -125,9 +126,10 @@ ht-degree: 94%
       <td role="rowheader">ユーザーおよび [!UICONTROL Updates] エリアへのコメントの送信</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>少なくとも 1 人のユーザーを選択して、ツールバーの [!UICONTROL Comment] アイコン <img src="assets/comment-icon.png"> をクリックします。</p> </li> 
+        <li value="1"> <p>少なくとも 1 人のユーザーを選択し、ツールバーの <b> ユーザーに更新を送信 </b> をクリックしてください。</p> </li> 
         <li value="2"> <p>ユーザーおよびユーザープロファイルの [!UICONTROL Updates] エリアに送信するコメントを入力します。</p> </li> 
-       </ol> </td> 
+       </ol>
+       <p>詳しくは、<a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md"> 他のユーザーへのダイレクトメッセージの送信 </a> を参照してください。</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">会社メンバーのリストの書き出し</td> 
