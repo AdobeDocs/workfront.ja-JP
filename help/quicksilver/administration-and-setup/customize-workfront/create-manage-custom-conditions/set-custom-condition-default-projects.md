@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 183bdced08da75cfb15fe2cc0f0804dec7f07f23
+source-git-commit: 705fc990f2d90ff2102233fc68947fdbe1eb6946
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '322'
 ht-degree: 76%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 76%
 
 プロジェクトの状況タイプが「手動」ではなく「進行ステータス」に設定されている場合、[プロジェクト状況と状況タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)で説明されているとおり、Adobe Workfront はプロジェクトの進行に応じて、プロジェクトの 3 つのビルトインのデフォルト状況（「目標どおり」、「危険あり」、または「トラブル発生中」）のいずれかを自動的に表示します。
 
-![ プロジェクトヘッダー内の条件 ](assets/condition-in-project-header-nwe.png)
+![ プロジェクトヘッダーおよび詳細の条件 ](assets/condition-of-project-0825.png)
 
 これら 3 つのビルトインのデフォルト条件を使用する代わりに、カスタム条件をデフォルト条件として設定できます。例えば、オンターゲットのデフォルト条件を変更して、すべてのプロジェクトでトラッキングウェルとして表示することができます。
 
