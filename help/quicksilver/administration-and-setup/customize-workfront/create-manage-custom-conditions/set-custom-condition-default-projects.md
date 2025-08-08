@@ -3,25 +3,27 @@ title: カスタム条件をプロジェクトのデフォルトとして設定
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-description: プロジェクトの状況タイプが「手動」ではなく「進行ステータス」に設定されている場合、「プロジェクト条件と条件タイプの概要」で説明されているとおり、Adobe Workfront はプロジェクトの進行に応じて、プロジェクトの 3 つの組み込みのデフォルト条件（「目標どおり」、「危険あり」、または「トラブル発生中」）のいずれかを自動的に表示します。
+description: プロジェクトの状況タイプが「手動」ではなく「進行ステータス」に設定されている場合、「プロジェクト条件と条件タイプの概要」で説明されているとおり、Adobe Workfront はプロジェクトの進行に応じて、プロジェクトの 3 つのビルトインのデフォルト条件（「目標どおり」、「危険あり」、または「トラブル発生中」）のいずれかを自動的に表示します。
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 92%
+source-wordcount: '320'
+ht-degree: 76%
 
 ---
 
 # カスタム条件をプロジェクトのデフォルトとして設定する
 
-プロジェクトの状況タイプが「手動」ではなく「進行ステータス」に設定されている場合、[プロジェクト状況と状況タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)で説明されているとおり、Adobe Workfront はプロジェクトの進行に応じて、プロジェクトの 3 つの組み込みのデフォルト状況（「目標どおり」、「危険あり」、または「トラブル発生中」）のいずれかを自動的に表示します。
+{{highlighted-preview}}
+
+プロジェクトの状況タイプが「手動」ではなく「進行ステータス」に設定されている場合、[プロジェクト状況と状況タイプの概要](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md)で説明されているとおり、Adobe Workfront はプロジェクトの進行に応じて、プロジェクトの 3 つのビルトインのデフォルト状況（「目標どおり」、「危険あり」、または「トラブル発生中」）のいずれかを自動的に表示します。
 
 ![ プロジェクトヘッダー内の条件 ](assets/condition-in-project-header-nwe.png)
 
-これら 3 つの組み込みのデフォルト条件を使用する代わりに、カスタム条件をデフォルト条件として設定できます。例えば、オンターゲットのデフォルト条件を変更して、すべてのプロジェクトでトラッキングウェルとして表示することができます。
+これら 3 つのビルトインのデフォルト条件を使用する代わりに、カスタム条件をデフォルト条件として設定できます。例えば、オンターゲットのデフォルト条件を変更して、すべてのプロジェクトでトラッキングウェルとして表示することができます。
 
 ## アクセス要件
 
@@ -63,13 +65,11 @@ ht-degree: 92%
 1. **プロジェクト環境設定**／**条件**&#x200B;をクリックします。
 
 1. 「**プロジェクト**」タブをクリックします。
-1. 「**デフォルトの条件をセット**」をクリックします。
-1. 変更するデフォルト条件の横にあるドロップダウンメニューで、代わりに使用するカスタム条件をクリックします。
+1. 「**デフォルトの条件を設定**」をクリックします。
+1. 変更する既定の条件のドロップダウン メニューで、代わりに使用するカスタム条件をクリックします。
 1. 変更する他のデフォルト条件については、前の手順を繰り返します。
 1. 「**保存**」をクリックします。
 
 タスクとイシューのデフォルト条件としてカスタム条件を設定する方法については、[タスクとイシューのデフォルトとしてカスタム条件を設定](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)を参照してください。
 
-ユーザーがプロジェクトの条件を手動で更新できるようにプロジェクトを設定する方法については、[タスクとイシューの条件を更新](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)を参照してください。
-
-カスタム条件について詳しくは、[カスタム条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)を参照してください。
+ユーザーが手動で条件を更新できるプロジェクトの設定については、[ タスクおよび問題の条件の更新 ](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md) を参照してください。

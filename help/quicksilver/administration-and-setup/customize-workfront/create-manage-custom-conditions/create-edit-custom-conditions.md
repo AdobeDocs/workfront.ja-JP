@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1c3c82db8c1320130aa3eec9d5ad1fe31340e2e9
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '635'
 ht-degree: 84%
@@ -124,15 +124,15 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
      ![ プロジェクト編集時の条件の変更 ](assets/change-condition-edit-project-0825.png)
 
-<!-- 
+   <!-- 
    * When a user is changing the condition for a task or issue on the Updates tab:
 
      ![Change condition when updating comment](assets/change-condition-update-comment.png)
--->
+   -->
 
-* ユーザーがリスト表示でタスクまたはイシューの条件を変更する場合
+   * ユーザーがリスト表示でタスクまたはイシューの条件を変更する場合
 
-  ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-only.png)
+     ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-only.png)
 
 1. 「**保存**」をクリックします。
 

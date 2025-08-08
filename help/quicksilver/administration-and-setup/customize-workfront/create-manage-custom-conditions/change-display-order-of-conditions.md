@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
 source-wordcount: '175'
-ht-degree: 80%
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 80%
 
 * ユーザーがプロジェクトを編集する場合：
 
-  ![ プロジェクト編集時の条件の変更 ](assets/change-condition-edit-project.png)
+  ![ プロジェクト編集時の条件の変更 ](assets/change-condition-edit-project-0825.png)
 
 * ユーザーがタスクまたはイシューの条件を変更する場合
 
@@ -66,7 +66,7 @@ ht-degree: 80%
 
 1. **プロジェクト環境設定**／**条件**&#x200B;をクリックします。
 
-1. 「**プロジェクト**」、「**タスク**」、または「**イシュー**」タブを選択します。
+1. **プロジェクト**、**タスク** または **イシュー** タブを選択します。
 
 1. ![ 移動アイコン ](assets/move-icon---dots.png) 条件をドラッグして、順序を変更します。
 

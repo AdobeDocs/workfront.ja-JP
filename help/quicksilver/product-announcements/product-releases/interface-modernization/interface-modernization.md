@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 46cb91855937742ee681b3d2412941b2d3831086
+source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
 workflow-type: tm+mt
-source-wordcount: '6618'
+source-wordcount: '6622'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 条件ページを更新して、Workfrontの他の領域と一致する、より現代的なデザインを追加しました。
 
-インターフェイスの目に見える機能強化として、編集できる条件の横に **編集** ボタンが表示されるようになり、条件の上にカーソルを置いて編集アイコンを見つける必要がなくなりました。
+インターフェイスの見た目に大きな機能強化として、編集できる条件の横に **編集** ボタンと **削除** ボタンが表示されるようになり、条件の上にカーソルを置いて「編集」アイコンと「削除」アイコンを見つける必要がなくなりました。
 
 これらの変更を表示するには、設定/プロジェクト環境設定/条件に移動します。
 
