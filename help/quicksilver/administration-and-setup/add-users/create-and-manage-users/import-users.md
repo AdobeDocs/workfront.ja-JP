@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
-source-git-commit: a8faf4aa1a0a1b60f61c0c981c3be1b0d9d033a4
+source-git-commit: 0239cad2d9173da20770934e6132b29301117cdf
 workflow-type: tm+mt
-source-wordcount: '551'
-ht-degree: 80%
+source-wordcount: '503'
+ht-degree: 71%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 80%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Add users" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -72,7 +72,7 @@ ht-degree: 80%
 
 1. **新規ユーザー**&#x200B;ドロップダウン矢印をクリックし、「**ユーザーのインポート**」をクリックします。
 
-1. 表示される&#x200B;**ユーザーのインポート**&#x200B;ボックスで、サンプルファイルをダウンロードしてから、サンプルファイルを更新して、自分のユーザーの個人情報を含めます。
+1. 表示された **ユーザーのインポート** ボックスで、サンプルファイルをダウンロードした後、サンプルファイルを更新して独自のユーザーの個人情報を含めます。
 
    各行には、次のフィールドが含まれます。
 
@@ -97,16 +97,20 @@ ht-degree: 80%
    ![importing-new-users.png](assets/importing-new-users.png)
 
 1. ファイルをワークステーション上の場所に保存します。
-1. **ユーザーのインポート**&#x200B;ボックスの「**ファイルの選択**」をクリックします。
+1. **ユーザーをインポート** ボックスの **ファイルを選択** をクリックします。
 
 1. 保存したファイルに移動し、選択します。
-1. （オプション）「**このユーザーに招待状メールを送信**」オプションを選択すると、ユーザーに招待メールが送信されて、Workfront アカウントが作成されたことが通知され、パスワードの設定が促されます。
 
-   ユーザーのパスワードを設定する場合は、このオプションの選択を解除します。
+<!--
+1. (Optional) Select the **Send an invite email to this user** option to send an email invitation to the user, notifying them that a Workfront account has been created and prompting them to set their password.
+
+   Deselect this option if you want to set the password for the user.
+
+-->
 
 1. 「**インポート**」をクリックします。
 
-   ユーザーが正常にインポートされたことを示す確認メッセージが画面の上部に表示されます。
+   ユーザーが正常に読み込まれたことを示す確認メッセージが画面の上部に表示されます。
 
 >[!NOTE]
 >
@@ -114,4 +118,4 @@ ht-degree: 80%
 > 
 >ユーザーのステータスが数分以内にディアクティベートおよび承認待ちから変わらず、画面を更新しても承認待ちバッジが削除されない場合は、ユーザーのバッチをAdobe Admin Consoleに直接追加できます。
 >
->手順については、[ 複数のユーザーの管理」を参照してください | Adobe ドキュメント ](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html)CSV の一括アップロード。
+>手順については、アドビドキュメントの[複数ユーザーの管理 | CSV の一括アップロード](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html)を参照してください。
