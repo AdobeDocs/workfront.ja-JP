@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: c8f552a4f4da2365f793e9111ee12a9905516134
 workflow-type: tm+mt
 source-wordcount: '6622'
 ht-degree: 2%
@@ -24,7 +24,7 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 ## 管理と設定
 
-## 「設定」の「条件」領域に対するインターフェイスの更新
+### 「設定」の「条件」領域に対するインターフェイスの更新
 
 **プレビューリリース：2025 年 8 月 7 日、実稼動リリース：2025 年 8 月 18 日**
 
