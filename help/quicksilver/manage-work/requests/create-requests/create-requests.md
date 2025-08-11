@@ -8,10 +8,10 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: de161674-5b61-4853-a16a-c70db10a1c95
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 7eb5b40c92ed743a665f6c38ce6d09db7d9a2ddb
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 98%
+source-wordcount: '170'
+ht-degree: 91%
 
 ---
 
@@ -38,3 +38,5 @@ Workfront でリクエストを作成、送信またはメールで送信する�
 * [送信されたリクエストの特定](../../../manage-work/requests/create-requests/locate-submitted-requests.md)
 * [リクエストキューへのリンクの共有](../../../manage-work/requests/create-requests/share-link-to-request-queue.md)
 * [リクエストのドラフトを削除](../../../manage-work/requests/create-requests/delete-request-draft.md)
+* [以前のデータからのリクエストの自動入力](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+* [プロンプトまたはドキュメントを使用したリクエストの自動入力](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)

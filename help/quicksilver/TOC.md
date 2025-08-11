@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 9d8c57454ce8b9e5809b2cee0778704014dbfa0f
+source-git-commit: ab0e1bba3a91c07070620f65b480c09c2c1560ed
 workflow-type: tm+mt
-source-wordcount: '13414'
+source-wordcount: '13427'
 ht-degree: 85%
 
 ---
@@ -1472,6 +1472,8 @@ ht-degree: 85%
          * [リクエストキューへのリンクの共有](manage-work/requests/create-requests/share-link-to-request-queue.md)
          * [リクエストのドラフトを削除](manage-work/requests/create-requests/delete-request-draft.md)
          * [リクエストのコピーと送信](manage-work/requests/create-requests/copy-and-submit-requests.md)
+         * [以前のデータからのリクエストの自動入力](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
+         * [プロンプトまたはドキュメントを使用したリクエストの自動入力](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
    * 作業の委任 {#delegate-work}
       * [作業の委任](manage-work/delegate-work/delegate-work.md)
       * [タスクおよびイシューのデリゲートの概要](manage-work/delegate-work/delegate-work-overview.md)
