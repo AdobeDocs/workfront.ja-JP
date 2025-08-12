@@ -4,9 +4,10 @@ content-type: reference
 description: AI を使用すると、プロンプトを入力したりドキュメントを指定したりして、リクエストフィールドを自動入力できます。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1093'
 ht-degree: 11%
 
 ---
@@ -62,6 +63,8 @@ AI は、入力したプロンプトに基づいてリクエストフィール�
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
++++
+
 ## 前提条件
 
 プロンプトまたはドキュメントを使用してリクエストを自動入力するには、次の **すべて** を適用する必要があります。
@@ -72,6 +75,9 @@ AI は、入力したプロンプトに基づいてリクエストフィール�
 * Adobeは、ファイルにAdobe生成 AI 契約を署名済みにする必要があります
 
   契約書への署名について詳しくは、「AI アシスタントの概要」の [AdobeGen AI 契約書への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
+* 組織のシステム設定で、AI アシスタントを有効にする必要があります。 これは、Workfront管理者が管理します。
+
+  システム設定で AI アシスタントを有効にする方法については、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
 ## テキストプロンプトから提案を取得する
 
@@ -252,4 +258,3 @@ Workfrontのフィールドタイプは、特定のフィールドを自動入�
 
 * 以前のリクエストのフィールド値を提案するには、システムに 1 か月以上のリクエストデータが必要です。
 * 提案を取り込むドキュメントをアップロードする際に、ドキュメントのアップロードガードレールに従っていない可能性があります。 詳しくは、この記事の [ ドキュメントアップロードガードレール ](#document-upload-guardrails) を参照してください。
-

@@ -4,7 +4,8 @@ content-type: reference
 description: AI を使用し、以前のリクエストのデータを使用してリクエストフィールドを自動入力できます。
 author: Becky
 feature: Get Started with Workfront
-source-git-commit: cf2ae77ed27b1dd30144f6de31bec474f53f1efb
+exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
+source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 24%
@@ -59,6 +60,8 @@ AI は、以前のリクエストに基づいてリクエストフィールド�
 </table>
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
++++
 
 ## フォームに入力する際に候補を表示する
 
