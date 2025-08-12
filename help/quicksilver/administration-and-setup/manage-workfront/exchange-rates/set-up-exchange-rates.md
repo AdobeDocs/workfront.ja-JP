@@ -3,15 +3,15 @@ user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
 title: 為替レートの設定
-description: Adobe Workfront 管理者は、Workfront で為替レートを設定できます。
+description: 為替レートは、Workfront のすべての財務要素に影響を与えます。基本通貨は、システム全体のすべてのプロジェクトのデフォルト通貨です。
 feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 97%
+source-wordcount: '634'
+ht-degree: 55%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
 * 現在の為替レートに一致するように Workfront の為替レートを更新
 * 複数の通貨の為替レートの設定（これにより、ユーザーはプロジェクトごとにデフォルト通貨を選択できます）
 
-為替レートは、Workfront のすべての財務要素に影響を与えます。「基準通貨」は、特定のプロジェクトまたは担当業務が上書きされない限り、システム全体のすべてのプロジェクトのデフォルト通貨です。また、レポートやリストで表示する際に、基準通貨やプロジェクトの通貨とは異なるシステム内で使用可能な通貨で財務情報を表示するよう選択することもできます。詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
+為替レートは、Workfront のすべての財務要素に影響を与えます。特定のプロジェクトまたは担当業務で上書きされない限り、基本通貨は、システム全体のすべてのプロジェクトのデフォルト通貨です。 現在の基本通貨またはデフォルト通貨は、リストのアイコン ![ デフォルト通貨アイコン ](assets/default-icon.png) で示されます。 また、レポートやリストで表示する際に、基準通貨やプロジェクトの通貨とは異なるシステム内で使用可能な通貨で財務情報を表示するよう選択することもできます。詳しくは、[一意の為替レートを使用した財務データレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)を参照してください。
 
-プロジェクトおよび担当業務用の Workfront での基準通貨の上書きについて詳しくは、次の記事を参照してください。
+プロジェクトと担当業務についてWorkfrontの基本通貨を上書きする方法については、次の記事を参照してください。
 
 * [プロジェクトの通貨を変更](../../../manage-work/projects/project-finances/change-project-currency.md)
 * [担当業務の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)
@@ -77,23 +77,26 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
 
 {{step-1-to-setup}}
 
-1. **プロジェクト環境設定**／**為替レート**&#x200B;をクリックします。
+1. **プロジェクト環境設定**/**為替レート** をクリックします。
 
-1. 「**通貨を追加する**」をクリックします。
-1. 通貨の名前を入力し始め、ドロップダウンリストに表示されたらクリックします。
+1. 「**通貨を追加**」をクリックします。
+1. 「**通貨を追加**」ボックスに通貨の名前の入力を開始し、ドロップダウンリストに表示されたらクリックします。
+1. 「**為替レート**」フィールドに、システムで基準通貨として設定されている通貨と比較した、選択した通貨のレートを入力します。
+1. 「**追加**」をクリックして、新しい通貨とその為替レートを追加します。
+1. （オプション）基本（デフォルト）通貨を変更するには、次のいずれかの操作を行います。
 
-1. 表示されたフィールドで、システムで基準通貨として設定される通貨に関連して、選択した通貨のレートを指定します。
-1. （オプション）通貨を Workfront の基準（デフォルト）通貨として設定します。
+   * 通貨名の横にあるチェックボックスをオンにし、画面の下部にあるアクションバーで **デフォルトにする** を選択します。
+   * 通貨名にポインタを合わせ、表示される **詳細** メニューをクリックします。 次に、「**デフォルトにする** を選択します。
 
-   これは、システム全体ですべてのプロジェクトおよびレポートのデフォルトとして使用される通貨です。
+     新しいデフォルトの通貨がアイコンで更新されます。
 
-1. 「**保存**」をクリックして変更を保存します。
+1. （オプション）通貨を削除するには、通貨名の横にあるチェックボックスをオンにし、画面の下部にあるアクションバーで **削除** を選択します。 デフォルトの通貨は削除できません。
 
 ## ユーザーがプロジェクトのデフォルト通貨を変更できるようにする
 
 ユーザーは、次の条件を満たした場合に、プロジェクトのデフォルト通貨を変更できます。
 
-* ユーザーは、為替レートに対する管理者アクセス権を持つプランライセンスを持っています。
+* ユーザーは、為替レートへの管理アクセス権を持つ標準ライセンスまたはプランライセンスを持っています。
 
   詳しくは、[特定のエリアに対する管理者アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
@@ -105,10 +108,13 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
 
 次の条件を満たす場合、ユーザーは担当業務の通貨を変更できます。
 
-* ユーザーは、担当業務に対する管理者アクセス権を持つプランライセンスを持っています。
+* ユーザーは、担当業務への管理アクセス権を持つ標準ライセンスまたはプランライセンスを持っています。
 
   詳しくは、[特定のエリアに対する管理者アクセス権をユーザーに付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md)を参照してください。
 
 * Workfront システムで複数の通貨が有効になっています。
 
 特定の担当業務でユーザーがデフォルトの通貨を変更する方法について詳しくは、[担当業務の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
+
+
+<!--The default currency is the currency that is used as the default for all projects and reports throughout the system. The current default is indicated with an icon ![Default currency icon](assets/default-icon.png).-->
