@@ -6,10 +6,10 @@ description: イシューの送信後、イシューを完了するために必�
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 55c714436fe59c84251c7f4e2a46614feae92cd6
 workflow-type: tm+mt
-source-wordcount: '1048'
-ht-degree: 98%
+source-wordcount: '1081'
+ht-degree: 94%
 
 ---
 
@@ -47,6 +47,10 @@ ht-degree: 98%
 </table>
 
 *保有するプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+
+## 考慮事項
+
+* 問題をタスクに変換する際には、処理の制限が 5 分あります。 イシューに多数のドキュメントが添付されていて、変換に失敗した場合は、ドキュメントの一部を削除して、もう一度試す必要がある可能性があります。
 
 ## イシューをタスクに変換
 

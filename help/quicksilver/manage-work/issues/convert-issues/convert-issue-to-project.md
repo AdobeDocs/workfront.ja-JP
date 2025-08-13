@@ -6,10 +6,10 @@ description: Adobe Workfront でのイシューからプロジェクトへの変
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '1975'
-ht-degree: 88%
+source-wordcount: '2017'
+ht-degree: 87%
 
 ---
 
@@ -61,6 +61,10 @@ ht-degree: 88%
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
+
+## 考慮事項
+
+* 問題をプロジェクトに変換する際には、処理の制限が 5 分あります。 イシューに多数のドキュメントが添付されていて、変換に失敗した場合は、ドキュメントの一部を削除して、もう一度試す必要がある可能性があります。
 
 ## イシューをプロジェクトに変換
 

@@ -7,10 +7,10 @@ description: Adobe Workfront には、プロジェクトに関連付けること
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 71ddeb83543c3c1491a412ac18deaa3ce1077c21
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 100%
+source-wordcount: '456'
+ht-degree: 90%
 
 ---
 
@@ -54,6 +54,10 @@ Adobe Workfront には、プロジェクトに関連付けることができる�
   <tr> 
    <td role="rowheader"><p>タイムラインの計算</p></td> 
    <td>Workfront は、6 か月間更新されていないプロジェクトに対しては、自動タイムライン計算を実行せず、更新が行われるまで再開されません。<p>3 か月間更新されていないプロジェクトの場合、Workfront は夜間ではなく毎週タイムライン計算を実行します。</p><p>プロジェクトタイムラインの計算について詳しくは、<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">プロジェクトタイムラインの再計算</a>を参照してください。 </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader"><p>オブジェクトを変換 </p></td> 
+   <td>Workfrontには、オブジェクトを変換する際の処理制限が 5 分です。 オブジェクトに多数のドキュメントが添付されている場合、5 分の制限内で変換に失敗する可能性があります。 一部のドキュメントを削除してから、もう一度試してください。</td> 
   </tr> 
  </tbody> 
 </table>
