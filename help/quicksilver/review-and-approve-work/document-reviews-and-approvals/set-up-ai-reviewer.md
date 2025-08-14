@@ -6,17 +6,19 @@ description: GenStudio Foundations で 1 つ以上のブランドを設定した
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: da980cee8710570f52c724053d1e0f359c6a9fe1
+exl-id: 4673049e-119e-4315-95f0-f10d8b286856
+source-git-commit: 7d7291539d4436f0c4700363b7800a5cc6ac4096
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '250'
 ht-degree: 18%
 
 ---
 
-
 # AI レビュー担当者の作成
+
+>[!NOTE]
+>
+>この機能は現在ベータ版です。
 
 GenStudio Foundations で 1 つ以上のブランドを設定したら、複数の AI レビュー担当者を作成して、承認テンプレートや個々のレビューおよび承認リクエストに割り当てることができます。
 
@@ -53,12 +55,9 @@ GenStudio Foundations で 1 つ以上のブランドを設定したら、複数�
 
 ## 前提条件
 
-開始する前に、GenStudio Foundations でブランドガイドラインを設定する必要があります。
+開始する前に、GenStudioの基盤で画像ブランドガイドラインを設定する必要があります。
 
-ブランドガイドラインについて詳しくは、
-
-* [GenStudio for Performance Marketingブランド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/guidelines/brands)
-* [ ガイドラインの追加 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/guidelines/add-guidelines)
+画像ブランドガイドラインについて詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
 
 ## AI レビュー担当者の追加
 
@@ -77,4 +76,3 @@ GenStudio Foundations で 1 つ以上のブランドを設定したら、複数�
 
    * [アセットおよびドキュメント用の承認テンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
    * [ドキュメントのレビューおよび承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-
