@@ -4,14 +4,16 @@ description: GenStudio for Performance Marketing Workspace は、会社が両方
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9df59ea9b44baaf38c8db8f709f6b2fef1dc7c52
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '1357'
+source-wordcount: '1359'
 ht-degree: 5%
 
 ---
 
-# Workfront Planning とGenStudio for Performance Marketingの統合の基本を学ぶ
+# Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ
+
+<!--update the text in the title everywhere this article is linked from - it changed a few times-->
 
 <!--Better metadata, at publishing:
 ---
@@ -47,7 +49,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 
 * WorkfrontとGenStudio for Performance Marketingは、同じ組織に対して有効にする必要があります。
 
-  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
 
 * 会社に複数のWorkfront インスタンスがある場合、Workfront Planning でGenStudioを使用できません。<!--this will change-->
 
@@ -132,7 +134,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 </table>
 
 *Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
-*Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+*Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
 
 
 ## Workfront Planning とGenStudioの統合の概要

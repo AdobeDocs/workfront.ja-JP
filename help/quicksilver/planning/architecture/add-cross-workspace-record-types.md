@@ -4,9 +4,9 @@ description: レコードタイプは、Adobe Workfront Planning のオブジェ
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 943c26efa6f6351abf885dbc5f3aa09c0b0fab05
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '591'
+source-wordcount: '599'
 ht-degree: 19%
 
 ---
@@ -27,15 +27,15 @@ recommendations: noDisplay, noCatalog
 
 ワークスペースマネージャーは、既存のレコードタイプを別のワークスペースに読み込んだり追加したりできます。
 
-ワークスペースマネージャーがレコードタイプのクロスワークスペース機能を他のワークスペースに読み込む前に、まずクロスワークスペース機能を定義する必要があります。
+ワークスペースマネージャーがレコードタイプを他のワークスペースに読み込む前に、レコードタイプを一元的なものとして指定する必要があります。
 
-レコードタイプのワークスペース間機能は、レコードタイプの作成または編集時に定義します。
+ワークスペース間の設定を定義する際に、レコードタイプを作成または編集する際に、レコードタイプを一元的として指定できます。
 
 詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -95,9 +95,11 @@ recommendations: noDisplay, noCatalog
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++   
 
-## 別のワークスペースから既存のレコードタイプを追加する際の考慮事項
+## 一元化されたレコードタイプの概要
+
+別のワークスペースから既存のレコードタイプを追加する際の考慮事項
 
 * 別のワークスペースに追加するように設定されたレコードタイプがない場合、レコードタイプの作成時に、別のワークスペースからインポートするオプションは表示されません。<!--add this a tip in the steps below, and/ or add a Conditional step that this is possible only when these record types are first enabled-->
 * 別のワークスペースからレコードタイプを追加すると、既存のレコードタイプから次の情報も追加されます。

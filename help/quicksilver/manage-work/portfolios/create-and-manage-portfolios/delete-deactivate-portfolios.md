@@ -6,10 +6,10 @@ description: ポートフォリオとは、Adobe Workfront のプロジェクト
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 87%
+source-wordcount: '441'
+ht-degree: 69%
 
 ---
 
@@ -23,9 +23,7 @@ ht-degree: 87%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、アクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,8 +35,8 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] ライセンス</td> 
-   <td> <p>新規：[!UICONTROL Standard] </p>
-   <p>現在：[!UICONTROL Plan] </p> </td> 
+   <td> <p>[!UICONTROL Standard]</p>
+   <p>[!UICONTROL Plan]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
@@ -68,6 +66,7 @@ ht-degree: 87%
 * ポートフォリオを削除しても、ポートフォリオに関連付けられているプロジェクトは削除されません。
 * 削除したポートフォリオを元に戻すことはできません。
 * ポートフォリオを非アクティブ化すると、プロジェクトの作成時に、ポートフォリオとそのプログラムの名前をプロジェクトに割り当てることができなくなります。
+* 既にプロジェクトに添付されているポートフォリオを非アクティブ化しても、プロジェクトから削除されません。 プロジェクトから非アクティブ化されたポートフォリオを削除した場合、そのポートフォリオをプロジェクトに再アタッチする前に再アクティブ化する必要があります。
 
 ## ポートフォリオの非アクティブ化
 
@@ -82,11 +81,17 @@ ht-degree: 87%
 1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
 1. ポートフォリオの名前をクリックします。
 1. ポートフォリオ名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-icon.png) をクリックし、**[!UICONTROL Portfolioのアクティベートを解除]** をクリックします。
+ポートフォリオは直ちに非アクティブ化されます。
+1. （オプション）ポートフォリオ名の右側にある **その他** メニュー ![ その他 ](assets/more-icon.png) メニューをクリックしてから、**[!UICONTROL Portfolioをアクティブ化]** をクリックして再アクティブ化します。
 
 ## ポートフォリオの削除
 
-{{step1-click-main-menu}}
+{{step1-to-portfolios}}
 
-1. 「**[!UICONTROL ポートフォリオ]**」をクリックします。
-1. ポートフォリオを選択し、「**[!UICONTROL 削除]**&#x200B;[!UICONTROL &#x200B; 削除 &#x200B;] アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+1. 次のいずれかの操作を行います。
+
+   * リストでポートフォリオを選択し、**[!UICONTROL 削除]** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+   * ポートフォリオをクリックして開き、ポートフォリオ名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-icon.png) をクリックしてから、**Portfolioを削除** をクリックします。
 1. **[!UICONTROL はい、削除します]** をクリックして確認します。
+
+   ポートフォリオは削除され、復元できません。

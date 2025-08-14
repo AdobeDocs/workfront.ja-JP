@@ -4,10 +4,10 @@ description: 会社が両方の製品を購入し、GenStudio for Performance Ma
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 36cd1c23dfb6e01dc1016a6a12ae47e4f9172d20
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 17%
+source-wordcount: '688'
+ht-degree: 14%
 
 ---
 
@@ -24,13 +24,19 @@ recommendations: noDisplay, noCatalog
 ---
 -->
 
-会社が両方の製品を購入し、GenStudio for Performance MarketingのインスタンスがAdobe Workfrontの会社のインスタンスと統合されている場合、Workfront Workspace はGenStudio Planning で使用できます。 Planning からGenStudioワークスペースを表示し、両方のシステムで情報を更新できます。
+<!--MUST update the access requirements below - not complete!!!!!!!!!-->
 
-GenStudio for Performance Marketingの使用方法については、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+会社が両方の製品を購入し、Adobe GenStudio for Performance MarketingのインスタンスがAdobe Workfrontの会社のインスタンスと統合されている場合、Workfront Workspace はGenStudio Planning で使用できます。
+
+Planning からGenStudioワークスペースを表示し、両方のシステムで情報を更新できます。
+
+GenStudio for Performance Marketingの使用方法については、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
+
+GenStudioとWorkfront Planning の統合に関する一般的な情報については、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -44,26 +50,24 @@ GenStudio for Performance Marketingの使用方法については、[Adobe GenSt
    <p> 製品</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li>
-   <p><li> Adobe GenStudio for Performance Marketing<p></li>
+   <li><p> Adobe GenStudio for Performance Marketing</p></li>
    </ul></td> 
   </tr>   
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
-   </td> 
+<p>任意のワークフローパッケージ</p>  
+<p>任意の計画パッケージ</p>
+   </td> </tr>
+
 <tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ</p></td> 
+   <td role="rowheader"><p>Adobe GenStudio パッケージ</p></td> 
    <td> 
-<p>任意 </p> 
-<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
-   </td> 
- <tr> 
+<p>???</p>
+
+</td> </tr>
+
+<tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
@@ -72,35 +76,45 @@ GenStudio for Performance Marketingの使用方法については、[Adobe GenSt
    </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p> システム管理者</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe GenStudio ライセンス</p></td> 
+   <td><p> ???</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
+   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>  
+   <p>GenStudioの設定：???</p> 
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
-   <td>   <p>ワークスペースおよびレコードタイプへの投稿以上の権限  </p>  
-   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p> </td> 
+   <td>  
+   <p>Workfrontの計画では、次の操作を行います。 </p>
+   <ul>
+   <li><p>ワークスペースおよびレコードタイプへの投稿以上の権限  </p> </li> 
+   <li><p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p></li>
+   </ul>
+   <p>Adobe GenStudio for Performance Marketingで： <p>
+   <ul>
+   <li><p> Adobe GenStudio for Performance Marketingのすべての権限</p></li>
+   <li><p> Adobe GenStudio for Performance Marketingでアイテムを作成する権限を作成する</p></li></ul>
+   </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
-
-+++
+*Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
++++   
 
 ## Workfront Planning でのGenStudio Workspace の管理に関する考慮事項
 
 * Workfront Planning でAdobe GenStudio for Performance Marketing Workspace を表示するには、GenStudioを購入する必要があります。
-
-  GenStudioについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
-
-  GenStudioとWorkfrontの統合について詳しくは、[Workfront Planning とGenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 
 * Workfront ユーザーがWorkfront Planning でGenStudio Workspace を表示するには、GenStudioにアクセスできる必要があります。
 
@@ -112,7 +126,7 @@ GenStudio for Performance Marketingの使用方法については、[Adobe GenSt
 >GenStudio Workspace を管理する前に、[Workfront Planning とGenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 
 
-1. システム管理者としてWorkfrontにログインします。
+1. GenStudioへのアクセス権も持つユーザーとしてWorkfrontにログインします。
 1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon.png) をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]** アイコン ![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png) をクリックして、「**[!UICONTROL Planning]**」をクリックします。
 
    Workfront計画のランディングページが開きます。

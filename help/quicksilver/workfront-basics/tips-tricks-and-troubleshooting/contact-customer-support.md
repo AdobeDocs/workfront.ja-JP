@@ -6,10 +6,10 @@ description: Adobe Workfront のお客様は、電話またはオンラインで
 feature: Get Started with Workfront
 author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
-source-git-commit: 008f96d52632f5f05554d63ae1c38cc37d21544b
+source-git-commit: 8a4668a568fde2ca7ee26714caae3cd33efe4eda
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 80%
+source-wordcount: '468'
+ht-degree: 79%
 
 ---
 
@@ -29,9 +29,7 @@ ht-degree: 80%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、アクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,9 +42,8 @@ ht-degree: 80%
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   </tr> 
   <tr> 
@@ -85,13 +82,15 @@ ht-degree: 80%
 >オンラインサポートチケットを送信できるのは、承認されたサポート担当者（またはサポート資格のあるユーザー）のみです。
 
 
-1. [[!DNL Experience League]](https://experienceleague.adobe.com/ja) web サイトから、ページの上部の **[!UICONTROL サポート]** をクリックします。
+1. [[!DNL Experience League]](https://experienceleague.adobe.com) web サイトから、ページの上部の **[!UICONTROL サポート]** をクリックします。
 
    ![](assets/experience-league-top-navigation-with-support-highlighted.png)
 
    [!UICONTROL サポート]ページが開きます。
 
    [!UICONTROL サポート]ホームページから、未解決のサポートケースに移動したり、新しいケースを記録したり、[!UICONTROL サポート]のトップ記事を表示したり、追加の学習ソースにアクセスしたりできます。
+
+   Workfrontの学習について詳しくは、[ ヘルプセンター ](https://learning.adobe.com/resources/help-center.html) を参照してください。
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
@@ -138,7 +137,7 @@ ht-degree: 80%
 1. （オプション）ケースを閉じるには、「**[!UICONTROL ケースを閉じる]**」ボタンをクリックします。
 
 
-<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737?profile.language=ja)
+<!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)
 
 - this is the information that was there before - pointing to WorkfrontOne: 
 

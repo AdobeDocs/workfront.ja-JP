@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b27b01e1efacc3fc459cec0a53b2c11cbe5e132b
+source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 43%
+source-wordcount: '736'
+ht-degree: 40%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 43%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -90,7 +90,7 @@ ht-degree: 43%
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++   
 
 ## 数式フィールドに関する考慮事項
 
@@ -112,6 +112,10 @@ ht-degree: 43%
 
   詳しくは、「フィールドの作成 [ の「式」の節を参照してくだ ](/help/quicksilver/planning/fields/create-fields.md) い。
 * 新しい数式で数式フィールドを参照できます。 式フィールドで参照されているフィールドの値が更新されると、そのフィールドまたはそのフィールドを含む式フィールドを参照している後続のすべてのフィールドは、自動的に更新されます。
+* 式フィールドは、次の場合に `#ERROR!` のように表示されることがあります。
+   * 式で使用されているフィールドが削除されたとき。
+   * 集計参照フィールドで使用されているフィールドが `#ERROR!` として表示されている場合。
+例えば、集計参照式フィールドを含む参照フィールドを表示すると、参照式フィールドの 1 つが `#ERROR!` として表示されます。
 
 ## サポートされる数式
 
