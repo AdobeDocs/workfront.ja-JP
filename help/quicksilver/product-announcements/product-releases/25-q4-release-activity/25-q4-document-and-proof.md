@@ -4,10 +4,11 @@ description: 2025 年第 4 四半期のドキュメントとプルーフの機�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 0babf2c4028ee0c45258ec3490bab336fd05a68b
+exl-id: f4615994-8a56-482c-b033-62e719be152e
+source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 18%
+source-wordcount: '281'
+ht-degree: 12%
 
 ---
 
@@ -17,7 +18,27 @@ ht-degree: 18%
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
 
+## 新しいWorkfront AI レビュアー
+
+>[!NOTE]
+>
+>2025 年 8 月 14 日（PT）にすべてのお客様が利用できます
+
+新しいWorkfront AI レビュアーは、画像ガイドラインから始めて、ブランドガイドラインに照らしてコンテンツを自動的にレビューすることで、画像ブランドのコンプライアンスを確保するのに役立ちます。 承認プロセスを合理化するためのスコアと実用的なフィードバックが提供されます。
+
+AI レビュー担当者を承認テンプレートまたは個々のレビューおよび承認リクエストに追加できるので、ブランド標準を維持しながら、コンテンツをより迅速に制作できます。
+
+詳しくは、[Workfront AI レビュアーの基本を学ぶ ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
+
+この機能は現在ベータ版です。
+
+
 ## Adobe Expressの新しいプルーフ統合
+
+>[!NOTE]
+>
+>すべてのお客様が利用できます 2025 年 7 月 28 日（PT）
+
 
 Adobe ExpressとWorkfront Proofの新しい統合についてお知らせします。
 

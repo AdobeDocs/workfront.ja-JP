@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: cbdc60db525dabb93e984dff7787a83edceb6c8c
+source-git-commit: 5422b7f5aa3dc1f3827c6d0d0ff559effb447fa4
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 21%
+source-wordcount: '1405'
+ht-degree: 20%
 
 ---
 
@@ -68,6 +68,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table style="table-layout:auto">
   <tbody>
+  <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}"> 新しいWorkfront AI レビュアー </a><p></p>
+            <p>メモ：この機能は現在ベータ版です。</p>
+            <p>新しいWorkfront AI レビュアーは、画像ガイドラインから始めて、ブランドガイドラインに照らしてコンテンツを自動的にレビューすることで、画像ブランドのコンプライアンスを確保するのに役立ちます。 承認プロセスを合理化するためのスコアと実用的なフィードバックが提供されます。 </p>
+            <p>AI レビュー担当者を承認テンプレートまたは個々のレビューおよび承認リクエストに追加できるので、ブランド標準を維持しながら、コンテンツをより迅速に制作できます。</p>
+        </td>
+        <td>2025年8月14日（PT）</td>
+        <td>2025年8月14日（PT）</td>
+        <td>2025年8月14日（PT）</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}">Adobe Expressの新しいプルーフ統合 </a><p></p>
@@ -238,7 +249,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 ### Workfront Fusion の機能強化
 
-Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
+Workfront Fusion の新機能は、標準のリリーススケジュール以外の頻度で実稼動環境で使用できます。 最新の機能について詳しくは、[Adobe Workfront Fusion リリースアクティビティ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)を参照してください。
 
 ### Workfront計画の機能強化
 
@@ -287,7 +298,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 
