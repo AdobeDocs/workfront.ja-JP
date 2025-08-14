@@ -57,7 +57,7 @@ GenStudio Foundations で 1 つ以上のブランドを設定したら、複数�
 
 開始する前に、GenStudioの基盤で画像ブランドガイドラインを設定する必要があります。
 
-画像ブランドガイドラインについて詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
+画像ブランドガイドラインについて詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
 
 ## AI レビュー担当者の追加
 
