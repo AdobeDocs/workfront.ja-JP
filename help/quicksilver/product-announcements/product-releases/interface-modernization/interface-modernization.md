@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 343ffcc5ba894f389e4ca00e12ea31009eb6c76a
+source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
 workflow-type: tm+mt
-source-wordcount: '6687'
+source-wordcount: '6776'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 2%
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
 ## 管理と設定
+
+### グループの「更新内容をユーザーに送信」ボックスのインターフェイス更新
+
+**プレビューリリース：2025 年 8 月 14 日（PT）、実稼動リリース：2025 年 8 月 14 日（PT）**
+
+グループメンバーのリストおよびサブグループメンバーのリストからアクセスする場合の、「ユーザーに更新を送信」ボックスのルックアンドフィールを更新しました。
+
+1 人または複数のユーザーに更新を送信する場合、「更新をユーザーに送信」ボックスがWorkfrontの他の領域と一致するようになりました。
+
+詳しくは、[ グループのメンバーシップの表示と管理 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-memberships.md) および [ サブグループメンバーの表示と管理 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md) を参照してください。
 
 ### 最近削除された項目に対するインターフェイスの更新
 
@@ -85,6 +95,10 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 ### 「時間」セクション内のプロジェクト、タスクまたは問題に時間を記録するためのインターフェイス更新
 
 **プレビューリリース：2025 年 8 月 7 日、実稼動リリース：2025 年 8 月 14 日**
+
+>[!NOTE]
+>
+>プレビューおよび実稼動から一時的に削除
 
 「時間」セクションでプロジェクト、タスク、またはイシューの時間を記録する際の「ログ時間」ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
 
