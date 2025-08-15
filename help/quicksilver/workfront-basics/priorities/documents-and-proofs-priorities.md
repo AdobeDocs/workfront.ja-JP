@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 35%
+source-wordcount: '599'
+ht-degree: 28%
 
 ---
 
@@ -72,13 +72,18 @@ ht-degree: 35%
 {{step1-to-priorities}}
 
 1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![ をクリック ](assets/summary-icon.png) します。
-1. パネルの「タスク」または「イシュー」タブを開いていることを確認します。
-1. 右側のパネルでドキュメント アイコンをクリックします。
-1. ファイルをアップロード アイコンをクリックし、ファイルを選択します。
-1. （オプション）次のいずれかの操作を行います。
-   1. フォルダーを選択します。
-   1. コメントする
-   1. ファイルを追加します。
+1. 概要パネルの **タスク** または **イシュー** タブを開いていることを確認します。
+1. **ファイルをアップロード** アイコン ![ ファイルをアップロードアイコン ](assets/upload-file-icon.png) をクリックします。
+1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
+または
+**ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
+   ![ ファイルを追加 ](assets/add-files.png)
+1. （任意）コメントを追加します。
+1. （任意）ファイルをさらに追加します。
+
+   >[!NOTE]
+   >
+   >追加のファイルは、別個のドキュメントとしてアップロードされます。
 1. 「**アップロード**」をクリックします。
 
 ### 作業項目の詳細
@@ -86,12 +91,18 @@ ht-degree: 35%
 {{step1-to-priorities}}
 
 1. 作業リストで、作業項目名をクリックします。
-1. 画面上部の「ドキュメント」タブをクリックします。
-1. **ドキュメントをアップロード**/**ドキュメント** をクリックします。
-1. （オプション）次のいずれかの操作を行います。
-   1. フォルダーを選択します。
-   1. コメントする
-   1. ファイルを追加します。
+1. 画面上部の「**ドキュメント**」タブをクリックします。
+1. 右上隅の **ドキュメントをアップロード** をクリックし、「**ドキュメント**」を選択します。
+1. ファイルをドラッグ&amp;ドロップするか、Cmd/Ctrl+V を押してクリップボードから貼り付け
+または
+**ファイルを追加** をクリックして、ファイルを参照するか、Document Cloud プロバイダーからファイルを読み込みます。
+   ![ ファイルを追加 ](assets/add-files.png)
+1. （任意）コメントを追加します。
+1. （任意）ファイルをさらに追加します。
+
+   >[!NOTE]
+   >
+   >追加のファイルは、別個のドキュメントとしてアップロードされます。
 1. 「**アップロード**」をクリックします。
 
 
@@ -105,16 +116,17 @@ ht-degree: 35%
 {{step1-to-priorities}}
 
 1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![ をクリック ](assets/summary-icon.png) します。
-1. パネルの「タスク」または「イシュー」タブを開いていることを確認します。
-1. 右側のパネルにある「**ドキュメント**」アイコンをクリックします。
-1. **ファイルをアップロード** アイコンをクリックし、ファイルを選択します。
+1. 概要パネルの **タスク** または **イシュー** タブを開いていることを確認します。
+1. 右側のパネルで **ドキュメント** アイコン ![ ドキュメントアイコン ](assets/show-document-icon.png) をクリックします。
+1. **ファイルをアップロード** アイコン ![ ファイルをアップロード ](assets/upload-file-icon.png) をクリックし、ファイルを選択します。
 
    >[!NOTE]
    >
    >プルーフを作成するには、ドキュメントをアップロードする必要があります。
 
 
-1. ファイルがアップロードされたら、「**プルーフを作成**」をクリックします。
+1. ファイルがアップロードされたら、「**ドキュメント** セクションでファイルを選択します。
+1. ファイル詳細ボックスの右上隅にある「**プルーフを作成**」をクリックします。
 1. 以下のうちのいずれかを選択します。
 
    <table style="table-layout:auto"> 
@@ -122,11 +134,11 @@ ht-degree: 35%
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">シンプルなプルーフ</td> 
+      <td role="rowheader"><b>シンプルなプルーフ</b></td> 
       <td>このオプションを選択すると、ワークフローが添付されていないプルーフが作成され、デフォルトのプルーフ設定が適用されます。プルーフの作成後に、デフォルトのプルーフ設定を更新したり、ワークフローを追加したりできます。 プルーフの設定について詳しくは、<a href="/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md" class="MCXref xref">プルーフの設定を編集</a>を参照してください。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">高度なプルーフ</td> 
+      <td role="rowheader"><b>高度なプルーフ</b></td> 
       <td> <p>このオプションを使用すると、基本的または高度なワークフローを設定し、作成するプルーフの設定を変更できます。詳しくは、次を参照してください。 </p> 
        <ul> 
         <li><p><a href="/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md" class="MCXref xref">基本ワークフローを使用した高度なプルーフを作成</a> </p> </li> 
@@ -143,7 +155,7 @@ ht-degree: 35%
 
 1. 作業リストで、作業項目名をクリックします。
 1. 画面上部の「**ドキュメント**」タブをクリックします。
-1. **ドキュメントをアップロード**/**プルーフ** をクリックします。
+1. 右上隅の **ドキュメントをアップロード** をクリックし、「**プルーフ**」を選択します。
 1. の説明に従って、プルーフを作成します
    [基本ワークフローを使用した詳細プルーフの作成](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
    [自動ワークフローを使用した詳細プルーフの作成](/help/quicksilver/review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

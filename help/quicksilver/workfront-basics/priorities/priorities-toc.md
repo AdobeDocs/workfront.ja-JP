@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 26f13890-5d79-44b6-9cf8-70ef05e4564d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 6%
+source-wordcount: '98'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,6 @@ ht-degree: 6%
 
 このセクションには、次のサブセクションが含まれます。
 
-* [優先度：今後のリリース](/help/quicksilver/workfront-basics/priorities/priorities-upcoming-releases.md)
 * [優先度の概要](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 * [プロジェクトと作業項目の詳細を優先度で表示します](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md)
 * [優先度での作業のフィルタリングとグループ化](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)

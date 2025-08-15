@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: e4232fbe-1b5c-4614-8613-3b0e25ffee46
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 18%
+source-wordcount: '204'
+ht-degree: 24%
 
 ---
 
@@ -26,8 +26,6 @@ ht-degree: 18%
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -57,35 +55,9 @@ ht-degree: 18%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+この表の情報の詳細については、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
-
-## 実稼動環境での優先度ワークリスト列のカスタマイズ
-
-### 列を有効または無効にする
-
-{{step1-to-priorities}}
-
-1. 画面の右側にある **列** をクリックします。
-   ![ 列 ](assets/columns.png)
-1. ワークリストの列の有効/無効を切り替えるには、を使用します。
-
-### 列の並べ替え
-
-{{step1-to-priorities}}
-
-1. 画面の右側にある **列** をクリックします。
-1. **ドラッグ** アイコンをクリックし、列を目的の場所に移動します。 列を移動すると、ワークリスト内で自動的に更新されます。
-   ![ 列の並べ替え ](assets/reorder-columns.png)
-
-### 列の幅のリセット
-
-{{step1-to-priorities}}
-
-1. 画面の右側にある **列** をクリックします。
-1. **その他** アイコン ![ その他のアイコン ](assets/more-icon.png) をクリックし、**列の幅をリセット** を選択します。
-   ![ 列 ](assets/columns.png)
 
 ## 優先度ワークリストの列のカスタマイズ
 

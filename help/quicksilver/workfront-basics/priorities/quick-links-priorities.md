@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '305'
 ht-degree: 17%
@@ -61,26 +61,26 @@ ht-degree: 17%
 
 {{step1-to-priorities}}
 
-1. 作業項目名をクリックして、概要ページを開きます。
+1. 作業項目名をクリックして、**概要** ページを開きます。
 1. [**クイック リンク**] セクションで、[**リンクの追加**] をクリックします。
 1. URL を「**リンクを追加** ボックスに貼り付けます。
-1. **保存**&#x200B;をクリックします。
+1. **保存**をクリックします。
    ![ リンクを追加 ](assets/add-link.png)
 
 ## クリップボードへのクイックリンクのコピー
 
 {{step1-to-priorities}}
 
-1. 作業項目名をクリックして、概要ページを開きます。
+1. 作業項目名をクリックして、**概要** ページを開きます。
 1. [**クイック リンク**] セクションで、コピーするリンクを検索します。
-1. コピーアイコン ![ コピーアイコン ](assets/copy-icon.png) をクリックします。
+1. **コピー**![ コピーアイコン ](assets/copy-icon.png) アイコンをクリックします。
    ![ リンクをコピー ](assets/copy-link.png)
 
 ## クイックリンクを開く
 
 {{step1-to-priorities}}
 
-1. 作業項目名をクリックして、概要ページを開きます。
+1. 作業項目名をクリックして、**概要** ページを開きます。
 1. [**クイック リンク**] セクションで、開くリンクを探します。
 1. リンクをクリックします。 リンクが新しいタブで開きます。
    ![ リンクを開く ](assets/open-link.png)
@@ -89,7 +89,7 @@ ht-degree: 17%
 
 {{step1-to-priorities}}
 
-1. 作業項目名をクリックして、概要ページを開きます。
+1. 作業項目名をクリックして、**概要** ページを開きます。
 1. 画面の右上隅にある「**詳細を編集**」をクリックします。
    ![ 詳細を編集 ](assets/edit-details.png)
-1. 削除するリンクを見つけ、削除アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
+1. 削除するリンクを見つけ、「**削除**![ 削除アイコン ](assets/delete-icon.png) アイコンをクリックします。

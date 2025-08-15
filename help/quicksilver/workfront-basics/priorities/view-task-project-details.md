@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
 source-wordcount: '422'
 ht-degree: 18%
@@ -74,7 +74,7 @@ ht-degree: 18%
    * プロジェクトの表示とコメントの追加
    * 時間を記録
    * ファイルを追加
-   * <span class="preview"> プロジェクトに直接移動 </span>
+   * プロジェクトに直接移動
 
    ![ プロジェクト詳細 ](assets/project-details-new.png)
 
@@ -101,7 +101,7 @@ ht-degree: 18%
 
 1. ワークリストで、作業名にポインタを合わせて、「概要 **アイコン** 「概要アイコンを開く ![ をクリック ](assets/summary-icon.png) します。
 
-1. イシューはデフォルトで選択されています。 ここで次のことができます
+1. イシューはデフォルトで選択されています。 ここでは、次の操作を実行できます。
    * プロジェクトとイシューの詳細および説明の表示と編集
    * プロジェクトの表示とコメントの追加
    * ドキュメントの表示と追加
@@ -116,7 +116,7 @@ ht-degree: 18%
 
 タスクまたはイシューの詳細ページでリアルタイムの更新を表示できます。 また、リアルタイムプレゼンス指標を使用して、自分と同時に他のユーザーがページを表示しているかどうかを確認することもできます。
 
-## 作業項目の詳細の表示
+### 作業項目の詳細の表示
 
 {{step1-to-priorities}}
 

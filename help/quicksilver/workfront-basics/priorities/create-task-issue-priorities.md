@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
+source-git-commit: b886284eb44c2154987019655ff07cdeb0e1ae22
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '262'
 ht-degree: 25%
 
 ---
@@ -68,8 +68,7 @@ ht-degree: 25%
 {{step1-to-priorities}}
 
 1. 右上隅の **新規作成** をクリックします。
-   ![ 新規作成 ](assets/create-new.png)
-実稼動環境用の新規画面 ![ 新規作成（実稼動） ](assets/create-new--.png)
+   ![ 新規作成（実稼動） ](assets/create-new--.png)
 1. 次の情報を指定します。
 
    | フィールド | 手順 |
