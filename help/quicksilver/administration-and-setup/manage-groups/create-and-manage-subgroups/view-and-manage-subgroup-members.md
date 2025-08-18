@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '393'
-ht-degree: 72%
+source-wordcount: '405'
+ht-degree: 70%
 
 ---
 
@@ -77,9 +77,11 @@ ht-degree: 72%
 
      詳しくは、[ユーザーのプロファイルの編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)または[ユーザープロファイルの一括編集](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md)を参照してください。
 
-   * リスト内の任意の数のメンバーを選択し、更新 ![ コメントアイコン ](assets/comment-icon.png) をクリックして、ユーザープロファイルにコメントを追加します。
+   * リスト内の任意の数のサブグループメンバーを選択し、「**ユーザーに更新を送信**」をクリックして、ユーザープロファイルにコメントを追加します。
 
      ユーザーには、アプリ内通知と、コメントが記載されたメール通知が送信されます。コメントは、ユーザーのプロファイルの「更新」エリアに表示されます。
+
+     詳しくは、[ 他のユーザーへのダイレクトメッセージの送信 ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) を参照してください。
 
    * リスト内の任意の数のメンバーを選択し、「非アクティブ化 ![ ユーザーの非アクティブ化 ](assets/deactivate-user.png) または「アクティブ化 ![ ユーザーのアクティブ化 ](assets/activate-user.png)」をクリックします。
 

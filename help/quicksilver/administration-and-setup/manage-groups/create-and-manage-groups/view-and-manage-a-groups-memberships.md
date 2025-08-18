@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 95%
+source-wordcount: '761'
+ht-degree: 90%
 
 ---
 
@@ -96,7 +96,7 @@ Adobe Workfront 管理者は、管理対象の任意のグループのメンバ�
       <td role="rowheader">ユーザーのプロファイル情報を編集</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">1 つ以上のユーザー名を選択し、<strong>編集</strong> <img src="assets/edit-icon.png">をクリックします。</li> 
+        <li value="1">1 つ以上のユーザー名を選択し、「<strong> 編集 </strong>」 <img src="assets/edit-icon.png"> をクリックします。</li> 
         <li value="2"> <p>ユーザーのプロファイル情報を変更します。</p> <p>変更について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。</p> </li> 
        </ol> </td> 
      </tr> 
@@ -104,7 +104,7 @@ Adobe Workfront 管理者は、管理対象の任意のグループのメンバ�
       <td role="rowheader">ユーザーメンバーシップデータを書き出し</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">1 つ以上のユーザー名を選択し、<strong>書き出し</strong> <img src="assets/export.png"> をクリックします。</li> 
+        <li value="1">1 つ以上のユーザー名を選択し、「<strong> 書き出し </strong>」 <img src="assets/export.png"> タンをクリックします。</li> 
         <li value="2"> <p>データを PDF、Excel、またはタブ区切り形式のファイルに書き出します。</p> <p>データの書き出しについて詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">データの書き出し</a>を参照してください。</p> </li> 
        </ol> </td> 
      </tr> 
@@ -116,8 +116,9 @@ Adobe Workfront 管理者は、管理対象の任意のグループのメンバ�
       <td role="rowheader">グループメンバーにコメントを送信</td> 
       <td> 
        <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">1 つ以上のユーザー名を選択し、<strong>更新</strong> <img src="assets/comment-icon.png"> をクリックします。</li> 
-        <li value="2">コメントを入力します。</li> 
+        <li value="1">1 人以上のグループメンバーを選択し、ツールバーの <strong> ユーザーに更新を送信 </strong> をクリックしてください。</li> 
+        <li value="2"><p>ユーザーに送信するコメントと、ユーザープロファイルの更新エリアに入力します。</p>
+        <p>詳しくは、<a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md"> 他のユーザーへのダイレクトメッセージの送信 </a> を参照してください。</p></li> 
        </ol> </td> 
      </tr> 
      <tr> 
