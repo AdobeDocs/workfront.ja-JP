@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 219e5fa3-cf25-477d-82f6-046e3ff30989
-source-git-commit: 2096cfa0fd4d0e7eeb85dbf00668dc1dd7fb1d99
+source-git-commit: c23b3967cf06aaff1bcd7465ce6c7a0c7b7fe9af
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '750'
 ht-degree: 90%
 
 ---
@@ -73,18 +73,18 @@ Adobe Workfront 管理者は、管理対象の任意のグループのメンバ�
      <tr> 
       <td role="rowheader">グループにユーザーを追加</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1"><strong>メンバーを追加</strong> <img src="assets/add-icon-plus-in-circle.png"> をクリックし、ユーザーの名前の入力を開始し、表示されたら選択します。</li> 
-        <li value="2"> <p>追加する他のユーザーに対して、この手順を繰り返します。</p> <p>ユーザーを追加しない場合は、名前の右側にある「X」をクリックできます。</p> </li> 
-        <li value="3">完了したら「<strong>完了</strong>」をクリックします。</li> 
+       <ol> 
+        <li><strong>メンバーを追加</strong> <img src="assets/add-icon-plus-in-circle.png"> をクリックし、ユーザーの名前の入力を開始し、表示されたら選択します。</li>
+        <li> <p>追加する他のユーザーに対して、この手順を繰り返します。</p> <p>ユーザーを追加しない場合は、名前の右側にある「X」をクリックできます。</p> </li>
+        <li>完了したら「<strong>完了</strong>」をクリックします。</li>
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">グループからユーザーを削除</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">1 つ以上のユーザー名を選択し、「<strong>メンバーを削除</strong><img src="assets/remove-icon---x-in-circle.png">」をクリックします。</li> 
-        <li value="2"> <p>表示される警告メッセージで「<strong>削除</strong>」をクリックします。</p> <p>リストから削除するユーザーを検索するには、「<strong>リスト内のユーザーとグループを検索</strong>」をクリックし、ボックスに名前を入力して、表示されたら名前をクリックします。</p> <p><b>メモ</b>：  
+       <ol> 
+        <li>1 つ以上のユーザー名を選択し、「<strong>メンバーを削除</strong><img src="assets/remove-icon---x-in-circle.png">」をクリックします。</li> 
+        <li> <p>表示される警告メッセージで「<strong>削除</strong>」をクリックします。</p> <p>リストから削除するユーザーを検索するには、「<strong>リスト内のユーザーとグループを検索</strong>」をクリックし、ボックスに名前を入力して、表示されたら名前をクリックします。</p> <p><b>メモ</b>：  
           <ul> 
            <li>このグループが削除するユーザーのホームグループの場合は、まずユーザーのプロファイルに別のホームグループを割り当てる必要があります。詳しくは、<a href="../../../administration-and-setup/manage-groups/groups-overview/home-groups.md" class="MCXref xref">ホームグループの概要</a>および<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。</li> 
            <li>グループに 1 人のグループ管理者しかいない場合に、グループから別のグループ管理者を削除する必要がある場合は、最初に別のグループ管理者をグループに割り当てる必要があります。</li> 
@@ -95,17 +95,17 @@ Adobe Workfront 管理者は、管理対象の任意のグループのメンバ�
      <tr> 
       <td role="rowheader">ユーザーのプロファイル情報を編集</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">1 つ以上のユーザー名を選択し、「<strong> 編集 </strong>」 <img src="assets/edit-icon.png"> をクリックします。</li> 
-        <li value="2"> <p>ユーザーのプロファイル情報を変更します。</p> <p>変更について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。</p> </li> 
+       <ol> 
+        <li>1 つ以上のユーザー名を選択し、「<strong> 編集 </strong>」 <img src="assets/edit-icon.png"> をクリックします。</li> 
+        <li> <p>ユーザーのプロファイル情報を変更します。</p> <p>変更について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">ユーザーのプロファイルの編集</a>を参照してください。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">ユーザーメンバーシップデータを書き出し</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">1 つ以上のユーザー名を選択し、「<strong> 書き出し </strong>」 <img src="assets/export.png"> タンをクリックします。</li> 
-        <li value="2"> <p>データを PDF、Excel、またはタブ区切り形式のファイルに書き出します。</p> <p>データの書き出しについて詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">データの書き出し</a>を参照してください。</p> </li> 
+       <ol> 
+        <li>1 つ以上のユーザー名を選択し、「<strong> 書き出し </strong>」 <img src="assets/export.png"> タンをクリックします。</li> 
+        <li> <p>データを PDF、Excel、またはタブ区切り形式のファイルに書き出します。</p> <p>データの書き出しについて詳しくは、<a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md" class="MCXref xref">データの書き出し</a>を参照してください。</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
@@ -115,9 +115,9 @@ Adobe Workfront 管理者は、管理対象の任意のグループのメンバ�
      <tr> 
       <td role="rowheader">グループメンバーにコメントを送信</td> 
       <td> 
-       <ol style="list-style-type: lower-alpha;"> 
-        <li value="1">1 人以上のグループメンバーを選択し、ツールバーの <strong> ユーザーに更新を送信 </strong> をクリックしてください。</li> 
-        <li value="2"><p>ユーザーに送信するコメントと、ユーザープロファイルの更新エリアに入力します。</p>
+       <ol> 
+        <li>1 人以上のグループメンバーを選択し、ツールバーの <strong> ユーザーに更新を送信 </strong> をクリックしてください。</li> 
+        <li><p>ユーザーに送信するコメントと、ユーザープロファイルの更新エリアに入力します。</p>
         <p>詳しくは、<a href="/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md"> 他のユーザーへのダイレクトメッセージの送信 </a> を参照してください。</p></li> 
        </ol> </td> 
      </tr> 
