@@ -4,68 +4,204 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: fa61335a6abf8eb880f7b1b14532f764deca4514
+source-git-commit: 1d7b6c280586f03277f1cce6cea3f8e8110fc602
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 39%
+source-wordcount: '641'
+ht-degree: 34%
 
 ---
 
 
 # アクセス要件テーブルの例 – 内部記事
 
-## システム管理者に関するほとんどの記事のアクセス要件
+## チェックリスト
 
-<!--Audited: 08/2025-->
+1. プランをパッケージに変更します。
+1. ライセンス行から現在および従来のを削除
+1. すべてのアスタリスクを削除
+1. 「この記事の機能のアクセス要件を表示するために展開」の後の紹介文をすべて削除します。
 
-+++ 展開すると、アクセス要件が表示されます。
+## アクセス要件（パッケージが同じままで、ライセンス行を更新する場合の例です）
+
+展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>製品</p></td> 
-   <td><p>Adobe Workfront</p></td> 
-  </tr> 
-  <tr> 
-  <tr> 
-   <td role="rowheader">
-      <p>Adobe Workfront パッケージ</p></td>
-
-<td> <p>任意のAdobe Workfront パッケージ</p>
-   または
-   <p>任意のAdobe Workfront ワークフローパッケージ</p>
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意 </p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p>標準</p>
-   または
-   <p>プラン</p></td> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td> <p>ライト以上</p>
+   <p>ワークまたはそれ以上</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベル設定</p></td> 
-   <td> <p>Workfront 管理者である必要があります。</p></td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>テンプレートへの編集アクセス</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>テンプレートに対する表示権限またはそれ以上の権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-+++
+## アクセス要件
+
+展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+   <p>ワークまたはそれ以上</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>テンプレートへの編集アクセス</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>テンプレートに対する表示権限またはそれ以上の権限</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+## アクセス要件
+
+展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfrontパッケージ</td> 
+   <td> <p>任意 </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>標準</p>
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>テンプレートへの編集アクセス</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">オブジェクト権限</td> 
+   <td> <p>テンプレートに対する表示権限またはそれ以上の権限</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+
+## アクセス要件（これは、新機能が 2023/2025 パッケージにのみ存在する例です）
+
+展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table>
+  <tr>
+   <td>Adobe Workfront パッケージ
+   </td>
+   <td> <p>PrimeまたはUltimate</p>
+    <p>ワークフロー Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>Adobe Workfront ライセンス
+   </td>
+   <td>標準
+   </td>
+  </tr>
+   <tr>
+   <td>アクセスレベル設定
+   </td>
+   <td>[!DNL Workfront] 管理者である必要があります。
+   </td>
+  </tr>
+</table>
+
+この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+## アクセス要件（他の製品が必要な場合の例）
+
+展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table>
+  <tr>
+   <td>Adobe Workfront パッケージ
+   </td>
+   <td> <p>PrimeまたはUltimate</p>
+    <p>ワークフロー Ultimate</p>
+   </td>
+  </tr>
+  <tr>
+   <td>その他の製品
+   </td>
+   <td> <p>Frame.io enterprise、AEM、Creative Cloud</p>
+   </td>
+  </tr>
+   <tr>
+   <td>アクセスレベル設定
+   </td>
+   <td>[!DNL Workfront] 管理者である必要があります。
+   </td>
+  </tr>
+</table>
+
+この表にある情報についての詳細は、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+
+## 2017 パッケージは、パッケージの行から削除する必要があります
+
+2017 パッケージ
+ライセンス：レビュー、ワーク、プランナー
+パッケージ：チーム、プロ、ビジネス、エンタープライズ
+
+2023 パッケージ
+ライセンス：コントリビューター、ライト、スタンダード
+パッケージ：select、prime、ultimate
+
+2025 ワークフローパッケージ
+ライセンス：コントリビューター、ライト、スタンダード
+パッケージ：ワークフロー選択、ワークフロープライム、ワークフロー究極
+
+2025 年計画パッケージ
+ライセンス：コントリビューター、ライト、スタンダード
+パッケージ：選択の計画、プライムの計画、最終的な計画
+
+
+
+
 
 ## ほとんどのWorkfront Planning のアクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。  
+展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
 <col> 
 </col> 
 <col> 
 </col> 
-<tbody>
-
+<tbody> 
 <tr> 
 <td> 
    <p> 製品</p> </td> 
@@ -77,12 +213,12 @@ ht-degree: 39%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のAdobe Workfront パッケージまたはAdobe Workfront ワークフローパッケージ</p> （***これは多すぎます**&#x200B;**）。
+<p>任意のAdobe Workfront パッケージまたはAdobe Workfront ワークフローパッケージ</p> （***これは多すぎます****）。
 
 And
 <p>任意のAdobe Workfront Planning パッケージ</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront Platform （**&#x200B;**&#x200B;これを呼び出すか、下部にリンクされている記事の一部にしますか？??**&#x200B;***）</p></td> 
+<td role="rowheader"><p>Adobe Workfront Platform （****これを呼び出すか、下部にリンクされている記事の一部にしますか？??*****）</p></td> 
    <td> 
 <p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
@@ -107,9 +243,9 @@ And
 </tbody> 
 </table>
 
-*Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-+++   
+
 
 
 ## ほとんどのシナリオプランナーに関するアクセス要件
@@ -119,7 +255,7 @@ And
 >過去に会社がAdobe Scenario Planner を購入したことがある場合は、新しいバージョンに変更されています。 シナリオプランナーは購入できなくなりました。
 
 
-+++ 展開すると、アクセス要件が表示されます。 
+展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,7 +269,7 @@ And
   <tr> 
    <td> <p>[!DNL Adobe Workfront] パッケージ</p> </td> 
    <td> 
-   <p>Adobe WorkfrontUltimate*</p>
+   <p>Adobe WorkfrontUltimate</p>
    </td> 
   </tr> 
   <tr> 
@@ -153,6 +289,5 @@ And
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-+++
