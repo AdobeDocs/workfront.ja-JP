@@ -5,10 +5,10 @@ description: 収益および追跡の費用を設定することに加えて、�
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: ec6ddb50d6b9137837c8031b22f213cd6ada70ff
+source-git-commit: 4805b93be7ce3dc098c7e160cdb872446f80ecbd
 workflow-type: tm+mt
 source-wordcount: '1645'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
@@ -76,7 +76,7 @@ ht-degree: 39%
 1. **プロジェクト** ページで、プロジェクトを選択します。
 1. 左側のパネルで「**請求記録**」をクリックします。
 1. **新しい請求記録** をクリックします。
-1. 表示される「**新規請求記録**」ボックスで、次の情報を指定します。
+1. 表示された **新しい請求記録** ボックスに、次の情報を入力します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -96,7 +96,7 @@ ht-degree: 39%
      </tr> 
      <tr> 
       <td role="rowheader">PO 番号</td> 
-      <td>この請求記録に関連付けられた発注番号を入力します。</td> 
+      <td>この請求記録に関連付けられている発注書番号を入力します。</td> 
      </tr> 
      <tr> 
       <td role="rowheader">インボイス ID</td> 

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: a7a4ef39cf5e50d487ec2053e6b02cb2bb06c3f5
+source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
 workflow-type: tm+mt
-source-wordcount: '6776'
+source-wordcount: '6894'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,24 @@ ht-degree: 2%
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
 ## 管理と設定
+
+### 設定のレビューおよび承認通知ページに対するインターフェイスの更新
+
+**プレビューリリース：2025 年 8 月 18 日（PT）、実稼動リリース：2025 年 8 月 18 日（PT）**
+
+レビューおよび承認の通知ページが更新され、Workfrontの他の領域と一致する、より現代的なデザインになりました。
+
+これらの変更を表示するには、設定/ メール / レビューと承認に移動します。
+
+### 請求レコードを追加および編集ダイアログのインターフェイスのアップデート
+
+**プレビューリリース：2025 年 8 月 14 日（PT）、実稼動リリース：2025 年 8 月 18 日（PT）**
+
+Workfrontの他のエリアと一致する、より現代的なデザインで請求記録を追加および編集するためのダイアログボックスを更新しました。
+
+これらの変更を表示するには、プロジェクト/プロジェクトを選択/請求記録/請求記録を追加または請求記録を編集に移動します
+
+詳しくは、[ 請求レコードの作成 ](/help/quicksilver/manage-work/projects/project-finances/create-billing-records.md) を参照してください。
 
 ### グループの「更新内容をユーザーに送信」ボックスのインターフェイス更新
 
@@ -43,6 +61,7 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 この変更を表示するには、設定/ごみ箱/最近削除された項目に移動します。
 
 詳しくは、[ 削除された項目の復元 ](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) を参照してください。
+
 
 ### 「設定」の「条件」領域に対するインターフェイスの更新
 
@@ -84,7 +103,7 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 ### 設定の SSO ユーザーを更新ページに対するインターフェイスのアップデート
 
-**プレビューリリース：2025 年 7 月 22 日（PT）、実稼動リリース：2025 年 7 月 28 日（PT）**
+**プレビューリリース：2025 年 7 月 22 日（PT）、実稼動リリース：2025 年 8 月 18 日（PT）**
 
 SSO のユーザーを更新ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
 

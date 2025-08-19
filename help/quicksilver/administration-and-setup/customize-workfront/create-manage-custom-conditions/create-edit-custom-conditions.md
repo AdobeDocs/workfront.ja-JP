@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 84%
+source-wordcount: '601'
+ht-degree: 89%
 
 ---
 
 # カスタム条件の作成または編集
-
-{{highlighted-preview}}
 
 Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェクト、タスクおよびイシューのカスタム条件を作成または編集できます。
 
@@ -66,13 +64,9 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
    または
 
-   既存の条件を編集するには、条件名の横にある <span class="preview">**編集** をクリックするか </span> 編集する条件にカーソルを置いて **編集** アイコンをクリックします。このアイコンは右端に表示されます。
+   既存の条件を編集するには、条件名の横にある **編集** をクリックします。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![ カスタム条件を編集 ](assets/custom-conditions-0825.png)
-
-   実稼動環境のサンプル画像：
-   ![ カスタム条件 ](assets/custom-condition-edit-nwe.jpg)
 
 1. 次のオプションを使用して、カスタム条件を設定します。
 
@@ -93,7 +87,7 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
       <td>（オプション）色アイコンをクリックし、プロジェクト、タスクまたはイシューに表示される際の条件の色を選択します。16 進数を入力することもできます。</td> 
      </tr> 
      <tr> 
-      <td>次と等しい </td> 
+      <td>次と同等 </td> 
       <td><p>（プロジェクトの場合のみ必須）新しい条件の機能を最もよく記述するオプションをドロップダウンリストでクリックします。例えば、「Tracking Well」という名前の条件の場合に「目標どおり」をクリックするといった具合です。これにより、デフォルト条件がどのように機能するかが決まります。作成する条件はどれも、ドロップダウンメニューのオプションのいずれかと一致する必要があります。</p>
       <p>デフォルト条件については、<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">カスタム条件をプロジェクトのデフォルトとして設定</a>および<a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md" class="MCXref xref">カスタム条件をタスクとイシューのデフォルトとして設定</a>を参照してください。</p>
       <p>条件の作成が終了した後は、このオプションを変更できません。</p></td> 
