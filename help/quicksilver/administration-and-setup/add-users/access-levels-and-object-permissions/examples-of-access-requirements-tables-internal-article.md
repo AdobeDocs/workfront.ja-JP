@@ -4,9 +4,9 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 1d7b6c280586f03277f1cce6cea3f8e8110fc602
+source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '630'
 ht-degree: 34%
 
 ---
@@ -213,12 +213,9 @@ ht-degree: 34%
 <tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のAdobe Workfront パッケージまたはAdobe Workfront ワークフローパッケージ</p> （***これは多すぎます**&#x200B;**）。
-
-And
-<p>任意のAdobe Workfront Planning パッケージ</p> 
+<p>任意のAdobe Workfront ワークフローパッケージと任意のAdobe Workfront Planning パッケージ</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront Platform （**&#x200B;**&#x200B;これを呼び出すか、下部にリンクされている記事の一部にしますか？??**&#x200B;***）</p></td> 
+<td role="rowheader"><p>Adobe Workfront Platform （****これを呼び出すか、下部にリンクされている記事の一部にしますか？??*****）</p></td> 
    <td> 
 <p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
@@ -262,12 +259,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
  <col> 
  <tbody>
 
-<tr> 
-   <td> <p>製品</p> </td> 
-   <td> <p>Adobe Workfront</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!DNL Adobe Workfront] パッケージ</p> </td> 
+<td> <p>[!DNL Adobe Workfront] パッケージ</p> </td> 
    <td> 
    <p>Adobe WorkfrontUltimate</p>
    </td> 

@@ -7,10 +7,10 @@ description: テンプレートを作成した後、テンプレートタスク�
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: 5bdf1bd285023d29ee6c61f16a4bd6a622d964d8
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 86%
+source-wordcount: '2491'
+ht-degree: 85%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 86%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,7 +52,7 @@ ht-degree: 86%
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限 </td> 
-   <td> <p>テンプレートの権限を管理します。 </p> <p>テンプレートタスクに対する参加以上の権限。</p> </td> 
+   <td> <p>テンプレートの権限を管理します。 </p> <p>テンプレートタスクは共有できません。 </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -248,7 +248,7 @@ ht-degree: 86%
         <li> <p style="font-weight: normal;">役割（毎時）</p> </li> 
         <li> <p style="font-weight: normal;">固定 (毎時)</p> </li> 
         <li> <p style="font-weight: normal;">ユーザー (毎時) (キャップ付き)</p> </li> 
-        <li> <p style="font-weight: normal;">役割（毎時）（上限付き）</p> </li> 
+        <li> <p style="font-weight: normal;">役割（毎時）（キャップ付き）</p> </li> 
         <li> <p style="font-weight: normal;">ユーザー（毎時）+ 固定</p> </li> 
         <li> <p style="font-weight: normal;">役割（毎時）+ 固定</p> </li> 
         <li> <p style="font-weight: normal;">固定収益</p> </li> 

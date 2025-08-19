@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 629e7943e7f14e555bf658d6b5c04c2b647b6f83
+source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
 workflow-type: tm+mt
-source-wordcount: '13427'
+source-wordcount: '13431'
 ht-degree: 85%
 
 ---
@@ -1233,6 +1233,7 @@ ht-degree: 85%
          * [テンプレートタスクのコピーと移動](manage-work/projects/create-and-manage-templates/copy-and-move-template-tasks.md)
          * [プロジェクトテンプレートの編集](manage-work/projects/create-and-manage-templates/edit-templates.md)
          * [テンプレートタスクを編集](manage-work/projects/create-and-manage-templates/edit-template-task.md)
+         * [テンプレートタスクの削除](manage-work/projects/create-and-manage-templates/delete-template-tasks.md)
          * [プロジェクトからテンプレートを作成](manage-work/projects/create-and-manage-templates/create-template-from-project.md)
          * [プロジェクトテンプレートを共有](manage-work/projects/create-and-manage-templates/share-project-template.md)
          * [プロジェクトテンプレートを削除](manage-work/projects/create-and-manage-templates/delete-templates.md)
