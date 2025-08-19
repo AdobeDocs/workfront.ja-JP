@@ -6,10 +6,10 @@ description: タイムシートプロファイルに加えた変更を現在の�
 author: Alina
 feature: Timesheets
 exl-id: 316c270a-c64e-4d83-a035-4128abe33f87
-source-git-commit: c9df676467007a84920073fe06bc3c73b18a89ae
+source-git-commit: 311816df863d3c03a54d43c8fa3cac69d2d6d7d4
 workflow-type: tm+mt
-source-wordcount: '458'
-ht-degree: 79%
+source-wordcount: '467'
+ht-degree: 78%
 
 ---
 
@@ -66,6 +66,8 @@ ht-degree: 79%
    特定のグループが使用するタイムシートを生成する場合は、「**グループ**」をクリックし、グループの名前をクリックします。
 
 1. 「**定期タイムシート**」をクリックします。
+1. その他アイコン ![ その他アイコン ](assets/more-icon.png) をクリックし、**タイムシートを生成** をクリックします。
+
 1. タイムシートプロファイルリストの上部で、システムレベルのタイムシートプロファイルには **その他** アイコン ![ その他 ](assets/more-icon.png) をクリックし、グループタイムシートプロファイルには **その他** をクリックしてから、「**タイムシートを生成** をクリックします。
 
    新しいタイムシートは、タイムシートプロファイルに関連付けられたユーザーに対して、最大 2 期間作成されます。

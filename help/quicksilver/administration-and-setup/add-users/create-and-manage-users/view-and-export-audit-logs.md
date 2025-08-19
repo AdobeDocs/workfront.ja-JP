@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 95%
+source-wordcount: '330'
+ht-degree: 92%
 
 ---
 
@@ -77,7 +77,7 @@ ht-degree: 95%
    >
    >「アクションタイプ」ドロップダウンメニューのオプションは、選択した監査ログによって異なります。
 
-   ![監査ログ](assets/audit-logs.jpg)
+   ![監査ログ](assets/audit-logs.png)
 
 1. 「**適用**」をクリックします。
 1. （オプション）「**フィルターをクリア**」をクリックして、フィルターに加えられた変更をリセットします。
@@ -86,7 +86,7 @@ ht-degree: 95%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**システム／監査ログ**&#x200B;をクリックします。
+1. 左側のパネルで、**システム/変更トラッキング/監査ログ** をクリックします。
 
 1. 「**ログタイプ**」ドロップダウンメニューで「監査ログ」を選択します。
 

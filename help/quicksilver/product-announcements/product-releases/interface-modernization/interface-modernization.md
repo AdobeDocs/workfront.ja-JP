@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 8cfb8a6c9a5c512b5722dc6d66840faaeba08c67
+source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
 workflow-type: tm+mt
-source-wordcount: '6894'
+source-wordcount: '6892'
 ht-degree: 2%
 
 ---
@@ -93,7 +93,7 @@ Workfrontの他のエリアと一致する、より現代的なデザインで�
 
 ### 設定の監査ログページに対するインターフェイスの更新
 
-**プレビューリリース：2025 年 7 月 22 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：2025 年 7 月 22 日（PT）、実稼動リリース：2025 年 7 月 28 日（PT）**
 
 設定の「監査ログ」ページがアプリケーションの他の領域と一致するように更新されました。
 
