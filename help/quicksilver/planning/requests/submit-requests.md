@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
 workflow-type: tm+mt
-source-wordcount: '2019'
+source-wordcount: '2005'
 ht-degree: 5%
 
 ---
@@ -40,7 +40,7 @@ Workfront ユーザーと外部ユーザーは、Planning レコードタイプ�
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto">
  <col>
@@ -162,7 +162,7 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
 1. **新規リクエスト** をクリックします。
 
-   ![Workfrontと Planning の統合カードを含む新しいリクエストボックス ](assets/new-request-box-with-unified-workfront-and-planning-cards.png)
+   <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
    **新規リクエスト** ボックスが開き、次の情報が表示されます。
 
@@ -171,7 +171,7 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
 
 1. 次のいずれかの操作を行います。
 
-   * 「最近」または「すべてのリクエストフォーム」セクションで、Planning リクエストフォームのいずれかのカードをクリックします
+   * 「最近」または「すべて」の要求フォーム・セクションで、計画の要求フォームを選択します
    * 検索ボックスに Planning 要求フォームの名前の入力を開始し、リストに表示されたらカードをクリックします。
 
    リクエストフォームが開きます。
