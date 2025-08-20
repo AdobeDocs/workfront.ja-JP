@@ -4,9 +4,9 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
+source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '657'
 ht-degree: 34%
 
 ---
@@ -17,13 +17,15 @@ ht-degree: 34%
 ## チェックリスト
 
 1. プランをパッケージに変更します。
-1. ライセンス行から現在および従来のを削除
-1. すべてのアスタリスクを削除
+1. ライセンス行から現在および従来のを削除します。 必ずで包むようにします。 <p> タグ。
+1. DNL または UI コントロールタグを削除します。
+1. 太字を取り外します。
+1. アスタリスクをすべて取り除きます。
 1. 「この記事の機能のアクセス要件を表示するために展開」の後の紹介文をすべて削除します。
 
 ## アクセス要件（パッケージが同じままで、ライセンス行を更新する場合の例です）
 
-展開すると、この記事の機能のアクセス要件が表示されます。
+展開すると、この記事の機能のアクセス要件が表示されます
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,7 +37,7 @@ ht-degree: 34%
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>ライト以上</p>
    <p>ワークまたはそれ以上</p></td> 
   </tr> 
@@ -50,11 +52,11 @@ ht-degree: 34%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## アクセス要件
 
-展開すると、この記事の機能のアクセス要件が表示されます。
+展開すると、この記事の機能のアクセス要件が表示されます
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,9 +84,9 @@ ht-degree: 34%
 
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-## アクセス要件
+## アクセス要件（新規のお客様のみ利用可能）
 
-展開すると、この記事の機能のアクセス要件が表示されます。
+展開すると、この記事の機能のアクセス要件が表示されます
 
 <table style="table-layout:auto"> 
  <col> 
@@ -115,7 +117,7 @@ ht-degree: 34%
 
 ## アクセス要件（これは、新機能が 2023/2025 パッケージにのみ存在する例です）
 
-展開すると、この記事の機能のアクセス要件が表示されます。
+展開すると、この記事の機能のアクセス要件が表示されます
 
 <table>
   <tr>
@@ -143,7 +145,7 @@ ht-degree: 34%
 
 ## アクセス要件（他の製品が必要な場合の例）
 
-展開すると、この記事の機能のアクセス要件が表示されます。
+展開すると、この記事の機能のアクセス要件が表示されます
 
 <table>
   <tr>
@@ -151,6 +153,12 @@ ht-degree: 34%
    </td>
    <td> <p>PrimeまたはUltimate</p>
     <p>ワークフロー Ultimate</p>
+   </td>
+  </tr>
+    <tr>
+   <td>Adobe Workfront ライセンス
+   </td>
+   <td>標準
    </td>
   </tr>
   <tr>
@@ -189,9 +197,6 @@ ht-degree: 34%
 パッケージ：選択の計画、プライムの計画、最終的な計画
 
 
-
-
-
 ## ほとんどのWorkfront Planning のアクセス要件
 
 展開すると、この記事の機能のアクセス要件が表示されます。
@@ -215,7 +220,7 @@ ht-degree: 34%
    <td> 
 <p>任意のAdobe Workfront ワークフローパッケージと任意のAdobe Workfront Planning パッケージ</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront Platform （**&#x200B;**&#x200B;これを呼び出すか、下部にリンクされている記事の一部にしますか？??**&#x200B;***）</p></td> 
+<td role="rowheader"><p>Adobe Workfront Platform （****これを呼び出すか、下部にリンクされている記事の一部にしますか？??*****）</p></td> 
    <td> 
 <p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
