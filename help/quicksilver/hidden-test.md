@@ -223,7 +223,7 @@ ht-degree: 35%
    <td> 
 <p>任意のAdobe Workfront ワークフローパッケージと任意のAdobe Workfront Planning パッケージ</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront Platform （****これを呼び出すか、下部にリンクされている記事の一部にしますか？??*****）</p></td> 
+<td role="rowheader"><p>Adobe Workfront Platform （**&#x200B;**&#x200B;これを呼び出すか、下部にリンクされている記事の一部にしますか？??**&#x200B;***）</p></td> 
    <td> 
 <p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
