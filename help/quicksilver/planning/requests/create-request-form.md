@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 4f8a8c263f53ff30f99062dedc10d674b867b0b7
+source-git-commit: 359131cef04fdb46def64428a7a693c3f00b2cd4
 workflow-type: tm+mt
-source-wordcount: '2298'
-ht-degree: 7%
+source-wordcount: '2568'
+ht-degree: 8%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 {{planning-important-intro}}
 
-リクエストフォームを作成し、Adobe Workfront Planning でレコードタイプに関連付けることができます。 その後、フォームを他のユーザーと共有し、他のユーザーがレコードを作成するリクエストを送信できます。
+リクエストフォームを作成し、Adobe Workfront Planning でレコードタイプに関連付けることができます。 その後、フォームを他のユーザーと共有し、他のユーザーがそのタイプのレコードを作成するリクエストを送信できます。
 
 この記事では、ワークスペースマネージャーがレコードタイプに関連付けられたリクエストフォームを作成する方法について説明します。
 
@@ -34,7 +34,7 @@ ht-degree: 7%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto">
  <col>
@@ -135,7 +135,11 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
    * 通貨フィールドを参照する数式フィールドは、為替レートを考慮せずに値を表示します。
    * 段落フィールドの値は、リクエストフォームに「N/A」値を表示し、リクエストの詳細ページに書式設定されたテキストの代わりに HTML タグを表示します。
 
-## レコードタイプ用のリクエストフォームの作成
+## リクエストフォームの作成を開始
+
+リクエストフォームは、フォームに関連付けられたレコードタイプ <span class="preview"> またはWorkfrontのリクエスト エリア </span> から作成できます。
+
+### レコードタイプからのリクエストフォームの作成
 
 {{step1-to-planning}}
 
@@ -149,12 +153,51 @@ Workfront Planning 要求の発行の詳細は、[ レコードを作成する�
 
 1. ページ ヘッダーのレコードの種類名の右側にある **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックし、既にフォームがあり、追加のフォームを作成する場合は **リクエストフォームを作成** または **リクエストフォームを管理** をクリックします。
 1. （条件付き）別のフォームを追加する場合は、「**新規リクエストフォーム**」をクリックします。
-1. リクエストフォームの名前を更新します。 デフォルトでは、フォームの名前は **名称未設定フォーム** です。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
+
+   「リクエストフォームを作成」ボックスが開きます。
+
+1. 「リクエストフォームを作成」ボックスで、リクエストフォームの名前を更新します。 デフォルトでは、フォームの名前は **名称未設定フォーム** です。<!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. （オプション）リクエストフォームに **説明** を追加します。
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. 「**作成**」をクリックします。選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
+1. 「**作成**」をクリックします。
+
+   選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
+1. [ フォームの設定 ](#configure-the-form) を続行します。
+
+<div class="preview">
+
+### Workfrontの「リクエスト」領域からリクエストフォームを作成します
+
+1. Adobe Workfront の右上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon.png)をクリックするか、または（使用可能な場合）左上隅にある&#x200B;**[!UICONTROL メインメニュー]**&#x200B;アイコン![メインメニュー](/help/_includes/assets/main-menu-icon-left-nav.png)、「**リクエスト**」の順にクリックします。
+1. 画面の右上隅にある「**フォームをリクエスト**」をクリックします。
+1. （条件付き）既存のリクエストフォームを編集している場合は、リストからフォームを選択し、続行します [ フォームの設定 ](#confgure-the-form)。
+1. 新しいリクエストフォームを作成している場合は、画面の右上隅にある **新しいリクエストフォーム** をクリックします。
+
+   「リクエストフォームを作成」ボックスが開きます
+
+1. 「リクエストフォームを作成」ボックスで、リクエストフォームの名前を更新します。 デフォルトでは、フォームの名前は **名称未設定フォーム** です。
+1. 「オブジェクトタイプ」フィールドで、リクエストフォームが関連付けられるレコードタイプを選択します。 レコードタイプは、既存のワークスペースにグループ化されます。
+1. （オプション）リクエストフォームに **説明** を追加します。
+
+   <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
+
+1. 「**作成**」をクリックします。
+
+   選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
+1. [ フォームの設定 ](#configure-the-form) を続行します。
+
+</div>
+
+## フォームの設定
+
+1. 次のいずれかの節で説明するように、リクエストフォームの作成または編集を開始します。
+
+   * [レコードタイプからのリクエストフォームの作成](#create-a-request-form-from-a-record-type)
+   * <span class="preview">[Workfrontの「リクエスト」エリアからリクエストフォームを作成する ](#create-a-request-form-from-the-requests-area-of-workfront)</span>
+
+   選択したレコードタイプのリクエストフォームが「フォーム」タブで開きます。
 
    ![ キャンペーンリクエストフォーム編集モード ](assets/campaigns-request-form-edit-mode.png)
 
