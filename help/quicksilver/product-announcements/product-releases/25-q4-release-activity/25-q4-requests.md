@@ -3,10 +3,9 @@ title: 2025 年第 4 四半期リクエストの機能強化
 description: 2025 年第 4 四半期リクエストの機能強化
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: eafc56adab1fad3bbc1a4f3dc8f61e599ab21f57
+exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 21%
@@ -23,8 +22,8 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->* プレビュー：2025 年 7 月 31 日（PT）
->* 実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>* プレビュー：2025 年 8 月 21 日（PT）
+>* 実稼動高速リリース：2025 年 9 月 11 日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 WorkfrontとWorkfront Planning でリクエストを行う際のユーザーエクスペリエンスを向上させるために、リクエスト時のエクスペリエンスを更新しました。 次の操作が可能になりました。

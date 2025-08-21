@@ -3,13 +3,12 @@ title: 2025年第 4 四半期のホームの機能強化
 description: 2025年第 4 四半期のホームの機能強化
 author: Courtney
 feature: Product Announcements
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 3b1085fe3221650bc1ba7c7223c2c2160e11f757
+exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '149'
-ht-degree: 36%
+source-wordcount: '164'
+ht-degree: 33%
 
 ---
 
@@ -23,8 +22,8 @@ ht-degree: 36%
 
 >[!NOTE]
 >
->* プレビュー：2025 年 7 月 24 日（PT）
->* 実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>* プレビュー：2025 年 8 月 21 日（PT）
+>* 実稼動高速リリース：2025 年 9 月 11 日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 WorkfrontとWorkfront Planning の間でよりシームレスなエクスペリエンスを作り出すために、ホームのマイリクエスト ウィジェットのデザインを一新しました。 新しいウィジェットの特徴は次のとおりです。
@@ -33,4 +32,4 @@ WorkfrontとWorkfront Planning の間でよりシームレスなエクスペリ�
 * フィルターをカスタマイズしやすくなりました。 AND または OR ルールを使用して、特定のフィールド値でフィルタリングできるようになりました。
 * ウィジェット内の列の非表示や並べ替えができます。
 
-<!--For more information on the new My Requests widget, see [Use the My Requests widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md).-->
+新しいマイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。

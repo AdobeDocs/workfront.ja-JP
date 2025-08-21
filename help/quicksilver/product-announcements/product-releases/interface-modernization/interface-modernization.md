@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b050e096a05bd25d07b5e93ae9db7d0fef332d3a
+source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
 workflow-type: tm+mt
-source-wordcount: '6892'
+source-wordcount: '7094'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,17 @@ ht-degree: 2%
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
 ## 管理と設定
+
+<!--
+### Interface updates when editing a Scorecard
+
+**Preview release: August 21, 2025; Production release: August 21, 2025**
+
+We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+
+A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+
+-->
 
 ### 設定のレビューおよび承認通知ページに対するインターフェイスの更新
 
@@ -110,6 +121,54 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 この変更を表示するには、設定/システム/SSO のユーザーを更新に移動します
 
 ## プロジェクト
+
+### プログラムやポートフォリオにオブジェクトを追加する際のインターフェイスの更新
+
+**プレビューリリース：2025 年 5 月 22 日（PT）、実稼動リリース：2025 年 5 月 29 日（PT）**
+
+>[!NOTE]
+>
+>これは、一時的にプレビューと実稼動環境の両方から削除され、2025 年 8 月 21 日に追加されました。
+
+
+以下を行う際の、「追加」ボックスのインターフェイスを更新しました。
+
+* プログラムへのプロジェクトの追加
+* ポートフォリオへのプロジェクトの追加
+* ポートフォリオへのプログラムの追加
+
+詳しくは、次の記事を参照してください。
+
+* [ポートフォリオに既存プログラムの追加](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
+* [ポートフォリオへのプロジェクトの追加](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
+* [プログラムにプロジェクトを追加](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
+
+### プロジェクトとテンプレートの「新しいキュー」トピックボックスに対するインターフェイスの更新
+
+**プレビューリリース：2025 年 8 月 21 日（PT）、実稼動リリース：2025 年 8 月 28 日（PT）**
+
+新しいキュートピックをプロジェクトまたはテンプレートに追加する際の、新しいキュートピック ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
+
+詳しくは、[ キュートピックの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) を参照してください。
+
+### プロジェクトまたはテンプレート上のキュートピックを編集するとインターフェイスが更新される
+
+**プレビューリリース：2025 年 8 月 21 日（PT）、実稼動リリース：2025 年 8 月 28 日（PT）**
+
+プロジェクトとテンプレートに関するキュートピックを編集する際のエクスペリエンスを、Workfrontの他の領域と一致するように更新しました。
+
+このアップデートにより、機能が少し変更されました。 これで、キュートピックをクリックすると、キュートピックの詳細ページではなく、キュートピックの編集ページに直接移動できるようになりました。
+
+詳しくは、[ キュートピックの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) を参照してください。
+
+<!--### Interface update for the Edit Expense box of a project
+
+**Preview release: August 21, 2025; Production release: August 28, 2025**
+
+We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+
+For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
+-->
 
 ### 「時間」セクション内のプロジェクト、タスクまたは問題に時間を記録するためのインターフェイス更新
 
@@ -204,6 +263,14 @@ MS Project からプロジェクトを読み込む際の「MS プロジェクト
 詳しくは、[プロジェクト費用の管理](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)を参照してください。
 
 ## テンプレート
+
+### テンプレート上の人物リストに対するインターフェイスの更新
+
+**プレビューリリース：2025 年 8 月 21 日（PT）、実稼動リリース：2025 年 8 月 28 日（PT）**
+
+Workfrontの他の領域のデザインと一致するように、テンプレートの人物リストのルックアンドフィールを更新しました。
+
+テンプレートでユーザーと作業することは、プロジェクトでユーザーと作業することと似ています。 詳しくは、[ プロジェクトチームの管理 ](/help/quicksilver/manage-work/projects/planning-a-project/manage-project-team.md) を参照してください。
 
 ### テンプレートの先行タスク リストのインターフェイス更新
 
@@ -542,26 +609,6 @@ Workfrontの他の領域のデザインと一致するように、「テンプ�
 
 詳しくは、[ プロジェクトテンプレートのコピー ](/help/quicksilver/manage-work/projects/create-and-manage-templates/copy-template.md) を参照してください。
 
-### プログラムやポートフォリオにオブジェクトを追加するときに更新されたルックアンドフィール
-
-**プレビューリリース：2025 年 5 月 22 日（PT）、実稼動リリース：2025 年 5 月 29 日（PT）**
-
->[!NOTE]
->
->プレビューおよび実稼動から一時的に削除
-
-
-以下を行う際の、「追加」ボックスのインターフェイスを更新しました。
-
-* プログラムへのプロジェクトの追加
-* ポートフォリオへのプロジェクトの追加
-* ポートフォリオへのプログラムの追加
-
-詳しくは、次の記事を参照してください。
-
-* [ポートフォリオに既存プログラムの追加](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/move-program.md)
-* [ポートフォリオへのプロジェクトの追加](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
-* [プログラムにプロジェクトを追加](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
 
 +++
 
