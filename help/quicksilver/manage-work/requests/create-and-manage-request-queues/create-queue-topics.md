@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 81b40eda8536d1a63c38a297d92158a12f9d350e
+source-git-commit: 613904bd75aabe3062c5ab50f28cf44eb62919e8
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 85%
+source-wordcount: '1036'
+ht-degree: 77%
 
 ---
 
@@ -183,5 +183,16 @@ ht-degree: 85%
 1. 編集するキュートピックを含むプロジェクトまたはテンプレートに移動します。
 1. 左側のパネルで **キュートピック** をクリックします。
 1. 実稼動環境で、編集するキュートピックを選択します。 開いた詳細ページで、「**キュートピックを編集**」をクリックします。
-   <!--1. <span class="preview">In the Preview environment, select the Queue Topic that you want to edit, then click the Edit icon ![Edit icon](assets/edit-icon.png).</span>-->
+1. <span class="preview"> プレビュー環境で、編集するキュートピックをクリックします。
+
+使用可能な編集オプションについては、この記事の [ キュートピックの作成 ](#create-a-queue-topic) を参照してください。
+
+## キュートピックの削除
+
+1 つ以上のキュートピックを同時に削除できます。
+
+1. 削除するキュートピックを含むプロジェクトまたはテンプレートに移動します。
+1. 左側のパネルで **キュートピック** をクリックします。
+1. 削除する各キュートピックの名前の横にあるボックスをクリックします。 ボックスにチェックマークが表示されます。
+1. ページ上部の **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
 
