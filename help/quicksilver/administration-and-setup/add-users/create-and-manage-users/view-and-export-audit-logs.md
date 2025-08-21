@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。監査ログはエクスポートすることもできます。監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 994518f7abe519180fa6c3eab6b29165475ab4fc
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 92%
+source-wordcount: '424'
+ht-degree: 64%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 92%
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
 
-システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。監査ログはエクスポートすることもできます。
+システム内のすべての監査ログ、または特定のフィルタリング条件を満たす監査ログを表示できます。また、監査ログを CSV ファイルに書き出すこともできます。
 
 監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
 
@@ -38,20 +38,19 @@ ht-degree: 92%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td> 
   </tr> 
   <tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：プラン</p></td>
+   <td><p>標準</p>
+       <p>プラン</p></td>
   </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td>[!UICONTROL System Administrator]</td>
+   <td><p>システム管理者</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -65,28 +64,34 @@ ht-degree: 92%
 {{step-1-to-setup}}
 
 1. 左側のパネルで、**システム／監査ログ**&#x200B;をクリックします。
+1. **アクションタイプ** ドロップダウンで、表示する監査のタイプを選択します。
+
+   >[!NOTE]
+   >
+   >「アクションタイプ」ドロップダウンメニューのオプションは、選択した監査ログによって異なります。
+
 1. 「**ログタイプ**」ドロップダウンメニューで、表示する監査ログのタイプを選択します。
 
    デフォルトでは、「**すべてのログタイプ**」が選択されています。
 
    表示できるすべての監査ログタイプとそれらに含まれる情報のリストについては、[監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)を参照してください。
 
-1. （オプション）使用可能な任意のフィルターを設定します。
+1. （オプション）次のフィールドに使用可能なフィルターを設定します。
 
-   >[!NOTE]
-   >
-   >「アクションタイプ」ドロップダウンメニューのオプションは、選択した監査ログによって異なります。
+   * **ユーザー**：変更を加えたユーザーの名前を入力します。
+   * **開始日**：変更が行われた時間枠の開始日。
+   * **終了**：変更が行われた時間枠の終了日。
 
    ![監査ログ](assets/audit-logs.png)
 
 1. 「**適用**」をクリックします。
-1. （オプション）「**フィルターをクリア**」をクリックして、フィルターに加えられた変更をリセットします。
+1. （任意）「**消去**」をクリックして、フィルターに加えた変更をリセットします。
 
 ## 監査ログのエクスポート
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**システム/変更トラッキング/監査ログ** をクリックします。
+1. 左側のパネルで、**システム**/**監査ログ** をクリックします。
 
 1. 「**ログタイプ**」ドロップダウンメニューで「監査ログ」を選択します。
 
@@ -99,3 +104,9 @@ ht-degree: 92%
    >一度に 50,000 件を超えるログをエクスポートすることはできません。Workfront では、ページに表示されるログの数ではなく、設定したフィルターに基づいてログがエクスポートされます。フィルターされたログの合計数は、ページの右下に表示されます。
 
 1. 「**エクスポート**」をクリックします。
+
+   「ファイルを保存」ボックスが開き、書き出したファイルをコンピューターに保存できます。
+
+   監査ログは CSV 形式でのみ保存できます。
+
+   書き出されたファイルの保存を完了します。 コンピューターで見つけて、他のユーザーと共有できるようになりました。

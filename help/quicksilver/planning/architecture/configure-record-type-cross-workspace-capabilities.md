@@ -4,10 +4,10 @@ description: レコードタイプは、別のワークスペースに追加す�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1030'
-ht-degree: 12%
+source-wordcount: '1021'
+ht-degree: 13%
 
 ---
 
@@ -43,7 +43,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 # レコードタイプのクロスワークスペース機能の設定
 
-<!--this is linked to the UI in the info icon of when you create a record type from a global record type-->
+<!--this is linked to the UI in the info icon when you enable a record to be either centralized or connectable-->
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
@@ -127,7 +127,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 +++   
 
-## 他のワークスペースへのレコードタイプの追加の設定
+## 一元化されたレコードタイプの設定
+
+<!--this is a UI term; don't change the title of this section-->
 
 ワークスペースマネージャーは、レコードタイプの作成または編集時に他のワークスペースに追加されるレコードタイプを設定できます。
 
@@ -180,7 +182,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
      このフィールドは読み取り専用で、削除できません。
 
-## 他のワークスペースからレコードタイプへの接続の設定
+## 接続可能なレコードタイプの設定
+
+<!--this is a UI term; don't change the title of this section-->
 
 レコードタイプの作成または編集時に、他のワークスペースから接続するレコードタイプを設定できます。
 

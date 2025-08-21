@@ -1,13 +1,13 @@
 ---
-title: クロスワークスペースのレコードタイプを追加
+title: 既存のレコードタイプを追加
 description: レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。Workfront Planning では、既存のレコードタイプを別のワークスペースからインポートできます。
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 19%
+source-wordcount: '635'
+ht-degree: 17%
 
 ---
 
@@ -19,7 +19,7 @@ author: Alina
 recommendations: noDisplay, noCatalog
 -->
 
-# ワークスペース間のレコードタイプを追加
+# 既存のレコードタイプの追加
 
 <span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
@@ -35,7 +35,7 @@ recommendations: noDisplay, noCatalog
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。  
++++ 展開して、この記事の機能のアクセス要件を表示します。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -109,6 +109,7 @@ recommendations: noDisplay, noCatalog
    * レコード接続
 
 * フィールドを含むレコードタイプは、元のワークスペースでのみ編集できます。 追加されたワークスペースから編集することはできません。
+* すべてのワークスペースから追加されたレコードは、権限のないワークスペースで作成された場合でも、すべてのワークスペースからアクセスするすべてのユーザーに表示されます。
 
 ## 既存のレコードタイプからレコードタイプを作成する
 

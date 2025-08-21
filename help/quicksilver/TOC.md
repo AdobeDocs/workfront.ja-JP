@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: aa1c75263b23389b2a98cb6f10d7cd76515612d8
+source-git-commit: cc2787176a862b4d020955edad5ed5246cfef862
 workflow-type: tm+mt
 source-wordcount: '13445'
 ht-degree: 85%
@@ -2073,7 +2073,7 @@ AI アシスタント  {#ai-assistant}
       * [レコードタイプの作成](planning/architecture/create-record-types.md)
       * [CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成](planning/architecture/import-file-to-create-record-types.md)
       * [レコードタイプのクロスワークスペース機能の設定](planning/architecture/configure-record-type-cross-workspace-capabilities.md)
-      * [ワークスペース間のレコードタイプを追加](planning/architecture/add-cross-workspace-record-types.md)
+      * [既存のレコードタイプの追加](planning/architecture/add-cross-workspace-record-types.md)
       * [レコードタイプの接続：概要](planning/architecture/connect-record-types-overview.md)
       * [レコードタイプの接続](planning/architecture/connect-record-types.md)
       * [レコードタイプの編集](planning/architecture/edit-record-types.md)

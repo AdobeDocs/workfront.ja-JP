@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2814'
 ht-degree: 18%
 
 ---
@@ -35,6 +35,14 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 </div>
 
+<!--
+<div class="preview">
+
+* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
+
+</div>
+-->
+
 * [外部リストからのレコードのリストのコピー&amp;ペースト](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [テーブルビューからレコードを複製](#create-records-by-duplicating-them)
 * [他のレコードから接続](#create-records-as-you-connect-them)
@@ -49,7 +57,7 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。  
 
 <table style="table-layout:auto"> 
 <col> 
@@ -273,6 +281,7 @@ You can import records from other applications by linking them to existing recor
    * CTRL + Z （Macの場合は ⌘ + Z）
    * Ctrl + Shift + Z （Macの場合は ⌘ + Shift + Z）
 
+
 <div class="preview">
 
 ## レコードタイプのタイムラインビューに追加してレコードを作成
@@ -303,7 +312,12 @@ You can import records from other applications by linking them to existing recor
    ![ 名前のないレコード バーを含むタイムライン上の新規レコード ボックス ](assets/new-record-small-box-on-timeline.png)
 1. 次の情報を更新します。
 
-   * **名前**: レコードの名前を入力します。 空のままにすると、Workfrontはデフォルトで **名称未設定** と名前を付けます。 名前を空のままにすると、レコードバーに表示されません。
+   * **名前**: レコードの名前を入力します。 空のままにすると、Workfrontはデフォルトで **名称未設定** と名前を付けます。
+
+     >[!TIP]
+     >
+     >タイムライン設定に従ってレコードバーにレコードの名前を表示する場合、空のままにすると、その名前はレコードバーに表示されません。
+
    * **レコード日付フィールド**：レコードの日付を更新します。
 
      日付フィールドの名前は、タイムラインビューが作成された際に、「開始日」および「終了日」で選択されたフィールドに従ってカスタマイズされます。
@@ -331,6 +345,74 @@ You can import records from other applications by linking them to existing recor
    >サムネールは、ビューの設定で有効になっている場合にのみ、タイムラインビューに表示されます。
 
 </div>
+
+<!--
+
+<div class="preview">
+
+## Create records by adding them in the record type calendar view
+
+You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+
+For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+
+{{step1-to-planning}}
+  
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
+
+    The record type page opens in the view that you last accessed. 
+
+1. Click to open a calendar view, or create a calendar view.
+
+    >[!NOTE]
+    >
+    >You can create a calendar view only if there are at least two date fields associated with the record type.
+1. Double-click anywhere on the calendar. 
+
+    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********)
+
+    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+
+1. Update the following information:
+
+    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
+    
+        >[!TIP]
+        >
+        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+
+    * **Record date fields**: Update the dates of the record. 
+        
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+
+        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+
+        * By **Month**: The record start and end dates span one day.
+        * By **Week**: The record start and end dates span two days.
+
+1. (Optional) Click one of the following icons: 
+
+    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
+    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
+    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+
+    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
+
+1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+
+    >[!TIP]
+    >
+    >By default, Workfront associates the record with a thumbnail and a cover image.
+    >
+    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+
+</div>
+
+-->
 
 ## 外部リストからレコードをコピー&amp;ペーストして作成
 

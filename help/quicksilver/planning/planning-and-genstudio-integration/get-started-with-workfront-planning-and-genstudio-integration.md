@@ -4,16 +4,12 @@ description: GenStudio for Performance Marketing Workspace は、会社が両方
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
-source-wordcount: '1359'
-ht-degree: 5%
+source-wordcount: '1475'
+ht-degree: 6%
 
 ---
-
-# Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ
-
-<!--update the text in the title everywhere this article is linked from - it changed a few times-->
 
 <!--Better metadata, at publishing:
 ---
@@ -29,13 +25,22 @@ recommendations: noDisplay, noCatalog
 
 <!--use this article to make this one similar to it: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/review-approval-integrations/wf-proof-and-genstudio-->
 
+
+# Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ
+
+<!--update the text in the title everywhere this article is linked from - it changed a few times-->
+
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+
 Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの両方を使用している組織では、多くの場合、キャンペーン、商品、ペルソナなどのマーケティング概念を、GenStudioがデフォルトでサポートしている概念よりも詳細に定義しています。
 
 GenStudio for Performance MarketingとWorkfront Planning はネイティブで統合されています。 この統合により、Workfront Planning のユーザーはGenStudioで使用されるキャンペーン、製品、ペルソナ、アクティベーション、チャネルおよびリージョンを管理できるようになります。 また、Workfront Planning から既存のレコードタイプを参照するようにGenStudioを設定して、より接続された一貫性のあるマーケティングワークフローを作成することもできます。
 
-この統合により、データ入力の重複を回避し、計画とアクティブ化の取り組み間の整合性を維持し、レコードのマーケティングシステムをサポートできます。
-
 GenStudio for Performance Marketing Workspace は、会社が両方の製品を購入すると、Adobe Workfront Planning で使用できるようになります。
+
+## 統合のメリット
 
 Workfront Planning とGenStudio for Performance Marketingの統合により、次のことができます。
 
@@ -44,6 +49,8 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 * Workfront Planning でGenStudioワークスペースを表示します。
 * GenStudioのキャンペーンを変更し、Workfront Planning で同じ情報をリアルタイムで更新します。
 * Workfront Planning でキャンペーンを変更し、GenStudioで同じ情報をリアルタイムで更新します。
+* 重複するデータ入力を避けます。
+* 計画とアクティブ化の取り組み間の整合性を維持します。
 
 ## 統合要件
 
@@ -70,25 +77,16 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 </col> 
 <tbody> 
     <tr> 
-<tr> 
-<td> 
-   <p> 製品</p> </td> 
+    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe GenStudio for Performance Marketing</p></li>
-   </ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
-   <td> 
-<p>任意のWorkfront ワークフローパッケージ</p>  
-<p>任意のWorkfront Planning パッケージ</p>
-   </td> </tr>
+<p>任意のAdobe Workfront ワークフローパッケージ</p>
+<p>任意のAdobe Workfront Planning パッケージ</p>
 
+</td> </tr>
 <tr> 
    <td role="rowheader"><p>Adobe GenStudio パッケージ</p></td> 
    <td> 
-<p>???</p>
+<p>???GEN STUDIO には、これをサポートするパッケージがありま？??。</p>
 
 </td> </tr>
 
@@ -102,22 +100,28 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p> システム管理者</p>
+   <td><p> 標準</p>
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe GenStudio ライセンス</p></td> 
-   <td><p> ???</p>
+   <td><p> ???GEN STUDIO には、これをサポートする特定のライセンスが必要で？??。</p>
   </td> 
   </tr> 
   <tr> 
+<td> 
+   <p> その他の製品</p> </td> 
+   <td> 
+   <p> Adobe GenStudio for Performance Marketing</p></td> 
+  </tr>   
+  <tr> 
    <td role="rowheader"><p>アクセスレベルの設定</p></td> 
    <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>  
-   <p>GenStudioの設定：???</p> 
+   <p>GenStudioの設定：???GENS に必要なアクセスレベルは？??</p> 
 </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td role="rowheader"><p>オブジェクトの権限*</p></td> 
    <td>  
    <p>Workfrontの計画では、次の操作を行います。 </p>
    <ul>
@@ -161,23 +165,25 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 
 ### レコードタイプ
 
-* レコードタイプ情報（外観など）は、Workfront Planning のGenStudioから編集できます。
+* GenStudio レコードタイプに関する情報（外観など）は、Workfront Planning から編集できます。
 * GenStudio レコードタイプは、Planning で他のユーザーと共有できます。
 * レコードタイプは、GenStudio Workspace の Planning から作成できます。 これらのレコードタイプは、Planning でのみ残ります。 GenStudioには表示されません。
 * GenStudioと同期されたレコードタイプには、GenStudioからレコードタイプが読み込まれていることを示す視覚的なインジケーターがWorkfront Planning に表示されます。
 
 ### レコード
 
+GenStudioとWorkfront Planning の両方に表示されるGenStudio レコードタイプに属するレコードの場合、次のことが可能です。
+
 * GenStudio内のレコードを追加または削除すると、Workfront Planning に表示される（または削除される）ことができます。
 * Workfront Planning でレコードを追加または削除すると、GenStudioに表示される（または削除される）ようになります。
-* Workfront Planning またはGenStudioからレコードを削除すると、それらのレコードは 30 日間「最近削除された項目」ビンに配置されます。 GenStudioには、最近削除された bin がありません。
+* Workfront Planning またはGenStudioからレコードを削除すると、それらのレコードはWorkfront Planning の最近削除されたレコード・ビンに 30 日間配置されます。 GenStudioには、最近削除された bin がありません。
 * 最近削除された bin からレコードを復元すると、Workfront Planning とGenStudioに戻ります。
 * Workfront Planning からレコードを追加するには、次の方法があります。
 
    * 新規レコードボタンを使用して、任意のビューからゼロから手動で
    * CSV または Excel ファイルを使用してインポートする
    * 手動、インライン、テーブルビュー
-   * 手動で、タイムラインビューで直接移動
+   * 手動で、タイムラインまたはカレンダー表示 <!--ensure the calendar is released when this releases--> ージで直接移動
 
   詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 * Workfront Planning から有効化レコードを作成または削除することはできません。
@@ -189,7 +195,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 
 ### フィールド
 
-* レコードフィールドは、GenStudioから読み込まれます。 Workfront Planning でフィールド設定を編集できます。
+* レコードフィールドは、GenStudioから読み込まれます。 Workfront Planning からGenStudioのフィールド設定を編集できます。
 * Gen Studio の管理アクセス権がある場合は、Workfront Planning でGenStudio レコードタイプのフィールドを作成できます。
 * Planning でGenStudioレコード・タイプのフィールドを作成すると、次の領域から表示されます：
    * 計画ビュー
@@ -204,13 +210,12 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 * Workfront Planning からGenStudioからインポートされたフィールドは削除できません。
 * Workfront Planning から、Workfront Planning で作成されたGenStudioレコードタイプのフィールドを削除できます。
 
-
 ### 作成者フィールドと承認者フィールド
 
 * Workfront Planning 内のWorkfront Planning のレコード タイプに対して、[ 作成者 ] フィールドと [ 承認者 ] フィールドをGenStudio Planning から追加できます。
 * チャネルおよび地域レコードタイプに表示されるレコードには、作成者ユーザーとして「システム」と表示されます。 これらのレコードは、Workfront Planning でGenStudio Workspace を作成すると、自動的に作成されます。
 * Workfront Planning でワークスペースが使用可能になった後にGenStudioで作成されたレコードには、作成者フィールドにレコードを作成した IMS ユーザーの名前が表示されます。ユーザーがWorkfront ユーザーでなくて、GenStudioでレコードを作成した場合でも同様です。
-* 「承認者」フィールドには、レコードを作成するためのリクエストフォームが送信された際に、承認者の名前が表示されます。
+* 「承認者」フィールドには、Workfront Planning でGenStudio レコードタイプのレコードを作成するためにリクエストフォームが送信された際に、承認者の名前が表示されます。
 
 ### ビュー
 
@@ -218,7 +223,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 
   詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
 
-* GenStudio レコードタイプのビューは、Planning レコードタイプのビューと同じように共有できます。
+* GenStudio レコードタイプのビューを共有することは、Planning レコードタイプのビューを共有することと同じです。
 * GenStudioでは、複数のビューを作成できません。
 
 ### 接続
@@ -233,7 +238,8 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 
 ### リクエストフォームと自動化
 
-* リクエストフォームと自動化をWorkfront Planning のGenStudio レコードタイプに追加できます。
+* リクエストフォームは、Workfront Planning のGenStudio レコードタイプに追加できます。
+* Workfront Planning で、GenStudio レコードタイプの自動化を設定できます。
 
 ### プレビュー環境
 

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 29%
@@ -27,7 +27,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -94,7 +94,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++   
 
 ## カレンダー表示の管理 {#manage-a-calendar-view}
 
@@ -110,6 +110,14 @@ Adobe Workfrontのプランニングビューとその管理方法について�
    * 開始日と終了日の両方に値がない場合、レコードはカレンダーに表示されません
    * 開始日または終了日に値がない場合、レコードは 1 日のイベントとして表示されます
    * 開始日が終了日より後の場合、レコードはカレンダーに表示されません。
+
+<!--
+<div class="preview">
+
+* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+
+</div>
+-->
 
 カレンダー表示を管理するには：
 
