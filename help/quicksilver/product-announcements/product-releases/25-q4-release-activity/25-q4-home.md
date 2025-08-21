@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 33%
+source-wordcount: '188'
+ht-degree: 29%
 
 ---
 
@@ -31,5 +31,7 @@ WorkfrontとWorkfront Planning の間でよりシームレスなエクスペリ�
 * WorkfrontとWorkfrontの両方の計画リクエストがウィジェットに表示されます。
 * フィルターをカスタマイズしやすくなりました。 AND または OR ルールを使用して、特定のフィールド値でフィルタリングできるようになりました。
 * ウィジェット内の列の非表示や並べ替えができます。
+
+新しいウィジェットを表示するには、新しい要求エクスペリエンスを有効にする必要があります。 「リクエスト」領域で新しいリクエスト用エクスペリエンスを有効にできます。
 
 新しいマイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
