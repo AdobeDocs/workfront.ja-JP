@@ -7,13 +7,13 @@ author: Courtney
 hide: true
 hidefromtoc: true
 feature: Get Started with Workfront
-source-git-commit: 28bb652f371d3168ffe03c39fc33e29d710605db
+exl-id: cfb3de96-0710-44e9-a934-05877fa75b51
+source-git-commit: f5ffb83d2a9cab48a4ce623088e11e3e13d8f744
 workflow-type: tm+mt
-source-wordcount: '1596'
+source-wordcount: '1632'
 ht-degree: 27%
 
 ---
-
 
 # 従来のホームから新しいホームへの移動
 
@@ -163,6 +163,8 @@ Workfront管理者は、レイアウトテンプレートを使用して、新�
 * **マイリクエスト**\
     送信したすべてのリクエスト、開いているリクエストのみを表示するフィルター、リクエストの概要パネルを開くボタンを表示します。
 
+  <span class="preview"> プレビュー環境では、このウィジェットに送信したすべてのリクエスト、指定した条件を満たすリクエストのみを表示するフィルター、ウィジェットの列を並べ替えることができるボタンが表示されます。</span>
+
 * **チームリクエスト**\
     自分が所属しているチームのすべての保留中のリクエストをチームごとに並べ替えて表示します。また、リクエストをユーザーに直接割り当てるか、自分で作業するためのボタンも表示します。
 
@@ -270,7 +272,7 @@ Workfront管理者は、レイアウトテンプレートを使用して、新�
 
 **トレーニング**
 
-* [ ホームチュートリアルのウィジェットの削除、追加、並べ替え ](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
+* [ ホームチュートリアルのウィジェットの削除、追加、並べ替え ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets)
 * [Adobe Workfrontの労働者の基本事項 ](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]

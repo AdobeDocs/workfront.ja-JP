@@ -2,20 +2,20 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: ホームエリアからの作業項目とプロジェクトの作成
-description: '[!UICONTROL &#x200B; ホーム &#x200B;] エリアから作業項目およびプロジェクトを作成できます。'
+description: '[!UICONTROL  ホーム ] エリアから作業項目およびプロジェクトを作成できます。'
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 04a9524c4ee9066e7b8d3b47712d70fcfc119b32
+source-git-commit: e3e297bc548338032bc8f321ad3e1214be9cdee4
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 15%
+source-wordcount: '878'
+ht-degree: 14%
 
 ---
 
 # ホームエリアからの作業項目とプロジェクトの作成
 
-[!UICONTROL &#x200B; ホーム &#x200B;] エリアから作業項目およびプロジェクトを作成できます。
+[!UICONTROL  ホーム ] エリアから作業項目およびプロジェクトを作成できます。
 
 ホームでは、次のことができます
 
@@ -25,7 +25,7 @@ ht-degree: 15%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -52,16 +52,20 @@ ht-degree: 15%
    <td role="rowheader"><strong>オブジェクト権限</strong></td> 
    <td> <p>タスクに対する [!UICONTROL Edit] アクセス権以上</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"><strong>[!DNL Product]</strong></td> 
+   <td> <ul><li>Adobe Workfront</li><li>計画リクエストまたはリクエストフォームを表示するには、Adobe Workfront Planning が必要です。</td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
+&#42;ご利用のプラン、ライセンスタイプ、アクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
 +++
 
 ## 個人の To Do アイテムを作成する
 
-[!UICONTROL &#x200B; ホーム &#x200B;] エリアの To Do ウィジェットに、個人の To Do アイテムを作成できます。 To Do アイテムは、自分で作成する個人用タスクです。
+[!UICONTROL  ホーム ] エリアの To Do ウィジェットに、個人の To Do アイテムを作成できます。 To Do アイテムは、自分で作成する個人用タスクです。
 
 自分および他のユーザーは、自分の個人タスクを個人タスクレポートで表示できます。 必要に応じて、そこからプロジェクトに追加できます。
 
@@ -132,9 +136,9 @@ To Do 項目を作成するには：
 1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. **マイリクエスト** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![ 新しいリクエストの作成 ](assets/create-new-request.png)
+   ![ 新しいリクエストの作成 ](assets/create-new-request-new.png)
 
-1. **新規リクエスト** ダイアログで、リクエストキューの名前の入力を開始します。
+1. **新規リクエスト** ダイアログで、検索バーにWorkfront リクエストキューまたはWorkfront Planning リクエストフォームの名前を入力し始め、表示されたら選択します。
 1. 関連するフィールドに入力します。
 1. 「**送信**」をクリックします。
 

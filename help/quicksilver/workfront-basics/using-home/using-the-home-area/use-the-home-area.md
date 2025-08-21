@@ -7,10 +7,10 @@ author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: f112e1f2778f28ec23cdd56c6b6dae3ac46f3eec
 workflow-type: tm+mt
-source-wordcount: '124'
-ht-degree: 75%
+source-wordcount: '129'
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,8 @@ ht-degree: 75%
 * [ホームウィジェットフィルターの概要](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
 * [[!UICONTROL ホーム]エリアでの作業およびチームリクエストの管理](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [[!UICONTROL ホーム]エリア内の作業項目の更新または編集](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-* [[!UICONTROL &#x200B; ホーム &#x200B;] エリアからの作業項目とプロジェクトの作成](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [[!UICONTROL  ホーム ] エリアからの作業項目とプロジェクトの作成](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [個人の To Do アイテムの作成と管理](/help/quicksilver/workfront-basics/using-home/using-the-home-area/manage-to-do-in-home.md)
+* [自分のリクエスト ウィジェットの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
 * [[!UICONTROL ホーム]エリアから作業項目の時間を記録](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [[!UICONTROL ホーム]エリアで項目を[!UICONTROL 完了]としてマーク](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)

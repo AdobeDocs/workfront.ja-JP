@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: edd0893a30fd925c40020f7795ede87c93eb1ee8
+source-git-commit: 6ad5c482e8c1638612d46d4287bda27466acef3f
 workflow-type: tm+mt
-source-wordcount: '13431'
+source-wordcount: '13436'
 ht-degree: 85%
 
 ---
@@ -326,11 +326,11 @@ ht-degree: 85%
             * [2018.3 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity.md)
             * [2018.3 リリースアクティビティの概要](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md)
             * [2018.3 ベータ版 1 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-1-release-activity.md)
-            * [2018.3 ベータ 2 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
+            * [2018.3 Beta 2 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-2-release-activity.md)
             * [2018.3 Beta 3 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-3-release-activity.md)
             * [2018.3 ベータ版 4 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-4-release-activity.md)
             * [2018.3 Beta 5 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-5-release-activity.md)
-            * [2018.3 ベータ最終版](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
+            * [2018.3 Beta 最終版](product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-beta-final.md)
          * 2018.2 リリース {#release-18-2}
             * [2018.2 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity.md)
             * [2018.2 リリースアクティビティの概要](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md)
@@ -338,7 +338,7 @@ ht-degree: 85%
             * [2018.2 ベータ版 2 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-2-release-activity.md)
             * [2018.2 Beta 3 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-3-release-activity.md)
             * [2018.2 ベータ版 4 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-4-release-activity.md)
-            * [2018.2 ベータ 5 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
+            * [2018.2 Beta 5 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-5-release-activity.md)
             * [2018.2 最終ベータ版リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-beta-final-release-activity.md)
          * 2018.1 リリース {#release-18-1}
             * [2018.1 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2018.1-release-activity/2018-1-release-activity.md)
@@ -361,8 +361,8 @@ ht-degree: 85%
             * [2017.2 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity.md)
             * [2017.2 リリースアクティビティの概要](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md)
             * [2017.2 ベータ版 1 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-1-release-activity.md)
-            * [2017.2 ベータ リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
-            * [2017.2 ベータ 3 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
+            * [2017.2 Beta 2 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-2-release-activity.md)
+            * [2017.2 Beta 3 リリースアクティビティ](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-3-release-activity.md)
             * [2017.2 最終ベータ版](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-beta-final.md)
             * [2017.2 リリースウェビナー](product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-webinars.md)
          * Workfront R1 リリース {#r1-release}
@@ -876,7 +876,8 @@ ht-degree: 85%
          * [作業アイテムの時間をホームエリアから記録する](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [ホームエリアで項目を完了としてマーク](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [マイ更新エリアの使用](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-   * AI アシスタント {#ai-assistant}
+         * [ 自分のリクエスト ウィジェットの使用 ](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+AI アシスタント  {#ai-assistant}
       * [AI アシスタント](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [AI アシスタントを使用して要約する](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
