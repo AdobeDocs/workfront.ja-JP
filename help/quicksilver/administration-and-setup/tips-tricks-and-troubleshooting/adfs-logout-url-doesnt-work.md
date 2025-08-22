@@ -9,10 +9,10 @@ author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 4d868625-e976-47b4-9e80-f1eca84a2768
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 93%
+source-wordcount: '67'
+ht-degree: 37%
 
 ---
 
@@ -22,54 +22,59 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->このページで説明する手順は、まだ [!UICONTROL Adobe Admin Console] にオンボーディングされていない組織にのみ適用されます。
+>このページで説明されている手順は、Adobe Admin Consoleにまだオンボーディングされていない組織にのみ適用されるので、削除されました。
 >
->組織が [!UICONTROL Adobe Admin Console] にオンボーディングされている場合は、[プラットフォームベースの管理上の違い（[!DNL Adobe Workfront]/[!DNL Adobe Business Platform]）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
+>すべてのWorkfront組織がAdobe Admin Consoleにオンボーディングされました。
 
-## 問題
+<!--DELETE ME MARCH 2026-->
 
-ADFS ログアウト URL（https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0）を使用すると、次のエラーを含むメッセージページが表示されます。「サイトへのアクセス中に問題が発生しました。もう一度サイトを参照してみてください。」
+<!--
 
-問題が解決しない場合は、このサイトの管理者に問い合わせ、次の参照番号を入力して問題を特定してください。**57092dfc-751a-4915-8e6a-b4c5d413f8c6**
+## Problem
 
-## アクセス要件
+When using the ADFS logout URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0), you receive a message page with the error: "There was a problem accessing the site. Try to browse to the site again."
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+If the problem persists, contact the administrator of this site and provide the following reference number to identify the problem: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>任意</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe [!DNL Workfront] ライセンス</td> 
+   <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td> 
-   <p>新規：標準</p>
-   または
-   <p>現在：プラン</p></td> 
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td>[!UICONTROL System Administrator]</td>  
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## ソリューション
+## Solution
 
-1. ADFS マネージャーサーバーで、次の順序で移動します。**[!UICONTROL 信頼関係]**／**[!UICONTROL 証明書利用者の信頼]**／`<your party trust>` プロパティ。
+1. In your ADFS manager server, go to **[!UICONTROL Trust Relationships]** > **[!UICONTROL Relying Party Trusts]** > `<your party trust>` properties.
 
-1. 「**[!UICONTROL エンドポイント]**」タブの下の、「**[!UICONTROL 追加]**」をクリックします。
+1. Under the **[!UICONTROL Endpoints]** tab, click **[!UICONTROL Add]**.
 
-1. **[!UICONTROL エンドポイントのタイプ]** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
+1. **[!UICONTROL Endpoint Type]** = SAML Logout, Binding = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
-   別のページにリダイレクトする場合は、応答 URL を設定できます。ただし、ADFS サイトをお勧めします。これがログオフしていることを警告するためですが、それでもブラウザーを閉じる必要があります。
+   You can set a response URL if you want it to redirect to another page. But we recommend the ADFS site because it warns that you are logged off, but you should still close your browser.
+-->

@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
 workflow-type: tm+mt
-source-wordcount: '1523'
+source-wordcount: '1351'
 ht-degree: 94%
 
 ---
@@ -252,19 +252,24 @@ Business Rules は、Ultimate Workfrontプランを購入したお客様のみ�
 
 担当業務の設定について詳しくは、[担当業務の作成と管理](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)を参照してください。
 
-### ログイン試行 {#login-attempt}
+<!--DELETE THIS SECTION MARCH 2026-->
 
-ユーザーが次のいずれかの操作を行うと、システムはログイン試行監査ログエントリを生成します。
+<!--
+### Login Attempt {#login-attempt}
 
-* （ブラウザーおよびモバイルアプリで）Workfront でのログイン、ログアウト、またはログインの試行に失敗する
-* Workfront統合（SlackのWorkfrontなど）でログイン、ログアウト、ログイン試行の失敗が発生する
-* Workfront API へのログインとログアウト
+The system generates a Login Attempt audit log entry when a user does one of the following actions:
 
-Workfront 管理者が別のユーザーとしてログインする機能を使用した場合は、ログイン試行ログに記録されません。
+* Logs in, logs out, or fails a login attempt in Workfront (in a browser and in the mobile app)
+* Logs in, logs out, or fails a login attempt in any Workfront integration (such as Workfront for Slack)
+* Logs in or logs out of the Workfront API
+
+Login Attempt Logs do not record when a Workfront administrator uses the Log In As feature.
 
 >[!NOTE]
 >
->組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
+>This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
+
+-->
 
 ### 優先度 {#priority}
 
@@ -345,21 +350,17 @@ Workfront 管理者が別のユーザーとしてログインする機能を使�
 
 ### ユーザー {#user}
 
-ユーザーが次のいずれかのアクションを実行すると、ユーザー監査ログエントリが生成されます。
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
+The system generates a User audit log entry when a user does one of the following actions:
 
-* ユーザーの作成
-
-  <!--
-  DRAFTED IN FLARE:
-  Gevorg checking with Jonah on whether this note should be here:
-  
-  -->
+* Creates a user
 
   >[!NOTE]
   >
-  >組織が Adobe Admin Console にオンボーディングされている場合は、これは使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
+  >This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
 
-* ユーザーの削除
-* ユーザーのアクセスレベル、会社、チーム、またはグループの変更
-* ユーザーのアクティベート
-* ユーザーのディアクティベート
+* Deletes a user
+* Changes a user's access level, company, team, or group
+* Activates a user
+* Deactivates a user-->

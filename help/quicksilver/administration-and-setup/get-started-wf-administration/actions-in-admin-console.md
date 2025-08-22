@@ -2,20 +2,28 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: プラットフォームベースの管理の違い（Adobe Workfront/Adobeビジネスプラットフォーム）
+title: プラットフォームベースの管理の違い（Adobe Workfront/Adobe Business Platform）
 description: 組織が Adobe Business Platform にオンボーディングされている場合、ユーザーは Adobe Business Platform を使用して Adobe Workfront にアクセスします。つまり、ユーザー管理は主に Adobe Admin Console を通じて行われ、シングルサインオン（SSO）は Workfront を通じてではなく Adobe Business Platform を通じて処理されます。Adobe Workfront 管理者の管理上の責任と手順は、組織が Adobe Business Platform にオンボーディングされているかどうかで異なります。この記事では、別々の方法で処理する必要がある手順と、Workfront と Adobe Admin Console の両方の手順へのリンクを示します。
 author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 94%
+source-wordcount: '426'
+ht-degree: 89%
 
 ---
 
 # プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）
+
+<!--DELETE ME MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>すべてのWorkfront組織がAdobe Admin Consoleにオンボーディングされました。
+>
+>この記事は近い将来削除される予定です。
 
 Adobe Workfront 管理者の管理上の責任と手順は、組織が Adobe Business Platform にオンボーディングされているかどうかによって異なります。この記事では、別の方法で処理される手順のリストと、Workfront Fusion および Adobe Admin Console の両方の手順へのリンクを示します。
 
@@ -54,7 +62,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
      </ul> </td> 
     <td> 
      <ul> 
-      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -65,7 +73,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -77,7 +85,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
    <td> 
     <ul> 
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -89,7 +97,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
     <td> 
      <ul> 
       <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
-      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
   <tr> 
@@ -100,7 +108,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Remove users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -111,7 +119,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/jp/enterprise/using/manage-directory-users.html">Manage directory users</a>
+     <li> <p>The section "Permanently delete users" in <a href="https://helpx.adobe.com/enterprise/using/manage-directory-users.html">Manage directory users</a>
      </p><p>Note: Deleting a user from the [!DNL Adobe Admin Console] deactivates the user in [!DNL Workfront], but does not delete them from [!DNL Workfront].</p> </li> 
     </ul> </td> 
   </tr> 
@@ -123,7 +131,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
+     <li> <p>The section "Edit user details" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -134,7 +142,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Edit user details" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -145,7 +153,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
+     <li> <p>The section "Add users" in <a href="https://helpx.adobe.com/enterprise/using/bulk-upload-users.html">Bulk CSV upload</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -161,7 +169,7 @@ Workfront システム管理者の作成方法については、[Adobe Admin Con
 
 ## SAML 証明書の更新
 
-Adobe Admin Console で SAML 証明書を更新する手順については、[Federated ID のトラブルシューティング](https://helpx.adobe.com/jp/enterprise/kb/tshoot-fed-id.html?lang=jp)の「SAML 応答のデジタル署名が ID プロバイダーの証明書で検証されませんでした」の節を参照してください。
+Adobe Admin Console で SAML 証明書を更新する手順については、[Federated ID のトラブルシューティング](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html?lang=jp)の「SAML 応答のデジタル署名が ID プロバイダーの証明書で検証されませんでした」の節を参照してください。
 
 <!--
 
@@ -172,7 +180,7 @@ Adobe Admin Console で SAML 証明書を更新する手順については、[Fe
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/jp/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
+     <li> <p>The section "The digital signature in the SAML response did not validate..." in <a href="https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html">Troubleshooting Federated ID</a></p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

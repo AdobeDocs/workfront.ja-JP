@@ -6,10 +6,10 @@ description: 自分の作業と  [!DNL Experience Manager Assets] のコンテ�
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 93%
+source-wordcount: '1695'
+ht-degree: 94%
 
 ---
 
@@ -17,10 +17,12 @@ ht-degree: 93%
 
 <!-- Audited: 1/2024 -->
 
-
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
 >[!IMPORTANT]
 >
->この機能は、[!DNL Adobe Admin Console] にオンボーディングされた組織でのみ使用できます。
+>This functionality is available only to organizations that have been onboarded to the [!DNL Adobe Admin Console].
+-->
 
 [!DNL Experience Manager Assets] のコンテンツと作業内容を連携できます。
 
@@ -121,12 +123,12 @@ ht-degree: 93%
 
 メタデータフィールドを設定するには、次の手順に従います。
 
-1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
+1. [Adobe [!DNL Workfront] と [!DNL Experience Manager Assets] 間でのアセットメタデータマッピングの設定](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping)での説明に従って、[!DNL Experience Manager Assets] でメタデータスキーマを設定します。
 
 
-1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できる組み込みのカスタムフィールドが多数あります。ただし、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) で説明されているように、独自のカスタムフィールドを作成することもできます。
+1. Workfront でカスタムフォームフィールドを設定します。[!DNL Workfront] には、使用できるビルトインのカスタムフィールドが多数あります。ただし、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) で説明されているように、独自のカスタムフィールドを作成することもできます。
 
-+++ **サポートされている Workfront フィールドおよび Experience Manager Assets フィールドについて詳しくはこちらを展開**
++++ **サポートされている Workfront フィールドおよび Experience Manager Assets フィールドについて詳しくはこちらを展開** 
 
 **Experience Manager Assets タグ**
 
@@ -151,11 +153,11 @@ Workfront でサポートされている任意のフィールドを、Experience
 
 Experience Manager Assets でタグを作成すると、タグは「メタデータ」セクションのタグドロップダウンに表示されます。フィールドをタグにリンクするには、メタデータマッピングエリアの Experience Manager Assets フィールドドロップダウンで `xcm:keywords` を選択します。
 
-タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/ja/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
+タグの作成および管理方法など、Experience Manager Assets のタグについて詳しくは、[タグの管理](https://experienceleague.adobe.com/en/docs/experience-manager-64/administering/contentmanagement/tags)を参照してください。
 
 **Experience Manager Assets のカスタムメタデータスキーマフィールド**
 
-組み込みフィールドとカスタム Workfront フィールドの両方を、Experience Manager Assets のカスタムメタデータスキーマフィールドにマッピングできます。
+ビルトインのフィールドとカスタム Workfront フィールドの両方を、Experience Manager Assets のカスタムメタデータスキーマフィールドにマッピングできます。
 
 Experience Manager Assets で作成したカスタムメタデータフィールドは、メタデータ設定エリアの独自のセクションに整理されます。
 
@@ -167,7 +169,7 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 **Workfront フィールド**
 
-組み込みフィールドとカスタム Workfront フィールドの両方を、Experience Manager Assets にマッピングできます。以下のフィールド値は、Workfront と Experience Manager Assets の間で、大文字小文字の区別とつづりの両方が一致する必要があります。
+ビルトインのフィールドとカスタム Workfront フィールドの両方を、Experience Manager Assets にマッピングできます。以下のフィールド値は、Workfront と Experience Manager Assets の間で、大文字小文字の区別とつづりの両方が一致する必要があります。
 
 * ドロップダウンフィールド
 * 複数選択フィールド
@@ -183,14 +185,14 @@ link to documentation about creating schema - waiting on response from Anuj abou
 
 ### アセットのメタデータのマッピング
 
-アセットが初めて [!DNL Workfront] からプッシュされると、メタデータがマッピングされます。組み込みフィールドやカスタムフィールドを持つドキュメントは、アセットが [!DNL Experience Manager Assets] に初めて送信されたときに、指定のフィールドに自動的にマッピングされます。
+アセットが初めて [!DNL Workfront] からプッシュされると、メタデータがマッピングされます。ビルトインのフィールドやカスタムフィールドを持つドキュメントは、アセットが [!DNL Experience Manager Assets] に初めて送信されたときに、指定のフィールドに自動的にマッピングされます。
 
 アセットのメタデータをマッピングするには、次の手順に従います。
 
 <!--
 1. Select **[!UICONTROL Assets]** above the metadata table.
 -->
-1. **[!UICONTROL [!DNL Workfront]フィールド]**&#x200B;列で、組み込みフィールドまたはカスタム Workfront フィールドを選択します。
+1. **[!UICONTROL [!DNL Workfront]フィールド]**&#x200B;列で、ビルトインのフィールドまたはカスタム Workfront フィールドを選択します。
 
    >[!NOTE]
    >
@@ -257,7 +259,7 @@ Adobe Experience Manager 統合では、次のワークフローを使用でき�
 
 リンクされたフォルダーは、フォルダーツリーあたり最大 100 個まで作成できます。
 
-1. 「**[!UICONTROL リンクされたフォルダーを作成]**」を有効にします。
+1. **[!UICONTROL リンクされたフォルダーを作成]**&#x200B;をオンに切り替えます。
 1. 作成するリンクされたフォルダーの名前を入力します。
 1. （条件付き）このリンクされたフォルダーを、この統合を使用するテンプレートで作成されたプロジェクトのデフォルトのフォルダーにする場合は、「**デフォルトのフォルダーツリー**」オプションを有効にします。1 つ以上のデフォルトのフォルダーを選択できます。
 1. フォルダーパスを選択して、この統合に関連付けるリンクされたすべてのフォルダーの場所を指定します。

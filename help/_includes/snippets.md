@@ -1,8 +1,8 @@
 ---
-source-git-commit: 4e7aa16333c7a24ee2ef67fb964be70ed45cd369
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 89%
+source-wordcount: '2645'
+ht-degree: 88%
 
 ---
 # スニペット
@@ -55,7 +55,7 @@ ht-degree: 89%
 >
 >このページで説明する手順は、まだ [!DNL Adobe Experience Cloud] にオンボーディングされていない組織にのみ適用されます。
 >
-> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront][&#128279;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [!DNL Adobe Unified Experience]  を参照してください。
+> 組織が [!DNL Adobe Experience Cloud] にオンボーディングされている場合は、 [!DNL Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) の [[!DNL Adobe Unified Experience]  を参照してください。
 
 ## 手順 1 - メインメニューのみをクリックする {#step1-click-main-menu}
 
@@ -92,9 +92,9 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->このページで説明する手順は、まだ Adobe Admin Console にオンボーディングされていない組織にのみ適用されます。
+>このページで説明されている手順は、Adobe Admin Consoleにまだオンボーディングされていない組織にのみ適用されるので、削除されました。
 >
->組織が Adobe Admin Console にオンボーディングされている場合は、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe ビジネスプラットフォーム）を参照してください](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)。
+>すべてのWorkfront組織がAdobe Admin Consoleにオンボーディングされました。
 
 ## 手順 1 - ユーザーに進む {#step-1-to-users}
 

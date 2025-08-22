@@ -10,10 +10,10 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 5a2df341a54d305807a1c9f175baf60b9007ffa2
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 24%
+source-wordcount: '421'
+ht-degree: 22%
 
 ---
 
@@ -24,9 +24,11 @@ Workfront管理者は、設定エリアでデフォルトの Frame.io アカウ�
 
 ## アクセス要件
 
+<!--DELETE THIS SECTION MARCH 2026-->
+<!--
 >[!IMPORTANT]
 >
->この機能は、[!DNL Adobe Admin Console] に登録されている組織のみが利用できます。
+>This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].-->
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -56,13 +58,13 @@ Workfront管理者は、設定エリアでデフォルトの Frame.io アカウ�
 
 +++
 
-## デフォルトの [!DNL Frame.io] アカウントを設定 [!BADGE &#x200B; 近日公開 &#x200B;]{type=Informative}
+## デフォルトの [!DNL Frame.io] アカウントを設定 [!BADGE  近日公開 ]{type=Informative}
 
 デフォルトの [!DNL Frame.io] アカウントが設定されると、[!DNL Workfront] で作成されたプロジェクトには、Frame.io で作成されたミラープロジェクトが含まれます。
 
 >[!IMPORTANT]
 >
->この機能は、近日公開予定です。 現時点では、Workfront チームが Frame.io アカウントを手動で追加します。 Adobeアカウント担当者にお問い合わせください。
+>この機能は、近日公開予定です。 現時点では、Workfront チームが Frame.io アカウントを手動で追加します。 Adobe アカウント担当者にお問い合わせください。
 
 ## Workfront グループで 1 つの Frame.io アカウントを設定する
 
@@ -91,7 +93,7 @@ Frame.io を定期的に使用するWorkfront ユーザーは、Frame.io ユー�
 
 * Frame.io のコラボレーターとして追加されます。<!--do we need to be more explicit about a frame license being provisioned for them?-->
 * Frame.io からWorkfrontにアセットを送信して、正式なレビューと承認を受けることができます。
-* Workfrontから一方向の同期フォルダーの情報を表示できます。 [!BADGE &#x200B; 準備中 &#x200B;]{type=Informative}
+* Workfrontから一方向の同期フォルダーの情報を表示できます。 [!BADGE  準備中 ]{type=Informative}
 
 Frame.io ユーザーを有効にするには：
 

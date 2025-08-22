@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: 59431354076a0909fb1878d68cf266f08d2114b3
+source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 52%
+source-wordcount: '1206'
+ht-degree: 54%
 
 ---
 
@@ -58,7 +58,7 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 
 | 会社 | グループ | 役割 |
 |---|---|---|
-| Acme, Co <p>Workfront, Inc. <p>_あなたの会社_ <p>XYZ, Inc. | 財務 <p>IT <p>マーケティング <p>販売 | ビジネスアナリスト <p>コントローラークリエイティブ <p>設計者 <p>リソース管理者 <p>スクラムマスター <p>テクニカルライター <p>Web 開発者 |
+| Acme, Co <p>Workfront, Inc. <p>_あなたの会社_ <p>XYZ, Inc. | 財務 <p>IT <p>マーケティング <p>販売 | ビジネスアナリスト <p>コントローラークリエイティブ <p>Designer <p>リソース管理者 <p>スクラムマスター <p>テクニカルライター <p>Web 開発者 |
 
 {style="table-layout:auto"}
 
@@ -305,6 +305,6 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 >
 >Workfrontに読み込まれたユーザーは、非アクティブ化され、承認待ちのステータスで作成されます。
 > 
->組織がAdobe Admin Consoleに移行されており、ユーザーのステータスが数分以内に非アクティブおよび承認保留中から変わらない場合、ユーザーのバッチをAdobe Admin Consoleに直接追加できます。
+>ユーザーのステータスが「ディアクティベート済み」および「承認保留中」から数分以内に変わらない場合、ユーザーのバッチをAdobe Admin Consoleに直接追加できます。
 >
->手順については、[ 複数のユーザーの管理」を参照してください | Adobe ドキュメント ](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html)CSV の一括アップロード。
+>手順については、アドビドキュメントの[複数ユーザーの管理 | CSV の一括アップロード](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html)を参照してください。
