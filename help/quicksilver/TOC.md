@@ -3,7 +3,7 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: cc2787176a862b4d020955edad5ed5246cfef862
+source-git-commit: cfec7f1b3001b0fe78534c33c3a10c70f5f64c3f
 workflow-type: tm+mt
 source-wordcount: '13445'
 ht-degree: 85%
@@ -876,8 +876,8 @@ ht-degree: 85%
          * [作業アイテムの時間をホームエリアから記録する](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
          * [ホームエリアで項目を完了としてマーク](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
          * [マイ更新エリアの使用](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
-         * [ 自分のリクエスト ウィジェットの使用 ](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
-AI アシスタント  {#ai-assistant}
+         * [自分のリクエスト ウィジェットの使用](workfront-basics/using-home/using-the-home-area/my-requests-widget.md)
+   * AI アシスタント {#ai-assistant}
       * [AI アシスタント](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
       * [AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [AI アシスタントを使用して要約する](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
