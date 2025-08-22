@@ -4,7 +4,7 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 15eba2f627e31661c5fde60e989dfc68a9f4cd15
+source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
 workflow-type: tm+mt
 source-wordcount: '657'
 ht-degree: 34%
@@ -25,7 +25,7 @@ ht-degree: 34%
 
 ## アクセス要件（パッケージが同じままで、ライセンス行を更新する場合の例です）
 
-展開すると、この記事の機能のアクセス要件が表示されます
+展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -56,7 +56,7 @@ ht-degree: 34%
 
 ## アクセス要件
 
-展開すると、この記事の機能のアクセス要件が表示されます
+展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -86,7 +86,7 @@ ht-degree: 34%
 
 ## アクセス要件（新規のお客様のみ利用可能）
 
-展開すると、この記事の機能のアクセス要件が表示されます
+展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -117,7 +117,7 @@ ht-degree: 34%
 
 ## アクセス要件（これは、新機能が 2023/2025 パッケージにのみ存在する例です）
 
-展開すると、この記事の機能のアクセス要件が表示されます
+展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table>
   <tr>
@@ -145,7 +145,7 @@ ht-degree: 34%
 
 ## アクセス要件（他の製品が必要な場合の例）
 
-展開すると、この記事の機能のアクセス要件が表示されます
+展開すると、この記事の機能のアクセス要件が表示されます。
 
 <table>
   <tr>
@@ -220,7 +220,7 @@ ht-degree: 34%
    <td> 
 <p>任意のAdobe Workfront ワークフローパッケージと任意のAdobe Workfront Planning パッケージ</p> 
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront Platform （**&#x200B;**&#x200B;これを呼び出すか、下部にリンクされている記事の一部にしますか？??**&#x200B;***）</p></td> 
+<td role="rowheader"><p>Adobe Workfront Platform （****これを呼び出すか、下部にリンクされている記事の一部にしますか？??*****）</p></td> 
    <td> 
 <p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
 <p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
