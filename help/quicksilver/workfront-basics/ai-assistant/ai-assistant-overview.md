@@ -5,9 +5,9 @@ description: AI アシスタントの概要
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: a4e403abadc0268b919ce8105989ef6c912f33a4
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '807'
 ht-degree: 6%
 
 ---
@@ -49,8 +49,10 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 
 組織の AI アシスタントを有効にするには、次の **すべて** を適用する必要があります。
 
-* 組織がAdobe IMS（Identity Management System）に移行している必要があります
-* Adobe統合エクスペリエンスを有効にする必要があります
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System)
+* The Adobe Unified Experience must be enabled-->
 * 組織には Select、Prime、UltimateのいずれかのWorkfront プランが必要です
 * Adobeは、ファイルにAdobe生成 AI 契約を署名済みにする必要があります
 
@@ -113,7 +115,7 @@ Workfrontの AI アシスタントを使用すると、アプリ内の情報や�
 * Workfront計画レコード
 
 
-## AI アシスタントにアクセス
+## AI アシスタントへのアクセス
 
 1. Workfront ページの上部で、「AI アシスタント」アイコン ![AI アシスタントのアイコン ](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png) をクリックします。
 1. 質問を入力するか、画面の右側にあるパネルにプロンプトを表示します。

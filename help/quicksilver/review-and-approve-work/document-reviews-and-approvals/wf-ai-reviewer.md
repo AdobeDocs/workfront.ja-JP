@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '622'
-ht-degree: 6%
+source-wordcount: '611'
+ht-degree: 7%
 
 ---
 
@@ -31,7 +31,9 @@ Workfrontで AI レビュー担当者を設定するには、システム管理�
 
 ## 前提条件
 
-* 組織がAdobe IMS（Identity Management System）に移行している必要があります。
+<!--DELETE THIS SECTION MARCH 2026-->
+
+<!--* Your organization must have migrated to Adobe IMS (Identity Management System).-->
 * Workfront インスタンスでは、統合承認が有効になっている必要があります。
 * Adobeには、Adobe生成 AI 契約がファイルに署名済みである必要があります。
 契約の署名について詳しくは、[Adobe Gen AI 契約への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
@@ -53,7 +55,7 @@ AI レビュー担当者は、次のファイルタイプをレビューでき�
 
 ## ブランドガイドラインの設定
 
-Workfront AI レビュー担当者は、コンテンツのレビュー時に、Performance Marketing 用に Genstudio で設定されたブランドガイドラインを使用します。 現在、画像のブランドガイドラインのみをセットアップできます。 詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
+Workfront AI レビュー担当者は、コンテンツのレビュー時に、Performance Marketing 用に Genstudio で設定されたブランドガイドラインを使用します。 現在、画像のブランドガイドラインのみをセットアップできます。 詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
 
 
 ## AI レビュー担当者の作成

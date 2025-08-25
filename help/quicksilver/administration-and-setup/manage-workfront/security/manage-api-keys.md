@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 8934c3f5681c09c00769442900013844ee7a80ef
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1336'
-ht-degree: 87%
+source-wordcount: '1207'
+ht-degree: 85%
 
 ---
 
@@ -92,40 +92,47 @@ Workfront 管理者には一意の API キーが割り当てられています�
 
    API キーを削除するには、「**API キーの設定**」セクションで、「**削除**&#x200B;をクリックし、「**削除**」をクリックします。
 
-## 管理者以外のユーザー向けの API キーの生成
+## 管理者以外のユーザー向け API キーの生成 – >
 
-Workfront 管理者以外の役割を持つユーザーの API キーを生成および管理できます。
+<!--DELETE THIS SECTION MARCH 2026-->
+
+>[!IMPORTANT]
+>
+>この節で説明する手順は、Adobe Admin Consoleにまだオンボーディングされていない組織にのみ適用されるので、削除されました。
+>
+>すべてのWorkfront組織がAdobe Admin Consoleにオンボーディングされました。
+
+<!--You can generate and manage API Keys for users in roles other than Workfront administrator.
 
 >[!NOTE]
 >
->組織の Workfront インスタンスが Adobe IMS によって有効化されている場合は使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
+>This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-1. （条件付き）組織がシングルサインオン（SSO）アクセス管理を使用している場合、SSO 認証を必要とするオプションを一時的に無効にします。
+1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
+
+   {{step-1-to-setup}} 
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**. 
+   1. In the **Type** field, select the type of SSO your organization uses.
+   1. With the type selected, scroll down and clear the **Enable** checkbox. 
+      ![Enable SSO](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click **Save**.
+
+
+1. In the address bar of a browser, enter the following API call:
+
+   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&username=**username**&password=**password**&method=PUT
+
+   Replace `<domain>` with your Workfront domain name, and username and password with the user's Workfront credentials.
+
+1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
    {{step-1-to-setup}}
-
-   1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。
-   1. **タイプ** フィールドで、組織が使用する SSO のタイプを選択します。
-   1. タイプを選択した状態で、下にスクロールして「**有効**」チェックボックスをオフにします。
-
-      ![SSO を有効にする ](assets/sysadmin-security-sso-disable-31620-350x320.png)
-   1. **保存**&#x200B;をクリックします。
-
-
-1. ブラウザーのアドレスバーに、次の API 呼び出しを入力します。
-
-   `<domain>`.my.workfront.com/attask/api/v7.0/user?action=generateApiKey&amp;username=**username**&amp;password=**password**&amp;method=PUT
-
-   `<domain>` を Workfront ドメイン名に置き換え、ユーザー名とパスワードをユーザーの Workfront 資格情報に置き換えます。
-
-1. （条件付き）手順 1 で SSO 認証を要求するオプションを無効にした場合は、これを有効にします。
-
-   {{step-1-to-setup}}
-
-   1. **システム**&#x200B;を展開し、次に「**シングルサインオン（SSO）**」をクリックします。
-
-   1. **タイプ**&#x200B;ドロップダウンメニューで、「SSO メソッド」を選択します。。
-   1. SSO 認証が必要なチェックボックスをオンにします。
+   
+   1. Expand **System**, then click **Single Sign-on (SSO)**.
+   
+   1. Select your SSO method in the **Type** drop down menu.
+   1. Check the checkbox requiring SSO authentication.-->
 
 ## API キーの有効期限を設定
 

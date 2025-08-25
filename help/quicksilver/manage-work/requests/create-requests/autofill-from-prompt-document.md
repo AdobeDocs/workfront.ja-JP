@@ -5,9 +5,9 @@ description: AI を使用すると、プロンプトを入力したりドキュ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: fd42ac97be05df9499ea3214642099738ccc69b1
+source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1091'
 ht-degree: 11%
 
 ---
@@ -69,7 +69,7 @@ AI は、入力したプロンプトに基づいてリクエストフィール�
 
 プロンプトまたはドキュメントを使用してリクエストを自動入力するには、次の **すべて** を適用する必要があります。
 
-* 組織がAdobe IMS（Identity Management System）に移行している必要があります
+* 組織はAdobe IMSを使用する必要があります（Identity Management System）
 * Adobe統合エクスペリエンスを有効にする必要があります
 * 組織には Select、Prime、UltimateのいずれかのWorkfront プランが必要です
 * Adobeは、ファイルにAdobe生成 AI 契約を署名済みにする必要があります
@@ -202,7 +202,7 @@ Workfrontのフィールドタイプは、特定のフィールドを自動入�
 <td><li>先行入力</li>
 <li>外部ルックアップ</li>
 <li>内部ルックアップ</li>
-<li>参照</li>
+<li>リファレンス</li>
 <li>WF Planning の埋め込みフィールド</li>
 </ul>
 </td>
