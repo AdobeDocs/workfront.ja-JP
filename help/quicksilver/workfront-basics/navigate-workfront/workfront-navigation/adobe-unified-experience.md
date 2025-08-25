@@ -6,9 +6,9 @@ description: Adobe Experience Cloud 経由で  [!DNL Workfront]  にアクセス
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: bd34fe3404e590e74ecd666c039f78c0cc0d72e7
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '673'
 ht-degree: 63%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 63%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -52,11 +52,13 @@ ht-degree: 63%
 
 +++
 
-## 前提条件
+<!--DELETE THIS SECTION MARCH 2026-->
 
-組織の [!DNL Workfront] のインスタンスは、[!DNL Adobe Business Platform] または [!DNL Adobe Admin Console] にオンボードする必要があります。
+<!--## Prerequisites
 
-[!DNL Adobe Admin Console] のオンボーディングに関するご質問がある場合は、[[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/) を参照してください。
+Your organization's instance of [!DNL Workfront] must be onboarded to the [!DNL Adobe Business Platform] or the [!DNL Adobe Admin Console].
+
+If you have questions about onboarding to the [!DNL Adobe Admin Console], see the [[!DNL Adobe Unified Experience] FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md/).-->
 
 ## Adobe Identity Management System （IMS）
 
@@ -93,7 +95,7 @@ Adobe Admin Consoleの User Management について詳しくは、[Adobe Admin C
 
 ## [!DNL Workfront] をナビゲートする
 
-[!UICONTROL &#x200B; ーザーナビゲーションバーの左側にある &#x200B;] メインメニュー ![ アイコン ](assets/main-menu-icon-left-nav.png) メインメニューアイコン [!DNL Workfront] を使用して、アクセス権のあるページに移動します。 [!UICONTROL メインメニュー]で使用できるオプションは、以下に依存します。
+[!UICONTROL  ーザーナビゲーションバーの左側にある ] メインメニュー ![ アイコン ](assets/main-menu-icon-left-nav.png) メインメニューアイコン [!DNL Workfront] を使用して、アクセス権のあるページに移動します。 [!UICONTROL メインメニュー]で使用できるオプションは、以下に依存します。
 
 * **レイアウトテンプレートの設定**：[!DNL Workfront] 管理者がレイアウトテンプレートから[!UICONTROL メインメニュー]を変更する方法については、[レイアウトテンプレートを使用して、[!UICONTROL メインメニュー]をカスタマイズ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)を参照してください。
 * **ライセンスタイプ**：様々なライセンスタイプのデフォルト設定については、[[!UICONTROL レビュー]ライセンスユーザーのナビゲーションを理解](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)または[[!UICONTROL 作業]ライセンスユーザーのナビゲーションを理解](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)を参照してください。
@@ -125,7 +127,7 @@ Adobe Admin Consoleの User Management について詳しくは、[Adobe Admin C
 
 パスワードが [!DNL Adobe] によって管理されている場合は、アドビアカウントのパスワードを変更できます。
 
-[Adobeのパスワードを変更する方法については、こちらの記事を参照してください。](https://helpx.adobe.com/jp/manage-account/using/change-or-reset-password.html){target="_blank"}
+[Adobeのパスワードを変更する方法については、こちらの記事を参照してください。](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 パスワードの変更について詳しくは、管理者にお問い合わせください。
 

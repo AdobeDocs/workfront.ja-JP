@@ -11,14 +11,18 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: e168ba61-8e12-4f42-961a-465b62bc4775
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
-source-wordcount: '49'
-ht-degree: 100%
+source-wordcount: '72'
+ht-degree: 68%
 
 ---
 
 # Adobe Admin Console での Workfront 管理
+
+>[!IMPORTANT]
+>
+>すべてのWorkfront組織がAdobe Admin Consoleに移行されました。 このセクションの記事は近い将来に削除されます。
 
 この節では、次の記事を扱います。
 

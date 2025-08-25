@@ -6,7 +6,7 @@ description: プロジェクトテンプレートを編集して、今後のプ�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: f4ea19368b664d0b3a47f93c70fd489685791538
+source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
 workflow-type: tm+mt
 source-wordcount: '5045'
 ht-degree: 88%
@@ -577,7 +577,6 @@ Linked folder functionality automatically creates folders in Adobe Experience Ma
 
 This section appears only if all of the following apply:
 
-* Your organization has been migrated to the Adobe Admin Console
 * Your organization has enabled and configured an integration with Adobe Experience Manager
 * The template has enabled and configured linked folders.
 
