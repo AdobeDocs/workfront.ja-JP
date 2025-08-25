@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 17%
+source-wordcount: '294'
+ht-degree: 16%
 
 ---
 
@@ -24,15 +24,13 @@ ht-degree: 17%
 
 ### 回答
 
-クロスドメイン環境のプロモーションは、現在サポートされていません。 同じドメイン内の環境間で昇格させる必要があります。-->
+クロスドメイン環境のプロモーションは、現在サポートされていません。 同じドメイン内の環境間で昇格させる必要があります。
 
-<!--DELETE THIS SECTION MARCH 2026-->
+## Adobe Business Platform/IMS は環境促進のための前提条件ですか？
 
-<!--## Is the Adobe Business Platform / IMS a prerequisite for environment promotion?
+### 回答
 
-### Answer
-
-No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.-->
+いいえ。環境のプロモーションは、IMS 対応Workfront インスタンスと非 IMS AEM Forms インスタンスの両方で利用できます。
 
 ## Workfront インスタンスがPrime ライセンスまたはUltimate ライセンスのどちらにあるか調べるにはどうすればよいですか？
 

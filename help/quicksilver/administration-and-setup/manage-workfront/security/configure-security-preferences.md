@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 63%
+source-wordcount: '951'
+ht-degree: 78%
 
 ---
 
@@ -110,32 +110,32 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      <tr> 
       <td role="rowheader">外部ユーザーにパスワードの登録を求める</td> 
       <td> <p>Workfront で項目を表示できるようにするために、外部ユーザーに登録を求めます。デフォルトでは、このオプションは無効になっています。このオプションを有効にすると、Workfront アカウントを持たず、メールアドレスによって特定の更新に含まれているユーザーは、ユーザーが含まれている項目を表示する前にアカウントを作成するよう求められます。これにより、ユーザーの外部ユーザーアカウントが作成されます。</p> <p>このオプションはデフォルトでは無効になっています。</p> </td> 
-     </tr>
-<!-- DELETE THIS SECTION MARCH 2026   <tr> 
-      <td role="rowheader">Automatically log users out after</td> 
-      <td> Lets you specify when a user is logged out of Workfront, after a period of inactivity. By default, users are logged out after 8 hours of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">次の場合にユーザーを自動的にログアウトする</td> 
+      <td> ユーザーの一定期間の非アクティブな状態が続いた後、ユーザーがいつ Workfront からログアウトされるかを指定できます。デフォルトでは、ユーザーは 8 時間操作を実行しなかった場合、ログアウトされます。 <p>このオプションは、シングルサインオンソリューションを使用している Workfront の顧客にも影響します。</p> <p>この設定は、Adobe IMSに移行された組織では使用できません。</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">次の場合にモバイルユーザーを自動的にログアウトする： </td> 
+      <td>ユーザーの一定期間の非アクティブな状態が続いた後、ユーザーが Workfront アプリケーションからログアウトする時間を指定できます。デフォルトでは、ユーザーは 7 日間操作を実行しなかった場合、ログアウトされます。 <p>このオプションは、シングルサインオンソリューションを使用している Workfront の顧客にも影響します。</p> <p>この設定は、Adobe IMSに移行された組織では使用できません。</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">ヘルプ URL</td> 
+      <td>メインメニューヘルプアイコンの移動先の内部カスタムヘルプサイトを定義できます。 詳しくは、<a href="/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md"> カスタムヘルプ URL の設定 </a> を参照してください。</p></td> 
      </tr>
      <tr> 
-      <td role="rowheader">Automatically log mobile users out after </td> 
-      <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p> <p>This setting is not available to organizations that have been migrated to Adobe IMS.</p></td> 
-     </tr>  -->
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;> カスタム ヘルプ URL&lt;/td>
-    &lt;td> メイン メニューヘルプ アイコンの移動先となる内部カスタム ヘルプ サイトを定義します。 詳しくは、&lt;a href=&quot;/help/quicksilver/administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md&quot;> カスタムヘルプ URL の設定 &lt;/a> を参照してください。&lt;/p>&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;> システム内のユーザーには、新しいホームエクスペリエンスがデフォルトで表示されます &lt;/td>
-    &lt;td> ユーザーに新しいホームエクスペリエンスがデフォルトで表示されるかどうかを指定できます。 有効にした場合、ユーザーにはデフォルトで新しいホームエクスペリエンスが表示されますが、個々に新しいホームを有効または無効にすることを選択できます。無効にすると、ユーザーは「新しいホーム」に切り替えるためのバナーが表示されなくなります。ただし、インスタンス URL の末尾に手動で &lt;code>/home/workspaces&lt;/code> と入力すれば、新しいホームページに移動できます。 この設定は、デフォルトで有効になっています。&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;> 優先度ワークリストを有効にする &lt;/td>
-    &lt;td> ユーザーの優先度ワークリストのエクスペリエンスを有効または無効にすることを選択できます。 Workfrontには引き続き「優先度」アイコンが表示されますが、機能にはアクセスできません。 優先度の詳細については、&lt;a href=&quot;/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md&quot;> 優先度の基本を学ぶ &lt;/a> を参照してください。&lt;/td>
-    &lt;/tr>
-    &lt;tr>
-    &lt;td role=&quot;rowheader&quot;> テスト環境 &lt;/td>
-    &lt;td>Workfrontのテスト環境にアクセスできます。 詳しくは、&lt;a href=&quot;/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md&quot;>Adobe Workfront プレビューサンドボックス環境 &lt;/a> を参照してください。&lt;/p>&lt;/td>
-    &lt;/tbody>
-</table>
+      <td role="rowheader">システム内のユーザーには、デフォルトで新しいホームエクスペリエンスが表示されます。 </td> 
+      <td>デフォルトでユーザーに新しいホームエクスペリエンスを表示するかどうかを指定できます。有効にした場合、ユーザーにはデフォルトで新しいホームエクスペリエンスが表示されますが、個々に新しいホームを有効または無効にすることを選択できます。無効にした場合、ユーザーには新しいホームに切り替えることができるバナーが表示されません。ただし、インスタンス URL の末尾に手動で「<code>/home/workspaces</code>」を入力すると、新しいホームページに移動できます。この設定は、デフォルトで有効になっています。</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">優先度ワークリストを有効にする </td> 
+      <td>ユーザーの優先度ワークリストのエクスペリエンスを有効または無効にすることを選択できます。 Workfrontには引き続き「優先度」アイコンが表示されますが、機能にはアクセスできません。 優先度の詳細については、「<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> 優先度の概要 </a> を参照してください。</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">テスト環境</td> 
+      <td>Workfront テスト環境にアクセスできます。 詳しくは、<a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">Adobe Workfront のプレビューサンドボックス環境</a>を参照してください。</p></td> 
+    </tbody> 
+   </table>
 
 1. **保存**&#x200B;をクリックします。
 

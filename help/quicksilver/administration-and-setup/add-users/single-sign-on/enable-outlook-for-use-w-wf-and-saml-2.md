@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: 9fa4f85c914121adddcba4189af1398021544776
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 68%
@@ -25,16 +25,15 @@ ht-degree: 68%
 >
 >この変更の一環として、Microsoftは、トークンを再度有効にする方法を変更することを決定しました。 **2025 年 6 月 30 日（PT）** 以降、管理者はトークン自体を再度有効にすることができなくなります。例外を付与できるのは、Microsoft サポートのみです。 **2025 年 10 月 1 日に、すべてのテナントに対してレガシートークンがオフになります。 例外は許可されません。**
 
-<!--DELETE ME MARCH 2026-->
-
 SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報を使用して Microsoft Outlook から Workfront にログインできるようにする場合は、Office アドインで SAML 2.0 を有効にして認証を行う必要があります。
 
 >[!NOTE]
 >
->組織の Workfront インスタンスがカスタム SSO Portal を使用している場合は使用できません。
->&#x200B;>詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
-<!--
-or is enabled with Adobe IMS-->
+>組織の Workfront インスタンスがカスタム SSO Portal を使用している場合は使用できません。>
+><!--
+>or is enabled with Adobe IMS>
+>-->
+>詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 
 ## アクセス要件
 

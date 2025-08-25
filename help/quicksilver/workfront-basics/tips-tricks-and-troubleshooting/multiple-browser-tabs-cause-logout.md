@@ -5,14 +5,18 @@ title: 複数のブラウザータブが原因で、Workfrontがログアウト�
 description: 複数のブラウザータブを開いている場合、Workfront は自動的にログアウトすることがあります。
 feature: Get Started with Workfront
 exl-id: 1cc8bf6c-0eda-41ef-8efd-bba3a5f33b08
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 32%
+source-wordcount: '178'
+ht-degree: 30%
 
 ---
 
 # 複数のブラウザータブが原因で、Workfrontがログアウトする
+
+>[!IMPORTANT]
+>
+>この問題は、Adobe IMSにオンボーディングされた組織にのみ発生します。
 
 ## 問題
 

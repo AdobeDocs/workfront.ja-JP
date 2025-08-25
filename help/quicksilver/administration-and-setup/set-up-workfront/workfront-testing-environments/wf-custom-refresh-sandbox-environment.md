@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '1669'
-ht-degree: 89%
+source-wordcount: '1763'
+ht-degree: 92%
 
 ---
 
@@ -85,7 +85,7 @@ If you are a Workfront Goals customer, Workfront Goals data does not transfer to
 
 >[!NOTE]
 >
->アカウントがクラスター 4（EMEA クラスター）にある場合は、実稼動環境からカスタム更新サンドボックスにアクセスできません。クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts) [クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
+>アカウントがクラスター 4（EMEA クラスター）にある場合は、実稼動環境からカスタム更新サンドボックスにアクセスできません。クラスター 4 にアカウントがある場合にカスタム更新サンドボックスにアクセスする方法について詳しくは、[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)[クラスター 4 のアカウント（EMEA アカウント）のカスタム更新サンドボックスへのアクセス](#access-the-custom-refresh-sandbox-for-accounts-on-cluster-4-emea-accounts)を参照してください。
 
 カスタム更新サンドボックスへのアクセス方法：
 
@@ -190,22 +190,15 @@ URL を使用してカスタム更新サンドボックスにアクセスする�
 
 ## カスタム更新サンドボックスでのシングルサインオンの設定
 
->[!IMPORTANT]
->
->この節で説明する手順は、Adobe Admin Consoleにまだオンボーディングされていない組織にのみ適用されるので、削除されました。
->
->すべてのWorkfront組織がAdobe Admin Consoleにオンボーディングされました。
+カスタム更新サンドボックスをシングルサインオンソリューションと連携するように設定する場合は、実稼動環境とは別に設定することで実現できます。カスタム更新サンドボックスの SSO 設定は、実稼動環境の SSO 設定とは独立しています。\
+カスタム更新サンドボックスが更新されると、SSO 情報は実稼動環境からコピーされず、カスタム更新サンドボックスの設定が上書きされます。
 
-<!--If you want to configure your Custom Refresh Sandbox to work with a Single Sign-On solution, you can do so by configuring it separately from your Production environment. The SSO configuration in the Custom Refresh Sandbox is independent from your SSO configuration in the Production environment.\
-When you refresh your Custom Refresh Sandbox, the SSO information is not copied from your Production environment to overwrite the Custom Refresh Sandbox configuration.
-
-The steps for configuring single sign-on in the Custom Refresh Sandbox are similar to those for configuring it in the Production environment.\
-For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+カスタム更新サンドボックスでシングルサインオンを設定する手順は、実稼動環境で設定する手順と似ています。\
+[!DNL Workfront] でのシングルサインオンの設定について詳しくは、[Adobe Workfront でのシングルサインオンの概要](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)を参照してください。
 
 >[!NOTE]
 >
->This is not available if your organization's [!DNL Workfront] instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
--->
+>組織の [!DNL Workfront] インスタンスが Adobe IMS によって有効化されている場合は使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 
 ## プロジェクトタイムラインの自動再計算
 

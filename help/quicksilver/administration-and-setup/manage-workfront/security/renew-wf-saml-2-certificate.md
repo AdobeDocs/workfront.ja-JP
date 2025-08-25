@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 9fa4f85c914121adddcba4189af1398021544776
+source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
 workflow-type: tm+mt
-source-wordcount: '140'
-ht-degree: 52%
+source-wordcount: '713'
+ht-degree: 89%
 
 ---
 
@@ -25,100 +25,98 @@ ht-degree: 52%
 >すべてのWorkfront組織がAdobe Admin Consoleにオンボーディングされたので、この記事は近い将来に削除される予定です。
 
 <!--DELETE ME MARCH 2026-->
-<!--
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, no action is necessary.
+>このページで説明する手順は、Admin Console にまだ登録されていない組織にのみ適用されます。組織が Adobe Admin Console にオンボーディングされている場合、アクションは必要ありません。
 >
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについて詳しくは、[プラットフォームベースの管理上の違い（Adobe Workfront/Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
-The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and authorization. Once updated, the new certificate remains valid for one year. When it is time for you to renew the certificate on your identity provider, you receive a warning in Workfront alerting you that this change must occur. As a Workfront administrator, you can manage this change at the system level.
+Adobe Workfront サーバーでは、認証と承認に SAML 2.0 プロトコルを利用します。更新後、新しい証明書は 1 年間有効です。ID プロバイダーで証明書を更新する時期が来ると、証明書の更新が必要であることを示す警告が Workfront に表示されます。Workfront 管理者は、この変更をシステムレベルで管理できます。
 
 <!--Use this Important note box in the last few weeks before each update.
 
 You must take action to update the metadata in your identity provider with the information from the renewed certificate before the specified date. Mismatched certificates can keep your users from logging in to Workfront after November 22, 2022.
  
-
+-->
 
 >[!NOTE]
 >
->This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
+>組織の Workfront インスタンスが Adobe IMS によって有効化されている場合は使用できません。詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 
-## Access requirements
+## アクセス要件
 
-+++ Expand to view access requirements for the functionality in this article.
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-You must have the following access to perform the steps in this article: 
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>任意</td> 
   </tr> 
  <tr> 
-  <td role="rowheader">Adobe Workfront license</td> 
-  <td> <p>New: Standard </p>
- <p>or</p> 
-<p>Current: Plan </p> 
+  <td role="rowheader">Adobe Workfront プラン</td> 
+  <td> <p>新規：標準 </p>
+ <p>または</p> 
+<p>現在：プラン </p> 
 </td> 
  </tr>   
  <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>Workfront 管理者である必要があります。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
-## Configure SAML 2.0 within Workfront
+## Workfront 内で SAML 2.0 を設定
 
-To review the warning message and acknowledge the update of the SAML 2.0 metadata in your identity provider:
+警告メッセージを精査し、ID プロバイダーでの SAML 2.0 メタデータの更新を確認するには、次の手順に従います。
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Single Sign-On**.
+1. **システム**／**シングル サインオン**&#x200B;をクリックします。
 
-1. In the **Type** drop-down menu, select **SAML 2.0**.
+1. **タイプ**&#x200B;ドロップダウンメニューで、「**SAML 2.0**」を選択します。
 
-1. Click **Download SAML 2.0 Metadata**.
+1. 「**SAML 2.0 メタデータのダウンロード**」をクリックします。
 
-   This downloads the renewed Workfront certificate for SAML 2.0, which contains the correct metadata for your server.
+   SAML 2.0 用に更新された Workfront 証明書がダウンロードされます。この証明書には、お使いのサーバーに適したメタデータが含まれています。
 
-1. In your identity provider, copy your current Assertion Consumer Service (ACS) URL (also known as the Reply URL) to a safe place. 
+1. ID プロバイダーで、現在のアサーション消費者サービス（ACS）の URL（返信 URL とも呼ばれます）を安全な場所にコピーします。
 
    >[!CAUTION]
    >
-   >Before you upload the Workfront metadata to your Single Sign-On (SSO) provider in Step 6, copy your current Assertion Consumer Service (ACS) URL to a safe place. This URL, also known as the Reply URL, is found on your SSO provider's Workfront configuration page. 
+   >手順 6 で Workfront メタデータをシングルサインオン（SSO）プロバイダーにアップロードする前に、現在のアサーション消費者サービス（ACS）の URL を安全な場所にコピーします。この URL（返信 URL とも呼ばれます）は、SSO プロバイダーの Workfront 設定ページにあります。
    >
    >
-   >If the ACS URL changes after you upload the Workfront metadata, this means that the metadata might contain an incorrect ACS URL. You must change it back to the one you copied in order to avoid breaking your Single Sign-On connection. Your updated certificate will still be correct after you do this.
+   >Workfront メタデータのアップロード後に ACS URL が変更された場合は、メタデータに含まれている ACS URL が正しくない可能性があります。シングルサインオンの接続が切断されないように、コピーしたものに戻す必要があります。この操作を行った後も、更新された証明書は正しいままです。
 
-1. In your identity provider server, update the new certificate you downloaded.
-1. (Conditional) If the Assertion Consumer Service (ACS) URL or Reply URL has changed in your identity provider, change it back to the URL you copied in Step 5.
-1. In Workfront, on the **Single Sign-on (SSO) page**, make sure that this option is selected: **The new Workfront certificate has already been uploaded to the Identity Provider**.
+1. ID プロバイダーサーバーに移動し、ダウンロードした新しい証明書を更新します。
+1. （条件付き）アサーション消費者サービス（ACS）の URL または返信 URL が ID プロバイダーで変更された場合は、手順 5 でコピーした URL に戻します。
+1. Workfront の&#x200B;**シングルサインオン(SSO)** ページで、「**新しい Workfront 証明書がすでに ID プロバイダにアップロードされています**」というオプションが選択されていることを確認します。
 
    >[!NOTE]
    >
-   >* This option is visible only if all of the following apply:
-   >   * Your organization is already set up for SAML 2.0
-   >   * The current certificate is ready to expire
-   >   * The new certificate is available
-   >* When this field is selected, Workfront administrators can log in to Workfront with their SSO credentials or their Workfront credentials.
+   >* このオプションは、次のすべてに該当する場合にのみ表示されます。
+   >   * 組織が既に SAML 2.0 用に設定されている
+   >   * 現在の証明書の有効期限を終了にする準備が整っている
+   >   * 新しい証明書が使用可能である
+   >* このフィールドを選択すると、Workfront 管理者は SSO 資格情報 または Workfront 資格情報を使用して Workfront にログインできます。
 
-1. Click **Save**.
+1. 「**保存**」をクリックします。
 
-   The warning message no longer displays because you acknowledged the renewal of the SAML 2.0 certificate on the server of your identity provider.
+   ID プロバイダーのサーバーでの SAML 2.0 証明書の更新を確認したので、警告メッセージは表示されなくなります。
 
-1. Click **Test Connection** to test your configuration.
+1. 「**テスト接続**」をクリックして、設定をテストします。
 
-   You should see a message confirming that the connection was successful.
+   接続が成功したことを確認するメッセージが表示されます。
 
-For more information, or for assistance with the manual configuration of metadata, please contact our Support Team, as explained in [Contact Customer Support](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
-
--->
+詳しくは、あるいはメタデータの手動設定に関するサポートについては、[カスタマーサポートへの連絡](../../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)の説明に従って、サポートチームにお問い合わせください。
