@@ -32,7 +32,7 @@ SAML 2.0 Authentication を有効にし、ユーザーが SAML 2.0 資格情報�
 >[!NOTE]
 >
 >組織の Workfront インスタンスがカスタム SSO Portal を使用している場合は使用できません。
->>詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
+>&#x200B;>詳細情報が必要な場合は、ネットワークまたは IT 管理者にお問い合わせください。
 <!--
 or is enabled with Adobe IMS-->
 
