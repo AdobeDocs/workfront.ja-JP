@@ -9,22 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4b481215-36a1-4945-828a-1598502529d8
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 89%
+source-wordcount: '654'
+ht-degree: 97%
 
 ---
 
 # Adobe Workfront SAML 2.0 メタデータ証明書の更新
-
->[!IMPORTANT]
->
->このページで説明されている手順は、Adobe Admin Consoleにまだオンボーディングされていない組織にのみ適用されるので、削除されました。 この手順は、Adobe Admin Consoleを使用している組織では必要ありません。
->
->すべてのWorkfront組織がAdobe Admin Consoleにオンボーディングされたので、この記事は近い将来に削除される予定です。
-
-<!--DELETE ME MARCH 2026-->
 
 >[!IMPORTANT]
 >

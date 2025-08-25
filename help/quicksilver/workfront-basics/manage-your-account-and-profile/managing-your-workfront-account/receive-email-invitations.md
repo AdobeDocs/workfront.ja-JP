@@ -6,9 +6,9 @@ description: ' [!DNL Workfront]  管理者が新しいユーザーを作成す�
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
-source-git-commit: f381b37e6d4537e6f83e55ed4a2f4ff7f868dd54
+source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '321'
 ht-degree: 100%
 
 ---
@@ -42,6 +42,7 @@ ht-degree: 100%
 
 [!DNL Workfront] 管理者が新しいユーザーを作成すると、新しいユーザーは、いくつかの要因に基づいて招待メールを受け取る場合があります。
 
+* ユーザーの組織が [!DNL Adobe Admin Console] にオンボーディングされているかどうか
 * ユーザーが [!DNL Workfront] と [!DNL Admin Console] のどちらに追加されているか
 * ユーザーが他の [!DNL Adobe] 製品へのアクセス権を持っているか、新しい [!DNL Adobe] ユーザーか
 * 管理者がユーザーに招待メールを送信することを選択したかどうか（まだ [!DNL Admin Console] に登録されていない組織のみに適用）
