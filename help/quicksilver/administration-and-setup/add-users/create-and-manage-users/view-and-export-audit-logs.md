@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 64%
+source-wordcount: '426'
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 64%
 
 監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
 
-すべての監査ログのタイプとその生成内容については、[監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)を参照してください。
+すべての監査ログタイプとその生成内容について詳しくは、[ 監査ログの概要 ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
 
 ## アクセス要件
 
@@ -74,7 +74,7 @@ ht-degree: 64%
 
    デフォルトでは、「**すべてのログタイプ**」が選択されています。
 
-   表示できるすべての監査ログタイプとそれらに含まれる情報のリストについては、[監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)を参照してください。
+   表示できるすべての監査ログタイプと、それらが含む情報のリストについては、[ 監査ログの概要 ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
 
 1. （オプション）次のフィールドに使用可能なフィルターを設定します。
 

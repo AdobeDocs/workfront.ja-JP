@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: b6ced451cdd6b38b5661a076b2311a34c2c70432
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 40%
+source-wordcount: '791'
+ht-degree: 37%
 
 ---
 
@@ -115,7 +115,11 @@ ht-degree: 40%
 * 式フィールドは、次の場合に `#ERROR!` のように表示されることがあります。
    * 式で使用されているフィールドが削除されたとき。
    * 集計参照フィールドで使用されているフィールドが `#ERROR!` として表示されている場合。
-例えば、集計参照式フィールドを含む参照フィールドを表示すると、参照式フィールドの 1 つが `#ERROR!` として表示されます。
+
+     例えば、集計参照式フィールドを含む参照フィールドを表示すると、参照式フィールドの 1 つが `#ERROR!` として表示されます。
+   * 選択した形式で式の値を表示できない場合。
+
+     例えば、数式フィールドの「形式」で「数値」を選択したときに、数式で使用されているフィールドが数値以外のテキスト値のみを表示するテキストフィールドである場合、テキストを数値に解析できないので、数式の結果は `#ERROR!` と表示されます。
 
 ## サポートされる数式
 

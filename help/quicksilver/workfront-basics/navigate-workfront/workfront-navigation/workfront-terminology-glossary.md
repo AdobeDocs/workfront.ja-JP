@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront] 用語集には、 [!DNL Adobe Workfront].
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: 594f224e11b0e7708ed555410b7c331741113791
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '21141'
+source-wordcount: '21167'
 ht-degree: 93%
 
 ---
@@ -50,7 +50,9 @@ ht-degree: 93%
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Cost]</td> 
-   <td> <p>タスクおよびイシューの場合、タスクまたはイシューに割り当てられたリソースの 1 時間あたりのコスト率に関して、実際に記録された時間に関連するコストです。プロジェクトの場合、これは、プロジェクトのタスクとイシューに関するすべての [!UICONTROL Actual Costs] の合計です。詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p> </td> 
+   <td> <p>タスクおよびイシューの場合、タスクまたはイシューに割り当てられたリソースの 1 時間あたりのコスト率に関して、実際に記録された時間に関連するコストです。プロジェクトの場合、これは、プロジェクトのタスクとイシューに関するすべての [!UICONTROL Actual Costs] の合計です。詳しくは、<a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">コストの追跡</a>を参照してください。</p>
+
+<p>[!UICONTROL Actual Cost] の計算には、[!UICONTROL レガシーの実際の時間数 ] が考慮されます。 詳しくは、この表の「[!UICONTROL 実際の時間数 ]」または「[!UICONTROL 従来の実際の時間数 ]」を参照してください。 </p>   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Actual Expense Cost]</td> 
@@ -63,12 +65,12 @@ ht-degree: 93%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Actual Hours]</td> 
-   <td> <p>プロジェクト、タスク、または問題のレポートの [!UICONTROL 実際の時間 &#x200B;] は、2021 年 5 月以降にプロジェクト、タスク、または問題に記録されたすべての時間の合計です。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span>タスク 1 の [!UICONTROL Updates] タブから「ログ時間」をクリックし、25 時間と入力した場合、タスク 1 の実際の時間は 25 時間になります。 </p> <p>[!DNL Workfront] 次の式を使用して、親タスクまたはプロジェクトの [!UICONTROL Actual Hours] を計算します。</p> 
+   <td> <p>プロジェクト、タスク、または問題のレポートの [!UICONTROL 実際の時間 ] は、2021 年 5 月以降にプロジェクト、タスク、または問題に記録されたすべての時間の合計です。</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>例：</b></span></span>タスク 1 の [!UICONTROL Updates] タブから「ログ時間」をクリックし、25 時間と入力した場合、タスク 1 の実際の時間は 25 時間になります。 </p> <p>[!DNL Workfront] 次の式を使用して、親タスクまたはプロジェクトの [!UICONTROL Actual Hours] を計算します。</p> 
     <ul> 
      <li> <p><code>For parent tasks = children [!UICONTROL Actual Hours] + [!UICONTROL Actual Hours] on the parent task. </code> </p> </li> 
      <li> <p><code>For projects = [!UICONTROL Actual Hours] logged on the project + [!UICONTROL Actual Hours] logged on standalone or children tasks in the project + [!UICONTROL Actual Hours] logged on issues in the project</code>  </p> </li> 
     </ul> 
-   <p><strong> 従来の実際の時間数 </strong> も参照してください。
+   <p><strong>[!UICONTROL Legacy Actual Hours]</strong> も参照してください。
     <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md"> 実際の時間数を表示 </a> を参照してください。</p>
     </td> 
   </tr> 
@@ -99,7 +101,7 @@ ht-degree: 93%
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Agile Team]</td> 
-   <td>従来のチームとは異なり、バックログから見込み作業を取得し、[!UICONTROL イテレーション &#x200B;] と呼ばれる設定期間内に作業します。</td> 
+   <td>従来のチームとは異なり、バックログから見込み作業を取得し、[!UICONTROL イテレーション ] と呼ばれる設定期間内に作業します。</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL All My Teams]</td> 
@@ -258,7 +260,7 @@ ht-degree: 93%
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 請求可能費用 &#x200B;]</td> 
+   <td>[!UICONTROL 請求可能費用 ]</td> 
    <td> <p>顧客に請求可能としてマークされた費用。 これは、予定費用または実際の費用のいずれかです。</p> <p>「予定請求可能費用コスト」および「実際の請求可能費用コスト」フィールドを使用して、ビューおよびレポートに追加できます。 プロジェクトまたはタスクの詳細ページには表示されません。</p>
    <p>これらのフィールドは、次のタイプのレポートで確認できます。</p>
    <ul>
@@ -305,7 +307,7 @@ ht-degree: 93%
   </tr>
 
 <tr> 
-   <td>[!UICONTROL の分類 &#x200B;]</td> 
+   <td>[!UICONTROL の分類 ]</td> 
    <td> <p>Workfront Planning では、分類機能を使用して、接続されたレコードをレコードのタイムライン ビューに表示できます。 </p>
    <p>レコードを接続別に分類すると、接続された他のレコードのタイムラインを表示し、レコードのパフォーマンスや期限にどのような影響を与えるかを把握できます。 </p>
    <p>接続されたレコードは、それぞれのレコードの下にネストされて表示されます。 </p>
@@ -316,7 +318,7 @@ ht-degree: 93%
 <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>これは非推奨のフィールドです。このフィールドに表示される情報はすべて、[!DNL Workfront]が削除した機能に関連しています。このフィールドは更新できません。 </p>
-   <p> このフィールドは、[!UICONTROL プロジェクト &#x200B;] のレポートおよびリストに引き続き表示されます。</p>  </td> 
+   <p> このフィールドは、[!UICONTROL プロジェクト ] のレポートおよびリストに引き続き表示されます。</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Cost]</td>
@@ -456,7 +458,7 @@ ht-degree: 93%
    <td>[!UICONTROL Budgeted Start Date]</td> 
   <td> <p>これは非推奨のフィールドです。このフィールドに表示される情報はすべて、[!DNL Workfront]が削除した機能に関連しています。このフィールドは更新できません。</p>
   <p>これらのエリアは[!DNL Workfront]から削除されました。 </p> 
-  <p>[!UICONTROL プロジェクト &#x200B;] のレポートおよびリストには、フィールドが引き続き表示されます。</p>
+  <p>[!UICONTROL プロジェクト ] のレポートおよびリストには、フィールドが引き続き表示されます。</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -647,7 +649,7 @@ ht-degree: 93%
   </tr>
 
 <tr> 
-   <td>[!UICONTROL 接続されたレコードタイプ &#x200B;]</td> 
+   <td>[!UICONTROL 接続されたレコードタイプ ]</td> 
    <td> <p>Workfront Planning では、次のいずれかの方法で接続を作成できます。 </p>
    <ul>
    <li>2 つのレコードタイプ</li>
@@ -660,7 +662,7 @@ ht-degree: 93%
   </tr>
 
 <tr> 
-   <td>[!UICONTROL 接続レコード &#x200B;]</td> 
+   <td>[!UICONTROL 接続レコード ]</td> 
    <td> <p>Workfront Planning では、2 つのレコード・タイプを関連付けた後、それらのタイプの 2 つの個々のレコードを相互に関連付けることができます。  </p>
    <p>レコードを接続すると、あるレコードまたはオブジェクトの情報を、別のレコード上の別のアプリケーションから表示できます。</p>
    <p>詳しくは、<a href="/help/quicksilver/planning/records/connected-records-overview.md"> 接続されたレコードの概要 </a> を参照してください。 </p>
@@ -670,7 +672,7 @@ ht-degree: 93%
   </tr>
 
 <tr> 
-   <td>[!UICONTROL 接続 &#x200B;]</td> 
+   <td>[!UICONTROL 接続 ]</td> 
    <td> <p>Workfront Planning では、接続は、接続されたレコードタイプまたは接続されたレコードを指す場合があります。 Workfront Planning には追加ライセンスが必要です。</p> </td> 
   </tr>
 
@@ -1279,8 +1281,8 @@ Workfront では、時間エントリには次のいずれかのステータス�
     --> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 従来の実際の時間数 &#x200B;]</td> 
-   <td> <p>プロジェクト、タスク、または問題のレポートの [!UICONTROL の従来の実際の時間 &#x200B;] は、2021 年 5 月より前を含む任意の時間にプロジェクト、タスク、または問題に記録されたすべての時間の合計です。</p>  
+   <td>[!UICONTROL 従来の実際の時間数 ]</td> 
+   <td> <p>プロジェクト、タスク、または問題のレポートの [!UICONTROL の従来の実際の時間 ] は、2021 年 5 月より前を含む任意の時間にプロジェクト、タスク、または問題に記録されたすべての時間の合計です。</p>  
    <p>レガシーの実際の時間は、プロジェクト、タスク、または問題の「詳細」領域に実際の時間として表示されます。 </p>
    <p><strong> 実際の時間数 </strong> も参照してください。
     <p>詳しくは、<a href="/help/quicksilver/manage-work/tasks/task-information/actual-hours.md"> 実際の時間数を表示 </a> を参照してください。</p>
@@ -1306,7 +1308,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
    <td> <p>[!UICONTROL Interface Setup] の一部で、カスタムフィルター、ビューおよびグループ化を個々のユーザーにまたはすべてのユーザーにグローバルにリンクできます。</p> </td> 
   </tr> 
 <tr> 
-   <td>[!UICONTROL 参照フィールド &#x200B;]</td> 
+   <td>[!UICONTROL 参照フィールド ]</td> 
    <td> <p>Workfront Planning では、2 つのレコードタイプ間の関連付けを確立し、個々のレコードをリンクした後、リンク先のレコード上でリンクされたレコードのフィールドを参照できます。</p>
    <p>例えば、キャンペーンレコードタイプをWorkfront プロジェクト オブジェクトタイプに関連付けると、キャンペーンレコードで、接続されたプロジェクトの「予算」フィールドを表示できます。 「予算プロジェクト」フィールドは、キャンペーン上のプロジェクトのルックアップフィールドです。</p> <p>ルックアップフィールドの値は、接続元のレコードに自動的に入力されます。</p>
    <p>詳しくは、<a href="/help/quicksilver/planning/records/connected-records-overview.md"> 接続されたレコードの概要 </a> を参照してください。</p>
@@ -1384,7 +1386,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr>
 
 <tr data-mc-conditions=""> 
-   <td>[!UICONTROL 請求不可の費用 &#x200B;]</td> 
+   <td>[!UICONTROL 請求不可の費用 ]</td> 
    <td> <p>顧客に請求可能としてマークされていない費用。 これは、予定費用または実際の費用のいずれかです。</p> <p>「予定非請求可能費用コスト」フィールドと「実際の非請求可能費用コスト」フィールドを使用して、ビューやレポートに追加できます。 プロジェクトまたはタスクの詳細ページには表示されません。</p>
    <p>これらのフィールドは、次のタイプのレポートで確認できます。</p>
    <ul>
@@ -1583,7 +1585,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned]</td> 
-   <td> <p>何かが発生するようにスケジュールされている時間枠。プロジェクト、タスクやイシューを [!DNL Workfront] に作成する場合、予定開始日と予定完了日、およびそれらが発生する予定時間枠を確定します。これらの値は、当初の意図、または項目が完了するまでにかかる時間の見積もりを表します。 </p></td> 
+   <td> <p>何かが発生するようにスケジュールされている時間枠。プロジェクト、タスクやイシューを [!DNL Workfront] に作成する場合、予定開始日と予定終了日、およびそれらが発生する予定時間枠を確定します。これらの値は、当初の意図、または項目が完了するまでにかかる時間の見積もりを表します。 </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Benefit]</td> 
@@ -1595,7 +1597,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>タスク、プロジェクトまたは問題の [!UICONTROL 予定完了日 &#x200B;] は、手動で選択した日付に設定できます。 [!UICONTROL Planned Completion Date] を設定しない場合、[!DNL Workfront] が自動的に設定します。自動的に設定された場合、[!UICONTROL Planned Completion Date] は [!UICONTROL Planned Start Date] + [!UICONTROL Duration] です。</p> <p>詳しくは、次の記事を参照してください。</p> 
+   <td> <p>タスク、プロジェクトまたは問題の [!UICONTROL 予定完了日 ] は、手動で選択した日付に設定できます。 [!UICONTROL Planned Completion Date] を設定しない場合、[!DNL Workfront] が自動的に設定します。自動的に設定された場合、[!UICONTROL Planned Completion Date] は [!UICONTROL Planned Start Date] + [!UICONTROL Duration] です。</p> <p>詳しくは、次の記事を参照してください。</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">タスクの [!UICONTROL Planned Completion Date] の概要</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">プロジェクト [!UICONTROL Planned Completion Date] の設定</a> </p> </li> 
@@ -1609,7 +1611,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
 
 
 <tr> 
-   <td>[!UICONTROL 予定日整合性 &#x200B;]</td> 
+   <td>[!UICONTROL 予定日整合性 ]</td> 
    <td> <p>これは、Workfrontがプロジェクト、タスクおよび問題を割り当て、予定完了日に対していつアイテムが完了するかを示す自動インジケーターです。 </p>
    <p>予定日整合性インジケーターには、次の値が使用できます。 </p>
 <ul>
@@ -2005,7 +2007,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr> 
    <td>[!UICONTROL Revenue Type]</td> 
-   <td>収益タイプは、タスクがどのように収益を生み出すかを指定します。例えば、[!UICONTROL Fixed Hourly]、[!UICONTROL Role Hourly]、[!UICONTROL Role Hourly w/Cap]などがあります。[!DNL Workfront] での収益の追跡については、<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">請求と収益の概要</a>を参照してください。</td> 
+   <td>収益タイプは、タスクがどのように収益を生み出すかを指定します。例えば、[!UICONTROL 固定（毎時）]、[!UICONTROL 役割（毎時）]、[!UICONTROL 役割（毎時）（キャップ付き）]などがあります。[!DNL Workfront] での収益の追跡については、<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">請求と収益の概要</a>を参照してください。</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Reviewer]</td> 
@@ -2067,7 +2069,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario]（[!DNL Workfront Fusion] の場合） </td> 
-   <td> <p>シナリオは、アプリまたはサービス間でデータを転送および変換する方法を示す一連の手順（モジュール）で構成されます。</p> <p>[!DNL Workfront Fusion] のシナリオについては、<a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] シナリオの概要</a>を参照してください。</p> </td> 
+   <td> <p>シナリオは、アプリまたはサービス間でデータを転送および変換する方法を示す一連の手順（モジュール）で構成されます。</p> <p>[!DNL Workfront Fusion] のシナリオについては、<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] シナリオの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario]（[!DNL Workfront Scenario Planner]の場合） </td> 
@@ -2194,7 +2196,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr> 
    <td>ステータスアイコン</td> 
-   <td> <p>組み込みの [!UICONTROL Status Icons] フィールドをビューの列として追加すると、次のようなオブジェクトの主要ポイントをより明確に表示できます。</p> 
+   <td> <p>ビルトインの [!UICONTROL Status Icons] フィールドをビューの列として追加すると、次のようなオブジェクトの主要ポイントをより明確に表示できます。</p> 
     <ul> 
      <li>オブジェクトにドキュメントが添付されている</li> 
      <li>オブジェクトが承認プロセスに関連付けられている</li> 
@@ -2212,7 +2214,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
      <li>[!UICONTROL Expenses]</li> 
      <li>[!UICONTROL Documents]</li> 
      <li>[!UICONTROL Users]</li> 
-    </ul> <p>詳しくは、<a href="../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md" class="MCXref xref">ビュー内の組み込みステータスアイコン</a>を参照してください。</p> </td> 
+    </ul> <p>詳しくは、<a href="../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md" class="MCXref xref">ビュー内のビルトインのステータスアイコン</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Status Update]</td> 

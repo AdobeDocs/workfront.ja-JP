@@ -1,5 +1,5 @@
 ---
-title: 監査ログ
+title: 監査ログの概要
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -8,14 +8,14 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: aeb55124fa76192a5c39b504964fe9acc16c31d8
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 94%
+source-wordcount: '1522'
+ht-degree: 93%
 
 ---
 
-# 監査ログ
+# 監査ログの概要
 
 <!--Audited: 01/2024-->
 
@@ -73,14 +73,14 @@ Adobe Workfront 管理者は、以下に説明する監査ログを使用して�
 * [カスタムセクション](#custom-section)
 * [為替レート](#exchange-rate)
 * [グループ](#group)
-* [担当業務](#job-roles)
-* [ログイン試行](#login-attempt)
+* [担当業務](#job-role)
 * [優先度](#priority)
 * [プロジェクト環境設定](#project-preference)
 * [重大度](#severity)
 * [ステータス](#status)
 * [タスクと問題の設定](#tasks-issues-preferences)
 * [ユーザー](#user)
+<!--* [Login Attempt](#login-attempt) -->
 
 ### アクセスレベル {#access-level}
 
@@ -236,7 +236,7 @@ Business Rules は、Ultimate Workfrontプランを購入したお客様のみ�
    * ユーザーの追加または削除
    * サブグループの追加または削除
 
-### 担当業務 {#job-roles}
+### s {#job-role}
 
 ユーザーが次のいずれかの操作を行うと、担当業務監査ログエントリが生成されます。
 

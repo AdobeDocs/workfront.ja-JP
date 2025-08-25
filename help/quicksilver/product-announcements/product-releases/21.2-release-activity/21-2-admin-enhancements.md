@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1526'
 ht-degree: 99%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 99%
 * プロジェクトの環境設定を変更するか、カスタム四半期を作成または削除
 * タスクとイシューの環境設定を変更
 
-詳しくは、[監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)を参照してください。
+詳しくは、[ 監査ログの概要 ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
 
 この機能は、[新しい Workfront エクスペリエンスの管理の基本、第 2 部：プロジェクトの設定](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home) Workfront One の学習パスに含まれています。
 

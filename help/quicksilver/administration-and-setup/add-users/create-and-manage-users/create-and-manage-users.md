@@ -10,10 +10,10 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 94%
+source-wordcount: '104'
+ht-degree: 91%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 94%
 * [ユーザー属性をマッピングおよび新しいユーザーを自動プロビジョニング](../../../administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
 * [ユーザーを非アクティブ化または再アクティブ化](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
 * [ユーザーを削除](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-* [監査ログ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+* [ 監査ログの概要 ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
 * [監査ログを表示および書き出し](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
 * [ユーザーログイン情報を表示](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
 * [Adobe Admin Console でのユーザー管理](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)

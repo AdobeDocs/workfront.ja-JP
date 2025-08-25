@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: cfec7f1b3001b0fe78534c33c3a10c70f5f64c3f
+source-git-commit: 6d02397a15b0b06c3c60fb5d71dfeb3cb0b0a30d
 workflow-type: tm+mt
-source-wordcount: '13445'
+source-wordcount: '13449'
 ht-degree: 85%
 
 ---
@@ -489,7 +489,7 @@ ht-degree: 85%
          * [ユーザー属性を割り当て](administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md)
          * [ユーザーの非アクティブ化](administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)
          * [ユーザーの削除](administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)
-         * [監査ログ](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
+         * [監査ログの概要](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
          * [監査ログの表示と書き出し](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
          * [ユーザーログイン情報を表示](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
          * [Adobe Admin Console でのユーザー管理](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
@@ -2069,6 +2069,7 @@ ht-degree: 85%
       * [アーキテクチャ：記事インデックス](planning/architecture/architecture-information.md)
       * [ワークスペースの概要](planning/architecture/workspaces-overview.md)
       * [ワークスペースの作成](planning/architecture/create-workspaces.md)
+      * [ワークスペース階層の作成](planning/architecture/create-workspace-hierarchies.md)
       * [レコードタイプの概要](planning/architecture/overview-of-record-types.md)
       * [レコードタイプの作成](planning/architecture/create-record-types.md)
       * [CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成](planning/architecture/import-file-to-create-record-types.md)
