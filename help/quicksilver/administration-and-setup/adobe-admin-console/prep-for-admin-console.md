@@ -45,11 +45,11 @@ Adobe Admin Console の概要については、[Admin Console の概要](https:/
    >
    >シングルサインオン（SSO）や非 SSO などの認証設定について、Workfront サポートおよび組織の IT チームに伝えられるようにしておきます。
 
-   手順については、[Adobe Admin Console のデプロイメントガイド](https://helpx.adobe.com/enterprise/using/deployment-planning.html)の ID 管理の節を参照してください。
+   手順については、[Adobe Admin Console のデプロイメントガイド](https://helpx.adobe.com/jp/enterprise/using/deployment-planning.html)の ID 管理の節を参照してください。
 
 1. （条件付き）シングルサインオンを使用する場合は、新しい Adobe Admin Console を既存の SSO プロバイダーに接続します。
 
-   詳しい情報と手順については、[ID の設定](https://helpx.adobe.com/enterprise/using/set-up-identity.html)を参照してください。
+   詳しい情報と手順については、[ID の設定](https://helpx.adobe.com/jp/enterprise/using/set-up-identity.html)を参照してください。
 
    >[!NOTE]
    >
