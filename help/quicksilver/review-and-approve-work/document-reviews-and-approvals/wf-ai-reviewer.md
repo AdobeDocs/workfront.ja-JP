@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 99113ac4f2ceca6bd50f078916e33cec7f577362
+source-git-commit: 619bc09a226c6023ff653557dc6e049b2d177722
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '609'
 ht-degree: 7%
 
 ---
@@ -55,7 +55,7 @@ AI レビュー担当者は、次のファイルタイプをレビューでき�
 
 ## ブランドガイドラインの設定
 
-Workfront AI レビュー担当者は、コンテンツのレビュー時に、Performance Marketing 用に Genstudio で設定されたブランドガイドラインを使用します。 現在、画像のブランドガイドラインのみをセットアップできます。 詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
+Workfront AI レビュー担当者は、コンテンツのレビュー時に、Genstudio Foundations で設定されたブランドガイドラインを使用します。 現在、画像のブランドガイドラインのみをセットアップできます。 詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
 
 
 ## AI レビュー担当者の作成
