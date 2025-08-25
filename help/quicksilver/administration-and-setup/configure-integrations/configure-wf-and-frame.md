@@ -56,7 +56,7 @@ Workfront管理者は、設定エリアでデフォルトの Frame.io アカウ�
 
 +++
 
-## デフォルトの [!DNL Frame.io] アカウントを設定 [!BADGE  近日公開 ]{type=Informative}
+## デフォルトの [!DNL Frame.io] アカウントを設定 [!BADGE &#x200B; 近日公開 &#x200B;]{type=Informative}
 
 デフォルトの [!DNL Frame.io] アカウントが設定されると、[!DNL Workfront] で作成されたプロジェクトには、Frame.io で作成されたミラープロジェクトが含まれます。
 
@@ -91,7 +91,7 @@ Frame.io を定期的に使用するWorkfront ユーザーは、Frame.io ユー�
 
 * Frame.io のコラボレーターとして追加されます。<!--do we need to be more explicit about a frame license being provisioned for them?-->
 * Frame.io からWorkfrontにアセットを送信して、正式なレビューと承認を受けることができます。
-* Workfrontから一方向の同期フォルダーの情報を表示できます。 [!BADGE  準備中 ]{type=Informative}
+* Workfrontから一方向の同期フォルダーの情報を表示できます。 [!BADGE &#x200B; 準備中 &#x200B;]{type=Informative}
 
 Frame.io ユーザーを有効にするには：
 

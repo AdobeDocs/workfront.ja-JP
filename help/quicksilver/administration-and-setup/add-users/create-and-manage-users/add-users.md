@@ -30,7 +30,7 @@ ht-degree: 79%
 >   組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 >
 >* **組織がシングルサインオン（SSO）を使用している場合**、Adobe Admin Consoleでユーザーを作成してWorkfrontに割り当てることをお勧めします。 これらのユーザーをWorkfrontで作成することは可能ですが、組織のAdmin Consoleの設定によっては、情報をAdobe Admin Consoleに転送する際に問題が生じる場合があります。
->  >   Adobe Admin Consoleでユーザーを作成したら、Workfrontでユーザーの情報（ロール、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
+>  &#x200B;>   Adobe Admin Consoleでユーザーを作成したら、Workfrontでユーザーの情報（ロール、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
 >* **組織がシングルサインオン（SSO）を使用していない場合**、システム管理者以外のユーザーをWorkfrontに直接追加できます。 Adobe Admin Console でユーザーを追加することもできますが、Workfront にユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
 

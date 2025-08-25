@@ -25,7 +25,7 @@ Adobe Workfront インスタンスでシングルサインオン（SSO）が有�
 
 既に SSO 資格情報に関連付けられたユーザーが設定されている既存のシステムがある場合は、コンマ区切り値（CSV）ファイルを Workfront に読み込むことで、Workfront にユーザーの ID を読み込むことができます。
 
-Workfront と SSO システムの統合について詳しくは、[](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
+Workfront と SSO システムの統合について詳しくは、[&#128279;](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
 
 
 ## アクセス要件
