@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '30'
-ht-degree: 100%
+source-wordcount: '705'
+ht-degree: 98%
 
 ---
 
@@ -19,108 +19,105 @@ ht-degree: 100%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+Adobe Workfront 管理者は、パスワードポリシーオプションを設定すると、Workfront システムの認証操作をカスタマイズできます。
 
-<!--As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
+Workfront の実装時に認証環境設定を指定し、後で再度アクセスすることをお勧めします。
 
-We recommend that you configure authentication preferences during the Workfront implementation and only occasionally revisit them afterward.
+改善されたパスワード管理機能は、近日中に提供される予定です。または、組織で既にご利用いただける可能性もあります。組織が新しい認証操作にアクセスできるかどうかに応じて、次の節のいずれかを使用してください。
 
-Improved password management capabilities are coming soon or might already be available for your organization. Use either of the following sections, depending on whether your organization has access to the new authentication experience.
+## アクセス要件
 
-## Access requirements
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-+++ Expand to view access requirements for the functionality in this article.
-
-You must have the following access to perform the steps in this article: 
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>プラン</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Configure authentication (available for all customers) {#configure-authentication-available-for-all-customers}
+## 認証を設定（すべての顧客が利用可能） {#configure-authentication-available-for-all-customers}
 
-Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication)](#configure-enhanced-authentication-coming-soon) in this article.
+すべての顧客に対して認証オプションが表示されます。この記事の[拡張認証の設定](#configure-enhanced-authentication-coming-soon)の節で説明されているように、改善されたパスワード管理機能は、近日中に提供される予定です。または、組織で既に利用できる可能性もあります。
 
-To configure authentication preferences:
+認証環境設定を行うには、次の手順に従います。
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Authentication**.
+1. **システム**／**認証**&#x200B;をクリックします。
 
-1. Select any of the following fields to establish the authentication settings for your organization:
+1. 次のいずれかのフィールドを選択して、組織の認証設定を確立します。
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Force users to reset their password every <em>&lt;value&gt;</em> days</td> 
-      <td>This establishes the time frame for users to reset their Workfront password. By default, this option is disabled. When you enable it, you can choose between 30, 60, 90, 120, 180 days. The default is 30 days.</td> 
+      <td role="rowheader"><em>&lt;value&gt;</em> 日ごとにパスワードをリセットするようユーザーを強制する</td> 
+      <td>これにより、ユーザーが Workfront のパスワードをリセットする時間枠が設定されます。デフォルトでは、このオプションは無効になっています。有効にすると、30、60、90、120、180 日から選択できます。デフォルトは 30 日です。</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Don't allow users to set the same password as any of their previous <em>&lt;value&gt;</em> passwords</td> 
-      <td> <p>This field prohibits users from reusing passwords for a set number of resets. By default, this field is disabled. When you enable it, you can set this value to 5, 10, or 15 resets before a password can be reused.</p> <p>When this option is selected, users cannot reset their passwords more than one time in a given day</p> </td> 
+      <td role="rowheader">ユーザーが過去に設定した <em>&lt;value&gt;</em> つのパスワードと同じパスワードを設定できないようにする</td> 
+      <td> <p>このフィールドでは、設定されたリセット数に対してユーザーがパスワードを再利用することを禁止します。デフォルトでは、このフィールドは無効になっています。有効にすると、パスワードを再利用できるようになるまでに、この値を 5、10、15 のリセット数に設定できます。</p> <p>このオプションを選択すると、ユーザーは 1 日に複数回パスワードをリセットできません</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">If an incorrect password is entered five consecutive times, lock the account for <em>&lt;value&gt;</em> minutes: </td> 
-      <td> <p>Select how long a user will be locked out of Workfront after entering an incorrect password five consecutive times. By default, this option is enabled, and the amount of wait time is 10 minutes. You can lock accounts for 10 minutes, 30 minutes, 1 hour, 8 hours, or 24 hours. </p> <p>Manually resetting the password for the user overrides this default wait value. <br>Users can reset their own passwords when they are locked out via the login screen. For more information about how they can reset their password, if they forgot it, see <a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">Reset your password</a>.</p> </td> 
+      <td role="rowheader">間違ったパスワードを 5 回連続して入力した場合、アカウントを <em>&lt;value&gt;</em> 分間ロックする。 </td> 
+      <td> <p>間違ったパスワードを 5 回連続して入力した場合に、ユーザーが Workfront からロックアウトされる期間を選択します。デフォルトでこのオプションは有効になっており、待機時間は 10 分です。アカウントは、10 分、30 分、1 時間、8 時間、24 時間ロックできます。 </p> <p>ユーザーのパスワードを手動でリセットすると、このデフォルトの待機値が上書きされます。<br>ユーザーは、ログイン画面からロックアウトされると、自分のパスワードをリセットできます。パスワードを忘れた場合にパスワードをリセットする方法について詳しくは、<a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">パスワードをリセットする</a>を参照してください。</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Passwords must contain at least <em>&lt;value&gt;</em> different types of characters:</td> 
-      <td> <p>Determines how strong user passwords are required to be by allowing you to select the number of different types of characters required in your passwords.</p> <p>A recognizable dictionary word cannot be used as a password.<br>By default, Workfront requires that at least 2 of the following are present in passwords (you can also require 3 of these characters to be present for a valid password): </p> 
+      <td role="rowheader">パスワードには少なくとも <em>&lt;value&gt;</em> 種類の文字を含める必要がある。</td> 
+      <td> <p>パスワードに必要な様々な種類の文字の数を選択できるようにすることで、ユーザーのパスワードの強度を決定します。</p> <p>認識可能な辞書の単語は、パスワードとして使用できません。<br>デフォルトの Workfront では、次の文字のうち少なくとも 2 つがパスワードに存在する必要があります（有効なパスワードには、これらの文字のうち 3 つが必要になる場合もあります）。 </p> 
        <ul> 
-        <li>Uppercase characters</li> 
-        <li>Lowercase characters</li> 
-        <li>Numbers</li> 
-        <li>Symbols</li> 
+        <li>大文字</li> 
+        <li>小文字</li> 
+        <li>数字</li> 
+        <li>シンボル</li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click **Save**.
+1. 「**保存**」をクリックします。
 
-## Configure enhanced authentication{#configure-enhanced-authentication-coming-soon}
+## 拡張認証の設定{#configure-enhanced-authentication-coming-soon}
 
-This section describes the enhanced authentication experience, which might not yet be available for your organization. If your organization has not been migrated to the new authentication experience, you must configure the authentication settings, as described in [Configure authentication (available for all customers)](#configure-authentication-available-for-all-customers).
+この節では、組織でまだ使用できない可能性のある、拡張認証エクスペリエンスについて説明します。組織が新しい認証エクスペリエンスに移行していない場合は、[認証を設定（すべての顧客が利用可能）](#configure-authentication-available-for-all-customers)の説明に従って認証設定を行う必要があります。
 
-To configure enhanced authentication preferences:
+拡張認証環境設定を行うには、次の手順に従います。
 
 {{step-1-to-setup}}
 
-1. Click **System** > **Enhanced Authentication**.
-1. In the **Password Length** box, enter the minimum number of characters required for a valid password.
+1. **システム**／**拡張認証**&#x200B;をクリックします。
+1. 「**パスワードの長さ**」ボックスに、有効なパスワードに必要な最小文字数を入力します。
 
-   Workfront requires at least 6 characters.
+   Workfront には 6 文字以上必要です。
 
-1. (Optional) In the **Password Requirements** section, select the types of characters required in user passwords.
+1. （オプション）「**パスワード要件**」セクションで、ユーザーパスワードに必要な文字の種類を選択します。
 
-   You can increase the strength of user passwords by requiring any or all the types of characters in the Password Requirement section. The following options are available:
+   「パスワード要件」セクションの任意の種類またはすべての文字を必要とすることで、ユーザーパスワードの強度を高めることができます。次のオプションを使用できます。
 
-   | Lowercase Letters |Require at least one lowercase letter |
+   | 小文字 | 少なくとも小文字が 1 文字必要です |
    |---|---|
-   | Uppercase Letters |Require at least one uppercase letter |
-   | Numbers |Require at least one number |
-   | Special Characters |Require at least one special character |
+   | 大文字 | 少なくとも大文字が 1 文字必要です |
+   | 数字 | 少なくとも数字が 1 つ必要です |
+   | 特殊文字 | 少なくとも特殊文字が 1 つ必要です |
 
    {style="table-layout:auto"}
 
-1. Click **Save**.
--->
+1. 「**保存**」をクリックします。

@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
-source-git-commit: d2dd148c8b7a08f4ea9a13e325a33f753eea2d7d
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 94%
+source-wordcount: '747'
+ht-degree: 96%
 
 ---
 
@@ -96,9 +96,17 @@ ht-degree: 94%
 
 割り当てや共有を行う際に、他のすべてのオブジェクトの先行入力フィールドにユーザーを表示するには、そのユーザーがアクティブである必要があります。
 
-[!UICONTROL Adobe Admin Console] からユーザーをディアクティベートする必要があります。
+ユーザーページで、またはユーザーの編集時に、ユーザーを非アクティブ化できます。
 
-[!UICONTROL Adobe Admin Console] でユーザーを非アクティブ化する手順については、[ユーザーを個別に管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)の記事の「ユーザーを削除」の節を参照するか、[!UICONTROL Adobe Admin Console] 管理者にお問い合わせください。
+ユーザーの非アクティブ化について詳しくは、[ユーザーを非アクティブ化または再アクティブ化](../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)を参照してください。
+
+>[!IMPORTANT]
+>
+>組織が [!DNL Adobe Business Platform] にオンボーディングされている場合は、[!UICONTROL Adobe Admin Console] を通じてユーザーを非アクティブ化してください。
+>
+>[!UICONTROL Adobe Admin Console] でユーザーを非アクティブ化する手順については、[ユーザーを個別に管理](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html)の記事の「ユーザーを削除」の節を参照するか、[!UICONTROL Adobe Admin Console] 管理者にお問い合わせください。
+>
+>組織が [!DNL Adobe Business Platform] にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe Business Platform）](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 
 ## チーム
 

@@ -6,9 +6,9 @@ hide: true
 feature: System Setup and Administration
 role: Admin
 exl-id: bf3c6c6f-ddd5-42d0-9efe-b5eb94549f85
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '13'
+source-wordcount: '537'
 ht-degree: 100%
 
 ---
@@ -19,11 +19,9 @@ ht-degree: 100%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+Adobe Workfront では、ユーザーとパスワードのシステム管理が変更されます。これらの変更は、**拡張認証**&#x200B;エクスペリエンスと呼ばれる段階的リリースで公開されます。拡張認証により、すべての Workfront 製品およびサービスで、一貫性と安全性の高いログインエクスペリエンスをユーザーに提供します。
 
-<!--Adobe Workfront is changing the system management of users and passwords. These changes will roll out in a phased release called **Enhanced Authentication** experience. Enhanced Authentication offers users a more consistent and secure sign-in experience across all Workfront products and services.
-
-The following table provides details about current and future functionality:
+次の表に、現在および将来の機能の詳細を示します。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,83 +30,83 @@ The following table provides details about current and future functionality:
  <col data-mc-conditions=""> 
  <thead> 
   <tr> 
-   <th> <p><strong>Feature</strong> </p> </th> 
-   <th><strong>Legacy Authentication</strong> </th> 
-   <th><strong>Enhanced Authentication 1.0</strong> </th> 
-   <th> <p>Enhanced Authentication 2.0</p> </th> 
+   <th> <p><strong>機能</strong> </p> </th> 
+   <th><strong>レガシー認証</strong> </th> 
+   <th><strong>拡張認証 1.0</strong> </th> 
+   <th> <p>拡張認証 2.0</p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td colspan="3"> <p><strong>Login options</strong> </p> </td> 
+   <td colspan="3"> <p><strong>ログインオプション</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Enable a single username to be used for all Workfront products and services, including training, support, and others</p> </td> 
-   <td>Not available</td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>1 件のユーザー名を、トレーニング、サポートなど、すべての Workfront 製品およびサービスで使用できるようにする</p> </td> 
+   <td>利用不可</td> 
+   <td> <p>利用不可</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Allow using the same email address across Workfront instances</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
+   <td> <p>Workfront インスタンス間で同じメールアドレスを使用することを許可</p> </td> 
+   <td> <p>✓</p> <p>2019.3 リリース以降で利用可能</p> </td> 
+   <td> <p>✓</p> <p>2019.3 リリース以降で利用可能</p> </td> 
+   <td> <p>✓</p> <p>2019.3 リリース以降で利用可能</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Email addresses are case-insensitive</p> </td> 
-   <td> <p>✓</p> <p>Available as of the 2019.3 release</p> </td> 
-   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> </td> 
-   <td> <p>✓</p> <p>Multiple users cannot have the same email address if the address differs only by case. </p> <p>Workfront administrators will be notified toward the end of 2019 to begin fixing duplicate email addresses.</p> </td> 
+   <td> <p>メールアドレスでは大文字と小文字が区別されない</p> </td> 
+   <td> <p>✓</p> <p>2019.3 リリース以降で利用可能</p> </td> 
+   <td> <p>✓</p> <p>複数のユーザーが、大文字と小文字の違いがあるだけで、あとは同じであるメールアドレスを使用することはできません。 </p> </td> 
+   <td> <p>✓</p> <p>複数のユーザーが、大文字と小文字の違いがあるだけで、あとは同じであるメールアドレスを使用することはできません。 </p> <p>Workfront 管理者には、2019 年末頃に、重複するメールアドレスを修正を開始するよう通知されます。</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Password management options</strong> </p> </td> 
+   <td colspan="3"> <p><strong>パスワード管理オプション</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Instigate a password reset email for a user as the Workfront administrator</p> </td> 
-   <td> <p>Not available </p> </td> 
+   <td> <p>Workfront 管理者としてユーザーのパスワードリセット用メールを設定する</p> </td> 
+   <td> <p>利用不可 </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Set a temporary password for a user as the Workfront administrator</p> </td> 
+   <td> <p>Workfront 管理者としてユーザーの一時パスワードを設定する</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
-   <td> <p>Not planned</p> <p>This functionality is not a security best practice</p> </td> 
+   <td> <p>予定なし</p> <p>この機能はセキュリティ上のベストプラクティスではありません</p> </td> 
+   <td> <p>予定なし</p> <p>この機能はセキュリティ上のベストプラクティスではありません</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Password policy requirements</strong> </p> </td> 
+   <td colspan="3"> <p><strong>パスワードポリシーの要件</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Require users to reset passwords after a certain timeframe</p> </td> 
+   <td> <p>特定の期間の経過後にパスワードをリセットするようユーザーに要求する</p> </td> 
    <td>✓</td> 
-   <td> <p>Not planned</p> </td> 
+   <td> <p>予定なし</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Restrict users from using a previous password </p> </td> 
+   <td> <p>ユーザーが以前のパスワードを使用することを制限する </p> </td> 
    <td>✓</td> 
-   <td>Not planned </td> 
+   <td>予定なし </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Safeguard against incorrect password entry attempts </p> </td> 
-   <td> <p>✓ </p> <p>Locks the account after 5 incorrect password entry attempts. The wait time required after lockout is configured by the Workfront administrator</p> </td> 
-   <td> <p>✓</p> <p>Wait time is exponentially increased after each successive incorrect password based on industry best practices; the time required is not configurable by the Workfront administrator</p> </td> 
-   <td> <p>✓</p> <p>Uses a lock-out algorithm that proactively blocks a variety of suspicious behavior.</p> </td> 
+   <td> <p>誤ったパスワードの入力試行から保護 </p> </td> 
+   <td> <p>✓ </p> <p>パスワードの入力が 5 回失敗した場合に、アカウントをロックします。ロック後に必要な待機時間は Workfront 管理者が設定する</p> </td> 
+   <td> <p>✓</p> <p>業界のベストプラクティスに基づいて、誤ったパスワードを連続して入力すると待ち時間が急激に増加します。必要な待機時間は Workfront 管理者が設定する項目ではありません</p> </td> 
+   <td> <p>✓</p> <p>さまざまな疑わしい行動をプロアクティブにブロックするロックアウトアルゴリズムを使用します。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Require a mix of lowercase, uppercase, numbers, and special characters</p> </td> 
+   <td> <p>小文字、大文字、数字および特殊文字を組み合わせる必要があります</p> </td> 
    <td>✓</td> 
-   <td> <p>✓ </p> <p>Enhanced flexibility in choosing specific requirements</p> </td> 
+   <td> <p>✓ </p> <p>特定の要件を選択する際の柔軟性の向上</p> </td> 
    <td> <p>✓</p> <p> 
      </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Set a minimum password length </p> </td> 
-   <td> Not available </td> 
+   <td> <p>パスワードの最小長を設定 </p> </td> 
+   <td> 利用不可 </td> 
    <td> ✓ </td> 
    <td> <p>✓</p> </td> 
   </tr> 
@@ -119,55 +117,55 @@ The following table provides details about current and future functionality:
     <td>Not available</td> 
     <td> <p>✓</p> </td> 
    </tr>
-  -->
-<!--<tr> 
-   <td colspan="3"> <p><strong>Single Sign-On Protocol support</strong></p> </td> 
-   <td>&nbsp;</td> 
+  --> 
+  <tr> 
+   <td colspan="3"> <p><strong>シングルサインオンプロトコルのサポート</strong></p> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Supports SSO integrations that are compliant with Active Directory and LDAP protocols</p> </td> 
-   <td> ✓&nbsp;</td> 
-   <td> <p> Deprecated</p> <p>Active Directory, Azure, and LDAP systems should use SAML 2.0</p> </td> 
-   <td> <p>Deprecated</p> <p>Active Directory, Azure, and LDAP systems can be configured with encrypted SAML 2.0 or OpenID Connect.</p> </td> 
+   <td> <p>Active Directory および LDAP プロトコルに準拠する SSO 統合をサポート</p> </td> 
+   <td> ✓</td> 
+   <td> <p> 廃止</p> <p>Active Directory、Azure、LDAP の各システムでは、SAML 2.0 を使用する必要があります</p> </td> 
+   <td> <p>廃止</p> <p>Active Directory、Azure、LDAP の各システムは、暗号化された SAML 2.0 または OpenID Connect を使用して設定できます。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Supports SSO protocols that are compliant with SAML 2.0&nbsp;</p> </td> 
+   <td> <p>SAML 2.0 に準拠する SSO プロトコルをサポート</p> </td> 
    <td>✓</td> 
-   <td> ✓&nbsp;</td> 
+   <td> ✓</td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Supports Open ID Connect protocols</p> </td> 
-   <td> <p>Not available</p> </td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>OpenID Connect プロトコルをサポート</p> </td> 
+   <td> <p>利用不可</p> </td> 
+   <td> <p>利用不可</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Configure the Workfront login page to always redirect to the identity provider login page </p> </td> 
-   <td> Enabled by default and cannot be disabled</td> 
-   <td> <p>✓</p> <p>Workfront administrator can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
-   <td> <p>✓</p> <p> Workfront administrators can configure the login page to redirect to the identity provider login page, or can configure a login button or buttons.</p> </td> 
+   <td> <p> 常に ID プロバイダーのログインページにリダイレクトされるように Workfront ログインページを設定 </p> </td> 
+   <td> デフォルトで有効になっており、無効にできません</td> 
+   <td> <p>✓</p> <p>Workfront 管理者は、ID プロバイダーのログインページにリダイレクトされるようにログインページを設定したり、ログインボタン（複数可）を設定したりできます。</p> </td> 
+   <td> <p>✓</p> <p> Workfront 管理者は、ID プロバイダーのログインページにリダイレクトされるようにログインページを設定したり、ログインボタン（複数可）を設定したりできます。</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Allow each instance to enable multiple SSO providers</p> </td> 
-   <td> <p>N/A</p> </td> 
-   <td> <p>Not planned</p> </td> 
+   <td> <p>各インスタンスで複数の SSO プロバイダーを有効にできるようにする</p> </td> 
+   <td> <p>該当なし</p> </td> 
+   <td> <p>予定なし</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Environment support</strong> </p> </td> 
-   <td>&nbsp;</td> 
+   <td colspan="3"> <p><strong>環境のサポート</strong> </p> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>A single username and password for Preview environments</p> </td> 
-   <td> <p>Not available</p> </td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>プレビュー環境の単一のユーザー名とパスワード</p> </td> 
+   <td> <p>利用不可</p> </td> 
+   <td> <p>利用不可</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>A single username and password for Sandbox environments</p> </td> 
-   <td> <p>Not available</p> </td> 
-   <td> <p>Not available</p> </td> 
+   <td> <p>サンドボックス環境の単一のユーザー名とパスワード</p> </td> 
+   <td> <p>利用不可</p> </td> 
+   <td> <p>利用不可</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <!--
@@ -183,5 +181,6 @@ The following table provides details about current and future functionality:
     <td> ✓</td> 
     <td> <p>✓</p> </td> 
    </tr>
-   </tbody> 
-</table>-->
+  --> 
+ </tbody> 
+</table>

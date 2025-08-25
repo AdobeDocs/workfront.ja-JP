@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 54%
+source-wordcount: '1217'
+ht-degree: 53%
 
 ---
 
@@ -305,6 +305,6 @@ Adobe Workfront の実装を開始する際に、データを手動で入力す�
 >
 >Workfrontに読み込まれたユーザーは、非アクティブ化され、承認待ちのステータスで作成されます。
 > 
->ユーザーのステータスが「ディアクティベート済み」および「承認保留中」から数分以内に変わらない場合、ユーザーのバッチをAdobe Admin Consoleに直接追加できます。
+>組織がAdobe Admin Consoleに移行されており、ユーザーのステータスが数分以内に非アクティブおよび承認保留中から変わらない場合、ユーザーのバッチをAdobe Admin Consoleに直接追加できます。
 >
 >手順については、アドビドキュメントの[複数ユーザーの管理 | CSV の一括アップロード](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html)を参照してください。

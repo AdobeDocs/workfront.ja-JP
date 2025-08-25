@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 74%
+source-wordcount: '1299'
+ht-degree: 79%
 
 ---
 
@@ -21,22 +21,28 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->* **Adobe Admin Consoleを使用して、システム管理者を作成する必要があります**。
+>* **組織がAdobe Admin Consoleにオンボーディングされた場合は、Adobe Admin Consoleを通じてシステム管理者を作成する必要があります**。
 >
 >   Adobe Admin Consoleでシステム管理者を作成する手順については、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 >
->   グループ管理者は、この手順を使用してユーザーを作成し、管理者の承認用にユーザーを送信できます。
+>   Adobe Admin Console にオンボーディングされた組織のグループ管理者は、この手順を使用してユーザーを作成し、そのユーザーの承認依頼を管理者に送信できます。
+>
+>   組織が Adobe Admin Console にオンボーディングされているかどうかに応じて異なる手順のリストについては、[プラットフォームベースの管理上の違い（Adobe Workfront／Adobe Business Platform）](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)を参照してください。
 >
 >* **組織がシングルサインオン（SSO）を使用している場合**、Adobe Admin Consoleでユーザーを作成してWorkfrontに割り当てることをお勧めします。 これらのユーザーをWorkfrontで作成することは可能ですが、組織のAdmin Consoleの設定によっては、情報をAdobe Admin Consoleに転送する際に問題が生じる場合があります。
->  &#x200B;>   Adobe Admin Consoleでユーザーを作成したら、Workfrontでユーザーの情報（ロール、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
+>  >   Adobe Admin Consoleでユーザーを作成したら、Workfrontでユーザーの情報（ロール、グループ、チーム、アクセスレベルの割り当てなど）を設定できます。
 >* **組織がシングルサインオン（SSO）を使用していない場合**、システム管理者以外のユーザーをWorkfrontに直接追加できます。 Adobe Admin Console でユーザーを追加することもできますが、Workfront にユーザーを追加すると、ユーザーの作成時にアクセスレベルを設定できるので、時間を節約できます。
 
 
 
 ユーザーをAdobe Workfrontに追加するには、個々のユーザーを最初から作成するか、既存のユーザーをコピーします。
 
-複数のユーザーを同時にインポートする方法については、[ ユーザーのインポート ](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md) を参照してください。
-—>
+複数のユーザーを同時にインポートする方法について詳しくは、[ユーザーのインポート](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md)を参照してください。
+
+<!--
+Replace this intro with something like the following when we switch to Admin Console:
+As an Adobe administrator, you can add users in Adobe Workfront by adding them to your Workfront product profile in the Adobe Admin Console. For instructions, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a>.
+-->
 
 ## アクセス要件
 
@@ -132,7 +138,7 @@ ht-degree: 74%
 
    >[!NOTE]
    >
-   >* ユーザーを追加するグループ管理者の場合、この手順のオプションは **管理者の承認用にユーザーを送信** および **承認用に送信して次の操作を開始** です。 ユーザーは、「ディアクティベート済みで承認待ち」のステータスで作成されます。
+   >* Adobe Admin Console にオンボーディングされている組織にグループ管理者がユーザーを追加する場合、この手順には「**管理者の承認用にユーザーを送信**」と「**承認用に送信して次を開始**」のオプションがあります。ユーザーは、「ディアクティベート済みで承認待ち」のステータスで作成されます。
    > 
    >* ユーザーが数分以内に非アクティブおよび承認待ちステータスから移動しない場合や、画面の更新で承認待ちバッジが削除されない場合は、ユーザーを手動で承認できます。
    >

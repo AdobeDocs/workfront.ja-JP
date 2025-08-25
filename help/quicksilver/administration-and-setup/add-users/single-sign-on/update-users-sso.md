@@ -8,10 +8,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: c71c5c4a545f9256ecce123ae3513d01a7251ad7
+source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
 workflow-type: tm+mt
-source-wordcount: '19'
-ht-degree: 73%
+source-wordcount: '816'
+ht-degree: 95%
 
 ---
 
@@ -21,132 +21,130 @@ ht-degree: 73%
 
 {{important-admin-console-onboard}}
 
-<!--REMOVE ME MARCH 2026-->
+Adobe Workfront インスタンスでシングルサインオン（SSO）が有効になっている場合は、ユーザーは SSO 資格情報を使用して Workfront にログインできます。
 
-<!--When single sign-on (SSO) is enabled in your Adobe Workfront instance, your users can log into Workfront with their SSO credentials.
+既に SSO 資格情報に関連付けられたユーザーが設定されている既存のシステムがある場合は、コンマ区切り値（CSV）ファイルを Workfront に読み込むことで、Workfront にユーザーの ID を読み込むことができます。
 
-If you have an existing system that is already populated with users associated with SSO credentials, you can import the users' IDs into Workfront by importing a comma-separated values (CSV) file into Workfront.
-
-For more information about integrating Workfront with an SSO system, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+Workfront と SSO システムの統合について詳しくは、[](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) でのシングルサインオンの概要を参照してください。
 
 
-## Access requirements
+## アクセス要件
 
-+++ Expand to view access requirements for the functionality in this article.
++++ 展開すると、この記事の機能のアクセス要件が表示されます。
 
-You must have the following access to perform the steps in this article: 
+この記事の手順を実行するには、次のアクセス権が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td>任意</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td><p>新規：標準</p><p>または</p><p>現在：プラン</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p>  </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>Workfront 管理者である必要があります。</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
-## SSO usernames
+## SSO ユーザー名
 
-Depending on what SSO solution you use, the username in your SSO environment can be called any of the following:
+使用する SSO ソリューションに応じて、SSO 環境でのユーザー名を次のいずれかに名づけることができます。
 
-* SSO Username
-* Federation ID 
-* Federation Username
+* SSO ユーザー名
+* フェデレーション ID
+* フェデレーションユーザー名
 
-Regardless of what the username is called in your SSO environment, the value of the field is stored in the SSO Username field, on the User object.
+SSO 環境で呼ばれるユーザー名に関係なく、フィールドの値はユーザーオブジェクトの「SSO ユーザー名」フィールドに格納されます。
 
-In order for your users to be able to use their SSO credentials to log in to Workfront, you must update their profile to include their SSO Username, in addition to their Workfront username.
+ユーザーが SSO 資格情報を使用して Workfront にログインできるようにするには、ユーザーのプロファイルを更新して、Workfront ユーザー名に加えて SSO ユーザー名を含める必要があります。
 
-As a Workfront administrator, you can bulk update the SSO Username field for your Workfront users by importing a list of usernames into Workfront. This list must:
+Workfront 管理者は、ユーザー名のリストを Workfront に読み込むことで、Workfront ユーザーの「SSO ユーザー名」フィールドを一括で更新できます。このリストは、次の条件を満たす必要があります。
 
-* Contain the Workfront User ID (GUID) as well as the corresponding SSO Username for each user
-* Be saved as a CSV or a TSV file. 
+* Workfront ユーザー ID（GUID）と、各ユーザーに対応する SSO ユーザー名を含める
+* CSV または TSV ファイルとして保存
 
-This process either updates existing SSO Usernames in Workfront, or adds a new SSO Username, if one is missing for users.
+このプロセスは、Workfront の既存の SSO ユーザー名を更新するか、ユーザー名が見つからない場合は新しい SSO ユーザー名を追加します。
 
-## Prepare the import file {#prepare-the-import-file}
+## 読み込みファイルの準備 {#prepare-the-import-file}
 
-You can start preparing your import file by building a report of all users in Workfront that must have their SSO Username fields updated.
+Workfront で SSO ユーザー名フィールドを更新する必要があるすべてのユーザーのレポートを作成することで、読み込みファイルの準備を開始できます。
 
-1. Build a user report in Workfront.
+1. Workfront でユーザーレポートを作成します。
 
-   For instructions on building user reports in Workfront, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). 
+   Workfront でユーザーレポートを作成する手順については、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
-1. Select the following fields in your report:
+1. レポートの次のフィールドを選択します。
 
-   |Field|Explanation|
+   | フィールド | 説明 |
    |---|---|
-   | Name |The full name of the Workfront user. |
-   | ID |The ID is the Workfront alphanumeric GUID. |
-   | SSO Username |Adding the SSO Username field to ensures that are no usernames you are overwriting with your import. This field should be blank for all users, if your users have not yet been updated for SSO. |
+   | 名前 | Workfront ユーザーのフルネーム。 |
+   | ID | ID は Workfront の英数字の GUID です。 |
+   | SSO ユーザー名 | 「SSO ユーザー名」フィールドを追加して、読み込みで上書きされるユーザー名がないことを確認します。ユーザーが SSO 用にまだ更新されていない場合、このフィールドはすべてのユーザーに対して空白です。 |
 
-   ![Users with SSO username but no access](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![SSO ユーザー名を持つがアクセスできないユーザー ](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
-1. Save the report. 
-1. Click **Export** at the top of the report and export the report to Excel. 
-1. Open the exported Excel file, and add your SSO Usernames for each user in the report in the SSO Username column.
+1. レポートを保存します。
+1. リストの上部にある「**書き出し**」をクリックして、Excel にレポートを書き出します。
+1. 書き出した Excel ファイルを開き、レポート内の各ユーザーの SSO ユーザー名を「SSO ユーザー名」列に追加します。
 
    >[!IMPORTANT]
    >
-   >SSO usernames are case-sensitive.
+   >SSO ユーザー名では大文字と小文字が区別されます。
 
-1. Delete all columns in the Excel file, except  the **ID** and the **SSO Username** columns. 
+1. Excel ファイル内の「**ID**」列と「**SSO ユーザー名**」列を除くすべての列を削除します。
 
-1. Delete the column headers and ensure there are no blank rows at the top of the report.
+1. 列ヘッダーを削除し、レポートの上部に空白の行がないことを確認します。
 
-   The file you are using for updating your Workfront users with the SSO usernames **must** contain just 2 columns, in this order:
+   SSO ユーザー名で Workfront ユーザーを更新するために使用するファイルには、次の順序で 2 列のみを含める&#x200B;**必要があります**。
 
-   * The first column must display the Workfront user ID (the user GUID as found in Workfront).
-   * The second column must contain the SSO Username, as it displays in your SSO system.
-   * The columns must have no headers, and there must not be any empty rows at the top of the list of names.
+   * 最初の列には、Workfront ユーザー ID（Workfront にあるユーザー GUID）が表示される必要があります。
+   * 2 番目の列には、SSO システムに表示される SSO ユーザー名を含める必要があります。
+   * 列にはヘッダーを含めないようにし、また名前のリストの先頭に空の行を含めないようにします。
 
-     ![Update users CSV](assets/update-users-for-sso-csv-file-for-import.png)
+     ![ ユーザー CSV を更新 ](assets/update-users-for-sso-csv-file-for-import.png)
 
-1. Save the report as a CSV or TSV file on your computer.
+1. レポートを CSV または TSV ファイルとしてコンピューターに保存します。
 
-## Update your users for SSO {#update-your-users-for-sso}
+## SSO 用にユーザーを更新 {#update-your-users-for-sso}
 
-The process of updating users for SSO either adds the SSO Username field to your Workfront users if one is not present, or updates the value in that field if there is a value already associated with the users.
+SSO 向けにユーザーを更新するプロセスでは、SSO ユーザー名フィールドが存在しない場合は Workfront ユーザーに追加し、既にユーザーに関連付けられている値がある場合はそのフィールドの値を更新します。
 
 {{step-1-to-setup}}
 
-1. Click **System**, then select **Update Users For SSO**.
+1. **システム** をクリックし、「**SSO のユーザーを更新**」を選択します。
 
-1. Click **Choose File** to browse for the file you prepared.
+1. 「**ファイルを選択**」をクリックして、準備したファイルを選択します。
 
-   For more information about how to prepare this file, see [Prepare the import file](#prepare-the-import-file).
+   このファイルの準備方法の詳細については、[読み込みファイルの準備](#prepare-the-import-file)を参照してください。
 
-1. Select the file from where it is saved on your computer, then click **Open**.
+1. コンピューターに保存されているファイルを選択し、「**開く**」をクリックします。
 
-   This inserts the SSO credentials to Workfront, enabling all users to log in to Workfront using their SSO credentials.
+   これにより、SSO 資格情報が Workfront に挿入され、すべてのユーザーが SSO 資格情報を使用して Workfront にログインできるようになります。
 
-   The **Only Allow `<SSO Configuration>` Authentication** setting is enabled for all users included in the CSV. This ensures that users must log in through SSO.
+   CSV に含まれるすべてのユーザーに対して、「**`<SSO Configuration>` 認証のみを許可**」設定が有効になります。これにより、ユーザーは SSO を使用してログインする必要があります。
 
-## Verify SSO against your users' Workfront usernames
+## ユーザーの Workfront ユーザー名に対する SSO の検証
 
-For instructions on building a user report containing SSO Username information, see [Prepare the import file](#prepare-the-import-file).
+SSO ユーザー名情報を含むユーザーレポートの作成手順については、[読み込みファイルの準備](#prepare-the-import-file)を参照してください。
 
-1. Run a user report containing SSO Username information.
+1. SSO ユーザー名情報を含むユーザーレポートを実行します。
 
-   Notice that the SSO Username column is populated for each user.
+   各ユーザーに対して「SSO ユーザー名」列が設定されます。
 
-1. Ensure that the values for the SSO Username column match the SSO Username on your SSO server.
-1. If the SSO Username column is blank, update your users' SSO Usernames.
+1. 「SSO ユーザー名」列の値が SSO サーバー上の「SSO ユーザー名」と一致していることを確認します。
+1. 「SSO ユーザー名」列が空白の場合は、ユーザーの SSO ユーザー名を更新します。
 
-   ![Users with SSO field](assets/users-with-sso-field-updated.png)
+   ![SSO フィールドを持つユーザー ](assets/users-with-sso-field-updated.png)
 
-   For instructions on updating your users for SSO, see [Update your users for SSO](#update-your-users-for-sso).-->
+   SSO 用にユーザーを更新する手順については、[SSO 用にユーザーを更新](#update-your-users-for-sso)を参照してください。
