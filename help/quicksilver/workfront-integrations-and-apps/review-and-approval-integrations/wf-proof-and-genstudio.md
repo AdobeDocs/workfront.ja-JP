@@ -25,7 +25,7 @@ GenStudio for Performance MarketingとWorkfront Proofの統合により、次の
 
 * 最終承認および公開用にGenStudio for Performance Marketingでレビューの決定を表示する
 
-GenStudio for Performance Marketingでのレビューと承認について詳しくは、[Workfront ProofとGenStudio for Performance Marketingの統合 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration) を参照してください。
+GenStudio for Performance Marketingでのレビューと承認について詳しくは、[Workfront ProofとGenStudio for Performance Marketingの統合 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/proof-integration) を参照してください。
 
 
 ## アクセス要件
@@ -102,7 +102,7 @@ Workfrontでの自動ワークフローとテンプレートの作成につい�
 
 GenStudio for Performance Marketingでレビューを開始する際には、必要なテンプレートを選択するだけです。 ユーザーは、任意のプルーフワークフローテンプレートを簡単に変更し、いつでもレビュー担当者とステージを追加または削除できます。
 
-詳しくは、[ レビューと承認をリクエスト ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/request-review) を参照してください。
+詳しくは、[ レビューと承認をリクエスト ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/request-review) を参照してください。
 
 ## Workfront プルーフビューアでのGenStudio for Performance Marketing ドラフトコンテンツのレビューと承認
 
@@ -114,7 +114,7 @@ Workfront プルーフビューアを使用して、GenStudio for Performance Ma
 * ドラフトをマークアップして、変更が必要なものを表示します
 * 決定を下す
 
-詳しくは、[ コンテンツのレビューと編集 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit) を参照してください。
+詳しくは、[ コンテンツのレビューと編集 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/review-and-edit) を参照してください。
 
 
 >[!IMPORTANT]
@@ -126,4 +126,4 @@ Workfront プルーフビューアを使用して、GenStudio for Performance Ma
 
 アセットのレビューと承認が完了したら、レビューの決定を確認し、GenStudio for Performance Marketingから直接コンテンツを公開できます。
 
-詳しくは、「[ 承認されたコンテンツの公開 ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)」を参照してください。
+詳しくは、「[ 承認されたコンテンツの公開 ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/approve/publish-content)」を参照してください。

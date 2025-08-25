@@ -2069,7 +2069,7 @@ Workfront では、時間エントリには次のいずれかのステータス�
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
    <td>[!UICONTROL Scenario]（[!DNL Workfront Fusion] の場合） </td> 
-   <td> <p>シナリオは、アプリまたはサービス間でデータを転送および変換する方法を示す一連の手順（モジュール）で構成されます。</p> <p>[!DNL Workfront Fusion] のシナリオについては、<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] シナリオの概要</a>を参照してください。</p> </td> 
+   <td> <p>シナリオは、アプリまたはサービス間でデータを転送および変換する方法を示す一連の手順（モジュール）で構成されます。</p> <p>[!DNL Workfront Fusion] のシナリオについては、<a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/scenario-overview">[!DNL Adobe Workfront Fusion] シナリオの概要</a>を参照してください。</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Scenario]（[!DNL Workfront Scenario Planner]の場合） </td> 
