@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 21%
+source-wordcount: '1638'
+ht-degree: 20%
 
 ---
 
@@ -82,6 +82,17 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}"> 統合承認の段階的なロールアウト </a><p>[!BADGE Off schedule]{type=Neutral}</p>
+            <p>以前は新規ドキュメント承認と呼ばれていた統合承認を、段階的にロールアウトして有効にしています。 この機能は、今後 6 か月間にWorkfront インスタンスで自動的に有効になります。</p>
+            <p>統合された承認は、従来のドキュメント承認に代わり、新しい機能を提供します。 
+</p>
+        </td>
+        <td>2025 年 7 月 17 日（PT）より開始される段階的なロールアウト</td>
+        <td>2025 年 7 月 17 日（PT）より開始される段階的なロールアウト</td>
+        <td>2025 年 7 月 17 日（PT）より開始される段階的なロールアウト</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-document-and-proof.md" class="MCXref xref" xrefformat="{para}"> 新しいWorkfront AI レビュアー </a><p></p>
@@ -349,7 +360,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 

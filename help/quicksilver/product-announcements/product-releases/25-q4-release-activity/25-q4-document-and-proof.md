@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f4615994-8a56-482c-b033-62e719be152e
-source-git-commit: bcf9e3eb987bf4c33b994d68276cb04b817c484d
+source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
 workflow-type: tm+mt
-source-wordcount: '281'
-ht-degree: 12%
+source-wordcount: '394'
+ht-degree: 8%
 
 ---
 
@@ -17,6 +17,26 @@ ht-degree: 12%
 このページでは、2025 年第 4 四半期リリースでプレビュー環境に加えられたドキュメントとプルーフの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
+
+## 統合承認の段階的なロールアウト
+
+>[!NOTE]
+>
+>お客様向けの実稼動リリース：2025 年 7 月 17 日（PT）から段階的にロールアウトを開始
+
+
+以前は新規ドキュメント承認と呼ばれていた統合承認を、段階的にロールアウトして有効にしています。 この機能は、今後 6 か月間にWorkfront インスタンスで自動的に有効になります。
+
+統合承認は、従来のドキュメント承認に代わるもので、ドキュメントに直接次の機能を提供します。
+
+* レビュアーまたは承認者として、Workfront チーム全体を指定します
+* レビューまたは承認の期限を設定
+* 承認テンプレートの作成と再利用
+* 新しいバージョンの使用
+* Workfrontのホームウィジェットで、承認に関する複数の主要業績評価指標を表示します
+* キャンバスダッシュボードを使用すると、統合承認に関するレポートの詳細を表示できます
+
+詳しくは、[ 統合承認の概要 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を参照してください。
 
 ## 新しいWorkfront AI レビュアー
 
