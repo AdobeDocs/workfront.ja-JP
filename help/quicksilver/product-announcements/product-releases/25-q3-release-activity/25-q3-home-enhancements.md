@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 91789b7b-3aec-415c-a03d-e06d0c43a263
-source-git-commit: a1295e5dfa3c608c5f1eca9cabb67bd402617db5
+source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '319'
 ht-degree: 5%
 
 ---
@@ -54,7 +54,11 @@ ht-degree: 5%
 >* 実稼動迅速リリース：2025 年 6 月 12 日（PT）
 >* すべてのお客様の実稼動：2025 年 7 月 17 日（PT）
 
-ホームの自分の承認ウィジェットを更新し、デフォルトで期限（降順）で並べ替えました。 これにより、最も緊急の承認をリストの上部に表示できます。
+ホームの自分の承認ウィジェットを更新し、デフォルトで期限（昇順）で並べ替えました。 これにより、最も緊急の承認をリストの上部に表示できます。 承認の順序は次のとおりです。
+
+* 期限切れ期限
+* 期限切れ予定
+* 期限のない項目
 
 現在、プルーフの承認のみが、マイ承認ウィジェットで期日別に並べ替えることができます。
 
