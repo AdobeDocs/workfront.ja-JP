@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 31%
@@ -46,6 +46,11 @@ Workfront Planning で作成できるオブジェクトの数の制限を次の�
 | レコードタイプを作成するために読み込むことができる Excel ファイルの CSV のサイズ | 5 MB |
 | レコードタイプを作成するために CSV または Excel ファイルに読み込むことができる行数 | 25,000 |
 | CSV または Excel ファイルに読み込んでレコードタイプを作成できる列数 | 500 |
+
+<!--
+| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
+| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
+-->
 
 *管理が困難になり、ワークフローが断片化される可能性があるので、ワークスペースが多くなりすぎることはお勧めしません。
 
