@@ -6,10 +6,10 @@ feature: Work Management
 role: User
 topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '1345'
-ht-degree: 98%
+source-wordcount: '1361'
+ht-degree: 97%
 
 ---
 
@@ -80,10 +80,14 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>イシューへのアクセス権を編集</p>  </td> 
   </tr> 
+  <tr>
    <td role="rowheader">オブジェクト権限</td> 
    <td><p>リクエストキューにリクエストを追加するためのアクセス権</p> <p>既存のリクエストに対する表示またはそれ以上の権限</p> <p>リクエストキューの設定について詳しくは、<a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">リクエストキューの作成</a>を参照してください。 </p> </td> 
-  <tr>
   </tr>
+  <tr> 
+   <td role="rowheader"> 製品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>計画リクエストまたはリクエストフォームを表示するには、Adobe Workfront Planning が必要です。</td> 
+  </tr> 
  </tbody> 
 </table>
 

@@ -6,10 +6,10 @@ description: 新しいリクエストを入力する際に Workfront が提案�
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 96%
+source-wordcount: '599'
+ht-degree: 94%
 
 ---
 
@@ -41,6 +41,10 @@ ht-degree: 96%
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>イシューへのアクセス権を編集</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 製品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>計画リクエストまたはリクエストフォームを表示するには、Adobe Workfront Planning が必要です。</td> 
   </tr> 
  </tbody> 
 </table>

@@ -6,10 +6,10 @@ description: リクエストのドラフトは、作成中に破棄すること�
 author: Alina
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
-source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 90%
+source-wordcount: '271'
+ht-degree: 86%
 
 ---
 
@@ -48,6 +48,10 @@ ht-degree: 90%
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>イシューへのアクセス権を編集</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 製品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>計画リクエストまたはリクエストフォームを表示するには、Adobe Workfront Planning が必要です。</td> 
   </tr> 
  </tbody> 
 </table>

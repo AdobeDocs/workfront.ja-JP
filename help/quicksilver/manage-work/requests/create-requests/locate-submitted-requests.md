@@ -8,10 +8,10 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 7815fd0f84170cb92eef1bafa8aa90abe5365c04
+source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 84%
+source-wordcount: '978'
+ht-degree: 83%
 
 ---
 
@@ -65,6 +65,10 @@ ht-degree: 84%
   <tr>
    <td role="rowheader">オブジェクト権限</td> 
    <td><p>リクエストに対する権限以上を表示</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 製品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>計画リクエストまたはリクエストフォームを表示するには、Adobe Workfront Planning が必要です。</td> 
   </tr> 
  </tbody> 
 </table>

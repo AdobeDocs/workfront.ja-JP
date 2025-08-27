@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: c3e3dfdb0a1819954c97168cbabddfc8dc5863a0
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2005'
+source-wordcount: '2047'
 ht-degree: 5%
 
 ---
@@ -30,9 +30,10 @@ Workspace Manager がAdobe Workfront Planning でレコードタイプのリク�
 
 * Workfrontの「リクエスト」エリアから。
 * 直接リンクから共有されたリクエストフォームへ。
-
-  ここでは、Workfrontの「リクエスト」エリアまたは共有リンクからレコードタイプに新しいレコードを追加するリクエストを送信する方法について説明します。
 * 新規レコードを追加または要求する場合は、「レコードタイプ」ページから。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+
+ここでは、Workfrontの「リクエスト」エリアまたは共有リンクからレコードタイプに新しいレコードを追加するリクエストを送信する方法について説明します。
+
 
 Workfront ユーザーと外部ユーザーは、Planning レコードタイプに対してリクエストを送信し、レコードを作成できます。<!--double check on the external users-->
 
@@ -160,7 +161,9 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
    >* 1 つ以上のワークスペースを表示するアクセス権があります。
    >
 
-1. **新規リクエスト** をクリックします。
+<!--Production-->
+
+1. 実稼動環境で、「**新規リクエスト**」をクリックします。
 
    <!--![New request box with unified Workfront and Planning cards](assets/new-request-box-with-unified-workfront-and-planning-cards.png-->
 
@@ -169,12 +172,15 @@ Workfront Planning 要求フォームに要求を送信するには、次の手�
    * 最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。
    * 50 個の追加のWorkfront リクエストキューおよび Planning のリクエストフォームが、「すべてのリクエストフォーム **セクションにアルファベット順に表示され** す。 デフォルトで表示されないリクエストキューを検索できます。
 
-1. 次のいずれかの操作を行います。
+1. 実稼動環境で、次のいずれかの操作を行います。
 
    * 「最近」または「すべて」の要求フォーム・セクションで、計画の要求フォームを選択します
    * 検索ボックスに Planning 要求フォームの名前の入力を開始し、リストに表示されたらカードをクリックします。
 
    リクエストフォームが開きます。
+
+<!-- Put preview section here-->
+1. <span class="preview"> プレビュー環境で、最近アクセスしたリクエストフォーム領域からリクエストフォームまたはキューを選択するか、リストにフォームまたはキュー名を入力してから、表示されたら選択します。
 
 1. リクエストフォームで使用可能なフィールドを更新します。 赤いアスタリスクが付いているフィールドは必須です。
 1. 「**送信**」をクリックします。

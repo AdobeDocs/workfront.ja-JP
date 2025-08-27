@@ -6,10 +6,10 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 1c11be2d6de471bf456107b5c86a599766583f74
+source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 78%
+source-wordcount: '2841'
+ht-degree: 77%
 
 ---
 
@@ -17,9 +17,17 @@ ht-degree: 78%
 
 <!--Audited: 12/2023-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--
+<div data-mc-conditions="QuicksilverOrClassic.Draft mode">
+<p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
+</div>
+-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 予定作業は、Adobe Workfront ではプロジェクトとタスクで表されます。ただし、予定外の作業が要求という形で突然舞い込んでくる環境で働いているかもしれません。Workfront には、リクエストキューを使用してこのタイプの環境に対応するワークフローが用意されています。
 
@@ -50,6 +58,7 @@ Workfront Planning でレコードを作成するには、次の方法で、Work
  <col> 
  <col> 
  <tbody> 
+ <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
@@ -64,6 +73,10 @@ Workfront Planning でレコードを作成するには、次の方法で、Work
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>イシューへのアクセス権を編集</p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> 製品</td> 
+   <td> <ul><li>Adobe Workfront</li><li>計画リクエストまたはリクエストフォームを表示するには、Adobe Workfront Planning が必要です。</td> 
   </tr> 
  </tbody> 
 </table>
@@ -136,18 +149,20 @@ Workfront web アプリでリクエストを作成するには：
 
 1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替え、実稼動環境にある場合、「**新規リクエスト** ボックスには次の内容が表示されます。</span>
 
-   * 最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。
-   * 50 個の追加のWorkfront リクエストキューおよび Planning のリクエストフォームが、「すべてのリクエストフォーム **セクションにアルファベット順に表示され** す。 デフォルトで表示されないリクエストキューを検索できます。
-
-   ![ 計画リクエスト用の統合ワークフローを備えた新しいリクエストボックス ](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
-
-   Workfront リクエストキューカードの 1 つをクリックするか、1 つを検索して、リストに表示されたらクリックします。
-1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替え、プレビュー環境にある場合、「**新規リクエスト** ボックスには次の情報が表示されます。
-
    <ul><li>最近アクセスした 6 つのWorkfront リクエストキューおよび Planning リクエストフォームが「最近」セクションに表示されます。 </li>
     <li>その他のすべてのWorkfrontおよび計画リクエストフォーム <b> すべてのリクエストフォーム </b> セクション デフォルトで表示されないリクエストフォームを検索できます。 </li>
     <li>その他のすべてのWorkfrontおよび Planning リクエスト・キューのパスは、「すべてのリクエスト・パス <b> セクションに表示さ </b> ます。 デフォルトで表示されないリクエストキューを検索できます。</li></ul>
    Workfront リクエストキューのパスまたはフォームの 1 つをクリックするか、1 つを検索して、リストに表示されたらクリックします。
+1. <span class="preview"> （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替えた場合は、Workfront リクエストキューのパスまたはフォームの 1 つを選択するか、検索バーをクリックします。</span>
+
+   <span class="preview"> 検索バーをクリックすると、最近使用したキューとフォームを最初に表示するドロップダウンが表示されます。 リストから 1 つ選択するか、表示されたら入力を開始してキューまたはリストを選択します。</span>
+
+   >[!NOTE]
+   >
+   ><span class="preview"> 現在プレビューで利用可能な新しいリクエストエクスペリエンスについては、次の点を考慮してください。</span>
+   >* <span class="preview"> リストには、Workfront リクエストキューとWorkfront Planning リクエストフォームの両方が含まれています。</span>
+   >* <span class="preview"> オブジェクトタイプでリストをフィルタリングできます。</span>
+   >* <span class="preview">Workfront リクエストキューのみを表示するには、`Issue` のオブジェクトタイプでフィルタリングします。</span>
 
 1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替えた場合は、トピックグループとキューのトピックを選択して、フォームの更新を続行します。
 
