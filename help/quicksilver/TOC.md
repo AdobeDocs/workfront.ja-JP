@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: b5899500cad1ac32345d39f76eea7f643f1cd0ea
+source-git-commit: 6f1b24548fe99b5833dce0e5456eaefa5591abd1
 workflow-type: tm+mt
-source-wordcount: '13461'
+source-wordcount: '13464'
 ht-degree: 84%
 
 ---
@@ -830,6 +830,7 @@ ht-degree: 84%
          * [リストの書き出し](workfront-basics/navigate-workfront/use-lists/export-lists.md)
          * [Adobe Workfront のリスト内のインライン編集項目](workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
          * [リストの表示方法を変更](workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+         * [拡張リストの使用](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md)
       * [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md)
       * [AdobeUnified Experience に関する FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md)
       * [上部のナビゲーションバーの概要](workfront-basics/the-new-workfront-experience/global-navigation-overview.md)
