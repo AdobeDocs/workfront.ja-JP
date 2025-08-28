@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: cb9a6536c4995080887032aa84539eff040338f8
+source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
 workflow-type: tm+mt
 source-wordcount: '832'
 ht-degree: 61%
@@ -132,16 +132,16 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
       <td>ユーザーの優先度ワークリストのエクスペリエンスを有効または無効にすることを選択できます。 Workfrontには引き続き「優先度」アイコンが表示されますが、機能にはアクセスできません。 優先度の詳細については、「<a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md"> 優先度の概要 </a> を参照してください。</td> 
      </tr>
      <tr> 
-      <td role="rowheader">AI を有効にする </td> 
-      <td>AI アシスタントを含む AI を有効にすることを選択できます。 <p><b> メモ </b>:AI を有効にするには、組織が特定の要件を満たす必要があります。 要件を含む、AI について詳しくは、<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI アシスタントの概要 </a> を参照してください。</p></td> 
+      <td role="rowheader"><span class="preview">AI を有効にする </span> </td> 
+      <td><span class="preview">AI アシスタントを含む AI を有効にすることを選択できます。 <p><b> メモ </b>:AI を有効にするには、組織が特定の要件を満たす必要があります。 要件を含む、AI について詳しくは、<a href="/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md">AI アシスタントの概要 </a> を参照してください。</p></span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">フォームのオートコンプリート </td> 
-      <td>以前のリクエストデータに基づいてリクエストフォームをオートコンプリートする機能を有効にするかどうかを選択できます。 フォームのオートコンプリートについて詳しくは、<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md"> 以前のデータからのリクエストの自動入力 </a> を参照してください。</td> 
+      <td role="rowheader"><span class="preview">フォームのオートコンプリート </span></td> 
+      <td><span class="preview">以前のリクエストデータに基づいてリクエストフォームをオートコンプリートする機能を有効にするかどうかを選択できます。 フォームのオートコンプリートについて詳しくは、<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md"> 以前のデータからのリクエストの自動入力 </a> を参照してください。</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader">AI ベータ版のオプトイン </td> 
-      <td>現在Betaにある AI 機能を有効にすることができます。 このオプションを有効にした場合、有効にする AI Beta機能を選択できます。 各 AI Beta機能について詳しくは、その機能の横にある情報アイコンをクリックしてください。</td> 
+      <td role="rowheader"><span class="preview">AI ベータ版のオプトイン </span></td> 
+      <td><span class="preview">現在Betaにある AI 機能を有効にすることができます。 このオプションを有効にした場合、有効にする AI Beta機能を選択できます。 各 AI Beta機能について詳しくは、その機能の横にある情報アイコンをクリックしてください。</span></td> 
      </tr>
      <tr> 
       <td role="rowheader">テスト環境</td> 
