@@ -6,18 +6,18 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 43%
+source-wordcount: '889'
+ht-degree: 36%
 
 ---
 
 # 数式フィールドの概要
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -114,30 +114,26 @@ ht-degree: 43%
 * 新しい数式で数式フィールドを参照できます。 式フィールドで参照されているフィールドの値が更新されると、そのフィールドまたはそのフィールドを含む式フィールドを参照している後続のすべてのフィールドは、自動的に更新されます。
 
 
-<!--
-
 <div class="preview">
 
-## Limitations of formula fields
+## 式フィールドの制限事項
 
-* You can add a maximum of 20 formula fields for one record type. 
+* 1 つのレコードタイプに対して最大 20 個の式フィールドを追加できます。
 
-   Formula lookup fields added from connected record types do not count against this limit. 
+  接続されたレコードタイプから追加された数式参照フィールドは、この制限にカウントされません。
 
-* The formula expression cannot exceed 50,000 characters. 
+* 数式は 50,000 文字を超えることはできません。
 
-* Formula fields might display as `#ERROR!` in the following cases:
-   * When a field used in a formula is deleted.
-   * When a field used in an aggregated lookup field displays as `#ERROR!`. 
-   
-      For example, if you display a lookup field that contains aggregated lookup formula fields and one of the referenced formula fields  displays as `#ERROR!`. 
-   *  When a formula value cannot be displayed in the selected format. 
-   
-      For example, if I select Number for the Format of a formula field, and the fields used in the formula are text fields that display only non-numeric text values, the formula result will display as `#ERROR!`, because it cannot parse the text into a number.
- 
- </div>
- 
- -->
+* 式フィールドは、次の場合に `#ERROR!` のように表示されることがあります。
+   * 式で使用されているフィールドが削除されたとき。
+   * 集計参照フィールドで使用されているフィールドが `#ERROR!` として表示されている場合。
+
+     例えば、集計参照式フィールドを含む参照フィールドを表示すると、参照式フィールドの 1 つが `#ERROR!` として表示されます。
+   * 選択した形式で式の値を表示できない場合。
+
+     例えば、数式フィールドの「形式」で「数値」を選択したときに、数式で使用されているフィールドが数値以外のテキスト値のみを表示するテキストフィールドである場合、テキストを数値に解析できないので、数式の結果は `#ERROR!` と表示されます。
+
+</div>
 
 ## サポートされる数式
 

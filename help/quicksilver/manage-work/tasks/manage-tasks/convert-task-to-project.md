@@ -6,29 +6,28 @@ description: プロジェクト内のタスクを完了するために必要な�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '1198'
-ht-degree: 84%
+source-wordcount: '1244'
+ht-degree: 79%
 
 ---
 
 # タスクをプロジェクトに変換
 
-<!--
-<div class="preview"> 
+<div class="preview">
 
-The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
-</div>-->
+</div>
 
 プロジェクト内のタスクを完了するために必要な労力が当初の予定よりも多い場合、タスクをプロジェクトに変換できます。
 
 ## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -53,7 +52,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
++++
 
 ## タスクをプロジェクトに変換する際の考慮事項
 
@@ -202,4 +203,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
      >
      >変換用のテンプレートを使用していて、テンプレートに添付されたカスタムフォームに、タスクに添付されたカスタムフォームにもカスタムフィールドが含まれている場合は、タスクのフィールド値が新規プロジェクトで使用されます。ただし、タスクのカスタムフィールドが空の場合は、テンプレートの値が使用されます。
 
-1. **変更を保存** をクリック <!--<span class="preview">or **Convert to Project**</span>--> ます。
+1. **変更を保存** または <span class="preview">**プロジェクトに変換**</span> をクリックします。

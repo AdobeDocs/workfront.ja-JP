@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7288c6fb0f5d45758e0a82b8d1283e1f43ae94e6
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
-source-wordcount: '364'
+source-wordcount: '441'
 ht-degree: 31%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 31%
 
 # Adobe Workfront Planning オブジェクトの制限事項の概要
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページの情報は、まだ一般に提供されていない機能を指します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、高速リリースを有効にしたお客様には、実稼動環境でも同じ機能が利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -46,11 +46,9 @@ Workfront Planning で作成できるオブジェクトの数の制限を次の�
 | レコードタイプを作成するために読み込むことができる Excel ファイルの CSV のサイズ | 5 MB |
 | レコードタイプを作成するために CSV または Excel ファイルに読み込むことができる行数 | 25,000 |
 | CSV または Excel ファイルに読み込んでレコードタイプを作成できる列数 | 500 |
+| <span class="preview">1 つのレコードタイプの数式フィールドの数 </span> | <span class="preview">20</span> |
+| <span class="preview"> 式フィールド式の文字数 </span> | <span class="preview">50,000</span> |
 
-<!--
-| <span class="preview">Number of formula fields for one record type</span> | <span class="preview">20</span> |
-| <span class="preview">Number of characters in a formula field expression</span> | <span class="preview">50,000</span> |
--->
 
 *管理が困難になり、ワークフローが断片化される可能性があるので、ワークスペースが多くなりすぎることはお勧めしません。
 

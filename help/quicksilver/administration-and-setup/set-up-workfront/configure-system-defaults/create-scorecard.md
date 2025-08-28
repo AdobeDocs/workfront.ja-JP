@@ -4,11 +4,11 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: スコアカードの作成
 description: スコアカードは、プロジェクトが以前に確立されたポートフォリオの条件にどの程度適合するかを測定します。スコアカードは、多くの場合、組織の使命、価値、および戦略的目標を反映します。ポートフォリオ管理者は、通常、スコアカードの質問と回答を定義し、プロジェクトの優先順位付けと選択の際に意味があり、価値があることを確認します。 [!DNL Adobe Workfront]  管理者は、ポートフォリオマネージャーからの推奨に基づいてスコアカードを作成します。
-author: Lisa, Alina
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
-source-git-commit: f97c989f57d864252adf6e24f8e6b03f56d26901
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 70%

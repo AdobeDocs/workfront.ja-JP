@@ -4,11 +4,11 @@ user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: Adobe Workfront の管理者は、Workfront での承認プロセスのグローバル設定を決定できます。これらの設定は、システム内のすべての作業項目の承認プロセスに影響します。
-author: Alina, Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: 1397702a6b50953e7abcfe491b95aeb8b981df5b
+source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 93%
