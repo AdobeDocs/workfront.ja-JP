@@ -6,9 +6,9 @@ description: ブラウザーの言語設定と Workfront 内のデフォルト�
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 046c1eada53631c9ab50bb0c8233adb012223bb3
 workflow-type: tm+mt
-source-wordcount: '1159'
+source-wordcount: '1156'
 ht-degree: 66%
 
 ---
@@ -32,7 +32,7 @@ Workfront は、次の言語をサポートしています。
 * ポルトガル語（pt-BR）
 * 韓国語（ko）
 * 中国語 - 簡体字（zh-CN）
-* 中国語 - 繁体字（zh-TW）
+*   中国語 - 繁体字（zh-TW）
 
 ブラウザーでWorkfrontを表示する際に使用する言語は、組織がAdobe Admin Console上にない場合はブラウザーの言語設定によって、組織がAdobe Admin Console上にある場合はAdobe Experience Cloud プロファイルの言語によって制御されます。 どちらの場合も、「サポートされる言語」リストに表示されている言語を選択していることを確認してください。
 
@@ -72,9 +72,8 @@ Workfront 内の web プルーフビューアは、Workfront でサポートさ�
 
 次の言語は、プルーフツールではサポートされていません。
 
-* 中国語 - 簡体字（zh-CN）
-* 中国語 - 繁体字（zh-TW）
-* ポルトガル語（pt-BR）
+*   中国語 - 繁体字（zh-TW）
+* 韓国語（ko-KR）
 
 Web プルーフビューアにアクセスするには、会社がプルーフ用ライセンスを購入する必要があります。
 
@@ -93,7 +92,7 @@ Workfront Proof でサポートされる言語について詳しくは、[Workfr
 * Workfront Fusion では、ユーザー入力フィールドで英語以外のテキスト文字の使用はサポートされていません。
 
 Workfront Fusion にアクセスするには、会社が Workfront Fusion ライセンスを購入している必要があります。\
-Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
+Workfront Fusion について詳しくは、[Adobe Workfront Fusion の概要](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview)を参照してください。
 
 ## 言語を変更
 

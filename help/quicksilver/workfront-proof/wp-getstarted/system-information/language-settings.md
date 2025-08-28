@@ -8,10 +8,10 @@ description: ' [!DNL Workfront Proof]  管理者は、アカウント内のす�
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca585494-5cda-4c41-b9b2-908e24d210d6
-source-git-commit: bf6c6c497d98d91ca78f892606a52f82ee4b5666
+source-git-commit: 3a938714a948ca7681dfd7deaf924af6453dee58
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 100%
 [!DNL Workfront Proof] は、次の言語で使用できます。
 
 * 英語（米国 / 英国）
-* ブラジル語（ポルトガル語）
+* ポルトガル （ブラジル）
 * 中国語
 * オランダ語
 * フランス語
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 1. 「**[!UICONTROL アカウントの詳細]**」セクションで、「**[!UICONTROL デフォルトの言語]**」設定の「**[!UICONTROL 編集]**」をクリックします。
 
-1. ドロップダウンメニューで、デフォルトの言語を選択します。\
+1. ドロップダウンメニューで、デフォルトの言語を選択します。
    ![account_language_setting.png](assets/account-language-setting-350x230.png)
 
 1. 「**[!UICONTROL 保存]」をクリックします。**
