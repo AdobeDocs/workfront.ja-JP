@@ -9,10 +9,10 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
-source-git-commit: 485f2985c70b1bb095e31323b7b4698bcb7a04cf
+source-git-commit: 909236983b7eefa25ea7961a2f760d87cae23132
 workflow-type: tm+mt
-source-wordcount: '363'
-ht-degree: 88%
+source-wordcount: '382'
+ht-degree: 70%
 
 ---
 
@@ -70,15 +70,15 @@ ht-degree: 88%
 
      または
 
-     既存のテンプレートに基づくグループの新規テンプレートを作成するには、既存のテンプレートを選択したあと、「**コピー**」をクリックします。
+     既存のテンプレートに基づいてグループに新しいテンプレートを作成するには、既存のテンプレートを選択し、「**コピー**」アイコン ![ コピーアイコン ](assets/copy-icon.png) をクリックします。
 
      レイアウトテンプレートの作成については、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
      レイアウトテンプレートをコピーして新規レイアウトテンプレートを作成する方法については、[レイアウトテンプレートのコピー](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)を参照してください。
 
-   * 既存のグループレイアウトテンプレートを編集するには、それを選択し、「**編集**」をクリックします。
+   * 既存のグループレイアウトテンプレートを編集するには、テンプレートを選択して **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
      レイアウトテンプレートの編集については、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-   * 1 つまたは複数のレイアウトテンプレートを削除するには、それらを選択し、「**削除**」をクリックします。
-   * レイアウトテンプレートのリストを&#x200B;**書き出し**&#x200B;します。
+   * 1 つ以上のレイアウトテンプレートを削除するには、それらを選択して、**削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+   * レイアウトテンプレートのリストを書き出すには、「**書き出し** アイコン ![ 書き出しアイコン ](assets/export-icon.png) をクリックします。
