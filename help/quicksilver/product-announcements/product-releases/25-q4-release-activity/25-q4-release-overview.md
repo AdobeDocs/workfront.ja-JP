@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: f4493666ce8053f98490b87a6cfd76d759393d8c
+source-git-commit: a7f368f605851d01293715e67c165c36d4e2ec48
 workflow-type: tm+mt
-source-wordcount: '1638'
-ht-degree: 20%
+source-wordcount: '1811'
+ht-degree: 17%
 
 ---
 
@@ -57,9 +57,23 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+     <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront ユーザープロファイルの更新 </a><p></p>
+            <p>Workfront ユーザープロファイルのルックアンドフィールを、Workfrontの他の領域と一致する最新のデザインに更新しました。 これらの更新は、管理者が 1 つのプロファイルを編集する場合、複数のプロファイルを一括編集する場合、またはユーザーが自分のプロファイルを編集する場合の両方に適用されます。</p>
+            <p>現在のユーザープロファイルとは、次のような機能のわずかな違いがあります。</p>
+            <ul>
+                <li>一部のチェックボックス（ユーザーをアクティブとしてマークするなど）は、切り替えまたはボタンに変更されています。</li>
+                <li>環境設定の「自分に割り当てた作業を自分の「作業割り当て」タブに送信」オプションが、非推奨（廃止予定）の機能を参照するので削除されました。</li>
+            </ul>
+        </td>
+        <td>2025年8月28日（PT）</td>
+        <td>2025年9月4日（PT）</td>
+        <td>2025年9月4日（PT）</td>
+    </tr>  
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> 複数の値オプションを外部 API からカスタムフォームに追加する </a><p></p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> 複数の値オプションを外部 API からカスタムフォームに追加する </a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>新しいフィールドタイプ「複数選択外部検索」がカスタムフォームデザイナーで使用できるようになりました。 外部システムにデータを保存している場合、このフィールドタイプを使用すると、外部 API からオプションを読み込み、カスタムフォーム内の他のフィールド値に基づいてフィルタリングできます。 これは、単一選択の外部検索と同じです。</p>
             <p>フォームがオブジェクトに追加されると、API から返された値がドロップダウンフィールドに表示され、ユーザーは複数の値を選択できます。</p>
         </td>
@@ -266,30 +280,36 @@ The <add release> release webinar will be held on <date>. You can [register for 
 
 <table>
             <col style="width: 50%;" />
-            <col style="width: 50%;" />
+            <col style="width: 25%;" />
             <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">機能</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">リリース日</span>
-                        </p>
-                    </td>
-                </tr>
+               <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}"> 拡張リストの更新 </a><p></p>
+            <p>高度なリストのレイアウトを使用すると、フィルターとグループ化を使用して作業を表示し、より適切に整理することができます。 ウィジェットの上に青いドットインジケーターが表示され、次の領域でフィルターまたはグループ化がリストに適用されたことを知らせるようになりました。</p>
+            <ul>
+                <li>設定の為替レート</li>
+                <li>自分の要求ウィジェット</li>
+                <li>優先度</li>
+            </ul>
+        </td>
+        <td>2025年8月28日（PT）</td>
+        <td>2025年9月11日（PT）</td>
+        <td>2025年10月16日（PT）</td>
+    </tr>     
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">2025 年第 4 四半期のリリース期間中のルックアンドフィールの更新 </a></p>
                         <p>Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対するマイナーアップデートが、2025 年第 4 四半期のリリース期間内に行われています。 </p>
                     </td>
-                    <td><p><b>公開日：</b></p>
-                        <ul>
-                            <li>
-                                <p>プレビューリリース：2025 年第 4 四半期のリリース期間中<br /></p>
-                            </li>
-                            <li>
-                                <p>実稼動リリース：プレビューにリリースしてから最短で 2 週間後（特に指定のない限り）</p>
+                    <td><p>2025 年第 4 四半期のリリース期間中<br /></p>
+                    <td colspan="2"><p>高速リリース：プレビューへのリリース後 1 週間以上（特に指定しない限り）</p>
                             </li>
                         </ul>
                     </td>
@@ -360,7 +380,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 

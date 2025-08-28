@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 6f1b24548fe99b5833dce0e5456eaefa5591abd1
+source-git-commit: 9b09452cbde87f0903283eca2021e9aef4b67e59
 workflow-type: tm+mt
-source-wordcount: '13464'
+source-wordcount: '13469'
 ht-degree: 84%
 
 ---
@@ -27,6 +27,7 @@ ht-degree: 84%
          * [2025年第 4 四半期のプロジェクトの機能強化](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md)
          * [2025 年第 4 四半期リクエストの機能強化](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md)
          * [2025 年第 4 四半期のリソース管理の強化](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-resource-mgmt.md)
+         * [2025年第 4 四半期のその他の機能強化](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md)
          * [2025年第 4 四半期のリリース期間中のルックアンドフィールの更新](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-look-and-feel-updates.md)
       * 2025 年第 3 四半期リリース {#release-25-q3}
          * [2025 年第 3 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md)

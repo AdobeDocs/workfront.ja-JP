@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
 workflow-type: tm+mt
-source-wordcount: '7094'
+source-wordcount: '7449'
 ht-degree: 2%
 
 ---
@@ -24,16 +24,26 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 ## 管理と設定
 
-<!--
-### Interface updates when editing a Scorecard
+### グループ内のレイアウトテンプレートリストのインターフェイスの更新
 
-**Preview release: August 21, 2025; Production release: August 21, 2025**
+**プレビューリリース：2025 年 8 月 28 日（PT）、実稼動リリース：2025 年 9 月 4 日（PT）**
 
-We have updated the look and feel of the when editing a Scorecard to match the design in other areas of the application. You can view the updated design when editing a scorecard in the Setup area of Workfront.
+左側のパネルのグループのレイアウトテンプレートリストのルックアンドフィールを、アプリケーションの他の領域と一致するように更新しました。
 
-A small functionality change has been applied to the Scorecard. To edit a Scorecard, select the Scorecard from the list and click the Edit icon. You are no longer directed to the Scorecard details page before you can edit.
+これらの変更を表示するには、設定/ グループ / グループを選択/ レイアウトテンプレートに移動します。
 
--->
+詳しくは、[ グループのレイアウトテンプレートの作成と変更 ](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md) を参照してください。
+
+
+### スコアカード編集時のインターフェイスの更新
+
+**プレビューリリース：2025 年 8 月 28 日（PT）、実稼動リリース：2025 年 8 月 28 日（PT）**
+
+アプリケーションの他の領域のデザインと一致するように、スコアカードを編集する際ののルックアンドフィールを更新しました。 Workfrontの「設定」エリアでスコアカードを編集すると、更新されたデザインを確認できます。
+
+スコアカードに小さな機能変更が適用されました。 スコアカードを編集するには、リストからスコアカードを選択し、「編集」アイコンをクリックします。 編集する前にスコアカードの詳細ページにリダイレクトされなくなりました。
+
+
 
 ### 設定のレビューおよび承認通知ページに対するインターフェイスの更新
 
@@ -120,7 +130,30 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 
 この変更を表示するには、設定/システム/SSO のユーザーを更新に移動します
 
+## ポートフォリオ
+
+### ポートフォリオ編集用のインターフェイスの更新
+
+**プレビューリリース：2025 年 8 月 28 日（PT）、実稼動リリース：2025 年 9 月 4 日（PT）**
+
+Portfolioの編集ボックスでポートフォリオを編集する際のインターフェイスの更新を導入しました。 「ポートフォリオを編集」ボックスと「ポートフォリオを編集」ボックスのデザインが、Workfrontの他の領域と一致する新しくなりました。
+
+>[!NOTE]
+>
+>ポートフォリオを一括編集する際の「式を再計算」設定が削除されました。 リストで複数のポートフォリオを選択して、ツールバーの詳細メニューの「式を再計算」オプションをクリックすると、カスタム式を一括で再計算できます。
+
+
+詳しくは、[ ポートフォリオの編集 ](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md) を参照してください。
+
 ## プロジェクト
+
+### テンプレートを使用しないプロジェクトへのタスクの変換に関するインターフェイスの変更
+
+**プレビューリリース：2025 年 8 月 28 日（PT）、実稼動リリース：2025 年 9 月 4 日（PT）**
+
+テンプレートを使用せずにタスクをプロジェクトに変換する際に、「プロジェクトに変換」ボックスのインターフェイスが更新されました。 このボックスは、Workfrontの他の領域のデザインと一致するようになりました。
+
+詳しくは、[ タスクをプロジェクトに変換 ](/help/quicksilver/manage-work/tasks/manage-tasks/convert-task-to-project.md) を参照してください。
 
 ### プログラムやポートフォリオにオブジェクトを追加する際のインターフェイスの更新
 
@@ -161,14 +194,14 @@ SSO のユーザーを更新ページを、Workfrontの他の領域と一致す�
 
 詳しくは、[ キュートピックの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) を参照してください。
 
-<!--### Interface update for the Edit Expense box of a project
+### プロジェクトの費用の編集ボックスのインターフェイス更新
 
-**Preview release: August 21, 2025; Production release: August 28, 2025**
+**プレビューリリース：2025 年 8 月 28 日（PT）、実稼動リリース：2025 年 9 月 4 日（PT）**
 
-We have updated the dialog box for editing a project expense, to match other areas of the application. The updated dialog box is available when editing expenses in projects or templates.
+アプリケーションの他の領域と一致するように、プロジェクト費用を編集するためのダイアログ ボックスを更新しました。 更新されたダイアログボックスは、プロジェクトまたはテンプレートで費用を編集する際に使用できます。
 
-For information, see [Manage project expenses](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md).
--->
+詳しくは、[プロジェクト費用の管理](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md)を参照してください。
+
 
 ### 「時間」セクション内のプロジェクト、タスクまたは問題に時間を記録するためのインターフェイス更新
 
