@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: b235945deb3254feaf671083fc992786851a3286
+source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 57%
+source-wordcount: '1116'
+ht-degree: 55%
 
 ---
 
@@ -22,6 +22,8 @@ ht-degree: 57%
 >title="ユーザーの非アクティブ化"
 >abstract="ユーザーを非アクティブ化すると、そのユーザーは Workfront および Frame.io から削除されます。非アクティブ化したユーザーは、後で再アクティブ化できます。"
 
+{{highlighted-preview}}
+
 <!--Audited 5/2025-->
 
 <!--
@@ -30,7 +32,7 @@ ht-degree: 57%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -88,7 +90,7 @@ ht-degree: 57%
 
 Workfront 管理者、スタンダードライセンスユーザーやプランライセンスユーザーのアクティブ化を解除する前に、オブジェクトとアクティビティを別のユーザーに関連付ける必要があります。
 
-詳しくは、[Workfront 管理者とプランライセンスのユーザーの非アクティブ化について](#about-deactivating-workfront-administrators-and-plan-license-users)を参照してください。
+詳しくは、この記事の [Workfront管理者と Standard または Plan ライセンスのユーザーのアクティベート解除について ](#about-deactivating-workfront-administrators-and-plan-license-users) を参照してください。
 
 ## ユーザーの非アクティブ化
 
@@ -127,17 +129,17 @@ Workfront 管理者とプランライセンスユーザーは、ユーザープ�
 
 1. **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 1. **ユーザーを編集** ボックスの左側のパネルで、「**リソースプランニング**」をクリックします。
-1. 「**スケジュールの非アクティブ化**」チェックボックスを選択します。
+1. 「**アクティベートを解除するスケジュール**」チェックボックスを選択するか、<span class="preview"> または **アクティベートを解除する日付を設定**</span>」をクリックします。
 
-1. **スケジュールされた非アクティブ化日** の日付と時刻を選択します。
+1. **スケジュールされた非アクティブ化日** / <span class="preview">**非アクティブ化日**</span> の日付と時刻を選択します。
 
    >[!NOTE]
    >
    >* 時間ボックスでは、分単位ではなく、時間単位のみを選択できます。
-   >* 過ぎた現在の時間を選択した場合、Workfrontでは、その翌日の午前 12 時にアクティベートを解除するようにスケジュールします。
+   >* 過ぎた現在の時間を選択した場合、Workfrontでは、その翌日の午前 12:00 にアクティベート解除のスケジュールを設定します。
    >* 選択した時間は、アクティブ化解除をスケジュールしているユーザーのコンピュータータイムゾーンに一致します。
 
-1. 「**変更を保存**」をクリックします。
+1. **変更を保存** または <span class="preview"> 保存 **をクリック**</span> ます。
 
 ユーザーは、選択した日の選択した時刻以降にアクティブ化が解除されます。複数のユーザーに対して一括でアクティブ化を解除することを選択した場合、選択したすべてのユーザーは、選択した日の選択した時刻以降にアクティブ化が解除されます。
 

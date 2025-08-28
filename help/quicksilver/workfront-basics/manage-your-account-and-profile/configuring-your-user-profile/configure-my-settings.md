@@ -3,22 +3,24 @@ product-area: user-management;setup
 navigation-topic: configure-your-user-profile
 title: 「個人設定」の指定
 description: ' [!DNL Adobe Workfront]  プロファイルには、自分に関する情報（名前、メールアドレス、住所、電話番号、役職など）が含まれます。また、 [!DNL Workfront]  および社内の他のユーザーとのインタラクションに関する情報も含まれます。'
-author: Courtney
+author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: eda5a2b283d87bccbbff1edff6744556f25ac6e0
 workflow-type: tm+mt
-source-wordcount: '3303'
-ht-degree: 97%
+source-wordcount: '3288'
+ht-degree: 95%
 
 ---
 
 # 「個人設定」の指定
 
+{{highlighted-preview}}
+
 <!-- Audited: 01/2024 -->
 
 <!--
-<p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
+<p>Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
 -->
 
 [!DNL Adobe Workfront] プロファイルには、自分に関する情報（名前、メールアドレス、住所、電話番号、役職など）が含まれます。また、[!DNL Workfront] および社内の他のユーザーとのインタラクションに関する情報（例えば、通知設定、[!DNL Workfront] で表示するタブ、担当業務、管理者、グループとチームのメンバーシップなど）も含まれます。
@@ -246,7 +248,7 @@ ht-degree: 97%
    <td> メールアドレスを更新します。必須フィールドです。メールアドレスは、[!DNL Workfront] のユーザー名となります。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Reset password]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL パスワードのリセット ]</strong> / <span class="preview"><strong> パスワードの変更 </strong></span></td> 
    <td>このセクションでパスワードをリセットします。パスワードのリセットについて詳しくは、<a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">パスワードのリセット</a>を参照してください。</td> 
   </tr> 
   <tr> 
@@ -313,8 +315,8 @@ ht-degree: 97%
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Profile Picture]</strong></td>
-        <td>プロファイル画像がアバターになり、[!DNL Workfront] システムを通じて名前が表示される場所に表示されます。</td>
+        <td><strong>[!UICONTROL プロファイル写真 ]</strong></td>
+        <td>プロフィール写真はアバターになり、名前が表示されているすべての [!DNL Workfront] システムで表示されます。</td>
     </tr>
 </table>
 
@@ -340,13 +342,8 @@ ht-degree: 97%
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>ここで目的の言語を指定します。これは、送信メールメッセージで使用される言語、日付、数値の形式を制御します。</p>
-   <p><strong> メモ：</strong> 組織がAdobe統合エクスペリエンスに参加している場合、言語環境設定はAdobeプロファイルに保存され、メールのロケールは使用されません。 詳しくは、「Adobe Experience Cloudでサポートされている言語 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> の <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Adobe Workfrontの言語を変更する </a> を参照してくだ </a> い。</p></td> 
+   <p><strong> メモ：</strong> 組織がAdobe統合エクスペリエンスを使用している場合、言語環境設定はAdobe プロファイルに保存され、メールのロケールは使用されません。 詳しくは、「Adobe Experience Cloudでサポートされている言語 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language"> の </a>Adobe Workfrontの言語を変更する <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> を参照してくだ </a> い。</p></td> 
   </tr>
-
-<tr> 
-   <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
-   <td>このフィールドは、[!DNL Workfront] から削除された非推奨（廃止予定）の機能を参照しています。</td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><strong>（条件付き）Automatically generate proofs when uploading documents</strong></td> 
    <td>ドキュメントが [!DNL Workfront] に読み込まれた直後にプルーフの生成を開始するには、このフィールドを選択します。このフィールドはデフォルトで無効になっており、Workfront 管理者のみが更新できます。<br>このフィールドは、Workfront の Workfront Proof コンポーネントを購入し、プルーフユーザーとして有効になっている場合にのみ表示されます。Workfront Proof について詳しくは、<a href="../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md" class="MCXref xref">Adobe Workfront 内でのプルーフの管理</a>を参照してください。
@@ -373,7 +370,7 @@ ht-degree: 97%
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Is Active]</strong> </td> 
-   <td>このフィールドは、[!DNL Workfront] 管理者でもあるユーザーにのみ表示され、デフォルトでオンにする必要があります。これは、ユーザーがアクティブで、ログインできることを示します。 [!DNL Workfront]</td> 
+   <td>このフィールドは、[!DNL Workfront] 管理者でもあるユーザーにのみ表示され、デフォルトで有効になっている必要があります。 これは、ユーザーがアクティブで、ログインできることを示します。 [!DNL Workfront]</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Access Level]</strong> </td> 
@@ -459,8 +456,8 @@ ht-degree: 97%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Schedule Deactivation]</strong></td> 
-   <td>一定期間後にアカウントを非アクティブ化するようにスケジュールする場合は、このチェックボックスをオンにします。表示される <p><strong>[!UICONTROL Scheduled Deactivation Date]</strong> で、アカウントが非アクティブ化される日付を指定します。ユーザーの非アクティブ化について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>の<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">ユーザーの非アクティブ化のスケジュール</a>を参照してください。</p><p>[!UICONTROL Standard] または [!UICONTROL Plan] ライセンスを持っているか、[!DNL Workfront] 管理者である場合は、自分のアカウントの無効フィールドを編集できます。</p></td> 
+   <td role="rowheader"><strong>[!UICONTROL スケジュールの非アクティブ化 ]</strong> / <span class="preview"><strong> 非アクティブ化の日付を設定 </strong></span></td> 
+   <td><p>一定期間が経過した後にアカウントを非アクティブ化するようにスケジュールする場合は、このボックスをオンまたは <span class="preview"> このボタンをクリック </span> します。 表示される <strong>[!UICONTROL Scheduled Deactivation Date]</strong> で、アカウントが非アクティブ化されるまでの日付を指定します。 ユーザーの非アクティブ化について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>の<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">ユーザーの非アクティブ化のスケジュール</a>を参照してください。</p><p>[!UICONTROL Standard] または [!UICONTROL Plan] ライセンスを持っているか、[!DNL Workfront] 管理者である場合は、自分のアカウントの無効フィールドを編集できます。</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Primary Role]</strong></td> 
