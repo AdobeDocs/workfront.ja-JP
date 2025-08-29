@@ -5,10 +5,11 @@ title: キャンバスダッシュボードの名前または説明の変更
 description: キャンバスダッシュボードの作成後、名前または説明を編集できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: e768de3d-ec07-40bd-a7d8-39252e6583c0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 22%
+source-wordcount: '297'
+ht-degree: 17%
 
 ---
 
@@ -16,14 +17,21 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>
+>* Amazon Web Services用に独自のキーを持参
+>* Azure
+>* Google Cloud Platform
+
 
 キャンバスダッシュボードの作成後、名前または説明を編集できます。
 
 ダッシュボードに加える変更は、そのダッシュボードにアクセスできるすべてのユーザーに影響を与えます。
 
+## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -70,6 +78,10 @@ ht-degree: 22%
 
 ## ダッシュボードの名前と説明の変更
 
+>[!NOTE]
+>
+>キャンバスダッシュボードを共有したユーザーは、キャンバスダッシュボードのインベントリリストとダッシュボードの詳細セクションで名前と説明を確認できます。
+
 {{step1-to-dashboards}}
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
@@ -83,4 +95,6 @@ ht-degree: 22%
 1. 新しい **説明** を入力します。
 
 1. **保存**&#x200B;をクリックします。
+
+
 

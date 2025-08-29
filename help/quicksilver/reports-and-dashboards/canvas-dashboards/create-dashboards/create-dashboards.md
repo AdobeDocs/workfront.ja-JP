@@ -5,10 +5,11 @@ title: キャンバスダッシュボードの作成
 description: キャンバスダッシュボードを使用すると、カスタマイズ可能なダッシュボードにレポートを作成および追加して、アカウントデータをすばやく視覚化できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: bd31e426-7c4a-4ff8-9432-c95dc8ee3743
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '323'
-ht-degree: 16%
+source-wordcount: '398'
+ht-degree: 15%
 
 ---
 
@@ -16,11 +17,18 @@ ht-degree: 16%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>
+>* Amazon Web Services用に独自のキーを持参
+>* Azure
+>* Google Cloud Platform
 
 キャンバスダッシュボードを使用すると、カスタマイズ可能なダッシュボードにレポートを作成および追加して、アカウントデータをすばやく視覚化できます。
 
-+++ 展開すると、アクセス要件が表示されます。
+## アクセス要件
+
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -52,6 +60,10 @@ ht-degree: 16%
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 +++
+
+## 前提条件
+
+キャンバスダッシュボードは、ダッシュボード ページの左側のナビゲーション項目のレイアウトテンプレート設定で有効にする必要があります。
 
 ## ダッシュボードの作成
 

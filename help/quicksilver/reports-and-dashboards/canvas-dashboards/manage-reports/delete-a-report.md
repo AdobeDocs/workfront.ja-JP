@@ -5,10 +5,11 @@ title: キャンバスダッシュボードでのレポートの削除
 description: キャンバスダッシュボードからレポートを削除できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
+source-git-commit: 68a4a9d1c3980fd947b5fefef19cdfa09591e849
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 19%
+source-wordcount: '292'
+ht-degree: 17%
 
 ---
 
@@ -16,14 +17,20 @@ ht-degree: 19%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>
+>* Amazon Web Services用に独自のキーを持参
+>* Azure
+>* Google Cloud Platform
 
 キャンバスダッシュボードを作成し、レポートを追加したら、その特定のダッシュボードに適用されなくなった古いレポートを削除できます。
 
 レポートの削除は永続的です。 レポートを削除後に再度追加する必要がある場合は、レポートを再作成する必要があります。
 
+## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 

@@ -6,10 +6,10 @@ description: Adobe Workfrontのレポート ツールを使用して作成した
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
-source-git-commit: 8b9676c7ef4efcad1294a9aa786aa6fe52d26cc0
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 17%
+source-wordcount: '349'
+ht-degree: 14%
 
 ---
 
@@ -17,11 +17,18 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>
+>* Amazon Web Services用に独自のキーを持参
+>* Azure
+>* Google Cloud Platform
 
 Adobe Workfrontのレポート ツールを使用して作成したレポートは、キャンバスダッシュボードに追加できます。 レポートの作成について詳しくは、[ レポートの基本を学ぶ ](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md) を参照してください。
 
-+++ 展開すると、アクセス要件が表示されます。
+## アクセス要件
+
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -56,6 +63,7 @@ Adobe Workfrontのレポート ツールを使用して作成したレポート�
 
 ## キャンバスダッシュボードへの既存のレポートの追加
 
+
 {{step1-to-dashboards}}
 
 1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
@@ -76,9 +84,15 @@ Adobe Workfrontのレポート ツールを使用して作成したレポート�
 
      >[!NOTE]
      >
-     > ベータ版のこの段階では、「すべての承認 **ホームウィジェットが唯一** 利用可能なウィジェットです。 このリストは、ベータ版のステージが進むにつれて拡大していきます。
+     > ベータ版のこの段階では、**ドキュメント承認指標** ホームウィジェットが唯一の利用可能なウィジェットです。 このリストは、ベータ版のステージが進むにつれて拡大していきます。
 
 1. （任意）レポートをダッシュボードに追加する前に詳細を表示するには、目的のレポートに合わせて **表示** をクリックします。
 
 1. 追加するレポートのインラインで **追加** をクリックします。
+
+   >[!NOTE]
+   >
+   > ダッシュボードの作成後に既存のレポートをダッシュボードに追加する場合は、ダッシュボードの詳細ページの右上隅にある **レポートを追加** ボタンをクリックし、手順 6～9 を繰り返します。
+
+
 

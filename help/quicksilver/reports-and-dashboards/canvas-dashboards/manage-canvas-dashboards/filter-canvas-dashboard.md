@@ -5,10 +5,11 @@ title: キャンバスダッシュボードのフィルタリング
 description: キャンバスダッシュボードの作成後に、フィルターを適用できます。
 author: Courtney and Jenny
 feature: Reports and Dashboards
-source-git-commit: fcce7c6b9a2d10069a4b6c50b7b7a244ac538a33
+exl-id: 156e9d3f-49f6-4372-9749-c7124ff5baee
+source-git-commit: d76ad0d51f28191cbd04af950e10a2247414830e
 workflow-type: tm+mt
-source-wordcount: '806'
-ht-degree: 12%
+source-wordcount: '863'
+ht-degree: 11%
 
 ---
 
@@ -16,9 +17,17 @@ ht-degree: 12%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>
+>* Amazon Web Services用に独自のキーを持参
+>* Azure
+>* Google Cloud Platform
+
 
 プロンプトを含むキャンバスダッシュボードにフィルターを適用できます。 プロンプトは、追加のフィルター条件を適用するフィルター修飾子として機能するので、結果をさらに絞り込むことができます。 これらのプロンプトは、フィルターを適用するたびに変更できるので、ダッシュボードのメインフィルター条件や個々のレポートを編集しなくても、表示される結果を調整できます。
+
+## アクセス要件
 
 +++ 展開すると、アクセス要件が表示されます。 
 
