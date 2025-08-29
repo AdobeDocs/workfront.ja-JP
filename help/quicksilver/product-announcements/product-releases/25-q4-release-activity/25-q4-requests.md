@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 870fcb44506ae583fb6a5c36419fda71be581e6d
+source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 21%
+source-wordcount: '263'
+ht-degree: 18%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 21%
 このページでは、2025 年第 4 四半期リリースで行われた、プレビュー環境に対するリクエストの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
+
+## 統合リクエストリストの新しい結合ステータス列
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 8 月 28 日（PT）
+>* 実稼動高速リリース：2025 年 9 月 11 日（PT）
+>* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+
+統一されたリクエストエクスペリエンスを簡素化するために、ステータス列にリクエストステータスと承認ステータスの両方（特定のリクエストに適用されるいずれか）が表示されるようになりました。
+
+リクエストの作成について詳しくは、以下を参照してください。
+
+* Workfrontの場合：[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Workfront Planning の場合：[ レコードを作成するためのAdobe Workfront Planning 要求の発行 ](/help/quicksilver/planning/requests/submit-requests.md)
 
 ## リクエスト元エクスペリエンスの更新
 

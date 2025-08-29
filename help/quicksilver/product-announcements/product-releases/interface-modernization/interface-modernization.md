@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: ae5cc55bcd1d9db4484b5c5447a483456015f9fe
+source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
 workflow-type: tm+mt
-source-wordcount: '7449'
+source-wordcount: '7469'
 ht-degree: 2%
 
 ---
@@ -180,6 +180,10 @@ Portfolioの編集ボックスでポートフォリオを編集する際のイ�
 
 **プレビューリリース：2025 年 8 月 21 日（PT）、実稼動リリース：2025 年 8 月 28 日（PT）**
 
+>[!NOTE]
+>
+>この機能は、実稼動環境から一時的に削除されました。
+
 新しいキュートピックをプロジェクトまたはテンプレートに追加する際の、新しいキュートピック ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
 
 詳しくは、[ キュートピックの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) を参照してください。
@@ -187,6 +191,10 @@ Portfolioの編集ボックスでポートフォリオを編集する際のイ�
 ### プロジェクトまたはテンプレート上のキュートピックを編集するとインターフェイスが更新される
 
 **プレビューリリース：2025 年 8 月 21 日（PT）、実稼動リリース：2025 年 8 月 28 日（PT）**
+
+>[!NOTE]
+>
+>この機能は、実稼動環境から一時的に削除されました。
 
 プロジェクトとテンプレートに関するキュートピックを編集する際のエクスペリエンスを、Workfrontの他の領域と一致するように更新しました。
 
