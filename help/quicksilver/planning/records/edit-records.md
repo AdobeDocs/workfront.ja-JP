@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 567fa8c960f7db47279d6cde1f5e90dc7f38ae79
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
 source-wordcount: '2192'
 ht-degree: 44%
@@ -95,7 +95,7 @@ ht-degree: 44%
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++   
 
 
 ## レコードの編集に関する考慮事項
@@ -106,6 +106,10 @@ ht-degree: 44%
    * レコード ビューでのレコードのプレビュー
    * レコードの詳細ページ
    * テーブルビューでのインライン。
+<!--* You can edit a record's dates from the following areas:
+    * All areas listed above
+    * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
 
 * ユーザーがビューでレコードを編集すると、変更はすべてのビューで直ちに表示され、レコードページは他のすべてのユーザーに表示されます。
 

@@ -8,10 +8,10 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 66fc75ed9a7fca4b44ac776c314a6e08a6fbd450
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
-source-wordcount: '2566'
-ht-degree: 90%
+source-wordcount: '2618'
+ht-degree: 89%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 90%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -163,11 +163,9 @@ ht-degree: 90%
      <tr> 
       <td role="rowheader">説明</td> 
       <td> <p>イシューに関する追加情報を追加します。</p> </td> 
-     </tr> 
-     <tr> 
-      <td colspan="2" role="rowheader">「基本情報」セクション</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">ステータス</td> 
       <td> <p>イシューのステータスを選択します。イシューのステータスについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">システムイシューステータスのリストへのアクセス</a>を参照してください。 </p> </td> 
      </tr> 
@@ -192,8 +190,24 @@ ht-degree: 90%
         <li> <p style="font-weight: bold;">対処策のないバグ</p> </li> 
         <li> <p style="font-weight: bold;">致命的なエラー</p> </li> 
        </ul> <p>Workfront 管理者が選択したプロジェクトの環境設定に応じて、重大度の名前が異なる場合があります。重大度の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md" class="MCXref xref">イシューの重大度を作成またはカスタマイズ</a>を参照してください。</p> </td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
+   <td role="rowheader">イシュー条件</td> 
+   <td> <p>イシューの状態は、その進行状況を示すためにイシューに配置されるフラグです。</p> 
+   <p>タスクまたはイシューの状況は、自動または手動で設定できます。</p>
+   <p>状態を変更するには、問題に割り当てられている必要があります。</p>
+   <p>次のオプションから選択します。</p> 
+      <ul> 
+   <li> <p style="font-weight: bold;">順調</p> </li> 
+   <li> <p style="font-weight: bold;">やや心配</p> </li> 
+   <li> <p style="font-weight: bold;">深刻な障害</p> </li> 
+   </ul> </td> 
+     </tr>
+
+
+
+   <tr> 
       <td role="rowheader">URL</td> 
       <td> <p>イシューに関する情報に関する web リンクを入力します。</p> </td> 
      </tr> 

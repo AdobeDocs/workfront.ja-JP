@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: b291525db0105081b5ff3dd65d9d2b3267a2f60c
 workflow-type: tm+mt
 source-wordcount: '2814'
 ht-degree: 18%
@@ -335,7 +335,7 @@ You can import records from other applications by linking them to existing recor
    * **閉じる**![ 閉じるアイコン ](assets/close-icon.png) 新規レコードボックスを閉じます。
 
    **削除** アイコンをクリックしなかった場合、レコードは直ちにタイムラインおよびテーブルビューとカレンダービューに追加されます。
-
+   <!--1. (Optional) Hover over the record's bar in the timeline and drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record.-->
 1. （オプション）タイムラインのレコードバーをクリックしてレコードの詳細ウィンドウを開き、情報を更新、削除またはコメントを追加します。
 
    >[!TIP]
@@ -387,9 +387,9 @@ For information about creating a calendar view, see [Manage the calendar view](/
 
     * **Record date fields**: Update the dates of the record. 
         
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the timeline view was created.
+        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
 
-        By default, date values are preselected depending on how you display the timeline view. The following scenarios exist:
+        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
 
         * By **Month**: The record start and end dates span one day.
         * By **Week**: The record start and end dates span two days.
