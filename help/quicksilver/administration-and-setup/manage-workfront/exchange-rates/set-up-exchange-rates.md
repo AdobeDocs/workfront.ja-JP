@@ -8,10 +8,10 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8
-source-git-commit: cb12c715d6b20dd4737e2d2e29d9849f08ce67e9
+source-git-commit: dc820b4012fec494ce5ebb1baefb4ee0df214916
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 55%
+source-wordcount: '650'
+ht-degree: 54%
 
 ---
 
@@ -89,6 +89,10 @@ Adobe Workfront 管理者は、Workfront で為替レートを設定できます
    * 通貨名にポインタを合わせ、表示される **詳細** メニューをクリックします。 次に、「**デフォルトにする** を選択します。
 
      新しいデフォルトの通貨がアイコンで更新されます。
+
+     >[!NOTE]
+     >
+     >リストの並べ替え方法にかかわらず、デフォルトの通貨が常にリストの最初に表示されます。
 
 1. （オプション）通貨を削除するには、通貨名の横にあるチェックボックスをオンにし、画面の下部にあるアクションバーで **削除** を選択します。 デフォルトの通貨は削除できません。
 
