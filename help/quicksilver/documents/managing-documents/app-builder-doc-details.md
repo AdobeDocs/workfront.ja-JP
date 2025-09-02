@@ -9,7 +9,7 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1357'
 ht-degree: 1%
@@ -58,7 +58,7 @@ AppBuilder は、「ドキュメントの詳細」内でインストールでき
 組織は、アカウントマネージャーと協力して AppBuilder を購入する必要があります。 POC に対してこれを行う必要がなかったので、正確なプロセスは理解されていません。
 
 AppBuilder の統合をテストする場合は、IMS 組織に次の場所で無料体験版をリクエストできます。
-[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/overview/getting_access/#)
+[https://developer.adobe.com/app-builder/docs/overview/getting_access/#](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/set-up#access-and-credentials)
 
 30 日間の無料トライアルであっても、その後は実際にトライアルを無効にできないという印象を持っています。
 
@@ -89,7 +89,7 @@ AppBuilder が正しく設定されている場合は、新しいプロジェク
 
 ## Adobe IO （aio） CLI
 
-Adobeには、App Builder アプリケーションの作成に役立つオープンソース CLI が用意されています。 ドキュメントは、[https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) およびAdobe App Builderの説明 [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/) で参照できます。
+Adobeには、App Builder アプリケーションの作成に役立つオープンソース CLI が用意されています。 ドキュメントは、[https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) およびAdobe App Builderの説明 [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app) で参照できます。
 
 1. インストール
    1. ツールをインストールするには、（最初にノード v18 を使用していることを確認して） `npm install -g @adobe/aio-cli ` を実行します。
@@ -107,7 +107,6 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
 
 1. テンプレートの選択と設定
    1. 使用可能なすべてのテンプレートを参照し、プロジェクトの **@adobe/aem-cf-editor-ui-ext-tpl** テンプレートを選択します。
-
       ![ 検索テンプレート ](assets/search-template.png)
       ![ テンプレートを選択 ](assets/select-template.png)
 
@@ -116,7 +115,6 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
    1. 拡張機能の機能の説明的な概要を提供します。
    1. 開始する初期バージョン番号を選択します。
    1. 「完了しました **を選択して完了を確認** ます。
-
       ![ 拡張機能を定義 ](assets/define-extension.png)
 
 1. プロジェクトフォルダーに移動します
@@ -130,7 +128,7 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
 
 1. 拡張機能登録コンポーネントの編集
    1. `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js` を開きます。.
-   1. メソッド セクションで、非同期関数 `getButtons` を含む関数 `secondaryNav` を追加します。
+   1. メソッド セクションで、非同期関数 `secondaryNav` を含む関数 `getButtons` を追加します。
    1. 次 `getButtons` 構造のオブジェクトを受け取る必要があります。
 
       ```
@@ -174,7 +172,7 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
       ```
 
 1. ドキュメントの詳細へのアクセス
-   1. 提供された関数 `document.getDocumentDetails` をアプリケーション内に実装して、重要なドキュメントの詳細を取得します。 この関数は、`hostname`、`protocol`、認証の詳細を含む `sharedContext` オブジェクトと共に、`docId` および `docvId` を含むオブジェクトを取得します。 アプリケーションがこのデータを適切に処理していることを確認します。
+   1. 提供された関数 `document.getDocumentDetails` をアプリケーション内に実装して、重要なドキュメントの詳細を取得します。 この関数は、`docId`、`docvId`、認証の詳細を含む `sharedContext` オブジェクトと共に、`hostname` および `protocol` を含むオブジェクトを取得します。 アプリケーションがこのデータを適切に処理していることを確認します。
 
 1. データ取得をコンポーネントに統合する
    1. 新しいコンポーネントをアプリケーションの components フォルダーに追加します。 このコンポーネント内で、Workfrontへの接続を確立し、ホストアプリケーションと確立された接続を使用してドキュメント情報と認証データを取得します。 これを処理するためにコンポーネントを構築する方法の例を次に示します。
@@ -224,7 +222,7 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
 
 1. 拡張機能登録コンポーネントの変更
    1. `ExtensionRegistration.js` という名前のファイルを探して開きます。
-   1. メソッド セクションで、非同期関数 `getButtons` を含む関数 `secondaryNav` を追加します。
+   1. メソッド セクションで、非同期関数 `secondaryNav` を含む関数 `getButtons` を追加します。
    1. 次 `getButtons` 構造のオブジェクトを受け取る必要があります。
 
       ```
@@ -268,7 +266,7 @@ Adobeには、App Builder アプリケーションの作成に役立つオープ
       ```
 
 1. ドキュメントの詳細へのアクセス
-   1. 提供された関数 `document.getDocumentDetails` をアプリケーション内に実装して、重要なドキュメントの詳細を取得します。 この関数は、`hostname`、`protocol`、認証の詳細を含む `sharedContext` オブジェクトと共に、`docId` および `docvId` を含むオブジェクトを取得します。 アプリケーションがこのデータを適切に処理していることを確認します。
+   1. 提供された関数 `document.getDocumentDetails` をアプリケーション内に実装して、重要なドキュメントの詳細を取得します。 この関数は、`docId`、`docvId`、認証の詳細を含む `sharedContext` オブジェクトと共に、`hostname` および `protocol` を含むオブジェクトを取得します。 アプリケーションがこのデータを適切に処理していることを確認します。
 
 1. データ取得をコンポーネントに統合する
    1. 新しいコンポーネントをアプリケーションの components フォルダーに追加します。 このコンポーネント内で、Workfrontへの接続を確立し、ホストアプリケーションと確立された接続を使用してドキュメント情報と認証データを取得します。 これを処理するためにコンポーネントを構築する方法の例を次に示します。
@@ -322,7 +320,7 @@ Workfrontにゲストアプリケーションを読み込むには、アプリ�
    1. `aio app use -w Production `
    1. `aio app deploy `
 
-1. [https://developer-stage.adobe.com/&rbrace; または ](https://developer-stage.adobe.com/)2&rbrace;https://developer.adobe.com/[&#128279;](https://developer.adobe.com/) に移動します。
+1. [https://developer-stage.adobe.com/} または ](https://developer-stage.adobe.com/)2}https://developer.adobe.com/[ に移動します。](https://developer.adobe.com/)
    1. 右上隅の **コンソール** をクリックします。
 
 1. AppBuilder アプリケーションの作成に使用したプロジェクトを見つけます。
@@ -341,7 +339,7 @@ Workfrontにゲストアプリケーションを読み込むには、アプリ�
 
 ## 送信を承認
 
-1. システム管理者は、[https://stage.exchange.adobe.com/&rbrace; または ](https://stage.exchange.adobe.com/)2&rbrace;https://exchange.adobe.com/[&#128279;](https://exchange.adobe.com/) に移動します。
+1. システム管理者は、[https://stage.exchange.adobe.com/} または ](https://stage.exchange.adobe.com/)2}https://exchange.adobe.com/[ に移動します。](https://exchange.adobe.com/)
 
 1. **管理**/**Experience Cloud アプリケーション** をクリックします。 送信されたアプリと、承認/拒否するオプションが表示されます。
 承認されると、公開済みのアプリケーション拡張機能がWorkfront環境に自動的に読み込まれます。
@@ -354,7 +352,7 @@ Adobeには、AppBuilder 用のアプリの構築を開始する方法と、ア�
 
 次に、役立つリンクを示します。
 
-* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
+* [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#bootstrap-the-new-app-using-the-cli)
 
 * [https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 

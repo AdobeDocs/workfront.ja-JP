@@ -4,7 +4,7 @@ description: Adobe App Builder を活用した Workfront UI 拡張機能を使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: a4e715d5212c3c166ce6ed995b327eb2b7198123
+source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
 workflow-type: tm+mt
 source-wordcount: '1693'
 ht-degree: 1%
@@ -133,7 +133,7 @@ Adobeには、App Builder アプリケーションの作成に使用できるオ
    ![ 生成中 ](assets/6-generation-in-process.png)
 1. アプリの初期化が完了したことを示すメッセージが表示されるまで待ちます。 次に、IDE でプロジェクトを開き（Visual Studio Code をお勧めします）、src フォルダーにアクセスします。
 
-   プロジェクト内のフォルダーおよびファイルについて詳しくは、[Adobe開発者向けサイト ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#5-anatomy-of-an-appbuilder-application) を参照してください。
+   プロジェクト内のフォルダーおよびファイルについて詳しくは、[Adobe開発者向けサイト ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application) を参照してください。
 
 ## VSCode での拡張機能の構築
 
@@ -237,7 +237,7 @@ Workfrontの左側のパネルナビゲーションでカスタムアプリケ�
    ![ コードの例 ](assets/9-app-file-step-1-from-sam.png)
 1. 作業内容を保存します。
 
-アプリケーションの開発と実行について詳しくは、[Adobe開発者向けサイト ](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#6developing-the-application) を参照してください。
+アプリケーションの開発と実行について詳しくは、[Adobe開発者向けサイト ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application) を参照してください。
 
 ## 共有コンテキスト
 
