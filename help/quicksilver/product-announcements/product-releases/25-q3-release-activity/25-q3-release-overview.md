@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: e153ccb40112688769a3c6b706a2b23f1f084021
+source-git-commit: e82c1a122f7a11fda2210de75c5f62c5fbaa35f0
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1875'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >
 >| 毎月のリリース | 四半期リリース |
 >|----|----|
->| <ul><li>25.5 （2025 年 5 月）</li><li>25.6 （2025 年 6 月）</li><li>25.7 （2025 年 7 月）</li></ul> | <ul><li>25.7 （2025 年 7 月）</li></ul> |
+>| <ul><li>25.5 （2025 年 5 月 15 日（PT））</li><li>25.6 （2025 年 6 月 12 日（PT））</li><li>25.7 （2025 年 7 月 17 日（PT））</li></ul> | <ul><li>25.7 （2025 年 7 月 17 日（PT））</li></ul> |
 >
 >各四半期の最終リリース（今四半期は 25.7）では、迅速リリーススケジュールのユーザーに対して、1 日早くリリースが届きます。
 >
