@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 1c6a1238e9ea1ca843dcb296db7a552ff354c50a
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '2666'
-ht-degree: 74%
+source-wordcount: '2739'
+ht-degree: 72%
 
 ---
 
@@ -89,6 +89,10 @@ ht-degree: 74%
 * イベント登録 API を使用するには `sessionID` ヘッダーが必要です
 
   詳しくは、[API の基本](api-basics.md)の[認証](api-basics.md#authentication)を参照してください。
+
+## イベント購読の過負荷を回避
+
+イベント購読サービスは、すべてのユーザーに信頼性の高いイベント配信を提供するように設計されています。 これを確実にするために、すべてのユーザーにサービス品質の問題が発生する可能性がある 1 人のユーザーによる過剰なイベント生成を防ぐ対策が講じられています。 その結果、短時間に大量のイベントを高率で発生させるユーザーの場合、サンドボックス化やイベント配信の遅延が発生する可能性があります。
 
 ## 購読リソースの作成
 
@@ -812,7 +816,7 @@ PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
 >[!NOTE]
 >
 >指定されたフィルターを含む以下の購読は、タスクの名前にタスクの更新が行われる前の `again` が `oldState` に含まれているメッセージのみを返します。
->&#x200B;>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
+>>この場合のユースケースは、状態が変化した objCode メッセージを見つけることです。例えば、「Research Some name」から「Research TeamName Some name」に変更されたタスクをすべて検索するには、次のように指定します。
 
 ```
 {

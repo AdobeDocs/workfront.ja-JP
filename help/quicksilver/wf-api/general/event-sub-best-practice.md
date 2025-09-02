@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 2c6e3567-d5eb-4528-a393-dbf235958ed2
-source-git-commit: 19e0b792bc49ede0504af479952fdbdf384dc73c
+source-git-commit: 699ce13472ee70149fba7c8c34dde83c7db5f5de
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 97%
+source-wordcount: '355'
+ht-degree: 77%
 
 ---
 
@@ -29,6 +29,10 @@ ht-degree: 97%
 ## 余分な本文フィールドを含めない
 
 リクエストに余分な本文フィールドを含めないでください。含めると、API で登録を作成できなくなります。
+
+## イベント購読の過負荷を回避
+
+イベント購読サービスは、すべてのユーザーに信頼性の高いイベント配信を提供するように設計されています。 これを確実にするために、すべてのユーザーにサービス品質の問題が発生する可能性がある 1 人のユーザーによる過剰なイベント生成を防ぐ対策が講じられています。 その結果、短時間に大量のイベントを高率で発生させるユーザーの場合、サンドボックス化やイベント配信の遅延が発生する可能性があります。
 
 ## 猶予期間内のテストの完了
 
