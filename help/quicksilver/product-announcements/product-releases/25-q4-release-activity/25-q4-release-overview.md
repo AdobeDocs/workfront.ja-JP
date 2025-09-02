@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: e835f3721f8d732780ab199fd6da47f563004077
 workflow-type: tm+mt
-source-wordcount: '1871'
+source-wordcount: '1905'
 ht-degree: 17%
 
 ---
@@ -42,8 +42,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [ドキュメントとプルーフの機能強化](#document-and-proofing-enhancements)
 * [ホームの機能強化](#home-enhancements)
 * [プロジェクトの強化](#project-enhancements)
-* [リクエストの機能強化](#requests-enhancements)
 * [リソース管理の強化](#resource-management-enhancements)
+* [リクエストの機能強化](#requests-enhancements)
 * [その他の機能強化](#other-enhancements)
 
 ### 管理者機能の強化
@@ -175,36 +175,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
-### リクエストの機能強化
-
-<table style="table-layout:auto">
-  <tbody>
-   <tr>
-        <td><strong>機能</strong>
-        </td>
-        <td><strong>プレビュー</strong></td>
-        <td><strong>迅速リリース</strong></td>
-        <td><strong>四半期ごと</strong></td>
-    </tr>
-    <tr>
-        <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}"> 依頼内容の更新 </a><p></p>
-            <p>WorkfrontとWorkfront Planning でリクエストを行う際のユーザーエクスペリエンスを向上させるために、リクエスト時のエクスペリエンスを更新しました。 次の操作が可能になりました。
-            <ul>
-                <li>WorkfrontおよびWorkfrontの計画リクエストを 1 つのリストに表示します。</li>
-                <li>指定した条件に基づいて送信されたリクエストをフィルタリングします。</li>
-                <li>統合されたエクスペリエンスで、Workfront リクエストキューとWorkfront Planning フォームを検索して選択します。</li>
-                <li>送信済みリクエストリストの列の非表示と並べ替え</li>
-            </ul>
-            </p>
-        </td>
-        <td>2025年8月21日（PT）</td>
-        <td>2025年9月11日（PT）</td>
-        <td>2025年10月16日（PT）</td>
-    </tr>     
-  </tbody>
-</table>
-
 ### プロジェクトの強化
 
 <table style="table-layout:auto">
@@ -280,6 +250,45 @@ The <add release> release webinar will be held on <date>. You can [register for 
         </td>
         <td>2025年7月31日（PT）</td>
         <td>2025年8月14日（PT）</td>
+        <td>2025年10月16日（PT）</td>
+    </tr>     
+  </tbody>
+</table>
+
+### リクエストの機能強化
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}"> 統合リクエストリストの新しい結合ステータス列 </a><p></p>
+            <p>統一されたリクエストエクスペリエンスを簡素化するために、ステータス列にリクエストステータスと承認ステータスの両方が表示されるようになりました。どちらか、特定のリクエストに適用される方が表示されます。</p>
+        </td>
+        <td>2025年8月28日（PT）</td>
+        <td>2025年9月11日（PT）</td>
+        <td>2025年10月16日（PT）</td>
+    </tr>     
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}"> 依頼内容の更新 </a><p></p>
+            <p>WorkfrontとWorkfront Planning でリクエストを行う際のユーザーエクスペリエンスを向上させるために、リクエスト時のエクスペリエンスを更新しました。 次の操作が可能になりました。
+            <ul>
+                <li>WorkfrontおよびWorkfrontの計画リクエストを 1 つのリストに表示します。</li>
+                <li>指定した条件に基づいて送信されたリクエストをフィルタリングします。</li>
+                <li>統合されたエクスペリエンスで、Workfront リクエストキューとWorkfront Planning フォームを検索して選択します。</li>
+                <li>送信済みリクエストリストの列の非表示と並べ替え</li>
+            </ul>
+            </p>
+        </td>
+        <td>2025年8月21日（PT）</td>
+        <td>2025年9月11日（PT）</td>
         <td>2025年10月16日（PT）</td>
     </tr>     
   </tbody>
@@ -389,7 +398,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 
