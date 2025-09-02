@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fe51ded26c57e3b7137e42ad2218d79adf032b85
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
 source-wordcount: '5244'
 ht-degree: 44%
@@ -14,7 +14,7 @@ ht-degree: 44%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ja ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -46,7 +46,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -108,7 +108,7 @@ Workfrontの計画フィールドについて詳しくは、[ フィールドの
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++   
 
 ## レコードタイプを連結してフィールドを作成する
 
@@ -264,6 +264,14 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 複数選択フィールドを使用すると、ドロップダウンメニューから複数のオプションを選択して、追加情報を任意の形式で取り込むことができます。
 
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's multi-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
+
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**複数選択**&#x200B;フィールドタイプを選択します。
 
    ![ 複数選択フィールドタイプ ](assets/multi-select-field-type.png)
@@ -292,6 +300,14 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 ### 単一選択 {#single-select}
 
 単一選択フィールドでは、ドロップダウンメニューから 1 つのオプションを選択することで、追加情報を任意の形式で取り込むことができます。
+
+<!--
+>[!NOTE]
+>
+><span class="preview">In addition to the functionality described in this section, you can add new choices when editing a record's single-select field value inline, in the table view. For more information, see the "Add new choices to an existing select field when
+editing records in the table view" section in the article [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>
+>
+-->
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**単一選択**&#x200B;というフィールドタイプを選択します。
 
@@ -358,7 +374,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >数値フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに数値として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**数値**&#x200B;フィールドタイプを選択します。
@@ -388,7 +404,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >割合フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページにパーセンテージとして表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
@@ -428,7 +444,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >通貨フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**通貨**&#x200B;フィールドタイプを選択します。
 

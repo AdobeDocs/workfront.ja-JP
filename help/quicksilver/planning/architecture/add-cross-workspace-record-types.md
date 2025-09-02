@@ -4,10 +4,10 @@ description: レコードタイプは、Adobe Workfront Planning のオブジェ
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 17%
+source-wordcount: '584'
+ht-degree: 13%
 
 ---
 
@@ -44,48 +44,28 @@ recommendations: noDisplay, noCatalog
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> 製品</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
-   <td> 
-<p>任意 </p> 
+<ul><li><p>任意のWorkfront パッケージ</p></li>
+And
+<li><p>Planning Plus パッケージ</p></li></ul>
+または：
+<ul><li><p>任意のワークフローパッケージ</p> </li>
+And
+<li><p>PrimeまたはUltimate パッケージの計画</p></li></ul>
 <p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースへの権限の管理</a> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
@@ -105,8 +85,9 @@ recommendations: noDisplay, noCatalog
 * 別のワークスペースからレコードタイプを追加すると、既存のレコードタイプから次の情報も追加されます。
 
    * フィールド
-   * レコード
    * レコード接続
+
+* 他のワークスペースから追加されたレコードを表示できるのは、それらのワークスペースに対する権限を持っている場合のみです。
 
 * フィールドを含むレコードタイプは、元のワークスペースでのみ編集できます。 追加されたワークスペースから編集することはできません。
 * すべてのワークスペースから追加されたレコードは、権限のないワークスペースで作成された場合でも、すべてのワークスペースからアクセスするすべてのユーザーに表示されます。

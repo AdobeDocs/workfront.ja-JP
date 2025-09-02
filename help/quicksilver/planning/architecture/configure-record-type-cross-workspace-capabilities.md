@@ -4,10 +4,10 @@ description: レコードタイプは、別のワークスペースに追加す�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 4569b5bd004a93396257f3f1f8964831f69399dc
+source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 13%
+source-wordcount: '1052'
+ht-degree: 10%
 
 ---
 
@@ -65,7 +65,7 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。  
++++ 展開して、この記事の機能のアクセス要件を表示します。
 
 <table style="table-layout:auto"> 
 <col> 
@@ -74,52 +74,32 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 </col> 
 <tbody> 
     <tr> 
+<tr>
+
+</tr>   
 <tr> 
-<td> 
-   <p> 製品</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ*</p></td> 
    <td> 
-   <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfrontの計画<p></li></ul></td> 
-  </tr>   
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td> 
-<p>次のいずれかのWorkfront プラン：</p> 
-<ul><li>選択</li> 
-<li>Prime</li> 
-<li>Ultimate</li></ul> 
-<p>Workfront Planning は、従来のWorkfront プランでは使用できません</p> 
-   </td> 
-<tr> 
-   <td role="rowheader"><p>Adobe Workfront Planning パッケージ*</p></td> 
-   <td> 
-<p>任意 </p> 
+<ul><li><p>任意のWorkfront パッケージ</p></li>
+And
+<li><p>Planning Plus パッケージ</p></li></ul>
+または：
+<ul><li><p>任意のワークフローパッケージ</p> </li>
+And
+<li><p>PrimeまたはUltimate パッケージの計画</p></li></ul>
 <p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
-   </td> 
- <tr> 
-   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
-   <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Adobe Workfront プラン*</p></td> 
-   <td><p> 標準</p>
-   <p>Workfront Planning は、従来のWorkfront ライセンスでは使用できません</p> 
-  </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
-</td> 
-  </tr> 
+   </td>
+
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p>
+   </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースへの権限の管理</a> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
-  </tr> 
+  </tr>  
 </tbody> 
 </table>
 
@@ -130,12 +110,15 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 ## 一元化されたレコードタイプの設定
 
 <!--this is a UI term; don't change the title of this section-->
+<!--IMPORTANT: not sure if we can call these centralized yet - checking with Lilit as of Sept 2; you might need to revert this to what the screen shot shows below?????-->
 
-ワークスペースマネージャーは、レコードタイプの作成または編集時に他のワークスペースに追加されるレコードタイプを設定できます。
+ワークスペースマネージャーは、レコードタイプを一元化されたレコードタイプに設定できます。 一元的なレコードタイプを他のワークスペースに追加できます。
 
-他のワークスペースへのレコードタイプの追加を設定する場合、ワークスペースマネージャーはレコードタイプとそのすべての情報を、管理するワークスペースの 1 つに読み込むことができます。
+ワークスペースマネージャーは、管理対象のワークスペースに、一元化されたレコードタイプを追加できます。 レコードタイプの元のフィールドも追加されます。
 
-レコードタイプの編集時に別のワークスペースへのレコードタイプの追加を設定するには、次の手順を実行します。
+ユーザーは、アクセス権を持つ任意のワークスペース（プライマリワークスペースを含む）から、一元化されたレコードタイプにレコードを追加して、そのレコードタイプを追加できます。 表示可能な権限を持つワークスペースのレコードのみを表示できます。
+
+レコードタイプの追加を一元的なレコードタイプとして設定するには：
 
 {{step1-to-planning}}
 
@@ -181,6 +164,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
      「Workspace」フィールドには、各レコードが作成されたワークスペースが表示されます。
 
      このフィールドは読み取り専用で、削除できません。
+1. （オプション）別のワークスペースに移動し、既存のレコードタイプを使用してレコードタイプを作成します。 上記の手順で有効にしたレコードタイプを選択します。
+
+   詳しくは、[ 既存のレコードタイプの追加 ](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md) を参照してください。
 
 ## 接続可能なレコードタイプの設定
 
@@ -222,6 +208,9 @@ Then for the second setting for cross-workspace connections, we'll need a simila
    * レコードタイプカードに、ワークスペース間接続アイコン ![ ワークスペース間接続アイコン ](assets/connect-from-other-workspaces-icon.png) ワークスペース間接続アイコン）が表示され、レコードタイプが設定で指定した任意のワークスペースから接続できることを示します。
 
    レコードタイプは、指定したワークスペースから接続できるようになります。
+1. （オプション）別のワークスペースに移動し、上記の手順でワークスペース間接続を有効にしたレコードタイプに接続を追加します。
+
+   詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 
 

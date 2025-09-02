@@ -4,10 +4,10 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 5fd51b6fad81eb54696784745989efee06b79c94
+source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 34%
+source-wordcount: '752'
+ht-degree: 30%
 
 ---
 
@@ -208,36 +208,59 @@ ht-degree: 34%
 </col> 
 <tbody> 
 <tr> 
-<td> 
-   <p> 製品</p> </td> 
-   <td> 
-   <p> Adobe Workfront</p>
-   </td> 
-  </tr>
-
-<tr> 
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
-<p>任意のAdobe Workfront ワークフローパッケージと任意のAdobe Workfront Planning パッケージ</p> 
+<ul><li><p>任意のWorkfront パッケージ</p></li>
+And
+<li><p>任意の計画パッケージ</p></li></ul>
+または
+<ul><li><p>任意のワークフローパッケージ</p></li>
+And
+<li><p>任意の計画パッケージ</p></li></ul>
    </td> </tr>
-<td role="rowheader"><p>Adobe Workfront Platform （**&#x200B;**&#x200B;これを呼び出すか、下部にリンクされている記事の一部にしますか？??**&#x200B;***）</p></td> 
-   <td> 
-<p>Workfront Planning にアクセスするには、組織のWorkfront インスタンスをAdobe Unified Experience にオンボーディングする必要があります。</p> 
-<p>詳しくは、<a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Workfront の Adobe Unified Experience</a> を参照してください。 </p> 
-   </td> 
-   </tr> 
-  </tr> 
+
+</tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
-   <td><p> 標準</p> 
+   <td><p>標準</p> 
   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>アクセスレベルの設定</p></td> 
-   <td> <p>Adobe Workfront Planning に対するアクセスレベルのコントロールはありません。</p>   
-</td> 
-  </tr> 
+   <td role="rowheader"><p>オブジェクト権限</p></td> 
+   <td>   <p>ワークスペースへの権限の管理</a> </p>  
+   <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
+  </tr>  
+</tbody> 
+</table>
+
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
+## Workfront Planning での一元化されたレコード・タイプのアクセス要件
+
+展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
 <tr> 
+   <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
+   <td>
+
+<ul><li><p>任意のWorkfrontまたはワークフローパッケージ</p></li>
+And
+<li><p>PrimeまたはUltimate Planning パッケージ</p></li></ul>
+   </td> </tr>
+
+</tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront プラン</p></td> 
+   <td><p>標準</p> 
+  </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"><p>オブジェクト権限</p></td> 
    <td>   <p>ワークスペースへの権限の管理</a> </p>  
    <p>システム管理者は、作成しなかったワークスペースも含め、すべてのワークスペースに対する権限を持っています。</p>  </td> 
@@ -248,14 +271,11 @@ ht-degree: 34%
 Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 
-
-
 ## ほとんどのシナリオプランナーに関するアクセス要件
 
 >[!NOTE]
 >
 >過去に会社がAdobe Scenario Planner を購入したことがある場合は、新しいバージョンに変更されています。 シナリオプランナーは購入できなくなりました。
-
 
 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -264,24 +284,61 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
  <col> 
  <tbody>
 
-<td> <p>[!DNL Adobe Workfront] パッケージ</p> </td> 
+<td> <p>Adobe Workfrontパッケージ</p> </td> 
    <td> 
    <p>Adobe WorkfrontUltimate</p>
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] ライセンス*</p> </td> 
+   <td> <p>Adobe Workfront プラン</p> </td> 
    <td> <p>ライト以上</p> 
    または
-   <p>[!UICONTROL Review] 以降</p> </td> 
+   <p>レビュー以上</p> </td> 
   </tr>
 
 <td><p>アクセスレベル設定</p> </td> 
-   <td> <p>[!UICONTROL Edit]アクセス権 [!DNL Scenario Planner]</p> </td> 
+   <td> <p>シナリオプランナーへのアクセス権の編集</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>オブジェクト権限 </p> </td> 
-   <td> <p>プランに対する[!UICONTROL Manage]権限</p>  </td> 
+   <td> <p>プランに対する権限の管理</p>  </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
+## ほとんどのWorkfront Goals のアクセス要件
+
+>[!NOTE]
+>
+>あなたの会社が過去にAdobe Workfront Goals を購入したことがある場合、それは祖父に育てられています。 Adobe Workfront Goals は購入できなくなりました。
+
+展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody>
+
+<td> <p>Adobe Workfrontパッケージ</p> </td> 
+   <td> 
+   <p>Adobe WorkfrontUltimate</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Adobe Workfront プラン</p> </td> 
+   <td> <p>投稿者以上</p> 
+   または
+   <p>要求者以上</p> </td> 
+  </tr>
+
+<td><p>アクセスレベル設定</p> </td> 
+   <td> <p>Goals への編集アクセス権</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td> <p>オブジェクト権限 </p> </td> 
+   <td> <p>目標に対する権限の管理</p>  </td> 
   </tr> 
  </tbody> 
 </table>
