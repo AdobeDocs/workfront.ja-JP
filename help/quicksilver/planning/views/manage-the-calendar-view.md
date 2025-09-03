@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 29%
@@ -117,6 +117,12 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 * You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
 </div>
+-->
+
+<!--move this bullet under the same div as above OR add a span or another div tag?? ??
+
+* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
 -->
 
 カレンダー表示を管理するには：
@@ -278,8 +284,13 @@ You can modify the row height of a calendar cell to increase or decrease the num
 
 The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
 
+>[!TIP]
+>
+>This setting is available only when viewing the calendar by month. 
+
+
 1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. Select a calendar view, then click **Row height** in the calendar's toolbar.    
+1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
 1. Choose from the following options: 
 
 <table>

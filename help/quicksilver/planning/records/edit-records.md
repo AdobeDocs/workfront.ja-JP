@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 976810c8cedc5d3c5afd8333fdbace4fe8d0ccda
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '2192'
-ht-degree: 44%
+source-wordcount: '2332'
+ht-degree: 41%
 
 ---
 
@@ -108,8 +108,16 @@ ht-degree: 44%
    * テーブルビューでのインライン。
 <!--* You can edit a record's dates from the following areas:
         * All areas listed above
-        * <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record in the timeline</span>
+        * <span class="preview">In a timeline view, by resizing the record bars</span>
+         * <span class="preview">In a calendar monthly view, by resizing the record bars</span>
         For information, see [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+<!-- when drag and drop is available replace the last 2 points with this:
+
+* <span class="preview">In a timeline view, by resizing the record bars or dragging and dropping the record bars in a new position</span>
+* <span class="preview">In a calendar view, by resizing the record bars when viewing it by month, or by dragging and dropping the record bars in a new position</span>
+    For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+-->
 
 * ユーザーがビューでレコードを編集すると、変更はすべてのビューで直ちに表示され、レコードページは他のすべてのユーザーに表示されます。
 
@@ -127,10 +135,16 @@ ht-degree: 44%
 
 次のエリアからレコードを編集できます。
 
-* [レコードタイプのテーブル表示](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [テーブル表示](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [タイムライン表示](#edit-a-record-in-the-timeline-view-of-a-record-type)
+* [カレンダー表示](#edit-a-record-in-the-calendar-view-of-a-record-type)
 * [ビューでのレコードのプレビュー](#edit-a-record-from-the-records-preview-in-a-view)
 * [レコードのページ](#edit-a-record-from-the-records-page)
 * [計画セクションのWorkfrontオブジェクト](#edit-a-record-from-a-workfront-object-in-the-planning-section)
+
+レコードの日付を編集するには、次の手順を実行します。
+
+* [ タイムラインおよびカレンダー表示でのレコードのバーのサイズ変更 ]
 
 ### レコードタイプのテーブルビューでレコードをインラインで編集
 
@@ -221,6 +235,39 @@ ht-degree: 44%
    >    キーボードショートカットを複数回連続して使用して、複数の変更を元に戻すことができます。
 
 1. （オプション）レコードにサムネールを追加します。詳しくは、[レコードへのサムネールの追加](/help/quicksilver/planning/records/add-thumbnails-to-records.md)を参照してください。
+
+
+### レコードタイプのタイムライン表示でのレコードの編集
+
+<!--add another step about drag and drop here when that is available-->
+
+1. タイムラインビューでレコードタイプ ページを開きます。 詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
+<!--
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+-->
+
+1. レコードのバーをクリックして、その詳細領域を開き、すべてのフィールドを編集します。
+
+   詳しくは、この記事の [ レコードのプレビューからレコードを編集する ](#edit-a-record-from-the-records-preview-in-a-view) の節を参照してください。
+
+### レコードタイプのカレンダー表示でのレコードの編集
+
+<!--add another step about drag and drop here when that is available-->
+
+1. カレンダー表示でレコードタイプ ページを開きます。 詳しくは、[ カレンダー表示の管理 ](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
+<!--
+1. (Conditional) Select **Month** in the upper-right dropdown menu.
+1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+
+    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
+-->
+
+1. レコードのバーをクリックして、その詳細領域を開き、すべてのフィールドを編集します。
+
+   詳しくは、この記事の [ レコードのプレビューからレコードを編集する ](#edit-a-record-from-the-records-preview-in-a-view) の節を参照してください。
 
 ### ビューでのレコードのプレビューからのレコードの編集
 

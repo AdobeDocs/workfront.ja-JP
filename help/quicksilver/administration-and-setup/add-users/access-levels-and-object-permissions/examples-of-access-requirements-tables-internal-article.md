@@ -4,9 +4,9 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
+source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
 workflow-type: tm+mt
-source-wordcount: '822'
+source-wordcount: '827'
 ht-degree: 31%
 
 ---
@@ -249,9 +249,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td>
 
-<ul><li><p>任意のWorkfrontまたはワークフローパッケージ</p></li>
-And
-<li><p>PrimeまたはUltimate Planning パッケージ</p></li></ul>
+<ul><li><p>任意のWorkfront パッケージ</p></li>
+  And
+  <li><p>Planning Plus パッケージ</p></li></ul>
+  または：
+  <ul><li><p>任意のワークフローパッケージ</p> </li>
+  And
+  <li><p>PrimeまたはUltimate パッケージの計画</p></li></ul>
    </td> </tr>
 
 </tr> 
