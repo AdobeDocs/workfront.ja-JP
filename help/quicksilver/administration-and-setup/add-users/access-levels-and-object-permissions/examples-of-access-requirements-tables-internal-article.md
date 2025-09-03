@@ -4,10 +4,10 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: 7d9e5ac168d759e9b657beb6513c994d91ab0145
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 31%
+source-wordcount: '1028'
+ht-degree: 25%
 
 ---
 
@@ -349,7 +349,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
-## リソース管理のアクセス要件の例
+## リソース管理のアクセス要件（複数のライセンスが利用可能な場合など。すべての RM パッケージが Any に変更される場合）
 
 展開すると、この記事の機能のアクセス要件が表示されます。
 
@@ -378,4 +378,45 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 </table>
 
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+
+<p>コネクタベース（従来）：作業の自動化と統合のためのWorkfront Fusion </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">製品</td> 
+   <td>
+   <p>組織がWorkfront Automation and Integration を含まない Select またはPrime Workfront パッケージを持っている場合は、Adobe Workfront Fusion を購入する必要があります。</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+このテーブルの情報について詳しくは、[ ドキュメントのアクセス要件 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation) を参照してください。
+
+Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
+
+## 高度なエンタープライズ制御
+
+グループ管理者に関する記事では、グループ管理者がWorkfrontで特定の機能を使用するために必要なパッケージに関して説明しています。
+
+[現在の記事へのリンク](/help/quicksilver/administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+
+### テーブルの 3 番目の脚注のテキストを更新しました
+
+&#42;&#42;&#42; これらのパッケージには、次に示す高度なエンタープライズ制御機能が含まれています。
+
+* ワークフローのPrime以降
+* Workfront Prime以降
+
+パッケージについて詳しくは、[Adobe Workfrontの価格とパッケージのページ ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
+
+高度なエンタープライズ制御：
+
+* グループレベルでプロジェクト、タスク、イシューの環境設定を行う
+* グループレベルでタイムシートおよび時間環境設定を設定する
+* グループレベルでのイベント通知メールの設定
+* グループ固有の承認プロセスの作成と管理
+* ライセンスの上限の割り当てとその使用率をホーム グループ別に表示します
+* サブグループへのグループ管理者の割り当て
+* グループ管理者にサブグループの作成を許可
 
