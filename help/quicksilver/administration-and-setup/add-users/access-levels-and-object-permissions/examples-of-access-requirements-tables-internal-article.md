@@ -4,10 +4,10 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: f56aa32e9fb40523be9caec3b01bedcae8f37dd0
+source-git-commit: faefa0fef0a0fd65f9eda91f52b8eea57353b5a7
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 30%
+source-wordcount: '822'
+ht-degree: 31%
 
 ---
 
@@ -344,4 +344,34 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 </table>
 
 詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+
+## リソース管理のアクセス要件の例
+
+展開すると、この記事の機能のアクセス要件が表示されます。
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>Adobe Workfront パッケージ</td> 
+   <td><p>任意</p></td>
+  </tr> 
+  <tr> 
+   <td>Adobe Workfront プラン</td> 
+   <td><p>1 つのプロジェクトには明るまたはそれ以上、複数のプロジェクトには標準</p>
+       <p>1 つのプロジェクトでレビュー以上、複数のプロジェクトで計画</p></td>
+  </tr> 
+  <tr> 
+   <td>アクセスレベル設定</td> 
+   <td> <p>リソース管理に対する表示以上のアクセス権</p> </td> 
+  </tr> 
+  <tr> 
+   <td>オブジェクト権限</td> 
+   <td> <p>プロジェクトおよびユーザーに対する表示権限 </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
