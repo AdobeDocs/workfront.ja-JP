@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 50c3cddbd11f2fe9d9bb30f66d8e690f88390f33
 workflow-type: tm+mt
-source-wordcount: '3430'
+source-wordcount: '3425'
 ht-degree: 69%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 69%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -75,7 +75,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
 
    ユーザーの編集ボックスが表示されます。
 
-1. 「**ユーザーを編集**」ボックスで、任意のセクションの情報を変更し、いつでも **変更を保存**<span class="preview"> または **保存**</span> をクリックします。
+1. 「**ユーザーを編集**」ボックスで、任意のセクションの情報を変更し、いつでも **保存** をクリックします。
 
 ### 個人情報
 
@@ -94,7 +94,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
 
   組織がAdobe Admin Consoleに移行されている場合、Workfrontでユーザーのメールアドレスを編集することはできません。 ユーザーのメールアドレスは、Adobe Admin Consoleで設定されます。
 
-* **パスワードのリセット** / <span class="preview">**パスワードの変更**</span>：ユーザーのパスワードをリセットするには、このリンクをクリックします。 別のユーザーのパスワードをリセットするには、まず自分のパスワード入力する必要があります。
+* **パスワードを変更**：ユーザーのパスワードをリセットするには、このボタンをクリックします。 別のユーザーのパスワードをリセットするには、まず自分のパスワード入力する必要があります。
 
   別のユーザーのパスワードをリセットするには、Workfront 管理者またはグループ管理者である必要があります。
 
@@ -121,7 +121,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
   >
   >グループ管理者で、ユーザー管理者（すべてのユーザー）権限をアクセスレベルで有効にしている場合は、すべてのユーザーの &lt;SSO Configuration> フィールドを編集できます。
 
-* **プロファイル写真**:**写真をアップロード**/<span class="preview">**新規をアップロード**</span> をクリックして、ユーザーのプロファイル写真を読み込みます。 JPG、GIF、PNG ファイルをアップロードできます。 ファイルサイズの上限は 4 MB です。
+* **プロファイル写真**: **新規アップロード** をクリックして、ユーザーのプロファイル写真を読み込みます。 JPG、GIF、PNG ファイルをアップロードできます。 ファイルサイズの上限は 4 MB です。
 
   プロファイル画像はユーザーのアバターとなり、ユーザー名が表示されている場所では、Workfront システム全体で表示されます。
 
@@ -148,7 +148,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
   >
   >このオプションは、プレビューおよびサンドボックス環境でのみ使用できます。メール通知は、実稼動環境でデフォルトで有効になっています。
 
-<!--* **Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **自分に割り当てた作業を自分の「作業割り当て」タブに送信する**：このオプションを選択すると、ユーザーが自分に割り当てた作業は、新規ではなく、自動的に処理中ステータスに設定されます。<!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **ドキュメントのアップロード中に自動的にプルーフを作成する**：ユーザーがアップロードしたドキュメントでプルーフをすぐに生成する場合は、このオプションをオンにします。
 
@@ -162,7 +162,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
 ### アクセス
 
-* **アクティブ** / <span class="preview">**ユーザーがアクティブ**</span>：ユーザーがアクティブであることを示すには、このオプションを有効にします。 アクティブなユーザーは Workfront のライセンスを使用しています。このフィールドを無効にすると、ユーザーはアクティベートが解除され、Workfrontにログインできなくなります。
+* **ユーザーがアクティブ**：ユーザーがアクティブであることを示すには、このオプションを有効にします。 アクティブなユーザーは Workfront のライセンスを使用しています。このフィールドを無効にすると、ユーザーはアクティベートが解除され、Workfrontにログインできなくなります。
 
 * **アクセスレベル**：このユーザーに割り当てるアクセスレベルを選択します。
 
@@ -199,7 +199,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 * **直属の部下**: ユーザーに会社を指定した場合は、ユーザーの直属の部下も指定できます。 1 人のユーザーが複数の部下を持つことができます。先にユーザーが会社に関連付けられていないと、このフィールドは表示されません。
 * **ホームチーム**：ユーザーのホームチームを指定します。ユーザーが持つことができるホームチームは 1 つだけです。ホームチームは、レイアウトテンプレートを割り当てる場合や、ユーザーに割り当てられたタスクやイシューに対して「作業をする」ボタンを定義する場合に重要になります。
 * **他のチーム**：ユーザーは複数のチームに属することができます。ユーザーは、ホームエリア内のチームのいずれかに割り当てられた作業アイテムを表示できます。
-* **ホームグループ**/<span class="preview">**現在のホームグループ**</span>：ユーザーを割り当てる適切なグループを選択します。 その結果、ユーザーはグループと共有されているオブジェクトにアクセスできるようになります。また、レイアウトテンプレートをユーザーのホームグループと共有することもできます。
+* **現在のホームグループ**：ユーザーを割り当てる適切なグループを選択します。 その結果、ユーザーはグループと共有されているオブジェクトにアクセスできるようになります。また、レイアウトテンプレートをユーザーのホームグループと共有することもできます。
 
   必須フィールドです。すべてのユーザーは、ホームグループに関連付ける必要があります。選択しない場合、ホームグループが新しいユーザーのホームグループとして割り当てられます。
 
@@ -237,8 +237,8 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
   >
   >「作業時間」の値を 1 に設定すると、ユーザーがフルタイム当量の時間をプロジェクト関連の作業に使用できることを示します。
 
-* **アクティベート解除のスケジュール** / <span class="preview">**アクティベート解除日を設定**</span>：このユーザーを特定の日付に特定の時間にアクティベート解除するようにスケジュールする場合は、このボックスをオンにする/ <span class="preview"> このボタンをクリック </span> します。
-* **予定されているアクティベート解除日** / <span class="preview">**アクティベート解除日**</span>: ユーザーがアクティベートを解除された日時。 ユーザーを非アクティブ化するスケジュールについて詳しくは、[ ユーザーの非アクティブ化または再アクティブ化 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) の「[ 非アクティブ化するユーザーのスケジュール ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)」を参照してください。
+* **アクティベート解除日を設定**：このユーザーを特定の日付および時間にアクティベート解除するようにスケジュールする場合に、このボタンをクリックします。
+* **アクティベート解除日**: ユーザーがアクティベート解除された日時。 ユーザーを非アクティブ化するスケジュールについて詳しくは、[ ユーザーの非アクティブ化または再アクティブ化 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) の「[ 非アクティブ化するユーザーのスケジュール ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)」を参照してください。
 * **プライマリの役割**：ユーザーが Workfront で果たすことができる主要担当業務です。ユーザーが割り当てられているタスクとイシューも、このジョブの役割に割り当てられます。リソース管理には、担当業務が不可欠です。このフィールドを更新できるのは、管理ユーザーアクセス権を持つ標準ライセンスまたはプランライセンスがある場合、またはWorkfront管理者の場合のみです。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、[ユーザーへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
   リストには、アクティブな担当業務のみが表示されます。
@@ -256,11 +256,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
   その他の役割の FTE 可用性が 0%の場合、ユーザーがこれらのロールのタスクに割り当てられていない限り、リソースプランナーには表示されません。
 
-  <span class="preview"> プレビュー中：</span>
   ![ ユーザーの役割と FTE](assets/user-roles-fte-2025.png)
-
-  実稼動環境で：
-  ![ ユーザーの役割と FTE](assets/user-settings-roles-and-dte-boxes-rp-story.png)
 
   すべての役割における **FTE の空き時間の割合**&#x200B;の合計を 100％にする必要があります。FTE の可用性の各割合では、リソースプランナーの各ユーザーの役割における空き時間が計算されます。ユーザーごとの各役割の空き時間は、それぞれのユーザーの空き時間に左右されます。
 
@@ -328,11 +324,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
   一部の日付は自動的に追加されます。例えば、請求レート 1 に終了日がなく、開始日が 2023年5月1日の請求レート 2 を追加すると、ギャップが生じないように、請求レート 1 の終了日に 2023年4月30日が追加されます。
 
-  <span class="preview"> プレビュー中：</span>
   ![ ユーザーコストと請求レート ](assets/user-cost-billing-rates-2025.png)
-
-  実稼動環境で：
-  ![ ユーザーコストと請求レート ](assets/edit-user-cost-billing-rate-2.png)
 
 ### カスタムフォーム
 

@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
-source-git-commit: c7b91828e5a4f961fc48e857eb63756b9b38f664
+source-git-commit: 1a81c1becfc0866b92dbd1358af23671e5302266
 workflow-type: tm+mt
-source-wordcount: '2625'
+source-wordcount: '2610'
 ht-degree: 64%
 
 ---
 
 # ユーザープロファイルの一括編集
-
-{{highlighted-preview}}
 
 <!--
 
@@ -25,7 +23,7 @@ ht-degree: 64%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/jp/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -77,7 +75,7 @@ ht-degree: 64%
 
 1. 複数のユーザーを選択し、「**編集**」アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
-1. 「**ユーザーを編集**」ボックスで、任意のセクションの情報を変更し、いつでも **変更を保存**<span class="preview"> または **保存**</span> をクリックします。
+1. 「**ユーザーを編集**」ボックスで、任意のセクションの情報を変更し、いつでも **保存** をクリックします。
 
 ### 環境設定
 
@@ -101,7 +99,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
 ### アクセス
 
-* **アクティブ**/<span class="preview">**ユーザーがアクティブ**</span>：ユーザーがアクティブであることを示すには、このオプションを有効にします。 アクティブなユーザーは Workfront のライセンスを使用しています。このフィールドを無効にすると、ユーザーはアクティベート解除され、Workfrontにログインできなくなります。
+* **ユーザーがアクティブ**：ユーザーがアクティブであることを示すには、このオプションを有効にします。 アクティブなユーザーは Workfront のライセンスを使用しています。このフィールドを無効にすると、ユーザーはアクティベート解除され、Workfrontにログインできなくなります。
 
 * **アクセスレベル**：これらのユーザーに割り当てるアクセスレベルを選択します。 選択したすべてのユーザーが同じアクセスレベルになります。
 
@@ -136,7 +134,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 * **会社**：ユーザーの会社。ユーザーは、1 つの会社にのみ関連付けることができます。会社をユーザーに関連付ける前に、会社を作成する必要があります。アクティブな会社のみがリストに表示されます。会社の作成について詳しくは、[会社の作成と編集](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md)を参照してください。
 * **ホームチーム**：ユーザーのホームチームを指定します。ホームチームは 1 つのみです。
 * **その他のチーム**：ユーザーは複数のチームに属することができます。
-* **ホームグループ**/<span class="preview">**現在のホームグループ**</span>：ユーザーを割り当てる適切なグループを選択します。 これにより、ユーザーは、グループと共有されているオブジェクトにアクセスできるようになります。 また、レイアウトテンプレートをホームグループと共有することもできます。
+* **現在のホームグループ**：ユーザーを割り当てる適切なグループを選択します。 これにより、ユーザーは、グループと共有されているオブジェクトにアクセスできるようになります。 また、レイアウトテンプレートをホームグループと共有することもできます。
 
   必須フィールドです。すべてのユーザーは、ホームグループに関連付ける必要があります。選択しない場合、ホームグループがホームグループとして割り当てられます。
 
@@ -174,8 +172,8 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
   >
   >「作業時間」の値を 1 に設定すると、ユーザーがフルタイム当量の時間をプロジェクト関連の作業に使用できることを示します。
 
-* **アクティベート解除のスケジュール** / <span class="preview">**アクティベート解除日を設定**</span>：これらのユーザーを特定の日付に特定の時間にアクティベート解除するようにスケジュールする場合は、このボックスをオンにする/ <span class="preview"> このボタンをクリック </span> します。
-* **予定されているアクティベート解除日** / <span class="preview">**アクティベート解除日**</span>: ユーザーがアクティベート解除された日時。 ユーザーを非アクティブ化するスケジュールについて詳しくは、[ ユーザーの非アクティブ化または再アクティブ化 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) の「[ 非アクティブ化するユーザーのスケジュール ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)」を参照してください。
+* **アクティベート解除日を設定**：これらのユーザーを特定の日付に、特定の時間にアクティベート解除するようにスケジュールする場合は、このボタンをクリックします。
+* **アクティベート解除日**: ユーザーがアクティベート解除された日時。 ユーザーを非アクティブ化するスケジュールについて詳しくは、[ ユーザーの非アクティブ化または再アクティブ化 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) の「[ 非アクティブ化するユーザーのスケジュール ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)」を参照してください。
 * **プライマリの役割**：これは、Workfrontでユーザーが果たすことができる主要な担当業務です。 ユーザーが割り当てられているすべてのタスクとイシューも、この担当業務に割り当てられます。 リソース管理には、担当業務が不可欠です。このフィールドを更新できるのは、管理ユーザーアクセス権を持つ標準ライセンスまたはプランライセンスがある場合、またはWorkfront管理者の場合のみです。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、[ユーザーへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
   リストには、アクティブな担当業務のみが表示されます。
