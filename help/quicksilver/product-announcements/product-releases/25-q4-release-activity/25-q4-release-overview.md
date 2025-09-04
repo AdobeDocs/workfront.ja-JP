@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: ab70d832c7c03f116d68f8bad394f44f5ecca8cf
+source-git-commit: 7eef99ed854beb8b737238ff9c08313e057ef5ac
 workflow-type: tm+mt
-source-wordcount: '1901'
+source-wordcount: '1951'
 ht-degree: 17%
 
 ---
@@ -39,6 +39,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront の機能強化
 
 * [管理者機能の強化](#administrator-enhancements)
+* [ダッシュボードの機能強化](#dashboards)
 * [ドキュメントとプルーフの機能強化](#document-and-proofing-enhancements)
 * [ホームの機能強化](#home-enhancements)
 * [プロジェクトの強化](#project-enhancements)
@@ -93,6 +94,27 @@ The <add release> release webinar will be held on <date>. You can [register for 
   </tbody>
 </table>
 
+### ダッシュボードの機能強化
+
+<table style="table-layout:auto">
+  <tbody>
+   <tr>
+        <td><strong>機能</strong>
+        </td>
+        <td><strong>プレビュー</strong></td>
+        <td><strong>迅速リリース</strong></td>
+        <td><strong>四半期ごと</strong></td>
+    </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-dashboards.md" class="MCXref xref" xrefformat="{para}"> 新しいキャンバスダッシュボードのオープンベータ版 </a>
+            <p>新しいキャンバスダッシュボード機能を使用すると、キャンバスにレポートタイプを追加することで、Adobe Workfront データを簡単に視覚化できます。このレポートタイプは、サイズ変更、ドラッグ&amp;ドロップなど、多くの柔軟なレイアウトオプションを提供します。</p>
+        </td>
+        <td>2025年8月26日（PT）</td>
+        <td>2025年8月26日（PT）</td>
+        <td>2025年8月26日（PT）</td>
+    </tr> 
+</table>
 
 ### ドキュメントとプルーフの機能強化
 
@@ -398,7 +420,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 
