@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 31cc110fb4fba38a530406acc1f42a89159e029b
+source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
 workflow-type: tm+mt
-source-wordcount: '7469'
+source-wordcount: '7542'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,13 @@ ht-degree: 2%
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
 ## 管理と設定
+
+### 「新規」および「スコアカードをコピー」ボックスのインタフェースの更新
+
+**プレビューリリース：2025 年 9 月 4 日（PT）、実稼動リリース：2025 年 9 月 11 日（PT）**
+
+「新規」および「スコアカードをコピー」ボックスのルックアンドフィールを、アプリケーションの他の領域のデザインと一致するように更新しました。 Workfrontの設定エリアでスコアカードを作成またはコピーする際に、更新されたデザインを確認できます。\
+詳しくは、[ スコアカードの作成 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md) を参照してください。
 
 ### グループ内のレイアウトテンプレートリストのインターフェイスの更新
 
@@ -217,7 +224,7 @@ Portfolioの編集ボックスでポートフォリオを編集する際のイ�
 
 >[!NOTE]
 >
->プレビューおよび実稼動から一時的に削除
+>プレビューで利用可能で、2025 年 9 月 4 日（PT）以降の段階的なロールアウトで実稼動環境で利用できるようになります。
 
 「時間」セクションでプロジェクト、タスク、またはイシューの時間を記録する際の「ログ時間」ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
 
