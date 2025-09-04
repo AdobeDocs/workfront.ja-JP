@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 420ddfa1f12f21332f460f9dc5fd1393cfc6e435
+source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
 workflow-type: tm+mt
-source-wordcount: '1822'
+source-wordcount: '1862'
 ht-degree: 3%
 
 ---
@@ -68,14 +68,18 @@ AI アシスタントの詳細については、「[AI アシスタントの概�
 
 プロジェクトの正常性を利用するには、組織で AI アシスタントを有効にする必要があります。
 
-組織の AI アシスタントを有効にするには、次のすべてに該当する必要があります。
+組織の AI アシスタントとプロジェクトの正常性を有効にするには、次のすべてを適用する必要があります。
 
 * 組織がAdobe IMS（Identity Management System）に移行している必要があります。
+* 組織には Select、Prime、UltimateのいずれかのWorkfront プランが必要です
 * Adobe統合エクスペリエンスを有効にする必要があります。
 * Adobeには、Adobe生成 AI 契約がファイルに署名済みである必要があります。
 * Workfront管理者は、組織内のユーザーに対して AI アシスタントを有効にする必要があります。 AI アシスタントはアクセスレベルで有効になります。
+* 設定/環境設定の AI 環境設定セクションで、「AI を有効にする」オプションと「プロジェクトの正常性」オプションの両方を選択する必要があります。
 
-詳しくは、[AI アシスタントの概要 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) を参照してください。
+  ![AI 環境設定セクション ](assets/ai-preferences.png)
+
+詳しくは、[AI アシスタントの概要 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md) および [ システム環境設定の設定 ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) を参照してください。
 
 ## AI アシスタント プロンプト リスト
 
