@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2332'
-ht-degree: 41%
+source-wordcount: '2688'
+ht-degree: 37%
 
 ---
 
 
 # レコードの編集
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -242,12 +242,10 @@ ht-degree: 41%
 <!--add another step about drag and drop here when that is available-->
 
 1. タイムラインビューでレコードタイプ ページを開きます。 詳しくは、[タイムラインビューの管理](/help/quicksilver/planning/views/manage-the-timeline-view.md)を参照してください。
-<!--
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
 
-    <span class="preview">![Left-end bar on timeline view to resize](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+1. <span class="preview"> レコードのバーの端にポインタを合わせ、クリックして、余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。</span>
 
--->
+   <span class="preview">![ サイズを変更するタイムラインビューの左端のバー ](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
 1. レコードのバーをクリックして、その詳細領域を開き、すべてのフィールドを編集します。
 
@@ -258,12 +256,10 @@ ht-degree: 41%
 <!--add another step about drag and drop here when that is available-->
 
 1. カレンダー表示でレコードタイプ ページを開きます。 詳しくは、[ カレンダー表示の管理 ](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
-<!--
-1. (Conditional) Select **Month** in the upper-right dropdown menu.
-1. <span class="preview">Hover over the ends of a record's bar, click, drag and drop its margin to another date. This automatically updates either the start or end date of the record.</span>  
+1. （条件付き）右上のドロップダウンメニューで「**月**」を選択します。
+1. <span class="preview"> レコードのバーの端にポインタを合わせ、クリックして、余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。</span>
 
-    <span class="preview">![Left-end bar on calendar view to resize](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
--->
+   <span class="preview">![ サイズを変更するカレンダー表示の左端のバー ](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
 1. レコードのバーをクリックして、その詳細領域を開き、すべてのフィールドを編集します。
 
@@ -389,39 +385,34 @@ ht-degree: 41%
 
 詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
 
-
-<!--
-
 <div class="preview">
 
-## Add new choices to an existing select field when editing records in the table view
+## 単一選択または複数選択フィールドの情報の編集
 
-You can add new choices to an existing single- or multi-select field when editing records in the table view. 
+<!--some of this information is also available in Edit fields article - update both when necessary-->
+
+単一選択または複数選択のフィールドで情報を編集する場合、フィールドを編集しなくても、フィールドに新しい選択肢を追加できます。
 
 >[!IMPORTANT]
 >
->The functionality described in this section is available only in the table view. It is not available in any other areas where single- or multi-select fields display.
+>この節で説明する機能は、テーブル表示でのみ使用できます。 単一選択フィールドまたは複数選択フィールドが表示される他の領域では使用できません。
 
+**例**
 
-**EXAMPLE**
+「ステータス」という単一選択フィールドに「新規」および「クローズ」の選択肢があり、「処理中」ステータスの選択肢を追加するとします。 次のいずれかの操作を行って、選択肢を追加できます。
 
-You might have a single-select field called Status that has the choices New and Closed, and you want to add a choice for an In progress status. You can add the choice by doing one of the following things:
+* フィールドを編集しています。 詳しくは、[ フィールドの編集 ](/help/quicksilver/planning/fields/edit-fields.md) を参照してください。
+* テーブル表示でレコードを編集する際に、新しいオプションを追加します（下図を参照）。
 
-* Editing the field. For information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
-* Adding a new option while editing the record in the table view, as described below. 
+レコードの編集時に既存の選択フィールドに新しい選択肢を追加するには、次の手順を実行します。
 
+1. レコードタイプのページに移動し、テーブル表示を開きます。
+1. 選択肢を追加する単一選択フィールドまたは複数選択フィールドを、新しい列としてテーブル ビューに追加します。 詳しくは、[フィールドの作成](/help/quicksilver/planning/fields/create-fields.md)を参照してください。
+1. フィールドのセルをダブルクリックして、フィールドをインラインで編集し始めます。
+1. 追加する選択肢の名前を入力し、[**選択肢の追加**] をクリックします。
 
-To add a new choice to an existing select field when editing a record: 
+   ![ テーブル表示の単一選択フィールドに選択肢を追加 ](assets/add-choice-in-table-view-for-single-select-field.png)
 
-1. Go to a record type page and open the table view. 
-1. Add the single- or multi-select field that you would like to add a choice to in the table view as a new column. For information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
-1. Start editing the field inline by double-clicking the cell for the field. 
-1. Type the name of the choice you want to add, then click **Add choice**.
-
-    ![Add choice in single-select field in table view](assets/add-choice-in-table-view-for-single-select-field.png)
-
-    The new choice is added immediately to the single-select field. 
+   新しい選択肢が単一選択フィールドにすぐに追加されます。
 
 </div>
-
--->

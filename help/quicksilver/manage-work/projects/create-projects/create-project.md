@@ -6,10 +6,10 @@ description: プロジェクトは、Adobe Workfront における作業の大き
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1390'
-ht-degree: 84%
+source-wordcount: '1263'
+ht-degree: 90%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 84%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 プロジェクトは、Adobe Workfront で行う必要がある大量の作業を表します。
 
@@ -116,16 +116,11 @@ Workfront でプロジェクトを作成するには、次のような方法が�
 
 * Adobe Workfront シナリオプランナーのシナリオからイニシアチブを公開します。
 
-  シナリオプランナーには、次のいずれかが必要です。
+  Workfront のシナリオプランナーについて詳しくは、[シナリオプランナーの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
-   * 現在のWorkfront ライセンス構造の追加ライセンス。
-   * 新しいUltimate ライセンス構造のWorkfront ライセンス。
+  公開したイニシアチブからプロジェクトを作成する方法について詳しくは、[シナリオプランナでイニシアチブを公開してプロジェクトを更新または作成する](../../../scenario-planner/publish-scenarios-update-projects.md)を参照してください。
 
-  Workfront シナリオプランナについては、[シナリオプランナの概要](../../../scenario-planner/scenario-planner-overview.md)を参照してください。公開したイニシアチブからプロジェクトを作成する方法について詳しくは、[シナリオプランナでイニシアチブを公開してプロジェクトを更新または作成する](../../../scenario-planner/publish-scenarios-update-projects.md)を参照してください。
-
-* Workfront Planning のレコードタイプからプロジェクトを接続するときに追加します。 実稼動環境では、Workfront Planning からテンプレートを持たないプロジェクトのみを作成できます。 <span class="preview"> プレビュー環境のテンプレートを使用してプロジェクトを作成できます。</span>
-
-  Workfront Planning 用に新しいWorkfront ライセンスと追加のWorkfront Planning ライセンスが必要です。
+* Workfront Planning のレコードタイプからプロジェクトを接続するときに追加します。
 
   Workfront Planning へのアクセスについて詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 

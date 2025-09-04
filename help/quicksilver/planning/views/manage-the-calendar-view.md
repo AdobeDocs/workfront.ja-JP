@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 29%
+source-wordcount: '1860'
+ht-degree: 27%
 
 ---
 
@@ -111,19 +111,12 @@ Adobe Workfrontのプランニングビューとその管理方法について�
    * 開始日または終了日に値がない場合、レコードは 1 日のイベントとして表示されます
    * 開始日が終了日より後の場合、レコードはカレンダーに表示されません。
 
-<!--
 <div class="preview">
 
-* You can create and edit records in the calendar view. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).
+* カレンダー表示でレコードを作成および編集できます。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+* カレンダーマンスビューのレコードのバーのサイズを変更するには、をクリックし、新しい位置にレコードの余白をドラッグ&amp;ドロップします。 レコードのバーのサイズを変更すると、開始日と終了日が直ちに更新されます。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 </div>
--->
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the calendar monthly view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 カレンダー表示を管理するには：
 
@@ -151,7 +144,7 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)
-     <!--<span class="preview">[Row height](#modify-row-height)</span>-->
+   * <span class="preview">[ 行の高さ ](#modify-row-height)</span>
    * [設定](#edit-the-calendar-view-settings)
 
    <!--* [Grouping](#add-grouping)-->
@@ -275,80 +268,72 @@ Adobe Workfrontのプランニングビューとその管理方法について�
 1. （任意）「**x**」アイコンをクリックして、フィルター条件を削除します。
 1. （任意）「**フィルター**」をクリックして、「フィルター」ボックスを閉じます。<!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!--
 <span class="preview">
 
-### Modify row height
+### 行の高さを修正
 
-You can modify the row height of a calendar cell to increase or decrease the number of record bars you display in each cell. 
+カレンダーセルの行の高さを変更して、各セルに表示するレコードバーの数を増減させることができます。
 
-The number of records displayed in the calendar varies depending on how many fields you display on the records' bars. 
+カレンダーに表示されるレコードの数は、レコードのバーに表示するフィールドの数によって異なります。
 
 >[!TIP]
 >
->This setting is available only when viewing the calendar by month. 
+>この設定は、月別にカレンダーを表示する場合にのみ使用できます。
 
 
-1. Create a calendar view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
-1. (Conditional) Display the calendar view by month, then click **Row height** in the calendar's toolbar.    
-1. Choose from the following options: 
+1. 「レコードビューの管理 [ の記事の説明に従って、レコードタイプのページのカレンダービューを作成 ](/help/quicksilver/planning/views/manage-record-views.md) ます。
+1. （条件付き）カレンダー表示を月別に表示し、カレンダーのツールバーの **行の高さ** をクリックします。
+1. 次のオプションから選択します。
 
-<table>
-<thead>
-<tr>
-    <th><b>Row height option</b></th>
-    <th><b>Number of records</b></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-    <td>Short</td>
-    <td><p>Contains:</p>
+   <table>
+    <thead>
+    <tr>
+        <th><b>行の高さオプション</b></th>
+        <th><b>デフォルトの最大レコード数</b></th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>低い</td>
+        <td><p>含む：</p>
 
-<ul><li>2 records displaying 1 field</li>
-<li>1 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr><td>Standard</td>
-    <td><p>Contains:</p>
+   <ul><li>1 つのフィールドを表示する 2 つのレコード</li>
+    <li>1 件のレコードに複数のフィールドが表示されています</li></ul>
+        </td>
+    </tr>
+    <tr><td>標準</td>
+        <td><p>含む：</p>
 
-<ul><li>4 records displaying 1 field</li>
-<li>2 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Medium</td>
-    <td><p>Contains:</p>
+   <ul><li>1 つのフィールドを表示する 4 つのレコード</li>
+    <li>2 件のレコードに複数のフィールドが表示されています</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>中</td>
+        <td><p>含む：</p>
 
-<ul><li>8 records displaying 1 field</li>
-<li>4 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Tall</td>
-    <td><p>Contains:</p>
+   <ul><li>1 つのフィールドを表示する 8 件のレコード</li>
+    <li>4 件のレコードに複数のフィールドが表示されています</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>高い</td>
+        <td><p>含む：</p>
 
-<ul><li>12 records displaying 1 field</li>
-<li>6 record displaying more than 1 field</li></ul>
-    </td>
-</tr>
-<tr>
-    <td>Fit to content</td>
-    <td><p>All records are visible, up to 500 records</p></td>
-</tr>
-</tbody>
-</table> 
+   <ul><li>1 つのフィールドを表示する 12 件のレコード</li>
+    <li>6 件のレコードに複数のフィールドが表示されています</li></ul>
+        </td>
+    </tr>
+    <tr>
+        <td>コンテンツに合わせる</td>
+        <td><p>すべてのレコード（最大 500 件）が表示されます</p></td>
+    </tr>
+    </tbody>
+    </table>
 
-1. (Optional) Click **Show more** if there are records that are not visible in the calendar. 
-
-    >[!TIP]
-    >
-    >The **Show more** option displays when you choose Fit to content and there are are more than 500 records in one time frame.
-
+1. （任意）カレンダーに表示されていないレコードがある場合は、「**詳細**」をクリックします。
 
 </span>
-
--->
 
 ### カレンダー表示設定の編集
 

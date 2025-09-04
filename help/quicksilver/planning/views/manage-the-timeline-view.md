@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '3872'
+source-wordcount: '3910'
 ht-degree: 39%
 
 ---
@@ -117,14 +117,9 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 <div class="preview">
 
 * タイムラインビューでレコードを作成および編集できます。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+* タイムラインビューでレコードのバーのサイズを変更するには、レコードの余白をクリックし、新しい位置にドラッグ&amp;ドロップします。 レコードのバーのサイズを変更すると、開始日と終了日が直ちに更新されます。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 </div>
-
-<!--move this bullet under the same div as above OR add a span or another div tag?? ??
-
-* You can resize the records' bars in the timeline view by clicking, then dragging and dropping their margins in a new position. Resizing the records' bars updates their start and end dates immediately. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
--->
 
 タイムラインビューを管理するには：
 

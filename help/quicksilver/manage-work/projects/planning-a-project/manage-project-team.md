@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: bb2479b936a9064a4df34ac3e840dd78cae297b6
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1193'
-ht-degree: 25%
+source-wordcount: '1399'
+ht-degree: 36%
 
 ---
 
@@ -39,7 +39,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 所有者
 * スポンサー
 * タスクに割り当てられたユーザー
-* 課題に割り当てられたユーザー (プロジェクトのみ)
+* イシューに割り当てられたユーザー（プロジェクトの場合のみ）
 
 プロジェクトチームのユーザーは、プロジェクトに関する通知を受け取ります。 詳しくは、[ イベント通知タイプ ](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
 
@@ -47,7 +47,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## アクセス要件
 
-+++ アクセス要件表示拡張。 
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -107,41 +107,41 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator.-->
 
-## Add users to a Project Team
+## プロジェクトチームへのユーザーの追加
 
-When you add users to the project team, they gain View permissions on the project and the tasks, issues, and documents of the project. For more information, see the article [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+プロジェクトチームに追加されたユーザーには、プロジェクトおよびプロジェクトのタスク、イシュー、ドキュメントに対する表示権限が付与されます。詳しくは、[プロジェクトチームの概要](../../../manage-work/projects/planning-a-project/project-team-overview.md)を参照してください。
 
 >[!TIP]
 >
->Users on the Project Team are not automatically added to the resource management tools for the project.
+>プロジェクトチームのユーザーは、プロジェクトのリソース管理ツールに自動的には追加されません。
 
-You can add users to the project team in the following ways:
+次の方法でプロジェクトチームにユーザーを追加できます。
 
-* [Automatically add users to a Project Team](#automatically-add-users-to-a-project-team) 
-* [Manually add users to a Project Team](#manually-add-users-to-a-project-team)
+* [プロジェクトチームへのユーザーの自動追加](#automatically-add-users-to-a-project-team)
+* [プロジェクトチームへのユーザーの手動追加](#manually-add-users-to-a-project-team)
 
-### Automatically add users to a Project Team {#automatically-add-users-to-a-project-team}
+### プロジェクトチームへのユーザーの自動追加 {#automatically-add-users-to-a-project-team}
 
-The users that fulfill the following roles on the project are automatically added to the project team and appear  in the People section when the project is created:
+プロジェクトで以下の役割を果たすユーザーは、プロジェクトチームに自動的に追加され、プロジェクトの作成時に「ユーザー」セクションに表示されます。
 
-* The creator of the project
-* The project owner
-* The project sponsor
+* プロジェクトの作成者
+* プロジェクト所有者
+* プロジェクトスポンサー
 
-Users are also automatically added to the project team when they are assigned to the following:
+次の項目に割り当てられたユーザーは、プロジェクトチームにも自動的に追加されます。
 
-* Tasks
-* Issues
+* タスク
+* イシュー
 
-### Manually add users to a Project Team {#manually-add-users-to-a-project-team}
+### プロジェクトチームへのユーザーの手動追加 {#manually-add-users-to-a-project-team}
 
-If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
+プロジェクト上で何の役割も果たさないユーザーが、プロジェクトの期間中に特定の更新や変更に関する通知を受け取りたい場合は、手動でプロジェクトチームに追加できます。
 
- For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
+プロジェクトチームのユーザーに対して有効にできる通知の詳細については、[イベント通知のタイプ](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)を参照してください。
 
- <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
+<!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
 >[!IMPORTANT]
 >
@@ -161,7 +161,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. 「**ユーザーを追加**」をクリックします。
 
-   「チームへの **追加ユーザープロジェクト** ボックスが表示されます。
+   **プロジェクトチームにユーザーを追加** ボックスが表示されます。
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
@@ -188,12 +188,12 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. リストで 1 人または複数のユーザーを選択し、**削除** アイコン ![ 削除アイコン ](assets/remove-icon.png) をクリックして、チームから削除します。
 
-1. **Yes, 削除 Selected users**」をクリックして、ユーザーを確認してから削除します。
+1. **はい、選択したユーザーを削除** をクリックして、ユーザーを確認して削除します。
 
-   ユーザーは削除され、未完了の作業項目から割り当て解除されます。
+   未完了の作業アイテムからユーザーが削除され、割り当て解除される。
 
-   詳細については、この記事の [プロジェクト チームからユーザーを削除する際の考慮事項](#considerations-for-removing-users-from-a-project-team) セクションを参照してください。
-1. (オプション)このプロジェクトの更新をユーザーに送信するには、&lbrack; **更新すべてを選択** をクリックして、チーム上のすべてのユーザーに更新を送信します
+   詳細については、この記事の [ プロジェクトチームからユーザーを削除する際の考慮事項 ](#considerations-for-removing-users-from-a-project-team) の節を参照してください。
+1. （任意）このプロジェクトの更新をユーザーに送信するには、[**すべて更新**] をクリックしてチームの全員に更新を送信します
 
    または
 
@@ -206,13 +206,13 @@ If users that don't fulfill any role on the project want to be notified about ce
    <!--Old UI for projects but the text above the comment box is right and matches the functionality):
    ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
 
-   [ **送信 Update to ユーザー** ] ボックスが開きます。
+   **ユーザーに更新を送信** ボックスが開きます。
 
 1. 次のいずれかの操作を行います。
 
-   * 選択したユーザーの更新プログラム追加。
-   * カギのアイコンをクリックして、更新を会社内のユーザーに対して非公開にします。
-   * 追加のユーザーにタグ付けして、同じ更新プログラムを受け取ります。
+   * 選択したユーザーの更新を追加します。
+   * ロックアイコンをクリックして、会社内のユーザーに対して更新を非公開にします。
+   * 同じアップデートを受け取るように追加のユーザーにタグを付けます。
    * 「**送信**」をクリックします。
 
    更新内容がプロジェクトの「**更新**」セクションに追加され、選択したすべてのユーザーがタグ付きユーザーとして表示されます。
@@ -223,7 +223,7 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    または
 
-   ユーザを選択し、 **書き出し** アイコンをクリックして、特定のユーザのみを書き出します。
+   ユーザーを選択して「**書き出し** アイコンをクリックし、特定のユーザーのみを書き出します。
 
 ## テンプレートでの人物の管理
 
@@ -239,9 +239,9 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 1. **はい、選択したユーザーを削除** をクリックして、ユーザーを確認して削除します。
 
-   ユーザーはテンプレートタスクから削除され、割り当て解除されます。
+   ユーザーがテンプレートタスクから削除され、割り当て解除されます。
 
-   詳細については、この記事の [プロジェクト チームからユーザーを削除する際の考慮事項](#considerations-for-removing-users-from-a-project-team) セクションを参照してください。
+   詳細については、この記事の [ プロジェクトチームからユーザーを削除する際の考慮事項 ](#considerations-for-removing-users-from-a-project-team) の節を参照してください。
 
 1. （任意）ユーザーに更新を送信するには、「**すべて更新**」をクリックして、リストのすべてのユーザーに更新を送信します
 
@@ -251,22 +251,22 @@ If users that don't fulfill any role on the project want to be notified about ce
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
-   ![送信テンプレートのユーザーボックスに更新します](assets/send-update-to-user-on-template-box.png)
+   ![ テンプレートの「ユーザーに更新を送信」ボックス ](assets/send-update-to-user-on-template-box.png)
 
-   [ **送信 Update to ユーザー** ] ボックスが開きます。
+   **ユーザーに更新を送信** ボックスが開きます。
 
 1. 次の操作を実行します。
 
-   * 選択したユーザーの更新プログラム追加。
-   * &lbrack; **ユーザーにタグ付け** をクリックして、同じ更新プログラムを受信する追加のユーザータグします。
-   * **自分の会社に非公開**&#x200B;オプションを選択して、更新を会社内のユーザーに対して非公開にします。
+   * 選択したユーザーの更新を追加します。
+   * **ユーザーをタグ付け** をクリックして、同じ更新を受信する追加のユーザーをタグ付けします。
+   * 「**会社に非公開**」オプションを選択して、会社内のユーザーに対して更新を非公開にします。
    * 「**送信**」をクリックします。
 
    更新内容は、タグ付けされた各ユーザーのプロファイルの「**更新**」セクションに追加されます。
 
-   ユーザーに対して有効になっている場合は、電子メール 通知を受信し、新しい更新プログラムに関するアプリ内通知を受け取る場合があります。
+   ユーザーに対して有効になっている場合はユーザーにメール通知が届き、新しい更新に関するアプリ内通知が届く場合があります。
 
-1. **書き出し**&#x200B;アイコン![書き出しアイコン](assets/export-icon.png)をクリックして、ユーザーのリストをファイルに書き出します
+1. **エクスポート** アイコン ![ エクスポートアイコン ](assets/export-icon.png) をクリックして、ユーザーのリストをファイルにエクスポートします
 
    または
 
@@ -280,9 +280,9 @@ If users that don't fulfill any role on the project want to be notified about ce
 
 プロジェクトのタスクまたはイシューに割り当てられているユーザーをプロジェクトチームから削除すると、そのユーザーは未完了のタスクとイシューから割り当て解除されます。この場合、タスクとイシューはワークロードバランサーの未割り当て作業エリアに戻ります。
 
-完了したタスクと懸案事項に割り当てられているユーザーは、プロジェクト チームから削除した後も、均等タスクと懸案事項に割り当てられたままになります。
+完了したタスクと問題に割り当てられたユーザーは、プロジェクトチームから削除した後でも、タスクと問題に引き続き割り当てられます。
 
-次のユーザーは、プロジェクトまたはテンプレートの [ユーザー] セクションから削除すると、プロジェクトのロールから削除されます。
+次のユーザーは、プロジェクトまたはテンプレートの人物セクションから削除すると、プロジェクトでの役割から削除されます。
 
 * 未完了タスクに割り当てられたユーザー
 * 未完了の問題に割り当てられたユーザー

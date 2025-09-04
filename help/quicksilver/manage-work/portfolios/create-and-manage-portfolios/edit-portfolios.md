@@ -6,22 +6,22 @@ description: 自分が作成したポートフォリオに関する情報を編�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 0a2e18c3-1722-4fc6-8442-19e80eca9d47
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 58%
+source-wordcount: '1047'
+ht-degree: 60%
 
 ---
 
 # ポートフォリオを編集する
 
-<div class="preview">
+<!--<div class="preview"> 
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 自分が作成したポートフォリオや、他のユーザーが自分と共有した場合にはそのユーザーが作成したポートフォリオに関する情報を編集できます。
 
@@ -90,7 +90,7 @@ ht-degree: 58%
       [!UICONTROL **ポートフォリオの詳細**]&#x200B;セクションに表示されるフィールドについて詳しくは、次に説明するように、「[!UICONTROL **ポートフォリオを編集**]」ボックスでポートフォリオの編集を続けます。
    1. （オプション）ポートフォリオに添付されたカスタムフォームがない場合は、**[!UICONTROL 詳細]** ページの右上隅にある **カスタムフォームを追加** フィールドにフォームの名前を入力し始め、リストに表示されたら選択します。
    1. 「[!UICONTROL **概要**]」および「[!UICONTROL **カスタムForms**]」領域のフィールドに情報を追加し、「[!UICONTROL **変更を保存**]」をクリックします。
-   1. （オプション） **[!UICONTROL 書き出し]** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックして、[!UICONTROL &#x200B; 概要 &#x200B;] とカスタムフォームの情報をPDF ファイルに書き出し、「**[!UICONTROL 書き出し]**」をクリックします。 次の中から選択します。
+   1. （オプション） **[!UICONTROL 書き出し]** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックして、[!UICONTROL  概要 ] とカスタムフォームの情報をPDF ファイルに書き出し、「**[!UICONTROL 書き出し]**」をクリックします。 次の中から選択します。
 
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
@@ -109,9 +109,9 @@ ht-degree: 58%
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might have to be split in two sections if the single edit and the bulk edit won't come at the same time for portfolios)</p>
    -->
-   <span class="preview">**[!UICONTROL Portfolioを編集]** ボックスが表示されます。</span>
+   **[!UICONTROL Portfolioを編集]** ボックスが表示されます。
 
-   <span class="preview">![ ポートフォリオを編集ボックス ](assets/edit-portfolio-box-classic-350x224.png)</span>
+   ![ ポートフォリオを編集ボックス ](assets/edit-portfolio-box-classic-350x224.png)
 
    すべてのポートフォリオフィールドは、[!UICONTROL ポートフォリオを編集]ボックスで使用でき、左のパネルに表示されたエリアでグループ化されます。
 
@@ -169,15 +169,12 @@ ht-degree: 58%
     </tbody> 
    </table>
 
-1. 「**[!UICONTROL 変更を保存]**」または <span class="preview"> 保存 [!UICONTROL **をクリックして、次のセクションの編集を続行します。**]</span>
+1. 「[!UICONTROL **保存**]」をクリックして、次のセクションの編集を続行します。
 
 ### カスタムフォーム
 
 1. 上記の説明に従って、ポートフォリオの編集を開始します。
-1. 「**[!UICONTROL フォームを追加]**」ドロップダウンメニューをクリックしてカスタムフォームを選択し、ポートフォリオに追加します。
-
-   または
-   <span class="preview"> 「[!UICONTROL **カスタムフォームを追加**] フィールドにフォームの名前を入力し始めます。</span>
+1. 「[!UICONTROL **カスタムフォームを追加**] フィールドにフォームの名前を入力し始めます。
 
    追加できるようにするには、ポートフォリオのカスタムフォームを作成する必要があります。
 
@@ -185,16 +182,16 @@ ht-degree: 58%
    >
    >[!DNL Workfront] の管理者がカスタムフォーム内のセクションに権限を設定する方法によっては、特定のカスタムフォーム上の同じフィールドを誰もが表示または編集できるわけではありません。カスタムフォームのセクション内のフィールドを編集する権限は、ポートフォリオ自体に対する権限によって異なります。カスタムフォームのセクションに対する権限の設定について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
-1. 「**[!UICONTROL 変更を保存]**」または <span class="preview"> 保存 [!UICONTROL **をクリックして、次のセクションの編集を続行します。**]</span>
+1. 「[!UICONTROL **保存**]」をクリックして、次のセクションの編集を続行します。
 
 ### コメント {#comment}
 
 1. 上記の説明に従って、ポートフォリオの編集を開始します。
 1. 「**[!UICONTROL コメント]**」をクリックします。
 
-   <span class="preview">![ ポートフォリオ コメント ボックスの編集 ](assets/comment-box-edit-portfolio-classic-350x227.png)</span>
+   ![ ポートフォリオ コメント ボックスの編集 ](assets/comment-box-edit-portfolio-classic-350x227.png)
 
-1. <span class="preview"> 「**[!UICONTROL ポートフォリオに更新を追加]** フィールドにコメントを追加 </span>
+1. 「**[!UICONTROL ポートフォリオに更新を追加]**」フィールドにコメントを追加します。
 1. （オプション）**[!UICONTROL ユーザー]**&#x200B;アイコンをクリックして、コメントにユーザーまたはチームを追加します。
 1. （オプション）**[!UICONTROL ロック]**&#x200B;アイコンをクリックして、コメントをロックし、社外秘にします。
-1. **[!UICONTROL 変更を保存]** または <span class="preview"> 保存 [!UICONTROL **をクリック**]</span> ます。
+1. [!UICONTROL **保存**]&#x200B;をクリックします。

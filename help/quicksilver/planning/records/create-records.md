@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4e295b4fdbbde7439567ef2a4f4383ad8dea738c
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '2814'
-ht-degree: 18%
+source-wordcount: '3278'
+ht-degree: 16%
 
 ---
 
@@ -32,16 +32,9 @@ Adobe Workfront Planning では、レコードはレコードタイプのイン�
 <div class="preview">
 
 * [レコードタイプのタイムライン表示に追加](#create-records-by-adding-them-in-the-record-type-timeline-view)
+* [レコードタイプのカレンダー表示に追加](#create-records-by-adding-them-in-the-record-type-calendar-view)
 
 </div>
-
-<!--
-<div class="preview">
-
-* [Add them in the record type calendar view](#create-records-by-adding-them-in-the-record-type-calendar-view)
-
-</div>
--->
 
 * [外部リストからのレコードのリストのコピー&amp;ペースト](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [テーブルビューからレコードを複製](#create-records-by-duplicating-them)
@@ -307,7 +300,7 @@ You can import records from other applications by linking them to existing recor
    >タイムラインビューを作成できるのは、レコードタイプに関連付けられた日付フィールドが 2 つ以上ある場合のみです。
 1. タイムラインの任意の場所をダブルクリックします。
 
-   新しいレコードボックスが開きます。<!--might need a new screen shot for Production - might add a title etc-->
+   **新規レコード** ボックスが開きます。<!--might need a new screen shot for Production - might add a title etc-->
 
    ![ 名前のないレコード バーを含むタイムライン上の新規レコード ボックス ](assets/new-record-small-box-on-timeline.png)
 1. 次の情報を更新します。
@@ -335,8 +328,10 @@ You can import records from other applications by linking them to existing recor
    * **閉じる**![ 閉じるアイコン ](assets/close-icon.png) 新規レコードボックスを閉じます。
 
    **削除** アイコンをクリックしなかった場合、レコードは直ちにタイムラインおよびテーブルビューとカレンダービューに追加されます。
-   <!--1. (Optional) Hover over one of the record bar's margins in the timeline, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+1. （オプション）タイムラインのレコードバーの余白の 1 つにポインタを合わせ、バーの端を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日と終了日が自動的に変更されます。
+
+   詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
 1. （オプション）タイムラインのレコードバーをクリックしてレコードの詳細ウィンドウを開き、情報を更新、削除またはコメントを追加します。
 
@@ -348,75 +343,73 @@ You can import records from other applications by linking them to existing recor
 
 </div>
 
-<!--
-
 <div class="preview">
 
-## Create records by adding them in the record type calendar view
+## レコードタイプのカレンダー表示に追加してレコードを作成
 
-You can create records in the calendar view of a record type page, by double-clicking anywhere on the calendar. 
+レコード タイプ ページのカレンダー表示でレコードを作成するには、カレンダー上の任意の場所をダブルクリックします。
 
-For information about creating a calendar view, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
+カレンダービューの作成について詳しくは、「[ カレンダービューの管理 ](/help/quicksilver/planning/views/manage-the-calendar-view.md)」を参照してください。
 
 {{step1-to-planning}}
-  
-1. Click the workspace where you want to add records.
 
-    The workspace opens and the record types display as cards.
+1. レコードを追加するワークスペースをクリックします。
 
-1. Click a record type card. 
+   ワークスペースが開き、レコードタイプがカードとして表示されます。
 
-    The record type page opens in the view that you last accessed. 
+1. レコードタイプのカードをクリックします。
 
-1. Click to open a calendar view, or create a calendar view.
+   レコードタイプ ページが、最後にアクセスしたビューで開きます。
 
-    >[!NOTE]
-    >
-    >You can create a calendar view only if there are at least two date fields associated with the record type.
-1. Double-click anywhere on the calendar. 
+1. クリックしてカレンダービューを開くか、カレンダービューを作成します。
 
-    A new record box opens. (********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)
+   >[!NOTE]
+   >
+   >レコードタイプに関連付けられた日付フィールドが少なくとも 2 つ存在する場合にのみ、カレンダー表示を作成できます。
+1. カレンダー上の任意の場所をダブルクリックします。
 
-    ![New record box on calendar with unnamed record bar](assets/new-record-small-box-on-calendar.png)
+   **新規レコード** ボックスが開きます。<!--(********might need a new screen shot for Production - might add a title etc*********ALSO CHECK IF THE SAME ONE NEEDS REPLACING FOR TIMELINE?????)-->
 
-1. Update the following information:
+   ![ 名前のないレコード バーを含む、カレンダーの新しいレコード ボックス ](assets/new-record-small-box-on-calendar.png)
 
-    * **Name**: Enter the name of the record. If you leave it empty, Workfront names it **Untitled** by default. 
-    
-        >[!TIP]
-        >
-        >If you display the Name of the record in the record bars according to the calendar settings, the name is not visible in the record bar if left empty. 
+1. 次の情報を更新します。
 
-    * **Record date fields**: Update the dates of the record. 
-        
-        The names of the date fields are customized according to the fields selected for the Start and End dates when the calendar view was created.
+   * **名前**: レコードの名前を入力します。 空のままにすると、Workfrontはデフォルトで **名称未設定** と名前を付けます。
 
-        By default, date values are preselected depending on how you display the calendar view. The following scenarios exist:
+     >[!TIP]
+     >
+     >カレンダーの設定に従ってレコード バーにレコードの名前を表示する場合、レコード バーに名前が表示されません（空のままの場合）。
 
-        * By **Month**: The record start and end dates span one day.
-        * By **Week**: The record start and end dates span two days.
+   * **レコード日付フィールド**：レコードの日付を更新します。
 
-1. (Optional) Click one of the following icons: 
+     日付フィールドの名前は、カレンダービューが作成された際に、「開始日」および「終了日」で選択されたフィールドに従ってカスタマイズされます。
 
-    * **Expand** ![Expand icon](assets/expand-icon.png) to open the record details in the preview window. 
-    * **Delete** ![Delete icon](assets/delete-icon.png) to delete the record.
-    * **Close**  ![Close icon](assets/close-icon.png) to close the new record box. 
+     デフォルトでは、カレンダーの表示方法に応じて、日付値が事前に選択されています。 次のシナリオが存在します。
 
-    The record is added to the calendar as well as to the table and timeline views immediately, unless you clicked the **Delete** icon. 
-1. (Optional and conditional) Choose **Month** from the upper-corner dropdown menu, hover over one of the record bar's margins in the calendar, then drag and drop the ends of the bar to a different date. This automatically changes the start and end date of the record. 
+      * **月** 別：レコードの開始日と終了日は 1 日に及びます。
+      * **週** 別：レコードの開始日と終了日は 2 日間に及びます。
 
-    For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-1. (Optional) Click the record bar in the calendar to open the record's details window and update its information, delete it, or add comments. 
+1. （オプション）次のいずれかのアイコンをクリックします。
 
-    >[!TIP]
-    >
-    >By default, Workfront associates the record with a thumbnail and a cover image.
-    >
-    >The thumbnail displays in the calendar view only when it is enabled in the Settings of the view. 
+   * **展開**![ 展開アイコン ](assets/expand-icon.png) をクリックして、プレビューウィンドウでレコードの詳細を開きます。
+   * **削除**![ 削除アイコン ](assets/delete-icon.png)：レコードを削除します。
+   * **閉じる**![ 閉じるアイコン ](assets/close-icon.png) 新規レコードボックスを閉じます。
 
-    (*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)
+   **削除** アイコンをクリックしなかった場合、レコードは直ちにカレンダーとテーブルビューおよびタイムラインビューに追加されます。
+1. （オプションおよび条件付き）左上隅のドロップダウンメニューから **月** を選択し、カレンダーのレコードバーの余白の 1 つにポインタを合わせて、バーの端を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日と終了日が自動的に変更されます。
 
-    </div> -->
+   詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+1. （オプション）カレンダーのレコードバーをクリックしてレコードの詳細ウィンドウを開き、情報を更新、削除またはコメントを追加します。
+
+   >[!TIP]
+   >
+   >デフォルトでは、Workfrontはレコードをサムネールとカバー画像に関連付けます。
+   >
+   >サムネールは、ビューの設定で有効になっている場合にのみ、カレンダービューに表示されます。
+
+   <!--(*********when this is available in both monthly and weekly, add more steps to show resizing the timeline and dragging and dropping the record in the calendar*******)-->
+
+   </div>
 
 
 ## 外部リストからレコードをコピー&amp;ペーストして作成

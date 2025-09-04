@@ -6,22 +6,22 @@ description: プロジェクト内のタスクを完了するために必要な�
 author: Alina
 feature: Work Management
 exl-id: a45f0af4-1768-4f20-80d4-912e6fe0fc03
-source-git-commit: 7f719c903ad4079470a6dbd046dce445ba227a5b
+source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
 workflow-type: tm+mt
-source-wordcount: '1244'
-ht-degree: 79%
+source-wordcount: '1190'
+ht-degree: 82%
 
 ---
 
 # タスクをプロジェクトに変換
 
-<div class="preview">
+<!--<div class="preview"> 
 
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers after a week from the Preview release.      
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
 
-</div>
+</div>-->
 
 プロジェクト内のタスクを完了するために必要な労力が当初の予定よりも多い場合、タスクをプロジェクトに変換できます。
 
@@ -203,4 +203,4 @@ ht-degree: 79%
      >
      >変換用のテンプレートを使用していて、テンプレートに添付されたカスタムフォームに、タスクに添付されたカスタムフォームにもカスタムフィールドが含まれている場合は、タスクのフィールド値が新規プロジェクトで使用されます。ただし、タスクのカスタムフィールドが空の場合は、テンプレートの値が使用されます。
 
-1. **変更を保存** または <span class="preview">**プロジェクトに変換**</span> をクリックします。
+1. **プロジェクトに変換** をクリックします。
