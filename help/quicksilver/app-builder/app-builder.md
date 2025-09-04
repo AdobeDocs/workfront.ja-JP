@@ -4,9 +4,9 @@ description: Adobe App Builder を活用した Workfront UI 拡張機能を使�
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2ed75053-8199-474c-afb4-fa9bbd3750f8
-source-git-commit: dcdae47ffd4a02ac9a0bbd3cd9bd1418f6c59e1a
+source-git-commit: 6355bbbabf233a6e3b577c45084236b4a46144e5
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '2178'
 ht-degree: 1%
 
 ---
@@ -20,13 +20,13 @@ Adobe App Builderを活用したWorkfront UI 拡張機能を使用すると、�
 Workfront UI 拡張機能には、次のような主な利点があります。
 
 * 正確なカスタマイズ：標準的なソフトウェアインターフェイスでは、すべてのビジネス要件を満たすことができないことが多くあります。 UI 拡張機能を使用すると、開発者は、デフォルトのユーザーインターフェイスを変更および拡張して、特定のビジネスニーズに対応できます。
-* システム統合：UI 拡張により、他のシステムとの統合が容易になり、シームレスなワークフローとデータの一貫性が確保されます。
+* システム統合：UI 拡張により他のシステムとの統合が容易になり、シームレスなワークフローとデータの一貫性が確保されます。
 * スケーラビリティ：企業の成長に合わせて、システムを完全に見直すことなく、UI 拡張機能を開発して新しい機能を追加できます。
 * 開発時間の短縮：事前定義済みの拡張ポイントとツールにより、カスタム機能の実装に必要な時間と労力が大幅に削減されます。
 * ユーザーによる導入の強化：ユーザーエクスペリエンスが最適化されると、ソフトウェアの導入を大幅に促進できます。 ユーザーの好みに合わせて設計されたカスタム UI 要素により、採用率と全体的な満足度を高めることができます。
 * Workfront UI 拡張機能を利用すると、効率性、統合性、ユーザー満足度を高めるために、カスタマイズされたユーザーエクスペリエンスを作成できます。
 
-Adobe App Builderでアプリケーションが作成されたら、Workfront管理者は、レイアウトテンプレートを使用して、そのアプリケーションをWorkfrontのメインメニューと左側のナビゲーションパネルに追加できます。 レイアウトテンプレートを使用しているユーザーがアプリケーションをクリックすると、アプリケーションを個別に開かなくても、Workfrontに埋め込まれたアプリケーションが表示されます。
+Adobe App Builderでアプリケーションが作成されたら、Workfront管理者は、レイアウトテンプレートを使用して、そのアプリケーションをWorkfrontのメインメニューと左側のナビゲーションパネルに追加できます。 レイアウトテンプレートを使用しているユーザーがアプリケーションをクリックすると、個別に開く代わりに、Workfrontに埋め込まれたアプリケーションが表示されます。
 
 ここでは、App Builderにアクセスし、テンプレートを使用してアプリケーションを作成する方法を説明します。
 
@@ -62,7 +62,7 @@ UI 拡張機能を作成するには、Adobe Developer ConsoleのAdobe App Build
    >
    >開発者を管理するオプションが表示されない場合、開発者がアクセスできる製品はありません。
 
-1. ユーザーのメールアドレスを追加します。 Admin Console 内から既に追加されている既存のユーザーを検索する必要があります。
+1. ユーザーのメールアドレスを追加します。 Admin Console内から追加済みの既存のユーザーを検索する必要があります。
 
 1. 開発者プロファイルに必要な製品を追加して、「**保存**」をクリックします。\
    ![ 開発者を追加 ](assets/add-developer.png)
@@ -87,19 +87,19 @@ UI 拡張機能を構築するには、Adobe Developer Consoleを使用する必
 
    >[!IMPORTANT]
    >
-   >テンプレートからプロジェクトを作成するオプションが表示されない場合は、Admin Console の設定が誤っており、app Builder カタログにアクセスできません。 このオプションは、AppBuilder にアクセスできる場合にのみ表示されます。
+   >「テンプレートからプロジェクトを作成する」オプションが表示されない場合は、Admin Console内の設定が誤っており、App Builder カタログにアクセスできません。 このオプションは、AppBuilder にアクセスできる場合にのみ表示されます。
 
    ![ テンプレートから作成 ](assets/create-from-template.png)
 
 1. 「**App Builder**」を選択します。
 
-1. **プロジェクトタイトル** および **アプリ名** を入力します。 どちらもデフォルト値がありますが、値をカスタマイズすると、後で必要なプロジェクトを識別しやすくなります。
+1. **プロジェクトタイトル** および **アプリ名** を入力します。 どちらもデフォルト値がありますが、値をカスタマイズすると、後で必要なプロジェクトを特定しやすくなります。
 
 1. **ランタイムを含む** が選択されたままにします。
 
 1. **保存**&#x200B;をクリックします。
 
-## Adobe IO （aio） CLI の使用
+## Adobe Developer（aio） CLI の使用
 
 Adobeには、App Builder アプリケーションの作成に使用できるオープンソース CLI が用意されています。
 
@@ -125,7 +125,7 @@ Adobeには、App Builder アプリケーションの作成に使用できるオ
    * 拡張機能に名前を付けます。
    * 拡張機能の機能の説明的な概要を提供します。
    * 開始する初期バージョン番号を選択します。
-   * 「次に何をしますか？」というメッセージが表示されたときに「メインメニュー項目にカスタムボタンを追加する」を選択した場合、テンプレートによってプライマリナビゲーションボタンのコードが作成されます。
+   * 「次に何を行いますか？」というプロンプトが表示されたときに「メインメニュー項目にカスタムボタンを追加する」を選択した場合、テンプレートによってプライマリナビゲーションボタンのコードが作成されます。
 
    ![ 「完了」を選択 ](assets/5-select-done.png)
 
@@ -135,13 +135,15 @@ Adobeには、App Builder アプリケーションの作成に使用できるオ
 
    プロジェクト内のフォルダーおよびファイルについて詳しくは、[Adobe開発者向けサイト ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application) を参照してください。
 
+プロジェクト内のフォルダーおよびファイルについて詳しくは、[Adobe Developerのサイト ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#anatomy-of-an-app-builder-application) を参照してください。
+
 ## VSCode での拡張機能の構築
 
 Workfrontのメインメニューまたはセカンダリナビゲーション（左パネル）を使用したナビゲーションを有効にするには、App.js ファイル設定が必要です。
 
 Workfront レイアウトテンプレートで拡張機能を表示するには、ExtensionRegistration.js ファイル設定が必要です。
 
-次の例は、UI 拡張機能を使用して、Workfrontのメインメニューとオブジェクトの左側のパネルにカスタムアプリケーションを追加する方法を示しています。
+次の例は、UI Extensions を使用して、Workfrontのメインメニューとオブジェクトの左パネルにカスタムアプリケーションを追加する方法を示しています。
 
 ### ExtensionRegistration.js の設定
 
@@ -218,6 +220,165 @@ Workfrontの左側のパネルナビゲーションでカスタムアプリケ�
 
 1. 作業内容を保存します。
 
+### Workfront カスタムフォームを使用したアプリの埋め込み
+
+フォームウィジェット拡張ポイントは、Adobe Workfrontの UI 拡張機能で、Workfrontのカスタムフォームに埋め込めるカスタムウィジェットを作成できます。 ナビゲーション項目やメニューオプションを追加する他の拡張ポイントとは異なり、ウィジェットはカスタムフォームフィールド内の専用パネルにカスタムコンテンツを表示する方法を提供します。
+
+ウィジェットは、Workfrontのカスタムフォームにフォームフィールドとして追加できるモジュール型 UI コンポーネントです。 カスタムフォームインターフェイス内で直接カスタム機能、データビジュアライゼーション、外部コンテンツを表示する方法を提供し、ユーザーがフォームに入力する際にカスタムロジックを操作できるようにします。
+
+#### ウィジェット拡張機能の設定
+
+メインメニューとセカンダリナビゲーションの UI 拡張ポイントと同様に、「ウィジェット」拡張ポイントは、通常は `ExtensionRegistration` フィールドにある `ExtensionRegistration.js` コンポーネントのメソッドオブジェクト内で設定されます。 つまり、Forms ウィジェットを使用する場合は、app.js の有効なルートを持つ `extesionregistration` で「ウィジェット」項目を追加するだけで済みます。
+
+```
+javascript 
+
+
+Apply to ExtensionReg... 
+
+widgets: { 
+
+  getItems() { 
+
+    return [ 
+
+      { 
+
+        id: "test2", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget with dimensions", 
+
+        dimensions: { 
+
+          height: 450, 
+
+          width: 300, 
+
+          maxHeight: 600, 
+
+          maxWidth: 400, 
+
+        }, 
+
+      }, 
+
+      { 
+
+        id: "test", 
+
+        url: "/index.html#/widgets1", 
+
+        label: "Test Widget without dimensions", 
+
+      }, 
+
+    ]; 
+
+  }, 
+
+}, 
+```
+
+#### ウィジェット設定プロパティ
+
+**必須プロパティ**
+
+* id （文字列）：ウィジェットの一意の ID。 拡張機能のすべてのウィジェットで一意である必要があります。
+
+* url （文字列）：ウィジェットのコンテンツの URL パス。 これは、ウィジェットコンポーネントをレンダリングする拡張機能のルートを指す必要があります。
+
+* ラベル（文字列）: カスタムフォームフィールドの選択インターフェイスに表示されるウィジェットの表示名。
+
+**オプションのプロパティ**
+
+* dimensions （object）: ウィジェットの表示サイズを指定します。 すべてのプロパティはオプションで、可能なディメンションはこれだけです。
+
+* 高さ（数値）：ウィジェットの高さ（ピクセル単位）。
+
+* 幅（数値）：ウィジェットの幅（ピクセル単位）。
+
+* maxHeight （数値）：ウィジェットの最大の高さ（ピクセル単位）
+
+* maxWidth （数値）：ウィジェットの最大幅（ピクセル単位）
+
+**Dimension プロパティ**
+
+ディメンションオブジェクトを使用すると、ウィジェットのサイズとレイアウトの制約を制御できます。
+
+* 高さと幅：ウィジェットの初期/優先サイズを設定します
+
+* maxHeight と maxWidth：ウィジェットが大きくなりすぎないように上限を設定します
+
+* レスポンシブ動作：ウィジェットは、次の制約内で応答できます
+
+* フォーム統合：ディメンションは、ウィジェットがフォームフィールドのレイアウトに適切に収まることを確認するのに役立ちます
+
+#### Dimension設定の例
+
+```
+// Fixed size widget 
+
+dimensions: { 
+
+  height: 300, 
+
+  width: 250, 
+
+} 
+
+// Flexible height with width constraint 
+
+dimensions: { 
+
+  width: 300, 
+
+  maxHeight: 500, 
+
+} 
+
+// Height constraint only 
+
+dimensions: { 
+
+  height: 400, 
+
+  maxWidth: 350, 
+
+} 
+
+// No dimensions - uses default sizing 
+
+{} 
+```
+
+#### コンテキストデータ
+
+ウィジェットは、次のような他の拡張ポイントと同じ共有コンテキストにアクセスできます。
+
+* 認証：IMS トークンを含む認証情報
+
+* objCode: オブジェクトタイプコード（タスク、プロジェクト、イシューなど）
+
+* objID: オブジェクト識別子
+
+* ホスト名：Workfront インスタンスのホスト名
+
+* protocol：接続プロトコル
+
+* ユーザー：現在のユーザー情報
+
+* isLoginAs: ユーザーが別のユーザーとしてログインしているかどうか
+
+* isInBulkEditing：現在フォームが一括編集モードである場合。 その場合、コンテキストにはオブジェクト ID の複数の値が含まれます。
+
+#### Workfront カスタムフォームへのウィジェットの追加
+
+アプリは、「UI Extensions」フィールドタイプを使用して、Workfront カスタムフォームに埋め込むことができます。 フィールドに追加してフォームウィジェットを選択すると、ウィジェットのリストは、IMS 組織内のアクティブなアプリまたは `extensionoverride=TRUE` 定されたときにローカルでアクティブになっているアプリケーションに基づきます。
+
+![ カスタムフォームの UI 拡張機能フィールド ](assets/ui-extensions-field.png)
+
 ### App.js の設定
 
 1. App.js に移動します。
@@ -238,6 +399,7 @@ Workfrontの左側のパネルナビゲーションでカスタムアプリケ�
 1. 作業内容を保存します。
 
 アプリケーションの開発と実行について詳しくは、[Adobe開発者向けサイト ](https://developer.adobe.com/app-builder/docs/get_started/app_builder_get_started/first-app#develop-the-application) を参照してください。
+
 
 ## 共有コンテキスト
 
@@ -264,12 +426,12 @@ App Builder アプリケーションをWorkfront用に開発する際に、ア�
 
 App Builder アプリ内で、ローカル開発の `aio app run` を開始できます。 これにより、URL （通常は `https://localhost:9080`）が提供されます。 または、`aio app deploy` を実行して静的Adobe ドメインを取得することもできます。 今後の使用のために、これらの URL をメモしておいてください。
 
-次に、ブラウザーで開発対象の特定のページに移動します。 開発者ツールを開き、workfront.comまたはworkfront.adobe.comのローカルストレージにアクセスします。 ここでは、エントリを追加する必要があります。 キーとして `extensionOverride` を使用し、値として以前にメモした App Builder URL を使用します。
+次に、ブラウザーで開発対象の特定のページに移動します。 開発者ツールを開き、workfront.comまたはworkfront.adobe.comのローカルストレージにアクセスします。 ここでは、エントリを追加する必要があります。 キーとして `extensionOverride` を使用し、値として前述のApp Builder URL を使用します。
 
 設定が正しく完了した場合、Workfrontでレイアウトテンプレートページをリロードすると、App Builder アプリケーションのボタンが表示されます。 オブジェクトのメインメニューと左側のパネルにアプリのボタンを追加し、それらの領域に正しく表示されることを確認します。
 
-Adobe開発者向けサイトで、AEMの例を使用した追加手順を参照できます。https://developer.adobe.com/uix/docs/guides/preview-extension-locally/
+Adobe Developer サイトで、AEMの例を使用した追加手順を参照できます（https://developer.adobe.com/uix/docs/guides/preview-extension-locally/）。
 
 ## 申請の公開と送信の承認
 
-アプリを公開して承認するには、[Adobe開発者サイト ](https://developer.adobe.com/uix/docs/guides/publication/) の手順に従ってください。
+アプリを公開して承認するには、[Adobe Developer サイト ](https://developer.adobe.com/uix/docs/guides/publication/) の手順に従います。
