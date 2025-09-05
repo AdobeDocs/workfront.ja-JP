@@ -246,7 +246,7 @@ ht-degree: 95%
    <td> メールアドレスを更新します。必須フィールドです。メールアドレスは、[!DNL Workfront] のユーザー名となります。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL パスワードの変更 ]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL パスワードの変更 &#x200B;]</strong></td> 
    <td>このセクションでパスワードをリセットします。パスワードのリセットについて詳しくは、<a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">パスワードのリセット</a>を参照してください。</td> 
   </tr> 
  </tbody> 
@@ -316,7 +316,7 @@ ht-degree: 95%
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL プロファイル写真 ]</strong></td>
+        <td><strong>[!UICONTROL プロファイル写真 &#x200B;]</strong></td>
         <td>プロフィール写真はアバターになり、名前が表示されているすべての [!DNL Workfront] システムで表示されます。</td>
     </tr>
 </table>
@@ -465,7 +465,7 @@ ht-degree: 95%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL アクティブ化解除日を設定 ]</strong></td>
+   <td role="rowheader"><strong>[!UICONTROL アクティブ化解除日を設定 &#x200B;]</strong></td>
    <td><p>アカウントを一定期間後に非アクティブ化するようにスケジュールする場合は、このボタンをクリックします。 表示される <strong>[!UICONTROL Scheduled Deactivation Date]</strong> で、アカウントが非アクティブ化されるまでの日付を指定します。 ユーザーの非アクティブ化について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>の<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">ユーザーの非アクティブ化のスケジュール</a>を参照してください。</p><p>[!UICONTROL Standard] または [!UICONTROL Plan] ライセンスを持っているか、[!DNL Workfront] 管理者である場合は、自分のアカウントの無効フィールドを編集できます。</p></td> 
   </tr> 
   <tr> 
