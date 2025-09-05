@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 7eef99ed854beb8b737238ff9c08313e057ef5ac
+source-git-commit: 8eba03938e4e6e97afd2bc4b3a65db1c39d16b8c
 workflow-type: tm+mt
-source-wordcount: '1951'
+source-wordcount: '1952'
 ht-degree: 17%
 
 ---
@@ -32,7 +32,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 >|----|----|
 >| <ul><li>25.8 （2025 年 8 月 14 日（Pt））</li><li>25.9 （2025 年 9 月 11 日）</li><li>25.10 （2025 年 10 月 16 日（PT））</li></ul> | <ul><li>25.10 （2025 年 10 月 16 日（PT））</li></ul> |
 >
->各四半期の最終リリース（今四半期は 25.10）では、迅速リリーススケジュールのユーザーに対して、1 日早くリリースが届きます。
+>各四半期の最終リリース（今四半期 25.10）では、迅速リリーススケジュールのユーザーに対して、1 日早いリリース（2025 年 10 月 15 日（PT））が届きます。
 >
 >迅速リリースプロセスについて詳しくは、[迅速リリースプロセスを有効化または無効化](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。
 
@@ -420,7 +420,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 
