@@ -42,7 +42,7 @@ GenStudioとWorkfront Planning の統合に関する一般的な情報につい�
 >[!IMPORTANT]
 >
 >ここでは、管理権限を持っている場合にWorkfront Planning からGenStudio Workspace を更新する手順について説明します。
->> GenStudio Workspace に対する投稿権限を持っている場合、すべての機能が使用できるわけではありません。
+>&#x200B;> GenStudio Workspace に対する投稿権限を持っている場合、すべての機能が使用できるわけではありません。
 >
 >会社にWorkfrontの複数のインスタンスがある場合、すべてのユーザーはWorkfront Planning のGenStudio Workspace で投稿権限を取得します。
 
