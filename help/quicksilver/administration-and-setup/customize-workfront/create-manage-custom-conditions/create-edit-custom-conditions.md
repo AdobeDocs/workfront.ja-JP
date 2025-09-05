@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: f62d8f681fa75d2b18d78d7918df46734fa61e2e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 89%
+source-wordcount: '647'
+ht-degree: 82%
 
 ---
 
@@ -118,18 +118,23 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
      ![ プロジェクト編集時の条件の変更 ](assets/change-condition-edit-project-0825.png)
 
-   <!-- 
-   * When a user is changing the condition for a task or issue on the Updates tab:
-
-     ![Change condition when updating comment](assets/change-condition-update-comment.png)
-   -->
-
    * ユーザーがリスト表示でタスクまたはイシューの条件を変更する場合
 
-     ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-only.png)
+     ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-0925.png)
+
+     >[!NOTE]
+     >
+     >デフォルトの条件ビューでは、「**条件**」フィールドはインラインで編集できないタイプのフィールドです。 **条件** フィールドを個別にビューに追加した場合は、編集が可能です。 インライン編集について詳しくは、[Adobe Workfrontのリスト内の項目をインライン編集 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) を参照してください。
 
 1. 「**保存**」をクリックします。
 
 カスタム条件を、プロジェクトや、タスクおよびイシューのデフォルト条件として設定できます。詳しくは、[カスタム条件をプロジェクトのデフォルトとして設定](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md)および[カスタム条件をタスクとイシューのデフォルトとして設定](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md)を参照してください。
 
 カスタム条件について詳しくは、[カスタム条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)を参照してください。
+
+
+<!-- THIS WAS ORIGINALLY BETWEEN THE OTHER TWO BULLETS.
+   * When a user is changing the condition for a task or issue on the Updates tab:
+
+     ![Change condition when updating comment](assets/change-condition-update-comment.png)
+   -->

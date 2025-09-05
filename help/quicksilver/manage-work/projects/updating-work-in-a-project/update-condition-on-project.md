@@ -6,10 +6,10 @@ description: プロジェクトの状況は、プロジェクトに関連する�
 author: Alina
 feature: Work Management
 exl-id: 1f46386e-e1ae-4845-8cc4-09dd7d39076f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
 source-wordcount: '550'
-ht-degree: 100%
+ht-degree: 88%
 
 ---
 
@@ -61,9 +61,9 @@ Adobe Workfront 管理者は、環境にカスタムの状況を作成できま�
 
 ## 状況の自動設定
 
-プロジェクトの状況を自動的に設定するかどうかは、プロジェクトの状況タイプで決まります。Workfront でプロジェクトの状況を自動的に設定するには、状況タイプを「進捗ステータス」に設定する必要があります。
+プロジェクトの状態の自動設定は、プロジェクトの状態タイプによって決まります。 プロジェクトの状態を自動設定するには、Workfrontの状態タイプを「進捗ステータス」に設定する必要があります。
 
-システム内の新規プロジェクトの「状況タイプ」フィールドのデフォルトは、設定エリアでプロジェクトの環境設定を指定する際に、Workfront 管理者またはグループ管理者が決定します。詳しくは、[システム全体のプロジェクト環境設定の指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
+「設定」エリアでプロジェクトの環境設定を指定する場合、Workfrontまたはグループ管理者が、システム内の新しいプロジェクトの「条件タイプ」フィールドのデフォルトを決定します。 詳しくは、[システム全体のプロジェクト環境の設定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)を参照してください。
 
 プロジェクトを作成すると、その時点のプロジェクトの進捗ステータスに合わせて、プロジェクトの状況が自動的に設定されます。プロジェクトの進捗ステータスは、プロジェクトのタスクの進捗に基づいています。
 
@@ -78,7 +78,7 @@ Adobe Workfront 管理者は、環境にカスタムの状況を作成できま�
 
 1. 「**状況タイプ**」フィールドが「**手動**」に設定されていることを確認します。
 
-   ![](assets/project-details-overview-edit-enabled-with-condition-shot-nwe-350x251.png)
+   ![](assets/project-details-overview-select-condition.png)
 
 1. 「**状況**」フィールドで、関連する作業が順調に進んでいるかどうかや遅延があるかどうかについての理解に一致するものを、次のオプションから選択します。
 

@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 1eab0317bfe72609133e71411ee24263517f1508
+source-git-commit: b7f59552e5b66a3b2db765a49abdb2f49b1a51ec
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 76%
+source-wordcount: '222'
+ht-degree: 56%
 
 ---
 
@@ -25,7 +25,11 @@ ht-degree: 76%
 
 * ユーザーがタスクまたはイシューの条件を変更する場合
 
-  ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-only.png)
+  ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-0925.png)
+
+  >[!NOTE]
+  >
+  >デフォルトの条件ビューでは、「**条件**」フィールドはインラインで編集できないタイプのフィールドです。 **条件** フィールドを個別にビューに追加した場合は、編集が可能です。 インライン編集について詳しくは、[Adobe Workfrontのリスト内の項目をインライン編集 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) を参照してください。
 
 ## アクセス要件
 
@@ -68,8 +72,8 @@ ht-degree: 76%
 
 1. **プロジェクト**、**タスク** または **イシュー** タブを選択します。
 
-1. ![ 移動アイコン ](assets/move-icon---dots.png) 条件をドラッグして、順序を変更します。
+1. 条件 ![ 移動アイコン ](assets/move-icon---dots.png) をドラッグして、順序を変更します。
 
    新しい順序は自動的に保存されます。
 
-条件のカスタマイズについて詳しくは、[カスタム条件](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)を参照してください。
+条件のカスタマイズについて詳しくは、「[ カスタム条件 ](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md)」を参照してください。
