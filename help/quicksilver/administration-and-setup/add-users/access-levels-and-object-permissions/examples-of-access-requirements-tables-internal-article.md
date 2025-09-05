@@ -4,9 +4,9 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1071'
 ht-degree: 25%
 
 ---
@@ -406,6 +406,8 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
+## Adobe Workfrontの Automation and Integration に関するアクセス要件
+
 <p>コネクタベース（従来）：作業の自動化と統合のためのWorkfront Fusion </p>
    </td> 
   </tr> 
@@ -418,9 +420,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
  </tbody> 
 </table>
 
-このテーブルの情報について詳しくは、[ ドキュメントのアクセス要件 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation) を参照してください。
+このテーブルの情報について詳しくは、[ ドキュメントのアクセス要件 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation) を参照してください。
 
-Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
+
+Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
 
 ## 高度なエンタープライズ制御
 
