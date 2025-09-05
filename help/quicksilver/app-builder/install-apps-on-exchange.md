@@ -67,11 +67,11 @@ Workfocus アプリは、Workfront内でネイティブに動作するように�
 
 Adobeのお客様は、Adobe Exchange Marketplace から直接アプリを参照、検索およびインストールして、Workfront内で使用できます。
 
-Adobe App Builderで作成されたアプリは、Adobe Exchangeでは _0}App Builder アプリケーション } として表示されます。_&#x200B;各アプリリストには、顧客がアプリの価値を理解するのに役立つドキュメント、スクリーンショット、使用手順が含まれています。
+Adobe App Builderで作成されたアプリは、Adobe Exchangeでは _0&rbrace;App Builder アプリケーション &rbrace; として表示されます。_&#x200B;各アプリリストには、顧客がアプリの価値を理解するのに役立つドキュメント、スクリーンショット、使用手順が含まれています。
 
 Workfrontのアプリを表示するには、Adobe Exchangeに移動して、Workfront互換アプリを検索します。 Workfront App Builder アプリのリストをフィルタリングすることもできます。
 
-1. 左側のパネルで **0}Experience Cloud} をクリックします。**
+1. 左側のパネルで **0&rbrace;Experience Cloud&rbrace; をクリックします。**
 1. 左側のパネルで **Product** を見つけ、「**Workfront**」を選択します。
 1. 「**アプリの種類**」を展開し、「**App Builder**」を選択します。
 
