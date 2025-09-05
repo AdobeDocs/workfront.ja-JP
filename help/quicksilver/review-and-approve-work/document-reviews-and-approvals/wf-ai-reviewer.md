@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '638'
 ht-degree: 6%
 
 ---
@@ -51,9 +51,11 @@ AI レビュー担当者は、次のファイルタイプをレビューでき�
 * WEBP （.webp）
 * 非アニメーション GIF （.gif）
 
+サポートされていないファイルタイプをアップロードした場合、承認の作成時に AI レビュー担当者オプションは表示されません。
+
 ## ブランドガイドラインの設定
 
-Workfront AI レビュー担当者は、コンテンツのレビュー時に、Genstudio Foundations で設定されたブランドガイドラインを使用します。 現在、画像のブランドガイドラインのみをセットアップできます。 詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
+Workfront AI レビュー担当者は、コンテンツのレビュー時に、Genstudio Foundations で設定されたブランドガイドラインを使用します。 現在、画像のブランドガイドラインのみをセットアップできます。 詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
 
 
 ## AI レビュー担当者の作成

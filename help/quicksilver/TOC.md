@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
 workflow-type: tm+mt
-source-wordcount: '13478'
+source-wordcount: '13489'
 ht-degree: 84%
 
 ---
@@ -2587,7 +2587,10 @@ ht-degree: 84%
       * [SOAP API に関する FAQ](proofhq-api/general/soap-api-faqs.md)
 * [非表示のテストドキュメント](hidden-test.md)
 * App Builder {#app-builder}
+   * [App Builder：記事インデックス](/help/quicksilver/app-builder/app-builder-toc.md)
+   * [Adobe Exchangeからアプリを取得してインストールする](/help/quicksilver/app-builder/install-apps-on-exchange.md)
    * [Adobe App Builderを使用したWorkfrontのカスタムアプリケーションの作成](/help/quicksilver/app-builder/app-builder.md)
+
 
 
 <!--
