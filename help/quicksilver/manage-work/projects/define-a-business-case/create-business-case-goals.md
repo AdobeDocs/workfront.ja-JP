@@ -5,10 +5,10 @@ description: ビジネスケースの作成の一環として、一連の目標�
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '441'
-ht-degree: 48%
+source-wordcount: '445'
+ht-degree: 47%
 
 ---
 
@@ -81,9 +81,10 @@ ht-degree: 48%
 {{step1-to-projects}}
 
 1. プロジェクトリストで、ビジネスケースの目標を定義するプロジェクトを選択します。
+
 1. 左側のパネルで、「ビジネスケース **をクリック** ます。 **ビジネスケース** セクションが表示されます。
 
-   <!--![Business case info](assets/business-case-page-info-goals-expenses-nwe-350x123.png)-->
+   ![ ビジネスケース情報 ](assets/business-case-info.png)
 
 1. 「**目標**」セクションで「**目標を編集**」をクリックします。
 
@@ -97,11 +98,11 @@ ht-degree: 48%
    * 低
    * 最低
 
-     <!--![Importance](assets/g1-350x76.png)-->
+   ![ 重要度 ](assets/goals-section.png)
 
-     >[!NOTE]
-     >
-     >目標の重要度レベルをカスタマイズすることはできません。
+   >[!NOTE]
+   >
+   >目標の重要度レベルをカスタマイズすることはできません。
 
 1. （任意）別の目標を追加するには、「**別の目標を追加** をクリックし、手順 5～6 を繰り返します。
 

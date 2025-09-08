@@ -5,10 +5,10 @@ description: カスタムフォームは、既存の Adobe Workfront フィー�
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 86%
+source-wordcount: '332'
+ht-degree: 61%
 
 ---
 
@@ -70,19 +70,19 @@ ht-degree: 86%
 
 ## カスタムフォームをビジネスケースに添付
 
-カスタムフォームをビジネスケースに追加するには、Workfront 管理者が設定でこのオプションを選択する必要があります。設定でカスタムフォームを有効にする方法について詳しくは、[システム全体のプロジェクト環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)の記事にある[システム全体のプロジェクト環境設定を指定](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md)の節を参照してください。
+カスタムフォームをビジネスケースに追加するには、Workfront 管理者が設定でこのオプションを選択する必要があります。設定でカスタムフォームを有効にする方法について詳しくは、[ システム全体のプロジェクト環境設定の指定 ](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) を参照してください。
 
 カスタムフォームを添付するには、以下の操作を実行します。
 
-1. フォームを添付するプロジェクトに移動し、「**ビジネスケース**」をクリックします。
+1. フォームを添付するプロジェクトに移動し、左側のパネルで **ビジネスケース** をクリックします。 ビジネスケースが表示されます。
 
-   ビジネスケースが表示されます。
+1. 「**カスタムフォーム**」セクションで、添付するカスタムフォームをドロップダウンメニューから選択します。 カスタムフォームは、以下の **追加されたフォーム** セクションに表示されます。
 
-1. 「**カスタムフォーム**」セクションで、添付するカスタムフォームをドロップダウンメニューから選択します。
+1. （オプション）カスタムフォームの詳細を展開するには、カスタムフォーム名の左側にある矢印をクリックします。
 
-   <!--![Custom forms dropdown](assets/custom-forms-drop-down-menu.png)-->
+   ![ カスタムフォームの詳細を展開 ](assets/expand-custom-form-details.png)
 
-1. （オプション）「**カスタムフォームを編集**」を選択します。\
-   <!--![Edit custom form](assets/acf1-350x122.png)-->
+<!--1. (Optional) Select&nbsp;**Edit Custom Form**.  
+  ![Edit custom form](assets/acf1-350x122.png)
 
-1. （オプション）カスタムフォームのフィールドに情報を指定し、「**保存**」をクリックします。
+1. (Optional) Specify information in the fields of the custom form, then click&nbsp;**Save** . -->

@@ -5,10 +5,10 @@ description: スコアカードを使用して、プロジェクトが以前に�
 author: Alina
 feature: Work Management
 exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
-source-git-commit: 14b6b9c4a184131cfdc33b6156c578218ed9119a
+source-git-commit: 724c507dd5ee09b3364fc2037380a8cb18be08f2
 workflow-type: tm+mt
-source-wordcount: '1208'
-ht-degree: 97%
+source-wordcount: '1220'
+ht-degree: 93%
 
 ---
 
@@ -91,7 +91,7 @@ ht-degree: 97%
 
 1. ドロップダウンメニューから「スコアカード」を選択します。
 
-   <!--![New scorecard](assets/new-scorecard.png)-->
+   ![新規スコアカード](assets/scorecard-section.png)
 
 1. スコアカードのすべての質問に対する回答を入力します。
 
@@ -160,31 +160,27 @@ ht-degree: 97%
 
 1. 整合性スコアを確認するプロジェクトに移動します。
 1. 左側のパネルの「**ビジネスケース**」をクリックします。
-1. 画面右側の&#x200B;**ビジネスケース概要**&#x200B;に移動します。
+1. 画面右側の **ビジネスケースの概要** に移動します。 整合性スコアは、ビジネスケース概要の「**整合済み**」の値にあります。
 
-   整合性スコアは、ビジネスケース概要の「**整合済み**」の値にあります。
-
-   <!--![Alignment score on a project](assets/alignment-score-on-a-project.png)-->
+   ![プロジェクトの整合性スコア](assets/aligned-section.png)
 
 ### ポートフォリオオプティマイザーでプロジェクトやポートフォリオの整合性スコアを確認
 
-ポートフォリオに対する管理権限を持っている場合は、プロジェクトやポートフォリオの整合性スコアをポートフォリオオプティマイザーで確認できます。
+ポートフォリオに対する管理アクセス権を持っている場合は、Portfolio オプティマイザーでプロジェクトまたはポートフォリオの整合性スコアを確認できます。
 
 ポートフォリオオプティマイザーに表示される情報について詳しくは、[ポートフォリオオプティマイザーの概要](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)を参照してください。
 
 * [ポートフォリオオプティマイザーでプロジェクトの整合性スコアを見つける](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer)
 * [ポートフォリオオプティマイザーでポートフォリオの整合性スコアを見つける](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  <!--![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)-->
+  ![ポートフォリオオプティマイザーの整合性スコア](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### ポートフォリオオプティマイザーでプロジェクトの整合性スコアを見つける {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
 {{step1-to-portfolios}}
 
 1. ポートフォリオの名前をクリックします。
-1. 左側のパネルで「**ポートフォリオの最適化**」をクリックします。
-
-   ポートフォリオオプティマイザーが表示されます。
+1. 左側のパネルで **0}Portfolioの最適化 } をクリックします。**&#x200B;ポートフォリオオプティマイザーが表示されます。
 
    プロジェクトの整合性スコアは、ポートフォリオオプティマイザーの「**整合性**」に、パーセンテージで表示されます。
 
