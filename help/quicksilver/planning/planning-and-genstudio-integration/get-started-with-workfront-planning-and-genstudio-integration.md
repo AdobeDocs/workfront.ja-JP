@@ -4,10 +4,10 @@ description: GenStudio for Performance Marketing Workspace は、会社が両方
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
 workflow-type: tm+mt
-source-wordcount: '1765'
-ht-degree: 2%
+source-wordcount: '1855'
+ht-degree: 1%
 
 ---
 
@@ -47,8 +47,8 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * Workfront Planning でGenStudioワークスペースを表示します。
-* GenStudioのキャンペーンを変更し、Workfront Planning で同じ情報をリアルタイムで更新します。
-* Workfront Planning でキャンペーンを変更し、GenStudioで同じ情報をリアルタイムで更新します。
+* GenStudio for Performance Marketingのキャンペーンを変更し、Workfront Planning で同じ情報をリアルタイムで更新します。
+* Workfront Planning でキャンペーンを変更し、GenStudio for Performance Marketingで同じ情報をリアルタイムで更新します。
 * 重複するデータ入力を避けます。
 * 計画とアクティブ化の取り組み間の整合性を維持します。
 
@@ -66,9 +66,9 @@ Workfront Planning とGenStudio for Performance Marketingの統合が存在す�
 
   詳しくは、[WorkfrontのAdobe統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
-* Planning とGenStudioの両方を使用するユーザーは、IMS 組織内の 1 つのWorkfrontインスタンスにのみ属する必要があります。
+* Workfront Planning とGenStudio for Performance Marketingの両方を使用するユーザーは、IMS 組織内の 1 つのWorkfront インスタンスにのみ属している必要があります。
 
-  Workfrontのみのユーザーには、Workfrontで使用可能な場合でも、GenStudio workspace は表示されません。
+  Workfrontのみのユーザーは、GenStudio for Performance Marketing ユーザーでなくても、GenStudio Workspace を表示できます。
 
 <!--not sure: true for Planning? This is true for GenS and WF Proof: * The integration must be enabled in the Workfront Setup area.-->
 
@@ -103,7 +103,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合が存在す�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing ユーザーの役割</p></td> 
    <td><p><ul><li>キャンペーン、製品およびペルソナにアクセスするためのGenStudio ユーザーロール</li>
    <li>アクティベーションとイベントにアクセスするための GenSudio System Manager</li></ul>
-   詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
+   詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
    </p>
   </td> 
   </tr>   
@@ -112,9 +112,10 @@ Workfront Planning とGenStudio for Performance Marketingの統合が存在す�
    <td>  
    <p>Workfrontの計画では、次の操作を行います。 </p>
    <ul>
-   <li><p>GenStudio Workspace に対する権限を管理して、ワークスペースのアーキテクチャ、レコードタイプおよびフィールドを変更します</p></li>
-   <li><p>GenStudio Workspace に対して、GenStudio レコードスペースのレコードを追加、更新、削除する権限を提供する</p> </li>  
+   <li><p>GenStudio Workspace に新しいフィールドまたはレコードタイプを追加するためのGenStudio Workspace に対する権限を管理します</p></li>
+   <li><p>GenStudio Workspace に対するレコードの追加、更新、削除の権限の投稿GenStudio Workspace</p> </li>  
    </ul>
+   <p>Workfront Planning のGenStudio Workspace からGenStudio for Performance Marketing レコードタイプまたはフィールドを削除することはできません</p>
    <p>Adobe GenStudio for Performance Marketingで： <p>
    <ul>
    <li><p> Adobe GenStudio for Performance Marketingのすべての権限</p></li>
@@ -129,7 +130,7 @@ Adobe Workfront Planning へのアクセスについて詳しくは、[Adobe Wor
 Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenStudio for Performance Marketing ユーザーガイド ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/home) を参照してください。
 
 
-## Workfront Planning とGenStudioの統合機能の概要
+## Workfront Planning とGenStudio for Performance Marketingの統合機能の概要
 
 組織のWorkfront インスタンスの数に応じて、Planning のGenStudio Workspace に対して自動的に次の権限が付与されます。
 
@@ -144,36 +145,35 @@ Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenSt
     <tr> 
     <td role="rowheader"><p>Workfrontの 1 つのインスタンス</p></td> 
    <td> 
-<p>Workfront Planning には 1 つのGenStudio ワークスペースがあります</p>
-<p>GenStudioおよびWorkfront Planning へのアクセス権を持つすべてのユーザーには、GenStudio Workspace に対する管理権限があります</p> 
+<p>GenStudio Workspace は、Workfront Planning のインスタンスに表示されます</p>
+<p>Workfront管理者には、Planning のGenStudio Workspace に対する管理権限があります</p>
+<p>他のすべてのユーザーは、Planning のGenStudioワークスペースへの Contribute アクセス権を持っています</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Workfrontの複数のインスタンス</p> </td> 
    <td> 
-   <p>Workfront Planning の各インスタンスには 1 つのGenStudio Workspace があります</p>
-<p>GenStudioおよびWorkfront Planning へのアクセス権を持つすべてのユーザーは、各インスタンスのGenStudio Workspace に対する投稿権限を持っています</p> </td> 
+   <p>GenStudio Workspace は、すべてのWorkfront インスタンスから表示されます</p>
+<p>GenStudio for Performance MarketingおよびWorkfront Planning へのアクセス権を持つすべてのユーザーには、Planning のGenStudioに対する投稿権限があります</p> </td> 
   </tr>
-
-</tbody> 
+   </tbody> 
 </table>
 
 Workfront Planning の権限については、[Adobe Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。
 
 以下の節では、以下について説明します。
 
-* GenStudioからWorkfront Planning の情報を更新する機能
-* Workfront Planning からGenStudio情報を更新する機能
+* GenStudio for Performance MarketingからWorkfront Planning の情報を更新する機能
+* Workfront Planning からGenStudio for Performance Marketing情報を更新する機能
 * Workfront Planning のGenStudio Workspace で管理できる内容と管理できない内容に関する制限。
 
 <!--maybe make 2 sections here once Iskuhi answers - one for one instance and one for multiple WF instances??-->
 
 <!--add here a link from the GenS articles about what you can/ cannot do from GenStudio that might in the end reflect in Planning - this should come from the GenS team-->
 
-### GenStudio Workspace
+### Workfront Planning のGenStudio ワークスペース
 
-* GenStudioでGenStudioワークスペースを更新すると、変更内容が Planning のGenStudioワークスペースに表示されます。
-* GenStudio Workspace は、Workfront Planning にそれを識別する視覚的なインジケーターを表示します。
+* GenStudio Workspace は、Workfront Planning にGenStudio for Performance Marketing Workspace を表すインジケーターを表示し、それを識別します。
 
   ![Planning のGenStudio カード ](assets/genstudio-card-with-tag-highlighted.png)
 
@@ -188,12 +188,11 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
      GenStudio アカウントを持たない他のユーザーとGenStudio Workspace を共有できます。 共有できるのは、組織のIdentity Management System （IMS）で使用可能なユーザーのみです。<!--check to see this is correct-->
      <!--* Delete the workspace - check to see if this is possible; the link is there, but???-->
 
-* Planning のGenStudio作業領域に対する投稿権限がある場合、Planning から作業領域を変更することはできません。
+* Planning のGenStudio作業領域に対する投稿権限がある場合、Workfront Planning から作業領域を変更することはできません。
 
 ### GenStudio Workspace のレコードタイプ
 
-* Planning でGenStudioレコード・タイプを編集すると、変更内容がGenStudioのGenStudioワークスペースに表示されます。
-* GenStudioと Planning の両方に表示されるレコードタイプには、Workfront Planning にGenStudio インジケーターがあります。
+* GenStudio for Performance Marketingと Planning の両方に表示されるレコードタイプには、Workfront Planning にGenStudio インジケーターがあります。
 
   ![Workfront Planning のGenStudio レコードタイプカード ](assets/genstudio-record-type-with-tag-and-tooltip-highlighted.png)
 * Planning のGenStudioワークスペースに対する管理権限を持っている場合は、Workfront Planning から次の操作を実行できます。
@@ -204,13 +203,13 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
 
 ### GenStudio Workspace のレコード
 
-* WorkfrontでGenStudio レコードを編集すると、GenStudioのすべてのインスタンスにあるすべてのGenStudio ワークスペースに変更内容が表示されます。
-* Workfront Planning から有効化レコードを作成または削除することはできません。
+* WorkfrontからGenStudio レコードを編集すると、変更内容が、GenStudio for Performance MarketingのすべてのインスタンスのGenStudio Workspace に表示されます。
+* Workfront Planning のGenStudio Workspace からアクティベーションレコードを作成または削除することはできません。
 * Planning のGenStudioワークスペースに対する管理権限または投稿権限がある場合、Workfront Planning から次の操作を実行できます。
-   * レコードを追加または削除すると、GenStudioで表示できるようになります（または削除されます）。
+   * レコードを追加または削除すると、GenStudio for Performance Marketingで表示できるようになります（または削除されます）。
 
-     Workfront Planning またはGenStudioから削除されたレコードは、Workfront Planning の最近削除されたレコード・ビンに 30 日間配置されます。 GenStudioには、最近削除された bin がありません。
-   * 最近削除された bin からレコードを復元します。 削除したレコードを復元すると、Workfront Planning とGenStudioに戻ります。
+     Workfront Planning またはGenStudio for Performance Marketingから削除されたレコードは、Workfront Planning の最近削除されたレコード・ビンに 30 日間配置されます。 GenStudio for Performance Marketingには、最近削除された bin がありません。
+   * 最近削除された bin からレコードを復元します。 削除したレコードを復元すると、Workfront Planning とGenStudio for Performance Marketingに戻ります。
    * 次の方法でレコードを追加します。
 
       * 新規レコードボタンを使用して、任意のビューからゼロから手動で
@@ -223,14 +222,15 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
 
   詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
 
-### GenStudio Workspace のレコードタイプのフィールド
+### GenStudio Workspace のレコードタイプフィールド
 
-* GenStudio レコードフィールドは、デフォルトでWorkfront Planning にインポートされます。
-* GenStudioのレコードタイプにフィールドを追加することはできません。
+* レコードタイプのフィールドは、デフォルトでGenStudio for Performance MarketingからWorkfront Planning に読み込まれます。
+* GenStudio for Performance Marketingからレコードタイプにフィールドを追加することはできません。
+<!--Iskuhi said this is not possible but I can add fields: * You cannot create or delete Activation records' fields from the GenStudio workspace in Workfront Planning. -->
 * Planning のGenStudioワークスペースに対する管理権限を持っている場合は、Workfront Planning から次の操作を実行できます。
 
    * GenStudio フィールドの設定を編集します。
-   * Gen Studio で管理アクセス権を持っている場合は、GenStudio レコードタイプのフィールドを作成します。
+   * Gen Studio Workspace で管理アクセス権を持っている場合、GenStudio レコードタイプのフィールドを作成します。
 
      Planning でGenStudioレコード・タイプのフィールドを作成すると、次の領域から表示されます：
 
@@ -242,7 +242,7 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
      >
      >Workfront Planning で作成されたフィールドは、GenStudioのリスト表示には表示されません。
 
-   * Planning のGenStudioレコード・タイプのテーブル・ビューでフィールドを非表示にします。
+   * Workfront Planning のGenStudio レコード タイプのテーブル ビューでフィールドを非表示にします。
 &lt;!—* GenStudio レコードタイプのWorkfront Planning で作成されたフィールドをWorkfront Planning から削除します。 — Iskuhi によると、これは不可能です。リンクは存在しますが、エラーが発生します – >
 
   <!--this is not true: You cannot delete fields imported from GenStudio from Workfront Planning.-->
@@ -258,18 +258,19 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
 * チャネルおよび地域レコードタイプに表示されるレコードには、作成者ユーザーとして「システム」と表示されます。 これらのレコードは、Workfront Planning でGenStudio Workspace を作成すると、自動的に作成されます。
 * Workfront Planning でワークスペースが使用可能になった後にGenStudioで作成されたレコードには、作成者フィールドにレコードを作成した IMS ユーザーの名前が表示されます。ユーザーがWorkfront ユーザーでなくて、GenStudioでレコードを作成した場合でも同様です。
 * 「承認者」フィールドには、Workfront Planning でGenStudio レコードタイプのレコードを作成するためにリクエストフォームが送信された際に、承認者の名前が表示されます。
+* 「作成者」フィールドと「承認者」フィールドがGenStudio for Performance Marketingのレコードの詳細に表示されます。 これらはリスト表示には表示されません。
 
 ### GenStudio Workspace でのレコードのビュー
 
 >[!NOTE]
 >
->GenStudio レコードタイプは、GenStudioから読み込まれたデフォルトのテーブルビューに表示されます。
+>GenStudio レコードタイプは、GenStudio for Performance Marketing リストビューから読み込まれたデフォルトのテーブルビューに表示されます。
 >
->デフォルトでGenStudioからインポートされた元のテーブルビューを削除することはできません。
+>デフォルトでGenStudio for Performance Marketingからインポートされた元のテーブルビューを削除することはできません。
 
-* GenStudioでは、複数のビューを作成できません。
+* GenStudio for Performance Marketingでは、複数のビューを作成できません。
 
-* Planning のGenStudioワークスペースに対する管理権限を持っている場合、Workfront Planning で次の操作を実行できます。
+* Planning のGenStudioワークスペースに対する管理権限を持っている場合は、Workfront Planning から次の操作を実行できます。
 
    * GenStudio レコードタイプのビューを作成します。
 
@@ -277,7 +278,7 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
 
    * GenStudio レコードタイプからカスタムビューの名前変更、共有、エクスポート、複製、削除を行います。
 
-* Planning のGenStudioワークスペースに対する投稿権限がある場合、Workfront Planning で次の操作を実行できます。
+* Planning のGenStudioワークスペースに対する投稿権限がある場合、Workfront Planning から次の操作を実行できます。
 
    * GenStudio レコードタイプのビューを作成します。
 
