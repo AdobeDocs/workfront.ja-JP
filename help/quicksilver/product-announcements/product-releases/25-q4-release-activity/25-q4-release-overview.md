@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 8eba03938e4e6e97afd2bc4b3a65db1c39d16b8c
+source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
 workflow-type: tm+mt
-source-wordcount: '1952'
+source-wordcount: '1949'
 ht-degree: 17%
 
 ---
@@ -332,9 +332,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}"> 拡張リストの更新 </a><p></p>
-            <p>高度なリストのレイアウトを使用すると、フィルターとグループ化を使用して作業を表示し、より適切に整理することができます。 ウィジェットの上に青いドットインジケーターが表示され、次の領域でフィルターまたはグループ化がリストに適用されたことを知らせるようになりました。</p>
+            <p>高度なリストのレイアウトを使用すると、フィルターとグループ化を使用して作業を表示し、より適切に整理することができます。 ウィジェットの上に表示される青いドットインジケーターで、次の領域でフィルターまたはグループ化がリストに適用されたことを知らせるようになりました。</p>
             <ul>
-                <li>設定の為替レート</li>
                 <li>自分の要求ウィジェット</li>
                 <li>優先度</li>
             </ul>
@@ -420,7 +419,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 

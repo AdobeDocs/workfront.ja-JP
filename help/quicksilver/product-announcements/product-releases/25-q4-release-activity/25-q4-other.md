@@ -4,10 +4,11 @@ description: 2025 年第 4 四半期のリリース期間中のその他の機�
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f7dcae5e6bcc8674ef37ef94282c50dc9ffe951d
+exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
+source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
 workflow-type: tm+mt
-source-wordcount: '158'
-ht-degree: 25%
+source-wordcount: '155'
+ht-degree: 26%
 
 ---
 
@@ -25,9 +26,8 @@ ht-degree: 25%
 >* 実稼動高速リリース：2025 年 9 月 11 日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
-高度なリストのレイアウトを使用すると、フィルターとグループ化を使用して作業を表示し、より適切に整理することができます。 ウィジェットの上に青いドットインジケーターが表示され、次の領域でフィルターまたはグループ化がリストに適用されたことを知らせるようになりました。
+高度なリストのレイアウトを使用すると、フィルターとグループ化を使用して作業を表示し、より適切に整理することができます。 ウィジェットの上に表示される青いドットインジケーターで、次の領域でフィルターまたはグループ化がリストに適用されたことを知らせるようになりました。
 
-* 設定の為替レート
 * 自分の要求ウィジェット
 * 優先度
 
