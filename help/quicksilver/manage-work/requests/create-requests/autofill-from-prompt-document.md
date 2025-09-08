@@ -5,9 +5,9 @@ description: AI を使用すると、プロンプトを入力したりドキュ�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 4a22f9ea-c9ee-4947-8683-9989c54903b1
-source-git-commit: 98bb646d7f96ebba57de44194df27d3f6632ab45
+source-git-commit: b8c29ecb30dda449bc604f585a06b5a6663994f9
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1144'
 ht-degree: 11%
 
 ---
@@ -116,6 +116,46 @@ AI は、入力したプロンプトに基づいてリクエストフィール�
    >[!NOTE]
    >
    >レビューされていない提案は、リクエストを送信すると自動的に受け入れられます。
+
+### テキストプロンプトの例
+
+これらの例では、AI が他のプロジェクトを参照できる様々な方法のプロンプトを示しています。
+
+* 過去の顧客キャンペーンの参照
+
+  ```
+  Create a similar campaign request as we did for (Client Company)'s Q2 launch, but this time for their Automotive division. Keep the same deliverable set and audience profile.
+  ```
+
+* 既存のプロジェクトに基づく構築
+
+  ```
+  Use the same setup we had in the (Client Company) project kickoff last spring. I want to run a digital ad campaign targeting the same executive audience, but with updated dates for this quarter.
+  ```
+
+* 過去の成果物からのスタイルの再利用
+
+  ```
+  Prepare a request similar to the (Client Company) summer promotion campaign we ran last year. Focus on social media assets, keep Spanish as the primary language, and adjust the budget to $75,000.
+  ```
+
+* 古いキャンペーンタイプの拡張
+
+  ```
+  Take the (Client Company) webinar series campaign from Q1 as a reference. I want the same registration workflow and assets, but this time the topic is 'AI in Financial Planning' and the audience is young professionals.
+  ```
+
+* 別の製品に対するリクエストの繰り返し
+
+  ```
+  Set up a campaign request just like the (Client Company) rebranding project we handled, but replace with (New Client Company) as the client. Keep all deliverables aligned to corporate branding.
+  ```
+
+* 暗黙の参照を含むナレーション スタイル
+
+  ```
+  We're planning a campaign similar to the holiday social ads we ran last year. Budget should be about 50k, goal is lead generation, and deliverables should include Instagram and TikTok assets.
+  ```
 
 ## アップロードしたドキュメントに基づいて候補を取得します
 
