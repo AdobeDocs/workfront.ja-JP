@@ -7,10 +7,10 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: 8fdf48c5b17a17e4dd1ef2e441659155ae0b9905
+source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 27%
+source-wordcount: '538'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 27%
 >[!IMPORTANT]
 >
 >キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 以下の [ フィードバックの提供 ](#provide-feedback) 節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->&#x200B;>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>>このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
 >* Azure
@@ -55,7 +55,7 @@ ht-degree: 27%
   </tr> 
   <tr> 
    <td role="rowheader"><p>アクセスレベル設定</p></td> 
-   <td><p>レポート、ダッシュボードおよびカレンダーへのアクセスを編集する</p>
+   <td><p>キャンバスダッシュボードを有効にするためのシステム管理者アクセス</p>
   </td> 
   </tr>  
 </tbody> 
@@ -73,9 +73,15 @@ ht-degree: 27%
 
    >[!NOTE]
    >
-   > **キャンバスダッシュボード（ベータ版）に参加** ボタンは、組織がベータ版に招待されている場合にのみ使用できます。
+   > **キャンバスダッシュボード（ベータ版）に参加** ボタンは、システム管理者のみがアクセスできます。 他のすべてのユーザーには、このボタンが非アクティブ状態で表示されます。
 
 1. 「**Beta契約**」ボックスの条件を確認し、「**同意**」をクリックします。 ベータ版に登録されました。 Canvas ダッシュボードからWorkfront データに完全にアクセスできるようになるまで、数分かかる場合があります。
+
+   >[!NOTE]
+   >
+   >ベータ版の用語が承認されると、Workfront環境のすべてのユーザーに対してキャンバスダッシュボード機能が有効になります。 ダッシュボードへの表示および管理アクセス権を持つユーザーは、アクセスレベルに従ってキャンバスダッシュボードを表示および編集できます。<br>
+   >キャンバスダッシュボードのランディングページの表示は、ユーザーに割り当てられたレイアウトテンプレートを介して制御されます。 詳しくは、[ レイアウトテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
+
 
 ## フィードバックの提供
 
