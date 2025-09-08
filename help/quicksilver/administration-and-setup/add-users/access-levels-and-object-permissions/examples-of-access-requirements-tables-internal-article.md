@@ -4,10 +4,10 @@ description: これは、アドビのチームがアクセス要件に使用す�
 author: Alina
 hide: true
 hidefromtoc: true
-source-git-commit: 4745b93e02c9de087afbee752e0303280e52d688
+source-git-commit: 12b7638472b2138896a283283d368b4092a1e67b
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 25%
+source-wordcount: '1138'
+ht-degree: 28%
 
 ---
 
@@ -420,10 +420,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
  </tbody> 
 </table>
 
-このテーブルの情報について詳しくは、[ ドキュメントのアクセス要件 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation) を参照してください。
+このテーブルの情報について詳しくは、[ ドキュメントのアクセス要件 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/licenses-and-roles/access-level-requirements-in-documentation) を参照してください。
 
 
-Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
+Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfront Fusion ライセンス ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
 
 ## 高度なエンタープライズ制御
 
@@ -450,3 +450,37 @@ Adobe Workfront Fusion ライセンスについて詳しくは、[Adobe Workfron
 * サブグループへのグループ管理者の割り当て
 * グループ管理者にサブグループの作成を許可
 
+## プルーフのアクセス要件
+
+## アクセス要件
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
+   <td> <p>任意</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td>  <p>標準</p>
+   <p>作業またはプラン</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">プルーフ権限プロファイル </td> 
+   <td>マネージャー以上</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">プルーフの役割</td> 
+   <td>レビュアー、レビュアー兼承認者、モデレーター、作成者</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">アクセスレベル設定*</td> 
+   <td> <p>ドキュメントへのアクセスを編集</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+&#42;保有しているプラン、役割、またはプルーフ権限プロファイルを確認するには、Workfront または Workfront プルーフの管理者に問い合わせてください。
