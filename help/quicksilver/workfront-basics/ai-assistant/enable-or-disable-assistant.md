@@ -5,10 +5,10 @@ description: AI アシスタントにアクセスできる、組織内のアク�
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: d5693657695b2c0e89a69afc8cf90b34d2036f3e
+source-git-commit: d929599ccdbfb90d731a3dfb9d83d3eb54d345ea
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 29%
+source-wordcount: '218'
+ht-degree: 33%
 
 ---
 
@@ -60,6 +60,3 @@ AI アシスタントを有効または無効にするには、次のアクセ�
 1. **保存**&#x200B;をクリックします。
 1. AI アシスタントを有効にするアクセスレベルごとに、手順 3 ～ 5 を繰り返します。
 
->[!NOTE]
->
->AI 機能がWorkfrontに追加されると、一部の AI 機能はWorkfrontの動作方法の基礎になります。 すべての AI 機能を無効にする機能は、近い将来に廃止される可能性があります。
