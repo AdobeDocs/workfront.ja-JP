@@ -5,7 +5,7 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
+source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
 workflow-type: tm+mt
 source-wordcount: '1949'
 ht-degree: 17%
@@ -291,7 +291,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md" class="MCXref xref" xrefformat="{para}"> 統合リクエストリストの新しい結合ステータス列 </a><p></p>
-            <p>統一されたリクエストエクスペリエンスを簡素化するために、ステータス列にリクエストステータスと承認ステータスの両方が表示されるようになりました。どちらか、特定のリクエストに適用される方が表示されます。</p>
+            <p>統一されたリクエストエクスペリエンスを簡素化するために、ステータス列にリクエストステータスと承認ステータスの両方（特定のリクエストに適用される方）が表示されるようになりました。</p>
         </td>
         <td>2025年8月28日（PT）</td>
         <td>2025年9月11日（PT）</td>
@@ -419,7 +419,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 

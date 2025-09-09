@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: c7c958b09caf7e15f128a729f6b327f6c3fa21e8
+source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
 workflow-type: tm+mt
 source-wordcount: '263'
 ht-degree: 18%
@@ -26,7 +26,7 @@ ht-degree: 18%
 >* 実稼動高速リリース：2025 年 9 月 11 日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
-統一されたリクエストエクスペリエンスを簡素化するために、ステータス列にリクエストステータスと承認ステータスの両方（特定のリクエストに適用されるいずれか）が表示されるようになりました。
+統一されたリクエストエクスペリエンスを簡素化するために、ステータス列にリクエストステータスと承認ステータスの両方（特定のリクエストに適用される方）が表示されるようになりました。
 
 リクエストの作成について詳しくは、以下を参照してください。
 
