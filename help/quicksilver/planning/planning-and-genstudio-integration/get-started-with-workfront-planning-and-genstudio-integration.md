@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing Workspace は、会社が両方
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '1855'
+source-wordcount: '1899'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合が存在す�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing ユーザーの役割</p></td> 
    <td><p><ul><li>キャンペーン、製品およびペルソナにアクセスするためのGenStudio ユーザーロール</li>
    <li>アクティベーションとイベントにアクセスするための GenSudio System Manager</li></ul>
-   詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
+   詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
    </p>
   </td> 
   </tr>   
@@ -146,15 +146,18 @@ Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenSt
     <td role="rowheader"><p>Workfrontの 1 つのインスタンス</p></td> 
    <td> 
 <p>GenStudio Workspace は、Workfront Planning のインスタンスに表示されます</p>
-<p>Workfront管理者には、Planning のGenStudio Workspace に対する管理権限があります</p>
-<p>他のすべてのユーザーは、Planning のGenStudioワークスペースへの Contribute アクセス権を持っています</p>
+<p>Workfront管理者を含むすべてのユーザーは、デフォルトで Planning のGenStudio Workspace への投稿アクセス権を持っています</p>
+<p>Workfront管理者は、GenStudio Workspace の管理権限を変更して任意のユーザーに付与できます</p>
 </td> </tr>
    <tr> 
 <td> 
    <p> Workfrontの複数のインスタンス</p> </td> 
    <td> 
    <p>GenStudio Workspace は、すべてのWorkfront インスタンスから表示されます</p>
-<p>GenStudio for Performance MarketingおよびWorkfront Planning へのアクセス権を持つすべてのユーザーには、Planning のGenStudioに対する投稿権限があります</p> </td> 
+<p>GenStudio for Performance MarketingおよびWorkfront Planning へのアクセス権を持つすべてのユーザーには、デフォルトで Planning のGenStudioに対する投稿権限があります</p> 
+<p>Workfront管理者は、GenStudio Workspace に対する管理権限を誰にも付与できません</p>
+
+</td> 
   </tr>
    </tbody> 
 </table>
@@ -199,6 +202,8 @@ Workfront Planning の権限については、[Adobe Workfront Planning での�
    * GenStudio レコードタイプに関する情報（外観、詳細設定）を編集します。
    * GenStudio レコードタイプを他のユーザーと共有する。
    * レコードタイプを作成します。 これらのレコードタイプは、Workfront Planning にのみ残ります。 GenStudioには表示されません。
+   * GenStudio Workspace のレコードを他のワークスペースから接続できるようにします。
+   * GenStudio ワークスペースのレコードを他のワークスペースに追加できるようにします。
 * Planning のGenStudioワークスペースに対する投稿権限がある場合、Planning からGenStudioレコード・タイプを変更できません。
 
 ### GenStudio Workspace のレコード

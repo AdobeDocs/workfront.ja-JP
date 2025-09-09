@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 78%
+source-wordcount: '481'
+ht-degree: 72%
 
 ---
 
@@ -94,3 +94,5 @@ ht-degree: 78%
 * フィールド名は最大 250 文字まで指定できます。
 
 * レコードタイプまたはワークスペースを削除すると、それらに関連付けられたすべてのフィールドとフィールドの値も削除され、復元できなくなります。<!-- this might change with a possible recycle bin solution?!-->
+* 数式の一部であるフィールドを削除すると、数式フィールドが変更されます。
+* 数式を変更し、その数式フィールドが他の数式フィールドで参照されている場合、追加の数式も影響を受けます。

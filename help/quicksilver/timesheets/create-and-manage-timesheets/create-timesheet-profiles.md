@@ -3,19 +3,21 @@ product-area: timesheets;system-administration
 navigation-topic: create-and-manage-timesheets
 title: タイムシートプロファイルの作成、編集および割り当て
 description: 追加の介入なしに、ユーザーに対して定期タイムシートを生成するタイムシートプロファイルを作成および編集し割り当てることができます。これにより、時間を節約し、ユーザー間の一貫性を確保できます。
-author: Alina
+author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 5590477efa2beb6590581ce9e5e33e264fb95390
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 82%
+source-wordcount: '1610'
+ht-degree: 79%
 
 ---
 
 # タイムシートプロファイルの作成、編集および割り当て
 
 <!--Audited: 06/2025-->
+
+<!--at the Prod release, remove the Production and Preview references from this article-->
 
 <!--<div class="preview">
 
@@ -91,10 +93,10 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
    既存のタイムシートプロファイルを編集するには、編集するタイムシートプロファイルを選択し、「**編集**」をクリックします。
 
-   新規または既存のタイムシートプロファイルが表示されます。
+   新規または既存の定期タイムシート ページが表示されます。
 
 
-1. 「**詳細を設定**」タブをクリックして、次の情報を更新します。
+1. 「**詳細を設定**」タブをクリックして、次の情報を更新します。<!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
 
    <table style="table-layout:auto"> 
     <col> 
@@ -102,7 +104,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>名前</strong> </td> 
-      <td> <p> 定期タイムシートの名前を追加します。 タイムシートと同じ期間を共有するユーザーがいるチームまたはグループの名前を指定できます。 </p> </td> 
+      <td> <p> 定期タイムシートの名前を追加します。 タイムシートと同じ期間を共有するユーザーがいるチームまたはグループの名前を指定できます。 </p> <p>必須フィールドです。</p> </td> 
      </tr>
 
    <tr> 
@@ -111,10 +113,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       </p> </td> 
      </tr>
 
-
-
    <tr> 
-      <td role="rowheader"><strong>管理アクセス権限を持ったグループ</strong> </td> 
+   <td role="rowheader"><strong>管理アクセス権限を持ったグループ</strong> </td> 
       <td> <p> 
       <ul> 
       <li> <p>システムレベルのタイムシートプロファイルを作成する場合は、このフィールドを空白のままにします。</p> <p>ユーザーアカウントを編集できるユーザーは、システムレベルのタイムシートを他のユーザーに添付できます。</p> <p>システムレベルのタイムシートプロファイルを編集できるのは、Workfront 管理者だけです。</p> </li> 
@@ -132,7 +132,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 
    <p><b>メモ</b>：Workfront は常に 2 つのタイムシートを一度に作成します。最初のタイムシートには常に現在の日付が含まれ、2 番目のタイムシートは最初のタイムシートの時間枠が終わった時点で開始されます。</p> </p> </td> 
-    </tr> 
+   </tr> 
      <tr> 
       <td role="rowheader"><p><strong>承認者</strong></p> </td> 
       <td> <p> <p>承認者とは、タイムシートに関連付けられたユーザーのタイムシートを承認するユーザーです。タイムシートでは、最大 7 人のユーザーを承認者として指定できます。複数のユーザーを指定しておくと、承認者の不在時に別の承認者を確実に利用することができます。ユーザーがタイムシートを承認のために送信すると、すべての承認者に通知が届きます。タイムシートの承認に必要なのは、1 人のユーザーの承認のみです。</p> <p>承認者として設定できるのは、タイムシートの管理権限を持つユーザーのみです。タイムシートの管理権限について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">ユーザーに対する特定のエリアへの管理アクセス権の付与</a>を参照してください。</p> <p>ドロップダウンメニューを使用して、タイムシートの承認者を選択します（承認者が必要な場合）。以下のオプションから選択できます。</p> 
@@ -146,9 +146,9 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><strong>時間を編集可能</strong> </td> 
       <td> <p> <p>承認者がタイムシートの時間を編集できるようにするには、このオプションを選択します。
 
-   これは、設定／タイムシートと時間／環境設定領域の「**タイムシートの編集を所有者と管理者に制限**」とともに機能します。詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。
+   <p>このオプションは、設定/タイムシートと時間/環境設定領域の**タイムシートの編集を所有者と管理者に制限する**設定と連携して機能します。 詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。</p>
 
-   次のシナリオが存在します。
+   <p>次のシナリオが存在します。 </p>
 
    <ul>
       <li>「<b>タイムシートの編集を所有者と管理者に制限</b>」オプションが有効な場合は、以下のようになります。</li>
@@ -182,7 +182,11 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
     </table>
 
-1. 「**ユーザーの割り当て**」タブをクリックし、タイムシートプロファイルを特定のユーザー、グループ、または（Workfront 管理者の場合は）チームに関連付けます。ユーザー、グループ、またはチームの名前の入力を開始し、ドロップダウンリストに表示されたらクリックします。
+1. <!--In the Production environment, or when creating group-level timesheet profiles,--> 「**ユーザーを割り当て**」タブをクリックして、タイムシートプロファイルを特定のユーザー、グループまたは（Workfrontの管理者の場合）チームに関連付けます。<!--Keep the reference to the group upon release to Prod-->
+
+   <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
+
+   ユーザー、グループ、またはチームの名前の入力を開始し、ドロップダウンリストに表示されたらクリックします。
 
    グループ管理者は、自分が管理するグループにタイムシートプロファイルを割り当てることができますが、チームに割り当てることはできません。詳しくは、この記事内の[タイムシートプロファイルを割り当てるグループ管理者の制限](#limitations-for-a-group-administrator-assigning-a-timesheet-profile)を参照してください。
 
@@ -229,4 +233,4 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * 異なるユーザーのセットに対する一意の承認者
 * 異なるユーザーのセットに対する一意の一般的な時間数の要件
 
-1 人のユーザーを一度に複数のタイムシートプロファイルに関連付けることはできません。 
+1 人のユーザーを一度に複数のタイムシートプロファイルに関連付けることはできません。
