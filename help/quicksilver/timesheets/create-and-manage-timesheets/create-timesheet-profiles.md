@@ -146,7 +146,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
       <td role="rowheader"><strong>時間を編集可能</strong> </td> 
       <td> <p> <p>承認者がタイムシートの時間を編集できるようにするには、このオプションを選択します。
 
-   <p>このオプションは、設定/タイムシートと時間/環境設定領域の**タイムシートの編集を所有者と管理者に制限する**設定と連携して機能します。 詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。</p>
+   <p>このオプションは、設定/タイムシートと時間/環境設定領域の&#x200B;**タイムシートの編集を所有者と管理者に制限する**&#x200B;設定と連携して機能します。 詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。</p>
 
    <p>次のシナリオが存在します。 </p>
 
@@ -182,7 +182,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
     </tbody> 
     </table>
 
-1. <!--In the Production environment, or when creating group-level timesheet profiles,--> 「**ユーザーを割り当て**」タブをクリックして、タイムシートプロファイルを特定のユーザー、グループまたは（Workfrontの管理者の場合）チームに関連付けます。<!--Keep the reference to the group upon release to Prod-->
+1. &#x200B;<!--In the Production environment, or when creating group-level timesheet profiles,--> 「**ユーザーを割り当て**」タブをクリックして、タイムシートプロファイルを特定のユーザー、グループまたは（Workfrontの管理者の場合）チームに関連付けます。<!--Keep the reference to the group upon release to Prod-->
 
    <!--<span class="preview">In the Preview environment when creating timesheet profiles for the system, scroll towards the bottom of the page to find the Assign People section.</span>--> <!--Keep the reference to the system when releasing to Prod-->
 
