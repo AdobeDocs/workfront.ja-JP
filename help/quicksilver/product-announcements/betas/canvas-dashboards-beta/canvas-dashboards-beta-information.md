@@ -7,10 +7,10 @@ author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
-source-git-commit: db08403c62cc85d6ccb705bb84c9c277e94f8635
+source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
 workflow-type: tm+mt
-source-wordcount: '538'
-ht-degree: 22%
+source-wordcount: '563'
+ht-degree: 21%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 22%
 >[!IMPORTANT]
 >
 >キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 以下の [ フィードバックの提供 ](#provide-feedback) 節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->&#x200B;>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>>このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
 >* Azure
