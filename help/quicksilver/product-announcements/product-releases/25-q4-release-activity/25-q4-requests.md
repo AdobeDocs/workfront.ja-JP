@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 18%
+source-wordcount: '318'
+ht-degree: 15%
 
 ---
 
@@ -49,6 +49,11 @@ WorkfrontとWorkfront Planning でリクエストを行う際のユーザーエ�
 * 送信済みリクエストリストの列の非表示と並べ替え
 
 この更新では、ページのルックアンドフィールの変更も取り上げています。
+
+新しいリクエスト機能を使用する際は、次の点に注意してください。
+
+* ドラフトが、送信済みリクエストと同じリストに表示されるようになりました
+* 新しいエクスペリエンスでは現在、過去 1.5 か月間に作成されたリクエストのみが表示されます。 古いリクエストを表示するには、新しいエクスペリエンスを一時的に無効にし、古いエクスペリエンスから古いリクエストにアクセスします。
 
 以前は、WorkfrontとWorkfrontの計画リクエストは別々のタブに表示され、フィルターをカスタマイズすることはできませんでした。
 

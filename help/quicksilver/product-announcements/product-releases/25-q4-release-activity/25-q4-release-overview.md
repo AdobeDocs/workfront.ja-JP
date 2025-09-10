@@ -5,10 +5,10 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 9be63f4242db71b2e08ae528f39d639f8f59c75c
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '1949'
-ht-degree: 17%
+source-wordcount: '1966'
+ht-degree: 16%
 
 ---
 
@@ -189,6 +189,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                 <li>Workfront Planning との統合による資源配分の可視化</li>
             </ul>
             </p>
+            <p>新しい自分のリクエスト ウィジェットには、新しいリクエスト エクスペリエンスで作成されたリクエストのみが表示されます。</p>
         </td>
         <td>2025年8月21日（PT）</td>
         <td>2025年9月11日（PT）</td>
@@ -419,7 +420,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 

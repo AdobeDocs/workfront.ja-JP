@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 2d8c5d2b-a026-4741-b907-aac4c0eac98f
-source-git-commit: 2fe55f61bd24ebb3ecfe09fff29c4aad2ca33608
+source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 29%
+source-wordcount: '219'
+ht-degree: 25%
 
 ---
 
@@ -34,4 +34,8 @@ WorkfrontとWorkfront Planning の間でよりシームレスなエクスペリ�
 
 新しいウィジェットを表示するには、新しい要求エクスペリエンスを有効にする必要があります。 「リクエスト」領域で新しいリクエスト用エクスペリエンスを有効にできます。
 
+新しい自分のリクエスト ウィジェットには、新しいリクエスト エクスペリエンスで作成されたリクエストのみが表示されます。
+
 新しいマイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+
+新しいリクエスト対象エクスペリエンスに関するリリースノートについては、[ リクエスト対象エクスペリエンスの更新 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience) を参照してください。
