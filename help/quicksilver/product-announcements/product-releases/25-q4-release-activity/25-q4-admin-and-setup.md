@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a4aa7a6f8909dc3f7212f78391f28068d50a2786
+source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 18%
+source-wordcount: '408'
+ht-degree: 17%
 
 ---
 
@@ -35,6 +35,11 @@ ht-degree: 18%
 AI 機能を有効にするための前提条件については、[AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 
 ## Workfront ユーザープロファイルの更新
+
+>[!IMPORTANT]
+>
+>この更新は、プレビューおよび実稼動から一時的に削除されています。
+
 
 >[!NOTE]
 >
