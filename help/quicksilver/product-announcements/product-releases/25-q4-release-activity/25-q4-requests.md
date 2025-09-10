@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f9e1bfc5670754a8fc4aafb360b41c2721de4154
+source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 15%
+source-wordcount: '341'
+ht-degree: 14%
 
 ---
 
@@ -50,9 +50,9 @@ WorkfrontとWorkfront Planning でリクエストを行う際のユーザーエ�
 
 この更新では、ページのルックアンドフィールの変更も取り上げています。
 
-新しいリクエスト機能を使用する際は、次の点に注意してください。
+新しいリクエスト機能を使用する場合は、次の点に注意してください。
 
-* ドラフトが、送信済みリクエストと同じリストに表示されるようになりました
+* 現在、ドラフトは、従来のリクエストエクスペリエンスでのみ検索できます。 新しいエクスペリエンスでは、同じパスにドラフトがある場合、ワークフローキュー内でのみドラフトを表示できます。
 * 新しいエクスペリエンスでは現在、過去 1.5 か月間に作成されたリクエストのみが表示されます。 古いリクエストを表示するには、新しいエクスペリエンスを一時的に無効にし、古いエクスペリエンスから古いリクエストにアクセスします。
 
 以前は、WorkfrontとWorkfrontの計画リクエストは別々のタブに表示され、フィルターをカスタマイズすることはできませんでした。
