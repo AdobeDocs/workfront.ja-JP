@@ -52,7 +52,7 @@ ht-degree: 96%
 
 このアドオンは、[!UICONTROL サーバー]および[!UICONTROL OnDemand]（または[!UICONTROL クラウド]）の [!DNL Jira] ソフトウェアのバージョンの両方で使用できます。
 
-[!DNL Jira] が現在サポートしている [!DNL Workfront for Jira] のバージョンのリストについて、](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview)[!DNL Atlassian Marketplace] での [[!DNL Workfront for Jira] を参照してください。
+[!DNL Jira] が現在サポートしている [!DNL Workfront for Jira] のバージョンのリストについて、[&#128279;](https://marketplace.atlassian.com/apps/1218653/workfront-for-jira?hosting=cloud&tab=overview) [!DNL Atlassian Marketplace] での [!DNL Workfront for Jira] を参照してください。
 
 ## アクセス要件
 
