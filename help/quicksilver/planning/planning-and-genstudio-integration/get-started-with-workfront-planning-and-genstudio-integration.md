@@ -4,9 +4,9 @@ description: GenStudio for Performance Marketing Workspace は、会社が両方
 hide: true
 hidefromtoc: true
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1899'
+source-wordcount: '1906'
 ht-degree: 1%
 
 ---
@@ -34,7 +34,7 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
-Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの両方を使用している組織では、多くの場合、キャンペーン、商品、ペルソナなどのマーケティング概念を、GenStudioがデフォルトでサポートしている概念よりも詳細に定義しています。
+Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの両方を使用している組織では、多くの場合、キャンペーン、製品、アクティベーション、ペルソナなどのマーケティング概念を、GenStudioがデフォルトでサポートしている概念よりも詳細に定義しています。
 
 GenStudio for Performance MarketingとWorkfront Planning はネイティブで統合されています。 この統合により、Workfront Planning のユーザーはGenStudioで使用されるキャンペーン、製品、ペルソナ、アクティベーション、チャネルおよびリージョンを管理できるようになります。 また、Workfront Planning から既存のレコードタイプを参照するようにGenStudioを設定して、より接続された一貫性のあるマーケティングワークフローを作成することもできます。
 
@@ -47,8 +47,8 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 <!--check this list and ensure it's accurate and add/ remove some of the benefits-->
 
 * Workfront Planning でGenStudioワークスペースを表示します。
-* GenStudio for Performance Marketingのキャンペーンを変更し、Workfront Planning で同じ情報をリアルタイムで更新します。
-* Workfront Planning でキャンペーンを変更し、GenStudio for Performance Marketingで同じ情報をリアルタイムで更新します。
+* GenStudio for Performance Marketingでキャンペーン、商品、ペルソナ、アクティベーションを変更し、Workfront Planning で同じ情報をリアルタイムに更新します。
+* Workfront Planning でキャンペーン、商品、ペルソナ、およびアクティベーションを変更し、GenStudio for Performance Marketingで同じ情報をリアルタイムで更新します。
 * 重複するデータ入力を避けます。
 * 計画とアクティブ化の取り組み間の整合性を維持します。
 
@@ -102,8 +102,8 @@ Workfront Planning とGenStudio for Performance Marketingの統合が存在す�
 <tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing ユーザーの役割</p></td> 
    <td><p><ul><li>キャンペーン、製品およびペルソナにアクセスするためのGenStudio ユーザーロール</li>
-   <li>アクティベーションとイベントにアクセスするための GenSudio System Manager</li></ul>
-   詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
+   <li>アクティベーションにアクセスするための GenSudio System Manager <!--and Events--></li></ul>
+   詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
    </p>
   </td> 
   </tr>   

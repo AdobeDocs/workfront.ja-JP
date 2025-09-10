@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '2688'
 ht-degree: 37%
@@ -246,6 +246,8 @@ ht-degree: 37%
 1. <span class="preview"> レコードのバーの端にポインタを合わせ、クリックして、余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。</span>
 
    <span class="preview">![ サイズを変更するタイムラインビューの左端のバー ](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
+
+<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
 
 1. レコードのバーをクリックして、その詳細領域を開き、すべてのフィールドを編集します。
 

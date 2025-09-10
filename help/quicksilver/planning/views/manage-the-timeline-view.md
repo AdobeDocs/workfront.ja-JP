@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '3910'
-ht-degree: 39%
+source-wordcount: '3920'
+ht-degree: 38%
 
 ---
 
@@ -114,13 +114,6 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    * 開始日または終了日のどちらかに値がない場合
    * 開始日が終了日より後の場合
 
-<div class="preview">
-
-* タイムラインビューでレコードを作成および編集できます。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
-* タイムラインビューでレコードのバーのサイズを変更するには、レコードの余白をクリックし、新しい位置にドラッグ&amp;ドロップします。 レコードのバーのサイズを変更すると、開始日と終了日が直ちに更新されます。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
-
-</div>
-
 タイムラインビューを管理するには：
 
 1. タイムラインを表示するレコードタイプページに移動します。
@@ -203,6 +196,20 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 1. （任意） **分類** をクリックして、接続されたレコードをタイムラインに表示します。
 
    詳しくは、この記事の [ 分類機能を使用して接続されたレコードをタイムライン ビューに表示する ](#break-down-connected-records-in-the-timeline-view) の節を参照してください。
+1. <span class="preview"> タイムラインビューでレコードを作成したり、日付を編集したりするには、次のいずれかの操作を行います。</span>
+
+   * <span class="preview"> タイムライン上の任意の場所をダブルクリックして、レコードを作成します。</span>
+
+     <span class="preview"> 詳しくは、[ レコードの作成 ](/help/quicksilver/planning/records/create-records.md) を参照してください。</span>
+
+   * <span class="preview"> レコードバーの端をクリックして、新しい位置にドラッグ&amp;ドロップします。 レコードのバーのサイズを変更すると、開始日と終了日が直ちに更新されます。</span>
+
+     <span class="preview"> 詳しくは、[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md) を参照してください。</span>
+
+   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
+
+
 
 ### フィルターを追加
 

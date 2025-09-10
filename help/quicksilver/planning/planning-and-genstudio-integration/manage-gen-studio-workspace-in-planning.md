@@ -4,9 +4,9 @@ description: 会社が両方の製品を購入し、GenStudio for Performance Ma
 hide: true
 hidefromtoc: true
 exl-id: d6140b05-26c3-4298-a2f9-53695aa021cb
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1337'
+source-wordcount: '1335'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ GenStudioとWorkfront Planning の統合に関する一般的な情報につい�
 >[!IMPORTANT]
 >
 >ここでは、管理権限を持っている場合にWorkfront Planning からGenStudio Workspace を更新する手順について説明します。
->&#x200B;> GenStudio Workspace に対する投稿権限を持っている場合、すべての機能が使用できるわけではありません。
+>> GenStudio Workspace に対する投稿権限を持っている場合、すべての機能が使用できるわけではありません。
 >
 >会社にWorkfrontの複数のインスタンスがある場合、すべてのユーザーはWorkfront Planning のGenStudio Workspace で投稿権限を取得します。
 
@@ -78,8 +78,8 @@ GenStudioとWorkfront Planning の統合に関する一般的な情報につい�
 <tr> 
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing ユーザーの役割</p></td> 
    <td><p><ul><li>キャンペーン、製品およびペルソナにアクセスするためのGenStudio ユーザーロール</li>
-   <li>アクティベーションとイベントにアクセスするための GenSudio System Manager</li></ul>
-   詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
+   <li>アクティベーションにアクセスするための GenSudio System Manager <!--and Events--></li></ul>
+   詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
    </p>
   </td> 
   </tr>   

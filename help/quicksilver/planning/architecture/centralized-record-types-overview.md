@@ -3,7 +3,7 @@ title: 一元化されたレコードタイプの概要
 description: 一元化されたレコードタイプは、Adobe Workfront Planning の中央またはプライマリワークスペースから複数のワークスペースに追加できます。
 hidefromtoc: true
 hide: true
-source-git-commit: 9b95b5a52576327a3df8d6955925b96c2e45848f
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 1%
@@ -96,7 +96,7 @@ recommendations: noDisplay, noCatalog
 
    * 編集
 
-     その外観、クロスワークスペース機能、元のワークスペースから読み込まれたフィールドは編集できません。
+     その外観、ワークスペース間機能、元のワークスペースから追加したフィールドは編集できません。
    * リクエストフォームの作成
    * リクエストフォームを管理
 

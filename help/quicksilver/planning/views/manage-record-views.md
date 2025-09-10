@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 38c397594449856a0f1404848a527b86083654b8
 workflow-type: tm+mt
-source-wordcount: '1211'
+source-wordcount: '1216'
 ht-degree: 45%
 
 ---
@@ -52,7 +52,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -119,7 +119,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++   
 
 ## レコードビューを使用する際の考慮事項
 
@@ -170,6 +170,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 | レコードを週別に表示 |           |               | ✓ |
 | ビューからの情報のエクスポート | ✓ |               |    |
 | <span class="preview"> 全画面表示 </span> | ✓ | ✓ | ✓ |
+| <span class="preview"> ビューでのレコードの作成 </span> | ✓ | ✓ | ✓ |
 
 ## ビューを作成または編集 {#create-or-edit-views}
 
@@ -187,6 +188,12 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
 1. 「**+ ビュー**」をクリックして、新しいビューを追加します。
+
+   <!--at preview release, replace the step above with this one: 
+    1. Depending on which environment you use, do the following: 
+    * In the Production environment, click the **+View** tab. 
+    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
+
 1. 次のタイプのビューから選択します。
 
    * テーブル
@@ -206,6 +213,8 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 >
 >それ以外の場合は、「タイムライン」および「カレンダー」オプションは淡色表示になります。
 >
+
+<!-- replace screen shot at production??-->
 
 ![ レコードタイプリストからの表示タイプドロップダウン ](assets/view-types-drop-down-from-record-type-list.png)
 
