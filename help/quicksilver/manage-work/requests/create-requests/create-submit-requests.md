@@ -6,10 +6,10 @@ description: 予定作業は、Adobe Workfront ではプロジェクトとタス
 author: Alina
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '2841'
-ht-degree: 77%
+source-wordcount: '2856'
+ht-degree: 76%
 
 ---
 
@@ -163,6 +163,7 @@ Workfront web アプリでリクエストを作成するには：
    >* <span class="preview"> リストには、Workfront リクエストキューとWorkfront Planning リクエストフォームの両方が含まれています。</span>
    >* <span class="preview"> オブジェクトタイプでリストをフィルタリングできます。</span>
    >* <span class="preview">Workfront リクエストキューのみを表示するには、`Issue` のオブジェクトタイプでフィルタリングします。</span>
+   >* <span class="preview"> 新しいリクエストエクスペリエンスでは、ドラフトは送信されたリクエストと同じリストに見つかります。</span>
 
 1. （条件付き）Workfront Planning を含む新しいエクスペリエンスに切り替えた場合は、トピックグループとキューのトピックを選択して、フォームの更新を続行します。
 

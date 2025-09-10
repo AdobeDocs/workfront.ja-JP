@@ -6,14 +6,16 @@ description: 新しいリクエストを入力する際に Workfront が提案�
 author: Alina
 feature: Work Management
 exl-id: 664004e7-04c8-4a1f-b682-7b82d349643d
-source-git-commit: 0ffae8ed285f6e9164a239552feb90465bea3cca
+source-git-commit: 2c2ccbadd6470773808bbd5a205310fbb1e1944e
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 94%
+source-wordcount: '687'
+ht-degree: 84%
 
 ---
 
 # ドラフトからリクエストを作成
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
 新しいリクエストを入力する際に Workfront が提案する利用可能なドラフトを使用する以外に、「ドラフト」セクションからドラフトリクエストにアクセスし、そこから送信を完了することもできます。
 
@@ -105,3 +107,9 @@ ht-degree: 94%
      ![](assets/nwe-submit-close-discard-draft-buttons-on-new-request-350x340.png)
 
      リクエストを送信すると、ドラフトは削除され、復元できません。
+
+   >[!NOTE]
+   >
+   >* <span class="preview"> 新しいリクエスト用エクスペリエンスでは、ドラフトは送信されたリクエストと同じリストにあります。</span>
+   ><span class="preview"> 新しいエクスペリエンスでのリクエストの作成について詳しくは、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md#create-requests-and-generate-drafts-in-the-workfront-web-app) の記事「Workfront Web アプリでのリクエストの作成とドラフトの生成」を参照してください。</span>
+
