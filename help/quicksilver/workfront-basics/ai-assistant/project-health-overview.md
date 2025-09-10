@@ -7,10 +7,10 @@ feature: Get Started with Workfront
 exl-id: e4d200c6-7f35-4919-96d3-2880a655ed62
 hide: true
 hidefromtoc: true
-source-git-commit: 97b2118b1897f75dea0e45758e3d7f7c3409b234
+source-git-commit: 16e8213197e881d4d7b1a4b1bf8d3a43438ab938
 workflow-type: tm+mt
-source-wordcount: '1862'
-ht-degree: 3%
+source-wordcount: '1488'
+ht-degree: 4%
 
 ---
 
@@ -121,18 +121,47 @@ AI アシスタントの詳細については、「[AI アシスタントの概�
     <tr>
         <td><b>プロジェクト状況</b></td>
         <td><b>プロジェクトの進捗ステータス</b></td>
+        <td><b>プロジェクト状況の要因</b></td>
     </tr>
     <tr>
         <td>目標どおり</td>
-        <td>プロジェクトの進捗ステータスが「時間通り」の場合、プロジェクトの状態は「目標通り」になります。</td>
+        <td>この分析は、次の要因の平均リスクレベルが正常なしきい値の範囲内にある場合に割り当てられます。
+        </td>
+        <td> 
+        <ul><li>スコープクリープ</li>
+        <li>フィールドがありません</li>
+        <li>スケジュールの変更</li>
+        <li>過小評価された仕事</li>
+        <li>プロジェクト進行状況</li>
+        <li>期限切れタスク</li>
+        <li>予算</li>
+        </ul></td>
     </tr>
     <tr>
         <td>リスクあり</td>
-        <td>プロジェクトの進捗ステータスが「遅れている」または「危険」の場合、プロジェクトの状態は「危険」になります。</td>
+        <td>この分析は、次の要因の平均リスクレベルが正常なしきい値を下回った場合に割り当てられます。</td>
+        <td>
+        <ul><li>スコープクリープ</li>
+        <li>フィールドがありません</li>
+        <li>スケジュールの変更</li>
+        <li>過小評価された仕事</li>
+        <li>プロジェクト進行状況</li>
+        <li>期限切れタスク</li>
+        <li>予算</li>
+        </ul></td>
     </tr>
     <tr>
         <td>トラブル発生中</td>
-        <td>プロジェクトの進捗ステータスが「遅延」の場合、プロジェクトの状態は「危険」になります。</td>
+        <td>この分析は、次の要因の平均リスクレベルが正常なしきい値を下回った場合に割り当てられます。</td>
+        <td>
+        <ul><li>スコープクリープ</li>
+        <li>フィールドがありません</li>
+        <li>スケジュールの変更</li>
+        <li>過小評価された仕事</li>
+        <li>プロジェクト進行状況</li>
+        <li>期限切れタスク</li>
+        <li>予算</li>
+        </ul></td>
     </tr>
     </tr>
    </table>
@@ -264,57 +293,60 @@ AI アシスタントの詳細については、「[AI アシスタントの概�
 
 1. プロジェクトの正常性の詳細を確認した後、AI アシスタントの右上隅にある **閉じる** アイコン ![ 閉じるアイコン ](assets/close-icon.png) をクリックして、プロジェクトを閉じます。
 
+<!--
 
-## キャンバスダッシュボードでのプロジェクトの正常性テーブルレポートの作成
+## Build a Project Health table report in a Canvas Dashboard
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+>The Canvas Dashboards feature is currently only available for users participating in the beta stage. For more information, see [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md). 
 
-キャンバスダッシュボードにテーブルレポートを追加すると、プロジェクトの正常性データをテーブル形式で簡単に視覚化できます。
+You can add a table report to a Canvas Dashboard in order to easily visualize your Project Health data in a table format.  
 
-### 前提条件
+### Prerequisites 
 
-テーブル レポートを作成するには、ダッシュボードを作成する必要があります。
+You must create a dashboard before you can build a table report. 
 
-詳しくは、[ キャンバスダッシュボードの作成 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md) を参照してください。
+For more, see [Create a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/create-dashboards/create-dashboards.md).
 
-### プロジェクト正常性テーブル レポートを作成します
+### Build a Project Health table report 
 
-プロジェクトの正常性テーブルレポートを作成するために使用できる設定オプションは多数あります。 この節では、次の列を表示する列を作成するプロセスについて説明します。
+There are many configuration options available for building a Project Health table report. In this section, we'll walk you through the process of creating one that displays the following columns: 
 
-* **名前**: プロジェクト名が含まれます。
-* **プロジェクト正常性分析**: プロジェクト正常性評価の概要が含まれています。
-* **プロジェクト正常性作成時刻**: プロジェクト正常性評価が最後に生成された日時が含まれます。
-* **プロジェクト正常性ラベル**：プロジェクトのラベルが含まれます（例：（目標通り、危険あり、トラブル発生中）。
+* **Name**: Contains the project name. 
+* **Project Health Analysis**: Contains a summary of the Project Health assessment. 
+* **Project Health Created At**: Contains the date/time when the Project Health assessment was last generated. 
+* **Project Health Label**: Contains the project's label (e.g. On Target, At Risk, or In Trouble).
 
 {{step1-to-dashboards}}
 
-1. 左側のパネルで、「**キャンバスダッシュボード**」をクリックします。
-1. 右上隅の「**新しいダッシュボード**」をクリックします。
-1. **ダッシュボードを作成** ボックスに、ダッシュボードの **名前** と **説明** を入力します。
-1. 「**作成**」をクリックします。
-1. **レポートを追加** ボックスで、「**レポートを作成**」を選択します。
-1. 左側で「**テーブル**」を選択します。
-1. 右上隅の「**レポートを作成**」をクリックします。
-1. （オプション）次の手順に従って、「**詳細**![ 詳細アイコン ](assets/details-icon.png) セクションを設定します。
-   1. レポート **名前** を入力します。
-   1. レポート **説明** を入力します。
-1. 以下の手順に従って、**テーブルを作成**![ テーブルを作成アイコン ](assets/drilldown-column.png) セクションを設定します。
-   1. 左側のパネルで、「**テーブル列** アイコンをクリックします。
-   1. **列を追加** をクリックし、**プロジェクト**/**名前** を選択します。
-   1. **列を追加** をクリックし、**プロジェクト**/**プロジェクトの正常性**/**正常性分析** を選択します。
-   1. **列を追加** をクリックし、**プロジェクト**/**プロジェクトの正常性**/**作成日** を選択します。
-   1. **列を追加** をクリックし、**プロジェクト**/**プロジェクトの正常性**/**正常性ラベル** を選択します。
+1. In the left panel, click **Canvas Dashboards**. 
+1. In the upper-right corner, click **New Dashboard**. 
+1. In the **Create dashboard** box, enter the dashboard's **Name** and **Description**. 
+1. Click **Create**. 
+1. In the **Add report** box, select **Create report**. 
+1. On the left side, select **Table**. 
+1. In the upper-right corner, click **Create report**. 
+1. (Optional) Follow the steps below to configure the **Details** ![Details icon](assets/details-icon.png) section: 
+    1. Enter a report **Name**. 
+    1. Enter a report **Description**. 
+1. Follow the steps below to configure the **Build table** ![Build table icon](assets/drilldown-column.png) section: 
+    1. In the left panel, click the **Table columns** icon. 
+    1. Click **Add column**, then select **Project** > **Name**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Analysis**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Created At**. 
+    1. Click **Add column**, then select **Project** > **Project Health** > **Health Label**. 
 
-1. 次の手順に従って、「**フィルター**![ フィルターアイコン ](assets/filter-icon.png)」セクションを設定します。
-   1. 左側のパネルで「**フィルター**」アイコンをクリックします。
-   1. **フィルターを編集** を選択します。
-   1. 「**条件を追加**」をクリックして、フィルターに使用するフィールドと、フィールドが満たす必要がある条件の種類を定義する修飾子を指定します。 この列は、右側のプレビューセクションに表示されます。
-   1. （任意）「**フィルターグループを追加**」をクリックして、別のフィルター条件セットを追加します。 セット間のデフォルトの演算子は AND です。演算子をクリックして OR に変更します。
+1. Follow the steps below to configure the **Filter** ![Filter icon](assets/filter-icon.png) section: 
+    1. In the left panel, click the **Filter** icon. 
+    1. Select **Edit filter**. 
+    1. Click **Add condition** and then specify the field you want to filter by and the modifier that defines what kind of condition the field must meet. The column appears in the preview section on the right.
+    1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR. 
 
-1. 次の手順に従って、「**ドリルダウン・グループ設定**![ グループ設定 ](assets/drilldown-group-icon.png) セクションを構成します。
-   1. 左側のパネルで、「**グループ設定**」アイコンをクリックします。
-   1. **グループ化を追加** ボタンをクリックし、グループ化として作成するフィールドを選択します。 グループ化の列は、右側のプレビューセクションに表示されます。
+1. Follow the steps below to configure the **Drilldown Group Settings** ![Group settings](assets/drilldown-group-icon.png) section: 
+    1. In the left panel, click the **Group Settings** icon. 
+    1. Click the **Add grouping** button and then select the field you want to create as a grouping. The grouping column appears in the preview section on the right. 
 
-1. 「**保存**」をクリックして、レポートを作成します。
+1. Click **Save** to create the report.
+
+-->
