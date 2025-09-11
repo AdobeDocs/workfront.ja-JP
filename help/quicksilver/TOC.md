@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
 workflow-type: tm+mt
-source-wordcount: '13489'
+source-wordcount: '13494'
 ht-degree: 84%
 
 ---
@@ -1027,6 +1027,7 @@ ht-degree: 84%
       * [ボードからカードを削除またはアーカイブする](agile/get-started-with-boards/delete-board-items.md)
       * [ボード内でのフィルターと検索](agile/get-started-with-boards/filter-search-in-board.md)
       * [タグの追加](agile/get-started-with-boards/add-tags.md)
+      * [ボードの管理者ビューの管理](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)
       * [ボードのメール通知と環境設定](/help/quicksilver/agile/get-started-with-boards/boards-emails.md)
    * ボードのアジャイル計画ツールの使用 {#agile-planning-boards}
       * [アジャイル計画ツールの概要：記事インデックス](agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md)
