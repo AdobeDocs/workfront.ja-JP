@@ -1,10 +1,12 @@
 ---
 title: Workfront Planning とGenStudio for Performance Marketingの統合の基本を学ぶ
 description: GenStudio for Performance Marketing Workspace は、会社が両方の製品を購入すると、Adobe Workfront Planning で使用できるようになります。 この統合を使用してワークフローを効率化する方法に関する基本をいくつか説明します。
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 1%
@@ -103,7 +105,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合が存在す�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing ユーザーの役割</p></td> 
    <td><p><ul><li>キャンペーン、製品およびペルソナにアクセスするためのGenStudio ユーザーロール</li>
    <li>アクティベーションにアクセスするための GenSudio System Manager <!--and Events--></li></ul>
-   詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
+   詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
    </p>
   </td> 
   </tr>   

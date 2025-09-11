@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 recommendations: noDisplay, noCatalog
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 28%
+source-wordcount: '638'
+ht-degree: 27%
 
 ---
 
@@ -96,20 +96,13 @@ ht-degree: 28%
 
 * [Adobe Workfront Planning API の基礎 ](/help/quicksilver/planning/general/planning-api-basics.md): Adobe Workfront Planning API の目標は、HTTP 経由で動作する REST-ful アーキテクチャを導入することで、Planning との統合を簡単に構築することです。
 
-* [Workfront Fusion のAdobe Workfront Planning モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
+* [Workfront Fusion のAdobe Workfront Planning モジュール ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules): Workfront Planning モジュールを使用すると、Adobe Workfront Planning でイベントが発生した場合にシナリオをトリガー設定できます。 また、レコードを作成、読み取り、更新、削除したり、Adobe Workfront Planning アカウントにカスタム API 呼び出しを実行したりすることもできます。
 
 * [Adobe Workfront Planning AI Assistant の概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Workfront AI Assistant for Planning を使用すると、レコードを検索したり、コマンドを使用してアシスタントで作業することにより、レコードを作成、更新、および削除したりできます。
 
 * [Adobe Workfront Planning の自動の構成 ](/help/quicksilver/planning/records/configure-automations-to-create-records.md): Adobe Workfront Planning で自動を構成できます。この場合、アクティブ化すると、計画レコードからトリガーされたときにWorkfrontにオブジェクトが作成されるか、Workfront Planning にレコードが作成されます。
 
-<!--
-<div class="preview">
-
-* [Get started with the Adobe Workfront Planning and Adobe GenStudio for Performance Marketing integration](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md): You can manage records from GenStudio for Performance Marketing in the GenStudio workspace in Workfront Planning.
-
-</div>
-
--->
+* [Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md):Workfront Planning のGenStudio ワークスペースで、GenStudio for Performance Marketingからのレコードを管理できます。
 
 * **Workfront Planning のレポート機能**: Workfront キャンバス ダッシュボードを使用して、Workfront Planning の情報をレポートで表示できるようになりました。 詳しくは、[ キャンバスダッシュボードの概要 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
 

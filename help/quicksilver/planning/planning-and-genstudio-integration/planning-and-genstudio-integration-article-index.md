@@ -1,13 +1,15 @@
 ---
 title: Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合：記事索引
-description: GenStudio for Performance Marketing Workspace は、会社が両方の製品を購入すると、Adobe Workfront Planning で使用できるようになります。 このリストの記事では、この統合で使用できる機能について説明します。
-hide: true
-hidefromtoc: true
+description: Adobe WorkfrontとAdobe Workfrontの両方を購入すると、Adobe GenStudio for Performance Marketing Planning でGenStudio Workspace を利用できるようになります。 この節の記事では、この統合で使用できる機能について説明します。
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 2fb8fcb4-eb82-4ac5-8b09-8577fecb9bc4
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '62'
-ht-degree: 3%
+source-wordcount: '101'
+ht-degree: 1%
 
 ---
 
@@ -24,6 +26,10 @@ recommendations: noDisplay, noCatalog
 -->
 
 # Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合：記事索引
+
+Adobe WorkfrontとAdobe Workfrontの両方を購入すると、Adobe GenStudio for Performance Marketing Planning でGenStudio Workspace を利用できるようになります。
+
+この節の記事では、この統合で使用できる機能について説明します。
 
 * [基本を学ぶ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
 * [Planning でのGenStudioワークスペースの管理 ](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)

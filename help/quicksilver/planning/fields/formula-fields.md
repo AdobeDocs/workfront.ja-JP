@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 3667359ba2c6ea0aab3ce6845f1a537183f304ec
+source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
 workflow-type: tm+mt
-source-wordcount: '889'
-ht-degree: 36%
+source-wordcount: '990'
+ht-degree: 32%
 
 ---
 
@@ -113,17 +113,16 @@ ht-degree: 36%
   詳しくは、「フィールドの作成 [ の「式」の節を参照してくだ ](/help/quicksilver/planning/fields/create-fields.md) い。
 * 新しい数式で数式フィールドを参照できます。 式フィールドで参照されているフィールドの値が更新されると、そのフィールドまたはそのフィールドを含む式フィールドを参照している後続のすべてのフィールドは、自動的に更新されます。
 
-<!--
 <div class="preview">
 
-* When you update a formula field or a field that could impact it, an alert notifies you of the impact of your change. The alert displays in the following cases:   
+* 影響を与える可能性のある式フィールドまたはフィールドを更新すると、変更の影響を知らせるアラートが表示されます。 アラートは、次の場合に表示されます。
 
-   * When you update a formula field (excluding name and description changes) when that field has dependent formula or lookup fields. The alert lists those dependent fields and asks you whether you want to continue. 
+   * 式フィールドに従属式または参照フィールドがある場合、そのフィールドを更新するとき（名前および説明の変更を除く）。 アラートには、これらの依存フィールドが一覧表示され、続行するかどうかを尋ねられます。
 
-   * When you delete a field that is used in a formula expression or as a lookup field. The alert lists the dependent formula and lookup fields and asks you whether you want to continue with the deletion.
+   * 数式または参照フィールドとして使用されているフィールドを削除したとき。 このアラートでは、従属式およびルックアップ フィールドがリスト表示され、削除を続行するかどうかを確認するメッセージが表示されます。
 
 </div>
--->
+
 
 
 <div class="preview">
