@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
 source-wordcount: '3920'
 ht-degree: 38%
@@ -187,12 +187,6 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
    1. <span class="preview"> （オプション） **フルスクリーン** アイコン ![ フルスクリーンアイコンを開く ](assets/open-full-screen-icon.png) をクリックしてフルスクリーンでビューを開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了 ](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。 </span>
 
-1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
-   * [フィルター](#add-filters)
-   * [グループ化](#add-grouping)
-   * [設定](#edit-the-timeline-view-settings)
-     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
-
 1. （任意） **分類** をクリックして、接続されたレコードをタイムラインに表示します。
 
    詳しくは、この記事の [ 分類機能を使用して接続されたレコードをタイムライン ビューに表示する ](#break-down-connected-records-in-the-timeline-view) の節を参照してください。
@@ -209,7 +203,11 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
    <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
         <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
-
+1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
+   * [フィルター](#add-filters)
+   * [グループ化](#add-grouping)
+   * [設定](#edit-the-timeline-view-settings)
+     <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
 ### フィルターを追加
 

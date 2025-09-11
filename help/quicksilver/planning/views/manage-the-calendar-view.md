@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1860'
-ht-degree: 27%
+source-wordcount: '1874'
+ht-degree: 26%
 
 ---
 
@@ -111,13 +111,6 @@ Adobe Workfrontのプランニングビューとその管理方法について�
    * 開始日または終了日に値がない場合、レコードは 1 日のイベントとして表示されます
    * 開始日が終了日より後の場合、レコードはカレンダーに表示されません。
 
-<div class="preview">
-
-* カレンダー表示でレコードを作成および編集できます。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
-* カレンダーマンスビューのレコードのバーのサイズを変更するには、をクリックし、新しい位置にレコードの余白をドラッグ&amp;ドロップします。 レコードのバーのサイズを変更すると、開始日と終了日が直ちに更新されます。 詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
-
-</div>
-
 カレンダー表示を管理するには：
 
 1. カレンダーを表示するレコードタイプ ページに移動します。
@@ -141,6 +134,25 @@ Adobe Workfrontのプランニングビューとその管理方法について�
          * 1 日以下のレコードは、カレンダー表示の下半分に表示されます。 開始日と終了日の時間を表示するように選択した場合、レコードは該当する日の適切な時間に表示されます。
 
 1. <span class="preview"> （オプション） **フルスクリーン** アイコン ![ フルスクリーンアイコンを開く ](assets/open-full-screen-icon.png) をクリックしてフルスクリーンでビューを開き、**フルスクリーンを終了** アイコン ![ フルスクリーンアイコンを終了 ](assets/exit-full-screen-icon.png) またはキーボードの Esc キーをクリックしてフルスクリーンを終了します。 </span>
+
+1. <span class="preview"> カレンダー表示でレコードを作成したり、日付を編集したりするには、次のいずれかの操作を行います。</span>
+
+   * <span class="preview"> レコードを作成するには、カレンダー上の任意の場所をダブルクリックします。</span>
+
+     <span class="preview"> 詳しくは、[ レコードの作成 ](/help/quicksilver/planning/records/create-records.md) を参照してください。</span>
+
+   * <span class="preview"> カレンダーの月次表示で、レコードバーの端をクリックして、新しい位置にドラッグ&amp;ドロップします。 レコードのバーのサイズを変更すると、開始日と終了日が直ちに更新されます。</span> <!--when resizing in the calendar weekly view is released, modify the sentence above to take out 'monthly', since it will be available in both-->
+
+     <span class="preview"> 詳しくは、[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md) を参照してください。</span>
+
+   <!--ADD ONE OF THE FOLLOWING DEPENDING ON WHAT RELEASES: 
+    Scenario 1: drag and drop in the calendar weekly view: 
+    * <span class="preview">In the weekly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 2: drag and drop in the calendar monthly view: 
+    * <span class="preview">In the monthly calendar view, drag and drop records to update their position and dates in the timeline.</span>
+    Scenario 3: drag and drop in the calendar view (both weekly and monthly are supported): 
+    * <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
+        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)

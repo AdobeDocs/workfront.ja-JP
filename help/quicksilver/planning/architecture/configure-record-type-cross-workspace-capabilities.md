@@ -4,9 +4,9 @@ description: レコードタイプは、別のワークスペースに追加す�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: 38c397594449856a0f1404848a527b86083654b8
+source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1134'
 ht-degree: 8%
 
 ---
@@ -118,7 +118,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ユーザーは、投稿権限を持つ任意のワークスペースから、一元化されたレコードタイプにレコードを追加できます。また、一元化されたレコードタイプが追加される場所（元のワークスペースを含む）も指定できます。 表示権限のみを持つワークスペースからレコードを表示できます。
 
-詳しくは、[ 一元的なレコードタイプの概要 ](/help/quicksilver/planning/architecture/centralized-record-types-overview.md) を参照してください
+詳しくは、[ クロスワークスペースのレコードタイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
 
 レコードタイプの追加を一元的なレコードタイプとして設定するには：
 
@@ -179,7 +179,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
      このフィールドは読み取り専用で、削除できません。
 1. （オプション）別のワークスペースに移動し、既存のレコードタイプを使用してレコードタイプを作成します。 上記の手順で有効にしたレコードタイプを選択します。
 
-   詳しくは、[ 既存のレコードタイプの追加 ](/help/quicksilver/planning/architecture/add-cross-workspace-record-types.md) を参照してください。
+   詳しくは、[ 別のワークスペースから既存のレコードタイプを追加する ](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) を参照してください。
 
 ## 接続可能なレコードタイプの設定
 
