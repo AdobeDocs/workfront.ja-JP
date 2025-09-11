@@ -7,10 +7,10 @@ description: ファイルの作成に使用するソフトウェア（Photoshop 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
+source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
 workflow-type: tm+mt
-source-wordcount: '1057'
-ht-degree: 99%
+source-wordcount: '1101'
+ht-degree: 94%
 
 ---
 
@@ -111,7 +111,7 @@ Workfront には次の制限があります。
 * MAC - MacPaint
 * MIF - MapInfo Interchange
 * MNG - Multiple Network Graphic
-* MO:DCA - Mixed Object: Document Content Architecture
+* MO:DCA – 混在オブジェクト：ドキュメントコンテンツアーキテクチャ
 * MSP - Microsoft Paint
 * MRC - LEAD Mixed Raster Content
 * MRC - T.44 Mixed Raster Content
@@ -133,6 +133,12 @@ Workfront には次の制限があります。
 * PNM - Portable Bitmap Utilities
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint Presentation
+
+  >[!NOTE]
+  >
+  >現時点で PowerPoint プレゼンテーションファイルのアップロードに失敗する既知の問題があります。 この問題が発生した場合は、ファイルをPDFに変換し、代わりにPDFをアップロードしてください。 詳しくは、[ プルーフ：PowerPoint ファイルからプルーフを生成できない ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx) を参照してください。
+
+
 * PPTX - PowerPoint Presentation 2007 PS - PostScript File
 * PSD - Photoshop
 * PSP - Paint Shop Pro
