@@ -240,7 +240,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 「**表示**」ドロップダウンメニューをクリックして、「**マイルストーン**」をクリックします。
    <!--No longer available: If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  -->
 
-1. <!--In the Production environment,--> マイルストーンビューの右上隅にある「**オプション**」をクリックします。
+1. &#x200B;<!--In the Production environment,--> マイルストーンビューの右上隅にある「**オプション**」をクリックします。
 
    <!--<div class="preview">In the Preview environment, select from the options in the next step, from the upper-right corner of the Milestone view.</div>-->
 
@@ -277,6 +277,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 1. （条件付き）完了率がマイルストーン ビューに現在表示されていない場合は、この記事の [ マイルストーン ビューに表示する情報の設定 ](#configure-what-information-displays-in-the-milestone-view) の節の説明に従って、タスクおよびプロジェクトの完了率を表示できるようにします。
 
-1. <!--In the Production environment,--> タスクの下にある「完了率」をクリックし、新しい割合を指定して、Enter キーを押します。
+1. &#x200B;<!--In the Production environment,--> タスクの下にある「完了率」をクリックし、新しい割合を指定して、Enter キーを押します。
 
    <!--<div class="preview">In the Preview environment, move the Percent Complete slide to the new percent complete to update it. </div>-->
