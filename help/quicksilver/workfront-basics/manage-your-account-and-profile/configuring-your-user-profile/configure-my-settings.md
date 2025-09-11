@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  プロファイルには、自分に関�
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
+source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
 workflow-type: tm+mt
-source-wordcount: '3149'
-ht-degree: 95%
+source-wordcount: '3317'
+ht-degree: 94%
 
 ---
 
@@ -246,22 +246,19 @@ ht-degree: 95%
    <td> メールアドレスを更新します。必須フィールドです。メールアドレスは、[!DNL Workfront] のユーザー名となります。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL パスワードの変更 &#x200B;]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL パスワードの変更 ]</strong></td> 
    <td>このセクションでパスワードをリセットします。パスワードのリセットについて詳しくは、<a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">パスワードのリセット</a>を参照してください。</td> 
   </tr> 
- </tbody> 
-</table>
-
-<!--
   <tr> 
-   <td role="rowheader"><strong>(Conditional) &lt;SSO Configuration> [!UICONTROL Username]</strong></td> 
-   <td> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront], your SSO Username displays in this field. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</td> 
+   <td role="rowheader"><strong>（条件付き）&lt;SSO Configuration&gt; [!UICONTROL Username]</strong></td> 
+   <td> [!DNL Workfront] 管理者が [!DNL Workfront] との SSO 統合を有効にした場合、SSO ユーザー名がこのフィールドに表示されます。[!DNL Workfront] インスタンスに対して有効にされた SSO 設定のタイプは、このフィールドに表示されます。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>(Conditional) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
-   <td> <p> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront] and has updated users for SSO, this field is selected by default. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</p> <p>When this field is selected, you are required you to log into [!DNL Workfront] with your SSO credentials. Unchecking it will allow you to log in to [!DNL Workfront] with your [!DNL Workfront] credentials.</p> <p>For more information about configuring [!DNL Workfront] with an SSO solution, see <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single sign-on in [!DNL Workfront]: article index</a>. For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> </td> 
+   <td role="rowheader"><strong>（条件付き）[!UICONTROL Only Allow &lt;SSO Configuration&gt; Authentication]</strong></td> 
+   <td> <p> [!DNL Workfront] 管理者が [!DNL Workfront] との SSO 統合を有効にして SSO 用にユーザーを更新した場合、このフィールドはデフォルトで選択されます。[!DNL Workfront] インスタンスに対して有効にされた SSO 設定のタイプは、このフィールドに表示されます。</p> <p>このフィールドを選択した場合、SSO 資格情報で [!DNL Workfront] にログインすることが必要です。選択を解除すると、[!DNL Workfront] 資格情報で [!DNL Workfront] にログインできるようになります。</p> <p>SSO ソリューションを使用した [!DNL Workfront] の設定について詳しくは、<a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">[!DNL Workfront] でのシングルサインオン：記事のインデックス </a> を参照してください。 SSO のユーザーの更新について詳しくは、<a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">シングルサインオンのユーザーの更新</a>を参照してください。</p> </td> 
   </tr>
--->
+ </tbody> 
+</table>
 
 #### [!UICONTROL 業務内容]
 
@@ -316,7 +313,7 @@ ht-degree: 95%
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL プロファイル写真 &#x200B;]</strong></td>
+        <td><strong>[!UICONTROL プロファイル写真 ]</strong></td>
         <td>プロフィール写真はアバターになり、名前が表示されているすべての [!DNL Workfront] システムで表示されます。</td>
     </tr>
 </table>
@@ -344,6 +341,9 @@ ht-degree: 95%
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td><p>ここで目的の言語を指定します。これは、送信メールメッセージで使用される言語、日付、数値の形式を制御します。</p>
    <p><strong> メモ：</strong> 組織がAdobe統合エクスペリエンスを使用している場合、言語環境設定はAdobe プロファイルに保存され、メールのロケールは使用されません。 詳しくは、「Adobe Experience Cloudでサポートされている言語 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language"> の </a>Adobe Workfrontの言語を変更する <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> を参照してくだ </a> い。</p></td> 
+  </tr>
+  <tr><td><strong>[!UICONTROL 自分に割り当てた作業を [ 作業割り当て ] タブに送信 ]</strong> </td>
+  <td>自分に割り当てた作業のステータスを、新規ではなく処理中に自動的に設定する場合は、このオプションを選択します。</td>
   </tr>
   <tr> 
    <td role="rowheader"><strong>（条件付き）Automatically generate proofs when uploading documents</strong></td> 
@@ -465,7 +465,7 @@ ht-degree: 95%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL アクティブ化解除日を設定 &#x200B;]</strong></td>
+   <td role="rowheader"><strong>[!UICONTROL アクティブ化解除日を設定 ]</strong></td>
    <td><p>アカウントを一定期間後に非アクティブ化するようにスケジュールする場合は、このボタンをクリックします。 表示される <strong>[!UICONTROL Scheduled Deactivation Date]</strong> で、アカウントが非アクティブ化されるまでの日付を指定します。 ユーザーの非アクティブ化について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>の<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">ユーザーの非アクティブ化のスケジュール</a>を参照してください。</p><p>[!UICONTROL Standard] または [!UICONTROL Plan] ライセンスを持っているか、[!DNL Workfront] 管理者である場合は、自分のアカウントの無効フィールドを編集できます。</p></td> 
   </tr> 
   <tr> 

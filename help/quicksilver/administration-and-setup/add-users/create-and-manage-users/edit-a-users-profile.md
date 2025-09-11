@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 5ecf925ce1fdf5da75b0736d226b11ce6cbaf3fd
+source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
 workflow-type: tm+mt
-source-wordcount: '3185'
+source-wordcount: '3425'
 ht-degree: 69%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 69%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -106,22 +106,20 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
 
   Workfront 管理者のパスワードはリセットできません。
 
-<!--
-* **&lt;SSO Configuration&gt; Username**: If your Workfront administrator enabled an SSO integration with Workfront, the SSO Username displays in this field. The type of SSO configuration enabled for your Workfront instance is visible in this field.
-* **OnlyAllow &lt;SSO Configuration&gt; Authentication**: If your Workfront administrator enabled an SSO integration with Workfront and has updated all users for SSO, this field is selected by default. The type of SSO configuration enabled for your Workfront instance is visible in this field.
-  
-  When this field is selected, the user is required to log into Workfront with their SSO credentials. Unchecking it will allow them to log in to Workfront with their Workfront credentials.
+* **&lt;SSO Configuration> ユーザー名**：Workfront 管理者が Workfrontとの SSO 統合を有効にしてある場合は、このフィールドに SSO ユーザー名が表示されます。Workfront インスタンスに対して有効になっている SSO 設定のタイプが、このフィールドに表示されます。
+* **&lt;SSO Configuration> 認証のみを許可**：Workfront 管理者が Workfront との SSO 統合を有効にし、SSO に対応するようにすべてのユーザーを更新してある場合、このフィールドはデフォルトで選択されています。Workfront インスタンスに対して有効になっている SSO 設定のタイプが、このフィールドに表示されます。
 
-  For more information about configuring Workfront with an SSO solution, see [Overview of single sign-on in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
+  このフィールドを選択した場合、ユーザーは SSO 資格情報を使用して Workfront にログインする必要があります。これをオフにすると、ユーザーは Workfront の資格情報で Workfront にログインできます。
 
-  For more information about updating users for SSO, see [Update users for single sign-on](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md).
+  Workfrontに SSO ソリューションを設定する方法について詳しくは、[Adobe Workfrontでのシングルサインオンの概要 ](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) を参照してください。
+
+  SSO のユーザーの更新について詳しくは、[シングルサインオンのユーザーの更新](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md)を参照してください。
 
   >[!NOTE]
   >
-  >If you are a group administrator, you can edit the &lt;SSO Configuration&gt; fields only for users in the groups where you are designated as such. Also, the User Admin (Group Users) permission must be enabled in your access level.
+  >グループ管理者の場合、&lt;SSO Configuration> フィールドを編集できるのは、担当するグループのユーザーのみです。また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。
   >
-  >If you are a group administrator and you have the User Admin (All Users) permission enabled in your access level, you can edit the &lt;SSO Configuration&gt; fields for all users.
--->
+  >グループ管理者で、ユーザー管理者（すべてのユーザー）権限をアクセスレベルで有効にしている場合は、すべてのユーザーの &lt;SSO Configuration> フィールドを編集できます。
 
 * **プロファイル写真**: **新規アップロード** をクリックして、ユーザーのプロファイル写真を読み込みます。 JPG、GIF、PNG ファイルをアップロードできます。 ファイルサイズの上限は 4 MB です。
 
@@ -152,7 +150,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
 
 <!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
 
-<!--**Send work I assign to myself to my Working On tab**: This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **自分に割り当てた作業を自分の「作業割り当て」タブに送信する**：このオプションを選択すると、ユーザーが自分に割り当てた作業は、新規ではなく、自動的に処理中ステータスに設定されます。<!--This setting refers to a deprecated feature that has been removed from Workfront.-->
 
 * **ドキュメントのアップロード中に自動的にプルーフを作成する**：ユーザーがアップロードしたドキュメントでプルーフをすぐに生成する場合は、このオプションをオンにします。
 
