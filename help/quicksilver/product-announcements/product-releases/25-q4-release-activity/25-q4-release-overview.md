@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '1976'
+source-wordcount: '2077'
 ht-degree: 16%
 
 ---
@@ -58,6 +58,15 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td><strong>迅速リリース</strong></td>
         <td><strong>四半期ごと</strong></td>
     </tr>
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> 新しいボードの管理者ビュー </a><p></p>
+            <p>ボード管理者ビューには、アカウント内のすべてのボードのリストが含まれています。システム管理者はこのリストを使用して、ボードの最終更新日時、各ボードに含まれるカードの数など、ボードの全体詳細のスナップショットをすばやく取得できます。</p>
+        </td>
+        <td>2025年9月11日（PT）</td>
+        <td>2025年10月15日（PT）</td>
+        <td>2025年10月16日（PT）</td>
+    </tr> 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> 組織の AI Beta機能を有効にする </a><p></p>
@@ -219,6 +228,16 @@ The <add release> release webinar will be held on <date>. You can [register for 
         <td>September 11, 2025</td>
         <td>October 16, 2025</td>
     </tr> -->
+    <tr>
+        <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}"> 新しいプロジェクト正常性ベータ版 </a>
+            <p>新しいプロジェクトヘルス機能は、AI アシスタントの機能を活用して、プロジェクトのパフォーマンスと注意が必要な領域を即座に評価します。</p>
+            <p>AI アシスタントは、1 つのプロジェクト、1 つのプログラム、および複数のプロジェクトに対して、プロジェクトの正常性の評価を生成できます。</p>
+        </td>
+        <td>2025年9月11日（PT）</td>
+        <td>2025年9月11日（PT）</td>
+        <td>2025年9月11日（PT）</td>
+    </tr> 
   <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-project.md" class="MCXref xref" xrefformat="{para}">Planning の式フィールドおよびWorkfrontの計算カスタム・フィールドに追加された新しい式 </a><p><p>[!BADGE Off schedule]{type=Neutral}</p></p>
@@ -421,7 +440,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 

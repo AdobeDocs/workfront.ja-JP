@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 65012e89-3e3e-42b7-94af-8fa3687501ed
-source-git-commit: 0937f9b1246b92aa080349f0293674455d21ed70
+source-git-commit: 1dc8591dd0da3c3b6030bd643bf80dbe1ee97ea9
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 32%
+source-wordcount: '305'
+ht-degree: 26%
 
 ---
 
@@ -17,6 +17,21 @@ ht-degree: 32%
 このページでは、2025 年第 4 四半期リリースで行われた、プレビュー環境に対するプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
+
+## 新しいプロジェクト正常性ベータ版
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 9 月 11 日（PT）
+>* 実稼動版（すべてのお客様向け）：2025年9月11日（PT）
+
+新しいプロジェクトヘルス機能は、AI アシスタントの機能を活用して、プロジェクトのパフォーマンスと注意が必要な領域を即座に評価します。
+
+AI アシスタントは、1 つのプロジェクト、1 つのプログラム、および複数のプロジェクトに対して、プロジェクトの正常性の評価を生成できます。
+
+詳しくは、[ プロジェクトの正常性の概要 ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md) を参照してください。
+
+この機能は現在ベータ版です。
 
 <!--
 ## Create project intake forms in Workfront

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
 workflow-type: tm+mt
-source-wordcount: '7542'
+source-wordcount: '7673'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,16 @@ ht-degree: 2%
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
 ## 管理と設定
+
+### 設定領域でタイムシートプロファイルを追加または編集すると、インターフェイスが更新される
+
+**プレビューリリース：2025 年 9 月 11 日（PT）、実稼動リリース：2025 年 9 月 18 日（PT）**
+
+システム全体のタイムシート プロファイルを編集または追加する際の、[ タイムシート プロファイル ] ページの外観を更新しました。
+
+これらの変更を表示するには、設定/タイムシートと時間/タイムシートプロファイルに移動して、新しいプロファイルを追加するか、既存のプロファイルを編集します。
+
+詳しくは、[タイムシートプロファイルの作成、編集および割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
 ### 「新規」および「スコアカードをコピー」ボックスのインタフェースの更新
 
@@ -153,6 +163,14 @@ Portfolioの編集ボックスでポートフォリオを編集する際のイ�
 詳しくは、[ ポートフォリオの編集 ](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md) を参照してください。
 
 ## プロジェクト
+
+### マイルストーン ビューの適用時にプロジェクト リストまたは報告書のインターフェイスを更新する
+
+**プレビューリリース：2025 年 9 月 11 日（PT）、実稼動リリース：2025 年 9 月 18 日（PT）**
+
+マイルストーン ビューを適用した際の、プロジェクトリストまたはレポートのルックアンドフィールを更新しました。
+
+プロジェクトリストまたはレポートが、Workfrontの他の領域のデザインと一致するようになりました。 詳しくは、[ マイルストーン表示の使用 ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) を参照してください。
 
 ### テンプレートを使用しないプロジェクトへのタスクの変換に関するインターフェイスの変更
 
@@ -357,6 +375,18 @@ Workfrontの他の領域のデザインと一致するように、テンプレ�
 * [ ルーティングルールの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 ## ユーザー
+
+<!--
+### Interface updates for the New User dialog
+
+**Preview release: September 11, 2025; Production release: September 18, 2025**
+
+We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+
+To view this change, go to Users > New User > New User.
+
+For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
+-->
 
 ### ユーザーを読み込みダイアログのインターフェイスの更新
 

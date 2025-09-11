@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 09c41ed117660c67c3890ebbaabae73c60cd4a9a
+source-git-commit: d0fbeb7b04d2bf632e04e1764a3ffff9abcfb231
 workflow-type: tm+mt
-source-wordcount: '1450'
-ht-degree: 10%
+source-wordcount: '1796'
+ht-degree: 9%
 
 ---
 
@@ -35,6 +35,45 @@ To make it easier to find the request form you're looking for in Workfront Plann
 Previously, request forms were located only on the object for which they were created.
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## フィールドを変更または削除すると表示される新しい情報ボックス
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 9 月 11 日（PT）
+>* 実稼動高速リリース：2025 年 10 月 15 日（PT）
+>* 実稼動すべて：2025 年 10 月 16 日（PT）
+
+影響を与える可能性のある式フィールドまたはフィールドを更新すると、変更の影響を知らせるアラートが表示されます。 アラートは、次の場合に表示されます。
+
+* 式フィールドに従属式または参照フィールドがある場合、そのフィールドを更新するとき（名前および説明の変更を除く）。 アラートには、これらの依存フィールドが一覧表示され、続行するかどうかを尋ねられます。
+
+* 数式または参照フィールドとして使用されているフィールドを削除したとき。 このアラートでは、従属式およびルックアップ フィールドがリスト表示され、削除を続行するかどうかを確認するメッセージが表示されます。
+
+詳しくは、[数式フィールドの概要](/help/quicksilver/planning/fields/formula-fields.md)を参照してください。
+
+## Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合
+
+>[!NOTE]
+>
+>プレビュー：2025 年 9 月 11 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年9月11日（PT）
+>>[!BADGE 予定外 ]{type=Neutral}
+
+Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの両方を使用している場合は、GenStudioがデフォルトでサポートしているマーケティング概念よりも詳細に、キャンペーン、商品、ペルソナなどのマーケティング概念を定義してください。
+
+GenStudio for Performance MarketingとWorkfront Planning の間の新しいネイティブ統合により、Workfront Planning でGenStudio for Performance Marketingで使用されるキャンペーン、製品、ペルソナ、アクティベーション、チャネルおよびリージョンを管理できるようになりました。 また、この統合により、Workfront Planning から既存のレコードタイプを参照するようにGenStudio for Performance Marketingを設定して、より接続された一貫性のあるマーケティングワークフローを作成することもできます。
+
+Adobe Workfront Planning で両方の製品を購入した際に、GenStudio for Performance Marketing Workspace を使用できるようになりました。
+Workfront Planning とGenStudio for Performance Marketingの統合により、次のことができます。
+
+* Workfront Planning でGenStudioワークスペースを表示します。
+* GenStudio for Performance Marketingでキャンペーン、商品、ペルソナ、アクティベーションを変更し、Workfront Planning で同じ情報をリアルタイムに更新します。
+* Workfront Planning でキャンペーン、商品、ペルソナ、およびアクティベーションを変更し、リアルタイムにする
+* 重複するデータ入力を避けます。
+* 計画とアクティブ化の取り組み間の整合性を維持します。
+
+詳しくは、[Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの統合の基本を学ぶ ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md) を参照してください。
 
 ## カレンダーの月次表示でレコードのサイズを変更する
 
@@ -184,8 +223,8 @@ For more information on request forms, see [Create and manage a request form in 
 >[!NOTE]
 >
 >プレビュー：2025 年 8 月 7 日（PT）
->&#x200B;>すべてのお客様の実稼動環境 :August、2025 年
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>すべてのお客様の実稼動環境 :August、2025 年
+>>[!BADGE 予定外 ]{type=Neutral}
 
 Workfront Planning の式フィールドとWorkfrontの計算カスタムフィールドに、次のように使用する新しい式を追加しました。
 
@@ -200,8 +239,8 @@ Workfront Planning の式フィールドとWorkfrontの計算カスタムフィ�
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 31 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年7月31日（PT）
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>実稼動版（すべてのお客様向け）：2025年7月31日（PT）
+>>[!BADGE 予定外 ]{type=Neutral}
 
 レコードテーブルビューで式フィールドを作成または編集する際に、式フィールドを拡大するための「最大化」ボタンを追加しました。 さらに、拡大された新しいウィンドウに「最小化」ボタンを追加して、フィールド作成ボックスに戻しました。
 
@@ -250,8 +289,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 タイムライン上の任意の場所をダブルクリックすることで、レコードタイプのタイムライン表示でレコードを作成できるようになりました。
 
@@ -266,8 +305,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 ワークスペースページのレコードタイプカードの「詳細」メニューからレコードタイプを共有できるようになりました。 この機能強化の前は、共有オプションはレコードタイプページ内でのみ使用できました。
 
@@ -278,8 +317,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 すべてのWorkfront Planning ビュー（テーブル、タイムライン、カレンダー）をフルスクリーンモードで表示できるようになりました。 ビュー機能は維持され、フルスクリーンでビューを変更することもできます。
 
@@ -292,8 +331,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 22 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 承認プロセスの柔軟性を高めるために、Planning のリクエストフォームに承認者としてチームを追加する機能を追加しました。 現在は、承認者を設定する際に、チーム名を入力および選択できます。 チームメンバーは誰でも決定を行うことができます。これは、チーム全体の承認決定としてカウントされます。
 
@@ -306,8 +345,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 17 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 次のフィールドを導入して、承認を伴うリクエストを送信することで作成されたレコードの承認情報を取得しています。
 
@@ -321,8 +360,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 10 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 
 現在、テーブルビューに適用されたグループ化が存在する場合、テーブルにレコードを追加すると、レコードの追加先のグループ化に関連するフィールドが自動入力されるようになりました。

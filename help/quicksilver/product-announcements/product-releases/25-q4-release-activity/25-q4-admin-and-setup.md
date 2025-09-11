@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 2bcba734ebfa8efbef8f401394a576c59ae22d5d
+source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 17%
+source-wordcount: '473'
+ht-degree: 16%
 
 ---
 
@@ -17,6 +17,18 @@ ht-degree: 17%
 このページでは、2025 年第 4 四半期リリースで行われた、プレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
+
+## 新規ボードの管理者表示
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 9 月 11 日（PT）
+>* 実稼動高速リリース：2025 年 10 月 15 日（PT）
+>* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+
+ボード管理者ビューには、アカウント内のすべてのボードのリストが含まれています。システム管理者はこのリストを使用して、ボードの最終更新日時、各ボードに含まれるカードの数など、ボードの全体詳細のスナップショットをすばやく取得できます。
+
+詳しくは、「[ ボードの管理者表示の管理 ](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)」を参照してください。
 
 ## 組織の AI Beta機能を有効にする
 
