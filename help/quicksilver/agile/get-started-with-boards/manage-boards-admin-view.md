@@ -5,10 +5,10 @@ title: ボードの管理者ビューの管理
 description: ボード管理者表示には、アカウント内のすべてのボードのリストが含まれています。システム管理者はこれを使用して、ボードの詳細全体のクイックスナップショットを取得できます。
 author: Jenny
 feature: Agile
-source-git-commit: 464700fc84ee3d687d903a0c1f677ebbef11be60
+source-git-commit: 56263c3f868e7abdaf973c5c03411a2e63ba645d
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 6%
+source-wordcount: '618'
+ht-degree: 7%
 
 ---
 
@@ -37,9 +37,14 @@ ht-degree: 6%
    <td> <p>任意</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス</td> 
-   <td> <p>投稿者以上 </p>
-        <p> リクエスト以上 </p></td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
+   <td> <p>標準</p>
+        <p> プラン </p></td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>システム管理者 </p>
+        </td> 
   </tr> 
  </tbody> 
 </table>
