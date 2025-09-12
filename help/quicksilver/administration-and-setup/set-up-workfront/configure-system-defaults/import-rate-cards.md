@@ -45,7 +45,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL 評価カード ] へのアクセス権の編集</td> 
+   <td>[!UICONTROL 評価カード &#x200B;] へのアクセス権の編集</td> 
   </tr> 
  </tbody> 
 </table>
