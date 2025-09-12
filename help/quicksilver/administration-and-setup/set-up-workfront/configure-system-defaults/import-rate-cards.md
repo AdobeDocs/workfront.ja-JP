@@ -4,7 +4,7 @@ description: テンプレートファイルを使用して、Excel で評価カ�
 author: Lisa
 hide: true
 hidefromtoc: true
-source-git-commit: b989a542602d6b7fd95b34f8b53d3f317e3f7644
+source-git-commit: 1deb72953599c24fa40eb7a5d77214f6576fec1e
 workflow-type: tm+mt
 source-wordcount: '1153'
 ht-degree: 3%
@@ -45,7 +45,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL 評価カード &#x200B;] へのアクセス権の編集</td> 
+   <td>[!UICONTROL 評価カード ] へのアクセス権の編集</td> 
   </tr> 
  </tbody> 
 </table>
@@ -98,7 +98,7 @@ ht-degree: 3%
    >[!NOTE]
    >
    >* 少なくとも、評価カードごとに「名前」を入力する必要があります。
-   >* 各レートカードには、その行位置に基づいてシーケンス番号が自動的に割り当てられます。 例えば、最初に定義した評価カード（行 2）はシーケンス 1、次は 2、以下同様です。 これらのシーケンス番号は、レートをアタッチするために RATE_RTCRD タブで使用されます。
+   >* 各レートカードには、その行の位置に基づいてシーケンス番号が自動的に割り当てられます。 例えば、最初に定義した評価カード（行 2）はシーケンス 1、次は 2、以下同様です。 これらのシーケンス番号は、レートをアタッチするために RATE_RTCRD タブで使用されます。
 
 ### RATE_RTCRD （料金設定）タブに入力します
 
