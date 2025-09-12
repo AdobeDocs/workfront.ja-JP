@@ -3,9 +3,9 @@ title: クロスワークスペースのレコードタイプの概要
 description: 一元化されたレコードタイプは、Adobe Workfront Planning の中央またはプライマリワークスペースから複数のワークスペースに追加できます。
 hidefromtoc: true
 hide: true
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '1320'
+source-wordcount: '1356'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,13 @@ Adobe Workfront Planning では、複数のワークスペースでレコード�
 レコードタイプのワークスペース間機能は次のとおりです。
 
 * レコードタイプを集中型として指定できます。 ユーザーは、管理対象の他のワークスペースに、一元化されたレコードタイプを追加できます。
+
+  >[!IMPORTANT]
+  >
+  >一元化されたレコードタイプを使用するには、Workfront パッケージに加えて、Workfront Planning Plus パッケージが必要です。
+  >
+  >各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。
+
 * レコードタイプは、接続可能として指定できます。 ユーザーは、他のワークスペースからこのレコードタイプに接続できます。
 
 この記事では、クロスワークスペースのレコードタイプの概要を説明します。 レコードタイプのクロスワークスペース機能の定義について詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。

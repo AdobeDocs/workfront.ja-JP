@@ -4,9 +4,9 @@ description: レコードタイプは、Adobe Workfront Planning のオブジェ
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '620'
 ht-degree: 11%
 
 ---
@@ -55,11 +55,11 @@ recommendations: noDisplay, noCatalog
 <ul><li><p>任意のWorkfront パッケージ</p></li>
 And
 <li><p>Planning Plus パッケージ</p></li></ul>
-または：
-<ul><li><p>任意のワークフローパッケージ</p> </li>
+<!--Or:
+<ul><li><p>Any Workflow package</p> </li>
 And
-<li><p>PrimeまたはUltimate パッケージの計画</p></li></ul>
-<p>各Workfront Planning プランに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
+<li><p>Planning Prime or Ultimate package</p></li></ul>-->
+<p>各Workfront Planning パッケージに含まれる内容について詳しくは、Workfront担当営業または販売店にお問い合わせください。 </p> 
    </td>
 
 <tr> 

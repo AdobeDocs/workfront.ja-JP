@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
 workflow-type: tm+mt
-source-wordcount: '2499'
-ht-degree: 37%
+source-wordcount: '2512'
+ht-degree: 30%
 
 ---
 
@@ -44,7 +44,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -144,7 +144,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >他のワークスペースからレコードの種類にアクセスするには、[**&#x200B;** レコードの種類の編集 **] ボックスの [** 詳細設定 **] タブで、レコードの種類に対して &lbrack; 他のワークスペースでこのレコードの種類への接続を許可する** 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
+     >他のワークスペースからレコードの種類にアクセスするには、[**** レコードの種類の編集 **] ボックスの [** 詳細設定 **] タブで、レコードの種類に対して [ 他のワークスペースでこのレコードの種類への接続を許可する** 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
      > ![ レコードタイプを編集ボックスの「詳細設定」タブ ](assets/edit-record-type-box-advanced-settings-tab.png)
 
      詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
@@ -159,61 +159,78 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      ![AEM Assets接続の選択 ](assets/aem-assets-connection-selection.png)
 
-1. 次の情報を更新します。
+     選択したレコードまたはオブジェクト タイプの [ 新しい接続 ] タブが開きます。
 
-   * **名前**：テーブルビューまたは元のレコードタイプのレコードページに表示される、接続されたフィールドの名前。これにより、元のレコードタイプのテーブル ビュー、または元のレコードのリンクされたレコードフィールドに、リンクされたレコード列が作成されます。 デフォルトでは、フィールド名は接続先のレコードまたはオブジェクトの名前です。
+1. **名前** フィールドを、新しく接続されたフィールドの名前で更新します。この名前は、元のレコードタイプのテーブルビューまたはレコードページに表示されます。 これにより、元のレコードタイプのテーブル表示に接続されたレコード列（またはフィールド）が作成されます。 デフォルトでは、フィールド名は接続先のレコードまたはオブジェクトの名前です。
 
    >[!TIP]
    >
    >同じレコードまたはオブジェクトタイプへの複数の接続を持つことができます。 連結フィールド名を編集しない場合、Workfrontでは、連結されたレコードの名前の後に数字が追加され、連結されたレコードの種類の数が同じ名前で示されます。
 
-   * **説明**：接続されたレコードのフィールドに関する追加情報。フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
-   * **複数レコードを許可**：元のレコードに「リンクされたレコードタイプ」フィールドが表示されたときにユーザーが複数のレコードを追加できるようにするときに、このオプションを選択します。 これはデフォルトで選択されています。
+1. 接続レコードフィールドに関する情報を追加して、「**説明**」フィールドを更新します。 フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
+1. （条件付き） 2 つの異なるワークスペース、またはレコードとAdobe Experience Manager アセットオブジェクトのレコードタイプを関連付ける場合は、「**複数のレコードを許可**」を選択します。 これを選択すると、元のレコードに「接続されたレコードタイプ」フィールドが表示されたときに、ユーザーが複数のレコードを追加できるように指定できます。 これはデフォルトで選択されています。
 
-     このオプションは、2 つの異なるワークスペース、またはレコードとAdobe Experience Manager アセットオブジェクトからレコードを接続する場合にのみ使用できます。
+   ![ 複数レコードを許可する新しい接続ボックス ](assets/new-connection-allow-multiple-records-box.png)
 
-     ![ 複数レコードを許可する新しい接続ボックス ](assets/new-connection-allow-multiple-records-box.png)
+1. （条件付き）同じワークスペースからレコード型を接続する場合、または Planning レコード型をWorkfront オブジェクト型と接続する場合は、次の **接続タイプ** オプションの 1 つを選択して、ユーザーが接続できるレコード数と接続できないレコード数を指定します。
 
-   * **接続タイプ**：次のいずれかのオプションを選択して、接続先および接続先のレコードの数を指定します。
+   * 多対多
+   * 1 対多
+   * 多対 1
+   * 1 対 1
 
-      * 多対多
-      * 一対多
-      * 多対 1
-      * 一対一
+   ![ 多対多の接続ピッカー ](assets/many-to-many-connection-picker.png)
 
-     このオプションは、同じワークスペースのレコードまたはレコードとWorkfront オブジェクトタイプを接続する場合にのみ使用できます。
+   接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
-     ![ 多対多の接続ピッカー ](assets/many-to-many-connection-picker.png)
-
-     接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
-
-     >[!NOTE]
-     >
-     > 接続の種類に [ 一対多 ] または [ 一対一 ] を選択した場合、後で他の場所に既に接続されているレコードまたはオブジェクトを接続しようとすると、再度接続すると元の接続から削除されるという警告が表示されます。 削除を許可するか、別のレコードを選択できます。
-
-   * **ルックアップフィールドを選択**：選択したレコードタイプからフィールドを追加するには、このオプションを選択します。ルックアップフィールドは、リンク先のレコードタイプまたはオブジェクトタイプに関連付けられたフィールドです。リンクすると、リンク元のレコード上のリンク先のレコードまたはオブジェクトの情報が表示されます。 これはデフォルトで選択されています。
-
-   >[!TIP]
+   >[!NOTE]
    >
-   >* Workfrontの先行入力フィールド（「プロジェクト所有者」や「プロジェクトスポンサー」などのフィールドを含む）を参照フィールドとして追加することはできません。
-   >
-   >* Workfront オブジェクトの日付フィールドの情報は、Workfront Planning では、Workfrontでの表示方法に関係なく、24 時間形式で表示されます。
-   >
-   >   例えば、プロジェクトの予定開始日がWorkfrontで午後 3:00 と表示された場合、Workfront Planning の読み込まれた参照フィールドでは 15:00 と表示されます。
+   > 接続の種類に [ 一対多 ] または [ 一対一 ] を選択した場合、後で他の場所に既に接続されているレコードまたはオブジェクトを接続しようとすると、再度接続すると元の接続から削除されるという警告が表示されます。 削除を許可するか、別のレコードを選択できます。
 
-1. （条件付きおよびオプション）Workfront オブジェクトの接続を選択した場合、「**これらの条件に一致するオブジェクトのみをリンク**」セクションから「**カスタムフォーム**」を選択します。選択したカスタムフォームがアタッチされているオブジェクトのみを、選択したレコードタイプにリンクできます。複数のフォームを選択できます。
+
+   <!-- 
+        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
+    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
+        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
+            * Many to many
+            * One to many
+            * Many to one
+            * One to one      
+            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
+        <div class="preview">
+        * In the Preview environment, do the following: 
+            1. Select one of the following:
+                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
+                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
+            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
+                    >[!TIP]
+                    >
+                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
+            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
+                * Many to many
+                * One to many
+                * Many to one
+                * One to one  
+            </div>       
+             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+                >[!NOTE]
+                >
+                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+
+1. （条件付きおよびオプション）Workfront オブジェクトを接続することを選択した場合は、「**これらの条件に一致するオブジェクトのみをリンク** セクションから **カスタムフォーム** を選択します。 選択したカスタムフォームがアタッチされているオブジェクトのみを、選択したレコードタイプにリンクできます。複数のフォームを選択できます。
 
    >[!NOTE]
    >
    > このリストに表示される前に、選択したオブジェクトのカスタムフォームを Workfront で作成する必要があります。
 
-1. （条件付き）Experience Manager Assets への接続を選択した場合、「**次のリポジトリからアセットをリンク**」セクションの **Experience Manager リポジトリ**&#x200B;ドロップダウンメニューからリポジトリを選択します。必須フィールドです。このフィールドには、Experience Manager Assets でアクセス権のあるリポジトリのみが表示されます。
+1. （条件付き）Experience Manager Assetsへの接続を選択する場合、「**次のリポジトリーからアセットをリンク**」セクションのExperience Manager リポジトリー **ドロップダウンメニューからリポジトリーを選** します。 必須フィールドです。このフィールドには、Experience Manager Assets でアクセス権のあるリポジトリのみが表示されます。
 
    >[!NOTE]
    >
-   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
-1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプへの接続を選択した場合は、「レコードの外観 **領域で次のいずれかのオプションを選択し** す。
+
+1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプに接続する場合は、「レコードの外観 **領域で次のいずれかのオプションを選択し** す。
 
    * **名前と画像**：接続されたレコードの名前とサムネールまたはアイコンの両方が「接続されたレコード」フィールドに表示されます。 これはデフォルトのオプションです。
    * **名前**：接続されたレコードの名前のみが、「接続されたレコード」フィールドに表示されます。
@@ -230,6 +247,16 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
    >* Workfront オブジェクトタイプを選択する場合、レコードの外観は使用できません。
    >
    >* 「レコードの外観」領域で選択した内容によって、すべてのビューおよび詳細ページを含む、システム内のすべての接続でのレコードの表示方法が決まります。
+
+1. **参照フィールドを選択** を選択して、接続先のレコードタイプからフィールドを追加します。 ルックアップフィールドは、リンク先のレコードタイプまたはオブジェクトタイプに関連付けられたフィールドです。リンクすると、リンク元のレコード上のリンク先のレコードまたはオブジェクトの情報が表示されます。 これはデフォルトで選択されています。
+
+   >[!TIP]
+   >
+   >* Workfrontの先行入力フィールド（「プロジェクト所有者」や「プロジェクトスポンサー」などのフィールドを含む）を参照フィールドとして追加することはできません。
+   >
+   >* Workfront オブジェクトの日付フィールドの情報は、Workfront Planning では、Workfrontでの表示方法に関係なく、24 時間形式で表示されます。
+   >
+   >   例えば、プロジェクトの予定開始日がWorkfrontで午後 3:00 と表示された場合、Workfront Planning の読み込まれた参照フィールドでは 15:00 と表示されます。
 
 1. 「**作成**」をクリックします。
 
@@ -318,13 +345,15 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      例えば、キャンペーンレコードタイプをプログラムレコードタイプにリンクし、「プログラムリンクされたレコード」フィールドに「プログラム情報」という名前を付け、キャンペーンのテーブルビューにプログラムの「予算」フィールドも表示するように選択した場合、リンクされたフィールドの名前は、キャンペーンのテーブルビューで自動的に `Budget (from Program information)` になります。
 
-   * レコードタイプを相互にリンクすると、リンク先のレコードタイプにも、リンクされたレコードフィールドが追加されます。リンクされたレコードタイプでのリンクされたレコードフィールドの名前は、リンク元のレコードタイプの名前です。
+   * レコードタイプを相互にリンクすると、リンク先のレコードタイプにリンクされたレコードフィールドも追加されます <!--<span class="preview">only when you enable the Create corresponding field on linked record type setting.</span>-->、リンク先のレコードタイプのリンクされたレコードフィールドの名前は、リンク元のレコードタイプの名前です。
 
      例えば、「キャンペーン」レコードタイプから「製品」レコードタイプをリンクし、キャンペーンの「リンクされた製品」の接続フィールドに名前を付けると、製品レコードタイプに対して「キャンペーン」のリンクされたレコードフィールドが作成されます。
 
      >[!TIP]
      >
-     > 別のアプリケーションから Workfront Planning でのリンク元のレコードタイプへのオブジェクトには、リンクされたレコードフィールドは作成されません。
+     > Workfront Planning でリンク元のレコード・タイプに対する別のアプリケーションのオブジェクトには、リンクされたレコード・フィールドは作成されません。<!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>-->
+
+   <!--see the span preview text in the TIP above; it might not show up in green-->
 
 1. （オプションおよび条件付き）元のレコードタイプまたはリンクされたレコードタイプのテーブルビューで、リンクされたレコードフィールドのヘッダーにある下向き矢印をクリックし、次のいずれかをクリックします。
 
