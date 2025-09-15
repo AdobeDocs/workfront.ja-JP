@@ -136,7 +136,7 @@ Workfront には次の制限があります。
 
   >[!NOTE]
   >
-  >現時点で PowerPoint プレゼンテーションファイルのアップロードに失敗する既知の問題があります。 この問題が発生した場合は、ファイルをPDFに変換し、代わりにPDFをアップロードしてください。 詳しくは、[ プルーフ：PowerPoint ファイルからプルーフを生成できない ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx) を参照してください。
+  >現時点で PowerPoint プレゼンテーションファイルのアップロードに失敗する既知の問題があります。 この問題が発生した場合は、ファイルをPDFに変換し、代わりにPDFをアップロードしてください。 詳しくは、[ プルーフ：PowerPoint ファイルからプルーフを生成できない ](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx) を参照してください。
 
 
 * PPTX - PowerPoint Presentation 2007 PS - PostScript File
