@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: a6aa03157d44da8267faaa77bed83f07a03a24b3
+source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 14%
+source-wordcount: '367'
+ht-degree: 12%
 
 ---
 
@@ -41,7 +41,11 @@ ht-degree: 14%
 >* 実稼動高速リリース：2025 年 9 月 11 日（PT）
 >* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
-WorkfrontとWorkfront Planning でリクエストを行う際のユーザーエクスペリエンスを向上させるために、リクエスト時のエクスペリエンスを更新しました。 次の操作が可能になりました。
+WorkfrontとWorkfront Planning でリクエストを行う際のユーザーエクスペリエンスを向上させるために、リクエスト時のエクスペリエンスを更新しました。
+
+新しいリクエストエクスペリエンスを使用するには、リクエスト領域で、画面の右上隅にある「新しいエクスペリエンスを使用」切替スイッチを有効にします。
+
+新しいエクスペリエンスでは、次のことができます。
 
 * WorkfrontおよびWorkfrontの計画リクエストを 1 つのリストに表示します。
 * 指定した条件に基づいて送信されたリクエストをフィルタリングします。
