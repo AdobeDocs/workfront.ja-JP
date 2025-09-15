@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
-source-git-commit: a660fa9fedaf05582760029e062abb3d728106bd
+source-git-commit: 084f19973941b391d3d7e62c4901eee8ec975527
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4396'
 ht-degree: 97%
 
 ---
@@ -29,7 +29,7 @@ Workfrontのオンデマンドシステムパフォーマンスで一貫した�
 
 ### 免責事項
 
-API の使用は、実稼動環境で実行する前に、Workfront ベータ環境でテストする必要があります。お客様がオンデマンドのソフトウェアに負担をかけると合理的に判断する処理で API を使用している場合（当該処理が他のお客様のソフトウェアのパフォーマンスに重大な悪影響を及ぼしている場合）、Workfront は当該処理の中止をお客様に求める権利を有します。お客様がこれに応じず問題が継続する場合、Workfront は当該処理を終了させる権利を有します。
+API の使用は、実稼動環境で実行する前に、Workfront Beta 環境でテストする必要があります。お客様がオンデマンドのソフトウェアに負担をかけると合理的に判断する処理で API を使用している場合（当該処理が他のお客様のソフトウェアのパフォーマンスに重大な悪影響を及ぼしている場合）、Workfront は当該処理の中止をお客様に求める権利を有します。お客様がこれに応じず問題が継続する場合、Workfront は当該処理を終了させる権利を有します。
 
 ## Workfront API の URL
 
@@ -535,7 +535,7 @@ DELETE はオブジェクトを削除します。いずれの場合も、URI に
 ## 一括更新
 
 一括更新ステートメントは、1 回の API 呼び出し内で複数のオブジェクトを同時に更新します。一括作成 API 呼び出しは、次の例に示すように、通常の更新呼び出しと同様に作成されます。
-<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>その結果、次のような戻り値が返されます。
+<pre>PUT /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>または <pre>PUSH /attask/api/v15.0/proj?updates=[{"name":"Test_Project_1"},{"name":"Test_Project_2"}]&amp;method=POST&amp;apiKey=123ab-cxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>その結果、次のような戻り値が返されます。
 <pre>data: [{<br>    ID: "53ff8d3d003b438b57a8a784df38f6b3",<br>    name: "Test_Project_1",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>},<br>{<br>    ID: "53ff8d49003b43a2562aa34eea3b6b10",<br>    name: "Test_Project_2",<br>    objCode: "PROJ",<br>    percentComplete: 0usi,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:12:00:000-0400",<br>    status: "CUR"<br>}]</pre>一括更新は、次のように実行することもできます。
 <pre>PUT /attask/api/v15.0/proj?Umethod=PUT&amp;updates=[{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_1_ Edit"},{"ID":"123abcxxxxxxxxxxxxxxxxxxxxxxxxxx","name":"Test_Project_2_Edit"}]&amp;apiKey=123abcxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>その結果、次のような戻り値が返されます。
 <pre>data: [ {<br>     ID: "53ff8e15003b461d4560f7f65a440078",<br>     name: "Test_Project_1_Edit",<br>     objCode: "PROJ",<br>     percentComplete: 0,<br>     plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>     plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>     priority: 0,<br>     projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>     status: "CUR"<br>},<br>{<br>    ID: "53ff8e19003b46238a58d303608de502",<br>    name: "Test_Project_2_Edit",<br>    objCode: "PROJ",<br>    percentComplete: 0,<br>    plannedCompletionDate: "2014-08-28T11:00:00:000-0400",<br>    plannedStartDate: "2014-08-28T11:00:00:000-0400",<br>    priority: 0,<br>    projectedCompletionDate: "2014-08-28T16:16:00:000-0400",<br>    status: "CUR"<br>}]</pre>すべての操作を同じトランザクションで発生させる場合は、リクエストパラメーターとしてバッチ API 呼び出しに「atomic=true」を追加します。このようにすることで、いずれかの操作が失敗した場合にはすべての操作がロールバックされます。
