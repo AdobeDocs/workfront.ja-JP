@@ -7,9 +7,9 @@ description: ファイルの作成に使用するソフトウェア（Photoshop 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: 52b0389e9f5d8618106d9b511591afb0b6eb216f
+source-git-commit: e9fd96e32cabb1a99bb2170261577ec05c35ff6f
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1102'
 ht-degree: 94%
 
 ---
@@ -133,13 +133,13 @@ Workfront には次の制限があります。
 * PNM - Portable Bitmap Utilities
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint Presentation
+* PPTX - PowerPoint Presentation 2007
 
   >[!NOTE]
   >
-  >現時点で PowerPoint プレゼンテーションファイルのアップロードに失敗する既知の問題があります。 この問題が発生した場合は、ファイルをPDFに変換し、代わりにPDFをアップロードしてください。 詳しくは、[ プルーフ：PowerPoint ファイルからプルーフを生成できない ](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx) を参照してください。
+  >現時点で PowerPoint プレゼンテーションファイルのアップロードに失敗する既知の問題があります。 この問題が発生した場合は、ファイルをPDFに変換し、代わりにPDFをアップロードしてください。 詳しくは、[ プルーフ：PowerPoint ファイルからプルーフを生成できない ](https://experienceleague.adobe.com/en/docs/workfront-known-issues/issues/new-workfront-experience/wf-current/wf-proofs-cannot-generate-from-pptx) を参照してください。
 
-
-* PPTX - PowerPoint Presentation 2007 PS - PostScript File
+* PS - PostScript ファイル
 * PSD - Photoshop
 * PSP - Paint Shop Pro
 * PTK - PTOCA
