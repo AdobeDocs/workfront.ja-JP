@@ -6,7 +6,7 @@ description: Adobe Workfront のドキュメントに対して、他のユーザ
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 3fc3b1421882261a58a1984c9df410896d596062
 workflow-type: tm+mt
 source-wordcount: '504'
 ht-degree: 83%
@@ -59,7 +59,6 @@ Adobe Workfront のドキュメントに対して、他のユーザーやチー�
 
 1. ドキュメントにポインタを合わせ、「ドキュメントの詳細」をクリックします。
    ![ ドキュメントの詳細 ](assets/doc-details.png)
-
 
 1. ドキュメント名の近くにあるバージョンのドロップダウンで、承認を作成するドキュメントのバージョンを選択します。デフォルトでは最新バージョンが選択されます。
 

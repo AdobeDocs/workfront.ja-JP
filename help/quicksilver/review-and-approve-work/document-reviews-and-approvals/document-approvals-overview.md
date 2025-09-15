@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: 統合ドキュメント承認の概要
+title: 統合承認の概要
 description: 既に承認待ちのドキュメントに、追加の承認者またはレビュアーを追加できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 6da80f55fd4314c661c52bb2327ae8fa6c7e55b6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 37%
+source-wordcount: '324'
+ht-degree: 31%
 
 ---
 
@@ -49,30 +49,33 @@ ht-degree: 37%
 
 ## 統合承認の使用
 
-ドキュメントの承認の作成や管理を行うユーザーについては、[ アセットとドキュメントの承認の設定と管理：記事インデックス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md) に記載されている記事を参照してください。
+ドキュメント承認の作成や管理を行うユーザーについては、[ 統合承認の設定と管理：記事インデックス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md) に記載されている記事を参照してください。
 
 リクエストを受け取ったドキュメントをレビューまたは承認しようとするユーザーについては、[ ドキュメントの承認とレビュー：記事インデックス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md) に記載されている記事を参照してください。
 
-## 新機能と設計の目標
+<!--
 
->[!VIDEO](https://video.tv.adobe.com/v/3420544/)
+## New features and design goals
 
-* **包括的な関係者の参加**\
-    統合された承認を使用すると、個々のコントリビューターとチーム全体の両方を承認プロセスに含めることができます。 このような広範な参加を促進することで、包括的関係者のエンゲージメントを確保し、より情報に基づいた協調的な意思決定環境を促進します。
+>[!VIDEO](https://video.tv.adobe.com/v/3420544/)  
 
-* **区別されたレビューと承認の役割**\
-     統合承認は、承認プロセス内の様々な役割を認識し、尊重するように設計されています。 フィードバックの提供を通知されたが意思決定の権限を持たないユーザーに対して、レビュアーを特定して指定できる機能を提供することで、最終的な承認権限を明確に保ちつつ、フィードバックの質を高めます。
+* **Inclusive stakeholder participation**\
+    Unified Approvals allow the inclusion of both individual contributors and entire teams in the approval process. Facilitating this broader participation ensures comprehensive stakeholder engagement and fosters a more informed and collaborative decision-making environment.
 
-* **バージョン固有の承認**\
-    ドキュメント開発の反復的な性質により、多くの場合、同じドキュメントの複数のバージョンが作成されます。承認の統合は、ドキュメントのバージョンごとに一意の承認チェーンを提供することで、この状況に対応します。 これにより、ユーザーは必要に応じて新しいバージョンをアップロードし、新しい承認者またはレビュアーを追加できるので、フィードバックと承認がドキュメントのバージョンに固有であることを保証し、潜在的な混乱を避けることができます。
+* **Differentiated review and approval roles**\
+     Unified Approvals is designed to recognize and respect the varying roles within the approval process. By providing the ability to identify and designate reviewers—users who are notified to provide feedback but do not have decision-making authority—the quality of feedback is enhanced while maintaining clarity of final approval authority.
 
-* **監査証跡**\
-    統合承認を使用すると、すべての承認アクティビティの監査証跡がアクティビティストリームで維持され、今後の参照やコンプライアンスに役立つ貴重なリソースを提供できます。
+* **Version-specific approvals**\
+    The iterative nature of document development often leads to multiple versions of the same document. Unified Approvals accommodates this reality by providing unique approval chains for each version of a document. This allows users to upload a new version and add new approvers or reviewers as needed, ensuring that feedback and approval are specific to the document version and eliminating potential confusion.
 
-## リリースプラン
+* **Audit trails**\
+    With Unified Approvals, an audit trail of all approval activities is maintained in the activity stream, providing a valuable resource for future reference and compliance.
 
-複数のリリースを通じて、ユーザーが統合承認を利用できるようにしています。 新機能の追加に加えて、各リリースで統合承認を利用できるアカウントの数も増やします。
+## Release plan
 
-統合承認を実稼動環境で有効にする場合は、カスタマーサクセスまたは戦略担当営業にお問い合わせください。
+We are making Unified Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which Unified Approvals are available with each release.
+
+If you would like to have Unified Approvals enabled in your production environment, please reach out to your Customer Success or Strategic Account Manager.
 
 
+-->

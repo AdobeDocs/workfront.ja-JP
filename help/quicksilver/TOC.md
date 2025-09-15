@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 3d5dc51c519c7880e7a159fd26420bbd5ec18b6b
+source-git-commit: 5b34ea50fbf4718512a604191202b4ae9521ba86
 workflow-type: tm+mt
-source-wordcount: '13503'
+source-wordcount: '13500'
 ht-degree: 84%
 
 ---
@@ -1804,7 +1804,6 @@ ht-degree: 84%
       * [概要を使用してワークロードバランサーの作業アイテムを更新](resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 * 作業のレビューと承認 {#review-and-approve-work}
    * [作業のレビューと承認](review-and-approve-work/review-and-approve-work.md)
-   * [アルファプログラム - ドキュメントの承認](review-and-approve-work/Documents/doc-approvals-alpha.md)
    * [無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要](review-and-approve-work/proof-doc-decision-limits.md)
    * 作業承認 {#work-approvals}
       * [作業承認](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1818,14 +1817,15 @@ ht-degree: 84%
       * [承認リクエストをデリゲート](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
       * [新規または既存の承認プロセスを作業に関連付ける](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
       * [送信した承認の取り消し](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-   * アセットとドキュメントのレビューと承認 {#document-reviews-and-approvals}
-      * [アセットとドキュメントのレビューと承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [アセットおよびドキュメントのレビューと承認に使用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+   * 統合承認 {#document-reviews-and-approvals}
+      * [統合ドキュメント承認：記事インデックス](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+      * [統合承認で使用可能な機能](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
       * [統合承認の概要](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [ドキュメントの決定ステータスの概要](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * [Workfront AI レビュアーの基本を学ぶ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md)
+      * [Adobe Enterprise Storage Management の概要](/help/quicksilver/review-and-approve-work/esm-overview.md)
       * アセットとドキュメントの承認の設定と管理 {#manage-asset-review-and-approval}
-         * [アセットおよびドキュメント承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+         * [統合承認の設定と管理：記事インデックス](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
          * [AI レビュー担当者の作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md)
          * [ドキュメントのレビューおよび承認リクエストの作成](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
          * [アセットまたはドキュメントへのレビュー担当者または承認者の追加](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
@@ -1839,6 +1839,7 @@ ht-degree: 84%
          * [AI レビュー担当者のスコアとフィードバックを表示](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)
          * [ドキュメントのレビュー](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
          * [ドキュメントを承認](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+         * [Frame.io ビューアでのドキュメントのレビューと承認](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md)
    * プルーフ {#proofing}
       * [プルーフ：記事インデックス](review-and-approve-work/proofing/proofing.md)
       * プルーフの概要 {#proofing-overview}

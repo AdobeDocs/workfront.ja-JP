@@ -6,10 +6,10 @@ description: 新しいドキュメントバージョンをアップロードし�
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 42fbb40cb8a0f3c70e22fd04bd3d0ce625f58fec
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 50%
+source-wordcount: '488'
+ht-degree: 25%
 
 ---
 
@@ -23,12 +23,9 @@ ht-degree: 50%
 
 最新バージョンのドキュメントを削除しても、以前のバージョンはロックされたままになります。 以前のバージョンを編集する必要がある場合は、手動でロックを解除する必要があります。
 
-
 ## アクセス要件
 
 +++ 展開すると、この記事の機能のアクセス要件が表示されます。
-
-以下が必要です。
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,17 +34,16 @@ ht-degree: 50%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront パッケージ</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>現在：Request 以上</p>
-   または
-   <p>新規：Contributor 以上</p> </td> 
+   <td> <p>リクエスト以上</p>
+   <p>投稿者以上</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定*</td> 
+   <td role="rowheader">アクセスレベル設定</td> 
    <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -57,7 +53,7 @@ ht-degree: 50%
  </tbody> 
 </table>
 
-ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、Workfront 管理者にお問い合わせください。
+詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 +++
 
@@ -67,26 +63,36 @@ ht-degree: 50%
 >
 >Internet Explorer ではドラッグ＆ドロップは機能しません。
 
-1. ドキュメントがアップロードされるドキュメントエリアに移動します。
-1. デスクトップまたは別のブラウザータブから、ドキュメントの新しいバージョンを Workfront の既存のバージョンの上にドラッグします。
 
-   新しいバージョンをドラッグする際に、Workfront ドキュメントフォルダーの上にポインタを合わせると、そのバージョンを開くことができます。次に、ファイルを画面の上部または下部にドラッグして、上下にスクロールできます。
+ドキュメントに対する別のラウンドのレビューと承認が必要な場合は、Workfrontで新しいドキュメントバージョンを作成できます。
 
-1. 「**ドキュメント**」タブの既存のファイルの上に新しいバージョンをドロップします。
+以前の参加者、新しい参加者または両方を追加できます。 以前のバージョンと参加者に関する情報は、「ドキュメントの詳細」 ページで表示できます。
 
-1. ドキュメントがアップロードされたら、それをクリックしてドキュメントの概要パネルを開きます。
+新しいバージョンを追加するには：
 
-1. ドキュメントの概要ウィンドウの「**承認**」セクションにスクロールして、「**追加**」をクリックします。
+1. Workfrontのドキュメントに移動します。
+1. 新しいファイルを前のドキュメントの上にドラッグ&amp;ドロップします。 これにより、新しいバージョンが自動的に作成されます。
 
-![ ドキュメントの概要に承認者を追加 ](assets/doc-summary-add-approvers.png)
+1. ドキュメントのアップロードが完了したら、ドキュメントを選択し、「**ドキュメントの詳細**」をクリックします。
+   ![ ドキュメントの詳細ページを開く ](assets/open-doc-details.png)
+
+
+1. 左側のパネルで「**承認**」をクリックし、「**追加**」をクリックします。
+
+1. 以前の参加者をすべて追加するには、「**すべてを追加**」をクリックします。 必要に応じて、新しい参加者を追加したり、以前の参加者を削除したりすることもできます。
+
+
+1. 既存の承認テンプレートを追加するには、「テンプレート」ボタンをクリックしてテンプレート名の入力を開始します。
+
+   >[!TIP]
+   >
+   >   Standard ライセンスを持つユーザーは、設定エリアから適切な承認テンプレートを作成できます。 詳しくは、[ アセットおよびドキュメントの承認テンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
+
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 
-1. 以前のバージョンのレビュー担当者や承認者をすばやく追加するには、以下に示す名前の横にある「追加」ボタンをクリックします。
-   <!--need screenshot when working-->
+1. すべてのレビュー担当者と承認者を追加したら、「**リクエストを送信**」をクリックします。 参加者には、メールで通知されます。
 
-1. （任意）承認者/レビュアーから役割を変更します。
+   ![ 承認用に新しいバージョンを送信 ](assets/add-previous-participants.png)
 
-1. 新しい承認者とレビュアーを追加するには、**レビュアー** または **承認者** をクリックし、ユーザーまたはチームの入力を開始します。
 
-   ![ 承認者と期限を追加 ](assets/add-approver-and-deadline.png)

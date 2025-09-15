@@ -2,20 +2,20 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: 「プルーフ：記事インデックス」
+title: プルーフ：記事インデックス
 description: クリエイティブチームが作業する同じドキュメントでレビューしたりコメントを付けたりします。Workfront のプルーフを使用すると、すべてコメントとバージョンの監査記録を維持しながら、フィードバックのリクエスト、コメントの表示、保留中の承認や完了した承認に関する通知の取得を行うことができます。
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: b8b01b0431390d5a8a53dd3e3b56bae980501955
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 96%
+source-wordcount: '118'
+ht-degree: 93%
 
 ---
 
-# プルーフ：記事インデックス
+# プルーフの承認：記事インデックス
 
 <!-- Audited: 12/2023 -->
 

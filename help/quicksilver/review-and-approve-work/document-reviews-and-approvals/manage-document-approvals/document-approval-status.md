@@ -6,10 +6,10 @@ description: ドキュメントの決定ステータスのリストと説明
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: fcdb935b148ed7f8b9c49476f099f8285e02b0b5
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 82%
+source-wordcount: '178'
+ht-degree: 73%
 
 ---
 
@@ -98,6 +98,7 @@ ht-degree: 82%
                                 <p>少なくとも 1 人の承認者が「変更して承認済み」の決定を行いました</p>
                                 <p>他の承認者は「承認済み」という決定を行っている可能性があります
                             </li>
+                            <p>注意：このオプションは、レビューと承認に Frame.io 統合を使用している場合には使用できません。</p>
                         </ul>
                     </td>
                 </tr>
@@ -106,9 +107,9 @@ ht-degree: 82%
                     </td>
                     <td>
                         <ul>
-                            <li>
-                                <p>すべての承認とレビューが完了しました</p>
-                            </li>
+                           <!--<li>
+                                <p>All approvals and reviews are complete</p>
+                            </li>-->
                             <li>
                                 <p>すべての承認者が「承認済み」という決定を行っている可能性があります
                             </li>

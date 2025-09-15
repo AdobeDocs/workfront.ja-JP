@@ -8,10 +8,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51
-source-git-commit: 92ebfc6e2f33c15865b824c99546c8856d4f8edd
-workflow-type: ht
-source-wordcount: '31'
-ht-degree: 100%
+source-git-commit: b82730c216610a19b41f07ad8d2183d153830a29
+workflow-type: tm+mt
+source-wordcount: '37'
+ht-degree: 75%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 100%
 
 <!-- * [Limited document and proof decision for non-paid users overview](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md) -->
 * [作業承認](../review-and-approve-work/manage-approvals/manage-approvals.md)
-* [ドキュメントの承認](../review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-* [プルーフ](../review-and-approve-work/proofing/proofing.md)
+* [統合承認](../review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+* [プルーフの承認](../review-and-approve-work/proofing/proofing.md)
+* [ネイティブ統合のレビューと承認](/help/quicksilver/review-and-approve-work/native-integrations/review-approva-native-integrations-toc.md)
 

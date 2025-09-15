@@ -2,20 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: アセットおよびドキュメント承認の設定と管理：記事インデックス
-description: ここでは、Workfrontでのアセット承認およびドキュメント承認の管理に関する記事を紹介します。
+title: 統合承認の設定と管理：記事インデックス
+description: この節では、Workfrontでの統合承認の管理に関する記事を紹介します。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 9cdd3f9b46b36728a8825713fe50f3f2fe1ef90b
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '89'
+ht-degree: 14%
 
 ---
 
-# アセットおよびドキュメント承認の設定と管理：記事インデックス
+# 統合承認の設定と管理：記事インデックス
 
 この節では、次の記事を扱います。
 

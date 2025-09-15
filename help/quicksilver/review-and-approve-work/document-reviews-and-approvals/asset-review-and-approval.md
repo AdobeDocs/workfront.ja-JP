@@ -1,21 +1,21 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: アセットおよびドキュメントのレビューと承認に使用可能な機能
+title: ドキュメントの統合承認で利用可能な機能
 description: Workfrontでレビューおよび承認できるシステムの概要です。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 7f24186c8803237a6f5116293b3c6a5fd1ea90f6
+source-git-commit: c55af795069a05de3eb3d0d8599ab61f00168ddc
 workflow-type: tm+mt
-source-wordcount: '356'
+source-wordcount: '367'
 ht-degree: 1%
 
 ---
 
-# アセットおよびドキュメントのレビューと承認に使用可能な機能
+# ドキュメントの統合承認で利用可能な機能
 
-現在、Workfrontでは、アセットとドキュメントのレビューおよび承認用に、次の 3 つの異なるシステムを使用できます。
+現在、Workfrontでは、統合ドキュメント承認用に 3 つの異なるシステムを使用できます。
 
 * [レガシ ドキュメントの承認](#legacy-document-approvals)
 
@@ -58,9 +58,11 @@ ht-degree: 1%
 * キャンバスダッシュボード（現在はベータ版）を使用して、統合承認に関するレポートの詳細を表示します
 レポートについて詳しくは、[ レビューおよび承認用のレポートダッシュボードの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
 
-* 複数のステージ承認の作成 [!BADGE &#x200B; 近日公開 &#x200B;]{type=Informative}
+* 複数のステージ承認の作成 [!BADGE  近日公開 ]{type=Informative}
 
 * ホームエリアの自分の承認ウィジェットでレビューおよび承認リクエストにアクセスする
+
+* AI レビュー担当者を使用して、ブランドのコンプライアンスレビューを自動化します。 詳しくは、[Workfront AI レビュアーの基本を学ぶ ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
 
 
 ## プルーフの承認
