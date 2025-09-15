@@ -1,18 +1,18 @@
 ---
-title: AI アシスタントの概要
+title: Workfrontの AI アシスタント
 content-type: reference
-description: AI アシスタントの概要
+description: Adobe Workfrontの AI アシスタントについて説明します
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 945fa710e98b094a37258d5c94f7b1a2eb056abb
+source-git-commit: 657c2aa75d088f87f8e05b5089fccae2577842ee
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '831'
 ht-degree: 6%
 
 ---
 
-# AI アシスタントの概要
+# Workfrontの AI アシスタント
 
 Workfrontの AI アシスタントを使用すると、アプリ内の情報やおすすめを自然言語で提供できるので、作業を遂行できます。 AI アシスタントを使用すると、次の操作をよりスムーズに行うことができます
 
