@@ -58,7 +58,7 @@ ht-degree: 1%
 * キャンバスダッシュボード（現在はベータ版）を使用して、統合承認に関するレポートの詳細を表示します
 レポートについて詳しくは、[ レビューおよび承認用のレポートダッシュボードの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
 
-* 複数のステージ承認の作成 [!BADGE  近日公開 ]{type=Informative}
+* 複数のステージ承認の作成 [!BADGE &#x200B; 近日公開 &#x200B;]{type=Informative}
 
 * ホームエリアの自分の承認ウィジェットでレビューおよび承認リクエストにアクセスする
 
