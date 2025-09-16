@@ -8,18 +8,19 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
-source-git-commit: 65121fae364683373d2bc9abbe6672755d0cd09c
+source-git-commit: 03c17f2a09f4b2e00a4a03a177ce241b38b9ea7e
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 89%
+source-wordcount: '447'
+ht-degree: 91%
 
 ---
 
 # IP アドレスで Adobe Workfront へのアクセスを制限
 
+<!--
 >[!IMPORTANT]
 >
->この機能は、現在、Adobe Admin Consoleにオンボーディングされた組織では使用できません。 今後のリリースで、Adobe Admin Consoleで使用できるようになります。
+>This functionality is not currently available to organizations that have been onboarded to the Adobe Admin Console. It will be available in the Adobe Admin Console in a future release. -->
 
 Adobe Workfront IP 許可リストを設定して、Workfront へのアクセスを 75 個の IP アドレス、または指定した IP アドレスの範囲に制限することができます。これにより、Workfront アプリケーションのセキュリティレイヤーがさらに強化されます。
 
@@ -45,7 +46,7 @@ Adobe Workfront IP 許可リストを設定して、Workfront へのアクセス
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p> <p><b> 注意 </b>：それでもアクセス権がない場合は、Workfront管理者に、アクセスレベルでさらに制限されているかどうかを問い合わせてください。 Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
   </tr> 
  </tbody> 
 </table>
