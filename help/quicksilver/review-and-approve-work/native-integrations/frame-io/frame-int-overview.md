@@ -8,10 +8,10 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 701f3fc2c885363b5f61fb9d77049c7d4c41963d
+source-git-commit: c4e1961092883f523d04adaacd58129a0379783d
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 1%
+source-wordcount: '647'
+ht-degree: 0%
 
 ---
 
@@ -20,18 +20,18 @@ ht-degree: 1%
 
 Workfrontと Frame.io の統合により、プロジェクトコーディネーターはWorkfrontでプロジェクトを管理し作業を計画できますが、クリエイティブ、マーケター、関係者は Frame.io でアセットをレビューし承認できます。
 
-## Adobe Enterprise Storage Management に基づいて構築
+## Adobe エンタープライズストレージに基づいて構築
 
-この統合の中核となるのは、Adobe Enterprise Storage Management （ESM）です。ESM は、Workfrontや Frame.io などのAdobe エンタープライズ製品にまたがるアセットの中央リポジトリとして機能するクラウドベースのストレージソリューションです。
+この統合の中核となるのは、Adobe エンタープライズストレージです。これは、Workfront、Frame.io、Creative CloudなどのAdobe エンタープライズ製品にまたがるアセットの中央リポジトリとして機能するクラウドベースのストレージソリューションです。
 
-Adobe Enterprise Storage Management の主なメリットは次のとおりです。
+Adobe エンタープライズストレージの主なメリットには、次のものがあります。
 
 * クリエイティブおよび作業管理アセット向けの統合ストレージレイヤー
 * 安全なアクセス制御を実現する、Adobe IMSを介した一元化された権限
 * Workfront、Frame.io、Creative Cloud アプリ <!--coming soon?--> ース全体でアセットをエンドツーエンドで可視化
 * 企業のニーズに応える拡張性の高いストレージとクォータ管理
 
-詳しくは、[Adobe エンタープライズストレージ管理の概要 ](help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ## 統一されたレビューと承認
 
@@ -60,7 +60,11 @@ Workfrontと Frame.io の統合では、Workfrontの統合承認機能を使用�
 
 #### ビデオレビューの制限
 
-<!--need to confirm these-->
+ビデオプルーフリクエストの年間キャップは、組織のWorkfront ユーザーライセンス（Standard および Light）の合計有料ライセンスの 10% に設定されています。 この上限は組織レベルで適用されます。
+
+使用量が上限の 80% と 100% に達すると、Workfront管理者に通知されます。
+
+この制限は、Frame.io Enterprise のお客様には適用されません。
 
 #### Frame.io ビューアでサポートされるファイルタイプ
 
@@ -70,7 +74,7 @@ Frame.io ビューアは、すべての一般的なビデオ、画像、オー�
 
 Frame.io ビューアは、有料ライセンスを持つすべてのWorkfront ユーザーが利用できます。 この統合によるレビューと承認に Frame.io ビューアを使用する場合、追加の Frame.io ライセンスは必要ありません。
 
-組織が Frame.io のプロジェクトへの直接アセットのアップロードなど、Frame.io の追加機能を活用する場合は、Frame.io エンタープライズライセンスを購入できます。<!--link to Frame.io enterprise license info or who to contacT?-->
+組織が Frame.io のプロジェクトへの直接アセットのアップロードなど、Frame.io の追加機能を活用する場合は、Frame.io エンタープライズライセンスを購入できます。 デモのスケジュールを設定し、完全な Frame.io ソリューションのメリットを確認するには、Adobe アカウント担当者にお問い合わせください。
 
 Workfrontのプルーフ機能は、この統合では使用できません。
 
@@ -78,7 +82,7 @@ Workfrontのプルーフ機能は、この統合では使用できません。
 
 Workfrontと Frame.io の統合により、プロジェクトコーディネーターはWorkfrontの強力なプロジェクト管理機能を活用して、作業の計画、トラッキング、管理を行うことができます。
 
-Workfrontのプロジェクト管理について詳しくは、[ プロジェクト：記事のインデックス ](/help/quicksilver/manage-work/projects/projects-toc.md) を参照してください。
+Workfrontのプロジェクト管理について詳しくは、[ プロジェクト：記事のインデックス ](/help/quicksilver/manage-work/projects/create-projects/create-project.md) を参照してください。
 
 ### 構造と命名規則の適用
 
@@ -106,21 +110,21 @@ Workfrontのプロジェクト管理について詳しくは、[ プロジェク
 
 次の機能は、この統合には含まれません。
 
-* 外部ドキュメント プロバイダー
+<!--* External document providers-->
 * プルーフへのアクセス
 * Workfrontのドキュメントビューア
-
-
-#### 一時的な制限
-
-現時点では、次の機能は使用できません。
-
 * お気に入りのドキュメント
 * ドキュメントを要求
-* Adobe Experience Manager Assetsへのドキュメントの送信
-* 複数ステージの承認
-* Workfrontでのコメントまたは更新へのドキュメントのアップロード
-* Workfrontでのタスクまたは問題へのドキュメントのアップロード
+
+
+<!--#### Temporary limitations
+
+For now, the following capabilities are not available:
+
+* Send documents to Adobe Experience Manager Assets
+* Multi-stage approvals
+* Upload documents to comments or updates in Workfront
+* Upload documents to tasks or issues in Workfront-->
 
 
 

@@ -6,10 +6,10 @@ description: プルーフで統合承認を使用できます。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 4%
+source-wordcount: '847'
+ht-degree: 5%
 
 ---
 
@@ -97,8 +97,6 @@ Workfrontの統合承認では、ドキュメントのレビューと承認に�
 ## プルーフを確認し、決定します
 
 割り当てられたすべての承認者が「承認済み」を選択するまで、ドキュメントは承認済みステータスに移動しません。
-
-いずれかの承認者が「作業が必要」を選択した場合、ドキュメントのステータスは直ちに「作業が必要」に変わります。 ドキュメントは、新しい承認ワークフローで新しいバージョンとして改訂およびアップロードする必要があります。
 
 ドキュメントをレビューおよび承認するには：
 

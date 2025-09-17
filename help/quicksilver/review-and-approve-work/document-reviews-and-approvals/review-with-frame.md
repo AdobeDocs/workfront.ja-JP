@@ -8,9 +8,9 @@ feature: Work Management, Digital Content and Documents
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '570'
 ht-degree: 15%
 
 ---
@@ -81,8 +81,6 @@ Workfrontのホームページに移動して、「自分の承認」ウィジ�
 承認者は、コメントを追加し、アセットにマークアップできます。 承認プロセスを先に進めるための決定を行う必要があります。
 
 割り当てられたすべての承認者が「承認済み」を選択するまで、ドキュメントは承認済みステータスに移動しません。
-
-いずれかの承認者が「作業が必要」を選択した場合、ドキュメントのステータスは直ちに「作業が必要」に変わります。 ドキュメントは、新しい承認ワークフローで新しいバージョンとして改訂およびアップロードする必要があります。
 
 ドキュメントに対して決定を行うには：
 
