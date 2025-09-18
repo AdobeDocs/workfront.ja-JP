@@ -6,26 +6,16 @@ description: 追加の介入なしに、ユーザーに対して定期タイム�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
 workflow-type: tm+mt
-source-wordcount: '1695'
-ht-degree: 75%
+source-wordcount: '1635'
+ht-degree: 77%
 
 ---
 
 # タイムシートプロファイルの作成、編集および割り当て
 
 <!--Audited: 06/2025-->
-
-<!--at the Prod release, remove the Production and Preview references from this article-->
-
-<div class="preview">
-
-このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
-
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
-
-</div>
 
 追加の介入なしに、ユーザーに対して定期タイムシートを生成するタイムシートプロファイルを作成および編集し割り当てることができます。これにより、時間を節約し、次の情報についてユーザー間で一貫性を保つことができます。
 
@@ -146,7 +136,7 @@ ht-degree: 75%
       <td role="rowheader"><strong>時間を編集可能</strong> </td> 
       <td> <p> <p>承認者がタイムシートの時間を編集できるようにするには、このオプションを選択します。
 
-   <p>このオプションは、設定/タイムシートと時間/環境設定領域の&#x200B;**タイムシートの編集を所有者と管理者に制限する**&#x200B;設定と連携して機能します。 詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。</p>
+   <p>このオプションは、設定/タイムシートと時間/環境設定領域の**タイムシートの編集を所有者と管理者に制限する**設定と連携して機能します。 詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。</p>
 
    <p>次のシナリオが存在します。 </p>
 
@@ -182,9 +172,9 @@ ht-degree: 75%
     </tbody> 
     </table>
 
-1. 実稼動環境、またはグループレベルのタイムシートプロファイルを作成する場合は、「**ユーザーを割り当て**」タブをクリックして、タイムシートプロファイルを特定のユーザー、グループ、または（Workfrontの管理者の場合）チームに関連付けます。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+1. グループレベルのタイムシートプロファイルを作成する場合は、「**ユーザーを割り当て**」タブをクリックして、タイムシートプロファイルを特定のユーザー、グループまたは（Workfrontの管理者の場合）チームに関連付けます。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-   <span class="preview"> システムのタイムシートプロファイルを作成する際のプレビュー環境で、ページの下部までスクロールして **ユーザーを割り当て** セクションを見つけます。</span> <!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
+   システムのタイムシートプロファイルを作成する場合は、ページの下部までスクロールして、「ユーザーを割り当て **セクションを見つけ** す。<!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
    ユーザー、グループ、またはチームの名前の入力を開始し、ドロップダウンリストに表示されたらクリックします。
 
