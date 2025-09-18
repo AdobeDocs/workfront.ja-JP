@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 30%
+source-wordcount: '2752'
+ht-degree: 29%
 
 ---
 
 
 # レコードタイプを接続
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 
 {{planning-important-intro}}
@@ -144,7 +144,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >他のワークスペースからレコードの種類にアクセスするには、[**&#x200B;** レコードの種類の編集 **] ボックスの [** 詳細設定 **] タブで、レコードの種類に対して &lbrack; 他のワークスペースでこのレコードの種類への接続を許可する** 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
+     >他のワークスペースからレコードの種類にアクセスするには、[**** レコードの種類の編集 **] ボックスの [** 詳細設定 **] タブで、レコードの種類に対して [ 他のワークスペースでこのレコードの種類への接続を許可する** 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
      > ![ レコードタイプを編集ボックスの「詳細設定」タブ ](assets/edit-record-type-box-advanced-settings-tab.png)
 
      詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
@@ -172,50 +172,45 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    ![ 複数レコードを許可する新しい接続ボックス ](assets/new-connection-allow-multiple-records-box.png)
 
-1. （条件付き）同じワークスペースからレコード型を接続する場合、または Planning レコード型をWorkfront オブジェクト型と接続する場合は、次の **接続タイプ** オプションの 1 つを選択して、ユーザーが接続できるレコード数と接続できないレコード数を指定します。
+1. （条件付き）同じワークスペースのレコードタイプを接続する場合、または Planning レコードタイプをWorkfront オブジェクトタイプに接続する場合、使用する環境に応じて次のいずれかの操作を行います。
 
-   * 多対多
-   * 1 対多
-   * 多対 1
-   * 1 対 1
+   * 実稼動環境で、次の **接続タイプ** オプションのいずれかを選択して、ユーザーが接続できるレコードの数を指定します。
 
-   ![ 多対多の接続ピッカー ](assets/many-to-many-connection-picker.png)
+      * 多対多
+      * 1 対多
+      * 多対 1
+      * 1 対 1
 
-   接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+     ![ 多対多の接続ピッカー ](assets/many-to-many-connection-picker.png)
 
-   >[!NOTE]
-   >
-   > 接続の種類に [ 一対多 ] または [ 一対一 ] を選択した場合、後で他の場所に既に接続されているレコードまたはオブジェクトを接続しようとすると、再度接続すると元の接続から削除されるという警告が表示されます。 削除を許可するか、別のレコードを選択できます。
+   <div class="preview">
 
+   * プレビュー環境で以下を行います。
+      1. 次のいずれかを選択します。
 
-   <!-- 
-        at the release to preview, replace the step above with this step; be careful with the numbering and ensure it keeps the correct step number in the preview window in MKD; there are spaces to be added between paragraphs too, when you make this live: 
-    1. (Conditional) When you connect record types from the same workspace, or a Planning record type with a Workfront object type, do one of the following, depending on which environment you are using: 
-        * In the Production environment, select one of the following **Connection type** options to indicate how many records users can connect to and from:
-            * Many to many
-            * One to many
-            * Many to one
-            * One to one      
-            ![Many to many connection picker](assets/many-to-many-connection-picker.png)
-        <div class="preview">
-        * In the Preview environment, do the following: 
-            1. Select one of the following:
-                * **Multi-select**: Select this to allow one record from the current record type to connect with multiple records from the connection record type.
-                * **Single-select**: Select this to allow one record from the current record type to connect with one record from the connection record type.
-            2. Enable the **Create corresponding field on linked record type**. When enabled, a connection field is created on the record type you are connected to, in addition to the connection field added to the current record type. This is disabled by default.
-                    >[!TIP]
-                    >
-                    >There is a limit of 500 connections for one record type. We recommend to keep this setting off, especially for taxonomical record types, to avoid reaching this limit. 
-            3. (Conditional) If you enabled **Create corresponding field on linked record type**, choose from the following options to indicate how many records users can connect to and from:
-                * Many to many
-                * One to many
-                * Many to one
-                * One to one  
-            </div>       
-             For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-                >[!NOTE]
-                >
-                >If you select One to many or One to one for the Connection type and you later want to connect a record or an object that is already connected elsewhere, you will receive a warning that connecting it again will remove it from the original connection. You can allow the removal or select another record.-->
+         * **複数選択**：現在のレコードタイプの 1 つのレコードを、接続レコードタイプの複数のレコードに接続できるようにするには、これを選択します。
+         * **単一選択**：現在のレコードタイプの 1 つのレコードを、接続レコードタイプの 1 つのレコードと接続する場合に選択します。
+
+      2. **リンクされたレコードタイプに対応するフィールドを作成** を有効にします。 有効にすると、現在のレコードタイプに追加された接続フィールドに加えて、接続先のレコードタイプに接続フィールドが作成されます。 これはデフォルトでは無効になっています。
+
+         >[!TIP]
+         >
+         >1 つのレコードタイプに対する接続の上限は 500 個です。 この制限に達するのを避けるために、特に分類レコードタイプでは、この設定をオフにすることをお勧めします。
+
+      3. （条件付き） **リンクされたレコードタイプに対応するフィールドを作成** を有効にした場合は、次のオプションから選択して、ユーザーが接続できるレコード数と接続できるレコード数を示します。
+
+         * 多対多
+         * 1 対多
+         * 多対 1
+         * 1 対 1
+
+     </div>
+
+     接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+
+     >[!NOTE]
+     >
+     >接続の種類に [ 一対多 ] または [ 一対一 ] を選択した場合、後で他の場所に既に接続されているレコードまたはオブジェクトを接続しようとすると、再度接続すると元の接続から削除されるという警告が表示されます。 削除を許可するか、別のレコードを選択できます。
 
 1. （条件付きおよびオプション）Workfront オブジェクトを接続することを選択した場合は、「**これらの条件に一致するオブジェクトのみをリンク** セクションから **カスタムフォーム** を選択します。 選択したカスタムフォームがアタッチされているオブジェクトのみを、選択したレコードタイプにリンクできます。複数のフォームを選択できます。
 
@@ -227,7 +222,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 
 1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプに接続する場合は、「レコードの外観 **領域で次のいずれかのオプションを選択し** す。

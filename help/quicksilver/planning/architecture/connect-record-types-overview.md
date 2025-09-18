@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 17%
+source-wordcount: '1976'
+ht-degree: 15%
 
 ---
 
 # 接続されたレコードタイプの概要
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>   -->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 個々のレコードタイプを相互に関連付けたり、他のアプリケーションのオブジェクトに接続して関連付けることができます。
 
@@ -75,12 +75,12 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
      例えば、「キャンペーン」レコードタイプを「製品」レコードタイプに接続すると、「リンクされた製品」という名前のリンクされたレコードフィールド（接続フィールド）がキャンペーンレコードタイプに作成されます。 製品レコードタイプに、「キャンペーン」という名前のリンクされたレコードタイプが自動的に作成されます。
 
-     <!--<div class="preview">
-        
-        For example, the following scenarios exist: 
-        * When you enable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is created on the Product record type.
-        * When you disable the Create corresponding field on linked record type setting and you connect the "Campaign" record type with the "Product" record type, a linked record field (connection field) that you name "Linked Product" is created on the Campaign record type. A linked record type automatically named "Campaign" is not created on the Product record type.
-        </div>-->
+     <div class="preview">
+
+     例えば、次のようなシナリオが存在します。
+      * 「リンクされたレコードタイプに対応するフィールドを作成」設定を有効にし、「キャンペーン」レコードタイプを「製品」レコードタイプに接続すると、「リンクされた製品」と名前が付いたリンクされたレコードフィールド（接続フィールド）がキャンペーンレコードタイプに作成されます。 製品レコードタイプに、「キャンペーン」という名前のリンクされたレコードタイプが自動的に作成されます。
+      * 「リンクされたレコードタイプに対応するフィールドを作成」設定を無効にして、「キャンペーン」レコードタイプを「製品」レコードタイプに接続すると、「リンクされた製品」と名前が付いたリンクレコードフィールド（接続フィールド）がキャンペーンレコードタイプに作成されます。 製品レコードタイプに「キャンペーン」という名前のリンクされたレコードタイプが自動的に作成されません。
+     </div>
 
      詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
@@ -90,7 +90,7 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
       * 計画レコードフィールドには、Workfront オブジェクトからアクセスできません。
       * 計画レコードは、Workfront オブジェクトの「計画」タブに表示されます。 詳しくは、[Workfront オブジェクトからのレコード接続の管理 ](/help/quicksilver/planning/records/manage-records-in-planning-section.md) を参照してください。
       * Planning 接続のカスタムフィールドを作成して、Workfront オブジェクトのカスタムフォームに添付できます。 詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
-      * WorkfrontとExperience Managerの統合を通じてWorkfront管理者がメタデータマッピングを設定すると、Adobe Experience Manager Assets Assets から計画レコードフィールドにアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+      * WorkfrontとExperience Managerの統合を通じてWorkfront管理者がメタデータマッピングを設定すると、Adobe Experience Manager Assets Assets から計画レコードフィールドにアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 
    * **接続先のレコードまたはオブジェクトからルックアップ フィールドを追加する場合**: リンクされたレコード フィールドを作成する以外に、ルックアップ フィールドと呼ばれる接続されたレコードまたはオブジェクト タイプのフィールドにも接続できます。 接続先のレコードの情報とリンクされた（またはルックアップ フィールド）が、接続先のレコードに表示されます。
@@ -132,66 +132,65 @@ Workfront Planning で接続するには、次の 2 つの手順があります�
 
 一度に 1 つのレコードを複数のレコードに接続するか、一度に 1 つのレコードを相互に接続するかを選択できます。
 
-接続されたレコード フィールド <!--and the environment you use to create the connected fields--> に追加できるレコードの数に応じて、レコードの種類を接続するときに選択できる接続の種類は次のとおりです。
-
-<!--replace the list of 4 connection types at the bottom of this commented-out section with this entire section, whenw e release to preview: 
+接続されたレコードフィールドに追加できるレコード数と、接続されたフィールドを作成するために使用する環境に応じて、レコードタイプを接続する際に次の接続タイプから選択できます。
 
 <div class="preview">
 
-* In the Preview environment: 
+* プレビュー環境で、以下を行います。
 
-    * When the Create corresponding field on linked record type setting is disabled, you can choose from: 
+   * 「リンクされたレコードタイプに対応するフィールドを作成」設定が無効になっている場合は、次から選択できます。
 
-        * [Multi-select](#multi-select-connection-type)
-        * [Single-select](#single-select-connection-type)
+      * [複数選択](#multi-select-connection-type)
+      * [単一選択](#single-select-connection-type)
 
 </div>
 
-* <span class="preview">In the Preview environment, when the Create corresponding field on linked record type setting is enabled,</span> or in the Production environment, you can choose from:
+* <span class="preview"> プレビュー環境では、「リンクされたレコードタイプに対応するフィールドを作成」設定が有効になっている場合 </span> または実稼動環境では、次のいずれかを選択できます。
 
-    * [Many to many](#many-to-many-connection-type)
-    * [One to many](#one-to-many-connection-type)
-    * [Many to one](#many-to-one-connection-type)
-    * [One to one](#many-to-one-connection-type) 
+   * [多対多](#many-to-many-connection-type)
+   * [1 対多](#one-to-many-connection-type)
+   * [多対 1](#many-to-one-connection-type)
+   * [1 対 1](#many-to-one-connection-type)
 
 <div class="preview">
 
-### Multi-select connection type
+### 接続タイプを複数選択
 
-![Multi-select connection type](assets/multi-select-connection-picker.png)
+![ 複数選択の接続タイプ ](assets/multi-select-connection-picker.png)
 
-When you create a multi-select connection between record types, you can then select multiple connected records in the connection field from the original record type. 
+レコードタイプ間に複数選択接続を作成すると、元のレコードタイプから接続フィールドで複数の接続レコードを選択できます。
 
-For example, if you create a multi-select connection between campaigns and projects, you can select multiple projects for one campaign. A Campaign connected record type is not created for the Project object type.
+例えば、キャンペーンとプロジェクトの間に複数選択接続を作成した場合、1 つのキャンペーンに対して複数のプロジェクトを選択できます。 プロジェクト オブジェクト タイプに対して、キャンペーンに接続されたレコード タイプが作成されません。
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following types:
+この接続の種類を選択した後は、次のいずれかの種類に保存すると、接続の種類を変更できなくなります。
 
     * Single-select
     * One to many
     * Many to one
     * One to one
 
-### Single-select connection type
+### 単一選択の接続タイプ
 
-![Single select connection type](assets/single-select-connection-picker.png)
+![ 単一選択接続タイプ ](assets/single-select-connection-picker.png)
 
-When you create a single-select connection between record types, you can then select one record in the connection field from the original record type. 
+レコードタイプ間に単一選択の接続を作成すると、元のレコードタイプから接続フィールドの 1 つのレコードを選択できます。
 
-For example, if you create a single-select connection between campaigns and companies, you can select one company for one campaign. A Campaign connected record type is not created for the Company object type.
+例えば、キャンペーンと会社の間に単一選択の接続を作成する場合、1 つのキャンペーンに対して 1 つの会社を選択できます。 会社オブジェクトタイプに対して、キャンペーンに接続されたレコードタイプが作成されません。
 
-After you select this connection type, you cannot change the connection type after you save it to any of the following:
+この接続の種類を選択した後で、次のいずれかに保存すると、接続の種類を変更できなくなります。
 
-    * One to many
-    * One to one
+* 1 対多
+* 1 対 1
 
 </div>
 
--->
 
-* [多対多](#many-to-many-connection-type)
-* [1 対多](#one-to-many-connection-type)
-* [多対 1](#many-to-one-connection-type)
-* [1 対 1](#many-to-one-connection-type)
+<!--
+* [Many to many](#many-to-many-connection-type)
+* [One to many](#one-to-many-connection-type)
+* [Many to one](#many-to-one-connection-type)
+* [One to one](#many-to-one-connection-type)
+-->
 
 ### 多対多接続タイプ
 
