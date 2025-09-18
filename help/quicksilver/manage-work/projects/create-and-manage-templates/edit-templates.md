@@ -6,14 +6,16 @@ description: プロジェクトテンプレートを編集して、今後のプ�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: a25eb28800ca8bbeeffedb521b3d72c8df71c697
+source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
 workflow-type: tm+mt
-source-wordcount: '5045'
-ht-degree: 88%
+source-wordcount: '5161'
+ht-degree: 82%
 
 ---
 
 # プロジェクトテンプレートの編集
+
+{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -112,7 +114,6 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * [コメント](#comment)
    <!--* [Linked folders](#linked-folders-conditional-availability) -->
 
-
 ### テンプレート名{#template-name}
 
 1. 前述の説明に従って、テンプレートの編集を開始します。
@@ -134,33 +135,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 次のフィールドを更新します。
 
    <table style="table-layout:auto"> 
-       <col> 
-       <col> 
-       <tbody> 
-         <tr> 
-         <td role="rowheader"><strong>説明</strong></td> 
-         <td>テンプレートに関する追加情報を追加します。</td> 
-       </tr> 
-         <tr> 
-         <td role="rowheader"><strong>優先度</strong></td> 
-         <td><p>これは、将来のプロジェクトに優先順位を付けるための単なる視覚的なフラグです。次のオプションから選択します。</p> 
-         <ul> 
-         <li><p><strong>なし</strong></p></li> 
-         <li><p><strong>低</strong></p></li> 
-         <li><p><strong>標準</strong></p></li> 
-         <li><p><strong>高</strong></p></li> 
-         <li><p><strong>緊急</strong></p></li> 
-         </ul><p><p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。優先度の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成およびカスタマイズ</a>を参照してください。</p></p></td> 
+    <col> 
+    <col> 
+    <tbody> 
+      <tr> 
+      <td role="rowheader"><strong>説明</strong></td> 
+      <td>テンプレートに関する追加情報を追加します。</td> 
+      </tr> 
+      <tr> 
+      <td role="rowheader"><strong>優先度</strong></td> 
+      <td><p>これは、将来のプロジェクトに優先順位を付けるための単なる視覚的なフラグです。次のオプションから選択します。</p> 
+      <ul> 
+      <li><p><strong>なし</strong></p></li> 
+      <li><p><strong>低</strong></p></li> 
+      <li><p><strong>標準</strong></p></li> 
+      <li><p><strong>高</strong></p></li> 
+      <li><p><strong>緊急</strong></p></li> 
+      </ul><p><p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。優先度の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成およびカスタマイズ</a>を参照してください。</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
          <td>このテンプレートに関する情報に関連する web リンクを指定します。</td> 
        </tr>
-<tr> 
+   <tr> 
       <td role="rowheader"><strong>アクティブ</strong></td> 
       <td><p>テンプレートをアクティブにする場合は、このオプションをオンにします。 他のユーザーがこのテンプレートを見つけて、プロジェクトの作成時にプロジェクトに添付できます。 使用されていないテンプレートをディアクティベートする場合は、このオプションをオフにします。 非アクティブ化されたテンプレートをプロジェクトに添付できません。 これはデフォルトで有効になっています。 </p><p><b>ヒント</b></p>
 
-<p>この記事の「テンプレートのアクティベートまたはアクティベート解除」の節で説明しているように、テンプレートヘッダーからテンプレートをアクティベート解除できます。</p></td> 
+   <p>この記事の「テンプレートのアクティベートまたはアクティベート解除」の節で説明しているように、テンプレートヘッダーからテンプレートをアクティベート解除できます。</p></td> 
      </tr>
 
 <tr> 
@@ -251,33 +252,33 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td><p>このテンプレートから作成されるプロジェクトの予算を指定します。</p></td> 
        </tr>  
        <tr> 
-         <td role="rowheader"><strong>パフォーマンスインデックスメソッド</strong></td> 
-         <td><p>Workfront が将来のプロジェクトの出来高指標を計算する方法を選択します。次の中から選択します。
-         <ul>
-         <li>時間ベース</li>
-         <li>コストベース</li>
-         </ul>
+       <td role="rowheader"><strong>パフォーマンスインデックスメソッド</strong></td> 
+       <td><p>Workfront が将来のプロジェクトの出来高指標を計算する方法を選択します。次の中から選択します。
+       <ul>
+       <li>時間ベース</li>
+       <li>コストベース</li>
+       </ul>
 
-   パフォーマンスインデックスメソッドの詳細については、<a href="../../../manage-work/projects/project-finances/set-pim.md" class="MCXref xref">パフォーマンスインデックスメソッド（PIM）の設定</a>を参照してください。 </p></td>
-   </tr> 
-         <tr> 
-         <td role="rowheader"><strong>予定利益</strong></td> 
-         <td><p>このテンプレートから作成されるプロジェクトの予定利益を指定します。予定利益は、プロジェクトのビジネスケースとポートフォリオオプティマイザーで使用されます。 </p><p>プロジェクトの予定利益について詳しくは、<a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">プロジェクトの予定利益の概要</a>を参照してください。プロジェクトの正味価値が計算される際には、プロジェクトの予定利益が考慮されます。 </p><p>ポートフォリオオプティマイザーの使用の詳細については、<a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">ポートフォリオオプティマイザーでのプロジェクトの管理</a>を参照してください。 </p></td> 
-       </tr> 
-       <tr> 
-         <td role="rowheader"><strong>固定コスト</strong></td> 
-         <td><p>このテンプレートから作成されるプロジェクトの固定コストを指定します。これは、プロジェクトの時間に基づく労力コストと、プロジェクトの費用の額に基づく経費コストとは異なります。プロジェクトの固定コストは、プロジェクトの正味値を計算する際に考慮され、予算計上コストに含まれます。</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>固定収益</strong></td> 
-       <td><p>このテンプレートから作成されるプロジェクトの固定収益を指定します。</p></td> 
-       </tr> 
-       <tr> 
-       <td role="rowheader"><strong>プロジェクト時間の承認</strong></td> 
-       <td><p>このオプションを選択すると、このテンプレートで作成される今後のプロジェクトの所有者が、プロジェクトにログオンした時間を承認する必要があります。請求記録を使用している場合、このオプションを選択すると、プロジェクトで承認された時間のみが請求記録の請求可能時間として表示されます。プロジェクトの承認時間は、タイムシートの承認とは無関係です。プロジェクトで時間を承認する必要がある場合については詳しくは、<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">プロジェクトの承認に要する時間</a>を参照してください。</p></td> 
-       </tr> 
-       </tbody> 
-      </table>
+        パフォーマンス インデックス メソッドの詳細については、&lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;> パフォーマンス インデックス メソッド （PIM）の設定 &lt;/a> を参照してください。 &lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong> 予定利益 &lt;/strong>&lt;/td>
+       &lt;td>&lt;p> このテンプレートから作成されるプロジェクトの予定便益を指定します。 予定利益は、プロジェクトのビジネス ケースとPortfolio Optimizer で使用されます。 &lt;/p>&lt;p> プロジェクトの予定利益の詳細については、&lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;> プロジェクトの予定利益の概要 &lt;/a> を参照してください。 プロジェクトの予定利益は、プロジェクトの純価の計算時に考慮されます。 &lt;/p>&lt;p>Portfolio Optimizer の使用について詳しくは、&lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>Portfolio Optimizer でプロジェクトを管理 &lt;/a>&lt;/p>&lt;/td> を参照してください 
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong> 固定コスト &lt;/strong>&lt;/td>
+       &lt;td>&lt;p> このテンプレートから作成されるプロジェクトの固定コストを指定します。 これは、プロジェクトの時間に基づく労力コストと、プロジェクトの費用の額に基づく経費コストとは異なります。プロジェクトの固定コストは、プロジェクトの正味値を計算する際に考慮され、予算計上コストに含まれます。&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong> 固定収益 &lt;/strong>&lt;/td>
+       &lt;td>&lt;p> このテンプレートから作成されるプロジェクトの固定収益を指定します。&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;tr>
+       &lt;td role=&quot;rowheader&quot;>&lt;strong> このプロジェクトの承認には時間が必要です &lt;/strong>&lt;/td>
+       &lt;td>&lt;p> このオプションを選択すると、このテンプレートから作成された未来のプロジェクトのプロジェクト所有者に、プロジェクトのログ時間の承認を要求します。 請求記録を使用している場合、このオプションを選択すると、プロジェクトで承認された時間のみが請求記録の請求可能時間として表示されます。プロジェクトの承認時間は、タイムシートの承認とは無関係です。プロジェクトの承認に時間を要する詳細については、「&lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;> プロジェクトの承認に時間を要する &lt;/a>」を参照してください。&lt;/p>&lt;/td>
+       &lt;/tr>
+       &lt;/tbody>
+   </table>
 
 1. （オプション）変更する情報に応じて、以降のセクションを引き続き編集します。
 
@@ -330,12 +331,12 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        <td> <p>テンプレートのマイルストーンパスを選択します。アクティブなマイルストーンパスのみがリストに表示されます。<br>マイルストーンパスについて詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md" class="MCXref xref">マイルストーンパスの作成</a>を参照してください。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>完了モード</strong> </td> 
-         <td> <p>今後のプロジェクトを完了としてマークする方法を制御します。<br>次のオプションから選択します。</p> 
-         <ul> 
-         <li> <p><strong>自動</strong>：すべてのタスクとイシューが完了すると、プロジェクトは「完了」とマークされます。</p> </li> 
-         <li> <p><strong>手動</strong>：すべてのタスクとイシューが完了したら、プロジェクトの「完了」のステータスを手動で選択する必要があります。 </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>完了モード</strong> </td> 
+       <td> <p>今後のプロジェクトを完了としてマークする方法を制御します。<br>次のオプションから選択します。</p> 
+       <ul> 
+       <li> <p><strong>自動</strong>：すべてのタスクとイシューが完了すると、プロジェクトは「完了」とマークされます。</p> </li> 
+       <li> <p><strong>手動</strong>：すべてのタスクとイシューが完了したら、プロジェクトの「完了」のステータスを手動で選択する必要があります。 </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>概要完了モード</strong> </td> 
@@ -346,72 +347,72 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
        </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>更新タイプ</strong> </td> 
-         <td> <p>将来のプロジェクトのタイムラインに対して行った変更がプロジェクトに保存されるタイミングを制御します。 </p> 
-         <b>例</b> 
-         <p>プロジェクトに対する次の変更が、プロジェクトのタイムラインへの更新をトリガーします。</p> 
-         <ul> 
-         <li> <p>タスクの日付を更新する</p> </li> 
-         <li> <p>先行タスク関係を変更する<br></p> </li> 
-         <li> <p>親子関係を変更する</p> </li> 
-         <li> <p>タスクの制約または期間タイプの変更に加えて、割り当てを追加または削除する</p> </li> 
-         </ul> 
-         </div> <p>次のオプションから選択します。<br></p> 
-         <ul> 
-         <li> <p><strong>自動および変更時</strong>（デフォルト設定）：プロジェクトのタイムラインは、プロジェクト内またはプロジェクトが依存する別のプロジェクト内で変更が発生するたびに更新されます（変更時）。また、プロジェクトのタイムラインは毎晩更新されます（自動）。<br>プロジェクトタイムラインが常に最新であることが保証されるため、このフィールドではこの設定が推奨されています。<br>タイムラインの再計算をトリガーするタスクまたはプロジェクトに対してアクションを実行すると、使用可能なすべての日付が直ちに表示され、作業を続行できます。タスクが 100 を超えるプロジェクトでは、再計算に時間がかかる日付が疑問符で短時間（1 から 5 秒、大きなプロジェクトの場合は最大 1 分）のみ表示されます。これは、再計算がまだ完了しておらず、日付が変更される可能性があることを示しています。<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>変更時のみ</strong>：プロジェクトのタイムラインは、プロジェクト内またはプロジェクトが依存する別のプロジェクト内で変更が発生するたびに更新されます。プロジェクト内、またはタイムラインが依存する他のプロジェクト内で変更がほとんど発生しない場合は、このオプションを選択できます。<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>自動のみ</strong>：プロジェクトタイムラインは毎晩更新されます。変更を加えても即時更新されません。<br>プロジェクト内またはタイムラインが依存する他のプロジェクト内で毎日多くの変更が発生する場合は、このオプションを選択します。ただし、変更を加えてもプロジェクトがすぐに更新されないので、この設定を選択した場合は注意が必要です。<br></p> </li> 
-         </ul> 
-         <ul> 
-         <li> <p><strong>手動のみ</strong>：プロジェクトタイムラインは、「タイムラインを再計算」オプションを選択した場合にのみ更新されます（<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">プロジェクトタイムラインの再計算</a>を参照）。<br></p> </li> 
-         </ul> <p>プロジェクトに一度に多くの変更を加え、個々を変更した後ではなくすべての変更が行われた後でタイムラインの再計算を実行する場合は、このオプションを選択できます。</p> </td> 
+       <td role="rowheader"><strong>更新タイプ</strong> </td> 
+       <td> <p>将来のプロジェクトのタイムラインに対して行った変更がプロジェクトに保存されるタイミングを制御します。 </p> 
+       <b>例</b> 
+       <p>プロジェクトに対する次の変更が、プロジェクトのタイムラインへの更新をトリガーします。</p> 
+       <ul> 
+       <li> <p>タスクの日付を更新する</p> </li> 
+       <li> <p>先行タスク関係を変更する<br></p> </li> 
+       <li> <p>親子関係を変更する</p> </li> 
+       <li> <p>タスクの制約または期間タイプの変更に加えて、割り当てを追加または削除する</p> </li> 
+       </ul> 
+       </div> <p>次のオプションから選択します。<br></p> 
+       <ul> 
+       <li> <p><strong>自動および変更時</strong>（デフォルト設定）：プロジェクトのタイムラインは、プロジェクト内またはプロジェクトが依存する別のプロジェクト内で変更が発生するたびに更新されます（変更時）。また、プロジェクトのタイムラインは毎晩更新されます（自動）。<br>プロジェクトタイムラインが常に最新であることが保証されるため、このフィールドではこの設定が推奨されています。<br>タイムラインの再計算をトリガーするタスクまたはプロジェクトに対してアクションを実行すると、使用可能なすべての日付が直ちに表示され、作業を続行できます。タスクが 100 を超えるプロジェクトでは、再計算に時間がかかる日付が疑問符で短時間（1 から 5 秒、大きなプロジェクトの場合は最大 1 分）のみ表示されます。これは、再計算がまだ完了しておらず、日付が変更される可能性があることを示しています。<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>変更時のみ</strong>：プロジェクトのタイムラインは、プロジェクト内またはプロジェクトが依存する別のプロジェクト内で変更が発生するたびに更新されます。プロジェクト内、またはタイムラインが依存する他のプロジェクト内で変更がほとんど発生しない場合は、このオプションを選択できます。<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>自動のみ</strong>：プロジェクトタイムラインは毎晩更新されます。変更を加えても即時更新されません。<br>プロジェクト内またはタイムラインが依存する他のプロジェクト内で毎日多くの変更が発生する場合は、このオプションを選択します。ただし、変更を加えてもプロジェクトがすぐに更新されないので、この設定を選択した場合は注意が必要です。<br></p> </li> 
+       </ul> 
+       <ul> 
+       <li> <p><strong>手動のみ</strong>：プロジェクトタイムラインは、「タイムラインを再計算」オプションを選択した場合にのみ更新されます（<a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">プロジェクトタイムラインの再計算</a>を参照）。<br></p> </li> 
+       </ul> <p>プロジェクトに一度に多くの変更を加え、個々を変更した後ではなくすべての変更が行われた後でタイムラインの再計算を実行する場合は、このオプションを選択できます。</p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>スケジュール</strong> </td> 
-         <td> <p>テンプレートのスケジュールを選択します。これは、このテンプレートから作成されるプロジェクトのスケジュールになります。これは、プロジェクトで作業しているほとんどの人に割り当てられているスケジュールと同じである必要があります。スケジュールをテンプレートに割り当てるには、スケジュールを作成する必要があります。<br>スケジュールの作成について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールの作成</a>を参照してください。<br>システムでカスタムスケジュールを作成していない場合は、デフォルトのスケジュールが選択されます。 </p> </td> 
+       <td role="rowheader"><strong>スケジュール</strong> </td> 
+       <td> <p>テンプレートのスケジュールを選択します。これは、このテンプレートから作成されるプロジェクトのスケジュールになります。これは、プロジェクトで作業しているほとんどの人に割り当てられているスケジュールと同じである必要があります。スケジュールをテンプレートに割り当てるには、スケジュールを作成する必要があります。<br>スケジュールの作成について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref">スケジュールの作成</a>を参照してください。<br>システムでカスタムスケジュールを作成していない場合は、デフォルトのスケジュールが選択されます。 </p> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>ユーザーの休暇</strong> </td> 
-         <td> <p>タスクのプライマリ担当者の休暇によって、そのプロジェクトのタスクの予定日を調整するかどうかを指定します。テンプレートを既存のプロジェクトに添付すると、このフィールドの設定がプロジェクトとは異なる場合、プロジェクトの設定は変更されません。新しいテンプレートに対するこの設定のデフォルトのオプションは、システムレベルのプロジェクト環境設定と同じです。 </p> <p>システムレベルでのプロジェクト環境設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>を参照してください。 </p> <p>この設定がプロジェクトのタスク日に与える影響については、<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">プロジェクトの編集</a>を参照してください。<br>次のオプションから選択します。<br></p> 
-         <ul> 
-         <li> <p><strong>タスク継続期間中のユーザーの休暇を考慮する</strong>：このオプションを選択すると、このテンプレートから作成されたプロジェクトのタスクの予定日は、タスクのプライマリ担当者の休暇がタスクの期間中に発生した場合に、その休暇に応じて調整されます。 </p> </li> 
-         <li> <p><strong>タスク継続期間中のユーザーの休暇を無視する</strong>：このオプションを選択すると、タスクのプライマリ担当者がタスクの期間中に休暇を取った場合でも、このテンプレートから作成されるプロジェクトのタスクの計画日は、元の計画済みのままになります。 </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>ユーザーの休暇</strong> </td> 
+       <td> <p>タスクのプライマリ担当者の休暇によって、そのプロジェクトのタスクの予定日を調整するかどうかを指定します。テンプレートを既存のプロジェクトに添付すると、このフィールドの設定がプロジェクトとは異なる場合、プロジェクトの設定は変更されません。新しいテンプレートに対するこの設定のデフォルトのオプションは、システムレベルのプロジェクト環境設定と同じです。 </p> <p>システムレベルでのプロジェクト環境設定について詳しくは、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクト環境設定の指定</a>を参照してください。 </p> <p>この設定がプロジェクトのタスク日に与える影響については、<a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">プロジェクトの編集</a>を参照してください。<br>次のオプションから選択します。<br></p> 
+       <ul> 
+       <li> <p><strong>タスク継続期間中のユーザーの休暇を考慮する</strong>：このオプションを選択すると、このテンプレートから作成されたプロジェクトのタスクの予定日は、タスクのプライマリ担当者の休暇がタスクの期間中に発生した場合に、その休暇に応じて調整されます。 </p> </li> 
+       <li> <p><strong>タスク継続期間中のユーザーの休暇を無視する</strong>：このオプションを選択すると、タスクのプライマリ担当者がタスクの期間中に休暇を取った場合でも、このテンプレートから作成されるプロジェクトのタスクの計画日は、元の計画済みのままになります。 </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>リソースの標準化モード</strong> </td> 
-         <td> <p>次のオプションから選択します。<br></p> 
-         <ul> 
-         <li> <p><strong>手動</strong>：このテンプレートから作成されたプロジェクトに対して、リソースを手動で標準化する必要があります（これはデフォルト設定です）。</p> </li> 
-         <li> <p><strong>自動</strong>：Workfront が将来のプロジェクトに関するリソースを標準化します。<br>リソースの標準化について詳しくは、<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">ガントチャートでのリソースの標準化</a>を参照してください。 </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>リソースの標準化モード</strong> </td> 
+       <td> <p>次のオプションから選択します。<br></p> 
+       <ul> 
+       <li> <p><strong>手動</strong>：このテンプレートから作成されたプロジェクトに対して、リソースを手動で標準化する必要があります（これはデフォルト設定です）。</p> </li> 
+       <li> <p><strong>自動</strong>：Workfront が将来のプロジェクトに関するリソースを標準化します。<br>リソースの標準化について詳しくは、<a href="../../../manage-work/gantt-chart/use-the-gantt-chart/level-resources-in-gantt.md" class="MCXref xref">ガントチャートでのリソースの標準化</a>を参照してください。 </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>リスク</strong> </td> 
-         <td> <p>このテンプレートから作成されるプロジェクトのリスクレベルを定義します。リスクは、プロジェクトの危険性を示す指標に過ぎません。リスクのレベルに基づいて、プロジェクトに優先順位を付けて実行できます。<br>次のリスクレベルから選択することを検討します。<br></p> 
-         <ul> 
-         <li> <p><strong>極低</strong> </p> </li> 
-         <li> <p><strong>低</strong> </p> </li> 
-         <li> <p><strong>中</strong> </p> </li> 
-         <li> <p><strong>高</strong> </p> </li> 
-         <li> <p><strong>極高</strong> </p> </li> 
-         </ul> </td> 
+       <td role="rowheader"><strong>リスク</strong> </td> 
+       <td> <p>このテンプレートから作成されるプロジェクトのリスクレベルを定義します。リスクは、プロジェクトの危険性を示す指標に過ぎません。リスクのレベルに基づいて、プロジェクトに優先順位を付けて実行できます。<br>次のリスクレベルから選択することを検討します。<br></p> 
+       <ul> 
+       <li> <p><strong>極低</strong> </p> </li> 
+       <li> <p><strong>低</strong> </p> </li> 
+       <li> <p><strong>中</strong> </p> </li> 
+       <li> <p><strong>高</strong> </p> </li> 
+       <li> <p><strong>極高</strong> </p> </li> 
+       </ul> </td> 
        </tr> 
        <tr> 
-         <td role="rowheader"><strong>リソースプール</strong> </td> 
-         <td> <p>テンプレートに関連付けられたリソースプールを指定します。リソースプールとは、プロジェクトを完了するために同時に必要になるユーザーの集まりです。リソースプールについて詳しくは、<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">リソースプールの概要</a>を参照してください。</p> <p> <p><b>メモ</b>
+       <td role="rowheader"><strong>リソースプール</strong> </td> 
+       <td> <p>テンプレートに関連付けられたリソースプールを指定します。リソースプールとは、プロジェクトを完了するために同時に必要になるユーザーの集まりです。リソースプールについて詳しくは、<a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref">リソースプールの概要</a>を参照してください。</p> <p> <p><b>メモ</b>
 
-   テンプレートを一括で編集する場合は、選択したすべてのテンプレートに共通のリソースプールのみがこのフィールドに表示されます。選択したテンプレートに共有リソースプールがない場合、このフィールドは空になります。ここで指定したリソースプールは、テンプレートの個々のリソースプールを上書きします。</p> </p> </td>
-   </tr>
-
+        テンプレートを一括編集する場合、選択したすべてのテンプレートに共通するリソースプールのみがこのフィールドに表示されます。 選択したテンプレートに共有リソースプールがない場合、このフィールドは空になります。ここで指定したリソースプールは、テンプレートの個々のリソースプールを上書きします。&lt;/p> &lt;/p> &lt;/td>
+       &lt;/tr>
+   
    <tr> 
       <td role="rowheader"><strong>プロジェクト時間の承認</strong></td>
 
-<td><p>このオプションを選択して、このテンプレートから作成されたプロジェクトの今後のプロジェクト所有者に、プロジェクトに記録された時間の承認を要求します。</p> 
+   <td><p>このオプションを選択して、このテンプレートから作成されたプロジェクトの今後のプロジェクト所有者に、プロジェクトに記録された時間の承認を要求します。</p> 
    <p>請求レコードを使用していて、このオプションを選択した場合、プロジェクトの承認された時間のみが請求レコードの請求可能な時間として表示されます。 </p>
    <p>プロジェクトの承認時間は、タイムシートの承認とは無関係です。プロジェクトで時間を承認する必要がある場合については詳しくは、<a href="../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md" class="MCXref xref">プロジェクトの承認に要する時間</a>を参照してください。</p>
    </td> 
@@ -431,8 +432,8 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <li>アクティブな承認プロセスのみがリストに表示されます。 </li> 
    <li> <p>システム全体およびグループ固有の承認プロセスがリストに表示されます。テンプレートのグループ以外のグループに関連付けられている承認プロセスは、リストに表示されません。</p> <p><b>重要</b>
 
-テンプレートに関連付けられたグループが変更されると、グループ固有の承認プロセスが 1 回限りの承認プロセスになります。プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。 </p> </li>
-<li> <p>1 回限りの承認プロセスを追加した場合は、このフィールドに「カスタム」として表示されます。詳しくは、<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスと作業の関連付け</a>を参照してください。 </p> 
+   テンプレートに関連付けられたグループが変更されると、グループ固有の承認プロセスが 1 回限りの承認プロセスになります。プロジェクトのグループに対する変更や承認プロセスの変更が承認設定に及ぼす影響について詳しくは、<a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">グループと承認プロセスの変更が割り当てられた承認プロセスに及ぼす影響</a>を参照してください。 </p> </li>
+   <li> <p>1 回限りの承認プロセスを追加した場合は、このフィールドに「カスタム」として表示されます。詳しくは、<a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">新規または既存の承認プロセスと作業の関連付け</a>を参照してください。 </p> 
       </li> 
       <li> <p>テンプレートを一括編集する場合は、次のシナリオが存在します。</p> 
       <ul> 
@@ -613,6 +614,10 @@ Editing templates in bulk differs depending on which environment you are using.
 
    **テンプレートを編集**&#x200B;ダイアログボックスが開きます。
 
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![ テンプレートの編集 ](assets/bulk-edit-templates-0925.png)
+
+   実稼動環境のサンプル画像：
    ![ テンプレートの編集 ](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 左側のセクションをクリックして、選択したすべてのテンプレートを編集します。
@@ -631,7 +636,7 @@ Editing templates in bulk differs depending on which environment you are using.
    * イシュー
    * コメント
 
-1. 「**変更を保存**」をクリックします。
+1. <span class="preview">**保存**</span> または **変更を保存** をクリックします。
 
    これで、行った変更のすべてが、すべての選択したテンプレートに表示されます。
 
