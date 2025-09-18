@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
+source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2073'
 ht-degree: 16%
 
 ---
@@ -79,7 +79,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
      <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}">Workfront ユーザープロファイルの更新 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p><i>この更新は、プレビューおよび実稼動から一時的に削除されています。</i></p>
             <p>Workfront ユーザープロファイルのルックアンドフィールを、Workfrontの他の領域と一致する最新のデザインに更新しました。 これらの更新は、管理者が 1 つのプロファイルを編集する場合、複数のプロファイルを一括編集する場合、またはユーザーが自分のプロファイルを編集する場合の両方に適用されます。</p>
             <p>現在のユーザープロファイルとは、次のような小さな機能上の違いがあります。</p>
             <ul>
@@ -88,8 +87,8 @@ The <add release> release webinar will be held on <date>. You can [register for 
             </ul>
         </td>
         <td>2025年8月28日（PT）</td>
-        <td>2025年9月4日（PT）</td>
-        <td>2025年9月4日（PT）</td>
+        <td>2025 年 9 月 18 日（PT）より開始される段階的なロールアウト</td>
+        <td>2025 年 9 月 18 日（PT）より開始される段階的なロールアウト</td>
     </tr>  
     <tr>
         <td>
@@ -440,7 +439,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 

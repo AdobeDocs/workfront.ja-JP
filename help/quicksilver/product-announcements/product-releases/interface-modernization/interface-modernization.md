@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: abe76998e8d98bf47e45e01ff6b27610955177c5
+source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
 workflow-type: tm+mt
-source-wordcount: '7673'
+source-wordcount: '7834'
 ht-degree: 2%
 
 ---
@@ -162,7 +162,25 @@ Portfolioの編集ボックスでポートフォリオを編集する際のイ�
 
 詳しくは、[ ポートフォリオの編集 ](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md) を参照してください。
 
+## プログラム
+
+### 「プログラムを編集」ボックスに対するインタフェースの更新
+
+**プレビューリリース：2025 年 9 月 18 日（PT）、実稼動リリース：2025 年 9 月 25 日（PT）**
+
+プログラムを編集ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
+
+詳しくは、[ プログラムの編集 ](/help/quicksilver/manage-work/portfolios/create-and-manage-programs/edit-programs.md) を参照してください。
+
 ## プロジェクト
+
+### テンプレートの一括編集時のインターフェイスの更新
+
+**プレビューリリース：2025 年 9 月 18 日（PT）、実稼動リリース：2025 年 9 月 25 日（PT）**
+
+テンプレートのリストからテンプレートを一括編集する際の、「テンプレートを編集」ボックスのルックアンドフィールを更新しました。 「テンプレートを編集」 ボックスの情報の編成が、単一テンプレートの編集ボックスと一致するようになりました。
+
+詳しくは、[プロジェクトテンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 
 ### マイルストーン ビューの適用時にプロジェクト リストまたは報告書のインターフェイスを更新する
 
@@ -376,17 +394,16 @@ Workfrontの他の領域のデザインと一致するように、テンプレ�
 
 ## ユーザー
 
-<!--
-### Interface updates for the New User dialog
+### 新しいユーザーダイアログのインターフェイスの更新
 
-**Preview release: September 11, 2025; Production release: September 18, 2025**
+**プレビューリリース：2025 年 9 月 18 日（PT）、実稼動リリース：2025 年 9 月 18 日（PT）**
 
-We have updated the look and feel of the New User dialog to match the design in other areas of the application.
+アプリケーションの他の領域でのデザインと一致するように、新規ユーザーダイアログのルックアンドフィールを更新しました。
 
-To view this change, go to Users > New User > New User.
+この変更を表示するには、ユーザー/新規ユーザー/新規ユーザーに移動します。
 
-For information, see [Add users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) and [Updates to the Workfront user profile](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) on the [Fourth Quarter 2025 Administrator enhancements page](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md).
--->
+詳しくは、[2025 年第 4 四半期 Administrator の機能強化 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/add-users.md) ページの [ ユーザーの追加 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md#updates-to-the-workfront-user-profile) および [Workfront ユーザープロファイルの更新 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md) を参照してください。
+
 
 ### ユーザーを読み込みダイアログのインターフェイスの更新
 

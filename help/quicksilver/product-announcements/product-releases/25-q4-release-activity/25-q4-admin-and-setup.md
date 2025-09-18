@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: dcdd74e8293a5e695600f08536c8fc2ad36c3a31
+source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 16%
+source-wordcount: '466'
+ht-degree: 15%
 
 ---
 
@@ -17,6 +17,22 @@ ht-degree: 16%
 このページでは、2025 年第 4 四半期リリースで行われた、プレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
+
+## Workfront ユーザープロファイルの更新
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 8 月 28 日（PT）
+>* すべてのお客様の実稼動環境：2025 年 9 月 18 日（PT）から段階的にロールアウトを開始
+
+Workfront ユーザープロファイルのルックアンドフィールを、Workfrontの他の領域と一致する最新のデザインに更新しました。 これらの更新は、管理者が 1 つのプロファイルを編集する場合、複数のプロファイルを一括編集する場合、またはユーザーが自分のプロファイルを編集する場合の両方に適用されます。
+
+現在のユーザープロファイルとは、次のような小さな機能上の違いがあります。
+
+* 一部のチェックボックス（ユーザーをアクティブとしてマークするなど）は、切り替えまたはボタンに変更されています。
+* 環境設定の「自分に割り当てた作業を自分の「作業割り当て」タブに送信」オプションが、非推奨（廃止予定）の機能を参照するので削除されました。
+
+詳しくは、[ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 ## 新規ボードの管理者表示
 
@@ -46,26 +62,7 @@ ht-degree: 16%
 
 AI 機能を有効にするための前提条件については、[AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 
-## Workfront ユーザープロファイルの更新
 
->[!IMPORTANT]
->
->この更新は、プレビューおよび実稼動から一時的に削除されています。
-
-
->[!NOTE]
->
->* プレビュー：2025 年 8 月 28 日（PT）
->* 実稼動版（すべてのお客様向け）：2025年9月4日（PT）
-
-Workfront ユーザープロファイルのルックアンドフィールを、Workfrontの他の領域と一致する最新のデザインに更新しました。 これらの更新は、管理者が 1 つのプロファイルを編集する場合、複数のプロファイルを一括編集する場合、またはユーザーが自分のプロファイルを編集する場合の両方に適用されます。
-
-現在のユーザープロファイルとは、次のような小さな機能上の違いがあります。
-
-* 一部のチェックボックス（ユーザーをアクティブとしてマークするなど）は、切り替えまたはボタンに変更されています。
-* 環境設定の「自分に割り当てた作業を自分の「作業割り当て」タブに送信」オプションが、非推奨（廃止予定）の機能を参照するので削除されました。
-
-詳しくは、[ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 
 ## 外部 API からカスタムフォームへの複数値オプションの追加
 
