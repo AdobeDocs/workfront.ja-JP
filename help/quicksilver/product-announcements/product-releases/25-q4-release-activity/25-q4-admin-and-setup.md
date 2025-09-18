@@ -5,7 +5,7 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 30e5358549291e5d04d42ab470dccd444521ecb8
+source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 15%
@@ -23,7 +23,7 @@ ht-degree: 15%
 >[!NOTE]
 >
 >* プレビュー：2025 年 8 月 28 日（PT）
->* すべてのお客様の実稼動環境：2025 年 9 月 18 日（PT）から段階的にロールアウトを開始
+>* すべてのお客様の実稼動環境：2025 年 9 月 25 日（PT）から段階的にロールアウトを開始
 
 Workfront ユーザープロファイルのルックアンドフィールを、Workfrontの他の領域と一致する最新のデザインに更新しました。 これらの更新は、管理者が 1 つのプロファイルを編集する場合、複数のプロファイルを一括編集する場合、またはユーザーが自分のプロファイルを編集する場合の両方に適用されます。
 
