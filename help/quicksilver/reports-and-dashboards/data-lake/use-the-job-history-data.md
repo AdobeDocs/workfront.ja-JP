@@ -6,7 +6,7 @@ description: Data Connect を使用すると、Workfront管理者はジョブ履
 author: Jenny
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 05cf34fe6659c50da76d2478c6e79352346dc9a5
 workflow-type: tm+mt
 source-wordcount: '448'
 ht-degree: 0%
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Workfront管理者は、ジョブ履歴ビューで、各データ更新ジョブの詳細なレコードにアクセスできます。 これらのレコードは、データを最新の状態に保つジョブに対する貴重なinsightを提供し、プロセスを実行しビジネスビジュアライゼーションを更新するタイミングに関する理想的な期間を確立するのに役立ちます。
 
-![ ジョブ履歴ビュー ](assets/job-history-tab.png)
+![ ジョブ履歴ビュー ](assets/job-history-overview.png)
 
 [Job History] ビューの列には、次の情報が表示されます。
 
