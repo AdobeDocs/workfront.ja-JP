@@ -7,7 +7,7 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 0f4fd3a7-9578-4fda-b10f-9b4be147f1de
-source-git-commit: e20e26ef11046ed252725f8c5431469642845b52
+source-git-commit: d088b40cd8d46a986998fde2176646aa1660cb6b
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 6%
@@ -55,12 +55,12 @@ AI レビュー担当者は、次のファイルタイプをレビューでき�
 
 ## ブランドガイドラインの設定
 
-Workfront AI レビュー担当者は、コンテンツのレビュー時に、Genstudio Foundations で設定されたブランドガイドラインを使用します。 現在、画像のブランドガイドラインのみをセットアップできます。 詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
+Workfront AI レビュー担当者は、コンテンツのレビュー時に、Genstudio Foundation で設定されたブランドガイドラインを使用します。 現在、画像のブランドガイドラインのみをセットアップできます。 詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
 
 
 ## AI レビュー担当者の作成
 
-GenStudio Foundations に 1 つ以上のブランドが設定されたら、Workfront管理者は、設定エリアで AI レビュー担当者の作成を開始できます。 その後、これらの AI レビュー担当者を承認テンプレートや個々のレビューおよび承認リクエストに割り当てることができます。 現在、AI レビュー担当者がレビューできるのは画像ブランドガイドラインに対してのみです。
+GenStudio Foundationで 1 つ以上のブランドを設定したら、Workfront管理者は、設定エリアで AI レビュー担当者の作成を開始できます。 その後、これらの AI レビュー担当者を承認テンプレートや個々のレビューおよび承認リクエストに割り当てることができます。 現在、AI レビュー担当者がレビューできるのは画像ブランドガイドラインに対してのみです。
 
 詳しくは、[AI レビュー担当者の作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md) を参照してください。
 
