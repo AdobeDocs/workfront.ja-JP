@@ -6,10 +6,10 @@ description: プランライセンスを持つユーザーは、Adobe Workfront 
 author: Alina
 feature: Timesheets
 exl-id: 4f801a13-182d-4e06-98ea-f6863f6a8edf
-source-git-commit: b4ab350af22afa44774f06d82daf1c3fb266d2b9
+source-git-commit: 106ef838bfee5e496cae864eca5c19fd12fdd18e
 workflow-type: tm+mt
-source-wordcount: '451'
-ht-degree: 100%
+source-wordcount: '455'
+ht-degree: 95%
 
 ---
 
@@ -54,9 +54,9 @@ ht-degree: 100%
 
    * **システム管理者が他のユーザー用に時間の記録方法を設定：**[ユーザーのプロファイルの編集](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)の説明に従って、1 つ以上のユーザーアカウントの編集を開始します。
 
-1. 表示されたダイアログボックスの「**リソース計画**」セクションで、「**時間を記録する単位**」オプションを見つけます。
+1. 表示されたダイアログ・ボックスの「**Resource Planning**」セクションで、「**Log time in**」オプションを探します。
 
-   ![](assets/new-timesheet-log-hours-350x249.png)
+   ![ 時間をオプションで記録 ](assets/user-profile-log-time-options.png)
 
 1. （条件付き）システム管理者が複数のユーザーを同時に編集する場合は、「**時間を記録する単位**」を選択します。
 1. 時間の記録に関する次のオプションから選択します。
