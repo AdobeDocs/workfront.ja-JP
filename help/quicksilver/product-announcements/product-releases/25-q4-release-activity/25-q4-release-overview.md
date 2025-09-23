@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
 workflow-type: tm+mt
-source-wordcount: '2073'
+source-wordcount: '2125'
 ht-degree: 16%
 
 ---
@@ -351,6 +351,14 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}">Adobeの統合エクスペリエンスを、より多くのWorkfront組織で利用できるようになりました </a><p></p>
+            <p>Adobe Unified Experience のメリットに企業がアクセスできるように、アドビでは既存のWorkfrontのお客様が利用できるようにするサービスを引き続き提供します。</p><p><span style="color: #ff0000;">Adobeの統合エクスペリエンスは、段階的なロールアウトで利用できるようになります </span>。 </p>
+        </td>
+        <td><p>2025年9月11日（PT）</p><p>または</p><p>2025年12月11日（PT）</p></td>
+        <td><p>2025年10月16日（PT）</p><p>または</p><p>2026年1月15日（PT）</p></td>
+        <td><p>2025年10月16日（PT）</p><p>または</p><p>2026年1月15日（PT）</p></td>
+    <tr>
+        <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-other.md" class="MCXref xref" xrefformat="{para}"> 拡張リストの更新 </a><p></p>
             <p>高度なリストのレイアウトを使用すると、フィルターとグループ化を使用して作業を表示し、より適切に整理することができます。 ウィジェットの上に表示される青いドットインジケーターで、次の領域でフィルターまたはグループ化がリストに適用されたことを知らせるようになりました。</p>
             <ul>
@@ -439,7 +447,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 

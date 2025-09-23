@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 357b5a80-424a-475c-9163-82cffbbd253e
-source-git-commit: e3c69f893785a1a09aaca3743f8538525e900d5d
+source-git-commit: 0c8d84cfcc87728e809061c01c56322f3fd1f2f6
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 26%
+source-wordcount: '307'
+ht-degree: 32%
 
 ---
 
@@ -18,7 +18,30 @@ ht-degree: 26%
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
 
-## 拡張リストの更新
+## Adobeの統合エクスペリエンスを多数のWorkfront組織で利用できるようになりました
+
+>[!NOTE]
+>
+>* Adobeの統合エクスペリエンスは、段階的にロールアウトして利用できるようになります。 組織は、次のいずれかのスケジュールでAdobe Unified Experience にオンボーディングされます。
+>
+>| プレビューリリース | 実稼動リリース |
+>|---|---|
+>| 2021年9月11日（PT） | 2025 年 10 月 16 日（PT）（25.10 リリース付き） |
+>| 2025年12月11日（PT） | 2026 年 1 月 15 日（PT）（26.1 リリースの場合） |
+
+Adobe Unified Experience のメリットに企業がアクセスできるように、アドビでは既存のWorkfrontのお客様が利用できるようにするサービスを引き続き提供します。
+
+Adobe Unified Experience には次の内容が含まれます。
+
+* Adobe Experience Cloud を介したすべてのアドビアプリケーションへのシングルログイン
+* Workfront の組織と環境を切り替える「組織スイッチャー」
+* Workfront ページ、Adobe Experience Cloud 環境設定および Workfront プロファイルのオプションのナビゲーション
+
+Workfront管理者には、組織がAdobe統合エクスペリエンスに移行する日付に関するお知らせセンターメッセージが届きます。
+
+詳しくは、[Workfront の Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+
+[この機能のデモビデオをご覧ください。](https://video.tv.adobe.com/v/3412388/){target=_blank}##拡張リストの更新
 
 >[!NOTE]
 >
