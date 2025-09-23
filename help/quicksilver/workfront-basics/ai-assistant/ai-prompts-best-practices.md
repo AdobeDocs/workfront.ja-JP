@@ -4,7 +4,8 @@ content-type: reference
 description: AI アシスタントを使用する際のベストプラクティスについて説明し、プロンプトの例のリストを示します。
 author: Jenny
 feature: Get Started with Workfront
-source-git-commit: 74bdbaa0dd4df7b11a96105ad4258b06317b2510
+exl-id: 34a60482-e060-49f9-bbaf-8aed85845e26
+source-git-commit: 4bab0129d694d7134a5dae90474678226368ca78
 workflow-type: tm+mt
 source-wordcount: '741'
 ht-degree: 4%
