@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 79e8b2b1dd3b7374173c2a930abdf8a0bca2cda6
+source-git-commit: 74bdbaa0dd4df7b11a96105ad4258b06317b2510
 workflow-type: tm+mt
-source-wordcount: '13511'
+source-wordcount: '13516'
 ht-degree: 84%
 
 ---
@@ -886,6 +886,7 @@ ht-degree: 84%
       * [AI アシスタントの概要](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
       * [AI アシスタントを使用して要約する](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
       * [AI アシスタントからヘルプを入手](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+      * [AI アシスタントがベストプラクティスを促します](/help/quicksilver/workfront-basics/ai-assistant/ai-prompts-best-practices.md)
       * [AI アシスタントで計算フィールドの数式を修正する](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
       * [AI アシスタントを使用して、プロジェクト、タスク、問題を操作します](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md)
       * [AI アシスタントを有効または無効にする](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
