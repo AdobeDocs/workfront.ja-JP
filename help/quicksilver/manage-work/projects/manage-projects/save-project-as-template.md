@@ -2,14 +2,14 @@
 product-area: projects;templates
 navigation-topic: manage-projects
 title: プロジェクトをテンプレートとして保存
-description: プロジェクトを「プロジェクトレベルでテンプレート templateSave として保存すると、ユーザーはそれを UI で確認できます。これにはリンクされている別の記事があり、より詳しく（段階的に）説明されています。この機能はプロジェクトとテンプレートの両方のエリアに存在する必要があります。）」
+description: プロジェクトをプロジェクトレベルでテンプレートとして保存すると、UI に表示されます。このリンク先のもう 1 つの記事で詳しく説明しています（手順を説明します）。 この機能は、プロジェクトとテンプレートの両方の領域に保持する必要があります）。
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: f7cb314067d105d5534f4be356024aea8e8f9a28
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 60%
+source-wordcount: '487'
+ht-degree: 51%
 
 ---
 
@@ -35,7 +35,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 

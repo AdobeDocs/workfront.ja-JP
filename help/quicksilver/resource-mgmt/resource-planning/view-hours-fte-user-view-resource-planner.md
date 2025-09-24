@@ -3,14 +3,14 @@ content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
 title: ユーザービューの使用時にリソース プランナの利用可能時間数、予定時間数、および実績時間数または FTE を表示します
-description: ユーザービューの使用時に、リソースプランナーで利用可能時間数、予定時間数、実績時間数、FTEの表示「RP での計画」 - おそらく「RP でのリソースの予算計上」または「RP でのリソースの管理」。など、または POV から転用する必要がある）」
+description: RP の User viewPlanning を使用する場合は、リソースプランナーで使用可能時間、予定時間、および実績時間または FTE を表示します。「RP でのリソースの予算計上」または「RP でのリソースの管理」を参照してください。 など… – または、別の POV から再利用する必要がある場合があり？！す。）
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: 13621c29f32a514af46489fb58397f3e96f640ce
 workflow-type: tm+mt
 source-wordcount: '1739'
-ht-degree: 99%
+ht-degree: 96%
 
 ---
 
