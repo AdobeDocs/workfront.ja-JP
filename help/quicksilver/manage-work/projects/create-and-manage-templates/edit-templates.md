@@ -6,16 +6,14 @@ description: プロジェクトテンプレートを編集して、今後のプ�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 5edda5b6d084c6c4df62f21e430ce9cd0c1cc8a4
+source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
 workflow-type: tm+mt
-source-wordcount: '5161'
-ht-degree: 82%
+source-wordcount: '5658'
+ht-degree: 88%
 
 ---
 
 # プロジェクトテンプレートの編集
-
-{{highlighted-preview}}
 
 <!-- Audited: 7/2025 -->
 
@@ -135,23 +133,23 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 1. 次のフィールドを更新します。
 
    <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-      <tr> 
-      <td role="rowheader"><strong>説明</strong></td> 
-      <td>テンプレートに関する追加情報を追加します。</td> 
-      </tr> 
-      <tr> 
-      <td role="rowheader"><strong>優先度</strong></td> 
-      <td><p>これは、将来のプロジェクトに優先順位を付けるための単なる視覚的なフラグです。次のオプションから選択します。</p> 
-      <ul> 
-      <li><p><strong>なし</strong></p></li> 
-      <li><p><strong>低</strong></p></li> 
-      <li><p><strong>標準</strong></p></li> 
-      <li><p><strong>高</strong></p></li> 
-      <li><p><strong>緊急</strong></p></li> 
-      </ul><p><p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。優先度の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成およびカスタマイズ</a>を参照してください。</p></p></td> 
+       <col> 
+       <col> 
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>説明</strong></td> 
+         <td>テンプレートに関する追加情報を追加します。</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>優先度</strong></td> 
+         <td><p>これは、将来のプロジェクトに優先順位を付けるための単なる視覚的なフラグです。次のオプションから選択します。</p> 
+         <ul> 
+         <li><p><strong>なし</strong></p></li> 
+         <li><p><strong>低</strong></p></li> 
+         <li><p><strong>標準</strong></p></li> 
+         <li><p><strong>高</strong></p></li> 
+         <li><p><strong>緊急</strong></p></li> 
+         </ul><p><p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。優先度の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成およびカスタマイズ</a>を参照してください。</p></p></td> 
        </tr> 
        <tr> 
        <td role="rowheader"><strong>URL</strong></td> 
@@ -242,43 +240,92 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    <table style="table-layout:auto"> 
        <col> 
        <col> 
-       <tbody>
+       <tbody> 
+         <tr> 
+         <td role="rowheader"><strong>説明</strong></td> 
+         <td>テンプレートに関する追加情報を追加します。</td> 
+       </tr> 
+         <tr> 
+         <td role="rowheader"><strong>優先度</strong></td> 
+         <td><p>これは、将来のプロジェクトに優先順位を付けるための単なる視覚的なフラグです。次のオプションから選択します。</p> 
+         <ul> 
+         <li><p><strong>なし</strong></p></li> 
+         <li><p><strong>低</strong></p></li> 
+         <li><p><strong>標準</strong></p></li> 
+         <li><p><strong>高</strong></p></li> 
+         <li><p><strong>緊急</strong></p></li> 
+         </ul><p><p>Workfront 管理者が選択したプロジェクト設定に応じて、優先順位の名前が異なる場合があります。優先度の編集について詳しくは、<a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">優先度の作成およびカスタマイズ</a>を参照してください。</p></p></td> 
+       </tr> 
        <tr> 
-         <td role="rowheader"><strong> 通貨</strong></td> 
-         <td><p>システムのデフォルトの通貨と異なる場合は、将来のプロジェクトの通貨を指定します。システムにデフォルトの通貨のみが存在する場合、このフィールドは表示されません。<br>通貨について詳しくは、<a href="../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md" class="MCXref xref">為替レートの設定</a>を参照してください。</p></td> 
+       <td role="rowheader"><strong>URL</strong></td> 
+         <td>このテンプレートに関する情報に関連する web リンクを指定します。</td> 
        </tr>
-       <tr> 
-       <td role="rowheader"><strong>予算</strong></td> 
-       <td><p>このテンプレートから作成されるプロジェクトの予算を指定します。</p></td> 
-       </tr>  
-       <tr> 
-       <td role="rowheader"><strong>パフォーマンスインデックスメソッド</strong></td> 
-       <td><p>Workfront が将来のプロジェクトの出来高指標を計算する方法を選択します。次の中から選択します。
-       <ul>
-       <li>時間ベース</li>
-       <li>コストベース</li>
-       </ul>
+   <tr> 
+      <td role="rowheader"><strong>アクティブ</strong></td> 
+      <td><p>テンプレートをアクティブにする場合は、このオプションをオンにします。 他のユーザーがこのテンプレートを見つけて、プロジェクトの作成時にプロジェクトに添付できます。 使用されていないテンプレートをディアクティベートする場合は、このオプションをオフにします。 非アクティブ化されたテンプレートをプロジェクトに添付できません。 これはデフォルトで有効になっています。 </p><p><b>ヒント</b></p>
 
-        パフォーマンス インデックス メソッドの詳細については、&lt;a href=&quot;../../../manage-work/projects/project-finances/set-pim.md&quot; class=&quot;MCXref xref&quot;> パフォーマンス インデックス メソッド （PIM）の設定 &lt;/a> を参照してください。 &lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong> 予定利益 &lt;/strong>&lt;/td>
-       &lt;td>&lt;p> このテンプレートから作成されるプロジェクトの予定便益を指定します。 予定利益は、プロジェクトのビジネス ケースとPortfolio Optimizer で使用されます。 &lt;/p>&lt;p> プロジェクトの予定利益の詳細については、&lt;a href=&quot;../../../manage-work/projects/project-finances/project-planned-benefit.md&quot; class=&quot;MCXref xref&quot;> プロジェクトの予定利益の概要 &lt;/a> を参照してください。 プロジェクトの予定利益は、プロジェクトの純価の計算時に考慮されます。 &lt;/p>&lt;p>Portfolio Optimizer の使用について詳しくは、&lt;a href=&quot;../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md&quot; class=&quot;MCXref xref&quot;>Portfolio Optimizer でプロジェクトを管理 &lt;/a>&lt;/p>&lt;/td> を参照してください 
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong> 固定コスト &lt;/strong>&lt;/td>
-       &lt;td>&lt;p> このテンプレートから作成されるプロジェクトの固定コストを指定します。 これは、プロジェクトの時間に基づく労力コストと、プロジェクトの費用の額に基づく経費コストとは異なります。プロジェクトの固定コストは、プロジェクトの正味値を計算する際に考慮され、予算計上コストに含まれます。&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong> 固定収益 &lt;/strong>&lt;/td>
-       &lt;td>&lt;p> このテンプレートから作成されるプロジェクトの固定収益を指定します。&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;tr>
-       &lt;td role=&quot;rowheader&quot;>&lt;strong> このプロジェクトの承認には時間が必要です &lt;/strong>&lt;/td>
-       &lt;td>&lt;p> このオプションを選択すると、このテンプレートから作成された未来のプロジェクトのプロジェクト所有者に、プロジェクトのログ時間の承認を要求します。 請求記録を使用している場合、このオプションを選択すると、プロジェクトで承認された時間のみが請求記録の請求可能時間として表示されます。プロジェクトの承認時間は、タイムシートの承認とは無関係です。プロジェクトの承認に時間を要する詳細については、「&lt;a href=&quot;../../../manage-work/projects/manage-projects/require-time-approval-for-projects.md&quot; class=&quot;MCXref xref&quot;> プロジェクトの承認に時間を要する &lt;/a>」を参照してください。&lt;/p>&lt;/td>
-       &lt;/tr>
-       &lt;/tbody>
-   </table>
+   <p>この記事の「テンプレートのアクティベートまたはアクティベート解除」の節で説明しているように、テンプレートヘッダーからテンプレートをアクティベート解除できます。</p></td> 
+     </tr>
+
+<tr> 
+<td role="rowheader"><strong>状況タイプ</strong></td> 
+   <td><p>次の状況タイプの中から選択します。</p> 
+   <ul> 
+   <li><strong>手動：</strong>プロジェクト所有者は、プロジェクトに対して、プロジェクトの状況を手動で設定します。 <strong></strong></li> 
+   <li><strong>進捗ステータス：</strong>Workfront は、クリティカルパス上のタスクの進捗ステータスに基づいて、今後のプロジェクトの状況を自動的に設定します。進捗ステータスについて詳しくは、<a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">タスクの進捗ステータスの概要</a>を参照してください。</li> 
+   </ul>
+   </td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>スケジュールモード</strong></td> 
+   <td><p>このテンプレートを使用するプロジェクトを<strong>開始日</strong>からスケジュールするか、<strong>完了日</strong>からスケジュールするかを指定します。この選択により、このテンプレートを使用するプロジェクトの今後のタスクの予定日が決まります。 </p><p>次の中から選択します。 </p> 
+   <ul> 
+   <li><p><strong>開始日からスケジュール</strong>：テンプレートの開始日は、実際の開始日です。「開始日」からテンプレートをスケジュールする場合、Adobe Workfront は、すべてのテンプレートタスクの期間に基づいて、テンプレートの完了日を計算します。テンプレートの開始日が、将来のプロジェクトの予定開始日になります。</p></li> 
+   <li><p><strong>完了日からスケジュール</strong>：テンプレートの完了日は、実際の完了日です。「完了日」からテンプレートをスケジュールする場合、Workfront は、すべてのテンプレートタスクの期間に基づいて、テンプレートの開始日を計算します。テンプレートの「完了日」が、将来のプロジェクトの「予定完了日」になります。 </p></li> 
+   </ul><p>テンプレートタスクの開始日と終了日について詳しくは、<a href="../../../manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md" class="MCXref xref">テンプレートの開始日と完了日の概要</a>を参照してください。 </p><p>テンプレートのスケジュールの基点の設定は、プロジェクトの設定に似ています。Workfront 管理者は、システム内のプロジェクトのデフォルトのスケジュールの基点の設定を選択します。プロジェクトのデフォルトの設定については、<a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">システム全体のプロジェクトの環境設定の指定</a>を参照してください。</p></td> 
+   </tr>
+
+<tr> 
+   <td role="rowheader"><strong>ポートフォリオ</strong></td> 
+   <td><p>このテンプレートから作成されるプロジェクトのポートフォリオを指定します。ドロップダウンリストに表示される前に、まずポートフォリオを作成する必要があります。 </p><p>アクティブなポートフォリオのみが、リストに表示されます。ポートフォリオの作成について詳しくは、<a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">ポートフォリオの作成</a>を参照してください。</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>プログラム</strong></td> 
+   <td><p>テンプレートにポートフォリオを選択した場合、将来のプロジェクトのために<strong>プログラム</strong>を指定します。一部のポートフォリオにはプログラムがない可能性があります。このドロップダウンリストに表示される前に、最初にプログラムを作成する必要があります。リストには、アクティブなプログラムのみが表示されます。</p><p>プログラムの作成の詳細については、<a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">プログラムの作成</a>を参照してください。</p></td> 
+   </tr>  
+   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
+   <td role="rowheader"><strong>グループ</strong></td> 
+   <td><p>ドロップダウンリストで、テンプレートから作成されたプロジェクトに関連付けるグループを選択します。任意のレベルのグループにできます。 </p><p>適切なグループを選択していることを確認するには、グループにポインタを合わせて、その横に表示される情報アイコン <img src="assets/info-icon.png"> をクリックします。グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p><b>メモ</b>
+
+<ul> 
+   <li><p>グループのページのプロジェクトエリアで、グループが選択されていないテンプレートを使用してプロジェクトを作成すると、現在開いているグループがプロジェクトに関連付けられます。</p><p>これは、グループが選択されていないテンプレートを使用してプロジェクトを作成する際に、システムがユーザーのホームグループとプロジェクトを関連付けるその他のエリアとは異なります。</p></li> 
+   <li><p>プロジェクトの作成時、またはタスクやイシューのプロジェクトへの変換時に、グループが選択されたテンプレートを選択した場合は、別のグループをプロジェクト用に選択できます。</p></li> 
+   <li>このフィールドは、テンプレートでは新しい Adobe Workfront エクスペリエンスでのみ使用できますが、リストとレポートでは、新しい Adobe Workfront エクスペリエンスおよび Adobe Workfront Classic の両方で表示できます。 </li> 
+   </ul> </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>会社</strong></td> 
+   <td><p>テンプレートに関連付ける会社を指定します。アクティブな会社のみがリストに表示されます。</p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>テンプレート所有者</strong></td> 
+   <td><p>テンプレート所有者として指定されたユーザーは、Workfront のアクティブなユーザーである必要があります。 </p><p>テンプレート所有者として指定されたユーザーについて、以下の点に注意してください。 </p> 
+   <ul> 
+   <li>テンプレートに対する管理権限が自動的に付与されます。 </li> 
+   <li>このユーザーは、プロジェクトチームに追加され、テンプレートから作成されたプロジェクトに対する管理権限が自動的に付与されます。 </li> 
+   <li>プロジェクトをこのテンプレートから作成すると、このユーザーはプロジェクト所有者になります。 </li> 
+   <li> テンプレート所有者として指定されたユーザーが、自分のアクセスレベルではテンプレートやプロジェクトへのアクセス権限が制限されている場合、テンプレートやプロジェクトに対する管理権限も制限されます。例えば、テンプレートやプロジェクトを表示できるアクセス権限のみを持つユーザーは、テンプレート所有者に指定されると、テンプレートやプロジェクトに対する表示権限を自動的に受け取ります。</li>
+   </ul></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>テンプレートスポンサー</strong></td> 
+   <td><p>テンプレートがプロジェクトに追加されると、このフィールドで指定したユーザーはプロジェクトスポンサーになります。このユーザーはプロジェクトチームに追加され、プロジェクトに対する表示権限が自動的に付与されます。テンプレートスポンサーとして指定されるユーザーは、Workfront のアクティブなユーザーである必要があります。 </p></td> 
+   </tr> 
+   <tr> 
+   <td role="rowheader"><strong>リソース管理者</strong></td> 
+   <td><p>指定したユーザーには、自動的に将来のプロジェクトに対する管理権限が付与され、プロジェクトのタスクやイシューにリソースを割り当てることができます。複数のリソースマネージャーを指定できます。 </p></td> 
+   </tr> 
+</table>
 
 1. （オプション）変更する情報に応じて、以降のセクションを引き続き編集します。
 
@@ -614,11 +661,7 @@ Editing templates in bulk differs depending on which environment you are using.
 
    **テンプレートを編集**&#x200B;ダイアログボックスが開きます。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
    ![ テンプレートの編集 ](assets/bulk-edit-templates-0925.png)
-
-   実稼動環境のサンプル画像：
-   ![ テンプレートの編集 ](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. 左側のセクションをクリックして、選択したすべてのテンプレートを編集します。
 
@@ -636,7 +679,7 @@ Editing templates in bulk differs depending on which environment you are using.
    * イシュー
    * コメント
 
-1. <span class="preview">**保存**</span> または **変更を保存** をクリックします。
+1. 「**保存**」をクリックします。
 
    これで、行った変更のすべてが、すべての選択したテンプレートに表示されます。
 
