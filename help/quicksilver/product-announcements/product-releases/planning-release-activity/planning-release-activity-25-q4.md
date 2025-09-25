@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: a7dc4a24163f6c161362744d2ecb302fb2506dc2
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '1797'
-ht-degree: 9%
+source-wordcount: '2016'
+ht-degree: 8%
 
 ---
 
@@ -36,6 +36,59 @@ Previously, request forms were located only on the object for which they were cr
 
 For more information on request forms, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
 
+## Planning ビューのツールバーとアクセス ポイントの再設計
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 9 月 25 日（PT）
+>* 実稼動高速リリース：2025 年 10 月 15 日（PT）
+>* 実稼動すべて：2025 年 10 月 16 日（PT）
+
+レコードタイプのページでのビューの表示、アクセス、管理の方法を再設計しました。
+
+この更新には、次の機能強化が含まれています。
+
+* 「表示」タブは、レコードタイプ ページの左上隅にあるドロップダウンメニューに置き換えられました。 これで、メニューにすべてのビューのリストが表示されます。
+* ビューをドラッグ アンド ドロップして、希望の順序で並べ替えることができます。
+* フルスクリーンモードを除くほとんどのツールバーアイコンは、ページの右側から左側に移動しています。
+* 検索ボックスがツールバーの右側に移動されました。
+各ビューの機能は変更されていません。
+
+詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
+
+<!--## Enhancements to request forms in Workfront Planning
+
+>[!NOTE]
+>
+>* Preview: September 25, 2025
+>* Production fast release: October 15, 2025
+>* Production all: October 16, 2025
+
+To make the request process simpler, we've made some enhancements to request forms. Now, when configuring a request form, you can configure the following:
+
+* Configure when requests created from the form will be automatically marked complete. You can set the request to be marked complete when the requested object is created, or when the requested object is complete based on criteria you specify.
+* Set up an automation that is triggered when a request is submitted from the form. Currently, you can automatically create records when the request is submitted. 
+
+For more information on creating a request form and configuring these options, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md). -->
+
+## カレンダーの週別表示でレコードのサイズを変更する
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 9 月 25 日（PT）
+>* 実稼動高速リリース：2025 年 10 月 15 日（PT）
+>* 実稼動すべて：2025 年 10 月 16 日（PT）
+
+レコードタイプのページの週別カレンダー表示で、レコードの左右の余白をクリックしたままにして、期間を変更できるようになりました。
+
+レコードの余白を移動すると、開始日と終了日も直ちに変更されます。
+
+イベントのサイズを変更する前に、新しい場所に移動するためのアウトラインが表示されます。
+
+この機能は、カレンダーの月次表示に既に存在しています。
+
+詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+
 ## フィールドを変更または削除すると、新しい情報ボックスが表示される
 
 >[!NOTE]
@@ -57,8 +110,8 @@ For more information on request forms, see [Create and manage a request form in 
 >[!NOTE]
 >
 >プレビュー：2025 年 9 月 11 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年9月11日（PT）
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>実稼動版（すべてのお客様向け）：2025年9月11日（PT）
+>>[!BADGE 予定外 ]{type=Neutral}
 
 Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの両方を使用している場合は、GenStudioがデフォルトでサポートしているマーケティング概念よりも詳細に、キャンペーン、商品、ペルソナなどのマーケティング概念を定義してください。
 
@@ -223,8 +276,8 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 >[!NOTE]
 >
 >プレビュー：2025 年 8 月 7 日（PT）
->&#x200B;>すべてのお客様の実稼動環境：2025 年 8 月
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>すべてのお客様の実稼動環境：2025 年 8 月
+>>[!BADGE 予定外 ]{type=Neutral}
 
 Workfront Planning の式フィールドとWorkfrontの計算カスタムフィールドに、次のように使用する新しい式を追加しました。
 
@@ -239,8 +292,8 @@ Workfront Planning の式フィールドとWorkfrontの計算カスタムフィ�
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 31 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年7月31日（PT）
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>実稼動版（すべてのお客様向け）：2025年7月31日（PT）
+>>[!BADGE 予定外 ]{type=Neutral}
 
 レコードテーブルビューで式フィールドを作成または編集する際に、式フィールドを拡大するための「最大化」ボタンを追加しました。 さらに、拡大された新しいウィンドウに「最小化」ボタンを追加して、フィールド作成ボックスに戻しました。
 
@@ -289,8 +342,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 タイムライン上の任意の場所をダブルクリックすることで、レコードタイプのタイムライン表示でレコードを作成できるようになりました。
 
@@ -305,8 +358,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 ワークスペースページのレコードタイプカードの「詳細」メニューからレコードタイプを共有できるようになりました。 この機能強化の前は、共有オプションはレコードタイプページ内でのみ使用できました。
 
@@ -317,8 +370,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 すべてのWorkfront Planning ビュー（テーブル、タイムライン、カレンダー）をフルスクリーンモードで表示できるようになりました。 ビュー機能は維持され、フルスクリーンでビューを変更することもできます。
 
@@ -331,8 +384,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 22 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 承認プロセスの柔軟性を高めるために、Planning のリクエストフォームに承認者としてチームを追加する機能を追加しました。 現在は、承認者を設定する際に、チーム名を入力および選択できます。 チームメンバーは誰でも決定を行うことができます。これは、チーム全体の承認決定としてカウントされます。
 
@@ -345,8 +398,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 17 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 次のフィールドを導入して、承認を伴うリクエストを送信することで作成されたレコードの承認情報を取得しています。
 
@@ -360,8 +413,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 10 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 
 現在、テーブルビューに適用されたグループ化が存在する場合、テーブルにレコードを追加すると、レコードの追加先のグループ化に関連するフィールドが自動入力されるようになりました。

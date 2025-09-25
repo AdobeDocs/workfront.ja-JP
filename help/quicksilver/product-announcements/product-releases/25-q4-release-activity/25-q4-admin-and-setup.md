@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: a7b220017e0dc42e91a0b518b4eadcae8bb9fb8a
+source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 15%
+source-wordcount: '591'
+ht-degree: 13%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 15%
 このページでは、2025 年第 4 四半期リリースで行われた、プレビュー環境に対する管理者の機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
+
+## オブジェクトからカスタムフォームを削除する際の確認
+
+>[!NOTE]
+>
+>* プレビュー：2025 年 9 月 25 日（PT）
+>* 実稼動高速リリース：2025 年 10 月 15 日（PT）
+>* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+
+必要なデータへのアクセスを確実に保持するために、オブジェクトからカスタムフォームを削除する際の確認ダイアログを追加しました。 オブジェクトからカスタムフォームを削除すると、そのフォーム内のデータがオブジェクトから完全に削除されます。 現在は、ダイアログで、このデータが削除されることを理解しており、必要なデータを削除していないことを確認できます。
+
+以前は、データ削除の唯一の警告は、削除オプションの近くのテキストでした。
+
+ユーザー設定フォームの削除の詳細については、「オブジェクトに添付されたユーザー設定フォームを管理する」の「[ オブジェクトからユーザー設定フォームを削除する ](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object)」を参照してください。
 
 ## Workfront ユーザープロファイルの更新
 

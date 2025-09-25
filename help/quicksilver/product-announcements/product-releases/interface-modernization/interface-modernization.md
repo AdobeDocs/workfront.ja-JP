@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: c17723aed4057e744d3c3dc967990163316d82f5
+source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
 workflow-type: tm+mt
-source-wordcount: '7834'
+source-wordcount: '8092'
 ht-degree: 2%
 
 ---
@@ -23,6 +23,40 @@ ht-degree: 2%
 Adobe Workfrontのその他すべての変更点については、[ 製品リリース ](/help/quicksilver/product-announcements/product-releases/product-releases.md) を参照してください。
 
 ## 管理と設定
+
+<!--### Interface updates when adding or editing group timesheet profiles
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+
+To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+
+For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+
+### 「設定」の「重要度」エリアに対するインターフェイスの更新
+
+**プレビューリリース：2025 年 9 月 25 日（PT）、実稼動リリース：2025 年 10 月 2 日（PT）**
+
+重要度ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
+
+重要度をデフォルトにするか、重要度を削除するには、重要度名の横にあるチェックボックスをオンにして、画面の下部にあるアクションバーからオプションを選択する必要があります。
+
+これらの変更を表示するには、設定/プロジェクト環境設定/重要度に移動します。
+
+詳しくは、[ イシューの重要度の作成またはカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md) を参照してください。
+
+### 設定の優先度領域のインターフェイスのアップデート
+
+**プレビューリリース：2025 年 9 月 25 日（PT）、実稼動リリース：2025 年 10 月 2 日（PT）**
+
+優先度のページを更新して、Workfrontの他の領域と一致する、より現代的なデザインを追加しました。
+
+インターフェイスに目に見える変化として、優先度をデフォルトにするか優先度を削除するには、優先度名の横にあるチェックボックスをオンにして、画面の下部にあるアクションバーからオプションを選択する必要があります。
+
+これらの変更を表示するには、設定/プロジェクト環境設定/優先度に移動します。
+
+詳しくは、[ 優先度の作成とカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md) を参照してください。
 
 ### 設定領域でタイムシートプロファイルを追加または編集すると、インターフェイスが更新される
 
@@ -392,7 +426,27 @@ Workfrontの他の領域のデザインと一致するように、テンプレ�
 * [ トピックグループの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 * [ ルーティングルールの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
+
+
 ## ユーザー
+
+<!--### Interface updates for the User Details page
+
+**Preview release: September 25, 2025; Production release: October 2, 2025**
+
+We have updated the look and feel of the User Details page to match other areas of the application.
+
+You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+
+### 個人的な休暇のためのインターフェイス更新
+
+**プレビューリリース：2025 年 9 月 25 日（PT）、実稼動リリース：2025 年 10 月 2 日（PT）**
+
+承認を委任する機能を含め、個人の休暇カレンダーのルックアンドフィールを更新して、アプリケーションの他の領域と一致させました。
+
+これらの変更を表示するには、ユーザープロファイルに移動し、左側のパネルで **休暇** をクリックします。
+
+詳しくは、[ 個人の休暇の設定 ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md) および [ 承認リクエストの委任 ](/help/quicksilver/review-and-approve-work/manage-approvals/delegate-approval-requests.md) を参照してください。
 
 ### 新しいユーザーダイアログのインターフェイスの更新
 
