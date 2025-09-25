@@ -6,7 +6,7 @@ description: Adobe Workfront で、重大度をイシューに関連付けるこ
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 1fa62033f83a96ea5c1036598b832dd2ebfa19c4
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 99%
@@ -70,7 +70,7 @@ Workfront の次のエリアでイシューの重大度を更新できます。
 
 1. **基本情報**&#x200B;エリアの&#x200B;**重大度**&#x200B;フィールドをクリックします。
 
-   ![ 問題の重大度 ](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
+   ![ 問題の重大度 ](assets/issue-severity-field.png)
 
 1. ドロップダウンメニューから適切な&#x200B;**重大度**&#x200B;を選択します。
 
