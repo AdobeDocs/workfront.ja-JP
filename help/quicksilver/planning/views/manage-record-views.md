@@ -6,10 +6,10 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '1216'
-ht-degree: 45%
+source-wordcount: '1260'
+ht-degree: 43%
 
 ---
 
@@ -187,13 +187,12 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. 「**+ ビュー**」をクリックして、新しいビューを追加します。
+1. 使用する環境に応じて、次の操作を行います。
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, click the **+View** tab. 
-    * <span class="preview">In the Preview environment, click the drop-down icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, then click **+New view**.</span>-->
-   <!--1. <span class="preview">From the view dropdown menu, drag and drop views in order of your preference.</span>-->
+   * 実稼動環境で、「**+View**」タブをクリックします。
+   * <span class="preview"> プレビュー環境で、現在のビュー名の横にあるドロップダウンアイコン ![ ドロップダウンアイコン ](assets/drop-down-icon.png) ドロップダウンアイコン）をクリックし、「**+新しいビュー**」をクリックします。</span>
+
+1. <span class="preview"> 「表示」ドロップダウンメニューから、希望する順序でビューをドラッグ&amp;ドロップします。</span>
 1. 次のタイプのビューから選択します。
 
    * テーブル

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
 workflow-type: tm+mt
-source-wordcount: '2701'
+source-wordcount: '2700'
 ht-degree: 37%
 
 ---
@@ -246,7 +246,7 @@ ht-degree: 37%
 <!--add another step about drag and drop here when that is available-->
 
 1. カレンダー表示でレコードタイプ ページを開きます。 詳しくは、[ カレンダー表示の管理 ](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
-1. <span class="preview"> （条件付き） カレンダーの月単位のビューで、レコードのバーの端にポインタを合わせ、クリックして余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release-->
+1. <span class="preview"> （条件付き） カレンダー表示でレコードのバーの端にポインタを合わせ、クリックして余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release DONE Sep 25 2025-->
 
    <span class="preview">![ サイズを変更するカレンダー表示の左端のバー ](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
