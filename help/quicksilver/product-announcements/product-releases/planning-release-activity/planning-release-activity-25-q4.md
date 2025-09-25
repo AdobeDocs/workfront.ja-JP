@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 2fd35bef86be0728b346cb116f8f37662f84bc77
 workflow-type: tm+mt
-source-wordcount: '2016'
+source-wordcount: '2076'
 ht-degree: 8%
 
 ---
@@ -21,6 +21,18 @@ ht-degree: 8%
 <!--keep the sentence below for all future quarterly release pages-->
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+
+## レコードの接続済みレコードページでのWorkfront接続のインライン編集
+
+>[!NOTE]
+>
+>プレビュー：2025 年 9 月 25 日（PT）
+>>実稼動高速リリース：2025 年 10 月 15 日（PT）
+>>実稼動すべて：2025 年 10 月 16 日（PT）
+
+接続されたレコードページで、Workfront接続されたオブジェクトをインライン編集できるようになりました。 また、接続されたオブジェクトの順序を変更したり、行やテーブルビューのその他の機能をコピーして貼り付けたりすることもできます。
+
+詳しくは、[ レコードページの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
 <!--## Unified request form list now available
 
@@ -110,8 +122,8 @@ For more information on creating a request form and configuring these options, s
 >[!NOTE]
 >
 >プレビュー：2025 年 9 月 11 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年9月11日（PT）
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>実稼動版（すべてのお客様向け）：2025年9月11日（PT）
+>>[!BADGE 予定外 ]{type=Neutral}
 
 Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの両方を使用している場合は、GenStudioがデフォルトでサポートしているマーケティング概念よりも詳細に、キャンペーン、商品、ペルソナなどのマーケティング概念を定義してください。
 
@@ -276,8 +288,8 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 >[!NOTE]
 >
 >プレビュー：2025 年 8 月 7 日（PT）
->&#x200B;>すべてのお客様の実稼動環境：2025 年 8 月
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>すべてのお客様の実稼動環境：2025 年 8 月
+>>[!BADGE 予定外 ]{type=Neutral}
 
 Workfront Planning の式フィールドとWorkfrontの計算カスタムフィールドに、次のように使用する新しい式を追加しました。
 
@@ -292,8 +304,8 @@ Workfront Planning の式フィールドとWorkfrontの計算カスタムフィ�
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 31 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年7月31日（PT）
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>実稼動版（すべてのお客様向け）：2025年7月31日（PT）
+>>[!BADGE 予定外 ]{type=Neutral}
 
 レコードテーブルビューで式フィールドを作成または編集する際に、式フィールドを拡大するための「最大化」ボタンを追加しました。 さらに、拡大された新しいウィンドウに「最小化」ボタンを追加して、フィールド作成ボックスに戻しました。
 
@@ -342,8 +354,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 タイムライン上の任意の場所をダブルクリックすることで、レコードタイプのタイムライン表示でレコードを作成できるようになりました。
 
@@ -358,8 +370,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 ワークスペースページのレコードタイプカードの「詳細」メニューからレコードタイプを共有できるようになりました。 この機能強化の前は、共有オプションはレコードタイプページ内でのみ使用できました。
 
@@ -370,8 +382,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 すべてのWorkfront Planning ビュー（テーブル、タイムライン、カレンダー）をフルスクリーンモードで表示できるようになりました。 ビュー機能は維持され、フルスクリーンでビューを変更することもできます。
 
@@ -384,8 +396,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 22 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 承認プロセスの柔軟性を高めるために、Planning のリクエストフォームに承認者としてチームを追加する機能を追加しました。 現在は、承認者を設定する際に、チーム名を入力および選択できます。 チームメンバーは誰でも決定を行うことができます。これは、チーム全体の承認決定としてカウントされます。
 
@@ -398,8 +410,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 17 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 次のフィールドを導入して、承認を伴うリクエストを送信することで作成されたレコードの承認情報を取得しています。
 
@@ -413,8 +425,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 10 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 
 現在、テーブルビューに適用されたグループ化が存在する場合、テーブルにレコードを追加すると、レコードの追加先のグループ化に関連するフィールドが自動入力されるようになりました。
