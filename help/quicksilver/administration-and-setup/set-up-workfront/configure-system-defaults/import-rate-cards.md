@@ -5,9 +5,9 @@ author: Lisa
 hide: true
 hidefromtoc: true
 exl-id: debe90e7-08c2-4385-96fb-8d349dec6741
-source-git-commit: e94cbfd9c503936539dbe011e787533222896202
+source-git-commit: 1342574cb5f410d92ad4bce369c9804d3129e656
 workflow-type: tm+mt
-source-wordcount: '1168'
+source-wordcount: '1167'
 ht-degree: 3%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 3%
 
 テンプレートファイルを使用して Excel で評価カードを作成すると、すべての担当業務と評価を手動で追加する代わりに、Adobe Workfrontに読み込むことができます。
 
-この記事で説明している評価カードの例を確認するには、[ サンプルファイル ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/import-rate-cards/assets/rate-cards-sample.zip) をダウンロードしてください。
+この記事で説明している評価カードの例を確認するには、[ サンプルファイル ](assets/rate-cards-sample.zip) をダウンロードしてください。
 
 ## テンプレートファイルの操作に関する重要なルール
 
@@ -47,7 +47,7 @@ ht-degree: 3%
   </tr> 
   <tr> 
    <td>アクセスレベル設定</td> 
-   <td>[!UICONTROL 評価カード &#x200B;] へのアクセス権の編集</td> 
+   <td>[!UICONTROL 評価カード ] へのアクセス権の編集</td> 
   </tr> 
  </tbody> 
 </table>
