@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: bfece1075b137f9fcbaf6046e626952b5f2bde2f
+source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
 workflow-type: tm+mt
-source-wordcount: '8092'
+source-wordcount: '8031'
 ht-degree: 2%
 
 ---
@@ -216,13 +216,13 @@ Portfolioの編集ボックスでポートフォリオを編集する際のイ�
 
 詳しくは、[プロジェクトテンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
 
-### マイルストーン ビューの適用時にプロジェクト リストまたは報告書のインターフェイスを更新する
+<!--### Interface updates for a project list or report when applying the Milestone view
 
-**プレビューリリース：2025 年 9 月 11 日（PT）、実稼動リリース：2025 年 9 月 18 日（PT）**
+**Preview release: September 11, 2025; Production release: September 18, 2025**
 
-マイルストーン ビューを適用した際の、プロジェクトリストまたはレポートのルックアンドフィールを更新しました。
+We have updated the look and feel of a project list or report when you apply the Milestone view to them.
 
-プロジェクトリストまたはレポートが、Workfrontの他の領域のデザインと一致するようになりました。 詳しくは、[ マイルストーン表示の使用 ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) を参照してください。
+The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### テンプレートを使用しないプロジェクトへのタスクの変換に関するインターフェイスの変更
 
