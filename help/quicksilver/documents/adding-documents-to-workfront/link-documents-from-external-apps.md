@@ -6,10 +6,10 @@ description: 外部のソースから、ドキュメントとフォルダーを 
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: a005c7114388e1c20a4847b3da3229667be0ded7
 workflow-type: tm+mt
-source-wordcount: '2620'
-ht-degree: 95%
+source-wordcount: '2568'
+ht-degree: 93%
 
 ---
 
@@ -39,19 +39,16 @@ ht-degree: 95%
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>Workfront Proof で最初に作成したプルーフを Workfront で使用できます。現在のライセンスでは、この機能を使用するには Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront のプラン</a>を参照してください。</td> 
+   <td>Workfront Proof内で最初に作成した配達確認をWorkfront内で使用できるようになります。</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
    <td>Workfront にドキュメントをリンクすることができます。詳しくは、<a href="../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md" class="MCXref xref">Adobe Workfront for Experience Manager Assets Essentials</a> を参照してください。</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront DAM </td> 
-   <td>追加の購入が必要となります。 </td> 
-  </tr> 
-  <tr> 
+  </tr>
+
+<tr> 
    <td role="rowheader">その他のドキュメントプロバイダー（カスタムドキュメントの統合を経由）</td> 
-   <td> <p class="workfront_plans">現在のライセンスでは、この機能を使用するには Pro Workfront プラン以上が必要です。新しいライセンスでは、この機能はすべてのプランに含まれています。利用可能な様々なプランについて詳しくは、<a href="https://business.adobe.com/products/workfront/pricing.html">Workfront のプラン</a>を参照してください。</p> </td>
+   <td> <p class="workfront_plans">これらの統合は、設定エリアで設定できます。</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -99,6 +96,13 @@ Workfront に直接アップロードされたドキュメントを使用する�
 
 * ドキュメントサービスで提供されるサムネイルとプレビューの画像は、Workfront サーバーに保存される場合があります。
 * Workfront でプルーフを使用すると、ドキュメントがコピーされてプルーフサーバーに追加されます。
+
+## ファイルサイズの制限
+
+サードパーティのクラウドプロバイダー：
+
+* 単一ファイル：5 GB 以下
+* 複数のファイル：1 GB 以下（すべてのファイルの合計）
 
 ## 外部アプリケーションから Workfront へのドキュメントのリンク
 
@@ -301,7 +305,7 @@ Workfront と外部のクラウドプロバイダーの間でフォルダーを�
 
    Workfront では、フォルダーの横にクラウドプロバイダーのロゴが表示され、外部のクラウドプロバイダーにリンクされていることを示します。
 
-1. （オプション）Workfrontのフォルダ名と外部文書アプリケーションのフォルダ名が異なるようにフォルダ名を変更するには、[**フォルダ**] セクションで、フォルダ名の横に表示される [ 詳細 ] メニュー ![[ 詳細 ] メニュー ](assets/more-icon.png) をクリックし、&lbrack; 名前の変更 **をクリックします**。
+1. （オプション）Workfrontのフォルダ名と外部文書アプリケーションのフォルダ名が異なるようにフォルダ名を変更するには、[**フォルダ**] セクションで、フォルダ名の横に表示される [ 詳細 ] メニュー ![[ 詳細 ] メニュー ](assets/more-icon.png) をクリックし、[ 名前の変更 **をクリックします**。
 
    ![ フォルダー名を変更 ](assets/documents-folderlink-rename-nwe-350x154.png)
 
