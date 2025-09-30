@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2219'
 ht-degree: 15%
 
 ---
@@ -60,12 +60,12 @@ The <add release> release webinar will be held on <date>. You can [register for 
     </tr>
     <tr>
         <td>
-            オブジェクトからカスタムフォームを削除する際の <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> 確認 </a><p></p>
+            オブジェクトからカスタムフォームを削除する際の <a href="/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-admin-and-setup.md" class="MCXref xref" xrefformat="{para}"> 確認 </a><p>[!BADGE Off schedule]{type=Neutral}</p>
             <p>必要なデータへのアクセスを確実に保持するために、オブジェクトからカスタムフォームを削除する際の確認ダイアログを追加しました。 オブジェクトからカスタムフォームを削除すると、そのフォーム内のデータがオブジェクトから完全に削除されます。 現在は、ダイアログで、このデータが削除されることを理解しており、必要なデータを削除していないことを確認できます。 </p>
         </td>
+        <td>2025年9月24日（PT）</td>
         <td>2025年9月25日（PT）</td>
-        <td>2025年10月15日（PT）</td>
-        <td>2025年10月16日（PT）</td>
+        <td>2025年9月25日（PT）</td>
     </tr> 
     <tr>
         <td>
@@ -456,7 +456,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 

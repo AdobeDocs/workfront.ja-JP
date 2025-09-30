@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
+source-git-commit: e32f759218a3addf63dad7aa207ccdde8acb1975
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 12%
+source-wordcount: '597'
+ht-degree: 13%
 
 ---
 
@@ -22,9 +22,8 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->* プレビュー：2025 年 9 月 25 日（PT）
->* 実稼動高速リリース：2025 年 10 月 15 日（PT）
->* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>* プレビュー：2025 年 9 月 24 日（PT）
+>* 実稼動版（すべてのお客様向け）：2025年9月25日（PT）
 
 必要なデータへのアクセスを確実に保持するために、オブジェクトからカスタムフォームを削除する際の確認ダイアログを追加しました。 オブジェクトからカスタムフォームを削除すると、そのフォーム内のデータがオブジェクトから完全に削除されます。 現在は、ダイアログで、このデータが削除されることを理解しており、必要なデータを削除していないことを確認できます。
 
