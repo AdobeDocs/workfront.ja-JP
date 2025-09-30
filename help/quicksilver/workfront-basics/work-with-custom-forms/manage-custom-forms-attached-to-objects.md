@@ -6,10 +6,10 @@ description: 1 つのオブジェクトにアタッチされたカスタムフ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
+source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
 workflow-type: tm+mt
-source-wordcount: '1147'
-ht-degree: 95%
+source-wordcount: '1088'
+ht-degree: 87%
 
 ---
 
@@ -28,25 +28,25 @@ ht-degree: 95%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>任意 </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン*</td> 
+   <td role="rowheader">Adobe Workfront プラン</td> 
    <td> <p>リクエスト以上</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">アクセスレベル設定*</td> 
-   <td> <p>カスタムフォームを管理するオブジェクトへの編集アクセス権</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">アクセスレベル設定</td> 
+   <td> <p>カスタムフォームを管理するオブジェクトへの編集アクセス権</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>カスタムフォームを管理するオブジェクトに対する参加以上の権限</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">オブジェクトへのアクセス権のリクエスト</a>を参照してください。</p> </td> 
+   <td> <p>カスタムフォームを管理するオブジェクトに対する参加以上の権限</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;保有するプラン、ライセンスタイプ、アクセス権を確認するには、Workfront 管理者に問い合わせてください。
+*詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
 ## 前提条件
 
@@ -73,18 +73,13 @@ ht-degree: 95%
 >
 >オブジェクトからカスタムフォームを削除すると、フォームのカスタムフィールドに取り込まれたすべての情報が失われ、回復できなくなります。
 
-1. カスタムフォームを削除するオブジェクトに移動し、オブジェクトの編集を開始します。
+1. カスタムフォームを削除するオブジェクトに移動し、オブジェクトの左側のパネルで **詳細** セクションをクリックします。
 
-   例えば、プロジェクトに移動し、**その他**&#x200B;メニュー![](assets/more-icon.png)、**編集**&#x200B;の順にクリック。
+   例えば、プロジェクトに移動する場合は、「**プロジェクトの詳細**」セクションをクリックします。
 
-1. **カスタムフォーム**&#x200B;をクリックします。
-1. プロジェクト、タスク、およびイシューのカスタムフォームの場合は、フォームの右側にある&#x200B;**X**&#x200B;アイコンをクリックしてオブジェクトから削除します。
-
-   他のすべてのオブジェクトについては、**フォームの管理**、フォームの右側にある&#x200B;**X**&#x200B;アイコンの順にクリックしてオブジェクトから削除します。
-
-1. <span class="preview"> 開いたダイアログで、「**削除**」をクリックします。</span>
-
-1. 「**保存**」をクリックします。
+1. オブジェクトのページの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**すべて編集** をクリックします。
+1. カスタムフォーム名の右側 **ある** 削除 ![](assets/delete-icon.png) アイコンをクリックし、「**削除**」をクリックして確定してオブジェクトからフォームを削除するか、「**キャンセル**」をクリックして削除を防ぎます。
+1. 「**変更を保存**」をクリックします。
 
 ## 同じカスタムフィールドを含む複数のカスタムフォームを管理
 

@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9bdc36a76393acd2f0617cc5796cfd7279b2c97a
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 29%
@@ -144,7 +144,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     >他のワークスペースからレコードの種類にアクセスするには、[**&#x200B;** レコードの種類の編集 **] ボックスの [** 詳細設定 **] タブで、レコードの種類に対して &lbrack; 他のワークスペースでこのレコードの種類への接続を許可する** 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
+     >他のワークスペースからレコードの種類にアクセスするには、[**** レコードの種類の編集 **] ボックスの [** 詳細設定 **] タブで、レコードの種類に対して [ 他のワークスペースでこのレコードの種類への接続を許可する** 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
      > ![ レコードタイプを編集ボックスの「詳細設定」タブ ](assets/edit-record-type-box-advanced-settings-tab.png)
 
      詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
@@ -195,7 +195,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
          >[!TIP]
          >
-         >1 つのレコードタイプに対する接続の上限は 500 個です。 この制限に達するのを避けるために、特に分類レコードタイプでは、この設定をオフにすることをお勧めします。
+         >1 つのレコードタイプに対して使用できるフィールドは 500 個までです。 この制限に達するのを避けるために、特に分類レコードタイプでは、この設定をオフにすることをお勧めします。
 
       3. （条件付き） **リンクされたレコードタイプに対応するフィールドを作成** を有効にした場合は、次のオプションから選択して、ユーザーが接続できるレコード数と接続できるレコード数を示します。
 
@@ -222,7 +222,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 
 1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプに接続する場合は、「レコードの外観 **領域で次のいずれかのオプションを選択し** す。
@@ -346,7 +346,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
      >[!TIP]
      >
-     > Workfront Planning でリンク元のレコード・タイプに対する別のアプリケーションのオブジェクトには、リンクされたレコード・フィールドは作成されません。<!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a 500 connection field limit for every record type.</span>-->
+     > Workfront Planning でリンク元のレコード・タイプに対する別のアプリケーションのオブジェクトには、リンクされたレコード・フィールドは作成されません。<!--<span class="preview">We recommend not creating links on taxonomical record types, as there is a limit of 500 fields for every record type.</span>-->
 
    <!--see the span preview text in the TIP above; it might not show up in green-->
 

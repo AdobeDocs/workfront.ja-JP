@@ -3,9 +3,9 @@ user-guide-title: Workfront ガイド
 user-guide-description: 組織で Adobe Workfront を実装し、効果的に使用する方法を学ぶには、本ドキュメント、チュートリアル、その他のリソースを使用します。
 role: User
 feature-set: Workfront
-source-git-commit: 74bdbaa0dd4df7b11a96105ad4258b06317b2510
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '13516'
+source-wordcount: '13520'
 ht-degree: 84%
 
 ---
@@ -1453,6 +1453,7 @@ ht-degree: 84%
          * [ポートフォリオに既存プログラムの追加](manage-work/portfolios/create-and-manage-programs/move-program.md)
          * [プログラムへのプロジェクトの追加](manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)
          * [プログラムからプロジェクトを削除](manage-work/portfolios/create-and-manage-programs/remove-project-from-program.md)
+         * [プログラムの削除とディアクティベート](manage-work/portfolios/create-and-manage-programs/delete-and-deactivate-programs.md)
       * ポートフォリオオプティマイザーでプロジェクトを最適化する {#manage-projects-in-portfolio-optimizer}
          * [ポートフォリオオプティマイザーでプロジェクトを最適化する](manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)
          * [ポートフォリオオプティマイザーの概要](manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md)

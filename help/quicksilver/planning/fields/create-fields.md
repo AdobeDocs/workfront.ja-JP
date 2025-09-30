@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '5332'
 ht-degree: 43%
@@ -14,7 +14,7 @@ ht-degree: 43%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ja ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
@@ -36,7 +36,7 @@ Adobe Workfront Planning では、レコードタイプのカスタムフィー�
 Workfront Planning では、次の方法でフィールドを作成できます。
 
 * [最初から](#create-fields-from-scratch)
-* [レコードタイプの接続による](#create-fields-from-scratch)
+* [レコードタイプの接続による](#create-fields-by-connecting-record-types)
 * [レコードタイプの作成による](#create-fields-by-creating-a-record-type)
 * [テンプレートからのワークスペースの作成による](#create-fields-by-creating-a-workspace-from-a-template)
 * [Excel または CSV ファイルを使用してレコードタイプを読み込む](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
@@ -369,7 +369,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >数値フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに数値として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**数値**&#x200B;フィールドタイプを選択します。
@@ -399,7 +399,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >割合フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページにパーセンテージとして表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
@@ -439,7 +439,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >通貨フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**通貨**&#x200B;フィールドタイプを選択します。
 

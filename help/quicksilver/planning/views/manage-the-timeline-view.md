@@ -6,14 +6,16 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3920'
-ht-degree: 38%
+source-wordcount: '3935'
+ht-degree: 37%
 
 ---
 
 # タイムラインビューの管理
+
+<!--remove preview and production references at production-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
@@ -117,9 +119,9 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 タイムラインビューを管理するには：
 
 1. タイムラインを表示するレコードタイプページに移動します。
-1. タイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
+1. <span class="preview"> 記事 [ レコードビューの管理 ](/help/quicksilver/planning/views/manage-record-views.md) の説明に従って、タイムラインビューを作成します。</span>
 
-   ![ タイムラインビューの例 ](assets/timeline-view-example.png)
+   <span class="preview">![ タイムラインビューの例 ](assets/timeline-view-example.png)</span>
 
    選択したレコードタイプに関連付けられたレコードは、タイムラインにバーとして表示され、デフォルトでは開始日の時系列で並べ替えられます。
 
@@ -173,9 +175,9 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、画面に表示されるレコードのフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しい一致のレコードがハイライト表示されます。
+   1. <span class="preview">**検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、画面に表示されるレコードの任意のフィールドに関連付けられたキーワードの入力を開始します。 検索項目の横に正しい一致数が表示され、正しく一致するレコードがハイライト表示されます。</span>
 
-      ![ 検索ボックスと結果のタイムライン表示 ](assets/search-box-and-results-timeline-view.png)
+      <span class="preview">![ 検索ボックスと結果のタイムライン表示 ](assets/search-box-and-results-timeline-view.png)</span>
 
       画面に表示される任意の単語や特殊文字を使用できます。
 
@@ -353,23 +355,21 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 タイムラインビューでグループ化を追加するには：
 
 1. レコードタイプのタイムラインビューを作成します。詳しくは、[レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)を参照してください。
-1. タイムラインビューの右上隅にある&#x200B;**グループ化**&#x200B;をクリックします。
+1. <span class="preview"> タイムラインビューの右上隅にある **グループ化** をクリックします。</span>
 
-   ![ リンクされたフィールドを使用した UI タイムラインビューのグループ化 ](assets/grouping-ui-timeline-view-with-linked-fields.png)
+   <span class="preview">![ リンクされたフィールドを使用した UI タイムラインビューのグループ化 ](assets/grouping-ui-timeline-view-with-linked-fields.png)</span>
 
 1. 推奨フィールドの 1 つをクリックするか、「**別のフィールドを選択**」で別のフィールドを検索して、リストに表示されたらクリックします。
 
    グループ化はタイムラインに自動的に適用され、レコードがグループ化ボックス内に表示されます。
 
-   <!-- add a step that you can rearrange the groupings here, when this will be possible-->
-
 1. （オプション）上記の手順を繰り返して、最大 3 つのグループ化を追加できます。
 
-   グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
+   <span class="preview"> グループ化のために選択されたフィールドの数は、グループ化アイコンの横に表示されます。</span>
 
-   <!-- update screen shot with view redesign-->
+   <span class="preview">![ タイムラインビューで適用されたグループ化 ](assets/grouping-applied-in-timeline-view.png)</span>
 
-   ![ グループ化はタイムライン表示で適用 ](assets/grouping-applied-in-timeline-view.png)
+1. 「**レコードのグループ化** ボックスで、グループ化を正しい順序でドラッグ&amp;ドロップします。
 
 1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
 
@@ -530,7 +530,11 @@ this is not possible right now; if this is the same functionality as the table v
 1. **標準** または **コンパクト** モードから、タイムラインビューの右上隅にある **分類** をクリックします。
 1. 「**リンクされたレコードタイプを選択**」ボックスを展開し、接続されたレコードタイプを選択します。<!--add a new screen shot - submitted a bug to remove the "the"-->
 
+   <div class="preview">
+
    ![ タイムライン表示の分類ピッカーとボタン ](assets/breakdown-picker-and-button-on-timeline.png)
+
+   </div>
 
    >[!TIP]
    >
@@ -543,7 +547,7 @@ this is not possible right now; if this is the same functionality as the table v
    >    開始日と終了日には順序を指定する必要があります。 終了日が開始日より前の場合、タイムラインにレコードは表示されません。
 
    他のレコードと接続されている場合は、タイムラインの選択されたレコードのバーに右向きの矢印が表示されます。
-1. 右向き矢印をクリックしてレコード タイプを展開し、その接続を表示します。
+1. 右向き矢印をクリックしてレコード タイプを展開し、その接続を表示します。<!--update screen shot at production-->
 
    ![ タイムライン表示でプログラム別に分類されたキャンペーン ](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 

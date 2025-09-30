@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 10fec10e1bb885ac20e1ef9526cfa8a59086d874
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
 source-wordcount: '3494'
-ht-degree: 53%
+ht-degree: 52%
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -100,7 +100,7 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++   
 
 ## テーブル表示を使用したレコードの編集
 
@@ -114,9 +114,9 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 テーブルビューを管理するには：
 
-1. [レコードビューの管理](/help/quicksilver/planning/views/manage-record-views.md)の記事の説明に従って、テーブルビューを作成します。
+1. <span class="preview"> 記事 [ レコードビューの管理 ](/help/quicksilver/planning/views/manage-record-views.md) の説明に従って、テーブルビューを作成します </span>。
 
-   ![ テーブル表示の例 ](assets/table-view-example.png)
+   <span class="preview">![ テーブル表示の例 ](assets/table-view-example.png)</span>
 
 1. （オプション）「**行の高さ**」をクリックし、次のオプションから選択して、テーブルの行の高さを変更します。
    * 低い
@@ -159,7 +159,11 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
    * テーブルのツールバーで&#x200B;**フィールド**&#x200B;をクリックし、フィールドを目的の順序でドラッグ＆ドロップし、「**フィールドの表示と順序**」ボックスの外側をクリックしてボックスを閉じます。
 
+     <div class="preview">
+
      ![ フィールド設定テーブル表示ツールバーが展開されました ](assets/fields-setting-table-view-toolbar-expanded.png)
+
+     </div>
 
 
      >[!TIP]
@@ -203,9 +207,9 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 1. キーワードに一致するレコードをすばやく検索するには、次の手順を実行します。
 
-   1. **検索** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックし、画面に表示されるレコードのフィールドに関連付けられたキーワードの入力を開始します。 正しい一致の数が検索項目の横に表示され、正しく一致するフィールドがハイライト表示されます。
+   1. <span class="preview"> 「**検索**」ボックス ![ 検索アイコン ](assets/search-icon.png) に、画面に表示されるレコードのフィールドに関連付けられたキーワードの入力を開始します。</span> 検索項目の横に正しく一致する項目の数が表示され、正しく一致するフィールドがハイライト表示されます。
 
-      ![ テーブル表示で結果が青色のアウトラインで表示された検索ボックス ](assets/search-box-with-results-blue-outline-table-view.png)
+      <span class="preview">![ テーブル表示で結果が青色のアウトラインで表示された検索ボックス ](assets/search-box-with-results-blue-outline-table-view.png)</span>
 
       画面に表示される任意の単語や特殊文字を使用できます。
 
@@ -459,9 +463,13 @@ Adobe Workfront Planning のレコードタイプのページにアクセスす�
 
 1. （任意）「**条件を追加**」をクリックし、上記の手順を繰り返して、最大 3 つのグループを追加します。
 
+   <div class="preview">
+
    グループ化用に選択したフィールドの数がグループ化アイコンの横に表示されます。
 
    ![ テーブル表示で適用されたグループ化 ](assets/grouping-applied-in-table-view.png)
+
+   </div>
 
 1. （オプション）「**以下でレコードをグループ化**」ボックスで、グループ化用に選択したフィールドの右側にある **x** アイコンをクリックすると、グループ化を削除できます。
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1734'
-ht-degree: 5%
+source-wordcount: '1878'
+ht-degree: 6%
 
 ---
 
@@ -18,9 +18,9 @@ ht-degree: 5%
 
 # Workfront オブジェクトからのレコード接続の管理
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -31,7 +31,7 @@ WorkfrontのWorkfront Planning レコードは、それらに接続されたオ�
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto">
  <col>
@@ -127,6 +127,9 @@ Workfront オブジェクトの「計画」セクションからWorkfront Planni
    * [レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [レコードの接続](/help/quicksilver/planning/records/connect-records.md)
 * Workfrontオブジェクトに関連付けられたレコードがない場合でも、Workfrontオブジェクトから「プランニング」セクションを表示できます。
+* <span class="preview"> レコードタイプがWorkfront オブジェクトのプランニング エリアに表示されるのは、2 つのレコードタイプ間の関連付けを作成するときにリンクされたレコードタイプ設定の対応するフィールドを作成を有効にした場合のみです。</span>
+
+  詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 ### 計画セクションからのレコード接続の管理
 
@@ -214,6 +217,9 @@ Workfrontオブジェクトの「Planning 接続」フィールドからWorkfron
 
   例えば、Planning 接続フィールドを持つカスタムフォームをタスクに添付できても、Workfront Planning オブジェクトをタスクに接続できない場合があります。
 * Workfrontオブジェクトを一括編集する場合は、Planning 接続フィールドを編集できません。
+* <span class="preview"> レコードタイプがWorkfrontオブジェクトの Planning 連携カスタムフィールドに表示されるのは、2 つのレコードタイプ間の連携を作成する際に「リンクされたレコードタイプ」設定の「対応するフィールドを作成」を有効にした場合のみです。</span>
+
+  詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
 
 ### 計画接続フィールドタイプからのレコード接続の管理
 

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3371'
 ht-degree: 38%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 38%
 
 # レコードの接続
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -337,7 +337,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 >[!NOTE]
 >
->Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+>Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 レコードをExperience Manager Assets に接続するには：
 
@@ -462,14 +462,16 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
    プレビューページが開きます。
 1. **新しいタブで開く** アイコン ![ 詳細を新しいタブで開くアイコン ](assets/open-details-in-a-new-tab-icon.png) をクリックして、レコードのページを開きます。
-1. レコードのページで、既存の「接続済みレコード」ページタブをクリックします。 まず、接続されたレコード ページを作成する必要があります。 詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+1. レコードのページで、既存の「接続済みレコード」ページタブをクリックします。 まず、接続されたレコード ページを作成する必要があります。
 
    接続されたレコードタイプのページがテーブル表示に表示されます。
 
    1 つのタイプの接続レコードがすべてテーブルに表示されます。
-1. レコードを追加または削除するには、「**接続**」をクリックします。
+1. レコードを追加または削除するには、「**接続**」、「<span class="preview">**レコードを接続**」または「**新しい行**</span>」をクリックします。
 
    ![ 接続されたレコードの詳細タブでハイライト表示された「接続」ボタン ](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+
+   詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 1. （オプション）接続されたレコードが見つからない場合は、「**+追加**」をクリックして作成し、接続します。
 
 ## Workfront オブジェクトからのレコードの接続

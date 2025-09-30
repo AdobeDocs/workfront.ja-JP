@@ -6,10 +6,10 @@ description: 自分が作成したプログラムに関する情報を編集で�
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: b47c87a1a3d7516f7b1fed6e1abf84a84c453609
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1033'
-ht-degree: 76%
+source-wordcount: '988'
+ht-degree: 65%
 
 ---
 
@@ -84,7 +84,7 @@ ht-degree: 76%
    1. （オプションおよび条件付き）領域が折りたたまれたら、各領域の横にある **右向き矢印**![ 右向き矢印 ](assets/right-pointing-arrow.png) をクリックして、編集する領域を展開します。
    1. 「[!UICONTROL プログラムの詳細]」セクションに表示されるフィールドについては、以下に説明するように、引き続き[!UICONTROL プログラムの編集]ボックスでプログラムを編集します。
    1. （オプション）プログラムにカスタムフォームが添付されていない場合は、「**[!UICONTROL カスタムフォームを追加]**」フィールドにフォームの名前を入力していき、リストに名前が表示されたら選択して、「**[!UICONTROL 変更を保存]**」をクリックします。
-   1. （オプション） **[!UICONTROL 書き出し]** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックして、[!UICONTROL &#x200B; 概要 &#x200B;] とカスタムフォームの情報をPDF ファイルに書き出し、「**[!UICONTROL 書き出し]**」をクリックします。 次の中から選択します。
+   1. （オプション） **[!UICONTROL 書き出し]** アイコン ![ 書き出しアイコン ](assets/export.png) をクリックして、[!UICONTROL  概要 ] とカスタムフォームの情報をPDF ファイルに書き出し、「**[!UICONTROL 書き出し]**」をクリックします。 次の中から選択します。
 
       * すべてを選択（1 つ以上のカスタムフォームが添付されている場合にのみ表示）
       * [!UICONTROL 概要]
@@ -99,14 +99,14 @@ ht-degree: 76%
 
 1. 1 つ以上のプログラムに関するすべての情報を編集するには、次のいずれかを行います。
 
-   * プログラム名の横にある **[!UICONTROL その他]** メニュー ![ その他のメニュー ](assets/more-icon.png) をクリックし、&#x200B;**[!UICONTROL 編集 &#x200B;]** をクリックします。
+   * プログラム名の横にある **[!UICONTROL その他]** メニュー ![ その他メニュー ](assets/more-icon.png) をクリックし、**[!UICONTROL 編集 ] をクリックします**。
    * プログラムの一覧に移動して、編集する 1 つ以上のプログラムを選択し、一覧の上部にある **[!UICONTROL 編集]** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
 
-   **[!UICONTROL プログラムの編集]**&#x200B;ダイアログボックスが表示されます。
+     **[!UICONTROL プログラムを編集]** ボックスが表示されます。
 
-   ![ プログラムを編集ボックス ](assets/edit-program-0925.png)
+     ![ プログラムを編集ボックス ](assets/edit-program-0925.png)
 
-   すべてのプログラムフィールドが[!UICONTROL プログラムの編集]ボックスで使用でき、左パネルに表示されたエリアにグループ化されています。
+     すべてのプログラムフィールドが[!UICONTROL プログラムの編集]ボックスで使用でき、左パネルに表示されたエリアにグループ化されています。
 
 1. 次のセクションのいずれかに情報を指定することを検討してください。
 
@@ -136,26 +136,29 @@ ht-degree: 76%
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td> <p>プログラムの名前を更新します。 </p> <p>ヒント：複数のプログラムを選択した場合は使用できません。 </p> </td> 
+      <td> <p>プログラムの名前を更新します。 </p> <p><b>ヒント</b></p><p>複数のプログラムを選択した場合は、この機能は使用できません。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Description]</td> 
-      <td> <p>ポートフォリオの説明を入力して、その独自性を示します。 </p> </td> 
+      <td> <p>ポートフォリオの説明を入力して、ポートフォリオに関する一意の内容を示します。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Program Manager]</td> 
-      <td> <p>プログラムマネージャーとして指定するユーザの名前を入力していき、リストに目的の名前が表示されたら選択します。これは、プログラムのプロジェクトで定義された作業を監督できるユーザーです。 </p> <p>重要：ユーザーをプログラムマネージャーに指名すると、そのユーザーには、プログラムおよびプログラム内のプロジェクトの[!UICONTROL Manage]権限が自動的に付与されます。 </p> <p>ヒント：プログラムヘッダーで、プログラムマネージャーをすばやく更新できます。 </p> </td> 
+      <td> <p>プログラムマネージャーとして指定するユーザの名前を入力していき、リストに目的の名前が表示されたら選択します。これは、プログラムのプロジェクトで定義された作業を監督できるユーザーです。 </p> <p><b><p>重要</b></p> <p>プログラムマネージャーに指定すると、プログラムおよびプログラム内のプロジェクトに対する [!UICONTROL Manage] 権限が自動的に付与されます。 </p> <p><b>ヒント</b></p> <p>プログラムヘッダー内のプログラムマネージャーをすばやく更新できます。 </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Group]</td> 
-      <td> <p>グループがプログラムに関連付けられている場合や、プログラムを完了する責任がある場合は、1 つのグループの名前を追加します。 </p> <p>ヒント：  <p>[!UICONTROL Program Details]ページから「[!UICONTROL Group]」フィールドにアクセスする場合は、以下を行います。 </p> <p>適切なグループを選択していることを確認するには、グループにポインタを合わせて、グループの横に表示される[!UICONTROL information]アイコン <img src="assets/info-icon.png"> をクリックします。グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>このオプションは、[!UICONTROL Edit Program]ボックスでは使用できません。 </p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Is Active]</td> 
-      <td> <p> プログラムをアクティブにする場合は、このチェックボックスをオンにします。他のユーザーは、アクティブなプログラムを見つけてプロジェクトに添付したり、ポートフォリオに追加したりできます。非アクティブなプログラムは、プロジェクトやポートフォリオに添付できません。これはデフォルトで有効になっています。</p> </td> 
+      <td> <p>グループがプログラムに関連付けられている場合や、プログラムを完了する責任がある場合は、1 つのグループの名前を追加します。 </p> <p><b>ヒント</b></p>  <p>[!UICONTROL プログラムの詳細 ] ページから [!UICONTROL グループ ] フィールドにアクセスする場合は、次の手順を実行して適切なグループを選択していることを確認します。 </p> <p>グループ名の上にマウスポインターを置き、その横にある [!UICONTROL information] アイコン <img src="assets/info-icon.png"> をクリックします。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。</p> <p> <img src="assets/group-details-widget-programs-350x268.png" style="width: 350;height: 268;"> </p> <p>このオプションは、[!UICONTROL Edit Program]ボックスでは使用できません。 </p> </p> </td> 
      </tr> 
     </tbody> 
    </table>
+
+   <!--this was removed from the unshimmed version - asking on the epic:
+   <tr> 
+      <td role="rowheader">[!UICONTROL Is Active]</td> 
+      <td> <p> Select this checkbox if you want the program to be active. Other users can find active programs and attach them to projects or add them to portfolios. Inactive programs cannot be attached to projects or portfolios. This is enabled by default.</p> </td> 
+     </tr> -->
+
 
 1. 「**[!UICONTROL 保存]**」をクリックするか、次のセクションの編集を続行します。
 
@@ -184,4 +187,5 @@ ht-degree: 76%
 1. （オプション）「[!UICONTROL **会社に非公開**]」を選択してコメントをロックし、会社内のユーザーにのみ非公開にします。
 
    変更を保存すると、追加したコメントがプログラムの「[!UICONTROL 更新]」タブに表示され、コメントに含まれているユーザーにメールが送信されます。
+1. 「**[!UICONTROL 保存]**」をクリックします。
 

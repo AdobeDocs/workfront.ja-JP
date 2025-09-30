@@ -6,15 +6,17 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 43%
+source-wordcount: '1287'
+ht-degree: 41%
 
 ---
 
 
 # レコードビューの管理
+
+<!-- take preview and production references out at production-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
@@ -192,30 +194,32 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
    * 実稼動環境で、「**+View**」タブをクリックします。
    * <span class="preview"> プレビュー環境で、現在のビュー名の横にあるドロップダウンアイコン ![ ドロップダウンアイコン ](assets/drop-down-icon.png) ドロップダウンアイコン）をクリックし、「**+新しいビュー**」をクリックします。</span>
 
-1. <span class="preview"> 「表示」ドロップダウンメニューから、希望する順序でビューをドラッグ&amp;ドロップします。</span>
 1. 次のタイプのビューから選択します。
 
    * テーブル
    * タイムライン
    * カレンダー
 
-   選択したビューで新しいタブが作成されます。
+   実稼動環境では、選択したビューで新しいタブが作成されます。
 
    画面の幅に応じて、追加のビューが **その他** メニュー ![ その他メニュー ](assets/more-menu.png) に表示される場合があります。
 
+   >[!TIP]
+   >
+   >レコードタイプを作成すると、テーブルビューもデフォルトで作成されます。
+   >
+   >タイムライン表示またはカレンダー表示を作成するには、ビューを作成するレコードタイプに少なくとも 2 つの日付フィールドが必要です。
+   >
+   >それ以外の場合は、「タイムライン」および「カレンダー」オプションは淡色表示になります。
+   >
 
->[!TIP]
->
->レコードタイプを作成すると、テーブルビューもデフォルトで作成されます。
->
->タイムライン表示またはカレンダー表示を作成するには、ビューを作成するレコードタイプに少なくとも 2 つの日付フィールドが必要です。
->
->それ以外の場合は、「タイムライン」および「カレンダー」オプションは淡色表示になります。
->
+   <span class="preview"> プレビュー環境で、表示タイプを選択し、「**作成**」をクリックします。 ドロップダウンメニューに新しいビューが追加されます。</span>
 
-<!-- replace screen shot at production??-->
+   <span class="preview">![ ビューボックスを作成 ](assets/create-view-box.png)</span>
 
-![ レコードタイプリストからの表示タイプドロップダウン ](assets/view-types-drop-down-from-record-type-list.png)
+1. <span class="preview"> 「表示」ドロップダウンメニューから、希望する順序でビューをドラッグ&amp;ドロップします。</span>
+
+   <span class="preview">![ レコードタイプリストからの表示タイプドロップダウン ](assets/view-types-drop-down-from-record-type-list.png)</span>
 
 1. （条件付き）タイムラインビューまたはカレンダービューを作成する際は、「**次へ**」をクリックします。
 
