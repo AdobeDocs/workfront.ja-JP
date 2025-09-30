@@ -6,16 +6,16 @@ description: 1 つのオブジェクトにアタッチされたカスタムフ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b3534cccd4a06b8c5b8b7e742f63eeb898bd5b99
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 97%
+source-wordcount: '1147'
+ht-degree: 95%
 
 ---
 
 # オブジェクトに添付されたカスタムフォームを管理
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビュー環境のすべてのユーザーと、実稼動環境の一部のユーザーが使用できます。</span>
 
 1 つのオブジェクトにアタッチされたカスタムフォームの表示順序を更新したり、削除したり、複数のオブジェクトでカスタムフォームを表示する方法を一括編集したりできます。
 
@@ -81,6 +81,8 @@ ht-degree: 97%
 1. プロジェクト、タスク、およびイシューのカスタムフォームの場合は、フォームの右側にある&#x200B;**X**&#x200B;アイコンをクリックしてオブジェクトから削除します。
 
    他のすべてのオブジェクトについては、**フォームの管理**、フォームの右側にある&#x200B;**X**&#x200B;アイコンの順にクリックしてオブジェクトから削除します。
+
+1. <span class="preview"> 開いたダイアログで、「**削除**」をクリックします。</span>
 
 1. 「**保存**」をクリックします。
 
