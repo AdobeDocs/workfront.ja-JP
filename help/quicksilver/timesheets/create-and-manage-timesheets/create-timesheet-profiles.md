@@ -137,7 +137,7 @@ ht-degree: 76%
       <td role="rowheader"><strong>時間を編集可能</strong> </td> 
       <td> <p> <p>承認者がタイムシートの時間を編集できるようにするには、このオプションを選択します。
 
-   <p>このオプションは、設定/タイムシートと時間/環境設定領域の**タイムシートの編集を所有者と管理者に制限する**設定と連携して機能します。 詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。</p>
+   <p>このオプションは、設定/タイムシートと時間/環境設定領域の&#x200B;**タイムシートの編集を所有者と管理者に制限する**&#x200B;設定と連携して機能します。 詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。</p>
 
    <p>次のシナリオが存在します。 </p>
 
