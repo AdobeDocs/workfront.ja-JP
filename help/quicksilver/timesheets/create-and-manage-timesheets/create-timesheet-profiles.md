@@ -6,14 +6,16 @@ description: 追加の介入なしに、ユーザーに対して定期タイム�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 764200970aeb8d121cd99a8d4239e0b9853670a9
+source-git-commit: 939407f56b39617441f669d11b9439e445ceaf6e
 workflow-type: tm+mt
-source-wordcount: '1635'
-ht-degree: 77%
+source-wordcount: '1641'
+ht-degree: 76%
 
 ---
 
 # タイムシートプロファイルの作成、編集および割り当て
+
+{{highlighted-preview}}
 
 <!--Audited: 06/2025-->
 
@@ -85,8 +87,7 @@ ht-degree: 77%
 
    新規または既存の定期タイムシート ページが表示されます。
 
-
-1. 「**詳細を設定**」タブをクリックして、次の情報を更新します。<!-- at the Production release, change the order of some of these rows, as they changed in the unshimmed UI-->
+1. 次の情報を更新します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -112,7 +113,7 @@ ht-degree: 77%
      <ul> 
       <li> <p>管理しているグループのタイムシートプロファイルを作成する場合は、ここでグループを指定します。</p> <p>この操作を実行しても、グループ内のユーザーにタイムシートプロファイルは割り当てられません。グループの管理者がタイムシートプロファイルを変更できるだけです。手順 6 で、プロファイルをユーザーに割り当てます。</p>
 
-   <p><b>メモ</b>：グループ外のユーザーが他のユーザーにタイムシートプロファイルを添付しようとしても、このタイムシートプロファイルを表示したり添付したりすることはできません。</p> </li> 
+   <p><b> 注意 </b>: グループ外のユーザーがタイムシート プロファイルを他のユーザーに添付している場合、このタイムシート プロファイルを表示または添付することはできません。</p> </li> 
       </ul> </p> </td> 
      </tr> 
      <tr> 
@@ -136,7 +137,7 @@ ht-degree: 77%
       <td role="rowheader"><strong>時間を編集可能</strong> </td> 
       <td> <p> <p>承認者がタイムシートの時間を編集できるようにするには、このオプションを選択します。
 
-   <p>このオプションは、設定/タイムシートと時間/環境設定領域の&#x200B;**タイムシートの編集を所有者と管理者に制限する**&#x200B;設定と連携して機能します。 詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。</p>
+   <p>このオプションは、設定/タイムシートと時間/環境設定領域の**タイムシートの編集を所有者と管理者に制限する**設定と連携して機能します。 詳しくは、<a href="../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">タイムシートと時間の環境設定の構成</a>を参照してください。</p>
 
    <p>次のシナリオが存在します。 </p>
 
@@ -155,6 +156,10 @@ ht-degree: 77%
    <b>メモ</b>：承認を受けるためにタイムシートを送信した後に、時間を編集することはできません。提出されたタイムシートを編集可能な状態に戻すには、タイムシートを取り消すか、承認者にタイムシートを却下させます。詳しくは、<a href="../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md">承認に向けたタイムシートの送信</a>および<a href="../../timesheets/create-and-manage-timesheets/timesheet-approvals.md">タイムシートの承認</a>を参照してください。</p> </p> </td>
    </tr> 
      <tr> 
+      <td role="rowheader"><strong>超過作業時間</strong> </td> 
+      <td>タイムシートの「超過作業時間」ボックスは非表示にすることができます。このオプションはデフォルトでは無効になっています。</td> 
+     </tr> 
+     <tr> 
       <td role="rowheader"><strong>使用できる時間タイプ</strong> </td> 
       <td><p>この設定は一般的な時間タイプのみを参照し、プロジェクト固有の時間タイプは参照しません。 </p>
       <p>デフォルトでは、タイムシートのすべての一般的な時間がユーザーに表示されます。ただし、特定のユーザーセットに対して特定の一般的な時間のみを表示する場合は、このフィールドのタイムシートプロファイルで選択することにより、タイムシートに表示する必要のある一般的な時間を選択できます。すべての一般的な時間を無効にする場合は、すべての時間タイプの選択を解除して、一般的な時間のセクションを含まないタイムシートを生成します。</p></td> 
@@ -165,14 +170,9 @@ ht-degree: 77%
       <td> <p> リマインダ通知を追加します。 Workfrontからユーザーにリマインダーを送信し、タイムシートの入力や承認を求めます。 リマインダ通知を作成してから、タイムシートプロファイルに関連付けてください。  </p> </td> 
      </tr>
 
-   <tr data-mc-conditions=""> 
-      <td role="rowheader"><span style="font-weight: bold;">超過作業時間</span> </td> 
-      <td>タイムシートの「超過作業時間」ボックスは非表示にすることができます。このオプションはデフォルトでは無効になっています。</td> 
-     </tr> 
-    </tbody> 
-    </table>
+1. 実稼働でグループレベルのタイムシートプロファイルを作成する場合は、「**ユーザーを割り当て**」タブをクリックして、タイムシートプロファイルを特定のユーザー、グループまたは（Workfrontの管理者の場合）チームに関連付けます。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
 
-1. グループレベルのタイムシートプロファイルを作成する場合は、「**ユーザーを割り当て**」タブをクリックして、タイムシートプロファイルを特定のユーザー、グループまたは（Workfrontの管理者の場合）チームに関連付けます。<!--Keep the reference to the group upon release to Prod, for now, until they unshim the group Timesheet Profiles-->
+   <span class="preview"> プレビューでグループレベルのタイムシートプロファイルを作成する場合は、ページの下部までスクロールして **ユーザーを割り当て** セクションを探します。</span>
 
    システムのタイムシートプロファイルを作成する場合は、ページの下部までスクロールして、「ユーザーを割り当て **セクションを見つけ** す。<!--Keep the reference to the system when releasing to Prod, until they unshim the group Timesheet Profile-->
 
@@ -188,7 +188,7 @@ ht-degree: 77%
 
 1. **保存**&#x200B;をクリックします。
 
-1. タイムシートプロファイルリストの上部で、システムレベルのタイムシートプロファイルには **その他** アイコン ![ その他 ](assets/more-icon.png) をクリックし、グループタイムシートプロファイルには **その他** をクリックしてから、「**タイムシートを生成** をクリックします。
+1. タイムシートプロファイルリストの上部で、「**その他**」アイコン ![ その他アイコン ](assets/more-icon.png) をクリックし、「**タイムシートを生成**」をクリックします。
 
    タイムシートが正常に生成されたことを示す確認が画面の下部に表示されます。 作成した新規プロファイルに基づいて、新しいタイムシートが生成されます。
 
