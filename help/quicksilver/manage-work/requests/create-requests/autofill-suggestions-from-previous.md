@@ -5,21 +5,14 @@ description: AI を使用し、以前のリクエストのデータを使用し�
 author: Becky
 feature: Get Started with Workfront
 exl-id: a0cd1fbf-d3c6-454c-a85a-ceca4b1e8a7b
-source-git-commit: 1c2e382908ed8fead7c2222e8d46988656df29c4
+source-git-commit: 21039f9ab14529b56935d65e0261dc1ce068918c
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 24%
+source-wordcount: '331'
+ht-degree: 25%
 
 ---
 
 # 以前のリクエストのデータを使用したリクエストのオートコンプリート
-
->[!NOTE]
->
->* この機能は、オープンベータ版として次のスケジュールで利用できるようになります。
->
->   * 月次リリース：2025 年 9 月 11 日（PT）
->   * 四半期リリース：2025 年 10 月 16 日
 
 AI は、以前のリクエストに基づいてリクエストフィールドをオートコンプリートするのに役立ちます。 リクエストを送信する前に、これらの提案を承認または却下できます。
 
