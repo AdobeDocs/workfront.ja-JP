@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d560a3b7-81a0-41b2-a40e-81c784a42bf6
-source-git-commit: aec301a72ce0864faaf61754552ab8b4ba9bfb49
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '591'
-ht-degree: 13%
+source-wordcount: '601'
+ht-degree: 12%
 
 ---
 
@@ -44,7 +44,7 @@ Workfront ユーザープロファイルのルックアンドフィールを、W
 現在のユーザープロファイルとは、次のような小さな機能上の違いがあります。
 
 * 一部のチェックボックス（ユーザーをアクティブとしてマークするなど）は、切り替えまたはボタンに変更されています。
-* 環境設定の「自分に割り当てた作業を自分の「作業割り当て」タブに送信」オプションが、非推奨（廃止予定）の機能を参照するので削除されました。
+* 環境設定の「自分の作業割り当てタブに自分に割り当てた作業を送信」オプションは、目的を反映するために「タスクが自分で割り当てられた場合に、タスクのステータスを自動的に処理中に設定する」に名前が変更されました。
 
 詳しくは、[ユーザーのプロファイルの編集](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)を参照してください。
 

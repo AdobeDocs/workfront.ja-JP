@@ -6,9 +6,9 @@ description: ' [!DNL Adobe Workfront]  プロファイルには、自分に関�
 author: Lisa, Courtney
 feature: Get Started with Workfront
 exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
-source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '3317'
+source-wordcount: '3318'
 ht-degree: 94%
 
 ---
@@ -246,7 +246,7 @@ ht-degree: 94%
    <td> メールアドレスを更新します。必須フィールドです。メールアドレスは、[!DNL Workfront] のユーザー名となります。</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL パスワードの変更 &#x200B;]</strong></td> 
+   <td role="rowheader"><strong>[!UICONTROL パスワードの変更 ]</strong></td> 
    <td>このセクションでパスワードをリセットします。パスワードのリセットについて詳しくは、<a href="../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md" class="MCXref xref">パスワードのリセット</a>を参照してください。</td> 
   </tr> 
   <tr> 
@@ -313,7 +313,7 @@ ht-degree: 94%
         <td> </td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL プロファイル写真 &#x200B;]</strong></td>
+        <td><strong>[!UICONTROL プロファイル写真 ]</strong></td>
         <td>プロフィール写真はアバターになり、名前が表示されているすべての [!DNL Workfront] システムで表示されます。</td>
     </tr>
 </table>
@@ -342,7 +342,7 @@ ht-degree: 94%
    <td><p>ここで目的の言語を指定します。これは、送信メールメッセージで使用される言語、日付、数値の形式を制御します。</p>
    <p><strong> メモ：</strong> 組織がAdobe統合エクスペリエンスを使用している場合、言語環境設定はAdobe プロファイルに保存され、メールのロケールは使用されません。 詳しくは、「Adobe Experience Cloudでサポートされている言語 <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language"> の </a>Adobe Workfrontの言語を変更する <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md"> を参照してくだ </a> い。</p></td> 
   </tr>
-  <tr><td><strong>[!UICONTROL 自分に割り当てた作業を [ 作業割り当て ] タブに送信 &#x200B;]</strong> </td>
+  <tr><td><strong>[!UICONTROL タスクが自分で割り当てられると、タスクの状態を自動的に処理中 ] に設定する </strong> </td>
   <td>自分に割り当てた作業のステータスを、新規ではなく処理中に自動的に設定する場合は、このオプションを選択します。</td>
   </tr>
   <tr> 
@@ -352,14 +352,6 @@ ht-degree: 94%
   </tr> 
  </tbody> 
 </table>
-
-<!--
-  <tr><td><strong>[!UICONTROL Send work I assign to myself to my Working On tab]</strong> </td>
-  <td>Select this option if you want the status of work you assign to yourself to automatically be set to In Progress instead of New.</td>
-
-  <strong>[!UICONTROLAutomatically set the task status to In Progress when tasks are self-assigned]</strong>: When this option is selected, work that you assign to yourself is automatically set to In Progress status instead of New.
-  </tr>
--->
 
 ### [!UICONTROL 通知]
 
@@ -465,7 +457,7 @@ ht-degree: 94%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!UICONTROL アクティブ化解除日を設定 &#x200B;]</strong></td>
+   <td role="rowheader"><strong>[!UICONTROL アクティブ化解除日を設定 ]</strong></td>
    <td><p>アカウントを一定期間後に非アクティブ化するようにスケジュールする場合は、このボタンをクリックします。 表示される <strong>[!UICONTROL Scheduled Deactivation Date]</strong> で、アカウントが非アクティブ化されるまでの日付を指定します。 ユーザーの非アクティブ化について詳しくは、<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">ユーザーの非アクティブ化または再アクティブ化</a>の<a href="../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation" class="MCXref xref">ユーザーの非アクティブ化のスケジュール</a>を参照してください。</p><p>[!UICONTROL Standard] または [!UICONTROL Plan] ライセンスを持っているか、[!DNL Workfront] 管理者である場合は、自分のアカウントの無効フィールドを編集できます。</p></td> 
   </tr> 
   <tr> 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: de7432c66d9d71a4c1b0b4b6c43b306d0fae9fef
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '3425'
+source-wordcount: '3426'
 ht-degree: 69%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 69%
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
 >
->For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/jp/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
+>For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 -->
@@ -148,9 +148,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
   >
   >このオプションは、プレビューおよびサンドボックス環境でのみ使用できます。メール通知は、実稼動環境でデフォルトで有効になっています。
 
-<!--* **Automatically set the task status to In Progress when tasks are self-assigned**: When this option is selected, work that the user self-assigns is automatically set to In Progress status instead of New.-->
-
-* **自分に割り当てた作業を自分の「作業割り当て」タブに送信する**：このオプションを選択すると、ユーザーが自分に割り当てた作業は、新規ではなく、自動的に処理中ステータスに設定されます。<!--This setting refers to a deprecated feature that has been removed from Workfront.-->
+* **タスクが自分で割り当てられると、タスクのステータスを自動的に処理中に設定**：このオプションを選択すると、ユーザーが自分で割り当てた作業は、新規ではなく、自動的に処理中のステータスに設定されます。
 
 * **ドキュメントのアップロード中に自動的にプルーフを作成する**：ユーザーがアップロードしたドキュメントでプルーフをすぐに生成する場合は、このオプションをオンにします。
 

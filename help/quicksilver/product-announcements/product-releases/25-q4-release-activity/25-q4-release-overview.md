@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 298473d4-7d7d-4401-80bf-899a01f570a6
-source-git-commit: 3a976c2d2254ba92c0bd28d7037ea2ced09098d8
+source-git-commit: 4ec069376c398aa67ecfd6fad6973ad364f6a6a2
 workflow-type: tm+mt
-source-wordcount: '2204'
+source-wordcount: '2214'
 ht-degree: 15%
 
 ---
@@ -92,7 +92,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
             <p>現在のユーザープロファイルとは、次のような小さな機能上の違いがあります。</p>
             <ul>
                 <li>一部のチェックボックス（ユーザーをアクティブとしてマークするなど）は、切り替えまたはボタンに変更されています。</li>
-                <li>環境設定の「自分に割り当てた作業を自分の「作業割り当て」タブに送信」オプションが、非推奨（廃止予定）の機能を参照するので削除されました。</li>
+                <li>環境設定の「自分の作業割り当てタブに自分に割り当てた作業を送信」オプションは、目的を反映するために「タスクが自分で割り当てられた場合に、タスクのステータスを自動的に処理中に設定する」に名前が変更されました。</li>
             </ul>
         </td>
         <td>2025年8月28日（PT）</td>
@@ -456,7 +456,7 @@ Workfront Planning の新機能を実稼動環境で使用できます。 最新
 * SalesforceのWorkfront。
 
 Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
-Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 
 ### API バージョン 20
 
