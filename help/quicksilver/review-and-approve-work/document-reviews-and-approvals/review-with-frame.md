@@ -5,16 +5,14 @@ title: Frame.io ビューアでのレビューと承認
 description: Frame.io ビューアを使用してドキュメントをレビューおよび承認する方法について説明します。
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 601285fdbf26365dcaea14f990904d049816af21
+exl-id: 3190ad18-180e-42e5-aa10-bdad74303d3d
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 15%
+source-wordcount: '487'
+ht-degree: 1%
 
 ---
-
 
 # Frame.io ビューアでのレビューと承認
 
@@ -22,11 +20,12 @@ Frame.io ビューアを使用して、Workfrontでドキュメントをレビ�
 
 Frame.io ビューアを使用してWorkfront ドキュメントをレビューすると、コメントを残したり、ドキュメント、画像、ビデオの特定のセクションをマークアップしたりして、チームとの効率的な共同作業を行い、フィードバックが明確で実用的であることを確認できます。
 
-<!--For more information on the Frame.io integration with Workfront, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Workfrontとの Frame.io 統合について詳しくは、「[Frame.io 統合の概要 ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)」を参照してください。
 
-## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
+<!--## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -35,28 +34,28 @@ Frame.io ビューアを使用してWorkfront ドキュメントをレビュー�
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront パッケージ</td> 
-   <td> <p> 任意</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront ライセンス*</td> 
-   <td> <p>リクエスト以上</p>
-   <p>投稿者以上</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Request or higher</p>
+   <p>Contributor or higher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>ドキュメントへのアクセスを編集</p> <p>メモ：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">オブジェクト権限</td> 
-   <td> <p>ドキュメントに関連付けられたオブジェクトへの編集アクセス権</p> <p>追加のアクセス権のリクエストについて詳しくは、<a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md" class="MCXref xref">オブジェクトへの利用申請</a>を参照してください。</p> </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>Edit access to the object associated with the document</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-+++
++++ -->
 
 ## ドキュメントのレビュー
 
@@ -71,7 +70,7 @@ Workfrontのホームページに移動して、「自分の承認」ウィジ�
    >のホームページに自分の承認ウィジェットを追加する必要がある場合があります。 詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
 1. Frame.io では、コメント ツールを使用して、フィードバックを残したり質問したりします。
-コメントとアセットのマークアップは、Frame.io ビューアでのみ表示されます。 Frame.io ビューアの使用について詳しくは、[ メディアへのコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
+コメントとアセットのマークアップは、Frame.io ビューアでのみ表示されます。 コメントがWorkfrontに表示されません。 Frame.io ビューアの使用について詳しくは、[ メディアへのコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
 1. ドキュメントの設定が完了したら、Workfrontのドキュメントの詳細ページに戻って、レビューを完了としてマークします。
 
    ![ レビュー完了のマーク ](assets/mark-review-complete.png)
@@ -93,8 +92,7 @@ Workfrontのホームページに移動して、「自分の承認」ウィジ�
    >のホームページに自分の承認ウィジェットを追加する必要がある場合があります。 詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
 
-1. Frame.io では、コメント ツールを使用して、フィードバックを残したり質問したりします。
-コメントとアセットのマークアップは Frame.io ビューアでのみ表示されます。 Frame.io ビューアの使用について詳しくは、[ メディアへのコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
+1. Frame.io では、コメント ツールを使用して、フィードバックを残したり質問したりします。 コメントとアセットのマークアップは Frame.io ビューアでのみ表示されます。 Frame.io ビューアの使用について詳しくは、[ メディアへのコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
 1. ドキュメントの設定が完了したら、Frame.io ビューアで次のいずれかの決定を選択できます。
 
    * **承認**：アセットは変更する必要がなく、使用できる状態になっています。
@@ -109,4 +107,3 @@ Workfrontのホームページに移動して、「自分の承認」ウィジ�
 
 
 <!--is document owner the correct term?-->
-

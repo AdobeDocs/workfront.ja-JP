@@ -5,16 +5,14 @@ title: Adobe エンタープライズストレージの概要
 description: Adobe エンタープライズストレージの概要
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: true
-hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: d24773df7eede3140eeecdea7f1c33b8466e887a
+exl-id: 16c564a9-abd7-4b07-be3e-9c823f40177d
+source-git-commit: e908d0ffd1a3397dead5909942b2b0bedb91ae1c
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
-
 
 # Adobe エンタープライズストレージの概要
 
@@ -40,4 +38,4 @@ Adobe エンタープライズストレージは、Adobe エンタープライ�
 
 Workfrontと Frame.io の統合では、Adobe エンタープライズストレージを活用して、統一されたレビューおよび承認エクスペリエンスを提供します。 この統合により、プロジェクトコーディネーターはWorkfrontでプロジェクトを管理して作業を計画できますが、クリエイティブ、マーケター、関係者は Frame.io でアセットをレビューして承認できます。 これにより、すべての関係者がアセットの最新バージョンにアクセスでき、フィードバックが 1 か所で一元化されます。
 
-<!--For more information about the Workfront and Frame.io integration, see [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md).-->
+Workfrontと Frame.io の統合について詳しくは、「[Frame.io 統合の概要 ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)」を参照してください。

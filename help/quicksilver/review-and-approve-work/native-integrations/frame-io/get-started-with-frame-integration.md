@@ -6,12 +6,10 @@ description: Frame.io 統合の概要。
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 19003988a8e164db225f8511f567d38e6eeaf627
+source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '784'
 ht-degree: 3%
 
 ---
@@ -41,8 +39,8 @@ Adobe エンタープライズストレージまたは Frame.io のプロジェ�
 
 プロジェクトのセットアップの詳細については、を参照してください。
 
-* [プロジェクトの作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
-  <!--* [Frame.io integration overview](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)-->
+* [プロジェクトを作成](/help/quicksilver/manage-work/projects/create-projects/create-project.md)
+* [Frame.io 統合の概要](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)
 
 ### Workfrontでの正式なレビューと承認の開始
 
@@ -72,7 +70,7 @@ Adobe エンタープライズストレージまたは Frame.io のプロジェ�
 
 Workfrontでレビューと承認のワークフローが開始されると、レビュー担当者と承認者は Frame.io ビューアにアクセスして、コメントを追加し、アセットをマークアップして、決定を下すことができます。
 
-<!--For more information, see [Review and approve with the Frame.io viewer](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md).-->
+詳しくは、[Frame.io ビューアを使用した確認と承認 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md) を参照してください。
 
 #### Frame.io ビューアへのアクセス
 
@@ -83,7 +81,7 @@ Workfrontでレビューと承認のワークフローが開始されると、�
 
 >[!NOTE]
 >
->Workfrontの社外ユーザーにはメールで通知され、アセットをレビューおよび承認するために Frame.io ログインを作成するよう求められます。<!--is this still accurate?-->
+>Workfrontの社外ユーザーにはメールで通知され、アセットをレビューおよび承認するために Frame.io ログインを作成するよう求められます。
 
 ![ ホームからフレームビューアを開く ](assets/open-fio-viewwer.png)
 
