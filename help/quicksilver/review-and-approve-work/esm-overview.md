@@ -38,4 +38,4 @@ Adobe エンタープライズストレージは、Adobe エンタープライ�
 
 Workfrontと Frame.io の統合では、Adobe エンタープライズストレージを活用して、統一されたレビューおよび承認エクスペリエンスを提供します。 この統合により、プロジェクトコーディネーターはWorkfrontでプロジェクトを管理して作業を計画できますが、クリエイティブ、マーケター、関係者は Frame.io でアセットをレビューして承認できます。 これにより、すべての関係者がアセットの最新バージョンにアクセスでき、フィードバックが 1 か所で一元化されます。
 
-Workfrontと Frame.io の統合について詳しくは、「[Frame.io 統合の概要 ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)」を参照してください。
+Workfrontと Frame.io の統合について詳しくは、「[Frame.io 統合の概要 &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)」を参照してください。
