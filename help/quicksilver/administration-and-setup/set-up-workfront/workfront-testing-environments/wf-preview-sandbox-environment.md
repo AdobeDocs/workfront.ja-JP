@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: d585b698b6c7900d861a30dc6b5e0bff6bd6d13a
+source-git-commit: 8df1889997937b2a4238862eb2f86aeda84ed104
 workflow-type: tm+mt
-source-wordcount: '1302'
-ht-degree: 93%
+source-wordcount: '1310'
+ht-degree: 92%
 
 ---
 
@@ -191,3 +191,5 @@ Workfront管理者は、Workfrontがプロジェクトのタイムラインを�
 * 通常の営業時間中の [!DNL Workfront] プレビュー環境の停止への対応は、実稼働環境の問題（存在する場合）の解決に続く最優先事項となります。
 
 * 週末（土曜日と日曜日）に [!DNL Workfront] プレビュー環境が停止した場合は、月曜日の営業時間までに復旧できるよう対処されます。
+
+* プレビュー環境ではプルーフを使用できません。
