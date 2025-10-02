@@ -7,18 +7,18 @@ description: 承認された休暇がいつ発生するかを Adobe Workfront �
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: e0f6078cfab1b325302dbda8a656d2a65ee0b95c
+source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
 workflow-type: tm+mt
-source-wordcount: '444'
-ht-degree: 90%
+source-wordcount: '476'
+ht-degree: 87%
 
 ---
 
 # 個人の休暇の設定
 
-{{highlighted-preview}}
-
 <!-- Audited: 12/2023 -->
+
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。これはプレビューサンドボックス環境でのみ使用でき、実稼動環境への段階的なロールアウトでリリースされています。</span>
 
 [!DNL Adobe Workfront] は、個人の休暇を管理、累積または追跡するために、組織の既存システムを複製または置き換えるようには設計されていません。
 

@@ -5,7 +5,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
-source-git-commit: 7db80f5bacf52b7bbe540f4e38e88853af86a5e2
+source-git-commit: 7cb1eed72b0f5ce4abd83013b7a2f224dbb2c229
 workflow-type: tm+mt
 source-wordcount: '761'
 ht-degree: 45%
@@ -136,7 +136,7 @@ Workfront で提供されるデフォルトの優先度に加えて、組織の�
      </div>
 
    * **説明**：優先度の機能を説明する説明を入力します。
-   * <span class="preview">**選択肢を非表示**</span> または **非表示**: <span class="preview"> 選択 **はい**</span> を選択するか、チェックボックスをオンにして、不要になった優先度を非表示にします。
+   * <span class="preview">**選択肢を非表示**</span> または **非表示**: <span class="preview"> 選択 **はい**</span> またはチェックボックスをオンにして、不要になった優先度を非表示にします。
 
      非表示の優先度は、Workfrontのどこにも表示されないので、ユーザーはプロジェクト、タスク、イシューに対して選択できません。
 

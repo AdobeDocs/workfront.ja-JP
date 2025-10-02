@@ -3,10 +3,10 @@ product-area: user-management
 navigation-topic: configure-your-user-profile
 title: カスタムセクションの作成
 description: ' [!DNL Workfront]  web アプリケーションで確認できる情報は、多くの場合、デフォルトでは左側のパネルのセクションに表示されます。各セクションには、 [!DNL Workfront]  のエリアまたはオブジェクトに関する様々な情報が含まれています。'
-author: Courtney
+author: Becky
 feature: Get Started with Workfront
 exl-id: 68f4b83b-a8b4-4304-930f-62551cb06a92
-source-git-commit: ac34076ddc0b5815c262a61326534a1241c17a4c
+source-git-commit: ccaf637601c53e5d92dd3357fb07e84b5fd69166
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 99%
@@ -37,7 +37,7 @@ ht-degree: 99%
 | [!UICONTROL イシュー] | ✓ | ✓ |
 | [!UICONTROL ユーザー] | ✓ | ✓ |
 | [!UICONTROL ドキュメント] | ✓ | ✓ |
-| [!UICONTROL &#x200B; リソース &#x200B;] 領域 | ✓ | ✓ |
+| [!UICONTROL  リソース ] 領域 | ✓ | ✓ |
 
 {style="table-layout:auto"}
 
@@ -96,7 +96,7 @@ ht-degree: 99%
 
 ## オブジェクトの左側のパネルでのダッシュボードの表示
 
-オブジェクトの下にダッシュボードを追加する方法について詳しくは、この記事の [[!UICONTROL Workfront オブジェクトまたはエリアの左側のパネルへのダッシュボード &#x200B;] の追加](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)の節を参照してください。
+オブジェクトの下にダッシュボードを追加する方法について詳しくは、この記事の [[!UICONTROL Workfront オブジェクトまたはエリアの左側のパネルへのダッシュボード ] の追加](#add-a-dashboard-in-the-left-panel-of-a-workfront-object-or-area)の節を参照してください。
 
 オブジェクトの下のカスタムセクションにダッシュボードを追加する場合、そのオブジェクトはダッシュボードのフィルターとして機能します。例えば、タスクレポートをダッシュボードに追加し、そのダッシュボードをプロジェクトに追加する場合、プロジェクト上のダッシュボードを含むカスタムセクションには、表示中のプロジェクトのタスクのみが表示されます。
 
