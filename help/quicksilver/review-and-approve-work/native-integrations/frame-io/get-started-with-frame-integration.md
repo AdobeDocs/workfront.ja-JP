@@ -7,10 +7,10 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b9a83bc2-4dd8-4c77-a2e7-385baa809b3b
-source-git-commit: 9825f095a7be7debb5150ca4bd50f7cf6fd12295
+source-git-commit: a3edfadc447a763c638cc926b386272890697f81
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 3%
+source-wordcount: '805'
+ht-degree: 2%
 
 ---
 
@@ -18,7 +18,19 @@ ht-degree: 3%
 
 Workfrontと Frame.io の統合により、クリエイティブ、マーケター、利害関係者がシームレスなワークフローに関連付けられます。 リアルタイムの更新にアクセスし、重複した作業を回避し、ローンチ前にアセットが承認されていることを確認します。
 
-Frame.io について詳しくは、[Frame.io の概要 &#x200B;](https://support.frame.io/en/collections/49298-getting-started) を参照してください。
+Frame.io について詳しくは、[Frame.io の概要 ](https://support.frame.io/en/collections/49298-getting-started) を参照してください。
+
+Workfront インスタンスでWorkfrontと Frame.io の統合を設定する必要があります。 詳しくは、[Frame.io 統合の概要 ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements) を参照してください。
+
+<!--## Integration requirements
+
+* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+
+* Users can belong to only one Workfront instance within the IMS organization.
+
+* The Workfront instance must be enabled on the Adobe Unified Experience.
+
+* The integration is configured by Adobe Professional Services. -->
 
 ## Workfrontでの作業の開始と計画
 
@@ -28,7 +40,7 @@ Frame.io について詳しくは、[Frame.io の概要 &#x200B;](https://suppor
 
 Adobe エンタープライズストレージまたは Frame.io のプロジェクトについて詳しくは、以下を参照してください。
 
-* [Workspaceの概要：プロジェクト &#x200B;](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
+* [Workspaceの概要：プロジェクト ](https://help.frame.io/en/articles/9101001-workspace-overview#h_d9f8654895)
 * [Adobe エンタープライズストレージの概要](/help/quicksilver/review-and-approve-work/esm-overview.md)
 
 ## アセットのレビューと承認
@@ -64,13 +76,13 @@ Adobe エンタープライズストレージまたは Frame.io のプロジェ�
   詳しくは、[承認テンプレートの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)を参照してください。
 
 
-  ![&#x200B; テンプレートを割り当て &#x200B;](assets/assign-template.png)
+  ![ テンプレートを割り当て ](assets/assign-template.png)
 
 ### Frame.io ビューアでのアセットの確認と承認
 
 Workfrontでレビューと承認のワークフローが開始されると、レビュー担当者と承認者は Frame.io ビューアにアクセスして、コメントを追加し、アセットをマークアップして、決定を下すことができます。
 
-詳しくは、[Frame.io ビューアを使用した確認と承認 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md) を参照してください。
+詳しくは、[Frame.io ビューアを使用した確認と承認 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-with-frame.md) を参照してください。
 
 #### Frame.io ビューアへのアクセス
 
@@ -83,11 +95,11 @@ Workfrontでレビューと承認のワークフローが開始されると、�
 >
 >Workfrontの社外ユーザーにはメールで通知され、アセットをレビューおよび承認するために Frame.io ログインを作成するよう求められます。
 
-![&#x200B; ホームからフレームビューアを開く &#x200B;](assets/open-fio-viewwer.png)
+![ ホームからフレームビューアを開く ](assets/open-fio-viewwer.png)
 
 #### コメントの追加とアセットのマークアップ
 
-コメントとアセットのマークアップが Frame.io ビューアに表示されます。 Frame.io ビューアの使用について詳しくは、[&#x200B; メディアへのコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
+コメントとアセットのマークアップが Frame.io ビューアに表示されます。 Frame.io ビューアの使用について詳しくは、[ メディアへのコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
 
 #### 決定を下す
 
@@ -98,15 +110,15 @@ Workfrontでレビューと承認のワークフローが開始されると、�
 
 レビュー担当者は、Workfront内でレビューを完了とマークできますが、アセットが承認プロセスを進めるためにレビューを完了する必要はありません。
 
-Workfrontの決定について詳しくは、[&#x200B; 決定ステータスの概要のドキュメント &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md) を参照してください。
+Workfrontの決定について詳しくは、[ 決定ステータスの概要のドキュメント ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md) を参照してください。
 
-![&#x200B; フレームビューアと決定 &#x200B;](assets/decision-fio.png)
+![ フレームビューアと決定 ](assets/decision-fio.png)
 
 
 ### レビューおよび承認指標の追跡
 
 プロジェクトコーディネーターは、Workfrontのホームエリアまたはキャンバスダッシュボードのカスタマイズされたレポートで、進行中のすべての承認の進行状況を監視できます。
 
-* **カスタムダッシュボード**：キャンバスダッシュボード領域でレポートダッシュボードを作成して、統合された承認機能を使用したレビューと承認に関する情報の概要と詳細情報の両方を表示します。 開始方法について詳しくは、[&#x200B; レビューおよび承認用のレポートダッシュボードの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
+* **カスタムダッシュボード**：キャンバスダッシュボード領域でレポートダッシュボードを作成して、統合された承認機能を使用したレビューと承認に関する情報の概要と詳細情報の両方を表示します。 開始方法について詳しくは、[ レビューおよび承認用のレポートダッシュボードの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
 * **ドキュメント承認指標のホームウィジェット**：平均承認時間と決定に関する情報を含む 2 つのグラフと、保留中および期限切れの承認のリストビューを表示します。
   ![すべての承認](assets/all-approvals.png)
