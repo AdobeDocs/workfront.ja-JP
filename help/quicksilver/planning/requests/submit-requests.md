@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: b24b1e481bbe726aaf9810124fcf55bdac866cb0
+source-git-commit: 3942ba8d626a854344624bc5b7ea3ad01e8ad7fb
 workflow-type: tm+mt
-source-wordcount: '2047'
+source-wordcount: '2075'
 ht-degree: 5%
 
 ---
@@ -251,7 +251,14 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
 
    ![ リクエストの詳細ページ ](assets/request-details-page.png)
 
+   <div class="preview">
+      プレビュー：
 
+   ![ コメント付きのリクエストページ ](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview"> （オプション）「コメント」領域にコメントを入力します。
 1. （条件付き）リクエストフォームが承認と関連付けられていない場合、またはリクエストが承認されている場合は、リクエストの名前をクリックし、「**レコード**」フィールドのレコードの名前をクリックします。
 
    Workfront Planning でレコードのページが開きます。
@@ -315,6 +322,14 @@ Planning 要求フォームに送信された表示アクセス権を持つす�
 
    ![ リクエストの詳細ページ ](assets/request-details-page.png)
 
+   <div class="preview">
+   プレビュー：
+
+   ![ コメント付きのリクエストページ ](assets/new-request-page-with-comment.png)
+
+   </div>
+
+1. <span class="preview"> （オプション）「コメント」領域にコメントを入力します。
 1. （条件付き）リクエストフォームが承認と関連付けられていない場合、またはリクエストが承認されている場合は、リクエストの名前をクリックし、「**レコード**」フィールドのレコードの名前をクリックします。
 
    Workfront Planning でレコードのページが開きます。
