@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: a92c85ad5f58700138d7750423cc3d134d980a9e
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1971'
 ht-degree: 17%
 
 ---
@@ -16,9 +16,11 @@ ht-degree: 17%
 
 # ビューを共有
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--take out preview and production references at production-->
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
+
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -38,7 +40,7 @@ This article describes how you can share a view with others. For information abo
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <!--at GA, check that the Workfront plans article linked below has Planning info-->
 
@@ -141,9 +143,13 @@ This article describes how you can share a view with others. For information abo
 
    レコードタイプページが開きます。
 
-1. 「表示」タブで、次のいずれかの操作を行います。
+1. ビューのタブで、次のいずれかの操作を行います。
 
-   * 共有するビューのタブ名にポインタを合わせて、ビュー名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、「**共有**」をクリックします。
+   * ビューにアクセスする環境に応じて、次の操作を行います。
+
+      * 実稼動環境では、共有するビューのタブ名にポインタを合わせて、ビュー名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**共有** をクリックします。
+
+      * <span class="preview"> プレビュー環境で、ビューのタブをクリックし、ドロップダウンメニューのビューにカーソルを置いて **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、**共有** をクリックします。</span>
 
      ![ ビューの詳細メニュー ](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -258,7 +264,7 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 
 1. ビューのタブで、次のいずれかの操作を行います。
 
-   * 共有するビューのタブの上にマウスポインターを置き、ビュー名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、「ビューを共有 **ボックスの** 共有 **/** リンクをコピー **&#x200B;**&#x200B;をクリックします。
+   * 共有するビューのタブの上にマウスポインターを置き、ビュー名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックして、「ビューを共有 **ボックスの** 共有 **/** リンクをコピー **** をクリックします。
    * レコードタイプページで **共有**/**ビューリンクをコピー** をクリックします。
 
    ビューへのリンクがクリップボードにコピーされ、画面の下部に確認が表示されます。
@@ -272,10 +278,8 @@ Workfront Planning でビューをパブリックに共有するには、次の�
 1. （条件付き）ビューの管理者は、次の領域で別のユーザーからビューにアクセスするリクエストを受け取る場合があります。
 
    * アプリ内通知
-
      ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
    * メール通知
-
      ![ 表示のアクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request-for-view.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または

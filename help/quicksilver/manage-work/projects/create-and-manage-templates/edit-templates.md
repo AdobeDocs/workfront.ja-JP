@@ -6,9 +6,9 @@ description: プロジェクトテンプレートを編集して、今後のプ�
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 221113266624a94fbecd04af46a5c602a4d33334
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '5658'
+source-wordcount: '5655'
 ht-degree: 88%
 
 ---
@@ -652,8 +652,6 @@ Editing templates in bulk differs depending on which environment you are using.
 
 *****************and hide the first line below************ -->
 
-テンプレートを一括編集するには、以下のように行います。
-
 {{step1-to-templates}}
 
 1. リスト内の複数のテンプレートを選択します。
@@ -671,12 +669,11 @@ Editing templates in bulk differs depending on which environment you are using.
 
    * 概要
    * 財務
-   * ポートフォリオ
-   * 設定
-   * アクセス
    * カスタムフォーム
-   * タスク
-   * イシュー
+   * テンプレート設定
+   * タスク設定
+   * イシュー設定
+   * アクセス
    * コメント
 
 1. 「**保存**」をクリックします。

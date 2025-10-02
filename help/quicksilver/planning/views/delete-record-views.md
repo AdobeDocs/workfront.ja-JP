@@ -6,18 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: f86971bc-e807-459e-9fa8-dc34967bc069
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: fbf902196c9f5b55ddd1e20516e4237309dff2ed
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 27%
+source-wordcount: '422'
+ht-degree: 26%
 
 ---
 
 # レコードビューを削除
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 
 {{planning-important-intro}}
@@ -104,18 +104,20 @@ Adobe Workfront Planning で使用しなくなったレコードビューを削�
 
    デフォルトでは、選択したタイプのすべてのレコードがテーブルビューに表示されます。
 
-1. ビュータブ内のビュー名の 1 つにポインタを合わせ、ビュー名の左側にある **その他**![ その他メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックします。
 
-   ![ レコード ビューで詳細メニューを表示 ](assets/view-more-menu-with-duplicate-option.png)
+1. ビューのタブで、次のいずれかの操作を行います。
 
-   >[!TIP]
-   >
-   >最後のタブの右側にある **その他** をクリックして、削除するビューを見つける必要がある場合があります。
+   * ビューにアクセスする環境に応じて、次の操作を行います。
 
-   <!--at preview release, replace the step above with this one: 
-    1. Depending on which environment you use, do the following: 
-    * In the Production environment, hover over one the of the view's names in the view tab, then click **More** ![More menu](assets/more-menu.png) to the left of the view name, then click **Delete**. 
-    * <span class="preview">In the Preview environment, click the dropdown icon ![Dropdown icon](assets/drop-down-icon.png) next to the current view name, hover over the name of a view, click **More**, then **Delete**.</span>-->
+      * 実稼動環境で、共有するビューのタブ名にポインタを合わせ、ビュー名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックします。
+
+     >[!TIP]
+     >
+     >最後のタブの右側にある **その他** をクリックして、削除するビューを見つける必要がある場合があります。
+
+      * <span class="preview"> プレビュー環境で、ビューのタブをクリックし、ドロップダウンメニューのビューにカーソルを置いて **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、**削除** をクリックします。</span>
+
+     ![ オプション付きのその他メニュー ](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. 「**削除**」をクリックして確定します。 <!--ensure there is not another saving step here?!-->
 
