@@ -33,9 +33,9 @@ recommendations: noDisplay, noCatalog
 
 詳細設定を定義する際に、レコードタイプを作成または編集する際に一元的として指定できます。
 
-詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 
-一元化されたレコードタイプからワークスペースにレコードを追加する前に、[ ワークスペース間のレコードタイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
+一元化されたレコードタイプからワークスペースにレコードを追加する前に、[&#x200B; ワークスペース間のレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
 
 
 ## アクセス要件
@@ -80,15 +80,15 @@ And
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
 ## 既存のレコードタイプからレコードタイプを作成する
 
-1. [ レコードタイプの作成 ](/help/quicksilver/planning/architecture/create-record-types.md) の説明に従ってレコードタイプの作成を開始し、「**既存を追加**」をクリックします。<!--check this - the option might have been renamed in the UI-->
+1. [&#x200B; レコードタイプの作成 &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) の説明に従ってレコードタイプの作成を開始し、「**既存を追加**」をクリックします。<!--check this - the option might have been renamed in the UI-->
 
-   ![ 別のワークスペースから追加するオプションを使用してレコードタイプを追加するモーダル ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![&#x200B; 別のワークスペースから追加するオプションを使用してレコードタイプを追加するモーダル &#x200B;](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
 1. 「**続行**」をクリックします。
 1. **レコードタイプを選択** ボックスで、既存のワークスペースから追加するレコードタイプのカードをクリックし、**追加** をクリックします。
@@ -106,7 +106,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
       * すべての元のフィールド
       * すべてのレコード接続
    * 同じ一元化されたレコード タイプを使用する他のワークスペースから追加されたレコードを表示できるのは、それらのワークスペースに対して少なくとも表示権限を持っている場合のみです。
-   * **一元的レコードタイプ** アイコン ![ 一元的レコードタイプアイコン ](assets/global-icon.png) が、新しいレコードタイプのカードに追加されます。
+   * **一元的レコードタイプ** アイコン ![&#x200B; 一元的レコードタイプアイコン &#x200B;](assets/global-icon.png) が、新しいレコードタイプのカードに追加されます。
    * 読み取り専用 **Workspace** フィールドが新規レコードタイプのテーブルビューに追加されます。 フィールドには、各レコードが作成されたワークスペースが表示されます。
 
      >[!NOTE]
@@ -125,7 +125,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. セカンダリワークスペースで一元化されたレコードタイプに移動します。
 
-1. （オプション）レコードタイプのカードまたはページ上のレコードタイプの名前の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、**削除** をクリックします。
+1. （オプション）レコードタイプのカードまたはページ上のレコードタイプの名前の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、**削除** をクリックします。
 1. （条件付き）表示されたフィールドに **削除** と入力し、「**完全に削除**」をクリックします。
 
    次のことが発生します。

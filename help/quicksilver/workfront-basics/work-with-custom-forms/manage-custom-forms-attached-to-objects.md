@@ -50,7 +50,7 @@ ht-degree: 89%
 
 ## 前提条件
 
-* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+* Workfront 管理者またはカスタムフォームへの管理者アクセス権を持つプランユーザーは、環境内でカスタムフォームを作成する必要があります。詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 * オブジェクトには、カスタムフォームを添付する必要があります。
 
   カスタムフォームをオブジェクトに追加する方法についての情報は、[オブジェクトにカスタムフォームを追加](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
@@ -77,7 +77,7 @@ ht-degree: 89%
 
    例えば、プロジェクトに移動する場合は、「**プロジェクトの詳細**」セクションをクリックします。
 
-1. オブジェクトのページの右上隅にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてから、「**すべて編集** をクリックします。
+1. オブジェクトのページの右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてから、「**すべて編集** をクリックします。
 1. カスタムフォーム名の右側 **ある** 削除 ![](assets/delete-icon.png) アイコンをクリックし、「**削除**」をクリックして確定してオブジェクトからフォームを削除するか、「**キャンセル**」をクリックして削除を防ぎます。
 1. 「**変更を保存**」をクリックします。
 
@@ -89,7 +89,7 @@ ht-degree: 89%
 
   同じオブジェクトに添付された異なるフォーム上の同じフィールドに異なる値を設定することはできません。
 
-* 2 つの異なるオブジェクトに同じ計算フィールドがある場合、エラーを避けるためにそれらの計算が同一である必要があります。複数のフォームを含むカスタムフォームに計算フィールドを追加する方法については、[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+* 2 つの異なるオブジェクトに同じ計算フィールドがある場合、エラーを避けるためにそれらの計算が同一である必要があります。複数のフォームを含むカスタムフォームに計算フィールドを追加する方法については、[&#x200B; フォームに計算フィールドを追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 ## オブジェクトを一括編集するときに複数のカスタムフォームを管理
 

@@ -35,7 +35,7 @@ Adobe Workfront Planning では、複数のワークスペースでレコード�
 
 * レコードタイプは、接続可能として指定できます。 ユーザーは、他のワークスペースからこのレコードタイプに接続できます。
 
-この記事では、クロスワークスペースのレコードタイプの概要を説明します。 レコードタイプのクロスワークスペース機能の定義について詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+この記事では、クロスワークスペースのレコードタイプの概要を説明します。 レコードタイプのクロスワークスペース機能の定義について詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 
 
 ## 一元化されたレコードタイプの概要
@@ -56,7 +56,7 @@ Adobe Workfront Planning では、複数のワークスペースでレコード�
 
    元のレコードタイプは元のワークスペースに存在しますが、他のワークスペースで表示できるようになります。
 
-   詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+   詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 1. 一元的なレコードタイプとして設定された既存のワークスペースからセカンダリワークスペースにレコードタイプを追加します。
 
    レコードタイプは、次のワークスペースに存在します。
@@ -64,7 +64,7 @@ Adobe Workfront Planning では、複数のワークスペースでレコード�
    * 一元化されたレコードタイプとして指定された元のワークスペース。
    * セカンダリワークスペース。
 
-   詳しくは、[ 別のワークスペースから既存のレコードタイプを追加する ](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) を参照してください。
+   詳しくは、[&#x200B; 別のワークスペースから既存のレコードタイプを追加する &#x200B;](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md) を参照してください。
 
    次のセクションでは、一元化されたレコードタイプに関する考慮事項と、元のワークスペースまたはセカンダリワークスペースでそれらがどう機能するかについて説明します。
 
@@ -159,7 +159,7 @@ Workfront Planning API を使用してセカンダリワークスペースから
 
    元のレコードタイプは元のワークスペースに存在し、接続されたレコードタイプとして別のワークスペースに追加されます。
 
-   詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+   詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 1. 管理対象の別のワークスペースから接続可能として指定されたレコードタイプに接続します。
 
    詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
