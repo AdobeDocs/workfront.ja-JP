@@ -20,7 +20,7 @@ Frame.io ビューアを使用して、Workfrontでドキュメントをレビ�
 
 Frame.io ビューアを使用してWorkfront ドキュメントをレビューすると、コメントを残したり、ドキュメント、画像、ビデオの特定のセクションをマークアップしたりして、チームとの効率的な共同作業を行い、フィードバックが明確で実用的であることを確認できます。
 
-Workfrontとの Frame.io 統合について詳しくは、「[Frame.io 統合の概要 ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)」を参照してください。
+Workfrontとの Frame.io 統合について詳しくは、「[Frame.io 統合の概要 &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md)」を参照してください。
 
 
 <!--## Access requirements
@@ -59,7 +59,7 @@ For information, see [Access requirements in Workfront documentation](/help/quic
 
 ## 前提条件
 
-* Workfront インスタンスでWorkfrontと Frame.io の統合を設定する必要があります。 詳しくは、[Frame.io 統合の概要 ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements) を参照してください。
+* Workfront インスタンスでWorkfrontと Frame.io の統合を設定する必要があります。 詳しくは、[Frame.io 統合の概要 &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/frame-int-overview.md#integration-requirements) を参照してください。
 
 ## ドキュメントのレビュー
 
@@ -71,13 +71,13 @@ Workfrontのホームページに移動して、「自分の承認」ウィジ�
 
    >[!NOTE]
    > 
-   >のホームページに自分の承認ウィジェットを追加する必要がある場合があります。 詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
+   >のホームページに自分の承認ウィジェットを追加する必要がある場合があります。 詳しくは、[&#x200B; ホームでのウィジェットの追加、編集、削除 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
 1. Frame.io では、コメント ツールを使用して、フィードバックを残したり質問したりします。
-コメントとアセットのマークアップは、Frame.io ビューアでのみ表示されます。 コメントがWorkfrontに表示されません。 Frame.io ビューアの使用について詳しくは、[ メディアへのコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
+コメントとアセットのマークアップは、Frame.io ビューアでのみ表示されます。 コメントがWorkfrontに表示されません。 Frame.io ビューアの使用について詳しくは、[&#x200B; メディアへのコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
 1. ドキュメントの設定が完了したら、Workfrontのドキュメントの詳細ページに戻って、レビューを完了としてマークします。
 
-   ![ レビュー完了のマーク ](assets/mark-review-complete.png)
+   ![&#x200B; レビュー完了のマーク &#x200B;](assets/mark-review-complete.png)
 
 ## ドキュメントを承認
 
@@ -93,20 +93,20 @@ Workfrontのホームページに移動して、「自分の承認」ウィジ�
 
    >[!NOTE]
    > 
-   >のホームページに自分の承認ウィジェットを追加する必要がある場合があります。 詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
+   >のホームページに自分の承認ウィジェットを追加する必要がある場合があります。 詳しくは、[&#x200B; ホームでのウィジェットの追加、編集、削除 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
 
-1. Frame.io では、コメント ツールを使用して、フィードバックを残したり質問したりします。 コメントとアセットのマークアップは Frame.io ビューアでのみ表示されます。 Frame.io ビューアの使用について詳しくは、[ メディアへのコメント ](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
+1. Frame.io では、コメント ツールを使用して、フィードバックを残したり質問したりします。 コメントとアセットのマークアップは Frame.io ビューアでのみ表示されます。 Frame.io ビューアの使用について詳しくは、[&#x200B; メディアへのコメント &#x200B;](https://help.frame.io/en/articles/9105251-commenting-on-your-media) を参照してください。
 1. ドキュメントの設定が完了したら、Frame.io ビューアで次のいずれかの決定を選択できます。
 
    * **承認**：アセットは変更する必要がなく、使用できる状態になっています。
-   * **作業が必要**：アセットに変更が必要ですが、使用する準備ができていません。 指定した変更を行ったら、アセットを新しいバージョンとしてアップロードし、別の承認を行う必要があります。 詳しくは、[ 新しいドキュメントバージョンをアップロードし、承認をリクエストする ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md) を参照してください。<!--do they need to tell someone it was uploaded via comment tagging?-->
+   * **作業が必要**：アセットに変更が必要ですが、使用する準備ができていません。 指定した変更を行ったら、アセットを新しいバージョンとしてアップロードし、別の承認を行う必要があります。 詳しくは、[&#x200B; 新しいドキュメントバージョンをアップロードし、承認をリクエストする &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md) を参照してください。<!--do they need to tell someone it was uploaded via comment tagging?-->
 
    決定を行うと、ドキュメント所有者にメールで通知されます。
 
-   Workfrontの決定について詳しくは、[ 決定ステータスの概要のドキュメント ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md) を参照してください。
+   Workfrontの決定について詳しくは、[&#x200B; 決定ステータスの概要のドキュメント &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md) を参照してください。
 
-   ![ フレームビューアと決定 ](assets/make-decision-frame.png)
+   ![&#x200B; フレームビューアと決定 &#x200B;](assets/make-decision-frame.png)
 
 
 
