@@ -7,10 +7,10 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 4e1761f9-bf73-4355-925a-9136f2787a3f
-source-git-commit: 4146dd1d11b54155ad5510625c761d66dd649245
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '2235'
-ht-degree: 8%
+source-wordcount: '2508'
+ht-degree: 7%
 
 ---
 
@@ -22,15 +22,110 @@ ht-degree: 8%
 
 Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
-## レコードの接続済みレコードページでのWorkfront接続のインライン編集
+<!--## Centralized record types
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+When implementing Workfront Planning for a multi-team organization with common workflows, you might need to define a cohesive structure and metadata for key record types (like Campaigns or Deliverables) that can be added to each team's workspaces to capture and manage their work.  
+
+ Also, you might need each team's work to roll up to a central level.  
+
+ In such a workflow, you can ensure that teams capture their work consistently while unlocking cross-team visibility, without the need to add everything to one workspace, or everyone in the organization to every workspace. You can use centralized record types to achieve this. 
+
+You can now enable record types to be centralized and use them across multiple workspaces. Users can use the same field structure and connections that are already configured in a central workspace.  
+
+For more information, see the following articles:  
+
+* [Cross-workspace record type overview](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) 
+
+* [Configure record type cross-workspace capabilities](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) 
+
+* [Add existing record types from another workspace](help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md)
+
+## New limit for connection fields for one record type
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+We have introduced a limit of 30 connection fields for each record type.  
+
+If your organization currently has more than 30 connection fields for one record type, the additional connections will be inherited going forward. However, you cannot add more connection fields. For new record types, the new limit of 30 connection fields will be enforced.  
+
+For more information, see [Connected Record Types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+
+## Workfront Planning のリクエストフォームの機能強化
+
+>[!NOTE]
+>
+>プレビュー：2025 年 10 月 2 日（PT）
+>>実稼動高速リリース：2025 年 10 月 15 日（PT）
+>>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
+
+リクエストプロセスを簡素化するために、リクエストフォームにいくつかの機能強化を加えました。 これで、リクエストフォームを設定する際に、次の設定を行うことができます。
+
+* リクエストに複数の承認者がいる場合に、決定を 1 つのみ許可するオプションを有効にします。
+* フォームから作成されたリクエストが自動的に完了とマークされるタイミングを設定します。 リクエストされたオブジェクトが作成されたとき、またはリクエストされたオブジェクトが指定した条件に基づいて完了したときに、リクエストを完了とマークするように設定できます。
+* フォームからリクエストが送信されたときにトリガーされる自動処理を設定します。 現在、リクエストの送信時にレコードを自動的に作成できます。
+
+リクエストフォームの作成とこれらのオプションの設定について詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+
+## タイムライン表示とカレンダー表示への機能のドラッグ&amp;ドロップ
+
+>[!NOTE]
+>
+>プレビュー：2025 年 10 月 2 日（PT）
+>>実稼動高速リリース：2025 年 10 月 15 日（PT）
+>>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
+
+
+タイムラインビューとカレンダービューでレコードをドラッグ&amp;ドロップできるようになりました。 別の時間枠内のレコードをドラッグすると、そのレコードの開始日と終了日が自動的に更新されます。
+
+詳しくは、[レコードの編集](/help/quicksilver/planning/records/edit-records.md)を参照してください。
+
+## Workfront Planning でのリクエストに対するコメント
+
+>[!NOTE]
+>
+>プレビュー：2025 年 10 月 2 日（PT）
+>>実稼動高速リリース：2025 年 10 月 15 日（PT）
+>>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
+
+Workfront Planning で行ったリクエストをより簡単に伝えるために、リクエストの詳細ページにコメント領域を追加しました。 これは、例えば、リクエストの割り当て先となるユーザーが、リクエストを行ったユーザーに対する質問を持っている場合に便利です。
+
+以前は、Workfront Planning ではリクエストに対するコメントを使用できませんでした。
+
+コメントを含むリクエストの実行の詳細は、「[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+
+<!--## Approve a Workfront Planning request in the My Approvals widget
+
+>[!NOTE]
+>
+>Preview: October 2, 2025
+>Production fast release: October 15, 2025
+>Production for everyone:  October 16, 2025
+
+To make it easier to approve Workfront Planning requests, we've added them to the My Approvals widget in Home. Now, you can approve or reject these requests directly from the widget, allowing you to manage these approvals without leaving Home.
+
+Previously, Workfront approvals could be managed only within Workfront Planning.
+
+For more information on approving requests, see [Approve a request in Adobe Workfront Planning](/help/quicksilver/planning/requests/approve-request.md).-->
+
+## レコードの接続されたレコードページでのWorkfront プロジェクトのインライン編集
 
 >[!NOTE]
 >
 >プレビュー：2025 年 9 月 25 日（PT）
->&#x200B;>実稼動高速リリース：2025 年 10 月 15 日（PT）
->&#x200B;>実稼動すべて：2025 年 10 月 16 日（PT）
+>>実稼動高速リリース：2025 年 10 月 15 日（PT）
+>>実稼動すべて：2025 年 10 月 16 日（PT）
 
-接続されたレコードページで、Workfront接続されたオブジェクトをインライン編集できるようになりました。 また、接続されたオブジェクトの順序を変更したり、行やテーブルビューのその他の機能をコピーして貼り付けたりすることもできます。
+接続されたレコードページで、Workfrontに接続されたプロジェクトをインライン編集できるようになりました。 接続されたレコードページから、テンプレートを使用せずにプロジェクトを作成することもできます。
 
 詳しくは、[ レコードページの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
@@ -146,8 +241,8 @@ For more information on creating a request form and configuring these options, s
 >[!NOTE]
 >
 >プレビュー：2025 年 9 月 11 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年9月11日（PT）
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>実稼動版（すべてのお客様向け）：2025年9月11日（PT）
+>>[!BADGE 予定外 ]{type=Neutral}
 
 Adobe Workfront Planning とAdobe GenStudio for Performance Marketingの両方を使用している場合は、GenStudioがデフォルトでサポートしているマーケティング概念よりも詳細に、キャンペーン、商品、ペルソナなどのマーケティング概念を定義してください。
 
@@ -312,8 +407,8 @@ Workfront Planning とGenStudio for Performance Marketingの統合により、�
 >[!NOTE]
 >
 >プレビュー：2025 年 8 月 7 日（PT）
->&#x200B;>すべてのお客様の実稼動環境：2025 年 8 月
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>すべてのお客様の実稼動環境：2025 年 8 月
+>>[!BADGE 予定外 ]{type=Neutral}
 
 Workfront Planning の式フィールドとWorkfrontの計算カスタムフィールドに、次のように使用する新しい式を追加しました。
 
@@ -328,8 +423,8 @@ Workfront Planning の式フィールドとWorkfrontの計算カスタムフィ�
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 31 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年7月31日（PT）
->&#x200B;>[!BADGE 予定外 &#x200B;]{type=Neutral}
+>>実稼動版（すべてのお客様向け）：2025年7月31日（PT）
+>>[!BADGE 予定外 ]{type=Neutral}
 
 レコードテーブルビューで式フィールドを作成または編集する際に、式フィールドを拡大するための「最大化」ボタンを追加しました。 さらに、拡大された新しいウィンドウに「最小化」ボタンを追加して、フィールド作成ボックスに戻しました。
 
@@ -378,8 +473,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 タイムライン上の任意の場所をダブルクリックすることで、レコードタイプのタイムライン表示でレコードを作成できるようになりました。
 
@@ -394,8 +489,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 ワークスペースページのレコードタイプカードの「詳細」メニューからレコードタイプを共有できるようになりました。 この機能強化の前は、共有オプションはレコードタイプページ内でのみ使用できました。
 
@@ -406,8 +501,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 24 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 すべてのWorkfront Planning ビュー（テーブル、タイムライン、カレンダー）をフルスクリーンモードで表示できるようになりました。 ビュー機能は維持され、フルスクリーンでビューを変更することもできます。
 
@@ -420,8 +515,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 22 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 承認プロセスの柔軟性を高めるために、Planning のリクエストフォームに承認者としてチームを追加する機能を追加しました。 現在は、承認者を設定する際に、チーム名を入力および選択できます。 チームメンバーは誰でも決定を行うことができます。これは、チーム全体の承認決定としてカウントされます。
 
@@ -434,8 +529,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 17 日（PT）
->&#x200B;>迅速リリース用の実稼動版： 2025年8月14日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>迅速リリース用の実稼動版： 2025年8月14日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 次のフィールドを導入して、承認を伴うリクエストを送信することで作成されたレコードの承認情報を取得しています。
 
@@ -449,8 +544,8 @@ For more information on creating requests see:
 >[!NOTE]
 >
 >プレビュー：2025 年 7 月 10 日（PT）
->&#x200B;>実稼動迅速リリース：2025 年 8 月 14 日（PT）
->&#x200B;>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>>実稼動迅速リリース：2025 年 8 月 14 日（PT）
+>>実稼動版（すべてのお客様向け）：2025年10月16日（PT）
 
 
 現在、テーブルビューに適用されたグループ化が存在する場合、テーブルにレコードを追加すると、レコードの追加先のグループ化に関連するフィールドが自動入力されるようになりました。

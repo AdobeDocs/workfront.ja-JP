@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 681d83661aff2c0484521ee11c8899dca14e65ed
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '8031'
+source-wordcount: '8402'
 ht-degree: 2%
 
 ---
@@ -24,19 +24,39 @@ Adobe Workfrontのその他すべての変更点については、[ 製品リリ
 
 ## 管理と設定
 
-<!--### Interface updates when adding or editing group timesheet profiles
+### 「新規」および「マイルストーンパスを編集」ボックスの新しいインターフェイスと機能
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**プレビューリリース：2025 年 10 月 2 日（PT）、実稼動リリース：2025 年 10 月 9 日（PT）の週から**
 
-We have updated the look and feel of the Timesheet Profile page when editing or adding a group timesheet profile.
+「新規」および「マイルストーンパスを編集」ボックスに、新しいインターフェイスが追加されました。 マイルストーンパスのリストのルックアンドフィールが新しくなり、この領域の機能の一部が変更された可能性があります。
 
-To view these changes, go to Setup > Groups > select a group name > Timesheet Profiles and either add a new profile, or edit an existing one.
+詳しくは、[ マイルストーンパスの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) を参照してください。
 
-For more information, see [Create, edit, and assign timesheet profiles](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md). -->
+### グループタイムシートプロファイルを追加または編集する際のインターフェイスの更新
+
+**プレビューリリース：2025 年 9 月 30 日（PT）、実稼動リリース：2025 年 10 月 2 日（PT）の週から**
+
+グループタイムシートプロファイルを編集または追加する際の、タイムシートプロファイルページのルックアンドフィールを更新しました。
+
+これらの変更を表示するには、設定/グループ/グループ名/タイムシートプロファイルを選択し、新しいプロファイルを追加するか、既存のプロファイルを編集します。
+
+詳しくは、[タイムシートプロファイルの作成、編集および割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
+
+
+### ステータスリストのインターフェイスの更新
+
+**プレビューリリース：2025 年 10 月 2 日（PT）、実稼動リリース：2025 年 10 月 9 日（PT）**
+
+ステータスリストのルックアンドフィールを、アプリケーションの他の領域のデザインと一致するように更新しました。
+
+この更新の影響は次のとおりです。
+
+* 設定/ プロジェクト環境設定の下の「ステータス」領域
+* ステータスはグループの表示中です
 
 ### 「設定」の「重要度」エリアに対するインターフェイスの更新
 
-**プレビューリリース：2025 年 9 月 25 日（PT）、実稼動リリース：2025 年 10 月 2 日（PT）**
+**プレビューリリース：2025 年 9 月 25 日（PT）、実稼動リリース：2025 年 10 月 9 日（PT）**
 
 重要度ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。
 
@@ -48,7 +68,7 @@ For more information, see [Create, edit, and assign timesheet profiles](/help/qu
 
 ### 設定の優先度領域のインターフェイスのアップデート
 
-**プレビューリリース：2025 年 9 月 25 日（PT）、実稼動リリース：2025 年 10 月 2 日（PT）**
+**プレビューリリース：2025 年 9 月 25 日（PT）、実稼動リリース：2025 年 10 月 9 日（PT）**
 
 優先度のページを更新して、Workfrontの他の領域と一致する、より現代的なデザインを追加しました。
 
@@ -208,6 +228,38 @@ Portfolioの編集ボックスでポートフォリオを編集する際のイ�
 
 ## プロジェクト
 
+### 請求料率のインターフェイス更新
+
+**プレビューリリース：2025 年 10 月 2 日（PT）、実稼動リリース：2025 年 10 月 9 日（PT）の週から**
+
+プロジェクトの請求レート ページのルックアンドフィールを、アプリケーションの他の領域と一致するように更新しました。 請求レートを追加および編集するためのダイアログボックスも更新されました。
+
+この変更を表示するには、プロジェクト /請求レートに移動します。
+
+詳しくは、[ プロジェクトレベルでの担当業務請求率の上書き ](/help/quicksilver/manage-work/projects/project-finances/override-job-role-billing-rates-at-the-project-level.md) を参照してください。
+
+### マイルストーン ビューの適用時にプロジェクト リストまたは報告書のインターフェイスを更新する
+
+**プレビューリリース：2025 年 10 月 2 日（PT）、実稼動リリース：2025 年 10 月 9 日（PT）の週から**
+
+マイルストーン ビューを適用した際の、プロジェクトリストまたはレポートのルックアンドフィールを更新しました。
+
+プロジェクトリストまたはレポートが、Workfrontの他の領域のデザインと一致するようになりました。 詳しくは、[ マイルストーン表示の使用 ](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) を参照してください。
+
+<!--### Interface updates for the Edit Tasks box
+
+**Preview release: October 2, 2025; Production release: Starting the week of October 9, 2025**
+
+ We have updated the look and feel of the Edit Tasks box when editing tasks in bulk. The Edit Tasks box now matches the design of a single-task Edit box.   
+
+The following changes are included in this update: 
+
+*There is a new experience for assigning resources to tasks, when editing a single task and when editing tasks in bulk.  
+
+*The Resource Scope field has been removed from the Edit task box.  
+
+For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).-->
+
 ### テンプレートの一括編集時のインターフェイスの更新
 
 **プレビューリリース：2025 年 9 月 18 日（PT）、実稼動リリース：2025 年 9 月 25 日（PT）**
@@ -215,14 +267,6 @@ Portfolioの編集ボックスでポートフォリオを編集する際のイ�
 テンプレートのリストからテンプレートを一括編集する際の、「テンプレートを編集」ボックスのルックアンドフィールを更新しました。 「テンプレートを編集」 ボックスの情報の編成が、単一テンプレートの編集ボックスと一致するようになりました。
 
 詳しくは、[プロジェクトテンプレートの編集](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md)を参照してください。
-
-<!--### Interface updates for a project list or report when applying the Milestone view
-
-**Preview release: September 11, 2025; Production release: September 18, 2025**
-
-We have updated the look and feel of a project list or report when you apply the Milestone view to them.
-
-The project list or report now matches the design of other areas of Workfront. For information, see [Use the Milestone view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).-->
 
 ### テンプレートを使用しないプロジェクトへのタスクの変換に関するインターフェイスの変更
 
@@ -427,16 +471,15 @@ Workfrontの他の領域のデザインと一致するように、テンプレ�
 * [ ルーティングルールの作成 ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
 
-
 ## ユーザー
 
-<!--### Interface updates for the User Details page
+### ユーザー詳細ページのインターフェイスの更新
 
-**Preview release: September 25, 2025; Production release: October 2, 2025**
+**プレビューリリース：2025 年 10 月 2 日（PT）、実稼動リリース：2025 年 10 月 9 日（PT）**
 
-We have updated the look and feel of the User Details page to match other areas of the application.
+ユーザー詳細ページのルックアンドフィールを、アプリケーションの他の領域と一致するように更新しました。
 
-You can view the updated design by going to Users, selecting a user, and clicking Details in the left panel.-->
+更新されたデザインを表示するには、ユーザーに移動してユーザーを選択し、左パネルの「詳細」をクリックします。
 
 ### 個人的な休暇のためのインターフェイス更新
 
@@ -791,7 +834,7 @@ Workfrontの他の領域のデザインと一致するように、複数のレ�
 
 ### /tile または/qstile を含む URL がWorkfront ダッシュボードでサポートされなくなりました
 
-**プレビューリリース：5 月 13 日（PT）、実稼動リリース：発表予定**
+**プレビューリリース：5 月 13 日（PT）、実稼動リリース：2025 年 5 月 20 日（PT）より**
 
 `/tile` または `/qstile` を含むWorkfront URL を持つ外部ページがダッシュボードにある場合、そのページは読み込まれません。
 

@@ -5,10 +5,10 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: 3c21d2ac594d4dfe309ed4227e46a9cb535f0501
+source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 12%
+source-wordcount: '388'
+ht-degree: 10%
 
 ---
 
@@ -18,20 +18,34 @@ ht-degree: 12%
 
 2025年第 4 四半期のリリースサイクルの現時点で利用可能なすべての変更点のリストについては、[2025年第 4 四半期リリースの概要](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-release-overview.md)を参照してください。
 
-## 統合リクエストリストの新しい結合ステータス列
+## 「要求」領域でのビューの作成と保存
 
 >[!NOTE]
 >
->* プレビュー：2025 年 8 月 28 日（PT）
->* 実稼動高速リリース：2025 年 9 月 11 日（PT）
->* 実稼動版（すべてのお客様向け）：2025年10月16日（PT）
+>プレビュー：2025 年 10 月 2 日（PT）
+>>実稼動高速リリース：2025 年 10 月 15 日（PT）
+>>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
 
-統一されたリクエストエクスペリエンスを簡素化するために、ステータス列にリクエストステータスと承認ステータスの両方（特定のリクエストに適用される方）が表示されるようになりました。
+必要な情報を見やすくするために、リクエスト エリアでビューを作成および保存する機能を追加しました。 フィルターや列設定を含むビューを保存し、ビューを切り替えられるようになりました。 Workfront管理者は、新しいビューをレイアウトテンプレートに追加できます。
 
-リクエストの作成について詳しくは、以下を参照してください。
+以前は、フィルターと列設定を保存できませんでした。
 
-* Workfrontの場合：[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Workfront Planning の場合：[ レコードを作成するためのAdobe Workfront Planning 要求の発行 ](/help/quicksilver/planning/requests/submit-requests.md)
+詳細と手順については、[ リクエスト領域でのビューの作成 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+
+<!--## New combined Status column in unified Request list 
+
+>[!NOTE]
+>
+>* Preview: August 28, 2025
+>* Production fast release: September 11, 2025
+>* Production for all customers: October 16, 2025
+
+To simplify the unified request experience, the Status column now displays both Request Status and Approval Status, whichever applies to a given request.
+
+For more information on creating requests see:
+
+* For Workfront: [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* For Workfront Planning: [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md)-->
 
 ## リクエスト元エクスペリエンスの更新
 
