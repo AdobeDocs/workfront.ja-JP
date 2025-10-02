@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 793a856a963060cbade33a1c29f002cecf7f7e47
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '864'
 ht-degree: 23%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 23%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -117,7 +117,7 @@ ht-degree: 23%
 
 {{step1-to-planning}}
 
-1. レコードを追加するワークスペースをクリックします。
+1. フォームを共有するワークスペースをクリックします。
 
    ワークスペースが開き、レコードタイプがカードとして表示されます。
 
