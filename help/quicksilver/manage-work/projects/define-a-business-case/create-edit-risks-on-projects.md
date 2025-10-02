@@ -67,7 +67,7 @@ ht-degree: 50%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -121,7 +121,7 @@ ht-degree: 50%
 
    **新しい危険** をクリックして、「新しい危険 **ボックスを開き** す。
 
-   ![ 新しい危険ボックス ](assets/new-risk-box.png)
+   ![&#x200B; 新しい危険ボックス &#x200B;](assets/new-risk-box.png)
 
 1. （条件付き） **新規危険** ボックスに危険を追加する場合、次の情報を入力します。
 

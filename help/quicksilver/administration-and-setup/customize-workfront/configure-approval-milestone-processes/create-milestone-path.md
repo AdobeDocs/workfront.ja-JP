@@ -31,7 +31,7 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 
 このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
 
-詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+詳しくは、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 </div>
 
@@ -64,7 +64,7 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -89,7 +89,7 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
 
    新規マイルストーンパス ボックスが開きます。
 
-   ![ 新規マイルストーンパスボックス ](assets/new-milestone-path-box.png)
+   ![&#x200B; 新規マイルストーンパスボックス &#x200B;](assets/new-milestone-path-box.png)
 
    </div>
 
@@ -148,15 +148,15 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
 
    マイルストーンパスをプロジェクトに関連付ける方法と、マイルストーンをタスクに関連付ける方法に関して詳しくは、[タスクへのマイルストーンの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)を参照してください。
 
-1. （オプション） マイルストーンパス リストから 1 つのマイルストーンを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてマイルストーンパスを開き、その情報を編集します。
-1. （オプション） **書き出し** アイコン ![ 書き出しアイコン ](assets/export-icon.png) をクリックし、次の形式から選択してマイルストーンパスリストをファイルに書き出します。
+1. （オプション） マイルストーンパス リストから 1 つのマイルストーンを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックしてマイルストーンパスを開き、その情報を編集します。
+1. （オプション） **書き出し** アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export-icon.png) をクリックし、次の形式から選択してマイルストーンパスリストをファイルに書き出します。
 
    * PDF
    * Excel
    * Excel（xlsx）
    * タブ区切り
 
-1. （任意）マイルストーンリストで 1 つまたは複数のマイルストーンを選択し、**削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックして削除します。
+1. （任意）マイルストーンリストで 1 つまたは複数のマイルストーンを選択し、**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックして削除します。
 1. 「**はい、削除します**」をクリックします。
 
    マイルストーンは削除され、復元できません。 マイルストーンパスは、以前に関連付けられていたプロジェクトから削除され、すべてのマイルストーンが関連付けられたタスクから削除されます。
@@ -170,7 +170,7 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
 
 プロジェクトレポートで詳細を表示するには、マイルストーンパスをプロジェクトに関連付ける必要があります。
 
-マイルストーンパスのプロジェクトへの関連付けについて詳しくは、[ プロジェクトの編集 ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) を参照してください。
+マイルストーンパスのプロジェクトへの関連付けについて詳しくは、[&#x200B; プロジェクトの編集 &#x200B;](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) を参照してください。
 
 {{step1-to-reports}}
 
@@ -189,7 +189,7 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
 
    マイルストーンパスの詳細が表示されます。
 
-   ![ プロジェクトレポートからのマイルストーンパスの詳細 ](assets/milestone-details-from-project-report.png)
+   ![&#x200B; プロジェクトレポートからのマイルストーンパスの詳細 &#x200B;](assets/milestone-details-from-project-report.png)
 
    マイルストーンパスの詳細ページには、次の情報が表示されます。
 

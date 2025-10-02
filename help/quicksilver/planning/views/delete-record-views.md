@@ -109,15 +109,15 @@ Adobe Workfront Planning で使用しなくなったレコードビューを削�
 
    * ビューにアクセスする環境に応じて、次の操作を行います。
 
-      * 実稼動環境で、共有するビューのタブ名にポインタを合わせ、ビュー名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**削除** をクリックします。
+      * 実稼動環境で、共有するビューのタブ名にポインタを合わせ、ビュー名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**削除** をクリックします。
 
      >[!TIP]
      >
      >最後のタブの右側にある **その他** をクリックして、削除するビューを見つける必要がある場合があります。
 
-      * <span class="preview"> プレビュー環境で、ビューのタブをクリックし、ドロップダウンメニューのビューにカーソルを置いて **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、**削除** をクリックします。</span>
+      * <span class="preview"> プレビュー環境で、ビューのタブをクリックし、ドロップダウンメニューのビューにカーソルを置いて **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、**削除** をクリックします。</span>
 
-     ![ オプション付きのその他メニュー ](assets/more-menu-for-views-expanded-with-delete-option.png)
+     ![&#x200B; オプション付きのその他メニュー &#x200B;](assets/more-menu-for-views-expanded-with-delete-option.png)
 
 1. 「**削除**」をクリックして確定します。 <!--ensure there is not another saving step here?!-->
 
