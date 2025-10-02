@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: f32b2f9e5a511b83e5793299e47b9c1c12857bd8
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 37%
+source-wordcount: '2756'
+ht-degree: 36%
 
 ---
 
@@ -235,7 +235,7 @@ ht-degree: 37%
 
    <span class="preview">![ サイズを変更するタイムラインビューの左端のバー ](assets/left-end-bar-handle-to-resize-timeline-view.png)</span>
 
-<!--1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview"> レコードバーをクリックして別の位置にドラッグ&amp;ドロップし、タイムラインと日付を更新します。 レコードの開始日と終了日は、自動的に更新されます。</span>
 
 1. レコードのバーをクリックして、その詳細領域を開き、すべてのフィールドを編集します。
 
@@ -246,17 +246,11 @@ ht-degree: 37%
 <!--add another step about drag and drop here when that is available-->
 
 1. カレンダー表示でレコードタイプ ページを開きます。 詳しくは、[ カレンダー表示の管理 ](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
-1. <span class="preview"> （条件付き） カレンダー表示でレコードのバーの端にポインタを合わせ、クリックして余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。</span>  <!--when the calendar weekly resize is released to Preview, take out "monthly" from the sentence above, at preview release DONE Sep 25 2025-->
+1. <span class="preview"> （条件付き） カレンダー表示でレコードのバーの端にポインタを合わせ、クリックして余白を別の日付にドラッグ&amp;ドロップします。 これにより、レコードの開始日または終了日が自動的に更新されます。</span>
 
    <span class="preview">![ サイズを変更するカレンダー表示の左端のバー ](assets/left-end-bar-handle-to-resize-calendar-monthly-view.png)</span>
 
-   <!--At preview release, add one of the following depending on which one is releasing: 
-    Scenario one: only drag and drop in the weekly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar weekly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario two: only drag and drop in the monthly view is releasing:
-    1. <span class="preview">Click a record bar in the calendar monthly view, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>
-    Scenario 3: both the weekly and monthly drag and drop are releasing at the same time:
-    1. <span class="preview">Click a record bar, then drag and drop it in another position to update its timeline and dates. The Start and End dates of the record update automatically.</span>-->
+1. <span class="preview"> レコードバーをクリックして別の位置にドラッグ&amp;ドロップし、タイムラインと日付を更新します。 レコードの開始日と終了日は、自動的に更新されます。</span>
 
 1. レコードのバーをクリックして、その詳細領域を開き、すべてのフィールドを編集します。
 

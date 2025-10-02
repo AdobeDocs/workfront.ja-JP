@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3935'
+source-wordcount: '3962'
 ht-degree: 37%
 
 ---
@@ -198,12 +198,10 @@ Adobe Workfront Planning でレコードタイプのページにアクセスす�
 
      <span class="preview"> 詳しくは、[ レコードの作成 ](/help/quicksilver/planning/records/create-records.md) を参照してください。</span>
 
-   * <span class="preview"> レコードバーの端をクリックして、新しい位置にドラッグ&amp;ドロップします。 レコードのバーのサイズを変更すると、開始日と終了日が直ちに更新されます。</span>
+   * <span class="preview"> レコードバーの左右の余白をクリックし、新しい位置にドラッグ&amp;ドロップします。 レコードのバーのサイズを変更すると、開始日または終了日が直ちに更新されます。</span>
 
+   * <span class="preview"> レコードをドラッグ&amp;ドロップして、タイムラインでの位置と日付を更新します。 レコードのバーを移動すると、開始日と終了日が直ちに更新されます。</span>
      <span class="preview"> 詳しくは、[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md) を参照してください。</span>
-
-   <!--* <span class="preview">Drag and drop records to update their position and dates in the timeline.</span>
-        <span class="preview">For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).</span>-->
 
 1. 以下のサブセクションで説明するように、次のビュー要素を更新します。
    * [フィルター](#add-filters)

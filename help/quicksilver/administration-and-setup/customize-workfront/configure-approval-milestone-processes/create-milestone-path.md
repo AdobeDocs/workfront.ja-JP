@@ -8,10 +8,10 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 6e2e337969fccba88ea7089fe9a6d9db605343f7
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '816'
-ht-degree: 62%
+source-wordcount: '889'
+ht-degree: 51%
 
 ---
 
@@ -26,6 +26,14 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+
+<div class="preview">
+
+このページで強調表示されている情報は、まだ一般公開されていない機能を示しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 プレビューリリースから 1 週間後に、すべてのお客様の実稼動環境でも同じ機能が使用できるようになります。
+
+詳しくは、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+
+</div>
 
 Adobe Workfront 管理者は、システム内の任意のプロジェクトに適用できるマイルストーンパスを作成します。このエリアでマイルストーンパスに加えた変更は、Workfront システム全体に影響を与えます。
 
@@ -45,14 +53,18 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン</td> 
-   <td>プラン</td> 
+   <td><p>標準</p>
+   <p>プラン</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル設定</td> 
-   <td> <p>Workfront 管理者である必要があります。</p> <p><b>メモ</b>：まだアクセス権がない場合は、アクセスレベルに追加の制限が設定されていないかどうか Workfront 管理者にお問い合わせください。Workfront 管理者がアクセスレベルを変更する方法について詳しくは、<a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">カスタムアクセスレベルの作成または変更</a>を参照してください。</p> </td> 
+   <td> <p>Workfront 管理者である必要があります。</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -72,7 +84,18 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
 
 1. **プロセス**／**マイルストーンパス**&#x200B;をクリックします。
 1. **新しいマイルストーンパス**&#x200B;をクリックします。
-1. **基本情報**&#x200B;エリアに以下の情報を指定します。
+
+   <div class="preview">
+
+   新規マイルストーンパス ボックスが開きます。
+
+   ![ 新規マイルストーンパスボックス ](assets/new-milestone-path-box.png)
+
+   </div>
+
+1. 左側のパネルで **基本情報** をクリックします。
+
+   次の情報を更新します。
 
    <table style="table-layout:auto">
     <tr>
@@ -93,7 +116,10 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
     </tr>
    </table>
 
-1. 以下の情報を&#x200B;**マイルストーン**&#x200B;エリアに指定します。
+1. 左側のパネルで **マイルストーン** をクリックします。
+1.実稼動環境で、「**マイルストーンを追加**」をクリックして、パスにマイルストーンを追加します。
+   <span class="preview"> プレビュー環境で **新しい行** をクリックして、パスにマイルストーンを追加します。</span>
+1. 次の情報を更新します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -114,15 +140,14 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
     </tbody> 
    </table>
 
-1. 「**マイルストーンを追加**」をクリックし、必要に応じて、パスが完了するまでマイルストーンを追加し続けます。
-
+1. （任意）各マイルストーンをドラッグ&amp;ドロップして並べ替えます。
 1. 「**マイルストーンパスを作成**」をクリックして変更を保存します。
 
    マイルストーンパスをプロジェクトに関連付ける準備が整いました。
 
    マイルストーンパスをプロジェクトに関連付ける方法と、マイルストーンをタスクに関連付ける方法に関して詳しくは、[タスクへのマイルストーンの関連付け](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)を参照してください。
 
-
+1. （オプション） マイルストーンパス リストから 1 つのマイルストーンを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてマイルストーンパスを開き、その情報を編集します。
 1. （オプション） **書き出し** アイコン ![ 書き出しアイコン ](assets/export-icon.png) をクリックし、次の形式から選択してマイルストーンパスリストをファイルに書き出します。
 
    * PDF
@@ -130,10 +155,12 @@ Adobe Workfront 管理者は、システム内の任意のプロジェクトに�
    * Excel（xlsx）
    * タブ区切り
 
-1. （オプション）マイルストーンリストのマイルストーンを選択し、「**編集**」アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックしてマイルストーン情報を編集します。
-1. （オプション）マイルストーンリストでマイルストーンを選択し、**削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックして削除します。
-1. **はい、削除します** をクリックします。
-マイルストーンは削除され、復元できません。 マイルストーンに関連付けられたプロジェクト情報と、マイルストーンパスに関連付けられたタスク情報も削除されます。
+1. （任意）マイルストーンリストで 1 つまたは複数のマイルストーンを選択し、**削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックして削除します。
+1. 「**はい、削除します**」をクリックします。
+
+   マイルストーンは削除され、復元できません。 マイルストーンパスは、以前に関連付けられていたプロジェクトから削除され、すべてのマイルストーンが関連付けられたタスクから削除されます。
+
+   削除したマイルストーンは復元できません。
 
 
 ## プロジェクトレポートでのマイルストーンパスの詳細の表示

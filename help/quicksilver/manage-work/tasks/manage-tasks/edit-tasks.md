@@ -7,10 +7,10 @@ author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: f98dd9c4bbb342e20ef77690ef20b0b14f5e9b6b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '3723'
-ht-degree: 87%
+source-wordcount: '3810'
+ht-degree: 86%
 
 ---
 
@@ -26,12 +26,22 @@ ht-degree: 87%
 </div>
 -->
 
+<!--
+<div class="preview"> 
+
+The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. The same features will also be available in the Production environment for all customers starting with  a week from the Preview release.      
+
+For more information, see [Interface modernization](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md).  
+
+</div> 
+-->
+
 
 自分で作成したタスクに関する情報、または Contribute または Manage 権限を持っているタスクに関する情報を編集できます。
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,8 +53,8 @@ ht-degree: 87%
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront プラン*</td> 
-   <td> <p>新規：標準</p>
-   <p>現在：ワーク以上</p> </td> 
+   <td> <p>標準</p>
+   <p>ワークまたはそれ以上</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">アクセスレベル</td> 
@@ -183,6 +193,7 @@ ht-degree: 87%
    * [カスタムフォーム](#Custom%C2%A0F)
    * [財務](#finance)
    * [設定](#settings)
+   * [コメント](#comment)
 
    >[!NOTE]
    >
@@ -532,7 +543,7 @@ ht-degree: 87%
       <li> <p>役割（毎時） </p> </li> 
       <li> <p>固定 (毎時) </p> </li> 
       <li> <p>ユーザー (毎時) (キャップ付き) </p> </li> 
-      <li> <p>役割（毎時）（上限付き） </p> </li> 
+      <li> <p>役割（毎時）（キャップ付き） </p> </li> 
       <li> <p>ユーザー（毎時）+ 固定 </p> </li> 
       <li> <p>役割（毎時）+ 固定 </p> </li> 
       <li> <p>固定収益 </p> </li> 
@@ -605,9 +616,23 @@ ht-degree: 87%
    </table>
     </li>
 
-1. 「**保存**」をクリックします。
+1. 「**保存**」をクリックするか、以降のセクションの編集を続けます。
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
+
+### コメント
+
+1. [タスクを編集](#Edit2)の節の説明に従って、タスクの編集を開始します。
+1. 左側のパネルで **コメント** をクリックします。
+
+   ![ タスクを編集ボックスの「コメント」セクション ](assets/comment-section-on-edit-task-box.png)
+
+1. 指定されたスペースに更新を追加します。
+1. （オプション）次のいずれかを更新に追加します。
+
+   * **ユーザーをタグ付け** エリアで更新にユーザーまたはチームを追加するか、@を使用して更新に含めます。
+   * 「**会社に非公開**」チェックボックスを選択して、会社内のユーザーに対して更新を非公開にします。
+1. 「**保存**」をクリックします。
 
 ## タスクヘッダーでのタスクの編集（制限あり）
 

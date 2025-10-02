@@ -6,16 +6,16 @@ description: 1 つのオブジェクトにアタッチされたカスタムフ�
 author: Alina
 feature: Get Started with Workfront
 exl-id: e5570a09-32cb-43e3-9c1d-4421db42fa24
-source-git-commit: 322257a21f5d415b0ac04e6944c4aaa53fc3ab3b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1088'
-ht-degree: 87%
+source-wordcount: '1054'
+ht-degree: 89%
 
 ---
 
 # オブジェクトに添付されたカスタムフォームを管理
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。プレビュー環境のすべてのユーザーと、実稼動環境の一部のユーザーが使用できます。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 1 つのオブジェクトにアタッチされたカスタムフォームの表示順序を更新したり、削除したり、複数のオブジェクトでカスタムフォームを表示する方法を一括編集したりできます。
 

@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '2752'
-ht-degree: 29%
+source-wordcount: '2764'
+ht-degree: 27%
 
 ---
 
@@ -32,7 +32,12 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 ここでは、2 つのWorkfront Planning レコードタイプまたは 1 つのWorkfront Planning レコードタイプを別のアプリケーションのオブジェクトに関連付ける方法について説明します。
 
-レコード間またはオブジェクト タイプ間の関連付けを確立した後、個々のレコードを相互に関連付けて、Workfront Planning レコードにリンクされたレコードまたはオブジェクト タイプのフィールドを表示することができます。
+レコード間またはオブジェクト タイプ間の接続を確立すると、接続フィールドが Planning レコード タイプに追加されます。 「接続」フィールドでは、個々のレコードを相互に接続し、リンクされたレコードまたはオブジェクトタイプのフィールドをWorkfront Planning レコードに表示できます。
+
+<!--
+>[!CAUTION]
+>
+><span class="preview">One record type can have up to 30 connection fields.</span>-->
 
 接続タイプに関する一般的な情報については、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
@@ -126,36 +131,35 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. レコードタイプのカードをクリックして、レコードタイプのページを開きます。
 1. テーブルビューの右上隅にある **+** アイコンをクリックし、「**新しい接続**」タブをクリックします。
 
-   ![Workfront AEMのオプションを含む新しい「接続」タブ ](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Workfront AEMのオプションを含む新しい「接続」タブ ](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-1. 「**レコードタイプ**」フィールドでレコードタイプを検索するか、次のいずれかを選択します。
+1. レコードタイプを検索するか、次のいずれかを選択します。
 
-   * 現在のワークスペースの別のレコードタイプ
+   * <span class="preview"> 現在のワークスペースからのレコードタイプ </span>
 
-     ![ 多対多の接続ピッカー ](assets/many-to-many-connection-picker.png)
+     <span class="preview">![ 同じワークスペースレコードタイプの複数選択接続ピッカー ](assets/multi-select-connection-picker-record-type.png)</span>
 
      >[!TIP]
      >
      > 
      >選択したワークスペースに他のレコードタイプがない場合、ワークスペースセクションは表示されません。
 
-
    * 他のワークスペースから接続するように設定された、別のワークスペースからのレコードタイプ。
 
      >[!TIP]
      >
-     >他のワークスペースからレコードの種類にアクセスするには、[**&#x200B;** レコードの種類の編集 **] ボックスの [** 詳細設定 **] タブで、レコードの種類に対して &lbrack; 他のワークスペースでこのレコードの種類への接続を許可する** 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
+     >他のワークスペースからレコードの種類にアクセスするには、[**** レコードの種類の編集 **] ボックスの [** 詳細設定 **] タブで、レコードの種類に対して [ 他のワークスペースでこのレコードの種類への接続を許可する** 設定を有効にする必要があります。 他のワークスペースから接続するように設定されているレコードタイプがない場合、「ワークスペース」セクションは表示されません。
      > ![ レコードタイプを編集ボックスの「詳細設定」タブ ](assets/edit-record-type-box-advanced-settings-tab.png)
 
      詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
-     ![ 複数レコードを許可する新しい接続ボックス ](assets/new-connection-allow-multiple-records-box.png)
+     ![ 複数レコードを許可する新しい接続ボックス ](assets/new-connection-tab-with-workfront-aem-options-no-buttons.png)
 
-   * 「**Workfront オブジェクトタイプ**」セクションからの&#x200B;**プロジェクト、ポートフォリオ、プログラム、会社**&#x200B;または&#x200B;**グループ**。
+   * <span class="preview">{5 **Workfrontのオブジェクトタイプ****セクションの {A** プロジェクト、Portfolio、プログラム、会社 **または { グループ**</span>
 
-     ![Workfront プロジェクト連携の選択 ](assets/workfront-project-connection-selection.png)
+     <span class="preview">![Workfront プロジェクト連携の選択 ](assets/multi-select-connection-picker-project.png)</span>
 
-   * 「**Adobe アプリケーション**」セクションからの **Experience Manager Assets**。
+   * **Experience Manager Assets** （**Adobe アプリケーション** セクション）<!--update screen shot??-->
 
      ![AEM Assets接続の選択 ](assets/aem-assets-connection-selection.png)
 
@@ -170,7 +174,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 1. 接続レコードフィールドに関する情報を追加して、「**説明**」フィールドを更新します。 フィールドの説明は、テーブル内でフィールドの列にポインタを合わせると表示されます。
 1. （条件付き） 2 つの異なるワークスペース、またはレコードとAdobe Experience Manager アセットオブジェクトのレコードタイプを関連付ける場合は、「**複数のレコードを許可**」を選択します。 これを選択すると、元のレコードに「接続されたレコードタイプ」フィールドが表示されたときに、ユーザーが複数のレコードを追加できるように指定できます。 これはデフォルトで選択されています。
 
-   ![ 複数レコードを許可する新しい接続ボックス ](assets/new-connection-allow-multiple-records-box.png)
+   ![ 別のワークスペースからのレコードタイプへの新しい接続 ](assets/new-connection-allow-multiple-records-box.png)
 
 1. （条件付き）同じワークスペースのレコードタイプを接続する場合、または Planning レコードタイプをWorkfront オブジェクトタイプに接続する場合、使用する環境に応じて次のいずれかの操作を行います。
 
@@ -197,6 +201,8 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
          >
          >1 つのレコードタイプに対して使用できるフィールドは 500 個までです。 この制限に達するのを避けるために、特に分類レコードタイプでは、この設定をオフにすることをお勧めします。
 
+         <!--<span class="preview">There is a limit of 30 connected fields for a record type.</span>-->
+
       3. （条件付き） **リンクされたレコードタイプに対応するフィールドを作成** を有効にした場合は、次のオプションから選択して、ユーザーが接続できるレコード数と接続できるレコード数を示します。
 
          * 多対多
@@ -222,7 +228,7 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
    >[!NOTE]
    >
-   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+   >Workfront管理者は、Workfrontのメタデータマッピングを使用して、Workfront Planning フィールドをExperience Manager Assets フィールドにマッピングできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 
 1. （条件付き）Experience Manager AssetsまたはWorkfront Planning レコードタイプに接続する場合は、「レコードの外観 **領域で次のいずれかのオプションを選択し** す。

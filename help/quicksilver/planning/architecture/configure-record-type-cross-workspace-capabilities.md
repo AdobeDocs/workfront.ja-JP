@@ -4,9 +4,9 @@ description: レコードタイプは、別のワークスペースに追加す�
 hidefromtoc: true
 hide: true
 exl-id: d36ab9fb-0275-483d-97be-0a88e170f8e0
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1143'
 ht-degree: 8%
 
 ---
@@ -49,6 +49,8 @@ Then for the second setting for cross-workspace connections, we'll need a simila
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
+複数のワークスペースで機能するようにレコードタイプを設定できます。
+
 レコードタイプのワークスペース間機能は次のとおりです。
 
 * レコードタイプを集中型として指定できます。 ユーザーは、管理対象の他のワークスペースに、一元化されたレコードタイプを追加できます。
@@ -81,8 +83,10 @@ Then for the second setting for cross-workspace connections, we'll need a simila
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <ul><li><p>任意のWorkfront パッケージ</p></li>
-And
-<li><p>Planning Plus パッケージ</p></li></ul>
+<p>And</p>
+<li><p>接続可能なレコードタイプを作成する任意の Planning パッケージ</p></li>
+<li><p>一元化されたレコードタイプを作成するための Planning Plus パッケージ</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -118,19 +122,18 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 ユーザーは、投稿権限を持つ任意のワークスペースから、一元化されたレコードタイプにレコードを追加できます。また、一元化されたレコードタイプが追加される場所（元のワークスペースを含む）も指定できます。 表示権限のみを持つワークスペースからレコードを表示できます。
 
-詳しくは、[ クロスワークスペースのレコードタイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
+詳しくは、[ ワークスペース間のレコードタイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
 
-レコードタイプの追加を一元的なレコードタイプとして設定するには：
+レコードタイプを一元的として設定するには：
 
 {{step1-to-planning}}
 
-1. レコードタイプを編集するワークスペースをクリックします。
+1. 一元的に設定するレコードタイプのワークスペースをクリックします。
 
    ワークスペースページが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
    * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックします
-または
    * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **その他** メニュー ![ その他 ](assets/more-menu.png) をクリックします。
 1. 「**編集**」をクリックします。
 
@@ -140,7 +143,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    >
    >レコードタイプが既に一元化されたレコードタイプとして指定されており、他のワークスペースに追加されている場合、「編集」オプションがグレー表示になります。
 
-1. **レコードタイプを編集** ボックスで、「**詳細設定**」タブを選択します。
+1. **レコードタイプを編集** ボックスで、「**詳細設定**」タブをクリックします。
 1. 「**このレコードタイプを他のワークスペースに追加することを許可**」設定を有効にします。
 
    ![ レコードタイプを編集「他のワークスペースに追加」を使用した詳細設定で ](assets/edit-record-type-advanced-settings-add-to-other-workspaces-enabled.png)
@@ -197,12 +200,11 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 1. 次のいずれかの操作を行います。
 
    * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックします
-または
    * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックします。
 
    ![ レコードタイプカードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card.png)
 
-1. **レコードタイプを編集** ボックスで、「**詳細設定**」タブを選択します。
+1. **レコードタイプを編集** ボックスで、「**詳細設定**」タブをクリックします。
 1. **他のワークスペースでこのレコードタイプへの接続を許可** 設定を有効にします。<!-- check the setting name, I sent this to Lilit to say FROM instead of IN-->
 
    ![ 他のワークスペースからの接続が有効なレコードタイプの「詳細設定」タブを編集 ](assets/edit-record-type-advanced-settings-connect-from-other-workspaces-enabled.png)

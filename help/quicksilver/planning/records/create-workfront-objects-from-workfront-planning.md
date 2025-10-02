@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '992'
-ht-degree: 9%
+source-wordcount: '1380'
+ht-degree: 8%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 9%
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview"> このページでハイライト表示されている情報は、まだ一般公開されていない機能を指しています。 すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
 {{planning-important-intro}}
 
@@ -35,30 +35,44 @@ Workfront Planning からAdobe Workfrontオブジェクトを作成するには�
 
   オートメーションを使用したWorkfrontオブジェクトの作成については、[Adobe Workfront計画レコードのオートメーションを使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
-Workfront計画レコードを次のWorkfrontオブジェクト・タイプと関連付けると、Workfront計画から次のタイプのWorkfrontオブジェクトを作成できます。
-
-* プロジェクト
-* ポートフォリオ
-* プログラム
-
 >[!IMPORTANT]
 >
->* レコードから接続する場合、Workfrontで作成できるのは、プロジェクト、ポートフォリオおよびプログラムのみです。
+>Workfront Planning から次のWorkfrontオブジェクトを Planning レコードに接続すると、それらのオブジェクトを作成できます。
 >
->* Workfront Planning のレコードからグループや会社を関連付ける場合は、それらのグループや会社を作成できません。
+>* プロジェクト
+>* ポートフォリオ
+>* プログラム
+>
+>次のWorkfrontオブジェクトを Planning レコードに接続できますが、接続プロセスでは作成できません。
+>
+>* グループ
+>* 会社
 >
 
-Workfront Planning の次の領域の「接続」フィールドから、プロジェクト、ポートフォリオおよびプログラムを接続できます。
+Workfront オブジェクトをWorkfront Planning レコードに接続して作成する場合は、次の点に注意してください。
 
-* レコードタイプのテーブル表示
-* レコードの詳細ページまたはプレビューボックス
-* レコードの「接続」タブ
+* Workfront Planning の次の領域の「接続」フィールドから、Workfront プロジェクト、ポートフォリオ、プログラム、グループおよび会社を接続できます。
+
+   * レコードタイプのテーブル表示
+   * レコードの詳細ページまたはプレビューボックス
+   * レコードの「接続」タブ
+
+* Workfront Planning の次の領域からプロジェクトを作成できます：
+
+   * レコードタイプのテーブル表示
+   * 接続フィールドのレコードの「詳細」領域
+   * <span class="preview"> レコードの接続済みレコードページ（詳細領域） </span>
+
+* ポートフォリオとプログラムは、Workfront Planning の次の領域から作成できます。
+
+   * レコードタイプのテーブル表示
+   * 接続フィールドのレコードの「詳細」領域
 
 Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レコードの接続 ](/help/quicksilver/planning/records/connect-records.md) を参照してください。
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -128,10 +142,17 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レ
 既存のレコードから接続して新しいプロジェクトまたはポートフォリオを追加するには、次のものが必要です。
 
 * Workfront プロジェクト、ポートフォリオまたはプログラムに接続されたレコードタイプ。 詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
-* レコード。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
+* Workfront オブジェクトに接続されたレコードタイプのレコード。 詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 * この記事の [ アクセス要件 ](#access-requirements) の節で説明しているように、Workfront Planning およびWorkfrontでの正しいアクセス権と権限。
 
 ## Workfront Planning のレコードにプロジェクトを結び付けながらプロジェクトを作成します
+
+Workfront Planning の次の領域で、プロジェクトをWorkfront Planning のレコードに関連付けながらプロジェクトを作成できます：
+
+* 接続フィールドのレコードタイプのテーブルビューまたはレコードの詳細エリア
+* <span class="preview"> レコード </span> ージの「詳細」領域にある、レコードの「接続済みレコード」ページ
+
+### レコードの「詳細」エリアまたはレコードタイプのテーブル表示からプロジェクトを作成する
 
 他のレコードから接続する際にプロジェクトを作成するには：
 
@@ -154,7 +175,34 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レ
 
 1. （任意） Workfront Planning から新しいプロジェクトの名前をクリックして、Workfrontでプロジェクトのページを開き、プロジェクトをさらに更新します。
 
+<div class="preview">
+
+### レコードの接続されたレコードページからのプロジェクトの作成
+
+1. テーブル表示で、プロジェクトのオブジェクトタイプをWorkfrontの Planning レコードタイプに関連付けます。
+
+   詳しくは、[レコードタイプの接続](/help/quicksilver/planning/architecture/connect-record-types.md)を参照してください。
+
+1. 任意のビューでレコードの名前をクリックします。 「詳細」 プレビューボックスが開きます。
+
+1. プロジェクトの **接続されたレコードのページ** を追加します。
+
+   詳しくは、「レコードページレイアウトの管理 [ の「接続されたレコードページをレコードに追加する」の節を参照し ](/help/quicksilver/planning/records/manage-the-record-page.md) ください。
+
+   接続されたレコード ページがテーブル ビューに表示されます。 接続されたプロジェクトがテーブルに表示されます。
+
+   ![ 接続されたレコードページのプロジェクト テーブルビュー ](assets/projects-connected-records-page-table.png)
+
+1. プロジェクト テーブルで **新規行** をクリックして、プロジェクトを追加します。
+
+   この領域で追加できるのは空のプロジェクトのみです。 テンプレートを使用してプロジェクトを追加することはできません。
+1. （オプション）テーブル表示でプロジェクトの名前をクリックして、Workfrontでプロジェクトを開き、詳細を追加します。
+
+</div>
+
 ## ポートフォリオをWorkfront Planning のレコードに接続する際のポートフォリオの作成
+
+ポートフォリオは、レコードタイプのテーブル表示またはレコードの詳細ページから作成できます。
 
 計画レコードから接続するポートフォリオを作成する手順は、次のとおりです。
 
@@ -173,6 +221,8 @@ Planning レコードとWorkfrontオブジェクトの接続の詳細は、[ レ
 1. （任意）Workfront プランニングから新しいポートフォリオの名前をクリックして、Workfrontでポートフォリオのページを開き、ポートフォリオをさらに更新します。
 
 ## Workfront Planning のレコードにプログラムを関連付ける際に、プログラムを作成します
+
+プログラムは、レコードタイプのテーブル表示またはレコードの詳細ページから作成できます。
 
 Planning レコードから接続するプログラムを作成するには、次の手順に従います。
 

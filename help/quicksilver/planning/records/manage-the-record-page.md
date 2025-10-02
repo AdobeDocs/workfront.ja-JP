@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '2308'
+source-wordcount: '2434'
 ht-degree: 7%
 
 ---
@@ -332,7 +332,22 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 
      テーブルビューでのレコードの編集については、[ レコードの編集 ](/help/quicksilver/planning/records/edit-records.md) を参照してください。
 
-   * 接続されたレコード ページのテーブル内の任意のレコードをインライン編集します。 実稼動環境では、すべてのWorkfront オブジェクトが読み取り専用のテーブルビューに表示され、編集できません。 <span class="preview"> プレビュー環境でWorkfront プロジェクトをインライン編集できます。</span>
+   * 接続されたレコード ページのテーブル内の任意のレコードをインライン編集します。
+
+     実稼動環境では、すべてのWorkfront オブジェクトが読み取り専用のテーブルビューに表示され、編集できません。
+
+     <span class="preview"> プレビュー環境では、接続されたレコードページでプロジェクトをインライン編集できます。</span>
+
+1. <span class="preview"> （条件付き）接続されたプロジェクトのリストを表示する場合、次のいずれかの操作をおこないます。</span>
+
+   * <span class="preview"> 接続されたレコードページの右上隅にある **レコードを接続** をクリックして、既存のプロジェクトを接続します。</span>
+   * <span class="preview"> テーブル内のインライン編集プロジェクト情報。</span>
+   * <span class="preview"> テンプレートを使用せずにプロジェクトを作成するには、「**新規の行**」をクリックします。</span>
+
+     詳しくは、[ レコードに関連付ける際に、Workfront Planning からWorkfront オブジェクトを作成する ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
+   * <span class="preview"> プロジェクトの上にマウスポインターを置いて **詳細** メニュー [ 詳細メニュー ](assets/more-menu.png) をクリックし、次のいずれかをクリックします。</span>
+      * <span class="preview">**削除**：プロジェクトを削除します。 プロジェクトを削除すると、レコードからプロジェクトが切断され、Workfrontのごみ箱に移動されます。</span>
+      * <span class="preview">**切断**：レコードからプロジェクトを切断します。 プロジェクトの切断 </span>
 
 1. （オプション）「接続されたレコード」ページタブの名前をダブルクリックします
 
@@ -356,7 +371,7 @@ Adobe Workfront Planning でレコードのプレビューとページのレイ�
 1. （条件付き）より多くのレコードまたはオブジェクトを接続するには、次のいずれかの操作を行います。
 
    * テーブルの下部にある「**接続**」をクリックして、レコードやWorkfront オブジェクト <span class="preview"> プロジェクトを除く </span> を追加または削除します。
-   * <span class="preview"> プレビュー環境で、接続されたレコードページの右上隅にある **レコードを接続** をクリックするか、テーブルの下部にある **新しい行** をクリックして、プロジェクトを追加または削除します。</span>
+   * <span class="preview"> プレビュー環境で、接続されたレコードページの右上隅にある **レコードを接続** をクリックして既存のプロジェクトを接続するか、テーブルの下部にある **新しい行** をクリックしてプロジェクトを作成し、自動的に現在のレコードに接続します。</span>
 
    詳しくは、[レコードを接続する](/help/quicksilver/planning/records/connect-records.md)を参照してください。
 1. （オプション）接続されたレコードページのタブの名前にポインタを合わせ、「**詳細**![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、「**削除**」をクリックしてタブを削除します。

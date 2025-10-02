@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 5b9b1f397c76afa2e2ae550e0ce62a6038b8bd86
 workflow-type: tm+mt
-source-wordcount: '3371'
+source-wordcount: '3397'
 ht-degree: 38%
 
 ---
@@ -337,7 +337,7 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
 
 >[!NOTE]
 >
->Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/ja/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
+>Planning レコードとそのフィールドには、Experience Manager AssetsとAdobe Experience Manager Assets間の統合を通じてWorkfront管理者がメタデータ・マッピングを構成する際に、Workfrontからアクセスできます。 詳しくは、[Adobe WorkfrontとExperience Manager Assets間のアセットメタデータのマッピングの設定 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping) を参照してください。
 
 レコードをExperience Manager Assets に接続するには：
 
@@ -467,11 +467,12 @@ Adobe Workfront Planning レコードを相互に接続したり、他のアプ�
    接続されたレコードタイプのページがテーブル表示に表示されます。
 
    1 つのタイプの接続レコードがすべてテーブルに表示されます。
-1. レコードを追加または削除するには、「**接続**」、「<span class="preview">**レコードを接続**」または「**新しい行**</span>」をクリックします。
+1. プロジェクトのリストの「**レコードを接続**」または <span class="preview">**レコードを接続** をクリックして </span> 既存のレコードを追加または削除します。
 
    ![ 接続されたレコードの詳細タブでハイライト表示された「接続」ボタン ](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 
    詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+1. <span class="preview"> プロジェクトのリストで **新規行** をクリックしてプロジェクトを作成します。 新しいプロジェクトは、現在のレコードに自動的に接続されます。</span>
 1. （オプション）接続されたレコードが見つからない場合は、「**+追加**」をクリックして作成し、接続します。
 
 ## Workfront オブジェクトからのレコードの接続

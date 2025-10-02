@@ -4,10 +4,10 @@ description: レコードタイプは、Adobe Workfront Planning のオブジェ
 hidefromtoc: true
 hide: true
 exl-id: b977d5dd-8975-42c4-9968-a7ac357972e6
-source-git-commit: bfb0fd2956ffb9384a09882864668d5dba33a53b
+source-git-commit: eacc6b26bd30ac7da363c6aa1d759a65a20cd9f4
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 11%
+source-wordcount: '744'
+ht-degree: 9%
 
 ---
 
@@ -25,15 +25,18 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">迅速リリースについて詳しくは、[組織での迅速リリースを有効または無効にする](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)を参照してください。</span>
 
-ワークスペース管理者は、ワークスペースにあるレコードタイプを、Adobe Workfront Planning で管理するワークスペースに追加できます。
+ワークスペース管理者は、別のワークスペースにあるレコードタイプを、Adobe Workfront Planning で管理するワークスペースに追加できます。
 
-ワークスペースマネージャーがレコードタイプを既存のレコードタイプとして他のワークスペースに追加する前に、まずレコードタイプを一元的なものとして指定する必要があります。
+この記事では、既存のレコードタイプからレコードタイプを追加する方法と、不要になったレコードタイプを削除する方法について説明します。
 
-ワークスペース間の設定を定義する際に、レコードタイプを作成または編集する際に、レコードタイプを一元的として指定できます。
+ワークスペースマネージャーでは、まずレコードタイプを一元化されたレコードタイプとして指定してから、既存のレコードタイプとして管理するワークスペースに追加する必要があります。
+
+詳細設定を定義する際に、レコードタイプを作成または編集する際に一元的として指定できます。
 
 詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 
 一元化されたレコードタイプからワークスペースにレコードを追加する前に、[ ワークスペース間のレコードタイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) を参照してください。
+
 
 ## アクセス要件
 
@@ -53,8 +56,10 @@ recommendations: noDisplay, noCatalog
    <td role="rowheader"><p>Adobe Workfront パッケージ</p></td> 
    <td> 
 <ul><li><p>任意のWorkfront パッケージ</p></li>
-And
-<li><p>Planning Plus パッケージ</p></li></ul>
+<p>And</p>
+<li><p>接続可能なレコードタイプを作成する任意の Planning パッケージ</p></li>
+<li><p>一元化されたレコードタイプを作成するための Planning Plus パッケージ</p></li>
+</ul>
 <!--Or:
 <ul><li><p>Any Workflow package</p> </li>
 And
@@ -92,7 +97,7 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    >[!TIP]
    >
-   >別のワークスペースに追加するように設定されたレコードタイプがない場合、レコードタイプの作成時に、別のワークスペースから追加するオプションは表示されません。
+   >別のワークスペースに追加するように設定されたレコードタイプがない場合、別のワークスペースから追加するオプションは表示されません。
 
    次のことが発生します。
 
@@ -100,19 +105,27 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
       * すべての元のフィールド
       * すべてのレコード接続
-   * 他のワークスペースから追加されたレコードを表示できるのは、そのワークスペースに対して少なくとも表示権限を持っている場合のみです。
+   * 同じ一元化されたレコード タイプを使用する他のワークスペースから追加されたレコードを表示できるのは、それらのワークスペースに対して少なくとも表示権限を持っている場合のみです。
    * **一元的レコードタイプ** アイコン ![ 一元的レコードタイプアイコン ](assets/global-icon.png) が、新しいレコードタイプのカードに追加されます。
    * 読み取り専用 **Workspace** フィールドが新規レコードタイプのテーブルビューに追加されます。 フィールドには、各レコードが作成されたワークスペースが表示されます。
 
      >[!NOTE]
      >
-     >* 新しいレコードタイプの外観、詳細設定、元のフィールドは編集できません。 レコードタイプとすべての元のフィールドおよび設定は、元のワークスペースからのみ編集できます。
+     >新しいレコードタイプの外観、詳細設定、元のフィールドは編集できません。 レコードタイプとすべての元のフィールドおよび設定は、元のワークスペースからのみ編集できます。
 
 1. （オプション）をクリックして、新しく追加したレコードタイプをワークスペース内の任意のセクションにドラッグ&amp;ドロップします。
 
 <!--This will be released later with another epic: 1. (Optional) Click the **More** menu ![More menu](assets/more-menu.png) in the new record type's card, or to the right of the record type's name on its page, then click **Share** to share it with other users in the same workspace, or adjust their permissions to the record type.-->
 
-1. （省略可能）新しいレコードの種類のカードの **その他** メニュー ![ その他メニュー ](assets/more-menu.png) をクリックするか、ページ上のレコードの種類の名前の右側をクリックして、[**削除**] をクリックします。
+## セカンダリワークスペースからの一元化されたレコードタイプの削除
+
+追加したレコードタイプは、不要になったら別のワークスペースから削除できます。 削除すると、セカンダリワークスペースからは削除され、そのワークスペースから追加されたレコードが削除されます。 元のレコードタイプは、元のワークスペースと、それが追加された他のワークスペースに残ります。
+
+セカンダリワークスペースから一元化されたレコードタイプを削除するには：
+
+1. セカンダリワークスペースで一元化されたレコードタイプに移動します。
+
+1. （オプション）レコードタイプのカードまたはページ上のレコードタイプの名前の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、**削除** をクリックします。
 1. （条件付き）表示されたフィールドに **削除** と入力し、「**完全に削除**」をクリックします。
 
    次のことが発生します。
