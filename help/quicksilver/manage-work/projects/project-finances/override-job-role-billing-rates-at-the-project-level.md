@@ -6,14 +6,16 @@ description: プロジェクトマネージャーは、特定のプロジェク�
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
-source-git-commit: eb3db3b056cea359f77e56f77d6e9520954e2abb
+source-git-commit: 5e2c2a29c822150377882006bd6bc15068ff8702
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 92%
+source-wordcount: '866'
+ht-degree: 91%
 
 ---
 
 # プロジェクトレベルでの担当業務請求レートの上書き
+
+{{highlighted-preview}}
 
 プロジェクトマネージャーは、特定のプロジェクトの担当業務に対する請求レートを指定できます。このプロジェクトレベルの請求レートは、この担当業務のシステムレベルの請求レートを上書きします。Workfront は、担当業務のプロジェクトレベルの請求レート使用して、システムレベルの請求レートを使用する代わりに、収益を計算します。
 
@@ -89,8 +91,6 @@ ht-degree: 92%
 
 1. 「**担当業務**」フィールドで、請求料金を変更する担当業務を選択します。
 
-   ![ プロジェクトの請求レートを上書き ](assets/override-billing-rate-on-project-nwe-350x310.png)
-
    「**デフォルトの請求料金**」フィールドには、この担当業務のシステムレベルの料金が表示されます。
 
 1. 「**請求料金 1**」フィールドに 1 回限りの請求料金の上書きを入力し、「**保存**」をクリックして請求料金を 1 回だけ上書きします
@@ -105,7 +105,11 @@ ht-degree: 92%
    * **開始日**：これはデフォルトの料金が終了する日付です。
    * **終了日**：新規請求料金の上書きが終了する日付です。
 
-   ![new_billing_rate_with_adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   <span class="preview"> プレビュー環境のサンプル画像：</span>
+   ![ 請求料率と上書き日 ](assets/billing-rates-093025.png)
+
+   実稼動環境のサンプル画像：
+   ![ 請求料率と上書き日 ](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
 1. 選択した日付のタイムゾーンが「新規請求料金」ボックスの下部に表示されます。設定の顧客情報エリアに表示されるように、Workfront インスタンスに関連付けられたタイムゾーンです。詳しくは、[システムの基本情報を設定](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)を参照してください。
 1. Workfront は、プロジェクトの収益を計算するときに、指定された期間に発生する時間に上書きの担当業務料金を適用します。
