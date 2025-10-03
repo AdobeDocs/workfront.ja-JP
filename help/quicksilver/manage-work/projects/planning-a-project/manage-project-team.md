@@ -41,7 +41,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 * タスクに割り当てられたユーザー
 * イシューに割り当てられたユーザー（プロジェクトの場合のみ）
 
-プロジェクトチームのユーザーは、プロジェクトに関する通知を受け取ります。 詳しくは、[ イベント通知タイプ ](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
+プロジェクトチームのユーザーは、プロジェクトに関する通知を受け取ります。 詳しくは、[&#x200B; イベント通知タイプ &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
 
 プロジェクトおよびテンプレートのチームのユーザーを追加（プロジェクトに対してのみ）、削除、または更新を送信することで、ユーザーを管理できます。
 
@@ -74,7 +74,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -184,15 +184,15 @@ You must have the following access to perform the steps in this article:
 
    ユーザーは、選択した担当業務に割り当てられた承認に関連する通知を受け取ります。
 
-   詳しくは、記事「プロジェクトチームの概要 [ の「役割ベースの承認」の節を参照し ](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md) ください。
+   詳しくは、記事「プロジェクトチームの概要 [&#x200B; の「役割ベースの承認」の節を参照し &#x200B;](/help/quicksilver/manage-work/projects/planning-a-project/project-team-overview.md) ください。
 
-1. リストで 1 人または複数のユーザーを選択し、**削除** アイコン ![ 削除アイコン ](assets/remove-icon.png) をクリックして、チームから削除します。
+1. リストで 1 人または複数のユーザーを選択し、**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/remove-icon.png) をクリックして、チームから削除します。
 
 1. **はい、選択したユーザーを削除** をクリックして、ユーザーを確認して削除します。
 
    未完了の作業アイテムからユーザーが削除され、割り当て解除される。
 
-   詳細については、この記事の [ プロジェクトチームからユーザーを削除する際の考慮事項 ](#considerations-for-removing-users-from-a-project-team) の節を参照してください。
+   詳細については、この記事の [&#x200B; プロジェクトチームからユーザーを削除する際の考慮事項 &#x200B;](#considerations-for-removing-users-from-a-project-team) の節を参照してください。
 1. （任意）このプロジェクトの更新をユーザーに送信するには、[**すべて更新**] をクリックしてチームの全員に更新を送信します
 
    または
@@ -201,7 +201,7 @@ You must have the following access to perform the steps in this article:
 
    <!--update screen shot when they fix the bug - the text above the box needs to match the OLD box, below-->
 
-   ![ プロジェクトの「ユーザーに更新を送信」ボックス ](assets/send-update-to-user-on-project-box-2025.png)
+   ![&#x200B; プロジェクトの「ユーザーに更新を送信」ボックス &#x200B;](assets/send-update-to-user-on-project-box-2025.png)
 
    <!--Old UI for projects but the text above the comment box is right and matches the functionality):
    ![OLD Send update to user on a project](assets/send-update-to-user-on-project-box.png)-->
@@ -219,7 +219,7 @@ You must have the following access to perform the steps in this article:
 
    ユーザーに対して有効になっている場合はユーザーにメール通知が届き、新しい更新に関するアプリ内通知が届く場合があります。
 
-1. （任意） **エクスポート** アイコン ![ エクスポートアイコン ](assets/export-icon.png) をクリックして、ユーザーのリストをファイルにエクスポートします
+1. （任意） **エクスポート** アイコン ![&#x200B; エクスポートアイコン &#x200B;](assets/export-icon.png) をクリックして、ユーザーのリストをファイルにエクスポートします
 
    または
 
@@ -241,7 +241,7 @@ You must have the following access to perform the steps in this article:
 
    ユーザーがテンプレートタスクから削除され、割り当て解除されます。
 
-   詳細については、この記事の [ プロジェクトチームからユーザーを削除する際の考慮事項 ](#considerations-for-removing-users-from-a-project-team) の節を参照してください。
+   詳細については、この記事の [&#x200B; プロジェクトチームからユーザーを削除する際の考慮事項 &#x200B;](#considerations-for-removing-users-from-a-project-team) の節を参照してください。
 
 1. （任意）ユーザーに更新を送信するには、「**すべて更新**」をクリックして、リストのすべてのユーザーに更新を送信します
 
@@ -251,7 +251,7 @@ You must have the following access to perform the steps in this article:
 
    <!--update screen shot for unshim production, notice the text above the box - it needs to say "Post an update to each person's profile"-->
 
-   ![ テンプレートの「ユーザーに更新を送信」ボックス ](assets/send-update-to-user-on-template-box.png)
+   ![&#x200B; テンプレートの「ユーザーに更新を送信」ボックス &#x200B;](assets/send-update-to-user-on-template-box.png)
 
    **ユーザーに更新を送信** ボックスが開きます。
 
@@ -270,7 +270,7 @@ You must have the following access to perform the steps in this article:
 
    ユーザーに対して有効になっている場合はユーザーにメール通知が届き、新しい更新に関するアプリ内通知が届く場合があります。
 
-1. **エクスポート** アイコン ![ エクスポートアイコン ](assets/export-icon.png) をクリックして、ユーザーのリストをファイルにエクスポートします
+1. **エクスポート** アイコン ![&#x200B; エクスポートアイコン &#x200B;](assets/export-icon.png) をクリックして、ユーザーのリストをファイルにエクスポートします
 
    または
 
