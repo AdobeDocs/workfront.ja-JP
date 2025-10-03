@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
-source-git-commit: a00776ecd9f8dc14b9dce14ce9463c2bb709a363
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '1399'
+source-wordcount: '1418'
 ht-degree: 36%
 
 ---
@@ -261,6 +261,10 @@ You must have the following access to perform the steps in this article:
    * **ユーザーをタグ付け** をクリックして、同じ更新を受信する追加のユーザーをタグ付けします。
    * 「**会社に非公開**」オプションを選択して、会社内のユーザーに対して更新を非公開にします。
    * 「**送信**」をクリックします。
+
+     >[!TIP]
+     >
+     >**会社に非公開** 設定は、Workfront プロファイルが会社に関連付けられている場合にのみ使用できます。
 
    更新内容は、タグ付けされた各ユーザーのプロファイルの「**更新**」セクションに追加されます。
 

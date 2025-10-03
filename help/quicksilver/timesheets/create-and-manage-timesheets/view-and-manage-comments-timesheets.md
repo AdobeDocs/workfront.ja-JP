@@ -6,10 +6,10 @@ description: タイムシート、タイムシートに含まれる作業項目�
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '901'
-ht-degree: 84%
+source-wordcount: '920'
+ht-degree: 82%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 84%
 
 ## アクセス要件
 
-+++ 展開すると、この記事の機能のアクセス要件が表示されます。
++++ 展開すると、この記事の機能のアクセス要件が表示されます。 
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -96,6 +96,10 @@ ht-degree: 84%
 1. [作業の更新](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)の説明に従って、新しいコメントの追加を開始するか、既存のコメントに返信します。
 1. （オプション）「**人物またはチームにタグ付け**」フィールドにユーザーまたはチームを追加して、他のユーザーを更新に含めます。詳しくは、[更新時の他のユーザーへのタグ付け](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)を参照してください。
 1. （オプション）社内のユーザーだけに更新を表示する場合は、「**社外秘**」オプションを選択します。
+
+   >[!TIP]
+   >
+   >**会社に非公開** 設定は、Workfront プロファイルが会社に関連付けられている場合にのみ使用できます。
 1. コメントを入力してから、「**送信**」をクリックします。
 
    コメントがタイムシートの「[!UICONTROL 更新]」セクションの「コメント」タブに表示されます。

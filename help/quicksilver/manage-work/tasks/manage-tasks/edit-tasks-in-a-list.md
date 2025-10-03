@@ -2,14 +2,14 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: リスト内のタスクを編集
-description: リストに表示されるフィールドを編集することで、タスクのリストのタスク情報を編集できます。
+description: リストに表示されるフィールドを編集することで、タスクのリスト内のタスク情報を編集できます。変更内容をWorkfrontに保存する方法を指定するには、タスクのリストでプランモードを定義する必要があります。 変更は、手動または自動で保存できます。
 author: Alina
 feature: Work Management
 exl-id: 2af81907-3657-459e-b780-65983e224ca8
-source-git-commit: 42243c1f09b9d7eaa6705a0722fd3650bbc95266
+source-git-commit: 3b5452c51c19edfafc9244c2cfd58d7174732375
 workflow-type: tm+mt
-source-wordcount: '2756'
-ht-degree: 75%
+source-wordcount: '2822'
+ht-degree: 69%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 75%
 
 この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++ 
 
 ## リスト内のタスクの編集に関する考慮事項 {#considerations-about-editing-tasks-in-a-list}
 
@@ -84,15 +84,20 @@ ht-degree: 75%
      >
      >デフォルトでは、Workfront は、タスクに対する変更をサブタスクセクションまたはタスクレポートに自動的に保存します。
 
-* タスクに加えた変更を Workfront がリストに保存するタイミングを制御できます。変更は自動的に保存することも、手動で保存することもできます。
+* タスクの編集を開始する前に計画モードを定義することで、Workfrontでリスト内のタスクに加えた変更をいつ保存するかを制御できます。
 
-  タスクに加えた変更を Workfront がリストに保存するタイミングの設定について詳しくは、この記事にある[リスト内のタスクを編集する際の保存のオプションを選択](#select-a-save-option-when-editing-tasks-in-a-list)の節を参照してください。
+  変更内容を保存するWorkfrontは、次のどちらかを選択できます。
+
+      *すべての変更の後に自動的に 
+    *手動で、保存をクリックした後にのみ 
+  
+  Workfrontがリスト内のタスクに加えた変更をいつ保存するかについての詳細は、この記事の「リスト内のタスクを編集する前にプラン モードを変更する [ を参照してください ](#modify-plan-mode-before-editing-tasks-in-a-list)。
 
 * 他のユーザーは、タスクに対して行った更新を表示する前に、ページを更新する必要があります。
 
-## リスト内のタスクを編集する際に保存のオプションを選択 {#select-a-save-option-when-editing-tasks-in-a-list}
+## リストでタスクを編集する前にプランモードを変更
 
-リスト内のタスクに加えた変更を、発生時に自動的に保存するか、または各変更を手動で保存するかを指定できます。
+リスト内のタスクに加えた変更を、発生時に自動的に保存するか、または各変更を手動で保存するかを指定できます。 これを行うには、タスクを編集する前に、タスクのリストでプランモードを変更する必要があります。
 
 >[!IMPORTANT]
 >
@@ -104,13 +109,13 @@ ht-degree: 75%
 
 * アップデートのたびに、Workfront で自動的に変更を保存することができます。
 
-  詳しくは、この記事の[リスト内のタスクを編集し、変更を自動的に保存](#edit-tasks-in-a-list-and-automatically-save-changes)の節を参照してください。
+  詳しくは、この記事の [ 変更を自動的に保存するようにプランモードを設定する ](#set-the-plan-mode-to-automatically-save-changes) の節を参照してください。
 
 * 「保存」ボタンを使用して、手動で複数の変更を一度に適用するタイミングを制御できます。
 
-  詳しくは、この記事の[リスト内のタスクを編集し、変更を手動で保存](#edit-tasks-in-a-list-and-manually-save-changes)の節を参照してください。
+  詳しくは、この記事の [ 手動で変更を保存するようにプランモードを設定 ](#set-the-plan-mode-to-manually-save-changes) 節を参照してください。
 
-### リスト内のタスクを編集し、変更を自動的に保存 {#edit-tasks-in-a-list-and-automatically-save-changes}
+### 変更が自動的に保存されるように計画モードを設定します。
 
 >[!TIP]
 >
@@ -192,7 +197,7 @@ ht-degree: 75%
     </tbody> 
    </table>
 
-### リスト内のタスクを編集し、変更を手動で保存 {#edit-tasks-in-a-list-and-manually-save-changes}
+### 変更を手動で保存するように計画モードを設定します。 {#edit-tasks-in-a-list-and-manually-save-changes}
 
 リスト内のタスクに加えた変更を手動で保存できます。この方法で変更を保存する場合、保存する前に変更を元に戻すことができる自由度があります。
 
