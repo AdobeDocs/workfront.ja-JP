@@ -19,7 +19,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
+>[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
 >
 >**Microsoftがこれらのトークンを無効にしたため、Microsoft Outlook 用Workfront統合は機能しなくなりました。**
 
