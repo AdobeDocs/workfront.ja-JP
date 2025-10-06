@@ -6,10 +6,10 @@ description: ' [!DNL Adobe Workfront]  のメール通知を Outlook の受信�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 36239da6-b5f2-423c-9e81-af78bc31bf26
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 68%
+source-wordcount: '291'
+ht-degree: 83%
 
 ---
 
@@ -17,11 +17,9 @@ ht-degree: 68%
 
 >[!IMPORTANT]
 >
->[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+>[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
 >
->* **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
->
->この変更の一環として、Microsoftは、トークンを再度有効にする方法を変更することを決定しました。 **2025 年 6 月 30 日（PT）** 以降、管理者はトークン自体を再度有効にすることができなくなります。例外を付与できるのは、Microsoft サポートのみです。 **2025 年 10 月 1 日に、すべてのテナントに対してレガシートークンがオフになります。 例外は許可されません。**
+>**Microsoftがこれらのトークンを無効にしたため、Microsoft Outlook 用Workfront統合は機能しなくなりました。**
 
 [!DNL Adobe Workfront] のメール通知を [!DNL Outlook] の受信トレイで受信したとき、Outlook 内でその通知に返信するだけで、[!DNL Workfront] に簡単にコメントを投稿できます。
 

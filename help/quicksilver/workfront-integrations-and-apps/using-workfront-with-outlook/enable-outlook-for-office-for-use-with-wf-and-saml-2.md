@@ -6,22 +6,22 @@ description: ' [!DNL Adobe Workfront]  システムが SAML 2.0 と統合され�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 72ffceb3-50f0-486e-92b5-0bea4c9a99c8
-source-git-commit: d9b0e6b1c2afd17cefe190f29a072634f0b0ce50
+source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
 workflow-type: tm+mt
-source-wordcount: '236'
-ht-degree: 52%
+source-wordcount: '174'
+ht-degree: 71%
 
 ---
 
 # [!DNL Outlook for Office] を [!DNL Adobe Workfront] および SAML 2.0 で使用できるようにする
 
+
+
 >[!IMPORTANT]
 >
->[Microsoftでは、従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートを無効にする処理を行っています。現在、このトークンは、Workfront Outlook アドインで認証に使用されています。 Microsoftによるこの変更は、既にお客様に影響を与え始めており、2025 年 10 月まで段階的に展開し続けます。
+>[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
 >
->* **Microsoftがこれらのトークンを完全に無効にすると、Microsoft Outlook 用Workfront統合は機能しなくなります。**
->
->この変更の一環として、Microsoftは、トークンを再度有効にする方法を変更することを決定しました。 **2025 年 6 月 30 日（PT）** 以降、管理者はトークン自体を再度有効にすることができなくなります。例外を付与できるのは、Microsoft サポートのみです。 **2025 年 10 月 1 日に、すべてのテナントに対してレガシートークンがオフになります。 例外は許可されません。**
+>**Microsoftがこれらのトークンを無効にしたため、Microsoft Outlook 用Workfront統合は機能しなくなりました。**
 
 [!DNL Adobe Workfront] システムが SAML 2.0 と統合されている場合、ユーザーが SAML 2.0 資格情報を使用して認証できるようにするには、[!DNL Office] アドインの SAML 2.0 認証を有効にする必要があります。
 
