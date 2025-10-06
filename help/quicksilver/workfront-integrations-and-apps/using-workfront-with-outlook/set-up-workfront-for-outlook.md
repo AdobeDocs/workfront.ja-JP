@@ -19,16 +19,16 @@ ht-degree: 80%
 
 >[!IMPORTANT]
 >
->[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
+>[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
 >
 >**Microsoftがこれらのトークンを無効にしたため、Microsoft Outlook 用Workfront統合は機能しなくなりました。**
 
 [!DNL Adobe Workfront] [!DNL Outlook] アドインを使用すると、次の主要な [!DNL Workfront] タスクを Outlook から直接実行できます。
 
-* メールからの情報を使用して、既存のプロジェクト、タスクまたはイシューを更新します。詳しくは、[ [!DNL Outlook] メールからの既存のオブジェクトの更新](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)を参照してください。
-* [!DNL Outlook] 内で、メールに基づく [!DNL Workfront] リクエストを作成します。詳しくは、[ [!DNL Outlook]  からの Adobe Workfront リクエストの作成](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)を参照してください。
+* メールからの情報を使用して、既存のプロジェクト、タスクまたはイシューを更新します。詳しくは、[&#x200B; [!DNL Outlook] メールからの既存のオブジェクトの更新](../../workfront-integrations-and-apps/using-workfront-with-outlook/update-an-existing-object-from-an-outlook-email.md)を参照してください。
+* [!DNL Outlook] 内で、メールに基づく [!DNL Workfront] リクエストを作成します。詳しくは、[&#x200B; [!DNL Outlook]  からの Adobe Workfront リクエストの作成](../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md)を参照してください。
 * [!UICONTROL 担当作業]領域にメールをタスクとして追加します。詳しくは、[作業リストに  [!DNL Outlook]  メールをタスクとして追加する](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)を参照してください。
-* [!DNL Outlook] 用の [!DNL Workfront] アドインを使用してコメントに返信します。Workfront for [!DNL Outlook] からのコメントへの返信については、[ [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md) からコメントに返信するを参照してください。
+* [!DNL Outlook] 用の [!DNL Workfront] アドインを使用してコメントに返信します。Workfront for [!DNL Outlook] からのコメントへの返信については、[&#x200B; [!DNL Outlook]](../../workfront-integrations-and-apps/using-workfront-with-outlook/reply-to-a-comment-from-outlook.md) からコメントに返信するを参照してください。
 * タスクやイシューを最初から作成するか、（ドラッグ&amp;ドロップ機能を使用して）既存のメールから作成します。詳しくは、[プロジェクトに [!DNL Outlook] メールをタスクとして追加する](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)を参照してください。
 
 [!DNL Workfront for Outlook] を使用する前に、[!DNL Workfront] アドインを [!DNL Outlook] アカウントに追加する必要があります。
@@ -72,8 +72,8 @@ ht-degree: 80%
 
 次のアプリケーションを使用できます。
 
-* **[!DNL Outlook]Web 上：**[!DNL Workfront] アドインは、デスクトップまたはモバイルデバイスの web ブラウザーから [!DNL Outlook] を使用しているときに利用できます。この機能は [!DNL Outlook] web アプリの使用時にも利用できます。
-* **[!DNL Outlook]デスクトップアプリケーション：**[!DNL Workfront] アドインは、[!DNL Office] パッケージに含まれる [!DNL Outlook] のデスクトップバージョン [!DNL Windows] および [!DNL Mac] を使用する場合に使用できます。
+* **[!DNL Outlook]Web 上：**&#x200B;[!DNL Workfront] アドインは、デスクトップまたはモバイルデバイスの web ブラウザーから [!DNL Outlook] を使用しているときに利用できます。この機能は [!DNL Outlook] web アプリの使用時にも利用できます。
+* **[!DNL Outlook]デスクトップアプリケーション：**&#x200B;[!DNL Workfront] アドインは、[!DNL Office] パッケージに含まれる [!DNL Outlook] のデスクトップバージョン [!DNL Windows] および [!DNL Mac] を使用する場合に使用できます。
 
 [!DNL Outlook] 用の [!DNL Workfront] アドインは、次の要件を満たす環境でサポートされます。
 
@@ -118,7 +118,7 @@ Outlook 用 Workfront アドインは、[Microsoft ストア](https://appsource.
 
 ### [!DNL Outlook 365] 向け [!DNL Workfront] {#workfront-for-outlook-365}
 
-1. [!DNL Outlook 365] で、Office 365 インターフェイスの上部にある **[!UICONTROL アドインを参照]** アイコン ![ アドインを参照 ](assets/outlook-add-in-26x26.png) アイコンをクリックし、**[!UICONTROL アドインの管理]** をクリックします。
+1. [!DNL Outlook 365] で、Office 365 インターフェイスの上部にある **[!UICONTROL アドインを参照]** アイコン ![&#x200B; アドインを参照 &#x200B;](assets/outlook-add-in-26x26.png) アイコンをクリックし、**[!UICONTROL アドインの管理]** をクリックします。
 
 1. **[!UICONTROL アドインを検索]**&#x200B;ボックスで、**[!DNL Workfront]** を検索し、[!UICONTROL Enter キー]を押します。
 
@@ -127,9 +127,9 @@ Outlook 用 Workfront アドインは、[Microsoft ストア](https://appsource.
 ### Web 版 [!DNL Workfront] for [!DNL Outlook] {#workfront-for-outlook-on-the-web}
 
 1. Web ブラウザーで [!DNL Microsoft Outlook] を開きます。
-1. **[!UICONTROL アドインを参照 ] アイコン** アドインを参照 ![ をクリック ](assets/outlook-add-in-web-version-20x20.png) ます。
+1. **[!UICONTROL アドインを参照 &#x200B;] アイコン** アドインを参照 ![&#x200B; をクリック &#x200B;](assets/outlook-add-in-web-version-20x20.png) ます。
 
-   アイコンを見つけるには、[Web 版 ](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) でのアドインの使用 [!DNL Outlook] を参照してください。
+   アイコンを見つけるには、[Web 版 &#x200B;](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) でのアドインの使用 [!DNL Outlook] を参照してください。
 
 1. 「**[!UICONTROL アドインを検索]**」フィールドで **[!DNL Workfront]** を検索して、**[!UICONTROL Enter]** を押します。
 

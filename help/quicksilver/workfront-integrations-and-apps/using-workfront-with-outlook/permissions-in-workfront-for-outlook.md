@@ -17,13 +17,13 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
+>[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
 >
 >**Microsoftがこれらのトークンを無効にしたため、Microsoft Outlook 用Workfront統合は機能しなくなりました。**
 
 [!DNL Workfront for Outlook] には、[!DNL Outlook] アドインで許可されている 4 つの中で最も高いレベルの権限が必要です。
 
-[!DNL Outlook] アドインでの権限について詳しくは、[!DNL Microsoft] ドキュメントの[ [!DNL Outlook]  アドインに関するプライバシー、アクセス許可、セキュリティ](https://docs.microsoft.com//office/dev/add-ins/outlook/privacy-and-security)を参照してください。
+[!DNL Outlook] アドインでの権限について詳しくは、[!DNL Microsoft] ドキュメントの[&#x200B; [!DNL Outlook]  アドインに関するプライバシー、アクセス許可、セキュリティ](https://docs.microsoft.com//office/dev/add-ins/outlook/privacy-and-security)を参照してください。
 
 [!DNL Workfront for Outlook] アドインには、最も高い権限範囲であるメールボックスの読み取り / 書き込みアクセス権（`ReadWriteMailbox`）が必要です。
 [!DNL Workfront for Outlook] 統合では、ユーザーが添付ファイル付きのメールからリクエストを送信した際に、[!DNL Outlook] Exchange サーバーから添付ファイルをダウンロードして [!DNL Workfront] にアップロードする機能があるため、最も高いレベルの権限が必要です。そのために、[!DNL Workfront for Outlook] では [!DNL Office] アドイン JavaScript API の `mailbox.getCallbackTokenAsync()` 関数を使用してトークンを取得し、そのトークンを使用して Exchange サーバーからメールの添付ファイルをダウンロードします。その関数を使用できる権限は、`ReadWriteMailbox` のみです。詳しくは、Microsoft ドキュメントの [Outlook アドインに関するプライバシー、アクセス許可、セキュリティ](https://docs.microsoft.com//office/dev/add-ins/outlook/privacy-and-security)を参照してください。

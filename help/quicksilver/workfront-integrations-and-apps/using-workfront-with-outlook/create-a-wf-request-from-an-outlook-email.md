@@ -19,7 +19,7 @@ ht-degree: 88%
 
 >[!IMPORTANT]
 >
->[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
+>[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
 >
 >**Microsoftがこれらのトークンを無効にしたため、Microsoft Outlook 用Workfront統合は機能しなくなりました。**
 
@@ -70,7 +70,7 @@ Outlook メールから [!DNL Adobe Workfront] リクエストを作成できま
 1. 「**[!UICONTROL リクエストタイプを選択]**」フィールドで、リクエストを送信するリクエストキューを選択します。
 
 1. 次の情報を指定します。\
-   リクエストキューの設定方法に応じて、使用可能なフィールドは異なる場合があります。使用可能なフィールドの完全なリストと説明については、[ [!DNL Adobe Workfront] リクエストの作成と送信](../../manage-work/requests/create-requests/create-submit-requests.md)の記事を参照してください。
+   リクエストキューの設定方法に応じて、使用可能なフィールドは異なる場合があります。使用可能なフィールドの完全なリストと説明については、[&#x200B; [!DNL Adobe Workfront] リクエストの作成と送信](../../manage-work/requests/create-requests/create-submit-requests.md)の記事を参照してください。
 
    * **[!UICONTROL 件名]：**&#x200B;リクエストの件名を指定します。デフォルトでは、メールの件名が使用されます。
    * **[!UICONTROL 説明]：**&#x200B;リクエストの説明を指定します。デフォルトでは、メールの本文が使用されます。
