@@ -6,10 +6,10 @@ description: ' [!DNL Workfront for Outlook]  アドインには、メールボ�
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 704da044-21ed-4ca1-be6f-0e0aa832e069
-source-git-commit: 793c8c940c8cb7ac53169edf21ddf28af2554120
+source-git-commit: 3f779985292a2f89eb3a0ffad9378bd55f31d130
 workflow-type: tm+mt
-source-wordcount: '486'
-ht-degree: 89%
+source-wordcount: '101'
+ht-degree: 51%
 
 ---
 
@@ -17,32 +17,7 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン &#x200B;](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
+>[Microsoftでは、Workfront Outlook アドインで認証に使用されていた従来の Exchange オンライン トークン ](https://learn.microsoft.com/en-us/office/dev/add-ins/outlook/faq-nested-app-auth-outlook-legacy-tokens) のサポートが無効になっています。 Microsoftによるこの変更は、段階的にロールアウトされ、2025 年 10 月 1 日（PT）に完了します。
 >
 >**Microsoftがこれらのトークンを無効にしたため、Microsoft Outlook 用Workfront統合は機能しなくなりました。**
 
-[!DNL Workfront for Outlook] には、[!DNL Outlook] アドインで許可されている 4 つの中で最も高いレベルの権限が必要です。
-
-[!DNL Outlook] アドインでの権限について詳しくは、[!DNL Microsoft] ドキュメントの[&#x200B; [!DNL Outlook]  アドインに関するプライバシー、アクセス許可、セキュリティ](https://docs.microsoft.com//office/dev/add-ins/outlook/privacy-and-security)を参照してください。
-
-[!DNL Workfront for Outlook] アドインには、最も高い権限範囲であるメールボックスの読み取り / 書き込みアクセス権（`ReadWriteMailbox`）が必要です。
-[!DNL Workfront for Outlook] 統合では、ユーザーが添付ファイル付きのメールからリクエストを送信した際に、[!DNL Outlook] Exchange サーバーから添付ファイルをダウンロードして [!DNL Workfront] にアップロードする機能があるため、最も高いレベルの権限が必要です。そのために、[!DNL Workfront for Outlook] では [!DNL Office] アドイン JavaScript API の `mailbox.getCallbackTokenAsync()` 関数を使用してトークンを取得し、そのトークンを使用して Exchange サーバーからメールの添付ファイルをダウンロードします。その関数を使用できる権限は、`ReadWriteMailbox` のみです。詳しくは、Microsoft ドキュメントの [Outlook アドインに関するプライバシー、アクセス許可、セキュリティ](https://docs.microsoft.com//office/dev/add-ins/outlook/privacy-and-security)を参照してください。
-
-[!DNL Workfront for Outlook] アドインには、`ReadWriteItem` 権限も必要です（`ReadWriteMailbox` に含まれています）。これはメールの本文の読み取り、およびメールのメタデータの読み取り / 更新に使用されます。
-
-* メール本文の読み取り：
-
-  [!DNL Workfront for Outlook] は、ユーザーがリクエストを送信したとき、または [!DNL Adobe Workfront] オブジェクトへの更新としてメール本文を送信したときに、メールの本文を読み取ります。
-* メールのメタデータの読み取り / 更新：
-
-  [!DNL Workfront for Outlook] は、ユーザーがメールからリクエストを送信したときに、メールヘッダーを更新します。これは、送信された [!DNL Adobe Workfront] オブジェクトの情報を格納するために行われ、ユーザーがその後、同じメールのアドインを開くと、そのメールでの以前のアクションに関する情報が表示されます。
-
-[!DNL Workfront for Outlook] は、ユーザーがアドオン内でアクションを実行した場合のみ、ユーザーのメールボックスにアクセスします。バックグラウンド機能はありません。Workfront for Outlook は、次のシナリオでのみ、ユーザーのメールボックスにアクセスします。
-
-* ユーザーが [!DNL Workfront for Outlook] から、リクエストの送信、タスクの作成、または更新としてのメールの送信を行う（アドインを開き、アクションを選択する）
-   * [!DNL Workfront for Outlook] はメールの本文を読み取り、アドイン内のフォームに入力します。
-   * [!DNL Workfront for Outlook] はメールのメタデータを読み取り、同じメールのアドインでの以前の操作に関する情報を表示します。
-* ユーザーが [!DNL Workfront for Outlook] から、リクエストの送信、タスクの作成、または更新としてのメールの送信を行う（アドインで「[!UICONTROL 送信]」ボタンをクリックする）
-   * [!DNL Workfront for Outlook] はメールの本文を読み取り、リクエストの説明またはコメントとして Workfront に送信します。
-   * [!DNL Workfront for Outlook] はメールのメタデータを更新して、送信されたリクエストや更新されたオブジェクトに関する情報を格納します。
-   * [!DNL Workfront for Outlook] は Exchange サーバーからメールの添付ファイルをダウンロードして、送信されたリクエスト、作成されたタスク、または更新されたオブジェクトにアップロードします。
