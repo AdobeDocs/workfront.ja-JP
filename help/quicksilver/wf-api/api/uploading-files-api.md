@@ -7,10 +7,10 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
-source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
+source-git-commit: 2a30a58f4206d5a4455ed5939c9f3fb54cce6d29
 workflow-type: tm+mt
 source-wordcount: '176'
-ht-degree: 100%
+ht-degree: 93%
 
 ---
 
@@ -22,7 +22,7 @@ WorkFront API を Postman などの API ツールと併用、または単純な 
 
 **API ツールを使用してファイルをアップロードする場合、以下のガイドラインに従います。**
 
-* API ツールオプションを使用して、ファイルをアップロードします。「**ファイルを選択**」ボタンが、頻繁にリクエスト画面に表示されます。
+* API ツールオプションを使用して、ファイルをアップロードします。リクエスト画面に **ファイルを選択** ボタンが表示されることがよくあります。
 
 * POST HTTP メソッドを使用して、ファイルのアップロードをリクエストします。
 
