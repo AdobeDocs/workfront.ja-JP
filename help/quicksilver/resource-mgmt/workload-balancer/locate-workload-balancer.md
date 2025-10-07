@@ -7,10 +7,10 @@ description: ワークロードバランサーは、リソース エリアの複
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: a63c53652491a25b909b7563990d4375d8f5885f
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 77%
+source-wordcount: '868'
+ht-degree: 62%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 77%
 ワークロードバランサーには、以下の方法でアクセスできます。
 
 * Adobe Workfront によって事前に定義されたいくつかの領域からアクセス
-* カスタムセクションに追加してアクセス
+* ダッシュボードとして左側のパネルに追加する
 
 この記事では、ワークロードバランサーにアクセスできるエリアについて説明します。
 
@@ -162,11 +162,11 @@ Workfrontのチームについて詳しくは、[ チームの概要 ](/help/qui
 
 </div>
 
-## ワークロードバランサーのカスタムセクションへの追加
+## ワークロードバランサーをダッシュボードとして左側のパネルに追加する
 
-ワークロードバランサーは、任意のカスタムセクションに追加できます。
+ワークロードバランサーを、カスタマイズ可能なオブジェクトの左側のパネルにダッシュボードとして追加できます。
 
-ワークロードバランサーをカスタムセクションに追加しても、すでにワークロードバランサーに適用したほとんどのカスタマイズは保持されます。
+ワークロードバランサーに既に適用したほとんどのカスタマイズは、左側のパネルに追加しても保持されます。
 
 1. 次のいずれかのエリアに移動して、ワークロードバランサーにアクセスします。
 
@@ -181,15 +181,15 @@ Workfrontのチームについて詳しくは、[ チームの概要 ](/help/qui
       (NOTE: ensure this stays correct)
       -->
 
-1. [カスタムタブまたはセクションの作成](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)の説明に従って、カスタムセクションを作成し、ダッシュボードをカスタムタブに配置します。
+1. [Workfront オブジェクトまたは領域の左側のパネルにダッシュボードを追加する ](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) の説明に従って、オブジェクトの左側のナビゲーションパネルにダッシュボードを追加し、カスタムタブにダッシュボードを配置します。
 
-   カスタムセクションからワークロードバランサにアクセスする場合は、手順 1 に示した元のエリアの 1 つから直接アクセスする場合と同じように表示できます。
+   ダッシュボードからワークロードバランサーにアクセスする場合、手順 1 にリストされている元のエリアの 1 つから直接アクセスしているかのように表示できます。
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. （オプション）[レイアウトテンプレートを使用した左パネルのカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)の説明に従って、レイアウトテンプレートのカスタムタブを共有します。
+1. （オプション） [ レイアウトテンプレートを使用した左パネルのカスタマイズ ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) の説明に従って、レイアウトテンプレートでダッシュボードを共有します。
 
 
 <!--

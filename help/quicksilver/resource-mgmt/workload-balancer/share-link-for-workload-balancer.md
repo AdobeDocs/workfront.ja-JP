@@ -6,10 +6,10 @@ description: リソースエリアを利用できない他のユーザーとワ�
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 81%
+ht-degree: 73%
 
 ---
 
@@ -130,10 +130,10 @@ ht-degree: 81%
 1. リンクを他のユーザーと共有するには、次のいずれかの操作を行います。
 
    * メール、チャットメッセージ、またはその他のアプリケーションに貼り付けて、他のユーザーと共有します。
-   * 外部ページとしてカスタムセクションに追加し、そのカスタムセクションを「ユーザープロファイル」または「レイアウトテンプレート」に追加して、そのレイアウトテンプレートをユーザー、チーム、職務、またはグループと共有します。
+   * 外部ページとしてダッシュボードに追加し、ダッシュボードをユーザーのプロファイルまたはレイアウトテンプレートに追加して、ユーザー、チーム、担当業務、グループとレイアウトテンプレートを共有します。
 
-     外部ページの作成について詳しくは、[ ダッシュボードへの外部 web ページの埋め込み ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) を参照してください。 レイアウトテンプレートにカスタムセクションを追加する方法については、[レイアウトテンプレートを使用して左側のパネルをカスタマイズ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
+     外部ページの作成について詳しくは、[ ダッシュボードへの外部 web ページの埋め込み ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) を参照してください。 レイアウトテンプレートへのダッシュボードの追加について詳しくは、[ レイアウトテンプレートを使用して左側のパネルをカスタマイズする ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) を参照してください。
 
      >[!IMPORTANT]
      >
-     >ワークロードバランサーをオブジェクトのカスタムセクションに追加すると、ワークロードバランサーの情報がオブジェクトでフィルタリングされません。 ワークロードバランサーには、最初に適用されたフィルターでフィルタリングされた情報が表示されます。
+     >ワークロードバランサーをダッシュボードとしてオブジェクトの左側のパネルに追加すると、ワークロードバランサーの情報はオブジェクトによってフィルタリングされません。 ワークロードバランサーには、最初に適用されたフィルターでフィルタリングされた情報が表示されます。

@@ -1,16 +1,16 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: 「 [!DNL Adobe Workfront] の操作：記事インデックス」
+title: 移動  [!DNL Adobe Workfront]：記事インデックス
 description: Adobe Workfront の操作方法を理解し、Workfront の用語を確認するには、以下の記事を参照してください。
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
-source-git-commit: 040dd446ff2b347dabf8a139feb17fd1a7d50e4e
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 100%
+source-wordcount: '123'
+ht-degree: 86%
 
 ---
 
@@ -35,7 +35,7 @@ Adobe Workfront の操作方法を理解し、Workfront の用語を確認する
 * [オブジェクトヘッダーの概要](../../workfront-basics/the-new-workfront-experience/new-object-headers.md)
 * [ページを固定してワークスペースをカスタマイズ](../../workfront-basics/the-new-workfront-experience/pin-pages.md)
 * [ [!DNL Adobe Workfront] のリスト](../../workfront-basics/navigate-workfront/use-lists/lists.md)
-* [カスタムセクションの作成](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
+* [Workfront オブジェクトまたは領域の左側のパネルへのダッシュボードの追加](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [ [!DNL Adobe Workfront]  ヘルプへのアクセス](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
 * [ [!DNL Workfront] のプロジェクト、タスクおよびイシューの日付の概要](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [[!UICONTROL ワーク]ライセンスを持つユーザーのナビゲーションについて](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)

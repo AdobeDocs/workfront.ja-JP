@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: 80bdc2f2c1bedbc5a894b5a474425c5544c039fd
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 58%
+source-wordcount: '1120'
+ht-degree: 50%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 58%
 
 [!DNL Adobe Workfront] 全体を通して左パネルエリアに表示される内容をレイアウトテンプレートでカスタマイズできます。
 
-例えば、ユーザーがタスクを表示する際に、左パネルで次の項目のうちどれを表示するかを決定できます。
+例えば、プロジェクトを表示するときに、左側のパネルに表示される項目を次の中から選択できます。
 
-![ ブランディング左パネル ](assets/left-panel-adobe-branding.png)
+![ プロジェクトの左パネル ](assets/left-panel-in-project.png)
 
 >[!IMPORTANT]
 >
@@ -90,27 +90,27 @@ ht-degree: 58%
      <tr> 
       <td>[!UICONTROL Project]</td> 
       <td>プロジェクト名</td> 
-      <td>[!UICONTROL タスク &#x200B;]、[!UICONTROL プロジェクトの詳細 &#x200B;]、[!UICONTROL ビジネスケース &#x200B;]、[!UICONTROL の更新 &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL の問題 &#x200B;]、[!UICONTROL リスク &#x200B;]、[!UICONTROL 承認 &#x200B;]、[!UICONTROL ベースライン &#x200B;]、[!UICONTROL 請求レート &#x200B;]、[!UICONTROL 請求レコード &#x200B;]、[!UICONTROL 費用 &#x200B;]、[!UICONTROL 時間 &#x200B;]、[!UICONTROL ワークロードバランサー &#x200B;]、[!UICONTROL 人物 &#x200B;]、[!UICONTROL 使用率 &#x200B;]、[!UICONTROL キューの詳細 &#x200B;]、[!UICONTROL ルーティング規則 &#x200B;]、[!UICONTROL キュートピック &#x200B;]、[!UICONTROL トピック グループ &#x200B;]、[!UICONTROL 指標 &#x200B;]、[!UICONTROL uicontrol Planning]*, [!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td>[!UICONTROL タスク ]、[!UICONTROL プロジェクトの詳細 ]、[!UICONTROL ビジネスケース ]、[!UICONTROL の更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL の問題 ]、[!UICONTROL リスク ]、[!UICONTROL 承認 ]、[!UICONTROL ベースライン ]、[!UICONTROL 請求レート ]、[!UICONTROL 請求レコード ]、[!UICONTROL 費用 ]、[!UICONTROL 時間 ]、[!UICONTROL ワークロードバランサー ]、[!UICONTROL 人物 ]、[!UICONTROL 使用率 ]、[!UICONTROL キューの詳細 ]、[!UICONTROL ルーティング規則 ]、[!UICONTROL キュートピック ]、[!UICONTROL トピック グループ ]、[!UICONTROL 指標 ]、[!UICONTROL uicontrol Planning]*, [!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Task]</td> 
       <td>タスク名</td> 
-      <td> [!UICONTROL 更新 &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL タスクの詳細 &#x200B;]、[!UICONTROL サブタスク &#x200B;]、[!UICONTROL 問題 &#x200B;]、[!UICONTROL 時間 &#x200B;]、[!UICONTROL 承認 &#x200B;]、[!UICONTROL 費用 &#x200B;]、[!UICONTROL 先行タスク &#x200B;]、[!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td> [!UICONTROL 更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL タスクの詳細 ]、[!UICONTROL サブタスク ]、[!UICONTROL 問題 ]、[!UICONTROL 時間 ]、[!UICONTROL 承認 ]、[!UICONTROL 費用 ]、[!UICONTROL 先行タスク ]、[!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Issue]</td> 
       <td>イシュー名</td> 
-      <td> [!UICONTROL の更新 &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL 問題の詳細 &#x200B;]、[!UICONTROL 時間 &#x200B;]、[!UICONTROL 承認 &#x200B;]、[!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td> [!UICONTROL の更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL 問題の詳細 ]、[!UICONTROL 時間 ]、[!UICONTROL 承認 ]、[!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Portfolio]</td> 
       <td>ポートフォリオ名</td> 
-      <td>[!UICONTROL プロジェクト &#x200B;]、[!UICONTROL プログラム &#x200B;]、[!UICONTROL Portfolioの詳細 &#x200B;]、[!UICONTROL Portfolio]、[!UICONTROL 最適化 &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL 更新 &#x200B;]、[!UICONTROL Planning]*、[!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td>[!UICONTROL プロジェクト ]、[!UICONTROL プログラム ]、[!UICONTROL Portfolioの詳細 ]、[!UICONTROL Portfolio]、[!UICONTROL 最適化 ]、[!UICONTROL ドキュメント ]、[!UICONTROL 更新 ]、[!UICONTROL Planning]*、[!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Program]</td> 
       <td>プログラム名</td> 
-      <td>[!UICONTROL プロジェクト &#x200B;]、[!UICONTROL プログラムの詳細 &#x200B;]、[!UICONTROL 更新 &#x200B;]、[!UICONTROL ドキュメント &#x200B;]、[!UICONTROL 計画 &#x200B;]*、[!UICONTROL カスタム アプリケーション &#x200B;]**</td> 
+      <td>[!UICONTROL プロジェクト ]、[!UICONTROL プログラムの詳細 ]、[!UICONTROL 更新 ]、[!UICONTROL ドキュメント ]、[!UICONTROL 計画 ]*、[!UICONTROL カスタム アプリケーション ]**</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Template]</td> 
@@ -147,7 +147,7 @@ ht-degree: 58%
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>ダッシュボードの名前</td> 
-      <td>[!UICONTROL My Dashboards]、[!UICONTROL Shared Dashboards]、[!UICONTROL All Dashboards]<p><b>メモ</b>：[!DNL Adobe Workfront Classic] のレイアウトテンプレートを使用して [!UICONTROL Reports] エリアのカスタムタブを作成した場合、それらはこのリストの下部に表示されます。ユーザーの場合、[!UICONTROL Dashboards] エリアの左パネルの下部に表示されます。</p> </td> 
+      <td>[!UICONTROL My Dashboards]、[!UICONTROL Shared Dashboards]、[!UICONTROL All Dashboards]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Scrum Team]</td> 
@@ -222,18 +222,20 @@ ht-degree: 58%
    >その他の領域のカスタマイズ方法について詳しくは、次の記事を参照してください。
    >
    >* [レイアウトテンプレートを使用したフィルター、ビューおよびグループ化のカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [ レイアウトテンプレートを使用した [!UICONTROL &#x200B; 概要パネル &#x200B;] のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [ レイアウトテンプレートを使用した [!UICONTROL  概要パネル ] のカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
    >* [ レイアウトテンプレートを使用したホームのカスタマイズ ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    >* [レイアウトテンプレートを使用して Adobe  [!DNL Workfront]  をブランディング](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. （オプション）組織のダッシュボードの 1 つにリンクする左側のパネル項目を追加する場合は、「**[!UICONTROL カスタムセクションを追加]**」をクリックし、項目の「**[!UICONTROL カスタムセクションのタイトル]**」を入力して、ダッシュボードを追加します。
+1. （オプション）組織のダッシュボードのいずれかにリンクする左側のパネル項目を追加する場合は、「**[!UICONTROL ダッシュボードを追加]**」をクリックし、項目の **[!UICONTROL クイックリンク名]** を入力して、ダッシュボードを選択します。
 
-   左側のパネルの下部にダッシュボード項目が表示されます。左側のパネルでダッシュボード項目にカーソルを合わせると、その項目の横に入力したカスタムセクションのタイトルが表示されます。
+   ダッシュボードがリストに表示される前に、ダッシュボードを作成する必要があります。
+
+   ダッシュボード項目が左パネルの下部に表示されます。
 
    >[!NOTE]
    >
-   >ユーザーは、カスタムダッシュボードの項目を独自の左側のパネルに追加できます。レイアウトテンプレートにカスタムダッシュボード項目を追加すると、追加した項目に加えて項目が表示され、上書きまたはリセットされることはありません。 これは、ユーザーをカスタムのダッシュボード項目を含む新しいレイアウトテンプレートに割り当てる場合にも当てはまります。ユーザーが左側のパネルをカスタマイズする方法について詳しくは、[カスタムタブまたはセクションを作成](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)を参照してください。
+   >ユーザーは、カスタムダッシュボードの項目を独自の左側のパネルに追加できます。レイアウトテンプレートにカスタムダッシュボード項目を追加すると、追加した項目に加えて項目が表示され、上書きまたはリセットされることはありません。 これは、ユーザーをカスタムのダッシュボード項目を含む新しいレイアウトテンプレートに割り当てる場合にも当てはまります。左側のパネルをカスタマイズする方法については、[Workfront オブジェクトまたは領域の左側のパネルへのダッシュボードの追加 ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) を参照してください。
    >
    >ダッシュボードについて詳しくは、[ダッシュボード](../../../reports-and-dashboards/dashboards/dashboards-overview.md)を参照してください。
 

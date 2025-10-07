@@ -7,10 +7,10 @@ description: レポートに関する FAQ
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 957c6e6955a828aa40ac996490d66e9c46f594bc
+source-git-commit: 58567104d88e7e1363d4196aec8a36ee0566b95a
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 87%
+source-wordcount: '1509'
+ht-degree: 86%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 この記事の手順を実行するには、次のアクセス権が必要です。
 
@@ -210,8 +210,7 @@ Workfrontで時間を使用するほとんどのフィールドは分単位で�
 
 ユーザーを削除しても、そのユーザーが作成した任意のレポートにアクセスできますが、そのレポートに含まれているダッシュボードは削除されます。つまり、次の項目にアクセスできなくなります。
 
-* レポートを含むダッシュボード
-* レポートのダッシュボードを含むカスタムセクション
+* オブジェクトの左側のパネルにあるダッシュボードを含む、レポートを含んだダッシュボード
 
 ユーザーの削除による影響の詳細情報については、[ユーザーの削除](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md)を参照してください。
 
