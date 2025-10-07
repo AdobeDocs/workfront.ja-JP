@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 880828f4-3908-4ef0-ab1f-774f8dee72b6
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '3821'
+source-wordcount: '3791'
 ht-degree: 100%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 100%
 * [Workfront Proof と Workfront の両方で強化されたプルーフ機能](#proofing-enhancements-within-both-workfront-proof-and-workfront)
 * [更新やメールのリッチテキスト書式](#rich-text-formatting-for-updates-and-emails)
 * [新しいガントチャートのデザイン変更](#new-gantt-chart-redesign)
-* [組み込みレポートの説明が更新されました](#built-in-reports-contain-updated-descriptions)
+* [ビルトインのレポートの説明が更新されました](#built-in-reports-contain-updated-descriptions)
 * [書き出されたレポート、リストおよびダッシュボードのブランディング](#branding-in-exported-reports-lists-and-dashboards)
 * [タスクのコピー、タスクまたは問題を移動する際の改善点](#improvements-when-copying-tasks-and-moving-tasks-or-issues)
 * [リソース予算計上時間数レポートの新しいグループ化：配分日](#new-grouping-for-resource-budgeted-hour-reports-allocation-date)
@@ -322,7 +322,7 @@ Workfront プルーフの Workfront 管理者は、組織内のユーザーが�
 
 ガントチャートのオプションの設定について詳しくは、[ガントチャートでの情報の表示方法を設定する](../../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md)を参照してください。
 
-## 組み込みレポートの説明が更新されました {#built-in-reports-contain-updated-descriptions}
+## ビルトインのレポートの説明が更新されました {#built-in-reports-contain-updated-descriptions}
 
 Workfront のシステムレポートの説明を更新し、レポートの種類と含まれるフィールドに関する情報を追加しました。 
 
@@ -452,8 +452,6 @@ Outlook 365 用 Workfront アドインに対して、次の機能が強化され
 
 * Workfront のプロジェクトへのタスクまたはイシューの追加：Outlook 365 アドインを使用して、Workfront でメールをタスクまたはイシューに変換できるようになりました。このプロセスでは、タスクまたはイシューを追加するプロジェクト、担当者および期限日を指定できます。この機能強化以前は、リクエストキューにリクエストを送信するか、Outlook 365 から」作業中」リストに個人のタスクを追加することのみ可能でした。 
 * タスク、イシュー、またはリクエストに変換された元のメール内で Workfront オブジェクトへのリンクを保持：Outlook 365 からメールがタスク、イシュー、またはリクエストに変換されると、Outlook 365 は元のメール内で、そのメールから変換されたタスクまたはイシューへのリンクを保持します。この変更以前は、メールがタスクに変換されたか、リクエストとして送信されたかを Outlook で確認することはできませんでした。 
-
-  Outlook 365 からメールをタスクまたはイシューに変換する方法について詳しくは、[Outlook メールをタスクまたはイシューとしてプロジェクトへ追加](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-to-project-as-task-or-issue.md)を参照してください。
 
 ## API の変更点 {#api-changes}
 

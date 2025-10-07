@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 08e0bd72-5979-449e-9fb2-c4d45f51119e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '715'
+source-wordcount: '709'
 ht-degree: 100%
 
 ---
@@ -67,7 +67,6 @@ ht-degree: 100%
 
 次の節で説明するように、Office 365 の Outlook から Workfront を使用できます。
 
-* [Adobe Workfront for Outlook の設定](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
 * 「Outlook 365 でメールから既存の項目を更新」
 
 ## 任意のリスト内の列をドラッグ＆ドロップで並べ替え

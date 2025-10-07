@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 6b93a6d7830d644520c38aa6010cd7df18c5a667
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '832'
+source-wordcount: '818'
 ht-degree: 61%
 
 ---
@@ -99,7 +99,7 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
      </tr> 
      <tr> 
       <td role="rowheader">Workfrontのモバイル アプリケーションとWorkfront Outlook アドインを使わせる</td> 
-      <td> <p>ユーザーがモバイルアプリ（iPad 用 Workfront View および携帯電話アプリ）および Workfront Outlook アプリにアクセスできるようにします。</p> <p>このオプションは、デフォルトで有効になっています。 </p> <p>Workfront View について詳しくは、<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront View を使用</a>を参照してください。モバイルアプリについて詳しくは、<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront モバイルアプリの使用：記事インデックス </a> を参照してください。</p> <p>Outlook プラグインについて詳しくは、<a href="../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md" class="MCXref xref">Adobe Workfront を Outlook 用に設定</a>を参照してください。</p> </td> 
+      <td> <p>ユーザーがモバイルアプリ（iPad 用 Workfront View および携帯電話アプリ）および Workfront Outlook アプリにアクセスできるようにします。</p> <p>このオプションは、デフォルトで有効になっています。 </p> <p>Workfront View について詳しくは、<a href="../../../workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md" class="MCXref xref">Adobe Workfront View を使用</a>を参照してください。モバイルアプリについて詳しくは、<a href="../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/use-the-mobile-app.md" class="MCXref xref">Adobe Workfront モバイルアプリの使用：記事インデックス </a> を参照してください。</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>メールアドレスを使用して、Workfront アカウントを持たないユーザーと共同作業</p> </td> 
@@ -140,7 +140,7 @@ Workfront の実装中にシステム環境設定を指定し、後で再度ア�
       <td><span class="preview">以前のリクエストデータに基づいてリクエストフォームをオートコンプリートする機能を有効にするかどうかを選択できます。 フォームのオートコンプリートについて詳しくは、<a href="/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md"> 以前のデータからのリクエストの自動入力 </a> を参照してください。</span></td> 
      </tr>
      <tr> 
-      <td role="rowheader"><span class="preview">AI ベータ版のオプトイン </span></td> 
+      <td role="rowheader"><span class="preview">AI Betas のオプトイン </span></td> 
       <td><span class="preview">現在Betaにある AI 機能を有効にすることができます。 このオプションを有効にした場合、有効にする AI Beta機能を選択できます。 各 AI Beta機能について詳しくは、その機能の横にある情報アイコンをクリックしてください。</span></td> 
      </tr>
      <tr> 

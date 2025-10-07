@@ -4,10 +4,11 @@ description: 2024 年第 4 四半期の統合の強化
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f5db7d32242ca11bf9e13dcd49b7e93369c03cab
+exl-id: 1559312e-2e51-4075-b9a9-923211abd125
+source-git-commit: f5044d457ebf203269e8007075e98ba4c136660f
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 38%
+source-wordcount: '127'
+ht-degree: 40%
 
 ---
 
@@ -24,5 +25,3 @@ ht-degree: 38%
 >プレビューリリース：2024 年 8 月 6 日（PT）、実稼動リリース：2024 年 8 月 6 日（PT）
 
 Outlook 統合のログインエクスペリエンスが効率化され、IMS が有効になっているかどうかに関わらず、すべてのお客様にWorkfrontへのログインに同じボタンが表示されるようになりました。 以降のログイン手順は、IMS インスタンスと非 IMS インスタンスでは異なりますが、初期ページはすべてのユーザーで同じです。
-
-詳しくは、[Outlook 用Adobe Workfrontの設定 ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md) を参照してください。
