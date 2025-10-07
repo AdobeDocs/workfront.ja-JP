@@ -27,8 +27,8 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->* この記事では、新しいWorkfront プランモデルのアクセスレベルで使用できる機能について説明します。 現在のプラン・モデルで使用可能な機能を確認するには、[ 様々なアクセス・レベルの各オブジェクト・タイプで使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
->* 新しいプランモデルの様々なプランで使用できる機能のリストについては、[Adobe Workfrontの価格とパッケージ ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
+>* この記事では、新しいWorkfront プランモデルのアクセスレベルで使用できる機能について説明します。 現在のプラン・モデルで使用可能な機能を確認するには、[&#x200B; 様々なアクセス・レベルの各オブジェクト・タイプで使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
+>* 新しいプランモデルの様々なプランで使用できる機能のリストについては、[Adobe Workfrontの価格とパッケージ &#x200B;](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
 
 ## プロジェクト
 
