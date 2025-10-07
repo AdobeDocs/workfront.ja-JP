@@ -7,10 +7,10 @@ description: ここでは、Workfront Data Connect のデータの構造と内�
 author: Courtney
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 5a7f61b9b5237e282c1a61fb49b85533497836e3
+source-git-commit: 8df633f7f0946f81d6e81578a3d47719f6d8975e
 workflow-type: tm+mt
-source-wordcount: '8114'
-ht-degree: 7%
+source-wordcount: '8733'
+ht-degree: 10%
 
 ---
 
@@ -22,23 +22,23 @@ ht-degree: 7%
 >
 >データ接続のデータは 4 時間ごとに更新されるので、最近の変更がすぐには反映されない場合があります。
 
-## テーブルタイプ
+## 表示タイプ
 
-Data Connect で使用して、最もinsightの多い方法でWorkfront データを表示できるテーブルタイプが多数あります。
+Data Connect で使用して、最もinsightの高い方法でWorkfront データを表示できるビューの種類は多数あります。
 
-* **現在のテーブル**
+* **現在のビュー**
 
-  「現在のテーブル」には、Workfrontの場合と同様に、すべてのオブジェクトのデータが表示され、データの現在のステータスが表示されます。 ただし、Workfront内よりもはるかに低い待ち時間でナビゲーションできます。
+  現在のビューは、Workfrontのデータと同様に、すべてのオブジェクトとその現在のステータスを反映します。 ただし、Workfront内よりもはるかに低い待ち時間でナビゲーションできます。
 
-* **イベントテーブル**
+* **イベント表示**
 
-  イベント テーブルは、Workfront内のすべての変更レコードを追跡します。つまり、オブジェクトのステータスが変わるたびに、変更がいつ行われたか、誰が変更を加えたか、および何が変更されたかを示すレコードが作成されます。 したがって、このテーブルはポイントインタイムの比較に役立ちます。 このテーブルには、過去 3 年間のレコードのみが含まれます。
+  イベントビューは、Workfrontのすべての変更レコードを追跡します。つまり、オブジェクトのステータスが変わるたびに、変更がいつ行われたか、誰が変更を加えたか、および何が変更されたかを示すレコードが作成されます。 したがって、このビューはポイントインタイムの比較に役立ちます。 このビューには、過去 3 年間のレコードのみが含まれます。
 
-* **日別履歴テーブル**
+* **日別履歴ビュー**
 
-  「毎日の履歴」 テーブルには、「イベント」 テーブルの短縮バージョンが表示されます。このテーブルでは、各オブジェクトの状態が、個々のイベントが発生した時間ではなく日単位で表示されます。 したがって、このテーブルはトレンド分析に役立ちます。
+  日別の履歴ビューは、各オブジェクトの状態を個々のイベントが発生した日時ではなく日別に表示するという、「イベント」ビューの短縮バージョンです。 したがって、このビューはトレンド分析に役立ちます。
 
-<!-- Custom table -->
+<!-- Custom view -->
 
 ## エンティティ関係図
 
@@ -48,20 +48,25 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
 
 >[!IMPORTANT]
 >
->エンティティ関係ダイアグラムは処理中です。そのため、参照用にのみ使用され、変更される可能性があります。
+>エンティティ関係ダイアグラムは処理中です。 そのため、参照目的でのみ使用され、変更される可能性があります。
 
 ## 日付タイプ
 
 特定のイベントが発生するタイミングに関する情報を提供する日付オブジェクトが多数あります。
 
 * `DL_LOAD_TIMESTAMP`：この日付は、データの更新が正常に完了した後に更新され、レコードの最新バージョンを提供した更新ジョブが開始された時点のタイムスタンプが含まれます。
-* `CALENDAR_DATE`：この日付は、「日別の履歴」テーブルにのみ表示されます。 この表は、:59 で指定された各日付について、11`CALENDAR_DATE` UTC でのデータの外観に関するレコードを示しています。
-* `BEGIN_EFFECTIVE_TIMESTAMP`：この日付は、イベント履歴テーブルと日別履歴テーブルの両方に存在し、現在の行にあるレコードの値が _to_ 変更されたタイミングで正確にレコードされます。
-* `END_EFFECTIVE_TIMESTAMP`：この日付は、イベント履歴テーブルと日別履歴テーブルの両方に表示され、レコードが現在の行の値から別の行の値に _変更された_ ときにそのレコードが正確に表示されます。 `BEGIN_EFFECTIVE_TIMESTAMP` と `END_EFFECTIVE_TIMESTAMP` のクエリ間でを許可するには、新しい値がない場合でも、この値は null ではありません。 レコードがまだ有効な場合（つまり、値が変更されていない場合）、`END_EFFECTIVE_TIMESTAMP` の値は 2300-01-01 になります。
+* `CALENDAR_DATE`：この日付は、毎日の履歴ビューにのみ表示されます。 日別履歴ビューは、:59 で指定された各日付について、11`CALENDAR_DATE` UTC でのデータの見た目の記録を提供します。
+* `BEGIN_EFFECTIVE_TIMESTAMP`：この日付は、イベント ビューと日次履歴ビューの両方に存在し、レコードがアプリケーションの現在の値になる時間を表します。
+* `END_EFFECTIVE_TIMESTAMP`：この日付は、「イベント」ビューと「日別の履歴」ビューの両方に表示され、レコードが現在の行の値から別の行の値に _変更された_ と正確に一致する場合に記録されます。 `BEGIN_EFFECTIVE_TIMESTAMP` と `END_EFFECTIVE_TIMESTAMP` のクエリ間でを許可するには、新しい値がない場合でも、この値は null ではありません。 レコードがまだ有効な場合（つまり、値が変更されていない場合）、`END_EFFECTIVE_TIMESTAMP` の値は 2300-01-01 になります。
 
 ## 用語テーブル
 
-次の表は、Workfrontのオブジェクト名（およびインターフェイスと API のオブジェクト名）と、Data Connect の同等の名前を関連付けています。
+次の表は、Workfrontのオブジェクト名（およびインターフェイスと API のオブジェクト名）と、Data Connect の同等の名前を関連付け、各オブジェクトの参照フィールドを他のWorkfront オブジェクトに追加します。
+
+>[!NOTE]
+>
+>Workfront アプリケーションのデータニーズの変化に対応するために、事前の通知なしに新しいフィールドがオブジェクトビューに追加される場合があります。 ダウンストリームのデータ受信者が、追加された列を処理する準備をしていない場合は、「SELECT」クエリを使用しないように注意し <br> す。
+>>列の名前変更や削除が必要な場合は、事前に変更を通知します。
 
 ### アクセスレベル
 
@@ -553,6 +558,12 @@ Workfront（およびデータ接続データレイク）のオブジェクト�
              <td>FK</td>
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
+        </tr>
+      <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
         </tr>
         <tr>
              <td>OPTASKID</td>
@@ -3882,7 +3893,6 @@ Self</td>
         </tr>
 
 
-    &lt;/tbody>
 </table>
 
 ### オブジェクトの統合
@@ -3941,7 +3951,6 @@ Self</td>
              <td colspan="2">関係ではありません。内部適用目的で使用されます</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### オブジェクトカテゴリ
@@ -5303,7 +5312,6 @@ Self</td>
              <td colspan="2">関係ではありません。内部適用目的で使用されます</td>
         </tr>
 
-    &lt;/tbody>
 </table>
 
 ### 報告書フォルダー
@@ -6003,6 +6011,178 @@ Self</td>
              <td>-</td>
              <td colspan="2">関係ではありません。内部適用目的で使用されます</td>
         </tr>
+    </tbody>
+</table>
+
+### 人材の配置プラン
+
+お客様の限定提供
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront エンティティ名</th>
+            <th>インターフェイス参照</th>
+            <th>API リファレンス</th>
+            <th>API ラベル</th>
+            <th>データレイクの表示</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>人材の配置プラン</td>
+            <td>人材の配置プラン</td>
+            <td>スタッフ</td>
+            <td>人材の配置プラン</td>
+            <td>STAFFING_PLAN_CURRENT<br>STAFFING_PLAN_DAILY_HISTORY<br>STAFFING_PLAN_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>プライマリ/外部キー</th>
+            <th>タイプ</th>
+            <th>関連テーブル</th>
+            <th>関連フィールド</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ATTACHEDRATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT </td>
+             <td>CATEGORYID</td>
+        </tr>
+        <tr>
+             <td>COMPANYID</td>
+             <td>FK</td>
+             <td>COMPANIES_CURRENT</td>
+             <td>COMPANYID</td>
+        </tr>        
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>OWNERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>       
+         <tr>
+             <td>PRIVATERATECARDID</td>
+             <td>FK</td>
+             <td>RATECARD_CURRENT</td>
+             <td>RATECARDID
+</td>
+        </tr>        
+        <tr>
+             <td>SCHEDULEID</td>
+             <td>FK</td>
+             <td>SCHEDULES_CURRENT</td>
+             <td>SCHEDULEID
+</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+    </tbody>
+</table>
+
+### 人材の配置プランリソース
+
+お客様の限定提供
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront エンティティ名</th>
+            <th>インターフェイス参照</th>
+            <th>API リファレンス</th>
+            <th>API ラベル</th>
+            <th>データレイクの表示</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>人材の配置プランリソース</td>
+            <td>人材の配置プランリソース</td>
+            <td>スタッフ</td>
+            <td>人材の配置プランリソース</td>
+            <td>STAFFING_PLAN_RESOURCE_CURRENT<br>STAFFING_PLAN_RESOURCE_DAILY_HISTORY<br>STAFFING_PLAN_RESOURCE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>プライマリ/外部キー</th>
+            <th>タイプ</th>
+            <th>関連テーブル</th>
+            <th>関連フィールド</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>譲渡病様</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+        <tr>
+             <td>CATEGORYID</td>
+             <td>FK</td>
+             <td>CATEGORIES_CURRENT</td>
+             <td>CATEGORYID</td>
+        </tr>        
+        <tr>
+             <td>LASTUPDATEDBYID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>        
+        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>        
+        <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>       
+         <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>        
     </tbody>
 </table>
 
@@ -6956,6 +7136,146 @@ Self</td>
     </tbody>
 </table>
 
+### 期間別 KPI の組み合わせ
+
+お客様の限定提供
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront エンティティ名</th>
+            <th>インターフェイス参照</th>
+            <th>API リファレンス</th>
+            <th>API ラベル</th>
+            <th>データレイクの表示</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>期間別 KPI の組み合わせ</td>
+            <td>期間別の KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_COMBINED_CURRENT<br>TIMEPHASED_COMBINED_DAILY_HISTORY<br>TIMEPHASED_COMBINED_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>プライマリ/外部キー</th>
+            <th>タイプ</th>
+            <th>関連テーブル</th>
+            <th>関連フィールド</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+                <tr>
+             <td>EVENT_ID    </td>
+             <td>PK</td>
+             <td>これは、期間別 KPI 入力の自然なキーです</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+                        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+                        <tr>
+             <td>メタダテイド</td>
+             <td>FK</td>
+             <td>METADATA テーブルが指定されていません</td>
+             <td>-</td>
+        </tr>
+                        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+                        <tr>
+             <td>類ポートフォリオ</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>類ポートフォリオ</td>
+        </tr>
+                        <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+                        <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>プロジェクト_現在</td>
+             <td>PROJECTID</td>
+        </tr>
+                        <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>OBJCODE に基づく変数</td>
+             <td>OBJCODE フィールドで識別されたオブジェクトのプライマリキー/ ID
+</td>
+        </tr>
+                        <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                        <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>SCHEMA テーブルが指定されていません。このテーブルの値は SCHEMANAME 列に指定されています。 SCHEMANAME は、レコードが接続されている KPI （例：plannedHours、estimatedHours、および actualHours）を識別します。</td>
+             <td>-</td>
+        </tr>
+                                <tr>
+             <td>SOURCERETASKID</td>
+             <td>FK</td>
+             <td>タスク_現在</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>タスク_現在</td>
+             <td>TASKID</td>
+        </tr>
+                                <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### 期間別 KPI 通貨
 
 お客様の限定提供
@@ -7008,6 +7328,12 @@ Self</td>
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>メタダテイド</td>
+             <td>FK</td>
+             <td>METADATA テーブルが指定されていません</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7047,7 +7373,7 @@ Self</td>
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>まもなく追加されます</td>
+             <td>SCHEMA テーブルが指定されていません。このテーブルの値は SCHEMANAME 列に指定されています。 SCHEMANAME は、レコードが接続されている KPI （例：plannedRevenueRate、plannedCostRate、actualRevenue など）を識別します。</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7055,6 +7381,18 @@ Self</td>
              <td>FK</td>
              <td>タスク_現在</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+          <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7134,6 +7472,12 @@ Self</td>
              <td>CLASSIFIER_CURRENT</td>
              <td>CLASSIFIERID</td>
         </tr>
+                <tr>
+             <td>メタダテイド</td>
+             <td>FK</td>
+             <td>METADATA テーブルが指定されていません</td>
+             <td>-</td>
+        </tr>
         <tr>
              <td>OPTASKID</td>
              <td>FK</td>
@@ -7173,7 +7517,7 @@ Self</td>
         <tr>
              <td>SCHEMAID</td>
              <td>FK</td>
-             <td>まもなく追加されます</td>
+             <td>SCHEMA テーブルが指定されていません。このテーブルの値は SCHEMANAME 列に指定されています。 SCHEMANAME は、レコードが接続されている KPI （例：plannedHours、estimatedHours、および actualHours）を識別します。</td>
              <td>SCHEMAID</td>
         </tr>
         <tr>
@@ -7181,6 +7525,18 @@ Self</td>
              <td>FK</td>
              <td>タスク_現在</td>
              <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID </td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+           <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
         </tr>
         <tr>
              <td>SYSID</td>
@@ -7200,6 +7556,151 @@ Self</td>
              <td>-</td>
         </tr>
         <tr>
+             <td>USERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>USERID</td>
+        </tr>
+    </tbody>
+</table>
+
+### 期間別 KPI 数値
+
+お客様の限定提供
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront エンティティ名</th>
+            <th>インターフェイス参照</th>
+            <th>API リファレンス</th>
+            <th>API ラベル</th>
+            <th>データレイクの表示</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>期間別 KPI 数値</td>
+            <td>期間別の KPI</td>
+            <td>TMPH</td>
+            <td>TimePhasedKPI</td>
+            <td>TIMEPHASED_NUMBERS_CURRENT<br>TIMEPHASED_NUMBERS_DAILY_HISTORY<br>TIMEPHASED_NUMBERS_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>プライマリ/外部キー</th>
+            <th>タイプ</th>
+            <th>関連テーブル</th>
+            <th>関連フィールド</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td>ASSIGNMENTID</td>
+             <td>FK</td>
+             <td>ASSIGNMENTS_CURRENT</td>
+             <td>ASSIGNMENTID</td>
+        </tr>
+        <tr>
+             <td>EVENT_ID</td>
+             <td>PK</td>
+             <td>これは、期間別 KPI 入力の自然なキーです</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>GROUPID</td>
+             <td>FK</td>
+             <td>GROUPS_CURRENT</td>
+             <td>GROUPID</td>
+        </tr>
+        <tr>
+             <td>LOCATIONID</td>
+             <td>FK</td>
+             <td>CLASSIFIER_CURRENT</td>
+             <td>CLASSIFIERID</td>
+        </tr>
+        <tr>
+             <td>メタダテイド</td>
+             <td>FK</td>
+             <td>METADATA テーブルが指定されていません</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td>OPTASKID</td>
+             <td>FK</td>
+             <td>OPTASKS_CURRENT</td>
+             <td>OPTASKID</td>
+        </tr>
+        <tr>
+             <td>類ポートフォリオ</td>
+             <td>FK</td>
+             <td>PORTFOLIOS_CURRENT</td>
+             <td>類ポートフォリオ</td>
+        </tr>
+                <tr>
+             <td>PROGRAMID</td>
+             <td>FK</td>
+             <td>PROGRAMS_CURRENT</td>
+             <td>PROGRAMID</td>
+        </tr>
+                <tr>
+             <td>PROJECTID</td>
+             <td>FK</td>
+             <td>プロジェクト_現在</td>
+             <td>PROJECTID</td>
+        </tr>
+                <tr>
+             <td>REFERENCEID</td>
+             <td>FK</td>
+             <td>OBJCODE に基づく変数</td>
+             <td>OBJCODE フィールドで識別されたオブジェクトのプライマリキー/ ID</td>
+        </tr>
+                <tr>
+             <td>ROLEID</td>
+             <td>FK</td>
+             <td>ROLES_CURRENT</td>
+             <td>ROLEID</td>
+        </tr>
+                <tr>
+             <td>SCHEMAID</td>
+             <td>FK</td>
+             <td>SCHEMA テーブルが指定されていません。このテーブルの値は SCHEMANAME 列に指定されています。 SCHEMANAME は、レコードが接続されている KPI （例：plannedHours、estimatedHours、および actualHours）を識別します。</td>
+             <td>-</td>
+        </tr>
+                <tr>
+             <td>SOURCERETASKID</td>
+             <td>FK</td>
+             <td>タスク_現在</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_CURRENT</td>
+             <td>STAFFINGPLANID</td>
+        </tr>
+                <tr>
+             <td>STAFFINGPLANRESOURCEID</td>
+             <td>FK</td>
+             <td>STAFFING_PLAN_RESOURCE_CURRENT</td>
+             <td>STAFFINGPLANRESOURCEID</td>
+        </tr>
+                <tr>
+             <td>TASKID</td>
+             <td>FK</td>
+             <td>タスク_現在</td>
+             <td>TASKID</td>
+        </tr>
+                <tr>
+             <td>TIMEPHASEDNUMBERSID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+                <tr>
              <td>USERID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
