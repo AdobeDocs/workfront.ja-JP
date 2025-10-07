@@ -123,7 +123,7 @@ ht-degree: 73%
 
      ワークロードバランサーでの情報のフィルタリングの詳細については、[ワークロードバランサーでの情報のフィルタリング](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)を参照してください。
 
-1. **リンクアイコン**![ リンクアイコン ](assets/wb-shearable-link-icon-small.png) をクリックします。
+1. **リンクアイコン**![&#x200B; リンクアイコン &#x200B;](assets/wb-shearable-link-icon-small.png) をクリックします。
 
    これにより、リンクがクリップボードに追加されます。
 
@@ -132,7 +132,7 @@ ht-degree: 73%
    * メール、チャットメッセージ、またはその他のアプリケーションに貼り付けて、他のユーザーと共有します。
    * 外部ページとしてダッシュボードに追加し、ダッシュボードをユーザーのプロファイルまたはレイアウトテンプレートに追加して、ユーザー、チーム、担当業務、グループとレイアウトテンプレートを共有します。
 
-     外部ページの作成について詳しくは、[ ダッシュボードへの外部 web ページの埋め込み ](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) を参照してください。 レイアウトテンプレートへのダッシュボードの追加について詳しくは、[ レイアウトテンプレートを使用して左側のパネルをカスタマイズする ](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) を参照してください。
+     外部ページの作成について詳しくは、[&#x200B; ダッシュボードへの外部 web ページの埋め込み &#x200B;](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) を参照してください。 レイアウトテンプレートへのダッシュボードの追加について詳しくは、[&#x200B; レイアウトテンプレートを使用して左側のパネルをカスタマイズする &#x200B;](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) を参照してください。
 
      >[!IMPORTANT]
      >

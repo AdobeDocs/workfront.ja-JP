@@ -87,7 +87,7 @@ ht-degree: 87%
   ダッシュボードの共有について詳しくは、[レポート、ダッシュボードおよびカレンダーの共有](../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md)と[ダッシュボードの共有](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)を参照してください。
 
 * 左側のパネルのWorkfront内の任意の領域またはオブジェクトにダッシュボードを追加します。\
-  左側のパネルへのダッシュボードの追加について詳しくは、[Adobe Workfrontの左側のナビゲーション ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
+  左側のパネルへのダッシュボードの追加について詳しくは、[Adobe Workfrontの左側のナビゲーション &#x200B;](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
 
 * ダッシュボードをレイアウトテンプレートに配置します。このテンプレートは、ユーザーと共有できます。\
   レイアウトテンプレートを使用したダッシュボードの共有について詳しくは、[レイアウトテンプレートを使用した左側のパネルのカスタマイズ](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)を参照してください。
@@ -109,7 +109,7 @@ ht-degree: 87%
 ダッシュボードは次の方法で表示できます。
 
 * オブジェクトの左側のパネルからダッシュボードにアクセスします。
-ダッシュボードを左側のパネルに配置する方法について詳しくは、[Adobe Workfrontの左側のナビゲーション ](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
+ダッシュボードを左側のパネルに配置する方法について詳しくは、[Adobe Workfrontの左側のナビゲーション &#x200B;](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md) を参照してください。
 
 * ダッシュボードを検索して手動でアクセスします。
 
