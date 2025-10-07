@@ -10,7 +10,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
-source-git-commit: 82b184e18aa5520eb97aa9ac2f7ac84b251aca58
+source-git-commit: 02ca85404dfc2a00c94e21a6642748ab3ee39015
 workflow-type: tm+mt
 source-wordcount: '1313'
 ht-degree: 94%
@@ -27,8 +27,8 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->* この記事では、新しいWorkfront プランモデルのアクセスレベルで使用できる機能について説明します。 現在のプラン・モデルで使用可能な機能を確認するには、[&#x200B; 様々なアクセス・レベルの各オブジェクト・タイプで使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
->* 新しいプランモデルの様々なプランで使用できる機能のリストについては、[Adobe Workfrontの価格とパッケージ &#x200B;](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
+>* この記事では、新しいWorkfront プランモデルのアクセスレベルで使用できる機能について説明します。 現在のプラン・モデルで使用可能な機能を確認するには、[ 様々なアクセス・レベルの各オブジェクト・タイプで使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) を参照してください。
+>* 新しいプランモデルの様々なプランで使用できる機能のリストについては、[Adobe Workfrontの価格とパッケージ ](https://business.adobe.com/products/workfront/pricing.html) を参照してください。
 
 ## プロジェクト
 
@@ -145,7 +145,7 @@ ht-degree: 94%
 | プロジェクトの追加と削除 | ✓ |   |   |   |
 | プロジェクトの承認 | ✓ |   |   |   |
 | ポートフォリオの最適化 | ✓ |   |   |   |
-| ドキュメントを追加 | ✓ | ✓ |   |   |
+| ドキュメントを追加 | ✓ | ✓ | ✓ |   |
 | 更新とコメントの追加 | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
@@ -169,7 +169,7 @@ ht-degree: 94%
 | プロジェクトの追加と削除 | ✓ |   |   |   |
 | プロジェクトの承認 | ✓ |   |   |   |
 | ポートフォリオの最適化 | ✓ |   |   |   |
-| ドキュメントを追加 | ✓ | ✓ |   |   |
+| ドキュメントを追加 | ✓ | ✓ | ✓ |   |
 | 更新とコメントの追加 | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
