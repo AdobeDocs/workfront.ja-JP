@@ -7,10 +7,10 @@ description: Adobe [!DNL Workfront] は、いくつかのモバイルデバイ�
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
-source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
+source-git-commit: 0b76f99627b154b216fc4ed6fb36e6a07805126e
 workflow-type: tm+mt
-source-wordcount: '83'
-ht-degree: 100%
+source-wordcount: '120'
+ht-degree: 70%
 
 ---
 
@@ -27,17 +27,11 @@ Adobe [!DNL Workfront] は、複数の [!DNL Mobile Device Management]（MDM）�
 
 [!DNL Workfront] for [!DNL MobileIron] の設定について詳しくは、[ [!DNL Adobe Workfront]  for  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md) の設定を参照してください。
 
-<!--
-<h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>
--->
+## Intune
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">See Blackberry Dynamics' help documentation to install the Workfront mobile app from their platform:</p>
--->
+Workfront モバイルアプリが [!DNL Microsoft Intune] アプリストアで使用できるようになりました。 Workfront管理者は、Intune を使用してアプリをお使いのデバイスに割り当てることができます。
 
-<!--
-<ul data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<li>iOS</li>
-<li>Android</li>
-</ul>
--->
+* iOS
+* Android
+
+Workfront インスタンスはAdobe Identity Management System （IMS）上にある必要があります。
