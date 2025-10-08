@@ -6,9 +6,9 @@ description: '[ 更新 ] は、AI アシスタントを使用して更新を要�
 author: Becky
 feature: Get Started with Workfront
 exl-id: d0c26f90-a01b-4226-b6a0-647808f71e08
-source-git-commit: 769cacc12f35b019f8c97c243681f4adb3a3c0c9
+source-git-commit: 440d9af6915184b7e91ca257e02be4a234fb91e0
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '378'
 ht-degree: 11%
 
 ---
@@ -57,7 +57,7 @@ Workfrontの AI アシスタントは、更新ストリームのコンテンツ�
   詳しくは、「AI アシスタントの概要」の記事の [AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 * Workfront管理者が、アクセスレベルに対して AI アシスタントを有効にしている必要があります。
 
-  詳しくは、[AI アシスタントの有効化または無効化 ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+  詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
 ## 「コンテンツの要約」ボタンを使用した要約
 
