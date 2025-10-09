@@ -7,9 +7,9 @@ author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b5f0150b-40b5-4386-98bc-374e7ca65b74
-source-git-commit: f8d81996846f7b719bf3e5e8aaa2ad9ba1805cff
+source-git-commit: 07fa7207960f424cc8580eb46fe13bd5af4e56a8
 workflow-type: tm+mt
-source-wordcount: '751'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -20,17 +20,14 @@ Workfrontと Frame.io の統合により、プロジェクトコーディネー�
 
 ## 統合要件
 
-Adobe Professional ServicesでWorkfrontと Frame.io の統合を有効にする必要があります。
+* Workfrontと Frame.io は、同じIdentity Management system （IMS）組織にデプロイする必要があります。
 
-<!--
-* Workfront and Frame.io must be deployed to the same Identity Management system (IMS) organization.
+* ユーザーは、IMS 組織内の 1 つのWorkfront インスタンスにのみ属することができます。
 
-* Users can belong to only one Workfront instance within the IMS organization.
+* Workfront インスタンスは、Adobe統合エクスペリエンスとAdobe エンタープライズストレージで有効にする必要があります。
 
-* The Workfront instance must be enabled on the Adobe Unified Experience.
+* 統合は、Adobe Professional Servicesで設定する必要があります。
 
-* The integration is configured by Adobe Professional Services. 
--->
 
 ## Adobe エンタープライズストレージに基づいて構築
 
@@ -39,11 +36,11 @@ Adobe Professional ServicesでWorkfrontと Frame.io の統合を有効にする�
 Adobe エンタープライズストレージの主なメリットには、次のものがあります。
 
 * クリエイティブおよび作業管理アセット向けの統合ストレージレイヤー
-* 安全なアクセス制御を実現する、Adobe IMSを介した一元化された権限
+* 安全なアクセス制御を実現するために、Adobe Identity Management System （IMS）を使用して権限を一元化します
 * Workfrontと Frame.io <!--, and Creative Cloud apps --> 間でのアセットのエンドツーエンドの可視性
 * 企業のニーズに応える拡張性の高いストレージとクォータ管理
 
-詳しくは、[Adobe エンタープライズストレージの概要 &#x200B;](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
+詳しくは、[Adobe エンタープライズストレージの概要 ](/help/quicksilver/review-and-approve-work/esm-overview.md) を参照してください。
 
 ## 統一されたレビューと承認
 
@@ -56,7 +53,7 @@ Workfrontと Frame.io の統合では、Workfrontの統合承認機能を使用�
 * AI レビュー担当者を利用して、ブランドコンプライアンスレビューを自動化します
 * その他
 
-詳しくは、[&#x200B; 統合ドキュメント承認：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md) を参照してください。
+詳しくは、[ 統合ドキュメント承認：記事インデックス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md) を参照してください。
 
 
 ### Frame.io ビューアの使用
@@ -68,7 +65,7 @@ Workfrontと Frame.io の統合では、Workfrontの統合承認機能を使用�
 * ビデオレビューのタイムスタンプ付きコメント
 * 外出先でのレビューや承認のためのモバイルアクセス
 
-詳しくは、[Frame.io 統合の概要 &#x200B;](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md) を参照してください。
+詳しくは、[Frame.io 統合の概要 ](/help/quicksilver/review-and-approve-work/native-integrations/frame-io/get-started-with-frame-integration.md) を参照してください。
 
 #### ビデオレビューの制限
 
@@ -80,7 +77,7 @@ Workfrontと Frame.io の統合では、Workfrontの統合承認機能を使用�
 
 #### Frame.io ビューアでサポートされるファイルタイプ
 
-Frame.io ビューアは、すべての一般的なビデオ、画像、オーディオ、PDFおよび MS® Office タイプをサポートしています。 サポートされているファイルの詳細なリストについては、[Frame.io のタイプ &#x200B;](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io) を参照してください。
+Frame.io ビューアは、すべての一般的なビデオ、画像、オーディオ、PDFおよび MS® Office タイプをサポートしています。 サポートされているファイルの詳細なリストについては、[Frame.io でサポートされているファイルタイプ ](https://help.frame.io/en/articles/9436564-supported-file-types-on-frame-io) を参照してください。
 
 #### Frame.io ビューアのアクセスとライセンス
 
@@ -94,15 +91,17 @@ Workfrontのプルーフ機能は、この統合では使用できません。
 
 Workfrontと Frame.io の統合により、プロジェクトコーディネーターはWorkfrontの強力なプロジェクト管理機能を活用して、作業の計画、トラッキング、管理を行うことができます。
 
-Workfrontのプロジェクト管理について詳しくは、[&#x200B; プロジェクト：記事のインデックス &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project.md) を参照してください。
+Workfrontのプロジェクト管理について詳しくは、[ プロジェクト：記事のインデックス ](/help/quicksilver/manage-work/projects/create-projects/create-project.md) を参照してください。
 
 ### 構造と命名規則の適用
 
-この統合は ESM を使用して構築されるので、プロジェクトとドキュメントを管理する際に注意すべき構造と命名規則がいくつかあります。
+この統合はAdobe Enterprise Storage を使用して構築されるので、プロジェクトとドキュメントを管理する際に認識しておくべき構造と命名規則がいくつかあります。
 
 * オブジェクト名は一意である必要があり、複製できません
-* ESM には、階層ツリー内の同じ親を持つピア・オブジェクトに対して一意の名前が必要
+* Adobe Enterprise Storage には、階層ツリー内の同じ親を持つピアオブジェクトに対して一意の名前が必要です
 * ドキュメントが同じプロジェクトに属している場合、ドキュメントに同じ名前を付けることはできません
+* ドキュメント名に次の特殊文字を含めることはできません：\ / : * ? “ | &lt; >
+* ドキュメント名は最大 255 文字に制限されています
 
 これらの制限を念頭に置いて、Workfrontは、競合を防ぐために必要に応じてオブジェクトまたはドキュメントの名前を自動的に変更します。
 
