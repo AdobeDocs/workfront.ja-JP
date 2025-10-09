@@ -1,25 +1,38 @@
 ---
 navigation-topic: betas
 title: Beta のプログラム
-description: Adobe Workfront の現在のベータ版リリースについて説明します。
+description: ベータ版のリリースで、現在、すべてのお客様または一部のお客様が利用できるAdobe Workfrontの新機能について説明します。
 author: Alina
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
-source-git-commit: b18a7835c6de131c125b77c6688057638c62fa4a
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '55'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 16%
 
 ---
 
 # Beta のプログラム
 
-このページからリンクされる記事は、Adobe Workfront で利用可能な現在のベータ版プログラムについて説明しています。ベータ版で利用可能な機能は、一部のお客様にはご利用いただけない場合があります。
+このページからリンクされている記事では、Adobe Workfrontで使用可能な現在のベータプログラムについて説明しています。
 
-次の記事には、現在ベータ版の機能に関する情報が含まれています。
+限定リリースで動作し、非公開で管理されているBeta プログラムは、このページには表示されない場合があります。
 
-* [キャンバスダッシュボードベータ版の情報](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
+ベータ版で利用可能な機能は、一部のお客様にはご利用いただけない場合があります。
+
+現在、ベータ版では次の機能を使用できます。
+
+* キャンバスダッシュボード
+
+  詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+
+* プロジェクトのヘルス
+
+  詳しくは、[ プロジェクトの正常性の概要 ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md) を参照してください。
+
+* Workfront AI レビュアー
+詳しくは、[Workfront AI レビュアーの基本を学ぶ ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
 
 
 <!--

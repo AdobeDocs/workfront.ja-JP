@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3b2fc764-f384-41bb-9d88-b2b88434ffc6
-source-git-commit: d7af8c5888147e847b4e239b629373b4b72541f7
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
 source-wordcount: '1906'
 ht-degree: 1%
@@ -105,7 +105,7 @@ Workfront Planning とGenStudio for Performance Marketingの統合が存在す�
    <td role="rowheader"><p>Adobe GenStudio for Performance Marketing ユーザーの役割</p></td> 
    <td><p><ul><li>キャンペーン、製品およびペルソナにアクセスするためのGenStudio ユーザーロール</li>
    <li>アクティベーションにアクセスするための GenSudio System Manager <!--and Events--></li></ul>
-   詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
+   詳しくは、<a href="https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/intro/user-roles"> ユーザーの役割と権限 </a> を参照してください。 
    </p>
   </td> 
   </tr>   
@@ -154,15 +154,22 @@ Adobe GenStudio for Performance Marketingについて詳しくは、[Adobe GenSt
    <tr> 
 <td> 
    <p> Workfrontの複数のインスタンス</p> </td> 
-   <td> 
-   <p>GenStudio Workspace は、すべてのWorkfront インスタンスから表示されます</p>
+   <td>
+
+<p>GenStudio Workspace は、すべてのWorkfront インスタンスから表示されます</p>
 <p>GenStudio for Performance MarketingおよびWorkfront Planning へのアクセス権を持つすべてのユーザーには、デフォルトで Planning のGenStudioに対する投稿権限があります</p> 
 <p>Workfront管理者は、GenStudio Workspace に対する管理権限を誰にも付与できません</p>
-
 </td> 
   </tr>
    </tbody> 
 </table>
+
+<!--If Iskuhi confirms, add this or a corrected version to the second row of the table above:
+<p>The following are the scenarios for when your organization has more than one instance of Workfront with Workfront Planning:</p>
+   <ul><li>If your company has multiple instances of Workfront at the moment when they purchase Adobe GenStudio for Performance Marketing, the GenStudio workspace is visible from all Workfront instances.</li>
+   <li>If your company adds more Workfront instances after their original instance has already been integrated with Adobe GenStudio for Performance Marketing, the GenStudio workspace is visible only from the original Workfront instance. For information about connecting additional instance of Workfront to Adobe GenStudio, contact your account representative. </li></ul>  
+   
+   -->
 
 Workfront Planning の権限については、[Adobe Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) を参照してください。
 

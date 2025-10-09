@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: e717e095f1995dbed0232789616d42492156d843
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1308'
 ht-degree: 41%
 
 ---
@@ -217,6 +217,7 @@ Workfrontの計画レコードのビューの管理について詳しくは、�
 
    <span class="preview">![ ビューボックスを作成 ](assets/create-view-box.png)</span>
 
+1. <span class="preview"> 既存のビューを編集するには、「**検索**」フィールドにビューの名前を入力し、キーボードの Enter キーを押します。</span>
 1. <span class="preview"> 「表示」ドロップダウンメニューから、希望する順序でビューをドラッグ&amp;ドロップします。</span>
 
    <span class="preview">![ レコードタイプリストからの表示タイプドロップダウン ](assets/view-types-drop-down-from-record-type-list.png)</span>
