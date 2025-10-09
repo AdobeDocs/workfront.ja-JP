@@ -6,9 +6,9 @@ description: ホームは、作業を管理するのに役立ちます。 この
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
-source-git-commit: 884ade1102e685ec01af2790b17acb50c2114ca7
+source-git-commit: 1cb165e826ee57483989474c095553a08e33bc9a
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1106'
 ht-degree: 66%
 
 ---
@@ -57,7 +57,7 @@ Adobe Workfront の新しいホームエクスペリエンスは、現在のホ�
 * **マイリクエスト**\
     送信したすべてのリクエスト、開いているリクエストのみを表示するフィルター、リクエストの概要パネルを開くボタンを表示します。
 
-  <span class="preview"> プレビュー環境では、このウィジェットに送信したすべてのリクエスト、指定した条件を満たすリクエストのみを表示するフィルター、ウィジェットの列を並べ替えることができるボタンが表示されます。</span>
+  <span class="preview"> プレビュー環境では、このウィジェットに送信したすべてのリクエスト、指定した条件を満たすリクエストのみを表示するフィルター、ウィジェットの列を並べ替えるボタンが表示されます。 Workfront Planning へのアクセス権を持っている場合は、Planning リクエストもここに表示されます。</span>
 
 
 * **チームリクエスト**\
