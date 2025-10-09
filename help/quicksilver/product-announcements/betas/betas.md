@@ -25,14 +25,14 @@ ht-degree: 16%
 
 * キャンバスダッシュボード
 
-  詳しくは、[ キャンバスダッシュボードのベータ版情報 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
+  詳しくは、[&#x200B; キャンバスダッシュボードのベータ版情報 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) を参照してください。
 
 * プロジェクトのヘルス
 
-  詳しくは、[ プロジェクトの正常性の概要 ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md) を参照してください。
+  詳しくは、[&#x200B; プロジェクトの正常性の概要 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md) を参照してください。
 
 * Workfront AI レビュアー
-詳しくは、[Workfront AI レビュアーの基本を学ぶ ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
+詳しくは、[Workfront AI レビュアーの基本を学ぶ &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
 
 
 <!--
