@@ -58,7 +58,7 @@ Adobe Workfront で作業項目に記録した時間は、実際の時間数と�
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -134,7 +134,7 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 
 タスク、問題、またはプロジェクトの報告書を作成する際、報告書の各タスク、問題、またはプロジェクトの実際の時間数と従来の実際の時間値を表示できます。
 
-実際の時間数と従来の実際の時間数の違いについては、この記事の [ 実際の時間数と従来の実際の時間数 ](#actual-hours-vs-legacy-actual-hours) の節を参照してください。
+実際の時間数と従来の実際の時間数の違いについては、この記事の [&#x200B; 実際の時間数と従来の実際の時間数 &#x200B;](#actual-hours-vs-legacy-actual-hours) の節を参照してください。
 
 タスク・レポートに実績時間数とレガシー実績時間数を表示する手順は、次のとおりです。
 
@@ -155,11 +155,11 @@ Project Actual Hours = All Tasks Actual Hours + All Issues Actual Hours + All Pr
 割り当てられたタスクやイシューに対してユーザーが実行している作業の進捗状況を確認する場合は、次のリソース管理ツールでその進捗状況を確認できます。
 
 * 稼働率レポート。\
-  詳しくは、[ 資源稼働率レポートの概要 ](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) を参照してください。
+  詳しくは、[&#x200B; 資源稼働率レポートの概要 &#x200B;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) を参照してください。
 
 * リソースプランナー
 
-  詳しくは、[ ユーザービューの使用時にリソースプランナーで利用可能な時間、予定および実際の時間または FTE を表示 ](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md) を参照してください。
+  詳しくは、[&#x200B; ユーザービューの使用時にリソースプランナーで利用可能な時間、予定および実際の時間または FTE を表示 &#x200B;](../../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md) を参照してください。
 
 
 ### Workfront API の実際の時間数
@@ -181,7 +181,7 @@ API 呼び出し、または計算されたカスタムフィールドや列で�
   >
   >プロジェクトの実際のコストは、従来の実際の時間数を使用して計算します。
 
-  計算された列またはフィールドでの実際の時間数の使用について詳しくは、[ レポートに関する FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) を参照してください。
+  計算された列またはフィールドでの実際の時間数の使用について詳しくは、[&#x200B; レポートに関する FAQ](/help/quicksilver/reports-and-dashboards/reports/tips-tricks-and-troubleshooting/reports-faq.md) を参照してください。
 
 ## 時間を記録
 
