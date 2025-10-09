@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bd73b7df-ad4e-43dc-8ddf-23e0da24ec0f
-source-git-commit: f75f44c3c5ea4c281c0c9fe916ea8261d3500fb0
+source-git-commit: 94e81f50ca38ab8139684887c58e0f00353587d7
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 10%
 
 ---
@@ -23,14 +23,14 @@ ht-degree: 10%
 >[!NOTE]
 >
 >プレビュー：2025 年 10 月 2 日（PT）
->&#x200B;>実稼動高速リリース：2025 年 10 月 15 日（PT）
->&#x200B;>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
+>>実稼動高速リリース：2025 年 10 月 15 日（PT）
+>>すべてのユーザー向けの実稼動：2025 年 10 月 16 日（PT）
 
 必要な情報を見やすくするために、リクエスト エリアでビューを作成および保存する機能を追加しました。 フィルターや列設定を含むビューを保存し、ビューを切り替えられるようになりました。 Workfront管理者は、新しいビューをレイアウトテンプレートに追加できます。
 
 以前は、フィルターと列設定を保存できませんでした。
 
-詳細と手順については、[&#x200B; リクエスト領域でのビューの作成 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
+詳細と手順については、[ リクエスト領域でのビューの作成 ](/help/quicksilver/manage-work/requests/create-requests/create-views-for-requests-list.md) を参照してください。
 
 <!--## New combined Status column in unified Request list 
 
@@ -71,11 +71,11 @@ WorkfrontとWorkfront Planning でリクエストを行う際のユーザーエ�
 新しいリクエスト機能を使用する場合は、次の点に注意してください。
 
 * 現在、ドラフトは、従来のリクエストエクスペリエンスでのみ検索できます。 新しいエクスペリエンスでは、同じパスにドラフトがある場合、ワークフローキュー内でのみドラフトを表示できます。
-* 新しいエクスペリエンスでは現在、過去 1.5 か月間に作成されたリクエストのみが表示されます。 古いリクエストを表示するには、新しいエクスペリエンスを一時的に無効にし、古いエクスペリエンスから古いリクエストにアクセスします。
+* 新しいエクスペリエンスでは現在、2025 年 7 月以降に作成されたリクエストのみが表示されます。 古いリクエストを表示するには、新しいエクスペリエンスを一時的に無効にし、古いエクスペリエンスから古いリクエストにアクセスします。
 
 以前は、WorkfrontとWorkfrontの計画リクエストは別々のタブに表示され、フィルターをカスタマイズすることはできませんでした。
 
 リクエストの作成について詳しくは、以下を参照してください。
 
-* Workfrontの場合：[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
-* Workfront Planning の場合：[&#x200B; レコードを作成するためのAdobe Workfront Planning 要求の発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md)
+* Workfrontの場合：[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md)
+* Workfront Planning の場合：[ レコードを作成するためのAdobe Workfront Planning 要求の発行 ](/help/quicksilver/planning/requests/submit-requests.md)
