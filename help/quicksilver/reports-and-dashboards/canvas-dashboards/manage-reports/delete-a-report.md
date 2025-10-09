@@ -6,10 +6,10 @@ description: キャンバスダッシュボードからレポートを削除で�
 author: Courtney and Jenny
 feature: Reports and Dashboards
 exl-id: 98d26160-a097-473d-8d66-e6d619cb2908
-source-git-commit: 56d0b9281387cc7b35055461e7868c7e4a194f81
+source-git-commit: 46fdc768adade4872d636014c0e215c5f129d1de
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 16%
+source-wordcount: '338'
+ht-degree: 15%
 
 ---
 
@@ -18,8 +18,8 @@ ht-degree: 16%
 >[!IMPORTANT]
 >
 >キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->&#x200B;>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
->&#x200B;>このベータ版は、次のクラウドプロバイダーでは利用できません。
+>>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>>このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
 >* Azure
@@ -79,7 +79,8 @@ ht-degree: 16%
 
 >[!WARNING]
 >
->レポートを削除すると、復元できなくなります。
+>レポートを削除すると、復元できなくなります。<br>
+>>既存のレポートをキャンバスダッシュボードに追加した場合、ダッシュボードから削除しても元のレポートは削除されません。
 
 {{step1-to-dashboards}}
 

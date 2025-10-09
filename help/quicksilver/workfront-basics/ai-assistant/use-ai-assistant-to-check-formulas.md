@@ -5,76 +5,82 @@ description: AI アシスタントを使用して、計算フィールドの無�
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
-source-git-commit: bec1318d83938964697d76b83062ef11745802e3
+source-git-commit: 46fdc768adade4872d636014c0e215c5f129d1de
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 12%
+source-wordcount: '46'
+ht-degree: 0%
 
 ---
 
 # AI アシスタントで計算フィールドの数式を生成または変更する
 
-AI アシスタントを使用して、指定したプロンプトに基づいて数式を生成できます。 また、計算フィールドでの無効なカスタム式のエラーを解決することもできます。
+>[!IMPORTANT]
+>
+>AI アシスタントを使用して数式を生成する機能がAdobe Workfrontから削除されました。
 
-## アクセス要件
 
-この記事の手順を実行するには、次のアクセス権が必要です。
+<!-- You can use AI Assistant to generate formulas based on a prompt you provide. You can also resolve errors in your invalid custom expressions in calculated fields.
+
+## Access requirements
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：Prime または Ultimate</p>
-       <p>または</p>
-       <p>現在：使用できません</p></td>
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Prime or Ultimate</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront プラン</td> 
-   <td><p>新規：標準</p>
-       <p>または</p>
-       <p>現在：使用できません</p></td>
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
  </tbody> 
 </table>
 
-この表の情報について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## 前提条件
+## Prerequisites
 
-* Workfront管理者が組織の AI アシスタントを有効にしている必要があります。
+* Your Workfront administrator must have enabled AI Assistant for your organization.
 
-  詳しくは、「AI アシスタントの概要」の記事の [AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
-* Workfront管理者が、アクセスレベルに対して AI アシスタントを有効にしている必要があります。
+    For more information, see [Prerequisites to AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in the article AI Assistant overview.
+* Your Workfront administrator must have enabled AI Assistant for your access level.
 
-  詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+   For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 <!--## Generate a calculated field expression-->
 
-## 計算フィールドの式の変更
+<!-- ## Revise a calculated field expression
 
-カスタムフォームビルダーで計算フィールドを作成すると、式が無効な場合に、そのフィールドの下にエラーメッセージが表示されます。
+When you are creating the calculated field in the custom form builder, an error message appears under the field if the formula is invalid.
 
-![ 無効な式エラー ](assets/invalid-expression.png)
+![Invalid expression error](assets/invalid-expression.png)
 
-AI アシスタントは、数式を有効な計算フィールド式に修正するのに役立ちます。
+AI Assistant can help you revise your formula into a valid calculated field expression.
 
-無効な計算フィールド式を変更するには：
+To revise an invalid calculated field expression:
 
-1. 画面の右上隅付近にある **AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png) をクリックします。
-1. [AI アシスタント ] パネルの下部付近のプロンプト領域で、次のようなプロンプトを入力します。
-   `Rewrite this formula to remove the invalid expression error`
-1. 無効な式をカスタムフォームビルダーからコピーし、プロンプト領域に貼り付けます。
-1. **Enter** キーを押します。
+1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
+1. in the prompt area near the bottom of the AI Assistant panel, enter a prompt such as:
+`Rewrite this formula to remove the invalid expression error`
+1. Copy the invalid expression from the custom form builder, and paste it into the prompt area.
+1. Press **Enter**.
 
-   AI アシスタントは、数式の大きさや複雑さに応じて、修正された数式を生成するのにしばらく時間がかかる場合があります。
-1. 改訂された式を AI アシスタント パネルに表示します。
-1. （任意）変更した数式を AI アシスタント パネルからコピーし、カスタムフォームビルダーの計算フィールドに貼り付けます。
+   AI Assistant may take a few moments to generate the revised formula, depending on how large or complex the formula is.
+1. View the revised formula in the AI Assistant panel.
+1. (Optional) Copy the revised formula from the AI Assistant panel, and paste it into the calculated field in the custom form builder.
 
 >[!NOTE]
 >
->計算フィールドをテストして、期待される結果が取得されることを確認することをお勧めします。
+>We recommend testing the calculated field to ensure that it retrieves the expected result.
 
-Workfrontの計算フィールドについて詳しくは、「[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
+For more information on calculated fields in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
+-->
