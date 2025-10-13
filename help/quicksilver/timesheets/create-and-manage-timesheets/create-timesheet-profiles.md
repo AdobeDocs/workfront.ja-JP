@@ -51,7 +51,7 @@ ht-degree: 68%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -165,11 +165,11 @@ ht-degree: 68%
 
 1. 「**保存**」をクリックします。
 
-1. タイムシートプロファイルリストの上部で、「**その他**」アイコン ![ その他アイコン ](assets/more-icon.png) をクリックし、「**タイムシートを生成**」をクリックします。
+1. タイムシートプロファイルリストの上部で、「**その他**」アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、「**タイムシートを生成**」をクリックします。
 
    タイムシートが正常に生成されたことを示す確認が画面の下部に表示されます。 作成した新規プロファイルに基づいて、新しいタイムシートが生成されます。
 
-   詳しくは、「[ タイムシートを手動で生成する ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)」を参照してください。
+   詳しくは、「[&#x200B; タイムシートを手動で生成する &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)」を参照してください。
 
    タイムシートプロファイルで初めてタイムシートが生成されると、現在の時間を含む期間と次の期間の両方について、ユーザーごとに 2 つのタイムシートが作成されます。
 
