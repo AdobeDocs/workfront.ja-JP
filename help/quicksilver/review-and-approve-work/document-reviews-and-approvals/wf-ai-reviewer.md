@@ -34,7 +34,7 @@ Workfrontで AI レビュー担当者を設定するには、システム管理�
 * 組織がAdobe IMS（Identity Management System）に移行している必要があります。
 * Workfront インスタンスでは、統合承認が有効になっている必要があります。
 * Adobeには、Adobe生成 AI 契約がファイルに署名済みである必要があります。
-契約の署名について詳しくは、[Adobe Gen AI 契約への署名 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
+契約の署名について詳しくは、[Adobe Gen AI 契約への署名 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) を参照してください。
 
 ## Beta に参加する
 
@@ -59,14 +59,14 @@ AI レビュー担当者は、次のファイルタイプをレビューでき�
 
 ## ブランドガイドラインの設定
 
-Workfront AI レビュー担当者は、コンテンツのレビュー時に、Genstudio Foundation で設定されたブランドガイドラインを使用します。 現在、画像のブランドガイドラインのみをセットアップできます。 詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ ](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
+Workfront AI レビュー担当者は、コンテンツのレビュー時に、Genstudio Foundation で設定されたブランドガイドラインを使用します。 現在、画像のブランドガイドラインのみをセットアップできます。 詳しくは、[Adobe GenStudio for Performance Marketingの基本を学ぶ &#x200B;](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/get-started) を参照してください。
 
 
 ## AI レビュー担当者の作成
 
 GenStudio Foundationで 1 つ以上のブランドを設定したら、Workfront管理者は、設定エリアで AI レビュー担当者の作成を開始できます。 その後、これらの AI レビュー担当者を承認テンプレートや個々のレビューおよび承認リクエストに割り当てることができます。 現在、AI レビュー担当者がレビューできるのは画像ブランドガイドラインに対してのみです。
 
-詳しくは、[AI レビュー担当者の作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md) を参照してください。
+詳しくは、[AI レビュー担当者の作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/set-up-ai-reviewer.md) を参照してください。
 
 ## AI レビュー担当者を追加してリクエストをレビューおよび承認
 
@@ -80,9 +80,9 @@ GenStudio Foundationで 1 つ以上のブランドを設定したら、Workfront
 
 作成した承認テンプレートは、プロジェクト、タスクまたはイシューのドキュメント エリアにあるアセットに適用できます。
 
-詳しくは、[ アセットおよびドキュメントの承認テンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
+詳しくは、[&#x200B; アセットおよびドキュメントの承認テンプレートの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
 
-![AI レビュアーを表示するテンプレートリスト ](assets/ai-review-templates.png)
+![AI レビュアーを表示するテンプレートリスト &#x200B;](assets/ai-review-templates.png)
 
 ### 個々のレビューおよび承認要求
 
@@ -91,7 +91,7 @@ GenStudio Foundationで 1 つ以上のブランドを設定したら、Workfront
 詳しくは、[ドキュメントのレビューまたは承認リクエストの作成](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)を参照してください。
 
 
-![AI レビュー担当者が個々の承認リクエストに追加されました ](assets/ad-ai-reviewer-to-request.png)
+![AI レビュー担当者が個々の承認リクエストに追加されました &#x200B;](assets/ad-ai-reviewer-to-request.png)
 
 ## AI レビュー担当者のスコアとフィードバックを表示
 
@@ -103,10 +103,10 @@ AI レビュー担当者は、レビューおよび承認ワークフローの�
 
 画像がブランドガイドラインを満たさない場合は、クリエイティブが新しいバージョンをアップロードし、承認所有者が AI レビュー担当者と 2 回目のレビューおよび承認リクエストを作成して、バージョンを切り替えてフィードバックを比較できます。
 
-スコアとフィードバックの表示について詳しくは、「[AI レビュー担当者のスコアとフィードバックの表示 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)」を参照してください。
+スコアとフィードバックの表示について詳しくは、「[AI レビュー担当者のスコアとフィードバックの表示 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/view-ai-reviewer-feedback.md)」を参照してください。
 
 
-![AI レビュアーのフィードバック ](assets/ai-reviewer-feedback.png)
+![AI レビュアーのフィードバック &#x200B;](assets/ai-reviewer-feedback.png)
 
 
 ## ビデオチュートリアル
