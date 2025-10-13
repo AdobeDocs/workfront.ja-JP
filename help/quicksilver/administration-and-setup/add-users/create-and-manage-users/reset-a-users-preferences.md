@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 4a7362ae663b73ce48f049556145b4de3e6a6ac9
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 85%
@@ -18,6 +18,8 @@ ht-degree: 85%
 # ユーザーの環境設定をリセット
 
 <!-- Audited: 12/2023 -->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 Adobe Workfront 管理者は、Workfront システム内の任意のユーザーのユーザー環境設定をリセットまたは削除できます。
 
@@ -103,6 +105,17 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
  </tbody> 
 </table>
 
+<!-- Display this table and hide the HTML table above, when the unshim is released.
+| Preference | Status after the reset |
+| --- | --- |
+| Views | Reverted to the system default <p>Existing views are not deleted. You can select them again.</p> |
+| Filters | Reverted to the system default <p>Existing filters are not deleted. You can select them again.</p> |
+| Groupings | Reverted to the system default <p>Existing groupings are not deleted. You can select them again.</p> |
+| Recent items list | Cleared |
+| Favorites list | Unaffected |
+| User Preferences | Reverted to the system default <p>Email notifications revert to the system defaults. The default notifications are listed in [Event notifications available in Adobe Workfront](/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).</p> |
+-->
+
 ## ユーザーの環境設定をリセット
 
 {{step-1-to-setup}}
@@ -110,7 +123,7 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 1. 「**別のユーザーとしてログイン**」を選択します。
 1. 環境設定をリセットするユーザーの名前を入力し始め、ドロップダウンリストに表示されたら名前をクリックします。
 1. 「**ログイン**」を選択します。
-1. 組織がAdobeの統合エクスペリエンスにオンボーディングされていない場合は、次の手順に従います。
+1. 組織がAdobe Unified Experience にオンボーディングされていない場合は、次の手順に従います。
 
    * Web ブラウザーの上部にある「URL」フィールドで、`workfront.com` の後に `/resetUser` を追加します。
 
@@ -120,9 +133,9 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
      >
      >`https://company_domain.my.workfront.com/resetUser`
 
-1. 組織がAdobeの統合エクスペリエンスにオンボーディングされた場合は、次の手順に従います。
+1. 組織がAdobe Unified Experience にオンボーディングされた場合は、次の手順に従います。
 
-   * Web ブラウザーの上部にある URL フィールドで、`workfront` の後に `/resetUser` を追加します。
+   * Web ブラウザーの上部にある URL フィールドで、`/resetUser` の後に `workfront` を追加します。
 
      >[!NOTE]
      >
@@ -133,6 +146,7 @@ Adobe Workfront 管理者は、Workfront システム内の任意のユーザー
 1. **Enter** キーを押します。
 1. すべてのユーザー環境設定をリセットするには、「**リセット**」を選択します。
 
-   または
+<!--When this is unshimmed, adjust the comment tags to hide these last two lines, because the Reset Tabs button is going away.-->
+または
 
-   カスタムタブのみをリセットするには、「**タブのリセット**」を選択します。
+カスタムタブのみをリセットするには、「**タブのリセット**」を選択します。
