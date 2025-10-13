@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: a4bb3582eb476acbefa5d11db1f2c06eafc13cdd
+source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 30%
@@ -26,7 +26,7 @@ ht-degree: 30%
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -88,7 +88,7 @@ ht-degree: 30%
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++   
 
 ## レコードタイプの編集
 
@@ -127,7 +127,7 @@ ht-degree: 30%
          * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
 
-1. （オプションおよび条件付き）システム管理者の場合は、「**詳細設定**」をクリックして、「**クロスワークスペース機能**」セクションで次の情報を更新します。<!--the info here is duplicated in the Create record types article-->
+1. （オプションおよび条件付き）システム管理者の場合は、「**詳細設定**」をクリックして、「**クロスワークスペース機能**」セクションで次の情報を更新します。<!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
    * **他のワークスペースでこのレコードタイプへの接続を許可** 設定を有効にする：これにより、ワークスペースマネージャーは他のワークスペースからこのレコードタイプに接続できます。\
      このレコードタイプを接続できるワークスペースを指定できます。 すべてのワークスペースで使用できるようにすることも、読み込み先となる特定のワークスペースを指定することもできます。
 詳しくは、[ レコードタイプに対するクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
@@ -145,7 +145,7 @@ ht-degree: 30%
          ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
       -->
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
    ワークスペースのレコードタイプカードの右上隅に、接続アイコン ![ 他のワークスペースから接続アイコン ](assets/connect-from-other-workspaces-icon.png) が表示され、レコードが他のワークスペースからアクセスできるようになったことを示します。
 
