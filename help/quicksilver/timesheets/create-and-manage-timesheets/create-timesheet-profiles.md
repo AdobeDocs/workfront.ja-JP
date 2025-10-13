@@ -6,18 +6,16 @@ description: 追加の介入なしに、ユーザーに対して定期タイム�
 author: Lisa
 feature: Timesheets
 exl-id: 8f4826bd-82b4-4157-a7d4-a7c94b8fc879
-source-git-commit: 611c3c947855610cf86cdcbf96d1e9d847e34f38
+source-git-commit: 395a7788ddfda71264b7b964953435affd7761e9
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 66%
+source-wordcount: '1597'
+ht-degree: 68%
 
 ---
 
 # タイムシートプロファイルの作成、編集および割り当て
 
 <!--Audited: 06/2025-->
-
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。これはプレビューサンドボックス環境でのみ使用でき、実稼動環境への段階的なロールアウトでリリースされています。</span>
 
 追加の介入なしに、ユーザーに対して定期タイムシートを生成するタイムシートプロファイルを作成および編集し割り当てることができます。これにより、時間を節約し、次の情報についてユーザー間で一貫性を保つことができます。
 
@@ -53,7 +51,7 @@ ht-degree: 66%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -151,13 +149,11 @@ ht-degree: 66%
 
    * **リマインダー通知**：リマインダー通知を追加します。 Workfrontからユーザーにリマインダーを送信し、タイムシートの入力や承認を求めます。 リマインダ通知を作成してから、タイムシートプロファイルに関連付けてください。
 
-1. 実稼働でグループレベルのタイムシートプロファイルを作成する場合は、「**ユーザーを割り当て**」タブをクリックして、タイムシートプロファイルを特定のユーザー、グループまたは（Workfrontの管理者の場合）チームに関連付けます。<!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
-
-   <span class="preview"> プレビューでグループレベルのタイムシートプロファイルを作成する場合は、ページの下部までスクロールして **ユーザーを割り当て** セクションを探します。</span>
-
-   システムのタイムシートプロファイルを作成する場合は、ページの下部までスクロールして、「ユーザーを割り当て **セクションを見つけ** す。
+1. タイムシートプロファイルを特定のユーザー、グループまたは（Workfront管理者の場合）チームに関連付けるには、ページの下部までスクロールして、「ユーザーを割り当て **セクションを見つけ** す。
 
    ユーザー、グループ、またはチームの名前の入力を開始し、ドロップダウンリストに表示されたらクリックします。
+
+   <!--To associate the timesheet profile with specific users, groups, or (if you are a Workfront administrator) teams, scroll towards the bottom of the page and find the **Assign People** section.-->
 
    グループ管理者は、自分が管理するグループにタイムシートプロファイルを割り当てることができますが、チームに割り当てることはできません。詳しくは、この記事内の[タイムシートプロファイルを割り当てるグループ管理者の制限](#limitations-for-a-group-administrator-assigning-a-timesheet-profile)を参照してください。
 
@@ -167,13 +163,13 @@ ht-degree: 66%
    >* グループを追加すると、「ユーザーを割り当て」タブにはグループ名のみが表示され、グループメンバーのリストは表示されません。ここにリスト表示されるグループメンバーを確認するには、「変更を保存」をクリックし、作成したばかりのタイムシートプロファイルの名前をクリックします。
    >* この手順を完了すると、タイムシートプロファイルは、現在の期間の既存のタイムシートを持たない、割り当てられたユーザーやグループメンバーに対してのみタイムシートを生成します。
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
-1. タイムシートプロファイルリストの上部で、「**その他**」アイコン ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックし、「**タイムシートを生成**」をクリックします。
+1. タイムシートプロファイルリストの上部で、「**その他**」アイコン ![ その他アイコン ](assets/more-icon.png) をクリックし、「**タイムシートを生成**」をクリックします。
 
    タイムシートが正常に生成されたことを示す確認が画面の下部に表示されます。 作成した新規プロファイルに基づいて、新しいタイムシートが生成されます。
 
-   詳しくは、「[&#x200B; タイムシートを手動で生成する &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)」を参照してください。
+   詳しくは、「[ タイムシートを手動で生成する ](/help/quicksilver/timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)」を参照してください。
 
    タイムシートプロファイルで初めてタイムシートが生成されると、現在の時間を含む期間と次の期間の両方について、ユーザーごとに 2 つのタイムシートが作成されます。
 
