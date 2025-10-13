@@ -155,4 +155,4 @@ ht-degree: 97%
 
    イシューアイコンは、イシューがあるプロジェクトの&#x200B;**ステータスアイコン**&#x200B;列に表示されます。
 
-   ![ イシューアイコン付きのプロジェクトリスト ](assets/project-list-with-issue-icon-350x132.png)
+   ![&#x200B; イシューアイコン付きのプロジェクトリスト &#x200B;](assets/project-list-with-issue-icon-350x132.png)

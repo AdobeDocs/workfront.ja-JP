@@ -23,9 +23,9 @@ ht-degree: 59%
 
 * リクエストキューを使用してイシューを追加する必要があります。
 
-  リクエストキューの作成について詳しくは、[ リクエストキューの作成と管理 ](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) の節を参照してください。
+  リクエストキューの作成について詳しくは、[&#x200B; リクエストキューの作成と管理 &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md) の節を参照してください。
 
-  リクエストキューへのリクエストの送信について詳しくは、[Adobe Workfront リクエストの作成と送信 ](../../../manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+  リクエストキューへのリクエストの送信について詳しくは、[Adobe Workfront リクエストの作成と送信 &#x200B;](../../../manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
 * リクエストキュー内のキューの詳細で、次の設定を行う必要があります。
    * 「**リクエストが行われる際に自動的に付与する権限**」を「**アクセスに参加**」に設定

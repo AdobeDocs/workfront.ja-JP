@@ -38,7 +38,7 @@ recommendations: noDisplay, noCatalog
 
 * 編集
 
-  詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+  詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
 * レコードタイプの設定ページの設定。
 
@@ -86,7 +86,7 @@ And
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -165,13 +165,13 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
    ワークスペースページが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**設定** をクリックします。
+   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**設定** をクリックします。
 または
-   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**設定** をクリックします。
+   * レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**設定** をクリックします。
 
    <!--update screen shot at release-->
 
-   ![ レコードタイプカードのその他のメニューオプション ](assets/more-menu-options-from-record-type-card.png)
+   ![&#x200B; レコードタイプカードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card.png)
 
 1. 「**クロスワークスペース設定**」セクションは、デフォルトで選択されています。
 1. 次のいずれかの設定をオンまたはオフにします。
@@ -181,4 +181,4 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
    この設定は、デフォルトではオフになっています。
 
-   詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+   詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
