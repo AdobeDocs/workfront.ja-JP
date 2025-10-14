@@ -51,7 +51,7 @@ ht-degree: 91%
  </tbody> 
 </table>
 
-この表の詳細については、「[Workfrontのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)」を参照してください。
+この表の詳細については、「[Workfrontのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)」を参照してください。
 
 +++
 
@@ -90,6 +90,6 @@ ht-degree: 91%
 
    タスクに割り当てられたチームの配分率は変更できません。
 
-   ![ 配分率の変更 ](assets/advanced-assignments-allocation-percentage.png)
+   ![&#x200B; 配分率の変更 &#x200B;](assets/advanced-assignments-allocation-percentage.png)
 
 1. **保存**&#x200B;をクリックします。

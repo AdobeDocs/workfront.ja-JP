@@ -26,7 +26,7 @@ Select プランまたは Premium プランがある場合は、既存の組織�
 
 >[!NOTE]
 >
->SAML を有効にするには、[!DNL Workfront Proof] アカウントにカスタムのサブドメインまたはドメインを設定する必要があります。カスタムサブドメインは自由に設定できます。詳しくは、[ブランディング](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)を参照してください。完全にカスタマイズされたドメインの詳について詳しくは、アドビの[ [!DNL Workfront Proof] サイトのブランド - 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)を参照してください。
+>SAML を有効にするには、[!DNL Workfront Proof] アカウントにカスタムのサブドメインまたはドメインを設定する必要があります。カスタムサブドメインは自由に設定できます。詳しくは、[ブランディング](https://support.workfront.com/hc/en-us/sections/115000921208-Branding)を参照してください。完全にカスタマイズされたドメインの詳について詳しくは、アドビの[&#x200B; [!DNL Workfront Proof] サイトのブランド - 詳細](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md)を参照してください。
 
 ## [!DNL Workfront Proof] 内で SSO を有効化
 
@@ -75,7 +75,7 @@ SSO が有効になると、ご自身と他のユーザーはアカウント上�
 1. （オプション）「**ユーザーを自動的にプロビジョニング**」を有効にします（7）。
 このオプションを有効にすると、独自の [!DNL Workfront Proof] プロファイルを持たないユーザーに対してユーザーアカウントが自動的に作成されますが、そのようなユーザーは、シングルサインオン資格情報を使用して [!DNL Workfront Proof] アカウントにアクセスします。これは、アカウントのユーザー制限にまだ達していない場合にのみ実行されます。
 
-1. 新しくプロビジョニングされたユーザーには、デフォルトでマネージャープロファイルの権限が割り当てられます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+1. 新しくプロビジョニングされたユーザーには、デフォルトでマネージャープロファイルの権限が割り当てられます。詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 ![Enable_SSO_SAML_2.0.png](assets/enable-sso-saml-2.0-350x236.png)
 

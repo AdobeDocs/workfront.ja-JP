@@ -47,7 +47,7 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -63,4 +63,4 @@ ht-degree: 85%
 
    [!UICONTROL ポートフォリオオプティマイザー]が表示されます。
 
-   ![Portfolio最適化 ](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Portfolio最適化 &#x200B;](assets/nwe-portfolio-optimizer-350x83.png)

@@ -29,7 +29,7 @@ ht-degree: 99%
 
 ## 電子サインの必要性
 
-電子サインの設定について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md) での電子サインについてを参照してください。
+電子サインの設定について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md) での電子サインについてを参照してください。
 
 ## ログインが必要
 
@@ -47,12 +47,12 @@ ht-degree: 99%
 
 
 
-[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) プルーフの設定を指定の説明に従って、自分の個人のプルーフ設定を変更することでログインを要求できます。
+[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) プルーフの設定を指定の説明に従って、自分の個人のプルーフ設定を変更することでログインを要求できます。
 
 ## ファイルダウンロードの無効化
 
 デフォルトでは、レビュアーはプルーフが作成された元のファイルをダウンロードすることができます。この設定を無効にした場合、プルーフのレビュアーは元のファイルをダウンロードできません。
 
-個人設定に保存された設定は、自分が作成したすべてのプルーフに適用されますが、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、プルーフの新規作成時や変更時に上書きすることができます。
+個人設定に保存された設定は、自分が作成したすべてのプルーフに適用されますが、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理の説明に従って、プルーフの新規作成時や変更時に上書きすることができます。
 
 [[!DNL &#x200B; Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) でプルーフ設定を指定の説明に従って、個人のプルーフの設定を変更することにより、ファイルのダウンロードを無効にできます。

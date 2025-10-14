@@ -790,7 +790,7 @@ The following headers are available in Home:
 
 ![](assets/nwe-plan-header-350x34.png)
 
-プランは、[!DNL Workfront Scenario Planner] のオブジェクトです。[!DNL Scenario Planner] について詳しくは、[ [!DNL Scenario Planner]  の概要](../../scenario-planner/scenario-planner-overview.md)を参照してください。
+プランは、[!DNL Workfront Scenario Planner] のオブジェクトです。[!DNL Scenario Planner] について詳しくは、[&#x200B; [!DNL Scenario Planner]  の概要](../../scenario-planner/scenario-planner-overview.md)を参照してください。
 
 プランヘッダーには、次の情報が表示されます。
 
@@ -861,7 +861,7 @@ The following headers are available in Home:
 
 ![](assets/goal-header.png)
 
-会社が Workfront Goals にアクセスできる場合は、戦略的目標を作成できます。[!DNL Workfront Goals] について詳しくは、[ [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md) の基本を学ぶを参照してください。
+会社が Workfront Goals にアクセスできる場合は、戦略的目標を作成できます。[!DNL Workfront Goals] について詳しくは、[&#x200B; [!DNL Adobe Workfront Goals]](../../workfront-goals/goal-management/getting-started-with-wf-goals.md) の基本を学ぶを参照してください。
 
 目標ヘッダーには、次の情報が表示されます。
 

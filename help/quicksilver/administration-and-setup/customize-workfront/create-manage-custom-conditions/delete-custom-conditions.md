@@ -71,4 +71,4 @@ ht-degree: 65%
 >
 >「目標どおり」、「危険あり」、「トラブル発生中」のビルトインの条件は削除できません。ただし、名前と色は変更できます。
 >
->カスタム条件の編集について詳しくは、[ カスタム条件の作成または編集 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) を参照してください。
+>カスタム条件の編集について詳しくは、[&#x200B; カスタム条件の作成または編集 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md) を参照してください。

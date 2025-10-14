@@ -72,7 +72,7 @@ ht-degree: 47%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -84,7 +84,7 @@ ht-degree: 47%
 
 1. 左側のパネルで、「ビジネスケース **をクリック** ます。 **ビジネスケース** セクションが表示されます。
 
-   ![ ビジネスケース情報 ](assets/business-case-info.png)
+   ![&#x200B; ビジネスケース情報 &#x200B;](assets/business-case-info.png)
 
 1. 「**目標**」セクションで「**目標を編集**」をクリックします。
 
@@ -98,7 +98,7 @@ ht-degree: 47%
    * 低
    * 最低
 
-   ![ 重要度 ](assets/goals-section.png)
+   ![&#x200B; 重要度 &#x200B;](assets/goals-section.png)
 
    >[!NOTE]
    >

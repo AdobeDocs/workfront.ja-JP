@@ -53,7 +53,7 @@ Adobe Workfront 管理者は、[アクセスレベルの概要](../../../adminis
 1. [カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)の説明に従って、アクセスレベルの作成または編集を開始します。
 1. **ビュー**&#x200B;の歯車アイコン ![](assets/gear-icon-settings.png) またはタスクの右側の「**編集**」ボタンをクリックして、**設定の微調整**&#x200B;下で付与する機能を選択します。
 
-   ![ タスク設定の微調整 ](assets/fine-tune-tasks.png)
+   ![&#x200B; タスク設定の微調整 &#x200B;](assets/fine-tune-tasks.png)
 
    >[!NOTE]
    >

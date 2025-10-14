@@ -135,7 +135,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->この機能は、AI アシスタントを使用している統合Adobe エクスペリエンスの顧客のみが利用できます。 AI アシスタントの詳細については、「[AI アシスタントの概要 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)」を参照してください。
+>この機能は、AI アシスタントを使用している統合Adobe エクスペリエンスの顧客のみが利用できます。 AI アシスタントの詳細については、「[AI アシスタントの概要 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)」を参照してください。
 
 {{step1-to-priorities}}
 
@@ -174,7 +174,7 @@ ht-degree: 13%
 
 1. 作業内容を **ステータス** または **マイ優先度** でグループ化します。
 2. 作業項目の上にマウスポインターを置いて「**ドラッグ**」アイコンをクリックし、目的のカテゴリに移動します。
-   ![ ドラッグ アイコン ](assets/drag-and-drop.png)
+   ![&#x200B; ドラッグ アイコン &#x200B;](assets/drag-and-drop.png)
 
 ## 作業の並べ替え
 
@@ -182,16 +182,16 @@ ht-degree: 13%
 
 グループ内で作業を並べ替えるには、**グループ** を開き、昇順または降順で並べ替えるかどうかを選択します。
 
-![ グループで並べ替え ](assets/sort-in-groups.png)
+![&#x200B; グループで並べ替え &#x200B;](assets/sort-in-groups.png)
 
 ### 列を並べ替え
 
 個々の列を並べ替えるには、列に移動して下矢印をクリックします。
 
-![ 列内の下矢印 ](assets/sort-columns.png)
+![&#x200B; 列内の下矢印 &#x200B;](assets/sort-columns.png)
 
 ### すべてのグループ セクションを展開または折りたたむ
 
 すべてのグループセクションを展開または折りたたむには、**グループ** を開いて **すべて展開** または **すべて折りたたむ** をクリックします。
 
-![ グループを展開または折りたたむ ](assets/expand-collapse-groups.png)
+![&#x200B; グループを展開または折りたたむ &#x200B;](assets/expand-collapse-groups.png)

@@ -22,11 +22,11 @@ ht-degree: 71%
 
 例えば、標準のポートフォリオ名のグループ化をプロジェクトのリストに適用すると、グループ化の名前は&#x200B;*ポートフォリオ：名前：`<name of portfolio>`* として表示されます。
 
-![ 未編集の名前によるグループ化 ](assets/grouping-unedited-name-350x167.png)
+![&#x200B; 未編集の名前によるグループ化 &#x200B;](assets/grouping-unedited-name-350x167.png)
 
 テキストモードを使用してこのグループ化を変更し、読みやすい名前を表示できます。
 
-![ 編集した名前によるグループ化 ](assets/grouping-edited-name-350x160.png)
+![&#x200B; 編集した名前によるグループ化 &#x200B;](assets/grouping-edited-name-350x160.png)
 
 ## アクセス要件
 
@@ -64,7 +64,7 @@ ht-degree: 71%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -103,7 +103,7 @@ ht-degree: 71%
      >また、`group.0.name=` と `group.0.displayname=` の行を空白にすることもできます。この場合、グループ化にはグループ化の基準となる値が表示されます。
 
 
-     ![ 名前のない名前を編集してグループ化 ](assets/grouping-edited-name-no-name-350x162.png)
+     ![&#x200B; 名前のない名前を編集してグループ化 &#x200B;](assets/grouping-edited-name-no-name-350x162.png)
 
 1. 「**完了**」をクリックし、「**グループ化の保存**」をクリックします。
 1. （オプション）グループ化名を更新し、「**グループ化を保存**」をクリックします。

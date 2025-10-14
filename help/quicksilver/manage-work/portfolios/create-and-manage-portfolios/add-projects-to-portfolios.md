@@ -57,7 +57,7 @@ ht-degree: 70%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -65,7 +65,7 @@ ht-degree: 70%
 
 1. ポートフォリオに移動し、左側のパネルで「**[!UICONTROL プロジェクト]**」をクリックします。
 
-   ![ プロジェクトのPortfolio](assets/qs-portfolio-with-projects-350x90.png)
+   ![&#x200B; プロジェクトのPortfolio](assets/qs-portfolio-with-projects-350x90.png)
 
 1. 「**[!UICONTROL 新規プロジェクト]**」をクリックして、プロジェクトを追加する方法を選択します。
 
@@ -102,11 +102,11 @@ ht-degree: 70%
     </tbody> 
    </table>
 
-   ![ 新規プロジェクトドロップダウン ](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![&#x200B; 新規プロジェクトドロップダウン &#x200B;](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. （条件付き）既存のプロジェクトを追加することを選択した場合は、「**プロジェクトの追加** ボックスが開きます。<!--check this after UI changes-->
 
-   ![ 既存のプロジェクトを追加 ](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
+   ![&#x200B; 既存のプロジェクトを追加 &#x200B;](assets/add-existing-projects-to-portfolios-box.png) <!--check this after UI changes-->
 
 1. 「**[!UICONTROL このPortfolioにプロジェクトを追加]**」フィールドにプロジェクトの名前を入力し始め、リストに表示されたらクリックします。 <!--check this after UI changes-->
 

@@ -81,7 +81,7 @@ Workfront インターフェイスからレポートを手動で書き出すこ�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -160,9 +160,9 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
   >
   >レポート列を含むレポートをエクスポートすると、レポートがリストされたエクスポートの制限内にない場合でも、エラーが発生する場合があります。
   >
-  >書き出し機能を使用してレポート列を含むレポートを他のユーザーと共有する場合は、代わりに、レポートを公開して共有することを検討してください。 レポートの公開について詳しくは、[Adobe Workfrontでのレポートの共有 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) を参照してください。
+  >書き出し機能を使用してレポート列を含むレポートを他のユーザーと共有する場合は、代わりに、レポートを公開して共有することを検討してください。 レポートの公開について詳しくは、[Adobe Workfrontでのレポートの共有 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/share-report.md) を参照してください。
   >
-  >書き出し機能を使用して外部でデータを評価する場合は、代わりにWorkfront Data Connect を使用することをお勧めします。 詳しくは、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
+  >書き出し機能を使用して外部でデータを評価する場合は、代わりにWorkfront Data Connect を使用することをお勧めします。 詳しくは、[Workfront Data Connect の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
 
 制限を超えてデータを書き出そうとすると、書き出しで予想されたデータの一部を受信できない場合があります。代わりに、制限内に変更されたレポートが作成されます。
 
@@ -204,7 +204,7 @@ Workfront でのレポートの表示方法、および手動で書き出し、�
    * 北米以外のすべての場所（A4 – 横、A4 – 縦、その他のサイズ）
 
 1. （条件付き）使用しているオペレーティングシステムによっては、ファイルを開くか保存するかの選択肢がある場合があります。関連するアプリケーションでファイルを開くか、ハードドライブに保存します。
-1. 書き出されたファイル内の情報の表示方法を理解するには、引き続きこの記事の [ 書き出されたドキュメントの使用 ](#use-the-exported-document) の節を参照してください。
+1. 書き出されたファイル内の情報の表示方法を理解するには、引き続きこの記事の [&#x200B; 書き出されたドキュメントの使用 &#x200B;](#use-the-exported-document) の節を参照してください。
 
 ### ダッシュボードからのデータの書き出し {#export-data-from-a-dashboard}
 

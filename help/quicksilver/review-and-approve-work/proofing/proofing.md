@@ -23,7 +23,7 @@ ht-degree: 93%
 
 このセクションには、次のサブセクションが含まれます。
 
-* [ プルーフの概要：記事インデックス ](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+* [&#x200B; プルーフの概要：記事インデックス &#x200B;](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
 * [プルーフを作成](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
 * [Adobe Workfront 内でプルーフを管理](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
 * [Adobe Workfront 内でプルーフをレビュー](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)

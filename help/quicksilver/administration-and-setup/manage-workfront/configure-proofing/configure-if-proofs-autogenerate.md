@@ -45,17 +45,17 @@ ht-degree: 82%
 
 ## 1 人のユーザーに対してプルーフを自動的に生成するかどうかを設定
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**ユーザー** ![ ユーザー ](assets/users-icon-in-main-menu.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**ユーザー** ![&#x200B; ユーザー &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。
 1. プルーフアクセス権を持つユーザーを選択し、「**編集**」をクリックします。
 1. 「**環境設定**」セクションで、**ドキュメントのアップロード時にプルーフを自動生成**&#x200B;チェックボックスを有効または無効にします。
 
-   ![ 自動生成プルーフ ](assets/autogenerate-proofs-350x216.png)
+   ![&#x200B; 自動生成プルーフ &#x200B;](assets/autogenerate-proofs-350x216.png)
 
 1. 「**変更を保存**」をクリックします。
 
 ## 複数のユーザーに対してプルーフを自動的に生成するかどうかを設定
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**ユーザー** ![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**ユーザー** ![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。
 1. プルーフアクセス権を持つユーザーを選択し、「**編集**」をクリックします。
 
    >[!IMPORTANT]
@@ -64,7 +64,7 @@ ht-degree: 82%
 
 1. 「**環境設定**」セクションで、**ドキュメントのアップロード中に自動的にプルーフを作成する**&#x200B;チェックボックスをオンにして、「**はい**」または「**いいえ**」を選択します。
 
-   ![ 自動生成プルーフの一括 ](assets/autogenerate-proofs-bulk-350x285.png)
+   ![&#x200B; 自動生成プルーフの一括 &#x200B;](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. 「**変更を保存**」をクリックします。
 

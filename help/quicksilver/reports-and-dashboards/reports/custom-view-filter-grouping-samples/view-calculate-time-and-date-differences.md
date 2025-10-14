@@ -70,7 +70,7 @@ ht-degree: 90%
 
 例えば、タスクの予定完了日と実際の完了日の差を計算できます。
 
-![ 日付の差異を表示 ](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![&#x200B; 日付の差異を表示 &#x200B;](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. タスクのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。
@@ -100,7 +100,7 @@ ht-degree: 90%
 オブジェクトとその親のリストについて詳しくは、[Adobe Workfront のオブジェクトについて](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)にある「相互依存関係とオブジェクトの階層について」の節を参照してください。\
 例えば、タスクの予定完了日と、その親タスクまたはタスクが属するプロジェクトの予定完了日との差を計算できます。
 
-![ 予定完了日の差異を表示 ](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![&#x200B; 予定完了日の差異を表示 &#x200B;](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. タスクのリストに移動します。
 1. **表示**&#x200B;ドロップダウンメニューで、「**新規ビュー**」をクリックします。

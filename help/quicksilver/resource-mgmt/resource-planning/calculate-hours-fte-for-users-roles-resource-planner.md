@@ -94,7 +94,7 @@ Workfront管理者は、「設定」の「リソース管理」領域で次の�
 リソースプランナーの担当業務の可用性は、ユーザーの使用可能性の合計と、ユーザーの各役割に関連付けられた FTE の可用性の割合を考慮に入れます。\
 ![percent_of_fte_availability_at_the_user_level.png](assets/percent-of-fte-availability-at-the-user-level-350x144.png)
 
-ユーザーの担当業務に FTE 可用性値の割合を関連付ける方法については、[ ユーザープロファイルの編集 ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
+ユーザーの担当業務に FTE 可用性値の割合を関連付ける方法については、[&#x200B; ユーザープロファイルの編集 &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
 
 たとえば、あるユーザーの利用可能時間数の値が 40 で、そのユーザーが 75% のプライマリ ロールと 25% の他のロールを担当できる場合、リソース プランナは、1 週間のプライマリ ロールの利用可能時間数の値が 30 時間で、他のロールの利用可能時間数の値が 10 時間であることを示します。 この場合、プライマリ役割の FTE は 0.75、その他の役割の FTE は 0.25 となります。
 

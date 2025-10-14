@@ -74,7 +74,7 @@ ht-degree: 25%
 1. 新しいファイルを前のドキュメントの上にドラッグ&amp;ドロップします。 これにより、新しいバージョンが自動的に作成されます。
 
 1. ドキュメントのアップロードが完了したら、ドキュメントを選択し、「**ドキュメントの詳細**」をクリックします。
-   ![ ドキュメントの詳細ページを開く ](assets/open-doc-details.png)
+   ![&#x200B; ドキュメントの詳細ページを開く &#x200B;](assets/open-doc-details.png)
 
 
 1. 左側のパネルで「**承認**」をクリックし、「**追加**」をクリックします。
@@ -86,13 +86,13 @@ ht-degree: 25%
 
    >[!TIP]
    >
-   >   Standard ライセンスを持つユーザーは、設定エリアから適切な承認テンプレートを作成できます。 詳しくは、[ アセットおよびドキュメントの承認テンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
+   >   Standard ライセンスを持つユーザーは、設定エリアから適切な承認テンプレートを作成できます。 詳しくは、[&#x200B; アセットおよびドキュメントの承認テンプレートの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
 
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 
 1. すべてのレビュー担当者と承認者を追加したら、「**リクエストを送信**」をクリックします。 参加者には、メールで通知されます。
 
-   ![ 承認用に新しいバージョンを送信 ](assets/add-previous-participants.png)
+   ![&#x200B; 承認用に新しいバージョンを送信 &#x200B;](assets/add-previous-participants.png)
 
 

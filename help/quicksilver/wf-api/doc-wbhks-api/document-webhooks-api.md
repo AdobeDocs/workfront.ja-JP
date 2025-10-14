@@ -34,7 +34,7 @@ ht-degree: 84%
 * [ドキュメントのサムネイルを取得](../../wf-api/doc-wbhks-api/get-thmbnl-doc.md)
 * [ドキュメント web フックを介してファイルをアップロード](../../wf-api/doc-wbhks-api/file-upload-docu-webhook.md)
 * [ドキュメント web フックを含むフォルダーを作成](../../wf-api/doc-wbhks-api/create-folder-docu-webhook.md)
-* [ ドキュメントまたはフォルダーの削除（まだ実装されていません） ](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
+* [&#x200B; ドキュメントまたはフォルダーの削除（まだ実装されていません） &#x200B;](../../wf-api/doc-wbhks-api/delete-a-document-or-folder.md)
 * [サービスに関する情報を取得（まだ実装されていません）](../../wf-api/doc-wbhks-api/get-service-info-webhook.md)
 * [ドキュメントまたはフォルダーの名前を変更（まだ実装されていません）](../../wf-api/doc-wbhks-api/rename-docu-or-folder.md)
 * [カスタムアクションを実行（まだ実装されていません）](../../wf-api/doc-wbhks-api/perform-custom-action.md)

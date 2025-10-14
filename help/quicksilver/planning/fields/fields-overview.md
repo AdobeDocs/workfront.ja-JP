@@ -55,7 +55,7 @@ ht-degree: 72%
 
       * Workfrontから既存のフィールドを読み込む場合。
 
-        詳しくは、[Adobe Workfrontからのフィールドの読み込み ](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
+        詳しくは、[Adobe Workfrontからのフィールドの読み込み &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
 
 
    * 自動：

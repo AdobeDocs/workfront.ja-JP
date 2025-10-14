@@ -79,9 +79,9 @@ Workfrontでプログラムを作成するには、次のいずれかの方法�
 
   Workfront Planning パッケージを追加する必要があります。
 
-  Adobe Workfront Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+  Adobe Workfront Planning へのアクセスについて詳しくは、[Workfront Planning へのアクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [ に関する記事の「接続時にレコードを作成する」を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
+  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [&#x200B; に関する記事の「接続時にレコードを作成する」を参照し &#x200B;](/help/quicksilver/planning/records/create-records.md) ください。
 
 ## プログラムを作成
 
@@ -159,7 +159,7 @@ Workfrontでプログラムを作成するには、次のいずれかの方法�
    プログラムへのプロジェクトの追加については、[プログラムへのプロジェクトの追加](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md)を参照してください。
 
 1. 「**[!UICONTROL 変更を保存]**」をクリックします。
-1. （オプション）プログラム名の横にある **[!UICONTROL その他メニュー]**![ その他メニュー ](assets/more-icon.png) をクリックし、**[!UICONTROL プログラムのアクティベートを解除]** をクリックします。
+1. （オプション）プログラム名の横にある **[!UICONTROL その他メニュー]**![&#x200B; その他メニュー &#x200B;](assets/more-icon.png) をクリックし、**[!UICONTROL プログラムのアクティベートを解除]** をクリックします。
 
    プログラムのアクティブ化を解除した場合は、そのプログラムをユーザーがプロジェクトに追加しようとしても、プログラムはプログラムリストに表示されなくなります。[!UICONTROL プログラム]エリアからは、このプログラムに引き続きアクセスできます。
 

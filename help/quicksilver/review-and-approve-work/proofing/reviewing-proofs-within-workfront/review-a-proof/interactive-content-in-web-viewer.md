@@ -17,7 +17,7 @@ ht-degree: 93%
 
 >[!IMPORTANT]
 >
->これは従来のブラウザー拡張機能で、サポートされなくなりました。 現在ベータ版である [Adobe Workfront レビューツール ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) に、新しいブラウザー拡張機能をインストールすることをお勧めします。
+>これは従来のブラウザー拡張機能で、サポートされなくなりました。 現在ベータ版である [Adobe Workfront レビューツール &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) に、新しいブラウザー拡張機能をインストールすることをお勧めします。
 
 
 デスクトッププルーフビューアを使用して、すべてのインタラクティブコンテンツをレビューすることをお勧めします。ただし、組織のポリシーによってこの問題が回避されている場合は、Workfront 管理者が、インタラクティブプルーフ用の web プルーフビューアを使用するようにシステムを設定できます。これら 2 つのビューアの比較情報について詳しくは、[web プルーフビューアとデスクトッププルーフビューアの違いの概要](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)を参照してください。

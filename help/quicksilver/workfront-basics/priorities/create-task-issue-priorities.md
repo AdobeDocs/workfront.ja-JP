@@ -68,7 +68,7 @@ ht-degree: 25%
 {{step1-to-priorities}}
 
 1. 右上隅の **新規作成** をクリックします。
-   ![ 新規作成（実稼動） ](assets/create-new--.png)
+   ![&#x200B; 新規作成（実稼動） &#x200B;](assets/create-new--.png)
 1. 次の情報を指定します。
 
    | フィールド | 手順 |

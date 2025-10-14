@@ -270,7 +270,7 @@ Workfront Planning の構成に関するよくある質問を次に示します�
 
 #### レコードタイプのリクエストフォームを作成または編集するにはどうすればよいですか？
 
-* ✅ ワークスペースへの管理アクセス権を持つユーザーは誰でも、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) の記事に記載されている手順に従うことができます。
+* ✅ ワークスペースへの管理アクセス権を持つユーザーは誰でも、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) の記事に記載されている手順に従うことができます。
 
 
 #### 要求フォームを使用して新しいレコードを送信できるユーザー

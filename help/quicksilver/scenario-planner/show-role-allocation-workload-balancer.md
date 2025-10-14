@@ -63,7 +63,7 @@ ht-degree: 84%
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -73,8 +73,8 @@ ht-degree: 84%
 
 1. （条件付き）以下の記事に記載されている方法のいずれかを使用して、プロジェクトをイニシアチブに接続します。
 
-   * [ [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md) のプランにプロジェクトを読み込みます。
-   * [ [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md) でイニシアチブを公開することにより、プロジェクトを更新または作成します。
+   * [&#x200B; [!DNL Adobe Workfront Scenario Planner]](import-projects-to-plans.md) のプランにプロジェクトを読み込みます。
+   * [&#x200B; [!DNL Adobe Workfront Scenario Planner]](publish-scenarios-update-projects.md) でイニシアチブを公開することにより、プロジェクトを更新または作成します。
 
    >[!IMPORTANT]
    >
@@ -87,12 +87,12 @@ ht-degree: 84%
 
 1. 次のいずれかの操作を行います。
 
-   * **[!UICONTROL 月]** をクリックしてワークロードバランサーを月ごとに表示するには、タイムラインの月の横にあるドロップダウンメニュー ![ 月の横のドロップダウン ](assets/drop-down-next-to-month-month-view-wb.png) クリックし、「**[!UICONTROL 詳細]**」をクリックします。
-   * ツールバーの右上隅にある **[!UICONTROL 役割の割り当てを表示]** アイコン ![ 役割の割り当てを表示 ](assets/show-role-allocation-icon.png) をクリックします。
+   * **[!UICONTROL 月]** をクリックしてワークロードバランサーを月ごとに表示するには、タイムラインの月の横にあるドロップダウンメニュー ![&#x200B; 月の横のドロップダウン &#x200B;](assets/drop-down-next-to-month-month-view-wb.png) クリックし、「**[!UICONTROL 詳細]**」をクリックします。
+   * ツールバーの右上隅にある **[!UICONTROL 役割の割り当てを表示]** アイコン ![&#x200B; 役割の割り当てを表示 &#x200B;](assets/show-role-allocation-icon.png) をクリックします。
 
    [!UICONTROL 役割の割り当て]パネルが表示されます。
 
-   ![ 役割の割り当てパネル ](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![&#x200B; 役割の割り当てパネル &#x200B;](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -154,7 +154,7 @@ ht-degree: 84%
      >
      >タスクとイシューを編集するには、追加のアクセス権と権限が必要です。
 
-   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。詳しくは、[ [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) のイニシアチブを作成と編集を参照してください。
+   * イニシアチブの割り当て超過を示す役割に必要な時間数を増やします。詳しくは、[&#x200B; [!DNL Adobe Workfront Scenario Planner]](create-and-edit-initiatives.md) のイニシアチブを作成と編集を参照してください。
 
      >[!NOTE]
      >
@@ -162,7 +162,7 @@ ht-degree: 84%
 
 1. （オプション）ドロップダウンアイコンをクリックして、[!UICONTROL 役割の割り当て]パネル、または[!UICONTROL ワークロードバランサー]のタイムラインのうちの月を展開します。
 
-   ![ 役割割り当てパネルで月を展開 ](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![&#x200B; 役割割り当てパネルで月を展開 &#x200B;](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    [!UICONTROL プロジェクト合計]エリアに表示されるのと同じ種類の情報が、月ごとにも表示されます。
 

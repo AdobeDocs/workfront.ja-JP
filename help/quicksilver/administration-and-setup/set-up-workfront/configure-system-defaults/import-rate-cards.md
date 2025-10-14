@@ -16,7 +16,7 @@ ht-degree: 3%
 
 テンプレートファイルを使用して Excel で評価カードを作成すると、すべての担当業務と評価を手動で追加する代わりに、Adobe Workfrontに読み込むことができます。
 
-この記事で説明している評価カードの例を確認するには、[ サンプルファイル ](assets/rate-cards-sample.zip) をダウンロードしてください。
+この記事で説明している評価カードの例を確認するには、[&#x200B; サンプルファイル &#x200B;](assets/rate-cards-sample.zip) をダウンロードしてください。
 
 ## テンプレートファイルの操作に関する重要なルール
 
@@ -78,7 +78,7 @@ ht-degree: 3%
 
 このタブで、すべての評価カードを作成およびリストします。 各行は 1 つの評価カードを表します。
 
-![ 評価カードのインポートテンプレートファイルの「RTCRD」タブ ](assets/rate-card-import-template-tab1.png)
+![&#x200B; 評価カードのインポートテンプレートファイルの「RTCRD」タブ &#x200B;](assets/rate-card-import-template-tab1.png)
 
 1. 各行に評価カードの情報を入力します。
 
@@ -110,7 +110,7 @@ ht-degree: 3%
 
 意図しない限り、日付が重複しないようにしてください。
 
-![RATE_RTCRD タブ：評価カードのインポートテンプレートファイル ](assets/rate-card-import-template-tab2.png)
+![RATE_RTCRD タブ：評価カードのインポートテンプレートファイル &#x200B;](assets/rate-card-import-template-tab2.png)
 
 1. 各行にレートの情報を入力します。
 
@@ -140,13 +140,13 @@ ht-degree: 3%
 
      例：01/01/2025
 
-     詳しくは、以下の [ 日付フォーマット要件 ](#date-formatting-requirements) を参照してください。
+     詳しくは、以下の [&#x200B; 日付フォーマット要件 &#x200B;](#date-formatting-requirements) を参照してください。
 
    * **終了日** （オプション）：レートの有効が停止する日付。
 
      この日付は、開始日と同じサポートされる形式に従う必要があります。
 
-     詳しくは、以下の [ 日付フォーマット要件 ](#date-formatting-requirements) を参照してください。
+     詳しくは、以下の [&#x200B; 日付フォーマット要件 &#x200B;](#date-formatting-requirements) を参照してください。
 
    * **値** （任意）：数値のレート値（例：150）。 デフォルト値は 0 です。
    * **通貨** （任意）：レートの通貨（USD、EUR、GBP など）。 デフォルトはシステム通貨です。

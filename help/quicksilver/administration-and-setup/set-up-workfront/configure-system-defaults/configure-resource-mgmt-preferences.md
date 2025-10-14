@@ -84,7 +84,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
    * **デフォルトスケジュール**:[!DNL Workfront] は、システムのデフォルトスケジュールとユーザーの個々の FTE を使用して、リソース管理ツールでユーザーの利用可能時間を計算します。
 
-     詳しくは、[ スケジュールの作成 ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) および [ ユーザープロファイルの編集 ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
+     詳しくは、[&#x200B; スケジュールの作成 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) および [&#x200B; ユーザープロファイルの編集 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
 
      このオプションを選択すると、Workfrontは次の式を使用してユーザーの利用可能時間を計算します。
 
@@ -134,7 +134,7 @@ Edit the first part, once they add more settings in the Res Management Preferenc
 
    * **ユーザーのスケジュール**：[!DNL Workfront] では、ユーザーのスケジュールとシステムの[!UICONTROL デフォルトのスケジュール]を使用して、リソース管理ツールでユーザーの利用可能な [!UICONTROL FTE] 値を計算します。「利用可能時間」はユーザーのスケジュールに従ってのみ計算され、ユーザーの [!UICONTROL FTE] の値は無視されます。 これはデフォルトの設定です。
 
-     詳しくは、[ スケジュールの作成 ](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) および [ ユーザープロファイルの編集 ](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
+     詳しくは、[&#x200B; スケジュールの作成 &#x200B;](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md) および [&#x200B; ユーザープロファイルの編集 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
 
      >[!NOTE]
      >

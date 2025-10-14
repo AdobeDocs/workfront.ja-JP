@@ -20,7 +20,7 @@ ht-degree: 2%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
 ## 送信後に新しい要求を表示するためのリンク
 
@@ -37,7 +37,7 @@ Workfront Planning で送信するリクエストへのアクセス方法を改�
 * レコードタイプページの「新規レコード」または「レコードをリクエスト」ボタンから
 * リクエスト エリアから、リクエストの送信に対して新しいエクスペリエンスを有効にしました。
 
-詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 ## 自動化を使用して 1 つのレコードから複数のオブジェクトを作成する
 
@@ -50,7 +50,7 @@ Workfront Planning でオートメーションを使用する際に、同じWork
 
 この機能強化の前は、プロジェクト用に設定された自動処理をトリガーするたびに、1 つのプロジェクトのみを作成できていました。
 
-詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
+詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
 ## 参照フィールド名の変更
 
@@ -62,7 +62,7 @@ Workfront Planning でオートメーションを使用する際に、同じWork
 
 この機能強化が行われるまで、既存の参照フィールドを編集することはできませんでした。
 
-詳しくは、[ フィールドの編集 ](/help/quicksilver/planning/fields/edit-fields.md) を参照してください。
+詳しくは、[&#x200B; フィールドの編集 &#x200B;](/help/quicksilver/planning/fields/edit-fields.md) を参照してください。
 
 ## レコードタイプからの複数のリクエストフォームの設定と管理
 
@@ -74,7 +74,7 @@ Workfront Planning でオートメーションを使用する際に、同じWork
 
 別のフォームを使用して送信されたすべてのリクエストでは、選択したレコードタイプのレコードが作成される場合があります。 同じレコードタイプに対して複数のリクエストフォームを設定できるようになりました。 フォームは、レコードタイプの新しいリクエストフォームのテーブルビューにリストされます。 リクエストフォームを管理する際に、レコードタイプのリクエストフォームのリストからリクエストフォームを編集、公開、共有、コピーまたは削除できるようになりました。
 
-詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## レコードタイプページで公開済みのリクエストフォームに簡単にアクセス
 
@@ -99,7 +99,7 @@ Workfront オブジェクトから接続されたレコードのすべての情�
 
 Planning 接続のカスタム フィールドのWorkfront オブジェクトに接続されたレコードに最大 7 つのルックアップ フィールドを追加できます。 この機能強化の一環として、Workfront オブジェクトのカスタムフォームで、接続されたレコードとそのフィールドを、読みやすいテーブル形式で表示できるようになりました。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## CSV または Excel ファイルを使用したレコードの読み込み
 
@@ -110,7 +110,7 @@ Planning 接続のカスタム フィールドのWorkfront オブジェクトに
 レコードタイプのページから CSV または Excel スプレッドシートを使用してレコードを読み込めるようになりました。
 この機能強化が行われるまで、レコードタイプを作成する場合にのみレコードを読み込むことができました。 この更新では、既存のレコードタイプにレコードを読み込むことができます。
 
-詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードの作成 ](/help/quicksilver/planning/records/import-file-to-create-records.md) を参照してください。
+詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードの作成 &#x200B;](/help/quicksilver/planning/records/import-file-to-create-records.md) を参照してください。
 
 ## Workfront Planning リクエストの詳細ページのレコード名をブラウザのタブ名に表示します。
 
@@ -136,7 +136,7 @@ Workfront計画リクエストの詳細ページがブラウザーに表示さ�
 
 * 最新の 6 つのリクエストが、最初に統合検索可能エリアに表示されます。
 
-詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 ## 数式フィールドがリクエストフォームでサポートされるようになりました
 
@@ -148,7 +148,7 @@ Workfront Planning で、レコードタイプリクエストフォームに式�
 
 この機能強化が行われるまで、これらのタイプのフィールドをリクエストフォームに追加することはできませんでした。
 
-詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## レコードの接続表示ページを更新
 
@@ -166,7 +166,7 @@ Workfront Planning で、レコードタイプリクエストフォームに式�
 
 * レコードの接続や切断を行うことができます。
 
-詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+詳しくは、[&#x200B; レコードページレイアウトの管理 &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
 ## 数式フィールドに追加された新しい式
 
@@ -204,7 +204,7 @@ Workfront Planning で、レコードタイプリクエストフォームに式�
 
 * 接続フィールドの永続的な「追加」ボタンを使用して、プログラムを追加し、ポートフォリオに関連付ける機能。
 
-詳しくは、[Workfront計画からのWorkfront オブジェクトの作成 ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
+詳しくは、[Workfront計画からのWorkfront オブジェクトの作成 &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
 
 ## 既存のレコードに基づいてオブジェクトとレコードを作成するための自動化の設定
 
@@ -216,7 +216,7 @@ Workfront Planning で、レコードタイプリクエストフォームに式�
 
 作成されたオブジェクトまたはレコードは、自動化が設定およびトリガーされるレコードに直ちに接続されます。
 
-詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 ](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
+詳しくは、[Adobe Workfront計画レコードの自動作成を使用したオブジェクトの作成 &#x200B;](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md) を参照してください。
 
 ## AI アシスタントのアクションの調査と確認
 
@@ -294,7 +294,7 @@ Workfront外部のソースからテキストをコピーして、Workfront Plan
 
 この機能強化の前は、テンプレートを使用せずに空のプロジェクトを作成できていました。
 
-詳しくは、[Workfront計画からのWorkfront オブジェクトの作成 ](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
+詳しくは、[Workfront計画からのWorkfront オブジェクトの作成 &#x200B;](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md) を参照してください。
 
 ## レコードの詳細ページとプレビューボックスでのレコード名と説明の表示を改善しました
 
@@ -306,4 +306,4 @@ Workfront外部のソースからテキストをコピーして、Workfront Plan
 
 その結果、長いレコードのタイトルは、詳細ページとプレビューボックスに表示されたときに切り捨てられるのではなく、折り返されるようになりました。
 
-レコードのページについて詳しくは、「[ レコードページの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md)」を参照してください。
+レコードのページについて詳しくは、「[&#x200B; レコードページの管理 &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md)」を参照してください。

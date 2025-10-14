@@ -29,7 +29,7 @@ ht-degree: 34%
 
 ドキュメントの決定ステータスをドキュメントリストで直接表示できるようになりました。
 
-詳しくは、[ 決定ステータスの概要のドキュメント ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md) を参照してください。
+詳しくは、[&#x200B; 決定ステータスの概要のドキュメント &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md) を参照してください。
 
 ## 新しいドキュメントバージョンに以前のレビュー担当者や承認者をすばやく追加する
 

@@ -36,6 +36,6 @@ WorkfrontとWorkfront Planning の間でよりシームレスなエクスペリ�
 
 新しい自分のリクエスト ウィジェットには、新しいリクエスト エクスペリエンスで作成されたリクエストのみが表示されます。
 
-新しいマイリクエストウィジェットについて詳しくは、[ マイリクエストウィジェットの使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
+新しいマイリクエストウィジェットについて詳しくは、[&#x200B; マイリクエストウィジェットの使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-requests-widget.md) を参照してください。
 
-新しいリクエスト対象エクスペリエンスに関するリリースノートについては、[ リクエスト対象エクスペリエンスの更新 ](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience) を参照してください。
+新しいリクエスト対象エクスペリエンスに関するリリースノートについては、[&#x200B; リクエスト対象エクスペリエンスの更新 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q4-release-activity/25-q4-requests.md#updates-to-requesting-experience) を参照してください。

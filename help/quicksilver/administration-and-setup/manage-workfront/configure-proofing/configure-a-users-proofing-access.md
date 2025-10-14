@@ -135,7 +135,7 @@ Workfront サポートに連絡してリクエストを送信することで、�
 
 1. Workfront から、グローバルナビゲーションバーの Workfront Proof アイコンをクリックして、Workfront Proof にアクセスします。
 
-   ![Proof アイコン ](assets/proof-access-proofhq-350x39.png)
+   ![Proof アイコン &#x200B;](assets/proof-access-proofhq-350x39.png)
 
 1. Workfront Proof の右上隅にある **アカウント設定**&#x200B;をクリックし、「**設定**」タブを選択します。
 

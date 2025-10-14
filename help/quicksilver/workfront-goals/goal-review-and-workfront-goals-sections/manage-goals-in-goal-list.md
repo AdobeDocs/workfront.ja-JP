@@ -198,7 +198,7 @@ ht-degree: 81%
 
 目標リストで目標を管理するには、次の手順に従います。
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -235,7 +235,7 @@ ht-degree: 81%
 
      詳しくは、[目標の進捗状況を Adobe Workfront Goals で計算](../goal-management/calculate-goal-progress.md)を参照してください。
 
-1. 目標リストの右上隅にあるフィルターアイコン ![ フィルターアイコン ](assets/filter-icon.png) をクリックし、フィルターを適用して、重要な目標のみを表示します。
+1. 目標リストの右上隅にあるフィルターアイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) をクリックし、フィルターを適用して、重要な目標のみを表示します。
 
    Workfront Goals でのフィルターの使用について詳しくは、[Adobe Workfront Goals での情報のフィルター](../goal-management/filter-information-wf-goals.md)を参照してください。
 
@@ -245,10 +245,10 @@ ht-degree: 81%
 1. （オプション）同じ列を降順で並べ替えるには、列のフィールドを再度クリックします。
 1. 目標の名前をクリックして、目標のページを開きます。
 1. リストから 1 つの目標を選択し、リストの上部にある次のオプションの 1 つをクリックします。
-   * **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) 目標に関する情報を編集できます。 詳しくは、[Adobe Workfront Goals の目標を編集](../goal-management/edit-goals.md)を参照してください。
-   * **共有** アイコン ![ 共有アイコン ](assets/share-icon.png) を使用して、他のユーザーと目標を共有します。 詳しくは、[Adobe Workfront Goals の目標を共有](../workfront-goals-settings/share-a-goal.md)を参照してください。
-   * **関連付けを開く** アイコン ![ 関連付けを開くアイコン ](assets/align-icon-unshimmed.png) 目標の関連付け領域を開く このオプションは、選択した目標が別の目標に一致している場合にのみ表示されます。
-   * 目標を削除するには **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックし、確認するには **削除** をクリックします。  詳しくは、[Adobe Workfront Goals の目標を削除および非アクティブ化](../goal-management/delete-and-deactivate-goals.md)を参照してください。
+   * **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) 目標に関する情報を編集できます。 詳しくは、[Adobe Workfront Goals の目標を編集](../goal-management/edit-goals.md)を参照してください。
+   * **共有** アイコン ![&#x200B; 共有アイコン &#x200B;](assets/share-icon.png) を使用して、他のユーザーと目標を共有します。 詳しくは、[Adobe Workfront Goals の目標を共有](../workfront-goals-settings/share-a-goal.md)を参照してください。
+   * **関連付けを開く** アイコン ![&#x200B; 関連付けを開くアイコン &#x200B;](assets/align-icon-unshimmed.png) 目標の関連付け領域を開く このオプションは、選択した目標が別の目標に一致している場合にのみ表示されます。
+   * 目標を削除するには **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックし、確認するには **削除** をクリックします。  詳しくは、[Adobe Workfront Goals の目標を削除および非アクティブ化](../goal-management/delete-and-deactivate-goals.md)を参照してください。
 
 
 

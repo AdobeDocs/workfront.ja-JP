@@ -26,9 +26,9 @@ ht-degree: 50%
 >
 >Google Workspaceを使用した組織の統合のニーズに対しては、Workfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [ および ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [ を参照してください。](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
+>Google WorkspaceのWorkfront Automation and Integration モジュールの具体的な機能については、{Gmail モジュール [&#x200B; および &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/gmail-modules)2}Google カレンダーモジュール [&#x200B; を参照してください。](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-calendar-modules)
 
 [!DNL Google Workspace] を離れることなく、[!DNL Adobe Workfront] オブジェクトに関連付けられたドキュメントを表示および管理できます。
 
@@ -62,8 +62,8 @@ ht-degree: 50%
 
 ## [!DNL Google Workspace] で [!DNL Workfront] ドキュメントを表示および管理する
 
-1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![ アイコン ](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。[!DNL Google Workspace]
-1. [!DNL Workfront] からの [!DNL Google Workspace] アクセス [ ホーム  [!DNL Adobe Workfront] [!UICONTROL &#x200B; コンテンツの説明に従って、] 内の  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) のタスクまたはイシューに移動します。
+1. Google Workspaceの [!UICONTROL Workfront] パネルが表示されない場合は、ページの右端にあるア [!DNL Workfront] オンサイドバーの ![&#x200B; アイコン &#x200B;](assets/wf-lion-icon.png)3&rbrace;Workfront アイコン &rbrace; をクリックします。[!DNL Google Workspace]
+1. [!DNL Workfront] からの [!DNL Google Workspace] アクセス [&#x200B; ホーム  [!DNL Adobe Workfront] [!UICONTROL &#x200B; コンテンツの説明に従って、] 内の  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) のタスクまたはイシューに移動します。
 1. 「**[!UICONTROL ドキュメント]**」をクリックします。
 
    この数値は、添付ファイルとして、およびクラウドに保存されている共有ファイルとして、タスクまたはイシューにアップロードされたドキュメントの数を示します。
@@ -76,17 +76,17 @@ ht-degree: 50%
 
 1. （オプション）「**[!UICONTROL 更新]**」をクリックしてドキュメントに関する更新を表示または投稿し、「**[!UICONTROL 詳細]**」をクリックしてドキュメントに関する情報の表示に戻ります。
 
-   更新や返信の投稿に関する情報が必要な場合は、「[ オブジェクトの更新  [!DNL Adobe Workfront]  を参照してください  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)。
+   更新や返信の投稿に関する情報が必要な場合は、「[&#x200B; オブジェクトの更新  [!DNL Adobe Workfront]  を参照してください  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md)。
 
-1. （任意） **[!UICONTROL ダウンロード]** アイコン ![ ダウンロードアイコン ](assets/download-icon.png) をクリックして、リストのドキュメントをダウンロードします。
+1. （任意） **[!UICONTROL ダウンロード]** アイコン ![&#x200B; ダウンロードアイコン &#x200B;](assets/download-icon.png) をクリックして、リストのドキュメントをダウンロードします。
 
    または
 
-   ドキュメントをクラウドドライブに保存する場合は、**[!UICONTROL 開く]** アイコン ![ 開くアイコン ](assets/open-icon.png) をクリックします。
+   ドキュメントをクラウドドライブに保存する場合は、**[!UICONTROL 開く]** アイコン ![&#x200B; 開くアイコン &#x200B;](assets/open-icon.png) をクリックします。
 
 1. 「**[!UICONTROL Workfront で表示]**」をクリックして、[!DNL Workfront] にあるドキュメントのドキュメントの詳細ページに移動します。
 
-また、オブジェクトに関する [!DNL Workfront] 通知メールを受信したときに、[!DNL Google Workspace] の [!DNL Workfront] オブジェクトに関連付けられたドキュメント（およびその他の詳細）を表示および管理することもできます。詳しくは、「[ 通知の詳細の管理  [!DNL Adobe Workfront]  開始  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)」を参照してください。
+また、オブジェクトに関する [!DNL Workfront] 通知メールを受信したときに、[!DNL Google Workspace] の [!DNL Workfront] オブジェクトに関連付けられたドキュメント（およびその他の詳細）を表示および管理することもできます。詳しくは、「[&#x200B; 通知の詳細の管理  [!DNL Adobe Workfront]  開始  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/manage-wf-email-notification-details-in-gsuite.md)」を参照してください。
 
-* [!UICONTROL &#x200B; の「] 詳細 [!DNL Workfront for Google Workspace]」タブの使用について詳しくは、[ オブジェクトの詳細の表示と管理  [!DNL Adobe Workfront]  を参照してください  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)。
-* [!UICONTROL &#x200B; の「] 更新 [!DNL Workfront for Google Workspace]」タブの使用について詳しくは、[ から  [!DNL Adobe Workfront]  オブジェクトを更新  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md) を参照してください。
+* [!UICONTROL &#x200B; の「] 詳細 [!DNL Workfront for Google Workspace]」タブの使用について詳しくは、[&#x200B; オブジェクトの詳細の表示と管理  [!DNL Adobe Workfront]  を参照してください  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-manage-work-item-details-in-gsuite.md)。
+* [!UICONTROL &#x200B; の「] 更新 [!DNL Workfront for Google Workspace]」タブの使用について詳しくは、[&#x200B; から  [!DNL Adobe Workfront]  オブジェクトを更新  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md) を参照してください。

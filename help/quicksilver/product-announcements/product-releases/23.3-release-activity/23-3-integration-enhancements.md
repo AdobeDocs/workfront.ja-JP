@@ -101,7 +101,7 @@ Experience Manager Assets Essentials のこの機能について詳しくは、[
 * メール通知を更新する
 * その他
 
-詳しくは、[ [!DNL Creative Cloud]  アプリケーション用  [!DNL Adobe Workfront]  プラグインを使用してドキュメントとプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)を参照してください。
+詳しくは、[&#x200B; [!DNL Creative Cloud]  アプリケーション用  [!DNL Adobe Workfront]  プラグインを使用してドキュメントとプルーフをアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)を参照してください。
 
 以下の機能強化は、次の Creative Cloud アプリで利用できます。
 

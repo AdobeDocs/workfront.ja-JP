@@ -71,28 +71,28 @@ ht-degree: 14%
 
 >[!TIP]
 >
->ユーザープロファイルページから他のユーザーまたは自分に送信した作業項目も、ユーザーのホーム領域の To-Do ウィジェットに表示されます。 詳しくは、[ 個人タスクの作成 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
+>ユーザープロファイルページから他のユーザーまたは自分に送信した作業項目も、ユーザーのホーム領域の To-Do ウィジェットに表示されます。 詳しくは、[&#x200B; 個人タスクの作成 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
 
 
 To Do 項目を作成するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![ メインメニューラインのアイコン ](assets/lines-main-menu.png) をクリックして（使用可能な場合）、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![&#x200B; メインメニューラインのアイコン &#x200B;](assets/lines-main-menu.png) をクリックして（使用可能な場合）、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックし、**To-Do** をクリックして、To-Do ウィジェットをホーム画面に追加します。
 1. **To Do** ウィジェットに移動し、「**To Do を追加** をクリックします。
 1. 個人の To Do アイテムの名前を入力し、[Enter] をクリックします。
-1. （オプション） **日付** アイコン ![ 日付アイコン ](assets/date-icon.png) をクリックして、項目の期限を追加します。
-   ![ 私の作業 To-Do](assets/my-work-to-dos.png)
-1. （任意）個人用タスクレポートまたはフィルターを作成します。 個人用タスク フィルタの作成については、「[ フィルタ：個人用タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)」を参照してください。
+1. （オプション） **日付** アイコン ![&#x200B; 日付アイコン &#x200B;](assets/date-icon.png) をクリックして、項目の期限を追加します。
+   ![&#x200B; 私の作業 To-Do](assets/my-work-to-dos.png)
+1. （任意）個人用タスクレポートまたはフィルターを作成します。 個人用タスク フィルタの作成については、「[&#x200B; フィルタ：個人用タスク &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)」を参照してください。
 個人タスクレポートには、自分の To Do 項目と他のユーザーの To Do 項目を表示できます。
 
 ## プロジェクトへのタスクの追加
 
 ホーム エリアから既存のプロジェクトに直接タスクを追加できます。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイタスク** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイタスク** を検索します。
 1. **マイタスク** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![ 新規タスクを作成 ](assets/create-new-task.png)
+   ![&#x200B; 新規タスクを作成 &#x200B;](assets/create-new-task.png)
 1. **新規タスク** ダイアログボックスで、タスク名を入力します。
 1. プロジェクト名の入力を開始し、リストから名前を選択します。
 1. （オプション）次のフィールドに情報を入力します。
@@ -103,7 +103,7 @@ To Do 項目を作成するには：
    | **割り当て** | ユーザーを割り当てます。 |
    | **期間** | 期間を入力します。 |
    | **予定完了日** | 計画完了日を選択します。 |
-   | **その他のオプション** | その他のオプションを選択して、タスクのその他の設定を構成します。 タスクの作成について詳しくは、[ タスクの編集 ](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。 |
+   | **その他のオプション** | その他のオプションを選択して、タスクのその他の設定を構成します。 タスクの作成について詳しくは、[&#x200B; タスクの編集 &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md) を参照してください。 |
 
 1. **タスクを作成** をクリックします。
 
@@ -112,10 +112,10 @@ To Do 項目を作成するには：
 
 ホーム領域から既存のプロジェクトにイシューを直接追加できます。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイ問題** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイイシュー** を見つけます。
 1. **自分のイシュー** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![ 新しいイシューを作成 ](assets/create-new-issue.png)
+   ![&#x200B; 新しいイシューを作成 &#x200B;](assets/create-new-issue.png)
 1. **新しいイシュー** ダイアログボックスで、プロジェクト名の入力を開始し、リストから名前を選択します。
 1. イシュー名を入力します。
 1. （オプション）次のフィールドに情報を入力します。
@@ -133,32 +133,32 @@ To Do 項目を作成するには：
 
 リクエストは、ホーム エリアから直接作成できます。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイリクエスト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイリクエスト** を見つけます。
 1. **マイリクエスト** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![ 新しいリクエストの作成 ](assets/create-new-request-new.png)
+   ![&#x200B; 新しいリクエストの作成 &#x200B;](assets/create-new-request-new.png)
 
 1. **新規リクエスト** ダイアログで、検索バーにWorkfront リクエストキューまたはWorkfront Planning リクエストフォームの名前を入力し始め、表示されたら選択します。
 1. 関連するフィールドに入力します。
 1. 「**送信**」をクリックします。
 
-リクエストの送信について詳しくは、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+リクエストの送信について詳しくは、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
 ## プロジェクトを作成
 
 ホームエリアから直接プロジェクトを作成できます。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **マイプロジェクト** ウィジェットをホーム画面に追加します。 **カスタマイズ** をクリックし、**マイプロジェクト** を見つけます。
 1. **マイプロジェクト** ウィジェットに移動し、「新規 **をクリックし** す。
-   ![ 新規プロジェクトを作成 ](assets/create-new-project.png)
+   ![&#x200B; 新規プロジェクトを作成 &#x200B;](assets/create-new-project.png)
 1. 次のいずれかのオプションを選択します。
 
    | フィールド | 手順 |
    |----------|----------|
-   | テンプレートから | テンプレートからプロジェクトを作成する手順について詳しくは、[ テンプレートを使用してプロジェクトを作成 ](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) を参照してください。 |
-   | 空のプロジェクト | 空のプロジェクトを作成する手順について詳しくは、[ ゼロからプロジェクトを作成 ](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) を参照してください。 |
-   | MS Project を読み込み | MS プロジェクトを読み込む手順について詳しくは、[Microsoft プロジェクトからプロジェクトを読み込む ](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) を参照してください。 |
+   | テンプレートから | テンプレートからプロジェクトを作成する手順について詳しくは、[&#x200B; テンプレートを使用してプロジェクトを作成 &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) を参照してください。 |
+   | 空のプロジェクト | 空のプロジェクトを作成する手順について詳しくは、[&#x200B; ゼロからプロジェクトを作成 &#x200B;](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) を参照してください。 |
+   | MS Project を読み込み | MS プロジェクトを読み込む手順について詳しくは、[Microsoft プロジェクトからプロジェクトを読み込む &#x200B;](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) を参照してください。 |
 
 
 <!--

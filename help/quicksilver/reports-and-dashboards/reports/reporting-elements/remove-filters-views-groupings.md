@@ -60,7 +60,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -116,7 +116,7 @@ ht-degree: 93%
 ### レガシービルダーを使用してフィルター、ビュー、またはグループ化を削除する
 
 1. オブジェクトのリストまたはレポートに移動します。
-1. （条件付き）リストから、「**フィルター**」、「**表示**」または「**グループ化** アイコンをクリックし、削除するフィルター、表示またはグループ化にカーソルを合わせて **詳細** アイコン ![ 詳細アイコン ](assets/more-icon.png) をクリックし、**削除** をクリックします。 フィルター、ビュー、またはグループ化が削除されます。
+1. （条件付き）リストから、「**フィルター**」、「**表示**」または「**グループ化** アイコンをクリックし、削除するフィルター、表示またはグループ化にカーソルを合わせて **詳細** アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、**削除** をクリックします。 フィルター、ビュー、またはグループ化が削除されます。
 1. （条件付き）レポートから、「**グループ化**」、「**フィルター**」、または「**ビュー**」ドロップダウンメニューをクリックして、「**グループ化の削除**」、「**フィルターの削除**」、または「**ビューの削除**」を選択します。
 
    「**マイグループ化**」、「**マイフィルター**」、または「**マイビュー**」ダイアログボックスが表示されます。

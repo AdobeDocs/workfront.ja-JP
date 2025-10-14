@@ -102,7 +102,7 @@ ht-degree: 89%
 * [!UICONTROL シナリオ]**
 * [!UICONTROL 計画]**
 
-  **[!UICONTROL イニシアチブ]、[!UICONTROL シナリオ]および[!UICONTROL プラン]は、[!DNL Workfront Scenario Planner] を購入した場合にのみ使用できます。[!DNL Scenario Planner] について詳しくは、[ [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md) の基本を学ぶを参照してください。
+  **[!UICONTROL イニシアチブ]、[!UICONTROL シナリオ]および[!UICONTROL プラン]は、[!DNL Workfront Scenario Planner] を購入した場合にのみ使用できます。[!DNL Scenario Planner] について詳しくは、[&#x200B; [!DNL Scenario Planner]](../../../scenario-planner/get-started-with-scenario-planning.md) の基本を学ぶを参照してください。
 
 
 
@@ -141,7 +141,7 @@ Workfront の他のオブジェクトの名前はカスタマイズできませ�
 [!DNL Workfront] でオブジェクト名をカスタマイズする場合は、次の点に注意してください。
 
 * システム表示で、スタイルや文法上の誤りが発生する場合があります。例えば、「[!UICONTROL イシュー]」から「リクエスト」に名前を変更した場合、システム内で「リクエスト」というフレーズが表示されますが、これは意図したとおりに機能しており、バグと見なされません。
-* オブジェクトのカスタム名は翻訳できません。[!DNL Workfront] デフォルトの名前のみは、サポートされている言語で翻訳できます。[!DNL Workfront] でサポートされる言語について詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md) でサポートされている言語を参照してください。カスタムオブジェクト名フィールドは外部文字をサポートしているので、任意の言語で用語を入力できます。
+* オブジェクトのカスタム名は翻訳できません。[!DNL Workfront] デフォルトの名前のみは、サポートされている言語で翻訳できます。[!DNL Workfront] でサポートされる言語について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/supported-languages-in-workfront.md) でサポートされている言語を参照してください。カスタムオブジェクト名フィールドは外部文字をサポートしているので、任意の言語で用語を入力できます。
 * [!UICONTROL レイアウトテンプレート]を使用してオブジェクト名をカスタマイズする場合は、ビジネスユニット（チームまたはグループ）に合わせて[!UICONTROL レイアウトテンプレート]を割り当てることをお勧めします。\
    混乱を避けるために、これらのビジネスユニットのユーザーが明確に理解できる名前を使用することをお勧めします。
 * メール通知と配信されたレポートには、メールを生成したユーザーの[!UICONTROL レイアウトテンプレート]で定義されたオブジェクト名が常に含まれます。ユーザーは、他のチームやグループのユーザーからメール通知を受信した場合、自分のグループやチームに関係のないオブジェクト名がメールに表示されることを覚悟しておく必要があります。\
@@ -161,21 +161,21 @@ Workfront の他のオブジェクトの名前はカスタマイズできませ�
 
 | **オブジェクト** | **アイコン** | **カスタマイズ可能なオブジェクト名** |
 |---|---|---|
-| [!UICONTROL 会社] | ![ 会社アイコン ](assets/company-icon-nwe.png)、![ 会社アイコン青 ](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL ダッシュボード] | ![ ダッシュボードアイコン ](assets/dashboard-icon-nwe.png)、![ ダッシュボードアイコン青 ](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL 目標] | ![ 目標アイコン ](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL グループ] | ![ グループアイコン ](assets/groups-icon-nwe.png)、![ グループアイコン ](assets/nwe-group-icon.png) |  |
-| [!UICONTROL イシュー] | ![ 問題アイコン ](assets/issue-icon-nwe.png)、![ 問題アイコン ピンク ](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL 担当業務] | ![job_role_icon.png](assets/job-role-icon-52x50.png)、![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png)、![ 担当業務アイコン ](assets/job-role-nwe-no-color.png)、![ 担当業務アイコンの色 ](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL プラン] | ![ プランアイコン ](assets/plan-icon.png)、![ プランアイコン青 ](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL ポートフォリオ] | ![Portfolio](assets/portfolio-icon-nwe.png)、![Portfolio アイコン青 ](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL プログラム] | ![ プログラムアイコン ](assets/program-icon-nwe.png)、![ プログラムアイコン オレンジ ](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL プロジェクト] | ![ プロジェクトアイコン ](assets/project-icon-nwe.png)、![ プロジェクトアイコン紫色 ](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL レポート] | ![ レポートアイコン ](assets/report-icon-nwe.png)、![ レポートアイコンは緑色 ](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL タスク] | ![ タスクアイコン ](assets/task-icon-new.png)、![ タスクアイコンが緑色 ](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL チーム] | ![ チームアイコン ](assets/team-icon-nwe.png)、![ チームアイコン ラウンド ](assets/team-icon-nwe-color.png)、![ チームアイコン ](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL テンプレート] | ![ テンプレートアイコン ](assets/template-icon-nwe.png)、![ テンプレートアイコンは緑色 ](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL ユーザー] | ![ ユーザーアイコン グレー ](assets/users-icon-gray.png)、![ ユーザーアイコン青 ](assets/user-icon-blue.png)、![ イニシャル付きのユーザーアイコン ](assets/user-icon-initials.png)、![ アバター ](assets/user-avatar.png)、![ ユーザーアイコンのメインメニュー ](assets/user-main-menu-area.png) |  |
+| [!UICONTROL 会社] | ![&#x200B; 会社アイコン &#x200B;](assets/company-icon-nwe.png)、![&#x200B; 会社アイコン青 &#x200B;](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL ダッシュボード] | ![&#x200B; ダッシュボードアイコン &#x200B;](assets/dashboard-icon-nwe.png)、![&#x200B; ダッシュボードアイコン青 &#x200B;](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL 目標] | ![&#x200B; 目標アイコン &#x200B;](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL グループ] | ![&#x200B; グループアイコン &#x200B;](assets/groups-icon-nwe.png)、![&#x200B; グループアイコン &#x200B;](assets/nwe-group-icon.png) |  |
+| [!UICONTROL イシュー] | ![&#x200B; 問題アイコン &#x200B;](assets/issue-icon-nwe.png)、![&#x200B; 問題アイコン ピンク &#x200B;](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL 担当業務] | ![job_role_icon.png](assets/job-role-icon-52x50.png)、![job_role_icon__1_.png](assets/job-role-icon--1--53x44.png)、![&#x200B; 担当業務アイコン &#x200B;](assets/job-role-nwe-no-color.png)、![&#x200B; 担当業務アイコンの色 &#x200B;](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL プラン] | ![&#x200B; プランアイコン &#x200B;](assets/plan-icon.png)、![&#x200B; プランアイコン青 &#x200B;](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL ポートフォリオ] | ![Portfolio](assets/portfolio-icon-nwe.png)、![Portfolio アイコン青 &#x200B;](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL プログラム] | ![&#x200B; プログラムアイコン &#x200B;](assets/program-icon-nwe.png)、![&#x200B; プログラムアイコン オレンジ &#x200B;](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL プロジェクト] | ![&#x200B; プロジェクトアイコン &#x200B;](assets/project-icon-nwe.png)、![&#x200B; プロジェクトアイコン紫色 &#x200B;](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL レポート] | ![&#x200B; レポートアイコン &#x200B;](assets/report-icon-nwe.png)、![&#x200B; レポートアイコンは緑色 &#x200B;](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL タスク] | ![&#x200B; タスクアイコン &#x200B;](assets/task-icon-new.png)、![&#x200B; タスクアイコンが緑色 &#x200B;](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL チーム] | ![&#x200B; チームアイコン &#x200B;](assets/team-icon-nwe.png)、![&#x200B; チームアイコン ラウンド &#x200B;](assets/team-icon-nwe-color.png)、![&#x200B; チームアイコン &#x200B;](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL テンプレート] | ![&#x200B; テンプレートアイコン &#x200B;](assets/template-icon-nwe.png)、![&#x200B; テンプレートアイコンは緑色 &#x200B;](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL ユーザー] | ![&#x200B; ユーザーアイコン グレー &#x200B;](assets/users-icon-gray.png)、![&#x200B; ユーザーアイコン青 &#x200B;](assets/user-icon-blue.png)、![&#x200B; イニシャル付きのユーザーアイコン &#x200B;](assets/user-icon-initials.png)、![&#x200B; アバター &#x200B;](assets/user-avatar.png)、![&#x200B; ユーザーアイコンのメインメニュー &#x200B;](assets/user-main-menu-area.png) |  |
 
 ## オブジェクトの参照番号
 
@@ -213,7 +213,7 @@ Workfront の他のオブジェクトの名前はカスタマイズできませ�
 
 オブジェクトへのアクセスは、アクセスレベルまたは特定のオブジェクトの権限で制限できます。
 
-これは、この記事の [ オブジェクトの相互依存関係と階層 ](#interdependency-and-hierarchy-of-objects) の節にリストされているすべてのオブジェクトと子オブジェクトに適用されます。 これは、チームオブジェクトとユーザーオブジェクトには適用されません。
+これは、この記事の [&#x200B; オブジェクトの相互依存関係と階層 &#x200B;](#interdependency-and-hierarchy-of-objects) の節にリストされているすべてのオブジェクトと子オブジェクトに適用されます。 これは、チームオブジェクトとユーザーオブジェクトには適用されません。
 
 ## オブジェクトに関するレポート
 
@@ -269,13 +269,13 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL フィルター]
 * [!UICONTROL 目標]
    * 戦略的目標のレポートを作成したり、プロジェクトが目標アクティビティとして目標に関連付けられている場合は、プロジェクトレポートに目標関連情報を表示したりできます。組織が [!DNL Workfront Goals] ライセンスを購入している場合にのみ、戦略的目標を作成し、プロジェクトに結び付けることができます。[!DNL Workfront Goals] について詳しくは、[[!DNL Workfront Goals]  の概要](../../../workfront-goals/goal-management/wf-goals-overview.md)を参照してください。プロジェクトを戦略目標に接続する方法については、[Adobe Workfront Goals の目標へのプロジェクトの追加](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
-[!UICONTROL ビジネスケース]に関連付けられたプロジェクトの目標についてはレポートできません。プロジェクトの目標と戦略的目標の詳細については、[ [!DNL Adobe Workfront]  用語の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
+[!UICONTROL ビジネスケース]に関連付けられたプロジェクトの目標についてはレポートできません。プロジェクトの目標と戦略的目標の詳細については、[&#x200B; [!DNL Adobe Workfront]  用語の用語集](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md)を参照してください。
 
 * [!UICONTROL グループ]
 * [!UICONTROL グループ化]
 * [!UICONTROL 時間タイプ]
 * [!UICONTROL イニシアチブ]
-   * 会社が [!DNL Workfront Scenario Planner] ライセンスを購入している場合にのみ、計画の子オブジェクトであるイニシアティブのレポートを作成できます。イニシアチブの詳細については、[ [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md)のイニシアチブの概要を参照してください。
+   * 会社が [!DNL Workfront Scenario Planner] ライセンスを購入している場合にのみ、計画の子オブジェクトであるイニシアティブのレポートを作成できます。イニシアチブの詳細については、[&#x200B; [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md)のイニシアチブの概要を参照してください。
 
 * イニシアティブの担当業務
    * 会社が [!DNL Workfront Scenario Planner] ライセンスを購入している場合にのみ、プラン内のイニシアチブに関連付けられた担当業務のレポートを作成できます。イニシアティブの作成と担当業務への関連付けの詳細については、[イニシアチブの作成と編集 [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md)を参照してください。
@@ -283,7 +283,7 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 * [!UICONTROL イテレーション]
 * [!UICONTROL 担当業務]
 * [!UICONTROL ジャーナルエントリ]
-   * タスク、プロジェクト、イシューなどのオブジェクトの「[!UICONTROL アップデート]」エリアで、追跡されたシステムアップデートについてレポートできます。詳細については、[ 仕訳レポートを使用した更新領域のレポート ](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) を参照してください。
+   * タスク、プロジェクト、イシューなどのオブジェクトの「[!UICONTROL アップデート]」エリアで、追跡されたシステムアップデートについてレポートできます。詳細については、[&#x200B; 仕訳レポートを使用した更新領域のレポート &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) を参照してください。
 
 * [!UICONTROL レイアウトテンプレート]
 * [!UICONTROL マイルストーン]
@@ -300,12 +300,12 @@ API の詳細については、[API エクスプローラー](../../../wf-api/ge
 
   >[!CAUTION]
   >
-  >プロジェクト（財務データ）レポートを実行すると、財務データの再計算が行われます。これにより、以前の財務データが上書きされる可能性があり、かなりの時間がかかる場合があります。 財務データの再計算の結果について詳しくは、[ プロジェクトの財務を再計算する ](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md) を参照してください。
+  >プロジェクト（財務データ）レポートを実行すると、財務データの再計算が行われます。これにより、以前の財務データが上書きされる可能性があり、かなりの時間がかかる場合があります。 財務データの再計算の結果について詳しくは、[&#x200B; プロジェクトの財務を再計算する &#x200B;](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md) を参照してください。
 
 * [!UICONTROL プルーフの承認]
    * 承認のために送信されたプルーフ、[!UICONTROL 承認者] に関する情報、リクエスターに関する情報（リクエスターがライセンスを取得した [!DNL Workfront] ユーザーの場合）バージョン情報、プルーフ ID、プルーフの作成日など、プルーフの承認に関するさまざまな情報を表示できます。\
       [!UICONTROL プルーフの承認]レポートには、ユーザーの担当作業エリアでまだ決定が行われていないプルーフのみが含まれます。
-   * [ [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) でのプルーフを共有の[プルーフへのユーザーを追加](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)で説明されているように、プルーフの承認は [!DNL Workfront] で割り当てられます。
+   * [&#x200B; [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md) でのプルーフを共有の[プルーフへのユーザーを追加](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add)で説明されているように、プルーフの承認は [!DNL Workfront] で割り当てられます。
 
 * [!UICONTROL キュー]
 * [!UICONTROL キューのトピック]

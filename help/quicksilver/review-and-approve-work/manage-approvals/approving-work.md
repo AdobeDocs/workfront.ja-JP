@@ -66,7 +66,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 ## ホーム領域から作業項目を承認
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
 1. （条件付き） **フィルター** ドロップダウンメニューをクリックし、「**すべて**」を選択して、割り当てられた承認と委任された承認を確認します。
 
@@ -77,7 +77,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 1. 承認する項目を選択します。
 
-   ![ マイ承認ウィジェット ](assets/my-approvals-widget.png)
+   ![&#x200B; マイ承認ウィジェット &#x200B;](assets/my-approvals-widget.png)
 
 1. 右側のパネルで承認を決定する際に、使用可能なオプションの 1 つをクリックします。 承認する項目のタイプに応じて、ページの右上隅に次のオプションが表示されます。
 
@@ -146,7 +146,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 
    プロジェクト、タスク、イシューの現在の承認プロセスに関する承認情報が、項目のヘッダーに表示されます。
 
-   ![ プロジェクトヘッダーの現在の承認プロセス ](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![&#x200B; プロジェクトヘッダーの現在の承認プロセス &#x200B;](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    次の承認情報が表示されます。
 
@@ -172,8 +172,8 @@ Workfront の様々な領域で承認を表示または管理できます。
 
 1. 承認を必要とするドキュメントが含まれているドキュメントエリアに移動します。
 1. ドキュメントを選択し、「**承認**」、「**変更**」、または「**却下**」をクリックします。\
-   ![ ドキュメントを承認 ](assets/approval-approve-document-350x215.png)\
-   ![ ドキュメントの承認 ](assets/document-approval-350x199.png)
+   ![&#x200B; ドキュメントを承認 &#x200B;](assets/approval-approve-document-350x215.png)\
+   ![&#x200B; ドキュメントの承認 &#x200B;](assets/document-approval-350x199.png)
 
 1. （オプション）ドキュメントのプルーフが生成されている場合は、プルーフインターフェイス内でドキュメントを承認できます（[プルーフからのドキュメントの承認](#approve-a-document-from-a-proof)参照）。
 
@@ -185,7 +185,7 @@ Workfront の様々な領域で承認を表示または管理できます。
 1. ドキュメントをレビューするには、次のいずれかの操作を行います。
 
    * ドキュメントに関するメタデータを表示します。
-   * マークアップやコメントを含むドキュメントをレビューするためのプルーフが作成されている場合は、右上隅付近の **プルーフを開く**![ プルーフを開く ](assets/open-proof-icon-qs.png) をクリックして、プルーフをレビューします。
+   * マークアップやコメントを含むドキュメントをレビューするためのプルーフが作成されている場合は、右上隅付近の **プルーフを開く**![&#x200B; プルーフを開く &#x200B;](assets/open-proof-icon-qs.png) をクリックして、プルーフをレビューします。
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

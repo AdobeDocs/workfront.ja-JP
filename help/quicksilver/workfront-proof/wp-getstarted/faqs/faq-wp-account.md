@@ -31,7 +31,7 @@ ht-degree: 99%
 
 管理者と請求管理者は、アカウントにユーザーを追加できます。ユーザーは自分の作業を管理するのに役立つ独自のダッシュボードを持っており、アカウント内にプルーフやファイルを作成できます。
 
-ユーザーをアカウントに追加する方法について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) を使用してユーザーを作成するを参照してください。
+ユーザーをアカウントに追加する方法について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/users/create-users.md) を使用してユーザーを作成するを参照してください。
 
 ## パスワードを忘れた場合
 
@@ -39,7 +39,7 @@ ht-degree: 99%
 
 ## 権限プロファイルが重要な理由
 
-権限プロファイルは、アカウント内の様々なアイテムに対してユーザーが持つアクセス権を定義するものです。これは、他の人のプルーフを見られたくない場合や、[!UICONTROL アカウント設定]や[!UICONTROL 請求]へのアクセスを許可したくない場合に重要です。[!DNL Workfront Proof] で利用可能なプロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルのの記事を参照してください。
+権限プロファイルは、アカウント内の様々なアイテムに対してユーザーが持つアクセス権を定義するものです。これは、他の人のプルーフを見られたくない場合や、[!UICONTROL アカウント設定]や[!UICONTROL 請求]へのアクセスを許可したくない場合に重要です。[!DNL Workfront Proof] で利用可能なプロファイルについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルのの記事を参照してください。
 
 権限をもう少し細かく調整する必要がある場合は、カスタムプロファイルを検討するとよいでしょう。これは、カスタマイズされた権限で独自のプロファイルを作成できる[!UICONTROL 無制限]の機能です。詳しくは、[[!UICONTROL &#x200B; [!DNL Workfront Proof]]](../../../workfront-proof/wp-mnguserscontacts/users/create-and-manage-custom-profiles.md) を使用したカスタムプロファイルの作成と管理の記事を参照してください。
 
@@ -53,7 +53,7 @@ ht-degree: 99%
 
 プルーフやファイルを整理する一般的な方法は、アカウントでフォルダー構造を作成することです。フォルダーとサブフォルダーは必要な数だけ持つことができます。
 
-例えば、クライアントごとに個別のフォルダーを作成し、プロジェクトごとに異なるサブフォルダーを作成できます。または、プロジェクト用のフォルダーを作成し、アセットごとに異なるサブフォルダーを作成することもできます。必要に応じて、プルーフの作成者は、作成したプルーフ用に独自のフォルダーを作成するだけで済みます。フォルダーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) のフォルダーの記事を参照してください。
+例えば、クライアントごとに個別のフォルダーを作成し、プロジェクトごとに異なるサブフォルダーを作成できます。または、プロジェクト用のフォルダーを作成し、アセットごとに異なるサブフォルダーを作成することもできます。必要に応じて、プルーフの作成者は、作成したプルーフ用に独自のフォルダーを作成するだけで済みます。フォルダーについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md) のフォルダーの記事を参照してください。
 
 *タグ*&#x200B;は、アカウント内でプルーフやファイルを整理するためのもう 1 つの方法です。複数のタグをプルーフやファイルに適用することができ、プロジェクト名、コンテンツタイプ、クライアント名などに使用できます。タグを使用するとアカウントを検索することができ、検索結果に対して様々なアクションを実行できます。カスタムビューでも使用することもできます。タグについて詳しくは、[[[!UICONTROL &#x200B; [!DNL Workfront Proof]]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md) でのタグの作成と管理]の記事を参照してください。
 
@@ -61,19 +61,19 @@ ht-degree: 99%
 
 クライアント用にサテライトアカウントを設定できます。サテライトは、ハブアカウント内で管理できる個別のアカウントです。同じハブに複数のサテライトを設けることができます。
 
-この設定を使用すると、クライアントを独自のアカウントに追加しなくても、ダッシュボードを提供することが可能になります。これは、クライアントが参照すべき情報のみを確実に参照できるようにするための優れた方法です。サテライトアカウントのユーザーには、ハブアカウント（または同じハブに接続されている他のサテライト）の詳細は表示されません。サテライトアカウントについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md) のサテライトアカウントを参照してください。
+この設定を使用すると、クライアントを独自のアカウントに追加しなくても、ダッシュボードを提供することが可能になります。これは、クライアントが参照すべき情報のみを確実に参照できるようにするための優れた方法です。サテライトアカウントのユーザーには、ハブアカウント（または同じハブに接続されている他のサテライト）の詳細は表示されません。サテライトアカウントについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/satellite-accounts/sat-accts-in-wp.md) のサテライトアカウントを参照してください。
 
 ## [!DNL Workfront Proof] を使用してレポートを作成する方法
 
 [!UICONTROL Enterprise] および [!UICONTROL Unlimited] エディションで利用可能なカスタムビューを使用すると、アカウント内に独自のビューを構築できます。そのビューに含める情報、使用するフィルター、情報の並べ替え方法を選択できます。これはアカウント内のプルーフとファイルを追跡するのに優れたツールですが、レポートツールとしても使用できます。カスタムビューは [!DNL Excel] ファイルに書き出せるので、データをさらに処理できます。
 
-詳細な手順については、[ [!DNL Workfront Proof]  のプルーフページでのカスタムビューの作成と管理](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)を参照してください。
+詳細な手順については、[&#x200B; [!DNL Workfront Proof]  のプルーフページでのカスタムビューの作成と管理](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md)を参照してください。
 
 ## プルーフが誤って削除された場合は、どうすればよいですか？
 
 削除されたプルーフは、サイドバーの[!UICONTROL ごみ箱]フォルダーに移動します。誤って削除してしまっても心配ありません。プルーフを削除することも、ごみ箱から復元することもできます。[!UICONTROL ごみ箱]に移動し、削除したプルーフを選択して「*[!UICONTROL 復元]*」をクリックします。
 
-ごみ箱フォルダーについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
+ごみ箱フォルダーについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) でごみ箱を復元して空にするを参照してください。
 
 ## [!DNL Workfront Proof] サブスクリプションの支払い方法について教えてください。
 

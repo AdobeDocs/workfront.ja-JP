@@ -75,7 +75,7 @@ ht-degree: 52%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
@@ -85,7 +85,7 @@ ht-degree: 52%
 
    または、リスト内の別のサブグループの下に新しいサブグループを作成する場合は、そのサブグループを選択してから、「**サブグループを追加**」をクリックします。
 
-   サブグループの設定に使用できるオプションについては、[ サブグループの作成 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) を参照してください。
+   サブグループの設定に使用できるオプションについては、[&#x200B; サブグループの作成 &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) を参照してください。
 
    グループ階層は 15 レベルを超えることはできませんが、1 つのレベルに対して、複数の並列グループを無制限に設定できます。
 
@@ -97,7 +97,7 @@ ht-degree: 52%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
@@ -112,7 +112,7 @@ ht-degree: 52%
 
    表示される結果には、宛先グループより上のグループは含まれません。
 
-   適切なグループにマウスポインターを置き、その横に表示される情報アイコン ![ 情報アイコン ](assets/info-icon.png) をクリックして、そのグループが確実に選択されていることを確認できます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
+   適切なグループにマウスポインターを置き、その横に表示される情報アイコン ![&#x200B; 情報アイコン &#x200B;](assets/info-icon.png) をクリックして、そのグループが確実に選択されていることを確認できます。 グループの上位のグループの階層や管理者など、グループに関する情報が一覧表示されるツールチップが表示されます。
 
 1. リスト内で移動するサブグループの名前を選択します。
 1. 宛先グループに移動する他のサブグループについて、手順 7 ～ 8 を繰り返します。
@@ -122,15 +122,15 @@ ht-degree: 52%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
 1. 編集するサブグループを含むグループの名前をクリックします。
 1. 左側のメニューで、「**サブグループ**」をクリックします。
-1. 編集するサブグループを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+1. 編集するサブグループを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 
-   サブグループの設定に使用できるオプションについては、[ サブグループの作成 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) を参照してください。
+   サブグループの設定に使用できるオプションについては、[&#x200B; サブグループの作成 &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md) を参照してください。
 
 ## サブグループのコピー
 
@@ -152,16 +152,16 @@ ht-degree: 52%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
 1. コピーするサブグループを含むグループの名前をクリックします。
 1. 左側のメニューで、「**サブグループ**」をクリックします。
-1. サブグループを選択し、「**コピー**」アイコン ![ コピーアイコン ](assets/copy-icon.png) をクリックして、選択したグループに基づいて新しい最上位グループを作成します。
+1. サブグループを選択し、「**コピー**」アイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png) をクリックして、選択したグループに基づいて新しい最上位グループを作成します。
 1. 新しいグループの設定を構成します。
 
-   これらの設定のヘルプについては、「[ グループの作成 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)」の記事の「既存のグループまたはサブグループをコピーして最上位グループを作成する [ を参照してください ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。
+   これらの設定のヘルプについては、「[&#x200B; グループの作成 &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md#create-a-top-level-group-by-copying-an-existing-group-or-subgroup)」の記事の「既存のグループまたはサブグループをコピーして最上位グループを作成する [&#x200B; を参照してください &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md)。
 
 1. **グループを作成** をクリックします。
 
@@ -169,14 +169,14 @@ ht-degree: 52%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
 1. 書き出すサブグループを含むグループの名前をクリックします。
 1. 左側のメニューで、「**サブグループ**」をクリックします。
 1. 書き出すサブグループを選択します。
-1. **エクスポート** アイコン ![ エクスポートアイコン ](assets/export.png) をクリックし、必要なファイル形式を選択します。
+1. **エクスポート** アイコン ![&#x200B; エクスポートアイコン &#x200B;](assets/export.png) をクリックし、必要なファイル形式を選択します。
 
 ## サブグループを親グループから削除し、それを最上位グループにします
 
@@ -185,12 +185,12 @@ ht-degree: 52%
 >[!TIP]
 >
 >その下にサブグループがあるグループを非アクティブ化すると、それらのサブグループも非アクティブになります。いずれかをアクティブ化したい場合は、次の手順を使用してその親グループから削除し、再度アクティブ化することができます。
->&#x200B;>グループをディアクティベートおよび再アクティベートする手順については、[ グループのディアクティベートまたは再アクティベート ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) を参照してください。
+>&#x200B;>グループをディアクティベートおよび再アクティベートする手順については、[&#x200B; グループのディアクティベートまたは再アクティベート &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/deactivate-or-reactivate-a-group.md) を参照してください。
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
-1. 最上位のグループにするサブグループの親グループを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
+1. 最上位のグループにするサブグループの親グループを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 1. 表示された **グループの編集** ボックスで、最上位のグループにするサブグループの名前の入力を **検索** フィールド（「**グループメンバーとグループ管理者**」の下）に開始し、表示されたら名前の右側の「X」をクリックします。
 1. **保存**&#x200B;をクリックします。
 
@@ -202,13 +202,13 @@ ht-degree: 52%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
 1. 削除するサブグループを含むグループの名前をクリックします。
 1. 左側のメニューで、「**サブグループ**」をクリックします。
-1. サブグループを選択し、「**削除**」アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
+1. サブグループを選択し、「**削除**」アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
 
    表示された **グループの削除** ボックスで、入力を開始し、削除するグループのメンバー、作業項目、およびサブグループを移動するグループの名前を選択します。
 

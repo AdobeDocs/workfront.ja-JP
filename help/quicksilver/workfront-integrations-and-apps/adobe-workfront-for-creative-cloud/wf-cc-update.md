@@ -86,11 +86,11 @@ ht-degree: 92%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. **[!UICONTROL 作業リスト]**&#x200B;から、更新の投稿先となる作業アイテムを選択します。
 1. ナビゲーションバーの「**[!UICONTROL 更新]**」をクリックします。\
-   ![Photoshopの更新 ](assets/photoshop-update-350x295.png)
+   ![Photoshopの更新 &#x200B;](assets/photoshop-update-350x295.png)
 
 1. 「**[!UICONTROL 新しい更新]**」をクリックします。
 1. 更新内容を入力します。

@@ -24,7 +24,7 @@ ht-degree: 84%
 >
 >画像は実際の解像度で表示されるので、小さな画像を使用してください。
 
-![ プロジェクト名を画像とリンクに置き換える ](assets/replace-project-name-with-image-and-link-350x125.png)
+![&#x200B; プロジェクト名を画像とリンクに置き換える &#x200B;](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## アクセス要件
 
@@ -62,7 +62,7 @@ ht-degree: 84%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -86,7 +86,7 @@ ht-degree: 84%
    1. ブラウザーに応じて「**画像の場所をコピー**」または「**リンクを取得**」を右クリックして選択します。これで、その特定の画像の URL が取得され、クリップボードから貼り付けることができます。
    1. そのリンクを持つユーザー全員がリンクに移動するだけで画像を表示する権限を持ち、そのリンクにアクセスするためにログインする必要がないことを確認します。
 
-1. プロジェクトに移動し、プロジェクト名の横にある **その他** メニュー ![ その他アイコン ](assets/more-icon-45x33.png) をクリックしてから、**編集** をクリックします。
+1. プロジェクトに移動し、プロジェクト名の横にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon-45x33.png) をクリックしてから、**編集** をクリックします。
 
 1. 「**URL**」フィールドで、画像にリンクを追加します。
 1. プロジェクトの一覧のプロジェクト ビューに移動します。

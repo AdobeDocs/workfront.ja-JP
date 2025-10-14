@@ -16,7 +16,7 @@ ht-degree: 2%
 
 このページでは、2024 年第 3 四半期リリースで行われた、プレビュー環境に対するすべての管理者向けの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
-2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
+2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
 
 ## これで、ビジネスルールを使用できるようになります
 
@@ -28,7 +28,7 @@ ht-degree: 2%
 
 ビジネス・ルールを使用すると、Workfrontオブジェクトに検証を適用し、特定の条件が満たされた場合にオブジェクトを作成、編集または削除できないようにすることができます。 ルールは、カスタムフォームの計算フィールドに類似した式を使用して作成されます。
 
-詳細は、[ ビジネス・ルールの作成および編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
+詳細は、[&#x200B; ビジネス・ルールの作成および編集 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -46,7 +46,7 @@ ht-degree: 2%
 
 このリリース以降、従来のフォームビルダーに戻すオプションはなくなります。
 
-フォームデザイナーとビデオのデモについて詳しくは、[ フォームデザイナーのベータ版リリースノート ](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md) を参照してください。
+フォームデザイナーとビデオのデモについて詳しくは、[&#x200B; フォームデザイナーのベータ版リリースノート &#x200B;](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md) を参照してください。
 
 ## 環境の昇格によるWorkfront環境間でのオブジェクトの移動
 
@@ -58,7 +58,7 @@ ht-degree: 2%
 
 以前は、オブジェクトは、サンドボックス環境やプレビュー環境とは別に、実稼動環境で設定する必要がありました。
 
-環境の昇格について詳しくは、[Workfront環境間でのオブジェクトの移動の概要（環境の昇格） ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md) を参照してください。
+環境の昇格について詳しくは、[Workfront環境間でのオブジェクトの移動の概要（環境の昇格） &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md) を参照してください。
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -75,7 +75,7 @@ ht-degree: 2%
 
 新しいフォームデザイナー内で、カスタムフォームとカスタムフィールドの両方を共有できるようになりました。 これにより、カスタムフォームのユーザー間の共同作業が促進されます。
 
-詳しくは、[ カスタムフォームの共有 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) および [ フォームデザイナーとのカスタムフィールドおよびウィジェットの共有の設定 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの共有 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) および [&#x200B; フォームデザイナーとのカスタムフィールドおよびウィジェットの共有の設定 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md) を参照してください。
 
 ## 「フィールド」領域から新しいカスタムフィールドを追加
 
@@ -87,7 +87,7 @@ ht-degree: 2%
 
 この機能は、カスタムフォームデザイナーと従来のカスタムフォームビルダーの両方で使用できます。
 
-詳しくは、[ カスタムフィールド、セクション区切り、ウィジェットの追加または編集 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) を参照してください。
+詳しくは、[&#x200B; カスタムフィールド、セクション区切り、ウィジェットの追加または編集 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) を参照してください。
 
 ## フォームデザイナーで使用できる複数選択ドロップダウンフィールドタイプ
 
@@ -101,4 +101,4 @@ ht-degree: 2%
 
 このオプションは、従来のフォームビルダーでは使用できません。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。

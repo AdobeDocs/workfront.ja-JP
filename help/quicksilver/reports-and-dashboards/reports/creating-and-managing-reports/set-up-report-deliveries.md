@@ -189,7 +189,7 @@ Workfront から PDF または Excel 形式にレポートを送信する場合�
 
 * レポートオブジェクトの&#x200B;**フィルター**&#x200B;の場合、レポートのリストまたは&#x200B;*スケジュール済みレポート ID が空白ではない*&#x200B;のステートメントを使用して、レポート用のレポートでフィルターを作成します。\
   これにより、リストまたはレポートでスケジュールされたレポートのみが表示されます。\
-  ![ スケジュール済み報告書フィルター ](assets/qs-scheduled-report-filter-350x101.png)\
+  ![&#x200B; スケジュール済み報告書フィルター &#x200B;](assets/qs-scheduled-report-filter-350x101.png)\
   レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。レポートの作成について詳しくは、[レポートアクティビティに関するレポートの作成](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)を参照してください。
 
 <!--

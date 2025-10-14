@@ -47,4 +47,4 @@ ht-degree: 96%
 * **[!UICONTROL 配信済み]：**&#x200B;ソリューションが作成され、配信されました。これ以上のアップデートは提供されず、コメントは無効になります。
 * **[!UICONTROL アーカイブ済み]**：（送信日から）18 か月目に達し、300 ポイント未満のアイデアがアーカイブされます。
 
-開始する場合や詳細を確認する場合は、[ イノベーションラボ ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja) にログインしてください。
+開始する場合や詳細を確認する場合は、[&#x200B; イノベーションラボ &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja) にログインしてください。

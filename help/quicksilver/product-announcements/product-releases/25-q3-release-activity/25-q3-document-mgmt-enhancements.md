@@ -16,7 +16,7 @@ ht-degree: 3%
 
 このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するすべてのドキュメント管理の機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
-2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
 
 
 ## 統合承認の段階的なロールアウト
@@ -37,7 +37,7 @@ ht-degree: 3%
 * Workfrontのホームウィジェットで、承認に関する複数の主要業績評価指標を表示します
 * キャンバスダッシュボードを使用すると、統合承認に関するレポートの詳細を表示できます
 
-詳しくは、[ 統合承認の概要 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を参照してください。
+詳しくは、[&#x200B; 統合承認の概要 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を参照してください。
 
 ## デスクトッププルーフビューアの更新
 
@@ -69,7 +69,7 @@ ht-degree: 3%
 
 WorkfrontとGenStudio for Performance Marketingは、同じ IMS 組織にデプロイする必要があります。
 
-詳しくは、[GenStudio for Performance MarketingとWorkfront Proofの統合の基本を学ぶ ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md) を参照してください。
+詳しくは、[GenStudio for Performance MarketingとWorkfront Proofの統合の基本を学ぶ &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md) を参照してください。
 
 ## デスクトッププルーフビューアの更新
 
@@ -86,7 +86,7 @@ WorkfrontとGenStudio for Performance Marketingは、同じ IMS 組織にデプ�
 >
 >* プレビューリリース：2025 年 6 月 2 日（PT）、すべてのお客様向けの実稼動リリース：2025 年 6 月 2 日（PT）
 
-Googleは、Google Drive にアクセスするサードパーティアプリケーション向けに [ セキュリティ制御の強化 ](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) を行っており、アプリケーションにはユーザーごとの同意モデルを採用する必要があります。 その結果、Workfrontに表示するには、個々のアセットを 1 つずつリンクする必要があります。 詳しくは、[ ドキュメント統合の設定 ](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) を参照してください。
+Googleは、Google Drive にアクセスするサードパーティアプリケーション向けに [&#x200B; セキュリティ制御の強化 &#x200B;](https://workspace.google.com/blog/product-announcements/enhancing-security-controls-for-google-drive-third-party-apps) を行っており、アプリケーションにはユーザーごとの同意モデルを採用する必要があります。 その結果、Workfrontに表示するには、個々のアセットを 1 つずつリンクする必要があります。 詳しくは、[&#x200B; ドキュメント統合の設定 &#x200B;](/help/quicksilver/administration-and-setup/configure-integrations/configure-document-integrations.md) を参照してください。
 
 変更されていない主な機能は次のとおりです。
 
@@ -116,4 +116,4 @@ Googleは、Google Drive にアクセスするサードパーティアプリケ�
 
 このリリースより前に作成された承認では、プルーフビューアにボタンは表示されません。
 
-詳しくは、[ 新規ドキュメントの承認とプルーフの併用 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) を参照してください。
+詳しくは、[&#x200B; 新規ドキュメントの承認とプルーフの併用 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md) を参照してください。

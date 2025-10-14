@@ -70,7 +70,7 @@ Workfront の次のエリアでイシューの重大度を更新できます。
 
 1. **基本情報**&#x200B;エリアの&#x200B;**重大度**&#x200B;フィールドをクリックします。
 
-   ![ 問題の重大度 ](assets/issue-severity-field.png)
+   ![&#x200B; 問題の重大度 &#x200B;](assets/issue-severity-field.png)
 
 1. ドロップダウンメニューから適切な&#x200B;**重大度**&#x200B;を選択します。
 

@@ -32,7 +32,7 @@ ht-degree: 25%
 
 検証ロジックの式エディターを使用すると、複雑なロジック式を作成できます。
 
-詳しくは、[ カスタムフォームとフィールドへの論理ルールの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームとフィールドへの論理ルールの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) を参照してください。
 
 ## 計算カスタムフィールドに追加された式
 
@@ -42,4 +42,4 @@ ht-degree: 25%
 
 Workfrontの計算カスタムフィールドで、ARRAY、FORMAT、SWITCH、SORTASCARRAY、SORTDESCARRAY、ARRAYLENGTH、ARRAYELEMENT、ADDHOUR の式を使用できるようになりました。 各式の定義と例は、計算エディターとExperience Leagueで入手できます。
 
-詳しくは、[ 計算データ式の概要 ](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。
+詳しくは、[&#x200B; 計算データ式の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) を参照してください。

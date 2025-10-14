@@ -85,7 +85,7 @@ https://<URL of your organization's domain>/integrations/oauth2/authorize?client
 
 ## 認証コードフローのセットアップ
 
-![OAuth コードフロー ](assets/oauth-2-authorization-code-flow.png)
+![OAuth コードフロー &#x200B;](assets/oauth-2-authorization-code-flow.png)
 
 OAuth2 を使用してユーザーをログインするには、次の手順に従います。
 
@@ -93,7 +93,7 @@ OAuth2 を使用してユーザーをログインするには、次の手順に�
 
    ユーザーが同じブラウザーで既に Workfront にログインしている場合またはユーザーが Workfront に正常にログインした場合、ユーザーは同意画面にリダイレクトされます。
 
-   ![ 同意画面 ](assets/consent-screen-350x227.png)
+   ![&#x200B; 同意画面 &#x200B;](assets/consent-screen-350x227.png)
 
 1. ユーザーがアクセスを許可した場合、ページは `redirect_url` にリダイレクトされます。リダイレクトには、次のクエリパラメーターを含める必要があります。
 
@@ -172,7 +172,7 @@ OAuth2 を使用してユーザーをログインするには、次の手順に�
 
 ## 更新アクセストークンの設定
 
-![ アクセストークンの更新フロー ](assets/refresh-access-token-flow-350x142.png)
+![&#x200B; アクセストークンの更新フロー &#x200B;](assets/refresh-access-token-flow-350x142.png)
 
 access_token を更新するには、トークンエンドポイントに対して「POST」呼び出しを行う必要があります。今回は、次のように別のフォームデータを送信します。
 

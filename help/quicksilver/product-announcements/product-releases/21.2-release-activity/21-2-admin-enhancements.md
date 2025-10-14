@@ -34,7 +34,7 @@ ht-degree: 99%
 * プロジェクトの環境設定を変更するか、カスタム四半期を作成または削除
 * タスクとイシューの環境設定を変更
 
-詳しくは、[ 監査ログの概要 ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
+詳しくは、[&#x200B; 監査ログの概要 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
 
 この機能は、[新しい Workfront エクスペリエンスの管理の基本、第 2 部：プロジェクトの設定](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/home) Workfront One の学習パスに含まれています。
 
@@ -99,7 +99,7 @@ Workfront 全体で最新化されたリストについて詳しくは、[リス
 * 各サブページの名前の上の階層情報（例：単一のグループのページ上）
 * フォントのスタイルとサイズを最新化
 
-  ![ 設定の更新されたヘッダー ](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![&#x200B; 設定の更新されたヘッダー &#x200B;](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 設定エリアについて詳しくは、[管理と設定](../../../administration-and-setup/administration-and-setup.md)を参照してください。
 

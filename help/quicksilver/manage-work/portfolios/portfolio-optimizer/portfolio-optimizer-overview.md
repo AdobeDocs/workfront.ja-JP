@@ -20,7 +20,7 @@ ht-degree: 96%
 
 [!UICONTROL ポートフォリオオプティマイザー]は、プロジェクトの評価と比較に使用されるツールです。ポートフォリオに割り当てられたプロジェクトの[!UICONTROL ビジネスケース]の価値のレビューと比較のプロセスは、ポートフォリオマネージャーがプロジェクトに優先順位を付け、組織に最も多くの価値を生み出すことができる方法です。
 
-![Portfolio Optimizer とプロジェクト ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+![Portfolio Optimizer とプロジェクト &#x200B;](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
 [!UICONTROL ポートフォリオオプティマイザー]の目的は、ポートフォリオマネージャー、運営委員会または製品管理オフィスが、各プロジェクトのビジネスケースに関する概要情報を表示できるインターフェイスを提供することです。その後、プロジェクトを戦略的な価値観や目標または全体的なスコアに従って優先順位付けできます。
 
@@ -62,7 +62,7 @@ ht-degree: 96%
 
 #### ポートフォリオヘッダー {#portfolio-header}
 
-![Portfolio ヘッダー ](assets/portfolio-header-nwe-350x14.png)
+![Portfolio ヘッダー &#x200B;](assets/portfolio-header-nwe-350x14.png)
 
 [!DNL Adobe Workfront] は、ポートフォリオヘッダーの財務情報フィールドを、[!UICONTROL 承認済み]または[!UICONTROL 現在]のステータスのプロジェクトからの情報を使用して計算します。
 
@@ -101,7 +101,7 @@ ht-degree: 96%
 
 #### 選択したプロジェクトのポートフォリオ財務情報 {#portfolio-finances-for-selected-projects}
 
-![Portfolioの財務 ](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
+![Portfolioの財務 &#x200B;](assets/portfolio-finances-for-selected-projects-in-optimizer-nwe-350x29.png)
 
 <table style="table-layout:auto"> 
  <col> 

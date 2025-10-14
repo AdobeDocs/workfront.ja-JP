@@ -140,7 +140,7 @@ How you delete results and activities differs depending on the environment you u
 
 -->
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../results-and-activities/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -152,7 +152,7 @@ How you delete results and activities differs depending on the environment you u
 
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
 
-1. 結果またはアクティビティを選択し、リスト上部の **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
+1. 結果またはアクティビティを選択し、リスト上部の **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
 
 1. 「**削除**」をクリックして削除を確定します。結果またはアクティビティは削除され、復元できません。目標の完了率が更新され、削除されたアクティビティまたは結果が除外されます。
 
@@ -196,7 +196,7 @@ Dsconnecting projects from goals differs depending on the environment you use.
 
    目標ページが開きます。
 1. 左パネルの「**進行状況インジケーター**」をクリックします。
-1. プロジェクトを選択し、リストの上部にある **切断** アイコン ![ 切断アイコン ](assets/disconnect-icon.png) をクリックします。
+1. プロジェクトを選択し、リストの上部にある **切断** アイコン ![&#x200B; 切断アイコン &#x200B;](assets/disconnect-icon.png) をクリックします。
 1. 「**連携解除**」をクリックして確定します。
 
    プロジェクトは目標に接続されていません。目標の完了率が更新され、連携解除されたプロジェクトが除外されます。

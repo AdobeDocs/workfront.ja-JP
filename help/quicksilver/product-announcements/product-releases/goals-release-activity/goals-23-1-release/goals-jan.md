@@ -40,6 +40,6 @@ Workfront の他の機能とより一貫したエクスペリエンスを作成�
 >
 >この更新により、目標領域のチェックインセクションとパルスセクションが削除されました。
 
-Workfront Goals について詳しくは、Workfront ドキュメントの [Adobe Workfront Goals：記事インデックス ](/help/quicksilver/workfront-goals/workfront-goals.md) エリアで入手可能な記事を参照してください。
+Workfront Goals について詳しくは、Workfront ドキュメントの [Adobe Workfront Goals：記事インデックス &#x200B;](/help/quicksilver/workfront-goals/workfront-goals.md) エリアで入手可能な記事を参照してください。
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3413327/){target=_blank}

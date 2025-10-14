@@ -17,8 +17,8 @@ ht-degree: 6%
 
 >[!IMPORTANT]
 >
->キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [ フィードバックの提供 ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
->&#x200B;>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[ カスタマーサポートへのお問い合わせ ](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
+>キャンバスダッシュボード機能は現在、ベータ版のステージに参加しているユーザーのみが利用できます。 この段階では、フィーチャの一部が完全でない、または意図したとおりに動作しない可能性があります。 キャンバスダッシュボードベータ版の概要記事の [&#x200B; フィードバックの提供 &#x200B;](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md#provide-feedback) の節の手順に従って、エクスペリエンスに関するフィードバックをお送りください。<br>
+>&#x200B;>バグまたは技術的な問題の可能性に関するご意見がある場合は、Workfront サポートにチケットを送信してください。 詳しくは、[&#x200B; カスタマーサポートへのお問い合わせ &#x200B;](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) を参照してください。<br>
 >&#x200B;>このベータ版は、次のクラウドプロバイダーでは利用できません。
 >
 >* Amazon Web Services用に独自のキーを持参
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 主要業績評価指標データを数値で視覚的に表す KPI レポートを作成してキャンバスダッシュボードに追加し、その数値を使用して、プロジェクトやチームのパフォーマンスを確認できます。
 
-![KPI レポートの例 ](assets/kpi-example-main.png)
+![KPI レポートの例 &#x200B;](assets/kpi-example-main.png)
 
 ## アクセス要件
 
@@ -99,7 +99,7 @@ KPI レポートの作成に使用できる設定オプションは多数あり�
 
 1. **ビルド KPI** セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで「**KPI を構築**![KPI を構築アイコン ](assets/build-kpi-icon.png) アイコンをクリックします。
+   1. 左側のパネルで「**KPI を構築**![KPI を構築アイコン &#x200B;](assets/build-kpi-icon.png) アイコンをクリックします。
 
    1. **フィールドを選択** をクリックして、レポートに追加するフィールドを指定します。
 
@@ -107,7 +107,7 @@ KPI レポートの作成に使用できる設定オプションは多数あり�
 
 1. **フィルター** セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、「**フィルター** ![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、「**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
 
    1. **フィルターを編集** を選択します。
 
@@ -115,11 +115,11 @@ KPI レポートの作成に使用できる設定オプションは多数あり�
 
    1. （任意）「**フィルターグループを追加**」をクリックして、別のフィルター条件セットを追加します。 セット間のデフォルトの演算子は AND です。演算子をクリックして OR に変更します。
 
-      フィルターについて詳しくは、[ キャンバスダッシュボードでのレポートフィルターの編集 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) を参照してください。
+      フィルターについて詳しくは、[&#x200B; キャンバスダッシュボードでのレポートフィルターの編集 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-reports/edit-report-filters.md) を参照してください。
 
 1. **ドリルダウン列設定** セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、「**ドリルダウン列**![ ドリルダウン列アイコン ](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
+   1. 左側のパネルで、「**ドリルダウン列**![&#x200B; ドリルダウン列アイコン &#x200B;](assets/drilldown-column.png) アイコンをクリックします。 グラフのフィールドは、右側のプレビューセクションに列として自動的に表示されます。
 
    1. （オプション）既存の列の設定を更新するには、更新する列を「**現在の列**」セクションで選択してから、必要な情報（ラベル、リンクされたステータス、書式設定ルールなど）を更新します。
 
@@ -127,7 +127,7 @@ KPI レポートの作成に使用できる設定オプションは多数あり�
 
 1. 次の手順に従って、「ドリルダウン・グループ設定 **セクションを構成し** す。
 
-   1. 左側のパネルで、「**グループ設定**![ ドリルダウン・グループ・アイコン ](assets/drilldown-group-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、「**グループ設定**![&#x200B; ドリルダウン・グループ・アイコン &#x200B;](assets/drilldown-group-icon.png) アイコンをクリックします。
 
    1. **グループ化を追加** ボタンをクリックし、グループ化として作成するフィールドを選択します。
 
@@ -137,7 +137,7 @@ KPI レポートの作成に使用できる設定オプションは多数あり�
 
 この節では、保留中のドキュメント承認を表示する KPI レポートを作成する手順を説明します。
 
-KPI レポートの例について詳しくは、「[ レビューおよび承認用のレポートダッシュボードの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
+KPI レポートの例について詳しくは、「[&#x200B; レビューおよび承認用のレポートダッシュボードの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) を参照してください。
 
 {{step1-to-dashboards}}
 
@@ -162,7 +162,7 @@ KPI レポートの例について詳しくは、「[ レビューおよび承�
 
 1. **ビルド KPI** セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、「**KPI を作成**![KPI を作成アイコン ](assets/build-kpi-icon.png) をクリックします。
+   1. 左側のパネルで、「**KPI を作成**![KPI を作成アイコン &#x200B;](assets/build-kpi-icon.png) をクリックします。
 
    1. **フィールドを選択** をクリックします。
 
@@ -174,7 +174,7 @@ KPI レポートの例について詳しくは、「[ レビューおよび承�
 
 1. **フィルター** セクションを設定するには、次の手順に従います。
 
-   1. 左側のパネルで、「**フィルター** ![ フィルターアイコン ](assets/filter-icon.png) アイコンをクリックします。
+   1. 左側のパネルで、「**フィルター** ![&#x200B; フィルターアイコン &#x200B;](assets/filter-icon.png) アイコンをクリックします。
 
    1. **フィルターを編集** を選択します。
 
@@ -182,7 +182,7 @@ KPI レポートの例について詳しくは、「[ レビューおよび承�
 
    1. 空の条件フィルターをクリックし、「**フィールドを選択**」をクリックして、「**ステータス**」を選択します。
    1. 演算子を **次と等しい** のままにして、テキストボックスに _レビュー保留中_ と入力します。
-      ![ 保留中の kpi フィルターの例 ](assets/pending-kpi-filter.png)
+      ![&#x200B; 保留中の kpi フィルターの例 &#x200B;](assets/pending-kpi-filter.png)
 1. 画面の右上隅にある「**保存**」をクリックします。
 
 ## KPI レポートを作成する際の考慮事項
@@ -195,7 +195,7 @@ KPI レポートの例について詳しくは、「[ レビューおよび承�
 * **Workfront オブジェクト**: ネイティブのWorkfront ワークフローオブジェクト。
 * **Planning レコード・タイプ**: Workfront Planning で定義されたカスタム・レコード・タイプ。
 
-![ セクション ドロップダウン ](assets/sections-dropdown.png)
+![&#x200B; セクション ドロップダウン &#x200B;](assets/sections-dropdown.png)
 
 基本エンティティオブジェクトを選択すると、「**セクション**」ドロップダウンが、選択可能な該当するフィールドタイプオプションで更新されます。
 
@@ -205,7 +205,7 @@ KPI レポートの例について詳しくは、「[ レビューおよび承�
 * **Workfront フィールド** : ネイティブフィールドのみ。
 * **関係**：接続されたレコード。
 
-![ レポート可能オブジェクトの選択 ](assets/reportable-objects-selection.png)
+![&#x200B; レポート可能オブジェクトの選択 &#x200B;](assets/reportable-objects-selection.png)
 
 ### 子オブジェクトの参照
 

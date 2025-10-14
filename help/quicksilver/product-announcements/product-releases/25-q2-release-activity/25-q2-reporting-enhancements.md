@@ -41,4 +41,4 @@ Workfrontカレンダーのルックアンドフィールを、Workfrontの他�
 * 週末を隠すことはできなくなりました
 * その他
 
-詳しくは、[ カレンダー ](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) を参照してください。
+詳しくは、[&#x200B; カレンダー &#x200B;](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md) を参照してください。

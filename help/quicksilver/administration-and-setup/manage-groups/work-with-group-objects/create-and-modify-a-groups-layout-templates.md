@@ -62,7 +62,7 @@ ht-degree: 70%
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
 1. レイアウトテンプレートを作成または変更するグループの名前をクリックします。
-1. 左側のパネルで、**レイアウトテンプレート** ![ レイアウトテンプレートアイコン ](assets/layout-templates-icon.png) をクリックします。
+1. 左側のパネルで、**レイアウトテンプレート** ![&#x200B; レイアウトテンプレートアイコン &#x200B;](assets/layout-templates-icon.png) をクリックします。
 
 1. 次のいずれかの操作を行います。
 
@@ -70,15 +70,15 @@ ht-degree: 70%
 
      または
 
-     既存のテンプレートに基づいてグループに新しいテンプレートを作成するには、既存のテンプレートを選択し、「**コピー**」アイコン ![ コピーアイコン ](assets/copy-icon.png) をクリックします。
+     既存のテンプレートに基づいてグループに新しいテンプレートを作成するには、既存のテンプレートを選択し、「**コピー**」アイコン ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png) をクリックします。
 
      レイアウトテンプレートの作成については、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
      レイアウトテンプレートをコピーして新規レイアウトテンプレートを作成する方法については、[レイアウトテンプレートのコピー](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)を参照してください。
 
-   * 既存のグループレイアウトテンプレートを編集するには、テンプレートを選択して **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+   * 既存のグループレイアウトテンプレートを編集するには、テンプレートを選択して **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 
      レイアウトテンプレートの編集については、[レイアウトテンプレートの作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)を参照してください。
 
-   * 1 つ以上のレイアウトテンプレートを削除するには、それらを選択して、**削除** アイコン ![ 削除アイコン ](assets/delete.png) をクリックします。
-   * レイアウトテンプレートのリストを書き出すには、「**書き出し** アイコン ![ 書き出しアイコン ](assets/export-icon.png) をクリックします。
+   * 1 つ以上のレイアウトテンプレートを削除するには、それらを選択して、**削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックします。
+   * レイアウトテンプレートのリストを書き出すには、「**書き出し** アイコン ![&#x200B; 書き出しアイコン &#x200B;](assets/export-icon.png) をクリックします。

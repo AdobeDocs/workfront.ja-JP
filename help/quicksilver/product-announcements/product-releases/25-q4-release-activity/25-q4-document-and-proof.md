@@ -36,7 +36,7 @@ ht-degree: 8%
 * Workfrontのホームウィジェットで、承認に関する複数の主要業績評価指標を表示します
 * キャンバスダッシュボードを使用すると、統合承認に関するレポートの詳細を表示できます
 
-詳しくは、[ 統合承認の概要 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を参照してください。
+詳しくは、[&#x200B; 統合承認の概要 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を参照してください。
 
 ## 新しいWorkfront AI レビュアー
 
@@ -48,7 +48,7 @@ ht-degree: 8%
 
 AI レビュー担当者を承認テンプレートまたは個々のレビューおよび承認リクエストに追加できるので、ブランド標準を維持しながら、コンテンツをより迅速に制作できます。
 
-詳しくは、[Workfront AI レビュアーの基本を学ぶ ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
+詳しくは、[Workfront AI レビュアーの基本を学ぶ &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/wf-ai-reviewer.md) を参照してください。
 
 この機能は現在ベータ版です。
 
@@ -77,4 +77,4 @@ Adobe ExpressとWorkfront Proofの新しい統合についてお知らせしま�
 
 メモ：統合は、Adobe製品チームがお客様のアカウントで有効にする必要があります。
 
-詳しくは、[Adobe ExpressとWorkfront Proofの統合の基本を学ぶ ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。
+詳しくは、[Adobe ExpressとWorkfront Proofの統合の基本を学ぶ &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md) を参照してください。

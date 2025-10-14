@@ -30,7 +30,7 @@ Adobe Workfront の管理者は、次の 2 つの目的でユーザーにアク�
 
 「外部」は主に、Workfront を使用しない共同作業者とドキュメントを共有するために設計された無料のライセンスです。
 
-![ 従来のアクセスレベルおよびライセンス ](assets/access-levels-and-licenses-old.png)
+![&#x200B; 従来のアクセスレベルおよびライセンス &#x200B;](assets/access-levels-and-licenses-old.png)
 
 アクセスレベルに関するトピックについては、次の記事を参照してください。
 

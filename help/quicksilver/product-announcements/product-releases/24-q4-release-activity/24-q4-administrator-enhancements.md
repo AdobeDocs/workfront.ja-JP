@@ -28,7 +28,7 @@ ht-degree: 18%
 
 以前は、環境のプロモーションにアクセスレベルを使用できませんでした。
 
-環境のプロモーションに使用できるオブジェクトの詳細については、「環境のプロモーションの概要」の [ 環境のプロモーションでサポートされているオブジェクト ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) を参照してください。
+環境のプロモーションに使用できるオブジェクトの詳細については、「環境のプロモーションの概要」の [&#x200B; 環境のプロモーションでサポートされているオブジェクト &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) を参照してください。
 
 ## カスタムフォームのカウンターにフィールド数が表示されます
 
@@ -40,7 +40,7 @@ ht-degree: 18%
 
 左下のカスタムフォームにカウンターが追加されました。 カウンターは、フォームで使用されているフィールドの数を表示し、フォームデザイナー内でスクロールすると、常に表示されます。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## レイアウトテンプレートで「すべてを選択」オプションが使用できるようになりました
 
@@ -50,7 +50,7 @@ ht-degree: 18%
 
 レイアウトテンプレートでフィールドをより簡単に表示または非表示にするために、レイアウトテンプレートの詳細ビューの概要エリアと財務エリアに **すべてを選択** チェックボックスが追加されました。 このオプションは、「**ユーザーに表示されるものをカスタマイズ** の下でプロジェクト、タスク、イシュー、Portfolio、またはプログラムを選択した場合に使用できます。 すべてのオブジェクトに「財務」エリアが表示されるわけではなく、各エリアのフィールドはオブジェクトによって異なります。
 
-詳しくは、[ レイアウトテンプレートを使用して詳細ビューをカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) を参照してください。
+詳しくは、[&#x200B; レイアウトテンプレートを使用して詳細ビューをカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) を参照してください。
 
 ## 環境プロモーションパッケージのロールバック
 
@@ -62,7 +62,7 @@ ht-degree: 18%
 
 以前は、設定は手動で、または別の環境プロモーションパッケージを通じて復元されていました。
 
-環境プロモーションパッケージのロールバックについて詳しくは、[ 環境プロモーションパッケージのロールバック ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md) を参照してください。
+環境プロモーションパッケージのロールバックについて詳しくは、[&#x200B; 環境プロモーションパッケージのロールバック &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md) を参照してください。
 
 [この機能のデモビデオを見る。](https://video.tv.adobe.com/v/3434025/){target=_blank}
 
@@ -76,4 +76,4 @@ ht-degree: 18%
 
 カスタムフォームデザイナーの「レイアウト」ボタンを使用すると、2 列または 3 列の作業領域から選択できます。 元のフォームデザイナーでは 3 つの列を使用し、フィールド設定は右端の列に表示されます。 2 つの列を選択すると、左端の列のフィールド ライブラリの横にフィールド設定が表示されます。
 
-詳しくは、[ カスタムフォームの概要 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの概要 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md) を参照してください。

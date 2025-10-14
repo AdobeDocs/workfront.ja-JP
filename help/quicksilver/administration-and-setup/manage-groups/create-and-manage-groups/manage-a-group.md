@@ -89,7 +89,7 @@ Add this at end of 2nd-to-last sentence in this^ paragraph when they add the **I
 
    表示されるリストで、管理しているグループと、その中のサブグループを確認できます。Adobe Workfront 管理者は、すべてのグループを表示できます。
 
-1. グループを選択し、編集 ![ 編集アイコン ](assets/edit-icon.png)、コピー ![ コピーアイコン ](assets/copy-icon.png)、削除 ![ 削除アイコン ](assets/delete.png) アイコンをクリックします。
+1. グループを選択し、編集 ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png)、コピー ![&#x200B; コピーアイコン &#x200B;](assets/copy-icon.png)、削除 ![&#x200B; 削除アイコン &#x200B;](assets/delete.png) アイコンをクリックします。
 
    表示されるボックスの使用に関する情報が必要な場合は、次のいずれかを参照してください。
 

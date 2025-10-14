@@ -57,7 +57,7 @@ ht-degree: 95%
 
 1. プルーフビューアーの左下隅で、現在の測定単位をクリックします。
 
-   ![ ビデオタイムライン ](assets/phq-viewer-video-timeline.png)
+   ![&#x200B; ビデオタイムライン &#x200B;](assets/phq-viewer-video-timeline.png)
 
 1. 次のオプションから選択します。
 

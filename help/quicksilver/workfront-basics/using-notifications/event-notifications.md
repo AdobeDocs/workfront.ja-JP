@@ -21,7 +21,7 @@ ht-degree: 67%
 
 >[!NOTE]
 >
->イベント通知は、[!DNL Adobe Workfront] 通知のいずれかのタイプです。[!DNL Workfront] のすべての通知タイプについて詳しくは、[ 通知の概要 ](../../workfront-basics/using-notifications/wf-notifications.md) を参照してください。
+>イベント通知は、[!DNL Adobe Workfront] 通知のいずれかのタイプです。[!DNL Workfront] のすべての通知タイプについて詳しくは、[&#x200B; 通知の概要 &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md) を参照してください。
 
 ## イベント通知の設定
 
@@ -43,12 +43,12 @@ ht-degree: 67%
   >
   >ユーザーレベルの通知には [!DNL Workfront Goals] 通知も含まれます。ただし、[!DNL Workfront] 管理者またはグループ管理者は [!DNL Workfront Goals] の通知を設定することはできません。各ユーザーは、プロファイルで独自の [!DNL Workfront Goals] 通知を設定する必要があります。 ユーザーを編集するアクセス権を持っている場合は、他のユーザーに対してこれらの通知を変更することもできます。 自分のプロファイルまたは編集権限のある他のユーザーに対して [!DNL Workfront Goals] 通知を有効にする方法については、[通知：目標](../../workfront-basics/using-notifications/notifications-goals.md)を参照してください。
 
-  [!DNL Workfront] 管理者が設定できる通知の詳細については、「[ システム内の全員のイベント通知の設定 ](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) を参照してください。
+  [!DNL Workfront] 管理者が設定できる通知の詳細については、「[&#x200B; システム内の全員のイベント通知の設定 &#x200B;](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) を参照してください。
 
 ## イベント通知の内容
 
-イベント通知メールには、発生したイベントに関する情報と [!DNL Workfront] へのリンクが含まれます。ここでは、システム内のイベントを確認できます。メール通知の受信について詳しくは、「[ 通知の概要 ](../../workfront-basics/using-notifications/wf-notifications.md)」を参照してください。
+イベント通知メールには、発生したイベントに関する情報と [!DNL Workfront] へのリンクが含まれます。ここでは、システム内のイベントを確認できます。メール通知の受信について詳しくは、「[&#x200B; 通知の概要 &#x200B;](../../workfront-basics/using-notifications/wf-notifications.md)」を参照してください。
 
 [!DNL Workfront] 管理者は、[!DNL Workfront] で設定するメール通知の内容を変更することはできませんが、イベント通知メールの件名を変更できます。 詳しくは、[イベント通知メールの件名のカスタマイズ](../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)を参照してください。
 
-[!DNL Workfront] のすべてのイベント通知のリスト、各イベントの簡単な説明、デフォルトでアクティブか非アクティブかについては、[ イベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
+[!DNL Workfront] のすべてのイベント通知のリスト、各イベントの簡単な説明、デフォルトでアクティブか非アクティブかについては、[&#x200B; イベント通知タイプ &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。

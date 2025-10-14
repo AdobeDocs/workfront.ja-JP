@@ -567,7 +567,7 @@ Workfront Fusion の新機能は、2024 年第 4 四半期のリリーススケ�
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfrontプランニング 2024 年第 4 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfrontプランニング 2024 年第 4 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md) を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
@@ -591,7 +591,7 @@ API バージョンの詳細については、[API のバージョン管理と�
 
 ### Workfront のメンテナンスアップデート
 
-2024 年第 4 四半期リリースで行われたメンテナンス更新について詳しくは、[Workfront メンテナンス更新 ](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates) を参照してください。
+2024 年第 4 四半期リリースで行われたメンテナンス更新について詳しくは、[Workfront メンテナンス更新 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates) を参照してください。
 
 ### トレーニングの更新
 

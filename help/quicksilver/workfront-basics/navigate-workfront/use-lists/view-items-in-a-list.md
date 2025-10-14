@@ -65,7 +65,7 @@ ht-degree: 93%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -331,11 +331,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 これらの要素は、デフォルトで各リストの上部に表示されます。固定されており、リストをスクロールしても移動しません。各要素を識別するアイコンにポインタを合わせます。
 
-![ リスト要素 ](assets/nwe-list-elements.png)
+![&#x200B; リスト要素 &#x200B;](assets/nwe-list-elements.png)
 
 次のエリアでリスト要素をカスタマイズし、他のユーザーと共有できます。
 
-* システムのデフォルトリスト（この記事の[ [!DNL Adobe Workfront]](#default-workfront-lists) のリストの基本を学ぶの節を参照）
+* システムのデフォルトリスト（この記事の[&#x200B; [!DNL Adobe Workfront]](#default-workfront-lists) のリストの基本を学ぶの節を参照）
 * 自分と共有されているレポート
 
 リストの構成要素は、レポートの構成要素と同じです。
@@ -624,11 +624,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 * 従来のリスト
 
-  ![ ブルーグループ化 ](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![&#x200B; ブルーグループ化 &#x200B;](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * 更新されたリスト
 
-  ![ グレーグループ化 ](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![&#x200B; グレーグループ化 &#x200B;](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 次の表に、[!DNL Workfront] の従来のリストと更新されたリストの相違点をいくつか示します。
 

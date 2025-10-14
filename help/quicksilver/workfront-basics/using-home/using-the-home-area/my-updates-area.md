@@ -80,7 +80,7 @@ ht-degree: 81%
 
 自分に割り当てられているアクセスの承認とリクエストは、ページの前半部の「**マイ更新**」の下に一覧表示されます。
 
-![ マイアップデートはレビュアーに対してメンションを行います ](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+![&#x200B; マイアップデートはレビュアーに対してメンションを行います &#x200B;](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. （オプション）[!UICONTROL **マイ更新**]&#x200B;エリアの一番下までスクロールし、右向きの矢印をクリックすると、追加のページに表示される承認がさらに表示されます。
 
@@ -88,9 +88,9 @@ ht-degree: 81%
    >
    >デフォルトでは、最初の 5 つの承認またはアクセスのリクエストが表示されます。その他のページには、残りの承認が表示されます。[!UICONTROL マイ更新]エリアには、最大 2000 件の承認を表示できます。
 
-   ![ マイアップデートのページネーション ](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![&#x200B; マイアップデートのページネーション &#x200B;](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. （オプション）「**[!UICONTROL マイアップデート]**」セクションの右上隅にある「![ フィルター ](assets/filter-nwepng.png) ドロップダウンメニュー **[!UICONTROL フィルターアイコン]** を展開し、次から選択します。
+1. （オプション）「**[!UICONTROL マイアップデート]**」セクションの右上隅にある「![&#x200B; フィルター &#x200B;](assets/filter-nwepng.png) ドロップダウンメニュー **[!UICONTROL フィルターアイコン]** を展開し、次から選択します。
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,13 +115,13 @@ ht-degree: 81%
 
 1. 承認前にアイテムを承認または却下したり、ドキュメントに対する変更を提案したりするには、次の手順を実行します。
 
-   1. （任意）承認決定の横にある **ドロップダウン** アイコン ![ ドロップダウンアイコン ](assets/down-arrow-blue.png) 承認 **&#x200B;**、**[!UICONTROL 変更]**、**[!UICONTROL 却下]**）をクリックしてコメントを追加し、「**[!UICONTROL 追加]**」をクリックします。
+   1. （任意）承認決定の横にある **ドロップダウン** アイコン ![&#x200B; ドロップダウンアイコン &#x200B;](assets/down-arrow-blue.png) 承認 **&#x200B;**、**[!UICONTROL 変更]**、**[!UICONTROL 却下]**）をクリックしてコメントを追加し、「**[!UICONTROL 追加]**」をクリックします。
 
       または
 
       コメントを入力しない場合、「**[!UICONTROL スキップ]**」をクリックします。
 
-      ![ コメントボックス付きの承認決定ボタン ](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![&#x200B; コメントボックス付きの承認決定ボタン &#x200B;](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -134,7 +134,7 @@ ht-degree: 81%
       >決定にコメントを追加しない場合は、「**[!UICONTROL 承認]**」、「**[!UICONTROL 拒否]**」、または「**[!UICONTROL 変更]**」ボタンをクリックし、承認の決定を即座に行うことができます。
       >
       >
-      >![ 承認決定ボタン ](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![&#x200B; 承認決定ボタン &#x200B;](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
       >作業の承認について詳しくは、[作業の承認](../../../review-and-approve-work/manage-approvals/approving-work.md)を参照してください。
 
@@ -144,7 +144,7 @@ ht-degree: 81%
 
    **[!UICONTROL アクセス権を変更]**&#x200B;ドロップダウンメニューを展開して、付与する前にリクエストされたアクセス権を変更します。
 
-   ![ 「アクセスを変更」ボタン ](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![&#x200B; 「アクセスを変更」ボタン &#x200B;](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. （オプション）「**[!UICONTROL 無視]**」をクリックすると、付与なしで承認リストからアクセスリクエストをクリアできます。
 1. 承認の決定を下すことができない場合、「**[!UICONTROL 自分の承認をデリゲート]**」をクリックして送信された承認をデリゲートします。承認のデリゲートについて詳しくは、[承認リクエストのデリゲート](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md)を参照してください。
@@ -160,10 +160,10 @@ ht-degree: 81%
    * リッチテキストツールバーを使用すると、テキストの書式設定や、リンク、リスト、絵文字、引用符、画像をメッセージに追加できます
    * ユーザーまたはチームを追加して、返信を通知します。
 
-     更新への返信について詳しくは、「作業の更新 [ を参照してください ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
+     更新への返信について詳しくは、「作業の更新 [&#x200B; を参照してください &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)。
 
      返信の追加が完了したら、「**[!UICONTROL 送信]**」をクリックします。
 
-     ![ マイアップデート領域で返信 ](assets/reply-in-the-my-updates-area.png)
+     ![&#x200B; マイアップデート領域で返信 &#x200B;](assets/reply-in-the-my-updates-area.png)
 
 1. （オプション）「**[!UICONTROL 現在のページをピン留め]**」をクリックして、[!UICONTROL マイ更新]エリアを上部ナビゲーションにピン留めします。

@@ -94,7 +94,7 @@ Add once functionality is added
 
 1. （オプション）ドキュメントをレビューしたら、ドキュメントの「**更新**」セクションにリクエスターへのコメントを残すことができます。コメント機能について詳しくは、[作業の更新](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
 
-1. （オプション）ドキュメントの概要パネルの「**バージョン**」セクションまで下にスクロールし、レビューするバージョンの横にある「詳細」アイコン ![ 詳細アイコン ](../assets/more-icon.png) をクリックして、「**ダウンロード**」または「**プレビュー** を選択すると、ドキュメントの特定のバージョンをプレビューまたはダウンロードすることもできます。
+1. （オプション）ドキュメントの概要パネルの「**バージョン**」セクションまで下にスクロールし、レビューするバージョンの横にある「詳細」アイコン ![&#x200B; 詳細アイコン &#x200B;](../assets/more-icon.png) をクリックして、「**ダウンロード**」または「**プレビュー** を選択すると、ドキュメントの特定のバージョンをプレビューまたはダウンロードすることもできます。
 1. レビューを完了したことを記録するには、「**レビューを完了**」をクリックします。
 
 ## プルーフビューアからのドキュメントのレビュー
@@ -105,7 +105,7 @@ Add once functionality is added
 
 1. Workfrontに移動したら、「**プルーフに移動** をクリックします。
 
-1. コンテンツをレビューし、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内でプルーフを確認する：記事インデックス ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) を参照してください。
+1. コンテンツをレビューし、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内でプルーフを確認する：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) を参照してください。
 
 1. レビューを完了したことを記録するには、「**レビューを完了**」をクリックします。
 

@@ -56,7 +56,7 @@ ht-degree: 99%
 [!DNL Workfront Proof] の個人ユーザーは、アカウントのデフォルト言語とは異なる言語を指定することができます。個人のデフォルト言語を変更するには、次の手順を行います。
 
 1. [!DNL Workfront Proof] の&#x200B;**[!UICONTROL 個人設定]**&#x200B;で、「**[!UICONTROL 個人の詳細]**」タブに移動します。\
-   詳しくは、[ [!DNL Workfront Proof]  ユーザーの管理](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)を参照してください。
+   詳しくは、[&#x200B; [!DNL Workfront Proof]  ユーザーの管理](../../../workfront-proof/wp-acct-admin/account-settings/manage-wp-users.md)を参照してください。
 
 1. 「**[!UICONTROL 言語]**」設定に表示される言語をクリックします。
 1. ドロップダウンメニューで、目的の言語を選択します。選択内容は自動的に保存されます。\

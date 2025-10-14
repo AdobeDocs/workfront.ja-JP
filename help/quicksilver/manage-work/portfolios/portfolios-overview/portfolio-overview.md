@@ -20,7 +20,7 @@ ht-degree: 72%
 
 PortfolioまたはプロジェクトPortfolio管理（PPM）は、特定のビジネス目標を達成するために、プロジェクトのリストを優先順位付けして管理するプロセスです。
 
-PPM の一般的な情報については、[Portfolio管理の概要 ](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md) を参照してください。
+PPM の一般的な情報については、[Portfolio管理の概要 &#x200B;](/help/quicksilver/manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md) を参照してください。
 
 Adobe Workfrontでは、ポートフォリオは、統一された特性を持つプロジェクトのコレクションです。 これらのプロジェクトは通常、同じリソース、予算または時間枠を得るために競い合うことになります。ポートフォリオに追加する前に、ポートフォリオをプログラムに分割し、プロジェクトをプログラムに関連付けることができます。
 
@@ -64,7 +64,7 @@ Adobe Workfrontでは、ポートフォリオは、統一された特性を持�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 
 ## [!DNL Adobe Workfront] ポートフォリオ手法
@@ -88,18 +88,18 @@ Adobe Workfrontでは、ポートフォリオは、統一された特性を持�
 
    [!UICONTROL ビジネスケース]について詳しくは、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)を参照してください。
 
-   ビジネスケースを構築しながら、プロジェクトをポートフォリオに関連付けることができます。 ポートフォリオをプロジェクトに関連付けるには、ポートフォリオを作成する必要があります。 詳しくは、[ ポートフォリオの作成 ](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) を参照してください。
+   ビジネスケースを構築しながら、プロジェクトをポートフォリオに関連付けることができます。 ポートフォリオをプロジェクトに関連付けるには、ポートフォリオを作成する必要があります。 詳しくは、[&#x200B; ポートフォリオの作成 &#x200B;](/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md) を参照してください。
 
    ビジネスケースの構築時に収集した詳細は、[!UICONTROL &#x200B; ポートフォリオオプティマイザー &#x200B;] と [!UICONTROL &#x200B; リソースプランナー &#x200B;] で使用され、管理がプロジェクトを選択するのに役立ちます。
 1. リソースプールとプロジェクトを関連付け、ビジネスケースを構築します。
 
    ポートフォリオは、通常、リソースプールに対応するように構成されます。ポートフォリオ内のプログラムは、リソースプールとも整合させます。同じポートフォリオ内のプロジェクトは通常同じリソースを奪い合うので、この相関関係により、すべてのリソース計画がポートフォリオの目的に沿うようになります。
 
-   詳細については、[ リソース プールの作成 ](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) を参照してください。
+   詳細については、[&#x200B; リソース プールの作成 &#x200B;](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md) を参照してください。
 
 1. [!UICONTROL ビジネスケース]をポートフォリオマネージャーから承認してもらいます。
 
-   詳しくは、[ ビジネスケースを承認 ](/help/quicksilver/manage-work/projects/define-a-business-case/approve-business-case.md) を参照してください。
+   詳しくは、[&#x200B; ビジネスケースを承認 &#x200B;](/help/quicksilver/manage-work/projects/define-a-business-case/approve-business-case.md) を参照してください。
 1. [!UICONTROL ポートフォリオオプティマイザー]で、ポートフォリオ内のプロジェクトのパフォーマンスを管理します。
 
    ポートフォリオマネージャーは、ポートフォリオダッシュボードを使用して、ポートフォリオ内の財務パフォーマンスを追跡できます。このダッシュボードはポートフォリオのヘッダーに表示されます。

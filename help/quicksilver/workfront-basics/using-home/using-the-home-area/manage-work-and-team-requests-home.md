@@ -59,14 +59,14 @@ ht-degree: 42%
 
 作業の準備ができた項目または現在作業中の項目を表示するフィルターを選択できます。
 
-この記事では、[!UICONTROL ホーム]エリアのフィルターを使用して、現在作業中の項目、または作業を開始することを検討している項目を表示する方法について説明します。[!UICONTROL &#x200B; ホーム &#x200B;] エリアでフィルターを使用する方法について詳しくは、[ ホーム [!UICONTROL &#x200B; エリアの [!UICONTROL &#x200B; ワークリスト &#x200B;] の項目を表示 &#x200B;]](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) を参照してください。
+この記事では、[!UICONTROL ホーム]エリアのフィルターを使用して、現在作業中の項目、または作業を開始することを検討している項目を表示する方法について説明します。[!UICONTROL &#x200B; ホーム &#x200B;] エリアでフィルターを使用する方法について詳しくは、[&#x200B; ホーム [!UICONTROL &#x200B; エリアの [!UICONTROL &#x200B; ワークリスト &#x200B;] の項目を表示 &#x200B;]](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md) を参照してください。
 
 自分の作業ウィジェットに作業項目を表示するには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **担当作業** ウィジェットを追加します。
 
-1. ウィジェットワークリストの左上隅にある **フィルター** アイコン ![ フィルターアイコン ](assets/filter-nwepng.png) をクリックします。
+1. ウィジェットワークリストの左上隅にある **フィルター** アイコン ![&#x200B; フィルターアイコン &#x200B;](assets/filter-nwepng.png) をクリックします。
 
 1. タスクに対して、次のいずれかのオプションまたは両方をクリックします。
 
@@ -89,12 +89,12 @@ ht-degree: 42%
 
 チームリクエストにアクセスするには：
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **チームリクエスト** ウィジェットを追加します。
 
    このウィジェットは、チームのグループ化の下にチームリクエストを表示します。 **[!UICONTROL チームリクエスト]** ウィジェットが表示され、自分が参加しているチームに割り当てられたすべてのリクエストが表示されます。 チームリクエストの作業について詳しくは、[作業とチームリクエストを管理](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)を参照してください。
 
-   ![ チームリクエストウィジェット ](assets/team-request-widget.png)
+   ![&#x200B; チームリクエストウィジェット &#x200B;](assets/team-request-widget.png)
 
 ## 自分の作業ウィジェットでの作業項目の操作
 
@@ -102,13 +102,13 @@ ht-degree: 42%
 
 作業項目を作業する手順は、次のとおりです。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **担当作業** ウィジェットを追加します。
 
 1. ウィジェットの **[!UICONTROL ワークリスト]** エリアで、作業するリクエストを選択し、「**[!UICONTROL 作業]**」をクリックします。
 1. 作業項目の上にマウスポインターを置いて「**概要** アイコンをクリックすると、作業項目に関する情報が表示されます。
 
-   ![ 概要を開く ](assets/open-summary-new-home.png)
+   ![&#x200B; 概要を開く &#x200B;](assets/open-summary-new-home.png)
 
 
 ## 作業項目を削除
@@ -117,13 +117,13 @@ ht-degree: 42%
 
 作業項目を削除する手順は、次のとおりです。
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **担当作業** ウィジェットを追加します。
 
 1. ウィジェットのワークリストで、作業項目にポインタを合わせ、「**概要** アイコンをクリックすると、作業項目に関する情報が表示されます。
-   ![ 概要を開く ](assets/open-summary-new-home.png)
+   ![&#x200B; 概要を開く &#x200B;](assets/open-summary-new-home.png)
 1. 「**割り当て**」セクションで、自分の名前を削除します。
-   ![ 割り当てを削除 ](assets/remove-assignment.png)
+   ![&#x200B; 割り当てを削除 &#x200B;](assets/remove-assignment.png)
 
 
 

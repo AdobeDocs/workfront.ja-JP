@@ -24,6 +24,6 @@ ht-degree: 0%
 
 以下の記事では、受信するWorkfront Planning 通知のタイプと、環境設定の管理方法について説明します。
 
-* [Adobe Workfront Planning 通知設定の管理 ](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+* [Adobe Workfront Planning 通知設定の管理 &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
 * [Adobe Workfront Planning のメール通知の管理](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
 * [Adobe Workfront Planning のアプリ内通知の管理](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)

@@ -24,7 +24,7 @@ ht-degree: 99%
 
 ## プルーフを作成せずにファイルをアップロードすることについて
 
-場合によっては、ファイルを [!DNL Workfront Proof] に追加し、同時にプルーフを作成する場合があります（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照）。
+場合によっては、ファイルを [!DNL Workfront Proof] に追加し、同時にプルーフを作成する場合があります（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照）。
 
 他の場合には、プルーフを作成せずにファイルを [!DNL Workfront Proof] に追加したい場合もあります。
 
@@ -37,7 +37,7 @@ ht-degree: 99%
 ファイルを [!DNL Workfront Proof] にアップロードするには：
 
 1. [!DNL Workfront Proof] の左上隅にある「**[!UICONTROL 新しいプルーフ]**」ボタンをクリックし、表示されたメニューで「**[!UICONTROL ファイルをアップロード]**」をクリックします。\
-   ![ 「新規プルーフ」ボタン ](assets/new-proof-button-menu.png)
+   ![&#x200B; 「新規プルーフ」ボタン &#x200B;](assets/new-proof-button-menu.png)
 
 1. **[!DNL New File]** ページが表示されます。
 1. 次のいずれかの操作を行って、プルーフに必要なコンテンツをアップロードまたは追加します。

@@ -51,7 +51,7 @@ ht-degree: 98%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-&#42;&#42; ライセンスについて詳 [!DNL Adobe Workfront Fusion] くは、[[!DNL Adobe Workfront Fusion]  ライセンス ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
+&#42;&#42; ライセンスについて詳 [!DNL Adobe Workfront Fusion] くは、[[!DNL Adobe Workfront Fusion]  ライセンス &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
 
 ## イベントのトリガー
 

@@ -299,26 +299,26 @@ Workfrontのプラットフォームを引き続き強化していく中で、AP
 プロジェクトの従来のアジャイルビューは、25.3 リリース（2025 年 3 月 13 日（PT））でWorkfrontから削除されます。 ボード アイコンをクリックすると、プロジェクトのアジャイルビューでタスクを表示できます。 既存の従来のアジャイルツールは、引き続きチーム エリアで使用できます。
 
 以下の画像は、削除される従来のアジャイルオプションを示しています。
-![ 従来のアジャイルビューリンク ](assets/project-agile-board-view.png)
+![&#x200B; 従来のアジャイルビューリンク &#x200B;](assets/project-agile-board-view.png)
 
 
 #### Enhanced Analytics の廃止
 
 使用率が低く、低下しているため、2025 年 5 月 25 日の週に Enhanced Analytics 製品を非推奨（廃止予定）にすることを決定しました。
 弊社の Data Connect 製品を代替品として検討することをお勧めします。 データ接続を使用すると、好みのビジネスインテリジェンスツールを使用して、カスタマイズ可能な類似のビジュアライゼーションを作成できます。
-この非推奨（廃止予定）について詳しくは、[Enhanced Analytics 非推奨ガイド ](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) を参照してください。
+この非推奨（廃止予定）について詳しくは、[Enhanced Analytics 非推奨ガイド &#x200B;](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md) を参照してください。
 
 ## お知らせ
 
 ### インターフェイスの最新化
 
-ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[ インターフェイスの最新化 ](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
+ユーザーエクスペリエンスを向上させ、他のAdobe Workfront アプリケーションと統合できるよう、Adobe全体でインターフェイスをアップデートしています。 これらの変更は、標準のリリーススケジュールの範囲外でリリースされます。 これらの変更点のリストについては、[&#x200B; インターフェイスの最新化 &#x200B;](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md) を参照してください。
 
 ### Workfront Fusion の機能強化
 
 >[!IMPORTANT]
 >
->Workfront Fusion のドキュメントが新しい場所に移動されました。 Fusion の情報、手順、リリースについては、[Workfront Fusion ドキュメント ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) を参照してください。
+>Workfront Fusion のドキュメントが新しい場所に移動されました。 Fusion の情報、手順、リリースについては、[Workfront Fusion ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) を参照してください。
 >
 >現在の Fusion ドキュメントの各記事には、新しい場所にある対応する記事へのリンクが含まれています。 ブックマークを更新してください。
 >
@@ -328,7 +328,7 @@ Workfront Fusion の新機能は、標準のリリーススケジュール以外
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront計画の 2025 年第 2 四半期リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront計画の 2025 年第 2 四半期リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md) を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 
@@ -348,7 +348,7 @@ API バージョン 19 では、いくつかのリソースとエンドポイン
 
 新機能と更新内容については、[API バージョン 19 の新機能](/help/quicksilver/wf-api/api/new-api-version-19.md)を参照してください。
 
-現在サポートされている API バージョンについて詳しくは、「[API バージョン管理とサポートスケジュール ](/help/quicksilver/wf-api/api/api-version-support-schedule.md)」を参照してください。
+現在サポートされている API バージョンについて詳しくは、「[API バージョン管理とサポートスケジュール &#x200B;](/help/quicksilver/wf-api/api/api-version-support-schedule.md)」を参照してください。
 
 ### Workfront のメンテナンスアップデート
 

@@ -24,7 +24,7 @@ ht-degree: 95%
 >
 >プレビューリリース：2024年4月11日（PT）。すべてのお客様向けの実稼動版：24.4 リリース（2024年4月11日（PT））
 
-アプリケーション全体で一貫したエクスペリエンスを提供するために、新しいコメント機能をイテレーションに追加しました。 詳しくは、[ セクションの概要を更新 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
+アプリケーション全体で一貫したエクスペリエンスを提供するために、新しいコメント機能をイテレーションに追加しました。 詳しくは、[&#x200B; セクションの概要を更新 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md) を参照してください。
 
 ## 従来のコメントエリアへのアクセス権限の削除
 

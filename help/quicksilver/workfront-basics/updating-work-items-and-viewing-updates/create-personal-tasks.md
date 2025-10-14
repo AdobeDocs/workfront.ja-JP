@@ -34,14 +34,14 @@ Adobe Workfrontは、Wprfront が各ユーザーに対して自動的に作成�
 
 * ホームエリアで To Do アイテムを作成する
 
-  詳しくは、[ ホームエリアからの作業項目とプロジェクトの作成 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
+  詳しくは、[&#x200B; ホームエリアからの作業項目とプロジェクトの作成 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
 
 * ユーザープロファイルページからの個人の作業要求の作成と別のユーザーへの送信
 * ユーザープロファイルページからの個人の作業要求の作成と送信
 
 この記事では、ユーザープロファイル ページからユーザーまたは自分用の個人用作業要求を作成する方法について説明します。
 
-個人のタスクをどのように追加するかに関係なく、Workfrontの同じ領域でそれらを見つけることができます。 詳細については、この記事の「個人のタスクを検索する [ を参照し ](#locate-personal-tasks) ください。
+個人のタスクをどのように追加するかに関係なく、Workfrontの同じ領域でそれらを見つけることができます。 詳細については、この記事の「個人のタスクを検索する [&#x200B; を参照し &#x200B;](#locate-personal-tasks) ください。
 
 ## アクセス要件
 
@@ -112,8 +112,8 @@ Adobe Workfrontは、Wprfront が各ユーザーに対して自動的に作成�
 
 * 個人の要求が送信されたユーザーのホーム領域の To-Do ウィジェット。
 
-  詳しくは、[ ホームエリアからの作業項目とプロジェクトの作成 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
+  詳しくは、[&#x200B; ホームエリアからの作業項目とプロジェクトの作成 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) を参照してください。
 
 * 個人のタスクレポートまたはリスト。 個人タスク フィルターを作成してタスク報告書またはリストに適用し、個人タスクのみを表示して、プロジェクト タスクを除外することができます。
 
-  詳しくは、[ フィルター：個人用タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md) を参照してください。
+  詳しくは、[&#x200B; フィルター：個人用タスク &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md) を参照してください。

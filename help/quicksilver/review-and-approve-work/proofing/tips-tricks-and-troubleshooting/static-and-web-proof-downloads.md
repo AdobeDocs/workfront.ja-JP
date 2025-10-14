@@ -17,7 +17,7 @@ ht-degree: 1%
 
 ## 問題
 
-ユーザーがインタラクティブプルーフを新しいバージョンとして [ 静的プルーフ（.pdf、.png、.jpg など）に追加すると ](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md#static-files) 以前のバージョンはすべてダウンロードやプレビューができなくなります。
+ユーザーがインタラクティブプルーフを新しいバージョンとして [&#x200B; 静的プルーフ（.pdf、.png、.jpg など）に追加すると &#x200B;](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md#static-files) 以前のバージョンはすべてダウンロードやプレビューができなくなります。
 
 ## ソリューション
 

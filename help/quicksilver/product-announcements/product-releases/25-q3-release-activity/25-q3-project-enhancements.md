@@ -18,7 +18,7 @@ ht-degree: 2%
 
 このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するプロジェクトの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
-2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
 
 ## リクエストを行う際のエクスペリエンスの更新
 
@@ -35,7 +35,7 @@ ht-degree: 2%
 * リクエストパスとリクエストフォームは、「最近」の領域と、下のより大きなリストの両方で、別々のセクションに表示されます。
 * リクエストキューを検索すると、リストには、検索語句を含んだフォームとパスのみが表示されます。 表示された各リクエストフォームまたはパスで検索語句がハイライト表示されます。
 
-リクエストの作成について詳しくは、[ リクエストの作成と送信 ](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
+リクエストの作成について詳しくは、[&#x200B; リクエストの作成と送信 &#x200B;](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md) を参照してください。
 
 ## 既存の実績時間フィールドが、従来の実績時間と、新しく作成された実績時間フィールドに置き換えられる
 
@@ -61,7 +61,7 @@ ht-degree: 2%
 >  &#x200B;><br>新しいフィールドとその値を反映するには、レポートの更新が必要になる場合があります。
 >  &#x200B;><br>Workfrontでは、従来の実績時間数を使用して、実際の労力コストを計算します。
 
-詳しくは、[ 実際の時間数を表示 ](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md) を参照してください。
+詳しくは、[&#x200B; 実際の時間数を表示 &#x200B;](/help/quicksilver/manage-work/tasks/task-information/actual-hours.md) を参照してください。
 
 
 ## API 呼び出しのデータベースへの実際の時間数の保存方法の変更
@@ -98,7 +98,7 @@ ht-degree: 2%
 
 Workfrontの他の領域でタスクと問題の完了率を更新するために導入された変更はありません。
 
-詳しくは、[ タスクの完了率の表示と更新 ](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
+詳しくは、[&#x200B; タスクの完了率の表示と更新 &#x200B;](/help/quicksilver/manage-work/projects/updating-work-in-a-project/view-update-percent-complete-for-tasks.md) を参照してください。
 
 ## プロジェクト、タスク、問題で AI アシスタントを使用する際の透明性が向上します
 
@@ -112,6 +112,6 @@ Workfront プロジェクト、タスク、問題に関する質問への回答�
 
 以前は、この情報は AI アシスタントの応答では使用できませんでした。
 
-AI アシスタントを使用してWorkfrontの情報を入手する方法については、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。
+AI アシスタントを使用してWorkfrontの情報を入手する方法については、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。
 
 

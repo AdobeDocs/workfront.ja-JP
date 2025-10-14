@@ -64,7 +64,7 @@ ht-degree: 98%
 * 先行タスク関係は、リソースの標準化よりも優先されます。
 * [!UICONTROL ガントチャート]で標準化を調整するには、プロジェクトの「**[!UICONTROL リソースの標準化]**」を「**[!UICONTROL 手動]**」に設定する必要があります。プロジェクトに対する管理権限がある場合は、プロジェクトでこの設定を調整し、**[!UICONTROL プロジェクトの編集]**&#x200B;ボックスで「**[!UICONTROL 手動]**」ではなく「**[!UICONTROL 自動]**」を選択することで、システムに自動的にリソースを標準化させることができます。
 
-  ![ リソースの標準化モード ](assets/resource-leveling-mode-350x177.png)
+  ![&#x200B; リソースの標準化モード &#x200B;](assets/resource-leveling-mode-350x177.png)
 
 * プロジェクト所有者またはタスク担当者は、タスクに標準化の遅延を導入して、タスクに追加の時間が必要になる可能性が高いことを示すことができます。タスクに標準化の遅延を追加する方法については、[タスク標準化の遅延の更新](../../../manage-work/tasks/task-information/task-leveling-delay.md)を参照してください。
 
@@ -83,7 +83,7 @@ ht-degree: 98%
    >
    >「[!UICONTROL 自動保存]」オプションが有効になっている場合、[!UICONTROL ガントチャート]でリソースを標準化することはできません。
 
-   ![ 手動設定を有効にする ](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![&#x200B; 手動設定を有効にする &#x200B;](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. **[!UICONTROL リソースの標準化]**&#x200B;ドロップダウンメニューをクリックします。
 

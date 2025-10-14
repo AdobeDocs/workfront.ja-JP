@@ -100,7 +100,7 @@ ht-degree: 90%
 
 この記事では、目標リストで目標を確認する方法について説明します。
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)/**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)/**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ ht-degree: 90%
 
 1. 進行状況バーのインジケーターの上にポインタを合わせると、実際の進行状況の割合と、今日の期待値が表示されます。
 
-   ![GOal の進行状況のホバーの詳細 ](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![GOal の進行状況のホバーの詳細 &#x200B;](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. （オプション）フィルターを使用して、特定の所有者に属する目標を検索します。
 
@@ -137,7 +137,7 @@ ht-degree: 90%
 
    結果とアクティビティのアップデートについて詳しくは、[Adobe Workfront Goals での目標の進行状況のアップデート](../goal-review-and-workfront-goals-sections/check-in-goals.md)を参照してください。
 
-   ![ 実際の進捗状況 ](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![&#x200B; 実際の進捗状況 &#x200B;](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

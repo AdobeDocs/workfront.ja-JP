@@ -21,9 +21,9 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
 
 また、カスタムフォームで使用するカスタムフィールド、セクション区切り、ウィジェットのプロパティを編集することもできます。 これには、項目のラベル、名前、説明などが含まれます。
 
-カスタムフォームからカスタムフィールドを削除した場合、そのフィールドは追加先となったその他のすべてのフォームに存在し、フォームまたは「フィールド」領域で編集できます。 フィールドの削除について詳しくは、[ システムからカスタムフィールドまたはウィジェットを削除する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) を参照してください。
+カスタムフォームからカスタムフィールドを削除した場合、そのフィールドは追加先となったその他のすべてのフォームに存在し、フォームまたは「フィールド」領域で編集できます。 フィールドの削除について詳しくは、[&#x200B; システムからカスタムフィールドまたはウィジェットを削除する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md) を参照してください。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## アクセス要件
 
@@ -66,7 +66,7 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
 1. **新規カスタムフィールド** をクリックします。
 1. 表示されるボックスに、追加する項目の必須情報とオプション情報を入力します。
 
-   詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. 「**作成**」をクリックします。
 
@@ -79,7 +79,7 @@ Workfrontのフィールド エリアから直接新しいカスタムフィー�
 1. カスタムフィールド、セクション区切りまたはウィジェットを選択し、![編集アイコン](assets/edit-icon.png) をクリックします。
 1. 表示されるボックスで、編集中の項目に対して使用可能なオプションを変更します。
 
-   詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 1. 完了したら、「**編集**」をクリックします。
 

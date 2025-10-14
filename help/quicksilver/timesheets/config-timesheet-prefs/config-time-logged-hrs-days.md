@@ -56,7 +56,7 @@ ht-degree: 95%
 
 1. 表示されたダイアログ・ボックスの「**Resource Planning**」セクションで、「**Log time in**」オプションを探します。
 
-   ![ 時間をオプションで記録 ](assets/user-profile-log-time-options.png)
+   ![&#x200B; 時間をオプションで記録 &#x200B;](assets/user-profile-log-time-options.png)
 
 1. （条件付き）システム管理者が複数のユーザーを同時に編集する場合は、「**時間を記録する単位**」を選択します。
 1. 時間の記録に関する次のオプションから選択します。

@@ -95,6 +95,6 @@ Adobe [!DNL Workfront] 管理者は、[!DNL Workfront] のインスタンス用�
 >
 >[!DNL Workfront Fusion] 内の次の [!DNL Workfront] モジュールは、選択したプロジェクトにコメントを追加するように設定されています。モジュールを実行すると、Workfront のプロジェクトの更新ストリームにコメントが表示されます。
 >
->![ 例：Fusion でのコメントの追加 ](assets/fusion-example-comment-350x416.png)
+>![&#x200B; 例：Fusion でのコメントの追加 &#x200B;](assets/fusion-example-comment-350x416.png)
 
 [!DNL Workfront Fusion] の詳細は、[[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) を参照してください。

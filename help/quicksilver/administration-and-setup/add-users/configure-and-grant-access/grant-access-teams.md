@@ -48,7 +48,7 @@ Adobe Workfront 管理者は、アクセスレベルを使用して、Workfront 
 1. アクセスレベルの作成または編集を行います。詳しくは、[カスタムアクセスレベルの作成または変更](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 1. 「チーム」の右側にある&#x200B;**表示**&#x200B;ボタンまたは&#x200B;**編集**&#x200B;ボタンにある歯車アイコン ![](assets/gear-icon-settings.png) をクリックし、付与する権限を&#x200B;**設定を微調整する**&#x200B;で選択します。
 
-   ![ チームの微調整 ](assets/fine-tune-teams.png)
+   ![&#x200B; チームの微調整 &#x200B;](assets/fine-tune-teams.png)
 
    * **表示**：任意のライセンスを持つユーザーがチームを表示する方法を設定する場合は、次のオプションを変更します。
 

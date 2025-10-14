@@ -63,6 +63,6 @@ ht-degree: 90%
    >
    >Workfront のプランによっては、**プルーフ権限プロファイル**&#x200B;メニューを表示するには、「**プルーフユーザー**」チェックボックスを有効にする必要がある場合があります。
 
-   ![ プルーフ権限プロファイル ](assets/proof-permission-profile-350x203.png)
+   ![&#x200B; プルーフ権限プロファイル &#x200B;](assets/proof-permission-profile-350x203.png)
 
 1. 「**変更を保存**」をクリックします。

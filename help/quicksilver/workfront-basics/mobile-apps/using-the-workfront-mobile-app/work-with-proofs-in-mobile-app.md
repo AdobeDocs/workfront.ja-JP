@@ -79,7 +79,7 @@ ht-degree: 97%
 ### プルーフでの判断
 
 1. ドキュメントのプルーフを開きます。
-1. ドキュメントの右上にある![[!UICONTROL 決定]アイコン ](assets/mobile-proofcheckmarkdecisionicon-30x30.png) を選択します。
+1. ドキュメントの右上にある![[!UICONTROL 決定]アイコン &#x200B;](assets/mobile-proofcheckmarkdecisionicon-30x30.png) を選択します。
 1. 「[!UICONTROL 決定を下す]」ボックスで決定を選択します。
 
    いくつかの一般的な決定オプションを以下に示します。[!DNL Adobe Workfront] 管理者または [!UICONTROL Workfront Proof] 管理者は、決定オプションのリストを設定できます。管理者が決定を設定する方法の詳細については、[Workfront Proof での承認決定オプションの設定](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md)を参照してください。
@@ -107,7 +107,7 @@ ht-degree: 97%
 
    理由によっては、その理由を選択した理由を説明するコメントが必要な場合もあります。
 
-   管理者が理由を設定する方法の詳細については、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) での承認決定オプションの設定を参照してください。
+   管理者が理由を設定する方法の詳細については、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md) での承認決定オプションの設定を参照してください。
 
 1. 「**[!UICONTROL 送信]**」を選択します。
 

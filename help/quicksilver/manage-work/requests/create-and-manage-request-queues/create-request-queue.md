@@ -48,7 +48,7 @@ Workfrontでは、リクエストキューとして次のオブジェクトを�
 
 リクエストキューに新しいリクエストを送信する方法について詳しくは、[リクエストのコピーと送信](../create-requests/copy-and-submit-requests.md)を参照してください。
 
-Adobe Workfront Planning でリクエストフォームを設定する方法については、[Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+Adobe Workfront Planning でリクエストフォームを設定する方法については、[Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## アクセス要件
 
@@ -345,7 +345,7 @@ To create a Request Queue:
 
    「キューの詳細」セクションが開きます。
 
-   ![ 「キューの詳細」領域の「キュータイプ」セクション ](assets/unshimmed-queue-type-section-queue-details-area.png)
+   ![&#x200B; 「キューの詳細」領域の「キュータイプ」セクション &#x200B;](assets/unshimmed-queue-type-section-queue-details-area.png)
 
 1. 次の情報を指定します。
 
@@ -375,7 +375,7 @@ To create a Request Queue:
 
    * **直接アクセス URL：**&#x200B;ユーザーがブラウザーからこの URL にアクセスすると、ユーザーはリクエストエリアの「新規リクエスト」セクションに直接移動し、デフォルトではこのリクエストが選択されます。
 
-     ![ ダイレクト URL 共有からの新しいリクエストボックス ](assets/new-request-box-from-direct-url-share.png)
+     ![&#x200B; ダイレクト URL 共有からの新しいリクエストボックス &#x200B;](assets/new-request-box-from-direct-url-share.png)
 
      >[!NOTE]
      >
@@ -438,7 +438,7 @@ To create a Request Queue:
    >
    >ユーザーが「要求」領域から要求キューにアクセスすると、「キューの詳細」ページと「キューのトピック」ページの両方で「要求タイプ」が選択されている場合にのみ、「要求タイプ」が選択として表示されます。
    >
-   >プロジェクトの「キュートピック」領域の設定については、[ キュートピックの作成 ](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) を参照してください。
+   >プロジェクトの「キュートピック」領域の設定については、[&#x200B; キュートピックの作成 &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md) を参照してください。
 
    ここで選択したそれぞれのタイプは、フォームで使用できます（複数選択できます）。複数のタイプを選択すると、寄せられる複数のリクエストを整理するのに役立ちます。\
    例えば、IT プロジェクトのリクエストキューでフォームを使用している場合、ハードウェア、ソフトウェア、バグ修正、イシューなどのリクエストタイプがキューに入る可能性があります。
@@ -510,7 +510,7 @@ Workfront管理者が設定エリアで稼働日の標準的な時間数を 8 �
       </tbody> 
      </table>
 
-     ![ 新しいイシューフィールドとキュー詳細のドキュメント ](assets/new-issue-fields-and-documents-on-queue-details.png)
+     ![&#x200B; 新しいイシューフィールドとキュー詳細のドキュメント &#x200B;](assets/new-issue-fields-and-documents-on-queue-details.png)
 
    * **選択および選択解除されたすべてのフィールドを表示する先：** 新しいリクエストフォームのすべてのフィールドを表示するユーザーを選択します。 次のオプションは、フォーム上のフィールドへのアクセスを制御します。
 
@@ -526,7 +526,7 @@ Workfront管理者が設定エリアで稼働日の標準的な時間数を 8 �
 リクエストキューに複数のキュートピックが関連付けられている場合は、代わりにカスタムフォームをキュートピックに関連付けることをお勧めします。
 詳しくは、[キュートピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)を参照してください。
 
-     ![ キューの詳細のカスタムフォームボックス ](assets/custom-forms-box-on-queue-details.png)
+     ![&#x200B; キューの詳細のカスタムフォームボックス &#x200B;](assets/custom-forms-box-on-queue-details.png)
 
 1. 続いて、**メールキュー設定**&#x200B;エリアで、ユーザーがリクエストをリクエストキュープロジェクトにメールで送信できるようにするには、設定の情報を選択します。
 
@@ -539,7 +539,7 @@ Workfront管理者が設定エリアで稼働日の標準的な時間数を 8 �
 
    * リクエストキューのサブセクションの作成について詳しくは、次の記事を参照してください
    * [キュートピックの作成](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
-   * [ トピックグループの作成 ](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
+   * [&#x200B; トピックグループの作成 &#x200B;](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
      適切な担当者、チーム、および正しいプロジェクトにリクエストをルーティングする方法については、[ルーティングルールの作成](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)を参照してください。
 

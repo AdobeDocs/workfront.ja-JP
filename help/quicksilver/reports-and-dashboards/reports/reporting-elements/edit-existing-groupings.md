@@ -57,7 +57,7 @@ ht-degree: 86%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -71,7 +71,7 @@ ht-degree: 86%
 
 1. カスタマイズしたいグループ化を含むオブジェクトのリストに移動します。
 1. **グループ化**&#x200B;アイコンをクリックします。
-1. カスタマイズするグループ化を選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+1. カスタマイズするグループ化を選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 
    ![編集アイコンを選択します。](assets/customizegrouping-nwe-standard-350x291.png)
 

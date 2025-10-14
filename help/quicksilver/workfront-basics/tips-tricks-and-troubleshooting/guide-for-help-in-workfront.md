@@ -151,7 +151,7 @@ ht-degree: 92%
 
 [status.adobe.com](https://status.adobe.com/ja/) に登録して、メンテナンスのスケジュールや障害に関する情報を入手します。
 
-[!DNL Workfront] ステータスサイトについて詳しくは、[ [!DNL Adobe Workfront] ステータスサイト](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)を参照してください。
+[!DNL Workfront] ステータスサイトについて詳しくは、[&#x200B; [!DNL Adobe Workfront] ステータスサイト](../../workfront-basics/tips-tricks-and-troubleshooting/understand-the-status-site.md)を参照してください。
 
 毎週のメンテナンス更新で修正された点については、[メンテナンスアップデート](https://experienceleague.adobe.com/ja/docs/workfront-known-issues/releases/current-updates)を参照してください。
 

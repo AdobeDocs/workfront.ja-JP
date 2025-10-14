@@ -28,7 +28,7 @@ ht-degree: 98%
 「[!UICONTROL グループ]」ページでは、次のことができます。
 
    * すべてのパブリックおよびプライベートグループを表示します。
-   * 新しいグループを作成します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)を使用してプルーフグループを作成するを参照してください。
+   * 新しいグループを作成します。詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md)を使用してプルーフグループを作成するを参照してください。
    * グループを CSV ファイルに書き出します。
    * グループをフィルターして並べ替えます。
    * 1 つ以上のグループを選択すると、次の追加オプションが使用可能になります。
@@ -37,7 +37,7 @@ ht-degree: 98%
 
         ![Groups_page-add_people_btn.png](assets/groups-page-add-people-btn-30x29.png)
 
-      * 「[ [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md) を使用してグループを非公開にする」の説明に従って、選択したグループを非公開または公開します。
+      * 「[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/make-groups-private.md) を使用してグループを非公開にする」の説明に従って、選択したグループを非公開または公開します。
       * 非公開グループは、その作成者のみに表示されます。
       * 選択したグループを削除します。
 
@@ -102,12 +102,12 @@ ht-degree: 98%
 
 1. グループに追加する連絡先の名前の横にあるチェックボックスをクリックします。
 1. 「**[!UICONTROL グループに追加]**」ボタンをクリックします。
-   ![ グループに追加 ](assets/screenshot-2018-04-06-15-27-17.png)
+   ![&#x200B; グループに追加 &#x200B;](assets/screenshot-2018-04-06-15-27-17.png)
 **[!UICONTROL グループに追加]** ダイアログボックスが表示されます。
 
 1. 「**[!UICONTROL ユーザー]**」セクション：
 
-   1. ドロップダウンメニューを使用して、メンバーの「「**役割**」または「**メールアラート**」を変更します。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割を管理および [ [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知設定を参照してください。
+   1. ドロップダウンメニューを使用して、メンバーの「「**役割**」または「**メールアラート**」を変更します。詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) でのプルーフの役割を管理および [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) でのメール通知設定を参照してください。
 
    1. グループに連絡先を追加するには、**[!UICONTROL 連絡先名を入力]**&#x200B;または「**[!UICONTROL メールアドレス]**」フィールドを使用します。
 

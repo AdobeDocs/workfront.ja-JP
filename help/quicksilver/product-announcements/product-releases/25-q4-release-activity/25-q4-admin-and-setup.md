@@ -29,7 +29,7 @@ ht-degree: 13%
 
 以前は、データ削除の唯一の警告は、削除オプションの近くのテキストでした。
 
-ユーザー設定フォームの削除の詳細については、「オブジェクトに添付されたユーザー設定フォームを管理する」の「[ オブジェクトからユーザー設定フォームを削除する ](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object)」を参照してください。
+ユーザー設定フォームの削除の詳細については、「オブジェクトに添付されたユーザー設定フォームを管理する」の「[&#x200B; オブジェクトからユーザー設定フォームを削除する &#x200B;](/help/quicksilver/workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md#remove-a-custom-form-from-an-object)」を参照してください。
 
 ## Workfront ユーザープロファイルの更新
 
@@ -57,7 +57,7 @@ Workfront ユーザープロファイルのルックアンドフィールを、W
 
 ボード管理者ビューには、アカウント内のすべてのボードのリストが含まれています。システム管理者はこのリストを使用して、ボードの最終更新日時、各ボードに含まれるカードの数など、ボードの全体詳細のスナップショットをすばやく取得できます。
 
-詳しくは、「[ ボードの管理者表示の管理 ](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)」を参照してください。
+詳しくは、「[&#x200B; ボードの管理者表示の管理 &#x200B;](/help/quicksilver/agile/get-started-with-boards/manage-boards-admin-view.md)」を参照してください。
 
 ## 組織の AI Beta機能を有効にする
 
@@ -71,9 +71,9 @@ Workfront ユーザープロファイルのルックアンドフィールを、W
 
 以前は、システム管理者がBetaの機能を有効にすることができませんでした。
 
-システム環境設定の詳細については、[ システム環境設定の設定 ](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) を参照してください。
+システム環境設定の詳細については、[&#x200B; システム環境設定の設定 &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md) を参照してください。
 
-AI 機能を有効にするための前提条件については、[AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+AI 機能を有効にするための前提条件については、[AI アシスタントの前提条件 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 
 
 
@@ -89,4 +89,4 @@ AI 機能を有効にするための前提条件については、[AI アシス�
 
 フォームがオブジェクトに追加されると、API から返された値がドロップダウンフィールドに表示され、ユーザーは複数の値を選択できます。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。

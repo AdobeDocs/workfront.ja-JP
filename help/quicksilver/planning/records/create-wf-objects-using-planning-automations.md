@@ -28,11 +28,11 @@ Adobe Workfront Planning でオートメーションを構成してアクティ�
 
 ここでは、既存の自動処理を使用してWorkfrontのプランニングレコードまたはWorkfront オブジェクトを作成する方法について説明します。
 
-レコード・タイプの自動化の作成の詳細は、[ レコードを作成するためのAdobe Workfront Planning 自動化の構成 ](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
+レコード・タイプの自動化の作成の詳細は、[&#x200B; レコードを作成するためのAdobe Workfront Planning 自動化の構成 &#x200B;](/help/quicksilver/planning/records/configure-automations-to-create-records.md) を参照してください。
 
 オートメーションを使用してレコードまたはWorkfront オブジェクトを作成すると、それらのレコードはオートメーションを実行するレコードに自動的にリンクされます。
 
-接続されたレコードについて詳しくは、「[ 接続されたレコードの概要 ](/help/quicksilver/planning/records/connected-records-overview.md)」を参照してください。
+接続されたレコードについて詳しくは、「[&#x200B; 接続されたレコードの概要 &#x200B;](/help/quicksilver/planning/records/connected-records-overview.md)」を参照してください。
 
 Workfront Planning の自動化を使用して、次のアイテムを作成できます。
 
@@ -119,7 +119,7 @@ Workfront Planning の自動化を使用して、次のアイテムを作成で�
 
   `[ Name of the record ] Name of the field choice`
 
-  詳しくは、この記事の [Workfront Planning オートメーションを使用したオブジェクトまたはレコードの作成 ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) の節を参照してください。
+  詳しくは、この記事の [Workfront Planning オートメーションを使用したオブジェクトまたはレコードの作成 &#x200B;](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) の節を参照してください。
 
 * 新しいオブジェクトまたはレコードは、同じフィールド内の既存のオブジェクトまたはレコードを上書きしません。 同じレコードに対して同じ自動処理を複数回トリガーすると、以前に作成したオブジェクトに加えて、元のレコードの同じ接続されたフィールドに新しいオブジェクトまたはレコードが追加されます。
 
@@ -135,7 +135,7 @@ Workfront Planning の自動化を使用して、次のアイテムを作成で�
    テーブルの下部に青いバーが表示され、オートメーションボタンなどの追加ボタンも表示されます。
 1. 青いバーのオートメーションボタンをクリックします。
 
-   ![ オートメーションボタン ](assets/automation-custom-button.png)
+   ![&#x200B; オートメーションボタン &#x200B;](assets/automation-custom-button.png)
 
    次のことが発生します。
 

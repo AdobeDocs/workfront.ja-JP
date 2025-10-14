@@ -74,7 +74,7 @@ Adobe Workfront での列の幅の仕組みに関するガイドラインを以�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -129,7 +129,7 @@ Workfront のリストについて詳しくは、[Adobe Workfront のリスト�
 
 1. 変更するリストに移動します。
 1. 列が目的のサイズになるまで、列ヘッダーの境界線をドラッグします。\
-   ![ 列のサイズ変更 ](assets/column-resize-350x124.png)
+   ![&#x200B; 列のサイズ変更 &#x200B;](assets/column-resize-350x124.png)
 
 #### 列を一時的に並べ替える {#reorder-columns-temporarily}
 

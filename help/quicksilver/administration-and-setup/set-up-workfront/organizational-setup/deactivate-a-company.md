@@ -69,7 +69,7 @@ ht-degree: 83%
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、**[!UICONTROL 会社]**![ 会社アイコン ](assets/companies-icon-left-panel.png) をクリックします。
+1. 左側のパネルで、**[!UICONTROL 会社]**![&#x200B; 会社アイコン &#x200B;](assets/companies-icon-left-panel.png) をクリックします。
 
 1. 非アクティブ化または再アクティブ化する会社を 1 つ以上選択します。
 1. 「**[!UICONTROL 編集]**」をクリックします。

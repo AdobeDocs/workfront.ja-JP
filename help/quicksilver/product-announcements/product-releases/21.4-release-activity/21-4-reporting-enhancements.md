@@ -40,7 +40,7 @@ ht-degree: 98%
 
 リスト内の割り当てについて詳しくは、[タスクの割り当て](../../../manage-work/tasks/assign-tasks/assign-tasks.md)または[イシューの割り当て](../../../manage-work/issues/manage-issues/assign-issues.md)を参照してください。
 
-![ 割り当ての更新 ](assets/assignments-updates-350x193.png)
+![&#x200B; 割り当ての更新 &#x200B;](assets/assignments-updates-350x193.png)
 
 ## アップデートされたリストおよびレポートの先行入力フィールドの新しいルックアンドフィール
 
@@ -60,4 +60,4 @@ ht-degree: 98%
 
 更新されたリストについて詳しくは、[Adobe Workfront でのリストの概要](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)の記事の[更新されたリストと従来のリストの違い](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated)の節を参照してください。
 
-![Typeahead フィールド ](assets/typeahead-updates-350x336.png)
+![Typeahead フィールド &#x200B;](assets/typeahead-updates-350x336.png)

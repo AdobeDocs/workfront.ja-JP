@@ -58,7 +58,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 
 目標リストの操作と目標の管理について詳しくは、[Adobe Workfront Goals の目標リストで目標を管理](../../workfront-goals/goal-review-and-workfront-goals-sections/manage-goals-in-goal-list.md)を参照してください。
 
-![ 目標リスト ](assets/goal-list-unshimmed.png)
+![&#x200B; 目標リスト &#x200B;](assets/goal-list-unshimmed.png)
 
 目標リストを使用して、次の操作を実行します。
 
@@ -80,7 +80,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 
 グラフのセクションの使用について詳しくは、[グラフをレビューして Adobe Workfront Goals の目標の進捗傾向を把握](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md)を参照してください。
 
-![ グラフセクション ](assets/graphs-section-unshimmed.png)
+![&#x200B; グラフセクション &#x200B;](assets/graphs-section-unshimmed.png)
 
 「グラフ」セクションを使用して、次の操作を実行できます。
 
@@ -99,7 +99,7 @@ Workfront 管理者がWorkfront Goals へのアクセス権を付与したら、
 * [目標を Adobe Workfront 目標に結び付けて整合させる](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
 * [結果とアクティビティを目標に変換して目標を連携](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
-![ 目標の関連付けセクション ](assets/goal-alignment-section-unshimmed.png)
+![&#x200B; 目標の関連付けセクション &#x200B;](assets/goal-alignment-section-unshimmed.png)
 
 「目標の整合性」セクションを使用して、次の操作を実行します。
 

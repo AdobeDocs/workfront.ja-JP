@@ -59,7 +59,7 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -89,9 +89,9 @@ ht-degree: 87%
    * コピーしたイニシアチブはプロジェクトに接続されません。
    * 1 回以上公開されているプロジェクトの場合、プロジェクトの [!DNL Scenario Planner] セクションは変更されません。
 
-  プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
+  プロジェクトへのイニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
-  プロジェクトへの読み込みによるイニシアチブの作成について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でプランにプロジェクトを読み込むを参照してください。
+  プロジェクトへの読み込みによるイニシアチブの作成について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/import-projects-to-plans.md) でプランにプロジェクトを読み込むを参照してください。
 
 ## イニシアチブをコピーする
 
@@ -102,7 +102,7 @@ ht-degree: 87%
 1. プランの名前をクリックして開き、コピーするイニシアチブを確認します。
 1. コピーするイニシアチブの左側にあるボックスを選択し、プランの下部に表示されるメニューから、「**[!UICONTROL コピー]**」をクリックします。
 
-   ![ イニシアチブをコピー ](assets/bottom-manage-initiative-menu-350x45.png)
+   ![&#x200B; イニシアチブをコピー &#x200B;](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] はイニシアチブをすぐにコピーし、最後に選択したイニシアチブの下に配置します。
 
@@ -120,6 +120,6 @@ ht-degree: 87%
 
 1. （オプション）新しく作成したイニシアチブの優先度を更新します。
 
-   イニシアチブの優先順位について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md) のイニシアチブ優先度を更新を参照してください。
+   イニシアチブの優先順位について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/prioritize-initiatives.md) のイニシアチブ優先度を更新を参照してください。
 
 1. 「**[!UICONTROL プランを保存]**」をクリックして、変更を保存します。

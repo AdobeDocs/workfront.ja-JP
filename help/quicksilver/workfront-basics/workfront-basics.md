@@ -30,7 +30,7 @@ ht-degree: 86%
 * [Adobe Workfront の操作：記事インデックス](../workfront-basics/navigate-workfront/navigate-workfront.md)
 * [優先度：記事索引](/help/quicksilver/workfront-basics/priorities/priorities-toc.md)
 * [ホーム](../workfront-basics/using-home/home.md)
-* [ 作業項目を更新して更新を表示：記事のインデックス ](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+* [&#x200B; 作業項目を更新して更新を表示：記事のインデックス &#x200B;](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
 * [カスタムフォームを使用](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
 * [通知の使用：記事インデックス](../workfront-basics/using-notifications/use-notifications.md)
 * [オブジェクトに対する権限の付与とリクエスト](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)

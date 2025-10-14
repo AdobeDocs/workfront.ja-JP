@@ -90,7 +90,7 @@ ht-degree: 89%
 * アジャイルチームのバックログに関するイシューを含める
 * サブタスクは、[!UICONTROL スクラム]ストーリーボードに表示可能
 * バーンダウンチャートを表示して、イテレーション中のストーリーに対する進行状況を確認
-詳しくは、[ アジャイルバーンダウンチャートの概要 ](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md) を参照してください。
+詳しくは、[&#x200B; アジャイルバーンダウンチャートの概要 &#x200B;](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md) を参照してください。
 
 ## アジャイルチームの作成
 
@@ -98,7 +98,7 @@ ht-degree: 89%
 
 1. **[!UICONTROL チームの切り替え]**&#x200B;アイコン ![チームの切り替えアイコン](assets/switch-team-icon.png) を選択し、「**[!UICONTROL 新規チームを作成]**」をクリックします。
 
-   ![ 新規チームを作成を選択 ](assets/create-new-team.png)
+   ![&#x200B; 新規チームを作成を選択 &#x200B;](assets/create-new-team.png)
 
    「新規チーム」ボックスが表示されます。
 
@@ -158,7 +158,7 @@ ht-degree: 89%
 1. **[!UICONTROL 詳細]**&#x200B;メニューをクリックして、「**[!UICONTROL 編集]**」を選択します。
 
    [!UICONTROL &#x200B; 標準 &#x200B;]、[!UICONTROL &#x200B; プラン &#x200B;] または [!UICONTROL &#x200B; ワーク &#x200B;] ライセンスを持つチームメンバーのみがこのオプションを表示できます。
-   ![ 編集を選択 ](assets/edit-team-settings.png)
+   ![&#x200B; 編集を選択 &#x200B;](assets/edit-team-settings.png)
 
 1. **[!UICONTROL アジャイル]**&#x200B;セクションで、「**[!UICONTROL アジャイルチームです]**」を選択します。
 

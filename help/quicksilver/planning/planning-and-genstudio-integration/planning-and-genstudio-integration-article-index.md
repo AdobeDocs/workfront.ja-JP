@@ -32,5 +32,5 @@ Adobe WorkfrontとAdobe Workfrontの両方を購入すると、Adobe GenStudio f
 この節の記事では、この統合で使用できる機能について説明します。
 
 * [Workfront Planning とGenStudio for Performance Marketingの統合の基本を学ぶ](/help/quicksilver/planning/planning-and-genstudio-integration/get-started-with-workfront-planning-and-genstudio-integration.md)
-* [Adobe Workfront Planning でのGenStudio Workspaceの管理 ](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
+* [Adobe Workfront Planning でのGenStudio Workspaceの管理 &#x200B;](/help/quicksilver/planning/planning-and-genstudio-integration/manage-gen-studio-workspace-in-planning.md)
   <!--* [Promote Adobe Workfront Planning workspace to GenStudio](/help/quicksilver/planning/planning-and-genstudio-integration/promote-planning-workspace-to-genstudio.md)-->

@@ -75,7 +75,7 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
      カレンダーの共有については、[[!UICONTROL カレンダーの共有]レポート](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)を参照してください。
 
 1. （条件付き）**[!UICONTROL 表示]**&#x200B;ドロップダウンリストをクリックして、表示するカレンダー期間を選択します。
-   ![ カレンダー期間 ](assets/view-menu-calendar-report-350x189.png)
+   ![&#x200B; カレンダー期間 &#x200B;](assets/view-menu-calendar-report-350x189.png)
 次のカレンダーレポートビューから選択できます。
 
    * **[!UICONTROL 月]**：4 週間のカレンダーを表示します
@@ -104,7 +104,7 @@ Adobe Workfront で作成または共有したカレンダーレポートおよ�
       1. （任意）現在の日付に戻るには、[[!UICONTROL **今日**]] をクリックします。
 
 1. （オプション）カレンダーにリンクされたプロジェクトまたはカレンダーのグループ化のイベントを非表示にするには、プロジェクトリストのプロジェクトまたはカレンダーのグループ化をオフにします。
-   ![ イベントを非表示 ](assets/hide-events-for-project-or-cal-grouping.png)
+   ![&#x200B; イベントを非表示 &#x200B;](assets/hide-events-for-project-or-cal-grouping.png)
 プロジェクトリストで [!UICONTROL &#x200B; プロジェクト &#x200B;] またはカレンダーのグループ化を選択すると、イベントを再び表示できます。
 
 ## カレンダーレポートイベントの詳細を表示

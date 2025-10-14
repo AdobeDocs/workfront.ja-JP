@@ -88,15 +88,15 @@ ht-degree: 50%
 
 1. **プロジェクト** ページで、テンプレートを添付するプロジェクトを選択します。
 
-1. プロジェクト名の右側にある **その他** アイコン ![ その他のアイコン ](assets/qs-more-icon-on-an-object.png) をクリックします。
+1. プロジェクト名の右側にある **その他** アイコン ![&#x200B; その他のアイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![ その他のドロップダウン ](assets/more-dropdown.png)
+   ![&#x200B; その他のドロップダウン &#x200B;](assets/more-dropdown.png)
 
    または
 
-   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![ その他のアイコン ](assets/qs-more-icon-on-an-object.png) をクリックします。
+   プロジェクトリストまたはレポートに移動してプロジェクトを選択し、リストの上部にある **その他** アイコン ![&#x200B; その他のアイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックします。
 
-   ![ 詳細メニューが展開されました ](assets/more-menu-expanded.png)
+   ![&#x200B; 詳細メニューが展開されました &#x200B;](assets/more-menu-expanded.png)
 
 
 1. **テンプレートを添付** をクリックします。 **テンプレートを添付** ボックスが表示されます。
@@ -115,11 +115,11 @@ ht-degree: 50%
    * タスクの合計数
    * 添付されたカスタムフォームの名前
 
-   ![ テンプレートを添付ボックス ](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![&#x200B; テンプレートを添付ボックス &#x200B;](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. （オプション）テンプレート名の右側にある **お気に入り** アイコン ![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、お気に入りとしてマークし、**お気に入り** リストに移動します。
+1. （オプション）テンプレート名の右側にある **お気に入り** アイコン ![&#x200B; お気に入りアイコン &#x200B;](assets/favorites-icon-small.png) をクリックして、お気に入りとしてマークし、**お気に入り** リストに移動します。
 
-1. （オプション） **お気に入り** アイコン ![ お気に入りアイコン ](assets/favorites-icon-selected.png) を再度クリックして、**お気に入り** リストから削除します。
+1. （オプション） **お気に入り** アイコン ![&#x200B; お気に入りアイコン &#x200B;](assets/favorites-icon-selected.png) を再度クリックして、**お気に入り** リストから削除します。
 1. **カスタマイズと添付** をクリックします。 **テンプレートを添付** サイドパネルが開きます。
 
 1. （任意）次の節の情報を更新します。
@@ -186,7 +186,7 @@ ht-degree: 50%
 
 ## 既存のプロジェクトへの複数テンプレートの添付とテンプレート情報の表示 {#attach-multiple-templates-to-an-existing-project-and-view-template-information}
 
-この記事の「[ 既存のプロジェクトにテンプレートを添付する ](#attach-a-template-to-an-existing-project)」の節で説明されている手順に従って、複数のテンプレートを同じプロジェクトに（一度に 1 つずつ）添付できます。 これにより、各テンプレートのタスクやその他の情報がプロジェクトに追加されます。
+この記事の「[&#x200B; 既存のプロジェクトにテンプレートを添付する &#x200B;](#attach-a-template-to-an-existing-project)」の節で説明されている手順に従って、複数のテンプレートを同じプロジェクトに（一度に 1 つずつ）添付できます。 これにより、各テンプレートのタスクやその他の情報がプロジェクトに追加されます。
 
 >[!TIP]
 >
@@ -202,6 +202,6 @@ ht-degree: 50%
 
 1. **プロジェクトの関係** の下の **概要** セクションの下部にある「**テンプレート**」フィールドで、プロジェクトに添付されているテンプレートの名前を見つけます。
 
-   ![ プロジェクトのテンプレート情報 ](assets/nwe-template-info-on-project-350x356.png)
+   ![&#x200B; プロジェクトのテンプレート情報 &#x200B;](assets/nwe-template-info-on-project-350x356.png)
 
 

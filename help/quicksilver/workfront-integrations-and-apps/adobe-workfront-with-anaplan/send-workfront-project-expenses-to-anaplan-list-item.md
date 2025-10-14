@@ -73,7 +73,7 @@ ht-degree: 98%
   | [!UICONTROL 最終送信日] | 日付 |
   | [!UICONTROL 統合に関するメモ] | 段落テキストフィールド |
 
-  カスタムフォームの作成について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## 想定される [!DNL Anaplan] 設定
 

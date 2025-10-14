@@ -48,11 +48,11 @@ Workfrontの統合承認では、ドキュメントのレビューと承認に�
 参加者を割り当てるには：
 
 1. アップロードしたドキュメントを選択し、ドキュメントの概要を開きます。
-   ![ ドキュメントの概要を開く ](assets/open-doc-summary.png)
+   ![&#x200B; ドキュメントの概要を開く &#x200B;](assets/open-doc-summary.png)
 
 1. 「承認」セクションまでスクロールし、「**追加**」をクリックします。
 
-1. （任意）既存の承認テンプレートを選択します。 Standard ライセンスを持つユーザーは、設定エリアから適切な承認テンプレートを作成できます。 詳しくは、[ アセットおよびドキュメントの承認テンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
+1. （任意）既存の承認テンプレートを選択します。 Standard ライセンスを持つユーザーは、設定エリアから適切な承認テンプレートを作成できます。 詳しくは、[&#x200B; アセットおよびドキュメントの承認テンプレートの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 
@@ -60,7 +60,7 @@ Workfrontの統合承認では、ドキュメントのレビューと承認に�
 
 1. レビュー担当者を追加するには、「レビュー担当者」ボタンをクリックして、ユーザー名またはチーム名を入力します。
 
-   ![ 承認者を追加 ](assets/add-approvers.png)
+   ![&#x200B; 承認者を追加 &#x200B;](assets/add-approvers.png)
 
 1. すべてのレビュー担当者と承認者を追加したら、「**リクエストを送信**」をクリックします。 参加者には、メールで通知されます。
 
@@ -75,11 +75,11 @@ Workfrontの統合承認では、ドキュメントのレビューと承認に�
 1. ドキュメントのアップロードが完了したら、ドキュメントを選択し、**プルーフを作成**/**シンプルなプルーフ** をクリックします。
 
 1. ドキュメントを再度選択し、ドキュメントの概要を開きます。
-   ![ ドキュメントの概要を開く ](assets/open-doc-summary.png)
+   ![&#x200B; ドキュメントの概要を開く &#x200B;](assets/open-doc-summary.png)
 
 1. 「承認」セクションまでスクロールし、「**追加**」をクリックします。
 
-1. （任意）既存の承認テンプレートを選択します。 Standard ライセンスを持つユーザーは、設定エリアから適切な承認テンプレートを作成できます。 詳しくは、[ アセットおよびドキュメントの承認テンプレートの作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
+1. （任意）既存の承認テンプレートを選択します。 Standard ライセンスを持つユーザーは、設定エリアから適切な承認テンプレートを作成できます。 詳しくは、[&#x200B; アセットおよびドキュメントの承認テンプレートの作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md) を参照してください。
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 
@@ -87,7 +87,7 @@ Workfrontの統合承認では、ドキュメントのレビューと承認に�
 
 1. レビュー担当者を追加するには、「レビュー担当者」ボタンをクリックしてユーザー名またはチーム名を入力し始め、以前のバージョンからレビュー担当者を選択します。
 
-   ![ 承認者を追加 ](assets/add-approvers.png)
+   ![&#x200B; 承認者を追加 &#x200B;](assets/add-approvers.png)
 
 1. すべてのレビュー担当者と承認者を追加したら、「**リクエストを送信**」をクリックします。 参加者には、メールで通知されます。
 
@@ -104,13 +104,13 @@ Workfrontの統合承認では、ドキュメントのレビューと承認に�
 
 1. Workfrontに移動したら、「**プルーフに移動** をクリックします。
 
-1. コンテンツをレビューし、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内でプルーフを確認する：記事インデックス ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) を参照してください。
+1. コンテンツをレビューし、コメントやマークアップを追加します。 プルーフビューアの使用方法について詳しくは、[Adobe Workfront内でプルーフを確認する：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) を参照してください。
 
 1. 次のいずれかの決定を選択します。
 
    * **承認**: ドキュメントは変更する必要がなく、使用できる状態になっています。
    * **変更を加えて承認**: ドキュメントには変更が必要です。変更が行われると使用できるようになります。 追加の承認は必要ありません。
-   * **作業が必要**：ドキュメントに変更が必要ですが、使用する準備ができていません。 指定した変更を加えたら、ドキュメントを新しいバージョンとしてアップロードし、別の承認を行う必要があります。 新しいバージョンのアップロードについて詳しくは、この記事の [ 必要に応じて新しいバージョンを作成する ](#create-a-new-version-as-needed) を参照してください。
+   * **作業が必要**：ドキュメントに変更が必要ですが、使用する準備ができていません。 指定した変更を加えたら、ドキュメントを新しいバージョンとしてアップロードし、別の承認を行う必要があります。 新しいバージョンのアップロードについて詳しくは、この記事の [&#x200B; 必要に応じて新しいバージョンを作成する &#x200B;](#create-a-new-version-as-needed) を参照してください。
 
 決定を行うと、ドキュメント所有者にメールで通知されます。
 

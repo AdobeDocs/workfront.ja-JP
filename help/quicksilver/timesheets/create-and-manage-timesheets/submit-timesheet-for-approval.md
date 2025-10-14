@@ -60,7 +60,7 @@ ht-degree: 82%
 
 ### 承認用のタイムシートを送信
 
-タイムシート承認者が設定されると（「タイムシート承認者の指定 [ の記事 ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) タイムシートの承認 [ の説明に従って ](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)、タイムシートの下部にある「**閉じる**」ボタンが **承認用に送信** ボタンに変わります。
+タイムシート承認者が設定されると（「タイムシート承認者の指定 [&#x200B; の記事 &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md#designating-a-timesheet-approver) タイムシートの承認 [&#x200B; の説明に従って &#x200B;](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)、タイムシートの下部にある「**閉じる**」ボタンが **承認用に送信** ボタンに変わります。
 
 承認用のタイムシートを送信するには、次の手順に従います。
 
@@ -83,7 +83,7 @@ ht-degree: 82%
 
 タイムシートを送信した後、タイムシートのステータスを表示できます。
 
-Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。イベント通知の有効化について詳しくは、[ イベント通知タイプ ](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
+Workfront 管理者がユーザーへのタイムシート承認イベントハンドラーとユーザーへのタイムシート拒否イベントハンドラーを有効にしている場合、タイムシートが承認または拒否された後に通知が届きます。イベント通知の有効化について詳しくは、[&#x200B; イベント通知タイプ &#x200B;](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) を参照してください。
 
 これらの通知がない場合、Workfront のタイムシートエリアで、送信したタイムシートのステータスを確認できます。
 

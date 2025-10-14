@@ -48,7 +48,7 @@ Project Net Value = Planned Benefit - Budgeted Cost - Potential Risk Cost
 * ビジネスケースのビジネスケースの概要領域 \
   ビジネスケースの概要領域の詳細については、[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)の「[プロジェクトのビジネスケースの作成](../../../manage-work/projects/define-a-business-case/create-business-case.md)」の節を参照してください。
 
-  ![ ビジネスケースの純価 ](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![&#x200B; ビジネスケースの純価 &#x200B;](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
 * ポートフォリオオプティマイザー（プロジェクトがポートフォリオに関連付けられている場合）
 

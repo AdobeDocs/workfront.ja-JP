@@ -29,7 +29,7 @@ ht-degree: 0%
 
 **代わりに使用できるものは何ですか？**
 
-* Workfront Data Connect では、Enhanced Analytics のビジュアライゼーションをレプリケートできます。 詳しくは、以下の [Workfront Data Connect で Enhanced Analytics のビジュアライゼーションをレプリケートする ](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) を参照してください。
+* Workfront Data Connect では、Enhanced Analytics のビジュアライゼーションをレプリケートできます。 詳しくは、以下の [Workfront Data Connect で Enhanced Analytics のビジュアライゼーションをレプリケートする &#x200B;](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) を参照してください。
 
 ## 廃止に向けた準備
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 
 ### Workfront Data Connect の使用を開始する
 
-最初の推奨事項は、お客様の組織がWorkfront Data Connect に確実にアクセスできるようにし、できるだけ早くその使用に慣れることです。 データ接続機能とその使用方法について詳しくは、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
+最初の推奨事項は、お客様の組織がWorkfront Data Connect に確実にアクセスできるようにし、できるだけ早くその使用に慣れることです。 データ接続機能とその使用方法について詳しくは、[Workfront Data Connect の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
 
 Data Connect は、新しいUltimate プラン <!--, and can be purchased as an add-on to the new Select and Prime plans--> に含まれています。 なお、従来のWorkfront プランを使用している組織は Data Connect を使用できません。 現在のプランと Data Connect の購入方法については、Workfront アカウント担当者にお問い合わせください。
 
@@ -51,7 +51,7 @@ Workfront Data Connect を使用すると、多くの新しいビジュアライ
 * [KPI クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
 * [フライトプランクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
 * [プロジェクトアクティビティクエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
-* [ プロジェクトツリーマップクエリ ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
+* [&#x200B; プロジェクトツリーマップクエリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
 * [チーム別アクティビティ クエリ](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 
 ### ヘルプを要求

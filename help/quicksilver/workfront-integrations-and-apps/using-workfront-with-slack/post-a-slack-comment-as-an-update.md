@@ -64,4 +64,4 @@ ht-degree: 98%
 
    コメントが [!DNL Slack] で作成された場合、コメントには [!DNL Workfront] に「[!UICONTROL [!DNL Slack]] から投稿されました」というメッセージが表示されます。
 
-   ![Slackから投稿された更新 ](assets/slack-update-posted-from-slack-350x112.png)
+   ![Slackから投稿された更新 &#x200B;](assets/slack-update-posted-from-slack-350x112.png)

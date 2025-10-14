@@ -20,7 +20,7 @@ ht-degree: 67%
 
 この列をタスクビューに追加すると、親タスクの名前をすべて大文字で表示できます。
 
-![ すべて大文字の親タスクを含む列 ](assets/column-task-with-all-caps-parent-350x112.png)
+![&#x200B; すべて大文字の親タスクを含む列 &#x200B;](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## アクセス要件
 
@@ -58,7 +58,7 @@ ht-degree: 67%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -67,7 +67,7 @@ ht-degree: 67%
 タスクビューでこの列を作成するには、以下のように行います。
 
 1. タスクのリストに移動します。
-1. **表示** ドロップダウンメニューからビューを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+1. **表示** ドロップダウンメニューからビューを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 または\
    **ビュー**&#x200B;ドロップダウンメニューから、**新規ビュー**&#x200B;を選択します。
 

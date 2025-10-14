@@ -127,7 +127,7 @@ ht-degree: 13%
 
    **アクセス権がありません** ページが表示され、ビューまたはワークスペースに対するアクセス権がないことを示すメッセージが表示されます。
 
-   ![ 表示へのアクセスをリクエスト ](assets/request-access-to-view.png)
+   ![&#x200B; 表示へのアクセスをリクエスト &#x200B;](assets/request-access-to-view.png)
 
 1. （条件付き）共有リンクが、アクセス権を持つワークスペースのビュー用である場合は、「**既存のビューで開く**」をクリックします。 ワークスペースへのアクセス権を持っている場合、レコードタイプページがデフォルトのビューで開きます。
 
@@ -136,9 +136,9 @@ ht-degree: 13%
    ビューまたはワークスペースに対する管理権限を持つすべてのユーザーは、アクセスリクエストに関する次の通知を受け取ります。
    * アプリ内通知
 
-     ![ アクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request.png)
+     ![&#x200B; アクセスリクエストのアプリ内通知 &#x200B;](assets/in-app-notification-for-access-request.png)
    * メール通知
 
-     ![ アクセスリクエストのメール通知 ](assets/email-notification-for-access-request.png)
+     ![&#x200B; アクセスリクエストのメール通知 &#x200B;](assets/email-notification-for-access-request.png)
 
 1. （条件付き）ビューまたはワークスペースマネージャーからビューまたはワークスペースに対する権限を付与されると、権限が付与されたことを確認するメール通知とアプリ内通知が届きます。<!--check this - I was not able to test this, but Isk confirmed.-->

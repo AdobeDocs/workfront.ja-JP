@@ -34,7 +34,7 @@ Workfront Planning のオブジェクト・タイプは「レコード・タイ�
 
 Workfront Planning では、組織のニーズに合ったカスタムレコードタイプを作成できます。
 
-レコードタイプの作成について詳しくは、[ レコードタイプの作成 ](/help/quicksilver/planning/architecture/create-record-types.md) を参照してください。
+レコードタイプの作成について詳しくは、[&#x200B; レコードタイプの作成 &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) を参照してください。
 
 * テンプレートからワークスペースを作成する際、次のワークスペースセクションにレコードタイプが作成されます。
 
@@ -46,7 +46,7 @@ Workfront Planning では、組織のニーズに合ったカスタムレコー�
 * 最初から作成したワークスペースにレコードタイプを作成する際、ワークスペース内に作成した任意のセクションにレコードタイプを配置できます。
 * レコードタイプの作成時、自分とワークスペースへのアクセス権を付与したユーザーのみが、このレコードタイプを表示できます。
 * ワークスペースのレコードタイプを作成する前に、ワークスペースを作成する必要があります。
-* 1 つのワークスペースまたはWorkfront インスタンスに含めることができるレコードタイプの数の制限については、[Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
+* 1 つのワークスペースまたはWorkfront インスタンスに含めることができるレコードタイプの数の制限については、[Adobe Workfront Planning オブジェクトの制限事項の概要 &#x200B;](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
 
 
 <!--

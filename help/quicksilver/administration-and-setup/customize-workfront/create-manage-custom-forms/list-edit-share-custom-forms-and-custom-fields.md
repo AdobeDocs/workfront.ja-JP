@@ -18,7 +18,7 @@ ht-degree: 89%
 
 組織のカスタムフォームと、それらに追加されたカスタムフィールドおよびウィジェットのリストを表示する場合、ツールバーのオプションを使用して、プロパティの編集、プロパティの共有者の制限、コピー、削除を行うことができます。また、各カスタムフォームに関連付けられているオブジェクトタイプなど、表示される列のその他の情報を表示することもできます。
 
-カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+カスタムフォームのカスタムフィールドとウィジェットについて詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## アクセス要件
 
@@ -77,7 +77,7 @@ ht-degree: 89%
 
    リスト内の項目を選択した場合に実行できる操作について詳しくは、次の記事を参照してください。
 
-   * [ カスタムフィールド、セクション区切りまたはウィジェットの追加または編集 ](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
+   * [&#x200B; カスタムフィールド、セクション区切りまたはウィジェットの追加または編集 &#x200B;](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md)
    * [フォームのカスタムフィールドとウィジェットの共有を設定する](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [システムからカスタムフィールドまたはウィジェットを削除](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
@@ -85,5 +85,5 @@ ht-degree: 89%
 
    このビューには、すべてのセクション区切りが表示され、各セクション区切りを含むカスタムフォームのリストも表示されます。
 
-   リストから選択したカスタム セクションの編集の詳細については、「[ フォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)」を参照してください。
+   リストから選択したカスタム セクションの編集の詳細については、「[&#x200B; フォームの整理とプレビュー &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)」を参照してください。
 

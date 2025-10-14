@@ -34,7 +34,7 @@ ht-degree: 98%
 * **[!UICONTROL ブループリント]**：システムの既存のブループリントをレビューし、[!DNL Workfront] 管理者がブループリントのリクエストキューを設定した場合は、ブループリントをインストールするように要求します。詳しくは、[ブループリントの概要](../../../administration-and-setup/blueprints/blueprints-overview.md)を参照してください。
 
 
-![ メインメニューからマイアップデートにアクセス ](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![&#x200B; メインメニューからマイアップデートにアクセス &#x200B;](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## デフォルトの[!UICONTROL メインメニュー]のカスタマイズ
 

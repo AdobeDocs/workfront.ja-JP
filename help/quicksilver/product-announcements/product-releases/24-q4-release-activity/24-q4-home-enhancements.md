@@ -30,7 +30,7 @@ ht-degree: 17%
 * **フィルターオプションとして送信した承認を追加**：このウィジェットを使用して、新しいホームで送信した承認を表示できるようになりました。
 * **期限**：プルーフの期限が設定されている場合、その期限が表示されるようになりました。 期限が設定されていない場合、期限はデフォルトで作成日になります。
 
-詳しくは、[ ホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
+詳しくは、[&#x200B; ホームの基本を学ぶ &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
 
 ## 優先度の高いタスク所有者のWorkfront操作を簡素化する
 
@@ -50,7 +50,7 @@ ht-degree: 17%
 
 優先順位は、従来のホームを置き換えることを目的としており、新機能は段階的にリリースされる予定です。
 
-詳しくは、[ 優先事項の概要 ](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md) を参照してください
+詳しくは、[&#x200B; 優先事項の概要 &#x200B;](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md) を参照してください
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3434848/){target=_blank}
 
@@ -63,7 +63,7 @@ ht-degree: 17%
 **レイアウトテンプレート**
 
 * _ホームワークスペース_ エリアの名前は _ホーム_ に変更されます。
-* _ホームと概要_ エリアの名前は _概要パネル_ に変更されます。 この領域のカスタマイズは、新しいホームの概要パネルにも引き続き適用されます。 詳しくは、[ レイアウトテンプレートを使用してホームと概要をカスタマイズする ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
+* _ホームと概要_ エリアの名前は _概要パネル_ に変更されます。 この領域のカスタマイズは、新しいホームの概要パネルにも引き続き適用されます。 詳しくは、[&#x200B; レイアウトテンプレートを使用してホームと概要をカスタマイズする &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) を参照してください。
 * ホームおよび概要パネルから次のタブを削除します。
    * プロジェクト
    * ドキュメント

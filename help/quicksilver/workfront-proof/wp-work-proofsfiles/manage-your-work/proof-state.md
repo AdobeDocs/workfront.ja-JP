@@ -39,7 +39,7 @@ ht-degree: 98%
 >
 >ドロップゾーンを通じてアップロードされたプルーフは、「送信時にプルーフを有効にする」オプションが有効な場合にのみ、アクティブとして表示されます。このオプションが有効になっていない場合は、プルーフを手動で有効にする必要があります。
 
-ドロップゾーンの設定について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でのドロップゾーンの設定を参照してください。
+ドロップゾーンの設定について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) でのドロップゾーンの設定を参照してください。
 
 ### ロック済み {#locked}
 
@@ -47,7 +47,7 @@ ht-degree: 98%
 
 プルーフの編集権限を持つユーザーであれば、誰でもロックを解除できます。
 
-権限について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+権限について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ ht-degree: 98%
 
 ## プルーフの状態の表示と変更
 
-特定の状態でのすべてのプルーフのリストの表示（すべてのアクティブなプルーフまたはロックされたプルーフの表示など）について詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理の記事の[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理を参照してください。
+特定の状態でのすべてのプルーフのリストの表示（すべてのアクティブなプルーフまたはロックされたプルーフの表示など）について詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理の記事の[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理を参照してください。
 
 1. [!DNL Workfront Proof] ダッシュボードにアクセスします。
 
@@ -71,14 +71,14 @@ ht-degree: 98%
 
 1. **[!UICONTROL ダッシュボード]**&#x200B;で、表示するプルーフまたは状態を変更するプルーフの横の「**[!UICONTROL 展開]**」の矢印をクリックします。
 
-   ![ 展開 ](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![&#x200B; 展開 &#x200B;](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    「**[!UICONTROL ワークフロープロセス]**」セクションが表示されます。
 
-   ![ ワークフロープロセス ](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![&#x200B; ワークフロープロセス &#x200B;](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. **[!UICONTROL ワークフロープロセス]**&#x200B;で&#x200B;**[!UICONTROL ステート]**&#x200B;を表示します。
 
 1. （オプション）状態を変更するには、現在の「**[!UICONTROL 状態]**」をクリックし、ドロップダウンメニューをクリックして、新しい状態を選択します。
 
-   ![ 新しい状態 ](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![&#x200B; 新しい状態 &#x200B;](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

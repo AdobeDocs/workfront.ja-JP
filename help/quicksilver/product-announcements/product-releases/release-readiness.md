@@ -42,13 +42,13 @@ ht-degree: 99%
 >
 >プロジェクトテンプレートを作成して、スケジュール済みの [!DNL Workfront] リリースに関連する作業を追跡できます。
 >
->詳しくは、この記事の [ [!DNL Workfront]  プロジェクトを使用してリリース作業を追跡](#use-a-workfront-project-to-track-release-work)を参照してください。
+>詳しくは、この記事の [&#x200B; [!DNL Workfront]  プロジェクトを使用してリリース作業を追跡](#use-a-workfront-project-to-track-release-work)を参照してください。
 
 
 今後のリリースに備えて組織を準備するのに役立つ、以下の操作の一部またはすべてを検討することをお勧めします。
 
 * [リリースノートで常に最新にする](#stay-up-to-date-with-release-notes)
-* [ [!DNL Workfront]  お知らせセンターを見る](#watch-the-workfront-announcement-center)
+* [&#x200B; [!DNL Workfront]  お知らせセンターを見る](#watch-the-workfront-announcement-center)
 * [[!UICONTROL サンドボックスをプレビュー]環境を調べる](#explore-the-preview-sandbox-environment)
 * [リリースウェビナーに参加](#attend-the-release-webinar)
 * [Workfront にフィードバックを提供](#offer-feedback-to-workfront)
@@ -93,7 +93,7 @@ ht-degree: 99%
 
 機能がプレビューサンドボックス環境にリリースされると、[!DNL Workfront] ドキュメントが更新されて新しい機能が追加されます。該当する記事を検索したり、リリースノートからドキュメントへのリンクをたどることができます。
 
-[!UICONTROL プレビューサンドボックス]環境について詳しくは、[ [!DNL Adobe Workfront] [!UICONTROL &#x200B; プレビューサンドボックス]環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
+[!UICONTROL プレビューサンドボックス]環境について詳しくは、[&#x200B; [!DNL Adobe Workfront] [!UICONTROL &#x200B; プレビューサンドボックス]環境](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)を参照してください。
 
 ### リリースウェビナーに参加
 

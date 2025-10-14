@@ -73,7 +73,7 @@ ht-degree: 95%
 
    または
 
-   複数のユーザーの場合：Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ユーザー]**![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) をクリックします。  次に、複数のユーザーを選択して、「**[!UICONTROL 編集]**」をクリックします。
+   複数のユーザーの場合：Workfrontの右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ユーザー]**![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。  次に、複数のユーザーを選択して、「**[!UICONTROL 編集]**」をクリックします。
 
 1. 「**[!UICONTROL 環境設定]**」をクリックします。
 1. **[!UICONTROL このテスト環境から E メールを受信する]**&#x200B;を選択します。

@@ -148,7 +148,7 @@ ht-degree: 97%
 
 1. （条件付き）**カスタマイズ**&#x200B;を選択した場合、**表示される指標のカスタマイズ**&#x200B;ボックスを使用してカスタムビューを設定します。
 
-   ![ ビューボックスをカスタマイズ ](assets/planner-customize-view-box-350x114.png)
+   ![&#x200B; ビューボックスをカスタマイズ &#x200B;](assets/planner-customize-view-box-350x114.png)
 
 1. 左側の&#x200B;**表示タイプ**&#x200B;列で、次のビューの 1 つを選択します。
 
@@ -189,7 +189,7 @@ ht-degree: 97%
    >
    >カスタマイズされたビューは 1 つだけ指定できます。
 
-   ![ プランナー時間ドロップダウン ](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![&#x200B; プランナー時間ドロップダウン &#x200B;](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## ユーザー割り当てグラフの表示
 

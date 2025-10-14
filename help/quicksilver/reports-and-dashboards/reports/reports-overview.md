@@ -21,7 +21,7 @@ ht-degree: 93%
 
 このセクションには、次のサブセクションが含まれます。
 
-* [ レポートの基本：記事のインデックス ](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [&#x200B; レポートの基本：記事のインデックス &#x200B;](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
 * [レポート要素の概要](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
 * [組み込みレポートの使用](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
 * [レポートの作成と管理](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)

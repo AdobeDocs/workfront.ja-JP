@@ -46,7 +46,7 @@ ht-degree: 40%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -58,6 +58,6 @@ ht-degree: 40%
 1. 左側のパネルで「**ビジネスケース**」をクリックします。
 1. **ビジネス ケースの概要** 領域の右上隅にある [**エクスポート**] をクリックします。 PDF ファイルがコンピューターにダウンロードされます。
 
-   ![ ビジネスケースの概要 ](assets/bc-summary.png)
+   ![&#x200B; ビジネスケースの概要 &#x200B;](assets/bc-summary.png)
 
 

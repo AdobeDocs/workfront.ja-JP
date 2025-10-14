@@ -54,7 +54,7 @@ ht-degree: 71%
 
    管理者にネイティブ統合の設定に関して課題が発生した場合は、[!DNL Workfront] カスタマーサポートと連携して、ガイドやトラブルシューティングを支援してください。[!DNL Workfront] が統合を設定することはないため、アドビでは、お客様がご自身で設定を行うために必要なすべてのツールおよびリソースを提供することに尽力しています。カスタマーサポートに直接お問い合わせいただいてもよいですし、統合を簡単に設定するのに役立つ、広範なリソース記事を参照することもできます。
 
-   カスタマーサポートへの連携については、[ カスタマーサポートに連絡](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
+   カスタマーサポートへの連携については、[&#x200B; カスタマーサポートに連絡](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)を参照してください。
 
    ヘルプ記事へのリンクについては、[追加のコストなしで利用可能な統合](#integrations-available-at-no-additional-cost)および[追加の購入が必要な統合](#integrations-requiring-an-additional-purchase)を参照してください。
 
@@ -127,7 +127,7 @@ ht-degree: 71%
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
+     <li><p><a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a> からダウンロード／インストールします。</p></li></ul>
      <p>詳しい情報と手順については、<a href="https://experienceleague.adobe.com/ja/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc" class="MCXref xref">[!DNL Creative Cloud] アプリケーション向け [!DNL Adobe Workfront] プラグインのインストール</a>を参照してください。</p> 
      </td>  <td> </td> 
    <td> </td> 

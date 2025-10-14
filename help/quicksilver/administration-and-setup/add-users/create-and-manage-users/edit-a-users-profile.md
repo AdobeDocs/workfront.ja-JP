@@ -32,7 +32,7 @@ ht-degree: 69%
 
 Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーのプロファイルを管理できます。ユーザーの作成については、[ユーザーの追加](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md)を参照してください。
 
-ユーザーが自分のプロファイルを更新する方法については、[ マイ設定の構成 ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) を参照してください。
+ユーザーが自分のプロファイルを更新する方法については、[&#x200B; マイ設定の構成 &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md) を参照してください。
 
 ## アクセス要件
 
@@ -71,7 +71,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
 
 {{step-1-to-users}}
 
-1. ユーザーを選択し、**編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+1. ユーザーを選択し、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 
    ユーザーの編集ボックスが表示されます。
 
@@ -100,7 +100,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
 
   グループ管理者の場合は、自分が担当するグループ内のユーザーのパスワードのみをリセットできます。また、ユーザー管理（グループユーザー）権限をアクセスレベルで有効にする必要があります。
 
-  ![ ユーザー管理者アクセスレベル設定 ](assets/group-admin-user.png)
+  ![&#x200B; ユーザー管理者アクセスレベル設定 &#x200B;](assets/group-admin-user.png)
 
   この設定は、デフォルトで無効になっています。詳しくは、[カスタムアクセスレベルの作成または変更](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md)を参照してください。
 
@@ -111,7 +111,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
 
   このフィールドを選択した場合、ユーザーは SSO 資格情報を使用して Workfront にログインする必要があります。これをオフにすると、ユーザーは Workfront の資格情報で Workfront にログインできます。
 
-  Workfrontに SSO ソリューションを設定する方法について詳しくは、[Adobe Workfrontでのシングルサインオンの概要 ](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) を参照してください。
+  Workfrontに SSO ソリューションを設定する方法について詳しくは、[Adobe Workfrontでのシングルサインオンの概要 &#x200B;](/help/quicksilver/administration-and-setup/add-users/single-sign-on/sso-in-workfront.md) を参照してください。
 
   SSO のユーザーの更新について詳しくは、[シングルサインオンのユーザーの更新](/help/quicksilver/administration-and-setup/add-users/single-sign-on/update-users-sso.md)を参照してください。
 
@@ -140,7 +140,7 @@ Adobe Workfront 管理者は、ユーザーを作成し、既存ユーザーの�
 
   >[!NOTE]
   >
-  >組織がAdobe統合エクスペリエンスを使用している場合、ユーザーの言語環境設定はAdobe プロファイルに保存され、メールのロケールは使用されません。 これらの環境設定へのアクセスについて詳しくは、[Adobe Workfront統合エクスペリエンス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
+  >組織がAdobe統合エクスペリエンスを使用している場合、ユーザーの言語環境設定はAdobe プロファイルに保存され、メールのロケールは使用されません。 これらの環境設定へのアクセスについて詳しくは、[Adobe Workfront統合エクスペリエンス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md) を参照してください。
 
 * **このテスト環境からメールを受信**：現在ログインしている環境からメール通知を受け取る場合は、このオプションを選択します。
 
@@ -182,7 +182,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
   >
   >決定制限について詳しくは、[無償ユーザーに対する限定的なドキュメントおよびプルーフの決定の概要](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md)を参照してください。
 
-* **レイアウトテンプレート**：ユーザーのレイアウトテンプレートを選択します。 このレイアウトテンプレートは、ユーザーのホームグループ、ホームチームまたはプライマリロールに割り当てられたレイアウトテンプレートよりも優先されます。 レイアウトテンプレートの割り当て優先度の詳細については、「[ レイアウトテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
+* **レイアウトテンプレート**：ユーザーのレイアウトテンプレートを選択します。 このレイアウトテンプレートは、ユーザーのホームグループ、ホームチームまたはプライマリロールに割り当てられたレイアウトテンプレートよりも優先されます。 レイアウトテンプレートの割り当て優先度の詳細については、「[&#x200B; レイアウトテンプレートの作成と管理 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) を参照してください。
 
   このフィールドで使用できるテンプレートのリストがアクセス権によってどう異なるかを次のリストで示します。
 
@@ -190,7 +190,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
    * グループ管理者は、システムレベルのレイアウトテンプレートと、管理するグループに関連付けられているレイアウトテンプレートを表示できます。
    * 標準またはプランのライセンスを持ち、ユーザーを編集するためのアクセス権を持つユーザーには、システムレベルのレイアウトテンプレートのみが表示されます。
 
-     グループレベルのレイアウトテンプレートの詳細については、[ グループのレイアウトテンプレートの作成と変更 ](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md) を参照してください。
+     グループレベルのレイアウトテンプレートの詳細については、[&#x200B; グループのレイアウトテンプレートの作成と変更 &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md) を参照してください。
 
 ### 組織
 
@@ -238,7 +238,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
   >「作業時間」の値を 1 に設定すると、ユーザーがフルタイム当量の時間をプロジェクト関連の作業に使用できることを示します。
 
 * **アクティベート解除日を設定**：このユーザーを特定の日付および時間にアクティベート解除するようにスケジュールする場合に、このボタンをクリックします。
-* **アクティベート解除日**: ユーザーがアクティベート解除された日時。 ユーザーを非アクティブ化するスケジュールについて詳しくは、[ ユーザーの非アクティブ化または再アクティブ化 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) の「[ 非アクティブ化するユーザーのスケジュール ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)」を参照してください。
+* **アクティベート解除日**: ユーザーがアクティベート解除された日時。 ユーザーを非アクティブ化するスケジュールについて詳しくは、[&#x200B; ユーザーの非アクティブ化または再アクティブ化 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md#schedule-users-for-deactivation) の「[&#x200B; 非アクティブ化するユーザーのスケジュール &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md)」を参照してください。
 * **プライマリの役割**：ユーザーが Workfront で果たすことができる主要担当業務です。ユーザーが割り当てられているタスクとイシューも、このジョブの役割に割り当てられます。リソース管理には、担当業務が不可欠です。このフィールドを更新できるのは、管理ユーザーアクセス権を持つ標準ライセンスまたはプランライセンスがある場合、またはWorkfront管理者の場合のみです。 管理ユーザーアクセス権を持つユーザーの設定について詳しくは、[ユーザーへのアクセス権の付与](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
   リストには、アクティブな担当業務のみが表示されます。
@@ -256,7 +256,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
   その他の役割の FTE 可用性が 0%の場合、ユーザーがこれらのロールのタスクに割り当てられていない限り、リソースプランナーには表示されません。
 
-  ![ ユーザーの役割と FTE](assets/user-roles-fte-2025.png)
+  ![&#x200B; ユーザーの役割と FTE](assets/user-roles-fte-2025.png)
 
   すべての役割における **FTE の空き時間の割合**&#x200B;の合計を 100％にする必要があります。FTE の可用性の各割合では、リソースプランナーの各ユーザーの役割における空き時間が計算されます。ユーザーごとの各役割の空き時間は、それぞれのユーザーの空き時間に左右されます。
 
@@ -280,7 +280,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
   >[!IMPORTANT]
   >
-  >Workfrontは、「**次を使用してリソースの空き時間を計算** 設定が **ユーザーのスケジュール** に設定されている場合にのみ、ユーザーのスケジュールを使用します。 この設定がリソース管理に使用されるスケジュールにどのように影響するかについては、[ リソース管理環境設定の構成 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) を参照してください。
+  >Workfrontは、「**次を使用してリソースの空き時間を計算** 設定が **ユーザーのスケジュール** に設定されている場合にのみ、ユーザーのスケジュールを使用します。 この設定がリソース管理に使用されるスケジュールにどのように影響するかについては、[&#x200B; リソース管理環境設定の構成 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md) を参照してください。
 
 * **タイムシートプロファイル**：タイムシートプロファイルをユーザーに関連付けて、タイムシートプロファイルがユーザーのために自動的に生成されるようにします。
 
@@ -291,7 +291,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
    * 標準またはプラン ライセンスを持ち、ユーザーを編集するアクセス権を持つユーザーには、システムレベルのタイムシートプロファイルのみが表示されます。 グループレベルのタイムシートプロファイルについて詳しくは、[タイムシートプロファイルの作成、編集、割り当て](/help/quicksilver/timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)を参照してください。
 
 * **デフォルトの時間タイプ**：ユーザーのデフォルトの時間タイプを選択します。これは、ユーザーが時刻をログに記録する際にデフォルトで使用される時間タイプです。
-* **利用可能な時間タイプ**：ユーザーが使用できる時間タイプを選択します。これらの時間タイプは、ユーザーが時間を記録できる Workfront のどこにでも表示されます。ユーザーは、プロジェクトレベルおよびユーザーレベルで有効になっている時間タイプのみを表示できます。ユーザーが使用できる時間タイプについて詳しくは、[ 時間タイプと空き時間を定義 ](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
+* **利用可能な時間タイプ**：ユーザーが使用できる時間タイプを選択します。これらの時間タイプは、ユーザーが時間を記録できる Workfront のどこにでも表示されます。ユーザーは、プロジェクトレベルおよびユーザーレベルで有効になっている時間タイプのみを表示できます。ユーザーが使用できる時間タイプについて詳しくは、[&#x200B; 時間タイプと空き時間を定義 &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください。
 * **ログイン時間**：ユーザーが作業項目に対して時間を時間単位または日単位でログインする必要があるかどうかを選択します。 詳しくは、[時間を時間単位で記録するか日単位で記録するかを設定](/help/quicksilver/timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)を参照してください。
 * **FTE**：これは、ユーザーのフルタイム換算です。Workfront ではこの数値を使用して、システムレベルの「リソース管理環境設定」が「規定のスケジュール」に設定されている場合にのみ、規定のスケジュールに基づいてユーザーの空き時間が計算されます。
 
@@ -311,7 +311,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
   Workfront でスケジュールを作成する方法について詳しくは、[スケジュールの作成](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)を参照してください。
 
-* **リソースプール**：ユーザーをリソースプールに関連付けます。詳細については、[ リソース プールとユーザーの関連付け ](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md) を参照してください。
+* **リソースプール**：ユーザーをリソースプールに関連付けます。詳細については、[&#x200B; リソース プールとユーザーの関連付け &#x200B;](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md) を参照してください。
 * **コスト率**：ユーザーの 1 時間あたりのコストの量。
 
   有効日のコスト率については、「**レートを追加**」をクリックします。期間のコスト率の値を入力し、必要に応じて開始日と終了日を割り当てます。コスト率 1 には開始日が設定されず、最後のコスト率には終了日が設定されません。
@@ -324,7 +324,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 
   一部の日付は自動的に追加されます。例えば、請求レート 1 に終了日がなく、開始日が 2023年5月1日の請求レート 2 を追加すると、ギャップが生じないように、請求レート 1 の終了日に 2023年4月30日が追加されます。
 
-  ![ ユーザーコストと請求レート ](assets/user-cost-billing-rates-2025.png)
+  ![&#x200B; ユーザーコストと請求レート &#x200B;](assets/user-cost-billing-rates-2025.png)
 
 ### カスタムフォーム
 
@@ -334,7 +334,7 @@ Workfront 管理者は、システムレベルおよびグループレベルの�
 >
 >外部検索フィールドやWorkfront ネイティブフィールドなどの高度なカスタムフォーム機能は、ユーザーを編集ダイアログではなく、詳細ページでユーザーレコードを開いた場合にのみ使用できます。 （ユーザーのリストで、ユーザー名をクリックすると詳細が開きます）。
 
-カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
+カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)」を参照してください。
 
 ### コメント
 

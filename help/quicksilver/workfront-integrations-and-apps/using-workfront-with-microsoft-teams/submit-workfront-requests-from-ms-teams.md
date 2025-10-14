@@ -17,11 +17,11 @@ ht-degree: 83%
 
 >[!IMPORTANT]
 >
->[Microsoftが新しい Teams クライアント ](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
+>[Microsoftが新しい Teams クライアント &#x200B;](https://learn.microsoft.com/en-us/microsoftteams/teams-classic-client-end-of-availability) に移行すると、Classic Teams クライアントは 2025 年 7 月 1 日（PT）以降は使用できなくなります。 Microsoft TeamsとWorkfrontなどの統合アプリを引き続き使用するには、この日付までに New Teams クライアントに移行する必要があります。
 >
->更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] ](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
+>更新されたWorkfront統合が利用できるようになり、新しい Teams エクスペリエンスと完全に互換性があります。 ほとんどの場合、ユーザーが移行すると、Workfrontが自動的に表示されます。 そうでない場合は、Microsoft Teams App Storeから手動で統合をインストールできます。 新しい Teams クライアントでWorkfront統合をインストールまたは検証するには、[Microsoft Teams用のインストール  [!DNL Adobe Workfront] &#x200B;](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) を参照してください。
 
-チームの所有者が [!DNL Adobe Workfront for Microsoft Teams] をインストールした後、[!DNL Microsoft Teams] アカウントから [!DNL Workfront] リクエストを送信することができます。そのためには、リクエストを送信するためのアクセス権を持つ Workfront アカウントが必要です。[!DNL Workfront for Microsoft Teams] のインストールについて詳しくは、[ [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
+チームの所有者が [!DNL Adobe Workfront for Microsoft Teams] をインストールした後、[!DNL Microsoft Teams] アカウントから [!DNL Workfront] リクエストを送信することができます。そのためには、リクエストを送信するためのアクセス権を持つ Workfront アカウントが必要です。[!DNL Workfront for Microsoft Teams] のインストールについて詳しくは、[&#x200B; [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md) のインストールを参照してください。
 
 >[!NOTE]
 >
@@ -64,7 +64,7 @@ ht-degree: 83%
 1. （オプション）リクエストキューで使用可能な場合は、トピックグループまたはキューのトピックを選択します。
 1. 次の情報を指定します。
 
-   （リクエストキューの設定方法に応じて、オプションとボックスは異なる場合があります。使用可能なフィールドの完全なリストと説明については、[ [!DNL Adobe Workfront]  リクエストを作成して送信](../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください）
+   （リクエストキューの設定方法に応じて、オプションとボックスは異なる場合があります。使用可能なフィールドの完全なリストと説明については、[&#x200B; [!DNL Adobe Workfront]  リクエストを作成して送信](../../manage-work/requests/create-requests/create-submit-requests.md)を参照してください）
 
    <table style="table-layout:auto"> 
     <col> 

@@ -20,7 +20,7 @@ ht-degree: 2%
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
 ## Adobe Experience Manager アセットとの接続フィールドがリクエストフォームでサポートされるようになりました
 
@@ -32,7 +32,7 @@ Workfront Planning のレコードタイプリクエストフォームに、AEM 
 
 この機能強化が行われるまで、これらのタイプのフィールドをリクエストフォームに追加することはできませんでした。
 
-詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## Workfront Planning リクエストの承認の構成
 
@@ -42,7 +42,7 @@ Workfront Planning のレコードタイプリクエストフォームに、AEM 
 
 Workfront計画リクエストフォームに承認を関連付けることができるようになりました。 リクエストの承認者として追加できるのはユーザーのみです。 リクエストが送信されると、まず、すべての承認者に送信されて、レコードが作成される前に承認されます。
 
-詳しくは、[Adobe Workfront Planning のリクエストフォームへの承認の追加 ](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
+詳しくは、[Adobe Workfront Planning のリクエストフォームへの承認の追加 &#x200B;](/help/quicksilver/planning/requests/add-approval-to-request-form.md) を参照してください。
 
 
 ## リクエストの送信、承認およびステータス変更の通知
@@ -67,7 +67,7 @@ Workfront Planning でリクエストを送信すると、次のアクション�
 
 * [レコードを作成するためのAdobe Workfront Planning 要求の発行](/help/quicksilver/planning/requests/submit-requests.md)
 
-* [Adobe Workfront Planning でリクエストを承認します ](/help/quicksilver/planning/requests/approve-request.md)。
+* [Adobe Workfront Planning でリクエストを承認します &#x200B;](/help/quicksilver/planning/requests/approve-request.md)。
 
 ## フィールドタイプの検索時のインテリジェント検索
 
@@ -101,7 +101,7 @@ Workfront Planning でフィールドタイプを検索する際の、インテ�
 
 計算フィールドは現時点ではサポートされていません。
 
-詳しくは、[Adobe Workfrontからのフィールドのインポート ](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
+詳しくは、[Adobe Workfrontからのフィールドのインポート &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
 
 ## CSV または Excel ファイルの読み込みによるレコードタイプ、レコード、フィールドの作成
 
@@ -141,7 +141,7 @@ CSV または Excel ファイルを読み込むことで、新しいレコード
 
 追加されたページは読み取り専用です。
 
-詳しくは、[ レコードページレイアウトの管理 ](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
+詳しくは、[&#x200B; レコードページレイアウトの管理 &#x200B;](/help/quicksilver/planning/records/manage-the-record-page.md) を参照してください。
 
 ## 「要求」エリアの「送信済み」セクションにある新しい「Workfront」タブと「計画」タブ
 
@@ -158,7 +158,7 @@ Workfront Planning レコードタイプにリクエストを追加するには�
 
 「プランニング」タブを「リクエスト」領域で使用するには、Workfront Planning パッケージを購入する必要があります。
 
-詳しくは、[ レコードを作成するためのAdobe Workfront Planning リクエストの発行 ](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
+詳しくは、[&#x200B; レコードを作成するためのAdobe Workfront Planning リクエストの発行 &#x200B;](/help/quicksilver/planning/requests/submit-requests.md) を参照してください。
 
 ## 追加のフィールドタイプがリクエストフォームでサポートされるようになりました
 
@@ -173,7 +173,7 @@ Workfront Planning のレコードタイプリクエストフォームに、次�
 
 この機能強化が行われるまで、これらのタイプのフィールドは、Workfront Planning のリクエストフォームに追加できませんでした。
 
-詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## 特定のフィールドタイプを含むリクエストフォームの公開共有を制限する
 
@@ -188,7 +188,7 @@ Workfront Planning のレコードタイプリクエストフォームに、次�
 * 参照フィールド
 * ユーザー
 
-詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 ## カレンダーにレコードを週別に表示
@@ -199,7 +199,7 @@ Workfront Planning のレコードタイプリクエストフォームに、次�
 
 カレンダービューでレコードを週別に表示できるようになりました。 この機能強化の前は、月別にのみカレンダービューを表示できていました。
 
-詳しくは、[ カレンダー表示の管理 ](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
+詳しくは、[&#x200B; カレンダー表示の管理 &#x200B;](/help/quicksilver/planning/views/manage-the-calendar-view.md) を参照してください。
 
 ## 削除されたレコードを復元
 
@@ -213,7 +213,7 @@ Workspace管理者は、レコードが削除されてから最大 30 日間、�
 
 この機能強化が行われるまで、削除されたレコードは復元できませんでした。
 
-詳しくは、「[ 削除されたレコードの復元 ](/help/quicksilver/planning/records/records-information.md)」を参照してください。
+詳しくは、「[&#x200B; 削除されたレコードの復元 &#x200B;](/help/quicksilver/planning/records/records-information.md)」を参照してください。
 
 ## レコードの詳細領域で使用できるAdobeAI アシスタント
 
@@ -223,7 +223,7 @@ Workspace管理者は、レコードが削除されてから最大 30 日間、�
 
 作業を簡単に完了できるように、AdobeAI アシスタントをレコードの詳細プレビューまたはレコードのページに追加しました。 レコードページ内で AI アシスタントを使用すると、レコードに関する情報を更新できます。
 
-詳しくは、[Adobe Workfront計画 AI アシスタントの概要 ](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) を参照してください。
+詳しくは、[Adobe Workfront計画 AI アシスタントの概要 &#x200B;](/help/quicksilver/planning/general/planning-ai-assistant-overview.md) を参照してください。
 
 ## レコードページにサムネールとカバー画像を追加する際の新しいエクスペリエンス
 
@@ -268,7 +268,7 @@ Workspace管理者は、レコードが削除されてから最大 30 日間、�
 
 この機能強化が行われるまで、これらのタイプのフィールドは、Workfront Planning のリクエストフォームに追加できませんでした。
 
-詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 ## 他のレコードに既にリンクされているレコードを接続する場合の接続警告
 
@@ -278,7 +278,7 @@ Workspace管理者は、レコードが削除されてから最大 30 日間、�
 
 別の場所で既に接続されていて、[ 一対多 ] または [ 一対一 ] 接続タイプを介して接続されたレコード タイプに属するレコードを接続しようとすると、レコードが既に接続されているという警告が表示されるようになりました。 接続を続行することを確認すると、選択したレコードが元のレコードから削除され、現在編集中のレコードに追加されます。
 
-接続タイプについて詳しくは、[ 接続されたレコードタイプの概要 ](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
+接続タイプについて詳しくは、[&#x200B; 接続されたレコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types-overview.md) を参照してください。
 
 ## 新しい情報アイコンと、レコードの詳細ページのフィールドの説明
 
@@ -306,6 +306,6 @@ Workfront オブジェクトを引き続きWorkfront Planning レコードにブ
 
 Workfront オブジェクトの Planning 接続フィールドの一括編集はまだ使用できません。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 [この機能のデモビデオを見る](https://video.tv.adobe.com/v/3435633/){target=_blank}

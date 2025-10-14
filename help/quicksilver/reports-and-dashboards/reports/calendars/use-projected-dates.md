@@ -134,8 +134,8 @@ ht-degree: 89%
 1. カレンダーのグループ化の条件文を設定します。
 
 
-   ![ カレンダーのオブジェクトを選択 ](assets/calendar-field-name.png)
-条件の設定について詳しくは、[ フィルターと条件の修飾子 ](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) を参照してください。
+   ![&#x200B; カレンダーのオブジェクトを選択 &#x200B;](assets/calendar-field-name.png)
+条件の設定について詳しくは、[&#x200B; フィルターと条件の修飾子 &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md) を参照してください。
 
 1. （オプション）手順 1 ～ 4 を繰り返して、カレンダーのグループ化に使用する追加のオブジェクトを指定します。
 1. **[!UICONTROL タスク／プロジェクト／イシューのラベルを次の値に設定…]**&#x200B;フィールドで、このカレンダーグループ内のオブジェクトにカレンダー内でどのようにラベルを付けるかを選択します。
@@ -144,7 +144,7 @@ ht-degree: 89%
    >
    >特定のオブジェクトに対してデフォルトのラベルオプションがない場合は、代わりにオブジェクト名が表示されます。例えば、[!UICONTROL 親タスク]ラベルが選択されているのに、オブジェクトに関連付けられている親タスクがない場合、[!DNL Adobe Workfront] にはカレンダーに表示されているオブジェクト名が表示されます。
 
-   ![ タスク ラベルの設定 ](assets/set-task-labels.png)
+   ![&#x200B; タスク ラベルの設定 &#x200B;](assets/set-task-labels.png)
 
 1. **[!UICONTROL 保存]**&#x200B;をクリックします。
 

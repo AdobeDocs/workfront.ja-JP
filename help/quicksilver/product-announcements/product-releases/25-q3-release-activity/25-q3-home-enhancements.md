@@ -16,7 +16,7 @@ ht-degree: 5%
 
 このページでは、2025 年第 3 四半期リリースで行われたすべてのホーム機能強化をプレビュー環境に対して説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
-2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
 
 ## すべての承認ウィジェットの名前をドキュメント承認指標に変更
 
@@ -26,11 +26,11 @@ ht-degree: 5%
 >* 実稼動迅速リリース：2025 年 6 月 30 日（PT）
 >* すべてのお客様の実稼動環境：2025 年 6 月 30 日（PT）
 
-表示される情報をより正確に反映するために、すべての承認ウィジェットの名前をドキュメント承認指標に変更しました。 ドキュメント承認指標ウィジェットは、所有するプロジェクトのドキュメント承認に関する高レベルのインサイトを提供します。 このウィジェットを使用するには、[ 統合承認 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
+表示される情報をより正確に反映するために、すべての承認ウィジェットの名前をドキュメント承認指標に変更しました。 ドキュメント承認指標ウィジェットは、所有するプロジェクトのドキュメント承認に関する高レベルのインサイトを提供します。 このウィジェットを使用するには、[&#x200B; 統合承認 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) を有効にする必要があります。
 
 このウィジェットには、プルーフの承認に関する情報は含まれていません。
 
-詳しくは、[ ホームの基本を学ぶ ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
+詳しくは、[&#x200B; ホームの基本を学ぶ &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) を参照してください。
 
 ## マイアップデート エリアの「メンション」セクションのコメント体験を更新しました
 
@@ -44,7 +44,7 @@ ht-degree: 5%
 
 この機能強化の前は、この領域で従来のコメントエクスペリエンスを利用できました。
 
-詳しくは、[ マイアップデート領域の使用 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md) を参照してください。
+詳しくは、[&#x200B; マイアップデート領域の使用 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md) を参照してください。
 
 ## 承認ウィジェットが期日別に自動的に並べ替わるようになりました
 

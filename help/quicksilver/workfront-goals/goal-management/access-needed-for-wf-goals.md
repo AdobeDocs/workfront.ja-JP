@@ -20,7 +20,7 @@ ht-degree: 75%
 
 Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者が、次の条件がすべて満たされていることを確認する必要があります。
 
-* 組織は、Workfront Goals の正規のライセンスを購入する必要があります。詳しくは、この記事の [Workfront Goals 組織のアクセス権の取得 ](#obtain-workfront-goals-organization-access) を参照してください。
+* 組織は、Workfront Goals の正規のライセンスを購入する必要があります。詳しくは、この記事の [Workfront Goals 組織のアクセス権の取得 &#x200B;](#obtain-workfront-goals-organization-access) を参照してください。
 
 * 適切なタイプの Workfront ライセンスが割り当てられます。ライセンスタイプとアクセスレベルの割り当てについては、[ライセンスタイプとアクセスレベルの設定を更新](#update-license-types-and-access-level-settings)の節を参照してください。
 
@@ -53,7 +53,7 @@ Adobe Workfront Goals にアクセスする前に、Adobe Workfront の管理者
 
   組織が追加のライセンスを購入すると、Workfront をお使いのアカウントで Workfront Goals が有効になります。Workfront Goals のライセンスの購入について詳しくは、Workfront のアカウントマネージャーにお問い合わせください。
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 ## ライセンスタイプとアクセスレベルの設定の更新  {#update-license-types-and-access-level-settings}
 
@@ -84,7 +84,7 @@ Workfront 管理者は、システム内の Workfront Goals ライセンスの�
 
 Workfront Goals にアクセスできるようにするため、Workfront 管理者またはグループ管理者が、メインメニューの Goals エリアを含むレイアウトテンプレートを割り当てる必要があります。
 
-![ レイアウトテンプレート ](assets/layout-template-align-highlighted-350x220.png)
+![&#x200B; レイアウトテンプレート &#x200B;](assets/layout-template-align-highlighted-350x220.png)
 
 Workfront 管理者またはグループ管理者は、Workfront Goals に簡単にアクセスできるようにするために、レイアウトテンプレートに以下のものを追加することもできます。
 

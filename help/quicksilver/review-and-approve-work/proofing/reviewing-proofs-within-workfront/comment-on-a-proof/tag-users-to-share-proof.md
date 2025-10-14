@@ -83,7 +83,7 @@ ht-degree: 97%
 1. コメントを終了し、「**投稿**」をクリックします。
 1. （条件付き）プルーフにまだ追加されていない人にタグを付けた場合は、表示されるボックスに一覧表示される各ユーザーの&#x200B;**プルーフの役割**&#x200B;および&#x200B;**メールアラート**&#x200B;設定を指定し、「**担当者の追加とコメントの投稿**」をクリックします。
 
-   ![ プルーフにユーザーを追加 ](assets/add-people-to-proof-350x220.png)
+   ![&#x200B; プルーフにユーザーを追加 &#x200B;](assets/add-people-to-proof-350x220.png)
 
    プルーフについて詳しくは、次を参照してください。プルーフメールアラートについて詳しくは、この記事の[Workfront Proof でのメール通知の設定](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)の節を参照してください。
 

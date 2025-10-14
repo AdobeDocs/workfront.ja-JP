@@ -24,13 +24,13 @@ Workfront Planning スキーマをよく理解しておくと、統合を目的�
 
 Workfront カスタムフォームの外部参照フィールドから Planning API を呼び出すことができます。
 
-外部検索フィールドについて詳しくは、「[ カスタムフォームにおける外部検索フィールドの例 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)」を参照してください。
+外部検索フィールドについて詳しくは、「[&#x200B; カスタムフォームにおける外部検索フィールドの例 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)」を参照してください。
 
 >[!NOTE]
 >
 >Planning API を使用する場合、すべてのユーザー関連の情報は、Workfront ユーザー ID ではなく、Adobe Identity Management System （IMS）ユーザー ID を使用して返されます。
 >
->詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+>詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 
 ## Workfront計画 API の URL
 
@@ -47,7 +47,7 @@ Workfront カスタムフォームの外部参照フィールドから Planning 
 * **PUT** - 既存のオブジェクトを編集
 * **DELETE** - オブジェクトを削除
 
-各操作の詳細と例については、[Workfront Planning API 開発者向けドキュメント ](https://developer.adobe.com/wf-planning/) を参照してください。
+各操作の詳細と例については、[Workfront Planning API 開発者向けドキュメント &#x200B;](https://developer.adobe.com/wf-planning/) を参照してください。
 
 ### フィールドタイプと、それらで使用される検索修飾子
 
@@ -368,4 +368,4 @@ API 呼び出しに以下を追加すると、任意のフィールド別に結�
 
 結果が正しくページ分割されるようにするには、並べ替えパラメーターを使用します。これにより、結果が同じ順序で返されるので、ページネーションで結果が繰り返されたりスキップされたりすることはありません。
 
-並べ替えについて詳しくは、この記事の [API でのクエリ結果の並べ替え ](#sorting-query-results-in-the-api) を参照してください。
+並べ替えについて詳しくは、この記事の [API でのクエリ結果の並べ替え &#x200B;](#sorting-query-results-in-the-api) を参照してください。

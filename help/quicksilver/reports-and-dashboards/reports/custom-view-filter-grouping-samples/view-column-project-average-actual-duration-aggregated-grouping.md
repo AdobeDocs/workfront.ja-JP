@@ -58,7 +58,7 @@ ht-degree: 37%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -68,7 +68,7 @@ ht-degree: 37%
 
 1. プロジェクトリストに移動します。
 1. （必須） プロジェクトの実際の期間の集計平均値を表示するには、プロジェクトリストにグループ化を追加する必要があります。\
-   グループ化の作成について詳しくは、[Adobe Workfrontのグループ化の概要 ](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) を参照してください。
+   グループ化の作成について詳しくは、[Adobe Workfrontのグループ化の概要 &#x200B;](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md) を参照してください。
 1. **表示** ドロップダウンメニューを展開し、「**表示をカスタマイズ**」を選択します。
 1. 「**列を追加**」をクリックします。
 1. **テキストモードに切り替え** をクリックしてから、**テキストモードを編集** をクリックします。

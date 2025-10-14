@@ -27,7 +27,7 @@ ht-degree: 61%
 * プロジェクト名に続く丸括弧で、プロジェクト所有者を表示します。
 * プロジェクト名をプロジェクトへのリンクとして表示します。
 
-![ 積み重ねビューのあるプロジェクト行 ](assets/project-multi-row-stacked-view-350x219.png)
+![&#x200B; 積み重ねビューのあるプロジェクト行 &#x200B;](assets/project-multi-row-stacked-view-350x219.png)
 
 ## アクセス要件
 

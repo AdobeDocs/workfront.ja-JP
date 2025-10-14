@@ -160,7 +160,7 @@ ht-degree: 96%
 
 役割ビューのリソースプランナーで予算配分を行うには、次の操作を実行します。
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
 
 1. 「**リソース**」をクリックします。
 1. 「**計画担当者**」がデフォルトで表示されます。
@@ -225,7 +225,7 @@ ht-degree: 96%
 
 クイックリンクを使用すると、リソースの割り当ての予算を一括で設定できます。クイックリンクは、プロジェクトビューと役割ビューでのみ使用できます。
 
-![ 自動予算オプション ](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![&#x200B; 自動予算オプション &#x200B;](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

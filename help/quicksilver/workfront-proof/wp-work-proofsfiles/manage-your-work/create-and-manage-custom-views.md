@@ -41,15 +41,15 @@ ht-degree: 98%
 カスタムビューを作成するには、次の手順に従います。
 
 1. **[!UICONTROL ビュー]**&#x200B;ページに移動します。
-1. ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理を参照してください。
+1. ビューについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理を参照してください。
 1. 新しいカスタムビューを最初から作成するか、既存の標準ビューに基づいて新しいカスタムビューを作成するかに応じて、次のいずれかの操作を行います。
 
    * 既存の標準ビューに基づいて新しいカスタムビューを作成するには、ドロップダウンメニューから、新しいカスタムビューの基盤として使用する既存の標準ビューを選択します。**[!UICONTROL ビューの設定]**&#x200B;アイコンをクリックし、「**[!UICONTROL コピー]**」をクリックして新しいカスタムビューにコピーします。
 
-   * ![ カスタムビューアイコン ](assets/proof-custom-view-icon.png)
+   * ![&#x200B; カスタムビューアイコン &#x200B;](assets/proof-custom-view-icon.png)
 
    * 新しいカスタムビューを最初から作成するには、**[!UICONTROL 新規ビュー]**&#x200B;アイコンをクリックします。
-   * ![ 新規ビュー ](assets/proof-newview.png)
+   * ![&#x200B; 新規ビュー &#x200B;](assets/proof-newview.png)
 
 1. 「**[!UICONTROL 詳細]**」セクションで、次の情報を指定します。
 
@@ -59,7 +59,7 @@ ht-degree: 98%
 1. 「**[!UICONTROL 列]**」セクションでは、カスタムビューに含める列を決定します。
 
    1. 右向き矢印アイコンをクリックします。
-   1. ![ 右矢印キー ](assets/proof-view-rightarrow.png)
+   1. ![&#x200B; 右矢印キー &#x200B;](assets/proof-view-rightarrow.png)
 
    1. 選択した列の名前をダブルクリックします。
    1. 1 つ以上の列を選択する必要があります。1 つの列は 1 回だけ追加できます。
@@ -263,18 +263,18 @@ ht-degree: 98%
    * この時点で他のユーザーとビューを共有しないように選択した場合は、後でカスタムビューを編集して共有できます。
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
-1. カスタムビューが表示され、[!DNL Views] ページで利用できます。ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) の  [!DNL Views]  ページで項目を管理を参照してください。
+1. カスタムビューが表示され、[!DNL Views] ページで利用できます。ビューについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) の  [!DNL Views]  ページで項目を管理を参照してください。
 
 ## カスタムビューの編集
 
 カスタムビューは簡単に編集できます。カスタムビューの編集方法
 
 1. **[!UICONTROL ビュー]**&#x200B;ページに移動します。\
-   ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
+   ビューについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
 
 1. 「[!UICONTROL ビュー]」ボタンをクリックします。（1）
 1. 編集するビューをドロップダウンメニューから選択します。\
-   ![ 編集ビュー ](assets/proof-view-edit.png)
+   ![&#x200B; 編集ビュー &#x200B;](assets/proof-view-edit.png)
 
 1. 「**[!UICONTROL 表示オプション]**」ボタンをクリックし、「**[!UICONTROL ビューを編集]**」を選択します。\
    ![オプションの表示](assets/proof-view-options.png)\
@@ -301,7 +301,7 @@ ht-degree: 98%
 カスタムビューのコピー方法
 
 1. **[!UICONTROL ビュー]**&#x200B;ページに移動します。\
-   ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
+   ビューについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
 
 1. 「**[!UICONTROL ビュー]**」ボタンをクリックします。（1）
 1. リストからカスタムビューを選択します。（2）
@@ -312,7 +312,7 @@ ht-degree: 98%
    ![copying_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. カスタムビューのコピーページでは、元の設定がすべて入力されます。お好みでカスタムビューを変更し、「**[!UICONTROL ビューをコピー]**」ボタンをクリックします。新しいビューにすぐに移動します。\
-   ![ カスタムビューをコピー ](assets/copy-custom-view-page-350x542.png)
+   ![&#x200B; カスタムビューをコピー &#x200B;](assets/copy-custom-view-page-350x542.png)
 
 ## カスタムビューの共有
 
@@ -321,7 +321,7 @@ ht-degree: 98%
 カスタムビューを他のユーザーと共有するには：
 
 1. **[!UICONTROL ビュー]**&#x200B;ページに移動します。\
-   ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
+   ビューについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
 
 1. 「**[!UICONTROL ビュー]**」ボタンをクリックします。（1）
 1. リストからカスタムビューを選択します。（2）
@@ -339,7 +339,7 @@ ht-degree: 98%
 カスタムビューから CSV ファイルにデータを書き出すには：
 
 1. **[!UICONTROL ビュー]**&#x200B;ページに移動します。\
-   ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
+   ビューについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページで項目を管理を参照してください。
 
 1. 「**[!UICONTROL ビュー]**」ボタンをクリックします。（1）
 1. リストからカスタムビューを選択します。（2）
@@ -359,7 +359,7 @@ ht-degree: 98%
 カスタムビューは簡単に削除できます。手順は次のとおりです。
 
 1. **[!UICONTROL ビュー]**&#x200B;ページに移動します。\
-   ビューについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理を参照してください。
+   ビューについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) のビューページでの項目の管理を参照してください。
 
 1. 「**[!UICONTROL ビュー]**」ボタンをクリックします。
 1. リストからカスタムビューを選択します。

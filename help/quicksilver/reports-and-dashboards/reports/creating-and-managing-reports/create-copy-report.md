@@ -58,7 +58,7 @@ ht-degree: 74%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -104,7 +104,7 @@ ht-degree: 74%
 
 組み込みレポートのコピーを作成する場合は、次の操作を行います。
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
 
 1. **レポート** をクリックし、**すべてのレポート** をクリックします。
 1. ビルトインレポートの名前をクリックして開きます。
@@ -124,6 +124,6 @@ ht-degree: 74%
 1. 「**完了**」をクリックします。
 1. 「**新規レポートとして保存**」をクリックします。
 
-   ![ 新規報告書として保存 ](assets/unshimmed-save-as-new-report.png)
+   ![&#x200B; 新規報告書として保存 &#x200B;](assets/unshimmed-save-as-new-report.png)
 
 1. （オプション）新しいバージョンのレポートを他のユーザーと共有するには、「**レポートアクション**」、「**共有**」の順にクリックします。

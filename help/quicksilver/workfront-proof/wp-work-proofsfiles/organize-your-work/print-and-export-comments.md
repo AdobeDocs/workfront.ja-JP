@@ -28,7 +28,7 @@ ht-degree: 39%
 
 * [プルーフビューア](#the-proof-viewer)
 * [プルーフの詳細ページ](#the-proof-details-page)
-* [ [!DNL Proof]  アクションメニュー](#the-proof-actions-menu)
+* [&#x200B; [!DNL Proof]  アクションメニュー](#the-proof-actions-menu)
 
 ### プルーフビューア {#the-proof-viewer}
 
@@ -91,13 +91,13 @@ ht-degree: 39%
 プルーフのアクション メニューから [!DNL Excel] の概要をエクスポートするには：
 
 1. プルーフの右側にある **アクション** アイコンをクリックし、「概要 **&#x200B;**&#x200B;[!DNL Excel] 選択します。
-   ![Excel の概要のエクスポート ](assets/excel-summary-option.png)
+   ![Excel の概要のエクスポート &#x200B;](assets/excel-summary-option.png)
 
 プルーフの詳細ページから [!DNL Excel] 概要をダウンロードするには、次の手順に従います。
 
 1. **詳細** ボタンをクリックして、「**Excel にエクスポート**」を選択します。
 
-   ![Excel にエクスポート ](assets/export-to-excel.png)
+   ![Excel にエクスポート &#x200B;](assets/export-to-excel.png)
 
 ## PDF への書き出し
 

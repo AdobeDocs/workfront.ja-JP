@@ -20,7 +20,7 @@ ht-degree: 73%
 
 タスクリストからプロジェクト、プログラム、ポートフォリオへのリンクも表示されます。
 
-![ プログラムとポートフォリオを表示 ](assets/view--program-and-portfolio-350x116.png)
+![&#x200B; プログラムとポートフォリオを表示 &#x200B;](assets/view--program-and-portfolio-350x116.png)
 
 ## アクセス要件
 
@@ -58,7 +58,7 @@ ht-degree: 73%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

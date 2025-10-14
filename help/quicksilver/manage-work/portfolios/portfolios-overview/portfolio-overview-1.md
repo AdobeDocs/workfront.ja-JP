@@ -22,7 +22,7 @@ ht-degree: 85%
 この節では、次の記事を扱います。
 
 * [ポートフォリオ管理の概要](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-* [ [!DNL Adobe Workfront] のポートフォリオの概要](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+* [&#x200B; [!DNL Adobe Workfront] のポートフォリオの概要](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
 * [ポートフォリオ内での移動](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 

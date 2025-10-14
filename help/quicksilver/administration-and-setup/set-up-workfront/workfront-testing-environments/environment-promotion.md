@@ -1016,7 +1016,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 この手順にはエンドポイントがありません。
 
-1. [ 手順 1 – 翻訳マップの作成 ](#step-1---create-a-translation-map) で返された翻訳マップで、インストールするオブジェクトのリストを調べます。
+1. [&#x200B; 手順 1 – 翻訳マップの作成 &#x200B;](#step-1---create-a-translation-map) で返された翻訳マップで、インストールするオブジェクトのリストを調べます。
 1. 各オブジェクトのアクションフィールドを目的のインストールアクションに更新します。
 1. 各オブジェクトの `targetId` を検証します。 set アクションが `USEEXISTING` または `OVERWRITING` の場合、`targetId` は、ターゲット環境のターゲットオブジェクトの UUID に設定する必要があります。 その他のアクションの場合は、targetId を空の文字列にする必要があります。
 
@@ -1034,7 +1034,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### 本文
 
-これは、単一のフィールド `translationMap` を持つオブジェクトで、[ 手順 2 – 翻訳マップの変更 ](#step-2---modify-the-translation-map) で変更した翻訳マップと等しくなります。
+これは、単一のフィールド `translationMap` を持つオブジェクトで、[&#x200B; 手順 2 – 翻訳マップの変更 &#x200B;](#step-2---modify-the-translation-map) で変更した翻訳マップと等しくなります。
 
 ```json
 {

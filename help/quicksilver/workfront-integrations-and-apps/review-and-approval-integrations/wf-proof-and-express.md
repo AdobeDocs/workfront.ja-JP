@@ -73,14 +73,14 @@ Workfront ProofとAdobe Expressを使用すると、次のことができます
   >
   >Adobe ExpressとWorkfront Proofの統合は、複数のリリースを通じて使用できるようになります。最初に、Adobe Admin Console内の同じ組織 ID に関連付けられたWorkfrontとAdobe Expressを持つアカウントを使用し、次に、IMS 組織をまたいで作業しているユーザーを持つお客様を使用します。 統合を有効にする場合は、カスタマーサクセスまたは戦略担当営業にお問い合わせください。
 
-* Adobe Expressでドラフトのレビューを開始する前に、[Adobe Workfront レビューツールを使用してインタラクティブコンテンツをレビュー ](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) をインストールする必要があります。
+* Adobe Expressでドラフトのレビューを開始する前に、[Adobe Workfront レビューツールを使用してインタラクティブコンテンツをレビュー &#x200B;](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md) をインストールする必要があります。
 
 
 ## Workfrontでの承認ワークフローの設定
 
 標準ライセンスを持つプルーフ管理者は、ユーザーが Express テンプレートに承認ワークフローを追加する前に、Workfrontで承認ワークフローを作成する必要があります。
 
-詳しくは、[ 自動ワークフローテンプレートの作成と管理 ](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) を参照してください。
+詳しくは、[&#x200B; 自動ワークフローテンプレートの作成と管理 &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/create-manage-automated-workflow-templates.md) を参照してください。
 
 ## Express テンプレートに承認ワークフローを追加する
 
@@ -90,7 +90,7 @@ Express テンプレートを混在し直す場合は、公開する前に承認
 
 Adobe Expressの承認をリクエストするには、標準Workfront ライセンスが必要です。
 
-[ デザインの承認を得る ](https://helpx.adobe.com/jp/express/web/share-and-publish/share-and-collaborate/request-approval.html) 方法を説明します。
+[&#x200B; デザインの承認を得る &#x200B;](https://helpx.adobe.com/jp/express/web/share-and-publish/share-and-collaborate/request-approval.html) 方法を説明します。
 
 
 ## Express テンプレートをリミックスして、レビューと承認を受けるために送信

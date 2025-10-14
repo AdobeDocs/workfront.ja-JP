@@ -78,7 +78,7 @@ ht-degree: 86%
 
 * [!DNL Microsoft SharePoint]
 
-  [!DNL SharePoint] との統合について詳しくは、[ [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
+  [!DNL SharePoint] との統合について詳しくは、[&#x200B; [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)を参照してください。
 
 * サードパーティクラウドドキュメントプロバイダー：
 
@@ -213,7 +213,7 @@ ht-degree: 86%
 様々な [!DNL Workfront DAM] フィールドに同じ [!DNL Workfront] フィールドをマッピングできますが、複数の [!DNL Workfront] フィールドに同じ [!DNL Workfront DAM] フィールドを使用することはできません。
 
 1 つの [!DNL Workfront DAM] フィールドに書き出すように複数の [!DNL Workfront] フィールドを設定する必要がある場合は、まず [!DNL Workfront] に計算カスタムフィールドを作成して、オブジェクトの個々のカスタムフィールドをすべて表示します。次に、1 つの [!DNL Workfront DAM] フィールドに計算 [!DNL Workfront] フィールドをマッピングします。\
-計算カスタムフィールドについて詳しくは、「[ フォームに計算フィールドを追加する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
+計算カスタムフィールドについて詳しくは、「[&#x200B; フォームに計算フィールドを追加する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)」を参照してください。
 
 マッピングは、任意のユーザーが [!DNL Workfront] から [!UICONTROL Workfront] DAM にアップロードしたすべてのドキュメントに影響します。
 
@@ -258,4 +258,4 @@ ht-degree: 86%
    * Workfrontにドキュメントフォルダーを作成し、Google フォルダー内のすべてのファイルを選択してWorkfront フォルダーに追加します。
 
 
-* Google Drive ドキュメントの統合では、Google Drive のマイドライブ領域からのファイルの追加がサポートされています。 共有ドライブからフォルダーや画像を追加することはできません。 [Google共有ドライブ ](https://support.google.com/a/users/answer/7212025?hl=en) の詳細情報。
+* Google Drive ドキュメントの統合では、Google Drive のマイドライブ領域からのファイルの追加がサポートされています。 共有ドライブからフォルダーや画像を追加することはできません。 [Google共有ドライブ &#x200B;](https://support.google.com/a/users/answer/7212025?hl=en) の詳細情報。

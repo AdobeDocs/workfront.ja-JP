@@ -21,9 +21,9 @@ ht-degree: 94%
 >
 >Jira を使用する場合は、組織の統合のニーズに合わせてWorkfront Automation and Integration を使用することをお勧めします。
 >
->Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
+>Workfrontの自動処理と統合の概要については、[Adobe Workfront Fusion の概要 &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview) を参照してください。
 >
->Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
+>Jira 用のWorkfront Automation and Integration Modules の具体的な機能については、「[Jira ソフトウェアモジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/jira-software-modules)」を参照してください。
 
 <!--
 
@@ -47,7 +47,7 @@ ht-degree: 94%
 
 [!DNL Jira] のシステム管理者として、[!DNL Jira] 用に [!DNL Workfront] を設定する際に、単一のアプリケーションの特定のフィールドを、他のアプリケーションのリンクされた項目のフィールドと同期するように設定することができます。
 
-リンクされた [!DNL Jira] と [!DNL Workfront] の項目間のフィールドの同期について詳しくは、[ [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) の設定を参照してください。
+リンクされた [!DNL Jira] と [!DNL Workfront] の項目間のフィールドの同期について詳しくは、[&#x200B; [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) の設定を参照してください。
 
 ## アクセス要件
 
@@ -90,15 +90,15 @@ ht-degree: 94%
 
 * [!DNL Workfront for Jira] をインストールする。
 
-  [!DNL Workfront for Jira] をインストールする手順については、「[ [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md) をインストール」を参照してください。
+  [!DNL Workfront for Jira] をインストールする手順については、「[&#x200B; [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/install-workfront-for-jira.md) をインストール」を参照してください。
 
 * [!DNL Workfront for Jira] を設定する。
 
-  [!DNL Workfront for Jira] の設定手順については、[ [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) の設定を参照してください。
+  [!DNL Workfront for Jira] の設定手順については、[&#x200B; [!DNL Adobe Workfront for Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md) の設定を参照してください。
 
 * [!DNL Workfront] と [!DNL Jira] の間の項目をリンクさせる。
 
-  手順については、「[ [!DNL Adobe Workfront]  と  [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md) の間にの項目をリンクさせる」を参照してください。
+  手順については、「[&#x200B; [!DNL Adobe Workfront]  と  [!DNL Jira]](../../workfront-integrations-and-apps/use-workfront-with-jira/link-items-between-wf-jira.md) の間にの項目をリンクさせる」を参照してください。
 
 ## [!DNL Workfront] 内のリンクされた項目を更新する。
 
@@ -213,7 +213,7 @@ ht-degree: 94%
 時間は、[!DNL Workfront] アイテムの「**[!UICONTROL 時間数]**」タブにも表示されます。
 
 * [リンクされた [!DNL Jira] アイテムと [!DNL Workfront] アイテムの時間を記録](#log-time-for-linked-jira-and-workfront-items)
-* [ [!DNL Jira] から [!DNL Workfront] アイテムに時間を記録](#log-time-from-jira-to-a-workfront-item)
+* [&#x200B; [!DNL Jira] から [!DNL Workfront] アイテムに時間を記録](#log-time-from-jira-to-a-workfront-item)
 
 ### リンクされた [!DNL Jira] アイテムと [!DNL Workfront] アイテムの時間を記録
 

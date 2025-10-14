@@ -14,7 +14,7 @@ ht-degree: 87%
 # Workfront ナレッジベース
 
 * [管理と設定](administration-and-setup/administration-and-setup.md)
-* [Adobe Workfrontの基本：記事のインデックス ](workfront-basics/workfront-basics.md)
+* [Adobe Workfrontの基本：記事のインデックス &#x200B;](workfront-basics/workfront-basics.md)
 * [ユーザー、チーム、グループ](people-teams-and-groups/people-teams-and-groups.md)
 * [リソースの管理](resource-mgmt/manage-resources.md)
 * [アジャイル](agile/agile.md)

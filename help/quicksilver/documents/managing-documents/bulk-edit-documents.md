@@ -74,8 +74,8 @@ ht-degree: 16%
 
 1. メインメニューからプロジェクトの「ドキュメント」タブまたはドキュメント エリアに移動します。
 1. キーボードの Ctrl キーまたは Cmd キーを押し、編集するドキュメントを選択します。
-1. 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
-   ![ ページ上の編集アイコンの場所 ](assets/edit-multiple-documents.png)
+1. 編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+   ![&#x200B; ページ上の編集アイコンの場所 &#x200B;](assets/edit-multiple-documents.png)
 1. （任意）「**説明**」を追加または編集します。 各ドキュメントの説明が異なる場合は、「説明」ボックスに _複数の値_ が表示されます。 すべてのドキュメントに同じ説明を追加できますが、一括編集時に個々のドキュメントの説明を編集することはできません。
 1. カスタムフォームで次の変更を行います。
 
@@ -100,10 +100,10 @@ ht-degree: 16%
 
 1. 既存のドキュメントレポートに移動します。
 または
-[ カスタムレポートの作成 ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) の説明に従って、ドキュメントレポートを作成します。
+[&#x200B; カスタムレポートの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) の説明に従って、ドキュメントレポートを作成します。
 1. 編集するドキュメントを選択します。
-1. 編集アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
-   ![ ページ上の編集アイコンの場所 ](assets/edit-multiple-documents.png)
+1. 編集アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
+   ![&#x200B; ページ上の編集アイコンの場所 &#x200B;](assets/edit-multiple-documents.png)
 1. （任意）「**説明**」を追加または編集します。 各ドキュメントの説明が異なる場合は、「説明」ボックスに _複数の値_ が表示されます。 すべてのドキュメントに同じ説明を追加できますが、一括編集時に個々のドキュメントの説明を編集することはできません。
 1. カスタムフォームで次の変更を行います。
 

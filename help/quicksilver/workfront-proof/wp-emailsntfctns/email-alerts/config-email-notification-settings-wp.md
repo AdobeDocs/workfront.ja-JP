@@ -26,18 +26,18 @@ ht-degree: 97%
 
 次のエリアで、レビュアーに対するメール通知を設定できます。
 
-レビュアーへのメール通知は、新しいプルーフページ、[!UICONTROL 新しいバージョン]ページで設定され、[!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクションで管理できます。詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
+レビュアーへのメール通知は、新しいプルーフページ、[!UICONTROL 新しいバージョン]ページで設定され、[!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクションで管理できます。詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
 
 * 新規プルーフページ
 * [!UICONTROL 新しいバージョン]ページ
 * [!UICONTROL プルーフの詳細]ページの「[!UICONTROL ワークフロー]」セクション。
 
-詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
+詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成を参照してください。
 
 
-* [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成 [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)でプルーフを生成
+* [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でプルーフを生成 [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)でプルーフを生成
 
-* [ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理を管理します。
+* [&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) でプルーフの詳細を管理を管理します。
 
 
 すべてのユーザーは、共同作業者に独自の環境設がある場合、またはアカウント管理者がアラートの頻度に関して推奨している場合に、プルーフが共有されたときに自動的に適用される独自のメールアラート設定を行うこともできます。これは、ユーザーの詳細ページで、プルーフのデフォルトとして設定できます。
@@ -50,7 +50,7 @@ ht-degree: 97%
 
 [!UICONTROL 管理者]または[!UICONTROL 請求管理者]プロファイルを持つユーザーは、アカウント設定内からアカウント内の他のユーザーのプルーフのデフォルトを設定することもできます。
 
-プロファイルについて詳しくは、[ [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
+プロファイルについて詳しくは、[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) のプルーフ権限プロファイルを参照してください。
 
 ## アクセス要件
 
@@ -151,7 +151,7 @@ ht-degree: 97%
 バッチアクションで特定の受信者向けのメールアラートを変更できます。
 
 1. 左側のナビゲーションパネルで「**[!UICONTROL 連絡先]**」をクリックします。
-1. 受信者の **[!UICONTROL 詳細]** メニュー ![ 詳細メニュー ](assets/more-button-small.png) をクリックし、ドロップダウンメニューの **[!UICONTROL メンバーの詳細を表示]** をクリックします。
+1. 受信者の **[!UICONTROL 詳細]** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-button-small.png) をクリックし、ドロップダウンメニューの **[!UICONTROL メンバーの詳細を表示]** をクリックします。
 
 1. 「**[!UICONTROL 共有項目]**」セクションを開きます。
 1. メールアラートを変更する各項目の左側でチェックボックスを選択します。

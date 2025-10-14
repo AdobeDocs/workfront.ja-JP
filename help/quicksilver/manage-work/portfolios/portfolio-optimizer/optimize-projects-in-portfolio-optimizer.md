@@ -49,7 +49,7 @@ ht-degree: 85%
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfrontのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -61,7 +61,7 @@ ht-degree: 85%
 
 1. **[!UICONTROL 最適化]**&#x200B;アイコンをクリックします。
 
-   ![ 最適化アイコン ](assets/optimize-icon-portfolio-optimizer.png)
+   ![&#x200B; 最適化アイコン &#x200B;](assets/optimize-icon-portfolio-optimizer.png)
 
    プロジェクトのスコア付けに使用できるカテゴリが、[!UICONTROL 最適化]アイコンの左側に表示されます。
 

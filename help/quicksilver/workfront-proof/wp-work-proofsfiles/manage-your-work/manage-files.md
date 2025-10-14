@@ -20,33 +20,33 @@ ht-degree: 95%
 >
 >この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-Workfront Proof にアップロードされたファイル（プルーフ以外）に関する情報を管理、共有および表示することができできます（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルおよび web コンテンツのアップロードを参照）。
+Workfront Proof にアップロードされたファイル（プルーフ以外）に関する情報を管理、共有および表示することができできます（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) へのファイルおよび web コンテンツのアップロードを参照）。
 
 1. 左側のナビゲーションパネルで「**[!UICONTROL ビュー]**」の右にある下矢印をクリックしたあと、ドロップダウンメニューの「**[!UICONTROL ファイル]**」をクリックします。
 
 1. ファイルの&#x200B;**[!UICONTROL その他]**&#x200B;ボタンをクリックし、表示されるメニューの「**[!UICONTROL ファイルの詳細を表示]**」をクリックします。\
-   ![ ファイルの詳細を表示 ](assets/click-more-then-view-file-details.png)\
+   ![&#x200B; ファイルの詳細を表示 &#x200B;](assets/click-more-then-view-file-details.png)\
    表示されるウィンドウでファイルの詳細を表示および編集できます。例えば、ウィンドウの上部に表示されるファイル名、ファイルを保存する [!DNL Workfront Proof] **フォルダー**&#x200B;およびファイルの&#x200B;**所有者**&#x200B;を変更できます。\
-   ![ ファイルの詳細 ](assets/file-details-page-350x129.png)
+   ![&#x200B; ファイルの詳細 &#x200B;](assets/file-details-page-350x129.png)
 
 1. （オプション）ファイルの編集権限がある場合は、右上隅にある以下のアクションボタンを使用して、ファイルを管理および共有します。
 
 * **[!UICONTROL タグ]**：ファイルに適用されるタグを管理します。\
-   ![ タグボタン ](assets/tags-button.png)\
+   ![&#x200B; タグボタン &#x200B;](assets/tags-button.png)\
    アクションボタンの下に、ファイルに適用されているすべてのタグが表示されます。不要なタグの横にある「x」をクリックして、そのタグを削除できます。\
-   ![ ファイルタグの表示 ](assets/view-file-tags-350x64.png)
+   ![&#x200B; ファイルタグの表示 &#x200B;](assets/view-file-tags-350x64.png)
 
 * **[!UICONTROL 指定の場所に移動]**：ファイルをフォルダーに整理します。ファイルを既存のフォルダー間で移動したり、新しいフォルダーに配置したりできます。\
-   ![ フォルダーボタン ](assets/folder-button.png)
+   ![&#x200B; フォルダーボタン &#x200B;](assets/folder-button.png)
 
 * **[!UICONTROL 共有]**：ファイルを他のユーザーと共有します。[!DNL Workfront Proof] では、カスタムメッセージとダウンロードリンクを含んだメール通知を受信者に送信します。\
-   ![ 共有ボタン ](assets/share-button.png)
+   ![&#x200B; 共有ボタン &#x200B;](assets/share-button.png)
 
-* **[!UICONTROL ごみ箱]**：ファイルをごみ箱に移動することにより、削除できます。なお、ごみ箱を空にするまで、ファイルはストレージの限度内で蓄積されます（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) におけるごみ箱の内容の復元および完全削除を参照）。\
-   ![ ごみ箱ボタン ](assets/trash-button.png)
+* **[!UICONTROL ごみ箱]**：ファイルをごみ箱に移動することにより、削除できます。なお、ごみ箱を空にするまで、ファイルはストレージの限度内で蓄積されます（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) におけるごみ箱の内容の復元および完全削除を参照）。\
+   ![&#x200B; ごみ箱ボタン &#x200B;](assets/trash-button.png)
 
-* **[!UICONTROL その他]**：このドロップダウンリストで、「**[!UICONTROL プルーフに変換]**」をクリックすると、ファイルのプルーフを作成できます（[ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成を参照）。ファイルは、プルーフのファイルタイプ要件を満たしている必要があります（[サポートされているプルーフのファイルタイプとサイズ制限の概要](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)を参照）。ファイル名が既存のプルーフの名前と一致する場合、[!DNL Workfront Proof] では、ファイルをそのプルーフの&#x200B;**[!UICONTROL 新しいバージョン]**&#x200B;に変換できるリンクを含んだメッセージを表示します（参照）。\
-   ![ 詳細ボタン ](assets/more-button-text-version.png)
+* **[!UICONTROL その他]**：このドロップダウンリストで、「**[!UICONTROL プルーフに変換]**」をクリックすると、ファイルのプルーフを作成できます（[&#x200B; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) でのプルーフの生成を参照）。ファイルは、プルーフのファイルタイプ要件を満たしている必要があります（[サポートされているプルーフのファイルタイプとサイズ制限の概要](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)を参照）。ファイル名が既存のプルーフの名前と一致する場合、[!DNL Workfront Proof] では、ファイルをそのプルーフの&#x200B;**[!UICONTROL 新しいバージョン]**&#x200B;に変換できるリンクを含んだメッセージを表示します（参照）。\
+   ![&#x200B; 詳細ボタン &#x200B;](assets/more-button-text-version.png)
 
   >[!TIP]
   >
@@ -58,7 +58,7 @@ Workfront Proof にアップロードされたファイル（プルーフ以外�
 
    右側の&#x200B;**[!UICONTROL その他]**&#x200B;アイコンを使用して、ユーザーに&#x200B;**[!UICONTROL メッセージ]**&#x200B;を送信したり、ユーザーを&#x200B;**[!UICONTROL 削除]**&#x200B;したりできます。
 
-   ![ メッセージと削除 ](assets/message-and-remove.png)
+   ![&#x200B; メッセージと削除 &#x200B;](assets/message-and-remove.png)
 
    これらのユーザーの 1 人にメッセージを送信することを選択した場合、**[!DNL Message all]**&#x200B;ページが表示されるので、複数のメッセージを一度に送信できます。
 

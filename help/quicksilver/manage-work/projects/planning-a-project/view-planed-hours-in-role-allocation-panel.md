@@ -100,18 +100,18 @@ ht-degree: 78%
 
 ## 役割の配分パネルでプロジェクトの予定時間数を表示
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、「**プロジェクト**」をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、「**プロジェクト**」をクリックします。
 1. プロジェクト名をクリックしてアクセスします。プロジェクトページが開きます。
 1. 左側のパネルで、次のいずれかをクリックします。
 
    * **タスク**
    * **ワークロードバランサー**
 
-1. **役割配分を表示** アイコン ![ 役割配分を表示アイコン ](assets/show-role-allocation-icon.png) をクリックします。
+1. **役割配分を表示** アイコン ![&#x200B; 役割配分を表示アイコン &#x200B;](assets/show-role-allocation-icon.png) をクリックします。
 
    役割の配分パネルが表示されます。
 
-   ![ 予定時間数のみを含む役割割り当てパネル ](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![&#x200B; 予定時間数のみを含む役割割り当てパネル &#x200B;](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. **役割の割り当て** パネルで次の情報を確認します。
 

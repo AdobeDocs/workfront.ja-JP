@@ -62,7 +62,7 @@ Adobe Workfront の次のエリアで新しいプロジェクトを追加する�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -70,14 +70,14 @@ Adobe Workfront の次のエリアで新しいプロジェクトを追加する�
 
 1. 次のいずれかの操作を行います。
 
-   * 右上隅の **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![ メインメニューライン ](assets/lines-main-menu.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックし、**新規プロジェクト** を展開します。
+   * 右上隅の **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、左上隅の **メインメニュー**![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) をクリックし（使用可能な場合）、「**プロジェクト**」をクリックし、**新規プロジェクト** を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの「プロジェクト」セクションでプロジェクトを作成することもできます。詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**プロジェクトをリクエスト**」をクリックします。
 
-   ![ 新規プロジェクトドロップダウン ](assets/new-project-dropdown-nwe-350x358.png)
+   ![&#x200B; 新規プロジェクトドロップダウン &#x200B;](assets/new-project-dropdown-nwe-350x358.png)
 
 1. 次のいずれかの操作を行います。
 

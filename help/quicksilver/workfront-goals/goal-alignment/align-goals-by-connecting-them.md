@@ -159,7 +159,7 @@ Aligning goals by connecting them differs depending on what environment you use.
    「目標の整合性」セクションで目標 2 を目標 1 のサブとして関連付けた調整された目標が表示されます。
 子目標は、その進捗状況により親目標の進捗状況が更新されると、親目標の「進捗状況インジケーター」セクションに表示されます。
 
-   ![ 整列されたカード ](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![&#x200B; 整列されたカード &#x200B;](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. （オプション）「目標の整合性」セクションで目標を確認するには、Workfront の Goals 領域に移動したあと、左パネルの「**目標の整合性**」セクションをクリックします。「目標の整合性」セクションについては、[Adobe Workfront Goals の「目標の整合性」セクションのナビゲーション](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)を参照してください。
 

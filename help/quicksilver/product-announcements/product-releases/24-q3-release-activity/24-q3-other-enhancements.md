@@ -16,7 +16,7 @@ ht-degree: 15%
 
 このページでは、2024 年第 3 四半期リリースでプレビュー環境に加えられた機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
-2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
+2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
 
 ## 製品内ガイドのバックエンドの変更
 
@@ -63,4 +63,4 @@ Adobe Unified Experience には次の内容が含まれます。
 
 この変更には、チームとユーザーは含まれません。 ユーザーは、引き続きチーム名とユーザー名を表示できます。
 
-詳しくは、「オブジェクトの概要」の記事の [ オブジェクトへの制限されたアクセス ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) を参照し [!DNL Adobe Workfront] ください。
+詳しくは、「オブジェクトの概要」の記事の [&#x200B; オブジェクトへの制限されたアクセス &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) を参照し [!DNL Adobe Workfront] ください。

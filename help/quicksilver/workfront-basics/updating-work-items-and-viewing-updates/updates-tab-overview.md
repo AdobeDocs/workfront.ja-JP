@@ -130,9 +130,9 @@ Depending on what objects you access the commenting experience for, you might fi
 
 「更新」セクションの次のタブに情報が表示されます。
 
-* **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。オブジェクトの更新については、[ 作業の更新 ](../updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+* **コメント**：ユーザーが行ったコメントと、そのコメントに対する返信を表示します。「コメント」タブを使用して、新しいコメントを追加したり、既存のコメントに返信したりします。オブジェクトの更新については、[&#x200B; 作業の更新 &#x200B;](../updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 * **システムアクティビティ**：システムの更新を表示します。これは、オブジェクト上の特定のイベントを記録するためにWorkfrontが作成する情報メッセージです。 例えば、ステータス、名前またはカスタムフィールドの変更は、システム更新で取り込むことができます。Workfront またはグループ管理者は、オブジェクトのシステム更新を有効にすることができます。従来のコメント機能でシステムアクティビティレコードに対して行われた返信は、読み取り専用として「システムアクティビティ」タブに入力されます。 詳しくは、[システム更新の設定](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)を参照してください。
-* **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。これは表示専用のタブです。「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。オブジェクトの更新については、[ 作業の更新 ](../updating-work-items-and-viewing-updates/update-work.md) を参照してください。
+* **すべて (読み取り専用)**：ユーザーコメントとシステムアクティビティコメントの両方を 1 か所に表示します。これは表示専用のタブです。「すべて」タブでは、コメントに返信したり、既存のコメントに他のユーザーをタグ付けしたりすることはできません。特定のコメントに返信するには、「すべて」タブから「コメント」タブへのリンクを使用します。オブジェクトの更新については、[&#x200B; 作業の更新 &#x200B;](../updating-work-items-and-viewing-updates/update-work.md) を参照してください。
 
   >[!NOTE]
   >
@@ -169,13 +169,13 @@ Depending on what objects you access the commenting experience for, you might fi
 
    * ボード領域の接続されたカード
 
-     詳しくは、[ ボードでのコネクテッドカードの使用 ](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) を参照してください。
+     詳しくは、[&#x200B; ボードでのコネクテッドカードの使用 &#x200B;](/help/quicksilver/agile/get-started-with-boards/connected-cards.md) を参照してください。
 
 * 次のオブジェクトには、「システム」アクティビティタブに代わる「履歴」タブがあります。
 
    * Workfront Planning のレコード
 
-     詳しくは、[ 履歴セクションの概要 ](/help/quicksilver/planning/records/history-section-overview.md) を参照してください。
+     詳しくは、[&#x200B; 履歴セクションの概要 &#x200B;](/help/quicksilver/planning/records/history-section-overview.md) を参照してください。
 
 * 次のオブジェクトには「すべて」のタブがなく、「コメント」タブのエクスペリエンスはほとんどのオブジェクトと一致します。
 
@@ -354,4 +354,4 @@ Adobe Workfront 管理者とグループ管理者は、他のユーザーとし�
 * プロジェクトの過程で優先度が変更されたかどうか
 * プロジェクトの所有者が変更されたかどうか
 
-詳細については、[ 仕訳レポートを使用した更新領域のレポート ](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) を参照してください。
+詳細については、[&#x200B; 仕訳レポートを使用した更新領域のレポート &#x200B;](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md) を参照してください。

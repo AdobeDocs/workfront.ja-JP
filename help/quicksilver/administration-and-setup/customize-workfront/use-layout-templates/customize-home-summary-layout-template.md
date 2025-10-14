@@ -77,7 +77,7 @@ ht-degree: 55%
 
 1. [レイアウトテンプレートを作成と管理](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md)で説明されるように、レイアウトテンプレート上での作業を開始します。
 
-1. ![ ユーザーの表示項目をカスタマイズ ](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、**概要パネル** をクリックします。
+1. ![&#x200B; ユーザーの表示項目をカスタマイズ &#x200B;](assets/dropdown-arrow.png) の下の下向き矢印 **下向き矢印** をクリックし、**概要パネル** をクリックします。
 
 1. 下に表示されるリストで、概要パネルをカスタマイズするオブジェクトタイプをクリックします。
 
@@ -132,15 +132,15 @@ ht-degree: 55%
 
 1. （条件付き）前の手順で「タスク」または「イシュー」をクリックした場合は、カスタマイズするタスクまたはイシューのカテゴリを選択します。
 
-   ![ カスタマイズするカテゴリを選択 ](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![&#x200B; カスタマイズするカテゴリを選択 &#x200B;](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. （条件付き） **プライマリアクションを設定** ボタン ドロップダウンメニューが表示された場合（左側のリストで **タスク** または **イシュー** を選択した場合）、ユーザーがタスクまたはイシューを表示したときに概要パネルで使用できるプライマリアクション（**完了** または **ステータス**）をクリックします。
 
-   ![ プライマリアクションを設定 ](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![&#x200B; プライマリアクションを設定 &#x200B;](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. 選択したオブジェクトタイプのフィールドを追加 ![ 項目を追加 ](assets/add-item-plus-in-circle-blue.png) または非表示 ![ 項目を非表示 ](assets/close-or-hide---x.png) にします。
+1. 選択したオブジェクトタイプのフィールドを追加 ![&#x200B; 項目を追加 &#x200B;](assets/add-item-plus-in-circle-blue.png) または非表示 ![&#x200B; 項目を非表示 &#x200B;](assets/close-or-hide---x.png) にします。
 
-   ![ フィールドの追加と非表示 ](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![&#x200B; フィールドの追加と非表示 &#x200B;](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. 手順 3～6 を繰り返し、他のオブジェクトタイプの概要パネルをカスタマイズします。
 1. 左下隅付近の **グローバル設定** をクリックし、概要のAdobe Workfront オブジェクトに関連する次のオプションのいずれかを有効または無効にします。

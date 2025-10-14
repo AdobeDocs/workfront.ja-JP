@@ -49,7 +49,7 @@ ht-degree: 97%
 
 ## 既存のレポートに関するレポートの作成 {#create-the-report-about-existing-reports}
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックします。
 1. 「**レポート**」をクリックし、次に「**新規報告書**」を選択します。
 1. **新規報告書**&#x200B;ドロップダウンメニューで、「**レポート**」を選択して、既存のレポートに関するレポートを作成します。
 

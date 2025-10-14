@@ -76,11 +76,11 @@ Workfront は、プロジェクトでの担当業務の予算計上労力コス�
 
 * [!UICONTROL **予算計上労力コスト**]：ビジネスケースのリソース予算計上エリアでのそれぞれの役割下。
 
-  ![ ビジネスケースの予算計上労力コスト ](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
+  ![&#x200B; ビジネスケースの予算計上労力コスト &#x200B;](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
 * [!UICONTROL **BDG**]：プロジェクトおよび役割ビューで情報をコスト別に表示する場合のリソースプランナー。
 
-  ![ リソース計画の予算計上労力コスト ](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
+  ![&#x200B; リソース計画の予算計上労力コスト &#x200B;](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
 次の要件を満たす場合、ユーザーは、ビジネスケースのリソース予算計上エリアで、それぞれの役割の下またはリソースプランナーに表示されます。
 

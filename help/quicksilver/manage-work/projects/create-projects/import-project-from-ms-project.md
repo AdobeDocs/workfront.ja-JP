@@ -100,14 +100,14 @@ You must have the following access to perform the steps in this article:
 1. Workfront にログインします。
 1. 次のいずれかの操作を行います。
 
-   * Workfrontの右上隅にある **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、左上隅にある **メインメニュー**![ メインメニューライン ](assets/lines-main-menu.png) をクリックします（使用可能な場合）。**プロジェクト** をクリックしてから、**新規プロジェクト** を展開します。
+   * Workfrontの右上隅にある **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、左上隅にある **メインメニュー**![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) をクリックします（使用可能な場合）。**プロジェクト** をクリックしてから、**新規プロジェクト** を展開します。
    * ポートフォリオに移動し、**新規プロジェクト**&#x200B;を展開します。
    * プログラムに移動し、「**新規プロジェクト**」を展開します。
    * グループ管理者の場合は、管理するグループの **プロジェクト** セクションでプロジェクトを作成できます。 詳しくは、[グループのプロジェクトの作成および変更](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md)を参照してください。
 
 1. 「**MS Project をインポート**」をクリックします。 **MS ファイルのインポート** ダイアログボックスが表示されます。
 
-   ![ 新規プロジェクトドロップダウン ](assets/import-ms-project-option.png)
+   ![&#x200B; 新規プロジェクトドロップダウン &#x200B;](assets/import-ms-project-option.png)
 
 1. **ファイルを選択** をクリックして、Microsoft Project から書き出した.xml ファイルを参照します。
 1. 選択したファイルを読み込みます。 Workfront によって読み込み処理が開始され、Microsoft Project から書き出されたファイルに基づいて新しいプロジェクトが作成されます。

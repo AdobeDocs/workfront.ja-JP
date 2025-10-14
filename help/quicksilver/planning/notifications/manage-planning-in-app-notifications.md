@@ -22,7 +22,7 @@ ht-degree: 16%
 
 * 誰かがあなたまたはチームをレコードコメントでタグ付けします
 
-  レコードコメント内の他のタグ付けについて詳しくは、[ レコードコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
+  レコードコメント内の他のタグ付けについて詳しくは、[&#x200B; レコードコメントの管理 &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md) を参照してください。
 * 他のユーザーから、ビューまたはワークスペースにアクセスする許可を要求されています
 * ビューまたはワークスペース <!--Isk confirmed there is no notification for denying permissions - did not test--> ーバーへのアクセスが許可されたことを確認するメッセージが表示されます
 
@@ -160,9 +160,9 @@ OLD:
 
 ## コメントで誰かがあなたをタグ付けしたとき、アプリ内通知を管理します
 
-1. （条件付き）誰かがレコードのコメントで自分またはチームをタグ付けした後、Adobe Experience Cloudのアプリ内 **通知** アイコン ![Experience Cloud 通知アイコン ](assets/experience-cloud-notifications-icon.png) に移動します。
+1. （条件付き）誰かがレコードのコメントで自分またはチームをタグ付けした後、Adobe Experience Cloudのアプリ内 **通知** アイコン ![Experience Cloud 通知アイコン &#x200B;](assets/experience-cloud-notifications-icon.png) に移動します。
 
-   ![ アプリ内通知の例 ](assets/in-app-notification-example.png)
+   ![&#x200B; アプリ内通知の例 &#x200B;](assets/in-app-notification-example.png)
 
 1. 通知をクリックします。
 
@@ -175,6 +175,6 @@ OLD:
 
 ビューやワークスペースに対する権限を要求または付与された場合、アプリ内通知を受け取ります。
 
-ビューまたはワークスペースに対する権限の要求、付与、または拒否の詳細については、[ ビューまたはワークスペースに対する権限の要求 ](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
+ビューまたはワークスペースに対する権限の要求、付与、または拒否の詳細については、[&#x200B; ビューまたはワークスペースに対する権限の要求 &#x200B;](/help/quicksilver/planning/access/request-permissions.md) を参照してください。
 
-Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 ](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。
+Adobe Workfront Planning 通知の管理については、[Workfront Planning 通知環境設定の管理 &#x200B;](/help/quicksilver/planning/notifications/manage-notification-preferences.md) を参照してください。

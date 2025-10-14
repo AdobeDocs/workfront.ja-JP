@@ -26,7 +26,7 @@ Workfront Planning には、ワークスペースの作成時に基本的なレ�
 
 ## Adobe Workfront Planning テンプレートに関する考慮事項
 
-* 各テンプレートには、一連のレコードタイプが用意されています。詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
+* 各テンプレートには、一連のレコードタイプが用意されています。詳しくは、[&#x200B; レコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 * 各テンプレートのレコードタイプは、次のセクションで整理されます。
 
    * 運用中のレコードタイプ

@@ -34,4 +34,4 @@ ht-degree: 97%
 
 設定／カスタムフォームエリアの「フォーム」タブ、「フィールド」タブおよび「セクション」タブを、Workfront のその他のエリアと一貫性のある、より現代的なデザインに更新しました。左側のナビゲーションメニューから、これら 3 つのエリアにアクセスできるようになりました。リストに対して、フィルター、ビューおよびグループ化を引き続き使用できます。新しいフォームデザイナーと従来のフォームビルダーの両方で作成されたカスタムフォーム、フィールドおよびセクションに、更新されたデザインが適用されます。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。

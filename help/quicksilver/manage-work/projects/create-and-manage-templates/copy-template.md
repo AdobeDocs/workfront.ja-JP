@@ -49,7 +49,7 @@ ht-degree: 41%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -77,11 +77,11 @@ ht-degree: 41%
 <!--ensure steps and casing on the fields and buttons is accurate with unshim-->
 
 1. コピーするテンプレートに移動します。
-1. ヘッダーのテンプレート名の右側にある **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックし、「**コピー**」をクリックします。
+1. ヘッダーのテンプレート名の右側にある **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックし、「**コピー**」をクリックします。
 
    「**テンプレートをコピー**」ボックスが開きます。
 
-   ![ 「テンプレートをコピー」ボックス ](assets/copy-template-box.png)
+   ![&#x200B; 「テンプレートをコピー」ボックス &#x200B;](assets/copy-template-box.png)
 
 1. 「**新しいテンプレート名**」フィールドにテンプレートの名前を指定します。
 

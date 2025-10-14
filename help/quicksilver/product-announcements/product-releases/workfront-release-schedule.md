@@ -97,4 +97,4 @@ Workfront では、ベータ版プログラムの一環として新機能をリ�
 
 例：
 
-![ リリースノートの例 ](assets/release-notes-350x189.png)
+![&#x200B; リリースノートの例 &#x200B;](assets/release-notes-350x189.png)

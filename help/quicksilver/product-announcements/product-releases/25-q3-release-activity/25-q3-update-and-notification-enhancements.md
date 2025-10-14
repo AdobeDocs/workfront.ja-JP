@@ -15,7 +15,7 @@ ht-degree: 9%
 
 このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するすべての更新と通知の機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
-2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
 
 >[!IMPORTANT]
 >

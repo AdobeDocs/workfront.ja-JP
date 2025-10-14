@@ -714,7 +714,7 @@ The following functionality is soon to be removed from Workfront:
 
 >[!IMPORTANT]
 >
->Workfront Fusion のドキュメントが新しい場所に移動されました。 Fusion の情報、手順、リリースについては、[Workfront Fusion ドキュメント ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) を参照してください。
+>Workfront Fusion のドキュメントが新しい場所に移動されました。 Fusion の情報、手順、リリースについては、[Workfront Fusion ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) を参照してください。
 >
 >現在の Fusion ドキュメントの各記事には、新しい場所にある対応する記事へのリンクが含まれています。 ブックマークを更新してください。
 >
@@ -724,7 +724,7 @@ Workfront Fusion の新機能は、2025年第 1 四半期のリリーススケ�
 
 ### Workfront計画の機能強化
 
-Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront計画第 1 四半期 2025 リリースアクティビティ ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md) を参照してください。
+Workfront Planning の新機能を実稼動環境で使用できます。 最新機能について詳しくは、[Adobe Workfront計画第 1 四半期 2025 リリースアクティビティ &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md) を参照してください。
 
 ### Workfront シナリオプランナーの機能強化
 

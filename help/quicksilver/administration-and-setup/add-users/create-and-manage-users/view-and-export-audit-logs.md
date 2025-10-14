@@ -25,7 +25,7 @@ ht-degree: 55%
 
 監査ログには、過去 90 日間にシステムでトリガーされたユーザーの変更がリストされます。
 
-すべての監査ログタイプとその生成内容について詳しくは、[ 監査ログの概要 ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
+すべての監査ログタイプとその生成内容について詳しくは、[&#x200B; 監査ログの概要 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
 
 ## アクセス要件
 
@@ -74,7 +74,7 @@ ht-degree: 55%
 
    デフォルトでは、「**すべてのログタイプ**」が選択されています。
 
-   表示できるすべての監査ログタイプと、それらが含む情報のリストについては、[ 監査ログの概要 ](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
+   表示できるすべての監査ログタイプと、それらが含む情報のリストについては、[&#x200B; 監査ログの概要 &#x200B;](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) を参照してください。
 
 1. （オプション）次のフィールドに使用可能なフィルターを設定します。
 

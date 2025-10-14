@@ -139,7 +139,7 @@ ht-degree: 99%
 
       「**プルーフ作成日時**」、「**指定日時**」または「**手動**」のオプションを使用すると、前の手順で発生した内容に応じたオプションを選択できます。
 
-      ![ ステージオプションをアクティベート ](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![&#x200B; ステージオプションをアクティベート &#x200B;](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. 前の手順で発生した内容に応じて「ステージをアクティベート」オプションを選択した場合は、表示されるオプションを使用してアクティベーション設定を指定します。
 
@@ -149,7 +149,7 @@ ht-degree: 99%
 
    ステージを自動化ワークフローに追加すると、画面にステージを表すダイアグラムが表示されます。
 
-   ![ ステージ図 ](assets/stages-diagram-350x213.png)
+   ![&#x200B; ステージ図 &#x200B;](assets/stages-diagram-350x213.png)
 
 1. 次の[プルーフのメール設定を指定](#configure-email-settings-for-the-proof)を続行します。
 
@@ -230,6 +230,6 @@ ht-degree: 99%
 
 1. プルーフが生成されたら、「**プルーフを開く**」をクリックして、プルーフビューアを起動します。
 
-   ![ プルーフを開く ](assets/open-proof-350x132.png)
+   ![&#x200B; プルーフを開く &#x200B;](assets/open-proof-350x132.png)
 
    自分のアカウントでプルーフが有効になっていないユーザーでも、ドキュメントを表示し、プルーフにコメントを付けることができます[。](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

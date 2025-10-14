@@ -25,7 +25,7 @@ Adobe Workfront の一部のオブジェクトでは、リッチテキスト形�
 
 リッチテキスト形式のカスタムフィールドは、リッチテキスト付きフィールドと呼ばれ、次の値を関連付けることができます。
 
-![ リッチテキストの例 ](assets/rich-text-example-350x158.png)
+![&#x200B; リッチテキストの例 &#x200B;](assets/rich-text-example-350x158.png)
 
 例：リッチテキストカスタムフォームフィールドを含むフィールドの値を取得する基本的なGET リクエスト：
 
@@ -50,7 +50,7 @@ Adobe Workfront の一部のオブジェクトでは、リッチテキスト形�
 
 例：この例では、カスタムフィールドの各行のテキストは、配列ブロック内のブロック要素にマッピングされています。
 
-![ リッチテキストマッピング ](assets/copy-of-rich-text-mapping-350x159.png)
+![&#x200B; リッチテキストマッピング &#x200B;](assets/copy-of-rich-text-mapping-350x159.png)
 
 各ブロック要素も JSON オブジェクトなので、各ブロックは、key、text、type、depth、inlineStyleRanges、entityRanges、data の要素で構成されます。 これらの各要素は、次のように機能します。
 
@@ -63,7 +63,7 @@ Adobe Workfront の一部のオブジェクトでは、リッチテキスト形�
 
 例：文字レベルで各スタイルを説明する inlineStyleRanges 配列を示します。 この場合、インデックス 0 （オフセット：0）から始まる 9 文字（長さ：9）には、スタイル Bold が適用されています。
 
-![ リッチテキストマッピング ](assets/copy-of-rich-text-mapping-2-350x136.png)
+![&#x200B; リッチテキストマッピング &#x200B;](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 1 行に複数の種類の書式が適用されている場合、スタイルは inlineStyleRanges 配列の追加の要素にマップされます。
 

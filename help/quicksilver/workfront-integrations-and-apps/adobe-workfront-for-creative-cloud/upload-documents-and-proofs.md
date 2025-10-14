@@ -43,7 +43,7 @@ ht-degree: 98%
 
 1. **書き出しファイル設定を指定**&#x200B;ダイアログボックスを開きます。
 
-   ![ ファイル書き出し設定 ](assets/file-export-settings.png)
+   ![&#x200B; ファイル書き出し設定 &#x200B;](assets/file-export-settings.png)
 
 1. 書き出すアセットタイプを見つけ、以下のように設定を調整します。
 

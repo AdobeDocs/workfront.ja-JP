@@ -79,7 +79,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
    プロジェクトのリストが表示されます。
 
-1. 画面の右上隅にある **[!UICONTROL ガントチャート]** アイコン ![ ガントアイコン ](assets/gantt-icon-nwe.png) をクリックします。
+1. 画面の右上隅にある **[!UICONTROL ガントチャート]** アイコン ![&#x200B; ガントアイコン &#x200B;](assets/gantt-icon-nwe.png) をクリックします。
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: images conditioned for classic and nwe) <br></p>
@@ -113,7 +113,7 @@ Workfront 内の複数の領域から、タスクリストガントチャート�
 
 1. [!UICONTROL ガントチャート]で、時間枠ドロップダウンメニューをクリックします。
 
-   ![ タイムラインオプション ](assets/timeline-options.png)
+   ![&#x200B; タイムラインオプション &#x200B;](assets/timeline-options.png)
 
 1. 次の利用可能なオプションから時間枠を選択します。
 

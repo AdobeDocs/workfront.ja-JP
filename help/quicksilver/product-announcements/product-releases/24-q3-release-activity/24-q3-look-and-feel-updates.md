@@ -28,7 +28,7 @@ ht-degree: 48%
 
 割り当て提案リストを、Workfrontのすべての領域で一貫した、より現代的なデザインに更新しました。 ヘッダー、リスト表示または詳細割り当て画面からタスクまたは問題に割り当てを追加した場合、エクスペリエンスは同じです。 提案はセクションに分かれているので、割り当てに適した人物、チーム、担当業務をすばやく見つけることができます。
 
-詳しくは、[ タスクの割り当て ](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)、[ イシューの割り当て ](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) および [ 高度な割り当ての作成 ](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) を参照してください。
+詳しくは、[&#x200B; タスクの割り当て &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md)、[&#x200B; イシューの割り当て &#x200B;](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md) および [&#x200B; 高度な割り当ての作成 &#x200B;](/help/quicksilver/manage-work/tasks/assign-tasks/create-advanced-assignments.md) を参照してください。
 
 ## ドキュメント詳細のカスタムフォームのルックアンドフィールの更新
 
@@ -38,7 +38,7 @@ ht-degree: 48%
 
 ドキュメントの詳細/ カスタム Forms ページを、Workfrontの他の領域と一致する、より現代的なデザインに更新しました。 ページでは、外部検索フィールドなどの高度なカスタムフォーム機能がサポートされるようになりました。
 
-詳しくは、[ ドキュメントの詳細の概要 ](/help/quicksilver/documents/managing-documents/document-details-overview.md) を参照してください。
+詳しくは、[&#x200B; ドキュメントの詳細の概要 &#x200B;](/help/quicksilver/documents/managing-documents/document-details-overview.md) を参照してください。
 
 ## イテレーションの詳細に関するカスタムフォームのルックアンドフィールの更新
 
@@ -48,7 +48,7 @@ ht-degree: 48%
 
 イテレーションの詳細/ カスタム Forms ページを更新して、Workfrontの他の領域と一致する、より現代的なデザインに変更しました。 ページでは、外部検索フィールドなどの高度なカスタムフォーム機能がサポートされるようになりました。
 
-詳しくは、[ 反復でのアジャイルストーリーの作成 ](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md) を参照してください。
+詳しくは、[&#x200B; 反復でのアジャイルストーリーの作成 &#x200B;](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md) を参照してください。
 
 ## 「グループ」領域のルックアンドフィールの更新
 
@@ -58,7 +58,7 @@ ht-degree: 48%
 
 設定/ グループ エリアの主なグループ リストを、Workfrontの他のエリアと一致する、より現代的なデザインに更新しました。 グループやサブグループのすべてのダイアログ（追加、編集、コピー、ディアクティベート、削除）は、グループ リストでアクセスしても、特定のグループやサブグループの詳細メニューでアクセスしても、デザインが更新されます。
 
-詳しくは、[ グループの作成 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) および [ グループの管理 ](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md) を参照してください。
+詳しくは、[&#x200B; グループの作成 &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) および [&#x200B; グループの管理 &#x200B;](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md) を参照してください。
 
 ## 為替レートリストのルックアンドフィールの更新
 

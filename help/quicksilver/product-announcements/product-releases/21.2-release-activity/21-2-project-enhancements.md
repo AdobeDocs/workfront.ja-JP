@@ -83,7 +83,7 @@ ht-degree: 99%
 * [プロジェクトの編集](../../../manage-work/projects/manage-projects/edit-projects.md)
 * [タスクの編集](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 
-![ プロジェクトを編集の例 ](assets/pasted-image-4-5-2021-0-350x278.png)
+![&#x200B; プロジェクトを編集の例 &#x200B;](assets/pasted-image-4-5-2021-0-350x278.png)
 
 ## カスタムフォームの機能強化
 

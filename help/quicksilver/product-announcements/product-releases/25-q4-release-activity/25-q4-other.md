@@ -54,4 +54,4 @@ Workfront管理者には、組織がAdobe統合エクスペリエンスに移行
 * 自分の要求ウィジェット
 * 優先度
 
-詳しくは、[ 拡張リストの使用 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。
+詳しくは、[&#x200B; 拡張リストの使用 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/enhanced-lists.md) を参照してください。

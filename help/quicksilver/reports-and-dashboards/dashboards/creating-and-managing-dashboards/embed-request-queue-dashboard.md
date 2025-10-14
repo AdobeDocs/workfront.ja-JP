@@ -100,7 +100,7 @@ ht-degree: 97%
 
    これにより、リクエストキューまたはキュートピックへのリンクが、画面に表示された状態でコピーされます。ユーザーは、リクエストタイプ、または利用可能なトピックグループおよびキュートピックを更新できます。
 
-   ![ 共有パスを使用したリクエストキュー ](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![&#x200B; 共有パスを使用したリクエストキュー &#x200B;](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### リクエストキューへのリンクとリクエストタイプを変更できる機能を取得 {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ ht-degree: 97%
 
    ユーザーは、必要なトピックグループやキュートピックを選択したり、別のリクエストタイプを選択したりすることができます。
 
-   ![ リクエストキューの URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![&#x200B; リクエストキューの URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### リクエストタイプを変更できないリクエストキューへのリンクを取得 {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ ht-degree: 97%
 
    ユーザーは、選択したリクエストタイプに必要な任意のトピックグループまたはキューのトピックを選択できます。別のリクエストタイプは選択できません。
 
-   ![ リクエストキューコード ](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![&#x200B; リクエストキューコード &#x200B;](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## ダッシュボードへのリクエストキューの埋め込み
 
@@ -164,7 +164,7 @@ ht-degree: 97%
 
 1. 「**外部ページを追加**」をクリックします。
 
-   ![ 外部ページ ](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![&#x200B; 外部ページ &#x200B;](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. 「**外部ページを追加**」ボックスで、次のフィールドを編集します。
 

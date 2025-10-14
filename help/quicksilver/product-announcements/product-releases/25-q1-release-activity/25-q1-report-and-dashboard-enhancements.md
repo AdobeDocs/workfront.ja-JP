@@ -41,7 +41,7 @@ Data Connect で以下のエンティティのサポートを追加しました�
 * 労力以外のリソースカテゴリ
 * ユーザーの場所
 
-詳しくは、[Workfront Data Connect データディクショナリ ](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) を参照してください。
+詳しくは、[Workfront Data Connect データディクショナリ &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md) を参照してください。
 
 ## ダッシュボード内の報告書、外部ページ、またはカレンダー 25 件の制限
 
@@ -53,7 +53,7 @@ Data Connect で以下のエンティティのサポートを追加しました�
 
 既存のダッシュボードがこの上限を超えると、最上位の 25 個の項目のみが表示されることを警告するメッセージが表示され、一度ダッシュボードを編集すると、含まれる項目数が 25 個以下に減らされるまでダッシュボードは保存できません。
 
-詳しくは、[ ダッシュボードの作成 ](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) を参照してください。
+詳しくは、[&#x200B; ダッシュボードの作成 &#x200B;](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) を参照してください。
 
 ## データ接続の初回リーダーアカウント作成ボタン
 
@@ -63,4 +63,4 @@ Data Connect で以下のエンティティのサポートを追加しました�
 
 Data Connect に初めてアクセスする管理者には、1 回クリックして新しいSnowflakeリーダーアカウントを作成するオプションが表示されるようになりました。 このプロセスが完了するまでに数分かかりますが、それ以上のアクションは必要ありません。
 
-データ接続のセットアップの詳細については、「[Snowflake用のリーダーアカウントを作成する ](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)」を参照してください。
+データ接続のセットアップの詳細については、「[Snowflake用のリーダーアカウントを作成する &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)」を参照してください。

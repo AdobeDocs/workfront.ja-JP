@@ -66,7 +66,7 @@ ht-degree: 80%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. 表示する作業アイテムを選択します。
 
@@ -74,7 +74,7 @@ ht-degree: 80%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの **[!UICONTROL 詳細]** アイコン ![ 詳細 ](assets/details.png) をクリックして、以下を表示します。
+1. ナビゲーションバーの **[!UICONTROL 詳細]** アイコン ![&#x200B; 詳細 &#x200B;](assets/details.png) をクリックして、以下を表示します。
 
    * [!UICONTROL 説明]
    * [!UICONTROL 予定完了日]
@@ -87,7 +87,7 @@ ht-degree: 80%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. 表示する作業アイテムを選択します。
 
@@ -95,7 +95,7 @@ ht-degree: 80%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックし、ドキュメントをダブルクリックして表示します。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックし、ドキュメントをダブルクリックして表示します。
 
    * [!UICONTROL 説明]
    * [!UICONTROL ファイルタイプ]
@@ -108,7 +108,7 @@ ht-degree: 80%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. 表示する作業アイテムを選択します。
 
@@ -116,7 +116,7 @@ ht-degree: 80%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックし、プルーフをダブルクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックし、プルーフをダブルクリックします。
 
 1. サムネイルの右上隅にある矢印アイコンをクリックして、[!DNL Workfront] でプルーフの詳細を開きます。
 
@@ -126,7 +126,7 @@ ht-degree: 80%
 
 1. 右上にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. 表示する作業アイテムを選択します。
 
@@ -134,17 +134,17 @@ ht-degree: 80%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックし、プルーフをダブルクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックし、プルーフをダブルクリックします。
 
 1. 下部までスクロールして、プルーフの現在のステータスを表示します。送信済み、開封済み、コメント、決定（SOCD）の詳細については、 [ドキュメントの詳細の概要](/help/quicksilver/documents/managing-documents/document-details-overview.md)を参照してください。
 
-![ プルーフステータス ](assets/proof-status.png)
+![&#x200B; プルーフステータス &#x200B;](assets/proof-status.png)
 
 ## サブタスクとイシューの表示
 
 1. 右上にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
+   ![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)
 
 1. 表示する作業アイテムを選択します。
 
@@ -152,9 +152,9 @@ ht-degree: 80%
    >
    >**[!UICONTROL メニュー]**&#x200B;アイコンを使用して、作業アイテムの親オブジェクトに移動します。
 
-1. **[!UICONTROL イシュー]** アイコン ![ イシューアイコン ](assets/issues.png) または **サブタスク** アイコン ![ サブタスクアイコン ](assets/subtasks.png) をクリックします。
+1. **[!UICONTROL イシュー]** アイコン ![&#x200B; イシューアイコン &#x200B;](assets/issues.png) または **サブタスク** アイコン ![&#x200B; サブタスクアイコン &#x200B;](assets/subtasks.png) をクリックします。
 
-1. タスクまたは問題を選択し、ナビゲーションバーの **[!UICONTROL 詳細]** アイコン ![ 詳細 ](assets/details.png) をクリックして、以下を表示します。
+1. タスクまたは問題を選択し、ナビゲーションバーの **[!UICONTROL 詳細]** アイコン ![&#x200B; 詳細 &#x200B;](assets/details.png) をクリックして、以下を表示します。
 
    * [!UICONTROL 予定完了日]
    * [!UICONTROL ステータス]

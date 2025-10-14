@@ -35,7 +35,7 @@ ht-degree: 86%
 
 >[!TIP]
 >
->カスタムフィールドのテキストモードのバージョンを使用することによって、計算カスタムフィールドの機能を拡張することもできます。計算カスタムフィールドを作成するための構文とルールは、レポートやリストで使用するものとは異なります。計算カスタムフィールドの追加について詳しくは、[ 計算フィールドのフォームへの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+>カスタムフィールドのテキストモードのバージョンを使用することによって、計算カスタムフィールドの機能を拡張することもできます。計算カスタムフィールドを作成するための構文とルールは、レポートやリストで使用するものとは異なります。計算カスタムフィールドの追加について詳しくは、[&#x200B; 計算フィールドのフォームへの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 * レポートでテキストモードの使用を開始する前に、テキストモードの言語をより深く理解するために、高度なレポートに関するクラスを受講することを強くお勧めします。
 * Workfront ソフトウェアのアップデート後も作成したレポートがそのまま残るように、標準モードを使用することをお勧めします。テキストモードでは、より複雑な表示、フィルター、グループ化を作成できますが、メンテナンスがより複雑になるため、Workfront ソフトウェアの更新時に保証されません。

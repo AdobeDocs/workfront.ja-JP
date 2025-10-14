@@ -16,7 +16,7 @@ ht-degree: 2%
 
 このページでは、2024 年第 3 四半期のリリースで行われた、プレビュー環境に対するすべての financial management の機能強化について説明します。 これらの機能強化は、2024 年第 3 四半期リリースの実稼動環境で利用できるようになります。
 
-2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
+2024 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2024 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md) を参照してください。
 
 ## プロジェクトおよびタスクに使用できる請求可能および請求不可の費用フィールド
 
@@ -35,4 +35,4 @@ ht-degree: 2%
 
 請求可能な費用は、顧客に対して請求可能としてマークされます。 請求不可の費用は請求可能としてマークされていません。
 
-費用を請求可能としてマークする方法について詳しくは、[ プロジェクト費用の管理 ](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md) を参照してください。
+費用を請求可能としてマークする方法について詳しくは、[&#x200B; プロジェクト費用の管理 &#x200B;](/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md) を参照してください。

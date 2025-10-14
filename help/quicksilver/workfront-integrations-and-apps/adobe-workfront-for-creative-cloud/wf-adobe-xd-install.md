@@ -75,7 +75,7 @@ ht-degree: 83%
 
 [!DNL Adobe Exchange] から自分用に [!DNL Adobe Workfront for XD] プラグインをインストールできます。
 
-1. Adobe Exchange の [Adobe Workfront for XD のインストールページ](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&amp;workflow=share)に移動します。
+1. Adobe Exchange の [Adobe Workfront for XD のインストールページ](https://exchange.adobe.com/apps/cc/4c3566f9?pluginId=4c3566f9&workflow=share)に移動します。
 1. 表示されるダイアログで、「**[!DNL Adobe Creative Cloud] デスクトップアプリを開く**」をクリックします。
 1. [!DNL Adobe XD] プラグインマネージャーを開いたら、「**[!UICONTROL インストール]**」をクリックします。
 1. ダイアログボックスの情報を読み、「**[!UICONTROL OK]**」をクリックします。
@@ -89,7 +89,7 @@ ht-degree: 83%
 
 1. 左下隅で、**プラグイン**&#x200B;アイコンをクリックします。
 
-![XD プラグインウィンドウ ](assets/xd-plugin-window-350x620.png)
+![XD プラグインウィンドウ &#x200B;](assets/xd-plugin-window-350x620.png)
 
 1. **[!UICONTROL プラグインパネル]**&#x200B;で、**[!UICONTROL Adobe Workfront for XD]** を検索します。
 
@@ -103,7 +103,7 @@ ht-degree: 83%
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開いて [!DNL Workfront] インスタンスに移動し、次の URL の最初の部分をコピーします。\
-   >![ ドメインの検索 ](assets/domain-350x50.png)
+   >![&#x200B; ドメインの検索 &#x200B;](assets/domain-350x50.png)
    >
    > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 
@@ -129,7 +129,7 @@ ht-degree: 83%
 
 `experience.adobe.com` で始まる URL を使用してプラグインにログインすることはできません。
 
-![ ログインエラー ](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
+![&#x200B; ログインエラー &#x200B;](assets/plugin-log-in-error.png) ![domain](assets/incorrect-domain.png)
 
 
 この問題を修正するには、

@@ -106,21 +106,21 @@ Workfront Planning で次のアクションが発生した場合、アプリ内�
 
 Workfrontの計画通知の詳細については、次の記事も参照してください。
 
-* レコードのコメントの詳細については、「[ レコードのコメントの管理 ](/help/quicksilver/planning/records/manage-record-comments.md)」を参照してください。
-* Adobe Workfront Planning からのアプリ内通知について詳しくは、[Workfront Planning のアプリ内通知の管理 ](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md) を参照してください。
-* Adobe Workfront Planning からのメール通知については、[Workfront Planning のメール通知の管理 ](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md) を参照してください。
+* レコードのコメントの詳細については、「[&#x200B; レコードのコメントの管理 &#x200B;](/help/quicksilver/planning/records/manage-record-comments.md)」を参照してください。
+* Adobe Workfront Planning からのアプリ内通知について詳しくは、[Workfront Planning のアプリ内通知の管理 &#x200B;](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md) を参照してください。
+* Adobe Workfront Planning からのメール通知については、[Workfront Planning のメール通知の管理 &#x200B;](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md) を参照してください。
 
 
 ## 通知設定の管理
 
 1. Adobe Experience Cloudの資格情報を使用してWorkfrontにログインします。
-1. 画面右上の **アカウントメニュー** アイコン ![Experience Cloudのアカウントメニューアイコン ](assets/account-menu-icon-on-experience-cloud.png) をクリックし、**環境設定** をクリックします。
+1. 画面右上の **アカウントメニュー** アイコン ![Experience Cloudのアカウントメニューアイコン &#x200B;](assets/account-menu-icon-on-experience-cloud.png) をクリックし、**環境設定** をクリックします。
 1. 「**通知**」セクションで、「**Workfront**」をクリックします。
 1. 受信する通知を選択します。
 または
 受信停止する通知の選択を解除します。
 
-   ![Workfront Planning のAdobe Experience Cloud通知パネル ](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+   ![Workfront Planning のAdobe Experience Cloud通知パネル &#x200B;](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
 1. Workfrontでは、次の通知を利用できます。
 
    * **メンション**:Workfront Planning で誰かがあなたまたは自分のチームのコメントをタグ付けすると、通知が届きます
@@ -131,7 +131,7 @@ Workfrontの計画通知の詳細については、次の記事も参照して�
       * 自分が送信したWorkfront計画リクエストのステータスが変わる
       * Workfront計画リクエストに対する承認を要求、付与または却下
 
-   通知の管理について詳しくは、[ アカウント環境設定と通知 ](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences) を参照してください。
+   通知の管理について詳しくは、[&#x200B; アカウント環境設定と通知 &#x200B;](https://experienceleague.adobe.com/ja/docs/core-services/interface/features/account-preferences) を参照してください。
 
 <!--OLD: notifications are not available to non-IMS customers: 
 

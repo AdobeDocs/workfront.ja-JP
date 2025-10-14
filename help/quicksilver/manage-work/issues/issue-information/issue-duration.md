@@ -23,4 +23,4 @@ ht-degree: 97%
 
 レポートの作成について詳しくは、[カスタムレポートの作成](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md)を参照してください。
 
-![ 問題期間の表示 ](assets/nwe-issue-duration-view-highlighted-350x73.png)
+![&#x200B; 問題期間の表示 &#x200B;](assets/nwe-issue-duration-view-highlighted-350x73.png)

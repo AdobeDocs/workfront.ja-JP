@@ -96,7 +96,7 @@ Adobe Workfront でのリソースプランの概要について詳しくは、[
 >次の前提条件のいずれかが満たされていない場合、リソースの配分または空き時間に関する情報の一部が欠落しているか、値がゼロになることがあります。\
 >フィールドにデータが欠落している、または値がゼロである理由を詳しく理解するには、フィールドにポインタを合わせます。
 
-![ この役割を持ったユーザーはいません ](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![&#x200B; この役割を持ったユーザーはいません &#x200B;](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -192,7 +192,7 @@ Adobe Workfront でのリソースプランの概要について詳しくは、[
 
 Workfront のインスタンスが、システムのリソース管理の環境設定に従ってユーザーの空き時間を計算する方法を理解する必要があります。Workfront は、ユーザープロファイルページで定義されたユーザーのスケジュール、またはシステムのデフォルトスケジュールを使用して、ユーザーの空き時間を計算できます。
 
-![ 管理環境設定 ](assets/resource-management-preferences-section-in-setup-350x89.png)
+![&#x200B; 管理環境設定 &#x200B;](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 Workfront 管理者がリソース管理の環境設定を指定します。
 

@@ -28,7 +28,7 @@ ht-degree: 99%
 * プロジェクトやタスクの表示
 * その他
 
-[ [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインで利用できる機能の概要ビデオを見る](https://video.tv.adobe.com/v/3418801/){target=_blank}
+[&#x200B; [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインで利用できる機能の概要ビデオを見る](https://video.tv.adobe.com/v/3418801/){target=_blank}
 
 ## プラグインのインストールと使用
 
@@ -38,9 +38,9 @@ ht-degree: 99%
 
 プラグインの使用およびインストール方法については、次のリソースを参照してください。
 
-* [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
-* [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用した作業の管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
-* [ [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用したドキュメントとプルーフのアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
+* [&#x200B; [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインのインストール](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md)
+* [&#x200B; [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用した作業の管理](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md)
+* [&#x200B; [!DNL Creative Cloud] アプリケーション用 [!DNL Adobe Workfront] プラグインを使用したドキュメントとプルーフのアップロード](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-docs-proofs-toc.md)
 * [ビデオチュートリアル： [!DNL Creative Cloud] 用 [!DNL Adobe Workfront] プラグインの使用](https://experienceleague.adobe.com/ja/docs/workfront-learn/tutorials-workfront/integrations/adobe-creative-cloud/use-adobe-workfront-extensions-for-creative-cloud)
 * [ビデオチュートリアル：パッケージの作成と管理、アップデートのデプロイ、インストールエラーのトラブルシューティング](https://www.youtube.com/watch?v=zzvXNLIBzrc)
 

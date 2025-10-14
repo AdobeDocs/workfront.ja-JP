@@ -30,4 +30,4 @@ Adobe Workfront モバイルアプリのプルーフ機能には、次の複数�
 * モバイルアプリでマルチメディアプルーフファイルがサポートされるようになりました。
 
 
-詳しくは、[Adobe Workfront モバイルアプリでのプルーフの確認と決定 ](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md) を参照してください。
+詳しくは、[Adobe Workfront モバイルアプリでのプルーフの確認と決定 &#x200B;](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md) を参照してください。

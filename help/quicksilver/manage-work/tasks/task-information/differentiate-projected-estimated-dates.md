@@ -29,7 +29,7 @@ ht-degree: 87%
 
 タスクを最初に作成する際は、通常、予定日、見込日、および推測日を一致させる必要があります。例外がいくつかあります。
 
-Workfrontのプロジェクト、タスク、問題の日付について詳しくは、[Adobe Workfrontのプロジェクト、タスク、問題の日付の概要 ](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md) を参照してください。
+Workfrontのプロジェクト、タスク、問題の日付について詳しくは、[Adobe Workfrontのプロジェクト、タスク、問題の日付の概要 &#x200B;](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md) を参照してください。
 
 ## 予定日の概要
 

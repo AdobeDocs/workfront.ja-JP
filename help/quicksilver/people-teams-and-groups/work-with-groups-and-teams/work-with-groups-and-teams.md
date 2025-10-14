@@ -19,4 +19,4 @@ ht-degree: 85%
 
 この節では、次の記事を扱います。
 
-* [ [!DNL Adobe Workfront] のグループとチーム](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)
+* [&#x200B; [!DNL Adobe Workfront] のグループとチーム](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md)

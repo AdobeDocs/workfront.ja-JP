@@ -80,7 +80,7 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 
    次のような応答が返されます。
 
-   ![GUID を取得 ](assets/get-guid.png)
+   ![GUID を取得 &#x200B;](assets/get-guid.png)
 
    「ユーザー名」の戻り値は、ユーザーの GUID です。
 
@@ -106,7 +106,7 @@ GUID のユーザー名は使いにくい場合があるので、まずユーザ
 >
 >ユーザーの ID を検索するには、次の手順に従います。
 >
->1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**ユーザー** ![ ユーザーアイコン ](assets/users-icon-in-main-menu.png) をクリックします。
+>1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**ユーザー** ![&#x200B; ユーザーアイコン &#x200B;](assets/users-icon-in-main-menu.png) をクリックします。
 >
 >1. ユーザーを選択します。
 >

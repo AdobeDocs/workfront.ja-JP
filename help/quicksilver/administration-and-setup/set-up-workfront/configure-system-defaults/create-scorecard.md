@@ -66,7 +66,7 @@ ht-degree: 70%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -78,7 +78,7 @@ ht-degree: 70%
 
    「**新規スコアカード**」ボックスが開きます。
 
-   ![ 新しいスコアカードボックス ](assets/new-scorecard-350x173.png)
+   ![&#x200B; 新しいスコアカードボックス &#x200B;](assets/new-scorecard-350x173.png)
 
 1. **[!UICONTROL スコアカード名]**&#x200B;および&#x200B;**[!UICONTROL 説明]**&#x200B;を指定します。
 
@@ -127,11 +127,11 @@ ht-degree: 70%
 {{step-1-to-setup}}
 
 1. 左側のパネルで **[!UICONTROL スコアカード]** をクリックします。
-1. リストでスコアカードを選択し、スコアカードリストの上部にある **コピー** アイコン ![ スコアカードコピー ](assets/copy-scorecard-icon.png) アイコンをクリックします。
+1. リストでスコアカードを選択し、スコアカードリストの上部にある **コピー** アイコン ![&#x200B; スコアカードコピー &#x200B;](assets/copy-scorecard-icon.png) アイコンをクリックします。
 
    「**スコアカードをコピー** ボックスが開きます。
 
-   ![ スコアカードボックスをコピー ](assets/copy-scorecard-box.png)
+   ![&#x200B; スコアカードボックスをコピー &#x200B;](assets/copy-scorecard-box.png)
 
 1. 次の情報を指定します。
 
@@ -149,6 +149,6 @@ ht-degree: 70%
 
 プロジェクトのビジネスケースを作成する際に、スコアカードをプロジェクトに追加します。プロジェクトへのスコアカードの追加について詳しくは、[プロジェクトへのスコアカードの適用およびアラインメントスコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)を参照してください。
 
-プロジェクト権限について詳しくは、[ [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
+プロジェクト権限について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でのプロジェクトの共有を参照してください。
 
 

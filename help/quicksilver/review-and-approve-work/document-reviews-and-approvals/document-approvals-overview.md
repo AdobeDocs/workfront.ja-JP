@@ -28,7 +28,7 @@ ht-degree: 31%
 * ドキュメント承認参加者は、「プルーフワークフロー」タブではなく、ドキュメントの概要に表示されます。
 * 統合承認は、現在のレポートツールではサポートされていません。
 
-  新しいキャンバスダッシュボードベータ版を結合して [ レビューと承認用のレポートダッシュボードを作成 ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) したり、新しいホームおよびキャンバスダッシュボードで使用できるドキュメント承認指標ウィジェットを使用して、統合承認に関する次の詳細を提供したりできます。
+  新しいキャンバスダッシュボードベータ版を結合して [&#x200B; レビューと承認用のレポートダッシュボードを作成 &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) したり、新しいホームおよびキャンバスダッシュボードで使用できるドキュメント承認指標ウィジェットを使用して、統合承認に関する次の詳細を提供したりできます。
 
    * 決定による承認
    * 平均承認時間
@@ -49,9 +49,9 @@ ht-degree: 31%
 
 ## 統合承認の使用
 
-ドキュメント承認の作成や管理を行うユーザーについては、[ 統合承認の設定と管理：記事インデックス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md) に記載されている記事を参照してください。
+ドキュメント承認の作成や管理を行うユーザーについては、[&#x200B; 統合承認の設定と管理：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md) に記載されている記事を参照してください。
 
-リクエストを受け取ったドキュメントをレビューまたは承認しようとするユーザーについては、[ ドキュメントの承認とレビュー：記事インデックス ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md) に記載されている記事を参照してください。
+リクエストを受け取ったドキュメントをレビューまたは承認しようとするユーザーについては、[&#x200B; ドキュメントの承認とレビュー：記事インデックス &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md) に記載されている記事を参照してください。
 
 <!--
 

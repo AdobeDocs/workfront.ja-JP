@@ -82,7 +82,7 @@ Adobe Workfront システムの設定の一環として、顧客情報ページ�
 
    * 許可リストに加える **メール**
 
-     許可リスト許可リストに加えるにメールを追加する方法については、[ メールの設定 ](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) を参照してください。
+     許可リスト許可リストに加えるにメールを追加する方法については、[&#x200B; メールの設定 &#x200B;](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md) を参照してください。
 
    <!--
    * **License**

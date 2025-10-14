@@ -25,7 +25,7 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 
 イベント購読を別のバージョンにアップグレードまたはダウングレードすると、バージョン変更後 5 分間、イベント配信ごとに重複したイベントが届きます。 重複には、イベント購読バージョン 1 とバージョン 2 がそれぞれ 1 つずつ含まれます。 これにより、イベント購読バージョンの変更に伴うイベントが見逃されなくなります。
 
-イベント購読のアップグレードまたはダウングレードに使用されるエンドポイントについて詳しくは、イベント購読 API 記事の [ イベント購読のバージョン管理 ](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) を参照してください。
+イベント購読のアップグレードまたはダウングレードに使用されるエンドポイントについて詳しくは、イベント購読 API 記事の [&#x200B; イベント購読のバージョン管理 &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) を参照してください。
 
 >[!IMPORTANT]
 >
@@ -255,6 +255,6 @@ Workfrontには、2 つのバージョンのイベント購読があります。
 
 Workfront Fusion は、イベント購読を使用して、トリガーシナリオに対するWorkfrontの変化を監視します。 Fusion がシナリオで直接使用するイベント購読のバージョンは、Workfront/イベントのペイロードバージョンを更新モジュールを使用して更新できます。
 
-このモジュールの使用方法については、Workfront Fusion ドキュメントの [Workfront モジュール ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) を参照してください。
+このモジュールの使用方法については、Workfront Fusion ドキュメントの [Workfront モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) を参照してください。
 
-ウェビナーの録画など、イベント購読のアップグレード中にWorkfront Fusion シナリオを保持する方法については、[ イベント購読 V2 のアップグレード中に Fusion シナリオを保持する ](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=ja) を参照してください。
+ウェビナーの録画など、イベント購読のアップグレード中にWorkfront Fusion シナリオを保持する方法については、[&#x200B; イベント購読 V2 のアップグレード中に Fusion シナリオを保持する &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=ja) を参照してください。

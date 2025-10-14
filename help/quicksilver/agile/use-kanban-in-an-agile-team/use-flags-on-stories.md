@@ -75,7 +75,7 @@ ht-degree: 84%
      かんばんボードの各ストーリーの既定のフラグです。
      ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL ブロック済み]：**&#x200B;ストーリーは次のステータスに進めません。ストーリーにこのフラグを設定した場合、ストーリーは WIP 制限にカウントされません。（WIP 制限について詳しくは、「かんばんの設定 [ を参照し ](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) ください。
+   * **[!UICONTROL ブロック済み]：**&#x200B;ストーリーは次のステータスに進めません。ストーリーにこのフラグを設定した場合、ストーリーは WIP 制限にカウントされません。（WIP 制限について詳しくは、「かんばんの設定 [&#x200B; を参照し &#x200B;](../../agile/get-started-with-agile-in-workfront/configure-kanban.md) ください。
 
      ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 

@@ -82,7 +82,7 @@ ht-degree: 96%
 
    または
 
-   グループレベルの承認プロセスを作成する場合は、**グループ**![ グループアイコン ](assets/groups-icon.png) をクリックし、グループの名前をクリックして、**承認** をクリックします。
+   グループレベルの承認プロセスを作成する場合は、**グループ**![&#x200B; グループアイコン &#x200B;](assets/groups-icon.png) をクリックし、グループの名前をクリックして、**承認** をクリックします。
 
    <!--hidden for the new tab redesign - August 2023: 
    ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)

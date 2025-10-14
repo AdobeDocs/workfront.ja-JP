@@ -20,7 +20,7 @@ ht-degree: 66%
 
 このドキュメントビューでは、ドキュメントの現在のバージョンのプルーフへのリンクを挿入できます。
 
-![ プルーフリンク付きドキュメントの表示 ](assets/view-document-with-proof-link-350x92.png)
+![&#x200B; プルーフリンク付きドキュメントの表示 &#x200B;](assets/view-document-with-proof-link-350x92.png)
 
 ## アクセス要件
 
@@ -58,7 +58,7 @@ ht-degree: 66%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

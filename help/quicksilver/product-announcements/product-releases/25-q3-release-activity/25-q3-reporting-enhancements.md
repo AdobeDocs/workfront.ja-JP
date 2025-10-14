@@ -16,7 +16,7 @@ ht-degree: 5%
 
 このページでは、2025 年第 3 四半期リリースで行われた、プレビュー環境に対するすべてのレポートの機能強化について説明します。 これらの機能強化は、前述のように実稼動環境で利用できるようになります。
 
-2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
+2025 年第 3 四半期のリリースサイクルのこの時点で利用できるすべての変更のリストについては、[2025 年第 3 四半期のリリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md) を参照してください。
 
 ## レポート配信のセキュリティの強化
 
@@ -29,7 +29,7 @@ Workfrontの通知が許可リストで承認されたメールドメインに�
 
 許可リストに加える入力されたメールアドレスがメールに準拠しているかどうかを確認するために、メールが送信されるチェックも行います。 この改善されたチェックは、ユーザーに関連付けられたメールアドレスと、レポートの受信者リストに追加されたアドホックメールの両方に適用されます。
 
-詳しくは、[ レポートの自動配信をスケジュールする ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md) を参照してください。
+詳しくは、[&#x200B; レポートの自動配信をスケジュールする &#x200B;](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md) を参照してください。
 
 
 ## フィルタリング時にユーザーワイルドカードが null 値を含む結果を返さなくなりました

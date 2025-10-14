@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 
 1. 「**承認**」セクションまでスクロールし、「**追加**」をクリックします。
 
-   ![ ドキュメントの概要に承認者を追加 ](assets/doc-summary-add-approvers.png)
+   ![&#x200B; ドキュメントの概要に承認者を追加 &#x200B;](assets/doc-summary-add-approvers.png)
 
 1. （任意）承認の期限を設定します。 ユーザーとチームには、指定した期限の 72 時間前と 24 時間前にメールで通知が届きます。
 
@@ -75,14 +75,14 @@ You must have the following access to perform the steps in this article:
 
 1. レビュアーを追加するには、「**レビュアー**」チェックボックスをオンにして、ユーザー名またはチーム名を入力していきます。
 
-   ![ 承認者と期限を追加 ](assets/add-approver-and-deadline.png)
+   ![&#x200B; 承認者と期限を追加 &#x200B;](assets/add-approver-and-deadline.png)
 
 1. 以前の手順を繰り返して、承認者またはレビュアーを追加します。
 
 ## ドキュメントの詳細ページからのレビューまたは承認リクエストの作成
 
 1. ドキュメントにポインタを合わせ、「**ドキュメントの詳細**」をクリックします。
-   ![ ドキュメントの詳細 ](assets/doc-details.png)
+   ![&#x200B; ドキュメントの詳細 &#x200B;](assets/doc-details.png)
 
 1. ドキュメント名の近くで、承認を作成するドキュメントのバージョンを選択します。 デフォルトでは、最新バージョンが選択されています。
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. レビュアーを追加するには、「**レビュアー**」チェックボックスをオンにして、ユーザー名またはチーム名を入力していきます。
 
-   ![ 承認者と期限を追加 ](assets/add-approver-and-deadline.png)
+   ![&#x200B; 承認者と期限を追加 &#x200B;](assets/add-approver-and-deadline.png)
 
 1. 以前の手順を繰り返して、承認者またはレビュアーを追加します。
 

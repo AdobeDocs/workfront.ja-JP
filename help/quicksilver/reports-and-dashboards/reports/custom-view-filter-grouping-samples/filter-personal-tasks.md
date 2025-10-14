@@ -22,9 +22,9 @@ ht-degree: 22%
 
 アドホックな作業要求および To Do アイテムは、個人のタスクとしてAdobe Workfrontに保存されます。
 
-個人のタスクはプロジェクトに接続されていませんが、必要に応じてプロジェクトに移動できます。 詳しくは、[ 個人タスクの作成 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
+個人のタスクはプロジェクトに接続されていませんが、必要に応じてプロジェクトに移動できます。 詳しくは、[&#x200B; 個人タスクの作成 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
 
-![ 個人タスクレポート ](assets/personal-tasks-report.png)
+![&#x200B; 個人タスクレポート &#x200B;](assets/personal-tasks-report.png)
 
 ## アクセス要件
 
@@ -62,7 +62,7 @@ ht-degree: 22%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

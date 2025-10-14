@@ -21,14 +21,14 @@ ht-degree: 97%
 この節では、次の記事を扱います。
 
 * [[!DNL Adobe Workfront] 統合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md)
-* [ [!DNL Experience Manager Assets as a Cloud Service]  統合を設定](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
-* [ [!DNL Experience Manager Assets Essentials]  統合を設定](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
+* [&#x200B; [!DNL Experience Manager Assets as a Cloud Service]  統合を設定](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
+* [&#x200B; [!DNL Experience Manager Assets Essentials]  統合を設定](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront]  と  [!DNL Experience Manager Assets]  の統合](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
-* [ [!DNL Adobe Experience Manager] レガシーコネクタ](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)を使用した設定 [!DNL Workfront] 
+* [&#x200B; [!DNL Adobe Experience Manager] レガシーコネクタ](../../administration-and-setup/configure-integrations/configure-workfront-aem.md)を使用した設定 [!DNL Workfront] 
 * [[!UICONTROL Outlook 用 Adobe Workfront の有効化]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md)
 * [ドキュメント統合の設定](../../administration-and-setup/configure-integrations/configure-document-integrations.md)
 * [ドキュメント統合の無効化](../../administration-and-setup/configure-integrations/disable-document-integrations.md)
-* [ [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
+* [&#x200B; [!DNL SharePoint]  統合を設定](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
 * [メタデータマッピングの設定](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
 * [ [!DNL Adobe Admin Console] でのユーザー向け  [!DNL Creative Cloud]]  パッケージ用の [[!UICONTROL [!DNL Adobe Workfront]  を作成]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
@@ -40,4 +40,4 @@ ht-degree: 97%
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md" class="MCXref xref" xrefformat="{para}">View and manage custom OAuth2 applications</a> </li>
   -->
 
-* [ [!DNL JumpSeat]  統合を設定します。](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
+* [&#x200B; [!DNL JumpSeat]  統合を設定します。](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)

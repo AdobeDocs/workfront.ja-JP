@@ -58,7 +58,7 @@ ht-degree: 47%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -74,7 +74,7 @@ ht-degree: 47%
    <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Sarah: Add sub bullets for report creation.</p>
    -->
 
-   独自のプルーフ承認レポートを作成するには、右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックするか、または右上隅にある **メインメニュー** アイコン ![ メインメニュー行 ](assets/lines-main-menu.png) をクリックし（使用可能な場合）、**レポート**![ レポートアイコン ](assets/reports-in-main-menu.png) をクリックします。
+   独自のプルーフ承認レポートを作成するには、右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックするか、または右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニュー行 &#x200B;](assets/lines-main-menu.png) をクリックし（使用可能な場合）、**レポート**![&#x200B; レポートアイコン &#x200B;](assets/reports-in-main-menu.png) をクリックします。
 
 1. **新しいレポート** をクリックします。 オブジェクトタイプのリストが表示されます。
 1. リストの **プルーフの承認** をクリックします。

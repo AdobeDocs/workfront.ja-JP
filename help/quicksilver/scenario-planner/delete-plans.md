@@ -57,7 +57,7 @@ ht-degree: 81%
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -81,7 +81,7 @@ ht-degree: 81%
 >* 計画に関連する情報もすべて削除されます。これには、担当業務やコストに関する情報を含む、計画に関連するすべてのシナリオとイニシアチブが含まれます。この情報は復元できません。
 >* 公開済みのシナリオが計画に含まれる場合、削除されたイニシアチブにリンクされたプロジェクトが保持され、[!DNL Scenario Planner] エリアは「[!UICONTROL プロジェクトの詳細]」セクションに残ります。
 >
->  プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
+>  プロジェクトへのイニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
 計画の削除方法は、次のとおりです。
 
@@ -90,7 +90,7 @@ ht-degree: 81%
 計画のリストが表示されます。
 
 1. 計画の名前をクリックして開きます。
-1. 計画名の右側にある **[!UICONTROL 詳細メニュー]**![ 詳細メニュー ](assets/more-menu.png) をクリックし、**[!UICONTROL 削除]**/**[!UICONTROL はい、削除します]** をクリックします。
+1. 計画名の右側にある **[!UICONTROL 詳細メニュー]**![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、**[!UICONTROL 削除]**/**[!UICONTROL はい、削除します]** をクリックします。
 
    計画が削除され、計画のリストに戻ります。
 
@@ -105,7 +105,7 @@ ht-degree: 81%
 >* シナリオに関する一部のイニシアチブが公開されると、イニシアチブにリンクされたプロジェクトが保持され、シナリオプランナーのエリアはリンクされたプロジェクトに残ります
 >* 公開されたイニシアチブが別のシナリオに存在する場合、そのイニシアチブ（プロジェクトへのリンクを含む）は、そのシナリオに残ります。これらのイニシアチブを他のシナリオから公開すると、リンクされたプロジェクトがそれらのシナリオからの新しい情報で更新されます。
 >
->  プロジェクトへのイニシアチブの公開について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
+>  プロジェクトへのイニシアチブの公開について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) でのイニシアチブの公開によるプロジェクトのアップデートまたは作成を参照してください。
 
 シナリオの削除方法は、次のとおりです。
 
@@ -114,7 +114,7 @@ ht-degree: 81%
    デフォルトでは、最初のシナリオが表示されます。
 
 1. 「**[!UICONTROL シナリオを比較]**」をクリックします。
-1. シナリオカードの右上隅にある **[!UICONTROL その他]** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**[!UICONTROL 削除]** をクリックします。
+1. シナリオカードの右上隅にある **[!UICONTROL その他]** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**[!UICONTROL 削除]** をクリックします。
 
    シナリオが削除されます。
 

@@ -52,7 +52,7 @@ ht-degree: 55%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 55%
 
    **プログラムの追加** ボックスが開きます。<!--check screen shot - I logged changes for this casing-->
 
-   ![ プログラムボックスを追加 ](assets/add-programs-box.png)
+   ![&#x200B; プログラムボックスを追加 &#x200B;](assets/add-programs-box.png)
 
    >[!IMPORTANT]
    >
@@ -74,7 +74,7 @@ ht-degree: 55%
 
    複数のプログラムを追加できます。
 
-1. （オプション）プログラムをポートフォリオに追加しない場合は、プログラム名の横にある **削除** アイコン ![ 削除アイコン ](assets/delete-icon.png) をクリックします。
+1. （オプション）プログラムをポートフォリオに追加しない場合は、プログラム名の横にある **削除** アイコン ![&#x200B; 削除アイコン &#x200B;](assets/delete-icon.png) をクリックします。
 
 1. **[!UICONTROL プログラムの追加]** をクリックします。<!--check this button in the UI after they implemented the changes??-->
 

@@ -109,7 +109,7 @@ Goal progress percentage = Actual percent complete * 100 / Expected percent comp
 
 次のグラフは、状況のラベルと進捗率の関係を示しています。
 
-![ 進捗ステータスラベルがグラフ化されました ](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![&#x200B; 進捗ステータスラベルがグラフ化されました &#x200B;](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 次の表に、それぞれのラベルに関連付けられた「目標の状況」ラベルと目標の進捗率を示します。
 

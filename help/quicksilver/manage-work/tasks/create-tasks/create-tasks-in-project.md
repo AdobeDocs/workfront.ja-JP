@@ -35,7 +35,7 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
    * アドホック作業要求を作成してユーザーに送信する
    * ホームエリアでの To Do アイテムの作成
 
-  プロジェクトにない個人用タスクを作成する方法については、「[ 個人用タスクの作成 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)」を参照してください。
+  プロジェクトにない個人用タスクを作成する方法については、「[&#x200B; 個人用タスクの作成 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)」を参照してください。
 
   個人タスクをプロジェクトに移動すると、そのタスクが作業タスクになります。
 
@@ -165,30 +165,30 @@ Adobe Workfrontでは次の方法でタスクを作成できます。
 
          これにより、新しいタスクが子タスク、または前のタスクのサブタスクになります。
 
-         子タスクの詳細については、「サブタスクの作成」の「タスクのサブタスク セクションからサブタスクを作成する [ を参照し ](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) ください。
+         子タスクの詳細については、「サブタスクの作成」の「タスクのサブタスク セクションからサブタスクを作成する [&#x200B; を参照し &#x200B;](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md) ください。
 
       1. （条件付き）「**さらにタスクを追加**」を押した後に「**自動保存**」オプションを無効にした場合は、次の操作を行うことができます。
 
          * いつでも「**元に戻す**」をクリックして最後の変更を元に戻したり、「**キャンセル**」をクリックしてタスクリストに加えたすべての変更を元に戻したりできます。
          * 以前に「**元に戻す**」をクリックした場合は、「**やり直し**」をクリックして、最後にキャンセルした変更を再適用できます。
          * 「**保存**」をクリックすると、タスクリストに変更を保存できます。
-   1. （任意）タスクリストで、「**先行タスク**」セクションをクリックして、タスクに先行タスクを追加します。 詳しくは、[ 先行タスクエリアを使用した先行タスク関係の作成 ](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
+   1. （任意）タスクリストで、「**先行タスク**」セクションをクリックして、タスクに先行タスクを追加します。 詳しくは、[&#x200B; 先行タスクエリアを使用した先行タスク関係の作成 &#x200B;](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-in-predecessors-area.md) を参照してください。
    1. （オプション）タスクリストで、「**サブタスク**」セクションをクリックして、子タスクを追加します。 詳しくは、[サブタスクの作成](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md)を参照してください。
 
 ## 個人タスクをプロジェクトに移動してタスクを作成する
 
 1. （条件付き）自分または他のユーザーが個人用タスクを作成したことを確認します。
 
-   詳しくは、[ 個人タスクの作成 ](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
+   詳しくは、[&#x200B; 個人タスクの作成 &#x200B;](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md) を参照してください。
 1. 個人用タスク フィルターを作成し、タスク レポートまたはリストに適用します。
 
-   詳しくは、[ フィルター：個人用タスク ](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md) を参照してください。
+   詳しくは、[&#x200B; フィルター：個人用タスク &#x200B;](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md) を参照してください。
 
    ![](assets/personal-tasks-report.png)
 1. 個人タスクレポートのタスク名をクリックして開きます。
 
    Workfrontは、リストにない個人プロジェクトに個人のタスクを保存します。このプロジェクトは、常に「&lt; ユーザーのフルネーム > のタスク」というパターンに従って名前が付けられます。 例えば、個人プロジェクトの名前を「Rick&#39;s Tasks」とすることができます。
 
-1. タスクページで **詳細メニュー**![](assets/more-icon.png) をクリックし、**移動** をクリックします。 タスクの移動の詳細については、「[ タスクの移動 ](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)」を参照してください。
+1. タスクページで **詳細メニュー**![](assets/more-icon.png) をクリックし、**移動** をクリックします。 タスクの移動の詳細については、「[&#x200B; タスクの移動 &#x200B;](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md)」を参照してください。
 
    タスクの移動が完了すると、選択したプロジェクトにタスクが表示されます。 プロジェクトタイムラインは、新しいタスクのタイムラインの影響を受ける場合があります。

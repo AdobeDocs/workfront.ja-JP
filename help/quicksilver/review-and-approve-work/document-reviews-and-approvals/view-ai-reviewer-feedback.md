@@ -24,7 +24,7 @@ ht-degree: 0%
 
 AI レビュー担当者は、レビューおよび承認ワークフローの意思決定者となるようには設計されていません。 アセットを指定されたブランド要件に合わせるためのスコアと推奨事項のみが提供されます。
 
-![AI レビュアーのフィードバック ](assets/ai-reviewer-feedback.png)
+![AI レビュアーのフィードバック &#x200B;](assets/ai-reviewer-feedback.png)
 
 ## スコアとフィードバックを表示
 
@@ -34,13 +34,13 @@ AI レビュー担当者のスコアとフィードバックは、ドキュメ�
 または
 ドキュメントがアップロードされているドキュメント エリアに移動し、ドキュメントの概要パネルを開きます。
 1. **スコア** をクリックします。
-   ![ ドキュメントスコアを表示 ](assets/view-score.png)
+   ![&#x200B; ドキュメントスコアを表示 &#x200B;](assets/view-score.png)
 
 スコアとフィードバック ウィンドウに、AI レビュー担当者は、アセットが指定されたガイドラインを満たしていない方法について説明します。
-![AI レビュアーのフィードバックには注意が必要 ](assets/ai-reviewer-needs-attention.png)
+![AI レビュアーのフィードバックには注意が必要 &#x200B;](assets/ai-reviewer-needs-attention.png)
 
 ## 新しいバージョンをアップロードして、AI レビュー担当者を再度追加します
 
 AI レビュー担当者のフィードバックに基づいてアセットを調整する必要がある場合は、新しいバージョンをアップロードし、新しいレビューを開始します。
 
-詳しくは、[ 新しいドキュメントバージョンをアップロードし、承認をリクエストする ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md) を参照してください。
+詳しくは、[&#x200B; 新しいドキュメントバージョンをアップロードし、承認をリクエストする &#x200B;](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md) を参照してください。

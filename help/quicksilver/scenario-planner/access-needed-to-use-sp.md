@@ -18,7 +18,7 @@ ht-degree: 73%
 
 <!--Audited: 04/2024-->
 
-[!DNL Scenario Planner] には、追加のライセンス要件があります。 [!DNL Workfront Scenario Planner] について詳しくは、[ [!DNL Scenario Planner]  の概要](../scenario-planner/scenario-planner-overview.md)を参照してください。
+[!DNL Scenario Planner] には、追加のライセンス要件があります。 [!DNL Workfront Scenario Planner] について詳しくは、[&#x200B; [!DNL Scenario Planner]  の概要](../scenario-planner/scenario-planner-overview.md)を参照してください。
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
@@ -64,7 +64,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 1. [!DNL Workfront] 管理者は、ユーザーのアクセスレベルで [!DNL Scenario Planner] に対する[!UICONTROL 表示]または[!UICONTROL 編集]のアクセス権を付与する必要があります。
 
-   [!DNL Workfront Scenario Planner] へのアクセス権の付与について詳しくは、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
+   [!DNL Workfront Scenario Planner] へのアクセス権の付与について詳しくは、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
 
 1. （オプションおよび推奨）プランやイニシアチブの財務情報を表示または更新するには、[!DNL Workfront] 管理者がユーザーのアクセスレベルで[!UICONTROL 財務データ]へのアクセス権も付与する必要があります。アクセスレベルでの財務データへのアクセス権の付与について詳しくは、[財務データへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)を参照してください。
 
@@ -80,7 +80,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 * 少なくとも [!DNL Scenario Planner] への[!UICONTROL 表示]アクセス権があるアクセスレベル。
 
-  [!DNL Scenario Planner] へのアクセスレベルについて詳しくは、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
+  [!DNL Scenario Planner] へのアクセスレベルについて詳しくは、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
 
 * プランやイニシアチブに関する財務情報も表示する必要がある場合は、少なくとも[!UICONTROL 財務データ]への[!UICONTROL 表示]アクセス権があるアクセスレベル。財務情報の例としては、予算、コスト、または担当業務の料率があります。
 
@@ -100,7 +100,7 @@ might need to add information about the permissions to plans/ initiatives if tho
 
   その他すべてのライセンスタイプには、プランを管理するためのアクセス権がありません。
 
-  アクセスレベルからの [!DNL Scenario Planner] へのアクセス権の付与について詳しくは、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
+  アクセスレベルからの [!DNL Scenario Planner] へのアクセス権の付与について詳しくは、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md) へのアクセス権の付与を参照してください。
 
 * プランに関する財務情報も更新する必要がある場合は、アクセスレベルで[!UICONTROL 財務データ]への[!UICONTROL 編集]アクセス権がある[!UICONTROL プラン]ライセンスタイプ。
 
@@ -124,11 +124,11 @@ might need to add information about the permissions to plans/ initiatives if tho
 
 * 計画を共有する
 
-  計画の共有について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) での計画の共有を参照してください。
+  計画の共有について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md) での計画の共有を参照してください。
 
 * 作成したプランへのリンクの送信
 
-  計画を共有せずに計画へのリンクを共有した場合は、計画に対する権限をリクエストできます。プランに対する権限のリクエストについては、[ 内の計画へのアクセスのリクエスト [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)を参照してください。
+  計画を共有せずに計画へのリンクを共有した場合は、計画に対する権限をリクエストできます。プランに対する権限のリクエストについては、[&#x200B; 内の計画へのアクセスのリクエスト [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)を参照してください。
 
 >[!NOTE]
 >

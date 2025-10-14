@@ -65,7 +65,7 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -123,7 +123,7 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 
    時間の記録の詳細については、[時間の記録](../../../timesheets/create-and-manage-timesheets/log-time.md)を参照してください。
 
-1. **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
+1. **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックしてから、**レポート** をクリックします。
 1. **新規レポート**、**プロジェクトレポート**&#x200B;の順にクリックします。
 1. 「**列（ビュー）**」タブから、**実際コスト**&#x200B;列を追加し、「**合計**」で集計します。
 
@@ -182,6 +182,6 @@ Adobe Workfront で複数の為替レートが設定されている場合、レ�
 1. **レポート設定**&#x200B;をクリックします。
 1. **デフォルトの通貨**&#x200B;ドロップダウンをクリックし、**プロジェクトの元の通貨**&#x200B;を選択します。
 
-   ![ デフォルト通貨 ](assets/qs-report-settings-default-currency-350x370.png)
+   ![&#x200B; デフォルト通貨 &#x200B;](assets/qs-report-settings-default-currency-350x370.png)
 
 1. 「**完了**」をクリックします。

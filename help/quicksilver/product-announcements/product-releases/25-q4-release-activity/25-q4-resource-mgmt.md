@@ -30,7 +30,7 @@ ht-degree: 14%
 
 ユーザーのワークロードバランサーデータは読み取り専用です。 作業の割り当て、作業の割り当て解除、割り当ての調整をユーザーレベルで行うことはできません。
 
-詳しくは、[ ワークロードバランサーの場所を見つける ](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md) を参照してください。
+詳しくは、[&#x200B; ワークロードバランサーの場所を見つける &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/locate-workload-balancer.md) を参照してください。
 
 ## 役割の割り当ては、ワークロードバランサーに表示されます
 
@@ -46,4 +46,4 @@ ht-degree: 14%
 
 **詳細メニュー/割り当て先** オプションを使用して、または項目を適切なユーザーにドラッグ&amp;ドロップして、手動で役割をユーザーに割り当てることができます。 視覚的なインジケーターは、ユーザーの役割と割り当ての役割が一致しない場合を示しますが、作業をユーザーに割り当てることは可能です。
 
-詳しくは、[ ワークロードバランサーの操作 ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) および [ ワークロードバランサーでの作業のドラッグ&amp;ドロップによる割り当て ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md) を参照してください。
+詳しくは、[&#x200B; ワークロードバランサーの操作 &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) および [&#x200B; ワークロードバランサーでの作業のドラッグ&amp;ドロップによる割り当て &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md) を参照してください。

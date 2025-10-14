@@ -23,13 +23,13 @@ Adobe Workfront オブジェクトに添付できるカスタムフォームを�
 
 例えば、「マーケティングコンテンツリサーチ」というカスタムフォームをプロジェクトに添付することで、プロジェクトのユーザーがプロジェクトのマーケティングコンテンツをリクエストできるようになります。
 
-![ 詳細ページ ](assets/see-image-details-page.png)
+![&#x200B; 詳細ページ &#x200B;](assets/see-image-details-page.png)
 
 ## カスタムフォームの作成方法
 
 フォームデザイナーは、フィールド、キャンバス、フィールド設定をすべて同時に表示できるキャンバススタイルのワークスペースを持っています。 また、フォームをデザインする際に、セクション内でフィールドをドラッグ&amp;ドロップすることもできます。 画面の右側のサイズを変更して、フィールドオプションのスペースを広げることができます。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ![サンプルフォームデザイナー](assets/form-designer-example.png)
 
@@ -85,6 +85,6 @@ Workfront のカスタムフォームに、次のタイプのカスタムフィ�
 
 オブジェクトへのカスタムフォームの添付について詳しくは、[オブジェクトへのカスタムフォームの追加](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)を参照してください。
 
-オブジェクトを変換するときにユーザー設定フォームに何が起こるかを確認するには、「[ オブジェクトを変換する際にユーザー設定フォーム データを転送する ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)」を参照してください。
+オブジェクトを変換するときにユーザー設定フォームに何が起こるかを確認するには、「[&#x200B; オブジェクトを変換する際にユーザー設定フォーム データを転送する &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md)」を参照してください。
 
 

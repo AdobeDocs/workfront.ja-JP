@@ -28,9 +28,9 @@ Workfrontに、イベント購読のバージョンが追加されました。 �
 
 イベント購読をアップグレードまたはダウングレードする機能により、イベントの構造に変更が加えられても既存の購読が壊れずに、イベント購読に隙間なく新しいバージョンのテストとアップグレードが可能になります。
 
-2 つのバージョンの違いについて詳しくは、「イベント購読のバージョン管理 [ を参照してください ](/help/quicksilver/wf-api/general/event-subs-versioning.md)。
+2 つのバージョンの違いについて詳しくは、「イベント購読のバージョン管理 [&#x200B; を参照してください &#x200B;](/help/quicksilver/wf-api/general/event-subs-versioning.md)。
 
-バージョン間でイベント購読をアップグレードまたはダウングレードするために使用されるエンドポイントについて詳しくは、Event subscription API の節 [ イベント購読のバージョン管理 ](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) を参照してください。
+バージョン間でイベント購読をアップグレードまたはダウングレードするために使用されるエンドポイントについて詳しくは、Event subscription API の節 [&#x200B; イベント購読のバージョン管理 &#x200B;](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) を参照してください。
 
 ## Adobe Admin Console ユーザーの変更をWorkfront更新フィードの「システム」として表す
 
@@ -42,4 +42,4 @@ Workfrontの管理者がWorkfront ユーザーのユーザー情報に変更を�
 
 このアップデート以前は、Workfrontの管理者によるユーザーの変更内容は、Admin Consoleのメインのシステム管理者による変更内容として記録されていました。
 
-Adobe Admin Consoleでのユーザーの管理については、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+Adobe Admin Consoleでのユーザーの管理については、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。

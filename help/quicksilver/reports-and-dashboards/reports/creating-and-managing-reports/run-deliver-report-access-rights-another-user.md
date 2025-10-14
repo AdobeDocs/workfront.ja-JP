@@ -66,7 +66,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -86,7 +86,7 @@ ht-degree: 96%
 1. 「**報告書設定**」をクリックします。
 
 1. 「**次のアクセス権限でこの報告書を作成する：**」フィールドに、レポートを表示するユーザー名の入力を開始し、リストに表示されたら選択します。\
-   ![ 次のアクセス権限で実行 ](assets/unshimmed-access-rights-of.png)
+   ![&#x200B; 次のアクセス権限で実行 &#x200B;](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ ht-degree: 96%
 
 別のユーザーのアクセス権限でレポートを配信するには：
 
-1. Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. 別のユーザーのアクセス権限で配信するレポートを選択します。
 1. レポートの名前をクリックして選択します。
@@ -116,7 +116,7 @@ ht-degree: 96%
 1. 「**報告書の送信**」をクリックします。
 
 1. レポートをメールで配信する際に使用するレポート表示権限が属するユーザーの名前を「**次のアクセス権限でこの報告書を届ける**」フィールドに入力していき、目的のユーザー名がリストに表示されたら選択します。デフォルトでは、レポートを作成するユーザーの名前です。\
-   ![ アクセス権が設定された報告書を送信しました ](assets/unshimmed-send-report-access-rights-of.png)
+   ![&#x200B; アクセス権が設定された報告書を送信しました &#x200B;](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

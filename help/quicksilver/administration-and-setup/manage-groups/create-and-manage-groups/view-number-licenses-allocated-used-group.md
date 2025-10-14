@@ -59,14 +59,14 @@ Adobe Workfront 管理者は、現在グループおよびそのサブグルー�
 
 {{step-1-to-setup}}
 
-1. 左側のパネルで、「**グループ**![ グループ ](assets/groups-icon.png)」をクリックします。
+1. 左側のパネルで、「**グループ**![&#x200B; グループ &#x200B;](assets/groups-icon.png)」をクリックします。
 
 1. グループの名前をクリックします。
 1. 表示されるページの右上隅付近のヘッダー領域で、**使用中のライセンス**&#x200B;エリアの、現在使用中の&#x200B;**プラン**&#x200B;および&#x200B;**作業**&#x200B;ライセンスの数を見ます。
 
    最上位のグループが表示されていて、Workfront 管理者がグループの各ライセンスタイプの最大数を定義した場合は、その数も表示されます。例えば、以下のグループでは、プランライセンスを取得できるユーザーは最大 10 人で、作業ライセンスを取得できるユーザーは最大 15 人です。
 
-   ![ 割り当て済みライセンス ](assets/licenses-used-allocated.png)
+   ![&#x200B; 割り当て済みライセンス &#x200B;](assets/licenses-used-allocated.png)
 
    Workfront 管理者がグループに割り当てるライセンスの最大数を定義する方法について詳しくは、記事[システムで使用可能なライセンスを管理](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)の[ホームグループに最大ライセンス数を設定](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set)を参照してください。
 
@@ -74,15 +74,15 @@ Adobe Workfront 管理者は、現在グループおよびそのサブグルー�
    >
    >対象のグループがサブグループの場合は、使用中のライセンスの数のみが表示され、グループに割り当てられたライセンスの最大数は表示されません。これは、Workfront 管理者がサブグループに対しては最大ライセンス数を定義していないためです。
    >
-   >![ サブグループ内の使用済みライセンス ](assets/subgroup-used-licenses-only.png)
+   >![&#x200B; サブグループ内の使用済みライセンス &#x200B;](assets/subgroup-used-licenses-only.png)
    >
 
 1. グループで現在使用されているライセンスのタイプ（レビューやリクエストなど）別の数を表示するには、**使用中のライセンス**&#x200B;のすぐ下のテキスト領域をクリックします。
 
-   ![ クリックすると詳細が表示されます ](assets/click-text-to-see-more.png)
+   ![&#x200B; クリックすると詳細が表示されます &#x200B;](assets/click-text-to-see-more.png)
 
    表示されるボックスには、プラン、作業、レビュー、リクエストの 4 つの Workfront ライセンスタイプすべてに対して同じ情報が表示されます。ボックスの下部には、このグループまたはそのサブグループの 1 つのメンバーが使用しているライセンスの総数が表示されます。
 
-   ![ その他のライセンス情報 ](assets/more-license-info.png)
+   ![&#x200B; その他のライセンス情報 &#x200B;](assets/more-license-info.png)
 
    レビューライセンスおよびリクエストライセンスについては、最大値列には常に無制限と表示されます。

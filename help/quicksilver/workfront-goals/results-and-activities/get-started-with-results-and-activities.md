@@ -49,7 +49,7 @@ ht-degree: 95%
 >
 > 目標は、アクティビティ、結果、プロジェクト、連携された目標を、合計 1000 件以上持つことはできません。</span>
 
-この記事では、アクティビティと結果の概要を説明します。目標の関連付けについて詳しくは、[Adobe Workfront Goals での目標の関連付け：記事のインデックス ](../../workfront-goals/goal-alignment/goal-alignment.md) を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
+この記事では、アクティビティと結果の概要を説明します。目標の関連付けについて詳しくは、[Adobe Workfront Goals での目標の関連付け：記事のインデックス &#x200B;](../../workfront-goals/goal-alignment/goal-alignment.md) を参照してください。 プロジェクトを目標に接続する方法について詳しくは、[Adobe Workfront Goals の目標へのプロジェクトの追加](../results-and-activities/connect-projects-to-goals-overview.md)を参照してください。
 
 ## 結果の概要
 

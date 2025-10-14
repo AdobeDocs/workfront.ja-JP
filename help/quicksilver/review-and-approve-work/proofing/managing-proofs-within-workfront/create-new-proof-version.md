@@ -24,7 +24,7 @@ ht-degree: 34%
 * ユーザーに、あるバージョンを表示する権限を与えることができますが、別のバージョンを表示する権限を与えることはできません。逆に、新しいバージョンをユーザーと共有した場合、そのユーザーは前のバージョンに戻ってアクセス権を付与しない限り、以前のバージョンを表示できません。
 * 新しいバージョンを作成するには、プルーフの編集権限が必要です。
 
-  詳しくは、[Workfront Proofでのプルーフの役割の管理 ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) および [Workfront Proofでのプルーフ権限プロファイル ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) を参照してください。
+  詳しくは、[Workfront Proofでのプルーフの役割の管理 &#x200B;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) および [Workfront Proofでのプルーフ権限プロファイル &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) を参照してください。
 
   プルーフのバージョンの共有について詳しくは、[Workfront Proof のプルーフの共有](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md)を参照してください。
 
@@ -85,7 +85,7 @@ Workfront で新しいプルーフバージョンをアップロードするに�
 
    プルーフがリストされる行を選択し、**新規追加**／**バージョン**&#x200B;をクリックして、新しいバージョンのプルーフの追加に使用するオプションをクリックします。
 
-   ![ 新しいバージョンを追加 ](assets/add-new-proof-version.png)
+   ![&#x200B; 新しいバージョンを追加 &#x200B;](assets/add-new-proof-version.png)
 
 ## プルーフビューアから新しいプルーフバージョンを作成する（Workfront Proofのみ）
 
@@ -100,7 +100,7 @@ Workfront Proof で新しいバージョンのプルーフを作成するには�
 1. プルーフを開きます。
 1. 左上隅の [**バージョン**] ドロップダウンメニューをクリックし、表示されたボックスで [**+新しいバージョン**] をクリックします。 新しいプルーフのバージョン ページが開きます。
 
-   ![ 新しいバージョンを追加 ](assets/new-version-button.png)
+   ![&#x200B; 新しいバージョンを追加 &#x200B;](assets/new-version-button.png)
 
 1. 「**ファイルを追加**」セクションで、コンピューターからファイルをドラッグ&amp;ドロップするか、**参照** をクリックしてファイルを選択することにより、新しいプルーフのバージョンとしてファイルをアップロードします。
 
@@ -118,15 +118,15 @@ Workfront Proof で新しいバージョンのプルーフを作成するには�
 
    * （任意）バージョンの **所有者** を、アカウント内の別のユーザーに変更します。
 
-     詳しくは、[Workfront Proofのプルーフ権限プロファイル ](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) を参照してください。
+     詳しくは、[Workfront Proofのプルーフ権限プロファイル &#x200B;](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) を参照してください。
 
    * （オプション） **連絡先名またはメールアドレスを入力して受信者を追加** ボックスを使用して、バージョンにレビュー担当者を追加します。 その後、受信者ごとに **プルーフの役割** と **メールアラート** タイプを選択できます。
 
-     詳しくは、[ プルーフへのグループの追加 ](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md) および [Workfront Proofでのプルーフの役割の管理 ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) を参照してください。
+     詳しくは、[&#x200B; プルーフへのグループの追加 &#x200B;](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md) および [Workfront Proofでのプルーフの役割の管理 &#x200B;](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) を参照してください。
 
      >[!NOTE]
      >
-     >プルーフの作成者または所有者が、個人設定で「プルーフを作成したメール」をデフォルトで無効にしている場合、新しいプルーフページで **このプルーフについて受信者に通知** ボックスがオンになっていても、「プルーフが作成された」または「新しいプルーフのメール」が届きません。 詳しくは、[Workfront Proofでのメール通知の設定 ](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)、[ プルーフが作成されたメール ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)、および [ 新しいプルーフメール ](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) を参照してください。
+     >プルーフの作成者または所有者が、個人設定で「プルーフを作成したメール」をデフォルトで無効にしている場合、新しいプルーフページで **このプルーフについて受信者に通知** ボックスがオンになっていても、「プルーフが作成された」または「新しいプルーフのメール」が届きません。 詳しくは、[Workfront Proofでのメール通知の設定 &#x200B;](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md)、[&#x200B; プルーフが作成されたメール &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)、および [&#x200B; 新しいプルーフメール &#x200B;](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md) を参照してください。
 
    * （任意）プルーフの期限を設定します。
 
@@ -144,7 +144,7 @@ Workfront Proof で新しいバージョンのプルーフを作成するには�
 
    * プルーフに 1 つ以上のタグを適用します。詳しくは、[Workfront Proof でのタグの作成と管理](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md)を参照してください。
 
-   * フォルダーにバージョンを追加します。フォルダーは以前のバージョンのプルーフからコピーされます。別のフォルダーを選択すると、プルーフ全体（すべてのバージョンを含む）が移動されます。 詳しくは、[Workfront Proofでのフォルダーの管理 ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) を参照してください。
+   * フォルダーにバージョンを追加します。フォルダーは以前のバージョンのプルーフからコピーされます。別のフォルダーを選択すると、プルーフ全体（すべてのバージョンを含む）が移動されます。 詳しくは、[Workfront Proofでのフォルダーの管理 &#x200B;](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) を参照してください。
 
    * 請求管理者と管理者は、「**設定**」タブで、アカウント全体でフォルダーフィールドを必須にすることができます。
 

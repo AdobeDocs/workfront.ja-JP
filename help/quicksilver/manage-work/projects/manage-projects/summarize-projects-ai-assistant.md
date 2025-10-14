@@ -23,7 +23,7 @@ Workfrontの AI アシスタントでは、プロジェクトを要約して、�
 >
 >AI アシスタントの要約機能は、概要パネルとは異なります。
 >
->Workfrontの概要パネルについて詳しくは、[ 概要の概要 ](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md) を参照してください。
+>Workfrontの概要パネルについて詳しくは、[&#x200B; 概要の概要 &#x200B;](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -61,10 +61,10 @@ Workfrontの AI アシスタントでは、プロジェクトを要約して、�
 
 * Workfront管理者が組織の AI アシスタントを有効にしている必要があります。
 
-  詳しくは、「AI アシスタントの概要」の記事の [AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+  詳しくは、「AI アシスタントの概要」の記事の [AI アシスタントの前提条件 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 * Workfront管理者が、アクセスレベルに対して AI アシスタントを有効にしている必要があります。
 
-  詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+  詳しくは、[AI アシスタントを有効または無効にする &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
 
 
@@ -85,7 +85,7 @@ Workfrontの AI アシスタントでは、プロジェクトを要約して、�
 オブジェクトの概要を確認するには：
 
 1. 概要を表示するオブジェクトに移動します。
-1. 画面の右上隅付近にある **AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png) をクリックします。
+1. 画面の右上隅付近にある **AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png) をクリックします。
 1. AI アシスタント パネルで、次のようなプロンプトを入力します。
 
    * 要約を 3 文で提供する

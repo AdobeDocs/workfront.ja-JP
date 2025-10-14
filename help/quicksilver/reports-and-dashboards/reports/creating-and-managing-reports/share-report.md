@@ -65,7 +65,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -122,7 +122,7 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
    * **システム内の全員が閲覧できます** レポートへのアクセス権を持つWorkfront内の全員がレポートを閲覧できるように、このオプションを選択します。
 
-1. （オプション）共有ボックスの右上隅にある **歯車** アイコン ![ 歯車アイコン設定 ](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、オプションで次のオプションを選択します。
+1. （オプション）共有ボックスの右上隅にある **歯車** アイコン ![&#x200B; 歯車アイコン設定 &#x200B;](assets/gear-icon-settings-with-dn-arrow.jpg) をクリックし、オプションで次のオプションを選択します。
 
    * **これを外部ユーザーに公開** 他のユーザーと共有できる URL を生成する場合は、このオプションを選択します。 URL を知っているユーザーは誰でも、Adobe Workfront のライセンスを持っていなくてもレポートにアクセスできます。
 
@@ -132,6 +132,6 @@ Adobe Workfront 管理者は、ユーザーにアクセスレベルを割り当�
 
      >[!NOTE]
      >
-     >報告書にプロンプトがあり、それを公開で共有する場合、公開共有リンクを介して報告書を実行しているユーザーは、プロンプトを使用して報告書を実行できません。 Workfrontにログインして、公開共有リンクを使用せずにレポートにアクセスしない限り、レポートはプロンプトの適用なしで表示されます。 プロンプトを使用したレポートの共有制限の詳細については、「[ プロンプトをレポートに追加する ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) の記事の [ プロンプト レポートの共有制限 ](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) を参照してください。
+     >報告書にプロンプトがあり、それを公開で共有する場合、公開共有リンクを介して報告書を実行しているユーザーは、プロンプトを使用して報告書を実行できません。 Workfrontにログインして、公開共有リンクを使用せずにレポートにアクセスしない限り、レポートはプロンプトの適用なしで表示されます。 プロンプトを使用したレポートの共有制限の詳細については、「[&#x200B; プロンプトをレポートに追加する &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md#limitations-of-running-public-prompted-reports) の記事の [&#x200B; プロンプト レポートの共有制限 &#x200B;](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md) を参照してください。
 
 1. **保存**&#x200B;をクリックします。

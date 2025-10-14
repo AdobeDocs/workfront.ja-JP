@@ -62,7 +62,7 @@ ht-degree: 95%
 ## プロジェクトからテンプレートを作成
 
 1. テンプレートとして保存するプロジェクトに移動します。
-1. **その他** メニュー ![ その他アイコン ](assets/qs-more-icon-on-an-object.png) をクリックしてから、**テンプレートとして保存** をクリックします。
+1. **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックしてから、**テンプレートとして保存** をクリックします。
 1. テンプレートに次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -94,17 +94,17 @@ ht-degree: 95%
 
 1. 「**フォームの管理**」をクリックして、フォームを削除または並べ替えます。テンプレートのカスタムフォームを削除して並べ替える方法については、[カスタムフォーム](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)を参照してください。
 
-   ![ テンプレートとして保存の最初の手順 ](assets/save-as-template-first-step-350x159.png)
+   ![&#x200B; テンプレートとして保存の最初の手順 &#x200B;](assets/save-as-template-first-step-350x159.png)
 
 1. 「**次の手順**」をクリックします。
 1. **オプション**&#x200B;セクションで、テンプレートから削除する情報の横にあるチェックボックスを選択します。
 
-   ![ テンプレートとして保存オプション ](assets/save-as-template-options-step-350x109.png)
+   ![&#x200B; テンプレートとして保存オプション &#x200B;](assets/save-as-template-options-step-350x109.png)
 
 1. 「**次の手順**」をクリックします。
 1. **除外**&#x200B;セクションで、プロジェクトから除外するタスクを選択します。
 
-   ![ テンプレートとして保存で除外 ](assets/save-as-template-exclude-350x205.png)
+   ![&#x200B; テンプレートとして保存で除外 &#x200B;](assets/save-as-template-exclude-350x205.png)
 
 1. 「**完了してテンプレートを保存**」をクリックします。
 

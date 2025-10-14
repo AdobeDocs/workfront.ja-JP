@@ -32,9 +32,9 @@ ht-degree: 94%
 
 プロジェクトの整合性スコアは、[!UICONTROL ポートフォリオオプティマイザー]の&#x200B;**[!UICONTROL 整合性]**&#x200B;列、または[!UICONTROL ビジネスケースの概要]の「[!UICONTROL 整合性]」フィールドに表示されます。
 
-![ ビジネスケースの概要 ](assets/business-case-summary-aligned-field-highlighted.png)
+![&#x200B; ビジネスケースの概要 &#x200B;](assets/business-case-summary-aligned-field-highlighted.png)
 
-![ プロジェクトの整合性スコア ](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![&#x200B; プロジェクトの整合性スコア &#x200B;](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 プロジェクトの整合性スコアを生成する方法について詳しくは、[プロジェクトへのスコアカードの適用と整合性スコアの生成](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)の記事を参照してください。
 
@@ -44,7 +44,7 @@ ht-degree: 94%
 >
 >[!UICONTROL ポートフォリオオプティマイザー]でプロジェクトをスコアリングできるのは、ビジネスケースが完了した場合だけです。ビジネスケースの完了について詳しくは、プロジェクトの[[!UICONTROL ビジネスケースの作成]](../../../manage-work/projects/define-a-business-case/create-business-case.md)の記事を参照してください。
 
-![ プロジェクトスコア ](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![&#x200B; プロジェクトスコア &#x200B;](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 各プロジェクトのスコアは、次のカテゴリの重要度に基づいて計算されます。
 
@@ -87,7 +87,7 @@ ht-degree: 94%
 * [!UICONTROL 危険と便益]
 * [!UICONTROL ROI]
 
-![ スライドの値のオプション ](assets/optimizer-sliding-value-options-350x77.png)
+![&#x200B; スライドの値のオプション &#x200B;](assets/optimizer-sliding-value-options-350x77.png)
 
 ポートフォリオ内のプロジェクトを最適化する方法について詳しくは、[[!UICONTROL ポートフォリオオプティマイザー]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)でのプロジェクトの最適化を参照してください。
 

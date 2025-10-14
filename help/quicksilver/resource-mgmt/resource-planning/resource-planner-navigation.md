@@ -32,7 +32,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 ## プロジェクトのタイムライン
 
-![ タイムラインカレンダー ](assets/calendar-months.png)
+![&#x200B; タイムラインカレンダー &#x200B;](assets/calendar-months.png)
 
 
 リソースプランナーの上部にあるカレンダーを使用して、表示しているプロジェクトのタイムラインに移動します。タイムラインは、デフォルトで今月から始まります。
@@ -41,7 +41,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 ## 期間の選択  {#timeframe-selection}
 
-![ 期間の選択 ](assets/timeframe-selection.png)
+![&#x200B; 期間の選択 &#x200B;](assets/timeframe-selection.png)
 
 デフォルトでは、リソースプランナーは今月を起点として、一度に 3 か月または 4 か月のリソース情報を表示します。 表示される期間の数は、画面の幅によって異なります。
 
@@ -76,7 +76,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 ## プロジェクト／役割／ユーザービューの選択
 
-![ プロジェクト、役割またはユーザー別に表示 ](assets/view-by-drop-down.png)
+![&#x200B; プロジェクト、役割またはユーザー別に表示 &#x200B;](assets/view-by-drop-down.png)
 
 情報の表示方法に応じて、リソースプランナーの表示を変更できます。
 
@@ -89,7 +89,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
   選択したビューに応じて、リソースプランナーに表示される列の内容に関して詳しくは、[Adobe Workfront リソースプランナーを使用したリソースの空き時間と割り当てをレビュー](../../resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)を参照してください。
 
-リソースプランナーに正確な情報を表示するには、一連の前提条件を満たす必要があります。前提条件について詳しくは、「リソースプランナーの概要 [ 記事のリソースプランナーでの作業の前提条件を参照し ](../../resource-mgmt/resource-planning/get-started-resource-planner.md) ください。
+リソースプランナーに正確な情報を表示するには、一連の前提条件を満たす必要があります。前提条件について詳しくは、「リソースプランナーの概要 [&#x200B; 記事のリソースプランナーでの作業の前提条件を参照し &#x200B;](../../resource-mgmt/resource-planning/get-started-resource-planner.md) ください。
 
 リソースプランナーのビューを変更するには、「ビュー別」ドロップダウンメニューで次のいずれかのビューを選択します。
 
@@ -103,13 +103,13 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 * 表示権限のあるプロジェクトを表示できます。
 * 初めてリソースプランナーにアクセスする場合、デフォルトフィルターでフィルターされたプロジェクトを表示できます。\
-  詳しくは、[ リソースプランナーでの情報のフィルタリング ](../../resource-mgmt/resource-planning/filter-resource-planner.md) を参照してください。
+  詳しくは、[&#x200B; リソースプランナーでの情報のフィルタリング &#x200B;](../../resource-mgmt/resource-planning/filter-resource-planner.md) を参照してください。
 
 * 表示する項目の数、またはプロジェクト ビューからエクスポートできる項目の数は、パフォーマンスを向上させるために制限されています。\
-  詳細については、「リソース プランナの表示制限 [ に関する記事のプロジェクト ビューの制限事項を参照し ](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) ください。
+  詳細については、「リソース プランナの表示制限 [&#x200B; に関する記事のプロジェクト ビューの制限事項を参照し &#x200B;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) ください。
 
 * プロジェクトは、優先度順でプロジェクトビューに表示されます。\
-  詳細については、この記事の [ プロジェクト計画の優先度 ](#project-planning-priority) セクションを参照してください。
+  詳細については、この記事の [&#x200B; プロジェクト計画の優先度 &#x200B;](#project-planning-priority) セクションを参照してください。
 
 * 各プロジェクトを展開すると、そのプロジェクトに関連付けられている担当業務を表示できます。
 
@@ -134,7 +134,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 * これらのプロジェクトに関連付けられた役割を表示するには、少なくともリソース管理に対する表示アクセス権と、プロジェクトに対する表示権限が必要です。
 * 各役割を展開すると、プロジェクトのリストを表示でき、各プロジェクトを展開すると、プロジェクトでそれらの役割を果たすことのできるユーザーのリストを表示できます。
 * パフォーマンスを向上させるために、役割ビューから表示または書き出せる項目の数は制限されています。\
-  詳しくは、[ リソースプランナーの表示制限 ](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) の役割ビューの制限事項を参照してください。
+  詳しくは、[&#x200B; リソースプランナーの表示制限 &#x200B;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) の役割ビューの制限事項を参照してください。
 
 * プロジェクトは、プロジェクトビューに表示されるのと同じ優先順位で、担当業務の下に表示されます。
 * このビューを適用すると、プロジェクト時間、FTE またはコストが、役割時間、FTE またはコストに加算されます。
@@ -160,13 +160,13 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 * 表示権限を持つすべてのユーザー（最大 2,000 人のユーザー）がアクティブで、Adobe Workfrontに少なくとも 1 回ログインしたことを確認できます。 チーム、担当業務またはプールでユーザーリストをフィルターして、それらのエンティティのみに関連付けられたユーザーを表示します。
 * ユーザーのリストをプロジェクト別にフィルタリングした場合は、フィルタリングされたプロジェクトに関連付けられているユーザーのみを展開でき、時間情報を表示できます。\
-  詳しくは、[ リソースプランナーでの情報のフィルタリング ](../../resource-mgmt/resource-planning/filter-resource-planner.md) を参照してください。
+  詳しくは、[&#x200B; リソースプランナーでの情報のフィルタリング &#x200B;](../../resource-mgmt/resource-planning/filter-resource-planner.md) を参照してください。
 
 * 表示する項目またはユーザービューからエクスポートできる項目の数は、パフォーマンスを向上させるために制限されています。\
-  詳しくは、[ リソースプランナーの表示制限 ](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) のユーザービューの制限事項を参照してください。
+  詳しくは、[&#x200B; リソースプランナーの表示制限 &#x200B;](../../resource-mgmt/resource-planning/resource-planner-display-limitations.md) のユーザービューの制限事項を参照してください。
 
 * プロジェクトは、ユーザーの名前の下に、[ プロジェクト ビュー ] に表示されているのと同じ優先順位で一覧表示されます。\
-  詳細については、この記事の [ プロジェクト計画の優先度 ](#project-planning-priority) セクションを参照してください。
+  詳細については、この記事の [&#x200B; プロジェクト計画の優先度 &#x200B;](#project-planning-priority) セクションを参照してください。
 
 * ユーザーに担当業務が関連付けられていない場合、時間または FTE の値は「役割なし」セクションに表示されます。
 * このビューを適用すると、プロジェクト時間または FTE が、ユーザー時間または FTE に加算されます。
@@ -203,11 +203,11 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 * 表示権限のあるプロジェクト。 また、アクセスレベルでリソース管理を表示するアクセス権が必要です。
 
-  詳しくは、[Adobe Workfrontでリソースを計上するために必要なアクセス ](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md) を参照してください。
+  詳しくは、[Adobe Workfrontでリソースを計上するために必要なアクセス &#x200B;](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md) を参照してください。
 
 * リソースプランナーに適用するフィルターによって制限されるプロジェクト。
 
-  詳しくは、[ リソースプランナーでの情報のフィルタリング ](../../resource-mgmt/resource-planning/filter-resource-planner.md) を参照してください。
+  詳しくは、[&#x200B; リソースプランナーでの情報のフィルタリング &#x200B;](../../resource-mgmt/resource-planning/filter-resource-planner.md) を参照してください。
 
   >[!NOTE]
   >
@@ -217,9 +217,9 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 プロジェクトは、リソースプランナー内に優先度に従ってリストされ、最も重要なプロジェクトが最上位に表示されます。優先度は、プロジェクト名の前に数字で示されます。
 
-![ プロジェクト計画優先度 ](assets/project-ranking.png)
+![&#x200B; プロジェクト計画優先度 &#x200B;](assets/project-ranking.png)
 
-また、設定を有効にして、ポートフォリオに関連付けられている場合に、ポートフォリオに従ってプロジェクトの優先度を表示することもできます。 詳しくは、[ リソースプランナーでプロジェクトの優先順位を付ける ](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md) を参照してください。
+また、設定を有効にして、ポートフォリオに関連付けられている場合に、ポートフォリオに従ってプロジェクトの優先度を表示することもできます。 詳しくは、[&#x200B; リソースプランナーでプロジェクトの優先順位を付ける &#x200B;](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md) を参照してください。
 
 ## 担当業務名
 
@@ -229,7 +229,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 * タスクに割り当てられていないが、プロジェクトのリソースプールに関連付けられたユーザーのプライマリ担当業務である担当業務。
 * 担当業務内のタスクに割り当てられているユーザーのセカンダリ担当業務。
 * プロファイルに FTE 可用性の有効な割合があるユーザーのセカンダリ担当業務。\
-  担当業務の FTE 可用性の割合について詳しくは、[ ユーザープロファイルの編集 ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
+  担当業務の FTE 可用性の割合について詳しくは、[&#x200B; ユーザープロファイルの編集 &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
 
 >[!NOTE]
 >
@@ -238,7 +238,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 ## ユーザー名
 
 リソースプランナーのプロジェクトビューと役割ビューに表示されるユーザーは、プロジェクトに関連付けられたリソースプールに属します。\
-詳細については、[ リソース プールとユーザーの関連付け ](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md) を参照してください。
+詳細については、[&#x200B; リソース プールとユーザーの関連付け &#x200B;](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md) を参照してください。
 
 すべてのユーザー（お持ちのアクセス権の対象になっているユーザーと、Workfront に 1 回以上ログインしたユーザー）がユーザービューに表示されます。
 
@@ -249,7 +249,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
    * セカンダリ担当業務のユーザープロファイルに、FTE 可用性の割合に対する有効な数値がある場合。
    * これらの役割のタスクにユーザーが割り当てられているかどうか。
-担当業務の FTE 可用性の割合について詳しくは、[ ユーザープロファイルの編集 ](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
+担当業務の FTE 可用性の割合について詳しくは、[&#x200B; ユーザープロファイルの編集 &#x200B;](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) を参照してください。
 
 ## 「役割なし」および「ユーザーなし」セクション
 
@@ -266,13 +266,13 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 リソースプランナーの「ユーザーなし」セクションで、プロジェクトのタスクに起因する予定時間数を確認できますが、これらの割り当てを予算に計上することはできません。
 
-![ ユーザーセクションなし ](assets/no-user.png)
+![&#x200B; ユーザーセクションなし &#x200B;](assets/no-user.png)
 
 ## フィルター
 
 フィルターを使用すると、リソースプランナーに表示する情報を制限できます。
 
-![ フィルターボタン ](assets/filter-button.png)
+![&#x200B; フィルターボタン &#x200B;](assets/filter-button.png)
 
 リソースプランナーでのフィルタリングに関して詳しくは、[リソースプランナーの情報をフィルタリング](../../resource-mgmt/resource-planning/filter-resource-planner.md)を参照してください。
 
@@ -280,7 +280,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 「設定」領域で、リソースプランナー内の情報の表示/非表示を切り替えるオプションを有効または無効にすることができます。 「リソースプランナー設定」ダイアログボックスを開くには、ページの右上隅にある「設定」アイコンをクリックします。
 
-![ リソースプランナー設定アイコン ](assets/settings-icon.png)
+![&#x200B; リソースプランナー設定アイコン &#x200B;](assets/settings-icon.png)
 
 ここから、次の設定の一方または両方を有効にできます。
 
@@ -301,7 +301,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
   リソースプランナーでのプロジェクトの優先順位付けについては、[リソースプランナーでのプロジェクトの優先順位付け](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md)を参照してください。
 
 
-  ![ リソース プランナの設定 ](assets/resource-planner-settings.png)
+  ![&#x200B; リソース プランナの設定 &#x200B;](assets/resource-planner-settings.png)
 
 ## 全画面オプション
 
@@ -315,7 +315,7 @@ Adobe Workfront リソースプランナーを使用すると、リソースの�
 
 ## 書き出しオプション
 
-![ 書き出しボタン ](assets/export-button-highlighted-resource-planner-350x92.png)
+![&#x200B; 書き出しボタン &#x200B;](assets/export-button-highlighted-resource-planner-350x92.png)
 
 リソースプランナーの任意のビューから Excel（.xlsx）ファイルに情報を書き出すことができます。
 

@@ -20,7 +20,7 @@ ht-degree: 24%
 ワークスペースは、組織単位で使用されるレコードタイプのコレクションであり、単位の作業ライフサイクルとプロセスを表します。 Adobe Workfront Planning では、ワークスペースを完全にカスタマイズできます。
 
 
-![Workspaces ランディングページの管理者アカウント ](assets/workspaces-landing-page-admin-account.png)
+![Workspaces ランディングページの管理者アカウント &#x200B;](assets/workspaces-landing-page-admin-account.png)
 
 ## ワークスペースに関する考慮事項
 
@@ -34,7 +34,7 @@ ht-degree: 24%
   詳しくは、[ワークスペースの概要](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
 * ワークスペースは、組織単位（チーム、グループ、部門、部門）が機能するフレームワークです。 フィールドに関連付けることはできません。 フィールドに関連付けることができるのは、ワークスペース内のレコードタイプのみです。
 
-  詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
+  詳しくは、[&#x200B; レコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 * Workfront ライセンスに応じて、ワークスペースは計画領域の次のタブに表示されます。
 
    * システム管理者の場合、ワークスペースは次のタブに表示されます。
@@ -55,4 +55,4 @@ ht-degree: 24%
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
-* Workfront Planning のインスタンスで作成できるワークスペース・オブジェクトの数には制限があります。 詳しくは、[Adobe Workfront Planning オブジェクトの制限事項の概要 ](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。
+* Workfront Planning のインスタンスで作成できるワークスペース・オブジェクトの数には制限があります。 詳しくは、[Adobe Workfront Planning オブジェクトの制限事項の概要 &#x200B;](/help/quicksilver/planning/general/limitations-overview.md) を参照してください。

@@ -107,4 +107,4 @@ ht-degree: 84%
 
    >[!TIP]
    >
-   >タイムシートのリストで標準ビューを使用するとき、タイムシートの項目に記録された時間がタイムシートの時間枠の時間数を超えると、「合計時間」列が赤で表示されます。 詳しくは、[Adobe Workfront用語の用語集 ](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) の「合計時間数」フィールドを参照してください。
+   >タイムシートのリストで標準ビューを使用するとき、タイムシートの項目に記録された時間がタイムシートの時間枠の時間数を超えると、「合計時間」列が赤で表示されます。 詳しくは、[Adobe Workfront用語の用語集 &#x200B;](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) の「合計時間数」フィールドを参照してください。

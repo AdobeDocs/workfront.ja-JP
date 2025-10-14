@@ -18,11 +18,11 @@ ht-degree: 16%
 
 この記事では、2024 年第 4 四半期リリースでWorkfront Planning にリリースされる機能について説明します。
 
-このリリースに含まれる機能について詳しくは、[2024 年のAdobe Workfront計画リリースアクティビティ ](/help/quicksilver/planning/general/release-activity.md) を参照してください。
+このリリースに含まれる機能について詳しくは、[2024 年のAdobe Workfront計画リリースアクティビティ &#x200B;](/help/quicksilver/planning/general/release-activity.md) を参照してください。
 
 <!--keep the sentence below for all future quarterly release pages-->
 
-Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 ](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
+Adobe Workfront Planning 用にリリースされたすべての機能の一覧については、[Adobe Workfront Planning リリース アクティビティ：記事一覧 &#x200B;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) を参照してください。
 
 ## 接続されたレコードの表示オプション
 
@@ -50,7 +50,7 @@ Adobe Workfront Planning 用にリリースされたすべての機能の一覧�
 
 この機能強化の前は、レコードの「詳細」タブを Word （.docx）ファイルにのみ書き出すことができました。
 
-詳しくは、[ レコードの詳細のエクスポート ](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
+詳しくは、[&#x200B; レコードの詳細のエクスポート &#x200B;](/help/quicksilver/planning/records/export-the-record-page.md) を参照してください。
 
 ## Adobe Workfront Planning の一般提供
 
@@ -68,4 +68,4 @@ Adobe Workfront Planning の主な機能の一部を次に示します。
 
 * 他のシステムのオブジェクトタイプに接続し、すべてのプロセスで一貫したフレームワークを作成します。
 
-Workfront計画の詳細については、[Adobe Workfront計画の概要 ](/help/quicksilver/planning/general/planning-overview.md) を参照してください。
+Workfront計画の詳細については、[Adobe Workfront計画の概要 &#x200B;](/help/quicksilver/planning/general/planning-overview.md) を参照してください。

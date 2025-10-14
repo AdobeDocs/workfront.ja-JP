@@ -32,7 +32,7 @@ ht-degree: 71%
 >   * プロまたはそれ以上
 >   * Workfront ライセンスに加えて、Adobe Workfront Goals ライセンス。
 >
->*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+>*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 >
 >
 >Workfront Goals ライセンスについては、Workfront のアカウントマネージャーにお問い合わせください。

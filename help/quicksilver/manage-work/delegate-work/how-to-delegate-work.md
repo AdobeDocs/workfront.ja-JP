@@ -107,11 +107,11 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 1. [!UICONTROL **ホーム**] エリアに移動します。
 1. [!UICONTROL **マイ作業**]、[!UICONTROL **マイタスク**] または [!UICONTROL **マイイシュー**] ウィジェットが [!UICONTROL **ホーム**] に追加されていることを確認します。
 
-   詳しくは、[ ホームでのウィジェットの追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
+   詳しくは、[&#x200B; ホームでのウィジェットの追加、編集、削除 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) を参照してください。
 
 1. [!UICONTROL **マイ作業**]、[!UICONTROL **マイタスク**] または [!UICONTROL **マイイシュー[!UICONTROL **&#x200B; ウィジェットの左上隅にある &#x200B;**]委任**] をクリックします。
 
-   ![ 委任ボタン ](assets/delegate-button-on-my-work-widget.png)
+   ![&#x200B; 委任ボタン &#x200B;](assets/delegate-button-on-my-work-widget.png)
 
 1. 次を更新します。
 
@@ -133,7 +133,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
      >
      >「終了日」フィールドを空のままにし、「終了日なし」オプションを選択していない場合、デリゲーションは現在の日に対してのみ設定されます。
 
-     ![ 展開された代理ボックス ](assets/delegate-box-expanded-in-home.png)
+     ![&#x200B; 展開された代理ボックス &#x200B;](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. 「[!UICONTROL **保存**]」をクリックします。
@@ -158,7 +158,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
       </MadCap:conditionalText>
       -->
 
-     ![ デリゲーションを編集ボタン ](assets/edit-delegation-button-on-my-work-widget.png)
+     ![&#x200B; デリゲーションを編集ボタン &#x200B;](assets/edit-delegation-button-on-my-work-widget.png)
 
    * イベント通知と個人通知が有効になっている場合は、デリゲーションの確認メールも送信されます。
 
@@ -179,7 +179,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    >
    >    デリゲーションが既に開始している場合は、デリゲーションの「終了日」のみを編集できます。
 
-   ![ 委任を停止ボタン ](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![&#x200B; 委任を停止ボタン &#x200B;](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. （条件付き）「[!UICONTROL **保存**]」をクリックして新しいデリゲーション日を保存します
 
@@ -213,11 +213,11 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
 
   タスクまたはイシューのヘッダーの「[!UICONTROL 割り当て]」フィールドが、「[!UICONTROL 割り当てとデリゲーション]」に変更されます。
 
-  ![ タスクヘッダーの割り当てと委任パネル ](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![&#x200B; タスクヘッダーの割り当てと委任パネル &#x200B;](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * タスクまたはイシューを手動で割り当てる際の[!UICONTROL ワークロードバランサー]
 
-  ![ バランサーの割り当てと委任パネル ](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![&#x200B; バランサーの割り当てと委任パネル &#x200B;](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ I wrote this as a "Manage..." article and I did not add three separate articles,
    * [!UICONTROL **自分にデリゲート済み**]：別のユーザーが自分にデリゲートしたタスクとイシューを表示します。
    * [!UICONTROL **自分がデリゲート済み**]：自分が他のユーザーにデリゲートしたタスクとイシューを表示します。
 
-     ![ 委任されたタスクと問題フィルター ](assets/delegated-tasks-and-issues-new-home-filter.png)
+     ![&#x200B; 委任されたタスクと問題フィルター &#x200B;](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. （オプション） [!UICONTROL **並べ替え**] ドロップダウンメニューをクリックして、次の条件でリストを並べ替えます。
    * [!UICONTROL &#x200B; 期限 &#x200B;]. これはデフォルトの並べ替えオプションです。

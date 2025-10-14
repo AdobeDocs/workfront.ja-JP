@@ -21,7 +21,7 @@ ht-degree: 80%
 
 [!DNL Adobe Workfront] では、ポートフォリオは、同じリソース、予算、スケジュール、優先度で競い合うプロジェクトの集まりを表します。ポートフォリオの主な目的は、企業にとって最も有益なプロジェクトを選択する際に、経営幹部やプロジェクトマネージャーを支援することです。
 
-ポートフォリオについて詳しくは、[ [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) のポートフォリオの概要を参照してください。
+ポートフォリオについて詳しくは、[&#x200B; [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md) のポートフォリオの概要を参照してください。
 
 ## アクセス要件
 
@@ -54,13 +54,13 @@ ht-degree: 80%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
 ## ポートフォリオ内での移動
 
-1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニュー ](assets/main-menu-icon.png) をクリックします。
+1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニュー &#x200B;](assets/main-menu-icon.png) をクリックします。
 
 1. 「[!UICONTROL ポートフォリオ]」をクリックします。
 1. **[!UICONTROL フィルター]**&#x200B;ドロップダウンメニューから、次の項目を選択します。
@@ -68,7 +68,7 @@ ht-degree: 80%
    * **[!UICONTROL 所有ポートフォリオ]**：[!UICONTROL ポートフォリオ管理者]に指定されたポートフォリオのリストを含みます。
    * **[!UICONTROL すべて]**：少なくとも表示へのアクセス権を持つすべてのポートフォリオが含まれます。
 
-     ポートフォリオへのアクセスについて詳しくは、[ アクセスレベルの概要 ](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
+     ポートフォリオへのアクセスについて詳しくは、[&#x200B; アクセスレベルの概要 &#x200B;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) を参照してください。
 ポートフォリオに対する権限について詳しくは、[ポートフォリオの共有](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md)を参照してください。
 
      新しいポートフォリオを追加するには、[ポートフォリオの作成](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)を参照してください。
@@ -109,7 +109,7 @@ ht-degree: 80%
 
 1. （オプション）左側のパネルの「**[!UICONTROL ポートフォリオ最適化]**」をクリックして、ポートフォリオのパフォーマンスを最適化します。
 
-   ![Portfolio Optimizer とプロジェクト ](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio Optimizer とプロジェクト &#x200B;](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
@@ -119,7 +119,7 @@ ht-degree: 80%
 
 1. （オプション）左側のパネルの「**ドキュメント**」をクリックして、ドキュメントをポートフォリオに添付します。
 1. （オプション）左パネルの「**[!UICONTROL 更新]**」をクリックして、ポートフォリオの更新ストリームにコメントを追加します。詳しくは、[作業の更新](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)を参照してください。
-1. （オプション） **[!UICONTROL 詳細 &#x200B;] メニュー**![ 詳細メニュー ](assets/qs-more-icon-on-an-object.png) をクリックして、次のいずれかの操作を行います。
+1. （オプション） **[!UICONTROL 詳細 &#x200B;] メニュー**![&#x200B; 詳細メニュー &#x200B;](assets/qs-more-icon-on-an-object.png) をクリックして、次のいずれかの操作を行います。
 
    * ポートフォリオをディアクティベートします。ポートフォリオをディアクティベートすると、プロジェクトレベルでプロジェクトに関連付けることができなくなります。
    * ポートフォリオを削除します。
@@ -130,4 +130,4 @@ ht-degree: 80%
 
    * 他のユーザーとポートフォリオを共有します。
 
-1. （任意）ポートフォリオ名の右側にある **スター** アイコン ![ スターアイコン ](assets/qs-star-icon-favorites-39x38.png) をクリックして、ポートフォリオをお気に入りのリストに追加します。
+1. （任意）ポートフォリオ名の右側にある **スター** アイコン ![&#x200B; スターアイコン &#x200B;](assets/qs-star-icon-favorites-39x38.png) をクリックして、ポートフォリオをお気に入りのリストに追加します。

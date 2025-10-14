@@ -66,7 +66,7 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
 
    既存の条件を編集するには、条件名の横にある **編集** をクリックします。
 
-   ![ カスタム条件を編集 ](assets/custom-conditions-0825.png)
+   ![&#x200B; カスタム条件を編集 &#x200B;](assets/custom-conditions-0825.png)
 
 1. 次のオプションを使用して、カスタム条件を設定します。
 
@@ -110,21 +110,21 @@ Adobe Workfront 管理者は、組織のニーズに合わせて、プロジェ�
    >
    >条件の用語と色は、3 つのオブジェクトタイプすべてにわたって標準化できます。それには、条件名と色の 16 進コードを、1 つのタブ（「プロジェクト」、「タスク」、「イシュー」）から他の 2 つのタブの対応する条件にコピーします。
 
-1. （任意）任意の条件 ![ 移動アイコン ](assets/move-icon---dots.png) を新しい位置にドラッグして、リストを並べ替えます。
+1. （任意）任意の条件 ![&#x200B; 移動アイコン &#x200B;](assets/move-icon---dots.png) を新しい位置にドラッグして、リストを並べ替えます。
 
    これにより、プロジェクト、タスクおよびイシューでの条件の表示順序が変わります。
 
    * ユーザーがプロジェクトを編集する場合：
 
-     ![ プロジェクト編集時の条件の変更 ](assets/change-condition-edit-project-0825.png)
+     ![&#x200B; プロジェクト編集時の条件の変更 &#x200B;](assets/change-condition-edit-project-0825.png)
 
    * ユーザーがリスト表示でタスクまたはイシューの条件を変更する場合
 
-     ![ リストの条件を変更 ](assets/change-conditions-list-dropdown-0925.png)
+     ![&#x200B; リストの条件を変更 &#x200B;](assets/change-conditions-list-dropdown-0925.png)
 
      >[!NOTE]
      >
-     >デフォルトの条件ビューでは、「**条件**」フィールドはインラインで編集できないタイプのフィールドです。 **条件** フィールドを個別にビューに追加した場合は、編集が可能です。 インライン編集について詳しくは、[Adobe Workfrontのリスト内の項目をインライン編集 ](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) を参照してください。
+     >デフォルトの条件ビューでは、「**条件**」フィールドはインラインで編集できないタイプのフィールドです。 **条件** フィールドを個別にビューに追加した場合は、編集が可能です。 インライン編集について詳しくは、[Adobe Workfrontのリスト内の項目をインライン編集 &#x200B;](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md) を参照してください。
 
 1. 「**保存**」をクリックします。
 

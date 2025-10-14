@@ -30,7 +30,7 @@ ht-degree: 20%
 
 次のオブジェクトは、すでにビジネス・ルールでサポートされています：プロジェクト、タスク、リクエスト、Portfolio、プログラム、費用、請求記録、グループ、リスク、レート・カード。
 
-詳細は、[ ビジネス・ルールの作成および編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
+詳細は、[&#x200B; ビジネス・ルールの作成および編集 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
 
 ## 環境プロモーションのために環境間でオブジェクトを比較
 
@@ -42,7 +42,7 @@ ht-degree: 20%
 
 以前は、ユーザーが環境間でオブジェクトを比較する場合は、それらのオブジェクトを手動で確認する必要がありました。
 
-詳しくは、[ 環境間でオブジェクトを比較する ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md) を参照してください。
+詳しくは、[&#x200B; 環境間でオブジェクトを比較する &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md) を参照してください。
 
 ## 環境プロモーションに利用できるその他のオブジェクト
 
@@ -58,7 +58,7 @@ ht-degree: 20%
 
 以前は、これらのオブジェクトは、環境のプロモーションには使用できませんでした。
 
-環境のプロモーションに使用できるオブジェクトの詳細については、「環境のプロモーションの概要」の [ 環境のプロモーションでサポートされているオブジェクト ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) を参照してください。
+環境のプロモーションに使用できるオブジェクトの詳細については、「環境のプロモーションの概要」の [&#x200B; 環境のプロモーションでサポートされているオブジェクト &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) を参照してください。
 
 ## 時間が記録されている場合にタスクを移動できないようにする
 
@@ -88,7 +88,7 @@ ht-degree: 20%
 
 ビジネス ルールのカスタム エラーメッセージにハイパーリンクを含めて、ルールの制約内でアクションを変更する方法をユーザーに示すことができるようになりました。 静的 URL は、ユーザーに役立つドキュメントやその他のページにリンクできます。
 
-詳細は、[ ビジネス・ルールの作成および編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
+詳細は、[&#x200B; ビジネス・ルールの作成および編集 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md) を参照してください。
 
 ## ネイティブの先行入力フィールドのフィルタリングが利用できるようになりました
 
@@ -98,7 +98,7 @@ ht-degree: 20%
 
 カスタムフォームにネイティブフィールド参照を追加し、先行入力フィールド（Portfolio、会社、所有者など）を参照する場合、フィルターオプションを使用できるようになりました。 フィルターを使用すると、ユーザーがフィールドを使用する際に選択できるオブジェクトを制限できます。 このカスタムフィルターは、カスタム先行入力フィールドに対するフィルターと同じように機能し、テキストモードを使用してフィルターを定義します。
 
-詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## カスタムフィールドに「移動先」アイコンが追加されました
 
@@ -108,4 +108,4 @@ ht-degree: 20%
 
 カスタムフォームに、多数のフィールドを含む複数のセクションが含まれている場合、ドラッグ&amp;ドロップでセクション間でフィールドを移動するのが難しい場合があります。 各フィールドに「移動先」アイコンが追加され、フィールドを配置するセクションを選択できるようになりました。
 
-詳しくは、[ フォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
+詳しくは、[&#x200B; フォームの整理とプレビュー &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。

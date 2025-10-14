@@ -118,8 +118,8 @@ ht-degree: 83%
 
 1. アクティブ化する目標に移動します。目標ページが開きます。
 
-1. 目標名の右側にある **その他** メニュー ![ その他のアイコン ](../goal-management/assets/more-icon.png) をクリックしてから、「**アクティベート**」をクリックします。
+1. 目標名の右側にある **その他** メニュー ![&#x200B; その他のアイコン &#x200B;](../goal-management/assets/more-icon.png) をクリックしてから、「**アクティベート**」をクリックします。
 
-   ![ 詳細メニューが展開されました ](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![&#x200B; 詳細メニューが展開されました &#x200B;](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    目標のステータスがアクティブに変わります。目標の進捗状況をトラックできるようになり、目標はチェックインセクションに表示されるほか、Workfront 目標のグラフセクションでも考慮されるようになりました。

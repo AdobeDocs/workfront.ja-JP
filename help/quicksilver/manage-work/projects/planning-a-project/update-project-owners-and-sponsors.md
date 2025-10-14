@@ -89,7 +89,7 @@ Adobe Workfront でプロジェクトを作成すると、自動的にそのプ�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -99,7 +99,7 @@ Adobe Workfront でプロジェクトを作成すると、自動的にそのプ�
 
 1. 更新するプロジェクトに移動します。
 1. 左側のパネルで「**プロジェクト詳細**」をクリックします。
-1. 「プロジェクトの詳細」領域の右上隅にある **編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックしてから、「**概要** をクリックします。
+1. 「プロジェクトの詳細」領域の右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックしてから、「**概要** をクリックします。
 
 1. 「**プロジェクト所有者**」フィールドのユーザーの名前を指定します。
 
@@ -109,7 +109,7 @@ Adobe Workfront でプロジェクトを作成すると、自動的にそのプ�
 
    プロジェクトヘッダーおよび「プロジェクト詳細」エリアの「プロジェクト所有者」が更新されます。
 
-   ![ プロジェクトの利害関係者の所有者がハイライト表示されている ](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![&#x200B; プロジェクトの利害関係者の所有者がハイライト表示されている &#x200B;](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## プロジェクトのプロジェクトスポンサーの更新
 
@@ -121,7 +121,7 @@ Adobe Workfront でプロジェクトを作成すると、自動的にそのプ�
 
 1. 更新するプロジェクトに移動します。
 1. 左パネルの「**プロジェクト詳細**」をクリックします。
-1. 「プロジェクトの詳細」領域の右上隅にある **編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックしてから、「**概要** をクリックします。
+1. 「プロジェクトの詳細」領域の右上隅にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックしてから、「**概要** をクリックします。
 
 1. 「**プロジェクトスポンサー**」フィールドのユーザーの名前を指定します。
 
@@ -131,4 +131,4 @@ Adobe Workfront でプロジェクトを作成すると、自動的にそのプ�
 
    「プロジェクト詳細」エリアの「プロジェクトスポンサー」が更新されます。
 
-   ![ プロジェクト関係者のスポンサーがハイライト表示 ](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![&#x200B; プロジェクト関係者のスポンサーがハイライト表示 &#x200B;](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

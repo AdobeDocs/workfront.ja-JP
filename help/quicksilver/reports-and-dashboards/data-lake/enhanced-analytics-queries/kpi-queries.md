@@ -40,7 +40,7 @@ ht-degree: 5%
 
 また、前の期間に完了したプロジェクトの数や、前の期間の日数も確認できます。
 
-![KPI プロジェクト完了 ](assets/kpi-projects-completed-350x182.png)
+![KPI プロジェクト完了 &#x200B;](assets/kpi-projects-completed-350x182.png)
 
 ### クエリ
 
@@ -84,7 +84,7 @@ percentChange d
 
 また、前の期間に時間通りに完了したプロジェクトの割合や、前の期間の日数も確認できます。
 
-![KPI プロジェクトが時間通りに完了しました ](assets/kpi-projects-completed-on-time-350x180.png)
+![KPI プロジェクトが時間通りに完了しました &#x200B;](assets/kpi-projects-completed-on-time-350x180.png)
 
 ```
 WITH completedProjectsInRange as ( 
@@ -160,7 +160,7 @@ percentChange d
 >これは、完了したプロジェクトの期間のみを表します。
 
 
-![KPI 平均プロジェクト期間 ](assets/kpi-avg.-project-duration-350x168.png)
+![KPI 平均プロジェクト期間 &#x200B;](assets/kpi-avg.-project-duration-350x168.png)
 
 ```
 WITH averageProjectDurationInRange as ( 
@@ -199,7 +199,7 @@ percentChange d
 
 また、前の期間のプロジェクトに割り当てられたタスクの平均数や、前の期間の日数も確認できます。
 
-![ プロジェクトあたりの KPI 平均タスク数 ](assets/kpi-average-tasks-per-project-350x179.png)
+![&#x200B; プロジェクトあたりの KPI 平均タスク数 &#x200B;](assets/kpi-average-tasks-per-project-350x179.png)
 
 ```
 WITH tasksPerProjectInRange as ( 

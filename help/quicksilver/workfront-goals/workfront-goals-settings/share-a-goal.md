@@ -117,7 +117,7 @@ ht-degree: 89%
 
 ## 目標を共有する
 
-1. 右上隅の **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png)/**目標** をクリックします。
+1. 右上隅の **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)/**目標** をクリックします。
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -132,7 +132,7 @@ ht-degree: 89%
 
    目標アクセスボックスが表示されます。
 
-   ![ 目標へのアクセス ](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![&#x200B; 目標へのアクセス &#x200B;](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. 次のいずれかの操作を行います。
 

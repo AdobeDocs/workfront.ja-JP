@@ -110,9 +110,9 @@ Adobe Workfront 製品および技術ドキュメントのホームページへ�
 
 ### ラーニングとトレーニングのセクションを検索
 
-* **トレーニング資料**: [Workfront トレーニング ](https://experienceleague.adobe.com/ja/browse/workfront) ページに移動すると、Workfrontの機能と設定をより深く理解するためのトレーニングビデオと記事のライブラリが表示されます。 また、[learning.adobe.com](https://learning.adobe.com/) で有料のトレーニング資料にアクセスすることもできます。
-* **コース**：様々なWorkfront機能を論理的な順序で使用する方法を説明する [ 構造化されたラーニングコース ](https://experienceleague.adobe.com/home?lang=ja&Solution=Workfront#courses) を見つけます。
+* **トレーニング資料**: [Workfront トレーニング &#x200B;](https://experienceleague.adobe.com/ja/browse/workfront) ページに移動すると、Workfrontの機能と設定をより深く理解するためのトレーニングビデオと記事のライブラリが表示されます。 また、[learning.adobe.com](https://learning.adobe.com/) で有料のトレーニング資料にアクセスすることもできます。
+* **コース**：様々なWorkfront機能を論理的な順序で使用する方法を説明する [&#x200B; 構造化されたラーニングコース &#x200B;](https://experienceleague.adobe.com/home?lang=ja&Solution=Workfront#courses) を見つけます。
 
 ### コミュニティフォーラムで回答を検索
 
-* **質問する**: ドキュメントが質問に答えない場合は、[Workfront コミュニティフォーラム ](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja) に投稿してみてください。このフォーラムでは、他のユーザーやエキスパートからサポートを提供しています。
+* **質問する**: ドキュメントが質問に答えない場合は、[Workfront コミュニティフォーラム &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=ja) に投稿してみてください。このフォーラムでは、他のユーザーやエキスパートからサポートを提供しています。

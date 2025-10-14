@@ -140,4 +140,4 @@ A personal goal is a goal where you are designated as the owner.
 
 有効にした通知で定義されたイベントが発生すると、そのイベントを説明するメールが届きます。次は、新しい目標の所有者として割り当てられたことを通知するメールの例です。
 
-![ 目標通知メール ](assets/wf-align-notification-email-350x164.png)
+![&#x200B; 目標通知メール &#x200B;](assets/wf-align-notification-email-350x164.png)

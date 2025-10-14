@@ -21,7 +21,7 @@ ht-degree: 84%
 
 メールの配信を成功に導くために、スパムとしてタグ付けされるメールのスプーフィングを排除します（メールスプーフィングを参照）。Workfrontからのすべてのメールは、自動アラートとユーザー間の通信の両方を含め、`notifications@my.workfront.com` から送信されます。 Joan Harris からのメールの例は、メールの送信元エリアで次のように表示されます。
 
-![ メールの例 ](assets/noreply.png)
+![&#x200B; メールの例 &#x200B;](assets/noreply.png)
 
 *IT チームに問い合わせて* システムへの受信メールで `notifications@my.workfront.com` からのメールがブロックされないようにすることを強くお勧めします。 また、トラフィックとメールの送信元の IP アドレスの詳細については、[ファイアウォールの許可リストの設定](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)を参照してください。
 

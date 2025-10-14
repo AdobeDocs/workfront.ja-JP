@@ -23,14 +23,14 @@ ht-degree: 96%
 
 例えば、3 か月の期間に記録された時間を表示する時間レポートを作成し、その時間を入力したユーザーに基づいて、および月ごとおよび週ごとにレポートを整理することができます。
 
-![ レポートマトリックスの概要 ](assets/report-matrix-overview-350x123.png)
+![&#x200B; レポートマトリックスの概要 &#x200B;](assets/report-matrix-overview-350x123.png)
 
 ## マトリックスレポートでのデータの表示方法
 
 マトリックスレポートの情報は、常に数値として表示されます。ほとんどの場合、数値を含む列は、マトリックスレポートの表示に最適です（記録された時間数や実際のコストなど）。
 
 ただし、次の図に示すように、その他の列（「ステータス」など）もマトリックスレポートに表示できます。\
-![ マトリックスステータス ](assets/report-matrix-status-350x73.png)
+![&#x200B; マトリックスステータス &#x200B;](assets/report-matrix-status-350x73.png)
 
 ## アクセス要件
 
@@ -70,7 +70,7 @@ ht-degree: 96%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -91,7 +91,7 @@ ht-degree: 96%
       >
       >このオプションが選択されていない場合、列の情報はマトリックスレポートに正しく表示されません。
 
-      ![ マトリックスの要約 ](assets/qs-report-matrix-summarized-350x392.png)
+      ![&#x200B; マトリックスの要約 &#x200B;](assets/qs-report-matrix-summarized-350x392.png)
 
    1. 「カラム（表示）」タブの各列に対してこの手順を繰り返し、「**完了**」をクリックします。
 
@@ -105,10 +105,10 @@ ht-degree: 96%
    1. 「**列のグループ化**」セクションで、列のグループ化を指定します。これにより、テーブルの垂直のグループ化が確立されます。
    1. （オプション）列のグループ化を追加するには、「**セカンダリ列のグループ化を追加**」をクリックします。
    1. （条件付き）日付別のグループ化を追加する場合、日別、週別、月別、四半期別、年別のどの方法で結果をグループ化するか指定します。\
-      ![ 日付別グループ化オプション ](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+      ![&#x200B; 日付別グループ化オプション &#x200B;](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
    1. （条件付き）日付別にグループ化し、結果を四半期別に表示する場合、例えば、データのない四半期を表示するかどうかを、「**結果のない四半期を表示**」チェックボックスで選択します。\
-      ![ 結果のない四半期を表示 ](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
+      ![&#x200B; 結果のない四半期を表示 &#x200B;](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >

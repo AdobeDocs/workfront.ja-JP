@@ -56,7 +56,7 @@ ht-degree: 81%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -82,7 +82,7 @@ ht-degree: 81%
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. **[!UICONTROL エクスポート]** アイコン ![ エクスポート ](assets/export.png) をクリックします。
+1. **[!UICONTROL エクスポート]** アイコン ![&#x200B; エクスポート &#x200B;](assets/export.png) をクリックします。
 
 1. 次の形式から選択します。
 

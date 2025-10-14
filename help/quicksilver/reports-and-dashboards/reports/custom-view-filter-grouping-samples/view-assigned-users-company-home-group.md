@@ -20,7 +20,7 @@ ht-degree: 67%
 
 このタスクビューには、タスクのプライマリ所有者の会社とホームグループが表示されます。これらの値は、標準インターフェイスでは使用できませんが、テキストモードでアクセスできます。
 
-![ 割り当てられたユーザーの会社およびホーム グループを表示する ](assets/view--assigned-user-s-company-and-home-group-350x80.png)
+![&#x200B; 割り当てられたユーザーの会社およびホーム グループを表示する &#x200B;](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## アクセス要件
 
@@ -58,7 +58,7 @@ ht-degree: 67%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

@@ -90,7 +90,7 @@ ht-degree: 79%
 
    [!UICONTROL サポート]ホームページから、未解決のサポートケースに移動したり、新しいケースを記録したり、[!UICONTROL サポート]のトップ記事を表示したり、追加の学習ソースにアクセスしたりできます。
 
-   Workfrontの学習について詳しくは、[ ヘルプセンター ](https://learning.adobe.com/resources/help-center.html) を参照してください。
+   Workfrontの学習について詳しくは、[&#x200B; ヘルプセンター &#x200B;](https://learning.adobe.com/resources/help-center.html) を参照してください。
 
 <!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 

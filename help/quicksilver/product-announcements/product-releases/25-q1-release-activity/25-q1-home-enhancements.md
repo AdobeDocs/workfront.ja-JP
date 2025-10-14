@@ -22,7 +22,7 @@ ht-degree: 10%
 
 >[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
-この概要に含まれる機能の完全なデモについては、以下の [ 優先度機能強化のデモビデオ ](#priorities-enhancements-demo-video) を参照してください。
+この概要に含まれる機能の完全なデモについては、以下の [&#x200B; 優先度機能強化のデモビデオ &#x200B;](#priorities-enhancements-demo-video) を参照してください。
 
 ## スマートフィルターを使用した優先度での作業の検索
 
@@ -38,7 +38,7 @@ ht-degree: 10%
 
 IMS 対応インスタンスでのみ使用できます。
 
-詳しくは、[ 優先度を使用した作業のフィルタリングとグループ化 ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) を参照してください。
+詳しくは、[&#x200B; 優先度を使用した作業のフィルタリングとグループ化 &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) を参照してください。
 
 ## 優先度の作業の遅れを取り戻す
 
@@ -52,7 +52,7 @@ IMS 対応インスタンスでのみ使用できます。
 
 Workfrontの AI アシスタントを活用した「キャッチアップ」では、24 時間、3 日、7 日間の期間内に、プロジェクトに関する更新、アップロードされたドキュメント、その他の注目すべき変更点の概要を示します。
 
-詳しくは、[ 優先度の作業のキャッチアップ ](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
+詳しくは、[&#x200B; 優先度の作業のキャッチアップ &#x200B;](/help/quicksilver/workfront-basics/priorities/catch-me-up.md) を参照してください。
 
 ## 優先度の詳細ページで変更内容をライブで表示
 
@@ -62,7 +62,7 @@ Workfrontの AI アシスタントを活用した「キャッチアップ」で�
 
 タスクまたは問題の詳細ページでリアルタイムの更新を表示できるようになりました。 また、リアルタイムプレゼンス指標を使用して、自分と同時に他のユーザーがページを表示しているかどうかを確認することもできます。
 
-詳しくは、[ プロジェクトとタスクの詳細の表示：優先度ワークリスト ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md) を参照してください。
+詳しくは、[&#x200B; プロジェクトとタスクの詳細の表示：優先度ワークリスト &#x200B;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md) を参照してください。
 
 ## 優先度内のドキュメントとプルーフのアップロードと表示
 
@@ -77,7 +77,7 @@ Workfrontの AI アシスタントを活用した「キャッチアップ」で�
 * プルーフビューアの起動
 * その他
 
-詳しくは、[ ドキュメントのアップロードと優先度での配達確認の作成 ](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md) を参照してください。
+詳しくは、[&#x200B; ドキュメントのアップロードと優先度での配達確認の作成 &#x200B;](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md) を参照してください。
 
 ## カレンダー表示が優先度で使用できるようになりました
 
@@ -92,7 +92,7 @@ Workfrontの AI アシスタントを活用した「キャッチアップ」で�
 * 色を適用して素早く整理
 * その他
 
-詳しくは、[ 優先度カレンダーでの作業の管理 ](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md) を参照してください。
+詳しくは、[&#x200B; 優先度カレンダーでの作業の管理 &#x200B;](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md) を参照してください。
 
 ## 優先度ワークリストの更新
 
@@ -109,7 +109,7 @@ Workfrontの AI アシスタントを活用した「キャッチアップ」で�
 * ワークリストの右下隅に表示されたリスト項目の合計数
 * ワークリストヘッダーの右側にある新しく展開された検索バー
 
-詳しくは、[ 優先度の基本を学ぶ ](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md) を参照してください。
+詳しくは、[&#x200B; 優先度の基本を学ぶ &#x200B;](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md) を参照してください。
 
 ### 機能の変更
 
@@ -118,7 +118,7 @@ Workfrontの AI アシスタントを活用した「キャッチアップ」で�
 * グループ内の項目の並べ替え
 * マイ優先度またはステータスでグループ化する場合のアイテムのドラッグ&amp;ドロップ
 
-詳しくは、[ 優先度を使用した作業のフィルタリングとグループ化 ](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) を参照してください。
+詳しくは、[&#x200B; 優先度を使用した作業のフィルタリングとグループ化 &#x200B;](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md) を参照してください。
 
 ### 削除されました
 
@@ -132,7 +132,7 @@ Workfrontの AI アシスタントを活用した「キャッチアップ」で�
 
 優先度ワークリストからWorkfrontのプロジェクトに直接移動できるようになりました。
 
-詳しくは、[ プロジェクトとタスクの詳細の表示：優先度ワークリスト ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md) を参照してください。
+詳しくは、[&#x200B; プロジェクトとタスクの詳細の表示：優先度ワークリスト &#x200B;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md) を参照してください。
 
 ## 優先度のマイフォーカス列のオプションを更新しました
 
@@ -147,7 +147,7 @@ Workfrontの AI アシスタントを活用した「キャッチアップ」で�
 * 標準
 * 低
 
-この変更により、緊急度に基づいて作業を表示および整理しやすくなります。 詳しくは、[ 重要な作業項目の優先順位の設定 ](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
+この変更により、緊急度に基づいて作業を表示および整理しやすくなります。 詳しくは、[&#x200B; 重要な作業項目の優先順位の設定 &#x200B;](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md) を参照してください。
 
 ## プロジェクトの詳細を優先度で表示する
 
@@ -157,7 +157,7 @@ Workfrontの AI アシスタントを活用した「キャッチアップ」で�
 
 優先度の作業リストからプロジェクトの詳細とコメントを表示できるようになりました。
 
-詳しくは、[ プロジェクトとタスクの詳細の表示：優先度ワークリスト ](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md) を参照してください。
+詳しくは、[&#x200B; プロジェクトとタスクの詳細の表示：優先度ワークリスト &#x200B;](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md) を参照してください。
 
 ## 優先度機能強化のデモビデオ
 

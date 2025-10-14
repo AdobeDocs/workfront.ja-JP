@@ -23,7 +23,7 @@ ht-degree: 94%
 
 2024年3月28日（PT）の[エンドツーエンドのキャンペーン計画用のマーケティングカレンダーとツールを公開](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304)では、組織がエンドツーエンドの運用ライフサイクルを管理および視覚化できるように設計された新しい製品機能について説明します。
 
-また、24.4 リリースのハイライトを含む [PDF ファイルを表示 ](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} することもできます。
+また、24.4 リリースのハイライトを含む [PDF ファイルを表示 &#x200B;](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} することもできます。
 
 <span class="preview">オフサイクル機能（2024年第 2 四半期のリリース日より前に実稼動にリリースされるもの）は、黄色でハイライト表示されています。</span>
 

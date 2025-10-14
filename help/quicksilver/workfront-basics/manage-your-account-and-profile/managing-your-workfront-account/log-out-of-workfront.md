@@ -58,5 +58,5 @@ ht-degree: 91%
 
 ## [!DNL Workfront] アカウントからログアウト
 
-1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックしてから、**[!UICONTROL ログアウト]**![ ログアウトアイコン ](assets/logout-icon.png) をクリックします。
+1. [!DNL Adobe Workfront] の右上隅にある **[!UICONTROL メインメニュー]** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックしてから、**[!UICONTROL ログアウト]**![&#x200B; ログアウトアイコン &#x200B;](assets/logout-icon.png) をクリックします。
 1. これによりログインページに戻り、ユーザー名とパスワードを再入力できます。

@@ -75,7 +75,7 @@ ht-degree: 75%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -92,7 +92,7 @@ ht-degree: 75%
 
 1. **レポート設定** ボタンをクリックします。
 1. **レポートプロンプト** タブをクリックしてから、**プロンプトを追加** をクリックします。\
-   ![ 「レポートプロンプト」タブ ](assets/create-report-prompt-tab.png)
+   ![&#x200B; 「レポートプロンプト」タブ &#x200B;](assets/create-report-prompt-tab.png)
 
 1. （条件付き）プロンプトの基にするフィールドを選択します。フィールド名の入力を開始し、リストに表示されたらクリックして選択します。\
    レポートを実行するユーザーが使用できるオプションは、選択したフィールドによって異なります。\
@@ -144,7 +144,7 @@ ht-degree: 75%
 
 1. プロンプトでレポートに移動します。
 
-   ![ 報告書プロンプトの実行 ](assets/run-report-prompts.png)
+   ![&#x200B; 報告書プロンプトの実行 &#x200B;](assets/run-report-prompts.png)
 
 1. 「**プロンプト**」タブに表示される 1 つまたはすべてのプロンプトの条件を選択します。\
    （オプション）プロンプトを空白のままにし、プロンプト条件によってレポートをフィルター処理しないこともできます。

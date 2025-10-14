@@ -48,7 +48,7 @@ ht-degree: 25%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -64,7 +64,7 @@ ht-degree: 25%
 1. 削除する 1 つ以上のタイムシートプロファイルを選択し、システム全体のタイムシートプロファイルの **詳細** アイコン ![](assets/more-icon.png) > **削除** をクリックします
 
 1. 「**定期タイムシート**」をクリックします。
-1. 削除するタイムシートプロファイルを 1 つ以上選択し、詳細アイコン ![ 詳細アイコン ](assets/more-icon.png)/**削除** をクリックします。
+1. 削除するタイムシートプロファイルを 1 つ以上選択し、詳細アイコン ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png)/**削除** をクリックします。
 または
 グループレベルのタイムシートプロファイルで **その他**/**削除** をクリックします。
 1. （条件付き）タイムシートプロファイルが既にユーザーに割り当てられている場合、「**置き換えるタイムシートプロファイル**」ボックスが表示されます。 次の操作を実行します。

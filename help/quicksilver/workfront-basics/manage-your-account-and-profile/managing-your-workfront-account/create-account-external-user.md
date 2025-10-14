@@ -29,11 +29,11 @@ ht-degree: 0%
 
 1. 「**パスワード**」セクションに入力します。
 
-   詳しくは、[ パスワード ](#password) を参照してください。
+   詳しくは、[&#x200B; パスワード &#x200B;](#password) を参照してください。
 
 1. （任意）「**プロファイル**」セクションに入力します。
 
-   詳しくは、[ プロファイル ](#profile) を参照してください。
+   詳しくは、[&#x200B; プロファイル &#x200B;](#profile) を参照してください。
 
 1. **アカウントを作成** をクリックします。
 
@@ -70,4 +70,4 @@ ht-degree: 0%
 
   `https://<Domain is here>.my.workfront.com/...`
 
-手順については、[Workfrontへのログイン ](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) を参照してください。
+手順については、[Workfrontへのログイン &#x200B;](/help/quicksilver/workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md) を参照してください。

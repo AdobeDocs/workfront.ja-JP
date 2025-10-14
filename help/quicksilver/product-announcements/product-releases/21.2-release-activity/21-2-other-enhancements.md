@@ -72,7 +72,7 @@ Workfront の新しいエクスペリエンス（拡張分析、リソース管�
 
 Workfront の新しいエクスペリエンスの新しいオブジェクトヘッダーについて詳しくは、[新しいオブジェクトヘッダー](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md)を参照してください。
 
-![Object ヘッダー ](assets/product-announcement-object-header-350x179.png)
+![Object ヘッダー &#x200B;](assets/product-announcement-object-header-350x179.png)
 
 ## オブジェクトステータス検索の応答のアップデート
 

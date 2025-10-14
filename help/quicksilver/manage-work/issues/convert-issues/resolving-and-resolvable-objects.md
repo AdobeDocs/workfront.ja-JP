@@ -81,10 +81,10 @@ Workfront 管理者またはグループ管理者がシステムレベルまた�
 次のシナリオが存在します。
 
 * Workfrontまたはグループの管理者が、元の問題を保持してその解決をタスクに、元の問題を保持してその解決を選択したプロジェクトに結び付け、「変換中にこれらの設定を変更できるようにする」を選択していない場合、イシューをタスクまたはプロジェクトに変換する際には、これらの設定を変更できません。\
-  ![ プロジェクト環境設定のイシュー領域 ](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![&#x200B; プロジェクト環境設定のイシュー領域 &#x200B;](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Workfrontまたはグループの管理者が、元のイシューを保持してその解決をタスクに結び付け、元のイシューを保持してその解決を選択または未選択のプロジェクトに結び付け、「変換中にこれらの設定を変更できるようにする」を選択した場合、イシューをタスクまたはプロジェクトに変換する際にこれらの設定を変更できます。\
-  ![ イシューを保持するオプション ](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![&#x200B; イシューを保持するオプション &#x200B;](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 イシューのタスクやプロジェクトへの変換について詳しくは、[Adobe Workfront でのイシューの変換の概要](../../../manage-work/issues/convert-issues/convert-issues.md)を参照してください。
 
@@ -167,7 +167,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 タスクまたはプロジェクトのステータスをカスタムステータスに変更すると、次の 2 つの条件を満たす場合にのみ、イシューのステータスがカスタムイシューステータスに変更されます。
 
-* 「解決オブジェクトのステータスが変更された」オプションが選択されている場合は、解決可能なイシューのステータスを自動的に更新します。 詳しくは、「解決可能なオブジェクトを処理するためのAdobe Workfrontの設定 [ を参照してください ](#set-up-adobe-workfront-to-handle-resolvable-objects)。
+* 「解決オブジェクトのステータスが変更された」オプションが選択されている場合は、解決可能なイシューのステータスを自動的に更新します。 詳しくは、「解決可能なオブジェクトを処理するためのAdobe Workfrontの設定 [&#x200B; を参照してください &#x200B;](#set-up-adobe-workfront-to-handle-resolvable-objects)。
 
 * プロジェクトまたはタスクのカスタムステータスは、イシューのカスタムステータスと同じ 3 文字コードです。
 
@@ -198,7 +198,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 1. ページの左側で、「**タスクの詳細**」または「**プロジェクトの詳細** タブを選択します。
 1. 「**概要**」セクションの下部で、タスクまたはプロジェクトの解決可能オブジェクトが表示されている **この解決済み** フィールドを見つけます。
 
-   ![ この「解決」フィールド ](assets/this-resolves-field.png)
+   ![&#x200B; この「解決」フィールド &#x200B;](assets/this-resolves-field.png)
 
    >[!NOTE]
    >
@@ -208,7 +208,7 @@ One project, task, or issue may have multiple issues as Resolvable Objects.
 
 イシューの一覧で、**ステータスアイコン**&#x200B;列または&#x200B;**フラグ**&#x200B;列でステータスアイコンを見つけることで、解決オブジェクトとしてラベル付けされているイシューをこのアイコンで特定できます。
 
-![ 解決中のオブジェクト ](assets/resolving-icon.png)
+![&#x200B; 解決中のオブジェクト &#x200B;](assets/resolving-icon.png)
 
 ## レポートでの解決可能オブジェクトおよび解決オブジェクト情報の表示
 

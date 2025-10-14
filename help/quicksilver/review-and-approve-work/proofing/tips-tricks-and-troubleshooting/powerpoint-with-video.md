@@ -30,5 +30,5 @@ ht-degree: 0%
 
 ## プルーフのレビュー
 
-1. [ デスクトッププルーフビューアのインストール ](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md) の説明に従って、デスクトッププルーフビューをインストールします。
+1. [&#x200B; デスクトッププルーフビューアのインストール &#x200B;](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md) の説明に従って、デスクトッププルーフビューをインストールします。
 1. ビューアがインストールされたら、プルーフに移動して開きます。 前述の節で説明したように、プルーフがインタラクティブなプルーフとして作成された場合、デスクトッププルーフビューアが自動的に開きます。

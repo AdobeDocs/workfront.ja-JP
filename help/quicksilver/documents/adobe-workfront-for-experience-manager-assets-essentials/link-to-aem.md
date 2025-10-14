@@ -82,7 +82,7 @@ Experience Manager Assets または Assets Essentials から Workfront にアセ
 
 1. 目的のアセットを選択します。
 
-   ![ アセットを選択 ](assets/select-an-asset.png)
+   ![&#x200B; アセットを選択 &#x200B;](assets/select-an-asset.png)
 
 1. 「**選択**」をクリックします。
 
@@ -99,7 +99,7 @@ Experience Manager Assets または Assets Essentials から Workfront にアセ
 
 1. 目的のフォルダーを選択します。
 
-   ![ フォルダーを選択 ](assets/select-a-folder.png)
+   ![&#x200B; フォルダーを選択 &#x200B;](assets/select-a-folder.png)
 
 1. 「**選択**」をクリックします。
 
@@ -119,7 +119,7 @@ Assets Essentials から新しいバージョンをリンクするには、次�
 
 1. 目的のアセットを選択します。
 
-   ![ アセットを選択 ](assets/select-an-asset.png)
+   ![&#x200B; アセットを選択 &#x200B;](assets/select-an-asset.png)
 
 1. 「**選択**」をクリックします。
 

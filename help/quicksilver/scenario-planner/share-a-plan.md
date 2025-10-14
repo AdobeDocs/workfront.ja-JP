@@ -64,7 +64,7 @@ ht-degree: 89%
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -78,7 +78,7 @@ ht-degree: 89%
   NOTE: ensure this stays this way and they don't restrict Workers from SP as well?? OR ensure you can even SEE Requestors as an option or they are not grayed out??)
   -->
 
-様々なライセンスタイプの[!DNL Scenario Planner]へのアクセス権については、[ [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)へのアクセス権の付与を参照してください。
+様々なライセンスタイプの[!DNL Scenario Planner]へのアクセス権については、[&#x200B; [!DNL Scenario Planner]](../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)へのアクセス権の付与を参照してください。
 
 ## 計画の共有に関する考慮事項
 
@@ -87,7 +87,7 @@ ht-degree: 89%
 * 自分が作成していない計画または自分と共有されていない計画は表示できません。
 * 計画は他のユーザーとのみ共有できます。計画をグループ、チームまたは会社と共有することはできません。
 * 計画を共有するには、まず計画を保存する必要があります。
-* 計画の URL を別のユーザーと共有できます。少なくとも計画を表示する権限を持っていないユーザーは、URL を受け取ったときに、別のユーザーに計画へのアクセス権を申請できます。計画へのアクセス権の申請については、[ [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)での計画へのアクセス権の申請を参照してください。
+* 計画の URL を別のユーザーと共有できます。少なくとも計画を表示する権限を持っていないユーザーは、URL を受け取ったときに、別のユーザーに計画へのアクセス権を申請できます。計画へのアクセス権の申請については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md)での計画へのアクセス権の申請を参照してください。
 * 既に他のユーザーと共有している複数の計画を共有する場合、共有するユーザーは置き換えられず、選択した各計画の既存のユーザーに追加されます。
 
 ## 計画の権限オプション
@@ -170,7 +170,7 @@ ht-degree: 89%
 
 プロジェクトのアクセスレベルについては、[プロジェクトへのアクセス権の付与](../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)を参照してください。
 
-プロジェクト権限について詳しくは、[ [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でプロジェクトを共有を参照してください。
+プロジェクト権限について詳しくは、[&#x200B; [!DNL Adobe Workfront]](../workfront-basics/grant-and-request-access-to-objects/share-a-project.md) でプロジェクトを共有を参照してください。
 
 ## 計画の共有
 
@@ -186,7 +186,7 @@ ht-degree: 89%
    >
    >計画のヘッダーの右上隅に表示されている、計画の共有相手となるユーザーのアバターをクリックすると、計画を共有できます。
 
-1. （条件付き）プランを開いた場合は、**[!UICONTROL プラン]** 名の右側にある ![ その他 ](assets/more-icon.png) アイコン [!UICONTROL &#x200B; その他 &#x200B;] アイコンをクリックし、**[!UICONTROL 共有]** をクリックします
+1. （条件付き）プランを開いた場合は、**[!UICONTROL プラン]** 名の右側にある ![&#x200B; その他 &#x200B;](assets/more-icon.png) アイコン [!UICONTROL &#x200B; その他 &#x200B;] アイコンをクリックし、**[!UICONTROL 共有]** をクリックします
 
    または
 

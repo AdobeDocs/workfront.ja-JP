@@ -20,7 +20,7 @@ ht-degree: 80%
 
 タスクを表示するときに、完了率でグループ化し、0～25、26～50、51～75、75～99、100 の範囲に分けたい場合があります。これは、テキストモードを使用してグループ化を作成することで可能です。
 
-![ 計算値によるグループ化 ](assets/grouping-calculated-value-column-to-all-objects.png)
+![&#x200B; 計算値によるグループ化 &#x200B;](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## アクセス要件
 
@@ -58,7 +58,7 @@ ht-degree: 80%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

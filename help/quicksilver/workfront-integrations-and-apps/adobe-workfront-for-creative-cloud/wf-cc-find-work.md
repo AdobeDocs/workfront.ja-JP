@@ -122,4 +122,4 @@ ht-degree: 96%
 
 [!UICONTROL メニュー]アイコンを使用して、プロジェクト内の親項目に移動できます。
 
-![ 作業リストに戻る ](assets/go-back-to-work-list-350x314.png)
+![&#x200B; 作業リストに戻る &#x200B;](assets/go-back-to-work-list-350x314.png)

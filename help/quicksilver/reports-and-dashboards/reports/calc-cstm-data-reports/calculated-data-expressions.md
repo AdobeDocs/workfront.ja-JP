@@ -24,7 +24,7 @@ ht-degree: 88%
 
 * カスタムフォームの計算済みカスタムフィールド
 
-  Workfrontのカスタムフォーム上に計算カスタムフィールドを作成する方法について詳しくは、[ 計算フィールドをフォームに追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
+  Workfrontのカスタムフォーム上に計算カスタムフィールドを作成する方法について詳しくは、[&#x200B; 計算フィールドをフォームに追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) を参照してください。
 
 * テキストモードを使用する場合の、レポートまたはリスト内の計算済みカスタム列
 

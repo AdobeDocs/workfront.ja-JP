@@ -58,7 +58,7 @@ ht-degree: 90%
 
 ## 診断を使用して自動プロセスをトリガー
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**設定** ![ 歯車設定アイコン ](assets/gear-icon-settings.png) をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**設定** ![&#x200B; 歯車設定アイコン &#x200B;](assets/gear-icon-settings.png) をクリックします。
 
 1. **システム**&#x200B;を展開し、「**診断**」をクリックします。
 1. 次のいずれかのオプションから選択します。

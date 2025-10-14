@@ -52,7 +52,7 @@ ht-degree: 97%
 
 &#42;ご利用のプラン、ライセンスタイプまたはアクセス権を確認するには、[!DNL Workfront] 管理者にお問い合わせください。
 
-&#42;&#42; ライセンスについて詳 [!DNL Adobe Workfront Fusion] くは、[[!DNL Adobe Workfront Fusion]  ライセンス ](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
+&#42;&#42; ライセンスについて詳 [!DNL Adobe Workfront Fusion] くは、[[!DNL Adobe Workfront Fusion]  ライセンス &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration) を参照してください。
 
 ## イベントのトリガー
 
@@ -112,7 +112,7 @@ ht-degree: 97%
    </tbody> 
   </table>
 
-  カスタムフォームの作成について詳しくは、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * 新しいキャンペーンリクエストをキャプチャするためのリクエストキューとして設定されたプロジェクト。[!UICONTROL キャンペーンの概要]フォームを、これらのリクエストに添付する必要があります。
 

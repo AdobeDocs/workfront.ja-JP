@@ -20,7 +20,7 @@ ht-degree: 69%
 
 このタスクグループ化によって、プロジェクトスポンサー別にタスクをグループ化できます。
 
-![ プロジェクトスポンサーによるグループ化 ](assets/grouping--project-sponsor-for-a-task-350x189.png)
+![&#x200B; プロジェクトスポンサーによるグループ化 &#x200B;](assets/grouping--project-sponsor-for-a-task-350x189.png)
 
 ## アクセス要件
 
@@ -58,7 +58,7 @@ ht-degree: 69%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

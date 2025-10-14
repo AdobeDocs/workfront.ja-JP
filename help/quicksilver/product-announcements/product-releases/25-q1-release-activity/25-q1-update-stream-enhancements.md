@@ -38,6 +38,6 @@ ht-degree: 41%
 
 詳しくは、次の記事を参照してください。
 
-* [ ホームでウィジェットを追加、編集、削除 ](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
+* [&#x200B; ホームでウィジェットを追加、編集、削除 &#x200B;](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
 * [マイ更新エリアの使用](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-updates-area.md)

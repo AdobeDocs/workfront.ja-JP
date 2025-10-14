@@ -180,7 +180,7 @@ Flash 技術に依存するすべての機能は、2018.3 リリースで Workfr
 
 * リソースグリッドが新しいリソースプランナーに置き換えられます
 
-  詳しくは、[Adobe Workfrontでのリソースプランニング ](../../../../resource-mgmt/resource-planning/resource-planning-overview.md) を参照してください。
+  詳しくは、[Adobe Workfrontでのリソースプランニング &#x200B;](../../../../resource-mgmt/resource-planning/resource-planning-overview.md) を参照してください。
 
 * ビジネスケースのリソース見積りが、リソースプランナーのビジネスケースの新しい「リソース予算計上」セクションに置き換えられます
 

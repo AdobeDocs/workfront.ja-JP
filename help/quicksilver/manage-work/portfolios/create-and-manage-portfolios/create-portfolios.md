@@ -49,7 +49,7 @@ ht-degree: 78%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -69,9 +69,9 @@ Workfrontでポートフォリオを作成するには、次のいずれかの�
 
   Workfront Planning 用に新しいWorkfront ライセンスと追加のWorkfront Planning ライセンスが必要です。
 
-  Workfront Planning へのアクセスについて詳しくは、[ アクセスの概要 ](/help/quicksilver/planning/access/access-overview.md) を参照してください。
+  Workfront Planning へのアクセスについて詳しくは、[&#x200B; アクセスの概要 &#x200B;](/help/quicksilver/planning/access/access-overview.md) を参照してください。
 
-  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [ に関する記事の「接続時にレコードを作成する」を参照し ](/help/quicksilver/planning/records/create-records.md) ください。
+  レコードにポートフォリオを追加してポートフォリオを作成する方法については、「レコードの作成 [&#x200B; に関する記事の「接続時にレコードを作成する」を参照し &#x200B;](/help/quicksilver/planning/records/create-records.md) ください。
 
 
 ## ポートフォリオを作成
@@ -86,7 +86,7 @@ Workfrontでポートフォリオを作成するには、次のいずれかの�
 
 1. （オプション）ページ上部のヘッダーの&#x200B;**[!UICONTROL ポートフォリオマネージャー]**&#x200B;の下にある名前をクリックして、ポートフォリオに別のマネージャーを割り当てます。
 
-   ![Portfolioマネージャー名 ](assets/portfolio-manager-name-350x51.jpg)
+   ![Portfolioマネージャー名 &#x200B;](assets/portfolio-manager-name-350x51.jpg)
 
    ポートフォリオの作成者は、デフォルトでポートフォリオマネージャーとして割り当てられます。
 

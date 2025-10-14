@@ -52,11 +52,11 @@ Adobe Workfront 環境が Workfront Proof Premium アカウントと統合され
 
 ## 送信済みのプルーフ承認を表示する
 
-1. 右上隅の **[!UICONTROL メインメニュー]**![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
+1. 右上隅の **[!UICONTROL メインメニュー]**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**[!UICONTROL ホーム]** をクリックします。
 1. （条件付き） **カスタマイズ** をクリックして **マイ承認** ウィジェットを追加します。
 1. （条件付き） **フィルター** ドロップダウンメニューをクリックし、**自分が送信した承認** を選択して、送信した承認を表示します。
 
-   ![ プルーフの承認 ](assets/proof-approval.png)
+   ![&#x200B; プルーフの承認 &#x200B;](assets/proof-approval.png)
 
    >[!NOTE]
    >

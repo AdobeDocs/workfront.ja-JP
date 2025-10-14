@@ -62,7 +62,7 @@ ht-degree: 63%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -70,7 +70,7 @@ ht-degree: 63%
 
 タスクレポートに次のフィルターを適用して、子のないタスクを表示できます。 彼らは自分の親を持つことができ、他の仕事の子供になることができます。
 
-1. 右上隅の **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の **メインメニュー**![ メインメニューライン ](assets/lines-main-menu.png) がある場合は、**レポート** をクリックします。
+1. 右上隅の **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)、または左上隅の **メインメニュー**![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) がある場合は、**レポート** をクリックします。
 
 1. 「**新しいレポート**」をクリックします。
 1. 「**タスクレポート**」を選択します。
@@ -79,7 +79,7 @@ ht-degree: 63%
 1. **フィールド名の入力を開始…** 行で **子の数** と入力し始め、**タスク/子の数** をクリックしてリストに表示します。
 
 1. 修飾子として「**等しい（大文字と小文字を区別）**」を選択し、子の数に **0** と入力します。\
-   ![ 親タスクフィルター ](assets/parent-task-filter-from-the-ui-350x76.png)
+   ![&#x200B; 親タスクフィルター &#x200B;](assets/parent-task-filter-from-the-ui-350x76.png)
 
    または
 
@@ -99,7 +99,7 @@ ht-degree: 63%
 
 次のフィルターをタスクレポートに適用して、親を持つタスク、つまり子タスクを表示できます。ただし、フィルターによって子が除外されないので、これらのタスクには、独自の子を含めることもできます。他のタスクの親でもある子タスクは、作業タスクとは見なされません。
 
-1. 右上隅の **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の **メインメニュー**![ メインメニューライン ](assets/lines-main-menu.png) がある場合は、**レポート** をクリックします。
+1. 右上隅の **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)、または左上隅の **メインメニュー**![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) がある場合は、**レポート** をクリックします。
 
 1. 「**新しいレポート**」をクリックします。
 1. 「**タスクレポート**」を選択します。
@@ -108,7 +108,7 @@ ht-degree: 63%
 1. **フィールド名の入力を開始…** 行で **親 ID** と入力し始め、**タスク/親 ID** を選択してリストに表示します。
 1. 修飾子に「**空白でない**」を選択します。
 
-   ![ 親 ID が空白ではない ](assets/filter-parent-id-not-blank-350x100.png)
+   ![&#x200B; 親 ID が空白ではない &#x200B;](assets/filter-parent-id-not-blank-350x100.png)
 
    または
 
@@ -124,7 +124,7 @@ ht-degree: 63%
 
 タスクレポートに次のフィルターを適用して、スタンドアロンの作業タスクを表示できます。 これらのタスクには親がなく、独自の子はありません。
 
-1. 右上隅の **メインメニュー**![ メインメニューアイコン ](assets/main-menu-icon.png)、または左上隅の **メインメニュー**![ メインメニューライン ](assets/lines-main-menu.png) がある場合は、**レポート** をクリックします。
+1. 右上隅の **メインメニュー**![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png)、または左上隅の **メインメニュー**![&#x200B; メインメニューライン &#x200B;](assets/lines-main-menu.png) がある場合は、**レポート** をクリックします。
 
 1. 「**新しいレポート**」をクリックします。
 1. 「**タスクレポート**」を選択します。
@@ -136,7 +136,7 @@ ht-degree: 63%
 1. **フィールド名の入力を開始…** 行で **親 ID** と入力し、リストから **タスク/親 ID** を選択します。
 1. 修飾子として **空白** を選択します。
 
-   ![ 親 ID が空白で子がありません ](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![&#x200B; 親 ID が空白で子がありません &#x200B;](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    または
 

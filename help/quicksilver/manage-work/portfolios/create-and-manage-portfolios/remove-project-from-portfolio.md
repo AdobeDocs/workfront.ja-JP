@@ -50,7 +50,7 @@ ht-degree: 78%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -59,7 +59,7 @@ ht-degree: 78%
 1. ポートフォリオに移動し、左パネルの「**[!UICONTROL プロジェクト]**」をクリックします。
 1. 削除するプロジェクトを選択します。 
 
-   ![ プロジェクトを削除ボタン ](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
+   ![&#x200B; プロジェクトを削除ボタン &#x200B;](assets/nwe-remove-projects-button-inside-portfolio-350x141.png)
 
 1. 「**[!UICONTROL プロジェクトの削除]**」をクリックします。
 1. 「**[!UICONTROL 削除]**」をクリックしてプロジェクトを [!DNL Workfront] から削除するか、「**[!UICONTROL ポートフォリオから]**&#x200B;**[!UICONTROL 削除する]**」をクリックして、選択したポートフォリオから削除します。

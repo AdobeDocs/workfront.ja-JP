@@ -77,17 +77,17 @@ Adobe Workfront では、ユーザーがプロジェクト、タスクおよび�
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
 ## ユーザーのデリゲーションレポートの作成
 
-1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![ メインメニューアイコン ](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
+1. Adobe Workfrontの右上隅にある **メインメニュー** アイコン ![&#x200B; メインメニューアイコン &#x200B;](assets/main-menu-icon.png) をクリックし、**レポート** をクリックします。
 
 1. 「**新規レポート**」をクリックし、「**ユーザーのデリゲーション**」を選択します。
 
-   ![ 新しいレポートユーザーの委任 ](assets/classic-new-report-user-delegation-350x644.png)
+   ![&#x200B; 新しいレポートユーザーの委任 &#x200B;](assets/classic-new-report-user-delegation-350x644.png)
 
    次のフィールドは、デフォルトでこのレポートに表示されます。
 

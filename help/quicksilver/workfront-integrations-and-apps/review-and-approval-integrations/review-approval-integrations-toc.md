@@ -17,5 +17,5 @@ ht-degree: 0%
 
 # レビューと承認の統合：記事インデックス
 
-* [ プルーフとGenStudio for Performance Marketingの統合の概要 ](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
+* [&#x200B; プルーフとGenStudio for Performance Marketingの統合の概要 &#x200B;](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-genstudio.md)
   <!--* [Get started with the proofing and Creative Cloud Express](/help/quicksilver/workfront-integrations-and-apps/review-and-approval-integrations/wf-proof-and-express.md)-->

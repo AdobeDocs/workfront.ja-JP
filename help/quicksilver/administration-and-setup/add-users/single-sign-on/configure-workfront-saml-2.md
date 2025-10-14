@@ -29,7 +29,7 @@ ht-degree: 96%
 >
 >このページで説明する手順は、まだ Adobe Admin Console にオンボーディングされていない組織にのみ適用されます。
 >
->Adobe Admin Consoleにオンボードされた組織内のユーザー属性をマッピングするには、「ユーザー属性のマッピング」の [Adobe統合エクスペリエンスでのユーザー属性のマッピング ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) を参照してください。
+>Adobe Admin Consoleにオンボードされた組織内のユーザー属性をマッピングするには、「ユーザー属性のマッピング」の [Adobe統合エクスペリエンスでのユーザー属性のマッピング &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) を参照してください。
 
 Adobe Workfront 管理者は、シングルサインオン（SSO）用の Security Assertion Markup Language（SAML）2.0 ソリューションと連携するように Workfront web アプリケーションおよびモバイルアプリケーションを設定できます。
 

@@ -15,7 +15,7 @@ ht-degree: 92%
 
 # [!DNL Scenario Planner] での計画の作成と編集
 
-会社の上位レベルの戦略に優先順位を付ける場合、[!DNL Workfront Scenario Planner] の使用の一環として計画を作成できます。計画に関して詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/plans-overview.md) の計画の概要を参照してください。
+会社の上位レベルの戦略に優先順位を付ける場合、[!DNL Workfront Scenario Planner] の使用の一環として計画を作成できます。計画に関して詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/plans-overview.md) の計画の概要を参照してください。
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -65,7 +65,7 @@ ht-degree: 92%
  </tbody> 
 </table>
 
-*詳しくは、[Workfrontへのアクセス要件ドキュメント ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfrontへのアクセス要件ドキュメント &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -79,9 +79,9 @@ ht-degree: 92%
 
 この記事では、最初から計画を作成する方法と、既存の計画を編集する方法について説明します。
 
-計画で利用可能な情報を含む計画に関するすべての考慮事項について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/plans-overview.md) の計画の概要を参照してください。
+計画で利用可能な情報を含む計画に関するすべての考慮事項について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/plans-overview.md) の計画の概要を参照してください。
 
-計画の削除について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/delete-plans.md) での計画の削除を参照してください。
+計画の削除について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/delete-plans.md) での計画の削除を参照してください。
 
 計画を作成または編集する手順は、以下のとおりです。
 
@@ -89,7 +89,7 @@ ht-degree: 92%
 
 作成した既存の計画のリストが、[!DNL Workfront Scenario Planner] に表示されます。
 
-1. （オプション）プラン・リストの右上隅にある **[!UICONTROL フィルタ]** アイコン ![ フィルタ ](assets/filter-icon-34x37.png) アイコン）をクリックし、次から選択します。
+1. （オプション）プラン・リストの右上隅にある **[!UICONTROL フィルタ]** アイコン ![&#x200B; フィルタ &#x200B;](assets/filter-icon-34x37.png) アイコン）をクリックし、次から選択します。
 
    | フィルター | 説明 |
    |---|---|
@@ -97,9 +97,9 @@ ht-degree: 92%
    | [!UICONTROL 自分の計画] | 自分で作成したプランを表示します。 |
    | [!UICONTROL 自分と共有] | 自分と共有している計画を表示する。 |
 
-   ![ プランフィルターのドロップダウンオプション ](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![&#x200B; プランフィルターのドロップダウンオプション &#x200B;](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. （オプション） **[!UICONTROL 検索]** アイコン ![ 検索アイコン ](assets/search-icon.png) をクリックしてキーワードを入力し、リスト内のプランをすばやく見つけます。
+1. （オプション） **[!UICONTROL 検索]** アイコン ![&#x200B; 検索アイコン &#x200B;](assets/search-icon.png) をクリックしてキーワードを入力し、リスト内のプランをすばやく見つけます。
 
 1. 既存の計画の名前をクリックして編集し、手順 7 に進みます。
 
@@ -115,11 +115,11 @@ ht-degree: 92%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![ 「新規計画」ボタン ](assets/new-plan-button.png)
+   ![&#x200B; 「新規計画」ボタン &#x200B;](assets/new-plan-button.png)
 
    [!UICONTROL 新規計画]ボックスが表示されます。
 
-   ![ 新しいプランボックス ](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![&#x200B; 新しいプランボックス &#x200B;](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. （条件付き）新規計画を作成する場合は、以下の情報を指定します。
 
@@ -168,11 +168,11 @@ ht-degree: 92%
 
    計画のタイムラインは&#x200B;**[!UICONTROL 初期シナリオ]**&#x200B;として表示されます。
 
-   追加のシナリオの作成については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) の計画シナリオの作成と比較を参照してください。
+   追加のシナリオの作成については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md) の計画シナリオの作成と比較を参照してください。
 
 1. （オプション）タイムラインドロップダウンメニューから、次の表のオプションの 1 つを選択して、計画のタイムラインの表示方法を変更します。
 
-   ![ 月ドロップダウン ](assets/month-dropdown-with-all-options.png)
+   ![&#x200B; 月ドロップダウン &#x200B;](assets/month-dropdown-with-all-options.png)
 
    | ドロップダウンメニューオプション | 説明 |
    |---|---|
@@ -183,7 +183,7 @@ ht-degree: 92%
 1. （オプション）左から右にスクロールして、計画の期間全体を表示します。
 1. （オプション）現在の日に戻るには、「**[!UICONTROL 今日]**」のインジケーターラインをクリックします。
 
-   ![ 今日の指標 ](assets/today-indicator-350x160.png)
+   ![&#x200B; 今日の指標 &#x200B;](assets/today-indicator-350x160.png)
 
 1. 計画のヘッダーにある「**[!UICONTROL 担当業務]**」ボックスをクリックして、計画の実行に使用できる担当業務を追加します。
 
@@ -193,7 +193,7 @@ ht-degree: 92%
    >
    >[!DNL Workfront] がこの計画に使用する役割割り当て単位（FTE または時間数）が、ボックスのタイトルのかっこ内に表示されます。
 
-   ![ 計画へのユーザーの追加 ](assets/adding-people-to-plan-350x206.png)
+   ![&#x200B; 計画へのユーザーの追加 &#x200B;](assets/adding-people-to-plan-350x206.png)
 
 1. 「**[!UICONTROL 担当業務の入力を開始]**」フィールドをクリックし、リストから役割を選択するか、アクティブな担当業務の名前の入力を開始します。
 
@@ -239,12 +239,12 @@ ht-degree: 92%
     </tbody> 
    </table>
 
-1. （任意）担当業務の名前にポインタを合わせるか、役割情報を更新した後でタブをクリックしてから、**[!UICONTROL ごみ箱アイコン]**![ 削除アイコン ](assets/delete.png) をクリックして、計画から削除します。
+1. （任意）担当業務の名前にポインタを合わせるか、役割情報を更新した後でタブをクリックしてから、**[!UICONTROL ごみ箱アイコン]**![&#x200B; 削除アイコン &#x200B;](assets/delete.png) をクリックして、計画から削除します。
 1. 「**[!UICONTROL 担当業務の分散]**」をクリックします。
 
    担当業務の分散パネルは、シナリオの期間中のすべての月を表示します。
 
-   ![ 担当業務の月次配分 ](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![&#x200B; 担当業務の月次配分 &#x200B;](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. 担当業務の名前を入力して、「**[!UICONTROL 担当業務フィールドに入力]**」に担当業務を追加し、リストに表示されたら Enter をクリックします。これにより、担当業務が[!UICONTROL 担当業務]列に追加されます。
 1. シナリオの各月について、以下の情報を更新または確認します。
@@ -334,13 +334,13 @@ ht-degree: 92%
 
 1. 「**[!UICONTROL 詳細]**」をクリックして、月ごとの予算配分を確認します。年間予算と月間予算は常に四捨五入された数値です。小数点が原因で予算金額を 1 年のすべての月に均等に配分できない場合は、年間予算配分の下に&#x200B;**[!UICONTROL 残り]**&#x200B;インジケーターが表示されます。
 
-   ![ 詳細リンクと残りリンク ](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![&#x200B; 詳細リンクと残りリンク &#x200B;](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. 毎月の予算を手動で調整して、超過額を排除します。
 
    すべての月次予算の合計が年間予算より大きい場合、年間予算配分の下に「**[!UICONTROL 超過]**」警告インジケーターが表示されます。計画で利用可能な予算以下になるまで、毎月の予算金額を手動で調整します。
 
-   ![ 予算超過の警告 ](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![&#x200B; 予算超過の警告 &#x200B;](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. 「**[!UICONTROL 人件費を含める]**」設定を無効にすると、担当業務に関連するコストが計画全体コストにカウントされなくなります。固定費は常に計画の全体コストにカウントされます。この設定はデフォルトで有効になっており、計画のすべてのシナリオに影響します。
 1. [!UICONTROL 財務]ボックスの外側をクリックして閉じます。入力した情報は自動的に保存されます。
@@ -353,13 +353,13 @@ ht-degree: 92%
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Should this include information on how to create scenarios - see also information about scenarios in Manage Plans?)</p>
    -->
 
-   イニシアチブの追加については、[ [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でイニシアチブを作成および編集の記事を参照してください。
+   イニシアチブの追加については、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md) でイニシアチブを作成および編集の記事を参照してください。
 
-1. （オプション）既存のシナリオのコピーを作成して、同じ計画の新しいシナリオを作成します。複数のシナリオの作成と操作について詳しくは、[ [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)の計画シナリオの作成と比較を参照してください。
+1. （オプション）既存のシナリオのコピーを作成して、同じ計画の新しいシナリオを作成します。複数のシナリオの作成と操作について詳しくは、[&#x200B; [!DNL Scenario Planner]](../scenario-planner/create-and-compare-scenarios-for-a-plan.md)の計画シナリオの作成と比較を参照してください。
 1. 「**[!UICONTROL 計画を保存]**」をクリックします。
 
    計画が作成または更新されます。
 
-1. （オプション）計画名の右側にある **[!UICONTROL お気に入りアイコン]**![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、計画をお気に入りのリストに追加します。
+1. （オプション）計画名の右側にある **[!UICONTROL お気に入りアイコン]**![&#x200B; お気に入りアイコン &#x200B;](assets/favorites-icon-small.png) をクリックして、計画をお気に入りのリストに追加します。
 
 1. （オプション）計画の URL をコピーし、計画を確認または更新する必要がある他のユーザーに送信します。プランを表示するには、少なくとも[!UICONTROL 表示]アクセス権がアクセスレベルに必要です。編集するには、[!UICONTROL 編集]アクセス権が必要です。予算、コスト、担当業務の料率など、プランの財務情報をレビューする必要がある場合は、[!UICONTROL 財務データ]へのアクセス権もアクセスレベルに必要です。[!DNL Scenario Planner]に必要なアクセス権については、[使用するために必要なアクセス権： [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md)を参照してください。

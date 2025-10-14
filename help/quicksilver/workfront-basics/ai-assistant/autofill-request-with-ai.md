@@ -27,6 +27,6 @@ AI は、リクエストフィールドの自動入力に役立ちます。 以�
 * [以前のリクエストのデータを使用したリクエストのオートコンプリート](/help/quicksilver/manage-work/requests/create-requests/autofill-suggestions-from-previous.md)
 * [AI フォーム入力を使用して、プロンプトやドキュメントを使用してリクエストを入力します](/help/quicksilver/manage-work/requests/create-requests/autofill-from-prompt-document.md)
 
-  プロンプトまたはドキュメントからの自動入力を使用するには、Workfront AI アシスタントを使用するための要件を満たす必要があります。 詳しくは、[AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+  プロンプトまたはドキュメントからの自動入力を使用するには、Workfront AI アシスタントを使用するための要件を満たす必要があります。 詳しくは、[AI アシスタントの前提条件 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 
 

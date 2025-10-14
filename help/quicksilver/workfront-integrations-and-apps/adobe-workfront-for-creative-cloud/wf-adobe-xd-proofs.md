@@ -58,16 +58,16 @@ ht-degree: 93%
 
 * [!DNL Adobe XD] からプルーフをアップロードする前に、[!DNL Adobe Workfront for XD] プラグインをインストールする必要があります。
 
-  手順については、[ [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md) のインストールを参照してください。
+  手順については、[&#x200B; [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md) のインストールを参照してください。
 
 ## 静的プルーフのアップロード
 
 1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![ メニューアイコン ](assets/menu-350x440.png)
+   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
 
 1. 静的プルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックします。
 
 1. プラグインの下部付近にある&#x200B;**[!UICONTROL 新規ファイル]**&#x200B;をクリックします。
 1. アップロードするアートボードを選択します。
@@ -108,7 +108,7 @@ ht-degree: 93%
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![XDでのプルーフの承認 ](assets/proof-approvals-xd-350x396.png)
+   ![XDでのプルーフの承認 &#x200B;](assets/proof-approvals-xd-350x396.png)
 
 1. **[!UICONTROL アセットタイプ]**&#x200B;ドロップダウンメニューから書き出し形式を選択します。
 
@@ -117,7 +117,7 @@ ht-degree: 93%
 
 1. （オプション）PDF に名前を付けます。
 
-   ![PDFオプション ](assets/pdf-options.png)
+   ![PDFオプション &#x200B;](assets/pdf-options.png)
 
 1. 「**[!UICONTROL アップロード]**」をクリックします。\
    ドキュメントが、プラグインとデスクトップアプリの[!UICONTROL ドキュメント]エリアに表示されます。
@@ -149,10 +149,10 @@ ht-degree: 93%
 
 1. 右上隅の&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、**[!UICONTROL 作業リスト]**&#x200B;を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![ メニューアイコン ](assets/menu-350x440.png)
+   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
 
 1. インタラクティブなプルーフをアップロードする作業アイテムに移動します。
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックします。
 
 1. プラグインの下部近くにある「**[!UICONTROL 新規ファイル]**」をクリックします。
 1. 「**[!UICONTROL プルーフを作成]**」を有効にします。
@@ -184,10 +184,10 @@ ht-degree: 93%
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![XDでのプルーフの承認 ](assets/proof-approvals-xd-350x396.png)
+   ![XDでのプルーフの承認 &#x200B;](assets/proof-approvals-xd-350x396.png)
 
 1. **[!UICONTROL アセットタイプ]**&#x200B;ドロップダウンメニューから、「**共有リンク**」タブの下に先ほど作成したリンクをクリックします。詳しくは、[アートボード用のインタラクティブリンクを作成](#create-an-interactive-link-for-your-artboard)を参照してください。\
-   ![XDの共有リンク ](assets/shared-links-xd-350x870.png)
+   ![XDの共有リンク &#x200B;](assets/shared-links-xd-350x870.png)
 
 1. 「**[!UICONTROL アップロード]**」をクリックします。
 
@@ -203,10 +203,10 @@ ht-degree: 93%
 
 1. 右上隅にある&#x200B;**[!UICONTROL メニュー]**&#x200B;アイコンをクリックし、「**[!UICONTROL 作業リスト]**」を選択します。メニューを使用して親オブジェクトに移動することもできます。
 
-   ![ メニューアイコン ](assets/menu-350x440.png)
+   ![&#x200B; メニューアイコン &#x200B;](assets/menu-350x440.png)
 
 1. ドキュメントのアップロード先の作業アイテムに移動します。
-1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![ ドキュメントアイコン ](assets/documents.png) をクリックします。
+1. ナビゲーションバーの **[!UICONTROL ドキュメント]** アイコン ![&#x200B; ドキュメントアイコン &#x200B;](assets/documents.png) をクリックします。
 
 1. プラグインの下部近くにある&#x200B;**[!UICONTROL 新しいバージョン]**&#x200B;をクリックします。
 1. **[!UICONTROL プルーフを作成]**&#x200B;を有効にします。
@@ -243,11 +243,11 @@ ht-degree: 93%
 
 1. 書き出し形式を&#x200B;**[!UICONTROL アセットタイプ]**&#x200B;ドロップダウンメニューから選択します。
 
-   ![XDでのプルーフの作成 ](assets/create-a-proof-xd-350x202.png)
+   ![XDでのプルーフの作成 &#x200B;](assets/create-a-proof-xd-350x202.png)
 
 1. （オプション）**[!UICONTROL アップデート]**&#x200B;エリアにコメントを入力します。
 
-   ![XDでのプルーフの承認 ](assets/proof-approvals-xd-350x396.png)
+   ![XDでのプルーフの承認 &#x200B;](assets/proof-approvals-xd-350x396.png)
 
 1. (オプション）アセットタイプとして PDF を選択し、複数のアートボードを選択している場合、アートボードを&#x200B;**[!UICONTROL 単一の PDF ファイル]s**&#x200B;または&#x200B;**複[!UICONTROL 数のPDFファイル]**&#x200B;として書き出すかどうかを選択します。
 

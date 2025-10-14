@@ -98,6 +98,6 @@ SPI = (Total Planned Hours x % Complete) / Planned Hours Scheduled to Date*
 
    1. 左パネルで「**タスクの詳細**」をクリックして、**財務**&#x200B;エリアを表示します。
 
-      ![ プロジェクトの SPI](assets/spi-on-project-nwe.png)
+      ![&#x200B; プロジェクトの SPI](assets/spi-on-project-nwe.png)
 
 1. 「**CPI/SPI/CSI**」フィールドの値を確認します。

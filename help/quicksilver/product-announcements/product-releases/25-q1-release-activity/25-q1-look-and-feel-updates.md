@@ -16,7 +16,7 @@ ht-degree: 14%
 
 ここでは、2025 年第 1 四半期のリリース期間中に行われた、Adobe Workfront アプリケーションの様々な領域のルックアンドフィールに対するマイナーな更新について説明します。
 
-2025 年第 1 四半期リリースで使用可能なすべての変更のリストについては、[2025 年第 1 四半期リリースの概要 ](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md) を参照してください。
+2025 年第 1 四半期リリースで使用可能なすべての変更のリストについては、[2025 年第 1 四半期リリースの概要 &#x200B;](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md) を参照してください。
 
 
 ## 時間リストまたはレポートから時間エントリを編集するためのルックアンドフィールの更新
@@ -27,7 +27,7 @@ ht-degree: 14%
 
 時間リストやレポートから時間を編集する際の、「時間を編集」ボックスのルックアンドフィールを、Workfrontの他の領域のデザインと一致するように更新しました。
 
-詳しくは、[ 時間をログに記録 ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
+詳しくは、[&#x200B; 時間をログに記録 &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
 
 
 ## 設定領域のクラウドプロバイダーページのエクスペリエンスを更新しました
@@ -48,7 +48,7 @@ Quip 統合に小規模な機能変更が適用されました。 クラウド�
 
 オブジェクトへのアクセスをリクエストするダイアログが更新され、Workfrontの他の領域と一致する、より現代的なデザインに変更されました。 このダイアログは、プロジェクト、タスク、イシュー、プログラム、ポートフォリオ、テンプレートおよびテンプレートタスクへのアクセスをリクエストした場合に使用できます。
 
-詳しくは、[ オブジェクトへのアクセスのリクエスト ](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md) を参照してください。
+詳しくは、[&#x200B; オブジェクトへのアクセスのリクエスト &#x200B;](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md) を参照してください。
 
 ## ドキュメント統合のルックアンドフィールの更新
 
@@ -66,7 +66,7 @@ Quip 統合に小規模な機能変更が適用されました。 クラウド�
 
 「会社のメンバー」ページと「会社の請求レート」ページを、Workfrontの他のエリアと一致する、より現代的なデザインに更新しました。 会社のメンバーシップにアクセスするには、設定/会社/会社名を選択/会社メンバーを左パネルで選択します。 会社の請求レートには、設定/会社/会社名を選択/左パネルで「請求レート」を選択してアクセスします。
 
-詳しくは、[ 会社の作成と編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) および [ 会社のメンバーシップの管理 ](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md) を参照してください。
+詳しくは、[&#x200B; 会社の作成と編集 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md) および [&#x200B; 会社のメンバーシップの管理 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md) を参照してください。
 
 ## メインナビゲーションエリアとセカンダリナビゲーションエリアのルックアンドフィールの更新
 
@@ -89,7 +89,7 @@ Quip 統合に小規模な機能変更が適用されました。 クラウド�
 
 Workfrontの設定エリアで新しいリストフォーマットを導入しており、為替レートリストはこのテーブルスタイルのフォーマットを使用する最初のページです。 新しい為替レートを追加して為替レートを検索する機能は変更されていません。
 
-為替レートについては、「[ 為替レートの設定 ](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)」を参照してください。
+為替レートについては、「[&#x200B; 為替レートの設定 &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)」を参照してください。
 
 ## データのエクスポート（キックスタート）ページのルックアンドフィールの更新
 
@@ -99,7 +99,7 @@ Workfrontの設定エリアで新しいリストフォーマットを導入し�
 
 設定エリアのデータの書き出し（キックスタート）ページを、Workfrontの他のエリアと一致する、より現代的なデザインに更新しました。
 
-詳しくは、[ キックスタートを使用したWorkfrontからのデータのエクスポート ](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md) を参照してください。
+詳しくは、[&#x200B; キックスタートを使用したWorkfrontからのデータのエクスポート &#x200B;](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md) を参照してください。
 
 ## ユーザーに更新を送信ウィンドウのルックアンドフィールの更新
 
@@ -111,4 +111,4 @@ Workfrontの設定エリアで新しいリストフォーマットを導入し�
 
 Standard、Plan、または Work ライセンスを持つユーザーは、[ ユーザー ] リストに移動して 1 人以上のユーザーを選択し、[**ユーザーに更新を送信**] をクリックすると、この機能を使用できます。
 
-詳しくは、[ 他のユーザーへのダイレクトメッセージの送信 ](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) を参照してください。
+詳しくは、[&#x200B; 他のユーザーへのダイレクトメッセージの送信 &#x200B;](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md) を参照してください。

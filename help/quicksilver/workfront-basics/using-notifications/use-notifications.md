@@ -24,7 +24,7 @@ ht-degree: 96%
 
 * [[!DNL Adobe Workfront] の通知](../../workfront-basics/using-notifications/wf-notifications.md)
 * [自身のメール通知の変更](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
-* [ [!DNL Adobe Workfront] の項目を購読](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
+* [&#x200B; [!DNL Adobe Workfront] の項目を購読](../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
 * [アプリ内通知の概要](../../workfront-basics/using-notifications/in-app-notifications-overview.md)
 * [アプリ内通知の表示と管理](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * [サンドボックスプレビュー環境からのメール配信を有効にする](../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md)

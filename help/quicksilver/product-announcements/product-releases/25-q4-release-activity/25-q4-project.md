@@ -29,7 +29,7 @@ ht-degree: 26%
 
 AI アシスタントは、1 つのプロジェクト、1 つのプログラム、および複数のプロジェクトに対して、プロジェクトの正常性の評価を生成できます。
 
-詳しくは、[ プロジェクトの正常性の概要 ](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md) を参照してください。
+詳しくは、[&#x200B; プロジェクトの正常性の概要 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/project-health-overview.md) を参照してください。
 
 この機能は現在ベータ版です。
 

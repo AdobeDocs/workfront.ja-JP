@@ -61,20 +61,20 @@ ht-degree: 84%
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、「**ドキュメント**」を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **概要** アイコン ![ 概要アイコン ](assets/summary-panel-icon.png) をクリックし、「**詳細**」セクションを見つけます。
+1. **概要** アイコン ![&#x200B; 概要アイコン &#x200B;](assets/summary-panel-icon.png) をクリックし、「**詳細**」セクションを見つけます。
 1. **カスタムフォームを追加**&#x200B;ボックスに入力し、カスタムフォームを選択します。フォームはドキュメントに自動的に保存されます。
 
    >[!NOTE]
    >
-   >アクティブなカスタムフォームのみがドロップダウンメニューに表示されます。1 つのドキュメントにつき最大 10 個のカスタムフォームを追加できます。カスタムフォームを作成する必要がある場合は、[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+   >アクティブなカスタムフォームのみがドロップダウンメニューに表示されます。1 つのドキュメントにつき最大 10 個のカスタムフォームを追加できます。カスタムフォームを作成する必要がある場合は、[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 ## カスタムフォームの編集
 
 1. ドキュメントを含むプロジェクト、タスクまたはイシューに移動し、**ドキュメント**&#x200B;を選択します。
 1. 必要なドキュメントを見つけます。
 
-1. **概要** アイコン ![ 概要アイコン ](assets/summary-panel-icon.png) をクリックし、上部の近くにある **詳細** セクションを見つけます。
+1. **概要** アイコン ![&#x200B; 概要アイコン &#x200B;](assets/summary-panel-icon.png) をクリックし、上部の近くにある **詳細** セクションを見つけます。
 1. 右上隅にある「**編集**」をクリックして、目的のフォームを展開します。
 1. 必要な変更を加え、「**保存**」をクリックします。
 
-   ![ カスタムフォームを編集 ](assets/edit-custom-form-350x265.png)
+   ![&#x200B; カスタムフォームを編集 &#x200B;](assets/edit-custom-form-350x265.png)

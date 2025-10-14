@@ -20,7 +20,7 @@ ht-degree: 6%
 
 この記事では、カスタムフィールドに対して高度なロジックを作成するために使用される式の例を示します。
 
-カスタムフォームへのロジックの追加について詳しくは、[ カスタムフォームとフィールドへのロジックルールの追加 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) を参照してください。
+カスタムフォームへのロジックの追加について詳しくは、[&#x200B; カスタムフォームとフィールドへのロジックルールの追加 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md) を参照してください。
 
 ## アクセス要件
 
@@ -74,7 +74,7 @@ IF({ownerID}!=$$USER&&{DE:DV - Dropdown - Control Dates}="2",CONCAT("Only ",{own
 
 プロジェクト所有者でないユーザー（システム管理者を含む）が **X Rush** を選択しようとすると、次のエラーが表示されます。
 
-![X Rush を選択できるのは、プロジェクト所有者の Claire Stevens のみです ](assets/sla-xrush.png)
+![X Rush を選択できるのは、プロジェクト所有者の Claire Stevens のみです &#x200B;](assets/sla-xrush.png)
 
 ### 前のフィールドでの選択に基づく日付の検証
 
@@ -88,7 +88,7 @@ IF({DE:DV - Date - Dropdown SLA}<ADDDAYS($$TODAY,{DE:DV - Dropdown - Control Dat
 
 ユーザーが許可されている日付より前の日付を選択すると、選択できる最も古い日付がメッセージに表示されます。
 
-![ 選定日は 3 月 28 日（PT）ですが、一番早い実施日は 4 月 3 日（PT）です ](assets/date-validation-based-on-previous-choice.png)
+![&#x200B; 選定日は 3 月 28 日（PT）ですが、一番早い実施日は 4 月 3 日（PT）です &#x200B;](assets/date-validation-based-on-previous-choice.png)
 
 ### 上書きするオプションの最小文字数
 
@@ -102,11 +102,11 @@ IF({DE:DV - Override}!="Disable Validation"&&LEN({DE:DV - Text - Min Length})<"7
 
 検証の適用は、チェックボックスを選択して上書きできます。
 
-![ 検証を無効にするには、このチェックボックスをオンにします ](assets/disable-validation-checkbox.png)
+![&#x200B; 検証を無効にするには、このチェックボックスをオンにします &#x200B;](assets/disable-validation-checkbox.png)
 
 次のテキストフィールドには、実行中の文字数が含まれます。
 
-![ 使用可能な文字数は 5 文字、残り 2 文字 ](assets/running-character-count.png)
+![&#x200B; 使用可能な文字数は 5 文字、残り 2 文字 &#x200B;](assets/running-character-count.png)
 
 ### 所有者のみが編集できるようにフィールドをロック
 
@@ -120,7 +120,7 @@ IF({ownerID}!=$$USER,IF(ISBLANK({ownerID}),"Project Owner will provide this.",CO
 
 プロジェクト所有者以外のユーザーがフィールドに入力しようとすると、プロジェクト所有者のみがフィールドを編集できることを示すメッセージが表示されます。
 
-![ このフィールドを編集できるのは Claire Stevens のみです ](assets/only-project-owner-can-edit.png)
+![&#x200B; このフィールドを編集できるのは Claire Stevens のみです &#x200B;](assets/only-project-owner-can-edit.png)
 
 ### Typeahead は、他のフィールド値に基づいて値を許可または拒否します。
 
@@ -136,7 +136,7 @@ IF({DE:DV - Text - Budget}>"10000",
 
 予算フィールドの値が$10,000 を超える場合、typeahead 設定で有効になっている役割フィルターがなくても、Director の役割を持つユーザーのみを typeahead から選択できます。
 
-![ 理事の承認を要する予算額 ](assets/budget-director.png)
+![&#x200B; 理事の承認を要する予算額 &#x200B;](assets/budget-director.png)
 
 ### エントリ日から 10 日未満の値を許可しない
 
@@ -150,11 +150,11 @@ IF({DE:DV - Override}!="Disable Validation"&&ISBLANK({DE:DV - Date - Deadline})!
 
 エントリ日のトリガーの検証から 10 日未満の任意の値：
 
-![ 選定日は 3 月 28 日（PT）ですが、一番早い実施日は 4 月 4 日（PT）です ](assets/earliest-deadline-date.png)
+![&#x200B; 選定日は 3 月 28 日（PT）ですが、一番早い実施日は 4 月 4 日（PT）です &#x200B;](assets/earliest-deadline-date.png)
 
 空白の値は、検証メッセージをトリガーにしません。
 
-![ 日付の空白値 ](assets/blank-date-allowed.png)
+![&#x200B; 日付の空白値 &#x200B;](assets/blank-date-allowed.png)
 
 ### 複数選択フィールドでの厳密/最小/最大の選択の強制
 
@@ -180,4 +180,4 @@ IF({DE:DV - Override}!="Disable Validation"&&ARRAYLENGTH(ARRAY({DE:DV - Checkbox
 
 正しいオプション数を選択しないと、検証エラーが表示されます。
 
-![ 検証エラーの例 ](assets/min-max-selections.png)
+![&#x200B; 検証エラーの例 &#x200B;](assets/min-max-selections.png)

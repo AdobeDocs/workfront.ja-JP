@@ -37,7 +37,7 @@ Experience Manager AssetsとAssets EssentialsのAdobe Workfront統合を使用�
 
 複数のセクションを持つカスタムフォームをオブジェクトに添付する場合、フォームの上部にあるデフォルトセクションを除くすべてのセクションを折りたたんだり展開したりできるようになりました。 管理者は、フォームデザイナーでフォームをプレビューする際にも、この機能を確認できます。
 
-カスタム・フォームへのセクションの追加の詳細は、[ フォームの整理とプレビュー ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
+カスタム・フォームへのセクションの追加の詳細は、[&#x200B; フォームの整理とプレビュー &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md) を参照してください。
 
 ## AI アシスタントが、プロジェクト、タスク、問題を操作できるようになりました
 
@@ -50,4 +50,4 @@ Workfrontで作業項目を管理しやすくするために、AI アシスタ�
 
 Workfront管理者は、組織の AI アシスタントを有効または無効にできます。 AI アシスタントは、Select、Prime、Ultimateの各プランのインスタンスで使用できます。
 
-詳しくは、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する ](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。
+詳しくは、[AI アシスタントを使用して、プロジェクト、タスク、問題を操作する &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md) を参照してください。

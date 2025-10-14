@@ -78,7 +78,7 @@ ht-degree: 90%
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -137,7 +137,7 @@ ht-degree: 90%
       * テンプレート内のすべてのタスクの数
       * テンプレートのカスタムフォームの名前
 
-   1. （任意）左側のペインのテンプレート名の上にマウスポインターを置き、**お気に入り**&#x200B;**アイコン**![ お気に入りアイコン ](assets/favorites-icon-small.png) をクリックして、後で使用するためにお気に入りとしてマークします。
+   1. （任意）左側のペインのテンプレート名の上にマウスポインターを置き、**お気に入り**&#x200B;**アイコン**![&#x200B; お気に入りアイコン &#x200B;](assets/favorites-icon-small.png) をクリックして、後で使用するためにお気に入りとしてマークします。
 
       または
 
@@ -175,7 +175,7 @@ ht-degree: 90%
 {{step1-to-templates}}
 
 1. 使用するテンプレートの名前をクリックします。
-1. **その他** メニュー ![ その他アイコン ](assets/more-icon.png) をクリックしてから、**プロジェクトを作成** をクリックします。
+1. **その他** メニュー ![&#x200B; その他アイコン &#x200B;](assets/more-icon.png) をクリックしてから、**プロジェクトを作成** をクリックします。
 
    ![テンプレートからプロジェクトを作成](assets/project-sharing-on-template.png)
 

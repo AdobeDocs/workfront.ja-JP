@@ -59,7 +59,7 @@ ht-degree: 87%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -102,13 +102,13 @@ ht-degree: 87%
    1. フィルタリングするユーザーまたは役割の名前を入力していき、名前がドロップダウンリストに表示されたら、それをクリックします。
    1. 「**フィルターの保存**」をクリックします。
 
-1. 割り当てを変更するイシューを選択して、**編集** アイコン ![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
+1. 割り当てを変更するイシューを選択して、**編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
 
    **イシューの編集**&#x200B;が表示されます。編集している項目は、ページの左上隅に表示されます。
 
 1. 「**割り当て**」セクションに移動して、「**割り当て先**」を選択します。
 
-   ![ 割り当てエリア ](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![&#x200B; 割り当てエリア &#x200B;](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. 次のいずれかの操作を行います。
 

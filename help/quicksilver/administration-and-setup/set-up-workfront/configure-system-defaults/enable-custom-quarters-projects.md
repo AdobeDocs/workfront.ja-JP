@@ -69,14 +69,14 @@ ht-degree: 60%
 1. 「2021 年度第 1 四半期」などのカスタム四半期の名前を入力します。
 1. カスタム四半期の開始日と終了日を選択します。
 
-   ![ カスタム四半期 ](assets/custom-quarters-nwe.png)
+   ![&#x200B; カスタム四半期 &#x200B;](assets/custom-quarters-nwe.png)
 
 1. （オプション）「**[!UICONTROL カスタム四半期を追加]**」をクリックして、システムにカスタム四半期を追加します。
 
    >[!IMPORTANT]
    >
    > [!DNL Workfront Planning] を購入した場合、四半期の間にギャップや重複があると、カスタム四半期を保存できません。
-   >![ 重複警告のあるカスタム四半期 ](assets/custom-quarters-with-overlap-warning.png)
+   >![&#x200B; 重複警告のあるカスタム四半期 &#x200B;](assets/custom-quarters-with-overlap-warning.png)
    >四半期の間のギャップと重複は、[!DNL Workfront] 顧客にのみ許可されています。
 
 1. （オプションおよび条件付き）会社が [!DNL Workfront] のみを購入した場合、[!DNL Workfront Planning] を付けずに、会計四半期を参照するレポート要素を作成します。
@@ -84,7 +84,7 @@ ht-degree: 60%
 
    **例：**&#x200B;[!UICONTROL プロジェクト]リストのフィルターを作成し、カスタム四半期を参照するプロジェクトの予定完了日を含めます。
 
-   ![ カスタム四半期を使用したプロジェクトフィルター ](assets/example-of-project-filter-with-custom-quarters.png)
+   ![&#x200B; カスタム四半期を使用したプロジェクトフィルター &#x200B;](assets/example-of-project-filter-with-custom-quarters.png)
 
    「今四半期」、「次四半期」、「前四半期」の参照は、カスタム四半期の新しい参照に置き換えられます。
 

@@ -45,7 +45,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
    * タスク時間
    * イシュー時間
 
-  [!DNL Workfront] 時間タイプと空き時間の定義 [ で説明されているように、](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) 管理者は、プロジェクト固有の時間タイプを使用可能にすることを決定します。
+  [!DNL Workfront] 時間タイプと空き時間の定義 [&#x200B; で説明されているように、](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) 管理者は、プロジェクト固有の時間タイプを使用可能にすることを決定します。
 
   >[!NOTE]
   >
@@ -53,7 +53,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
 
 * **一般的な時間タイプ**：一般的な時間は、プロジェクト、タスク、または問題に関連付けることはできず、タイムシートに直接記録されます。
 
-時間の記録および時間タイプとの関連付けについて詳しくは、[ 時間の記録 ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
+時間の記録および時間タイプとの関連付けについて詳しくは、[&#x200B; 時間の記録 &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
 
 ## アクセス要件
 
@@ -79,7 +79,7 @@ For more information, see [Interface modernization](/help/quicksilver/product-an
  </tbody> 
 </table>
 
-*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*このテーブルの詳細については、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 
@@ -102,7 +102,7 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
 
 システムレベルで時間タイプを定義した後、ユーザーは特定のプロジェクトまたは特定のユーザーが使用できる時間タイプを定義できます。
 
-詳しくは、[ 時間タイプと可用性の定義 ](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください
+詳しくは、[&#x200B; 時間タイプと可用性の定義 &#x200B;](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) を参照してください
 
 時間タイプを作成する手順は、次のとおりです。
 
@@ -157,7 +157,7 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
 
 1. 左側のパネルで **タイムシートと時間** をクリックし、**時間タイプ** をクリックします。
 
-1. 時間タイプ名をクリックするか、時間タイプを選択して、リストの上部にある **編集** アイコン ![ 編集アイコン ](assets/edit-icon.png) をクリックします。
+1. 時間タイプ名をクリックするか、時間タイプを選択して、リストの上部にある **編集** アイコン ![&#x200B; 編集アイコン &#x200B;](assets/edit-icon.png) をクリックします。
 1. **時間タイプを編集** ダイアログボックスで、次の情報を指定します。
 
    <table style="table-layout:auto"> 
@@ -215,7 +215,7 @@ Workfront には、一連のビルトインの時間タイプが付属してい�
 
 1. 「**詳細**」をクリックしてから「**アクティベートを解除** をクリックします。
 
-   ![ 時間タイプのリンクのアクティブ化と非アクティブ化 ](assets/activate-and-deactivate-hour-type-links.png)
+   ![&#x200B; 時間タイプのリンクのアクティブ化と非アクティブ化 &#x200B;](assets/activate-and-deactivate-hour-type-links.png)
 
    時間タイプは非アクティブ化され、ユーザーは時間をログに記録すると見つけることができなくなります。
 

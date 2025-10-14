@@ -28,4 +28,4 @@ ht-degree: 14%
 
 Workfront Data Connect は、いずれかの新しいWorkfront プランでお客様が利用できるようになります。 Data Connect を使用すると、組織は安全でスケーラブルなデータレイクとしてデータにアクセスできます。このデータレイクは、ビジネスインテリジェンスツールを使用して分析および視覚化したり、外部に保存したりできます。 さらに、組織は Data Connect を使用して、時間ベースのトレンド分析、変数マッピング、Workfront データと組み合わせた外部システムデータの分析など、以前は利用できなかったデータ分析を表示できます。
 
-現在のAdobe Workfront プランの詳細とアドオンの購入方法については、アカウント担当者にお問い合わせください。 Workfront Data Connect について詳しくは、[Workfront Data Connect の概要 ](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。
+現在のAdobe Workfront プランの詳細とアドオンの購入方法については、アカウント担当者にお問い合わせください。 Workfront Data Connect について詳しくは、[Workfront Data Connect の概要 &#x200B;](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md) を参照してください。

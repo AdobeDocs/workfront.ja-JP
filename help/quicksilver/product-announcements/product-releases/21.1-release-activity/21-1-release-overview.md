@@ -392,7 +392,7 @@ API のバージョンについて詳しくは、[API のバージョン管理�
 
 ### 21.1 リリースウェビナー {#21-1-release-webinar}
 
-Workfront 21.1 リリースウェビナーは、2月3日午前 11 時（EDT）／4 時（BST）に発表されます。ウェビナーへは[ここから](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&amp;partnerref=ac&amp;eventid=2934272&amp;sessionid=1&amp;key=5C231B3385686D1E224A49EBE0BF0E37&amp;regTag=&amp;V2=false&amp;sourcepage=register)登録してください。
+Workfront 21.1 リリースウェビナーは、2月3日午前 11 時（EDT）／4 時（BST）に発表されます。ウェビナーへは[ここから](https://event.on24.com/eventRegistration/EventLobbyServlet?target=reg20.jsp&partnerref=ac&eventid=2934272&sessionid=1&key=5C231B3385686D1E224A49EBE0BF0E37&regTag=&V2=false&sourcepage=register)登録してください。
 
 ### プレビューのリリース頻度の変更 {#change-in-preview-release-cadence}
 

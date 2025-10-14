@@ -180,9 +180,9 @@ To copy goals in the Production environment:
 -->
 
 
-1. 目標に移動して **詳細** メニュー ![ 詳細アイコン ](assets/more-icon.png) をクリックし、「**目標をコピー**」をクリックします。
+1. 目標に移動して **詳細** メニュー ![&#x200B; 詳細アイコン &#x200B;](assets/more-icon.png) をクリックし、「**目標をコピー**」をクリックします。
 
-   ![ 目標ボックスをコピー ](assets/copy-goal-box-unshimmed.png)
+   ![&#x200B; 目標ボックスをコピー &#x200B;](assets/copy-goal-box-unshimmed.png)
 
 1. コピーした目標に関する次の情報を更新します。
    * **目標名**：新しい目標の名前。コピーされた目標のデフォルト名は、「Copy of &lt;元の目標>」です。

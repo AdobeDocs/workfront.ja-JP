@@ -140,4 +140,4 @@ EAC = EAC Labor + EAC Expense
 
    EAC の値が「**完了時の見積もり**」フィールドに表示されます。
 
-   ![ プロジェクトの EAC](assets/eac-highlighted-on-project-350x112.png)
+   ![&#x200B; プロジェクトの EAC](assets/eac-highlighted-on-project-350x112.png)

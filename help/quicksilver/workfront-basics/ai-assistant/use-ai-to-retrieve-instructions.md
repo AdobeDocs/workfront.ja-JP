@@ -16,7 +16,7 @@ ht-degree: 14%
 
 AI アシスタントは、Workfrontのドキュメントから情報を見つけることができるため、必要なヘルプを受けるためにAdobe Experience Leagueにアクセスする必要がなくなります。
 
-例えば、AI アシスタントに「リクエストキューを作成する方法」と質問すると、「リクエストキューの作成と管理 [ の記事から取り込まれた、リクエストの作成手順が返され ](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) す。
+例えば、AI アシスタントに「リクエストキューを作成する方法」と質問すると、「リクエストキューの作成と管理 [&#x200B; の記事から取り込まれた、リクエストの作成手順が返され &#x200B;](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md) す。
 
 ## アクセス要件
 
@@ -47,16 +47,16 @@ AI アシスタントは、Workfrontのドキュメントから情報を見つ�
 
 * Workfront管理者が組織の AI アシスタントを有効にしている必要があります。
 
-  詳しくは、「AI アシスタントの概要」の記事の [AI アシスタントの前提条件 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
+  詳しくは、「AI アシスタントの概要」の記事の [AI アシスタントの前提条件 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) を参照してください。
 * Workfront管理者が、アクセスレベルに対して AI アシスタントを有効にしている必要があります。
 
-  詳しくは、[AI アシスタントを有効または無効にする ](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
+  詳しくは、[AI アシスタントを有効または無効にする &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md) を参照してください。
 
 ## AI アシスタントから情報を取得
 
 AI アシスタントを使用してWorkfront ドキュメントから情報や手順を取得するには：
 
-1. 画面の右上隅付近にある **AI アシスタント** アイコン ![AI アシスタント アイコン ](assets/ai-assistant-icon.png) をクリックします。
+1. 画面の右上隅付近にある **AI アシスタント** アイコン ![AI アシスタント アイコン &#x200B;](assets/ai-assistant-icon.png) をクリックします。
 1. AI アシスタントパネルで、パネルの下部付近のテキスト領域にプロンプトを入力します。
 
    プロンプトの大きさや複雑さによっては、AI アシスタントが情報を見つけるまでに数分かかることがあります。 簡単なプロンプトをお勧めします。

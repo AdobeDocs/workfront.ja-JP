@@ -94,4 +94,4 @@ Adobe Workfrontでは、プログラムとは、統一された特性を持つ�
 
 * ポートフォリオオプティマイザーを使用すると、ポートフォリオ内のすべてのプロジェクトのパフォーマンスを分析できます。 同じプログラム全体で複数のプロジェクトのパフォーマンスを比較することはできません。 プロジェクトのパフォーマンスは、ポートフォリオレベルで分析する必要があります。
 
-  詳しくは、[Portfolio Optimizer でのプロジェクトの最適化 ](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) を参照してください。
+  詳しくは、[Portfolio Optimizer でのプロジェクトの最適化 &#x200B;](/help/quicksilver/manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md) を参照してください。

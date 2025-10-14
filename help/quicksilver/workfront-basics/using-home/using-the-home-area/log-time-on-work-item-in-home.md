@@ -15,5 +15,5 @@ ht-degree: 54%
 
 # 作業アイテムの時間を[!UICONTROL ホーム]エリアから記録する
 
-ホーム エリアの作業リストにある任意の作業項目に時間を記録できます。 詳しくは、[ 時間をログに記録 ](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
+ホーム エリアの作業リストにある任意の作業項目に時間を記録できます。 詳しくは、[&#x200B; 時間をログに記録 &#x200B;](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md) を参照してください。
 

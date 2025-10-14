@@ -109,7 +109,7 @@ Experience Manager Assets Essentials からアセットをリンクしたら、�
 * レビュアーと締め切りをアップデート
 * ワークフローを編集
 
-既存のプルーフの管理方法について詳しくは、[Adobe Workfront内でプルーフを管理する：記事インデックス ](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) を参照してください。
+既存のプルーフの管理方法について詳しくは、[Adobe Workfront内でプルーフを管理する：記事インデックス &#x200B;](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md) を参照してください。
 
 ## プルーフのレビュー
 
@@ -120,4 +120,4 @@ Experience Manager Assets Essentials からアセットをリンクしたら、�
 * バージョンの比較
 * プルーフの承認または却下
 
-プルーフツールでできることについて詳しくは、[Adobe Workfront内でプルーフを確認する：記事のインデックス ](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) を参照してください。
+プルーフツールでできることについて詳しくは、[Adobe Workfront内でプルーフを確認する：記事のインデックス &#x200B;](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md) を参照してください。

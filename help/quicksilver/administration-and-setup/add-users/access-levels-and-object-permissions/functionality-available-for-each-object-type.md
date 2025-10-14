@@ -27,7 +27,7 @@ ht-degree: 94%
 
 >[!NOTE]
 >
->この記事では、現在のWorkfront プランモデルのアクセスレベルで使用できる機能について説明します。 新しいプランモデルで使用可能な機能を確認するには、[ 新規アクセスレベルの各オブジェクトタイプで使用可能な機能 ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) を参照してください。
+>この記事では、現在のWorkfront プランモデルのアクセスレベルで使用できる機能について説明します。 新しいプランモデルで使用可能な機能を確認するには、[&#x200B; 新規アクセスレベルの各オブジェクトタイプで使用可能な機能 &#x200B;](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) を参照してください。
 
 ## プロジェクト
 
@@ -546,7 +546,7 @@ ht-degree: 94%
 | プランとイニシアチブに関する担当業務情報の追加または編集&#42; | ✓ | ✓ | ✓ |  |  |
 | プランとイニシアチブに関するコスト情報を追加または編集&#42; | ✓ | ✓ | ✓ |  |  |
 | プランとイニシアチブの削除 | ✓ | ✓ | ✓ |  |  |
-| メインメニューでシナリオを表示 ![ シナリオプランナーアイコン ](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
+| メインメニューでシナリオを表示 ![&#x200B; シナリオプランナーアイコン &#x200B;](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |  |
 | ユーザーが作成したプランとイニシアチブの表示&#42; | ✓ | ✓ | ✓ |  |  |
 
 {style="table-layout:auto"}

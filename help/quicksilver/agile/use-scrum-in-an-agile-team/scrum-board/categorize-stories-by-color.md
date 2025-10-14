@@ -59,8 +59,8 @@ ht-degree: 89%
 1. 左パネルで、「**[!UICONTROL 反復]**」を選択して特定の反復を選ぶか、「**[!UICONTROL 進行中の反復]**」を選択します。
 1. ストーリータイルの上部にある色付きバナーにポインタを合わせます。
 
-   ![ ストーリーカード ](assets/agile-story-color1-nwe-350x140.png)
+   ![&#x200B; ストーリーカード &#x200B;](assets/agile-story-color1-nwe-350x140.png)
 
 1. 「**[!UICONTROL 色の変更]**」をクリックし、目的の色を選択します。
 
-   ![ 色を選択 ](assets/agile-story-color2-nwe-350x138.png)
+   ![&#x200B; 色を選択 &#x200B;](assets/agile-story-color2-nwe-350x138.png)

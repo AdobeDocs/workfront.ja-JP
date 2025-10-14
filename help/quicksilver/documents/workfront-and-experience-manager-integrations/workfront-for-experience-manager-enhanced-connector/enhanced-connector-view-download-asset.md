@@ -62,4 +62,4 @@ Experience Manager Assets からリンクされている Adobe Workfront 内の�
 1. そのドキュメントをドキュメントリストから選択します。
 1. 右側のドキュメントの概要で、上部のサムネールにポインタを合わせて、「**プレビュー**」または「**ダウンロード**」を選択します。
 
-   ![ プレビューまたはダウンロード ](assets/view-or-download-enhanced-connector-350x123.png)
+   ![&#x200B; プレビューまたはダウンロード &#x200B;](assets/view-or-download-enhanced-connector-350x123.png)

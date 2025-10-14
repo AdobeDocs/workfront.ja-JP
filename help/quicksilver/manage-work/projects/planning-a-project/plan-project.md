@@ -85,7 +85,7 @@ ht-degree: 95%
   Workfront で追跡する更新の定義について詳しくは、[システムで追跡される更新](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md)を参照してください。
 
 * Workfront に保存するフィールドがない、追跡する必要がある情報はありますか。はいの場合は、この情報を保存できるプロジェクトまたはタスク用のカスタムフォームを作成します。\
-  カスタムフォームの作成について詳しくは、「[ カスタムフォームの作成 ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
+  カスタムフォームの作成について詳しくは、「[&#x200B; カスタムフォームの作成 &#x200B;](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) を参照してください。
 
 * プロジェクトの作業を続行する前に承認する必要がある承認チェックポイントはありますか。はいの場合は、プロジェクトの作成時に使用できるプロジェクトまたはタスクの承認プロセスを作成します。\
   承認プロセスについて詳しくは、[作業アイテムの承認プロセスの作成](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)を参照してください。

@@ -101,7 +101,7 @@ This article describes how you can share a view with others. For information abo
 
 ## ワークスペースの共有に関する考慮事項
 
-* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 ](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
+* Adobe Workfront Planning でのオブジェクトの共有の一般的な情報については、[Workfront Planning での共有権限の概要 &#x200B;](/help/quicksilver/planning/access/sharing-permissions-overview.md) も参照してください。
 * ワークスペースは、組織内のユーザー、チーム、役割、グループまたは会社と共有できます。
 * チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。
 * 組織外のユーザーとワークスペースを共有することはできません。
@@ -122,15 +122,15 @@ This article describes how you can share a view with others. For information abo
 
 1. 共有するワークスペースを開き、画面の右上隅の「**共有**」をクリックします。
 
-   ![ ワークスペースの右上にある「共有」ボタン ](assets/share-button-on-workspace-top-right.png)
+   ![&#x200B; ワークスペースの右上にある「共有」ボタン &#x200B;](assets/share-button-on-workspace-top-right.png)
 
 1. 「**このワークスペースへのアクセスを許可**」フィールドに、ユーザー、グループ、チーム、会社または担当業務の名前の入力を開始し、リストに表示されたらクリックします。
 
-   ![UI をグループと共有 ](assets/sharing-ui-with-groups.png)
+   ![UI をグループと共有 &#x200B;](assets/sharing-ui-with-groups.png)
 
    >[!NOTE]
    >
-   >   チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 ](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
+   >   チーム、グループ、会社、担当業務に加えて、Adobe Admin Consoleに追加されたユーザーとのみ共有できます。 Workfrontのみのユーザーを追加することはできません。 詳しくは、[Adobe Admin Consoleでのユーザーの管理 &#x200B;](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md) を参照してください。
 
 
 1. ドロップダウンメニューから次の権限レベルの 1 つを選択します。
@@ -153,17 +153,17 @@ This article describes how you can share a view with others. For information abo
 
    * アプリ内通知
 
-     ![ アクセスリクエストのアプリ内通知 ](assets/in-app-notification-for-access-request.png)
+     ![&#x200B; アクセスリクエストのアプリ内通知 &#x200B;](assets/in-app-notification-for-access-request.png)
    * メール通知
 
-     ![ アクセスリクエストのメール通知 ](assets/email-notification-for-access-request.png)
+     ![&#x200B; アクセスリクエストのメール通知 &#x200B;](assets/email-notification-for-access-request.png)
 1. （条件付き）Workfrontの通知領域で、アプリ内通知をクリックします
 または
 メール通知で「**すべての通知を表示**」をクリックし、リスト内の通知をクリックします。
 
    **保留中のアクセスリクエスト** ボックスが表示されます。
 
-   ![ 通知リストの承認ボックス ](assets/notifications-list-approval-box.png)
+   ![&#x200B; 通知リストの承認ボックス &#x200B;](assets/notifications-list-approval-box.png)
 
 1. （オプション）権限を承認するユーザーについて、ユーザー名の右側にあるドロップダウンメニューから次のいずれかのオプションを選択します。
    * **表示**

@@ -20,7 +20,7 @@ ht-degree: 66%
 
 このタスクビューでは、タスク名列にコードを追加して、プロジェクトの作業分割構造に従ってインデントされたタスクを表示できます。
 
-![ タスクのインデントの表示 ](assets/view-text-mode-indentation-task-list-350x171.png)
+![&#x200B; タスクのインデントの表示 &#x200B;](assets/view-text-mode-indentation-task-list-350x171.png)
 
 ## アクセス要件
 
@@ -58,7 +58,7 @@ ht-degree: 66%
  </tbody> 
 </table>
 
-*詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+*詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++
 

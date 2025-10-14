@@ -27,7 +27,7 @@ ht-degree: 99%
 1. 比較する複数のバージョンを持つプルーフを開きます。
 1. 表示されるプルーフビューアの左上隅で、プルーフの名前をクリックします。次に、表示されるバージョンリストで、開いて比較するバージョンの横にある&#x200B;**比較**&#x200B;アイコンをクリックします。
 
-   ![ 配達確認の比較でバージョンを選択 ](assets/compare-proofs-choose-version-350x115.jpg)
+   ![&#x200B; 配達確認の比較でバージョンを選択 &#x200B;](assets/compare-proofs-choose-version-350x115.jpg)
 
    プルーフは横に並べて表示され、より新しいバージョンが左側に表示されます。
 
@@ -45,8 +45,8 @@ ht-degree: 99%
 
 2 つの別個のプルーフを比較できます。
 
-* [ [!DNL Workfront] 内の別個のプルーフを比較](#compare-separate-proofs-in-workfront)
-* [ [!DNL Workfront Proof] 内の別個のプルーフを比較](#compare-separate-proofs-in-workfront-proof)
+* [&#x200B; [!DNL Workfront] 内の別個のプルーフを比較](#compare-separate-proofs-in-workfront)
+* [&#x200B; [!DNL Workfront Proof] 内の別個のプルーフを比較](#compare-separate-proofs-in-workfront-proof)
 
 ### [!DNL Workfront] 内の別個のプルーフを比較 {#compare-separate-proofs-in-workfront}
 

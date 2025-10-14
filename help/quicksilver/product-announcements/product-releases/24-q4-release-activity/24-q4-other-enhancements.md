@@ -30,7 +30,7 @@ ht-degree: 10%
 
 Workfront管理者は、組織の AI アシスタントを有効または無効にできます。 AI アシスタントは、Select、Prime および Ultimate プランのインスタンスで使用できます。
 
-詳細については、[AI アシスタントを使用して要約する ](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md) を参照してください。
+詳細については、[AI アシスタントを使用して要約する &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md) を参照してください。
 
 ## Workfrontで使用可能なAdobeAI アシスタント
 
@@ -46,4 +46,4 @@ Workfront管理者は、組織の AI アシスタントを有効または無効�
 
 Workfront管理者は、組織の AI アシスタントを有効または無効にできます。 AI アシスタントは、Select、Prime および Ultimate プランのインスタンスで使用できます。
 
-Workfrontの AI アシスタントについて詳しくは、[AI アシスタント：記事一覧 ](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md) を参照してください。
+Workfrontの AI アシスタントについて詳しくは、[AI アシスタント：記事一覧 &#x200B;](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md) を参照してください。

@@ -73,7 +73,7 @@ ht-degree: 97%
 
 [!DNL Adobe Exchange] から自分用に [!DNL Adobe Workfront for Photoshop] プラグインをインストールできます。
 
-1. Adobe Exchange で [Adobe Workfront for Photoshop のインストールページ](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&amp;workflow=share)に移動します。
+1. Adobe Exchange で [Adobe Workfront for Photoshop のインストールページ](https://adobe.com/go/cc_plugins_discover_plugin?pluginId=37722a55&workflow=share)に移動します。
 1. 表示されるダイアログで、「**[!DNL Adobe Creative Cloud] デスクトップアプリを開く**」をクリックします。
 1. [!DNL Adobe Photoshop] プラグインマネージャーを開いたら、「**[!UICONTROL インストール]**」をクリックします。
 1. ダイアログボックスの情報を読み、「**[!UICONTROL OK]**」をクリックします。
@@ -88,7 +88,7 @@ ht-degree: 97%
 
 1. 上部のメニューで、**[!UICONTROL プラグイン]**／**[!UICONTROL プラグインパネル]**&#x200B;をクリックします。
 
-   ![ プラグインパネル ](assets/plugins-panel-ps.png)
+   ![&#x200B; プラグインパネル &#x200B;](assets/plugins-panel-ps.png)
 
 1. **[!UICONTROL プラグインパネル]**&#x200B;で、「**[!UICONTROL プラグイン]**」タブを選択して、**[!UICONTROL Workfront for Adobe Photoshop]** を見つけます。
 
@@ -107,7 +107,7 @@ ht-degree: 97%
    >[!TIP]
    >
    >* ドメインを検索するには、ブラウザーを開き、[!DNL Workfront] インスタンスに移動し、URL の最初の部分をコピーします。\
-   >![ ドメインの検索 ](assets/domain-350x50.png)
+   >![&#x200B; ドメインの検索 &#x200B;](assets/domain-350x50.png)
    >
    > * Workfront インスタンスが Experience Cloud と統合されている場合は、Admin Console の製品／Workfront の下に Workfront ドメインが表示されるように管理者に依頼してください。
 

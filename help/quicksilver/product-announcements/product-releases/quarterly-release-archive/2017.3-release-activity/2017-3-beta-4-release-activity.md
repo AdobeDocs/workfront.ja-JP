@@ -151,7 +151,7 @@ Workfront は、稼動可能なユーザー全体の現在の作業割り当て�
 
 この変更以前は、この情報をレポートできませんでした。
 
-元のイシューから情報を取得するカスタムテキストモードのビューの作成について詳しくは、[ 表示：タスクまたはプロジェクトリストに元のイシューの情報を表示する ](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) を参照してください。
+元のイシューから情報を取得するカスタムテキストモードのビューの作成について詳しくは、[&#x200B; 表示：タスクまたはプロジェクトリストに元のイシューの情報を表示する &#x200B;](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md) を参照してください。
 
 ## 更新ストリーム内のフィルターシステムの更新が、オブジェクト間で保持されるようになりました {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 

@@ -69,9 +69,9 @@ Adobe Workfront のガントチャートは、タスクやプロジェクトの�
    * タスクまたはテンプレートタスクに移動し、左パネルの「[!UICONTROL **サブタスク**]」をクリックします。
    * タスクレポート
 
-1. タスクリストの上部にある [!UICONTROL **ガント**] アイコン ![ ガントアイコン ](assets/gantt-icon-nwe.png) をクリックします。
+1. タスクリストの上部にある [!UICONTROL **ガント**] アイコン ![&#x200B; ガントアイコン &#x200B;](assets/gantt-icon-nwe.png) をクリックします。
 
-   ![ タスク リスト ガント ](assets/task-list-gantt.png)
+   ![&#x200B; タスク リスト ガント &#x200B;](assets/task-list-gantt.png)
 
    タスクリストの[!UICONTROL ガントチャート]がタスクリストの右側に開きます。
 
@@ -114,7 +114,7 @@ Adobe Workfront のガントチャートは、タスクやプロジェクトの�
 
 1. プロジェクトリストの上部にある&#x200B;[!UICONTROL **ガント**]&#x200B;アイコンをクリックします。
 
-   ![ プロジェクト リスト ガント ](assets/project-list-gantt.png)
+   ![&#x200B; プロジェクト リスト ガント &#x200B;](assets/project-list-gantt.png)
 
    プロジェクトリストの[!UICONTROL ガントチャート]が開きます。
 

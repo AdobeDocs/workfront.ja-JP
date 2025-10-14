@@ -27,6 +27,6 @@ ht-degree: 25%
 
 新しいキャンバスダッシュボード機能を使用すると、キャンバスにレポートタイプを追加することで、Adobe Workfront データを簡単に視覚化できます。このレポートタイプは、サイズ変更、ドラッグ&amp;ドロップなど、多くの柔軟なレイアウトオプションを提供します。
 
-キャンバスダッシュボードを使用すると、ドキュメントの承認決定やWorkfrontの計画など、新しく追加されたWorkfront機能に関するレポートを作成できます。 詳しくは、[ キャンバスダッシュボードの概要 ](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
+キャンバスダッシュボードを使用すると、ドキュメントの承認決定やWorkfrontの計画など、新しく追加されたWorkfront機能に関するレポートを作成できます。 詳しくは、[&#x200B; キャンバスダッシュボードの概要 &#x200B;](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md) を参照してください。
 
 実稼動環境でキャンバスダッシュボードのオープンベータ版に登録して、新機能を確認し、フィードバックを提供することをお勧めします。

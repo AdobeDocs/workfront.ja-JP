@@ -58,7 +58,7 @@ ht-degree: 8%
 
 環境プロモーションパッケージは、インストールする前に作成する必要があります。
 
-手順については、[ 環境プロモーションパッケージの作成または編集 ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md) を参照してください。
+手順については、[&#x200B; 環境プロモーションパッケージの作成または編集 &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md) を参照してください。
 
 ## インストールのパッケージステータス
 
@@ -68,12 +68,12 @@ ht-degree: 8%
 
 パッケージのステータスを編集するには：
 
-1. 環境プロモーションパッケージの作成と編集の記事の [ 既存のパッケージの編集またはアセンブリ ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) の説明に従って、パッケージを選択します。
+1. 環境プロモーションパッケージの作成と編集の記事の [&#x200B; 既存のパッケージの編集またはアセンブリ &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) の説明に従って、パッケージを選択します。
 1. **パッケージを編集** をクリックします。
 1. **ステータス** をクリックします。
 1. ドロップダウンリストから目的のステータスを選択します。
 
-ステータスについて詳しくは、「Workfront環境間でのオブジェクトの移動の概要」の [ 環境のプロモーションステータス ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) を参照してください。
+ステータスについて詳しくは、「Workfront環境間でのオブジェクトの移動の概要」の [&#x200B; 環境のプロモーションステータス &#x200B;](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) を参照してください。
 
 ## パッケージのインストール
 
@@ -89,7 +89,7 @@ ht-degree: 8%
 
    競合を解決するには、オブジェクト タイプの横にあるドロップダウン矢印をクリックし、実行するアクションを選択します。
 
-   詳細については、この記事の [ 衝突 ](#collisions) を参照してください
+   詳細については、この記事の [&#x200B; 衝突 &#x200B;](#collisions) を参照してください
 1. パッケージを新しい環境にデプロイするには、画面の右上にある **デプロイ** をクリックします。
 
 ## 衝突
@@ -112,7 +112,7 @@ ht-degree: 8%
 
   衝突が検出されない場合でも、上書きするオブジェクトを選択することもできます。
 
-  上書きが親オブジェクトと子オブジェクトにどのように影響するかについて詳しくは、この記事の [ 親オブジェクトと子オブジェクトの上書き ](#overwriting-parent-and-child-objects) を参照してください。
+  上書きが親オブジェクトと子オブジェクトにどのように影響するかについて詳しくは、この記事の [&#x200B; 親オブジェクトと子オブジェクトの上書き &#x200B;](#overwriting-parent-and-child-objects) を参照してください。
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->
