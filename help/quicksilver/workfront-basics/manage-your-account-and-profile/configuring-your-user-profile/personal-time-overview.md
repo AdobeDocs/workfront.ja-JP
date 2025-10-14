@@ -7,10 +7,10 @@ description: 承認された休暇がいつ発生するかを Adobe Workfront �
 author: Becky
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: ce2f1ebe7ea97f3c25ac6a7ef33fd3c066727220
+source-git-commit: f10b0a4897d6250f0c4decf1fad069c598536a38
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 87%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 87%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。これはプレビューサンドボックス環境でのみ使用でき、実稼動環境への段階的なロールアウトでリリースされています。</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment, and is being released in a phased rollout to Production.</span>-->
 
 [!DNL Adobe Workfront] は、個人の休暇を管理、累積または追跡するために、組織の既存システムを複製または置き換えるようには設計されていません。
 
@@ -74,15 +74,15 @@ ht-degree: 87%
 >
 >Adobe統合エクスペリエンスを利用している場合は、上部のナビゲーション領域でAdobe アカウント メニュー（プロファイル画像）をクリックし、「Workfront プロファイル」を選択すると、Workfront プロファイルにアクセスできます。
 >
->![workfront プロファイル &#x200B;](assets/aue-profile.png)
+>![workfront プロファイル ](assets/aue-profile.png)
 
 1. 左パネルの「**[!UICONTROL 休暇]**」をクリックします。
 1. 個人の休暇に希望する日付を選択します。
 
-   <span class="preview"> プレビュー環境のサンプル画像：</span>
-   ![個人の休暇カレンダー](assets/personal-time-off-calendar-0925.png)
+   <!--<span class="preview">Sample image in the Preview environment:</span>
+   ![Personal time off calendar](assets/personal-time-off-calendar-0925.png)-->
 
-   実稼動環境のサンプル画像：
+   <!--Sample image in the Production environment:-->
    ![個人の休暇カレンダー](assets/personal-time-off-calendar.png)
 
 1. 一日中休みを取る場合は、「**[!UICONTROL 一日中]**」を選択します。
