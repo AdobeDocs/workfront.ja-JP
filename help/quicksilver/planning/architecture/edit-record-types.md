@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 393f858ba3711b367cf06ad846ea60be0d6d9034
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 30%
+source-wordcount: '686'
+ht-degree: 31%
 
 ---
 
@@ -99,15 +99,16 @@ ht-degree: 30%
    ワークスペースページが開き、レコードタイプが表示されます。
 1. 次のいずれかの操作を行います。
 
-   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックしてから、**編集** をクリックします
+   * レコードタイプのカードにポインタを合わせ、レコードタイプのカードの右上隅にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックします
+     <!--<span class="preview">or **Settings**</span>-->
 または
-   * <span class="preview"> レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**編集** をクリックします。</span>
+   * <span class="preview"> レコードタイプカードをクリックしてレコードタイプページを開き、レコードタイプ名の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**編集**<!--<span class="preview">or **Settings**</span>. </span>--> をクリックします
 
-   <span class="preview">![&#x200B; レコードタイプカードのその他のメニューオプション &#x200B;](assets/more-menu-options-from-record-type-card.png)</span>
+   <!--<span class="preview">![More menu options from record type card](assets/more-menu-options-from-record-type-card.png)</span>-->
 
-1. **レコードタイプを編集** ボックスで、「**外観** タブがデフォルトで開きます。
+1. **レコードタイプを編集** ボックスで、「**外観** タブがデフォルトで開きます。<!--update screen shot below at preview-->
 
-   ![&#x200B; レコードタイプを編集ボックスの「外観」タブ &#x200B;](assets/edit-record-type-box-appearance-tab.png)
+   ![ レコードタイプを編集ボックスの「外観」タブ ](assets/edit-record-type-box-appearance-tab.png)
 
    「**外観**」タブで次の情報を更新します。
 
@@ -117,40 +118,29 @@ ht-degree: 30%
       * レコードタイプを識別するための色を選択します。これは、レコードタイプアイコンの色です。
       * リストからアイコンを選択するか、アイコンの名前を入力して何を表しているか説明し、表示されたら選択します。これは、レコードタイプのアイコンです。ファイルのアイコンはデフォルトで選択されています。
 
-   <!--old info: 
-   1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
-      ![Edit record type box advanced settings tab](assets/edit-record-type-box-advanced-settings-tab.png)
-   1. (Conditional) Update the following information in the **Advanced settings** tab: 
-      * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-      * Choose from which workspaces the record type can be accessed. Choose from the following options:
-         * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-         * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type.-->
 
-
-1. （オプションおよび条件付き）システム管理者の場合は、「**詳細設定**」をクリックして、「**クロスワークスペース機能**」セクションで次の情報を更新します。<!--take this info out and replace it with a link to this article: help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md-->
+1. （オプションおよび条件付き）システム管理者の場合は、「**詳細設定**」をクリックして、「**クロスワークスペース機能**」セクションで次の情報を更新します。<!--the info here is duplicated in the Create record types article-->
    * **他のワークスペースでこのレコードタイプへの接続を許可** 設定を有効にする：これにより、ワークスペースマネージャーは他のワークスペースからこのレコードタイプに接続できます。\
      このレコードタイプを接続できるワークスペースを指定できます。 すべてのワークスペースで使用できるようにすることも、読み込み先となる特定のワークスペースを指定することもできます。
-詳しくは、[&#x200B; レコードタイプに対するクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+詳しくは、[ レコードタイプに対するクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 
-   ![&#x200B; レコードタイプを編集ボックスの「詳細設定」タブ &#x200B;](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   <!--replace last point with this when we release dynamic record types:
-      1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-         * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-               You can designate specific users who can add this record type to other workspaces. 
-         * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-               You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-         For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  
-         ******** replace screen shot below **********
-         ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-      -->
+   ![ 「詳細設定」タブの「レコードタイプを作成」ボックス ](assets/create-record-type-box-advanced-settings-tab.png)
+
+   <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
+    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
+    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+    ***********Add screenshot***********
+    -->
 
 1. 「**保存**」をクリックします。
 
-   ワークスペースのレコードタイプカードの右上隅に、接続アイコン ![&#x200B; 他のワークスペースから接続アイコン &#x200B;](assets/connect-from-other-workspaces-icon.png) が表示され、レコードが他のワークスペースからアクセスできるようになったことを示します。
+   ワークスペースのレコードタイプカードの右上隅に、接続アイコン ![ 他のワークスペースから接続アイコン ](assets/connect-from-other-workspaces-icon.png) が表示され、レコードが他のワークスペースからアクセスできるようになったことを示します。
+
+   <!--replace the blurb above after "Save" with this: <span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
 
 1. （オプション）ワークスペース領域からレコードタイプカードをクリックしてレコードタイプのページを開き、ヘッダーでレコードタイプの名前を変更します。
 
 1. （オプション）別のレコードの種類を編集するには、レコードの種類のページで、レコードの種類名の右側にある下向き矢印を展開し、レコードの種類を検索してから、一覧に表示されるときにその種類を選択します。
 
-   ![&#x200B; 検索ボックス付きレコードタイプページのレコードタイプドロップダウン &#x200B;](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+   ![ 検索ボックス付きレコードタイプページのレコードタイプドロップダウン ](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

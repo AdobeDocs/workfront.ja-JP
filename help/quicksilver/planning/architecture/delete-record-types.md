@@ -6,13 +6,15 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
-source-git-commit: 298c542afea902d9fc14ef6a4470c0bc1d9bd33c
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 53%
 
 ---
 
+
+<!--keep the global record type reference in yellow till January 2026-->
 
 # レコードタイプの削除
 
@@ -26,13 +28,13 @@ ht-degree: 53%
 
 ただし、レコードタイプを削除すると、そのレコードタイプに関連付けられているすべての情報も削除されます。詳しくは、この記事で[レコードタイプを削除する際の考慮事項](#considerations-when-deleting-record-types)の節を参照してください。
 
-レコードタイプについて詳しくは、[&#x200B; レコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
+レコードタイプについて詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## アクセス要件
 
-+++ 展開すると、アクセス要件が表示されます。
++++ 展開すると、アクセス要件が表示されます。 
 
 <table style="table-layout:auto"> 
 <col> 
@@ -92,7 +94,7 @@ ht-degree: 53%
 
 *Workfront のアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)を参照してください。
 
-+++
++++   
 
 
 ## レコードタイプを削除する際の考慮事項
@@ -109,6 +111,21 @@ ht-degree: 53%
 * 削除したレコードタイプやその情報は復元できません。
 * 削除するレコードタイプに関連付けられているフィールドとレコードを別のレコードタイプで再作成してから削除することをお勧めします。
 
+<!--
+
+<div class="preview">
+
+* You cannot delete a global record type that has been added to other workspaces. 
+   
+   You must first delete it from the secondary workspaces where it's been added, before you can delete it from its original workspace. 
+
+   Deleting a global record type from their secondary workspaces only remove them, their records, and that workspace's fields from the secondary workspace. It does not delete the global record type from its original workspace.
+
+   For information, see the section "Delete a global record type from a secondary workspace" in the article [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). 
+
+</div>
+-->
+
 ## レコードタイプの削除
 
 {{step1-to-planning}}
@@ -123,10 +140,17 @@ ht-degree: 53%
 1. 次のいずれかの操作を行います。
 
    * レコードタイプカードにポインタを合わせ、「**詳細**」メニューをクリックしてから **削除** をクリックします。
-   * 削除するレコードの種類のカードをクリックし、レコードの種類ページで、レコードの種類名の右側にある **その他** メニュー ![&#x200B; その他のメニュー &#x200B;](assets/more-menu.png) をクリックし、[**削除**] をクリックします。
+   * 削除するレコードの種類のカードをクリックし、レコードの種類ページで、レコードの種類名の右側にある **その他** メニュー ![ その他のメニュー ](assets/more-menu.png) をクリックし、[**削除**] をクリックします。
 
-   ![&#x200B; レコードタイプを完全に削除する確認 &#x200B;](assets/permanently-delete-record-type-confirmation.png)
+   ![ レコードタイプを完全に削除する確認 ](assets/permanently-delete-record-type-confirmation.png)
+
+   <!--[!TIP]
+   >
+   ><span class="preview">You cannot delete global record types added to other workspaces. First, delete the global record types form their secondary workspaces before deleting them from the original workspace.</span>-->
+
 
 1. 確認ボックスに **削除** と入力し、「**完全に削除**」をクリックします。 これは、大文字と小文字を区別しません。
 
    選択したレコードタイプは、フィールド、関連レコード、ビューと共に削除され、復元できません。
+
+

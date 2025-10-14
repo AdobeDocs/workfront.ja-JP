@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: 03c1f17504846fc4b8c4114ddc32df687281bc07
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
 source-wordcount: '5332'
 ht-degree: 43%
@@ -14,13 +14,15 @@ ht-degree: 43%
 ---
 
 
-<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=ja ??-->
+<!--Should the structure of this article be like this other one: https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/customize/custom-forms/custom-form-builder/use-the-custom-form-builder/add-a-custom-field-to-a-custom-form.html?lang=en ??-->
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
 # フィールドの作成
+
+<!--information about choice values must stay in yellow till Jan 2026-->
 
 <span class="preview">このページでハイライト表示されている情報は、まだ一般に利用できない機能を示します。すべてのお客様が、プレビュー環境でのみ使用できます。 実稼動環境への毎月のリリースの後、迅速なリリースを有効にしたお客様には、実稼動環境でも同じ機能を利用できます。</span>
 
@@ -42,7 +44,7 @@ Workfront Planning では、次の方法でフィールドを作成できます�
 * [Excel または CSV ファイルを使用してレコードタイプを読み込む](#create-fields-when-importing-record-types-from-a-csv-or-excel-file)
 * [既存のWorkfront フィールドのコピーを読み込む](#create-fields-by-importing-them-from-workfront)
 
-Workfrontの計画フィールドについて詳しくは、[&#x200B; フィールドの概要 &#x200B;](/help/quicksilver/planning/fields/fields-overview.md) を参照してください。
+Workfrontの計画フィールドについて詳しくは、[ フィールドの概要 ](/help/quicksilver/planning/fields/fields-overview.md) を参照してください。
 
 ## アクセス要件
 
@@ -114,7 +116,7 @@ Workfrontの計画フィールドについて詳しくは、[&#x200B; フィー�
 
 2 つのレコードタイプ間で、または、1 つのレコードタイプと他のアプリケーションのオブジェクトタイプとの間で新しい接続を追加する際に、リンクされるレコードフィールドを作成できます。
 
-Workfront Planning レコード・タイプの接続の詳細は、[&#x200B; レコード・タイプの接続 &#x200B;](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
+Workfront Planning レコード・タイプの接続の詳細は、[ レコード・タイプの接続 ](/help/quicksilver/planning/architecture/connect-record-types.md) を参照してください。
 
 <!--## Create fields by importing record types using an Excel or CSV file
 
@@ -146,7 +148,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 フィールドをコピーした後、フィールドは互いに独立しており、情報を交換しません。
 
-詳しくは、[Workfrontからのフィールドの読み込み &#x200B;](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
+詳しくは、[Workfrontからのフィールドの読み込み ](/help/quicksilver/planning/fields/import-fields-from-workfront.md) を参照してください。
 
 
 ## フィールドを最初から作成 {#create-fields-from-scratch}
@@ -205,8 +207,8 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
    * [作成日](#created-date)
    * [最終変更者](#last-modified-by)
    * [最終変更日](#last-modified-date)
-   * <span class="preview">[&#x200B; 承認日 &#x200B;](#approved-date)</span>
-   * <span class="preview">[&#x200B; 承認者 &#x200B;](#approved-by)</span>
+   * <span class="preview">[ 承認日 ](#approved-date)</span>
+   * <span class="preview">[ 承認者 ](#approved-by)</span>
      <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
@@ -224,7 +226,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**1 行テキスト**&#x200B;フィールドタイプを選択します。
 
-   ![1 行テキストのフィールドタイプ &#x200B;](assets/single-line-text-field-type.png)
+   ![1 行テキストのフィールドタイプ ](assets/single-line-text-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：レコードのテーブルまたは詳細ページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -249,7 +251,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**段落**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 段落フィールドタイプ &#x200B;](assets/paragraph-field-type.png)
+   ![ 段落フィールドタイプ ](assets/paragraph-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -266,12 +268,12 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 >[!NOTE]
 >
-><span class="preview"> この節で説明する機能に加えて、レコードの複数選択フィールド値をテーブル表示でインライン編集する際に、新しい選択肢を追加できます。 詳細については、「レコードの編集 [&#x200B; の「単一選択フィールドまたは複数選択フィールドに関する情報の編集」の節を参照し &#x200B;](/help/quicksilver/planning/records/edit-records.md) ください。</span>
+><span class="preview"> この節で説明する機能に加えて、レコードの複数選択フィールド値をテーブル表示でインライン編集する際に、新しい選択肢を追加できます。 詳細については、「レコードの編集 [ の「単一選択フィールドまたは複数選択フィールドに関する情報の編集」の節を参照し ](/help/quicksilver/planning/records/edit-records.md) ください。</span>
 >
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**複数選択**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 複数選択フィールドタイプ &#x200B;](assets/multi-select-field-type.png)
+   ![ 複数選択フィールドタイプ ](assets/multi-select-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -294,19 +296,36 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
    新しい複数選択フィールドが列としてレコードタイプに追加され、その値をレコードに関連付けることができます。
 
+<!--
+1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
+1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+
+    >[!NOTE]
+    >
+    >* <span class="preview">Workfront assigns unique values for each choice. </span>
+    >
+    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
+    >
+    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
+    >
+    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+
+1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span> 
+
+-->
+
 ### 単一選択 {#single-select}
 
 単一選択フィールドでは、ドロップダウンメニューから 1 つのオプションを選択することで、追加情報を任意の形式で取り込むことができます。
 
 >[!NOTE]
 >
-><span class="preview"> この節で説明する機能に加えて、レコードの単一選択フィールド値をテーブル表示でインライン編集する際に、新しい選択肢を追加できます。 詳細については、「レコードの編集 [&#x200B; の「単一選択フィールドまたは複数選択フィールドに関する情報の編集」の節を参照し &#x200B;](/help/quicksilver/planning/records/edit-records.md) ください。</span>
+><span class="preview"> この節で説明する機能に加えて、レコードの単一選択フィールド値をテーブル表示でインライン編集する際に、新しい選択肢を追加できます。 詳細については、「レコードの編集 [ の「単一選択フィールドまたは複数選択フィールドに関する情報の編集」の節を参照し ](/help/quicksilver/planning/records/edit-records.md) ください。</span>
 >
-
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**単一選択**&#x200B;というフィールドタイプを選択します。
 
-   ![&#x200B; 単一選択フィールドタイプ &#x200B;](assets/single-select-field-type.png)
+   ![ 単一選択フィールドタイプ ](assets/single-select-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -329,13 +348,32 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
    新しい単一選択フィールドが列としてレコードタイプに追加され、その値をレコードに関連付けることができます。
 
+<!--
+
+1. <span class="preview">(Optional) Hover over the field name in the table view, click the drop-down menu to the right of the field name, then click **Edit field**.</span>
+1. <span class="preview">Turn on the **Show values** setting to display the values for each choice. The values are the names of each choice, as they appear in the Workfront database. </span>
+
+    >[!NOTE]
+    >
+    >* <span class="preview">Workfront assigns unique values for each choice. </span>
+    >
+    >* <span class="preview">Values match the choice name in lowercase format. Multiple words are separated by an underscore. </span>
+    >
+    >* <span class="preview">Values can be repeated between multiple fields, but they must be unique for one field.</span>
+    >
+    ><span class="preview"> ![Show value toggle](assets/show-values-toggle-and-choices-with-values.png)</span>
+
+1. <span class="preview">(Optional) Use the choice values in your API calls and other integrations. </span>
+
+-->
+
 ### 日付 {#date}
 
 日付フィールドを使用すると、追加情報を日時形式で取り込むことができます。
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**日付**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 日付フィールドタイプ &#x200B;](assets/date-field-type.png)
+   ![ 日付フィールドタイプ ](assets/date-field-type.png)
 
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
@@ -369,12 +407,12 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >数値フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに数値として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**数値**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 数値フィールドタイプ &#x200B;](assets/number-field-type.png)
+   ![ 数値フィールドタイプ ](assets/number-field-type.png)
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
    * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
@@ -399,12 +437,12 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >割合フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページにパーセンテージとして表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**パーセント**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; パーセンテージのフィールドの種類 &#x200B;](assets/percentage-field-type.png)
+   ![ パーセンテージのフィールドの種類 ](assets/percentage-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
@@ -439,11 +477,11 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >通貨フィールドは、リクエストフォームビルダーで 1 行のテキストフィールドタイプとして表示されます。
 >
 >ただし、フィールド形式は保持され、これらのフィールドの値は、リクエストの送信後に、レコードタイプとリクエストの詳細ページに通貨として表示されます。
->&#x200B;>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**通貨**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 通貨フィールドタイプ &#x200B;](assets/currency-field-type.png)
+   ![ 通貨フィールドタイプ ](assets/currency-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -466,7 +504,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**チェックボックス**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; チェックボックスフィールドタイプ &#x200B;](assets/checkbox-field-type.png)
+   ![ チェックボックスフィールドタイプ ](assets/checkbox-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。<!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -483,7 +521,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**式**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 式のリストを含む新しい式フィールド &#x200B;](assets/new-formula-field-with-list-of-expressions.png)
+   ![ 式のリストを含む新しい式フィールド ](assets/new-formula-field-with-list-of-expressions.png)
 
 1. 次の情報を「**新規フィールド**」タブに追加します。
 
@@ -493,9 +531,9 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. 選択した式をクリックすると、定義が表示され、書式が表示されます。
 
-   ![&#x200B; 数式の説明 &#x200B;](assets/description-of-formula-expression.png)
+   ![ 数式の説明 ](assets/description-of-formula-expression.png)
 
-   サポートされている式について詳しくは、[&#x200B; 式フィールドの概要 &#x200B;](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
+   サポートされている式について詳しくは、[ 式フィールドの概要 ](/help/quicksilver/planning/fields/formula-fields.md) を参照してください。
 
 
    >[!TIP]
@@ -514,7 +552,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
    >
    >* 現在のレコードタイプから最大 4 つのフィールド（およびオブジェクト）を参照できます。 例えば、アクティビティレコードタイプ（1）の数式フィールドを作成し、そのアクティビティがWorkfront プロジェクト（3）に接続されたキャンペーンレコードタイプ（2）に接続されている場合、アクティビティのレコードタイプに対して作成する数式で、プロジェクトの予算フィールド（4）を参照できます。
    >
-   >![&#x200B; 式の例プロジェクト予算の 4 つのフィールドが削除されました &#x200B;](assets/formula-example-project-budget-four-fields-removed.png)
+   >![ 式の例プロジェクト予算の 4 つのフィールドが削除されました ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. （省略可能） [**最大化**] をクリックすると、[ 数式 ] ボックスが大きな領域で開きます。
@@ -534,7 +572,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
      >
      >配列を表示するフィールドには、タグを使用することをお勧めします。 この場合、各配列メンバーは個別のタグとして表示されます。
 
-     ![&#x200B; 選択したタグがハイライト表示された式フィールドの書式リスト &#x200B;](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![ 選択したタグがハイライト表示された式フィールドの書式リスト ](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **日付**：式フィールドの結果は日付として表示されます。
 
@@ -558,11 +596,11 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >
 >* 人物フィールドは、リクエストフォームビルダーで参照（または接続）フィールドタイプとして表示されます。
 >
->詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 &#x200B;](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
+>詳しくは、[Adobe Workfront Planning でのリクエストフォームの作成と管理 ](/help/quicksilver/planning/requests/create-request-form.md) を参照してください。
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、**ユーザー**&#x200B;フィールドタイプを選択します。
 
-   ![&#x200B; 人物フィールドタイプ &#x200B;](assets/people-field-type.png)
+   ![ 人物フィールドタイプ ](assets/people-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
    * **名前**：テーブルまたはレコードページに表示されるフィールドの名前。
@@ -583,7 +621,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**作成者**」フィールドタイプを選択します。
 
-   ![&#x200B; フィールドタイプで作成 &#x200B;](assets/created-by-field-type.png)
+   ![ フィールドタイプで作成 ](assets/created-by-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
@@ -601,7 +639,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**作成日**」フィールドタイプを選択します。
 
-   ![&#x200B; 作成日フィールドタイプ &#x200B;](assets/created-date-field-type.png)
+   ![ 作成日フィールドタイプ ](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -634,7 +672,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[最初からフィールドを作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**最終更新者**」フィールドタイプを選択します。
 
-   ![&#x200B; 最終変更者フィールドタイプ &#x200B;](assets/last-modified-by-field-type.png)
+   ![ 最終変更者フィールドタイプ ](assets/last-modified-by-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 
@@ -652,7 +690,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**最終更新日**」フィールドタイプを選択します。
 
-   ![&#x200B; 最終変更日フィールドタイプ &#x200B;](assets/last-modified-date-field-type.png)
+   ![ 最終変更日フィールドタイプ ](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -694,7 +732,7 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 
 1. この記事の[フィールドを最初から作成する](#create-fields-from-scratch)の節の説明に従ってフィールドの作成を開始し、「**作成日**」フィールドタイプを選択します。
 
-   ![&#x200B; 承認日フィールドタイプ &#x200B;](assets/approved-date-field-type.png)
+   ![ 承認日フィールドタイプ ](assets/approved-date-field-type.png)
 
    1. 「**新しいフィールド**」タブで次の情報を追加します。
 
@@ -729,9 +767,9 @@ Workfrontからフィールドを読み込むと、Workfront Planning レコー�
 >
 >フォームが複数の承認者に関連付けられている場合、すべての承認者の名前がコンマで区切って、「承認日」フィールドに記録されます。
 
-1. この記事の「最初からフィールドを作成 [&#x200B; の説明に従ってフィールドの作成を開始し &#x200B;](#create-fields-from-scratch)、「**承認者**」フィールドタイプを選択します。
+1. この記事の「最初からフィールドを作成 [ の説明に従ってフィールドの作成を開始し ](#create-fields-from-scratch)、「**承認者**」フィールドタイプを選択します。
 
-   ![&#x200B; フィールドタイプによる承認 &#x200B;](assets/approved-by-field-type.png)
+   ![ フィールドタイプによる承認 ](assets/approved-by-field-type.png)
 
 1. 「**新しいフィールド**」タブで次の情報を追加します。
 

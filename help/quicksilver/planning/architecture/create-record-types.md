@@ -6,15 +6,17 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: ff5bc262a5ed2a22099c058ebdb61bc32485b201
+source-git-commit: 7d37481fc5b468f6f8ea1fce6ccd7ae064f00251
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 54%
+source-wordcount: '1115'
+ht-degree: 52%
 
 ---
 
 
 <!--this is linked to the UI in an empty workspace screen-->
+
+<!--keep the yellow for cross-workspace functionality till Jan 2026-->
 
 # レコードタイプの作成
 
@@ -26,7 +28,7 @@ ht-degree: 54%
 
 レコードタイプは、Adobe Workfront Planning のオブジェクトタイプです。Workfront Planning では、組織のライフサイクルで必要な作業に関連するアイテムを示すカスタムレコードタイプを作成できます。
 
-レコードタイプについて詳しくは、[&#x200B; レコードタイプの概要 &#x200B;](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
+レコードタイプについて詳しくは、[ レコードタイプの概要 ](/help/quicksilver/planning/architecture/overview-of-record-types.md) を参照してください。
 
 ## アクセス要件
 
@@ -103,7 +105,7 @@ ht-degree: 54%
 
       * CSV または Excel ファイルを使用して読み込む場合。
 
-        詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成 &#x200B;](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) を参照してください。
+        詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成 ](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) を参照してください。
 
      >[!TIP]
      >
@@ -116,7 +118,7 @@ ht-degree: 54%
         この記事では、レコードタイプをゼロから作成する方法について説明します。
 
      <!--
-        * <span class="preview">By importing them from another workspace or adding cross-workspace record types</span>
+        * <span class="preview">By adding them from another workspace</span>
             <span class="preview">For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md). </span>-->
 
 
@@ -126,16 +128,16 @@ ht-degree: 54%
 
 Workfront Planning テンプレートを使用してワークスペースを作成すると、レコードタイプを自動的に作成できます。各テンプレートには、サンプルレコードタイプが含まれています。
 
+ワークスペースの作成については、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
+
+各テンプレートに含まれているレコードタイプについては、[ワークスペーステンプレートのリスト](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
+
 テンプレートからワークスペースを作成する場合、レコードタイプは次のセクションにグループ化されます。
 
 * 運用中のレコードタイプ
 * 分類
 
-運用レコードタイプおよび分類セクションの両方で、レコードタイプを手動で追加できます。
-
-ワークスペースの作成については、[ワークスペースの作成](/help/quicksilver/planning/architecture/create-workspaces.md)を参照してください。
-
-各テンプレートに含まれているレコードタイプについては、[ワークスペーステンプレートのリスト](/help/quicksilver/planning/architecture/workspace-templates.md)を参照してください。
+運用中のレコードタイプおよび分類セクションの両方で、レコードタイプを手動で追加できます。 詳しくは、この記事の [ ゼロからレコードを作成する ](#create-a-record-type-from-scratch) の節を参照してください。
 
 ## レコードタイプを最初から作成
 
@@ -149,10 +151,9 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 1. （任意）「**セクションを追加**」をクリックし、新規セクションをワークスペースに追加します。
 1. **レコードタイプを追加** をクリックし、次に **手動で追加** をクリックします。
 
-   「レコードタイプを追加」ボックスが開きます。
-   <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
+   「レコードタイプを追加」ボックスが開きます。<!--update screen shot for preview-->
 
-   ![&#x200B; 外観のオプションを含むレコードタイプボックスを追加 &#x200B;](assets/add-record-type-box-with-appearance-options.png)
+   ![ 外観のオプションを含むレコードタイプボックスを追加 ](assets/add-record-type-box-with-appearance-options.png)
 
 1. 「**外観** タブの次の情報を更新します。
 
@@ -162,50 +163,43 @@ Workfront Planning テンプレートを使用してワークスペースを作�
       * 新しいレコードタイプを識別する色を選択します。これは、レコードタイプアイコンの色です。灰色はデフォルトで選択されています。
       * リストからアイコンを選択するか、アイコンの名前を入力して何を表しているか説明し、表示されたら選択します。これは、レコードタイプのアイコンです。ファイルのアイコンはデフォルトで選択されています。
 
-
-   <!--old setting:
-    1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Connectivity scope** section: 
-        * Enable the **Connect from other workspace** setting. When enabled, the record type is accessible and can be connected from other workspaces. 
-        * Choose from which workspaces the record type can be accessed. Choose from the following options:
-            * **System wide**: Users can connect to this record type from all workspaces where they have manage permissions. 
-            * **Specific workspaces**: Add the names of the workspaces where workspace managers can connect to this record type. 
-    -->
-
 1. （オプションおよび条件付き）システム管理者の場合は、「**詳細設定**」をクリックして、「**クロスワークスペース機能**」セクションで次の情報を更新します。<!--the info here is duplicated in the Edit record types article-->
    * **他のワークスペースでこのレコードタイプへの接続を許可** 設定を有効にする：これにより、ワークスペースマネージャーは他のワークスペースからこのレコードタイプに接続できます。\
      このレコードタイプを接続できるワークスペースを指定できます。 すべてのワークスペースで使用できるようにすることも、読み込み先となる特定のワークスペースを指定することもできます。
-詳しくは、[&#x200B; レコードタイプに対するクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+詳しくは、[ レコードタイプに対するクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 
 
-   ![&#x200B; 「詳細設定」タブの「レコードタイプを作成」ボックス &#x200B;](assets/create-record-type-box-advanced-settings-tab.png)
+   ![ 「詳細設定」タブの「レコードタイプを作成」ボックス ](assets/create-record-type-box-advanced-settings-tab.png)
 
-   <!--replace last point with this when we release dynamic record types; the preview tags might need to be edited, too:
-        <div class="preview">
-        1. (Optional and conditional) If you are a system administrator, click **Advanced settings** and update the following information in the **Cross-workspace capability** section: **** the info here is duplicated in the Edit record types article ***
-            * Enable the **Allow adding this record type to other workspaces** setting: This allows workspace managers to add this record type to other workspaces. 
-                You can designate specific users who can add this record type to other workspaces. 
-            * Enable the **Allow connecting to this record type in other workspaces** setting: This allows workspace managers to connect to this record type from other workspaces.  
-                You can designate which workspaces this record type can be connected from. You can make it available for all workspaces or designate specific ones where you can import it.
-            For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).  </div>
-            ******** replace screen shot below **********
-            ![Create record type box on advanced settings tab](assets/create-record-type-box-advanced-settings-tab.png) 
-        -->
+   <!--replace last point with this when we release global record types; the preview tags might need to be edited, too:
+    1. <span class="preview">(Optional and conditional) If you are a system administrator, update the information in the **Cross-workspace settings** tab.</span>
+    <span class="preview">For more information, see [Configure cross-workspace capabilities for record types](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md).</span>
+    ***********Add screenshot***********
+    -->
 
-1. **保存**&#x200B;をクリックします。
+1. 「**保存**」をクリックします。
 
    選択したセクションとワークスペースにレコードタイプカードが追加されます。
 レコードタイプの説明がカードに表示されます。
 
-   ![&#x200B; 説明を記載したレコードタイプカード &#x200B;](assets/record-type-card-with-description.png)
+   ![ 説明を記載したレコードタイプカード ](assets/record-type-card-with-description.png)
 
-   このレコードを他のワークスペースから接続することを選択した場合、レコード カードに **他のスペースから接続** アイコン ![&#x200B; 他のスペースから接続アイコン &#x200B;](assets/connect-from-other-workspaces-icon.png) が表示されます。
+   このレコードを他のワークスペースから接続することを選択した場合、レコード カードに **他のスペースから接続** アイコン ![ 他のスペースから接続アイコン ](assets/connect-from-other-workspaces-icon.png) が表示されます。
 
-   <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connect from other spaces** icon ![Connect record type from other spaces icon](assets/connect-from-other-workspaces-icon.png) and the **add to other workspaces** icon ![Add record type to other workspaces](assets/global-icon.png) also display on the card. </span>-->
+   <!--<span class="preview">If you configured the cross-workspace capabilities for the record, the **connectable record type** icon ![Connectable record type icon](assets/connect-from-other-workspaces-icon.png) and the **global record type** icon ![Global record type icon](assets/global-icon.png) also display on the card. </span>-->
 
-1. （オプション）レコードタイプカードにポインタを合わせ、右上隅にある **詳細** アイコン ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックしてから、**編集** をクリックして、レコードタイプに関する情報を変更します。
+1. （オプション）レコードタイプカードにポインタを合わせ、右上隅にある **詳細** アイコン ![ 詳細メニュー ](assets/more-menu.png) をクリックしてから、**編集** をクリックして、レコードタイプに関する情報を変更します。
+
+   <!--replace the last point with this at the preview release of global record types:
+    <span class="preview">(Optional) Hover over the record type card, click the **More** icon ![More menu](assets/more-menu.png) in the upper-right corner, then click **Edit** or **Settings** to modify information about the record type. </span>
+    >[!TIP]
+    >
+    ><span class="preview">You can access the **Edit** and **Settings** options from the **More** menu of a record type in the record type page.</span>
+    -->
+
 1. （オプション）レコードタイプカードをクリックして、レコードタイプのページを開きます。
 
-   ![&#x200B; 運用レコードタイプが空白です &#x200B;](assets/operational-record-type-blank.png)
+   ![ 運用レコードタイプが空白です ](assets/operational-record-type-blank.png)
 
    デフォルトでは、レコードタイプページがテーブルビューに表示されます。テーブルの列は、新しいレコードタイプに関連付けられたフィールドです。各行は、追加する必要がある一意のレコードです。
 
@@ -221,7 +215,7 @@ Workfront Planning テンプレートを使用してワークスペースを作�
 
    または
 
-   レコードタイプ名の右側にある **詳細** アイコン ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、**編集** をクリックして、名前を変更したり、情報を変更したりします。 詳しくは、[&#x200B; レコードタイプの編集 &#x200B;](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
+   レコードタイプ名の右側にある **詳細** アイコン ![ 詳細メニュー ](assets/more-menu.png) をクリックし、**編集** をクリックして、名前を変更したり、情報を変更したりします。 詳しくは、[ レコードタイプの編集 ](/help/quicksilver/planning/architecture/edit-record-types.md) を参照してください。
 
 1. （オプション）「**+ 新規レコード**」をクリックして、選択したレコードタイプのレコードを追加します。詳しくは、[レコードの作成](/help/quicksilver/planning/records/create-records.md)を参照してください。
 1. （オプション）テーブルの右上隅にある「**+**」アイコンをクリックして、レコードタイプにさらにフィールドを追加します。
@@ -249,15 +243,15 @@ CSV または Excel ファイルから情報を読み込む場合は、次の情
 * レコード
 * レコードフィールド
 
-詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成 &#x200B;](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) を参照してください。
+詳しくは、[CSV または Excel ファイルから情報を読み込むことによるレコードタイプの作成 ](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md) を参照してください。
 
 <!--
 
 <div class="preview">
 
-## Create record types by importing them from another workspace 
+## Create record types by adding existing ones from another workspace 
 
-You can add record types to a workspace by importing them from another workspace. You can only add record types that have been configured as centralized record types. 
+You can add record types to a workspace by adding existing ones from another workspace. You can only add record types that have been configured as global record types. 
 
 For information, see [Add existing record types from another workspace](/help/quicksilver/planning/architecture/add-existing-record-types-from-another-workspace.md).
 
