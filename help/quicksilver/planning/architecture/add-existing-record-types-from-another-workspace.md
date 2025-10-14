@@ -31,11 +31,11 @@ recommendations: noDisplay, noCatalog
 
 ワークスペースマネージャは、まずレコードタイプをグローバルレコードタイプとして指定してから、既存のレコードタイプとして管理するワークスペースに追加する必要があります。 Workspace管理者は、レコードタイプのクロスワークスペース設定を定義することで、レコードタイプを作成または編集するときにグローバルとして指定できます。
 
-詳しくは、[ レコードタイプのクロスワークスペース機能の設定 ](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
+詳しくは、[&#x200B; レコードタイプのクロスワークスペース機能の設定 &#x200B;](/help/quicksilver/planning/architecture/configure-record-type-cross-workspace-capabilities.md) を参照してください。
 
 この記事では、既存のレコードタイプからレコードタイプを追加する方法と、不要になったレコードタイプを削除する方法について説明します。
 
-グローバル レコード タイプからワークスペースにレコードを追加する前に、[ ワークスペース間のレコード タイプの概要 ](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) の記事も参照してください。
+グローバル レコード タイプからワークスペースにレコードを追加する前に、[&#x200B; ワークスペース間のレコード タイプの概要 &#x200B;](/help/quicksilver/planning/architecture/cross-workspace-record-types-overview.md) の記事も参照してください。
 
 
 ## アクセス要件
@@ -80,7 +80,7 @@ And
 </tbody> 
 </table>
 
-Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
+Workfrontのアクセス要件について詳しくは、[Workfront ドキュメントのアクセス要件 &#x200B;](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md) を参照してください。
 
 +++   
 
@@ -90,9 +90,9 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 >
 >少なくとも 1 つの他のワークスペースに、グローバルに指定されたレコードタイプが 1 つ以上あることを確認してください。
 
-1. [ レコードタイプの作成 ](/help/quicksilver/planning/architecture/create-record-types.md) の説明に従ってレコードタイプの作成を開始し、「**既存を追加**」をクリックします。<!--check this - the option might have been renamed in the UI-->
+1. [&#x200B; レコードタイプの作成 &#x200B;](/help/quicksilver/planning/architecture/create-record-types.md) の説明に従ってレコードタイプの作成を開始し、「**既存を追加**」をクリックします。<!--check this - the option might have been renamed in the UI-->
 
-   ![ 別のワークスペースから追加するオプションを使用してレコードタイプを追加するモーダル ](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
+   ![&#x200B; 別のワークスペースから追加するオプションを使用してレコードタイプを追加するモーダル &#x200B;](assets/add-record-type-from-existing-workspace-option-when-creating-records.png)
 
    >[!TIP]
    >
@@ -142,10 +142,10 @@ Workfrontのアクセス要件について詳しくは、[Workfront ドキュメ
 
 1. セカンダリワークスペースのグローバルレコードタイプに移動します。
 
-1. （オプション）レコードタイプのカードまたはページ上のレコードタイプの名前の右側にある **詳細** メニュー ![ 詳細メニュー ](assets/more-menu.png) をクリックし、**削除** をクリックします。
+1. （オプション）レコードタイプのカードまたはページ上のレコードタイプの名前の右側にある **詳細** メニュー ![&#x200B; 詳細メニュー &#x200B;](assets/more-menu.png) をクリックし、**削除** をクリックします。
 1. （条件付き）表示されたフィールドに **削除** と入力し、「**完全に削除**」をクリックします。
 
-   ![ セカンダリ グローバル レコード タイプの削除の確認ボックス ](assets/delete-secondary-global-record-type.png)
+   ![&#x200B; セカンダリ グローバル レコード タイプの削除の確認ボックス &#x200B;](assets/delete-secondary-global-record-type.png)
 
    次のことが発生します。
 
