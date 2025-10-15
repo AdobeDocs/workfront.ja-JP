@@ -46,7 +46,7 @@ Workfront ドキュメントの操作手順記事には、その手順に必要�
   <p>お客様の組織が、これらの領域の 1 つ以上でWorkfront パッケージを購入している可能性があります。</p>
   <p>以前は、Workfrontは、ワークフロー、計画、自動化と統合を区別することなく、Workfront Select、Workfront PrimeおよびWorkfront Ultimate パッケージを提供していました。 組織が、これらのレガシーパッケージのいずれかに属している可能性があります。 
    <ul><li>現在のパッケージモデルか従来のパッケージモデルかなど、組織で使用しているAdobe Workfront パッケージを確認するには、Workfront管理者にお問い合わせください。</li>
-   <li>Workfront管理者が組織のWorkfront パッケージを見つける方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref"> 組織のクラスターとWorkfrontのパッケージを表示 </a> を参照してください。</li><li>Workfront パッケージについて詳しくは、<a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。</li></ul> </td> 
+   <li>Workfront管理者が組織のWorkfront パッケージを見つける方法については、<a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-package" class="MCXref xref"> 組織のクラスターとWorkfrontのパッケージを表示 </a> を参照してください。</li><li>Workfront パッケージについて詳しくは、<a href="https://business.adobe.com/jp/products/workfront/pricing.html">Adobe Workfrontの価格とパッケージ </a> を参照してください。</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront ライセンス</td> 
@@ -97,7 +97,7 @@ Workfront ドキュメントの操作手順記事には、その手順に必要�
    <ul><li>現在のライセンスモデルは、実行された操作の数に基づいており、組織が実行できるアクションに制限はありません。 </li>
    <li>従来のライセンスは、シナリオがサードパーティのアプリケーションに接続できるかどうか、またはシナリオがWorkfrontの自動処理にのみ使用されるかどうかに基づいています。 </li>
    </ul>
-   Fusion ライセンスについて詳しくは、<a href="https://experienceleague.adobe.com/en/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
+   Fusion ライセンスについて詳しくは、<a href="https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/set-up-and-manage-fusion/licensing-and-operations-overviews/license-automation-vs-integration" class="MCXref xref">Workfront Fusion ライセンス</a>を参照してください。
    </td> 
   </tr> 
  </tbody> 
