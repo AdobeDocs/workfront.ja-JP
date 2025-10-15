@@ -94,7 +94,7 @@ SSO が有効になると、ご自身と他のユーザーはアカウント上�
 ここでは次の 2 つの設定方法（5）を示します。
 
 1. **継承：**&#x200B;ハブアカウントから取得した設定での SSO。
-ユーザーが **デフォルトのログインページ** （[https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)）を使用して [!DNL Workfront Proof] にアクセスする場合、**2 つの認証レベル** が表示されます。最初にユーザーは、[!DNL Workfront Proof] のアクセスデータ（メールとパスワード）を使用してログインするように求められ、次に、SSO ウィンドウを介して SSO ログインページにユーザーが転送されます。
+ユーザーが **デフォルトのログインページ** （[https://business.adobe.com/jp/products/workfront/proofing-approvals.html](https://business.adobe.com/jp/products/workfront/proofing-approvals.html)）を使用して [!DNL Workfront Proof] にアクセスする場合、**2 つの認証レベル** が表示されます。最初にユーザーは、[!DNL Workfront Proof] のアクセスデータ（メールとパスワード）を使用してログインするように求められ、次に、SSO ウィンドウを介して SSO ログインページにユーザーが転送されます。
 したがって、SSO サービスを有効にした上で、自身の [!DNL Workfront Proof] サブドメインまたはドメインからログインすることをお勧めします。
 
    >[!NOTE]
@@ -143,7 +143,7 @@ SSO が有効になると、ご自身と他のユーザーはアカウント上�
 シングルサインオンが有効な場合、サブドメインログイン URL（例：yourcompany.proofhq.com/login）には、SSO ログインページに直接移動する転送画面（2）が表示されます。
    ![SSO_login_page.png](assets/sso-login-page-350x164.png)
 
-1. ユーザーが **デフォルトのログインページ** （[https://business.adobe.com/products/workfront/proofing-approvals.html](https://business.adobe.com/products/workfront/proofing-approvals.html)）を使用して [!DNL Workfront Proof] にアクセスした場合、**2 つの認証レベル** があります。 まず、ユーザーは [!DNL Workfront Proof] アクセスデータ（メールとパスワード）を使用してログインするように求められます。次に、ユーザーは SSO ウィンドウ（2）から SSO ログインページに転送されます。\
+1. ユーザーが **デフォルトのログインページ** （[https://business.adobe.com/jp/products/workfront/proofing-approvals.html](https://business.adobe.com/jp/products/workfront/proofing-approvals.html)）を使用して [!DNL Workfront Proof] にアクセスした場合、**2 つの認証レベル** があります。 まず、ユーザーは [!DNL Workfront Proof] アクセスデータ（メールとパスワード）を使用してログインするように求められます。次に、ユーザーは SSO ウィンドウ（2）から SSO ログインページに転送されます。\
    したがって、SSO サービスを有効にした上で、自身の [!DNL Workfront Proof]サブドメインまたはドメインからログインすることをお勧めします。
 
 1. 現時点で Workfront Proof アカウントでシングルサインオンが有効である場合、これらの資格情報を使用して iPhone アプリにログインすることはできません。

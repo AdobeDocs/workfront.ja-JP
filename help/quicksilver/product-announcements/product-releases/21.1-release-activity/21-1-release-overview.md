@@ -404,4 +404,4 @@ Workfront 21.1 リリースウェビナーは、2月3日午前 11 時（EDT）�
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://business.adobe.com/products/workfront.html)
+[Workfront One の詳細](https://business.adobe.com/jp/products/workfront.html)

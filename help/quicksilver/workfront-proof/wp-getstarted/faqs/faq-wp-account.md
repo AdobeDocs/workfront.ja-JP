@@ -23,7 +23,7 @@ ht-degree: 99%
 
 ## 新しい [!DNL Workfront Proof] アカウントを開くには？
 
-新しいアカウントを開くには、[体験版登録ページ](https://business.adobe.com/products/workfront/proofing-approvals.html)に移動し、体験版アカウントを開きます。その後、弊社のチームのメンバーが [!DNL Workfront Proof] の使用を開始できるようご連絡させていただきます。
+新しいアカウントを開くには、[体験版登録ページ](https://business.adobe.com/jp/products/workfront/proofing-approvals.html)に移動し、体験版アカウントを開きます。その後、弊社のチームのメンバーが [!DNL Workfront Proof] の使用を開始できるようご連絡させていただきます。
 
 すでにシステムについてはご存知で、有料プランに新規登録する場合は、*[!UICONTROL 設定]* *／* *[!UICONTROL 請求]*&#x200B;に移動して、有料プランのいずれかにアカウントをアップグレードしてください。
 

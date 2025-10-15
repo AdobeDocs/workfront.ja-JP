@@ -85,7 +85,7 @@ ht-degree: 92%
    <td>これは、ウェビナー、ebook、ホワイトペーパー、ビデオおよびレポートのソースとなります。</td> 
   </tr> 
   <tr> 
-   <td><a href="https://business.adobe.com/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">導入事例 </a></td> 
+   <td><a href="https://business.adobe.com/jp/customer-success-stories.html?Products=Adobe%2520Workfront%22%3E">導入事例 </a></td> 
    <td>60 件以上に及ぶケーススタディのコレクションを通じて、お客様が直面する課題、[!DNL Workfront] ソリューションおよびメリットを説明します。</td> 
   </tr> 
   <tr> 
@@ -142,7 +142,7 @@ ht-degree: 92%
 
 | [[!DNL Adobe Workfront] 統合](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) | サードパーティのアプリケーションと [!DNL Workfront] を統合できます。統合は、[!DNL Workfront] のユーティリティを拡張し、組織のニーズに合わせて調整できます。このナレッジベースの記事では、統合オプションについて説明し、今後の方向性を示します。 |
 |---|---|
-| [[!DNL Workfront] ビルトインの統合](https://business.adobe.com/products/workfront/integrations.html) | Workfront の無料のビルトインの統合により、同じワークフローやプロセスを維持しながら、Workfront プラットフォームへのスムーズな移行を実現します。 |
+| [[!DNL Workfront] ビルトインの統合](https://business.adobe.com/jp/products/workfront/integrations.html) | Workfront の無料のビルトインの統合により、同じワークフローやプロセスを維持しながら、Workfront プラットフォームへのスムーズな移行を実現します。 |
 | [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/home) | [!DNL Workfront] を100 を超えるアプリケーションに接続し、コードを使用せずにビジネスクリティカルなプロセスを容易に自動化できます。 |
 
 {style="table-layout:auto"}

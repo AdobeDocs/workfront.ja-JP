@@ -74,7 +74,7 @@ ht-degree: 86%
 
 * [!DNL Workfront Proof]
 
-  [!DNL Workfront Proof] からプルーフをリンクすると、最初に [!DNL Workfront Proof] 内で作成されたプルーフを、[!DNL Workfront] 内で使用可能にすることができます。この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+  [!DNL Workfront Proof] からプルーフをリンクすると、最初に [!DNL Workfront Proof] 内で作成されたプルーフを、[!DNL Workfront] 内で使用可能にすることができます。この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
 * [!DNL Microsoft SharePoint]
 
@@ -97,7 +97,7 @@ ht-degree: 86%
 
 * その他のドキュメントプロバイダー（カスタムドキュメント統合を通じて）。
 
-  この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+  この機能を使用するには、現在のプランでは、[!UICONTROL Pro] [!DNL Workfront] プラン以上が必要です。新しいプランでは、この機能はすべてのプランで使用できます。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
 さらに、サードパーティの DAM 統合を使用して、[!DNL Workfront] ドキュメントのエクスペリエンスを向上させることができます。 ユーザーがサービスを [!DNL Workfront] アカウントにリンクするには、管理者がこれらの機能を有効にする必要があります。
 

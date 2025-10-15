@@ -363,4 +363,4 @@ Workfront 20.4 リリースウェビナーは、2020年10月28日（水）午前
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://business.adobe.com/products/workfront.html)
+[Workfront One の詳細](https://business.adobe.com/jp/products/workfront.html)

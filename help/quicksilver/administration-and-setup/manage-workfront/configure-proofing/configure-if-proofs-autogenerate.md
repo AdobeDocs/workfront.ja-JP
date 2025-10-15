@@ -27,7 +27,7 @@ ht-degree: 82%
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront プラン</a> </td> 
+   <td role="rowheader"><a href="https://business.adobe.com/jp/products/workfront/pricing.html" target="_blank">Adobe Workfront プラン</a> </td> 
    <td>任意</td> 
   </tr> 
   <tr> 

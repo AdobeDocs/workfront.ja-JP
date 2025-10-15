@@ -112,7 +112,7 @@ ht-degree: 98%
 >
 >会社は、ポートフォリオオプティマイザーでプロジェクトに優先度付けをするには、Business 以上の Workfront プランが必要です。
 >
->Workfront プランについて詳しくは、[アドビのプラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+>Workfront プランについて詳しくは、[アドビのプラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 >
 >ポートフォリオオプティマイザーでのプロジェクトの優先順位付けについて詳しくは、[ポートフォリオオプティマイザーでのプロジェクトの優先順位付け](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)を参照してください。
 

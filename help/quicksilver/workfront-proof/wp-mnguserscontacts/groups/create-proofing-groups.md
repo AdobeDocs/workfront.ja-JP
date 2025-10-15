@@ -20,7 +20,7 @@ ht-degree: 100%
 >
 >この記事では、スタンドアロン製品 [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内でのプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-この機能を使用するには、Select または Premium プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront]  プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+この機能を使用するには、Select または Premium プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront]  プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
 複数のプルーフにレビュー担当者として追加できるユーザーのグループを作成できます。これは、同じユーザーにコンテンツを定期的に送信する場合に役立ちます。
 

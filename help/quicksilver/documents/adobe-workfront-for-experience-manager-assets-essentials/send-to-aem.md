@@ -38,7 +38,7 @@ Workfront から Experience Manager Assets または Assets Essentials にアセ
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">Adobe Workfront プラン</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/jp/products/workfront/pricing.html" target="_blank">Adobe Workfront プラン</a>*</td> 
    <td> <p> 任意</p> </td> 
   </tr> 
   <tr> 

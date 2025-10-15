@@ -54,5 +54,5 @@ Workfront for Experience Manager の拡張コネクタで、次のことがで�
 
 ## その他の関連ヘルプ
 
-* [Workfront for Adobe Experience Manager](https://business.adobe.com/products/workfront/aem-integration.html) の概要
+* [Workfront for Adobe Experience Manager](https://business.adobe.com/jp/products/workfront/aem-integration.html) の概要
 * [Adobe Workfront for Experience Manager Assets Essentials](../../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)

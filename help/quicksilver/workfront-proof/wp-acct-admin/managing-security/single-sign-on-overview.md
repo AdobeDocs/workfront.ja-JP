@@ -21,7 +21,7 @@ ht-degree: 100%
 >
 >この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-この機能を使用するには、[!UICONTROL Enterprise] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+この機能を使用するには、[!UICONTROL Enterprise] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
 シングルサインオン（SSO）を使用すると、ユーザーは組織の既存のユーザー名とパスワードを使用して [!DNL Workfront Proof] へログインできます。
 

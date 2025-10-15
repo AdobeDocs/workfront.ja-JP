@@ -215,7 +215,7 @@ Flash 技術に依存するすべての機能は、2018.3 リリースで Workfr
 
 次のリソースで Workfront for Outlook の詳細を理解し、使用を開始してください。
 
-* [Web サイトとビデオ](https://business.adobe.com/products/workfront/integrations.html)
+* [Web サイトとビデオ](https://business.adobe.com/jp/products/workfront/integrations.html)
 * [Outlook での Workfront の使用](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)（ヘルプ記事）
 
 ### 古い API バージョンの削除 {#removing-old-api-versions}

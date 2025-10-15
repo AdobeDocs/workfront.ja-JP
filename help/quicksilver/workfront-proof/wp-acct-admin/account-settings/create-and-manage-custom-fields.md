@@ -22,7 +22,7 @@ ht-degree: 50%
 >
 >この記事では、スタンドアロン製品の [!DNL Workfront Proof] の機能について説明します。[!DNL Adobe Workfront] 内のプルーフについて詳しくは、[プルーフ](../../../review-and-approve-work/proofing/proofing.md)を参照してください。
 
-この機能を使用するには、Select または Premium[!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+この機能を使用するには、Select または Premium[!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[Workfront プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
 カスタムフィールドを使用すると、新しいプルーフ、ユーザーまたはゲストを作成する際に、追加のデータを取得できます。 例えば、新しいプルーフを作成するユーザーは、ジョブ番号、部門コードまたはサプライヤー参照を取り込むための追加セクションを含めることができます。
 

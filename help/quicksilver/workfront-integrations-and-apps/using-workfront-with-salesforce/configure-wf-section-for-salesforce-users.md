@@ -25,7 +25,7 @@ ht-degree: 89%
 >
 >SalesforceのWorkfront Automation and Integration モジュールの具体的な機能については、[Salesforce モジュール &#x200B;](https://experienceleague.adobe.com/ja/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/salesforce-modules) を参照してください。
 
-この機能を使用するには、[!UICONTROL Pro] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront]  プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+この機能を使用するには、[!UICONTROL Pro] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront]  プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
 [!DNL Workfront] 管理者は、[!DNL Adobe Workfront] for [!DNL Salesforce] をインストールした後に、[!UICONTROL Salesforce] の新しいセクションで[!UICONTROL 商談]ページレイアウトおよび[!UICONTROL アカウント]
 ページレイアウトに追加することにより、ユーザーがそれを使用できるようになります。

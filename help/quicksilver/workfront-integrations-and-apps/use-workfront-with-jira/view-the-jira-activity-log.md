@@ -56,7 +56,7 @@ ht-degree: 78%
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://business.adobe.com/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront] プラン</a>*</td> 
+   <td role="rowheader"><a href="https://business.adobe.com/jp/products/workfront/pricing.html" target="_blank">[!DNL Adobe Workfront] プラン</a>*</td> 
    <td> <p>[!UICONTROL Pro] 以降</p> </td> 
   </tr> 
   <tr> 

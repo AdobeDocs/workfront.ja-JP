@@ -38,7 +38,7 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->この機能を使用するには、[!UICONTROL Pro] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront] プラン](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+>この機能を使用するには、[!UICONTROL Pro] [!DNL Workfront] プランが必要です。利用可能な様々なプランについて詳しくは、[[!DNL Workfront] プラン](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
 ## アクセス要件
 

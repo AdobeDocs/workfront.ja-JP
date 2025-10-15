@@ -52,7 +52,7 @@ ht-degree: 73%
  </tbody> 
 </table>
 
-Workfront のプランについて詳しくは、[アドビの計画](https://business.adobe.com/products/workfront/pricing.html)を参照してください。
+Workfront のプランについて詳しくは、[アドビの計画](https://business.adobe.com/jp/products/workfront/pricing.html)を参照してください。
 
 Workfront のワークロードバランサーの場所について詳しくは、[ワークロードバランサーの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
 

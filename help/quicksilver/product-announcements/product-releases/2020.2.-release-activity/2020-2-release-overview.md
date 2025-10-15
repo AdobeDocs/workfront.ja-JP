@@ -282,7 +282,7 @@ API バージョンについて詳しくは、[API のバージョン管理と�
 
 Workfront One を使用すると、Workfront の重要なコンテンツ、リソース、ニュースをすべて 1 か所で、1 回のログインで見つけることができます。エクスペリエンス、コミュニティ、トレーニングの各サイトを統合し、探しているものを見つけやすくしました。
 
-[Workfront One の詳細](https://business.adobe.com/products/workfront.html)
+[Workfront One の詳細](https://business.adobe.com/jp/products/workfront.html)
 
 ### 2020.1 リリースウェビナー {#2020-1-release-webinar}
 
