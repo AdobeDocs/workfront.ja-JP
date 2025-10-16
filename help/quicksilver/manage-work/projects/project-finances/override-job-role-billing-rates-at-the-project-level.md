@@ -21,7 +21,7 @@ ht-degree: 86%
 
 この記事では、プロジェクトのシステム担当業務の請求料金を上書きする方法について説明します。
 
-プロジェクトの担当業務請求率の上書きおよびプロジェクト収益の計算に関する一般情報については、[ プロジェクトの担当業務請求率の上書きおよび収益の計算の概要 ](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md) を参照してください。
+プロジェクトの担当業務請求率の上書きおよびプロジェクト収益の計算に関する一般情報については、[&#x200B; プロジェクトの担当業務請求率の上書きおよび収益の計算の概要 &#x200B;](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md) を参照してください。
 
 プロジェクトの収益の計算に使用される担当業務について詳しくは、[請求と収益の概要](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md)の記事の「ユーザーおよび役割の割り当てに基づくタスクの収益計算について」の節を参照してください。
 
@@ -103,7 +103,7 @@ ht-degree: 86%
    * **終了日**：新規請求料金の上書きが終了する日付です。
 
    <!--<span class="preview">Sample image in the Preview environment:</span>-->
-   ![ 請求料率と上書き日 ](assets/billing-rates-093025.png)
+   ![&#x200B; 請求料率と上書き日 &#x200B;](assets/billing-rates-093025.png)
 
    <!--Sample image in the Production environment:
    ![Billing rates with override dates](assets/new-billing-rate-with-adjustment-dates-350x266.png)-->
