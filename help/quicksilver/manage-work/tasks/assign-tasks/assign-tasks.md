@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management, Tasks
 role: User
 exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1814'
-ht-degree: 92%
+source-wordcount: '1820'
+ht-degree: 91%
 
 ---
 
 # タスクを割り当て
-
-{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -206,7 +204,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
      <!--<span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. （条件付き）「割り当て」フィールドで、「割り当て」ボックスの右上隅にある <span class="preview">**詳細**</span> または **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン**![ 人物アイコン ](assets/teams.png) をクリックして、**詳細な割り当て** ボックスを開き、詳細な割り当てを作成します。
 
    詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 

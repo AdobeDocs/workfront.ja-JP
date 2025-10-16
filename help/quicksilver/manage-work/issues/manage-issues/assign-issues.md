@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 7aa420946115fc612ad1d9e310583e5453ae0678
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1424'
 ht-degree: 88%
 
 ---
 
 # イシューの割り当て
-
-{{preview-fast-release-general}}
 
 <!--Audited: 07/2024-->
 
@@ -117,13 +115,13 @@ ht-degree: 88%
 
    イシューが既に割り当てられている場合は、現在の割り当ての名前をクリックします。
 
-   ![&#x200B; 割り当て先ボタン &#x200B;](assets/assign-to-button-in-header.png)
+   ![ 割り当て先ボタン ](assets/assign-to-button-in-header.png)
 
 1. 次のいずれかの操作を行います。
 
    * 割り当てるユーザー、役割、またはチームの名前を入力し、リストに表示されたらクリックします。
 
-     ![&#x200B; 割り当て検索 &#x200B;](assets/smart-assignments-issue-header.png)
+     ![ 割り当て検索 ](assets/smart-assignments-issue-header.png)
 
    * （条件付き）使用可能なリストの名前、役割、チームのいずれかをクリックします
    * 「**自分に割り当て**」をクリックして、自分に割り当てる
@@ -166,15 +164,11 @@ ht-degree: 88%
 
    * 「**割り当て先**」または「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザーの名前の入力を開始し、リストに表示されたらクリックします。
 
-     ![&#x200B; 割り当て先フィールド &#x200B;](assets/assigned-to-field-task-list-nwe.png)
+     ![ 割り当て先フィールド ](assets/assigned-to-field-task-list-nwe.png)
 
    * 「**割り当て**」フィールドの内側をクリックし、イシューに割り当てるアクティブなユーザー、担当業務、またはアクティブなチームの名前の入力を開始し、リストに表示されたらクリックします。
 
-     <span class="preview"> プレビュー環境のサンプル画像：</span>
-     ![&#x200B; 割り当てフィールド &#x200B;](assets/assignments-field-0825.png)
-
-     本番環境のサンプル画像：
-     ![&#x200B; 割り当てフィールド &#x200B;](assets/assignments-field-task-list-0424.png)
+     ![ 割り当てフィールド ](assets/assignments-field-0825.png)
 
    >[!TIP]
    >
@@ -184,7 +178,7 @@ ht-degree: 88%
    >
    >ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
-1. （条件付き）「割り当て」フィールドで、「割り当て」ボックスの右上隅にある <span class="preview">**詳細**</span> または **人物アイコン**![&#x200B; 人物アイコン &#x200B;](assets/teams.png) をクリックして、「詳細な割り当て」ボックスを開き、詳細な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
+1. （条件付き）「割り当て」フィールドで、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン** ![ 人物アイコン ](assets/teams.png) をクリックして、「詳細な割り当て」ボックスを開き、詳細な割り当てを作成します。 詳しくは、[詳細な割り当てを作成](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
    >[!TIP]
    >
@@ -196,7 +190,7 @@ ht-degree: 88%
 
 1. 一括で割り当てるイシューのリストに移動します。
 1. リストから複数のイシューを選択します。
-1. **編集アイコン**![&#x200B; 編集アイコン &#x200B;](assets/qs-edit-icon.png) をクリックします。
+1. **編集アイコン**![ 編集アイコン ](assets/qs-edit-icon.png) をクリックします。
 
    **問題を編集**&#x200B;ダイアログボックスが開きます。
 

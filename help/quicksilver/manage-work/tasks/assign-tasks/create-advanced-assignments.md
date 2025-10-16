@@ -7,16 +7,14 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: d0be569333b0454e26f4d0de1078b0425cf81707
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
-source-wordcount: '1121'
-ht-degree: 81%
+source-wordcount: '1118'
+ht-degree: 80%
 
 ---
 
 # 高度な割り当てを作成
-
-{{preview-fast-release-general}}
 
 <!-- Audited: 07/2024-->
 
@@ -87,11 +85,8 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    >[!TIP]
    >
-   >タスクまたは問題リストで直接詳細な割り当てを行うことができます。 タスクまたはイシューと同じ行の **割り当て** フィールド内をクリックし、<span class="preview">**詳細**</span> または **人物アイコン** をクリックして、詳細な割り当てウィンドウを開きます。 高度な割り当ての作成を続行するには、手順 5 に進んでください。
-   ><span class="preview"> プレビュー環境のサンプル画像：</span>
-   >![&#x200B; 「詳細」または「人物」アイコンをクリックします &#x200B;](assets/access-aa-from-lists.png)。
-   >本番環境のサンプル画像：
-   >![&#x200B; 人物アイコンをクリック &#x200B;](assets/nwe-advanced-assignments-350x55.png)
+   >タスクまたは問題リストで直接詳細な割り当てを行うことができます。 タスクまたは問題と同じ行の「**割り当て**」フィールド内をクリックし、リストの下部にある **詳細** をクリックするか、割り当てボックスの右上隅にある **人物アイコン** をクリックして、「詳細な割り当て」ウィンドウを開きます。 高度な割り当ての作成を続行するには、手順 5 に進んでください。
+   >![ 「詳細」または「人物」アイコンをクリックします ](assets/access-aa-from-lists.png)。
 
 1. タスクまたはイシューのヘッダーにある&#x200B;**割り当て**&#x200B;フィールドの「**割り当て先**」をクリックします。
 
@@ -101,7 +96,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
 1. 「**詳細**」をクリックします。
 
-   ![&#x200B; 「詳細」をクリック &#x200B;](assets/assignments-from-task-header-0825.png)
+   ![ 「詳細」をクリック ](assets/assignments-from-task-header-0825.png)
 
 1. 「**ユーザー、役割、チームを検索**」フィールドにユーザー、役割、チームの名前の入力を開始し、ドロップダウンリストに表示される名前をクリックします。
 
@@ -149,7 +144,7 @@ Workfront の次の領域でも、高度な割り当てをおこなうことが�
 
    * **割り当て先の役割：**&#x200B;この割り当てを実行する際にユーザーが使用する役割を選択します。デフォルトでは、ユーザーの主要役割が表示されます。「**担当者の役割**」ボックスをクリックして、別の役割を選択します。 最初にタスクやイシューを役割に割り当て、次にその役割を実行できるユーザーを 2 番目の割り当てとして追加すると、ユーザー候補のリストは、タスクやイシューに既に割り当てられている役割を実行できるユーザーに絞り込まれます。
 
-     ![&#x200B; 割り当て先の役割 &#x200B;](assets/advanced-assignments-select-role.png)
+     ![ 割り当て先の役割 ](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
 

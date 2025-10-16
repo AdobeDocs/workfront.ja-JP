@@ -7,7 +7,7 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: 987b6e9b5f6b1feb323906cf7c24f5024fc84663
+source-git-commit: e1580f7b9065fce7bb31ab0c7edb00fd2856e1df
 workflow-type: tm+mt
 source-wordcount: '747'
 ht-degree: 80%
@@ -15,8 +15,6 @@ ht-degree: 80%
 ---
 
 # ワークロードバランサーを使用して作業を手動で割り当てる
-
-{{preview-fast-release-general}}
 
 Adobe Workfront ワークロードバランサーを使用すると、作業アイテムを手動でユーザーに割り当てることができます。
 
@@ -69,7 +67,7 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
 
    ワークロードバランサーを使用して、リソース領域、プロジェクト、またはチームレベルで作業をユーザーに割り当てることができます。ワークロードバランサーの Workfront 内の場所について詳しくは、[ワークロードバランサーの検索](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)を参照してください。
 
-1. （オプション） **未割り当ての作業** エリアに移動して、フィルターを適用し、タスク、イシュー <span class="preview"> 役割の割り当て </span> を表示します。
+1. （任意） **未割り当ての作業** エリアに移動して、フィルターを適用し、タスク、イシュー、役割の割り当てを表示します。
 
    または
 
@@ -77,11 +75,11 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
 
    >[!NOTE]
    >
-   ><span class="preview"> 「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目の下に表示されます。 詳しくは、[&#x200B; ワークロードバランサーの操作 &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) の [&#x200B; ビューのカスタマイズ &#x200B;](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) を参照してください。</span>
+   >「役割の割り当てを表示」設定が有効になっている場合、役割の割り当ては「未割り当ての作業」エリアの作業項目の下に表示されます。 詳しくは、[ ワークロードバランサーの操作 ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md#customize-the-view) の [ ビューのカスタマイズ ](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) を参照してください。
 
-1. 作業項目名 **または役割の割り当て** の左側にある ![&#x200B; その他メニュー &#x200B;](assets/qs-more-menu.png) <span class="preview"> その他メニュー </span> をクリックし、**割り当て先** をクリックします。
+1. 作業項目名または役割割り当ての左側にある **その他メニュー**![ その他メニュー ](assets/qs-more-menu.png) をクリックし、**割り当て先** をクリックします。
 
-   ![&#x200B; 割り当て先 &#x200B;](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![ 割り当て先 ](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -103,11 +101,11 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
    > ユーザーがユーザーのメールを表示するには、アクセスレベルで、連絡情報の表示の設定を有効にしておく必要があります。詳しくは、[ユーザーへのアクセス権の付与](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)を参照してください。
 
 
-   ![&#x200B; 高度な割り当て &#x200B;](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![ 高度な割り当て ](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
-   > お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。作業アイテムにデリゲートされたユーザーを表示するには、「デリゲーション」タブを使用します。作業の委任について詳しくは、[&#x200B; タスクとイシューを委任 &#x200B;](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
+   > お使いの環境で Workfront 管理者またはグループ管理者が委任を有効にしている場合は、「割り当て」タブを使用して、ユーザーをタスクまたはイシューに割り当てます。作業アイテムにデリゲートされたユーザーを表示するには、「デリゲーション」タブを使用します。作業の委任について詳しくは、[ タスクとイシューを委任 ](../../manage-work/delegate-work/how-to-delegate-work.md) を参照してください。
 
 
    これにより、指定された担当者に作業アイテムが割り当てられるか、再割り当てされます。
@@ -132,7 +130,7 @@ Adobe Workfront ワークロードバランサーを使用すると、作業ア�
 
      高度な割り当ての実行について詳しくは、[高度な割り当てを作成](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)を参照してください。
 
-1. （オプション） **割り当てを表示アイコン**![&#x200B; 割り当てを表示アイコン &#x200B;](assets/show-allocations-icon-small.png) をクリックし、**詳細メニュー**![&#x200B; 詳細メニュー &#x200B;](assets/qs-more-menu.png)>**割り当てを編集** をクリックします。
+1. （オプション） **割り当てを表示アイコン**![ 割り当てを表示アイコン ](assets/show-allocations-icon-small.png) をクリックし、**詳細メニュー**![ 詳細メニュー ](assets/qs-more-menu.png)>**割り当てを編集** をクリックします。
 
    または
 
